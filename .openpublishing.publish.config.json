@@ -44,8 +44,7 @@
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
+      "build_entry_point": "docs",      "template_folder": "_themes"
     },
     {
       "docset_name": "d365OpsHR",
