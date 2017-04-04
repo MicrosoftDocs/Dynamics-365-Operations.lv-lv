@@ -33,9 +33,8 @@ Lai pārvaldītu savas organizācija krājumus, varat izmantot tālāk uzskaitī
 
 ## <a name="purchase-orders"></a>Pirkšanas pasūtījumi
 Pirkšanas pasūtījumi tiek izveidoti galvenajā birojā. Ja mazumtirdzniecības noliktava ir iekļauta pirkšanas pasūtījuma virsrakstu, izmantojot mūsdienu POS (MPOS) vai mākonis POS Microsoft Dynamics 365 operācijām - mazumtirdzniecības kārtību var saņemt veikalā. Pēc tam, kad ievadīti daudzumiem, kas saņemti noliktavā, tās var saglabāt lokāli papildu modificēšanai. Alternatīvi daudzumus var fiksēt un nosūtīt uz galveno biroju. Galvenajā birojā, daudzumus, kas tika saņemtas noliktavā tiek parādīti programmā Dynamics 365 operācijām, **saņemt tagad** lauku pirkšanas pasūtījumā.
-Pārsūtīšanas pasūtījumi
----------------
 
+## <a name="transfer-orders"></a>Pārsūtīšanas pasūtījumi
 Pārsūtīšanas pasūtījums var norādīt, ka konkrēts veikals ir novietojums, no kura krājumus var sūtīt. Šajā gadījumā pārsūtīšanas pasūtījuma parādās veikalā kā izdošanas pieprasījumu MPOS vai POS mākonis. Pēc daudzumiem, kas ir pieprasītas ir jāpaņem, tie ir izdarījuši un galvenais birojs nosūtīja. Galvenajā birojā, daudzumus, kas tika izdots veikalā tiek parādīti programmā Dynamics 365 operācijām, **kuģis tagad** laukā pārvietošanas pasūtījumā. Pārsūtīšanas pasūtījums var norādīt, ka konkrēts veikals ir novietojums, uz kuru krājumus var sūtīt. Šajā gadījumā pārsūtīšanas pasūtījuma parādās veikalā kā saņēmēja pieprasījuma MPOS vai POS mākonis. Pēc tam, kad ievadīti daudzumiem, kas saņemti noliktavā, tās var saglabāt lokāli papildu modificēšanai. Alternatīvi daudzumus var fiksēt un nosūtīt uz galveno biroju. Galvenajā birojā, daudzumus, kas tika saņemtas noliktavā tiek parādīti programmā Dynamics 365 operācijām, **saņemt tagad** laukā pārvietošanas pasūtījumā.
 
 ## <a name="stock-counts"></a>Krājumu uzskaite
