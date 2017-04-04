@@ -1,0 +1,66 @@
+---
+title: "Kreditoriem un debitoru parādu ārvalstu valūtas pārvērtēšana"
+description: "Valūtas maiņas kursu svārstības laikā gaitā izraisa neapmaksāto transakciju teorētiskās vērtības (atlikušās vērtības) ārvalstu valūtās izmaiņas. Šajā rakstā ir sniegta informācija par ārvalstu valūtas pārvērtēšanas procesu, kas tiek veikts, lai atjauninātu kreditoru un debitoru neapmaksāto transakciju vērtību."
+author: twheeloc
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: CustExchRateAdjustment, VendExchRateAdjustment
+audience: Application User
+ms.reviewer: twheeloc
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 14211
+ms.assetid: defb1ea5-1f3e-4859-87d8-3f9954d3f388
+ms.search.region: Global
+ms.author: kweekley
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 44d51807cd6bb64ae2c4bef58d8a445417ffa3a9
+ms.openlocfilehash: 69a57cc5a2d652efc2ee14906c64b0dc741da31c
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="foreign-currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Kreditoriem un debitoru parādu ārvalstu valūtas pārvērtēšana
+
+Valūtas maiņas kursu svārstības laikā gaitā izraisa neapmaksāto transakciju teorētiskās vērtības (atlikušās vērtības) ārvalstu valūtās izmaiņas. Šajā rakstā ir sniegta informācija par ārvalstu valūtas pārvērtēšanas procesu, kas tiek veikts, lai atjauninātu kreditoru un debitoru neapmaksāto transakciju vērtību. 
+
+Neapmaksāto transakciju ārvalstu valūtās teorētiskā vai atlikusī vērtība laika gaitā mainās valūtas maiņas kursu svārstību dēļ. Lai atjauninātu kreditoru un debitoru neapmaksāto transakciju vērtību, izpildiet ārvalstu valūtas pārvērtēšanas procesu. Ārvalstu valūtas pārvērtēšanu var veikt gan kreditoru, debitoru parādiem. Procesā tiek izmantots jauns valūtas maiņas kurss, lai pārvērtētu neapmaksātās summas vai nenosegtās summas uz konkrēto datumu. Atšķirības starp oriģinālo iegrāmatotās summas un pārvērtēto summu radīs Nerealizētie guvumi vai zaudējumi, katram atvērtas darbības. Kreditoru un debitoru kontus subledgers tad tiek atjaunināti, lai atspoguļotu Nerealizētie guvumi vai zaudējumi, un grāmatvedības ieraksts iegrāmatots Virsgrāmatā.
+
+## <a name="simulate-a-foreign-currency-revaluation"></a>Simulēt ārvalstu valūtas pārvērtēšanu
+Pirms neapmaksāto transakciju ārvalstu valūtas summu pārvērtēšanas var veikt tās pašas dienas un metodes ārvalstu valūtas pārvērtēšanas simulācijas pārskatu. Lai ģenerētu simulācijas pārskatu, lapā **Ārvalstu valūtas pārvērtēšana** noklikšķiniet uz pogas **Simulācija**. Atkarībā no definētajiem simulācijas parametriem pārskats nodrošina nerealizētās peļņas vai zuduma summas priekšskatu.
+
+## <a name="process-a-foreign-currency-revaluation"></a>Ārvalstu valūtas pārvērtēšanas apstrāde
+Lietošanas **ārvalstu valūtas pārvērtēšanas** lapa zem **periodiskos uzdevumus** pārvērtēt atvērtās darbības. Varat palaist procesu reāllaikā vai ieplānot tā palaišanu, izmantojot pakešuzdevumu. Definējot pārvērtēšanas process iestatījumus, pārliecinieties, lai pārbaudītu, vai vēlaties drukāt rezultātu pārskatu. Pārvērtēšanas ziņojums nevar tikt atkārtots pēc procesa pabeigšanas. Ja tiek ģenerēts ārvalstu valūtas pārvērtēšanas pārskats, tajā ir redzami dažādi atlikumi debitora/kreditora un valūtas līmenī:
+
+-   debitoru vai kreditoru, kam ir pārvērtētas transakcijas ārvalstu valūtā, atlikumi. Ir redzami tālāk norādītie atlikumi.
+    -   Kopējais sākotnējais atlikums ārvalstu valūtā.
+    -   Kopējā ārvalstu valūtas summa uzskaites valūtā pēc iepriekšējās pārvērtēšanas datiem.
+    -   Kopējā ārvalstu valūtas summa uzskaites valūtā pēc pašreizējās pārvērtēšanas datiem.
+    -   Iepriekšējās un pašreizējās pārvērtēšanas starpība. Šī starpība ir papildu nerealizētā peļņa vai zudums.
+-   Kopējā nerealizētā peļņa vai zudums visās valūtās.
+
+Par katru veikto ārvalstu valūtas pārvērtēšanu tiek veikta uzskate. Lapas **Ārvalstu valūtas pārvērtēšana** ierakstā atlasiet opciju **Transakcijas**, lai skatītu detalizētu to transakciju sarakstu, kas tika izveidotas pārvērtēšanas procesā. Katra dokumenta darbības apzīmē atvērto darbību, kas bija Pārvērtēts. Ja atvērtu darbību tika pārvērtēti vairāk nekā vienu reizi, jūs redzēsiet divus ierakstus, kas izmanto vienu un to pašu dokumentu. Viena ieraksta atgriešanai iepriekšējā nerealizēto guvumu vai zaudējumu, un citu ierakstu būs par jaunu Nerealizētie guvumi vai zaudējumi. Lai izpildītu pārvērtēšanas procesu, noklikšķiniet uz pogas **Ārvalstu valūtas pārvērtēšana**. Definējiet attiecīgos tālāk norādīto parametru iestatījumus.
+
+-   **Metode** — atlasītajā ārvalstu valūtas pārvērtēšanas darbā izmantotā metode.
+    -   **Standarts** — ārvalstu valūtas pārvērtēšanas darbi tiek grāmatoti neatkarīgi no tā, vai rezultāts ir peļņa vai zaudējums.
+    -   **Minimums** — ārvalstu valūtas pārvērtēšanas darbi tiek grāmatoti tikai tad, ja rezultāts ir zaudējums.
+    -   **Rēķina datums** — ārvalstu valūtas pārvērtēšanas darbos tiek izmantots to transakciju sākotnējais maiņas kurss, kuras tiek pārvērtētas to sākotnējā vērtībā uzskaites valūtā. Visa iepriekšējās ārvalstu valūtas pārvērtēšanas ietekme tiek atcelta.
+-   **Attiecīgais datums** — datums, kurā atrod visas transakcijas ar nenomaksātām (nenosegtām) summām uz šo datumu. Ārvalstu valūtas summas, kas tiek pārvērtētas, izmantojot valūtas maiņas kursus, kas ir ievadīti lapā **Valūtas maiņas kursi** uz attiecīgo datumu. Ja ārvalstu valūtas summas tiek pārvērtētas attiecīgajā datumā, šis datums kļūst par koriģēto transakciju pēdējās ārvalstu valūtas pārvērtēšanas datumu. Ja ārvalstu valūtas pārvērtēšana attiecīgajā datumā, kas ir pirms pēdējā ārvalstu valūtas pārvērtēšanas datuma, tiek veikta jau koriģētām transakcijām, periodiskā darba izpildes gaitā netiek koriģētas transakcijas, kas nav bijušas apmaksātas uz iepriekšējo attiecīgo datumu, bet uz kurām attiecas jaunāks ārvalstu valūtas pārvērtēšanas datums.
+-   **Valūtas kursa datums** — datums, kas nosaka ārvalstu valūtas pārvērtēšanas procesā izmantoto valūtas kursu.
+-   **Izmantot grāmatošanas metodi no** — grāmatošanas metode, ko izmanto, lai atvērtu kreditora vai debitora noklusējuma galveno kontu ārvalstu valūtas pārvērtēšanas transakciju uzskaites ierakstiem.
+    -   **Grāmatošana** — izmantotā debitora transakciju grāmatošanas metode.
+    -   **Atlasīt** — grāmatošanas metodes ievadīšana laukā **Grāmatošanas profils**.
+-   **Grāmatošanas metode** — ja laukā **Izmantot grāmatošanas metodi no** ir atlasīta opcija **Atlasīt**, tad šajā laukā ievadītā grāmatošanas metode nosaka ārvalstu valūtas pārvērtēšanas transakciju grāmatošanas metodi.
+-   **Finanšu dimensijas** — finanšu dimensijas, kas tiek iegrāmatotas ārvalstu valūtas pārvērtēšanas transakciju uzskaites ierakstos.
+    -   **Nav** — netiek iegrāmatota neviena finanšu dimensija. Ja konta struktūrā ir noteikta obligāta finanšu dimensija, pārvērtēšanas process tiek veikts, bet tiek izveidoti uzskaites ieraksti bez finanšu dimensijām. Vispirms tiek parādīts brīdinājuma ziņojums, kas ļauj pārvērtēšanu atcelt.
+    -   **Tabula** — ārvalstu valūtas pārvērtēšanas transakcijās tiek iegrāmatotas debitora un kreditora konta finanšu dimensijas.
+    -   **Grāmatošana** — ārvalstu valūtas pārvērtēšanas transakcijās tiek iegrāmatotas pārvērtētās transakcijas finanšu dimensijas. Pēc noklusējuma pārvērtēšanas transakcijas AR/AP galvenajam kontam tiek izmantotas sākotnējās transakcijas AR/AP virsgrāmatas konta finanšu dimensijas, bet pārvērtēšanas transakcijas nerealizētās peļņas/zuduma galvenajam kontam tiek izmantotas sākotnējās transakcijas izdevumu/līdzekļu/ieņēmumu virsgrāmatas konta finanšu dimensijas.
+
+
+

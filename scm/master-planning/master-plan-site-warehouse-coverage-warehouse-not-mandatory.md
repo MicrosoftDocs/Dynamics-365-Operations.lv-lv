@@ -1,0 +1,66 @@
+---
+title: "Vispārējās plānošanas vietu un noliktavu pārklājumu, nav obligāta noliktava"
+description: "Šajā tēmā ir aprakstīts, kā tiek plānots krājums, kuram kā nodrošinājuma dimensijas ir vieta un noliktava. Noliktavas dimensija nav obligāta."
+author: YuyuScheller
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: EcoResStorageDimensionGroup, ReqItemTable
+audience: Application User
+ms.reviewer: YuyuScheller
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 2514
+ms.assetid: 92d47bdd-df68-4f60-ac9a-96aa08236c26
+ms.search.region: Global
+ms.search.industry: Manufacturing
+ms.author: roxanad
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
+ms.openlocfilehash: 3671024dc097c94638b1579d7cacc8447c49e97b
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="master-planning-for-site-and-warehouse-coverage-warehouse-not-mandatory"></a>Vispārējās plānošanas vietu un noliktavu pārklājumu, nav obligāta noliktava
+
+Šajā tēmā ir aprakstīts, kā tiek plānots krājums, kuram kā nodrošinājuma dimensijas ir vieta un noliktava. Noliktavas dimensija nav obligāta.
+
+Šis vispārējās plānošanas scenārijs ietver šādus nosacījumus:
+
+-   Vietas dimensija ir iestatīta kā obligāta un tā jāievada pieprasījuma transakcijā. Šo iestatījumu nevar modificēt.
+-   Noliktavas dimensija nav iestatīta kā obligāta. Noliktava var būt zināma, bet tā netiek izmantota vispārējās plānošanas aprēķinā.
+-   Vieta un noliktavas dimensija ir iestatīti seguma plānošanai. Seguma plānošanai var iestatīt arī citas dimensijas. Tomēr tās neietekmēs daudzvietu funkcija.
+
+Nākamajā grafikā ir attēlots, kā tiek veikta vispārējā plānošana. Parametri, kas izmantoti grafikā, un to atrašanās vietas ir šādas:
+-   Noliktava iestatīta kā Manuāli. Noklikšķiniet uz **krājumu vadība &gt;Setup &gt;krājumu sadalījumu &gt;noliktavām**. Kopsavilkuma cilnē **Vispārējā plānošana** skatiet lauku **Manuāls**.
+-   Krājuma segums tiek definēts krājumam. Noklikšķiniet uz **produkta informācijas pārvaldības &gt;produkti&gt; atbrīvo produktus**. Atlasiet vienumu un pēc tam rūtī darbības uz **plāns** cilni, noklikšķiniet uz **krājumu vajadzība**.
+-   Uzpildīšanas attiecības ir definētas noliktavai. Noklikšķiniet uz **krājumu vadība &gt;Setup &gt;krājumu sadalījumu &gt;noliktavām**. Kopsavilkuma cilnē **Vispārējā plānošana** skatiet lauku grupu **Galvenā noliktava**.
+-   Noklusējuma pasūtījuma tips ir iestatīts uz Ražošana, Pirkšanas pasūtījums vai Kanban. Noklikšķiniet uz **produkta informācijas pārvaldības &gt;produkti&gt; atbrīvo produktus**. Atlasiet vienumu un pēc tam rūtī darbības uz **plāns** cilni, noklikšķiniet uz **noklusējuma iestatījumi**. Formā **Pasūtījuma noklusējuma iestatījumi** skatiet lauku **Noklusējuma pasūtījuma tips** .
+
+![Pieprasīt vietu un noliktavu, noliktavu nē](./media/multisitedemandexplosionscenarioforsiteandwarehousecoveragewarehousenotmandatory.jpg)
+
+ 
+-
+
+
+
+<a name="see-also"></a>Skatiet arī
+--------
+
+[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+
+[Vispārējā plānošana — vietas un noliktavas segums, noliktava ir obligāta](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+
+[Vispārējā plānošana — vietas segums, noliktava ir obligāta](master-plan-site-coverage-warehouse-mandatory.md)
+
+[Vispārējā plānošana — vietas segums, noliktava nav obligāta](master-plan-site-coverage-warehouse-not-mandatory.md)
+
+[Vispārējā plānošana — kā tiek noteikta MK versija](master-plan-bom-version-determined.md)
+
+

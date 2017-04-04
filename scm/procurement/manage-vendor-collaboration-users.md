@@ -1,0 +1,93 @@
+---
+title: "Pārvaldīt kreditoru sadarbības lietotājus"
+description: "Šajā tēmā ir aprakstīts, kā varat pieprasīt jaunu kreditoru sadarbības lietotāju nodrošināšanu un kā pievienot jaunas kreditoru sadarbības kontaktpersonas."
+author: YuyuScheller
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: smmContactPerson, VendVendorContactPerson, VendVendorPortalUser
+audience: Application User, IT Pro
+ms.search.scope: Operations, Core
+ms.custom: 220744
+ms.assetid: edc19ad0-3565-4d47-98ac-dda6098f63ac
+ms.search.region: Global
+ms.author: mkirknel
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
+translationtype: Human Translation
+ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
+ms.openlocfilehash: 380f1bcdf7109dc12fd898199033eac7710d863c
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="manage-vendor-collaboration-users"></a>Pārvaldīt kreditoru sadarbības lietotājus
+
+Šajā tēmā ir aprakstīts, kā varat pieprasīt jaunu kreditoru sadarbības lietotāju nodrošināšanu un kā pievienot jaunas kreditoru sadarbības kontaktpersonas. 
+
+Kreditoru sadarbības interfeiss programmā Microsoft Dynamics 365 for Operations atklāj informāciju par ārējo kreditoru pirkšanas pasūtījumiem, rēķiniem un sūtījumu krājumiem. Varat izveidot jaunas kreditoru sadarbības kontaktpersonas un pieprasīt, lai tiktu nodrošināti jauni lietotāji, ja strādājat kā ārējs kreditors ar drošības lomu **Kreditora administrators (ārējs)** vai līdzīgām atļaujām. Šos uzdevumus varat arī veikt, ja strādājat kā sagādes speciālists. Šajā tēmā šī loma atsaucas uz sagādes speciālistu, kurš strādā uzņēmumā, kam pieder Dynamics 365 for Operations instance. Papildinformāciju par to, kā izmantot piegādātāju sadarbību, ja tu esi ārēja kreditora sk [kreditors ar klientiem](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+
+Papildinformāciju par to, kā izmantot piegādātāju sadarbību, ja jūs esat iepirkumu profesionālo sk [piegādātāju sadarbība ar ārējiem kreditoriem ar](vendor-collaboration-work-external-vendors.md).
+
+## <a name="add-new-vendor-collaboration-contacts"></a>Pievienot jaunas kreditoru sadarbības kontaktpersonas
+Ja vēlaties, lai kāda persona varētu piekļūt kreditoru sadarbībai, tad šī persona vispirms ir jāpievieno kā kreditoru sadarbības kontaktpersona. Iespējams, vēlaties arī pievienot kontaktpersonas tādiem darbiniekiem savā uzņēmumā, kas neizmantos kreditoru sadarbību. Piemēram, viņi varētu būt kontaktpunkts citādai sagādes informācijai. Jaunās kontaktpersonas tiek pievienotas par **visus kontaktus** lapu, var piekļūt no **piegādātāja sadarbības**&gt;**kontaktus** izvēlnes. Lai pievienotu jaunu kontaktpersonu, rīkojieties tālāk aprakstītajā veidā.
+
+1.  Noklikšķiniet uz **Jauns.**
+2.  Ievadiet informāciju par šo kontaktpersonu.
+3.  Izvēlēties, kuru juridisko personu viņi pārstāv jūsu uzņēmumā un ar kuru juridisko personu viņi sadarbojas tajā uzņēmumā, ar kuru viņi sadarbojas. Lai to darītu, atzīmējiet **juridiska persona manā uzņēmumā**/**juridiska persona klienta uzņēmumā** pāri.
+4.  Noklikšķiniet uz **Izveidot.**
+
+Ja vēlaties dzēst kādu kontaktpersonu, varat dzēst tikai tās kontaktpersonas, ko izveidojāt jūs.
+
+## <a name="vendor-collaboration-user-requests"></a>Kreditoru sadarbības lietotāja pieprasījumi
+Kreditoru sadarbības lietotāju pieprasījumus var paaugstināt sagādes speciālists vai ārēja kreditora administrators.
+
+-   Ja jūs esat ārējo kreditoru, jūs iesniegt pieprasījumus no **visus kontaktus** lappušu ietvaros **piegādātāja sadarbības** moduli.
+-   Ja esat sagādes speciālists, jums jāiesniedz pieprasījumi no lapas **Skatīt kontaktpersonas**. Lai veiktu šo darbību, piegādātāja ieraksts, jo **Setup** sekcijas darbību rūtī atlasiet **kontaktus**&gt;**skatīt kontaktpersonas**.
+
+Varat iesniegt pieprasījumu nodrošināt kādu lietotāju, deaktivizēt kādu lietotāju vai modificēt drošības lomas. Ja esat ārēja kreditora administrators, jums ir jābūt reģistrētam kā kontaktpersonai attiecībā uz šī kreditora kontiem, par kuriem vēlaties iesniegt lietotāja pieprasījumus, un jums ir nepieciešama piekļuve šo kreditoru kontu kreditoru sadarbības interfeisam.  
+
+Kad tiek iesniegts pieprasījums, tas tiek pievienots sarakstam **Kreditoru sadarbības lietotāja pieprasījumi** modulī **Kreditoru sadarbība** un sarakstam **Kreditoru sadarbības lietotāja pieprasījums** modulī **Sagāde un avoti** (modulis Sagāde un avoti nav pieejams ārējiem lietotājiem).
+
+### <a name="provision-a-user"></a>Lietotāja nodrošināšana
+
+Lai varētu pieprasīt, ka tiek nodrošināts jauns lietotājs, šī persona ir jāiestata kā kontaktpersona vienam vai vairākiem kreditoru kontiem. Lai izveidotu jauna kreditoru sadarbības lietotāja pieprasījumu, rīkojieties tālāk aprakstītajā veidā.
+
+1.  Par **visus kontaktus** lapu, noklikšķiniet uz **noteikums piegādātājs lietotāju**.
+2.  Ievadiet šī lietotāja e-pasta adresi. Šo adresi lietotājs izmantos, lai pieteiktos programmā Dynamics 365 for Operations. Ja šī e-pasta adrese pieder kādam domēnam, kurš ir reģistrēts kā nomnieks pakalpojumā Microsoft Azure, tad šai e-pasta adresei ir nepieciešams pastāvošs Azure Active Directory (ADD) konts, lai nodrošināšanas process tiktu izpildīts sekmīgi. Ja e-pasta adrese nepieder domēnam, kurš ir reģistrēts pakalpojumā Microsoft Azure, tad ADD konts tiks izveidots kā daļa no nodrošināšanas procesa un jaunais lietotājs saņems uzaicinājuma pasta ziņojumu. Patērētāju tiesību e-pasta adreses ar jomām, piemēram, @hotmail.com, @gmail.com, vai @comcast.netnevar izmantot, lai reģistrētu Dynamics 365 lietotāja darbības.
+3.  Opciju **Kreditoru sadarbības piekļuve ir atļauta** iestatiet uz **Jā** visām juridiskajām personām, kurām šim lietotājam ir nepieciešama piekļuve.
+4.  Sadaļā **Piešķirt lietotāju lomas** atzīmējiet izvēles rūtiņu **Piešķirt** tām drošības lomām, kuras jaunajam lietotājam ir nepieciešamas.
+5.  Noklikšķiniet uz **Iesniegt**.
+
+Iesniedzot lietotāja pieprasījuma piegādātājam, **piegādātāja sadarbības pieeja ļāva** lauks ir iestatīts **Jā** atlasītajā kreditora kontā un lietotājam pieprasīt, lai darbplūsma tiek startēta. Kā daļa no šīs darbplūsmas programmā Dynamics 365 for Operations tiek izveidots jauns lietotājs un tiek piešķirtas drošības lomas. Turklāt tiek aktivizēts Azure B2B pakalpojums, kas iniciē mijiedarbību ar Azure portālu un jaunu vai pastāvošu AAD kontu saista ar Dynamics 365 for Operations lietotāja kontu.
+
+### <a name="inactivate-a-user"></a>Deaktivizēt lietotāju
+
+Pastāv divi veidi, kā lietotājam atņemt piekļuvi kreditoru sadarbībai.
+
+-   Lapā **Kontaktpersonas** attiecībā uz kreditoru opciju **Kreditoru sadarbības piekļuve ir atļauta** šai kontaktpersonai iestatiet uz **Nē**. To var atsevišķi izdarīt katrai juridiskajai personai, kurai šī persona ir kontaktpersona. Šo opciju var lietot tikai sagādes speciālisti.
+-   Deaktivizējiet visu lietotāja kontu, iesniedzot pieprasījumu **Deaktivizēt kreditora lietotāju**.
+
+Lai pieprasītu lietotājam ir aktivizēts:
+
+1.  Par **visus kontaktus** lapu, noklikšķiniet uz **Inactivate****piegādātājs lietotāju**.
+2.  Ierakstiet komentāru laukā **Biznesa pamatojums**.
+3.  Noklikšķiniet uz **Iesniegt**.
+
+### <a name="modify-security-roles"></a>Modificēt drošības lomas
+
+**Uzturētu kreditoru lietotāju lomas** lappuse ir tāda pati kā **noteikums piegādātājs lietotāju** lapa, izņemot to, ka drošības lomas sarakstu var labot.  
+
+Pieprasīt, ka drošības lomas tiek pārveidotas par lietotāju:
+
+1.  Par **visus kontaktus** lapu, noklikšķiniet uz **saglabāt****piegādātājs lietotāju lomas**.
+2.  Ierakstiet komentāru laukā **Biznesa pamatojums**.
+3.  Sadaļā **Uzturēt lietotāja lomas** atzīmējiet drošības lomas, kuras vēlaties piešķirt, vai noņemiet atzīmi tām lomām, kuras vēlaties noņemt.
+4.  Click **Submit**.
+
+
+
