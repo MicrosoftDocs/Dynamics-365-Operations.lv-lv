@@ -41,14 +41,14 @@ Product ieteikumi ir iespējotas POS šādos scenārijos. Tie ir pieejami mākon
 
 [![proddetails](./media/proddetails.png)](./media/proddetails.png)
 
-1.  Par **darījumu** lapas:
+2.  Par **darījumu** lapas:
 
 -   Ieteikums motoru liecina vienumus, pamatojoties uz visu preču grozu sarakstu.
 -   Ja veikalā saistīt pievieno klienta darbība, ieteikums dzinējs nodrošina personiskiem ieteikumiem, izmantojot klienta darbību vēsturi un vienumu saraksta grozā.
 
 **Piezīme** attēlošanai ieteikumus **darījumu** lapu, mazumtirgotājs jāatjaunina ekrāna izkārtojumu Dynamics 365 operācijām. **Ieteikumi** kontrole ir samazinājies uz **darījumu** lapā. [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-1.  Par **informāciju par klientiem** lapas:
+3.  Par **informāciju par klientiem** lapas:
     -   Ieteikums motoru liecina vienumus, pamatojoties uz lietotāja ID un klienta vēlmju saraksta vienumiem.
 
 [![customerdetailsrecommendations](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
