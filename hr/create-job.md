@@ -48,10 +48,10 @@ Darbu tipus izmanto, lai grupētu līdzīgus darbus kategorijās. Darbu veidi na
 ## <a name="job-functions"></a>Darba funkcijas
 Darbs krustojumos raksturo augsta līmeņa funkcionālās kategorijās un augsta līmeņa nodokļi ir saistīti. Darba funkcijas nav nepieciešami. Darba funkcijas, kā arī darba veidus, var izmantot, lai filtrētu kompensācijas plāniem konkrētiem darbiem. Jūs saista darba funkcijas un darbu veidiem ar kompensācijas plāniem, izveidojot atbilstīguma noteikumi par **noteikumi par attaisnotiem izdevumiem** lapā. Kompensācijas plānu, kas attiecas uz konkrētu kombināciju darba tipu un darba funkcijas, ko definējāt caur atbilstības kārtulu var pievienot pēc tam kopa līmeņus. (Šie līdzekļi tiek piemēroti gan fiksēta kompensācija un mainīgās atlīdzības plānus.) Tomēr, ja jūs plānojat izmantot darba funkcijas, uzstādot atbilstīguma noteikumi par kompensāciju vadību, ieteicams iestatīt darba funkcijas pirms uzstādīšanas darbus. Tabulā ir norādīti daži piemēri darba funkcijas.
 
-| Darbs           | Darba funkcija      |
-|---------------|-------------------|
-| Pārdošanas daļas vadītājs | Vidēja līmeņa vadītājs |
-| Grāmatvedis    | Speciālisti     |
+| Darbs           | Darba funkcija         |
+|---------------|----------------------|
+| Pārdošanas daļas vadītājs | Vidēja līmeņa vadītājs    |
+| Grāmatvedis    | Speciālisti        |
 
 Darba funkciju uzturēšanai, izmantojot **darba funkciju** lapā. Par **darba funkciju** lapu, ievadiet identifikācijas kodu un īsu aprakstu par darba funkcijas.
 

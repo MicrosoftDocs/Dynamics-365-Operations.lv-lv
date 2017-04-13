@@ -56,10 +56,6 @@ Darbs ir uzdevumu un atbildības jomu kopums, kas ir jāizpilda personai, kura v
 Varat izveidot darba uzdevumus, kas atbilst pamata uzdevumiem, kuri ir jāveic darbiniekam, kas ieņem šī darba amatu. Vienu darba uzdevumu var pievienot vairākiem darbiem, un šī darba amati pārmanto šos darba uzdevumus. Tālāk esošajā tabulā ir norādīti darba uzdevumu piemēri.
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Darbs</th>
