@@ -1,0 +1,43 @@
+# Varas BI satura pakotni
+## [Izmaksu vadības satura pakotni](/dynamics365/operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/operations/supply-chain/toc.json)
+# Iepriekš noteiktu izmaksu
+## [Costing sheet](costing-sheets.md)
+## [Costing version](costing-versions.md)
+## [Simulēt izmaksu izmaiņas, plānotās izmaksas, izmantojot izmaksu versijā](simulate-cost-changes-costing-version-planned-costs.md)
+# Krājuma izmaksu aprēķināšana
+## [Koriģējiet rīcībā esošo krājumu izmaksu vērtība](adjust-hand-inventory-cost-values.md)
+## [Cost object](cost-object.md)
+## [Cost entry](cost-entries.md)
+## [Cost group](cost-groups.md)
+## [FIFO ar fizisko vērtību un iezīmēšanu](fifo-physical-value-marking.md)
+## [Include physical value](include-physical-value.md)
+## [Krājumu objekta vērtība](physical-quantity.md)
+## [Inventory close](inventory-close.md)
+## [LIFO uz datums ar fizisko vērtību un iezīmēšanu](lifo-date-physical-value-marking.md)
+## [LIFO with physical value and marking](lifo-physical-value-marking.md)
+## [Moving average](moving-average.md)
+## [Fiziskām un finanšu atjauninājums](physical-financial-updates.md)
+## [Running average cost price](running-average-cost-price.md)
+## [Tracking running average cost per inventory dimension](track-running-average-cost-per-inventory-dimension.md)
+## [Weighted average date](weighted-average-date.md)
+## [Svērtais vidējais ar fizisko vērtību un iezīmēšanu](weighted-average-physical-value-marking.md)
+# Ražošanas izmaksu grāmatošana
+## [MK aprēķinu grupu](bom-calculation-groups.md)
+## [Kopējā ražošanas dispersijas avoti](common-sources-of-production-variances.md)
+## [Izmaksu kategorija, ko izmanto ražošanas maršruta](cost-categories-used-production-routings.md)
+## [Izmaksu kategorija, ko izmanto ra ošanas kontroli un projektu pārvaldības grāmatvedība](cost-categories-used-production-control-project-management-accounting.md)
+## [Production order cost analysis](production-order-cost-analysis.md)
+## [Production order cost estimation](production-order-cost-estimation.md)
+## [Production posting](production-posting.md)
+## [Produkts, kas ražots vai sagādātas iestatīšana](manufactured-items-treated-as-purchased-items.md)
+## [Total cost allocation method](methodology-total-cost-allocation.md)
+# Standarta izmaksas
+## [MK aprēķinu ar standarta izmaksām](information-used-bom-calculations-standard-costs.md)
+## [Pārvaldīt, atjaunināt standarta izmaksas](manage-standard-cost-updates.md)
+## [Priekšnoteikums, lai standartizmaksu pārvēršanas](prerequisites-standard-cost-conversion.md)
+## [Standard cost conversion overview](standard-cost-conversion-overview.md)
+## [Atjaunināt standarta izmaksas ražošanas vidē](update-standard-costs-manufacturing-environment.md)
+## [Atjaunināt standarta izmaksas jaunu krājuma](update-standard-costs-new-manufactured-item.md)
+## [Atjaunināt standarta izmaksas bez ražošanas vidē](update-standard-costs-non-manufacturing-environment.md)
+
+

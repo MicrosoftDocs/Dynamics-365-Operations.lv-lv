@@ -1,0 +1,157 @@
+# [Cost management](cost-management/TOC.md)
+# [Inventory management](inventory/TOC.md)
+# Vispārējā plānošana
+## Izveidot budžeta pieprasījums
+### [Pieprasījuma prognoze pārskats](master-planning/introduction-demand-forecasting.md)
+### [Iestatīt pēc pieprasījuma prognoze](master-planning/demand-forecasting-setup.md)
+### [Ģenerēt statistikas bāzes prognoze](master-planning/generate-statistical-baseline-forecast.md)
+### [Veikt manuālu korekciju bāzes prognoze](master-planning/manual-adjustments-baseline-forecast.md)
+### [Atļaut koriģēto prognozi](master-planning/authorize-adjusted-forecast.md)
+### [Monitora prognoze precizitāte](master-planning/monitor-forecast-accuracy.md)
+### [Vēsturisko darbību datu noņemšana Netipisko datu kopu](master-planning/remove-historical-outliers-calculating-demand-forecast.md)
+### [Reduction keys](master-planning/reduction-keys.md)
+## Vispārējais plāns
+### [Darbības ziņojumi](master-planning/action-messages.md)
+### [Vajadzības iestatījumi](master-planning/coverage-settings.md)
+### [Delays](master-planning/delays.md)
+### [Master plans](master-planning/master-plans.md)
+### [Vispārējos plānus un vairākvietņu funkcionalitāti](master-planning/master-plan-multisite-functionality.md)
+#### [Plānu vietā pārklājumu, obligātā noliktava](master-planning/master-plan-site-coverage-warehouse-mandatory.md)
+#### [Plānu vietā pārklājumu, noliktavas, kas nav obligāti](master-planning/master-plan-site-coverage-warehouse-not-mandatory.md)
+#### [Plānot vietu un noliktavu pārklājumu, obligāta noliktava](master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+#### [Plānot vietu un noliktavu pārklājumu, nav obligāta noliktava](master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+#### [Noteikt, kura MK versija](master-planning/master-plan-bom-version-determined.md)
+### [MK versiju izvēršanas](master-planning/master-plan-explosion-bom-version.md)
+### [Maintain planned orders](master-planning/maintain-planned-orders.md)
+### [Izsekot eksploziju](master-planning/trace-explosion.md)
+# Sagāde un avoti
+## [Procurement and sourcing overview](procurement/procurement-sourcing-overview.md)
+## [Iepirkumu un plānošanas, darbplūsmas](procurement/procurement-sourcing-workflows.md)
+## [Purchasing policies](procurement/purchase-policies.md)
+## [Procurement catalogs](procurement/procurement-catalogs.md)
+## [Purchase requisitions](procurement/purchase-requisitions-overview.md)
+### [Purchase requisition workflow](procurement/purchase-requisitions-workflow.md) 
+## [Pieprasīt piedāvājumu (RFQs)](procurement/request-quotations.md)
+## Pirkšanas pasūtījumi
+### [Purchase order overview](procurement/purchase-order-overview.md)
+### [Create purchase orders](procurement/purchase-order-creation.md)
+### [Apstiprināt un apstiprinātu pirkšanas pasūtījumus](procurement/purchase-order-approval-confirmation.md)
+## Kreditoru pārvaldība un sadarbība
+### [Iestatīt un uzturēt kreditoru sadarbību](procurement/set-up-maintain-vendor-collaboration.md)
+### [Pārvaldīt kreditoru sadarbības lietotājus](procurement/manage-vendor-collaboration-users.md)
+### [Iestatīšana kreditoriem](procurement/set-up-vendor-accounts.md)
+### [Kreditoru sadarbība ar ārējiem kreditoriem](procurement/vendor-collaboration-work-external-vendors.md)
+### [Kreditoru sadarbība ar debitoriem](procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
+### [Sadarboties ar pārdevējiem, izmantojot piegādātāju portālu](procurement/collaborate-vendors-vendor-portal.md)
+### [Piegādātāja sadarbības mobilo darbvietu](procurement/vendor-collaboration-mobile-workspace.md)
+### [Piegādātāju portāla lietotāja drošības](procurement/configure-security-vendor-portal-users.md)
+## Cenas un atlaides
+### [Purchase agreements](procurement/purchase-agreements.md)
+## Preces saņemšanas un rēķina izrakstīšanu
+### [Produktu ieejas plūsma pret pirkšanas pasūtījumiem](procurement/product-receipt-against-purchase-orders.md)
+### [Kreditoru rēķinu apskats](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/operations/supply-chain/toc.json)
+### [Vendor posting profiles](/dynamics365/operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/operations/supply-chain/toc.json)
+# Preču informācijas pārvaldība
+## Informācija par preci
+### [MK un formulu](production-control/bill-of-material-bom.md)
+### [BOM designer functionality](production-control/bom-designer-functionality.md)
+### [Product dimension](pim/product-dimensions.md)
+### [Produkta numurs nomenklatūrā](pim/product-variant-identification-nomenclature.md)
+### [Ražojumu saistītie tulkošanas FAQ](pim/translations-product-related-information.md)
+### [Kārtas numurs reģistrā pārdošanas procesā](sales-marketing/register-serial-numbers-sales-process.md)
+### [Meklēt produktu pasūtījumu ievades laikā](pim/search-products-product-variants.md)
+## Izveidot krājumu konfigurēšanas
+### [Veidot preču modeļa konfigurācija](pim/build-product-configuration-model.md)
+### [Aprēķins par produkta konfigurācijas paraugs: bieži uzdotie jautājumi](pim/calculate-product-configuration-models.md)
+### [Konfigurācijas noteikums](pim/configuration-rules.md)
+### [Dimension-based configuration](pim/dimension-based-product-configuration.md)
+### [Izpausmes ierobežojums un satura ierobežojums](pim/expression-constraints-table-constraints-product-configuration-models.md)
+### [Atkārtota produktu konfigurēšanu](pim/reuse-product-configurations.md)
+### [Modeļa konfigurācijas iestatīšana](pim/set-up-maintain-product-configuration-model.md)
+### [Tabulā noteiktas sistēmas un lietotāja definēts constraint](pim/system-defined-user-defined-table-constraints.md)
+# Ražošanas kontrole
+## Ražošanas procesā    
+### [Darbības jomām balstīta apakšlīgumu slēgšana](production-control/activity-based-subcontracting.md)
+### [Batch attributes](production-control/batch-attributes.md)
+### [BOMs and formulas](production-control/bill-of-material-bom.md)
+### [BOM designer functionality](production-control/bom-designer-functionality.md)
+### [Consolidated batch orders](production-control/consolidated-batch-orders.md)
+### [Pārvaldītu apakšuzņēmuma darbu ražošanā](production-control/manage-subcontract-work-production.md)
+### [Mixed mode planning: Combine discrete, process, and lean sourcing](production-control/mixed-mode-plan.md)
+### [Ražošanas procesā](production-control/production-process-overview.md)
+### [Production setup requirements](production-control/production-set-up-requirements.md)
+### [Maršrutiem un operācijām](production-control/routes-operations.md)
+## Ražošanas pasūtījumi
+### [Create production orders](production-control/create-production-orders.md)
+### [Noklusētie iestatījumi pasūtījuma dimensijas un izstrādājuma variantus](production-control/default-order-settings.md)
+### [Izpildei ražošanas pasūtījumus](production-control/release-production-orders.md)
+### [Ražošanas pasūtījuma statusu](production-control/reverse-production-order-status.md)
+### [Ziņojums MK pabeigšanu](production-control/report-boms-as-finished.md)
+### [Ražošanas pasūtījumus paziņot kā pabeigtus](production-control/report-production-orders-as-finished.md)
+## Liesās ražošana 
+### [Kanban nodošanu valdes atbalsts par Svītrkods skeneri](production-control/kanban-transfer-board-support-barcode-scanner.md) 
+### [Kanban darbu plānošanu liesās ražošana](production-control/lean-manufacturing-kanban-job-scheduling.md)
+### [Liesās ražošanas pārskats](production-control/lean-manufacturing-overview.md)
+### [Nojume organizācijas modelis](production-control/lean-manufacturing-modeling-lean-organization.md)
+## Ieplānot operācijas un darbi
+### [Piešķirt laika darbu saišķa darbus](production-control/allocate-time-jobs-job-bundle.md)
+### [Job scheduling](production-control/job-scheduling.md)
+### [Operations scheduling options](production-control/operation-scheduling-options.md)
+### [Operations scheduling](production-control/operations-scheduling.md)
+## Resursi
+### [Operations resources](production-control/operations-resources.md)
+### [Resource capabilities](production-control/resource-capabilities.md)
+### [Time and attendance registration](production-control/time-attendance-registrations.md)
+## Ražošanas izpilde
+### [Material substitution in manufacturing](production-control/substitute-items-bom-lines.md)
+### [Aprēķinātu materiālu patēriņu](production-control/consumption.md)
+### [Production feedback](production-control/production-feedback.md)
+### [Ražošanas izpildei ražošanas pasūtījuma noklusējumus](production-control/production-order-defaults-manufacturing-execution.md)
+### [Production posting](cost-management/production-posting.md)
+### [Registration for manufacturing execution](production-control/registration-manufacturing-execution.md)
+# Pārdošana un mārketings
+## [Marketing](sales-marketing/overview-sales-marketing.md)
+## Pārdošanas pasūtījumi
+### [Order promising](sales-marketing/delivery-dates-available-promise-calculations.md)
+### [Order entry deadlines](sales-marketing/order-entry-deadlines.md)
+### [Direct deliveries](sales-marketing/direct-deliveries.md)
+### [Delivery schedules](sales-marketing/delivery-schedules.md)
+### [Sērijas numurus pārdošanas procesā](sales-marketing/register-serial-numbers-sales-process.md)
+### [No pašas partijas rezervāciju](sales-marketing/reserve-same-batch-sales-order.md)
+## [Sales agreements](sales-marketing/sales-agreements.md)
+## Pārdošanas piedāvājumi
+### [Price simulation](sales-marketing/price-simulation.md)
+## Atgriešanas
+### [Sales returns](warehousing/sales-returns.md)
+# Transportēšanas pārvaldība
+## [Jaunu transporta dzinēju](transportation/create-new-transportation-management-engine.md)
+## [Izveidot preču transporta pavadzīmi](transportation/create-bill-of-lading.md)
+## [Plānu kravu transportēšanas maršruti](transportation/plan-freight-transportation-routes-multiple-stops.md)
+## [Plānot kravas, izmantojot pārkraušanas punktu konsolidāciju](transportation/plan-loads-hub-consolidation.md)
+## [Saskaņot kravu](transportation/reconcile-freight-transportation-management.md)
+## [Transportation management](transportation/transportation-management-overview.md)
+## [Transporta dzinēju](transportation/transportation-management-engines.md)
+# Noliktavas pārvaldība
+## Iestatīšana 
+### [Kontroles darbu, izmantojot darba veidnes un vieta direktīvām](warehousing/control-warehouse-location-directives.md)
+### [Noliktavu darbinieku pārvaldība](warehousing/manage-warehouse-workers.md)
+### [Iestatītu izkārtojumu](warehousing/warehouse-configuration.md)
+### [Warehouse work policies](warehousing/warehouse-work-policies.md)
+### [Mērvienību un uzkrājumu politikas](warehousing/unit-measure-stocking-policies.md)
+## Izdošana un iepakošana
+### [Iepakojuma materiāli un maksas](warehousing/pack-materials-packing-material-fees.md)
+## Krājumu inventarizācija
+### [Block inventory](inventory/inventory-blocking.md)
+### [Cycle counting](warehousing/cycle-counting.md)
+### [Inventory journal](inventory/inventory-journals.md)
+### [Inventory location](inventory/inventory-locations.md)
+### [Inventory status](inventory/inventory-statuses.md)
+### [Krājumu etiķešu inventarizācija](inventory/inventory-tag-counting.md)
+## Konteinerizēšana 
+## Papildināšana
+### [Papildināšana](warehousing/replenishment.md)
+## Mobilajām ierīcēm
+### [Lauku nosaukumi konfigurēšana noliktavā app](warehousing/configure-app-field-names-priorities-warehouse.md)
+### [Iestatīta mobilās ierīces noliktavas darba](warehousing/configure-mobile-devices-warehouse.md)
+### [Noliktavas mobilās ierīces portāls (WMDP)](warehousing/warehouse-mobile-devices-portal.md)
+### [Noliktavas mobilo ierīču displeja iestatījumi](warehousing/change-warehouse-mobile-device-displays.md)
