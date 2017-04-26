@@ -75,3 +75,4 @@
 # Citi resursi
 ## [Dinamika 365 par operācijas glosārijs](get-started/glossary.md)
 ## [Jaunumi un izmaiņas](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/toc.json)
+

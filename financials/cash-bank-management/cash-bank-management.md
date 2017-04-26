@@ -27,6 +27,9 @@ ms.lasthandoff: 04/12/2017
 
 # <a name="cash-and-bank-management-home-page"></a>Skaidras naudas un bankas vadības sākumlapa
 
+[!include[banner](../includes/banner.md)]
+
+
 Varat izmantot skaidras naudas un bankas pārvaldības moduli, lai uzturētu juridiskās personas bankas kontus un finanšu instrumentus, kas saistīti ar šīs bankas kontiem. 
 
 Šie instrumenti ietver depozīta kvītis, čekus, vekseļus un parādzīmes. Varat arī saskaņot bankas kontu izrakstus un drukāt bankas informāciju uz standarta pārskatiem.
@@ -69,4 +72,6 @@ Varat izmantot skaidras naudas un bankas pārvaldības moduli, lai uzturētu jur
 -   [Scenario: Settle a partial customer payment that has discounts on credit notes](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
 -   [Scenario: Settle a partial customer payment that has multiple discount periods](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
 -   [Scenārijs: Izmantot vienu klientu maksājumu, lai atrisinātu vairākas rēķina, kas aptver vairāku atlaižu periodus](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+
+
 

@@ -41,3 +41,5 @@ Atlasiet līdzekļa apgabalu, lai par to uzzinātu vairāk.
 - [Public sector](public-sector\public-sector-functionality.md) 
 - [Budgeting](budgeting\budgeting-overview.md) 
 
+
+

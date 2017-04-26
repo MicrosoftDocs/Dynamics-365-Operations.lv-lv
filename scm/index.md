@@ -55,3 +55,5 @@ Piemēram, jūs varat izlasīt jaunākās publikācijas par:
 ## <a name="elearning-courses"></a>e-apmācības kursi
 Informāciju par Microsoft Dynamics 365 operāciju apmācību, sk <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Microsoft Dynamics mācību portāla</a>. (nepieciešams konta vietnei CustomerSource) 
 
+
+

@@ -88,3 +88,5 @@ Microsoft Dynamics 365 operācijām ir korporācijas Microsoft biznesa programma
 </tbody>
 </table>
 
+
+

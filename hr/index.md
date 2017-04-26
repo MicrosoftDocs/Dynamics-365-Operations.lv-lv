@@ -98,3 +98,5 @@ Varat plānot un administrēt anketas, lai vāktu dažādiem nolūkiem izmantoja
 -   [View and evaluate the results of a questionnaire](evaluate-questionnaire-results.md)
 
 
+
+
