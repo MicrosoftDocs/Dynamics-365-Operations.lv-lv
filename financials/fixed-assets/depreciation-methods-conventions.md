@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="depreciation-methods-and-conventions"></a>Nolietojuma metodes un konvencijas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegts pārskats par nolietojuma aprēķināšanas nosacījumiem un metodēm, ko atbalsta programma Microsoft Dynamics AX.
 
 Var atlasīt dažādas nolietojuma metodes un konvencijas. Šo metožu nolūks ir sadalīt pamatlīdzekļa nolietojuma vērtību pa finanšu periodiem. Pamatlīdzekļa nolietojuma vērtība ir iegādes cenas un lūžņu vērtības (ja tāda ir) starpība. 
@@ -66,26 +69,27 @@ Varat atlasīt kādu no tālāk norādītajām nolietojuma metodēm.
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Fixed asset depreciation](fixed-asset-depreciation.md)
+[Pamatlīdzekļu nolietojums](fixed-asset-depreciation.md)
 
-[Straight line service life depreciation](Straight-line-service-life-depreciation.md)
+[Lineārā lietošanas ilguma nolietojums](Straight-line-service-life-depreciation.md)
 
-[Reducing balance depreciation](reduce-balance-depreciation.md)
+[Degresīvā nolietojuma aprēķināšanas metode](reduce-balance-depreciation.md)
 
-[Manual depreciation](manual-depreciation.md)
+[Manuāls nolietojuma aprēķins](manual-depreciation.md)
 
-[Factor depreciation](factor-depreciation.md)
+[Reizinātāja nolietojums](factor-depreciation.md)
 
-[Consumption depreciation](consumption-depreciation.md)
+[Patēriņa nolietojuma aprēķins](consumption-depreciation.md)
 
-[Straight line life remaining depreciation](straight-line-life-remaining-depreciation.md)
+[Atlikušā lietošanas ilguma lineārā aprēķināšanas metode](straight-line-life-remaining-depreciation.md)
 
-[125 % atlikumu bilances nolietojums](125-percent-reducing-balance-depreciation.md)
+[125 procentu degresīvā nolietojuma aprēķināšanas metode](125-percent-reducing-balance-depreciation.md)
 
-[150 % atlikumu bilances nolietojums](150-percent-reducing-balance-depreciation.md)
+[150 procentu degresīvā nolietojuma aprēķināšanas metode](150-percent-reducing-balance-depreciation.md)
 
-[175 % atlikumu bilances nolietojums](175-percent-reducing-balance-depreciation.md)
+[175 procentu degresīvā nolietojuma aprēķināšanas metode](175-percent-reducing-balance-depreciation.md)
 
-[200 % atlikumu bilances nolietojums](200-percent-reducing-balance-depreciation.md)
+[200 procentu degresīvā nolietojuma aprēķināšanas metode](200-percent-reducing-balance-depreciation.md)
+
 
 

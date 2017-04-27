@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="three-way-matching-policies"></a>Trīsvirzienu atbilstības ierobežojumi
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegti trīsvirzienu atbilstības piemēri.
 
 <a name="example-three-way-matching-for-items"></a>Piemērs: krājumu trīsvirzienu atbilstība
@@ -62,7 +65,7 @@ Fabrikam vada vairākas juridiskās personas un nodarbina darbiniekus visā pasa
 1.  Samijs, Fabrikam saņemšanas nodaļas darbinieks, saņem visas no Contoso nosūtītās mašīnas. Viņš ievada daudzumu 5 produktu ieejas plūsmas dokumentā. Tā kā pirkšanas pasūtījums ir pilnībā saņemts, pirkšanas pasūtījuma statuss tiek mainīts uz Saņemts.
 2.  Eiprila, Fabrikam kreditoru nodaļas koordinatore, ievada un pārbauda uzņēmuma Contoso iesniegto rēķinu. Viņa pārbauda tālāk norādīto informāciju.
     -   Krājumiem, kuriem ir nepieciešama trīsvirzienu atbilstība, rēķina rindā norādītais daudzums atbilst saņemtajam daudzumam. Saņemtais daudzums ir norādīts produktu ieejas plūsmas dokumentā, kas tiek salīdzināts ar rēķinu.
-    -   Krājumiem, kas nepieciešami divvirzienu vai trīs veidu saskaņošana, cenas rēķina rindā ir pielaides, kas definēti Microsoft Dynamics 365 Operations.This ietver šādu veidu cenu saskaņošanas:
+    -   Krājumiem, kuriem ir nepieciešama divvirzienu vai trīsvirzienu atbilstība, rēķina rindās norādītās cenas atbilst Microsoft Dynamics 365 for Operations definētajām pielaidēm. Tas attiecas uz tālāk norādītajiem cenu salīdzināšanas tipiem.
         -   Vienības neto cenu salīdzināšana — rēķina rindā norādītā vienības neto cena atbilst pirkšanas pasūtījuma rindā norādītajai vienības neto cenai saskaņā ar pielaides procentuālo vērtību. Šajā piemērā izmantotā vienības neto cenas pielaide ir +8%.
         -   Cenu kopsummu salīdzināšana — rēķina rindā norādītā neto summa atbilst pirkšanas pasūtījuma rindā norādītajai neto summai saskaņā ar pielaides procentuālo vērtību, summu vai procentuālo vērtību un summu. Šajā piemērā izmantotā cenu kopsummu salīdzināšanas pielaide ir +15%.
 
@@ -75,7 +78,7 @@ Contoso izrakstītajā papīra formāta rēķinā ir ietverta tālāk norādīt�
 | Nodokļi                         |          |            | 0,00       |
 | Summa                       |          |            | 44 500,00  |
 
-Microsoft Dynamics 365 operācijām, rēķina rinda ietver šādu informāciju.
+Sistēmā Microsoft Dynamics 365 for Operations saglabātajā rēķina rindā ir ietverta tālāk norādītā informācija.
 
 | Krājums                 | Daudzums | Vienības cena | Rindas neto summa | Atbilstības ierobežojumi    | Salīdzināmais produktu ieejas plūsmas daudzums | Cenas salīdzināšana | Cenas kopsummas saskaņošana |
 |-----------------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|
@@ -111,7 +114,7 @@ Apjomi un summas ir mazi, un ir radušas problēmas saistībā ar piegādi no da
 1.  Krājumi tiek saņemti. Samijs, Fabrikam Malaizijas nodaļas saņemšanas daļas darbinieks, tiek pārtraukts un uzreiz neiegrāmato produkta ieejas plūsmas dokumentu.
 2.  Eiprila, Fabrikam kreditoru nodaļas koordinatore, ievada un pārbauda uzņēmuma Contoso iesniegto rēķinu. Viņa pārbauda tālāk norādīto informāciju.
     -   Krājumiem, kuriem ir nepieciešama trīsvirzienu atbilstība, rēķina rindā norādītais daudzums atbilst saņemtajam daudzumam. Saņemtais daudzums ir norādīts produktu ieejas plūsmas dokumentā, kas tiek salīdzināts ar rēķinu.
-    -   Krājumiem, kas nepieciešami divvirzienu vai trīs veidu saskaņošana, cenas rēķina rindā ir pielaides, kas definēti programmā Microsoft Dynamics 365 operācijām. Tas ietver šādas cenu saskaņošanas:
+    -   Krājumiem, kuriem ir nepieciešama divvirzienu vai trīsvirzienu atbilstība, rēķina rindās norādītās cenas atbilst Microsoft Dynamics 365 for Operations definētajām pielaidēm. Tas attiecas uz tālāk norādītajiem cenu salīdzināšanas tipiem.
         -   Vienības neto cenu salīdzināšana — rēķina rindā norādītā vienības neto cena atbilst pirkšanas pasūtījuma rindā norādītajai vienības neto cenai saskaņā ar pielaides procentuālo vērtību. Šajā piemērā izmantotā vienības neto cenas pielaide ir +2%.
         -   Cenu kopsummu salīdzināšana — rēķina rindā norādītā neto summa atbilst pirkšanas pasūtījuma rindā norādītajai neto summai saskaņā ar pielaides procentuālo vērtību, summu vai procentuālo vērtību un summu. Šajā piemērā izmantotā cenu kopsummu salīdzināšanas pielaide ir +10%.
 
@@ -124,7 +127,7 @@ Contoso izrakstītajā papīra formāta rēķinā ir ietverta tālāk norādīt�
 | USB disks             | 200      | 10,05      | 2010,00   |
 | Rēķina kopsumma         |          |            | 7092,00   |
 
-Microsoft Dynamics 365 operācijām, rēķina rinda ietver šādu informāciju.
+Sistēmā Microsoft Dynamics 365 for Operations saglabātajā rēķina rindā ir ietverta tālāk norādītā informācija.
 
 | Krājums           | Daudzums | Vienības cena | Rindas neto summa | Atbilstības ierobežojumi    | Salīdzināmais produktu ieejas plūsmas daudzums | Cenas salīdzināšana | Cenas kopsummas saskaņošana |
 |-----------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|
@@ -140,6 +143,8 @@ Pievērsiet uzmanību tālāk norādītajiem krājumiem.
 Ja ir nepieciešamas apstiprināt tādu rēķinu grāmatošanu, kuriem pastāv rēķinu salīdzināšanas neatbilstības, lai varētu grāmatot rēķinu ar cenu salīdzināšanas kļūdām un daudzumu salīdzināšanas kļūdām, vispirms ir jāatlasa slēdzis stiprināt grāmatojumu ar salīdzināšanas neatbilstību lapā Rēķinu salīdzināšanas detalizēta informācija. Ja apstiprinājums nav nepieciešams, var turpināt rēķina apstrādi, ja nav radušas citas grāmatošanas kļūdas.
 
 
-Lai iegūtu papildinformāciju, skatiet [kontus payable rēķins atbilst](accounts-payable-invoice-matching.md).
+Papildinformāciju skatiet sadaļā [Kreditoru rēķinu salīdzināšana](accounts-payable-invoice-matching.md).
+
+
 
 

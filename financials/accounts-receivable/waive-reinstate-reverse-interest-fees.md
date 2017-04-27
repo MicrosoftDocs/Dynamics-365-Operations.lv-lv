@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>Procentu maksu atcelšana, atjaunošana vai anulēšana
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir paskaidrots, kā atcelt, atjaunot un apgriezt maksas par procentiem un maksām.
 
 Varat izmantot pogas cilnē **Apkopot** saraksta lapā **Visi debitori**, lai atceltu, anulētu vai atjaunotu maksas:
@@ -43,7 +46,7 @@ Visas šīs darbības maina procentu paziņojumu. Procentu paziņojums ir biznes
 | Anulējiet pilnīgus procentu paziņojumus. –vai–Anulējiet atlasītās procentu transakcijas, kas ir daļa no procentu paziņojumiem. **Piezīme:** jūs varat arī anulēt maksu. Tomēr varat anulēt visu procentu paziņojumu, kas ietver maksu. | Debitors vairs nav parādā maksas. Tomēr maksas ir jāmaksā vēlreiz, ja pārrēķināt procentus. | Process ir tāds pats kā procentu paziņojuma vai atlasīto procentu transakciju atcelšanas process. Kredīta nota vai korekcijas rēķins tiek izveidots debitoram. Šī kredīta nota tiek izmantota, lai automātiski nosegtu procentu paziņojumu. Varat izmantot atsevišķu procesu, lai pārrēķinātu procentus un izveidotu jaunu procentu paziņojumu.                                                                                                                                                                                                                                                                                                                                                                                              |
 
 > [!NOTE] 
-> Slikto parādu norakstīšanu var izmantot arī atsevišķs process. Šis process atzīmē visas debitora transakcijas nosegšanai, nevis atceļ vienīgi maksas, kuras ir procentu paziņojumu daļa.
+> Atsevišķu procesu varat arī izmantot, lai norakstītu neatgūstamos parādus. Šis process atzīmē visas debitora transakcijas nosegšanai, nevis atceļ vienīgi maksas, kuras ir procentu paziņojumu daļa.
 
 ## <a name="adjust-interest-for-invoices"></a>Procentu koriģēšana rēķiniem
 Papildus procentu paziņojumu koriģēšanai varat noņemt procentu maksas rēķiniem, izmantojot vienu no šādiem procesiem. Abi procesi veic arī korekcijas saistītajos procentu paziņojumos.
@@ -58,7 +61,7 @@ Korekcijas var veikt, izmantojot pogu **Labot rēķinu** brīvā teksta rēķina
 
 Debitora transakciju rēķinā var anulēt, ja rēķins tika nepareizi izveidots. Ja anulētās debitora transakcijas procentu paziņojumā ir iekļauti procenti un procentu paziņojums tika grāmatots, procentu paziņojumā transakcijas procenti arī tiek anulēti. Procentu paziņojums tiek atcelts, ja tas nav grāmatots. 
 
-Debitora transakcijas var anulēt, lietojot pogu **Anulēt **lapā **Debitoru transakcijas**.
+Debitora transakcijas var anulēt, lietojot pogu **Anulēt** lapā **Debitoru transakcijas**.
 
 ## <a name="waive-or-reinstate-interest-notes"></a>Procentu paziņojumu atcelšana vai atjaunošana
 Varat anulēt vai atjaunot visas maksas atlasītajos procentu paziņojumos. Kad jūs atceļat maksas, atceļamā kopsumma nevar pārsniegt jebkādus iestatītos summas ierobežojumus. Procentu paziņojumu var atjaunot tikai tad, ja tas iepriekš tika atcelts. 
@@ -78,7 +81,7 @@ Procentu paziņojumus var atcelt vai atjaunot, izmantojot pogu **Papildu maksa**
 ## <a name="reverse-interest-notes"></a>Atsaukt procentu paziņojumus
 Varat anulēt visas maksas atlasītajos procentu paziņojumos. Anulētās maksas tiek noņemtas no debitora konta un vairs nav jāmaksā. Pēc procentu paziņojuma anulēšanas var pārrēķināt procentus un izveidot jaunu procentu paziņojumu. 
 
-Procentu paziņojumus var anulēt, izmantojot pogu **Procentu paziņojums **cilnē **Apkopot** lapā **Debitors**.
+Procentu paziņojumus var anulēt, izmantojot pogu **Procentu paziņojums** cilnē **Iekasēt** lapā **Debitors**.
 
 ## <a name="reverse-interest-transactions"></a>Procentu darījumu anulēšana
 Varat anulēt visas atlasītas procentu transakcijas. Anulētās maksas tiek noņemtas no debitora konta un vairs nav jāmaksā. Pēc darījumu anulēšanas var pārrēķināt procentus un izveidot jaunu procentu paziņojumu.
@@ -88,6 +91,8 @@ Procentu transakcijas var anulēt, izmantojot pogu **Transakcijas procenti** cil
 ## <a name="view-the-history-of-adjustments-for-charges-that-were-waived-reinstated-or-reversed"></a>Atcelto, atjaunoto vai anulēto maksu korekciju vēstures skatīšana
 Varat skatīt procentu paziņojumos veikto korekciju detalizētu vēsturi, piemēram, lietotāju, kurš ievadīja korekciju, korekcijas veidu, summu un korekcijas ievadīšanas datumu. Piemēram, iespējams, vēlēsities skatīt iepriekšējās korekcijas, kas tika ievadītas procentu paziņojumam, pirms veidojat jaunu procentu paziņojumu. 
 
-Procentu transakcijas var anulēt, izmantojot pogu **Vēsture **cilnē **Apkopot** lapā **Debitors**.
+Procentu transakcijas var anulēt, izmantojot pogu **Vēsture** cilnē **Iekasēt** lapā **Debitors**.
+
+
 
 

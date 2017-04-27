@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="letters-of-credit-and-import-collections"></a>Kredītvēstules un importa inkaso
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegta vispārīga informācija par akreditīviem un importa inkaso. Abu tipu bankas dokumenti bieži tiek lietoti pārrobežu preču pirkšanai un pārdošanai.
 
 <a name="letters-of-credit"></a>Akreditīvi
 -----------------
 
-Akreditīvi, kas tiek izmantoti starptautiskiem darījumiem un palīdz nodrošināt, ka maksājumi tiks veikti. Akreditīvs ir vienošanās, kuru izsniedz banka, kādā bankas apņemas garantēt maksājumu uzdevumā pircēju, noteikumu, ka starp pircēju un pārdevēju līguma nosacījumi ir izpildīti. Akreditīvu dēvē arī par akreditīvs (DC).
+Akreditīvi tiek izmantoti starptautiskajām transakcijām, un tie palīdz garantēt maksājumu veikšanu. Akreditīvs ir bankas izsniegts līgums, kurā banka piekrīt garantēt maksājumu pircēja vārdā, ja tiek izpildīti starp pircēju un pārdevēju noslēgtā līguma nosacījumi. Akreditīvs tiek saukts arī par dokumentāro akreditīvu (DC).
 
 Importa akreditīva gadījumā juridiskā persona ir pircējs vai akreditīva pieteicējs. Eksporta akreditīva gadījumā juridiskā persona ir pārdevējs vai akreditīva saņēmējs. Ar kredītvēstuli ir saistītas šādas personas:
 
@@ -50,5 +53,7 @@ Kredītvēstule var būt **atsaucama** vai **neatsaucama**. Kredītvēstules rak
 Importa inkaso ir līgums starp banku un eksportētāju (pārdevēju), kurā banka piekrīt piegādāt sūtījuma dokumentāciju starptautiskajam importētājam (pircējam). Sūtījuma dokumentāciju banka piegādā, saņemot maksājumu par nosūtāmajām precēm skaidrā naudā vai saņemot parakstītu maksājuma uzdevumu. 
 
 Importa inkaso palīdz nodrošināt, ka pārdevējam tiek samaksāts, kad pircējs saņem sūtījuma dokumentus, lai veiktu importēto preču piegādi.
+
+
 
 

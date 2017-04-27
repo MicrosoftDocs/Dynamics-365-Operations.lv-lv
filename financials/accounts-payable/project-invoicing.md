@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-invoicing"></a>Projekta rēķinu izrakstīšana
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegts pārskats par projekta rēķinu izrakstīšanu laika un materiālu projektiem, kā arī fiksētas cenas projektiem. Tajā ir ietverta informācija par rēķinu priekšlikumiem (rēķinus sagatavēm), rēķinu kontroli, starpkontu rēķinu izrakstīšanu, rēķinu izrakstīšanu kreditoriem un kredīta notām.
 
 Projekta veids nosaka pielietojamo rēķina izrakstīšanas procedūru. Rēķinu var izrakstīt tikai par abiem ārējiem projektu tipiem — Laiks un materiāli un Fiksēta cena. Laika un materiālu projekti, kā arī fiksētas cenas projekti vienmēr ir piesaistīti projekta līgumam.
@@ -103,7 +106,7 @@ Piemēram, varat iestatīt tālāk norādīto norēķinu grafiku.
 Kad atskaites punktu maksājumi ir gatavi rēķina izrakstīšanai, izmantojiet šo procedūru rēķinu izrakstīšanai par starpkontu summām.
 
 ## <a name="vendor-invoicing"></a>Kreditora rēķini
-Kad pasūtāt kādu krājumu no kreditora un piešķirat šo krājumu kādam projektam, tad rindas rekvizīts, ko šim krājumam atlasījāt no pirkšanas pasūtījuma rindas, nosaka, vai iegādātais krājums tiek iekļauts debitoram izrakstītajā rēķinā. Ja iestatāt noklusētos rindu rekvizītus, tie tiek parādīti krājumam Pirkšanas pasūtījuma rindā (detaļas līnijas &gt;projekta &gt;rindas statuss). Rindas rekvizītu var mainīt divējādi:
+Kad pasūtāt kādu krājumu no kreditora un piešķirat šo krājumu kādam projektam, tad rindas rekvizīts, ko šim krājumam atlasījāt no pirkšanas pasūtījuma rindas, nosaka, vai iegādātais krājums tiek iekļauts debitoram izrakstītajā rēķinā. Ja iestatāt noklusējuma rindu rekvizītus, tie tiek rādīti šim krājumam pirkšanas pasūtījuma rindā (Detalizēta informācija par rindu &gt; Projekts &gt; Rindas rekvizīts). Rindas rekvizītu var mainīt divējādi:
 
 -   Izrakstiet rēķinu projekta debitoram par šo krājumu: pirkšanas pasūtījumā iestatiet krājuma rindas rekvizītu uz apmaksājamu vērtību, un pēc tam izrakstiet rēķinu debitoram, izmantojot pareizo projektu rēķinu izrakstīšanas metodi.
 -   Neizrakstiet rēķinu projekta debitoram par šo krājumu: pirkšanas pasūtījuma rindā šim krājumam neatlasiet rindas rekvizītu **Apmaksājams**. Pēc tam varat izrakstīt rēķinu par pirkšanas pasūtījumu, un nav nepieciešams veikt turpmākas darbības.
@@ -118,5 +121,7 @@ Viens un tas pats dokuments var ietvert transakcijas, kas ir atlasītas kreditē
 Lai kreditētu rēķinā iekļautu summu, jums vispirms ir jāatlasa rēķinā iekļautā summa, kuru vēlaties kreditēt, un pēc tam jāizveido kredīta nota. Kredīta nota ir jāizveido, vadoties pēc tās pašas procedūras, ko jūs izmantotu debitora rēķina izveidošanai. 
 
 Varat izveidot rēķinu ar negatīvu summu — šāds rēķins kļūst par rēķinu, kurš tiek klasificēts kā kredīta nota. Lai izveidotu un drukātu kredīta notu, jums ir jāatlasa transakcijas, kas iepriekš tika grāmatotas debitora rēķinam, un pēc tam jāmaina šīs transakcijas. Izņemot gadījumus, kad juridiskās personas primārā adrese ir Vācijā, rēķina nosaukums ir “Labojošs rēķins”.
+
+
 
 

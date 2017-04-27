@@ -68,7 +68,7 @@ Kolonnas definīcija satur sekojošo informāciju:
 
 Šī informācija tiek rādīta šādos kolonnas definīcijas apgabalos:
 
--   Kolonnas definīcijas galvenes apgabals satur virsraksta tekstu un formatējumu, kas parādās pārskatā. Galveni var lietot vienai datu kolonnai, var aizņemt vairākas kolonnas vai kolonnu uz nosacītiem pamatiem var lietot. Kolonna definīcijas var iekļaut tik daudz kolonnu galvenes rindu, cik nepieciešams. **Piezīme:** Kolonnu galvenes attiecas uz katru datu kolonnu pārskatā. Pārskata galvenes attiecas uz visu pārskatu. Jūs varat definēt pārskata galvenes pārskata definīcijas cilnē **Galvenes un kājenes**.
+-   Kolonnas definīcijas galvenes apgabals satur virsraksta tekstu un formatējumu, kas parādās pārskatā. Galvene var attiekties uz vienu datu kolonnu, var ietvert vairākas kolonnas vai var tikt piemērota kolonnām uz nosacījuma pamata. Kolonnas definīcija var saturēt tik daudz kolonnas galvenes rindu, cik nepieciešams. **Piezīme:** Kolonnu galvenes attiecas uz katru datu kolonnu pārskatā. Pārskata galvenes attiecas uz visu pārskatu. Jūs varat definēt pārskata galvenes pārskata definīcijas cilnē **Galvenes un kājenes**.
 -   Kolonnas detaļu rindas ir rindas zem galvenes rindas kolonnas definīcijā. Kolonnas detaļu rindas definē informāciju, kas tiek iekļauta pārskatā. Šajā tabulā ir uzskaitītas un aprakstītas kolonnas detaļu rindas.
 
     | Kolonnas detaļu rindas nosaukums                                                | Apraksts                                                                                            |
@@ -105,7 +105,7 @@ Tabulā ir aprakstīti kolonnas ierobežojumu kodi.
 
 | Kolonnas ierobežojumu kods | Apraksts                                                                                                                                                                                                                                                                                                                             |
 |-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SU                      | Apspiest pasvītrojuma kolonnas, kur vai nu pasvītrotu komandu (**---**) vai dubulta pasvītrojuma komandu (**===**) ir ievadīts rindā definīcijā. Piemēram, iespējams, jūs nevēlēsities pasvītrot summas, kas ir procentuāla aprēķina rezultāts.                                                                        |
+| SU                      | Likvidēt pasvītrojumu kolonnai, kur rindas definīcijā ir ievadīta pasvītrojuma komanda (**---**) vai dubultā pasvītrojuma komanda (**===**). Piemēram, iespējams, jūs nevēlēsities pasvītrot summas, kas ir procentuāla aprēķina rezultāts.                                                                        |
 | ST                      | Likvidēt kopsummas, lai kolonnā tiktu parādītas tikai detaļas (piemēram, statistikas kolonna).                                                                                                                                                                                                                                      |
 | SD                      | Likvidēt detaļas, tā, lai tikai kolonnā tiktu parādītas tikai **TOT** un **CAL** rindas (no rindas definīcijas).                                                                                                                                                                                                                              |
 | DR                      | Ierobežot summas kolonnā **FD** līdz debeta summām.                                                                                                                                                                                                                                                                              |
@@ -150,7 +150,7 @@ Jūs varat izmantot dialoglodziņu **Kolonnas galvene**, lai pievienotu, modific
 
 1.  Pārskatu veidotājā atveriet modificējamo kolonnas definīciju.
 2.  Atlasīt šūnu galvenes rindā.
-3.  Izvēlnē **Rediģēt** noklikšķiniet uz **Ievietot rindu**. Jaunā rinda tiek ievietota virs rindas, ko atlasījāt 2. darbībā. **Piezīme. **Ja pārskatam ir četras vai vairāk pārskata galveņu rindas, galvenes pārklāsies, eksportējot pārskatu uz Excel darblapu. Lai skatītu visas galvenes pārskatā, pārskata definīcijā palieliniet augšējo piemali.
+3.  Izvēlnē **Rediģēt** noklikšķiniet uz **Ievietot rindu**. Jaunā rinda tiek ievietota virs rindas, ko atlasījāt 2. darbībā. **Piezīme.** Ja pārskatam ir četras vai vairāk pārskata galveņu rindas, galvenes pārklāsies, eksportējot pārskatu uz Excel darblapu. Lai skatītu visas galvenes pārskatā, pārskata definīcijā palieliniet augšējo piemali.
 
 ### <a name="delete-a-column-header-row"></a>Dzēst kolonnas galvenes rindu
 
@@ -160,31 +160,31 @@ Jūs varat izmantot dialoglodziņu **Kolonnas galvene**, lai pievienotu, modific
 
 ### <a name="create-an-automatically-generated-header"></a>Izveidot automātiski ģenerētu galveni
 
-Pārskata veidotājs var automātiski ģenerēt kolonnas galvenes, pamatojoties uz automātiskā teksta kodiem. Automātiskā teksta kodi ir mainīgie, kas tiek atjaunināts katru reizi, kad tiek izveidots pārskats. Kolonnas galvene var saturēt šos kodus, lai norādītu pārskata informāciju, kas var mainīties, piemēram, datumi vai periodu skaits. Tādējādi jūs varat izmantot vienu kolonnas definīciju vairākām pārskata definīcijām, laika periodiem un pārskata veidošanas kokiem. Tā kā automātiskā teksta kodi balstās uz kalendāra informāciju no kolonnas definīcijas detaļu rindām, tie tiek atbalstīti tikai kolonām **CALC**, **FD**, un **WKS**. Veids, kādā automātiskā teksta kods parādās kolonnas galvenes šūnā nosaka to, kā šī informācija parādās pārskatā. Dialoglodziņā **Kolonnas galvene**, automātiskā teksta kodi parādās dažādu reģistru burtos. Tāpēc, pārskatā teksts parādās dažādu reģistru burtos. Piemēram, standarta kalendārā gada, **@CalMonthLong**novērš mēnesī **7** uz **jūlijs**. Ja mēneša nosaukumu, jābūt lielajiem burtiem (piemēram **jūlijs**), automātiskā teksta kodu var ievadīt, izmantojot lielos burtus, **kolonnu galvenes teksts** lauks. Piemēram, ievadiet**@CALMONTHLONG**. Jūs varat kombinēt kodus un tekstu. Piemēram, ievadīt šādu tekstu galvenes: **periods @FiscalPeriod-@FiscalYearno @StartDateuz@EndDate**. Pārskata galvene, kas tiek izveidota līdzinās šādam tekstam: **Periods 1-02 no 01/01/02 līdz 31/01/02**. **Piezīme:** daļa no teksta, piemēram, garas dienas, formāts ir atkarīgs no jūsu reģionālajos iestatījumos sistēmā Dynamics 365 operācijas serverim. Lai mainītu šos iestatījumus, noklikšķiniet uz pogas **Sākums**, noklikšķiniet uz **Vadības panelis**, un pēc tam noklikšķiniet uz **Reģions un valoda**. Šajā tabulā ir uzskaitītas pieejamās automātiskā teksta opcijas kolonnu galvenēm.
+Pārskata veidotājs var automātiski ģenerēt kolonnas galvenes, pamatojoties uz automātiskā teksta kodiem. Automātiskā teksta kodi ir mainīgie, kas tiek atjaunināts katru reizi, kad tiek izveidots pārskats. Kolonnas galvene var saturēt šos kodus, lai norādītu pārskata informāciju, kas var mainīties, piemēram, datumi vai periodu skaits. Tādējādi jūs varat izmantot vienu kolonnas definīciju vairākām pārskata definīcijām, laika periodiem un pārskata veidošanas kokiem. Tā kā automātiskā teksta kodi balstās uz kalendāra informāciju no kolonnas definīcijas detaļu rindām, tie tiek atbalstīti tikai kolonām **CALC**, **FD**, un **WKS**. Veids, kādā automātiskā teksta kods parādās kolonnas galvenes šūnā nosaka to, kā šī informācija parādās pārskatā. Dialoglodziņā **Kolonnas galvene**, automātiskā teksta kodi parādās dažādu reģistru burtos. Tāpēc, pārskatā teksts parādās dažādu reģistru burtos. Piemēram, standarta kalendārajā gadā **@CalMonthLong** mēnesi **7** atrisina uz **Jūlijs**. Ja mēneša nosaukumā ir jābūt lielajiem burtiem (piemēram **JŪLIJS**), tad laukā **Kolonnas galvenes teksts** ievadiet automātiskā teksta kodu ar lielajiem burtiem. Ievadiet, piemēram, **@CALMONTHLONG**. Jūs varat kombinēt kodus un tekstu. Jūs ievadāt, piemēram, šādu galvenes tekstu: **Periods @FiscalPeriod-@FiscalYear no @StartDate līdz @EndDate**. Pārskata galvene, kas tiek izveidota līdzinās šādam tekstam: **Periods 1-02 no 01/01/02 līdz 31/01/02**. **Piezīme.** Dažu tekstu formāts, piemēram, pilnais datuma formāts, ir atkarīgs no jūsu Dynamics 365 for Operations servera reģionālajiem iestatījumiem. Lai mainītu šos iestatījumus, noklikšķiniet uz pogas **Sākums**, noklikšķiniet uz **Vadības panelis**, un pēc tam noklikšķiniet uz **Reģions un valoda**. Šajā tabulā ir uzskaitītas pieejamās automātiskā teksta opcijas kolonnu galvenēm.
 
-| Automātiskā teksta opcija un kods                | apraksts                                                                                                                                                                                                                                                                                      |
+| Automātiskā teksta opcija un kods                | Apraksts                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Mēneša nosaukums (@CalMonthLong)              | Ievadiet pašreizējā mēneša nosaukumu kolonnas galvenē. Ja jūs nolemjat noapaļot summas pārskatā līdz tūkstošiem, miljoniem vai miljardiem, vai ja iestatāt kolonnas platumu mazāku par deviņām rakstzīmēm, mēneša nosaukums tiks saīsināts līdz pirmajām trim rakstzīmēm. |
-| Saīsinātu mēneša nosaukumu (@CalMonthShort) | Ievadiet mēneša saīsināto nosaukumu atlasītajam finanšu periodam.                                                                                                                                                                                                                          |
-| Periodu skaitu (@FiscalPeriod)           | Ievadiet finanšu perioda, kas ir norādīts šai kolonnai, skaitlisko formu. Ja kolonna ir satur vairākus periodus, tiek ievadīts pēdējais diapazona periods.                                                                                                                                   |
+| Saīsinātā mēneša nosaukums (@CalMonthShort) | Ievadiet mēneša saīsināto nosaukumu atlasītajam finanšu periodam.                                                                                                                                                                                                                          |
+| Perioda numurs (@FiscalPeriod)           | Ievadiet finanšu perioda, kas ir norādīts šai kolonnai, skaitlisko formu. Ja kolonna ir satur vairākus periodus, tiek ievadīts pēdējais diapazona periods.                                                                                                                                   |
 | Perioda apraksts (@FiscalPeriodName)  | Ievadiet finanšu perioda aprakstu, kas ir norādīts finanšu datos.                                                                                                                                                                                                                    |
-| Finanšu gadu (@FiscalYear)               | Ievadiet kolonnā finanšu gadu ciparu formā.                                                                                                                                                                                                                                            |
+| Finanšu gads (@FiscalYear)               | Ievadiet kolonnā finanšu gadu ciparu formā.                                                                                                                                                                                                                                            |
 | Kalendārais gads (@CalYear)                | Ievadiet kolonnā kalendāro gadu ciparu formā.                                                                                                                                                                                                                                          |
-| Sākuma datuma (@StartDate)                 | Ievadiet kolonnā perioda sākuma datumu.                                                                                                                                                                                                                                                             |
+| Sākuma datums (@StartDate)                 | Ievadiet kolonnā perioda sākuma datumu.                                                                                                                                                                                                                                                             |
 | Beigu datums (@EndDate)                     | Ievadiet kolonnā perioda beigu datumu.                                                                                                                                                                                                                                                               |
 | Vienības nosaukums no koka (@UnitName)         | Ja ierobežojat kolonnu līdz noteiktai vienībai no pārskata koka, ievadiet vienības nosaukumu kolonnas galvenē.                                                                                                                                                                                     |
 | Vienības apraksts (@UnitDesc)            | Ja ierobežojat kolonnu līdz noteiktai vienībai no pārskata koka, ievadiet vienības aprakstu kolonnas galvenē.                                                                                                                                                                              |
-| Kods grāmatu (@BookCode)                   | Ievadiet grāmatas kodu, kas ir norādīts kolonnā.                                                                                                                                                                                                                                             |
-| Tukšu rindiņu (@Blank)                     | Ievietot tukšu rindu kolonnas galvenē.                                                                                                                                                                                                                                                       |
+| Grāmatas kods (@BookCode)                   | Ievadiet grāmatas kodu, kas ir norādīts kolonnā.                                                                                                                                                                                                                                             |
+| Tukša rinda (@Blank)                     | Ievietot tukšu rindu kolonnas galvenē.                                                                                                                                                                                                                                                       |
 
 ### <a name="create-a-conditional-spanning-header"></a>Izveidojiet nosacījuma laidenes galveni
 
 Nosacījuma laidenes galvenes var ietvert vairākas kolonnas, kas balstās uz noteiktiem perioda datiem. Piemēram, ja jums ir budžeta pārskats finanšu gadam un jūs vēlaties rādīt pēdējo mēnešu faktisko budžetu, kā arī turpmāko mēnešu prognozēto budžetu, jūs varat izmantot nosacījuma laidenes galveni, lai automātiski atjauninātu pārskata galveni. Veidojot nosacījuma laidenes galveni, pievērsiet uzmanību šādiem gadījumiem:
 
--   Jebkurš apturēšanas nosacījums (lauks**Sadalīt uz**), kas ir noteikts pirms sākuma nosacījuma (lauks**Sadalīt no**) tiek ignorēts. Piemēram, kolonnas B izplatības nosacījums ir definēts kā PAMATA+1 līdz PAMATA, PAMATA ir kolonnā C un PAMATA+1 ir kolonnā D. Šajā gadījumā apturēšanas nosacījums kolonnā C tiek ignorēts, un galvenes ievadīšana sākas kolonnā D.
--   Ja norādāt kolonnu galvenes, kas pārklājas, tās pārklāsies, kad tiks ievadītas pārskatā. Tiek formēta atskaite, bet šādu brīdinājumu, kas parādās **atskaites rindas statusa** lauka: "kolonnu virsrakstus, izmantojot bāzes krustojas ar citu kolonnu galvenēm un var izraisīt teksts pārklājas." Piemēram, galvene definīcija kolonnā B ir B BASE + 1 un galvene definīcija par kolonna D ir BASE + 1, F. Šajā gadījumā galvenes drukā virs otra un nav izlasāmas. Ikreiz, kad PAMATS tiek izmantota definīcijā **Sadalīt no/Sadalīt uz**, noteikti skatiet pārskatu, kas tiek ģenerēts, lai redzētu vai galvenes nepārklājas.
--   Ja sadales definīcijā nosakāt PAMATA, kolonnā bez drukāšanas (**NP**), tas tiek ignorēts, neskatoties uz to, kas ir norādīts kolonnas definīcijā. Būtībā, šis scenārijs ir tāds pats kā kolonnas galvenes definīcijas neizveidošana.
--   Nosacījumu drukas kolonnām (**P&lt;B**, **P&gt;= B**), nosacījumu, aptverot galvenes uzvesties kā jebkura regulāra kolonnas galvene definīcija. Piemēram, ja nosacījums nav patiess, jebkuras tālākās kolonnas atbilstības noteikšanu izplatības nosacījumam aizsāk galvenes drukāšanu.
+-   Jebkurš apturēšanas nosacījums (lauks **Sadalīt uz**), kas ir noteikts pirms sākuma nosacījuma (lauks **Sadalīt no**) tiek ignorēts. Piemēram, kolonnas B izplatības nosacījums ir definēts kā PAMATA+1 līdz PAMATA, PAMATA ir kolonnā C un PAMATA+1 ir kolonnā D. Šajā gadījumā apturēšanas nosacījums kolonnā C tiek ignorēts, un galvenes ievadīšana sākas kolonnā D.
+-   Ja norādāt kolonnu galvenes, kas pārklājas, tās pārklāsies, kad tiks ievadītas pārskatā. Pārskats tiek ģenerēts, bet laukā **Pārskata rindas statuss** tiek parādīts šāds brīdinājums: “Kolonnas galvenes, kas izmanto pamatu, pārklājas ar citām kolonnu galvenēm, un var izraisīt teksta pārklāšanos.” Piemēram, kolonnas B galvenes definīcija ir B līdz PAMATA+1, un kolonnas D galvenes definīcija ir PAMATA+1 līdz F. Šajā gadījumā galvenes tiek drukātas viena uz otras un nav salasāmas. Ikreiz, kad definīcijā **Sadalīt no/Sadalīt uz** tiek izmantota vērtība PAMATA, noteikti skatiet ģenerēto pārskatu, lai redzētu, vai galvenes nepārklājas.
+-   Ja sadales definīcijā norādāt PAMATA, tad kolonnā bez drukāšanas (**NP**) tas tiek ignorēts, neskatoties uz to, kas ir norādīts kolonnas definīcijā. Būtībā, šis scenārijs ir tāds pats kā kolonnas galvenes definīcijas neizveidošana.
+-   Nosacījuma drukāšanas kolonnām (**P&lt;B**, **P&gt;=B**) nosacījuma laiduma galvenes darbojas kā jebkura parasta kolonnas galvenes definīcija. Piemēram, ja nosacījums nav patiess, jebkuras tālākās kolonnas atbilstības noteikšanu izplatības nosacījumam aizsāk galvenes drukāšanu.
 
 #### <a name="create-a-conditional-spanning-header"></a>Izveidojiet nosacījuma laidenes galveni
 
@@ -200,7 +200,7 @@ Nosacījuma laidenes galvenes var ietvert vairākas kolonnas, kas balstās uz no
 
 Madara veido pārskatu dinamiskai sešu mēnešu prognozei. Viņa vēlas, lai vārds "Faktiskais" tiktu drukāts virs kolonnām, kas ietver faktiskos datus, un vārds "Budžets" tiktu drukāts virs kolonnām, kas ietver budžeta prognozes. Katru mēnesi, kad tiek izveidots pārskats, kļūst par vienu faktisko kolonnu vairāk, un par vienu budžeta kolonnu mazāk. Lai gan Madara var modificēt kolonnas definīcija manuāli, ikreiz, kad tiek izveidots pārskats, lai pielāgotu galvenes, lai ietaupītu laiku un pūles, viņa nolemj izveidot nosacījuma laidenes galvenes, kas automātiski izveidos galvenes virs atbilstošajām kolonnām katru reizi, kad tiek palaista atskaite. Madara atver Pārskatu veidotāju, navigācijas rūtī noklikšķina uz **Kolonnas definīcija**, un atver pārskata kolonnas definīciju. Tad viņa ievada šādu informāciju. Pārskata definīcijas pamata periods ir 4.
 
-|                     | A    | mljrd.             | K             | D             | E             | F             | G             | H             | I             | J             | tūkst.             | L             | P             |
+|                     | A    | B             | C             | D             | E             | F             | G             | H             | I             | J             | tūkst.             | L             | P             |
 |---------------------|------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
 | Galvene 1            |      | Faktiskais        | Budžets        |               |               |               |               |               |               |               |               |               |               |
 | Galvene 2            |      | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong |
@@ -208,7 +208,7 @@ Madara veido pārskatu dinamiskai sešu mēnešu prognozei. Viņa vēlas, lai v�
 | Kolonnas tips         | DESC | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            |
 | Grāmatas kods/Atribūts |      | FAKTISKAIS        | BUDŽETS2012    | FAKTISKAIS        | BUDŽETS2012    | FAKTISKAIS        | BUDŽETS2012    | FAKTISKAIS        | BUDŽETS2012    | FAKTISKAIS        | BUDŽETS2012    | FAKTISKAIS        | BUDŽETS2012    |
 | Finanšu gads         |      | PAMATA          | PAMATA          | PAMATA          | PAMATA          | PAMATA          | PAMATA          | PAMATA          | PAMATA          | PAMATA          | PAMATA          | PAMATA          | PAMATA          |
-| Periods              |      | formāts 1. proc.             | formāts 1. proc.             | 2             | 2             | 3             | 3             | 4.             | 4.             | 5.             | 5.             | 6.             | 6.             |
+| Periods              |      | 1             | 1             | 2             | 2             | 3             | 3             | 4.             | 4.             | 5.             | 5.             | 6.             | 6.             |
 | Iekļautie periodi     |      | PERIODISKS      | PERIODISKS      | PERIODISKS      | PERIODISKS      | PERIODISKS      | PERIODISKS      | PERIODISKS      | PERIODISKS      | PERIODISKS      | PERIODISKS      | PERIODISKS      | PERIODISKS      |
 | Kolonnas platums        | 30   | 10.            | 10.            | 10.            | 10.            | 10.            | 10.            | 10.            | 10.            | 10.            | 10.            | 10.            | 10.            |
 | Drukāšanas vadība       |      | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        |
@@ -303,7 +303,7 @@ Kolonnas definīcijā, formatēšanas kolonnu detaļu rindas atlasītajām kolon
 
 #### <a name="conditional-print-control-codes"></a>Nosacījuma drukāšanas vadības kodi
 
-| Nosacījuma drukāšanas vadības kods | apraksts                                                                             |
+| Nosacījuma drukāšanas vadības kods | Apraksts                                                                             |
 |--------------------------------|-----------------------------------------------------------------------------------------|
 | (nav)                         | Notīriet nosacījuma drukāšanas atlasi.                                                  |
 | P&lt;B                         | Rādīt norādīto kolonnu, tikai tad, ja periods ir mazāks par pamata periodu.             |
@@ -392,7 +392,7 @@ Informācijas tips, ko satur katra kolonna pārskatā, tiek norādīts ar vērt�
     </tr>
     <tr class="odd">
     <td>ATTR</td>
-    <td>Ja jūsu grāmatvedības sistēma atbalsta atribūtus, kolonnā parādiet konta vai darījuma atribūtu. Atribūts, kuram jābūt piemērotam vienam pilnam kontam, izgūst pamata kontu vai darbības informāciju no finanšu datiem. Konta līmeņa atribūtus attēlot datus no konta un darbības līmeņa atribūtus attēlot datus, kas notika tajā laikā, kad tika grāmatota darbība. Ja atlasāt <strong>ATTR</strong> kā kolonnas tips norādiet atribūtu kategorijā <strong>grāmatu kodu/atribūtu kategorija</strong> detaļu rindas kolonnas definīcija.</td>
+    <td>Ja jūsu grāmatvedības sistēma atbalsta atribūtus, kolonnā parādiet konta vai darījuma atribūtu. Atribūts, kuram jābūt piemērotam vienam pilnam kontam, izgūst pamata kontu vai darbības informāciju no finanšu datiem. Konta līmeņa atribūti attēlo datus no konta, un transakcijas līmeņa atribūti attēlo datus, kas radās transakcijas grāmatošanas laikā. Ja kā kolonnas tipu atlasāt <strong>ATTR</strong>, norādiet atribūta kategoriju kolonnas definīcijas detalizētas informācijas rindā <strong>Grāmatas kods/atribūta kategorija</strong>.</td>
     </tr>
     </tbody>
     </table>
@@ -412,33 +412,33 @@ Rindas definīcijas **Kolonnas definīcija** tiek piemērotas kolonnām, kuru ko
 | Opcija  | Apraksts                                                                                                                  |
 |---------|------------------------------------------------------------------------------------------------------------------------------|
 | PAMATA    | Izmantojiet pamata gadu, kas ir norādīts pārskata laikā.                                                                          |
-| BASE +\# | Gadā, kas ir izmantot \#gados pēc bāzes gada. Piemēram, lai izmantotu trešo gadu pēc pamata gada, ievadiet **PAMATA+3**. |
-| BASE-\# | Gadā, kas ir izmantot \#gadus pirms bāzes gadā. Piemēram, lai izmantotu iepriekšējo gadu, ievadiet **PAMATA-1**.                 |
+| PAMATA+\# | Izmantojiet gadu, kas ir \# gadus pēc pamata gada. Piemēram, lai izmantotu trešo gadu pēc pamata gada, ievadiet **PAMATA+3**. |
+| PAMATA-\# | Izmantojiet gadu, kas ir \# gadus pirms pamata gada. Piemēram, lai izmantotu iepriekšējo gadu, ievadiet **PAMATA-1**.                 |
 | \#      | Ievadiet faktisko finanšu gadu.                                                                                                |
 
 #### <a name="period-cell"></a>Perioda šūna
 
 Šūna **Periods** identificē finanšu periodu, kuram jābūt iekļautam kolonnā. Periods var būt attiecībā pret pamata periodu, kas ir norādīts pārskata izveides brīdī. Pieejamas šādas opcijas.
 
-| Opcija          | apraksts                                                                                                                                                                                                                          |
+| Opcija          | Apraksts                                                                                                                                                                                                                          |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | PAMATA            | Izmantojiet pamata periodu.                                                                                                                                                                                                                 |
-| BASE +\#         | Periodam, kas ir izmantot \#periodiem seko pēc bāzes perioda beigām. Piemēram, lai izmantotu trešo periodu pēc pamata perioda, ievadiet **PAMATA+3**.                                                                                               |
-| BASE-\#         | Periodam, kas ir izmantot \#periodiem pirms bāzes periodā. Piemēram, lai izmantotu iepriekšējo periodu, ievadiet **PAMATA-1**.                                                                                                                 |
-| BASE -\#: BASE    | Izmantojiet vairākus periodus, no vairākiem periodiem pirms pamata perioda līdz pamata periodam. Piemēram, lai izmantotu trīs iepriekšējos periodus un pamata periodu, ievadiet **PAMATA-3:PAMATA**.                                                |
-| BASE: BASE +\#    | Izmantojiet vairākus periodus, no pamata perioda līdz vairākiem periodiem pēc pamata perioda. Piemēram, lai izmantotu pamata periodu un trīs sekojošus periodus, ievadiet **PAMATA:PAMATA+2**.                                                  |
-| BASE -\#: BASE +\# | Izmantojiet vairākus periodus, no vairākiem periodiem pirms pamata perioda līdz vairākiem periodiem pēc pamata perioda. Piemēram, lai izmantotu trīs iepriekšējos periodus, pamata periodu un divus sekojošus periodus, ievadiet **PAMATA-3:PAMATA+2**. |
+| PAMATA+\#         | Izmantojiet periodu, kas ir \# periodus pēc pamata perioda. Piemēram, lai izmantotu trešo periodu pēc pamata perioda, ievadiet **PAMATA+3**.                                                                                               |
+| PAMATA-\#         | Izmantojiet periodu, kas ir \# periodus pirms pamata perioda. Piemēram, lai izmantotu iepriekšējo periodu, ievadiet **PAMATA-1**.                                                                                                                 |
+| PAMATA-\#:PAMATA    | Izmantojiet vairākus periodus, no vairākiem periodiem pirms pamata perioda līdz pamata periodam. Piemēram, lai izmantotu trīs iepriekšējos periodus un pamata periodu, ievadiet **PAMATA-3:PAMATA**.                                                |
+| PAMATA:PAMATA+\#    | Izmantojiet vairākus periodus, no pamata perioda līdz vairākiem periodiem pēc pamata perioda. Piemēram, lai izmantotu pamata periodu un trīs sekojošus periodus, ievadiet **PAMATA:PAMATA+2**.                                                  |
+| PAMATA-\#:PAMATA+\# | Izmantojiet vairākus periodus, no vairākiem periodiem pirms pamata perioda līdz vairākiem periodiem pēc pamata perioda. Piemēram, lai izmantotu trīs iepriekšējos periodus, pamata periodu un divus sekojošus periodus, ievadiet **PAMATA-3:PAMATA+2**. |
 | 1:PAMATA          | Izmantot vairākus periodus, no pirmā perioda līdz pamata periodam.                                                                                                                                                                 |
 | \#              | Vienmēr izmantojiet noteikta perioda numuru. Nav ieteicams izmantot šo iespēju, jo tā samazina kolonnas definīcijas elastību.                                                                                       |
-| \#                                      : \#           | Vienmēr izmantojiet noteiktu periodu diapazonu. Nav ieteicams izmantot šo iespēju, jo tā samazina kolonnas definīcijas elastību.                                                                                    |
+| \#:\#           | Vienmēr izmantojiet noteiktu periodu diapazonu. Nav ieteicams izmantot šo iespēju, jo tā samazina kolonnas definīcijas elastību.                                                                                    |
 
-Jūs varat pārsniegt finanšu gada robežas jebkurā no perioda specifikācijām, un jūs varat sajaukt gadus periodu diapazonā. Piemēram, norādīt periodu kā **BASE-5** (pārstāv pagātni sešiem periodiem) un palaist atskaiti, kurā ir 2 bāzes periodā. Šādā gadījumā pārskats rāda datus pirmos divus periodus norādītā finanšu gada un iepriekšējā finanšu gada pēdējie četri periodi.
+Jūs varat pārsniegt finanšu gada robežas jebkurā no perioda specifikācijām, un jūs varat sajaukt gadus periodu diapazonā. Piemēram, jūs periodu norādāt kā **PAMATA-5** (lai apzīmētu pēdējos sešus periodus) un palaižat pārskatu, kura pamata periods ir 2. Tādā gadījumā pārskatā tiek rādīti norādītā finanšu gada pirmo divu periodu dati un iepriekšējā finanšu gada pēdējie četri periodi.
 
 ### <a name="specify-the-periods-for-an-fd-column"></a>Norādiet periodus FD kolonnai
 
 1.  Pārskatu veidotājā atveriet modificējamo kolonnas definīciju.
 2.  Kolonnā **FD**, veiciet dubultklikšķi uz šūnas rindā **Periods**, un pēc tam sarakstā atlasiet opciju.
-3.  Aizpildiet formulu joslā virs navigācijas rūts, vai arī šūnā **Periods**. Aizstātu jebkuru skaitļa zīme (\#) ar atbilstošu vērtību.
+3.  Aizpildiet formulu joslā virs navigācijas rūts, vai arī šūnā **Periods**. Aizstājiet jebkuru numura zīmi (\#) ar atbilstošo vērtību.
 
 #### <a name="periods-covered-cell"></a>Šūna Iekļautie periodi
 
@@ -446,7 +446,7 @@ Jūs varat pārsniegt finanšu gada robežas jebkurā no perioda specifikācijā
 
 | Opcija      | Apraksts                                                                 |
 |-------------|-----------------------------------------------------------------------------|
-| PERIODISKS    | Parāda aktivitātes summu pašreizējam periodam vai periodu diapazonam. |
+| PERIODIC    | Parāda aktivitātes summu pašreizējam periodam vai periodu diapazonam. |
 | PERIODISKS/BB | Parāda sākuma bilanci pašreizējam periodam vai periodu diapazonam.   |
 | YTD         | Parāda aktivitātes summu no gada sākuma.                               |
 | YTD/BB      | Parāda gada sākuma bilanci.                                 |
@@ -466,13 +466,13 @@ Atribūti ir finanšu datu vērtības, kas definē kontu vai darbību. Konta atr
 2.  Veiciet dubultklikšķi uz šūnas **Atribūtu filtrs**, kolonnai **FD**.
 3.  Dialoglodziņā **Atribūtu filtrs**, veiciet dubultklikšķi uz šūnas kolonnā **Atribūts**, un pēc tam atlasiet filtra tipu.
 4.  Lai ierobežotu rezultātus, ievadiet diapazonu kolonnās **No** un **Līdz**. Šūnā **No** jābūt norādītai vērtībai.
-5.  Noklikšķiniet uz **OK**.
+5.  Noklikšķiniet uz **Labi**.
 
 #### <a name="example-of-an-attribute-filter"></a>Atribūtu filtra piemērs
 
 Šajā piemērā ir redzama daļa no kolonnas apraksta, kas ir konta atribūts rindā **Grāmatas kods/Kategorijas atribūts**. Atribūtu filtrs šajā kolonnā norāda pārskatā iekļaujamo vērtību diapazonu.
 
-|                              | A    | mljrd.                    |
+|                              | A    | B                    |
 |------------------------------|------|----------------------|
 | Kolonnas tips                  | DESC | FD                   |
 | Grāmatas kods/Kategorijas atribūts |      | FAKTISKAIS               |
@@ -482,16 +482,16 @@ Atribūti ir finanšu datu vērtības, kas definē kontu vai darbību. Konta atr
 | ...                          |      |                      |
 | Kolonnas platums                 | 30   |                      |
 | ...                          |      |                      |
-| Atribūtu filtrs             |      |  Atsauce =\[01:10\] |
+| Atribūtu filtrs             |      |  Atsauce=\[01:10\] |
 
 ### <a name="dimension-filter-in-a-column-definition"></a>Dimensiju filtrs kolonnas definīcijā
 
-Dimensijas filtrs tiek izmantots, lai ierobežotu kolonnu **FD** līdz noteiktām dimensiju vērtībām. Filtrs var ietvert vienu dimensiju, dimensiju diapazonu vai dimensiju grupu. Filtrs var ietvert arī dimensiju vērtību kopas. Tāpēc, ka dimensiju vērtības var atšķirties. \financial-dimensions\dimension-Based sistēma nav atbilst precīzu garumu. Neatkarīgi no tā, vai pārskatā ir ietverts pārskata koks, tiek izmantots filtrs. Var izmantot aizstājējzīmi (\* vai?) jebkurā stāvoklī. Norādot vairākus kontus, likts komats starp kontiem, kā redzams šajā piemērā: + konta =\[1200\], + konta =\[1100\], Department =\[01?\] Lai saņemtu visas nodaļas noteiktam kontam, jūs varat izslēgt nodaļas dimensiju no dimensiju filtra. Piemēram, abi šo dimensiju filtri tiek apstrādāti tādā pašā veidā:
+Dimensijas filtrs tiek izmantots, lai ierobežotu kolonnu **FD** līdz noteiktām dimensiju vērtībām. Filtrs var ietvert vienu dimensiju, dimensiju diapazonu vai dimensiju grupu. Filtrs var ietvert arī dimensiju vērtību kopas. Tā kā dimensiju vērtības var mainīties, tad sistēmai, kas ir balstīta uz \finanšu dimensijām\dimensijām, nav jāatbilst precīzam garumam. Neatkarīgi no tā, vai pārskatā ir ietverts pārskata koks, tiek izmantots filtrs. Jebkurā vietā varat izmantot aizstājējzīmes (\* vai ?). Norādot vairākus kontus, starp kontiem ir jāliek komati, kā redzams šajā piemērā: +Konts=\[1200\], +Konts=\[1100\], Nodaļa=\[01?\] Lai saņemtu visas nodaļas noteiktam kontam, jūs varat izslēgt nodaļas dimensiju no dimensiju filtra. Piemēram, abi šo dimensiju filtri tiek apstrādāti tādā pašā veidā:
 
--   + Konta =\[1100\], Department
--   + Konta =\[1100\]
+-   +Konts=\[1100\],Nodaļa
+-   +Konts=\[1100\]
 
-Precīzai salīdzināšanai jūs varat arī izmantot jebkuru burtu un ciparu rakstzīmju kombināciju, kā arī jūs varat definēt daļējas dimensijas. Piemēram, **atrašanās vieta = \[10\*\]** ietver visas vietu dimensiju vērtības, kas sākas ar 10.
+Precīzai salīdzināšanai jūs varat arī izmantot jebkuru burtu un ciparu rakstzīmju kombināciju, kā arī jūs varat definēt daļējas dimensijas. Piemēram, **Novietojums = \[10\*\]** ietver visas novietojuma dimensiju vērtības, kas sākas ar 10.
 
 #### <a name="apply-a-dimension-filter-for-a-column-on-a-report"></a>Pielietot kolonnai dimensiju filtru pārskatā
 
@@ -504,7 +504,7 @@ Precīzai salīdzināšanai jūs varat arī izmantot jebkuru burtu un ciparu rak
 
 Daudzvalūtu pārskatā var parādīt summas nacionālajā (vietējā) valūtā, funkcionālajā (noklusētajā) valūtā vai pārskata valūtā. Uzņēmuma funkcionālā valūta tiek definēta Microsoft Dynamics ERP sistēmā. Nesajauciet šo ERP iestatījumu ar operētājsistēmas reģionālo opciju iestatījumu, kur jūs varat konfigurēt noklusējuma valūtas simbolus, kas tiek izmantoti pārskatos. Šādas ar valūtu saistītas šūnas ir pieejamas kolonnas definīcijā:
 
--   **Valūtas rādīšanas** – norādiet, kādu valūtu (dabas, funkcionālo vai atskaišu), kuras darbības tiek rādītas. Šo funkcionalitāti, dažreiz tiek saukti valūtas konvertācijas. Valūtas pārrēķināšana ir spēja izveidot pārskatu par virsgrāmatas summām, valūtā, kas varētu nebūt uzņēmuma funkcionālā valūta, vai valūtā, kas tika ievadīta darbībai.
+-   **Valūtas parādīšana** — norādiet valūtas tipu (nacionālā, funkcionālā vai pārskata), kurā tiek rādītas transakcijas. Šī funkcionalitāte dažreiz tiek saukta par valūtas pārrēķināšanu. Valūtas pārrēķināšana ir spēja izveidot pārskatu par virsgrāmatas summām, valūtā, kas varētu nebūt uzņēmuma funkcionālā valūta, vai valūtā, kas tika ievadīta darbībai.
 -   **Valūtas filtrs** – norādiet valūtas filtru. Atskaitē tiek rādītas tikai darbības, kas tika ievadītas atlasītajā valūtā.
 
 **Piezīme:** lai izveidotu pārskatus, kuros tiek izmantotas vairākas valūtās, jums ir jāatlasa izvēles rūtiņa **Iekļaut visas pārskatu veidošanas valūtas** pārskata definīcijas cilnē **Pārskats**. Lai noteiktu uzņēmuma funkcionālo valūta, rīkojieties šādi.
@@ -516,10 +516,10 @@ Daudzvalūtu pārskatā var parādīt summas nacionālajā (vietējā) valūtā,
 #### <a name="specify-the-currency-on-a-multiple-currency-report"></a>Norādiet valūtu daudzvalūtu pārskatā
 
 1.  Pārskatu veidotājā atveriet modificējamo kolonnas definīciju.
-2.  Veiciet dubultklikšķi uz šūnas ** Valūtas parādīšana** atbilstošajā **FD** kolonnā, un pēc tam atlasiet valūtas informācijas parādīšanas opciju: **Nacionālā/izcelsmes valūta**, **Funkcionālā valūta no uzņēmuma informācijas** vai pārskata valūta.
+2.  Veiciet dubultklikšķi uz šūnas **Valūtas parādīšana** atbilstošajā **FD** kolonnā, un pēc tam atlasiet valūtas informācijas parādīšanas opciju: **Nacionālā/izcelsmes valūta**, **Funkcionālā valūta no uzņēmuma informācijas** vai pārskata valūta.
 3.  Veiciet dubultklikšķi uz šūnas **Valūtas filtrs** atbilstošajā **FD** kolonnā, un pēc tam sarakstā atlasiet atbilstošu valūtas kodu. Atskaitē tiek rādītas tikai darbības, kas tika ievadītas šajā valūtā.
 
-**Piezīme:** šeit aprakstītās opcijas var atšķirties, atkarībā no ERP sistēmas. Lai iegūtu papildinformāciju, skatiet jūsu [Microsoft ERP sistēmas dokumentācija](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
+**Piezīme:** šeit aprakstītās opcijas var atšķirties, atkarībā no ERP sistēmas. Papildinformāciju skatiet savā [Microsoft ERP sistēmas dokumentācijā](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
 
 ### <a name="example-for-currency-display-and-currency-filter-cells"></a>Piemērs Valūtas parādīšanas un Valūtas filtra šūnām
 
@@ -538,18 +538,18 @@ Madaras atlasītā valūtas filtra dēļ, pārskats ietver tikai darbības, kas 
 |----------------------------------------------|----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nacionālā/izcelsmes valūta                 | **JĒNA**              | **Y6 000** – rezultāts rāda tikai darbības, kas tika ievadītas JPY.                                                                                                                        |
 | Funkcionālā valūta no uzņēmuma informācijas | **JĒNA**              | **$60** – rezultāts rāda tikai darbības, kas tika ievadītas JPY, un attēlo tās darbības USD. **Piezīme:** konvertēšanas maiņas kurss ir aptuveni 100 JPY par vienu USD.                    |
-| Funkcionālā valūta no uzņēmuma informācijas | Tukšs                | **$ 2 310\*\*** -rezultāts rāda visus datus funkcionālā valūta, kas norādīta logā Uzņēmuma informācija. **Piezīme:** šī summa ir visu darbību summa funkcionālajā valūtā. |
+| Funkcionālā valūta no uzņēmuma informācijas | Tukšs                | **$2310\*\*** — rezultāts rāda visus datus funkcionālajā valūtā, kas ir norādīta uzņēmuma informācijā. **Piezīme:** šī summa ir visu darbību summa funkcionālajā valūtā. |
 | Nacionālā/izcelsmes valūta                 | Tukšs                | **$2250** – rezultāts rāda visas summas valūtā, kurā tika veikta darbība.                                                                                                 |
 
 ### <a name="calculation-column-in-a-column-definition"></a>Aprēķina kolonna kolonnas definīcijā
 
-Kolonnas tips **CALC** kolonnas definīcija nodrošina sarežģītus aprēķinus **Formula** šūnas, un var ietvert **+**, **-**, **\***, un **/**operatori, un arī **tad/ja/cits** paziņojumiem. Aprēķina kolonnas var arī atsaukties uz citu kolonnu, pat nākamo kolonnu. Turklāt aprēķina kolonna var arī saturēt finanšu gadu un periodu, lai atbalstītu galvenes kolonnas. Aprēķina formula var saturēt ne vairāk kā 1024 burtciparu rakstzīmes. Lai izteiktu aprēķina rezultātu procentos, izmantojiet īpašu formāta ignorēšanu. **Piezīme:** aprēķina formulu rezultāti neiekļauj nedrukāšanas kolonnu diapazonu vērtības. Piemēram, **A:D** drukā **0** (nulle), bet **A+B+C** aprēķina vērtību nedrukāšanas vērtībām.
+Kolonnas tips **CALC** kolonnas definīcijā atbalsta sarežģītus aprēķinus šūnā **Formula** un var ietvert operatorus **+**, **-**, **\*** un **/**, kā arī apgalvojumus **IF/THEN/ELSE**. Aprēķina kolonna var arī atsaukties uz jebkuru citu kolonnu, pat nākamajām kolonnām. Turklāt aprēķina kolonna var arī saturēt finanšu gadu un periodu, lai atbalstītu galvenes kolonnas. Aprēķina formula var saturēt ne vairāk kā 1024 burtciparu rakstzīmes. Lai izteiktu aprēķina rezultātu procentos, izmantojiet īpašu formāta ignorēšanu. **Piezīme:** aprēķina formulu rezultāti neiekļauj nedrukāšanas kolonnu diapazonu vērtības. Piemēram, **A:D** drukā **0** (nulle), bet **A+B+C** aprēķina vērtību nedrukāšanas vērtībām.
 
 #### <a name="operators-in-calculation-columns"></a>Operatori aprēķina kolonnās
 
 Lai saskaitītu, atņemtu, reizinātu vai dalītu kolonnas, ievadiet kolonnu burtus aprēķina secībā, un pēc tam izmantojiet atbilstošu operatoru katras kolonnas burta atdalīšanai. Šajā tabulā sniegts pārskats par operatoriem, kurus jūs varat izmantot aprēķina kolonnā.
 
-| Operators | Piemēra aprēķins | apraksts                                                                                                                                                                                                                                    |
+| Operators | Piemēra aprēķins | Apraksts                                                                                                                                                                                                                                    |
 |----------|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | +        | A+C                 | Pievienot summu kolonnā A summai kolonnā C.                                                                                                                                                                                          |
 | :        | A:C A:C-D           | Pievienot secīgu kolonnu diapazonu. Piemēram, formula **A:C** pievieno kolonnu summas no A līdz C, un formula **A:C-D** saskaita kolonnu A – C summas, un pēc tam atņem summu kolonnā D.                          |
@@ -572,7 +572,7 @@ Jūs varat atsaukties uz noteiktu pārskata šūnu, ievadot kolonnas burtu un ri
 
 #### <a name="multiply-or-divide-a-column-by-a-base-row"></a>Reizināt vai dalīt kolonnu ar pamata rindu
 
-Jūs varat izveidot kolonnu, kas rāda visas vērtības noteiktā kolonnā kā procentus no pamata skaitļa. Tādējādi jūs varat parādīt attiecības starp rindām procentos no pārdošanas rindas, vai procentos no kopējo izdevumu rindas. Lai reizinātu vai dalītu katrā īpašās kolonnas rindā pēc bāzes rindas, ievadiet kolonnas aprēķinā jāizmanto, un pēc tam ievadiet **\*BASEROW** vai **/BASEROW**. Piemēram, ievadiet **C\*BASEROW** vai **C/BASEROW**. ** Piezīme:** lietojot pamata rindas aprēķinu kolonnas definīcijā, pārliecinieties, ka katra rindas definīcija, kas tiek izmantota šajā kolonnas definīcijā, satur vismaz vienu pamata rindu aprēķiniem.
+Jūs varat izveidot kolonnu, kas rāda visas vērtības noteiktā kolonnā kā procentus no pamata skaitļa. Tādējādi jūs varat parādīt attiecības starp rindām procentos no pārdošanas rindas, vai procentos no kopējo izdevumu rindas. Lai katrā noteiktas kolonnas rindā reizinātu vai dalītu ar pamata rindu, ievadiet kolonnu, kuru izmantot aprēķinā, un pēc tam ievadiet **\*BASEROW** vai **/BASEROW**. Piemēram, ievadiet **C\*BASEROW** vai **C/BASEROW**. **Piezīme.** Lietojot pamata rindas aprēķinu kolonnas definīcijā, pārliecinieties, ka katra rindas definīcija, kas tiek izmantota šajā kolonnas definīcijā, satur vismaz vienu pamata rindu aprēķiniem.
 
 #### <a name="divide-the-amount-in-a-column-by-the-number-of-periods"></a>Summa kolonnā daliet ar periodu skaitu
 

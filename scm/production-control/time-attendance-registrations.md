@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="time-and-attendance-registration"></a>Laika un apmeklētības reģistrācija
 
+[!include[banner](../includes/banner.md)]
+
+
 Laika reģistrācijas darbinieki var ievadīt dažādus laika reģistrācijas veidus, piemēram, ierašanās laiku, aiziešanas laiku, netiešu aktivitāšu un kavējumu reģistrāciju. Šajā rakstā sniegta informācija par reģistrācijas veidiem, to aprēķināšanu, apstiprināšanu un darbplūsmas izmantošanu, lai pievienotu struktūru un automātisko apstiprināšanu darba laika uzskaites tabulu apstiprināšanas procesam. 
 
 <a name="registrations"></a>Reģistrācijas
@@ -62,7 +65,7 @@ Pēc iestatīšanas darbinieku datus var ievadīt dažādu veidu reģistrācijā
 -   Netiešās aktivitātes, kas ir ārpus ražošanas cikla, un kuras darbinieks var veikt dienas laikā. Šo darbību piemēri ietver sapulces vai darbvietas uzkopšanu.
 -   Virsstundas, ko var reģistrēt kā papildstundas, brīvā režīma laiku vai virsstundas.
 
-## <a name="adding-clockout-registrations"></a>Clockout reģistrāciju pievienošana
+## <a name="adding-clockout-registrations"></a>Aiziešanas no darba reģistrācijas pievienošana
 Ja darbinieks aizmirst reģistrēt aiziešanu no darba darbdienas beigās, trūkstošo reģistrāciju var pievienot izpildot pakešuzdevumu. Sistēma salīdzinās ierašanās un aiziešanas reģistrācijas laiku saskaņā ar saistīto darbinieka profilu un automātiski ievietos trūkstošo aiziešanas no darba reģistrāciju atbilstoši profila beigu laikam. Ierašanās un aiziešanas no darba reģistrācija ir ļoti svarīga nākamajam reģistrāciju laika aprēķinam un apstiprināšanai pirms reģistrāciju pārsūtīšanas uz algu daļu.
 
 ## <a name="calculating-registrations"></a>Reģistrāciju aprēķināšana
@@ -113,6 +116,8 @@ Darbinieki ar darba uzdevumiem, kuriem nav nepieciešamas tūlītējas atsauksme
 -   laika patēriņš.
 -   Projekta papildmaksa
 -   Projekta krājumi
+
+
 
 
 

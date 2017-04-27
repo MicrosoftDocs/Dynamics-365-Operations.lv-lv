@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>Novirzes punktu noņemšana no vēsturiskiem transakciju datiem, aprēķinot pieprasījuma apjoma prognozi
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir aprakstīts, kā izslēgt novirzes punktus no vēsturiskajiem datiem, kas tiek izmantoti, lai aprēķinātu pieprasījuma apjoma prognozi. Izslēdzot novirzes punktus, jūs varat uzlabot prognozes precizitāti.
 
-Varat izslēgt galējos punktus, lai uzlabotu prognozes precizitāti. Šis uzdevums nav obligāts. Tālāk ir sniegts šī procesa apskats.
+Varat izslēgt novirzes punktus, lai uzlabotu prognozes precizitāti. Šis uzdevums nav obligāts. Tālāk ir sniegts šī procesa apskats.
 
-1.  Noklikšķiniet uz **vispārējā plānošana**&gt;**Setup**&gt;**pieprasījuma prognozēšanas**&gt;**nepiederoša noņemšanas** atvērt **nepiederoša noņemšanas** lapu, kur var izmantot vaicājumu, lai atlasītu darbības, kas neietver.
+1.  Noklikšķiniet uz **Vispārējā plānošana** &gt; **Iestatījumi** &gt; **Pieprasījuma prognozēšana** &gt; **Nepiederošas personas noņemšana**, lai atvērtu lapu **Nepiederošas personas noņemšana**, kurā varat izmantot vaicājumu, lai atlasītu izslēdzamās transakcijas.
 2.  Atlasiet uzņēmumu, uz kuru attiecas šis vaicājums, un pēc tam ievadiet nosaukumu un aprakstu. Lauks **Vaicājuma datums** automātiski tiek iestatīts uz pašreizējo datumu.
 3.  Atzīmējiet izvēles rūtiņu **Aktīvs**, lai no vēsturiskajiem datiem izslēgtu transakcijas, ko šis vaicājums atrod. Šis iestatījums stāsies spēkā pēc bāzlīnijas prognozes izveides.
 4.  Lapā **Novirzes punktu noņemšanas vaicājums** varat pievienot, noņemt un atlasīt kritērijus, kas definē, kuras transakcijas tiks izslēgtas, kad tiek aprēķināta bāzlīnijas prognoze. Piemēram, atlasiet noteiktu krājumu vai pasūtījuma transakciju, ko izslēgt.
@@ -43,8 +46,10 @@ Varat izslēgt galējos punktus, lai uzlabotu prognozes precizitāti. Šis uzdev
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Introduction to demand forecasting](introduction-demand-forecasting.md)
+[Ievads par pieprasījuma prognozēšanu](introduction-demand-forecasting.md)
 
-[Monitoring forecast accuracy](monitor-forecast-accuracy.md)
+[Prognozes precizitātes pārraudzība](monitor-forecast-accuracy.md)
+
+
 
 

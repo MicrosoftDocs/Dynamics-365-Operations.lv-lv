@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="invoice-issue-deadline"></a>Rēķina izsniegšanas termiņš
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir izskaidrots, kā iestatīt parametrus, lai aprēķinātu izpildes termiņus kreditoru un debitori rēķinu izrakstīšanai Eiropas Savienībā (ES).
 
 Saskaņā ar Eiropas Savienības (ES) Direktīvu 45/2010 un citām direktīvām rēķinu par piegādēm Eiropas Savienībā (piegādes ES) izsniedz ne vēlāk kā tā mēneša piecpadsmitajā dienā, kas ir pēc mēneša, kurā tiek veikta piegāde. ES valstīs rēķinu izrakstīšanas termiņi iekšzemes piegādēm var atšķirties. Rēķina izrakstīšanas izpildes termiņa funkcionalitāte ļauj saskaņot datumu intervālu valsts/reģiona veidam. Pēc tam visām piegādēm uz noteikta veida valsti/reģionu un no tā rēķina izsniegšanas izpildes termiņš tiek aprēķināts, izmantojot kārtulas, kas tiek iestatītas norādītajā datumu intervālā. Varat arī saņemt visas pavadzīmes, kurām ir noteikts rēķina izrakstīšanas izpildes termiņš, filtrēt pēc rēķina izrakstīšanas izpildes termiņa periodisko pārdošanas rēķinu izrakstīšanas laikā, kā arī kontrolēt pārdošanas rēķina izrakstīšanas termiņu rēķina grāmatošanas laikā. Varat iestatīt datumu intervāla kodu un pēc tam iestatīt aprēķina kārtulu rēķina izrakstīšanas termiņam, piešķirot datumu intervāla kodu valsts/reģiona veidam. Aprēķināšanas nosacījums tiek izmantots, lai aprēķinātu izpildes datumu izrakstītajiem rēķiniem par šādām transakcijām:
@@ -42,7 +45,7 @@ Tālāk redzamajā tabulā ir ietverti priekšnosacījumi, kas jāievēro, lai i
 | Kategorija            | Priekšnosacījums                                                                                                                                                                                                                                                                                                                                                                             |
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Valsts/reģions      | Juridiskās personas primārajai adresei ir jāatrodas ES dalībvalstī.                                                                                                                                                                                                                                                                                                                    |
-| Saistītie iestatīšanas uzdevumi | Lapā **Datumu intervāli** iestatiet datumu intervālu, ko izmanto rēķina izrakstīšanas izpildes termiņa aprēķināšanā. (Noklikšķiniet uz **Virsgrāmatas**&gt;**Virsgrāmatas uzstādījumi**&gt;**datumu intervāliem**.) Par **ārējās tirdzniecības parametri** lapā, kas izveidota ārējās tirdzniecības īpašībām dažādās valstīs/reģionos. (Noklikšķiniet uz **nodokļu**&gt;**Setup**&gt;**ārējās tirdzniecības**&gt;**ārējās tirdzniecības parametri**.) |
+| Saistītie iestatīšanas uzdevumi | Lapā **Datumu intervāli** iestatiet datumu intervālu, ko izmanto rēķina izrakstīšanas izpildes termiņa aprēķināšanā. (Noklikšķiniet uz **Virsgrāmata** &gt; **Virsgrāmatas iestatīšana** &gt; **Datumu intervāli**.) Lapā **Ārējās tirdzniecības parametri** iestatiet ārējās tirdzniecības rekvizītus dažādām valstīm/reģioniem. (Noklikšķiniet uz **Nodokļi** &gt; **Iestatīšana** &gt; **Ārējā tirdzniecība** &gt; **Ārējās tirdzniecības parametri**.) |
 
 ## <a name="invoice-issue-due-date-calculation-rule"></a>Rēķina izrakstīšanas izpildes datuma aprēķināšanas nosacījums
 Izmantojiet lapu **Iestatīt rēķina izrakstīšanas izpildes termiņa aprēķinu**, lai iestatītu rēķina izrakstīšanas izpildes termiņa aprēķina kārtulu, piešķirot datumu intervāla kodu valsts/reģiona veidam.
@@ -51,7 +54,7 @@ Izmantojiet lapu **Iestatīt rēķina izrakstīšanas izpildes termiņa aprēķi
 Varat iestatīt arī datumu kontroles parametrus, lai nodrošinātu, ka debitoru rēķini un kredīta notas debitoru transakcijām tiek ģenerēti noteiktā periodā pēc piegādes veikšanas. Šie parametri ir pieejami lapas **Debitoru moduļa parametri** apgabalā **Rēķinu datumu kontrole**.
 
 ## <a name="example"></a>Paraugs
-Iestatīt Microsoft Dynamics 365 darbībām, lai aprēķinātu rēķina izdošanas izpildes datumi ES iekšienē sūtījumiem piecpadsmitā mēneša dienā pēc tam, kad piedāvājums tiek piegādāts, datumu intervāla kods un aprēķinu kārtulas izveide ar šādiem iestatījumiem.
+Lai programmā Microsoft Dynamics 365 for Operations iestatītu, ka sūtījumiem ES robežās rēķina izrakstīšanas izpildes termiņi tiek aprēķināti tā mēneša piecpadsmitajā dienā, kas ir pēc sūtījuma piegādāšanas, izveidojiet datumu intervāla kodu un aprēķina kārtulu ar tālāk sniegtajiem iestatījumiem.
 
 ### <a name="date-interval-code"></a>Datumu intervāla kods
 
@@ -75,8 +78,8 @@ Iestatīt Microsoft Dynamics 365 darbībām, lai aprēķinātu rēķina izdošan
 ## <a name="next-steps"></a>Turpmākās darbības
 Pēc tam, kad esat beidzis iestatīt parametrus, lai aprēķinātu rēķina izrakstīšanas izpildes termiņus, varat izveidot un grāmatot tālāk norādītās transakcijas, lai automātiski aprēķinātu un atjauninātu izpildes termiņus rēķinu izrakstīšanai.
 
--   **Pārdošanas pasūtījumi** — kad jūs izveidojat pārdošanas pasūtījumu un grāmatojat pavadzīmi, tajā tiek aprēķināts un atjaunināts izpildes datums rēķina izrakstīšanai. Izpildes datumu tiek aprēķināta, pamatojoties uz datumu intervālu, kas ir saistīta ar valstij/reģionam, kas norādīts pārdošanas pasūtījumu piegādes adreses. Pēc tam, kad grāmatojat pavadzīmi, jūs varat pārbaudīt rēķina izdošanas izpildes termiņu **rēķina izdošanas termiņš** lauku **pavadzīmju reģistru** lapā. (Noklikšķiniet uz **pārdošanas un mārketinga**&gt;**pārdošanas pasūtījumu**&gt;**pasūtījuma nosūtīšanas**&gt;**pavadzīmes**.) Jūs varat apskatīt visu pavadzīmju, netiek apmaksāti un to rēķina izdošanas izpildes datumus, no **pavadzīmes rēķinā neiekļautās** lapu. (Noklikšķiniet uz **pārdošanas un mārketinga**&gt;**pārdošanas pasūtījumu**&gt;**pasūtījuma nosūtīšanas**&gt;**pavadzīmes rēķinā neiekļautās**.)
--   **Pirkšanas pasūtījumi** — kad jūs izveidojat pirkšanas pasūtījumu un grāmatojat preces kvīti, tajā tiek aprēķināts un atjaunināts izpildes datums rēķina izrakstīšanai. Izpildes termiņš tiek aprēķināts, pamatojoties uz datumu intervālu, kas ir saistīts ar valsti/reģionu, kas ir norādīts kreditora primārajā adresē. Pēc produktu ieejas plūsmas grāmatošanas varat pārbaudīt rēķina izrakstīšanas izpildes termiņu lapas **Produktu ieejas plūsmas žurnāls** laukā **Rēķina izrakstīšanas izpildes termiņš**. (Noklikšķiniet uz **iepirkumu un plānošanas**&gt;**pirkšanas pasūtījumiem**&gt;**saņem produktus**&gt;**produkta saņemšanas**.) Var apskatīt preču saņemšanas, netiek apmaksāti un to rēķina izsniegšanas izpildes datumus, no **produkta saņemšanas neiekļautās** lapu. (Noklikšķiniet uz **iepirkumu un plānošanas**&gt;**pirkšanas pasūtījumiem**&gt;**saņem produktus**&gt;**produkta saņemšanas neiekļautās**.)
+-   **Pārdošanas pasūtījumi** — kad jūs izveidojat pārdošanas pasūtījumu un grāmatojat pavadzīmi, tajā tiek aprēķināts un atjaunināts izpildes datums rēķina izrakstīšanai. Izpildes datums tiek aprēķināts, pamatojoties uz datumu intervālu, kurš ir saistīts ar pārdošanas pasūtījuma piegādes adresē norādīto valsti/reģionu. Pēc pavadzīmes iegrāmatošanas varat pārbaudīt rēķina izrakstīšanas izpildes termiņu lapas **Pavadzīmju žurnāls** laukā **Rēķina izrakstīšanas izpildes termiņš**. (Noklikšķiniet uz **Pārdošana un mārketings** &gt; **Pārdošanas pasūtījums** &gt; **Pasūtījuma nosūtīšana** &gt; **Pavadzīme**.) Visas pavadzīmes, kuras nav iekļautas rēķinā, un to rēķinu izrakstīšanas izpildes termiņus varat apskatīt lapā **Pavadzīmes nav iekļautas rēķinā**. (Noklikšķiniet uz **Pārdošana un mārketings** &gt; **Pārdošanas pasūtījums** &gt; **Pasūtījuma piegāde** &gt; **Pavadzīmes nav iekļautas rēķinā**.)
+-   **Pirkšanas pasūtījumi** — kad jūs izveidojat pirkšanas pasūtījumu un grāmatojat preces kvīti, tajā tiek aprēķināts un atjaunināts izpildes datums rēķina izrakstīšanai. Izpildes termiņš tiek aprēķināts, pamatojoties uz datumu intervālu, kas ir saistīts ar valsti/reģionu, kas ir norādīts kreditora primārajā adresē. Pēc produktu ieejas plūsmas grāmatošanas varat pārbaudīt rēķina izrakstīšanas izpildes termiņu lapas **Produktu ieejas plūsmas žurnāls** laukā **Rēķina izrakstīšanas izpildes termiņš**. (Noklikšķiniet uz **Sagāde un avoti** &gt; **Pirkšanas pasūtījumi** &gt; **Preču saņemšana** &gt; **Produktu ieejas plūsma**.) Visas produktu ieejas plūsmas, kuras nav iekļautas rēķinā, un to rēķinu izrakstīšanas izpildes termiņus varat apskatīt lapā **Produktu ieejas plūsmas nav iekļautas rēķinā**. (Noklikšķiniet uz **Sagāde un avoti** &gt; **Pirkšanas pasūtījumi** &gt; **Preču saņemšana** &gt; **Preču ieejas plūsmas nav iekļautas rēķinā**.)
 
 ## <a name="technical-information-for-system-administrators"></a>Tehniskā informācija sistēmas administratoriem
 Ja nevarat piekļūt lapām, kas tiek izmantotas šajā rakstā minēto uzdevumu izpildīšanai, sazinieties ar sistēmas administratoru un sniedziet nākamajā tabulā redzamo informāciju.
@@ -95,7 +98,7 @@ Ja nevarat piekļūt lapām, kas tiek izmantotas šajā rakstā minēto uzdevumu
 <tbody>
 <tr class="odd">
 <td>Configuration Keys</td>
-<td>Noklikšķiniet uz <strong>sistēmas administrēšanu</strong>&gt;<strong>Setup</strong>&gt;<strong>licencēšanas</strong>&gt;<strong>licences konfigurācijas</strong>. Noklikšķiniet uz konfigurācijas atslēgas <strong>Virsgrāmatas</strong>.</td>
+<td>Noklikšķiniet uz <strong>Sistēmas administrēšana</strong> &gt; <strong>Iestatīšana</strong> &gt; <strong>Licencēšana</strong> &gt; <strong>Licences konfigurācija</strong>. Noklikšķiniet uz konfigurācijas atslēgas <strong>Virsgrāmatas</strong>.</td>
 </tr>
 <tr class="even">
 <td>Drošības lomas un pienākumi</td>
@@ -116,6 +119,8 @@ Ja nevarat piekļūt lapām, kas tiek izmantotas šajā rakstā minēto uzdevumu
 </tr>
 </tbody>
 </table>
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Pieprasīt piedāvājumu (RFQs)"
+title: "Piedāvājuma pieprasījumi (PP)"
 description: "Šajā rakstā ir sniegts pārskats par piedāvājuma pieprasījumiem (PP), kuras organizācijas izsniedz, kad tām jāiegādājas preces vai pakalpojumus, un tādēļ vēlas saņemt vairāku kreditoru konkurētspējīgus piedāvājumus. Piedāvājuma pieprasījumā kreditoriem tiek lūgts piedāvāt norādītā krājuma daudzuma cenas un piegādes laiku. Kreditoriem var lūgt arī norādīt, vai pastāv jebkādas nejaušās izmaksas, piemēram, piegādes izmaksas, kā arī vai pastāv jebkādas atlaides lielu pasūtījumu vai savlaicīgas kreditora rēķina apmaksas gadījumā."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="request-for-quotations-rfqs"></a>Pieprasīt piedāvājumu (RFQs)
+# <a name="request-for-quotations-rfqs"></a>Piedāvājuma pieprasījumi (PP)
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir sniegts pārskats par piedāvājuma pieprasījumiem (PP), kuras organizācijas izsniedz, kad tām jāiegādājas preces vai pakalpojumus, un tādēļ vēlas saņemt vairāku kreditoru konkurētspējīgus piedāvājumus. Piedāvājuma pieprasījumā kreditoriem tiek lūgts piedāvāt norādītā krājuma daudzuma cenas un piegādes laiku. Kreditoriem var lūgt arī norādīt, vai pastāv jebkādas nejaušās izmaksas, piemēram, piegādes izmaksas, kā arī vai pastāv jebkādas atlaides lielu pasūtījumu vai savlaicīgas kreditora rēķina apmaksas gadījumā.
 
@@ -37,9 +40,9 @@ Piedāvājuma pieprasījuma (PP) process ietver tālāk norādītos uzdevumus.
 
 Šajā ilustrācijā parādīts pārskats par PP procesu.  
 
-[![Pieprasījuma, piedāvājuma sastādīšanai](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)  
+[![Piedāvājuma pieprasījuma process](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)  
 
-Varat izveidot PP no plānotiem pasūtījumiem, pirkšanas pieprasījuma vai manuāli ievadītiem datiem. Izveidotais PP tiek saukts par PP gadījumu, un tas ir galvenais dokuments, ko izmantojat, lai izsniegtu PP katram kreditoram. Pēc tam, kad jūs sagatavot PP lietu un pievienot piegādātājiem, noklikšķiniet **nosūtīt** PP lietu un PP žurnāls netiek ģenerēts katram kreditoram, kuram tika nosūtīts uz PP. Jākonfigurē nosūtīt rīcības drukāšanas iestatījumi Drukāt pārskatu katram kreditoram uz arhīva vai nosūtītu pārskatu uz katra pārdevēja e-pasta adresi. Turklāt katra kreditora PP žurnālu var izmantot, lai ģenerētu pārskatu, ko vēlāk varat nosūtīt vai atkārtoti nosūtīt kreditoram. Var arī konfigurēt sūtīšanas darbību tā, lai tiktu ģenerēta atbildes lapa, ko kreditors var aizpildīt.  
+Varat izveidot PP no plānotiem pasūtījumiem, pirkšanas pieprasījuma vai manuāli ievadītiem datiem. Izveidotais PP tiek saukts par PP gadījumu, un tas ir galvenais dokuments, ko izmantojat, lai izsniegtu PP katram kreditoram. Pēc PP gadījuma sagatavošanas un kreditoru pievienošanas noklikšķiniet uz **Nosūtīt** PP gadījuma sadaļā — katram kreditoram, kuram nosūtāt PP, tiek ģenerēts PP žurnāls. Varat konfigurēt sūtīšanas darbības drukas pārvaldības iestatījumus tā, lai drukātu katra kreditora pārskatu arhivēšanas nolūkos vai sūtītu pārskatu uz katra kreditora e-pasta adresi. Turklāt katra kreditora PP žurnālu var izmantot, lai ģenerētu pārskatu, ko vēlāk varat nosūtīt vai atkārtoti nosūtīt kreditoram. Var arī konfigurēt sūtīšanas darbību tā, lai tiktu ģenerēta atbildes lapa, ko kreditors var aizpildīt.  
 
 Ja pēc PP nosūtīšanas ir nepieciešams veikt grozījumus, pēc grozījumu pabeigšanas varat atkārtoti nosūtīt PP kreditoriem.  
 
@@ -49,18 +52,18 @@ Ja konkrētam kreditoram ir nepieciešama vēl viena atbilde, noklikšķiniet uz
 
 Ja PP gadījumam pievienojāt punktu skaitīšanas kritēriju, PP atbildē tiek ietverts punktu skaitīšanas panelis, kur varat ievadīt punktu skaitu. Kopējais punktu skaits tiek rādīts, kad salīdzināt atbildes lapā **Salīdzināt atbildes**, kur varat salīdzināt arī citus atbilžu datus, piemēram, rindas cenu, piegādes datumu un kopējo cenu.  
 
-Kad esat izvēlējies piedāvājumu vai daļēju piedāvājumu, varat to pieņemt un noraidīt pārējos. Tiek ģenerēti pieņemšanas žurnāli, noraidīšanas žurnāli un atbilstošie pārskati. Tos drukāt, arhivēt, un nosūtīts saskaņā ar drukāšanas iestatījumi. Kad jūs pieņemt piedāvājumu vai piedāvājumu noteiktām rindiņām, pirkuma līgumu vai pirkuma pasūtījums tiek ģenerēts, vai atkarībā no PP pirkšanas tips tiek atjaunināta pirkšanas pasūtījumu. Varat izveidot tirdzniecības līgumu turpmākai izmantošanai jebkurai atbildei neatkarīgi no tā, vai esat to pieņēmis vai noraidījis.  
+Kad esat izvēlējies piedāvājumu vai daļēju piedāvājumu, varat to pieņemt un noraidīt pārējos. Tiek ģenerēti pieņemšanas žurnāli, noraidīšanas žurnāli un atbilstošie pārskati. Tie tiks drukāti, arhivēti un nosūtīti saskaņā ar drukas pārvaldības iestatījumiem. Kad pieņemat piedāvājumu vai noteiktas piedāvājuma rindas, tiek ģenerēts pirkšanas līgumu vai pirkšanas pasūtījums vai tiek atjaunināts pirkšanas pieprasījums atkarībā no PP pirkšanas veida. Varat izveidot tirdzniecības līgumu turpmākai izmantošanai jebkurai atbildei neatkarīgi no tā, vai esat to pieņēmis vai noraidījis.  
 
 PP statuss ir redzams PP virsrakstā un ir atkarīgs no PP rindu statusa. Statuss norāda, cik lielā mērā esat apstrādājis PP. Katram PP ir divas statusu vērtības: mazākais un lielākais. Zemākais statuss ir jebkuras rindas PP vismazāk advancētais stāvoklis, un augstākais statuss ir jebkuras rindas PP visvairāk advancētais stāvoklis. Piemēram, ja PP ietvaros vismazāk apstrādātais stāvoklis ir izveidotai rindai, PP zemākais statuss ir **Izveidots**. Ja PP ietvaros visvairāk apstrādātais stāvoklis ir rindai, kas ir nosūtīta kreditoriem, PP augstākais statuss ir **Nosūtīts**. Statusi tiek automātiski atjaunināti līdzko jūs apstrādājat PP.  
 
 PP virsraksta zemāko un augstāko statusu varat skatīt lapā **Visi piedāvājuma pieprasījumi**. PP rindas zemāko un augstāko statusu varat skatīt lapas **Piedāvājumu pieprasījumi** cilnē **Rindas**.  
 
-Šeit ir virkne apstrādei RFQs statusi:
+Tālāk ir secīgi norādīti PP apstrādes statusi.
 
-1.  **Created**
-2.  **Sent**
-3.  **Received**
-4.  **Pieņēma**/**atcelts**/**noraidīja**
+1.  **Izveidots**
+2.  **Nosūtīts**
+3.  **Saņemts**
+4.  **Pieņemts**/**Atcelts**/**Noraidīts**
 
 Statusi ir detalizētāk aprakstīti sadaļās šī raksta turpinājumā.
 
@@ -72,7 +75,7 @@ Lai varētu izveidot PP gadījumu, vispirms ir jāiestata PP informācija lapā 
 -   Piegādes informācija un maksājumu nosacījumi.
 -   Lauki, kas ir jāiekļauj PP atbildē
 
-Varat mainīt šīs vērtības noteiktam PP gadījumam. Ir jākonfigurē arī grozījumu process. Šīs konfigurēšanas ietvaros varat ieslēgt lauku bloķēšanu. Ja ir ieslēgta lauku bloķēšana, sagādes speciālistam, kas vēlas veikt PP grozījumus, vispirms ir jānoklikšķina uz **Izveidot** cilnes **Piedāvājums** sadaļā **Grozījums**. Pēc PP ir papildināta ar grozījumu, iepirkumu speciālists ir jāpabeidz process, noklikšķinot uz **Finalize**. * * * * pabeigt rīcības ģenerē e-pasta ziņojums, kas informē piegādātāju par grozīto PP. Kreditoriem sūtītā e-pasta paziņojuma veidni varat atlasīt lapā **Sagādes un avotu parametri**. Kad tiek izveidota veidne, tā var saturēt tālāk norādītos aizstāšanas marķierus.
+Varat mainīt šīs vērtības noteiktam PP gadījumam. Ir jākonfigurē arī grozījumu process. Šīs konfigurēšanas ietvaros varat ieslēgt lauku bloķēšanu. Ja ir ieslēgta lauku bloķēšana, sagādes speciālistam, kas vēlas veikt PP grozījumus, vispirms ir jānoklikšķina uz **Izveidot** cilnes **Piedāvājums** sadaļā **Grozījums**. Kad PP ir atjaunināts, veicot grozījumu, sagādes speciālistam ir jāpabeidz process, noklikšķinot uz **Pabeigt**.** **Veicot pabeigšanas darbību, tiek ģenerēts e-pasta ziņojums, lai paziņotu kreditoriem par grozīto PP. Kreditoriem sūtītā e-pasta paziņojuma veidni varat atlasīt lapā **Sagādes un avotu parametri**. Kad tiek izveidota veidne, tā var saturēt tālāk norādītos aizstāšanas marķierus.
 
 -   %Piedāvājuma atgriešanas iemesls%
 -   %Grozījuma iemesls%
@@ -124,7 +127,7 @@ Tālāk esošajā tabulā ir parādīts, kā mainās PP statuss, kad izveidojat 
 
 |                                    |                              |                                                 |                            |                             |
 |------------------------------------|------------------------------|-------------------------------------------------|----------------------------|-----------------------------|
-| **Action**                         | **Lowest RFQ header status** | **Highest RFQ header status**                   | **Lowest RFQ line status** | **Highest RFQ line status** |
+| **Darbība**                         | **Zemākais PP virsraksta statuss** | **Augstākais PP virsraksta statuss**                   | **Zemākais PP rindas statuss** | **Augstākais PP rindas statuss** |
 | Izveidojiet PP galveni un rindu.    | Izveidota                      | Izveidota                                         | Izveidota                    | Izveidota                     |
 | Nosūtiet PP noteiktam kreditoram. | Nosūtīts                         | Nosūtīts                                            | Nosūtīts                       | Nosūtīts                        |
 | Pievienojiet citu kreditoru.                | Izveidota                      | Nosūtīts (PP ir nosūtīts tikai vienam kreditoram.) | Izveidota                    | Nosūtīts                        |
@@ -146,7 +149,7 @@ Ja PP gadījumam ir pievienota anketa, jums ir manuāli jāievada atbildes uz ja
 
 Ja ir jāievada citas rindas un PP gadījumā tas ir atļauts, kopsavilkuma cilnē **Pirkšanas piedāvājuma rindas** noklikšķiniet uz **Pievienot rindu**. Pēc tam ievadiet preces informāciju, piemēram, krājuma kodu vai sagādes kategoriju, daudzumu, cenu un atlaidi.  
 
-Ja esat ievadījis atbildi, bet prasa jaunu piedāvājumu no piegādātāja, var atkārtoti nosūtīt PP. Tas radīs jaunu žurnālu un atskaites, ko var izmantot, lai pieprasītu izmaiņas no piegādātāja.  
+Ja esat ievadījis atbildi, taču vēlaties saņemt no kreditora jaunu piedāvājumu, varat vēlreiz nosūtīt PP. Tādējādi tiek ģenerēts jauns žurnāls un pārskats, ko varat izmantot, lai kreditoram pieprasītu izmaiņas.  
 
 Varat skatīt pārskatu par visiem IP un to atbilžu statusiem lapā **Piedāvājuma pieprasījuma sekojums**.  
 
@@ -154,7 +157,7 @@ Tālāk esošajā tabulā ir redzams, kā tiek mainīts PP statuss, kad saņemat
 
 |                                                |                       |                        |                              |                               |                            |                             |
 |------------------------------------------------|-----------------------|------------------------|------------------------------|-------------------------------|----------------------------|-----------------------------|
-| **Action**                                     | **Lowest bid status** | **Highest bid status** | **Lowest RFQ header status** | **Highest RFQ header status** | **Lowest RFQ line status** | **Highest RFQ line status** |
+| **Darbība**                                     | **Zemākais piedāvājuma statuss** | **Augstākais piedāvājuma statuss** | **Zemākais PP virsraksta statuss** | **Augstākais PP virsraksta statuss** | **Zemākais PP rindas statuss** | **Augstākais PP rindas statuss** |
 | Reģistrējiet viena kreditora piedāvājumu un saglabājiet to.        | Nosūtīts                  | Saņemts               | Nosūtīts                         | Saņemts                      | Nosūtīts                       | Saņemts                    |
 | Reģistrējiet otra kreditora piedāvājumu un saglabājiet to. | Saņemts              | Saņemts               | Saņemts                     | Saņemts                      | Saņemts                   | Saņemts                    |
 
@@ -183,9 +186,11 @@ Tālāk esošajā tabulā ir parādīts, kā tiek mainīts PP statuss, kad pieņ
 
 |                         |                       |                        |                              |                               |                            |                             |
 |-------------------------|-----------------------|------------------------|------------------------------|-------------------------------|----------------------------|-----------------------------|
-| **Action**              | **Lowest bid status** | **Highest bid status** | **Lowest RFQ header status** | **Highest RFQ header status** | **Lowest RFQ line status** | **Highest RFQ line status** |
+| **Darbība**              | **Zemākais piedāvājuma statuss** | **Augstākais piedāvājuma statuss** | **Zemākais PP virsraksta statuss** | **Augstākais PP virsraksta statuss** | **Zemākais PP rindas statuss** | **Augstākais PP rindas statuss** |
 | Pieņemiet vienu piedāvājumu. | Saņemts              | Pieņemts               | Saņemts                     | Pieņemts                      | Saņemts                   | Pieņemts                    |
 | Noraidīt citus piedāvājumus.  | Atteikts              | Pieņemts               | Atteikts                     | Pieņemts                      | Atteikts                   | Pieņemts                    |
+
+
 
 
 

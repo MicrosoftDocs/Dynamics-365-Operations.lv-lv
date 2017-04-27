@@ -1,5 +1,5 @@
 ---
-title: "Konfigurēt manuāli uzdevumu darbplūsmu"
+title: "Konfigurēt manuālu uzdevumu darbplūsmā"
 description: "Šajā tēmā ir paskaidrots, kā konfigurēt manuāla uzdevuma rekvizītus."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-manual-task-in-a-workflow"></a>Konfigurēt manuāli uzdevumu darbplūsmu
+# <a name="configure-a-manual-task-in-a-workflow"></a>Konfigurēt manuālu uzdevumu darbplūsmā
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā tēmā ir paskaidrots, kā konfigurēt manuāla uzdevuma rekvizītus.
 
@@ -45,7 +48,7 @@ Jums jānorāda tēmas rinda un instrukcijas lietotājiem, kuri piešķirti šim
     1.  Tekstlodziņā noklikšķiniet uz vietas, kur jāparādās vietturim.
     2.  Noklikšķiniet uz **Ievietot vietturi**.
     3.  Parādītajā sarakstā atlasiet vietturi, kuru ievietot.
-    4.  Klikšķiniet **Ievietot**.
+    4.  Noklikšķiniet uz **Ievietot**.
 
 4.  Lai pievienotu tēmas rindas tulkojumus, rīkojieties šādi:
     1.  Noklikšķiniet uz **Tulkojumi**.
@@ -60,7 +63,7 @@ Jums jānorāda tēmas rinda un instrukcijas lietotājiem, kuri piešķirti šim
     1.  Tekstlodziņā noklikšķiniet uz vietas, kur jāparādās vietturim.
     2.  Noklikšķiniet uz **Ievietot vietturi**.
     3.  Parādītajā sarakstā atlasiet vietturi, kuru ievietot.
-    4.  Klikšķiniet **Ievietot**.
+    4.  Noklikšķiniet uz **Ievietot**.
 
 7.  Lai pievienotu instrukciju tulkojumus, rīkojieties šādi:
     1.  Noklikšķiniet uz **Tulkojumi**.
@@ -124,10 +127,10 @@ Veiciet šīs darbības, lai norādītu personu, kurai jāpiešķir manuālais u
     </tr>
     <tr class="even">
     <td>Lietotājs</td>
-    <td>Īpaša Microsoft Dynamics 365 operācijas lietotājiem</td>
+    <td>Specifiski Microsoft Dynamics 365 for Operations lietotāji</td>
     <td><ol>
     <li>Pēc tam, kad ir atlasīts vienums <strong>Lietotājs</strong>, noklikšķiniet uz cilnes <strong>Lietotājs</strong>.</li>
-    <li><strong>Pieejams lietotājiem</strong> saraksts ietver visus Dynamics 365 operācijas lietotājiem. Atlasiet lietotājus, kuriem piešķirt uzdevumu, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
+    <li>Sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Operations lietotāji. Atlasiet lietotājus, kuriem piešķirt uzdevumu, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -145,8 +148,8 @@ Veiciet šīs darbības, lai norādītu personu, kurai jāpiešķir manuālais u
     <li>Sarakstā <strong>Rindas tips</strong> atlasiet <strong>Nosacījuma darba vienumu rindas</strong>.</li>
     <li>Sarakstā <strong>Rindas nosaukums</strong> atlasiet <strong>Nosacījumu rinda</strong>.</li>
     </ol></li>
-    </ol><ph id="t1">
-    </ph><strong>Piezīme:</strong> šī opcija tiek izmantota tikai pāris darbplūsmām, piemēram, lietu vadības.</td>
+    </ol>
+    <strong>Piezīme.</strong> Šī opcija tiek izmantota tikai dažām darbplūsmām, piemēram, Pieteikumu pārvaldība.</td>
     </tr>
     </tbody>
     </table>
@@ -167,7 +170,7 @@ Ja lietotājs nepabeidz manuālo uzdevumu atvēlētajā laikā, uzdevums ir noka
 2.  Atzīmējiet izvēles rūtiņu **Izmantot eskalācijas ceļu**, lai izveidotu eskalācijas ceļu. Sistēma automātiski piešķirs uzdevumu lietotājiem, kuri ir norādīti eskalācijas ceļā. Piemēram, šajā tabulā ir attēlots eskalācijas ceļš.
     | Secība | Eskalācijas ceļš      |
     |----------|----------------------|
-    | formāts 1. proc.        | Piešķirt: Lindai     |
+    | 1        | Piešķirt: Lindai     |
     | 2        | Piešķirt: Zanei      |
     | 3        | Pēdējā darbība: noraidīt |
 
@@ -214,10 +217,10 @@ Ja lietotājs nepabeidz manuālo uzdevumu atvēlētajā laikā, uzdevums ir noka
     </tr>
     <tr class="odd">
     <td>Lietotājs</td>
-    <td>Noteiktu dinamiku 365 darbības lietotāji</td>
+    <td>Specifiski Dynamics 365 for Operations lietotāji</td>
     <td><ol>
     <li>Pēc tam, kad ir atlasīts vienums <strong>Lietotājs</strong>, noklikšķiniet uz cilnes <strong>Lietotājs</strong>.</li>
-    <li><strong>Pieejams lietotājiem</strong> saraksts ietver visus Dynamics 365 operācijas lietotājiem. Atlasiet lietotājus, kuriem eskalēt uzdevumu, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
+    <li>Sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Operations lietotāji. Atlasiet lietotājus, kuriem eskalēt uzdevumu, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -234,7 +237,7 @@ Ja lietotājs nepabeidz manuālo uzdevumu atvēlētajā laikā, uzdevums ir noka
 6.  Ja eskalācijas ceļā norādītie lietotāji nepabeidz uzdevumu atvēlētajā laikā, sistēma veic darbību ar uzdevumu. Lai norādītu darbību, ko sistēma veic, atlasiet rindu **Darbība** un pēc tam cilnē **Beigu darbība** atlasiet darbību.
 
 ## <a name="specify-when-the-system-automatically-acts-on-the-task"></a>Norādiet, kad sistēma automātiski veic darbību ar uzdevumu
-Varat konfigurēt sistēmu, lai tā veiktu darbību ar manuālu uzdevumu, ja tiek izpildīti konkrēti nosacījumi. Piemēram, uzdevumam ir nepieciešams, lai nodaļas Izdevumu atskaites dalībnieks pārskatītu čekus, kas ir iesniegti kopā ar izdevumu pārskatu. Saskaņā ar uzņēmuma politiku, šis uzdevums jāveic, ja izdevumu atskaites kopējā summa ir vairāk nekā USD 100. Šajā scenārijā var konfigurēt sistēmu, lai automātiski atzīmētu uzdevumu kā **Complete** ja kopsumma ir mazāka par 100. Izpildiet šīs darbības, lai norādītu, kad sistēma veic darbības ar manuālo uzdevumu.
+Varat konfigurēt sistēmu, lai tā veiktu darbību ar manuālu uzdevumu, ja tiek izpildīti konkrēti nosacījumi. Piemēram, uzdevumam ir nepieciešams, lai nodaļas Izdevumu atskaites dalībnieks pārskatītu čekus, kas ir iesniegti kopā ar izdevumu pārskatu. Saskaņā ar uzņēmuma politiku, šis uzdevums ir jāveic, ja izdevumu pārskata kopsumma ir lielāka par 100 USD. Šādā scenārijā varat konfigurēt sistēmu, lai tā automātiski atzīmētu uzdevumu kā **Pabeigts**, ja kopsumma ir mazāka par 100. Izpildiet šīs darbības, lai norādītu, kad sistēma veic darbības ar manuālo uzdevumu.
 
 1.  Kreisajā rūtī noklikšķiniet uz **Automātiskas darbības**.
 2.  Atzīmējiet izvēles rūtiņu **Iespējot automātiskas darbības**.
@@ -266,7 +269,7 @@ Varat lietotājiem nosūtīt paziņojumus, kad manuālais uzdevums ir deleģēts
     1.  Tekstlodziņā noklikšķiniet uz vietas, kur jāparādās vietturim.
     2.  Noklikšķiniet uz **Ievietot vietturi**.
     3.  Parādītajā sarakstā atlasiet vietturi, kuru ievietot.
-    4.  Klikšķiniet **Ievietot**.
+    4.  Noklikšķiniet uz **Ievietot**.
 
 6.  Lai pievienotu paziņojuma tulkojumus, rīkojieties šādi:
     1.  Noklikšķiniet uz **Tulkojumi**.
@@ -308,10 +311,10 @@ Varat lietotājiem nosūtīt paziņojumus, kad manuālais uzdevums ir deleģēts
     </tr>
     <tr class="odd">
     <td>Lietotājs</td>
-    <td>Noteiktu dinamiku 365 darbības lietotāji</td>
+    <td>Specifiski Dynamics 365 for Operations lietotāji</td>
     <td><ol>
     <li>Pēc tam, kad ir atlasīts vienums <strong>Lietotājs</strong>, noklikšķiniet uz cilnes <strong>Lietotājs</strong>.</li>
-    <li><strong>Pieejams lietotājiem</strong> saraksts ietver visus Dynamics 365 operācijas lietotājiem. Atlasiet lietotājus, kuriem sūtīt paziņojumus, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
+    <li>Sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Operations lietotāji. Atlasiet lietotājus, kuriem sūtīt paziņojumus, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -325,8 +328,8 @@ Veiciet šīs darbības, ja manuālais uzdevums ir jāpabeidz noteiktā laikā. 
 1.  Kreisajā rūtī noklikšķiniet uz **Papildu iestatījumi**.
 2.  Atzīmējiet izvēles rūtiņu **Iestatīt darbplūsmas elementa laika ierobežojumu**.
 3.  Laukā **Ilgums** norādiet, kad uzdevums ir jāpabeidz. Izvēlieties vienu no šīm opcijām:
-    -   **Stundu** -ievadiet stundu skaitu, ko uzdevums ir jāaizpilda. Pēc tam atlasiet kalendāru, ko izmanto jūsu organizācija, un ievadiet informāciju par jūsu organizācijas darba nedēļu.
-    -   **Dienas** -ievadiet dienu skaitu, cik uzdevumu ir jāaizpilda. Pēc tam atlasiet kalendāru, ko izmanto jūsu organizācija, un ievadiet informāciju par jūsu organizācijas darba nedēļu.
+    -   **Stundas** — ievadiet stundu skaitu, kuru laikā uzdevums ir jāpabeidz. Pēc tam atlasiet kalendāru, ko izmanto jūsu organizācija, un ievadiet informāciju par jūsu organizācijas darba nedēļu.
+    -   **Dienas** — ievadiet dienu skaitu, kuru laikā uzdevums ir jāpabeidz. Pēc tam atlasiet kalendāru, ko izmanto jūsu organizācija, un ievadiet informāciju par jūsu organizācijas darba nedēļu.
     -   **Nedēļas** — ievadiet nedēļu skaitu, kuru laikā uzdevums ir jāpabeidz.
     -   **Mēneši** — izvēlieties dienu un nedēļu, līdz kurai ir jāpabeidz uzdevums. Piemēram, iespējams, vēlēsieties, lai uzdevums tiktu pabeigts līdz mēneša trešās nedēļas piektdienai.
     -   **Gadi** — izvēlieties dienu, nedēļu un mēnesi, līdz kuram ir jāpabeidz uzdevums. Piemēram, iespējams, vēlēsieties, lai uzdevums tiktu pabeigts līdz decembra trešās nedēļas piektdienai.
@@ -343,6 +346,8 @@ Kad manuālais uzdevums ir piešķirts lietotājam, lietotājam ir jāveic darb�
 5.  Atzīmējiet izvēles rūtiņu **Deleģēt**, lai lietotājs varētu piešķirt uzdevumu citam lietotājam.
 6.  Atzīmējiet izvēles rūtiņu **Piešķirt no jauna**, lai lietotājs varētu piešķirt no jauna uzdevumu citam lietotājam darba vienumu rindā.
 7.  Atzīmējiet izvēles rūtiņu **Nodot izpildei**, lai lietotājs varētu piešķirt no jauna uzdevumu darba vienumu rindā. Pēc tam uzdevumu var pabeigt cits lietotājs.
+
+
 
 
 

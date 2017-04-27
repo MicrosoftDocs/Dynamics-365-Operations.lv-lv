@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="letters-of-guarantee"></a>Garantijas vēstules
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegta informācija par garantijas vēstulēm. Garantijas vēstulē banka piekrīt personai maksāt noteiktu naudas summu, ja kāds no bankas klientiem nepilda maksājumu vai saistības attiecībā pret šo personu. 
 
 Garantijas vēstule ir bankas (garantētājs) apņemšanās samaksāt noteiktu naudas summu kādai personai (saņēmējs), ja bankas klients (maksātājs) veic maksājumu vai izpilda pienākumu attiecībā uz saņēmēju. Garantijas vēstules nav nododamas. Tās attiecas tikai uz saņēmēju, kurš ir nosaukts līgumā. Maksātājs var pieprasīt palielināt vai samazināt garantijas vēstules summu saskaņā ar līguma nosacījumiem. 
@@ -55,6 +58,8 @@ Tālāk tabulā ir aprakstītas darbības, ko var veikt garantijas vēstulei.
 | Paplašināt              | Kad garantijas vēstuli nododat saņēmējam, pagarināt derīguma termiņu, ja tas ir nepieciešams. |
 | Atcelt              | Ja garantijas vēstules mērķis vairs nav spēkā, varat izbeigt līgumu.                  |
 | Likvidēt           | Kad saņēmējs nodod garantijas vēstuli bankai, garantijas vēstulē norādītā naudas summa tiek izmaksāta.                      |
+
+
 
 
 

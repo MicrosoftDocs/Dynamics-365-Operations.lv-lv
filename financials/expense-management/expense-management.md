@@ -26,8 +26,13 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="expense-management"></a>Izmaksu pārvaldība
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 [Izmaksu pārvaldības plānošana](plan-expense-management.md) Papildinformācija tiks pievienota vēlāk; pienāciet drīz atkal.
+
+
 
 

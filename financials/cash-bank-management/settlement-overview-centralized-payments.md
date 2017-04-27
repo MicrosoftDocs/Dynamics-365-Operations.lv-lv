@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="settlement-overview-for-centralized-payments"></a>Centralizētu maksājumu nosegšanas pārskats
 
+[!include[banner](../includes/banner.md)]
+
+
 Organizācijas, kurās ir iekļautas vairākas juridiskās personas, var izveidot un pārvaldīt maksājumus, izmantojot vienu juridisko personu, kas apstrādā visus maksājumus. Tādējādi tiek izslēgta nepieciešamība ievadīt vienas un tās pašas darbības vairākās juridiskajās personās un taupīts laiks, racionalizējot centralizētu maksājumu priekšlikuma procesu, segšanas procesu, neapmaksātu darbību rediģēšanu un slēgtu darbību rediģēšanu. 
 
 Ja debitora vai kreditora maksājums ir ievadīts vienā juridiskā personā un tiek segts ar rēķinu, kas tika izveidots citā juridiskā persona, piemērojamās nosegšanas, “apmaksāt līdz” un “apmaksāt no” darbības tiek automātiski ģenerētas katrai juridiskajai personai. Segšanas ieraksts tiek izveidots katrai rēķina un maksājuma kombinācijai darbībā. Katram nosegšanas ierakstam tiek piešķirts jauns dokumenta numurs, kas balstās uz maksājuma dokumentu numuru sēriju, kas norādīta lapā **Debitoru parādu parametri** debitoriem un lapā **Kreditoru parādu parametri** kreditoriem. 
@@ -108,6 +111,8 @@ Kreditoru maksājumiem darbības “apmaksāt līdz” un “apmaksāt no” mak
 
 ## <a name="withholding-tax"></a>Ieturētais nodoklis
 Ar rēķinu saistīts kreditora konts tiek izmantots, lai noteiktu, vai jāaprēķina ieturētais nodoklis. Ja tiek piemērots ieturējuma nodoklis, to aprēķina ar rēķinu saistītajā juridiskajā personā. Ja juridiskās personas izmanto dažādas valūtas, tiek izmantots ar rēķinu saistītās juridiskās personas maiņas kurss.
+
+
 
 
 

@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="workflow-actions"></a>Darbplūsmas darbības
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir paskaidrotas darbības, kuras darbplūsmas apstiprināšanas procesā var veikt katrs dalībnieks.
 
-Darbplūsma var ietvert vairākas cilvēku grupas: iniciatoru, uzdevuma veicējus, lēmumu pieņēmējus un apstiprinātājus. Piemēram, nākamajā izdevumu atskaites darbplūsmā Sems ir iniciators, rindas dalībnieki ir uzdevumu veicēji, Džons ir lēmumu pieņēmējs, bet Frenks, Sjū un Anna ir apstiprinātāji.   [![Darbplūsmas\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif) turpmākajās sadaļās ir paskaidrots, darbplūsmas darbības, ko var veikt katrā grupā.
+Darbplūsma var ietvert vairākas cilvēku grupas: iniciatoru, uzdevuma veicējus, lēmumu pieņēmējus un apstiprinātājus. Piemēram, nākamajā izdevumu atskaites darbplūsmā Sems ir iniciators, rindas dalībnieki ir uzdevumu veicēji, Džons ir lēmumu pieņēmējs, bet Frenks, Sjū un Anna ir apstiprinātāji.   [![Workflow\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif) Tālāk esošajās sadaļās ir paskaidrotas darbplūsmas darbības, ko var veikt katra grupa.
 
 ## <a name="actions-that-an-originator-can-perform"></a>Darbības, ko var izpildīt iniciators
 Iniciators uzsāk darbplūsmas instanci, iesniedzot dokumentu apstrādei. Piemēram, lai iesniegtu savu izdevumu atskaiti, Semam lapā **Izdevumu atskaite** ir jānoklikšķina uz pogas **Iesniegt**.
@@ -63,7 +66,7 @@ Laiku pa laikam kāds darba vienumu rindas dalībnieks var pieņemt uzdevumu, be
 ## <a name="actions-that-a-decision-maker-can-perform"></a>Darbības, ko var izpildīt lēmumu pieņēmējs
 Parasti dokuments tiek piešķirts lēmumu pieņēmējam, jo pastāv kāds jautājums, uz kuru lēmumu pieņēmējam ir jāatbild. Atbilde uz šo jautājumu ir parasti ir **Jā** vai **Nē**, vai **Patiess** vai **Aplams**. Ja lēmumu pieņēmējs neatlasa vienu no šiem izvēles variantiem, viņš vai viņa šo lēmumu var deleģēt.
 
-### <a name="choice-1-or-choice-2"></a>\[1. izvēles\] vai \[izvēle 2\]
+### <a name="choice-1-or-choice-2"></a>\[1. izvēles variants\] vai \[2. izvēles variants\]
 
 Lēmumu pieņēmējam ir jāatbild uz jautājumu, kas ir saistīts ar dokumentu. Atbilde uz šo jautājumu ir parasti ir **Jā** vai **Nē**, vai **Patiess** vai **Aplams**. Lēmumu pieņēmēja izvēlētā atbilde nosaka darbplūsmas zaru, kas tiek izmantots šī dokumenta apstrādāšanai. Piemēram, Sema izdevumu atskaite tiek piešķirta Džonam. Džonam ir jāizlemj, vai saistībā ar dokumentā ietverto informāciju ir nepieciešams zvanīt Sema vadītājam. Ja Džons izlemj, ka šāds zvans ir nepieciešams, izdevumu atskaite tiek piešķirta Ārijai, kurai pēc tam ir jāzvana Sema vadītājam. Ja Džons izlemj, ka zvans nav nepieciešams, izdevumu atskaite tiek piešķirta Frenkam apstiprināšanai.
 
@@ -89,5 +92,7 @@ Kad apstiprinātājs deleģē dokumentu, dokuments tiek piešķirts citam lietot
 ### <a name="request-change"></a>Pieprasīt izmaiņas
 
 Kad apstiprinātājs pieprasa dokumenta izmaiņas, dokuments tiek nosūtīts atpakaļ iniciatoram. Piemēram, Sems ir iesniedzis izdevumu atskaiti par 12 000 USD, un šis dokuments tiek piešķirts Sjū. Ja Sjū pieprasa veikt izmaiņas, izdevumu atskaite tiek sūtīta atpakaļ Semam. Sems šo izdevumu atskaiti var iesniegt atkārtoti. Viņš pirms tam var veikt pieprasītās izmaiņas vai atkārtoti iesniegt izdevumu atskaites sākotnējo versiju. Ja Sems izdevumu atskaiti iesniedz atkārtoti, tas tiek nosūtīts Frenkam apstiprināšanai, jo Frenks ir pirmais apstiprinātājs šajā apstiprināšanas procesā.
+
+
 
 

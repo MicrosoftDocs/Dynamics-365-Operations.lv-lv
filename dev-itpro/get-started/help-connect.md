@@ -28,18 +28,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="connect-the-help-system"></a>Savienojuma izveide ar palīdzības sistēmu
 
-Šajā tēmā ir aprakstītas palīdzības sistēmas komponentiem par Microsoft Dynamics 365 operācijām. Tajā sniegts pārskats par to, kā savienot šos komponentus un kopsavilkumu par to, kā izveidot pielāgotu palīdzību. 
+Šajā tēmā ir aprakstīti Microsoft Dynamics 365 for Operations palīdzības sistēmas komponenti. Tajā ir sniegts pārskats par to, kā izveidot savienojumu ar šiem komponentiem, kā arī kopsavilkums par to, kā izveidot pielāgotus palīdzības materiālus. 
 
 <a name="help-architecture"></a>Palīdzības arhitektūra
 -----------------
 
-Sekojošajā attēlā redzama dinamika 365 palīdzības operāciju sistēmas daļām. Produkta palīdzības sistēma atvelk rakstus no Dynamics 365 darbības vietu uz https://docs.microsoft.com, kā arī uzdevumu gidi, kas saglabāti Business Process modelētājs Lifecycle Services (LCS). 
-**Piezīme:** shēmā ar zvaigznīti uzskaitītās pazīmes (\*) ir plānotas, bet vēl nav pieejami. [![Help architecture](./media/help-architecture.png)](./media/help-architecture.png)
+Tālāk esošajā attēlā ir redzamas Dynamics 365 for Operations palīdzības sistēmas daļas. Produktā iebūvētā palīdzības sistēma nodrošina rakstu izguvi no Dynamics 365 for Operations vietnes (https://docs.microsoft.com), kā arī uzdevumu ceļvežus no biznesa procesu modelētāja pakalpojumos Lifecycle Services (LCS). 
+**Piezīme.** Līdzekļi, kas shēmā ir atzīmēti ar zvaigznīti (\*), ir plānoti, taču vēl nav pieejami. [![Palīdzības sistēmas arhitektūra](./media/help-architecture.png)](./media/help-architecture.png)
 
-## <a name="connecting-the-help-system"></a>Savieno palīdzības sistēma
-Izmantojot **sistēmas parametru** lapu, sistēmas administratoriem izveidot savienojumu gabali palīdzības sistēmas īstenošanai. [![Sistēmas parametru formā ar palīdzības iestatījumi](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) par **sistēmas parametru** lapu, rīkojieties šādi:
+## <a name="connecting-the-help-system"></a>Savienojuma izveide ar palīdzības sistēmu
+Izmantojot lapu **Sistēmas parametri**, sistēmas administratori izveido savienojumu ar palīdzības sistēmas daļām implementācijas nolūkā. [![Veidlapa Sistēmas parametri ar palīdzības sistēmas iestatījumiem](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) Lapā **Sistēmas parametri** veiciet tālāk norādītās darbības.
 
-1.  **Svarīgi:** pirmo reizi atverat **palīdzēt** tab, ir jāizveido savienojums ar Lifecycle Services. Neaizmirstiet saite vidū formu, sagaidiet savienojumu, aizveriet dialoglodziņu un pēc tam noklikšķiniet uz **OK** nokļūt **sistēmas parametru** lapā. [![LCS pieslēgties](./media/connect-to-lcs-crop-1024x365.png "LCS pieslēgties")](./media/connect-to-lcs-crop.png)
+1.  **Svarīgi!** Pirmo reizi atverot cilni **Palīdzība**, ir jāizveido savienojums ar pakalpojumiem Lifecycle Services. Noteikti noklikšķiniet uz saites veidlapas vidū, uzgaidiet, līdz tiek izveidots savienojums, aizveriet dialoglodziņu un pēc tam noklikšķiniet uz **Labi**, lai piekļūtu lapai **Sistēmas parametri**.[![Savienojuma izveide ar LCS](./media/connect-to-lcs-crop-1024x365.png "Savienojuma izveide ar LCS")](./media/connect-to-lcs-crop.png)
 2.  Atlasiet Lifecycle Services projektu, ar kuru izveidot savienojumu.
 3.  Atlasiet BPM bibliotēkas (atlasītajā projektā), no kurām izgūt uzdevumu ierakstus.
 4.  Iestatiet BPM bibliotēku attēlošanas secību. Tā nosaka secību, kādā uzdevumu ieraksti no bibliotēkām tiks rādīti rūtī **Palīdzība**.
@@ -48,23 +48,23 @@ Kad esat pabeidzis šīs darbības, varat atvērt rūti **Palīdzība** un nokli
 
 ### <a name="showing-translated-task-guides"></a>Tulkotu uzdevumu ceļvežu parādīšana
 
-Rokasgrāmatas tulkotās uzdevumu vispirms tika nosūtītas maija 2016 APQC vienotās bibliotēku un bibliotēku darba sākšana. Lai programmatūrā Dynamics 365 for Operations redzētu lokalizēto uzdevumu ceļvežu palīdzību, pārliecinieties, ka ir izveidots savienojums ar maija bibliotēku. Valodu, kurā tiek parādīta uzdevumu rokasgrāmata katram lietotājam kontrolē valodu iestatījumos, kas atrodas **opcijas**&gt;**Preferences**. **Piezīme.** Lai gan daudzi uzdevumu ceļveži ir iztulkoti, pašlaik Dynamics 365 for Operations klients nerāda tulkoto uzdevumu ceļvežu nosaukumus. Arī, tikai uzdevumu gidi, kas tika izlaists februāra 2016 pieejami tulkošanas maijs bibliotēkā. Mēs izdosim atjauninātu bibliotēku ar papildu tulkojumiem.
+Tulkotie uzdevumu ceļveži pirmo reizi tika nodrošināti 2016. gada maijā izlaistajā APQC vienotajā bibliotēkā un darba sākšanas bibliotēkā. Lai programmatūrā Dynamics 365 for Operations redzētu lokalizēto uzdevumu ceļvežu palīdzību, pārliecinieties, ka ir izveidots savienojums ar maija bibliotēku. Uzdevuma ceļveža rādīšanas valodu katram lietotājam var norādīt, izmantojot valodas iestatījumus sadaļā **Opcijas** &gt; **Preferences**. **Piezīme.** Lai gan daudzi uzdevumu ceļveži ir iztulkoti, pašlaik Dynamics 365 for Operations klients nerāda tulkoto uzdevumu ceļvežu nosaukumus. Turklāt maijā izlaistajā bibliotēkā tulkotā veidā ir pieejami tikai tie uzdevumu ceļveži, kas tika izlaisti 2016. gada februārī. Mēs izdosim atjauninātu bibliotēku ar papildu tulkojumiem.
 
 -   Ja kāds uzdevumu ceļvedis ir iztulkots, kad atverat šo uzdevumu ceļvedi, viss uzdevuma ceļveža teksts jums tiek rādīts jūsu izvēlētajā valodā.
 -   Ja kāds uzdevumu ceļvedis vēl nav iztulkots, kad to atverat, jūsu izvēlētajā valodā jums tiek rādīta tikai daļa teksta (vadīklu teksts).
 
 ## <a name="creating-custom-help"></a>Pielāgotas palīdzības veidošana
-Savai Dynamics 365 for Operations implementācijai varat izveidot pielāgotu palīdzību, izveidojot uzdevumu ierakstus, kas atspoguļo jūsu implementāciju, un tos saglabājot LCS biznesa procesu bibliotēkā. Partneriem — ja bibliotēku paaugstināt uz korporatīvu bibliotēku, un iekļaut to kādā risinājumā, tā būs pieejama jūsu klientiem. Varat arī izveidot APQC vienotās globālās bibliotēkas kopiju, pēc tam atvērt savu kopiju, no tās atvērt uzdevumu ierakstus, modificēt tos un saglabāt ierakstus ar savām veiktajām izmaiņām. Lai iegūtu papildinformāciju, skatiet [kā izveidot uzdevuma ierakstu, kuru vēlaties izmantot kā dokumentāciju vai apmācību](../user-interface/task-recorder.md).
+Savai Dynamics 365 for Operations implementācijai varat izveidot pielāgotu palīdzību, izveidojot uzdevumu ierakstus, kas atspoguļo jūsu implementāciju, un tos saglabājot LCS biznesa procesu bibliotēkā. Partneriem — ja bibliotēku paaugstināt uz korporatīvu bibliotēku, un iekļaut to kādā risinājumā, tā būs pieejama jūsu klientiem. Varat arī izveidot APQC vienotās globālās bibliotēkas kopiju, pēc tam atvērt savu kopiju, no tās atvērt uzdevumu ierakstus, modificēt tos un saglabāt ierakstus ar savām veiktajām izmaiņām. Papildinformāciju skatiet tēmā [Kā izveidot uzdevuma ierakstu izmantošanai dokumentācijas vai apmācības nolūkā](../user-interface/task-recorder.md).
 
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Help overview](help-overview.md)
+[Pārskats par palīdzības sistēmu](help-overview.md)
 
-[Ierakstītājs uzdevumu apskats](../user-interface/task-recorder.md)
+[Pārskats par uzdevuma reģistrētāju](../user-interface/task-recorder.md)
 
 [Kā izveidot uzdevuma ierakstu, ko lietot kā dokumentāciju vai apmācību](../user-interface/task-recorder-training-docs.md)
 
-[Izveidojot jaunu apmācību bibliotēkās Dynamics 365 operācijas ietvaros Lifecycle Services programmatūra, izmantojot uzdevuma Recorder (ārējā saite)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
+[Jaunu apmācību bibliotēku izveide programmatūrai Dynamics 365 for Operations pakalpojumos Lifecycle Services, izmantojot uzdevumu reģistrētāju (ārējā saite)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
 
 

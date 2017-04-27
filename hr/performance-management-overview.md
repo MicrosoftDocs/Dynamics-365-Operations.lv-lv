@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="performance-management-overview"></a>Veiktspējas pārvaldības apskats
 
+[!include[banner](includes/banner.md)]
+
+
 Veiktspējas pārvaldības process darbiniekiem ļauj dokumentēt savu veiktspēju un apspriest to ar savu vadītāju. Savukārt vadītāji pēc tam darbiniekiem var sniegt atsauksmes un ieteikumus.  
 
 Kā redzams nākamajā diagrammā, pastāv trīs lapas, kas jums palīdz pārvaldīt procesu:
@@ -34,7 +37,7 @@ Kā redzams nākamajā diagrammā, pastāv trīs lapas, kas jums palīdz pārval
 -   Mērķi
 -   Veiktspējas pārskats
 
-Nākamajā diagrammā ir parādīts, kā veiktspējas pārvaldības galvenie komponenti ir savstarpēji saistīti. [![Izpildes procesa pārskats](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
+Nākamajā diagrammā ir parādīts, kā veiktspējas pārvaldības galvenie komponenti ir savstarpēji saistīti. [![Pārskats par veiktspējas procesu](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
 
 ## <a name="performance-journal"></a>Veiktspējas žurnāls
 Pirms jūs kā darbinieks pabeidzat savu pārskatu, jūs bieži vien apkopojat informāciju par aktivitātēm vai notikumiem, kuri papildina jūsu panākumu sarakstu attiecīgajā pārskata periodā. Veiktspējas žurnāls ir tā vieta, kur varat dokumentēt šīs aktivitātes un notikumus. Turklāt varat izveidot gaidāmās darbības, kas ir jāpaveic, lai palīdzētu jums sasniegt kādu mērķi, nodrošināt atbilstību attīstības plāna prasībām vai izpildīt veiktspējas saistības. Veiktspējas žurnāli nav obligāti, lai varētu izveidot mērķus vai veiktspējas pārskatus 
@@ -132,7 +135,7 @@ Darbplūsmu Nodarbināto pārskats varat izmantot, lai kontrolētu pārskata aps
 Darbplūsmai Nodarbinātā pārskats ir divi tālāk aprakstītie elementi.
 
 1.  Apstiprināt pārskatu. Pievienojiet šo elementu, lai kontrolētu statusa maiņu no **Notiek** uz **Gatavs pārskatīšanai**. Mainiet piešķiri, lai izmantotu vadības hierarhiju, kur Employee.line manager level = 1.
-2.  Gala pārskats. Pievienotu šo elementu, lai kontrolētu statusa maiņa no **gatavs pārskatīšanai** uz **gala pārskata**. Mainīt uzdevuma izmantot vadības hierarhijas kur vadītāju līmenī Employee.line = 1, ja vēlaties, lai apstiprinātu galīgo pārskatu pārvaldnieks. Mainiet piešķiri uz Darbplūsmas lietotājs, ja vēlaties, lai to apstiprina darbinieks. Ja vēlaties, lai to apstiprinātu gan vadītājs, gan darbinieks, tad darbplūsmai pievienojiet abas darbības un norādiet atbilstošo piešķiri katrai darbībai tādā secībā, kādā vēlaties izpildīt apstiprināšanu.
+2.  Gala pārskats. Pievienojiet šo elementu, lai kontrolētu statusa maiņu no **Gatavs pārskatīšanai** uz **Galīgā pārskatīšana**. Ja vēlaties, lai vadītājs apstiprinātu galīgo pārskatīšanu, mainiet piešķiri, lai izmantotu vadības hierarhiju, kur Employee.line manager level = 1. Mainiet piešķiri uz Darbplūsmas lietotājs, ja vēlaties, lai to apstiprina darbinieks. Ja vēlaties, lai to apstiprinātu gan vadītājs, gan darbinieks, tad darbplūsmai pievienojiet abas darbības un norādiet atbilstošo piešķiri katrai darbībai tādā secībā, kādā vēlaties izpildīt apstiprināšanu.
 
 ## <a name="setup"></a>Iestatīšana
 Pastāv trīs lapas, kas jums palīdz iestatīt veiktspējas procesa izpildei nepieciešamo informāciju: lapa **mērījumi**, lapa **veiktspējas žurnāla avota veidi** un lapa **pārskatu veidi**.
@@ -148,5 +151,7 @@ Veiktspējas žurnāla avotu veidi apraksta, no kurienes veiktspējas žurnāls 
 ### <a name="review-types"></a>Pārskatu tipi
 
 Veiktspējas pārskatu tipi jums palīdzēt kontrolēt pārskata uzvedību. Varat iespējot vai atspējot darbplūsmu kādam pārskatam. Ja pārskatā netiek izmantota darbplūsma, varat definēt noklusējuma statusu, kas tiks izmantots, veidojot šo pārskatu. Varat arī izlemt, vai pārskata izrakstīšana ir jāveic darbiniekam, vadītājam, vai viņiem abiem.
+
+
 
 

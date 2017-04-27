@@ -1,5 +1,5 @@
 ---
-title: "Krājumu objektu vērtības"
+title: "Krājumu objekta vērtības"
 description: "Šajā rakstā ir sniegta informācija par to, kā tiek aprēķinātas krājuma objekta vērtības."
 author: YuyuScheller
 manager: AnnBe
@@ -27,14 +27,14 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="inventory-object-values"></a>Krājumu objektu vērtības
+# <a name="inventory-object-values"></a>Krājumu objekta vērtības
 
 Šajā rakstā ir sniegta informācija par to, kā tiek aprēķinātas krājuma objekta vērtības. 
 
-Jaunā funkcionalitāte, kas saucas * * fiziskais daudzums * * ļauj jums redzēt kādu noteiktu krājumu priekšmetu vērtības. Izmaksu objekts norāda elementa līmeni, kurā tiek veikta krājumu uzskaite. Plašāku informāciju par izmaksu objektiem skatiet sadaļā [Izmaksu objekti](cost-object.md). Lai apskatītu noteiktu krājumu objekta vērtības, noklikšķiniet uz **fiziskais daudzums** par **izmaksu objektam** lapu. Lūk, cik objektu krājumu vērtību aprēķina: krājumu objektu. Vērtība = izmaksu objektam. Vidējā pašizmaksa × krājumu objektu. Šajā piemērā daudzums parāda objektu krājumu un izmaksu objektam vērtības aprēķināšanu. Krājumam A ir reģistrēti divi preču saņemšanas notikumi:
+Jauna funkcija **Fiziskais daudzums** sniedz iespēju skatīt noteikta krājumu objekta vērtības. Izmaksu objekts norāda elementa līmeni, kurā tiek veikta krājumu uzskaite. Plašāku informāciju par izmaksu objektiem skatiet sadaļā [Izmaksu objekti](cost-object.md). Lai skatītu noteikta krājumu objekta vērtības, lapā **Izmaksu objekts** noklikšķiniet uz vienuma **Fiziskais daudzums**. Krājumu objekta vērtība tiek aprēķināta šādā veidā: krājumu objekta vērtība = izmaksu objekta vidējās vienības izmaksas × krājumu objekta daudzums. Tālāk esošajā piemērā ir parādīts, kā tiek aprēķinātas krājumu objekta un izmaksu objekta vērtības. Krājumam A ir reģistrēti divi preču saņemšanas notikumi:
 
--   Preču saņemšanas 1: daudzums = 100 gab., summa = $1,000.00 vieta = 1, noliktava = 11, sērijas Nr. = B1
--   Preču saņemšanas 2: daudzums = 50 gab., summa = $800.00 vieta = 1, noliktava = 11, sērijas Nr. = B2
+-   1. preces saņemšana: daudzums = 100 gab., summa = $ 1000,00, vieta = 1, noliktava = 11, partijas Nr. = B1
+-   2. preces saņemšana: daudzums = 50 gab., summa = $ 800,00, vieta = 1, noliktava = 11, partijas Nr. = B2
 
 Šajā tabulā ir parādīts aprēķinu rezultāts izmaksu objektam. Rezultātu var skatīt lapā **Izmaksu objekts**.
 
@@ -130,10 +130,10 @@ Jaunā funkcionalitāte, kas saucas * * fiziskais daudzums * * ļauj jums redzē
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Cost objects](cost-object.md)
+[Izmaksu objekti](cost-object.md)
 
-[Cost entries](cost-entries.md)
+[Izmaksu ieraksti](cost-entries.md)
 
-[Kādi ir jaunie un mainītie sistēmā Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
+[Jaunumi un izmaiņas programmatūrā Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
 
 

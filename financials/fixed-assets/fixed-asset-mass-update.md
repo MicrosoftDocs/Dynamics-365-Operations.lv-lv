@@ -1,6 +1,6 @@
 ---
 title: "Pamatlīdzekļu atjaunināšana masveidā"
-description: "Ja lietojat grāmatas, varat mainīt nolietojuma konvenciju par grupas aktīviem, kas ir daļa no pašu grāmatu."
+description: "Ja lietojat grāmatas, varat mainīt vienā grāmatā ietverto līdzekļu grupu nolietojuma aprēķināšanas metodes."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-mass-update"></a>Pamatlīdzekļu atjaunināšana masveidā
 
-Ja lietojat grāmatas, varat mainīt nolietojuma konvenciju par grupas aktīviem, kas ir daļa no pašu grāmatu.
+[!include[banner](../includes/banner.md)]
+
+
+Ja lietojat grāmatas, varat mainīt vienā grāmatā ietverto līdzekļu grupu nolietojuma aprēķināšanas metodes.
 
 Piemēram, ja atrodaties Amerikas Savienotajās Valstīs un gada ceturtā ceturkšņa laikā nododat lietošanā vairāk nekā 40 procentu savu līdzekļu, ceturkšņa vidū jums jāveic nolietojuma aprēķināšana. Jūs varat izmantot masveida atjaunināšanas procesu, lai izmainītu visus līdzekļus, kam jāveic nolietojuma aprēķināšana. 
 
@@ -36,6 +39,8 @@ Atjauninot līdzekļu nolietojuma aprēķinus, tiek dzēstas visas nolietojuma t
 Lai atjauninātu norakstīto līdzekļu nolietojuma aprēķinus, vispirms ir jāizdzēš esošās norakstīšanas transakcijas. Jādzēš arī visas transakcijas, kas tika ģenerētas saistībā ar norakstīšanas procesu. 
 
 Kad līdzekļu nolietojuma aprēķināšana ir atjaunināta, var izpildīt katra līdzekļa nolietojuma un ārkārtas nolietojuma aprēķināšanu. Nepieciešamības gadījumā var veikt arī manuālas nolietojuma korekcijas.
+
+
 
 
 

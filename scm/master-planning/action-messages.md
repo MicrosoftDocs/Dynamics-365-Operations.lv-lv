@@ -1,5 +1,5 @@
 ---
-title: "nereģistrētu"
+title: "nedokumentēts"
 description: "Optimizācijas priekšlikums ir sistēmas izveidots priekšlikums mainīt esošu plānotu vai apstiprinātu pasūtījumu."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="undocumented"></a>nereģistrētu
+# <a name="undocumented"></a>nedokumentēts
 
 Optimizācijas priekšlikums ir sistēmas izveidots priekšlikums mainīt esošu plānotu vai apstiprinātu pasūtījumu.
 
@@ -35,10 +35,10 @@ Darbību ziņojumus ģenerē vispārējās plānošanas aprēķins, reaģējot u
 
 Varat iestatīt veidu, kā ziņojumi tiek aprēķināti seguma grupai, kuru piesaistāt krājumam.
 
- <a name="selecting-action-messages"></a> Darbību ziņojumu atlasīšana
+ <a name="selecting-action-messages"></a>Darbību ziņojumu atlasīšana
 ==========================
 
-Lapā **Seguma grupas **varat atlasīt darbību ziņojumus, kurus vēlaties, lai sistēma ģenerē, kā arī atlasīt, uz kurām vajadzību grupām vai krājumiem šie ziņojumi attiecas. Varat atlasīt no tālāk uzskaitītajiem darbību ziņojumiem.
+Lapā **Seguma grupas** varat atlasīt darbību ziņojumus, kurus vēlaties, lai sistēma ģenerē, kā arī atlasīt, uz kurām vajadzību grupām vai krājumiem šie ziņojumi attiecas. Varat atlasīt no tālāk uzskaitītajiem darbību ziņojumiem.
 
 | Ziņojums             | Apraksts                                                                                                                                                                                                                                              |
 |---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

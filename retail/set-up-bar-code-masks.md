@@ -1,6 +1,6 @@
 ---
 title: "Svītrkodu masku iestatīšana"
-description: "Šajā tēmā aprakstīts, kā iestatīt svītrkoda maskas rakstzīmes, svītru kodu maskas un kā piešķirt svītrkodu maskē ar svītrkodiem."
+description: "Šajā tēmā ir aprakstīts, kā iestatīt svītrkoda maskas rakstzīmes, svītrkoda maskas un kā piešķirt svītrkoda maskas svītrkodiem."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 265994
 ms.assetid: 5831c74d-d2a1-4fa5-9a9a-a5aba8848381
 ms.search.region: global
@@ -27,57 +27,62 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-bar-code-masks"></a>Svītrkodu masku iestatīšana
 
-Šajā tēmā aprakstīts, kā iestatīt svītrkoda maskas rakstzīmes, svītru kodu maskas un kā piešķirt svītrkodu maskē ar svītrkodiem.
+[!include[banner](includes/banner.md)]
+
+
+Šajā tēmā ir aprakstīts, kā iestatīt svītrkoda maskas rakstzīmes, svītrkoda maskas un kā piešķirt svītrkoda maskas svītrkodiem.
 
 <a name="set-up-bar-code-mask-characters"></a>Svītrkoda maskas rakstzīmju iestatīšana
 -------------------------------
 
-Svītrkodu maskas tiek izmantoti, lai izveidotu svītrkodus un ātri noteikt svītrkodus, tas ir ieskenēts pārdošanu (POS). Maskas, kas sastāv no burtiem, kas kalpo kā vietturi, kas norāda svītrkodiem, kas tiks izveidots formātā. Lai konfigurētu svītrkoda maska, jums nepieciešams iestatīt svītrkoda maskas rakstzīmes. Dodieties uz **mazumtirdzniecības un komercijas**&gt;**krājumu vadība**&gt;**svītrkodi un etiķetes**&gt;**maskas rakstzīmes**. Noklikšķiniet uz **New** lai izveidotu svītrkoda maskas rakstzīmes. Maskas rakstzīmes var izveidot, lai norādītu šādu svītrkoda datus.
+Svītrkoda maskas tiek izmantotas, lai izveidotu svītrkodus un ātri identificētu svītrkodus, kuri tiek skenēti pārdošanas punktā (POS). Maskas sastāv no rakstzīmēm, kas darbojas kā vietturi, kuri norāda izveidojamo svītrkodu formātu. Lai konfigurētu svītrkoda masku, ir jāiestata svītrkoda maskas rakstzīmes. Dodieties uz **Mazumtirdzniecība un komercija** &gt; **Krājumu pārvaldība** &gt; **Svītrkodi un uzlīmes** &gt; **Maskas rakstzīmes**. Noklikšķiniet uz **Jauns**, lai izveidotu svītrkoda maskas rakstzīmes. Maskas rakstzīmes nevar izveidot, lai norādītu šādus svītrkoda datus.
 
 |                      |                                                                                                                 |
 |----------------------|-----------------------------------------------------------------------------------------------------------------|
-| **Field**            | **Description**                                                                                                 |
-| **Product**          | Vietturis produkta ID.                                                                                     |
-| **Any number**       | Lieto, lai norādītu numuru, kas būs grūti kodē svītrkodus.                                                  |
-| **Check digit**      | Norāda, ka svītrkoda maska svītru kodu formātu izmanto kontrolcipars apstiprināt derīgumu svītrkodu. |
-| **Size digit**       | Norāda izmēru svītru kodu, kas izveidots preču varianta, kas ietver lielumu.                                 |
-| **Color digit**      | Norāda krāsas svītru kodu, kas izveidots produkta varianta, kurā iekļauti krāsu.                               |
-| **Style digit**      | Norāda stilu svītru kodu, kas izveidots preču varianta, kas ietver stilu.                             |
-| **EAN license code** | EAN licences izsniegtas licences kodus EAN vietturis.                                                       |
-| **Cena**            | Norāda cenu, jo cenu iegult svītrkodus.                                                                   |
-| **Quantity**         | Norāda daudzumu daudzumu izlases svaru iegults svītrkodiem.                                                |
-| **Employee**         | Norāda, ka svītrkoda segmenta darbinieka ID numuru, kas lietots svītrkodu POS pieteikšanās.                                  |
-| **Customer**         | Norāda klienta ID segmentu.                                                                                  |
-| **Datu ievades**       | *Vēl nav implementēts.*                                                                                          |
-| **Discount code**    | Norāda atlaides kods svītru kodu, kas tiek izmantota, lai pievienotu atlaidi līdz punktam pārdošanas darījums             |
-| **Dāvanu karte**        | Norāda, ka dāvanu kartes numurs, izdevēja vai maksājot ar dāvanu karti.                                               |
-| **Loyalty card**     | Pievieno lojalitāte klienta darījumu un var tikt izmantotas, maksājot ar lojalitāti.                             |
+| **Lauks**            | **Apraksts**                                                                                                 |
+| **Prece**          | Vietturis preces identifikatoram.                                                                                     |
+| **Jebkurš skaitlis**       | Tiek izmantots, lai norādītu numuru, kas tiks stingri kodēts svītrkodos.                                                  |
+| **Kontrolcipars**      | Norāda, ka svītrkoda formāts svītrkoda maskā izmanto kontrolciparu, lai apstiprinātu svītrkoda derīgumu. |
+| **Cipara lielums**       | Norāda izmēru svītrkodā, kas izveidots preces variantam, kurā ietilpst izmērs.                                 |
+| **Cipara krāsa**      | Norāda krāsu svītrkodā, kas izveidots preces variantam, kurā ietilpst krāsa.                               |
+| **Cipara stils**      | Norāda stilu svītrkodā, kas izveidots preces variantam, kurā ietilpst stils.                             |
+| **EAN licences kods** | Vietturis EAN licencei, kas izdota EAN licences kodiem.                                                       |
+| **Cena**            | Norāda cenu svītrkodos, kuros iegulta cena.                                                                   |
+| **Daudzums**         | Norāda daudzumu svītrkodos, kuros iegults daudzums/nejaušs svars.                                                |
+| **Darbinieks**         | Norāda svītrkoda segmentu darbinieka ID numuram, kas tiek izmantots, lai veiktu POS pieteikšanos ar svītrkodu.                                  |
+| **Debitors**         | Norāda debitora ID segmentu.                                                                                  |
+| **Datu ievade**       | *Vēl nav ieviests.*                                                                                          |
+| **Atlaides kods**    | Norāda atlaižu kodu svītrkodam, kas tiek izmantots, lai pievienotu atlaidi pārdošanas punkta transakcijai             |
+| **Dāvanu karte**        | Norāda dāvanu kartes numuru, izdodot dāvanu karti vai veicot ar to apmaksu.                                               |
+| **Lojalitātes programmas karte**     | Pievieno transakcijai lojalitātes programmas debitoru, un to var izmantot, veicot maksājumu lojalitātes programmas ietvaros.                             |
 
-## <a name="define-bar-code-masks"></a>Definētu svītrkodu maskas
-Pēc svītrkodu maskas rakstzīmes ir norādīta nepieciešama svītrkodu maskas, dodieties uz **mazumtirdzniecības un komercijas**&gt;**krājumu vadība**&gt;**svītrkodi un etiķetes**&gt;**svītrkoda maska uzstādīšanas**. Šajā lapā varat definēt svītrkodu maskas, kas izmanto iepriekš norādītajām rakstzīmēm. Šīs maskas svītrkods tiks izmantots, kad ģenerē svītrkodus un būs arī palīdzēs noteikt svītrkodus skenēta POS.
+## <a name="define-bar-code-masks"></a>Noteikt svītrkoda maskas
+Pēc svītrkoda maskas rakstzīmju norādīšanas nepieciešamajām svītrkoda maskām, dodieties uz **Mazumtirdzniecība un komercija** &gt; **Krājumu pārvaldība** &gt; **Svītrkodi un uzlīmes** &gt; **Svītrkoda maskas iestatīšana**. Šajā lapā varat definēt svītrkoda maskas, kurās tiek izmantotas iepriekš norādītās rakstzīmes. Šīs svītrkoda maskas tiks izmantotas, izveidojot svītrkodus un arī palīdzēs identificēt svītrkodus, kuri tiek skenēti POS.
 
-1.  Noklikšķiniet uz **New** izveidot jaunu svītru kodu maskā.
-2.  Ievadiet vērtības **masku ID** un **aprakstu** laukus un pēc tam atlasiet svītrkoda maska tips **tipa** lauks.
-3.  Šajā **vispārējā** sadaļu, atlasiet vērtību **svītru kodu standarta** lauks un pēc tam norādiet svītrkodu prefikss, ja tas ir vajadzīgs.
-4.  Šajā **svītrkoda maska segmenta** sadaļu, svītru kodu segmenti, kas tiks izmantota pievienojumprogramma jāizveido svītrkodu.
+1.  Noklikšķiniet uz **Jauns**, lai izveidotu jaunu svītrkoda masku.
+2.  Ievadiet vērtības laukā **Maskas ID** un **Apraksts** un pēc tam atlasiet svītrkoda maskas tipu laukā **Tips**.
+3.  Sadaļā **Vispārīgi** atlasiet vērtību laukā **Svītrkoda standarts** un pēc tam norādiet svītrkoda prefiksu, ja tas ir nepieciešams.
+4.  Sadaļā **Svītrkoda maskas segments** pievienojiet svītrkoda segmentus, kuri tiks izmantoti veidojamajā svītrkodā.
 
-Kā, piemēram, lai izveidotu svītrkoda maska ar masku ID "Produkts", varētu rīkoties šādi:
+Piemēram, lai izveidotu svītrkoda masku ar maskas ID “Prece”, jāveic šādas darbības:
 
-1.  Izveidot jaunu svītru kodu masku un atlasiet tipu "Produkts".
-2.  Atlasiet svītrkoda standartu, piemēram, kodu 39' '.
-3.  Nodrošināt prefiksu izmantot, lai viegli identificētu svītru kods. Piemēram, "22".
-4.  Pievienot maska segmentā. "Produkts" masku segmentā tiks izvēlēti.
-5.  Garums nodrošina produktu segmentā, piemēram, "10". Garums ir jāatbilst produkta ID, ko parasti izmanto veikalā garumu. Maska tiek parādīts kā priekšskatījumu pārlūkprogrammā **vispārējā** sadaļu zem **maska**.
+1.  Izveidojiet jaunu svītrkoda masku un atlasiet tipu “Prece”.
+2.  Atlasiet svītrkoda standartu, piemēram, “Kods 39”.
+3.  Norādiet prefiksu, kas tiks izmantots, lai viegli identificētu svītrkodu. Piemēram, “22”.
+4.  Pievienojiet maskas segmentu. Tiks atlasīts maskas segments “Prece”.
+5.  Norādiet preces segmenta garumu, piemēram, “10”. Garumam ir jāatbilst veikalā parasti izmantotā produkta ID garumam. Maska tiks parādīta kā priekšskatījums vienuma **Maska** sadaļā **Vispārīgi**.
 
-## <a name="assign-bar-code-masks-to-bar-codes"></a>Piešķirtu svītrkodus svītrkodu maskas
-Svītrkodus maskas ir nepieciešams piešķirt svītrkodus, pirms tās var lietot. Turpinot iepriekšējo piemēru, lai piešķirtu svītrkoda maska svītru kodu, rīkojieties šādi:
+## <a name="assign-bar-code-masks-to-bar-codes"></a>Svītrkoda masku piešķiršana svītrkodiem
+Svītrkoda maskas ir jāpiešķir svītrkodiem, pirms tos var izmantot. Turpinot iepriekš minēto piemēru, lai piešķirtu svītrkoda masku svītrkodam, jāveic šādas darbības:
 
-1.  Dodieties uz **organizācijas administrācija**&gt;**Setup**&gt;**svītrkodus**. Noklikšķiniet uz **New** izveidot jaunu svītru kodu.
-2.  Ievadiet vērtības **svītrkods****uzstādīšanas** un * uzstādīšanas * * laukus.
-3.  Šajā **vispārējās** sadaļu, jo **svītrkoda tipu** lauku, atlasiet "Code 39". Šajā **maska****ID** lauku, atlasiet iepriekš izveidojis "Produkts" maska.
-4.  Zem **Size**, ievadiet '12'.
-5.  Click **Save**.
+1.  Dodieties uz **Organizācijas administrēšana** &gt; **Iestatīšana** &gt; **Svītrkodi**. Noklikšķiniet uz **Jauns**, lai izveidotu jaunu svītrkodu.
+2.  Ievadiet vērtības laukos **Svītrkodu** **iestatījumi** un **Iestatījumi **.
+3.  Sadaļas **Vispārīgi** laukā **Svītrkoda tips** atlasiet “Kods 39”. Laukā **Maskas** **ID** atlasiet iepriekš izveidoto masku “Prece”.
+4.  Sadaļā **Izmērs** ievadiet “12”.
+5.  Noklikšķiniet uz **Saglabāt**.
 
-Svītrkoda maska tagad var izmantot, lai izveidotu produktu svītrkodus. Iepriekš aprakstītās darbības ir piemēri, kā, lai izveidotu svītrkoda maskas produktiem, bet tie arī parāda, kā izveidot svītrkodu maskas jebkuram citas atbalstītās svītrkoda tipu. Svītrkodu maskas, veidus un garuma būtu jāpielāgo izmantošanai konkrētā vidē.
+Svītrkoda masku var izmantot, lai izveidotu svītrkodus precēm. Minētās darbības ir piemēri, kā izveidot svītrkoda maskas precēm, taču tās arī norāda, kā izveidot svītrkoda maskas visiem pārējiem atbalstītajiem svītrkodu tipiem. Svītrkodu maskas, tipi un garumi jāpielāgo izmantošanai attiecīgajā vidē.
+
+
 
 

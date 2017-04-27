@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="vendor-posting-profiles"></a>Kreditoru grāmatošanas metodes
 
+[!include[banner](../includes/banner.md)]
+
+
 Kreditoru grāmatošanas metodes kontrolē kreditoru transakciju grāmatošanu virsgrāmatā.
 
 <a name="vendor-posting-profiles"></a>Kreditoru grāmatošanas metodes
@@ -146,6 +149,8 @@ Lai iestatītu savu grāmatošanas metodi, norādiet šādas vērtības:
 | **Segšana** | Atlasiet šo opciju, lai iespējotu automātisko nosegšanu transakcijām ar šo grāmatošanas metodi. Ja šīs opcijas atzīme ir notīrīta, transakciju nosegšana jums ir jāveic manuāli, izmantojot lapu Nosegt atvērtās transakcijas. |
 | **Atcelt**     | Atzīmējiet šo opciju, ja vēlaties iespēju atcelt transakcijas, kurām ir šī grāmatošanas metode.                                                                                                               |
 | **Aizvērt**      | Atlasiet kādu grāmatošanas metodi, kuru mainīt, kad tiek slēgtas transakcijas ar šo grāmatošanas metodi. Darbība tiek uzskatīta par aizvērtu, kad tā ir pilnībā nosegta.                                       |
+
+
 
 
 

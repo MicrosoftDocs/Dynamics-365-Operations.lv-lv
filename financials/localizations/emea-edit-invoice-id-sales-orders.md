@@ -1,6 +1,6 @@
 ---
-title: "Labot rēķina identifikācijas pārdošanas pasūtījumos Austrumeiropā"
-description: "Šajā tēmā ir sniegta informācija par kontu saņemamajiem parametriem, kas ietekmē rēķinu numurus uz pavadzīmēm un rēķiniem par Čehijas, Igaunijas, Ungārijas, Lietuva, Latvija un Polija."
+title: "Labot rēķina ID pārdošanas pasūtījumos Austrumeiropai"
+description: "Šajā tēmā ir sniegta informācija par kreditoru moduļa parametriem, kas ietekmē rēķinu numurus pavadzīmēs un rēķinos Čehijai, Igaunijai, Ungārijai, Lietuvai, Latvijai un Polijai."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,11 +24,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="edit-invoice-ids-on-sales-orders-for-eastern-europe"></a>Labot rēķina identifikācijas pārdošanas pasūtījumos Austrumeiropā
+# <a name="edit-invoice-ids-on-sales-orders-for-eastern-europe"></a>Labot rēķina ID pārdošanas pasūtījumos Austrumeiropai
 
-Šajā tēmā ir sniegta informācija par kontu saņemamajiem parametriem, kas ietekmē rēķinu numurus uz pavadzīmēm un rēķiniem par Čehijas, Igaunijas, Ungārijas, Lietuva, Latvija un Polija.
+[!include[banner](../includes/banner.md)]
 
-Juridiskām personām, Čehija, Igaunija, Ungārija, Lietuva, Latvija un Poliju, **ID rēķinu pārdošanas pasūtījumos, labojiet** iespēja ļauj manuāli ievadīt pavadzīmi un rēķinu numurus uz klientu ir iepakošanas, pavadzīmes un rēķinus. Palešu pārvietotāja iespējamām opcijām **Accounts receivable parameters** lapa par **rēķina** FastTab, **atjauninājumus** tab.
+
+Šajā tēmā ir sniegta informācija par kreditoru moduļa parametriem, kas ietekmē rēķinu numurus pavadzīmēs un rēķinos Čehijai, Igaunijai, Ungārijai, Lietuvai, Latvijai un Polijai.
+
+Juridiskajām personām Čehijā, Igaunijā, Ungārijā, Lietuvā, Latvijā un Polijā opcija **Labot rēķina ID pārdošanas pasūtījumos** sniedz iespēju debitora pavadzīmēs un rēķinos attiecīgās pavadzīmes un rēķina numurus ievadīt manuāli. Tālāk aprakstītās opcijas ir pieejamas lapā **Debitoru moduļa parametri**, kopsavilkuma cilnē **Rēķins**, cilnē **Atjauninājumi**.
 <table>
 <colgroup>
 <col width="50%" />
@@ -36,25 +39,27 @@ Juridiskām personām, Čehija, Igaunija, Ungārija, Lietuva, Latvija un Poliju,
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Parametrs</strong></td>
-<td> <strong>Description</strong></td>
+<td><strong> Parametrs</strong></td>
+<td> <strong>Apraksts</strong></td>
 </tr>
 <tr class="even">
 <td>Labot rēķina ID pārdošanas pasūtījumā</td>
-<td>Ja ir atlasīta šī opcija, jūs varēsiet veikt šādas darbības:
+<td>Ja šī opcija ir atzīmēta, jums ir tālāk aprakstītās iespējas.
 <ul>
-<li>Rediģēt <strong>pavadzīmes</strong> lauku <strong>pavadzīmes grāmatošanai pavadzīmes</strong> lapā.</li>
-<li>Rediģēt <strong>rēķina</strong> lauku <strong>rēķina grāmatošanas</strong> lapā.</li>
-<li>Atlasiet <strong>izvēles, rēķina numurs, ko izmanto</strong> parametrs.</li>
+<li>Rediģējiet lauku <strong>Pavadzīme</strong> lapā <strong>Pavadzīmes grāmatošana</strong>.</li>
+<li>Rediģējiet lauku <strong>Rēķins</strong> lapā <strong>Rēķina grāmatošana</strong>.</li>
+<li>Atlasiet parametru <strong>Pārbaudīt rēķina numuru</strong>.</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Pārbaudīt rēķina numuru</td>
-<td>Ja ir atlasīta šī opcija, rēķina grāmatošanas procesa laikā sistēma pārbaudīs, ka rēķina numurs neeksistē jau iegrāmatotos rēķinus. Ja pastāv numuru, tiek parādīts kļūdas ziņojums.</td>
+<td>Ja ir atzīmēta šī opcija, tad rēķina grāmatošanas procesa laikā sistēma pārbauda, vai šāds rēķina numurs grāmatotajiem rēķiniem jau nepastāv. Ja šāds numurs pastāv, tiek parādīts kļūdas ziņojums.</td>
 </tr>
 </tbody>
 </table>
 
  
+
+
 
 

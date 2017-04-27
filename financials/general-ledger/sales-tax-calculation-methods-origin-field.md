@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>PVN aprēķina metodes laukā Izcelsme
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir aprakstītas lauka Izcelsme opcijas PVN kodu lapā un kā PVN tiek aprēķināts atkarībā no atlasītās PVN koda opcijas.
 
 Katram lapā PVN kodi izveidotajam PVN kodam laukā Izcelsme ir jāatlasa aprēķina metode, kas tiek lietota nodokļu pamatsummai.
@@ -124,5 +127,7 @@ Dokumentam/žurnālam ir iestatīta parametra Summas ietver PVN vērtība Nē Tr
 [PVN likmes noteikšana atkarībā no laukiem Aprēķina pamatā un Aprēķina metode](marginal-base-field.md)
 
 [PVN kodu visas summas un intervāla aprēķināšanas opcijas](whole-amount-interval-options-sales-tax-codes.md)
+
+
 
 

@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="workflow-elements"></a>Darbplūsmas elementi
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā raksta aprakstīti dažādi elementi, kas veido darbplūsmu.
 
 Darbplūsma sastāv no elementiem. Turpmākajās sadaļās ir aprakstīts katrs elementa veids.
@@ -55,14 +58,14 @@ Darbplūsma sastāv no elementiem. Turpmākajās sadaļās ir aprakstīts katrs 
 -   Pieprasīt dokumenta izmaiņas.
 -   Piešķirt dokumentu apstiprināšanai citam lietotājam.
 
-## <a name="lineitem-workflow-elements"></a>Lineitem darbplūsmas elementu
-Var izveidot darbplūsmu dokumentu vai dokumenta rindu apstrādei. Pieņemsim, ka esat izveidojis darba laika uzskaites tabulas apstiprinājuma darbplūsmu. (Mēs attieksies uz šī darbplūsma kā *dokumentu darbplūsmas*.) Jūs varat pievienot *postenis darbplūsmas* dokumentu darbplūsmas elementu. Izpildot rindas vienuma elementu, apstrādei tiek nodots katras dokumenta rindas vienums. Iespējams, vēlaties, lai visu rindu vienumu apstrādei tiktu izmantota viena dokumenta rindu darbplūsma, vai arī, iespējams, vēlaties, lai katra rindas vienuma apstrādei tiktu izmantota atšķirīga dokumenta rindas darbplūsma. Iedomājieties, ka darbinieks ir iesniedzis darba laika uzskaites tabulu, kas līdzinās tālāk esošajā attēlā redzamajai. ![Darbplūsma ar rindu vienumiem](./media/workflow_lineitemworkflow.gif) Šajā gadījumā, iespējams, vēlaties izveidot tālāk norādītās dokumenta rindas darbplūsmas.
+## <a name="lineitem-workflow-elements"></a>Dokumenta rindas darbplūsmas elementi
+Var izveidot darbplūsmu dokumentu vai dokumenta rindu apstrādei. Pieņemsim, ka esat izveidojis darba laika uzskaites tabulas apstiprinājuma darbplūsmu. (Šī darbplūsma tiks saukta par *dokumenta darbplūsmu*.) Varat pievienot šai dokumenta darbplūsmai *rindas vienuma darbplūsmas* elementu. Izpildot rindas vienuma elementu, apstrādei tiek nodots katras dokumenta rindas vienums. Iespējams, vēlaties, lai visu rindu vienumu apstrādei tiktu izmantota viena dokumenta rindu darbplūsma, vai arī, iespējams, vēlaties, lai katra rindas vienuma apstrādei tiktu izmantota atšķirīga dokumenta rindas darbplūsma. Iedomājieties, ka darbinieks ir iesniedzis darba laika uzskaites tabulu, kas līdzinās tālāk esošajā attēlā redzamajai. ![Darbplūsma ar rindu vienumiem](./media/workflow_lineitemworkflow.gif) Šajā gadījumā, iespējams, vēlaties izveidot tālāk norādītās dokumenta rindas darbplūsmas.
 
 -   **1. dokumenta rindas darbplūsma** — šī darbplūsma tiek izmantota to rindas vienumu apstrādei, kuru projekta ID ir 1111.
 -   **2. dokumenta rindas darbplūsma** — šī darbplūsma tiek izmantota to rindas vienumu apstrādei, kuru projekta ID ir 2222.
 -   **3. dokumenta rindas darbplūsma** — šī darbplūsma tiek izmantota to rindas vienumu apstrādei, kuru projekta ID ir 3333.
 
-## <a name="flowcontrol-elements"></a>Flowcontrol elementi
+## <a name="flowcontrol-elements"></a>Plūsmas kontroles elementi
 Tālāk norādītie elementi ļauj izveidot darbplūsmas ar alternatīviem atzariem vai atzariem, kas tiek izpildītie vienlaikus.
 
 ### <a name="manual-decision"></a>Manuāls lēmums
@@ -80,5 +83,7 @@ Tālāk norādītie elementi ļauj izveidot darbplūsmas ar alternatīviem atzar
 ### <a name="subworkflow"></a>Pakārtotā darbplūsma
 
 *Pakārtotā darbplūsma* ir darbplūsma, kas darbojas citas darbplūsmas kontekstā.
+
+
 
 

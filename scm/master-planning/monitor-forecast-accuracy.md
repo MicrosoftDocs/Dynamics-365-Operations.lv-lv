@@ -1,6 +1,6 @@
 ---
-title: "Monitora prognoze precizitāte"
-description: "Šajā rakstā sniegts budžeta precizitātes Microsoft Dynamics 365 operācijām aprēķina un izskaidrots, kā var skatīt precizitātes vērtības veidu."
+title: "Prognozes precizitātes pārraudzība"
+description: "Šajā tēmā ir aprakstīti prognozes precizitātes veidi, kas tiek aprēķināti programmatūrā Microsoft Dynamics 365 for Operations un ir paskaidrots, kā varat skatīt precizitātes vērtības."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,23 +25,28 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="monitor-forecast-accuracy"></a>Monitora prognoze precizitāte
+# <a name="monitor-forecast-accuracy"></a>Prognozes precizitātes pārraudzība
 
-Šajā rakstā sniegts budžeta precizitātes Microsoft Dynamics 365 operācijām aprēķina un izskaidrots, kā var skatīt precizitātes vērtības veidu.
+[!include[banner](../includes/banner.md)]
 
-Šāda veida prognozes precizitāti aprēķina dinamika 365 operācijām:
+
+Šajā tēmā ir aprakstīti prognozes precizitātes veidi, kas tiek aprēķināti programmatūrā Microsoft Dynamics 365 for Operations un ir paskaidrots, kā varat skatīt precizitātes vērtības.
+
+Programmatūrā Dynamics 365 for Operations tiek aprēķināti tālāk norādītie prognozes precizitātes veidi.
 
 -   Vēsturiskās prognozes precizitāte, salīdzinot vēsturisko prognozi, ko izmanto vispārējā plānošanā kopā ar vēsturiskā pieprasījuma datiem. Lai skatītu vēsturiskās prognozes precizitātes vērtības (gan absolūtās, gan procentuālās vērtības), noklikšķiniet uz **Rādīt precizitāti** lapā **Detalizēti pieprasījuma apjoma prognozes dati**.
 -   Prognožu ģenerēšanai izmantotā prognozēšanas modeļa aprēķināta precizitāte. Procentuālo precizitāti var skatīt sadaļā **Detalizēti modeļa dati - MAPE** lapā **Detalizēti pieprasījuma apjoma prognozes dati**. 
 
-**Piezīme:** ja Dynamics 365 izmantošanai operāciju pieprasījuma prognozēšanas Microsoft Azure mašīnu apmācības pakalpojumu iekšējā modeļa precizitāti aprēķina pamatā ir testa datu kopu. Norādīt lielumu testa datu kopu, kas **TEST\_noteikt\_lielums\_procenti** parametru par **pieprasījuma prognozēšanas parametrus** lapu. Piemēram, ja tiek iestatīta vērtība **20**, pēdējie vēsturisko datu 20 % tiks izmantoti, lai aprēķinātu iekšējā modeļa precizitāti.
+**Piezīme.** Ja izmantojat Dynamics 365 for Operations Microsoft Azure algoritmiskās mācīšanās pakalpojumu Pieprasījuma prognozēšana, iekšējā modeļa precizitāte tiek aprēķināta, pamatojoties uz testa datu kopu. ai norādītu testa datu kopas izmēru, iestatiet parametru **TEST\_SET\_SIZE\_PERCENT** lapā **Pieprasījuma prognozēšanas parametri**. Piemēram, ja tiek iestatīta vērtība **20**, pēdējie vēsturisko datu 20 % tiks izmantoti, lai aprēķinātu iekšējā modeļa precizitāti.
 
 
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Authorizing the adjusted forecast](authorize-adjusted-forecast.md)
+[Koriģētās prognozes autorizēšana](authorize-adjusted-forecast.md)
 
-[Remove outliers from historical transaction data when calculating a demand forecast](remove-historical-outliers-calculating-demand-forecast.md)
+[Novirzes punktu noņemšana no vēsturiskiem transakciju datiem, aprēķinot pieprasījuma apjoma prognozi](remove-historical-outliers-calculating-demand-forecast.md)
+
+
 
 

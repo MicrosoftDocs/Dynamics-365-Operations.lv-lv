@@ -1,5 +1,5 @@
 ---
-title: "Maksājuma metodes zvanu centrs"
+title: "Maksājumu metodes zvanu centrā"
 description: "Šajā tēmā ir aprakstītas dažādās maksājumu metodes, ko mazumtirdzniecībā un komercijā varat izmantot zvanu centrā."
 author: josaw1
 manager: AnnBe
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 92163
 ms.assetid: 8e738907-870b-466c-ab0c-07f4a4aa47f3
 ms.search.region: global
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="payment-methods-in-a-call-center"></a>Maksājuma metodes zvanu centrs
+# <a name="payment-methods-in-a-call-center"></a>Maksājumu metodes zvanu centrā
+
+[!include[banner](includes/banner.md)]
+
 
 Šajā tēmā ir aprakstītas dažādās maksājumu metodes, ko mazumtirdzniecībā un komercijā varat izmantot zvanu centrā.
 
@@ -43,6 +46,8 @@ Ja iesniedzat kredītkartes maksājumu lapā **Pārdošanas pasūtījums** un sa
 
 -   Čeku aizturējumi ļauj finanšu personālam apstrādāt pasūtījumus, kas ir aizturēti, jo kā maksāšanas metode tika izmantots čeks un tika pārsniegta čeka aizturēšanas sliekšņa summa. Šo aizturēšanu var manuāli atbrīvot, vai tās derīgums automātiski beidzas konfigurētā perioda beigās.
 -   Varat iestatīt sliekšņus, virs kuriem ir manuāli jāapstiprina tādas atmaksas, kas tiek izsniegtas, izmantojot čekus un kredītkartes. Jebkura kompensācija, kas pārsniedz sliekšņa summu, tiek pievienota apstiprināšanas rindai. Kad atmaksa ir apstiprināta, par atgriešanas pārdošanas pasūtījumu var izrakstīt rēķinu.
+
+
 
 
 

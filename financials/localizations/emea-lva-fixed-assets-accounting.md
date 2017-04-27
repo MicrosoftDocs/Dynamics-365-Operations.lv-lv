@@ -1,6 +1,6 @@
 ---
 title: " Pamatlīdzekļu uzskaite nodokļu aprēķinam"
-description: "Šajā tēmā ir sniegta informācija par nodokļu nolietojuma funkcionalitātei Latvija."
+description: "Šajā tēmā ir sniegta informācija par nodokļu nolietojuma funkcionalitāti Latvijai."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,59 +27,64 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-assets-accounting-for-tax-purposes"></a> Pamatlīdzekļu uzskaite nodokļu aprēķinam
 
-Šajā tēmā ir sniegta informācija par nodokļu nolietojuma funkcionalitātei, Latvija, tai skaitā nodokļu nolietojuma iestatīšanai un aprēķināšanai un nodokļu nolietojums pārskata drukāšana. 
-> [!NOTE]
-> Nodokļu nolietojuma strādā ar vērtību modeļus. Vērtības modelī un nolietojuma grāmatā ir sapludināti vienotā koncepcija, ko sauc *grāmatu.* Lai iegūtu papildinformāciju, skatiet [pamatlīdzekļa vērtības modeli un nolietojuma grāmatu sapludināšanas](../fixed-assets/fixed-asset-value-model-depreciation-book-merge.md).
+[!include[banner](../includes/banner.md)]
 
-## <a name="set-up-a-depreciation-profile"></a>Iestatiet nolietojuma profilu, kas
-Iestatot nolietojuma tabulu, apsveriet šādas iespējas.
+
+Šajā tēmā ir sniegta informācija par nodokļu nolietojuma funkcionalitāti Latvijai, tostarp nodokļu nolietojuma iestatīšanu, ka arī nodokļu nolietojuma pārskata aprēķināšanu un drukāšanu. 
+> [!NOTE]
+> Nodokļu nolietojums strādā ar vērtības modeļiem. Vērtības modelis un nolietojuma grāmata ir sapludināti vienā jēdzienā ar nosaukumu *grāmata*. Papildinformāciju skatiet rakstā [Pamatlīdzekļu vērtības modeļa un nolietojuma grāmatas sapludināšana](../fixed-assets/fixed-asset-value-model-depreciation-book-merge.md).
+
+## <a name="set-up-a-depreciation-profile"></a>Iestatīt nolietojuma tabulu
+Iestatot nolietojuma tabulu, ņemiet vērā tālāk minēto.
 
 |                       |                                                                                                                                                                                                                                                                                                                    |
 |-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Depreciation year** | Izvēlieties, kāda veida, ko izmanto, lai aprēķinātu nolietojuma gadu. Nolietojuma aprēķina gads un perioda biežums ir saistīti. Tāpēc iespējas **perioda biežums** lauks ir atkarīgs no **nolietojuma aprēķina gads** lauka vērtību.                                                                                 |
-| **Period frequency**  | Atlasiet virsgrāmatas uzkrājumu biežumu kalendārā gada vai finanšu gada laikā. Šajā laukā rādītās opcijas ir atkarīgas no jūsu atlasītā nolietojuma gada. Ja esat atlasījis **Kalendārs** kā nolietojuma aprēķina gadu, iespējas ir **gada**, **ikmēneša**, **ceturkšņa**, **pusgada**. |
-| **Full depreciation** | Atzīmējiet šo opciju, lai pamatlīdzekli uzskatītu par pilnīgi nolietotu, kad atlikušais lietošanas ilgums ir 0 (nulle).                                                                                                                                                                                                             |
+| **Nolietojuma apr. gads** | Atlasiet gada tipu, kuru lietojat nolietojuma aprēķināšanai. Nolietojuma aprēķina gads un perioda biežums ir saistīti. Tādēļ opciju lauks **Perioda biežums** ir atkarīgs no vērtības laukā **Nolietojuma apr. gads**.                                                                                 |
+| **Perioda biežums**  | Atlasiet virsgrāmatas uzkrājumu biežumu kalendārā gada vai finanšu gada laikā. Šajā laukā rādītās opcijas ir atkarīgas no jūsu atlasītā nolietojuma gada. Ja kā nolietojuma aprēķināšanas gadu atlasījāt vērtību **Kalendārs**, tad opcijas ir **Reizi gadā**, **Reizi mēnesī**, **Reizi ceturksnī** un **Reizi pusgadā**. |
+| **Pilns nolietojums** | Atzīmējiet šo opciju, lai pamatlīdzekli uzskatītu par pilnīgi nolietotu, kad atlikušais lietošanas ilgums ir 0 (nulle).                                                                                                                                                                                                             |
 
 <!---To set up a depreciation profile, complete the following procedure, [Set up and create depreciation profiles](http://ax.help.dynamics.com/en/wiki/set-up-and-create-depreciation-profiles/).-->
 
-## <a name="set-up-books"></a>Grāmatas
-Izmantojiet **grāmatām** lapu, lai noteiktu nodokļu kategorijai. Grāmatas tiek saukti arī par nodokļu kategorijas. Lai izveidotu grāmatu, atlasiet nolietojuma tabulu, kas ir **atlikumu samazinošā** atlasīto **metodi** lauku **nolietojuma profilos** lapā. **Grāmatām** lapa par juridiskām personām Latvija ietver šādus laukus:
+## <a name="set-up-books"></a>Iestatīt grāmatas
+Izmantojiet lapu **Grāmatas**, lai definētu nodokļu kategoriju. Grāmatas tiek sauktas arī par nodokļu kategorijām. Lai izveidotu grāmatu, atlasiet nolietojuma tabulu, kurai lapas **Nolietojuma tabulas** laukā **Metode** ir atzīmēta vērtība **Degresīvā**. Lapa **Grāmatas** juridiskajām personām Latvijā ietver tālāk uzskaitītos laukus.
 
--   **Grāmatošanas slānis** – atlasiet **nodokļu** šajā jomā.
--   **Apkopot kategorijai** – atlasiet šo opciju, ja nodokļu nolietojums būtu apkopoti un aprēķinātas visiem pamatlīdzekļiem, kas ir pašā grāmatā atlasīti **kategorija** lauks.
--   **Nodokļu koeficientiem** -var iestatīt nodokļa koeficientus katram koeficients iegādes cenu regulēt finanšu gadam.
+-   **Grāmatošanas līmenis** — šajā laukā atlasiet vērtību **Nodokļi**.
+-   **Summēt par kategoriju** — atzīmējiet šo opciju, ja nodokļu nolietojums ir jāsummē un jāaprēķina visiem pamatlīdzekļiem, kam laukā **Kategorija** ir atlasīta vienāda grāmata.
+-   **Nodokļu koeficienti** — varat iestatīt nodokļu koeficientus katram koeficientam, lai finanšu gadam koriģētu iegādes cenu.
 
 <!---For more information about setting up books, see [Set up depreciation books](http://ax.help.dynamics.com/en/wiki/set-up-depreciation-books/).-->
 
-### <a name="set-up-tax-depreciation-calculation"></a>Iestatīt nodokļu nolietojuma aprēķins
+### <a name="set-up-tax-depreciation-calculation"></a>Iestatīt nodokļu nolietojuma aprēķinu
 
-Iestatīt nodokļu nolietojuma aprēķins par **Pamatlīdzekļi** lapu, atlasiet pamatlīdzekli. Tad, **vispārējā** FastTab, atlasiet **grāmatu**, **kategorija** lauks. Pamatlīdzeklis ir tikai viena grāmata, kas saistīta ar pašreizējo grāmatošanas slānis. 
+Lai iestatītu nodokļu nolietojuma aprēķinu, lapā **Pamatlīdzekļi** atlasiet kādu pamatlīdzekli. Pēc tam kopsavilkuma cilnes **Vispārīgi** laukā **Kategorija** atlasiet vērtību **Grāmata**. Pašreizēja grāmatošanas līmenī ar pamatlīdzekli ir jābūt saistītai tikai vienai grāmatai. 
 > [!NOTE]
-> Šajā laukā norādīts grāmatas ieraksta grāmatošanas slānis vērtība vienāda ar nodokli tikai.
+> Šajā lauka tiek rādīts grāmatu ieraksts, un tā grāmatošanas līmeņa vērtība ir vienāda ar Tikai nodokļi.
 
-## <a name="calculate-tax-depreciation"></a>Nodokļu nolietojuma aprēķins
-Aprēķināt pamatlīdzekļa nolietojumu nodokļa aprēķina, no **nodokļu nolietojumam** lapu, izveidot jaunu taksācijas periodā izmanto atskaišu veidošanai.
+## <a name="calculate-tax-depreciation"></a>Aprēķināt nodokļu nolietojumu
+Lai aprēķinātu pamatlīdzekļa nodokļu nolietojumu, lapā **Nodokļu nolietojums** izveidojiet jaunu nodokļu periodu, kuru izmantot pārskatu veidošanai.
 
 |                   |                                                                                                                                                                |
 |-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Field name**    | **Description**                                                                                                                                                |
-| **Start date**    | Atlasiet datumu, no kura periods ir derīgs.                                                                                                                |
-| **End date**      | Atlasiet datumu, līdz kuram ir derīgs laika posmā.                                                                                                               |
-| **Period status** | Atlasiet perioda statuss (**Open** vai **slēgts**). Ja statuss ir **slēgts**, **kategorijas** par **kategoriju detaļas** FastTab nevar pievienot vai dzēst. |
+| **Lauka nosaukums**    | **Apraksts**                                                                                                                                                |
+| **Sākuma datums**    | Atlasiet datumu, no kura periods ir derīgs.                                                                                                                |
+| **Beigu datums**      | Atlasiet datumu, līdz kuram periods ir derīgs.                                                                                                               |
+| **Perioda statuss** | Atlasiet perioda statusu (**Atvērts** vai **Slēgts**). Ja statuss ir **Slēgts**, tad **Kategorijas** kopsavilkuma cilnē **Detalizēta informācija par kategoriju** nevar pievienot vai dzēst. |
 
-Par **kategoriju detaļas** FastTab, izvēlieties grāmatu **kategorija** lauku, kuru vēlaties aprēķināt nolietojumu nodokļa. Noklikšķiniet uz **aprēķināt** nodokļu nolietojuma aprēķināšanai. Nodokļu nolietojuma aprēķina vai nu atsevišķie pamatlīdzekļi vai kopsavilkuma informāciju no visiem pamatlīdzekļiem, kas piešķirti vienas kategorijas pamatlīdzekļu nodokļu pamatots. Aprēķins tiek veikts, pamatojoties uz nodokļa koeficients no atlasīto grāmatu un grāmatvedības datus par pamatlīdzekļu grāmatām, kas saistīti ar atlasīto grāmatu **kategorija** lauks.
+Kopsavilkuma cilnes **Detalizēta informācija par kategoriju** laukā **Kategorija** atlasiet grāmatu, kurai vēlaties aprēķināt nodokļu nolietojumu. Noklikšķiniet uz **Aprēķināt**, lai aprēķinātu nodokļu nolietojumu. Nodokļu nolietojums tiek aprēķināts vai nu atsevišķiem pamatlīdzekļiem, vai arī to aprēķina, pamatojoties uz kopsavilkuma informāciju par visiem pamatlīdzekļiem, kas piešķirti vienai pamatlīdzekļu nodokļu kategorijai. Aprēķins ir balstīts uz nodokļu koeficientu no atlasītās grāmatas un uzskaites datiem to pamatlīdzekļu grāmatās, kuri ir saistīti ar laukā **Kategorija** atlasīto grāmatu.
 
 |                                                                                                                  |
 |------------------------------------------------------------------------------------------------------------------|
-| **Aprēķinu formulas**                                                                                         |
-| Koriģēt vērtību = sākuma bilance + vērtības korekcijas - apglabāšanas + iegādes cena \*iegādes koeficients |
-| Nodokļu nolietojuma summa = vērtību koriģē \*bāze nolietojuma \*2 /100 \*mēnešu periodu skaits / 12        |
-| Beigu atlikums = koriģēt vērtību – nodokļu nolietojuma summa                                                           |
-| Sākuma atlikums (perioda nolietojums) = beigu bilance (iepriekšējās nolietojuma aprēķina periods)          |
+| **Aprēķina formulas**                                                                                         |
+| Koriģētā vērtība = Sākuma bilance + Vērtību korekcijas - Norakstīšana + Iegādes cena \* Iegādes koeficients |
+| Nodokļu nolietojuma summa = Koriģētā vērtība \* Pamata nolietojums \*2 /100 \* mēnešu skaits periodā / 12        |
+| Beigu bilance = Koriģētā vērtība – Nodokļu nolietojuma summa                                                           |
+| Sākuma bilance (pašreizējais nolietojuma periods) = Beigu bilance (iepriekšējais nolietojuma aprēķina periods)          |
 
-Lai skatītu nolietojumu nodokļu detaļas, noklikšķiniet uz **nodokļu nolietojuma informāciju** atvērt **nodokļu nolietojuma informāciju** lapā.
+Lai skatītu nodokļu nolietojuma informāciju, noklikšķiniet uz **Nodokļu nolietojuma detalizēta informācija**, lai atvērtu lapu **Nodokļu nolietojuma detalizēta informācija**.
 
-## <a name="print-the-tax-depreciation-report"></a>Drukāt nodokļu nolietojuma pārskats
-**Nodokļu nolietojumam** pārskats sniedz latviešu lietotājiem ar nodokļu pārskatam, kas attiecas uz pamatlīdzekļiem uzņēmumā. Lai izdrukātu atskaiti, dodieties uz **nodokļu nolietojuma aprēķina** lapu, izvēlieties konkrētu ierakstu apkopot pie **kategorija** līmeņa. Noklikšķiniet uz **nodokļu nolietojuma atskaiti** kategorijām, kas tiek apkopoti, izmantojot **nodokļu nolietojumam** atskaite.
+## <a name="print-the-tax-depreciation-report"></a>Drukāt nodokļu nolietojuma pārskatu
+Pārskats **Nodokļu nolietojums** lietotājiem Latvijā sniedz iespēju veidot nodokļu pārskatus, kas ir saistīti ar uzņēmuma pamatlīdzekļiem. Lai drukātu šo pārskatu, dodieties uz lapu **Nodokļu nolietojuma aprēķins**, atlasiet kādu konkrētu pārskatu, kuram veidot kopsavilkumu līmenī **Kategorija**. Noklikšķiniet uz **Nodokļu nolietojuma aprēķins** kategorijām, kam nav izveidots kopsavilkums, izmantojot pārskatu **Nodokļu nolietojums**.
+
+
 
 

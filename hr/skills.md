@@ -39,18 +39,18 @@ Izsekojamo prasmju piemēri ietver:
 Lai personai vai darbam varētu piešķirt kādu prasmi, izveidot prasmju kartēšanas meklēšanu vai prasmju profilu, par šīm prasmēm ir jāievada informācija lapā **Prasmes**. Katrai prasmei varat atlasīt prasmju tipu un vērtēšanas modeli.
 
 ## <a name="rating-models"></a>Vērtēšanas modeļi
-Vērtēšanas modeļi palīdz novērtēt personas faktisko prasmju līmeni, to prasmju līmeni, ko šai personai būtu jācenšas sasniegt, vai prasmju līmeni, kas ir nepieciešams darbam. Vērtējuma modelim var ievadīt ne vairāk kā 10 līmeņus.  Katra līmeņa reitings modelis tiek piešķirts koeficients.  Koeficientu vērtības tiks izmantota normalizēt prasmes, kuras izmanto dažādu reitingu modeļus rādītājus.  Koeficients ir jābūt skaitlim no 0-9 un katram līmenim ir jābūt unikāla faktors.  Līmeņiem ar augstākām koeficienta vērtībām ir lielāka nozīme vērtēšanas modelī.
+Vērtēšanas modeļi palīdz novērtēt personas faktisko prasmju līmeni, to prasmju līmeni, ko šai personai būtu jācenšas sasniegt, vai prasmju līmeni, kas ir nepieciešams darbam. Vērtējuma modelim var ievadīt ne vairāk kā 10 līmeņus.  Katram līmenim vērtēšanas modelī tiek piešķirts koeficients.  Koeficienta vērtība tiks izmantota, lai normalizētu rādītājus prasmēm, kas izmanto dažādu vērtēšanas modeļus.  Koeficientam ir jābūt skaitlim no 0 līdz 9, un katram līmenim ir nepieciešams unikāls koeficients.  Līmeņiem ar augstākām koeficienta vērtībām ir lielāka nozīme vērtēšanas modelī.
 
 ## <a name="specify-job-skills"></a>Darba prasmju norādīšana
-Ievadot informāciju par darbu, var norādīt, ka personai vajadzēja veikt darbu, kas nepieciešams darbam vajadzīgās iemaņas.  Papildus var norādīt vēlamo līmeni katrai prasmei, kā arī svarīguma līmeni prasmei. Dažādos amatos vienādām prasmēm var būt nepieciešami dažādi nozīmīguma līmeņi.
+Kad ievadāt informāciju par darbu, varat norādīt prasmes, kas personai ir nepieciešamas, lai varētu veikt attiecīgo darbu.  Turklāt varat norādīt vēlamo līmeni katrai prasmei, kā arī prasmes svarīguma līmeni. Dažādos amatos vienādām prasmēm var būt nepieciešami dažādi nozīmīguma līmeņi.
 
 ## <a name="enter-skills-for-workers-applicants-or-contacts"></a>Prasmju ievadīšana darbiniekiem, kandidātiem vai kontaktpersonām
 Darbiniekiem, kandidātiem vai kontaktpersonām varat ievadīt mērķa prasmes vai faktiskās prasmes. Mērķa prasme ir prasme, ko persona plāno sasniegt. Faktiskā prasme ir prasme, kas personai piemīt pašlaik.
 
 ## <a name="skill-mapping-and-skill-mapping-profiles"></a> Prasmju kartēšana un prasmju kartēšanas profili
-Jūs varat izveidot prasmju kartēšanas meklēšanu, lai atrastu darbinieks, kandidāts vai kontaktpersona, kas ir kvalificēts, lai veiktu konkrētu uzdevumu veidus. Prasmju kartēšanas meklēšanu skatienu pāri prasmes, izglītība, sertifikāti, pozīcijas uzticības un projekta pieredze un atgrieztu rezultātu, kas atbilst ievadītajiem kritērijiem.  Piemēram, var būt lietderīgi zināt, kas jūsu uzņēmuma darbiniekiem nopelnījis savu CPA.
+Varat izveidot prasmju kartēšanas meklēšanu, lai atrastu darbinieku, kandidātu vai kontaktpersonu, kas ir kvalificēta veikt noteikta veida uzdevumu. Prasmju kartēšanas meklēšana meklē visas prasmes, izglītību, sertifikātus, uzticēšanās pozīcijas un projektu pieredzi un uzrāda rezultātus, kas atbilst ievadītajiem kritērijiem.  Piemēram, var būt lietderīgi zināt, kuri no darbiniekiem jūsu organizācijā ir ieguvuši CPA.
 
-Prasmju kartēšanas profili ļauj atrast pašreizējo darbinieku vai kandidātu, ar prasmēm, kas tieši atbilst uzņēmuma vajadzībām.  Piemēram, var izveidot profilu prasmju kartēšanas atklāto pozīciju jūsu uzņēmumā. Izveidojot profilu konkrētam darbam un kopējot prasmes, izglītību un sertifikātus no šī darba profilā, var ātri atrast darbiniekus, kandidātus un kontaktpersonas, kas atbilst vienam vai vairākiem profilā ievadītiem kritērijiem, un skatīt sarakstu ar kandidātiem, kuru prasmes visprecīzāk atbilst nepieciešamajam darbam.
+Prasmju kartēšanas profili ļauj atrast pašreizējos darbiniekus vai kandidātus ar kvalifikāciju, kas tieši atbilst uzņēmuma vajadzībām.  Piemēram, varat izveidot prasmju kartēšanas profilu jūsu organizācijas vakancei. Izveidojot profilu konkrētam darbam un kopējot prasmes, izglītību un sertifikātus no šī darba profilā, var ātri atrast darbiniekus, kandidātus un kontaktpersonas, kas atbilst vienam vai vairākiem profilā ievadītiem kritērijiem, un skatīt sarakstu ar kandidātiem, kuru prasmes visprecīzāk atbilst nepieciešamajam darbam.
 
 <table>
 <thead>
@@ -79,6 +79,6 @@ Varat izveidot prasmju profila analīzi, lai skatītu darbinieka, kandidāta vai
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Human resources](index.md)
+[Personāla vadība](index.md)
 
 

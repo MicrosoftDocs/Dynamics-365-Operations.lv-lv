@@ -1,6 +1,6 @@
 ---
-title: "Konsolidācijas konts grupas un papildu konsolidācijas konti"
-description: "Šajā tēmā ir sniegta informācija par konsolidāciju kontu grupas un papildu konsolidācijas konti, un skaidro, kā viņi izmanto Microsoft Dynamics 365 operācijām."
+title: "Konsolidācijas kontu grupas un papildu konsolidācijas konti"
+description: "Šajā tēmā ir sniegta informācija par konsolidācijas kontu grupām un papildu konsolidācijas kontiem, kā arī skaidrots to lietojums sistēmā Microsoft Dynamics 365 for Operations."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,27 +24,32 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Konsolidācijas konts grupas un papildu konsolidācijas konti
+# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Konsolidācijas kontu grupas un papildu konsolidācijas konti
 
-Šajā tēmā ir sniegta informācija par konsolidāciju kontu grupas un papildu konsolidācijas konti, un skaidro, kā viņi izmanto Microsoft Dynamics 365 operācijām.
+[!include[banner](../includes/banner.md)]
+
+
+Šajā tēmā ir sniegta informācija par konsolidācijas kontu grupām un papildu konsolidācijas kontiem, kā arī skaidrots to lietojums sistēmā Microsoft Dynamics 365 for Operations.
 
 <a name="consolidation-account-groups"></a>Konsolidācijas kontu grupas
 ----------------------------
 
-Konsolidācijas konts grupām ļauj izveidot kontus, kurus vēlaties izmantot datu konsolidācijas grupas. Visbie āk konsolidācijas kontu grupu pārstāv valdība pilnvaroja kontu plāna kontiem vai kartes kontu grupā, ko definē uzņēmuma galveno mītni. Jūs varat atrast konsolidācijas grupas konta **Setup** jomā **konsolidācijas** moduli. Kad jūs pievienojat jaunu grupu, kontu grupu un nosaukumu ievadiet unikālo identifikatoru.
+Konsolidācijas kontu grupas jums ļauj veidot grupas no kontiem, kurus vēlaties izmantot datu konsolidēšanai. Parasti konsolidācijas kontu grupa pārstāv likumā noteiktu kontu plānu vai kartē kontus uz uzņēmuma vadības definētu grupu. Konsolidācijas kontu grupas ir atrodamas moduļa **Konsolidācijas** apgabalā **Iestatīšana**. Kad pievienojat jaunu grupu, šai kontu grupai ir jāievada unikāls identifikators un nosaukums.
 
 ## <a name="additional-consolidation-accounts"></a>Papildu konsolidācijas konti
-Papildu konsolidācijas konti ļauj piešķirt konts esošo kontu plāna kontiem konsolidācijas kontu grupu. Pēc tam varat norādīt konsolidācijas konts vērtībai, gan nosaukumam. 
+Papildu konsolidācijas konti jums ļauj konsolidācijas kontu grupai piešķirt kontu no jau esoša kontu plāna. Pēc tam varat norādīt konsolidācijas konta vērtību un nosaukumu. 
 
-Jūs varat atrast papildu konsolidācijas konti **Setup** jomā **konsolidācijas** moduli. Veidojot jaunu konsolidācijas kontu, ir jānorāda šāda informācija:
+Papildu konsolidācijas konti ir atrodami moduļa **Konsolidācijas** apgabalā **Iestatīšana**. Kad veidojat jaunu konsolidācijas kontu, ir jānorāda tālāk uzskaitītā informācija.
 
--   **Galvenais konta** -šis lauks ir uzmeklēšanas, kas parāda visu galveno kontiem, kas ir balstīti uz kontu atlasītajā lapā. Kad atlasāt konts, nosaukums tiek automātiski ievadīta **galvenā konta nosaukums** lauks.
--   **Konsolidācijas konts grupa** – Lietojiet šo lauku, lai norādītu grupu, lai kontam piešķirtu. Ja jūs konsolidējat divos dažādos veidos, visi četri konsolidācijas kontu grupas jāpievieno vienu un to pašu kontu.
--   **Konsolidācijas konts** -ievadiet konsolidācijas konts vērtība. Šī vērtība nav kontu no kontu plāna kontiem. Tas var būt jebkura vērtība, kas jums nepieciešams.
--   **Konsolidācijas konts nosaukums** -ievadiet konta nosaukumu, kā vēlaties to redzēt izdrukā uz vaicājumiem un atskaitēm.
--   **SAT līmenī** -šis lauks tiek izmantots, lai ziņo konta izrakstus Meksikas nodokļu iestādēm. 
+-   **Galvenais konts** — šis lauks ir uzmeklēšana, kas rāda visus galvenos kontus, kuri ir balstīti uz lapā atlasīto kontu plānu. Kad atlasāt kādu kontu, šis nosaukums tiek automātiski ievadīts laukā **Galvenā konta nosaukums**.
+-   **Konsolidācijas kontu grupa** — izmantojiet šo lauku, lai norādītu grupu, kurai kontu piešķirt. Ja konsolidēšanu veicat divos dažādos veidos, tad tas pats konts jums ir jāpievieno visām četrām konsolidācijas kontu grupām.
+-   **Konsolidācijas konts** — ievadiet konsolidācijas konta vērtību. Šai vērtībai nav jābūt kontam no kontu plāna. Tā var būt jebkāda jums nepieciešama vērtība.
+-   **Konsolidācijas konta nosaukums** — ievadiet nosaukumu kontam, kuru vēlaties rādīt pieprasījumos un pārskatos.
+-   **SAT līmenis** — šis laiks tiek izmantots, lai iesniegtu kontu izrakstus Meksikas nodokļu iestādēm. 
 
-Kad esat pabeidzis, radot konsolidācijas kontu grupas un papildu konsolidācijas konti, iespējams atlasīt visu grupu konsolidēt tiešsaistes procesā.
+Kad esat beidzis veidot savas konsolidācijas kontu grupas un papildu konsolidācijas kontus, varat atlasīt grupu procesā Konsolidēt tiešsaistē.
+
+
 
 
 

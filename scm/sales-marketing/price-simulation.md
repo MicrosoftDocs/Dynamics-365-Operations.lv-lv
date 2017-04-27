@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="price-simulation"></a>Cenas simulācija
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegta informācija par cenu simulāciju piedāvājumiem. Cenu simulācija jums piedāvājuma procesa laikā palīdz novērtēt ieturējumu ietekmi uz turpmāku pārdošanas cenu, pirms piekrītat lietot noteiktu cenu.
 
 Piedāvājuma cenas simulācija rāda jaunu kopsummu, balstoties uz ierosināto jauno cenu. Cenas simulācija var arī rādīt jaunas summas noteiktai rindai, kas ir izveidota esošā piedāvājumā. Cenas simulāciju varat ievadīt un to lietot vēlāk. Alternatīvi varat izmantot oriģinālo piedāvājumu bez cenas simulācijas un izdarīt papildu izmaiņas, kad veicat pārdošanas procesu kopā ar klientu.  
@@ -50,7 +53,7 @@ Lai nodrošinātu, ka atlaides un cenas tiek aprēķinātas pareizi, uzmanieties
 
 ### <a name="types-of-discounts-in-trade-agreements"></a>Atlaižu tipi tirdzniecības līgumos
 
-Tirdzniecības līgumus Microsoft Dynamics 365 operācijām var būt četru veidu cenu atlaides. Šīs atlaides var iestatīt atšķirīgiem krājumiem, debitoriem vai cenu grupām, un tās var ierobežot datums. Lai nepieļautu nepareizus aprēķinus, cenu simulāciju palaišanas laikā jums ir jāņem vērā tirdzniecības līgumi. Lūk, četri atlaižu tipi tirdzniecības līgumos:
+Tirdzniecības līgumiem programmatūrā Microsoft Dynamics 365 for Operations var lietot četru veidu cenu atlaides. Šīs atlaides var iestatīt atšķirīgiem krājumiem, debitoriem vai cenu grupām, un tās var ierobežot datums. Lai nepieļautu nepareizus aprēķinus, cenu simulāciju palaišanas laikā jums ir jāņem vērā tirdzniecības līgumi. Lūk, četri atlaižu tipi tirdzniecības līgumos:
 
 -   **Pārdošanas cena** — krājumiem var norādīt atsevišķas pārdošanas cenas. Kad tiek izveidotas piedāvājuma rindas, programma meklē pareizo pārdošanas cenu attiecībā uz krājumu un pārsūta to uz piedāvājuma rindām. Tāpēc tirdzniecības līgums, kam ir šāda veida atlaide, neietekmē cenas simulāciju. Pārdošanas cena, kas tiek izmantota piedāvājuma rindā, ataino tirdzniecības līgumu.
 -   **Rindas atlaide** — krājumiem tiek norādītas īpašas atlaides, ņemot vērā pasūtīto daudzumu. Pirms cenu simulācijas sākšanas rindas summas parasti tiek samazinātas ar rindas atlaidi. Tāpēc tirdzniecības līgums, kam ir šāda veida atlaide, ietekmē cenas simulāciju.
@@ -79,7 +82,7 @@ Nākamajā tabulā ir parādītas piedāvājuma rindas.
 | Pārdošanas vērtība USD         | (10 × 15,32) + (12 × 13,75)          | 318,20   |
 | Izmaksu vērtība USD          | (10 × 9,52) + (12 × 7,48)            | 184,96   |
 | Seguma summa USD | 318,20 – 184,96                      | 133,24   |
-| Seguma summas norma         | (\[318.20 – 184.96\] ÷ 318.20) × 100 | 41,87%   |
+| Seguma summas norma         | (\[318,20 – 184,96\] ÷ 318,20) × 100 | 41,87%   |
 
 Palaidiet cenu simulāciju un lietojiet 15 procentu kopējo atlaidi visam piedāvājumam vai piedāvājuma virsrakstam. Nākamajā tabulā ir redzamas jaunās piedāvājuma kopsummas pēc cenu simulācijas palaišanas.
 
@@ -89,11 +92,11 @@ Palaidiet cenu simulāciju un lietojiet 15 procentu kopējo atlaidi visam piedā
 | Vecā pārdošanas vērtība USD                               | (10 × 15,32) + (12 × 13,75)               | 318,20   |
 | Vecā izmaksu vērtība USD                                | (10 × 9,52) + (12 × 7,48)                 | 184,96   |
 | Vecā seguma summa USD                       | 318,20 – 184,96                           | 133,24   |
-| Vecā seguma summas norma                               | (\[318.20 – (10 × 9.52)\] ÷ 318.20) × 100 | 41,87%   |
+| Vecā seguma summas norma                               | (\[318,20 – (10 × 9,52)\] ÷ 318,20) × 100 | 41,87%   |
 | Cenu simulācija ar 15 procentu kopējo atlaidi, USD | (15 × 318,2) ÷ 100                        | 47,73    |
 | Jaunā pārdošanas vērtība USD                               | 318,20 – 47,73                            | 270,47   |
 | Jaunā seguma summa USD                       | 270,47 – 184,96                           | 85,51    |
-| Jauna seguma summas likme                               | \[(270.47 – 184.96) ÷ 270.47\] × 100      | 31,61%   |
+| Jauna seguma summas likme                               | \[(270,47 – 184,96) ÷ 270,47\] × 100      | 31,61%   |
 
 ### <a name="price-simulation-for-single-line-items"></a>Atsevišķas rindas krājumu cenu simulācija
 
@@ -113,12 +116,12 @@ Nākamajā tabulā ir parādītas piedāvājuma rindas.
 | Izmaksu vērtība USD BR-14          | 12 × 7,48                            | 89,76    |
 | Seguma summa USD BR-12 | 153,20 – 95,20                       | 58,00    |
 | Seguma summa USD BR-14 | 165,00 – 89,76                       | 75,24    |
-| Seguma summas norma USD BR-12  | \[(153.20 – 95.20) ÷ 153.20\] × 100  | 37,86    |
-| Seguma summas norma USD BR-14  | \[(165.00 – 89.76) ÷ 165.00\] × 100  | 45,60    |
+| Seguma summas norma USD BR-12  | \[(153,20 – 95,20) ÷ 153,20\] × 100  | 37,86    |
+| Seguma summas norma USD BR-14  | \[(165,00 – 89,76) ÷ 165,00\] × 100  | 45,60    |
 | Kopējā pārdošanas vērtība USD             | (10 × 15,32) + (12 × 13,75)          | 318,20   |
 | Kopējā izmaksu vērtība USD              | (10 × 9,52) + (12 × 7,48)            | 184,96   |
 | Kopējā seguma summa USD     | 318,20 – 184,96                      | 133,24   |
-| Kopējā seguma summas norma             | \[(318.20 – 184.96) ÷ 318.20\] × 100 | 41,87%   |
+| Kopējā seguma summas norma             | \[(318,20 – 184,96) ÷ 318,20\] × 100 | 41,87%   |
 
 Palaidiet cenas simulāciju un lietojiet 10 procentu kopējo atlaidi BR-12 vienībām. Nākamajā tabulā ir redzamas jaunās piedāvājuma kopsummas pēc cenu simulācijas palaišanas vienas rindas krājumam.
 
@@ -133,13 +136,15 @@ Palaidiet cenas simulāciju un lietojiet 10 procentu kopējo atlaidi BR-12 vien�
 | Izmaksu vērtība USD BR-14                       | 12 × 7,48                               | 89,76    |
 | Jaunā seguma summa USD BR-12          | 137,88 – 95,20                          | 42,68    |
 | Seguma summa USD BR-14              | 165,00 – 89,76                          | 75,24    |
-| Jaunā seguma summas norma USD BR-12           | \[(137.88 – 95.20) ÷ 137.88\] × 100     | 30,95    |
-| Seguma summas norma USD BR-14               | \[(165.00 – 89.76) ÷ 165.00\] × 100     | 45,60    |
-| Jaunā kopējā pārdošanas vērtība USD                      | \[(10 × 15.32) – 15.32\] + (12 × 13.75) | 302,88   |
+| Jaunā seguma summas norma USD BR-12           | \[(137,88 – 95,20) ÷ 137,88\] × 100     | 30,95    |
+| Seguma summas norma USD BR-14               | \[(165,00 – 89,76) ÷ 165,00\] × 100     | 45,60    |
+| Jaunā kopējā pārdošanas vērtība USD                      | \[(10 × 15,32) – 15,32\] + (12 × 13,75) | 302,88   |
 | Kopējā izmaksu vērtība USD                           | (10 × 9,52) + (12 × 7,48)               | 184,96   |
 | Jaunā kopējā seguma summa USD              | 302,88 – 184,96                         | 117,92   |
-| Jauns kopējā ieguldījuma koeficients                      | \[(302.88 – 184.96) ÷ 302.88\] × 100    | 38,93%   |
+| Jauns kopējā ieguldījuma koeficients                      | \[(302,88 – 184,96) ÷ 302,88\] × 100    | 38,93%   |
 
 Cenu simulācija ietekmē tikai to rindu, kurai tā tiek izmantota, un samazina šīs rindas kopsummu.
+
+
 
 

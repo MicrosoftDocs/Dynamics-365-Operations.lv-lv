@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="consolidated-batch-orders"></a>Konsolidēti partijas pasūtījumi
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir aprakstīts konsolidēto partijas pasūtījumu jēdziens.
 
 Saražotais lielapjoma krājums ir pamatkrājums, bet iepakotais krājums ir apakškrājums. Lielapjoma un iepakotā krājuma saistību tiek izteikta lielapjoma krājuma pārveidē. Šī lielapjoma krājuma pārveide ir definēta pašā lielapjoma krājumā.  
@@ -41,6 +44,8 @@ Konsolidētā partijas pasūtījumā var ietilpt jebkāda tālāk uzskaitīto pa
 -   Vairāki lielapjoma pasūtījumi un vairāki iepakotie pasūtījumi
 -   Vairāki lielapjoma pasūtījumi un viens iepakotais pasūtījums
 -   Tikai iepakotie pasūtījumi
+
+
 
 
 

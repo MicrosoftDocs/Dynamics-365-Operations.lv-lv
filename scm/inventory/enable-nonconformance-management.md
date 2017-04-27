@@ -1,5 +1,5 @@
 ---
-title: "Nonconformance pārvaldības"
+title: "Neatbilstības pārvaldība"
 description: "Šajā rakstā ir aprakstīts pamata iestatīšana, kas ir nepieciešama, lai lietotu neatbilstības. Papildu iestatīšana ir nepieciešama, ja vēlaties izmantot kvalitātes pārbaudes pasūtījumus."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="nonconformance-management"></a>Nonconformance pārvaldības
+# <a name="nonconformance-management"></a>Neatbilstības pārvaldība
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir aprakstīts pamata iestatīšana, kas ir nepieciešama, lai lietotu neatbilstības. Papildu iestatīšana ir nepieciešama, ja vēlaties izmantot kvalitātes pārbaudes pasūtījumus. 
 
@@ -34,7 +37,7 @@ Lai iespējotu neatbilstības pārvaldību, izpildiet tālāk aprakstītās darb
 1.  Definējiet krājuma un noliktavas pārvaldības parametrus, kas ir saistīti ar neatbilstībām.
     -   Opcijai **Izmantot kvalitātes pārvaldību** iestatiet **Jā**.
     -   Laukā **Stundas likme** ievadiet darbaspēka stundas likmi vietējā valūtā. Stundas likme tiek lietota, lai aprēķinātu izmaksas operācijām, kas ir saistītas ar neatbilstību. Stundas likme un aprēķinātās izmaksas nodrošina atsauces informāciju par neatbilstību. Šie vienumi nemijiedarbojas ar citām funkcijām.
-    -   Lietošanas **kvalitātes vadības** cilni **atskaites uzstādījumus** lapu, lai definētu dokumenta tipu, lai izdrukātu. Nonconformance, nonconformance tagu, vai korekcijas atskaites var izdrukāt. Dažādu dokumenta tipu iedrukāšanai pārskatā var definēta vairāk nekā vienu ierakstu, vai iekšēju vai ārēju paziņojumu drukāšanai. Var būt lietderīgi izmantot lapu **Dokumenta veids**, lai neatbilstībām un labojumiem definētu unikālus dokumentu veidus. Piemēram, ievadiet piezīmes par neatbilstību, izmantojot unikālu neatbilstību dokumenta veidu. Šajā gadījumā unikālo dokumenta veidu norādiet pārskata opcijās.
+    -   Lai definētu drukājamā dokumenta tipu, izmantojiet cilni **Kvalitātes pārvaldība** lapā **Pārskatu iestatīšana**. Varat drukāt neatbilstības pārskatu, neatbilstības atzīmi vai labojumu pārskatu. Dažādu dokumenta tipu iedrukāšanai pārskatā var definēta vairāk nekā vienu ierakstu, vai iekšēju vai ārēju paziņojumu drukāšanai. Var būt lietderīgi izmantot lapu **Dokumenta veids**, lai neatbilstībām un labojumiem definētu unikālus dokumentu veidus. Piemēram, ievadiet piezīmes par neatbilstību, izmantojot unikālu neatbilstību dokumenta veidu. Šajā gadījumā unikālo dokumenta veidu norādiet pārskata opcijās.
     -   Iespējojiet neatbilstības un labošanas atsauču numuru sērijas.
 
 2.  Iespējojiet neatbilstībām lietotāja apstiprināšanu. Izmantojiet lapas **Lietotāji** lauku **Nosaukums**, lai piešķirtu darbinieku katram lietotājam, kuram ir jāapstiprina neatbilstība. Sistēma izmanto darbiniekus, kuri maina neatbilstības statusu, lai izsekotu neatbilstības vēsturi. Lietotāji var apstiprināt neatbilstību tikai tad, ja viņiem ir piešķirts darbinieka identifikators.
@@ -47,10 +50,12 @@ Lai iespējotu neatbilstības pārvaldību, izpildiet tālāk aprakstītās darb
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Izveidot un apstrādāt bez standartatbilstība (uzdevuma norādījumi)](https://ax.help.dynamics.com/en/wiki/create-and-process-a-nonconformance/)
+[Izveidot un apstrādāt neatbilstību (uzdevuma ceļvedis)](https://ax.help.dynamics.com/en/wiki/create-and-process-a-nonconformance/)
 
-[Quality management processes](quality-management-processes.md)
+[Kvalitātes pārvaldības procesi](quality-management-processes.md)
 
-[Iestatītu priekšnoteikumi nav atbilstības pārvaldības (uzdevuma norādījumi)](https://ax.help.dynamics.com/en/wiki/set-up-prequisites-for-nonconformance-management/)
+[Iestatīt priekšnosacījumus neatbilstības pārvaldībai (uzdevuma ceļvedis)](https://ax.help.dynamics.com/en/wiki/set-up-prequisites-for-nonconformance-management/)
+
+
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Vispārējās plānošanas vietā pārklājumu, noliktavas, kas nav obligāti"
+title: "Vietas seguma vispārējā plānošana, ja noliktava nav obligāta"
 description: "Šajā tēmā ir aprakstīts, kā tiek plānots krājums, kuram nodrošinājumam ir iestatīta vietas dimensija."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a>Vispārējās plānošanas vietā pārklājumu, noliktavas, kas nav obligāti
+# <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a>Vietas seguma vispārējā plānošana, ja noliktava nav obligāta
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā tēmā ir aprakstīts, kā tiek plānots krājums, kuram nodrošinājumam ir iestatīta vietas dimensija.
 
@@ -39,9 +42,9 @@ ms.lasthandoff: 03/31/2017
 -   Noliktavas dimensija seguma plānošanai nav iestatīta. Tāpēc piegādi un pieprasījumu apkopo pēc vietas un, iespējams, arī citas seguma plānotas dimensijas.
 
 Nākamajā grafikā ir attēlots, kā tiek veikta vispārējā plānošana. Parametri, kas izmantoti grafikā, un to atrašanās vietas ir šādas:
--   Krājuma segums tiek definēts krājumam. Noklikšķiniet uz **produkta informācijas pārvaldības &gt;produkti&gt; atbrīvo produktus**. Atlasiet vienumu un pēc tam noklikšķiniet uz **plāns &gt;krājumu vajadzība**.
--   Uzpildīšanas attiecības ir definētas noliktavai. Noklikšķiniet uz **krājumu vadība &gt;Setup &gt;krājumu sadalījumu &gt;noliktavām**. Cilnē **Vispārējā plānošana** skatiet lauku grupu **Galvenā noliktava**.
--   Noklusējuma pasūtījuma tips ir iestatīts uz ražošanu, pirkšanas pasūtījumu vai Kanban. Noklikšķiniet uz **produkta informācijas pārvaldības &gt;produkti&gt; atbrīvo produktus**. Atlasiet vienumu un pēc tam noklikšķiniet uz **plāns &gt;noklusējuma iestatījumi**. Veidlapā **Pasūtījuma noklusējuma iestatījumi**, skatiet lauku **Noklusējuma pasūtījuma tips**.
+-   Krājuma segums tiek definēts krājumam. Noklikšķiniet uz **Preču informācijas pārvaldība &gt; Preces &gt; Izlaistās preces**. Atlasiet krājumu un pēc tam noklikšķiniet uz **Plānošana &gt; Krājumu segums**.
+-   Uzpildīšanas attiecības ir definētas noliktavai. Noklikšķiniet uz **Krājumu vadība &gt; Iestatījumi &gt; Noliktavu sadalījums &gt; Noliktavas**. Cilnē **Vispārējā plānošana** skatiet lauku grupu **Galvenā noliktava**.
+-   Noklusējuma pasūtījuma tips ir iestatīts uz ražošanu, pirkšanas pasūtījumu vai Kanban. Noklikšķiniet uz **Preču informācijas pārvaldība &gt; Preces &gt; Izlaistās preces**. Atlasiet krājumu un pēc tam noklikšķiniet uz **Plānošana &gt; Pasūtījuma noklusējuma iestatījumi**. Veidlapā **Pasūtījuma noklusējuma iestatījumi**, skatiet lauku **Noklusējuma pasūtījuma tips**.
 
 ![Pieprasīt vietas segumu noliktava nav obligāta](./media/multisitedemandexplosionscenarioforsitecoveragewarehousenotmandatory.jpg)
 
@@ -50,7 +53,7 @@ Nākamajā grafikā ir attēlots, kā tiek veikta vispārējā plānošana. Para
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+[Vispārējā plānošana un vairākvietu funkcionalitāte](master-plan-multisite-functionality.md)
 
 [Vispārējā plānošana — vietas segums, noliktava ir obligāta](master-plan-site-coverage-warehouse-mandatory.md)
 
@@ -58,6 +61,8 @@ Nākamajā grafikā ir attēlots, kā tiek veikta vispārējā plānošana. Para
 
 [Vispārējā plānošana — vietas un noliktavas segums, noliktava ir obligāta](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[Vispārējā plānošana - kā tiek noteikta MK versija](master-plan-bom-version-determined.md)
+[Vispārējā plānošana — kā tiek noteikta MK versija](master-plan-bom-version-determined.md)
+
+
 
 

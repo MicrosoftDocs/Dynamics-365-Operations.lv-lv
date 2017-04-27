@@ -1,5 +1,5 @@
 ---
-title: "Ģenerēt statistikas bāzes prognoze"
+title: "Statistiskās bāzlīnijas prognozes ģenerēšana"
 description: "Šis raksts sniedz informāciju par parametriem un filtriem, kas tiek izmantoti pieprasījuma prognozēšanas aprēķinos."
 author: YuyuScheller
 manager: AnnBe
@@ -26,32 +26,35 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="generate-a-statistical-baseline-forecast"></a>Ģenerēt statistikas bāzes prognoze
+# <a name="generate-a-statistical-baseline-forecast"></a>Statistiskās bāzlīnijas prognozes ģenerēšana
+
+[!include[banner](../includes/banner.md)]
+
 
 Šis raksts sniedz informāciju par parametriem un filtriem, kas tiek izmantoti pieprasījuma prognozēšanas aprēķinos. 
 
 Veidojot bāzlīnijas prognozi, vispirms ir jānorāda aprēķinā izmantotie parametri un filtri. Piemēram, varat izveidot bāzlīnijas prognozi, kas sniedz vērtējumu par pieprasījumu, ņemot vērā pagājušajā gada darījumu datus noteiktam uzņēmumam, nākamajam mēnesim un atlasītai krājumu grupai. 
 
-Lai ģenerētu budžeta pieprasījumu, dodieties uz **vispārējā plānošana &gt;prognozēšanas &gt;pieprasījuma prognozēšanas &gt;ģenerēt statistikas bāzes prognoze**. 
+Lai ģenerētu pieprasījuma apjoma prognozi, pārejiet uz sadaļu **Vispārējā plānošana &gt; Prognozēšana &gt; Pieprasījuma prognozēšana &gt; Ģenerēt statistiskās bāzlīnijas prognozi**. 
 
 Prognozes intervālu var atlasīt prognozes ģenerēšanas brīdī. Pieejamās vērtības ir šādas: diena, nedēļa un mēnesis. 
 
 Prognozes ģenerēšanā izmantojamo intervālu skaits ir iestatīts laukā** Prognozes periods**. 
 
-Ja prognozes stratēģija ir iestatīta ar opciju **Kopēt vēsturiskā pieprasījuma vietā**, vēsturiskā perioda beigas tiek ignorētas. Sistēma kopē numuru norādīta spaiņos **laiks horizon** lauku prognozētais pieprasījums, sākot no datuma, kas noteikts **dienas** laukā zem **vēsturisko horizontu**. Kopējot vēsturisko pieprasījumu no noteikta datuma uz priekšu, ražošanas plānotāji var sagatavot nākamā ceturkšņa plānu divējādi:
+Ja prognozes stratēģija ir iestatīta ar opciju **Kopēt vēsturiskā pieprasījuma vietā**, vēsturiskā perioda beigas tiek ignorētas. Sistēma nodrošina laukā **Prognozes periods** norādītā intervālu skaita kopēšanu uz prognozēto pieprasījumu, sākot ar sadaļas **Vēsturiskais periods** laukā **Sākuma datuma** iestatīto datumu. Kopējot vēsturisko pieprasījumu no noteikta datuma uz priekšu, ražošanas plānotāji var sagatavot nākamā ceturkšņa plānu divējādi:
 
 -   kopējot pieprasījumu no tā paša pagājušajā gada ceturkšņa;
 -   kopējot pieprasījumu no iepriekšējā ceturkšņa.
 
 Lai nepieļautu ražošanas plānos pārpratumus, noteiktu prognožu intervālu skaitu var sasaldēt. Šis skaits tiek iestatīts laukā **Sasaldēt periodu**. Laukā **Koriģēta pieprasījuma apjoma prognoze **tiek atspējotas iesaldēto intervālu šūnas, vizuāli norādot, ka šīs vērtības nedrīkst mainīt. 
 
-Bāzlīnijas pieprasījuma apjoma prognozes sākuma datumam nav jābūt pašreizējam datumam vai datumam nākotnē. Lai iestatītu citu sākuma datumu, izmantojiet lauku **Bāzlīnijas prognozes sākuma datums - Sākuma datums**. Piemēram, jūnijā lietotāji var ģenerēt nākamā gada prognozi. Ja trūkst prognožu intervālu starp vēsturiskā pieprasījuma beigām un bāzlīnijas sākumu, prognozes var būt neprecīzas. Ja izmantojat Microsoft Dynamics 365 operācijas pieprasījuma prognozēšanas dienests, ir četri veidi, kā kurā var aizpildīt trūkstošos nepilnības. Var izvēlēties metodi, kādu vēlaties, nosakot MISSING\_vērtību\_aizstāšanas parametru par **pieprasījuma prognozēšanas parametrus** lapā. 
+Bāzlīnijas pieprasījuma apjoma prognozes sākuma datumam nav jābūt pašreizējam datumam vai datumam nākotnē. Lai iestatītu citu sākuma datumu, izmantojiet lauku **Bāzlīnijas prognozes sākuma datums - Sākuma datums**. Piemēram, jūnijā lietotāji var ģenerēt nākamā gada prognozi. Ja trūkst prognožu intervālu starp vēsturiskā pieprasījuma beigām un bāzlīnijas sākumu, prognozes var būt neprecīzas. Ja lietojat Microsoft Dynamics 365 for Operations pakalpojumu Pieprasījuma prognozēšana, trūkstošos periodus var aizpildīt četros veidos. Varat izvēlēties izmantojamo metodi, lapā **Pieprasījuma prognozēšanas parametri** iestatot parametru MISSING\_VALUE\_SUBSTITUTION . 
 
-**Bāzlīnijas budžeta sākuma datumu** - **no dienas** lauks ir noteikts budžeta spaini, piemēram, sākumā Amerikas Savienotajās valstīs, ja prognozēšanas kausa nedēļas svētdienā. Sistēma automātiski pielāgo **bāzlīnijas budžeta sākuma datumu** - **no dienas** lauku atbilstoši budžeta kausu sākumam. 
+Laukā **Bāzlīnijas prognozes sākuma datums** - **Sākuma datums** ir jāiestata prognozes intervāla sākuma datums, piemēram, ASV ir jāiestata svētdiena, ja prognozēšanas intervāls ir nedēļa. Sistēma nodrošina lauka **Bāzlīnijas prognozes sākuma datums** - **Sākuma datums** vērtības automātisku pielāgošanu atbilstoši prognozes intervāla sākumam. 
 
-**Bāzlīnijas budžeta sākuma datumu** - **no dienas** lauku var iestatīt datumu pagātnē. Tas nozīme, ka var ģenerēt pagājuša perioda pieprasījuma apjoma prognozi. Tas ir noderīgi, jo ļauj lietotājiem nomainīt prognozes pakalpojuma parametrus tā, lai par pagājušu periodu ģenerēta statistikas prognoze atbilstu faktiskajam vēsturiskajam pieprasījumam. Lietotāji var pēc tam turpināt izmantot šos parametru iestatījumus, lai ģenerētu turpmākā perioda statistiskās bāzlīnijas prognozi. 
+Kā lauka **Bāzlīnijas prognozes sākuma datums** - **Sākuma datums** vērtību var iestatīt pagājušu datumu. Tas nozīme, ka var ģenerēt pagājuša perioda pieprasījuma apjoma prognozi. Tas ir noderīgi, jo ļauj lietotājiem nomainīt prognozes pakalpojuma parametrus tā, lai par pagājušu periodu ģenerēta statistikas prognoze atbilstu faktiskajam vēsturiskajam pieprasījumam. Lietotāji var pēc tam turpināt izmantot šos parametru iestatījumus, lai ģenerētu turpmākā perioda statistiskās bāzlīnijas prognozi. 
 
-Ja ir atlasīta izvēles rūtiņa **Pārsūtīt manuālās korekcijas uz pieprasījumu apjoma prognozi**, manuāli veiktās iepriekšējā pieprasījuma prognozēšanas iterāciju korekcijas var automātiski piemērot jaunajai bāzlīnijas prognozei. Ja izvēles rūtiņas atlase ir noņemta, manuālās korekcijas netiek pievienotas bāzlīnijas prognozei, bet tās netiek dzēstas. Manuāli veiktās prognozes korekcijas var dzēst tikai prognozes datu importēšanas laikā, noņemot izvēles rūtiņas **Saglabāt manuāli veiktās bāzlīnijas pieprasījuma apjoma prognozes korekcijas** atlasi. Manuāli veiktās korekcijas tiek saglabātas autorizācijas laikā. Tādējādi, ja lietotājs veic manuālas korekcijas budžetā, bet nav atļauj budžeta atpakaļ uz dinamiku 365 operācijām, izmaiņas tiek zaudētas. Plašāku informāciju par manuālo korekciju un kā viņi strādā, sk [atļauj koriģētā prognoze](authorize-adjusted-forecast.md). 
+Ja ir atlasīta izvēles rūtiņa **Pārsūtīt manuālās korekcijas uz pieprasījumu apjoma prognozi**, manuāli veiktās iepriekšējā pieprasījuma prognozēšanas iterāciju korekcijas var automātiski piemērot jaunajai bāzlīnijas prognozei. Ja izvēles rūtiņas atlase ir noņemta, manuālās korekcijas netiek pievienotas bāzlīnijas prognozei, bet tās netiek dzēstas. Manuāli veiktās prognozes korekcijas var dzēst tikai prognozes datu importēšanas laikā, noņemot izvēles rūtiņas **Saglabāt manuāli veiktās bāzlīnijas pieprasījuma apjoma prognozes korekcijas** atlasi. Manuāli veiktās korekcijas tiek saglabātas autorizācijas laikā. Tāpēc, ja lietotājs manuāli veic prognozes korekcijas, taču neautorizē prognozi programmatūrā Microsoft Dynamics 365 for Operations, izmaiņas tiek zaudētas. Papildinformāciju par manuāli veiktajām korekcijām un to darbību skatiet tēmā [Koriģētās prognozes autorizēšana](authorize-adjusted-forecast.md). 
 
 Izveidotajai pieprasījuma apjoma prognozei var piešķirt nosaukumu un pievienot komentārus, lai lietotāji varētu vieglāk atrast ģenerēto prognozi. Šīs vērtības ir redzamas prognozes ģenerēšanas vēstures lapā **Statistiskās bāzlīnijas prognozes ģenerēšanas vēsture**. 
 
@@ -59,15 +62,17 @@ Prognozes ģenerēšanas laikā var izmantot starpuzņēmumu plānošanas grupas
 
 **Padoms**. Dažreiz, ģenerējot pieprasījuma apjoma prognozi, lietotāji var saņemt kļūdas ziņojumus vai prognozes ģenerēšana tiek izpildīta, nepievienojot sesijas žurnālu. Tas var notikt, ja vaicājumā ir palikuši dati, kas iepriekš ir izmantoti prognozes ģenerēšanai. Lai novērstu šo problēmu, noklikšķiniet uz **Atlasīt** un atveriet lapu **Vaicājums** lapu, noklikšķiniet uz **Atiestatīt** un pēc tam atkārtojiet bāzlīnijas prognozes ģenerēšanu. 
 
-Ja budžets netiek ģenerēta lielu vienumu kopa, bet, piemēram, vienam vienumam vai vienu krājumu sadalījuma atslēgu vienā reizē, tad lai iegūtu labākus rezultātus, jūs varat atlasīt **izmantot pieprasījuma atbildes režīmu** izvēles rūtiņu **Master plānošanas - Setup - pieprasījuma prognozēšanas** - **pieprasījuma prognožu parametri - Azure Machine Learning** tab.
+Ja prognoze tiek ģenerēta nevis par lielu krājumu kopu, bet, piemēram, tikai par vienu krājumu vai vienu krājumu sadalījuma principu, tad, lai iegūtu labāku rezultātu, varat atzīmēt izvēles rūtiņu **Izmantot pieprasījuma atbildes režīmu** cilnē **Vispārējā plānošana — Iestatījumi — Pieprasījuma prognozēšana** - **Pieprasījuma prognozēšanas parametri — Azure algoritmiskā mācīšanās**.
 
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Demand forecasting setup](demand-forecasting-setup.md)
+[Pieprasījuma prognozēšanas iestatīšana](demand-forecasting-setup.md)
 
-[Making manual adjustments to the baseline forecast](manual-adjustments-baseline-forecast.md)
+[Manuālu bāzlīnijas prognozes korekciju veikšana](manual-adjustments-baseline-forecast.md)
 
-[Authorizing the adjusted forecast](authorize-adjusted-forecast.md)
+[Koriģētās prognozes autorizēšana](authorize-adjusted-forecast.md)
+
+
 
 

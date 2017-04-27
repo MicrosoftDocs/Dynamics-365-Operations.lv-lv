@@ -1,6 +1,6 @@
 ---
-title: "Jaukts režīms plānošana - apvienot diskrētiem, procesu un liesās plānošanas"
-description: "Šajā rakstā ir sniegta informācija par jaukta režīma plānošanu. Jaukta režīma plānošanā savu piegādes ķēdi varat modelēt, pamatojoties uz materiālu plūsmu. Microsoft Dynamics 365 operācijām nodrošina audumam slīdēt seko jūsu modeļiem, neatkarīgi no piegādes politiku, kas ir atlasīts (kanbans, ražošanas pasūtījumus, pirkšanas pasūtījumus, partijas rīkojumus vai pārvietošanas pasūtījumiem)."
+title: "Jaukta režīma plānošana — atsevišķu avotu, procesa avotu un racionālo avotu apvienošana"
+description: "Šajā rakstā ir sniegta informācija par jaukta režīma plānošanu. Jaukta režīma plānošanā savu piegādes ķēdi varat modelēt, pamatojoties uz materiālu plūsmu. Microsoft Dynamics 365 for Operations nodrošina materiālu plūsmu atbilstību jūsu modeļiem neatkarīgi no atlasītās piegādes politikas (Kanban, ražošanas pasūtījumi, pirkšanas pasūtījumi, partijas pasūtījumi vai pārsūtīšanas pasūtījumi)."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Jaukts režīms plānošana - apvienot diskrētiem, procesu un liesās plānošanas
+# <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Jaukta režīma plānošana — atsevišķu avotu, procesa avotu un racionālo avotu apvienošana
 
-Šajā rakstā ir sniegta informācija par jaukta režīma plānošanu. Jaukta režīma plānošanā savu piegādes ķēdi varat modelēt, pamatojoties uz materiālu plūsmu. Microsoft Dynamics 365 operācijām nodrošina audumam slīdēt seko jūsu modeļiem, neatkarīgi no piegādes politiku, kas ir atlasīts (kanbans, ražošanas pasūtījumus, pirkšanas pasūtījumus, partijas rīkojumus vai pārvietošanas pasūtījumiem). 
+[!include[banner](../includes/banner.md)]
+
+
+Šajā rakstā ir sniegta informācija par jaukta režīma plānošanu. Jaukta režīma plānošanā savu piegādes ķēdi varat modelēt, pamatojoties uz materiālu plūsmu. Microsoft Dynamics 365 for Operations nodrošina materiālu plūsmu atbilstību jūsu modeļiem neatkarīgi no atlasītās piegādes politikas (Kanban, ražošanas pasūtījumi, pirkšanas pasūtījumi, partijas pasūtījumi vai pārsūtīšanas pasūtījumi). 
 
 Varat atlasīt vispārējo stratēģiju preces piegādei, neatkarīgi no preces struktūras.  
 
@@ -37,7 +40,7 @@ Piemēram, var būt Kanban kontrole komplektācijā, kur materiāli ir ņemti ko
 Vispārējā plānošanā izmantojamo piegādes politiku granularitāte ir atkarīga no noliktavas dimensijām, kas ir iespējotas kā vajadzības dimensijas. Lai iespējotu vispārējo plānošanu, lai kontrolētu papildināšanu un piegādes dažādu tipu novietojumos (piemēram, atdalot dažādu ražošanas vienību ražošanas stāvus vai atdalot dažādu tipu materiālu un pabeigto preču noliktavas), ieteicams iespējot vietu un noliktavu kā vajadzības dimensijas. Alternatīvi, noliktavu kā nodrošinājuma dimensiju var izlaist. Šajā gadījumā, kad izmantojat papildu noliktavas vadību, visas kustības noliktavā tiek kontrolētas ar noliktavas darbu, bet visas kustības starp noliktavām var kontrolēt ar atvilkumu Kanban.
 
 ## <a name="supply-policies"></a>Piedāvājuma politikas
-Operāciju plānošanas jauktā režīmā 365 dinamika kontrolē, kā produkts ir piegādātas un, pamatojoties uz piegādes, kā atvasinātie pieprasījumi (patēriņa preces no likumprojektu materiālu \[MK\]) tiek izsniegtas. Pamatojoties uz pasūtījuma tipu, sistēma automātiski izvēlas materiālus, kas atbilst prasībām.  
+Dynamics 365 for Operations jaukta režīma plānošana nodrošina preces piedāvājuma veida kontroli un atvasināto pieprasījumu (krājumu patēriņš no materiālu komplekta \[MK\]) izsniegšanas kontroli, pamatojoties uz piedāvājumu. Pamatojoties uz pasūtījuma tipu, sistēma automātiski izvēlas materiālus, kas atbilst prasībām.  
 
 Piedāvājuma politikas var noteikt preču līmenī vai jebkurā granularitātē, kas atbalsta jūsu prasības. Piedāvājuma politiku granularitāte tiek definēta lapā **Pasūtījuma noklusējuma iestatījumi**.  
 
@@ -45,9 +48,9 @@ Piedāvājuma politikas var kontrolēt ar preču, krājumu dimensijām (konfigur
 
 Noklusējuma pasūtījuma tips kontrolē, kādu pasūtījumu ģenerē vispārējā plānošana.  
 
-Neatkarīgi no tā, cik piegādes ķēdē ir modelēta, Dynamics 365 operāciju atbalsta jūsu piegādes politiku sajaukums. Jums var būt ražošanas pasūtījumi, kas tiek iegūti no Kanban. Alternatīvi, jums var būt partijas pasūtījums, kam nepieciešama prece, ko piedāvā ar pārsūtīšanām vai Kanban.  
+Neatkarīgi no tā, kā tiek modelēta piegādes ķēde, Dynamics 365 for Operations atbalsta dažādu piedāvājuma politiku lietošanu. Jums var būt ražošanas pasūtījumi, kas tiek iegūti no Kanban. Alternatīvi, jums var būt partijas pasūtījums, kam nepieciešama prece, ko piedāvā ar pārsūtīšanām vai Kanban.  
 
-Dinamika 365 operācijām pārliecinās, vai audumam slīdēt seko modelim.  
+Dynamics 365 for Operations nodrošina materiālu plūsmas atbilstību modelim.  
 
 Noliktava materiālu izdošanai tiek piešķirta dinamiski izpildes laikā, pēc piegādes politiku definēšanas.  
 
@@ -55,14 +58,16 @@ Parasti Kanban netiek izveidoti nākotnes datumiem, jo Kanban ir īss dzīves ci
 
 Tāda pati loģika pastāv visiem citiem piedāvājuma politiku tipiem. Tāpēc ilgtermiņa materiālu plānošanas pamatā ir tāda pati loģika, kura gaidāma faktisko pasūtījumu gadījumā, pēc tam, kad ražošana un piegāde ir apstiprināta.
 
-## <a name="materials-allocation-crosssupply-policy--resource-consumption-on-boms"></a>Materiālu sadalījumu crosssupply politika – resursu patēriņu MK
-Resursu patēriņš ir svarīgi funkcionalitāti. Resursu patēriņš ļauj materiālu izdošanas noliktavai būt atlasītai dinamiski, pamatojoties uz piedāvājumu politiku (pasūtījuma tipu), un arī atvieglo pamatdatu uzturēšanu.  
+## <a name="materials-allocation-crosssupply-policy--resource-consumption-on-boms"></a>Materiālu sadalījuma šķērspiedāvājumu politika — resursu patēriņš uz MK
+Resursu patēriņš ir svarīga funkcionalitāte. Resursu patēriņš ļauj materiālu izdošanas noliktavai būt atlasītai dinamiski, pamatojoties uz piedāvājumu politiku (pasūtījuma tipu), un arī atvieglo pamatdatu uzturēšanu.  
 
 Resursu patēriņš pieprasa, lai noliktava, no kuras tiek izdoti materiāli, tiktu piešķirta, pamatojoties uz to, kādā veidā prece tiek piedāvāta. Citiem vārdiem sakot, izpildes laikā sistēma atrod resursus, kas ir jāizmanto ražošanā. Pamatojoties uz šiem resursiem, sistēma atrod izdošanas noliktavu.  
 
-Darbam, kas nav atkarīgs no piedāvājuma politikas, nav jāmaina informācija par MK, ja piedāvājums mainās. Ad hoc izmaiņu dinamiku 365 operācijām pārliecinās, ka materiāli ir ņemti no labi noliktavas.
+Darbam, kas nav atkarīgs no piedāvājuma politikas, nav jāmaina informācija par MK, ja piedāvājums mainās. Ekspromta izmaiņu gadījumā Dynamics 365 for Operations nodrošina materiālu ņemšanu no vajadzīgās noliktavas.
 
 ## <a name="process-manufacturing--the-production-type"></a>Ražošanas process — ražošanas veids
-Pilnīgu elastību jauktā režīmā, mēs iesakām izmantot ražošanas IMS tips visiem produktiem. Pēc tam varat izmantot ražošanas pasūtījumus, kanbans, pārsūtīšanas pasūtījumi vai pirkšanas pasūtījumi jāpiegādā preces. Ražošanas procesam ir jāizmanto ražošanas veids **Formula**, **Līdzprodukts**, **Blakusprodukts** vai **Plānošanas krājums**. Šiem ražošanas veidiem nevar izmantot Kanban un ražošanas pasūtījumus.
+Lai nodrošinātu pilnīgu pielāgojamību jauktajā režīmā, ir ieteicams visām precēm lietot ražošanas veida MK. Šādā gadījumā preces piedāvājuma nodrošināšanai varat izmantot ražošanas pasūtījumus, Kanban, pārsūtīšanas pasūtījumus vai pirkšanas pasūtījumus. Ražošanas procesam ir jāizmanto ražošanas veids **Formula**, **Līdzprodukts**, **Blakusprodukts** vai **Plānošanas krājums**. Šiem ražošanas veidiem nevar izmantot Kanban un ražošanas pasūtījumus.
+
+
 
 

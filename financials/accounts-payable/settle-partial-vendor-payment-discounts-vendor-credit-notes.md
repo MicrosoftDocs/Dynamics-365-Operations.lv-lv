@@ -1,5 +1,5 @@
 ---
-title: "Nokārtot maksājumu daļēju kreditoram, kas ir atlaides, kreditora kredīta notās"
+title: "Tāda daļēja kreditora maksājuma segšana, kam ir atlaides kreditora kredītrēķiniem"
 description: "Šajā rakstā ir izklāstīts scenārijs, kur kredītrēķins tiek nosegts pret rēķinu."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Nokārtot maksājumu daļēju kreditoram, kas ir atlaides, kreditora kredīta notās
+# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Tāda daļēja kreditora maksājuma segšana, kam ir atlaides kreditora kredītrēķiniem
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir izklāstīts scenārijs, kur kredītrēķins tiek nosegts pret rēķinu.
 
 Uzņēmumam Fabrikam kreditori piešķir termiņatlaides kredīta notām. Kreditors 3050 ļauj uzņēmumam Fabrikam piemērot 1 % termiņatlaidi, ja rēķins tiek apmaksāts 14 dienu laikā.
 
 ## <a name="invoice-and-credit-memo"></a>Rēķins un kredītrēķins
-Gada 29. jūnijā, aprīlī izveido 1000,00 3050 kreditora rēķinu. Gada 2. jūlijā, viņa rada kredīta notu par 200,00. No lapas **Kreditori** Eiprila atver lapu **Transakciju nosegšana**. Viņa var izmantot lapu **Transakciju nosegšana**, lai atzīmētu nosegšanai gan kredītrēķinu, gan rēķinu. Kredītrēķinam tiek aprēķināta atlaide 2,00. Tādējādi kopējā kredītrēķina summa tiek samazināta līdz 198,00.
+Eiprila 29. jūnijā izveido kreditoram 3050 rēķinu par summu 1000,00. 2. jūlijā viņa izveido kredītrēķinu par summu 200,00. No lapas **Kreditori** Eiprila atver lapu **Transakciju nosegšana**. Viņa var izmantot lapu **Transakciju nosegšana**, lai atzīmētu nosegšanai gan kredītrēķinu, gan rēķinu. Kredītrēķinam tiek aprēķināta atlaide 2,00. Tādējādi kopējā kredītrēķina summa tiek samazināta līdz 198,00.
 
 | Atzīmēt                     | Izmantot termiņatlaidi | Dokuments   | Konts | Datums      | Izpildes datums  | Rēķins | Summa darījuma valūtā | Valūta | Nosedzamā summa |
 |--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -65,6 +68,8 @@ Eiprila var pārskatīt kreditoru darbības lapā **Kreditoru darbības**, atlas
 | Inv-10071  |                  | 02.07.2015  | CR10071 | 200,00                               |                                       | 0,00    | USD      |
 | DISC-10071 |  Termiņatlaide   | 02.07.2015  |         | 2,00                                 |                                       | 0,00    | USD      |
 | DISC-10071 |  Termiņatlaide   | 02.07.2015  |         |                                      | 2,00                                  | 0,00    | USD      |
+
+
 
 
 

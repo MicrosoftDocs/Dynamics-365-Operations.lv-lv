@@ -1,6 +1,6 @@
 ---
-title: "Mazie kases Austrumeiropā"
-description: "Šajā tēmā ir sniegta informācija par petty cash funkcionalitāte, kas ļauj lietotājiem ir Igaunija, Lietuva, Čehija, Ungārija, Latvija, Polija un Krievija atspoguļo naudas operāciju sistēmā."
+title: "Mazie kases posteņi Austrumeiropai"
+description: "Šajā tēmā ir sniegta informācija par mazo kases posteņu funkcionalitāti, kas lietotājiem Igaunijā, Lietuvā, Čehijā, Ungārijā, Latvijā, Polijā un Krievijā ļauj sistēmā atainot kases operācijas."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,42 +25,45 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="petty-cash-for-eastern-europe"></a>Mazie kases Austrumeiropā
+# <a name="petty-cash-for-eastern-europe"></a>Mazie kases posteņi Austrumeiropai
 
-Šajā tēmā ir sniegta informācija par petty cash funkcionalitāte, kas ļauj lietotājiem ir Igaunija, Lietuva, Čehija, Ungārija, Latvija, Polija un Krievija atspoguļo naudas operāciju sistēmā.
+[!include[banner](../includes/banner.md)]
 
-Mazie kases posteņi funkcionalitāti varat izmantot, lai automatizētu darbības ieņēmumi un izdevumi naudā, primāro dokumentu izveidi un drukāšanu saistītus pārskatus. Mazie kases posteņi funkcionalitāte ļauj veikt šādas darbības:
 
--   Saņemšanu un izdevumu pieejamo naudas līdzekļu konta.
--   Ģenerēt tipisku naudas formas: kases ieņēmumu orderi, kases izdevumu orderi un kases orderi reģistrācijas žurnālā.
--   Nosaka maksimālo naudas summu, kas ir atļauta operācijām ar klientiem, piegādātājiem un tā tālāk.
--   Parāda sistēmas kases operācijas dažādās valūtās.
--   Konvertēt skaidras naudas operācijas summas ārvalstu valūtā, grāmatvedības pārskatu sniegšanas noklusētajā valūtā.
--   Ģenerēt **kases grāmatā** un kases atskaiti.
+Šajā tēmā ir sniegta informācija par mazo kases posteņu funkcionalitāti, kas lietotājiem Igaunijā, Lietuvā, Čehijā, Ungārijā, Latvijā, Polijā un Krievijā ļauj sistēmā atainot kases operācijas.
+
+Mazo kases posteņu funkcionalitāti varat izmantot, lai automatizētu kases operācijas ieņēmumiem un izdevumiem, primāro dokumentu veidošanai un saistīto pārskatu drukāšanai. Mazo kases posteņu funkcionalitāte jums ļauj veikt tālāk minētās operācijas.
+
+-   Uzskaitīt pieejamo kases līdzekļu ieņēmumus un izdevumus.
+-   Ģenerēt tipiskās kases formas: kases ieņēmumu orderus, kases izdevumu orderus un reģistrācijas žurnālu kases orderiem.
+-   Kontrolēt maksimālo skaidras naudas summu, kas ir atļauta operācijām ar debitoriem, kreditoriem un tamlīdzīgi.
+-   Sistēmā kases operācijas atainot dažādās valūtās.
+-   Ārvalstu valūtā veikto kases operāciju summas konvertēt uz noklusējuma valūtu, lai varētu veidot uzskaites pārskatus.
+-   Ģenerēt pārskatu **Kases grāmata** un kasiera pārskatu.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
-Pirms varat lietot petty cash funkcionalitāti, ir jāpabeidz šādus priekšnoteikumus:
+Pirms sākat varat izmantot mazo kases posteņu funkcionalitāti, ir jāizpilda tālāk minētie priekšnosacījumi.
 
--   Iestatiet naudas kontus.
--   Iestatītu grāmatošanas metodes naudas.
--   Iestatiet numuru sērijas kases dokumentu numerācijai.
--   Noklusējuma vērtības iestatīšana kases un bankas vadības parametrus.
--   Kases žurnālu nosaukumu iestatīšana vispārējā Virsgrāmatā.
+-   Iestatiet kases kontus.
+-   Iestatiet kases grāmatošanas metodes.
+-   Iestatiet numuru sērijas kases dokumentu numurēšanai.
+-   Iestatiet noklusējuma vērtības kases un bankas vadības parametriem.
+-   Iestatiet kases žurnālu nosaukumus virsgrāmatā.
 
-### <a name="set-up-cash-accounts"></a>Kases konti
+### <a name="set-up-cash-accounts"></a>Iestatīt kases kontus
 
-Lai iestatītu naudas, atveriet **naudas un bankas vadības**&gt;**bankas kontiem**&gt;**Likvīdie**, un ievadiet šādu informāciju.
+Lai iestatītu kontu Kase, atveriet sadaļu **Kases un bankas vadība** &gt; **Bankas konti** &gt; **Kases konti** un ievadiet tālāk norādīto informāciju.
 
-| Lauks                 | apraksts                                                                                                          |
+| Lauks                 | Apraksts                                                                                                          |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------|
-| Kase                  | Ievadiet kodu, kas identificē kases konts (naudas).                                                                    |
-| Vārds, uzvārds                  | Ievadiet naudas konta aprakstu.                                                                             |
-| Valūta              | Atlasiet noklusētā valūtas koda, kas skaidras naudas darījumiem.                                                              |
-| Numuru sēriju grupa | Ja kases dokumentu numerācija nedrīkst atšķirties no numerācijas, kas ir norādīti parametri, ievadiet kodu. |
-| Dažādas valūtas       | Atzīmējiet šo izvēles rūtiņu, lai atļautu valūtās, kas atšķiras no uzskaites valūtā jāgrāmato.                     |
-| Negatīvs atlikums kasē         | Atzīmējiet šo izvēles rūtiņu, lai atļautu negatīvu naudas atlikumu jebkurā valūtā.                                               |
+| Kase                  | Ievadiet kodu, ar ko identificēt šo kases kontu (kasi).                                                                    |
+| Nosaukums                  | Ievadiet kases konta aprakstu.                                                                             |
+| Valūta              | Atlasiet noklusējuma valūtas kodu kases transakcijām.                                                              |
+| Numuru sēriju grupa | Ja kases dokumentu numerācijai ir jāatšķiras no parametros norādītās numerācijas, ievadiet kodu. |
+| Dažādas valūtas       | Atzīmējiet šo izvēles rūtiņu, lai ļautu grāmatot valūtas, kas atšķiras no uzskaites valūtas.                     |
+| Negatīvs atlikums kasē         | Atzīmējiet šo izvēles rūtiņu, lai ļautu izmantot negatīvas kases bilances jebkurā valūtā.                                               |
 
-Izveidot kases atlikumu kontroles noteikumus par kases kontu, izvēlieties kases konts un pēc tam rūtī darbības uz **naudas konta** cilni, jo **atlikuma limitu** grupu, noklikšķiniet uz **atlikuma limitu**. Ievadiet tālāk aprakstīto informāciju.
+Lai kādam kases kontam iestatītu kases bilances kontroles kārtulas, atlasiet kases kontu un pēc tam darbību rūtī, cilnē **Kases konts**, grupā **Atlikuma limits** noklikšķiniet uz **Atlikuma limits**. Ievadiet tālāk aprakstīto informāciju.
 
 <table>
 <colgroup>
@@ -70,50 +73,50 @@ Izveidot kases atlikumu kontroles noteikumus par kases kontu, izvēlieties kases
 <thead>
 <tr class="header">
 <th>Lauks</th>
-<th>apraksts</th>
+<th>Apraksts</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Valūtas tips</td>
-<td>Atlasiet valūtas veidu:
+<td>Atlasiet valūtas tipu no tālāk uzskaitītajiem.
 <ul>
-<li><strong>Norēķinu valūtu</strong> – izmantot pamata uzņēmuma valūtas kods.</li>
-<li><strong>Norādītās valūtas</strong> – lietojiet valūtas kodu, kas atšķiras no pamata uzņēmuma valūtas kods.</li>
+<li><strong>Uzskaites valūta</strong> — izmantot uzņēmuma pamata valūtas kodu.</li>
+<li><strong>Norādītā valūta</strong> — izmantot valūtas kodu, kas atšķiras no uzņēmuma pamata valūtas koda.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Valūta</td>
-<td>Ja esat atlasījis <strong>norādītās valūtas</strong>, <strong>tipu Currency</strong> lauku, atlasiet valūtas kodu. Šis lauks nav pieejams, ja atlasīta <strong>norēķinu valūtu</strong>, <strong>tipu Currency</strong> lauks.</td>
+<td>Ja laukā <strong>Valūtas tips</strong> atlasījāt vērtību <strong>Norādītā valūta</strong>, tad atlasiet kādu valūtas kodu. Šis lauks ir nepieejams, ja laukā <strong>Valūtas tips</strong> atlasījāt vērtību <strong>Uzskaites valūta</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Atlikuma limita veids</td>
-<td>Atlasiet vienu no vērtībām, kas ir pieejama:
+<td>Atlasiet vienu no tālāk aprakstītajām pieejamajām vērtībām.
 <ul>
-<li><strong>Maksimālais</strong> – naudas summa nedrīkstētu pārsniegt <strong>atlikuma limitu</strong> summu naudas kontā (augšējā robeža).</li>
-<li><strong>Minimālais</strong> – naudas summa nedrīkstētu iet zem <strong>atlikuma limitu</strong> summu naudas kontā (apakšā saistīta).</li>
+<li><strong>Maksimums</strong> — šim kases kontam kases atlikums nedrīkst pārsniegt summu <strong>Atlikuma limits</strong> (augstākā vērtība).</li>
+<li><strong>Minimums</strong> — šim kases kontam kases atlikums nedrīkst būt zemāks par summu <strong>Atlikuma limits</strong> (zemākā vērtība).</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Pārbaudīt atlikuma limitu</td>
-<td>Izvēlieties, kas notiek naudas dokumentu apstiprināšanas procesa laikā, ja <strong>atlikuma limits</strong> summa naudas kontā ir pārsniegts:
+<td>No nākamajām opcijām atlasiet, kas kases dokumentiem notiek apstiprināšanas procesa laikā, ja šim kases kontam tiek pārsniegta summa <strong>Atlikuma limits</strong>.
 <ul>
-<li><strong>Pieņemt</strong> – ierobežojums var tikt pārsniegts.</li>
-<li><strong>Brīdinājums</strong> -ierobežojums var tikt pārsniegts, bet lietotājs saņem brīdinājumu. Kases dokuments ir apstiprināts vai apstiprināta.</li>
-<li><strong>Kļūda</strong> – nevar tikt pārsniegts. Lietotājs saņem kļūdas ziņojumu un kases dokumentu nav apstiprināt vai apstiprināt.</li>
+<li><strong>Pieņemt</strong> — limits var tikt pārsniegts.</li>
+<li><strong>Brīdinājums</strong> — limits var tikt pārsniegts, bet lietotājam tiek parādīts brīdinājuma ziņojums. Kases dokuments tiek ratificēts vai apstiprināts.</li>
+<li><strong>Kļūda</strong> — limits nevar tikt pārsniegts. Lietotājs saņem kļūdas ziņojumu un kases dokuments netiek ratificēts vai apstiprināts.</li>
 </ul>
-Papildinformāciju par naudas dokumentu apstiprināšanas procesu, skatiet &quot;skaidras naudas darījuma apstiprinājumu un grāmatošanas&quot; sadaļu šajā tēmā.</td>
+Papildinformāciju par kases dokumentu apstiprināšanas procesu skatiet tālāk šīs tēmas sadaļā &quot;Kases transakciju apstiprināšana un grāmatošana&quot;.</td>
 </tr>
 <tr class="odd">
 <td>Atlikuma limits</td>
-<td>Ievadiet ierobežojumu naudas konta atlikumu. Summa ir valūtā, kuru jūs norādījāt.</td>
+<td>Ievadiet limitu kases kontu atlikumam. Šai summai ir jābūt jūsu norādītajā valūtā.</td>
 </tr>
 </tbody>
 </table>
 
-### <a name="set-up-cash-posting-profiles"></a>Kases grāmatošanas profilu iestatīšana
+### <a name="set-up-cash-posting-profiles"></a>Iestatīt kases grāmatošanas metodes
 
-Kases grāmatošanas metodes nosaka grāmatojumiem Virsgrāmatā. Lai iestatītu grāmatošanas metodes naudas, dodieties uz **naudas****un bankas vadības**&gt;**Setup**&gt;**kases grāmatošanas metodes**, un atlasiet vai izveidojiet grāmatošanas metodi. Ievadiet tālāk aprakstīto informāciju.
+Kases grāmatošanas metodes definē grāmatojumus virsgrāmatā. Lai iestatītu kases grāmatošanas metodi, dodieties uz **Kases** **un bankas pārvaldība** &gt; **Iestatīšana** &gt; **Kases grāmatošanas metodes** un atlasiet vai izveidojiet grāmatošanas metodi. Ievadiet tālāk aprakstīto informāciju.
 
 <table>
 <colgroup>
@@ -123,36 +126,36 @@ Kases grāmatošanas metodes nosaka grāmatojumiem Virsgrāmatā. Lai iestatītu
 <thead>
 <tr class="header">
 <th>Lauks</th>
-<th>apraksts</th>
+<th>Apraksts</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Derīgs</td>
-<td>Norādiet, vai grāmatošanas metode tiek pielietota īpaša naudas kontu vai visi konti:
+<td>Atlasiet, vai grāmatošanas metode attiecas uz konkrētu kases kontu vai uz visiem kases kontiem.
 <ul>
-<li><strong>Galda</strong> – ja kases konts rindu grāmatošanas profilu, ka līnija tiek izmantots naudas transakciju grāmatošanai.</li>
-<li><strong>Visas</strong> – nav naudas konta grāmatošanas profilu rindā ir.</li>
+<li><strong>Tabula</strong> — ja kases kontam pastāv kāda grāmatošanas metodes rinda, tad kases transakciju grāmatošanai tiek lietota šī rinda.</li>
+<li><strong>Visi</strong> — šim kases kontam nav grāmatošanas metodes rindas.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Kase</td>
-<td>Ja esat atlasījis <strong>tabulas</strong>, <strong>derīgs</strong> lauku, norādiet naudas kontu. Šis lauks paliek tukšs, ja esat atlasījis <strong>visiem</strong>, <strong>derīgs</strong> lauks.</td>
+<td>Ja laukā <strong>Derīgs</strong> atlasījāt vērtību <strong>Tabula</strong>, norādiet kases kontu. Šis lauks paliek tukšs, ja laukā <strong>Derīgs</strong> atlasījāt vērtību <strong>Visi</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Virsgrāmatas konts</td>
-<td>Ievadiet Virsgrāmatas kontu, lai izmantotu kā kopsavilkuma konts kases kontam skaitu.</td>
+<td>Ievadiet numuru virsgrāmatai, kuru šim kases kontam lietot ka summas kontu.</td>
 </tr>
 </tbody>
 </table>
 
-### <a name="set-up-number-sequences-for-cash-documents"></a>Iestatiet numuru sērijas kases dokumenti
+### <a name="set-up-number-sequences-for-cash-documents"></a>Iestatīt numuru sērijas kases dokumentiem
 
-Iestatīt numuru sērijas kases dokumenti, dodieties uz **naudas un bankas vadības**&gt;**uzstādīšanas**&gt;**skaidras un bezskaidras naudas pārvaldības parametri**. Par **numuru sēriju** cilnes, norādiet numuru sērijas kodus **kases ieņēmumu orderi**, **kases izdevumu orderi**, **kases korekcijas dokuments**, un **valūtas pārrēķins** dokumentus, un par **kases atskaites numurs**.
+Lai iestatītu numuru sērijas kases dokumentiem, dodieties uz **Kases un bankas vadība** &gt; **Iestatīšana** &gt; **Kases un bankas vadības parametri**. Cilnē **Numuru sērija** norādiet numuru sēriju kodus dokumentiem **Kases ieņēmumu orderi**, **Kases izdevumu orderi**, **Kases storno dokuments** un **Valūtas pārrēķins**, un vienumam **Kases pārskata numurs**.
 
-### <a name="set-up-default-values-for-cash-and-bank-management-parameters"></a>Noklusējuma vērtības iestatīšana kases un bankas vadības parametri
+### <a name="set-up-default-values-for-cash-and-bank-management-parameters"></a>Iestatīt noklusējuma vērtības kases un bankas vadības parametriem
 
-Lai iestatītu noklusētās vērtības, naudas un bankas vadības parametrus petty cash funkcionalitāti, dodieties uz **naudas un bankas vadības**&gt;**Setup**&gt;**naudas un bankas vadības parametrus**. Par **naudas** cilni, ievadiet tālāk minēto informāciju.
+Lai iestatītu noklusējuma vērtības kases un bankas vadības parametriem mazo kases posteņu funkcionalitātei, dodieties uz **Kases un bankas vadība** &gt; **Iestatīšana** &gt; **Kases un bankas vadības parametri**. Cilnē **Kase** ievadiet tālāk norādīto informāciju.
 
 <table>
 <colgroup>
@@ -162,70 +165,70 @@ Lai iestatītu noklusētās vērtības, naudas un bankas vadības parametrus pet
 <thead>
 <tr class="header">
 <th>Lauks</th>
-<th>apraksts</th>
+<th>Apraksts</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Kase</td>
-<td>Atlasiet noklusēto kases konts žurnālos.</td>
+<td>Atlasiet noklusējuma kases kontu žurnālos.</td>
 </tr>
 <tr class="even">
 <td>Kases grāmatošana</td>
-<td>Ievadiet grāmatošanas metodi, kas jālieto, ja nav citu grāmatošanas metodi, nav norādīts noklusējuma naudas.</td>
+<td>Ievadiet noklusējuma kases grāmatošanas metodi, kas tiek lietota, ja nav norādīta neviena cita grāmatošanas metode.</td>
 </tr>
 <tr class="odd">
 <td>Dokumentu numuru kontrole</td>
-<td>Izvēlieties, kas notiek, ja dublikātu numuri atrodami kases dokumenta numurs pārbaudes laikā:
+<td>Atlasiet, kas notiek, ja kases dokumenta pārbaudes laika tiek konstatēti numuru dublikāti.
 <ul>
 <li>Neatļaut vienādus dokumentu numurus</li>
-<li>Finanšu gada laikā noraidīt kopijas</li>
+<li>Neatļaut kopijas finanšu gada ietvaros</li>
 <li>Atļaut vienādus dokumentu numurus</li>
 <li>Brīdināt dublēšanās gadījumā</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Pārbaudīt operāciju limitu</td>
-<td>Norādīt, kas notiek, ja tiek pārsniegts operācijas ar counteragents:
+<td>Norādiet, kas notiek, ja tiek pārsniegts operācijām ar kontrahentiem noteiktais limits.
 <ul>
-<li><strong>Pieņemt</strong> – ierobežojums var tikt pārsniegts.</li>
-<li><strong>Brīdinājums</strong> -ierobežojums var tikt pārsniegts, bet lietotājs saņem brīdinājumu. Šī operācija tiek grāmatota.</li>
-<li><strong>Kļūda</strong> – nevar tikt pārsniegts. Lietotājs saņem kļūdas ziņojumu, un darbības nav grāmatotas.</li>
+<li><strong>Pieņemt</strong> — limits var tikt pārsniegts.</li>
+<li><strong>Brīdinājums</strong> — limits var tikt pārsniegts, bet lietotājam tiek parādīts brīdinājuma ziņojums. Šī operācija tiek grāmatota.</li>
+<li><strong>Kļūda</strong> — limits nevar tikt pārsniegts. Lietotājs saņem kļūdas ziņojumu, un operācija netiek grāmatota.</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Pārbaudes metode</td>
-<td>Atlasiet apstiprināšanas metode, ko lieto, lai kontroles pārsniedzis limitu summas operācijām:
+<td>Atlasiet pārbaudes metodi, kas tiek lietota, lai operācijām kontrolētu pārsniegšanas limitu summas.
 <ul>
-<li><strong>Operācija</strong> -apstiprināšana tiek veikta, vienai darbībai</li>
-<li><strong>Līguma</strong> -validācija tiek darīts katrā darbībā, kas ir noteikts līgums ar Kontrahentu.</li>
+<li><strong>Operācija</strong> — pārbaude tiek veikta katrai transakcijai</li>
+<li><strong>Līgums</strong> — pārbaude tiek veikta katrai transakcijai, kam ir norādīts līgums ar kontrahentu.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Operāciju limits</td>
-<td>Ievadiet maksimālo summu, kas ir atļauta operācijām ar counteragents skaidrā naudā.</td>
+<td>Ievadiet maksimālo summu, kas kasē ir atļauta operācijām ar kontrahentiem.</td>
 </tr>
 <tr class="odd">
 <td>Grāmatošana agrākā datumā</td>
-<td>Atzīmējiet šo izvēles rūtiņu, lai iespējotu naudas darījumi jāiegrāmato pirms kases darbību pēdējo datumu.</td>
+<td>Atzīmējiet šo izvēles rūtiņu, lai iespējotu kases transakciju grāmatošanu pirms kases transakcijas pēdējā datuma.</td>
 </tr>
 <tr class="even">
 <td>Dimensijas</td>
-<td>Ievadiet dimensijas <strong>nodaļas kods</strong>, <strong>analītiskais kods</strong>, un <strong>mērķa kods</strong> laukus. Drukas formā kases dokumentiem atspoguļos šo informāciju.</td>
+<td>Ievadiet dimensijas laukos <strong>Nodaļas kods</strong>, <strong>Analītiskais kods</strong> un <strong>Mērķa kods</strong>. Kases dokumentu drukāšanas forma atainos šo informāciju.</td>
 </tr>
 <tr class="odd">
-<td>Lietot akceptēšanas statusu</td>
-<td>Atzīmējiet šo izvēles rūtiņu, lai lietotu papildu statusu, <strong>Confirmed</strong>, naudas dokumentu apstiprināšanas procesa laikā. (Lai iegūtu papildinformāciju, skatiet &quot;skaidras naudas darījuma apstiprinājumu un grāmatošanas&quot; sadaļu.)</td>
+<td>Lietot ratifikācijas statusu</td>
+<td>Atzīmējiet šo izvēles rūtiņu, lai kases dokumentiem apstiprināšanas procesa laikā lietotu papildu statusu <strong>Ratificēts</strong>. (Papildinformāciju skatiet sadaļā &quot;Kases transakciju apstiprināšana un grāmatošana&quot;.)</td>
 </tr>
 </tbody>
 </table>
 
-### <a name="set-up-cash-journal-names-in-general-ledger"></a>Kases žurnālu nosaukumu iestatīšana vispārējā Virsgrāmatā
+### <a name="set-up-cash-journal-names-in-general-ledger"></a>Iestatīt kases žurnālu nosaukumus virsgrāmatā
 
-Lai veidotu naudas transakcijas grāmatošanas žurnālu, dodieties uz **Virsgrāmatas**&gt;**žurnāla iestatījumu**&gt;**žurnālu nosaukumus**, un izveidot jaunu ierakstu. Šajā **žurnāla tipa** lauku, norādiet **naudas**. Citu noklusējuma žurnāla parametrus definēt, cik jums nepieciešams.
+Lai izveidotu žurnālu kases transakciju grāmatošanai, dodieties uz **Virsgrāmata** &gt; **Žurnāla iestatīšana** &gt; **Žurnālu nosaukumi** un izveidojiet jaunu ierakstu. Laukā **Žurnāla tips** norādiet **Kase**. Definējiet citus nepieciešamos noklusējuma žurnāla parametrus.
 
-## <a name="daily-cash-operations-via-a-slip-journal"></a>Ikdienas naudas operācijām, izmantojot pavadzīmes žurnāls
-Izveidot kases dokumentu izmantojot pavadzīmes žurnāls, dodieties uz **naudas un bankas vadības**&gt;**naudas darījumiem**&gt;**žurnāla**, un izveidot jaunu žurnālu. Rūtī darbības noklikšķiniet uz **līnijas**. Pievienot jaunu rindu, un ievadiet tālāk minēto informāciju.
+## <a name="daily-cash-operations-via-a-slip-journal"></a>Ikdienas kases operācijas, izmantojot orderu žurnālu
+Lai izveidotu kases dokumentu, izmantojot orderu žurnālu, dodieties uz **Kases un bankas vadība** &gt; **Kases transakcijas** &gt; **Orderu žurnāls** un izveidojiet jaunu žurnālu. Darbību rūtī noklikšķiniet uz **Rindas**. Pievienojiet jaunu rindu un ievadiet tālāk norādīto informāciju.
 
 <table>
 <colgroup>
@@ -235,7 +238,7 @@ Izveidot kases dokumentu izmantojot pavadzīmes žurnāls, dodieties uz **naudas
 <thead>
 <tr class="header">
 <th>Lauks</th>
-<th>apraksts</th>
+<th>Apraksts</th>
 </tr>
 </thead>
 <tbody>
@@ -245,18 +248,18 @@ Izveidot kases dokumentu izmantojot pavadzīmes žurnāls, dodieties uz **naudas
 </tr>
 <tr class="even">
 <td>Konts</td>
-<td>Izvēlieties kases kontu. Pēc noklusējuma, kases konts ir norādīts kases un bankas vadības parametrus.</td>
+<td>Atlasiet kases kontu. Pēc noklusējuma kases konts ir norādīts sadaļā Kases un bankas vadības parametri.</td>
 </tr>
 <tr class="odd">
-<td>apraksts</td>
-<td>Ievadiet paskaidrojošu tekstu darbībai.</td>
+<td>Apraksts</td>
+<td>Ievadiet skaidrojošu tekstu par transakciju.</td>
 </tr>
 <tr class="even">
-<td>Debets Kredīts</td>
-<td>Ievadiet naudas dokumenta summa kādā no šiem laukiem:
+<td>Debetkarte</td>
+<td>Ievadiet kases dokumenta summu vienā no tālāk norādītajiem laukiem.
 <ul>
-<li><strong>Debeta</strong> -šo lauku izmanto, lai reģistrētu kases ieņēmumu un kases ieņēmumu orderis.</li>
-<li><strong>Kredīta</strong> -šo lauku izmanto, lai reģistrētu kases izdevumu un kases izdevumu orderis.</li>
+<li><strong>Debets</strong> — izmantojiet šo lauku, lai reģistrētu kases ieņēmumus un kases ieņēmumu orderi.</li>
+<li><strong>Kredīts</strong> — izmantojiet šo lauku, lai reģistrētu kases izdevumus un kases izdevumu orderi.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -265,102 +268,102 @@ Izveidot kases dokumentu izmantojot pavadzīmes žurnāls, dodieties uz **naudas
 </tr>
 <tr class="even">
 <td>Valūta</td>
-<td>Atlasiet darbības valūtas kods.</td>
+<td>Atlasiet transakcijas valūtas kodu.</td>
 </tr>
 <tr class="odd">
 <td>Dokuments</td>
-<td>Šis lauks tiek aizpildīts automātiski, pamatojoties uz žurnāla iestatījumiem.</td>
+<td>Šis lauks tiek aizpildīts automātiski, pamatojoties uz žurnāla iestatīšanu.</td>
 </tr>
 <tr class="even">
 <td>Pasūtījuma numurs</td>
-<td>Ja nav citu numuru sērija tiek iestatīta par kases kontu, šis lauks tiek aizpildīts automātiski, pamatojoties uz numuru sēriju, kas norādīta formā Parametri. Pasūtījuma numuru šajā laukā var ievadīt manuāli, cik jums nepieciešams. Lai novērstu inconsistence, naudas dokumentu numerācija, piemēro šādu vadīklu: kases dokumentu ar agrāku datumu operāciju skaits nevar būt lielāks nekā naudas dokumentu, kurā ir vēlāk operāciju skaits. Ja jums nav nepieciešama šo vadīklu, atlasiet <strong>norīkošanu uz agrāku datumu</strong> izvēles rūtiņu naudas un bankas vadības parametrus.</td>
+<td>Ja šim kases kontam nav norādīta neviena cita numuru sērija, šis lauks tiek aizpildīts automātiski, pamatojoties uz parametros norādīto numuru sēriju. Ja nepieciešams, šajā lauka pasūtījuma numuru varat ievadīt manuāli. Lai nepieļautu kases dokumentu numerācijas nesakritības, tiek lietota šāda kontrole: kases dokumentam, kura operācijas datums ir agrāks, numurs nevar būt lielāks par numuru tādam kases dokumentam, kura operācijas datums ir vēlāks. Ja jums šāda kontrole nav nepieciešama, tad kases un bankas vadības parametros atzīmējiet izvēles rūtiņu <strong>Grāmatošana agrākā datumā</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Apstiprināšanas statuss</td>
-<td>Pirmās darbības statuss ir <strong>nav</strong>. Meklējiet informāciju par to, kā iestatīt darbības statusu, &quot;skaidras naudas darījuma apstiprinājumu un grāmatošanas&quot; sadaļu.</td>
+<td>Pirmās transakcijas statuss ir <strong>Nav</strong>. Papildinformāciju par transakcijas statusa iestatīšanu skatiet sadaļā &quot;Kases transakciju apstiprināšana un grāmatošana&quot;.</td>
 </tr>
 <tr class="even">
-<td>Dokumenta tips </td>
-<td>Šī lauka <strong>skaidras naudas pasūtījums</strong> tab tiek aizpildīts automātiski, pamatojoties uz kases dokumentu ievadīto summu:
+<td>Dokumenta tips</td>
+<td>Lauks cilnē <strong>Kases orderis</strong> tiek automātiski aizpildīts tālāk aprakstītajā veidā, pamatojoties uz summu, kuru ievadījāt šim kases dokumentam.
 <ul>
-<li><strong>Kases ieņēmumu orderis</strong> – šī vērtība tiek izmantota, ja ievadītā summa <strong>debeta</strong> lauku kases kontam.</li>
-<li><strong>Kases izdevumu orderis</strong> – šī vērtība tiek izmantota, ja ievadītā summa <strong>kredīta</strong> lauku kases konts</li>
-<li><strong>Korekcijas</strong> – negatīva summa ievadītās <strong>debeta</strong> lauku vai <strong>kredīta</strong> lauku kases kontam.</li>
+<li><strong>Kases ieņēmumu orderis</strong> — šī vērtība tiek lietota, ja kases kontam summu ievadījāt laukā <strong>Debets</strong>.</li>
+<li><strong>Kases izdevumu orderis</strong> — šī vērtība tiek lietota, ja kases kontam summu ievadījāt laukā <strong>Kredīts</strong>.</li>
+<li><strong>Labojums</strong> — kases kontam ievadījāt negatīvu summu laukā <strong>Debets</strong> vai laukā <strong>Kredīts</strong>.</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>PVN grupa</td>
-<td>Norādiet PVN grupu, lai aprēķinātu nodokļus par darbību.</td>
+<td>Norādiet PVN kodu grupu, ko izmantot operācijas nodokļu aprēķināšanai.</td>
 </tr>
 <tr class="even">
 <td>Krājumu PVN grupa</td>
-<td>Norāda krājuma PVN grupu, lai aprēķinātu nodokļus par darbību.</td>
+<td>Norādiet krājumu PVN grupu, ko izmantot operācijas nodokļu aprēķināšanai.</td>
 </tr>
 <tr class="odd">
 <td>Iemesls</td>
-<td>Par <strong>skaidras naudas pasūtījums</strong> cilni, ievadiet tekstu, kas apraksta darījuma priekšmets. Šis teksts tiks drukāta kases ordera ziņošanas forma.</td>
+<td>Cilnē <strong>Kases orderis</strong> ievadiet tekstu, kas apraksta transakcijas priekšmetu. Šis teksts tiks drukāts kases ordera pārskata formā.</td>
 </tr>
 <tr class="even">
 <td>Dokumenta datums</td>
-<td>Ievadiet aprakstu, numurs un datums, primārais dokuments, ko ir iemesls darbībai (piemēram, avansa atskaites, rēķina vai pasūtījuma).</td>
+<td>Ievadiet aprakstu, numuru un datumu primārajam dokumentam, kurš ir transakcijas iemesls (piemēram, avansa pārskati, rēķins vai pasūtījums).</td>
 </tr>
 <tr class="odd">
 <td>Pārstāvja tips</td>
-<td>Šim laukam var būt šādas vērtības:
+<td>Šim laukam var būt tālāk aprakstītās vērtības.
 <ul>
-<li><strong>Darba ņēmējs</strong> - <strong>pārstāvis</strong> uzmeklēšanas satur darbinieku sarakstu, ja <strong>korespondējošais konts</strong> lauks ir iestatīts <strong>grāmatas</strong> vai <strong>bankas</strong>, vai kontrahenta sarakstu ar kontaktpersonām, ja <strong>korespondējošais konts</strong> lauks ir iestatīts <strong>klientu</strong> vai <strong>kreditoru</strong>. Lai iestatītu pārstāvjiem, dodieties uz <strong>pamata</strong>&gt;<strong>Setup</strong>&gt;<strong>kontaktus</strong>&gt;<strong>kontaktpersona</strong>.</li>
-<li><strong>Citas</strong> - <strong>pārstāvis</strong> uzmeklēšanas satur sarakstu ar citiem klientiem. Lai iestatītu uztvērēji, kas neparādās <strong>klientiem</strong> vai <strong>kreditoriem</strong> tabulu, dodieties uz <strong>Virsgrāmatas</strong>&gt;<strong>uztvērēji</strong>. Šis veids ir pieejams tikai Latvija. ( <strong>CSELatvia</strong> konfigurācijas atslēga ir aktivizēta.)</li>
-<li><strong>Piegādātāju</strong> - <strong>pārstāvis</strong> uzmeklēšanas satur sarakstu kreditoriem. Lai iestatītu kreditorus, dodieties uz <strong>kreditoru parādi</strong>&gt;<strong>kreditoriem</strong>.</li>
-<li><strong>Klientu</strong> - <strong>pārstāvis</strong> uzmeklēšanas satur debitoru sarakstu. Lai iestatītu klientiem, dodieties uz <strong>Debitori</strong>&gt;<strong>klientiem</strong>.</li>
+<li><strong>Nodarbinātais</strong> — uzmeklēšanā <strong>Pārstāvis</strong> ir saraksts ar darbiniekiem, ja laukam <strong>Korespondējošais konts</strong> ir iestatīta vērtība <strong>Virsgrāmata</strong> vai <strong>Banka</strong>, vai saraksts ar kontrahenta kontaktpersonām, ja laukam <strong>Korespondējošais konts</strong> ir iestatīta vērtība <strong>Debitors</strong> vai <strong>Kreditors</strong>. Lai iestatītu pārstāvjus, dodieties uz <strong>Pamata</strong> &gt; <strong>Iestatīšana</strong> &gt; <strong>Kontaktpersonas</strong> &gt; <strong>Kontaktpersona</strong>.</li>
+<li><strong>Cits</strong> — uzmeklēšanā <strong>Pārstāvis</strong> ir saraksts ar citiem debitoriem. Lai iestatītu saņēmējus, kas netiek rādīti tabulā <strong>Debitori</strong> vai <strong>Kreditori</strong>, dodieties uz <strong>Virsgrāmata</strong> &gt; <strong>Saņēmēji</strong>. Šis tips ir pieejams tikai Latvijai. (Ir jābūt iespējotai konfigurācijas atslēgai <strong>CSELatvia</strong>.)</li>
+<li><strong>Kreditors</strong> — uzmeklēšanā <strong>Pārstāvis</strong> ir saraksts ar kreditoriem. Lai iestatītu kreditorus, dodieties uz <strong>Parādi kreditoriem</strong> &gt; <strong>Kreditori</strong>.</li>
+<li><strong>Debitors</strong> — uzmeklēšanā <strong>Pārstāvis</strong> ir saraksts ar debitoriem. Lai iestatītu debitorus, dodieties uz <strong>Debitoru parādi</strong> &gt; <strong>Debitori</strong>.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Pārstāvis</td>
-<td>Atlasiet tipu, kuru jūs norādījāt pārstāvis <strong>pārstāvības veidu</strong> lauks.</td>
+<td>Atlasiet pārstāvi, kura tips atbilst laukā <strong>Pārstāvja tips</strong> norādītajam tipam.</td>
 </tr>
 <tr class="odd">
-<td>Darbinieka vārds</td>
-<td>Šis lauks tiek aizpildīts automātiski, pamatojoties uz <strong>korespondējošais konts</strong> un <strong>pārstāvis</strong> laukus. Kases orderi iespiešanas formu atspoguļos šo informāciju.</td>
+<td>Personas vārds</td>
+<td>Šis lauks tiek aizpildīts automātiski, pamatojoties uz laukiem <strong>Korespondējošais konts</strong> un <strong>Pārstāvis</strong>. Kases orderu drukāšanas forma atainos šo informāciju.</td>
 </tr>
 <tr class="even">
 <td>Personas apliecība</td>
-<td>Šis lauks tiek aizpildīts automātiski, pamatojoties uz identitātes kartes dati šai kontaktpersonai (pārstāvis). Ja <strong>korespondējošā konta tips</strong> lauks ir iestatīts <strong>avansa turētāja</strong>, un <strong>korespondējošais konts</strong> ir iestatīts uz darbinieku skaitu, kases ieņēmumu vai izdevumu var izdarīt no vai darbiniekam. Šajā gadījumā <strong>apliecinošs dokuments</strong> lauks tiek aizpildīts automātiski, izmantojot datus par identitātes karti no <strong>darbinieku</strong> tabulu (<strong>personāla uzskaites</strong>&gt;<strong>darbinieku tabulā</strong>).</td>
+<td>Šis lauks tiek aizpildīts automātiski, pamatojoties uz attiecīgās kontaktpersonas (pārstāvja) personas apliecības datiem. Ja laukam <strong>Korespondējošā konta tips</strong> ir iestatīta vērtība <strong>Avansa turētājs</strong> un laukam <strong>Korespondējošais konts</strong> ir iestatīts darbinieka numurs, tad kases ieņēmumus vai izdevumus var veikt no darbinieka vai uz darbinieku. Tādā gadījumā lauks <strong>Personas apliecība</strong> tiek aizpildīts automātiski, izmantojot datus personas apliecībai no tabulas <strong>Darbinieks</strong> (<strong>Darbinieku uzskaite</strong> &gt; <strong>Darbinieku tabula</strong>).</td>
 </tr>
 <tr class="odd">
 <td>Nolūks</td>
-<td>Šajā <strong>mērķim</strong> tabulu, noteikt vienu vai vairākus adresātu kodi darījuma summas. Atlasiet mērķa kods <strong>mērķim</strong> laukam un ievadiet paskaidrojums <strong>darbības tekstu</strong> lauks. Šajā <strong>summu</strong> laukā, ievadiet summu darījuma valūtā. <strong>%</strong> Lauks rāda, kā procentuāla attiecība mērķa summu ar kopējo darījumu summu.</td>
+<td>Tabulā <strong>Nolūks</strong> attiecīgajai transakcijas summai definējiet vienu vai vairākus mērķa kodus. Atlasiet mērķa kodu laukā <strong>Nolūks</strong> un ievadiet skaidrojumu laukā <strong>Transakcijas teksts</strong>. Laukā <strong>Summa</strong> ievadiet summu transakcijas valūtā. Laukā <strong>Procenti</strong> tiek rādīta mērķa summas attiecība pret kopējo transakcijas summu, izteikta procentu veidā.</td>
 </tr>
 <tr class="even">
 <td>Atgādinājums</td>
-<td>Atlikusī summa, kas aprēķināta. Ievērojiet, ka visa darījuma summa jāpiešķir adresāta kodus.</td>
+<td>Atlikusī summa, kas ir aprēķināta. Ņemiet vērā, ka kopējā transakcijas summa ir jāpiešķir mērķa kodiem.</td>
 </tr>
 <tr class="odd">
 <td>Amatpersonas</td>
-<td>Par <strong>ierēdņu</strong> cilnes, norādiet atbildīgo personu vārdus un amatu nosaukumus: direktors, galvenais grāmatvedis un kasieris. <strong>Pozīciju</strong> vērtības nosaka ierēdņu uzstādīšanas <strong>vispārējās</strong> un <strong>grāmatas</strong> cilnēm <strong>amatpersonas</strong> lapas (<strong>pamata</strong>&gt;<strong>Setup</strong>&gt;<strong>kontaktus</strong>&gt;<strong>amatpersonas</strong>).</td>
+<td>Cilnē <strong>Amatpersonas</strong> norādiet atbildīgo personu vārdus, uzvārdus un amatus: Direktors, Galvenais grāmatvedis un Kasieris. Vērtības <strong>Amats</strong> tiek noteiktas pēc amatpersonu iestatīšanas lapas <strong>Amatpersonas</strong> cilnēs <strong>Vispārīgi</strong> un <strong>Virsgrāmata</strong> (<strong>Pamata</strong> &gt; <strong>Iestatīšana</strong> &gt; <strong>Kontaktpersonas</strong> &gt; <strong>Amatpersonas</strong>).</td>
 </tr>
 <tr class="even">
 <td>Priekšapmaksa</td>
-<td>Atzīmējiet šo izvēles rūtiņu, ja darbība ir priekšapmaksa.</td>
+<td>Atzīmējiet šo izvēles rūtiņu, ja transakcija ir priekšapmaksa.</td>
 </tr>
 <tr class="odd">
 <td>Grāmatošanas metode</td>
-<td>Kases konts ievadiet grāmatošanas metodi. Pēc noklusējuma izmanto grāmatošanas metode, kas ir norādīts kases un bankas vadības parametrus.</td>
+<td>Ievadiet grāmatošanas metodi attiecīgajam kases kontam. Pēc noklusējuma tiek lietota grāmatošanas metode, kas ir norādīta sadaļā Kases un bankas vadības parametri.</td>
 </tr>
 <tr class="even">
 <td>Korespondējošo kontu grāmatošanas metode</td>
-<td>Ievadiet atlasītā korespondējošā konta grāmatošanas metodi.</td>
+<td>Ievadiet grāmatošanas metodi atlasītajam korespondējošajam kontam.</td>
 </tr>
 <tr class="odd">
 <td>Kopējā summa</td>
-<td>Šajā <strong>kopsumma</strong> lauku grupā lappuses apakšā, <strong>Reimb</strong> laukā redzama summa, kas aprēķināta par visu naudas atmaksāšanu potzari, kas ievadītas pašreizējā žurnālā, un <strong>Disb</strong> laukā ir norādīta kopējā visas kases izdevumu orderi.</td>
+<td>Lapas apakšā esošajā lauku grupā <strong>Kopējā summa</strong> laukā <strong>Ieņēmumu</strong> tiek rādīta kopsumma, kas ir aprēķināta visiem pašreizējā žurnālā ievadītajiem kases ieņēmumu orderiem, un laukā <strong>Izdevumu</strong> tiek rādīta kopsumma visiem kases izdevumu orderiem.</td>
 </tr>
 </tbody>
 </table>
 
-Lai pārbaudītu žurnāla ievadnes, darbību rūtī noklikšķiniet uz **validēt**.
+Lai pārbaudītu žurnālu ierakstus, darbību rūtī noklikšķiniet uz **Validēt**.
 
-## <a name="daily-cash-operations-via-a-general-journal"></a>Ikdienas naudas operācijām, izmantojot Virsgrāmatas žurnālā
-Izveidot kases darbība, izmantojot Virsgrāmatas žurnālā, dodieties uz **Virsgrāmatas**&gt;**dienasgrāmatas ieraksti**&gt;**v/g žurnālos**, un izveidot jaunu žurnālu. Rūtī darbības noklikšķiniet uz **līnijas**. Pievienot jaunu rindu, un ievadiet tālāk minēto informāciju.
+## <a name="daily-cash-operations-via-a-general-journal"></a>Ikdienas kases operācijas, izmantojot virsgrāmatas žurnālu
+Lai izveidotu kases transakciju, izmantojot virsgrāmatas žurnālu, dodieties uz **Virsgrāmata** &gt; **Žurnāla ieraksti** &gt; **Virsgrāmatas žurnāli** un izveidojiet jaunu žurnālu. Darbību rūtī noklikšķiniet uz **Rindas**. Pievienojiet jaunu rindu un ievadiet tālāk norādīto informāciju.
 
 <table>
 <colgroup>
@@ -370,7 +373,7 @@ Izveidot kases darbība, izmantojot Virsgrāmatas žurnālā, dodieties uz **Vir
 <thead>
 <tr class="header">
 <th>Lauks</th>
-<th>apraksts</th>
+<th>Apraksts</th>
 </tr>
 </thead>
 <tbody>
@@ -380,22 +383,22 @@ Izveidot kases darbība, izmantojot Virsgrāmatas žurnālā, dodieties uz **Vir
 </tr>
 <tr class="even">
 <td>Konta veids</td>
-<td>Atlasiet <strong>Petty cash</strong>.</td>
+<td>Atlasiet vienumu <strong>Mazie kases posteņi</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Konts</td>
-<td>Izvēlieties kases kontu numuru.</td>
+<td>Atlasiet kases konta numuru.</td>
 </tr>
 <tr class="even">
 <td>Darbības teksts</td>
-<td>Ievadiet paskaidrojošu tekstu darbībai.</td>
+<td>Ievadiet skaidrojošu tekstu par transakciju.</td>
 </tr>
 <tr class="odd">
-<td>Debets Kredīts</td>
-<td>Ievadiet naudas dokumenta summa kādā no šiem laukiem:
+<td>Debetkarte</td>
+<td>Ievadiet kases dokumenta summu vienā no tālāk norādītajiem laukiem.
 <ul>
-<li><strong>Debeta</strong> -šo lauku izmanto, lai reģistrētu kases ieņēmumu un kases ieņēmumu orderis.</li>
-<li><strong>Kredīta</strong> -šo lauku izmanto, lai reģistrētu kases izdevumu un kases izdevumu orderis.</li>
+<li><strong>Debets</strong> — izmantojiet šo lauku, lai reģistrētu kases ieņēmumus un kases ieņēmumu orderi.</li>
+<li><strong>Kredīts</strong> — izmantojiet šo lauku, lai reģistrētu kases izdevumus un kases izdevumu orderi.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -404,26 +407,26 @@ Izveidot kases darbība, izmantojot Virsgrāmatas žurnālā, dodieties uz **Vir
 </tr>
 <tr class="odd">
 <td>Valūta</td>
-<td>Atlasiet darbības valūtas kods.</td>
+<td>Atlasiet transakcijas valūtas kodu.</td>
 </tr>
 </tbody>
 </table>
 
-Par **rēķina** tab, varat norādīt grāmatošanas profilu atlasītajam kontam un korespondējošo kontu. Ja reģistrētais darījums ir priekšapmaksa, atlasiet **priekšapmaksas** izvēles rūtiņu **maksājumu** tab. Šajā **pārstāvis** lauka grupa, aizpildiet laukus, kā jūs to darījāt Slip žurnāla rindām, kas jādrukā uz **naudas** atskaite. Lai pārbaudītu žurnāla ievadnes, darbību rūtī noklikšķiniet uz **validēt**.
+Cilnē **Rēķins** varat norādīt grāmatošanas metodes atlasītajam kontam un korespondējošajam kontam. Ja reģistrētā transakcija ir priekšapmaksa, cilnē **Maksājums** atzīmējiet izvēles rūtiņu **Priekšapmaksa**. Lauku grupā **Pārstāvis** aizpildiet laukus tāpat, kā to izdarījāt orderu žurnāla rindās, lai izdrukātu pārskatā **Kase**. Lai pārbaudītu žurnālu ierakstus, darbību rūtī noklikšķiniet uz **Validēt**.
 
-## <a name="cash-transaction-approval-and-posting"></a>Skaidras naudas darījuma apstiprinājumu un grāmatošanas
-Skaidras naudas darījumiem, var piemērot šādus statusus: **neviens**, **Confirmed**, **Approved**, un **noraidīts**. A **izmantot apstiprinātu statusu** parametru par **apstiprinājuma** FastTab no **naudas** cilnē pie **naudas un bankas vadības**&gt;**Setup**&gt;**naudas un bankas vadības parametrus** ļauj aktivizēt divus papildu statusus: **Confirmed** un **noraidīts**. Apstiprinājums ir lietderīgi, ja naudas dokumentus izsniedz un naudas ieņēmumi vai izdevumi tiek sadalīti starp diviem darbiniekiem: grāmatvedis un kasieris. **Atiestatīt statusu** funkcija maina pašreizējās darbības statuss. **Apstiprinātas** kļūst **Confirmed**, un **Confirmed** kļūst **nav**. Kases žurnāla ierakstus var labot tikai tad, ja statuss ir **nav**. Skaidras naudas darījumiem var noraidīt tikai tad, ja darbības statuss ir **Confirmed**. Noraidīja kases dokumenti ir iekļauti **kases dokumentu reģistrācijas žurnālā** atskaiti, bet tie nav atspoguļoti **kases grāmatā** atskaite. Lai apstiprinātu darbību, atlasiet atbilstošo Slip žurnāla rindas un pēc tam noklikšķiniet uz **apstiprinājuma dokumentus**&gt;**Confirm**. Pasūtījuma numurs tiek ģenerēts, pamatojoties uz norādīto numuru sēriju. Darbības statuss tiek mainīts uz **Confirmed**, un var vairs labot žurnāla rindas. Kases konta atlikums paliek nemainīgs. Lai atteiktu kases dokumentu, noklikšķiniet uz **apstiprinājuma dokumentus**&gt;**noraidīt**. Šī opcija ir pieejama tikai dokumentiem, kuros ir **Confirmed** statusu. Lai apstiprinātu darbību, atlasiet atbilstošo Slip žurnāla rindas un pēc tam noklikšķiniet uz **apstiprinājuma dokumentus**&gt;**apstiprināt**. **Approved** statuss norāda, ka naudas līdzekļi tiek saņemti vai iztērējuši. Naudas summa tiek mainīta. Kases darbība var grāmatot. Lai atceltu **apstiprināts** statusu un atiestatīšanas statusa līdz **neviens**, noklikšķiniet uz **dokumentus apstiprinājuma**&gt;**Atiestatīt statusu**. Tikai apstiprināti kases darbības var grāmatot. Lai grāmatotu žurnālu, noklikšķiniet uz **pēc**&gt;**pēc**.
+## <a name="cash-transaction-approval-and-posting"></a>Kases transakciju apstiprināšana un grāmatošana
+Kases transakcijām var lietot šādus statusus: **Nav**, **Ratificēts**, **Apstiprināts** un **Noraidīts**. Parametrs **Lietot ratifikācijas statusu** cilnes **Kase** kopsavilkuma cilnē **Apstiprinājums**, kurš atrodas sadaļā **Kases un bankas vadība** &gt; **Iestatīšana** &gt; **Kases un bankas vadības parametri**, jums ļauj aktivizēt divus papildu statusus: **Ratificēts** un **Noraidīts**. Ratifikācija ir piemērota, kad tiek izdoti kases dokumenti un kad kases ieņēmumus vai izdevumus koplieto divi darbinieki: grāmatvedis un kasieris. Funkcija **Atiestatīt statusu** maina pašreizējās transakcijas statusu. **Apstiprināts** kļūst par **Ratificēts**, un **Ratificēts** kļūst par **Nav**. Kases žurnāla ierakstus var rediģēt tikai tad, kad to statuss ir **Nav**. Kases transakcijas var noraidīt tikai tad, kad to transakcijas statuss ir **Ratificēts**. Noraidītie kases dokumenti ir iekļauti pārskatā **Kases dokumentu reģistrācijas žurnāls**, bet tie netiek atspoguļoti pārskatā **Kases grāmata**. Lai ratificētu kādu transakciju, atlasiet atbilstošo orderu žurnāla rindu un pēc tam noklikšķiniet uz **Dokumentu apstiprinājums** &gt; **Ratificēt**. Tiek ģenerēts kārtas numurs, pamatojoties uz norādīto numuru sēriju. Transakcijas statuss mainās uz **Ratificēts**, un jūs vairs nevarat rediģēt šo žurnāla rindu. Kases konta atlikums nemainās. Lai noraidītu kādu kases dokumentu, noklikšķiniet uz **Dokumentu apstiprinājums** &gt; **Noraidīt**. Šī opcija ir pieejama tikai dokumentiem, kuru statuss ir **Ratificēts**. Lai apstiprinātu kādu transakciju, atlasiet atbilstošo orderu žurnāla rindu un pēc tam noklikšķiniet uz **Dokumentu apstiprinājums** &gt; **Apstiprināt**. Statuss **Apstiprināts** norāda, ka kases līdzekļi ir saņemti vai iztērēti. Kases atlikums ir mainījies. Kases transakciju var grāmatot. Lai atceltu statusu **Apstiprināts** un atiestatītu uz statusu **Nav**, noklikšķiniet uz **Dokumentu apstiprinājums** &gt; **Atiestatīt statusu**. Grāmatot var tikai apstiprinātas kases transakcijas. Lai grāmatotu žurnālu, noklikšķiniet uz **Grāmatot** &gt; **Grāmatot**.
 
 ## <a name="print-a-cash-order"></a>Drukāt kases orderi
-Drukāt kases orderi, atlasiet Slip žurnāla rindas un pēc tam rūtī darbības noklikšķiniet uz **drukāt**&gt;**naudas pasūtījumu pārskats**. Sistēma ģenerē iespiešanas formu kases ieņēmumu orderis vai kases izdevumu orderis, atkarībā no tā, vai summa ir ievadīta **debeta** lauka vai **kredīta** laukā atlasītajai rindai:
+Lai drukātu kases orderi, atlasiet orderu žurnāla rindu un pēc tam darbību rūtī noklikšķiniet uz **Drukāt** &gt; **Kases ordera pārskats**. Sistēma ģenerē drukāšanas formu kases ieņēmumu orderim vai kases izdevumu orderim, ņemot vērā to, vai atlasītajai rindai summa tika ievadīta laukā **Debets** vai laukā **Kredīts**.
 
--   Ja tur ir summa **debeta** lauks: kases ieņēmumu orderis
--   Ja tur ir summa **kredīta** lauks: kases izdevumu orderis
+-   Ja summa ir norādīta laukā **Debets**: Kases ieņēmumu orderis
+-   Ja summa ir norādīta laukā **Kredīts**: Kases izdevumu orderis
 
-Žurnāla rindām, kam ir slīdēšanas **Confirmed**, **apstiprināts**, vai **noraidīts** statusu var izdrukāt. Var arī drukāt naudas pasūtījumu dokumentus pie **kases un bankas vadības**&gt;**Inquires un atskaites**&gt;**skaidras naudas pasūtījums**.
+Drukāt var orderu žurnāla rindas, kuru statuss ir **Ratificēts**, **Apstiprināts** vai **Noraidīts**. Kases orderu dokumentus varat drukāt arī sadaļā **Kases un bankas vadība** &gt; **Pieprasījumi un pārskati** &gt; **Kases orderis**.
 
 ## <a name="periodic-tasks"></a>Periodiskie uzdevumi
-Šādus uzdevumus var veikt **naudas un bankas vadības**&gt;**periodiskos uzdevumus**.
+Tālāk norādītos uzdevumus var izpildīt šeit: **Kases un bankas vadība** &gt; **Periodiskie uzdevumi**.
 
 <table>
 <colgroup>
@@ -432,46 +435,48 @@ Drukāt kases orderi, atlasiet Slip žurnāla rindas un pēc tam rūtī darbība
 </colgroup>
 <thead>
 <tr class="header">
-<th>Periodisks uzdevums</th>
-<th>apraksts</th>
+<th>Periodiskais uzdevums</th>
+<th>Apraksts</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Pārbaudīt atlikuma limitu</td>
-<td>Pārbaudiet atlasīto naudas konta bilanci, norādītajā datumā un parāda rezultātu informāciju ziņojumā. Bilances aprēķināšanai var saskaitīt tikai apstiprinātas darbības. Darbības, kas atzīmētas kā <strong>Payroll</strong> netiek uzskatīts.</td>
+<td>Pārbaudiet atlikumu atlasītajam kases kontam noteiktajā datumā un parādiet rezultātu informatīvā ziņojumā. Atlikuma aprēķina var skaitīt tikai apstiprinātās transakcijas. Netiek ņemtas vērā transakcijas, kuras ir atzīmētas kā <strong>Algām</strong>.</td>
 </tr>
 <tr class="even">
-<td>Skaidras naudas atlikuma pārrēķins</td>
-<td>Izmantojiet šo uzdevumu, lai pārliecinātos, vai kases kontiem Virsgrāmatas bilanci atbilstoši kases atlikumu.</td>
+<td>Kases atlikuma pārrēķins</td>
+<td>Izmantojiet šo uzdevumu, lai pārliecinātos, ka virsgrāmatas bilances kases kontiem atbilst kases atlikumam.</td>
 </tr>
 <tr class="odd">
-<td>Kases atskaites izveidi (Polija)</td>
-<td>Izveidot <strong>naudas</strong> atskaite. <strong>Naudas</strong> atskaites numurs tiek ģenerēts, pamatojoties uz numuru sēriju, kas iestatīta <strong>protokola numurs</strong>. Dialoga lodziņā uzdevuma veikšanai, jo <strong>līdz</strong>, norādīt pēdējo datumu, kurā naudas darījumos jāuzskata par <strong>naudas</strong> atskaite. Izmantojiet <strong>filtra</strong> darboties <strong>iekļaujamos ierakstus</strong> cilni, lai norādītu papildu kritērijus, lai ierobežotu atlasi, skaidras naudas darījumu. Šajos kritērijos var ietvert naudas kontu numuri un valūtu kodi. Šajā <strong>veido</strong> lauku, atlasiet lietotāju, kurš ir atbildīgs par atskaites sastādīšanā. Skatīt <strong>naudas</strong> atskaiti, kas izveidota, izmantojiet <strong>kases atskaites</strong> pogu <strong>Likvīdie</strong> lapā.</td>
+<td>Kases pārskata izveidošana (tikai Polijai)</td>
+<td>Izveidojiet pārskatu <strong>Kase</strong>. Pārskata <strong>Kase</strong> numurs tiek ģenerēts, pamatojoties uz numuru sēriju, ko iestatījāt vienumam <strong>Pārskata numurs</strong>. Uzdevumam paredzētajā dialoglodziņā vienumam <strong>Beigu datums</strong> norādiet pēdējo datumu, kurā kases transakcijas ir jāskaita pārskatam <strong>Kase</strong>. Izmantojiet funkciju <strong>Filtrēt</strong> cilnē <strong>Iekļaujamie ieraksti</strong>, lai norādītu papildu kritērijus kases transakciju atlases ierobežošanai. Šie kritēriji var iekļaut kases kontu numurus un valūtu kodus. Laukā <strong>Izveidoja</strong> atlasiet lietotāju, kurs ir atbildīgs par pārskata izveidošanu. Lai skatītu izveidoto pārskatu <strong>Kase</strong>, izmantojiet pogu <strong>Kases pārskati</strong> lapā <strong>Kases konti</strong>.</td>
 </tr>
 <tr class="even">
-<td>Kase - valūtas korekcijas FIFO, LIFO (Polija)</td>
-<td>Aprēķinātu valūtas pārrēķinu par poļu standarti. Lietošanas <strong>filtra</strong> darboties <strong>iekļaujamos ierakstus</strong> cilni, lai precizētu kases kontu par uzdevuma palaišanai. Atlasiet <strong>pārrēķinu</strong> izvēles rūtiņu darīt pilnu pārrēķināšanas korekcijas valūtas kursa starpību par visiem atvērtiem periodiem. Lūk, kā valūtas pārrēķins tiek aprēķināta kad pirmais iekšā, pirmais ārā (FIFO) un pēdējais iekšā, pirmais ārā (LIFO) metodes tiek izmantotas:
+<td>Kase — Valūtas pārrēķins FIFO un LIFO (tikai Polijai)</td>
+<td>Aprēķiniet valūtas pārrēķinu pēc Polijas standartiem. Izmantojiet funkciju <strong>Filtrēt</strong> cilnē <strong>Iekļaujamie ieraksti</strong>, lai norādītu kases kontu, kuram izpildīt šo uzdevumu. Atzīmējiet izvēles rūtiņu <strong>Pārrēķins</strong>, lai izpildītu pilnu valūtas maiņas starpības pārrēķinu visiem atvērtajiem periodiem. Tālāk ir aprakstīts, kā notiek valūtas pārrēķināšana, ja tiek izmantota metode “pirmais iekšā, pirmais ārā” (first in, first out – FIFO) un metode “pēdējais iekšā, pirmais ārā” (last in, first out — LIFO).
 <ul>
-<li><strong>FIFO metodi</strong> – sistēma meklē izdevumu darbību, kas ir iepriekšējās darbības datums (mazāku pasūtījuma numurs) un norēķinās ar ieejas plūsmas darbība, kas ir iepriekšējās darbības datums (mazāku pasūtījuma numurs).</li>
-<li><strong>LIFO metodi</strong> – sistēma meklē izdevumu darbību, kas ir vēlāk darbību (lielāks kārtas numuru) un norēķinās ar ieejas plūsmas darbība, kas ir vēlāk darbību (lielāks kārtas numuru).</li>
+<li><strong>FIFO metode</strong> — sistēma meklē izdevumu transakciju, kurai ir agrāks transakcijas datums (mazāks kārtas numurs), un to nosedz ar ieejas plūsmas transakciju, kurai ir agrāks transakcijas datums (mazāks kārtas numurs).</li>
+<li><strong>LIFO metode</strong> — sistēma meklē izdevumu transakciju, kurai ir vēlāks transakcijas datums (lielāks kārtas numurs), un to nosedz ar ieejas plūsmas transakciju, kurai ir vēlāks transakcijas datums (lielāks kārtas numurs).</li>
 </ul>
-Nosegtā summa tiek atspoguļots <strong>norēķinās valūtā</strong> lauku <strong>naudas darījumu</strong> lapā. Ja korekcijas valūtas kursa starpību summa tiek atspoguļots <strong>valūtas pārrēķina summa</strong> laukā un darbībā, kuras <strong>valūtas kursa starpība</strong> dokumenta tipam tiek izveidots <strong>naudas darījumu</strong> tabulā. Iestata Virsgrāmatas kontus darbībām, peļņa/zaudējumi <strong>valūtas</strong> tabulu (<strong>kurss finansiālu peļņu</strong> un <strong>kurss finansiālus zaudējumus</strong>).</td>
+Nosegtā summa tiek rādīta laukā <strong>Nosegts valūtā</strong>, lapā <strong>Kases transakcija</strong>. Ja pastāv valūtas pārrēķina starpība, šī summa tiek rādīta laukā <strong>Valūtas pārrēķina summa</strong>, un tabulā <strong>Kases transakcija</strong> tiek ģenerēta transakcija ar dokumenta tipu <strong>Valūtas kursu starpība</strong>. Virsgrāmatas konti peļņas/zaudējumu transakcijām ir iestatīti tabulā <strong>Valūta</strong> (<strong>Peļņa no valūtas kursa svārstībām</strong> un <strong>Zaudējumi no valūtas kursa svārstībām</strong>).</td>
 </tr>
 <tr class="odd">
 <td>Ārvalstu valūtas pārvērtēšana — Kase</td>
-<td>Izmantojiet šo uzdevumu ir pietiekama bilance noklusētajā valūtā pārskata datumā, kad ir ievadīti operācijas ārvalstu valūtās. Lietošanas <strong>filtra</strong> darboties <strong>iekļaujamos ierakstus</strong> cilni, lai precizētu kases kontu par uzdevuma palaišanai. Dialoglodziņā uzdevuma veikšanai izmantot <strong>no valūtas</strong> un <strong>uz valūtas</strong> laukus, lai norādītu darījuma valūtā. Sistēma tiek salīdzinātas summa valūtā, kas tika pārveidots, izmantojot valūtas maiņas kursu atlasītajā datumā ar summu sistēmas pamatvalūtā. Starpība starp abām summām (izņemot iepriekšējās valūtas pārrēķins) tiek aprēķināts valūtas pārrēķins. Šis uzdevums izveido apstiprinātā kases darbība no <strong>valūtas pārrēķins</strong> tips. Virsgrāmatas darbībai ir izveidots, izmantojot Virsgrāmatas konta par naudas un Virsgrāmatas kontā, kas norādīts <strong>nerealizētā peļņa</strong> vai <strong>Nerealizētie zaudējumi</strong>, <strong>valūtas</strong> tabulā.</td>
+<td>Izmantojiet šo uzdevumu, lai izmantotu atbilstošu bilanci noklusējuma valūtā pārskata datumā, kad operācijas tiek ievadītas ārvalstu valūtās. Izmantojiet funkciju <strong>Filtrēt</strong> cilnē <strong>Iekļaujamie ieraksti</strong>, lai norādītu kases kontu, kuram izpildīt šo uzdevumu. Šim uzdevumam paredzētajā dialoglodziņā izmantojiet laukus <strong>No valūtas</strong> un <strong>Uz valūtu</strong>, lai norādītu transakciju valūtas. Summu konvertētajā valūtā sistēma salīdzina ar summu noklusējuma valūtā, izmantojot maiņas kursu atlasītajā datumā. Šo abu summu starpība (izņemot iepriekšējo valūtas pārrēķinu) ir aprēķinātais valūtas pārrēķins. Šis uzdevums izveido apstiprinātu kases transakciju ar tipu <strong>Valūtas pārrēķins</strong>. Virsgrāmatas transakcija tiek veidota, izmantojot virsgrāmatas kontu kasei un virsgrāmatas kontu, kurš ir norādīts tabulas <strong>Valūta</strong> vienumā <strong>Nerealizētā peļņa</strong> vai <strong>Nerealizētie zaudējumi</strong>.</td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="inquiries-and-reports"></a>Pieprasījumi un pārskati
-| Aptauju vai pārskatu                             | apraksts                                                                                                                                                                                                                     |
+| Pieprasījums vai pārskats                             | Apraksts                                                                                                                                                                                                                     |
 |-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Kases darbību skatīt                        | Slip žurnāla rindas, izmantojiet **izziņas** pogu darbību rūtī skatiet Virsgrāmatas darbības, kases atlikumu un citu informāciju.                                                                                  |
-| Kases darbība                              | Dodieties uz **naudas un bankas vadības**&gt;**uzziņās un pārskatos**&gt;**naudas darījumiem** lasiet skaidrās naudas darījumos. Izmantojiet **filtra** funkciju, lai norādītu papildu kritērijus, lai ierobežotu atlasi, skaidras naudas darījumu. |
-| (Igaunija, Krievija) reģistrācijas žurnāls | Ziņojums pie **naudas un bankas vadības**&gt;**uzziņās un pārskatos**&gt;**reģistrācijas žurnāla** atspoguļo visas naudas atmaksu un kases izdevumu orderi, kas ir izsniegtas.                                   |
-| Kases grāmata (lai Latvija, Lietuva, Krievija)     | Ziņojums pie **naudas un bankas vadības**&gt;**uzziņās un pārskatos**&gt;**kases grāmatas pārskats** atspoguļo faktisko naudas fondu pārvietošanu (ieņēmumi un izdevumi).                                                            |
+| Kases transakciju skats                        | Orderu žurnāla rindai darbību rūtī izmantojiet pogu **Pieprasījumi**, lai skatītu virsgrāmatas transakcijas, kases atlikumu un citu informāciju                                                                                  |
+| Kases transakcija                              | Lai skatītu kases transakcijas, dodieties uz **Kases un bankas vadība** &gt; **Pieprasījumi un pārskati** &gt; **Kases transakcijas**. Izmantojiet funkciju **Filtrēt**, lai norādītu papildu kritērijus kases transakciju atlases ierobežošanai. |
+| Reģistrācijas žurnāls (Igaunijai, Krievijai) | Pārskats sadaļā **Kases un bankas vadība** &gt; **Pieprasījumi un pārskati** &gt; **Reģistrācijas žurnāls** ataino visus izdotos kases ienākumu un kases izdevumu orderus.                                   |
+| Kases grāmata (Latvijai, Lietuvai, Krievijai)     | Pārskats sadaļā **Kases un bankas vadība** &gt; **Pieprasījumi un pārskati** &gt; **Kases grāmatas žurnāls** ataino faktiskās kases līdzekļu kustības (ieņēmumus un izdevumus).                                                            |
+
+
 
 
 

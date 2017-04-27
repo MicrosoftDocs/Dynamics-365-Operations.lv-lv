@@ -1,6 +1,6 @@
 ---
-title: "Budžeta plānošanas pamatojuma dokumenti"
-description: "Attaisnojuma dokumenti sniedz stāstījuma tiem lūdz paskaidrot, kāpēc ir nepieciešams noteikts budžets budžets."
+title: "Budžeta plānošanas attaisnojuma dokumenti"
+description: "Attaisnojuma dokumenti sniedz skaidrojumu tiem, kas budžetam pieprasa paskaidrot, kādēļ ir nepieciešams kāds noteikts budžets."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,47 +24,52 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="budget-planning-justification-documents"></a>Budžeta plānošanas pamatojuma dokumenti
+# <a name="budget-planning-justification-documents"></a>Budžeta plānošanas attaisnojuma dokumenti
 
-Attaisnojuma dokumenti sniedz stāstījuma tiem lūdz paskaidrot, kāpēc ir nepieciešams noteikts budžets budžets. 
+[!include[banner](../includes/banner.md)]
 
-Budžeta plāna veidne ir budžeta manager programmā Microsoft Word izveidojis un piešķirts kārtējā budžeta plānošanas procesā. Budžeta īpašnieki var pēc tam atvērt veidni un ir datus programmā Word aizpildīts automātiski, pamatojoties uz savu budžeta pieprasījumu. Viņi pēc tam var pievienot papildu tekstu vai datus pirms saglabāšanas un savu personalizēto attaisnojuma dokumentu pievienošanu to budžeta plānu.
 
-##### <a name="set-up-microsoft-dynamics-office-add-in-for-microsoft-word"></a>Iestatīt Microsoft Dynamics Office pievienojumprogramma programmai Microsoft Word
+Attaisnojuma dokumenti sniedz skaidrojumu tiem, kas budžetam pieprasa paskaidrot, kādēļ ir nepieciešams kāds noteikts budžets. 
 
-1.  Atveriet jaunu Microsoft Word dokumentu.
-2.  Noklikšķiniet uz **ievietot** lentes un noklikšķiniet uz **Store**.
-3.  Meklēt Microsoft Dynamics Office pievienojumprogrammu un noklikšķiniet **pievienot**.
-4.  Programmā Word, labajā rūtī noklikšķiniet uz **pievienot servera informāciju**.
-5.  Ierakstiet vai ielīmējiet servera URL un noklikšķiniet uz **labi**.
+Budžeta plāna veidni budžeta pārvaldnieks izveido programmā Microsoft Word, un tā tiek piešķirta pašreizējam budžeta plānošanas procesam. Pēc tam budžeta īpašnieki šo veidni var atvērt un likt datus automātiski aizpildīt programmā Word, pamatojoties uz to budžeta pieprasījumu. Pēc tam viņi var pievienot papildu tekstu vai datus, pirms savu personalizēto attaisnojuma dokumentu saglabā un pievieno budžeta plānam.
 
-##### <a name="define-the-justification-template-in-microsoft-word"></a>Definēt pamatojumu veidni programmā Microsoft Word
+##### <a name="set-up-microsoft-dynamics-office-add-in-for-microsoft-word"></a>Iestatīt Microsoft Dynamics Office pievienojumprogrammu programmai Microsoft Word
 
-1.  Noklikšķiniet uz **Design** pievienojumprogrammu Microsoft Dynamics Office pēc tam, kad esat pieteicies.
-2.  Galvenes informāciju, izmantot **pievienot laukus** pogu.
-3.  Atlasiet vienību datu avotu BudgetPlanJustification un uz **nākamo**. **Piezīme:** šai entītijai ir nepieciešama jebkāda pamatojuma dokumentu. Var izmantot citas personas, bet augšupielādēt atpakaļ uz Microsoft Dynamics 365 operācijām cietīs neveiksmi, ja šis uzņēmums nav iekļauts.
-4.  BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter un DocumentNumber etiķetes un vērtības pievienošana Word dokumentā. **Piezīme:** var izmantot pielāgotas uzlīmes, nevis uz standarta etiķetēm, ja nepieciešams.
-5.  Noklikšķiniet uz **darīts** pabeigt galvenes sekcijas.
-6.  Līniju līmeņa daļām no budžeta plāna summas, noklikšķiniet **pievienot tabulu**.
-7.  Vēlreiz, atlasiet entītijas datu avotu BudgetPlanJustification un uz **nākamo**.
-8.  Pievienojiet laukus, EffectiveDate, ScenarioName, AccountDisplayValue un AccountingCurrencyExpenseAmount. **Piezīme:** ja komentāri ir pieejami, lai pievienotu atsevišķu budžeta plāna rindas ietvaros, tiem var pievienot tabulu šeit.
-9.  Pievienot jebkuru papildu norādījumi, kas nodrošina galalietotājam un veiktu nepieciešamo formatējumu vai ieveidošanas dokumentam.
-10. Lokālajā datorā, saglabājiet dokumentu un aizveriet failu pirms turpināt.
+1.  Atveriet Microsoft Word dokumentu.
+2.  Lentē noklikšķiniet uz **Ievietot** un noklikšķiniet uz **Veikals**.
+3.  Meklējiet Microsoft Dynamics Office pievienojumprogrammu un noklikšķiniet uz **Pievienot**.
+4.  Programmā Word, labajā rūtī noklikšķiniet uz **Pievienot servera informāciju**.
+5.  Ierakstiet vai ielīmējiet servera vietrādi URL un noklikšķiniet uz **Labi**.
 
-##### <a name="set-up-the-budget-planning-process-to-use-the-justification-template"></a>Iestatīt budžeta plānošanas procesā izmantot pamatojumu template
+##### <a name="define-the-justification-template-in-microsoft-word"></a>Definēt attaisnojuma veidni programmā Microsoft Word
 
-1.  Microsoft Dynamics 365 operācijām, lai nokļūtu **budžeta līdzekļu**&gt;**Setup**&gt;**budžeta plānošanu**&gt;**attaisnojuma dokumentu veidnes**.
-2.  Noklikšķiniet uz **New** un pārlūkot jūsu jaunizveidoto Microsoft Word dokumentam.
-3.  Ievadiet veidnes displeja nosaukumu un aprakstu. Click **OK**.
-4.  Dodieties uz **budžeta līdzekļu**&gt;**Setup**&gt;**budžeta****plānošanas**&gt;**budžeta plānošanas procesā**.
-5.  Procesā, kur pamatojums veidne jāizmanto, un noklikšķiniet uz atlasīt **rediģēt**.
-6.  Šajā **attaisnojuma dokumenta veidne** lauku, atlasiet atbilstošo veidni un saglabājiet.
+1.  Pēc pierakstīšanās Microsoft Dynamics Office pievienojumprogrammā noklikšķiniet uz **Dizains**.
+2.  Galvenes informācijai izmantojiet pogu **Pievienot laukus**.
+3.  Atlasiet BudgetPlanJustification elementa datu avotu un noklikšķiniet uz **Tālāk**. **Piezīme.** Šis elements ir nepieciešams visiem attaisnojuma dokumentiem. Var izmantot citus elementus, bet augšupielādēšana atpakaļ programmā Microsoft Dynamics 365 for Operations neizdosies, ja šis elements nav iekļauts.
+4.  Word dokumentā pievienojiet etiķetes un vērtības BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter un DocumentNumber. **Piezīme.** Ja nepieciešams, varat izmantot pats savas pielāgotās etiķetes, nevis standarta etiķetes.
+5.  Lai pabeigtu galvenes atlasi, noklikšķiniet uz **Gatavs**.
+6.  Rindas līmeņa informācijai par budžeta plāna summām noklikšķiniet uz **Pievienot tabulu**.
+7.  Atkal atlasiet BudgetPlanJustification elementa datu avotu un noklikšķiniet uz **Tālāk**.
+8.  Pievienojiet laukus vērtībām EffectiveDate, ScenarioName, AccountDisplayValue un AccountingCurrencyExpenseAmount. **Piezīme.** Ja atsevišķās budžeta plāna rindās pievienošanai ir pieejami komentāri, šeit tos varat pievienot tabulai.
+9.  Pievienojiet visus papildu norādījumus, ko sniegt lietotājam, un veiciet dokumentam visu nepieciešamo formatēšanu vai stila mainīšanu.
+10. Saglabājiet dokumentu lokālajā datorā un aizveriet failu, pirms turpināt.
 
-##### <a name="edit-and-save-personalized-justification-documents"></a>Rediģēt un saglabāt dokumentus, personalizētu pamatojums
+##### <a name="set-up-the-budget-planning-process-to-use-the-justification-template"></a>Iestatīt budžeta plānošanas procesu attaisnojuma veidnes lietošanai
 
-1.  Dynamics 365 operācijām, izveidot jaunu budžeta plānu vai atvērt esošo budžeta plānu.
-2.  Šajā **pamatojums** nolaižamajā izvēlnē atlasiet **izveidot jaunu pamatojumu**.
-3.  Pēc piepildīšanas detaļas, izvēlieties augšupielādēt personalizēto dokumentu no **pamatojums** nolaižamo izvēlni.
+1.  Programmā Microsoft Dynamics 365 for Operations dodieties uz **Budžeta veidošana** &gt; **Iestatīšana** &gt; **Budžeta plānošana** &gt; **Attaisnojuma dokumenta veidnes**.
+2.  Noklikšķiniet uz **Jauns** un pārlūkojiet uz jaunizveidoto Microsoft Word dokumentu.
+3.  Ievadiet veidnes parādāmo nosaukumu un aprakstu. Noklikšķiniet uz **Labi**.
+4.  Dodieties uz **Budžeta veidošana** &gt; **Iestatīšana** &gt; **Budžeta** **plānošana** &gt; **Budžeta plānošanas process**.
+5.  Atlasiet procesu, kurā ir jālieto attaisnojuma veidne, un noklikšķiniet uz **Rediģēt**.
+6.  Laukā **Attaisnojuma dokumenta veidne** atlasiet atbilstošo veidni un saglabājiet.
+
+##### <a name="edit-and-save-personalized-justification-documents"></a>Rediģēt un saglabāt personalizētus attaisnojuma dokumentus
+
+1.  Programmā Dynamics 365 for Operations izveidojiet jaunu budžeta plānu vai atveriet jau esošu budžeta plānu.
+2.  Nolaižamajā izvēlnē **Attaisnojums** atlasiet vienumu **Izveidot jaunu attaisnojumu**.
+3.  Pēc informācijas aizpildīšanas izvēlieties augšupielādēt personalizēto dokumentu no nolaižamās izvēlnes **Attaisnojums**.
+
+
 
 
 

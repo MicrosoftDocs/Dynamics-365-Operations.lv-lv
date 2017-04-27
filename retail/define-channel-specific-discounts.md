@@ -34,14 +34,14 @@ Bieži vien mazumtirgotāji dažādos kanālos iestata dažādas atlaides. Šaj�
 <a name="channel-specific-discounts"></a>Kanālam raksturīgās atlaides
 --------------------------
 
-Mazumtirgotāji bieži piedāvā dažādas atlaides dažādos kanālos. Tas var izdarīt adresi vietējiem tirgus apstākļiem vai tikt galā ar konkurējošu mazumtirgotājiem.
+Bieži vien mazumtirgotāji dažādos kanālos piedāvā dažādas atlaides. Iespējams, tas tiek darīts ar mērķi strādāt atbilstoši vietējā tirgus apstākļiem vai tikt galā ar konkurējošiem mazumtirgotājiem.
 
-Mazumtirdzniecības un komercijas Microsoft Dynamics 365 operācijām izmanto cenu grupas, lai definētu kanālam raksturīgo atlaides. Cenu grupas var piešķirt vienam vai vairākiem no šiem elementiem: kanāli, katalogi, piederības un lojalitātes programmas. Šajā rakstā ir aprakstīti kanāli, bet šie paši principi attiecas uz katalogu atlaidēm, piederības atlaidēm un lojalitātes atlaidēm.
+Lai definētu kanālam specifiskās atlaides, mazumtirdzniecība un komercija sistēmā Microsoft Dynamics 365 for Operations lieto cenu grupas. Cenu grupas var piešķirt vienam vai vairākiem no šiem elementiem: kanāli, katalogi, piederības un lojalitātes programmas. Šajā rakstā ir aprakstīti kanāli, bet šie paši principi attiecas uz katalogu atlaidēm, piederības atlaidēm un lojalitātes atlaidēm.
 
 ## <a name="price-groups"></a>Cenu grupas
-\[Caption id = "pielikumu\_256084" izlīdzināt = "alignnone" width = "640"\][![cenu grupas](./media/price-groups-1024x608.png)](./media/price-groups.png) mazumtirdzniecības cenu grupas saites\[/parakstu\]
+\[caption id="attachment\_256084" align="alignnone" width="640"\][![Cenu grupas](./media/price-groups-1024x608.png)](./media/price-groups.png) Cenu grupu saites mazumtirdzniecībai\[/caption\]
 
-Iepriekš diagramma ilustrē attiecības starp entītijām, kas var būt (kanāls, katalogu, piederību, klientu, klienta karšu) darbību un dažādu atlaižu tipus, kas var konfigurēt. Visas darbības notiek kanālu, lai kanāls ir garantēta šā darījuma. Atlikušie elementi nav obligāti. Katrā pamatdatu lapā ir saite uz saistīto cenu grupu lapu, kur pēc nepieciešamības var apskatīt un pievienot cenu grupas. Cenu grupa tiek lietota, lai attiecinātu četru dažādu veidu entītijām atlaides, cenu korekcijas un tirdzniecības nolīgumiem. Mēs iesakām jums plānot stratēģiju, kā tu nosauksi cenu grupas, lai saglabātu tos organizē. Viena iespēja būtu izmantot burtu vai ciparu prefiksa vai sufiksa atšķirt dažāda. Piemēram, 1-xxxxx kanāls cenu grupām un 2-xxxxx kataloga cenu grupām. Pastāv četras pieprasījumu lapas, kas ir koncentrētas uz katru no mazumtirdzniecības elementiem, ar kuriem var būt saistītas atlaides.
+Iepriekšējā diagrammā ir parādītas attiecības starp elementiem, kas var būt transakcijā (kanāls, katalogs, piederība, debitors, lojalitātes programmas karte), un dažādiem atlaižu tipiem, kurus iespējams konfigurēt. Visas transakcijas notiek kādā kanālā, tāpēc ir garantēts, ka transakcijā atrodas kanāls. Atlikušie elementi nav obligāti. Katrā pamatdatu lapā ir saite uz saistīto cenu grupu lapu, kur pēc nepieciešamības var apskatīt un pievienot cenu grupas. Cenu grupa tiek lietota, lai četru dažādu tipu elementus saistītu ar atlaidēm, cenu korekcijām un tirdzniecības līgumiem. Iesakām plānot stratēģiju veidam, kā piešķirt nosaukumu savām cenu grupām, lai tās uzturētu kārtībā. Viena iespēja — izmantot burtu vai numuru prefiksu vai sufiksu, lai atšķirtu dažādus tipus. Piemēram, izmantot nosaukumu 1-xxxxx kanāla cenu grupām un izmantot nosaukumu 2-xxxxx kataloga cenu grupām. Pastāv četras pieprasījumu lapas, kas ir koncentrētas uz katru no mazumtirdzniecības elementiem, ar kuriem var būt saistītas atlaides.
 
 -   **Mazumtirdzniecības kanāla cenu grupas** — šajā lapā katrai cenu grupai tiek rādīts saistīts kanālu un atlaižu saraksts.
 -   **Kataloga cenu grupas** — šajā lapā katrai cenu grupai tiek rādīts saistīts katalogu un atlaižu saraksts.
@@ -62,6 +62,6 @@ Nākamajā piemērā ir parādīti kanāla atlaižu iestatīšanas procedūrā i
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Price adjustments and discounts](price-adjustments-discounts.md)
+[Cenu korekcijas un atlaides](price-adjustments-discounts.md)
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Izmantot eksplozijas trasēšana"
+title: "Izsekošanas izmantošana izvēršanai"
 description: "Šajā rakstā ir paskaidrots, kā varat izmantot izsekošanu, lai izpētītu pasūtījuma izvērsuma iznākuma cēloņus."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-tracing-for-explosion"></a>Izmantot eksplozijas trasēšana
+# <a name="use-tracing-for-explosion"></a>Izsekošanas izmantošana izvēršanai
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir paskaidrots, kā varat izmantot izsekošanu, lai izpētītu pasūtījuma izvērsuma iznākuma cēloņus.
 
@@ -43,6 +46,8 @@ Varat skatīt detalizētu informāciju par aizkavējumiem un darbībām atlasīt
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Master plans](master-plans.md)
+[Vispārējie plāni](master-plans.md)
+
+
 
 

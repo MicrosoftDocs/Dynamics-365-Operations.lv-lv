@@ -1,6 +1,6 @@
 ---
-title: "BI &amp;ziņošanas mājas lapa"
-description: "Šajā tēmā uzskaitītas BI &amp;ziņošanas resursus, kas pieejami programmā Microsoft Dynamics 365 operācijām."
+title: "BI un pārskatu veidošanas sākumlapa"
+description: "Šajā tēmā ir uzskaitīti BI un pārskatu veidošanas resursi, kas ir pieejami programmā Microsoft Dynamics 365 for Operations."
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,26 +24,29 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bi-amp-reporting-home-page"></a>BI &amp;ziņošanas mājas lapa
+# <a name="bi-amp-reporting-home-page"></a>BI un pārskatu veidošanas sākumlapa
 
-Šajā tēmā uzskaitītas BI &amp;ziņošanas resursus, kas pieejami programmā Microsoft Dynamics 365 operācijām.
+[!include[banner](../includes/banner.md)]
+
+
+Šajā tēmā ir uzskaitīti BI un pārskatu veidošanas resursi, kas ir pieejami programmā Microsoft Dynamics 365 for Operations. 
 
 <a name="working-with-aggregate-data"></a>Darbs ar apkopotiem datiem
 ---------------------------
 
--   [Analytics](analytics.md)
+-   [Analīze](analytics.md)
 -   [Atmiņā saglabāti, reāllaika agregātmodeļi aizstāj SSAS kubus](..\migration-upgrade\in-memory-real-time-aggregate-models.md)
--   [Modelēšanas un izmantojot apkopotus datus](model-aggregate-data.md)
--   [Modernizētas Dynamics AX 2012 R3 pārdošanas kuba migrēt uz noliktavas vienība](..\migration-upgrade\migrate-upgraded-cube-entity-store.md)
+-   [Apkopoto datu modelēšana un lietošana](model-aggregate-data.md)
+-   [Migrēt jauninātu Dynamics AX 2012 R3 pārdošanas kubu uz elementu krātuvi](..\migration-upgrade\migrate-upgraded-cube-entity-store.md)
 
-## <a name="self-service-reporting"></a>Pašu pakalpojumu atskaites
--   [Power BI integration](power-bi-integration.md)
+## <a name="self-service-reporting"></a>Pašapkalpošanās pārskatu veidošana
+-   [Power BI integrācija](power-bi-integration.md)
 -   [Power BI integrācijas konfigurēšana darbvietām](configure-power-bi-integration.md)
 -   [Izveidot Power BI pārskatu, izmantojot Microsoft Dynamics 365 for Operations datus](create-powerbi-report-data.md)
--   [Izveidot barošanas BI atskaites un informācijas paneļa](create-powerbi-report-dashboard.md)
--   [Mazumtirdzniecības Channel Performance Power BI saturu](retail-channel-performance-dashboard-power-bi-data.md)
--   [Finanšu Performance Power BI saturu](financial-performance-power-bi-content-pack.md)
--   [Sales and profitability performance Power BI content](sales-profitability-performance-content-pack.md)
+-   [Power BI pārskata un informācijas paneļa veidošana](create-powerbi-report-dashboard.md)
+-   [Power BI saturs Mazumtirdzniecības kanāla veiktspēja](retail-channel-performance-dashboard-power-bi-data.md)
+-   [Power BI saturs Finanšu veiktspēja](financial-performance-power-bi-content-pack.md)
+-   [Power BI saturs Pārdošanas un ienesīguma veiktspēja](sales-profitability-performance-content-pack.md)
 -   [Izmantot elektronisko pārskatu veidošanas konfigurāciju, lai pakalpojumam Power BI sniegtu datus no Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
 ## <a name="building-embedded-analytical-experiences-in-the-dynamics-365-for-operations-client"></a>Iegultas analītiskas pieredzes veidošana Dynamics 365 for Operations klientā
@@ -95,6 +98,8 @@ ms.lasthandoff: 03/31/2017
 -   [ER Lietot dokumentu pārvaldības failus formāta izvades datos (5. daļa. Modificēt un palaist formātu)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format/) (uzdevuma ceļvedis)
 -   [ER Ģenerēt elektroniskos dokumentus maksājumiem, izmantojot formāta konfigurāciju](http://ax.help.dynamics.com/en/wiki/generate-electronic-documents-for-payments-using-a-format-configuration/) (uzdevuma ceļvedis)
 -   [ER Jaunināt savu formātu, pieņemot šī formāta jaunu bāzes versiju](http://ax.help.dynamics.com/en/wiki/upgrade-your-format-by-adopting-a-new-base-version-of-that-format/) (uzdevuma ceļvedis)
+
+
 
 
 

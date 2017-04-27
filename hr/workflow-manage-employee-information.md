@@ -1,6 +1,6 @@
 ---
-title: "Izmantot darbplūsmas, lai pārvaldītu informāciju par darbiniekiem"
-description: "Šajā tēmā ir paskaidrots, kā jūs varat izmantot darbplūsmu spēju cilvēkresursu, lai pārvaldītu informāciju par darbiniekiem. Piemēram, var saistīt ar amatu darbplūsmu un konfigurēt apstiprinājuma darbplūsmu, kas ir sākts, kad darbiniekiem mainīt savu ierakstu."
+title: "Darbplūsmu izmantošana darbinieku informācijas pārvaldībai"
+description: "Šajā tēmā ir aprakstīts, kā varat izmanto personāla vadības darbplūsmu iespējas, lai pārvaldītu darbinieku informāciju. Piemēram, varat saistīt darbplūsmu ar pozīciju un konfigurēt apstiprināšanas darbplūsmu, kas tiek sākta, kad darbinieki maina savu ierakstu."
 author: rschloma
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,11 +24,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-workflows-to-manage-employee-information"></a>Izmantot darbplūsmas, lai pārvaldītu informāciju par darbiniekiem
+# <a name="use-workflows-to-manage-employee-information"></a>Darbplūsmu izmantošana darbinieku informācijas pārvaldībai
 
-Šajā tēmā ir paskaidrots, kā jūs varat izmantot darbplūsmu spēju cilvēkresursu, lai pārvaldītu informāciju par darbiniekiem. Piemēram, var saistīt ar amatu darbplūsmu un konfigurēt apstiprinājuma darbplūsmu, kas ir sākts, kad darbiniekiem mainīt savu ierakstu.
+[!include[banner](includes/banner.md)]
 
-Spējas darbplūsmu cilvēkresursu nodrošina vairākas darbplūsmas cilvēkresursu darbību pārvaldībai. Turklāt daudzas opcijas ir pieejamas, lai varētu modificēt noteiktu darbplūsmas un saistīt tos ar ziņošanas hierarhiju. Darbplūsmas ir pieejamas, lai palīdzētu pārvaldīt izmaiņas standarta dažāda veida informācija par darbinieku. Darbplūsmu var saistīt ar amatu. Tad, ja darbinieki mainās viņu darbinieka ierakstu, darbplūsma ir sākts, kas prasa apstiprinājumu, pirms jaunā informācija tiek saglabāta. Šāda veida informāciju, kas palīdzēs jums efektīvi pārvaldīt izmaiņas un paturēt savu darbinieku dati precīzi definēts darbplūsmas:
+
+Šajā tēmā ir aprakstīts, kā varat izmanto personāla vadības darbplūsmu iespējas, lai pārvaldītu darbinieku informāciju. Piemēram, varat saistīt darbplūsmu ar pozīciju un konfigurēt apstiprināšanas darbplūsmu, kas tiek sākta, kad darbinieki maina savu ierakstu.
+
+Personāla vadības darbplūsmu iespējas nodrošina vairākas darbplūsmas personāla vadības darbību pārvaldībai. Turklāt ir pieejamas vairākas opcijas, kas sniedz iespēju modificēt noteiktas darbplūsmas un saistīt tās ar padotības hierarhiju. Ir pieejamas darbplūsmas, kas palīdz pārvaldīt dažādu standarta darbinieku informācijas veidu izmaiņas. Varat saistīt darbplūsmu ar pozīciju. Šādā gadījumā, ja darbinieki maina savu darbinieka ierakstu, tiek sākta darbplūsma, kas pieprasa apstiprināšanu pirms jaunās informācijas saglabāšanas. Ir pieejamas iepriekš definētas tālāk norādītās informācijas darbplūsmas, kas palīdz efektīvi pārvaldīt izmaiņas un uzturēt darbinieku datus pareizus.
 
 -   Identifikācijas numuri
 -   Kursi
@@ -42,30 +45,32 @@ Spējas darbplūsmu cilvēkresursu nodrošina vairākas darbplūsmas cilvēkresu
 -   Personāla vadības darbības
 -   Kursu reģistrācija
 
-Kad darbiniekiem ir spēkā, pārsūtīta vai pārtraukts, darbplūsmu var iekļaut pārskatīšanas procesā. Šādā veidā, var pārskatīt dokumentu vai darbības noteikumiem var definēt kā daļu no darbplūsmas. Pēc pārskatīšanas procesa pabeigšanas dokumentu vai darbību pabeigšanas un darbplūsmas pārvietojas galīgās apstiprināšanas solis.
+Kad darbinieki tiek pieņemti darbā, pārcelti citā amatā vai ar viņiem tiek pārtrauktas darba attiecības, darbplūsma var tikt ietverts pārskatīšanas process. Tādējādi darbplūsmas ietvaros var tikt pārskatīts dokuments vai darbības nosacījumi. Kad pārskatīšanas process ir pabeigts, dokuments vai darbība tiek pabeigta un darbplūsma pāriet pie galīgās apstiprināšanas darbības.
 
-## <a name="associate-a-workflow-with-a-position-hierarchy"></a>Saistītu darbplūsmu ar pozīciju hierarhijā
-Darbplūsmu var saistīt ar hierarhija, kuras jūs konfigurējat. Piemēram, ja pozīcija ir saistīta ar ziņošanas hierarhijas matricu, var konfigurēt darbplūsmas, kas maršrutē izdevumus konkrētam projektam projekta izpildes vietā darbinieks, kurš ir saistīts ar šo pozīciju vadītāja. Izveidot jaunu darbplūsmu vai modificēt esošas darbplūsmas, par **cilvēkresursu darbplūsmas** lapu, noklikšķiniet uz **New**. Sarakstā sākt darbplūsmas noformētāju, atlasiet darbplūsmu. Varat izmantot izstrādes rīku, lai izveidotu jaunu darbplūsmu vai mainītu esošas darbplūsmas soļus. Mainot esošas darbplūsmas, izmaiņas tiek saglabātas kā jaunu versiju. Tādēļ, jūs vienmēr varat doties atpakaļ uz iepriekšējo versiju, ja jums ir.
+## <a name="associate-a-workflow-with-a-position-hierarchy"></a>Darbplūsmas saistīšana ar padotības hierarhiju
+Varat saistīt darbplūsmu ar jebkuru konfigurēto hierarhiju. Piemēram, ja pozīcija ir saistīta ar matricas padotības hierarhiju, varat konfigurēt darbplūsmu, kas nodrošina noteikta projekta izmaksu novirzīšanu projekta vadītajam, nevis tā darbinieka vadītājam, kurš ir saistīts ar šo pozīciju. Lai izveidotu jaunu darbplūsmu vai modificētu esošu darbplūsmu, lapā **Personāla vadības darbplūsmas** noklikšķiniet uz **Jauna**. Sarakstā atlasiet darbplūsmu, lai palaistu darbplūsmu noformētāju. Varat izmantot noformētāju, lai izveidotu jaunu darbplūsmu vai mainītu esošas darbplūsmas darbības. Ja maināt esošu darbplūsmu, izmaiņas tiek saglabātas kā jauna versija. Tāpēc vienmēr varat atgriezieties pie iepriekšējās versijas, ja tas ir nepieciešams.
 
-## <a name="configure-a-human-resources-workflow"></a>Cilvēkresursu darbplūsmas konfigurēšana
-Lai konfigurētu pamata darbplūsmas, kas ir sākts, kad darbinieki pieprasīt mainīt savu personīgo identifikācijas, rīkojieties šādi.
+## <a name="configure-a-human-resources-workflow"></a>Personāla vadības darbības konfigurēšana
+Lai konfigurētu pamata darbplūsmu, kas tiek sākta, kad darbinieks pieprasa savas personiskās informācijas izmaiņas, veiciet tālāk norādītās darbības.
 
-1.  Par **cilvēkresursu darbplūsmas** lapu, noklikšķiniet uz **New**.
-2.  Pieejamo darbplūsmu sarakstā atlasiet **identifikācijas numurus**.
-3.  Noklikšķiniet uz **palaist** sākt darbplūsmas noformētāju, un kad tiek parādīta uzvedne, ievadiet savu lietotāja vārdu un paroli.
-4.  Vilkšanas **apstiprināt identifikācijas numuru** elementu no saraksta darbplūsmas elementu dizaineru audekls.
-5.  Savienojumu elementu apstiprināšanas **sākt** un **pabeigt**.
-6.  Veiciet dubultklikšķi uz **apstiprināt elementu**, un pēc tam noklikšķiniet ar peles labo pogu un izvēlieties **Properties**.
-7.  Izpildiet šos soļus, kā pievienot darba vienumu instrukcijas:
-    1.  Atlasiet **pielietojums**, un pēc tam atlasiet **hierarhijas** zem slodzes tips.
-    2.  Zem **hierarhijas** atlase, atlasiet **konfigurējamas hierarhijas**.
-    3.  Pievienojiet apturētas un aizveriet lappusi.
+1.  Lapā **Personāla vadības darbplūsmas** noklikšķiniet uz **Jauna**.
+2.  Pieejamo darbplūsmu sarakstā atlasiet vienumu **Identifikācijas numuri**.
+3.  Noklikšķiniet uz **Palaist**, lai palaistu darbplūsmu noformētāju, un pēc tam ievadiet savu lietotājvārdu un paroli, kad tiek parādīta attiecīga uzvedne.
+4.  Velciet elementu **Apstiprināt identifikācijas numuru** no darbplūsmas elementu saraksta uz noformētāja rāmi.
+5.  Savienojiet apstiprināšanas elementu ar elementiem **Sākt** un **Pabeigt**.
+6.  Veiciet dubultklikšķi uz **Apstiprināt elementu**, noklikšķiniet ar peles labo pogu un atlasiet vienumu **Rekvizīti**.
+7.  Veiciet tālāk norādītās darbības, lai pievienotu darbplūsmas elementa instrukcijas.
+    1.  Atlasiet vienumu **Piešķire** un pēc tam piešķires veida sadaļā atlasiet vienumu **Hierarhija**.
+    2.  Sadaļā **Hierarhija** atlasiet vienumu **Konfigurējama hierarhija**.
+    3.  Pievienojiet apturēšanas nosacījumu un aizveriet lapu.
 
-8.  Pabeigtu jebkuru papildu instrukcijas (bez papildu brīdinājumiem, ko vajadzētu pastāvēt).
-9.  Noklikšķiniet uz **Saglabāt un aizvērt**. Aktivizēt jaunu darbplūsmu, ja dialoglodziņu atver un atlasiet **padarīt aktīvu**.
-10. Dodieties uz **cilvēkresursu**&gt;**pozīcijas**&gt;**pozīciju hierarhijā tipi**.
-11. Atlasiet **Matrix**.
-12. Pievienot **darbinieka identifikācijas numurs** darbplūsmu sarakstam.
+8.  Izpildiet visas papildu instrukcijas (nedrīkst būt neviens papildu brīdinājums).
+9.  Noklikšķiniet uz **Saglabāt un aizvērt**. Kad tiek atvērts dialoglodziņš, aktivizējiet jauno darbplūsmu un atlasiet vienumu **Padarīt aktīvu**.
+10. Pārejiet uz sadaļu **Personāla vadība** &gt; **Pozīcijas** &gt; **Pozīciju hierarhijas tipi**.
+11. Atlasiet vienumu **Matrica**.
+12. Pievienojiet sarakstam darbplūsmu **Nodarbinātā identifikācijas numurs**.
+
+
 
 
 

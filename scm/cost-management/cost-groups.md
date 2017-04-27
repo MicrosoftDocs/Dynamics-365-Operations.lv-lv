@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="cost-groups"></a>Izmaksu grupas
 
+[!include[banner](../includes/banner.md)]
+
+
 Izmaksu grupas sniedz pamatu izmaksu seguma segmentēšanai un analīzei ražotā krājuma aprēķinātajā izmaksā, kā, piemēram, materiālu, darba un papildus atbalsta izmaksu segumus. Izmaksu grupu segmentācijai ir vairāki sinonīmi, kā, piemēram, izmaksu sadalīšana, izmaksu dekompozīcija vai izmaksu klasifikācija. 
 
 Izmaksu grupu segmentācijai ir vairāki sinonīmi, kā, piemēram, izmaksu sadalīšana, izmaksu dekompozīcija vai izmaksu klasifikācija. Izmaksu grupu segmentāciju var izmantot vairākiem mērķiem. Daži piemēri:
@@ -48,6 +51,8 @@ Izmaksu grupai var tikt piešķirts izmaksu grupas tips un uzvedība papildus se
 
 -   **Izmaksu grupas tips** — katrai izmaksu grupai ir jāpiešķir izmaksu grupas tips, lai norādītu, ka izmaksu grupa attiecas uz tiešu materiālu, tiešu ražošanu, tiešiem ārpakalpojumiem vai attiecas uz netiešu vai nedefinētu materiālu, ražošanu un ārpakalpojumiem. Izmaksu grupa, kas norādīta kā tiešs materiāls, var tikt piešķirta krājumiem. Tiešas ražošanas izmaksu grupa var tikt piešķirta izmaksu kategorijām. Tiešā ārpakalpojumu izmaksu grupa var tikt piešķirta pakalpojuma preces veidam, kas ļauj klasificēt ar pakalpojuma iegādi saistītas izmaksas ar pakalpojumu apakšlīgumu slēgšanas darbībām. Netieša izmaksu grupa var tikt piešķirta papildizdevumu vai nodokļu netiešajām izmaksām. Izmaksu grupa, kas norādīta kā netieša, var tikt piešķirta krājumiem, izmaksu kategorijām vai netiešajām izmaksām. Izmaksu grupu veida piešķiršana kalpo vairākiem mērķiem. Pirmkārt, tā ierobežo iespēju piešķirt izmaksu grupu un skatīt piemēroto izmaksu grupu sarakstu. Otrkārt, tā sniedz papildus segmentāciju pārskatīšanas mērķiem. Treškārt, tā var tikt izmantota, lai piešķirtu virsgrāmatas kontus novirzēm.
 -   **Darbība** — katrai izmaksu grupai neobligāti var tikt piešķirta darbība, lai norādītu uz izmaksu grupu kā piederošu fiksētajām vai mainīgām izmaksām. Izmaksu grupa, kuras uzvedības vērtība ir nulle, tiek pieskaitīta pie mainīgajām izmaksām. Darbības piešķiršanu izmanto tikai atskaites mērķiem. Piemēram: izmaksas var tikt parādītas ar fiksēto un mainīgo izmaksu segmentāciju izmaksu lapā un lapā** Izmaksu izvērsums pa izmaksu grupām**. Peļņas procentu iestatījumu piešķiršana katrai izmaksu grupai padara iespējamu materiālu komplekta (MK) aprēķinu, kas nodrošina ieteicamo pārdošanas cenu, kas pamatojas uz pieeju izmaksas-plus-uzcenojums.
+
+
 
 
 

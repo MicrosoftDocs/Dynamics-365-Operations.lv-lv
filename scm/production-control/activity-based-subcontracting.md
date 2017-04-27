@@ -1,6 +1,6 @@
 ---
-title: "Darbības jomām balstīta apakšlīgumu slēgšana"
-description: "Šajā tēmā aprakstīts sīkāk, kā izmantot apakšuzņēmuma līguma darbību ražošanas plūsmu liesās ražošanā."
+title: "No aktivitātēm atkarīgu apakšlīgumu slēgšana"
+description: "Šajā tēmā ir detalizēti aprakstīts, kā lean manufacturing ražošanas plūsmā izmantot apakšlīgumā paredzētas aktivitātes."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,80 +26,85 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="activity-based-subcontracting"></a>Darbības jomām balstīta apakšlīgumu slēgšana
+# <a name="activity-based-subcontracting"></a>No aktivitātēm atkarīgu apakšlīgumu slēgšana
 
-Šajā tēmā aprakstīts sīkāk, kā izmantot apakšuzņēmuma līguma darbību ražošanas plūsmu liesās ražošanā.
+[!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 operācijām, pastāv divas pieejas apakšlīguma: ražošanas pasūtījumus un liesās ražošana. Liesās ražošanas pieeju apakšuzņēmuma darbu ir modelēta kā pakalpojums, kas saistīts ar ražošanas plūsmas darbība. Īpaša veida izmaksu grupas tips, kas ir nosaukts **tiešu ārpakalpojumu** ir ieviesta un apakšlīguma pakalpojumi vairs nav daļa no materiālu komplekta (MK). Izmaksu uzskaites apakšuzņēmēju darbu pilnībā integrētu liesās ražošanas pašizmaksas risinājums.
 
-## <a name="production-flows-that-involve-subcontractors"></a>Ražošanas plūsmas, kas iesaista apakšuzņēmējus
-Pamatprincips ražošanas plūsmu nemainās, kad darbībām ir noslēgti apakšlīgumi. Materiālu joprojām plūst no viena novietojuma uz otru, procesu darbības pārvērstu materiālu produktu un nodošanas pasākumi pārvietot materiālus vai produktus no vienas atrašanās vietas uz citu. Jūs varat paraugs vietām un strādāt šūnās kā piegādātāja pārvaldīti piešķirot kreditora noliktavu vai resursa, resursu grupas.  
+Šajā tēmā ir detalizēti aprakstīts, kā lean manufacturing ražošanas plūsmā izmantot apakšlīgumā paredzētas aktivitātes.
 
-Pamatā šīs iespējas, liesās ražošana neprasa visas īpatnības nolūkā atbalstīt materiālu un produktu plūsmu. Visus iespējamos scenārijus, kas ietver piegādātājus, kā ražošanas vai transporta pakalpojumu sniedzēji var modelēt, pamatojoties uz arhitektūras produkcijas plūsma un aktivitātes.  
+Programmā Microsoft Dynamics 365 for Operations apakšlīgumu slēgšanai var izmantot divas metodes: ražošanas pasūtījumus un lean manufacturing. Ja izmantojat lean manufacturing metodi, tad apakšlīgumā paredzētais darbs tiek modelēts kā pakalpojums, kas ir saistīts ar kādu ražošanas plūsmas aktivitāti. Ir ieviests īpašs izmaksu grupas tips ar nosaukumu **Tiešie ārpakalpojumi**, un šādi apakšlīgumā paredzētie pakalpojumi vairs neveido daļu no materiālu komplektiem (MK). Apakšlīgumā paredzēto darbu izmaksu uzskaite ir pilnīgi integrēta lean manufacturing izmaksu aprēķināšanas risinājumā.
 
-Piemēram, apakšuzņēmēja darbi no lielveikals, kas atrodas apakšuzņēmējs. Kad apstrādes vienības iztukšo ar apakšuzņēmēju, asambleja šūnas kopā ar nākamā krava tiek atgriezti kanban kartes. Lielveikalu ar apakšuzņēmēju, kas pēc tam tiek papildināta. Pārvedumi no apakšuzņēmēja un var modelēt kā tiešas nodošanas pasākumi izdošanas un nosūtīšanas procesu atbalstam. Ja skaidri reģistrācija nav vajadzīgs, lai atbalstītu fizisko transportu, pārvietošanas darbības var izlaist.  
+## <a name="production-flows-that-involve-subcontractors"></a>Ražošanas plūsmas, kurās piedalās apakšuzņēmēji
+Ja par kādām aktivitātēm ir noslēgts apakšlīgums, ražošanas plūsmas pamatprincipi nemainās. Joprojām notiek materiālu plūsma starp novietojumiem, procesa aktivitātes materiālus pārvērš par precēm un pārsūtīšanas aktivitātes materiālus vai preces pārvieto no viena novietojuma uz citu. Novietojumus un darba šūnas varat modelēt kā kreditora pārvaldītas, piešķirot kreditora kontu kādai noliktavai vai kādam resursu grupas resursam.  
 
-Apakšuzņēmējs var izmantot, lai slodze līdzsvaru ražošanas plūsmu kopējo jaudu. Piemēram, ražošanas plūsmas ir modelēta, izmantojot plānoto kanban kārtulas. Plānotāja izmanto kanban plānošanas Padome plānotu un slodzes līmenis gan darba šūnas pēc pieprasījuma. Plānotāja arī uzrauga lielveikalā konsolidētos piegādes grafiks par **piegādes grafiks** lapā. Vairāki apakšuzņēmēji var modelēt vienas vai vairākas ražošanas plūsmām, un varētu būt vairākas kanban kārtulas, kuras var izmantot, lai sniegtu vienu un to pašu produktu uz vienu un to pašu atrašanās vietu, izmantojot dažādas aktivitātes. Plānotāju var pārvērst kanbans alternatīvu kanban noteikums, lai pārplānotu kanban, kas sākotnēji tika izveidota iekšējās ražošanas alternatīvu procesu. Patiesībā, šūnu darbu apakšuzņēmuma līguma raksturu neietekmē ražošanas plūsmu. Tas pats darba princips attiecas divas paralēlas iekšējās darba šūnām vai apakšlīgumā paredzētās divas šūnas.   
+Pamatojoties uz šīm iespējām, lean manufacturing izmantošanai nav nepieciešami nekādi specifiski līdzekļi, lai atbalstītu materiālu un preču plūsmu. Visus iespējamos scenārijus, kuros kreditori ir iesaistīti kā ražošanas vai transportēšanas pakalpojumu nodrošinātāji, var modelēt, pamatojoties uz ražošanas plūsmas un aktivitāšu arhitektūru.  
 
-Tāpat kā citas darbības ražošanas plūsma, apakšuzņēmuma līguma darbību var patērēt un piegādi neuzskaitītā, izpētīja (darba procesā \[NP\]), un pusfabrikātu materiāliem un produktiem. Procesu plānošana un izpildes apakšuzņēmuma līguma darbību visos gadījumos ir vienādi. Turklāt šo procesu tāds pats kā iekšējie darba procesi.
+Piemēram, kāds apakšuzņēmējs strādā ārpus lielveikala, kurš atrodas pie šī apakšuzņēmēja. Kad pie šī apakšuzņēmēja tiek iztukšotas materiālu apstrādes vienības, Kanban kartes tiek atgrieztas uz komplektēšanas šūnu kopā ar nākamo sūtījumu. Pēc tam lielveikals pie apakšuzņēmēja tiek papildināts. Pārsūtīšanu apakšuzņēmējam un no tā var modelēt kā skaidras pārsūtīšanas aktivitātes, lai tiktu atbalstīts izdošanas un nosūtīšanas process. Ja nav nepieciešama skaidra reģistrēšana, lai atbalstītu fizisko transportēšanu, tad pārsūtīšanas aktivitātes var nelietot.  
 
-## <a name="purchase-process-for-subcontracted-activities-services"></a>Pirkšanas procesu par apakšuzņēmēju darbībām (pakalpojumi)
-Pirkšanas procesā par apakšuzņēmuma līguma darbību pamatā ir fiziskā materiāla plūsmu, kas ir reģistrējis kanban darbu norisi, piemēram, uzsākt vai pabeigt. Finanšu plūsma, piemēram, apakšuzņēmēju darbu izmaksas ir sekundāro kontūru, kas seko fizisko plūsmu. Tajā pašā laikā pirkšanas procesā ir neatkarīgu procesu, kas ļauj veikt manuālu korekciju iepirkuma dokumentiem ik uz soļa. Šeit ir pirkuma process par apakšuzņēmuma līguma darbību:
+Apakšuzņēmēju var izmantot, lai ražošanas plūsmai līdzsvarotu vispārējās jaudas noslodzi. Piemēram, kāda ražošanas plūsma ir modelēta, izmantojot plānotus Kanban nosacījumus. Plānotājs lieto Kanban plānošanas paneli, lai plānotu un izlīdzinātu noslodzi abām darba šūnām pēc pieprasījuma. Plānotājs arī uzrauga lielveikala konsolidētās piegādes grafiku lapā **Piegādes grafiks**. Vienā vai vairākās ražošanas plūsmās var modelēt vairākus apakšuzņēmējus, un var pastāvēt vairāki Kanban nosacījumi, kurus varat lietot, lai vienu un to pašu preci piegādātu uz to pašu novietojumu, izmantojot dažādas aktivitātes. Plānotājs Kanban darbus var pārveidot par alternatīvu Kanban nosacījumu, lai kādu Kanban darbu, kurš sākotnēji tika izveidots iekšējai ražošanai, pārplānotu uz alternatīvu procesu. Faktiski apakšlīgumā paredzētās darba šūnas veids nekādi neietekmē ražošanas plūsmu. Tie paši darba principi ir spēkā gan divām paralēlām iekšējām darba šūnām, gan divām apakšlīgumā noteiktajām šūnām.   
 
-1.  Izveidot pirkšanas līgums. Pirkuma līgums ir izveidoti pakalpojumu un pievienots ražošanas plūsmas aktivitāte.
-2.  Izveidojiet pirkšanas pasūtījumu. Pirkšanas izpildpasūtījumu var izveidot pakalpojumu, pamatojoties uz plānoto kanban darbavietas. Darbu par vienu un to pašu pakalpojumu var grupēt pirkšanas pasūtījuma rindām, pa dienām, nedēļām vai mēnešiem. Pirkšanas pasūtījumu rindas var izveidot jebkurā laikā pēc tam, kad kanban darbavietu ir izveidots. Pirkšanas pasūtījumu rindas var izveidot pat pēc fakta. Parasti ir atlasīta šī opcija, ja apakšuzņēmējs sniedz pakalpojumus bez papildu brīdinājuma, pamatojoties uz kanbans vai kanban kartes, kas saņem apakšuzņēmējs. Šajā gadījumā var minimizēt novirzes starp pirkšanas pasūtījumam un rēķinam.
-3.  Ģenerēt kanban kartes, materiālu un izdošanas sarakstam, lai nosūtītu uz apakšuzņēmēja, lai sagatavotu pārstrādei. Pamatojoties uz detalizētu ražošanas plūsmas modelēšana, sagatavošana tiek veikta kanban valdes darbības procesu, izmantojot izdošanas saraksta un sagatavošanas funkciju. Alternatīvi, sagatavošana tiek veikta kanban kuģa pārvietošanas darbiem, izmantojot izdošanas saraksta un sākuma vai Pabeigšana. Neuzskaitītā materiālam, abos procesos var atbalstīt WMS izdošanas un nosūtīšanas procesā. Pēc pieprasījuma var veidot preču transporta pavadzīmi.
-4.  Ģenerēt kanban apstrādes bloki un kanban kartes. Pēc apstrādes kartes tiek atgriezti apakšuzņēmējs. Parasti kartēm ietver piegādes pavadzīme, kas norāda fiziskā materiāla, kas ir nosūtīti. Atsauce uz piedāvātajiem pakalpojumiem, nav nepieciešama. Materiālu vai produktu pie klienta ierašanās ir reģistrēta valdē kanban atkarībā no kanban kartes. (Kanban valdes darbības procesā vai kanban kuģa pārvietošanas darbiem izmanto atkarībā no modelēta darbības.).
-5.  Izveidot konsultāciju kvīti. Konsultāciju saņemšana var izmantot, lai aizstātu iepakošanas slīdēšanas dokumentu par saņemtajiem pakalpojumiem. Saņemšanas padomus var ģenerēt atlasītajā periodā, pamatojoties uz aizpildīto kanban darbus par apakšuzņēmuma darbībām. Katra darba saņemšanas ieteikumus izveidotas attiecīgo pirkšanas pasūtījuma rindai. Konsultāciju saņemšana var izdrukāt un nosūtīt apakšuzņēmēja kā apstiprinājums par saņemšanu.
-6.  Izveidot rēķinu.
+Tāpat kā jebkura cita ražošanas plūsmas aktivitāte, arī apakšlīgumā paredzētās aktivitātes var patērēt un piegādāt inventarizētus, neinventarizētus (nepabeigtie projekti \[NP\]) un daļēji pabeigtus materiālus un preces. Visos gadījumos apakšlīgumā paredzēto aktivitāšu plānošana un izpilde ir tāda pati. Turklāt šie procesi ir tādi paši kā iekšējam darbam paredzētie procesi.
 
-Process beidzas, kad apakšuzņēmēja rēķina periodam. Mača rēķina tiek darīts pret saņemšanas padomus, kas tiek izveidoti. Jo saņemšanas padomus norāda precīzu fizisko materiālu saņemšanas, trīsceļu saskaņošana ir vienkāršota.
+## <a name="purchase-process-for-subcontracted-activities-services"></a>Pirkšanas process apakšlīgumā paredzētām aktivitātēm (pakalpojumi)
+Pirkšanas process apakšlīgumā paredzētām aktivitātēm ir balstīts uz fizisko materiālu plūsmu, kas tiek reģistrēta ar Kanban darba progresu, piemēram, Sākt vai Pabeigt. Finanšu plūsma, piemēram, apakšlīgumā paredzētā darba izmaksas, ir sekundāra plūsma, kas seko fiziskajai plūsmai. Tajā pašā laikā pirkšanas process ir neatkarīgs process, kurā jebkurā posmā varat veikt manuālas pirkšanas dokumentu korekcijas. Tālāk ir aprakstīts pirkšanas process apakšlīgumā paredzētām aktivitātēm.
 
-## <a name="configuring-activities-for-subcontracting"></a>Konfigurējot darbību apakšlīguma
-Nākamajās sadaļās ir aprakstīts, kā konfigurēt par apakšuzņēmuma darbībām.
+1.  Izveidojiet pirkšanas līgumu. Pirkšanas līgums tiek izveidots par pakalpojumu un savienots ar ražošanas plūsmas aktivitāti.
+2.  Izveidojiet pirkšanas pasūtījumu. Pakalpojumam var izveidot izlaišanas pirkšanas pasūtījumu, pamatojoties uz ieplānotajiem Kanban darbiem. Viena un tā paša pakalpojuma darbus pirkšanas pasūtījuma rindās var grupēt pēc dienas, nedēļas vai mēneša. Pēc Kanban darba izveidošanas pirkšanas pasūtījuma rindas var izveidot jebkurā laikā. Pirkšanas pasūtījuma rindas var izveidot pat pēc pašas pirkšanas. Šī opcija parasti ir atlasīta tad, ja apakšuzņēmējs pakalpojumus sniedz bez papildu paziņojuma, pamatojoties uz Kanban darbiem vai Kanban kartēm, kuras šis apakšuzņēmējs saņem. Šādā gadījumā novirzes starp pirkšanas pasūtījumu un rēķinu iespējams minimizēt.
+3.  Ģenerējiet apakšuzņēmējam sūtāmās Kanban kartes, materiālus un izdošanas sarakstu, lai sagatavotu apstrādāšanai. Pamatojoties uz ražošanas plūsmas detalizēto modelēšanu, procesa aktivitāšu Kanban kartēm tiek veikta sagatavošana, izmantojot izdošanas sarakstu un sagatavošanas funkciju. Ja vēlaties, pārsūtīšanas darbiem sagatavošanu var veikt ar Kanban paneli, izmantojot izdošanas sarakstu un sākšanu vai pabeigšanu. Inventarizētiem materiāliem šos abus procesus var atbalstīt NPS izdošanas un sūtīšanas process. Pēc pieprasījuma var izveidot preču transporta pavadzīmi.
+4.  Ģenerējiet Kanban materiālu apstrādes vienības un Kanban kartes. Pēc apstrādāšanas kartes no apakšuzņēmēja tiek atgrieztas. Parasti kartēs ir iekļauta piegādes pavadzīme, kurā ir norādīts sūtītais fiziskais materiāls. Nav nepieciešama atsauce uz sniegtajiem pakalpojumiem. Fakts, ka debitors materiālu vai preci ir saņēmis, tiek reģistrēts Kanban panelī atkarībā no Kanban kartēm. (Atkarībā no modelētajām aktivitātēm tiek izmantots vai nu Kanban panelis procesa aktivitātēm, vai Kanban panelis pārsūtīšanas darbiem.)
+5.  Izveidojiet ieejas plūsmas paziņojumu. Ieejas plūsmas paziņojumu var izmantot, lai aizstātu pavadzīmes dokumentu par saņemtajiem pakalpojumiem. Ieejas plūsmas paziņojumu var ģenerēt, pamatojoties uz pabeigtajiem Kanban darbiem attiecībā uz apakšlīgumu aktivitāti atlasītajā periodā. Par katru darbu ieejas plūsmu saistītajā pirkšanas pasūtījuma rindā tiek izveidoti paziņojumi. Ieejas plūsmas paziņojumu var drukāt un sūtīt apakšuzņēmējam ka apstiprinājumu par ieejas plūsmu.
+6.  Ģenerējiet rēķinu.
 
-### <a name="subcontracted-services"></a>Apakšuzņēmēju pakalpojumi
+Šis process beidzas, kad apakšuzņēmējs ir izrakstījis rēķinu par kādu periodu. Rēķinu saskaņošana tiek veikta pret izveidotajiem ieejas plūsmas paziņojumiem. Tā kā ieejas plūsmas paziņojumi atspoguļo tieši materiāla fizisko ieejas plūsmu, trīsvirzienu atbilstība ir vienkāršota.
 
-Ko izmanto darbībās balstīta apakšuzņēmuma maksājumu vienumam ir jābūt produkts, kuram ir šādas īpašības:
+## <a name="configuring-activities-for-subcontracting"></a>Aktivitāšu konfigurēšana apakšlīgumu slēgšanai
+Nākamajās sadaļās ir aprakstīts, kā konfigurēt aktivitātes apakšlīgumu slēgšanai.
 
--   **Produkta tips:** pakalpojumu
--   **Ārējo krājumu modeļu grupā:** Non uzkrāti
+### <a name="subcontracted-services"></a>Apakšlīgumā paredzētie pakalpojumi
 
-Šo prasību izpilda pirmo lietošanu iekšā, pirmais ārā (FIFO) krājumu modelim. **Piezīme:** izmaksu produkti aprēķinam noteikt standarta pakalpojumu izmaksām. Pirkuma līgums ar piegādātāju, ir nepieciešama. Pretējā gadījumā pakalpojums nevar izmantot attiecībā uz darbības jomām balstīta apakšuzņēmuma līgumus.
+Maksājuma krājumam, kas tiek izmantots no aktivitātēm atkarīga apakšlīgumu slēgšanā, ir jābūt precei ar tālāk uzskaitītajām īpašībām.
 
-### <a name="subcontracted-process-activities"></a>Apakšuzņēmuma līguma procesu darbības
+-   **Preces tips:** Pakalpojums
+-   **Krājumu modeļu grupa:** Noliktavā neesošs
 
-Lai konfigurētu procesu aktivitātes, kā apakšuzņēmēju aktivitāte, rīkojieties šādi.
+Šī prasība liek izmantot krājumu modeli “pirmais iekšā, pirmais ārā” (first in, first out – FIFO). **Piezīme.** Preču izmaksu aprēķināšana nosaka, ka ir nepieciešams definēt pakalpojuma standarta izmaksas. Ir jābūt ar kreditoru noslēgtam pirkšanas līgumam. Pretējā gadījumā pakalpojumu nevar izmantot no aktivitātēm atkarīgai apakšlīgumu slēgšanai.
 
-1.  Konfigurēt apakšuzņēmēju darbu šūnas. Lai konfigurētu darba šūna kā slēgts apakšlīgums, jāizveido resursu **kreditoru** tips un jāsaista ar darba šūnu (resursu grupa). Runtime izmaksu kategorija **tiešu ārpakalpojumu** izmaksu grupas tipam jāpiešķir šūnu darbu. Izmaksu kategorijas uzstādīšanas un daudzums nav nepieciešami.
-2.  Pēc procesa aktivitāte ir izveidots un saistīto apakšuzņēmēju darbu šūnai, ir jākonfigurē servisa aktivitātes ražošanas plūsmas versiju var aktivizēt. Pabeidzot šo soli par **aktivitātes****detaļas** lapu. Par darbībām, kas saistītas ar apakšuzņēmēju darbu šūnu, **ziņā servisa** FastTab ir redzams. Par FastTab, pievienojiet noklusējuma pakalpojums, kas ir spēkā attiecībā uz visiem izejas elementiem. Ja konkrētam izvades elementiem nepieciešams dažādu pakalpojumu vai citu pakalpojumu aprēķinu parametrus (piemēram, dažādu pakalpojumu attiecība), var pievienot citus pakalpojumus aktivitāti.
+### <a name="subcontracted-process-activities"></a>Apakšlīgumā paredzētās procesa aktivitātes
 
-## <a name="subcontracted-transfer-activities"></a>Nodošana apakšlīgumā paredzētās darbības
-Pārvietošanas darbības ir konfigurēta kā apakšuzņēmēju aktivitāte, atkarībā no **Freighted** iestatījumu pārsūtīšanas darbības. Pieejamas šādas opcijas
+Lai procesa aktivitāti konfigurētu kā apakšlīgumā paredzētu aktivitāti, izpildiet tālāk sniegtos norādījumus.
 
--   **Ekspeditora** – aktivitāte ir slēgts apakšlīgums, ja pārsūtīšanai no noliktavas tiek vadīts, izmantojot piegādātāju (kā to nosaka noliktavas īpašuma). Visas atlasītās pirkšanas līgumus pakalpojumiem jābūt paša piegādātāja ID kā noliktava.
--   **Saņēmēja** – aktivitāte apakšlīgumu, ja pārsūtīšana uz noliktavu pārvalda kreditoru (kā to nosaka noliktavas īpašuma). Visas atlasītās pirkšanas līgumus pakalpojumiem jābūt paša piegādātāja ID kā noliktava.
--   **Pārvadātāja** – aktivitāte ir slēgts apakšlīgums piegādātājam, kas sniedz pakalpojumu. Būtu derīgs, pārvadātājam jāizveido noliktavas pārvaldības un piešķirtā piegādātāja konts.
+1.  Konfigurējiet apakšlīguma paredzētu darba šūnu. Lai kādu darba šūnu konfigurētu kā paredzētu apakšlīgumā, ir jāizveido resurss ar tipu **Kreditors** un šis resurss ir jāsaista ar attiecīgo darba šūnu (resursu grupu). Šai darba šūnai ir jāpiešķir izpildlaika izmaksu kategorija ar izmaksu grupas tipu **Tiešie ārpakalpojumi**. Izmaksu kategorijas iestatīšanai un daudzumam nav obligātas.
+2.  Kad procesa aktivitāte ir izveidota un saistīta ar apakšlīgumā paredzētu darba šūnu, jums ir jākonfigurē pakalpojums šai aktivitātei, lai varētu aktivizēt šo ražošanas plūsmas versiju. Šī darbība ir jāveic lapā **Detalizēta informācija par** **aktivitāti**. Aktivitātēm, kas ir saistītas ar apakšlīgumā paredzētu darba šūnu, tiek rādīta kopsavilkuma cilne **Pakalpojuma nosacījumi**. Šajā kopsavilkuma cilnē pievienojiet noklusējuma pakalpojumu, kas ir derīgs visiem izejošās plūsmas krājumiem. Ja konkrētiem izejas plūsmas krājumiem ir nepieciešami citādi pakalpojumi vai citādi pakalpojuma aprēķināšanas parametri (piemēram, citāds pakalpojuma koeficients), šai aktivitātei varat pievienot citus pakalpojumus.
 
-Attiecībā uz procesu darbības, jums jākonfigurē noklusējuma pakalpojumu nodošana apakšlīgumā paredzētās darbības par **ziņā servisa** FastTab, **aktivitātes****detaļas** lapā.
+## <a name="subcontracted-transfer-activities"></a>Apakšlīgumā paredzētās pārsūtīšanas aktivitātes
+Pārsūtīšanas aktivitāte kā apakšlīgumā paredzēta aktivitāte tiek konfigurēta atkarībā no šīs pārsūtīšanas aktivitātes iestatījuma **Kravas pārvadātājs**. Pieejamas šādas opcijas
+
+-   **Nosūtītājs** — aktivitāte ir paredzēta apakšlīgumā, ja pārsūtīšanu no noliktavas pārvalda kāds kreditors (kā definēts ar noliktavas rekvizītu). Visiem atlasītajiem pirkšanas līgumiem attiecībā uz pakalpojumiem ir nepieciešams tāds pats kreditora ID kā noliktavai.
+-   **Saņēmējs** — aktivitāte ir paredzēta apakšlīgumā, ja pārsūtīšanu uz noliktavu pārvalda kāds kreditors (kā definēts ar noliktavas rekvizītu). Visiem atlasītajiem pirkšanas līgumiem attiecībā uz pakalpojumiem ir nepieciešams tāds pats kreditora ID kā noliktavai.
+-   **Pārvadātājs** — aktivitāte ir paredzēta apakšlīgumā jebkuram kreditoram, kurš nodrošina šādu pakalpojumu. Lai pārvadātājs būtu derīgs, tas ir jāizveido no noliktavas vadības un tam ir nepieciešams piesaistīts kreditora konts.
+
+Attiecībā uz procesa aktivitātēm lapas **Detalizēta informācija par** **aktivitāti** kopsavilkuma cilnē **Pakalpojuma nosacījumi** jums ir jākonfigurē noklusējuma pakalpojums apakšlīgumā paredzētajām pārsūtīšanas aktivitātēm.
 
 ## <a name="service-quantity-calculation"></a>Pakalpojuma daudzuma aprēķins
-Visu iepirkuma procesa pamatā ir krājuma atsauce par pakalpojumu. Šī krājuma atsauce tiek mērīta pakalpojums mērvienība. Pakalpojumi parasti tiek mērītas dienestu (vienību) skaits vai laikā. Lai aprēķinātu pakalpojumu daudzumu, pamatojoties uz reģistrētā pabeigšana kanban darbavietas, var izmantot šādas metodes:
+Viss pirkšanas process ir balstīts uz krājuma atsauci kādam pakalpojumam. Šī krājuma atsauce tiek mērīta pakalpojuma mērvienībās. Parasti pakalpojumu daudzums tiek izteikts kā pakalpojumu skaits (vienības) vai laiks. Lai aprēķinātu pakalpojuma daudzumu, pamatojoties uz reģistrēto Kanban darbu pabeigšanu, varat izmantot tālāk aprakstītās metodes.
 
--   **Aprēķins, kas balstās uz darbavietu skaitu** – ir vienāds ar vienu kanban darbu *n* vienības pakalpojumu, neatkarīgi no produkta daudzuma, kas tiek nodrošināts kopā. Liesās ražošanas viens darbs atbilst vienas vienības. Šī aprēķina metode attiecas uz visiem pakalpojumiem, kas ir fiksētas cenas par vienu vienību norādē. Tādēļ šī metode parasti attiecas uz pārsūtīšanas darbībām. Tomēr to var arī lietot procesu darbības, kas apstrādā visu apstrādes vienības.
--   **Aprēķins, kas pamatojas uz produkta daudzumu** – pakalpojumu daudzums, salīdzinot ar produkta daudzums, kas ir plānoti vai piegādāts. Kad norādītais preču daudzums tiek aprēķināts, kļūdu daudzumu var vai nu iekļaut vai neiekļaut. Šo aprēķinu metodi piemēro visos gadījumos, kur pakalpojuma cena uz vienu vienību pārstrādātam produktam ir panākta vienošanās.
--   **Aprēķināšanu, kas balstīta uz darbības laiku** – teorētiskās aktivitātes laiku aprēķina, pamatojoties uz pārstrādes laiku aktivitātes, kopējais pārstrādes daudzumu un caurlaides koeficients pārstrādāto produktu. Šī aprēķina metode attiecas uz pakalpojumiem, kas apmaksāti ar stundu un ir novirze laikā par katru pārstrādāto produktu.
+-   **No darbu skaita atkarīgais aprēķins** — viens Kanban darbs ir vienāds ar *n* pakalpojuma vienībām neatkarīgi no piegādātā preču daudzuma. Ja izmantojat lean manufacturing, tad viens darbs atbilst vienai materiālu apstrādes vienībai. Šī aprēķināšanas metode attiecas uz visiem pakalpojumiem, kam ir fiksēta cena par materiālu apstrādes vienību. Tādēļ šī metode parasti attiecas uz pārsūtīšanas aktivitātēm. Taču to var lietot arī tādu aktivitāšu apstrādāšanai, kurās tiek apstrādātas veselas materiālu apstrādes vienības.
+-   **No preču daudzuma atkarīgais aprēķins** — pakalpojuma daudzums tiek izteikts relatīvi pret plānoto/piegādāto preču daudzumu. Kad ir aprēķināts piegādāto preču daudzums, kļūdainos daudzumus var iekļaut vai izslēgt. Šī aprēķināšanas metode attiecas uz visiem gadījumiem, kad pastāv vienošanās par pakalpojuma cenu par apstrādātās preces vienību.
+-   **No aktivitātes laika atkarīgais aprēķins** — teorētiskie aktivitātes laiki tiek aprēķināti, pamatojoties uz aktivitātes apstrādāšanas laiku, kopējo apstrādāto daudzumu un apstrādātās preces caurlaides koeficientu. Šī aprēķināšanas metode attiecas uz pakalpojumiem, kas tiek apmaksāti pēc stundu skaita un kam pastāv novirze attiecībā uz apstrādātās preces laiku.
 
-## <a name="cost-accounting-of-subcontracted-services"></a>Apakšuzņēmēju pakalpojumu izmaksu uzskaiti
-Iegrāmatojot saņemšanas padomdevēju vai piegādātāju pavadzīmi pirkšanas pasūtījuma, kurš izveidots ražošanas plūsmas (citiem vārdiem sakot, pirkšanas pasūtījumu, kas tika ģenerēts, pamatojoties uz kanban darbu apakšuzņēmuma līguma darbību), ražošanas plūsmu RNR kontos uzskaita saņemšanas vērtība. Novirzes no rēķiniem, tiek uzskaitītas arī ražošanas plūsmu. Ir ieviesta apakšuzņēmēju darbu izmaksu kategoriju. Šīs izmaksu kategorijas Iespējot caurspīdīgu uzskaites vērtību apakšuzņēmēju darbs, kas ir piešķirti NP un patērē vienā periodā.  
+## <a name="cost-accounting-of-subcontracted-services"></a>Apakšlīgumā paredzēto pakalpojumu izmaksu uzskaite
+Kad ir grāmatots ieejas plūsmas paziņojums vai kreditora pavadzīme par ražošanas plūsmai izveidotu pirkšanas pasūtījumu (citiem vārdiem — pirkšanas pasūtījums, kas bija ģenerēts, pamatojoties uz Kanban darbiem apakšlīgumā paredzētām aktivitātēm), tad ieejas plūsmas vērtība tiek iekļauta ražošanas plūsmas NP kontos. Arī rēķinu novirzes tiek iekļautas šajā ražošanas plūsmā. Ir ieviesta izmaksu kategorija apakšlīgumā paredzētam darbam. Šī izmaksu kategorija nodrošina caurskatāmu izsekošanu par apakšlīgumā paredzētā darba vērtību tādiem darbiem, kas ir piešķirti NP un tiek patērēti periodā.  
 
-Backflush, kalkulāciju liesās ražošanas pašizmaksas aprēķināšanas perioda beigās aprēķina faktisko dispersijas no produktiem, kas ir ražoti no ražošanas plūsmas izmaksu aprēķināšanas periodā.
+Atgriezeniska izmaksu aprēķināšana attiecībā uz lean manufacturing izmaksu aprēķināšanas perioda beigās aprēķina faktiskās novirzes precēm, kas attiecīgajā izmaksu aprēķināšanas periodā ir saražotas no ražošanas plūsmas.
 
-## <a name="modeling-transfers-as-subcontracted-activities"></a>Modelēšanas nodošanu apakšlīgumā paredzētās darbības
-Cilvēki bieži uzskata transporta neproduktīvo un domāju, ka tā piebilst, nav vērtības. Tomēr apakšlīgumu izmaksas salīdzinājumā ar iekšējo ražošanas izmaksas, jāņem vērā papildu transporta izmaksas. Ražošanas plūsmas, kas sniedzas pāri vairākām vietām un pieprasa transporta pakalpojumi būtu modeļa transporta izmaksas, piegādājot pircējam preces izmaksu daļu. 
+## <a name="modeling-transfers-as-subcontracted-activities"></a>Pārsūtīšanu kā apakšlīgumā paredzēto aktivitāšu modelēšana
+Bieži vien ļaudis uzskata, ka transportēšana nav produktīva un nevairo nekādu vērtību. Taču kad apakšlīgumu slēgšanas izmaksas salīdzina ar iekšējās ražošanas izmaksām, ir jāņem vērā transportēšanas aktivitāšu papildu izmaksas. Ražošanas plūsmai, kas aptver vairākas atrašanās vietas un kurai ir nepieciešami transportēšanas pakalpojumi, transportēšanas izmaksas ir jāmodelē kā daļa no izmaksām par preču piegādi klientam. 
 
-Liesās ražošanas darbībās balstīta apakšlīgumu noslēgšana ļauj integrēt pārvadātājiem un transporta pārdevēji, materiālu un izstrādājumu pārvietošanu starp vietām, kur notiek ražošanas plūsmu. Ar modelēšana nodošanas darbību, var piešķirt pārvadātājam vai kreditoru. Pārvietošanas darbības/darba pamatā ir pakalpojumu un pirkuma līgums, un var izveidot pirkšanas pasūtījumus un saņemšanas ieteikumus, pamatojoties uz reālajiem pārskaitīšanas darbavietas. Šī funkcionalitāte ir tāda pati kā apakšuzņēmēju procesu darbības funkcionalitāti.  
+Kad izmantojat lean manufacturing, no aktivitātēm atkarīga apakšlīgumu slēgšana jums ļauj integrēt pārvadātājus un transporta kreditorus, kuri materiālus un preces pārvieto starp atrašanās vietām ražošanas plūsmā. Modelējot transportēšanas aktivitāti, varat piešķirt pārvadātāju vai kreditoru. Pārsūtīšanas aktivitātes/darbs ir atkarīgs no pakalpojuma un pirkšanas līguma, un pirkšanas pasūtījumus un ieejas plūsmas paziņojumus varat izveidot, pamatojoties uz faktiskajiem pārsūtīšanas darbiem. Šī funkcionalitāte ir tāda pati kā funkcionalitāte apakšlīgumā paredzētajām procesa aktivitātēm.  
 
-Tādēļ, Dynamics 365 tagad atbalsta MK aprēķinu, kas ietver transporta pakalpojumu izveidi saistīto pirkšanas pasūtījumus, integrētu saņemšanas reģistrācijas un transporta integrāciju operācijām pakalpojumu izmaksas par ražošanas plūsmas izmaksu.
+Tādēļ Dynamics 365 for Operations tagad atbalsta MK aprēķinu, kas ietver transportēšanas pakalpojumus, saistītu pirkšanas pasūtījumu izveidošanu, integrētu ieejas plūsmas reģistrēšanu un transportēšanas pakalpojumu izmaksu integrēšanu ražošanas plūsmas izmaksu aprēķināšanā.
+
+
 
 

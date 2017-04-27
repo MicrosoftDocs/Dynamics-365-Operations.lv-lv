@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Saskaņot bankas izrakstus, izmantojot detalizēto bankas darbību saskaņošanu
 
+[!include[banner](../includes/banner.md)]
+
+
 Līdzeklis Detalizētā bankas darbību saskaņošana jums ļauj importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmatūrā Microsoft Dynamics 365 for Operations Šajā tēmā ir paskaidrots šis saskaņošanas process.  
 
 <a name="import-an-electronic-bank-statement"></a>Importētu elektronisku bankas izrakstu
@@ -74,7 +77,7 @@ Bankas izraksta transakcijām atbilstību var noteikt vai saskaņošanu var veik
 -   Transakcijām noteikt atbilstību anulēšanas bankas izraksta transakcijai.
 -   Transakcijas atzīmēt kā **Jauns**, lai vēlāk tās varētu grāmatot kā bankas transakciju programmatūrā Dynamics 365 for Operations.
 
-Manuāli, saskaņot darbību, izvēlieties darbību **bankas izraksta transakciju** režģi, atlasiet atbilstošo darījumu **operācijas bankas darbības** režģa un tad uz **atbilst**. Atlasītās transakcijas no augšējiem režģiem, kas paredzēti transakcijām, kurām nav noteiktas atbilstības, tiek pārvietotas uz apakšējiem režģiem transakcijām, kurām ir atrastas atbilstības. Turklāt tiek atjauninātas kopsummas, kurām ir un nav atrasta atbilstība. Jums var būt transakciju atbilstības viena pret vienu, daudzas pret vienu un daudzas pret daudzām. Atbilstībām ir jāievēro kārtulas par atļautajām datumu atšķirībām un transakcijas tipu kartēšanu. Šīs kārtulas ir iestatītas lapā **Skaidras naudas un bankas pārvaldības parametri**.
+Lai manuāli noteiktu transakciju atbilstību, atlasiet transakcijas režģī **Bankas izraksta transakcijas**, atlasiet atbilstošās transakcijas režģī **Operāciju bankas transakcijas** un pēc tam noklikšķiniet uz **Saskaņot**. Atlasītās transakcijas no augšējiem režģiem, kas paredzēti transakcijām, kurām nav noteiktas atbilstības, tiek pārvietotas uz apakšējiem režģiem transakcijām, kurām ir atrastas atbilstības. Turklāt tiek atjauninātas kopsummas, kurām ir un nav atrasta atbilstība. Jums var būt transakciju atbilstības viena pret vienu, daudzas pret vienu un daudzas pret daudzām. Atbilstībām ir jāievēro kārtulas par atļautajām datumu atšķirībām un transakcijas tipu kartēšanu. Šīs kārtulas ir iestatītas lapā **Skaidras naudas un bankas pārvaldības parametri**.
 
 Jūsu saskaņošanā var rasties sīknaudas starpības. Varat noteikt atbilstību vienai bankas izraksta transakcijai un vienai Operations bankas transakcijai, kam pastāv sīknaudas starpības, ja sīknaudas starpība nepārsniedz pielaides summu, kura ir definēta šī bankas konta laukā **Atļautā sīknaudas starpība**. Summa ir norādīta laukā **Labojuma summa** atbilstošā Operations bankas darbībā. Ja bankas darbību saskaņošana ir atzīmēta kā saskaņota, korekcijas tiek automātiski grāmatotas, izmantojot galveno kontu, kas tiek definēts saistīto bankas darbību tipā. Korekcijas netiek atbalstītas dokumentu tipiem **Pārbaude** un **Depozīts**. 
 
@@ -90,5 +93,7 @@ Kad visas izraksta rindas ir apstrādātas, jums šī bankas darbību saskaņoš
 
 ## <a name="post-new-transactions-that-are-associated-with-the-reconciliation"></a>Grāmatot jaunas transakcijas, kas ir saistītas ar saskaņošanu
 Bankas izraksta transakcijas, kas saskaņošanas darblapā tika atzīmētas kā **Jauns**, tiek grāmatotas lapā **Bankas izraksts**. Lapā **Bankas izraksts** atlasiet izraksta ID, lai skatītu detalizētu informāciju par šo izrakstu. Izvēlnē **Uzskaite** varat izmantot opcijas **Skatīt sadales** un **Skatīt uzskaiti**, lai skatītu detalizētu informāciju par jaunajām transakcijām un saistītajiem virsgrāmatas ierakstiem. Atlasiet opciju **Grāmatot**, lai bankas izraksta rindas, kuras bija atzīmētas kā **Jauns**, grāmatotu virsgrāmatā. Ņemiet vērā, ka katram bankas izrakstam grāmatošanu var veikt tikai vienu reizi.
+
+
 
 

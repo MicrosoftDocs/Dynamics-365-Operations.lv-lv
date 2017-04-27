@@ -55,16 +55,16 @@ Jaunā aktīvā vidējā izmaksu cena ataino finansiāli atjaunināto darbību v
 -   Krājuma darbības ir atzīmētas ar vertikālām bultām.
 -   Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
 -   Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
--   Augstāk (vai zemāk) katram vertikālas bultiņas, krājumu darījuma vērtība ir norādīta formātāQuantity@Unitprice.
+-   Virs (vai zem) katras vertikālas bultas ir norādīta krājumu transakcijas vērtība šādā formātā: Quantity@Unitprice.
 -   Krājuma darbības vērtība iekavās norāda, ka krājuma darbība tika iegrāmatota krājumā fiziski.
 -   Krājuma darbības vērtība iekavās norāda, ka krājuma darbība netika iegrāmatota krājumā finansiāli.
 -   Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
--   Each vertical arrow is labeled with a sequential identifier, such as *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
+-   Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
 -   Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti *Krājuma slēgšana*.
 -   Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
 
 ## <a name="lifo-date-with-the-include-physical-value-option"></a>LIFO datums ar opciju Fizisko vērtību iekļaušana
-Varat atzīmēt krājuma izvēles rūtiņu **Iekļaut fizisko vērtību** lapā **Krājumu modeļu grupas**. Šajā gadījumā sistēma izmanto gan fiziskās un finanšu ieejas plūsmas darbībām, lai aprēķinātu darbojas vidējās izmaksu cenas. Kur nepieciešams, sistēma veic korekcijas arī fiziski apstrādātajām izdošanas darbībām. Ja ir noņemta atzīme no izvēles rūtiņas **Iekļaut fizisko vērtību**, tad, veicot krājumu slēgšanu ar LIFO uz datumu krājumu modeli, tiek veikta tikai finansiāli atjaunināto transakciju segšana. Šajā piemērā krājumu modeļu grupai ir atzīmēta fiziskās vērtības iekļaušana. Tālāk esošajā ilustrācijā ir redzamas tālāk norādītās transakcijas.
+Varat atzīmēt krājuma izvēles rūtiņu **Iekļaut fizisko vērtību** lapā **Krājumu modeļu grupas**. Šādā gadījumā sistēmā faktiskās vidējās izmaksu cenas aprēķināšanai tiek izmantotas gan fiziskās, gan finansiālās ieejas plūsmas transakcijas. Kur nepieciešams, sistēma veic korekcijas arī fiziski apstrādātajām izdošanas darbībām. Ja ir noņemta atzīme no izvēles rūtiņas **Iekļaut fizisko vērtību**, tad, veicot krājumu slēgšanu ar LIFO uz datumu krājumu modeli, tiek veikta tikai finansiāli atjaunināto transakciju segšana. Šajā piemērā krājumu modeļu grupai ir atzīmēta fiziskās vērtības iekļaušana. Tālāk esošajā ilustrācijā ir redzamas tālāk norādītās transakcijas.
 
 -   1.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 10,00 par katru.
 -   1.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 10,00 katrs.
@@ -82,16 +82,16 @@ Jaunā aktīvā vidējā izmaksu cena ataino finansiāli atjaunināto darbību v
 -   Krājuma darbības ir atzīmētas ar vertikālām bultām.
 -   Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
 -   Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
--   Augstāk (vai zemāk) katram vertikālas bultiņas, krājumu darījuma vērtība ir norādīta formātāQuantity@Unitprice.
+-   Virs (vai zem) katras vertikālas bultas ir norādīta krājumu transakcijas vērtība šādā formātā: Quantity@Unitprice.
 -   Krājuma darbības vērtība iekavās norāda, ka krājuma darbība tika iegrāmatota krājumā fiziski.
 -   Krājuma darbības vērtība iekavās norāda, ka krājuma darbība netika iegrāmatota krājumā finansiāli.
 -   Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
--   Each vertical arrow is labeled with a sequential identifier, such as *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
+-   Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
 -   Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti *Krājuma slēgšana*.
 -   Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
 
 ## <a name="lifo-date-with-marking"></a>LIFO datums ar atzīmi
-Marķējums ir process, kas ļauj saistīt, vai zīme, ieejas plūsmas darbības uz izdošanas darbība. Atzīmēšana var parādīties gan pirms, gan pēc darbības grāmatošanas. Kā arī varat lietot iezīmēšanu, ja vēlaties pārbaudīt precīzas krājuma izmaksas pēc darbības iegrāmatošanas vai pēc krājumu slēgšanas. Piemēram, jūsu Klientu apkalpošanas nodaļa saņēma steidzamu pasūtījumu no svarīga klienta. Tā kā tas ir steidzams pasūtījums, lai izpildītu debitora pieprasījumu, par šo krājumu ir jāmaksā vairāk. Jāpārbauda, vai krājuma vienības cena šajā pārdošanas pasūtījuma rēķinā tiek iekļauta peļņas aprēķinā vai pārdoto preču pašizmaksā (COGS). Iegrāmatojot pirkšanas pasūtījumu, tiek saņemts krājums ar vērtību USD 120,00. Ja šis pārdošanas dokuments ir atzīmēts kā pirkšanas pasūtījums pirms pavadzīmes vai rēķina iegrāmatošanas, tad COGS būs USD 120,00, nevis pašreizējas krājuma vidējas izmaksas. Ja pārdošanas pasūtījuma pavadzīme vai rēķins tiek iegrāmatots pirms iezīmēšanas, COGS būs norādītas kā pašreizējo krājuma vidējo izmaksu cena. Pirms krājumu slēgšanas šīs darbības var būt savstarpēji iezīmētas. Piemēram, ieejas plūsmas transakcija ir iezīmējot saistīta ar izejas plūsmas transakciju. Šajā gadījumā novērtēšanas metodi, ko definē krājuma preču modeļu grupas ir ņemti vērā, un sistēma atrisina šos darījumus pret otru. Varat atzīmēt saņemšanas darbībai paredzēto izdošanas darbību pirms darbība tiek grāmatota. To var paveikt no pārdošanas pasūtījuma rindas, lapā **Pārdošanas pasūtījuma informācija**. Jūs varat skatīt atvērtās saņemšanas darbības lapā **Iezīmēšana**. Varat arī iezīmējot saistīt izejas plūsmas transakciju ar ieejas plūsmas transakciju pēc transakcijas grāmatošanas. Varat saskaņot vai iezīmējot saistīt inventarizēta krājuma izejas plūsmas transakciju ar atvērtu ieejas plūsmas transakciju, izmantojot grāmatoto krājumu korekciju žurnālu. Sekojošajā ilustrācijā tiek parādītas šīs darbības:
+Atzīmēšana ir process, kas sniedz iespēju izdošanas transakciju saistīt jeb atzīmēt ar ieejas plūsmas transakciju. Atzīmēšana var parādīties gan pirms, gan pēc darbības grāmatošanas. Kā arī varat lietot iezīmēšanu, ja vēlaties pārbaudīt precīzas krājuma izmaksas pēc darbības iegrāmatošanas vai pēc krājumu slēgšanas. Piemēram, jūsu Klientu apkalpošanas nodaļa saņēma steidzamu pasūtījumu no svarīga klienta. Tā kā tas ir steidzams pasūtījums, lai izpildītu debitora pieprasījumu, par šo krājumu ir jāmaksā vairāk. Jāpārbauda, vai krājuma vienības cena šajā pārdošanas pasūtījuma rēķinā tiek iekļauta peļņas aprēķinā vai pārdoto preču pašizmaksā (COGS). Iegrāmatojot pirkšanas pasūtījumu, tiek saņemts krājums ar vērtību USD 120,00. Ja šis pārdošanas dokuments ir atzīmēts kā pirkšanas pasūtījums pirms pavadzīmes vai rēķina iegrāmatošanas, tad COGS būs USD 120,00, nevis pašreizējas krājuma vidējas izmaksas. Ja pārdošanas pasūtījuma pavadzīme vai rēķins tiek iegrāmatots pirms iezīmēšanas, COGS būs norādītas kā pašreizējo krājuma vidējo izmaksu cena. Pirms krājumu slēgšanas šīs darbības var būt savstarpēji iezīmētas. Piemēram, ieejas plūsmas transakcija ir iezīmējot saistīta ar izejas plūsmas transakciju. Šādā gadījumā tiek ignorēta krājuma vienības krājumu modeļu grupai definētā novērtēšanas metode un sistēmā šī transakcijas tiek segtas viena ar otru. Varat atzīmēt saņemšanas darbībai paredzēto izdošanas darbību pirms darbība tiek grāmatota. To var paveikt no pārdošanas pasūtījuma rindas, lapā **Pārdošanas pasūtījuma informācija**. Jūs varat skatīt atvērtās saņemšanas darbības lapā **Iezīmēšana**. Varat arī iezīmējot saistīt izejas plūsmas transakciju ar ieejas plūsmas transakciju pēc transakcijas grāmatošanas. Varat saskaņot vai iezīmējot saistīt inventarizēta krājuma izejas plūsmas transakciju ar atvērtu ieejas plūsmas transakciju, izmantojot grāmatoto krājumu korekciju žurnālu. Sekojošajā ilustrācijā tiek parādītas šīs darbības:
 
 -   1.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 10,00 par katru.
 -   1.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 10,00 katrs.
@@ -110,11 +110,11 @@ Jauna pašreizēja vidējā izmaksu cena attēlo finansiāli vai fiziski atjauni
 -   Krājuma darbības ir atzīmētas ar vertikālām bultām.
 -   Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
 -   Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
--   Augstāk (vai zemāk) katram vertikālas bultiņas, krājumu darījuma vērtība ir norādīta formātāQuantity@Unitprice.
+-   Virs (vai zem) katras vertikālas bultas ir norādīta krājumu transakcijas vērtība šādā formātā: Quantity@Unitprice.
 -   Krājuma darbības vērtība iekavās norāda, ka krājuma darbība tika iegrāmatota krājumā fiziski.
 -   Krājuma darbības vērtība iekavās norāda, ka krājuma darbība netika iegrāmatota krājumā finansiāli.
 -   Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
--   Each vertical arrow is labeled with a sequential identifier, such as *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
+-   Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
 -   Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti *Krājuma slēgšana*.
 -   Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
 

@@ -28,17 +28,20 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="compensation-plans"></a>Atlīdzības plāni
 
+[!include[banner](includes/banner.md)]
+
+
 Atlīdzību un atvieglojumu vadītāji atlīdzību pārvaldību var izmantot, lai organizācijas darbiniekiem uzturētu un apstrādātu fiksētās un mainīgās atlīdzības sistēmas.
 
 ### <a name="introduction"></a>Ievads
 
-Kompensācijas vadība tiek izmantots, lai kontrolētu piegādes bāzes algas un apbalvošana. Darbinieka noteiktas bāzes algas un nopelniem pieaugums tiek kontrolēti caur noteikta kompensācijas plāniem. Veicināšanas maksājumu izsniegšana, piemēram, prēmiju maksājumi, apbalvojumi par sasniegumiem, uzņēmuma akciju iegādes iespējas un dotācijas, kā arī vienreizējas piemaksas, tiek kontrolētas ar mainīgās atlīdzības plāniem. 
+Atlīdzību pārvaldība tiek izmantota, lai kontrolētu pamatalgas un prēmiju izsniegšanu. Darbinieka fiksētā pamatalga un nopelnu palielinājumi tiek kontrolēti, izmantojot fiksētas atlīdzības plānus. Veicināšanas maksājumu izsniegšana, piemēram, prēmiju maksājumi, apbalvojumi par sasniegumiem, uzņēmuma akciju iegādes iespējas un dotācijas, kā arī vienreizējas piemaksas, tiek kontrolētas ar mainīgās atlīdzības plāniem. 
 
 Darbinieki var būt reģistrēti vienā vai vairākos abu veidu plānos. Lai būtu piemērots reģistrācijai kādā atlīdzības plānā, darbiniekam ir jāatbilst tālāk norādītajām prasībām.
 -   Darbiniekam ir nepieciešama aktīva amata piešķire.
 -   Darbiniekam ir nepieciešams atbilst kritērijiem, kas atlīdzības plānam ir definēti ar piemērotības nosacījumiem.
 
-## <a name="compensation-setup"></a> Atlīdzības iestatīšana
+## <a name="compensation-setup"></a>Atlīdzības iestatīšana
 Nākamajā tabulā ir uzskaitīti atlīdzības procesa komponenti, kas var būt būtiski jūsu uzņēmuma atlīdzības plānu iestatīšanai.
 
 <table>
@@ -54,7 +57,7 @@ Nākamajā tabulā ir uzskaitīti atlīdzības procesa komponenti, kas var būt 
 <td>Ar fiksētājām atlīdzības darbībām tiek sasniegti divi mērķi:
 <ul>
 <li>Darbības var norādīt, kāda informācija ir jāreģistrē, kad mainās darbinieka atlīdzība. Piemēram, varat pieprasīt, lai tiktu reģistrēts izmaiņu iemesls, piemēram, paaugstināšana vai pazemināšana amatā.</li>
-<li>Darbības var nodrošināt, aprēķinos tiek lietots apstrādājot noteiktu kompensācijas plāniem.  Piemēram, tipa kapitāla darbības darbiniekiem algas līmeni par darbinieka obligātās atskaites punkts, lai salīdzinātu un nodrošināt darbinieku kļūst maksā vismaz minimālo.</li>
+<li>Darbības var nodrošināt, ka fiksētās atlīdzības plānu apstrādāšanas laikā tiek lietots kāds aprēķins.  Piemēram, darbības ar tipu Kapitāls darbinieku algas salīdzinās ar minimālo atsauces punktu darbinieka līmenim un nodrošinās, ka darbiniekam tiek izmaksāts vismaz minimums.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -83,7 +86,7 @@ Nākamajā tabulā ir uzskaitīti atlīdzības procesa komponenti, kas var būt 
 </tr>
 <tr class="even">
 <td>Algas izmaksas biežums</td>
-<td>Maksāt frekvences tiek izmantoti, lai definētu laika periodu, kas noteikts kompensācijas.  Piemēram, apmaksas biežumu palīdz jums saprast, ja kompensācijas summa tiek norādīta kā gada alga, salīdzinot ar stundu apmaksas likme. Samaksas biežums ir arī izmantot, lai iestatītu pārrēķina koeficientus pārvērst kompensācijas summu katru mēnesi, katru nedēļu, divreiz nedēļā un katru stundu samaksāt gada samaksas biežums frekvences.</td>
+<td>Algas izmaksas biežums tiek lietots, lai definētu laika periodu, kādam ir norādīta atlīdzība.  Algas izmaksas biežums jums palīdz saprast, piemēram, vai atlīdzības summa ir norādīta kā gada alga vai kā stundas apmaksas likme. Algas izmaksas biežums tiek arī lietots, lai iestatītu pārveidošanas koeficientus un atlīdzības summu no algas izmaksas biežuma reizi mēnesī, reizi nedēļā, divreiz nedēļā un reizi stundā varētu konvertēt uz gada algas izmaksas biežumu.</td>
 </tr>
 <tr class="odd">
 <td>Atlīdzības reģioni</td>
@@ -107,7 +110,7 @@ Nākamajā tabulā ir uzskaitīti atlīdzības procesa komponenti, kas var būt 
 </tr>
 <tr class="even">
 <td>Atlīdzību režģi</td>
-<td>Kompensācijas režģus ietvert kompensācijas struktūra.  Kompensācijas režģi var izmantot vienu vai vairākas kompensācijas plāniem.</td>
+<td>Atlīdzību režģi ietver atlīdzību struktūru.  Atlīdzību režģus var izmantot ar vienu vai vairākiem atlīdzības plāniem.</td>
 </tr>
 <tr class="odd">
 <td>Veiktspējas plāni</td>
@@ -126,9 +129,11 @@ Procesa notikums aprēķina atlīdzības informāciju noteiktam periodam visiem 
 <a name="compensation-events"></a>Atlīdzības notikumi
 -------------------
 
-Katru reizi izpildīt procesu gadījumā, tiek izveidots kompensācijas pasākums.  Kompensācijas pasākumi ietver kompensācijas procesa rezultātus katram darbiniekam, kas iekļauti šī procesa pasākums.  Ja aprēķini ir pareizi, jūs varat ielādēt kompensācijas pasākums kompensāciju ierakstu atjaunināšanu, darbiniekiem, kuri ietekmē procesa pasākums.
+Katru reizi, kad tiek palaists procesa notikums, tiek izveidots atlīdzības notikums.  Atlīdzības notikumi ietver atlīdzības procesa rezultātus katram darbiniekam, kas ir iekļauts attiecīgajā procesa notikumā.  Kad šie aprēķini ir pareizi, varat ielādēt atlīdzības notikumu, lai atjauninātu atlīdzības ierakstus tiem darbiniekiem, kurus šis procesa notikums ietekmē.
 
-## <a name="recommendations"></a> Ieteikumi
+## <a name="recommendations"></a>Ieteikumi
 Pēc procesa notikuma palaišanas varat ieteikt korekcijas darbinieka nopelnu palielinājumam vai piemaksas summai, pamatojoties uz procesa notikuma aprēķinātajām vadlīnijām. Lai darbiniekiem sniegtu ieteikumus, ieteikumi ir jāiespējo, kad iestatāt atlīdzību plānus vai kad iestatāt procesa notikumu.
+
+
 
 

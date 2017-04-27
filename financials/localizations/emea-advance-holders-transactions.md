@@ -1,6 +1,6 @@
 ---
 title: "Avansa turētāju darbības"
-description: "Uzziniet, kā strādāt ar avansa turētāja darbības Microsoft Dynamics 365 operācijām."
+description: "Uzziniet, kā strādāt ar avansa turētāju transakcijām programmatūrā Microsoft Dynamics 365 for Operations."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,36 +27,41 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="advance-holder-transactions"></a>Avansa turētāju darbības
 
-Uzziniet, kā strādāt ar avansa turētāja darbības Microsoft Dynamics 365 operācijām.
+[!include[banner](../includes/banner.md)]
 
-Šiem darba ņēmējiem, kuri ir avansa turētāji var grāmatot, izmantojot avansa turētāja kontu darbības. Darbinieka ID, kurā norādīts katra avansa turētāja var izmantot, lai izsekotu visu avansa turētāja darbības. Šis numurs tiek iegūts kā konta numurs avansa turētāja darījumiem **Virsgrāmatas žurnālos** un **avansa turētāja darbības** lapas.
 
-## <a name="create-and-post-a-purchase-order-with-advance-holder-details"></a>Izveidotu un grāmatotu pirkšanas pasūtījumu ar avansa turētāja detaļas
-Vispārīga informācija par iepirkuma pasūtījumu, skatiet [pirkšanas pasūtījumu pārskats](/manufacturing/procurement/purchase-order-overview). Ja kreditora rēķins izveidots un publicēts ar avansa turētāja detaļas, avansa turētāja bilances tiks grāmatotas darbinieku bilances kontā, nevis piegādātāja bilances kontu. Pievienot pirkšanas pasūtījumam avansa turētāja detaļas, rīkojieties šādi:
+Uzziniet, kā strādāt ar avansa turētāju transakcijām programmatūrā Microsoft Dynamics 365 for Operations.
 
--   Šajā **maksāšanas** lauku **cenu un atlaižu** sadaļu, atlasiet apmaksas termiņš. <!---For more information about **Terms of payment**, see [Define vendor payment terms](http://ax.help.dynamics.com/en/wiki/define-vendor-payment-terms/).-->Atlasiet maksājuma termiņu, kas ir **no avansa turētāja** opciju, kas atlasīta cilnē **maksāšanas** lapā. Plašāku informāciju par maksāšanas avansa turētāji iestatīšanu, skatiet [avansa turētāji](emea-advance-holders.md).
--   Šajā **avansa turētāja** lauku **cenu un atlaižu** FastTab, atlasiet avansa turētāja pirkšanas pasūtījumam.
+Šiem darbiniekiem, kuri ir avansa turētāji, transakcijas var grāmatot, izmantojot avansa turētāju kontus. Lai izsekotu visas avansa turētāja transakcijas, var izmantot katram avansa turētājam norādīto nodarbinātā ID. Šis numurs kā konta numurs avansa turētāju transakcijām tiek izgūts lapās **Virsgrāmatas žurnāli** un **Avansa turētāju transakcijas**.
 
-Iepirkuma pasūtījuma grāmatošanas procesu veido divas kreditoru darbību ar pretēju summām un vienu avansa turētāja darbības. Tikai viena kreditora darbība tiek izveidota bez avansa turētāja detaļas.
+## <a name="create-and-post-a-purchase-order-with-advance-holder-details"></a>Izveidot un grāmatot pirkšanas pasūtījumu ar avansa turētāja informāciju
+Vispārīgāku informāciju par pirkšanas pasūtījumiem skatiet rakstā [Pirkšanas pasūtījuma apskats](/manufacturing/procurement/purchase-order-overview). Ja tiek izveidots un grāmatots kreditora rēķins ar avansa turētāja informāciju, tad avansa turētāja bilances tiks grāmatotas darbinieka bilances kontā, nevis kreditora bilances kontā. Lai pirkšanas pasūtījumam pievienotu avansa turētāja informāciju, izpildiet tālāk sniegtos norādījumus.
 
-## <a name="settle-advance-holder-balances-via-a-bank"></a>Avansa turētāja bilances norēķināties ar bankas starpniecību
-Kad iestatāt avansa turētāja bilances ar bankas starpniecību, dienasgrāmatas ierakstu beigu atlikumiem avansa turētāja izveidotas Virsgrāmatas žurnālā. Varat iestatīt žurnāla un bankas kods **avansa turētāji** sadaļu par **debitoru kreditoru parametrus** lapā. Lai iegūtu papildinformāciju, skatiet [avansa turētāji](emea-advance-holders.md). Slēgt avansa turētāja bilance ar bankas starpniecību, atveriet **kreditoru parādi**&gt;**avansa turētāji**&gt;**avansa turētāji**. Noklikšķiniet uz **atlikums** pogas darbību rūtī un pēc tam noklikšķiniet uz **tuvu caur bankas**. Ievadiet tālāk minēto informāciju **cieši ar bankas starpniecību** lapā.
+-   Sadaļas **Cena un atlaide** laukā **Maksājuma nosacījumi** atlasiet maksājuma nosacījumu. <!---For more information about **Terms of payment**, see [Define vendor payment terms](http://ax.help.dynamics.com/en/wiki/define-vendor-payment-terms/).--> Atlasiet maksājumu, kuram lapā **Maksājuma nosacījumi** ir atzīmēta opcija **No avansa turētāja**. Papildinformāciju par maksājumu nosacījumu iestatīšanu avansa turētājiem skatiet rakstā [Avansa turētāji](emea-advance-holders.md).
+-   Kopsavilkuma cilnes **Cena un atlaide** laukā **Avansa turētājs** pirkšanas pasūtījumam atlasiet avansa turētāju.
 
-| Lauks                    | apraksts |
+Pirkšanas pasūtījuma grāmatošanas process izveido divas kreditora transakcijas ar pretējām summām un vienu avansa turētāja transakciju. Bez avansa turētāja informācijas tiek izveidota tikai viena kreditora transakcija.
+
+## <a name="settle-advance-holder-balances-via-a-bank"></a>Nosegt avansa turētāja bilances, izmantojot banku
+Kad avansa turētāja bilances nosedzat, izmantojot banku, avansa turētāja bilanču slēgšanas žurnāla ieraksti tiek izveidoti virsgrāmatas žurnālā. Žurnāla un bankas kodu varat iestatīt lapas **Kreditoru moduļa parametri** sadaļā **Avansa turētāji**. Plašāku informāciju skatiet rakstā [Avansa turētāji](emea-advance-holders.md). Lai slēgtu avansa turētāja bilanci, izmantojot banku, atveriet sadaļu **Parādi kreditoriem** &gt; **Avansa turētāji** &gt; **Avansa turētāji**. Darbību rūtī noklikšķiniet uz pogas **Bilance** un pēc tam noklikšķiniet uz **Slēgt no bankas**. Lapā **Slēgt no bankas** ievadiet tālāk minēto informāciju.
+
+| Lauks                    | Apraksts |
 |------------------------------|-------------------|
-| **Date of payment**          | Ievadiet datumu, kurā jāgrāmato maksājumu.|
-| **Summa pārsūtīšanai** | Ievadiet vienlaikus slēguma bilances summa. Summa, kas norādīta **summu** lauku **atlikums** forma tiek atvērta pēc noklusējuma. |
-| **Automatic**                | Atlasiet **automātisko** izvēles rūtiņu, lai veidotu un grāmatotu žurnālu, kas ir iestatīts uz **debitoru kreditoru parametrus** lapā.|
+| **Maksājuma datums**          | Ievadiet datumu, kad maksājums ir jāgrāmato.|
+| **Summa pārskaitīšanai** | Ievadiet bilances summu slēgšanas laikā. Laukā **Summa** norādītā summa formā **Bilance** tiek rādīta pēc noklusējuma. |
+| **Automātiski**                | Atzīmējiet izvēles rūtiņu **Automātiski**, lai izveidotu un grāmatotu žurnālu, kurš ir sākotnēji iestatīts lapā **Kreditoru moduļa parametri**.|
 
-## <a name="settle-advance-holder-balances-via-cash"></a>Avansa turētāja bilances caur kases apmesties
-Kad iestatāt avansa turētāja bilances caur kases, dienasgrāmatas ieraksti avansa turētāja bilances slēgšanas tiek izveidotas pavadzīmes žurnāls. Varat uzstādīt kodu žurnāla un naudas **avansa turētāji** cilni **debitoru kreditoru parametrus** lapā. Lai iegūtu papildinformāciju, skatiet [avansa turētāji](emea-advance-holders.md). Slēgt avansa turētāja bilance caur kases, atveriet **kreditoru parādi**&gt;**avansa turētāji**&gt;**avansa turētāji**. Noklikšķiniet uz **atlikums** pogas darbību rūtī un pēc tam noklikšķiniet uz **Close, izmantojot naudas**. Ievadiet tālāk minēto informāciju **Close, izmantojot naudas** lapā.
+## <a name="settle-advance-holder-balances-via-cash"></a>Nosegt avansa turētāja bilances, izmantojot skaidru naudu
+Kad nosedzat avansa turētāja bilances, izmantojot skaidru naudu, avansa turētāja bilanču slēgšanas žurnāla ieraksti tiek izveidoti pavadzīmju žurnālā. Žurnāla un skaidras naudas kodu varat iestatīt lapas **Kreditoru moduļa parametri** cilnē **Avansa turētāji**. Plašāku informāciju skatiet rakstā [Avansa turētāji](emea-advance-holders.md). Lai slēgtu avansa turētāja bilanci, izmantojot skaidru naudu, atveriet sadaļu **Parādi kreditoriem** &gt; **Avansa turētāji** &gt; **Avansa turētāji**. Darbību rūtī noklikšķiniet uz pogas **Bilance** un pēc tam noklikšķiniet uz **Slēgt no kases**. Lapā **Slēgt no kases** ievadiet tālāk minēto informāciju.
 
-| Lauks                    | apraksts
+| Lauks                    | Apraksts
 |------------------------------|-----------------|
-| **Date of payment**          | Ievadiet datumu, kurā jāgrāmato maksājumu.|
-| **Summa pārsūtīšanai** | Ievadiet vienlaikus slēguma bilances summa. Summa, kas norādīta **summu** lauku **atlikums** forma tiek atvērta pēc noklusējuma. |
-| **Automatic**                | Atlasiet **automātisko** izvēles rūtiņu, lai veidotu un grāmatotu automātiski žurnālu, kas ir iestatīts uz **debitoru kreditoru parametrus** lapā.     |
+| **Maksājuma datums**          | Ievadiet datumu, kad maksājums ir jāgrāmato.|
+| **Summa pārskaitīšanai** | Ievadiet bilances summu slēgšanas laikā. Laukā **Summa** norādītā summa formā **Bilance** tiek rādīta pēc noklusējuma. |
+| **Automātiski**                | Atzīmējiet izvēles rūtiņu **Automātiski**, lai automātiski izveidotu un grāmatotu žurnālu, kurš ir sākotnēji iestatīts lapā **Kreditoru moduļa parametri**.     |
 
-Pēc pavadzīmes žurnāls tiek apstrādāts, ja summa **summa jāpārskaita** laukumā bija negatīvs, izdevumu orderis tiek ģenerēta avansa turētāja bilances aizverot. Ja summa **summa jāpārskaita** lauks bija pozitīvs, ieņēmumu orderis tiek ģenerēts.
+Pēc pavadzīmju žurnāla apstrādāšanas, ja laukā **Summa pārskaitīšanai** summa bija negatīva, tad avansa turētājam tiek ģenerēts izdevumu orderis, kad bilances tiek slēgtas. Ja laukā **Summa pārskaitīšanai** summa bija pozitīva, tad tiek ģenerēts ieņēmumu orderis.
+
+
 
 

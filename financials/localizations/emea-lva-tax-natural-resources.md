@@ -1,6 +1,6 @@
 ---
 title: "Dabas resursu nodokļa pārskats"
-description: "Šajā tēmā ir paskaidrots, kā iestatīt un radīt nodoklis par dabas resursiem (NR nodokļu) ziņojums."
+description: "Šajā tēmā ir paskaidrots, kā iestatīt un ģenerēt pārskatu Dabas resursu nodoklis (DRN)."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,125 +27,130 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="tax-on-natural-resources-report"></a>Dabas resursu nodokļa pārskats
 
-Šajā tēmā ir paskaidrots, kā iestatīt un radīt nodoklis par dabas resursiem (NR nodokļu) ziņojums.
+[!include[banner](../includes/banner.md)]
 
-Latviešu uzņēmumi ir periodiski jāiesniedz **dabas resursu nodokli** (**NR nodokļu**) ziņojums. Šī darbība attiecas tikai uz juridiskām personām Latvija. Arī nodoklis jāaprēķina par importēto vai pašu ražotās preces, kas tiek izmantots iekšēji. Visbeidzot, iepakojuma materiāli, ko izmanto iepakojuma precēm, kas tiek pārdoti pārskata periodā ir jāaprēķina nodoklis par dabas resursiem.
+
+Šajā tēmā ir paskaidrots, kā iestatīt un ģenerēt pārskatu Dabas resursu nodoklis (DRN).
+
+Uzņēmumiem Latvijā ir periodiski jāiesniedz pārskats **Dabas resursu nodoklis** (**DRN**). Šī funkcionalitāte attiecas tikai uz juridiskajām personām Latvijā. Nodoklis ir jāaprēķina arī par importētajām vai pašu ražotajām precēm, kuras tiek lietotas iekšēji. Visbeidzot — dabas resursu nodoklis ir jāaprēķina par pārskata perioda laikā pārdoto iepakoto preču iepakojuma materiāliem.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
-| Priekšnoteikumi                                                   | Papildinformācija                                                                                                                                                                                                                                                                                                                                                                                            |
+| Priekšnosacījums                                                   | Papildinformācija                                                                                                                                                                                                                                                                                                                                                                                            |
 |----------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Iestatīt PVN iestādi.                                        |    |
-| Iestatiet Virsgrāmatas grāmatošanas grupas, par dabas resursu nodokli. |  |
-| Iestatītu apmaksas periodu, par dabas resursu nodokli.      |  |
-| Jāiestata PVN kodi par dabas resursu nodokli.          | |
-| Iestatīt PVN grupas, par dabas resursu nodokli.         |  |
-| Iestatīt PVN grupas, par dabas resursu nodokli.               | Lietošanas **dabas resursu nodokļu grupa** lapu, lai uzstādītu PVN grupām, kas nosaka pareizo PVN kodiem, kas pamatojas uz krustojuma nodokļu grupu un PVN grupu par dabas resursu nodokli.                                                                                                                                                                                                    |
-| Iestatiet krājumu parametros.                                   | Par **krājumu un noliktavu pārvaldības parametri** lapa, kas **Aprēķiniet iepakojuma materiālu izmaksas** iespēju **Jā**. Šajā **PVN grupa** lauku, atlasiet PVN grupu, par dabas resursu nodokli. Pēc noklusējuma šī PVN grupa tiek lietota, lai atrastu PVN kodu, kas tiek lietots atskaitē aprēķiniem, ja darbība, kas tiek pārsūtīts ziņojums ir bez PVN grupu. |
-| Norādiet vienuma dabas resursu nodokļu informāciju.         | Produkta informācijas pārvaldību, par **atbrīvo produktus** lapa par **pārvaldīt krājumu** cilni, jo **dabas resursu nodokļu grupas** lauku, norādiet vērtību, lai aprēķinātu dabas resursu nodokli pārdošanai vai krājumu darbības krājumam.                                                                                                                                              |
+| Iestatiet nodokļu iestādi.                                        |    |
+| Iestatiet virsgrāmatas grāmatošanas grupu dabas resursu nodoklim. |  |
+| Iestatiet nosegšanas periodu dabas resursu nodoklim.      |  |
+| Iestatiet PVN kodus dabas resursu nodoklim.          | |
+| Iestatiet PVN grupas dabas resursu nodoklim.         |  |
+| Iestatiet nodokļu grupas dabas resursu nodoklim.               | Izmantojiet lapu **Dabas resursu nodokļu grupa**, lai iestatītu nodokļu grupas, kurās ir definēti pareizie PVN kodi, ņemot vērā nodokļu grupas un PVN grupas krustpunktu dabas resursu nodoklim.                                                                                                                                                                                                    |
+| Iestatiet krājumu parametrus.                                   | Lapā **Krājumu un noliktavas vadības parametri** opcijai **Aprēķināt iepakojuma materiālu maksas** iestatiet vērtību **Jā**. Laukā **PVN grupa** atlasiet PVN grupu dabas resursu nodoklim. Pēc noklusējuma šī PVN grupa tiek lietota, lai atrastu PVN kodu, kurš tiek lietots pārskata aprēķinos, ja uz pārskatu pārsūtītajai transakcijai nav PVN grupas. |
+| Norādiet dabas resursu nodokļa informāciju kādam krājumam.         | Preču informācijas pārvaldības lapā **Izlaistās preces**, cilnē **Pārvaldīt krājumus**, laukā **Dabas resursu nodokļa grupa** norādiet kādu vērtību, lai dabas resursu nodokli aprēķinātu kādam krājumam pārdošanas vai krājumu transakcijās.                                                                                                                                              |
 
-## <a name="report-setup"></a>Pārskatu izveidošana
-Pirms varat ģenerēt **dabas resursu nodokļu** atskaitē iestatiet rindas par katru atskaites izkārtojumu. Atkārtot šīs darbības katrai rindai katrā atskaites izkārtojumu.
+## <a name="report-setup"></a>Pārskatu iestatīšana
+Lai varētu ģenerēt pārskatu **Dabas resursu nodoklis**, ir jāiestata rindas katram pārskata izkārtojumam. Katrā pārskata izkārtojumā katrai rindai izpildiet tālāk aprakstītās darbības.
 
-1.  Noklikšķiniet uz **nodokļu**&gt;**Setup**&gt;**PVN**&gt;**dabas resursu nodokļa pārskata iestatījumi**.
-2.  Click **New**.
-3.  Šajā **formas numurs** lauku, atlasiet formu, lai iestatītu:
-    -   **Form 2** -šī forma parāda informāciju par izmantošanu dabas resursus un vides piesārņojumu, kas tiek ģenerēta pārskata periodā.
-    -   **Veidlapa Nr. 3** -šī forma tiek parādīta informācija par dabas resursu nodokli, kas aprēķināts attiecībā uz precēm, kas ievesti vai uzņēmums ražo un pārdod Latvija pirmo reizi.
+1.  Noklikšķiniet uz **Nodokļi** &gt; **Iestatīšana** &gt; **PVN** &gt; **Dabas resursu nodokļa pārskata iestatīšana**.
+2.  Noklikšķiniet uz **Jauns**.
+3.  Laukā **Formas numurs** atlasiet iestatāmo formu no tālāk uzskaitītajām.
+    -   **2. forma** — šajā formā tiek rādīta informācija par dabas resursu lietojumu un visu vides piesārņojumu, kas ir ģenerēts pārskata periodā.
+    -   **3. forma** — šajā formā tiek rādīta informācija par dabas resursu nodokli, kas ir aprēķināts precēm, kuras uzņēmums importēja vai saražoja un pārdeva Latvijā pirmo reizi.
 
-4.  Atlasiet sērijas numuru. Šis skaitlis norāda rindas pozīciju secībā no atskaites līnijas.
-5.  Šajā **līnijas veidu** lauku, atlasiet atskaites rindas tips:
-    -   **Galvenes** -rinda tiek drukāta kā galvenes rindas atskaites lapās.
-    -   **Line**
-    -   **Kopējais** -rinda rāda kopsavilkuma rindu vērtības.
+4.  Atlasiet sērijas numuru. Šis numurs norāda rindas pozīciju pārskatā iekļauto rindu virknē.
+5.  Laukā **Rindas tips** atlasiet pārskata rindas tipu no tālāk uzskaitītajiem.
+    -   **Galvene** — šī rinda pārskatu lapās tiek drukāta kā galvenes rindas.
+    -   **Rinda**
+    -   **Kopsumma** — rindā tiek rādīta rindu vērtību kopsumma.
 
-6.  Ja esat atlasījis **Line** 5. solī ievadiet rindas kods **dabas resursu nodokļa** atskaites līniju.
-7.  Šajā **aprakstu** laukā, ievadiet īsu darbības aprakstu.
-8.  Šajā **Total rindas kods** ievadiet kopējo līniju kodu. Ja esat atlasījis **Line** solis 5, **noliktava** laukā ir norādīts noliktavas kods.
-9.  Šajā **PVN kods** lauku, atlasiet PVN kodu, kas tika izveidota dabas resursu nodokļa aprēķināšanai.
-10. Šajā **iepakojuma materiālu kodam** lauku, atlasiet iepakojuma materiāla kodu, kas tika izveidota, par dabas resursu nodokli. Šis lauks nav pieejams, atlasot PVN kodu laukā **PVN kods** lauks. Tikai viens no šiem diviem laukiem ir pieejama laikā.
+6.  Ja 5. darbībā atlasījāt **Rinda**, ievadiet rindas kodu pārskata rindai **Dabas resursu nodoklis**.
+7.  Laukā **Apraksts** ievadiet īsu transakcijas aprakstu.
+8.  Laukā the **Kopsummas rindas kods** ievadiet kopsummas rindas kodu. Ja 5. darbībā atlasījāt **Rinda**, laukā **Noliktava** tiek rādīts noliktavas kods.
+9.  Laukā **PVN kods** atlasiet PVN kodu, kurš tika izveidots dabas resursu nodokļa aprēķinam.
+10. Laukā **Iepakojuma materiālu kods** atlasiet iepakojuma materiālu kodu, kurš tika izveidots dabas resursu nodoklim. Šis lauks nav pieejams, ja laukā **PVN kods** ir atlasīts kāds PVN kods. Vienlaicīgi ir pieejams tikai viens no šiem diviem laukiem.
 
-### <a name="example-form-2-layout"></a>Piemērs: 2 formas izkārtojumu
+### <a name="example-form-2-layout"></a>Piemērs. 2. formas izkārtojums
 
-Šis piemērs izkārtojums satur šādus informācijas elementus:
+Šajā piemērā izkārtojumā ietilpst tālāk uzskaitītie informācijas elementi.
 
--   Galvenes, kas iepazīstina ar pārskata saturu
--   Rindas, kas parāda apraksti un atsevišķas atskaites vērtības
--   Kopsummas rindas vērtības
+-   Galvene, kas sniedz ievadu par pārskata saturu
+-   Rindas, kurās ir redzams apraksts un atsevišķas pārskata vērtības
+-   Rindu vērtību kopsummas
 
-| Formas numurs | Rindas tips | Sērijas numurs | Rindas kods | apraksts                                | Kopsummas rindas kods | Atrašanās vietas Id | Dabas resursu nodokļa kods | Iepakojuma materiāla kods |
+| Formas numurs | Rindas tips | Sērijas numurs | Rindas kods | Apraksts                                | Kopsummas rindas kods | Novietojuma ID | Dabas resursu nodokļa kods | Iepakojuma materiāla kods |
 |-------------|-----------|-----------------|-----------|--------------------------------------------|-----------------|-------------|----------------------------|-----------------------|
-| 2. forma      | Virsraksts    | 1.               |           | Es. Nodoklis par dabas resursu izmantošanu |                 |             |                            |                       |
-| 2. forma      | Summa     | 2.               | 1.         | Dabas resursu (kopā) izmantošanu   | 3.               |             |                            |                       |
-| 2. forma      | Līnija      | 3.               | 1,1       | "Contoso" ražošanas Co                   | 1.               | 785200      | NR-ūdens                   |                       |
-| 2. forma      | Līnija      | 4.               | 1,2       | Smilšu kaste Nr1                                | 1.               | 600900      | NR-smilšu                    |                       |
-| 2. forma      | Summa     | 5.               | 2.         | Vides piesārņojums (kopā)              | 3.               |             |                            |                       |
-| 2. forma      | Līnija      | 6.               | 2,1       | "Contoso" ražošanas Co                   | 2.               | 785200      | NR CO2                     |                       |
-| 2. forma      | Līnija      | 7.               | 2,1       | Pārskata rindas                             | 2.               |             |                            |                       |
-| 2. forma      | Summa     | 8.               | 3.         | Kopsummas rindā (1 + 2)                  |                 |             |                            |                       |
-| 2. forma      | Līnija      | 9.               | 4.         | Pārskata rindas                             |                 |             |                            |                       |
+| 2. forma      | Galvene    | 1               |           | I. Nodoklis par dabas resursu lietojumu |                 |             |                            |                       |
+| 2. forma      | Summa     | 2               | 1         | Dabas resursu lietojums (kopsumma)   | 3               |             |                            |                       |
+| 2. forma      | Rinda      | 3               | 1.1       | Contoso Manufacturing Co                   | 1               | 785200      | NR-water                   |                       |
+| 2. forma      | Rinda      | 4               | 1.2       | Smilšu karjers nr. 1                                | 1               | 600900      | NR-sand                    |                       |
+| 2. forma      | Summa     | 5               | 2         | Vides piesārņojums (kopsumma)              | 3               |             |                            |                       |
+| 2. forma      | Rinda      | 6               | 2.1       | Contoso Manufacturing Co                   | 2               | 785200      | NR-CO2                     |                       |
+| 2. forma      | Rinda      | 7               | 2.1       | Pārskata rinda                             | 2               |             |                            |                       |
+| 2. forma      | Kopsumma     | 8               | 3         | Kopsummas rinda (1. rinda + 2. rinda)                  |                 |             |                            |                       |
+| 2. forma      | Rinda      | 9               | 4         | Pārskata rinda                             |                 |             |                            |                       |
 
-### <a name="example-form-3-layout"></a>Piemērs: 3 formas izkārtojumu
+### <a name="example-form-3-layout"></a>Piemērs. 3. formas izkārtojums
 
-Šajā piemērā izkārtojuma ir šādi elementi:
+Šajā piemērā izkārtojumā ietilpst tālāk uzskaitītie elementi.
 
--   Galvenes, kas iepazīstina ar pārskata saturu
--   Rindas, kas parāda apraksti un atsevišķas atskaites vērtības
--   Kopsummas rindas vērtības
+-   Galvene, kas sniedz ievadu par pārskata saturu
+-   Rindas, kurās ir redzams apraksts un atsevišķas pārskata vērtības
+-   Rindu vērtību kopsummas
 
-| Formas numurs | Rindas tips | Sērijas numurs | Rindas kods | apraksts                                                       | Kopsummas rindas kods | Atrašanās vietas Id | Dabas resursu nodokļa kods | Iepakojuma materiāla kods |
+| Formas numurs | Rindas tips | Sērijas numurs | Rindas kods | Apraksts                                                       | Kopsummas rindas kods | Novietojuma ID | Dabas resursu nodokļa kods | Iepakojuma materiāla kods |
 |-------------|-----------|-----------------|-----------|-------------------------------------------------------------------|-----------------|-------------|----------------------------|-----------------------|
-| 3. forma      | Virsraksts    | 1.               |           | Es. Nodoklis par bīstamām precēm, iepakojuma materiālus un reklamācija ēdieni |                 |             |                            |                       |
-| 3. forma      | Summa     | 2.               | 1.         | Bīstamās preces - pavisam:                                          | 4.               |             |                            |                       |
-| 3. forma      | Līnija      | 3.               | 1,1       | Alumīnija foliju                                                     | 1.               |             | NR GAlum                   |                       |
-| 3. forma      | Līnija      | 4.               | 1,2       |                                                                   | 1.               |             |                            |                       |
-| 3. forma      | Summa     | 5.               | 2.         | Iepakošanas materiāli - pavisam:                                        | 4.               |             |                            |                       |
-| 3. forma      | Līnija      | 6.               | 2,1       | Iepakošana: stikla                                                    | 2.               |             |                            | PM-stikla              |
-| 3. forma      | Līnija      | 7.               | 2.2       | Iepakošana: plastmasa                                                 | 2.               |             |                            | PM-plastmasas            |
-| 3. forma      | Līnija      | 8.               | 2.3       | Iepakojums: metāla folija                                               | 2.               |             |                            | PM-MetalF             |
-| 3. forma      | Līnija      | 9.               | 2.4       | Iepakojums: koka, papīra, kartona kārbās                                     | 2.               |             |                            | PM-WPC                |
-| 3. forma      | Summa     | 10.              | 3.         | Reklamācija ēdieni - pavisam:                                         | 4.               |             |                            |                       |
-| 3. forma      | Līnija      | 11.              | 3.1       | plastmasa                                                          | 3.               |             |                            | T-Plast               |
-| 3. forma      | Līnija      | 12.              | 3.2       | Metāla folija                                                        | 3.               |             |                            | T MetalF              |
-| 3. forma      | Līnija      | 13.              | 3.3       | Koksne, papīrs, kartons                                              | 3.               |             |                            | T-WPC                 |
-| 3. forma      | Summa     | 14.              | 4.         | Kopsummas rindā (1 + 2 + line3)                                 |                 |             |                            |                       |
+| 3. forma      | Galvene    | 1               |           | I. Nodoklis par bīstamām precēm, iepakojuma materiāliem un vienreizlietojamajiem traukiem |                 |             |                            |                       |
+| 3. forma      | Kopsumma     | 2               | 1         | Bīstamas preces - Kopsumma:                                          | 4               |             |                            |                       |
+| 3. forma      | Rinda      | 3               | 1.1       | Alumīnija folija                                                     | 1               |             | NR-GAlum                   |                       |
+| 3. forma      | Rinda      | 4               | 1.2       |                                                                   | 1               |             |                            |                       |
+| 3. forma      | Kopsumma     | 5               | 2         | Iepakojuma materiāli - Kopsumma:                                        | 4               |             |                            |                       |
+| 3. forma      | Rinda      | 6               | 2.1       | Iepakojums: stikls                                                    | 2               |             |                            | PM-Glass              |
+| 3. forma      | Rinda      | 7               | 2.2       | Iepakojums: plastmasa                                                 | 2               |             |                            | PM-Plastic            |
+| 3. forma      | Rinda      | 8               | 2.3       | Iepakojums: metāla folija                                               | 2               |             |                            | PM-MetalF             |
+| 3. forma      | Rinda      | 9               | 2.4       | Iepakojums: koks, papīrs, kartons                                     | 2               |             |                            | PM-WPC                |
+| 3. forma      | Summa     | 10              | 3         | Vienreizlietojamie trauki - Kopsumma:                                         | 4               |             |                            |                       |
+| 3. forma      | Rinda      | 11              | 3.1       | plastmasa                                                          | 3               |             |                            | T-Plast               |
+| 3. forma      | Rinda      | 12              | 3.2       | Metāla folija                                                        | 3               |             |                            | T-MetalF              |
+| 3. forma      | Rinda      | 13              | 3.3       | Koks, papīrs, kartons                                              | 3               |             |                            | T-WPC                 |
+| 3. forma      | Summa     | 14              | 4         | Kopsummas rinda (1. rinda + 2. rinda + 3. rinda)                                 |                 |             |                            |                       |
 
-## <a name="generate-the-natural-resources-tax-report"></a>Dabas resursu nodokļu atskaites ģenerēšanai
-Dabas resursu nodokļi tiek aprēķināti krājumu žurnāla darbību laikā, un, kad pārdošanas vai projekta rēķini tiek izveidoti latviešu patērētājus, ja darījumi ietver krājumus, kas tiek apliktas ar dabas resursu nodokli. Šajā sadaļā aprakstīts, saņemt sarakstu ar dabas resursu nodokļu darbībām, kas saistītas ar iepakojuma materiāliem un izdrukāt dabas resursu nodokļa deklarācija.
+## <a name="generate-the-natural-resources-tax-report"></a>Ģenerēt dabas resursu nodokļa pārskatu
+Dabas resursu nodokļi tiek rēķināti krājumu žurnālu transakciju laikā un gadījumos, kad Latvijas debitoriem tiek izveidoti pārdošanas vai projektu rēķini, ja transakcijās ir iesaistīti krājumi, uz kuriem attiecas dabas resursu nodoklis. Šajā sadaļā ir aprakstīts, kā iegūt sarakstu ar dabas resursu nodokļa transakcijām, kas ir saistītas ar iepakojuma materiāliem, un kā izdrukāt dabas resursu nodokļa deklarāciju.
 
-1.  Noklikšķiniet uz **nodokļu**&gt;**deklarācijas**&gt;**PVN**&gt;**dabas resursu nodokli**.
-2.  Noklikšķiniet uz **veidot**&gt;**izveidot dabas resursu nodokļu rindas iepakojuma**.
-3.  Ievadiet ceturkšņa un gada pārskata perioda.
-4.  Noklikšķiniet uz **OK** nodot informāciju, kas tiek lietota, lai ģenerētu pārskatu par iepakojuma materiāliem par pārskata perioda nodokli.
-5.  Noklikšķiniet uz **veidot**&gt;**izveidot dabas resursu nodokļu rindas krājumos,**.
-6.  Ievadiet ceturkšņa un gada pārskata perioda.
-7.  Noklikšķiniet uz **OK** nodot informāciju, kas tiek lietota, lai ģenerētu atskaiti par nodokli par bīstamiem materiāliem.
-8.  Pēc dabas resursu nodokļu rindas izveidošanas, var manuāli pievienot vai modificēt norādīto informāciju, katrā rindā.
-    | Lauks                      | apraksts                                                                                                                                                                                                                              |
+1.  Noklikšķiniet uz **Nodokļi** &gt; **Deklarācijas** &gt; **PVN** &gt; **Dabas resursu nodoklis**.
+2.  Noklikšķiniet uz **Izveidot** &gt; **Izveidot dabas resursu nodokļa rindas iepakojumam**.
+3.  Ievadiet attiecīgā pārskatu perioda ceturksni un gadu.
+4.  Noklikšķiniet uz **Labi**, lai pārsūtītu informāciju, kura tiks izmantota, lai ģenerētu pārskatu par iepakojuma materiāliem šajā pārskata periodā.
+5.  Noklikšķiniet uz **Izveidot** &gt; **Izveidot dabas resursu nodokļa rindas krājumiem**.
+6.  Ievadiet attiecīgā pārskatu perioda ceturksni un gadu.
+7.  Noklikšķiniet uz **Labi**, lai pārsūtītu informāciju, kura tiks izmantota, lai ģenerētu pārskatu par bīstamu materiālu nodokli.
+8.  Kad dabas resursu nodokļa rindas ir izveidotas, katrā rindā informāciju varat manuāli pievienot vai modificēt.
+    | Lauks                      | Apraksts                                                                                                                                                                                                                              |
     |----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | Dokuments                    | Dokumenta numurs Virsgrāmatā.                                                                                                                                                                                                        |
-    | Datums                       | Datumu no dabas resursu nodokļa darbību.                                                                                                                                                                                       |
+    | Datums                       | Dabas resursu nodokļa transakcijas datums.                                                                                                                                                                                       |
     | Rēķins                    | Rēķina identifikators.                                                                                                                                                                                                           |
-    | Darbības veids           | Veida dabas resursu nodokļa darbību. Pieejamās opcijas ir **par bīstamām precēm nodokli** un **nodokli par iepakojuma materiāliem**.                                                                                                |
-    | Dabas resursu nodokļu grupa | Dabas resursu nodokļu grupu. Šis lauks nav pieejams **nodokli par iepakojuma materiāliem** atlasīta **transakcijas tipu** lauks.                                                                                         |
-    | PVN grupa            | PVN grupa, kas izveidota dabas resursu nodokļi, kas tiek aprēķināts pārdošanas vai pirkšanas darbību laikā. Šis lauks nav pieejams **nodokli par iepakojuma materiāliem** atlasīta **transakcijas tipu** lauks. |
-    | PVN kods             | Kods, kurš identificē PVN.                                                                                                                                                                                                  |
-    | PVN bāzes summa            | PVN tiek aprēķināts no sākotnējās summas. Šis lauks nav pieejams **nodokli par iepakojuma materiāliem** atlasīta **transakcijas tipu** lauks.                                                                   |
+    | Transakcijas tips           | Dabas resursu nodokļa transakcijas tips. Pieejamās opcijas ir **Bīstamu krājumu nodoklis** un **Iepakojuma materiālu nodoklis**.                                                                                                |
+    | Dabas resursu nodokļu grupa | Dabas resursu nodokļu grupa. Šis lauks nav pieejams, ja laukā **Transakcijas tips** ir atlasīta vērtība **Iepakojuma materiālu nodoklis**.                                                                                         |
+    | PVN grupa            | Pārdošanas vai pirkšanas transakcijas laikā aprēķinātajiem dabas resursu nodokļiem izveidotā PVN grupa. Šis lauks nav pieejams, ja laukā **Transakcijas tips** ir atlasīta vērtība **Iepakojuma materiālu nodoklis**. |
+    | PVN kods             | Kods, kas identificē PVN.                                                                                                                                                                                                  |
+    | Nodokļa bāzes summa            | Sākotnējā summa, no kuras tiek rēķināts PVN. Šis lauks nav pieejams, ja laukā **Transakcijas tips** ir atlasīta vērtība **Iepakojuma materiālu nodoklis**.                                                                   |
     | PVN summa                 | Aprēķinātā PVN summa.                                                                                                                                                                                                         |
-    | MK rinda                   | Atlasiet šo opciju, ja darbība ir MK (materiālu komplekta) līnija.                                                                                                                                                                 |
-    | Atsauce                  | Moduli, kas ģenerē darbības.                                                                                                                                                                                               |
-    | Skaits                     | Skaitli, piemēram, pasūtījuma numuru, projekta numuru vai ražošanas uzdevuma numurs.                                                                                                                                                                  |
-    | Atsauces tabulas ID         | Avota tabulas darbības.                                                                                                                                                                                                    |
-    | Atsauce                  | Atsauces avota laukā citā tabulā.                                                                                                                                                                                         |
+    | MK rinda                   | Atzīmējiet šo opciju, ja transakcija ir MK (materuālu komplekta) rinda.                                                                                                                                                                 |
+    | Atsauce                  | Modulis, kas ģenerē šo transakciju.                                                                                                                                                                                               |
+    | Numurs                     | Numurs, piemēram, pasūtījuma numurs, projekta numurs vai ražošanas numurs.                                                                                                                                                                  |
+    | Atsauces tabulas ID         | Transakcijas avota tabula.                                                                                                                                                                                                    |
+    | Atsauce                  | Avota atsauces lauks citā tabulā.                                                                                                                                                                                         |
 
-    **Piezīme:** laukos **iepakojuma materiālu** lauka grupa ir pieejama tikai tad, ja atlasāt **nodokli par iepakojuma materiāliem**, **transakcijas tipu** lauks.
-9.  Noklikšķiniet uz **datu validācijas** apstiprināt dabas resursu nodokļa darbību rindas.
-10. Izlabojiet kļūdas manuāli rediģējot līnijas.
-11. Click **Print**.
-12. Ievadiet atskaites gadu.
-13. Atlasiet rīkotājdirektors.
-14. Atlasiet personu, kura ir atbildīga par ziņojumu.
-15. Atlasiet PVN iestādi.
-16. Noklikšķiniet uz **OK** drukāt pārskatu par dabas resursu nodokli.
+    **Piezīme.** Lauku grupā **Iepakojuma materiāli** lauki ir pieejami tikai tad, ja laukā **Transakcijas tips** ir atlasīta opcija **Iepakojuma materiālu nodoklis**.
+9.  Noklikšķiniet uz **Datu validēšana**, lai validētu dabas resursu nodokļa transakciju rindas.
+10. Izlabojiet visas kļūdas, rindas rediģējot manuāli.
+11. Noklikšķiniet uz **Drukāt**.
+12. Ievadiet pārskata gadu.
+13. Atlasiet rīkotājdirektoru.
+14. Atlasiet par pārskatu atbildīgo personu.
+15. Atlasiet nodokļu iestādi.
+16. Noklikšķiniet uz **Labi**, lai drukātu deklarāciju par dabas resursu nodokli.
+
+
 
 
 

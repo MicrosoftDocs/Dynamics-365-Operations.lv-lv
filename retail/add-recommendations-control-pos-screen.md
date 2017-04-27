@@ -1,6 +1,6 @@
 ---
-title: "Rekomendācijas vadīklas pievienošana POS ierīces darbības lapā"
-description: "Šajā tēmā ir aprakstīts, kā pievienot rekomendācijas kontroles punktu sale (POS) ierīces ekspluatācijai, izmantojot ekrāna izkārtojuma dizainers Microsoft Dynamics 365 darījuma ekrāna."
+title: "Pievienot ieteikumu vadīklu POS ierīces transakciju lapai"
+description: "Šajā tēmā ir aprakstīts, kā pārdošanas punkta (point of sale — POS) ierīces transakciju ekrānam pievienot ieteikumu vadīklu, izmantojot ekrāna izkārtojuma dizaineru programmā Microsoft Dynamics 365 for Operations."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,55 +25,60 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="add-a-recommendations-control-to-the-transaction-page-on-a-pos-device"></a>Rekomendācijas vadīklas pievienošana POS ierīces darbības lapā
+# <a name="add-a-recommendations-control-to-the-transaction-page-on-a-pos-device"></a>Pievienot ieteikumu vadīklu POS ierīces transakciju lapai
 
-Šajā tēmā ir aprakstīts, kā pievienot rekomendācijas kontroles punktu sale (POS) ierīces ekspluatācijai, izmantojot ekrāna izkārtojuma dizainers Microsoft Dynamics 365 darījuma ekrāna.
+[!include[banner](includes/banner.md)]
 
-Lietojot Microsoft Dynamics 365 operācijām POS ierīces var parādīt produktu ieteikumus. *Ieteikumi* preces, kas savu klientu varētu interesēt pamatojoties uz savu pirkumu vēsturi, viņu vēlmju saraksta vienumos un elementus, kas citiem klientiem iegādāties tiešsaistē un ķieģeļu un javas veikalos. Lai parādītu produkta ieteikumiem, ir jāpievieno vadīklu darbība ekrānā, izmantojot ekrāna izkārtojuma dizainers.
 
-## <a name="open-layout-designer"></a>Atvērta izkārtojuma dizainers
-1.  Dodieties uz **mazumtirdzniecības un komercijas**&gt;**Channel setup**&gt;**POS uzstādīšanas**&gt;**POS**&gt;**ekrāna izkārtojumu**.
-2.  Izmantot ātro filtru, lai atrastu ekrāna, kuru vēlaties pievienot vadīklu. Piemēram, filtrēt pēc **ekrāna izkārtojums ID** lauku, izmantojot vērtību "F2CP16:9M".
-3.  Sarakstā atrodiet un atlasiet vajadzīgo ierakstu. Piemēram, atlasiet "nosaukums: ID F2CP16:9M ekrāna izkārtojums: F2CP16:9M'.
-4.  Noklikšķiniet uz **izkārtojuma dizainers**.
-5.  Sekojiet uzvednēm, lai uzsāktu izkārtojuma dizainers. Ja tiek prasīts ievadīt akreditācijas datus, ievadiet tos pašus akreditācijas datus, kas ir lietotas laikā, kad tika uzsākta izkārtojuma dizainers no **ekrāna izkārtojumu** lapā.
-6.  Kad jūs piesakāties sistēmā, tiek parādīts lapas līdzīgi kā viens zem. Izkārtojums būs atšķirīga atkarībā no pielāgojumi, kas veiktas jūsu veikalā.
+Šajā tēmā ir aprakstīts, kā pārdošanas punkta (point of sale — POS) ierīces transakciju ekrānam pievienot ieteikumu vadīklu, izmantojot ekrāna izkārtojuma dizaineru programmā Microsoft Dynamics 365 for Operations.
 
-[![screenlayout-pic-1](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png) izvēlieties displeja opciju
+Kad lietojat programmu Microsoft Dynamics 365 for Operations, savā POS ierīcē varat rādīt preču ieteikumus. *Ieteikumi* ir krājumi, kas jūsu klientam varētu interesēt, ņemot vērā klienta pirkumu vēsturi, krājumus šī klienta vēlmju sarakstā, kā arī krājumus, ko citi klienti iegādājās tiešsaistē un fiziskajos veikalos. Lai rādītu preču ieteikumus, transakciju ekrānam ir jāpievieno vadīkla, izmantojot ekrāna izkārtojuma dizaineru.
+
+## <a name="open-layout-designer"></a>Atvērt izkārtojuma dizaineru
+1.  Dodieties uz **Mazumtirdzniecība un komercija** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS** &gt; **Ekrāna izkārtojumi**.
+2.  Izmantojiet ātro filtru, lai atrastu ekrānu, kuram vēlaties pievienot šo vadīklu. Piemēram, filtrējiet pēc lauka **Ekrāna izkārtojuma ID**, izmantojot vērtību “F2CP16:9M”.
+3.  Sarakstā atrodiet un atlasiet vajadzīgo ierakstu. Piemēram, atlasiet “Nosaukums: F2CP16:9M Ekrāna izkārtojuma ID: F2CP16:9M”.
+4.  Noklikšķiniet uz **Izkārtojuma dizainers**.
+5.  Izpildiet uzvednēs sniegtos norādījumus, lai palaistu izkārtojuma dizaineru. Kad tiek prasīti akreditācijas dati, ievadiet tos pašus akreditācijas datus, kurus izmantojāt, kad izkārtojuma dizainers tika palaists no lapas **Ekrāna izkārtojumi**.
+6.  Kad esat pieteicies, tiek parādīta tālāk redzamajai lapai līdzīga lapa. Izkārtojums atšķiras atkarībā no jūsu veikalam veiktajiem pielāgojumiem.
+
+[![screenlayout-pic-1](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png) Izvēlieties rādīšanas opciju
 -----------------------
 
-Divas konfigurācijas opcijas ir pieejamas. Izvēlieties opciju, kas vislabāk atbilst jūsu veikalā un izpildiet atlikušos norādījumus, lai pabeigtu iestatīšanu kontroli. Ir divas opcijas:
--   Ieteikumi vienmēr ir redzami.
--   A **ieteikumi** cilne parādās ekrāna labajā pusē režģī.
+Ir pieejamas divas konfigurācijas opcijas. Izvēlieties savam veikalam vispiemērotāko opciju un izpildiet atlikušos norādījumus, lai pabeigtu šīs vadīklas iestatīšanu. Tālāk ir aprakstītas abas opcijas.
+-   Ieteikumi ir redzami vienmēr.
+-   Ekrāna labās puses režģī kļūst redzama cilne **Ieteikumi**.
 
-#### <a name="to-make-recommendations-always-visible"></a>Sniegt ieteikumus, kas ir vienmēr redzamas
+#### <a name="to-make-recommendations-always-visible"></a>Lai ieteikumus padarītu redzamus vienmēr
 
-1.  Samazināt darbības rindas detaļas apgabala augstumu, tā, ka tas ir tādā pašā augstumā kā klienta paneļa tā pa kreisi. [](./media/pic-2.png)[![screenlayout pic 2](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
-2.  No izvēlnes kreisajā pusē, velciet un nometiet ieteikumus vadīklu starp apgabala darījumu līniju detaļas un pogu grid centru darījuma ekrāna apakšā. Mainiet vadīklas lielumu, lai tas iekļaujas šajā telpā. [](./media/pic-3.png)[![screenlayout pic 3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
-3.  Noklikšķiniet uz **X**, lai saglabātu un izietu izkārtojuma dizainers.
-4.  Programmā Dynamics 365 operācijām, dodieties uz **mazumtirdzniecības un komercijas**&gt;**mazumtirdzniecībā tas**&gt;**izplatīšanas grafikus**.
-5.  Sarakstā atlasiet **1090 reģistrē**.
-6.  Noklikšķiniet uz **bēgtu**.
+1.  Samaziniet transakcijas rindu informācijas apgabala augstumu, lai tas būtu vienāds ar debitora paneli kreisajā pusē.[](./media/pic-2.png)[![screenlayout-pic-2](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+2.  No kreisajā pusē esošās izvēlnes velciet un nometiet ieteikumu vadīklu apgabalā starp transakcijas rindas informāciju un pogu režģi transakcijas ekrāna apakšēja vidusdaļā. Mainiet vadīklas izmērus, lai tā ietilptu šajā laukumā.[](./media/pic-3.png)[![screenlayout-pic-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+3.  Noklikšķiniet uz **X**, lai saglabātu un aizvērtu izkārtojuma dizaineru.
+4.  Programmā Dynamics 365 for Operations dodieties uz **Mazumtirdzniecība un komercija** &gt; **Mazumtirdzniecības IT** &gt; **Sadales grafiki**.
+5.  Sarakstā atlasiet vienumu **1090 reģistri**.
+6.  Noklikšķiniet uz **Izpildīt tūlīt**.
 
-#### <a name="to-add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a>Lai pievienotu cilni ieteikumi pogu režģim, ekrāna labajā pusē
+#### <a name="to-add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a>Lai cilni Ieteikumi pievienotu pogu režģim ekrāna labajā pusē
 
-1.  Ar peles labo pogu noklikšķiniet uz tukšas vietas zem pēdējās cilnes pogu režģi, kas atrodas lapas labajā pusē.
-2.  Noklikšķiniet uz **pielāgot**. [![pic-5](./media/pic-5.png)](./media/pic-5.png)
-3.  Noklikšķiniet uz **jaunā cilnē**.
-4.  Atrast, kuru tikko pievienojāt jaunu cilni. Iespējams, ka vajadzēs ritināt uz leju.
-5.  Šajā **satura** nolaižamo sarakstu, izvēlieties **Ieteicamie produkti**. [![pic-6](./media/pic-6.png)](./media/pic-6.png)
-6.  Šajā **etiķetes** laukā, ievadiet nosaukumu cilni ieteikumus. Piemēram, ierakstiet "Ieteicamie produkti".
-7.  Šajā **attēlu** lauku, atlasiet attēlu, ko parādīt cilnē.
-8.  Click **OK**. Pogas režģī tiek parādīta jauna cilne.
-9.  Noklikšķiniet uz **X**, lai saglabātu un izietu izkārtojuma dizainers.
-10. Programmā Dynamics 365 operācijām, dodieties uz **mazumtirdzniecības un komercijas**&gt;**mazumtirdzniecībā tas**&gt;**izplatīšanas grafikus**.
-11. Sarakstā atlasiet **1090 reģistrē**.
-12. Noklikšķiniet uz **bēgtu**.
+1.  Ar peles labo pogu noklikšķiniet uz tukšā laukuma zem pēdējās cilnes pogu režģī, kurš atrodas lapas labajā pusē.
+2.  Noklikšķiniet uz **Pielāgot**.[![pic-5](./media/pic-5.png)](./media/pic-5.png)
+3.  Noklikšķiniet uz **Jauna cilne**.
+4.  Atrodiet jauno cilni, kuru tikko pievienojāt. Iespējams, ir jāritina uz leju.
+5.  Nolaižamajā sarakstā **Saturs** atlasiet vienumu **Ieteicamās preces**. [![pic-6](./media/pic-6.png)](./media/pic-6.png)
+6.  Laukā **Etiķete** ierakstiet ieteikumu cilnes nosaukumu. Ierakstiet, piemēram, “Ieteicamās preces”.
+7.  Laukā **Attēls** atlasiet attēlu, kas ir jārāda šajā cilnē.
+8.  Noklikšķiniet uz **Labi**. Jaunā cilne kļūst redzama pogu režģī.
+9.  Noklikšķiniet uz **X**, lai saglabātu un aizvērtu izkārtojuma dizaineru.
+10. Programmā Dynamics 365 for Operations dodieties uz **Mazumtirdzniecība un komercija** &gt; **Mazumtirdzniecības IT** &gt; **Sadales grafiki**.
+11. Sarakstā atlasiet vienumu **1090 reģistri**.
+12. Noklikšķiniet uz **Izpildīt tūlīt**.
 
 
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Personalizētu produktu ieteikumus pārskats](personalized-product-recommendations.md)
+[Personalizētu preču ieteikumu apskats](personalized-product-recommendations.md)
+
+
 
 

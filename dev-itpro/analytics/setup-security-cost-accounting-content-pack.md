@@ -1,6 +1,6 @@
 ---
-title: "Izmaksu uzskaites analīze Power BI satura drošības iestatīšana"
-description: "Šajā tēmā ir paskaidrots, kā var izplatīt piekļuves līmeņa drošību rindu līmeņa drošības Microsoft Power BI izmaksu uzskaitē. Šī funkcionalitāte palīdz garantēt, ka lietotāji redz tikai varas BI dati, kas tiem nodrošina piekļuvi."
+title: "Iestatīt drošību Power BI saturam Izmaksu uzskaites analīze"
+description: "Šajā tēmā ir paskaidrots, kā var ieviest izmaksu uzskaites piekļuves līmeņa drošību rindas līmeņa drošībai pakalpojumā Microsoft Power BI. Šī funkcionalitāte palīdz nodrošināt to, ka lietotāji var skatīt tikai tos Power BI datus, kuriem tiem ir piešķirta piekļuve."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,38 +24,43 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Izmaksu uzskaites analīze Power BI satura drošības iestatīšana
+# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Iestatīt drošību Power BI saturam Izmaksu uzskaites analīze
 
-Šajā tēmā ir paskaidrots, kā var izplatīt piekļuves līmeņa drošību rindu līmeņa drošības Microsoft Power BI izmaksu uzskaitē. Šī funkcionalitāte palīdz garantēt, ka lietotāji redz tikai varas BI dati, kas tiem nodrošina piekļuvi.
+[!include[banner](../includes/banner.md)]
+
+
+Šajā tēmā ir paskaidrots, kā var ieviest izmaksu uzskaites piekļuves līmeņa drošību rindas līmeņa drošībai pakalpojumā Microsoft Power BI. Šī funkcionalitāte palīdz nodrošināt to, ka lietotāji var skatīt tikai tos Power BI datus, kuriem tiem ir piešķirta piekļuve.
 
 <a name="overview"></a>Pārskats
 --------
 
-**Izmaksu uzskaites analīze** Microsoft Power BI saturu izmanto strāvas BI rindu līmeņa drošības ierobežot lietotāju piekļuvi. Drošības pamatā ir izmaksu uzskaites parametros ir iestatīt piekļuves līmeni organizācijas hierarhijai. Plašāku informāciju par **izmaksu uzskaites analīze** Power BI saturu, sk [izmaksu uzskaites analīze Power BI saturu](cost-accounting-analysis-content-pack.md).
+Microsoft Power BI saturam **Izmaksu uzskaites analīze** tiek izmantota Power BI rindas līmeņa drošība, lai ierobežotu lietotāja piekļuvi. Drošība balstās uz piekļuves līmeņu organizācijas hierarhiju, kas tiek iestatīta Izmaksu uzskaites parametros. Plašāku informāciju par Power BI saturu **Izmaksu uzskaites analīze** skatiet sadaļā [Power BI saturs Izmaksu uzskaites analīze](cost-accounting-analysis-content-pack.md).
 
 ## <a name="setup"></a>Iestatīšana
-Izplatīt jauda BI piekļuves līmeņa drošību, jaudu BI satura īpašnieks nedrīkst rīkojieties šādi. **Piezīme:** lietotājs, kas publicē **izmaksu uzskaites analīze** Power BI saturs automātiski kļūst par īpašnieku. Tikai īpašnieks var uzstādīt drošības varas BI. Turklāt, līdz brīdim, kad īpašnieks pievieno citiem lietotājiem PowerBI.com, neviens izņemot īpašnieks var redzēt visus datus **izmaksu uzskaites analīze** BI enerģijas saturu.
+Lai ieviestu piekļuves līmeņa drošību pakalpojumā Power BI, Power BI satura īpašniekam jāveic šādas darbības. **Piezīme.** Lietotājs, kurš publicē Power BI saturu **Izmaksu uzskaites analīze**, automātiski kļūst par īpašnieku. Tikai īpašnieks var iestatīt drošību pakalpojumā Power BI. Turklāt, kamēr īpašnieks nav pievienojis citus lietotājus vietnē PowerBI.com, neviens, izņemot īpašnieku, nevar skatīt datus Power BI saturā **Izmaksu uzskaites analīze**.
 
-1.  Definīcijas failu publicēšana Power BI.
-2.  Pieteikties līdz PowerBI.com.
-3.  Atrast datu kopu par **izmaksu uzskaites analīze** BI enerģijas saturu.
-4.  Atveriet lapu drošības. 
+1.  Publicējiet definīciju failu pakalpojumā Power BI.
+2.  Pierakstieties vietnē PowerBI.com.
+3.  Atrodiet datu kopu Power BI saturam **Izmaksu uzskaites analīze**.
+4.  Atveriet drošības lapu. 
 
-    [![Atverot lapu drošība](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png)](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png)
+    [![Drošības lapas aizvēršana](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png)](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png)
 
-5.  **Izmaksas objekta kontrolieris** lomu jau ir izveidots. Pievienot citus dalībniekus, kuri ir daļa no izmaksu uzskaites piekļuves līmeņa organizācijas hierarhijai. 
+5.  Loma **Izmaksu objekta kontrolieris** jau ir izveidota. Pievienojiet citus dalībniekus, kuri ietilpst izmaksu uzskaites piekļuves līmeņu organizācijas hierarhijā. 
 
     [![Dalībnieku pievienošana](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-2.png)](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-2.png)
 
-Lietotājiem, kuri pievienoti **izmaksas objekta kontrolieris** lomu redzēs tikai tos datus, kurus viņiem atļauts apskatīt saskaņā ar definīciju izmaksu uzskaites piekļuves līmeņa organizācijas hierarhijai. **Piezīme:** rindu līmeņa drošība attiecas uz flīzēm un ziņo Microsoft Dynamics 365 operācijām, kas iegultas no varas BI.
+Lietotāji, kuri tiek pievienoti lomai **Izmaksu objekta kontrolieris**, redzēs tikai datus, kurus tiem ir atļauja skatīt, saskaņā ar definīciju izmaksu uzskaites piekļuves līmeņu organizācijas hierarhijā. **Piezīme.** Rindas līmeņa drošība attiecas uz tādiem elementiem un pārskatiem programmā Microsoft Dynamics 365 for Operations, kuri ir iegulti no pakalpojuma Power BI.
 
-## <a name="updating-security"></a>Atjaunināšanu, drošības
-Ja atjauninājumi tiek veikti drošības piekļuves līmeni izmaksu uzskaitē un varas BI, lai atspoguļotu šos atjauninājumus, jums ir jāatjaunina entītiju veikalu **izmaksu uzskaites analīze** BI enerģijas saturu. Pēc pabeigšanas uzņēmums veikals update no Dynamics 365 operācijām, jums ir jāatjaunina artefakti uz PowerBI.com. Lai iegūtu plašāku informāciju par entītiju veikalā atjauninājumu, skatiet [Update entītiju veikala](power-bi-integration-entity-store.md#update-entity-store). Īpašnieks, **izmaksu uzskaites analīze** Power BI saturs arī ir jādara entītiju veikalā atjauninājumu, ja jauniem lietotājiem ir piešķirta piekļuve sistēmai organizācijas hierarhijai. Turklāt īpašnieks nedrīkst pievienot jaunus lietotājus, lai **izmaksas objekta kontrolieris** PowerBI.com, tāpēc tos pielieto šo rindu līmeņa drošības lomas.
+## <a name="updating-security"></a>Drošības atjaunināšana
+Ja izmaksu uzskaitē tiek veikti piekļuves līmeņa drošības atjauninājumi un jūs vēlaties, lai tie tiktu atspoguļoti pakalpojumā Power BI, ir jāatjaunina elementu krātuve Power BI saturam **Izmaksu uzskaites analīze**. Pēc tam, kad ir pabeigta elementu krātuves atjaunināšana no Dynamics 365 for Operations, ir jāatjaunina artefakti vietnē PowerBI.com. Plašāku informāciju par to, kā veikt elementu krātuves atjaunināšanu, skatiet sadaļā [Elementu krātuves atjaunināšana](power-bi-integration-entity-store.md#update-entity-store). Power BI satura **Izmaksu uzskaites analīze** īpašniekam arī jāveic elementu krātuves atjaunināšana, ja jaunajiem lietotājiem tiek piešķirta piekļuve organizācijas hierarhijai. Turklāt īpašniekam jāpievieno jaunie lietotāji lomai **Izmaksu objekta kontrolieris** vietnē PowerBI.com, lai uz tiem attiektos rindas līmeņa drošība.
 
-## <a name="disabling-security"></a>Atspējot drošības
-Mēs pieņemam, ka jūsu organizācija vēlas ierobežot piekļuvi datiem. Ja kāda iemesla dēļ drošības parametri tiek atspējoti, palaižot izmaksu uzskaites, īpašnieks nedrīkst pievienot lietotājus, kuriem ir **izmaksu grāmatvede** lomu varas BI vietā. Ja maināt drošības iespējots valsts atspējotajā stāvoklī, tā ir laba ideja, lai noņemt lietotājus no **izmaksas objekta kontrolieris** lomu. Un otrādi, ja jūs atkārtoti iespējot drošību. Lietotāji var piederēt gan lomas. Kopīga pieeja ir Savienības abām lomām. Gadījumā, ja **izmaksu uzskaites analīze** Power BI satura kopīgu pieeju lietotājiem ir neierobežota piekļuve datiem. Ja jūsu mērķis ir piemērot ierobežotas pieejamības, lietotāji, jāpiešķir tikai tiem **izmaksas objekta kontrolieris** lomu. Šo rindu līmeņa drošības atjauninājumus stājas spēkā nekavējoties. Ieinteresētos lietotājus būtu atsvaidziniet pārlūkprogrammu.
+## <a name="disabling-security"></a>Drošības atspējošana
+Mēs pieņemam, ka jūsu organizācija vēlas ierobežot datu piekļuvi. Ja kāda iemesla dēļ, izpildot izmaksu uzskaiti, drošības parametri ir atspējoti, tā vietā īpašniekam ir jāpievieno lietotāji lomai **Izmaksu grāmatvedis** pakalpojumā Power BI. Ja maināt drošību no iespējota stāvokļa uz atspējotu stāvokli, ieteicams noņemt lietotājus no lomas **Izmaksu objekta kontrolieris**. Drošības atkārtotas iespējošanas gadījumā ieteicams veikt pretējas darbības. Lietotājiem var būt abas lomas. Kopīga piekļuve ir abu lomu apvienojums. Power BI satura **Izmaksu uzskaites analīze** gadījumā lietotājiem, kuriem ir kopīga piekļuve, ir neierobežota pieeja datiem. Ja jūsu mērķis ir īstenot ierobežotu piekļuvi, lietotājiem ir jāpiešķir tikai loma **Izmaksu objekta kontrolieris**. Šie rindas līmeņa drošības atjauninājumi stājas spēkā nekavējoties. Ietekmētajiem lietotājiem ir jāatsvaidzina pārlūkprogrammas.
 
 ## <a name="additional-resources"></a>Papildu resursi
-Lai uzzinātu vairāk par varas BI rindu līmeņa drošību, skatiet [pārvaldītu drošību jūsu modeli Power BI](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-rls/#manage-security-on-your-model).
+Lai uzzinātu papildinformāciju par Power BI rindas līmeņa drošību, skatiet rakstu [Drošības pārvaldība jūsu modelim pakalpojumā Power BI](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-rls/#manage-security-on-your-model).
+
+
 
 

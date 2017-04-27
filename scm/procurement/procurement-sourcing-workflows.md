@@ -27,12 +27,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="procurement-and-sourcing-workflows"></a>Sagādes un avotu darbplūsmas
 
+[!include[banner](../includes/banner.md)]
+
+
 Dažas organizācijas pieprasa, lai pirkšanas pieprasījumus un pirkšanas pasūtījumus apstiprinātu cits lietotājs nekā persona, kura ievadīja darījumu. Lai iestatītu apstiprināšanas procesu, varat izveidot darbplūsmu.
 
 Darbplūsma attēlo biznesa procesu. Izmantojot darbplūsmu, tiek noteikta dokumenta plūsma caur sistēmu un norādīts, kuram ir jāpabeidz uzdevums vai jāapstiprina dokuments. Darbplūsmas sistēmas lietošanai organizācijā ir vairākas priekšrocības.
 -   **Saskaņoti procesi** — varat definēt noteiktu dokumentiem, piemēram, pirkšanas pieprasījumu un izdevumu pārskatu, apstiprināšanas procesu. Izmantojot darbplūsmas sistēmu, varat nodrošināt saskaņotu un efektīvu dokumentu apstrādes un apstiprināšanas procesu.
 -   **Procesa pārskatāmība** — varat sekot līdzi noteiktas darbplūsmas instances statusa, vēsturiskajiem un veiktspējas rādītājiem. Tādējādi varat noteikt, vai ir jāveic darbplūsmas izmaiņas, lai uzlabotu efektivitāti.
--   **Centralizētu darbu saraksts**— lietotāji var apskatīt centralizētu darbu sarakstu, lai skatītu darbplūsmas uzdevumus un apstiprinājumi, kas piešķirti tiem pāri visām darbplūsmām, viņi piedalās. Tas ir pieejams darba elementus lapā.
+-   **Centralizēts darbu saraksts** — lietotāji var skatīt centralizētu darbu sarakstu, lai skatītu darbplūsmas uzdevumus un apstiprinājumus, kas viņiem ir piešķirti visās darbplūsmās, kurās viņi piedalās. Šī funkcija ir pieejama lapā Darba vienumi.
 
 ## <a name="the-types-of-workflows-that-you-can-create"></a> Izveidojamo darbplūsmu veidi
 Sagādei un avotiem ir pieejami šādi darbplūsmu veidi.
@@ -46,7 +49,7 @@ Sagādei un avotiem ir pieejami šādi darbplūsmu veidi.
 | Pirkšanas pasūtījuma rindas darbplūsma     | Izveidojiet pārskatīšanas un apstiprināšanas darbplūsmas pirkšanas rindas pasūtījumiem. |
 
 ## <a name="creating-a-workflow"></a>Darbplūsmas izveide
-Izveidot darbplūsmas, dodieties uz Sagādes un plānošanas &gt;Setup &gt;iepirkumu un plānošanas, darbplūsmas un veidot jaunu darbplūsmu vēlaties izveidot darbplūsmas tipu atlasot.  
+Lai izveidotu darbplūsmu, pārejiet uz sadaļu Sagāde un avoti &gt; Iestatījumi &gt; Sagādes un avotu darbplūsmas un izveidojiet jaunu darbplūsmu, atlasot izveidojamās darbplūsmas veidu.  
 
 Darbplūsmas audeklā varat vilkt darbplūsmas elementus uz veidotāju un saistīt elementus plūsmā. Darbplūsmas elementi ir jākonfigurē. Apstiprinājumam un uzdevuma darbplūsmas elementiem var konfigurēt to, kuram dalībniekam jāveic darbība.
 Dalībnieku tipi
@@ -69,6 +72,8 @@ Apstiprināšanas darbību varat piešķirt šādām dalībnieku grupām.
 
 [Biznesa procesu darbplūsmu definēšana pirkšanas pieprasījumiem](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Purchase requisition workflow](purchase-requisitions-workflow.md)
+[Pirkšanas pieprasījuma darbplūsma](purchase-requisitions-workflow.md)
+
+
 
 

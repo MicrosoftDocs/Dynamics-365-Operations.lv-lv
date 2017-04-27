@@ -1,6 +1,6 @@
 ---
 title: "Ārvalstu valūtas pārvērtēšana Virsgrāmatai"
-description: "Šajā tēmā ir sniegts pārskats par šīm darbībām Virsgrāmatā ārvalstu valūtas pārvērtēšanas process - uzstādīšana, running procesu, aprēķinu procesā un kā atsaukt pārvērtēšanas darbību, vajadzības."
+description: "Šajā tēmā ir sniegts pārskats par šādiem ārvalstu valūtas pārvērtēšanas procesiem Virsgrāmatā: iestatīšana, procesa izpilde, procesa aprēķini un pārvērtēšanas transakciju anulēšana nepieciešamības gadījumā."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,14 +27,17 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Ārvalstu valūtas pārvērtēšana Virsgrāmatai
 
-Šajā tēmā ir sniegts pārskats par šīm darbībām Virsgrāmatā ārvalstu valūtas pārvērtēšanas process - uzstādīšana, running procesu, aprēķinu procesā un kā atsaukt pārvērtēšanas darbību, vajadzības. 
+[!include[banner](../includes/banner.md)]
+
+
+Šajā tēmā ir sniegts pārskats par šādiem ārvalstu valūtas pārvērtēšanas procesiem Virsgrāmatā: iestatīšana, procesa izpilde, procesa aprēķini un pārvērtēšanas transakciju anulēšana nepieciešamības gadījumā. 
 
 Kā daļu no perioda beigām grāmatvedības metodes nosaka, ka virsgrāmatas kontu bilances, kas ir ārvalstu valūtās, ir nepieciešams pārvērtēt, izmantojot dažādus valūtas maiņas kursa tipus (pašreizējo, vēsturisko, vidējo un citus). Piemēram, viena grāmatvedības metode pieprasa, lai aktīvi un pasīvi tiktu pārvērtēti pēc pašreizējā valūtas maiņas kursa, pamatlīdzekļi — pēc vēsturiskā maiņas kursa, un peļņas un zaudējumu konti — pēc mēneša vidējā kursa. Virsgrāmatas ārvalstu valūtas pārvērtēšanu var izmantot, lai pārvērtētu bilances un peļņas un zaudējumu kontus. 
 
 > [!NOTE]
-> Ārvalstu valūtas pārvērtēšanas pieejama arī kreditoru (kreditoru) un realizācijas (AR). Ja jūs izmantojat šos moduļus, izcilu darījumiem jāpārvērtē ārvalstu valūtas pārvērtēšanu, izmantojot šajos moduļos. AR un AP ārvalstu valūtas pārvērtēšana izveidos grāmatvedības ierakstu virsgrāmatā, lai atspoguļotu nerealizēto peļņu vai zaudējumus, tādējādi nodrošinot, ka apakšgrāmatas un virsgrāmatu var saskaņot. Tā kā AR un AP ārvalstu valūtas pārvērtēšana izveido grāmatvedības ierakstus virsgrāmatā, tad galvenie konti moduļos Debitoru parādi un Parādi kreditoriem ir jāizslēdz no virsgrāmatas ārvalstu valūtas pārvērtēšanas. 
+> Ārvalstu valūtas pārvērtēšana ir pieejama arī moduļos Debitoru parādi un Parādi kreditoriem. Ja izmantojat šos moduļus, nenokārtotās transakcijas ir jāpārvērtē, izmantojot ārvalstu valūtas pārvērtēšanu šajos moduļos. AR un AP ārvalstu valūtas pārvērtēšana izveidos grāmatvedības ierakstu virsgrāmatā, lai atspoguļotu nerealizēto peļņu vai zaudējumus, tādējādi nodrošinot, ka apakšgrāmatas un virsgrāmatu var saskaņot. Tā kā AR un AP ārvalstu valūtas pārvērtēšana izveido grāmatvedības ierakstus virsgrāmatā, tad galvenie konti moduļos Debitoru parādi un Parādi kreditoriem ir jāizslēdz no virsgrāmatas ārvalstu valūtas pārvērtēšanas. 
 
-Kad palaižat pārvērtēšanas procesu, tiek pārvērtēta bilance katrā galvenajā kontā, kurš ir grāmatots ārvalstu valūtā. Nerealizētās peļņas vai zaudējumu transakcijas, kas tiek izveidotas pārvērtēšanas procesā, ģenerē sistēma. Divas darbības iespējams veidot, viena norēķinu valūtu un otro par pārskata valūtā, ja nepieciešams. Nerealizētā peļņa vai zaudējumi un galveno kontu, tiek pārvērtēti katru grāmatvedības ierakstu post.
+Kad palaižat pārvērtēšanas procesu, tiek pārvērtēta bilance katrā galvenajā kontā, kurš ir grāmatots ārvalstu valūtā. Nerealizētās peļņas vai zaudējumu transakcijas, kas tiek izveidotas pārvērtēšanas procesā, ģenerē sistēma. Var izveidot divas transakcijas — vienu uzskaites valūtai un otru pārskata valūtai, ja tas ir vajadzīgs. Katrs uzskaites ieraksts tiks grāmatots nerealizētajā peļņā vai zaudējumos, kā arī galvenajā kontā, kam tiek veikta pārvērtēšana.
 
 ## <a name="prepare-to-run-foreign-currency-revaluation"></a>Sagatavot ārvalstu valūtas pārvērtēšanas palaišanu
 Pirms palaižat pārvērtēšanas procesa, ir nepieciešami tālāk aprakstītie iestatījumi.
@@ -57,29 +60,29 @@ Lapā **Ārvalstu valūtas pārvērtēšana** tiek rādīta katra pārvērtēša
 
 Vērtības **No datuma** un **Līdz datumam** definē pārvērtējamās ārvalstu valūtas bilances aprēķina datumu intervālu. Kad veicat pārvērtēšanu peļņas un zaudējumu kontos, tiek pārvērtēta summa no visām transakcijām, kas notikušas šajā datumu intervālā. Kad pārvērtējat bilances kontus, vērtība No datuma tiek ignorēta. Tās vietā pārvērtējamā bilance tiek noteikta, sākot no finanšu gada sākuma līdz vērtībai Līdz datumam. 
 
-**Dienas likme** var izmantot, lai noteiktu datumu, kuram būtu noklusējuma valūtas kursu. Piemēram, var pārvērtēt līdzsvaru starp datumu diapazonā no 1 janvāris janvāris 31, bet izmanto tādu pašu maiņas kursu, kas noteikts 1. februāris. 
+Izmantot Izmantojot lauku **Likmes datums**, varat norādīt noklusējuma maiņas kursa datumu. Piemēram, varat pārvērtēt bilances datumu diapazonā no 1. janvāra līdz 31. janvārim, izmantojot 1. februārim norādīto maiņas kursu. 
 
-Atlasiet, kurus galvenos kontus pārvērtēt: Visi, Bilance vai Peļņa un zaudējumi. Tiks pārvērtēta tikai galvenā uzskaite iezīmēja pārvērtēšanai (lapā galvenais konts). Ja vēlaties vēl vairāk ierobežot diapazonā no galvenā uzskaite, izmantot ierakstus **iekļaut** tab, lai definētu diapazonu galvenā uzskaite, vai individuālie konti galvenajā. 
+Atlasiet, kurus galvenos kontus pārvērtēt: Visi, Bilance vai Peļņa un zaudējumi. Tiek pārvērtēti tikai tie galvenie konti, kas ir atzīmēti pārvērtēšanai (lapā Galvenais konts). Ja vēlaties precizēt galveno kontu diapazonu, norādiet galveno kontu diapazonu vai atsevišķus galvenos kontus cilnē **Iekļaujamie ieraksti**. 
 
-Pārvērtēšanas process var darbināt vienu vai vairākas juridiskas personas. Pārlūkfunkcija parādīs tikai juridiskas personas, kurām jums ir piekļuve. Atlasiet juridiskām personām, par kuru vēlaties izpildīt pārvērtēšanas process. 
+Pārvērtēšanas procesu var izpildīt vienai vai vairākām juridiskajām personām. Uzmeklēšanas sarakstā tiek rādītas tikai tās juridiskās personas, kurām varat piekļūt. Atlasiet juridiskās personas, kurām vēlaties izpildīt pārvērtēšanas procesu. 
 
-Pārvērtēšanu var palaist vienai vai vairākām ārvalstu valūtām. Uzmeklēšanas ietvers visu valūtu, kas tika grāmatota norādītajā datumu diapazonā atbilst galvenais konts (bilances vai peļņas un zaudējumu), juridiskām personām, kas izvēlēti, lai pārvērtētu tipam. Sarakstā tiks iekļautas norēķinu valūtu, bet nekas pārvērtē, atlasot norēķinu valūtu. 
+Pārvērtēšanu var palaist vienai vai vairākām ārvalstu valūtām. Uzmeklēšanas sarakstā ir iekļautas visas valūtas, kas ir grāmatotas norādītajā datumu diapazonā saistībā ar attiecīgo galvenā konta veidu (Bilance vai Peļņa un zaudējumi) pārvērtēšanai atlasītajām juridiskām personām. Šajā sarakstā ir iekļauta uzskaites valūta, taču, ja tā tiek atlasīta, nekas netiek pārvērtēts. 
 
-Iestatiet **Preview pirms grāmatošanas** uz **Jā** ja jūs vēlētos pārbaudīt Virsgrāmatas pārvērtēšanas rezultāts. Preview vispār grāmatas atšķiras no simulācija AR un AP ārvalstu valūtas pārvērtēšana. Simulācija AR un AP atskaites, bet Virsgrāmatā ir priekšskatījums, kuru var iegrāmatot, bez nepieciešamības vēlreiz palaidiet pārvērtēšanas process. Priekšskatījuma rezultātus var eksportēt uz Microsoft Excel, lai uzturētu summu aprēķināšanas vēsturi. Ja vēlaties priekšskatīt pārvērtēšanas rezultātus, nevar izmantot pakešapstrādi. No priekšskatījuma lietotājam ir iespēja grāmatot visu juridisko personu rezultātus, izmantojot pogu **Grāmatot**. Ja kādas juridiskās personas rezultātos pastāv problēma, lietotājam ir arī iespēja grāmatot juridisko personu apakškopu, izmantojot pogu **Atlasīt grāmatojamās juridiskās personas**. 
+Ja vēlaties pārskatīt Virsgrāmatas pārvērtēšanas rezultātu, iestatiet opcijas **Priekšskatīt pirms grāmatošanas** vērtību **Jā**. Virsgrāmatas priekšskatījums atšķiras no ārvalstu valūtas pārvērtēšanas simulācijas modulī Debitoru parādi vai Parādi kreditoriem. Simulācija modulī Debitoru parādi vai Parādi kreditoriem ir pārskats, taču Virsgrāmatas priekšskatījumu var grāmatot, atkārtoti neveicot pārvērtēšanas procesu. Priekšskatījuma rezultātus var eksportēt uz Microsoft Excel, lai uzturētu summu aprēķināšanas vēsturi. Ja vēlaties priekšskatīt pārvērtēšanas rezultātus, nevar izmantot pakešapstrādi. No priekšskatījuma lietotājam ir iespēja grāmatot visu juridisko personu rezultātus, izmantojot pogu **Grāmatot**. Ja kādas juridiskās personas rezultātos pastāv problēma, lietotājam ir arī iespēja grāmatot juridisko personu apakškopu, izmantojot pogu **Atlasīt grāmatojamās juridiskās personas**. 
 
-Pēc ārvalstu valūtas pārvērtēšanas process ir pabeigts, izsekot katras palaišanas vēsture tiks izveidots ieraksts.  Atsevišķu ierakstu tiks izveidota katrai juridiskai personai un Grāmatošanas slānis.
+Pēc ārvalstu valūtas pārvērtēšanas procesa pabeigšanas tiek izveidots ieraksts, kas sniedz iespēju izsekot katras izpildes vēsturi.  Katrai juridiskajai personai un grāmatošanas līmenim tiek izveidots atsevišķs ieraksts.
 
 ## <a name="calculate-unrealized-gainloss"></a>Aprēķināt nerealizēto peļņu/zaudējumus
-Virsgrāmatas pārvērtēšanas un AR un AP pārvērtēšanas procesos nerealizētās peļņas/zaudējumu transakcijas tiek izveidotas atšķirīgi. Moduļos AR un AP iepriekšējā pārvērtēšana tiek pilnīgi anulēta (pieņemot, ka transakcija vēl nav nosegta) un nerealizētajai peļņai/zaudējumiem tiek izveidota jauna pārvērtēšanas transakcija, pamatojoties uz jauno valūtas maiņas kursu. Tas tiek darīts tādēļ, ka moduļos AR un AP mēs pārvērtējam katru atsevišķo transakciju. Virsgrāmatā, iepriekšējo pārvērtēšanas nav mainījusies. Tā vietā, delta starp galveno kontu, ieskaitot iepriekšējo pārvērtēšanas summas, un jaunā vērtība, pamatojoties uz norādīto maiņas kursu dienas likme bilances tiek veidota darbība. 
+Virsgrāmatas pārvērtēšanas un AR un AP pārvērtēšanas procesos nerealizētās peļņas/zaudējumu transakcijas tiek izveidotas atšķirīgi. Moduļos AR un AP iepriekšējā pārvērtēšana tiek pilnīgi anulēta (pieņemot, ka transakcija vēl nav nosegta) un nerealizētajai peļņai/zaudējumiem tiek izveidota jauna pārvērtēšanas transakcija, pamatojoties uz jauno valūtas maiņas kursu. Tas tiek darīts tādēļ, ka moduļos AR un AP mēs pārvērtējam katru atsevišķo transakciju. Virsgrāmatā netiek anulēta iepriekšējā pārvērtēšana. Tā vietā tiek izveidota transakcija starpībai starp galvenā konta bilanci, tostarp visām iepriekšējām pārvērtēšanas summām, un jauno vērtību, pamatojoties uz valūtas maiņas kursu datumā, kas ir norādīts laukā Likmes datums. 
 
-**Piemērs** šādas bilances pastāv galvenais konts 110110.
+**Piemērs.** Galvenajam kontam 110110 ir tālāk norādītās bilances.
 
 |            |                    |                        |                       |
 |------------|--------------------|------------------------|-----------------------|
 | **Datums**   | **Virsgrāmatas konts** | **Darbības summa** | **Uzskaites summa** |
 | 20. janvāris | 110110 (skaidra nauda)      | 500 EUR (debets)        | 1000 USD (debets)      |
 
-Galvenais konts ir pārvērtēta, 31. janvārī.  Nerealizēto peļņu/zaudējumus aprēķina šādi.
+31. janvārī tiek pārvērtēts galvenais konts.  Nerealizētā peļņa/zaudējumi tiek aprēķināti tālāk norādītajā veidā.
 
 |                                             |                                            |                                  |                                    |                             |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
@@ -94,7 +97,7 @@ Tiks izveidots tālāk norādītais uzskaites ieraksts.
 | 31. janvāris | 110110 (skaidra nauda)            |           | 166.67     |
 | 31. janvāris | 801400 (nerealizētie zaudējumi) | 166.67    |            |
 
-Nav jaunu tiek grāmatotas par februāra mēnesi.  28. februārī pārvērtē galvenajā kontā.
+Februārī netiek grāmatota neviena jauna transakcija.  28. februārī tiek pārvērtēts galvenais konts.
 
 |                                             |                                            |                                  |                                    |                             |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
@@ -112,6 +115,8 @@ Tiks izveidots tālāk norādītais uzskaites ieraksts.
 ## <a name="reverse-foreign-currency-revaluation"></a>Anulēt ārvalstu valūtas pārvērtēšanu
 Ja ir nepieciešams anulēt pārvērtēšanas transakciju, atlasiet pogu **Anulēt transakciju** lapā **Ārvalstu valūtas pārvērtēšana**. Tiek izveidots jauns ārvalstu valūtas pārvērtēšanas vēsturiskais ieraksts, lai uzturētu vēsturiskos auditācijas pierakstus par to, kad pārvērtēšana notika vai tika anulēta. 
 
-Nav dienas kārtībā pārvērtēšanas rezultātus var atcelt, bet jums var būt nepieciešams arī apgriezt precīzākām pārvērtēšanu, lai nodrošinātu pareizu katras pārvērtētās galveno kontu atlikumus. Maiņas var rasties no dienas kārtībā, jo tur ir veids, kā kontrolēt, kuras galvenā uzskaite tiek pārvērtēta un biežumu, kad tie tiek pārvērtēti. Piemēram, organizācija var pārvērtēt savas naudas galvenā uzskaite pa ceturkšņiem, bet visu pārējo galveno kontu katru mēnesi.
+Varat anulēt pārvērtēšanas rezultātus neatkarīgi no datumu secības, taču var būt nepieciešams anulēt arī jaunāku pārvērtēšanu, lai nodrošinātu, ka katra pārvērtētā galvenā konta bilance ir pareiza. Anulēšanu var veikt neatkarīgi no datumu secības, jo nevar kontrolēt to, kuri galvenie konti un cik bieži tiek pārvērtēti. Piemēram, organizācija var izvēlēties pārvērtēt savus skaidras naudas galvenos kontus reizi ceturksnī, taču visus citus galvenos kontus reizi mēnesī.
+
+
 
 

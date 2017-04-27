@@ -1,6 +1,6 @@
 ---
 title: "Mazumtirdzniecības laiks un apmeklētība"
-description: "Šajā tēmā ir aprakstīts, kurus atbalsta Microsoft Dynamics 365 operācijām - mazumtirdzniecības laika un apmeklējumu vadības scenārijiem."
+description: "Šajā tēmā ir aprakstīti programmatūrā Microsoft Dynamics 365 for Operations — Retail atbalstītie laika un apmeklētības pārvaldības scenāriji."
 author: MargoC
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 62813
 ms.assetid: 821994a6-cd29-45a3-a526-ce204064f080
 ms.search.region: global
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="retail-time-and-attendance"></a>Mazumtirdzniecības laiks un apmeklētība
 
-Šajā tēmā ir aprakstīts, kurus atbalsta Microsoft Dynamics 365 operācijām - mazumtirdzniecības laika un apmeklējumu vadības scenārijiem. 
+[!include[banner](includes/banner.md)]
 
-<a name="manage-worker-setup-and-scheduling"></a>Pārvaldīt darbinieku iestatīšanas un plānošanas
+
+Šajā tēmā ir aprakstīti programmatūrā Microsoft Dynamics 365 for Operations — Retail atbalstītie laika un apmeklētības pārvaldības scenāriji. 
+
+<a name="manage-worker-setup-and-scheduling"></a>Darbinieku iestatījumu un plānošanas pārvaldība
 ----------------------------------
 
 ### <a name="initial-configuration"></a> sākotnējā konfigurācija
@@ -45,8 +48,8 @@ Informāciju par konfigurācijas soļiem skatiet šeit: <https://technet.microso
 
 ### <a name="retail-specific-configuration"></a>No mazumtirdzniecības modeļa atkarīga konfigurācija
 
--   Iespējojiet funkcionalitātes Laika uzskaite profilu darbiniekiem, kuriem vēlaties aktivizēt laika reģistrāciju. Noklikšķiniet uz **POS funkcionalitāti profili**&gt;**funkcijas**&gt;**POS laika reģistrācijām**&gt;**iespējot laika reģistrācijas**.
--   Konfigurējiet pārdošanas punkta (POS) atļaujas grupas, lai iespējotu funkcijas Skatīt laika uzskaites ierakstus atļauju. Ar šo atļauju lietotājs var skatīt citu veikala (un citu veikalu, ar kuriem lietotājs ir saistīts, izmantojot adrešu grāmatu) darbinieku laika uzskaites reģistrācijas ierakstus. Šo atļauju ieteicams aktivizēt vadītāja lomai, bet ne kasiera lomai. Noklikšķiniet uz **POS permission grupas**&gt;**apskatīt ierakstus, laika pulksteni**.
+-   Iespējojiet funkcionalitātes Laika uzskaite profilu darbiniekiem, kuriem vēlaties aktivizēt laika reģistrāciju. Noklikšķiniet uz **POS funkcionalitātes profili** &gt; **Funkcijas** &gt; **POS laika reģistrācijas** &gt; **Aktivizēt laika reģistrācijas**.
+-   Konfigurējiet pārdošanas punkta (POS) atļaujas grupas, lai iespējotu funkcijas Skatīt laika uzskaites ierakstus atļauju. Ar šo atļauju lietotājs var skatīt citu veikala (un citu veikalu, ar kuriem lietotājs ir saistīts, izmantojot adrešu grāmatu) darbinieku laika uzskaites reģistrācijas ierakstus. Šo atļauju ieteicams aktivizēt vadītāja lomai, bet ne kasiera lomai. Noklikšķiniet uz **POS atļauju grupas** &gt; **Skatīt darba laika uzskaites ierakstus**.
 
 ## <a name="register-time"></a>Reģistra laiks
 ### <a name="cashier-and-non-cashier-time-registrations"></a>Kasiera un darbinieka, kas nav kasieris, laika reģistrācija
@@ -106,9 +109,9 @@ Informāciju par konfigurācijas soļiem skatiet šeit: <https://technet.microso
 <!-- -->
 
 -   Atšķirīgas laika zonas
-    -   Ja tiek skatīta laika uzskaite no citas atrašanās vietas (kasiera žurnālā vai izmantojot vadītāja scenārija opciju **Skatīt laika uzskaites ierakstus**) un šī atrašanās vieta atrodas citā laika joslā, redzamie laika uzskaites ieraksti tiek pārvērsti atbilstoši vietējai laika joslai. Piemēram, jūs esat vadītājs divi veikali, viens Arizonā un citu Nevada. Kase reģistrē ierašanās pie 9:00 A.M. Arizona. Šajā brīdī Nevadā ir 8:00. Tāpēc, ja atrodaties veikalā Nevadā un skatāt laika reģistrācijas ierakstus, ir redzams, ka laika reģistrācija ir atzīmēta 8:00.
+    -   Ja tiek skatīta laika uzskaite no citas atrašanās vietas (kasiera žurnālā vai izmantojot vadītāja scenārija opciju **Skatīt laika uzskaites ierakstus**) un šī atrašanās vieta atrodas citā laika joslā, redzamie laika uzskaites ieraksti tiek pārvērsti atbilstoši vietējai laika joslai. Piemēram, pieņemsim, ka esat divu veikalu vadītājs, no kuriem viens atrodas Arizonā, bet otrs atrodas Nevadā. Kasieris reģistrē ierašanos 9:00 pēc Arizonas laika. Šajā brīdī Nevadā ir 8:00. Tāpēc, ja atrodaties veikalā Nevadā un skatāt laika reģistrācijas ierakstus, ir redzams, ka laika reģistrācija ir atzīmēta 8:00.
 
-## <a name="view-worker-time-registrations"></a>Skatiet darbinieka laika reģistrācijas
+## <a name="view-worker-time-registrations"></a>Darbinieku laika reģistrācijas ierakstu skatīšana
 ### <a name="view-worker-time-registrations-and-filter-by-store-or-activity-type"></a>Skatiet darbinieka laika reģistrācijas ierakstus un filtrējiet tos pēc veikala vai aktivitātes tipa.
 
 Pārdošanas punktā (POS)
@@ -117,8 +120,8 @@ Pārdošanas punktā (POS)
 -   Var skatīt visu to darbinieku laika uzskaites reģistrācijas darbības, kas iedalīti tajos pašos veikalos, kur esat iedalīts jūs.
 -   Lai filtrētu laika reģistrācijas ierakstus, var izmantot aktivitātes tipa un veikala filtru.
 
-## <a name="process-and-manage-time-registrations"></a>Apstrādāt un pārvaldīt laika reģistrācijas
-Dynamics 365 operācijām - mazumtirdzniecības lietotāja izriet aprēķināšana, apstiprināšana un pārsūtīt laika reģistrācijas algas darbplūsmu.
+## <a name="process-and-manage-time-registrations"></a>Laika reģistrācijas ierakstu apstrāde un pārvaldība
+Programmatūras Dynamics 365 for Operations — Retail lietotājs var sekot līdzi darbplūsmai, lai aprēķinātu, apstiprinātu un pārsūtītu laika reģistrācijas ierakstus algas aprēķināšanai.
 
 ### <a name="primary-operations"></a>Primārās darbības
 
@@ -132,5 +135,7 @@ Dynamics 365 operācijām - mazumtirdzniecības lietotāja izriet aprēķināša
 -   Kavējuma reģistrēšana
 
 Papildinformāciju par laika un apmeklētības reģistrācijas ierakstu apstrādi skatiet šeit: <https://technet.microsoft.com/en-us/library/aa573180.aspx>.
+
+
 
 

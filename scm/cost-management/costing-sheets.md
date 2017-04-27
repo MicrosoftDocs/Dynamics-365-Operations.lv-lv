@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="costing-sheets"></a>Izmaksu aprēķināšanas lapas
 
+[!include[banner](../includes/banner.md)]
+
+
 Aprēķina shēmas iestatīšana ietver divus mērķus. Kā pirmo mērķi jūs nosakiet formātu pārdoto preču izmaksu informācijas parādīšanai par ražoto vienību vai ražošanas pasūtījumu. Noformētais ekrāns ir nosauktā aprēķina shēma. Kā otro mērķi jūs nosakiet pamatu netiešo izmaksu aprēķināšanai. Aprēķina shēmas iestatījums balstās uz izmaksu grupas līdzekli informācijas parādīšanai un netiešo izmaksu aprēķināšanas formulām. Šajā rakstā ir aprakstīti divi izmaksu aprēķināšanas shēmu iestatīšanas mērķi. 
 
 Izmaksu aprēķina lapa ir formatēta informācijas parādīšana par to preču izmaksām, kas pārdotas atbilstoši izgatavotajai precei vai ražošanas pasūtījumam. Iestatot izmaksu aprēķina lapu, nosakiet informācijas formātu, kā arī netiešo izmaksu aprēķināšanas pamatu. Izmaksu aprēķina iestatījums pamatojas uz izmaksu grupas līdzekļiem informācijas parādīšanai un netiešo izmaksu aprēķināšanas formulām. Šeit ir plašāka informācija par diviem izmaksu aprēķina lapas iestatījuma mērķiem:
@@ -43,6 +46,8 @@ Divas bloķēšanas politikas aprēķinu versijai nosaka, vai izmaksas var tikt 
 Pēc aprēķina shēmas formāta un aprēķinu netiešām izmaksām noteikšanas jums ir jāveic atsevišķa darbība, lai validētu un saglabātu informāciju. Izmaksu aprēķina lapa norāda uzņēmumā plaši izmantoto formātu, lai pastāvīgi parādītu pārdoto preču pašizmaksas informāciju. 
 
 Izmaksu aprēķina lapa tiek parādīta kā daļa no lapas **Aprēķināt krājuma izmaksas**. Izmaksu aprēķina lapu var parādīt saražotā krājuma aprēķināto izmaksu ierakstam lapā **Krājuma cena** vai pasūtījuma raksturīgo aprēķinu ierakstam lapā **MK aprēķina rezultāti**. To var arī parādīt, kā ražošanas pasūtījuma daļu lapā **Cenas aprēķināšana**.
+
+
 
 
 

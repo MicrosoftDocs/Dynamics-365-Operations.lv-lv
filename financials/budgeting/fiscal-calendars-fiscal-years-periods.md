@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Finanšu kalendāri, finanšu gadi un periodi
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir aprakstīti finanšu kalendāri, finanšu gadi un periodi, kā arī to lietošana juridiskajām personām, pamatlīdzekļiem un budžeta veidošanai.
 
 Finanšu kalendāri nodrošina struktūru organizācijas finanšu aktivitātei. Katrs finanšu kalendārs satur vienu vai vairākus finanšu gadus, un katrs finanšu gads satur vairākus periodus. Finanšu kalendāri var būt balstīti uz kalendāra gadu no 1. janvāra līdz 31. decembrim vai jebkādiem jūsu izvēlētiem datumiem. Piemēram, dažas organizācijas izvēlas finanšu kalendāru, kas sākas viena gada 1. jūlijā un beidzas nākamā gada 30. jūnijā. 
@@ -39,7 +42,7 @@ Finanšu kalendārus, finanšu gadus un periodus varat izveidot un dzēst lapā 
 
 Slēgšanas periods tiek lietots, lai dalītu Virsgrāmatas darījumus, kas tiek ģenerēti, kad finanšu gads tiek slēgts. Ja slēgšanas darījumi ir vienā finanšu periodā, ir vieglāk izveidot finanšu pārskatus, kas iekļauj vai izslēdz dažādu veidu slēgšanas ierakstus. Ja finanšu gads ir sadalīts 12 finanšu periodos, slēgšanas periods parasti ir 13. periods. Taču slēgšanas periodu var izveidot no jebkura perioda, kura statuss ir Atvērts. 
 
-Kad veidojat slēgšanas periodu, atlasiet kādu periodu, kura statuss ir Atvērts un kuram ir datumi, ko vēlaties izmantot. Jaunais slēgšanas periods kopēs esošā perioda sākuma un beigu datumu. Sākotnējais periods turpinās pastāvēt. Piemēram, jāatlasa perioda 12, finanšu gada pēdējā perioda, un kas ir 1. augusts līdz 31 augusts datumiem. Jāievada nosaukums noslēguma periodā, piemēram, aizvērt. Kad esat izveidojis jaunu slēgšanas periodu, jums ir sākotnējais periods un slēgšanas periods. Abiem datumi sākas 1. augustā un beidzas 31. augustā.
+Kad veidojat slēgšanas periodu, atlasiet kādu periodu, kura statuss ir Atvērts un kuram ir datumi, ko vēlaties izmantot. Jaunais slēgšanas periods kopēs esošā perioda sākuma un beigu datumu. Sākotnējais periods turpinās pastāvēt. Piemēram, jūs atlasāt 12. periodu, kas ir pēdējais finanšu gada periods un kurā ir ietverti datumi no 1. augusta līdz 31. augustam. Jūs ievadāt slēgšanas perioda nosaukumu, piemēram “Slēgšana”. Kad esat izveidojis jaunu slēgšanas periodu, jums ir sākotnējais periods un slēgšanas periods. Abiem datumi sākas 1. augustā un beidzas 31. augustā.
 
 ## <a name="select-fiscal-calendars-for-ledgers-fixed-assets-and-budget-cycles"></a>Atlasīt finanšu kalendārus Virsgrāmatām, pamatlīdzekļiem un budžeta cikliem
 Finanšu kalendāri tiek izmantoti ar pamatlīdzekļu nolietojumu, finanšu transakcijām un budžeta cikliem. Veidojot finanšu kalendāru, varat to izmantot vairākiem nolūkiem. Jūs varat atlasīt finanšu kalendāru vērtības modelim vai nolietojuma grāmata, lai padarītu to par pamatlīdzekļu kalendāru. Varat atlasīt finanšu kalendāru Virsgrāmatai, lai padarītu to par Virsgrāmatas kalendāru. Varat arī atlasīt finanšu kalendāru budžeta ciklam, lai padarītu to par budžeta kalendāru. Varat izmantot vienu un to pašu finanšu kalendāru visiem šiem nolūkiem.
@@ -58,6 +61,8 @@ Budžeta cikli ir laika posms, kurā tiek izmantots budžets. Budžeta cikli var
 
 ## <a name="maintain-periods-for-your-organization"></a>Uzturēt jūsu organizācijas periodus
 Lapu Virsgrāmatas kalendārs varat izmantot, lai apskatītu detalizētu informāciju par savas organizācijas izmantoto finanšu kalendāru, finanšu gadiem un periodiem. Varat arī mainīt periodu statusu un atlasīt lietotājus, kuriem atļauts grāmatot uzskaites transakcijas periodos. Piemēram, jauna perioda sākumā jūs, iespējams, vēlaties, lai kāda lietotāju grupa pabeidz finanšu darījumu grāmatošanu iepriekšējā periodā, bet citas grupas strādā tikai jaunajā periodā.
+
+
 
 
 

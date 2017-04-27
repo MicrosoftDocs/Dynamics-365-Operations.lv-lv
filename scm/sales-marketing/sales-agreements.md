@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-agreements"></a>Pārdošanas līgumi
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegta informācija par pārdošanas līgumiem. Pārdošanas līgums ir līgums, ar kuru debitors piekrīt laika gaitā iegādāties noteiktu daudzumu preču vai iegādāties preces par noteiktu summu apmaiņā pret īpašām cenām un atlaidēm.
 
 Pārdošanas līgums ir vienošanās, kas nosaka, ka laika gaitā klientam jāiegādājas preces noteiktā daudzumā vai par konkrētu summu apmaiņā pret īpašām cenām, īpašām atlaidēm un citiem īpašiem nosacījumiem, piemēram, maksājuma un piegādes nosacījumiem. Pārdošanas līguma cenām un atlaidēm ir prioritāte pār jebkādām cenām un atlaidēm, kas ir norādītas jebkuros jau pastāvošajos tirdzniecības līgumos.  
@@ -36,7 +39,7 @@ Pārdošanas līguma derīguma termiņu nosaka līguma laukā **Spēkā stāšan
 
 Pārdošanas pasūtījumu var izveidot tieši no pārdošanas līguma, izmantojot darbību **Izveidot izpildpasūtījumu**. Vai arī varat atlasīt spēkā esošo pārdošanas līgumu, pieņemot pasūtījumus (skatiet šī raksta sadaļu “Pārdošanas līgumu lietošana pasūtīšanas procesā”).  
 
-**Piezīme:** vecākās versijās, pārdošanas līgumi tika minētas kā pārdošanas pasūtījumu plānus.
+**Piezīme.** Iepriekšējās versijās pārdošanas līgumi tika saukti par padošanas pasūtījumu plāniem.
 
 ## <a name="commitment-types"></a>Saistību veidi
 Katra pārdošanas līguma rinda norāda saistības kaut ko pārdot. Parasti ir divas saistību kategorijas:
@@ -93,21 +96,23 @@ Ja esat izveidojis (izsniedzis) pārdošanas pasūtījumu atbilstoši pārdošan
 | Lauks                                                             | Apraksts                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |-------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Pieprasītais nosūtīšanas datums                                               | Ja maināt pieprasīto nosūtīšanas datumu uz datumu, kas ir agrāks par **spēkā stāšanās datuma** vērtību pārdošanas līguma rindā, ir jānoņem saite uz pārdošanas līguma rindu pirms mainītā nosūtīšanas datuma saglabāšanas. Ja maināt pieprasīto nosūtīšanas datumu uz datumu, kas ir vēlāks par **beigu datuma** vērtību pārdošanas līguma rindā, ir jānoņem saite uz pārdošanas līguma rindu pirms mainītā nosūtīšanas datuma saglabāšanas. |
-| CurrencyDiscount, percentDiscountUnit, pricePrice, unitNet summa | Ja maināt vērtību jebkurā no šiem laukiem un saistītā pārdošanas līguma rindā ir atzīmēta izvēles rūtiņa **Cena un atlaide ir fiksēta**, ziņojuma lodziņš piedāvā saglabāt izmaiņas. Noklikšķiniet uz **Jā** noņemat saiti uz tirdzniecības līguma rinda un pārrēķināt cenas. Noklikšķiniet uz **Nr** noņemt saiti uz tirdzniecības līguma rinda bez pārrēķināšanas cenu.                                                                   |
-| Neto summa                                                        | Ja norādāt summu, kas pārsniedz to, kas norādīta pārdošanas līguma rindā, kur ir atzīmēta izvēles rūtiņa **Sasniegts maksimums**, ziņojuma lodziņš piedāvā saglabāt mainīto summu. Noklikšķiniet uz **Jā** noņemat saiti uz tirdzniecības līguma rinda un pārrēķināt cenas. Noklikšķiniet uz **Nr** noņemt saiti uz tirdzniecības līguma rinda bez pārrēķināšanas cenu.                                                                 |
-| Daudzums                                                          | Ja norādāt daudzumu, kas pārsniedz to, kas norādīts pārdošanas līguma rindā, kur ir atzīmēta izvēles rūtiņa **Sasniegts maksimums**, ziņojuma lodziņš piedāvā saglabāt mainīto daudzumu. Noklikšķiniet uz **Jā** noņemat saiti uz tirdzniecības līguma rinda un pārrēķināt cenas. Noklikšķiniet uz **Nr** noņemt saiti uz tirdzniecības līguma rinda bez pārrēķināšanas cenu.                                                            |
+| CurrencyDiscount, percentDiscountUnit, pricePrice, unitNet summa | Ja maināt vērtību jebkurā no šiem laukiem un saistītā pārdošanas līguma rindā ir atzīmēta izvēles rūtiņa **Cena un atlaide ir fiksēta**, ziņojuma lodziņš piedāvā saglabāt izmaiņas. Noklikšķiniet uz **Jā**, lai noņemtu saiti uz pārdošanas līguma rindu un pārrēķinātu cenu. Noklikšķiniet uz **Nē**, lai noņemtu saiti uz pārdošanas līguma rindu, nepārrēķinot cenu.                                                                   |
+| Neto summa                                                        | Ja norādāt summu, kas pārsniedz to, kas norādīta pārdošanas līguma rindā, kur ir atzīmēta izvēles rūtiņa **Sasniegts maksimums**, ziņojuma lodziņš piedāvā saglabāt mainīto summu. Noklikšķiniet uz **Jā**, lai noņemtu saiti uz pārdošanas līguma rindu un pārrēķinātu cenu. Noklikšķiniet uz **Nē**, lai noņemtu saiti uz pārdošanas līguma rindu, nepārrēķinot cenu.                                                                 |
+| Daudzums                                                          | Ja norādāt daudzumu, kas pārsniedz to, kas norādīts pārdošanas līguma rindā, kur ir atzīmēta izvēles rūtiņa **Sasniegts maksimums**, ziņojuma lodziņš piedāvā saglabāt mainīto daudzumu. Noklikšķiniet uz **Jā**, lai noņemtu saiti uz pārdošanas līguma rindu un pārrēķinātu cenu. Noklikšķiniet uz **Nē**, lai noņemtu saiti uz pārdošanas līguma rindu, nepārrēķinot cenu.                                                            |
 
 ## <a name="returning-an-item-that-was-ordered-from-a-sales-agreement"></a>Krājuma, kas tika pasūtīts pārdošanas līgumā, nodošana atpakaļ
-Kad klients atgriež preces, kas tika pasūtīts no pārdošanas līgumā, Microsoft Dynamics 365 operācijām var atrast un automātiski atjaunina saistīto tirdzniecības līgumu saistības atspoguļo izmaiņas summa vai daudzums. Ja izveidojat atgriešanas pasūtījumu, pamatojoties uz sākotnējo pārdošanas pasūtījumu, kas ir piesaistīts pārdošanas līgumam, tiek izveidota relācija starp pārdošanas līguma saistību, pārdošanas pasūtījuma rindu un atgriešanas pasūtījuma rēķinu.  
+Kad klients atgriež preci, kas tika pasūtīta no pārdošanas līguma, programmatūrā Microsoft Dynamics 365 for Operations var tikt atrastas un automātiski atjauninātas saistītās pārdošanas līguma saistības, lai atainotu daudzuma vai summas izmaiņas. Ja izveidojat atgriešanas pasūtījumu, pamatojoties uz sākotnējo pārdošanas pasūtījumu, kas ir piesaistīts pārdošanas līgumam, tiek izveidota relācija starp pārdošanas līguma saistību, pārdošanas pasūtījuma rindu un atgriešanas pasūtījuma rēķinu.  
 
 Ja nevēlaties, lai atgriezto krājumu daudzumu ieturētu no pārdošanas līguma saistībām, var izmantot vadīklu **Noņemt saiti** lapā **Atgriezt pasūtījumu**, lai noņemtu saiti starp pasūtījumu un pārdošanas līguma saistībām. Ja jums ir vēlāk atkārtoti jāizveido saite, noklikšķinot uz **Izveidot saiti**.  
 
 **Piezīme.** Atgriešanas pasūtījumu var saistīt tikai ar vienu pārdošanas līgumu.. Ja klients atgriež vairākas preces, kas tika pasūtītas no vairākiem pārdošanas līgumiem, ir jāizveido jauns atgriešanas pasūtījums katrai precei un jāizveido saite uz atbilstošo pārdošanas līgumu.
 
 ## <a name="automatic-search-for-sales-agreements"></a>Pārdošanas līgumu automātiskā meklēšana
-Dažās situācijās, kad pārdošanas pasūtījumi ir izveidoti netieši, piemēram, veidojot kredīta notu vai starpuzņēmumu pārdošanas pasūtījumus, var kontrolēt, vai Microsoft Dynamics 365 operācijām automātiski meklē piemēro pārdošanas līgumiem.
+Dažās situācijās, kad pārdošanas pasūtījumi tiek izveidoti netiešā veidā, piemēram, izveidojot kredīta notu vai starpuzņēmumu pārdošanas pasūtījumus, varat kontrolēt, vai programmatūrā Microsoft Dynamics 365 for Operations tiek automātiski meklēti lietojamie pārdošanas līgumi.
 
 ## <a name="financial-dimensions-on-sales-agreements"></a>Pārdošanas līgumu finanšu dimensijas
 Finanšu dimensijas varat kopēt pārdošanas līguma dokumentu galvenēs vai atsevišķās rindās. Dimensijas uz līguma virsraksta vai līguma rindā var mainīt jebkurā laikā. Šajā gadījumā dimensijas tiek automātiski iekopētas izpildei nodoto pasūtījumu izpildpasūtījuma galvenē vai rindā.
+
+
 
 

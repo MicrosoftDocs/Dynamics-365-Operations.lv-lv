@@ -1,6 +1,6 @@
 ---
 title: "Debitoru un preču ienesīguma novērtēšana"
-description: "Šajā rakstā ir paskaidrots, kā jūs varat izmantot savā atmiņā un reālā laika analytics piekļūt, izpētīt un gūt ieskatu par klientiem un produktu ienesīgumu no jūsu Microsoft Dynamics 365 operācijas datu."
+description: "Šajā rakstā ir paskaidrots, kā var izmantot atmiņā saglabāto un reāllaika analīzi, lai no Microsoft Dynamics 365 for Operations datiem piekļūtu informācijai par debitoriem un preču ienesīgumu, pētītu šo informāciju un gūtu par to ieskatus."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 52902
 ms.assetid: 1a77d04b-2985-4bee-9138-c216fe0483de
 ms.search.region: global
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="assess-customer-and-product-profitability"></a>Debitoru un preču ienesīguma novērtēšana
 
-Šajā rakstā ir paskaidrots, kā jūs varat izmantot savā atmiņā un reālā laika analytics piekļūt, izpētīt un gūt ieskatu par klientiem un produktu ienesīgumu no jūsu Microsoft Dynamics 365 operācijas datu. 
+[!include[banner](includes/banner.md)]
 
-Kā daļu no Dynamics 365 operācijām, lietotāji var mācīties rentabilitātes labākos klientus (10 – 100) pāri dažādas organizācijas hierarhijas līmeņos, pamatojoties uz vienu no šādiem kritērijiem:
+
+Šajā rakstā ir paskaidrots, kā var izmantot atmiņā saglabāto un reāllaika analīzi, lai no Microsoft Dynamics 365 for Operations datiem piekļūtu informācijai par debitoriem un preču ienesīgumu, pētītu šo informāciju un gūtu par to ieskatus. 
+
+Izmantojot programmu Dynamics 365 for Operations, lietotāji var pētīt labāko debitoru (10–100) rentabilitāti dažādos organizācijas hierarhijas līmeņos, ņemot vērā vienu no tālāk norādītajiem kritērijiem.
 
 -   Pārdošanas summa
 -   Daudzums
@@ -38,8 +41,8 @@ Kā daļu no Dynamics 365 operācijām, lietotāji var mācīties rentabilitāte
 
 Lai veiktu šo izvērtēšanu, var izmantot inovatīvo pārskatu **Lielākie debitori**, kuru var atvērt, izmantojot vienu no tālāk norādītajiem ceļiem.
 
--   **Mazumtirdzniecības veikala vadība** darbvietas Dynamics 365 operācijām &gt;**mazumtirdzniecības un komercijas**&gt;**kanālus**&gt;**mazumtirdzniecības veikala vadība**&gt;**atskaites**&gt;**Top klientu pārskats**
--   **Uzziņās un pārskatos** sadaļu Dynamics 365 operācijām &gt;**mazumtirdzniecības un komercijas**&gt;**uzziņās un pārskatos**&gt;**pārdošanas atskaišu**&gt;**Top klientu pārskats**
+-   **Mazumtirdzniecības veikala pārvaldība** darbvieta Dynamics 365 for Operations &gt; **Mazumtirdzniecība un komercija** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Lielāko debitoru pārskats**
+-   **Pieprasījumi un pārskati** sadaļa Dynamics 365 for Operations &gt; **Mazumtirdzniecība un komercija** &gt; **Pieprasījumi un pārskati** &gt; **Pārdošanas pārskati** &gt; **Lielāko debitoru pārskats**
 
 Līdzīgi lietotāji var pētīt augstākās kvalitātes preču (10–100) rentabilitāti dažādos organizācijas hierarhijas līmeņos, ņemot vēra tālāk norādītos kritērijus.
 
@@ -48,10 +51,12 @@ Līdzīgi lietotāji var pētīt augstākās kvalitātes preču (10–100) renta
 -   Bruto peļņas norma
 -   Uzcenojuma procenti
 
-Lai veiktu šo izvērtēšanu, var izmantot inovatīvo pārskatu **Augstākās kvalitātes preces, **kuru var atvērt, izmantojot vienu no tālāk norādītajiem ceļiem.
+Lai veiktu šo izvērtēšanu, var izmantot standarta komplektācijā iekļauto pārskatu **Labākās preces**, kuru var atvērt, izmantojot vienu no tālāk norādītajiem ceļiem.
 
--   **Mazumtirdzniecības veikala vadība** darbvietas Dynamics 365 operācijām &gt;**mazumtirdzniecības un komercijas**&gt;**kanālus**&gt;**mazumtirdzniecības veikala vadība**&gt;**atskaites**&gt;**Top produktu pārskats**
--   **Kategoriju un produktu pārvaldības** darbvietas Dynamics 365 operācijām &gt;**mazumtirdzniecības un komercijas**&gt;**produktiem un kategorijas**&gt;**mazumtirdzniecības veikala vadība**&gt;**atskaites**&gt;**Top produktu pārskats**
--   **Uzziņās un pārskatos** sadaļu Dynamics 365 operācijām &gt;**mazumtirdzniecības un komercijas**&gt;**uzziņās un pārskatos**&gt;**pārdošanas atskaišu**&gt;**Top produktu pārskats**
+-   **Mazumtirdzniecības veikala pārvaldība** darbvieta Dynamics 365 for Operations &gt; **Mazumtirdzniecība un komercija** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Labāko preču pārskats**
+-   **Kategoriju un preču pārvaldība** darbvieta Dynamics 365 for Operations &gt; **Mazumtirdzniecība un komercija** &gt; **Preces un kategorijas** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Labāko preču pārskats**
+-   **Pieprasījumi un pārskati** sadaļa Dynamics 365 for Operations &gt; **Mazumtirdzniecība un komercija** &gt; **Pieprasījumi un pārskati** &gt; **Pārdošanas pārskati** &gt; **Labāko preču pārskats**
+
+
 
 

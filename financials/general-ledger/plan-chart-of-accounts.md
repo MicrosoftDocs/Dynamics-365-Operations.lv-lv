@@ -1,5 +1,5 @@
 ---
-title: "Plānot jūsu kontu plānā"
+title: "Kontu plāna plānošana"
 description: "Šajā rakstā ir sniegta informācija, kas jums palīdzēs savai organizācijai plānot kontu plānu."
 author: RobinARH
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="plan-your-chart-of-accounts"></a>Plānot jūsu kontu plānā
+# <a name="plan-your-chart-of-accounts"></a>Kontu plāna plānošana
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir sniegta informācija, kas jums palīdzēs savai organizācijai plānot kontu plānu.
 
@@ -34,7 +37,7 @@ Lai organizācijā izsekotu un uzturētu finanšu informāciju, varat iestatīt 
 
 Kontu plāns ir juridiskas personas Virsgrāmatas kontu strukturētais saraksts. Saraksts tiek lietots, lai sagatavotu finanšu pārskatus iestādēm un īpašniekiem. Konti tiek grupēti kontu veicos un pēc tam apkopoti lielākās kategorijās. Vispārīgā līmenī konti tiek grupēti kā ieņēmumi un izmaksas (operāciju konti) un kā aktīvi un pasīvi (bilances konti). 
 
-Kontu plānu var kopīgot un jebkura juridiskā persona organizācijā to var izmantot. Kontu plānā, kas tiek izmantota juridiskā vienība ir definēta **grāmatas** lapā. 
+Kontu plānu var kopīgot un jebkura juridiskā persona organizācijā to var izmantot. Kontu plāns, ko izmanto juridiskā persona, tiek definēts lapā **Virsgrāmata**. 
 
 Tālāk ir minēti daži faktori, kas jāņem vērā, plānojot savas organizācijas kontu plāna strukturu.
 
@@ -48,10 +51,12 @@ Ir ieteicams saistīt galvenos kontus ar galvenā konta kategorijām, lai varēt
 
 Izmantojiet lapu **Konfigurēt kontu struktūras**, lai izveidotu kontu struktūras. Kontu struktūras nosaka derīgās kombinācijas. Kombinācijas kopā ar galvenajiem kontiem izveido kontu plānu. 
 
-**Legal entity overrides** 
+**Juridiskas personas prioritātes** 
 
-Ne visas galvenā uzskaite ir derīgas visas juridiskās personas un daži tikai var attiekties uz noteiktu laika periodu. Šādā gadījumā varat izmantot sadaļu Juridiskas personas prioritātes, lai norādītu, kuriem uzņēmumiem galvenais konts ir jāaiztur, kas ir īpašnieks un kāds ir dimensijas aktīvais laika periods. Koplietošanas līmenī prioritātes nevar būt vairāk ierobežojošas nekā prioritātes, kas ir juridiskās personas līmenī.
+Daži galvenie konti nav derīgi visām juridiskajām personām un var attiekties tikai uz noteiktu laika periodu. Šādā gadījumā varat izmantot sadaļu Juridiskas personas prioritātes, lai norādītu, kuriem uzņēmumiem galvenais konts ir jāaiztur, kas ir īpašnieks un kāds ir dimensijas aktīvais laika periods. Koplietošanas līmenī prioritātes nevar būt vairāk ierobežojošas nekā prioritātes, kas ir juridiskās personas līmenī.
 
-Lai iegūtu papildinformāciju, skatiet [finanšu dimensijas](financial-dimensions.md).
+Papildinformāciju skatiet tēmā [Finanšu dimensijas](financial-dimensions.md).
+
+
 
 

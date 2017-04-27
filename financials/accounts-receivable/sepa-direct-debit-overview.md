@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sepa-direct-debit-overview"></a>SEPA tiešā debeta pārskats
 
+[!include[banner](../includes/banner.md)]
+
+
 Vienoto eiro maksājumu zonu (SEPA) ir izveidojusi Eiropas Komisija un tā nosaka, ka visi elektroniskie maksājumi tiek uzskatīti par iekšzemes maksājumiem neatkarīgi no privātpersonas, uzņēmuma vai organizācijas un bankas atrašanās valsts/reģiona. Starp nacionālajiem un pārrobežu maksājumiem nav nekādas atšķirības. SEPA ietver 28 Eiropas Savienības (ES) dalībvalstis, kā arī Islandi, Lihtenšteinu, Norvēģiju, Šveici, Monako un Sanmarīno. SEPA palīdz veidot vienoto maksājumu transakciju tirgus Eiropas Ekonomikas zonā (EEZ). Visbeidzot, paredzams, ka SEPA samazinās maksājumu formātu skaitu, ar kuru ir jāstrādā bankām, uzņēmumiem un privātpersonām.   
 
-<a name="what-is-the-goal-of-sepa-direct-debits"></a>Kas ir SEPA tiešā debeta maksājumu mērķis?
+<a name="what-is-the-goal-of-sepa-direct-debits"></a>Kāds ir SEPA tiešā debeta mērķis?
 ---------------------------------------
 
-SEPA tiešā debeta ļauj kreditoram, lai savāktu līdzekļus no klienta bankas konta, ar noteikumu, ka parakstītai pilnvarai nav izsniegusi klientam kreditoram. Debitors paraksta mandātu, kas kreditoru pilnvaro maksājuma saņemšanai un klienta bankai sniedz norādījumus par iekasējamās summas izmaksāšanu. 
+SEPA tiešais debets ļauj kreditoram iekasēt līdzekļus no debitora bankas konta ar nosacījumu, ka šim kreditoram attiecīgais debitors ir piešķīris parakstītu mandātu. Debitors paraksta mandātu, kas kreditoru pilnvaro maksājuma saņemšanai un klienta bankai sniedz norādījumus par iekasējamās summas izmaksāšanu. 
 
 SEPA tiešā debeta shēma pirmoreiz izveido maksāšanas līdzekli, ko var izmantot gan valsts, gan pārrobežu eiro tiešā debeta transakcijās 32 SEPA valstīs/reģionos. 
 
@@ -60,7 +63,7 @@ SEPA B2B tiešā debeta shēma ir piemērojama transakcijām starp uzņēmumiem 
 Jā. COR1 shēmu varat izmantot SEPA tiešā debeta mandātiem Austrijā, Beļģijā, Vācijā, Francijā, Itālijā, Spānijā un Nīderlandē. Šī shēma nodrošina kreditoram īsāku pirmspaziņojuma periodu tiešā debeta iekasēšanai.
 
 ## <a name="what-are-international-bank-account-numbers-iban-and-bank-identifier-codes-bic"></a>Kas ir starptautiskie bankas kontu numuri (IBAN) un banku identifikācijas kodi (BIC)?
-Starptautiskais bankas konta numurs (IBAN) un bankas identifikācijas kods (BIC) tiek izmantots, lai identificētu jebkuru kontu 32 SEPA valstīs/reģionos. BIC, ievadiet laukā laukā IBAN IBAN un SWIFT kods. Abi lauki atrodas kopsavilkuma cilnē Papildu identifikācija, cilnē Bankas konts, lapā Banku konti. Tas attiecas uz kreditora bankas kontu un debitora bankas kontu.
+Starptautiskais bankas konta numurs (IBAN) un bankas identifikācijas kods (BIC) tiek izmantots, lai identificētu jebkuru kontu 32 SEPA valstīs/reģionos. Ievadiet BIC laukā SWIFT kods un IBAN laukā IBAN. Abi lauki atrodas kopsavilkuma cilnē Papildu identifikācija, cilnē Bankas konts, lapā Banku konti. Tas attiecas uz kreditora bankas kontu un debitora bankas kontu.
 
 ## <a name="where-do-i-enter-creditor-identifiers-direct-debit-ids"></a>Kur jāievada kreditora identifikatori (tiešā debeta ID)?
 SEPA katru kreditoru identificē pēc unikāla kreditora identifikatora. Šis identifikators ļauj debitoram un debitora bankai filtrēt katru tiešo debetu un pēc tam apstrādāt vai noraidīt tiešo debetu atbilstoši debitora norādījumiem. Kreditoriem jāpieprasa šis identifikators caur savu banku. Šo identifikatoru attiecīgās juridiskās personas bankas kontam ievadiet laukā Tiešā debeta ID.
@@ -69,7 +72,7 @@ SEPA katru kreditoru identificē pēc unikāla kreditora identifikatora. Šis id
 Debitors paraksta mandātu, kas kreditoru pilnvaro maksājuma saņemšanai un klienta bankai sniedz norādījumus par iekasējamās summas izmaksāšanu. Debitors var izsniegt mandātu papīra formā vai elektroniski. Pēc noklusējuma mandāta derīguma termiņš izbeidzas 36 mēnešus pēc tiešā debeta pēdējās uzsākšanas.
 
 ## <a name="where-do-i-specify-the-sepa-direct-debit-file-format-iso-20022"></a>Kur norādīt SEPA tiešā debeta faila formātu (ISO 20022)?
-SEPA datu formāti ir balstīti uz ISO 20022 ziņojumu standartiem. Jūs pārbaudiet vispārīgo elektroniskās ziņošanas rūtiņu un SEPA tiešā debeta formātā kā eksportēšanas formātu konfigurācija, konfigurējot atlasiet pārskatu debitoru maksāšanas. Šo maksājuma metodi jūs izmantojat, kad debitoru maksājumu žurnālā ģenerējat maksājuma failu.
+SEPA datu formāti ir balstīti uz ISO 20022 ziņojumu standartiem. Jums ir jāatzīmē izvēles rūtiņa Vispārīga elektronisko atskaišu veidošana un kā eksporta formāta konfigurācija ir jāatlasa SEPA tiešā debeta formāts, kad maksājumam konfigurējat debitoru metodes. Šo maksājuma metodi jūs izmantojat, kad debitoru maksājumu žurnālā ģenerējat maksājuma failu.
 
 ## <a name="in-what-file-formats-can-i-generate-sepa-direct-debit-payment-files"></a>Kādos faila formātos var ģenerēt SEPA tiešā debeta maksājumu failus?
 SEPA tiešā debeta elektronisko maksājumu failus varat ģenerēt šādos formātos:
@@ -78,6 +81,8 @@ SEPA tiešā debeta elektronisko maksājumu failus varat ģenerēt šādos form�
 
 ## <a name="how-do-refunds-and-returns-work-with-sepa-direct-debits"></a>Kā veikt atmaksu un atgriešanu SEPA tiešā debeta transakcijām?
 Abās SEPA tiešā debeta shēmās debitoriem ir noteiktas tiesības uz atmaksu. Debitoram ir atļauts, nenorādot iemeslu, atsaukt jebkuras autorizētās transakcijas astoņu nedēļu laikā pēc izpildes termiņa. Neautorizētu transakciju gadījumā šis periods tiek pagarināts līdz 13 mēnešiem pēc izpildes termiņa. Jebkuru veikto maksājumu anulēšana ir jāveic manuāli, lapā Debitoru transakcijas izmantojot pogu Atcelt maksājumu.
+
+
 
 
 

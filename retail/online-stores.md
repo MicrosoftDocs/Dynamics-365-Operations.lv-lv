@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16161
 ms.assetid: 646d560c-f856-4701-b4ca-44e357ef09b8
 ms.search.region: Global
@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 ---
 
 # <a name="online-store-overview"></a>Tiešsaistes veikala pārskats
+
+[!include[banner](includes/banner.md)]
+
 
 Šajā rakstā ir sniegta informācija par mazumtirdzniecības tiešsaistes veikaliem un par to iestatīšanu programmā Microsoft Dynamics 365 for Operations.
 
@@ -50,5 +53,7 @@ Pirms tiešsaistes veikala izveidošanas ir jādefinē mazumtirdzniecības kanā
 
 ## <a name="organization-hierarchies"></a>Organizācijas hierarhijas
 Organizācijas hierarhijas izmanto, lai piešķirtu struktūru mazumtirdzniecības kanāliem. Organizācijas hierarhijas pārstāv attiecības starp organizācijām, kas veido jūsu uzņēmumu. Iestatot tiešsaistes veikalus, varat tos pievienot organizāciju hierarhijai. Pēc tam veikali koplieto datus, kas tiek izmantoti preču klāstiem, papildināšanai un pārskatu veidošanai. Kad veidojat organizāciju hierarhiju, jūs tai piešķirat nolūku. Nolūks norāda, kā šī hierarhija tiek izmantota uzņēmumu struktūrā. Varat izveidot vienu organizāciju hierarhiju sava veikala operācijām, un varat šo hierarhiju izmantot preču klāstiem, papildināšanai un pārskatu veidošanai. Varat arī katram nolūkam izveidot atsevišķu organizācijas hierarhiju. Tāpat varat izveidot vairākas hierarhijas ar vienādu nolūku un katrai no tām piešķirt atsevišķu kanālu. Ja mazumtirdzniecības preču katalogus plānojat publicēt tiešsaistes veikalā, tiešsaistes veikali ir jāpievieno organizāciju hierarhijai vismaz attiecībā uz preču sortimentiem. Katalogā iekļautās preces tiek atlasītas no preču sortimentiem, kas ir piešķirti šim tiešsaistes veikalam. Pēc kataloga publicēšanas šis publicēšanas process salīdzina tiešsaistes veikalam piešķirtā preču klāsta spēkā stāšanās datumus un preces, kas ir iekļautas šajā katalogā, lai noteiktu, kurām precēm ir jābūt pieejamām tiešsaistes veikalā.
+
+
 
 

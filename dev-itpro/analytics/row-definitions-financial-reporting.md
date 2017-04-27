@@ -45,7 +45,7 @@ Rindas definīcija ir atskaites komponents jeb veidošanas bloks, kas norāda ka
 Rindas definīcijas var ietvert līdz 20 000 finanšu dimensiju rindu, kā arī tālāk minēto informāciju.
 
 -   Aprakstošs teksts, kas piešķir atskaitei jēgu, izveidojot sadaļu virsrakstus, rindas un atstarpes, piemēram, **Skaidra nauda** vai **Kopējie ieņēmumi**.
--   Saites uz finanšu datus, kas var ietvert dimensijas vērtības programmā Microsoft Dynamics 365 operācijām **Piezīme:** var iestatīt rindas definīcijas, lai iegūtu datus no finanšu dimensijas sistēmā ikreiz, kad tiek ģenerēta atskaite.
+-   Saites uz finanšu datiem, kas var ietvert dimensiju vērtības programmatūrā Microsoft Dynamics 365 for Operations **Piezīme.** Varat iestatīt rindas definīciju, lai izgūtu datus no finanšu dimensiju sistēmas ikreiz, kad tiek ģenerēts pārskats.
 -   Rindu kopsummas un formulas, kuru pamatā ir saistītie finanšu dati
 
 Parasti katra rinda rindas definīcijā satur vienu no šiem informācijas tipiem:
@@ -64,7 +64,7 @@ Dimensija ir datu un vērtību krustpunkts. Atskaišu veidotājā datus un vērt
 
 | Opcija                | Apraksts                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Dimensija             | Modelis, kas identificē dimensiju, kura jāpievieno rindas definīcijai. Šis modelis ietver vienas ampersand zīmi (&) vai numura zīme (\#) katram amatam dimensijās. Parasti visas (&) zīmes tiek izmantotas galvenā konta dimensijai, un visas numura zīmes tiek izmantotas citām dimensijām. |
+| Dimensija             | Modelis, kas identificē dimensiju, kura jāpievieno rindas definīcijai. Šajā modelī ir ietverta viena zīme & un viena restītes zīme (\#) atbilstoši katrai dimensiju pozīcijai. Parasti visas (&) zīmes tiek izmantotas galvenā konta dimensijai, un visas numura zīmes tiek izmantotas citām dimensijām. |
 | Dimensijas diapazona sākums | Pirmā vērtība šai dimensijai, kuru pievienot rindas definīcijai.                                                                                                                                                                                                                 |
 | Dimensijas diapazona beigas   | Pēdējā vērtība šai dimensijai, kuru pievienot rindas definīcijai.                                                                                                                                                                                                                  |
 
@@ -73,9 +73,9 @@ Lai rindas definīcijai pievienotu dimensijas, izpildiet šādas darbības.
 1.  Atskaišu veidotājā noklikšķiniet uz **Rindas definīcijas** un atveriet modificējamo rindas definīciju.
 2.  Izvēlnē **Rediģēšana** noklikšķiniet uz **Ievietot rindas no dimensijām**.
 3.  Dialoglodziņa **Ievietot rindas no dimensijām **rindā **Dimensijas** atlasiet šūnu dimensijai, kuru pārsūtīt uz rindas definīciju, un pēc tam noklikšķiniet uz **Visas &&&**.
-4.  Lai rindas definīcijai ļautu izmantot tikai noteiktu dimensijas vērtību diapazonu, dimensijas sākuma vērtību ievadiet šūnā **Dimensijas diapazona sākums** un pēc tam dimensijas beigu vērtību ievadiet šūnā **Dimensijas diapazona beigas**. Lai atlasītajai dimensijai iekļautu visas vērtības, atstājiet šīs šūnas tukšas. **Piezīme:** aizstājējzīmes (\* vai?) dimensiju diapazonu varētu neatgriezt nepieciešamos rezultātus, ka jūs vēlaties, atkarībā no tā, cik ERP datu bāzē apkopo datus.
+4.  Lai rindas definīcijai ļautu izmantot tikai noteiktu dimensijas vērtību diapazonu, dimensijas sākuma vērtību ievadiet šūnā **Dimensijas diapazona sākums** un pēc tam dimensijas beigu vērtību ievadiet šūnā **Dimensijas diapazona beigas**. Lai atlasītajai dimensijai iekļautu visas vērtības, atstājiet šīs šūnas tukšas. **Piezīme.** . Aizstājējzīmes (\* vai ?) dimensiju diapazonos var neatgriezt visus vēlamos rezultātus atkarībā no tā, kā ERP datu bāzē tiek apkopoti dati.
 5.  Laukā **Sākuma rindas kods** norādiet rindas kodu pirmajai dimensijas vērtībai, kas jāpievieno rindas definīcijai.
-6.  Laukā **Pieauguma solis katrā rindā** norādiet atstarpi starp secīgiem rindu kodiem. Piemēram, ja pirmajā rindā kodu ir 100, un pieaug vērtība ir 30, pirmais jaunās rindās ir kodiem 100, 130, 160, 190 un 220. Izmanto palielinājuma vērtība, kas nodrošina pietiekami daudz vietas, lai ievietotu jaunu formātu un formulu rindām.
+6.  Laukā **Pieauguma solis katrā rindā** norādiet atstarpi starp secīgiem rindu kodiem. Piemēram, ja pirmās rindas kods ir 100 un pieauguma vērtība ir 30, pirmo jauno rindu kodi ir 100, 130, 160, 190 un 220. Izmantojiet pieauguma vērtību, kas nodrošina pietiekami daudz vietas jaunu formāta un formulas rindu ievietošanai.
 7.  Noklikšķiniet uz **OK**. Katrai no atlasītajām dimensijas vērtībām rindas definīcijai tiek pievienota viena rinda.
 
 ## <a name="adjust-rounding-in-a-row-definition"></a>Noapaļošanas koriģēšana rindas definīcijā
@@ -146,7 +146,7 @@ Rindas definīcijā norādītais formatējums ignorē visu formatējumu, kas ir 
 
 1.  Pārskatu veidotājā atveriet modificējamo rindas definīciju.
 2.  Atlasiet formatējamās šūnas. Lai atlasītu vairākas šūnas, atlasīšanas laikā turiet taustiņu Ctrl.
-3.  Noklikšķiniet uz piemērojamā formāta rīkjoslas pogas. Piemēram, jāizlīdzina rindu, atlasiet rindu un pēc tam noklikšķiniet uz **palielināt atkāpi**![palielināt atkāpi](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "palielināt atkāpi") rīkjoslā.
+3.  Noklikšķiniet uz piemērojamā formāta rīkjoslas pogas. Piemēram, lai izveidotu rindas atkāpi, atlasiet rindu un pēc tam rīkjoslā noklikšķiniet uz **Palielināt atkāpi** ![Palielināt atkāpi](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "Palielināt atkāpi").
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Kolonnu pielāgošana pārskatu veidošanas laikā
 
@@ -173,6 +173,6 @@ Lai atvieglotu iespēju apskatīt kolonnas, ar kurām strādājat rindas definī
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Finanšu pārskatu Microsoft Dynamics 365 operācijām](financial-reporting-intro.md)
+[Finanšu pārskatu veidošana programmai Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
 
 

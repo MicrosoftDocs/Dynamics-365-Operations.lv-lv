@@ -1,6 +1,6 @@
 ---
-title: "Produkta numurs nomenklatūrā"
-description: "Šajā tēmā aprakstīts, kā iestatīt numuru produktu nomenklatūra nomainīt fiksētā formātā [produkta kapteinis numuru - konfigurācija - Size - Color - stilu], ar mērķtiecīgu formātu, ko ietver produkta galveno numuru, aktīvā izstrādājuma izmēri un teksta norobežotājus, kas savu izvēli. Varat arī izveidot nomenklatūru, lai identificētu konfigurācijas, kuras izveidojis ierobežojumiem atbilstošais preču konfigurators. Šajās nomenklatūrās var būt jūsu izvēlētie atribūti."
+title: "Preces numura nomenklatūra"
+description: "Šajā tēmā ir aprakstīts, kā varat iestatīt preces numura nomenklatūru, lai fiksēto formātu (preces šablona numurs-konfigurācija-izmērs-krāsa-stils) aizstātu ar mērķim pielāgotu formātu, kurā ir ietverts preces šablona numurs, aktīvās preces dimensijas un jūsu izvēlēti teksta norobežotāji. Varat arī izveidot nomenklatūru, lai identificētu konfigurācijas, kuras izveidojis ierobežojumiem atbilstošais preču konfigurators. Šajās nomenklatūrās var būt jūsu izvēlētie atribūti."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="product-number-nomenclature"></a>Produkta numurs nomenklatūrā
+# <a name="product-number-nomenclature"></a>Preces numura nomenklatūra
 
-Šajā tēmā aprakstīts, kā iestatīt numuru produktu nomenklatūra nomainīt fiksētā formātā [produkta kapteinis numuru - konfigurācija - Size - Color - stilu], ar mērķtiecīgu formātu, ko ietver produkta galveno numuru, aktīvā izstrādājuma izmēri un teksta norobežotājus, kas savu izvēli. Varat arī izveidot nomenklatūru, lai identificētu konfigurācijas, kuras izveidojis ierobežojumiem atbilstošais preču konfigurators. Šajās nomenklatūrās var būt jūsu izvēlētie atribūti.
+[!include[banner](../includes/banner.md)]
+
+
+Šajā tēmā ir aprakstīts, kā varat iestatīt preces numura nomenklatūru, lai fiksēto formātu (preces šablona numurs-konfigurācija-izmērs-krāsa-stils) aizstātu ar mērķim pielāgotu formātu, kurā ir ietverts preces šablona numurs, aktīvās preces dimensijas un jūsu izvēlēti teksta norobežotāji. Varat arī izveidot nomenklatūru, lai identificētu konfigurācijas, kuras izveidojis ierobežojumiem atbilstošais preču konfigurators. Šajās nomenklatūrās var būt jūsu izvēlētie atribūti.
 
 Jaunā produkta varianta numuru nomenklatūra ļauj iekļaut segmentus produkta varianta identifikatoros. Šie segmenti var būt preces šablona numurs, preces dimensijas, numuru sērijas, teksta konstantes un atribūti. Šī funkcija ļauj ātri atrast noteiktu produkta variantu, veidojot pārdošanas pasūtījumu vai pirkšanas pasūtījumu.
 
@@ -66,8 +69,8 @@ T-krekli (TS1234) tiek ražoti 3 dažādos izmēros (S, M, L), 4 dažādās krā
 
 Preces varianta numurs sarkanam, maza izmēra polo kreklam ir: TS1234 Sarkans-Mazs-Polo.
 
-## <a name="nomenclature-of-constraintbased-configurations"></a>Nomenklatūru, constraintbased sastāvi
-Ierobežojuma pamatā konfigurācijām, speciāla nomenklatūras var būvēt par konfigurācijas dimensija produkts. Var atlasīt šādus segmentus lapā **Preču nomenklatūra**.
+## <a name="nomenclature-of-constraintbased-configurations"></a>Ierobežojumiem atbilstošu konfigurāciju nomenklatūra
+Ierobežojumiem atbilstošām konfigurācijām var izvedot īpašu nomenklatūru, kas ir paredzēta konfigurācijas preces dimensijai. Var atlasīt šādus segmentus lapā **Preču nomenklatūra**.
 
 -   Numuru sērijas vērtība
 -   Teksta konstante
@@ -90,8 +93,8 @@ Konfigurāciju nomenklatūra tiek definēta, izmantojot šādus segmentus:
 
 Piemēram, koksnes materiālam ar garumu 78 tiks izveidots šāds konfigurācijas ID: KoksAAA78.
 
-## <a name="nomenclature-of-dimensionbased-configurations"></a>Nomenklatūru, dimensionbased sastāvi
-Konfigurācijas dimensiju, pamatojoties speciāla nomenklatūras var būvēt par konfigurācijas dimensija produkts. Var atlasīt šādus segmentus lapā **Preču nomenklatūra**.
+## <a name="nomenclature-of-dimensionbased-configurations"></a>Dimensijām atbilstošu konfigurāciju nomenklatūra
+Dimensijām atbilstošām konfigurācijām var izvedot īpašu nomenklatūru, kas ir paredzēta konfigurācijas preces dimensijai. Var atlasīt šādus segmentus lapā **Preču nomenklatūra**.
 
 -   Numuru sērijas vērtība
 -   Teksta konstante
@@ -132,7 +135,7 @@ Izmantojot konfigurācijas atbilstoši ierobežojumam vai konfigurācijas atbils
 Šajā piemērā var izmantot produkta varianta numuru nomenklatūru, kas sastāv no šādiem segmentiem:
 
 1.  Preces šablona numurs
-2.  Konstantu tekstu '\_'
+2.  Teksta konstante “\_”
 3.  Konfigurācija
 
 Konfigurāciju nomenklatūra var sastāvēt no šādiem segmentiem:
@@ -147,7 +150,7 @@ Segmentiem var ievadīt šādas vērtības:
 -   Materiāls = Plastmasa
 -   Garums = 12
 
-Preces varianta numurs kļūs: M0099\_PlasticAAA12.
+Preces varianta numurs kļūst par: M0099\_PlastmasaAAA12.
 
 ### <a name="example-for-dimension-based-configurations"></a>Dimensijām atbilstošu konfigurāciju piemērs
 
@@ -180,7 +183,7 @@ Mēģinot manuāli vai automātiski ģenerēt preces variantus, ja viens vai vai
 
 ### <a name="constraint-based-configurations"></a>Konfigurācijas atbilstoši ierobežojumam
 
-Atkarībā no nomenklatūras sistēma var mēģināt piešķirt konfigurācijai preces varianta numurus, kas nav unikāli. Šajā gadījumā sistēma izmanto numuru sērijas konfigurācijas dimensijas kā preces varianta numurs vietā. Ja tā notiek, jūs saņemsit brīdinājumu. Lai no tā izvairītos, iekļaujiet nomenklatūrā pietiekami daudz atribūtu, lai nodrošinātu unikalitāti, un pārliecinieties, ka komponentam ir ieslēgta opcija **Izmantot atkārtoti**.
+Atkarībā no nomenklatūras sistēma var mēģināt piešķirt konfigurācijai preces varianta numurus, kas nav unikāli. Šādā gadījumā sistēmā kā preces varianta numurs tiks izmantota konfigurācijas dimensijas numuru sērija. Jā tā notiek, tiek parādīts brīdinājums. Lai no tā izvairītos, iekļaujiet nomenklatūrā pietiekami daudz atribūtu, lai nodrošinātu unikalitāti, un pārliecinieties, ka komponentam ir ieslēgta opcija **Izmantot atkārtoti**.
 
 ### <a name="dimension-based-configurations"></a>Konfigurācijas atbilstoši dimensijām
 
@@ -191,8 +194,10 @@ Konfigurācijas procesā ietilpst darbība, kurā sistēma piedāvā konfigurāc
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Izveidot produktu numuru nomenklatūras iepriekš definēto produktu variantiem (uzdevuma norādījumi)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-predefined-product-variants/)
+[Preces numura nomenklatūras izveide iepriekš definētiem preces variantiem (uzdevuma ceļvedis)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-predefined-product-variants/)
 
-[Izveidot produktu numuru nomenklatūras konfigurēto izstrādājuma variantu (uzdevuma norādījumi)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-configured-product-variants/)
+[Preces numura nomenklatūras izveide konfigurētiem preces variantiem (uzdevuma ceļvedis)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-configured-product-variants/)
+
+
 
 

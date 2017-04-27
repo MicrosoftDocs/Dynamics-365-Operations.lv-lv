@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="merge-inventory-batches"></a>Sapludināt krājumu partijas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegta informācija par to kā, konsolidēt divu vai vairāku krājumu partijas sapludinātā partijā. 
 
 Sapludinot partijas, aprēķini var palīdzēt optimizēt sapludinātās partijas raksturlielumus un partijas atribūtus. kad avota partijas ir atlasītas, sapludināto partiju pirms tās grāmatošanas var pārskatīt un mainīt. Partiju sapludināšanas datus var arī pārsūtīt uz krājumu žurnālu apstiprināšanai. Pēc tam krājumus var rezervēt vai grāmatot tieši no šī krājumu žurnāla. Grāmatojot sapludināto partiju, krājumi tiek pielāgoti avota partijām un sapludinātajai partijai.
@@ -48,7 +51,7 @@ Jā, ir dažas lietas, kas ir jāiestata pirms varēs lietot partiju sapludinā�
 <tbody>
 <tr class="odd">
 <td>Žurnālu nosaukumi, krājumi</td>
-<td>Jāizveido žurnāla nosaukums, kas, grāmatojot partiju sapludināšanas krājumu žurnālos, tiek izmantots pēc noklusējuma. Papildu, bet ieteicama, darbība: var norādīt, ka rezervācijas jāveic automātiski, kad partiju sapludināšanas ieraksts tiek pārsūtīts uz krājumu žurnālu. Pretējā gadījumā pastāv risks, ka pēc partiju sapludināšanas datu iestatīšanas un iegrāmatošanas žurnālā tiek izmainīti rīcībā esošie krājumi. Lai iespējotu automātisko rezervāciju žurnāla nosaukumam, atlasiet <strong>automātisko</strong>, <strong><strong>rezervēšanas</strong></strong> lauku.</td>
+<td>Jāizveido žurnāla nosaukums, kas, grāmatojot partiju sapludināšanas krājumu žurnālos, tiek izmantots pēc noklusējuma. Papildu, bet ieteicama, darbība: var norādīt, ka rezervācijas jāveic automātiski, kad partiju sapludināšanas ieraksts tiek pārsūtīts uz krājumu žurnālu. Pretējā gadījumā pastāv risks, ka pēc partiju sapludināšanas datu iestatīšanas un iegrāmatošanas žurnālā tiek izmainīti rīcībā esošie krājumi. Lai žurnāla nosaukumam iespējotu automātiskās rezervācijas, laukā <strong><strong>Rezervācija</strong></strong> atlasiet opciju <strong>Automātiski</strong>.</td>
 </tr>
 <tr class="even">
 <td>Krājumu un noliktavas vadības parametri</td>
@@ -134,9 +137,11 @@ Grāmatošana tiek veikta divējādi atkarībā no tā, vai tiek izmantots žurn
 -   **Pārsūtīt uz žurnālu** — pārsūtīt informāciju par partiju sapludināšanu uz jaunu krājumu žurnālu. Ja ir iestatīta automātisko rezervāciju opcija, avota partiju daudzumi tiek rezervēti. Partiju sapludināšanas datus nevar mainīt. Lai varētu mainīt partijas sapludināšanu, ir jāizdzēš žurnāls. Žurnālu var izmantot kā uzdevumu, ko citam darbiniekam jāizpilda vēlāk. Partijas daudzuma rezervēšana žurnāla rindā ir nodrošināta. Šis sadalījums ļauj kvalitātes plānotājam vai noliktavas pārvaldniekam izveidot uzdevumus saviem darbiniekiem.
 -   **Grāmatot partiju sapludināšanu** — grāmatot partiju sapludināšanas tieši. Šo darbību var veikt, kad ir pabeigta fiziska sapludināšana.
 
-Partiju sapludināšanas krājumu žurnālu var apstiprināt saraksta lapā **Visu partiju sapludināšanas**. Noklikšķiniet uz **žurnāla**&gt;**Post**. Kad žurnāla dati ir iegrāmatoti, detalizēto informāciju par sapludināto partiju mainīt nevar. Pēc ieraksta par partiju sapludināšanu pārsūtīšanas uz krājumu žurnālu, informāciju var mainīt tikai, ja žurnāls tiek izdzēsts.
+Partiju sapludināšanas krājumu žurnālu var apstiprināt saraksta lapā **Visu partiju sapludināšanas**. Noklikšķiniet uz **Žurnāls** &gt; **Grāmatot**. Kad žurnāla dati ir iegrāmatoti, detalizēto informāciju par sapludināto partiju mainīt nevar. Pēc ieraksta par partiju sapludināšanu pārsūtīšanas uz krājumu žurnālu, informāciju var mainīt tikai, ja žurnāls tiek izdzēsts.
 
-## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Pēc tam, kad es apvienoti catchweight krājumu, kāpēc nevar redzēt catchweight informācijas krājumu žurnālā?
+## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Kāpēc pēc krājuma ar pieļaujamo svaru sapludināšanas krājumu žurnālā netiek rādīta informāciju par pieļaujamo svaru?
 Krājumus ar pieļaujamo svaru var sapludināt līdzīgi kā citus krājumus. Tomēr informācija par pieļaujamo svaru krājumu žurnālā nav redzama. Informāciju par pieļaujamo svaru ieteicams pārbaudīt pirms ieraksta par partiju sapludināšanu pārsūtīšanas uz krājumu žurnālu.
+
+
 
 

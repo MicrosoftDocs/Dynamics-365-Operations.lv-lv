@@ -1,5 +1,5 @@
 ---
-title: "Veidot preču modeļa konfigurācija"
+title: "Izveidot preces konfigurācijas modeli"
 description: "Nepieciešamība konfigurēt produktus tā, lai tie apmierinātu īpašas prasības, kļūst par normu nevis par izņēmumu gan starpuzņēmumu attiecībās, gan uzņēmumu un patērētāju attiecībās."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="build-a-product-configuration-model"></a>Veidot preču modeļa konfigurācija
+# <a name="build-a-product-configuration-model"></a>Izveidot preces konfigurācijas modeli
+
+[!include[banner](../includes/banner.md)]
+
 
 Nepieciešamība konfigurēt produktus tā, lai tie apmierinātu īpašas prasības, kļūst par normu nevis par izņēmumu gan starpuzņēmumu attiecībās, gan uzņēmumu un patērētāju attiecībās.
 
@@ -34,7 +37,7 @@ Ražotājam, kas atbalsta konfigurācijas atbilstoši pasūtījumam scenārijus,
 
 Veiksmīga pāreja no ražošanas krājumu izveidei uz konfigurēšanu atbilstoši pasūtījumam pieprasa rūpīgu preču struktūras analīzi, preču saimju identificēšanu un komponentu sastāvu. Lai samazinātu daļu skaitu un minimizētu procesā esošo preču skaitu, ir ļoti svarīgi saprast preču interfeisus un ka izstrādājat otrreizējas izmantojamības nolūkiem.  
 
-Ir vairāki preču konfigurācijas modelēšanas principi, piemēram, modelēšana atbilstoši nosacījumiem, atbilstoši dimensijām un atbilstoši ierobežojumiem. Pētījumi rāda, ka metodoloģija atbilstoši ierobežojumiem var samazināt koda rindu skaitu modeļos par 50 procentiem, salīdzinot ar citiem modelēšanas principiem. Tāpēc šī metodika var samazināt īpašumtiesību kopējās izmaksas (TCO). Pārceļot no noteikumu modeli, kas ir balstīta uz X + + kodā, lai ierobežojums balstītu modeli, jums vairs nav nepieciešama izstrādātāja licenci, lai uzturētu preču modeļus.
+Ir vairāki preču konfigurācijas modelēšanas principi, piemēram, modelēšana atbilstoši nosacījumiem, atbilstoši dimensijām un atbilstoši ierobežojumiem. Pētījumi rāda, ka metodoloģija atbilstoši ierobežojumiem var samazināt koda rindu skaitu modeļos par 50 procentiem, salīdzinot ar citiem modelēšanas principiem. Tāpēc šī metodika var samazināt īpašumtiesību kopējās izmaksas (TCO). No modeļa atbilstoši nosacījumiem, kura pamatā ir X++ kods, pārejot uz modeli atbilstoši ierobežojumiem, vairs nebūs nepieciešama izstrādātāja licence preču modeļu uzturēšanai.
 
 ## <a name="product-configuration"></a>Preces konfigurācija
 Industrializācijas periods ir novedis pie lieliem sasniegumiem augstas kvalitātes un funkcijām bagāto preču ražošanā par pieņemamām cenām. Apjomradīti ietaupījumi ļāva vairumam cilvēku industrializētā pasaulē iegādāties automašīnas, televizorus, mājsaimniecības preces un citas preces, ko lielākā daļa no mums uzskata par nepieciešamu mūsu ikdienas dzīves sastāvdaļu.  
@@ -64,11 +67,11 @@ Preces konfigurācijas modeļa atbilstoši ierobežojumam izmantošana paredz, k
 
 ### <a name="table-constraints"></a>Tabulas ierobežojumi
 
-Tabulu ierobežojumi var būt lietotāja definēta vai sistēmas definēta.  
+Tabulas ierobežojumi var būt lietotāja definēti vai sistēmas definēti.  
 
 Lietotāja definētu tabulas ierobežojumu veido lietotājs. Lietotājs atlasa atribūtu tipu kombināciju, kas pārstāvēs tabulas kolonnas, un pēc tam ievada vērtības no atlasīto atribūtu tipu domēniem, lai veidotu rindas tabulas ierobežojumā.  
 
-Atlasot kuru Microsoft Dynamics 365 uz operāciju galda, lai izmantotu kā atsauci un pēc tam atlasot laukus no šīs tabulas, lai no kolonnas ierobežojumu definē sistēmas definēta satura ierobežojums. Rindas tabulā ierobežojums ir Dynamics 365 operāciju galda rindas, kas atrodas konfigurācijas laikā.  
+Sistēmas definētu tabulas ierobežojumu definē, atlasot, kuru Microsoft Dynamics 365 for Operations tabulu izmantot kā atsauci, un pēc tam atlasot laukus no šīs tabulas, lai veidotu kolonnas ierobežojumā. Tabulas ierobežojuma rindas ir Dynamics 365 for Operations tabulas rindas, kas pastāv konfigurēšanas laikā.  
 
 Tabulas ierobežojums tiek iekļauts preces konfigurācijas modelī, izmantojot atsauci uz tabulas ierobežojuma definīciju un kartējot attiecīgos atribūtus modelī tabulas ierobežojuma kolonnās.
 
@@ -103,7 +106,7 @@ Visbeidzot, pārbaudi var veikt pilnam preces konfigurācijas modelim, lai pārb
 
 ### <a name="testing"></a>Testēšana
 
-Testēšanas paraugu ir līdzīgi darbojas patiesā konfigurācijas sesiju. Lietotājs var staigāt caur konfigurācijas lapu un pārliecinieties, vai modeļa struktūra atbalsta konfigurācijas procesu. Lietotājs var pārbaudīt, vai atribūtu vērtības ir pareizas, un atribūtu apraksti palīdz lietotājam izvēlēties pareizas vērtības. Visbeidzot, pēc testēšanas sesijas pabeigšanas sistēma mēģina izveidot MK un maršrutu, kas atbilst atlasītajām atribūtu vērtībām, un rāda kļūdas ziņojumu, ja kaut kas ir nepareizi.
+Modeļa testēšana ir līdzīga faktiskās konfigurācijas sesijas veikšanai. Lietotājs var izskatīt konfigurēšanas lapas un pārbaudīt, vai modeļa struktūra atbalsta konfigurācijas procesu. Lietotājs var pārbaudīt, vai atribūtu vērtības ir pareizas, un atribūtu apraksti palīdz lietotājam izvēlēties pareizas vērtības. Visbeidzot, pēc testēšanas sesijas pabeigšanas sistēma mēģina izveidot MK un maršrutu, kas atbilst atlasītajām atribūtu vērtībām, un rāda kļūdas ziņojumu, ja kaut kas ir nepareizi.
 
 ### <a name="the-configuration-page"></a>Konfigurācijas lapa
 
@@ -129,17 +132,17 @@ Ja prece tiks pārdota dažādās valstīs/reģionos, var izveidot visu tekstu t
 Pēdējais un svarīgākais solis pabeigšanas procesā ir izveidot preces konfigurācijas modeļa versiju. Šī versija attēlo attiecības starp preces šablonu, kuru var atlasīt konfigurācijai pasūtījuma vai piedāvājuma rindā, un preces konfigurācijas modeli. Pirms izmantošanas konfigurācijas sesijā versija ir jāapstiprina un jāaktivizē.
 
 ## <a name="extending-a-product-configuration-model-through-the-api"></a>Preces konfigurācijas modeļa paplašināšana, izmantojot API
-Atvēlētais lietojumprogrammu programmēšanas interfeiss (API) tiek ieviests, lai partneri un pārējie, kam ir izstrādātāja licence, varētu paplašināt preces konfigurācijas modeļa iespējas. Galvenais mērķis ir izveidot mehānismu, kas pieņemsim, partneriem un klientiem, kas izmanto esošo preču konfiguratorā migrē kodu, kas ir iestrādāta preču konfiguratora modeļiem API. Šādā veidā, viņi var migrēt savus modeļus no preču konfiguratora uz preču konfigurāciju. Tomēr, jauni partneri un klienti var gūt labumu arī no API izmantošanas, lai paplašinātu jaunus preces konfigurācijas modeļus.
+Atvēlētais lietojumprogrammu programmēšanas interfeiss (API) tiek ieviests, lai partneri un pārējie, kam ir izstrādātāja licence, varētu paplašināt preces konfigurācijas modeļa iespējas. Galvenais mērķis ir izveidot mehānismu, kas partneriem un klientiem, kas izmanto esošo preču konfiguratoru, ļauj uz API migrēt kodu, kurš ir iegults preču konfiguratora modeļos. Šādā veidā, viņi var migrēt savus modeļus no preču konfiguratora uz preču konfigurāciju. Tomēr, jauni partneri un klienti var gūt labumu arī no API izmantošanas, lai paplašinātu jaunus preces konfigurācijas modeļus.
 
 ### <a name="pcadaptor-class"></a>PCAdaptor klase
 
-API tiek ieviests, izmantojot **PCAdaptor** klašu kopu, kas atklāj preces konfigurācijas modeļu datu struktūru. Gadījums, **PCAdaptor** klases jāveido katram modelim, kas tiks paplašināta. Kad konfigurēšanas sesija ir pabeigta, sistēma pārbauda, piemēram, šajā klasē un darbojas, ja tiek konstatēts.  
+API tiek ieviests, izmantojot **PCAdaptor** klašu kopu, kas atklāj preces konfigurācijas modeļu datu struktūru. Katram modelim, kas tiks paplašināts, ir jāizveido instance ar klasi **PCAdaptor**. Pēc konfigurēšanas sesijas beigām sistēma meklē šīs klases instanci un palaiž to, ja tāda tiek atrasta.  
 
 Procesu apraksta šī plūsmas diagramma.  
 
 [![Plūsmas diagramma](./media/product_configuration_2.png)](./media/product_configuration_2.png)  
 
-Izstrādājuma konfigurācijas API plūsmas shēma
+Preces konfigurācijas API plūsmas diagramma
 
 ## <a name="product-configuration"></a>Preces konfigurācija
 Preču konfigurāciju var veikt no šādām vietām:
@@ -155,5 +158,7 @@ Konfigurācijas mērķis ir izveidot atšķirīgus preces variantus, kas atbilst
 ### <a name="multiple-sites-and-intercompany"></a>Vairākas vietas un vairāki uzņēmumi
 
 Ja konfigurācija tiks veikta vietā vai pat uzņēmumā, kas atšķiras no vietas vai uzņēmuma, kurā notiks ražošana, tiks izveidots MK un maršruts un tie tiks nodoti piegādātāja vietai piegādātāja uzņēmumā. Preces variants tiks izlaists visos uzņēmumos, kas piedalās piegādes ķēdē.
+
+
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Konfigurēt manuāli lēmumu darbplūsmā"
+title: "Konfigurēt manuālu lēmumu darbplūsmā"
 description: "Šajā tēmā ir paskaidrots, kā konfigurēt manuāla lēmuma rekvizītus."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-manual-decision-in-a-workflow"></a>Konfigurēt manuāli lēmumu darbplūsmā
+# <a name="configure-a-manual-decision-in-a-workflow"></a>Konfigurēt manuālu lēmumu darbplūsmā
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā tēmā ir paskaidrots, kā konfigurēt manuāla lēmuma rekvizītus.
 
@@ -45,7 +48,7 @@ Jums jānorāda temata rinda un instrukcijas lietotājiem, kas piešķirti manu�
     1.  Tekstlodziņā noklikšķiniet uz vietas, kur jāparādās vietturim.
     2.  Noklikšķiniet uz **Ievietot vietturi**.
     3.  Parādītajā sarakstā atlasiet vietturi, kuru ievietot.
-    4.  Klikšķiniet **Ievietot**.
+    4.  Noklikšķiniet uz **Ievietot**.
 
 4.  Lai pievienotu tēmas rindas tulkojumus, rīkojieties šādi:
     1.  Noklikšķiniet uz **Tulkojumi**.
@@ -60,7 +63,7 @@ Jums jānorāda temata rinda un instrukcijas lietotājiem, kas piešķirti manu�
     1.  Tekstlodziņā noklikšķiniet uz vietas, kur jāparādās vietturim.
     2.  Noklikšķiniet uz **Ievietot vietturi**.
     3.  Parādītajā sarakstā atlasiet vietturi, kuru ievietot.
-    4.  Klikšķiniet **Ievietot**.
+    4.  Noklikšķiniet uz **Ievietot**.
 
 7.  Lai pievienotu instrukciju tulkojumus, rīkojieties šādi:
     1.  Noklikšķiniet uz **Tulkojumi**.
@@ -95,8 +98,8 @@ Varat nosūtīt lietotājiem paziņojumus, ja lēmums ir pieņemts, deleģēts v
 
 1.  Kreisajā rūtī noklikšķiniet uz **Paziņojumi**.
 2.  Atzīmējiet izvēles rūtiņu pie notikumiem, par kuriem tiek sūtīti paziņojumi:
-    -   **\[Izvēlēties 1\]** -piešķirtais lietotājs ir atlasījis **\[izvēle 1\]**.
-    -   **\[2. izvēles\]** -piešķirtais lietotājs ir atlasījis **\[izvēle 2\]**.
+    -   **\[1. izvēle\]** — piešķirtais lietotājs ir atlasījis vienumu **\[1. izvēle\]**.
+    -   **\[2. izvēle\]** — piešķirtais lietotājs ir atlasījis vienumu **\[2. izvēle\]**.
     -   **Deleģēt**— piešķirtais lietotājs lēmumu ir piešķīris citam lietotājam.
     -   **Eskalēt** — piešķirtais lietotājs nav pieņēmis lēmumu atvēlētajā laikā.
 
@@ -106,7 +109,7 @@ Varat nosūtīt lietotājiem paziņojumus, ja lēmums ir pieņemts, deleģēts v
     1.  Tekstlodziņā noklikšķiniet uz vietas, kur jāparādās vietturim.
     2.  Noklikšķiniet uz **Ievietot vietturi**.
     3.  Parādītajā sarakstā atlasiet vietturi, kuru ievietot.
-    4.  Klikšķiniet **Ievietot**.
+    4.  Noklikšķiniet uz **Ievietot**.
 
 6.  Lai pievienotu paziņojuma tulkojumus, rīkojieties šādi:
     1.  Noklikšķiniet uz **Tulkojumi**.
@@ -148,10 +151,10 @@ Varat nosūtīt lietotājiem paziņojumus, ja lēmums ir pieņemts, deleģēts v
     </tr>
     <tr class="odd">
     <td>Lietotājs</td>
-    <td>Īpaša Microsoft Dynamics 365 operācijas lietotājiem</td>
+    <td>Specifiski Microsoft Dynamics 365 for Operations lietotāji</td>
     <td><ol>
     <li>Pēc tam, kad ir atlasīts vienums <strong>Lietotājs</strong>, noklikšķiniet uz cilnes <strong>Lietotājs</strong>.</li>
-    <li><strong>Pieejams lietotājiem</strong> saraksts ietver visus Dynamics 365 operācijas lietotājiem. Atlasiet lietotājus, kuriem sūtīt paziņojumus, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
+    <li>Sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Operations lietotāji. Atlasiet lietotājus, kuriem sūtīt paziņojumus, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -213,10 +216,10 @@ Veiciet šīs darbības, lai norādītu personu, kurai jāpiešķir manuālais l
     </tr>
     <tr class="even">
     <td>Lietotājs</td>
-    <td>Noteiktu dinamiku 365 darbības lietotāji</td>
+    <td>Specifiski Dynamics 365 for Operations lietotāji</td>
     <td><ol>
     <li>Pēc tam, kad ir atlasīts vienums <strong>Lietotājs</strong>, noklikšķiniet uz cilnes <strong>Lietotājs</strong>.</li>
-    <li><strong>Pieejams lietotājiem</strong> saraksts ietver visus Dynamics 365 operācijas lietotājiem. Atlasiet lietotājus, kuriem piešķirt lēmumu, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
+    <li>Sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Operations lietotāji. Atlasiet lietotājus, kuriem piešķirt lēmumu, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -234,8 +237,8 @@ Veiciet šīs darbības, lai norādītu personu, kurai jāpiešķir manuālais l
     <li>Sarakstā <strong>Rindas tips</strong> atlasiet <strong>Nosacījuma darba vienumu rindas</strong>.</li>
     <li>Sarakstā <strong>Rindas nosaukums</strong> atlasiet <strong>Nosacījumu rinda</strong>.</li>
     </ol></li>
-    </ol><ph id="t1">
-    </ph><strong>Piezīme:</strong> šī opcija tiek izmantota tikai pāris darbplūsmām, piemēram, lietu vadības.</td>
+    </ol>
+    <strong>Piezīme.</strong> Šī opcija tiek izmantota tikai dažām darbplūsmām, piemēram, Pieteikumu pārvaldība.</td>
     </tr>
     </tbody>
     </table>
@@ -258,9 +261,9 @@ Ja lietotājs nepieņem lēmumu atvēlētajā laikā, lēmums ir nokavēts. Lēm
     |----------|----------------------------|
     | 1.        | Piešķirt: Lindai           |
     | 2.        | Piešķirt: Zanei            |
-    | 3.        | Galīgā rīcība: \[izvēle 1\] |
+    | 3.        | Gala darbība: \[1. izvēle\] |
 
-    Šajā piemērā sistēma piešķir nokavēto lēmumu Lindai. Ja Linda nepieņem lēmumu atvēlētajā laikā, sistēma piešķir lēmumu Zanei. Ja Erin lēmumu nav pelnīt atvēlētais laiks, sistēma atlasa **\[izvēle 1\]** kā lēmumu.
+    Šajā piemērā sistēma piešķir nokavēto lēmumu Lindai. Ja Linda nepieņem lēmumu atvēlētajā laikā, sistēma piešķir lēmumu Zanei. Ja Zane nepieņem lēmumu atvēlētajā laikā, sistēma kā lēmumu atlasa vienumu **\[1. izvēle\]**.
 3.  Lai pievienotu lietotāju eskalācijas ceļam, noklikšķiniet uz **Pievienot eskalāciju**. Atlasiet vienu no tālāk redzamajā tabulā minētajām opcijām un pēc tam veiciet papildu darbības attiecīgajai opcijai, pirms pārejat uz 4. darbību.
     <table>
     <colgroup>
@@ -303,10 +306,10 @@ Ja lietotājs nepieņem lēmumu atvēlētajā laikā, lēmums ir nokavēts. Lēm
     </tr>
     <tr class="odd">
     <td>Lietotājs</td>
-    <td>Noteiktu dinamiku 365 darbības lietotāji</td>
+    <td>Specifiski Dynamics 365 for Operations lietotāji</td>
     <td><ol>
     <li>Pēc tam, kad ir atlasīts vienums <strong>Lietotājs</strong>, noklikšķiniet uz cilnes <strong>Lietotājs</strong>.</li>
-    <li><strong>Pieejams lietotājiem</strong> saraksts ietver visus Dynamics 365 operācijas lietotājiem. Atlasiet lietotājus, kuriem eskalēt lēmumu, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
+    <li>Sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Operations lietotāji. Atlasiet lietotājus, kuriem eskalēt lēmumu, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -335,6 +338,8 @@ Veiciet šīs darbības, ja lēmums ir jāpieņem noteiktā laikā. **Piezīme.*
     -   **Gadi** — izvēlieties dienu, nedēļu un mēnesi, līdz kuram ir jāpieņem lēmums. Piemēram, iespējams, vēlēsities, lai lēmums tiktu pieņemts līdz decembra trešās nedēļas piektdienai.
 
 4.  Ja laika ierobežojums ir pārsniegts, sistēma pieņems lēmumu. Sarakstā **Darbība** atlasiet opciju, kura sistēmai būtu jāizvēlas.
+
+
 
 
 

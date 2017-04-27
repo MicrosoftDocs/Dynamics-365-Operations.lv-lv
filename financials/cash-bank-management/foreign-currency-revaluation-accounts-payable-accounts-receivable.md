@@ -28,15 +28,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="foreign-currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Kreditoriem un debitoru parādu ārvalstu valūtas pārvērtēšana
 
+[!include[banner](../includes/banner.md)]
+
+
 Valūtas maiņas kursu svārstības laikā gaitā izraisa neapmaksāto transakciju teorētiskās vērtības (atlikušās vērtības) ārvalstu valūtās izmaiņas. Šajā rakstā ir sniegta informācija par ārvalstu valūtas pārvērtēšanas procesu, kas tiek veikts, lai atjauninātu kreditoru un debitoru neapmaksāto transakciju vērtību. 
 
-Neapmaksāto transakciju ārvalstu valūtās teorētiskā vai atlikusī vērtība laika gaitā mainās valūtas maiņas kursu svārstību dēļ. Lai atjauninātu kreditoru un debitoru neapmaksāto transakciju vērtību, izpildiet ārvalstu valūtas pārvērtēšanas procesu. Ārvalstu valūtas pārvērtēšanu var veikt gan kreditoru, debitoru parādiem. Procesā tiek izmantots jauns valūtas maiņas kurss, lai pārvērtētu neapmaksātās summas vai nenosegtās summas uz konkrēto datumu. Atšķirības starp oriģinālo iegrāmatotās summas un pārvērtēto summu radīs Nerealizētie guvumi vai zaudējumi, katram atvērtas darbības. Kreditoru un debitoru kontus subledgers tad tiek atjaunināti, lai atspoguļotu Nerealizētie guvumi vai zaudējumi, un grāmatvedības ieraksts iegrāmatots Virsgrāmatā.
+Neapmaksāto transakciju ārvalstu valūtās teorētiskā vai atlikusī vērtība laika gaitā mainās valūtas maiņas kursu svārstību dēļ. Lai atjauninātu kreditoru un debitoru neapmaksāto transakciju vērtību, izpildiet ārvalstu valūtas pārvērtēšanas procesu. Ārvalstu valūtas pārvērtēšanu var veikt gan kreditoru, debitoru parādiem. Procesā tiek izmantots jauns valūtas maiņas kurss, lai pārvērtētu neapmaksātās summas vai nenosegtās summas uz konkrēto datumu. Starpība starp sākotnēji iegrāmatotajām summām un pārvērtētajām summām rada katras neapmaksātās transakcijas nerealizēto peļņu vai zaudējumus. Pēc tam tiek atjauninātas parādu kreditoriem un debitoru parādu apakšgrāmatas, lai reģistrētu nerealizēto peļņu vai zaudējumus, un Virsgrāmatā tiek grāmatots uzskaites ieraksts.
 
 ## <a name="simulate-a-foreign-currency-revaluation"></a>Simulēt ārvalstu valūtas pārvērtēšanu
 Pirms neapmaksāto transakciju ārvalstu valūtas summu pārvērtēšanas var veikt tās pašas dienas un metodes ārvalstu valūtas pārvērtēšanas simulācijas pārskatu. Lai ģenerētu simulācijas pārskatu, lapā **Ārvalstu valūtas pārvērtēšana** noklikšķiniet uz pogas **Simulācija**. Atkarībā no definētajiem simulācijas parametriem pārskats nodrošina nerealizētās peļņas vai zuduma summas priekšskatu.
 
 ## <a name="process-a-foreign-currency-revaluation"></a>Ārvalstu valūtas pārvērtēšanas apstrāde
-Lietošanas **ārvalstu valūtas pārvērtēšanas** lapa zem **periodiskos uzdevumus** pārvērtēt atvērtās darbības. Varat palaist procesu reāllaikā vai ieplānot tā palaišanu, izmantojot pakešuzdevumu. Definējot pārvērtēšanas process iestatījumus, pārliecinieties, lai pārbaudītu, vai vēlaties drukāt rezultātu pārskatu. Pārvērtēšanas ziņojums nevar tikt atkārtots pēc procesa pabeigšanas. Ja tiek ģenerēts ārvalstu valūtas pārvērtēšanas pārskats, tajā ir redzami dažādi atlikumi debitora/kreditora un valūtas līmenī:
+Izmantojiet lapu **Ārvalstu valūtas pārvērtēšana** sadaļā **Periodiskie uzdevumi**, lai pārvērtētu atvērtās transakcijas. Varat palaist procesu reāllaikā vai ieplānot tā palaišanu, izmantojot pakešuzdevumu. Norādot pārvērtēšanas procesa iestatījumus, noteikti norādiet, vai vēlaties drukāt rezultātu pārskatu. Pārvērtēšanas pārskatu nevar atkārtoti drukāt pēc procesa pabeigšanas. Ja tiek ģenerēts ārvalstu valūtas pārvērtēšanas pārskats, tajā ir redzami dažādi atlikumi debitora/kreditora un valūtas līmenī:
 
 -   debitoru vai kreditoru, kam ir pārvērtētas transakcijas ārvalstu valūtā, atlikumi. Ir redzami tālāk norādītie atlikumi.
     -   Kopējais sākotnējais atlikums ārvalstu valūtā.
@@ -45,7 +48,7 @@ Lietošanas **ārvalstu valūtas pārvērtēšanas** lapa zem **periodiskos uzde
     -   Iepriekšējās un pašreizējās pārvērtēšanas starpība. Šī starpība ir papildu nerealizētā peļņa vai zudums.
 -   Kopējā nerealizētā peļņa vai zudums visās valūtās.
 
-Par katru veikto ārvalstu valūtas pārvērtēšanu tiek veikta uzskate. Lapas **Ārvalstu valūtas pārvērtēšana** ierakstā atlasiet opciju **Transakcijas**, lai skatītu detalizētu to transakciju sarakstu, kas tika izveidotas pārvērtēšanas procesā. Katra dokumenta darbības apzīmē atvērto darbību, kas bija Pārvērtēts. Ja atvērtu darbību tika pārvērtēti vairāk nekā vienu reizi, jūs redzēsiet divus ierakstus, kas izmanto vienu un to pašu dokumentu. Viena ieraksta atgriešanai iepriekšējā nerealizēto guvumu vai zaudējumu, un citu ierakstu būs par jaunu Nerealizētie guvumi vai zaudējumi. Lai izpildītu pārvērtēšanas procesu, noklikšķiniet uz pogas **Ārvalstu valūtas pārvērtēšana**. Definējiet attiecīgos tālāk norādīto parametru iestatījumus.
+Par katru veikto ārvalstu valūtas pārvērtēšanu tiek veikta uzskate. Lapas **Ārvalstu valūtas pārvērtēšana** ierakstā atlasiet opciju **Transakcijas**, lai skatītu detalizētu to transakciju sarakstu, kas tika izveidotas pārvērtēšanas procesā. Katra dokumenta transakcija atbilst atvērtajai transakcijai, kas tika pārvērtēta. Ja kāda atvērtā transakcija tika pārvērtēta vairākas reizes, ir redzami divi ieraksti, kam ir izmantots viens un tas pats dokuments. Viens ieraksts atbilst iepriekšējās nerealizētās peļņas vai zaudējumu anulēšanai, bet otrs ieraksts atbilst jaunajai nerealizētajai peļņai vai zaudējumiem. Lai izpildītu pārvērtēšanas procesu, noklikšķiniet uz pogas **Ārvalstu valūtas pārvērtēšana**. Definējiet attiecīgos tālāk norādīto parametru iestatījumus.
 
 -   **Metode** — atlasītajā ārvalstu valūtas pārvērtēšanas darbā izmantotā metode.
     -   **Standarts** — ārvalstu valūtas pārvērtēšanas darbi tiek grāmatoti neatkarīgi no tā, vai rezultāts ir peļņa vai zaudējums.
@@ -61,6 +64,8 @@ Par katru veikto ārvalstu valūtas pārvērtēšanu tiek veikta uzskate. Lapas 
     -   **Nav** — netiek iegrāmatota neviena finanšu dimensija. Ja konta struktūrā ir noteikta obligāta finanšu dimensija, pārvērtēšanas process tiek veikts, bet tiek izveidoti uzskaites ieraksti bez finanšu dimensijām. Vispirms tiek parādīts brīdinājuma ziņojums, kas ļauj pārvērtēšanu atcelt.
     -   **Tabula** — ārvalstu valūtas pārvērtēšanas transakcijās tiek iegrāmatotas debitora un kreditora konta finanšu dimensijas.
     -   **Grāmatošana** — ārvalstu valūtas pārvērtēšanas transakcijās tiek iegrāmatotas pārvērtētās transakcijas finanšu dimensijas. Pēc noklusējuma pārvērtēšanas transakcijas AR/AP galvenajam kontam tiek izmantotas sākotnējās transakcijas AR/AP virsgrāmatas konta finanšu dimensijas, bet pārvērtēšanas transakcijas nerealizētās peļņas/zuduma galvenajam kontam tiek izmantotas sākotnējās transakcijas izdevumu/līdzekļu/ieņēmumu virsgrāmatas konta finanšu dimensijas.
+
+
 
 
 

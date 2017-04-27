@@ -32,19 +32,19 @@ Viena klikšķa veidotāju varat izmantot, lai veikaliem, reģistriem, kasieriem
 
 Pārdošanas punkta MPOS vai mākoņa POS grafiskā dizaina interfeisu nosaka kases aparāta izkārtojums. Izkārtojums kontrolē dažādu objektu pozīcijas. Piemēri tostarp ir kopējais izkārtojums, krājumu režģa izkārtojums, debitoru izkārtojums, maksājumu izkārtojums un dažādu izvēlnes pogu izkārtojums. Izkārtojumi ietver arī vispārējo pārdošanas interfeisa izskatu, kas tiek rādīts nodarbinātajiem.
 
-## <a name="install-the-oneclick-designer"></a>Instalējiet oneclick dizainers
-1.  Programmā Microsoft Dynamics 365 operācijām, izmantojiet izvēlni loga augšējā kreisajā stūrī, lai virzītos uz **mazumtirdzniecības****un komercijas**&gt;**kanāla iestatījumu**&gt;**POS uzstādīšanas**&gt;**ro**&gt;**ekrāna izkārtojumu**.
+## <a name="install-the-oneclick-designer"></a>Viena klikšķa veidotāja instalēšana
+1.  Programmatūrā Microsoft Dynamics 365 for Operations izmantojiet augšējā kreisajā stūrī esošo izvēlni, lai pārietu uz sadaļu **Mazumtirdzniecība** **un komercija** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS** &gt; **Ekrāna izkārtojumi**.
 2.  Atlasiet jebkuru izkārtojumu, kura programmas tips ir **Modern POS operētājsistēmai Windows** vai **Mākoņa POS**, un pēc tam noklikšķiniet uz **Izkārtojuma veidotājs**.
 3.  Lai instalētu viena klikšķa veidotāju, pārlūkprogrammas Internet Explorer loga apakšā parādītajā paziņojumu joslā noklikšķiniet uz **Atvērt**. (Citās pārlūkprogrammās šī paziņojumu josla var tikt parādīta citā vietā.)
 4.  Lai instalētu Mazumtirdzniecības veidotāja resursdatoru, parādītajā ziņojuma lodziņā **Programmas palaišana - Drošības brīdinājums** noklikšķiniet uz **Palaist**. Norises indikators rāda instalēšanas norises gaitu.
 5.  Kad instalēšana ir pabeigta, lapā **Pierakstīties** ievadiet savu Microsoft Dynamics 365 for Operations lietotājvārdu un paroli, un pēc tam noklikšķiniet uz **Pierakstīties**, lai palaistu šo veidotāju.
-6.  Kad jūsu akreditācijas dati ir apstiprināti un veidotājs ir palaists, varat noformēt pats savu izkārtojumu vai mainīt esošo izkārtojumu. [![Izkārtojums ar vienu klikšķi dizainers](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
+6.  Kad jūsu akreditācijas dati ir apstiprināti un veidotājs ir palaists, varat noformēt pats savu izkārtojumu vai mainīt esošo izkārtojumu. [![Izkārtojums viena klikšķa veidotājā](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
 
 ## <a name="troubleshoot-the-installation-of-the-layout-designer"></a>Novērst izkārtojuma veidotāja instalēšanas problēmas
 -   Kad noklikšķināt uz **Veidotājs**, netiek parādīta uzvedne lejupielādēt (vai palaist) instalētāju vai pašreizējie drošības iestatījumi neļauj lejupielādēt failu. **Risinājumi.**
-    -   Pārlūkprogrammā Internet Explorer pārliecinieties, ka šai vietnei ir atspējots uznirstošo logu bloķētājs. Noklikšķiniet uz **iestatījumus**&gt;**opcijas**&gt;**konfidencialitātes**&gt;**atrast pop-up Blocker**, un mainiet iestatījumus, ja ir nepieciešams mainīt.
-    -   Pārlūkprogrammā Internet Explorer programmas Dynamics 365 for Operations vietrādi URL pievienojiet savām uzticamajām vietnēm. Noklikšķiniet uz **iestatījumus**&gt;**opcijas**&gt;**drošību**&gt;**uzticamo vietņu**&gt;**vietām**&gt;**pievienot**.
--   Programma nestartējas un jums liek sazinieties ar kreditoru. **Risinājums.** Pārlūkprogrammā Internet Explorer programmas Dynamics 365 for Operations vietrādi URL pievienojiet savām uzticamajām vietnēm. Noklikšķiniet uz **iestatījums**&gt;**opcijas**&gt;**drošību**&gt;**uzticamo vietņu**&gt;**vietām**&gt;**pievienot**.
+    -   Pārlūkprogrammā Internet Explorer pārliecinieties, ka šai vietnei ir atspējots uznirstošo logu bloķētājs. Noklikšķiniet uz **Iestatījumi** &gt; **Opcijas** &gt; **Konfidencialitāte** &gt; **Atrast uznirstošo elementu bloķētāju** un mainiet iestatījumu, ja tas ir nepieciešams.
+    -   Pārlūkprogrammā Internet Explorer programmas Dynamics 365 for Operations vietrādi URL pievienojiet savām uzticamajām vietnēm. Noklikšķiniet uz **Iestatījumi** &gt; **Opcijas** &gt; **Drošība** &gt; **Uzticamās vietnes** &gt; **Vietnes** &gt; **Pievienot**.
+-   Programma nestartējas un jums liek sazinieties ar kreditoru. **Risinājums.** Pārlūkprogrammā Internet Explorer programmas Dynamics 365 for Operations vietrādi URL pievienojiet savām uzticamajām vietnēm. Noklikšķiniet uz **Iestatījumi** &gt; **Opcijas** &gt; **Drošība** &gt; **Uzticamās vietnes** &gt; **Vietnes** &gt; **Pievienot**.
 
 **Zināma problēma.** Veidotājs nedarbojas pareizi pārlūkprogrammās Google Chrome un Mozilla Firefox. Mēs strādājam, lai šo problēmu novērstu.
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accruals-overview"></a>Uzkrājumu pārskats
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir aprakstīti uzkrājumi un sniegta informācija par to, kā tos iestatīt un izveidot transakcijas.
 
 Uzkrājumi tiek izmantoti uzkrājumu principa uzskaitē, lai izsekotu ieņēmumus, kas tiek atzīti par iegūtiem noteiktā periodā, nevis tad, kad tiek saņemts maksājums, un izsekotu izdevumus (izmaksas), kas tiek atzītas tad, kad tie rodas, nevis tad, kad tiek veikts maksājums.
@@ -41,6 +44,8 @@ Uzkrājumu shēmas tiek izmantotas, lai iestatītu atliktos ieņēmumus un izmak
 Pēc tam, kad definēsiet, kurus kontus izmantot, var norādīt, kā dokumenta numurs tiek izveidots uzkrājumu transakciju izveides laikā. Varat arī norādīt, cik bieži transakcijas notiek, to izveides reižu skaitu un grāmatošanas brīdi. Kad uzkrājumu shēma ir izveidota, to var izmantot dažos no žurnāliem, lieotojot funkciju Virsgrāmatas uzkrājumi.
 
 ## <a name="ledger-accruals"></a>Virsgrāmatas uzkrājumi
-Atverot žurnālu, izvēlnē **Funkcijas** varat noklikšķināt uz **Virsgrāmatas uzkrājumi**. Atlasot uzkrājumu shēmu, redzēsit pamatsummu no žurnāla, kas tiks sadalīts laika posmā, kā noteikts uzkrājmu shēmā. Piemēram, ja jūs maksājat par visa gada janvārī darbinieka apdrošināšanu un summa ir 12,000, jums jāatzīst, ka izdevumu katru mēnesi. Jāatlasa sākuma datuma. Var arī norādīt, vai summa, kas tiek uzkrāta, tiek apstiprināta kontā vai korespondējošajā kontā. Pēc atlases veikšanas noklikšķiniet uz **darbības**, lai apskatītu visas darbības, kas ir izveidotas, pamatojoties uz uzkrāšanas shēmas. Piemēram, ja 12.000 apdrošināšanas izdevumus sadalīts gada jūs redzēsiet 1000 katru mēnesi. Kad grāmatojat žurnālu, varat skatīt darbības, izmantojot **dokumenta darbības** Uzziņas lapā. Ja uzkrāšanas shēmu nevar piemērot (piemēram, ja rēķina pārdošanas pasūtījuma vai pirkšanas pasūtījuma rēķins ir iesaistīts), var kredītiestādes apmaksāto summu un debeta izdevumu summa. Kad tiek lietota uzkrājumu shēma, varat atlasīt **Korespondējošais**.
+Atverot žurnālu, izvēlnē **Funkcijas** varat noklikšķināt uz **Virsgrāmatas uzkrājumi**. Atlasot uzkrājumu shēmu, redzēsit pamatsummu no žurnāla, kas tiks sadalīts laika posmā, kā noteikts uzkrājmu shēmā. Piemēram, ja janvārī apmaksājat darbinieka apdrošināšanu par visu gadu, un summa ir 12 000, šie izdevumi ir jāapstiprina katru mēnesi. Varat atlasīt sākuma datumu. Var arī norādīt, vai summa, kas tiek uzkrāta, tiek apstiprināta kontā vai korespondējošajā kontā. Pēc atlases veikšanas noklikšķiniet uz **Transakcijas**, lai skatītu visas transakcijas, kas tika izveidotas atbilstoši uzkrājumu shēmai. Piemēram, ja izdevumus par apdrošināšanu 12 000 apmērā sadalāt uz visu gadu, tad katru mēnesi redzēsiet 1000. Pēc žurnāla grāmatošanas transakcijas varat apskatīt, izmantojot uzziņu lapu **Dokumentu transakcijas**. Ja uzkrājumu shēmu nevar lietot (piemēram, ja ir iesaistīts pārdošanas pasūtījuma rēķins vai pirkšanas pasūtījuma rēķins), varat kreditēt priekšapmaksas summu un debitēt izdevumu summu. Kad tiek lietota uzkrājumu shēma, varat atlasīt **Korespondējošais**.
+
+
 
 

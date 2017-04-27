@@ -1,5 +1,5 @@
 ---
-title: "POS aparatūras perifērijas ierīces"
+title: "POS aparatūras perifērās ierīces"
 description: "Pārdošanas punktā Retail Modern point of sale (POS) un mākoņa POS var izmantot plašu POS aparatūras perifēro ierīču klāstu ar dažādiem interfeisiem un izvietošanas opcijām, lai mazumtirgotājam nodrošinātu dažādus biznesa scenārijus."
 author: josaw1
 manager: AnnBe
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 215234
 ms.assetid: 1893d4b3-e1b7-4b66-be58-0102addd5b36
 ms.search.region: global
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="pos-hardware-peripherals"></a>POS aparatūras perifērijas ierīces
+# <a name="pos-hardware-peripherals"></a>POS aparatūras perifērās ierīces
+
+[!include[banner](includes/banner.md)]
+
 
 Pārdošanas punktā Retail Modern point of sale (POS) un mākoņa POS var izmantot plašu POS aparatūras perifēro ierīču klāstu ar dažādiem interfeisiem un izvietošanas opcijām, lai mazumtirgotājam nodrošinātu dažādus biznesa scenārijus. 
 
@@ -63,6 +66,8 @@ Nākamajā sarakstā ir iekļauti ierīču modeļi katrā klasē, kas ir iekšē
 
 -   Svītrkods – Honeywell 1900, HP LS2208
 -   MSR – Magtek PN - 21073075
+
+
 
 
 

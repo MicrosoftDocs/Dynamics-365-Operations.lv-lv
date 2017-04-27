@@ -1,6 +1,6 @@
 ---
-title: "Organizācijas apmācību jauda BI saturu"
-description: "Šajā tēmā ir aprakstīts, Dynamics 365 operācijām - organizācijas apmācību jauda BI saturu. Tas izskaidro, kā piekļūt satura pakotne un apraksta datu modelis un vienībām, kas tika izmantoti, lai izveidotu satura pakotne."
+title: "Power BI satura pakotne Organizācijas apmācība"
+description: "Šajā tēmā ir aprakstīta Dynamics 365 for Operations Power BI satura pakotne Organizācijas apmācība. Tajā ir paskaidrots, kā piekļūt satura pakotnei, un ir izskaidrots satura pakotnes izstrādei izmantotais datu modelis un elementi."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,45 +24,48 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="organizational-training-power-bi-content"></a>Organizācijas apmācību jauda BI saturu
+# <a name="organizational-training-power-bi-content"></a>Power BI satura pakotne Organizācijas apmācība
 
-Šajā tēmā ir aprakstīts, Dynamics 365 operācijām - organizācijas apmācību jauda BI saturu. Tas izskaidro, kā piekļūt satura pakotne un apraksta datu modelis un vienībām, kas tika izmantoti, lai izveidotu satura pakotne.
+[!include[banner](../includes/banner.md)]
 
-<a name="accessing-the-content-pack"></a>Piekļūstot satura pakotni
+
+Šajā tēmā ir aprakstīta Dynamics 365 for Operations Power BI satura pakotne Organizācijas apmācība. Tajā ir paskaidrots, kā piekļūt satura pakotnei, un ir izskaidrots satura pakotnes izstrādei izmantotais datu modelis un elementi.
+
+<a name="accessing-the-content-pack"></a>Piekļuve satura pakotnei
 --------------------------
 
-Jūs varat atrast organizācijas mācību satura pakotne bibliotēkā Shared aktīvu programmā Microsoft Dynamics Lifecycle Services (LCS). Lai iegūtu papildinformāciju par satura pakotnes lejupielāde un izveidojiet savienojumu ar savu Microsoft Dynamics 365 darbības datiem, skatiet [Power BI saturu no Microsoft un partneri LCS](power-bi-content-microsoft-partners.md).
+Satura pakotne Organizācijas apmācība ir pieejama Microsoft Dynamics Lifecycle Services (LCS) koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt šo satura pakotni un to savienot ar saviem Microsoft Dynamics 365 for Operations datiem, skatiet rakstā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md).
 
-## <a name="reports-that-are-included-in-the-content-pack"></a>Atskaitēm, kas ir iekļautas satura pakotni
-Pēc satura pakotne savienojuma izveidošanas ar savu dinamiku 365 darbības datiem, ziņojumi liecina uzņēmuma dati. Ja jūs nekad neesmu lietojis Microsoft Power BI pirms, jūs varat uzzināt vairāk par to uz [vadīto mācību lapas Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Atskaitēm, kas ir iekļautas satura pakotne ir gan diagrammām un tabulām, kas satur papildu informāciju. Tabulā ir sniegts pārskatu apraksts.
+## <a name="reports-that-are-included-in-the-content-pack"></a>Satura pakotnē iekļautie pārskati
+Pēc tam, kad ir izveidots satura pakotnes savienojums ar jūsu Dynamics 365 for Operations datiem, pārskatos tiek rādīti jūsu organizācijas dati. Ja iepriekš neesat lietojis Microsoft Power BI, papildinformāciju par to varat uzzināt lapā [Vadītā apmācība par Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Satura pakotnē iekļautajos pārskatos ir gan diagrammas, gan tabulas, kas satur papildinformāciju. Tabulā ir sniegts pārskatu apraksts.
 
 | Pārskats          | Saturs                                                                    |
 |-----------------|-----------------------------------------------------------------------------|
-| Analīzes gaitā | Reģistrācija ar atrašanās vietu, kursu dalībniekus ar statusu un reģistrācijas saraksts |
-| Kursu tipi    | Kursu tipi pēc prasmēm                                                       |
+| Kursa analīze | Reģistrācija pēc atrašanās vietas, kursa dalībnieki pēc statusa un reģistrācijas saraksts |
+| Kursu veidi    | Kursu tipi pēc prasmēm                                                       |
 
-Varat filtrēt diagrammas un mozaīkas uz šiem ziņojumiem, un pin diagrammām un flīžu panelis. Papildinformāciju par to, kā filtrēt un pin barošanas BI sk [Create and Configure A Dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Šajos pārskatos esošās diagrammas un elementus varat filtrēt, un diagrammas un elementus varat piespraust informācijas panelim. Plašāku informāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet rakstā [Izveidot un konfigurēt informācijas paneli](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
-365 dinamika attiecībā uz darbības datiem lieto, lai papildinātu tās atskaites, kuras atrodas organizācijas mācību satura pakotne. Tabulā ir norādīti satura pakotne tika balstīta uz juridiskajām personām.
+Satura pakotnes Organizācijas apmācība pārskatu aizpildīšanai tiek izmantoti Dynamics 365 for Operations dati. Nākamajā tabulā ir redzami elementi, uz kuriem šī satura pakotne bija balstīta.
 
-| Elements                    | Saturs                                                         | Relācijas ar citām entītijām                                                                                                                                                                  |
+| Elements                    | Saturs                                                         | Attiecības ar citiem elementiem                                                                                                                                                                  |
 |---------------------------|------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Mācības,\_CalendarOffset  | Kalendārs, kas nobīda slāņa ziņojumus                                | Mācības,\_CourseAgenda apmācību\_CourseAttendees                                                                                                                                                   |
-| Apmācības\_uzņēmums         | Uzņēmumiem, lai filtrētu pārskatus                                   | Mācības,\_CourseAgenda apmācību\_CourseAttendees                                                                                                                                                   |
-| Apmācības\_Course          | Kursu, apraksts, instruktoru nosaukums, atrašanās vieta, telpa un statuss | Mācības,\_CourseAgenda apmācību\_CourseAttendees apmācību\_CourseSkill                                                                                                                             |
-| Mācības,\_CourseAgenda    | Programmu, kursu un sākuma un beigu laiku                          | Apmācības\_uzņēmuma apmācību\_CalendarOffset apmācību\_datums mācību\_Course                                                                                                                         |
-| Mācības,\_CourseAttendees | Nosaukums, statuss, darbu un reģistrācijas datums                         | Apmācības\_uzņēmuma apmācību\_CalendarOffset apmācību\_datums mācību\_demogrāfijas apmācību\_nodarbinātības apmācības\_apmācības kursu\_WorkerName apmācību\_WorkerTitle apmācību\_darba apmācība\_pozīciju |
-| Mācības,\_CourseSkill     | Prasme, prasme veidam un līmenim                                     | Apmācības\_Course                                                                                                                                                                                   |
-| Apmācības\_datums            | Dienas, nedēļas, mēneši un gadi                                   | Mācības,\_CourseAgenda apmācību\_CourseAttendees                                                                                                                                                   |
-| Apmācības\_demogrāfija    | Dienas, dzimšanas, dzimuma, etniskās piederības un ģimenes stāvoklis         | Mācības,\_CourseAgenda apmācību\_CourseAttendees                                                                                                                                                   |
-| Apmācības\_nodarbinātības      | Sākuma datums, beigu datums un pārejas datumu                        | Mācības,\_CourseAgenda apmācību\_CourseAttendees                                                                                                                                                   |
-| Apmācības\_darba             | Funkciju, tipu un nosaukumu                                        | Mācības,\_CourseAgenda apmācību\_CourseAttendees                                                                                                                                                   |
-| Apmācības\_stāvoklis        | Pozīciju, nosaukums un pilna darba laika ekvivalentu (FTE)                  | Mācības,\_CourseAgenda apmācību\_CourseAttendees                                                                                                                                                   |
-| Mācības,\_WorkerName      | Vārdu, uzvārdu un vārdu un uzvārdu                             | Mācības,\_CourseAttendees                                                                                                                                                                          |
-| Mācības,\_WorkerTitle     | Virsraksts un darba stāža datums                                         | Mācības,\_CourseAttendees                                                                                                                                                                          |
+| Training\_CalendarOffset  | Kalendārs nobīdās, lai sadalītu pārskatus                                | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
+| Training\_Company         | Uzņēmumi, pēc kuriem pārskatus filtrēt                                   | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
+| Training\_Course          | Kurss, apraksts, instruktora vārds, atrašanās vieta, telpa un statuss | Training\_CourseAgenda Training\_CourseAttendees Training\_CourseSkill                                                                                                                             |
+| Training\_CourseAgenda    | Darba kārtība, kurss un sākuma un beigu laiks                          | Training\_Company Training\_CalendarOffset Training\_Date Training\_Course                                                                                                                         |
+| Training\_CourseAttendees | Vārds, statuss, amats un reģistrācijas datums                         | Training\_Company Training\_CalendarOffset Training\_Date Training\_Demographics Training\_Employment Training\_Course Training\_WorkerName Training\_WorkerTitle Training\_Job Training\_Position |
+| Training\_CourseSkill     | Prasme, prasmes veids un līmenis                                     | Training\_Course                                                                                                                                                                                   |
+| Training\_Date            | Dienas, nedēļas, mēneši un gadi                                   | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
+| Training\_Demographics    | Dzimšanas datums, dzimums, etniskā izcelsme un ģimenes stāvoklis         | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
+| Training\_Employment      | Sākuma datums, beigu datums un pārejas datums                        | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
+| Training\_Job             | Funkcija, tips un nosaukums                                        | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
+| Training\_Position        | Pozīcija, amats un pilnas slodzes ekvivalents (FTE)                  | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
+| Training\_WorkerName      | Vārds, uzvārds un pilnais vārds                             | Training\_CourseAttendees                                                                                                                                                                          |
+| Training\_WorkerTitle     | Nosaukums un darba stāža datums                                         | Training\_CourseAttendees                                                                                                                                                                          |
 
-Šīm vienībām tika izmantoti, lai izveidotu aprēķinātās mērvienības datu modelī. Tās aprēķina, pasākumus, kas pēc tam tiek izmantoti, lai aprēķinātu galveno veiktspējas rādītāju (KPI) un atskaites, kas tiek izmantotas satura pakotne. Ja jūs vēlaties iekļaut jūsu atskaites un informācijas paneļa papildu aprēķinus, var lejupielādēt un modificēt LCS Training.pbix failu. Šis fails ir noklusēto datu modelis, kas tika izmantots, lai izveidotu satura pakotne. Pēc tam, kad esat veicis izmaiņas, var izveidot organizācijas satura pakotne un vadības paneli, kas satur informāciju, ko esat pievienojis.
+Šie elementi tika izmantoti, lai datu modelī izveidotu aprēķinātus mērus. Pēc tam šie aprēķinātie mēri tiek lietoti, lai aprēķinātu galvenos veiktspējas rādītājus (key performance indicators — KPI) un pārskatus, kas tiek izmantoti satura pakotnē. Ja vēlaties pārskatos vai informācijas panelī ietvert papildu aprēķinus, varat no LCS lejupielādēt un modificēt failu Training.pbix. Šis fails ir noklusējuma datu modelis, kas tika izmantots satura pakotnes izveidošanai. Kad esat pabeidzis izmaiņu veikšanu, varat izveidot organizācijas satura pakotni un informācijas paneli, kas satur jūsu pievienoto informāciju.
 
 ## <a name="additional-resources"></a>Papildu resursi
 Šeit norādītas dažas noderīgas saites, kas ir saistītas ar elementiem un Power BI satura izveidi:
@@ -71,6 +74,8 @@ Varat filtrēt diagrammas un mozaīkas uz šiem ziņojumiem, un pin diagrammām 
 -   [Organizācijas satura pakotnes izveide](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Datu modelēšana, izmantojot Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Power BI elementu pievienošana darbvietām](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/07/06/pinning-power-bi-reports-to-dynamics-ax-client/)
+
+
 
 
 

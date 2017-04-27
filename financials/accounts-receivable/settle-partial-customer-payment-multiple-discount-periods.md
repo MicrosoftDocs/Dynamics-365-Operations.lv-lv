@@ -1,5 +1,5 @@
 ---
-title: "Nokārtot daļēju klientu maksājumu, kas ir vairāku atlaižu periodus"
+title: "Daļēju debitora maksājumu nosegšana, kam ir vairāki atlaižu periodi"
 description: "Šajā rakstā ir izskaidrots, kā tiek nosegti daļēji debitora maksājumi, ja ir vairāki atlaižu periodi."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Nokārtot daļēju klientu maksājumu, kas ir vairāku atlaižu periodus
+# <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Daļēju debitora maksājumu nosegšana, kam ir vairāki atlaižu periodi
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir izskaidrots, kā tiek nosegti daļēji debitora maksājumi, ja ir vairāki atlaižu periodi.
 
-Fabrikam piedāvā debitoram 4031 divus termiņatlaides periodus. Debitors saņem 2 procentu termiņatlaidi, ja rēķins tiek apmaksāts piecu dienu laikā un 1 procenta termiņatlaidi, ja rēķins tiek apmaksāts 14 dienu laikā. Fabrikam piedāvā arī termiņatlaides daļējiem maksājumiem. Norēķinu parametri atrodas **Accounts receivable parameters** lapā.
+Fabrikam piedāvā debitoram 4031 divus termiņatlaides periodus. Debitors saņem 2 procentu termiņatlaidi, ja rēķins tiek apmaksāts piecu dienu laikā un 1 procenta termiņatlaidi, ja rēķins tiek apmaksāts 14 dienu laikā. Fabrikam piedāvā arī termiņatlaides daļējiem maksājumiem. Nosegšanas parametri atrodas lapā **Debitoru moduļa parametri**.
 
 ## <a name="invoice"></a>Rēķins
-25. jūnijā, Arnie ievada un amatu 1000,00 4031 klienta rēķinu. Kad viņš apskati attiecībā uz šā rēķina termiņatlaides, Arnie uzskata, ka šī klienta 4031 saņem atlaidi 20.00, ja rēķina apmaksas, 30. jūnijs. Ja rēķina apmaksas, jūlijs 9, klients saņem atlaidi 10,00.
+Arnis debitoram 4031 izrakstīto rēķinu par summu 1000,00 ievada un grāmato 25. jūnijā. Kad viņš pārskata rēķina termiņatlaides, Arnis redz, ka debitors 4031 saņem atlaidi 20,00, ja rēķins tiek apmaksāts līdz 30. jūnijam. Ja rēķins tiek apmaksāts līdz 9. jūlijam, debitors saņem atlaidi 10,00.
 
 | Termiņatlaides datums | Termiņatlaides summa | Summa darījuma valūtā |
 |--------------------|----------------------|--------------------------------|
@@ -92,6 +95,8 @@ Rēķina bilance tagad ir 0,00. Arnijs apskata informāciju lapā **Debitoru dar
 | DISC-10030 |  Termiņatlaide   | 28.06.2015 |         |                                      | 6,00                                  | 0,00    | USD      |
 | ARP-10031  |  Maksājums         | 08.07.2015  |         |                                      | 693,00                                | 0,00    | USD      |
 | DISC-1031  |  Termiņatlaide   | 08.07.2015  |         |                                      | 7,00                                  | 0,00    | USD      |
+
+
 
 
 

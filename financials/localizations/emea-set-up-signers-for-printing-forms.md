@@ -1,6 +1,6 @@
 ---
-title: "Iestatītu parakstītāji drukas formas"
-description: "Juridiskām personām ar Čehijas, Igaunijas, Ungārijas, Lietuvas, Latvija, Polija un Krievija, varat uzstādīt parakstītājus un virsraksti debitorus un kreditorus, kas drukāt dokumentus, piemēram, rēķinos un naudas pasūtījumiem."
+title: "Iestatīt parakstītājus drukātajām formām"
+description: "Juridiskajām personām Čehijā, Igaunijā, Ungārijā, Lietuvā, Latvijā, Polijā un Krievijā varat iestatīt parakstītājus un amatus debitoriem un kreditoriem, kas drukā tādus dokumentus kā rēķini un kases orderi."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-signers-for-print-forms"></a>Iestatītu parakstītāji drukas formas
+# <a name="set-up-signers-for-print-forms"></a>Iestatīt parakstītājus drukātajām formām
 
-Juridiskām personām ar Čehijas, Igaunijas, Ungārijas, Lietuvas, Latvija, Polija un Krievija, varat uzstādīt parakstītājus un virsraksti debitorus un kreditorus, kas drukāt dokumentus, piemēram, rēķinos un naudas pasūtījumiem.
+[!include[banner](../includes/banner.md)]
+
+
+Juridiskajām personām Čehijā, Igaunijā, Ungārijā, Lietuvā, Latvijā, Polijā un Krievijā varat iestatīt parakstītājus un amatus debitoriem un kreditoriem, kas drukā tādus dokumentus kā rēķini un kases orderi.
 
 <a name="set-up-default-values"></a>Noklusēto vērtību iestatīšana
 ---------------------
 
-Iestatīt parakstītāji dokumentiem, kurus uzņēmums izdrukā, izmantojiet **ierēdņu** lapā. Parakstītāji un to nosaukumi var uzstādīt gan par uzņēmuma debitorus vai kreditorus, atkarībā no dokumenta tipa. Sekojošajā tabulā ir aprakstītas cilnes uz **ierēdņu** lapā.
+Lai iestatītu parakstītājus tādiem dokumentiem, ko uzņēmums drukā, izmantojiet lapu **Amatpersonas**. Parakstītājus un viņu amatos varat iestatīt gan uzņēmumam, gan debitoriem vai kreditoriem, ņemot vērā dokumenta tipu. Nākamajā tabulā ir aprakstītas cilnes lapā **Amatpersonas**.
 
 <table>
 <colgroup>
@@ -41,62 +44,62 @@ Iestatīt parakstītāji dokumentiem, kurus uzņēmums izdrukā, izmantojiet **i
 <thead>
 <tr class="header">
 <th>Cilne</th>
-<th>apraksts</th>
+<th>Apraksts</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Vispārējs</td>
-<td>Pievienotu pozīcijām un saistīto informāciju par parakstītāju (direktors un galvenais grāmatvedis) kas var parakstīt visu veidu dokumentu drukāšanu.</td>
+<td>Vispārīgi</td>
+<td>Pievienojiet amatus un saistīto informāciju par parakstītājiem (Direktors un Galvenais grāmatvedis), kuri var parakstīt visu tipu drukātos dokumentus.</td>
 </tr>
 <tr class="even">
 <td>Virsgrāmata</td>
-<td>Pievienot pozīciju un saistīto informāciju par parakstītāju, kurš var parakstīt šādu iekšējo finanšu dokumentus, kas ir saistīti naudas plūsma:
+<td>Pievienojiet amatu un saistīto informāciju par parakstītājiem, kuri var parakstīt tālāk norādītos iekšējos finanšu dokumentus, kas ir saistīti ar naudas plūsmu.
 <ul>
 <li>Kases orderi</li>
 <li>Avansa pārskats</li>
 <li>Kases grāmatas lapa</li>
 <li>Inventarizācijas akts</li>
-<li>Atlikto maksājumu *</li>
+<li>Atliktie maksājumi*</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Pārdošanas pasūtījumi</td>
-<td>Pievienojiet parakstītāju, kurš var parakstīt šādu izejošo primāro dokumentus, kas saistīti ar debitoriem pozīcijas un saistītu informāciju:
+<td>Pievienojiet amatus un saistīto informāciju par parakstītājiem, kuri var parakstīt tālāk norādītos izejošos primāros dokumentus, kas ir saistīti ar debitoriem.
 <ul>
-<li>Rēķinu apmaksas *</li>
+<li>Apmaksājams rēķins*</li>
 <li>Rēķins</li>
-<li>Faktūrrēķina *</li>
+<li>Faktūrrēķins*</li>
 <li>Rēķins — kredīta nota</li>
-<li>Faktūrrēķins - kredīts-Piezīme *</li>
-<li>Nodokļu darbības faktūrrēķins (klienta) *</li>
+<li>Faktūrrēķins — kredīta nota*</li>
+<li>Nodokļu transakcijas faktūrrēķins (debitors)*</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Pirkšanas pasūtījumi</td>
-<td>Pievienojiet pozīcijas un saistītu informāciju par parakstītāju, kurš var parakstīt šādu ienākošo primāro dokumentus, kas saistīti ar kreditoriem:
+<td>Pievienojiet amatus un saistīto informāciju par parakstītājiem, kuri var parakstīt tālāk norādītos ienākošos primāros dokumentus, kas ir saistīti ar kreditoriem.
 <ul>
 <li>Rēķins</li>
-<li>Faktūrrēķina *</li>
+<li>Faktūrrēķins*</li>
 <li>Rēķins — kredīta nota</li>
-<li>Faktūrrēķins - kredīts-Piezīme *</li>
-<li>Rēķinu apmaksas *</li>
-<li>Nodokļu darbības faktūrrēķins (kreditora) *</li>
+<li>Faktūrrēķins — kredīta nota*</li>
+<li>Apmaksājams rēķins*</li>
+<li>Nodokļu transakcijas faktūrrēķins (kreditors)*</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Krājumu pārvaldība</td>
-<td>Pievienojiet parakstītāju, kurš var parakstīt šādu noliktavas dokumenti, kad materiālie aktīvi ir izsniegusi klientam vai saņēmis no piegādātāja pozīcijas un saistītu informāciju:
+<td>Pievienojiet amatus un saistīto informāciju par parakstītājiem, kuri var parakstīt tālāk norādītos noliktavas dokumentus, kad materiāli aktīvi tiek izsniegti debitoram vai saņemti no kreditora.
 <ul>
-<li>Izdot pavadzīmi pārdošanas pasūtījumā (M-15) *</li>
-<li>RMB. slīdēšanas/saņemšanas kārtībā</li>
-<li>Izdot slīdēšanas pārsūtīšanas pasūtījumam (M-15) *</li>
+<li>Pārdošanas pasūtījuma izsniegšanas pavadzīme (M-15)*</li>
+<li>Ieņēmumu orderis/pieņemšanas akts</li>
+<li>Pārsūtīšanas pasūtījuma izsniegšanas pavadzīme (M-15)*</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-\*Šī tipa dokuments ir pieejams tikai juridiskas personas, kas ir viņu primāro adresi Krievijā. Sekojošajā tabulā ir aprakstītas laukus uz **ierēdņu** lapā.
+\* Šis dokumenta tips ir pieejams tikai juridiskām personām, kuru primārā adrese ir Krievijā. Nākamajā tabulā ir aprakstīti lauki lapā **Amatpersonas**.
 
 <table>
 <colgroup>
@@ -106,60 +109,62 @@ Iestatīt parakstītāji dokumentiem, kurus uzņēmums izdrukā, izmantojiet **i
 <thead>
 <tr class="header">
 <th>Lauks</th>
-<th>apraksts</th>
+<th>Apraksts</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Pozīcija</td>
+<td>Amats</td>
 <td>Atlasiet parakstītāja amata nosaukumu.</td>
 </tr>
 <tr class="even">
 <td>Vārds, uzvārds</td>
-<td>Atlasiet parakstītāja vārdu. Vārdu sarakstu, kas nāk no kontaktpersonu tabulas vai tabulas Employees, atkarībā no parakstītāja (tas ir, atkarībā no tā, vai <strong>mūsu</strong> ir atzīmēta izvēles rūtiņa). Ja parakstītāja vārds nav sarakstā, manuāli ievadīt parakstītāja vārdu un uzvārdu.</td>
+<td>Atlasiet parakstītāja vārdu un uzvārdu. Sarakstā esošie vārdi tiek ņemti no tabulas Kontaktpersonas vai tabulas Darbinieki, ņemot vērā parakstītāja tipu (tas ir, atkarībā no tā, vai ir atzīmēta izvēles rūtiņa <strong>Mūsu</strong>). Ja parakstītāja vārds nav iekļauts šajā sarakstā, ievadiet parakstītāja pilno vārdu manuāli.</td>
 </tr>
 <tr class="odd">
-<td>Amats</td>
-<td>Atlasiet parakstītāja amats. Ja sarakstā nav parakstītāja nosaukums, manuāli ievadīt parakstītāja nosaukums.</td>
+<td>Darba nosaukums</td>
+<td>Atlasiet parakstītāja darba nosaukumu. Ja parakstītāja amats nav iekļauts šajā sarakstā, ievadiet parakstītāja amatu manuāli.</td>
 </tr>
 <tr class="even">
 <td>Konta kods</td>
-<td>Atlasiet, vai parakstītājam var parakstīt visas atlasītā dokumentu tipa dokumenti vai tikai dokumenti noteiktam debitoram vai kreditoram.</td>
+<td>Atlasiet, vai parakstītājs var parakstīt visus atlasītā dokumentu tipa dokumentus vai tikai dokumentus kādam konkrētam debitoram vai kreditoram.</td>
 </tr>
 <tr class="odd">
 <td>Kontu saistība</td>
-<td>Atlasiet debitora vai kreditora kontu, kas saistīts ar izvēlēto konta kods. Šis lauks ir pieejams, tikai atlasot <strong>ierakstu</strong>, <strong>konta kods</strong> lauks.</td>
+<td>Atlasiet debitora vai kreditora kontu, kurš ir saistīts ar atlasīto konta kodu. Šis lauks ir pieejams tikai tad, ja laukā <strong>Konta kods</strong> atlasāt <strong>Ieraksts</strong>.</td>
 </tr>
 <tr class="even">
 <td>Mūsu</td>
-<td>Ir atzīmēta izvēles rūtiņa norāda, ka iekšējo stāvokli.</td>
+<td>Ja izvēles rūtiņa ir atzīmēta, tas nozīmē, ka šis amats ir iekšējs.</td>
 </tr>
 <tr class="odd">
 <td>Saistība ar noliktavu</td>
 <td>Atlasiet, vai parakstītājs ir piešķirts visām noliktavām vai tikai konkrētai noliktavai. Pieejamas šādas opcijas
 <ul>
-<li><strong>Visas</strong> -parakstītājs tiek piešķirts uz visām noliktavām.</li>
-<li><strong>Ieraksts</strong> -parakstītājam ir piešķirts konkrētai noliktavai.</li>
+<li><strong>Visi</strong> — parakstītājs ir piešķirts visām noliktavām.</li>
+<li><strong>Ieraksts</strong> — parakstītājs ir piešķirts konkrētai noliktavai.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Noliktava</td>
-<td>Atlasiet noliktavas kodu, kas atbilst uz noliktavu, kas katram parakstītājam ir piešķirta. Šis lauks ir pieejams, tikai atlasot <strong>ierakstu</strong>, <strong>sasaisti ar noliktavu</strong> lauks.</td>
+<td>Atlasiet noliktavas kodu, kas atbilst tai noliktavai, kurai šis parakstītājs ir piešķirts. Šis lauks ir pieejams tikai tad, ja laukā <strong>Saistība ar noliktavu</strong> atlasāt <strong>Ieraksts</strong>.</td>
 </tr>
 </tbody>
 </table>
 
-## <a name="set-up-a-number-sequence-code-for-officials"></a>Iestatiet numuru sērijas kodu, ierēdņu
-Numuru sērijas kodu var piešķirt ierēdņu **numuru sērijas** sadaļā **juridiskajām personām** lapā. Atlasiet numuru sērijas kodu **amatpersonu sesijas ID** atsauci.
+## <a name="set-up-a-number-sequence-code-for-officials"></a>Iestatīt numuru sēriju kodu amatpersonām
+Lapas **Juridiskās personas** sadaļā **Numuru sērijas** amatpersonām varat piešķirt numuru sērijas kodu. Atsaucei **Amatpersonu sesijas ID** atlasiet kādu numuru sērijas kodu.
 
-## <a name="modify-signers-in-primary-documents"></a>Mainīt primāro dokumentu parakstītāji
-Amatpersonu funkcionalitāti rāda iepriekš definētu noklusējuma parakstītāji no amatpersonu galda. Par **rēķina grāmatošanas** lapa par **amatpersonas** tab, var modificēt parakstītāja vārds un amats uz primārais dokuments attiecas uz šādiem dokumentu veidiem:
+## <a name="modify-signers-in-primary-documents"></a>Modificēt parakstītājus primārajos dokumentos
+Funkcionalitāte Amatpersonas rāda noklusējuma sākotnēji definētos parakstītājus no tabulas Amatpersonas. Lapas **Rēķina grāmatošana** cilnē **Amatpersonas** varat modificēt parakstītāja vārdu un amatu primārajā dokumentā tālāk uzskaitītajiem dokumentu tipiem.
 
 -   Rēķins debitoram
 -   Kreditora rēķins
 -   Nosūtīšanas pārsūtīšanas pasūtījums
 -   Kases orderis
 
-**Piezīme:** pēc tam, kad dokuments ir iegrāmatots, ierēdņi nevar rediģēt.
+**Piezīme.** Pēc dokumenta grāmatošanas amatpersonas vairs nevar rediģēt.
+
+
 
 

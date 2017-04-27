@@ -1,6 +1,6 @@
 ---
-title: "Skatiet darbības nosegšanas Austrumeiropā"
-description: "Šajā tēmā ir informācija par darījumu norēķinu lappusē par debitoriem un kreditoriem."
+title: "Skatīt nosegšanas transakcijas Austrumeiropai"
+description: "Šajā tēmā ir sniegta informācija par lapu Nosegšanas transakcijas debitoriem un kreditoriem."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,24 +25,29 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="view-transactions-on-settlement-for-eastern-europe"></a>Skatiet darbības nosegšanas Austrumeiropā
+# <a name="view-transactions-on-settlement-for-eastern-europe"></a>Skatīt nosegšanas transakcijas Austrumeiropai
 
-Šajā tēmā ir informācija par darījumu norēķinu lappusē par debitoriem un kreditoriem.
+[!include[banner](../includes/banner.md)]
 
-Izmantojiet **darījumu norēķinu** lapu, lai skatītu informāciju par sarežģītu nosegšanas darbības ar klientu vai piegādātāju. Šis līdzeklis ir pieejams tikai juridiskās personas, kas ir viņu primāro adresi no Lietuvas, Latvija, Igaunija, Čehija, Ungārija vai Polijā. Jūs varat atrast **darījumu norēķinu** lapu šādās vietās:
 
--   **Kreditoru parādi**&gt;**kreditoriem**&gt;**visiem kreditoriem**. Rūtī darbības uz **kreditoru** cilni, noklikšķiniet uz **darbības**&gt;**darbības**. Par **kreditoru darbību** lapu, atlasiet darbību un noklikšķiniet **darījumu norēķinu**.
--   **Debitoru parādi**&gt;**klientiem**&gt;**visus klientus**. Rūtī darbības uz **klienta** cilni, noklikšķiniet uz **darbības**. Par **klienta darbības** lapu, atlasiet darbību un noklikšķiniet **darījumu norēķinu**.
+Šajā tēmā ir sniegta informācija par lapu Nosegšanas transakcijas debitoriem un kreditoriem.
 
-Norēķinu saistītā informācija ir notverti un būtu redzamas **darījumu norēķinu** lappuses darbības, kas tika izveidotas, šādos gadījumos:
+Izmantojiet lapu **Nosegšanas transakcijas**, lai skatītu informāciju par kompleksām nosegšanas transakcijām kādam debitoram vai kreditoram. Šis līdzeklis ir pieejams tikai juridiskām personām, kuru primārā adrese ir Lietuvā, Latvijā, Igaunijā, Čehijā, Ungārijā vai Polijā. Lapa **Nosegšanas transakcijas** ir atrodama tālāk norādītajās vietās.
 
--   **Valūtas pārrēķins** -rēķinu un maksājumu nokārtošanu rada realizēto vai Nerealizētie valūtas kursa starpību.
--   **Grāmatošanas profilu maiņa** – divi ieraksti, piemēram, rēķinu un kredītrēķinu, atšķirīgus grāmatošanas profiliem ir nogulsnējies.
--   Priekšapmaksa tiek pārvērsta maksājumu vai maksājumu tiek pārvērsta priekšapmaksu.
--   **Termiņatlaides** – rēķins ir segts ar maksājumu, kas atlaižu summa ir atskaitīta no.
--   **Sīknaudas starpība** – rēķins ir segts ar maksājumu, kas ir nedaudz atšķirīgu summu nekā rēķins.
--   **Nosacījuma PVN kontējuma** – rēķins ir segts ar nosacījuma nodoklis ir attiecināts maksājums.
--   **Visuzņēmuma norēķinu** -starpuzņēmumu funkcionalitāte tiek izmantota, lai nokārtot rēķinu ar samaksu no organizācijas.
+-   **Parādi kreditoriem** &gt; **Kreditori** &gt; **Visi kreditori**. Darbības rūts cilnē **Kreditors** noklikšķiniet uz **Transakcijas** &gt; **Transakcijas**. Lapā **Kreditoru transakcijas** atlasiet kādu transakciju un pēc tam noklikšķiniet uz **Nosegšanas transakcijas**.
+-   **Debitoru parādi** &gt; **Debitori** &gt; **Visi debitori**. Darbības rūts cilnē **Debitors** noklikšķiniet uz **Transakcijas**. Lapā **Debitoru transakcijas** atlasiet kādu transakciju un pēc tam noklikšķiniet uz **Nosegšanas transakcijas**.
+
+Ar nosegšanu saistītā informācija tiek tverta un to var parādīt lapā **Nosegšanas transakcijas** attiecībā uz transakcijām, kuras tika izveidotas tālāk uzskaitītajos scenārijos.
+
+-   **Valūtas pārrēķins** — rēķina un maksājuma nosegšana ģenerē realizētu vai nerealizētu valūtas maiņas kursa starpību.
+-   **Grāmatošanas metodes izmaiņas** — tiek nosegti divi ieraksti, piemēram, rēķins un kredītrēķins, kuriem ir dažādas grāmatošanas metodes.
+-   Priekšapmaksa tiek pārveidota par maksājumu, vai maksājums tiek pārveidots par priekšapmaksu.
+-   **Termiņatlaide** — rēķins tiek nosegts ar maksājumu, no kura ir atņemta atlaides summa.
+-   **Sīknaudas starpība** — rēķins tiek nosegts ar maksājumu, kura summa nedaudz atšķiras no rēķina summas.
+-   **Nosacījuma nodokļu grāmatošana** — rēķins tiek nosegts ar maksājumu, kuram tiek lietots nosacījuma nodoklis.
+-   **Starpuzņēmumu nosegšana** — lai rēķinu nosegtu ar maksājumu no kādas organizācijas, tiek lietota starpuzņēmumu funkcionalitāte.
+
+
 
 
 

@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="job-scheduling"></a>Darbu plānošana
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegta informācija par darbu plānošanu, kas ir daudz detalizētāka plānošanas forma nekā operāciju plānošana. Darbu plānošanu var izmantot, lai plānotu atsevišķus darbus vai veikalu pasūtījumus un kontrolētu ražošanas vidi.
 
 Darbu plānošanu var izmantot, lai plānotu atsevišķus darbus vai veikalu pasūtījumus un kontrolētu ražošanas vidi. Darbu plānošana sadala katru darbību tās atsevišķajos uzdevumos un darbos. Šie darbi pēc tam tiek piešķirti operācijas resursiem, kas tos veiks. Darbu plānošana ļauj arī sinhronizēt visus darbus, uz kuriem atsaucas atlasītais darbs. Darbam var noteikt sākuma un beigu datumu un laiku, un pēc tam veikt plānošanu. Norādītais laiks var būt sākuma laiks vai beigu laiks, atkarībā no plānošanas virziena. Šī funkcionalitāte noder, kad, piemēram, darbu vienlaicīgi var veikt tikai uz vienas mašīnas vai ja vēlaties optimizēt darbu, kas tiek izpildīts katram resursam.
@@ -39,7 +42,7 @@ Darba plānošanas process ietver šādus uzdevumus:
 -   Sadalīt operācijas darbos.
 -   Plānot katru darbu, pamatojoties uz resursu datumiem un laikiem, kas norādīti saistītajai operācijai.
 -   Aprēķināt katra darba sākuma un beigu laiku. Ierobežotu noslodzi var izmantot, lai pārliecinātos, ka nav laiku, kas pārklājas.
--   Noteiktu, kuriem resursiem, resursu grupas uzdevuma izpildi pēc. Šis uzdevums prasa norādīt resursu grupas operāciju. Darbu plānošana atlasa resursus vai resursu grupas, pamatojoties uz īsāko izpildes laiku, un arī ņem vērā visas iepriekšējās resursu rezervācijas.
+-   Nosakiet, ar kuriem resursu grupā ietvertajiem resursiem ir jāveic darbs. Lai varētu veikt šo uzdevumu, operācijai ir jābūt norādītai resursu grupai. Darbu plānošana atlasa resursus vai resursu grupas, pamatojoties uz īsāko izpildes laiku, un arī ņem vērā visas iepriekšējās resursu rezervācijas.
 -   Izvērst operācijas darbos, kad tiek palaista darbu plānošana. Darbi tiek plānoti pa datumiem un laikiem atbilstoši kārtībai, ko nosaka ražošanas maršruts. Operāciju iestatījumi nosaka darbus, kas tiek izvērsti plānošanas procesa laikā. Maršruta grupa, kas piešķirta operācijai, kontrolē, vai darbi tiek ģenerēti. Darbs tiek ģenerēts, ja tam norādīts ilgums. Piemēram, transportēšanas laika darbs tiek ģenerēts, ja atlasītajai operācijai bija norādīts transportēšanas laiks.
 
 ## <a name="scheduling-direction"></a>Plānošanas virziens
@@ -73,5 +76,7 @@ Darbu plānošanā darbiem tiek piešķirti resursi. Katrā darba pasūtījumā 
 
 ## <a name="resource-efficiency"></a>Resursu efektivitāte
 Darbu plānošana ņem vērā resursiem norādītos efektivitātes procentus. Efektivitātes procenti samazina vai palielina resursam rezervēto laiku. Tāpēc tiek palielināts vai samazināts arī izpildes laiks. Aprēķināšanai tiek izmantota šāda formula: plānošanas laiks = laiks x 100 ÷ efektivitātes procenti. Šajā formulā *Laiks* ietver gan izpildes laiku, gan iestatīšanas laiku.
+
+
 
 

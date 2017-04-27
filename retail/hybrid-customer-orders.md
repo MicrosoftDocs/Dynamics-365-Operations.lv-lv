@@ -1,6 +1,6 @@
 ---
-title: "Hibrīda klientu pasūtījumus"
-description: "Hibrīda klienta pasūtījums ir vienā pasūtījumā, ko satur produkti, kas var pārvadāt no veikala klientu, kā arī produkti, kas iekāpj vai piegādāti vēlāk."
+title: "Hibrīdie debitoru pasūtījumi"
+description: "Hibrīds debitora pasūtījums ir atsevišķs pasūtījums, kurā ir ietvertas gan tādas preces, ko debitors var iznest no veikala, gan tādas, kas tiks izdots vai nosūtītas vēlāk."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,20 +25,25 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="hybrid-customer-orders"></a>Hibrīda klientu pasūtījumus
+# <a name="hybrid-customer-orders"></a>Hibrīdie debitoru pasūtījumi
 
-Hibrīda klienta pasūtījums ir vienā pasūtījumā, ko satur produkti, kas var pārvadāt no veikala klientu, kā arī produkti, kas iekāpj vai piegādāti vēlāk.
+[!include[banner](includes/banner.md)]
 
-Microsoft Dynamics 365 operācijām - mazumtirdzniecība, var izvēlēties vai nu veic visus produktus vai veikt izvēlēto produktu klienta pasūtījumu. Produktu līnijas, kas atzīmēti kā veikt tiek automātiski aprēķināti pēc pasūtījuma izveides, līdzīgi tas ir tas pats, par rīkojumu, kas tiks noplūktiem-up pēc pasūtījuma izveides. Maksājamo summu par hibrīdu pasūtījumiem nosaka, pievienojot depozīta procenti pēc savākšanas un kuģis produktu līnijas ar rindām veic pilnā apmērā. Hibrīda pasūtījumiem, sistēma pārslēdzas starp klientu pasūtījumu un naudas and carry režīmu šādi:
 
--   Ja visu produktu grozā ir iestatīts uz **veikt piegādes**, pasūtījums tiks apstrādāta kā Cash and Carry darbība.
--   Ja jebkurai vai visām līnijām grozā ir iestatītas, lai vai nu **Pick** vai **kuģa piegādes**, pasūtījums tiks apstrādāta kā klienta pasūtījumu.
+Hibrīds debitora pasūtījums ir atsevišķs pasūtījums, kurā ir ietvertas gan tādas preces, ko debitors var iznest no veikala, gan tādas, kas tiks izdots vai nosūtītas vēlāk.
 
-Ja grozs rinda ir atzīmēta un **Pick atlasīti**, **kuģis izvēlēts**, vai **veikt atlasītā** ir atlasīta, tikai konkrētu grozs līnija ir iestatīts, ka piegādes metode. Tādā gadījumā pakārtots plūsmas darbība turpinās kā parasti. Tomēr ja **Pick atlasīti**, **kuģis izvēlēts**, vai **veikt atlasītā** atzīmēta bez ratiem līnijas tiek atlasīts, lapa atveras jauns uzskaita grozs rindas. Šajā ekrānā varat atlasīt vairākas rindas vienlaikus, nosakot piegādes metodi. Ja izmantojat šo metodi rindu atlasīšana, iepriekšējā piegādes metode, kas piešķirts rindā tiks ignorēts.
+Programmatūrā Microsoft Dynamics 365 for Operations — Retail varat izvēlēties debitora pasūtījuma opciju Iznest visas preces vai Iznest atlasītās preces. Par preču grupām, kas ir atzīmētas kā iznesamas, tiek automātiski izrakstīts rēķins uzreiz pēc pasūtījuma izveides. Tas pats pēc pasūtījuma izveides tiek darīts arī ar izdodamām precēm. Hibrīdo pasūtījumu apmaksas summa tiek aprēķināta, saskaitot izdodamo un nosūtāmo preču rindu depozīta procentu summu un iznesamo preču rindu pilnu summu. Apstrādājot hibrīdos pasūtījumus, sistēma pārslēdz debitora pasūtījumu režīmu un pārdošanas skaidrā naudā bez piegādes režīmiem tālāk norādītajā veidā.
+
+-   Ja visām grozā esošajām precēm ir iestatīta opcija **Piegāde iznesot**, pasūtījums tiek apstrādāts kā pārdošanas skaidrā naudā bez piegādes transakcija.
+-   Ja vienai vai visām groza rindām ir iestatīta opcija **Piegāde izdodot** vai **Piegāde nosūtot**, pasūtījums tiek apstrādāts kā debitora pasūtījuma transakcija.
+
+Ja tiek atlasīta kāda groza rinda un tiek atlasīta opcija **Izdot atlasīto**, **Nosūtīt atlasīto** vai **Iznest atlasīto**, attiecīgā piegādes metode tiek iestatīta tikai atlasītajai groza rindai. Šādā gadījumā operācijas lejupstraumes plūsma turpinās kā parasti. Taču, ja opcija **Izdot atlasīto**, **Nosūtīt atlasīto** vai **Iznest atlasīto** tiek atlasīta, neatlasot nevienu groza rindu, tiek atvērta jauna lapa, kurā ir norādītas visas groza rindas. Šajā ekrānā varat vienlaikus atlasīt vairākas rindas, kam ir jāiestata attiecīgā piegādes metode. Ja izmantojat rindu atlases metodi, tiek pārrakstīta jebkura rindai iepriekš piešķirtā piegādes metode.
 
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Klientu pasūtījumu pārskats](customer-orders-overview.md)
+[Pārskats par debitoru pasūtījumiem](customer-orders-overview.md)
+
+
 
 

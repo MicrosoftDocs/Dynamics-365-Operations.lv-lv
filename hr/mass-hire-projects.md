@@ -46,7 +46,7 @@ Lapā **Masveida pieņemšanas darbā projekti** atlasiet projektu “Vasaras pr
 
 Kad studenti ir pieņemti darbā prakses pozīcijās, ievadiet studentu datus pozīcijas, kurā pieņemat viņus darbā, laukā **Pozīcijas dati**. Kad visi pozīcijas dati ir ievadīti, atlasiet pozīciju lapā Masu darbā pieņemšanas projekti un noklikšķiniet uz **Pieņemt darbā**. Katrai pozīcijai tiek izveidots pozīcijas ieraksts, kā arī tiek izveidots darbinieka ieraksts, kas tiek piešķirts katras darba pieņemtās personas attiecīgai pozīcijai.
 
-## <a name="masshire-project-statuses"></a>Masshire projekta statusi
+## <a name="masshire-project-statuses"></a>Masveida projekta statusi
 Masveida pieņemšanas darbā projektam var piešķirt tālāk norādītos statusus.
 -   Izveidota
 -   Atvērta

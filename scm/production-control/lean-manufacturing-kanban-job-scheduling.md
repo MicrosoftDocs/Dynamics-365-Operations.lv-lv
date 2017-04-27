@@ -1,5 +1,5 @@
 ---
-title: "Kanban darbu plānošanu liesās ražošana"
+title: "Kanban darbu plānošana metodei lean manufacturing"
 description: "Šajā rakstā ir sniegta informācija par vizuālo kontroli pār kanban darbu plānošanu un dažādajiem veidiem, kā plānot kanban darbus."
 author: YuyuScheller
 manager: AnnBe
@@ -26,14 +26,14 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Kanban darbu plānošanu liesās ražošana
+# <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Kanban darbu plānošana metodei lean manufacturing
 
 Šajā rakstā ir sniegta informācija par vizuālo kontroli pār kanban darbu plānošanu un dažādajiem veidiem, kā plānot kanban darbus.  
 
 Lapa **Kanban darbu plānošana** nodrošina lean manufacturing darba šūnu vizuālu kontroli. Tā sniedz visu Kanban darbu pārskatu un nodrošina vairākas filtrēšanas iespējas. No šīs lapas var pārvietoties uz visām citām lapām, kas ir saistītas ar Kanban konfigurāciju un izpildi.
 
 ## <a name="automatic-scheduling-of-kanban-jobs"></a>Automātiska Kanban darbu plānošana
-Plānošana var tikt iedarbināta automātiski, ja uzstādāt **automātisku plānošanas daudzums** parametru kanban kārtulas. Ja iestatāt **automātisku plānošanas daudzums** uz **1**, katrs kanban darbs tiek plānots nekavējoties pēc to izveidošanas. Rezultāts ir pirmās pieprasījumpiegādes, pirmās apkalpošanas operāciju sērija. Ja iestatāt **Automātiskais plānošanas daudzums** uz vērtību, kas ir lielāka nekā 1, Kanban darbi tiek grupēti, pirms tie tiek plānoti. Šī koncepcija ļauj padarīt Kanban lielumu mazāku par faktiskās ekonomiskās partijas lielumu. Piemēram, ekonomikas partijas lielums konkrētam vienumam (vai preces ģimenes) ir 30. Tā vietā, lai radītu kanbans, kas izmanto produkta daudzumu, 30, varat konfigurēt kanban noteikums, lai parādītos saražoto daudzumu 10 un * automātisku plānošanas daudzums * * vērtība **3**. Lai gan automātiskā plānošana plāno Kanban darbus darba šūnai tikai tad, ja pastāv trīs neplānotie darbi, plānotājs un ražotnes vadītājs var skaidri redzēt, ka divi neplānotie darbi gaida izpildi. Plānotājs vai ražotnes pārvaldnieks var iekļaut šos divus darbus ražošanā, ieplānojot tos manuāli vai izveidojot papildu Kanban.
+Plānošanu var aktivizēt automātiski, ja iestatāt Kanban nosacījuma parametru **Automātiskais plānošanas daudzums**. Ja iestatāt parametra **Automātiskais plānošanas daudzums** vērtību **1**, katrs Kanban darbs tiek automātiski plānots uzreiz pēc tā izveidošanas. Rezultāts ir pirmās pieprasījumpiegādes, pirmās apkalpošanas operāciju sērija. Ja iestatāt **Automātiskais plānošanas daudzums** uz vērtību, kas ir lielāka nekā 1, Kanban darbi tiek grupēti, pirms tie tiek plānoti. Šī koncepcija ļauj padarīt Kanban lielumu mazāku par faktiskās ekonomiskās partijas lielumu. Piemēram, konkrēta krājuma (vai krājumu saimes) ekonomiskās partijas lielums ir 30. Tā vietā, lai izveidotu Kanban, kas izmantot preču daudzumu 30, varat konfigurēt Kanban nosacījumu tā, lai preču daudzums būtu 10 un parametra **Automātiskais plānošanas daudzums** vērtība būtu **3**. Lai gan automātiskā plānošana plāno Kanban darbus darba šūnai tikai tad, ja pastāv trīs neplānotie darbi, plānotājs un ražotnes vadītājs var skaidri redzēt, ka divi neplānotie darbi gaida izpildi. Plānotājs vai ražotnes pārvaldnieks var iekļaut šos divus darbus ražošanā, ieplānojot tos manuāli vai izveidojot papildu Kanban.
 
 ## <a name="manual-scheduling"></a>Manuālā plānošana
 Manuālai plānošanai programmā Microsoft Dynamics AX 2012 ir ieviests Kanban plānošanas panelis. Manuālo plānošanu var kombinēt ar automātisko plānošanu. Kanban plānošanas panelis ļauj jums plānot darbus un izņemt darbus no plāna, mainīt tos secību vai pārvietot to no perioda uz periodu. Darbus, kas ir balstīti uz Kanban nosacījumiem, kur vērtība **Automātistā plānošana** ir lielāka par **0**, var manuāli izslēgt no plāna. Tomēr, šie darbi tiks pārplānoti, kad notiks nākamais automātiskās plānošanas notikums (t.i., kad tiek izveidots jauns Kanban). Manuālai plānošanai ir pieejamas šādas opcijas:
@@ -44,10 +44,10 @@ Manuālai plānošanai programmā Microsoft Dynamics AX 2012 ir ieviests Kanban 
 -   **Uz priekšu** pārvieto atlasītos ieplānotos darbus uz priekšu secībā perioda ietvaros.
 -   **Iepriekšējais periods** pārvieto atlasītos ieplānotos darbus uz iepriekšējā perioda sākumu vai beigām.
 -   **Nākamais periods** pārvieto atlasītos ieplānotos darbus uz nākamā perioda sākumu vai beigām.
--   **Plānu,**&gt;**atjaunotu darba statusu** ļauj unschedule ieplānoto darbu.
+-   Opcija **Plānot** &gt; **Atgriezt darba statusu**sniedz iespēju atcelt ieplānota darba plānošanu.
 
 ## <a name="lean-scheduling-groups"></a>Racionālās plānošanas grupas
-Katra krāsa apzīmē racionālās plānošanas grupu. Racionālās plānošanas grupas var brīvi definēt kā vispārējas grupas vai grupas, kas pieder vienai darba šūnai. Krājumus un dimensijas var brīvi piešķirt plānošanas grupām. Piemēram, šūnā Krāsošana plānošanas grupa var atspoguļot preces krāsu. Darbā, kas tiek pildīts ar noteiktām rīku prasībām, krājumus iespējams grupēt pēc rīka vajadzības un iepakojuma darba šūnā tos var grupēt pēc iepakojuma veidnes. Krāsas izmantošana racionālās plānošanas grupām nav obligāta, bet ieteicama. Tas uzlabo redzamību plāna statusu. Piemēram, tas ir ļoti viegli, lai redzētu, kādas krāsas tiek ražoti, kurā dienā un uzreiz var noteikt, kā var optimizēt šo darbu.
+Katra krāsa apzīmē racionālās plānošanas grupu. Racionālās plānošanas grupas var brīvi definēt kā vispārējas grupas vai grupas, kas pieder vienai darba šūnai. Krājumus un dimensijas var brīvi piešķirt plānošanas grupām. Piemēram, šūnā Krāsošana plānošanas grupa var atspoguļot preces krāsu. Darbā, kas tiek pildīts ar noteiktām rīku prasībām, krājumus iespējams grupēt pēc rīka vajadzības un iepakojuma darba šūnā tos var grupēt pēc iepakojuma veidnes. Krāsas izmantošana racionālās plānošanas grupām nav obligāta, bet ieteicama. Tādējādi tiek uzlabota plāna statusa redzamība. Piemēram, var ļoti viegli redzēt, kuras krāsas tiek ražotas konkrētās dienās, tāpēc varat uzreiz noteikt, kā optimizēt šo darbu.
 
 ## <a name="work-cell-capacity-and-period-capacity"></a>Darba šūnas noslodze un perioda noslodze
 Racionālās darba šūnas noslodze vienmēr ir vienlaicīga noslodze. Citiem vārdiem sakot, darba šūnā var būt aktīvi vairāki darbi vienlaikus. Noslodzi var izsekot divos režīmos: caurlaide un stundas.

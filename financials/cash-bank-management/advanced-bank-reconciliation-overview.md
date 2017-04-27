@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="advanced-bank-reconciliation-overview"></a>Detalizētās bankas darbību saskaņošanas pārskats
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir aprakstīta detalizētās bankas darbību saskaņošanas procesa plūsma. Detalizētās bankas darbību saskaņošanas līdzeklis jums ļauj importēt bankas izrakstus, kurus var automātiski saskaņot bankas transakciju ietvaros.
 
 Detalizētās bankas darbību saskaņošanas funkcija ļauj importēt banku izrakstus. Pēc tam importēto bankas izrakstu var automātiski saskaņot no bankas transakciju vides. Šeit aprakstīti soļi detalizētās bankas darbību saskaņošanas plūsmā.
@@ -38,13 +41,15 @@ Detalizētās bankas darbību saskaņošanas funkcija ļauj importēt banku izra
     -   Šī funkcionalitāte var tikt paplašināta uz jebkuru formātu.
 
 2.  Iestatiet numuru sēriju, kuru lietot detalizētajai bankas darbību saskaņošanai un definējiet bankas darbību saskaņošanas atbilstības kārtulas.
-    -   Atbilstības kārtulu saskaņošana ir noteikts kritērijus, ko izmanto filtrēšanai bankas paziņojumu rindas un Microsoft Dynamics 365 operācijas bankas darbības rindas saskaņošanas procesā. Atkarībā no jūsu biznesa praksi, var iestatīt vairāk nekā vienu atbilstības kārtulu iespēju automatizēt un optimizēt jūsu saskaņošanas process.
+    -   Saskaņošanas atbilstības kārtula ir kritēriju kopa, ko izmanto, lai saskaņošanas procesa laikā filtrētu bankas izrakstu rindas un Microsoft Dynamics 365 for Operations bankas transakciju rindas. Atkarībā no jūsu biznesa prakses varat iestatīt vairākas atbilstības kārtulas, lai automatizētu un optimizētu saskaņošanas procesu.
 
-3.  Saskaņot bankas paziņojumus ar Dynamics 365 operācijas bankas darbībām.
+3.  Saskaņojiet bankas izrakstus ar Dynamics 365 for Operations bankas transakcijām.
     -   Veiciet automātisku atbilstības noteikšanu un saskaņošanas žurnālu izveidi.
-    -   Skatīt bankas izraksti un dinamiku 365 operācijas bankas darbības blakus.
-    -   Automātiski grāmatotu Dynamics 365 operācijas bankas darījumiem, ja tie neparādās bankas izrakstā, bet neparādās Dynamics 365 operācijām.
+    -   Bankas izrakstus un Dynamics 365 for Operations banku transakcijas varat apskatīt vienu otram līdzās.
+    -   Automātiski grāmatojiet Dynamics 365 for Operations bankas transakcijas, ja tās ir redzamas bankas izrakstā, bet nav redzamas programmā Dynamics 365 for Operations.
     -   Izveidojiet saskaņošanas paziņojumu.
+
+
 
 
 

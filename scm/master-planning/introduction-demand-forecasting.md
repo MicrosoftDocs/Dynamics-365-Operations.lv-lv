@@ -1,6 +1,6 @@
 ---
-title: "Pieprasījuma prognozēšana pārskats"
-description: "Pieprasījuma prognozēšanas tiek izmantota, lai prognozētu debitoru pasūtījumu neatkarīgu pieprasījumu pēc pārdošanas pasūtījumiem un atkarīgos pieprasījums jebkurā atsaistīšanas punktā. Pastiprinātu pieprasījumu budžeta samazināšanas noteikumiem sniedz ideālu risinājumu masu pielāgošanas."
+title: "Pārskats par pieprasījuma prognozēšanu"
+description: "Pieprasījuma prognozēšanas tiek izmantota, lai prognozētu debitoru pasūtījumu neatkarīgu pieprasījumu pēc pārdošanas pasūtījumiem un atkarīgos pieprasījums jebkurā atsaistīšanas punktā. Uzlabotās pieprasījuma apjoma prognozes samazināšanas kārtulas nodrošina lielisku lielapjoma pielāgošanas risinājumu."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="demand-forecasting-overview"></a>Pieprasījuma prognozēšana pārskats
+# <a name="demand-forecasting-overview"></a>Pārskats par pieprasījuma prognozēšanu
 
-Pieprasījuma prognozēšanas tiek izmantota, lai prognozētu debitoru pasūtījumu neatkarīgu pieprasījumu pēc pārdošanas pasūtījumiem un atkarīgos pieprasījums jebkurā atsaistīšanas punktā. Pastiprinātu pieprasījumu budžeta samazināšanas noteikumiem sniedz ideālu risinājumu masu pielāgošanas.
+[!include[banner](../includes/banner.md)]
 
-Lai ģenerētu bāzlīnijas prognozi, vēsturisko transakciju apkopojums tiek nosūtīts uz Microsoft Azure Machine pakalpojumu, ko vieso Azure. Tā kā šis pakalpojums netiek kopīgots starp lietotājiem, to var ērti pielāgot, lai tas atbilstu konkrētas nozares prasībām. Dynamics 365 operācijām var izmantot, lai vizualizēt prognoze, koriģēt budžetu un apskatīt veiktspējas pamatrādītāji (KPI) par prognozes precizitāti.
+
+Pieprasījuma prognozēšanas tiek izmantota, lai prognozētu debitoru pasūtījumu neatkarīgu pieprasījumu pēc pārdošanas pasūtījumiem un atkarīgos pieprasījums jebkurā atsaistīšanas punktā. Uzlabotās pieprasījuma apjoma prognozes samazināšanas kārtulas nodrošina lielisku lielapjoma pielāgošanas risinājumu.
+
+Lai ģenerētu bāzlīnijas prognozi, vēsturisko transakciju apkopojums tiek nosūtīts uz Microsoft Azure Machine pakalpojumu, ko vieso Azure. Tā kā šis pakalpojums netiek kopīgots starp lietotājiem, to var ērti pielāgot, lai tas atbilstu konkrētas nozares prasībām. Varat izmantot programmatūru Dynamics 365 for Operations, lai vizualizētu un pielāgotu prognozi un skatītu prognozes precizitātes izpildes pamatrādītājus (KPI).
 
 ## <a name="key-features-of-demand-forecasting"></a>Pieprasījuma prognozēšanas galvenās funkcijas
 Tālāk ir norādītas dažas pieprasījuma prognozēšanas galvenās funkcijas.
@@ -45,43 +48,45 @@ Tālāk ir norādītas dažas pieprasījuma prognozēšanas galvenās funkcijas.
 ## <a name="major-themes-in-demand-forecasting"></a>Pieprasījuma prognozēšanas galvenās tēmas
 Pieprasījuma prognozēšanā ir ieviestas trīs tālāk norādītās galvenās tēmas.
 
--   **Modularitāte** — pieprasījuma prognozēšanas ir modulārs un viegli konfigurējams process. Var ieslēgt funkcionalitāti un izslēgt, mainot konfigurācijas atslēga pie **tirdzniecības**&gt;**krājumu budžeta**&gt;**pieprasījuma prognozēšanas**.
--   **Atkārtota izmantošana Microsoft steka** – Microsoft uzsāka Machine Learning platform februārī 2015. gadā. Mašīna mācībām, kas tagad ir daļa no Microsoft Cortana Analytics Suite, ļauj ātri un viegli izveidot prognožu analīzi eksperimentus, piemēram, pieprasījuma novērtējums eksperimentus, izmantojot algoritmus R vai Python programmēšanas valodām un vienkāršu vilkšanas un nomešanas lietotāja saskarni.
-    -   Jūs tās varat lejupielādēt Dynamics 365 operācijas pieprasījuma prognozēšanai eksperimentu, tās mainīt, lai apmierinātu jūsu biznesa prasības, tos publicēt kā tīmekļa pakalpojumu par debeszils un izmantot tos, lai radītu pieprasījumu prognozes. Eksperimenti ir pieejami lejupielādei, ja esat iegādājies Dynamics 365 periodiskām darbībām par ražošanas plānotājs kā uzņēmuma līmeņa lietotāja.
-    -   Visi pašlaik pieejamie pieprasījuma apjoma prognozes eksperimenti ir pieejami lejupielādei sadaļā [Cortana Analytics galerija](https://gallery.cortanaanalytics.com/). Tā kā Dynamics 365 operācijas pieprasījuma prognozēšanai eksperimentu automātiski ir integrēti ar Dynamics 365 operācijām, klientiem un partneriem jāuztur eksperimenti, kas tās lejupielādēt no integrācijas [Cortana Analytics galerija](https://gallery.cortanaanalytics.com/). Tādēļ no eksperimentiem [Cortana Analytics galerija](https://gallery.cortanaanalytics.com/) nav tik vienkārša kā Dynamics 365 izmantošanai operāciju pieprasījuma prognozēšanai eksperimentu. Nedrīkst modificēt eksperimentu kodu, tā, ka tiek izmantota Dynamics 365 darbības lietojumprogrammu programmēšanas interfeisu (API).
+-   **Modularitāte** — pieprasījuma prognozēšanas ir modulārs un viegli konfigurējams process. Šo funkciju var ieslēgt un izslēgt, mainot konfigurācijas atslēgu sadaļā **Tirdzniecība** &gt; **Krājumu prognoze** &gt; **Pieprasījuma prognozēšana**.
+-   **Atkārtota Microsoft steka izmantošana** — korporācija Microsoft izlaida algoritmiskās mācīšanās platformu 2015. gada februārī. Algoritmiskā mācīšanās, kas tagad ir daļa no platformas Microsoft Cortana Analytics Suite, sniedz iespēju ātri vienkārši izvietot prognozējošas analīzes eksperimentus, piemēram, pieprasījuma novērtēšanas eksperimentus, izmantojot R algoritmus vai Python programmēšanas valodas un vienkāršu vilkšanas un nomešanas interfeisu.
+    -   Varat lejupielādēt Dynamics 365 for Operations pieprasījuma prognozēšanas eksperimentus, mainīt tos atbilstoši jūsu uzņēmuma prasībām, publicēt tos kā tīmekļa pakalpojumu Azure vietnē un izmantot tos, lai ģenerētu pieprasījuma apjoma prognozes. Eksperimentus var lejupielādēt, ja esat nopircis Dynamics 365 for Operations ražošanas plānotāja abonementu kā uzņēmuma līmeņa lietotājs.
+    -   Visi pašlaik pieejamie pieprasījuma apjoma prognozes eksperimenti ir pieejami lejupielādei sadaļā [Cortana Analytics galerija](https://gallery.cortanaanalytics.com/). Lai gan Dynamics 365 for Operations pieprasījuma prognozēšanas eksperimenti tiek automātiski integrēti programmatūrā Dynamics 365 for Operations, debitoriem un partneriem ir jāveic to eksperimentu integrācija, kas ir lejupielādēti no [Cortana Analytics galerijas](https://gallery.cortanaanalytics.com/). Tāpēc no [Cortana Analytics galerijas](https://gallery.cortanaanalytics.com/) lejupielādēto eksperimentu lietošana ir sarežģītāka nekā Dynamics 365 for Operations pieprasījuma prognozēšanas eksperimentu lietošana. Ir nepieciešams modificēt eksperimentu kodu tā, lai eksperimentiem tiktu izmantots Dynamics 365 for Operations lietojumprogrammas interfeiss (API).
     -   Pakalpojumā Microsoft Azure Machine Learning Studio var izveidot savus eksperimentus, publicēt tos kā Azure pakalpojumus un izmantot tos, lai ģenerētu pieprasījuma apjoma prognozes.
     -   Ja nav nepieciešama augsta veiktspēja vai ja nav jāapstrādā liels datu apjoms, var izmantot pakalpojuma Machine Learning bezmaksas līmeni. Mēs iesakām sākt darbu, izmantojot šo līmeni īpaši ieviešanas un testēšanas fāzes laikā. Ja ir nepieciešama augstāka veiktspēja un papildu krātuves vieta, var izmantot pakalpojuma Machine Learning standarta līmeni. Lai varētu izmantot šo līmeni, ir nepieciešams Azure abonements un jārēķinās ar papildu izmaksām. Lai iegūtu papildu informāciju par pakalpojuma Machine Learning izmaksām, skatiet vietni <http://aka.ms/machine-learning-price-info>.
--   **Budžeta samazināšanas spinu jebkurā** -pieprasījuma prognozēšanas Dynamics 365 par darbības balstās uz šo funkcionalitāti, kas ļauj budžeta atkarīgajiem un neatkarīgajiem pieprasījums jebkurā brīdī atdalīšanu.
+-   **Budžeta samazinājums jebkurā atsaistīšanas punktā** — Dynamics 365 for Operations pieprasījuma prognozēšanas pamatā ir šī funkcija, kas sniedz iespēju prognozēt gan atkarīgo, gan neatkarīgo pieprasījumu jebkurā atsaistīšanas punktā.
 
 ## <a name="basic-flow-in-demand-forecasting"></a>Pieprasījuma prognozēšanas pamata plūsmas
 Šajā diagramma ir redzama pieprasījuma prognozēšanas pamata plūsma. 
 
-[![pieprasījuma prognozēšanas ieviešanas shēma](./media/demand-forecasting-introduction.png)](./media/demand-forecasting-introduction.png)
+[![Pieprasījuma prognozēšanas ievada shēma](./media/demand-forecasting-introduction.png)](./media/demand-forecasting-introduction.png)
 
-Pieprasījuma prognoze, paaudze sāk Dynamics 365 operācijām. Vēsturisko transakciju datus no Dynamics 365 operāciju darījumu bāzes tiek savākti un pieturvietas tabulu aizpilda. Pieturvietas tabulā tiek piegādāta vēlāk Machine Learning pakalpojumu. Veicot minimālu pielāgošanu, pieturvietas tabulu var pievienot dažādus datu avotus. Datu avotiem var ietvert Microsoft Excel failus, komatatdalīto vērtību (CSV) failus un datus no Microsoft Dynamics AX 2009 un Microsoft Dynamics AX 2012. Tāpēc jūs varat izveidot pieprasījuma prognozes, ko uzskata par vēsturiskiem datiem, kas ir sadalīts starp vairākām sistēmām. Tomēr pamatdatiem, piemēram, krājumu nosaukumiem un mērvienībām, ir jābūt vienādiem visos dažādajos datu avotos.
+Pieprasījuma apjoma prognozes ģenerēšana sākas programmatūrā Dynamics 365 for Operations. Tiek apkopoti Dynamics 365 for Operations transakciju datu bāzē pieejamie vēsturiskie transakciju dati, un ar tiem tiek aizpildīta izstrādāšanas tabula. Vēlāk izstrādāšanas tabula tiek nodota algoritmiskās mācīšanās pakalpojumam. Veicot nelielus pielāgojumus, varat pievienot izveidošanas tabulai dažādus datu avotus. Kā datu avotus varat izmantot Microsoft Excel failus, komatatdalīto vērtību (CSV) failus un Microsoft Dynamics AX 2009 un Microsoft Dynamics AX 2012 datus. Tāpēc varat ģenerēt pieprasījuma apjoma prognozes, izmantojot vairākās sistēmās glabātos vēsturiskos datus. Tomēr pamatdatiem, piemēram, krājumu nosaukumiem un mērvienībām, ir jābūt vienādiem visos dažādajos datu avotos.
 
-Ja izmantojat Dynamics 365 operācijas pieprasījuma prognozēšanas Machine Learning eksperimentus, viņi meklē atbilstošāko starp pieciem laikrindu prognozēšanas metodes, lai aprēķinātu bāzes prognoze. Šīs prognozēšanas metodes parametriem tiek pārvaldītas Dynamics 365 operācijām. 
+Ja izmantojat Dynamics 365 for Operations pieprasījuma prognozēšanas algoritmiskās mācīšanās eksperimentus, bāzlīnijas prognozes aprēķināšanai tiek meklēta atbilstošākā no piecām laika sērijas prognozēšanas metodēm. Šo prognozēšanas metožu parametrus var pārvaldīt programmatūrā Dynamics 365 for Operations. 
 
-Prognozes, vēsturiskajiem datiem un visas izmaiņas, kas tika veiktas iepriekšējās iterācijas pieprasījuma prognozes pēc tam ir pieejami Dynamics 365 operācijām. 
+Pēc tam prognozes, vēsturiskie dati un jebkādas iepriekšējo iterāciju pieprasījuma apjoma prognožu izmaiņas ir pieejamas programmatūrā Dynamics 365 for Operations. 
 
-Dynamics 365 operācijām var izmantot, lai vizualizētu un modificēt bāzlīnijas prognozes. Pirms prognožu izmantošanas plānošanai manuālās korekcijas ir jāapstiprina.
+Varat izmantot programmatūru Dynamics 365 for Operations, lai vizualizētu un modificētu bāzlīnijas prognozes. Pirms prognožu izmantošanas plānošanai manuālās korekcijas ir jāapstiprina.
 
 ## <a name="limitations"></a>Ierobežojumi
-Pieprasījuma prognozēšana programmā Dynamics 365 operācijām ir rīks, kas palīdz klientiem pārstrādājošās rūpniecības izveidotu prognozēšanas procesu. Tā piedāvā pieprasījuma prognozēšanas risinājumu pamata funkcionalitāti, un ir projektēts tā, ka to var viegli paplašināt. Pieprasījuma prognozēšana, varētu būt labākais piemērots klientiem rūpniecības nozarēs, piemēram, mazumtirdzniecība, vairumtirdzniecība, noliktavu, transporta vai citi profesionālie pakalpojumi.
+Pieprasījuma prognozēšana programmatūrā Dynamics 365 for Operations ir rīks, kas palīdz ražošanas nozares debitoriem izveidot prognozēšanas procesus. Šis rīks nodrošina galvenās pieprasījuma prognozēšanas risinājuma funkcijas un ir izstrādāts tā, lai to varētu viegli paplašināt. Iespējams, ka pieprasījuma prognozēšana nav pilnībā piemērota debitoriem, piemēram, mazumtirdzniecības, vairumtirdzniecības, noliktavu, transportēšanas vai citu profesionālo pakalpojumu nozarēs.
 
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Demand forecasting setup](demand-forecasting-setup.md)
+[Pieprasījuma prognozēšanas iestatīšana](demand-forecasting-setup.md)
 
-[Generating a statistical baseline forecast](generate-statistical-baseline-forecast.md)
+[Statistiskās bāzlīnijas prognozes ģenerēšana](generate-statistical-baseline-forecast.md)
 
-[Making manual adjustments to the baseline forecast](manual-adjustments-baseline-forecast.md)
+[Manuālu bāzlīnijas prognozes korekciju veikšana](manual-adjustments-baseline-forecast.md)
 
-[Authorizing the adjusted forecast](authorize-adjusted-forecast.md)
+[Koriģētās prognozes autorizēšana](authorize-adjusted-forecast.md)
 
-[Monitoring forecast accuracy](monitor-forecast-accuracy.md)
+[Prognozes precizitātes pārraudzība](monitor-forecast-accuracy.md)
 
-[Remove outliers from historical transaction data when calculating a demand forecast](remove-historical-outliers-calculating-demand-forecast.md)
+[Novirzes punktu noņemšana no vēsturiskiem transakciju datiem, aprēķinot pieprasījuma apjoma prognozi](remove-historical-outliers-calculating-demand-forecast.md)
+
+
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Apstiprināt un apstiprinātu pirkšanas pasūtījumus"
+title: "Pirkšanas pasūtījumu apstiprināšana un ratificēšana"
 description: "Šajā rakstā ir aprakstīti statusi, kas pirkšanas pasūtījumam (PP) tiek piešķirti pēc tam, kad tas ir izveidots, un pirkšanas pasūtījumu izmaiņu pārvaldības iespējošanas sekas."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="approve-and-confirm-purchase-orders"></a>Apstiprināt un apstiprinātu pirkšanas pasūtījumus
+# <a name="approve-and-confirm-purchase-orders"></a>Pirkšanas pasūtījumu apstiprināšana un ratificēšana
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir aprakstīti statusi, kas pirkšanas pasūtījumam (PP) tiek piešķirti pēc tam, kad tas ir izveidots, un pirkšanas pasūtījumu izmaiņu pārvaldības iespējošanas sekas.
 
@@ -73,12 +76,14 @@ Kad pasūtījums ir ratificēts, to vairs nevar izdzēst. Taču varat atcelt kop
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Pārskats par pirkšanas pasūtījumu](purchase-order-overview.md)
 
-[Purchase order creation](purchase-order-creation.md)
+[Pirkšanas pasūtījuma izveide](purchase-order-creation.md)
 
 [Produktu ieejas plūsma pret pirkšanas pasūtījumiem](product-receipt-against-purchase-orders.md)
 
 [Kreditoru rēķinu apskats](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

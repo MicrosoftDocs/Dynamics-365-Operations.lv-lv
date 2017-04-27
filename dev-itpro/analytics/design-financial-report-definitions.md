@@ -30,7 +30,7 @@ ms.lasthandoff: 03/29/2017
 
 Šajā rakstā ir sniegta informācija par atskaišu definīcijām. Atskaites definīcija ir atskaites komponents (jeb veidošanas bloks), kas izmanto rindas definīciju, kolonnas definīciju un papildu atskaišu koka definīciju, lai izveidotu atskaiti. Atskaites definīcija arī sniedz opcijas un iestatījumus, kas noder atskaites pielāgošanai. 
 
-Atskaites definīcija ir atskaites komponents (jeb veidošanas bloks), kas izmanto rindas definīciju, kolonnas definīciju un papildu atskaišu koka definīciju, lai izveidotu atskaiti. Definīcijas atskaiti nodrošina arī opcijas un iestatījumus, kurus var izmantot, lai pielāgotu atskaiti. Pēc tam, kad jūs nosakiet rindu definīcijas un kolonnu definīcijas, tās nedrīkst kombinēt pārskata definīcijā. Šajā brīdī jūs definējat arī citus definīcijas aspektus, piemēram detalizācijas līmeni un pārskata datumu. Tad varat saglabāt un izveidot atskaiti. Finanšu atskaišu veidošana piedāvā šādus detalizētības līmeņus:
+Atskaites definīcija ir atskaites komponents (jeb veidošanas bloks), kas izmanto rindas definīciju, kolonnas definīciju un papildu atskaišu koka definīciju, lai izveidotu atskaiti. Pārskata definīcija nodrošina arī opcijas un iestatījumus, ko varat izmantot, lai pielāgotu pārskatu. Pēc tam, kad jūs nosakiet rindu definīcijas un kolonnu definīcijas, tās nedrīkst kombinēt pārskata definīcijā. Šajā brīdī jūs definējat arī citus definīcijas aspektus, piemēram detalizācijas līmeni un pārskata datumu. Tad varat saglabāt un izveidot atskaiti. Finanšu atskaišu veidošana piedāvā šādus detalizētības līmeņus:
 
 -   Finanšu
 -   Finanšu un konta
@@ -89,6 +89,6 @@ Tomēr, atkarībā no tā, kā dati tiek saglabāti Microsoft Dynamics ERP sist�
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Finanšu pārskatu Microsoft Dynamics 365 operācijām](financial-reporting-intro.md)
+[Finanšu pārskatu veidošana programmai Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
 
 

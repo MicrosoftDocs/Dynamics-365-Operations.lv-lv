@@ -1,6 +1,6 @@
 ---
 title: "Peļņas vai zaudējumu aprēķina finanšu pārskats"
-description: "Šajā rakstā ir izklāstīts, noklusējuma atskaite par ienākumu deklarācijām. Tā arī apraksta veidošanas bloku, kas saistīts ar šo ziņojumu."
+description: "Šajā rakstā ir aprakstīts peļņas vai zaudējumu aprēķina noklusējuma pārskats. Tajā ir aprakstīti arī ar šo pārskatu saistītie veidošanas bloki."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="income-statement-financial-report"></a>Peļņas vai zaudējumu aprēķina finanšu pārskats
 
-Šajā rakstā ir izklāstīts, noklusējuma atskaite par ienākumu deklarācijām. Tā arī apraksta veidošanas bloku, kas saistīts ar šo ziņojumu. 
+[!include[banner](../includes/banner.md)]
+
+
+Šajā rakstā ir aprakstīts peļņas vai zaudējumu aprēķina noklusējuma pārskats. Tajā ir aprakstīti arī ar šo pārskatu saistītie veidošanas bloki. 
 
 <a name="default-income-statement-report"></a>Noklusējuma peļņas vai zaudējumu aprēķina pārskats
 -------------------------------
@@ -61,10 +64,12 @@ Kolonnu definīcijas satur dažādu veidu kolonnas, lai sniegtu dažāda līmeņ
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[Finanšu pārskati](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Finanšu pārskatu skatīšana](view-financial-reports.md)
 
-[Dinamika finanšu pārskata Blog](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Dynamics finanšu pārskatu emuārs](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="transportation-management-engines"></a>Transportēšanas pārvaldības programmas
 
+[!include[banner](../includes/banner.md)]
+
+
 Transportēšanas pārvaldības programmas definē loģiku, ko izmanto, lai izveidotu un apstrādātu transportēšanas likmes transportēšanas pārvaldības procesā. 
 
 Transportēšanas pārvaldības programma aprēķina uzdevumus, piemēram, pārvadātāja transportēšanas likmi. Programmas sistēma ļauj mainīt aprēķina stratēģijas izpildlaikā, pamatojoties uz Microsoft Dynamics 365 for Operations datiem. Transportēšanas pārvaldības programma līdzinās spraudnim, kas attiecas uz konkrēta pārvadātāja līgumu.
@@ -58,7 +61,7 @@ Lai transportēšanas pārvaldības programma darbotos noteiktā veidā, tai ir 
 Vairumā gadījumu, lai konfigurētu inicializēšanas datus, varat noklikšķināt uz transportēšanas pārvaldības programmas iestatīšanas veidlapā esošās pogas **Parametri**. **Tādas likmes noteikšanas programmas konfigurēšana, kurā ir atsauce uz attāluma noteikšanas programmu** Tālāk sniegtajā piemērā ir aprakstīta iestatīšana, kas ir nepieciešama likmes noteikšanas programmai, kuras pamatā ir .NET programmas tips Microsoft.Dynamics.Ax.Tms.Bll.MileageRateEngine un kurā ir atsauce uz attāluma noteikšanas programmu.
 | Parametrs             | Apraksts                                                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *RateBaseAssigner*    | .NET veids, kas izskaidro likmes bāzes piešķires datus konkrētai shēmai. Parametra vērtība sintaksi, kas sastāv no diviem segmentiem, kas atdalīti ar vertikālu joslu (|). Pirmajā segmentā ir norādīts montāžas nosaukums, kas definē piešķīrēja veidu. Otrajā segmentā ir definēts pilnībā kvalificēta piešķīrēja veida nosaukums. Tiek ietverta arī veida nosaukumvieta. |
+| *RateBaseAssigner*    | .NET veids, kas izskaidro likmes bāzes piešķires datus konkrētai shēmai. Parametra vērtības sintakse sastāv no diviem segmentiem, kas ir atdalīti ar vertikālo joslu (|). Pirmajā segmentā ir norādīts montāžas nosaukums, kas definē piešķīrēja veidu. Otrajā segmentā ir definēts pilnībā kvalificēta piešķīrēja veida nosaukums. Tiek ietverta arī veida nosaukumvieta. |
 | *MileageEngineCode*   | Attāluma noteikšanas programmas kods, kas identificē attāluma noteikšanas programmas ierakstu Microsoft Dynamics 365 for Operations datu bāzē.                                                                                                                                                                                                                                                             |
 | *ApportionmentEngine* | Vispārīgās programmas kods, kas identificē norīkojuma programmas ierakstu Microsoft Dynamics 365 for Operations bāzē.                                                                                                                                                                                                                                                              |
 
@@ -87,7 +90,7 @@ Dažādām transportēšanas pārvaldības programmām metadatus konfigurē atš
 | **Pārvadājumu ilguma noteikšanas programma** un **attāluma noteikšanas programma** | Izgūst metadatus tieši no attāluma noteikšanas programmas konfigurācijas iestatījumu formas.                                                                                                                                                                                                                                                                                                                                                                                  |
 
   **Likmes noteikšanas programmas metadatu piemērs** Transportēšanas pārvaldības programmā ir jānorāda sūtījuma izcelsmes adrese, galamērķa administratīvais apgabals un valsts/reģions un sākuma un beigu punkts. Izmantojot šīs prasības, metadati izskatīsies kā tālāk sniegtajā tabulā norādītie dati. Tabulā ir sniegta arī informācija par nepieciešamo datu veidu.
--   Definējiet šo informāciju **transporta pārvaldības**&gt;**Setup** par **likmes bāzes tips** lapu.
+-   Definējiet šo informāciju sadaļā **Transportēšanas pārvaldība** &gt; **Iestatīšana** lapā **Likmes bāzes veids**.
 
 | Sērija | Vārds, uzvārds                          | Lauka tips | Datu tips | Uzmeklēšanas tips    | Obligāts |
 |----------|-------------------------------|------------|-----------|----------------|-----------|
@@ -96,6 +99,8 @@ Dažādām transportēšanas pārvaldības programmām metadatus konfigurē atš
 | 3        | Galamērķa sākuma pasta indekss | Piešķire | Virkne    | Pasta indekss    | Atlasīts  |
 | 4.        | Galamērķa beigu pasta indekss   | Piešķire | Virkne    | Pasta indekss    | Atlasīts  |
 | 5.        | Galamērķa valsts           | Piešķire | Virkne    | Valsts/reģions |           |
+
+
 
 
 

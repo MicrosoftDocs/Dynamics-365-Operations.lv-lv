@@ -1,6 +1,6 @@
 ---
 title: "Moduļa “Parādi kreditoriem” sākumlapa"
-description: "Šajā tēmā ir sniegts pārskats par kreditoriem."
+description: "Šajā tēmā ir sniegts apskats par moduli Parādi kreditoriem."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,8 +27,13 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounts-payable-home-page"></a>Moduļa “Parādi kreditoriem” sākumlapa
 
-Šajā tēmā ir sniegts pārskats par kreditoriem.
+[!include[banner](../includes/banner.md)]
 
-Kreditoru rēķinus varat ievadīt manuāli vai saņemt tos elektroniski, izmantojot datu elementu. Pēc rēķiniem ir ievadīta vai saņēma, varat pārskatīt un apstiprināt rēķinus, izmantojot rēķinu apstiprinājumu žurnāla vai **kreditora rēķina** lapā. Varat izmantot rēķinu salīdzināšanu, kreditoru rēķinu ierobežojumus un darbplūsmu, automatizējot pārskatīšanas procesu tā, lai rēķini, kas atbilst noteiktiem kritērijiem, tiktu automātiski apstiprināti, bet pārējie rēķini tiktu atzīmēti ar karodziņu, lai tos pārskatītu autorizēts lietotājs.
+
+Šajā tēmā ir sniegts apskats par moduli Parādi kreditoriem. 
+
+Kreditoru rēķinus varat ievadīt manuāli vai saņemt tos elektroniski, izmantojot datu elementu. Kad rēķini ir ievadīti vai saņemti, varat tos pārskatīt un apstiprināt, izmantojot rēķinu apstiprināšanas žurnālu vai lapu **Kreditora rēķins**. Varat izmantot rēķinu salīdzināšanu, kreditoru rēķinu ierobežojumus un darbplūsmu, automatizējot pārskatīšanas procesu tā, lai rēķini, kas atbilst noteiktiem kritērijiem, tiktu automātiski apstiprināti, bet pārējie rēķini tiktu atzīmēti ar karodziņu, lai tos pārskatītu autorizēts lietotājs.
+
+
 
 

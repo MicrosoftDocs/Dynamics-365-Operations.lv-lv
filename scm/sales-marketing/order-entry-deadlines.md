@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="order-entry-deadlines"></a>Pasūtījumu izveides termiņi
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegta informācija par pasūtījuma izveides termiņiem. Pasūtījuma izveides termiņš ir pēdējais laiks, kas nosaka, vai debitora pasūtījums tiek apstrādāts (un izpildīts) tā, it kā tas būtu jāsaņem šodien vai nākamajā dienā.
 
 Daudzos uzņēmumos attiecīgajā dienā tiek apstrādāti tikai tie pārdošanas pasūtījumi, kas saņemti pirms noteikta dienas laika. Visi pasūtījumi, kas tiek saņemti pēc šī laika, tiek apstrādāti kā nākamajā darba dienā saņemti pasūtījumi. Šis pēdējais laiks pasūtījumiem tiek dēvēts par pasūtījuma izveides termiņu.  
 
-Pasūtījuma izveides termiņi tiek izmantoti kā ievades dati pasūtījumu solīšanai. Šie termiņi ir noderīgi klientu informēšanai par pasūtījumu piegādes laiku. Piemēram, klienti var redzēt, ka, veicot pasūtījumu pie jums pirms noteikta laika, jūs apņematies veikt preču piegādi tajā pašā dienā. Tomēr, ja viņi garām šim termiņam, viņi var sagaidīt tikai nākamajā darba dienā pēc nosūtīšanas. Iestatāt pārdošanas ierakstu termiņus, balstoties uz jūsu noliktavu iespējas un pārvadātājam nosūtīšanas grafikus.  
+Pasūtījuma izveides termiņi tiek izmantoti kā ievades dati pasūtījumu solīšanai. Šie termiņi ir noderīgi klientu informēšanai par pasūtījumu piegādes laiku. Piemēram, klienti var redzēt, ka, veicot pasūtījumu pie jums pirms noteikta laika, jūs apņematies veikt preču piegādi tajā pašā dienā. Taču, ja viņi nokavē šo termiņu, viņi saņems sūtījumu tikai nākamajā darba dienā. Pasūtījumu izveides termiņi ir jāiestata, pamatojoties uz noliktavas iespējām un sūtījumu pārvadātāja grafikiem.  
 
 Lapā **Pasūtījumu izveides termiņi** iestatiet pasūtījumu izveides beigu termiņa laikus visām nedēļas dienām. Ja pasūtījumi tiek saņemti pēc šiem norādītajiem laikiem, tie tiks apstrādāti kā nākamajā darba dienā saņemti pasūtījumi. Pēc noklusējuma šie laiki ir iestatīti uz 23.59, proti, vienu minūti pirms pusnakts attiecīgās dienas beigās. Noklusētos laikus var mainīt, lai tie atbilstu faktiskajiem nosūtīšanas vai saņemšanas beigu termiņa laikiem.  
 
@@ -43,7 +46,7 @@ Ja jūsu uzņēmums darbojas vairākās vietās, katrai no tām varat iestatīt 
 Lapā **Aktivizēt pasūtījumu izveides termiņu kombinācijas** definējiet atļautās vietu un pasūtījumu izveides termiņu grupu kombinācijas.
 
 ## <a name="example-order-entry-deadline"></a>Piemērs. Pasūtījumu izveides termiņš
-Pasūtījumu izveides termiņš otrdienās noteikts uz 16.00. Konkrētā otrdienā plkst. 17.00 mēģiniet iestatīt pašreizējo datumu kā nosūtīšanas datumu. (Ņemiet vērā, ka šis piemērs nav izpildes laiku.) Ja **piegādes datuma kontroles** izvēles rūtiņa ir atzīmēta, saņemat brīdinājumu, kas norāda, ka datums nav derīgs. Šis brīdinājums tiks parādīts lapā **Pieejamie nosūtīšanas un saņemšanas datumi**, kur pēc tam varēsit izvēlēties citus datumus.
+Pasūtījumu izveides termiņš otrdienās noteikts uz 16.00. Konkrētā otrdienā plkst. 17.00 mēģiniet iestatīt pašreizējo datumu kā nosūtīšanas datumu. (Ņemiet vērā, ka šī piemēra ietvaros nav izpildes laika.) Ja ir atzīmēta izvēles rūtiņa **Piegādes datuma kontrole**, saņemat brīdinājumu par to, ka datums nav derīgs. Šis brīdinājums tiks parādīts lapā **Pieejamie nosūtīšanas un saņemšanas datumi**, kur pēc tam varēsit izvēlēties citus datumus.
 
 ## <a name="example-different-order-entry-deadlines-per-site"></a>Piemērs. Katrā vietā citi pasūtījumu izveides termiņi
 Jūsu uzņēmumam ir divas atrašanās vietas. Vietas atrodas dažādās laika joslās, kā parādīts turpmākajā tabulā.
@@ -55,7 +58,7 @@ Jūsu uzņēmumam ir divas atrašanās vietas. Vietas atrodas dažādās laika j
 
 A un B vieta ir definējusi šādus pasūtījumu izveides termiņus.
 
-| Nedēļas diena             | : Pasūtījumu ievades termiņus (PST) | B piespriest ievades termiņus (EST) |
+| Nedēļas diena             | A: pasūtījumu izveides termiņi (PST) | B: pasūtījumu izveides termiņi (EST) |
 |-----------------------------|--------------------------------|--------------------------------|
 | Pirmdiena                      | 13.00                          | 14.00                          |
 | Otrdiena                     | 13.00                          | 14.00                          |
@@ -67,7 +70,7 @@ Jūs esat pasūtījumu operators Jutā, kur laika josla ir MST (Kalnu standarta 
 
 Tabulā parādīts, kā pasūtījumu izveides termiņi A un B vietā tiek pārveidoti uz MST laiku.
 
-| Vietu: PST         | Vietu a MST        | Vieta b EST           | Vieta b MST        |
+| A vieta: PST         | A vieta: MST        | B vieta: EST           | B vieta: MST        |
 |---------------------|--------------------|-----------------------|--------------------|
 | 13.00               | 14.00              | 14.00                 | 12.00              |
 
@@ -95,7 +98,7 @@ Jūs esat pasūtījumu operators Jūtā, kur laika josla ir MST. Tādēļ, pieņ
 
 Tabulā parādīts, kā pasūtījumu izveides termiņi A un B vietā tiek pārveidoti uz MST laiku.
 
-| Vietu: PST         | Vietu a MST        | Vieta b EST           | Vieta b MST        |
+| A vieta: PST         | A vieta: MST        | B vieta: EST           | B vieta: MST        |
 |---------------------|--------------------|-----------------------|--------------------|
 | 13.00               | 14.00              | 13.00                 | 11.00              |
 
@@ -104,6 +107,8 @@ Tabulā parādīts, kā pasūtījumu izveides termiņi A un B vietā tiek pārve
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Delivery schedules](delivery-schedules.md)
+[Piegādes grafiki](delivery-schedules.md)
+
+
 
 

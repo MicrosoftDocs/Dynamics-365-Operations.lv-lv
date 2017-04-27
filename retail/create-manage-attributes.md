@@ -1,6 +1,6 @@
 ---
 title: "Izveidot un pārvaldīt atribūtus"
-description: "Šajā rakstā ir aprakstīts Microsoft Dynamics 365 operācijām atribūtus. Atribūti ļauj aprakstīt preci un tās raksturīgās iezīmes, izmantojot lietotāja definētos laukus."
+description: "Šajā rakstā ir aprakstīti atribūti programmatūrā Microsoft Dynamics 365 for Operations. Atribūti ļauj aprakstīt preci un tās raksturīgās iezīmes, izmantojot lietotāja definētos laukus."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-and-manage-attributes"></a>Izveidot un pārvaldīt atribūtus
 
-Šajā rakstā ir aprakstīts Microsoft Dynamics 365 operācijām atribūtus. Atribūti ļauj aprakstīt preci un tās raksturīgās iezīmes, izmantojot lietotāja definētos laukus.
+Šajā rakstā ir aprakstīti atribūti programmatūrā Microsoft Dynamics 365 for Operations. Atribūti ļauj aprakstīt preci un tās raksturīgās iezīmes, izmantojot lietotāja definētos laukus.
 
 Atribūti ļauj aprakstīt preci un tās raksturīgās iezīmes, izmantojot lietotāja definētos laukus. Piemēram, jūs varat norādīt produkta atmiņas lielumu un cietā diska jaudu, un norādīt, vai prece ir atbilstoša Energy star programmai. Atribūtus var saistīt ar dažādām mazumtirdzniecības vienībām, piemēram, preču kategorijām un mazumtirdzniecības kanāliem, tiem var iestatīt noklusētās vērtības. Preces pārmanto to atribūtus un atribūtu noklusējuma vērtības, ja tie ir saistīti ar preču kategorijām vai mazumtirdzniecības kanāliem. Noklusējuma vērtības var būt ignorētas individuālas preces līmenī, mazumtirdzniecības kanāla līmenī vai mazumtirdzniecības katalogā.
 
@@ -130,49 +130,49 @@ Kineskopa garantija
 
 **12**
 
-\#Projekcijas caurules
+\# kineskopu skaits
 
 **1**–**5**
 
 **3**
 
 ## <a name="attribute-type"></a>Atribūta tips
-  [![atribūtu fiksēta kopija](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) atribūti ir balstīti uz atribūta tipu. Atribūta veidi norāda datu veidu, ko var ievadīt noteiktam atribūtam. Šobrīd Microsoft Dynamics 365 operāciju atbalsta šādus atribūtu veidus:
+  [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) Atribūti ir balstīti uz atribūtu tipiem. Atribūta veidi norāda datu veidu, ko var ievadīt noteiktam atribūtam. Šobrīd Microsoft Dynamics 365 for Operations atbalsta tālāk aprakstītos atribūtu tipus.
 
 -   **Valūta** – šī atribūta veids atbalsta valūtas vērtības. Tas var būt saistīts (var atbalstīt vērtību diapazonu), vai tas var palikt atklāts.
 -   **DateTime** – šī atribūta veids atbalsta datuma un laika vērtības. Tas var būt saistīts (var atbalstīt vērtību diapazonu), vai tas var palikt atklāts.
 -   **Decimāls** – šī atribūta veids atbalsta skaitliskās vērtības, kas ietver decimāldaļskaitļu vietas. Tas atbalsta arī mērvienības. Tas var būt saistīts (var atbalstīt vērtību diapazonu), vai tas var palikt atklāts.
 -   **Vesels skaitlis** – šī atribūta veids atbalsta skaitliskas vērtības. Tas atbalsta arī mērvienības. Tas var būt saistīts (var atbalstīt vērtību diapazonu), vai tas var palikt atklāts.
 -   **Teksts** – šī atribūta veids atbalsta teksta vērtības. Tā atbalsta arī iepriekš definētu iespējamo vērtību kopu (uzskaitījums).
--   **Būla** – šī atribūta tips atbalsta binārām vērtībām (**patieso**/**viltus**).
+-   **Būla** – šis atribūta tips atbalsta binārās vērtības (**patiess**/**aplams**).
 -   **Atsauce**.
 
 ## <a name="attribute"></a>Atribūts
-  [![createandmanageattribute-8](./media/createandmanageattribute-8.png)](./media/createandmanageattribute-8.png) papildus nosaukumu, draudzīgo nosaukumu, aprakstu un palīdzības teksts, viens vai vairāki no šādiem informācijas veidiem var skenēt atribūta:
+  [![createandmanageattribute-8](./media/createandmanageattribute-8.png)](./media/createandmanageattribute-8.png) Papildus nosaukumam, draudzīgam nosaukumam, aprakstam un palīdzības tekstam, atribūtam var tikt tverti viens vai vairāki no tālāk norādītajiem informācijas tipiem.
 
 -   Noklusējuma vērtība
 -   Atribūta metadati, piemēram, metadati, kas norāda, vai atribūtu var meklēt, precizēt vai kārtot
 
 ## <a name="attribute-group"></a>Atribūtu grupa
-  [![createandmanageattribute 10](./media/createandmanageattribute-10.png)](./media/createandmanageattribute-10.png) pēc tam, kad ir definēti atribūti, tās var iedalīt atribūtu grupām. Atribūtu grupas norāda atsevišķu atribūtu grupējumus un var būt piešķirtas mazumtirdzniecības kategorijām vai mazumtirdzniecības kanāliem.
+  [![createandmanageattribute-10](./media/createandmanageattribute-10.png)](./media/createandmanageattribute-10.png) Kad atribūti ir definēti, tos var grupēt atribūtu grupās. Atribūtu grupas norāda atsevišķu atribūtu grupējumus un var būt piešķirtas mazumtirdzniecības kategorijām vai mazumtirdzniecības kanāliem.
 
 ## <a name="assigning-attribute-groups-to-retail-categories"></a>Atribūtu grupu piešķiršana mazumtirdzniecības kategorijām
-  [![createandmanageattribute 12](./media/createandmanageattribute-12.png)](./media/createandmanageattribute-12.png) viens vai vairāki atribūtu grupām var būt saistīta ar mazumtirdzniecības preču kategorijas hierarhijas kategorijā zaros. Kad preces ir sadalītas kategorijās, tās manto atribūtus, kas ir iekļautas atribūtu grupās.
+  [![createandmanageattribute-12](./media/createandmanageattribute-12.png)](./media/createandmanageattribute-12.png) Vienu vai vairākas atribūtu grupas var saistīt ar kategoriju zariem mazumtirdzniecības preču kategoriju hierarhijā. Kad preces ir sadalītas kategorijās, tās manto atribūtus, kas ir iekļautas atribūtu grupās.
 
 ## <a name="assigning-attribute-groups-to-retail-stores"></a>Atribūtu grupu piešķiršana mazumtirdzniecības veikaliem
-  [![createandmanageattribute 13 1024 x 576](./media/createandmanageattribute-13-1024x576.png)](./media/createandmanageattribute-13-1024x576.png) viens vai vairāki atribūtu grupām var būt saistīta ar viena vai vairāku mazumtirdzniecības veikalu mazumtirdzniecības veikali hierarhijā. Kad preces ir bagātinātas noteiktiem mazumtirdzniecības veikaliem, tās manto atribūtus, kas ir iekļauti atribūtu grupās.
+  [![createandmanageattribute-13-1024x576](./media/createandmanageattribute-13-1024x576.png)](./media/createandmanageattribute-13-1024x576.png) Vienu vai vairākas atribūtu grupas var saistīt ar vienu vai vairākiem mazumtirdzniecības veikalu zariem mazumtirdzniecības veikalu hierarhijā. Kad preces ir bagātinātas noteiktiem mazumtirdzniecības veikaliem, tās manto atribūtus, kas ir iekļauti atribūtu grupās.
 
 ## <a name="overriding-attribute-values"></a>Atribūta vērtību ignorēšāna
 ### <a name="at-the-product-level"></a>Preču līmenī
 
-  [![createandmanageattribute 14 1024 x 576](./media/createandmanageattribute-14-1024x576.png)](./media/createandmanageattribute-14-1024x576.png) atribūtu noklusējuma vērtības var ignorēt produktu līmenī (t.i., atsevišķiem produktiem).
+  [![createandmanageattribute-14-1024x576](./media/createandmanageattribute-14-1024x576.png)](./media/createandmanageattribute-14-1024x576.png) Atribūtu noklusējuma vērtības var ignorēt preces līmenī (t.i., atsevišķām precēm).
 
 ### <a name="in-a-retail-catalog"></a>Mazumtirdzniecības katalogā
 
-  [![createandmanageattribute-2](./media/createandmanageattribute-2.png)](./media/createandmanageattribute-2.png) atribūtu noklusējuma vērtības var ignorēt atsevišķiem produktiem, īpaši katalogos, kas paredzēti specifiskiem mazumtirdzniecības kanāliem.
+  [![createandmanageattribute-2](./media/createandmanageattribute-2.png)](./media/createandmanageattribute-2.png) Atribūtu noklusējuma vērtības var ignorēt atsevišķām precēm noteiktos katalogos, kas ir paredzēti specifiskiem mazumtirdzniecības kanāliem.
 
 ### <a name="at-the-retail-channel-level"></a>Mazumtirdzniecības kanāla līmenī
 
-  [![createandmanageattribute-1](./media/createandmanageattribute-1.jpg)](./media/createandmanageattribute-1.jpg) atribūtu noklusējuma vērtības var ignorēt atsevišķiem produktiem, īpaši katalogos, kas paredzēti specifiskiem mazumtirdzniecības kanāliem.
+  [![createandmanageattribute-1](./media/createandmanageattribute-1.jpg)](./media/createandmanageattribute-1.jpg) Atribūtu noklusējuma vērtības var ignorēt atsevišķām precēm noteiktos katalogos, kas ir paredzēti specifiskiem mazumtirdzniecības kanāliem.
 
 

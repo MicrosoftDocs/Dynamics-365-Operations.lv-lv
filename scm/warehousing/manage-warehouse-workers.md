@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manage-warehouse-workers"></a>Noliktavu darbinieku pārvaldība
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā aprakstīts, kā izmantot Microsoft Dynamics AX, lai palīdzētu kontrolēt un pārraudzīt darbu, ko veic darbinieki jūsu noliktavās.
 
 Ja jūs izmantojat funkcionalitāti Noliktavas pārvaldībā, visas noliktavas darbinieka operācijas tiek sauktas par *darbu*. Tāds darbs kā rīcībā esošo krājumu izdošana, pārvietošana un uzskaite tiek reģistrēts, izmantojot mobilās ierīces. Pirms noliktavas darbinieks var veikt darbu, viņam ir jābūt saistītam ar darbinieku Personāla vadībā. Ar katru **Darbinieka** kontu var būt saistīti vairāki noliktavas darba lietotāji. Šie darba lietotāji var strādāt dažādās noliktavās un tiem var būt dažādi piekļuves līmeņi dažādām mobilās ierīces izvēlnēm. Noliktavas darba lietotājus var uzskatīt par vairākām pieteikšanām atlasītajam darbiniekam. Katram darba lietotājam ir noklusētā noliktava, un noteiktas darbplūsmas tiek atklātas caur izvēlnes elementiem, kas ir pieejami šī darba lietotājam. 
@@ -51,6 +54,8 @@ Laika, ko izmanto, lai apstrādātu darba vienumus, analīze var palīdzēt orga
 
 -   **Darbspēks pēc lietotāja** — šis pārskats parāda darbinieku darba ražīgumu, pamatojoties uz faktisko laiku, salīdzinot ar plānoto laiku.
 -   **Darbaspēks pēc darba transakcijas veida** — varat izmantot šo pārskatu, lai izpētītu neefektivitāti konkrētos noliktavas procesos. Piemēram, jūs pamanāt, ka pārsūtīšanas pasūtījumu izdošanai šonedēļ ir vajadzīgs ilgāks laiks nekā iepriekšējās nedēļas. Pēc tam šo informāciju var izmantot turpmākai izmeklēšanai.
+
+
 
 
 

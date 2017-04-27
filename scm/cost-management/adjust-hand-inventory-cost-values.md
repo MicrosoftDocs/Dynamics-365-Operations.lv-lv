@@ -28,19 +28,24 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="adjust-on-hand-inventory-cost-values"></a>Rīcībā esošo krājumu izmaksu vērtību koriģēšana
 
+[!include[banner](../includes/banner.md)]
+
+
 Lapu Rīcībā esošo krājumu koriģēšana var izmantot, lai pēc krājumu slēgšanas procesa palaišanas koriģētu rīcībā esošo krājumu daudzuma izmaksu vērtību.
 
-Lapu **Rīcībā esošo krājumu koriģēšana** var izmantot, lai koriģētu rīcībā esošo krājumu daudzuma izmaksu vērtību pēc krājumu slēgšanas procesa palaišanas. **Piezīme:** atvērt **pieejamo krājumu korekcija** lapa par **slēgšanas un pielāgošanas** lapu, atlasiet pabeigto krājumu tuvu procesa ieraksts un pēc tam noklikšķiniet uz **korekciju**&gt;**rīcībā**. **Piemērs.** Februārī jums ir šādas transakcijas:
+Lapu **Rīcībā esošo krājumu koriģēšana** var izmantot, lai koriģētu rīcībā esošo krājumu daudzuma izmaksu vērtību pēc krājumu slēgšanas procesa palaišanas. **Piezīme.** Lai atvērtu lapu **Rīcībā esošo krājumu koriģēšana**, lapā **Slēgšana un koriģēšana** atlasiet pabeigta krājuma slēgšanas procesa ierakstu un pēc tam noklikšķiniet uz **Korekcija** &gt; **Rīcībā esošs**. **Piemērs.** Februārī jums ir šādas transakcijas:
 
 -   1. februāris: krājumu finanšu ieejas plūsma daudzumam ar vērtību 2 un izmaksām ar summu 10,00 USD;
 -   5. februāris: krājumu finanšu ieejas plūsma daudzumam ar vērtību 1 un izmaksām ar summu 13,00 USD;
 -   19. februāris: krājumu finanšu izejas plūsma daudzumam ar vērtību 1 un kārtējām vidējām izmaksām ar summu 11,00 USD.
 
-Šis vienums tika izveidota pirmais iekšā, pirmais ārā (FIFO) krājumu modeļu un krājumu tuvumā tika veikta gada 28. februārī. USD 11.00 darījuma finansiālo jautājumu tiks nosegti finanšu kvīti, kas datēts 1. februāris, un būs jākoriģē, USD 1.00. Atvērto krājumu daudzumi būs redzami šādās krājumu ieejas plūsmās:
+Šim krājumam bija iestatīts krājumu modelis “pirmais iekšā, pirmais ārā” (first in, first out – FIFO), un krājuma slēgšana notika 28. februārī. Finanšu izejas plūsmas transakcija 11,00 USD apjomā tiks nokārtota pret 1. februāra krājumu ieejas plūsmu, un tiks veikta korekcija 1,00 USD apjomā. Atvērto krājumu daudzumi būs redzami šādās krājumu ieejas plūsmās:
 
 -   1. februāris: daudzums ar vērtību 1 un izmaksas ar summu 10,00 USD.
 -   5. februāris: daudzums ar vērtību 1 un izmaksas ar summu 13,00 USD.
 
 Lai šiem diviem krājumiem iestatītu izmaksas USD 15,00 apjomā, izmantojiet rīcībā esošās korekcijas opciju, lai koriģētu atvērtos rīcībā esošos daudzumus no pēdējā krājumu aizvēršanas perioda. **Piezīme.** Rīcībā esošās korekcijas transakcijas grāmatošanas datums būs pēdējās krājumu slēgšanas datums. Šo datumu nevar modificēt.
+
+
 
 

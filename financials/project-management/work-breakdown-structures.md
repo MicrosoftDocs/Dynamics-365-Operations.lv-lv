@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="work-breakdown-structures"></a>Darba sadalījuma struktūras
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Darba sadalījuma struktūras Darba sadalījuma struktūra (WBS) ir projekta ietvaros veicamā darba apraksts. Tā ir uzdevumu hierarhija, kas norāda projekta grupas izpratni par darba saturu un katra komponenta vai uzdevuma lielumu, izmaksām un ilgumu. WBS ir trīs galvenie mērķi:
@@ -39,17 +42,17 @@ Detalizācijas pakāpe WBS ir atkarīga no precizitātes, kas nepieciešama nov�
 
 Turpretim projekti tādās jomās kā plašsaziņas līdzekļi un reklāma, programmatūra un IT infrastruktūra mēdz būt unikāli un produktivitāte ir atkarīga no uzdevuma veicēja pieredzes un kompetences. Tādēļ šajās nozarēs WBS tiek izmantota, lai noteiktu aptuvenu projekta lielumu, nevis lai detalizēti izsekotu attiecīgā projekta norisi. 
 
-WBS izveide ir intensīvs process, kurš parasti tiek veikts ilgā laikposmā un kuram nepieciešama sadarbība un informācija, ko nodrošina dažādas personas. Šajā tēmā aprakstīts, kā izmantot WBS uzlabojumi programmā Microsoft Dynamics 365 operācijām atbilstoši savām vajadzībām, aplēses un izsekošanu.
+WBS izveide ir intensīvs process, kurš parasti tiek veikts ilgā laikposmā un kuram nepieciešama sadarbība un informācija, ko nodrošina dažādas personas. Šajā tēmā ir aprakstīts, kā varat izmantot WBS uzlabojumus programmatūrā Microsoft Dynamics 365 for Operations, lai apmierinātu savas novērtēšanas un izsekošanas vajadzības.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>WBS izveides priekšnoteikumi
 Lai izveidotu WBS, jums jāvar izveidot darba grafiku un novērtēt darba izmaksas.
 
 ### <a name="prerequisites-for-creating-a-work-schedule"></a>Darba grafika izveides priekšnoteikumi
 
-Izmantot pilnu plānošanas iespējas līdzekļu WBS, pabeigtu šādu iestatījumu:
+Lai pilnībā izmantotu plānošanas iespējas, ko sniedz WBS līdzekļi, veiciet tālāk norādītos iestatījumus.
 
 1.  Iestatiet noklusējuma kalendāru un projekta kalendāru:
-    1.  Noklikšķiniet uz **projektu pārvaldības un grāmatvedības**&gt;**Setup**&gt;**ieplānošana**. Laukā **Darba laika noklusējuma kalendārs** norādiet noklusējuma kalendāru. Tas būs darba laika noklusējuma kalendārs visiem jaunizveidotajiem projektiem.
+    1.  Noklikšķiniet uz **Projektu vadība un uzskaite** &gt; **Iestatījumi** &gt; **Plānošana**. Laukā **Darba laika noklusējuma kalendārs** norādiet noklusējuma kalendāru. Tas būs darba laika noklusējuma kalendārs visiem jaunizveidotajiem projektiem.
     2.  Jūs varat mainīt noklusējuma kalendāru noteiktam projektam. Noklikšķiniet uz projekta detalizētas informācijas lapas un pēc tam kopsavilkuma cilnē **Projekta grupa un plānošana** atjauniniet lauku **Plānošanas kalendārs**, atlasot citu kalendāru.
 
 2.  Iestatiet standarta darba dienas un darba stundas. Kalendārs, kas attiecīgajam projektam iestatīts kā darba laika kalendārs, tiks izmantots WBS, lai noteiktu šādu informāciju:
@@ -57,13 +60,13 @@ Izmantot pilnu plānošanas iespējas līdzekļu WBS, pabeigtu šādu iestatīju
 -   Darba dienas un brīvdienas
 -   Darba stundu skaits dienā
 
-Lai iestatītu darba dienas un darba laika kalendāru vai izveidotu jaunu kalendāru, noklikšķiniet uz **organizācijas administrācija**&gt;**kopējo**&gt;**kalendāri**.
+Lai iestatītu kalendāra darba dienas un darba stundas vai izveidotu jaunu kalendāru, noklikšķiniet uz **Organizācijas administrēšana** &gt; **Vispārīgi** &gt; **Kalendāri**.
 
 ### <a name="prerequisites-for-estimating-the-cost-of-work"></a>Darba izmaksu novērtēšanas priekšnoteikumi
 
 Lai pilnībā izmantotu izmaksu novērtēšanas iespējas, ko sniedz WBS, ir jāiestata izmaksas un pārdošanas cenas darbiniekiem, darbaspēka, izdevumu un maksu kategorijām un krājumiem.
 
--   Lai iestatītu izmaksu un pārdošanas cenu, darba, izdevumu un maksas kategorijas, noklikšķiniet uz **projektu pārvaldības un grāmatvedības**&gt;**Setup**&gt;**cenu**.
+-   Lai iestatītu darbaspēka, izdevumu un maksu kategoriju izmaksas un pārdošanas cenu, noklikšķiniet uz **Projektu vadība un uzskaite** &gt; **Iestatījumi** &gt; **Cenas**.
 -   Lai iestatītu krājumu izmaksas un pārdošanas cenu, izmantojiet lapu **Tirdzniecības līgumi **katram krājumam saraksta lapā **Izlaistās preces** sadaļā Preču informācijas pārvaldība.
 
 ## <a name="creating-a-wbs"></a>WBS izveide
@@ -73,11 +76,11 @@ WBS izveidē ietilpst trīs darbības:
 2.  **Darba grafiks** — novērtējiet laiku, kas nepieciešams uzdevuma pabeigšanai, iestatiet uzdevumu savstarpējo saistību un atlasiet uzdevumu sākuma un beigu datumus.
 3.  **Izmaksu novērtējums** — novērtējiet katra uzdevuma izmaksas.
 
-Turpinājumā apspriež kā WBS iespējas var palīdzēt katram no šiem pasākumiem.
+Tālāk esošajās sadaļās ir aprakstīts, kā WBS iespējas var palīdzēt veikt katru no šīm darbībām.
 
 ### <a name="work-decomposition"></a>Darba dekompozīcija
 
-Darba sadalījuma vai dekompozīcijas izveide parasti ir pirmais solis WBS izveides procesā. WBS funkcionalitāte atbalsta šādus pamata konstrukcijas darba sadalījums vai sadalīšanos. 
+Darba sadalījuma vai dekompozīcijas izveide parasti ir pirmais solis WBS izveides procesā. WBS funkcionalitāte atbalsta tālāk norādītās darbu sadalījuma vai dekompozīcijas pamatstruktūras. 
 
 **Projekta saknes uzdevums** Projekta saknes uzdevums ir augstākā līmeņa kopsavilkuma uzdevums projektam. Visi pārējie projekta uzdevumi tiek izveidoti pakārtoti. Saknes uzdevuma nosaukums vienmēr tiek iestatīts kā projekta nosaukums. Saknes zara darbs, datumi un ilgums sniedz kopsavilkumu par vērtībām uzdevumiem, kuri pakārtoti saknes uzdevumam. Saknes mezgla rekvizītus nevar modificēt vai dzēst.
 
@@ -94,7 +97,7 @@ Pašlaik WBS numerāciju nevar pielāgot.
 **Izveidot uzdevuma atkāpi** Izveidojot uzdevuma atkāpi, tas kļūst par iepriekšējā uzdevuma apakšuzdevumu. Jaunā apakšuzdevuma WBS numurs tiek automātiski pārrēķināts, pamatojoties uz tā jaunā pamatuzdevuma WBS numuru. Attiecīgais pamatuzdevums tagad ir kopsavilkuma vai konteineruzdevums un līdz ar to kļūst par komponentu uzdevumu apkopojumu. 
 
 > [!NOTE] 
-> Kad jūs atkāpi saskaņā ar uzdevumu, kas tika lapu mezgla pirms atkāpju darbības uzdevumus, jaunizveidoto summārā uzdevuma zaudē savu datumus, pūļu un resursu skaitu. Tagad tam tiek izmantotas jauno komponentu vērtību kopsavilkuma vērtības. 
+> Ja izveidojat tāda uzdevuma atkāpi, kura augšējā līmeņa uzdevums pirms atkāpes izveides operācijas bija lapas mezgls, tiek zaudēta informācija par jaunizveidotā kopsavilkuma uzdevuma datumiem, darbu un resursu skaitu. Tagad tam tiek izmantotas jauno komponentu vērtību kopsavilkuma vērtības. 
 
 **Izveidot uzdevuma pārkaru atkāpi** Izveidojot uzdevuma pārkaru atkāpi, tas vairs nav pamatuzdevuma komponentu uzdevums. Šī uzdevuma WBS numurs tiek automātiski pārrēķināts, lai parādītu uzdevuma jauno līmeni hierarhijā. Uzdevuma līdzšinējā pamatuzdevuma darbs, izmaksas un datumi tiek pārrēķināti, lai izslēgtu attiecīgo uzdevumu. 
 
@@ -102,10 +105,10 @@ Pašlaik WBS numerāciju nevar pielāgot.
 
 ### <a name="schedule-estimation"></a>Grafika novērtējums
 
-Grafika novērtējums parasti ir otrais solis, veidojot WBS. Saskaņā ar paraugpraksi grafika novērtējums ir jāveic pēc uzdevumu izveides. **Darba sadalījuma struktūra** lapu Microsoft Dynamics 365 darbība ir divas sadaļas. Augšējā rūts ir paredzēta grafika novērtējumam, un apakšējā rūtī ir cilne **Novērtētās izmaksas un ieņēmumi**, kuru varat izmantot izmaksu novērtējumam. 
+Grafika novērtējums parasti ir otrais solis, veidojot WBS. Saskaņā ar paraugpraksi grafika novērtējums ir jāveic pēc uzdevumu izveides. Lapai **Darba sadalījuma struktūra** programmatūrā Microsoft Dynamics 365 for Operations ir divas sadaļas. Augšējā rūts ir paredzēta grafika novērtējumam, un apakšējā rūtī ir cilne **Novērtētās izmaksas un ieņēmumi**, kuru varat izmantot izmaksu novērtējumam. 
 **Uzdevumu atkarības** WBS struktūrā iespējams izveidot pirmstecīgās attiecības starp uzdevumiem. Piešķirot uzdevumam pirmstecīgo uzdevumu, attiecīgo uzdevumu var sākt tikai pēc tam, kad ir pabeigti tā pirmstecīgie uzdevumi. Uzdevuma plānotais sākuma datums automātiski tiek iestatīts uz pirmstecīgo uzdevumu pēdējo datumu. 
 
-**Uzdevuma plānošana Microsoft Dynamics 365 operācijām** šādus faktorus nosaka lapu mezglu uzdevumu plānošana:
+**Uzdevumu plānošana programmatūrā Microsoft Dynamics 365 for Operations** Lapas mezgla uzdevumu plānošanu nosaka tālāk norādītie faktori.
 
 -   Pirmstecīgas aktivitātes
 -   Darbs
@@ -114,27 +117,27 @@ Grafika novērtējums parasti ir otrais solis, veidojot WBS. Saskaņā ar paraug
 
 Tāda lapas mezgla uzdevumu sākuma datums, kuram nav pirmstecīgu uzdevumu, tiek iestatīts automātiski uz projekta plānošanas sākuma datumu. Lapas mezgla uzdevuma ilgums vienmēr tiek aprēķināts kā darba dienu skaits starp sākuma un beigu datumu. 
 
-Uzdevumu plānošanas lapu mezglu uzdevumu plānošanas noteikumi * * *, ja ir ieslēgta automātiskas plānošanas palīdzību, piemērojami šādi noteikumi:
+****Plānošanas kārtulas**** Ja ir ieslēgta automātiskās plānošanas palīdzība, uz lapas mezgla uzdevumu plānošanu attiecas tālāk norādītie noteikumi.
 
 -   Uzdevuma sākuma un beigu datumam jābūt darba dienai saskaņā ar projekta plānošanas kalendāru.
 -   Tāda uzdevuma sākuma datums, kuram ir pirmstecīgie uzdevumi, automātiski tiek iestatīts uz pirmstecīgo uzdevumu pēdējo beigu datumu.
 -   Uzdevuma darbs tiek automātiski aprēķināts šādi:
 
-Skaits cilvēku × × ilgums stundu skaitu standarta projekta kalendārā darba diena. 
+cilvēku skaits × ilgums × stundu skaits projekta kalendāra standarta darba dienā. 
 
-Iespējams, reizēm vēlaties atkāpties no šīm kārtulām. Jūs varat izslēgt automātisko plānošanu, novērst Microsoft Dynamics 365 operācijām no automātiski nosakot vai labojot jebkuru lapu mezglu uzdevumu rekvizīti. Ievadot uzdevuma informāciju, kas izraisa plānošanas kārtulu pārkāpumu, attiecīgajam uzdevumam tiek parādīta plānošanas kļūdas ikona. Ja nevēlaties, lai plānošanas kļūdas tiktu parādītas, noklikšķiniet uz **Plānošanas kļūdas tiek rādītas**, lai izslēgtu šo līdzekli. 
+Iespējams, reizēm vēlaties atkāpties no šīm kārtulām. Varat izslēgt automātisko plānošanu, lai programmatūrā Microsoft Dynamics 365 for Operations netiktu automātiski iestatīti vai laboti lapas mezgla uzdevumu rekvizīti. Ievadot uzdevuma informāciju, kas izraisa plānošanas kārtulu pārkāpumu, attiecīgajam uzdevumam tiek parādīta plānošanas kļūdas ikona. Ja nevēlaties, lai plānošanas kļūdas tiktu parādītas, noklikšķiniet uz **Plānošanas kļūdas tiek rādītas**, lai izslēgtu šo līdzekli. 
 
 > [!NOTE] 
-> Kopsavilkumu vai konteinera uzdevuma vērtības turpina aprēķināt kā vērtību veidojošo uzdevumus, neatkarīgi no tā, vai automātiskas plānošanas palīdzību ir ieslēgta vai izslēgta. 
+> Kopsavilkuma uzdevuma vai konteineruzdevuma vērtības arī turpmāk tiek aprēķinātas kā komponentu uzdevumu vērtību summa neatkarīgi no tā, vai automātiskās plānošanas palīdzība ir ieslēgta vai izslēgta. 
 
 **Plānošanas kļūdu labošana** Kad automātiskās plānošanas palīdzība ir ieslēgta, plānošanas kļūdu rašanās ir maz ticama. Tomēr, ja automātiskās plānošanas palīdzība tiek izslēgta un pēc tam ieslēgta, WBS struktūrā var parādīties plānošanas kļūdas ikonas. 
 
 **Plānošanas kļūdu labošana pēc uzdevuma** Veicot dubultklikšķi uz plānošanas kļūdas ikonas noteiktam uzdevumam, dialoglodziņā tiek parādītas visas plānošanas kļūdas attiecīgajam uzdevumam. Jūs varat izlemt, kuras plānošanas kļūdas uzdevumam labot. 
 
-**Nosakot visas plānošanas kļūdas** ja vēlaties, lai Microsoft Dynamics 365 darbībām noteikt visas plānošanas kļūdas WBS, darbību rūtī noklikšķiniet uz **noteikt visus plānošanas neatbilstības**. 
+**Visu plānošanas kļūdu labošana** Ja vēlaties, lai programmatūrā Microsoft Dynamics 365 for Operations tiktu labotas visas plānošanas kļūdas WBS struktūrā, darbības rūtī noklikšķiniet uz **Labot visas plānošanas neatbilstības**. 
 
 > [!NOTE] 
-> Šo līdzekli var radīt būtiskas izmaiņas WBS. Kļūdas tiek labotas šādā secībā:
+> Šis līdzeklis var izraisīt nozīmīgas WBS modifikācijas. Kļūdas tiek labotas šādā secībā:
 
 1.  Novērtētais darbs visiem uzdevumiem tiek modificēts tā, lai tas būtu vienāds ar noslodzi, kas definēta projekta kalendārā.
 2.  Katra uzdevuma sākuma datums tiek modificēts tā, lai uzdevums sāktos pēc tam, kad ir pabeigti visi tā pirmstecīgie uzdevumi.
@@ -145,7 +148,7 @@ Iespējams, reizēm vēlaties atkāpties no šīm kārtulām. Jūs varat izslēg
 Kā tika minēts iepriekš šajā dokumentā, katram lapas mezgla uzdevumam izmaksu novērtējumu ievada, izmantojot cilni **Novērtētās izmaksas un ieņēmumi** apakšējā rūtī lapā **Darba sadalījuma struktūra**. 
 
 > [!NOTE] 
-> Izmaksu aprēķinu kopsavilkums vai konteinera uzdevumam nevar modificēt. Izmaksu novērtējums kopsavilkuma uzdevumam ir vienāds ar tā lapas mezgla uzdevumu izmaksu novērtējumu summu. Novērtētās kopējās izmaksas katram uzdevumam tiek aprēķinātas kā novērtēto izmaksu summas šādiem darbību veidiem:
+> Nevarat modificēt kopsavilkuma uzdevuma vai konteineruzdevuma izmaksu novērtējumu. Izmaksu novērtējums kopsavilkuma uzdevumam ir vienāds ar tā lapas mezgla uzdevumu izmaksu novērtējumu summu. Novērtētās kopējās izmaksas katram uzdevumam tiek aprēķinātas kā novērtēto izmaksu summas šādiem darbību veidiem:
 
 -   Darbaspēks
 -   Krājums vai materiāls
@@ -161,12 +164,12 @@ Aprēķinot darbaspēka, materiālu un izdevumu izmaksas katram uzdevumam, attie
 
 **Izdevumu un materiālu izmaksu novērtēšana** Cilne **Novērtētās izmaksas un ieņēmumi** arī ļauj uzdevumam novērtēt izdevumu un materiālu izmaksas, ja jums ir nepieciešami novērtējumi. 
 
-Izmaksu un pārdošanas cenas katram darba vai izdevumu budžeta līnija balstās uz iestatījuma, kas noteikts katrai kategorijai cenu tabulās pie **projektu pārvaldības un grāmatvedības**&gt;**Setup**&gt;**cenu**. Krājumiem izmaksas un pārdošanas cena tiek pievienota pēc noklusējuma no krājumu un tirdzniecības līgumiem saraksta lapā **Izlaistās preces** sadaļā Preču informācijas pārvaldība.
+Katras darbaspēka vai izdevumu novērtējuma rindas izmaksas un pārdošanas cena ir noteiktas, pamatojoties uz iestatījumiem, kas ir definēti katrai kategorijai cenu noteikšanas tabulās sadaļā **Projekta vadība un uzskaite** &gt; **Iestatījumi** &gt; **Cenu noteikšana**. Krājumiem izmaksas un pārdošanas cena tiek pievienota pēc noklusējuma no krājumu un tirdzniecības līgumiem saraksta lapā **Izlaistās preces** sadaļā Preču informācijas pārvaldība.
 
 ## <a name="tracking-progress-on-the-wbs"></a>Sekošana norisei WBS struktūrā
 Dažās nozarēs sekošana projekta norisei, salīdzinot to ar WBS struktūru, tiek veikta ļoti fragmentārā līmenī, savukārt citās jomās sekošana projekta norisei tiek īstenota augstākā WBS līmenī. Šajā sadaļā ir aprakstīts, kā jūs varat izmantot WBS izsekošanu jūsu projekta prasībām. 
 
-Microsoft Dynamics 365 operācijām ir trīs skati uz projekta WBS: plānošanas uzskata, pūles sekošanas apskatīt un izmaksu izsekošanas skats.
+Programmatūrā Microsoft Dynamics 365 for Operations ir pieejami trīs projekta WBS struktūras skati: plānošanas skats, darba izsekošanas skats un izmaksu izsekošanas skats.
 
 ### <a name="planning-view"></a>Plānošanas skats
 
@@ -177,7 +180,7 @@ Plānošanas skatā tiek pardādīta informācija par grafiku un izmaksu plānot
 Darba izsekošanas skatā tiek parādīta norises izsekošana uzdevumiem WBS struktūrā. Tājā tiek salīdzinātas uzkrātās faktiskās darba stundas uzdevumam ar plānotajām darba stundām. Darba izsekošanas skatā vērtības ir sniegtas, izmantojot šādas formulas:
 
 -   Norises procentuālā vērtība = līdz šim faktiski paveiktais darbs ÷ plānotais uzdevuma darbs
--   Atlikušās pūles (pazīstams arī kā budžeta-uz-Pabeigt \[uc\]) = plānots piepūles-reālie centieni līdz šim
+-   Atlikušais darbs (saukts arī par novērtējumu beigu stadijā \[ETC\]) = plānotais darbs – līdz šim faktiski paveiktais darbs
 -   Galīgo izmaksu novērtējums (EAC) = atlikušais darbs + līdz šim faktiski paveiktais darbs
 -   Plānotā darba novirze = plānotais darbs – EAC
 
@@ -188,7 +191,7 @@ Darba izsekošanas skatā ir parādīta plānotā darba novirze attiecīgajam uz
 
 **Projekta vadītāja atkārtota darba prognoze** Laiku pa laikam projekta vadītājam vai citai personai, kas seko projekta norisei, būs jāpārskata uzdevuma sākotnējie novērtējumi. Uzdevuma izpilde var notikt ātrāk vai lēnāk, nekā sākotnēji paredzēts, dažādu iemeslu dēļ. Piemēram, ir sašaurināta uzdevuma darbības joma vai darbinieku pieredzes līmenis ir zemāks, nekā sākotnēji plānots. Prognozes ir projekta vadītāja izpratne par novērtējumiem, pamatojoties uz pašreizējo projekta statusu. Parasti bāzlīnijas skaitļus nedrīkst mainīt, jo projekta bāzlīnija ir plaši publicēts dokuments projekta grafika un izmaksu novērtējumam, par kuru vienojušās visas ieinteresētās personas attiecīgā projekta ietvaros. 
 
-Ir divi veidi, ka projektu vadītāji var modificēt pūles uzdevumiem:
+Projektu vadītāji var modificēt darbu divos veidos.
 
 -   Modificēt atlikušo darbu, kuram ir iestatīts automātiski atjaunināt uzdevuma faktiski atlikušo darbu.
 -   Modificēt norises procentuālo vērtību, kurai ir iestatīts automātiski atjaunināt uzdevuma faktisko norisi.
@@ -222,7 +225,7 @@ Izmaksu izsekošanas skatā ir parādīta plānotā izmaksu novirze attiecīgaja
 **Projekta vadītāja atkārtota izmaksu prognoze** Projektu vadītājiem ir jāizmanto CTC, lai pārskatītu sākotnējo uzdevuma izmaksu novērtējumu. Projekta vadītājs var mainīt CTC vērtību uz vērtību, kas ir nepieciešama, lai pabeigtu uzdevumu. Ja modificējat CTC vērtību, tiek pārrēķināti uzdevuma CTC, EAC un procenti no patērētajām izmaksām, kā arī uzdevuma plānotā izmaksu novirze. Tiek pārrēķināti arī kopsavilkuma uzdevumu EAC, ETC un procenti no patērētajām izmaksām, kā arī tiek atjaunināta to plānotā izmaksu novirze. 
 
 > [!NOTE] 
-> Pārskatīt pūles WBS uzdevumu skatā pūles uzskaites uzdevumu CTC, VNK, procentuālu daļu no izmaksām patērē un prognozētās izmaksas starpība tiek pārrēķinātas izmaksu izsekošanas skats. Tomēr izmaksu pārskatīšana neietekmē vērtības darba izsekošanas skatā, jo netiek pārskatītas izmaksas pēc darbības veida (darbaspēks, materiāls vai izdevumi) vai projekta kategorijas. 
+> Kad darbu izsekošanas skatā pārskatāt WBS uzdevuma darbu, izmaksu izsekošanas skatā tiek pārrēķināts uzdevuma CTC, EAC, procenti no patērētajām izmaksām un plānotā izmaksu novirze. Tomēr izmaksu pārskatīšana neietekmē vērtības darba izsekošanas skatā, jo netiek pārskatītas izmaksas pēc darbības veida (darbaspēks, materiāls vai izdevumi) vai projekta kategorijas. 
 
 **Prognozes pārskatīšana izmaksām kopsavilkuma uzdevumos** Jūs varat pārskatīt izmaksas kopsavilkuma uzdevumos, un aprēķini tiek veikti automātiski šādā secībā:
 
@@ -236,24 +239,24 @@ Noklikšķiniet uz **Izvērst līdz līmenim** izmaksu izsekošanas skatā, lai 
 
 ### <a name="earned-value-management"></a>Iegūtās vērtības pārvaldība
 
-Iegūtās vērtības metodi (EVM) var izmantot, lai izsekotu projektu gaitu. Iegūtās vērtības rādītājus var skatīt projekta pārvaldnieka lomu centrā. Iegūtās vērtība diagrammas komponents norāda plānotās vērtības un faktisko izmaksu laika periodos sadalītās vērtības. Iegūtā vērtība pašreizējā datumā tiek parādīta kā punkts. Laika periodos sadalītie iegūtās vērtības dati pašlaik nav pieejami. 
+Varat izmantot iegūtās vērtības metodi (EVM), lai izsekotu projekta norisi. Iegūtās vērtības rādītājus var skatīt projekta pārvaldnieka lomu centrā. Iegūtās vērtība diagrammas komponents norāda plānotās vērtības un faktisko izmaksu laika periodos sadalītās vērtības. Iegūtā vērtība pašreizējā datumā tiek parādīta kā punkts. Laika periodos sadalītie iegūtās vērtības dati pašlaik nav pieejami. 
 
 Laika posms iegūtās vērtības diagrammā tiek parādīts pa nedēļām vai mēnešiem. Šajā sadaļā ir aprakstīti EVM trīs pamatelementi: plānotā vērtība, iegūtā vērtība un faktiskās izmaksas. 
 
 **Plānotā vērtība** Saskaņā ar EVM teorētisko pamatojumu plānotās vērtības grafiks norāda ātrumu, ar kuru projekta grupa plānoja iegūt vērtību attiecīgajā projektā. 
 
-Microsoft Dynamics 365 operācijām izmanto 0:100, nopelnot kārtulu, kad tas atzīmē plānotā vērtība. Saskaņā ar šo noteikumu uzdevuma vērtība tiek grāmatota uzdevumā tā beigu datumā. Vērtība netiek grāmatota, līdz projekta pabeigtība sasniedz 100 procentus. 
+Programmatūrā Microsoft Dynamics 365 for Operations plānotās vērtības grafika veidošanas laikā tiek izmantots pelnīšanas noteikums 0:100. Saskaņā ar šo noteikumu uzdevuma vērtība tiek grāmatota uzdevumā tā beigu datumā. Vērtība netiek grāmatota, līdz projekta pabeigtība sasniedz 100 procentus. 
 
 Sadaļā Projektu vadība un uzskaite, ievadiet lapu mezglu beigu datumu un plānotās izmaksas. Kad plānotās vērtības grafiks ir parādīts pa nedēļām, plānotā vērtība tiek summēta pa nedēļām visiem lapas mezgla uzdevumiem visā projekta periodā. 
 
 **Iegūtā vērtība** Saskaņā ar EVM teorētisko pamatojumu iegūtās vērtības grafiks norāda ātrumu, ar kuru projekta grupa faktiski iegūst vērtību attiecīgajā projektā. 
 
-Microsoft Dynamics 365 operācijām izmanto 0:100 pelnīt kārtulu, kad tās zemes gabalu nopelnīto vērtību. Saskaņā ar šo noteikumu uzdevuma vērtība tiek grāmatota uzdevumā tā beigu datumā. Vērtība netiek grāmatota, līdz projekta pabeigtība sasniedz 100 procentus. 
+Programmatūrā Microsoft Dynamics 365 for Operations iegūtās vērtības grafika veidošanas laikā tiek izmantots pelnīšanas noteikums 0:100. Saskaņā ar šo noteikumu uzdevuma vērtība tiek grāmatota uzdevumā tā beigu datumā. Vērtība netiek grāmatota, līdz projekta pabeigtība sasniedz 100 procentus. 
 
 Aprēķinot iegūto vērtību, tiek ņemta vērā katra uzdevuma norises procentuālā vērtība. Saskaņā ar 0:100 pelnīšanas kārtulu tikai uzdevumi, kas ir pabeigti attiecīgajā periodā, tiek ņemti vērā iegūtās vērtības aprēķinā attiecīgā perioda beigās. Iegūtā vērtība projektam tiek aprēķināta visiem uzdevumiem, kuri ir pabeigti grafika izveides brīdī. 
 
 > [!NOTE] 
-> Pašlaik, WBS izsekošanas sistēma nav datu struktūras, lai saglabātu vēsturisko attīstību procentus par katru uzdevumu. Tādēļ iegūto vērtību var iekļaut pārskatā tikai brīdī, kad kubs ir apstrādāts. Veiciet kuba apstrādi regulāri, lai atjauninātu iegūtās vērtības datus, kas tiek rādīti lomu centrā. 
+> Pašlaik WBS izsekošanas sistēmā nav pieejamas datu struktūras katra uzdevuma norises vēsturiskās procentuālās vērtības saglabāšanai. Tādēļ iegūto vērtību var iekļaut pārskatā tikai brīdī, kad kubs ir apstrādāts. Veiciet kuba apstrādi regulāri, lai atjauninātu iegūtās vērtības datus, kas tiek rādīti lomu centrā. 
 
 **Faktiskās izmaksas** Saskaņā ar EVM teorētisko pamatojumu faktisko izmaksu grafiks norāda ātrumu, ar kuru naudas līdzekļi attiecīgajā projektā tiek tērēti. 
 
@@ -274,7 +277,7 @@ Ja faktiskās periodā izmantotās izmaksas pārsniedz iegūto vērtību, tika i
 Ja faktiskās periodā izmantotās izmaksas ir mazākas par iegūto vērtību, tika nopelnīti lielāki naudas līdzekļi nekā iztērēti. Tādējādi vērtība ir mazāka par projekta budžetā noteikto.
 
 ## <a name="wbs-templates"></a>WBS veidnes
-WBS veidnes funkcionalitāti var izmantot, lai izveidotu standarta veidņu projektiem. Ja projektos, kurus piedāvā jūsu uzņēmums, ir daudz darbu, kas atkārtojas, ieteicams izveidot WBS veidni. 
+Varat izmantot WBS veidņu funkcionalitāti, lai izveidotu projektu standarta veidnes. Ja projektos, kurus piedāvā jūsu uzņēmums, ir daudz darbu, kas atkārtojas, ieteicams izveidot WBS veidni. 
 
 WBS veidni var izveidot no esoša projekta WBS, lai zināšanas un paraugprakses, kuras ir apkopotas attiecīgā projekta plānošanas laikā, varētu atkārtoti izmantot līdzīgiem projektiem nākotnē. Tomēr dažreiz nav lietderīgi saglabāt visu WBS kā veidni. Tādēļ veidnes var izveidot arī no projekta WBS daļām.
 
@@ -313,5 +316,7 @@ Darbs = Resursu skaits × Ilgums × Stundu skaits standarta darba dienā
 Visas plānošanas kļūdas varat labot vienlaicīgi, noklikšķinot uz **Labot visas plānošanas kļūdas**. 
 
 Vai arī varat labot plānošanas kļūdas atsevišķi, noklikšķinot uz brīdinājuma ikonas katram uzdevumam.
+
+
 
 

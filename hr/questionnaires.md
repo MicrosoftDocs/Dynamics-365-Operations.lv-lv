@@ -1,6 +1,6 @@
 ---
 title: Anketas
-description: "Šajā tēmā ir vispārīga informācija par aptaujas lapas, kā _ arī saites uz sīkāku informāciju. Anketa ir jautājumu kopa, kas tiek izmantota, lai iegūtu informāciju dažādiem nolūkiem. Varat izstrādāt, izveidot, izplatīt un aizpildīt anketas un pēc tam analizēt rezultātus."
+description: "Šajā tēmā ir sniegta vispārīga informācija par anketām, ka arī saites plašākas informācijas iegūšanai. Anketa ir jautājumu kopa, kas tiek izmantota, lai iegūtu informāciju dažādiem nolūkiem. Varat izstrādāt, izveidot, izplatīt un aizpildīt anketas un pēc tam analizēt rezultātus."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="questionnaires"></a>Anketas
 
-Šajā tēmā ir vispārīga informācija par aptaujas lapas, kā _ arī saites uz sīkāku informāciju. Anketa ir jautājumu kopa, kas tiek izmantota, lai iegūtu informāciju dažādiem nolūkiem. Varat izstrādāt, izveidot, izplatīt un aizpildīt anketas un pēc tam analizēt rezultātus. 
+[!include[banner](includes/banner.md)]
 
-Jūs varat pielāgot anketu, lai atbilstu jūsu īpašajām prasībām, izmantojot dažādus līdzekļus, kas pieejami programmā Microsoft Dynamics 365 operācijām. Tālāk ir sniegti daži piemēri par veidiem, kā varat izmantot anketas.
+
+Šajā tēmā ir sniegta vispārīga informācija par anketām, ka arī saites plašākas informācijas iegūšanai. Anketa ir jautājumu kopa, kas tiek izmantota, lai iegūtu informāciju dažādiem nolūkiem. Varat izstrādāt, izveidot, izplatīt un aizpildīt anketas un pēc tam analizēt rezultātus. 
+
+Izmantojot dažādus programmatūrā Microsoft Dynamics 365 for Operations pieejamos līdzekļus, varat pielāgot anketu atbilstoši savām īpašajām prasībām. Tālāk ir sniegti daži piemēri par veidiem, kā varat izmantot anketas.
 
 -   pārbaudītu darbinieku un kandidātu profesionālās iemaņas;
 -   Novērtēt, vai kursu dalībnieki apguva kursa materiālu.
@@ -42,9 +45,9 @@ Nākamajā tabulā ir sniegtas saites uz informāciju par galvenajiem anketu uzd
 
 | Tēma| apraksts|
 |------|------------|
-| [Design a questionnaire](design-questionnaires.md)  | Šajā rakstā ir sniegta informācija par to, kā veidot anketu. Izstrādāšanas process ietver priekšnosacījumu, atbilžu un jautājumu iestatīšanu, un tad to kombinēšanu vienā anketā. |
-| [Distribute and complete a questionnaire](distribute-questionnaires.md)  | Šajā rakstā ir sniegta informācija par to, kā anketu izplatīt respondentiem un kā anketas aizpildīt.                                                                       |
-| [View and evaluate the results of a questionnaire](evaluate-questionnaire-results.md) | Šajā raksta ir sniegta informācija par to, kā skatīt un novērtēt no aizpildītām anketām iegūtos rezultātus.                                                                                        |
+| [Anketas izstrāde](design-questionnaires.md)  | Šajā rakstā ir sniegta informācija par to, kā veidot anketu. Izstrādāšanas process ietver priekšnosacījumu, atbilžu un jautājumu iestatīšanu, un tad to kombinēšanu vienā anketā. |
+| [Anketas izplatīšana un aizpildīšana](distribute-questionnaires.md)  | Šajā rakstā ir sniegta informācija par to, kā anketu izplatīt respondentiem un kā anketas aizpildīt.                                                                       |
+| [Anketas rezultātu skatīšana un novērtēšana](evaluate-questionnaire-results.md) | Šajā raksta ir sniegta informācija par to, kā skatīt un novērtēt no aizpildītām anketām iegūtos rezultātus.                                                                                        |
 
 
 
@@ -55,6 +58,8 @@ Nākamajā tabulā ir sniegtas saites uz informāciju par galvenajiem anketu uzd
 
 [Anketu izplatīšana un aizpildīšana](distribute-questionnaires.md)
 
-[Apskate un anketu rezultātu izvērtēšanai](evaluate-questionnaire-results.md)
+[Anketu rezultātu skatīšana un novērtēšana](evaluate-questionnaire-results.md)
+
+
 
 

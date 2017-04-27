@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="delays"></a>Aizkaves
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegta informācija par aizkavēšanās datumiem vispārējā plānošanā. Aizkavēšanās datums ir reālistisks izpildes datums, kuru transakcija saņem, ja vispārējās plānošanas aprēķinātais drīzākais izpildes datums ir vēlāks par pieprasīto datumu.
 
 Veicot vispārējo plānošanu, var aprēķināt agrāko transakcijas izpildes datumu, pamatojoties uz izpildes laikiem, materiālu pieejamību, noslodzes pieejamību un dažādiem plānošanas parametriem. 
@@ -41,11 +44,13 @@ Var konfigurēt, kā aizkavēšanās tiek aprēķinātas seguma grupai. Seguma g
 
 Lapā **Vispārējās plānošanas parametri** var iestatīt sākuma laiku aprēķina kavējumiem. Ja pasūtījums tiek izpildīts pēc šī laika, vienas dienas aizkave tiek pievienota pasūtījuma aiskaves datumam. 
 
-**Piezīme:** vecākās versijās, aprēķinātos aizkavēšanās bija pazīstams kā *aizkavēšanās paziņojumi*, kavēto dienu bija pazīstams kā *aizkavēšanās datumu*, un aizkavēta darbība tika minētas kā *darbība, kas bija noteikts nākotnes*.
+**Piezīme.** Iepriekšējās versijās aprēķinātās aizkaves tika sauktas par *aizkavēšanās paziņojumiem*, aizkaves datums tika saukts par *aizkavēšanās datumu* un aizkavētā transakcija tika saukta par *transakciju, kas tika aizkavēta*.
 
 <a name="see-also"></a>Skatiet arī
 --------
 
 [Vajadzības iestatījumi](coverage-settings.md)
+
+
 
 

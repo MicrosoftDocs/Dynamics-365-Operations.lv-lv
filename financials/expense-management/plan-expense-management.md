@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-expense-management"></a>Izdevumu pārvaldības konfigurēšana
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir aprakstīti apsvērumi un lēmumi, kas jums ir jāpieņem plānošanas procesa laikā, pirms programmatūrā Microsoft Dynamics AX konfigurējat izdevumu pārvaldību. Apgabalā Izdevumu pārvaldība tostarp varat glabāt informāciju par maksāšanas metodēm, ceļošanas pieprasījumiem, izdevumu atskaitēm un politikām. 
 
 Tā kā daudzi lēmumi, ko pieņemat, kad plānojat savu izdevumu pārvaldības konfigurāciju, ir atkarīgi no jūsu organizācijas hierarhijas un finanšu struktūras, jums ir nepieciešams skatīt plānošanas dokumentus šiem apgabaliem.
@@ -133,6 +136,8 @@ Varat izveidot izdevumu atskaišu politikas tā, lai jūsu organizācija varētu
 -   Kad beidzas šīs politikas darbība?
 -   Kāda ir politikas kārtula?
 -   Kāds ir politikas kārtulas iznākums?
+
+
 
 
 

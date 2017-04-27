@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-locations"></a>Krājumu vietas
 
+[!include[banner](../includes/banner.md)]
+
+
 Krājumu atrašanās vietu dati tiek izmantoti kopā ar pamata noliktavu (WMS I), lai noteiktu, kur tiek glabāti krājumi un kur krājumi tiek izdoti no WMS I noliktavas.
 
 Šī tēma attiecas uz moduļa Krājumu vadība līdzekļiem. Tā neattiecas uz moduļa Noliktavas pārvaldība līdzekļiem.
@@ -64,6 +67,8 @@ Varat kopēt novietojumus no vienas noliktavas uz citu, kā arī izveidot noviet
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Izveidot jaunu noliktavu izkārtojumu (uzdevuma norādījumi)](https://ax.help.dynamics.com/en/wiki/create-a-new-warehouse-layout/)
+[Jauna noliktavas izkārtojuma izveide (uzdevuma ceļvedis)](https://ax.help.dynamics.com/en/wiki/create-a-new-warehouse-layout/)
+
+
 
 

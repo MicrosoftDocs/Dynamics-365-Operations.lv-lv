@@ -1,9 +1,9 @@
 ---
-title: "Samazināt atlikumu nolietojums"
+title: "Degresīvā nolietojuma aprēķināšanas metode"
 description: "Šajā rakstā ir sniegts pārskats par degresīvās nolietojuma aprēķināšanas metodi."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="reduce-balance-depreciation"></a>Samazināt atlikumu nolietojums
+# <a name="reduce-balance-depreciation"></a>Degresīvā nolietojuma aprēķināšanas metode
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir sniegts pārskats par degresīvās nolietojuma aprēķināšanas metodi.
 
@@ -57,7 +60,7 @@ Piemēram, ja atlasāt Reizi gadā, gada nolietojums tiek grāmatots tikai vienu
 
 ### <a name="fiscal"></a>Finanšu
 
-Ja laukā Nolietojuma aprēķina gads atlasāt Finanšu, tiek izmantota lineārā nolietojuma metode. Tā tiek aprēķināta, pamatojoties uz finanšu gadu, kas iestatīts lapā Finanšu kalendāri tam finanšu kalendāram, kas atlasīts Virsgrāmatas lapā. Piemēram, finanšu gada 1. jūlija līdz 30. jūnijs, nolietojuma aprēķins sākas 1. jūlijā. Finanšu gads var būt garāks vai īsāks par 12 mēnešiem. Nolietojums tiek pielāgots katram finanšu periodam. Nākamā finanšu gada garums tiek noteikts, balstoties uz finanšu periodiem, kurus iestatāt jauna finanšu gada izveidē lapā Finanšu kalendāri.
+Ja laukā Nolietojuma aprēķina gads atlasāt Finanšu, tiek izmantota lineārā nolietojuma metode. Tā tiek aprēķināta, pamatojoties uz finanšu gadu, kas iestatīts lapā Finanšu kalendāri tam finanšu kalendāram, kas atlasīts Virsgrāmatas lapā. Piemēram, finanšu gadam no 1. jūlija līdz 30. jūnijam nolietojuma aprēķins sākas 1. jūlijā. Finanšu gads var būt garāks vai īsāks par 12 mēnešiem. Nolietojums tiek pielāgots katram finanšu periodam. Nākamā finanšu gada garums tiek noteikts, balstoties uz finanšu periodiem, kurus iestatāt jauna finanšu gada izveidē lapā Finanšu kalendāri.
 
 
 Atlasot opciju Finanšu, laukā Periodu biežums ir pieejamas tālāk uzskaitītās opcijas.
@@ -73,12 +76,14 @@ Izmantojot degresīvās nolietojuma aprēķināšanas metodi, 30 procenti no nol
 
 | Periods | Ikgada nolietojuma summas aprēķins | Atlikusī vērtība gada beigās |
 |--------|-------------------------------------------|---------------------------------------|
-| 1. gads | (11,000 - 1,000) \* 30% = 3,000           | (11000 - 1000) - 3000 = 7000      |
-| 2. gads | (7,000 - 1,000) \* 30% = 1,800            | (7000 -1800) = 5200                |
-| 3. gads | (5,200 - 1,000) \* 30% = 1,260            | (5200 - 1260) = 3940               |
+| 1. gads | (11 000 – 1000) \* 30% = 3000           | (11000 - 1000) - 3000 = 7000      |
+| 2. gads | (7000 – 1000) \* 30% = 1800            | (7000 -1800) = 5200                |
+| 3. gads | (5200 – 1000) \* 30% = 1260            | (5200 - 1260) = 3940               |
 
  
 -
+
+
 
 
 

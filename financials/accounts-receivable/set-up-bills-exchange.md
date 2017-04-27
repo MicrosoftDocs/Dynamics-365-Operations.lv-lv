@@ -1,6 +1,6 @@
 ---
 title: "Iestatīt vekseļus"
-description: "Šajā tēmā aprakstīti soļi iestatīšana vekseļiem."
+description: "Šajā tēmā aprakstītas vekseļu iestatīšanas darbības."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,55 +26,60 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-bills-of-exchange"></a>Iestatīt vekseļus
 
-Šajā tēmā aprakstīti soļi iestatīšana vekseļiem.
+[!include[banner](../includes/banner.md)]
 
-Vekselis ir rakstiski vai elektroniski pasūtījuma no klienta, kas norāda, ka cita puse, parasti banka, būtu uzņēmumam maksā norādīto summu. Ja izmantojat vekseli kā maksājumu pārdošanas pasūtījuma rēķinam vai brīva teksta rēķinam, jūs kreditējat debitora kontu. Šo kredītu nodrošina vekselis, līdz debitors samaksā vekseli bankā. Parasti būs iestatīt rēķinu ar vekseļa apmaksas datumā. Kad saņemat paziņojumu no savas bankas, ka vekselis ir izpirkts, varat aizvērt vekseli. Jūs varat izdarīt vekseļa caur jūsu bankas vienā no šādām reizēm:
 
--   Apmaksas datumā. Šī pieeja ir pazīstama kā kompetences iegūšanai.
--   Pirms noteiktā termiņa, parasti atlaides datumā, kas norādīts maksāšanas termiņi, kas iestatīti klientam. Grāmatojot darījumu, atlaižu summa tiek grāmatota izmaksu kontā. Atlikusī summa ir saistības pret jums līdz brīdim, kad banka saņem samaksu no klienta. Šī pieeja ir pazīstama kā kompetences atlaidei.
+Šajā tēmā aprakstītas vekseļu iestatīšanas darbības.
+
+Vekselis ir rakstisks vai elektronisks pasūtījums no debitora, kurā norādīts, ka citai pusei, parasti bankai, ir uzņēmumam jāmaksā norādītā summa. Ja izmantojat vekseli kā maksājumu pārdošanas pasūtījuma rēķinam vai brīva teksta rēķinam, jūs kreditējat debitora kontu. Šo kredītu nodrošina vekselis, līdz debitors samaksā vekseli bankā. Parasti apmaksāsit rēķinu ar vekseli apmaksas datumā. Kad saņemat paziņojumu no savas bankas, ka vekselis ir izpirkts, varat aizvērt vekseli. Varat izrakstīt vekseli savā bankā jebkurā no šiem laikiem:
+
+-   Apmaksas datumā. Šī pieeja ir pazīstama kā pārvedums apmaksai.
+-   Pirms apmaksas datuma, parasti termiņatlaides datumā, kas norādīts maksājuma nosacījumos, kas iestatīti debitoram. Grāmatojot darījumu, atlaižu summa tiek grāmatota izmaksu kontā. Atlikusī summa ir saistības pret jums līdz brīdim, kad banka saņem samaksu no klienta. Šī pieeja ir pazīstama kā pārvedums termiņatlaidei.
 
 ## <a name="set-up-posting-profiles-for-bills-of-exchange"></a>Grāmatošanas profilu iestatīšana vekseļiem
-Izmantojiet **debitora grāmatošanas profiliem** lapu, lai iestatītu grāmatošanas metodes, ko var lietot ar vekseļiem, vekseļu protesta, pārvedumiem savākšanai un atlaides pārskaitījumiem. Šajā **kopsavilkuma konts** lauku, atlasiet kopsavilkuma konts, kurā jāgrāmato vekseļu summas. Šī konta debetā vai kredītā, atkarībā no tā, kāda veida vekseļa darbība:
--   Vekseļiem, šis konts tiek debetēts, ja Vekselis ir ievietojis, un kreditē, grāmatojot pārskaitījuma atlaidei vai pārskaitījumu savākšanai.
+Izmantojiet lapu **Debitoru grāmatošanas metodes**, lai iestatītu grāmatošanas metodes, kuras var izmantot ar vekseļiem, noraidītajiem vekseļiem, apmaksas pārskaitījumiem un atlaižu pārskaitījumiem. Laukā **Summu konts** atlasiet summu kontu, kurā grāmatot vekseļa summas. Šis konts tiek ieskaitīts debetā vai kredītā atkarībā no vekseļa darījuma tipa:
+-   Vekseļiem šis konts tiek ierakstīts debetā, kad vekselis tiek grāmatots un tiek kreditēts, kad tiek grāmatots pārskaitījums termiņatlaidei vai pārskaitījums apmaksai.
 -   Noraidītajiem vekseļiem šis konts tiek ierakstīts debetā, kad tiek grāmatots noraidījuma vekselis.
 -   Apmaksai paredzētajiem pārskaitījumiem šis konts tiek ierakstīts debetā, kad tiek grāmatots pārskaitījums apmaksai.
 -   Termiņatlaidei paredzētajiem pārskaitījumiem šis konts tiek ierakstīts debetā, kad tiek grāmatots pārskaitījums termiņatlaidei.
 
-Šajā **nosegtu kontu** lauku, izvēlieties kases kontu, lai grāmatotu vekseļu summas. Šis konts tiek ierakstīts debetā, kad ir apmaksāts vekselis. Šajā **PVN priekšapmaksas** lauku, atlasiet kopsavilkuma konts, kurā jāgrāmato PVN summas, kad vekseļi tiek izmantoti priekšapmaksu. Šajā **pasīvi uz atlaižu rēķina** lauku, atlasiet kontu, lai grāmatotu atlaižu summu pārskaitījumiem atlaidi. Šis konts tiek kreditēts, kad tiek grāmatots pārskaitījums termiņatlaidei.
+Laukā **Apmaksāt konta rēķinus** atlasiet kases kontu, kurā grāmatot vekseļa summas. Šis konts tiek ierakstīts debetā, kad ir apmaksāts vekselis. Laukā **PVN priekšapmaksām** atlasiet summu kontu, kurā grāmatot PVN summas, kad maksājumiem tiek izmantoti vekseļi. Laukā **Atlaižu konta saistības** atlasiet kontu, kurā grāmatot atlaides summu atlaides pārskaitījumiem. Šis konts tiek kreditēts, kad tiek grāmatots pārskaitījums termiņatlaidei.
 
-## <a name="set-up-accounts-receivable-parameters-for-bills-of-exchange"></a>Iestatiet kontu saņemamajiem parametriem vekseļiem
-Par **Accounts receivable parameters** lappušu noklusējuma grāmatošanas metodes, lai vekseļi tiek ievadītas **Virsgrāmata un PVN** tab. Numuru sērijas, ir definētas **numuru sērijas** tab.
+## <a name="set-up-accounts-receivable-parameters-for-bills-of-exchange"></a>Vekseļu debitoru moduļa parametru iestatīšana
+Lapā **Debitoru moduļa parametri** noklusējuma grāmatošanas metode vekseļiem tiek ievadīta cilnē **Virsgrāmata un PVN**. Numuru sērijas tiek definētas cilnē **Numuru sērijas**.
 Vekseļu žurnālu nosaukumu iestatīšana
 ------------------------------------------
 
-Par **žurnālu nosaukumus** lapu, izveidot vismaz pieci žurnāli izmantot vekseļus. Piedāvājam žurnāla tipos:
--   **Klienta vekseļa izrakstīšana** – izveidojiet žurnāla nosaukumu Draw vekseļu žurnāls.
--   **Klienta protestēt vekseli** – izveidojiet žurnāla nosaukumu protesta vekseļu žurnāls.
--   **Klienta atjaunošanos vekseļa** – izveidojiet žurnāla nosaukumu atjaunošanos vekseļu žurnāls.
--   **Debitora bankas pārskaitījums** – izveidojiet pārskaitījumu žurnāla žurnāla nosaukumu.
--   **Klienta nokārtot vekseļa** – izveidojiet žurnāla nosaukumu nokārtot vekseļu žurnāls.
+Lapā **Žurnālu nosaukumi** izveidojiet vismaz piecus žurnāla nosaukumus, ko izmantot vekseļiem. Tālāk ir norādīti žurnālu veidi.
+-   **Debitora izrakstīts vekselis** — izveidojiet žurnāla nosaukumu vekseļu izrakstīšanas žurnālam.
+-   **Debitora vekseļa noraidīšana** — izveidojiet žurnāla nosaukumu vekseļu noraidīšanas žurnālam.
+-   **Atkārtoti izrakstīts debitora vekselis** — izveidojiet žurnāla nosaukumu atkārtotas vekseļu izrakstīšanas žurnālam.
+-   **Debitora bankas pārskaitījums** — izveidojiet žurnāla nosaukumu pārskaitījumu žurnālam.
+-   **Debitoru vekseļu apmaksa** — izveidojiet žurnāla nosaukumu vekseļu apmaksas žurnālam.
 
-Žurnāla dokumenta lappuses katrā vekseļu žurnāls, ievadiet informāciju par vekseļu **vekseļa** tab. Pēc vekseļa žurnāla rindas iegrāmatošanas, jūs varat apskatīt tos **vekseļu žurnāls izmeklēšanas** lapu un **Vekseļu statistika** lapā.
+Žurnāla dokumentu lapā katram vekseļa žurnālam ievadiet informāciju par vekseli cilnē **Vekselis**. Kad vekseļa žurnāla rindas ir iegrāmatotas, varat tās apskatīt lapā **Vekseļu žurnāla pieprasījums**, kā arī lapā **Vekseļu statistika**.
 Vekseļu apmaksas veida iestatīšana
 -----------------------------------------------
 
-Par **maksāšanas** lapu, izveidot vismaz vienu maksāšanas metodi vekseļus. Ja sadarbojaties ar vairāk nekā vienu bankas pārskaitījuma formātu katrai bankai ir nepieciešama vekseļiem, kas atbilst maksājumu veidu iestatīšana.
+Lapā **Maksāšanas metodes** iestatiet vekseļiem vismaz vienu maksāšanas metodi. Ja sadarbojaties vairāk nekā ar vienu banku, iestatiet maksājuma veidu, kas atbilst pārveduma formātam, kuru katra banka pieprasa attiecībā uz vekseļiem.
 Vekseļa maksājumu papildmaksu iestatīšana
 -----------------------------------------
 
-Maksājuma papildmaksa ir maksa, kas saistīta ar maksājumu iekasēšanas procesu no debitoriem. Rindas var būt vairākas Komisijas maksu iestatījumi saistīta katra Komisijas maksu. Var vadīt kā noklusējuma maksu summas tiek aprēķinātas, izmantojot iestatīšanas līnijām. Piemēram, varat izveidot iestatījumu rindas maksājumu veidiem, maksājumu specifikācijām, valūtām un laika periodiem. Varat arī izveidot uzstādīšanas rindas procenti vai summa, kas ir balstīta uz dienu starplaiku. Piemēram, varat iestatīt procentu likme, kas balstīta uz laiku ir nokavēts maksājums. Ja Banka iekasē dažādas nodevas dažādiem pārskaitījumu tipiem, piemēram, **kolekcijas** vai **Discount**, iestatiet atsevišķu maksājumu maksa rindu katram pārskaitījuma veidam.
+Maksājuma papildmaksa ir maksa, kas saistīta ar maksājumu iekasēšanas procesu no debitoriem. Ar katru maksājuma papildmaksu var būt saistītas vairākas maksājuma papildmaksas iestatījumu rindas. Varat izmantot iestatījumu rindas, lai kontrolētu to, kā noklusējuma maksājumu papildmaksu summas tiek aprēķinātas. Piemēram, varat izveidot iestatījumu rindas maksājumu veidiem, maksājumu specifikācijām, valūtām un laika periodiem. Varat arī izveidot iestatījumu rindas procentuālajam daudzumam vai summai, kas balstās uz dienu intervāliem. Piemēram, varat iestatīt procentu likmi, kas balstās uz laiku, par kādu maksājums ir nokavēts. Ja banka iekasē atšķirīgas papildmaksas par dažādiem pārskaitījumu veidiem, piemēram **Iekasēšana** vai **Atlaide**, iestatiet atsevišķu maksājuma papildmaksas rindu katram pārskaitījuma veidam.
 Iestatiet pārskaitījuma papildmaksas bankas pārskaitījuma failiem
 ------------------------------------------------
 
-Par **bankas kontiem** lapu, varat iestatīt pārskaitījuma izmaksas, kas bankai maksu par katru pārskaitījumu fails, kas tiek ģenerēts. Pārskaitījumu papildmaksas tiek grāmatotas, kad pārvedums ir akceptēts un ir zināmas realizēto papildmaksu summas. Pārskaitījuma maksas atšķiras no Komisijas maksām, ko iekasē no klientiem un pievienoti žurnāla rindas.
+Lapā **Bankas konti** varat iestatīt pārskaitījuma papildmaksas, ko banka iekasē par katru izveidoto pārveduma failu. Pārskaitījumu papildmaksas tiek grāmatotas, kad pārvedums ir akceptēts un ir zināmas realizēto papildmaksu summas. Papildmaksas par pārskaitījumu atšķiras no maksājumu papildmaksām, kas iekasētas no debitoriem un ir pievienotas žurnāla rindām.
 Vekseļu dokumentu izkārtojumu iestatīšana
 ---------------------------------------------
 
-Par **bankas kontiem** lapu, noklikšķiniet uz **iestatīt**, un norādiet dokumenta izkārtojumu, kas ir nepieciešams, katram bankas kontam, jums radīs drukātā vekseļu dokumentiem par.
+Lapā **Bankas konti** noklikšķiniet uz **Iestatīt** un norādiet dokumenta izkārtojumu, kas nepieciešams katram bankas kontam, kuram veidosit drukātus vekseļu dokumentus.
 Vekseļu debitoru iestatīšana
 --------------------------------------
 
-Par **klientiem** lapas, katram klientam, kurš ir piekritis maksāt, izmantojot vekseli, var iestatīt noklusēto maksāšanas veidu vekseļiem **maksājumu saistību nepildīšanas** tab.
+Lapā **Debitori** katram debitoram, kas piekritis maksāt, izmantojot vekseli, varat iestatīt vekseļu maksājuma noklusējuma metodi cilnē **Maksājuma noklusējuma informācija**.
+
+
 
 
 

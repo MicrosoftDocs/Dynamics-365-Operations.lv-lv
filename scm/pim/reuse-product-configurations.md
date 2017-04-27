@@ -1,5 +1,5 @@
 ---
-title: "Atkārtoti izmantot produkta konfigurācijām"
+title: "Preču konfigurāciju atkārtota izmantošana"
 description: "Varat norādīt, ka vēlaties automātiski atkārtoti izmantot esošu konfigurāciju kādai precei. Kad lietotājs ir pabeidzis konfigurācijas sesiju, sistēma pārbauda, vai jau pastāv lietotāja atlasēm atbilstoša konfigurācija. Ja tiek atrasta atbilstoša konfigurācija, tad konfigurācijas ID, atbilstošais materiālu komplekts (MK) un maršruts tiek izmantoti atkārtoti."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="reuse-product-configurations"></a>Atkārtoti izmantot produkta konfigurācijām
+# <a name="reuse-product-configurations"></a>Preču konfigurāciju atkārtota izmantošana
+
+[!include[banner](../includes/banner.md)]
+
 
 Varat norādīt, ka vēlaties automātiski atkārtoti izmantot esošu konfigurāciju kādai precei. Kad lietotājs ir pabeidzis konfigurācijas sesiju, sistēma pārbauda, vai jau pastāv lietotāja atlasēm atbilstoša konfigurācija. Ja tiek atrasta atbilstoša konfigurācija, tad konfigurācijas ID, atbilstošais materiālu komplekts (MK) un maršruts tiek izmantoti atkārtoti.
 
@@ -41,5 +44,7 @@ Lai iespējotu konfigurāciju atkārtotu izmantošanu, lapā **Detalizēta infor
 
 ## <a name="resetting-configuration-reuse"></a>Konfigurācijas atkārtotas izmantošanas atiestatīšana
 Kad atlasāt konfigurācijas atkārtota izmantošanas atiestatīšanu, iepriekš izveidotās konfigurācijas vairs netiek ņemtas vērā. Konfigurāciju atkārtotu izmantošanu varat vēlēties atiestatīt, ja ir mainīts MK vai maršruts, bet nav mainīti saistītie atribūti. Konfigurācijas atkārtotu izmantošanu komponentam varat atiestatīt kopsavilkuma cilnē **Vispārīgi**.
+
+
 
 

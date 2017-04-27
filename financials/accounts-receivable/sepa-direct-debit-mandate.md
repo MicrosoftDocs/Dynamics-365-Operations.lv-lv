@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-sepa-direct-debit-mandate"></a>SEPA tiešā debeta mandāta iestatīšana
 
+[!include[banner](../includes/banner.md)]
 
 
-Vienotās eiro maksājumu zonas (Single Euro Payment Area — SEPA) tiešais debets kreditoram ļauj iekasēt līdzekļus no debitora bankas konta ar nosacījumu, ka debitors kreditoram ir piešķīris parakstītu mandātu. Debitora parakstītais mandāts pilnvaro kreditoru iekasēt maksājumu un klienta bankai sniedz norādījumus par iekasējamās summas izmaksāšanu. Šajā tēmā ir organizēta parādīt procesu iestatīšanai SEPA tiešā debeta pilnvarojumu.
+
+
+Vienotās eiro maksājumu zonas (Single Euro Payment Area — SEPA) tiešais debets kreditoram ļauj iekasēt līdzekļus no debitora bankas konta ar nosacījumu, ka debitors kreditoram ir piešķīris parakstītu mandātu. Debitora parakstītais mandāts pilnvaro kreditoru iekasēt maksājumu un klienta bankai sniedz norādījumus par iekasējamās summas izmaksāšanu. Šī tēma ir sakārtota, lai parādītu SEPA tiešā debeta mandātu iestatīšanas procesu.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 Tālāk esošajā tabulā ir norādīti priekšnoteikumi, kas ir jāizpilda pirms darba sākšanas.
@@ -37,15 +40,17 @@ Tālāk esošajā tabulā ir norādīti priekšnoteikumi, kas ir jāizpilda pirm
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Valsts/reģions | Juridiskās personas primārajai adresei ir jābūt šādās valstīs/reģionos: Austrija, Beļģija, Vācija, Spānija, Francija, Itālija vai Nīderlande. |
 
-1. Iestatiet numuru sēriju, lai tiešā debeta pilnvarojumu katra tiešā debeta pilnvarojumu ir jābūt unikālam numuram. Lai tiešā debeta mandātiem izveidotu numuru sēriju, izmantojiet lapu **Numuru sērijas**. Šis identifikators ir jāizmanto, lai tiešā debeta mandātu sistēmai piešķirtu numuru sēriju lapā **Debitoru moduļa parametri**.
+1. Numuru sērijas iestatīšana tiešā debeta mandātiem Katram tiešā debeta mandātam ir nepieciešams unikāls numurs. Lai tiešā debeta mandātiem izveidotu numuru sēriju, izmantojiet lapu **Numuru sērijas**. Šis identifikators ir jāizmanto, lai tiešā debeta mandātu sistēmai piešķirtu numuru sēriju lapā **Debitoru moduļa parametri**.
 
-2. Iestatiet kontu saņemamajiem parametriem tiešā debeta pilnvarojumu izmantot **Accounts receivable parameters** lapu, lai iestatītu parametrus tiešā debeta pilnvarojumu. Lai iestatītu parametrus, no **tiešā debeta** cilni, cik jums nepieciešams mainīt noklusētos parametrus. Tad, **numuru sērijas** cilni, atjaunināt **tiešā debeta pilnvarojumu ID** lauku ar numuru sēriju, kuru izveidojāt.
+2. Debitoru parādu parametru iestatīšana tiešā debeta mandātiem Lai iestatītu parametrus tiešā debeta mandātiem, izmantojiet lapu **Debitoru moduļa parametri**. Lai iestatītu parametrus, cilnē **Tiešais debets** pēc nepieciešamības mainiet noklusējuma parametrus. Pēc tam cilnē **Numuru sērijas** lauku **Tiešā debeta mandāta ID** atjauniniet ar iepriekš iestatīto numuru sēriju.
 
-3. Maksājumu veidu iestatīšana par tiešā debeta pilnvaras, jums ir jāuzstāda maksāšanas tiešā debeta pilnvarojumu. Šo maksāšanas metodi jūs izmantojat, lai veidotu vaicājumus par rēķiniem, kam izveidot tiešā debeta maksājumus. Lai iestatītu maksāšanas metodi, izmantojiet lapu **Maksāšanas metodes**. Lai iestatītu maksāšanas metodi tiešā debeta mandātiem, jums ir jāizpilda šādas papildu darbības maksāšanas metodei:
+3. Maksājumu metodes iestatīšana tiešā debeta mandātiem Jums jāiestata maksāšanas metode tiešā debeta mandātiem. Šo maksāšanas metodi jūs izmantojat, lai veidotu vaicājumus par rēķiniem, kam izveidot tiešā debeta maksājumus. Lai iestatītu maksāšanas metodi, izmantojiet lapu **Maksāšanas metodes**. Lai iestatītu maksāšanas metodi tiešā debeta mandātiem, jums ir jāizpilda šādas papildu darbības maksāšanas metodei:
 
 -   Laukā **Maksājuma tips** atlasiet **Elektronisks maksājums**.
--   Pēc izvēles: Ja jums gaidīt, visiem klientiem ir vairākas pilnvaras, jo **periods** lauku, atlasiet **rēķina**. Katram rēķinam tiks izveidota atsevišķa maksājuma un katru maksājumu izmantos pilnvaras, kas ir norādīts rēķina.
+-   Neobligāti: ja plānojat, ka katram klientam būs vairāki mandāti, laukā **Periods** atlasiet vienumu **Rēķins**. Katram rēķinam tiks izveidots atsevišķs maksājums, un katrs maksājums izmantos mandātu, kas ir norādīts rēķinam.
 -   Atlasiet opciju **Pieprasīt mandātu**, lai izveidotu maksājumus, izmantojot tiešā debeta mandātus. Opcija **Pieprasīt mandātu** ir pieejama tikai tad, ja laukā **Maksājuma tips** atlasāt vērtību **Elektronisks maksājums**.
 
-Sk. arī [tiešā debeta pārskats](sepa-direct-debit-overview.md) 
+Skatiet arī sadaļu [Tiešā debeta pārskats](sepa-direct-debit-overview.md) 
+
+
 

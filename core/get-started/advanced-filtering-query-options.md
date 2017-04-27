@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="advanced-filtering-and-query-syntax"></a>Papildu filtrēšanas un vaicājumu sintakse
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā aprakstītas filtrēšanas un vaicājumu opcijas, kas ir pieejamas, izmantojot “atbilstību” operatoru dialoglodziņā Detalizētā filtrēšana/kārtošana.
 
-<a name="advanced-query-syntax"></a>Papildu vaicājuma sintaksi
+<a name="advanced-query-syntax"></a>Papildu vaicājumu sintakse
 ---------------------
 
 <table>
@@ -43,7 +46,7 @@ ms.lasthandoff: 03/31/2017
 <tr class="header">
 <th>Sintakse</th>
 <th>Simbolu apraksts</th>
-<th>apraksts</th>
+<th>Apraksts</th>
 <th>Piemērs</th>
 </tr>
 </thead>
@@ -52,79 +55,79 @@ ms.lasthandoff: 03/31/2017
 <td><em>vērtība</em></td>
 <td>Vienāds ar ievadīto vērtību.</td>
 <td>Ierakstiet meklējamo vērtību.</td>
-<td><strong>Smith</strong> atrod &quot;Smith&quot;.</td>
+<td><strong>Smits</strong> atrod &quot;Smits&quot;.</td>
 </tr>
 <tr class="even">
-<td>! <em>vērtību</em> (izsaukuma zīme)</td>
+<td>!<em>vērtība</em> (izsaukuma zīme)</td>
 <td>Nav vienāds ar ievadīto vērtību.</td>
 <td>Ierakstiet izsaukuma zīmi un tad vērtību, kas jāizslēdz.</td>
-<td><strong>! Smith</strong> atrod visas vērtības izņemot &quot;Smith&quot;.</td>
+<td><strong>!Smits</strong> atrod visas vērtības, izņemot vērtību &quot;Smits&quot;.</td>
 </tr>
 <tr class="odd">
-<td><em>vērtība no</em>..<em>vērtība līdz</em> (dubultie periodi)</td>
-<td>Starp divām vērtībām, kas atdalītas ar dubultiem punktiem.</td>
+<td><em>vērtība no</em>..<em>vērtība līdz</em> (divpunkte)</td>
+<td>Starp divām vērtībām, kas atdalītas ar divpunkti</td>
 <td>Ierakstiet, no kuras vērtības, pēc tam divus punktus un līdz kurai vērtībai.</td>
-<td><strong>1..10</strong> atrod visas vērtības no 1 līdz 10. Tomēr virkne laukā, <strong>.. C</strong> atrod visas vērtības, kas sākas ar &quot;A&quot; un &quot;B&quot;, un vērtības, kas ir precīzi vienāda ar &quot;C&quot;. Piemēram, šis vaicājums neatradīsiet &quot;Ca&quot;. Lai atrastu visas vērtības no &quot;A*&quot; caur &quot;C*&quot;, tipa <strong>.. D</strong>.</td>
+<td><strong>1..10</strong> atrod visas vērtības no 1 līdz 10. Taču teksta laukā vaicājums <strong>A..C</strong> atrod visas vērtības, kas sākas ar &quot;A&quot; un &quot;B&quot;, kā arī vērtības, kas ir vienādas tieši ar &quot;C&quot;. Piemēram, šis vaicājums neatradīs vērtību &quot;Ca&quot;. Lai atrastu visas vērtības no &quot;A*&quot; līdz &quot;C*&quot;, ierakstiet <strong>A..D</strong>.</td>
 </tr>
 <tr class="even">
-<td>..<em>vērtība</em> (dubultie periodi)</td>
+<td>..<em>vērtība</em> (divpunkte)</td>
 <td>Mazāks vai vienāds ar ievadīto vērtību.</td>
 <td>Ierakstiet divus punktus un pēc tam vērtību.</td>
-<td><strong>.. 1000</strong> atrod visus skaitļus, kas mazāki vai vienādi ar 1000, piemēram, &quot;100&quot;, &quot;999,95&quot;, un &quot;1000&quot;.</td>
+<td><strong>..1000</strong> atrod visus skaitļus, kas ir mazāki par vai vienādi ar 1000, piemēram, &quot;100&quot;, &quot;999,95&quot; un &quot;1000&quot;.</td>
 </tr>
 <tr class="odd">
-<td><em>vērtība</em>.. (dubultie periodi)</td>
+<td><em>vērtība</em>.. (divpunkte)</td>
 <td>Lielāks vai vienāds ar ievadīto vērtību.</td>
 <td>Ierakstiet vērtību un tad divus punktu.</td>
-<td><strong>1000..</strong> Atrod visus skaitļus, kas lielāki vai vienādi ar 1000, piemēram, &quot;1000&quot;, &quot;1000,01&quot;, un &quot;1000000&quot;.</td>
+<td><strong>1000..</strong> atrod visus skaitļus, kas ir lielāki par vai vienādi ar 1000, piemēram, &quot;1000&quot;, &quot;1000,01&quot; un &quot;1 000 000&quot;.</td>
 </tr>
 <tr class="even">
-<td>&gt;<em>vērtību</em> (zīme lielāks nekā)</td>
+<td>&gt;<em>vērtība</em> (zīme “lielāks par”)</td>
 <td>Lielāka par ievadīto vērtību.</td>
-<td>Zīme lielāks nekā ierakstiet (<strong>&gt;</strong>) un pēc tam vērtību.</td>
-<td><strong>&gt;1000</strong> atrod visus skaitļus, kas ir lielāka par 1000, piemēram, &quot;1000.01&quot;, &quot;20000&quot;, un &quot;1000000&quot;.</td>
+<td>Ierakstiet zīmi “lielāks par” (<strong>&gt;</strong>) un pēc tam vērtību.</td>
+<td><strong>&gt;1000</strong> atrod visus skaitļus, kas ir lielāki par 1000, piemēram, &quot;1000,01&quot;, &quot;20 000&quot; un &quot;1 000 000&quot;.</td>
 </tr>
 <tr class="odd">
-<td>&lt;<em>vērtību</em> (zīme mazāks nekā)</td>
+<td>&lt;<em>vērtība</em> (zīme “mazāks par”)</td>
 <td>Mazāka par ievadīto vērtību.</td>
-<td>Ievadiet mazāk nekā zīme (<strong>&lt;</strong>) un pēc tam vērtību.</td>
-<td><strong>&lt;1000</strong> atrod visus skaitļus, kas mazāki par 1000, piemēram, &quot;999,99&quot;, &quot;1&quot;, un &quot;-200&quot;.</td>
+<td>Ierakstiet zīmi “mazāks par” (<strong>&lt;</strong>) un pēc tam vērtību.</td>
+<td><strong>&lt;1000</strong> atrod visus skaitļus, kas ir mazāki 1000, piemēram, &quot;999,99&quot;, &quot;1&quot; un &quot;-200&quot;.</td>
 </tr>
 <tr class="even">
-<td><em>vērtību</em>* (zvaigznīte)</td>
+<td><em>vērtība</em>* (zvaigznīte)</td>
 <td>Sākot no ievadītas vērtības.</td>
 <td>Ierakstiet sākuma vērtību un pēc tam zvaigznīti (<strong>*</strong>).</td>
-<td><strong>S *</strong> atrod jebkuru virkni, kas sākas ar &quot;S&quot;, piemēram, &quot;Stokholmas&quot;, &quot;Sydney&quot;, un &quot;San Francisco&quot;.</td>
+<td><strong>S*</strong> atrod jebkuru virkni, kas sākas ar &quot;S&quot;, piemēram, &quot;Stokholma&quot;, &quot;Sidneja&quot; un &quot;Sanfrancisko&quot;.</td>
 </tr>
 <tr class="odd">
-<td>*<em>value</em> (asterisk)</td>
+<td>*<em>vērtība</em> (zvaigznīte)</td>
 <td>Beidzas ar ievadīto vērtību.</td>
 <td>Ierakstiet zvaigznīti un pēc tam beidzamo vērtību.</td>
-<td><strong>* Austrumi</strong> atrod jebkuru virkni, kas beidzas ar &quot;austrumu&quot;, piemēram, &quot;ziemeļaustrumu&quot; un &quot;Dienvidaustrumu&quot;.</td>
+<td><strong>*austrumi</strong> atrod jebkuru virkni, kas beidzas ar &quot;austrumi&quot;, piemēram, &quot;ziemeļaustrumi&quot; un &quot;dienvidaustrumi&quot;.</td>
 </tr>
 <tr class="even">
-<td>*<em>vērtību</em>* (zvaigznīte)</td>
+<td>*<em>vērtība</em>* (zvaigznīte)</td>
 <td>Satur ievadīto vērtību.</td>
 <td>Ierakstiet zvaigznīti, pēc tam vērtību un vēl vienu zvaigznīti.</td>
-<td><strong>*th*</strong> atrod jebkuru virkni, kas satur &quot;th&quot;, piemēram, &quot;ziemeļaustrumu&quot; un &quot;Dienvidaustrumu&quot;.</td>
+<td><strong>*au*</strong> atrod jebkādu virkni, kas ietver &quot;au&quot;, piemēram, &quot;ziemeļaustrumi&quot; un &quot;dienvidaustrumi&quot;.</td>
 </tr>
 <tr class="odd">
 <td>? (jautājuma zīme)</td>
 <td>Satur vienu vai vairākas nezināmas zīmes.</td>
 <td>Ierakstiet jautājuma zīmi nezināmās zīmes vietā vērtībā.</td>
-<td><strong>SM? th</strong> atrod &quot;Smith&quot; un &quot;Smyth&quot;.</td>
+<td><strong>Sm?ts</strong> atrod &quot;Smits&quot; un &quot;Smats&quot;.</td>
 </tr>
 <tr class="even">
 <td><em>vērtība</em>,<em>vērtība</em> (komats)</td>
 <td>Atbilst vērtībām, kas atdalītas ar komatiem.</td>
 <td>Ierakstiet visus kritērijus un atdaliet tās ar komatiem.</td>
-<td><strong>A, D, F, G</strong> finds exactly &quot;A&quot;, &quot;D&quot;, &quot;F&quot;, and &quot;G&quot;. <strong>10, 20, 30, 100</strong> atrod tieši &quot;10, 20, 30, 100&quot;.</td>
+<td><strong>A, D, F, G</strong> atrod tieši &quot;A&quot;, &quot;D&quot;, &quot;F&quot; un &quot;G&quot;. <strong>10, 20, 30, 100</strong> atrod tieši &quot;10, 20, 30, 100&quot;.</td>
 </tr>
 <tr class="odd">
 <td>(<span class="code">SQL priekšraksts</span>) (SQL priekšraksts iekavās)</td>
 <td>Atbilst definētajam vaicājumam.</td>
 <td>Ierakstiet vaicājumu kā SQL priekšraksts apaļās iekavās.</td>
-<td><strong><span class="code">(datu avots. FIELDNAME! = &quot;A&quot;)</span></strong></td>
+<td><strong><span class="code">(datu avots.Lauka nosaukums != &quot;A&quot;)</span></strong></td>
 </tr>
 <tr class="even">
 <td>O</td>
@@ -137,7 +140,7 @@ ms.lasthandoff: 03/31/2017
 <td>Atbilstība metodes <strong>SysQueryRangeUtil</strong> parametru norādītajai vērtībai vai vērtību diapazonam</td>
 <td>Ierakstiet metodi <strong>SysQueryRangeUtil</strong>, kurai ir parametri, kas norāda vērtību vai vērtību diapazonu.</td>
 <td><ol>
-<li>Noklikšķiniet uz <strong>Debitori</strong>&gt;<strong>rēķinus</strong>&gt;<strong>atvērt debitoru rēķiniem</strong>.</li>
+<li>Noklikšķiniet uz <strong>Debitoru parādi</strong> &gt; <strong>Rēķini</strong> &gt; <strong>Atvērtie debitoru rēķini</strong>.</li>
 <li>Nospiediet taustiņu kombināciju Ctrl+Shift+F3, lai atvērtu lapu <strong>Uzziņas</strong>.</li>
 <li>Cilnē <strong>Diapazons</strong> noklikšķiniet uz <strong>Pievienot</strong>.</li>
 <li>Laukā <strong>Tabula</strong> atlasiet <strong>Neapmaksātās debitora darbības</strong>.</li>
@@ -228,6 +231,8 @@ Papildinformāciju, kā arī vairākus piemērus par <strong>SysQueryRangeUtil</
 </tr>
 </tbody>
 </table>
+
+
 
 
 

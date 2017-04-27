@@ -1,6 +1,6 @@
 ---
 title: "Virsgrāmatas slēgšana perioda beigās"
-description: "Šajā tēmā ir aprakstīti uzdevumi, kas parasti ir pabeigti, veicot perioda slēgšanas Virsgrāmatas."
+description: "Šajā tēmā ir aprakstīti uzdevumi, kas parasti tiek veikti, virsgrāmatai izpildot perioda slēgšanu."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="close-the-general-ledger-at-period-end"></a>Virsgrāmatas slēgšana perioda beigās
 
-Šajā tēmā ir aprakstīti uzdevumi, kas parasti ir pabeigti, veicot perioda slēgšanas Virsgrāmatas. 
+[!include[banner](../includes/banner.md)]
 
-Virsgrāmatā varat izpildīt perioda vai gada slēgšanas procedūru. Slēgšanas procesi sagatavo sistēmu jaunajam periodam. Lai sagatavotu sistēmu jauno gadu, jāpalaiž gada beigās ciešā process. Katrai organizācijai ir dažādi procesi un darbības, ko tā veic attiecībā uz perioda beigām. Šeit ir daži papildu pasākumi attiecībā uz perioda beigām:
+
+Šajā tēmā ir aprakstīti uzdevumi, kas parasti tiek veikti, virsgrāmatai izpildot perioda slēgšanu. 
+
+Virsgrāmatā varat izpildīt perioda vai gada slēgšanas procedūru. Slēgšanas procesi sagatavo sistēmu jaunajam periodam. Lai sistēmu sagatavotu jaunam gadam, ir jāpalaiž gada beigu slēgšanas process. Katrai organizācijai ir atšķirīgi procesi un darbības, kas jāveic perioda beigās. Dažas no neobligātajām darbībām perioda beigās ir šādas:
 
 -   pabeigt visus uzdevumus visiem citiem moduļiem, piemēram, Debitoru parādi, Kreditori un Krājumi;
 -   pārbaudīt, vai visi žurnāli ir grāmatoti;
@@ -39,9 +42,11 @@ Virsgrāmatā varat izpildīt perioda vai gada slēgšanas procedūru. Slēgšan
 -   reģistrēt žurnālā darbības un pārskatīt pārskatu **Virsgrāmatas žurnāls**;
 -   veikt konsolidāciju, izmantojot konsolidēšanas uzņēmumu vai finanšu pārskatu;
 -   ģenerēt perioda beigu finanšu pārskatus, izmantojot finanšu pārskatus;
--   iestatīt virsgrāmatas periodiem statusu **Aizturēta**, lai tālāka grāmatošana netiek veikta. Lai atvieglotu kontroli, var arī ierobežot periodu noteiktai lietotāju grupai, kamēr tiek izpldītas perioda beigu darbības. Tā nav laba ideja, lai iestatītu periodus, lai **neatgriezeniski slēgta**, jo nevar atvērt periodu, kas ir slēgts.
+-   iestatīt virsgrāmatas periodiem statusu **Aizturēta**, lai tālāka grāmatošana netiek veikta. Lai atvieglotu kontroli, var arī ierobežot periodu noteiktai lietotāju grupai, kamēr tiek izpldītas perioda beigu darbības. Nav ieteicams periodiem iestatīt statusu **Neatgriezeniski slēgts**, jo slēgtu periodu nevar atvērt atkārtoti.
 
-Finanšu perioda aizvērt darbvietu var izmantot, lai organizētu un izsekotu uzdevumus, kas nepieciešami dažādu perioda beigas procesiem. Sk [finanšu perioda aizvērt darbvietu](financial-period-close-workspace.md) un [tuvāk gada beigām](Year-end-close.md) tēmas, lai iegūtu vairāk informācijas. 
+Lai kārtotu un izsekotu dažādu periodu beigu procesiem nepieciešamos uzdevumus, var lietot darbvietu Finanšu perioda slēgšana. Plašāku informāciju skatiet tēmā [Finanšu perioda slēgšanas darbvieta](financial-period-close-workspace.md) un [Gada beigu slēgšana](Year-end-close.md). 
+
+
 
 
 

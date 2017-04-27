@@ -1,6 +1,6 @@
 ---
 title: "Mainīgās atlīdzības plānu izveide"
-description: "Mainīgā atlīdzība veido darbinieka nestandarta algu, piemēram, prēmijas vai samaksu uzņēmuma akcijās. Šajā tēmā ir aprakstīti komponenti, kas jāiestata pirms varat izmantot mainīgās atlīdzības un darbinieku dalību mainīgās atlīdzības plānu."
+description: "Mainīgā atlīdzība veido darbinieka nestandarta algu, piemēram, prēmijas vai samaksu uzņēmuma akcijās. Šajā tēmā ir aprakstīti komponenti, kas ir jāiestata, lai varētu izmantot mainīgo atlīdzību un darbinieku reģistrēt mainīgās atlīdzības plānā."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-variable-compensation-plans"></a>Mainīgās atlīdzības plānu izveide
 
+[!include[banner](includes/banner.md)]
+
+
 Mainīgā atlīdzība veido darbinieka nestandarta algu, piemēram, prēmijas vai samaksu uzņēmuma akcijās. Šajā rakstā ir aprakstīti komponenti, kas ir jāiestata, lai varētu izmantot mainīgo atlīdzību un darbinieku reģistrēt mainīgās atlīdzības plānā.
 
 Mainīgās atlīdzības summas saviem darbiniekiem var aprēķināt, ņemot vērā vairākus faktorus, piemēram, darbinieka sniegumu, darbinieka kompensācijas līmeni un nodaļas sniegumu.
@@ -39,22 +42,22 @@ Mainīgās atlīdzības summas saviem darbiniekiem var aprēķināt, ņemot vēr
 
 ### <a name="describe-vesting-rules"></a>Izmaksas nosacījumu aprakstīšana
 
-Ja nepieciešams, uzņēmumi var iestatīt **Izmaksas nosacījumus**. Garantēšanas noteikumi apraksta, kā mainīgo piešķiršanas būtu jāsadala laika gaitā. Piemēram, garantēšanas noteikumu varētu norādīt, ka darbinieks saņem 25 procenti no viņa vai viņas kopējais balvu katru gadu nākamo četru gadu laikā. Garantēšanas noteikumi ir tikai informatīvs.
+Ja nepieciešams, uzņēmumi var iestatīt **Izmaksas nosacījumus**. Izmaksas nosacījumos tiek aprakstīts, kā laika gaitā jāsadala mainīgās atlīdzības. Piemēram, izmaksu nosacījumā var būt norādīts, ka darbinieks saņems 25 procentus no viņa vai viņas kopējās atlīdzības katru gadu četru gadu laikā. Izmaksas nosacījumiem ir tikai informatīvs nolūks.
 
 ## <a name="variable-compensation-plans"></a>Atlīdzības mainīgās daļas struktūras
-**Mainīgās atlīdzības plāns** satur mainīgās atlīdzības aprēķina kārtulas, metodes un noklusētās vērtības attiecīgajiem darbiniekiem. Kad veidojat mainīgās atlīdzības plānu, ir jāiestata mainīgās atlīdzības veids. Mainīgās atlīdzības tips nosaka, vai sistēma aprēķina valūtas daudzums vai vienību skaits kā balvu. Jums jāiestata arī aprēķina metode.
+**Mainīgās atlīdzības plāns** satur mainīgās atlīdzības aprēķina kārtulas, metodes un noklusētās vērtības attiecīgajiem darbiniekiem. Kad veidojat mainīgās atlīdzības plānu, ir jāiestata mainīgās atlīdzības tips. Mainīgās atlīdzības tips nosaka, vai sistēma kā atlīdzību aprēķina valūtas summu vai vienību skaitu. Jums jāiestata arī aprēķina metode.
 
--   **Laika posmam,** -mainīgo piešķiršanas aprēķinu pamatā ir noteikta kompensācija, ko darbinieks bija noteiktā datumā. Šis datums ir norādīts procesu gadījumā, ja jaunā kompensācijas summas tiek apstrādāti.
--   **Salikts** — atlīdzības summa tiek aprēķināta katrai unikalajai fiksētas atlīdzības izmaksu likmei, kas procesa notikumā darbiniekam bija iestatita no perioda sākuma datuma līdz perioda beigu datumam. Likmes tiek pievienoti kopā, lai noteiktu galīgo piešķiršanu. Piemēram, ciklā, darbiniekam pārsūtīt uz citu vietu, kas bija dažādi apmaksas likme. Šajā gadījumā mainīgā atlīdzība tiek pielāgota atbilstoši laika periodam, kad darbiniekam bija paredzēta katra izmaksu likme.
+-   **Noteiktā laikā** — mainīgās atlīdzības aprēķina pamatā ir fiksēta atlīdzība, kas darbiniekam ir jāizmaksā noteiktā datumā. Šis datums tiek norādīts procesa notikumā, kad tiek apstrādātas jaunas atlīdzības summas.
+-   **Salikts** — atlīdzības summa tiek aprēķināta katrai unikalajai fiksētas atlīdzības izmaksu likmei, kas procesa notikumā darbiniekam bija iestatita no perioda sākuma datuma līdz perioda beigu datumam. Pēc tam likmes tiek saskaitītas, lai noteiktu gala atlīdzību. Piemēram, cikla laikā darbinieks tika pārcelts citā amatā, kam paredzēta citāda izmaksu likme. Šajā gadījumā mainīgā atlīdzība tiek pielāgota atbilstoši laika periodam, kad darbiniekam bija paredzēta katra izmaksu likme.
 
 Mainīgās atlīdzības summu var izteikt vai nu procentos no darbinieka parastās pamata izpeļņas, vai arī kā vienību skaita kopu.
 
--   Atlasiet opciju **Pamatsummas procenti**, lai ievadiet noklusējuma procentuālo vērtību, un pēc tam norādiet, vai pamatsumma ir darbinieka fiksētā izmaksu likme vai atskaites punkts darbinieka atlīdzības līmenim. Kompensācijas līmenis ir iestatīts uz darbinieka darbu. Viens no atskaites punktiem no kompensācijas struktūra var iestatīt kā kontroles punktā fiksētā kompensācijas plānu. Sistēma izmanto kompensāciju līmeni no darbinieka darba un norādītu iekšējo atsauci ar kontroles punktā, kas norādīts darbinieka fiksētā kompensācijas plānu kontroles punktu summu atrast darbinieka kompensācijas līmeni. Kontroles punktu summa pēc tam izmantos nevis darbinieka fiksētas samaksas likmes par pamatu piešķiršanas.
--   Atlasiet opciju** Vienību skaits**, lai ievadītu noklusējuma vienību skaitu, katras vienības vērtību un vienības vērtības valūtu, ja atlīdzības plāns ir bezskaidras naudas atlīdzībai (piemēram, 200 vienības krājuma, kas tiek novērtētas 40 USD vērtībā), vai tikai vienību skaitu, ja atlīdzības plāns katrai skaidras naudas atlīdzībai. Par naudas balvu, darbinieks saņem norādītā valūta, kuru izmanto viņa vai viņas fiksētā kompensācijas plānu (piemēram, 500 vienību 1 USD) vienību skaits. Relācija viens pret vienu vadības elementu var izmantot, lai norādītu, vai ir tiešu divpusēju kartēšanu starp vienību skaitu un vienības vērtība. Veidojot naudas bāzes plāna mainīgās atlīdzības plānu, izmantojot vienību skaitu, šī opcija tiek automātiski bloķēta, lai **Jā**, un vienības vērtība ir **1.0000**.
+-   Atlasiet opciju **Pamatsummas procenti**, lai ievadiet noklusējuma procentuālo vērtību, un pēc tam norādiet, vai pamatsumma ir darbinieka fiksētā izmaksu likme vai atskaites punkts darbinieka atlīdzības līmenim. Atlīdzības līmenis tiek iestatīts darbinieka darbam. Vienu atsauces punktu no atlīdzības struktūras var iestatīt kā atskaites punktu fiksētās atlīdzības plānā. Sistēma izmanto atlīdzības līmeni no darbinieka darba un veido tam krustenisko atsauci ar atskaites punktu, kas ir norādīts darbinieka fiksētas atlīdzības plānā, lai atrastu darbinieka atlīdzības līmeņa kontroles punkta summu. Pēc tam kā atlīdzības pamatsumma tiek izmantota kontroles punkta summa, nevis darbinieka fiksēto izmaksu likme.
+-   Atlasiet opciju** Vienību skaits**, lai ievadītu noklusējuma vienību skaitu, katras vienības vērtību un vienības vērtības valūtu, ja atlīdzības plāns ir bezskaidras naudas atlīdzībai (piemēram, 200 vienības krājuma, kas tiek novērtētas 40 USD vērtībā), vai tikai vienību skaitu, ja atlīdzības plāns katrai skaidras naudas atlīdzībai. Naudas atlīdzības gadījumā darbinieks saņems norādīto vienību skaitu tajā valūtā, kas tiek izmantota viņa vai viņas fiksētas atlīdzības plānā (piemēram, 500 vienības ar vērtību 1 USD). Relācijas “viens pret vienu” kontroli var izmantot, lai norādītu, vai starp vienību skaitu un vienības vērtību pastāv tiešs “viens pret vienu” kartējums. Kad veidojat mainīgās atlīdzības plānu izmaksām skaidrā naudā, izmantojot vienību skaitu, šī opcija automātiski tiek bloķēta uz **Jā**, un vienības vērtība ir **1,0000**.
 
-**Nomas noteikuma** iestatījums ļauj norādīt, vai visi darbinieki būtu jāsaņem pats palielinājums, neatkarīgi no laika, viņi bija pieņemti darbā (**nomas noteikuma** = **neviens**), vai vai darbiniekiem vajadzētu saņemt procentos no balvu, kuras pamatā ir darba cikla laikā garumu (**nomas noteikuma** = **procenti**). 
+Izmantojot iestatījumu **Nolīgšanas kārtula**, varat norādīt, vai visiem darbiniekiem ir jāsaņem vienāds palielinājums neatkarīgi no datuma, kurā viņi tika pieņemti darbā (**Nolīgšanas kārtula** = **Nav**), vai arī šiem darbiniekiem ir jāsaņem procenti no atlīdzības atkarībā no tā, cik ilgi viņi bija nodarbināti cikla laikā (**Nolīgšanas kārtula** = **Procenti**). 
 
-**Sviras** ļauj jums pielāgot darbinieka piešķiršanu, pamatojoties uz darbinieka departamenta darbību. Veiktspējas rādītājus var iestatīt katrai nodaļai **departamentu** lapu, zem **saistītās formas**&gt;**kompensāciju**&gt;**sniegumu**. Piešķiršanas darbiniekiem šajā departamentā saņemtās ir atkarīga no vērtības **procenti no mērķa sasniegt** jomā, kas norāda departamenta darbību:
+**Līdzekļu faktors** — ļauj koriģēt darbinieku atlīdzību, ņemot vērā darbinieka nodaļas sniegumu. Veiktspējas rādītājus katrai nodaļai var iestatīt lapas **Nodaļas** sadaļā **Saistītās formas** &gt; **Atlīdzība** &gt; **Veiktspēja**. Atlīdzība, ko saņem attiecīgās nodaļas darbinieki, ir atkarīga no vērtības laukā **Sasniegtie mērķa procenti**, kas norāda nodaļas sniegumu.
 
 -   Ja nodaļas sniegums ir 100 procenti, atlīdzība šīs nodaļas darbiniekiem tiek aprēķināta, ņemot vērā procentuālo vērtību, kas ir iestatīta laukā** Izmaksa pie 100%**.
 -   Ja nodaļas sniegums ir lielāks par 100 procentiem, sistēma pievieno procentu likmi, kas ir iestatīta laukā **Katram 1% virs mērķa**, procentu likmei, kas ir iestatīta laukā **Izmaksa pie 100%**, līdz tiek sasniegta vērtība, kas ir iestatīta laukā **Augstākā pieļaujamā izmaksa**.
@@ -62,11 +65,11 @@ Mainīgās atlīdzības summu var izteikt vai nu procentos no darbinieka parast�
 
 Varat iestatīt** tolerances līmeņus** no sliekšņa procentuālajām vērtībām. Tādējādi tiks parādīts brīdinājuma ziņojums, ja tolerances rezultātā procentuālā vērtība pārsniedz procentuālās vērtības slieksni. 
 
-Pēc noklusējuma sistēma meklē departaments, kas ir iestatīts uz darbinieka amatā. Tomēr balvu par dažiem darbiniekiem var atkarīgs no vairāku struktūrvienību. Šajā gadījumā dažādos departamentos un procentuālo daudzumu piešķiršanas, kas piešķirts katrai nodaļai sniegumu var iestatīt darbinieka mainīgās atlīdzības iesaistīšanās. Lai iegūtu papildinformāciju, skatiet sadaļu "mainīgās atlīdzības iesaistīšanās", kas seko. 
+Pēc noklusējuma sistēma meklē nodaļu, kas ir iestatīta darbinieka amatam. Taču dažu darbinieku atlīdzība var būt atkarīga no vairāku nodaļu snieguma. Tādā gadījumā dažādas nodaļas un atlīdzības procentuālo vērtību, kas tiek piešķirta atkarībā no katras nodaļas snieguma, var iestatīt darbinieka mainīgās atlīdzības reģistrācijas lapā. Papildinformāciju skatiet sadaļā “Mainīgās atlīdzības reģistrācija”. 
 
 Tolerance tiek izmantota tikai tad, ja atlīdzības procesa laika tika atlasīta opcija** Alga par rezultātiem**. 
 
-**Līmeņos ignorē** zīmne ļauj ignorēt balvu noklusējuma procentuālais daudzums vai vienību skaits, pamatojoties uz darbinieka kompensācijas apmēru. Ja **iespējot ignorē līmeņiem** ir iestatīts uz **Jā** darbiniekiem, kuri ir iesaistījušies mainīgās atlīdzības plānu, sistēma ņem no darbinieka darba līmeni, un tad meklē līmeņu ignorē tabulu, lai noteiktu procentuālo daļu vai vienību līmenī. Ja līmenis nav atrodams līmeni ignorē tabulas, noklusējuma procentuālo daļu vai vienību skaits **vispārējā** tiek izmantots cilnē. Procentuālo daudzumu un vienību skaits var arī ignorēt uz darbinieka iesaistīšanos mainīgās atlīdzības plānā.
+Cilnē **Līmeņu ignorēšana** varat ignorēt atlīdzības noklusējuma procentuālo vērtību vai vienību skaitu, pamatojoties uz darbinieka atlīdzības līmeni. Ja vienums **Iespējot ignorēšanu līmeņiem** ir iestatīts uz **Jā** tiem darbiniekiem, kuri ir reģistrēti mainīgās atlīdzības plānam, tad sistēma ņem līmeni no darbinieka darba un pēc tam meklē to līmeņu ignorēšanas tabulā, lai šim līmenim noteiktu procentuālo vērtību vai vienību skaitu. Ja līmeņu ignorēšanas tabulā līmenis nav atrodams, tiek izmantota noklusējuma procentuālā vērtība vai vienību skaits no cilnes **Vispārīgi**. Procentuālo vērtību un vienību skaitu var ignorēt arī darbinieka mainīgās atlīdzības plāna reģistrācijā.
 
 ## <a name="variable-compensation-enrollment"></a>Atlīdzības mainīgās daļas reģistrācija
 ### <a name="determine-who-is-eligible-for-the-plan"></a>Noteikšana, kurš ir piemērots plānam
@@ -80,7 +83,7 @@ Kad esat gatavi reģistrēt darbiniekus mainīgās atlīdzības plānam, vispirm
     -   lauka **Funkcija** un **Darba veids** vērtība cilnē **Darbu klasifikācija**;
     -   lauka **Līmenis** vērtība cilnē **Atlīdzība**;
 -   lapā **Amati**: lauka **Nodaļa** un **Atlīdzības reģions** vērtība;
--   Par **darbinieku** lapa: darba arodbiedrības informāciju, kas saistīta ar darbinieka saskaņā ar **personisko informāciju**&gt;**darba arodbiedrības** par * * * darbinieks * tab
+-   Lapā **Darbinieki**: informācija par arodbiedrībām, kas darbiniekam ir piesaistītas lapā **Personīgā informācija** &gt; **Arodbiedrības** cilnē ****Nodarbinātais****
 
 ### <a name="enable-enrollment-for-the-variable-compensation-plan"></a>Reģistrācijas mainīgās atlīdzības plānam iespējošana
 
@@ -88,19 +91,21 @@ Lapā **Mainīgās atlīdzības plāni** iestatiet opciju **Iespējot reģistrā
 
 ### <a name="enroll-the-employee"></a>Darbinieka reģistrēšana
 
-Tagad varat reģistrēt darbiniekus mainīgās atlīdzības plānam. Lai darbinieku reģistrētu, dodieties uz lapu **Darbinieki** un atlasiet darbinieku. Pēc tam rūtī darbības noklikšķiniet uz **kompensāciju**&gt;**iesaistīšanās mainīgo plānā**. 
+Tagad varat reģistrēt darbiniekus mainīgās atlīdzības plānam. Lai darbinieku reģistrētu, dodieties uz lapu **Darbinieki** un atlasiet darbinieku. Pēc tam darbību rūtī noklikšķiniet uz **Atlīdzība** &gt; **Reģistrācija mainīgam plānam**. 
 
-**Piezīme.** Mainīgās atlīdzības plānā opcija **Reģistrācija** jāiestata uz **Jā**. **Plāns** lauks rāda tikai tos plānus, kuru darbinieks ir tiesīgs, pamatojoties uz atbilstības noteikumi, kas iestatīti šie plāni. Ja atbilstības kārtula nav noteikts plāns, nav darbinieku varēs pretendēt uz šo plānu. 
+**Piezīme.** Mainīgās atlīdzības plānā opcija **Reģistrācija** jāiestata uz **Jā**. Laukā **Plāns** tiek rādīti tikai tie plāni, kuriem darbinieks ir piemērots, balstoties uz šiem plāniem iestatītajām piemērotības kārtulām. Ja plānam piemērotības kārtula nav iestatīta, neviens darbinieks nav piemērots šim plānam. 
 
-Pārliecinieties, ka **datumā** lauks ir iestatīts pareizi. Ja izmanto mainīgās atlīdzības plānu **Composite** aprēķināšanas metodi, iesaistīšanās spēkā stāšanās varētu uzskatīt par darbinieka piešķiršanas aprēķināšanas laikā. 
+Pārliecinieties, ka lauka **Spēkā stāšanās datums** vērtība ir iestatīta pareizi. Ja mainīgās atlīdzības plānam tiek izmantota aprēķina metode **Kompozīts**, tad darbinieka atlīdzības aprēķināšanas laikā varētu tikt ņemts vērā reģistrācijas spēkā stāšanās datums. 
 
-Var izmantot **ignorē** tab ignorēt noteiktām vērtībām darbiniekam. Piemēram, ja **nomas noteikumu** ir iestatīts uz **procenti** plāns, un dažādi darbā pieņemšanas brīdī būtu jāizmanto darbinieka darbā pieņemšanas procentu aprēķina laikā, darbā pieņemšanas brīdī var iestatīt **darbā pieņemšanas datums noteikums** laukā. Var ignorēt, vai nu **Award procentiem** vērtību vai **vienību skaits** vērtību par noteiktu darbinieku, atkarībā no plāna iestatījumus. Šīs vērtības būs ņemt vēl nomas noteikums, veiktspējas faktorus un citus iestatījumus plānu. 
+Var izmantot cilni **Prioritātes**, lai darbiniekam ignorētu noteiktas vērtības. Piemēram, ja plānā opcija **Nolīgšanas kārtula** ir iestatīta uz **Procenti** un darbinieka darbā pieņemšanas procentu aprēķina laikā ir jāizmanto cits darbā pieņemšanas datums, tad darbā pieņemšanas datumu varat iestatīt laukā **Nolīgšanas kārtulas datums**. Atkarībā no plāna iestatījumi noteiktam darbiniekam varat ignorēt arī lauka **Piemaksas procenti** vai lauka **Vienību skaits** vērtību. Šīs vērtības joprojām tiks aprēķinātas, ņemot vērā nolīgšanas kārtulu, veiktspējas faktorus un citus plāna iestatījumus. 
 
-**Organizatorisko ignorē** tiek izmantoti viens vai vairāki struktūrvienību darbinieku piešķiršanas pamatā. Procenti, kas tiek sadalīts starp nodaļām vajadzētu kopā 100 procenti. Tiek uzskatīts par darbinieka individuālo sniegumu. Šie iestatījumi tiks lietoti tikai tad, ja **maksāt par sniegumu** ir atlasīts, palaižot kompensācijas process.
+Vērtības **Organizatoriskās prioritātes** tiek izmantotas, lai darbinieka atlīdzību pamatotu ar vienas vai vairāku nodaļu sniegumu. Dažādām nodaļām sadalīto procentuālo vērtību kopsummai ir jābūt 100 procentiem. Tiek ņemts vērā arī darbinieka individuālais sniegums. Šie iestatījumi tiek izmantoti tikai tad, ja atlīdzības procesa izpildes laikā tiek atlasīta opcija **Alga par rezultātiem**.
 
 <a name="see-also"></a>Skatiet arī
 --------
 
 [Atlīdzības plāni](compensation-plans.md)
+
+
 
 

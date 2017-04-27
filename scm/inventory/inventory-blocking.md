@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-blocking"></a>Krājumu aizturēšana
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegts pārskats par krājuma bloķēšanu, kas ir kvalitātes pārbaudes procesa elements programmā Microsoft Dynamics AX. Krājuma bloķēšanu var izmantot, lai nepieļautu krājumu apstrādi vai patēriņu.
 
 Varat bloķēt krājumu vienības tālāk norādītajos veidos.
@@ -53,17 +56,19 @@ Ja kvalitātes pārbaudes procesā ir norādīts, ka krājums ir jāpārbauda, t
 | Kvalitātes saistība nosaka, ka, grāmatojot pirkšanas pasūtījuma pavadzīmi, ir jāģenerē kvalitātes pārbaudes pasūtījums. Kvalitātes pārbaudes pasūtījuma krājuma paraugu ņemšanas iestatījumi nosaka, ka ir jāpārbauda 10% no pirkšanas pasūtījuma rindā norādīta daudzuma. Turklāt, tā kā krājuma paraugu ņemšanas iestatījumos ir atlasīta opcija**Pilna aizturēšana**, pārbaudes laikā ir jāaiztur viss pirkšanas pasūtījuma rindā norādītais daudzums neatkarīgi no pārbaudei nosūtītā daudzuma. | Pavadzīme ir iegrāmatota | Kvalitātes pārbaudes pasūtījums ir izveidots. Pārbaudei tiek nosūtīti desmit procenti no krājuma pirkšanas pasūtījuma daudzuma. Viss pirkšanas pasūtījuma rindu daudzums ir bloķēts. |
 
 ## <a name="blocking-items-by-using-inventory-status-blocking"></a>Krājumu aizturēšana, izmantojot krājuma statusa aizturēšanu
-Varat norādīt, kuru krājumu statusi ir Bloķējot statusi, izmantojot **krājumu bloķēt** parametru par **krājumu statusi** lapā. Krājumu statusus nevar izmantot kā ražošanas pasūtījumu, pārdošanas pasūtījumu, pārsūtīšanas pasūtījumu, izejošo transakciju vai projekta integrācijas aizturēšanas statusus. Izejošam darbam izmantojiet vienības, kam krājuma statuss ir Pieejams. Ja krājumu statuss ir **Bojāts** un šiem krājumiem tiek veikta vispārējā plānošana, šie krājumi tiek uzskatīti par trūkstošiem un krājumi tiek automātiski papildināti.
+Varat norādīt, kuri krājumu statusi ir aizturēšanas statusi, izmantojot parametru **Krājuma bloķēšana** lapā **Krājumu statusi**. Krājumu statusus nevar izmantot kā ražošanas pasūtījumu, pārdošanas pasūtījumu, pārsūtīšanas pasūtījumu, izejošo transakciju vai projekta integrācijas aizturēšanas statusus. Izejošam darbam izmantojiet vienības, kam krājuma statuss ir Pieejams. Ja krājumu statuss ir **Bojāts** un šiem krājumiem tiek veikta vispārējā plānošana, šie krājumi tiek uzskatīti par trūkstošiem un krājumi tiek automātiski papildināti.
 
 
 
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Izveidotu un uzturētu uzskaiti bloķēšana (uzdevuma norādījumi)](https://ax.help.dynamics.com/en/wiki/create-and-maintain-an-inventory-blocking/)
+[Krājumu bloķēšanas izveide un uzturēšana (uzdevuma ceļvedis)](https://ax.help.dynamics.com/en/wiki/create-and-maintain-an-inventory-blocking/)
 
-[Quality management processes](quality-management-processes.md)
+[Kvalitātes vadības procesi](quality-management-processes.md)
 
-[Pārbaudīt kvalitātes preču (uzdevuma norādījumi)](https://ax.help.dynamics.com/en/wiki/inspect-the-quality-of-goods/)
+[Preču kvalitātes pārbaude (uzdevuma ceļvedis)](https://ax.help.dynamics.com/en/wiki/inspect-the-quality-of-goods/)
+
+
 
 

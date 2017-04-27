@@ -1,6 +1,6 @@
 ---
 title: "Budžeta plānošanas datu sadalījums"
-description: "Šajā rakstā aprakstītas dažādas piešķiršanas metodes, kas pieejamas programmā Microsoft Dynamics 365 operācijas un kā tos var izmantot."
+description: "Šajā rakstā ir aprakstītas dažādās sadalījuma metodes, kas ir pieejamas programmatūrā Microsoft Dynamics 365 for Operations, kā arī to lietošanas veids."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,15 +28,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-planning-data-allocation"></a>Budžeta plānošanas datu sadalījums
 
-Šajā rakstā aprakstītas dažādas piešķiršanas metodes, kas pieejamas programmā Microsoft Dynamics 365 operācijas un kā tos var izmantot.  
+[!include[banner](../includes/banner.md)]
+
+
+Šajā rakstā ir aprakstītas dažādās sadalījuma metodes, kas ir pieejamas programmatūrā Microsoft Dynamics 365 for Operations, kā arī to lietošanas veids.  
 
 Varat sadalīt budžeta plāna datus vairākos veidos, lai precīzi attēlotu paredzamās summas.
 
 ## <a name="allocation-methods"></a>Sadalījuma metodes
 Trīs sadalījuma metodes (sadalīt periodos, sadalīt uz dimensijām un izmantot Virsgrāmatas sadalījuma kārtulas) var izveidot budžeta plāna rindas, kas balstās uz rindām vienā budžeta plānā. Trīs citas metodes (apkopot, izplatīt un kopēt no budžeta plāna) var izveidot budžeta plāna rindas citos budžeta plānos. Visām sešām sadalījuma metodēm jānorāda mērķa scenārijs. Mērķa scenārijs var būt vai nu tas pats avota scenārijs vai atšķirīgs no avota scenārija. Papildus varat norādīt, vai jaunas rindas tiek pievienotas budžeta plānam vai aizstās esošās budžeta plāna rindas.
 
-[![AllocateAcrossPeriods](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)<ph id="t1">
-</ph>**piešķirt pa periodiem** – periodiskā iedalījuma kategorijas tiek izmantota, lai budžeta plāna rindas avots budžeta plānu scenāriju pa periodiem mērķa scenārijs. Avota summa tiek piešķirta vairākām rindām mērķa scenārijā, pamatojoties uz procentuālo attiecību un datumu, kas ir noteikti perioda sadalījuma kategorijā.         
+[![AllocateAcrossPeriods](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
+**Sadalīt pa periodiem** — lai budžeta plāna rindas no avota budžeta plāna scenārija sadalītu pa mērķa scenārija periodiem, tiek izmantota periodu sadalījuma kategorija. Avota summa tiek piešķirta vairākām rindām mērķa scenārijā, pamatojoties uz procentuālo attiecību un datumu, kas ir noteikti perioda sadalījuma kategorijā.         
 
 [![AllocateToDimensions](./media/allocatetodimensions.jpg)](./media/allocatetodimensions.jpg)
 **Sadalījums uz dimensijām** — budžeta plāna rindas tiek sadalītas no avota budžeta plānošanas scenārija uz vienu vai vairākām rindām mērķa scenārijā, balstoties uz procentuālo sadalījumu un finanšu dimensijām, kas definētas atlasītajā budžeta sadalījuma noteikumā.           
@@ -70,5 +73,7 @@ Pēc tam izveidojiet stadijas sadalījumu lapā **Budžeta plānošanas konfigur
 Visbeidzot, pievienojiet automatizētu uzdevumu budžeta plānošanas stadijas sadalījumam vēlamajā darbplūsmas stadijā. Šajā piemērā darbplūsmā ietverti divi budžeta plānošanas stadiju sadalījumi (apzīmēts ar sarkanu krāsu).
 
 [![BudgetPlanningStageAllocations](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
+
+
 
 

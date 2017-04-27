@@ -1,6 +1,6 @@
 ---
-title: "Jaunu vai atjauninātu uzdevumu ceļveži (August 2016)"
-description: "Šajā tēmā iekļautas jaunu vai atjauninātu uzdevumu rokasgrāmatas kas laistas korporācijai Microsoft (August 2016 - visās valodās) APQC vienotās bibliotēku Microsoft Dynamics AX. Netika izlaista neviena jauna darba sākšanas bibliotēka."
+title: "Jauni vai atjaunināti uzdevumu ceļveži (2016. gada augusts)"
+description: "Šajā tēmā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas ir izlaisti Microsoft APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics AX (2016. gada augusta visu valodu laidienā). Netika izlaista neviena jauna darba sākšanas bibliotēka."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-or-updated-task-guides-august-2016"></a>Jaunu vai atjauninātu uzdevumu ceļveži (August 2016)
+# <a name="new-or-updated-task-guides-august-2016"></a>Jauni vai atjaunināti uzdevumu ceļveži (2016. gada augusts)
 
-Šajā tēmā iekļautas jaunu vai atjauninātu uzdevumu rokasgrāmatas kas laistas korporācijai Microsoft (August 2016 - visās valodās) APQC vienotās bibliotēku Microsoft Dynamics AX. Netika izlaista neviena jauna darba sākšanas bibliotēka.
+[!include[banner](../includes/banner.md)]
 
-<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Uzdevuma rokasgrāmatas (August 2016 - visās valodās) APQC vienotās bibliotēku Microsoft Dynamics AX
+
+Šajā tēmā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas ir izlaisti Microsoft APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics AX (2016. gada augusta visu valodu laidienā). Netika izlaista neviena jauna darba sākšanas bibliotēka.
+
+<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics AX (2016. gada augusta visu valdu laidienā) ietvertie uzdevumu ceļveži
 ---------------------------------------------------------------------------------------------------
 
-(Augusta 2.016 - visās valodās) APQC Unified Library satur uzdevumu pamācības, kas ir paredzēts izmantot, lai palīdzētu ar Microsoft Dynamics AX platforma update (August 2016) 2 Dynamics AX var atjaunot 2016 programmu un Microsoft Dynamics AX februārī 2016 atbrīvot. Plašāku informāciju par šiem laidieniem, sk [what jauno vai mainīto](whats-new-changed.md). Lokalizētās versijas rokasgrāmatas uzdevums ir pieejamas šajā bibliotēkā. Papildinformāciju, kā savienot palīdzības sistēmas uzdevumu rokasgrāmata bibliotēku, skatiet [Iepazīstieties ar palīdzības](help-overview.md).
+APQC vienotajā bibliotēkā (2016. gada augusta visu valodu laidienā) ir ietverti uzdevumu ceļveži, kas ir paredzēti izmantošanai kā palīdzības materiāli kopā ar Microsoft Dynamics AX 2. platformas atjauninājumu (2016. gada augusta laidienu), Dynamics AX 2016. gada maija lietojumprogrammas atjauninājumu un Microsoft Dynamics AX 2016.gada februāra laidienu. Papildinformāciju par šiem laidieniem skatiet tēmā [Jaunumi un izmaiņas](whats-new-changed.md). Šajā bibliotēkā ir pieejamas uzdevumu ceļvežu lokalizētās versijas. Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Darba sākšana ar palīdzības sistēmu](help-overview.md).
 
 ### <a name="data-access"></a>Piekļuve datiem
 
@@ -97,10 +100,12 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Jaunu uzdevumu ceļveži (februārī 2016)](new-task-guides-available-february-2016.md)
+[Jauni uzdevumu ceļveži (2016. gada februāris)](new-task-guides-available-february-2016.md)
 
-[Jaunu vai atjauninātu uzdevumu ceļveži (maija 2016)](new-updated-task-guides-available-may-2016.md)
+[Jauni vai atjaunināti uzdevumu ceļveži (2016. gada maijs)](new-updated-task-guides-available-may-2016.md)
 
-[Jaunu vai atjauninātu uzdevumu ceļveži (2016. gada novembrī)](new-task-guides-november-2016.md)
+[Jauni vai atjaunināti uzdevumu ceļveži (2016. gada novembris)](new-task-guides-november-2016.md)
+
+
 
 

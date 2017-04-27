@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="warehouse-mobile-device-display-settings"></a>Noliktavas mobilo ierīču displeja iestatījumi
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir izskaidrots, kā iestatīt mobilās ierīces displeja izskatu un kartēt vadīklu tastatūras īsinājumtaustiņus, piemēram, pogas. 
 
 Šis raksts attiecas uz moduļa Noliktavas pārvaldība "uzlabotās noliktavas" līdzekļiem. Mobilās ierīces var izmantot daudziem uzdevumiem, ko veic noliktavas darbinieki.
@@ -39,13 +42,13 @@ Kā daļu no mobilās ierīces konfigurācijas var definēt dažādus izkārtoju
 
 CSS un ASPX failus jānovieto īpašā direktorijā, lai interneta informācijas pakalpojumu (IIS) programma tos varētu ielādēt. Varētu būt noderīgi definēt dažādus CSS failus, ja mobilās ierīces funkcionalitātei izmantojat dažādos pārlūkos vai dažāda veida aparatūrā, kas pieprasa dažādas izkārtojuma vadīklas. Vienkāršus iestatījumus, piemēram, fona krāsu, fontu un fonta lielumu tekstam, un pogu platumu un uzvedību var viegli kontrolēt, izmantojot CSS failus dažādos veidos. ASPX fails tiek izmantots, lai parādītu mobilo vietni servera puses ASP.NET programmā. Fails kontrolē, kā izkārtota HTML vispārējā struktūra. Šo funkcionalitāti ir ieteicams pielāgot tikai tad, ja jums ir nopietnas strukturālās problēmas ar HTML un JavaScript, un ir jāmaina šis kods konkrētām ierīcēm. Lai kartētu HTML vadīklas mobilās ierīces lapā īsinājumtaustiņos, lapā **Mobilās ierīces displeja iestatījumi** laukā **Īsinājumtaustiņš** piešķiriet taustiņiem ciparu kodus. Var izmantot izvēlni **Skatīt īsinājumtaustiņu kodus** mobilajā ierīcē, lai atrastu ciparzīmju kodus. Ievērojiet, ka kartējumi var atšķirties atkarībā no izmantotās aparatūras. Lai izveidotu kartēšanu, jāizmanto tālāk aprakstītā sintakse.
 
-&lt;vadīklas nosaukumu&gt;(&lt;atslēgas nosaukums&gt;) =&lt;atslēgas kodu&gt;;
+&lt;vadīklas nosaukums&gt;(&lt;taustiņa nosaukums&gt;)=&lt;taustiņa kods&gt;;
 
 Šeit ir sintakses daļu paskaidrojums:
 
--   **&lt;vadīklas nosaukums&gt;** -kontroli (piemēram, pogas), kas sniegti šajā HTML nosaukums.
--   **(&lt;atslēgas nosaukums&gt;) ** -Tastatūras taustiņš, ka jūs gatavojat saīsnes nosaukumu.
--   **&lt;Ievadiet kodu&gt;** -skaitliskas rakstzīmes kodu atslēgas, kas jāizmanto kā īsceļa taustiņš.
+-   **&lt;vadīklas nosaukums&gt;** — nosaukums vadīklai (piemēram, pogai), kas ir atveidota HTML.
+-   **(&lt;taustiņa nosaukums&gt;)** — tā tastatūras taustiņa nosaukums, kam veidojat saīsni.
+-   **&lt;Taustiņa kods&gt;** — tā taustiņa ciparzīmju kods, ko izmantosiet kā īsinājumtaustiņu.
 
 Tas ir piemērs:
 
@@ -55,19 +58,19 @@ Visām lapām, kas ietver pogu **Atcelt**, pogai būs šis teksts:
 
 **(Esc) Atcelt**
 
-Nospiežot tastatūras taustiņu Esc, tiks aktivizēta poga **Atcelt**. Lai lietotu stila un īsinājumtaustiņu iestatījumus konkrētai ierīcei, ir jāizveido kartēšana laukā **Kritēriji**. .NET parasta izteiksme jāizmanto, izveidojot kartēšanu, un izteiksmei jāsastāv no trim sadaļām, kas ir atdalītas ar vertikālu joslu (|), kā parādīts šeit:
+Nospiežot tastatūras taustiņu Esc, tiks aktivizēta poga **Atcelt**. Lai lietotu stila un īsinājumtaustiņu iestatījumus konkrētai ierīcei, ir jāizveido kartēšana laukā **Kritēriji**. .NET regulārā izteiksme jāizmanto, izveidojot kartēšanu, un izteiksmei jāsastāv no trim sadaļām, kas ir atdalītas ar vertikālu joslu (|), kā parādīts šeit:
 
-Request.UserHostAddress=&lt;lietotāja resursdatora adrese&gt;| HostName =&lt;uzņēmēja lietotājvārdu&gt;| Request.UserAgent=&lt;lietotāja aģents&gt;
+Request.UserHostAddress=&lt;lietotāja resursdatora adrese&gt;|HostName=&lt;lietotāja resursdatora nosaukums&gt;|Request.UserAgent=&lt;lietotāja aģents&gt;
 
 Šeit ir izteiksmes daļu paskaidrojums:
 
--   **&lt;lietotāja resursdatora adrese&gt;** -A .NET regulāras izteiksmes, kas atbilst pieprasītājam IP adresi.
--   **&lt;uzņēmēja lietotājvārdu&gt;** -A .NET regulāras izteiksmes, kas atbilst tīkla nosaukums pieprasītājam.
--   **&lt;lietotāja aģents&gt;** -A .NET regulāras izteiksmes, kas atbilst pārlūks, kas izmanto pieprasītājam identifikators.
+-   **&lt;lietotāja resursdatora adrese&gt;** — .NET regulārā izteiksme, kas atbilst pieprasītāja IP adresei.
+-   **&lt;lietotāja resursdatora nosaukums&gt;** — .NET regulārā izteiksme, kas atbilst pieprasītāja tīkla nosaukumam.
+-   **&lt;lietotāja aģents&gt;** — .NET regulārā izteiksme, kas atbilst pārlūkprogrammas identifikatoram, ko izmanto pieprasītājs.
 
 Tālāk minētais piemērs iespējo programmas Internet Explorer 8 lietošanu:
 
-Request.UserHostAddress=. \*| HostName =. \*| Request.UserAgent=MSIE\\s8\\,0
+Request.UserHostAddress=.\*|HostName=.\*|Request.UserAgent=MSIE\\s8\\.0
 
 Var izmantot izvēlni **Skatīt servera konfigurāciju displeja iestatījumiem** mobilajā ierīcē, lai atrastu informāciju par iestatījumiem.
 
@@ -84,19 +87,21 @@ Var izmantot lapu **Mobilās ierīces teksta krāsas**, lai kontrolētu dažāda
 Lai atlasītu krāsu, lapā **Atlasīt krāsu** noklikšķiniet uz paletes vai ierakstiet heksadecimālo krāsas kodu.
 
 ## <a name="define-the-date-format-to-use-on-mobile-devices"></a>Mobilajās ierīces lietojamā datumu formāta definēšana
-Katrai instalācijai varat paplašināt pieņemto datumu formātu sarakstu. Piemēram, šī iespēja var būt noderīga, ja vēlaties norādīt tādu formātu, kas ļauj darbiniekam ērtāk ievadīt datumus mobilajā ierīcē. Noklusējuma formātu nosaka lietotāja noklusējuma valoda, kas ir norādīta laukā **Valoda** lapā **Lietotāja opcijas**. (Vienu un to pašu lapu izmanto arī darbinieka piesaiste ar konkrētu noliktavu darbu lietotājs.) **Piezīme:** noliktavas mobilo ierīču portāla doesn't izmantot iestatījumu **datuma, laika un skaitļa formātu** lauku **valodas un reģiona preferences** lapā. Lai mainītu datuma formātu, jums jāzina Microsoft .NET Framework parastās izteiksmes. Papildinformāciju skatiet šeit: [.NET Framework parastās izteiksmes](http://go.microsoft.com/fwlink/?LinkId=391260). Lai noteiktu datumu formātus, rediģēt Dates.ini failu, kas atrodas satura\\iestatījumus\\Dates.ini noliktavas mobilo ierīču portāla serverī. Šis fails izmanto .NET parastās izteiksmes, lai norādītu datuma formātu. Parastai izteiksmei ir jāietver apakšizteiksmes, kas izveido nosauktas grupas dienai, mēnesim un gadam (DDMMGG), kā parādīts šajā piemērā:
+Katrai instalācijai varat paplašināt pieņemto datumu formātu sarakstu. Piemēram, šī iespēja var būt noderīga, ja vēlaties norādīt tādu formātu, kas ļauj darbiniekam ērtāk ievadīt datumus mobilajā ierīcē. Noklusējuma formātu nosaka lietotāja noklusējuma valoda, kas ir norādīta laukā **Valoda** lapā **Lietotāja opcijas**. (Tā pati lapa tiek izmantota arī, lai darbinieku saistītu ar konkrētu noliktavas darba lietotāju.) **Piezīme.** Noliktavas mobilo ierīču portāls neizmanto lauka **Datuma, laika un skaitļu formāts** iestatījumu lapā **Valodas un reģiona preferences**. Lai mainītu datuma formātu, jums jāzina Microsoft .NET Framework regulārās izteiksmes. Papildinformāciju skatiet šeit: [.NET Framework regulārās izteiksmes](http://go.microsoft.com/fwlink/?LinkId=391260). Lai definētu datuma formātus, rediģējiet failu Dates.ini, kas noliktavas mobilo ierīču portāla serverī atrodas šeit: Saturs\\Iestatījumi\\Dates.ini. Šis fails izmanto .NET regulārās izteiksmes, lai norādītu datuma formātu. Regulārajai izteiksmei ir jāietver apakšizteiksmes, kas izveido nosauktas grupas dienai, mēnesim un gadam (DDMMGG), kā parādīts šajā piemērā:
 
-^(? &lt;day&gt;\\d{2})(?&lt; month&gt;\\d{2})(?&lt; gadā&gt;\\d {2}) $
+^(?&lt;diena&gt;\\d{2})(?&lt;mēnesis&gt;\\d{2})(?&lt;gads&gt;\\d{2})$
 
 Katra apakšizteiksme pieprasa no viena līdz diviem cipariem dienai un mēnesim, un no viena līdz četriem cipariem gadam. Piemēram, šī apakšizteiksme definē nosauktu grupu gadam un tai ir nepieciešami 2–4 cipari:
 
-(? &lt;year&gt;\\d{2,4})
+(?&lt;gads&gt;\\d{2,4})
 
 Vienā failā var norādīt vairāk nekā vienu izteiksmi. Katrai izteiksmei jābūt atsevišķā rindā. Pirmā atbilstoša izteiksme tiek izmantota, lai parsētu datumu.
 
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Configuration of mobile devices for warehouse work](configure-mobile-devices-warehouse.md)
+[Mobilo ierīču konfigurācija darbam noliktavā](configure-mobile-devices-warehouse.md)
+
+
 
 

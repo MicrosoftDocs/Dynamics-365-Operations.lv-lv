@@ -1,6 +1,6 @@
 ---
-title: Ar ko izveido darba komponenti
-description: "Šajā tēmā ir aprakstīts, konceptuāli elementi, ka darbu var iekļaut un sniegti piemēri par to, kā jūs varat izmantot šos elementus savā uzņēmumā."
+title: "Darba komponentu iestatīšana"
+description: "Šajā tēmā ir aprakstīti konceptuālie elementi, kas var būt iekļauti darbā, un sniegti piemēri par to, kā šos elementus varat lietot savā organizācijā."
 author: rschloma
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,38 +25,41 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="setting-up-the-components-of-a-job"></a>Ar ko izveido darba komponenti
+# <a name="setting-up-the-components-of-a-job"></a>Darba komponentu iestatīšana
 
-Šajā tēmā ir aprakstīts, konceptuāli elementi, ka darbu var iekļaut un sniegti piemēri par to, kā jūs varat izmantot šos elementus savā uzņēmumā. 
+[!include[banner](includes/banner.md)]
 
-Pirms varat izveidot darbavietas, ir jāiestata daži uzziņu informāciju. Jūs varat izveidot darbu, kuram ir tikai nosaukums. Tomēr, ietverot papildu informāciju, piemēram, amatu, jūs sniedzat noklusētās vērtības pozīcijām, kas ir piešķirts darbam. Turklāt daži no jūsu ievadītos datus var izmantot, lai filtrētu kompensācijas plāniem konkrētiem darbiem. Ja jūs vēlaties, lai iestatītu tiesības, ko var izmantot, lai filtrētu kompensācijas plāniem konkrētu darbu, ieteicams iestatīt darba funkcijas un darbu veidiem pirms uzstādīšanas darbus. Kam šīs noklusētās vērtības, kas ir pieejami, jūs ietaupīsiet laiku, pievienojot darba pozīcijām. 
 
-Daži darba detaļas, piemēram, darba nosaukums, tips un funkciju, ir spēkā stāšanās datums. Ja izveidotu darbu šodien, bet ne pievienot šos datus tikai vēlāk, un tad paskatās uz darbu radīšanas dienā, šie dati netiks rādītas. Tāpēc ieteicams izveidot dažus no šīs atsauces informāciju pirms to prasa. Tādā veidā varat pievienot informāciju jaunu darbavietu tos veidojot.
+Šajā tēmā ir aprakstīti konceptuālie elementi, kas var būt iekļauti darbā, un sniegti piemēri par to, kā šos elementus varat lietot savā organizācijā. 
 
-## <a name="job-titles"></a>Amatu nosaukumi
+Pirms izveidojat darbus, ir jāiestata noteikta atsauces informācija. Varat izveidot darbu, kam ir tikai nosaukums. Taču, ja iekļaujat papildinformāciju, piemēram, darba amatu, tad šim darbam piešķirtajiem amatiem varat nodrošināt noklusējuma vērtības. Turklāt noteiktu ievadīto informāciju var izmantot atlīdzības plānu filtrēšanai konkrētiem darbiem. Ja vēlaties iestatīt piemērotību, kuru varat lietot, lai atlīdzības plānus filtrētu konkrētam darbam, tad pirms darbu iestatīšanas ir jāiestata darbu funkcijas un darbu tipi. Ja ir pieejamas šīs noklusējuma vērtības, jūs ietaupāt laiku, kad darbam pievienojat amatus. 
+
+Noteikta darba informācija, piemēram, darba amats, tips un funkcija, ir ar spēkā stāšanās datumu. Ja darbu izveidojat šodien, bet šo informāciju pievienojat tikai vēlāk, un pēc tam uz šo darbu skatāties tā izveidošanas datumā, šī informācija nav redzama. Tādēļ noteikta atsauces informācija ir jāizveido, vēl pirms tā ir nepieciešama. Šādi šo informāciju varat pievienot jauniem darbiem, kad tos izveidojat.
+
+## <a name="job-titles"></a>Darbu amati
 Pirms darbu izveidošanas ir jāiestata šo darbu amata nosaukumi. Amatiem tiek piešķirti to darbu amatu nosaukumi, ar kuriem šie amati ir saistīti. 
 
-Uzturēt amatu nosaukumus, kas izmantojot **virsraksti** lapa, kuru var atvērt, izmantojot meklēšanas funkciju. Par * nosaukumi * * lapu, ievadiet nosaukumu, kuru plānojat izmantot savus darbus.
+Darbu amati ir jāuztur, izmantojot lapu **Amati**, kuru varat atvērt, izmantojot funkciju Meklēt. Lapā **Amati** ievadiet amatus, kurus plānojat izmantot saviem darbiem.
 
-## <a name="job-types"></a>Darba tipi
-Darbu tipus izmanto, lai grupētu līdzīgus darbus kategorijās. Darbu veidi nav nepieciešami. Tomēr, ja plānojat izmantot darbu tipus, kad iestatāt atlīdzību pārvaldības piemērotības nosacījumus, pirms darbu iestatīšanas ir jāiestata darbu tipi. Daži darba tipu piemēri ir pilna laika un nepilna darba laika, vai algu un stundas samaksas. Saglabātu darbu veidi, izmantojot **darba tipus** lapā. Par **darba tipus** lapu, ievadiet nosaukumu un īsu aprakstu par darba tipu. Šajā **atbrīvot statusa** lauku, atlasiet vienu no šīm opcijām, lai norādītu Fair Labor Standards Act (FLSA) atbrīvotas statusu darbus, kas ir šī uzdevuma tips:
+## <a name="job-types"></a>Darbu tipi
+Darbu tipi tiek izmantoti, lai līdzīgus darbus grupētu kategorijās. Darbu tipi nav obligāti. Tomēr, ja plānojat izmantot darbu tipus, kad iestatāt atlīdzību pārvaldības piemērotības nosacījumus, pirms darbu iestatīšanas ir jāiestata darbu tipi. Daži darbu tipu piemēri ir pilna laika un nepilna laika, vai algots un stundu apmaksa. Darbu tipi tiek uzturēti lapā **Darbu tipi**. Lapā **Darbu tipi** ievadiet darbu tipa nosaukumu un īsu aprakstu. Laukā **Atbrīvojuma statuss** atlasiet vienu no tālāk norādītajām opcijām, lai norādītu Godīga darba standartu akta (Fair Labor Standards Act — FLSA) atbrīvojuma statusu darbiem, kam ir tālāk norādītais darba tips.
 
--   **Reģistrācijas** – darbi tiek atbrīvoti no virsstundām saskaņā FLSA.
--   **Nav atbrīvoti,** -darbi netiek atbrīvoti no virsstundām saskaņā FLSA.
--   **Neattiecas** -FLSA segums nav piemērojams.
+-   **Atbrīvojums** — darbi ir atbrīvoti no virsstundām saskaņā ar FLSA.
+-   **Bez atbrīvojuma** — darbi nav atbrīvoti no virsstundām saskaņā ar FLSA.
+-   **Nav piemērojams** — FLSA segums nav piemērojams.
 
 ## <a name="job-functions"></a>Darba funkcijas
-Darbs krustojumos raksturo augsta līmeņa funkcionālās kategorijās un augsta līmeņa nodokļi ir saistīti. Darba funkcijas nav nepieciešami. Darba funkcijas, kā arī darba veidus, var izmantot, lai filtrētu kompensācijas plāniem konkrētiem darbiem. Jūs saista darba funkcijas un darbu veidiem ar kompensācijas plāniem, izveidojot atbilstīguma noteikumi par **noteikumi par attaisnotiem izdevumiem** lapā. Kompensācijas plānu, kas attiecas uz konkrētu kombināciju darba tipu un darba funkcijas, ko definējāt caur atbilstības kārtulu var pievienot pēc tam kopa līmeņus. (Šie līdzekļi tiek piemēroti gan fiksēta kompensācija un mainīgās atlīdzības plānus.) Tomēr, ja jūs plānojat izmantot darba funkcijas, uzstādot atbilstīguma noteikumi par kompensāciju vadību, ieteicams iestatīt darba funkcijas pirms uzstādīšanas darbus. Tabulā ir norādīti daži piemēri darba funkcijas.
+Darba funkcijas apraksta augsta līmeņa funkcionālās kategorijas un attiecas uz augsta līmeņa pienākumiem. Darba funkcijas nav obligātas. Darba funkcijas varat lietot kopā ar darbu tipiem, lai filtrētu atlīdzību plānus noteiktiem darbiem. Darba funkcijas un darbu tipus varat saistīt ar atlīdzību plāniem, iestatot piemērotības kārtulas lapā **Piemērotības kārtulas**. Pēc tam varat pievienot līmeņu komplektu atlīdzību plānam, kurš attiecas uz noteiktu darba tipa un darba funkcijas kombināciju, kuru definējāt, izmantojot piemērotības kārtulu. (Šie līdzekļi attiecas gan uz fiksētās atlīdzības plāniem, gan uz mainīgās atlīdzības plāniem.) Taču, ja atlīdzību pārvaldības piemērotības kārtulu iestatīšanas laikā plānojat izmantot darba funkcijas, tad darba funkcijas ir jāiestata pirms darbu iestatīšanas. Nākamajā tabulā ir parādīti daži darba funkciju piemēri.
 
 | Darbs           | Darba funkcija         |
 |---------------|----------------------|
 | Pārdošanas daļas vadītājs | Vidēja līmeņa vadītājs    |
 | Grāmatvedis    | Speciālisti        |
 
-Darba funkciju uzturēšanai, izmantojot **darba funkciju** lapā. Par **darba funkciju** lapu, ievadiet identifikācijas kodu un īsu aprakstu par darba funkcijas.
+Darba funkcijas tiek uzturētas lapā **Darba funkcijas**. Lapā **Darba funkcijas** ievadiet identifikācijas kodu un īsu aprakstu par attiecīgo darba funkciju.
 
 ## <a name="job-tasks"></a>Darba uzdevumi
-Darba uzdevumus apraksta pamata uzdevumus, kas jāveic darba ņēmējam, kurš ir novietots uz darbu. To pašu darbu uzdevumu var pievienot vairākus darbus, kā arī pozīcijas attiecībā uz darbiem, kas izmanto šo darba uzdevumu. Tabulā ir norādīti daži piemēri darba uzdevumus.
+Darba uzdevumi apraksta pamata uzdevumus, kuri ir jāveic darbiniekam, kas ieņem šo amatu. Vienu un to pašu darba uzdevumu var pievienot vairākiem darbiem, kā arī tādiem darbu amatiem, kas izmanto šos darba uzdevumus. Nākamajā tabulā ir parādīti daži darba uzdevumu piemēri.
 
 <table>
 <thead>
@@ -69,20 +72,22 @@ Darba uzdevumus apraksta pamata uzdevumus, kas jāveic darba ņēmējam, kurš i
 <tr class="odd">
 <td>Pārdošanas daļas vadītājs</td>
 <td><ul>
-<li><strong>Perf pārskatīšanu</strong> – pārskatīt katra pārdevēja darba izpildi.</li>
-<li><strong>ABS pārskats</strong> – apstiprināt vai noraidīt katra pārdevēja kavējuma pieprasījumus vai reģistrāciju.</li>
+<li><strong>Izpildes novērtēšana</strong> — novērtēt katra pārdevēja darba izpildi.</li>
+<li><strong>Kavējumu izskatīšana</strong> — apstiprināt vai noraidīt katra pārdevēja kavējumu pieprasījumus vai reģistrācijas.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Grāmatvedis</td>
-<td><strong>FIN-atskaites</strong> – iknedēļas finanšu pārskati jāiesniedz galvenais finansu amatpersona.</td>
+<td><strong>Finanšu pārskata sniegšana</strong> — sniegt iknedēļas finanšu pārskatus finanšu direktoram.</td>
 </tr>
 </tbody>
 </table>
 
-Jums saglabāt darba uzdevumus, izmantojot **darba uzdevumus** lapā. Par **darba uzdevumus** lapu, ievadiet vārdu un darbu uzdevuma aprakstu. Šajā **Note** laukā, ja vēlaties, varat ievadīt papildu informāciju. Piezīmes var atjaunināt konkrēts darbs, nemainot atzīmē, ka ievadījāt šeit.
+Darba uzdevumi tiek uzturēti lapā **Darba uzdevumi**. Lapā **Darba uzdevumi** ievadiet darba uzdevuma nosaukumu un īsu aprakstu. Laukā **Piezīme** varat pievienot papildinformāciju, ja vēlaties. Konkrētam darbam piezīmes var atjaunināt, nemainot šeit ievadītās piezīmes.
 
 ## <a name="areas-of-responsibility"></a>Atbildības jomas
-Atbildības jomas var izmantot, lai norādītu, darba lomas, procesus un produktus, kas atbildīgs ir darba ņēmējs, kurš atrodas darba stāvoklī. Piemēram, darbs, kas saucas "Grāmatvedis", viena atbildības joma varētu būt "Finanšu atskaišu produktu." Uzturat atbildības jomas, izmantojot **atbildības jomas** lapu, kurā jūs varat atrast, izmantojot meklēšanas funkciju. Par **atbildības jomas** lapu, ievadiet nosaukumu un aprakstu par atbildību. Šajā **Note** laukā, ja vēlaties, varat ievadīt papildu informāciju. Piezīmes var atjaunināt konkrēts darbs, nemainot atzīmē, ka ievadījāt šeit.
+Atbildības jomas ir jāizmanto, lai norādītu darba lomas, procesus un preces, par ko ir atbildīgs darbinieks, kurš ieņem šo amatu. Piemēram, darbam ar nosaukumu “Grāmatvedis” viena atbildības joma varētu būt “Finanšu pārskatu izveide par preci A”. Atbildības jomas ir jāuztur, izmantojot lapu **Atbildības jomas**, kuru varat atrast, izmantojot funkciju Meklēt. Lapā **Atbildības jomas** ievadiet atbildības nosaukumu un aprakstu. Laukā **Piezīme** varat pievienot papildinformāciju, ja vēlaties. Konkrētam darbam piezīmes var atjaunināt, nemainot šeit ievadītās piezīmes.
+
+
 
 

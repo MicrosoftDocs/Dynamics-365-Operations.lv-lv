@@ -1,5 +1,5 @@
 ---
-title: "Pārvaldības reportieris - designer un web klienta"
+title: "Pārvaldības pārskata sastādītājs — noformētājs un tīmekļa klients"
 description: 
 author: twheeloc
 manager: AnnBe
@@ -25,7 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="management-reporter----the-designer-and-web-client"></a>Pārvaldības reportieris - designer un web klienta
+# <a name="management-reporter----the-designer-and-web-client"></a>Pārvaldības pārskata sastādītājs — noformētājs un tīmekļa klients
+
+[!include[banner](../includes/banner.md)]
+
+
+
 
 
 

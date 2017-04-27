@@ -1,5 +1,5 @@
 ---
-title: "Konfigurēt apstiprināšanas soli darbplūsmā"
+title: "Konfigurēt apstiprināšanas darbību darbplūsmā"
 description: "Šajā tēmā ir paskaidrots, kā konfigurēt apstiprināšanas darbības rekvizītus."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-an-approval-step-in-a-workflow"></a>Konfigurēt apstiprināšanas soli darbplūsmā
+# <a name="configure-an-approval-step-in-a-workflow"></a>Konfigurēt apstiprināšanas darbību darbplūsmā
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā tēmā ir paskaidrots, kā konfigurēt apstiprināšanas darbības rekvizītus.
 
@@ -45,7 +48,7 @@ Jums jānorāda temata rinda un instrukcijas lietotājiem, kas piešķirti apsti
     1.  Tekstlodziņā noklikšķiniet uz vietas, kur jāparādās vietturim.
     2.  Noklikšķiniet uz **Ievietot vietturi**.
     3.  Parādītajā sarakstā atlasiet vietturi, kuru ievietot.
-    4.  Klikšķiniet **Ievietot**.
+    4.  Noklikšķiniet uz **Ievietot**.
 
 4.  Lai pievienotu tēmas rindas tulkojumus, rīkojieties šādi:
     1.  Noklikšķiniet uz **Tulkojumi**.
@@ -60,7 +63,7 @@ Jums jānorāda temata rinda un instrukcijas lietotājiem, kas piešķirti apsti
     1.  Tekstlodziņā noklikšķiniet uz vietas, kur jāparādās vietturim.
     2.  Noklikšķiniet uz **Ievietot vietturi**.
     3.  Parādītajā sarakstā atlasiet vietturi, kuru ievietot.
-    4.  Klikšķiniet **Ievietot**.
+    4.  Noklikšķiniet uz **Ievietot**.
 
 7.  Lai pievienotu instrukciju tulkojumus, rīkojieties šādi:
     1.  Noklikšķiniet uz **Tulkojumi**.
@@ -124,10 +127,10 @@ Veiciet šīs darbības, lai norādītu personu, kurai jāpiešķir apstiprinā�
     </tr>
     <tr class="even">
     <td>Lietotājs</td>
-    <td>Īpaša Microsoft Dynamics 365 operācijas lietotājiem</td>
+    <td>Specifiski Microsoft Dynamics 365 for Operations lietotāji</td>
     <td><ol>
     <li>Pēc tam, kad ir atlasīts vienums <strong>Lietotājs</strong>, noklikšķiniet uz cilnes <strong>Lietotājs</strong>.</li>
-    <li><strong>Pieejams lietotājiem</strong> saraksts ietver visus Dynamics 365 operācijas lietotājiem. Atlasiet lietotājus, kuriem piešķirt darbību, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
+    <li>Sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Operations lietotāji. Atlasiet lietotājus, kuriem piešķirt darbību, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -182,7 +185,7 @@ Ja lietotājs neveic darbības ar dokumentu atvēlētajā laikā, dokuments ir n
 2.  Atzīmējiet izvēles rūtiņu **Izmantot eskalācijas ceļu**, lai izveidotu eskalācijas ceļu. Sistēma automātiski piešķirs dokumentu lietotājiem, kuri ir norādīti eskalācijas ceļā. Piemēram, šajā tabulā ir attēlots eskalācijas ceļš.
     | Secība | Eskalācijas ceļš      |
     |----------|----------------------|
-    | formāts 1. proc.        | Piešķirt: Lindai     |
+    | 1        | Piešķirt: Lindai     |
     | 2        | Piešķirt: Zanei      |
     | 3        | Pēdējā darbība: noraidīt |
 
@@ -229,10 +232,10 @@ Ja lietotājs neveic darbības ar dokumentu atvēlētajā laikā, dokuments ir n
     </tr>
     <tr class="odd">
     <td>Lietotājs</td>
-    <td>Noteiktu dinamiku 365 darbības lietotāji</td>
+    <td>Specifiski Dynamics 365 for Operations lietotāji</td>
     <td><ol>
     <li>Pēc tam, kad ir atlasīts vienums <strong>Lietotājs</strong>, noklikšķiniet uz cilnes <strong>Lietotājs</strong>.</li>
-    <li><strong>Pieejams lietotājiem</strong> saraksts ietver visus Dynamics 365 operācijas lietotājiem. Atlasiet lietotājus, kuriem eskalēt dokumentu, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
+    <li>Sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Operations lietotāji. Atlasiet lietotājus, kuriem eskalēt dokumentu, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -247,6 +250,8 @@ Ja lietotājs neveic darbības ar dokumentu atvēlētajā laikā, dokuments ir n
 
 5.  Atkārtojiet 3.–4. darbību katram lietotājam, kurš jāpievieno eskalācijas ceļam. Jūs varat mainīt lietotāju secību.
 6.  Ja eskalācijas ceļā norādītie lietotāji neatbild atvēlētajā laikā, sistēma automātiski veiks darbību ar dokumentu. Lai norādītu darbību, ko sistēma veic, atlasiet rindu **Darbība** un pēc tam cilnē **Beigu darbība** atlasiet darbību.
+
+
 
 
 

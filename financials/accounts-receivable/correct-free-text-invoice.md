@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="correct-a-free-text-invoice"></a>Brīva teksta rēķina labošana
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir paskaidrots, kā labot brīva teksta rēķinu, kas jau ir iegrāmatots, un kā to vēlreiz izsniegt kā labotu rēķinu.
 
-Lai koriģētu brīvā teksta rēķina, kas jau ir iegrāmatotas, atvērt iegrāmatoto brīvā teksta rēķina. Par **rēķina** lapu, atlasiet **atcelt**, un pēc tam atlasiet **pareizo rēķina**. Atlasiet iemesla kodu, pievienojiet komentārus un atlasiet datumu jaunajam labotajam rēķinam. Varat modificēt laboto rēķinu un to grāmatot. 
+Lai labotu brīva teksta rēķinu, kas jau ir grāmatots, atveriet iegrāmatoto brīva teksta rēķinu. Lapā **Rēķins** atlasiet vienumu **Atcelt** un pēc tam — **Labot rēķinu**. Atlasiet iemesla kodu, pievienojiet komentārus un atlasiet datumu jaunajam labotajam rēķinam. Varat modificēt laboto rēķinu un to grāmatot. 
 
 Kad grāmatojat laboto rēķinu, tiek izveidots atcelšanas rēķins par kredīta summu, kas ir vienāda ar sākotnējā rēķina summu. Līdz ar to sākotnējā rēķina un atcelšanas rēķina apvienotā bilance ir 0 (nulle). Atcelšanas rēķins tiek segts pret sākotnējo rēķinu. 
 
@@ -43,9 +46,11 @@ Pēc labotā rēķina grāmatošanas jums ir trīs rēķini:
 Atcelšanas un labošanas rēķinus varat identificēti divējādi:
 
 -   Lapā **Visi brīva teksta rēķini** ietver kolonnu **Labojums**, kur varat redzēt, kuri rēķini ir atcelšanas rēķini un labotie rēķini.
--   Brīva teksta rēķina virsrakstā norādīts statuss **tiek atcelta rēķina '\[rēķina numurs\]'** vai **izlabota rēķina '\[rēķina numurs\]'**.
+-   Brīva teksta rēķina virsrakstā ir redzams statuss **Atcelšanas rēķins '\[rēķina numurs\]'** vai **Labotais rēķins '\[rēķina numurs\]'**.
 
 > [!NOTE]
-> Šis līdzeklis ir pieejams tikai tad, ja **brīvā teksta rēķina labošana** konfigurācijas atslēga ir atzīmēta.
+> Šis līdzeklis ir pieejams tikai tad, ja ir atlasīta konfigurācijas atslēga **Brīva teksta rēķina labojums**.
+
+
 
 

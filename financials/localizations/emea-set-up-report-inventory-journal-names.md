@@ -1,6 +1,6 @@
 ---
-title: "Krājumu žurnālu pārskatiem"
-description: "Lietojot konfigurējamu krājumu atskaitēm, kas balstītas uz elektronisko atskaišu, jums iestatīt relāciju starp konkrēto atskaiti un žurnāla tips."
+title: "Krājumu žurnāla pārskati"
+description: "Kad lietojat konfigurējamus krājumu pārskatus, kuru pamatā ir elektronisko pārskatu veidošana, ir nepieciešams iestatīt attiecības starp konkrētu pārskatu un žurnāla tipu."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,23 +25,28 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="inventory-journal-reports"></a>Krājumu žurnālu pārskatiem
+# <a name="inventory-journal-reports"></a>Krājumu žurnāla pārskati
 
-Lietojot konfigurējamu krājumu atskaitēm, kas balstītas uz elektronisko atskaišu, jums iestatīt relāciju starp konkrēto atskaiti un žurnāla tips.
+[!include[banner](../includes/banner.md)]
 
-Izveidot attiecības starp konkrēto atskaiti un žurnāla tipā, uz **krājumu žurnālu nosaukumus** lapas (**krājumu vadība**&gt;**Setup**&gt;**žurnālu nosaukumus**&gt;**krājumu**), ievadīt atskaites nosaukumu. **Piezīme:** iestatīt atbalstīto sastāvi, lejupielādēt nepieciešamo elektronisko atskaišu konfigurācijas. Lai iegūtu papildinformāciju, skatiet [Download elektroniskās ziņošanas no Lifecycle Services konfigurācijas](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs). Ar atbalstīto konfigurācijas Eiropā noliktavas atskaišu piemēri ir uzskaitīti tabulā turpmāk.
+
+Kad lietojat konfigurējamus krājumu pārskatus, kuru pamatā ir elektronisko pārskatu veidošana, ir nepieciešams iestatīt attiecības starp konkrētu pārskatu un žurnāla tipu.
+
+Lai iestatītu attiecības starp konkrētu pārskatu un kādu žurnāla tipu, lapā **Krājumu žurnālu nosaukumi** (**Krājumu vadība** &gt; **Iestatīšana** &gt; **Žurnālu nosaukumi** &gt; **Krājumi**) ievadiet šī pārskata nosaukumu. **Piezīme.** Lai iestatītu atbalstītās konfigurācijas, lejupielādējiet nepieciešamās elektronisko pārskatu konfigurācijas. Papildinformāciju skatiet rakstā [Lejupielādēt elektronisko pārskatu konfigurācijas no Lifecycle Services](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs). Nākamajā tabulā ir uzskaitīti krājumu pārskatu piemēri ar Eiropā atbalstītām konfigurācijām.
 |                    |                                     |                  |                                         |
 |--------------------|-------------------------------------|------------------|-----------------------------------------|
-| **Country**        | **Atskaites apraksts**              | **Journal type** | **Kartējuma nosaukumu formātu**                 |
-| Lietuva, Ungārija | Krājumu pārskatu          | Inventarizācija         | Inventarizācijas akts (HU, LT)            |
+| **Valsts/reģions**        | **Pārskata apraksts**              | **Žurnāla tips** | **Formāta kartēšanas nosaukums**                 |
+| Lietuva, Ungārija | Inventarizācijas akta pārskats          | Inventarizācija         | Inventarizācijas akts (HU, LT)            |
 | Latvija, Polija     | Krājumu pārklasificēšanas dokuments | Pārsūtījums         | InventoryReclassificationDocument\_PLLV |
 | Igaunija            | Krājumu pārklasificēšanas dokuments | Pārsūtījums         | InventoryReclassificationDocument\_EE   |
-| Polija             | Iekšējā PW/RW                      | Kustība         | InventJournalLinesDocPL                 |
-| Latvija             |  Krājumu kustības dokuments         | Kustība         | Kustības\_LV                            |
-| Latvija             | Dokumentu krājumu vērtības norakstīšana       | Pielāgojums       | InventJournalLines\_LV                  |
+| Polija             | Iekšējais PW/RW                      | Kustība         | InventJournalLinesDocPL                 |
+| Latvija             | Krājumu kustības dokuments         | Kustība         | Kustība\_LV                            |
+| Latvija             | Krājumu norakstīšanas dokuments       | Pielāgojums       | InventJournalLines\_LV                  |
 | Latvija             | Pārvietojuma pavadzīme              | Pārsūtījums         | InternalTransferDeliveryNote\_LV        |
-| Latvija             | Inventarizācijas dokumentu pārskats            | Inventarizācija         | CountedDocument\_LV                     |
+| Latvija             | Uzskaitīšanas dokumenta pārskats            | Inventarizācija         | CountedDocument\_LV                     |
 | Latvija             | Inventarizācijas saraksta pārskats                | Inventarizācija         | Inventarizācijas saraksts                           |
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Maksāšanas metodes"
-description: "Katram apmaksas tipam, kas mazumtirgotājs, kas to akceptē jābūt konfigurētai mazumtirdzniecības un komercijas Microsoft Dynamics 365 operācijām, ja sistēma ir iestatīta. Šajā rakstā ir aprakstīti maksājumu tipi, kurus varat iestatīt, un aprakstīts to iestatīšanas process."
+description: "Katrs maksājuma veids, ko pieņem mazumtirgotājs, sistēmas iestatīšanas laikā ir jākonfigurē programmatūras Microsoft Dynamics 365 for Operations modulī Mazumtirdzniecība un komercija. Šajā rakstā ir aprakstīti maksājumu tipi, kurus varat iestatīt, un aprakstīts to iestatīšanas process."
 author: MargoC
 manager: AnnBe
 ms.date: 04/04/2017
@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: MargoC
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 15831
 ms.assetid: 465893a5-6b4f-4c5f-b305-db071df2d33f
 ms.search.region: global
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="payment-methods"></a>Maksāšanas metodes
 
-Katram apmaksas tipam, kas mazumtirgotājs, kas to akceptē jābūt konfigurētai mazumtirdzniecības un komercijas Microsoft Dynamics 365 operācijām, ja sistēma ir iestatīta. Šajā rakstā ir aprakstīti maksājumu tipi, kurus varat iestatīt, un aprakstīts to iestatīšanas process.
+[!include[banner](includes/banner.md)]
 
-Mazumtirgotāji var pieņemt dažāda veida maksājumus apmaiņā pret pārdotajām precēm un pakalpojumiem. Kaut gan skaidra nauda ir visizplatītākais maksājumu veids, mazumtirgotāji var arī saņemt maksājumus čeku, karšu vai dokumentu u.c. formā. Katram apmaksas tipam, kas mazumtirgotājs uzņemas jābūt konfigurētam Dynamics 365 operācijām - mazumtirdzniecība, ja sistēma ir iestatīta. Sekojošajā sarakstā ir aprakstīti katram maksājuma tips, ko var iestatīt programmā Dynamics 365 operācijām - mazumtirdzniecības:
+
+Katrs maksājuma veids, ko pieņem mazumtirgotājs, sistēmas iestatīšanas laikā ir jākonfigurē programmatūras Microsoft Dynamics 365 for Operations modulī Mazumtirdzniecība un komercija. Šajā rakstā ir aprakstīti maksājumu tipi, kurus varat iestatīt, un aprakstīts to iestatīšanas process.
+
+Mazumtirgotāji var pieņemt dažāda veida maksājumus apmaiņā pret pārdotajām precēm un pakalpojumiem. Kaut gan skaidra nauda ir visizplatītākais maksājumu veids, mazumtirgotāji var arī saņemt maksājumus čeku, karšu vai dokumentu u.c. formā. Katrs maksājuma veids, ko pieņem mazumtirgotājs, sistēmas iestatīšanas laikā ir jākonfigurē programmatūrā Microsoft Dynamics 365 for Operations — Retail. Tālāk esošajā sarakstā ir aprakstīts katrs maksājuma veids, ko var iestatīt programmatūrā Dynamics 365 for Operations — Retail.
 
 -   **Skaidra nauda** – nauda fiziskā valūtas formā, piemēram, banknotes un monētas. Šī valūta var būt uzņēmuma valūta vai veikala vietējā valūta.
 -   **Čeks** – maksāšanas līdzeklis noteiktas summas maksājuma noteiktā valūtā izrakstīšanai noteiktā bankā. Čeks parasti ir derīgs nenoteiktu laiku vai sešus mēnešus pēc izsniegšanas datuma, ja vien nav norādīts cits derīguma periods. Šis periods atšķiras atkarībā no bankas, kurā ir izrakstīts čeks. Ir pieejami dažādi čeku veidi, piemēram, pasūtījuma čeki, skaitītāja čeki, uzrādītāja čeki un saņēmēja čeki. Varat iestatīt čekus kā maksājuma metodi katram veikalam. Čekus var pieņemt valūtā, kas ir noteikta uzņēmuma līmenī vai veikala līmenī. Jums ir jāiestata čekus kā maksājuma metodi, pirms jūs varat pieņemt čeku kā maksājumu veikalā.
@@ -39,14 +42,16 @@ Mazumtirgotāji var pieņemt dažāda veida maksājumus apmaiņā pret pārdotaj
 -   **Kredītrēķins** – kredītrēķini, kas ir izsniegti vai izpirkti pārdošanas punktā. Kredītrēķins var kredīta vai atgriešanas kredīta rēķins, kas tiek izsniegts atgriešanas pārdošanas brīdī. Ja kredītrēķini tiek izpirkti tikai daļēji, programma automātiski izsniedz jaunu kredītrēķinu par jauno bilances summu. Jaunajam kredītrēķinam ir jauns numurs. Kredītrēķinu var izmantot tikai vienu reizi, un sistēmā tiek veikta visu izmantoto numuru uzskaite. Ierakstu, var skatīt lapā **Kredītrēķina tabula**. Debitors nevar izpirkt summu, kas pārsniedz kredītrēķina vērtību.
 -   **Dāvanu karte** – attiecas uz dāvanu kartēm, kas izsniegtas un izpirktas pārdošanas punktā. Dāvanu kartēm nav atļauta pārmaksa.
 -   **Debitora konts** – sniedz iespēju pārdošanas laikā atskaitīt maksājuma summu no debitora konta, izmantojot kases sistēmu. Šo maksājuma metodi var izmantot arī, lai apkopotu pārdošanas informāciju vai debitora individuālās atlaides, kad debitors veic maksājumu, izmantojot citu maksājuma metodi. Šajā gadījumā ir jāiestata debitoram raksturīgā informācija.
--   **Lojalitātes punkti** – norāda, ka klienti uzkrāt, izmantojot lojalitātes programmas. Izveidojot lojalitātes programmas, klienti var nopelnīt punktus un pēc tam atpirkt tos dažādos veidos. Piemēram, dažās lojalitātes programmās debitori var izpirkt lojalitātes programmas punktus atlaide formā vai pat izmantot tos kā maksājuma veidu.
+-   **Lojalitātes programmas punkti** — punkti, ko debitori saņem lojalitātes programmu ietvaros. Ja izveidojat lojalitātes programmas, debitori var saņemt punktus un pēc tam izpirkt tos dažādos veidos. Piemēram, dažās lojalitātes programmās debitori var izpirkt lojalitātes programmas punktus atlaide formā vai pat izmantot tos kā maksājuma veidu.
 
 Lai Mazumtirdzniecībā un komercijā iestatītu maksājuma metodes, jums jāizpilda šādi uzdevumi.
 
 1.  Iestatīt organizācijas maksājumu metodes. Izveidot maksājuma metodes, kas tiek pieņemtas visā organizācijā.
-2.  Izveidot uzņēmuma kartes veidu un karšu numurus. Ja tiek pieņemtas kredītkartes vai debetkartes, izveidot vienu maksāšanas kartes un pēc tam izveidot organizācijas mēroga karšu tipus un karšu numurus.
-3.  Uzstādīt veikala maksājumu metodi. Saistītu maksājumu metodes ar katrā noliktavā un pēc tam ievadiet veikalā specifiskos iestatījumus katrai maksāšanas metodei.
-4.  Iestatiet maksāšanas kartes veikaliem. Visas kartes maksājumu metodes, kas veikalā pieņem, karšu uzstādīšana pabeigta.
+2.  Izveidojiet uzņēmuma līmeņa karšu veidus un karšu numurus. Ja tiek pieņemtas kredītkartes vai debetkartes, ir jāizveido viena maksājumu metode maksājumiem ar kartēm un pēc tam ir jāizveido organizācijas līmeņa karšu veidi un karšu numuri.
+3.  Iestatiet veikala maksājuma metodes. Saistiet maksājuma metodes ar katru veikalu un pēc tam ievadiet veikalam raksturīgos maksājuma metodes iestatījumus.
+4.  Iestatiet veikalu kartes maksājuma metodes. Veiciet kartes iestatījumus visām kartes maksājuma metodēm, kas tiek pieņemtas veikalā.
+
+
 
 
 

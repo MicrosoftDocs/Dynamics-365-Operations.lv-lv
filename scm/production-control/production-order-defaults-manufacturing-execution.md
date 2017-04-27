@@ -1,5 +1,5 @@
 ---
-title: "Ražošanas izpildei ražošanas pasūtījuma noklusējumus"
+title: "Ražošanas pasūtījuma noklusējuma vērtības ražošanas izpildes procesā"
 description: 
 author: YuyuScheller
 manager: AnnBe
@@ -27,11 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="production-order-defaults-in-manufacturing-execution"></a>Ražošanas izpildei ražošanas pasūtījuma noklusējumus
+# <a name="production-order-defaults-in-manufacturing-execution"></a>Ražošanas pasūtījuma noklusējuma vērtības ražošanas izpildes procesā
+
+[!include[banner](../includes/banner.md)]
 
 
 
-Ir rūpīgi jāapsver visi iestatījumi, uz **ražošanas pasūtījuma noklusējumus** lapa, pirms darbinieki sāk veikt reģistrāciju uz ražošanas uzdevumiem. Ja jūsu uzņēmums izmanto vairākvietņu funkcionalitāti, varat vēlēties izveidot dažādas ražošanas pasūtījumus katrai vietai noklusējumiem. Pasūtījuma noklusējuma vērtības integrācijai ar moduli Ražošanas kontrole tiek iestatītas tālāk norādītajās lapas **Ražošanas pasūtījuma noklusējuma vērtības** cilnēs.
+
+Pirms nodarbinātie sāk reģistrēt ražošanas darbus, nopietni apsveriet visus iestatījumus lapā **Ražošanas pasūtījuma noklusējuma vērtības**. Ja jūsu uzņēmums izmanto vairākvietu funkcijas, iespējams, vēlaties katrai vietai iestatīt atšķirīgas ražošanas pasūtījumu noklusējuma vērtības. Pasūtījuma noklusējuma vērtības integrācijai ar moduli Ražošanas kontrole tiek iestatītas tālāk norādītajās lapas **Ražošanas pasūtījuma noklusējuma vērtības** cilnēs.
 
 -   **Vispārīgi** — vispārīgas pasūtījuma noklusējuma vērtības ražošanas darbiem modulī Ražošanas izpilde.
 -   **Sākšana** — pasūtījuma noklusējuma vērtības, kas tiek izmantotas, kad tiek sākti ražošanas darbi vai operācijas.
@@ -68,6 +71,8 @@ Materiālu patēriņš pabeigšanas reģistrēšanas procesa laikā tiek kontrol
 -   **Norakstīšanas princips** — kad ražošanas pasūtījums tiek reģistrēts kā pabeigts, materiālu daudzumi tiek patērēti atbilstoši norakstīšanas principam, kas ir iestatīts ražošanas MK rindās. Tiek patērētas tikai tās materiālu rindas, kurās ir iestatīts norakstīšanas princips **Pabeigt**.
 -   **Vienmēr** — vienmēr tiek patērēti materiālu daudzumi, kas ir proporcionāli daudzumam, kas ir reģistrēts kā pabeigts.
 -   **Nekad** — materiālu daudzumi nekad netiek patērēti.
+
+
 
 
 

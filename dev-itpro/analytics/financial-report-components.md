@@ -101,7 +101,7 @@ Jau esošu veidošanas bloku grupu varat saglabāt ar jaunu nosaukumu. Pēc tam 
 
 ### <a name="export-a-building-block-group"></a> Veidošanas bloku grupas eksportēšana
 
-Veidošanas bloku grupu vai atskaites veidošanas bloku veidošanas bloku grupā var eksportēt. Eksportēto veidošanas bloku grupu var izmantot kā backup. Varat arī kopēt eksportētos datus starp veidošanas bloku grupām vai Dynamics 365 operācijas instalācijām. Atskaišu izstrādes rīks ietver atsauces fonta stilus un dimensiju kopas kopā ar grupu veidošanas bloku.
+Varat eksportēt veidošanas bloku grupu vai konkrētus pārskatu veidošanas blokus no veidošanas bloku grupas. Varat izmantot eksportēto veidošanas bloku grupu kā rezerves veidošanas bloku grupu. Varat arī kopēt eksportētos datus no vienas veidošanas bloku grupas citā vai no vienas Dynamics 365 for Operations instances citā. Pārskatu veidotājā kopā ar veidošanas bloku grupu tiek ietverti arī ar atsauci izmantotie fontu stili un dimensiju kopas.
 1.  Pārskatu veidotājā, izvēlnē **Uzņēmums**, noklikšķiniet uz **Veidošanas bloku grupas**.
 2.  Dialoglodziņā **Veidošanas bloku grupas** atlasiet eksportējamo veidošanas bloku grupu un tad noklikšķiniet uz vienuma **Eksportēt**.
 3.  Dialoglodziņā **Eksportēt** atlasiet eksportējamās pārskatu definīcijas.

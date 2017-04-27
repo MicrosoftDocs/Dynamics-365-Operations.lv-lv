@@ -86,5 +86,5 @@ Risinājums ir opcija **Finanšu pārskati**. Organizācijas hierarhijas, kurās
 Datus varat konsolidēt, izmantojot opciju **Eksportēt uzņēmuma bilances**, lai eksportētu no vienas instance, un pēc tam izmantojot opciju **Konsolidēt ar importēšanu** citā instancē.
 
 
-Lai iegūtu papildinformāciju, skatiet [valūtas revalution konsolidācijas uzņēmumā](\finanicials\general-ledger\currency-revaluation-consolidation-company).
+Plašāku informāciju skatiet rakstā [Valūtas pārvērtēšana konsolidācijas uzņēmumā](\finanicials\general-ledger\currency-revaluation-consolidation-company).
 

@@ -1,5 +1,5 @@
 ---
-title: "Automātisko nosegšanu un prioritāšu noteikšana"
+title: "Automātiska nosegšana un prioritāšu noteikšana"
 description: "Šajā rakstā ir sniegta informācija par to, kā tiek segtas transakcijas, atlasot vienumu Automātiska nosegšana lapā Kreditoru parametri. Šeit ir arī izskaidrots, kā automātisko nosegšanu var izmantot kopā ar maksājuma prioritātes statusu."
 author: twheeloc
 manager: AnnBe
@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="automatic-settlement-and-prioritization"></a>Automātisko nosegšanu un prioritāšu noteikšana
+# <a name="automatic-settlement-and-prioritization"></a>Automātiska nosegšana un prioritāšu noteikšana
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir sniegta informācija par to, kā tiek segtas transakcijas, atlasot vienumu Automātiska nosegšana lapā Kreditoru parametri. Šeit ir arī izskaidrots, kā automātisko nosegšanu var izmantot kopā ar maksājuma prioritātes statusu.
 
-Jums ir divas iespējas, apmaksājot maksājumus ar rēķiniem un citām transakcijām. Varat atlasīt manuāli nokārtot darījumu vai Microsoft Dynamics 365 darbībām var atlasīt darbības automātiski, izmantojot automātisko nosegšanu funkcionalitāti. Varat arī pielāgot automātiskās segšanas apstrādi, izmantojot opciju **Noteikt segšanai prioritāti**. Visas šīs iespējas ir daļa no nosegšanas parametrus, kas ir definētas **Accounts receivable parameters** lapā. Veida, kā transakcijas tiek automātiski nosegtas, var atšķirties atkarībā no metodes, ko izmantojat automātiskajai nosegšanai. Pieejamas šādas metodes.
+Jums ir divas iespējas, apmaksājot maksājumus ar rēķiniem un citām transakcijām. Varat manuāli atlasīt sedzamās transakcijas, vai programmā Microsoft Dynamics 365 for Operations šīs transakcijas var tikt atlasītas automātiski, izmantojot automātiskās segšanas funkcionalitāti. Varat arī pielāgot automātiskās segšanas apstrādi, izmantojot opciju **Noteikt segšanai prioritāti**. Visas šīs opcijas ir daļa no segšanas parametriem, kas ir definēti lapā **Debitoru parādu parametri**. Veida, kā transakcijas tiek automātiski nosegtas, var atšķirties atkarībā no metodes, ko izmantojat automātiskajai nosegšanai. Pieejamas šādas metodes.
 
 -   Lietotāja definētas nosegšanas prioritātes
 -   Automātiskā nosegšana pēc noklusējuma
@@ -45,9 +48,9 @@ Turpmākajās sadaļās ir aprakstīts, kā transakcijas tiek nosegtas katrai me
 | Rēķins 1     | 15.augusts   | 100,00 | 2%14, neto 30        | 29.augusts          |                                                                                                                                                                                               |
 | Rēķins 2     | 1.septembris | 250,00 | 2%14, neto 30        | 15.septembris       |                                                                                                                                                                                               |
 | Rēķins 3     | 15.oktobris  | 500,00 | 2% 14/neto 30        | 29.oktobris         |                                                                                                                                                                                               |
-| Procentu paziņojums | 15.oktobris  | 7,00   |                     |                    | Šo procentu paziņojums ir pavadzīmes 1. un 2. rēķina. Summa tiek aprēķināta kā 2 procenti procentu summām, kas ir 30 vai vairāk dienas kavēts. Piemēram, 0,02 × (100,00 + 250,00) = 7,00. |
+| Procentu paziņojums | 15.oktobris  | 7,00   |                     |                    | Šis procentu paziņojums ir par 1. un 2. rēķinu. Summa tiek aprēķināta kā 2 procenti no summām, kuru apmaksa ir nokavēta par 30 dienām vai vairāk. Piemēram, 0,02 × (100,00 + 250,00) = 7,00. |
 
-## <a name="userdefined-settlement-priority"></a>Userdefined izšķiršanas prioritāte
+## <a name="userdefined-settlement-priority"></a>Lietotāja definētas nosegšanas prioritātes
 Ja norādāt opcijas **Izmantot prioritāti automātiskai segšanai** iestatījumu **Jā** lapā **Debitoru parādu parametri**, tad, atlasot transakcijas automātiskai segšanai, tiek izmantota lapā **Norēķinu prioritāte** definētā segšanas prioritāte. Šajā piemērā ir definēta tālāk norādītā segšanas prioritāte.
 
 1.  Darījuma veids
@@ -77,6 +80,8 @@ Ja nav nevienas lietotāja definētas nosegšanas prioritātes, transakcijas tie
 | Rēķins 2     | 01.09.2015.   | 10002   | 250,00                         | 250,00           | 0,00    | USD      |
 | Rēķins 3     | 15.10.2015. |         | 500,00                         | 350,00           | 150,00  | USD      |
 | Procentu paziņojums | 15.10.2015. |         | 7,00                           | 0,00             | 0,00    | USD      |
+
+
 
 
 

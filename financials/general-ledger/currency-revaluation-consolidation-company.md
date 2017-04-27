@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="currency-revaluation-in-a-consolidation-company"></a>Valūtas pārvērtēšana konsolidācijas uzņēmumā
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Veicot datu konsolidāciju no vienas norēķinu valūtas uz citu, joprojām jāpalaiž valūtas pārvērtēšana, ja ir izmaiņas valūtas maiņas kursos, lai jūsu konta bilances tiktu pareizi pārvērtētas. Sākotnēji konsolidējot datus, izmantojiet cilni **Valūtas pārrēķināšana**, lai atlasītu sākotnējos maiņas kursus, pārrēķināšanai konsolidācijas procesa laikā. Pēc jaunā valūtas maiņas kursa ievadīšanas (piemēram, nākamajā mēnesī), nepieciešams pārvērtēt kontu bilances. Nerealizētā peļņa vai zaudējumi pēc tam tiek attiecīgi atjaunināta, pamatojoties uz jauno valūtas maiņas kursu un datumu. Šajā piemērā tiek parādīti uzskaites ieraksti, kas tiek izveidoti procesa laikā.
@@ -33,7 +36,7 @@ Veicot datu konsolidāciju no vienas norēķinu valūtas uz citu, joprojām jāp
 ## <a name="company-setup"></a>Uzņēmuma iestatīšana
 -   **Avota/strādājošs uzņēmums (USMF)** – ASV dolāri (USD) tiek izmantoti kā uzskaites un pārskata valūta.
 -   **Konsolidēts uzņēmums (CON)** – eiro (EUR) tiek izmantoti kā uzskaites un pārskata valūta.
-    -   * * Realizēta peļņa * *-Virsgrāmatas konts 801500
+    -   **Realizētā peļņa** – virsgrāmatas konts 801500
     -   **Realizētie zaudējumi** – Virsgrāmatas konts 801600
     -   **Nerealizētā peļņa** – Virsgrāmatas konts 801600
     -   **Nerealizētie zaudējumi** – Virsgrāmatas konts 801400
@@ -82,6 +85,8 @@ Jūs redzēsiet papildu darbības pārskata valūtas summām.
 | 130100         | EUR      | -500,00 | Oriģinālā summa -500 × 1                          |
 | 801400         | EUR      | 250     | 500 – 333,33 = 166.67 166,67 + 83,33 = 250           |
 | 801600         | EUR      | -250    | -500 – (-333,33) = -166,67 -166,67 + (-83,33) = -250 |
+
+
 
 
 

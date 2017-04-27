@@ -1,6 +1,6 @@
 ---
-title: "Izmaksu uzskaites mājas lapa"
-description: "Šajā tēmā ir sniegta palīdzības tēmas un citus resursus, kas pieejami izmaksu uzskaites sarakstu."
+title: "Izmaksu uzskaites sākumlapa"
+description: "Šajā tēmā ir sniegts saraksts ar palīdzības tēmām un citiem resursiem, kas ir pieejami izmaksu uzskaitei."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,15 +24,18 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="cost-accounting-home-page"></a>Izmaksu uzskaites mājas lapa
+# <a name="cost-accounting-home-page"></a>Izmaksu uzskaites sākumlapa
 
-Šajā tēmā ir sniegta palīdzības tēmas un citus resursus, kas pieejami izmaksu uzskaites sarakstu.
+[!include[banner](../includes/banner.md)]
 
-Izmaksu uzskaites modulis ļauj veikt šādas darbības:
 
--   Definēt izmaksu elementu izmēri, importa izmaksu elementu dimensijas locekļiem un kartēt izmaksu elementu izmēri.
--   Definēt izmaksu objekts izmēri un importa izmaksu objektu dimensiju dalībnieki.
--   Definējiet vai importējiet statistikas dimensijas.
+Šajā tēmā ir sniegts saraksts ar palīdzības tēmām un citiem resursiem, kas ir pieejami izmaksu uzskaitei.
+
+Modulis Izmaksu uzskaite jums sniedz tālāk uzskaitītās iespējas.
+
+-   Definēt izmaksu elementu dimensijas, importēt izmaksu elementu dimensijas dalībniekus un kartēt izmaksu elementu dimensijas.
+-   Definēt izmaksu objektu dimensijas un importējiet izmaksu objektu dimensijas dalībniekus.
+-   Definēt vai importēt statistikas dimensijas.
 -   Izveidot statistisko mērījumu nodrošinātāja veidnes.
 -   Izveidot izmaksu uzskaites virsgrāmatas.
 -   Izveidot žurnāla izmaksu kontroles vienības.
@@ -42,33 +45,35 @@ Izmaksu uzskaites modulis ļauj veikt šādas darbības:
 -   Izsekot izmaksas.
 -   Definēt dimensiju hierarhijas.
 -   Izveidot izrakstus, kurus var skatīt darbvietā.
--   Izveidojiet pārskatus, izmantojot programmu Excel.
+-   Izveidot pārskatus, izmantojot programmu Excel.
 
 ## <a name="get-started"></a>Darba sākšana
 
-Praktiskos darbsemināros par izmaksu uzskaite sniedz pamata norādījumus un konfigurējiet Microsoft Dynamics 365 operācijām – izmaksu aprēķinu, lai veiktu faktisko izmaksu analīzi. Tas arī sniedz virkni procedūras, ko var aizpildīt tādā secībā, kādā tās ir redzamas.
+Izmaksu uzskaitei paredzētie praktiskie uzdevumi sniedz pamata darbības programmas Microsoft Dynamics 365 for Operations – Izmaksu uzskaite konfigurēšanai, lai veiktu faktisko izmaksu analīzi. Tā sniedz arī sērijas ar procedūrām, kuras varat izpildīt tādā secībā, kādā tās tiek rādītas.
 
--   [Iepazīstieties ar izmaksu uzskaites](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc) (balts papīrs un pieprasa vietnei CustomerSource kontu)
+-   [Sākt darbu ar izmaksu uzskaiti](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc) (tehniskais dokuments, un ir nepieciešams CustomerSource konts)
 
-Saprast, kā jūs varat izmantot izmaksu uzskaites ikdienas darbam, ir jāsaprot šīs koncepcijas.
+Lai saprastu, kā izmaksu uzskaiti varat izmantot ikdienas darbam, ir jāsaprot šīs koncepcijas.
 
--   [Key terms in Cost accounting](terms-cost-accounting.md)
--   [Izmaksu elementi un izmaksu elementu izmēri](cost-elements.md)
--   [Map different cost element dimension members to a common set of cost element dimension members](map-cost-elements-dimension-members.md)
--   [Izveidot izmaksu elementi](http://ax.help.dynamics.com/en/wiki/create-cost-elements/) (uzdevuma norādījumi)
--   [Cost object dimensions](cost-objects.md)
--   [Izveidot izmaksu objektus](http://ax.help.dynamics.com/en/wiki/create-cost-objects/) (uzdevuma norādījumi)
+-   [Izmaksu uzskaites galvenie termini](terms-cost-accounting.md)
+-   [Izmaksu elementi un izmaksu elementu dimensijas](cost-elements.md)
+-   [Dažādus izmaksu elementu dimensijas dalībniekus kartēt uz izmaksu elementu dimensijas dalībniekiem](map-cost-elements-dimension-members.md)
+-   [Izveidot izmaksu elementus](http://ax.help.dynamics.com/en/wiki/create-cost-elements/) (uzdevuma ceļvedis)
+-   [Izmaksu objektu dimensijas](cost-objects.md)
+-   [Izveidot izmaksu objektus](http://ax.help.dynamics.com/en/wiki/create-cost-objects/) (uzdevuma ceļvedis)
 
-## <a name="cost-control-mobile-workspace"></a>Izmaksu kontrole mobilo darbvietu
-Ar izmaksu kontroles mobilo darbvietu izmaksu centru vadītāji var redzēt izmaksu centra darbību jebkurā laikā un jebkurā vietā.
+## <a name="cost-control-mobile-workspace"></a>Izmaksu kontroles mobilā darbvieta
+Izmantojot izmaksu kontroles mobilo darbvietu, izmaksu centru vadītāji izmaksu centra veiktspēju var redzēt jebkurā laikā un jebkurā vietā.
 
--   [Cost control mobile workspace](cost-controlling-mobile-workspace.md)
+-   [Izmaksu kontroles mobilā darbvieta](cost-controlling-mobile-workspace.md)
 
-## <a name="cost-accounting-analysis-power-bi-content"></a>Izmaksu uzskaites analīze Power BI saturu
-Izmaksu uzskaites analīze Microsoft Power BI saturs ir paredzēts izmaksu kontrolieri vai ikviens, kurš ir atbildīgs par veicot izmaksu kontroles organizācija. Tā ietver galvenajiem rādītājiem, piemēram, izmaksas, apjoma un izmaksu likmi faktiskajām izmaksām, izmaksu budžets un elastīgās budžeta izmaksas. Tas izmanto Microsoft Dynamics 365 darījumu datus no izmaksu uzskaites darbības un nodrošina kopējo izmaksu viedokļa visai organizācijai vienā pārskata valūtā. Vadītāji var datus filtrēt pēc izmaksu objektiem, lai veiktu to struktūrvienībām, izmaksu kontrolei pat tad, ja organizācija var būt vairākas juridiskās personas.
+## <a name="cost-accounting-analysis-power-bi-content"></a>Power BI saturs Izmaksu uzskaites analīze
+Power BI saturs Izmaksu uzskaites analīze ir paredzēts izmaksu kontrolierim vai ikvienam, kurš ir atbildīgs par organizācijas izmaksu kontroles veikšanu. Tā ietver galvenos rādītājus, piemēram, izmaksas, lielumu un izmaksu likmi pēc faktiskajām izmaksām, budžeta izmaksām un elastīgajām budžeta izmaksām. Tā lieto transakciju datus no izmaksu uzskaites programmā Microsoft Dynamics 365 for Operations un sniedz apkopotu skatu uz izmaksām visai organizācijai vienā pārskata valūtā. Vadītāji var datus filtrēt pēc izmaksu objektiem, lai veiktu savu organizatorisko vienību izmaksu kontroli pat tad, ja organizācijā ietilpst vairākas juridiskās personas.
 
--   [Izmaksu uzskaites analīze Power BI saturu](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
--   [Set up security for the Cost accounting analysis Power BI content](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+-   [Power BI saturs Izmaksu uzskaites analīze](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
+-   [Iestatīt drošību Power BI saturam Izmaksu uzskaites analīze](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+
+
 
 
 

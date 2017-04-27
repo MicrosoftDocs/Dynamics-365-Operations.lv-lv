@@ -1,5 +1,5 @@
 ---
-title: "Iestatīt preču modeļa konfigurācija"
+title: "Preces konfigurācijas modeļa iestatīšana"
 description: "Šajā rakstā ir aprakstītas iestatīšanas un preču konfigurācijas modeļa izveidošanas darbības."
 author: YuyuScheller
 manager: AnnBe
@@ -27,13 +27,16 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-a-product-configuration-model"></a>Iestatīt preču modeļa konfigurācija
+# <a name="set-up-a-product-configuration-model"></a>Preces konfigurācijas modeļa iestatīšana
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir aprakstītas iestatīšanas un preču konfigurācijas modeļa izveidošanas darbības.
 
 | Uzdevums                                                        | apraksts                                                                                                                                                                                                                                                                                                                                                                                        |
 |-------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Izveidojiet preces šablonu.                                    | Izveidojiet preces šablonu no saraksta **Preces šablons**. Atlaidiet produkta pamata visiem attiecīgajiem uzņēmumiem. Par produkta saimnieku, kas tiek izmantots kā versija preču modeļa konfigurācija vai kā apakškomponentu, **konfigurācijas ierobežojumu pamatā** ir jāatlasa kā tehnoloģiju konfigurācija un konfigurācijas dimensija ir jāatlasa tikai produkta dimensiju grupas. |
+| Izveidojiet preces šablonu.                                    | Izveidojiet preces šablonu no saraksta **Preces šablons**. Izdodiet preces šablonu visiem saistītajiem uzņēmumiem. Preces šablonam, kas tiek izmantots kā preču konfigurācijas modeļa versija vai kā apakškomponents, ir jāatlasa konfigurācijas tehnoloģija **Konfigurācija atbilstoši ierobežojumam** un ir jāatlasa tikai preču dimensiju grupas konfigurācijas dimensija. |
 | Izveidojiet komponentus.                                          | Izveidojiet komponentus lapā **Komponenti**. Komponenti ir preces konfigurācijas modeļa pamatelementi, ko var atkārtoti izmantot vairākos preču konfigurācijas modeļos.                                                                                                                                                                                                                      |
 | Izveidojiet atribūtu tipus.                                     | Izveidojiet atribūtu tipus lapā **Atribūtu tipi**. Atribūtu tipi nosaka datu tipu kopu visiem atribūtiem, kas tiek izmantoti preču konfigurācijas modeļos. Atribūti, kuru tips ir **Būla**, **Teksts** ar fiksētu sarakstu un **Vesels skaitlis** ar diapazonu tipu, satur to vērtību kopu, kas ir pieejama, kad konfigurējat preces variantu, pamatojoties uz preces konfigurācijas modeli.       |
 | Izveidojiet preces konfigurācijas modeli.                       | Izveidojiet preces konfigurācijas modeli lapā **Jauns preces konfigurācijas modelis**.                                                                                                                                                                                                                                                                                                              |
@@ -47,6 +50,8 @@ ms.lasthandoff: 03/31/2017
 | Pārbaudiet preces konfigurācijas modeli.                         | Pārbaudiet preces konfigurācijas modeli lapā **Detalizēta informācija par ierobežojumam atbilstošu preces konfigurācijas modeli** vai **Preču konfigurācijas modeļu saraksts**. Veicot preču konfigurācijas modeļu pārbaudi, tiek imitēts preces modeļa konfigurācijas process, kas notiek pasūtījuma apstrādes laikā.                                                                                                |
 | Izveidojiet preces konfigurācijas modeļa veidni.                | Izveidojiet preces konfigurācijas modeļa veidni lapā **Konfigurācijas veidnes**. Konfigurācijas veidnē ir ietvertas preces konfigurācijas modeļa atribūtu vērtības. Atlasiet atribūtu vērtības lapā **Konfigurēt rindu**. Preces modeļa konfigurācijas laikā varat izvēlēties ielādēt preces modeļa konfigurācijas veidni.                                                   |
 | Konfigurējiet krājumu.                                          | Preču konfigurācijas modeļus var konfigurēt pārdošanas pasūtījumā, pārdošanas piedāvājumā, pirkšanas pasūtījumā vai ražošanas pasūtījumā.                                                                                                                                                                                                                                                                           |
+
+
 
 
 

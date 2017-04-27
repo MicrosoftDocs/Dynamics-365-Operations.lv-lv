@@ -1,5 +1,5 @@
 ---
-title: "Ražošanas pasūtījuma statusu"
+title: "Ražošanas pasūtījuma statusa atsaukšana"
 description: "Šajā tēmā ir aprakstīts, kā atsaukt ražošanas pasūtījuma statusu."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="reverse-the-production-order-status"></a>Ražošanas pasūtījuma statusu
+# <a name="reverse-the-production-order-status"></a>Ražošanas pasūtījuma statusa atsaukšana
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā tēmā ir aprakstīts, kā atsaukt ražošanas pasūtījuma statusu. 
 
@@ -49,5 +52,7 @@ Ja atsaucat ražošanas pasūtījuma statusu, mainot to no **Izlaists** uz **iep
 
 ## <a name="from-started-to-released"></a>No Sākts uz Izlaists
 Ja atsaucat ražošanas pasūtījuma statusu, mainot to no **Sākts** uz **Izlaists**, tiek atsaukts visu to krājumu statuss, kas ir reģistrēti kā pabeigti. Ja materiāls ir izdots vai ir veikta ieejošā vai izejošā piegāde ražošanai, šie iestatījumi tiek atsaukti. Ražošanas pasūtījuma MK rindu lauka**Nepabeigtā pasūtījuma statuss** tiek mainīts no **Pabeigts** uz **Materiālu patēriņš**. Ja operācijām ražošanas maršrutā ir reģistrēts laiks vai daudzumi ir reģistrēti kā pabeigti, šie iestatījumi tiek atsaukti. Ražošanas maršruta lauka**Nepabeigtā pasūtījuma statuss** tiek mainīts no **Pabeigts** uz **Maršruta patēriņš**. Tiek atsaukti visu to krājumu iestatījumi, kas ir grāmatoti kā notiekošs process vai nepabeigtā ražošana. Lapā **Ražošanas pasūtījumu informācija** tiek atiestatīti lauki, kuros ir redzams daudzums, kas ir sākts vai reģistrēts kā pabeigts. Tiek atiestatīti arī šo transakciju datumi.
+
+
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="consumption-depreciation"></a>Patēriņa nolietojuma aprēķins
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegts pārskats par nolietojuma patēriņa metodi.
 
 Ja iestatāt nolietojuma tabulu pamatlīdzekļiem un atlasāt opciju **Patēriņš** laukā **Metode**, kurš atrodas lapā **Nolietojuma tabulas**, tad pamatlīdzekļi tiek piešķirti nolietojuma tabulai, pamatojoties uz to lietojumu. Jums nav jāiestata procentuālais daudzums un intervāli lapā **Nolietojuma tabulas**. Kad ir izveidota nolietojuma tabula, kas izmanto metodi Patēriņš, šo metodi varat iestatīt dažādos veidos.
@@ -64,5 +67,7 @@ Nolietojuma priekšlikums 31. janvārī ir šāds: Daudzums × Vienības nolieto
 -   Pamatlīdzekļa novērtētais daudzums ir 2000.
 
 Nolietojuma priekšlikums 31. janvārī ir šāds: Novērtētais daudzums × Procenti × Vienības nolietojums 2000 × 0,10 × 1,5 = 300
+
+
 
 

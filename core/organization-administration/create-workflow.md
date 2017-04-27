@@ -26,15 +26,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-a-workflow"></a>Darbplūsmas izveide
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā tēmā ir paskaidrots, kā izveidot darbplūsmu.
 
 <a name="open-the-workflow-editor"></a>Atveriet darbplūsmas redaktoru
 ------------------------
 
-Microsoft Dynamics 365 operācijas modulim, kas tiek strādāts nosaka veidu, var izveidot darbplūsmu. Izpildiet šeit aprakstītās darbības, lai atlasītu izveidojamo darbplūsmas tipu un atvērtu darbplūsmas redaktoru.
+To, kādus darbplūsmas tipus varat izveidot, nosaka Microsoft Dynamics 365 for Operations modulis, kurā jūs strādājat. Izpildiet šeit aprakstītās darbības, lai atlasītu izveidojamo darbplūsmas tipu un atvērtu darbplūsmas redaktoru.
 
 1.  Atveriet moduli, kuram vēlaties izveidot jaunu darbplūsmu. Piemēram, lai izveidotu darbplūsmu pirkšanas pieprasījumiem, noklikšķiniet uz **Sagāde un avoti**.
-2.  Noklikšķiniet uz **Setup**&gt;**\[moduļa nosaukums\] darbplūsmas**.
+2.  Noklikšķiniet uz **Iestatīšana** &gt; **\[Moduļa nosaukums\] darbplūsmas**.
 3.  Parādītās lapas darbību rūtī noklikšķiniet uz **Jauns**.
 4.  Lapā **Izveidot darbplūsmu** atlasiet izveidojamās darbplūsmas tipu un pēc tam noklikšķiniet uz **Izveidot darbplūsmu**. Tiek parādīts darbplūsmas redaktors. Tagad varat izmantot tālāk aprakstītās procedūras, lai veidotu darbplūsmu.
 
@@ -75,6 +78,8 @@ Kad esat gatavs saglabāt un aktivizēt darbplūsmu, izpildiet tālāk aprakstī
 3.  Ja visas kļūdas un brīdinājumi ir novērsti, tiek parādīta lapa **Aktivizēt darbplūsmu**. Izvēlieties vienu no šīm opcijām:
     -   Lai aktivizētu šo darbplūsmas versiju, noklikšķiniet uz **Aktivizēt jauno versiju**. Kad darbplūsma ir aktīva, lietotāji var tajā iesniegt dokumentus apstrādei.
     -   Ja nevēlaties aktivizēt šo versiju, noklikšķiniet uz **Neaktivizēt jauno versiju**. Varat aktivizēt darbplūsmu vēlāk.
+
+
 
 
 

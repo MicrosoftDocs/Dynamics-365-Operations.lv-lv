@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-accounts-payable"></a>Kreditoru konfigurēšana
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir aprakstītas lapas, kuras izmantojat, lai programmatūrā Microsoft Dynamics AX iestatītu pamata un papildu funkcionalitāti modulim Parādi kreditoriem. Tajā ir aprakstītas arī iestatīšanas darbības, kas ir jāizpilda, pirms sākat iestatīt moduli Parādi kreditoriem.
 
 <a name="prerequisites-for-accounts-payable-setup"></a>Priekšnosacījumi moduļa Kreditori iestatīšanai
@@ -40,7 +43,7 @@ Lai varētu iestatīt moduli Kreditori, ir jāizpilda šāda iestatīšana:
     -   Ja plānojat darbināt valūtas maiņas kursa korekcijas, iestatiet valūtu kodus lapā Valūtas, iestatiet maiņas kursa tipus lapā Maiņas kursa tipi un iestatiet valūtas maiņas kursus lapā Valūtas maiņas kursi.
 -   Modulī Kases un bankas vadība iestatiet banku kontus, ko izmantot ar maksāšanas metodēm.
 
-## <a name="setup-pages-for-accounts-payable"></a>Iestatījumu lapas kreditoru
+## <a name="setup-pages-for-accounts-payable"></a>Iestatījumu lapas modulim Parādi kreditoriem
 
 Izmantojiet nākamās lapas, lai katrai juridiskajai personai iestatītu moduļa Kreditori pamata funkcionalitāti. Lapas ir uzskaitītas ieteicamajā iestatīšanas secībā. Lai iestatīšanas procesu padarītu vienkāršāku, no pirmajiem izveidotajiem ierakstiem varat izveidot veidnes. Veidnē vērtības parasti tiek ievadītas daudzos laukos, lai parādītu līdzekļus, kurus organizācija vēlas ieviest konkrētam kreditora tipam.
 1.  Lapā Apmaksas nosacījumi definējiet apmaksas nosacījumus, kurus piešķirat pārdošanas pasūtījumiem, pirkšanas pasūtījumiem, debitoriem un kreditoriem, un kas nosaka rēķinu izpildes datumus.
@@ -51,15 +54,15 @@ Izmantojiet nākamās lapas, lai katrai juridiskajai personai iestatītu moduļa
 6.  Lapā Formas iestatīšana definējiet dažādu ar kreditoriem saistītu dokumentu formātu un ko organizācija lieto, lai sekotu ieejas plūsmām no kreditoriem un ievadītu iemeslus maksājumu plūsmai pie kreditoriem.
 7.  Lapā Kreditori izveidojiet un uzturiet kreditoru kontus, kā arī nodokļu iestādes, kurām jūsu organizācija atskaitās par pārdošanas nodokli.
 
-## <a name="optional-setup-pages-for-accounts-payable"></a>Neobligātā iestatīšana lappuses apgāde
+## <a name="optional-setup-pages-for-accounts-payable"></a>Neobligātās iestatījumu lapas modulim Parādi kreditoriem
 Papildus pamata funkcionalitātei modulī Kreditori ietilpst arī cita funkcionalitāte, ko varat iestatīt.
 
 Papildu iestatīšanas lapas ir sakārtotas pēc funkcionalitātes.
 
-**Policies**
+**Politikas**
 -   Lapā Kreditoru rēķinu ierobežojumi iestatiet kreditoru rēķinu ierobežojumus.
 
-**Invoice matching**
+**Rēķinu salīdzināšana**
 
 -   Lapā Rēķinu kopsummu tolerances iestatiet tolerances attiecībā uz rēķinu kopsummām.
 -   Lapā Atbilstības ierobežojumi iestatiet divvirzienu un trīsvirzienu atbilstības ierobežojumus.
@@ -68,39 +71,39 @@ Papildu iestatīšanas lapas ir sakārtotas pēc funkcionalitātes.
 -   Lapā Kreditoru cenu tolerances grupas iestatiet tolerances grupas attiecībā uz kreditoru cenām.
 -   Lapā Maksu tolerances iestatiet tolerances attiecībā uz maksām.
 
-**Workflow**
+**Darbplūsma**
 
 -   Lapā Kreditoru darbplūsmas iestatiet darbplūsmas konfigurācijas attiecībā uz žurnālu apstiprinājumiem un pirkšanas pieprasījumiem.
 
-**Reasons**
+**Iemesli**
 
 -   Lapā Kreditoru iemesli iestatiet iemeslu kodus.
 
-**Charges**
+**Izmaksas**
 
 -   Lapā Maksas kods iestatiet kodus maksām, kas tiek izmantotas pirkšanas pasūtījumos.
--   Kreditoru maksājumi grupas lapā izveidot un uzturēt grupas kreditoriem.
+-   Lapā Kreditoru izmaksu grupa izveidojiet un uzturiet izmaksu grupas kreditoriem.
 -   Lapā Krājumu maksu grupasizveidojiet un uzturiet maksu grupas attiecībā uz krājumiem.
 -   Lapā Automātiskās maksas definējiet maksas, kas pasūtījumiem tiek piešķirtas automātiski.
 
-**Supplementary items**
+**Papildu krājumi**
 
 -   Lapā Papildu krājumu grupas - Kreditors izveidojiet un uzturiet papildu krājumu grupas kreditoriem.
 -   Lapā Papildu krājumu grupas - Krājumi izveidojiet un uzturiet papildu krājumu grupas krājumiem.
 
-**Distribution**
+**Sadale**
 
 -   Lapā Piegādes nosacījumi izveidojiet un uzturiet nosacījumus attiecībā uz krājumu pārsūtīšanu no pārdevēja pie pircēja.
 -   Lapā Piegādes režīmi izveidojiet un uzturiet transportēšanas metodes, kas tiek lietotas, kad pasūtījums no pārdevēja tiek piegādāts pircējam.
 -   Lapā Adresātu kodi izveidojiet un uzturiet identifikatorus un aprakstus piegādes galamērķiem.
 
-**Forms**
+**Formas**
 
 -   Lapā Formu piezīmes izveidojiet standarta tekstu, kas ir redzams dažādās lapās.
 -   Lapā Formu kārtošanas parametri iestatiet kārtošanas secību attiecībā uz pieprasījumiem, ieejas plūsmas sarakstiem, pavadzīmēm un rēķiniem.
 -   Lapā Drukas pārvaldības iestatīšana iestatiet drukas pārvaldības informāciju attiecībā uz lapu oriģināliem un kopijām.
 
-**Payments**
+**Maksājumi**
 
 -   Lapā Termiņatlaides iestatiet un pārvaldiet nosacījumus attiecībā uz termiņatlaižu saņemšanu. Termiņatlaižu kodi ir saitīti ar kreditoriem un tiek pielietoti pirkšanas pasūtījumos.
 -   Lapā Maksājumu grafiki iestatiet maksājumu grafikus, kas tiek izmantoti, lai pārvaldītu iemaksu maksājumus kreditoriem.
@@ -108,17 +111,17 @@ Papildu iestatīšanas lapas ir sakārtotas pēc funkcionalitātes.
 -   Lapā Komisijas maksa izveidojiet un uzturiet komisijas maksas, kas ir saistītas ar kreditoriem.
 -   Lapā Maksājuma instrukcija izveidojiet un uzturiet maksājumu instrukcijas.
 
-**Statistics**
+**Statistika**
 
 -   Lapā Vecumstruktūras periodu definīcijas iestatiet lietotāja definētus intervālus, kas tiek izmantoti, lai analizētu kreditoru kontu sadalījumu pa termiņiem.
 -   Lapā Biznesa nozare izveidojiet biznesa nozaru (Line of Business — LOB) kodus, kas tiek piešķirti kreditoriem.
 
-**Nodokļa 1099**
+**Nodoklis 1099**
 
--   Par **1099 laukos** lapa, pārbaudīt un atjaunināt minimālās summas, kas ir jāziņo uz iekšējo ieņēmumu pakalpojumu (IRS), balstoties uz jaunākajām IRS prasībām.
+-   Lapā **1099 lauki** pārbaudiet un atjauniniet minimālās summas, par kurām ir jāatskaitās Iekšējam ieņēmumu dienestam (Internal Revenue Service — IRS), pamatojoties uz visjaunākajām IRS prasībām.
 
-## <a name="optional-setup-for-other-modules"></a>**Neobligātā iestatīšana citiem moduļiem**
-**Organization administration**
+## <a name="optional-setup-for-other-modules"></a>**Neobligāti iestatījumi citiem moduļiem**
+**Organizācijas administrēšana**
 
 -   Lapā Numuru sērijas iestatiet numuru sēriju grupas rēķinu numuriem.
 -   Iestatiet adreses informāciju šādās lapās:
@@ -126,7 +129,7 @@ Papildu iestatīšanas lapas ir sakārtotas pēc funkcionalitātes.
     -   NAF kodi (Francija)
     -   Importēt pasta indeksus
 
-**General ledger**
+**Virsgrāmata**
 
 -   Lapā Finanšu dimensijas iestatiet finanšu dimensijas.
 -   Iestatiet nodokļu informāciju šādās lapās:
@@ -139,9 +142,10 @@ Papildu iestatīšanas lapas ir sakārtotas pēc funkcionalitātes.
     -   Nodokļu iestādes
     -   PVN apmaksas periodi
 
-**Cash and bank management**
+**Kases un bankas vadība**
 
 -   Lapā Maksājuma mērķu kodi iestatiet centrālās bankas mērķa kodu.
+
 
 
 

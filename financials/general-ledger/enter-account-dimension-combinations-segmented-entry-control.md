@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Konta un dimensiju kombināciju ievade (segmentētu ierakstu kontrole)
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir aprakstīts, kā ievadīt kontu un dimensiju kombinācijas vai virsgrāmatas kontus. Ierakstīšanas darbība bieži tiek saukta par segmentētu ierakstu kontroli.
 
-Lietotāji ievada kontu un dimensiju kombinācijas dažādās lapās, piem., lappusēm v/g žurnālos, budžeta veidošana, un norīkošanu definīcijas. Derīgas kontu un dimensiju kombinācijas ir atkarīgas no konta struktūras, kas tiek piešķirta Virsgrāmatai un papildu kārtulām, kas piešķirtas kontu struktūram. Pēc tam, kad lietotāji ievadījuši kombināciju, viņi var manuāli ievadīt vērtības vai gūt labumu no bagāto, pārlūkošanas pieredzi. Ievadot lauka, jūs varat sākt rakstīt un tiek meklēts vērtība un apraksts. Piemēram, ja ierakstāt 180 meklēs vērtības, kas sākas ar ciparu kombināciju. Vai varat ievadīt kases un tā meklēs vērtības, kas ir apraksts, kas sākas ar naudas. Var izmantot aizstājējzīmes, piemēram, \*naudā vai \*180 meklēt, ja vērtību vai apraksts ietver meklēšanas kritērijus. 
+Lietotāji kontu un dimensiju kombinācijas ievada dažādās lapās, piemēram, lapās, kas paredzētas virsgrāmatas žurnāliem, budžeta plānošanai un grāmatošanas definīcijām. Derīgas kontu un dimensiju kombinācijas ir atkarīgas no konta struktūras, kas tiek piešķirta Virsgrāmatai un papildu kārtulām, kas piešķirtas kontu struktūram. Kad lietotāji ir ievadījuši kombināciju, viņi var manuāli ierakstīt vērtības vai izmantot bagātīgo uzmeklēšanas funkcionalitāti. Kad notiek ievadīšana laukā, varat sākt rakstīt, un tas meklēs vērtību un aprakstu. Piemēram, ja ierakstāt 180, tiks meklēta jebkāda vērtība, kas sākas ar šo numuru kombināciju. Varat arī ierakstīt Skaidra nauda, un tiks meklēta jebkāda vērtība, kuras apraksts sākas ar Skaidra nauda. Varat arī izmantot aizstājējzīmi, piemēram, \*Skaidra nauda vai \*180, lai meklētu, vai vērtībā vai aprakstā ir ietverti šie meklēšanas kritēriji. 
 
 Tabulā ir aprakstīti īsinājumtaustiņi, ko var izmantot, ja pārlūkošanas logs nav atvērts.
 
@@ -57,7 +60,7 @@ Tabulā ir aprakstīti īsinājumtaustiņi, ko var izmantot, ja pārlūkošanas 
 <td>Pārejiet uz nākamo vai iepriekšējo segmentu.</td>
 </tr>
 <tr class="odd">
-<td>Cilne</td>
+<td>Tabulēšanas taustiņš</td>
 <td>Režģī pārejiet uz nākamo lauku.</td>
 </tr>
 </tbody>
@@ -85,7 +88,7 @@ Tabulā ir aprakstīti īsinājumtaustiņi, ko var izmantot, ja pārlūkošanas 
 <td><ul>
 <li>Augšupvērstā bultiņa un lejupvērstā bultiņa</li>
 <li>Iepriekšējā lapa un nākamā lapa</li>
-<li>Sākums un beigas</li>
+<li>Home un End</li>
 </ul></td>
 <td>Sarakstos pārejiet uz nākamo vai iepriekšējo vērtību, nākamo vai iepriekšējo vērtību grupu vai pirmo vai pēdējo pārlūkojamo elementu.</td>
 </tr>
@@ -97,7 +100,7 @@ Tabulā ir aprakstīti īsinājumtaustiņi, ko var izmantot, ja pārlūkošanas 
 <td>Pārejiet uz nākamo vai iepriekšējo segmentu.</td>
 </tr>
 <tr class="even">
-<td>Cilne</td>
+<td>Tabulēšanas taustiņš</td>
 <td>Režģī pārejiet uz nākamo lauku.</td>
 </tr>
 <tr class="odd">
@@ -108,5 +111,7 @@ Tabulā ir aprakstīti īsinājumtaustiņi, ko var izmantot, ja pārlūkošanas 
 </table>
 
  
+
+
 
 

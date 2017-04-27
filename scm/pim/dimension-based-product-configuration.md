@@ -29,9 +29,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="dimension-based-product-configuration"></a>Preces konfigurācija atbilstoši dimensijām
 
+[!include[banner](../includes/banner.md)]
+
+
 No dimensijām atkarīga preču konfigurācija ir vienkāršs risinājums, kā no viena preces šablona un tā materiālu komplekta izveidot daudzus preču variantus.
 
-Konfigurācijas dimensija balstās product ir viens no trim iebūvēto produktu konfigurācijas tehnoloģijas. Pārējās divas tehnoloģijas ir šādas: Iepriekš definēti varianti un Konfigurācija atbilstoši ierobežojumam. Visas trīs tehnoloģijas kā sākuma punktu izmanto preces šablonu un ļauj lietotājam izveidot daudz preču variantus vienam preces šablonam.
+Preces konfigurācija atbilstoši dimensijām ir viena no trim preču konfigurācijas tehnoloģijām. Pārējās divas tehnoloģijas ir šādas: Iepriekš definēti varianti un Konfigurācija atbilstoši ierobežojumam. Visas trīs tehnoloģijas kā sākuma punktu izmanto preces šablonu un ļauj lietotājam izveidot daudz preču variantus vienam preces šablonam.
 
 ## <a name="key-concepts"></a>Galvenie principi
 Preces konfigurācijas atbilstoši dimensijām pamatā ir tālāk minētie galvenie principi.
@@ -68,10 +71,12 @@ Konfigurācijas maršruts nosaka konfigurāciju grupu secību, kādā tās tiks 
 Konfigurācijas nosacījumi ir mehānisms, kas nodrošina, ka vienā MK konfigurāciju grupā iekļautā prece īsteno preces iekļaušanu vai izslēgšanu viena MK dažādās konfigurāciju grupās.
 
 ## <a name="product-modeling-process"></a>Preces modelēšanas process
-Veidojot no dimensijas atkarīgas preces modeli, parastā darbību secība sākas ar saistīto konfigurāciju grupu definēšanu. Ir svarīgi nodrošināt, ka visas preces, kas tiks izmantotas MK, tika izlaistas uzņēmumam, kam modelis tiek izveidots. Šos veidošanas blokus savā vietā, lietotājs var izveidot MK un konfigurāciju grupām piešķirt visus attiecīgos MK rindas. Kad MK ir pabeigts, pasūtot konfigurācijas grupas vajadzīgajā secībā var definēt konfigurācijas maršrutā. \[Caption id = "pielikumu\_282671" izlīdzināt = "alignnone" width = "1187"\][![dimensija balstās produkta modelēšanas procesu](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) dimensija balstās produkta modelēšanas procesu\[/parakstu\] ja dažiem produktiem no dažādām konfigurāciju grupām, kas vai nu ir vai nav jālieto kopā, var izveidot konfigurācijas noteikumus, kurš nodrošina šo produktu attiecības. Pēc tam, kad MK tiek saistīts ar no dimensijām atkarīgs preces šablonu, izmantojot MK versiju, un abi ir apstiprināti un aktivizēti, varat izveidot preces konfigurācijas un ievadīt nosaukumu katrai konfigurācijai. Konfigurācijas var definēt pirms tiek ģenerētas jebkādas transakcijas, vai arī to var izdarīt tad, kad rodas vajadzība pēc noteiktas konfigurācijas.
+Veidojot no dimensijas atkarīgas preces modeli, parastā darbību secība sākas ar saistīto konfigurāciju grupu definēšanu. Ir svarīgi nodrošināt, ka visas preces, kas tiks izmantotas MK, tika izlaistas uzņēmumam, kam modelis tiek izveidots. Izmantojot šos veidošanas blokus, lietotājs var izveidot MK un piešķirt konfigurāciju grupas visiem saistītajām MK rindām. Kad MK ir pabeigts, var definēt konfigurācijas maršrutu konfigurāciju grupu kārtošanai pareizā secībā. \[caption id="attachment\_282671" align="alignnone" width="1187"\][![No dimensijām atkarīgs preču modelēšanas process](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) No dimensijām atkarīgs preču modelēšanas process\[/caption\] Ja dažādās konfigurāciju grupās ir noteiktas preces, kas ir jālieto vienlaicīgi vai kuras nedrīkst lietot vienlaicīgi, varat izveidot konfigurācijas nosacījumus, kas liks ievērot šo preču attiecības. Pēc tam, kad MK tiek saistīts ar no dimensijām atkarīgs preces šablonu, izmantojot MK versiju, un abi ir apstiprināti un aktivizēti, varat izveidot preces konfigurācijas un ievadīt nosaukumu katrai konfigurācijai. Konfigurācijas var definēt pirms tiek ģenerētas jebkādas transakcijas, vai arī to var izdarīt tad, kad rodas vajadzība pēc noteiktas konfigurācijas.
 
 ### <a name="suggested-use"></a>Ieteiktais pielietojums
 
 Tehnoloģiju Konfigurācija atbilstoši dimensijām ieteicams lietot precēm ar ierobežotu mainīgumu, un noteikta preces varianta identificēšanai ir piemērota standarta preces dimensijs izmēru, krāsas, stila un konfigurācijas kombinācija. Piemēram, velosipēds ar rāmja augstumu, riteņu diametru, bremžu veidu un vairākiem pārnesumiem.
+
+
 
 

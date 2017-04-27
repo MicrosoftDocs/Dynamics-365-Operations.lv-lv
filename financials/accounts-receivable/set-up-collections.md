@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-credit-and-collections"></a>Kredīta un iekasēšanas iestatīšana
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir paskaidrots, kā iestatīt iekasēšanas funkcionalitāti.
 
 <a name="set-up-aging-period-definitions"></a>Iestatiet vecumstruktūras perioda definīcijas
@@ -46,7 +49,7 @@ Ja vairāki cilvēki jūsu organizācijā veic iekasēšanas darbu, varat izveid
 ## <a name="set-up-a-collections-case-category"></a>Iestatīt iekasēšanu notikumu kategorijai
 Ja izmantosies gadījumus, lai organizētu savu iekasēšanas darbu, iestatiet gadījumu kategoriju, kuras kategorijas tips ir **Iekasēšana**. Šis iestatījums ir nepieciešams tikai tad, ja lapā **Iekasēšana** vēlaties izmantot gadījumu funkcionalitāti.
 
-## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>Iestatīt žurnālu nosaukumus (settlement, writeoff un NSF)
+## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>Iestatīt žurnālu nosaukumus (segšana, norakstīšana un NSF)
 Iestatiet žurnālu nosaukumus, kas tiek izmantoti, kad lapā **Iekasēšana** tiek apstrādātas transakcijas. Šī apstrāde ietver transakcijas segšanu, transakcijas norakstīšanu un nepietiekamu naudas līdzekļu (NSF) maksājuma apstrādi.
 
 | Apraksts | Žurnāla veids     |
@@ -55,7 +58,7 @@ Iestatiet žurnālu nosaukumus, kas tiek izmantoti, kad lapā **Iekasēšana** t
 | Norakstīšana   | Ikdienas            |
 | NSF         | Debitora maksājums |
 
-## <a name="set-up-a-reason-code-for-writeoff-transactions"></a>Uzstādīt iemesla kodu writeoff darījumiem
+## <a name="set-up-a-reason-code-for-writeoff-transactions"></a>Iestatīt pamatojuma kodu norakstīšanas transakcijām
 Iestatiet noklusējuma pamatojuma kodu, kas tiek izmantots, kad lapā **Iekasēšana** transakcijas tiek norakstītas. Šo kodu varat mainīt norakstīšanas procesa laikā.
 
 ## <a name="set-up-a-folder-for-email-attachments-and-create-email-templates"></a>Iestatīt mapi e-pasta pielikumiem un izveidot e-pasta veidnes
@@ -67,7 +70,7 @@ Iestatiet debitoru moduļa parametrus, kas tiek rādīti cilnē **Iekasēšana**
 ## <a name="optional-set-up-collections-agents"></a>Pēc izvēles: iestatīt iekasēšanas aģentus
 Ja vairāki cilvēki jūsu organizācijā veic iekasēšanas darbu, varat iestatīt iekasēšanas aģentus. Iekasēšanas aģents ir darbinieks, kas ir iestatīts kā lietotājs lapā **Lietotāju attiecības**. Lai aģentiem palīdzētu organizēt viņu darbu, iekasēšanas aģentiem varat piešķirt debitoru kopas (debitoru vaicājumus). Iekasēšanas aģenti tiek pievienoti darba grupai, kas ir atlasīta lapā**Debitoru moduļa parametri**. Ja šajā lapā nav atlasīta neviena grupa, automātiski tiek izveidota jauna grupa ar nosaukumu **Iekasēšana**, un iekasēšanas aģenti tiek pievienoti šai grupai.
 
-## <a name="set-up-a-writeoff-account"></a>Writeoff konta iestatīšana
+## <a name="set-up-a-writeoff-account"></a>Iestatīt norakstīšanas kontu
 Iestatiet norakstīšanas kontu, kas tiek izmantots virsgrāmatas norakstīšanas ierakstam, kad tiek norakstīta kāda transakcija. Šis konts tiek glabāts debitoru grāmatošanas metodē.
 
 ## <a name="set-up-nsf-information-for-bank-accounts"></a>Iestatīt bankas kontu NSF informāciju
@@ -82,11 +85,13 @@ Ja vēlaties sūtīt e-pasta ziņojumus kontaktpersonām, kas norādītas formā
 Kopsavilkuma cilnē **Kredīts un iekasēšana** debitoram laukā **Iekasēšanas kontaktpersona** atlasiet to personu debitora organizācijā, kura strādā ar jūsu iekasēšanas aģentu. Šī persona tiek izmantota kā noklusējuma kontaktpersona lapā **Iekasēšana**, un e-pasta ziņojumi tiek sūtīti šai personai. 
 
 > [!NOTE] 
-> Ja kolekcijas kontaktpersonai nav norādīta klientam, tiek izmantota klienta primāro kontaktpersonu. Ja primārā kontaktpersona nav norādīta, e-pasta ziņojumi tiek sūtīti uz pirmo adresi, kas ir uzskaitīta lapā **Kontaktpersonas**.
+> Ja debitora iekasēšanas kontaktpersona nav norādīta, tiek izmantota debitora primārā kontaktpersona. Ja primārā kontaktpersona nav norādīta, e-pasta ziņojumi tiek sūtīti uz pirmo adresi, kas ir uzskaitīta lapā **Kontaktpersonas**.
 
 ## <a name="set-up-email-settings-for-salespeople"></a>Iestatīt e-pasta iestatījumus pārdevējiem
 Ja vēlaties sūtīt e-pasta ziņojumus pārdevējiem, kas norādīti lapā **Iekasēšana**, tad iestatiet pārdevēju e-pasta adreses. Iestatiet e-pasta adresi katram tirdzniecības pārstāvim katrā komisijas pārdošanas grupā. Tirdzniecības pārstāvis, kuram ir atzīmēta opcija **Kontaktpersona**, ir noklusējuma pārdevējs, kam tiek sūtīti e-pasta ziņojumi. 
 
 Ja tirdzniecības pārstāvis nav norādīts, tiek izmantots debitora organizācijas primārais pārdevējs. Ja primārais pārdevējs nav norādīts, tad e-pasta ziņojumi tiek sūtīti pirmajam pārdevējam, kas ir norādīts šajā lapā.
+
+
 
 

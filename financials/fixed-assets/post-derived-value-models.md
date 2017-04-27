@@ -1,5 +1,5 @@
 ---
-title: "Pastu ar atvasinātā grāmatas"
+title: "Grāmatošana, izmantojot atvasinātās grāmatas"
 description: "Šajā rakstā ir aprakstīts, kā izmantot atvasinātās grāmatas."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="post-with-derived-books"></a>Pastu ar atvasinātā grāmatas
+# <a name="post-with-derived-books"></a>Grāmatošana, izmantojot atvasinātās grāmatas
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir aprakstīts, kā izmantot atvasinātās grāmatas.
 
@@ -49,11 +52,13 @@ Tālāk sniegtajā informācijā ir aprakstīts, kā iestatīt iegādes darbība
 
 Pēc tam grāmatas var pievienot specifiskiem pamatlīdzekļiem. 
 
-Kad iegāde ir iegrāmatota pamatlīdzeklim ar grāmatu 1. VM, iegādes grāmatošanas ne tikai 1. VM, bet arī atvasinātās grāmata 2. VM. Gan pamatlīdzekļu grāmatas statuss tiek atjaunināts uz Atvērt.
+Grāmatojot pamatlīdzekļa iegādi, izmantojot grāmatu 1. VM, iegāde tiek grāmatota ne tikai grāmatā 1. VM, bet arī atvasinātajā grāmatā 2. VM. Abu pamatlīdzekļu grāmatu statuss tiek mainīts uz Atvērts.
 
 > [!NOTE]                                                                                                         
 > Ja atvasinātās grāmatas netiek lietotas, pamatlīdzekļa iegāde jāgrāmato gan grāmatai 1. VM, gan grāmatai 2. VM.
 
-Lai iegūtu papildinformāciju, skatiet [atvasinātā grāmatas](derived-books.md)
+Papildu informāciju skatiet tēmā [Atvasinātās grāmatas](derived-books.md).
+
+
 
 

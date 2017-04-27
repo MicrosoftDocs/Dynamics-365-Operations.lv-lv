@@ -1,9 +1,9 @@
 ---
-title: "Iestatītu pamatlīdzekļus"
+title: "Pamatlīdzekļu iestatīšana"
 description: "Šajā tēmā ir sniegts pārskats par modeļa Pamatlīdzekļi iestatīšanu."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-fixed-assets"></a>Iestatītu pamatlīdzekļus
+# <a name="set-up-fixed-assets"></a>Pamatlīdzekļu iestatīšana
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā tēmā ir sniegts pārskats par modeļa Pamatlīdzekļi iestatīšanu.
 
@@ -43,9 +46,9 @@ Kad tiek izveidoti pamatlīdzekļi, tie tiek piešķirti kādai grupai. Pēc nok
 Vispirms jums ir jāiestata nolietojuma tabulas. Nolietojuma tabulā jūs konfigurējat veidu, kādā pamatlīdzekļa vērtība mazinās laika gaitā. Jums ir nepieciešams definēt nolietojuma metodi, nolietojuma aprēķina gadu (kalendāro gadu vai finanšu gadu) un nolietojuma biežumu.
 
 ## <a name="books"></a>Grāmatas
-Kad ir iestatītas nolietojuma tabulas, jums saviem līdzekļiem ir jāizveido nepieciešamās grāmatas. Katra grāmata seko līdzi neatkarīgam līdzekļa finansiālajam dzīves ciklam. Grāmatas var konfigurēt saistīto transakciju grāmatošanai virsgrāmatā. Šī konfigurācija ir noklusējuma iestatījums, jo tā parasti tiek izmantota uzņēmuma finanšu pārskatiem. Grāmatas, kas nav jāgrāmato Virsgrāmatā grāmatot pamatlīdzekļu subledger un parasti tiek izmantotas nodokļu pārskatiem.
+Kad ir iestatītas nolietojuma tabulas, jums saviem līdzekļiem ir jāizveido nepieciešamās grāmatas. Katra grāmata seko līdzi neatkarīgam līdzekļa finansiālajam dzīves ciklam. Grāmatas var konfigurēt saistīto transakciju grāmatošanai virsgrāmatā. Šī konfigurācija ir noklusējuma iestatījums, jo tā parasti tiek izmantota uzņēmuma finanšu pārskatu veidošanai. Grāmatas, kas negrāmato virsgrāmatā, grāmato vienīgi pamatlīdzekļu apakšgrāmatā un parasti tiek izmantotas nodokļu pārskatu veidošanai.
 
-Katrai grāmatai tiek piešķirta primārā nolietojuma tabula. Grāmatām ir arī alternatīvā vai pārslēgšanas nolietojuma tabula, ja šāds tabulas tips ir piemērojams. Lai pamatlīdzekļu grāmatu automātiski iekļautu nolietojuma izpildēs, jums ir jāiespējo opcija Aprēķināt nolietojumu. Ja šī opcija nav atlasīta, aktīvam, nolietojuma priekšlikums pāriet aktīva.
+Katrai grāmatai tiek piešķirta primārā nolietojuma tabula. Grāmatām ir arī alternatīvā vai pārslēgšanas nolietojuma tabula, ja šāds tabulas tips ir piemērojams. Lai pamatlīdzekļu grāmatu automātiski iekļautu nolietojuma izpildēs, jums ir jāiespējo opcija Aprēķināt nolietojumu. Ja kādam līdzeklim šī opcija nav atlasīta, tad nolietojuma priekšlikums šo līdzekli izlaiž.
 
 Varat iestatīt arī atvasinātās grāmatas. Norādītās atvasinātās transakcijas tiek grāmatotas kā primāro transakciju precīza kopija pret atvasinātajām grāmatām. Tādēļ atvasinātās transakcijas parasti tiek iestatītas iegādēm un norakstīšanām, nevis nolietojuma transakcijām.
 
@@ -62,14 +65,16 @@ Varat arī definēt speciālā nolietojuma atskaitījumus vai papildnolietojumu 
 ## <a name="fixed-asset-parameters"></a>Pamatlīdzekļu parametri
 Pēdējā šīs procedūras darbība ir atjaunināt pamatlīdzekļu parametrus.
 
-Lauks Kapitalizācijas slieksnis nosaka, kuriem pamatlīdzekļiem tiek rēķināts nolietojums. Ja iepirkuma rinda ir atzīmēta kā pamatlīdzeklis, taču tā neatbilst norādīto reģistru slieksni, pamatlīdzekļa joprojām ir izveidojis vai atjauninājis, bet iespēja aprēķināt nolietojumu ir iestatīts uz Nē. Tādēļ aktīva netiks automātiski nolietojumu, kas ir daļa no nolietojuma priekšlikumus.
+Lauks Kapitalizācijas slieksnis nosaka, kuriem pamatlīdzekļiem tiek rēķināts nolietojums. Ja pirkuma rinda ir atzīmēta kā pamatlīdzeklis, bet tā neatbilst norādītajam kapitalizācijas slieksnim, tad pamatlīdzeklis joprojām tiek izveidots vai atjaunināts, bet opcija Aprēķināt nolietojumu ir iestatīta uz Nē. Tādēļ šim līdzeklim nolietojums netiks automātiski rēķināts kā daļa no nolietojuma priekšlikumiem.
 
 Svarīga opcija ir Automātiski izveidot nolietojuma korekcijas summas ar norakstīšanu. Ja šo opciju iestatāt uz Jā, tad līdzekļa nolietojums tiek pielāgots automātiski, pamatojoties uz nolietojuma uzstādījumiem līdzekļa norakstīšanas laikā. Cita opcija jums ļauj termiņatlaides atņemt no iegādes summas, kad iegādājaties pamatlīdzekļus, izmantojot kreditora rēķinu.
 
-Kopsavilkuma cilnē Pirkšanas pasūtījumi varat konfigurēt veidu, kādā līdzekļi tiek izveidoti kā daļa no pirkšanas procesa. Pirmā opcija ir Atļaut līdzekļu iegādi no pirkšanas. Ja šo opciju iestatāt uz Jā, tad līdzekļa iegāde notiek laikā, kad tiek grāmatots rēķins. Ja iestatāt šo opciju Nē, joprojām varat ievietot pamatlīdzekļa pirkšanas pasūtījumu (PP) un rēķina, bet netiks iegrāmatota iegāde. Grāmatošana ir jāveic kā atsevišķa darbība no pamatlīdzekļu žurnāla. Izveidot aktīvu laikā preces saņemšanas vai rēķina grāmatošanas opcijas ļauj izveidot jaunā pamatlīdzekļa "uz fly" grāmatošanas laikā tāpēc, ka tai nav jāiestata kā pamatlīdzekļa pirms darījuma. Pēdējā opcija, Pārbaudīt pamatlīdzekļu izveidošanu rindas ieraksta laikā, attiecas tikai uz pirkšanas pieprasījumiem.
+Kopsavilkuma cilnē Pirkšanas pasūtījumi varat konfigurēt veidu, kādā līdzekļi tiek izveidoti kā daļa no pirkšanas procesa. Pirmā opcija ir Atļaut līdzekļu iegādi no pirkšanas. Ja šo opciju iestatāt uz Jā, tad līdzekļa iegāde notiek laikā, kad tiek grāmatots rēķins. Ja šo opciju iestatāt uz Nē, pamatlīdzekli joprojām varat norādīt pirkšanas pasūtījumā (PP) un rēķinā, bet iegāde netiek grāmatota. Grāmatošana ir jāveic kā atsevišķa darbība no pamatlīdzekļu žurnāla. Opcija Izveidot līdzekli produktu ieejas plūsmas vai rēķina grāmatošanas laikā jums ļauj izveidot jaunu līdzekli grāmatošanas laikā, lai tas nebūtu jāiestata kā pamatlīdzeklis vēl pirms transakcijas. Pēdējā opcija, Pārbaudīt pamatlīdzekļu izveidošanu rindas ieraksta laikā, attiecas tikai uz pirkšanas pieprasījumiem.
 
 Varat konfigurēt iemesla kodus, lai tie tiktu pieprasīti pamatlīdzekļu izmaiņām vai konkrētam pamatlīdzekļu transakcijām.
 
 Visbeidzot cilnē Numuru sērijas jūs definējat pamatlīdzekļu numuru sērijas. Pamatlīdzekļu numuru sēriju var pārrakstīt ar pamatlīdzekļu grupu numuru sēriju, ja tāda ir norādīta.
+
+
 
 

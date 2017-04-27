@@ -28,18 +28,21 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-tax-overview"></a>Pārdošanas nodokļa apskats
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegts pārskats par pārdošanas nodokļa sistēmu. Tajā ir paskaidroti pārdošanas nodokļa iestatīšanas elementi un to mijiedarbība.
 
 <a name="overview"></a>Pārskats
 --------
 
-PVN struktūra atbalsta dažāda veida netiešos nodokļus kā PVN, pievienotās vērtības nodokļa (PVN), precēm un pakalpojumiem nodokli (GST), vienības pamatota maksa un ieturēto nodokli. Šie nodokļi tiek aprēķināti un dokumentēta laikā pirkšanas un pārdošanas darījumiem. Periodiski, tām jābūt ziņoja un maksā nodokļu iestādēm. 
+PVN struktūra atbalsta daudzus netiešo nodokļu veidus, piemēram, PVN, pievienotās vērtības nodokli (PVN), preču un pakalpojumu nodokli (GST), no vienībām atkarīgās papildmaksas un ieturēto nodokli. Šie nodokļi tiek aprēķināti un dokumentēti pirkšanas un pārdošanas transakciju laikā. Periodiski par tiem ir jāziņo un tie ir jāsamaksā nodokļu iestādēm. 
 
 Nākamajā diagrammā ir parādīti nodokļu iestatījumu elementi un kā tie ir saistīti.
 
 [![TaxOverview](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
-Katru PVN sabiedrība jāveido, jādefinē PVN kodu. Pārdošanas nodokļa kods glabā nodokļu likmes un aprēķina kārtulas šim pārdošanas nodoklim. 
+Katram PVN veidam, par kuru uzņēmumam ir jāatskaitās, ir jādefinē PVN kods. Pārdošanas nodokļa kods glabā nodokļu likmes un aprēķina kārtulas šim pārdošanas nodoklim. 
 
 Katrs pārdošanas nodokļa kods ir jāsaista ar pārdošanas nodokļa apmaksas periodu. Pārdošanas nodokļa apmaksas periodi definē intervālus, kādos par pārdošanas nodokli ir jāziņo un tas ir jāsamaksā pārdošanas nodokļa iestādei. Katrs pārdošanas nodokļa apmaksas periods ir jāpiešķir kādai pārdošanas nodokļa iestādei. Pārdošanas nodokļa iestāde ir persona, kam tiek ziņots par pārdošanas nodokli un kam tas tiek samaksāts. Tas definē arī pārdošanas nodokļa atskaites izkārtojumu. Pārdošanas nodokļa iestādes var būt saistītas ar kreditoru kontiem. 
 
@@ -69,26 +72,28 @@ Katrā transakcijā (pārdošanas/pirkšanas dokumentu rindās, žurnālos un ci
 Katrā transakcijā aprēķināto pārdošanas nodokli varat uzmeklēt, atverot lapu **Pārdošanas nodokļa transakcija**. Varat uzmeklēt pārdošanas nodokli dokumenta rindai vai visam dokumentam. Noteiktiem dokumentiem (piemēram, kreditora rēķinam un virsgrāmatas žurnāliem) varat pielāgot aprēķināto pārdošanas nodokli, ja sākotnējā dokumentā tiek rādītas summas ar novirzēm.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>Pārdošanas nodokļa apmaksa un atskaišu veidošana
-Pārdošanas nodoklis regulāri (reizi mēnesī, reizi ceturksnī un citos intervālos) ir jāziņo un jāmaksā nodokļu iestādēm. Microsoft Dynamics 365 operācijām nodrošina funkcionalitāti, kas ļauj atrisināt nodokļu kontiem intervālam un kompensēt nodokļu norēķinu kontu, kas norādīts Virsgrāmatas grāmatošanas grupas bilances. Šo funkcionalitāti var piekļūt no **nokārtot un grāmatotu PVN** lapā. PVN apmaksas periodu, ka PVN būtu jāatrisina, ir jānorāda. 
+Pārdošanas nodoklis regulāri (reizi mēnesī, reizi ceturksnī un citos intervālos) ir jāziņo un jāmaksā nodokļu iestādēm. Microsoft Dynamics 365 for Operations nodrošina funkcijas, kas sniedz iespēju segt nodokļu kontus par to intervālu un nobīdīt bilances tam nodokļa apmaksas kontam, kas ir norādīts Virsgrāmatas grāmatošanas grupās. Šīm funkcijām var piekļūt lapā **Nosegt un grāmatot PVN**. Ir jānorāda PVN segšanas periods, par kuru ir jāsedz PVN. 
 
 Kad pārdošanas nodoklis ir samaksāts, bilance pārdošanas nodokļa apmaksas kontā vajadzētu būt saskaņotai pret bankas kontu. Ja pārdošanas nodokļa iestāde, kas ir norādīta pārdošanas nodokļa apmaksas periodam, ir saistīta ar kreditora kontu, tad pārdošanas nodokļa bilance tiek grāmatota kā atvērts kreditora rēķins, un to var iekļaut regulāra maksājuma priekšlikumā.
 
 ## <a name="conditional-sales-tax"></a>Nosacījuma PVN
-Nosacījuma PVN ir PVN, par kuru izmaksā proporcionāli faktisko summu, kas tiek maksāts par rēķinu. Savukārt, standarta PVN tiek aprēķināts pēc rēķina izrakstīšanas laikā. Nosacījuma PVN ir samaksāti nodokļu iestādē, grāmatojot maksājumu, nevis tad, kad rēķins ir iegrāmatots. Iegrāmatojot rēķinu, darbība ir jāziņo par PVN grāmatas pārskatā. Tomēr darbība ir jāizslēdz no PVN maksājumu pārskats. 
+Nosacījuma PVN ir PVN, kas tiek maksāts proporcionāli faktiskajai rēķina apmaksas summai. Turpretim standarta PVN tiek aprēķināts rēķina izrakstīšanas laikā. Nosacījuma PVN ir jāmaksā nodokļu iestādei maksājuma grāmatošanas laikā, nevis rēķina grāmatošanas laikā. Rēķina grāmatošanas laikā transakcija ir jāreģistrē PVN grāmatas pārskata. Taču transakcija ir jāizslēdz no PVN maksājuma pārskata. 
 
-Ja formas Virsgrāmatas parametri atzīmējiet izvēles rūtiņu nosacījuma PVN, nav PVN var atskaitīt līdz brīdim, kad jūs esat samaksājis rēķinu. Šī nav tikai juridiska prasība, dažās valstīs/reģionos.
+Ja veidlapā Virsgrāmatas parametri ir atzīmēta izvēles rūtiņa Nosacījuma PVN, PVN nevar ieturēt līdz rēķina apmaksai. Dažās valstīs/reģionos tā ir likumā noteikta prasība.
 
 > [!NOTE]
-> Atzīmējot izvēles rūtiņu nosacījuma PVN, PVN kodi un PVN grupu iestatīšanu un arī izveidotu Virsgrāmatas kontējuma grupu, lai atbalstītu funkcionalitāti. |
+> Ja ir atzīmēta izvēles rūtiņa Nosacījuma PVN, ir jāiestata PVN kodi un PVN grupas un jāizveido Virsgrāmatas grāmatošanas grupas šīs funkcijas atbalstam. |
 
 ###  <a name="example"></a>Paraugs
 
-PVN apmaksā, katru mēnesi. 15. jūnijs, jāizveido debitora rēķina 10 000 plus PVN.
--   Pārdošanas nodoklis ir 25 procenti jeb 2500.
--   Rēķina apmaksa ir jāmaksā 30 jūlijs.
+Jūs sedzat PVN katru mēnesi. 15. jūnijā jūs izveidojat debitora rēķinu par 10 000 plus PVN.
+-   PVN ir 25 procenti jeb 2500.
+-   Rēķins ir jāapmaksā līdz 30. jūlijam.
 
-Jūs parasti ir nokārtot un maksāt 2,500 nodokļu iestādei pēc rēķina iegrāmatošanas jūnijā, pat tad, ja jums nav saņēmuši samaksu no klienta. 
+Parasti nodokļu iestādei ir jāsamaksā 2500 jūnijā, kad tiek grāmatots rēķins, lai gan vēl neesat saņēmis maksājumu no debitora. 
 
-Tomēr, izmantojot nosacījuma PVN, jūs norēķinātos ar nodokļu iestādei saņemot samaksu no klienta 30 jūlijā.
+Taču, ja lietojat nosacījuma PVN, PVN nodokļu iestādei ir jāmaksā 30. jūlijā, kad saņemat maksājumu no debitora.
+
+
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Anketas plānošana"
-description: "Šajā tēmā ir aprakstīts, anketu veidošanas process. Pirmā darbība anketas plānošana. Kad plānojat anketu, jūs ne tikai rakstāt jautājumus un atbildes, bet arī izveidojat struktūru, kas atbildes ļauj ierakstīt uz sakārtot."
+description: "Šajā tēmā ir aprakstīts anketas izveidošanas process. Pirmā darbība anketas plānošana. Kad plānojat anketu, jūs ne tikai rakstāt jautājumus un atbildes, bet arī izveidojat struktūru, kas atbildes ļauj ierakstīt uz sakārtot."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="design-a-questionnaire"></a>Anketas plānošana
 
-Šajā tēmā ir aprakstīts, anketu veidošanas process. Pirmā darbība anketas plānošana. Kad plānojat anketu, jūs ne tikai rakstāt jautājumus un atbildes, bet arī izveidojat struktūru, kas atbildes ļauj ierakstīt uz sakārtot. 
+Šajā tēmā ir aprakstīts anketas izveidošanas process. Pirmā darbība anketas plānošana. Kad plānojat anketu, jūs ne tikai rakstāt jautājumus un atbildes, bet arī izveidojat struktūru, kas atbildes ļauj ierakstīt uz sakārtot. 
 
 Rūpīgi plānota anketa var palīdzēt paaugstināt iegūto datu kvalitāti. Veicot rūpīgu plānošanu, anketai varat labāk atlasīt atbilstošajā laikā atbilstošās opcijas. Nākamie punkti jums var palīdzēt plānot efektīvu anketu:
 
@@ -87,12 +87,12 @@ Anketas parametri nav obligāti. Varat tos nelietot, atkarībā no jūsu uzņēm
 
 Anketas parametri nosaka anketas anonimitāti, numuru sēriju kodus un atsauču tipus. Kad organizācija izplata kādu anketu, var būt svarīga opcija, vai respondentiem ļaut palikt anonīmiem. 
 
-Numuru sēriju kodi tiek izmantoti, lai kārtotu jautājumus un atbildes. Pamatojoties uz šo numuru sēriju kodus, vērtības automātiski tiek piešķirta vienumiem. 
+Numuru sēriju kodi tiek izmantoti, lai kārtotu jautājumus un atbildes. Pamatojoties uz šiem numuru sēriju kodiem, vērtības krājumiem tiek piešķirtas automātiski. 
 
 Lai varētu izveidot savus datus, jums ir jādefinē visi parametri. Anketas parametru iestatījumus varat modificēt jebkurā laikā.
 
 ## <a name="questionnaire-components"></a>Anketas komponenti
-Anketas veido trīs galvenie elementi: atbilžu grupas, kurās atbildes atbilžu variantiem jautājumus, jautājumus un anketu pats. Grupēšanu var veikt pēc izvēles jautājumi par anketu rezultātu grupās. Rezultātu grupas jums ļauj jautājumus dalīt kategorijās un sniegt papildu analīzi par anketu. 
+Anketas ietver trīs galvenos elementus: atbilžu grupas, kas ietver atbildes uz jautājumiem ar atbilžu variantiem, jautājumus un pašu anketu. Ja vēlaties, anketas jautājumus varat grupēt rezultātu grupās. Rezultātu grupas jums ļauj jautājumus dalīt kategorijās un sniegt papildu analīzi par anketu. 
 
 [![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
@@ -235,6 +235,6 @@ Alternatīvi varat iestatīt anketu tā, lai gadījumā, ja respondents 1. jaut�
 
 [Anketu izplatīšana un aizpildīšana](distribute-questionnaires.md)
 
-[Apskate un anketu rezultātu izvērtēšanai](evaluate-questionnaire-results.md)
+[Anketu rezultātu skatīšana un novērtēšana](evaluate-questionnaire-results.md)
 
 

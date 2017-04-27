@@ -1,6 +1,6 @@
 ---
 title: "Anketas rezultātu skatīšana un novērtēšana"
-description: "Šajā tēmā ir paskaidrots, kā jūs varat apskatīt un novērtēt rezultātus, ko respondenti aizpilda anketu."
+description: "Šajā tēmā ir skaidrots, kā varat skatīt un novērtēt respondentu aizpildīto anketu rezultātus."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Anketas rezultātu skatīšana un novērtēšana
 
-Šajā tēmā ir paskaidrots, kā jūs varat apskatīt un novērtēt rezultātus, ko respondenti aizpilda anketu. 
+Šajā tēmā ir skaidrots, kā varat skatīt un novērtēt respondentu aizpildīto anketu rezultātus. 
 
 Kad respondenti ir izpildījuši anketu, anketas rezultātus varat skatīt un novērtēt vairākos veidos:
 

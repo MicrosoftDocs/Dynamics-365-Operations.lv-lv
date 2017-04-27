@@ -1,6 +1,6 @@
 ---
 title: "Pārskats par numuru sērijām"
-description: "Numuru sērijas Microsoft Dynamics 365 operācijām, izmanto, lai ģenerētu lasāms, unikālu identifikatoru pamatdatu ierakstus un darījumu uzskaiti, kas nepieciešama identifikatorus. Pamatdatu ieraksts vai darījuma ieraksts, kam nepieciešams identifikators, tiek saukts par <em>atsauci</em>."
+description: "Numuru sērijas programmatūrā Microsoft Dynamics 365 for Operations tiek izmantotas, lai ģenerētu nolasāmus, unikālus pamatdatu ierakstu identifikatorus un transakciju ierakstus, kam ir nepieciešami identifikatori. Pamatdatu ieraksts vai darījuma ieraksts, kam nepieciešams identifikators, tiek saukts par <em>atsauci</em>."
 author: MargoC
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="number-sequence-overview"></a>Pārskats par numuru sērijām
 
-Numuru sērijas Microsoft Dynamics 365 operācijām, izmanto, lai ģenerētu lasāms, unikālu identifikatoru pamatdatu ierakstus un darījumu uzskaiti, kas nepieciešama identifikatorus. Pamatdatu ieraksts vai darījuma ieraksts, kam nepieciešams identifikators, tiek saukts par <em>atsauci</em>.
+[!include[banner](../includes/banner.md)]
 
-Pirms jūs varat izveidot jaunus ierakstus atsauce Microsoft Dynamics 365 operācijām, numuru sērija jāiestata un saistītu ar atsauci. Numuru sēriju iestatīšanai ieteicams izmantot lapas sadaļā **Organizācijas administrēšana**. Ja ir nepieciešami modelim raksturīgi iestatījumi, varat kādā modulī izmantot parametru lapu, lai šajā modulī esošajām atsaucēm norādītu numuru sērijas. Piemēram, sadaļā **Debitori** un **Debitori** varat iestatīt numuru sēriju grupas, lai konkrētas numuru sērijas piešķirtu konkrētiem debitoriem vai kreditoriem. Iestatot numuru sēriju, ir jānorāda tvērums, kas nosaka, kura organizācija šo numuru sēriju izmanto. Tvērums var būt **Koplietots**, **Uzņēmums**, **Juridiska persona** vai **Pārvaldības struktūrvienība**. Tvērumus **Juridiskā persona** un **Uzņēmums** var kombinēt ar iestatījumu **Finanšu kalendāra periods**, lai izveidotu vēl specifiskākas numuru sērijas. Numuru sēriju formāti sastāv no segmentiem. Numuru sērijas, kuru tvērums nav **Koplietots**, var ietvert tvērumam atbilstošus segmentus. Piemēram, numuru sērija ar tvērumu **Juridiska persona** var ietvert juridiskas personas segmentu. Ja numuru sērijas formātā ietilpst tvēruma segments, konkrēta ieraksta tvērumu varat identificēt, skatoties uz tā numuru. Turklāt segmentiem, kas atbilst tvērumiem, numuru sērijas formāti var ietvert segmentus **Konstante** un **Burti un cipari**. Segments **Konstante** ietver nemainīgu burtu, skaitļu vai simbolu kopu. Segments **Burti un cipari** ietver burtu vai ciparu kopu, kas tiek palielināta katru reizi, kad tiek izmantots numurs. Izmantot numura zīme (\#) pārstāvēt skaitļu palielināšanai un zīmi (&), lai pārstāvētu burtus palielināšanai. Piemēram, šis formāts \#\#\#\#\#\_2017 izveido secības 00001\_2017, 00002\_2017, un tā tālāk.
+
+Numuru sērijas programmatūrā Microsoft Dynamics 365 for Operations tiek izmantotas, lai ģenerētu nolasāmus, unikālus pamatdatu ierakstu identifikatorus un transakciju ierakstus, kam ir nepieciešami identifikatori. Pamatdatu ieraksts vai darījuma ieraksts, kam nepieciešams identifikators, tiek saukts par <em>atsauci</em>.
+
+Lai programmatūrā Microsoft Dynamics 365 for Operations varētu izveidot jaunus atsauces ierakstus, vispirms ir jāiestata numuru sērija un tā ir jāsaista ar šo atsauci. Numuru sēriju iestatīšanai ieteicams izmantot lapas sadaļā **Organizācijas administrēšana**. Ja ir nepieciešami modelim raksturīgi iestatījumi, varat kādā modulī izmantot parametru lapu, lai šajā modulī esošajām atsaucēm norādītu numuru sērijas. Piemēram, sadaļā **Debitori** un **Debitori** varat iestatīt numuru sēriju grupas, lai konkrētas numuru sērijas piešķirtu konkrētiem debitoriem vai kreditoriem. Iestatot numuru sēriju, ir jānorāda tvērums, kas nosaka, kura organizācija šo numuru sēriju izmanto. Tvērums var būt **Koplietots**, **Uzņēmums**, **Juridiska persona** vai **Pārvaldības struktūrvienība**. Tvērumus **Juridiskā persona** un **Uzņēmums** var kombinēt ar iestatījumu **Finanšu kalendāra periods**, lai izveidotu vēl specifiskākas numuru sērijas. Numuru sēriju formāti sastāv no segmentiem. Numuru sērijas, kuru tvērums nav **Koplietots**, var ietvert tvērumam atbilstošus segmentus. Piemēram, numuru sērija ar tvērumu **Juridiska persona** var ietvert juridiskas personas segmentu. Ja numuru sērijas formātā ietilpst tvēruma segments, konkrēta ieraksta tvērumu varat identificēt, skatoties uz tā numuru. Turklāt segmentiem, kas atbilst tvērumiem, numuru sērijas formāti var ietvert segmentus **Konstante** un **Burti un cipari**. Segments **Konstante** ietver nemainīgu burtu, skaitļu vai simbolu kopu. Segments **Burti un cipari** ietver burtu vai ciparu kopu, kas tiek palielināta katru reizi, kad tiek izmantots numurs. Izmantojiet restītes simbolu (\#), lai apzīmētu pieaugošus numurus, un simbolu &, lai apzīmētu pieaugošus burtus. Piemēram, izmantojot formātu \#\#\#\#\#\_2017, tiek izveidota sērija 00001\_2017, 00002\_2017 utt.
 Numuru sēriju piemēri
 ------------------------
 
@@ -73,6 +76,8 @@ Numuru sērijas var būt nepārtrauktas vai ar pārtraukumiem. Nepārtrauktā nu
 ### <a name="automatic-cleanup-of-number-sequences"></a>Automātiskā numuru sēriju tīrīšana
 
 Ja rodas elektropadeves traucējumi, programmas kļūda vai citas neparedzētas kļūmes, sistēma nevar automātiski pārstrādāt nepārtraukto numuru secību numurus. Lai atgūtu zaudētos numurus, manuāli vai automātiski varat palaist tīrīšanas procesu. Kad plānojat tīrīšanas procesu, rūpīgi apsveriet servera lietojumu. Mēs iesakām veikt tīrīšanu kā pakešuzdevumu ārpus sastrēgumstundām.
+
+
 
 
 

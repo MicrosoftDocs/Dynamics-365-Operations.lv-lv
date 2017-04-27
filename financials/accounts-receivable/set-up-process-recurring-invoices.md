@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-and-process-recurring-invoices"></a>Periodisko rēķinu iestatīšana un apstrāde
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir paskaidrots, kā iestatīt un apstrādāt periodiskos rēķinus. Periodiskos rēķinus varat izmantot, ja debitoriem regulāri ir jāizraksta rēķini par tādu pašu summu.
 
 <a name="create-a-recurring-free-text-invoice-template"></a>Periodiska brīva teksta rēķina veidnes izveide
@@ -61,5 +64,7 @@ Periodisko brīva teksta rēķinu drukāšana
 ----------------------------------
 
 Ja periodiskie rēķini ir iegrāmatoti, rēķinus var drukāt no brīva teksta rēķina saraksta lapas. Varat drukāt atlasītos rēķinus, vai arī varat atlasīt drukāšanai rēķinu diapazonu.
+
+
 
 

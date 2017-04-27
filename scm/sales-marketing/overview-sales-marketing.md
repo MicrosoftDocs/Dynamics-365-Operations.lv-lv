@@ -26,12 +26,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-and-marketing"></a>Pārdošana un mārketings
 
+[!include[banner](../includes/banner.md)]
+
+
 Moduli Pārdošana un mārketings varat izmantot, lai iegūtu, uzglabātu un izmantotu dažādu tipu datus pārdošanas plūsmā. Šie dati ietver sākotnējo pārdošanas iniciatīvu, turpmāko darbību un papildu pārdošanu.
 
 <a name="marketing"></a>Mārketings
 ---------
 
-Mārketinga kampaņas un aktivitātes jūs izmantojat, lai atrastu un veidotu attiecības ar potenciālajiem klientiem un sākotnējās mijiedarbības varētu pārtapt par tirdzniecības attiecībām. Nākamajā procesa plūsmā ir parādīts biznesa process mārketingam. [![Biznesa procesu realizācijai](./media/marketing01.jpg)](./media/marketing01.jpg)
+Mārketinga kampaņas un aktivitātes jūs izmantojat, lai atrastu un veidotu attiecības ar potenciālajiem klientiem un sākotnējās mijiedarbības varētu pārtapt par tirdzniecības attiecībām. Nākamajā procesa plūsmā ir parādīts biznesa process mārketingam. [![Mārketinga biznesa process](./media/marketing01.jpg)](./media/marketing01.jpg)
 
 ### <a name="relationships"></a>Attiecības
 
@@ -39,10 +42,10 @@ Pārdošanā un mārketingā sākotnējās mijiedarbības, kas jums notiek ar po
 
 ### <a name="campaigns"></a>Kampaņas
 
-Kampaņa ir vērsta uz kontaktpersonām potenciālajiem klientiem, interesentiem, iespējām un debitoriem, kas ir atlasīti dalībai šajā kampaņā. Programmā Microsoft Dynamics 365 operāciju, varat izveidot dažāda veida kampaņas, piemēram, telemārketinga, pasta un e-pasta kampaņas, lai palielinātu jūsu potenciālo klientu. Kad kampaņas gaitā saņemt pozitīvas atbildes, varat sākt pārdošanas procesu tiem adresātiem, kuri uz kampaņu ir atbildējuši pozitīvi.
+Kampaņa ir vērsta uz kontaktpersonām potenciālajiem klientiem, interesentiem, iespējām un debitoriem, kas ir atlasīti dalībai šajā kampaņā. Programmatūrā Microsoft Dynamics 365 for Operations varat izveidot vairāku vidu kampaņas, piemēram, telemārketinga, pasta sūtījumu un e-pasta kampaņas, lai maksimāli izmantotu debitoru potenciālu. Kad kampaņas gaitā saņemt pozitīvas atbildes, varat sākt pārdošanas procesu tiem adresātiem, kuri uz kampaņu ir atbildējuši pozitīvi.
 
 ## <a name="sales"></a>Pārdošana
-Pārdošanas funkcionalitāti varat izmantot, lai izveidotu piedāvājumus, papildu pārdošanu un šķērspārdošanu jauniem un esošajiem klientiem, izveidot pārdošanas pasūtījumus un izveidot pārdošanas rēķinus debitoriem. Nākamajā procesa plūsmā ir parādīts biznesa process pārdošanai. [![Biznesa procesu pārdošanas](./media/sales01.jpg)](./media/sales01.jpg)
+Pārdošanas funkcionalitāti varat izmantot, lai izveidotu piedāvājumus, papildu pārdošanu un šķērspārdošanu jauniem un esošajiem klientiem, izveidot pārdošanas pasūtījumus un izveidot pārdošanas rēķinus debitoriem. Nākamajā procesa plūsmā ir parādīts biznesa process pārdošanai. [![Pārdošanas biznesa process](./media/sales01.jpg)](./media/sales01.jpg)
 
 ### <a name="sales-quotations"></a>Pārdošanas piedāvājumi
 
@@ -50,7 +53,7 @@ Jūs izveidojat pārdošanas piedāvājumus, lai debitoriem piedāvātu jūsu no
 
 ### <a name="up-sellcross-sell"></a>Papildu pārdošana/šķērspārdošana
 
-Papildu pārdošana un šķērspārdošana ir preču pārdošanas metodes, kad debitoram ir ievadīts pasūtījums. Papildu pārdošanā tiek piedāvāta cita prece, nevis pašreizējā. Šķērspārdošanā prece tiek piedāvāta papildus pašreizējai precei. Iestatot produktu sarakstus, var izveidot īpašus noteikumus, lai norādītu, kad produkts būtu piedāvāti papildproduktu vai augšup-pārdot produktu.
+Papildu pārdošana un šķērspārdošana ir preču pārdošanas metodes, kad debitoram ir ievadīts pasūtījums. Papildu pārdošanā tiek piedāvāta cita prece, nevis pašreizējā. Šķērspārdošanā prece tiek piedāvāta papildus pašreizējai precei. Kad iestatāt preču sarakstus, varat izveidot noteiktas kārtulas, lai norādītu, kad prece ir jāpiedāvā kā šķērspārdošanas vai papildu pārdošanas prece.
 
 ### <a name="sales-orders"></a>Pārdošanas pasūtījumi
 
@@ -117,5 +120,7 @@ Brīva teksta rēķins ir rēķins, kas nav saistīts ar pārdošanas pasūtīju
 #### <a name="pro-forma-invoice"></a>Pro forma rēķins
 
 Pro forma rēķins ir rēķins, kas tiek sagatavots kā faktiskās rēķina summas novērtējums pirms rēķina grāmatošanas. Pro forma rēķinu var drukāt debitora rēķinam vai brīva teksta rēķinam.
+
+
 
 

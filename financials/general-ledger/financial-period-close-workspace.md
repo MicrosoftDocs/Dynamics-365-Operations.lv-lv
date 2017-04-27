@@ -28,44 +28,47 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="financial-period-close-workspace"></a>Finanšu perioda slēgšanas darbvieta
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegts pārskats par finanšu perioda slēgšanas darbvietu un saistīto konfigurāciju.
 
 Finanšu perioda slēgšanas darbvieta
 
-**Finanšu perioda aizvērt** darbvietā ļauj izsekot jūsu finanšu slēgšanas procesu starp uzņēmumiem un darbības jomām, kā arī cilvēki. Atkarībā no jūsu viedokļa **finanšu perioda aizvērt** darbvietas, jūs redzēsiet, vai nu visus uzdevumus un stāvokļus slēgšanas grafiks vai vienkārši jums piešķirtos uzdevumus. 
+Darbvietā **Finanšu perioda slēgšana** varat sekot līdzi savu uzņēmumu, jomu un personu finanšu slēgšanas procesiem. Atkarībā no skata darbvietā **Finanšu perioda slēgšana** ir redzami vai nu visi slēgšanas grafika uzdevumi un statusi, vai tikai jums piešķirtie uzdevumi. 
 
-Vispirms jāatlasa slēgšanas grafiks darbvietas augšpusē. Visi dati, kas tiek rādīta darbvietā tad filtrē ar atlasītajiem slēgšanas grafiks.
+Vispirms ir jāatlasa slēgšanas grafiks darbvietas augšpusē. Visi darbvietā rādītie dati pēc tam tiek filtrēti pēc atlasītā slēgšanas grafika.
 
 ### <a name="summary-tiles"></a>Kopsavilkuma elementi
 
-**Kopsavilkuma** elementos ir sniegts pārskats par procesu un indikatori, kas palīdz izsekot slēgšanas procesa izpildi. Jūs varat redzēt uzdevumus, kas ir pagātnes dēļ, atlikušos uzdevumus šodien, uzdevumi, kuru izpildes datums ir šodiena, bet tiek bloķētas jo atkarības un visus pārējos uzdevumus procesam. Šī informācija ir domāta visiem uzņēmumiem, kas iekļauti atlasītajiem slēgšanas grafiks.
+**Kopsavilkuma** elementos ir sniegts pārskats par procesu un indikatori, kas palīdz izsekot slēgšanas procesa izpildi. Var redzēt nokavētos uzdevumus, šodien atlikušos uzdevumus, uzdevumus, kuru izpildes datums ir šodiena, bet tie ir bloķēti atkarību dēļ, kā arī visus pārējos procesa uzdevumus. Šī informācija ir paredzēta visiem uzņēmumiem, kas ir iekļauti atlasītajā slēgšanas grafikā.
 
 ### <a name="tasks-and-status-section"></a>Uzdevumu un statusa sadaļā
 
-Šajā **uzdevumiem un statusa** sadaļas vispārējo statusu slēgšanas grafiks ir sadalīti dažādos veidos: statusu pēc uzņēmuma statusu pēc platības un statusu, persona, kura ir atbildīga. Statusu var skatīt, jo visi uzdevumi slēgšanas grafiks, tikai uzdevumi, kuru izpildes datums ir šodiena, vai uzdevumus, kas ir kavēts, mainot filtrs kartes saraksta augšdaļā. Varat arī atlasīt uzņēmuma filtrs, lai skatītu konkrēta uzņēmuma statusu. Katras zīmnes statuss dod sadalījums procentos, kas ir pabeigta, gan vairākus uzdevumus, kas paliek. Noklikšķiniet uz kartes vai **apskatīt** darbības detalizētu uzdevumu sarakstu filtrēt pēc atlasītā karte. 
+Sadaļā **Uzdevumi un statuss** vispārējā slēgšanas grafika statuss tiek dažādi sadalīts: statuss pēc uzņēmuma, statuss pēc apgabala un statuss pēc atbildīgās personas. Mainot filtru karšu saraksta augšpusē, varat skatīt statusu visiem slēgšanas grafikā iekļautajiem uzdevumiem, tikai šodien izpildāmajiem uzdevumiem vai nokavētajiem uzdevumiem. Varat arī atlasīt uzņēmuma filtru, lai skatītu statusu noteiktam uzņēmumam. Katra statusa cilne sniedz detalizētu informāciju gan pēc izpildītā procentuālā daudzuma, gan pēc atlikušo uzdevumu skaita. Noklikšķiniet uz kartes vai darbības **Skatīt detalizētu informāciju**, lai detalizēto uzdevumu sarakstu filtrētu pēc atlasītās kartes. 
 
-Pēdējās cilnes ir detalizēta uzdevumu sarakstā. Šis saraksts rāda pilnu uzdevumu sarakstu un var filtrēt tā, ka tas parāda tikai tos uzdevumus, kas jūs interesē. Varat filtrēt uzdevumu sarakstā vairākos veidos. Piemēram, varat filtrēt pēc uzdevuma izpildes datumu, saistīto uzņēmumu un saistītā jomā. Varat arī izvēlēties rādīt vai slēpt Pabeigtie uzdevumi uzdevumu sarakstā. 
+Pēdējā cilne ir paredzēta detalizētajam uzdevumu sarakstam. Šajā sarakstā ir ietverts pilns uzdevumu saraksts, un to var filtrēt tā, lai parādītu tikai jums interesējošos uzdevumus. Uzdevumu sarakstu varat filtrēt vairākos veidos. Varat, piemēram, filtrēt pēc uzdevumu izpildes datuma, saistītā uzņēmuma un saistītā apgabala. Varat arī izvēlēties uzdevumu sarakstā rādīt vai paslēpt pabeigtos uzdevumus. 
 
 Uzdevumiem tiek izmantoti divi tālāk minētie rādītāji.
 
--   Izsaukuma ikona norāda, ka uzdevums ir kavēts. Uzdevumiem, kas tiek kavēts, apmaksas datums arī tiek iezīmēts ar sarkanu krāsu.
--   Piekaramās slēdzenes ikona norāda, ka uzdevums ir atkarīgs no citiem uzdevumiem, kas vēl nav pabeigts. Uzdevumu, kas ir bloķējusi atkarības nav atzīmēts kā pabeigts. Atkarības uzdevumam var iestatīt, izmantojot **noteikt atkarības** darbību.
+-   Ikona ar izsaukuma zīmi norāda, ka uzdevuma izpilde ir nokavēta. Uzdevumiem, kuru izpilde ir nokavēta, arī apmaksas datums tiek izcelts sarkanā krāsā.
+-   Ikona ar slēdzeni norāda, ka uzdevums ir atkarīgs no citiem uzdevumiem, kas vēl nav izpildīti. Uzdevumu, kas ir bloķēts atkarību dēļ, nevar atzīmēt kā pabeigtu. Atkarības uzdevumam var iestatīt, izmantojot darbību **Iestatīt atkarību**.
 
-Uzdevuma nosaukums ir hipersaiti uz Microsoft Dynamics 365 operāciju lappusi vai citu interneta lapu, kur lietotājs ir jāiet, lai pabeigtu darbu. Šo hipersaiti var iestatīt, izmantojot **uzdevuma saiti** lauks, rediģēt vai izveidot uzdevumu. 
+Uzdevuma nosaukums ir hipersaite uz Microsoft Dynamics 365 for Operations lapu vai citu tīmekļa lapu, kur lietotājam ir jāpariet, lai pabeigtu darbu. Šo hipersaiti varat iestatīt, izmantojot lauku **Uzdevuma saite**, kad rediģējat vai izveidojat kādu uzdevumu. 
 
-Var pievienot failus, piezīmju, attēlu un URL uzdevumu, izmantojot **pielikumus** darbību. Piemēram, var norādīt žurnāla numuri, kas tiek izmantoti kā daļu no uzdevuma, pievienot komentārus par konkrēta uzdevuma vai pievienot ziņojumu failu, kas tika drukāts uzdevumam. Tiek parādīta ikona **pielikumu** kolonnu uzdevumu, ja pielikums ir klāt. 
+Uzdevumam varat pievienot failus, piezīmes, attēlus un vietrāžus URL, izmantojot darbību **Pielikumi**. Piemēram, varat norādīt žurnāla numurus, kas tiek izmantoti kā daļa no uzdevuma, pievienot komentārus par noteiktu uzdevumu vai pievienot pārskata failu, kas tika izdrukāts kādam uzdevumam. Ja pastāv pielikums, uzdevumam tiek parādīta ikona kolonnā **Pielikums**. 
 
-**Uzdevumu pabeigt** opciju manuāli jāizvēlas pēc uzdevuma pabeigšanas. Kad uzdevums tiek atzīmēts kā pabeigts, **pabeigšanas datumu** lauks tiek automātiski atjaunināts ar pašreizējo datumu un laiku. Pēc vajadzības tiek atjauninātas arī atkarības rādītāji.
+Opcija **Uzdevums pabeigts** ir manuāli jāatlasa pēc tam, kad uzdevums ir pabeigts. Kad uzdevums ir atzīmēts kā pabeigts, lauks **Pabeigšanas datums** automātiski tiek atjaunināts ar pašreizējo datumu un laiku. Arī atkarību rādītāji tiek atbilstoši atjaunināti.
 
 ## <a name="all-financial-period-close-tasks-list-page"></a>Visu finanšu periodu slēgšanas uzdevumu saraksta lapa
-Var apskatīt visus pašreizējā un iepriekšējā perioda aizvērt uzdevumus no **visus finanšu perioda aizvērt uzdevumu** saraksta lapu. Šī saraksta lapu vislabāk izmantot vēsturisko slēgšanas procesā, analīzei, jo tajā ir iekļauta informācija par plānoto izpildes datumu, faktisko pabeigšanas datumu un personai, kas aizpildījusi uzdevums. Informāciju par šī saraksta lapas var viegli eksportēt uz Microsoft Excel atskaišu un revīziju mērķiem.
+Visus pašreizējos un iepriekšējo periodu slēgšanas uzdevumus varat skatīt saraksta lapā **Visi finanšu perioda slēgšanas uzdevumi**. Šo saraksta lapu vislabāk izmantot slēgšanas procesa vēsturisko datu analīzē, jo tajā ir ietverta informācija par plānoto izpildes datumu, faktisko pabeigšanas datumu un personu, kas šo uzdevumu pabeidza. Šīs saraksta lapas informāciju varat ērti eksportēt uz programmu Microsoft Excel, lai veidotu pārskatus un veiktu auditus.
 
 ## <a name="financial-period-close-configuration-page"></a>Finanšu perioda slēgšanas konfigurācijas lapa
-Pirms varat izmantot **finanšu perioda aizvērt** darbvietas, jums jākonfigurē process Microsoft Dynamics 365 operācijām, izmantojot **finanšu perioda aizvērt konfigurācijas** lapā. (Noklikšķiniet uz **Virsgrāmatas**&gt;**perioda aizvērt**&gt;**finanšu perioda aizvērt konfigurācijas**.)
+Lai varētu izmantot darbvietu **Finanšu perioda slēgšana**, process ir jākonfigurē sistēmā Microsoft Dynamics 365 for Operations, izmantojot lapu **Finanšu perioda slēgšanas konfigurācija**. (Noklikšķiniet uz **Virsgrāmata** &gt; **Perioda slēgšana** &gt; **Finanšu perioda slēgšanas konfigurācija**.)
 
 ### <a name="resources"></a>Resursi
 
-Par **resursu** tab, nosaka cilvēki, kuri ir iesaistīti slēgšanas procesu. Jebkuru darbinieku, kurš būs atbildīgs par uzdevuma slēgšanas jābūt piešķirtam vispirms šeit. Ir jānorāda darbinieka viedokļa darbvietu. Pieejamas šādas opcijas
+Cilnē **Resursi** ir jādefinē personas, kuras ir iesaistītas slēgšanas procesos. Jebkurš darbinieks, kurš būs atbildīgs par kādu slēgšanas uzdevumu, vispirms ir jāpiešķir šeit. Tāpat jums ir jānorāda darbinieku skats uz šo darbvietu. Pieejamas šādas opcijas
 
 -   **Tikai piešķirtie uzdevumi** — lietotājs redzēs tikai viņam(-ai) piešķirtos uzdevumus;
 -   **Visi uzdevumi un statuss** — lietotājs redzēs visus slēgšanas uzdevumus un vispārīgo procesa statusu.
@@ -78,30 +81,32 @@ Uzdevumu jomas tiek izmantotas slēgšanas uzdevumu grupēšanai loģiskas īpa�
 
 ### <a name="calendars"></a>Kalendāri
 
-Veidojiet un labojiet finanšu slēgšanas kalendāri, kalendāri tab lietošana.  Šī ir vieta, kur noteiks darba dienas slēgšanas procesu, un tiks izmantots plānošanai slēguma uzdevumus.  Izveidojiet jaunu kalendāru un norādītu darba dienas uzdevumu plānošanai jāizmanto.  Ieteicams izveidot kalendāru ilgu laiku, piemēram, gadu vai vairākus gadus, jo to var labot pēc izveides.  Pēc veidojot kalendāru, noklikšķiniet uz pogas Rediģēt, lai atjauninātu kalendāru, īpašas dienas, piemēram, brīvdienas.  Aizverot uzdevumu tiks plānoti par dienām, kad vadīklas vērtība ir iestatīts Atvērt.  Ja noslēguma uzdevumus grafikam noteiktā dienā nevajadzētu būt, šajā dienā ir vadīklas vērtībai, kas noteikta uz slēgts.
+Finanšu slēgšanas kalendāri ir jāveido un jārediģē, izmantojot cilni Kalendāri.  Šajā cilnē varat definēt slēgšanas procesu darbdienas, un tā tiks izmantota slēgšanas uzdevumu plānošanai.  Izveidojiet jaunu kalendāru un norādiet darbdienas, kas jāizmanto uzdevuma plānošanai.  Kalendāru ieteicams izveidot ilgam periodam, piemēram, gadam vai vairākiem gadiem, jo pēc izveidošanas to var rediģēt.  Pēc kalendāra izveidošanas noklikšķiniet uz pogas Rediģēt, lai atjauninātu kalendāru noteiktām dienām, piemēram, svētku dienām.  Slēgšanas uzdevumi tiks ieplānoti dienās, kad vienumam Kontrole ir iestatīta vērtība Atvērts.  Ja slēgšanas uzdevumi nav jāplāno noteiktā dienā, šajā dienā vienumam Kontrole ir jāiestata vērtība Slēgts.
 
 ### <a name="templates"></a>Veidnes
 
-Finanšu aizveriet veidni izmanto, lai definētu visus uzdevumus, kurus slēgšanas procesa sastāvdaļa. Slēgšanas uzdevums ir periodisks darbs pūles, kas piešķirti individuāli katram slēgšanas procesa pabeigšanai. Veidnē, relatīvā apmaksas datums ir jānosaka katra uzdevuma slēgšanas. Relatīvā apmaksas datums ir dienu skaits pirms vai pēc noteikta perioda beigu datums, kas šo uzdevumu, būs jāmaksā katram periodam. Izpildes laiks ir piešķirta katru uzdevumu. Izpildes laiks tiek iestatīts, izmantojot saistībā ar savu laika joslu un laika joslu, katram lietotājam tiek konvertētas. 
+Finanšu slēgšanas veidni varat izmantot, lai definētu visus uzdevumus, kas ir daļa no slēgšanas procesa. Slēgšanas uzdevums ir periodisks darbs, kas tiek piešķirts kādai personai, un tas ir jāizpilda katra slēgšanas procesa ietvaros. Veidnē relatīvais izpildes datums ir jādefinē katram slēgšanas uzdevumam. Relatīvais izpildes datums ir dienu skaits pirms vai pēc definētā perioda beigu datuma, kad šis uzdevums ir jāizpilda katrā periodā. Katram uzdevumam tiek piešķirts arī izpildes laiks. Izpildes laiks tiek noteikts, ņemot vērā jūsu laika joslu, un tas tiks pārveidots uz katram lietotājam atbilstošo laika joslu. 
 
-Uzdevuma veidnē var piešķirt vienam vai vairākiem uzņēmumiem, kas gadījumos, kad piemēro šo uzdevumu. Ja cita persona ir piešķirts, lai pabeigtu šo darbu pūles katrā uzņēmumā, var būt noderīgi vairāki uzdevumu veidošanai pašu darba intensitāti. Izveidojiet vienu uzdevumu katram uzņēmumam. 
+Veidnē uzdevumu var piešķirt vienam vai vairākiem uzņēmumiem, uz kuriem šis uzdevums attiecas. Ja katrā uzņēmumā šī darba izpildei tiek piešķirta cita persona, var būt noderīgi vienam darbam izveidot vairākus uzdevumus. Izveidojiet vienu uzdevumu katram uzņēmumam. 
 
-**Uzdevuma saiti** izvēlnes elements ir saistīts ar uzdevumu darba intensitātes un var tikt izmantotas, lai dotos tieši uz saistīto lapu no uzdevuma saiti darbvietā. Piemēram, noslēguma uzdevumu, kuru jāpalaiž kreditoru valūtas pārvērtēšanas process var būt saistīts ar saistīto **ārvalstu valūtas pārvērtēšanas** lapu Microsoft Dynamics 365 operācijām. Varat arī saistīt ar ārējo vietrādi URL. 
+Izvēlnes vienums **Uzdevuma saite** ir saistīts ar uzdevuma darbu, un to var izmantot, lai no uzdevuma saites darbvietā pārietu tieši uz saistīto lapu. Piemēram, lai palaistu valūtas pārvērtēšanas procesu kreditoriem, slēgšanas uzdevumu var saistīt ar attiecīgo lapu **Ārvalstu valūtas pārvērtēšana** sistēmā Microsoft Dynamics 365 for Operations. Varat arī saistīt ar ārējo vietrādi URL. 
 
-> [! Hint] Ja vēlaties piesaistīt finanšu perioda aizvērt uzdevumu noteiktu apsaimniekošanas reportieris atskaiti, var izmantot atskaiti URL. Lai piekļūtu ziņojumu URL, atveriet atskaiti atskaišu izstrādes rīks un pēc tam noklikšķiniet uz **failu**&gt;**atskaites skatīšana** lai atskaiti atvērtu web pārlūkprogrammu. Pēc tam varat kopēt URL no pārlūkprogrammas adreses joslas un ielīmēt to laukā **Uzdevuma saites** **URL**. 
+> [!Ieteikums] Lai finanšu perioda slēgšanas uzdevumam piesaistītu noteiktu pārvaldības pārskata sastādītāja pārskatu, var izmantot pārskata URL. Lai piekļūtu pārskata vietrādim URL, pārskatu veidotājā atveriet šo pārskatu un pēc tam noklikšķiniet uz **Fails** &gt; **Skatīt pārskatu**, lai pārskatu atvērtu tīmekļa pārlūkprogrammā. Pēc tam varat kopēt URL no pārlūkprogrammas adreses joslas un ielīmēt to laukā **Uzdevuma saites** **URL**. 
 
-Veidnē var definēt uzdevumu atkarības. Ja uzdevums ir iestatīts atkarīgi viens vai vairāki uzdevumi, darbplūsmas uzdevumu nevar atzīmēts kā pabeigts līdz brīdim, kad ir pabeigtas visas atkarības. 
+Veidnē varat definēt uzdevumu atkarības. Ja uzdevums ir iestatīts tā, lai būtu atkarīgs no viena vai vairākiem uzdevumiem, šo uzdevumu nevar atzīmēt kā pabeigtu, kamēr nav pabeigtas visas tā atkarības. 
 
-Var izveidot vairākus finanšu aizveriet veidnes. Dažādas veidnes var izmantot lai izsekotu periodu dažāda, piemēram, mēneša beigās vai gada beigās slēguma procesiem vai uzņēmumiem, kas izmanto dažādus slēguma procesiem izsekot. Pēc vienas veidnes izveidošanas var iekopēt jaunajā veidnē un veikt nepieciešamās izmaiņas. Var piešķirt tikai vienu veidni katru slēgšanas grafiks.
+Var izveidot vairākas finanšu slēgšanas veidnes. Pēc tam dažādās veidnes varat izmantot, lai izsekotu dažādu perioda tipu, piemēram, mēneša beigu vai gada beigu, slēgšanas procesiem vai izsekotu uzņēmumiem, kas izmanto atšķirīgus slēgšanas procesus. Kad viena veidne ir izveidota, to varat to kopēt, lai izveidotu jaunu veidni, kurā veikt nepieciešamās izmaiņas. Katram slēgšanas grafikam var piešķirt tikai vienu veidni.
 
 ### <a name="closing-schedules"></a>Slēgšanas grafiki
 
-Slēgšanas grafikā izmanto, lai piešķirtu finanšu aizveriet veidni finanšu periodu, kas ir jāaizver. Uzdevumus, izmantojot šo veidni, tad automātiski ģenerēts norādītajam periodam un jauns slēgšanas grafiks ir pievienot darbvietai. Veidojot jaunu slēgšanas grafiku, **perioda beigu datums** lauks tiek izmantots, lai noteiktu faktisko izpildes datumu slēguma uzdevumus, pamatojoties uz relatīvo apmaksas datums, kas tiek piešķirts finanšu aizveriet veidni. 
+Slēgšanas grafiks tiek izmantots, lai finanšu slēgšanas veidni piešķirtu noteiktam finanšu periodam, kas ir jāslēdz. Pēc tam uzdevumi no veidnes tiek automātiski ģenerēti norādītajam periodam, un jaunais slēgšanas grafiks tiek pievienots darbvietai. Kad veidojat jaunu slēgšanas grafiku, lauks **Perioda beigu datums** tiek izmantots, lai faktiskos izpildes datumus slēgšanas uzdevumiem noteiktu, pamatojoties uz relatīvo izpildes datumu, kas tiek piešķirts finanšu slēgšanas veidnē. 
 
-Piešķirtu atbilstošu slēgšanas grafiks, lai norādītu darba dienas uzdevumu plānošanā izmantot kalendāru. Ja nav definēt konkrētu kalendāra, uzdevumu izpildes datumiem tiks izmantot visu nedēļas dienu pilnu formu. 
+Piešķiriet kalendāru, kas ir piemērots slēgšanas grafikam, lai norādītu uzdevuma plānošanā izmantojamās darbdienas. Ja nedefinējat noteiktu kalendāru, uzdevumu izpildes datumiem tiks izmantotas visas nedēļas dienas. 
 
-Ir jādefinē arī uzņēmumiem, kas tiks saistīta ar slēgšanas grafiks. Ja veidni uzdevumi tiek piešķirti vairāki uzņēmumi, atsevišķi uzdevumi tiks izveidota katram uzņēmumam, kas atrodas slēgšanas grafiks un veidnes uzdevumam piešķirto. 
+Ir jādefinē arī uzņēmumi, kas tiks piesaistīti attiecīgajam slēgšanas grafikam. Ja veidnes uzdevumi tiek piešķirti vairākiem uzņēmumiem, atsevišķi uzdevumi tiek izveidoti katram uzņēmumam, kas tika iekļauts slēgšanas grafikā un piešķirts veidnes uzdevumam. 
 
-Pēc slēgšanas grafiks ir pabeigta, izvēlieties **slēgts** variants, par to. Uzdevuma vēsture joprojām būs pieejami no **visus finanšu perioda aizvērt uzdevumu** saraksta lappuses, bet slēgšanas grafiks tiks noņemta no darbvietas. Pēc slēgšanas grafiks bija atzīmēts kā **slēgts**, jums nebūs iespēja pievienot uzdevumus, rediģēt uzdevumus vai noņemtu uzdevumus.
+Kad slēgšanas grafiks ir pabeigts, atlasiet tam opciju **Slēgts**. Uzdevumu vēsture joprojām būs pieejama saraksta lapā **Visi finanšu perioda slēgšanas uzdevumi**, bet šis slēgšanas grafiks tiks noņemts no darbvietas. Kad slēgšanas grafiks ir atzīmēts kā **Slēgts**, tam vairs nevarat pievienot uzdevumus, rediģēt uzdevumus vai no tā noņemt uzdevumus.
+
+
 
 

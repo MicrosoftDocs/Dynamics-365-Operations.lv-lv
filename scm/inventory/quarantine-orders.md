@@ -27,11 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="quarantine-orders"></a>Karantīnas pasūtījumi
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir aprakstīts, kā karantīnas pasūtījumi tiek izmantoti, lai bloķētu krājumus. 
 
-Karantīnas pasūtījumus var izmantot, lai bloķētu krājumu. Piemēram, jūs varētu vēlēties karantīnas krājumu kvalitātes kontroles nolūkos. Krājumu, kuri ir karantīnā tiek pārvietots uz karantīnas noliktava. **Piezīme.** Ja izmantojat papildu noliktavas pārvaldības procesus (modulī Noliktavas pārvaldība), karantīnas pasūtījumu apstrāde tiek izmantota tikai atgriešanas pārdošanas pasūtījumiem.
+Karantīnas pasūtījumus var izmantot, lai bloķētu krājumu. Piemēram, varat noteikt krājumu karantīnu kvalitātes kontroles iemeslu dēļ. Krājumi, kam ir noteikta karantīna, tiek pārsūtīti uz karantīnas noliktavu. **Piezīme.** Ja izmantojat papildu noliktavas pārvaldības procesus (modulī Noliktavas pārvaldība), karantīnas pasūtījumu apstrāde tiek izmantota tikai atgriešanas pārdošanas pasūtījumiem.
 
-## <a name="quarantine-onhand-inventory-items"></a>Karantīnas krājumu onhand
+## <a name="quarantine-onhand-inventory-items"></a>Rīcībā esošo krājumu karantīna
 Kad novietojat krājumus karantīnā, varat izveidot karantīnas pasūtījumus manuāli vai arī iestatīt, lai sistēma ienākošās apstrādes laikā automātiski izveidotu karantīnas pasūtījumus. Lai automātiski izveidotu karantīnas pasūtījumus, atlasiet opciju **Karantīnas pārraudzība** lapas **Krājumu modeļu grupas** cilnē **Krājumu politikas**. Jums jānorāda arī noklusējuma karantīnas noliktava laukā **Karantīnas noliktava** saņemošajām noliktavām. Ja fiziski rīcībā esošie krājumi tiek reģistrēti, izmantojot pirkšanas pasūtījumu vai ražošanas pasūtījumu, karantīnā novietotie krājumi automātiski tiek pārvietoti uz karantīnas noliktavu programmā Microsoft Dynamics 365 for Operations. Šī kustība notiek tāpēc, ka karantīnas pasūtījuma statuss tiek mainīts uz **Sākts**. Kad jūs izveidojat karantīnas pasūtījumus manuāli, krājumu nav nepieciešams iestatīt karantīnas pārraudzībai saistītajā krājuma modeļa grupā. Šim procesam ir jānorāda rīcībā esošais krājums, kas jānovieto karantīnā, un karantīnas noliktava, kura jāizmanto. Lai palīdzētu plānot procesu, varat izmantot karantīnas pasūtījuma statusus.
 
 ## <a name="quarantine-order-statuses"></a>Karantīnas pasūtījumu statusi
@@ -64,6 +67,8 @@ Karantīnas pasūtījuma procesa ietvaros ir iespējams norakstīt krājumu. Aps
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Inventory blocking](inventory-blocking.md)
+[Krājumu aizturēšana](inventory-blocking.md)
+
+
 
 

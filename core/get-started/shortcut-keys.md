@@ -1,6 +1,6 @@
 ---
 title: "Īsinājumtaustiņi"
-description: "Šādas tastatūras īsinājumikonas ir lietotas Microsoft Dynamics 365 operācijām."
+description: "Programmā Microsoft Dynamics 365 for Operations tiek izmantotas tālāk norādītās tastatūras īsinājumikonas."
 author: jasongre
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="keyboard-shortcuts"></a>Īsinājumtaustiņi
 
-Šādas tastatūras īsinājumikonas ir lietotas Microsoft Dynamics 365 operācijām. 
+[!include[banner](../includes/banner.md)]
+
+
+Programmā Microsoft Dynamics 365 for Operations tiek izmantotas tālāk norādītās tastatūras īsinājumikonas. 
 
 **Piezīme.** Šeit aprakstītie īsinājumtaustiņi attiecas uz ASV tastatūras izkārtojumu. Citos tastatūras izkārtojumos taustiņi var precīzi neatbilst taustiņiem ASV tastatūras izkārtojumā.
 
@@ -40,7 +43,7 @@ ms.lasthandoff: 03/31/2017
 | Pāriet uz nākamo/iepriekšējo opciju izvēlnē            | Augšupvērstā bultiņa/lejupvērstā bultiņa            |
 | Aizvērt cilni darbību rūtī vai izvēlnē          | Esc                              |
 | Imitēt klikšķi ar peles labo pogu                            | Shift+F10                        |
-| Atveriet Dynamics 365 par operācijas kontekstizvēlne | Ctrl+F10                         |
+| Atvērt Dynamics 365 for Operations konteksta izvēlni | Ctrl+F10                         |
 | Izpildīt noklusējuma pogas funkciju veidlapā/dialoglodziņā       | Alt+Enter                        |
 | Noklikšķināt uz pogas vai elementa                            | Enter vai atstarpes taustiņš                   |
 | Skaita elementa informācijas atsvaidzināšana         | Alt + augšupvērstā bultiņa                     |
@@ -64,7 +67,7 @@ ms.lasthandoff: 03/31/2017
 | Atvērt papildinformācijas rūti (vai aktivizēt papildinformācijas rūti, ja tās jau ir atvērta) | Ctrl+F2                                   |
 | Aizvērt papildinformācijas rūti (kad papildinformācijas rūts ir aktivizēta)                         | Esc                                       |
 | Pāriet uz nākamo/iepriekšējo papildinformācijas rūti (kad papildinformācijas rūts ir aktivizēta)              | Alt+Shift+lejupvērstā bultiņa/Alt+Shift+augšupvērstā bultiņa |
-| Pārvietot uz &lt;n&gt;th Moldova (ar fokusu no rūts Moldova)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
+| Pāriet uz papildinformācijas rūti Nr. &lt;n&gt; (kad papildinformācijas rūts ir aktivizēta)                | Alt+&lt;n&gt; (&lt;n&gt; = 1–9)           |
 | Izvērst papildinformācijas rūti (kad papildinformācijas rūts ir aktivizēta)                             | Atstarpes taustiņš vai Enter                            |
 | Sakļaut pašreizējo papildinformācijas rūti                                                    | Alt+0                                     |
 
@@ -111,8 +114,8 @@ ms.lasthandoff: 03/31/2017
 | Pāriet uz nākamo/iepriekšējo lauku                     | Tab/Shift+Tab                              |
 | Pāriet uz nākamo/iepriekšējo cilni                       | Alt+Shift+pa labi vērstā bultiņa/Alt+Shift+pa kreisi vērstā bultiņa |
 | Pāriet uz nākamo/iepriekšējo kopsavilkuma cilni                   | Alt+Shift+lejupvērstā bultiņa/Alt+Shift+augšupvērstā bultiņa    |
-| Pārvietot uz &lt;n&gt;th FastTab                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
-| Pārvietot uz &lt;n&gt;th tab                         | Taustiņu kombināciju Alt + Shift +&lt;n&gt; (&lt;n&gt; = 1-9)        |
+| Pāriet uz kopsavilkuma cilni Nr. &lt;n&gt;                     | Alt+&lt;n&gt; (&lt;n&gt; = 1–9)              |
+| Pāriet uz cilni Nr. &lt;n&gt;                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1–9)        |
 | Izvērst kopsavilkuma cilni (kad kopsavilkuma cilne ir aktivizēta) | Atstarpes taustiņš vai Enter                               |
 | Sakļaut pašreizējo kopsavilkuma cilni                        | Alt+0                                        |
 | Aktivizēt režģa skatu                                 | Ctrl+Shift+G                                 |
@@ -152,7 +155,7 @@ ms.lasthandoff: 03/31/2017
 | Atvērt uzmeklēšanu, kombinēto lodziņu, datuma atlasītāju, nolaižamo dialoglodziņu           | Alt+lejupvērstā bultiņa                |
 | Aizvērt uzmeklēšanu lodziņu, kombinēto lodziņu, datuma atlasītāju, nolaižamo dialoglodziņu          | Esc                           |
 | Aktivizēt uzmeklēšanas lodziņu (kad uzmeklēšanas lodziņš jau ir atvērts) | Alt+lejupvērstā bultiņa                |
-| Atveriet vadīklas paplašinātā priekšskatījuma                        | Alt + augšupvērstā bultiņa                  |
+| Atvērt vadīklas uzlaboto priekšskatījumu                        | Alt + augšupvērstā bultiņa                  |
 | Atlasīt tekstu pašreizējā laukā                           | Ctrl+A                        |
 | Pāriet uz teksta apgabalu/ieziet no tā HTML redaktora vadīklā        | Alt+lejupvērstā bultiņa/Alt+augšupvērstā bultiņa |
 
@@ -173,19 +176,19 @@ ms.lasthandoff: 03/31/2017
 | **Lai to paveiktu**                                                            | **Nospiediet**       |
 | Pāriet uz informācijas paneli                                                       | Alt+Shift+Home  |
 | Pāriet uz navigācijas joslu                                                  | Alt+Shift+F1    |
-| Pāriet uz navigācijas rūti                                                 | Alt+F1          |
-| Izlase/un-favorite formu (ar fokusu uz formas navigācijas rūtī) | SHIFT + F         |
+| Pāriet uz navigācijas rūti                                                 | Alt + F1          |
+| Iekļaut veidlapu izlasē/izņemt no izlases (kad navigācijas rūtī ir aktivizēta veidlapa) | Shift+F         |
 | Doties uz uzņēmuma atlasītāju                                                  | Ctrl+Shift+O    |
 | Doties uz navigācijas meklēšanas rūti                                                   | Ctrl+/ vai Alt+G |
-| Atvērtu rūti Palīdzība                                                        | CTRL +?          |
-| Atveriet izsekošanas parser                                                     | Taustiņu kombināciju Alt + Shift + T     |
+| Atvērt palīdzības rūti                                                        | Ctrl+?          |
+| Atvērt trasēšanas parsētāju                                                     | Alt+Shift+T     |
 
  
 
 ## <a name="segmented-entry-shortcuts"></a>Segmentētā ieraksta saīsnes
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| **To do this**                                                                                                          | **Press**                        |
+| **Lai to paveiktu**                                                                                                          | **Nospiediet**                        |
 | Atvērt nolaižamo sarakstu (kad nolaižamais saraksts ir aizvērts)                                                             | Alt+lejupvērstā bultiņa                   |
 | Aktivizēt pašreizējā segmenta ievades lauku nolaižamajā sarakstā (kad nolaižamais saraksts jau ir atvērts) | Alt+lejupvērstā bultiņa                   |
 | Aizvērt nolaižamo sarakstu                                                                                                | Alt + augšupvērstā bultiņa                     |
@@ -199,5 +202,7 @@ ms.lasthandoff: 03/31/2017
 | Pāriet uz uzmeklēšanas rūts augšdaļu/apakšdaļu                                                                                    | Home/End                       |
 
  
+
+
 
 

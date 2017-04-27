@@ -1,5 +1,5 @@
 ---
-title: "Konfigurēt automatizēto uzdevumu darbplūsmu"
+title: "Konfigurēt automatizētu uzdevumu darbplūsmā"
 description: "Šajā tēmā ir paskaidrots, kā konfigurēt automatizēta uzdevuma rekvizītus."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-an-automated-task-in-a-workflow"></a>Konfigurēt automatizēto uzdevumu darbplūsmu
+# <a name="configure-an-automated-task-in-a-workflow"></a>Konfigurēt automatizētu uzdevumu darbplūsmā
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā tēmā ir paskaidrots, kā konfigurēt automatizēta uzdevuma rekvizītus.
 
@@ -50,7 +53,7 @@ Varat nosūtīt lietotājiem paziņojumus, kad automatizētais uzdevums ir palai
     1.  Tekstlodziņā noklikšķiniet uz vietas, kur jāparādās vietturim.
     2.  Noklikšķiniet uz **Ievietot vietturi**.
     3.  Parādītajā sarakstā atlasiet vietturi, kuru ievietot.
-    4.  Klikšķiniet **Ievietot**.
+    4.  Noklikšķiniet uz **Ievietot**.
 
 6.  Lai pievienotu paziņojuma tulkojumus, rīkojieties šādi:
     1.  Noklikšķiniet uz **Tulkojumi**.
@@ -92,16 +95,18 @@ Varat nosūtīt lietotājiem paziņojumus, kad automatizētais uzdevums ir palai
     </tr>
     <tr class="odd">
     <td>Lietotājs</td>
-    <td>Īpaša Microsoft Dynamics 365 operācijas lietotājiem</td>
+    <td>Specifiski Microsoft Dynamics 365 for Operations lietotāji</td>
     <td><ol>
     <li>Pēc tam, kad ir atlasīts vienums <strong>Lietotājs</strong>, noklikšķiniet uz cilnes <strong>Lietotājs</strong>.</li>
-    <li><strong>Pieejams lietotājiem</strong> saraksts ietver visus Dynamics 365 operācijas lietotājiem. Atlasiet lietotājus, kuriem sūtīt paziņojumus, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
+    <li>Sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Operations lietotāji. Atlasiet lietotājus, kuriem sūtīt paziņojumus, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
     </table>
 
 8.  Atkārtojiet 3.–7. darbību katram notikumam, ko atlasījāt 2. darbībā.
+
+
 
 
 

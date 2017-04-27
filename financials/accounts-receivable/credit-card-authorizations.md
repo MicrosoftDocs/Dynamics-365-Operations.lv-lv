@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="credit-card-setup-authorization-and-capture"></a>Kredītkartes iestatīšana, autorizācija un nolasīšana
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegts pārskats par kredītkartes autorizāciju programmā Microsoft Dynamics AX. Šeit ir iekļauta arī informācija par to, kā iestatīt maksājumu pakalpojumu, pievienot kredītkarti pārdošanas pasūtījumam un anulēt autorizāciju.
 
 <a name="setting-up-the-credit-card-payment-service"></a>Kredītkartes maksājumu pakalpojuma iestatīšana
@@ -55,7 +58,7 @@ Varat pieprasīt kartes verificēšanas vērtību, kas dažreiz tiek saukta par 
 
 ### <a name="address-verification"></a>Adreses pārbaude
 
-Maksājuma nodrošinātājam vienmēr tiek nosūtīta adreses pārbaudes informācija. Jūs varat izlemt, cik daudz informācijas ir nepieciešama darbībai, lai tie tiktu pieņemti. Noteikti sazinieties ar savu pakalpojumu sniedzēju, lai uzzinātu, vai tā pieņem šo informāciju. Tālāk ir norādītas adreses pārbaudes opcijas.
+Maksājuma nodrošinātājam vienmēr tiek nosūtīta adreses pārbaudes informācija. Varat izlemt, cik daudz informācijas ir nepieciešams, lai transakciju pieņemtu. Noteikti sazinieties ar savu nodrošinātāju, lai noteiktu, vai tas pieņem šo informāciju. Tālāk ir norādītas adreses pārbaudes opcijas.
 -   **Vienmēr pieņemt transakciju** — pieņemt transakciju neatkarīgi no adreses pārbaudes rezultātiem.
 -   **Konta īpašnieks** — salīdzināt transakcijā norādīto kartes īpašnieka vārdu ar kredītkartes nodrošinātājam pieejamo informāciju.
 -   **Rēķina adrese** — salīdzināt transakcijā norādīto kartes īpašnieka vārdu un rēķina adresi ar kredītkartes nodrošinātājam pieejamo informāciju.
@@ -68,10 +71,12 @@ Katram atbalstītajam kredītkartes veidam varat norādīt datu atbalsta līmeni
 -   **3. līmenis** — pārsūtīt visu 2. līmeņa informāciju, kā arī pasūtījuma rindas informāciju.
 
 ## <a name="partial-payments"></a>Daļēji maksājumi
-Ja tiek nosūtīts pasūtījuma daļa, daļēju pasūtījuma apjoms uzņemts un atļaujas, kas bija par visu pasūtījuma summu, ir slēgta. Jauna atļauja tad iesniegšanas secībā, kas nav nosūtīti atlikušajai summai.
+Ja nosūtāt daļu pasūtījuma, tiek nolasīta daļējā pasūtījuma summa un tiek slēgta autorizācija, kas attiecas uz visa pasūtījuma summu. Pēc tam tiek iesniegta jauna autorizācija, kas attiecas uz atlikušo nenosūtītas pasūtījuma daļas summu.
 
-## <a name="voiding-an-authorization"></a>Autorizācijas anulēšana 
+## <a name="voiding-an-authorization"></a>Autorizācijas anulēšana
 Lai anulētu kredītkartes autorizāciju, varat mainīt maksājuma metodi, izvēloties citu metodi, kuras vieds nav Kredītkarte.
+
+
 
 
 

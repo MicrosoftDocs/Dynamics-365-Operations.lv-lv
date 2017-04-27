@@ -1,6 +1,6 @@
 ---
-title: "Mobilais rēķinu apstiprinājumu"
-description: "Mobilo sakaru iespējas Microsoft Dynamics 365 operācijām ļauj biznesa lietotājiem izstrādāt mobilo pieredzi. Par papildu scenārijus, platformas arī pieņemsim izstrādātājiem paplašina iespējas, kā viņi vēlas. Visefektīvākais veids, kā iemācīties dažas jaunas koncepcijas mobilajā telefonā ir iet caur procesu projektēšana dažus scenārijus. Šajā tēmā ir paredzēts, lai sniegtu praktisku pieeju projektēšana mobilās scenārijus, piedaloties kreditoru rēķinu apstiprinājumu mobilajiem tālruņiem, kā izmantošanas gadījumā. Šīs tēmas palīdzēs jums noformēt citus variantus scenāriji un var lietot arī citi gadījumi, kas nav saistītas ar piegādātāju rēķiniem."
+title: "Rēķinu apstiprināšana mobilajā ierīcē"
+description: "Programmatūrā Microsoft Dynamics 365 for Operations ietvertās mobilās iespējas sniedz biznesa lietotājam iespēju izstrādāt mobilos risinājumus. Sarežģītu scenāriju gadījumā izstrādātāji var arī paplašināt iespējas atbilstoši savām vēlmēm. Visefektīvākais veids, kā apgūt dažas no jaunajām mobilajām ierīcēm paredzētajām koncepcijām, ir jaunu scenāriju procesa izpilde. Šajā tēmā ir aprakstīta praktiska pieeja mobilo scenāriju izstrādei, kā lietojuma gadījumu apskatot kreditoru rēķinu apstiprināšanu mobilajās ierīcēs. Šajā tēmā sniegtā informācija palīdzēs jums izstrādāt arī citus scenāriju variantus, un to var lietot arī citiem scenārijiem, kas nav saistīti ar kreditoru rēķiniem."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,44 +24,47 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="mobile-invoice-approvals"></a>Mobilais rēķinu apstiprinājumu
+# <a name="mobile-invoice-approvals"></a>Rēķinu apstiprināšana mobilajā ierīcē
 
-Mobilo sakaru iespējas Microsoft Dynamics 365 operācijām ļauj biznesa lietotājiem izstrādāt mobilo pieredzi. Par papildu scenārijus, platformas arī pieņemsim izstrādātājiem paplašina iespējas, kā viņi vēlas. Visefektīvākais veids, kā iemācīties dažas jaunas koncepcijas mobilajā telefonā ir iet caur procesu projektēšana dažus scenārijus. Šajā tēmā ir paredzēts, lai sniegtu praktisku pieeju projektēšana mobilās scenārijus, piedaloties kreditoru rēķinu apstiprinājumu mobilajiem tālruņiem, kā izmantošanas gadījumā. Šīs tēmas palīdzēs jums noformēt citus variantus scenāriji un var lietot arī citi gadījumi, kas nav saistītas ar piegādātāju rēķiniem.
+[!include[banner](../includes/banner.md)]
+
+
+Programmatūrā Microsoft Dynamics 365 for Operations ietvertās mobilās iespējas sniedz biznesa lietotājam iespēju izstrādāt mobilos risinājumus. Sarežģītu scenāriju gadījumā izstrādātāji var arī paplašināt iespējas atbilstoši savām vēlmēm. Visefektīvākais veids, kā apgūt dažas no jaunajām mobilajām ierīcēm paredzētajām koncepcijām, ir jaunu scenāriju procesa izpilde. Šajā tēmā ir aprakstīta praktiska pieeja mobilo scenāriju izstrādei, kā lietojuma gadījumu apskatot kreditoru rēķinu apstiprināšanu mobilajās ierīcēs. Šajā tēmā sniegtā informācija palīdzēs jums izstrādāt arī citus scenāriju variantus, un to var lietot arī citiem scenārijiem, kas nav saistīti ar kreditoru rēķiniem.
 
 <a name="prerequisites"></a>Priekšnosacījumi
 -------------
 
 | Priekšnoteikumi                                                                                            | apraksts                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Mobilais rokasgrāmata iepriekš lasīt                                                                                |(/ dynamics365/darbības/dev-itpro/mobilais-apps / mobile-platform.md)                                                                                                  |
-| Dinamika 365 operācijām                                                                             | Vidi, kas ir Microsoft Dynamics 365 darbību versija 1611 un Microsoft Dynamics darbības platformu update 3 (2016. gada novembrī)                   |
-| Instalējiet labojumfailu KB 3204341.                                                                              | Uzdevuma rakstītāju kļūdaini ieraksta divus tuvu komandas nolaižamajā dialogus, tas ir iekļauts Dynamics 365 darbības platformu Update 3 (November 2016 atjauninājums) |
-| Instalējiet labojumfailu KB 3207800.                                                                              | Šis labojumfails ļauj pielikumus, apskatīt mobilās klientu, tas ir iekļauts Dynamics 365 darbības platformu Update 3 (November 2016 atjauninājums).           |
-| Instalējiet labojumfailu KB 3208224.                                                                              | Programmas kods mobilo kreditora rēķina apstiprinājuma pieteikumu, tas ir iekļauts Microsoft Dynamics AX lietojumprogrammu 7.0.1 (maija 2016).                          |
-| Android vai ISP vai Windows ierīces, kas ir mobilo app uzstādīta Dynamics 365 operācijām | Meklētu app atbilstošu app Store.                                                                                                                     |
+| Iepriekš izlasiet mobilo risinājumu rokasgrāmatu.                                                                                |(/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform.md)                                                                                                  |
+| Dynamics 365 for Operations                                                                             | Vide, kurā ir instalēta Microsoft Dynamics 365 for Operations versija 1611 un Microsoft Dynamics for Operations 3. platformas atjauninājums (2016. gada novembra versija)                   |
+| Instalējiet labojumfailu KB 3204341.                                                                              | Uzdevumu reģistrētājs var kļūdaini reģistrēt divas nolaižamo dialoglodziņu aizvēršanas komandas; tas ir ietverts Dynamics 365 for Operations 3. platformas atjauninājumā (2016. gada novembrī izlaistais atjauninājums) |
+| Instalējiet labojumfailu KB 3207800.                                                                              | Šis labojumfails sniedz iespēju skatīt pielikumus mobilajā klientā; tas ir ietverts Dynamics 365 for Operations 3. platformas atjauninājumā (2016. gada novembrī izlaistais atjauninājums)           |
+| Instalējiet labojumfailu KB 3208224.                                                                              | Kreditoru rēķinu apstiprināšanas mobilās lietojumprogrammas kods; tas ir ietverts lietojumprogrammas Microsoft Dynamics AX versijā 7.0.1 (2016. gada maija izlaidums).                          |
+| Android, iOS vai Windows ierīce, kurā ir instalēta Dynamics 365 for Operations mobilā programma | Meklējiet programmu atbilstošajā programmu veikalā.                                                                                                                     |
 
 ## <a name="introduction"></a>Ievads
-Mobilo apstiprinājumus kreditoru rēķinu pieprasa trīs labojumfaili, kas ir minēti sadaļā "Priekšnoteikumi". Šos labojumfailus nesniedz darbvietu rēķinu apstiprinājumu. Lai uzzinātu, kas darbvietu saistībā ar mobilo, nolasa mobilo rokasgrāmatu, kas ir minēti sadaļā "Priekšnoteikumi". Rēķinu apstiprinājumu darbvieta ir jāplāno. 
+Lai varētu apstiprināt kreditoru rēķinus mobilajā ierīcē, ir nepieciešami trīs labojumfaili, kas ir norādīti sadaļā Priekšnosacījumi. Šie labojumfaili nenodrošina rēķinu apstiprināšanas darbvietu. Lai uzzinātu, kas ir darbvieta attiecībā uz mobilajām ierīcēm, izlasiet mobilo ierīču risinājumu rokasgrāmatu, kas ir pieminēta sadaļā “Priekšnosacījumi”. Rēķinu apstiprināšanas darbplūsma ir jāizstrādā. 
 
-Katrai organizācijai nenovēršami un atšķirīgi definē tās biznesa procesu par kreditora rēķiniem. Pirms noformējat mobilo pieredzi kreditora rēķinu apstiprinājumu, jums vajadzētu apsvērt šādus biznesa procesa aspektiem. Ideja ir, lai izmantotu šos datu punktiem, cik vien iespējams optimizēt lietotāja pieredzi ierīcē.
+Katra organizācija atšķirīgā veidā vada un definē savu kreditoru rēķinu biznesa procesu. Pirms kreditoru rēķinu apstiprināšanas mobilā risinājuma izstrādes ir jāņem vērā tālāk norādītie biznesa procesa aspekti. Mērķis ir pēc iespējas vairāk izmantot šos datu punktus, lai optimizētu lietotāja iespējas ierīcē.
 
--   Kādus laukus no rēķina virsrakstā lietotājs vēlēsies redzēt mobilo pieredzi, un kādā secībā?
--   Kādus laukus no rēķina rindām lietotājs vēlēsies redzēt mobilo pieredzi, un kādā secībā?
--   Cik daudz rēķina rindās ir rēķins? 80-20 noteikums attiecas, un optimizēt par 80 procentiem.
--   Lietotāji vēlēsies redzēt uzskaites sadali (rēķina kodēšana) mobilajā ierīcē laikā atsauksmes Ja atbilde uz šo jautājumu ir "Jā", apsveriet šādus jautājumus:
-    -   Cik daudz uzskaites sadali (paplašinātā cena, PVN, maksa, plaisām un tā tālāk) ir rēķina rindai? Atkal, piemēro 80-20 noteikums.
-    -   Vai rēķinos ir arī uzskaites sadales rēķina virsrakstā? Tādā gadījumā šīs uzskaites sadali būtu pieejamas ierīcē?
+-   Kurus rēķina galvenes laukus un kādā secībā lietotājs vēlēsies redzēt mobilajā risinājumā?
+-   Kurus rēķina rindu laikus un kādā secībā lietotājs vēlēsies redzēt mobilajā risinājumā?
+-   Cik rēķina rindu ir rēķinā? Lietojiet 80/20 nosacījumu un optimizējiet atbilstoši 80 procentiem.
+-   Vai lietotāji vēlas pārskatīšanas laikā mobilajā ierīcē redzēt uzskaites sadales (rēķina kodu). Ja atbilde uz šo jautājumu ir apstiprinoša, ņemiet vērā tālāk norādītos jautājumus.
+    -   Cik uzskaites sadales elementu (pilna cena, PVN, izmaksas, dalījumi utt.) ir vienā rēķina rindā? Atkal lietojiet 80/20 nosacījumu.
+    -   Vai rēķina galvenē arī ir uzskaites sadales? Jā tā ir, vai šīm uzskaites sadalēm ir jābūt pieejamām ierīcē?
 
 > [!NOTE]
-> Šajā tēmā neizskaidro kā rediģēt uzskaites sadali, jo šī funkcija pašlaik nav atbalstīts mobilo scenārijiem.
+> Šajā tēmā nav paskaidrots, kā rediģēt uzskaites sadales, jo šī funkcionalitāte pašlaik netiek atbalstīta mobilajiem scenārijiem.
 
--   Lietotāji vēlēsies redzēt pielikumus rēķina ierīcē
+-   Vai lietotāji vēlēsies ierīcē redzēt rēķina pielikumus?
 
-Rēķinu apstiprinājumu mobilajai pieredzei dizains atšķirsies atkarībā no atbildēm uz šiem jautājumiem. Mērķis ir optimizēt lietotāja pieredzi biznesa procesa organizācijā mobilajā telefonā. Pārējā šo tēmu, mēs apskatīsim divu scenāriju variācijas, kas pamatā ir dažādas atbildes uz šiem jautājumiem. 
+Rēķinu apstiprināšanas mobilā risinājuma izstrāde atšķiras atkarībā no atbildēm uz šiem jautājumiem. Mērķis ir optimizēt lietotāja iespējas darbam ar biznesa procesu mobilajā ierīcē organizācijas ietvaros. Šīs tēmas turpinājumā ir aprakstīti scenārija varianti, kas ir izstrādāti, pamatojoties uz dažādām atbildēm uz iepriekš norādītajiem jautājumiem. 
 
-Kā vispārēji norādījumi, strādājot ar mobilo dizainers, pārliecinieties, vai publicēt izmaiņas, lai novērstu zaudē atjauninājumus.
+Vienmēr, kad strādājat ar mobilo programmu veidotāju, noteikti publicējiet izmaiņas, lai nepieļautu atjauninājumu zaudēšanu.
 
-## <a name="designing-a-simple-invoice-approval-scenario-for-contoso"></a>Vienkāršs rēķins apstiprinājuma scenārijs projektēšana Contoso
+## <a name="designing-a-simple-invoice-approval-scenario-for-contoso"></a>Vienkārša rēķinu apstiprināšanas scenārija izstrāde uzņēmumam Contoso
 <table>
 <colgroup>
 <col width="50%" />
@@ -75,7 +78,7 @@ Kā vispārēji norādījumi, strādājot ar mobilo dizainers, pārliecinieties,
 </thead>
 <tbody>
 <tr class="odd">
-<td>Kādus laukus no rēķina virsrakstā lietotājs vēlēsies redzēt mobilo pieredzi, un kādā secībā?</td>
+<td>Kurus rēķina galvenes laukus un kādā secībā lietotājs vēlēsies redzēt mobilajā risinājumā?</td>
 <td><ol>
 <li>Kreditora nosaukums</li>
 <li>Rēķina kopsumma</li>
@@ -88,7 +91,7 @@ Kā vispārēji norādījumi, strādājot ar mobilo dizainers, pārliecinieties,
 </ol></td>
 </tr>
 <tr class="even">
-<td>Kādus laukus no rēķina rindām lietotājs vēlēsies redzēt mobilo pieredzi, un kādā secībā?</td>
+<td>Kurus rēķina rindu laikus un kādā secībā lietotājs vēlēsies redzēt mobilajā risinājumā?</td>
 <td><ol>
 <li>Sagādes kategorija</li>
 <li>Daudzums</li>
@@ -98,85 +101,85 @@ Kā vispārēji norādījumi, strādājot ar mobilo dizainers, pārliecinieties,
 </ol></td>
 </tr>
 <tr class="odd">
-<td>Cik daudz rēķina rindās ir rēķins? 80-20 noteikums attiecas, un optimizēt par 80 procentiem.</td>
+<td>Cik rēķina rindu ir rēķinā? Lietojiet 80/20 nosacījumu un optimizējiet atbilstoši 80 procentiem.</td>
 <td>1.</td>
 </tr>
 <tr class="even">
-<td>Lietotāji vēlēsies redzēt uzskaites sadali (rēķina kodēšana) mobilajā ierīcē laikā atsauksmes</td>
+<td>Vai lietotāji vēlas pārskatīšanas laikā mobilajā ierīcē redzēt uzskaites sadales (rēķina kodu).</td>
 <td>Jā</td>
 </tr>
 <tr class="odd">
-<td>Cik daudz uzskaites sadali (paplašinātā cena, PVN, maksa utt.) pastāv rēķina rindai? Atkal, piemēro 80-20 noteikums.</td>
-<td>Paplašinātā cena: 2 PVN: 0 izdevumi: 0</td>
+<td>Cik uzskaites sadales elementu (pilna cena, PVN, izmaksas utt.) ir vienā rēķina rindā? Atkal lietojiet 80/20 nosacījumu.</td>
+<td>Pilna cena: 2, PVN: 0, izmaksas: 0</td>
 </tr>
 <tr class="even">
-<td>Vai rēķinos ir arī uzskaites sadales rēķina virsrakstā? Tādā gadījumā šīs uzskaites sadali būtu pieejamas ierīcē?</td>
+<td>Vai rēķina galvenē arī ir uzskaites sadales? Jā tā ir, vai šīm uzskaites sadalēm ir jābūt pieejamām ierīcē?</td>
 <td>Netiek lietots</td>
 </tr>
 <tr class="odd">
-<td>Lietotāji vēlēsies redzēt pielikumus rēķina ierīcē</td>
+<td>Vai lietotāji vēlēsies ierīcē redzēt rēķina pielikumus?</td>
 <td>Jā</td>
 </tr>
 </tbody>
 </table>
 
-### <a name="create-the-workspace"></a>Izveidot darbvietu
+### <a name="create-the-workspace"></a>Darbvietas izveide
 
-1.  Pārlūkprogrammā, atveriet Dynamics 365 operācijām un pieteikties.
-2.  Pēc tam, kad esat pieteicies, pievienot **& režīmā = mobilo** kā redzams, šādu piemēru, un atsvaidzināt lapu URL: https://&lt;yoururl&gt;/? cmp = usmf & mi = DefaultDashboard**& režīmā = mobilo**
-3.  Noklikšķiniet uz **iestatījumus** (rīku) pogu augšējā labajā stūrī lapā, un pēc tam noklikšķiniet uz **mobilo app**. Mobilo app dizainers ir parādās tikai kā uzdevumu ieraksti rāda uz augšu.
-4.  Noklikšķiniet uz **pievienot**, lai izveidotu jaunu darbvietu. Šajā piemērā vārds darbvietu **manu apstiprinājumu**.
+1.  Pārlūkprogrammā atveriet programmatūru Dynamics 365 for Operations un pierakstieties.
+2.  Pēc pierakstīšanās pievienojiet URL tekstu **&mode=mobile**, kā tas ir redzams šajā piemērā, un atsvaidziniet lapu: https://&lt;jūsuurl&gt;/?cmp=usmf&mi=DefaultDashboard**&mode=mobile**.
+3.  Noklikšķiniet uz pogas **Iestatījumi** (zobrats) lapas augšējā labajā stūrī un pēc tam noklikšķiniet uz **Mobilā programma**. Tiek parādīts mobilo programmu veidotājs, tāpat kā tiek parādīts uzdevuma reģistrētājs.
+4.  Noklikšķiniet uz **Pievienot**, lai izveidotu jaunu darbvietu. Šī piemēra ietvaros piešķiriet darbvietai nosaukumu **Mani apstiprinājumi**.
 5.  Ievadiet aprakstu.
-6.  Atlasiet krāsu telpas. Krāsu telpas tiks izmantots stils kopumā mobilo pieredzi šai darbvietai.
-7.  Atlasīt darbvietas ikona.
-8.  Noklikšķiniet uz **darīts**
-9.  Noklikšķiniet uz **publicēt darbvietu** saglabāt veiktās izmaiņas
+6.  Atlasiet darbvietas krāsu. Darbvietas krāsa tiek izmantota šīs darbvietas mobilā risinājuma vispārējā stila izveidei.
+7.  Atlasiet darbvietas ikonu.
+8.  Noklikšķiniet uz **Gatavs**
+9.  Noklikšķiniet uz **Publicēt darbvietu**, lai saglabātu izmaiņas.
 
 ### <a name="vendor-invoices-assigned-to-me"></a>Kreditora rēķini, kas piešķirti man
 
-Rēķinu sarakstu, kas ir piešķirti lietotājam pārskatīšanai ir pirmā mobilā lapa, kas jums jāizstrādā. Noformēt šo mobilo lapā, lietojiet **VendMobileInvoiceAssignedToMeListPage** lapu Dynamics 365 operācijām. Pirms šī procedūra būs paveikta, pārliecinieties, ka ir vismaz viena kreditora rēķina tiek piešķirts jums pārskatīšanai, un rēķina rinda ir divi sadalēm. Šis iestatījums atbilst šim scenārijam.
+Pirmā mobilā lapa, kas ir jāizstrādā, ir lietotājam pārskatīšanai piešķirto rēķinu saraksts. Lai izstrādātu šo mobilo lapu, izmantojiet Dynamics 365 for Operations lapu **VendMobileInvoiceAssignedToMeListPage**. Pirms šīs procedūras pabeigšanas pārliecinieties, ka jums pārskatīšanai ir piešķirts vismaz viens kreditora rēķins un ka rēķina rindā ir divi sadales elementi. Šie iestatījumi atbilst šī scenārija prasībām.
 
-1.  Darbības URL Dynamics 365, aizstāt ar izvēlnes elementa nosaukums **VendMobileInvoiceAssignedToMeListPage** atvērt mobilā versija **izskata kreditoru rēķinus piešķirts man** saraksta lapu **kreditoru parādi** modulis. Atkarībā no jūsu sistēmas piešķirto jums rēķinu skaits, šī lapa parādīs šos rēķinus. Lai atrastu norādīto rēķinu, var izmantot filtru kreisajā pusē. Tomēr mums neprasa īpašu rēķins šim piemēram. Mēs pieprasām tikai daži rēķina piešķirts jums, kas notiek, lai jūs varētu dizains mobilo lapā. Jaunas lapas, kas ir pieejami ir paredzēti īpaši attīstīt mobilo scenārijus attiecībā uz piegādātāja rēķina. Tāpēc ir jālieto šajās lapās. URL vajadzētu līdzināties šādu URL un pēc tam, kad to ievadāt, lapa, kas ir redzams attēlā jānorāda: https://&lt;yourURL&gt;/? cmp = usmf & mi =**VendMobileInvoiceAssignedToMeListPage**& režīmā = mobilo [![izskata kreditoru rēķinus piešķirts man lapa](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
-2.  Noklikšķiniet uz **iestatījumus** (rīku) pogu augšējā labajā stūrī lapā, un pēc tam noklikšķiniet uz **Mobile app**
-3.  Atlasīt darbvietas un noklikšķiniet **rediģēt**
-4.  Noklikšķiniet uz **pievienot lapu** pirmo mobilo lapas izveidei.
-5.  Ievadiet nosaukumu, piemēram, **manu kreditora rēķiniem**, un aprakstu, piemēram, **kreditoru rēķinus piešķirts man pārskatīšanai**.
-6.  Click **Done**.
-7.  Mobilo sakaru rīkā par **lauki** cilni, noklikšķiniet uz **atlasiet laukus,**. Kolonnu saraksta lapā nedrīkst līdzināties attēlā. [![Kolonnās pa gaida kreditoru rēķinus piešķirts man lapu](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
-8.  Pievienojiet nepieciešamās kolonnas no saraksta lappuses, kas ir jāparāda lietotājiem mobilo lapā. Kurā jāpievieno secība ir secība, kādā lauki parādās gala lietotājam. Vienīgais veids, kā mainīt lauku secību, būs atkārtoti izvēloties visus laukus. Balstoties uz šāda scenārija prasībām, šādos astoņos laukos nepieciešami. Tomēr daži lietotāji varētu apsvērt astoņos laukos pārāk daudz informācijas ir par mobilo ierīci. Tāpēc mēs parādīsim tikai vissvarīgākie lauki mobilā saraksta skatā. Skats detaļas mēs izstrādās vēlāk parādīsies atlikušajos laukos. Tagad mēs pievienot šādus laukus. Noklikšķiniet uz plusa zīmes (**+**) šajās ailēs, lai pievienotu mobilo lapā.
+1.  Dynamics 365 for Operations URL tekstā aizstājiet izvēlnes elementa nosaukumu ar **VendMobileInvoiceAssignedToMeListPage**, lai atvērtu moduļa **Parādi kreditoriem** lapas **Gaidošie kreditoru rēķini, kas piešķirti man** mobilo versiju. Atkarībā no tā, cik rēķinu jums ir piešķirts sistēmā, šajā lapā tiek rādīti šie rēķini. Lai atrastu konkrētu rēķinu, varat izmantot kreisajā pusē esošo filtru. Taču šī piemēra ietvaros nav nepieciešams konkrēts rēķins. Ir nepieciešams jebkurš jums piešķirts rēķins, ko var izmantot mobilās lapas izstrādei. Jaunās pieejamās lapas ir īpaši izstrādātas kreditoru rēķinu mobilo scenāriju izstrādei. Tāpēc ir jāizmanto šīs lapas. URL ir jālīdzinās šim URL, un pēc tā ievades ir jātiek atvērtai attēlā redzamajai lapai: https://&lt;jūsuURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile [![Lapa Gaidošie kreditoru rēķini, kas piešķirti man](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+2.  Noklikšķiniet uz pogas **Iestatījumi** (zobrats) lapas augšējā labajā stūrī un pēc tam noklikšķiniet uz **Mobilā programma**.
+3.  Atlasiet savu darbvietu un noklikšķiniet uz **Rediģēt**.
+4.  Noklikšķiniet uz **Pievienot lapu**, lai izveidotu pirmo mobilo lapu.
+5.  Ievadiet nosaukumu, piemēram, **Mani kreditoru rēķini**, un aprakstu, piemēram, **Man pārskatīšanai piešķirtie kreditoru rēķini**.
+6.  Noklikšķiniet uz **Gatavs**.
+7.  Mobilo programmu veidotāja cilnē **Lauki** noklikšķiniet uz **Atlasīt laukus**. Saraksta lapā redzamajām kolonnām ir jālīdzinās tālāk esošajam attēlam. [![Kolonnas lapā Gaidošie kreditoru rēķini, kas piešķirti man](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
+8.  Pievienojiet tās kolonnas no saraksta lapas, kuras ir jārāda lietotājiem mobilajā lapā. Pievienošanas secība atbilst secībai, kādā laiki tiek rādīti lietotājam. Vienīgais veids, kā mainīt laiku secību, ir atkārtoti atlasīt visus laukus. Pamatojoties uz šī scenārija prasībām, ir nepieciešami astoņi tālāk norādītie lauki. Taču dažiem lietotājiem var šķist, ka astoņi lauki ir pārāk daudz informācijas, ko skatīt mobilajā ierīcē. Tāpēc mobilās lapas saraksta skatā tiks rādīti tika svarīgākie lauki. Pārējie laiki tiks rādīti detalizētās informācijas skatā, kas tiks izstrādāts vēlāk. Pagaidām tiks pievienoti tālāk norādītie lauki. Noklikšķiniet uz pluszīmes (**+**) šajās kolonnās, lai pievienoto mobilajai lapai.
     1.  Kreditora nosaukums
     2.  Rēķina kopsumma
     3.  Rēķina konts
     4.  Rēķina numurs
     5.  Rēķina datums
 
-    Pēc lauku pievienošanas mobilo lapā nedrīkst līdzināties attēlā. [![Pēc lauku pievienošanas lapā](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
-9.  Jums jāpievieno arī šādas kolonnas tagad, tāpēc, ka mēs vēlāk var iespējot darbplūsmas darbības.
-    1.  Parāda uzdevuma izpildei
-    2.  Deleģēt uzdevumu parādīt
-    3.  Parāda uzdevuma atsaukšana
-    4.  Rādīt noraidītu uzdevuma
-    5.  Parādīt uzdevumu pieprasījumu Pabeigšana
-    6.  Parādīt uzdevumu atkārtoti
+    Pēc laiku pievienošanas mobilajai lapai ir jālīdzinās tālāk esošajam attēlam. [![Lapa pēc lauku pievienošanas](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+9.  Tagad ir jāpievieno arī tālāk norādītās kolonnas, lai vēlāk varētu iespējot darbplūsmas darbības.
+    1.  Rādīt pabeigšanas uzdevumu
+    2.  Rādīt deleģēšanas uzdevumu
+    3.  Rādīt atsaukšanas uzdevumu
+    4.  Rādīt noraidīšanas uzdevumu
+    5.  Rādīt pabeigšanas pieprasījuma uzdevumu
+    6.  Rādīt atkārtotas iesniegšanas uzdevumu
 
-10. Noklikšķiniet uz **darīts** iziet no rediģēšanas režīma.
-11. Noklikšķiniet uz **atkal** un tad **darīts,**, lai aizvērtu darbvietu
-12. Noklikšķiniet uz **publicēt darbvietu** saglabāt savu darbu.
-13. Iespējot **parādiet rēķinu par kopējo izskata kreditoru rēķinu sarakstu** kontus kreditoru parametrus formā zem **rēķina**. Ņemiet vērā, ka tikai šis parametrs, ļaujot rēķina kopsummas tiks aprēķināts jārāda lapā gaida kreditoru rēķinu sarakstu. Šis ir jaunu iespēju, kas ir daļa no iepriekš nepieciešamo karstā noteikt 3208224.
+10. Noklikšķiniet uz **Gatavs**, lai izslēgtu rediģēšanas režīmu.
+11. Noklikšķiniet uz **Atpakaļ** un pēc tam uz **Gatavs**, lai aizvērtu darbvietu.
+12. Noklikšķiniet uz **Publicēt darbvietu**, lai saglabātu darbu.
+13. Parādu kreditoriem parametru veidlapas sadaļā **Rēķins** iespējojiet opiju **Rādīt rēķina kopsummu gaidošo kreditoru rēķinu sarakstā**. Ņemiet vērā, ka rēķinu kopsummas tiek aprēķinātas un rādītas gaidošo kreditoru rēķinu saraksta lapā tikai tad, ja ir iespējots šis parametrs. Tā ir jauna iespēja, kas ir ietverta priekšnoteikuma labojumfailā KB 3208224.
 
-### <a name="vendor-invoice-details"></a>Kreditora rēķina detaļas
+### <a name="vendor-invoice-details"></a>Kreditora rēķina detalizēta informācija
 
-Lai noformētu rēķina informācijas lapā Mobile, izmantojiet **VendMobileInvoiceHeaderDetails** lapu Dynamics 365 operācijām. Piezīme Atkarībā no tā, cik rēķini, ka jums ir jūsu sistēmā, šī lapa rāda vecākajām rēķina (pavadzīme, kas tika izveidots pirmais). Lai atrastu norādīto rēķinu, var izmantot filtru kreisajā pusē. Tomēr mums neprasa īpašu rēķins šim piemēram. Mēs tikai nepieciešama rēķinu datus tā, ka mēs varam dizains mobilo lapā. [![Lapā Darbplūsmas](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
+Lai izstrādātu rēķina detalizētas informācijas lapu mobilajām ierīcēm, izmantojiet Dynamics 365 for Operations lapu **VendMobileInvoiceHeaderDetails**. Ņemiet vērā, ka atkarībā no rēķinu skaita jūsu sistēmā šajā lapā tiek rādīti vecākie rēķini (rēķini, kas tika izveidoti pirmie). Lai atrastu konkrētu rēķinu, varat izmantot kreisajā pusē esošo filtru. Taču šī piemēra ietvaros nav nepieciešams konkrēts rēķins. Ir nepieciešami dažu rēķinu dati, lai varētu izstrādāt mobilo lapu. [![Lapa Darbplūsma](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
-1.  Darbības URL Dynamics 365, aizstāt ar izvēlnes elementa nosaukums **VendMobileInvoiceHeaderDetails**, lai atvērtu formu
-2.  Atveriet mobilā dizainers no **iestatījumus** (rīku) pogu.
-3.  Noklikšķiniet uz **rediģēt** pogu, lai sāktu rediģēšanas režīmā darbvietā.
-4.  Izvēlieties * * mans kreditoru rēķinus * *, kuru izveidojāt iepriekšējās lappuses un pēc tam noklikšķiniet uz **rediģēt**.
-5.  Par **lauki** cilni, noklikšķiniet uz **Grid** kolonnas virsraksta.
-6.  Noklikšķiniet uz **Properties**&gt;**pievienot lapu**. **Piezīme:** noklikšķinot uz **Grid** pozīcijā un pievienot lapu, attiecības ar detaļu lappuse tiek izveidots automātiski.
-7.  Ievadiet lapas nosaukumu, piemēram, **rēķina detaļas**, un aprakstu, piemēram, **skatiet rēķina virsrakstu un rindas detaļu**.
-8.  Noklikšķiniet uz **atlasiet laukus,**. Ievērojiet, ka jūs pievienot secība ir secība, kādā lauki parādās gala lietotājam. Vienīgais veids, kā mainīt lauku secību, būs atkārtoti izvēloties visus laukus.
-9.  No virsraksta, balstoties uz šāda scenārija prasībām pievienot šādus laukus:
+1.  Dynamics 365 for Operations URL tekstā aizstājiet izvēlnes elementa nosaukumu ar **VendMobileInvoiceHeaderDetails**, lai atvērtu veidlapu.
+2.  Atveriet mobilo programmu veidotāju, izmantojot pogu **Iestatījumi** (zobrats).
+3.  Noklikšķiniet uz pogas **Rediģēt**, lai darbvietā ieslēgtu rediģēšanas režīmu.
+4.  Atlasiet lapu **Mani kreditoru rēķini**, ko iepriekš izveidojāt, un pēc tam noklikšķiniet uz **Rediģēt**.
+5.  Cilnē **Lauki** noklikšķiniet uz kolonnas galvenes **Režģis**.
+6.  Noklikšķiniet uz **Rekvizīti** &gt; **Pievienot lapu**. **Piezīme.** Kad noklikšķināt uz galvenes **Režģis** un pievienojat lapu, tiek automātiski izveidotas attiecības ar detalizētas informācijas lapu.
+7.  Ievadiet lapas nosaukumu, piemēram, **Rēķina detalizēta informācija**, un aprakstu, piemēram, **Skatīt rēķina galvenes un rindu detalizētu informāciju**.
+8.  Noklikšķiniet uz **Atlasīt laukus**. Ņemiet vērā, ka pievienošanas secība atbilst secībai, kādā laiki tiek rādīti lietotājam. Vienīgais veids, kā mainīt laiku secību, ir atkārtoti atlasīt visus laukus.
+9.  Pievienojiet tālāk norādītos laukus no galvenes, pamatojoties uz šī scenārija prasībām.
     1.  Kreditora nosaukums
     2.  Rēķina kopsumma
     3.  Rēķina konts
@@ -186,41 +189,41 @@ Lai noformētu rēķina informācijas lapā Mobile, izmantojiet **VendMobileInvo
     7.  Izpildes termiņš
     8.  Rēķina valūta
 
-10. No režģa līnijām, lappusē pievienot šādus laukus:
+10. Pievienojiet tālāk norādītos laukus no lapas rindu režģa.
     1.  Sagādes kategorija
     2.  Daudzums
     3.  Vienības cena
     4.  Rindas neto summa
     5.  1099. summa
 
-11. Kad ir pievienoti visi lauki no iepriekšējos divus soļus, noklikšķiniet uz **darīts**. Lapa ir līdzināties attēlā. [![Pēc lauku pievienošanas lapā](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
-12. Noklikšķiniet uz **darīts** iziet no rediģēšanas režīma.
-13. Noklikšķiniet uz **atkal** un tad **darīts,**, lai aizvērtu darbvietu
-14. Noklikšķiniet uz **publicēt darbvietu** saglabāt savu darbu
+11. Kad ir pievienoti visi divu iepriekšējo darbību aprakstā norādītie lauki, noklikšķiniet uz **Gatavs**. Lapai ir jālīdzinās tālāk esošajam attēlam. [![Lapa pēc lauku pievienošanas](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+12. Noklikšķiniet uz **Gatavs**, lai izslēgtu rediģēšanas režīmu.
+13. Noklikšķiniet uz **Atpakaļ** un pēc tam uz **Gatavs**, lai aizvērtu darbvietu.
+14. Noklikšķiniet uz **Publicēt darbvietu**, lai saglabātu darbu.
 
 ### <a name="workflow-actions"></a>Darbplūsmas darbības
 
-Lai pievienotu darbplūsmas darbības, lietojiet **VendMobileInvoiceHeaderDetails** lapu Dynamics 365 operācijām. Atvērt šo lapu, aizstāt izvēlnes elementa vietrādi URL nosaukums, kā to darījāt agrāk. Pēc tam atveriet mobilā dizainers no **iestatījumus** (rīku) pogu. Izpildiet šīs darbības, lai pievienotu darbplūsmu darbības informācijas lapā.
+Lai pievienotu darbplūsmas darbības, izmantojiet Dynamics 365 for Operations lapu **VendMobileInvoiceHeaderDetails**. Lai atvērtu šo lapu, aizstājiet izvēlnes elementa nosaukumu URL tekstā, kā to darījāt iepriekš. Pēc tam tveriet mobilo programmu veidotāju, izmantojot pogu **Iestatījumi** (zobrats). Izpildiet tālāk norādītās darbības, lai pievienotu darbplūsmas darbības detalizētas informācijas lapā.
 
-1.  Noklikšķiniet uz **rediģēt** pogu, lai sāktu rediģēšanas režīmā darbvietā.
-2.  Atlasiet **rēķina detaļas**, kuru izveidojāt iepriekšējās lappuses un pēc tam noklikšķiniet uz **rediģēt**.
-3.  Par **darbības** cilni, noklikšķiniet uz **pievienot darbību**.
-4.  Ievadiet darbības nosaukumu, piemēram, **apstiprināt**, un aprakstu, piemēram, **apstiprināt rēķina**. Ievērojiet, ka darbības nosaukums, kuru ievadāt šeit kļūst darbības nosaukumu, kas tiek rādīta lietotājam mobilo app.
-5.  Click **Done**.
-6.  Noklikšķiniet uz **atlasiet laukus,**.
-7.  Iet caur darbplūsmas procesa **VendMobileInvoiceHeaderDetails** lapu un pabeigtu darbību, ko vēlaties ierakstīt. Pārliecinieties, vai ierakstāt darbplūsmas komentārus šajā procesā tā, lai komentāri jomā ir iekļauta arī mobilo pieredzi.
-8.  Pēc tam, kad palaist darbplūsmas darbību, noklikšķiniet uz **darīts** izvēlieties laukus uzdevuma pabeigšanai.
-9.  Noklikšķiniet uz **darīts** iziet no rediģēšanas režīma.
-10. Noklikšķiniet uz **atkal** un tad **darīts,**, lai aizvērtu darbvietu
-11. Noklikšķiniet uz **publicēt darbvietu** saglabāt savu darbu
-12. Atkārtojiet soļus no 3. līdz 11 reģistrēt visas nepieciešamās darbplūsmas darbības. Ņemiet vērā, ka tas ir prasība, lai būtu jums piešķirti rēķiniem, kas tādā stāvoklī, lai darbplūsmas darbības pieejams jums, ka esat gatavojas izstrādāt.
-13. Atveriet Notepad vai Microsoft Visual Studio un ielīmējiet šo kodu. Saglabājiet failu kā. js failu. Šis kods dara divas lietas:
-    1.  Tas slēpj pievienojām iepriekšējās mobilā saraksta lapā papildu darbplūsmas saistīto kolonnu. Mēs pievienojām šīs kolonnas tā, ka app ir šāda informācija kontekstā un var darīt nākamo soli.
-    2.  Pamatojoties uz darbplūsmas solis, kas ir aktīva, tas attiecas loģika, lai parādītu tikai tās darbības.
+1.  Noklikšķiniet uz pogas **Rediģēt**, lai darbvietā ieslēgtu rediģēšanas režīmu.
+2.  Atlasiet lapu **Rēķina detalizēta informācija**, ko iepriekš izveidojāt, un pēc tam noklikšķiniet uz **Rediģēt**.
+3.  Cilnē **Darbības** noklikšķiniet uz **Pievienot darbību**.
+4.  Ievadiet darbības nosaukumu, piemēram, **Apstiprināt**, un aprakstu, piemēram, **Apstiprināt rēķinu**. Ņemiet vērā, ka šeit ievadītais darbības nosaukums kļūst par darbības nosaukumu, kas tiek rādīts lietotājam mobilajā programmā.
+5.  Noklikšķiniet uz **Gatavs**.
+6.  Noklikšķiniet uz **Atlasīt laukus**.
+7.  Pārskatiet darbplūsmas procesu lapā **VendMobileInvoiceHeaderDetails** un veiciet darbību, ko vēlaties ierakstīt. Šī procesa laikā noteikti ievadiet darbplūsmas komentārus, lai mobilajā risinājumā tiktu ietverts arī komentāru lauks.
+8.  Pēc darbplūsmas darbības veikšanas noklikšķiniet uz **Gatavs**, lai pabeigtu darbību Atlasīt laukus.
+9.  Noklikšķiniet uz **Gatavs**, lai izslēgtu rediģēšanas režīmu.
+10. Noklikšķiniet uz **Atpakaļ** un pēc tam uz **Gatavs**, lai aizvērtu darbvietu.
+11. Noklikšķiniet uz **Publicēt darbvietu**, lai saglabātu darbu.
+12. Atkārtojiet 3.-11. darbību, lai ierakstītu visas nepieciešamās darbplūsmas darbības. Ņemiet vērā, ka, lai jums būtu pieejamas darbplūsmas darbības, kuras vēlaties izstrādāt, jums ir jābūt piešķirtiem rēķiniem ar konkrētu stāvokli, kas sniedz iespēju veikt šīs darbības.
+13. Atveriet programmu Piezīmjbloks vai Microsoft Visual Studio un ielīmējiet tālāk norādīto kodu. Saglabājiet failu .js formātā. Šis kods nodrošina divas darbības.
+    1.  Tas paslēpj ar darbplūsmu saistītās papildu kolonnas, kas iepriekš tika pievienotas mobilajā saraksta lapā. Šīs kolonnas tika pievienotas, lai programmā būtu pieejama šī informācija kontekstā un varētu veikt nākamo darbību.
+    2.  Pamatojoties uz aktīvajiem darbplūsmas soļiem, tiek lietota loģika, lai rādītu tikai šīs darbības.
 
-Ņemiet vērā, ka lapas nosaukumu un citas vadīklas JS kods jābūt tādai pašai no darbvietas.
+Ņemiet vērā, ka lapas nosaukumam un citām vadīklām JS kodā ir jābūt vienādām ar šiem elementiem darbvietā.
 
-1.  Galvenā funkcija (metadataService, dataService, cacheService, $q) {atgriezties {appInit: funkcija (appMetadata) {/ / paslēpt vadīklas, kas ir klāt, bet nav redzams metadataService.configureControl ('My-kreditoram-rēķini, 'ShowAccept', {paslēptas: patiess}); metadataService.configureControl ('My-kreditoram-rēķini, 'ShowApprove', {paslēptas: patiess}); metadataService.configureControl ('My-kreditoram-rēķini, 'ShowReject', {paslēptas: patiess}); metadataService.configureControl ('My-kreditoram-rēķini, 'ShowDelegate', {paslēptas: patieso}); metadataService.configureControl ('My-kreditoram-rēķini, 'ShowRequestChange', {paslēptas: patieso}); metadataService.configureControl ('My-kreditoram-rēķini, 'ShowRecall', {paslēptas: patieso}); metadataService.configureControl ('My-kreditoram-rēķini, 'ShowComplete', {paslēptas: patieso}); metadataService.configureControl ('My-kreditoram-rēķinus, 'ShowResubmit' { slēptās: true}); }, pageInit: funkcija (pageMetadata, parametri) {ja (pageMetadata.Name = = 'Rēķina detaļas') {/ / Rādīt/paslēpt darbplūsmas darbības, pamatojoties uz darbplūsmas solis metadataService.configureAction ("Akceptēt", {redzams: taisnība}); metadataService.configureAction ('Apstiprināt', {redzams: patiess}); metadataService.configureAction ('Noraidīt', {redzams: patiess}); metadataService.configureAction ("Deleģēt", {redzams: patieso}); metadataService.configureAction (' pieprasījuma izmaiņas ', {redzams: patieso}); metadataService.configureAction ("Atsaukšana" {redzams: patieso}); metadataService.configureAction ('Complete', {redzams: patieso}); metadataService.configureAction ('Iesniedziet' {redzams: patieso});
+1.  function main(metadataService, dataService, cacheService, $q) {        return {            appInit: function (appMetadata) {                // Paslēpt nepieciešamās vadīklas, kurām nav jābūt redzamām                metadataService.configureControl('My-vendor-invoices', 'ShowAccept', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowApprove', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowReject', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowDelegate', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowRequestChange', { hidden: true });              metadataService.configureControl('My-vendor-invoices', 'ShowRecall', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowComplete', { hidden: true });            metadataService.configureControl('My-vendor-invoices', 'ShowResubmit', { hidden: true });            },            pageInit: function (pageMetadata, params) {     if (pageMetadata.Name == 'Invoice-details') {                    // Rādīt/paslēpt darbplūsmas darbības, pamatojoties uz darbplūsmas soli                    metadataService.configureAction('Accept', { visible: true });                    metadataService.configureAction('Approve', { visible: true });                    metadataService.configureAction('Reject', { visible: true });                    metadataService.configureAction('Delegate', { visible: true });                    metadataService.configureAction('Request-change', { visible: true });                    metadataService.configureAction('Recall', { visible: true });                    metadataService.configureAction('Complete', { visible: true });                    metadataService.configureAction('Resubmit', { visible: true });
 
                        var entityContextParts = params.pageContext.split(':');
                        var data = dataService.getEntityData(entityContextParts[0], entityContextParts[1]);
@@ -256,56 +259,56 @@ Lai pievienotu darbplūsmas darbības, lietojiet **VendMobileInvoiceHeaderDetail
            };
         }
 
-2.  Augšupielādēt failu kods šai darbvietai, izvēloties **Logic** tab
-3.  Noklikšķiniet uz **darīts** iziet no rediģēšanas režīma.
-4.  Noklikšķiniet uz **atkal** un tad **darīts,**, lai aizvērtu darbvietu
-5.  Noklikšķiniet uz **publicēt darbvietu** saglabāt savu darbu
+2.  Augšupielādējiet koda failu darbvietā, atlasot cilni **Loģika**.
+3.  Noklikšķiniet uz **Gatavs**, lai izslēgtu rediģēšanas režīmu.
+4.  Noklikšķiniet uz **Atpakaļ** un pēc tam uz **Gatavs**, lai aizvērtu darbvietu.
+5.  Noklikšķiniet uz **Publicēt darbvietu**, lai saglabātu darbu.
 
-### <a name="vendor-invoice-attachments"></a>Kreditora rēķina pielikumus
+### <a name="vendor-invoice-attachments"></a>Kreditoru rēķinu pielikumi
 
-1.  Noklikšķiniet uz **iestatījumus** (rīku) pogu augšējā labajā stūrī lapā, un pēc tam noklikšķiniet uz **Mobile app**
-2.  Noklikšķiniet uz **rediģēt** pogu, lai sāktu rediģēšanas režīmā darbvietā.
-3.  Izvēlieties * * rēķinu informāciju * *, kuru izveidojāt iepriekšējās lappuses un pēc tam noklikšķiniet uz **rediģēt**.
-4.  Iestatiet **dokumentu pārvaldība** iespēju **Jā** kā parādīts zemāk. **Piezīme:**, ja nav nekādas prasības, lai pierādītu pielikumiem mobilajā ierīcē, varat atstāt šo opciju iestatītu uz **Nr**, kas ir noklusējuma iestatījums.
+1.  Noklikšķiniet uz pogas **Iestatījumi** (zobrats) lapas augšējā labajā stūrī un pēc tam noklikšķiniet uz **Mobilā programma**.
+2.  Noklikšķiniet uz pogas **Rediģēt**, lai darbvietā ieslēgtu rediģēšanas režīmu.
+3.  Atlasiet lapu **Rēķina detalizēta informācija**, ko iepriekš izveidojāt, un pēc tam noklikšķiniet uz **Rediģēt**.
+4.  Iestatiet opcijas **Dokumentu vadība** vērtību **Ja**, kā tas ir redzams tālāk. **Piezīme.** Ja nav nepieciešams rādīt pielikumus mobilajā ierīcē, varat atstāt šīs opcijas vērtību **Nē**, kas ir noklusējuma iestatījums.
 5.  [![docmanagement](./media/docmanagement-216x300.png)](./media/docmanagement.png)
-6.  Noklikšķiniet uz **darīts** iziet no rediģēšanas režīma.
-7.  Noklikšķiniet uz **atkal** un tad **darīts,**, lai aizvērtu darbvietu
-8.  Noklikšķiniet uz **publicēt darbvietu** saglabāt savu darbu
+6.  Noklikšķiniet uz **Gatavs**, lai izslēgtu rediģēšanas režīmu.
+7.  Noklikšķiniet uz **Atpakaļ** un pēc tam uz **Gatavs**, lai aizvērtu darbvietu.
+8.  Noklikšķiniet uz **Publicēt darbvietu**, lai saglabātu darbu.
 
-### <a name="vendor-invoice-line-distributions"></a>Kreditora rēķina rindas sadalījumu
+### <a name="vendor-invoice-line-distributions"></a>Kreditora rēķina rindas sadales
 
-Šī scenārija prasībām apstiprina būs tikai rindas līmenī sadali un ka rēķina vienmēr ir tikai viena rinda. Šis scenārijs ir vienkāršs, tāpēc lietotāju pieredzi mobilajā ierīcē arī jābūt pavisam vienkārši, ka lietotājam nav urbt uz leju vairākos līmeņos, lai apskatītu sadalēm. Pārdevēja rēķinus sistēmā Dynamics 365 operācijām ietver iespēju rāda visus sadali no rēķina virsrakstā. Šī pieredze ir, mums ir nepieciešams mobilās scenārija. Tāpēc mēs izmantojam **VendMobileInvoiceAllDistributionTree** lapu izveidot šī mobilās scenārija daļa. 
+Saskaņā ar šī scenārija prasībām tiks lietotas tikai rindas līmeņa sadales un rēķinā vienmēr būs tikai viena rinda. Tā kā šis ir vienkāršs scenārijs, arī lietotāja iespējām mobilajā ierīcē ir jābūt pietiekami vienkāršām, sniedzot lietotājam iespēju skatīt sadales, nepiekļūstot vairākiem zemākiem līmeņiem. Programmatūrā Dynamics 365 for Operations ir pieejama kreditoru rēķinu opcija, kas sniedz iespēju rādīt visas rēķina galvenē ietvertās sadales. Šis risinājums ir jāizmanto mobilajā scenārijā. Tāpēc šīs mobilā scenārija daļās izstrādei ir jāizmanto lapa **VendMobileInvoiceAllDistributionTree**. 
 
 > [!NOTE] 
-> Zinot prasības palīdz mums izlemt, kurš noteiktu lapu, izmantot un kā tieši, lai optimizētu lietotāja mobilajai pieredzei, kad mēs izstrādājam šo scenāriju. Otrajā scenārijā mēs izmantosim citu lapu parāda sadali, jo šis scenārijs prasības atšķiras.
+> Tas, ka ir zināmas prasības, palīdz scenārija izstrādes laikā izvēlēties konkrētu izmantojamo lapu un to, kā optimizēt mobilo risinājumu atbilstoši lietotāja vajadzībām. Otrā scenārija ietvaros sadales rādīšanai tiks izmantotas citas lapas, jo šī scenārija prasības atšķiras.
 
-1.  URL, kā jūs darījāt pirms aizstāt izvēlnes elementa nosaukums. Lappuse, kas parādās vajadzētu līdzināties attēlā. [![Visas sadales lapa](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
-2.  Atveriet mobilā dizainers no **iestatījumus** (rīku) pogu.
-3.  Noklikšķiniet uz **rediģēt** pogu, lai sāktu rediģēšanas režīmā darbvietā. **Piezīme:** jūs redzēsiet, ka automātiski tika izveidotas divas jaunas lapas. Sistēma veido šī sacerējuma lappusēs, jo jūs ieslēdzāt dokumentu pārvaldību iepriekšējā sadaļā. Jūs varat ignorēt šo jauno lapu.
-4.  Noklikšķiniet uz **pievienot lapu**.
-5.  Ievadiet lapas nosaukumu, piemēram, **View grāmatvedības**, un aprakstu, piemēram, **View grāmatvedības rēķinu**.
-6.  Click **Done**.
-7.  Par **lauki** cilni, noklikšķiniet uz **atlasiet laukus,**, atlasiet šādus laukus no sadalījumiem lapas un pēc tam noklikšķiniet uz **darīts**:
+1.  Aizstājiet izvēlnes elementa nosaukumu URL tekstā, kā to darījāt iepriekš. Parādītajai lapai ir jālīdzinās tālāk esošajam attēlam. [![Lapa Visas sadales](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+2.  Atveriet mobilo programmu veidotāju, izmantojot pogu **Iestatījumi** (zobrats).
+3.  Noklikšķiniet uz pogas **Rediģēt**, lai darbvietā ieslēgtu rediģēšanas režīmu. **Piezīme.** Ir automātiski izveidotas divas jaunas lapas. Sistēmā šīs lapas tiek izveidotas, jo, veicot iepriekšējā sadaļā aprakstītās darbības, jūs ieslēdzāt dokumentu vadību. Varat ignorēt šīs divas lapas.
+4.  Noklikšķiniet uz **Pievienot lapu**.
+5.  Ievadiet lapas nosaukumu, piemēram, **Skatīt uzskaiti**, un aprakstu, piemēram, **Skatīt rēķina uzskaiti**.
+6.  Noklikšķiniet uz **Gatavs**.
+7.  Cilnē **Lauki** noklikšķiniet uz **Atlasīt laukus**, sadales elementu lapā atlasiet tālāk norādītos laukus un pēc tam noklikšķiniet uz **Gatavs**:
     1.  Summa
     2.  Valūta
     3.  Virsgrāmatas konts
 
 > [!NOTE] 
-> Mēs neatlasījāt **aprakstu** kolonnu no sadalījumiem režģi, jo prasības šim scenārijam apstiprināja, ka paplašinātā cena ir tikai summu, kas būs sadales. Tāpēc lietotājam nebūs nepieciešama citu lauku, lai noteiktu atbilstoši summas tipam, kas paredzēta izplatīšanas. Tomēr, ja nākamais scenārijs, mēs **tiks** izmanto šo informāciju, jo šī scenārija prasībām norādīta cita summa ir sadalījumiem (piemēram, PVN).
-8.  Noklikšķiniet uz **darīts** iziet no rediģēšanas režīma.
-9.  Noklikšķiniet uz **atkal** un tad **darīts,**, lai aizvērtu darbvietu
-10. Noklikšķiniet uz **publicēt darbvietu** saglabāt savu darbu
+> Sadales režģī netika atlasīta kolonna **Apraksts**, jo saskaņā ar šī scenārija prasībām pilna cena ir vienīgā summa, kam ir sadale. Tāpēc lietotājam nebūs vajadzīgs cits lauks, lai norādīto summas veidu, uz ko attiecas sadale. Taču nākamā scenārija ietvaros šī informācija **tiks** izmantota, jo saskaņā ar tā scenārija prasībām sadales ir arī citiem summas veidiem (piemēram, PVN).
+8.  Noklikšķiniet uz **Gatavs**, lai izslēgtu rediģēšanas režīmu.
+9.  Noklikšķiniet uz **Atpakaļ** un pēc tam uz **Gatavs**, lai aizvērtu darbvietu.
+10. Noklikšķiniet uz **Publicēt darbvietu**, lai saglabātu darbu.
 
-**Piezīme:****View grāmatvedības** mobilo lapā šobrīd nav saistīts ar jebkuru mobilo lapas, kuras mēs līdz šim esam izstrādājuši. Jo lietotājam jāspēj orientēties uz **View grāmatvedības** lapa no **rēķina detaļas** lapu mobilajā ierīcē ir jāsniedz navigāciju no **rēķina detaļas** lapu, lai **View grāmatvedības** lapu. Mēs veidojam šo navigācija, izmantojot papildu loģiku, izmantojot JavaScript.
+**Piezīme.** Mobilā lapa **Skatīt uzskaiti** pašlaik nav saistīta ne ar vienu citu līdz šim izveidoto mobilo lapu. Tā kā lietotājam ir jāvar mobilajā ierīcē pāriet no lapas **Rēķina detalizēta informācija** uz lapu **Skatīt uzskaiti**, ir jānodrošina navigācija no lapas **Rēķina detalizēta informācija** uz lapu **Skatīt uzskaiti**. Šī navigācija tiek nodrošināta, izmantojot papildu loģiku valodā JavaScript.
 
-1.  Atveriet. js failu, ko izveidojāt iepriekš un pievienot rindas, kuras ir marķētas ar šādu kodu. Šis kods dara divas lietas:
-    1.  Tas palīdz garantēt, ka lietotāji nevar naviģēt tieši no darbvietu, lai **View grāmatvedības** lapā.
-    2.  To izveido navigācijas vadīklu no **rēķina detaļas** lapu, lai **View grāmatvedības** lapā.
+1.  Atveriet iepriekš izveidoto .js formāta failu un pievienojiet tālāk esošā koda iezīmētās rindas. Šis kods nodrošina divas darbības.
+    1.  Tas palīdz nodrošināt, ka lietotāji nevar tieši navigēt no darbvietas uz lapu **Skatīt uzskaiti**.
+    2.  Tas nodrošina navigācijas vadīklu navigācijai no lapas **Rēķina detalizēta informācija** uz lapu **Skatīt uzskaiti**.
 
 > [!NOTE] 
-> Lapas un citas vadīklas JS kodu nosaukumu jāsakrīt no darbvietas.
+> Lapas nosaukumam un citām vadīklām JS kodā ir jābūt vienādām ar šiem elementiem darbvietā.
 
-1.  Galvenā funkcija (metadataService, dataService, cacheService, $q) {atgriezties {appInit: funkcija (appMetadata) {/ / paslēpt vadīklas, kas ir klāt, bet nav redzams metadataService.configureControl ('My-kreditoram-rēķini, 'ShowAccept', {paslēptas: patiess}); metadataService.configureControl ('My-kreditoram-rēķini, 'ShowApprove', {paslēptas: patiess}); metadataService.configureControl ('My-kreditoram-rēķini, 'ShowReject', {paslēptas: patiess}); metadataService.configureControl ('My-kreditoram-rēķini, 'ShowDelegate', {paslēptas: patieso}); metadataService.configureControl ('My-kreditoram-rēķini, 'ShowRequestChange', {paslēptas: patieso}); metadataService.configureControl ('My-kreditoram-rēķini, 'ShowRecall', {paslēptas: patieso}); metadataService.configureControl ('My-kreditoram-rēķini, 'ShowComplete', {paslēptas: patieso}); metadataService.configureControl ('My-kreditoram-rēķinus, 'ShowResubmit' { slēptās: true}); Slēpt lapas nav piemērojams saknes navigācijas metadataService.hideNavigation('View-accounting'); Saiti, lai apskatītu grāmatvedības metadataService.addLink ("Rēķina-detaļas, ' Skatīt grāmatvedības ', ' Skatīt grāmatvedības nav kontrole", 'Skatīt grāmatvedības', true); }, pageInit: funkcija (pageMetadata, parametri) {ja (pageMetadata.Name = = 'Rēķina detaļas') {/ / Rādīt/paslēpt darbplūsmas darbības, pamatojoties uz darbplūsmas solis metadataService.configureAction ("Akceptēt", {redzams: taisnība}); metadataService.configureAction ('Apstiprināt', {redzams: patiess}); metadataService.configureAction ('Noraidīt', {redzams: patiess}); metadataService.configureAction ("Deleģēt", {redzams: patieso}); metadataService.configureAction (' pieprasījuma izmaiņas ', {redzams: patieso}); metadataService.configureAction ("Atsaukšana" {redzams: patieso}); metadataService.configureAction ('Complete', {redzams: patieso}); metadataService.configureAction ('Iesniedziet' {redzams: patieso});
+1.  function main(metadataService, dataService, cacheService, $q) {        return {            appInit: function (appMetadata) {                // Paslēpt nepieciešamās vadīklas, kurām nav jābūt redzamām                metadataService.configureControl('My-vendor-invoices', 'ShowAccept', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowApprove', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowReject', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowDelegate', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowRequestChange', { hidden: true });              metadataService.configureControl('My-vendor-invoices', 'ShowRecall', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowComplete', { hidden: true });            metadataService.configureControl('My-vendor-invoices', 'ShowResubmit', { hidden: true });                // Paslēpt lapas, kas neattiecas uz saknes navigāciju                metadataService.hideNavigation('View-accounting');                //Saite uz lapu Skatīt atskaiti                metadataService.addLink('Invoice-details', 'View-accounting', 'View-accounting-nav-control', 'View accounting', true);            },            pageInit: function (pageMetadata, params) {     if (pageMetadata.Name == 'Invoice-details') {                    // Rādīt/paslēpt darbplūsmas darbības, pamatojoties uz darbplūsmas soli                    metadataService.configureAction('Accept', { visible: true });                    metadataService.configureAction('Approve', { visible: true });                    metadataService.configureAction('Reject', { visible: true });                    metadataService.configureAction('Delegate', { visible: true });                    metadataService.configureAction('Request-change', { visible: true });                    metadataService.configureAction('Recall', { visible: true });                    metadataService.configureAction('Complete', { visible: true });                    metadataService.configureAction('Resubmit', { visible: true });
 
                        var entityContextParts = params.pageContext.split(':');
                        var data = dataService.getEntityData(entityContextParts[0], entityContextParts[1]);
@@ -341,24 +344,24 @@ Lai pievienotu darbplūsmas darbības, lietojiet **VendMobileInvoiceHeaderDetail
            };
         }
 
-2.  Augšupielādēt failu kods šai darbvietai, izvēloties **Logic** tab, lai pārrakstītu iepriekšējo kodu
-3.  Noklikšķiniet uz **darīts** iziet no rediģēšanas režīma.
-4.  Noklikšķiniet uz **atkal** un tad **darīts,**, lai aizvērtu darbvietu
-5.  Noklikšķiniet uz **publicēt darbvietu** saglabāt savu darbu
+2.  Augšupielādējiet koda failu darbvietā, atlasot cilni **Loģika**, lai pārrakstītu iepriekšējo kodu.
+3.  Noklikšķiniet uz **Gatavs**, lai izslēgtu rediģēšanas režīmu.
+4.  Noklikšķiniet uz **Atpakaļ** un pēc tam uz **Gatavs**, lai aizvērtu darbvietu.
+5.  Noklikšķiniet uz **Publicēt darbvietu**, lai saglabātu darbu.
 
 ### <a name="validation"></a>Validācija
 
-No mobilās ierīces, atvērt app, un savienot ar savu dinamiku 365 operācijas gadījumā. Pārliecinieties, ka piesakāties uzņēmumam kur kreditora rēķiniem jums tiek piešķirti par pārskata. Jums vajadzētu būt iespējai veikt šādas darbības:
+Mobilajā ierīcē atveriet programmu un izveidojiet savienojumu ar Dynamics 365 for Operations instanci. Pārliecinieties, ka pierakstāties uzņēmumā, kurā jums pārskatīšanai ir piešķirti kreditoru rēķini. Jums ir jāvar veikt tālāk norādītās darbības.
 
--   Sk **manu apstiprinājumu** darbvietu.
--   Detalizēt **manu apstiprinājumu** darbvietu un skatiet tēmu **manu kreditora rēķiniem** lapu.
--   Detalizēt **manu kreditora rēķiniem** lapu un apskatīt rēķinu sarakstu, kas jums tiek piešķirti.
--   Urbt vērā vienu rēķinu, un redzēt detalizētu rēķinu galvenes informāciju un rindas detaļu.
--   Lapā detaļu redzat saiti uz pielikumiem, un izmantojiet šo saiti, lai virzītos uz saraksta pielikumus un skatīt pielikumus.
--   Lapā detaļu redzat saiti uz **skatīt grāmatvedības** lapa un izmantojiet šo saiti, lai virzītos uz sadali lapu un apskatīt sadalēm.
--   Informācijas lapā, noklikšķiniet uz **darbības** izvēlnes apakšdaļā un veiktu darbplūsmas darbības, kas attiecas uz darbplūsmas soli.
+-   Skatīt darbvietu **Mani apstiprinājumi**.
+-   Detalizēti skatīt darbvietu **Mani apstiprinājumi** un skatīt lapu **Mani kreditoru rēķini**.
+-   Detalizēti skatīt lapu **Mani kreditoru rēķini** un skatīt jums piešķirto rēķinu sarakstu.
+-   Detalizēti skatīt vienu no rēķiniem un skatīt rēķina galvenes un rindu detalizētu informāciju.
+-   Detalizētas informācijas lapā redzēt pielikumu saiti un to izmantoto, lai navigētu uz pielikumu sarakstu un skatītu pielikumus.
+-   Detalizētas informācijas lapā redzēt saiti uz lapu **Skatīt uzskaiti** un izmantot šo saiti, lai navigētu uz sadales lapu un skatītu sadales.
+-   Detalizētas informācija lapas apakšdaļā noklikšķināt uz izvēlnes **Darbības** un veikt darbplūsmas darbības, kas attiecas uz konkrēto darbplūsmas soli.
 
-## <a name="designing-a-complex-invoice-approval-scenario-for-fabrikam"></a>Izstrādājot kompleksa rēķina apstiprināšanas scenārijs fabrikam
+## <a name="designing-a-complex-invoice-approval-scenario-for-fabrikam"></a>Sarežģīta rēķina apstiprināšanas scenārija izstāde uzņēmumam Fabrikam
 <table>
 <colgroup>
 <col width="50%" />
@@ -372,7 +375,7 @@ No mobilās ierīces, atvērt app, un savienot ar savu dinamiku 365 operācijas 
 </thead>
 <tbody>
 <tr class="odd">
-<td>Kādus laukus no rēķina virsrakstā lietotājs vēlēsies redzēt mobilo pieredzi, un kādā secībā?</td>
+<td>Kurus rēķina galvenes laukus un kādā secībā lietotājs vēlēsies redzēt mobilajā risinājumā?</td>
 <td><ol>
 <li>Kreditora nosaukums</li>
 <li>Rēķina summa</li>
@@ -385,7 +388,7 @@ No mobilās ierīces, atvērt app, un savienot ar savu dinamiku 365 operācijas 
 </ol></td>
 </tr>
 <tr class="even">
-<td>Kādus laukus no rēķina rindām lietotājs vēlēsies redzēt mobilo pieredzi, un kādā secībā?</td>
+<td>Kurus rēķina rindu laikus un kādā secībā lietotājs vēlēsies redzēt mobilajā risinājumā?</td>
 <td><ol>
 <li>Sagādes kategorija</li>
 <li>Daudzums</li>
@@ -395,40 +398,42 @@ No mobilās ierīces, atvērt app, un savienot ar savu dinamiku 365 operācijas 
 </ol></td>
 </tr>
 <tr class="odd">
-<td>Cik daudz rēķina rindās ir rēķins? 80-20 noteikums attiecas, un optimizēt par 80 procentiem.</td>
+<td>Cik rēķina rindu ir rēķinā? Lietojiet 80/20 nosacījumu un optimizējiet atbilstoši 80 procentiem.</td>
 <td>5.</td>
 </tr>
 <tr class="even">
-<td>Lietotāji vēlēsies redzēt uzskaites sadali (rēķina kodēšana) mobilajā ierīcē laikā atsauksmes</td>
+<td>Vai lietotāji vēlas pārskatīšanas laikā mobilajā ierīcē redzēt uzskaites sadales (rēķina kodu).</td>
 <td>Jā</td>
 </tr>
 <tr class="odd">
-<td>Cik daudz uzskaites sadali (paplašinātā cena, PVN, maksa utt.) pastāv rēķina rindai? Atkal, piemēro 80-20 noteikums.</td>
-<td>Paplašinātā cena: 2 PVN: 2 izmaksas: 2</td>
+<td>Cik uzskaites sadales elementu (pilna cena, PVN, izmaksas utt.) ir vienā rēķina rindā? Atkal lietojiet 80/20 nosacījumu.</td>
+<td>Pilna cena: 2, PVN: 2, izmaksas: 2</td>
 </tr>
 <tr class="even">
-<td>Vai rēķinos ir arī uzskaites sadales rēķina virsrakstā? Tādā gadījumā šīs uzskaites sadali būtu pieejamas ierīcē?</td>
+<td>Vai rēķina galvenē arī ir uzskaites sadales? Jā tā ir, vai šīm uzskaites sadalēm ir jābūt pieejamām ierīcē?</td>
 <td>Netiek lietots</td>
 </tr>
 <tr class="odd">
-<td>Lietotāji vēlēsies redzēt pielikumus rēķina ierīcē</td>
+<td>Vai lietotāji vēlēsies ierīcē redzēt rēķina pielikumus?</td>
 <td>Jā</td>
 </tr>
 </tbody>
 </table>
 
-### <a name="exercise"></a>Uzdevums
+### <a name="exercise"></a>Vingrinājums
 
-Sekojošiem variantiem var izdarīt scenāriju 1, balstoties uz prasībām 2. scenārijs. Izmantojiet šo sadaļu kā uzdevumā, ko var aizpildīt mācību nolūkos.
+Pamatojoties uz 2. scenārija prasībām, var izstrādāt tālāk norādītos 1. scenārija variantus. Izmantojiet šo scenāriju kā vingrinājumu, ko varat veikt mācību nolūko
 
-1.  Jo vairāk rēķina rindās ir paredzēts scenārijā 2, šādas izmaiņas konstrukcijā palīdzēs optimizēt lietotāja pieredzi mobilajā ierīcē:
-    1.  Nevis skatīšanās rēķina rindas (kā 1. scenārijs) informācijas lapā, lietotāji var izvēlēties, lai apskatītu rindas atsevišķā lapā mobile.
-    2.  Jo vairāk nekā viena rēķina rinda ir paredzēts šajā scenārijā, ja **VendMobileInvoiceAllDistributionTree** lapa tiek izmantota, lai izstrādātu sadalījumu lapā Mobile (kā 1. scenārijs), var rasties juceklis lietotājam savstarpēji saistīt rindu sadalījumu. Tādēļ izmanto **VendMobileInvoiceLineDistributionTree** lapu dizains sadali lapu.
-    3.  Ideālā gadījumā jāuzrāda rēķina rindu šādā kontekstā sadalēm. Tāpēc pārliecinieties, ka lietotājs var rakties, ierindā, lai aplūkotu sadali lapu. Lietot lapu saite iespējas izveidot drill-caur, tāpat _ kā jūs to darījāt galvenes un detaļas lapām 1 scenārijs.
+1.  Tā kā 2. scenārija ietvaros ir paredzēts apstrādāt vairāk rēķina rindu, tālāk norādītās izstrādes izmaiņas palīdzēs optimizēt lietotāja iespējas mobilajā ierīcē.
+    1.  Tā vieta, lai skatītu rēķina rindas detalizētas informācijas lapā (kā 1. scenārijā), lietotāji var izvelēties skatīt rindas atsevišķā mobilajā lapā.
+    2.  Tā kā šī scenārija ietvaros ir paredzēts apstrādāt vairākas rēķina rindas, ja mobilās sadales lapas izstrādei tiek izmantota lapa **VendMobileInvoiceAllDistributionTree** (kā 1. scenārijā), lietotājam var būt grūti saistīt rindas ar sadalēm. Tāpēc sadales lapas izstrādei izmantojiet lapu **VendMobileInvoiceLineDistributionTree**.
+    3.  Ideālā gadījumā šī scenārija ietvaros sadales ir jārāda rēķina rindas kontekstā. Tāpēc nodrošiniet, lai lietotājs varētu detalizēti skatīt rindas informāciju, tādējādi piekļūstot sadales lapai. Izmantojiet lapas saites iespēju, lai nodrošinātu detalizēto apskati, tāpat kā to darījāt galvenes lapai un detalizētās informācijas lapai 1. scenārija ietvaros.
 
-2.  Jo vairāk nekā viena tipa summa gaidāms par sadali 2. scenārijs (PVN, maksa utt.), būs noderīgas, lai parādītu summas tipa apraksts. (Mēs izlaista šo informāciju 1. scenārijs).
+2.  Tā kā 2. scenārija ietvaros ir paredzēts apstrādāt vairākus summas veidus (PVN, izmaksas utt.), ir noderīgi rādīt summas veida sadali. (Šī informācija tika atmesta 1. scenārija ietvaros.)
 
 ## <a name="conclusion"></a>Nobeigums
-Mobilā platforma un lietojumprogrammu iespējas ļauj izveidot mobilo sakaru gadījumi, kas ir optimizētas lietotāja bāzes organizācijā. Balstoties uz piemēriem, kas tiek sniegti šajā tēmā, varat izmēģināt citas variācijas un izveidot dažādas pieredzes, kas apmierinātu īpašas vajadzības.
+Mobilā platforma un lietojumprogrammas iespējas sniedz iespēju izstrādāt mobilos scenārijus, kas ir optimizēti atbilstoši organizācijas lietotāju vajadzībām. Pamatojoties uz šajā rēmā sniegtajiem piemēriem, jūs varat izmēģināt citus variantus un izveidot atšķirīgus risinājumus, kas atbilst noteiktām vajadzībām.
+
+
 
 

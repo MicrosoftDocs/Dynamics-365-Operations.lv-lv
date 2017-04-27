@@ -1,6 +1,6 @@
 ---
-title: "Skatu un noformējuma finanšu pārskati"
-description: "Šis pants paredz vingrinājumi, kas paskaidro jums apskatīt un veidot finanšu pārskati par Microsoft Dynamics 365 operācijām. Finanšu pārskati sastāv no skatīšanai programmā Dynamics 365 operāciju un klikšķi-vienreiz atskaišu izstrādes rīks, kas ļauj izveidot un rediģēt finanšu pārskati."
+title: "Skatīt un izveidot finanšu pārskatus"
+description: "Šajā rakstā ir sniegti vingrinājumi, kas jums izskaidros finanšu pārskatu skatīšanu un veidošanu programmatūrā Microsoft Dynamics 365 for Operations. Finanšu pārskatu veidošana sastāv no skatīšanas funkcionalitātes programmatūrā Dynamics 365 for Operations un no viena klikšķa pārskata veidotāja, kas jums ļauj izveidot un rediģēt finanšu pārskatus."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,9 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="view-and-design-financial-reports"></a>Skatu un noformējuma finanšu pārskati
+# <a name="view-and-design-financial-reports"></a>Skatīt un izveidot finanšu pārskatus
 
-Šis pants paredz vingrinājumi, kas paskaidro jums apskatīt un veidot finanšu pārskati par Microsoft Dynamics 365 operācijām. Finanšu pārskati sastāv no skatīšanai programmā Dynamics 365 operāciju un klikšķi-vienreiz atskaišu izstrādes rīks, kas ļauj izveidot un rediģēt finanšu pārskati.  
+[!include[banner](../includes/banner.md)]
+
+
+Šajā rakstā ir sniegti vingrinājumi, kas jums izskaidros finanšu pārskatu skatīšanu un veidošanu programmatūrā Microsoft Dynamics 365 for Operations. Finanšu pārskatu veidošana sastāv no skatīšanas funkcionalitātes programmatūrā Dynamics 365 for Operations un no viena klikšķa pārskata veidotāja, kas jums ļauj izveidot un rediģēt finanšu pārskatus.  
 
 <a name="exercise-1-generate-and-explore-a-default-financial-report"></a>1. uzdevums. Noklusējuma finanšu pārskata ģenerēšana un pārlūkošana
 -----------------------------------------------------------
@@ -45,7 +48,7 @@ ms.lasthandoff: 03/31/2017
 3.  Saglabājiet dimensiju konfigurāciju. Tagad ģenerēsim pārskatu un pārskatīsim tajā datus.
 4.  Dodieties uz lapu **Finanšu pārskati**, kas atrodas Virsgrāmatas sadaļā **Pieprasījumi un pārskati**.
 5.  Atlasiet rindu pārskatam ar nosaukumu **VG dati — noklusējuma.**
-6.  Atlasiet **Rediģēt.** Piezīme: Jums tiks piedāvāts lejupielādēt klikšķi-vienreiz atskaišu izstrādes rīks un lai ielogotos. Izmantot akreditācijas, lai ielogotos.
+6.  Atlasiet **Rediģēt.** Piezīme. Jums tiks piedāvāts lejupielādēt viena klikšķa pārskata veidotāju un pieteikties. Lai pieteiktos, lietojiet savus akreditācijas datus.
 7.  Mainiet pamata gadu uz 2012. un izvēlieties **Ģenerēt**. Ģenerējot pārskatu no pārskata veidotāja, tas tiks atvērts jaunā pārlūkprogrammas cilnē. Pārskatu varat pārlūkot jaunajā pārlūkprpgrammas cilnē, vai arī pāriet uz sākotnējo pārlūkprogrammas cilni un atvērt pārskatu no tās, atlasot to no saraksta **Finanšu pārskati**.
 8.  Atvērtajā pārskatā atlasiet vienu no summām, lai pārietu uz detalizētas parskata konta informācijas lapu.
 9.  Konta detalizētas informācijas lapā atlasiet kontu ar datiem un **pārejiet uz pārskata transakciju līmeni**. Pārskata transakciju līmenī var apskatīt rekvizītus (atribūtus), kas iekļauti šajā pārskata noformējumā. Atkarībā no transakcijas un konta var tikt parādīta tikai daļa atribūtu vai visi atribūti.
@@ -55,7 +58,7 @@ ms.lasthandoff: 03/31/2017
 13. Atlasiet **Pārskata opcijas**.
 14. Atlasiet **Pievienot dimensiju filtru** un izvēlieties **Biznesa vienība**.
 15. Laukā ievadiet 001 un atlasiet **Labi**. Pārskatā tagad tiek rādīti tikai biznesa vienības 001 dati. Šis ir pārskata personalizēts skats un nav pieejams citiem lietotājiem.
-16. Aizveriet filtrēto pārskatu. Finanšu pārskatu var parādīt jebkurā valūtā, kas ir pievienots Dynamics 365 operācijām.
+16. Aizveriet filtrēto pārskatu. Finanšu pārskatus var parādīt jebkurā valūtā, kas ir pievienota programmā Dynamics 365 for Operations.
 17. Atlasiet **Valūta** un pēc tam atlasiet **EUR.** Pārskata summas tagad tiek rādītas eiro. Visi pārskata noformējumā iekļautie valūtu kodi un simboli tagad tiek rādīti lietotajā valūtā. Ja valūtai nav definēts valūtas simbols, valūtas simbols netiek rādīts.
 18. Aizveriet pārskatu **VG dati**.
 19. Aizveriet lapu **Finanšu pārskata veidotājs**.
@@ -66,7 +69,7 @@ ms.lasthandoff: 03/31/2017
 1.  Dodieties uz lapu **Finanšu pārskati**, kas atrodas Virsgrāmatas sadaļā Pieprasījumi un pārskati.
 2.  Atlasiet rindu pārskatam ar nosaukumu **Kopsavilkuma apgrozījuma bilance — noklusējuma.**
 3.  Atlasiet **Rediģēt**. Pārskatu veidotājā tiks atvērta **Kopsavilkuma apgrozījuma bilance — noklusējuma**.
-4.  Atlasiet **Fails** un pēc tam **Saglabāt kā** un nosauciet pārskatu Detalizēta apgrozījuma bilance ar atribūtiem. Piezīme: Jebkurā laikā atskaišu izstrādes rīks, tiek izveidots jauns ziņojums finanšu atskaites saraksts tiek atjaunināts programmā Dynamics 365 operācijām.
+4.  Atlasiet **Fails** un pēc tam **Saglabāt kā** un nosauciet pārskatu Detalizēta apgrozījuma bilance ar atribūtiem. Piezīme. Katru reizi, kad tiek izveidots jauns pārskats, izmantojot pārskatu veidotāju, programmā Dynamics 365 for Operations tiek atjaunināts finanšu pārskatu saraksts.
 5.  No pārskata definīcijas atlasiet rindas definīcijas ikonu, lai atvērtu **Apgrozījuma bilance — noklusējuma rindas definīcija**.
 6.  Saglabājiet rindas definīciju kā **Detalizēta apgrozījuma bilance ar atribūtiem**.
 7.  Novietojiet kursoru 50. rindā, atlasiet **Rediģēt** un pēc tam atlasiet **Ievietot rindas no dimensijām**. Ievietojot rindas no dimensijām, varat izvēlēties, kādas dimensijas vēlaties iekļaut rindas definīcijā. Šajā uzdevumā mēs izveidosim rindas definīciju, izmantojot galveno kontu.
@@ -96,7 +99,7 @@ ms.lasthandoff: 03/31/2017
 25. Aizveriet pārskatu **Detalizēta apgrozījuma bilance ar atribūtiem**.
 26. Aizveriet lapu **Finanšu pārskata veidotājs**.
 
-## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>3. vingrinājums: Izveidojiet daudzdimensiju atskaiti, izmantojot atskaišu koks
+## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>3. uzdevums. Daudzdimensiju pārskatu izveide, izmantojot pārskata koku
 Šajā uzdevumā tiks modificēts esošais noklusējuma pārskats. Tiks izveidots pārskata koks un pievienota pārskata definīcija, lai izveidotu Izmaksu centrs/nodaļu ieņēmumu pārskats. Kad atjaunināšana ir pabeigta, varat izveidot Izmaksu centrs/nodaļu ieņēmumu pārskats un pārskatīt pārskatu, izmantojot pārskata koku. Sāksim ar sarakstu Finanšu pārskati.
 
 1.  Dodieties uz lapu **Finanšu pārskati**, kas atrodas Virsgrāmatas sadaļā Pieprasījumi un pārskati.
@@ -138,7 +141,7 @@ ms.lasthandoff: 03/31/2017
 1.  Dodieties uz lapu **Finanšu pārskati**, kas atrodas Virsgrāmatas sadaļā Pieprasījumi un pārskati.
 2.  Atlasiet rindu, kas attiecas uz pārskatu ar nosaukumu **Bilance un ieņēmumu pārskats viens otram blakus — noklusējuma**.
 3.  Atlasiet **Rediģēt**. Pārskatu veidotājā tiks atvērts **Bilance un ieņēmumu pārskats viens otram blakus — noklusējuma**.
-4.  Atlasiet **failu**&gt;**saglabāt kā** un atskaites nosaukuma **konsolidētās bilances un peļņas vai zaudējumu aprēķinā blakus**.
+4.  Atlasiet **Fails** &gt; **Saglabāt kā** un piešķiriet pārskatam nosaukumu **Konsolidēta bilance un ieņēmumu pārskats viens otram blakus**.
 5.  Mainiet pamata gadu uz 2012.
 6.  Noklikšķiniet uz nolaižamās bultiņas Koka veids un atlasiet **Organizācijas hierarhijas**.
 7.  Noklikšķiniet uz nolaižamās bultiņas Koka veids un atlasiet **Contoso krājumi**.
@@ -151,7 +154,7 @@ ms.lasthandoff: 03/31/2017
 14. Aizveriet pārskatu **Konsolidēta bilance un ieņēmumu pārskats viens otram blakus**.
 15. Aizveriet lapu **Finanšu pārskata veidotājs**.
 
-## <a name="exercise-5-create-a-sidebyside-departmental-report"></a>5. vingrinājums: Izveidojiet sidebyside departamenta ziņojums
+## <a name="exercise-5-create-a-sidebyside-departmental-report"></a>5. uzdevums. Līdzās atvērtu nodaļu pārskata izveide
 Šajā uzdevumā izveidosiet jaunu pārskatu. Pārskats ir līdzās atvērtu nodaļu ieņēmumu pārskats. Varat izmantot esošu rindas definīciju, bet izveidot jaunu pārskata definīciju un jaunu kolonnas definīciju, kas izmanto dimensiju filtrus. Sāksim ar sarakstu Finanšu pārskati.
 
 1.  Dodieties uz lapu **Finanšu pārskati**, kas atrodas Virsgrāmatas sadaļā Pieprasījumi un pārskati.
@@ -162,7 +165,7 @@ ms.lasthandoff: 03/31/2017
 6.  Veiciet dubultklikšķi laukā **Dimensiju filtrs**.
 7.  Logā **Dimensija** veiciet dubultklikšķi uz kolonnas **Nodaļa**.
 8.  Dialoga sadaļā Atsevišķa vai diapazons noklikšķiniet uz **daudzpunktes** pie lauka **No**, lai parādītu nodaļu sarakstu.
-9.  Atlasiet nodaļu **022**, **Tirdzniecība un mārketings** un pēc tam noklikšķiniet uz** Labi**.
+9.  Atlasiet nodaļu **022**, **Tirdzniecība un mārketings** un pēc tam noklikšķiniet uz **Labi**.
 10. Atkārtojiet 5.–8. darbību 23.–25. nodaļai.
 11. Rindas **2. galvene** katrā kolonnā FD ierakstiet šādu nodaļu aprakstu:
     -   kolonnā B — Pārdošana un mārketings;
@@ -179,8 +182,10 @@ ms.lasthandoff: 03/31/2017
 18. **Saglabājiet** veiktās izmaiņas un **ģenerējiet** pārskatu. Kad pārskata ģenerēšana tiek pabeigta un tas tiek atvērts, varat to pārskatīt.
 
 ## <a name="additional-resources"></a>Papildu resursi
-[Finanšu ziņošanas](\financials\general-ledger\financial-reporting-getting-started.md)<ph id="t1">
-</ph>[skatīt finanšu pārskati](\financials\general-ledger\view-financial-reports.md)<ph id="t2">
-</ph>[Dynamics finanšu pārskata Blog](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Finanšu pārskati](\financials\general-ledger\financial-reporting-getting-started.md) 
+[Skatīt finanšu pārskatus](\financials\general-ledger\view-financial-reports.md) 
+[Emuārs Dynamics finanšu pārskatus sastādīšana](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

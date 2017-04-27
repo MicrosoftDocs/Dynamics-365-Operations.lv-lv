@@ -59,5 +59,5 @@ Veidojot saites grāmatošanas definīcijās, tiek lietoti šādi ierobežojumi:
 -   grāmatošanas definīciju var piešķirt jebkuram transakcijas veidam, bet šim transakcijas veidam jābūt tajā pašā modulī, kur ir grāmatošanas definīcija. Izmantojiet lapu **Darījuma grāmatošanas definīcijas**, lai redzētu, kurā modulī ir transakcijas veids.
 
 
-Lai iegūtu papildinformāciju, skatiet [Sludinājuma definīcijas piemēros](/general-ledger/example-posting-definitions.md). 
+Papildinformāciju skatiet tēmā [Grāmatošanas definīciju piemēri](/general-ledger/example-posting-definitions.md). 
 

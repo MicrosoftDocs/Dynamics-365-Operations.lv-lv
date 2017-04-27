@@ -40,7 +40,7 @@ Tiek reģistrēts pārsūtīšanas žurnāla notikums. Notikuma ietvaros viens k
 
 ### <a name="example-2-cost-entries-are-created"></a>2. piemērs: tiek izveidoti izmaksu ieraksti
 
-Tiek reģistrēts pārsūtīšanas žurnāla notikums. Notikumu pārvieto viengabala preces A no vietas 1 vieta 2. Krājumu dimensiju vietu tiek uzskatīta par daļu no objekta izmaksas. Tādējādi notikuma ietvaros tiek izveidotas divas krājumu transakcijas un divi izmaksu ieraksti.
+Tiek reģistrēts pārsūtīšanas žurnāla notikums. Notikuma ietvaros viens krājuma A gabals tiek pārsūtīts no 1. vietas uz 2. vietu. Krājumu dimensija Vieta tiek uzskatīta par daļu no izmaksu objekta. Tādējādi notikuma ietvaros tiek izveidotas divas krājumu transakcijas un divi izmaksu ieraksti.
 
 ### <a name="example-3-one-cost-entry-is-created"></a>3. piemērs: tiek izveidots viens izmaksu ieraksts
 
@@ -59,11 +59,11 @@ Jaunā lapa **Izmaksu ieraksti** ļauj skatīt un kontrolēt daudzuma un izmaksu
 | 00002   | 20.01.2015 | Pirkšanas pasūtījums | 100001 | 0000101 |               |               |          | 100,00  |
 | 00003   | 31.01.2015 | Korekcija     | 100001 | 0000101 |               |               |          | 15,00   |
 
-Lapa **Izmaksu ieraksti** ļauj veikt filtrēšanu pēc dokumenta ID un dokumenta datuma. **Piezīme:** izmaksu ieraksti ir pieejami tikai [objektu izmaksas](cost-object.md) vai atbrīvo produktus.
+Lapa **Izmaksu ieraksti** ļauj veikt filtrēšanu pēc dokumenta ID un dokumenta datuma. **Piezīme.** Izmaksu ieraksti ir pieejami tikai [izmaksu objektiem](cost-object.md) vai izlaistajām precēm.
 
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Cost objects](cost-object.md)
+[Izmaksu objekti](cost-object.md)
 
 

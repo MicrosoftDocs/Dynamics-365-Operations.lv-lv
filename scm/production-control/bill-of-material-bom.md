@@ -1,6 +1,6 @@
 ---
 title: "Materiālu komplekti un formulas"
-description: "Šajā rakstā ir sniegta informācija par materiālu komplektiem (MK) un formulas, kas ir produkti un preces variantus definīcija centrālā daļa. MK un formulas norādīt nepieciešamos materiālus vai sastāvdaļas konkrētam produktam. Formulas arī norāda, līdzproduktu un blakusproduktu, kas saņemti saistībā ar konkrētu ražošanas."
+description: "Šajā rakstā ir sniegta informācija par materiālu komplektu (MK) un formulām, kuras veido preču un preču variantu definīcijas centrālo daļu. MK un formulas norāda konkrētas preces nepieciešamos materiālus jeb komponentus. Formulas norāda arī līdzproduktus un blakusproduktus, kas tiek saņemti noteiktā ražošanas kontekstā."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="bills-of-materials-and-formulas"></a>Materiālu komplekti un formulas
 
-Šajā rakstā ir sniegta informācija par materiālu komplektiem (MK) un formulas, kas ir produkti un preces variantus definīcija centrālā daļa. MK un formulas norādīt nepieciešamos materiālus vai sastāvdaļas konkrētam produktam. Formulas arī norāda, līdzproduktu un blakusproduktu, kas saņemti saistībā ar konkrētu ražošanas. 
+[!include[banner](../includes/banner.md)]
+
+
+Šajā rakstā ir sniegta informācija par materiālu komplektu (MK) un formulām, kuras veido preču un preču variantu definīcijas centrālo daļu. MK un formulas norāda konkrētas preces nepieciešamos materiālus jeb komponentus. Formulas norāda arī līdzproduktus un blakusproduktus, kas tiek saņemti noteiktā ražošanas kontekstā. 
 
 <a name="bills-of-materials"></a>Materiālu komplekti
 ------------------
@@ -38,7 +41,7 @@ Materiālu komplekts (MK) nosaka komponentus, kas nepieciešami, lai saražotu p
 
 Ja tas ir apvienots ar maršrutu vai ražošanas plūsmu, kas apraksta operācijas un resursus, kuri nepieciešami, lai izveidotu preces, MK ir pamats preces novērtēto izmaksu aprēķināšanai.  
 
-IMS ir atsevišķu entītiju, ko raksturo ar šādu informāciju:
+MK ir atsevišķs elements, kuru apraksta tālāk uzskaitītā informācija.:
 
 -   MK ID
 -   MK nosaukums
@@ -49,7 +52,7 @@ Viens MK apraksta vienu līmeni, kas tiek identificēts ar unikālu ID. Komponen
 
 ### <a name="formulas-co-products-and-by-products"></a>Formulas, līdzprodukti un blakusprodukti
 
-Formula ir MK apakštips, kas parasti tiek izmantots apstrādes ražošanai. Papildus komponentiem un sastāvdaļām formula apraksta līdzproduktus un blakusproduktus. Faktisko versiju, līdzproduktu un blakusproduktu formulas noteikšana nepieciešama formulas versijā. Parasti par vienu konkrētu galaprodukta (formula vai plānošanas prece), kas ir definētas formulas versijā ir definēta formula.
+Formula ir MK apakštips, kas parasti tiek izmantots apstrādes ražošanai. Papildus komponentiem un sastāvdaļām formula apraksta līdzproduktus un blakusproduktus. Faktiskajā versijā formulas līdzproduktu un blakusproduktu definīcijai ir nepieciešama formulas versija. Formula parasti ir definēta vienai konkrētai pabeigtajai precei (formula vai plānošanas krājums), kas tiek definēta formulas versijā.
 
 ### <a name="boms-in-the-product-lifecycle"></a>MK preces dzīves ciklā
 
@@ -59,9 +62,9 @@ Preces dzīves ciklā dažādu iemeslu dēļ var tikt izveidoti daudzi MK veidi:
 -   **Konstruēšanas MK** — šis MK parasti tiek izmantots, projektējot preces, kas balstītas uz esošo preču portfeļiem. Konstruēšanas MK ir strukturēti, lai vienkāršotu projektēšanas procesu un grupētu kompleksas preces konstruēšanas moduļos. Vienkāršām precēm ir iespējami konstruēšanas MK faktiskajam ražošanas procesam. Tomēr citām precēm konstruēšanas MK ir jāpārveido par faktiskās ražošanas MK. MK hierarhijā konstruēšanas MK parasti attēlo fantomi. Lai arī konstruēšanas MK var izmantot ražošanas operāciju plānošanai un izpildei, šī pieeja var izraisīt efektivitātes samazināšanos, jo īpaši atkārtotām operācijām, ja tiek izveidoti daudzi pasūtījumi.
 -   **Plānošanas MK** — šis MK tiek izmantots, lai veiktu plānošanu materiālu vajadzībām. Komponentu un sastāvdaļu pieprasījumu aprēķina, pamatojoties uz pabeigto preču pieprasījumu. Tāpat kā izmaksu aprēķināšanas MK, arī plānošanas MK var atspoguļot konkrētu materiālu sajaukumu, kas tiek izmantots periodā.
 -   **Ražošanas MK** — tas ir faktiskais MK, kas tiek izmantots noteiktai ražošanai. Ražošanas MK ir jāņem vērā faktiskie resursi, kas tiek izmantoti produkta ražošanai. Veidojot ražošanas pasūtījumu, partijas pasūtījumu vai Kanban, vairāki MK līmeņi, kuri ir norādīti ar fantomiem, tiek sakļauti vienā līmenī un sadalīti pa operācijām attiecīgajam pasūtījumam.
--   **Izmaksu aprēķināšanas MK** —  MK tiek izmantots, lai aprēķinātu preces novērtētās izmaksas. Piemēram, izmaksu aprēķināšanas MK var izmantot, ja tiek izmantotas standarta izmaksas vai tiek aprēķinātas noteiktas preces novērtētās plānotās izmaksas. Izmaksu aprēķināšanas MK var attiekties uz tādu konkrētu materiālu un resursu sajaukumu, kurus paredzēts izmantot. Tādējādi izmaksu aprēķināšanas MK var izmantot, lai izveidotu reprezentatīvas novērtētās izmaksas par periodu un palīdzētu izvairīties no novirzēm laika gaitā.
+-   **Izmaksu aprēķināšanas MK** — MK tiek izmantots, lai aprēķinātu preces novērtētās izmaksas. Piemēram, izmaksu aprēķināšanas MK var izmantot, ja tiek izmantotas standarta izmaksas vai tiek aprēķinātas noteiktas preces novērtētās plānotās izmaksas. Izmaksu aprēķināšanas MK var attiekties uz tādu konkrētu materiālu un resursu sajaukumu, kurus paredzēts izmantot. Tādējādi izmaksu aprēķināšanas MK var izmantot, lai izveidotu reprezentatīvas novērtētās izmaksas par periodu un palīdzētu izvairīties no novirzēm laika gaitā.
 
-MK tipi, kas tiek faktiski izmantotas īstenošana atkarīga no īstenošanas, kā arī par biznesa scenārijiem un prasības. Vienkāršas ieviešanas gadījumos plānošanas MK, ražošanas MK un izmaksu aprēķināšanas MK var modelēt kā vienu MK. Vidēs, kurās bieži notiek tehnoloģiskas izmaiņas un ir vairāki alternatīvi maršruti, visticamāk, būs nepieciešama lielāka MK veidu kopa.
+MK tipi, kuri tiek faktiski izmantoti ieviešanā, ir atkarīgi no ieviešanas, kā arī no uzņēmējdarbības scenārijiem un prasībām. Vienkāršas ieviešanas gadījumos plānošanas MK, ražošanas MK un izmaksu aprēķināšanas MK var modelēt kā vienu MK. Vidēs, kurās bieži notiek tehnoloģiskas izmaiņas un ir vairāki alternatīvi maršruti, visticamāk, būs nepieciešama lielāka MK veidu kopa.
 
 ### <a name="approval-of-boms-and-formulas"></a>MK apstiprināšana un formulas
 
@@ -78,7 +81,7 @@ Pirms MK versiju var izmantot plānošanā vai ražošanas procesā, tā ir jāa
 
 ### <a name="activation-of-the-default-bom-or-formula-version"></a>Noklusējuma MK vai formulas versijas aktivizēšana
 
-Lai iestatītu noteiktu MK vai formulu kā noklusējuma MK versiju vai formulas versiju, kas tiks izmantota vispārējai plānošanai vai izmantota, lai izveidotu ražošanas pasūtījumus, ir jāaktivizē attiecīgā versija. Kad ir aktivizēta versiju, versijas par noteiktu ierobežojumus (piemēram, laikā, vietā vai daudzums) unikalitāti. Saņemat kļūdas ziņojumu, ja versiju, ka jūs mēģināt aktivizēt konflikti ar versiju, kas jau ir aktīvs. Pēc tam ir jādeaktivizē konfliktējošā versija vai jāmodificē versijas ierobežojumi (parasti — periods), lai novērstu neviennozīmīgu aktivizēšanu.
+Lai iestatītu noteiktu MK vai formulu kā noklusējuma MK versiju vai formulas versiju, kas tiks izmantota vispārējai plānošanai vai izmantota, lai izveidotu ražošanas pasūtījumus, ir jāaktivizē attiecīgā versija. Kad tiek aktivizēta kāda versija, tiek verificēta šīs versijas unikalitāte attiecībā uz attiecīgajiem ierobežojumiem (piemēram, periodu, vietu vai daudzumu). Ja versijai, kuru mēģināt aktivizēt, ir konflikts ar jau aktīvo versiju, jūs saņemat kļūdas ziņojumu. Pēc tam ir jādeaktivizē konfliktējošā versija vai jāmodificē versijas ierobežojumi (parasti — periods), lai novērstu neviennozīmīgu aktivizēšanu.
 
 ### <a name="product-change-with-case-management"></a>Preces izmaiņas, izmantojot gadījumu pārvaldību
 
@@ -107,12 +110,14 @@ Atlasiet rindas tipu **Fantoms**, ja vēlaties izvērst jebkurus MK rindā esoš
 
 ### <a name="pegged-supply"></a>Pieprasīta piegāde
 
-Atlasiet rindas tipu** Pieprasīta piegāde**, ja vēlaties izveidot pakārtoto ražošanas uzdevumu, MK rindas notikuma Kanban vai tiešu pirkšanas pasūtījumu visiem preces variantiem, uz kuriem ir atsauce MK rindā. Pakārtots ražošanas uzdevums, notikuma Kanban vai pirkšanas pasūtījums tiek izveidots, kad tiek novērtēts ražošanas pasūtījums. Nepieciešamie krājumu daudzumi tiek automātiski rezervēti patērēšanas ražošanas pasūtījumam.
+Atlasiet rindas tipu **Pieprasīta piegāde**, ja vēlaties izveidot pakārtoto ražošanas uzdevumu, MK rindas notikuma Kanban vai tiešu pirkšanas pasūtījumu visiem preces variantiem, uz kuriem ir atsauce MK rindā. Pakārtots ražošanas uzdevums, notikuma Kanban vai pirkšanas pasūtījums tiek izveidots, kad tiek novērtēts ražošanas pasūtījums. Nepieciešamie krājumu daudzumi tiek automātiski rezervēti patērēšanas ražošanas pasūtījumam.
 
 ### <a name="vendor"></a>Piegādātājs
 
 Atlasiet rindas tipu **Kreditors**, ja ražošanas procesā tiek izmantots apakšuzņēmējs un vēlaties, lai apakšuzņēmējam tiktu automātiski izveidots pakārtots ražošanas uzdevums vai pirkuma pasūtījums.  
 
 **Piezīme par apakšuzņēmēja operācijām MK.** Pakalpojums vai darbs, ko veic apakšuzņēmējs, jāizveido kā pakalpojumu krājums, kas tiek izsekots krājumos. Pakalpojumu krājums ir jāpievieno pamata krājumam kā MK rinda. Maršrutam jāsatur operācija, kas piešķirta apakšuzņēmēja operāciju resursiem.
+
+
 
 

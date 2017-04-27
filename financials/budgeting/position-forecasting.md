@@ -27,15 +27,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="position-forecasting"></a>Pozīciju prognozēšana
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Izdevumi, kas ir saistīti ar darbiniekiem, bieži veido lielu daļu no organizācijas izmaksām. Pozīciju prognozēšana ļauj jums plānot šos izdevumus un iekļaut tos budžetu plānošanā.
 
 ## <a name="position-forecasting-in-budget-planning"></a>Pozīciju prognozēšana budžeta plānošanā
 
-[![Grafika augšējā](./media/graphic-top.png)](./media/graphic-top.png) 
+[![Augšējā diagramma](./media/graphic-top.png)](./media/graphic-top.png) 
 
-Pozīciju prognozēšanai izmanto trīs galvenie komponenti sniegt precīzu budžeta summas pozīciju izdevumus. Pēc tam šīs summas var ievest budžeta plānā budžeta aprēķiniem. 
+Pozīciju prognozēšanai tiek izmantotas trīs galvenās sastāvdaļas, lai nodrošinātu precīzas budžeta summas pozīciju izdevumiem. Pēc tam šīs summas var ievest budžeta plānā budžeta aprēķiniem. 
 
 Galvenais komponents ir **prognozes pozīcija**, kas atspoguļo visus izmaksu datus, kas ir saistīti ar vienu pozīciju. Var izveidot vairākas prognozes pozīcijas versijas, piešķirot dažādu budžeta plāna scenāriju katrai versijai. Vairākas versijas ļauj izmantot iteratīvu pieeju budžeta plānošanai un ļauj salīdzināt iespēju scenārijus. Katrai prognozes pozīcijai ir atbilstošais amats personāla vadībā.
 
@@ -47,7 +50,7 @@ Galvenais komponents ir **prognozes pozīcija**, kas atspoguļo visus izmaksu da
 
 [![graphic1b](./media/graphic1b.png)](./media/graphic1b.png) 
 
-Tipisku procesu prognozēšanai pozīciju, jums vispirms jāizveido uzstādīšanas sastāvdaļu (budžeta izmaksu elementi un kompensāciju grupām). Prognozes pozīcijas tiek ģenerētas pamatojoties uz esošajām pozīcijām. Pēc tam varat veikt pielāgojumus. Piemēram, varat pievienot vai beigt pozīcijas, mainīt apmaksas likmes un atvieglojumu izmaksas un pievienot algas palielinājumus. Var izveidot vairākas prognozes pozīcijas versijas, atvieglojot dažādu budžeta plānošanas scenāriju salīdzināšanu. Pēc tam varat ietvert prognozes pozīcijas budžeta plānos un ieviest izmaksas no prognozes pozīcijām kā budžeta plāna rindas.
+Tipiskā pozīcijas prognozēšanas procesā vispirms tiek izveidoti iestatīšanas komponenti (budžeta izmaksu elementi un atlīdzības grupas). Prognozes pozīcijas tiek ģenerētas pamatojoties uz esošajām pozīcijām. Pēc tam varat veikt pielāgojumus. Piemēram, varat pievienot vai beigt pozīcijas, mainīt apmaksas likmes un atvieglojumu izmaksas un pievienot algas palielinājumus. Var izveidot vairākas prognozes pozīcijas versijas, atvieglojot dažādu budžeta plānošanas scenāriju salīdzināšanu. Pēc tam varat ietvert prognozes pozīcijas budžeta plānos un ieviest izmaksas no prognozes pozīcijām kā budžeta plāna rindas.
 
 Varat izveidot papildu prognozes pozīcijas versijas, kad budžeta plāni tiek pārskatīti. Šīs jaunas versijas dod pamatu grozījumu veikšanai.
 
@@ -64,9 +67,9 @@ Budžeta izmaksu elementa izmaksu summas aprēķinā tiek izmantoti spēkā stā
 
 Ja izmaksu elements ir balstīts uz procentuālo daudzumu, ir jānorāda budžeta izmaksu elementi, kas tiek izmantoti kā aprēķina pamats.
 
-**Example** 
+**Piemērs** 
 
-Jodi ir organizācija sniedz mācību pabalsts par 5 procentiem no darbinieka bāzes algu. Jodi vēlas izveidot budžeta izmaksu elementu šīm izmaksām. Viņa izveido jaunu budžeta izmaksu elementu un piešķir budžeta izmaksu tipu **Atvieglojums**.
+Jodi organizācija sniedz apmācības atvieglojumu, kas ir 5 procenti no darbinieka pamatalgas. Jodi vēlas izveidot budžeta izmaksu elementu šīm izmaksām. Viņa izveido jaunu budžeta izmaksu elementu un piešķir budžeta izmaksu tipu **Atvieglojums**.
 
 Jodi nevēlas mainīt atvieglojumu summu vadītājiem. Tādēļ viņa atlasa **Neatļaut izmaksu izmaiņas** laukā **Prognozes pozīcijas ignorēšana**. Organizācija vēlas piešķirt šīs izmaksas vienmērīgi katru mēnesi. Tāpēc Jodi atlasa **Ceturkšņa** laukā **Sadalījuma metode**. 
 
@@ -82,7 +85,7 @@ Atlīdzības grupu pamata funkcija ir piešķirt budžeta izmaksu elementu kopu 
 
 Atlīdzības grupas var norādīt peļņas likmes prognozes pozīcijai. Varat iestatīt grupu, lai izmantotu stundas vai gada algas pamatu prognozes pozīcijas peļņas aprēķināšanai. Cilnē **Atlīdzības likmju tabulas** apmaksas likmju atlīdzības režģis nosaka peļņu, kas tiek pievienota prognozes pozīcijai, ņemot vērā piešķirto līmeni un darbību. Šie režģi var būt balstīti uz esošajiem kompensācijas režģiem Personāla vadībā. Var arī varat izveidot jaunus kompensāciju režģus budžeta plānošanai. 
 
-Spēkā stāšanās datumi un beigu datumi atlīdzības likmju tabulās ļauj mainīt apmaksas likmes jebkurā datumā. Šī funkcija ir noderīga, ja sarunu struktūrvienība ir vienojusies par vispārēju visaptverošu palielinājumu budžeta cikla vidū. Šajā gadījumā jūs mainīt esošās tabulas derīguma dienu pirms kursa izmaiņas un pievienot jaunu kursu tabulu, kura sākas jauns dienā. Veidojot jaunu kursu tabulu, atlasot **izveidot jaunu kompensāciju režģi no esošās režģa**, varat atlasīt esošo likmju tabula no cilvēkresursu. Izveidotajā likmju tabulā opcija **Masveida izmaiņas** ļauj izmantot procentuālo vai vienotās summas pieaugumu vai samazinājumu visām likmēm režģī. 
+Spēkā stāšanās datumi un beigu datumi atlīdzības likmju tabulās ļauj mainīt apmaksas likmes jebkurā datumā. Šī funkcija ir noderīga, ja sarunu struktūrvienība ir vienojusies par vispārēju visaptverošu palielinājumu budžeta cikla vidū. Šādā gadījumā jūs maināt esošas tabulas beigu datumu uz datumu pirms likmes maiņas datuma un pievienojat jaunu likmju tabulu, kas stājas spēkā jaunajā datumā. Ja jaunas likmju tabulas izveides laikā atlasāt opciju **Izveidot jaunu atlīdzības režģi no esoša režģa**, varat atlasīt esošu likmju tabulu no moduļa Personāla vadība. Izveidotajā likmju tabulā opcija **Masveida izmaiņas** ļauj izmantot procentuālo vai vienotās summas pieaugumu vai samazinājumu visām likmēm režģī. 
 
 Atlīdzības grupas lauki **Pieauguma grafiks** un **Pieauguma datums** tiek izmantoti, kad ir jāizveido algas pieaugumi, jo amati pāriet no vienas darbības uz nākamo. Gada algas pieaugums ir tipisks scenārijs. Pieauguma grafiks nosaka, vai posma pieaugumam tiek lietots amata gadadienas datums vai viens vispārīgs datums. Pieauguma grafiks attiecas uz visām prognozes pozīcijām atlīdzības grupā. 
 
@@ -93,7 +96,7 @@ Ieņēmumu izmaksu elements, kas atlasīts atlīdzības grupā, tiek lietots, ka
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Prognozes pozīciju izveide esošajiem amatiem
 
-Visprecīzāko budžeta plānošanu, budžeta pozīcijas var veidot, izmantojot detaļas no esošās pozīcijas Microsoft Dynamics 365 operācijām, neatkarīgi no tā, vai stāvoklis pašlaik piepildīts vai nepiepildītu. 
+Lai nodrošinātu visprecīzāko budžeta plānošanu, varat izveidot prognozes pozīcijas, izmantojot informāciju no esošām pozīcijām programmatūrā Microsoft Dynamics 365 for Operations neatkarīgi no tā, vai pozīcija pašlaik ir aizņemta vai brīva. 
 
 Funkcija **Pievienot esošos amatus** parāda visus organizācijas amatus. Iestatot** No** datumu, varat mainīt amatu sarakstu, lai tajā ir amati, kas pastāvējusi kādā datumā agrāk vai parasti nākotnē (piemēram, nākamā budžeta cikla sākumu). Atlasiet budžeta plānošanas procesu un budžeta plāna scenāriju, atlasiet amatus sarakstā un pēc tam noklikšķiniet uz **Labi**, lai izveidotu prognozes pozīcijas atlasītajiem amatiem. Ievērojiet, ka var izveidot tikai vienu prognozes pozīciju katram esošajam amatam budžeta plānošanas procesā un scenārijā. Tomēr, varat izveidot papildu versijas, piešķirot citus budžeta plāna scenārijus. 
 
@@ -103,11 +106,11 @@ Atlasot budžeta izmaksu elementu, fiksētās atlīdzības gada summa tiek pieš
 
 Kad opcija **Piešķirt atlīdzības grupu** ir iestatīta uz **Jā**, ja darbiniekam, kurš ir piešķirts amatam, ir pakāpeniska fiksētas atlīdzības sistēma, kas ir saistīta ar atlīdzības grupu (kā aprakstīts iepriekš), līmenis un darbība no darbinieka tiek piešķirti prognozes pozīcijai, kā arī atlīdzības grupai. Peļņas budžeta izmaksu elements no atlīdzības grupas tiek pievienots prognozes pozīcijai, un tiek izmantota apmaksas likme atlīdzības grupas līmenī un darbībā. 
 
-Opcijas **Piešķirt atlīdzības grupu** iestatīšana ir svarīgāka par opcijas **Budžeta izmaksu elementu piešķiršana** iestatīšanu. Divi iestatījumi var tikt lietoti vienlaikus. 
+Opcijas **Piešķirt atlīdzības grupu** iestatīšana ir svarīgāka par opcijas **Budžeta izmaksu elementu piešķiršana** iestatīšanu. Abus iestatījumus var lietot vienlaikus. 
 
 [![graphic4](./media/graphic4.png)](./media/graphic4.png) 
 
-Vēl viena iespēja ir jāpiešķir gadadienas datumu. Atlasītais datums (pielāgotais sākuma datums, darbinieka sākuma datums, nodarbinātības sākuma datums vai darba stāža datums) no piešķirtā darbinieka pēc tam tiek iestatīts kā prognozes pozīcijas gadadienas datums un tiek izmantots informācijai un kad tiek ģenerēti algas pieaugumi.
+Varat arī piešķirt gadadienas datumu. Atlasītais datums (pielāgotais sākuma datums, darbinieka sākuma datums, nodarbinātības sākuma datums vai darba stāža datums) no piešķirtā darbinieka pēc tam tiek iestatīts kā prognozes pozīcijas gadadienas datums un tiek izmantots informācijai un kad tiek ģenerēti algas pieaugumi.
 
 ### <a name="creating-new-forecast-positions"></a>Jaunu prognozes pozīciju izveide
 
@@ -138,9 +141,9 @@ Piemēram, budžeta izmaksu elementa rindai no 2017. gada 1. janvāra līdz 2017
 
 Budžeta izmaksu elementa rindas ir jāpārrēķina, kad FTE vērtība tiek nomainīta prognozes pozīcijā. Rindas ir jāpārrēķina arī, kad mainās aktivizācijas datumi vai aiziešanas pensijā datumi. Izmaiņas šajos datumus var izraisīt budžeta izmaksu elementa sākuma un beigu datumu atjaunināšanu, jo tiem jābūt prognozes pozīcijas datumu diapazonā. Kad pārrēķins ir nepieciešams, kļūst pieejama poga **Pārrēķināt** un tiek parādīts ziņojums "Nepieciešams aprēķins". Pārrēķins vajadzīgs arī tad, ja pievienojat vai noņemat budžeta izmaksu elementu.
 
-**Example** 
+**Piemērs** 
 
-Organizācija plāno divas iespējas, kā samazināt grāmatvede pozīcijas izmaksas. Viena iespēja ir izbeigt pozīciju kādā gada daļā. Cita iespēja ir mainīt amatu uz nepilna laika amatu visa gada garumā. Breds ir izveidojis prognozes pozīciju esošajam grāmatveža amatam bāzes scenārijā. Viņš kopē šo bāzlīnijas prognozes pozīciju scenārijā A, iestata aiziešanas pensijā datumu uz 31. maiju un pārrēķina. Pēc tam Breds kopē bāzlīnijas prognozes pozīciju scenārijā B, maina FTE vērtību uz **0,50**, un veic pārrēķinu. Tagad Bredam ir trīs versijas, katrai no kurām ir izmaksu kopsummas, kas ir saskaņotas ar viņa iespējam.
+Organizācija apsver divas iespējas, kā samazināt grāmatveža pozīcijas izmaksas. Viena iespēja ir izbeigt pozīciju kādā gada daļā. Cita iespēja ir mainīt amatu uz nepilna laika amatu visa gada garumā. Breds ir izveidojis prognozes pozīciju esošajam grāmatveža amatam bāzes scenārijā. Viņš kopē šo bāzlīnijas prognozes pozīciju scenārijā A, iestata aiziešanas pensijā datumu uz 31. maiju un pārrēķina. Pēc tam Breds kopē bāzlīnijas prognozes pozīciju scenārijā B, maina FTE vērtību uz **0,50**, un veic pārrēķinu. Tagad Bredam ir trīs versijas, katrai no kurām ir izmaksu kopsummas, kas ir saskaņotas ar viņa iespējam.
 
 #### <a name="assigning-a-compensation-group"></a>Atlīdzības grupas piešķiršana
 
@@ -160,9 +163,9 @@ Ja noklikšķināsit uz **Ģenerēt palielinājumus** otro reizi, process tiks i
 
 Atjauninājumi prognožu pozīcijās var arī nākt no citām vietām, piemēram, budžeta izmaksu elementa un kompensācijas grupas iestatījumu lapām. Varat arī modificēt prognožu pozīcijas, izmantojot masveida atjaunināšanas procesu. 
 
-Pieejamas divas iespējas **budžeta izmaksu elementu** iestatīšanas lappusē: **pievienot pozīciju** un **atjaunināt amatus**. Opcija **Pievienot pozīcijām** pievieno budžeta izmaksu elementu atlasītajām prognožu pozīcijām. Ja šis elements jau ir piešķirts prognozes pozīcijai, šī prognozes pozīcija tiek izlaista. Opcija **Atjaunināt pozīcijas** lieto pašreizējās vērtības (galveno kontu, procentiem, gada summu utt.) atlasītajām prognožu pozīcijām. 
+Iestatījumu lapā** Budžeta izmaksu elements** ir pieejamas divas opcijas: **Pievienot pozīcijām** un **Atjaunināt pozīcijas**. Opcija **Pievienot pozīcijām** pievieno budžeta izmaksu elementu atlasītajām prognožu pozīcijām. Ja šis elements jau ir piešķirts prognozes pozīcijai, šī prognozes pozīcija tiek izlaista. Opcija **Atjaunināt pozīcijas** lieto pašreizējās vērtības (galveno kontu, procentiem, gada summu utt.) atlasītajām prognožu pozīcijām. 
 
-Katram procesam ir līdzīga lapa, kur varat atlasīt prognozes pozīcijas. Lapā **Pievienot pozīcijām** tiek parādītas visas prognožu pozīcijas, kas ir pieejamas atlasei, bet lapā **Atjaunināt pozīcijas** tiek parādītas tikai tās prognožu pozīcijas, kurām jau ir piešķirts budžeta izmaksu elements. (Tāpēc **atjaunināt amatus** lapa dod veids, kā uzzināt tās budžeta pozīcijas jau ir izmaksu elements, kas piestiprināta.) Pārvietosiet budžeta pozīcijas no augšējā režģa apakšējo režģi, lai tos iekļaut atjauninājumu. 
+Katram procesam ir līdzīga lapa, kur varat atlasīt prognozes pozīcijas. Lapā **Pievienot pozīcijām** tiek parādītas visas prognožu pozīcijas, kas ir pieejamas atlasei, bet lapā **Atjaunināt pozīcijas** tiek parādītas tikai tās prognožu pozīcijas, kurām jau ir piešķirts budžeta izmaksu elements. (Tāpēc lapā **Atjaunināt pozīcijas** varat uzzināt, kurām budžeta pozīcijām jau ir pievienots izmaksu elements.) Lai ietvertu prognozes pozīcijas atjaunināšanā, tās ir jāpārvieto no augšējā režģa uz apakšējo režģi. 
 
 Ņemiet vērā, ka funkcija **Mainīt datumus** cilnē **Izmaksu aprēķins** nekavējoties maina budžeta izmaksu elementa sākuma un beigu datumus prognožu pozīcijās. Atlasāmās opcijas nav pieejamas. 
 
@@ -176,7 +179,7 @@ Pārrēķina process tiek automātiski izmantots jebkurās izmainītās prognoze
 
 [![graphic6](./media/graphic6-1024x327.png)](./media/graphic6.png)
 
-Veidojot un modificējot budžeta pozīcijas mērķis ir pievienot tos budžeta plāniem, tāpēc ka budžeta plāni ietver visprecīzāko budžeta summas. Pastāv divas metodes, kā pievienot prognožu pozīcijas budžeta plāniem. Var izmantot ģenerēšanas procesu vai atlases procesu budžeta plānā.
+Prognožu pozīciju izveides un modificēšanas mērķis ir tās pievienot budžeta plāniem tā, lai budžeta plānos būtu ietvertas visprecīzākās budžeta summas. Pastāv divas metodes, kā pievienot prognožu pozīcijas budžeta plāniem. Var izmantot ģenerēšanas procesu vai atlases procesu budžeta plānā.
 
 ### <a name="generating-a-budget-plan-from-forecast-positions"></a>Budžeta plāna ģenerēšana no prognozes pozīcijām
 
@@ -215,5 +218,7 @@ Budžeta plāna scenāriji, ko var atlasīt kā avotu, ir ierobežoti ar scenār
 Budžeta plāna rindas rāda budžeta summu avotu (prognozes pozīcijas numuru), bet nav saistītas. Tāpēc prognozes pozīcijas izmaiņas netiek parādītas budžeta plāna rindā, un izmaiņas budžeta plāna rindā tiek parādītas prognozes pozīcijā. Ja maināt prognozes pozīciju un vēlaties iekļaut budžeta plānā atjauninājumus, prognozes pozīcija jāiekļauj plānā vēlreiz. Tomēr atcerieties, ka šis process noņem visas rindas, kur šī prognozes pozīcija tiek piešķirta. Tāpēc jebkuras izmaiņas, kuras veicāt šajās rindās, tiek noņemtas. 
 
 Lai redzētu, kuros budžeta plānos prognozes pozīcija tika iekļauta, jūs varat ģenerēt pārskatu **Prognozes pozīcijas pēc budžeta plāna**. Vai arī prognozes pozīcijā varat atvērt papildinformāciju **Saistītie budžeta plāni**, lai apskatītu plānus.
+
+
 
 

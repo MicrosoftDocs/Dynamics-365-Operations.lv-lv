@@ -1,5 +1,5 @@
 ---
-title: "Nokārtot maksājumu daļēju kreditoram pirms atlaides datuma ar galīgā maksājuma atlaides datumu pēc"
+title: "Daļēja kreditora maksājuma nosegšana pirms atlaižu piemērošanas datuma ar gala maksājumu pēc atlaižu piemērošanas datuma"
 description: "Šajā rakstā ir izklāstīts scenārijs, kur tiek veikti vairāki daļēji maksājumi, daži no tiem — termiņatlaides periodā, un citi — ārpus termiņatlaides perioda."
 author: twheeloc
 manager: AnnBe
@@ -26,21 +26,24 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Nokārtot maksājumu daļēju kreditoram pirms atlaides datuma ar galīgā maksājuma atlaides datumu pēc
+# <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Daļēja kreditora maksājuma nosegšana pirms atlaižu piemērošanas datuma ar gala maksājumu pēc atlaižu piemērošanas datuma
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir izklāstīts scenārijs, kur tiek veikti vairāki daļēji maksājumi, daži no tiem — termiņatlaides periodā, un citi — ārpus termiņatlaides perioda.
 
-Fabrikam pērk preces no piegādātāja 3057. Fabrikam saņem 1 procentu termiņatlaide, ja rēķins ir apmaksāts 14 dienu laikā. Rēķini ir jāapmaksā 30 dienu laikā. Turklāt kreditors Fabrikam termiņatlaides ļauj saņemt arī par daļējiem maksājumiem. Norēķinu parametri atrodas **debitoru kreditoru parametrus** lapā.
+Fabrikam iegādājas preces no kreditora 3057. Fabrikam saņem 1 procenta termiņatlaidi, ja rēķins tiek apmaksāts 14 dienu laikā. Rēķini ir jāapmaksā 30 dienu laikā. Turklāt kreditors Fabrikam termiņatlaides ļauj saņemt arī par daļējiem maksājumiem. Nosegšanas parametri atrodas lapā **Kreditoru moduļa parametri**.
 
 ## <a name="invoice-on-june-25"></a>Rēķins 25. jūnijā
-25. jūnijā, aprīlī ievada un amatu 1000,00 3057 kreditora rēķinu. Eiprila var skatīt šo transakciju lapā **Debitoru transakcijas**.
+25. jūnijā Eiprila ievada un grāmato rēķinu par summu 1000,00 kreditoram 3057. Eiprila var skatīt šo transakciju lapā **Debitoru transakcijas**.
 
 | Dokuments   | Darījuma veids | Datums      | Rēķins | Summa transakcijas valūtas debetā | Summa transakcijas valūtas kredītā | Bilance   | Valūta |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
 | Inv-10020 | Rēķins          | 25.06.2015 | 10020   |                                      | 1000,00                              | –1000,00 | USD      |
 
 ## <a name="partial-payment-on-july-2"></a>Daļējs maksājums 2. jūlijā
-2. jūlijā Eiprila vēlas nosegt 300,00 no šī rēķina. Maksājums ir piemērots atlaidei, jo Fabrikam saņem atlaides daļējiem maksājumiem. Tāpēc Eiprila maksā 297,00 un saņem 3,00 atlaidi. Viņa rada maksājumu žurnālā un ievada līniju, kreditoram 3057. Viņa tad atver **norēķiniem par darījumiem** lapa, tāpēc, ka viņa var atzīmēt rēķinu apmaksai.
+2. jūlijā Eiprila vēlas nosegt 300,00 no šī rēķina. Maksājums ir piemērots atlaidei, jo Fabrikam saņem atlaides daļējiem maksājumiem. Tāpēc Eiprila maksā 297,00 un saņem 3,00 atlaidi. Viņa izveido maksājumu žurnālu un ievada rindu kreditoram 3057. Tad viņa atver lapu **Transakciju nosegšana**, lai varētu atzīmēt rēķinu nosegšanai.
 
 | Atzīmēt     | Izmantot termiņatlaidi | Dokuments   | Konts | Datums      | Izpildes datums  | Rēķins | Summa darījuma valūtā | Valūta | Nosedzamā summa |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -91,7 +94,7 @@ Pēc tam Eiprila grāmato maksājumu. Kad viņa atver lapu **Kreditoru transakci
 | APP-10021  | Maksājums          | 15.07.2015 |         | 700,00                               |                                       | 0,00    | USD      |
 
 ## <a name="remaining-payment-on-july-15-use-cash-discount--always"></a>Atlikušais maksājums 15. jūlijā, Izmantot termiņatlaidi = Vienmēr
-Ja piegādātājam ļauj veikt atlaidi pat tad, ja viņa maksā pēc atlaižu dienas aprīlī, viņa var mainīt vērtību **izmantot termiņatlaidi** lauku, lai **vienmēr**. **Daļēju maksājumu termiņatlaides aprēķināšanai** iestatījums tiek ignorēts, un šī atlaide tiek ņemts. Maksājuma summa ir 693,00, un atlaide ir atlikušie 7,00.
+Ja kreditors Eiprilai ļauj saņemt atlaidi, lai gan viņa maksā pēc atlaides datuma, vērtību laukā **Izmantot termiņatlaidi** viņa var mainīt uz **Vienmēr**. Iestatījums **Aprēķināt termiņatlaides daļējiem maksājumiem** tiek pārrakstīts, un atlaide tiek saņemta. Maksājuma summa ir 693,00, un atlaide ir atlikušie 7,00.
 
 | Atzīmēt     | Izmantot termiņatlaidi | Dokuments   | Konts | Datums      | Izpildes datums  | Rēķins | Summa transakcijas valūtas debetā | Summa transakcijas valūtas kredītā | Valūta | Nosedzamā summa |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
@@ -116,6 +119,8 @@ Pēc tam Eiprila grāmato maksājumu. Kad viņa atver lapu **Kreditoru transakci
 | DISC-10020 | Termiņatlaide    | 01.07.2015  |         | 3,00                                 |                                       | 0,00    | USD      |
 | APP-10021  | Maksājums          | 15.07.2015 |         | 693,00                               |                                       | 0,00    | USD      |
 | DISC-10021 | Termiņatlaide    | 15.07.2015 |         | 7,00                                 |                                       | 0,00    | USD      |
+
+
 
 
 

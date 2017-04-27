@@ -27,15 +27,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounting-source-explorer"></a>Uzskaites avota pārlūks
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegta informācija par uzskaites avota pārlūku, kuru var izmantot detalizētai virsgrāmatas uzskaites ierakstu avota informācijas analīzei.
 
-Uzskaites avota pārlūks ir jauna lapa, kas parāda avota informāciju. Var izmantot grāmatvedības avota explorer vai nu kā atsevišķs līdzeklis vai analizēt detaļas aiz Virsgrāmatas uzskaites ierakstiem. Piemēram, var izmantot grāmatvedības avota Internet explorer saņemt visdetalizētāko informāciju par avotu taka bilances līdzsvaru vai dokumenta darbības. Pēc tam varat izmantot līdzekli Eksportēt uz programmu Microsoft Excel, lai informāciju apstrādātu programmā Microsoft Excel (piemēram, izveidotu PivotTable vai PivotTable pārskatu).
+Uzskaites avota pārlūks ir jauna lapa, kas parāda avota informāciju. Uzskaites avota pārlūku varat izmantot vai nu kā savrupu rīku, vai arī, lai analizētu virsgrāmatas uzskaites ierakstu detalizētos datus. Uzskaites avota pārlūku varat izmantot, piemēram, lai iegūt visdetalizētāko apgrozījuma bilances vai dokumenta transakcijas avota informāciju. Pēc tam varat izmantot līdzekli Eksportēt uz programmu Microsoft Excel, lai informāciju apstrādātu programmā Microsoft Excel (piemēram, izveidotu PivotTable vai PivotTable pārskatu).
 
 Uzskaites avota pārlūkā vienas un tās pašas kopsummas katram virsgrāmatas kontam vienmēr tiek rādītas kā Vispārīgas virsgrāmatas (piemēram, Apgrozījuma bilance). Apgrozījuma bilancē segmentus var parādīt atsevišķās kolonnās. Vienkārši izvēlieties atbilstošu finanšu dimensiju kopu. 
 
 Parametrus var izmantot, lai definētu datumu intervālu analīzei. Šī funkcionalitāte ir līdzīga apgrozījuma bilances funkcionalitātei.
 
-Visiem dokumentiem, ko izmanto avota dokumenta struktūru, grāmatvedības avotu Internet explorer rāda papildu informāciju, pamatojoties uz uzskaites sadali un, vajadzības gadījumā projekta grāmatvedības sadalījumiem. Šī informācija ietver monetārās summas tips, projekts, aktivitāte, kategorijas un rindas rekvizītu. Tālāk ir sniegti daži iespējamās analīzes piemēri.
+Visiem dokumentiem, kas izmanto pirmdokumenta struktūru, uzskaites avotu pārlūkā tiek rādīta papildinformācija, pamatojoties uz uzskaites sadalēm un, ja piemērojams, projekta uzskaites sadalēm. Šī informācija ietver naudas summas tipu, projektu, aktivitāti, kategoriju un rindas rekvizītu. Tālāk ir sniegti daži iespējamās analīzes piemēri.
 
 -   Novirzes starp pirkšanas pasūtījumiem un kreditora rēķiniem, jo katras novirzes ir sniegtas, izmantojot naudas summas veidu, piemēram, maksas novirze.
 -   Apmaksājamās un neapmaksājamās stundas un izdevumi projektam, biznesa vienībai un galvenajam kontam.
@@ -46,5 +49,7 @@ Avota dokumentiem, kas izmanto pirmdokumenta atsauces identitātes koncepciju, u
 -   Atlaides kreditoriem, precēm, nodaļām
 
 Šiem dokumentiem no uzskaites avota pārlūka var pārvietoties uz faktisko pirmdokumentu.
+
+
 
 

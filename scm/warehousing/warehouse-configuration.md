@@ -29,7 +29,7 @@ ms.lasthandoff: 03/30/2017
 
 Šajā rakstā ir paskaidrots, kā konfigurēt noliktavu. Tajā ir ietverta informācija par to, kā iespējot noliktavas izkārtojumu un noliktavas procesus.
 
-**Piezīme.** Šis raksts attiecas uz moduļa **Noliktavas vadība** (uzlabotās noliktavas) līdzekļiem. Tas neattiecas uz noliktavas līdzekļiem modulī** Krājumu vadība**.
+**Piezīme.** Šis raksts attiecas uz moduļa **Noliktavas vadība** (uzlabotās noliktavas) līdzekļiem. Tas neattiecas uz noliktavas līdzekļiem modulī **Krājumu vadība**.
 
 ## <a name="warehouse-layout"></a>Noliktavas izkārtojums
 Noliktavu vadības sistēma programmatūrā Microsoft Dynamics 365 for Operations jums sniedz elastīgus veidus, kā definēt savas noliktavas izkārtojumu, lai tas atbilstu mainīgajām vajadzībām, tāpēc varat sasniegt optimālu noliktavas efektivitāti.
@@ -52,13 +52,13 @@ Kā daļa no noliktavas izkārtojuma iespējošanas procesa jums ir jādefinē n
 -   **Novietojumu tipi** — loģiska vai fiziska noliktavas novietojumu grupēšana. Piemēram, varat izveidot atrašanās vietas veidu visiem novietojuma veidiem. Obligātie iestatījumi lapā **Noliktavas vadības parametri** vada sagatavošanas posmu novietojuma tipu un galīgās nosūtīšanas novietojuma tipu definēšanas procesu.
 -   **Novietojumi** — novietojuma informācijas zemākais līmenis. Novietojumi tiek izmantoti, lai izsekotu, kur rīcībā esošie krājumi tiek glabāti un izdoti noliktavā.
 
-Elementi, ko izveidojat, lai definētu savas noliktavas izkārtojumu, tiek izmantoti vaicājumos, kurus iestatāt darbu veidnēs, lai noliktavā vadītu darba pasūtījumus. Tādēļ, kad definējat zonas, novietojumu tipus un citus elementus, ņemiet vērā veidu, kā dažādi apgabali noliktavā tiek izmantoti dažādiem procesiem. Turklāt ņemiet vērā arī tādus faktorus kā konkrēta apgabala fiziskie raksturlielumi. Piemēram, varētu būt apgabalus, kur var izmantot tikai noteikta veida autoiekrāvēju. Vai, ja jūsu uzņēmums izmanto gan ražošanā, gan gatavās produkcijas pašā iekārtā, jūs varētu vēlēties izveidot atsevišķu noliktavu Dynamics 365 operācijām, bet pēc tam atdala divas operācijas, izveidojot divu zonu grupas. Dot savu vienību aprakstošus nosaukumus, tā, lai tas būtu vieglāk identificēt, kad jūs tos izmantot veidnes vaicājumos.
+Elementi, ko izveidojat, lai definētu savas noliktavas izkārtojumu, tiek izmantoti vaicājumos, kurus iestatāt darbu veidnēs, lai noliktavā vadītu darba pasūtījumus. Tādēļ, kad definējat zonas, novietojumu tipus un citus elementus, ņemiet vērā veidu, kā dažādi apgabali noliktavā tiek izmantoti dažādiem procesiem. Turklāt ņemiet vērā arī tādus faktorus kā konkrēta apgabala fiziskie raksturlielumi. Piemēram, var būt apgabali, kur varat izmantot tikai noteikta veida autoiekrāvēju. Vai — ja jūsu uzņēmumam vienās telpās ir gan ražošanas, gan pabeigtās preces — programmatūrā Dynamics 365 for Operations vēlaties izveidot vienu noliktavu, bet pēc tam abas operācijas sadalīt, izveidojot divas zonu grupas. Piešķiriet saviem elementiem aprakstošus nosaukumus, lai tos būtu vienkārši identificēt, kad tos izmantojat veidņu vaicājumos.
 
 ### <a name="location-stocking-limits-location-profiles-and-fixed-picking-locations"></a>Novietojumu dimensiju ierobežojumi, novietojumu profili un fiksēti izdošanas novietojumi
 
 Jums ir jāņem vērā noliktavas fiziskais izkārtojums — gan lai noteiktu glabāšanas ietilpību (novietojuma dimensiju ierobežojumi un novietojuma profili), gan kā daļu no jūsu centieniem optimāli veikt noliktavas procesus. 
 
-Vietā, kas nav fiziskās spējas veikt krājumu laist robežas palīdz garantēt, ka darbs netiek izveidots, lai pieprasītu, ka krājumu atrašanās vietu ganāmpulka. Piemēram, ja dažas vietas noliktavā var turēt tikai vienu paletes katrā vietā, vietā apdzīvotības robežās var iespējot. * * Daudzums * * vērtību var iestatīt, lai **1**, un * * vienības * * vērtību var iestatīt, lai **PL** ietvaros noteiktā vietā profilu grupas. 
+Novietojumu dimensiju ierobežojumi palīdz nodrošināt, ka netiek izveidots darbs, lai pieprasītu krājumus izvietot tādā novietojumā, kur šādu krājumu izvietošanai nav fiziskās ietilpības. Piemēram, ja dažos novietojumos noliktavā katrā novietojumā var ievietot tikai vienu paleti, tad var iespējot novietojuma dimensijas ierobežojumus. Vērtību **Daudzums** var iestatīt uz **1**, un vērtību **Vienība** var iestatīt uz **PL** kādā noteiktā novietojumu profilu grupējumā. 
 
 Ja ir nepieciešami papildu aprēķini, lai kontrolētu novietojuma ietilpības ierobežojumus, var izmantot novietojuma profila iestatījumus. Tādā gadījumā ietilpības aprēķināšanas laikā tiek ņemts vērā svars un tilpums. 
 
@@ -66,7 +66,7 @@ Lai sasniegtu optimālus izejošos procesus, jums ir jāizvērtē, vai izmantot 
 
 ### <a name="location-setup-wizard"></a>Novietojuma iestatīšanas vednis
 
-Lai ātri izveidotu atrašanās vietas noliktavā, var izmantot * atrašanās vietas iestatīšana * * vedni. Kā daļu no šī procesa varat ērti uzturēt novietojumu nosaukumu formātu.
+Lai noliktavā ātri izveidotu novietojumus, varat izmantot vedni **Novietojuma iestatīšana**. Kā daļu no šī procesa varat ērti uzturēt novietojumu nosaukumu formātu.
 
 ## <a name="warehouse-processes"></a>Noliktavas procesi
 Kā daļa no noliktavas konfigurēšanas ir svarīgi noliktavas procesus iespējot atbilstoši biznesa vajadzībām. Vissvarīgākie komponenti, kas jums ir jākonfigurē, ir kopumu veidnes, darbu veidnes, darbu pūli un novietojumu direktīvas.
@@ -75,7 +75,7 @@ Kā daļa no noliktavas konfigurēšanas ir svarīgi noliktavas procesus iespēj
 
 Kopumu veidnes jums palīdz iespējot izejošo procesu “Pārvietot uz noliktavu”. Tiklīdz pasūtījuma rindas tiek izlaistas (vai nu tieši no pirmdokumentiem, izmantojot pakešuzdevumu procesus vai noslodzes, kas jau ir izveidotas), tiek izmantota kopumu veidnes funkcionalitāte. 
 
-Varat izveidot trīs veidu vilnis veidnes: **Shipping**, **ražošanas pasūtījuma**, un **Kanban**. Parametri tiek izmantoti, lai noteiktu, cik tālu sistēma automātiski vajadzētu iet ārzemju darba apstrādi. Kopuma veidne tiek atlasīta, balstoties uz kopuma veidnes secību un kritērijiem, kas ir noteikti šajā veidnē. Ja veidne ir uzskaitīta secības augšpusē, kritēriji šajā veidnē tiek pārbaudīti vispirms. Ja kritēriji ir izpildīti, šī kopuma veidne tiek apstrādāta. Pretējā gadījumā tiek pārbaudīti kritēriji nākamajā veidnē, un tā tālāk. Tādēļ veidni, kurā ir visspecifiskākie kritēriji, ieteicams novietot kopumu veidņu secības saraksta augšpusē, lai tā tiktu apstrādāta vispirms. Piemēram, jūs šodien vēlaties apstrādāt visu darbu attiecībā uz kādu noteiktu pārvadātāju un īslaicīgi aizkavēt darba apstrādi citiem pārvadātājiem. Tādā gadījumā kopumu veidnei, kas atlasa darbu šim pārvadātājam, secībā ir jāatrodas augstāk par citām veidnēm. Pretējā gadījumā var tikt apstrādāts darbs citiem pārvadātājiem, pirms ir pabeigts darbs šim pārvadātājam. 
+Varat izveidot trīs tipu kopumu veidnes: **Nosūtīšana**, **Ražošanas pasūtījums** un **Kanban**. Parametri tiek izmantoti, lai noteiktu, cik tālu sistēmai ir automātiski jāiet, apstrādājot izejošo darbu. Kopuma veidne tiek atlasīta, balstoties uz kopuma veidnes secību un kritērijiem, kas ir noteikti šajā veidnē. Ja veidne ir uzskaitīta secības augšpusē, kritēriji šajā veidnē tiek pārbaudīti vispirms. Ja kritēriji ir izpildīti, šī kopuma veidne tiek apstrādāta. Pretējā gadījumā tiek pārbaudīti kritēriji nākamajā veidnē, un tā tālāk. Tādēļ veidni, kurā ir visspecifiskākie kritēriji, ieteicams novietot kopumu veidņu secības saraksta augšpusē, lai tā tiktu apstrādāta vispirms. Piemēram, jūs šodien vēlaties apstrādāt visu darbu attiecībā uz kādu noteiktu pārvadātāju un īslaicīgi aizkavēt darba apstrādi citiem pārvadātājiem. Tādā gadījumā kopumu veidnei, kas atlasa darbu šim pārvadātājam, secībā ir jāatrodas augstāk par citām veidnēm. Pretējā gadījumā var tikt apstrādāts darbs citiem pārvadātājiem, pirms ir pabeigts darbs šim pārvadātājam. 
 
 Katrā kopumu veidnē jums ir jānorāda kopumu apstrādes metodes. Pieejamās metodes ir atkarīgas no kopumu veidnes tipa.
 
@@ -107,6 +107,6 @@ Lai varētu vieglāk un ātrāk definēt darbības, kas ir saistītas ar katru n
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Konfigurēt atrašanās vietas noliktavā WMS iespējots (uzdevuma norādījumi)](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehousing/)
+[Konfigurēt novietojumus noliktavā ar iespējotu NPS (uzdevuma ceļvedis)](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehousing/)
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="costing-versions"></a>Cenu versijas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegta informācija par izmaksu aprēķināšanas versijām, par to uzturēšanu un datu tipiem, kurus tajās varat iekļaut. Izmaksu aprēķināšanas versijas galvenais mērķis ir iekļaut izmaksu ierakstus par krājumiem, izmaksu kategorijas un netiešo izmaksu aprēķinu formulas.
 
 Izmaksu aprēķināšanas versija var kalpot vienam vai vairākiem nolūkiem, atkarībā no datiem, ko šī izmaksu aprēķināšanas versija ietver. Izmaksu aprēķināšanas versijas galvenais mērķis ir iekļaut izmaksu ierakstus par krājumiem, izmaksu kategorijas un netiešo izmaksu aprēķinu formulas. Izmaksu versijā var būt iekļauta standarta izmaksu ierakstu kopa vai plānoto izmaksu ierakstu kopa, kuru pamatā ir izmaksu veids, kas piešķirts izmaksu versijai.
@@ -63,5 +66,7 @@ Galvenais iemesls, kāpēc iespējot pirkšanas cenas datus, ir definēt pirkša
 Lai iespējotu pirkšanas cenas saturu, jums vispirms ir jādefinē MK aprēķinu grupa, kas ietver izmaksu cenu modeli krājuma pirkšanas cenai, un jāpiešķir MK aprēķinu grupa iegādātajiem krājumiem. Pēc tam jums ir jāizmanto izmaksu cenu modelis MK aprēķinu grupai, kad veicat MK aprēķinus, kuros tiek izmantotas plānotās izmaksas, lai aprēķinātu saražoto krājumu pārdošanas cenu. 
 
 Pirkšanas cenu ieraksti krājumiem tiek izmantoti arī kā uzziņu informācija. Krājuma pirkšanas cenas ieraksta statusu mainot no **Gaidošs** uz **Aktīvs**, varat atjaunināt krājuma bāzes pirkšanas cenu. Taču pirkšanas pamatcena nav atkarīga no vietas, un to var manuāli pārrakstīt. Krājuma pirkšanas pamatcena tiek izmantota kā pirkšanas pasūtījumu noklusējuma pirkšanas cena.
+
+
 
 

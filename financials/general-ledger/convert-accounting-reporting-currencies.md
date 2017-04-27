@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="convert-accounting-or-reporting-currencies"></a>Konvertēt grāmatvedības vai pārskata valūtas
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Uzņēmumam, kam ir jānomaina uzskaites valūta vai pārskata valūta, ir divas iespējas. Pirmā iespēja ir izveidot jaunu uzņēmumu un sākt visu no jauna. Otra iespēja ir veikt uzskaites un pārskata valūtas konvertēšanu. Tas ir ļoti ilglaicīgs process, kas maina katru sistēmas darbību. Pirms procesa sākšanas ir nepieciešami arī daži iestatījumi.
@@ -72,6 +75,8 @@ Pēc konvertēšanas vēlreiz ir jāģenerē visi saskaņošanas pārskati, lai 
 -   Ja virsgrāmatas uzskaites valūtas konvertēšana rada noapaļošanas atšķirības, šīs atšķirības netiek grāmatotas, izmantojot dokumentu, kurā ir radusies noapaļošanas atšķirība. Tā vietā atšķirības tiek grāmatota, lietojot konvertēšanas grāmatojumiem ievadīto dokumentu. Pēc konvertēšanas visos pārskatos, kuri tiek pārbaudīti pēc dokumenta un datuma, tiks iekļautas šīs noapaļošanas atšķirības. Šī darbība ir pareiza, un to var ignorēt.
 -   Ja kreditora un debitora saskaņošanas pārskati parāda atšķirīgu daudzumu kopsummas rindā un pirms konvertēšanas nav daudzuma atšķirību, atšķirīgais daudzums jāiegrāmato. Konts ir debitoru un kreditoru kopsavilkuma konts. Korespondējošais konts ir konvertēšanas zaudējumu vai konvertēšanas peļņas virsgrāmatas konts.
 
-Kad visi virsgrāmatas darbību žurnāli izdzēsti, varat ierakstiet žurnālā virsgrāmatas darbības. Noklikšķiniet uz **Virsgrāmatas**&gt;**periodiskā**&gt;**žurnālos**&gt;**žurnāla reģistrācija**. Pēc valūtas konvertēšanas varat pārvērtēt ārvalstu valūtas summas, ja pārvērtēšana ir nepieciešama. Pārvērtējiet ārvalstu valūtas summas, atlasot opciju **Standarta** laukā **Metode**.
+Kad visi virsgrāmatas darbību žurnāli izdzēsti, varat ierakstiet žurnālā virsgrāmatas darbības. Noklikšķiniet uz **Virsgrāmata** &gt; **Periodiskās darbības** &gt; **Žurnāli** &gt; **Reģistrācija žurnālā**. Pēc valūtas konvertēšanas varat pārvērtēt ārvalstu valūtas summas, ja pārvērtēšana ir nepieciešama. Pārvērtējiet ārvalstu valūtas summas, atlasot opciju **Standarta** laukā **Metode**.
+
+
 
 

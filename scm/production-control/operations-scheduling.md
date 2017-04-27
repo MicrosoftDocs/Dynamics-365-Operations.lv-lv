@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-scheduling"></a>Operāciju plānošana
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā tēmā ir sniegta informācija par operāciju plānošanu. Operāciju plānošanu var lietot, lai sniegtu vispārēju ražošanas procesa novērtējumu laika periodam.
 
 Varat plānot ražošanu operāciju līmenī un darbu līmenī. Atšķirībā no darbu plānošanas operāciju plānošana neizvērš ražošanas maršruta operācijas darbos. Ja vēlaties plānošanā iekļaut vairāk informācijas, piemēram, informāciju par pašreizējo noslodzi, varat palaist darbu plānošanu pēc operāciju plānošanas palaišanas. Varat arī palaist tikai darbu plānošanu. Darbu plānošana parasti tiek izmantota atsevišķu darbu plānošanai ražotnē nekavējoties vai īstermiņa periodā.
@@ -76,5 +79,7 @@ Ja strādājat ar ierobežotiem materiāliem, plānošana ir atkarīga arī no r
 --------
 
 [Operāciju plānošanas opcijas](operation-scheduling-options.md)
+
+
 
 

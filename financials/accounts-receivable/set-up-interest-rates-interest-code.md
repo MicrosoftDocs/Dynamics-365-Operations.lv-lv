@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Procentu likmju iestatīšana interešu kodam
 
+[!include[banner](../includes/banner.md)]
+
+
 Procentu kodi satur iestatījumus, kas nosaka, kad procenti tiek aprēķināti un kā tie tiek aprēķināti nokavētiem kontiem.
 
 Varat iestatīt vienu procentu kodu un piemērot to vairākiem debitora grāmatošanas profiliem, norēķinu kodiem vai noteiktām rēķina rindām. Mainoties procentu kodu detaļām, visas funkcijas, kuras lieto kodu, automātiski veiks izmaiņas jaunos darījumos. Katram procentu kodam varat uzstādīt divu veidu likmes.
@@ -44,17 +47,17 @@ Varat iestatīt procentu likmes, kas aprēķina noteiktu procentu.
 
 -   Procentu summa attiecas uz visām valūtām.
 -   Iespējams ievadīt neobligātus procentu summas ierobežojumus.
--   **Procentu** atzīmēta * * * *, **aprēķināt procentus, kas balstās uz** lauku **iestatīt soda naudas kodus** lapu.
+-   Vienums **Procenti** ir atlasīts** **laukā **Aprēķināt procentus, pamatojoties uz**, kurš atrodas lapā **Iestatīt procentu kodus**.
 
-Piemēram, lai iestatītu soda naudas kodiem, kas novērtē procentu likmi 5 procenti, ik pēc diviem mēnešiem rēķina maksājums pārsniedz darījuma izpildes datums būtu jāievada 2 **aprēķināt procentus katru** lauka un atlasiet **mēnesī**.
+Piemēram, lai iestatītu procentu kodu, kas novērtē 5 procentu soda naudu par katriem diviem mēnešiem, kuros rēķina maksājums pārsniedz transakcijas izpildes datumu, laukā **Aprēķināt procentus ik pēc šāda laikposma** ir jāievada 2 un jāatlasa **Mēnesis**.
 
 ## <a name="interest-rates-based-on-amounts"></a>Uz summām balstītas procentu likmes
 Varat iestatīt procentu likmes, kas aprēķina norādīto summu pēc valūtām.
 -   Procentu summa tiek norādīta katrai valūtai procentu kodā.
 -   Iespējams ievadīt neobligātus procentu summas ierobežojumus.
--   * * Summa * * atlasīta **aprēķināt procentus, kas balstās uz** lauku **iestatīt soda naudas kodus** lapā.
+-   Vienums **Summa **ir atlasīts laukā **Aprēķināt procentus, pamatojoties uz**, kurš atrodas lapā **Iestatīt procentu kodus**.
 
-Piemēram, lai iestatītu soda naudas kodiem, kas izvērtē 25,00 interešu ik pēc 20 dienām, rēķina maksājums pārsniedz darbības izpildes datumu, ievadiet 20 **aprēķināt procentus katru** lauka un atlasiet **dienu**.
+Piemēram, lai iestatītu procentu kodu, kas novērtē 25,00 soda naudu par katrām 20 dienām, kurās rēķina maksājums pārsniedz transakcijas izpildes datumu, laukā **Aprēķināt procentus ik pēc šāda laikposma** ir jāievada 20 un ir jāatlasa vienums **Diena**.
 
 ## <a name="interest-rates-based-on-ranges"></a>Uz diapazoniem balstītas procentu likmes
 Varat iestatīt procentu likmes, kas svārstās atkarībā no nokavētās maksājuma summas, nokavēto dienu skaita vai nokavēto mēnešu skaita.
@@ -67,13 +70,13 @@ Iestatiet procentu kodu, kas novērtē procentus vienu reizi katrus trīs mēne�
 | **Lauka nosaukums**                  | **Lauka vērtība** |
 |---------------------------------|-----------------|
 | **Soda naudas kods**               | 3M%ByAmt        |
-| **Aprēķināt procentus ik pēc šāda laikposma:**    | 3/month         |
+| **Aprēķināt procentus ik pēc šāda laikposma:**    | 3/Mēnesis         |
 | **Procenti pēc diapazona**           | Summa          |
 | **Aprēķināt procentus, pamatojoties uz** | Procenti      |
 
 Iestatiet diapazona informāciju, kā norādīts tālāk.
 
-| **From value** | **Interest value** |
+| **No vērtības** | **Procentu vērtība** |
 |----------------|--------------------|
 | 0              | 1.                  |
 | 1,001          | 2.                  |
@@ -94,7 +97,7 @@ Iestatiet procentu kodu, kas novērtē procentus vienu reizi katras 15 dienas, p
 
 Iestatiet diapazona informāciju, kā norādīts tālāk.
 
-| **From value** | **Interest value** |
+| **No vērtības** | **Procentu vērtība** |
 |----------------|--------------------|
 | 0              | 10.                 |
 | 61             | 15.                 |
@@ -109,13 +112,13 @@ Iestatiet procentu kodu, kas novērtē procentus vienu reizi katru mēnesi, par 
 | **Lauka nosaukums**                  | **Lauka vērtība** |
 |---------------------------------|-----------------|
 | **Soda naudas kods**               | 1M%ByMth        |
-| **Aprēķināt procentus ik pēc šāda laikposma:**    | 1/month         |
+| **Aprēķināt procentus ik pēc šāda laikposma:**    | 1/Mēnesis         |
 | **Procenti pēc diapazona**           | Mēneši          |
 | **Aprēķināt procentus, pamatojoties uz** | Procenti      |
 
 Iestatiet diapazona informāciju, kā norādīts tālāk.
 
-| **From value** | **Interest value** |
+| **No vērtības** | **Procentu vērtība** |
 |----------------|--------------------|
 | 0              | 1.5                |
 | 4.              | 2.                  |
@@ -125,5 +128,7 @@ Iestatiet diapazona informāciju, kā norādīts tālāk.
 Procentu kodiem ir spēkā stāšanās datums. Ja procentu likmi vēlaties mainīt, varat izveidot **jaunu versiju**, kas ir spēkā no nākotnes datuma.
 
 Lai skatītu citādas versijas, varat izmantot izvēlnes vienumu **No datuma**, lai atlasītu robeždatuma. Varat arī atlasīt vienumu **Rādīt visus ierakstus**, lai skatītu visus procentu kodus lapā.
+
+
 
 

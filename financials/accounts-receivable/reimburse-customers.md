@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reimburse-customers"></a>Kompensācijas debitoriem
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir skaidrots, kā debitoru grupai izveidot atlīdzināšanas transakcijas. Ja debitoram ir kredīta bilance, varat atlīdzināt debitoram bilances summu. 
 
 Tālāk esošajā tabulā ir norādīti priekšnoteikumi, kas ir jāizpilda pirms darba sākšanas.
@@ -47,6 +50,8 @@ Veidojot atlīdzināšanas darbības, tiek izveidots kreditora rēķins par kred
     Kredīta summas tiek pārskaitītas uz debitoriem atbilstošajiem kreditoru kontiem un apstrādātas kā parasti maksājumi. Ja debitoram nav kreditora konta, debitoram automātiski tiek izveidots vienreizējs kreditora konts.
 3.  Lai skatītu izveidotās kompensācijas transakcijas, izmantojiet lapu **Kompensācija**.
 4.  Sadaļā Kreditori izveidojiet maksājumu kreditora rēķiniem, kas tika izveidoti, veicot kompensācijas procesu.
+
+
 
 
 

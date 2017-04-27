@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="product-receipt-against-purchase-orders"></a>Produktu ieejas plūsma pret pirkšanas pasūtījumiem
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir izklāstītas dažādās opcijas, kas ir pieejamas, lai produktus reģistrētu kā saņemtus.
 
 Produktu ieejas plūsma ir process, kas paredzēts, lai reģistrētu, kādi pasūtītie produkti tika saņemti, lai pēc tam pirkšanas pasūtījumu (PP) rindas varētu apstrādāt rēķinu izrakstīšanai. Reizēm produktiem ir jāizpilda sākotnējā reģistrēšana, kur tiek ierakstīta papildu informācija no piegādātāja, pirms produkti tiek saņemti. Kad produkti tiek piegādāti, tie vispirms tiek atzīmēti kā **Reģistrēts**. Produktiem var būt nepieciešams izpildīt papildu procesus, piemēram, kvalitātes pārvaldību, pirms tie visbeidzot tiek atzīmēti kā **Saņemts**.
@@ -52,19 +55,21 @@ Varat atlasīt vairākus pasūtījumus un apstrādāt ieejas plūsmu visiem šie
 
 Pirkšanas pasūtījumus ir iespējams veidot no pārdošanas pasūtījuma, kur ir atlasīta opcija **Tiešā piegāde**. Ja tiek lietota tiešā piegāde, produkti nekad netiek piegādāti jūsu noliktavā, bet no piegādātāja tiek nosūtīti tieši debitoram. Tādā gadījumā ieejas plūsma parasti tiek ierakstīta tieši pirkšanas pasūtījumā. Ieejas plūsmu var izpildīt automātiski, piemēram, izmantojot elektroniskās datu apmaiņas (EDI) integrāciju ar piegādātāju. Ja pirkšanas pasūtījums ir starpuzņēmumu pirkšanas pasūtījums, tad Microsoft Dynamics 365 for Operations sūtījuma veikšanas laikā var arī automatizēt ieejas plūsmu starpuzņēmumu pārdošanas pasūtījumam. Kad tiek lietota tiešā piegāde, produkti joprojām tiek iekļauti uzskaitē kā krājumi, lai gan tie fiziski netiek piegādāti noliktavā. Tādēļ, kad produktu ieejas plūsmu reģistrējat pirkšanas pasūtījumā, pārdošanas pasūtījums tiek automātiski atjaunināts ar pavadzīmi, tādējādi kopējās krājumu izmaiņas ir 0 (nulle). Tiešās piegādes scenārijos jums nav nepieciešama sākotnējā reģistrēšana. Ja lietojat noliktavas, kurām ir iespējota noliktavas vadība, varat apiet prasību reģistrēt noliktavas vienības identifikatoru, tā vietā norādot virtuālu noliktavu. Šo noliktavu jūs norādāt produkta laukā **Tiešās piegādes noliktava**. 
 
-Pēc produkta saņemšanas apstrādes uz PP PP statuss ir iestatīts uz **Received** norāda, ka rēķins var apstrādāt pasūtījumam. Detalizētu informāciju par produktiem, kas jau ir saņemti, varat pārskatīt, izmantojot lapu **Produktu ieejas plūsmu žurnāli**.  
+Kad pirkšanas pasūtījumā ir apstrādāta produkta ieejas plūsma, pirkšanas pasūtījuma statuss tiek mainīts uz **Saņemts**, lai norādītu, ka šim pasūtījumam var apstrādāt rēķinu. Detalizētu informāciju par produktiem, kas jau ir saņemti, varat pārskatīt, izmantojot lapu **Produktu ieejas plūsmu žurnāli**.  
 
 Šai lapai varat piekļūt no darbību grupas **Ieejas plūsma** lapā **Pirkšanas pasūtījums**. Informācija šajos žurnālos ietver informāciju par daudzumiem, datumiem un dimensijām.
 
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Pārskats par pirkšanas pasūtījumu](purchase-order-overview.md)
 
-[Purchase order creation](purchase-order-creation.md)
+[Pirkšanas pasūtījuma izveide](purchase-order-creation.md)
 
 [Pirkšanas pasūtījumu apstiprināšana un ratificēšana](purchase-order-approval-confirmation.md)
 
 [Kreditoru rēķinu apskats](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

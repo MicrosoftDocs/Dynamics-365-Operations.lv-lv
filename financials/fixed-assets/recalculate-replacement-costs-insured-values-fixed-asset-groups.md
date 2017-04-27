@@ -1,5 +1,5 @@
 ---
-title: "Pārrēķināt Nomaiņa izmaksas un apdrošinātās vērtības pamatlīdzekļu grupām"
+title: "Pamatlīdzekļu grupu aizstāšanas izmaksu un apdrošinātās vērtību pārrēķināšana"
 description: "Šajā rakstā ir paskaidrots, kā atjaunināt pamatlīdzekļu atjaunošanas izmaksas un apdrošinātās vērtības."
 author: twheeloc
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Pārrēķināt Nomaiņa izmaksas un apdrošinātās vērtības pamatlīdzekļu grupām
+# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Pamatlīdzekļu grupu aizstāšanas izmaksu un apdrošinātās vērtību pārrēķināšana
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir paskaidrots, kā atjaunināt pamatlīdzekļu atjaunošanas izmaksas un apdrošinātās vērtības.
 
@@ -38,18 +41,18 @@ Lai pārrēķinātu pamatlīdzekļu grupu aizstāšanas izmaksas un apdrošināt
 
 Ja forma Aizstāšanas izmaksu un apdrošināto vērtību atjaunināšana tiek izmantota, lai pārrēķinātu pamatlīdzekļu atjaunošanas izmaksas un apdrošinātās vērtības, tiek izmantotas tālāk norādītās formulas.
 
--   \[(Pamatlīdzekļu grupas Nomaiņa izmaksu faktors / 100) + 1\]\* esošo pamatlīdzekļu aizstāšanas izmaksas
--   \[(Pamatlīdzekļu grupai ir apdrošinātās vērtības koeficients / 100) + 1\]\* aktīva esošo apdrošinātās vērtības
+-   \[(Līdzekļu grupas atjaunošanas izmaksu koeficients / 100) + 1\] \* līdzekļa pašreizējās atjaunošanas izmaksas
+-   \[(Līdzekļu grupas apdrošināšanas summas koeficients / 100) + 1\] \* līdzekļa pašreizējā apdrošināšanas summa
 
 > [!NOTE] 
 > Ja tiek izmantota forma Aizstāšanas izmaksu un apdrošināto vērtību atjaunināšana, tiek atjauninātas gan atlasīto pamatlīdzekļu aizstāšanas izmaksas, gan apdrošinātās vērtības; nevar norādīt tikai vienas vērtības atjaunināšanu. Lai nemainītu vienu vērtību, bet atjauninātu otru, formā Pamatlīdzekļu grupas kā koeficientu ievadiet 0 (nulle). Ja koeficients ir nulle vai tukšs, tad aprēķins atjauninājumā tiek izlaists. Periodiskā atjaunināšana pamatlīdzekļu atlikušo vērtību un atlikušo neto vērtību neietekmē. 
 
 ## <a name="how-to-use-a-date-to-select-which-items-to-update"></a> Kā lietot datumu, lai atlasītu atjaunināmos krājumus
-Pēc noklusējuma atjaunināšanas procesa laikā tiek atjaunināti atlasītie pamatlīdzekļi, kas nav atjaunināti pašreizējā dienā, bet, iespējams, ka tie ir jau atjaunināti kādā no iepriekšējām dienām. Piemēram, &lt;pašreizējais datums nozīmē "pirms šodien." Update Nomaiņa izmaksas un apdrošinātās vērtības formā datumu varat mainīt, noklikšķinot uz pogas Atlasīt. Norādītais datuma kritērijs tiek salīdzināts ar pamatlīdzekļa pēdējās periodiskās atjaunināšanas datumu (lauks Pēdējā periodiskās vērtības/izmaksu atjaunināšana formā Pamatlīdzekļi). Katru reizi sekmīgi atjauninot pamatlīdzekļa aizstāšanas izmaksas vai apdrošinātās vērtību, laukā Pēdējā periodiskās vērtības/izmaksu atjaunināšana automātiski tiek atjaunināts pašreizējais datums. 
+Pēc noklusējuma atjaunināšanas procesa laikā tiek atjaunināti atlasītie pamatlīdzekļi, kas nav atjaunināti pašreizējā dienā, bet, iespējams, ka tie ir jau atjaunināti kādā no iepriekšējām dienām. Piemēram, &lt; pašreizējais datums nozīmē “pirms šodienas”. Varat mainīt datumu veidlapā Atjauniniet aizstāšanas izmaksas un apdrošinātās vērtības, noklikšķinot uz pogas Atlasīt. Norādītais datuma kritērijs tiek salīdzināts ar pamatlīdzekļa pēdējās periodiskās atjaunināšanas datumu (lauks Pēdējā periodiskās vērtības/izmaksu atjaunināšana formā Pamatlīdzekļi). Katru reizi sekmīgi atjauninot pamatlīdzekļa aizstāšanas izmaksas vai apdrošinātās vērtību, laukā Pēdējā periodiskās vērtības/izmaksu atjaunināšana automātiski tiek atjaunināts pašreizējais datums. 
 
 Paraugs 
 
-Esat atjauninājis aizstāšanas izmaksas, transportlīdzekļos, biroja mēbeles un ēku grupām par 5 procentiem, vakar un tagad uzskatāt, ka šie aktīvi ir jāatjaunina precīzi. Izslēgt šos aktīvus, atjauninot šodien visiem pārējiem pamatlīdzekļiem, ievadāt datumu pēdējā periodisku vērtība/izmaksu atjaunināt lauku, kas ir pirms vakar (&lt; vakardienas datumu), jo pēdējā atjauninājumā, transportlīdzekļos, biroja mēbeles un ēku grupām notikuši ārpus datumu jūsu ievadītajiem kritērijiem.
+Vakar esat par 5 % atjauninājis grupu Transportlīdzekļi, Biroja mēbeles un Ēkas atjaunošanas izmaksas un tagad uzskatāt, ka šie līdzekļi ir pareizi atjaunināti. Lai izslēgtu šos līdzekļus, šodien atjauninot visus pārējos pamatlīdzekļus, laukā Datums, kad pēdējoreiz atjaunināta periodiskā vērtība/cena ievadiet datumu, kas ir pirms vakardienas datuma (&lt; vakardienas datums), jo pēdējā grupu Transportlīdzekļi, Biroja mēbeles un Ēkas atjaunināšana tika veikta neatbilstoši ievadītajam datuma kritērijam.
 
 ## <a name="cumulative-effect-of-each-update"></a> Katra atjauninājuma kopējā ietekme
 Katram atjauninājumam ir raksturīga kopēja ietekme Tāpēc atjaunināšanas darbības ir rūpīgi jāplāno. Piemēram, ja otrdien visu pamatlīdzekļu vērtība tiek palielināta par 3 % un pēc tam piektdien tiek palielināta biroja mēbeļu vērtība par 4 %, biroja mēbeļu vērtība kopumā palielināsies par 7,12 %.
@@ -72,6 +75,8 @@ Nākamajā dienā jūsu vadītājs jūs informē, ka datoru vērtība ir samazin
 
 > [!NOTE]  
 > Koeficientu –10 nevar nomainīt, ievadot koeficientu +10 (vai koeficientu 2, starpību starp –10 un –8), jo summas netiks aprēķinātas atbilstoši jūsu vēlmēm. 
+
+
 
 
 

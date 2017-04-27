@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reverse-a-vendor-payment"></a>Kreditoru maksājumu atcelšana
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā aprakstītas maksājuma atcelšanas, dzēšanas, anulēšanas un noraidīšanas atšķirības. Papildus šeit ir aprakstītas divas kreditora čeka atcelšanas metodes. 
 
-Dažkārt pēc maksājuma piegādātājam iegrāmatošanas maksājums ir jāatsauc. Atcelšana atšķiras no maksājuma dzēšanas, anulēšanas vai noraidīšanas. Maksājumu var dzēst tikai tad, ja tā statuss ir **Izveidots**. Šis statuss norāda, ka maksājums ir izveidots, bet nav vēl izveidota. Šis ierobežojums vienmēr attiecas, neatkarīgi no maksājuma metodi. Neiegrāmatotās pārbaudes var anulēt pēc tam, kad tie ir izveidoti, bet, pirms tie tiek grāmatoti. Ja ģenerēts maksājums ir izdarīts kā elektroniska fondu nodošanu (EFT), var noraidīt maksājumu pirms to iegrāmatošanas. Lai atteiktu maksājumus, mainīt **maksājuma statuss** vērtību. Maksājumu, kas ir anulēts vai noraidīts var tikt atkārtoti veidotas pēc **maksājuma statuss** vērtība tiek mainīts atpakaļ uz **nav**. 
+Dažkārt pēc maksājuma piegādātājam iegrāmatošanas maksājums ir jāatsauc. Atcelšana atšķiras no maksājuma dzēšanas, anulēšanas vai noraidīšanas. Maksājumu var dzēst tikai tad, ja tā statuss ir **Izveidots**. Šis statuss norāda, ka maksājums ir izveidots, taču vēl nav ģenerēts. Šis ierobežojums ir spēkā vienmēr neatkarīgi no maksāšanas metodes. Varat anulēt negrāmatotus čekus pēc tam, kad ies ir ģenerēti, taču pirms tie ir grāmatoti. Ja ģenerēts maksājums tiek veikts, izmantojot elektronisko līdzekļu pārskaitījumu (EFT), varat noraidīt maksājumu pirms tā grāmatošanas. Lai noraidītu maksājumu, mainiet lauka **Maksājuma statuss** vērtību. Anulētu vai noraidītu maksājumu var atkārtoti ģenerēt pēc tam, kad lauka **Maksājuma statuss** vērtība ir nomainīta atpakaļ uz **Nav**. 
 
-Pēc tam, kad ir iegrāmatots maksājums, izmanto maiņas. Maksājumi, kas veikti elektroniski nevar atsaukt pēc tam, kad tie ir iegrāmatoti. Tā vietā jauna darbība jāveido par summu maksājumu saistības nokļūt atpakaļ uz piegādātāja rēķina. Pastāv divas metodes atpakaļgaitas ievietojis pārbaudes. Izmantojot vienu no metodēm, atgriešana tiek nekavējoties grāmatota, nospiežot **Maksājuma atcelšana** lapā **Pārbaudīt**. Otrajā metodē, noklikšķinot uz pogas **Maksājuma atcelšana** lapā **Pārbaudīt**, atcelšana vispirms tiek nosūtīta uz čeku anulēšanas žurnālu skaidrā naudā un bankas vadībai, kur pārskatītājs var grāmatot vai noraidīt atcelšanu. 
+Pēc maksājuma grāmatošanas tiek izmantota atcelšana. Elektroniski veiktos maksājumus nevar atcelt pēc to grāmatošanas. Tā vietā ir jāizveido jauna transakcija par maksājuma summu, lai pasīvu atgrieztu piegādātāja kontā. Ir pieejamas divas iegrāmatoto čeku atcelšanas metodes. Izmantojot vienu no metodēm, atgriešana tiek nekavējoties grāmatota, nospiežot **Maksājuma atcelšana** lapā **Pārbaudīt**. Otrajā metodē, noklikšķinot uz pogas **Maksājuma atcelšana** lapā **Pārbaudīt**, atcelšana vispirms tiek nosūtīta uz čeku anulēšanas žurnālu skaidrā naudā un bankas vadībai, kur pārskatītājs var grāmatot vai noraidīt atcelšanu. 
 
 Lai uzzinātu, kādu metodi izmanto jūsu uzņēmums, skatiet lapu **Skaidras naudas un bankas pārvaldības parametri**. Ja opcija **Maksājumu atgriešanai izmantot pārskatīšanas procesu** ir iestatīta uz **Jā**, atcelšanas tiek sūtītas uz čeku anulēšanas žurnālu pārskatīšanai. Tālāk esošajā tabulā ir aprakstīts, kā čeka atgriešanas metodes atšķiras.
 
@@ -57,7 +60,7 @@ Ja esat lietotājs, kuram jāpārskata atcelšanas, varat apstiprināt un grāma
 -   Lai noraidītu atcelšanu, izdzēsiet čeku anulēšanas žurnālu.
 
 > [!NOTE]
-> Ja jūs dzēst žurnālu, atsaukšana tiek izņemta no sistēmas, bet paliek sākotnējā pārbaude **pārbaudīt** lapā. Čeka statuss vairs nav **Gaidoša atcelšana**.
+> Ja dzēšat žurnālu, atcelšana tiek noņemta no sistēmas, taču sākotnējais čeks joprojām ir norādīts lapā **Čeks**. Čeka statuss vairs nav **Gaidoša atcelšana**.
 
 ## <a name="results-of-posting-a-reversal"></a>Atcelšanas grāmatošanas rezultāti
 Grāmatojot čeka atcelšanu, notiek šādi notikumi:
@@ -78,6 +81,8 @@ Ja atceltais čeks tika izsniegts debitora kompensācijas izmaksai, notiek šād
 
 -   Transakcija tiek grāmatota attiecībā pret maksājuma atgriešanas debitora kontu, un norēķināšanās starp sākotnējo maksājumu un dokumentu, par kuru sākotnēji tika veikts norēķins, ir atgriezta (tiek izveidots negatīvs maksājums).
 -   Maksājuma atcelšana tiek piemērota oriģinālajam maksājumam. Lauks **Pēdējais nosegšanas dokuments** lapā **Debitora darbības** sākotnējam debitora maksājumam tiek atjaunināts, lai parādītu atceltās darbības dokumenta numuru.
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Pārdošanas pasūtījumus mobilo darbvietu Microsoft Dynamics 365 app darbības"
-description: "Ar pārdošanas pasūtījumu mobilo darbvietu, jūs varat palikt atjauninātu jūsu pārdošanas pasūtījumos visur un jebkurā laikā."
+title: "Mobilā darbvieta Pārdošanas pasūtījumi programmai Microsoft Dynamics 365 for Operations"
+description: "Izmantojot mobilo darbvietu Pārdošanas pasūtījumi, varat sekot līdzi pārdošanas pasūtījumiem jebkurā vietā un laikā."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,93 +25,93 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="sales-orders-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Pārdošanas pasūtījumus mobilo darbvietu Microsoft Dynamics 365 app darbības
+# <a name="sales-orders-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Mobilā darbvieta Pārdošanas pasūtījumi programmai Microsoft Dynamics 365 for Operations
 
-Ar pārdošanas pasūtījumu mobilo darbvietu, jūs varat palikt atjauninātu jūsu pārdošanas pasūtījumos visur un jebkurā laikā. 
+Izmantojot mobilo darbvietu Pārdošanas pasūtījumi, varat sekot līdzi pārdošanas pasūtījumiem jebkurā vietā un laikā. 
 
 <a name="prerequisites"></a>Priekšnosacījumi
 -------------
 
 | Priekšnoteikumi                                                         | apraksts                                                                                                                                                                   |
 |----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Lasiet par Microsoft Dynamics 365 operācijas mobilā platforma | [Dinamika 365 operācijas mobilā platforma](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
-| Dinamika 365 operācijām                                          | Pārliecinieties, ka jūs izmantojat vidē, kas ir Microsoft Dynamics 365 darbību versija 1611 un Microsoft Dynamics darbības platformu atjaunināt 3 (2016. gada novembrī). |
-| Labojumfailu KB 3215650                                                    | Jāinstalē labojumfails, lai iespējotu darbvietu, ar kurām ir norādītas Microsoft Dynamics 365 operācijām.                                                                       |
-| Mobilā ierīce, kurā ir dinamika 365 operācijas app uzstādīta | Lejupielādējiet Dynamics 365 operācijas app no mobilo app store.                                                                                                      |
+| Lasīt par Microsoft Dynamics 365 for Operations mobilo platformu | [Dynamics 365 for Operations mobilā platforma](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
+| Dynamics 365 for Operations                                          | Pārliecinieties, ka izmantojat vidi, kurā ir instalēta Microsoft Dynamics 365 for Operations versija 1611 un Microsoft Dynamics for Operations 3. platformas atjauninājums (2016. gada novembra laidiens). |
+| Labojumfails KB 3215650                                                    | Instalējiet labojumfailu, lai iespējotu programmatūrā Microsoft Dynamics 365 for Operations nodrošinātās darbvietas.                                                                       |
+| Mobilā ierīce, kurā ir instalēta Dynamics 365 for Operations programma | Lejupielādējiet Dynamics 365 for Operations programmu no mobilo programmu veikala.                                                                                                      |
 
 ## <a name="overview"></a>Pārskats
-Šo mobilo darbvietu piekļūst Dynamics 365 darbību piemērošanai un var apskatīt detalizētu informāciju par katru pārdošanas pasūtījumu, piemēram, pasūtījuma statuss, klientu kontaktinformācija un pasūtījuma pieņēmēja kontaktinformāciju. Mobilo darbvietu nodrošina tērzēšanas skats no pārdošanas pasūtījumiem. Var skatīt pārdošanas pasūtījumu ar klientu, vai skatīt visus pārdošanas pasūtījumus, vai skatiet informāciju par noteiktiem pārdošanas pasūtījumiem. Mobilo darbvietu nodrošina divus skatus, lai palīdzēt jums analizēt pārdošanas pasūtījumus padziļināti.
+Šī mobilā darbvieta piekļūst lietojumprogrammai Dynamics 365 for Operations un sniedz iespēju skatīt detalizētu informāciju par katru pārdošanas pasūtījumu, piemēram, pasūtījuma statusu, debitora kontaktinformāciju un pasūtījuma saņēmēja kontaktinformāciju. Mobilā darbvieta sniedz iespēju nekavējoties skatīt pārdošanas pasūtījumus. Varat skatīt pārdošanas pasūtījumus pēc debitora, skatīt visus pārdošanas pasūtījumus vai skatīt informāciju par noteiktu pārdošanas pasūtījumu. Mobilā darbvieta nodrošina divus skatus, kas palīdz detalizēti analizēt pārdošanas pasūtījumus.
 
 ### <a name="view-all-sales-orders"></a>Skatīt visus pārdošanas pasūtījumus
 
-Šajā skatījumā tiek parādīti visiem pārdošanas pasūtījumiem.
+Šajā skatā tiek rādīti visi pārdošanas pasūtījumi.
 
--   Izmantojiet vienu no šādu filtru, lai atlasītu pārdošanas pasūtījumu, kuru vēlaties skatīt.
+-   Izmantojiet kādu no tālāk norādītajiem filtriem, lai atlasītu pārdošanas pasūtījumus, ko vēlaties skatīt.
     -   Meklēt pēc pārdošanas pasūtījuma
     -   Meklēt pēc debitora konta
-    -   Meklēšana pēc klienta vārda
+    -   Meklēt pēc debitora nosaukuma
     -   Meklēt pēc statusa
-    -   Meklēt pēc atbrīvošanas statusu
-    -   Meklēt pēc izveidotās datumu un laiku
+    -   Meklēt pēc nodošanas izpildei statusa
+    -   Meklēt pēc izveides datuma un laika
 
 <!-- -->
 
--   Pēc tam, kad jūs atlasiet pārdošanas pasūtījumu, var apskatīt informāciju par noteiktiem pasūtījumiem. Proti, jūs varat apskatīt:
-    -   Klienta vārdu un adreses informāciju
-    -   Dažādās pārdošanas pasūtījumu datumus, piemēram, pieprasītais nosūtīšanas datums un pastiprinātais nosūtīšanas datums
-    -   Pasūtījuma pieņēmējs kontaktinformācija
-    -   Klientu kontaktpersonu informācija
+-   Pēc pārdošanas pasūtījumu atlases varat skatīt detalizētu informāciju par noteiktiem pasūtījumiem. Varat skatīt tālāk norādīto informāciju.
+    -   Debitora nosaukuma un adreses informācija
+    -   Dažādi pārdošanas pasūtījuma datumi, piemēram, pieprasītais nosūtīšanas datums un apstiprinātais nosūtīšanas datums
+    -   Pasūtījuma saņēmēja kontaktinformācija
+    -   Debitora kontaktinformācija
     -   Pasūtījuma rindas
-    -   Sūtījumus, kas parāda, kā un kad pārdošanas pasūtījums ir piegādāts
+    -   Sūtījumi, kas norāda kā un kad pārdošanas pasūtījums ir nosūtīts
 
-### <a name="view-orders-for-a-customer-"></a>Skatītu pasūtījumu debitoram * * * *
+### <a name="view-orders-for-a-customer-"></a>Skatīt noteikta debitora pasūtījumus** **
 
-Šis skats uzskaita pārdošanas pasūtījumus katram klientam.
+Šajā skatā tiek rādīti pārdošanas pasūtījumi pēc debitora.
 
--   Viens no šādu filtru izmanto, lai apskatītu klienta pasūtījumus.
-    -   Meklēšana pēc vārda
+-   Izmantojiet kādu no tālāk norādītajiem filtriem, lai skatītu noteikta debitora pārdošanas pasūtījumus.
+    -   Meklēt pēc nosaukuma
     -   Meklēt pēc konta
 
 <!-- -->
 
--   Kad esat atlasījis debitoru, var apskatīt:
-    -   Klienta nosaukumu un grupas
-    -   Klientu kontaktpersonu informācija
-    -   Klienta pārdošanas pasūtījumus un detalizētu informāciju par pārdošanas pasūtījumiem:
-        -   Klienta vārdu un adreses informāciju
-        -   Dažādās pārdošanas pasūtījumu datumus
-        -   Pasūtījuma pieņēmējs kontaktinformācija
-        -   Klientu kontaktpersonu informācija
+-   Pēc debitora atlases varat skatīt tālāk norādīto informāciju.
+    -   Debitora nosaukums un grupa
+    -   Debitora kontaktinformācija
+    -   Debitora pārdošanas pasūtījumi un detalizēta informācija par pārdošanas pasūtījumiem
+        -   Debitora nosaukuma un adreses informācija
+        -   Dažādi pārdošanas pasūtījuma datumi
+        -   Pasūtījuma saņēmēja kontaktinformācija
+        -   Debitora kontaktinformācija
         -   Pasūtījuma rindas
-        -   Sūtījumus, kas parāda, kā un kad pārdošanas pasūtījumiem ir piegādāts
+        -   Sūtījumi, kas norāda kā un kad pārdošanas pasūtījumi ir nosūtīti
 
 ## <a name="get-started"></a>Darba sākšana
-Izpildiet šos norādījumus, lai sāktu darbu, izmantojot pārdošanas pasūtījumus mobilo darbvietu jūsu mobilajā ierīcē.
+Lai savā mobilajā ierīcē sāktu lietot mobilo darbvietu Pārdošanas pasūtījumi, veiciet tālāk norādītās darbības.
 
-1.  Mobilo app Store, lejupielādējiet un instalējiet Microsoft Dynamics 365 operācijas app.
-2.  Savā ierīcē palaidiet app.
-3.  Ievadiet savu dinamiku 365 URL.
-4.  Ievadiet uzņēmuma pieteikties. Piemēram, ievadiet **USMF**.
-5.  Pirmo reizi piesakoties, jums tiek lūgts ievadīt lietotājvārdu un paroli par jūsu Microsoft Dynamics 365 operāciju kontam. Ievadiet savus akreditācijas datus. Pēc tam, kad jūs piesakāties sistēmā, jūs redzēt pieejams darbvietā savam uzņēmumam.
+1.  Savā mobilo programmu veikalā lejupielādējiet programmu Microsoft Dynamics 365 for Operations un instalējiet to.
+2.  Palaidiet programmu savā mobilajā ierīcē.
+3.  Ievadiet savu Dynamics 365 vietrādi URL.
+4.  Ievadiet uzņēmumu, kurā pierakstīties. Ievadiet, piemēram, **USMF**.
+5.  Pirmajā pierakstīšanās reizē ir jāievada Microsoft Dynamics 365 for Operations konta lietotājvārds un parole. Ievadiet savus akreditācijas datus. Pēc pierakstīšanās ir redzamas jūsu uzņēmumam pieejamās darbvietas.
 
-Lai skatītu darbvietu mobilo app, vispirms jāpublicē vajadzīgo darbvietu Dynamics 365 operācijas app.
+Lai darbvietas skatītu savā mobilajā programmā, jums šīs nepieciešamās darbvietas vispirms ir jāpublicē Dynamics 365 for Operations programmā.
 
-1.  Dynamics 365 sākt operāciju.
-2.  Dodieties uz **sistēmas administrēšanu**&gt;**Setup**&gt;**sistēmas parametru**.
-3.  Atlasiet **Manage mobilo app**.
-4.  Atlasīt darbvietas publicēt mobilā platforma.
-5.  Atlasiet **publicēt darbvietu**.
-6.  Atsvaidzinātu ierīces redzēt publicēto darbvietām.
+1.  Palaidiet Dynamics 365 for Operations.
+2.  Dodieties uz **Sistēmas administrēšana** &gt; **Iestatīšana** &gt; **Sistēmas parametri**.
+3.  Atlasiet vienumu **Pārvaldīt mobilo programmu**.
+4.  Atlasiet darbvietu, kas ir jāpublicē mobilajā platformā.
+5.  Atlasiet vienumu **Publicēt darbvietu**.
+6.  Atsvaidziniet ierīci, lai redzētu publicētās darbvietas.
 
-## <a name="view-information-about-sales-orders-for-a-customer"></a>Skatiet informāciju par pārdošanas pasūtījumiem, debitoram
-1.  Mobilajā ierīcē, atlasiet **pārdošanas pasūtījumu** darbvietu.
-2.  Atlasiet **apskatīt klienta pasūtījumus**.
-3.  Izmantošanas * * konta * * vai * * klienta nosaukums * informāciju, lai atrastu vajadzīgo debitoru.
+## <a name="view-information-about-sales-orders-for-a-customer"></a>Informācijas par noteikta debitora pārdošanas pasūtījumiem skatīšana
+1.  Mobilajā ierīcē atlasiet darbvietu **Pārdošanas pasūtījumi**.
+2.  Atlasiet vienumu **Skatīt noteikta debitora pasūtījumus**.
+3.  Izmatojiet informāciju laukos **Konts **vai **Debitora nosaukums**, lai atrastu vajadzīgo debitoru.
 4.  Atlasiet debitoru.
-5.  Atlasiet **kontaktinformācija** vai **pārdošanas pasūtījumu**.
-6.  Ja **pārdošanas pasūtījumu** ir atlasīta, tiek parādīts saraksts, no pārdošanas pasūtījumiem, debitoram.
-7.  Atlasiet **pārdošanas pasūtījumu**.
-8.  Šeit jūs varat apskatīt informāciju par pārdošanas pasūtījuma rindām, sūtījumiem, klientu kontaktinformācija un pasūtījuma pieņēmēja kontaktinformāciju.
+5.  Atlasiet vienumu **Kontaktinformācija** vai **Pārdošanas pasūtījumi**.
+6.  Ja atlasāt vienumu **Pārdošanas pasūtījumi**, tiek parādīts konkrētā debitora pārdošanas pasūtījumu saraksts.
+7.  Atlasiet vienumu **Pārdošanas pasūtījums**.
+8.  Šajā sadaļā varat skatīt informāciju par pārdošanas pasūtījuma rindām, sūtīšanām, debitora kontaktinformāciju un pasūtījuma saņēmēja kontaktinformāciju.
 
 
 

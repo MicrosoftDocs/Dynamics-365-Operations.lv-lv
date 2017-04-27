@@ -41,23 +41,23 @@ Lai jauninātu uz jaunāko versiju, skatiet tēmu [Jaunināšana uz jaunāko Dyn
 <thead>
 <tr class="header">
 <th><strong>Nodot izpildei</strong></th>
-<th><strong><strong>Version</strong></strong></th>
-<th><strong><strong>Build number</strong></strong></th>
-<th><strong><strong>Availability</strong></strong></th>
+<th><strong><strong>Versija</strong></strong></th>
+<th><strong><strong>Būvējuma numurs</strong></strong></th>
+<th><strong><strong>Pieejamība</strong></strong></th>
 <th><strong><strong>Lai uzzinātu vairāk</strong></strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Operations platforma</td>
-<td>Platformas atjauninājums 4</td>
+<td>4. platformas atjauninājums</td>
 <td>7.0.4425.16160</td>
-<td>Februārī 2017</td>
+<td>2017. februāris</td>
 <td><ol>
 <li>Dodieties uz <a href="https://roadmap.dynamics.com/">Dynamics 365 Roadmap</a>.</li>
-<li>Atlasiet <strong>what's New</strong> tab.</li>
-<li>Šajā <strong>pieteikumus</strong> sadaļu, atlasiet <strong>Dynamics 365 operācijām</strong>.</li>
-<li>Šajā <strong>zonas</strong> sadaļu, atlasiet <strong>mākonis platforma</strong>.</li>
+<li>Atlasiet cilni <strong>Jaunumi</strong>.</li>
+<li>Sadaļā <strong>Programmas</strong> atlasiet vienumu <strong>Dynamics 365 for Operations</strong>.</li>
+<li>Sadaļā <strong>Apgabali</strong> atlasiet <strong>Mākoņa platforma</strong>.</li>
 </ol></td>
 </tr>
 <tr class="even">

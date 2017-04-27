@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-orders-for-a-project"></a>Projektam paredzēti pirkšanas pasūtījumi
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir aprakstītas dažādas metodes, ko var izmantot, lai izveidotu projektam paredzētus pirkšanas pasūtījumus. Izmantojamā metode ir atkarīga no pirkšanas pasūtījuma mērķa, kad iepirktie krājumi tiek patērēti un to izmaksas tiek attiecinātas uz projektu.
 
-Programmā Microsoft Dynamics 365 operācijām, var izmantot vairākas metodes projekta pirkuma pasūtījumu izveidošanai. Izmantojamā metode ir atkarīga no pirkšanas pasūtījuma mērķa, kad iepirktie krājumi tiek patērēti un kad iepirkto krājumu izmaksas tiek attiecinātas uz projektu.
+Programmatūrā Microsoft Dynamics 365 for Operations varat izmantot vairākas metodes, lai izveidotu projekta pirkšanas pasūtījumus. Izmantojamā metode ir atkarīga no pirkšanas pasūtījuma mērķa, kad iepirktie krājumi tiek patērēti un kad iepirkto krājumu izmaksas tiek attiecinātas uz projektu.
 
 ### <a name="methods-for-creating-a-purchase-order"></a>Pirkšanas pasūtījuma izveides metodes
 
@@ -71,6 +74,8 @@ Lai izveidotu pirkšanas pasūtījumu projektu vadības un uzskaites modulī, va
 </table>
 
 > [!NOTE] 
-> Atjauninot kreditora rēķinu vai pavadzīmi, jums tiek piedāvāts atjaunināt krājumu vajadzības pavadzīmi.
+> Kad jaunināt kreditora rēķinu vai pavadzīmi, tiek parādīta uzvedne ar aicinājumu atjaunināt krājumu vajadzības pavadzīmi.
+
+
 
 

@@ -85,6 +85,6 @@ Papildinformāciju skatiet sadaļā “Interaktīvie komponenti un navigācijas 
 
 #<a name="see-also"></a>Skatiet arī
 
-[Izveidot finanšu pārskatu] ((dynamics365\operations\financials\general-ledger\generate-finanšu-pārskats)
+[Finanšu pārskata ģenerēšana]((dynamics365\operations\financials\general-ledger\generate-financial-report)
 
 

@@ -27,12 +27,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="procurement-catalogs"></a>Sagādes katalogi
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir detalizēti aprakstīts, kā iepirkumu speciālisti var iestatīt un uzturēt sagādes katalogus. Sagādes katalogos ir noteikti krājumi un pakalpojumi, ko uzņēmuma darbinieki var pasūtīt iekšējai lietošanai.
 
 Iepirkumu speciālisti var izveidot un uzturēt krājumu katalogus un pakalpojumus, kas var tikt iegādāti uzņēmuma iekšējai lietošanai. Pēc katalogu iestatīšanas uzņēmuma darbinieki var izveidot pirkšanas pieprasījumus, lai veiktu pasūtījumus no tiem. Katalogus var izmantot, lai pastiprinātu pirkšanas politikas tā, lai darbinieki var pasūtīt tikai tos krājumus un pakalpojumus, kas atļauti atbilstoši pirkšanas juridiskajai personai. Izveidojot sagādes katalogu, jāveic tālāk norādītie uzdevumi.
 
 -   Pirms izveidot katalogu, konfigurēt savu sagādes kategoriju hierarhiju.
--   Nosakiet, kuras preces darbinieki var pasūtīt. Var parādīt vai paslēpt konkrētu produktu katalogu mezglā vai var parādīt vai paslēpt visus produktus, izmantojot mezglu.
+-   Nosakiet, kuras preces darbinieki var pasūtīt. Varat rādīt vai paslēpt konkrētas kataloga mezglā ietvertās preces vai arī visas mezglā ietvertās preces.
 -   Nosakiet nepieciešamo sagādes katalogu skaitu. Piekļuvi sagādes katalogam nosaka kataloga ierobežojuma nosacījumi, ko konfigurējat juridiskajai personai un pārvaldības struktūrvienībai, kurai piešķirts darbinieks.
 
 Vairāki faktori nosaka preces, kuras darbinieki var pasūtīt, kā arī sagādes kategorijas, kuras tie var izmantot, izveidojot pirkšanas pieprasījumus.
@@ -52,7 +55,7 @@ Tālāk esošajā tabulā ir aprakstīti uzdevumi, kās jāizpilda, pirms iepirk
 ## <a name="setting-up-a-catalog"></a>Kataloga iestatīšana
 Pēc priekšnosacījumu izpildes varat iestatīt katalogus. Var izveidot vienu katalogu, ko izmanto visa organizācija vai vairākus katalogus, kas lieto dažādas nodaļas organizācijā. Ja izveidojat vienu katalogu visai organizācijai, piekļuvi katalogam uzraudzīs iepirkuma ierobežojuma nosacījumi.  
 
-Katalogs nosaka, kuras preces ir pieejamas, veidojot pirkšanas pieprasījumu, taču kategorijas piekļuves politikas nosacījumus var izmantot, lai lietotu papildu ierobežojumus. Tā kā mezgli katalogā ir sagādes kategorijas, tos var ignorēt, izmantojot kategoriju piekļuves ierobežojumu nosacījumus. Šajā gadījumā produktu šajā kategorijā nav pieejamas darbiniekiem izmantot pieprasījumus. Definējiet kategorijas piekļuves politikas noteikumus par **iepirkumu politiku** lapā. Tālāk esošajā tabulā aprakstīti uzdevumi, kas jāveic, lai iestatītu katalogu.
+Katalogs nosaka, kuras preces ir pieejamas, veidojot pirkšanas pieprasījumu, taču kategorijas piekļuves politikas nosacījumus var izmantot, lai lietotu papildu ierobežojumus. Tā kā mezgli katalogā ir sagādes kategorijas, tos var ignorēt, izmantojot kategoriju piekļuves ierobežojumu nosacījumus. Šādā gadījumā šajā kategorijā ietvertās preces darbinieki nevar izmantot pieprasījumos. Kategorijas piekļuves ierobežojumu nosacījumus var definēt lapā **Pirkšanas ierobežojumi**. Tālāk esošajā tabulā aprakstīti uzdevumi, kas jāveic, lai iestatītu katalogu.
 
 | Uzdevums                                                   | Loma             | Apraksts                                                                                                                                                                                                                                                                                                                  |
 |--------------------------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -70,6 +73,8 @@ Atjauninājumi tiek publicēti automātiski vai manuāli atkarībā no opcijas, 
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Iestatītu iepirkumu kategorijas hierarhija (uzdevuma norādījumi)](http://ax.help.dynamics.com/en/wiki/set-up-a-procurement-category-hierarchy/)
+[Sagādes kategoriju hierarhijas iestatīšana (uzdevuma ceļvedis)](http://ax.help.dynamics.com/en/wiki/set-up-a-procurement-category-hierarchy/)
+
+
 
 

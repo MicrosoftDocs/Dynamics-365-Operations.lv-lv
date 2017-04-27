@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Moduļu Debitori un Kredīts un iekasēšana konfigurēšana
 
+[!include[banner](../includes/banner.md)]
+
+
 Konfigurējiet debitoru parādus un kredītu un iekasēšanu, lai izsekotu rēķiniem un no debitoriem ienākošajiem maksājumiem.
 
 Varat iestatīt debitoru grupas, debitorus, grāmatošanas metodes, dažādas apmaksas opcijas, procentu paziņojumus, atgādinājuma vēstules, komisijas, parametrus saistībā ar debitoriem, maksām, piegādēm un mērķiem, kā arī vekseļus un cita veida informāciju par debitoriem un kredītu un iekasēšanu.
 Nākamajā tabulā ir uzskaitītas lapas, kas atbalsta moduļu Debitori un Kredīts un iekasēšana konfigurēšanu un uzturēšanu. Tabulas ieraksti ir sakārtoti pēc uzdevumiem un pēc tam alfabētiskā secībā pēc lapu nosaukumiem.
 
-| ![Piezīme](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Note")**Note**          |
+| ![Piezīme](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Piezīme")**Piezīme**          |
 |--------------------------------------------------------------------------------------------------|
 | Dažām lapām nākamajā tabulā ir nepieciešama informācija vai parametru iestatījumi, lai uz tām navigētu. |
 
@@ -98,14 +101,16 @@ Nākamajā tabulā ir uzskaitītas lapas, kas atbalsta moduļu Debitori un Kred�
 |                                                      | Debitoru kontaktpersonas un e-pasta iestatījumi | Iestatiet kontaktpersonas debitoriem ar viņu e-pasta adresēm. Šīs adreses būs redzamas lapā Iekasēšana un tiks izmantotas, lai izveidotu debitoriem adresētus e-pasta ziņojumus. Iestatiet arī noklusējuma kontaktpersonu Iekasēšana katram debitoram, kas lapā Iekasēšana tiek parādīta vispirms. |
 |                                                      | Debitoru kopas                       | Iestatiet debitoru kopas, kas ir vaicājumi, kuri definē debitoru kontu grupu, ko var parādīt un pārvaldīt iekasēšanas un vecumstruktūras procesiem.                                                                                                                           |
 |                                                      | Debitora grāmatošanas metode             | Iestatiet profilus, kas kontrolē debitora darbību iegrāmatošanu virsgrāmatā.                                                                                                                                                                                      |
-|                                                      | Debitoru pamatojumu kodi                | Uzstādīt klienta iemeslu kodus.                                                                                                                                                                                                                                                    |
-|                                                      | Debitora parāda norakstīšana iemeslu kodi      | Uzstādītu klientu norakstīšanas iemeslu kodus, kas tiks izmantots norakstīšanas darījumos.                                                                                                                                                                                             |
+|                                                      | Debitoru iemeslu kodi                | Iestatiet debitoru iemeslu kodus.                                                                                                                                                                                                                                                    |
+|                                                      | Debitoru norakstīšanas iemeslu kodi      | Iestatiet debitoru norakstīšanas iemeslu kodus, kas tiks izmantoti norakstīšanas transakcijām.                                                                                                                                                                                             |
 |                                                      | Formas iestatījumi                           | Definējiet formas paziņojuma parametrus piedāvājumiem, apstiprinājumiem, pavadzīmēm, rēķiniem, debitoru rēķiniem, brīva teksta rēķiniem un procentu paziņojumiem.                                                                                                                               |
 |                                                      | Intereses                             | Iestatiet un pārvaldiet procentu kodus.                                                                                                                                                                                                                                                 |
-|                                                      | NSF informāciju.                     | Iestatiet NSF informāciju bankas kontam, kas tiks izmantots, kad maksājums lapā Iekasēšana ir atzīmēts kā NSF transakcija.                                                                                                                                              |
+|                                                      | NSF informācija.                     | Iestatiet NSF informāciju bankas kontam, kas tiks izmantots, kad maksājums lapā Iekasēšana ir atzīmēts kā NSF transakcija.                                                                                                                                              |
 |                                                      | Pārdevēja informācija              | Iestatiet e-pasta adresi pārdevējiem. Šīs adreses būs redzamas lapā Iekasēšana, un tās varēsiet izmantot, lai no šīs lapas sūtītu pārdevējam e-pasta ziņojumus.                                                                                                                |
 
  
-Lai iegūtu papildinformāciju, skatiet [kredītu un debitoru parādu kolekcijas](collections-credit-accounts-receivable.md).
+Plašāku informāciju skatiet rakstā [Kredīts un iekasēšana modulī Debitori](collections-credit-accounts-receivable.md).
+
+
 
 

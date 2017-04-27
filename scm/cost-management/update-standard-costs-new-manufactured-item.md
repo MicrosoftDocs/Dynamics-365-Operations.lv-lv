@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>Atjaunināt jaunas ražošanas vienības standarta izmaksas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegti norādījumi par to, kā atjaunināt jauna ražojamā krājuma standarta izmaksas. 
 
 Norādījumi tālāk tiek sniegti, pieņemot, ka standarta izmaksu atjaunināšanai tiek izmantota divu versiju pieeja. Izmantojot šo pieeju, viena izmaksu aprēķināšanas versija ietver standarta izmaksas, kas sākotnēji ir noteiktas uz fiksētu periodu, un otra izmaksu aprēķināšanas versija ietver inkrementālos atjauninājumus, kas attiecas uz jauniem ražojamiem krājumiem. Inkrementālie atjauninājumi tiek ievadīti kā izmaksu ieraksti otrajā izmaksu aprēķināšanas versijā, kas pēc tam tiek aktivizēti. Lai varētu izmantot divu versiju pieeju, jādefinē otra izmaksu aprēķināšanas versija. Tālāk ir sniegtas norādes, ka definēt šo izmaksu aprēķināšanas versiju.
@@ -47,6 +50,8 @@ Lai pievienotu jaunus ražošanas krājumus iesaldētajā periodā, veiciet tāl
 5.  Izmantojiet lapu **Izmaksu aprēķināšanas versijas iestatījumi**, lai mainītu bloķējošo karodziņu un tādējādi atļautu otrajā izmaksu aprēķināšanas versijā iekļauto neapstiprināto izmaksu ierakstu aktivizēšanu.
 6.  Izmantojiet lapu **Aktivizēt cenas** (ko var atvērt, izmantojot lapu **Izmaksu aprēķināšanas versijas uzturēšana**), lai iespējotu visu otrajā izmaksu aprēķināšanas versijā iekļauto neapstiprināto krājumu izmaksu ierakstu aktivizēšanu. Var iespējot arī atsevišķu krājumu neapstiprināto izmaksu ierakstus, lapā **Krājuma cena** noklikšķinot uz pogas **Aktivizēt neapstiprinātās cenas**.
 7.  Lai nepieļautu papildu datu uzturēšanu un mainītu bloķējošos karodziņus, kas ir iekļauti otrajā izmaksu aprēķināšanas versijā, izmantojiet lapu **Izmaksu aprēķināšanas versijas iestatīšana**. Bloķēšanas politika nepieļauj jaunu neapstiprinātu izmaksu ievadi un aktivizāciju.
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Reģistrācijas ID"
-description: "Šajā tēmā ir sniegta informācija par iestatīšanu un lietošanu reģistrācijas ID."
+description: "Šajā tēmā ir sniegta informācija par reģistrācijas ID iestatīšanu un lietošanu."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,78 +27,83 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="registration-ids"></a>Reģistrācijas ID
 
-Šajā tēmā ir sniegta informācija par iestatīšanu un lietošanu reģistrācijas ID.
+[!include[banner](../includes/banner.md)]
 
-Daudzām valstīm un reģioniem ir atšķirīgi noteikumi un prasības attiecībā uz ieraksta ID vai reģistrācijas numurus. Šajā tēmā ir sniegts pārskats par nepieciešamos uzstādījumus un atbalstīto reģistrācijas tipu apstrāde personām dažādās Eiropas valstīs/reģionos. Visās valstīs/reģionos ir savas prasības atbalstam dažādās valstij funkcijām saistībā ar valsts reģistrācijas numuri, ko dažādās valsts iestādēs. Reģistrācijas numuru piemēri, sociālās apdrošināšanas numurs (SAN), nodokļu identifikācijas numurs (DDIN) un Eiropas PVN identifikators (ES PVN ID). Šis līdzeklis nodrošina vienotu regulējumu visās valstīs, visos reģionos, ņemot vērā valsts specifiskās prasības dažās Eiropas valstīs. Nākamajās sadaļās ir aprakstīts, informāciju, kas tiek izmantots iestatīšanas un apstrādes reģistrācijas ID kopējā plūsma.
 
-## <a name="registration-type-creation"></a>Reģistrācijas tipa izveide
-Lai varētu ievadīt reģistrācijas ID, jāuzstāda reģistrācijas tipiem dažāda veida reģistrācijas numuri, ko katra puse ir pakļauta. Dodieties uz **organizācijas administrācija**&gt;**globālajā adrešu grāmatā**&gt;**reģistrācijas tipiem**&gt;**reģistrācijas tipiem** lapu, lai izveidotu un pārvaldītu tipus, reģistrācija, piegādātājiem, klientiem, darbiniekiem un juridiskām vienībām dažādās valstīs/reģionos.
+Šajā tēmā ir sniegta informācija par reģistrācijas ID iestatīšanu un lietošanu.
 
-|Lauks                 |apraksts      |
+Daudzām valstīm un reģioniem ir atšķirīgi noteikumi un prasības par ID reģistrācijas numuriem. Šajā tēmā ir sniegts apskats par atbalstīto reģistrācijas tipu nepieciešamajiem iestatījumiem un apstrādi personām dažādās Eiropas valstīs/reģionos. Visās valstīs/reģionos ir to prasības par dažādu valstij specifisku funkcionalitāšu atbalstu saistībā ar dažādu valsts iestāžu piešķirtajiem reģistrācijas numuriem. Reģistrācijas numuri ir, piemēram, sociālās apdrošināšanas numurs (SAN), nodokļa identifikācijas kods (NIK) un Eiropas PVN identifikācija (ES PVN ID). Šis līdzeklis sniedz vienotu struktūru visām valstīm visos reģionos, ņemot vērā valstij specifiskās prasības, kādas pastāv noteiktās Eiropas valstīs. Nākamajās sadaļās ir aprakstīta vispārējā informācijas plūsma, kas tiek izmantota reģistrācijas ID iestatīšanai un apstrādei.
+
+## <a name="registration-type-creation"></a>Reģistrācijas tipa izveidošana
+Lai varētu ievadīt reģistrācijas ID, ir jāiestata reģistrācijas tipi dažādajiem reģistrācijas numuru tipiem, kas katrai pusei ir jāievēro. Dodieties uz lapu **Organizācijas administrēšana** &gt; **Globālā adrešu grāmata** &gt; **Reģistrācijas tipi** &gt; **Reģistrācijas tipi**, lai izveidotu un pārvaldītu reģistrācijas tipus kreditoriem, debitoriem, darbiniekiem un juridiskajām personām dažādās valstīs/reģionos.
+
+|Lauks                 |Apraksts      |
 |------------------------------|----------------------------|                                                                           
-| Vārds, uzvārds                | Reģistrācijas tipa nosaukums. |                                                                           
-| apraksts         | Reģistrācijas tipa apraksts. |
-| Valsts/reģions      | Valsts/reģiona unikālais identifikators.|
-| Nodokļu iestāde       | Nodokļu iestādei, kas ir saistīta ar reģistrācijas tips.|
-| Iekļaut       | Tāda veida ierobežojums, kas attiecas uz nodokļu reģistrācijas tipu: neviena persona, organizācija.|
-| Formāts              | Reģistrācijas tipa apstiprināšanas formātā.|
-| Var atjaunināt      | Definē, vai reģistrācijas numurs, reģistrācijas veidam var atjaunināt pēc to ievadīšanas.|
-| Unikāls              | Definē, vai reģistrācijas tipa reģistrācijas numurs ir unikāls. |
-| Primārā valstij | Ja puse ir saistīta ar vienu vai vairākas adreses īpaši valsts un reģistrācijas ID nav derīgs visām šīm adresēm, viena adrese jānorāda kā primāro valsts. Viens ID var reģistrēt tikai kā primāro. Definē, vai reģistrācijas numuru var ievadīt tikai primāro valsts adreses. |
+| Nosaukums                | Reģistrācijas tipa nosaukums. |                                                                           
+| Apraksts         | Reģistrācijas tipa apraksts. |
+| Valsts/reģions      | Unikālais valsts/reģiona identifikators.|
+| Nodokļu iestāde       | Nodokļu iestāde, kas ir saistīta ar šo reģistrācijas tipu.|
+| Iekļaut       | Ierobežojuma veids, kas attiecas uz šo nodokļa reģistrācijas tipu: Nav, Persona, Organizācija.|
+| Formāts              | Reģistrācijas tipa apstiprināšanas formāts.|
+| Var atjaunināt      | Definē, vai šim reģistrācijas tipam reģistrācijas numuru pēc ievadīšanas var atjaunināt.|
+| Unikāls              | Definē, vai reģistrācijas numurs šim reģistrācijas tipam ir unikāls. |
+| Primārā valstij | Ja puse attiecīgajā valstī ir saistīta ar vienu vai vairākām adresēm un šis reģistrācijas ID ir derīgs visām šīm adresēm, jums šai valstij viena adrese ir jānorāda kā primārā. Tikai vienu ID var reģistrēt kā primāro. Definē, vai reģistrācijas numuru var ievadīt tikai primārajai valsts adresei. |
 
-## <a name="assign-a-registration-type-to-a-registration-category"></a>Piešķirt kategorijai reģistrācijas reģistrācijas tips
-Reģistrācijas kategorijas ir valsts/reģiona reģistrācijas identifikators, kas apstiprinātas lietošanai, īpaši valsts/reģiona nodokļu, muitas un citiem mērķiem. Šai kategorijai nosaka apstiprināšanas noteikumiem ar īpašu reģistrācijas ID (tajā skaitā pārbaudes cipari u.c.) un iekļaušanu reģistrācijas ID dažādas atskaites. Lietojiet lapu **organizācijas administrācija**&gt;**globālajā adrešu grāmatā**&gt;**reģistrācijas tipiem**&gt;**reģistrācijas kategorijas** reģistrācijas veidu konkrētai valstij jāpiešķir atbalstīto reģistrācijas kategorijas.
+## <a name="assign-a-registration-type-to-a-registration-category"></a>Piešķirt reģistrācijas tipu kādai reģistrācijas kategorijai
+Reģistrācijas kategorija ir valsts/reģiona reģistrācijas identifikators, kas ir attiecīgajā valstī/reģionā apstiprināts lietošanai attiecībā uz nodokļiem, muitu un citiem nolūkiem. Šī kategorija definē kārtulas konkrēta reģistrācijas ID validēšanai (tostarp kontrolciparus un citas) un reģistrācijas ID iekļaušanai dažādos pārskatos. Lai konkrētas valsts reģistrācijas tipu piešķirtu atbalstītai reģistrācijas kategorijai, izmantojiet lapu **Organizācijas administrēšana** &gt; **Globālā adrešu grāmata** &gt; **Reģistrācijas tipi** &gt; **Reģistrācijas kategorijas**.
 
-| Lauks            | apraksts|
+| Lauks            | Apraksts|
 |-----------------------|----------------|
-| Reģistrācijas veids     | Reģistrācijas tipa īpaši valstij/reģionam.|
-| Iekļaut         | Tāda veida ierobežojums attiecas uz nodokļu reģistrācijas tips: neviena persona, organizācija.|
-| Reģistrācijas kategorija | Unikāls reģistrācijas identifikatoru, kas apstiprinātas lietošanai šajā valstī. Pilnu sarakstu atbalstīja AX7.1 kategorijām ir zemāk. |
+| Reģistrācijas tips     | Reģistrācijas tips konkrētajā valstī/reģionā.|
+| Iekļaut         | Ierobežojuma veids, kas attiecas uz nodokļa reģistrācijas tipu: Nav, Persona, Organizācija.|
+| Reģistrācijas kategorija | Unikālais reģistrācijas identifikators, kurš ir apstiprināts lietošanai attiecīgajā valstī. Tālāk ir sniegts pilns saraksts ar versijā AX7.1 atbalstītajām kategorijām. |
 
-## <a name="enter-registration-ids-for-global-address-book-records"></a>Ievadiet reģistrācijas ID globālajā adrešu kataloga ierakstus
-Globālajā adrešu grāmatā (GAB.), Microsoft Dynamics 365 operācijām ir Konsolidēts adreses informāciju klientiem, piegādātājiem, kontaktpersonām biznesa attiecības un juridiskajām personām. Lai iegūtu vairāk informācijas, skatiet [globālo adrešu grāmatu apskats](/dynamics365/operations/organization-administration/overview-global-address-book). Puse ieraksti, kas tiek glabāti globālajā adrešu grāmatā var būt viens vai vairāki adrešu ierakstus. Šīs adreses tiek izmantotas dažādiem nolūkiem, piemēram, norēķiniem vai piegādēm. Var iestatīt reģistrācijas ID adrešu informāciju klientiem, piegādātājiem, darbiniekiem un juridiskajām personām. Persona (juridiska persona, piegādātāju, klientu, darbinieku) ierakstu, kuram ievadiet reģistra ID un pēc tam noklikšķiniet uz atrast **reģistrācijas ID** par formām, kas saistītas ar puse, juridiska persona, piegādātāju, klientu, darbinieku, lai atvērtu **pārvaldīt adreses** lapā. Par **nodokļu reģistrācijas** cilni, noklikšķiniet uz **pievienot**, un ievadiet šādu informāciju par reģistrācijas ID.
+## <a name="enter-registration-ids-for-global-address-book-records"></a>Ievadīt reģistrācijas ID globālās adrešu grāmatas ierakstiem
+Globālā adrešu grāmata programmatūrā Microsoft Dynamics 365 for Operations satur konsolidētu adrešu informāciju debitoriem, kreditoriem, kontaktpersonām, biznesa attiecībām un juridiskajām personām. Papildinformāciju skatiet rakstā, [Globālās adrešu grāmatas apskats](/dynamics365/operations/organization-administration/overview-global-address-book). Puses ierakstos, kas saglabāti globālajā adrešu grāmatā, var būt viens vai vairāki adrešu ieraksti. Šīs adreses tiek izmantotas dažādiem nolūkiem, piemēram, norēķiniem vai piegādēm. Adrešu informācijai reģistrācijas ID varat iestatīt debitoriem, kreditoriem, darbiniekiem un juridiskajām personām. Atrodiet puses (juridiskās personas, kreditora, debitora, darbinieka) ierakstu, kuram vēlaties ievadīt reģistrācijas ID, un pēc tam ar šo pusi, juridisko personu, kreditoru, debitoru, darbinieku saistītajās formās noklikšķiniet uz **Reģistrācijas ID**, lai atvērtu lapu **Pārvaldīt adreses**. Cilnē **Nodokļa reģistrācija** noklikšķiniet uz **Pievienot** un ievadiet tālāk norādīto informāciju par šo reģistrācijas ID.
 
-|Lauks                |apraksts                                                |
+|Lauks                |Apraksts                                                |
 |---------------------|-----------------------------------------------------------|
-| Reģistrācijas veids   | Reģistrācijas tips atlasītā valsts/reģions.     |
-| Reģistrācijas numurs | Personu reģistrācijas ID.                                |
-| apraksts         | Reģistrācijas numura aprakstu.               |
-| Sadaļa             | Papildu informāciju par reģistrācijas numurs. |
-| Izdevējiestāde      | Iestādi, kas izsniegusi reģistrācijas numurs.        |
-| Izdošanas datums         | Izdots datums reģistrācijas numurs.              |
-| Ir spēkā           | Spēkā stāšanās datuma attiecībā uz reģistrācijas numurs.           |
-| Termiņa beigas          | Reģistrācijas numura derīguma termiņu.          |
+| Reģistrācijas tips   | Reģistrācijas tips atlasītajā valstī/reģionā.     |
+| Reģistrācijas numurs | Puses reģistrācijas ID.                                |
+| Apraksts         | Reģistrācijas numura apraksts.               |
+| Sadaļa             | Papildinformācija par šo reģistrācijas numuru. |
+| Izdevējiestāde      | Nodokļu iestāde, kas izsniedza šo reģistrācijas numuru.        |
+| Izdošanas datums         | Reģistrācijas numura izsniegšanas datums.              |
+| Ir spēkā           | Reģistrācijas numura spēkā stāšanās datums.           |
+| Termiņa beigas          | Reģistrācijas numura derīguma beigu datums.          |
 
 > [!NOTE]
-> Nodokļu reģistrācijas numurs juridiskai personai, kreditoru, debitoru var atlasīt no reģistrācijas ID, kas saistīti ar PVN ID un puse ir ievadīts.
+> Juridiskās personas, kreditora, debitora PVN reģistrācijas numuru var atlasīt no reģistrācijas ID, kuri ir saistīti ar PVN ID, un ievadīt attiecīgajai pusei.
 
-## <a name="search-for-records-by-registration-id"></a>Meklēt ierakstus reģistrācijas ID
-Meklēt personu ierakstus, kas balstās uz reģistrācijas ID būtu pieejams par formām, kas saistītas ar personu, juridisku personu, kreditoru, klientu un strādnieku. Noklikšķiniet uz **reģistrācijas ID meklēšana** atvērt **reģistrācijas ID meklēšanas kritērijus** lapā. Norādiet meklēšanas kritērijus un noklikšķiniet uz **atrast**. Sistēma parādīs atlasītos ierakstus no globālā adrešu grāmata un saistīto personu ieraksta veidu.
+## <a name="search-for-records-by-registration-id"></a>Meklēt ierakstus pēc reģistrācijas ID
+Iespēja meklēt puses ierakstus, pamatojoties uz reģistrācijas ID, ir pieejama ar pusi, juridisko personu, kreditoru, debitoru un darbinieku saistītajās formās. Noklikšķiniet uz **Reģistrācijas ID meklēšana**, lai atvērtu lapu **Reģistrācijas ID meklēšanas kritēriji**. Norādiet meklēšanas kritērijus un noklikšķiniet uz **Atrast**. Sistēma parāda atlasītos ierakstus no globālās adrešu grāmatas un saistītos pušu ierakstu tipus.
 
-## <a name="supported-registration-categories"></a>Atbalstīto reģistrācijas kategorijas
-Šajā tabulā ir atbalstīts reģistrācijas tipiem programmā Dynamics 365 operācijām. Ja jūs esat iepazinušies ar Microsoft Dynamics AX 2012 laukus reģistrācijas ID, šī tabula arī kartes šajās jomās Dynamics 365 operācijas reģistrācijas kategorijas.
+## <a name="supported-registration-categories"></a>Atbalstītās reģistrācijas kategorijas
+Nākamajā tabulā ir uzskaitīti programmatūrā Dynamics 365 for Operations atbalstītie reģistrācijas tipi. Ja pārzināt Microsoft Dynamics AX 2012 laukus, kas paredzēti reģistrācijas ID, tabulā šie lauki ir kartēti arī uz Dynamics 365 for Operations reģistrācijas kategorijām.
 
-| Dinamika 365 operācijas reģistrācijas kategorijas         |Valsts/reģions  | Dynamics AX 2012 terminu/lauku|
+| Dynamics 365 for Operations reģistrācijas kategorija         |Valsts/reģions  | Dynamics AX 2012 termins/lauks|
 |---------------------------------------------------------------|---------------------|---------------------------------|
-| PVN ID                                                        | Visām valstīm Eiropas Savienības (ES)|  PVN maksātāja reģistrācijas numurs (likumdošanas tipa TAX ID AX2012 R3)|
-| Uzņēmuma ID (COID)                                          | Beļģija Čehijas Republika Igaunija Ungārija Latvija Lietuva Polija Šveice | Uzņēmuma numurs (EnterpriseNumber) reģistrācijas numurs (RegNum\_W) reģistrācijas numurs (RegNum\_W) reģistrācijas numurs (RegNum\_W) reģistrācijas numurs (RegNum\_W) uzņēmuma kods (EnterpriseCode) reģistrācijas numurs (RegNum\_W) UID (likumdošanas tipa UID AX2012 R3) |
-| Filiāles ID                                                     | Beļģija            | Filiāles numuru (BranchNumber)|
-| Spisová značka (reģistrācijas numurs, izdevēja aģentūra, sadaļa) | Čehijas Republika     | Gravējums numuru (CommercialRegisterInsetNumber) tur tirdzniecības reģistrā komercreģistrā (CommercialRegisterSection) (CommercialRegister) sadaļā|
-| Pielāgotais debitora ID                                           | Somija | Muitas klientu skaits (CustomsCustomerNumber\_FI)|
-| Nodokļu maksātāja kods                                                           | Krievijas Federācija| INN (likumdošanas tipa INN AX2012 R3)|
-| RIK                                                           | Krievijas Federācija| Rik (likumdošanas tipa Rik AX2012 R3)|
-| OKDP                                                          | Krievijas Federācija| OKDP (likumdošanas tipa OKDP AX2012 R3)|
-| OKPO                                                          | Krievijas Federācija| OKPO (likumdošanas tipa OKPO AX2012 R3)|
-| VATIOK                                                         | Krievijas Federācija| RCOAD (likumdošanas tipa RCOAD AX2012 R3)|
-| OGRN                                                          | Krievijas Federācija| OGRN (likumdošanas tipa OGRN AX2012 R3) |
-| SNILS                                                         | Krievijas Federācija| SNILS (likumdošanas tipa SNILS AX2012 R3)|
-| CIFTS                                                         | Krievijas Federācija| CIFTS (likumdošanas tipa CIFTS AX2012 R3)|
+| PVN ID                                                        | Visas Eiropas Savienības (ES) valstis|  PVN reģistrācijas numurs (Tiesību aktos noteiktais nodokļa ID versijā AX2012 R3)|
+| Uzņēmuma ID (COID)                                          | Beļģija Čehija Igaunija Ungārija Latvija Lietuva Polija Šveice | Uzņēmuma numurs (EnterpriseNumber) Reģistrācijas numurs (RegNum\_W) Reģistrācijas numurs (RegNum\_W) Reģistrācijas numurs (RegNum\_W) Reģistrācijas numurs (RegNum\_W) Uzņēmuma kods (EnterpriseCode) Reģistrācijas numurs (RegNum\_W) UID (Tiesību aktos noteiktais UID versijā AX2012 R3) |
+| Filiāles ID                                                     | Beļģija            | Filiāles numurs (BranchNumber)|
+| Spisová značka (Reģistrācijas numurs, Izdevējiestāde, Sadaļa) | Čehija     | Iekļaušanas numurs (CommercialRegisterInsetNumber) Glabājas komercreģistrā (CommercialRegister) Komercreģistra sadaļa (CommercialRegisterSection)|
+| Debitora muitas ID                                           | Somija | Debitora muitas numurs (CustomsCustomerNumber\_FI)|
+| INN                                                           | Krievijas Federācija| INN (Tiesību aktos noteiktā tipa INN versijā AX2012 R3)|
+| RRC                                                           | Krievijas Federācija| RRC (Tiesību aktos noteiktā tipa RRC versijā AX2012 R3)|
+| OKDP                                                          | Krievijas Federācija| OKDP (Tiesību aktos noteiktā tipa OKDP versijā AX2012 R3)|
+| OKPO                                                          | Krievijas Federācija| OKPO (Tiesību aktos noteiktā tipa OKPO versijā AX2012 R3)|
+| RCOAD                                                         | Krievijas Federācija| RCOAD (Tiesību aktos noteiktā tipa RCOAD versijā AX2012 R3)|
+| OGRN                                                          | Krievijas Federācija| OGRN (Tiesību aktos noteiktā tipa OGRN versijā AX2012 R3) |
+| SNILS                                                         | Krievijas Federācija| SNILS (Tiesību aktos noteiktā tipa SNILS versijā AX2012 R3)|
+| CIFTS                                                         | Krievijas Federācija| CIFTS (Tiesību aktos noteiktā tipa CIFTS versijā AX2012 R3)|
 
-Plašāku informāciju par reģistrācijas ID apstrāde, ieskaitot nepieciešamo priekšnoteikumu, skatīt šādu uzdevumu ierakstus par PVN ID Lifecycle Services (LCS):
+Papildinformāciju par reģistrācijas ID apstrādāšanu, tostarp nepieciešamajiem priekšnosacījumiem, skatiet tālāk norādītajos uzdevumu ierakstos, kas paredzēti PVN ID pakalpojumā Lifecycle Services (LCS).
 
 -   Iestatīt PVN ID
--   Kreditoru reģistrācija PVN ID
--    Pušu meklēšana pēc PVN ID
+-   Kreditora PVN ID reģistrācija
+-   Pušu meklēšana pēc PVN ID
+
+
 
 
 

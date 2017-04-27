@@ -1,6 +1,6 @@
 ---
-title: "Izmantotu pārlūkos atrast informāciju"
-description: "Microsoft Dynamics 365 operācijām, daudzās jomās ir pārlūkiem, kas var palīdzēt jums viegli atrast pareizo vai vēlamo vērtību. Pārlūkiem, kas padara šīs vadīklas atbilstošāka, un padarītu lietotājus vairāk produktīvu ir pievienoti vairāki uzlabojumi. Šajā tēmā uzzināsit par šiem jaunajiem līdzekļiem pārlūkošanas un saņems dažus noderīgus padomus, lai iegūtu optimālu no pārlūkos sistēmā."
+title: "Lietot uzmeklēšanu, lai atrastu informāciju"
+description: "Sistēmā Microsoft Dynamics 365 for Operations daudziem laukiem ir uzmeklēšana, kas jums palīdz ērti atrast pareizo vai vēlamo vērtību. Uzmeklēšanai ir pievienoti vairāki uzlabojumi, vadīklas padarot ērtāk lietojamas un lietotāju darbu — vēl produktīvāku. Šajā tēmā jūs uzzināsiet par šiem jaunajiem uzmeklēšanas līdzekļiem un saņemsiet noderīgus padomus par optimālu uzmeklēšanas lietojumu sistēmā."
 author: jasongre
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,59 +24,64 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-lookups-to-find-information"></a>Izmantotu pārlūkos atrast informāciju
+# <a name="use-lookups-to-find-information"></a>Lietot uzmeklēšanu, lai atrastu informāciju
 
-Microsoft Dynamics 365 operācijām, daudzās jomās ir pārlūkiem, kas var palīdzēt jums viegli atrast pareizo vai vēlamo vērtību. Pārlūkiem, kas padara šīs vadīklas atbilstošāka, un padarītu lietotājus vairāk produktīvu ir pievienoti vairāki uzlabojumi. Šajā tēmā uzzināsit par šiem jaunajiem līdzekļiem pārlūkošanas un saņems dažus noderīgus padomus, lai iegūtu optimālu no pārlūkos sistēmā.  
+[!include[banner](../includes/banner.md)]
 
-<a name="responsive-lookups"></a>Atsaucīgi pārlūkus
+
+Sistēmā Microsoft Dynamics 365 for Operations daudziem laukiem ir uzmeklēšana, kas jums palīdz ērti atrast pareizo vai vēlamo vērtību. Uzmeklēšanai ir pievienoti vairāki uzlabojumi, vadīklas padarot ērtāk lietojamas un lietotāju darbu — vēl produktīvāku. Šajā tēmā jūs uzzināsiet par šiem jaunajiem uzmeklēšanas līdzekļiem un saņemsiet noderīgus padomus par optimālu uzmeklēšanas lietojumu sistēmā.  
+
+<a name="responsive-lookups"></a>Reaģējoša uzmeklēšana
 ------------------
 
-Iepriekšējās versijās Dynamics 365 operācijām, mijiedarbojoties ar uzmeklēšanas vadīklu, lietotājs būtu veikt tiešas darbības, lai atvērtu nolaižamo izvēlni. Šīs varbūt bija, ievadot zvaigznīti (\*), lai filtrētu, pamatojoties uz vadīklas pašreizējo vērtību uzmeklēšanas vadīklu, noklikšķiniet uz pogas nolaižamo sarakstu vai lietojot **Alt**+**lejupvērstā bultiņa** tastatūras īsinājumtaustiņu. Uzmeklēšanas vadīklu tika grozīti, lai labāk atbilstu pašreizējai web praksei šādos veidos:
+Iepriekšējās Dynamics 365 for Operations versijās, mijiedarbojoties ar uzmeklēšanas vadīklu, lietotājam bija īpaši jārīkojas, lai atvērtu nolaižamo izvēlni. Šīs īpašās darbības varēja būt zvaigznītes (\*) ierakstīšana vadīklā, lai uzmeklēšanu filtrētu, pamatojoties uz vadīklas pašreizējo vērtību, noklikšķināšana uz nolaižamas pogas vai tastatūras saīsnes **Alt**+**Bultiņa uz leju** lietošana. Lai labāk atbilstu pašreizējai tīmekļa praksei, uzmeklēšanas vadīklas ir modificētas tālāk aprakstītajos veidos.
 
--   Uzmeklēšanas nolaižamās izvēlnes tagad automātiski atveras pēc nelielas pauzes, ierakstot ar nolaižamo izvēlņu saturu filtrētas pēc uzmeklēšanas vadīklu vērtību.
-    -   Ņemiet vērā, ka veco uzvedību nolaižamajā automātisku atvēršanu pēc ievadot zvaigznīti (\*) ir novecojusi.
--   Pēc tam, kad ir atvērts uzmeklēšanas nolaižamo izvēlni, tad notiks šādi:
-    -   Kursors paliek uzmeklēšanas vadīklu (nevis uzmanību pārceļas uz nolaižamo izvēlni) lai varētu turpināt veikt grozījumus vadīklas vērtību. Tomēr, lietotājs var lietot **augšupvērstā bultiņa** un **lejupvērstā bultiņa** jāmaina rindas nolaižamajā izvēlnē un enter, lai atlasītu pašreizējās rindas nolaižamajā izvēlnē.
-    -   Saturu, nolaižamajā izvēlnē, koriģēs pēc jebkuras izmaiņas tiek veiktas uzmeklēšanas vadīklu vērtību.
+-   Uzmeklēšanas nolaižamās izvēlnes tagad atveras automātiski pēc tam, kad rakstīšanā ir ieturēta neliela pauze, un nolaižamās izvēlnes saturs ir filtrēts, pamatojoties uz uzmeklēšanas vadīklas vērtību.
+    -   Ņemiet vērā, ka ir atmesta iepriekšējā uzvedība ar nolaižamās izvēlnes automātisku atvēršanu pēc zvaigznītes (\*) ierakstīšanas.
+-   Kad uzmeklēšanas nolaižamā izvēlne ir atvērta, notiek tālāk aprakstītais.
+    -   Kursors paliek uzmeklēšanas vadīklā (fokuss netiek pārcelts uz nolaižamo izvēlni), tādēļ vadīklas vērtību varat turpināt modificēt. Taču lietotājs joprojām var izmantot taustiņus **Bultiņa uz augšu** un **Bultiņa uz leju**, lai nolaižamajā izvēlnē mainītu rindas, un taustiņu Enter, lai nolaižamajā izvēlnē atlasītu pašreizējo rindu.
+    -   Pēc jebkādu uzmeklēšanas vadīklas vērtības modifikāciju veikšanas nolaižamās izvēlnes saturs pielāgojas.
 
-Piemēram, apsveriet uzmeklēšanas lauku ar nosaukumu **pilsētas**. 
+Piemēram, jūs izmantojat uzmeklēšanas lauku ar nosaukumu **Pilsēta**. 
 
-Kad fokusējums atrodas **pilsētas** jomā, var sākt meklēt, ierakstot dažas vēstules, piemēram, "col." vēlamā pilsēta  Pēc tam, kad jūs pārtraucat rakstīt, uzmeklēšanas atvērsies automātiski, filtrēts, šīm pilsētām, kas sākas ar "krāsa". 
+Kad fokusu pārslēdzat uz lauku **Pilsēta**, varat sākt meklēt nepieciešamo pilsētu, ierakstot dažus burtus, piemēram, “col”.  Kad pārtraucat rakstīt, uzmeklēšana tiek atvērta automātiski, un tā ir filtrēta uz pilsētām, kas sākas ar “col”. 
 
 [![typeaheadLookupExample](./media/typeaheadlookupexample.png)](./media/typeaheadlookupexample.png) 
 
-Šajā brīdī, kursors, joprojām ir uzmeklēšanas lauks. Ja turpināsit rakstīt tā vērtība ir "kolonnas", uzmeklēšanas saturu automātiski pielāgotu atspoguļo jaunākās vērtību vadīklā. 
+Pašlaik kursors joprojām ir uzmeklēšanas laukā. Ja turpināt rakstīt un šī vērtība kļūst par “column”, tad uzmeklēšanas saturs automātiski pielāgojas, lai vadīklā rādītu visjaunāko vērtību. 
 
 ![updateFilterLookupExample](./media/updatefilterlookupexample.png) 
 
-Pat tad, ja uzmanības centrā joprojām ir uzmeklēšanas vadīklu, varat arī izmantot **augšupvērstā bultiņa** vai **lejupvērstā bultiņa** taustiņu iezīmējiet rindu, kuru vēlaties atlasīt. Ja nospiežat **Enter** izceltā rinda tiks atlasīti no pārlūkošanas un vadīklas vērtība tiek atjaunināta. 
+Lai gan fokuss joprojām atrodas uzmeklēšanas vadīklā, varat arī izmantot taustiņus **Bultiņa uz augšu** vai **Bultiņa uz leju**, lai izceltu rindu, kuru vēlaties atlasīt. Ja nospiežat taustiņu **Enter**, izceltā rinda no uzmeklēšanas tiek atlasīta un vadīklas vērtība tiek atjaunināta. 
 
 ![changingSelectionLookup](./media/changingselectionlookup.png)
 
-## <a name="typing-in-more-than-ids"></a>Ierakstot vairāk nekā ID
-Ievadot datus, tas ir dabiski, ka lietotājiem, lai mēģinātu identificēt entītiju, piemēram, debitors vai kreditors, attiecībā uz nosaukumu, nevis identifikatoru, kas apzīmē vienības. Dynamics 365 operācijām, daudzas (bet ne visi) pārlūkiem tagad ļauj ievadīt konteksta datus pašreizējā versijā. Šo spēcīgs līdzeklis ļauj lietotājam ievadīt ID vai attiecīgais vārds uzmeklēšanas vadīklu. 
+## <a name="typing-in-more-than-ids"></a>Vairāku ID ierakstīšana
+Ievadot datus, lietotāji bieži kādu elementu, piemēram, debitoru vai kreditoru, cenšas identificēt ar šī elementa nosaukumu, nevis šo elementu apzīmējošo identifikatoru. Sistēmas Dynamics 365 for Operations pašreizēja versijā daudzas (bet ne visas) uzmeklēšanas tagad ļauj izmantot kontekstuālu datu ievadi. Šis iespaidīgais līdzeklis lietotājam uzmeklēšanas vadīklā ļauj ierakstīt ID vai atbilstošo nosaukumu. 
 
-Piemēram, uzskata, **debitora konta** lauks, veidojot pārdošanas pasūtījumu. Šajā laukā ir norādīts **─ ülais kontu ID** attiecībā uz klientu, bet lietotājs parasti gribētu ieiet **konta nosaukums** nevis **─ ülais kontu ID** šim laukam, veidojot pārdošanas pasūtījumu, piemēram, "Meža Wholesales", nevis "ASV-003."
+Piemēram, apsveriet lauka **Debitora konts** iespējas pārdošanas pasūtījuma izveidošanas laikā. Šajā laukā debitoram tiek rādīts **Konta ID**, bet lietotājs, veidojot pārdošanas pasūtījumu, parasti dotu priekšroku iespējai šajā laukā ierakstīt vērtību **Konta nosaukums**, nevis vērtību **Konta ID**, piemēram, “Forest Wholesales”, nevis “US-003”.
 
-Ja lietotājs sāka iebraukt **─ ülais kontu ID** vērā uzmeklēšanas vadīklu nolaižamajā izvēlnē automātiski tiks atvērts, kā aprakstīts iepriekšējā sadaļā, un lietotājs varētu redzēt uzmeklēšanas, kā parādīts zemāk.
+Ja lietotājs uzmeklēšanas vadīklā sāk ievadīt vērtību **Konta ID**, automātiski tiek atvērta nolaižamā izvēlne, kā aprakstīts iepriekšējā sadaļā, un lietotājs redz tālāk norādīto uzmeklēšanu.
 
-[![Kad ievadīts debitora konta ID konteksta uzmeklēšanas](./media/howtocontextuallookups-1.png)](./media/howtocontextuallookups-1.png)
+[![Kontekstuāla uzmeklēšana, kad ir ievadīts debitora konta ID](./media/howtocontextuallookups-1.png)](./media/howtocontextuallookups-1.png)
 
-Tomēr lietotājs var ievadīt arī tagad sākumā **konta nosaukums** arī. Ja tas ir atrasta, lietotājs redzēs šādu uzmeklēšanas. Paziņojums cik **nosaukums** kolonna tiek pārvietots par pirmo uzmeklēšanas kolonnu, un kā uzmeklēšanas sakārtota un filtrēta pamatā **nosaukums** kolonnu.
+Taču tagad lietotājs var ievadīt arī vērtības **Konta nosaukums** sākumu. Ja tas tiek noteikts, tad lietotājam tiek parādīta tālāk norādītā uzmeklēšana. Ievērojiet, kā kolonna **Nosaukums** uzmeklēšanā ir pārvietota uz pirmo kolonnu, un kā uzmeklēšana ir sakārtota un filtrēta, pamatojoties uz kolonnu **Nosaukums**.
 
-[![Ievadot debitora nosaukuma konteksta uzmeklēšanas](./media/howtocontextuallookups-2.png)](./media/howtocontextuallookups-2.png)
+[![Kontekstuāla uzmeklēšana, kad ir ievadīts debitora nosaukums](./media/howtocontextuallookups-2.png)](./media/howtocontextuallookups-2.png)
 
-## <a name="using-grid-column-headers-for-more-advanced-filtering-and-sorting"></a>Plašākas filtrēšanas un kārtošanas izmantošanu režģa kolonnu galvenes
-Uzmeklēšanas uzlabojumi apsprieda iepriekšējās divās sadaļās ievērojami uzlabotu lietotāja spēju orientēties rindās, uzmeklēšanas pamatā "sākas ar" kratīšanu **ID** vai **Name** uzmeklēšanas laukā. Tomēr ir situācijas, kurās sarežģītāku filtrēšanu (vai šķirošanas) ir nepieciešama, lai atrastu pareizo rindu. Šajās situācijās, lietotāju vajadzībām izmantot filtrēšanas un kārtošanas opcijas režģa kolonnu galvenēs iekšpusē uzmeklēšanas. Piemēram, apsveriet pārdošanas pasūtījuma rindas ievadīšanas darbinieku, kurš ir nepieciešams atrast labi "kabelis" kā produktu. Ierakstot "kabelis" **krājums** kontroles nav lietderīga, jo nav nekādu produktu nosaukumus, kas sākas ar "kabelis". 
+## <a name="using-grid-column-headers-for-more-advanced-filtering-and-sorting"></a>Režģa kolonnu virsrakstu lietošana detalizētai filtrēšanai un kārtošanai
+Iepriekšējās divās sadaļās aprakstītie uzmeklēšanas uzlabojumi ievērojami uzlabo lietotāja spējas pārvietotie pa uzmeklēšanas rindām, uzmeklēšanā pamatojoties uz meklēšanu “sākas ar” laukā **ID** vai **Nosaukums**. Taču reizēm pareizās rindas atrašanai ir nepieciešama detalizētāka filtrēšana (vai kārtošana). Šādos gadījums lietotājam ir jāizmanto filtrēšanas un kārtošanas opcijas, kuras uzmeklēšanā ir ietvertas režģa kolonnu virsrakstos. Piemēram, pieņemsim, ka darbinieks ievada pārdošanas pasūtījuma rindu, un kā prece šim darbiniekam ir jāatrod pareizais “kabelis”. Nepietiek ar uzraksta “kabelis” ierakstīšanu vadīklā **Krājuma kods**, jo nav tādu preču nosaukumu, kas sāktos ar “kabelis”. 
 
 ![emptyitemlookup](./media/emptyitemlookup.png) 
 
-Tā vietā, lietotāju vajadzībām, lai notīrītu vērtības uzmeklēšanas vadīklu, atveriet uzmeklēšanas nolaižamo izvēlni un filtra nolaižamo izvēlni, izmantojot režģa kolonnas galvenē, kā parādīts zemāk. Peli (vai touch) lietotājs var vienkārši noklikšķiniet (vai pieskarties) jebkuras kolonnas virsraksta, lai piekļūtu filtrēšanas un kārtošanas iespējas šai kolonnai. Tastatūras lietotāja, lietotājs vienkārši nepieciešams nospiest **Alt**+**pa****bultiņas** otrreiz, lai pārvietotu fokusu uz nolaižamo izvēlni, pēc kura lietotājs var ar tabulatoru aizejiet līdz pareizā kolonnas un pēc tam nospiediet taustiņu **CTRL +**+**G**, lai atvērtu nolaižamo izvēlni režģa kolonnu galvenes. 
+Tā vietā lietotājam ir jānotīra uzmeklēšanas vadīklas vērtība, jāatver uzmeklēšanas nolaižamā izvēlne un jāfiltrē šī nolaižamā izvēlne, izmantojot režģa kolonnas virsrakstu, kā parādīts tālāk. Peles (vai skārienvadības) lietotājs var vienkārši noklikšķināt uz jebkuras kolonnas (vai pieskarties jebkurai kolonnai), lai piekļūtu šīs kolonnas filtrēšanas un kārtošanas opcijām. Tastatūras lietotājam ir vienkārši ir vēlreiz jānospiež taustiņu kombinācija **Alt**+**Bultiņa** **uz leju**, lai kursoru pārvietotu uz nolaižamo izvēlni, pēc tam ar tabulēšanas taustiņu ir jāpāriet uz nākamo kolonnu un tad jānospiež taustiņu kombinācija **Ctrl**+**G**, lai atvērtu režģa kolonnu virsrakstu nolaižamo izvēlni. 
 
 [![gridfilteritemlookup](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png) 
 
-Pēc tam, kad ir ticis izmantots filtrs (skatīt attēlu zemāk), lietotājs var atrast un atlasīt rindas kā parasti. 
+Pēc filtra lietošanas (skatiet nākamo attēlu) lietotājs var atrast un atlasīt rindu kā parasti. 
 
 ![filtereditemlookup](./media/filtereditemlookup.png)
+
+
 
 

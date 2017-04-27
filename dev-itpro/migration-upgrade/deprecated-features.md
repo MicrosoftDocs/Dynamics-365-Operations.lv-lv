@@ -68,7 +68,7 @@ Maksājumu formāti BBS Direkte Remittering ietver debitora maksājuma iekasēš
 |                              |                |
 |------------------------------|----------------|
 | Novecošanas pamatojums       | Ierobežots lietojums  |
-| Vai aizstāts ar citu līdzekli? | Nav             |
+| Vai aizstāts ar citu līdzekli? | Nē             |
 | Ietekmētie moduļi             | Virsgrāmata |
 
 ### <a name="dom80-payment-format-for-belgium"></a>Maksājuma formāts Dom80 Beļģijai
@@ -108,7 +108,7 @@ EDIVAT ir novecojis Beļģijas standarts elektroniskajai deklarēšanai, izmanto
 |                              |                                      |
 |------------------------------|--------------------------------------|
 | Novecošanas pamatojums       | Šī funkcionalitāte vairs netiek izmantota. |
-| Vai aizstāts ar citu līdzekli? | Nav                                   |
+| Vai aizstāts ar citu līdzekli? | Nē                                   |
 | Ietekmētie moduļi             | Virsgrāmata                       |
 
 ### <a name="egiro-edifact-cremul-payment-import-format-for-norway"></a>Maksājumu importēšanas formāts eGiro EDIFACT CREMUL Norvēģijai
@@ -118,7 +118,7 @@ eGiro ir balstīts uz starptautisko standartu UN EDIFACT CREMUL (Daudzkārtēja 
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Novecošanas pamatojums       | Šis maksājuma formāts vairs netiek izmantots.                                                     |
-| Vai aizstāts ar citu līdzekli? | Nr.p.k. Formāts tiks aizstāta ar ISO 20022 paziņojumu importa formāti turpmākajos laidienos. |
+| Vai aizstāts ar citu līdzekli? | Nē. Turpmākajos laidienos šis formāts tiks aizstāts ar ISO 20022 izraksta importēšanas formātiem. |
 | Ietekmētie moduļi             | Debitoru parādi                                                                       |
 
 ### <a name="external-inventory-for-poland"></a>Ārējie krājumi Polijai
@@ -138,7 +138,7 @@ Tiek izmantots rīks, lai iestatītu uzskaites un nodokļu pārskatu datu vākš
 |                              |                                                                                          |
 |------------------------------|------------------------------------------------------------------------------------------|
 | Novecošanas pamatojums       | Ierobežots lietojums                                                                            |
-| Vai aizstāts ar citu līdzekli? | Nr.p.k. Rīks tiks aizstāta ar elektronisko atskaišu konfigurācijas nākotnē releases. |
+| Vai aizstāts ar citu līdzekli? | Nē. Turpmākajos laidienos šis rīks tiks aizstāts ar elektronisko pārskatu veidošanas konfigurācijām. |
 | Ietekmētie moduļi             | Virsgrāmata                                                                           |
 
 ### <a name="import-of-customer-payment-transactions-for-finland"></a>Debitora maksājumu transakciju importēšana Somijai
@@ -148,7 +148,7 @@ Varat atlasīt importa formātu Somijas maksājumiem, lai importētu debitoru ma
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Novecošanas pamatojums       | Šis maksājuma formāts vairs netiek izmantots.                                                     |
-| Vai aizstāts ar citu līdzekli? | Nr.p.k. Formāts tiks aizstāta ar ISO 20022 paziņojumu importa formāti turpmākajos laidienos. |
+| Vai aizstāts ar citu līdzekli? | Nē. Turpmākajos laidienos šis formāts tiks aizstāts ar ISO 20022 izraksta importēšanas formātiem. |
 | Ietekmētie moduļi             | Debitoru parādi                                                                       |
 
 ### <a name="import-of-payment-transactions-into-a-general-ledger-journal-for-finland"></a>Maksājumu transakciju importēšana virsgrāmatas žurnālā Somijai
@@ -158,7 +158,7 @@ Formāts, kas ir raksturīgs Somijai, tiek izmantots, lai virsgrāmatā importē
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Novecošanas pamatojums       | Šis maksājuma formāts vairs netiek izmantots.                                                     |
-| Vai aizstāts ar citu līdzekli? | Nr.p.k. Formāts tiks aizstāta ar ISO 20022 paziņojumu importa formāti turpmākajos laidienos. |
+| Vai aizstāts ar citu līdzekli? | Nē. Turpmākajos laidienos šis formāts tiks aizstāts ar ISO 20022 izraksta importēšanas formātiem. |
 | Ietekmētie moduļi             | Debitoru parādi                                                                       |
 
 ### <a name="integration-with-isabel-synchronized-cis-for-belgium"></a>Integrācija ar Isabel sinhronizēto (CIS) Beļģijai
@@ -168,7 +168,7 @@ Isabel ir elektroniskās banku sistēmas struktūra Eiropā un faktiskais standa
 |                              |                                                                                                                      |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | Novecošanas pamatojums       | Integrēšana ar Isabel klientu ir pārtraukta.                                                                |
-| Vai aizstāts ar citu līdzekli? | Nr.p.k. ISO20022 kredīta pārskaitījumu maksājuma formātu Beļģijas aizstāj maksājumu formāti, kuri vairs netiek izmantoti. |
+| Vai aizstāts ar citu līdzekli? | Nē. Maksājumu formāti, kas vairs netiek izmantoti, tiek aizstādi ar ISO20022 maksājuma formātu Kredīta pārskaitījums Beļģijai. |
 | Ietekmētie moduļi             | Parādi kreditoriem                                                                                                     |
 
 ### <a name="modifications-in-the-chart-of-accounts-and-accounting-rules-for-spain"></a>Kontu plāna un uzskaites nosacījumu modifikācijas Spānijai
@@ -178,7 +178,7 @@ Isabel ir elektroniskās banku sistēmas struktūra Eiropā un faktiskais standa
 |                              |                |
 |------------------------------|----------------|
 | Novecošanas pamatojums       | Ierobežots lietojums  |
-| Vai aizstāts ar citu līdzekli? | Nav             |
+| Vai aizstāts ar citu līdzekli? | Nē             |
 | Ietekmētie moduļi             | Virsgrāmata |
 
 ### <a name="pagamento-fornittori-vendor-payment-format"></a>Kreditora maksājuma formāts Pagamento Fornittori
@@ -218,7 +218,7 @@ Formāti Telehansa un TeleTeenus tiek izmantoti bankas maksājumu importēšanai
 |                              |                                                                                            |
 |------------------------------|--------------------------------------------------------------------------------------------|
 | Novecošanas pamatojums       | Šie maksājumu formāti vairs netiek izmantoti.                                                    |
-| Vai aizstāts ar citu līdzekli? | Nr.p.k. Formāti tiks aizstāta ar ISO 20022 paziņojumu importa formāti turpmākajos laidienos. |
+| Vai aizstāts ar citu līdzekli? | Nē. Turpmākajos laidienos šie formāti tiks aizstāti ar ISO 20022 izraksta importēšanas formātiem. |
 | Ietekmētie moduļi             | Debitoru parādi                                                                        |
 
 ### <a name="performance-management-goal-workflow"></a>Veiktspējas pārvaldības mērķu darbplūsma
@@ -228,7 +228,7 @@ Veiktspējas pārvaldība ietver mērķu pārvaldīšanu un integrēšanu ar vei
 |                              |                                                                                                                          |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Novecošanas pamatojums       | Veiktspējas pārvaldība tika pārveidota, un mērķa lapu skaits tika samazināts, lai vienkāršotu šo procesu.                 |
-| Vai aizstāts ar citu līdzekli? | Nr.p.k. Vārti ir redzamas vadītājiem Manager pašapkalpošanās portālā un var mainīt un skatīs vadītājs. |
+| Vai aizstāts ar citu līdzekli? | Nē. Mērķi ir redzami vadītājiem, izmantojot portālu Vadītāja pašapkalpošanās, un vadītājs tos var mainīt un apskatīt. |
 | Ietekmētie moduļi             | Cilvēkkapitāla pārvaldība                                                                                                 |
 
 ### <a name="postgirot-and-postgirot-utland-payment-formats-for-sweden"></a>Maksājumu formāti Postgirot un Postgirot Utland Zviedrijai
@@ -241,24 +241,24 @@ Maksājumu formāti Postgirot un Postgirot Utland Zviedrijai.
 | Vai aizstāts ar citu līdzekli? | Jā, ar ISO20022 maksājuma formātu Kredīta pārskaitījums Zviedrijai |
 | Ietekmētie moduļi             | Kreditoru parādi                                        |
 
-### <a name="radio-frequency-identifier"></a>Radio frekvences identifikatora
+### <a name="radio-frequency-identifier"></a>Radiofrekvences identifikators
 
-Radiofrekvenču identifikācija (RFID) ir datu apkopošanas tehnoloģija, kas izmanto elektroniskos tagus identifikācijas datus un Nr line-of-redzes prasības lasītājam uztvert identifikācijas datus saglabāšanai.
+Radiofrekvences identifikācija (RFID) ir datu vākšanas tehnoloģija, kas izmanto elektroniskos tagus identifikācijas datu glabāšanai un prasībām atbilstošu lasītāju šo identifikācijas datu uztveršanai.
 
 |                              |                                               |
 |------------------------------|-----------------------------------------------|
-| Novecošanas pamatojums       | Zems klientu izmantošana un ierobežoto līdzekļu kopa. |
-| Vai aizstāts ar citu līdzekli? | Nav                                            |
+| Novecošanas pamatojums       | Zems klientu lietojums un ierobežota līdzekļu kopa. |
+| Vai aizstāts ar citu līdzekli? | Nē                                            |
 | Ietekmētie moduļi             | Krājumu vadība                          |
 
 ### <a name="report-about-state-invoices-numbering-for-latvia"></a>Pārskats par valsts rēķinu numerāciju Latvijai
 
-Latvijas likumdošana nodrošina īpašus noteikumus par pārdošanas rēķinu numerāciju. Funkcionalitāte ļauj piešķirt īpašus numurus pārdošanas rēķiniem, pamatojoties uz lietotājam vai lietotāju grupai. Pēc tam var ģenerēt atskaiti vai XML fails. Varat arī izdrukāt pārskatu par izmantotajiem rēķinu numuriem.
+Latvijas likumdošana nodrošina īpašus noteikumus par pārdošanas rēķinu numerāciju. Šī funkcionalitāte jums ļauj pārdošanas rēķiniem piešķirt īpašus numurus, pamatojoties uz lietotāju vai lietotāju grupu. Pēc tam varat ģenerēt pārskatu vai XML failu. Varat arī izdrukāt pārskatu par izmantotajiem rēķinu numuriem.
 
 |                              |                                                                                                                          |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Novecošanas pamatojums       | Valsts rēķinu numerācija vairs nav jāuztur. Pārskats par izmantotajiem rēķinu numuriem vairs nav nepieciešams. |
-| Vai aizstāts ar citu līdzekli? | Nav                                                                                                                       |
+| Vai aizstāts ar citu līdzekli? | Nē                                                                                                                       |
 | Ietekmētie moduļi             | Debitoru parādi                                                                                                      |
 
 ### <a name="set-up-the-names-of-the-manager-and-general-accountant-of-a-company-for-lithuania"></a>Iestatīt uzņēmuma vadītāja un galvenā grāmatveža vārdus Lietuvai
@@ -312,7 +312,7 @@ Darbplūsma darbinieku mērķu izveidošanas pārvaldībai ir viena no vairākā
 
 ### <a name="aif-axd-and-axbc-integrations"></a>AIF, AxD un AxBC integrācijas
 
-Programmu integrācijas struktūrā (Application Integration Framework — AIF) var veikt datu apmaiņu ar ārējām sistēmām, izmantojot biznesa loģiku, kas tiek izmantota kā pakalpojumi. Dynamics AX ietver pakalpojumus, kuru pamatā ir dokumenti un .NET Business Connector (AxBC). Dokuments tiek izveidots, izmantojot XML. XML ietver virsraksta informāciju, kas tiek pievienota, lai izveidotu *ziņojumu*, kuru var pārsūtīt uz programmu Dynamics AX vai no tās. Dokumentu piemēros ietilpst pārdošanas pasūtījumi un pirkšanas pasūtījumi. Taču gandrīz jebkuru elementu, piemēram, debitoru, var pārstāvēt ar dokumentu. Pakalpojumiem, kuru pamatā ir dokumentu izmantošana **Axd &lt;*dokumentu*&gt;* * klasēs.
+Programmu integrācijas struktūrā (Application Integration Framework — AIF) var veikt datu apmaiņu ar ārējām sistēmām, izmantojot biznesa loģiku, kas tiek izmantota kā pakalpojumi. Dynamics AX ietver pakalpojumus, kuru pamatā ir dokumenti un .NET Business Connector (AxBC). Dokuments tiek izveidots, izmantojot XML. XML ietver virsraksta informāciju, kas tiek pievienota, lai izveidotu *ziņojumu*, kuru var pārsūtīt uz programmu Dynamics AX vai no tās. Dokumentu piemēros ietilpst pārdošanas pasūtījumi un pirkšanas pasūtījumi. Taču gandrīz jebkuru elementu, piemēram, debitoru, var pārstāvēt ar dokumentu. Uz dokumentiem balstītie pakalpojumi lieto **Axd &lt;*Document*&gt;** klases.
 
 |                              |                                                                                                                                                                                                          |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -337,7 +337,7 @@ Kad tika atspējota konfigurācijas atslēga **MK versijas**, materiālu komplek
 |                              |                                                                                                       |
 |------------------------------|-------------------------------------------------------------------------------------------------------|
 | Novecošanas pamatojums       | Brazīlijas lokalizācijā ir pārtraukts atbalsts Brazīlijas maksāšanas metodei Bordero |
-| Vai aizstāts ar citu līdzekli? | Nav                                                                                                    |
+| Vai aizstāts ar citu līdzekli? | Nē                                                                                                    |
 | Ietekmētie moduļi             | Parādi kreditoriem                                                                                      |
 
 ### <a name="brazilian-sintegra-statement"></a>Brazīlijas izraksts Sintegra
@@ -347,7 +347,7 @@ Federālā nodokļa izraksts ICMS nodokļiem
 |                              |                                                                                                                       |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | Novecošanas pamatojums       | Noteiktos Brazīlijas štatos šis izraksts vairs nav piemērojams.                                                     |
-| Vai aizstāts ar citu līdzekli? | Nr.p.k. Lietotāji var izmantot vispārīgo elektronisko atskaišu rīku konfigurēt paziņojumu, ja prasītās īpašās situācijās. |
+| Vai aizstāts ar citu līdzekli? | Nē. Lietotāji var izmantot vispārīgo elektronisko atskaišu veidošanas rīku, lai konfigurētu šo izrakstu, ja konkrētās situācijās tas ir nepieciešams. |
 | Ietekmētie moduļi             | Finanšu grāmatas                                                                                                          |
 
 ### <a name="brazilian-scan-contingency-mode-for-nf-e"></a>Brazīlijas NF-e nejaušību režīms SCAN
@@ -357,7 +357,7 @@ Federālā nodokļa izraksts ICMS nodokļiem
 |                              |                                                                             |
 |------------------------------|-----------------------------------------------------------------------------|
 | Novecošanas pamatojums       | Šī nejaušību metode vairs nav piemērojama visos Brazīlijas štatos |
-| Vai aizstāts ar citu līdzekli? | Nav                                                                          |
+| Vai aizstāts ar citu līdzekli? | Nē                                                                          |
 | Ietekmētie moduļi             | Debitoru parādi                                                         |
 
 ### <a name="business-analyzer"></a>Biznesa analizators
@@ -631,7 +631,7 @@ Personāla vadības algas informācija
 |                              |                                                                                                                                                                                                                                                                                                                              |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Novecošanas pamatojums       | Šī funkcionalitāte ir aizstāta ar pamata lapām Alga un Personāla vadība.                                                                                                                                                                                                                                              |
-| Vai aizstāts ar citu līdzekli? | Lapas **Atvieglojumi**, **Ienākumi** un citas saistītās lapas, kas iepriekš atradās modulī ASV alga, ir pārkonfigurētas un tagad veido daļu no moduļa Personāla vadība pamata konfigurācijas, lai palīdzētu atbalstīt ārējo algu apstrādi. Šo funkcionalitāti var piekļūt, izmantojot **cilvēkresursu 1**&gt;**algas** konfigurācijas atslēga. |
+| Vai aizstāts ar citu līdzekli? | Lapas **Atvieglojumi**, **Ienākumi** un citas saistītās lapas, kas iepriekš atradās modulī ASV alga, ir pārkonfigurētas un tagad veido daļu no moduļa Personāla vadība pamata konfigurācijas, lai palīdzētu atbalstīt ārējo algu apstrādi. Šai funkcionalitātei piekļūst, izmantojot konfigurācijas atslēgu **Personāla vadība 1** &gt; **Alga**. |
 | Ietekmētie moduļi             | Personāla vadība, Alga                                                                                                                                                                                                                                                                                                     |
 
 ### <a name="private-blocking-of-inventory-and-warehouse-management-journals"></a>Krājumu un noliktavas vadības žurnālu privāta bloķēšana
@@ -698,12 +698,12 @@ Pakalpojumi Sites Services jums ļauj veidot vietnes, kas jūsu biznesa procesus
 | Vai aizstāts ar citu līdzekli? | Nē                                                                                                                                       |
 | Ietekmētie moduļi             | HR personāla atlase, Pieteikumu pārvaldība, Piedāvājumu pieprasījums, Kreditora reģistrēšana                                                                  |
 
-### <a name="ssas-demand-forecasting-strategy"></a>PPL pieprasījuma prognozēšanas stratēģija
+### <a name="ssas-demand-forecasting-strategy"></a>SSAS pieprasījuma prognozēšanas stratēģija
 
 |                              |                                                                              |
 |------------------------------|------------------------------------------------------------------------------|
-| Novecošanas pamatojums       | Elements noformējuma nevar atbalstīt jaunu mākonis arhitektūrā. |
-| Vai aizstāts ar citu līdzekli? | Debeszils Machine Learning pieprasījuma prognozēšanas stratēģija                           |
+| Novecošanas pamatojums       | Līdzekļa dizainu nevar atbalstīt jaunajā mākoņa arhitektūrā. |
+| Vai aizstāts ar citu līdzekli? | Azure algoritmiskās mācīšanās pieprasījuma prognozēšanas stratēģija                           |
 | Ietekmētie moduļi             | Plānošana                                                                     |
 
 ### <a name="travel-requisitions"></a>Komandējuma pieprasījumi

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="straight-line-service-life-depreciation"></a>Lineārā lietošanas ilguma nolietojums
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegts pārskats par atlikušā lietošanas ilguma lineāro aprēķināšanas metodi.
 
 Iestatot pamatlīdzekļa nolietojuma profilu un lapas Nolietojuma profili laukā Metode atlasot opciju Lineārais lietošanas ilgums, pamatlīdzekļi, kuriem ir piešķirts šis nolietojuma profils, tiek uzskatīti par nolietotiem, pamatojoties uz pamatlīdzekļa kopējo lietošanas ilgumu. Galvenokārt tas nozīmē, ka visiem nolietojuma periodiem ir viena nolietojuma summa. 
@@ -57,7 +60,7 @@ Piemēram, ja atlasāt Reizi gadā, gada nolietojums tiek grāmatots tikai vienu
 
 Ja laukā Nolietojuma aprēķina gads atlasāt opciju Finanšu, tiek izmantots lietošanas ilguma nolietojums. Tā tiek aprēķināta, pamatojoties uz finanšu gadu, ko definē finanšu kalendārs, kas norādīts grāmatai, vai ko definē finanšu kalendārs, kas atlasīts lapā Virsgrāmata. Finanšu kalendāri tiek iestatīti lapā Finanšu kalendāri.
 
-Piemēram, finanšu gada 1. jūlija līdz 30. jūnijs, nolietojuma aprēķins sākas 1. jūlijā. Finanšu gads var būt garāks vai īsāks par 12 mēnešiem. Nolietojums tiek automātiski pielāgots katram finanšu periodam. Nākamā finanšu gada garums tiek noteikts, pamatojoties uz finanšu periodiem, kurus iestatāt jauna finanšu gada izveidē formā Finanšu kalendāri. 
+Piemēram, finanšu gadam no 1. jūlija līdz 30. jūnijam nolietojuma aprēķins sākas 1. jūlijā. Finanšu gads var būt garāks vai īsāks par 12 mēnešiem. Nolietojums tiek automātiski pielāgots katram finanšu periodam. Nākamā finanšu gada garums tiek noteikts, pamatojoties uz finanšu periodiem, kurus iestatāt jauna finanšu gada izveidē formā Finanšu kalendāri. 
 
 Atlasot opciju Finanšu, laukā Periodu biežums ir pieejamas šādas opcijas:
 -   Reizi gadā: finanšu gadam aprēķinātā nolietojuma kopsumma tiek grāmatota kā viena summa finanšu gada pēdējā datumā.
@@ -98,9 +101,11 @@ Kapitālās izmaksas lietošanas ilgums ir tāds pats kā pamatlīdzeklim un sā
 | 3. gads | 14 000/5 = 2800                        | 10 200 - 2800 = 7400                |
 | 4. gads | 14 000/5 = 2800                        | 7400 - 2800 = 4600                 |
 | 5. gads | 14 000/5 = 2800                        | 4600 - 2800 = 1800                 |
-| 5. gads | Atlikušie 800\*                           | 1800 - 800 = 1000                   |
+| 5. gads | Atlikusī summa 800\*                           | 1800 - 800 = 1000                   |
 
-\*Jo, ja atlikusī summa ir mazāka par nolietojuma summu, tiek ņemta tikai atlikusī summa, no kuras atņemta likvidācijas vērtība.
+\*Tā kā atlikusī summa ir mazāka par nolietojuma summu, tiek ņemta tikai atlikusī summa, kas mazāka par likvidācijas vērtību.
+
+
 
 
 

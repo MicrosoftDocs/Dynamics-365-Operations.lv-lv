@@ -1,6 +1,6 @@
 ---
-title: "Atjaunināt kā summas, kas tiek parādīti ziņojumi un dokumenti"
-description: "Šajā tēmā ir sniegta informācija par to, kā atjaunināt kā summas, kas tiek parādīti ziņojumus un citus dokumentus, lai Igaunija, Latvija, Lietuva, Polija, Čehijā, Ungārijā un Krievijā."
+title: "Atjaunināt veidu, kā summas tiek rādītas pārskatos un dokumentos"
+description: "Šajā tēmā ir sniegta informācija par to, kā atjaunināt veidu, kādā pārskatos un citos dokumentos summas tiek rādītas Igaunijai, Latvijai, Lietuvai, Polijai, Čehijai, Ungārijai un Krievijai."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,32 +24,37 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="update-how-amounts-are-displayed-on-reports-and-documents"></a>Atjaunināt kā summas, kas tiek parādīti ziņojumi un dokumenti
+# <a name="update-how-amounts-are-displayed-on-reports-and-documents"></a>Atjaunināt veidu, kā summas tiek rādītas pārskatos un dokumentos
 
-Šajā tēmā ir sniegta informācija par to, kā atjaunināt kā summas, kas tiek parādīti ziņojumus un citus dokumentus, lai Igaunija, Latvija, Lietuva, Polija, Čehijā, Ungārijā un Krievijā.
+[!include[banner](../includes/banner.md)]
 
-Juridiskām personām, Igaunija, Latvija, Lietuva, Polija, Čehijā, Ungārijā un Krievijā, var uzstādīt pilnu un īstermiņa valūtas vienībās un apakšvienībās nosaukumi. Šos nosaukumus var izmantot, lai pārveidotu kā summas tiek atspoguļotas dokumentos un atskaitēs. Piemēram: summa **LTL 100.20** var tikt skatīti kā **100 lits 20 Centas**.
 
-## <a name="set-up-full-and-short-names-for-currency-units-and-subunits"></a>Iestatiet pilnu un īstermiņa valūtas vienībās un apakšvienībās nosaukumus
-Pilna un īstermiņa valūtas vienību nosaukumus un apakšvienībās valodas iestatīšanu, izpildiet šādas darbības:
+Šajā tēmā ir sniegta informācija par to, kā atjaunināt veidu, kādā pārskatos un citos dokumentos summas tiek rādītas Igaunijai, Latvijai, Lietuvai, Polijai, Čehijai, Ungārijai un Krievijai.
 
-1.  Atvērts **valūtām** lapā.
+Juridiskajām personām Igaunijā, Latvijā, Lietuvā, Polijā, Čehijā, Ungārijā un Krievijā valūtas vienībām un apakšvienībām varat iestatīt pilnos nosaukumus un īsos nosaukumus. Šos nosaukumus var izmantot, lai pārveidotu summu rādīšanu dokumentos un pārskatos. Piemēram: summu **LTL 100,20** var rādīt kā **100 liti 20 centi**.
+
+## <a name="set-up-full-and-short-names-for-currency-units-and-subunits"></a>Iestatīt pilnos un īsos nosaukumus valūtas vienībām un apakšvienībām
+Lai kādai valodai iestatītu valūtas vienību un apakšvienību pilnos un īsos nosaukumus, izpildiet tālāk sniegtos norādījumus.
+
+1.  Atveriet lapu **Valūtas**.
 2.  Izvēlieties valūtu.
-3.  Rūtī darbības noklikšķiniet uz **Deklinācija**.
-4.  Lai pievienotu vārdu un uzvārdu un īsais nosaukums valodai, noklikšķiniet uz **New** un aizpildīt šādus laukus.
+3.  Darbību rūtī noklikšķiniet uz **Locījumi**.
+4.  Lai kādai valodai pievienotu pilno nosaukumu un īso nosaukumu, noklikšķiniet uz **Jauns** un aizpildiet tālāk uzskaitītos laukus.
     |                                                           |                                                                                                                                                                                                                    |
     |-----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | **Field**                                                 | **Description**                                                                                                                                                                                                    |
-    | **Language**                                              | Atlasiet pašreizējā teksta valodu.                                                                                                                                                                          |
-    | **Vienskaitļa nominatīvs (nosaukums vienību lauku grupā pārdošanas pasūtījums)**       | Ievadiet valūtas vienskaitļa formā. Piemēram, vienskaitļa formā litu ir lits.                                                                                                                         |
-    | **Daudzskaitļa nominatīvs (nosaukums vienību lauku grupā pārdošanas pasūtījums)**         | Ievadiet valūtas daudzskaitļa formā. Piemēram, ievadiet Litai. **Piezīme**: **vienskaitļa ģenitīvs** un **Daudzskaitļa ģenitīvs** lauki ir pieejami, pamatojoties uz valodu, ko esat atlasījis tabulā **valodas** lauks. |
-    | **Vienskaitlis personu jomā (nosaukums daļas lauku grupā pārdošanas pasūtījums)** | Ievadiet valūtas subunit vienskaitļa formā.                                                                                                                                                            |
-    | **Daudzskaitļa nominatīvs (nosaukums daļas lauku grupā pārdošanas pasūtījums)**         | Ievadiet valūtas subunit daudzskaitļa formā.                                                                                                                                                              |
-    | **Saīsnes nosaukums vienību (īsais nosaukums lauka grupa)**       | Ievadiet ISO kodu, kas identificē ar valūtu. Piemēram, ievadiet LTL, lai identificētu litus.                                                                                                                             |
-    | **Saīsnes nosaukumu daļām (īsais nosaukums lauka grupa)**      | Ievadiet valūtas subunit nominālvērtība. Piemēram, ievadiet Centas.                                                                                                                                         |
-    | **Conjunction 'and' between units and parts**             | Atlasiet, lai drukātu kopā "un" starp valūtas vienību un vienību daļām. Piemēram, rēķinus vai atskaitēs LTL 100.20 summa tiks parādīts kā 100 lits un 20 Centas.                      |
+    | **Lauks**                                                 | **Apraksts**                                                                                                                                                                                                    |
+    | **Valoda**                                              | Atlasiet pašreizējā teksta valodu.                                                                                                                                                                          |
+    | **Vienskaitļa nominatīvs (vienības nosaukumu lauku grupa)**       | Ievadiet valūtas nosaukumu vienskaitļa formā. Piemēram, vienskaitļa forma no litiem ir “lits”.                                                                                                                         |
+    | **Daudzskaitļa nominatīvs (vienības nosaukumu lauku grupa)**         | Ievadiet valūtas nosaukumu daudzskaitļa formā. Ievadiet, piemēram, “liti”. **Piezīme**. Lauki **Vienskaitļa ģenitīvs** un **Daudzskaitļa ģenitīvs** ir pieejami atkarībā no valodas, kas atlasīta laukā **Valoda**. |
+    | **Vienskaitļa nominatīva lauks (daļu nosaukumu lauku grupa)** | Ievadiet valūtas apakšvienības nosaukumu vienskaitļa formā.                                                                                                                                                            |
+    | **Daudzskaitļa nominatīvs (daļu nosaukumu lauku grupa)**         | Ievadiet valūtas apakšvienības nosaukumu daudzskaitļa formā.                                                                                                                                                              |
+    | **Vienību saīsinātais nosaukums (īso nosaukumu lauku grupa)**       | Ievadiet ISO kodu, lai identificētu attiecīgo valūtu. Piemēram, ievadiet LTL, lai identificētu litus.                                                                                                                             |
+    | **Daļu saīsinātais nosaukums (īso nosaukumu lauku grupa)**      | Ievadiet valūtas apakšvienības apzīmējumu. Ievadiet, piemēram, “centi”.                                                                                                                                         |
+    | **Saiklis “un” starp vienībām un daļām**             | Atzīmējiet šo opciju, lai starp valūtas vienībām un vienības daļām drukātu saikli “un”. Piemēram, rēķinos vai pārskatos summa LTL 100,20 tiks rādīta kā “100 liti un 20 centi”.                      |
 
-5.  Click **Save**.
+5.  Noklikšķiniet uz **Saglabāt**.
+
+
 
 
 

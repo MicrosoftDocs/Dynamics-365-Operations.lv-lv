@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="intrastat"></a>Intrastat
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegta informācija par Intrastat atskaišu veidošanu preču — un noteiktos gadījumos arī pakalpojumu — tirdzniecībai starp dažādām Eiropas Savienības (ES) valstīm/reģioniem. Tajā ir sniegts pārskats par atskaišu veidošanas procesu, kā arī aprakstīti nepieciešamie iestatījumi un priekšnosacījumi.
 
 Intrastat ir sistēma informācijas vākšanai un statistikas ģenerēšanai par preču tirdzniecību starp dažādām Eiropas Savienības (ES) valstīm/reģioniem. Intrastat atskaites ir nepieciešamas vienmēr, kad prece šķērso citas ES valsts/reģiona robežu. Vairākās valstīs/reģionos Intrastat atskaites attiecas arī uz pakalpojumiem. Intrastat atskaitēs var vākt obligātus un neobligātus elementus. Obligāti ir šādi elementi: tās puses pievienotās vērtības nodokļa (PVN) numurs, kas ir atbildīga par informācijas sniegšanu, atsauces periods, plūsma (saņemšana vai nosūtīšana), astoņu ciparu preču kods, partnera dalībvalsts (saņemamo preču nosūtīšanas dalībvalsts un nosūtāmo preču saņemšanas dalībvalsts), preču vērtība, preču daudzums (neto masa un papildu vienības) un transakcijas veids. Valstis/reģioni saskaņā ar dažādiem nosacījumiem var vākt arī neobligātus elementus. Daži no neobligātajiem elementiem ir izcelsmes valsts/reģions, piegādes nosacījumi, transportēšanas veids un detalizētāks preču kods nekā CN8, nosūtāmo preču izcelsmes reģions un saņemamo preču mērķa reģions, statistiskā procedūra, statistiskā vērtība, preču apraksts un iekraušanas/izkraušanas osta/lidosta.
@@ -34,24 +37,24 @@ Intrastat ir sistēma informācijas vākšanai un statistikas ģenerēšanai par
 ## <a name="overview-of-the-intrastat-reporting-process"></a>Intrastat atskaišu veidošanas procesa apskats
 Nākamajās sadaļās ir aprakstīta vispārējā informācijas plūsma, kas tiek izmantota Intrastat atskaitēm.
 
-### <a name="1-enter-a-transaction-that-crosses-the-border-of-another-eu-countryregion"></a>1. Ievadiet transakciju, kuras šķērso robežu citā ES valstī/reģionā
+### <a name="1-enter-a-transaction-that-crosses-the-border-of-another-eu-countryregion"></a>1. Ievadiet transakciju, kas šķērso citas ES valsts/reģiona robežu
 
-Debitora rēķins, brīva teksta rēķins, pirkšanas rēķins, projekta rēķins, debitora pavadzīme, kreditora produktu ieejas plūsma vai pārsūtīšanas pasūtījums tiek pārsūtīti uz Intrastat žurnālu tikai tad, ja mērķa (nosūtīšanai) vai nosūtīšanas (saņemšanai) valsts/reģiona tips ir **ES**. Šī funkcija tika pagarināts par Microsoft Dynamics 365 darbību versija 1611 un ļauj norādīt kravām adreses, kas paredzētas Kopienas iekšējai darbībai. Ja kravām adrese atšķiras ar kreditora biznesa adresi (vai klienta biznesa adresi atgriezto preču pasūtījums) Intrastat pārskatiem darbosies, izmantojot šo informāciju. Kad veidojat kādu pārdošanas pasūtījumu, brīva teksta rēķinu, pirkšanas pasūtījumu, kreditora rēķinu, projekta rēķinu vai pārsūtīšanas pasūtījumu, dažiem laukiem, kas ir saistīti ar ārējo tirdzniecību, dokumenta virsrakstā vai rindā ir noklusējuma vērtības. Noklusējuma transakcijas kods tiek ņemts no atbilstošā lauka lapā **Ārējās tirdzniecības parametri**. Noklusējuma preču kods, izcelsmes valsts/reģions un izcelsmes novads tiek ņemti no krājuma. Šīs noklusējuma vērtības varat mainīt, ka arī varat aizpildīt citu ar ārējo tirdzniecību saistīto informāciju: statistisko procedūru, transportēšanas metodi un ostu.
+Debitora rēķins, brīva teksta rēķins, pirkšanas rēķins, projekta rēķins, debitora pavadzīme, kreditora produktu ieejas plūsma vai pārsūtīšanas pasūtījums tiek pārsūtīti uz Intrastat žurnālu tikai tad, ja mērķa (nosūtīšanai) vai nosūtīšanas (saņemšanai) valsts/reģiona tips ir **ES**. Šis līdzeklis tika paplašināts Microsoft Dynamics 365 for Operations versijai 1611, un tas jums ļauj norādīt iekraušanas adreses transakcijai kopienas ietvaros. Ja iekraušanas adrese atšķiras no kreditora uzņēmuma adreses (vai ja atšķiras debitora uzņēmuma adrese atgriešanas pasūtījumam), tad Intrastat pārskatu veidošana strādā ar šo informāciju. Kad veidojat kādu pārdošanas pasūtījumu, brīva teksta rēķinu, pirkšanas pasūtījumu, kreditora rēķinu, projekta rēķinu vai pārsūtīšanas pasūtījumu, dažiem laukiem, kas ir saistīti ar ārējo tirdzniecību, dokumenta virsrakstā vai rindā ir noklusējuma vērtības. Noklusējuma transakcijas kods tiek ņemts no atbilstošā lauka lapā **Ārējās tirdzniecības parametri**. Noklusējuma preču kods, izcelsmes valsts/reģions un izcelsmes novads tiek ņemti no krājuma. Šīs noklusējuma vērtības varat mainīt, ka arī varat aizpildīt citu ar ārējo tirdzniecību saistīto informāciju: statistisko procedūru, transportēšanas metodi un ostu.
 
-### <a name="2-use-the-intrastat-journal-to-generate-information-about-trade-among-eu-countriesregions"></a>2. Intrastat žurnāla izmantot, lai ģenerētu informāciju par tirdzniecību starp ES valstīm/reģioniem
+### <a name="2-use-the-intrastat-journal-to-generate-information-about-trade-among-eu-countriesregions"></a>2. Lietojiet Intrastat žurnālu, lai ģenerētu informāciju par tirdzniecību starp ES valstīm/reģioniem
 
 Statistiskiem nolūkiem informāciju par tirdzniecību starp ES valstīm/reģioniem varat ģenerēt katru mēnesi. Transakcijas no brīva teksta rēķina, debitora rēķina, debitora pavadzīmes, kreditora rēķina, kreditora pavadzīmes, projekta rēķina vai pārsūtīšanas pasūtījuma varat pārsūtīt saskaņā ar pārsūtīšanas kritērijiem, kas ir iestatīti lapā **Ārējās tirdzniecības parametri**. Alternatīvi transakcijas varat ievadīt manuāli. Pārsūtītās transakcijas Intrastat žurnālā varat atjaunināt manuāli, ja ir nepieciešami atjauninājumi. Noteiktos apstākļos, kas ir iestatīti lapā **Intrastat arhivēšana**, varat saspiest transakcijas Intrastat žurnālā. Dažās valstīs/reģionos jums ir ļauts piemērot mazu transakciju slieksni. Pēc tam par transakcijām, kuras atrodas zem šī sliekšņa, varat ziņot saskaņā ar norādīto preču kodu. Preču kodu atbilstošajās Intrastat žurnāla rindās varat atjaunināt, pamatojoties uz iestatījumu **Minimālā robeža** lapā **Ārējās tirdzniecības parametri**. Šīs transakcijas varat arī saspiest, pamatojoties uz iestatījumu **Intrastat arhivēšana**. Intrastat žurnālā iekļauto transakciju pilnību varat pārbaudīt, pamatojoties uz iestatījumu **Pārbaudīt iestatījumu** lapā **Ārējās tirdzniecības parametri**. Iespējams, atbilstošajos laukos var pārbaudīt datu pilnību: valsts/reģions, novads, svars, preču kods, transakcijas kods, papildu vienība, osta, izcelsme, piegādes nosacījumi, transportēšanas metode un PVN reģistrācijas numurs. Transakcijas, kas nav pabeigtas, tiks atzīmētas kā nederīgas.
 
-### <a name="3-use-the-intrastat-journal-to-report-information-about-trade-among-eu-countriesregions"></a>3. izmantot Intrastat žurnālā, lai paziņotu informāciju par tirdzniecību starp ES valstīm/reģioniem
+### <a name="3-use-the-intrastat-journal-to-report-information-about-trade-among-eu-countriesregions"></a>3. Lietojiet Intrastat žurnālu, lai ziņotu informāciju par tirdzniecību starp ES valstīm/reģioniem
 
-Statistiskiem nolūkiem informāciju par tirdzniecību starp ES valstīm/reģioniem varat ziņot katru mēnesi. Intrastat atskaiti varat drukāt, pamatojoties uz iestatījumiem **Atskaites formāta kartēšana** lapā **Ārējās tirdzniecības parametri**. Varat arī ģenerēt elektronisku failu, pamatojoties uz iestatījumiem **Faila formāta kartēšana** lapā **Ārējās tirdzniecības parametri**. Plašāku informāciju par Intrastat pārskatiem, tostarp nepieciešamo priekšnoteikumu, skatiet Intrastat pārskatos uzdevumu ierakstus:
+Statistiskiem nolūkiem informāciju par tirdzniecību starp ES valstīm/reģioniem varat ziņot katru mēnesi. Intrastat atskaiti varat drukāt, pamatojoties uz iestatījumiem **Atskaites formāta kartēšana** lapā **Ārējās tirdzniecības parametri**. Varat arī ģenerēt elektronisku failu, pamatojoties uz iestatījumiem **Faila formāta kartēšana** lapā **Ārējās tirdzniecības parametri**. Papildinformāciju par Intrastat pārskatu veidošanu, tostarp nepieciešamajiem priekšnosacījumiem, skatiet Intrastat pārskatu veidošanas uzdevumu ierakstos:
 
--   Izveidot ES Intrastat deklarāciju
--   Pārsūtīt uz Intrastat darbības
--   Kopienas iekšējo darījumu kravām adreses norādīšanu.
+-   Ģenerēt ES Intrastat deklarāciju;
+-   Pārsūtīt transakcijas uz Intrastat;
+-   EK iekšējo transakciju iekraušanas adreses norādīšana.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
-Šajā tabulā ir uzskaitīti priekšnosacījumi Intrastat pārskatiem.
+Nākamajā tabulā ir uzskaitīti priekšnosacījumi Intrastat pārskatu veidošanai.
 
 <table>
 <colgroup>
@@ -235,5 +238,7 @@ Lai iestatītu parametrus nākamajā tabulā, izmantojiet lapu **Ārējās tirdz
 </table>
 
  
+
+
 
 

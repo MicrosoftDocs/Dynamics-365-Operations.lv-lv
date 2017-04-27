@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="centralized-payments-for-accounts-receivable"></a>Centralizēti maksājumi debitoriem
 
+[!include[banner](../includes/banner.md)]
+
+
 Organizācijas, kurās ir iekļautas vairākas juridiskās personas, var izveidot un pārvaldīt maksājumus, izmantojot vienu juridisko personu, kura apstrādā visus maksājumus. Tāpēc viena un tā pati transakcija nav jāievada vairākās juridiskajās personās. Šajā rakstā ir sniegti piemēri, kas parāda, kā tiek veikta centralizēto maksājumu grāmatošana dažādās situācijās.
 
 Organizācijas, kurās ir iekļautas vairākas juridiskās personas, var izveidot un pārvaldīt maksājumus, izmantojot vienu juridisko personu, kas apstrādā visus maksājumus. Tāpēc viena un tā pati transakcija nav jāievada vairākās juridiskajās personās. Turklāt organizācija arī ietaupa laiku, jo maksājumu priekšlikumu, nosegšanas un atvērto vai slēgto transakciju rediģēšanas procesi centralizētajiem maksājumiem notiek racionalizēti. 
 
-Centralizēta apmaksas organizācijā, tur ir daudzas juridiskas personas darbībām un katras darbības juridiska persona pārvalda savus rēķinus saņemamās informācijas. Maksājumi par visas darbības juridiskās personas saņem viena juridiskā vienība, kas pazīstama kā juridiskajai personai par samaksu. Apmaksas segšanas laikā tiek veidotas piemērojamās izpildes termiņa un izpildes veicēja darbības. Varat norādīt, kura no organizācijas juridiskajām personām saņem realizēto ieguvumu vai realizēto zaudējumu transakcijas un kā tiks apstrādātas termiņatlaižu transakcijas, kas ir saistītas ar centralizēto maksājumu. 
+Organizācijā ar centralizētiem maksājumiem operācijām ir daudz juridisko personu, un katra juridiskā persona pārvalda savu rēķinos saņemamo informāciju. Maksājumus visām juridiskajām personām saņem viena juridiskā persona, kura tiek saukta par maksājuma juridisko personu. Apmaksas segšanas laikā tiek veidotas piemērojamās izpildes termiņa un izpildes veicēja darbības. Varat norādīt, kura no organizācijas juridiskajām personām saņem realizēto ieguvumu vai realizēto zaudējumu transakcijas un kā tiks apstrādātas termiņatlaižu transakcijas, kas ir saistītas ar centralizēto maksājumu. 
 
 Turpmākie piemēri parāda, kā tiek veikta grāmatošana dažādās situācijās. Turpmākā konfigurācija attiecas uz visiem šiem piemēriem.
 
@@ -66,14 +69,14 @@ Fabrikam saņem maksājumu par 600,00 Fabrikam debitora kontam 4000, uzņēmumam
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam maksājums tiek nosegts ar Fabrikam East rēķinu
 
-**Fabrikam posting**
+**Fabrikam grāmatojums**
 
 | Konts                         | Summa debetā | Summa kredītā |
 |---------------------------------|--------------|---------------|
 | Debitoru parādi (Fabrikam)  | 600,00       |               |
 | Fabrikam East (Fabrikam) kreditora parādi |              | 600,00        |
 
-**Fabrikam East posting**
+**Fabrikam East grāmatojums**
 
 | Konts                             | Summa debetā | Summa kredītā |
 |-------------------------------------|--------------|---------------|
@@ -81,7 +84,7 @@ Fabrikam saņem maksājumu par 600,00 Fabrikam debitora kontam 4000, uzņēmumam
 | Debitoru parādi (Fabrikam East) |              | 600,00        |
 
 ## <a name="example-2-customer-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a>2. piemērs. Debitora rēķina maksājums no citas juridiskās personas ar termiņatlaidi
-Fabrikam saņem maksājumu par 580,00 Fabrikam debitoram 4000, uzņēmumam Northwind Traders. Fabrikam Austrumos ir atvērts rēķins klientam 4000. Rēķinam ir pieejama 20,00 termiņatlaide. Maksājums tiek segts ar neapmaksātajiem Fabrikam East rēķiniem. Termiņatlaide tiek grāmatota rēķinā norādītajā juridiskajā personā — Fabrikam East.
+Fabrikam saņem maksājumu par 580,00 Fabrikam debitoram 4000, uzņēmumam Northwind Traders. Fabrikam East ir atvērts rēķins debitoram 4000. Rēķinam ir pieejama 20,00 termiņatlaide. Maksājums tiek segts ar neapmaksātajiem Fabrikam East rēķiniem. Termiņatlaide tiek grāmatota rēķinā norādītajā juridiskajā personā — Fabrikam East.
 
 ### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-customer-4000"></a>Rēķini ir grāmatoti sadaļā Fabrikam East, Fabrikam East klientam 4000
 
@@ -99,14 +102,14 @@ Fabrikam saņem maksājumu par 580,00 Fabrikam debitoram 4000, uzņēmumam North
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam maksājums tiek nosegts ar Fabrikam East rēķinu
 
-**Fabrikam posting**
+**Fabrikam grāmatojums**
 
 | Konts                         | Summa debetā | Summa kredītā |
 |---------------------------------|--------------|---------------|
 | Debitoru parādi (Fabrikam)  | 580,00       |               |
 | Fabrikam East (Fabrikam) kreditora parādi |              | 580,00        |
 
-**Fabrikam East posting**
+**Fabrikam East grāmatojums**
 
 | Konts                             | Summa debetā | Summa kredītā |
 |-------------------------------------|--------------|---------------|
@@ -137,7 +140,7 @@ Fabrikam saņem maksājumu par 600,00 EUR Fabrikam debitoram 4000 — uzņēmuma
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam maksājums tiek nosegts ar Fabrikam East rēķinu
 
-**Fabrikam posting**
+**Fabrikam grāmatojums**
 
 | Konts                         | Summa debetā            | Summa kredītā           |
 |---------------------------------|-------------------------|-------------------------|
@@ -146,7 +149,7 @@ Fabrikam saņem maksājumu par 600,00 EUR Fabrikam debitoram 4000 — uzņēmuma
 | Fabrikam East (Fabrikam) kreditora parādi | 0,00 EUR / 12,90 USD    |                         |
 | Realizētais pastiprinājums (Fabrikam)        |                         | 0,00 EUR / 12,90 USD    |
 
-**Fabrikam East posting**
+**Fabrikam East grāmatojums**
 
 | Konts                             | Summa debetā            | Summa kredītā           |
 |-------------------------------------|-------------------------|-------------------------|
@@ -178,7 +181,7 @@ Fabrikam grāmato maksājumu Fabrikam debitoram 4000, Northwind Traders, par nea
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam maksājums tiek nosegts ar Fabrikam East rēķinu
 
-**Fabrikam posting**
+**Fabrikam grāmatojums**
 
 | Konts                         | Summa debetā            | Summa kredītā           |
 |---------------------------------|-------------------------|-------------------------|
@@ -187,7 +190,7 @@ Fabrikam grāmato maksājumu Fabrikam debitoram 4000, Northwind Traders, par nea
 | Fabrikam East (Fabrikam) kreditora parādi | 0,00 EUR / 13,46 USD    |                         |
 | Realizētais pastiprinājums (Fabrikam)        |                         | 0,00 EUR / 13,46 USD    |
 
-**Fabrikam East posting**
+**Fabrikam East grāmatojums**
 
 | Konts                             | Summa debetā            | Summa kredītā           |
 |-------------------------------------|-------------------------|-------------------------|
@@ -199,7 +202,7 @@ Fabrikam grāmato maksājumu Fabrikam debitoram 4000, Northwind Traders, par nea
 | Debitoru parādi (Fabrikam East) |                         | 12,00 EUR / 14,47 USD   |
 
 ## <a name="example-5-customer-credit-note-with-primary-payment"></a>5. piemērs: debitora kredīta nota ar primāro maksājumu
-Fabrikam saņem maksājumu par 75,00 no debitora 4000, uzņēmuma Northwind Traders. Šis maksājums tiek segts ar neapmaksātu rēķinu Fabrikam West debitoram 10000 un neapmaksātu kredīta notu Fabrikam East debitoram 4000. Maksājums ir atlasīts kā primārais maksājumu **norēķiniem par darījumiem** lapā.
+Fabrikam saņem maksājumu par 75,00 no debitora 4000, uzņēmuma Northwind Traders. Šis maksājums tiek segts ar neapmaksātu rēķinu Fabrikam West debitoram 10000 un neapmaksātu kredīta notu Fabrikam East debitoram 4000. Šis maksājums tiek atlasīts kā primārais maksājums lapā **Segt transakcijas**.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a>Rēķins ir grāmatots Fabrikam West, klientam 10000
 
@@ -224,7 +227,7 @@ Fabrikam saņem maksājumu par 75,00 no debitora 4000, uzņēmuma Northwind Trad
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam maksājums ir nosegts ar Fabrikam West rēķinu un Fabrikam East kredīta notu
 
-**Fabrikam posting**
+**Fabrikam grāmatojums**
 
 | Konts                           | Summa debetā | Summa kredītā |
 |-----------------------------------|--------------|---------------|
@@ -233,14 +236,14 @@ Fabrikam saņem maksājumu par 75,00 no debitora 4000, uzņēmuma Northwind Trad
 | Debitoru parādi (Fabrikam)    | 100,00       |               |
 | Jāmaksā Fabrikam West (Fabrikam)   |              | 100,00        |
 
-**Fabrikam East posting**
+**Fabrikam East grāmatojums**
 
 | Konts                             | Summa debetā | Summa kredītā |
 |-------------------------------------|--------------|---------------|
 | Debitoru parādi (Fabrikam East) | 25,00        |               |
 | Fabrikam (Fabrikam East) kreditora parādi     |              | 25,00         |
 
-**Fabrikam West posting**
+**Fabrikam West grāmatojums**
 
 | Konts                             | Summa debetā | Summa kredītā |
 |-------------------------------------|--------------|---------------|
@@ -248,7 +251,7 @@ Fabrikam saņem maksājumu par 75,00 no debitora 4000, uzņēmuma Northwind Trad
 | Debitoru parādi (Fabrikam West) |              | 100,00        |
 
 ## <a name="example-6-customer-credit-note-without-primary-payment"></a>6. piemērs: debitora kredīta nota bez primārā maksājuma
-Fabrikam saņem maksājumu par 75,00 no debitora 4000, uzņēmuma Northwind Traders. Šis maksājums tiek segts ar neapmaksātu rēķinu Fabrikam West debitoram 10000 un neapmaksātu kredīta notu Fabrikam East debitoram 4000. Maksājums nav atlasīts kā primārais maksājumu **norēķiniem par darījumiem** lapā.
+Fabrikam saņem maksājumu par 75,00 no debitora 4000, uzņēmuma Northwind Traders. Šis maksājums tiek segts ar neapmaksātu rēķinu Fabrikam West debitoram 10000 un neapmaksātu kredīta notu Fabrikam East debitoram 4000. Šis maksājums netiek atlasīts kā primārais maksājums lapā **Segt transakcijas**.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a>Rēķins ir grāmatots Fabrikam West, klientam 10000
 
@@ -273,21 +276,21 @@ Fabrikam saņem maksājumu par 75,00 no debitora 4000, uzņēmuma Northwind Trad
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam maksājums ir nosegts ar Fabrikam West rēķinu un Fabrikam East kredīta notu
 
-**Fabrikam posting**
+**Fabrikam grāmatojums**
 
 | Konts                         | Summa debetā | Summa kredītā |
 |---------------------------------|--------------|---------------|
 | Debitoru parādi (Fabrikam)  | 75,00        |               |
 | Jāmaksā Fabrikam West (Fabrikam) |              | 75,00         |
 
-**Fabrikam East posting**
+**Fabrikam East grāmatojums**
 
 | Konts                              | Summa debetā | Summa kredītā |
 |--------------------------------------|--------------|---------------|
 | Debitoru parādi (Fabrikam East)  | 25,00        |               |
 | Maksājuma saņēmējs - Fabrikam West (Fabrikam East) |              | 25,00         |
 
-**Fabrikam West posting**
+**Fabrikam West grāmatojums**
 
 | Konts                                | Summa debetā | Summa kredītā |
 |----------------------------------------|--------------|---------------|
@@ -295,6 +298,8 @@ Fabrikam saņem maksājumu par 75,00 no debitora 4000, uzņēmuma Northwind Trad
 | Debitoru parādi (Fabrikam West)    |              | 75,00         |
 | Maksājuma veicējs - Fabrikam East (Fabrikam West) | 25,00        |               |
 | Debitoru parādi (Fabrikam West)    |              | 25,00         |
+
+
 
 
 

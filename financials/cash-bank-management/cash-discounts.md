@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="cash-discounts"></a>Termiņatlaides
 
+[!include[banner](../includes/banner.md)]
+
+
 Termiņatlaides tiek iestatītas un koplietotas moduļiem Parādi kreditoriem un Debitoru parādi.  Pieejamo termiņatlaidi var definēt debitora rēķinā vai kreditora rēķinā, un tā tiek izmantota, ja rēķins tiek apmaksāts termiņatlaides datumu diapazonā. 
 
 <a name="cash-discounts"></a>Termiņatlaides
@@ -43,7 +46,7 @@ Ja rēķins ir segts laikā, lai saņemtu termiņatlaidi, šī termiņatlaide ti
 3.  Galvenais grāmatošanas konts lapā Termiņatlaides laukā Galvenais konts debitoru atlaidēm vai lapā Galvenais konts kreditoru atlaidēm attiecībā uz termiņatlaides kodu, kas ir norādīts nosegtajā rēķinā.
 4.  Galvenais konts termiņatlaidēm, kā definēts lapā Automātisko transakciju konti.
 
-## <a name="example-series-of-cash-discounts"></a> Piemērs. Termiņatlaižu sērijas
+## <a name="example-series-of-cash-discounts"></a>Piemērs. Termiņatlaižu sērijas
 Iestatiet trīs termiņatlaižu kodus šādā veidā:
 -   Kods 5D10% – 10% termiņatlaide, ja summa tiek samaksāta 5 dienu laikā.
 -   Kods 10D5% – 5% termiņatlaide, ja summa tiek samaksāta 10 dienu laikā.
@@ -56,13 +59,13 @@ Laukā Nākamais atlaižu kods:
 
 Maksājuma datumam pārsniedzot iepriekšējo rēķinā norādītās termiņatlaides datumu, šīs trīs termiņatlaides seko cita citai. Apmaksājot rēķinu, tiek piešķirta tikai viena termiņatlaide, pamatojoties uz to, kurš termiņatlaides datums šajā termiņatlaižu secībā tiek ievērots.
 
-## <a name="example-exchange-rates-for-cash-discounts"></a> Piemērs. Valūtas maiņas kursi termiņatlaidēm
+## <a name="example-exchange-rates-for-cash-discounts"></a>Piemērs. Valūtas maiņas kursi termiņatlaidēm
 Jūsu juridiskās personas uzskaites valūta ir EUR, un šāds valūtas maiņas kurss ir norādīts attiecībā uz USD:
 -   1. februāris = 110
 -   1. marts = 80
 
-Rēķinu par 1000 USD ar 20D 2 % termiņatlaides termiņi ir Iesūtīts februāris 15. Rēķina summa pārskata valūta ir EUR 1100. 980 USD maksājums tiek segts ar rēķina 1. martā. Termiņatlaides summa ir 20 USD. Maksājuma summa uzskaites valūtā ir 784 EUR. Termiņatlaides summa pārskata valūtā tiek aprēķināta, izmantojot valūtas kursu gada marts 1:20 \*80 / 100 = 16 EUR.
-| **Note**                                                                                                                                                                                                                             |
+Rēķins par 1000 USD ar termiņatlaides nosacījumiem 20D2% tiek grāmatots 15. februārī. Rēķina summa uzskaites valūtā ir 1100 EUR. Maksājums par 980 USD šim rēķinam tiek nosegts 1. martā. Termiņatlaides summa ir 20 USD. Maksājuma summa uzskaites valūtā ir 784 EUR. Termiņatlaides uzskaites valūtas summa tiek aprēķināta, izmantojot valūtas maiņas kursu no 1. marta: 20 \* 80 / 100 = 16 EUR.
+| **Piezīme**                                                                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ja lapā Debitoru moduļa parametri vai Kreditoru moduļa parametri ir atlasīta opcija Aprēķināt termiņatlaides daļējiem maksājumiem, tiek izmantots valūtas maiņas kurss, kas ir spēkā katra daļējā maksājuma datumā. |
 
@@ -70,5 +73,7 @@ Rēķinu par 1000 USD ar 20D 2 % termiņatlaides termiņi ir Iesūtīts februār
 =
 
  
+
+
 
 

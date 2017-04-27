@@ -1,5 +1,5 @@
 ---
-title: "Vadības noliktavas darbu, izmantojot darba veidnes un vieta direktīvām"
+title: "Kontrolēt noliktavas darbu, izmantojot darbu veidnes un novietojuma direktīvas"
 description: "Šajā rakstā aprakstīts, kā izmantot darba veidnes un novietojuma direktīvas, lai noteiktu, kā un kur darbs tiek veikts noliktavā."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Vadības noliktavas darbu, izmantojot darba veidnes un vieta direktīvām
+# <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Kontrolēt noliktavas darbu, izmantojot darbu veidnes un novietojuma direktīvas
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā aprakstīts, kā izmantot darba veidnes un novietojuma direktīvas, lai noteiktu, kā un kur darbs tiek veikts noliktavā.
 
@@ -40,7 +43,7 @@ Iestatījumus darba virsraksta definīcijā var izmantot, lai noteiktu, kad jāi
 
 Darba rindas attēlo fiziskos uzdevumus, kas ir nepieciešami, lai varētu apstrādāt darbu. Piemēram, izejošajam noliktavas procesam var būt darba rinda krājumu paņemšanai noliktavā un cita rinda šo krājumu novietošanai sagatavošanas zonā. Pēc tam var būt papildu rinda krājumu izdošanai no sagatavošanas posmiem un cita rinda krājumu ievietošanai kravas automašīnā iekraušanas procesa ietvaros. Varat iestatīt *direktīvas kodu *darba veidnes rindās. Direktīvas kods ir saistīts ar novietojuma direktīvu un tāpēc palīdz nodrošināt, ka noliktavas darbs tiek apstrādāts pareizā novietojumā noliktavā. 
 
-Vaicājumu var iestatīt, lai kontrolētu, kad tiek izmantota konkrētā darba veidne. Piemēram, var iestatīt ierobežojumu, lai noteiktu veidni varētu izmantot darbam tikai noteiktā noliktavā. Vai arī var būt vairākas veidnes, kas tiek izmantotas, lai izveidotu darbu izejošā pārdošanas pasūtījuma apstrādei atkarībā no pārdošanas izcelsmes. Sistēma izmanto **kārtas numurs** lauku, lai noteiktu kārtību, kādā tiek novērtētas veidnes pieejamos darba. Tādēļ, ja jums ir ļoti konkrētu vaicājumu par konkrētu darbu veidni, jums ir jāsniedz tas zemas kārtas numurs. Pēc tam šis vaicājums tiks novērtēts pirms citiem, vispārīgākiem vaicājumiem. 
+Vaicājumu var iestatīt, lai kontrolētu, kad tiek izmantota konkrētā darba veidne. Piemēram, var iestatīt ierobežojumu, lai noteiktu veidni varētu izmantot darbam tikai noteiktā noliktavā. Vai arī var būt vairākas veidnes, kas tiek izmantotas, lai izveidotu darbu izejošā pārdošanas pasūtījuma apstrādei atkarībā no pārdošanas izcelsmes. Lai noteiktu secību, kādā tiek novērtētas pieejamās darbu veidnes, sistēma izmanto lauku **Kārtas numurs**. Tādēļ, ja jums ir ļoti konkrēts vaicājums konkrētai darba veidnei, tam ir jāpiešķir zems kārtas numurs. Pēc tam šis vaicājums tiks novērtēts pirms citiem, vispārīgākiem vaicājumiem. 
 
 Lai apturētu vai pauzētu darba procesu, var izmantot iestatījumu **Pārtraukt darbu** darba rindā. Tādā gadījumā, darbiniekam, kurš veic darbu, netiks lūgts veikt nākamās darba rindas darbību. Lai pārietu uz nākamo darbību, šim darbiniekam vai citam darbiniekam jāatlasa darbs vēlreiz. Varat arī atdalīt uzdevumus darba gabalā, izmantojot citu *darba klases ID *darba veidnes rindās.
 
@@ -53,12 +56,14 @@ Attiecībā uz darba veidnēm, varat iestatīt vaicājumu, lai noteiktu, kad tie
 
 Novietojuma direktīvas rindas iestata papildu ierobežojumus attiecībā uz novietojuma meklēšanas noteikumu lietošanu. Varat norādīt minimālo daudzumu un maksimālo daudzumu, kuram direktīva jāpiemēro, kā arī varat norādīt, ka direktīvai jābūt paredzētai noteiktai krājuma vienībai. Piemēram, ja mērvienība ir paletes, krājumus paletēs var izvietot konkrētā novietojumā. Var arī norādīt, vai daudzumu var sadalīt starp vairākiem novietojumiem. Tāpat kā novietojuma direktīvas virsraksts katrai novietojuma direktīvas rindai ir sērijas numurs, kas nosaka secību, kādā rindas tiek novērtētas. 
 
-Novietojuma direktīvām ir viens papildu detalizācijas līmenis: *novietojuma direktīvas darbības*. Var definēt vairākas novietojuma direktīvas darbības katrai rindai. Vēlreiz, kārtas numurs tiek izmantota, lai noteiktu kārtību, kādā darbības tiek novērtētas. Šajā līmenī, lai noteiktu, kā atrast vislabāko vietu noliktavā var iestatīt vaicājumu. Varat arī izmantot iepriekš definētus **Stratēģijas **iestatījumus, lai atrastu optimālu novietojumu.
+Novietojuma direktīvām ir viens papildu detalizācijas līmenis: *novietojuma direktīvas darbības*. Var definēt vairākas novietojuma direktīvas darbības katrai rindai. Un atkal — kārtas numurs tiek izmantots, lai noteiktu secību, kādā darbības tiek novērtētas. Šajā līmenī varat iestatīt vaicājumu, lai definētu, kā atrast vislabāko novietojumu noliktavā. Varat arī izmantot iepriekš definētus **Stratēģijas **iestatījumus, lai atrastu optimālu novietojumu.
 
 ### <a name="example-of-the-use-of-location-directives"></a>Novietojuma direktīvas izmantošanas piemērs
 
 Šajā piemērā mēs apsvērsim pirkšanas pasūtījuma procesu, kur novietojuma direktīvai ir jāatrod brīva vieta noliktavā krājumiem, kas tikko reģistrēti saņemšanas dokā. Pirmkārt, mēs vēlamies mēģināt atrast brīvu vietu noliktavā, apvienojot rīcībā esošos krājumus. Ja konsolidācija nav iespējama, tad vēlamies atrast tukšu novietojumu. 
 
 Lai izmantotu šo scenāriju, mums jādefinē divas novietojuma direktīvas darbības. Pirmajai darbībai secībā ir jāizmanto stratēģija **Konsolidēt** un otrajai vajadzētu izmantot stratēģiju **Tukšs novietojums bez ienākoša darba**. Ja mēs noteiksim trešo darbību pārpildes scenārija apstrādei, ir iespējami divi rezultāti, kad noliktavā vairs nav vietas: darbu var izveidot pat tad, ja nav definēti novietojumi, vai darba izveides process var neizdoties. Rezultātu nosaka iestatījumi lapā **Novietojuma direktīvas kļūmes**, kur varat izlemt, vai atlasīt opciju **Pārtraukt darbu, ja rodas ar novietojuma direktīvu saistīta kļūme** katram darba pasūtījuma tipam.
+
+
 
 

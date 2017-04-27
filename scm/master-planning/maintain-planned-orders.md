@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="maintain-planned-orders"></a>Uzturēt plānotos pasūtījumus
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegta informācija par to, kā pārvaldīt plānotos pasūtījumus. Tajā ir izskaidrots, kā var atjaunināt plānoto pasūtījumu statusu, apstiprināt tos un filtrēt pēc plānotajiem pasūtījumiem, kuriem ir tāds pats statuss kā atlasītajam plānotajam pasūtījumam.
 
 Plānotos pasūtījumus var pārvaldīt no darbvietas **Vispārējā plānošana**, saraksta **Plānotais pasūtījums** vai saraksta **Plānotie ražošanas pasūtījumi**, **Plānotie pirkšanas pasūtījumi** un **Plānotā pārsūtīšana**. Lai sekotu norisei, varat izmantot lauku **Statuss**. Tiek izmantotas šādas vērtības.
@@ -48,6 +51,8 @@ Kad plānotais pasūtījums apstiprināts, tas tiek pārvietots attiecīgā modu
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Master plans](master-plans.md)
+[Vispārējie plāni](master-plans.md)
+
+
 
 

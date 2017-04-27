@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manual-depreciation"></a>Manuāls nolietojuma aprēķins
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegts pārskats par manuālo nolietojuma metodi.
 
 Kad iestatāt pamatlīdzekļa nolietojuma tabulu un atlasāt vērtību **Manuāls** laukā **Metode**, lapā **Nolietojuma tabulas**, šai nolietošanas tabulai piešķirto pamatlīdzekļu nolietojums tiek noteikts pēc procentuālā daudzuma, ko ievadāt katram kalendārā gada intervālam. Intervāli, kuriem iestatāt procentuālo daudzumu, tiek grāmatoti atbilstoši vērībai, kuru atlasāt laukā **Perioda biežums**, kopsavilkuma cilnē **Vispārīgi**, kura atrodas lapā **Nolietojuma tabulas**. Varat atlasīt šādas vērtības:
@@ -63,13 +66,15 @@ Ja laukā** Perioda biežums** atlasāt vērtību **Reizi mēnesī**, jūs iesta
 | Janvāris  | (11 000 – 1000)× 10% = 1000 |
 | Februāris | (11 000 – 1000) × 50% = 5000 |
 
-Ja atlasāt **pusgada**, * * * perioda * frekvenču * lauku * *, jāuzstāda divas individuālā grafika intervāli. Nākamajā tabulā ir parādītas nolietojuma summas šiem diviem intervāliem.
+Ja atlasāt **lauka **Perioda biežums**** vērtību **Reizi pusgadā**, tiek iestatīti divi manuālā grafika intervāli. Nākamajā tabulā ir parādītas nolietojuma summas šiem diviem intervāliem.
 
 | Intervāls    | Nolietojuma summa            |
 |-------------|--------------------------------|
 | 30. jūnijs     | (11 000 – 1000)× 10% = 1000 |
 | 31. decembris | (11 000 – 1000) × 50% = 5000 |
 
-Intervālu procentu kopsummai nav jābūt 100. Tomēr ziņojums tiek parādīts, ja vērtību **kopīgos procentus** lauku **fiksēto pamatlīdzekļu nolietojuma aprēķina tabulas** lapa nav **100**.
+Intervālu procentuālo vērtību kopsummai nav jābūt 100. Taču, ja lapā **Pamatlīdzekļu nolietojuma aprēķina tabula** esošā lauka**Uzkrātie procenti** vērtība nav **100**, tiek parādīts attiecīgs ziņojums.
+
+
 
 

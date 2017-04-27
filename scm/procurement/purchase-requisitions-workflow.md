@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-requisition-workflow"></a>Pirkšanas pieprasījuma darbplūsma
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā darbplūsmas procesā pārskatīšanas procesa gaitā tiek pārvietoti pirkšanas pieprasījumi no sākotnēja statusa Melnraksts līdz galīgajam statusam Apstiprināts. Kad pirkšanas pieprasījums ir iesniegts pārskatīšanai, tiek uzsākts darbplūsmas process. Kad pirkšanas pieprasījums ir apstiprināts, pirkšanas pasūtījumu var ģenerēt pirkšanas pieprasījuma rindām un iesniegt kreditoram pasūtījuma izpildīšanai.
 
 Lai pirkšanas pieprasījumu iesniegtu pārskatīšanai, jānokonfigurē darbplūsma. Darbplūsmas process var ietvert vienu vai vairākas pārskatīšanas darbības jebkādā secībā. Darbplūsmas procesu var arī konfigurēt, lai izlaistu pārskatīšanas uzdevumus un automātiski apstiprinātu pirkšanas pieprasījumu. Varat konfigurēt, lai darbplūsma maršrutētu pirkšanas pieprasījumu kā vienotu dokumentu, vai arī varat maršrutēt atsevišķas pirkšanas pieprasījuma rindas atbilstošajiem pārskatītājiem. Varat arī izveidot scenāriju, kur pirkšanas pieprasījums kā viens dokuments tiek maršrutēts noteiktiem pārskatītājiem, un atlasītās pirkšanas pieprasījuma rindas tiek maršrutētas citiem pārskatītājiem.  
@@ -106,12 +109,14 @@ Lai izmantotu kādu no darbplūsmā iestatītajiem izdevumu pārskatītājiem, o
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Izveidotu pieprasījuma patēriņam (uzdevuma norādījumi)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
+[Patēriņa pieprasījuma izveide (uzdevuma ceļvedis)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
 
 [Biznesa procesu darbplūsmu definēšana pirkšanas pieprasījumiem](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Procurement and sourcing workflows](procurement-sourcing-workflows.md)
+[Sagādes un avotu darbplūsmas](procurement-sourcing-workflows.md)
 
-[Purchase requisition overview](purchase-requisitions-overview.md)
+[Pirkšanas pieprasījuma pārskats](purchase-requisitions-overview.md)
+
+
 
 

@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 22761
 ms.assetid: 99877dba-a6e3-4d88-ba0a-ee5913aea17e
 ms.search.region: global
@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="info-codes"></a>Informācijas kodi
 
+[!include[banner](includes/banner.md)]
+
+
 Šajā rakstā ir sniegts pārskats par informācijas kodiem, informācijas kodu grupām un par to, kā tos izmantot.
 
 Infokodi nodrošina veidu, kā iegūt datus pārdošanas punkta (POS) reģistrā. Infokodus varat izmantot, lai kasierim norādītu, ka dažādu POS darbību, piemēram, krājumu pārdošanas, krājumu atgriešanas vai debitoru atlasīšanas, laikā ir jāievada informācija. Kasieri var atlasīt ievadi no saraksta vai ievadīt to kā kodu, numuru, datumu vai tekstu. Infokodus varat piešķirt iepriekš definētām veikala darbībām, mazumtirdzniecības precēm, maksājumu metodēm, debitoriem un noteiktām pārdošanas punkta aktivitātēm. Infokodus var izmantot tālāk aprakstīto darbību izpildei.
@@ -38,7 +41,7 @@ Infokodi nodrošina veidu, kā iegūt datus pārdošanas punkta (POS) reģistrā
 -   Varat likt kasierim ievadīt vērtību vai atlasīt no apakškodu saraksta, kad kasieris atver kases sistēmas atvilktni, neveicot pārdošanas operāciju.
 
 ## <a name="info-codes-group-in-retail-and-commerce"></a>Informācijas kodu grupa mazumtirdzniecībā un komercijā
-Programmā Dynamics 365 operācijām - mazumtirdzniecība, var izveidot grupas info kodu. Infokodu grupas papildina lietošanas iespēju elastību, ļaujot definēt mazāku skaitu informācijas kodu un pēc tam tos izmantot daudzveidīgāk. Infokodu grupas varat izmantot tālāk aprakstītajos veidos.
+Programmatūrā Dynamics 365 for Operations — Retail varat izveidot infokodu grupas. Infokodu grupas papildina lietošanas iespēju elastību, ļaujot definēt mazāku skaitu informācijas kodu un pēc tam tos izmantot daudzveidīgāk. Infokodu grupas varat izmantot tālāk aprakstītajos veidos.
 -   Definējiet mazāku skaitu infokodu un ērti izmantojiet tos atkārtoti. Infokodu grupās iekļautajiem infokodiem nav iepriekš definētu atkarību no citiem infokodiem. Vienu un to pašu infokodu varat iekļaut vairākās infokodu grupās, un pēc tam izmantot prioritātes noteikšanu, lai tos pašus infokodus sniegtu katrai konkrētajai situācijai vispiemērotākajā secībā.
 -   Saistiet informācijas kodus ar citiem informācijas kodiem vai informācijas kodu grupām, lai apkopotu informāciju par preci vai darījumu jums nepieciešamajā veidā, bez nepieciešamības definēt atsevišķu informācijas kodu vai piesaistīt informācijas kodu katram scenārijam.
 
@@ -47,6 +50,8 @@ Programmā Dynamics 365 operācijām - mazumtirdzniecība, var izveidot grupas i
 
  
 -
+
+
 
 
 

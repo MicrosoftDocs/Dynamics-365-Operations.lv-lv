@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="benefit-eligibility-policies"></a>Atvieglojumu piemērojamības ierobežojumi
 
-Šajā tēmā ir sniegta informācija par ieguvumu atbilstību politikas, kas palīdzēs jums noteikt, kuri ir tiesīgi gūt labumu no īpašās.
+[!include[banner](includes/banner.md)]
+
+
+Šajā tēmā ir sniegta informācija par atvieglojumu piemērojamības ierobežojumiem, kas jums palīdz noteikt, kurš ir piemērots noteiktu atvieglojumu saņemšanai.
 
 Veidojot priekšrocības, ir jāizlemj, kuriem darbiniekiem tās būs pieejamas. Tālāk redzamajā tabulā ir parādīti piemēri priekšrocībām, kuras var iespējot konkrētiem darbiniekiem.
 
@@ -38,7 +41,7 @@ Veidojot priekšrocības, ir jāizlemj, kuriem darbiniekiem tās būs pieejamas.
 | Mobilais tālrunis     | Pārdošanas daļa, vadītāji         |
 | Stāvvietas caurlaide   | Vadošie darbinieki                      |
 
-Šādus komponentus izmanto, lai izveidotu atbilstības politikām:
+Lai izveidotu piemērojamības ierobežojumus, tiek izmantoti tālāk minētie komponenti.
 
 -   Ierobežojuma nosacījumu veidi
 -   Atvieglojumu piemērojamības ierobežojumi
@@ -51,5 +54,7 @@ Definējiet nosacījumu tvērumu ierobežojumu ietvaros. Piemēram, ja izveidoja
 --------
 
 [Atvieglojumu programmas definēšana un pārvaldīšana](manage-benefit-program.md)
+
+
 
 

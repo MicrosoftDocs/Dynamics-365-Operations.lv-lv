@@ -1,5 +1,5 @@
 ---
-title: "Izpildei ražošanas pasūtījumus"
+title: "Ražošanas pasūtījumu nodošana izpildei"
 description: "Izpildei nodots ražošanas pasūtījums ir ražošanas nolūkā apstiprināts pasūtījums. Termins “nodots izpildei” tiek izmantots, lai aprakstītu ražošanas pasūtījuma dzīves cikla stāvokli, kurā ražošanas pasūtījums ir pieejams izpildei ražotnē un noliktavas procesiem."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="release-production-orders"></a>Izpildei ražošanas pasūtījumus
+# <a name="release-production-orders"></a>Ražošanas pasūtījumu nodošana izpildei
+
+[!include[banner](../includes/banner.md)]
+
 
 Izpildei nodots ražošanas pasūtījums ir ražošanas nolūkā apstiprināts pasūtījums. Termins “nodots izpildei” tiek izmantots, lai aprakstītu ražošanas pasūtījuma dzīves cikla stāvokli, kurā ražošanas pasūtījums ir pieejams izpildei ražotnē un noliktavas procesiem. 
 
@@ -42,7 +45,7 @@ Stāvoklis **Izlaists** ir viens no ražošanas pasūtījuma dzīves cikla stāv
 -   Materiāliem, kas ir fiziski rezervēti, tiek ģenerēts noliktavas darbs, lai izdotu materiālus ražošanas pasūtījumam.
 
 ## <a name="releasing-jobs-to-the-shop-floor"></a>Darbu izlaišana izpildei ražotnē
-Kad ražošanas pasūtījums ir izlaists, ar to saistītie ražošanas darbi ir redzami un pieejami reģistrācijai. Uzņēmēji var veikt darba reģistrācijas, piemēram, sākt, pārtraukt un Pabeigšana, vai nu **darbu karšu termināla** lapas vai **darbu karti ierīcē** lapā. Daudzums un reģistrētais laiks automātiski tiek pārsūtītas no reģistrācijas lapas ražošanas žurnālus, lai reģistrētu patērēto laiku un daudzumu.
+Kad ražošanas pasūtījums ir izlaists, ar to saistītie ražošanas darbi ir redzami un pieejami reģistrācijai. Operatori var reģistrēt darbus, piemēram, Sākt, Apturēt, Pabeigšana, lapā **Darbu karšu terminālis** vai **Darbu kartes ierīce**. Reģistrētie laika un daudzuma dati tiek automātiski pārsūtīti no reģistrācijas lapas uz ražošanas žurnāliem, lai sekotu līdzi laika un resursu patēriņam.
 
 ## <a name="route-cards"></a>Maršruta kartes
 Maršruta karte nodrošina pārskatu par informāciju no maršruta, operācijas iestatījumiem un operāciju un darbu plānošanas metodēm.
@@ -54,11 +57,13 @@ Maršruta darbs sniedz detalizētu informāciju par katru operācijas darbu, un 
 Darbu kartē ir norādīti noteiktas operācijas atsevišķo darbu numuri. Katrā lapā ir redzams viens darbs. Darba kartē iekļautie darbi un to paredzami laiki tiek ņemti no maršruta un operācijas iestatīšanas informācijas. Darbu kartē varat atvērt lapu **Ražošanas žurnāla rindas**, **darbu karte**. Darbinieki, kas strādā ar operācijas resursiem, var sniegt atsauksmes par ražošanas procesu. Šeit ir lauki, kur varat ievadīt patēriņa statistiku un tādu informāciju kā kļūdu daudzums.
 
 ## <a name="warehouse-work-for-raw-material-picking"></a>Izejmateriālu izdošanas noliktavas darbs
-Izlaišanas laikā tiek ģenerēts izejmateriālu izdošanas darbs. Darbs tiek ģenerēta tikai materiālu daudzums, kas tika fiziski rezervēts ražošanas pasūtījums, pasūtījuma tika atlaista. Šis iestatījums ir nepieciešams, lai radītu izejvielu savākšanai noliktavā darba:
+Izlaišanas laikā tiek ģenerēts izejmateriālu izdošanas darbs. Darbs tiek ģenerēts tikai tam materiālu daudzumam, kas tika fiziski rezervēts ražošanas pasūtījumam pirms pasūtījuma nodošanas izpildei. Lai varētu ģenerēt noliktavas darbu izejmateriālu izdošanai, ir jāveic tālāk norādītie iestatījumi.
 
 -   Izejmateriālu izdošanas novietojuma direktīva, kas nosaka, kurā noliktavas novietojumā ir jāizdod materiāli
 -   Izejmateriālu laidiena veidne, kur ir konfigurēti noliktavas darba izpildes ierobežojumi
 -   Ražošanas ievades novietojums, kas nosaka, kur materiāli tiek novietoti
+
+
 
 
 

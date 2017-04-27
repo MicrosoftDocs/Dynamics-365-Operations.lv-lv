@@ -1,6 +1,6 @@
 ---
 title: "Grāmatošanas definīcijas"
-description: "Šajā rakstā sniegti piemēri, kas parāda, kā grāmatošanas definīcijas tiek izmantoti pirkšanas pasūtījuma apgrūtinājumus un budžeta apropriācijām."
+description: "Šajā rakstā ir sniegti piemēri, kuros ir redzams, ka grāmatošanas definīcijas tiek lietotas pirkšanas pasūtījumu apgrūtinājumiem un budžeta asignējumiem."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="posting-definition-examples"></a>Grāmatošanas definīcija piemēri
+# <a name="posting-definition-examples"></a>Grāmatošanas definīciju piemēri
 
-Šajā rakstā sniegti piemēri, kas parāda, kā grāmatošanas definīcijas tiek izmantoti pirkšanas pasūtījuma apgrūtinājumus un budžeta apropriācijām.
+[!include[banner](../includes/banner.md)]
+
+
+Šajā rakstā ir sniegti piemēri, kuros ir redzams, ka grāmatošanas definīcijas tiek lietotas pirkšanas pasūtījumu apgrūtinājumiem un budžeta asignējumiem.
 
 Pirms šīs tēmas lasīšanas jums ir jāpārzina grāmatošanas definīcijas un transakciju grāmatošanas definīcijas. Informāciju skatiet rakstā [Grāmatošanas definīcijas](posting-definitions.md). Tālāk sniegtos piemērus var iestatīt lapā **Grāmatošanas definīcijas**. Katrs piemērs satur trīs sadaļas.
 
@@ -39,7 +42,7 @@ Pirms šīs tēmas lasīšanas jums ir jāpārzina grāmatošanas definīcijas u
 
 Ja tiek noteikta atbilstība starp kontiem un dimensiju vērtībām grāmatošanas definīcijas rūtī **Atbilstības kritēriji** un transakcijas kontiem un dimensiju vērtībām, tiek ģenerēti virsgrāmatas ieraksti, pamatojoties uz grāmatošanas definīcijas rūti **Ģenerētie ieraksti**. 
 > [!NOTE]
-> Lai piesaistītu grāmatošanas definēt ar specifisku darbības tipu, izmantojiet **transakcijas grāmatošanas definīcijas** lapā. Pēc tam, kad jūs saista grāmatošanas definēt ar darbību tipu un atlasiet **izmantot grāmatošanas definīcijas** par **Virsgrāmatas parametru** lapu, visas darbības par atlasīto darbības tipu jāizmanto norīkošanu definīcijas.
+> Lai grāmatošanas definīciju saistītu ar konkrētu transakcijas tipu, izmantojiet lapu **Transakciju grāmatošanas definīcijas**. Kad grāmatošanas definīciju esat saistījis ar transakcijas tipu un lapā **Virsgrāmatas parametri** esat atlasījis opciju **Izmantot grāmatošanas definīcijas**, visām atlasītā tipa transakcijām ir jālieto grāmatošanas definīcijas.
 
 ## <a name="example-purchase-order-encumbrances"></a>Piemērs: pirkšanas pasūtījuma apgrūtinājumi
 Ja iespējojat apgrūtinājumu apstrādi, atlasot opciju **Iespējot apgrūtinājumu apstrādi** lapā **Virsgrāmatas parametri**, visiem kontiem, kas ir jārezervē, ir jāizmanto grāmatošanas definīcijas, lai reģistrētu apgrūtinājumus virsgrāmatā. Parasti visi izdevumu konti tiek rezervēti bilancē. 
@@ -69,7 +72,7 @@ Konti un dimensijas vērtības ir iegūtas no uzskaites sadalēm, kas ir ievadī
 
 | Konts + dimensijas           | Debetkarte  | Kredītkarte | Komentārs |
 |--------------------------------|--------|--------|---------|
-| 606400-OU\_1-OU\_3566-apmācība | 250,00 |        |         |
+| 606400-OU\_1-OU\_3566-Apmācība | 250,00 |        |         |
 
 ### <a name="ledger-entries-generated-from-the-posting-definition"></a>Izmantojot grāmatošanas definīciju ģenerētie virsgrāmatas ieraksti
 
@@ -77,10 +80,10 @@ Tiek izveidoti ģenerētie virsgrāmatas ieraksti, lai reģistrētu apgrūtināj
 
 | Konts + dimensijas           | Debetkarte  | Kredītkarte | Komentārs |
 |--------------------------------|--------|--------|---------|
-| 300143-OU\_1-OU\_3566-apmācība | 250,00 |        |         |
-| 300144-OU\_1-OU\_3566-apmācība |        | 250,00 |         |
+| 300143-OU\_1-OU\_3566-Apmācība | 250,00 |        |         |
+| 300144-OU\_1-OU\_3566-Apmācība |        | 250,00 |         |
 
-Šajā piemērā jebkurš konts, kas ietilpst konta struktūrā — P/Z, atbilst grāmatošanas definīcijas kritērijiem. Tādēļ, kad 606500-OU\_1-OU\_3566 apmācības tiek novērtētas, ģenerēto ieraksti tiek izveidoti, kontiem, kas definēti **Generated ieraksti** rūts grāmatošanas definēt.
+Šajā piemērā jebkurš konts, kas ietilpst konta struktūrā — P/Z, atbilst grāmatošanas definīcijas kritērijiem. Tāpēc, novērtējot 606500-OU\_1-OU\_3566-Apmācība, ģenerētie ieraksti tiek izveidoti kontiem, kas grāmatošanas definīcijai ir definēti rūtī **Ģenerētie ieraksti**.
 
 ## <a name="example-budget-appropriations"></a>Piemērs: budžeta asignēšana
 Ja iespējot budžeta asignēšanu, atlasot opciju **Iespējot budžeta asignēšanu** lapā **Virsgrāmatas parametri**, grāmatošanas definīcijas ir jāizmanto, lai reģistrētu budžeta reģistra ierakstus virsgrāmatā. Kad ir aktivizēta un ieslēgta budžeta kontroles konfigurācija, grāmatošanas definīcijas un transakciju grāmatošanas definīcijas var izmantot, lai atbalstītu asignējumu, pārskatījumu, pārsūtījumu, projektu, pamatlīdzekļu un piedāvājuma un pieprasījuma prognožu ierakstu reģistrēšanai virsgrāmatā. 
@@ -110,7 +113,7 @@ Budžeta konta ieraksta kontus, dimensiju vērtības un summas var ievadīt lap�
 
 | Konts + dimensijas           | Debetkarte | Kredītkarte | Komentārs |
 |--------------------------------|-------|--------|---------|
-| 606400-OU\_1-OU\_3566-apmācība |       | 250,00 |         |
+| 606400-OU\_1-OU\_3566-Apmācība |       | 250,00 |         |
 
 ### <a name="ledger-entries-generated-from-the-posting-definition"></a>Izmantojot grāmatošanas definīciju ģenerētie virsgrāmatas ieraksti
 
@@ -118,10 +121,12 @@ Tiek izveidoti ģenerētie virsgrāmatas ieraksti, lai reģistrētu sākotnējo 
 
 | Konts + dimensijas           | Debetkarte  | Kredītkarte | Komentārs |
 |--------------------------------|--------|--------|---------|
-| 300145-OU\_1-OU\_3566-apmācība |        | 250,00 |         |
-| 300146-OU\_1-OU\_3566-apmācība | 250,00 |        |         |
+| 300145-OU\_1-OU\_3566-Apmācība |        | 250,00 |         |
+| 300146-OU\_1-OU\_3566-Apmācība | 250,00 |        |         |
 
-Šajā piemērā jebkurš konts, kas ietilpst konta struktūrā — P/Z, atbilst grāmatošanas definīcijas kritērijiem. Tādēļ, kad 606400-OU\_1-OU\_3566 apmācības tiek novērtētas, ģenerēto grāmatas ieraksti tiek izveidoti.
+Šajā piemērā jebkurš konts, kas ietilpst konta struktūrā — P/Z, atbilst grāmatošanas definīcijas kritērijiem. Tāpēc, novērtējot 606400-OU\_1-OU\_3566-Apmācība, tiek izveidoti ģenerētie virsgrāmatas ieraksti.
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Apmācības kursu iestatīšana"
+title: "Iestatīt apmācību kursus"
 description: "Personāla vadības administratori un vadītāji var izmantot šos kursu līdzekļus, lai uzturētu informāciju par darbiniekiem piedāvāto apmācību."
 author: twheeloc
 manager: AnnBe
@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-training-courses"></a>Apmācības kursu iestatīšana
+# <a name="set-up-training-courses"></a>Iestatīt apmācību kursus
+
+[!include[banner](includes/banner.md)]
+
 
 Personāla vadības administratori un vadītāji var izmantot šos kursu līdzekļus, lai uzturētu informāciju par darbiniekiem piedāvāto apmācību.
 
- <a name="set-up-prerequisites"></a> Priekšnoteikumu iestatīšana
+ <a name="set-up-prerequisites"></a>Priekšnoteikumu iestatīšana
 ---------------------
 
 Pirms veidojat kursus, ir nepieciešama un ir jāiestata tālāk norādītā informācija.
@@ -85,7 +88,7 @@ Katram kursam var izpildīt šādus uzdevumus.
 -   Kursu dalībniekiem ieteikt viesnīcas
 -   Veidot kursa aprakstu, ko pēc tam varat reklamēt darbinieku pašapkalpošanās pakalpojumā
 
-  >**Piezīme** kursu var izdzēst tikai tad, ja neviens to reģistrējusi. 
+  >**Piezīme.** Kursu varat dzēst tikai tad, ja tam neviens nav reģistrējies. 
     
 ## <a name="course-statuses"></a>Kursu statusi
 Tālāk esošajā tabulā uzskaitīti iespējamie kursu statusi un darbības, kuras varat pabeigt, kad kursam ir specifisks statuss.
@@ -111,7 +114,7 @@ Tālāk esošajā tabulā uzskaitīti iespējamie kursu statusi un darbības, ku
 <li>Reģistrējiet dalībniekus kursiem.</li>
 <li>Dzēsiet kursu dalībniekus.</li>
 <li>Apstipriniet kursu dalībniekus.</li>
-<li>Mainiet kursa statusu uz<strong> Slēgts</strong> vai <strong>Atcelts</strong>.</li>
+<li>Mainiet kursa statusu uz <strong>Slēgts</strong> vai <strong>Atcelts</strong>.</li>
 <li>Plānojiet anketas darbiniekiem, kuru statuss ir <strong>Apstiprināts</strong>.</li>
 </ul></td>
 </tr>
@@ -132,7 +135,9 @@ Kursu dalībnieki ir darbinieki, kandidāti vai kontaktpersonas, kuri piedalās 
 <a name="workflow"></a>Darbplūsma
 --------
 
-Darbiniekiem, kas reģistrējas gaitām **darbinieku pašapkalpošanās** lapa var būt viņu reģistrācijas maršrutēti, izmantojot apstiprinājuma darbplūsmas.  Darbplūsmu var piešķirt kursu uz **vispārējā** FastTab par **kursiem** lapu.
+Darbinieki, kuri kursam ir reģistrējušies, izmantojot lapu **Darbinieku pašapkalpošanās**, savu reģistrāciju var maršrutēt apstiprināšanai caur darbplūsmu.  Darbplūsmu kursam var piešķirt kopsavilkuma cilnē **Vispārīgi**, lapā **Kursi**.
+
+
 
 
 

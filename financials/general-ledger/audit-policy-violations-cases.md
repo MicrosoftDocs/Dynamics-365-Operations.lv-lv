@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="audit-policy-violations-and-cases"></a>Audita ierobežojuma nosacījumu pārkāpumi un gadījumi
 
+[!include[banner](../includes/banner.md)]
+
+
 Rakstā ir paskaidrots, kā no audita ierobežojumu nosacījumu pārkāpumiem tiek ģenerēti audita gadījumi. Tajā ir iekļauta arī informācija par dažādiem veidiem, kā audita ierobežojumi izmanto dokumentu atlases datumu diapazonu.
 
 <a name="how-audit-cases-are-generated"></a>Audita gadījumu ģenerēšana
@@ -39,10 +42,10 @@ Audita ierobežojumi tiek palaisti pakešveida režīmā. Palaižot audita ierob
 
 Visi ierobežojuma nosacījumi novērtē dokumentu kopu. Ierobežojuma nosacījums atlasa dokumentus, kas atrodas dokumentu atlases datumu diapazonā un atbilst norādītajiem kritērijiem. Piemēram, viens ierobežojuma nosacījums var atlasīt izdevumu pārskatus, kur ir ietvertas maltītes, kuru vērtība pārsniedz 50,00. Cits ierobežojuma nosacījums var atlasīt kreditora rēķinus, kas ir jāsamaksā noteiktam kreditoram. Visiem dokumentiem, kas kopā tiek atlasīti, tiek ģenerēts pārkāpums. Šis pārkāpums ir ieraksts par to, ka noteikts dokuments, piemēram, rēķins Nr. 12345, neatbilst ierobežojuma nosacījumam. 
 
-Vairāki ierobežojuma nosacījumu ieraksti tiek grupēti un saistīti ar audita gadījumiem. Pēc noklusējuma katra audita ierobežojuma gadījumi tiek grupēti pēc audita ierobežojuma nosacījuma. Varat arī atlasīt citu grupēšanas kritēriju, izmantojot lapu **Gadījumu grupēšanas kritēriji**. Piemēram, izdevumu galvenes var grupēt pēc projekta ID un piegādātāju rēķinus pēc kreditora konta. Šādā gadījumā visi izdevumu galvenes pārkāpumi, kas ir pats projekta ID tiek klasificēti šajā pašā lietā un visu kreditoru rēķinus, kas ir ar to pašu kreditora kontu tiek klasificēti šajā pašā lietā. 
+Vairāki ierobežojuma nosacījumu ieraksti tiek grupēti un saistīti ar audita gadījumiem. Pēc noklusējuma katra audita ierobežojuma gadījumi tiek grupēti pēc audita ierobežojuma nosacījuma. Varat arī atlasīt citu grupēšanas kritēriju, izmantojot lapu **Gadījumu grupēšanas kritēriji**. Piemēram, izdevumu virsrakstus varat grupēt pēc projekta ID, savukārt kreditora rēķinus — pēc kreditora konta. Šajā gadījumā visi izdevumu virsraksta pārkāpumi, kam ir vienāds projekta ID, tiks grupēti vienā gadījumā, savukārt visi kreditora rēķini, kuriem ir vienāds kreditora konts, tiks grupēti tajā pašā gadījumā. 
 
 > [!NOTE]
-> Par revīzijas politikas noteikumus, kuru pamatā ir **dublikātu** vaicājuma tips, pārkāpumi nav sagrupēti pa politikas kārtula vai kritērijiem, kas norādīti **gadījumā grupēšanas kritērijus** lapā. Tā vietā tie tiek grupēti pēc noklusējuma audita ierobežojuma nosacījumu kritērijiem. Piemēram, ja ierobežojuma nosacījums novērtē, vai izdevumu pārskatos ir izdevumu dublikāti ar vienādu summu, tirgotāja ID un datumu, visi izdevumi, kam šajos laukos ir vienādas vērtības, būs viens gadījums. Visis izdevumi, kam ir atšķirīgas vērtības, būs atsevišķs gadījums.
+> Audita ierobežojuma nosacījumiem, kuru pamatā ir vaicājuma tips **Dublikāts**, pārkāpumi netiek grupēti pēc ierobežojuma nosacījuma vai pēc kritērijiem, kas norādīti lapā **Gadījumu grupēšanas kritēriji**. Tā vietā tie tiek grupēti pēc noklusējuma audita ierobežojuma nosacījumu kritērijiem. Piemēram, ja ierobežojuma nosacījums novērtē, vai izdevumu pārskatos ir izdevumu dublikāti ar vienādu summu, tirgotāja ID un datumu, visi izdevumi, kam šajos laukos ir vienādas vērtības, būs viens gadījums. Visis izdevumi, kam ir atšķirīgas vērtības, būs atsevišķs gadījums.
 
 Pēc audita gadījumu ģenerēšanas tie tiek apstrādāti, izmantojot standarta lietu pārvaldības procesus.
 
@@ -56,6 +59,8 @@ Tālāk ir minēti daži citi veidi, kā audita ierobežojums izmanto dokumentu 
 -   Saistībā ar ierobežojuma nosacījumiem, kuru pamatā ir vaicājuma veids **Meklēšana sarakstā**, ierobežojums novērtē to uzraudzīto elementu dokumentus, kas ir spēkā dokumentu atlases datumu diapazona pēdējā dienā.
 
 
-Lai iegūtu papildinformāciju, skatiet [audita politikas noteikumus](audit-policy-rules.md)
+Plašāku informāciju skatiet rakstā [Audita ierobežojuma nosacījumi](audit-policy-rules.md)
+
+
 
 

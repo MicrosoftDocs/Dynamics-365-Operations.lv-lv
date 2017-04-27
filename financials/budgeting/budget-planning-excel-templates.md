@@ -1,6 +1,6 @@
 ---
 title: "Budžeta plānošanas veidnes programmai Excel"
-description: "Šajā tēmā ir aprakstīts, kā izveidot Microsoft Excel veidnes, kuras var izmantot ar budžeta plāniem."
+description: "Šajā tēmā ir aprakstīts, ka izveidot Microsoft Excel veidnes, kuras var izmantot ar budžeta plāniem."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,100 +26,105 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-planning-templates-for-excel"></a>Budžeta plānošanas veidnes programmai Excel
 
-Šajā tēmā ir aprakstīts, kā izveidot Microsoft Excel veidnes, kuras var izmantot ar budžeta plāniem.
+[!include[banner](../includes/banner.md)]
 
-Šī tēma rāda, kā izveidot Excel veidnes, kas tiks izmantots ar budžeta plāniem, izmantojot standarta demo datu kopu un Admin lietotāja pieteikšanās. Lai iegūtu papildu informāciju par budžeta plānošanu, skatiet [budžeta plānošana biznesam.](budget-planning-overview-configuration.md) Jūs varat arī sekot [budžeta plānošanas 101](budget-plan.md) pamācību, lai uzzinātu pamata moduļa konfigurācijas un lietošanas principi.
 
-## <a name="generate-a-worksheet-using-budget-plan-document-layout"></a>Ģenerētu budžeta plāna dokumenta izkārtojumu, izmantojot darblapas
-Budžeta plāna dokumentus var skatīt un rediģēt, izmantojot vienu vai vairākus izkārtojumus. Katrs izkārtojums var būt saistītais budžeta plāna dokumenta veidne skatīt un rediģēt budžeta plāna datus Excel darblapā. Šajā tēmā, budžeta plānu dokumentu veidnes ģenerēs esošu izkārtojumu konfigurāciju. Atvērts **budžeta plānu saraksts** (**budžeta līdzekļu**&gt;**budžeta plāni**). Noklikšķiniet uz **New**, lai izveidotu jaunu budžeta plānu dokumentu. [![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+Šajā tēmā ir aprakstīts, ka izveidot Microsoft Excel veidnes, kuras var izmantot ar budžeta plāniem.
 
-Izmantojiet **pievienot** līniju opciju, lai pievienotu rindas. Noklikšķiniet uz **izkārtojumi** budžeta plāna dokumenta izkārtojuma konfigurāciju var apskatīt. 
+Šajā tēmā ir parādīts, ka izveidot Excel veidnes, kuras tiks izmantotas ar budžeta plāniem, izmantojot standarta demonstrācijas datu kopu un piesakoties lietotājam ar administratora tiesībām. Papildinformāciju par darbu ar budžeta plānošanu skatiet sadaļā [Budžeta plānošanas apskats.](budget-planning-overview-configuration.md) Lai apgūtu moduļa konfigurēšanas un lietošanas pamatprincipus, varat izpildīt arī apmācību [Budžeta plānošana 101](budget-plan.md).
+
+## <a name="generate-a-worksheet-using-budget-plan-document-layout"></a>Ģenerēt darblapu, izmantojot budžeta plāna dokumenta izkārtojumu
+Budžeta plāna dokumentus var skatīt un rediģēt, izmantojot vienu vai vairākus izkārtojumus. Ar katru izkārtojumu var būt saistīta budžeta plāna dokumenta veidne, lai šos budžeta plāna datus skatītu un rediģētu Excel darblapā. Šajā tēmā budžeta plāna dokumenta veidne tiks ģenerēta, izmantojot jau esošu izkārtojuma konfigurāciju. Atveriet **budžeta plānu sarakstu** (**Budžeta veidošana**&gt; **Budžeta plāni**). Noklikšķiniet uz **Jauns**, lai izveidotu jaunu budžeta plāna dokumentu. [![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+
+Izmantojiet rindas opciju **Pievienot**, lai pievienotu rindas. Noklikšķiniet uz **Izkārtojumi**, lai skatītu budžeta plāna dokumenta izkārtojuma konfigurāciju. 
 [![bpt2](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
-Var pārskatīt izkārtojumu konfigurācijas un pielāgot pēc vajadzības. Dodieties uz **veidnes**&gt;**Generate** izveidot Excel failu, ko šis izkārtojums. Kad tiek ģenerēts veidnes, dodieties uz **veidnes**&gt;**View** atvērt un pārskatīt budžeta plāna dokumenta veidni. Excel failu var saglabāt lokālajā diskā. [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png) 
+Izkārtojuma konfigurāciju varat pārskatīt un pēc nepieciešamības koriģēt. Dodieties uz **Veidne** &gt; **Ģenerēt**, lai izveidotu Excel failu šim izkārtojumam. Kad veidne ir ģenerēta, pārejiet uz **Veidne** &gt; **Skatīt**, lai atvērtu un pārskatītu budžeta plāna dokumenta veidni. Šo Excel failu varat saglabāt lokālajā diskā. [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png) 
 
 > [!NOTE] 
-> Budžeta plāna dokumenta izkārtojumu nevar labot pēc tam, kad programmas Excel veidne ir saistīta ar to. Lai mainītu izkārtojumu, to nenodzēšat kā _ arī saistīto Excel veidni un atjaunot to. Tas ir vajadzīgs, lai saglabātu laukus izkārtojumā un darblapas sinhronizētas. 
+> Kad ar budžeta plāna dokumenta izkārtojumu ir saistīta Excel veidne, šo izkārtojumu vairs nevar rediģēt. Lai izkārtojumu modificētu, izdzēsiet piesaistītās Excel veidnes failu un ģenerējiet to no jauna. Tas ir nepieciešams tādēļ, lai izkārtojuma un darblapas lauki būtu sinhronizēti. 
 
-Excel veidne satur visus elementus no budžeta plāna dokumenta izkārtojumu, kur **pieejams darblapā** kolonna ir iestatīts uz True. Excel veidnei nav atļauts izmantot pārklājošos elementu. Piemēram, ja izkārtojums satur pieprasījumu Q1, pieprasījuma Q2, pieprasījuma Q3 un pieprasījuma Q4 kolonnas un kopējā pieprasījuma kolonna, kas pārstāv visas 4 ceturkšņa kolonnas summa, tikai ceturkšņa kolonnās vai kolonnu summa ir pieejams izmantot Excel veidnes. Excel failu nevar atjaunināt pārklājas kolonnas atjaunināšanas laikā tāpēc, ka tabulas datus varētu kļūt par novecojušu un neprecīzi.
+Excel veidnē būs visi elementi no budžeta plāna dokumenta izkārtojuma, kur kolonnas **Pieejams darblapā** vērtība ir iestatīta uz Patiess. Excel veidnē nav atļauta elementu pārklāšanās. Piemēram, ja izkārtojumā ietilpst kolonnas Pieprasījums Q1, Pieprasījums Q2, Pieprasījums Q3 un Pieprasījums Q4, un kopīgā pieprasījuma kolonna, kas pārstāv visu četru ceturkšņu kolonnu summu, tad Excel veidnē lietošanai ir pieejamas tikai ceturkšņa kolonnas vai kopējā kolonna. Atjaunināšanas laikā Excel fails nevar atjaunināt kolonnas, kas pārklājas, jo tabulā esošie dati varētu kļūt novecojuši vai neprecīzi.
 
 [![bpt4](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> Lai novērstu potenciālas problēmas, kas saistītas ar izmantojot Excel budžeta plānu datu skatīšanai un rediģēšanai, viens un tas pats lietotājs būtu pieteicies gan dinamiku 365 operācijas un datu savienotājs Microsoft Dynamics Office pievienojumprogramma.
+> Lai nepieļautu iespējamas problēmas saistībā ar budžeta plāna datu skatīšanu un rediģēšanu, izmantojot programmu Excel, vienam un tam pašam lietotājam ir jāpiesakās gan Dynamics 365 for Operations, gan Microsoft Dynamics Office pievienojumprogrammā Datu savienotājs.
 
-## <a name="add-a-header-to-budget-plan-document-template"></a>Budžeta plāna dokumenta veidnei pievienotu galveni
-Lai pievienotu galvenes informāciju, atlasiet augšējo rindu Excel failā un ievietot tukšu rindu. Noklikšķiniet uz **Design**, **datu savienotājs** pievienot galvenes lauki Excel failā.
+## <a name="add-a-header-to-budget-plan-document-template"></a>Pievienot galveni budžeta plāna dokumenta veidnei
+Lai pievienotu galvenes informāciju, atlasiet augšējo rindu Excel failā un ievietojiet tukšas rindas. Programmā **Datu savienotājs** noklikšķiniet uz **Dizains**, lai Excel failam pievienotu galvenes laukus.
 
 [![bpt5](./media/bpt5-1024x615.png)](./media/bpt5.png) 
 
-Šajā **Design** tab, * * * * noklikšķiniet **pievienot** laukus un pēc tam atlasiet **BudgetPlanHeader** vienība datu avotu.
+Cilnē **Dizains** noklikšķiniet uz **Pievienot laukus** un pēc tam kā elementa datu avotu atlasiet vienumu **BudgetPlanHeader**.
 
 [![bpt6](./media/bpt6-1024x615.png)](./media/bpt6.png)
 
-Novietojiet kursoru uz vajadzīgo vietu Excel failā. Noklikšķiniet uz **pievienot etiķetes** pievienot lauka etiķetes uz atlasīto atrašanās vietu. Atlasiet **pievienot vērtību** pievienot lauka vērtību uz izvēlēto vietu. Noklikšķiniet uz **darīts** slēgt dizainers.
+Ar kursoru norādiet uz vēlamo vietu Excel failā. Noklikšķiniet uz **Pievienot etiķeti**, lai atlasītajai vietai pievienotu lauka etiķeti. Atlasiet vienumu **Pievienot vērtību**, lai atlasītajai vietai pievienotu šo vērtības lauku. Lai aizvērtu noformētāju, noklikšķiniet uz **Gatavs**.
 
 ## <a name="bpt7mediabpt7pngmediabpt7png"></a>[![bpt7](./media/bpt7.png)](./media/bpt7.png)
 
-<a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Aprēķinātas kolonnas pievienošana budžeta plāna dokumenta veidne tabula
+<a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Pievienot aprēķinātu kolonnu budžeta plāna dokumenta veidnes tabulai
 --------------------------------------------------------------
 
-Nākamais, aprēķinātās kolonnas tiks pievienota izveidoto budžeta plāna dokumenta veidni. A **kopējā pieprasījuma** kolonnas, kas apkopo pieprasījuma Q1: pieprasījuma Q4 kolonnas un **korekcijas** kolonna, kas tiek pārrēķināta **kopējā pieprasījuma** kolonnu ar definētu koeficientu.
+Pēc tam ģenerētajai budžeta plāna dokumenta veidnei tiks pievienotas aprēķinātas kolonnas. Kolonna **Kopējais pieprasījums**, kurā ir kolonnu Pieprasījums Q1: Pieprasījums Q4 summa, un kolonna **Korekcija**, kas kolonnu **Kopējais pieprasījums** pārrēķina pēc sākotnēji definēta koeficienta.
 
-Noklikšķiniet uz **Design**, **datu savienotājs** lai tabulai pievienotu kolonnas. Noklikšķiniet uz **rediģēt** blakus **BudgetPlanWorksheet** sākt kolonnu pievienošana datu avotam.
+Programmā **Datu savienotājs** noklikšķiniet uz **Dizains**, lai tabulai pievienotu kolonnas. Noklikšķiniet uz **Rediģēt** blakus datu avotam **BudgetPlanWorksheet**, lai sāktu pievienot kolonnas.
 
 [![bpt8](./media/bpt8-1024x301.png)](./media/bpt8.png) 
 
-Kolonnas, kas pieejamas veidnes parāda atlasīto lauku grupu. Noklikšķiniet uz **Formula** jaunas kolonnas pievienošana. Jaunās kolonnas nosaukumu un pēc tam ielīmējot formulu par **Formula** lauks. Noklikšķiniet uz **Update**, lai ievietotu kolonnu.
+Atlasītajā lauku grupā tiek rādītas veidnē pieejamās kolonnas. Noklikšķiniet uz **Formula**, lai pievienotu jaunu kolonnu. Jaunajai kolonnai piešķiriet nosaukumu un pēc tam ielīmējiet formulu laukā **Formula**. Noklikšķiniet uz **Atjaunināt**, lai šo kolonnu ievietotu.
 
 [![bpt12](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> Lai definētu formulu, izveidot formulas izklājlapā un pēc tam kopēt to uz **Design** logu. Dynamics 365 operāciju saistītās tabulas parasti nosaukums ir "AXTable1". Piemēram, lai apkopotu pieprasīt Q1: pieprasīt Q4 kolonnas izklājlapā, formula = AxTable1\[pieprasīt Q1\]+ AxTable1\[pieprasīt Q2\]+ AxTable1\[pieprasīt Q3\]+ AxTable1\[pieprasīt Q4\].
+> Lai formulu definētu, izveidojiet šo formulu izklājlapā un pēc tam to iekopējiet logā **Dizains**. Ar programmu Dynamics 365 for Operations saistītai tabulai parasti tiek piešķirts nosaukums “AXTable1”. Piemēram, lai izklājlapā apkopotu kolonnas Pieprasījums Q1 : Pieprasījums Q4, tiek izmantota formula = AxTable1\[Pieprasījums Q1\]+AxTable1\[Pieprasījums Q2\]+AxTable1\[Pieprasījums Q3\]+AxTable1\[Pieprasījums Q4\].
 
-Atkārtojiet šīs darbības, lai ievietotu **korekcijas** kolonna. Izmantojiet formulu = AxTable1\[kopējā pieprasījuma\]\*$I$ 1, šajā kolonnā. Tas prasīs vērtība šūnā I1 un reizināt vērtības **kopējā pieprasījuma** kolonnu, lai aprēķinātu korekciju summas.
+Atkārtojiet šīs darbības, lai ievietotu kolonnu **Korekcija**. Šai kolonnai izmantojiet formulu = AxTable1\[Kopējais pieprasījums\]\*$I$1. Šādi šūnā I1 esošā vērtība tiks izmantota reizināšanai ar vērtībām kolonnā **Kopējais pieprasījums**, lai aprēķinātu korekcijas summas.
 
-Saglabājiet un aizveriet Excel failā. Atgrieztos Dynamics 365 operācijām, kā arī **izkārtojumi**, noklikšķiniet uz **veidnes &gt;augšupielādēt** augšupielādēt saglabāta Excel veidne jāizmanto budžeta plānu. 
+Saglabājiet un aizveriet Excel failu. Atgriezieties programmā Dynamics 365 for Operations un sadaļā **Izkārtojumi** noklikšķiniet uz **Veidne &gt; Augšupielādēt**, lai saglabāto Excel veidni augšupielādētu lietošanai budžeta plānā. 
 
 [![bpt10](./media/bpt10-1024x352.png)](./media/bpt10.png) 
 
-Tuvu **izkārtojumi** slīdni. Šajā **budžeta plānu** dokumentu, noklikšķiniet uz **darblapas** apskatīt un rediģēt programmā Excel dokuments. Ņemiet vērā, ka koriģētā Excel veidne tika izmantots, lai izveidotu budžeta plānu darblapā un aprēķinātās kolonnās tiek atjaunināti, izmantojot formulas, kas bija noteikts iepriekšējās darbības. 
+Aizvediet slīdni **Izkārtojumi**. Dokumentā **Budžeta plāns** noklikšķiniet uz **Darblapa**, lai dokumentu skatītu un rediģētu programmā Excel. Ņemiet vērā, ka koriģētā Excel veidne tika izmantota, lai izveidotu šo budžeta plāna darblapu, un aprēķinātās kolonnas tiek atjauninātas, izmantojot iepriekšējās darbībās definētās formulas. 
 
 [![bpt11](./media/bpt111-1024x431.png)](./media/bpt111.png)
 
-## <a name="tips--tricks-for-creating-budget-plan-templates"></a>Tips & triki, lai izveidotu budžeta plānu veidnes
-### <a name="can-i-add-and-use-additional-data-sources-to-a-budget-plan-template"></a>Var pievienot un izmantot papildu datu avotiem, lai budžeta plānu veidni?
+## <a name="tips--tricks-for-creating-budget-plan-templates"></a>Padomi un ieteikumi par budžeta plāna veidņu izveidošanu
+### <a name="can-i-add-and-use-additional-data-sources-to-a-budget-plan-template"></a>Vai budžeta plāna veidnei var pievienot un lietot papildu datu avotus?
 
-Jā, jūs varat izmantot **Design** izvēlni pievienot papildu vienības tajā pašā vai citās lapās Excel veidnei. Var pievienot, piemēram, **BudgetPlanProposedProject** datu avotu, lai izveidotu un uzturētu ierosināto projektu sarakstu, tajā pašā laikā, kad darbs ar budžeta plāna datiem programmā Excel. Ņemiet vērā, tostarp liela apjoma datu avotiem var ietekmēt sniegumu Excel darbgrāmatas. 
+Jā, varat izmantot izvēlni **Dizains**, lai tai pašai vai citām Excel veidnes lapām pievienotu papildu elementus. Varat, piemēram, pievienot datu avotu **BudgetPlanProposedProject**, lai izveidotu un uzturētu sarakstu ar piedāvātajiem projektiem, tajā pašā laikā strādājot ar budžeta plāna datiem programmā Excel. Ņemiet vēra, ka lielapjoma datu avotu iekļaušana var ietekmēt Excel darbgrāmatas veiktspēju. 
 
-Var izmantot **filtra** opcija **datu savienotājs** vēlamos filtrus pievienot papildu datu avotiem.
+Programmā **Datu savienotājs** varat izmantot opciju **Filtrs**, lai papildu datu avotiem pievienotu vēlamos filtrus.
 
-### <a name="can-i-hide-the-design-option-in-the-data-connector-for-other-users"></a>Paslēpiet noformējuma opciju datu savienotājā citiem lietotājiem?
+### <a name="can-i-hide-the-design-option-in-the-data-connector-for-other-users"></a>Vai programmā Datu savienotājs citiem lietotājiem varu slēpt opciju Dizains?
 
-Jā, atveriet **datu savienotājs** opciju, lai paslēptu **Design** opciju no citiem lietotājiem.
+Jā, atveriet programmas **Datu savienotājs** opcijas, lai opciju **Dizains** paslēptu no citiem lietotājiem.
 
 [![bpt13](./media/bpt13-1024x565.png)](./media/bpt13.png)
 
-Izvērsiet **savienotāju datu opcijas** un skaidri **Iespējot noformējuma** izvēles rūtiņu. Tas būs slēpt **Design** opciju no **datu savienotājs**.
+Izvērsiet sadaļu **Datu savienotāja opcijas** un noņemiet atzīmi izvēles rūtiņai **Iespējot dizainu**. Šādi opcija **Dizains** tiks paslēpta no programmas **Datu savienotājs** loga.
 
 [![bpt14](./media/bpt14-1024x592.png)](./media/bpt14.png)
 
-### <a name="can-i-prevent-users-from-accidently-closing-the-data-connector-while-working-with-data"></a>Lietotājiem var liegt iespēju netīšām aizvēršana datu savienotāju, kamēr strādājat ar datu
+### <a name="can-i-prevent-users-from-accidently-closing-the-data-connector-while-working-with-data"></a>Vai varu nepieļaut, ka lietotāji nejauši aizver datu savienotāju, kamēr strādā ar datiem?
 
-Mēs iesakām bloķēšana veidnei, lai neļautu lietotājiem aizvērt to. Lai ieslēgtu bloķēšanas, noklikšķiniet uz **datu savienotājs**, augšējā labajā stūrī parādās bultiņa. 
+Ieteicams veidni bloķēt, lai nepieļautu, ka lietotāji to aizver. Lai ieslēgtu bloķēšanu, noklikšķiniet uz **Datu savienotājs**, un labā augšējā stūrī kļūst redzama bultiņa. 
 
 [![bpt15](./media/bpt15-1024x285.png)](./media/bpt15.png) 
 
-Noklikšķiniet uz bultas, lai apskatītu papildu izvēlnes. Atlasiet **Lock**.
+Noklikšķiniet uz šīs bultiņas, lai atvērtu papildu izvēlni. Atlasiet vienumu **Bloķēt**.
 
 ### <a name="bpt16mediabpt16-1024x614pngmediabpt16png"></a>[![bpt16](./media/bpt16-1024x614.png)](./media/bpt16.png)
 
-### <a name="can-i-use-other-excel-features-like-cell-formatting-colors-conditional-formatting-and-charts-with-my-budget-plan-templates"></a>Var izmantot citas programmas Excel funkciju, piemēram, šūnu formatējumu, krāsas, nosacījumformatējumu un diagrammas, izmantojot manu budžeta plānu veidnes?
+### <a name="can-i-use-other-excel-features-like-cell-formatting-colors-conditional-formatting-and-charts-with-my-budget-plan-templates"></a>Vai savām budžeta plāna veidnēm varu lietot citus Excel līdzekļus, piemēram, šūnu formatēšanu, krāsas, nosacījumformatēšanu un diagrammas?
 
-Jā, lielākā daļa no standarta Excel iespējas darbosies budžeta plānu veidnes. Mēs iesakām izmantot krāsu kodēšanas lietotājiem atšķirt tikai lasāms un rediģējamas kolonnas. Nosacījumformatēšanu var izmantot, lai izceltu budžeta problemātiskās jomas. Kolonnas kopsummas var viegli jāiesniedz, izmantojot standarta Excel formulas virs tabulas.
+Jā, budžeta plāna veidnēs darbojas vairums Excel standarta iespēju. Ieteicams lietot krāsu kodējumu, lai tikai lasāmās kolonnas lietotāji varētu atšķirt no rediģējamajām. Nosacījumformatēšanu var izmantot, lai izceltu budžeta problemātiskos apgabalus. Kolonnu kopsummas var ērti attēlot, virs tabulas izmantojot Excel standarta formulas.
 
-Var arī izveidot un izmantot papildu grupējumi un budžeta datu vizualizācijas pivot tabulās un diagrammās. Par **datu** cilni, jo **savienojumus** grupu, noklikšķiniet uz **atsvaidzināt visu**, un pēc tam noklikšķiniet uz **savienojuma rekvizīti**. Noklikšķiniet uz **izmantošanas** tab. Zem **atsvaidzināt**, izvēlieties **atverot failu, atsvaidzināt datus** izvēles rūtiņu. 
+Varat arī izveidot un lietot rakurstabulas un diagrammas budžeta datu papildu grupēšanai un vizualizēšanai. Cilnē **Dati**, grupā **Savienojumi** noklikšķiniet uz **Atsvaidzināt visu** un pēc tam noklikšķiniet uz **Savienojuma rekvizīti**. Noklikšķiniet uz cilnes **Lietojums**. Sadaļā **Atsvaidzināt** atzīmējiet izvēles rūtiņu **Atsvaidzināt datus faila atvēršanas laikā**. 
 
 [![bpt17](./media/bpt17-1024x614.png)](./media/bpt17.png)
+
+
 
 

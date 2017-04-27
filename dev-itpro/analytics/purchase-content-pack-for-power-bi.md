@@ -1,6 +1,6 @@
 ---
-title: "Iepirkuma pavadīt Power BI satura analīze"
-description: "Šajā tēmā ir aprakstīts, kas ir iekļauta pirkšanas pavadīt analīzes satura pakotne Microsoft Power BI. Tas izskaidro, kā piekļūt atskaitēm, kas ir iekļautas satura pakotne un sniedz informāciju par datu modelis un vienībām, kas tiek izmantoti, lai izveidotu satura pakotne."
+title: "Power BI satura pakotne Pirkumu tēriņu analīze"
+description: "Šajā tēmā ir aprakstīts, kas ir iekļauts Microsoft Power BI satura pakotnē Pirkumu tēriņu analīze. Tajā ir paskaidrots, kā piekļūt pārskatiem, kas ir iekļauti satura pakotnē, un ir sniegta informācija par satura pakotnes izveidei izmantoto datu modeli un elementiem."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 2016-12-30 09 - 40 - 51
@@ -24,23 +24,23 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="purchase-spend-analysis-power-bi-content"></a>Iepirkuma pavadīt Power BI satura analīze
+# <a name="purchase-spend-analysis-power-bi-content"></a>Power BI satura pakotne Pirkumu tēriņu analīze
 
-Šajā tēmā ir aprakstīts, kas ir iekļauta pirkšanas pavadīt analīzes satura pakotne Microsoft Power BI. Tas izskaidro, kā piekļūt atskaitēm, kas ir iekļautas satura pakotne un sniedz informāciju par datu modelis un vienībām, kas tiek izmantoti, lai izveidotu satura pakotne.
+Šajā tēmā ir aprakstīts, kas ir iekļauts Microsoft Power BI satura pakotnē Pirkumu tēriņu analīze. Tajā ir paskaidrots, kā piekļūt pārskatiem, kas ir iekļauti satura pakotnē, un ir sniegta informācija par satura pakotnes izveidei izmantoto datu modeli un elementiem.
 
 <a name="overview"></a>Pārskats
 --------
 
-Iegādei tērē satura pakotne Microsoft Power BI tika izveidots iepirkumu vadītāji un menedžeri, kuri ir atbildīgi par budžeta analīzi. Tā ir izstrādāta, lai palīdzētu viņiem saglabāt acu par iegādes izdevumus. To izmanto pirkšanas transakciju datus no Microsoft Dynamics 365 operācijām un nodrošina gan apkopojuma skatu figūriņa uzņēmuma pirkšanu un pirkšanas izdevumus par kreditoru un produktu iedalījums. Atskaites Marķēt izmaiņas pirkšanas izdevumi laika gaitā. Tāpēc tos var izmantot, lai brīdinājuma vadītājiem par pozitīvo un negatīvo izdevumu tendences atsevišķiem kreditoriem un produktiem. Diagrammās redzama iegādes izdevumus dažādu iepirkumu kategorijas un kreditoru grupām. Kategoriju un reģionālajiem vadītājiem noderīgi izmantot šīm kartēm, kas palīdzēs identificēt izmaiņas izdevumu darbību. Satura pakotne pieņemsim pirkšanas vadītāji un menedžeri, kuri ir atbildīgi par budžetu analizēt iegādes izdevumus šādos veidos:
+Microsoft Power BI satura pakotne Pirkumu tēriņu analīze ir izveidota iepirkumu nodaļas vadītāju un par budžetu atbildīgo vadītāju vajadzībām. Tā ir izstrādāta tā, lai palīdzētu viņiem sekot līdzi pirkumu tēriņiem. Tā izmanto pirkumu transakciju datus no programmatūras Microsoft Dynamics 365 for Operations un nodrošina gan uzņēmuma līmeņa pirkumu rādītāju apkopošanas skatu, gan pirkumu tēriņu sadalījumu pēc kreditora vai preces. Pārskatos ir izceltas pirkumu tēriņu izmaiņas laika gaitā. Tāpēc tos var izmantot, lai brīdinātu vadītājus par pozitīvām un negatīvām tēriņu tendencēm saistībā ar atsevišķiem kreditoriem un precēm. Diagrammas ataino pirkumu tēriņus dažādām sagādes kategorijām un kreditoru grupām. Kategoriju un reģionālie vadītāji var izmantot šīs diagrammas, lai palīdzētu noteikt tēriņu darbību izmaiņas. Satura pakotne sniedz iepirkumu daļas vadītājiem un par budžetu atbildīgajiem vadītājiem analizēt pirkumu tēriņus tālāk norādītajos veidos.
 
--   Gada sākuma līdz konkrētajam datumam var iegādāties (kreditoru grupai un atsevišķiem kreditoriem, iepirkuma kategorija un atsevišķu produktu un piegādātāju atrašanās vietu)
--   Gadā-vairāk nekā gadu iepirkuma pārmaiņas (pēc kreditoru grupu un iepirkumu kategorijas)
+-   Līdzšinējā gada pirkumi (pēc kreditoru grupas, atsevišķa kreditora, sagādes kategorijas, atsevišķas preces un kreditora atrašanās vietas)
+-   Pirkumu izmaiņas pa gadiem (pēc kreditoru grupas un sagādes kategorijas)
 
-## <a name="accessing-the-content-pack"></a>Piekļūstot satura pakotni
-Pirkšanas pavadīt satura pakotne ir publicēts kā aktīvu īstenošanu programmā Microsoft Dynamics Lifecycle Services (LCS) un tai var piekļūt no Microsoft Dynamics 365 operāciju analīze. Lai iegūtu papildinformāciju par piekļuvi un varas BI atvērtās atskaites, skatiet [Power BI saturu no Microsoft un partneri LCS](power-bi-content-microsoft-partners.md).
+## <a name="accessing-the-content-pack"></a>Piekļuve satura pakotnei
+Satura pakotne Pirkumu tēriņu analīze ir publicēta kā ieviešanas līdzeklis pakalpojumā Microsoft Dynamics Lifecycle Services (LCS), un tai var piekļūt programmatūrā Microsoft Dynamics 365 for Operations. Papildinformāciju par to, kā piekļūt Power BI pārskatiem, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md).
 
-## <a name="metrics-that-are-included-in-the-content-pack"></a>Metriku, kas ir iekļautas satura pakotni
-Iegādei tērē analīzes satura pakotne ietver atskaites, kas sastāv no metriku kopa. Šiem rādītājiem ir iztēlojās kā diagrammas, flīzes un tabulām. Nākamajā tabulā sniegts pārskats par vizualizācijas saturu iepakojumā.
+## <a name="metrics-that-are-included-in-the-content-pack"></a>Satura pakotnē iekļautie rādītāji
+Satura pakotnē Pirkumu tēriņu analīze ir iekļauts pārskats, kas sastāv no rādītāju kopas. Šie rādītāji tiek vizualizēti kā diagrammas, elementi un tabulas. Tālāk esošajā tabulā ir sniegts apskats par satura pakotnes rādītāju vizualizēšanu.
 
 <table>
 <colgroup>
@@ -50,110 +50,110 @@ Iegādei tērē analīzes satura pakotne ietver atskaites, kas sastāv no metrik
 </colgroup>
 <thead>
 <tr class="header">
-<th>Atskaites lapu</th>
+<th>Pārskata lapa</th>
 <th>Diagrammas</th>
-<th>Flīzes</th>
+<th>Elementi</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Pēc kreditora pirkšanas</td>
+<td>Pirkumi pēc kreditora</td>
 <td><ul>
-<li>Top 10 piegādātājiem, iepirkuma (joslu grēdu diagrammā)</li>
-<li>Pirkšanas pasūtījumus pa piegādātājiem kopējā grupas / valsts / nosaukums (sektoru diagramma)</li>
-<li>Pirkšanas pasūtījumus pa piegādātājiem grupas / valsts / nosaukums (stabiņu diagramma)</li>
-<li>Vidējā pirkšanas pasūtījumus pa piegādātājiem grupas / valsts / nosaukums (stabiņu diagramma)</li>
+<li>Pirmie 10 kreditori pēc pirkšanas (joslu grēdu diagramma)</li>
+<li>Pirkumu kopsumma pēc kreditoru grupas/valsts/nosaukuma (sektoru diagramma)</li>
+<li>Pirkumi pēc kreditoru grupas/valsts/nosaukuma (stabiņu diagramma)</li>
+<li>Vidējie pirkumi pēc kreditoru grupas/valsts/nosaukuma (stabiņu diagramma)</li>
 </ul></td>
 <td><ul>
 <li>Kopējā pirkšana</li>
-<li>YOY iepirkuma pieaugums</li>
-<li>Kopējais # kreditoriem</li>
-<li>Kopējo aktīvu pārdevējiem #</li>
+<li>Pirkumu palielinājums pa gadiem</li>
+<li>Kreditoru kopskaits</li>
+<li>Aktīvo kreditoru kopskaits</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Pirkuma, preču</td>
+<td>Pirkumi pēc preces</td>
 <td><ul>
-<li>Iepirkuma kategorija var iegādāties / produkta nosaukums (stabiņu diagramma)</li>
-<li>Pirkšanas kopsumma pēc iepirkuma kategorija / produkta nosaukums (sektoru diagramma)</li>
-<li>10 labākos produktus pēc pirkuma (joslu grēdu diagrammā)</li>
+<li>Pirkumi pēc sagādes kategorijas/preces nosaukuma (stabiņu diagramma)</li>
+<li>Pirkumu kopsumma pēc sagādes kategorijas/preces nosaukuma (sektoru diagramma)</li>
+<li>Pirmās 10 preces pēc pirkšanas (joslu grēdu diagramma)</li>
 </ul></td>
 <td><ul>
-<li>Kopējā produktu #</li>
-<li>Kopējo aktīvu produktu procentuālā daļa kopējā produktu #</li>
-<li>Ražojumus, kas veido 80 % pirkumu skaits</li>
+<li>Preču kopskaits</li>
+<li>Aktīvo preču kopskaits procentos no preču kopskaita</li>
+<li>To preču skaits, kas veido 80% pirkumu</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Pirkuma, periods *</td>
+<td>Pirkumi pēc perioda*</td>
 <td><ul>
-<li>Pirkumu mēnesis / diena (stabiņu diagramma)</li>
-<li>Kumulatīvais pirkšanas YOY dispersijas (ūdenskrituma diagramma)</li>
-<li>Kopējos pirkšanas YOY pieaugumu (stabiņu diagramma)</li>
-<li>Iepirkumu paziņojumu (matrica)</li>
+<li>Pirkumi pēc mēneša/dienas (stabiņu diagramma)</li>
+<li>Apkopotā pirkumu novirze pa gadiem (ūdenskrituma diagramma)</li>
+<li>Pirkumu kopsummas palielinājums pa gadiem (stabiņu diagramma)</li>
+<li>Sagādes izraksts (matrica)</li>
 </ul></td>
 <td><ul>
-<li>YOY iepirkuma pieaugums</li>
-<li>YOY iepirkuma pieaugums %</li>
+<li>Pirkumu palielinājums pa gadiem</li>
+<li>Pirkumu palielinājums (%)</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Iegādāties pēc pārdevēja atrašanās vietas</td>
+<td>Pirkumi pēc kreditora atrašanās vietas</td>
 <td><ul>
-<li>Pirkuma, pilsētas</li>
-<li>Iepirkuma YOY pieaugumu %</li>
-<li>Valsts iepirkuma</li>
+<li>Pirkumi pēc pilsētas</li>
+<li>Pirkumu palielinājums pa gadiem (%)</li>
+<li>Pirkumi pēc valsts</li>
 </ul></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>Iepirkuma pavadīt analīze pēc laika</td>
+<td>Pirkumu tēriņu analīze pēc laika</td>
 <td><ul>
-<li>Pirkuma kārtējā gadā pa mēnešiem / dienā (līniju diagramma)</li>
-<li>Iepirkuma pašreizējā un pērn (rindu un kolonnu diagramma)</li>
+<li>Pašreizējā gada pirkumi pēc mēneša/dienas (līniju diagramma)</li>
+<li>Pašreizējā un pagājušā gada pirkumi (līniju un stabiņu diagramma)</li>
 </ul></td>
 <td></td>
 </tr>
 <tr class="even">
-<td>Iepirkuma pavadīt analīze pēc kreditora</td>
+<td>Pirkumu tēriņu analīze pēc kreditora</td>
 <td><ul>
-<li>Top 10 kreditora pirkšanas % pirkuma (piltuve)</li>
-<li>Top 10 kreditoriem ar lielāku tēriņu YOY</li>
-<li>Top 10 kreditoriem ar mazāku izdevumu YOY</li>
+<li>Pirmo 10 kreditoru pirkumi procentos (%) no pirkumiem (piltuves diagramma)</li>
+<li>Pirmie 10 kreditori ar palielinātiem tēriņiem pa gadiem</li>
+<li>Pirmie 10 kreditori ar samazinātiem tēriņiem pa gadiem</li>
 </ul></td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-\*Šogad un pērn pirkšanu un izaugsmi pēc iepirkumu kategorijas
+\*Šī gada un pagājušā gada pirkumi un palielinājums pēc sagādes kategorijas
 
-## <a name="data-model-and-entities"></a>Datu modelis un subjekti
-Dinamika 365 operācijām, kuras dati tiek izmantoti pirkšanas pārskatam pavadīt satura analīzes pakotnei. Šie dati tiek attēlots kā apkopojuma mērījumus, kas ir iestudētas entītiju krātuvē, kas ir Microsoft SQL datu bāzi, kas ir optimizēta analytics. Plašāku informāciju par entītiju veikalu, skatiet [Power BI integrācija ar entītiju veikalā Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) blog post. Apkopojuma mērījumus šo saturu iepakojumā ir apkopojuma mērījumus, kas bija pieejami pirkšanas kubā Microsoft Dynamics AX 2012 un Microsoft Dynamics 365 operācijas 2012 R3 apakškopu. Posms kuba apkopojuma mērījumu vienība veikalā, ir jāpadara tās izvietojamas. Plašāku informāciju skatiet procedūru sagatavošanas kopējais mērījumu vienība veikalā [Power BI integrācija ar entītiju veikalā Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) blog post. Šādus galvenos apkopojuma mērījumus ir pieejami tieši no rēķina rindas vienība un tiek izmantoti par pamatu satura pakotne.
+## <a name="data-model-and-entities"></a>Datu modelis un elementi
+Satura pakotnes Pirkumu tēriņu analīze pārskata izveidei tiek izmantoti Dynamics 365 for Operations dati. Šie dati tiek attēloti kā apkopoti mērījumi, kuri pa posmiem tiek izveidoti elementu krātuvē, kas ir analīzes veikšanai optimizēta Microsoft SQL datu bāze. Papildinformāciju par elementu krātuvi skatiet emuāra ierakstā [Power BI integrācija elementu krātuvē programmatūrā Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Šajā satura pakotnē ietvertie apkopošanas mērījumi ir to apkopošanas mērījumu apakškopa, kas ir pieejami pirkšanas kubā programmatūrā Microsoft Dynamics AX 2012 un Microsoft Dynamics 365 for Operations 2012 R3. Lai padarītu kuba apkopošanas mērījumus pieejamus elementu krātuvē, tie ir jāpadara izvietojami. Papildinformāciju skatiet emuāra ieraksta [Power BI integrācija elementu krātuvē programmatūrā Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) sadaļā par apkopošanas mērījumu izvietošanas elementu krātuvē procedūru. Tālāk norādītie galvenie apkopošanas mērījumi ir tieši pieejami no elementa Rēķina rindas, un tie tiek izmantoti kā satura pakotnes pamatdati.
 
-| Elements        | Apkopojuma galvenajiem mērījumiem | Datu avotu dinamiku 365 operācijām | Lauks              | apraksts                           |
+| Elements        | Galvenie apkopošanas mērījumi | Datu avots programmai Dynamics 365 for Operations | Lauks              | apraksts                           |
 |---------------|----------------------------|---------------------------------------------|--------------------|---------------------------------------|
 | Rēķina rindas | Pirkšana                   | VendInvoiceTrans                            | SUM(LineAmountMST) | Summa uzskaites valūtā |
 
-Tabulā ir norādīts atslēgas mērījumiem aprēķinātās satura pakotni no rēķina rindas vienība.
+Tālāk esošajā tabulā ir norādīti galvenie mērījumi, kas tiek aprēķināti satura pakotnē no elementa Rēķina rindas.
 
 | Mērs               | Aprēķins                                                                                         |
 |-----------------------|-----------------------------------------------------------------------------------------------------|
-| Iepirkuma pašreizējā gadā | Pirkuma kārtējā gada = SUM ('Rēķina rindas'\[pirkuma\])                                            |
-| Pagājušajā gadā iepirkuma    | Pirkšanas pagājušajā gadā = aprēķināt (SUM ('Rēķina rindas'\[pirkšanas\]), SAMEPERIODLASTYEAR (datumi\[dienas\])) |
-| YOY iepirkuma pieaugums   | YOY iepirkuma pieaugums = \[iegādāties kārtējam gadam\] - \[iegādāties pagājušajā gadā\]                            |
+| Pašreizējā gada pirkumi | Pašreizējā gada pirkumi = SUM('Rēģina rindas'\[Pirkšana\])                                            |
+| Pagājušā gada pirkumi    | Pagājušā gada pirkumi = CALCULATE(SUM('Rēķina rindas'\[Pirkšana\]), SAMEPERIODLASTYEAR(Datumi\[Datums\])) |
+| Pirkumu palielinājums pa gadiem   | Pirkumu palielinājums pa gadiem = \[Pašreizējā gada pirkumi\] – \[Pagājušā gada pirkumi\]                            |
 
-Šādas galvenās dimensijas saturu iepakojumā tiek izmantoti kā filtrus šķēle apkopojuma mērījumus, tāpēc, ka jūs varat sasniegt lielāku detalizācijas un analītisko dziļākai izpratnei.
+Tālāk norādītās galvenās dimensijas satura pakotnē tiek izmantotas kā filtri, lai sadalītu apkopošanas mērījumus, iegūstot lielāku granularitāti un sniedzot dziļākus analītiskos ieskatus.
 
 | Elements                 | Atribūtu piemēri                                |
 |------------------------|-------------------------------------------------------|
-| Kreditori                | Kreditoru grupas, kreditoru valstī vai reģionos, kreditora nosaukums |
-| Preces               | Produkta numuru, preces nosaukums, preču grupas nosaukums        |
-| Sagādes kategorijas | Iepirkuma kategorija, Sagādes kategoriju nosaukumus      |
+| Kreditori                | Kreditoru grupas, Kreditora valsts vai reģions, Kreditora nosaukums |
+| Preces               | Preces numurs, Preces nosaukums, Krājumu grupas nosaukums        |
+| Sagādes kategorijas | Sagādes kategorija, Sagādes kategoriju nosaukumi      |
 | Juridiskas personas         | Juridiskās personas nosaukums                                     |
-| Datumi                  | Datumus, gada nobīde                                    |
+| Datumi                  | Datumi, Gada nobīde                                    |
 
-Pēc noklusējuma satura pakotne rāda datus kārtējam kalendāra gadam. Tomēr jūs varat mainīt datuma filtrs sadaļā atskaites filtrus. Jūs varat arī mainīt uzņēmuma filtrs.
+Pēc noklusējuma satura pakotne nodrošina pašreizējā kalendārā gada datu rādīšanu. Taču varat mainīt datumu filtru pārskata filtru sadaļā. Varat mainīt arī uzņēmuma filtru.
 
 ## <a name="additional-resources"></a>Papildu resursi
 Šeit norādītas dažas noderīgas saites, kas ir saistītas ar elementiem un Power BI satura izveidi:

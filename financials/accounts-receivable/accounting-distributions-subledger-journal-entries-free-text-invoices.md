@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounting-distributions-and-subledger-journal-entries-for-free-text-invoices"></a>Uzskaites sadales un apakšgrāmatas žurnāla ieraksti brīva teksta rēķiniem
 
+[!include[banner](../includes/banner.md)]
+
+
 Uzskaites sadales tiek izmantotas, lai definētu, kā summa tiek uzskaitīta, piemēram, kā ieņēmumi, nodokļi vai izmaksas tiek uzskaitīti brīva teksta rēķinā. Katrai summai, kas ir jānorāda brīva teksta rēķina reģistrēšanai žurnālā, ir viena vai vairākas uzskaites sadales.
 
 <a name="accounting-distributions"></a>Uzskaites sadales
@@ -35,7 +38,7 @@ Uzskaites sadales tiek izmantotas, lai definētu, kā summa tiek uzskaitīta, pi
 
 Brīva teksta rēķina lapā varat izmantot tālāk aprakstītās pogas, lai brīva teksta rēķinā skatītu un, iespējams, mainītu katras summas uzskaites sadales.
 
--   **Izplatīt summas**— skatīt un mainīt atsevišķu līniju un jebkuru bērnu uzskaites sadales līnijas, piemēram, nodokļiem vai maksājumiem. Apakšrindu uzskaites sadales varat arī skatīt un mainīt tieši no lapas Pārdošanas nodokļa transakcijas vai Maksu darbības.
+-   **Sadalīt summas**— skatiet un mainiet uzskaites sadales atsevišķai rindai un jebkurai apakšrindai, piemēram, nodokļiem vai izmaksām. Apakšrindu uzskaites sadales varat arī skatīt un mainīt tieši no lapas Pārdošanas nodokļa transakcijas vai Maksu darbības.
     -   Mainiet brīva teksta rēķina galvenes summas, piemēram, izmaksas vai valūtas noapaļošanas summas.
     -   Mainiet brīva teksta rēķina rindas summas.
 -   **Skatīt sadales**— skatiet visu dokumenta rindu uzskaites sadales. No šī skata uzskaites sadales nevar mainīt.
@@ -74,7 +77,7 @@ Kad ievadāt brīva teksta rēķinu, katra summa tiek sadalīta tālāk aprakst�
 <table>
 <thead>
 <tr class="header">
-<th><strong>Piezīme </strong></th>
+<th><strong>Piezīme</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -130,7 +133,9 @@ Nodokļu uzskaites sadales var izveidot tikai pēc nodokļu aprēķināšanas. L
 -   Apskatiet uzskaites sadales visam brīva teksta rēķinam.
 -   Apskatiet apakšgrāmatas žurnālu.
 
-## <a name="subledger-journals-for-free-text-invoices"></a> Apakšgrāmatas žurnāli brīva teksta rēķiniem
+## <a name="subledger-journals-for-free-text-invoices"></a>Apakšgrāmatas žurnāli brīva teksta rēķiniem
 Pirms grāmatojat brīva teksta rēķinu, varat apskatīt pilnu uzskaites ierakstu šim rēķinam, kas ietver debetu un kredītu, lai pārliecinātos, ka rēķins tiek grāmatots pareizajos kontos. Šis pilnās uzskaites ieraksta skats tiek saukts par apakšgrāmatas žurnālu. Ja pirms brīva teksta rēķina reģistrēšanas žurnālā priekšskatāt apakšgrāmatas žurnāla ierakstu un tas ir nepareizs, šo apakšgrāmatas žurnāla ierakstu nevar mainīt. Tā vietā ir jāmaina uzskaites sadales vai grāmatošanas metode. Uzskaites sadales tiek izmantotas, lai noteiktu uzskaites ieraksta vienu pusi, debetu vai kredītu. Korespondējošais apakšgrāmatas žurnāla konta ieraksts tiek izveidots no grāmatošanas metodēm, piemēram, no debitora konta vai nodokļiem.
+
+
 
 

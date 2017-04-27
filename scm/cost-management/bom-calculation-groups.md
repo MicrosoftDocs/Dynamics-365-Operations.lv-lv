@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="bom-calculations-groups"></a>MK aprēķinu grupas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegta informācija par materiālu komplektu (MK) aprēķinu grupām un to iestatīšanu. Lai izpildītu MK aprēķinu, ir jāiestata aprēķinu grupas un tās jāpiešķir atsevišķiem krājumiem, vai jāiestata noklusējuma aprēķinu grupa. MK aprēķināšanas laikā aprēķinu iestatījumi no aprēķinu grupas tad tiek izmantoti kā noklusējuma vērtības lapā MK aprēķins. 
 
-Noklusējuma aprēķinu grupa ir nepieciešama lapā **Krājumu un noliktavas vadības parametri** vai precei raksturīga aprēķinu grupa ir nepieciešama lapā **Detalizēta informācija par izlaistajām precēm**. Sistēma vispirms meklē aprēķinu grupas iestatījuma **atbrīvo produkta detaļas** lapā. Ja tā neatrod aprēķinu grupu, tas izskatās **krājumu un noliktavu pārvaldības parametri** lapā. Ja sistēma nevar atrast aprēķinu grupa, lietotājs saņem kļūdas ziņojumu aprēķināšanas laikā. Aprēķinu grupa ietver politikas izmaksu cenas modelim, pārdošanas cenas modelim un brīdinājumu kontrolsarakstam. MK aprēķināšanas laikā aprēķinu iestatījumi no aprēķinu grupas tiek izmantoti kā noklusējuma vērtības lapā **MK aprēķins**.
+Noklusējuma aprēķinu grupa ir nepieciešama lapā **Krājumu un noliktavas vadības parametri** vai precei raksturīga aprēķinu grupa ir nepieciešama lapā **Detalizēta informācija par izlaistajām precēm**. Sistēma vispirms meklē aprēķinu grupas iestatījumu lapā **Detalizēta informācija par izlaistajām precēm**. Ja aprēķinu grupa tur netiek atrasta, sistēma meklē lapā **Krājumu un noliktavas vadības parametri**. Ja sistēma nevar atrast kādu aprēķinu grupu, tad aprēķināšanas laikā lietotājs saņem kļūdas ziņojumu. Aprēķinu grupa ietver politikas izmaksu cenas modelim, pārdošanas cenas modelim un brīdinājumu kontrolsarakstam. MK aprēķināšanas laikā aprēķinu iestatījumi no aprēķinu grupas tiek izmantoti kā noklusējuma vērtības lapā **MK aprēķins**.
 
 ## <a name="purposes-of-bom-calculation-groups"></a>MK aprēķinu grupu nolūki
 MK aprēķinu grupu varat piešķirt krājumiem vairāku tālāk aprakstīto iemeslu dēļ.
@@ -72,7 +75,7 @@ Kopsavilkuma cilnē **Brīdinājumi** jūs atlasāt opcijas visiem brīdinājumu
 Noklusējuma iestatījumi krājumu un noliktavas vadības parametros
 --------------------------------------------------------------
 
-Tā kā aprēķinu izpildīšanai ir nepieciešamas aprēķinu grupas, jums krājumu vadības parametros ir jāiestata noklusējuma aprēķinu grupa. Šis iestatījums uzņēmumiem ļauj izmantot standarta izmaksu grupu un peļņas iestatījumus visiem krājumiem. Ja noteiktam krājumam ir īpašas aprēķinu prasības, lietotājs šim krājumam var piešķirt citādu aprēķinu grupu. Parasti aprēķinu grupas varat iestatīt MK komponentu krājumiem, nevis MK krājumiem. Taču, kad tiek rādīti brīdinājumu ziņojumi, aprēķinu grupas var lietot. Krājumiem piešķirtajai aprēķinu grupai ir lielāka prioritāte nekā noklusējuma vērtībai, kas ir iestatīta krājumu vadības parametros. Varat iestatīt noklusējuma parametru pie **izmaksu pārvaldība**&gt;**krājumu uzskaites politikas iestatījums**&gt;**parametrus**&gt;**krājumu uzskaites**&gt;**aprēķinu grupa**. Iestatot noklusējuma konfigurācijas grupu, varat arī konfigurēt brīdinājumu nosacījumus, kas MK aprēķināšanas procesa laikā lietotājiem parāda uzvednes, ja atlasītie komponenti varētu izraisīt aprēķina kļūdas.
+Tā kā aprēķinu izpildīšanai ir nepieciešamas aprēķinu grupas, jums krājumu vadības parametros ir jāiestata noklusējuma aprēķinu grupa. Šis iestatījums uzņēmumiem ļauj izmantot standarta izmaksu grupu un peļņas iestatījumus visiem krājumiem. Ja noteiktam krājumam ir īpašas aprēķinu prasības, lietotājs šim krājumam var piešķirt citādu aprēķinu grupu. Parasti aprēķinu grupas varat iestatīt MK komponentu krājumiem, nevis MK krājumiem. Taču, kad tiek rādīti brīdinājumu ziņojumi, aprēķinu grupas var lietot. Krājumiem piešķirtajai aprēķinu grupai ir lielāka prioritāte nekā noklusējuma vērtībai, kas ir iestatīta krājumu vadības parametros. Noklusējuma parametru varat iestatīt sadaļā **Izmaksu pārvaldība** &gt; **Krājumu uzskaites politiku iestatīšana** &gt; **Parametri** &gt; **Krājumu uzskaite** &gt; **Aprēķinu grupa**. Iestatot noklusējuma konfigurācijas grupu, varat arī konfigurēt brīdinājumu nosacījumus, kas MK aprēķināšanas procesa laikā lietotājiem parāda uzvednes, ja atlasītie komponenti varētu izraisīt aprēķina kļūdas.
 Skatīt brīdinājuma ziņojums lapā Pabeigt
 ------------------------------------------
 
@@ -85,5 +88,7 @@ MK aprēķins ģenerē brīdinājuma ziņojumus. Varat skatīt brīdinājumus pa
 -   Identificēt, kad krājumam MK rindā ienesīguma procenti ir mazāki par vēlamajiem.
 
 Varat definēt vairākas MK aprēķinu grupas, atkarībā no tā, kāda brīdinājuma ziņojumu dažādība jums ir nepieciešama. Piemēram, vienai MK aprēķina grupai, kurai ir brīdinājuma nosacījumi par aktīvu MK un komponentu daudzums ir 0 (nulle), var pietikt ar komponentu izmaksu 0 (nulle). Kad sākat MK aprēķinu, varat ignorēt brīdinājuma nosacījumus, kas ir saistīti ar šo MK aprēķinu grupu. Brīdinājumu nosacījumus varat arī pievienot vai noņemt. Piemēram, ja pašreizējā situācijā nav iesaistīti maršrutēšanas dati, varat noņemt brīdinājuma nosacījumu par aktīvu maršrutu. **Piezīme.** Laiks un apmeklētība ietver lapu **Aprēķinu grupas**, bet šai lapai nav nekādas saistības ar MK aprēķinu grupām. Sadaļā Laiks un apmeklētība darbiniekus var piešķirt aprēķinu grupām, kas atspoguļo ar to pašu supervizoru vai vadītāju saistītu darbinieku grupēšanu. Darbinieku reģistrāciju aprēķinu supervizors vai vadītājs var izpildīt automātiski vai manuāli.
+
+
 
 

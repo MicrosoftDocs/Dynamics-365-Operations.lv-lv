@@ -1,5 +1,5 @@
 ---
-title: "Modelēšanas liesās organizācija"
+title: "Racionālas organizācijas modelēšana"
 description: "Šajā rakstā ir sniegta informācija par racionālās organizācijas modelēšanas galvenajiem jēdzieniem."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,7 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="modeling-a-lean-organization"></a>Modelēšanas liesās organizācija
+# <a name="modeling-a-lean-organization"></a>Racionālas organizācijas modelēšana
 
 Šajā rakstā ir sniegta informācija par racionālās organizācijas modelēšanas galvenajiem jēdzieniem. 
 
@@ -35,7 +35,7 @@ Parasti Lean manufacturing scenārijs nozīmē vairāk nekā nesaistītu Kanban 
 ## <a name="production-flows-in-lean-manufacturing"></a>Lean manufacturing ražošanas plūsmas
 Ražošanas scenārijos, kuru pamatā ir ražošanas pasūtījumi, materiāls tiek izsniegts atbilstoši noteiktam ražošanas pasūtījumam. Operāciju secības laikā, kuru pamatā ir materiālu komplekti (MK) un maršruti, preces tiek izveidotas un visbeidzot tiek saņemtas norādītajā novietojumā. Ražošanas pasūtījumu caurlaides laiks var ilgt no minūtēm līdz nedēļām. Visas saistītās izmaksas, materiāli un darbaspēks tiek uzkrāti ražošanas pasūtījumā. Lai samazinātu piegādes izpildes laikus un liekus krājumus starp resursiem, ko izraisa partiju ražošana, Lean manufacturing ražošanas un noliktavas papildināšanā ievieš Kanban papildināšanu un lielveikalus. Parasti šie līdzekļi izjauc daļēji neatkarīgu Kanban ciklu ražošanu. Pabeigtas preces pasūtījums vairs neizraisa Kanban papildināšanu nepabeigtai precei. Lai atjaunotu ražošanas un izmaksu kontekstu dažādiem Kanban scenārijiem, kas tiek piedāvāti programmatūrā Microsoft Dynamics AX, kā Lean manufacturing pamats ir ieviestas uz aktivitātēm balstītas ražošanas plūsmas. Visi Kanban nosacījumi attiecas uz šo iepriekš definētu struktūru. Uz aktivitātēm balstītais modelis atbalsta plašāka scenāriju klāsta iestatīšanu nekā iepriekšējās Lean manufacturing versijas Dynamics AX atbalstītam. Taču šis modelis nevairo sarežģītību ražotnes darbiniekiem, jo visi scenāriji lieto to pašu uz aktivitātēm balstīto lietotāja interfeisu.
 
-## <a name="semifinished-products-nonbom-levels"></a>Pusfabrikātu izstrādājumiem (nonBOM līmenis)
+## <a name="semifinished-products-nonbom-levels"></a>Daļēji pabeigtas preces (nav MK līmeņi)
 Dynamics AX Lean manufacturing ir integrēti Kanban, kas paredzēti inventarizētām precēm un nepabeigtām precēm vienotā sistēmā, līdz ar to piedāvājot vienotu lietotāju pieredzi visos gadījumos. Šīs arhitektūras dēļ vairs nav jāievieš papildu MK līmeņi, lai Kanban varētu izmantot nepabeigtām precēm. Šī arhitektūra palīdz arī līdz minimumam samazināt krājumu transakcijas.
 
 ## <a name="products-and-material-in-work-in-progress"></a>Preces un materiāls nepabeigtos darbos
@@ -51,6 +51,6 @@ Ražošanas plūsmas izmaksu periodiskā konsolidēšana koriģē saistīto NP k
 Lai labāk atbalstītu nepārtrauktu uzlabošanu, ražošanas plūsma tiek ieviesta versijās ar minimālu laika patēriņu. Tāpēc pastāvošo ražošanas plūsmas versiju, kā arī visus saistītos Kanban nosacījumus var kopēt uz ražošanas plūsmas nākotnes versiju. Turklāt nākotnes stāvokļa ražošanas plūsmu var modelēt, pirms tā ir apstiprināta un aktivizēta ražošanai. Lai palīdzētu garantēt nemanāmu materiālu plūsmu pārejas datumā un vēlāk, esošie Kanban uzdevumi no vecajām ražošanas plūsmas versijām tiek automātiski saistīti ar jauno versiju.
 
 ## <a name="simplicity"></a>Vienkāršība
-Dynamics AX liesās ražošanas īstenošanai mēs izvēlamies ražošanas plūsma un aktivitātes pieeja, kas ļauj modelēt vienotu mērogojama arhitektūra vienkāršus un sarežģītus ražošanas scenāriji. Tuvāk iepazīties ar darbības jēdzienam atklāj jaunu vienkāršības tiem lietotājiem, kam nepieciešama to: ražotnes un loģistikas darba ņēmējiem. Pretojoties uz aktivitātes balstītiem darbiem salīdzinot ar krājumu transakcijām, unificēts lietotāja interfeiss visiem lean manufacturing variantiem pārsūta biznesa sarežģītību no lietotāja interfeisa tur, kur tai jābūt: ražošanas plūsma kā lean manufacturing pamats.
+Lai ieviestu Microsoft Dynamics AX Lean Manufacturing, mēs izvēlējāmies ražošanas plūsmas un aktivitātes pieeju, kas sniedz iespēju modelēt vienkāršus un sarežģītus ražošanas scenārijus vienā mērogojamā arhitektūrā. Aktivitātes pieeja nodrošina vēl vienkāršāku procesu tiem lietotājiem, kuriem tas ir nepieciešams: ražotnē un loģistikas nodaļā nodarbinātajiem. Pretojoties uz aktivitātes balstītiem darbiem salīdzinot ar krājumu transakcijām, unificēts lietotāja interfeiss visiem lean manufacturing variantiem pārsūta biznesa sarežģītību no lietotāja interfeisa tur, kur tai jābūt: ražošanas plūsma kā lean manufacturing pamats.
 
 

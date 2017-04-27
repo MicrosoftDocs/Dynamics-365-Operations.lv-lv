@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="production-order-cost-estimation"></a>Ražošanas pasūtījuma izmaksu novērtējums
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegta informācija par ražošanas izmaksu novērtējumu. Ražošanas izmaksu novērtējums sniedz plānotajam ražošanas pasūtījuma daudzumam paredzētās krājuma ražošanas materiālu un veiktspējas patēriņa izmaksas. 
 
 Kad ir izveidots ražošanas pasūtījums, jums ir jānovērtē ražošanas izmaksas. Nolūks ir novērtēt krājumu un maršruta patēriņu attiecīgajam ražošanas procesam, jo šie novērtējumi tiek izmantoti turpmāko plānošanas un ražošanas procesu pamatā.
@@ -59,6 +62,8 @@ Izmaksu novērtējums sniedz arī tālāk uzskaitīto informāciju.
 -   Cenu informācijas salīdzinājumu no iepriekšējās ražošanas
 -   Budžeta un prognozēšanas informācija
 -   Noteiktas cenas uzturēšanai nepieciešamo ražošanas apmēru novērtējumi
+
+
 
 
 

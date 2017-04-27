@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="200-percent-reducing-balance-depreciation"></a>200 procentu atlikuma bilances aprēķināšanas metode
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegts pārskats par 200 procentu degresīvās nolietojuma aprēķināšanas metodi.
 
 Ja iestatāt pamatlīdzekļa nolietojuma tabulu un atlasāt lauka **Metode** vērtību **200% atlikumu bilance** lapā **Nolietojuma tabulas**, pamatlīdzekļiem, kam ir piešķirta šī nolietojuma tabula, tiek izmantota vienāda nolietojuma procentu likme katrā nolietojuma periodā. Procentu likme tiek aprēķināta, pamatojoties uz pamatlīdzekļa lietošanas ilgumu. Piemēram, ja pamatlīdzekļa lietošanas ilgums ir pieci gadi, tiek aprēķināta procentu likme 40 procenti (200% ÷ 5). 
@@ -58,7 +61,7 @@ Ja kā nolietojuma aprēķināšanas gadu atlasāt opciju **Kalendārs**, tad la
 
 Ja atlasāt lauka **Nolietojuma aprēķina gads** vērtību **Finanšu**, tad 200 % regresīvā nolietojuma bilance tiek aprēķināta, pamatojoties uz finanšu gadu finanšu kalendāram, kas ir norādīts šai grāmatai, vai finanšu kalendāram, kas ir atlasīts lapā **Virsgrāmata**. Finanšu kalendāri tiek iestatīti lapā **Finanšu kalendāri**. 
 
-Piemēram, finanšu gada 1. jūlija līdz 30. jūnijs, nolietojuma aprēķins sākas 1. jūlijā. Finanšu gads var būt garāks vai īsāks par 12 mēnešiem. Nolietojums tiek pielāgots katram periodam. Nākamā finanšu gada garumu nosaka periodu iestatījumi lapā **Finanšu kalendāri**. 
+Piemēram, finanšu gadam no 1. jūlija līdz 30. jūnijam nolietojuma aprēķins sākas 1. jūlijā. Finanšu gads var būt garāks vai īsāks par 12 mēnešiem. Nolietojums tiek pielāgots katram periodam. Nākamā finanšu gada garumu nosaka periodu iestatījumi lapā **Finanšu kalendāri**. 
 
 Ja ir atlasīta nolietojuma aprēķināšanas gada opcija **Finanšu**, laukā **Perioda biežums** ir pieejamas tālāk norādītās opcijas.
 
@@ -83,6 +86,8 @@ Izmantojot 200% atlikumu bilances metodi, 200 procenti tiek dalīti ar lietošan
 | 3. gads | 3600 × 40% = 1440                           | 4600 – 1440 = 3160  | 3600 – 1440 = 2160                 |
 
 > [!NOTE] 
-> Parasti, ja summa, kas aprēķināta, izmantojot 200 % atlikumu bilances nolietojuma metodi kļūst mazāka par summu, kas būtu jāaprēķina, izmantojot lineāro metodi, ir pārvēršanas par atlikušā laika lineāro metodi.
+> Kad summa, kas tiek aprēķināta, izmantojot 200% degresīvo nolietojuma aprēķināšanas metodi, kļūst mazāka par summu, kas rastos, lietojot lineāro metodi, atlikušā kalpošanas laika aprēķināšanai parasti notiek konversija uz lineāro metodi.
+
+
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Konfigurēt paralēla darbība darbplūsmā"
+title: "Konfigurēt paralēlu aktivitāti darbplūsmā"
 description: "Lai konfigurētu paralēlu aktivitāti, darbplūsmas redaktorā izpildiet tālāk aprakstītās procedūras."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,7 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-parallel-activity-in-a-workflow"></a>Konfigurēt paralēla darbība darbplūsmā
+# <a name="configure-a-parallel-activity-in-a-workflow"></a>Konfigurēt paralēlu aktivitāti darbplūsmā
 
 Lai konfigurētu paralēlu aktivitāti, darbplūsmas redaktorā izpildiet tālāk aprakstītās procedūras.
 
@@ -32,7 +32,7 @@ Paralēlā aktivitāte sastāv no darbplūsmas zariem, kas darbojas vienlaicīgi
 
 ## <a name="name-a-parallel-activity"></a>Paralēlās aktivitātes nosaukums
 Lai ievadītu paralēlās aktivitātes nosaukumu, izpildiet tālāk aprakstītās darbības.
-1.  Ar peles labo pogu noklikšķiniet uz paralēlu darbību, un pēc tam noklikšķiniet uz **Properties** atvērt **rekvizīti** formu.
+1.  Ar peles labo pogu noklikšķiniet uz paralēlās aktivitātes un pēc tam noklikšķiniet uz **Rekvizīti**, lai atvērtu formu **Rekvizīti**.
 2.  Kreisajā rūtī noklikšķiniet uz **Pamata iestatījumi**.
 3.  Laukā **Nosaukums** ievadiet unikālu paralēlās aktivitātes nosaukumu.
 4.  Noklikšķiniet uz **Aizvērt**.
@@ -41,7 +41,7 @@ Lai ievadītu paralēlās aktivitātes nosaukumu, izpildiet tālāk aprakstītā
 Lai pievienotu un konfigurētu šīs paralēlās aktivitātes zarus, izpildiet tālāk aprakstītās darbības.
 1.  Veiciet dubultklikšķi uz paralēlās aktivitātes, lai parādītu paralēlās aktivitātes zarus.
 2.  Lai pievienotu zaru, velciet elementu **Zars** no apgabala **Darbplūsmas elementi** uz ievietošanas punktu uz audekla. Šajā attēlā redzams ievietošanas punkts.![Ievietošanas punkts](./media/workflow_insertionpoint.gif)
-    | **Piezīme **                                                                                                         |
+    | **Piezīme**                                                                                                         |
     |------------------------------------------------------------------------------------------------------------------|
     | Zaru secība nav svarīga, jo visi paralēlās aktivitātes zari darbojas vienlaicīgi. |
 

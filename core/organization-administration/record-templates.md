@@ -1,5 +1,5 @@
 ---
-title: Izveidojiet ierakstu veidnes
+title: Ieraksta veidnes izveide
 description: "Šajā rakstā tiek iepazīstināts ar ierakstu veidņu koncepciju un paskaidrots, kā tās var izmantot, lai veidotu ierakstus, kuri koplieto informāciju."
 author: pvillads
 manager: AnnBe
@@ -24,10 +24,15 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="create-record-templates"></a>Izveidojiet ierakstu veidnes
+# <a name="create-record-templates"></a>Ieraksta veidnes izveide
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā tiek iepazīstināts ar ierakstu veidņu koncepciju un paskaidrots, kā tās var izmantot, lai veidotu ierakstus, kuri koplieto informāciju.
 
-Ierakstu veidnes var palīdzēt jums izveidot ierakstus vairāk ātri, strādājot ar Microsoft Dynamics 365 operācijām. Ierakstu veidnes var izveidot tikai dažu Microsoft Dynamics 365 operācijas ierakstu tipiem. Piemēram, * * * iedomāties jūs ievadāt informāciju nomas automašīnu nomas uzņēmums, kas atrodas San Francisco. Tā kā lielākā daļa klientu visdrīzāk ir no San Francisko apvidus, būtu jauki, ja jūs varētu automātiski aizpildīt nomas veidlapas lauku **Administratīvais apgabals**, **Valsts**, un **Pilsēta** vērtības. **Piezīme:** veidnes tikai Dynamics 365 jomās var lietot par operācijām, kas jums ir piekļuve. Tomēr ir redzami visi veidņu nosaukumi, kad izveidojat jaunu ierakstu, un tie ir redzami arī citiem lietotājiem, ja jūs izveidojat veidnes, kas būs pieejamas visiem lietotājiem. Paturiet to prātā, kad piešķirsiet veidnēm nosaukumus. Piemēram, centieties neizmantot nosaukumus, kuri satur tādus vārdus kā “komisija”, ja ne visiem lietotājiem būtu jāzina, ka dažiem uzņēmuma darbiniekiem algas ir balstītas uz komisiju. Kad specifiskai formai pastāv viena vai vairākas veidnes, kam jums ir piekļuve, un jūs mēģināt izveidot jaunu ierakstu šajā formā, tiek parādīta lapa **Atlasiet veidni, kas paredzēta...**. Kad atlasāt veidni no saraksta, tiek izveidots jauns ieraksts, kas satur uz atlasīto veidni balstītu noklusējuma informāciju. Ja nevēlaties izmantot veidnes, veidojot jaunus ierakstus, izvēlieties **nejautāt** izvēles rūtiņu **Atlasīt veidni** lapā. Lai atkal rādītu veidņu izvēles dialoglodziņu, ar peles labo pogu noklikšķiniet uz jebkura ieraksta, noklikšķiniet uz **ierakstīt info**, un pēc tam noklikšķiniet uz **Parādīt veidnes atlasi**.
+Ierakstu veidnes var palīdzēt ātrāk izveidot ierakstus programmatūrā Microsoft Dynamics 365 for Operations. Programmatūrā Microsoft Dynamics 365 for Operations var izveidot tikai dažu ierakstu tipu ierakstu veidnes. Piemēram,**** pieņemsim, ka ievadāt nomas informāciju par automašīnu nomas uzņēmumu, kas atrodas Sanfrancisko. Tā kā lielākā daļa klientu visdrīzāk ir no San Francisko apvidus, būtu jauki, ja jūs varētu automātiski aizpildīt nomas veidlapas lauku **Administratīvais apgabals**, **Valsts**, un **Pilsēta** vērtības. **Piezīme.** Veidnes varat lietot tikai tiem Dynamics 365 for Operations apgabaliem, kuriem jums ir piekļuve. Tomēr ir redzami visi veidņu nosaukumi, kad izveidojat jaunu ierakstu, un tie ir redzami arī citiem lietotājiem, ja jūs izveidojat veidnes, kas būs pieejamas visiem lietotājiem. Paturiet to prātā, kad piešķirsiet veidnēm nosaukumus. Piemēram, centieties neizmantot nosaukumus, kuri satur tādus vārdus kā “komisija”, ja ne visiem lietotājiem būtu jāzina, ka dažiem uzņēmuma darbiniekiem algas ir balstītas uz komisiju. Kad specifiskai formai pastāv viena vai vairākas veidnes, kam jums ir piekļuve, un jūs mēģināt izveidot jaunu ierakstu šajā formā, tiek parādīta lapa **Atlasiet veidni, kas paredzēta...**. Kad atlasāt veidni no saraksta, tiek izveidots jauns ieraksts, kas satur uz atlasīto veidni balstītu noklusējuma informāciju. Ja nevēlaties izmantot veidnes jaunu ierakstu izveidei, atzīmējiet izvēles rūtiņu **Nejautāt atkārtoti** lapā **Atlasiet veidni, kas paredzēta**. Lai atkal tiktu parādīts veidnes atlases dialoglodziņš, ar peles labo pogu noklikšķiniet uz jebkura ieraksta, noklikšķiniet uz **Informācija par ierakstu** un pēc tam noklikšķiniet uz **Parādīt veidnes atlasi**.
+
+
 
 

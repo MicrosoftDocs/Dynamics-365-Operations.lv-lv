@@ -1,6 +1,6 @@
 ---
-title: "Ziņojums MK pabeigšanu"
-description: "Šis raksts sniedz informāciju par MK pabeigšanu."
+title: "Ziņošana par MK pabeigšanu"
+description: "Šajā rakstā ir sniegta informācija par ziņošanu par MK pabeigšanu."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,16 +26,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="report-boms-as-finished"></a>Ziņojums MK pabeigšanu
+# <a name="report-boms-as-finished"></a>Ziņošana par MK pabeigšanu
 
-Šis raksts sniedz informāciju par MK pabeigšanu.
+[!include[banner](../includes/banner.md)]
 
-Lapa **Ziņot kā pabeigtu** un **Maksimālais pabeigto krājumu daudzums** tiek lietotas, lai paziņot par materiālu komplektu (MK) pabeigšanu. Konceptuāli ziņošana par MK pabeigšanu ir tāds pats process kā ziņošana par ražošanas pasūtījuma pabeigšanu. Šo procesu var izmantot, piemēram, vienkāršos montāžas un komplektēšanas procesos, kur ražošanas pasūtījumiem nav nepieciešamas papildu iespējas. Lapa **Ziņot kā pabeigtu** jums ļauj ziņot par vairāku MK pabeigšanu vienā partijā. **Max. atskaiti kā pabeigts** lapa ļauj ziņot tikai vienu MK pabeigšanu laikā. **Pabeigtie** lapā ir pieejams no izvēlnes elementu krājumu vadība un abām lappusēm ir pieejami kā izvēlnes elementus **atbrīvo produktus** lapā.
+
+Šajā rakstā ir sniegta informācija par ziņošanu par MK pabeigšanu.
+
+Lapa **Ziņot kā pabeigtu** un **Maksimālais pabeigto krājumu daudzums** tiek lietotas, lai paziņot par materiālu komplektu (MK) pabeigšanu. Konceptuāli ziņošana par MK pabeigšanu ir tāds pats process kā ziņošana par ražošanas pasūtījuma pabeigšanu. Šo procesu var izmantot, piemēram, vienkāršos montāžas un komplektēšanas procesos, kur ražošanas pasūtījumiem nav nepieciešamas papildu iespējas. Lapa **Ziņot kā pabeigtu** jums ļauj ziņot par vairāku MK pabeigšanu vienā partijā. Lapā **Maksimālais pabeigto krājumu daudzums** vienlaikus varat ziņot tikai par viena MK pabeigšanu. Lapai **Ziņot kā pabeigtu** var piekļūt, izmantojot izvēlnes elementu modulī Krājumu vadība, un abām lapām var piekļūt, izmantojot izvēlnes elementus lapā **Izlaistās preces**.
 
 ## <a name="report-as-finished-page"></a>Lapa Ziņot kā pabeigtu
 Ja lapu **Ziņot kā pabeigtu **atverat no kādas izlaistas preces, tad šī lapa jums piedāvā ziņot par standarta noklusējuma daudzuma pabeigšanu. Pēc noklusējuma tiek parādīta aktīvā MK versija, bet šo MK versiju varat mainīt, ja pastāv citas apstiprinātās versijas. Šī lapa jums ļauj arī dzēst ierakstus un izveidot jaunus ierakstus izlaistajām precēm, par kurām ir jāziņo kā par pabeigtām. Lai izmantotu vaicājumu preču atlasīšanai, noklikšķiniet uz izvēlnes vienuma **Atlasīt**. Atlasītajām precēm varat manuāli apstiprināt ziņošanu par pabeigšanu, noklikšķinot uz **Labi**. Alternatīvi varat iestatīt, lai šis process tiek izpildīts partijā. Kad ir apstiprināta ziņošana par pabeigšanu, sistēma ģenerē MK žurnālu, kur tiek apstrādāta grāmatošana krājumos. Šis žurnāls sastāv no viena rindas krājuma pabeigtajai precei un viena rindas krājuma katrai MK rindai. Varat kontrolēt, vai šis žurnāls tiek grāmatots automātiski vai paliek atvērts papildu korekcijām.
 
-## <a name="max-report-as-finished-page"></a>Maks. Atskaiti kā pabeigto lappusi
+## <a name="max-report-as-finished-page"></a>Maks. pabeigto krājumu daudzums (lapa)
 Lapā **Maksimālais pabeigto krājumu daudzums** katra MK rinda norāda preces gabalu skaitu, ko var ziņot kā pabeigtu. Šis aprēķins ir balstīts uz katras materiālu rindas fiziski pieejamajiem rīcībā esošajiem krājumiem. Nākamajā piemērā viens gabals krājuma koda FG patērē divus gabalus izejmateriāla RM10 un vienu gabalu izejmateriāla RM20. Tā kā rīcībā ir tikai 10 gabali RM10, tad maksimālais daudzums FG, par ko var ziņot kā pabeigtu, ir pieci gabali. Šī vērtība tiek rādīta laukā **Maksimālais pabeigto krājumu daudzums**.
 
 | Līmenis | Krājuma kods | Daudzums | Rīcībā esošs | Maks. Ziņot kā pabeigtu |
@@ -68,7 +71,7 @@ Nākamajās tabulās ir parādīts, kā lauka **Izvēršana** iestatījums ietek
 | 0     | FG          | 3        |
 | 1     | COMP        | -3       |
 
-Kā redzams iepriekšējā tabulā, tikai preces numuru COMP tiek uzskatīts atskaita žurnālā. Krājuma numuru RM, kas ir daļa no COMP, nav eksplodēja uz žurnāla rindas un COMP divus gabalus rīcībā netiek uzskatīts. **Izvēršana: Vienmēr**
+Kā tas ir redzams iepriekš esošajā tabulā, žurnālā par atskaitītu tiek uzskatīts tikai krājums ar kodu COMP. Krājums ar kodu RM, kas ir daļa no krājuma ar kodu COMP, netiek izvērsts žurnāla rindā, un divas rīcībā esošās krājuma COMP vienības netiek ņemtas vērā. **Izvēršana: Vienmēr**
 
 | Līmenis | Krājuma kods | Daudzums |
 |-------|-------------|----------|
@@ -84,5 +87,7 @@ Kā redzams iepriekšējā tabulā, tikai preces numuru COMP tiek uzskatīts ats
 | 1     | RM          | -1       |
 
 Šajā gadījumā abi krājumam koda COMP rīcībā esošie gabali tiek ņemti vērā. Taču, tā kā ir nepieciešami trīs gabali krājuma ar kodu FG, tad ir nepieciešams arī viens gabals krājuma ar kodu RM, lai saražotu vienu papildu gabalu ar kodu COMP.
+
+
 
 

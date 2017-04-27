@@ -1,5 +1,5 @@
 ---
-title: "Apstiprināšanas process konfigurēt darbplūsmas"
+title: "Konfigurēt apstiprināšanas procesu darbplūsmā"
 description: "Izmantojiet tālāk aprakstīto procedūru, lai konfigurētu apstiprināšanas procesa rekvizītus."
 author: sericks007
 manager: AnnBe
@@ -24,11 +24,11 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-an-approval-process-in-a-workflow"></a>Apstiprināšanas process konfigurēt darbplūsmas
+# <a name="configure-an-approval-process-in-a-workflow"></a>Konfigurēt apstiprināšanas procesu darbplūsmā
 
 Izmantojiet tālāk aprakstīto procedūru, lai konfigurētu apstiprināšanas procesa rekvizītus.
 
-Lai konfigurētu darbplūsmas redaktors apstiprināšanas process, ar peles labo pogu noklikšķiniet uz apstiprinājuma elementa un pēc tam noklikšķiniet uz **Properties** atvērt **Properties** formu.
+Lai konfigurētu apstiprināšanas procesu, darbplūsmas redaktorā ar peles labo pogu noklikšķiniet uz apstiprināšanas elementa un pēc tam noklikšķiniet uz **Rekvizīti**, lai atvērtu formu **Rekvizīti**.
 Nosaukuma piešķiršana apstiprināšanas procesam
 -------------------------
 
@@ -40,14 +40,14 @@ Veiciet šīs darbības, lai ievadītu apstiprināšanas procesa nosaukumu.
 Varat konfigurēt, lai sistēma automātiski rīkotos ar dokumentu, ja ir izpildīti konkrēti nosacījumi. Piemēram, sistēma var apstiprināt izdevumu pārskatus, kuros kopējās summas ir mazākas par USD 100. Izpildiet šīs darbības, lai norādītu, kad sistēma veic darbības ar dokumentu.
 1.  Kreisajā rūtī noklikšķiniet uz **Automātiskas darbības**.
 2.  Atzīmējiet izvēles rūtiņu **Iespējot automātiskas darbības**.
-3.  Click **Add condition**.
+3.  Noklikšķiniet uz **Pievienot nosacījumu**.
 4.  Ievadīt nosacījumu.
 5.  Ja nepieciešams, ievadiet papildu nosacījumus.
 6.  Lai pārbaudītu, vai ievadītie nosacījumi ir pareizi konfigurēti, veiciet šādas darbības:
     1.  Noklikšķiniet uz **Pārbaudīt**, lai atvērtu formu **Testēt darbplūsmas nosacījumu**.
     2.  Formas apgabalā **Pārbaudīt nosacījumu** atlasiet ierakstu.
     3.  Noklikšķiniet uz **Tests**. Sistēma novērtē ierakstu, lai noteiktu, vai tas atbilst jūsu definētajiem nosacījumiem.
-    4.  Noklikšķiniet uz **OK** vai **atcelt** atgriezties **Properties** formu.
+    4.  Noklikšķiniet uz **Labi** vai **Atcelt**, lai atgrieztos formā **Rekvizīti**.
 
 7.  Sarakstā **Automātiskās pabeigšanas darbība** atlasiet darbību, kāda sistēmai būtu jāveic ar dokumentu.
 
@@ -55,23 +55,23 @@ Varat konfigurēt, lai sistēma automātiski rīkotos ar dokumentu, ja ir izpild
 Varat lietotājiem nosūtīt paziņojumus, kad dokuments ir apstiprināts, noraidīts, deleģēts vai eskalēts vai kad ir pieprasītas izmaiņas. Veiciet šīs darbības, lai norādītu, kad paziņojumi tiek sūtīti un kam tie tiek sūtīti.
 1.  Kreisajā rūtī noklikšķiniet uz **Paziņojumi**.
 2.  Atzīmējiet izvēles rūtiņu pie notikumiem, lai sūtītu paziņojumus par:
-    -   **Pārstāvis** – kad dokuments ir piešķirta cita lietotāja apstiprinājumu.
-    -   **Aktualizēt** – kad piešķirtais lietotājs nav pieņēmusi lēmumu par dokumentu atvēlētais laiks.
-    -   **Apstiprināt** – kad dokuments ir apstiprināts.
-    -   **Noraida** – kad dokuments ir ticis noraidīts.
-    -   **Pieprasīt izmaiņas** – kad piešķirtais lietotājs ir pieprasījis izmaiņas dokumentā, kas tika iesniegts.
+    -   **Deleģēt** — ja dokuments ir piešķirts citam lietotājam apstiprināšanai.
+    -   **Eskalēt** — ja piešķirtais lietotājs nav veicis darbību ar dokumentu atvēlētajā laika.
+    -   **Apstiprināt** — ja dokuments ir apstiprināts.
+    -   **Noraidīt** — ja dokuments ir noraidīts.
+    -   **Pieprasīt izmaiņas** — ja piešķirtais lietotājs ir pieprasījis izmaiņas iesniegtajā dokumentā.
 
 3.  Atlasiet tāda notikuma rindu, kuru atlasījāt 2. darbībā.
 4.  Noklikšķiniet uz cilnes **Paziņojuma teksts**.
 5.  Tekstlodziņā ievadiet paziņojuma tekstu.
 6.  Lai personalizētu tekstu, varat ievietot vietturus, kas tiks nomainīti ar attiecīgajiem datiem, kad tie tiks parādīti lietotājiem. Lai ievietotu vietturi, rīkojieties šādi:
-    1.  Klikšķiniet tekstlodziņā atrašanās vietā, kur vēlaties ievietot vietturi.
+    1.  Noklikšķiniet tekstlodziņā tajā atrašanās vietā, kur vēlaties ievietot vietturi.
     2.  Noklikšķiniet uz **Ievietot vietturi**.
     3.  Parādītajā sarakstā atlasiet vietturi, kuru ievietot.
-    4.  Klikšķiniet **Ievietot**.
+    4.  Noklikšķiniet uz **Ievietot**.
 
-7.  Lai pievienotu paziņojumu tulkojumu, noklikšķiniet uz **tulkojumi**. Parādītajā formā veiciet šādas darbības:
-    1.  Click **Add**.
+7.  Lai pievienotu paziņojuma tulkojumus, noklikšķiniet uz **Tulkojumi**. Parādītajā formā veiciet šādas darbības:
+    1.  Noklikšķiniet uz **Pievienot**.
     2.  Parādītajā sarakstā izvēlieties valodu, kas tiek izmantota teksta ievadei.
     3.  Tekstlodziņā **Tulkotais teksts** ievadiet tekstu.
     4.  Lai personalizētu tekstu, ievietojiet vietturus.
@@ -112,11 +112,11 @@ Varat lietotājiem nosūtīt paziņojumus, kad dokuments ir apstiprināts, norai
     </ol></td>
     </tr>
     <tr class="odd">
-    <td><strong>User</strong></td>
-    <td>Īpaša Microsoft Dynamics 365 operācijas lietotājiem</td>
+    <td><strong>Lietotājs</strong></td>
+    <td>Specifiski Microsoft Dynamics 365 for Operations lietotāji</td>
     <td><ol>
     <li>Pēc tam, kad ir atlasīts vienums <strong>Lietotājs</strong>, noklikšķiniet uz cilnes <strong>Lietotājs</strong>.</li>
-    <li><strong>Pieejams lietotājiem</strong>: saraksts ietver visus Microsoft Dynamics 365 operācijas lietotājiem. Atlasiet lietotājus, kuriem sūtīt paziņojumus, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>:.</li>
+    <li><strong>Pieejamie lietotāji</strong>: sarakstā ir ietverti visi Microsoft Dynamics 365 for Operations lietotāji. Atlasiet lietotājus, kuriem sūtīt paziņojumus, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>:.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -150,10 +150,10 @@ Veiciet šīs darbības, ja apstiprināšanas process ir jāpabeidz noteiktā la
 ## <a name="specify-which-actions-are-available-to-the-user"></a>Norādiet, kuras darbības ir pieejamas lietotājam
 Kad dokuments ir piešķirts lietotājam apstiprināšanai, lietotājam ar šo dokumentu jārīkojas. Izpildiet šīs darbības, lai norādītu, kuras darbības lietotājs var veikt ar iesniegto dokumentu.
 1.  Kreisajā rūtī noklikšķiniet uz **Papildu iestatījumi**.
-2.  Atlasiet **apstiprināt** izvēles rūtiņu, ja lietotājs var apstiprināt šo dokumentu.
-3.  Atlasiet **noraidīt** izvēles rūtiņu lietotājs var noraidīt dokumentu.
-4.  Atlasiet **pieprasītu izmaiņas** izvēles rūtiņu lietotājs var pieprasīt veikt dokumentā izmaiņas.
-5.  Atlasiet **pārstāvis** izvēles rūtiņu, ja lietotājs var piešķirt dokumentu apstiprināšanai citam lietotājam.
+2.  Atzīmējiet izvēles rūtiņu **Apstiprināt**, ja lietotājs var apstiprināt dokumentu.
+3.  Atzīmējiet izvēles rūtiņu **Noraidīt**, ja lietotājs var noraidīt dokumentu.
+4.  Atzīmējiet izvēles rūtiņu **Pieprasīt izmaiņas**, ja lietotājs var pieprasīt izmaiņas dokumentā.
+5.  Atzīmējiet izvēles rūtiņu **Deleģēt**, ja lietotājs var piešķirt dokumentu citam lietotājam apstiprināšanai.
 
 **Piezīme**. Izvēles rūtiņa **Iespējot darbības no darbu saraksta uzņēmuma portālā ** ir novecojusi.
 

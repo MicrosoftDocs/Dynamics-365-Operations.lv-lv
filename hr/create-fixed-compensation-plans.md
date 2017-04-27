@@ -28,18 +28,21 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-fixed-compensation-plans"></a>Fiksētas atlīdzības plāna izveide
 
-Fiksēta atlīdzība attiecas uz darbinieka regulāro bruto algu vai darba samaksu. Šajā tēmā ir aprakstīts, komponenti, kas jāiestata pirms varat izveidot fiksētu kompensāciju plānu un uzņemt darbiniekiem.
+[!include[banner](includes/banner.md)]
 
-Fiksētas atlīdzības summas saviem darbiniekiem var aprēķināt, pamatojoties uz tādiem faktoriem kā sniegums, reģions un budžeta palielinājums. Microsoft Dynamics 365 operāciju atbalsta solis, kvalitātes un joslas kompensāciju veidi.
+
+Fiksēta atlīdzība attiecas uz darbinieka regulāro bruto algu vai darba samaksu. Šajā tēmā ir aprakstīti komponenti, kas ir jāiestata, lai varētu izveidot fiksētas atlīdzības plānu un reģistrēt darbiniekus.
+
+Fiksētas atlīdzības summas saviem darbiniekiem var aprēķināt, pamatojoties uz tādiem faktoriem kā sniegums, reģions un budžeta palielinājums. Microsoft Dynamics 365 for Operations atbalsta darbības, pakāpju un indeksa atlīdzības tipus.
 
 ## <a name="fixed-compensation-components"></a>Fiksētas atlīdzības komponenti
 ### <a name="compensation-levels"></a>Atlīdzības līmeņi
 
-Var izmantot **kompensāciju apjomiem** noteikt kompensāciju par dažādiem darbiem, lai palīdzētu nodrošināt darbiniekiem, kuri tur šiem darbiem tiek maksāti diezgan. Par **kompensāciju apjomiem** lapu, varat iestatīt kompensāciju līmeņus, kas nepieciešami katru soli, kvalitātes un grupa plānu. Izmantojiet pogu **Augšup** un **Lejup**, lai iestatītu līmeņus pareizā secībā atbilstoši to veidam. Iestatot atlīdzības līmeņus par darbu, tiek nodrošināts, ka visiem darbiniekiem, kas veic šo darbu, tiek maksāta vienāda līmeņa atlīdzība.
+Lai iestatītu atlīdzību par dažādiem darbiem, tādējādi nodrošinot, ka darbiniekiem, kuri veic šos darbus, tiek samaksāts godīgi, varat izmantot **atlīdzības līmeņus**. Lapā **Atlīdzības līmeņi** varat iestatīt atlīdzības līmeņus, kas ir nepieciešami katrai darbībai, pakāpei un indeksu plānam. Izmantojiet pogu **Augšup** un **Lejup**, lai iestatītu līmeņus pareizā secībā atbilstoši to veidam. Iestatot atlīdzības līmeņus par darbu, tiek nodrošināts, ka visiem darbiniekiem, kas veic šo darbu, tiek maksāta vienāda līmeņa atlīdzība.
 
 ### <a name="reference-points"></a>Atsauces punkti
 
-**Atsauces punkti** ir kolonnas režģī, kas nosaka atlīdzību diapazonus katram līmenim. Atlīdzības līmenis ir rinda režģī. Tipisks atskaites punktiem klases tipa plāns ir minimums, viduspunkts un maksimums. Veidojot atskaites punktus par **references punkta uzstādījumus** lapā.
+**Atsauces punkti** ir kolonnas režģī, kas nosaka atlīdzību diapazonus katram līmenim. Atlīdzības līmenis ir rinda režģī. Tipiski pakāpju plāna atsauces punkti ir minimālā, vidējā un maksimālā atlīdzība. Atsauces punkti ir jāizveido lapā **Atsauces punkta iestatījumi**.
 
 ### <a name="compensation-grids"></a>Kompensāciju režģi
 
@@ -56,11 +59,11 @@ Varat izveidot fiksētas atlīdzības plānu, lai apvienotu visus komponentus, k
 
 Izmantojot iestatījumu **Tolerance ārpus diapazona**, varat norādīt, cik stingri jānodrošina, ka atlīdzības summas ir starp minimālo un maksimālo summu. Tolerance **Stingri** paredz, ka atlīdzība būs diapazonā, kas definēts noteiktajam līmenim. Tolerance **Nestingri** brīdina, ja atlīdzības summa ir ārpus diapazona, bet ļauj turpināt. Ja iestatāt toleranci **Nav**, varat ievadīt jebkuru atlīdzības summu darbiniekam, un nesaņemsit brīdinājumus vai kļūdas ziņojumus. 
 
-**Nomas noteikuma** iestatījums ļauj norādīt, vai visi darbinieki būtu jāsaņem pats palielinājums, neatkarīgi no datuma, kurā viņi bija pieņemti darbā (**nomas noteikumu** = **neviens**), vai, vai darbiniekiem ir jāsaņem procentu piešķiršanu, pamatojoties uz to, cik ilgi viņi bija nodarbināti ciklā (**nomas noteikumu** = **procenti**). 
+Izmantojot iestatījumu **Nolīgšanas kārtula**, varat norādīt, ka visiem darbiniekiem ir jāsaņem vienāds palielinājums neatkarīgi no datuma, kurā tie tika pieņemti darbā (**Nolīgšanas kārtula** = **Nav**), vai ka darbiniekiem ir jāsaņem procenti no piemaksas, ņemot vērā, cik ilgi tie bija nodarbināti cikla laikā (**Nolīgšanas kārtula** = **Procenti**). 
 
 **Diapazona izmantošanas matrica** ir noderīga, ja vēlaties vai nu samazināt laiku, kas nepieciešams darbiniekiem, lai sasniegtu viņiem iestatītā diapazona vidus punktu, vai palielināt laiku, kas nepieciešams darbiniekiem, lai sasniegtu maksimālo atsauces punktu diapazonā. Piemēram, ja vēlaties, lai darbiniekiem, kam ir iestatīts diapazons 110 % ar maksimālo robežvērtību 25 %, bet kam ir sasniegta minimālā robežvērtība 25 %, tiktu samaksāti tikai 80 % no mērķa atlīdzības, lai viņi tik ātri nesasniedz maksimālo robežvērtību. 
 
-Kad ir noteikta fiksētas atlīdzības plāna pamatinformācija, varat iestatīt plānam atlīdzības struktūru. Noklikšķiniet uz **iestatīt kompensāciju**. Tiek atvērta dialoga slīdni piedāvā trīs iespējas:
+Kad ir noteikta fiksētas atlīdzības plāna pamatinformācija, varat iestatīt plānam atlīdzības struktūru. Noklikšķiniet uz **Iestatīt atlīdzību**. Tiek atvērts dialoga slīdnis ar trim opcijām:
 
 -   izveidot jaunu atlīdzības režģi, atlasot atsauces punkta iestatījumus un piešķirot režģim nosaukumu;
 -   izveidot jaunu atlīdzības režģi, izveidojot esoša režģa kopiju, ko var izmantot kā sākuma punktu;
@@ -71,7 +74,7 @@ Kad esat atlasījis opciju, atveras lapa **Atlīdzības struktūra**, kurā vara
 ## <a name="fixed-compensation-enrollment"></a>Reģistrācija fiksētai atlīdzībai
 ### <a name="determine-who-is-eligible-for-the-plan"></a>Noteikšana, kurš ir piemērots plānam
 
-Reģistrējot darbiniekus fiksētas atlīdzības plānam, vispirms ir jānosaka, kurš ir piemērots atlīdzībai, kas noteikta plānā. Līdz brīdim, kad tiek noteikta piemērotība, nevarēsit plānu piešķirt visiem darbiniekiem. Lai iestatītu tiesības, atveriet **noteikumi par attaisnotiem izdevumiem** lapā. Šeit, izveidot jaunas tiesības lemt par kompensācijas plānu un noteikt kritērijus, kurus darbiniekam jāatbilst, lai varētu saņemt plānu. Piemērotības kritērijos var ietvert tādus vienumus kā nodaļa, arodbiedrība, atlīdzības reģions (atrašanās vieta), darbs, darba funkcija, darba veids vai atlīdzības līmenis. Darbinieki var tikt reģistrēti atlīdzības plānam tikai tad, ja tie atbilst visiem nosacījumiem, kas iestatīti piemērotības kārtulā. 
+Reģistrējot darbiniekus fiksētas atlīdzības plānam, vispirms ir jānosaka, kurš ir piemērots atlīdzībai, kas noteikta plānā. Līdz brīdim, kad tiek noteikta piemērotība, nevarēsit plānu piešķirt visiem darbiniekiem. Lai iestatītu piemērotību, atveriet lapu **Piemērotības kārtulas**. Šajā lapā varat izveidot jaunu piemērotība kārtulu savam atlīdzības plānam un noteikt kritērijus, kādiem darbiniekam ir jāatbilst, lai varētu tikt reģistrēts plānam. Piemērotības kritērijos var ietvert tādus vienumus kā nodaļa, arodbiedrība, atlīdzības reģions (atrašanās vieta), darbs, darba funkcija, darba veids vai atlīdzības līmenis. Darbinieki var tikt reģistrēti atlīdzības plānam tikai tad, ja tie atbilst visiem nosacījumiem, kas iestatīti piemērotības kārtulā. 
 
 **Piezīme.** Piemērotības kārtulas tiek lietotas, lai noteiktu piemērotību gan fiksētas, gan mainīgās atlīdzības plānam. 
 
@@ -83,7 +86,7 @@ Piemērotības kārtulā tiek ņemta vērā konkrētu ieraksta Darbs, Amats un D
     -   cilnē **Atlīdzība** lauka **Līmenis** vērtība;
 -   lapā **Pozīcijas** piemērotības kārtulā tiek ņemta vērā lauka **Nodaļa** un **Atlīdzības reģions** vērtība.
 
-Atbilstības kārtulu uzskata arī darba arodbiedrības, kas saistīti ar darbinieka (par **darbinieku** lapa par **Worker** cilni, noklikšķiniet uz **personisko informāciju**&gt;**darba arodbiedrības**).
+Piemērotības kārtulā tiek ņemtas vērā arī arodbiedrības, kas ir saistītas ar darbinieku (lapas **Darbinieki** cilnē **Darbinieks** noklikšķiniet uz **Personīgā informācija** &gt; **Arodbiedrības**).
 
 ### <a name="define-fixed-compensation-actions"></a>Fiksētas atlīdzības darbību definēšana
 
@@ -93,7 +96,7 @@ Piemēram, ja darbiniekam ir iestatīta fiksētā atlīdzība, var izmantot tika
 
 ### <a name="enroll-the-employee"></a>Darbinieka reģistrēšana
 
-Tagad var piešķirt darbiniekam fiksētas atlīdzības plānu. Lapā **Darbinieki** atlasiet darbinieku, ko reģistrēt atlīdzības plānam. Rūtī darbības noklikšķiniet uz **kompensāciju**&gt;**fiksēts plāns**. Tagad var izveidot jaunu darbību fiksēta kompensācija par šo darbinieku. 
+Tagad var piešķirt darbiniekam fiksētas atlīdzības plānu. Lapā **Darbinieki** atlasiet darbinieku, ko reģistrēt atlīdzības plānam. Darbību rūtī noklikšķiniet uz **Atlīdzība** &gt; **Fiksēts plāns**. Tagad varat izveidot jaunu fiksētas atlīdzības darbību šim darbiniekam. 
 
 **Piezīme.** Atlīdzības plāna laukā tiek rādīti tikai tie plāni, kuriem darbinieks ir piemērots saskaņā ar piemērotības nosacījumiem, kas tika iestatīti katram plānam. Ja plānam nav iestatīta neviena piemērotības kartula, neviens darbinieks nebūs piemērots šim plānam. 
 
@@ -103,5 +106,7 @@ Sistēma pārbaudīs, vai atlīdzības summa, kas norādīta atlīdzības plān�
 --------
 
 [Atlīdzības plāni](compensation-plans.md)
+
+
 
 

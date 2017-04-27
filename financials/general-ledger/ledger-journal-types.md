@@ -1,6 +1,6 @@
 ---
 title: "Virsgrāmatas žurnālu tipi"
-description: "Šajā rakstā ir aprakstīti žurnālu tipi, ko var iestatīt finanšu žurnāliem. Žurnālu nosaukumus lapas izmantojiet, lai iestatītu žurnālus, ko var izmantot visā Microsoft Dynamics 365 operācijām."
+description: "Šajā rakstā ir aprakstīti žurnālu tipi, ko var iestatīt finanšu žurnāliem. Izmantojiet lapu Žurnālu nosaukumi, lai iestatītu žurnālus, ko varat izmantot visā programmatūrā Microsoft Dynamics 365 for Operations.."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="ledger-journal-types"></a>Virsgrāmatas žurnālu tipi
 
-Šajā rakstā ir aprakstīti žurnālu tipi, ko var iestatīt finanšu žurnāliem. Žurnālu nosaukumus lapas izmantojiet, lai iestatītu žurnālus, ko var izmantot visā Microsoft Dynamics 365 operācijām.
+[!include[banner](../includes/banner.md)]
+
+
+Šajā rakstā ir aprakstīti žurnālu tipi, ko var iestatīt finanšu žurnāliem. Izmantojiet lapu Žurnālu nosaukumi, lai iestatītu žurnālus, ko varat izmantot visā programmatūrā Microsoft Dynamics 365 for Operations..
 
 | Žurnāla tips                      | Nolūks                                                                                                                                                                                                                                                                                                                                                     | Ievadiet darbības šajā lapā                                |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
@@ -55,11 +58,13 @@ ms.lasthandoff: 03/31/2017
 | Kreditora bankas pārskaitījums            | Izveidojiet parādzīmes pārskaitījuma failu, kuru var nosūtīt uz jūsu organizācijas banku.                                                                                                                                                                                                                                                                      | Pārskaitījumu žurnāls                                             |
 | Kreditoru rēķinu apmaksa               | Izveidojiet kreditora rēķinu apmaksas darbības.                                                                                                                                                                                                                                                                                                                    | Maksājumu žurnāls                                                |
 | Kreditora parādzīmes izrakstīšana       | Izrakstiet kreditoru parādzīmes kā maksājuma metodi. Lai izmantotu šo žurnāla tipu, atlasiet opciju **Izveidot un grāmatot izrakstīšanas žurnālu automātiski, kad tiek grāmatoti rēķini** lapā **Maksāšanas metodes - kreditori**.                                                                                                                                          | Parādzīmju izrakstīšanas žurnāls                                   |
-| Kreditora rēķinu kopā, izņemot grāmatošana | Izveidojiet kreditora rēķinu darbības, kas vēl nav iegrāmatotas pagaidu saņemšanas kontā.                                                                                                                                                                                                                                                             | Kreditora rēķinu kopa bez detalizētās informācijas par grāmatošanu                  |
+| Kreditora rēķinu kopa bez grāmatošana | Izveidojiet kreditora rēķinu darbības, kas vēl nav iegrāmatotas pagaidu saņemšanas kontā.                                                                                                                                                                                                                                                             | Kreditora rēķinu kopa bez detalizētās informācijas par grāmatošanu                  |
 | Kreditora rēķinu kopa               | Izveidojiet kreditoru rēķinu kopas darbības.                                                                                                                                                                                                                                                                                                                    |                                                                |
 | Kreditora rēķina reģistrēšana          | Grāmatojiet kreditoru rēķinus, kas ir žurnālā.                                                                                                                                                                                                                                                                                                                 | Rēķinu žurnāls                                                |
 | Atkārtoti izrakstīta kreditora parādzīme     | Atkārtoti izrakstiet parādzīmi, ko iepriekš izpirkusi jūsu organizācijas banka.                                                                                                                                                                                                                                                                      | Parādzīmju izlikšanas žurnāls                                 |
 | Kreditoru parādzīmju apmaksa     | Izveidojiet kreditora parādzīmes segšanas darbības.                                                                                                                                                                                                                                                                                                          | Parādzīmju apmaksas žurnāls                                 |
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Kvalitātes vadības pārskats"
+title: "Kvalitātes pārvaldības apskats"
 description: "Šajā rakstā ir aprakstīts, kā programmatūrā Microsoft Dynamics 365 for Operations varat lietot kvalitātes pārvaldību, lai savā piegādes ķēdē uzlabotu produkta kvalitāti."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="quality-management-overview"></a>Kvalitātes vadības pārskats
+# <a name="quality-management-overview"></a>Kvalitātes pārvaldības apskats
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir aprakstīts, kā programmatūrā Microsoft Dynamics 365 for Operations varat lietot kvalitātes pārvaldību, lai savā piegādes ķēdē uzlabotu produkta kvalitāti.
 
@@ -344,7 +347,7 @@ Jums ir nepieciešams definēt kvalitātes saistību katrai biznesa procesa vari
 </tr>
 <tr class="even">
 <td>Testa mainīgo lielumu iznākumi</td>
-<td>Izmantojiet šo lapu, lai iestatītu, rediģētu un skatītu iespējamos testa rezultātus ar kvalitatīvo testu saistītam testa mainīgajam. Katram iznākumam jums ir jāpiešķir statuss <strong>sekmīgs</strong> vai <strong>nesekmīgs</strong>. Jums ir jādefinē mainīgais un tā iznākumi katram kvalitatīvajam testam, kas ir definēts lapā <strong>Testi</strong>. (Kvalitātes testos testa tips ir iestatīts uz <strong>opciju</strong> par <strong>testus</strong> lapu.) Izmantojiet <strong>testa grupas</strong> lapu, lai piešķirtu testa mainīgais un noklusējuma rezultātu individuālu kvalitatīvas pārbaudes.</td>
+<td>Izmantojiet šo lapu, lai iestatītu, rediģētu un skatītu iespējamos testa rezultātus ar kvalitatīvo testu saistītam testa mainīgajam. Katram iznākumam jums ir jāpiešķir statuss <strong>sekmīgs</strong> vai <strong>nesekmīgs</strong>. Jums ir jādefinē mainīgais un tā iznākumi katram kvalitatīvajam testam, kas ir definēts lapā <strong>Testi</strong>. (Kvalitatīvajiem testiem testa tips lapā <strong>Testi</strong> ir iestatīts uz <strong>Opcija</strong>.) Lai testa mainīgo un noklusējuma iznākumu piešķirtu atsevišķam kvalitatīvajam testam, izmantojiet lapu <strong>Testu grupas</strong>.</td>
 <td>Ražošanas uzņēmums, kas ražo cepumus, pabeigtajam produktam izmanto pārbaudes testu. Šajā pārbaudes testā ir vairāki mainīgie. Viens mainīgais ir garša, un šī mainīgā iespējamie iznākumi ir laba vai slikta. Otrais mainīgais ir krāsa, un tā iespējamie iznākumi ir pārāk tumša, pārāk gaiša vai pareiza. Katram iznākumam tiek piešķirts ir statuss <strong>sekmīgs</strong> vai <strong>nesekmīgs</strong>. Katra mainīgā pārbaudes testa laikā pārbaudītājs ziņo testa rezultātu, izvēloties vienu no rezultātiem.</td>
 </tr>
 </tbody>
@@ -355,8 +358,10 @@ Jums ir nepieciešams definēt kvalitātes saistību katrai biznesa procesa vari
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Quality management processes](quality-management-processes.md)
+[Kvalitātes pārvaldības procesi](quality-management-processes.md)
 
 [Neatbilstības pārvaldības iespējošana](enable-nonconformance-management.md)
+
+
 
 

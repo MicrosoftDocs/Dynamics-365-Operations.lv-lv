@@ -1,5 +1,5 @@
 ---
-title: "Konfigurēt paralēli filiāle darbplūsmā"
+title: "Konfigurēt paralēlu zaru darbplūsmā"
 description: "Lai konfigurētu paralēlu zaru, darbplūsmas redaktorā izpildiet tālāk aprakstītās procedūras."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-parallel-branch-in-a-workflow"></a>Konfigurēt paralēli filiāle darbplūsmā
+# <a name="configure-a-parallel-branch-in-a-workflow"></a>Konfigurēt paralēlu zaru darbplūsmā
+
+[!include[banner](../includes/banner.md)]
+
 
 Lai konfigurētu paralēlu zaru, darbplūsmas redaktorā izpildiet tālāk aprakstītās procedūras.
 
@@ -32,7 +35,7 @@ Paralēls zars faktiski ir darbplūsma, kas darbojas primārās darbplūsmas kon
 
 ## <a name="name-a-branch"></a>Zara nosaukums
 Lai ievadītu paralēla zara nosaukumu, izpildiet tālāk aprakstītās darbības.
-1.  Ar peles labo pogu noklikšķiniet uz paralēlu filiāles un pēc tam noklikšķiniet uz **Properties**. **Properties** forma ir parādīta.
+1.  Ar peles labo pogu noklikšķiniet uz paralēlā zara un pēc tam noklikšķiniet uz **Rekvizīti**. Tiek parādīta forma **Rekvizīti**.
 2.  Kreisajā rūtī noklikšķiniet uz **Pamata iestatījumi**.
 3.  Laukā **Nosaukums** ievadiet unikālu paralēla zara nosaukumu.
 4.  Noklikšķiniet uz **Aizvērt**.
@@ -40,7 +43,7 @@ Lai ievadītu paralēla zara nosaukumu, izpildiet tālāk aprakstītās darbība
 ## <a name="design-and-configure-the-elements-of-a-branch"></a>Noformēt un konfigurēt zara elementus
 Lai noformētu un konfigurētu paralēla zara elementus, izpildiet tālāk aprakstītās darbības.
 1.  Veiciet dubultklikšķi uz paralēlā zara.
-2.  Ievelciet darbplūsmas elementus uz audekla un pēc tam konfigurējiet šos elementus tieši tāpat, kā to darītu, lai izveidotu jebkuru citu darbplūsmu. Lai iegūtu papildu informāciju, skatiet Create darbplūsmu.
+2.  Ievelciet darbplūsmas elementus uz audekla un pēc tam konfigurējiet šos elementus tieši tāpat, kā to darītu, lai izveidotu jebkuru citu darbplūsmu. Papildinformāciju skatiet tēmā Izveidot darbplūsmu.
 
 
 
@@ -48,5 +51,7 @@ Lai noformētu un konfigurētu paralēla zara elementus, izpildiet tālāk aprak
 --------
 
 [Darbplūsmas izveide](create-workflow.md)
+
+
 
 

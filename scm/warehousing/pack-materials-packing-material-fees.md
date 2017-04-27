@@ -1,5 +1,5 @@
 ---
-title: "Iepakojuma materiāli un maksas"
+title: "Iepakojuma materiāli un papildmaksas"
 description: "Iepakojuma materiālu papildmaksas pārstrādes uzņēmumam tiek maksātas zināmos laika intervālos. Apmaksa tiek veikta par smaguma mērvienību katram iepakojuma vienības sastāvā esošajam materiālam. Iepakojuma materiālu papildmaksas tiek aprēķinātas un iekļautas atskaitēs, bet netiek grāmatotas virsgrāmatas transakcijas, jo papildmaksas netiek uzskatītas par valsts iestādei maksājamiem nodokļiem."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="packing-materials-and-fees"></a>Iepakojuma materiāli un maksas
+# <a name="packing-materials-and-fees"></a>Iepakojuma materiāli un papildmaksas
+
+[!include[banner](../includes/banner.md)]
+
 
 Iepakojuma materiālu papildmaksas pārstrādes uzņēmumam tiek maksātas zināmos laika intervālos. Apmaksa tiek veikta par smaguma mērvienību katram iepakojuma vienības sastāvā esošajam materiālam. Iepakojuma materiālu papildmaksas tiek aprēķinātas un iekļautas atskaitēs, bet netiek grāmatotas virsgrāmatas transakcijas, jo papildmaksas netiek uzskatītas par valsts iestādei maksājamiem nodokļiem.
 
@@ -52,7 +55,7 @@ Kad veidojat pārdošanas pasūtījuma rindu, sistēma pārbauda, vai šim krāj
 ## <a name="packing-units-on-purchase-order-lines"></a>Iepakojuma vienības pirkšanas pasūtījuma rindās
 Sistēma neveido iepakojuma materiālu transakcijas pirkšanas pasūtījuma rindai. Rēķinā iekļautajām pirkšanas pasūtījuma rindām jūs manuāli izveidojat transakcijas lapā **Iepakojuma materiālu transakcijas**.
 
-## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>Klientu packagingmaterialfee licenču numuru iestatīšana
+## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>Debitora iepakojuma materiālu papildmaksas licenču numuru iestatīšana
 Ja debitori maksā iepakojuma materiālu maksas, tad lapā **Debitori** norādiet debitora iepakojuma materiālu maksu licenču numurus. Kad licences numurs debitoram piešķirts, iepakojuma materiāla maksas tiek aprēķinātas automātiski, iekļaujot rēķinā pārdošanas pasūtījumus. Pēc rēķina izrakstīšanas lapā **Iepakojuma materiālu transakcijas** tiek notīrīta izvēles rūtiņas **Aprēķināt maksu** atzīme, jo jums nav jāaprēķina un jādrukā atskaite. Iepakojuma materiālu svaru varat drukāt rēķinā un informēt debitorus, ka viņi maksā šīs maksas. 
 
 Ja jūsu uzņēmums maksā iepakojuma materiālu maksas, nenorādiet debitora licenču numurus. Pēc rēķina izrakstīšanas lapā **Iepakojuma materiālu transakcijas** ir atzīmēta izvēles rūtiņa **Aprēķināt maksu**. Tas norāda, ka maksas tiek aprēķinātas, kad tiek veidota atskaite. Šo svaru varat drukāt rēķinā un norādīt, ka jūsu uzņēmums maksā šīs maksas.
@@ -60,6 +63,8 @@ Ja jūsu uzņēmums maksā iepakojuma materiālu maksas, nenorādiet debitora li
 ## <a name="print-packaging-material-weights-on-invoices"></a>Iepakojuma materiāla svaru drukāšana rēķinos
 Iepakojuma materiālu svaru varat drukāt rēķinā un norādīt, kurš maksā iepakojuma materiāla maksu. Svars tiek summēts pēc iepakojuma koda.
  
+
+
 
 
 

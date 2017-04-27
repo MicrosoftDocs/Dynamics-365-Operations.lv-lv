@@ -49,18 +49,18 @@ Pārskatu definīcijas iespējams grupēt, lai vienlaicīgi izveidotu vairākus 
 ### <a name="create-a-report-group"></a>Pārskata grupas izveidošana
 
 1.  Atskaišu veidotāja navigācijas rūtī noklikšķiniet uz **Atskaišu grupas**.
-2.  Par **failu** izvēlni, noklikšķiniet uz **New**&gt;**grupas definīcijas atskaiti**, lai atvērtu jaunu ziņojumu grupu datņu skatītāja logā. Varat arī noklikšķināt uz **pārskatu grupas** pogu ![pārskatu grupas](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "pārskatu grupas") rīkjoslā.
+2.  Izvēlnē **Fails** noklikšķiniet uz **Jauns** &gt; **Pārskatu grupas definīcija**, lai skatītāja logā atvērtu jaunu pārskatu grupu. Varat arī noklikšķināt uz rīkjoslas pogas **Pārskatu grupa** ![Pārskatu grupa](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Pārskatu grupa").
 3.  Noklikšķiniet uz cilnes **Pārskata grupa**. Lai ignorētu informāciju par atsevišķu pārskatu definīcijām šo pārskatu izveidošanai, atlasiet izvēles rūtiņu **Atsevišķu pārskatu definīcijās ignorēt uzņēmuma, detalizētas informācijas un datuma iestatījumus**. Uzņēmuma nosaukums, detalizētības līmenis, provizoriskie iestatījumi un datuma informācija tiek ievadīta automātiski, bet jūs varat veikt atjauninājumus.
 4.  Lai ģenerētu vairākas atskaites, kurās ir redzamas atskaišu valūtas, atzīmējiet izvēles rūtiņu **Ietvert visas atskaišu valūtas**. Pēc tam varat piekļūt vairākiem skatiem, tīmekļa skatītājā noklikšķinot uz pogas **Valūta**, kas skatāt šo atskaiti.
 5.  Laukā **Atskaites grupā** noklikšķiniet uz **Pievienot**, lai atlasītu atskaites, ko iekļaut atskaišu grupā. Lai dialoglodziņā **Pievienot** atlasītu vairākas atskaites, atskaišu atlasīšanas laikā turiet nospiestu taustiņu Ctrl. Kad esat beidzis atlasīt atskaites, noklikšķiniet uz **Labi**.
-6.  Noklikšķiniet uz **failu**&gt;**saglabāt** saglabāt jaunu ziņojumu grupu.
+6.  Noklikšķiniet uz **Fails** &gt; **Saglabāt**, lai saglabātu jauno pārskatu grupu.
 
 ### <a name="modify-a-report-group"></a>Modificēt pārskata grupu
 
 1.  Atskaišu veidotāja navigācijas rūtī noklikšķiniet uz **Atskaišu grupas**.
 2.  Veiciet dubultklikšķi uz pārskata grupas, lai modificētu to.
 3.  Cilnē **Atskaišu grupa** veiciet nepieciešamās izmaiņas.
-4.  Par **failu** izvēlni, noklikšķiniet uz **saglabāt** saglabāt modificēto pārskatu grupu, vai arī noklikšķiniet uz **saglabāt** pogu ![saglabāt](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "saglabāt") rīkjoslā.
+4.  Izvēlnē **Fails** noklikšķiniet uz **Saglabāt**, lai saglabātu modificēto pārskatu grupu, vai arī noklikšķiniet uz rīkjoslas pogas**Saglabāt** ![Saglabāt](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "Saglabāt").
 
 **Piezīme.** Ja esat ieplānojis atskaites, lai tās tiktu ģenerētas noteiktos intervālos, varat ignorēt šos iestatījumus un ģenerēt atskaiti nekavējoties.
 
@@ -68,7 +68,7 @@ Pārskatu definīcijas iespējams grupēt, lai vienlaicīgi izveidotu vairākus 
 
 1.  Atskaišu veidotāja navigācijas rūtī noklikšķiniet uz **Atskaišu grupas**.
 2.  Atveriet pārskata grupu, lai izveidotu.
-3.  Noklikšķiniet uz **Ģenerēt atskaiti** pogu ![Ģenerēt atskaiti](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "Ģenerēt atskaiti") ģenerēt pārskatus.
+3.  Noklikšķiniet uz pogas **Ģenerēt pārskatu** ![Ģenerēt pārskatu](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "Ģenerēt pārskatu"), lai ģenerētu pārskatus.
 
 ### <a name="delete-a-report-group"></a>Grupas pārskata dzēšana
 
@@ -104,8 +104,8 @@ Nākamajā tabulā ir aprakstītas vadīklas cilnē **Atskaišu grupa**.
 <td>Norādiet detalizētības līmeni, kāds ir iekļauts atskaitēs.
 <ul>
 <li><strong>Finanšu</strong>− augsta līmeņa kopsavilkuma pārskats. Jūs nevarat rakties līdz kontiem un dimensijām, izņemot tos kontus un dimensijas, kas ir pievienoti, izmantojot atskaišu koku.</li>
-<li><strong>Finanšu &amp;konta</strong> − A atskaiti, kurā ir augstāka līmeņa kopsavilkumu un konta informāciju.</li>
-<li><strong>Finanšu, konts &amp;darījumu</strong> − A atskaiti, kurā ir augstāka līmeņa kopsavilkumu un darījuma detaļas.</li>
+<li><strong>Finanšu un Konts</strong> — pārskats, kas satur augsta līmeņa kopsavilkumu un detalizētu informāciju par kontu.</li>
+<li><strong>Finanšu, Konts un Transakcija</strong> — pārskats, kas satur augsta līmeņa kopsavilkumu un detalizētu informāciju par transakciju.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -154,6 +154,6 @@ Ar atskaites definīciju tiek saglabāti tikai noklusējuma bāzes perioda iesta
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Finanšu pārskatu Microsoft Dynamics 365 operācijām](financial-reporting-intro.md)
+[Finanšu pārskatu veidošana programmai Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
 
 

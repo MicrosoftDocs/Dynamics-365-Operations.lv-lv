@@ -1,6 +1,6 @@
 ---
-title: "Finanšu pārskata datu mart reset pēc datu bāzes atjaunošanu"
-description: "Šajā tēmā ir aprakstīts, kā atiestatīt finanšu atskaišu datu mart pēc atjaunošanas Microsoft Dynamics 365 operācijas datu bāzei."
+title: "Finanšu pārskata data mart atiestatīšana pēc datu bāzes atjaunošanas"
+description: "Šajā tēmā ir aprakstīts, kā atiestatīt finanšu pārskatu data mart pēc Microsoft Dynamics 365 for Operations datu bāzes atjaunošanas."
 author: twheeloc
 manager: AnnBe
 ms.date: 2016-12-08 16 - 20 - 13
@@ -24,86 +24,86 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="reset-the-financial-reporting-data-mart-after-restoring-a-database"></a>Finanšu pārskata datu mart reset pēc datu bāzes atjaunošanu
+# <a name="reset-the-financial-reporting-data-mart-after-restoring-a-database"></a>Finanšu pārskata data mart atiestatīšana pēc datu bāzes atjaunošanas
 
-Šajā tēmā ir aprakstīts, kā atiestatīt finanšu atskaišu datu mart pēc atjaunošanas Microsoft Dynamics 365 operācijas datu bāzei. 
+Šajā tēmā ir aprakstīts, kā atiestatīt finanšu pārskatu data mart pēc Microsoft Dynamics 365 for Operations datu bāzes atjaunošanas. 
 
-Pastāv vairāki scenāriji, kur iespējams atjaunot no dublējuma Dynamics 365, datu bāzes operācijas vai kopēt datu bāzi no cita vide. Šādā gadījumā nepieciešams ievērot attiecīgus pasākumus, lai nodrošinātu, ka finanšu atskaišu datu mart pareizi izmantojot atjaunotā dinamika 365 operāciju bāzi. Ja jums ir jautājumi par finanšu atskaišu datu mart atiestatīšanu iemeslu dēļ ārpus Dynamics 365 operācijas datu bāzes atjaunošana, skatiet [atiestatīt vadības reportieris datu mart](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/) plašāku informāciju. Piezīme soļi šajā procesā ir piemērota Dynamics 365 operācijai maija 2016 release (App veidot 7.0.1265.23014 un finanšu atskaišu izveides 7.0.10000.4) un jaunākas releases. Ja jums ir iepriekšējā laidiena Dynamics 365 operācijām, sazinieties ar mūsu atbalsta komandas palīdzību.
+Pastāv vairāki gadījumi, kad var būt nepieciešams atjaunot Dynamics 365 for Operations datu bāzi no dublējuma vai kopēt datu bāzi no citas vides. Ja tā notiek, ir jāizpilda arī atbilstošās darbības, lai nodrošinātu, ka finanšu pārskatu data mart pareizi izmanto atjaunoto Dynamics 365 for Operations datu bāzi. Ja jums ir jautājumi par finanšu pārskatu data mart atiestatīšanu ar Dynamics 365 for Operations datu bāzes atjaunošanu nesaistītu iemeslu dēļ, skatiet papildinformāciju tēmā [Pārvaldības pārskata sastādītāja data mart atiestatīšana](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/). Ņemiet vērā, ka šī procesa darbības tiek atbalstītas Dynamics 365 for Operations 2016. gada maija laidienā (programmas būvējums 7.0.1265.23014 un finanšu pārskatu būvējums 7.0.10000.4) un jaunākos laidienos. Ja lietojat vecāku Dynamics 365 for Operations laidienu, sazinieties ar mūsu atbalsta dienestu, lai saņemtu palīdzību.
 
-## <a name="export-report-definitions"></a>Eksportēt pārskatu definīcijas
-Vispirms eksportējiet pārskatu dizainu atrodas Report Designer, veicot šādas darbības:
+## <a name="export-report-definitions"></a>Pārskatu definīciju eksportēšana
+Vispirms eksportējiet pārskatu dizainus no pārskatu veidotāja, veicot tālāk norādītās darbības.
 
-1.  Report Designer, lai nokļūtu **Company**&gt;**veidošanas bloku grupām**.
-2.  Atlasiet eksportēt, un noklikšķiniet uz veidošanas bloku grupu **eksporta**. **Piezīme:** Dynamics 365 operācijām, tikai vienu veidošanas bloku grupa atbalsta, **Default**.
-3.  Atlasiet eksportēt atskaiti definīcijas:
+1.  Pārskatu veidotājā pārejiet uz sadaļu **Uzņēmums** &gt; **Veidošanas bloku grupas**.
+2.  Atlasiet eksportējamo veidošanas bloku grupu un noklikšķiniet uz **Eksportēt**. **Piezīme.** Programmatūrā Dynamics 365 for Operations tiek atbalstīta tikai viena veidošanas bloku grupa **Noklusējuma**.
+3.  Atlasiet eksportējamās pārskatu definīcijas, veicot tālāk norādītās darbības.
     -   Lai eksportētu visas pārskatu definīcijas un saistītos veidošanas blokus, noklikšķiniet uz **Atlasīt visu**.
-    -   Lai eksportētu noteiktas atskaites, rindas, kolonnas, koku struktūras vai dimensiju kopas, noklikšķiniet uz atbilstošās cilnes un pēc tam atlasiet eksportējamos vienumus. Lai atlasītu vairākas cilnes vienības, piespiediet un turiet taustiņu Ctrl. Kad izvēlaties eksportēt atskaites, atlasītas saistītās rindas, kolonnas, koki un dimensiju kopas.
+    -   Lai eksportētu noteiktas atskaites, rindas, kolonnas, koku struktūras vai dimensiju kopas, noklikšķiniet uz atbilstošās cilnes un pēc tam atlasiet eksportējamos vienumus. Lai atlasītu vairākas cilnes vienības, piespiediet un turiet taustiņu Ctrl. Atlasot eksportējamos pārskatus, tiek atlasītas saistītās rindas, kolonnas, koku struktūras un dimensiju kopas.
 
-4.  Noklikšķiniet uz **eksporta**.
-5.  Ievadiet faila nosaukumu un izvēlieties drošā vietā, kur vēlaties saglabāt eksportēto ziņojumu definīcijas.
-6.  Click **Save**.
+4.  Noklikšķiniet uz **Eksportēt**.
+5.  Ievadiet faila nosaukumu un atlasiet drošu atrašanās vietu, kur vēlaties saglabāt eksportētās pārskatu definīcijas.
+6.  Noklikšķiniet uz **Saglabāt**.
 
-Failu var kopēt vai augšupielādēts drošā vietā, pieļaujot to ieved citā vidē, citā reizē. Var atrast informāciju par Microsoft Azure glabāšanas kontu [pārsūtīt datus ar AzCopy komandrindas utilīta](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy). **Piezīme:** Microsoft nesniedz glabāšanas kontu ietvaros Dynamics 365 nolīgums operācijām. Ir pirkšanas krātuves kontam vai izmantot krātuves kontam no debeszils atsevišķs abonements. **Svarīgi:** jāapzinās D disku Azure virtuālās mašīnas uzvedība. Nevar saglabāt savu eksportēto veidošanas bloku grupām šeit pastāvīgi. Plašāku informāciju par pagaidu diskiem skatiet [izpratne pagaidu diska Windows Azure virtuālās mašīnas](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
+Failu var kopēt vai augšupielādēt drošā atrašanās vietā, lai vēlāk to varētu importēt citā vidē. Informācija par Microsoft Azure krātuves konta lietošanu ir pieejama tēmā [Datu pārsūtīšana, izmantojot komandrindas utilītu AzCopy](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy). **Piezīme.** Microsoft nenodrošina krātuves kontu Dynamics 365 for Operations līguma ietvaros. Jums ir jāiegādājas krātuves konts vai jāizmanto atsevišķa Azure abonementa krātuves konts. **Svarīgi!** Ņemiet vērā D diska darbību Azure virtuālajās mašīnās. Ilgstoši neglabājiet tajā eksportētās veidošanas bloku grupas. Papildinformāciju par pagaidu diskiem skatiet tēmā [Izpratne par pagaidu disku Windows Azure virtuālajās mašīnās](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
 
-## <a name="stop-services"></a>Apturētu pakalpojumus
-Izmantot attālās darbvirsmas savienojumu ar visiem datoriem vidē un apturēt šādus Windows pakalpojumus, izmantojot Services. msc:
+## <a name="stop-services"></a>Pakalpojumu apturēšana
+Izmantojiet attālo darbvirsmu, lai izveidotu savienojumu ar visiem vidē ietvertajiem datoriem un apturētu tālāk norādītos Windows pakalpojumus, izmantojot failu services.msc.
 
--   Globālā tīmekļa publicēšanas pakalpojumu (no visiem AOS datoriem)
--   Microsoft Dynamics 365 darbību partijas vadības pakalpojumu (datoros un privātā sektora AOS tikai)
--   Pārvaldības reportieris 2012 apstrādes pakalpojumi (tikai BI datoros)
+-   Globālā tīmekļa publicēšanas pakalpojums (visos AOS datoros)
+-   Microsoft Dynamics 365 for Operations lielapjoma pārvaldības pakalpojums (tikai tajos AOS datoros, kas nav privāti)
+-   Management Reporter 2012 apstrādes pakalpojums (tikai BI datoros)
 
-Šie pakalpojumi būs atvērta savienojumus ar Dynamics 365 operāciju bāzes.
+Šiem pakalpojumiem ir atvērti savienojumi ar Dynamics 365 for Operations datu bāzi.
 
 ## <a name="reset"></a>Atcelt izmaiņas
-#### <a name="locate-the-latest-dataupgradezip-package"></a>Atrodiet jaunākos DataUpgrade.zip pakete
+#### <a name="locate-the-latest-dataupgradezip-package"></a>Jaunākās pakotnes DataUpgrade.zip lokalizēšana
 
-Atrodiet jaunākos DataUpgrade.zip pakete virzienos, kas atrodams, izmantojot [lejupielādēt DataUpgrade.zip script](..\migration-upgrade\upgrade-data-to-latest-update.md). Virzieni ir paskaidrots, kā atrast pareizo versiju datu jaunināšanas pakotni jūsu videi.
+Lokalizējiet jaunāko pakotni DataUpgrade.zip, izmantojot norādījumus, kas ir sniegti tēmā [DataUpgrade.zip skripta lejupielāde](..\migration-upgrade\upgrade-data-to-latest-update.md). Norādījumos ir paskaidrots, kā noteikt jūsu videi vajadzīgo datu jaunināšanas pakotnes versiju.
 
-#### <a name="execute-scripts-against-dynamics-365-for-operations-database"></a>Izpildīt skriptus pret Dynamics 365 operācijas datu bāzei
+#### <a name="execute-scripts-against-dynamics-365-for-operations-database"></a>Skripta izpilde ar Dynamics 365 for Operations datu bāzi
 
-Palaist šādu skriptu pret Dynamics 365 operāciju bāzes (nevis pret finanšu atskaišu veidošanas datu bāzē).
+Izpildiet tālāk norādītos skriptus ar Dynamics 365 for Operations datu bāzi (nevis ar finanšu pārskatu datu bāzi).
 
--   DataUpgrade.zip\\AosService\\skripti\\ConfigureAxReportingIntegration.sql
--   DataUpgrade.zip\\AosService\\skripti\\GrantAzViewChangeTracking.sql
+-   DataUpgrade.zip\\AosService\\Scripts\\ConfigureAxReportingIntegration.sql
+-   DataUpgrade.zip\\AosService\\Scripts\\GrantAzViewChangeTracking.sql
 
-Šie skripti nodrošina lietotājiem, lomas un izmaiņu reģistrēšanas iestatījumi ir pareizi.
+Šie skripti nodrošina to, ka lietotāju, lomu un izmaiņu izsekošanas iestatījumi ir pareizi.
 
-#### <a name="execute-powershell-command-to-reset-database"></a>Izpildīt komandu PowerShell, lai atjaunotu datu bāzi
+#### <a name="execute-powershell-command-to-reset-database"></a>PowerShell komandas izpilde, lai atiestatītu datu bāzi
 
-Izpildīt komandu, tieši AOS datorā, lai atiestatītu Dynamics 365 operācijām un finanšu atskaišu integrāciju:
+AOS datorā tiešā veidā izpildiet tālāk norādīto komandu, lai atiestatītu Dynamics 365 for Operations un finanšu pārskatu integrāciju.
 
-1.  Atveriet Windows PowerShell kā administrators.
-2.  Izpildīt: f
-3.  Izpildīt: cd f:\\MRApplicationService\\MRInstallDirectory
-4.  Izpildīt: Imports-modulis. \\Servera\\MRDeploy\\MRDeploy.psd1
-5.  Izpildīt: Reset DatamartIntegration-cits iemesls - ReasonDetail "&lt;mans iemesls atgriešanai&gt;"
-    -   Jums tiks lūgts ievadīt "Y", lai apstiprinātu.
+1.  Atveriet čaulu Windows PowerShell, izmantojot lomu Administrators.
+2.  Izpildiet šo komandu: F:
+3.  Izpildiet šo komandu: cd F:\\MRApplicationService\\MRInstallDirectory
+4.  Izpildiet šo komandu: Import-Module .\\Server\\MRDeploy\\MRDeploy.psd1
+5.  Izpildiet šo komandu: Reset-DatamartIntegration -Reason OTHER -ReasonDetail “&lt;mans atiestatīšanas iemesls&gt;”
+    -   Tiek prasīts ievadīt “Y”, lai apstiprinātu.
 
-Parametru skaidrojums:
+Tālāk ir sniegts parametru paskaidrojums.
 
--   Derīgas vērtības - iemesls ir: apkope, BADDATA, citi.
--   -ReasonDetail parametrs ir brīvā tekstā.
--   Iemesls un reasonDetail tiks ierakstīti telemetrijas/vides monitoringu.
+-   Parametra -Reason derīgās vērtības ir: SERVICING, BADDATA, OTHER.
+-   Parametra -ReasonDetail vērtība ir brīvs teksts.
+-   Parametru Reason un ReasonDetail vērtības tiek reģistrētas telemetrijas/vides pārraudzības žurnālā.
 
-## <a name="start-services"></a>Startēt pakalpojumu
-Services. msc izmantot lai restartētu pakalpojumus, kuri jums agrāk apturēta:
+## <a name="start-services"></a>Pakalpojumu startēšana
+Izmantojiet failu services.msc, lai atkal startētu pakalpojumus, ko iepriekš apturējāt.
 
--   Globālā tīmekļa publicēšanas pakalpojumu (no visiem AOS datoriem)
--   Microsoft Dynamics 365 darbību partijas vadības pakalpojumu (datoros un privātā sektora AOS tikai)
--   Pārvaldības reportieris 2012 apstrādes pakalpojumi (tikai BI datoros)
+-   Globālā tīmekļa publicēšanas pakalpojums (visos AOS datoros)
+-   Microsoft Dynamics 365 for Operations lielapjoma pārvaldības pakalpojums (tikai tajos AOS datoros, kas nav privāti)
+-   Management Reporter 2012 apstrādes pakalpojums (tikai BI datoros)
 
-## <a name="import-report-definitions"></a>Importēt definīcijas atskaiti
-Report Designer, izmantojot failu, kas izveidots laikā eksporta importētu jūsu dizainparaugu atskaite:
+## <a name="import-report-definitions"></a>Pārskatu definīciju importēšana
+Importējiet pārskatu dizainus no pārskatu veidotāja, izmantojot eksportēšanas laikā izveidoto failu.
 
-1.  Report Designer, lai nokļūtu **Company**&gt;**veidošanas bloku grupām**.
-2.  Atlasiet eksportēt, un noklikšķiniet uz veidošanas bloku grupu **eksporta**. **Piezīme:** Dynamics 365 operācijām, tikai vienu veidošanas bloku grupa atbalsta, **Default**.
-3.  Atlasiet **Default** celtniecības bloku un noklikšķiniet **importa**.
-4.  Atlasiet failu, kurā eksportētā atskaite definīcijas un noklikšķiniet **Open**.
+1.  Pārskatu veidotājā pārejiet uz sadaļu **Uzņēmums** &gt; **Veidošanas bloku grupas**.
+2.  Atlasiet eksportējamo veidošanas bloku grupu un noklikšķiniet uz **Eksportēt**. **Piezīme.** Programmatūrā Dynamics 365 for Operations tiek atbalstīta tikai viena veidošanas bloku grupa **Noklusējuma**.
+3.  Atlasiet veidošanas bloku **Noklusējuma** un noklikšķiniet uz **Importēt**.
+4.  Atlasiet failu, kurā ir ietvertas eksportētās pārskatu definīcijas, un noklikšķiniet uz **Atvērt**.
 5.  Dialoglodziņā Importēt atlasiet importējamās pārskatu definīcijas.
     -   Lai importētu visas atskaites definīcijas un saistītos veidošanas blokus, noklikšķiniet uz **Atlasīt visu**.
     -   Lai importētu atsevišķus pārskatus, rindas, kolonnas, koku struktūras vai dimensiju kopas, atlasiet importējamos pārskatus, rindas, kolonnas, koku struktūras vai dimensiju kopas.
 
-6.  Click **Import**.
+6.  Noklikšķiniet uz **Importēt**.
 
 
 

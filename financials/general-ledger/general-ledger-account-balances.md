@@ -1,6 +1,6 @@
 ---
 title: "Virsgrāmatas konta bilances"
-description: "Šis raksts izskaidro divus veidus, kā apskatīt Virsgrāmatas kontu atlikumiem - lapas apgrozījuma bilances saraksts un finanšu pārskati. Tajā ir arī aprakstīts, kā atjaunināt dimensiju kopu bilances."
+description: "Šajā rakstā ir paskaidroti divi veidi, kā skatīt Virsgrāmatas kontu bilances, izmantojot lapu Apgrozījuma bilances saraksts un finanšu atskaites. Tajā ir arī aprakstīts, kā atjaunināt dimensiju kopu bilances."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="general-ledger-account-balances"></a>Virsgrāmatas konta bilances
 
-Šis raksts izskaidro divus veidus, kā apskatīt Virsgrāmatas kontu atlikumiem - lapas apgrozījuma bilances saraksts un finanšu pārskati. Tajā ir arī aprakstīts, kā atjaunināt dimensiju kopu bilances.
+[!include[banner](../includes/banner.md)]
+
+
+Šajā rakstā ir paskaidroti divi veidi, kā skatīt Virsgrāmatas kontu bilances, izmantojot lapu Apgrozījuma bilances saraksts un finanšu atskaites. Tajā ir arī aprakstīts, kā atjaunināt dimensiju kopu bilances.
 
 Ir dažādi veidi, kā lietotāji var apskatīt virsgrāmatas kontu bilances. Dažas no visbiežāk izmantotajām opcijām ir šādas:
 
@@ -46,6 +49,8 @@ Kad lietotājs maina parametrus, bilances tiek atsvaidzinātas. Lietotājs var a
 
 Lietotāji var ritināt bilancē lejup, lai skatītu transakcijas, kas veido bilanci.    
 
-Lai iegūtu papildinformāciju, skatiet [skatīt finanšu pārskati](view-financial-reports.md).
+Papildinformāciju skatiet tēmā [Finanšu pārskatu skatīšana](view-financial-reports.md).
+
+
 
 

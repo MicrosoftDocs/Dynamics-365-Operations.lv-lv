@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchasing-policies"></a>Pirkšanas ierobežojumi
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegta informācija par pirkšanas ierobežojumiem. Pirkšanas ierobežojumi ir nosacījumu kopums, kas kontrolē pieprasījumu procesu. Pirkšanas ierobežojumi palīdz sagādes administratoriem ieviest sagādes stratēģiju, izveidojot politikas struktūru, kas ir saskaņota ar organizācijas stratēģiskajām pirkšanas prasībām.
 
 Pirkšanas ierobežojumi sastāv no ierobežojuma nosacījumu kopas. Definējot ierobežojuma nosacījumu, vispirms ir jāatlasa nosacījuma tips. Pēc tam izveidojiet nosacījumu nosacījuma tipam, definējot nosacījuma iestatījumus, sākuma datumu un beigu datumu.  
@@ -41,13 +44,13 @@ Atkarībā no tā, kā konfigurējāt pirkšanas ierobežojumus, vairāki nosac�
 
 ### <a name="example-1-simple-purchasing-policy-configuration"></a>1. piemērs: vienkārša pirkšanas ierobežojumu konfigurācija
 
-Organizācijām, kas ir maza un mazāk sarežģītas varat iestatīt iepirkumu politiku, juridiskā persona, un var izmantot uzņēmumu organizācijas hierarhijā.  
+Mazas un ne tik sarežģītas organizācijas var iestatīt pirkšanas ierobežojumus atbilstoši juridiskajai personai un var izmantot tikai uzņēmumu organizācijas hierarhiju.  
 
 Mazam uzņēmumam Fabrikam pirkšanas prasības gandrīz neatšķiras visā organizācijā. Pirkšanas nosacījumi atšķiras tikai starp organizācijas juridiskajām personām. Piemēram, Fabrikam Kanāda darbinieki un Fabrikam ASV darbinieki iegādājas preces un pakalpojumus no dažādiem katalogiem un dažādiem kreditoriem. Tāpēc Fabrikam iestata pirkšanas ierobežojumus juridiskās personas līmenī.  
 
-Fabrikam izveido divus pirkšanas ierobežojumus. A politika attiecas tās ASV juridiskai personai 1111. B politika attiecas Kanādas juridiskai personai 2222. Juridiskai personai 1111 darbinieks, veidojot pirkšanas pasūtījumu, kārtības noteikumiem ir atvasināti no politikas. Piemēram, preču katalogu, ko darbinieks redz ir norādīts kataloga politikas kārtula politiku.  
+Fabrikam izveido divus pirkšanas ierobežojumus. A ierobežojums attiecas uz ASV juridisko personu 1111. B ierobežojums attiecas uz Kanādas juridisko personu 2222. Kad juridiskās personas 1111 darbinieks izveido pirkšanas pieprasījumu, ierobežojuma nosacījumi tiek atvasināti no A ierobežojuma. Piemēram, preču katalogs, ko šis darbinieks redz, ir norādīts A ierobežojuma kataloga ierobežojuma nosacījumos.  
 
-Juridiskai personai 2222 darbinieks, veidojot pirkšanas pasūtījumu, kārtības noteikumiem ir atvasināti no politikas B.  
+Kad juridiskās personas 2222 darbinieks izveido pirkšanas pieprasījumu, ierobežojuma nosacījumi tiek atvasināti no B ierobežojuma  
 
 **Piezīme:** ja juridiskās personas 1111 darbinieks kādu krājumu iegādājas juridiskās personas 2222 darbinieka vārdā, tiek piemēroti tie ierobežojuma nosacījumi, kas ir norādīti juridiskajai personai 2222 (t.i., ierobežojuma nosacījumi no ierobežojumiem B).
 
@@ -117,7 +120,7 @@ Papildināšanas kontroles nosacījumi ir neobligāts noteikums, kas nosaka lauk
 
 ### <a name="purchase-order-creation-and-demand-consolidation-rule"></a>Pirkšanas pasūtījuma izveidošana un pieprasījuma konsolidācijas nosacījums
 
-Pirkšanas pasūtījuma radīšana un pieprasījumu konsolidācijas kārtula nosaka politikas kārtulas, kuras jāizmanto, kad pirkšanas pasūtījums tiek ģenerēts no apstiprinātā pirkšanas pasūtījumu. Izveidojot šī tipa nosacījumus, varat iestatīt opcijas dažādās cilnēs:
+Izmantojot pirkšanas pasūtījuma izveides un pieprasījuma konsolidācijas nosacījumu, tiek definēti ierobežojuma nosacījumus, kas ir jāizmanto, kad pirkšanas pasūtījums tiek ģenerēts no apstiprināta pirkšanas pieprasījuma. Izveidojot šī tipa nosacījumus, varat iestatīt opcijas dažādās cilnēs:
 
 -   Cilnē **Pirkšanas pasūtījuma sadalījums** iespējams definēt kritērijus pirkšanas pieprasījuma rindu sadalīšanai atsevišķos pirkšanas pasūtījumos.
 -   Cilnē **Cenu/atlaižu pārsūtīšana** var definēt, kad pārrēķināt cenu līgumu, kad pirkšanas pasūtījums ir izveidots:
@@ -126,7 +129,7 @@ Pirkšanas pasūtījuma radīšana un pieprasījumu konsolidācijas kārtula nos
 
     Varat arī ļaut pieprasītājam mainīt cenu un atlaižu pārsūtīšanas metodi atsevišķām pirkšanas pieprasījuma rindām, neskatoties uz cenu/atlaižu pārsūtīšanas kārtulu, kas ir definēta. Atlasiet opciju **Ļaut manuāli ignorēt pēc pirkšanas pieprasījuma rindas**, ja vēlaties iespējot šo iespēju.
 -   Cilnē **Krājuma apraksta pārsūtīšana** var pārsūtīt krājuma aprakstu no pieprasījuma, ja tas tiek izveidots no PP.
--   Cilnē **Cenu tolerance** var noteikt nosacījumus, kas tiek izmantoti, lai maršrutētu apstiprinātos pirkšanas pieprasījumus atpakaļ uz pārskatīšanas procesu, kad sagādes kataloga krājuma cena pieaug. Iestatiet maksimālo summu, līdz kurai neto summa par rindas krājumu pirkšanas pasūtījumā var palielināties laikā starp pirkšanas pieprasījuma apstiprināšanu un brīdi, kad tiek izveidots pirkšanas pasūtījums. Neto summa tiek aprēķināta, izmantojot šādu formulu: (\[daudzums (vienības cena – atlaides) × ÷ /cenas vienība\] + pirkšanas papildmaksas) × (100-atlaides procenti) ÷ 100 pirkuma pieprasījuma rindas, kas pārsniedz cenu pielaides, ko iestatāt domātas manuāla apstrāde. Kārtulas, kuras jūs konfigurējat cilnē **Kļūdu apstrāde**, nosaka, kā tiek apstrādātas pirkšanas pieprasījuma rindas.
+-   Cilnē **Cenu tolerance** var noteikt nosacījumus, kas tiek izmantoti, lai maršrutētu apstiprinātos pirkšanas pieprasījumus atpakaļ uz pārskatīšanas procesu, kad sagādes kataloga krājuma cena pieaug. Iestatiet maksimālo summu, līdz kurai neto summa par rindas krājumu pirkšanas pasūtījumā var palielināties laikā starp pirkšanas pieprasījuma apstiprināšanu un brīdi, kad tiek izveidots pirkšanas pasūtījums. Neto summa tiek aprēķināta, izmantojot šādu formulu: (\[daudzums × (vienības cena – atlaide) ÷ cenas vienība\] + pirkšanas papildmaksas) × (100 – atlaids procentos) ÷ 100. Pirkšanas pieprasījuma rindas, kas pārsniedz iestatīto cenas toleranci, tiek aizturētas manuālai apstrādei. Kārtulas, kuras jūs konfigurējat cilnē **Kļūdu apstrāde**, nosaka, kā tiek apstrādātas pirkšanas pieprasījuma rindas.
 -   Cilnē **Kļūdu apstrāde** var konfigurēt apstrādes kārtulu, kas tiek piemērota pirkšanas pasūtījumam, ja piegādātāja kļūdas vai cenu tolerances kļūdas dēļ tās validācija neizdodas pirkšanas pasūtījuma izveidošanas laikā. Izvēlieties vienu no šīm opcijām:
     -   **Nav darbības** — pirkšanas pieprasījuma rindas paliek lapā **Nodot izpildei apstiprinātos pirkšanas pieprasījumus**. Pirkšanas pieprasījuma rindu statuss paliek **Apstiprināts**. Tomēr kļūdas jānovērš, pirms pirkšanas pasūtījumu var ģenerēt no pirkšanas pieprasījuma rindām.
     -   **Atcelt pirkšanas pieprasījuma rindu** — pirkšanas pieprasījumu rindas tiek atceltas. Pieprasītājs var izveidot jaunu pirkšanas pieprasījumu par atceltajām rindām, ja viņš vai viņa joprojām vēlas pieprasīt rindas krājumus.
@@ -141,6 +144,8 @@ Pirkšanas pasūtījuma radīšana un pieprasījumu konsolidācijas kārtula nos
     -   **Neatļaut pieprasījuma konsolidāciju** — apstiprinātās pirkšanas pieprasījuma rindas nav piemērotas pieprasījuma konsolidācijai. Šī opcija ir atlasīta pēc noklusējuma un attiecas tikai uz pirkšanas pieprasījuma rindām, kurām nepieciešama manuāla apstrāde pirkšanas pasūtījuma izveidošanai.
     -   **Vienmēr atļaut pieprasījuma konsolidāciju** — visas apstiprinātās pirkšanas pieprasījuma rindas ir piemērotas pieprasījuma konsolidācijai. **Piezīme:** atlasot opciju **Vienmēr atļaut pieprasījuma konsolidāciju** cilnē **Pieprasījuma konsolidācija** un atlasot opciju **Automātiski izveidot pirkšanas pasūtījumus** cilnē **Manuāla pirkšanas pasūtījuma izveide**, visi pirkšanas pieprasījumi tiek aizturēti manuālai apstrādei.
     -   **Atļaut pieprasījuma konsolidāciju norādītajos apstākļos** — definējiet kritērijus, kas nosaka, vai apstiprinātās pirkšanas pieprasījuma rindas ir piemērotas pieprasījuma konsolidācijai. Katram pirkšanas pieprasījuma rindas veidam varat iestatīt kritērijus pēc sagādes kategorijas un piegādātāja. Ja atlasāt opciju **Atļaut pieprasījuma konsolidāciju norādītajos apstākļos**, varat iestatīt kritērijus pēc sagādes kategorijas un kreditora katram pirkšanas pieprasījuma rindas tipam. Atlasot sagādes kategoriju, tiek atlasītas arī visas apakškategorijas šajā sagādes kategorijā. Ja atlasāt opciju **Visas** noteiktam rindas tipam, visas šī tipa pirkšanas pieprasījuma rindas ir piemērotas pieprasījuma konsolidācijai.
+
+
 
 
 

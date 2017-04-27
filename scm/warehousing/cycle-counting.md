@@ -102,7 +102,7 @@ Ir divi veidi, kā plānot cikla inventarizācijas darba periodisku izveidi: ies
 
 ### <a name="create-cycle-counting-work-based-on-threshold-parameters-for-items"></a>Cikla inventarizācijas darba izveide, pamatojoties uz krājumu sliekšņa parametriem
 
-Cikla inventarizācijas darbu var izveidot, ja krājumu skaits ir mazāks par noteikto sliekšņa vērtību attiecīgajā novietojumā. Piemēram, ir 60 vienumi atrodas vietā, kas ir skaitīšanas 40 slieksnis cikls. Laikā pārdošanas pasūtījuma darbību 25 vienumiem ir palielinājies no atrašanās vietas un nodot izstādīšanas vietu. Jaunais krājumu skaits ir 35, un tas ir mazāks par sliekšņa vērtību, tādēļ cikla inventarizācijas darbs novietojumam tiek izveidots automātiski.
+Cikla inventarizācijas darbu var izveidot, ja krājumu skaits ir mazāks par noteikto sliekšņa vērtību attiecīgajā novietojumā. Piemēram, novietojumā, kura cikla inventarizācijas sliekšņa vērtība ir 40, ir 60 krājumi. Pārdošanas pasūtījuma transakcijas laikā 25 krājumi tiek izdoti no novietojuma un izvietoti sagatavošanas posma novietojumā. Jaunais krājumu skaits ir 35, un tas ir mazāks par sliekšņa vērtību, tādēļ cikla inventarizācijas darbs novietojumam tiek izveidots automātiski.
 
 ### <a name="schedule-cycle-counting-work"></a>Cikla inventarizācijas darba plānošana
 
@@ -129,7 +129,7 @@ Tālāk ir sniegts piemērs, kā veikt vietas cikla inventarizāciju, izmantojot
 ## <a name="resolve-cycle-counting-differences"></a>Cikla inventarizācijas starpību atrisināšana
 Ja ar darba lietotāja ID saistītajai opcijai **Ir cikla inventarizācijas vadītājs** ir atzīmēts iestatījums **Nē**, tālāk minētajos scenārijos rodas cikla inventarizācijas starpība.
 
--   Inventarizācijas laikā aprēķinātā vērtība neatbilst novirzes ierobežojumiem, kas noteikti lapas **Darba lietotāji** laukā **Maksimālais procentuālais ierobežojums** vai **Maksimālais daudzuma ierobežojums**. Piemēram, rīcībā esošo krājumu daudzuma vietā ir 50 un novirze darbu lietotāju limits ir 10. Ja darbu lietotājs ievada vērtību, kas nav starp 40 un 60, rodas atšķirība.
+-   Inventarizācijas laikā aprēķinātā vērtība neatbilst novirzes ierobežojumiem, kas noteikti lapas **Darba lietotāji** laukā **Maksimālais procentuālais ierobežojums** vai **Maksimālais daudzuma ierobežojums**. Piemēram, novietojumā rīcībā esošo krājumu skaits ir 50, un darba lietotājam noteiktā novirzes robežas vērtība ir 10. Ja darba lietotājs ievada vērtību, kas nav starp 40 un 60, rodas starpība.
 -   Inventarizācijas laikā aprēķinātā vērtība atšķiras no rīcībā esošo krājumu daudzuma, un nav iestatīti novirzes ierobežojumi.
 
 Jūs varat pielāgot inventarizācijas laikā aprēķinātās vērtības starpības un pēc tam akceptēt inventarizācijas laikā aprēķināto vērtību lapā **Izskatīšanu gaidošā cikla inventarizācija**. Jūs varat pārbaudīt koriģēto krājuma daudzuma skaitu lapā **Rīcībā esošie krājumi pēc novietojuma**. Inventarizācijas laikā aprēķinātā vērtība tiek noraidīta, ja starpību nevar apstiprināt.

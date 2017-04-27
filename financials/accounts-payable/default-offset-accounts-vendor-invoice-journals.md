@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="default-offset-accounts-for-vendor-invoice-journals-and-invoice-approval-journals"></a>Kreditoru rēķinu žurnālu un rēķinu apstiprinājumu žurnālu noklusējuma korespondējošie konti
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Noklusējuma korespondējošie konti tiek izmantoti tālāk norādītajās kreditoru rēķinu žurnālu lapās.
@@ -92,6 +95,8 @@ Izmantojiet tālāk esošo tabulu, lai izlemtu, kur ir jāpiešķir rēķinu žu
 </tr>
 </tbody>
 </table>
+
+
 
 
 

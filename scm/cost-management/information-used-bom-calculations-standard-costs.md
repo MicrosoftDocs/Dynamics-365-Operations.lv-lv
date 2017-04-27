@@ -1,5 +1,5 @@
 ---
-title: "MK aprēķinu ar standarta izmaksām"
+title: "MK aprēķini ar standarta izmaksām"
 description: 
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bom-calculations-with-standard-costs"></a>MK aprēķinu ar standarta izmaksām
+# <a name="bom-calculations-with-standard-costs"></a>MK aprēķini ar standarta izmaksām
+
+[!include[banner](../includes/banner.md)]
+
 
 
 
@@ -78,6 +81,8 @@ Aprēķina versijas informācija, kas tiek izmantota standarta izmaksu MK aprē�
 -   Aprēķinu versijas saturam ir jāietver izmaksas − saturam ir jāietver izmaksas. Izvēles veidā tas var ietvert pārdošanas cenas, lai aprēķinātu ieteicamās pārdošanas cenas saražotajiem krājumiem.
 
 Vairākus informācijas avotus var norādīt, inicializējot MK aprēķinu. Tas ietver vietu, aprēķina datumu un aprēķina versiju.
+
+
 
 
 

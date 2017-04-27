@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-depreciation"></a>Pamatlīdzekļu nolietojums
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegts pamatlīdzekļu nolietojuma aprēķināšanas pārskats.
 
 Nolietojums ir periodiska darbība, kas parasti samazina pamatlīdzekļa vērtību bilancē un tiek maksāta kā izdevumi peļņas un zaudējumu kontā. Tāpēc galvenais konts parasti tiek izmantots, lai kreditētu periodisko nolietojumu bilancē. Korespondējošais konts ir konts kontu plāna peļņas un zaudējumu daļā.
@@ -51,6 +54,8 @@ Katrai grāmatai ir kalendārs, ko izmanto, aprēķinot pamatlīdzekļu nolietoj
 
 Varat izveidot koplietojamu kalendāru, izmantojot sadaļas Virsgrāmata lapu **Finanšu kalendāri**.
 
-Lai iegūtu papildinformāciju, skatiet [nolietojuma metodes un konvencijas](depreciation-methods-conventions.md).
+Papildinformāciju skatiet tēmā [Nolietojuma metodes un konvencijas](depreciation-methods-conventions.md).
+
+
 
 

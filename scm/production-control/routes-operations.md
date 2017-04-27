@@ -1,6 +1,6 @@
 ---
-title: "Maršrutiem un operācijām"
-description: "Šajā tēmā ir sniegta informācija par maršrutiem un operācijām. Maršrutu nosaka process ražo preci vai preces variants. Tā apraksta katru soli (operācija), ražošanas procesu un kārtību, kādā jāveic šādas darbības. Katram solim maršrutu nosaka nepieciešamo operāciju resursus, nepieciešams uzstādīšanas laiks un izpildes laiks, un kā aprēķināt izmaksas."
+title: "Maršruti un operācijas"
+description: "Šajā tēmā ir sniegta informācija par maršrutiem un operācijām. Maršruts definē preces vai preces varianta ražošanas procesu. Tas raksturo katru ražošanas procesa darbību (operāciju) un šo darbību veikšanas secību. Maršruts definē arī katrai darbībai nepieciešamos operācijas resursus, nepieciešamo iestatīšanas un izpildes laiku un lietojamo izmaksu aprēķināšanas veidu."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,216 +26,221 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="routes-and-operations"></a>Maršrutiem un operācijām
+# <a name="routes-and-operations"></a>Maršruti un operācijas
 
-Šajā tēmā ir sniegta informācija par maršrutiem un operācijām. Maršrutu nosaka process ražo preci vai preces variants. Tā apraksta katru soli (operācija), ražošanas procesu un kārtību, kādā jāveic šādas darbības. Katram solim maršrutu nosaka nepieciešamo operāciju resursus, nepieciešams uzstādīšanas laiks un izpildes laiks, un kā aprēķināt izmaksas.
+[!include[banner](../includes/banner.md)]
+
+
+Šajā tēmā ir sniegta informācija par maršrutiem un operācijām. Maršruts definē preces vai preces varianta ražošanas procesu. Tas raksturo katru ražošanas procesa darbību (operāciju) un šo darbību veikšanas secību. Maršruts definē arī katrai darbībai nepieciešamos operācijas resursus, nepieciešamo iestatīšanas un izpildes laiku un lietojamo izmaksu aprēķināšanas veidu.
 
 <a name="overview"></a>Pārskats
 --------
 
-Maršruta apraksta darbību secību, kas vajadzīga, lai ražotu preces vai produkta variants. Katrai operācijai maršrutā nosaka arī operācijās resursi, kas nepieciešami, laiku, kas nepieciešams, lai iestatītu un izpildītu darbību un kā aprēķināt izmaksas. Var lietot, lai izveidotu vairākus produktus vienā maršrutā vai varat definēt unikālu maršrutu katram ražojumam vai ražojumu variants. Varat pat ir vairāki ceļi uz to pašu produktu. Šajā gadījumā maršruts, ko izmanto, ir atšķirīgs, atkarībā no tādiem faktoriem kā daudzums, kas ir jāražo. Microsoft Dynamics 365 operācijām maršrutā definīciju veido četri atsevišķi elementi, kas kopā, apraksta ražošanas procesā:
+Maršruts raksturo preces vai preces varianta ražošanai nepieciešamo operāciju secību. Maršruts definē arī katrai operācijai nepieciešamos operācijas resursus, operācijas iestatīšanai un izpildei nepieciešamo laiku un lietojamo izmaksu aprēķināšanas veidu. Varat izmantot vienu maršrutu vairāku preču ražošanai vai definēt unikālu maršrutu katrai precei vai preces variantam. Varat pat izmantot vairākus maršrutus vienai precei. Šādā gadījumā izmantotais maršruts ir atkarīgs no tādiem faktoriem kā saražojamais daudzums. Maršruta definīcija programmatūrā Microsoft Dynamics 365 for Operations sastāv no četriem atsevišķiem elementiem, kas kopā raksturo ražošanas procesu.
 
--   **Maršruta** -maršrutu nosaka ražošanas procesa struktūru. Citiem vārdiem sakot, tas nosaka operāciju secību.
--   **Operācija** – darbība identificē nosaukto solis maršrutu, piemēram, **montāžas**. Un tai pašā operācijā var rasties vairāki ceļi un var būt dažādas operācijas numuriem.
--   **FormāOperation relation** -formāOperation relation definē operāciju, piem., uzstādīšanas laiku un izpildes laiku, izmaksu kategorijas, patēriņa parametri un resursu prasības ekspluatācijas īpašības. Operācijas saistībai nodrošina operatīvās darbības mainās atkarībā no izmantoto operāciju maršrutā vai produktiem, kuri tiek ražoti rekvizītus.
--   **Maršruta versiju** – maršruta versiju definē maršruts, ko izmanto, lai ražotu preci vai preces variants. Maršruta versijas ļauj maršrutos atkārtoti lietots visā izstrādājumu vai mainījusies laika gaitā. Viņi arī iespējot dažādus maršrutus uz izmantot, lai ražotu vienu un to pašu produktu. Šajā gadījumā maršruts, ko izmanto, ir atkarīga no tādiem faktoriem kā atrašanās vieta vai daudzums, kas ir jāražo.
+-   **Maršruts** — maršruts definē ražošanas procesa struktūru. Citiem vārdiem sakot, tas definē operāciju secību.
+-   **Operācija** — operācija norāda konkrētu maršruta darbību, piemēram, darbību **Montāža**. Vienu operāciju var izmantot vairākos maršrutos un tai var būt dažādi operācijas numuri.
+-   **Operācijas saite** — operācijas saite definē operācijas darbības rekvizītus, piemēram, iestatīšanas un izpildes laiku, izmaksu kategorijas, patēriņa parametrus un resursu vajadzības. Operācijas saite nodrošina iespēju izmantot dažādus operācijas darbības rekvizītus atkarībā no maršruta, kurā tiek lietota šī operācija, vai ražotajām precēm.
+-   **Maršruta versija** — maršruta versija definē maršrutu, kas tiek izmantots preces vai preces varianta ražošanai. Maršruta versijas sniedz iespēju atkārtoti lietot maršrutus dažādām precēm vai mainīt tos laika gaitā. Tās sniedz iespēju arī izmantot dažādus maršrutus vienas preces ražošanai. Šādā gadījumā izmantotais maršruts ir atkarīgs no tādiem faktoriem kā atrašanās vieta vai saražojamais daudzums.
 
 ## <a name="routes"></a>Maršruti
-Maršruta apraksta darbību secību, kas tiek izmantots, lai ražotu preces vai produkta variants. Katra operācija tiek piešķirts operācijas numuru un pārņēmēju darbībai. Operāciju secība veido maršrutu tīklu, kas var pārstāvēt virzīto diagramma, kas ir vienu vai vairākus sākuma punktus un vienu beigu punktu. Dynamics 365 operācijām, ir atšķirīgas atkarībā no konstrukcijas tipa maršrutos. Ir divu veidu maršrutiem, vienkāršu maršrutu un maršruta tīklu. Ražošanas kontroles parametri, var norādīt, vai drīkst izmantot tikai vienkāršu maršrutu vai vai sarežģītāka maršruta tīklu var izmantot.
+Maršruts raksturo preces vai preces varianta ražošanai izmantoto operāciju secību. Katrai operācijai tiek piešķirts operācijas numurs un nākamā operācija. Operāciju secība veido maršruta tīklu, ko var atainot, izmantojot virzienu diagrammu, kurā ir viens vai vairāki sākuma punkti un viens baigu punkts. Programmatūrā Dynamics 365 for Operations maršruti atšķiras pēc struktūras veida. Ir pieejami divi maršrutu veidi: vienkāršie maršruti un maršrutu tīkli. Sadaļā Ražošanas kontroles parametri varat norādīt to, vai var tikt izmantoti tikai vienkārši maršruti vai arī sarežģītāki maršrutu tīkli.
 
 ### <a name="simple-routes"></a>Vienkārši maršruti
 
-Vienkāršs maršruts ir secīgs, un tur ir tikai viena maršruta sākumpunkts.  
+Vienkāršs maršruts ir secīgs un tajā ir tikai viens sākuma punkts.  
 
 [![Vienkāršs maršruts](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
-Ja jūs varētu tikai vienkāršu maršrutiem, ražošanas kontroles parametri, Dynamics 365 operācijām automātiski ģenerē operāciju numurus (10, 20, 30 un tā tālāk), definējot maršrutu.
+Ja sadaļā Ražošanas kontroles parametri iespējojat tikai vienkāršus maršrutus, kad definējat maršrutu, programmatūrā Dynamics 365 for Operations tiek automātiski ģenerēti operāciju numuri (10, 20, 30 utt.).
 
-### <a name="route-networks"></a>Maršruta tīklu
+### <a name="route-networks"></a>Maršrutu tīkli
 
-Ja iespējojat sarežģītākas maršruta tīklu ražošanas kontroles parametrus, var definēt maršrutus, kas ir vairākus sākuma punktus un operācijas, kas var darboties paralēli.  
+Ja sadaļā Ražošanas kontroles parametri iespējojat sarežģītākos maršrutu tīklus, varat definēt maršrutus, kuriem ir vairāki sākuma punkti, un operācijas, ko var izpildīt vienlaikus.  
 
-[![Route network](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![Maršruta tīkls](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 **Piezīmes.**
 
--   Katrai operācijai var būt tikai viens pārņēmēju darbībai un visa maršruta jābeidzas vienā piegājienā.
--   Nav garantijas, ka faktiski vairākas operācijas, kas ir pēctecis pašu darbību (piemēram, operācijas, 30 un 40, iepriekšējā attēlā) darbosies paralēli. Pieejamību un resursu ražīguma var pakļaut ierobežojumiem, par to, kādā veidā ir plānotas operācijas.
--   0 (nulle) nevar izmantot kā operācijas numuru. Šis numurs ir rezervēts, un to lieto, lai norādītu, ka pēdējā operācija maršrutā ir pēctecis operācija.
+-   Katrai operācijai var būt tikai viena nākamā operācija, un visam maršrutam ir jābeidzas ar vienu operāciju.
+-   Nevar garantēt, ka vairākas operācijas, kam ir viena un tā pati nākamā operācija (piemēram, 30. un 40. operācija iepriekš esošajā attēlā), tiešām tiks veiktas vienlaikus. Operāciju plānošanu var ierobežot resursu pieejamība un noslodze.
+-   Kā operācijas numuru nevar norādīt skaitli 0 (nulle). Šis numurs ir rezervēts un tiek izmantots, lai norādītu, ka maršruta pēdējai operācijai nav nākamās operācijas.
 
-### <a name="parallel-operations"></a>Paralēlās darbības
+### <a name="parallel-operations"></a>Vienlaicīgās operācijas
 
-Dažreiz, kombinācija vairāku operāciju resursi, kuriem ir atšķirīgas īpašības ir nepieciešama, lai veiktu operāciju. Piemēram, ka montāžas operācija var pieprasīt iekārtu, rīku un viens darbinieks ik pēc divām mašīnām, lai pārraudzītu darbību. Šajā piemērā var modelēt, izmantojot paralēlu operāciju, kur vienā operācijā ir nozīmēta kā primārās operācijas un citi ir sekundāri.  
+Dažreiz operācijas veikšanai ir nepieciešama tādu operācijas resursu kombinācija, kam ir dažādi raksturlielumi. Piemēram, montāžas operācijai var būt nepieciešama iekārta, darbarīks un viens darbinieks uz katrām divām iekārtām, kurš pārrauga operāciju. Šo piemēru var modelēt, izmantojot vienlaicīgas operācijas, no kurām viena ir norādīta kā galvenā operācija, bet pārējās ir sekundārās operācijas.  
 
-[![Maršrutam, kurš ir primārās un sekundārās operācijas](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
+[![Maršruts ar galveno un sekundārajām operācijām](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
 
-Parasti primārās operācijas pārstāv sašaurinājums resursu un nosaka izpildes laiku sekundārajām operācijām. Tomēr, plānošanā, kas saistīta ar ierobežota noslodze, resursi, kas tiek plānoti primārajai operācijai, gan sekundārajām operācijām jābūt pieejamiem, un tajā pašā laikā ir brīvas jaudas.  
+Parasti galvenā operācija ir saistīta ar deficīta resursu un nosaka sekundāro operāciju izpildes laiku. Taču, veicot ierobežotas noslodzes resursu plānošanu, resursiem, kas tiek ieplānoti gan galvenajai, gan sekundārajām operācijām, vienlaikus ir jābūt pieejamiem un ar brīvu noslodzi.  
 
-Primārajai operācijai, gan sekundārajām operācijām jābūt vienu un to pašu operācijas numuru (30 iepriekšējā attēlā).  
+Gan galvenajai, gan sekundārajām operācijām ir jābūt vienādiem operācijas numuriem (30 iepriekš esošajā attēlā).  
 
-Iepriekšējā piemērā primārās operācijas (30) resursu prasība ir mašīnu, tā kā resursu prasības sekundārajām operācijām (30' un 30 ') ir rīks, un darba ņēmējiem. Piecdesmit procentu slodzi palīdz garantēt ieplānotā darba ņēmējs var pārraudzīt divām mašīnām vienlaicīgi.
+Iepriekš sniegtajā piemērā galvenās operācijas (30) resursu vajadzība ir iekārta, bet sekundāro operāciju (30' un 30'') resursu vajadzības ir darbarīks un darbinieks. Piecdesmit procentu noslodze palīdz nodrošināt to, ka ieplānotais darbinieks var vienlaikus pārraudzīt divas iekārtas.
 
 ### <a name="approval-of-routes"></a>Maršrutu apstiprināšana
 
-Maršrutu vispirms jāapstiprina, tikai tad to var izmantot plānošanas vai ražošanas procesā. Apstiprinājumu norāda, ka ir pabeigta maršruta dizains. Tas pats atbrīvots produkts vai nodotā produkta variants var būt vairākiem apstiprinātiem maršrutiem. Parasti, maršrutu apstiprināšana notiek, kad pirmā attiecīgā maršruta versija ir apstiprināta. Tomēr dažiem uzņēmējdarbības scenārijus, apstiprinājuma maršrutu un maršruta versiju ir atsevišķas aktivitātes, kas varētu ietvert dažādu procesu īpašniekiem.  
+Lai maršrutu varētu izmantot plānošanas vai ražošanas procesā, maršruts vispirms ir jāapstiprina. Apstiprinājums norāda, ka maršruta izstrāde ir pabeigta. Vienai izlaistajai precei vai preces variantam var būt vairāki apstiprināti maršruti. Parasti maršruta apstiprināšana tiek veikta, kad tiek apstiprināta pirmā saistītā maršruta versija. Taču dažos uzņēmējdarbības scenārijos maršruta un maršruta versijas apstiprināšana ir atsevišķas darbības, kam var būt dažādi procesa īpašnieki.  
 
-Katrā maršrutā var apstiprināto vai neapstiprināto atsevišķi. Tomēr, ņemiet vērā, ka, ja maršruts ir neapstiprināta, visas saistītās maršruta versijas ir arī Neapstiprināti. Ražošanas kontroles parametru, var norādīt, vai var būt neapstiprinātiem maršrutiem, un vai apstiprinātiem maršrutiem var mainīt.  
+Katru maršrutu var atsevišķi apstiprināt vai neapstiprināt. Taču ņemiet vērā to, ka gadījumā, ja maršruts ir neapstiprināts, arī visas saistītās maršruta versijas ir neapstiprinātas. Sadaļā Ražošanas kontroles parametri varat norādīt to, vai maršruti var būt neapstiprināti un vai var mainīt apstiprinātos maršrutus.  
 
-Ja jums jāveic uzskaite log, kurš apstiprina katram maršrutam, maršruta apstiprināšanas var pieprasīt elektronisko parakstu. Lietotājiem būs pēc tam, lai apstiprinātu savu identitāti, izmantojot [elektronisko parakstu](/dynamics365/operations/organization-administration/electronic-signature-overview).
+Ja ir nepieciešams žurnālā reģistrēt katra maršruta apstiprinātāju, varat iestatīt elektroniskā paraksta prasību maršruta apstiprināšanai. Šādā gadījumā lietotājiem ir jāapstiprina sava identitāte, izmantojot [elektronisko parakstu](/dynamics365/operations/organization-administration/electronic-signature-overview).
 
 ## <a name="operations"></a>Operācijas
-Darbība ir solis ražošanas procesā. Dynamics 365 operācijām, katrai operācijai ir ID un vienkāršu aprakstu. Nākamajās tabulās norādīts raksturīgākie piemēri machine shop operācijas.
+Operācija ir ražošanas procesa darbība. Programmatūrā Dynamics 365 for Operations katrai operācijai ir ID un vienkāršs apraksts. Tālāk esošajās tabulās ir sniegti tipiski mehāniskas darbnīcas operāciju piemēri.
 
 | Operācija  | apraksts        |
 |------------|--------------------|
-| PipeCut    | Cauruļu griešanas       |
-| TIGweld    | TIG metināšanas        |
-| JigAssy    | Džiga montāža       |
+| PipeCut    | Cauruļu griešana       |
+| TIGweld    | TIG metināšana        |
+| JigAssy    | Automatizētā montāža       |
 | Pārbaude | Kvalitātes pārbaude |
 
-Operācija, piem., uzstādīšanas laika un izpildes laika, resursu prasības, izmaksu informācijas un patēriņa aprēķins, ekspluatācijas īpašības norādītas par operācijas saistībai. (Lai iegūtu papildinformāciju par operāciju saites, skatiet nākamo sadaļu).
+Operācijas darbības rekvizīti, piemēram, iestatīšanas un izpildes laiks, resursu vajadzības, izmaksu aprēķināšanas informācija un patēriņa aprēķināšanas metode, ir norādītas operācijas saitē. (Papildinformāciju par operāciju saitēm skatiet nākamajā sadaļā.)
 
 ## <a name="operation-relations"></a>Operāciju saites
-Šādas darbības rekvizīti operācijas tiek uzturētas par operācijas saitēm:
+Operācijas saitē tiek uzturēti tālāk norādītie operācijas darbības rekvizīti.
 
 -   Izmaksu kategorijas
 -   Patēriņa parametri
--   Izpildes laikus
--   Pārstrādes daudzumu
+-   Izpildes laiki
+-   Izpildes daudzumi
 -   Resursu vajadzības
--   Piezīmes un norādījumus
+-   Piezīmes un norādījumi
 
-Var definēt vairākus darbībām saistībā ar vienu un to pašu darbību. Tomēr katras operācijas saistībai ir raksturīgs vienas operācijas un saglabā īpašības, kas raksturīgas maršrutu, atbrīvots produkts vai atbrīvo produktus, kas saistīti ar krājumu grupu kopa. Tāpēc vienā operācijā var izmantot vairākus maršrutus, kas ir dažādu ekspluatācijas īpašības. Turklāt var vieglāk saglabāt vispārējos datus, ja jūs izmantojat standarta operāciju pašu ekspluatācijas īpašībām, neatkarīgi no maršruta, kas tiek izmantota un produkts, ko ražo. Operācijas saistībai apjoms ir noteikts caur **priekšmeta kods**, **krājumu saistība**, **maršruta kods** un **maršruta attiecību** rekvizītus, kā parādīts sekojošajā tabulā.
+Vienai operācijai varat definēt vairākas operāciju saites. Taču katra operācijas saite ir raksturīga vienai operācijai, un tajā ietvertie rekvizīti ir raksturīgi konkrētam maršrutam, izlaistajai precei vai izlaisto preču kopai, kas ir saistīta ar krājumu grupu. Tāpēc vairākos maršrutos var izmantot vienu operāciju ar dažādiem darbības rekvizītiem. Turklāt varat vieglāk uzturēt pamatdatus, ja izmantojat standarta operācijas ar vienādiem darbības rekvizītiem neatkarīgi no izmantotā maršruta un ražotās preces. Operācijas saites tvērums tiek definēts, izmantojot rekvizītus **Krājums kods**, **Krājuma saistība**, **Maršruta kods** un **Maršruta atsauce**, kā tas ir redzams tālāk esošajā tabulā.
 
-| Krājuma kods | Krājumu saistība         | Maršruta kods | Maršruta atsauce   | Operācijas saistībai joma                                                                                                                                                                                                                                                                              |
+| Krājuma kods | Krājumu saistība         | Maršruta kods | Maršruta atsauce   | Operācijas saites tvērums                                                                                                                                                                                                                                                                              |
 |-----------|-----------------------|------------|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Tabula     | &lt;Preces ID&gt;;       | Maršruts      | &lt;Maršruta ID&gt; | Operāciju, kad tas tiek izmantots maršrutu ekspluatācijas īpašības kur **maršruta numurs**=&lt;maršruta ID&gt; nodotā produkta ražošanai kur **krājums**=&lt;vienuma ID&gt;.                                                                                                                        |
-| Tabula     | &lt;Preces ID&gt;;       | Visus        |                  | Noklusējuma darbības operāciju, kad tas tiek izmantots, lai ražotu atbrīvots produkts rekvizītus, kur **krājums**=&lt;vienums ar ID&gt;. Citiem vārdiem sakot, šīs darbības īpašības piemērot, ja nav specifisks maršruta operāciju saistības atbrīvots produkts.                                     |
-| Grupa     | &lt;Krājumu grupas ID&gt; | Maršruts      | &lt;Maršruta ID&gt; | Operāciju, kad tas tiek izmantots maršrutu ekspluatācijas īpašības kur **maršruta numurs**=&lt;maršruta ID&gt; atbrīvo produktus, kas ir saistīta ar vienuma grupu &lt;krājumu grupas ID&gt;, ja vien tur ir specifisks maršruta operācijas saistībai atbrīvots produkts.                         |
-| Grupa     | &lt;Krājumu grupas ID&gt; | Visus        |                  | Noklusējuma darbību, kad to izmanto, lai ražotu atbrīvo produktus, kas ir saistīta ar vienuma grupu darbības īpašības &lt;krājumu grupas ID&gt;, ja vien pastāv konkrētāki operāciju attiecības.                                                                                                  |
-| Visus       |                       | Maršruts      | &lt;Maršruta ID&gt; | Noklusējuma darbības rekvizīti, lietojot maršruta operācijas kur **maršruta numurs**=&lt;maršruta ID&gt;. Citiem vārdiem sakot, šīs darbības īpašības piemērot, ja nav nekādas operācijas saistībai, attiecībā uz šo maršrutu, kas ir raksturīgs kādai atbrīvots produkts vai tā ir saistīta ar krājumu grupu. |
-| Visus       |                       | Visus        |                  | Noklusējuma darbības īpašības operāciju. Šīs darbības īpašības attiecas konkrētāki formāOperation relation neeksistē.                                                                                                                                                                |
+| Tabula     | &lt;Preces ID&gt;;       | Maršruts      | &lt;Maršruta ID&gt; | Operācijas darbības rekvizīti gadījumā, ja operācija tiek izmantota maršrutā, kura **Maršruta numurs**=&lt;maršruta ID&gt;, lai saražotu izlaisto preci, kurai **Krājuma numurs**=&lt;krājuma ID&gt;.                                                                                                                        |
+| Tabula     | &lt;Preces ID&gt;;       | Visus        |                  | Operācijas noklusējuma darbības rekvizīti gadījumā, ja operācija tiek izmantota, lai saražotu izlaisto preci, kurai **Krājuma numurs**=&lt;krājuma ID&gt;. Citiem vārdiem sakot, šie darbību rekvizīti tiek lietoti, ja izlaistajai precei nav maršrutam raksturīgas operācijas saites.                                     |
+| Grupa     | &lt;Krājumu grupas ID&gt; | Maršruts      | &lt;Maršruta ID&gt; | Operācijas darbības rekvizīti gadījumā, ja operācija tiek izmantota maršrutā, kura **Maršruta numurs**=&lt;maršruta ID&gt;, lai saražotu izlaistās preces, kas ir saistītas ar krājumu grupu &lt;krājumu grupas ID&gt;, ja vien izlaistajai precei nav maršrutam raksturīgas operācijas saites.                         |
+| Grupa     | &lt;Krājumu grupas ID&gt; | Visus        |                  | Operācijas noklusējuma darbības rekvizīti gadījumā, ja operācija tiek izmantota, lai saražotu izlaistās preces, kas ir saistītas ar krājumu grupu &lt;krājumu grupas ID&gt;, ja vien nav raksturīgākas operācijas saites.                                                                                                  |
+| Visus       |                       | Maršruts      | &lt;Maršruta ID&gt; | Operācijas noklusējuma darbības rekvizīti gadījumā, ja operācija tiek izmantota maršrutā, kuram **Maršruta numurs**=&lt;maršruta ID&gt;. Citiem vārdiem sakot, šie darbību rekvizīti tiek lietoti, ja šim maršrutam nav operācijas saites, kas ir raksturīga izlaistajai precei vai ar to saistītajai krājumu grupai. |
+| Visus       |                       | Visus        |                  | Operācijas noklusējuma darbības rekvizīti. Šie darbības rekvizīti tiek lietoti tad, ja nav raksturīgākas operācijas saites.                                                                                                                                                                |
 
-Varat arī norādīt operācijas saistībai ir īpaša vieta. Šādā veidā operāciju ekspluatācijas īpašības var atšķirties atkarībā no atrašanās vietas (t.i., lapa), kurā darbība tiek veikta. Konfigurētas preces, var norādīt arī dažādu operatīvo rekvizītus katra produkta konfigurēšanu.  
+Varat arī norādīt, ka operācijas saite ir raksturīga kādai vietai. Tādējādi operācijas darbības rekvizīti var atšķirties atkarībā no operācijas veikšanas vietas. Konfigurētajām precēm varat arī norādīt atšķirīgus darbības rekvizītus katrai preces konfigurācijai.  
 
-Operāciju saites sniegt jums daudz elastību, definējot savu maršrutu. Turklāt iespēju definēt noklusējuma rekvizīti palīdz samazināt vispārējos datus, kas jums ir jāsaglabā. Tomēr šī elastība nozīmē arī, ka jums ir jāapzinās to modificēšanas darbība saistībā ar kontekstu.  
+Operāciju saites nodrošina lielu pielāgojamību maršrutu definēšanas laikā. Turklāt noklusējuma rekvizītu definēšanas iespēja palīdz samazināt uzturamo pamatdatu apjomu. Taču šīs pielāgojamības dēļ jums ir jāņem vērā konteksts, kurā modificējat operācijas saiti.  
 
-**Piezīme:** jo darbības rekvizīti tiek saglabāti operāciju saites par vienu darbību vienam maršrutam, visos gadījumos vienu un to pašu darbību (piemēram, montāža) ir pašā uzstādīšanas laiku, izpildes laika, resursu vajadzībām un tā tālāk. Tādēļ, ja divi gadījumi darbība notiek tajā pašā maršrutā, bet ir dažādi izpildes laiki, ir jāizveido divas atšķirīgas darbības, piemēram, Assembly1 un Assembly2.
+**Piezīme.** Tā kā darbības rekvizīti ir ietverti operācijas saitēs, kas atbilst noteiktai operācijai noteiktā maršrutā, visiem vienas operācijas (piemēram, operācijas Montāža) gadījumiem ir vienādi iestatīšanas un izpildes laiki, resursu vajadzības un citi rekvizīti. Tāpēc, ja vienā maršrutā ir nepieciešami divi operācijas gadījumi ar atšķirīgiem izpildes laikiem, ir jāizveido divas atsevišķas operācijas, piemēram, 1. montāža un 2. montāža.
 
-### <a name="modifying-product-specific-routes"></a>Modificēšanas produktiem raksturīgus maršruti
+### <a name="modifying-product-specific-routes"></a>Precei raksturīgo maršrutu modificēšana
 
-Atverot **maršruta** lapa no **atbrīvo produkta detaļas** lapu, maršruta versijas, kas ir saistītas ar atlasīto atbrīvots produkts tiek parādīti. Šajā kontekstā katrai operācijai Dynamics 365 operācijām rāda ekspluatācijas īpašības no formāOperation relation vislabāk atbilst maršruta versijas. Jūs ievērosiet, ka operāciju saraksta, kas ietver **priekšmeta kods** un **maršruta kods** rekvizītus no operācijas saistībai. Tādēļ var noteikt, kuras formāOperation relation tiek parādīts.  
+Kad lapā **Nodoto preču papildinformācija** atverat lapu **Maršruts**, tiek parādītas ar atlasīto izlaisto preci saistītās maršruta versijas. Šajā konteksta programmatūrā Dynamics 365 for Operations tiek rādīti katras operācijas darbības rekvizīti, kas atbilst maršruta versijai visatbilstošākajai operācijas saitei. Operāciju sarakstā ir ietverti operācijas saites rekvizīti **Krājuma kods** un **Maršruta kods**. Tāpēc varat noteikt, kura operācijas saite tiek rādīta.  
 
-Par **maršruta** lapu, operāciju, piem., izpildes laiku vai cenu kategoriju darbības rekvizītus var mainīt. Jūsu veiktās izmaiņas tiek glabātas formāOperation relation, kas ir specifisks maršruta un atbrīvots produkts, kas ir minēta pašreizējo maršruta versiju. Ja operācijas saistībai, kas tiek parādīts nav konkrētu maršrutu un atbrīvots produkts pirms jūsu veiktās izmaiņas tiek saglabātas, sistēma izveido kopiju formāOperation relation. Šo kopiju *ir* konkrētu maršrutu un atbrīvots produkts. Tādēļ izmaiņas neietekmē citus ceļus vai atbrīvo produktus. Pārbaudīt, kuri formāOperation relation modificē par **maršruta** lapas, apskatīt **priekšmeta kods** un **maršruta kods** laukus.  
+Lapā **Maršruts** varat modificēt operācijas darbības rekvizītus, piemēram, izpildes laiku vai izmaksu kategorijas. Izmaiņas tiek saglabātas operācijas saitē, kas ir raksturīga maršrutam un izlaistajai precei, uz kuru ir atsauce pašreizējā maršruta versijā. Ja parādītā operācijas saite nav raksturīga maršrutam un izlaistajai precei, pirms izmaiņu saglabāšanas sistēmā tiek izveidota operācijas saites kopija. Šī kopija *ir* raksturīga maršrutam un izlaistajai precei. Tāpēc veiktās izmaiņas neietekmē citus maršrutus vai izlaistās preces. Lai pārbaudītu, kura operācijas saite tiek modificēta lapā **Maršruts**, skatiet lauku **Krājuma kods** un **Maršruta kods** vērtības.  
 
-Var arī manuāli izveidot darbības, kas ir specifisks maršruta un atbrīvots produkts, izmantojot **kopēšanas un labojiet saistība** funkciju.  
+Varat arī manuāli izveidot maršrutam un izlaistajai precei raksturīgu operāciju, izmantojot funkciju **Kopēt un rediģēt relāciju**.  
 
-**Piezīme:** ja pievienojat jaunu operāciju maršrutā **maršruta** lapu, formāOperation relation ir izveidotas tikai pašreizējā atbrīvots produkts. Tādēļ, ja trase tiek izmantots arī citu atbrīvo produktus, nav piemērojami formāOperation relation pastāvēs pacelto produktiem un maršrutu vairs nevar izmantot tās atbrīvo produktus.
+**Piezīme.** Ja pievienojat maršrutam jaunu operāciju lapā **Maršruts**, operācijas saite tiek izveidota tikai pašreizējai izlaistajai precei. Tāpēc, ja maršruts tiek izmantots arī citu izlaisto preču ražošanai, netiek izveidota šīm izlaistajām precēm paredzēta operācijas saite un maršrutu vairs nevar izmantot šo izlaisto preču ražošanai.
 
-### <a name="maintaining-operation-relations-per-route"></a>Saglabāt vienā maršruta operāciju saites
+### <a name="maintaining-operation-relations-per-route"></a>Maršrutam raksturīgo operāciju saišu uzturēšana
 
-Atverot **maršruta detaļas** lapa no **maršruti** lapa saraksts, tiek parādīts saraksts operāciju saites, kas attiecas uz atlasīto maršrutu. Tādējādi var viegli pārbaudīt, kuras ekspluatācijas īpašības tiek izmantotas konkrētiem produktiem. Jūs varat mainīt noklusējuma rekvizītu vērtībām, gan īpašs nekustamā īpašuma vērtības.  
+Kad saraksta lapā **Maršruti** atverat lapu **Maršruta informācija**, tiek parādīts visu atlasītajam maršrutam lietojamo operāciju saišu saraksts. Tāpēc varat viegli pārbaudīt, kuri darbības rekvizīti tiek lietoti konkrētai precei. Varat modificēt gan noklusējuma rekvizītu vērtības, gan precei raksturīgās rekvizītu vērtības.  
 
-Pievienojot jaunu formāOperation relation **maršruta detaļas** lapu, **maršruta kods** laukā tiek automātiski iestatīts uz **maršruta**, un **maršruta attiecību** lauks ir iestatīts uz pašreizējais maršruts maršruta numurs.
+Ja lapā **Maršruta informācija** pievienojat jaunu operācijas saiti, tiek automātiski iestatīta lauka **Maršruta kods** vērtība **Maršruts** un lauka **Maršruta atsauce** vērtība, kas atbilst pašreizējā maršruta numuram.
 
-### <a name="maintaining-operation-relations-per-operation"></a>Uzturēšanas operācijas attiecības vienā operācijā
+### <a name="maintaining-operation-relations-per-operation"></a>Operācijai raksturīgo operāciju saišu uzturēšana
 
-No **operācijas** lapu, jūs varat atvērt **Operation relations** lapā. Šajā lapā jūs varat mainīt visu operāciju saites konkrētai operācijai. Operāciju saites, kas ir noklusētās vērtības, pat var modificēt.  
+Lapā **Operācijas** varat atvērt lapu **Operāciju saites**. Šajā lapā varat modificēt visas konkrētai operācijai raksturīgās operāciju saites. Varat pat modificēt operāciju saites, kurās ir ietvertas noklusējuma vērtības.  
 
-Ja jūsu uzņēmums izmanto standarta operāciju un ekspluatācijas parametri ir vienādi visās produktiem un procesiem, **Operation relations** lapas nodrošina ērtu veidu, kā saglabāt noklusējuma darbības īpašības šīm operācijām.
+Ja jūsu uzņēmumā tiek lietotas standarta operācijas un visām precēm un procesiem ir vienādi darbības parametri, lapā **Operāciju saites** varat ērti uzturēt šo operāciju noklusējuma darbības rekvizītus.
 
-### <a name="applying-operation-relations"></a>Piemērojot operāciju saites
+### <a name="applying-operation-relations"></a>Operāciju saišu lietošana
 
-Dažos gadījumos Dynamics 365 operācijām ir jāatrod operācijas ekspluatācijas īpašības. Piemēram, izveidojot pirkšanas pasūtījumu, ekspluatācijas īpašībām katrai operācijai ir jākopē no operation relations ražošanas maršrutā. Šajās situācijās Dynamics 365 operācijām meklē attiecīgo operāciju attiecības no visraksturīgāko kombināciju vismaz noteiktu kombināciju.  
+Dažos gadījumos programmatūrā Dynamics 365 for Operations ir jāatrod noteiktas operācijas darbības rekvizīti. Piemēram, izveidojot pirkšanas pasūtījumu, katras operācijas darbības rekvizīti ir jākopē no operāciju saitēm uz ražošanas maršrutiem. Šādos gadījumos programmatūrā Dynamics 365 for Operations tiek meklētas piemērotās operāciju saites, sākot ar visraksturīgāko un beidzot ar vismazāk raksturīgo kombināciju.  
 
-Ja Dynamics 365 darbības meklē visatbilstošākās formāOperation relation pacelto produktam formāOperation relation, kas atbilst krājuma ID atbrīvots produkts ir priekšroka dodama formāOperation relation sacensībām krājumu grupas ID Savukārt, formāOperation relation, kas atbilst krājuma grupas ID ir vēlamais pār noklusējuma formāOperation relation. Meklēšana tiek veikta šādā secībā:
+Kad programmatūrā Dynamics 365 for Operations tiek meklēta izlaistai precei vispiemērotākā operācijas saite, tai operācijas saitei, kas atbilst krājuma ID, ir augstāka prioritāte nekā operācijas saitei, kas atbilst krājumu grupas ID. Savukārt operācijas saitei, kas atbilst krājumu grupas ID, ir augstāka prioritāte nekā noklusējuma operācijas saitei. Šī meklēšana tiek veikta tālāk norādītajā secībā.
 
-1.  **Priekšmeta kods**=**tabulas** un **krājumu saistība**=&lt;vienuma ID&gt;
-2.  **Priekšmeta kods**=**grupas** un **krājumu saistība**=&lt;krājumu grupas ID&gt;
-3.  **Priekšmeta kods**=**visas**
-4.  **Maršruta kods**=**maršruta** un **maršruta attiecību**=&lt;maršruta ID&gt;
-5.  **Maršruta kods**=**visas**
-6.  **Konfigurācijas**=&lt;konfigurācijas ID&gt;
-7.  **Configuration**=
-8.  **Vieta**=&lt;atrašanās vietas ID&gt;
-9.  **Site**=
+1.  **Krājuma kods**=**Tabula** un **Krājuma saistība**=&lt;krājuma ID&gt;
+2.  **Krājuma kods**=**Grupa** un **Krājuma saistība**=&lt;krājumu grupas ID&gt;
+3.  **Krājuma kods**=**Visi**
+4.  **Maršruta kods**=**Maršruts** un **Maršruta relācija**=&lt;maršruta ID&gt;
+5.  **Maršruta kods**=**Visi**
+6.  **Konfigurācija**=&lt;konfigurācijas ID&gt;
+7.  **Konfigurācija**=
+8.  **Vieta**=&lt;vietas ID&gt;
+9.  **Vieta**=
 
-Tāpēc darbība būtu jāizmanto tikai vienu reizi katram maršrutam. Ja darbība notiek vairākas reizes vienu un to pašu maršrutu, visus gadījumus, šīs darbības būs pašas operācijas saistībai, un jūs nevarēsiet būt citādi rekvizīti (piemēram, izpildes laiku), katram gadījumam.
+Tāpēc operāciju drīkst izmantot tikai vienu reizi katrā maršrutā. Ja operācija tiek vairākas reizes lietota vienā maršrutā, visiem šīs operācijas gadījumiem ir viena un tā pati operācijas saite un katram gadījumam nevar izmantot atšķirīgus rekvizītus (piemēram, izpildes laikus).
 
 ## <a name="route-versions"></a>Maršruta versijas
-Maršruta versijas izmanto, lai pielāgotos izmaiņām produktu ražošanā vai nodrošinātu lielāku kontroli pār ražošanas procesu. Tie nosaka, kura trase būtu jāizmanto, ja konkrētu atbrīvots produkts vai variant atbrīvots produkts tiek ražots. Šādus ierobežojumus var izmantot, lai definētu, kuras trases atbrīvots produkts tiek izmantots:
+Maršruta versijas tiek izmantotas, lai nodrošinātu preču variantu ražošanu vai lielāku kontroli pār ražošanas procesu. Tās definē to, kurš maršruts ir jāizmanto noteiktas izlaistās preces vai izlaistās preces varianta ražošanai. Lai definētu to, kurš maršruts ir jāizmanto izlaistajai precei, varat izmantot tālāk norādītos ierobežojumus.
 
--   Izstrādājuma izmēri (izmēru, krāsu, stilu, vai konfigurācija)
+-   Preču dimensijas (izmērs, krāsa, stils vai konfigurācija)
 -   Ražošanas daudzums
--   Ražošanas vietas
+-   Ražošanas vieta
 -   Ražošanas datums
 
-Kad esat ražo attiecīgo ražojumu noteiktā vietnē, ar noteiktu daudzumu, vai konkrētā periodā, var norādīt noteiktu maršruta versiju, kā noklusētā maršruta versijas. Tomēr, ņemiet vērā, ka tikai viens aktīvais maršruts ir atļauta konkrētā atbrīvots produkts un konkrētā noteikt ierobežojumus.  
+Ja prece tiek ražota noteiktā vietā, noteiktā daudzumā vai noteiktā laika periodā, varat norādīt noteiktu maršruta versiju kā noklusējuma maršruta versiju. Taču ņemiet vērā, ka konkrētai izlaistajai precei un konkrētai ierobežojumu kopai drīkst norādīt tikai vienu aktīvu maršrutu.  
 
-Ražošanas kontroles parametri, var pieprasīt maršruta versijas derīguma termiņu vienmēr jānorāda.
+Sadaļā Ražošanas kontroles parametri varat pieprasīt, lai vienmēr tiktu norādīts maršruta versijas derīguma laika periods.
 
-### <a name="approval-of-route-versions"></a>Maršruta versijas apstiprināšana
+### <a name="approval-of-route-versions"></a>Maršruta versiju apstiprināšana
 
-Pirms maršruta versiju var izmantot plānošanā vai ražošanas process, tas ir jāapstiprina. Kad jūs apstiprināt maršruta versiju, jūs varat apstiprināt saistīto maršrutu. Tomēr, ņemiet vērā, ka maršruta versiju var apstiprināt tikai tad, ja saistīto maršruts arī apstiprināts.
+Lai maršruta versiju varētu izmantot plānošanas vai ražošanas procesā, maršruta versija vispirms ir jāapstiprina. Kad apstiprināt maršruta versiju, varat apstiprināt arī saistīto maršrutu. Taču ņemiet vērā to, ka maršruta versiju var apstiprināt tikai tad, ja ir apstiprināts saistītais maršruts.
 
-### <a name="activating-the-default-route-version"></a>Aktivizēt maršruta versijas noklusējuma
+### <a name="activating-the-default-route-version"></a>Noklusējuma maršruta versijas aktivizēšana
 
-Aktivizējot maršruta versiju, jūs norādāt to kā noklusētā maršruta versijas, kuru vispārējā plānošana izmanto, vai arī tas tiks izmantots, lai izveidotu – ražošanas pasūtījumus. Jums var būt tikai viena aktīva maršruta versija konkrētā kopumu ierobežojumus (piemēram, laikā, vietā vai daudzumu). Ja versija, ka jūs mēģināt aktivizēt konflikti ar versiju, kas jau darbojas, tiek parādīts kļūdas ziņojums. Lai novērstu neskaidrs aktivizēšanas, ir pēc tam deaktivizēt konfliktējošu versiju vai modificēt maršruta versiju ierobežojumus (parasti periods).
+Aktivizējot maršruta versiju, tā tiek norādīta kā noklusējuma maršruta versija, kas tiks izmantota galvenajai plānošanai vai ražošanas pasūtījumu izveidei. Noteiktai ierobežojumu (piemēram, perioda, vietas vai kvalitātes) kopai var būt tikai viena aktīva maršruta versija. Ja versija, ko mēģināt aktivizēt, rada konfliktu ar jau aktivizēto versiju, tiek parādīts kļūdas ziņojums. Šādā gadījumā ir jādeaktivizē konfliktējošā versija vai jāmodificē maršruta versijas ierobežojumi (parasti — periods), lai nepieļautu neatbilstošas versijas aktivizēšanu.
 
-### <a name="electronic-signatures"></a>Elektroniskos parakstus
+### <a name="electronic-signatures"></a>Elektroniskie paraksti
 
-Ja jums jāsaglabā log, ka ieraksti, kas apstiprina un aktivizē katra maršruta versiju, elektronisko parakstu var pieprasīt šos uzdevumus. Pēc tam lietotājiem apstiprināt un aktivizēt maršruta versijas būs jāapstiprina sava identitāte, izmantojot [elektronisko parakstu](/dynamics365/operations/organization-administration/electronic-signature-overview).
+Ja ir nepieciešams žurnālā reģistrēt katras maršruta versijas apstiprinātāju un aktivizētāju, varat iestatīt elektroniskā paraksta prasību šo uzdevumu veikšanai. Šādā gadījumā lietotājiem, kuri apstiprina un aktivizē maršruta versijas, ir jāapstiprina sava identitāte, izmantojot [elektronisko parakstu](/dynamics365/operations/organization-administration/electronic-signature-overview).
 
-### <a name="product-change-that-uses-case-management"></a>Produkta izmaiņu, kas lieto lietu vadības
+### <a name="product-change-that-uses-case-management"></a>Preces izmaiņas, izmantojot gadījumu pārvaldību
 
-Produkta mainīt lietu apstiprināšanai un aktivizēšana jauniem vai mainītiem maršrutu un maršruta versijas sniedz jums ērts veids, kā skatīt apskatu par maršruta versiju ierobežojumus. Var apstiprināt un aktivizēt visus maršrutus, kas ir saistītas ar noteiktas izmaiņas vienā operācijā un dokumentē rezultātus produkta izmaiņu gadījumā.
+Preces izmaiņu gadījums jaunu vai mainītu maršrutu vai maršruta versiju apstiprināšanai un aktivizēšanai nodrošina vienkāršu veidu, kā pārskatīt maršruta versiju ierobežojumus. Varat arī apstiprināt un aktivizēt visus maršrutus, kas ir saistīti ar noteiktām izmaiņām vienā operācijā un dokumentēt rezultātus preces izmaiņu gadījumā.
 
-## <a name="maintaining-routes"></a>Uzturēt ceļus
-Atkarībā no uzņēmuma vajadzībām, jūs varētu samazināt pūles, kas ir nepieciešams, lai saglabātu procesa definīcijas.
+## <a name="maintaining-routes"></a>Maršrutu uzturēšana
+Atkarībā no jūsu uzņēmējdarbības vajadzībām varat atvieglot procesa definīciju uzturēšanu.
 
-### <a name="making-routes-independent-of-resources"></a>Veicot maršrutu neatkarīgi no resursu
+### <a name="making-routes-independent-of-resources"></a>Maršruta neatkarības no resursiem konfigurēšana
 
-Daudzās sistēmās, jānorāda maršrutā operācijas resursu vai resursu grupu, kas būtu veikt operāciju. Tomēr programmā Dynamics 365 operācijām, var definēt vairākas prasības, kas būtu piemērojama darbībai jāatbilst operācijas resursa. Tādēļ jānosaka līdz operācija tiek ieplānota faktiski nav īpašas darbības resursu vai resursu grupu, kas jāizmanto. Šī funkcionalitāte ir īpaši noderīga, ja jums ir daudz strādnieku vai mašīnām, kas var veikt un tai pašā operācijā.  
+Daudzās sistēmās maršrutā ir jānorāda operācijas resurss vai resursu grupa, kas ir jāizmanto operācijas veikšanai. Taču programmatūrā Dynamics 365 for Operations varat definēt vajadzību kopu, kam ir jāatbilst operācijas resursam, lai to varētu lietot operācijai. Tāpēc konkrētais operācijas resurss vai resursu grupa, kas ir jāizmanto, nav jānosaka līdz operācijas plānošanas laikam. Šī funkcionalitāte ir īpaši noderīga, ja ir pieejams daudz darbinieku vai iekārtu, kas var veikt vienu un to pašu operāciju.  
 
-Piemēram, norādīt operācijai nepieciešams operācijas resursu **mašīna** tipa, kuram **zīmogošana** 20 tonnas iespējas. Plānošanas dzinējs tam atrisinās šīs prasības uz noteiktām operācijām resurss vai resursu grupa, operācija tiek plānota. Tā var norādīt tieši šīs prasības, nevis saistošas darbības konkrētu mašīnu, jums ir daudz elastīgāka. Turklāt, uzturēšana ir vieglāk, kad resursi tiek pārvietoti vai tiek pievienoti jauni resursi.  
+Piemēram, pieņemsim, ka norādāt, ka operācijai ir vajadzīgs veida **Iekārta** operācijas resurss, kura **štancēšanas** spēja ir 20 tonnas. Pēc tam operācijas plānošanas laikā plānošanas programma nodrošina šo vajadzību atrisināšanu, piešķirot noteiktu operācijas resursu vai resursu grupu. Tas, ka varat vienkārši norādīt šīs vajadzības, nesaistot operāciju ar noteiktu iekārtu, sniedz daudz lielāku pielāgojamību. Turklāt tādējādi tiek atvieglota uzturēšana resursu pārvietošanas vai jaunu resursu pievienošanas gadījumā.  
 
-Plašāku informāciju par dažāda veida resursiem un to izmantošanu skatiet operācijas resursa prasības un [resursu iespējas](resource-capabilities.md).
+Papildinformāciju par dažādajiem resursu vajadzību veidiem un to, kā tos lietot, skatiet tēmās Operācijas resursu vajadzības un [Resursu iespējas](resource-capabilities.md).
 
-### <a name="sharing-routes-across-sites"></a>Koplietošanas ceļiem vairākās vietnēs
+### <a name="sharing-routes-across-sites"></a>Maršrutu koplietošana vairākās vietās
 
-Ja jūs ražot to pašu produktu vairāk nekā vienā ražošanas vietā un soļi produkta ražošanai ir pats vispār vietas, bieži vien var noformēt kopīgu maršrutu, kas tiek lietots visās ražošanas vietnēs. Izveidot kopīgu ceļu, nav norādīt vietni pats maršruts. Tomēr vēl jāizveido maršruta versiju, kas saista kopīgu ceļu ar produktu katrā vietā.  
+Ja ražojat vienu un to pašu preci vairākās ražošanas vietās un preces ražošanas darbības ir vienādas visās vietās, bieži vien varat izstrādāt koplietotu maršrutu, kas tiek izmantots visās ražošanas vietās. Lai izveidotu koplietotu maršrutu, nenorādiet vietu maršrutā. Taču joprojām ir jāizveido maršruta versija, kas saista koplietoto maršrutu ar preci katrā vietā.  
 
-Jūs arī jāpārliecinās, ka resursu prasības katrai operācijai maršrutā neprasa īpašas darbības resursiem vai resursu grupām, bet tā vietā ir izteikti nepieciešamo resursu raksturojums. Pēc tam plānošanas dzinējs būs iespēja piešķirt operācijām piemērotu resursu no vietas, kurā ražošana tiek plānota uz. Piemēram, ja ir nelielas atšķirības izpildes laiku vai ir konkrētās vietas noteiktas operācijas uzstādīšanas laiku, šo informāciju var norādīt pievienojot papildu formāOperation relation šai vietnei.  
+Ir arī jānodrošina, lai katras maršruta operācijas resursu vajadzības būtu izteiktas nevis kā noteikti operācijas resursi vai resursu grupas, bet gan kā nepieciešamo resursu raksturlielumi. Šādā gadījumā plānošanas programma varēs piešķirt atbilstošos operācijas resursus no vietas, kur ir ieplānota ražošana. Piemēram, ja pastāv nelielas izpildes laika atšķirības vai noteiktas operācijas iestatīšanas laiks ir raksturīgs vietai, varat norādīt šo informāciju, pievienojot šai vietai papildu operācijas saiti.  
 
-Iespēju pilnībā izmantot ieguvumus no koplietošanas ceļiem, jums vajadzētu izmantot resursu patēriņu uz atbilstošo materiālu komplekta (MK). Iestatot karogu par resursu patēriņu MK rindā, noliktavas un atrašanās vietu, kas būtu patērē izejmateriālus no ir secināt no operācija tiek plānota uz operācijas resursa. Tādēļ jānosaka līdz brīdim, kad ražošana tiek plānota faktiski nav noliktavas un atrašanās vietu. Šādā veidā, jūs varat veikt gan IMS un maršrutu neatkarīgi no fiziskās atrašanās vietas, kur produkts tiek ražots.
+Lai pilnībā izmantotu priekšrocības, ko sniedz koplietotie maršruti, ir jāizmanto arī resursu patēriņš atbilstošajā materiālu komplektā (MK). Kad iestatāt resursu patēriņa karodziņu MK rindā, noliktava un atrašanās vieta, no kuras ir jāpatērē šie izejmateriāli, tiek noteiktas, pamatojoties uz operācijas resursu, kam ir ieplānota attiecīgā operācija. Tāpēc noliktava un atrašanās vieta nav jānosaka līdz ražošanas plānošanas laikam. Tādējādi varat padarīt gan MK, gan maršrutu neatkarīgus no fiziskās atrašanās vietas, kur tiek ražota prece.
 
 ### <a name="standard-operation-relations"></a>Standarta operāciju saites
 
-Ja jūsu uzņēmums izmanto standartizētas operācijas visā ražošanas un tur ir maz vai nav varianta sagatavošanas laiks, izpildes laika patēriņu aprēķina pašizmaksas aprēķins, un tā tālāk, varētu gūt labumu no izveides noklusējuma operāciju saites uz visām darbībām. Šajā gadījumā neradītu operāciju saites, kas attiecas uz jebkuru maršrutu vai atbrīvots produkts.  
+Ja jūsu uzņēmumā tiek izmantotas standartizētas ražošanas operācijas un rekvizīti (iestatīšanas un izpildes laiks, patēriņa aprēķināšanas metode, izmaksu aprēķināšanas metode utt.) ir vienādi vai atšķiras tikai nedaudz, ir ieteicams visām operācijām izveidot noklusējuma operāciju saites. Šādā gadījumā neveidojiet operāciju saites, kas ir raksturīgas kādam maršrutam vai izlaistajai precei.  
 
-Ja arī izteikt resursu prasības attiecībā uz prasmēm un spējām, un padarīt jūsu maršrutu vietu neatkarīgās, var uzturēt pastāvīgi uzturēt biznesa procesu līdz minimumam.  
+Turklāt, izsakot resursu vajadzības kā prasmes un iespējas un padarot maršrutus neatkarīgus no vietas, varat līdz minimumam samazināt jūsu biznesa procesa pastāvīgajai uzturēšanai vajadzīgo laiku.  
 
-Izmantojot šo pieeju, **Operation relations** lapa kļūst jūsu primārā mērķa saglabāšanai izpildes laiki un citus rekvizītus.
+Ja lietojat šo pieeju, izpildes laika un citu rekvizītu uzturēšanai galvenokārt izmantojat lapu **Operāciju saites**.
 
-### <a name="resource-specific-process-times"></a>Resursu specifisko procesu reizes
+### <a name="resource-specific-process-times"></a>Resursiem raksturīgs izpildes laiks
 
-Ja nenorādīsit operācijas resursa vai resursu grupas kā daļu no resursu prasības darbībai, piemērojami resursus varētu darboties dažādos ātrumos. Tādēļ, laiku, kas nepieciešams, lai apstrādātu darbība var atšķirties. Lai atrisinātu šo problēmu, var izmantot **Formula** lauku formāOperation relation, lai norādītu par izstrādes laika aprēķināšanu. Pieejamas šādas opcijas
+Ja operācijas resursu vajadzību ietvaros nenorādāt operācijas resursu vai resursu grupu, var atšķirties lietojamo resursu darbības ātrums. Tāpēc var atšķirties operācijas izpildei nepieciešamais laiks. Lai novērstu šo problēmu, varat izmantot operācijas saites lauku **Formula**, lai norādītu izpildes laika aprēķināšanas veidu. Pieejamas šādas opcijas
 
--   **Standarta** -(noklusējuma variants) aprēķinā izmanto tikai laukus no operācijas saistībai, un norādītā izpildes laika reizina ar pasūtījuma daudzums.
--   **Jaudas** – aprēķins ietver **jaudas** laukā no operāciju resursu. Tādēļ laika resursa atkarīgo. Vērtība, kas norādīta resursa operācijas ir noslodzi stundā. Šī vērtība tiek reizināta ar pasūtījuma daudzums un **Factor** vērtību no operācijas saistībai.
--   **Partiju** – partijas ražīgums tiek aprēķināts, izmantojot informāciju no operācijas saistībai. Skaitu partijās un tāpēc izpildes laiks var pēc tam aprēķināti, pamatojoties uz pasūtījuma daudzumu.
--   **Resursu partiju** – šis variants būtībā ir tāds pats kā **partijas** variants. Tomēr aprēķinos ir iekļauti **partijas spēju** laukā no operāciju resursu. Tādēļ laika resursa atkarīgo.
+-   **Standarta** — (noklusējuma opcija) aprēķinam tiek izmantoti tikai operācijas saites lauki un norādītais izpildes laiks tiek reizināts ar pasūtījuma daudzumu.
+-   **Noslodze** — aprēķinā tiek ietverts operācijas resursa lauks **Noslodze**. Tāpēc laiks ir atkarīgs no resursa. Operācijas resursam norādītā vērtība ir noslodze stundā. Šī vērtība tiek reizināta ar pasūtījuma daudzumu un operācijas saites lauka **Koeficients** vērtību.
+-   **Partija** — izmantojot informāciju no operācijas saites, tiek aprēķināta partijas noslodze. Pēc tam, pamatojoties uz pasūtījuma daudzumu, var aprēķināt partiju skaitu un līdz ar to arī izpildes laiku.
+-   **Resursu partija** — šī opcija ir gandrīz tāda pati kā opcija **Partija**. Taču aprēķinā tiek ietverts operācijas resursa lauks **Paketes noslodze**. Tāpēc laiks ir atkarīgs no resursa.
 
 
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Bills of materials and formulas](bill-of-material-bom.md)
+[Materiālu komplekti un formulas](bill-of-material-bom.md)
 
-[Cost categories used in production routing](../cost-management/cost-categories-used-production-routings.md)
+[Ražošanas maršrutēšanā izmantotās izmaksu kategorijas](../cost-management/cost-categories-used-production-routings.md)
 
-[Resource capabilities](resource-capabilities.md)
+[Resursu iespējas](resource-capabilities.md)
 
-[Electronic signature overview](/dynamics365/operations/organization-administration/electronic-signature-overview)
+[Pārskats par elektronisko parakstu](/dynamics365/operations/organization-administration/electronic-signature-overview)
+
+
 
 

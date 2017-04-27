@@ -1,6 +1,6 @@
 ---
-title: "Bankas pārskata failu importēšanas novēršana"
-description: "Ir svarīgi, lai bankas pārskatu failā no bankas atbilstu izkārtojumu, kas atbalsta Microsoft Dynamics 365 operācijām. Stingro bankas izrakstu standartu dēļ lielākā daļa integrāciju darbosies pareizi. Tomēr dažreiz izraksta failu nevar importēt vai ir nepareizi rezultāti. Parasti šīs problēmas izraisa nelielas atšķirības bankas izraksta failā. Šajā rakstā ir paskaidrots, kā novērst šīs atšķirības un atrisināt problēmas."
+title: "Bankas izraksta faila importēšanas problēmu novēršana"
+description: "Ir svarīgi, lai no bankas saņemtais bankas izraksta fails atbilstu programmatūrā Microsoft Dynamics 365 for Operations atbalstītajam izkārtojumam. Stingro bankas izrakstu standartu dēļ lielākā daļa integrāciju darbosies pareizi. Tomēr dažreiz izraksta failu nevar importēt vai ir nepareizi rezultāti. Parasti šīs problēmas izraisa nelielas atšķirības bankas izraksta failā. Šajā rakstā ir paskaidrots, kā novērst šīs atšķirības un atrisināt problēmas."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,9 +24,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bank-statement-file-import-troubleshooting"></a>Bankas pārskata failu importēšanas novēršana
+# <a name="bank-statement-file-import-troubleshooting"></a>Bankas izraksta faila importēšanas problēmu novēršana
 
-Ir svarīgi, lai bankas pārskatu failā no bankas atbilstu izkārtojumu, kas atbalsta Microsoft Dynamics 365 operācijām. Stingro bankas izrakstu standartu dēļ lielākā daļa integrāciju darbosies pareizi. Tomēr dažreiz izraksta failu nevar importēt vai ir nepareizi rezultāti. Parasti šīs problēmas izraisa nelielas atšķirības bankas izraksta failā. Šajā rakstā ir paskaidrots, kā novērst šīs atšķirības un atrisināt problēmas.
+[!include[banner](../includes/banner.md)]
+
+
+Ir svarīgi, lai no bankas saņemtais bankas izraksta fails atbilstu programmatūrā Microsoft Dynamics 365 for Operations atbalstītajam izkārtojumam. Stingro bankas izrakstu standartu dēļ lielākā daļa integrāciju darbosies pareizi. Tomēr dažreiz izraksta failu nevar importēt vai ir nepareizi rezultāti. Parasti šīs problēmas izraisa nelielas atšķirības bankas izraksta failā. Šajā rakstā ir paskaidrots, kā novērst šīs atšķirības un atrisināt problēmas.
 
 <a name="what-is-the-error"></a>Kāda kļūda radusies?
 ------------------
@@ -34,16 +37,16 @@ Ir svarīgi, lai bankas pārskatu failā no bankas atbilstu izkārtojumu, kas at
 Pēc bankas pārskata faila importēšanas mēģinājuma atveriet sadaļu Datu pārvaldības uzdevumu vēsture un tās detalizēto izpildes informāciju, lai atrastu kļūdu. Kļūda var palīdzēt, norādot uz izrakstu, bilanci vai izraksta rindu. Tomēr ir maz ticams, ka tā nodrošinās pietiekami daudz informācijas, lai palīdzētu noteikt lauku vai elementu, kas radīja problēmu.
 
 ## <a name="what-are-the-differences"></a>Kādas ir galvenās atšķirības?
-Salīdzināt bankas failu izkārtojuma definīcijai ar Microsoft Dynamics 365 operācijas importa definīciju un ievērojiet atšķirības lauku un elementi. Salīdzināt bankas pārskatu failā paraugam, Dynamics 365 operācijas failu. ISO20022 failus, jebkura atšķirībām jābūt viegli redzēt.
+Salīdziniet bankas faila izkārtojuma definīciju ar Microsoft Dynamics 365 for Operations importēšanas definīciju un pievērsiet uzmanību lauku un elementu atšķirībām. Salīdziniet bankas izraksta failu ar saistīto Dynamics 365 for Operations faila paraugu. ISO20022 failos var viegli pamanīt jebkādas atšķirības.
 
 ## <a name="transformations"></a>Transformācijas
 Parasti izmaiņas ir jāveic, izmantojot vienu no trīs transformācijām. Katra transformācija ir rakstīta konkrētam standartam.
 
 | Resursa nosaukums                                         | Faila nosaukums                          |
 |-------------------------------------------------------|------------------------------------|
-| BankStmtImport\_BAI2CSV\_, lai\_BAI2XML\_xslt            | BAI2CSV-to-BAI2XML.xslt            |
-| BankStmtImport\_ISO20022XML\_, lai\_saskaņošanas\_xslt | ISO20022XML-to-Reconciliation.xslt |
-| BankStmtImport\_MT940TXT\_, lai\_MT940XML\_xslt          | MT940TXT-to-MT940XML.xslt          |
+| BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt            | BAI2CSV-to-BAI2XML.xslt            |
+| BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt | ISO20022XML-to-Reconciliation.xslt |
+| BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt          | MT940TXT-to-MT940XML.xslt          |
 
 ## <a name="debugging-transformations"></a>Atkļūdošanas transformācijas
 ### <a name="adjust-the-bai2-and-mt940-files"></a>BAI2 un MT940 failu korekcija
@@ -68,7 +71,7 @@ Sīkāku informāciju skatiet šeit: <https://msdn.microsoft.com/en-us/library/m
 5.  Iestatiet ievadi bankas izraksta faila atrašanās vietā.
 6.  Norādiet izvades atrašanās vietu un faila nosaukumu.
 7.  Iestatiet nepieciešamos pārtraukumpunktus.
-8.  Izvēlnē noklikšķiniet uz **XML**&gt;**sākt atkļūdošana XSLT**.
+8.  Izvēlnē noklikšķiniet uz **XML** &gt; **Sākt XSLT atkļūdošanu**.
 
 ### <a name="format-the-xslt-output"></a>XSLT izvades formatēšana
 
@@ -76,7 +79,7 @@ Transformācijas darbības laikā tiek izveidots izvades fails, kuru var skatīt
 
 ### <a name="adjust-the-transformation"></a>Transformācijas korekcija
 
-Koriģējiet transformāciju, lai iegūtu atbilstošo lauku vai elementu bankas pārskata failā. Pēc tam kartēt šis lauks vai elementu atbilstošu Dynamics 365 darbības elements.
+Koriģējiet transformāciju, lai iegūtu atbilstošo lauku vai elementu bankas pārskata failā. Pēc tam kartējiet attiecīgo lauku vai elementu ar atbilstošo Dynamics 365 for Operations elementu.
 
 ### <a name="debitcredit-indicator"></a>Debeta/kredīta indikators
 
@@ -87,7 +90,7 @@ Dažreiz debets var tikt importēts kā kredīts un kredīts var tikt importēts
 -   MT940XML-to-Reconcilation.xslt GetCreditDebitIndicator veidne
 
 ## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Bankas izrakstu formātu un tehnisko izkārtojumu paraugi
-Šajā tabulā ir minēti detalizētās bankas darbību saskaņošanas importa failu tehnisko izkārtojumu definīciju paraugi un trīs saistītie bankas izrakstu parauga faili. Jūs varat lejupielādēt piemērs failiem un tehnisko izkārtojumu šeit: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+Šajā tabulā ir minēti detalizētās bankas darbību saskaņošanas importa failu tehnisko izkārtojumu definīciju paraugi un trīs saistītie bankas izrakstu parauga faili. Failu un tehnisko izkārtojumu paraugus varat lejupielādēt šeit: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
 
 
 | Tehniskā izkārtojuma definīcija                             | Bankas izraksta parauga fails          |
@@ -95,6 +98,8 @@ Dažreiz debets var tikt importēts kā kredīts un kredīts var tikt importēts
 | DynamicsAXMT940Layout                                   | MT940StatementExample                |
 | DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
 | DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
+
+
 
 
 

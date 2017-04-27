@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Papildu formatēšanas opcijas finanšu pārskatos
 
+[!include[banner](../includes/banner.md)]
+
+
 Veidojot finanšu pārskatu, ir pieejamas papildu formatēšanas funkcijas, ieskaitot filtrus dimensijām, ierobežojumus kolonnām un pārskata vienībām, nedrukājamas rindas un IF/THEN/ELSE apgalvojumus aprēķinos. 
 
 Tabula paskaidro papildu formatēšanas funkcijas, kas ir pieejamas, veidojot pārskatus.
@@ -54,7 +57,7 @@ Papildu šūnu novietojums, vai *forsēšana*, ietver noteiktas vērtības novie
 2.  Cilnē **Iestatījumi**, sadaļā **Aprēķina prioritāte**, atlasiet **Vispirms veikt kolonnas aprēķinu, un tad rindas aprēķinu**.
 
 ## <a name="designing-the-report"></a>Pārskata izkārtošana
-Veidojot pārskatu, jums vispirms vajadzētu izveidot visas detalizācijas rindas, lai pārliecinātos, ka vērtības tiek iegūtas kā paredzēts. Pēc tam pievienojiet **NP** (Nedrukājams) formātu, lai ignorētu detalizāciju, kas satur gala vērtības. **Svarīgi:**, izmantojot formāta kodu **CAL** rindas definīcijā, jūs nevarat apskatīt detaļās darbības detalizāciju. Piespiežot, formulās izmantojiet šādu formātu: &lt;mērķa kolonnas&gt;=&lt;izcelsmes kolonnu&gt;. &lt;rindas kods&gt; atsevišķas jebkuru papildu izvietojumi rindai ar komatu un atstarpi. Piemērs: D=C.190,E=C.100
+Veidojot pārskatu, jums vispirms vajadzētu izveidot visas detalizācijas rindas, lai pārliecinātos, ka vērtības tiek iegūtas kā paredzēts. Pēc tam pievienojiet **NP** (Nedrukājams) formātu, lai ignorētu detalizāciju, kas satur gala vērtības. **Svarīgi:**, izmantojot formāta kodu **CAL** rindas definīcijā, jūs nevarat apskatīt detaļās darbības detalizāciju. Forsēšanai formulas izmanto šādu formātu: &lt;mērķa kolonna&gt;=&lt;sākotnējā kolonna&gt;.&lt;rindas kods&gt; Visus rindas papildu izvietojumus atdaliet ar komatu un atstarpi. Piemērs: D=C.190,E=C.100
 
 ## <a name="examples-of-advanced-formatting-options"></a>Papildu formatēšanas opciju piemēri
 Zemāk sniegtie piemēri parāda kā formatēt rindas definīciju un kolonnas definīciju, lai forsētu pamata naudas plūsmas pārskatu (piemērs 1) un statistikas pārskatu (piemērs 2).
@@ -65,17 +68,17 @@ Zemāk sniegtie piemēri parāda kā formatēt rindas definīciju un kolonnas de
 
 | Rindas kods | Apraksts                      | Formāta kods | Saistītās formulas/Rindas/Vienības | Formāta ignorēšana | Parastā bilance | Drukāšanas vadība | Kolonnas ierobežojumi | Rindu modifikators               | Saite uz finanšu dimensijām |
 |----------|----------------------------------|-------------|-----------------------------|-----------------|----------------|---------------|--------------------|----------------------------|------------------------------|
-| 100      | Skaidras naudas atlikums perioda sākumā |             |                             |                 |                |               |                    | Konta modificētājs = \[/BB\] | + Segment2 = \[1100\]         |
+| 100      | Skaidras naudas atlikums perioda sākumā |             |                             |                 |                |               |                    | Konta modifikators = \[/BB\] | +Segments2 = \[1100\]         |
 | 130      | Skaidras naudas atlikums perioda sākumā      | CAL         | C=C.100,F=D.100             |                 |                |               |                    |                            |                              |
 | 160      |                                  |             |                             |                 |                |               |                    |                            |                              |
 | 190      |                                  |             |                             |                 |                |               |                    |                            |                              |
 
 Šajā tabulā ir parādīts kolonnas definīcijas piemērs, kas kolonnā izmanto pamata forsēšanu.
 
-|                              | A   | mljrd.    | K        | D      | E      | F    |
+|                              | A   | B    | C        | D      | E      | F    |
 |------------------------------|-----|------|----------|--------|--------|------|
 | Galvene 1                     |     |      |          |        |        |      |
-| Galvene 2                     | A   | mljrd.    | K        | D      | E      | F    |
+| Galvene 2                     | A   | B    | C        | D      | E      | F    |
 | Galvene 3                     |     |      |          |        |        |      |
 | Kolonnas tips                  | RINDA | DESC | FD       | FD     | FD     | CALC |
 | Grāmatas kods/Kategorijas atribūts |     |      | FAKTISKAIS   | FAKTISKAIS | FAKTISKAIS |      |
@@ -95,8 +98,8 @@ Zemāk sniegtie piemēri parāda kā formatēt rindas definīciju un kolonnas de
 | 100      | Darbinieku skaits - ASV            | CAL         | 4.                               | \#\#\#0.;($\#\#\#0.) |                |               |                    |              |                                            |
 | 115      | Darbinieku skaits - Starptautiskais | CAL         | 11.                              | \#\#\#0.;($\#\#\#0.) |                |               |                    |              |                                            |
 | 130      |                           |             |                                 |                      |                |               |                    |              |                                            |
-| 190      | ASV tirdzniecība                  |             |                                 |                      | K              |               |                    |              | + Segment2 = \[41\*\], Segment3 = \[00\]    |
-| 220      | Starptautiskā tirdzniecība       |             |                                 |                      | K              |               |                    |              | + Segment2 = \[41\*\], Segment3 = \[01:99\] |
+| 190      | ASV tirdzniecība                  |             |                                 |                      | C              |               |                    |              | +Segments2 = \[41\*\], Segments3 = \[00\]    |
+| 220      | Starptautiskā tirdzniecība       |             |                                 |                      | C              |               |                    |              | +Segments2 = \[41\*\], Segments3 = \[01:99\] |
 | 250      |                           |             |                                 |                      |                |               |                    |              |                                            |
 | 280      |                           |             |                                 |                      |                |               |                    |              |                                            |
 | 310      | ASV tirdzniecība                  | CAL         | D=C.190,E=C.100,F=(C.100/C.190) |                      |                |               |                    |              |                                            |
@@ -104,10 +107,10 @@ Zemāk sniegtie piemēri parāda kā formatēt rindas definīciju un kolonnas de
 
 Šajā tabulā ir parādīts kolonnas definīcijas piemērs, kas izmanto pamata forsēšanu statistikas pārskatam.
 
-|                              | A   | mljrd.    | K      | D            | E     | F            |
+|                              | A   | B    | C      | D            | E     | F            |
 |------------------------------|-----|------|--------|--------------|-------|--------------|
-| Galvene 1                     | A   | mljrd.    | K      | D            | E     | F            |
-| Galvene 2                     | -   | -    | ŠG    | Ikgadēja tirdzniecība | Personāls | $ Vienai personai |
+| Galvene 1                     | A   | B    | C      | D            | E     | F            |
+| Galvene 2                     | -   | -    | YTD    | Ikgadēja tirdzniecība | Personāls | $ Vienai personai |
 | Galvene 3                     |     |      |        |              |       |              |
 | Kolonnas tips                  | RINDA | DESC | FD     | CALC         | CALC  | CALC         |
 | Grāmatas kods/Kategorijas atribūts |     |      | FAKTISKAIS |              |       |              |
@@ -137,7 +140,7 @@ Drukāšanas vadības kodus katrai kolonnai var norādīt, izmantojot **Drukāš
 2.  Veiciet dubultklikšķi uz šūnas **Drukāšanas vadība**.
 3.  Dialoglodziņā **Drukāšanas vadība**, atlasiet drukāšanas vadības kodu vai nospiediet un turiet taustiņu Ctrl, lai atlasītu vairākus kodus. Jūs varat arī ievadīt drukāšanas kodus pa tiešo šūnā **Drukāšanas vadība**. Izmantojiet komatu, lai atdalītu vairākus drukāšanas vadības kodus.
 4.  Atlasiet nosacījuma drukāšanas opcijas.
-5.  Noklikšķiniet uz **OK**.
+5.  Noklikšķiniet uz **Labi**.
 
 ### <a name="regular-print-control-codes"></a>Parasti drukāšanas vadības kodi
 
@@ -171,11 +174,11 @@ Drukāšanas vadības kodus katrai kolonnai var norādīt, izmantojot **Drukāš
 -   Šūna var norādīt summu kolonnu kārtošanai.
 
 ## <a name="using-a-calculation-formula-in-a-row-definition"></a>Aprēķina formulas izmantošana rindas definīcijā
-Aprēķinu formulu rindā definīcijā var iekļaut **+**, **-**, **\***, un **/**uzņēmējus, un arī **tad/ja/cits** apgalvojumiem. Turklāt, aprēķins var ietvert atsevišķas šūnas un absolūtās summas (faktiskās vērtības, kas ir iekļautas formulā). Formula var ietvert ne vairāk kā 1024 rakstzīmes. Aprēķini nevar būt piemēroti rindām, kas satur **Saite uz finanšu dimensijām** (FD) tipa šūnas. Tomēr jūs varat ietvert aprēķinus secīgās rindās, likvidēt šo rindu drukāšanu, un pēc tam summēt aprēķina rindas.
+Aprēķina formula rindas definīcijā var saturēt operatorus **+**, **-**, **\*** un **/**, kā arī apgalvojumus **IF/THEN/ELSE**. Turklāt, aprēķins var ietvert atsevišķas šūnas un absolūtās summas (faktiskās vērtības, kas ir iekļautas formulā). Formula var ietvert ne vairāk kā 1024 rakstzīmes. Aprēķini nevar būt piemēroti rindām, kas satur **Saite uz finanšu dimensijām** (FD) tipa šūnas. Tomēr jūs varat ietvert aprēķinus secīgās rindās, likvidēt šo rindu drukāšanu, un pēc tam summēt aprēķina rindas.
 
 ### <a name="operators-in-a-calculation-formula"></a>Operatori aprēķina formulā
 
-Aprēķina formula izmanto sarežģītākus operatorus nekā rindas summas formula. Tomēr jūs varat izmantot **\***un **/**operatori kopā ar papildu operatoriem vairoties (\*) un dala (/) summas. Lai izmantotu diapazonu vai summu aprēķina formulā, jums jāizmanto zīmi (@) pirms jebkura rindas koda, ja vien jūs neizmantojat kolonnu rindas definīcijā. Piemēram, lai pievienotu summa rindā 100 summa 330. rindā, var izmantot rindas kopējai formulai **100 + 330** vai aprēķināšanas formulu **@100+@330**. **Piezīme:** nepieciešams izmantot zīmi (@) pirms katra rindas koda, ko jūs izmantojat aprēķinu formulā. Pretējā gadījumā skaitlis ir lasāms kā absolūta summa. Piemēram, formula **@100+330** USD 330 pievieno 100 rindu summu. Norādot kolonnu aprēķināšanas formulā, zīme (@) nav nepieciešama.
+Aprēķina formula izmanto sarežģītākus operatorus nekā rindas summas formula. Taču operatorus **\*** un **/** varat izmantot kopā ar papildu operatoriem summu reizināšanai (\*) un dalīšanai (/). Lai izmantotu diapazonu vai summu aprēķina formulā, jums jāizmanto zīmi (@) pirms jebkura rindas koda, ja vien jūs neizmantojat kolonnu rindas definīcijā. Piemēram, lai summu rindā 100 pieskaitītu summai rindā 330, varat izmantot rindu kopsummas formulu **100+330** vai aprēķina formulu **@100+@330**. **Piezīme:** nepieciešams izmantot zīmi (@) pirms katra rindas koda, ko jūs izmantojat aprēķinu formulā. Pretējā gadījumā skaitlis ir lasāms kā absolūta summa. Piemēram, ar formulu **@100+330** summai rindā 100 tiek pieskaitīti USD 330. Norādot kolonnu aprēķināšanas formulā, zīme (@) nav nepieciešama.
 
 ### <a name="create-a-calculation-formula"></a>Izveidot aprēķina formulu
 
@@ -185,15 +188,15 @@ Aprēķina formula izmanto sarežģītākus operatorus nekā rindas summas formu
 
 ### <a name="example-of-a-calculation-formula-for-specific-rows"></a>Aprēķina formulas piemērs noteiktām rindām
 
-Šajā piemērā aprēķina formula **@100+@330** nozīmē, ka 100 rindu summa tiek pievienota summa 330. rindā. Rindas kopējai formulai **340 + 370** 370. rindas summai pievieno summu 340. rindā. (370. rindas summa ir summa no aprēķināšanas formulu.)
+Šajā piemērā aprēķina formula **@100+@330** nozīmē, ka summa rindā 100 tiek pieskaitīta summai rindā 330. Ar rindu kopsummas formulu **340+370** rindā 340 esošā summa tiek pieskaitīta summai rindā 370. (Rindā 370 esošā summa ir no aprēķina formulas iegūta summa.)
 
 | Rindas kods | Apraksts                 | Formāta kods | Saistītās formulas/Rindas/Vienības | Drukāšanas vadība | Rindu modifikators | Saite uz finanšu dimensijām |
 |----------|-----------------------------|-------------|----------------------------|---------------|--------------|------------------------------|
-| 340      | Skaidras naudas atlikums perioda sākumā |             |                            | NP            | BB           | + Konta =\[1100:1110\]       |
+| 340      | Skaidras naudas atlikums perioda sākumā |             |                            | NP            | BB           | +Konts=\[1100:1110\]       |
 | 370      | Skaidras naudas atlikums gada sākumā   | CAL         | @100+@330                  | NP            |              |                              |
 | 400      | Skaidras naudas atlikums perioda sākumā | TOT         | 340+370                    |               |              |                              |
 
-Ja rindas definīcijā rindai ir formāta kods **CAL**, un jūs ievadāt matemātisko aprēķinu šūnā **Saistītās Formulas/Rindas/Vienības**, pārskatā nepieciešams ievadīt arī saistītās kolonnas un rindas burtu. Piemēram, ievadiet **. 120:** pārstāvēt kolonnā A, 120. rindas. Alternatīvi var izmantot zīmi (@) jānorāda visas kolonnas. Piemēram, ievadiet **@120**pārstāvēt visas kolonnas rindā 120. Matemātisko aprēķinu, kurā nav kolonnas burtu vai zīmi (@) tiek pieņemts, ka tas ir reāls skaitlis. **Piezīme:** ja izmantojat uzlīmju rindas kods references rindu, punktu (.) ir jāizmanto kā atdalītājs starp kolonnas burtu un etiķete (piemēram, **A.GROSS\_MARGIN/A.SALES**). Ja izmantojat zīmi (@), atdalītājs nav nepieciešama (piemēram, **@GROSS\_MARGIN/@SALES**).
+Ja rindas definīcijā rindai ir formāta kods **CAL**, un jūs ievadāt matemātisko aprēķinu šūnā **Saistītās Formulas/Rindas/Vienības**, pārskatā nepieciešams ievadīt arī saistītās kolonnas un rindas burtu. Piemēram, ievadiet **A.120**, lai apzīmētu kolonnu A, rindu 120. Ja vēlaties, visu kolonnu norādīšanai varat izmantot zīmi @. Piemēram, ievadiet **@120**, lai apzīmētu visas kolonnas rindā 120. Jebkurš matemātiskais aprēķins, kurā nav kolonnas burta vai zīmes @, tiek uzskatīts par reālu skaitli. **Piezīme.** Ja atsaucei uz rindu izmantojat etiķetes rindas kodu, kā atdalītājs starp kolonnas burtu un etiķeti ir jālieto punkts (.) (piemēram, **A.GROSS\_MARGIN/A.SALES**). Ja izmantojat zīmi @, tad atdalītājs nav nepieciešams (piemēram, **@GROSS\_MARGIN/@SALES**).
 
 ### <a name="example-of-a-calculation-formula-for-a-specific-column"></a>Aprēķina formulas piemērs noteiktai kolonnai
 
@@ -201,7 +204,7 @@ Ja rindas definīcijā rindai ir formāta kods **CAL**, un jūs ievadāt matemā
 
 | Rindas kods | Apraksts                 | Formāta kods | Saistītās formulas/Rindas/Vienības | Drukāšanas vadība | Rindu modifikators | Saite uz finanšu dimensijām |
 |----------|-----------------------------|-------------|----------------------------|---------------|--------------|------------------------------|
-| 340      | Skaidras naudas atlikums perioda sākumā |             |                            | NP            | BB           | + Konta =\[1100:1110\]       |
+| 340      | Skaidras naudas atlikums perioda sākumā |             |                            | NP            | BB           | +Konts=\[1100:1110\]       |
 | 370      | Skaidras naudas atlikums gada sākumā   | CAL         | E=C.340                    | NP            |              |                              |
 | 400      | Skaidras naudas atlikums perioda sākumā | TOT         | 340+370                    |               |              |                              |
 
@@ -210,7 +213,7 @@ Ja rindas definīcijā rindai ir formāta kods **CAL**, un jūs ievadāt matemā
 Ja jūs modificējat skaitli vai aprēķinu vienā noteiktas rindas kolonnā, bet nevēlaties ietekmēt citas kolonnas pārskatā, jūs varat norādīt **CAL** (aprēķins), rindas definīcijas kolonnā **Formāta kods**.
 
 -   Lai veiktu aprēķinu visās pārskata kolonnās (**FD**), neievadiet kolonnas piešķīrumu.
--   Lai ierobežotu noteiktas kolonnas formulai, jāievada kolonnas burts, vienādības zīme (**=**), un pēc tam formulu.
+-   Lai formulu ierobežotu uz noteiktām kolonnām, ievadiet kolonnas burtu, vienādības zīmi (**=**) un pēc tam formulu.
 -   Jūs varat norādīt vairākas kolonnas. Ja izmantojat zīmi (@) ar īpašu kolonnas izvietojumu, zīme (@) ir saistīta ar rindu.
 -   Vienā rindā jūs varat ievadīt vairākas kolonnas formulas. Atdaliet formulas ar komatiem.
 
@@ -220,46 +223,48 @@ Ja jūs modificējat skaitli vai aprēķinu vienā noteiktas rindas kolonnā, be
 |------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | @130\*.75              | Katrā kolonnas rindā vērtība 130 tiek reizināta ar 0,75. Rezultāts tiek ievietots katras kolonnas pašreizējā rindā. |
 | B=@130\*.75            | Tas pats aprēķins tiek veikts kolonnā B.                                                                      |
-| A, B,C=(@100/@130)\*.75 | A=(A.100/A.130)\*.75 B=(B.100/B.130)\*.75 C=(C.100/C.130)\*,75                                                           |
+| A,B,C=(@100/@130)\*.75 | A=(A.100/A.130)\*.75 B=(B.100/B.130)\*.75 C=(C.100/C.130)\*.75                                                           |
 
 ### <a name="ifthenelse-statements-in-a-row-definition"></a>IF/THEN/ELSE apgalvojumi rindas definīcijā
 
-**IF/THEN/ELSE** apgalvojumus var pievienot jebkuram derīgam aprēķinam, un izmantot ar **CAL** formātu. Jūs ievadāt **IF/THEN/ELSE** aprēķina formulas šūnā **Saistītās Formulas/Rindas/Vienības** kolonnā. **Pēc tam/ja/cits** aprēķina formulu, izmantojiet šādu formātu: IF &lt;patiess/aplams paziņojumu&gt; tad &lt;formula&gt; ELSE &lt;formula&gt;**ELSE &lt;formula&gt;** pārskata daļas nav obligāta.
+**IF/THEN/ELSE** apgalvojumus var pievienot jebkuram derīgam aprēķinam, un izmantot ar **CAL** formātu. Jūs ievadāt **IF/THEN/ELSE** aprēķina formulas šūnā **Saistītās Formulas/Rindas/Vienības** kolonnā. **IF/THEN/ELSE** aprēķina formulas izmanto šādu formātu: IF &lt;patiess/aplams apgalvojums&gt; THEN &lt;formula&gt; ELSE &lt;formula&gt; Apgalvojuma daļa **ELSE &lt;formula&gt;** nav obligāta.
 
 #### <a name="if-statements"></a>IF apgalvojumi
 
 Apgalvojums, kas seko **IF** apgalvojumam, var būt jebkurš apgalvojums, kuru var novērtēt kā patiesu vai nepatiesu. Apgalvojums, kas seko **IF** apgalvojumam var ietvert vienkāršu novērtējumu, vai arī tas var būt sarežģīts apgalvojums, kas var saturēt vairākas izteiksmes. Daži piemēri:
 
--   **Ja A.200&gt;0** (vienkāršs novērtējums)
--   **Ja A.200&gt;0 un A.200&lt;10000** (komplekss priekšraksts)
--   **Ja A.200&gt;10000 vai ((A.340/B.1200)\*2 &lt;1200)** (komplekss paziņojumu, kas satur vairākas izteiksmes)
+-   **IF A.200&gt;0** (Vienkāršs apgalvojums)
+-   **IF A.200&gt;0 AND A.200&lt;10,000** (Komplekss apgalvojums)
+-   **IF A.200&gt;10000 OR ((A.340/B.1200)\*2 &lt;1200)** (Komplekss apgalvojums, kas satur vairākas izteiksmes)
 
 Nosacījums **Periodi**, apgalvojumā **IF** parāda pārskata periodu skaitu. Šis nosacījums parasti tiek izmantots, lai aprēķinātu līdzšinējā gada vidējo. Piemēram, kad tiek veikta atskaite periodam 7 šī gada, nosacījums **B.150/Periods** nozīmē, ka vērtība, kas atrodas kolonnā B, rindā 150 tiek dalīta ar 7.
 
 #### <a name="then-and-else-formulas"></a>THEN un ELSE formulas
 
-Formulas **THEN** un **ELSE** var būt jebkurš derīgs aprēķins, no ļoti vienkāršiem vērtību piešķīrumiem līdz sarežģītām formulām. Piemēram, priekšraksts **ja A.200&gt;0 tad A=B.200** nozīmē, ka, "Ja vērtība šūnā kolonnā A 200. rindā ir vairāk kā 0 (nulle), nodot vērtību no šūnas kolonnā B 200 rindas šūnu pašreizējā rindā kolonnā A." Iepriekšējais **IF/THEN** apgalvojums ievieto vērtību pašreizējās rindas vienā kolonnā. Tomēr, jūs varat lietot arī zīmi (@) kādā no formulas patiess/aplams novērtējumiem, lai parādītu visas kolonnas. Šeit ir daži piemēri, kas aprakstīti turpmākajās sadaļās:
+Formulas **THEN** un **ELSE** var būt jebkurš derīgs aprēķins, no ļoti vienkāršiem vērtību piešķīrumiem līdz sarežģītām formulām. Piemēram, apgalvojums **IF A.200&gt;0 THEN A=B.200** nozīmē: “ja vērtība šūnā, kas atrodas kolonnā A, rindā 200, ir lielāka par 0 (nulle), tad vērtību no šūnas, kas atrodas kolonnā B, rindā 200, ir jāievieto pašreizējās rindas kolonnas A šūnā”. Iepriekšējais **IF/THEN** apgalvojums ievieto vērtību pašreizējās rindas vienā kolonnā. Tomēr, jūs varat lietot arī zīmi (@) kādā no formulas patiess/aplams novērtējumiem, lai parādītu visas kolonnas. Šeit ir daži piemēri, kas aprakstīti turpmākajās sadaļās:
 
--   **Ja A.200 &gt;0 tad B.200**: ja šūnas A.200 vērtība ir pozitīva, vērtību no šūnas B.200 laist katru kolonnas pašreizējā rindā.
--   **Ja A.200 &gt;0 tad @200**: ja šūnas A.200 vērtība ir pozitīva, vērtību no katras kolonnas rindā 200 ir ievietoti atbilstošā pašreizējās rindas kolonnā.
--   **Ja @200&gt;0 tad @200**: ja pašreizējās kolonnas pašā apakšējā lietotajā rindā 200 vērtība ir pozitīva, no 200. rindas vērtību nodošanas ekspluatācijā pašreizējās rindas vienā kolonnā.
+-   **IF A.200 &gt;0 THEN B.200**: ja šūnas A.200 vērtība ir pozitīva, tad vērtība no šūnas B.200 tiek ievietota katrā pašreizējās rindas kolonnā.
+-   **IF A.200 &gt;0 THEN @200**: ja šūnas A.200 vērtība ir pozitīva, tad vērtība no katras kolonnas rindā 200 tiek ievietota pašreizējās rindas atbilstošajā kolonnā.
+-   **IF @200 &gt;0 THEN @200**: ja pašreizējā kolonnā rindas 200 vērtība ir pozitīva, tad vērtība no rindas 200 tiek ievietota pašreizējās rindas tajā pašā kolonnā.
 
 ### <a name="restricting-a-calculation-to-a-reporting-unit-in-a-row-definition"></a>Aprēķina ierobežošana līdz pārskata vienībai rindas definīcijā
 
-Lai ierobežotu aprēķinu, lai vienā ziņotājā vienībā pārskata kokā, tā, ka rezultātā iegūtā summa nav rolled up, augstāka līmeņa vienību, var izmantot **@Unit**kods **saistītās Formulas/rindas/vienības** šūnu rindu definīcijā. **@Unit**Kods ir uzskaitīti pārskata kokā kolonnā B **vienības nosaukums**. Ja izmantojat **@Unit**kodu vērtības nav uzlocīt, bet aprēķins tiek novērtētas katrā līmenī ziņošanas koks. **Piezīme:** lai lietotu šo funkciju, pārskata kokam jābūt saistītām ar rindas definīciju. Aprēķinu rinda var atsaukties uz aprēķinu rindu vai finanšu datu rindu. Aprēķins tiek ierakstīts rindas definīcijas un finanšu datu – tipa ierobežojuma šūnā **Saistītās Formulas/Rindas/Vienības**. Aprēķinos ir jāizmanto nosacījuma aprēķins, kas sākas ar **ja @Unit**celtniecību. Lūk, piemērs: Ja @Unit(pārdošanas) tad @100ELSE 0 šajā aprēķinā ietver summu no 100. rindas ailē katru atskaiti, bet tikai uz pārdošanas vienību. Ja vairākām vienībām ir nosaukums Pārdošana, summa tiek parādīta katrā no šīm vienībām. Turklāt rinda 100 var būt finanšu datu rinda, un var būt definēta kā nedrukājama. Šajā gadījumā summa netiek parāda visās vienībās kokā. Jūs varat arī ierobežot summu vienam kolonnas pārskatam, piemēram, kolonnai H, izmantojot kolonnu ierobežojumu, lai drukātu vērtību tikai šajā pārskata kolonnā. Jūs varat iekļaut **OR** kombinācijas apgalvojumā **IF**. Lūk, piemērs: Ja @Unit(pārdošana) vai @Unit(SALESWEST) tad 5 ELSE @100var norādīt vienību aprēķina tipu ierobežojums vienā no šādiem veidiem:
+Lai pārskatu kokā kādu aprēķinu ierobežotu uz atsevišķu pārskatu vienību tā, lai iegūtā summa netiek apkopota uz augstāka līmeņa vienību, rindas definīcijas šūnā **Saistītās formulas/rindas/vienības** varat izmantot kodu **@Unit**. Kods **@Unit** ir uzskaitīts pārskatu koka struktūras kolonnā B, **Vienības nosaukums**. Ja izmantojat kodu **@Unit**, vērtības netiek apkopotas uz augstāku līmeni, bet aprēķins tiek novērtēts katrā pārskatu koka līmenī. **Piezīme:** lai lietotu šo funkciju, pārskata kokam jābūt saistītām ar rindas definīciju. Aprēķinu rinda var atsaukties uz aprēķinu rindu vai finanšu datu rindu. Aprēķins tiek ierakstīts rindas definīcijas un finanšu datu – tipa ierobežojuma šūnā **Saistītās Formulas/Rindas/Vienības**. Aprēķinā ir jāizmanto nosacījuma aprēķins, kas sākas ar konstrukciju **IF @Unit**. Piemērs: IF @Unit(SALES) THEN @100 ELSE 0 Šajā aprēķinā ir iekļauta summa no katras pārskatā esošās kolonnas rindas 100, bet tikai Pārdošanas vienībai. Ja vairākām vienībām ir nosaukums Pārdošana, summa tiek parādīta katrā no šīm vienībām. Turklāt rinda 100 var būt finanšu datu rinda, un var būt definēta kā nedrukājama. Šajā gadījumā summa netiek parāda visās vienībās kokā. Jūs varat arī ierobežot summu vienam kolonnas pārskatam, piemēram, kolonnai H, izmantojot kolonnu ierobežojumu, lai drukātu vērtību tikai šajā pārskata kolonnā. Jūs varat iekļaut **OR** kombinācijas apgalvojumā **IF**. Piemērs: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 Aprēķina tipa ierobežojumā vienību varat norādīt vienā no tālāk aprakstītajiem veidiem.
 
--   Ievadiet vienības nosaukumu, lai iekļautu atbilstošas vienības. Piemēram, **ja @Unit(pārdošanas)** iespējo aprēķinu vienība, kas ir apgrozījums, pat ja pastāv vairākas pārdošanas vienības ziņošanas kokā.
--   Ievadiet uzņēmuma un vienības nosaukumu, lai ierobežotu aprēķinu līdz noteiktām vienībām noteiktā uzņēmumā. Piemēram, ievadiet **ja @Unit(dots: pārdošanas**) ierobežot pārdošanas vienību kompānija ACME aprēķinos.
--   Ievadiet pilnu hierarhijas kodu no pārskata koka, lai ierobežot aprēķinu līdz noteiktai mērvienībai. Piemēram, ievadiet **ja @Unit(kopsavilkums ^ ACME ^ WEST COAST ^ pārdošanas)**. **Piezīme:** Lai atrastu pilnu hierarhijas kodu, ar peles labo pogu noklikšķiniet pārskata koka definīcijā, un pēc tam atlasiet **Kopēt pārskata vienības identifikatoru (H kods)**.
+-   Ievadiet vienības nosaukumu, lai iekļautu atbilstošas vienības. Piemēram, **IF @Unit(SALES)** iespējo aprēķinu jebkurai vienībai, kuras nosaukums ir Pārdošana, pat ja pārskatu kokā pastāv vairākas Pārdošanas vienības.
+-   Ievadiet uzņēmuma un vienības nosaukumu, lai ierobežotu aprēķinu līdz noteiktām vienībām noteiktā uzņēmumā. Piemēram, ievadiet **IF @Unit(ACME:SALES**), lai aprēķinu ierobežotu uz Pārdošanas vienībām ACME uzņēmumā.
+-   Ievadiet pilnu hierarhijas kodu no pārskata koka, lai ierobežot aprēķinu līdz noteiktai mērvienībai. Piemēram, ievadiet **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)**. **Piezīme:** Lai atrastu pilnu hierarhijas kodu, ar peles labo pogu noklikšķiniet pārskata koka definīcijā, un pēc tam atlasiet **Kopēt pārskata vienības identifikatoru (H kods)**.
 
 #### <a name="restrict-a-calculation-to-a-reporting-unit"></a>Ierobežot aprēķinu līdz pārskata vienībai
 
 1.  Pārskatu veidotājā noklikšķiniet uz **Rindu definīcijas** un atveriet modificējamo rindas definīciju.
 2.  Veiciet dubultklikšķi uz šūnas **Formāta kods**, un atlasiet **CAL**.
-3.  Noklikšķiniet uz **saistītās Formulas/rindas/vienības** šūnu, un pēc tam ievadiet nosacījumu aprēķins, kas sākas ar **ja @Unit**celtniecību.
+3.  Noklikšķiniet uz šūnas **Saistītās formulas/rindas/vienības**, un pēc tam ievadiet nosacījuma aprēķinu, kas sākas ar konstrukciju **IF @Unit**.
 
 ### <a name="ifthenelse-statements-in-a-column-definition"></a>IF/THEN/ELSE apgalvojumi kolonnas definīcijā
 
-Apgalvojums **IF/THEN/ELSE** ļauj jebkuram aprēķinam būt atkarīgam no citas kolonnas rezultātiem. Jūs varat atsaukties uz citām kolonnām, bet jūs nevarat atsaukties uz pārskata šūnu apgalvojumā **IF**. Jebkurš aprēķins jāpielieto visai kolonnai. Piemēram, priekšraksts **ja B&gt;100 tad B cits C\*1.25** nozīmē, "Ja kolonnā B summa ir vairāk nekā 100, ielieciet vērtību no kolonnas B, kas stājas **CALC** kolonna. Ja kolonnā B summa nav lielāka par 100, reiziniet vērtību kolonnā C ar 1,25, un ievadiet rezultātu kolonnā **CALC**." Vienmēr turpiniet apgalvojumu **IF** ar loģisku apgalvojumu, kuru var novērtēt kā patiesu vai nepatiesu. Formulas, kuras tiek izmantotas gan apgalvojumā **THEN**, gan apgalvojumā **ELSE** var saturēt atsauces uz kolonnu skaitu, un šīs formulas var būt tik sarežģītas, cik jums nepieciešams. **Piezīme:** Jūs nevarat ievietot aprēķina rezultātu nevienā citā kolonnā. Rezultātiem jābūt kolonnā, kas satur formulu.
+Apgalvojums **IF/THEN/ELSE** ļauj jebkuram aprēķinam būt atkarīgam no citas kolonnas rezultātiem. Jūs varat atsaukties uz citām kolonnām, bet jūs nevarat atsaukties uz pārskata šūnu apgalvojumā **IF**. Jebkurš aprēķins jāpielieto visai kolonnai. Piemēram, apgalvojums **IF B&gt;100 THEN B ELSE C\*1.25** nozīmē: “Ja summa kolonnā B ir lielāka par 100, tad vērtība no kolonnas B ir jāievieto kolonnā **CALC**. Ja summa kolonnā B nav lielāka par 100, tad vērtība kolonnā C ir jāreizina ar 1,25 un rezultāts ir jāievieto kolonnā **CALC**.” Vienmēr turpiniet apgalvojumu **IF** ar loģisku apgalvojumu, kuru var novērtēt kā patiesu vai nepatiesu. Formulas, kuras tiek izmantotas gan apgalvojumā **THEN**, gan apgalvojumā **ELSE** var saturēt atsauces uz kolonnu skaitu, un šīs formulas var būt tik sarežģītas, cik jums nepieciešams. **Piezīme:** Jūs nevarat ievietot aprēķina rezultātu nevienā citā kolonnā. Rezultātiem jābūt kolonnā, kas satur formulu.
+
+
 
 

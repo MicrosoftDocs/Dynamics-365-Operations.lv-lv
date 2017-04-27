@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-journals"></a>Krājumu žurnāli
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir aprakstīts, kā lietot krājumu žurnālus, lai grāmatotu dažādu veidu fizisko krājumu transakcijas. 
 
 Krājumu žurnāli programmatūrā Microsoft Dynamics 365 for Operations tiek izmantoti, lai grāmatotu dažādu veidu fizisko krājumu transakcijas, piemēram, izejas un ieejas plūsmu grāmatošanai, krājumu kustībām, materiālu komplektu (MK) izveidošanai un fizisko krājumu saskaņošanai. Visi šie krājumu žurnāli tiek izmantoti līdzīgā veidā, bet tie ir sadalīti dažādos tipos.
@@ -72,7 +75,7 @@ Ražošanas ievades žurnāli darbojas kā krājumu saņemšanas žurnāli, bet 
 
 ### <a name="counting"></a>Uzskaite
 
-Inventarizācijas žurnāli jums ļauj labot pašreizējos rīcībā esošos krājumus, kas ir reģistrēti krājumiem vai krājumu grupām, un tad grāmatot faktisko fizisko skaitu, tādējādi varat veikt atšķirību saskaņošanai nepieciešamos pielāgojumus. Inventarizācijas politikas varat saistīt ar inventarizācijas grupām, lai palīdzētu grupēt krājumus, kuriem ir dažādas īpašības un šos krājumus varētu iekļaut inventarizācijas žurnālā. Piemēram, varat iestatīt inventarizācijas grupas, lai saskaitītu krājumus, kuriem ir specifisks biežums, vai lai saskaitītu krājumus, ja krājumu daudzums nokrītas līdz noteiktam līmenim. Lai iegūtu informāciju par to, kā definēt inventarizācijas grupu, redzēt [definēt krājumu inventarizācijas procesus (uzdevuma norādījumi)](http://ax.help.dynamics.com/en/wiki/define-inventory-counting-processes/).
+Inventarizācijas žurnāli jums ļauj labot pašreizējos rīcībā esošos krājumus, kas ir reģistrēti krājumiem vai krājumu grupām, un tad grāmatot faktisko fizisko skaitu, tādējādi varat veikt atšķirību saskaņošanai nepieciešamos pielāgojumus. Inventarizācijas politikas varat saistīt ar inventarizācijas grupām, lai palīdzētu grupēt krājumus, kuriem ir dažādas īpašības un šos krājumus varētu iekļaut inventarizācijas žurnālā. Piemēram, varat iestatīt inventarizācijas grupas, lai saskaitītu krājumus, kuriem ir specifisks biežums, vai lai saskaitītu krājumus, ja krājumu daudzums nokrītas līdz noteiktam līmenim. Informāciju par to, kā definēt inventarizācijas grupas, skatiet tēmā [Krājumu inventarizācijas procesu definēšana (uzdevuma ceļvedis)](http://ax.help.dynamics.com/en/wiki/define-inventory-counting-processes/).
 
 ### <a name="tag-counting"></a>Etiķešu skaitīšana
 
@@ -89,5 +92,7 @@ Kad grāmatojat etiķešu inventarizācijas žurnālu, tiek izveidots jauns inve
 
 ## <a name="posting-journal-lines"></a>Žurnāla rindu grāmatošana
 Savas izveidotās žurnāla rindas varat grāmatot jebkurā laikā līdz brīdim, kad krājumu esat bloķējis no papildu transakcijām. Žurnālā ievadītie dati paliek šajā žurnālā pat tad, ja žurnālu aizverat, negrāmatojot rindas.
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Starpuzņēmumu iestatījumā grāmatvedības"
-description: "Šajā tēmā ir paskaidrots, kā iestatīt starpuzņēmumu kontiem tā, lai to varētu izmantot starpuzņēmumu žurnālus, grāmatas piešķīrumus un finanšu žurnālos, piemēram, ikdienas žurnālus, kreditoru rēķinu žurnālus un maksājumu žurnālus."
+title: "Starpuzņēmumu uzskaites iestatīšana"
+description: "Šajā tēmā ir paskaidrots, kā iestatīt starpuzņēmumu uzskaiti, lai varētu izmantot starpuzņēmumu žurnālus Virsgrāmatas sadalījumiem un finanšu žurnāliem, piemēram, ikdienas žurnāliem, kreditoru rēķinu žurnāliem un maksājumu žurnāliem."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,25 +25,30 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="intercompany-accounting-setup"></a>Starpuzņēmumu iestatījumā grāmatvedības
+# <a name="intercompany-accounting-setup"></a>Starpuzņēmumu uzskaites iestatīšana
 
-Šajā tēmā ir paskaidrots, kā iestatīt starpuzņēmumu kontiem tā, lai to varētu izmantot starpuzņēmumu žurnālus, grāmatas piešķīrumus un finanšu žurnālos, piemēram, ikdienas žurnālus, kreditoru rēķinu žurnālus un maksājumu žurnālus.
+[!include[banner](../includes/banner.md)]
 
-Starpuzņēmumu žurnālus var radīt dažādus scenārijus, piemēram, ikdienas žurnālus, kreditoru rēķinu žurnālus, grāmatas piešķiršanu un centralizētu maksājumu. Lai šos scenārijus iespējotu, ir jāiestata starpuzņēmumu uzskaite.
 
-## <a name="define-main-accounts"></a>Definētu galvenā uzskaite
-Vispirms ir jāizveido starpuzņēmumu galvenie konti, ko izmantot uzskaites ierakstam Kreditora parādi un Debitora parādi. Ir ieteicams izmantot unikālus galvenos kontus katram uzņēmumam, lai vienkāršotu starpuzņēmumu uzskaites ierakstu saskaņošanu un korekciju. Ja jūs izmantojat tirdzniecības partneris vai partneri dimensijas starpuzņēmumu personu identificēšanai, šai dimensijai varat definēt kā fiksētas dimensijas uz galveno kontu, kas norādīts elementā starpuzņēmumu kontiem. Iestatot galveno kontu, jums vajadzētu noteikt **galvenā konta tips** lauku, lai **bilances** par **galveno kontu** lapā.
+Šajā tēmā ir paskaidrots, kā iestatīt starpuzņēmumu uzskaiti, lai varētu izmantot starpuzņēmumu žurnālus Virsgrāmatas sadalījumiem un finanšu žurnāliem, piemēram, ikdienas žurnāliem, kreditoru rēķinu žurnāliem un maksājumu žurnāliem.
 
-## <a name="define-journal-names"></a>Definējiet žurnālu nosaukumus
-Pēc tam definējiet žurnāla nosaukumu. Iestatiet **žurnāla tipa** lauku, lai **ikdienas** par **žurnālu nosaukumus** lapu. Starpuzņēmumu grāmatvedībā ieteicams izmantot konkrētu žurnāla nosaukumu.
+Starpuzņēmumu žurnālus var izveidot dažādās situācijās, piemēram, ikdienas žurnāliem, kreditoru rēķinu žurnāliem, Virsgrāmatas sadalījumiem un centralizētajiem maksājumiem. Lai šos scenārijus iespējotu, ir jāiestata starpuzņēmumu uzskaite.
 
-## <a name="define-intercompany-accounting-setup"></a>Definētu starpuzņēmumu uzskaites iestatīšana
-**Starpuzņēmumu kontiem** lapa tiek izmantota, lai veidotu pārus no juridiskas personas, kas var noslēgt ar otru. Grāmatvedības iestatīšana starpuzņēmumu dalīta, lai setup ir redzams programmā visas juridiskās personas. Veidojot jaunu juridisku personu pāri, jāpārliecinās, ka esat informēti par kuriem juridiska persona tiek definēta kā izcelsmes uzņēmums pret mērķa sabiedrība. Ievadot starpuzņēmumu transakcijas, darbības nosaka, kuras juridiska persona uzsāk vai izcelsmes darbība. Piemēram, starpuzņēmumu kontiem ir uzstādīts USMF (izcelsmes) un USSI (mērķa). Ja lietotājs ir aktīvs USSI un nonāk starpuzņēmumu transakciju, kurā USMF, darījuma negrāmato starpuzņēmumu kontiem ir definētas tikai par USMF, jo to rīkojuma. Ja nu uzņēmums var izcelsmes darījums, jums būs nepieciešams izveidot otru juridisku personu pāri savstarpēju uzstādīšanai. 
+## <a name="define-main-accounts"></a>Galveno kontu definēšana
+Vispirms ir jāizveido starpuzņēmumu galvenie konti, ko izmantot uzskaites ierakstam Kreditora parādi un Debitora parādi. Ir ieteicams izmantot unikālus galvenos kontus katram uzņēmumam, lai vienkāršotu starpuzņēmumu uzskaites ierakstu saskaņošanu un korekciju. Ja izmantojat darījumu partnera vai otras puses dimensiju, lai identificētu starpuzņēmumu pusi, varat šo dimensiju definēt kā fiksētu dimensiju galvenajā kontā, kas ir definēts lapā Starpuzņēmumu uzskaite. Iestatot galvenos kontus, lapā **Galvenie konti** ir jāiestata lauka **Galvenā konta veids** vērtība **Bilance**.
 
-Atlasiet **debeta kontu (jāmaksā)** un **kredīta kontu (sakarā ar)**, gan izcelsmes, gan galamērķa juridiska persona. Definēt, kurus **žurnāla nosaukums** tiks izmantots, kad darbība ir izveidota mērķa uzņēmumā. Žurnāls par izcelsmes uzņēmumu jau zināms, jo tā lietotājs izvēlas veidojot starpuzņēmumu transakcijas. 
+## <a name="define-journal-names"></a>Žurnālu nosaukumu definēšana
+Pēc tam definējiet žurnāla nosaukumu. Lapā **Žurnālu nosaukumi** iestatiet lauka **Žurnāla veids** vērtību **Ikdienas**. Starpuzņēmumu grāmatvedībā ieteicams izmantot konkrētu žurnāla nosaukumu.
 
-Visbeidzot, atlasīt, kuras juridiska persona saņems atbalsta summas, piemēram, atlaides vai realizēto peļņu/zaudējumus centralizētu maksājumu uzskaiti. 
+## <a name="define-intercompany-accounting-setup"></a>Starpuzņēmumu uzskaites iestatījumu definēšana
+Lapā **Starpuzņēmumu uzskaite** varat izveidot tādu juridisko personu pārus, kas var savstarpēji sadarboties. Starpuzņēmumu uzskaites iestatījumi tiek koplietoti, tāpēc tie ir redzami visām juridiskajām personām. Izveidojot jaunu juridisko personu pāri, pievērsiet uzmanību tam, kura juridiskā persona ir definēta kā izveides uzņēmums un kura — kā mērķa uzņēmums. Sākot starpuzņēmumu transakciju, tas, kura juridiskā persona uzsāk jeb izveido transakciju, ir atkarīgs no konkrētās transakcijas. Piemēram, uzņēmumiem USMF (izveides uzņēmums) un USSI (mērķa uzņēmums) ir izveidoti starpuzņēmumu uzskaites iestatījumi. Ja aktīvs USSI lietotājs sāk starpuzņēmumu transakciju ar USMF, transakcija netiek grāmatota, jo starpuzņēmumu uzskaites iestatījumi ir definēti tikai gadījumam, kad USMF ir izveides uzņēmums. Ja transakciju var izveidot jebkurš uzņēmums, ir jāizveido otrs juridisko pušu pāris pretējam iestatījumam. 
 
-Savstarpējās attiecības var viegli uzstādīt uz **starpuzņēmumu kontiem** lapu, izmantojot **izveidot savstarpēju attiecību** pogu pēc tam, kad tiek izveidota juridiska vienība pirmo pāri. Veidojot savstarpējās pāri, informāciju par galamērķa uzņēmumu tiek kopēts izcelsmes uzņēmumam, un otrādi. Žurnāls definēts mērķa sabiedrība paliks. Lielākā daļa organizāciju izmantot pašu nosaukumdošanas konvencija to saitē Žurnālu nosaukumi: journal names, tāpēc, ka žurnāla nosaukums ir tāds pats. Ja žurnāla nosaukums ir atšķirīgs, brīdinājums tiek rādīts, lai paziņotu, ka neeksistē žurnāls un var izvēlēties atšķirīgas žurnāla laukā.
+Gan izveides, gan mērķa juridiskajai personai atlasiet **Debeta konts (debitora parādi)** un **Kredīta konts (kreditora parādi)**. Laukā **Žurnāla nosaukums** definējiet žurnāla nosaukumu, kas tiks izmantots, izveidojot transakciju mērķa uzņēmumā. Izveides uzņēmuma žurnāla nosaukums jau ir zināms, jo lietotājs to ir atlasījis starpuzņēmumu transakcijas izveides laikā. 
+
+Visbeidzot atlasiet to, kura juridiskā persona saņems uzskaiti par papildu summām, piemēram, termiņatlaidi vai realizēto peļņu/zaudējumiem centralizētajiem maksājumiem. 
+
+Lapā **Starpuzņēmumu uzskaite** var viegli iestatīt savstarpējās attiecības, pēc pirmā juridisko personu pāra izveides izmantojot pogu **Savstarpējas attiecības izveide**. Kad ir izveidots pāris ar savstarpējām attiecībām, mērķa uzņēmuma informācija tiek kopēta uz izveides uzņēmumu un pretēji. Tiek saglabāts mērķa uzņēmumam definētais žurnāls. Vairums organizāciju izmanto vienu un to pašu žurnālu nosaukumu piešķiršanas metodi, lai nodrošinātu vienādus žurnālu nosaukumus. Ja žurnāla nosaukums atšķiras, laukā tiek parādīts brīdinājums par to, ka žurnāls nepastāv, un varat atlasīt citu žurnālu.
+
+
 
 

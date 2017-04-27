@@ -1,5 +1,5 @@
 ---
-title: "Atjaunināt bankas žurnāla saliktu vienību"
+title: "Atjaunināt bankas žurnāla salikto elementu"
 description: "Lai saliktajam elementam BankJournalEntity pievienotu papildu lauku BankTransactionType, ir nepieciešams izpildīt tālāk aprakstītās darbības."
 author: twheeloc
 manager: AnnBe
@@ -24,21 +24,24 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="update-the-bank-journal-composite-entity"></a>Atjaunināt bankas žurnāla saliktu vienību
+# <a name="update-the-bank-journal-composite-entity"></a>Atjaunināt bankas žurnāla salikto elementu
+
+[!include[banner](../includes/banner.md)]
+
 
 Lai saliktajam elementam BankJournalEntity pievienotu papildu lauku BankTransactionType, ir nepieciešams izpildīt tālāk aprakstītās darbības.
 
 Lai saliktajam elementam BankJournalEntity pievienotu papildu lauku BankTransactionType, izpildiet tālāk aprakstītās darbības.
 
 1.  Kompilējiet un sinhronizējiet tālāk uzskaitītos bankas žurnālu saliktos elementus, elementus un sagatavošanas tabulas.
-    -   Saliktu vienību\\BankJournalEntity
-    -   Uzņēmums\\BankJournalHeaderEntity
-    -   Uzņēmums\\BankJournalLineEntity
-    -   Galda\\BankJournalHeaderStaging
-    -   Galda\\BankJournalLineStaging
+    -   Saliktais elements\\BankJournalEntity
+    -   Elements\\BankJournalHeaderEntity
+    -   Elements\\BankJournalLineEntity
+    -   Tabula\\BankJournalHeaderStaging
+    -   Tabula\\BankJournalLineStaging
 
-2.  Datu pārvaldības\\datu projekti
-    -   Atklājiet tipu **Bankas transakcija **izkārtojumā **Avota dati**.
+2.  Datu pārvaldība\\datu projekti
+    -   Atklājiet tipu **Bankas transakcija** izkārtojumā **Avota dati**.
         -   Avota datu formāts = XML elements
         -   Elementa nosaukums = Bankas žurnāls
         -   Augšupielādes datu fails = jaunas versijas SampleBankJournalCompositeEntity.xml
@@ -49,6 +52,8 @@ Lai saliktajam elementam BankJournalEntity pievienotu papildu lauku BankTransact
             -   Pārbaudiet, vai Bankas transakcijas tips ir kartēts no avota uz sagatavošanu.
 
 3.  Importēt jauno izrakstu.
+
+
 
 
 

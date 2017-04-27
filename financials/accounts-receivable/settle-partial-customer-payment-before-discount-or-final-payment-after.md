@@ -1,5 +1,5 @@
 ---
-title: "Nokārtot daļēju debitora maksājumu atlaides datumu pirms galīgā maksājuma atlaides datumu pēc"
+title: "Daļēja debitora maksājuma nosegšana pirms atlaižu piemērošanas datuma ar gala maksājumu pēc atlaižu piemērošanas datuma"
 description: "Šajā rakstā ir aprakstīta debitoru rēķinu segšanas maksājumu ietekme. Scenārija aprakstā galvenā uzmanība pievērsta izmaiņām, kas rodas apakšgrāmatā, nevis virsgrāmatā."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Nokārtot daļēju debitora maksājumu atlaides datumu pirms galīgā maksājuma atlaides datumu pēc
+# <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Daļēja debitora maksājuma nosegšana pirms atlaižu piemērošanas datuma ar gala maksājumu pēc atlaižu piemērošanas datuma
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir aprakstīta debitoru rēķinu segšanas maksājumu ietekme. Scenārija aprakstā galvenā uzmanība pievērsta izmaiņām, kas rodas apakšgrāmatā, nevis virsgrāmatā.
 
-Fabrikam pārdod preces klientam 4027. Fabrikam piedāvā 1 procentu termiņatlaide, ja rēķins ir apmaksāts 14 dienu laikā. Rēķini ir jāapmaksā 30 dienu laikā. Fabrikam piedāvā arī termiņatlaides daļējiem maksājumiem. Norēķinu parametri atrodas **Accounts receivable parameters** lapā.
+Fabrikam pārdod preces debitoram 4027. Fabrikam piedāvā termiņatlaidi 1 procenta apmērā, ja rēķins tiek apmaksāts 14 dienu laikā. Rēķini ir jāapmaksā 30 dienu laikā. Fabrikam piedāvā arī termiņatlaides daļējiem maksājumiem. Nosegšanas parametri atrodas lapā **Debitoru moduļa parametri**.
 
 ## <a name="invoice"></a>Rēķins
-25. jūnijā, Arnie ievada un amatu 1000,00 4027 klienta rēķinu. Arnie šo rēķinu var apskatīt, izmantojot **darbības** pogu **klientiem** lapā.
+Arnis debitoram 4027 izrakstīto rēķinu par summu 1000,00 ievada un grāmato 25. jūnijā. Arnis var skatīt šo rēķinu, izmantojot pogu **Transakcijas** lapā **Debitori**.
 
 | Dokuments   | Darījuma veids | Datums      | Rēķins | Summa transakcijas valūtas debetā | Summa transakcijas valūtas kredītā | Bilance  | Valūta |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
@@ -46,7 +49,7 @@ Fabrikam pārdod preces klientam 4027. Fabrikam piedāvā 1 procentu termiņatla
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|----------|------------------|
 | Atlasīts | Parastais            | FTI-10020 | 4027    | 25.06.2015. | 25.07.2015. | 10020   | 1000,00                             | USD      | 297,00           |
 
-Atlaides informācija ir redzama lapas **Nosegt atvērtās transakcijas** apakšdaļā. Ja nemainīsit vērtību **Nosedzamā summa** uz 297,00, parādītās vērtības **Termiņatlaides summa** būs atšķirīgas. Tomēr 3.00 tiks uzskatīta par termiņatlaidi, grāmatojot maksājumu, jo norēķināšanās automātiski pielāgo * * summa, lai nokārtotu * * vērtību jums.
+Atlaides informācija ir redzama lapas **Nosegt atvērtās transakcijas** apakšdaļā. Ja nemainīsit vērtību **Nosedzamā summa** uz 297,00, parādītās vērtības **Termiņatlaides summa** būs atšķirīgas. Tomēr, grāmatojot maksājumu, 3,00 tiks apstrādāti kā termiņatlaide, jo nosegšana automātiski pielāgos vērtību **Nosedzamā summa**.
 
 |                              |           |
 |------------------------------|-----------|
@@ -105,6 +108,8 @@ Arnijs maina vērtību laukā **Izmantot termiņatlaidi** atpakaļ uz **Parasta*
 | ARP-10020  |                  | 01.07.2015.  |         |                                      | 297,00                                | 0,00    | USD      |
 | DISC-10020 |                  | 01.07.2015.  |         |                                      | 3,00                                  | 0,00    | USD      |
 | ARP-10021  |                  | 11.07.2015. |         |                                      | 700,00                                | 0,00    | USD      |
+
+
 
 
 

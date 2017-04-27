@@ -1,5 +1,5 @@
 ---
-title: "Kanban nodošanu valdes atbalsts par Svītrkods skeneri"
+title: "Svītrkoda skeneru atbalsts Kanban pārsūtīšanas panelī"
 description: "Kanban pārsūtīšanas panelis nodrošina skenera ievadi, izmantojot logrīka svītrkoda skeneri, lai atlasītu, sāktu, pabeigtu un iztukšotu Kanban darbu."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Kanban nodošanu valdes atbalsts par Svītrkods skeneri
+# <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Svītrkoda skeneru atbalsts Kanban pārsūtīšanas panelī
+
+[!include[banner](../includes/banner.md)]
+
 
 Kanban pārsūtīšanas panelis nodrošina skenera ievadi, izmantojot logrīka svītrkoda skeneri, lai atlasītu, sāktu, pabeigtu un iztukšotu Kanban darbu.
 
@@ -46,13 +49,13 @@ Kopsavilkuma cilnē **Skenera reģistrācija** varat atlasīt reģistrācijas re
 <a name="registration-mode-select"></a>Reģistrācijas režīms Atlasīt
 ------------------------
 
-Ja izmantojat svītrkoda lasītājs izvēlēties darbu, tā parādīšanas režīma kanban valdes izmaiņas. Šajā režīmā, piemēro šādus nosacījumus:
+Ja izmantojat svītrkoda lasītāju, lai atlasītu darbu, tiek mainīts Kanban paneļa rādīšanas režīms. Šajā režīmā ir spēkā tālāk norādītie nosacījumi.
 
 -   Tiek rādīts tikai ieskenētais Kanban darbs.
 -   Kopsavilkuma cilnē **Detalizēti** tiek rādīta detalizēta informācija par atlasīto darbu.
 -   Kopsavilkuma cilnē **Ziņojumi** tiek rādīti tikai ar atlasīto darbu saistītie ziņojumi.
 -   Darba statusu var mainīt, izmantojot darbību rūti pieejamās funkcijas. Šajā laikā Kanban pārsūtīšanas panelī joprojām tiek rādīts tikai viens darbs.
--   Informāciju sarakstā darba vietu var atjaunināt manuāli, noklikšķinot uz **atsvaidzināt** (Shift + F5) darbību rūtī. Pēc informācijas atsvaidzināšanas atkal tiek rādīti visi darbu filtra rezultāti.
+-   Varat manuāli atjaunināt informāciju darbu sarakstā, darbību rūti noklikšķinot uz **Atsvaidzināt** (Shift+F5). Pēc informācijas atsvaidzināšanas atkal tiek rādīti visi darbu filtra rezultāti.
 
 ## <a name="job-status-and-possible-actions"></a>Darbu statuss un iespējamās darbības
 Atlasīta darba statuss un jebkuru notikumu Kanban piesaistīto darbu statuss nosaka, vai varat turpināt darba apstrādi. Tālāk esošajā tabulā ir sniegta informācija par šiem statusiem un uzdevumiem.
@@ -185,6 +188,8 @@ Atlasīta darba statuss un jebkuru notikumu Kanban piesaistīto darbu statuss no
 </tr>
 </tbody>
 </table>
+
+
 
 
 

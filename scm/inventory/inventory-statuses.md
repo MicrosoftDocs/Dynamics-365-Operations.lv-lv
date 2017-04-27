@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-statuses"></a>Krājumu statusi
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir aprakstīts, kā varat izmantot krājumu statusus, lai krājumus sadalītu kategorijās un sekotu tiem līdzi.
 
 Krājumu statusus var izmantot, lai kategorizētu krājumu. Pēc tam varat sākt atbilstošas darbības, piemēram, papildināšanas vai izvietošanas darbu. 
@@ -47,5 +50,7 @@ Izejošam darbam izmantojiet vienības, kam krājuma statuss ir Pieejams. Ja ir 
 Kad krājumu statusi ir iestatīti, varat iestatīt noklusējuma krājumu statusu vietai, vienībai un noliktavai. Varat arī iestatīt noklusējuma statusu pārdošanas, pārsūtīšanas un pirkšanas pasūtījumiem. Noklusējuma pārdošanas pasūtījumu un izejošo pārsūtīšanas pasūtījumu statusam opcija **Krājuma bloķēšana** nevar būt iestatīta uz **Jā**. Krājuma statusu, kas tiek mantots no vietas, noliktavas, vienības, pirkšanas pasūtījuma, pārsūtīšanas pasūtījuma vai pārdošanas pasūtījuma noklusējuma iestatījumiem, var mainīt, izmantojot mobilo ierīci, pirkšanas un pārdošanas pasūtījumu vai pārsūtīšanas pasūtījuma rindu. 
 
 Lai plānotu to vienību segumu, kam krājuma statuss ir Pieejams, lapā **Noliktavas dimensiju grupas** noliktavas dimensijai atlasiet opciju **Vajadzības plāns pa dimensijām**. Atverot vedni **Vienības vajadzības **, vienības, kurām statuss ir Pieejams, tiks parādītas lapā **Statuss**. Lai izveidotu šo preču segšanas iestatījumus, atlasiet krājumu statusa ID pieejamo krājumu statusiem. Pamatojoties uz segšanas iestatījumiem, varat aprēķināt preču vajadzības un prognozēt pieejamo preču piegādi un piedāvājumu vispārējās plānošanas laikā. Vienības vajadzības iestatījumus nevar izveidot, ja krājuma statuss ir Bloķēts. Tā vietā izmantojiet lapu **Vienības vajadzības**, lai izveidotu vai modificētu vienības vajadzības parametrus.
+
+
 
 

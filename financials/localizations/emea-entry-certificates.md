@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="eu-entry-certificates"></a>ES ievešanas sertifikāti
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegta informācija par Eiropas Savienības (ES) ierakstu sertifikātiem.
 
 Eiropas Savienības (ES) ieraksta sertifikātam varat veikt šādus uzdevumus:
@@ -76,7 +79,7 @@ Tālāk esošajā tabulā ir norādīti priekšnoteikumi, kas ir jāizpilda pirm
 </table>
 
 ## <a name="creating-registering-and-uploading-an-eu-entry-certificate"></a>ES ieraksta sertifikāta izveidošana, reģistrēšana un augšupielādēšana
-ES ieraksta sertifikātu var izveidot automātiski vai manuāli. ES ieraksts sertifikātā ir izveidota un automātiski izdrukāti, kad grāmatojat pavadzīmi vai rēķinu debitoram, izmantojot **pavadzīmes grāmatošanai pavadzīmes** lapas vai **grāmatošana rēķinu** lapā. Manuāli izveidot vai atkārtoti ES ieceļošanas sertifikātu klienta rēķinam, izmantojiet **rēķinu žurnāla** lapā. Turklāt varat izmantot lapu **Ierakstu sertifikātu žurnāls**, lai ievadītu detalizētu informāciju par ES ieraksta sertifikātu, ko izsniedza trešā puse.
+ES ieraksta sertifikātu var izveidot automātiski vai manuāli. ES ieraksta sertifikāts tiek izveidots un izdrukāts automātiski, kad pavadzīmi vai rēķinu debitoram grāmatojat, izmantojot lapu **Pavadzīmes grāmatošana** vai **Rēķina grāmatošana**. Lai ES ieraksta sertifikātu izveidotu vai atkārtoti drukātu manuāli, izmantojiet lapu **Rēķinu žurnāls**. Turklāt varat izmantot lapu **Ierakstu sertifikātu žurnāls**, lai ievadītu detalizētu informāciju par ES ieraksta sertifikātu, ko izsniedza trešā puse.
 
 ### <a name="creating-an-eu-entry-certificate-automatically-or-manually"></a>ES ieraksta sertifikātu automātiska vai manuāla izveidošana
 
@@ -84,7 +87,7 @@ ES ieraksta sertifikātu varat izveidot automātiski, izmantojot pavadzīmi lap�
 
 ### <a name="registering-an-eu-entry-certificate"></a>ES ieraksta sertifikāta reģistrēšana
 
-Ja ir nepieciešama reģistrēšana, varat izmantot lapu** Ierakstu sertifikātu žurnāls**, lai reģistrētu ES ieraksta sertifikātu, ko izsniedza trešā puse.
+Ja ir nepieciešama reģistrēšana, varat izmantot lapu **Ierakstu sertifikātu žurnāls**, lai reģistrētu ES ieraksta sertifikātu, ko izsniedza trešā puse.
 
 ### <a name="uploading-a-received-eu-entry-certificate"></a>Saņemta ES ieraksta sertifikāta augšupielādēšana
 
@@ -121,6 +124,8 @@ Ja nevarat piekļūt lapām, kas tiek izmantotas šī uzdevuma izpildīšanai, s
 </tr>
 </tbody>
 </table>
+
+
 
 
 

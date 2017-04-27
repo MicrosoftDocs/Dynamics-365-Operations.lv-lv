@@ -1,6 +1,6 @@
 ---
-title: "Nesen pievienotās rediģēšanas līdzekļus uzdevumu rakstītāja"
-description: "Ja uzdevumu ieraksti izmanto, lai izveidotu uzdevumu ceļveži, varat rediģēt jūsu failus vairāk efektīvi izmantojot funkcionalitāti, kas aprakstīta šajā wiki."
+title: "Nesen pievienotie uzdevumu reģistrētāja rediģēšanas līdzekļi"
+description: "Ja izmantojat uzdevumu reģistrētāju, lai izveidotu uzdevumu ceļvežus, varat efektīvāk rediģēt savus failus, izmantojot šajā vikivietnē aprakstīto funkcionalitāti."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,66 +25,66 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="recently-added-editing-features-in-task-recorder"></a>Nesen pievienotās rediģēšanas līdzekļus uzdevumu rakstītāja
+# <a name="recently-added-editing-features-in-task-recorder"></a>Nesen pievienotie uzdevumu reģistrētāja rediģēšanas līdzekļi
 
-Ja uzdevumu ieraksti izmanto, lai izveidotu uzdevumu ceļveži, varat rediģēt jūsu failus vairāk efektīvi izmantojot funkcionalitāti, kas aprakstīta šajā wiki.
+Ja izmantojat uzdevumu reģistrētāju, lai izveidotu uzdevumu ceļvežus, varat efektīvāk rediģēt savus failus, izmantojot šajā vikivietnē aprakstīto funkcionalitāti.
 
-Šie līdzekļi pieejami lentes **iestatījumus &gt;uzdevumu rakstītāju &gt;rediģēt ierakstu** izvēlnes.
+Šie līdzekļi ir pieejami izvēlnē **Iestatījumi &gt; Uzdevumu reģistrētājs &gt; Rediģēt ierakstu**.
 
--   Iespraust soļus bez visu failu ierakstīšanu.
--   Pārvietotu darbības saskaņā ar pakārtoto uzdevumu bez visu failu ierakstīšanu.
--   Sabrukums, ieraksta laukus nosaukums un apraksts.
+-   Ievietojiet darbības, nepārrakstot visu failu.
+-   Pārvietojiet darbības uz apakšuzdevumu, nepārrakstot visu failu.
+-   Sakļaujiet laukus Ieraksta nosaukums un ieraksta apraksts.
 
-## <a name="insert-steps-without-rerecording-the-entire-file"></a>Iespraust soļus bez rerecording visu failu
-Tagad varat pievienot solis jebkurā uzdevuma rokasgrāmatā bez demonstrēšanas vai ierakstīt vēlreiz visu failu.
+## <a name="insert-steps-without-rerecording-the-entire-file"></a>Darbību ievietošana, nepārrakstot visu failu
+Tagad varat pievienot darbības jebkurā vietā uzdevuma ceļvedī, neatskaņojot un nepārrakstot visu failu.
 
-1.  Atlasiet darbību, pēc kurām vēlaties jauns solis tiktu ievietoti. Pārliecinieties, vai šis solis tiek iezīmēts.
+1.  Atlasiet darbību, pēc kuras vēlaties ievietot jauno darbību. Pārliecinieties, ka darbība ir iezīmēta.
 
-Lai uzdevumu rakstītāju, lai ievietotu soli, jums ir jābūt pareizo lapu atvērtu. Pareizā lapa ir lapa, jauns solis notiek. Uzdevuma ierakstīšanas iekārtai ir mehānisms, kas nosaka, kādi aktīvā lappuse ir un atspējot funkcionalitāti, ja pareizo lapu nav atvērta. 
+Lai uzdevumu reģistrētājā tiktu ievietota darbība, ir jābūt atvērtai pareizajai lapai. Pareizā lapa ir tā, kurā notiek jaunā darbība. Uzdevumu reģistrētājā ir ietverta aktīvās lapas noteikšanas funkcija, un, ja nav atvērta pareizā lapa, funkcionalitāte tiek atspējota. 
 
 [![tg1](./media/tg1.png)](./media/tg1.png) 
 
 
-Ja jums ir uz pareizo lapu, **ievietot soli** kļūst pieejama.
+Kad ir atvērta pareizā lapa, kļūst pieejama funkcija **Ievietot darbību**.
 
-[![TG2](./media/tg2-231x300.png)](./media/tg2.png)
+[![tg2](./media/tg2-231x300.png)](./media/tg2.png)
 
-2. Noklikšķiniet uz **ievietot soli**.
+2. Noklikšķiniet uz **Ievietot darbību**.
 
-Noklikšķinot uz **ievietot soli**, uzdevumu ierakstīšanas iekārta pārslēdzas uz ieraksta režīmā. Jebkādiem pasākumiem, kas veikti UI tagad būs jāreģistrē kā pievienotās vietas kā soļi.
+Kad noklikšķināt uz **Ievietot darbību**, uzdevumu reģistrētājs tiek pārslēgts reģistrēšanas režīmā. Tagad visas lietotāja interfeisā veiktās darbības tiek reģistrētas un pievienotas attiecīgajā vietā kā darbības.
 
-3. Noklikšķiniet uz **pārtraukt**.
+3. Noklikšķiniet uz **Apturēt**.
 
-Jūs varat atkārtot procesu, pievienojot tik daudzus soļus vai pārvietojas tik sub-uzdevumus pēc nepieciešamības (sub-uzdevumus skatiet tālāk).
+Varat atkārtot procesu, pievienojot visas nepieciešamās darbības vai pārvietojot visas nepieciešamās apakšdarbības (skatiet tālāk sniegto informāciju par apakšdarbībām).
 
-4. Kad esat pabeidzis rediģēt uzdevumu ceļvedi, noklikšķiniet uz **beidzis rediģēt**, un pēc tam izvēlieties vienu no iespējām saglabāt vai publicēt uzdevumu rokasgrāmata.
+4. Kad esat pabeidzis rediģēt uzdevuma ceļvedi, noklikšķiet uz **Rediģēšana pabeigta** un pēc tam izvēlieties kādu no opcijām, lai saglabātu vai publicētu uzdevuma ceļvedi.
 
-## <a name="move-steps-under-a-subtask-without-rerecording-the-entire-file"></a>Pārvietošanas darbības saskaņā ar apakšuzdevuma bez rerecording visu failu
-Jūs varat pārvietot darbības saskaņā ar pakārtoto uzdevumu bez demonstrēšanas vai ierakstīt vēlreiz visu failu. Pakārtoto uzdevumu soli vai beigu pakārtoto uzdevumu soli var pārvietot arī, ja vēlaties grupēt esošās bloka darbības.
+## <a name="move-steps-under-a-subtask-without-rerecording-the-entire-file"></a>Darbību pārvietošana uz apakšuzdevumu, nepārrakstot visu failu.
+Varat pārvietot darbības uz apakšuzdevumu, neatskaņojot un nepārrakstot visu failu. Varat arī pārvietot apakšuzdevuma darbību vai apakšuzdevuma beigšanas darbību, ja vēlaties grupēt esošu darbību kopu.
 
-1.  Atlasiet darbību vai pakārtoto uzdevumu solis, kuru vēlaties pārvietot. Pārliecinieties, vai šis solis tiek iezīmēts.
-2.  Noklikšķiniet uz Elipse un pēc tam noklikšķiniet uz **solis solis pēc**.
+1.  Atlasiet darbību vai apakšuzdevuma darbību, ko vēlaties pārvietot. Pārliecinieties, ka darbība ir iezīmēta.
+2.  Noklikšķiniet uz daudzpunktes un pēc tam noklikšķiniet uz **Pārvietot darbību aiz**.
 
-[![TG3](./media/tg3.png)](./media/tg3.png)
+[![tg3](./media/tg3.png)](./media/tg3.png)
 
-3. Atlasiet darbību vai pakārtoto uzdevumu solis, ko vēlaties pārvietot soli vai pakārtoto uzdevumu solis pēc. Uzdevuma rakstītāju pārvietosies solis.
+3. Atlasiet darbību vai apakšuzdevuma darbību, aiz kuras vēlaties pārvietot darbību vai apakšuzdevuma darbību. Uzdevumu reģistrētājs nodrošina darbības pārvietošanu.
 
-4. Lai pārvietotu pakārtoto uzdevumu galā soli, atlasiet to, noklikšķiniet uz Elipse, **solis solis pēc**, un pēc tam atlasiet, pēc kura vēlaties gala pakārtoto uzdevumu solis ir solis.
+4. Lai pārvietotu apakšuzdevuma beigšanas darbību, noklikšķiniet uz daudzpunktes, noklikšķiniet uz **Pārvietot darbību aiz** un pēc tam atlasiet darbību, aiz kuras ir jāatrodas apakšuzdevuma beigšanas darbībai.
 
-Ja vēlaties, lai sub-uzdevuma ietvaros ir uzdevums rokasgrāmata, vispirms, izveidot pakārtoto uzdevumu soli, kā otrais solis un tad pārvietoties pirmais solis. Varat pievienot vai pārvietot tik daudz darbības pakārtotie uzdevumi pēc nepieciešamības.
+Ja vēlaties, lai pirmā uzdevuma ceļveža darbība būtu ietverta apakšuzdevumā, izveidojiet apakšuzdevuma darbību kā otro darbību un pēc tam pārvietojiet uz to pirmo darbību. Varat pievienot vai pārvietot tik daudz darbību vai apakšuzdevumu, cik ir vajadzīgs.
 
-5. Kad esat pabeidzis rediģēt uzdevumu ceļvedi, noklikšķiniet uz **beidzis rediģēt**, un pēc tam izvēlieties vienu no iespējām saglabāt vai publicēt uzdevumu rokasgrāmata.
+5. Kad esat pabeidzis rediģēt uzdevuma ceļvedi, noklikšķiet uz **Rediģēšana pabeigta** un pēc tam izvēlieties kādu no opcijām, lai saglabātu vai publicētu uzdevuma ceļvedi.
 
-## <a name="collapse-recording-name-and-description"></a>Sakļaut ieraksta nosaukums un apraksts
-Var izvērst un sakļaut **ieraksta nosaukumu** un **ieraksta aprakstu** laukus. Kad šie lauki ir sakļauti, vairāk soļi būs redzams uzdevuma rakstītājam rediģēšanas rūti. 
+## <a name="collapse-recording-name-and-description"></a>Lauku Ieraksta nosaukums un ieraksta apraksts sakļaušana
+Varat izvērst un sakļaut laukus **Ieraksta nosaukums** un **Ieraksta apraksts**. Ja šie lauki ir sakļauti, uzdevumu reģistrētāja rediģēšanas rūtī ir redzams vairāk darbību. 
 
-[![TG4](./media/tg4-300x252.png)](./media/tg4.png)  
+[![tg4](./media/tg4-300x252.png)](./media/tg4.png)  
 
 <a name="see-also"></a>Skatiet arī
 --------
 
 [Dokumentācijas vai apmācības veidošana, izmantojot uzdevumu ierakstus](/dynamics365/operations/dev-itpro/user-interface/task-recorder)
 
-[Uzdevuma rakstītājs ātrai uzziņai](/dynamics365/operations/dev-itpro/user-interface/task-recorder-quick-reference)
+[Uzdevumu reģistrētāja ātrā atsauce](/dynamics365/operations/dev-itpro/user-interface/task-recorder-quick-reference)
 
 

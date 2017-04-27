@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="acquire-assets-through-procurement"></a>Līdzekļu iegādāšanās, izmantojot iepirkuma procesu
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā aprakstīts, ka var iestatīt saistību starp laukiem Pamatlīdzekļi un Kreditori, lai no pirkšanas pasūtījumiem vai kreditora rēķiniem automātiski izveidotu pamatlīdzekļus vai automātiski iegrāmatotu pamatlīdzekļu iegādes vai iegādes pielāgošanas transakcijas.
 
  Pamatlīdzekļu un kreditoru saistīšanai ir pieejamas tālāk aprakstītās metodes, un visiem pamatlīdzekļiem ir jāizmanto vienāda metode.
@@ -41,7 +44,7 @@ Neatkarīgi no tā, vai pamatlīdzekļi ir izveidoti manuāli, vai arī tiek izm
 
 Šajā tēmā apskatīta detalizēta informācija par katru metodi.
 
-## <a name="methods-for-manually-creating-fixed-assets"></a> Manuālai pamatlīdzekļu izveidošanai izmantojamās metodes
+## <a name="methods-for-manually-creating-fixed-assets"></a>Manuālai pamatlīdzekļu izveidošanai izmantojamās metodes
 Ja parametru lapā Pamatlīdzekļi ir atzīmēta opcija Atļaut līdzekļu iegādi iepirkuma procesā, iegrāmatojot kreditora rēķinu, kura rindās ir ievadīts pamatlīdzekļa numurs, iegāde tiek iegrāmatota automātiski un līdzekļa statuss mainās uz Atvērts. 
 
 Ja iegādi nevar iegrāmatot, iegādes transakciju var manuāli ievadīt parametru lapā Pamatlīdzekļi vai arī var izmantot iegādes piedāvājumu pamatlīdzekļu žurnālā, lai vienā reizē izveidotu vairākus iegādes transakciju ierakstus.
@@ -49,7 +52,7 @@ Ja iegādi nevar iegrāmatot, iegādes transakciju var manuāli ievadīt paramet
 > [!NOTE]                                                                                                                              
 > Ja parametru lapā Pamatlīdzekļi ir iestatīts ierobežojums, ka iegādes transakciju iegrāmatošanu var veikt kāda noteikta lietotāju grupa, jums ir jābūt šīs lietotāju grupas dalībniekam, lai varētu iegrāmatot rēķinos norādītās iegādes transakcijas.
 
-## <a name="methods-for-automatically-creating-fixed-assets"></a> Automātiskai pamatlīdzekļu izveidošanai izmantojamās metodes
+## <a name="methods-for-automatically-creating-fixed-assets"></a>Automātiskai pamatlīdzekļu izveidošanai izmantojamās metodes
 Iegrāmatojot produktu ieejas plūsmu, kuras rindai ir atzīmēta opcija Izveidot jaunu pamatlīdzekli, tiek izveidots jauns pamatlīdzeklis ar statusu Vēl nav iegādāts. Ja parametru lapā Pamatlīdzekļi ir iestatīta opcija, kas atļauj veikt līdzekļu iegādi no kreditoriem, un jūs esat lietotāju grupas, kas var iegrāmatot iegādes transakcijas, dalībnieks, iegrāmatojot kreditora rēķinu ar jaunu pamatlīdzekli, tiek iegrāmatota jauna pamatlīdzekļa iegādes transakcija un pamatlīdzekļa statuss mainās uz Atvērts. 
 
 Ja, iegrāmatojot produktu ieejas plūsmu, iepirkuma rindā nav atzīmēta opcija Jauns pamatlīdzeklis?, bet tā ir atzīmēta, iegrāmatojot kreditora rēķinu, un ja parametru lapā Pamatlīdzekļi ir iestatīta opcija, kas atļauj veikt izveidošanu un iegādāšanos, tiek izveidots jauns pamatlīdzeklis ar iegādes ar statusu Atvērts. Iegrāmatojot kreditora rēķinu, papildu līdzeklis netiek izveidots, ja tas jau ir izveidots, iegrāmatojot produktu ieejas plūsmu.
@@ -103,6 +106,8 @@ Tālāk norādītie ir šī scenārija varianti:
 -   Ja ir saņemts tikai daļējs daudzums, saskaņā ar lietotāju grupai noteiktajiem ierobežojumiem pēc pirmā kreditora rēķina netiek izveidots līdzekļa iegādes ieraksts. Iegādes, kas saistīta ar pasūtīto preču daudzumu noslēdzošo otro kreditora rēķinu, iegrāmatošanu var veikt tikai tad, ja iegādes transakcija ir jau ievadīta pēc pirmā kreditora rēķina un ja jūs esat lietotāju grupas, kam ir atļauta iegādes transakciju iegrāmatošana, dalībnieks.
 
 
-Lai iegūtu papildinformāciju, skatiet [fiksēto aktīvu integrāciju](fixed-asset-integration.md).
+Plašāku informāciju skatiet rakstā [Pamatlīdzekļu integrācija](fixed-asset-integration.md).
+
+
 
 

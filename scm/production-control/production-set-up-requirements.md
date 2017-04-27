@@ -29,9 +29,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="production-setup-requirements"></a>Ražošanas iestatījumu prasības
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegta informācija par iestatīšanas prasībām, kas jāievēro, lai varētu strādāt ar ražošanas kontroli. 
 
-Ražošanas procesa kontroles ir integrēta ar līdzekļiem, kas atrodas citos moduļos. Šīs savstarpējās saistīšanas iespējas jums ļauj mainīt ražošanas pasūtījumus un nodrošināt, ka tie automātiski tiek atjaunināti visos pārējos sistēmas saistītajos procesos un aprēķinos. Nākamās iestatīšanas procedūras ir uzskaitītas tādā secībā, kādā jums tās ir jāizpilda.
+Modulis Ražošanas kontrole ir integrēts citu moduļu līdzekļos. Šīs savstarpējās saistīšanas iespējas jums ļauj mainīt ražošanas pasūtījumus un nodrošināt, ka tie automātiski tiek atjaunināti visos pārējos sistēmas saistītajos procesos un aprēķinos. Nākamās iestatīšanas procedūras ir uzskaitītas tādā secībā, kādā jums tās ir jāizpilda.
 
 ## <a name="required-baseline-setup-in-other-modules"></a>Nepieciešamais bāzlīnijas iestatījums citos moduļos
 Lai varētu strādāt ar ražošanas kontroli, ir jāiestata informācija pārējos moduļos. Šajā iestatīšanā ir iekļauti tālāk minētie uzdevumi.
@@ -52,7 +55,7 @@ Pirms lietojat ražošanas kontroli, atveriet sadaļu Organizācijas administrē
 4.  **Resursi** — iestatiet operācijas resursus, lai definētu resursus, ko izmantot ražošanas procesu veikšanai un noslodzes plānošanai.
 
 ## <a name="required-production-parameters-setup"></a>Nepieciešamais ražošanas parametru iestatījums
-**Ražošanas kontroles parametrus** – iestatiet pamatražošanas parametrus, lai norādītu, kā sistēma apstrādā un pārstrādā ražošanas pasūtījumus. Definējiet veidu, kā ražošanas pasūtījumi tiek izveidoti, novērtēti, plānoti un patērēti. Varat arī atlasīt, kāda veida atsauksmes vēlaties un kā veikt izmaksu uzskaiti.
+**Ražošanas kontroles parametri** — iestatiet ražošanas pamata parametrus, lai definētu, kā sistēmā tiek izmantoti un apstrādāti ražošanas pasūtījumi. Definējiet veidu, kā ražošanas pasūtījumi tiek izveidoti, novērtēti, plānoti un patērēti. Varat arī atlasīt, kāda veida atsauksmes vēlaties un kā veikt izmaksu uzskaiti.
 
 ## <a name="required-journal-name-identification"></a>Nepieciešamā žurnāla nosaukuma identifikācija
 **Ražošanas žurnāla nosaukumi** — norādiet ražošanas žurnālu nosaukumus, kas tiek izmantoti, lai ierakstītu un grāmatotu transakcijas.
@@ -76,6 +79,8 @@ Ja strādājat ar maršrutiem, tad operācijas ir nepieciešams definēt katram 
 1.  **Ražošanas grupas** — iestatiet ražošanas grupas, lai izveidotu relācijas starp ražošanas pasūtījumu un virsgrāmatas kontiem. Virsgrāmatas konti tiek izmantoti, lai pasūtījumus grāmatotu vai tos grupētu atskaišu veidošanai.
 2.  **Ražošanas kopas** — izveidojiet ražošanas pūlus, lai grupētu ražošanas pasūtījumus; šādi varat apstrādāt steidzamus ražošanas pasūtījumus vai dzēst un grāmatot pasūtījumu grupas.
 3.  **Rekvizīti** — definējiet rekvizītus, lai izveidotu īpašus atribūtus, kurus varat piešķirt saviem resursiem, lai kontrolētu ražošanas secību. Šie atribūti ir savienoti ar darba laiku veidni.
+
+
 
 
 

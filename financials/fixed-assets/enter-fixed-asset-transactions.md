@@ -1,5 +1,5 @@
 ---
-title: "Pamatlīdzekļa darbības opcijas"
+title: "Pamatlīdzekļu transakciju opcijas"
 description: "Šajā rakstā ir aprakstītas dažādās metodes, kas ir pieejamas pamatlīdzekļu transakciju izveidošanai."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="fixed-asset-transaction-options"></a>Pamatlīdzekļa darbības opcijas
+# <a name="fixed-asset-transaction-options"></a>Pamatlīdzekļu transakciju opcijas
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir aprakstītas dažādās metodes, kas ir pieejamas pamatlīdzekļu transakciju izveidošanai.
 
@@ -36,7 +39,7 @@ Varat iestatīt pamatlīdzekļus, lai integrētu ar kreditoriem, debitoriem, sag
 Pamatlīdzekļu transakcijas varat ievadīt lapā Žurnāla dokuments. Šo lapu var atvērt tikai no lapas Rēķinu žurnāls. Lapu Žurnāla dokuments varat atvērt arī no lapas Rēķinu apstiprināšanas žurnāls. Laukā Korespondējošā konta tips atlasiet Pamatlīdzekļi. Pēc tam laukā Korespondējošais konts atlasiet pamatlīdzekļa numuru. Cilnē Pamatlīdzekļi ievadiet vērtības laukos Transakcijas tips un Grāmata.
 
 ## <a name="accounts-receivable"></a>Debitoru parādi
-Pamatlīdzekļu darbības var ievadīt brīvā teksta rēķinu lapas.  Brīva teksta rēķina lapu rēķina rindas režģī atlasiet rindas elements. Noklikšķiniet uz kopsavilkuma cilnes Detalizēta informācija par rindu. Ievadiet norakstīšanas transakcijas pamatlīdzekļa numuru un grāmatu. Brīvā teksta rēķiniem pamatlīdzekļa transakcijas tips vienmēr ir Norakstīšana - pārdošana.
+Pamatlīdzekļu transakcijas varat ievadīt lapā Brīva teksta rēķins.  Lapā Brīva teksta rēķins, režģī Rēķina rindas atlasiet kādu rindas krājumu. Noklikšķiniet uz kopsavilkuma cilnes Detalizēta informācija par rindu. Ievadiet norakstīšanas transakcijas pamatlīdzekļa numuru un grāmatu. Brīvā teksta rēķiniem pamatlīdzekļa transakcijas tips vienmēr ir Norakstīšana - pārdošana.
 
 ## <a name="procurement-and-sourcing"></a>Sagāde un avoti
 Pamatlīdzekļu transakcijas varat ievadīt lapā Pirkšanas pasūtījums. Ievadiet nepieciešamo informāciju, lai izveidotu pirkšanas pasūtījumu, un pēc tam noklikšķiniet uz Labi. Lapā Pirkšanas pasūtījums noklikšķiniet uz kopsavilkuma cilnes Detalizēta informācija par rindu. Pēc tam cilnē Pamatlīdzekļi ievadiet informāciju par pamatlīdzekli. 
@@ -65,6 +68,8 @@ Jebkuru pamatlīdzekļa transakcijas tipu var grāmatot lapā Virsgrāmatas žur
 
 
 
-Lai iegūtu papildinformāciju, skatiet [fiksēto aktīvu integrāciju](fixed-asset-integration.md).
+Plašāku informāciju skatiet rakstā [Pamatlīdzekļu integrācija](fixed-asset-integration.md).
+
+
 
 

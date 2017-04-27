@@ -1,6 +1,6 @@
 ---
-title: "Jaunā uzdevuma guides (februārī 2016)"
-description: "Šajā wiki saraksti uzdevums palīglīdzekļi, kas tika izlaists Microsoft BPM bibliotēkās gada februārī 2016.  Bibliotēkas, kuras tika publicētas iekļaut (februārī 2016) APQC vienotās bibliotēku Microsoft Dynamics 365 operāciju un (februārī 2016) iesākumam."
+title: "Jauni uzdevumu ceļveži (2016. gada februāris)"
+description: "Šajā vikivietnē ir norādīti uzdevumu ceļveži, kas tika izlaisti Microsoft BMP bibliotēkās 2016. gada februārī.  Tika publicētas šādas bibliotēkas: APQC vienotā bibliotēka programmatūrai Microsoft Dynamics 365 for Operations (2016. gada februāra laidiens) un Darba sākšana (2016. gada februāra laidiens)."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-task-guides-february-2016"></a>Jaunā uzdevuma guides (februārī 2016)
+# <a name="new-task-guides-february-2016"></a>Jauni uzdevumu ceļveži (2016. gada februāris)
 
-Šajā wiki saraksti uzdevums palīglīdzekļi, kas tika izlaists Microsoft BPM bibliotēkās gada februārī 2016.  Bibliotēkas, kuras tika publicētas iekļaut (februārī 2016) APQC vienotās bibliotēku Microsoft Dynamics 365 operāciju un (februārī 2016) iesākumam.
+Šajā vikivietnē ir norādīti uzdevumu ceļveži, kas tika izlaisti Microsoft BMP bibliotēkās 2016. gada februārī.  Tika publicētas šādas bibliotēkas: APQC vienotā bibliotēka programmatūrai Microsoft Dynamics 365 for Operations (2016. gada februāra laidiens) un Darba sākšana (2016. gada februāra laidiens).
 
-<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>Rokasgrāmatas uzdevumu (februārī 2016) APQC vienotās bibliotēku Microsoft Dynamics 365 operācijām
+<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics 365 for Operations (2016. gada februāra laidienā) ietvertie uzdevumu ceļveži
 ---------------------------------------------------------------------------------
 
-(February 2016) APQC vienotās bibliotēku satur uzdevumu palīglīnijas, ko paredzēts izmantot palīdzību Dynamics 365 par operācijas 7.0.0 atbrīvot. Ja nepieciešams lokalizētajās versijās šīs rokasgrāmatas uzdevumu, tie ir pieejami (maija 2016) APQC vienotās bibliotēku Microsoft Dynamics 365 operācijām. Papildinformāciju, kā savienot palīdzības sistēmas uzdevumu rokasgrāmata bibliotēku, skatiet [Iepazīstieties ar palīdzības](help-overview.md).
+APQC vienotajā bibliotēkā (2016. gada februāra laidienā) ir ietverti uzdevumu ceļveži, ko ir paredzēts izmantot kā palīdzības materiālus kopā ar Dynamics 365 for Operations versiju 7.0.0. Ja jums ir vajadzīgas šo uzdevumu ceļvežu lokalizētās versijas, tās ir pieejamas APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics 365 for Operations (2016. gada maija laidienā). Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Darba sākšana ar palīdzības sistēmu](help-overview.md).
 
 ### <a name="accounts-payable"></a>Kreditoru parādi
 
@@ -531,7 +531,7 @@ ms.lasthandoff: 03/31/2017
 | Pievienot aprēķinu preces konfigurācijas modelim    | Globālais             |
 | Apstiprināt preces konfigurācijas modeli                 | Globālais             |
 | Izpildīt izlaistas preces šablona pamata iestatīšanu | Globāls             |
-| Izveidot... \financial-dimensions\dimension-Based produktu pamata               | Globāls             |
+| Uz dimensijām balstītas preces šablona izveide               | Globāls             |
 | Izveidot preču klasifikācijas hierarhiju          | Globālais             |
 | Izveidot preces konfigurācijas modeli                  | Globālais             |
 | Izveidot preces šablonu                               | Globālais             |
@@ -544,7 +544,7 @@ ms.lasthandoff: 03/31/2017
 | Preces konfigurācijas modeļa MK uzturēšana        | Globālais             |
 | Preces modeļa maršruta uzturēšana                    | Globāls             |
 | Izlaisto preču pārvaldība                              | Globāls             |
-| Presei... \financial-dimensions\dimension-Based produktu pamata              | Globāls             |
+| Uz dimensijām balstītas preces šablona izlaide              | Globāls             |
 | Datu pārsūtīšana par preču modeļiem                      | Globālais             |
 
  
@@ -718,10 +718,10 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Jaunu vai atjauninātu uzdevumu ceļveži (maija 2016)](new-updated-task-guides-available-may-2016.md)
+[Jauni vai atjaunināti uzdevumu ceļveži (2016. gada maijs)](new-updated-task-guides-available-may-2016.md)
 
-[Jaunu vai atjauninātu uzdevumu ceļveži (August 2016)](new-updated-task-guides-available-august-2016.md)
+[Jauni vai atjaunināti uzdevumu ceļveži (2016. gada augusts)](new-updated-task-guides-available-august-2016.md)
 
-[Jaunu vai atjauninātu uzdevumu ceļveži (2016. gada novembrī)](new-task-guides-november-2016.md)
+[Jauni vai atjaunināti uzdevumu ceļveži (2016. gada novembris)](new-task-guides-november-2016.md)
 
 

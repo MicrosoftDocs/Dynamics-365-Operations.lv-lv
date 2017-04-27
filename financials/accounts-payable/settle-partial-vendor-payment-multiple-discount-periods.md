@@ -1,5 +1,5 @@
 ---
-title: "Nokārtot daļēju kreditora maksājumam, kurš ir vairāku atlaižu periodus"
+title: "Daļēju kreditora maksājumu nosegšana, kam ir vairāki atlaižu periodi"
 description: "Šajā rakstā ir aprakstīts scenārijs, kurā tiek veikti vairāki daļējie maksājumi kreditoram, kas piedāvā vairākas termiņatlaides."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Nokārtot daļēju kreditora maksājumam, kurš ir vairāku atlaižu periodus
+# <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Daļēju kreditora maksājumu nosegšana, kam ir vairāki atlaižu periodi
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir aprakstīts scenārijs, kurā tiek veikti vairāki daļējie maksājumi kreditoram, kas piedāvā vairākas termiņatlaides. 
 
 Kreditors 3054 piedāvā uzņēmumam Fabrikam termiņatlaidi 2 procentu apmērā, ja rēķins tiek apmaksāts piecu dienu laikā, un termiņatlaidi 1 procenta apmērā, ja rēķins tiek apmaksāts 14 dienu laikā.
 
 ## <a name="invoice"></a>Rēķins
-Gada 28. jūnijā, aprīlī izveido 1000,00 3054 kreditora rēķinu. Eiprila var skatīt šo transakciju lapā **Debitoru transakcijas**.
+Eiprila 28. jūnijā izveido kreditoram 3054 rēķinu par summu 1000,00. Eiprila var skatīt šo transakciju lapā **Debitoru transakcijas**.
 
 | Dokuments   | Datums      | Rēķins | Summa transakcijas valūtas debetā | Summa transakcijas valūtas kredītā | Bilance   | Valūta |
 |-----------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
@@ -48,7 +51,7 @@ Gada 28. jūnijā, aprīlī izveido 1000,00 3054 kreditora rēķinu. Eiprila var
 | 25.07.2015          | 0,00                 | 1000,00                       |
 
 ## <a name="payment-on-july-2"></a>Maksājums 2. jūlijā
-Gada 2. jūlijā, aprīlī grib maksāt 300,00 pret šo rēķinu. Viņa rada vienreizēju maksājumu, izmantojot **maksājumu žurnāla** lapu apgāde. Viņa pievieno rindu kreditoram 3054 un ievada maksājuma summu **300,00**. Pēc tam Eiprila atver lapu **Transakciju nosegšana**, lai varētu iezīmēt apmaksājamo rēķinu. Viņa atjaunina lauka **Nosedzamā summa** vērtību uz **300,00** un pamana, ka lauka **Ņemamā termiņatlaides summa** vērtība tiek mainīta uz **6,12**. Tā kā šis maksājums tiek veikts pirmajā atlaides periodā, tiek lietota atlaide 2 procentu apmēra.
+2. jūlijā Eiprila vēlas samaksāt summu 300,00 par šo rēķinu. Viņa izveido vienreizēju maksājumu, izmantojot moduļa Kreditoru parādi lapu **Maksājumu žurnāls**. Viņa pievieno rindu kreditoram 3054 un ievada maksājuma summu **300,00**. Pēc tam Eiprila atver lapu **Transakciju nosegšana**, lai varētu iezīmēt apmaksājamo rēķinu. Viņa atjaunina lauka **Nosedzamā summa** vērtību uz **300,00** un pamana, ka lauka **Ņemamā termiņatlaides summa** vērtība tiek mainīta uz **6,12**. Tā kā šis maksājums tiek veikts pirmajā atlaides periodā, tiek lietota atlaide 2 procentu apmēra.
 
 | Atzīmēt | Izmantot termiņatlaidi | Dokuments   | Konts | Datums      | Izpildes datums  | Rēķins | Summa darījuma valūtā | Valūta | Nosedzamā summa |
 |------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -134,6 +137,8 @@ Lapā **Kreditoru darbības** Eiprila redz, ka jaunā bilance ir 200,00.
 | APP-10061  | 12.07.2015 |         | 495,00                               |                                       | 0,00    | USD      |
 | DISC-10061 | 12.07.2015 |         | 5,00                                 |                                       | 0,00    | USD      |
 | APP-10062  | 20.07.2015 |         | 200,00                               |                                       | 0,00    | USD      |
+
+
 
 
 

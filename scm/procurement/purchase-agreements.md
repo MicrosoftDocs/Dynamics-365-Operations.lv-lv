@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-agreements"></a>Pirkšanas līgumi
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegta informācija par pirkšanas līgumiem. Pirkšanas līgums ir līgums, kas nosaka, ka organizācijai ir jānopērk noteikts daudzums vai jāiztērē noteikta summa, laika gaitā izmantojot vairākus pirkšanas pasūtījumus. Apmaiņā pret šīm saistībām pircējs saņem īpašas cenas un atlaides. 
 
 Pirkšanas līgumi var attiekties uz noteiktu preces daudzumu, noteiktu preces summu valūtā vai noteiktu preču summu valūtā kādā sagādes kategorijā. Pārdošanas līguma cenām un atlaidēm ir prioritāte pār cenām un atlaidēm, kas ir norādītas jebkuros jau pastāvošajos tirdzniecības līgumos.  
@@ -70,7 +73,7 @@ Apgabalā **Līgums** tiek rādīts kopējais daudzums vai kopējā summa, kāda
 Pirkšanas pasūtījuma rindām un rēķina rindām, kas tiek izmantotas izpildes aprēķināšanai, varat piekļūt, attiecīgajās rindās vai pirkšanas līguma virsrakstā atlasot darbību **Saistītā informācija**.
 
 ## <a name="confirmations-and-version-history-for-purchase-agreements"></a>Pirkšanas līgumu apstiprinājumi un versiju vēsture
-Apstiprinot pirkšanas līgumu, tā pašreizējā versija tiek saglabāta vēstures tabulā un tai tiek piešķirts versijas numurs. Ja maināt pirkšanas līgumu, jūs varat apstiprināt to vēlreiz, lai vēsturē saglabātu citu pirkšanas līguma versiju. Ja jums nav apstiprināt pirkuma līgums, tomēr to var izmantot, lai izveidotu POs. Tomēr netiek glabāti vēstures informācija par pirkuma līgumu. Varat priekšskatīt vai drukāt visas līguma versijas. Pēc tam pārskatījumus varat koplietot ar kreditoru, lai saņemtu apstiprinājumu.
+Apstiprinot pirkšanas līgumu, tā pašreizējā versija tiek saglabāta vēstures tabulā un tai tiek piešķirts versijas numurs. Ja maināt pirkšanas līgumu, jūs varat apstiprināt to vēlreiz, lai vēsturē saglabātu citu pirkšanas līguma versiju. Ja neapstiprināt pirkšanas līgumu, joprojām varat to izmantot, lai izmantotu pirkšanas pasūtījumus. Tomēr pirkšanas līguma vēstures informācija netiek saglabāta. Varat priekšskatīt vai drukāt visas līguma versijas. Pēc tam pārskatījumus varat koplietot ar kreditoru, lai saņemtu apstiprinājumu.
 
 ## <a name="applying-purchase-agreements-in-the-ordering-process"></a>Pirkšanas līgumu lietošana pasūtīšanas procesā
 Kad veidojat pirkšanas pasūtījumu, varat tam lietot pirkšanas līgumu. Pēc tam informācija no līguma nosacījumiem, piemēram, maksājumu nosacījumi, piegādes nosacījumi un piegādes adrese, tiek kopēta uz pirkšanas pasūtījuma galveni. Ja pirkšanas pasūtījumā ir viena vai vairākas rindas precēm vai kategorijām, uz ko attiecas šis līgums, šajās rindās tiek izmantotas cenas un atlaides no pirkšanas līguma. Summa vai daudzums pasūtījuma rindā tiek izmantots saistību pildīšanai pirkšanas līgumā. Vienā pirkšanas pasūtījumā var iekļaut gan rindas, kas nav saistītas ar pirkšanas līgumu, gan rindas, kas ir saistītas ar pirkšanas līgumu.  
@@ -91,8 +94,10 @@ Finanšu dimensijas varat kopēt pirkšanas līguma dokumentu galvenēs vai atse
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Izveidot pirkšanas līgumu (uzdevuma norādījumi)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-agreement/)
+[Pirkšanas līguma izveide (uzdevuma ceļvedis)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-agreement/)
 
-[Pirkšanas izpildpasūtījumu izveide no pirkuma līgumu (uzdevuma norādījumi)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-release-order-from-a-purchase-agreement/)
+[Pirkšanas izpildpasūtījuma izveide no pirkšanas līguma (uzdevuma ceļvedis)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-release-order-from-a-purchase-agreement/)
+
+
 
 

@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="round-off-amount-for-depreciation-calculations"></a>Noapaļotas nolietojuma aprēķinu summas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir izskaidrots lauks Nolietojuma noapaļošana, kas redzams lapā Grāmatas iestatīšana.
 
-Noapaļot nolietojuma summas ir norādītas katrai grāmatai. Noapaļot nolietojuma summas, kas tiek izmantoti pamatlīdzekļu nolietojuma tabulu, kas parāda nākotnes nolietojumu un pamatlīdzekļa vērtību, kā arī nolietojuma priekšlikumus. Ievadiet mazāko nolietojuma summu, kura ir atļauta šai grāmatai. 
+Katrai grāmatai tiek iestatītas noapaļotas nolietojuma summas. Noapaļotās nolietojuma summas tiek izmantotas pamatlīdzekļa nolietojuma profilā, kurā ir norādīts turpmākais pamatlīdzekļa nolietojums un vērtība, kā arī nolietojuma aprēķināšanas piedāvājumos. Ievadiet mazāko nolietojuma summu, kura ir atļauta šai grāmatai. 
 
 Neatkarīgi no iestatītajiem noapaļošanas kritērijiem, nolietojuma summa pēdējā nolietojuma periodā netiek noapaļota. Pēdējā nolietojuma perioda beigās pamatlīdzekļa vērtībai jābūt 0 (nulle) vai jāsasniedz lūžņu vērtība, ja tā tiek izmantota.
 
@@ -43,6 +46,8 @@ Nolietojums bez noapaļošanas ir aprēķināts par summu 2444,44. Saskaņā ar 
 | Noapaļoš 1,00   | 2444,00            |
 | Noapaļoš 10,00  | 2440,00            |
 | Noapaļoš 100,00 | 2400,00            |
+
+
 
 
 

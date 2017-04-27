@@ -1,6 +1,6 @@
 ---
 title: "Vispārējie plāni"
-description: "Lietot dažādus vispārējos plānus, lai atbalstītu uzņēmuma ikdienas darba operācijas, simulētu dažādas plānošanas stratēģijas, kurās vēlaties pārraudzīt un īstenotu uzņēmuma politiku, piemēram, politikas par iekšējo veiktspēju vai debitora apmierināšanu."
+description: "Izmantojiet dažādus vispārējos plānus, lai atbalstītu uzņēmuma ikdienas darba operācijas, simulētu dažādas plānošanas stratēģijas, ko vēlaties pārraudzīt, un īstenotu uzņēmuma politiku, piemēram, attiecībā uz iekšējo veiktspēju vai debitoru apmierinātību."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="master-plans"></a>Vispārējie plāni
 
-Lietot dažādus vispārējos plānus, lai atbalstītu uzņēmuma ikdienas darba operācijas, simulētu dažādas plānošanas stratēģijas, kurās vēlaties pārraudzīt un īstenotu uzņēmuma politiku, piemēram, politikas par iekšējo veiktspēju vai debitora apmierināšanu. 
+[!include[banner](../includes/banner.md)]
+
+
+Izmantojiet dažādus vispārējos plānus, lai atbalstītu uzņēmuma ikdienas darba operācijas, simulētu dažādas plānošanas stratēģijas, ko vēlaties pārraudzīt, un īstenotu uzņēmuma politiku, piemēram, attiecībā uz iekšējo veiktspēju vai debitoru apmierinātību. 
 
 Vispārējos plānus varat konfigurēt lapā **Vispārējie plāni**.
 
@@ -50,8 +53,10 @@ Varat arī iestatīt sākotnējo dinamisko plānu tā, lai tas tiktu atjaunots a
 
 [Vajadzības iestatījumi](coverage-settings.md)
 
-[Šķir, taktisko un operatīvo plānošanu vispārējā (grafika) plānošanā](http://blogs.msdn.com/b/axmfg/archive/2012/10/12/separating-tactical-and-operative-planning-for-master-scheduling.aspx)
+[Taktiskās un operatīvās plānošanas nošķiršana vispārējās plānošanas ietvaros](http://blogs.msdn.com/b/axmfg/archive/2012/10/12/separating-tactical-and-operative-planning-for-master-scheduling.aspx)
 
-[Vispārējā plānošana: Lietojiet statisko un dinamisko vispārējo plānu vai izmantot vienu plānu?](https://community.dynamics.com/ax/b/msdynaxlessonslearned/archive/2014/01/16/master-planning-use-a-static-and-dynamic-master-plan-or-use-one-plan)
+[Vispārējā plānošana: vai izmantot statisko un dinamisko vispārējo plānu vai izmantot vienu plānu?](https://community.dynamics.com/ax/b/msdynaxlessonslearned/archive/2014/01/16/master-planning-use-a-static-and-dynamic-master-plan-or-use-one-plan)
+
+
 
 

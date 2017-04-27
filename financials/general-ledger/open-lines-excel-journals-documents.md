@@ -1,6 +1,6 @@
 ---
-title: "Publicētu žurnāla rindās un dokumentus no Excel"
-description: "Šajā tēmā izskaidrots, kā ievadīt un publicēt rindas Virsgrāmatas žurnālos no programmas Microsoft Excel. Tas ietver informāciju par dažādām veidnes, kuras var izmantot, atkarībā no tā, kāda veida darbības, kas jūs ievadot."
+title: "Žurnālu rindu un dokumentu publicēšana programmā Excel"
+description: "Šajā tēmā ir paskaidrots, kā ievadīt un publicēt Virsgrāmatas žurnālu rindas programmā Microsoft Excel. Tajā ir ietverta informācija par dažādajām veidnēm, ko varat izmantot atkarībā no ievadītās transakcijas veida."
 author: twheeloc
 manager: AnnBe
 ms.date: 2017-04-04
@@ -25,28 +25,28 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="publish-journal-lines-and-documents-from-excel"></a>Publicētu žurnāla rindās un dokumentus no Excel
+# <a name="publish-journal-lines-and-documents-from-excel"></a>Žurnālu rindu un dokumentu publicēšana programmā Excel
 
-Šajā tēmā izskaidrots, kā ievadīt un publicēt rindas Virsgrāmatas žurnālos no programmas Microsoft Excel. Tas ietver informāciju par dažādām veidnes, kuras var izmantot, atkarībā no tā, kāda veida darbības, kas jūs ievadot.
+Šajā tēmā ir paskaidrots, kā ievadīt un publicēt Virsgrāmatas žurnālu rindas programmā Microsoft Excel. Tajā ir ietverta informācija par dažādajām veidnēm, ko varat izmantot atkarībā no ievadītās transakcijas veida.
 
-Lietotāji var ievadīt un publicēt finanšu žurnālos no programmas Microsoft Excel rindas. Pēc tam, kad lietotājs izveido žurnāla **līnijas atvēršana programmā Excel** pogas, tiek parādīts veidnes, kas pieejamas. Veidnes ir paredzētas, lai atbalstītu noteiktu scenāriju, tomēr ne katra konta tipu kombinācija tiek atbalstīta žurnālā. Šajā tabulā apskatāms, veidnēm, kas pieejamas un kontu tipiem, kas tās atbalsta.
+Lietotāji var ievadīt un publicēt finanšu žurnālu rindas programmā Microsoft Excel. Pēc tam, kad lietotājs ir izveidojis žurnālu, izmantojot pogu **Atvērt rindas programmā Excel**, var skatīt pieejamās veidnes. Veidnes ir izstrādātas noteiktiem scenārijiem, taču žurnālā netiek atbalstītas visas konta veidu kombinācijas. Tālāk esošajā tabulā ir redzamas pieejamās veidnes un to atbalstītie kontu veidi.
 |                          |                                                                                                                         |                                                                                         |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| **Template**             | **Atbalstīto kontu tipi**                                                                                             | **Kā piekļūt veidni**                                                          |
-| Virsgrāmatas žurnāla rindas     | Konts: Virsgrāmatas, klientu, piegādātāju, bankas korespondējošais konts: Virsgrāmatas, klientu, piegādātāju, bankas starpuzņēmumu tiek atbalstīts.       | Virsgrāmatas žurnāls                                                                         |
-| Rēķinu reģistrs         | Konts: Kreditora korespondējošais konts: starpuzņēmumu virsgrāmatu nav atbalstīts.                                                    | Kreditoru rēķinu reģistrs                                                                     |
-| Rēķinu žurnāls          | Konti: Kreditora korespondējošais konts: starpuzņēmumu Virsgrāmatas tiek atbalstīts.                                                      | Kreditora rēķinu žurnāls                                                                      |
+| **Veidne**             | **Atbalstītie kontu veidi**                                                                                             | **Piekļuve veidnei**                                                          |
+| Virsgrāmatas žurnāla rindas     | Konts: Virsgrāmata, Debitors, Kreditors, Banka Korespondējošais konts: Virsgrāmata, Debitors, Kreditors, Banka Tiek atbalstīti starpuzņēmumu konti       | Virsgrāmatas žurnāls                                                                         |
+| Rēķinu reģistrs         | Konts: Kreditors Korespondējošais konts: Virsgrāmata Starpuzņēmumu konti netiek atbalstīti                                                    | Parādu kreditoriem rēķinu reģistrs                                                                     |
+| Rēķinu žurnāls          | Konti: Kreditors Korespondējošais konts: Virsgrāmata Tiek atbalstīti starpuzņēmumu konti                                                      | Kreditora rēķinu žurnāls                                                                      |
 | Kreditora rēķins           |                                                                                                                         | Kreditora rēķins                                                                          |
-| Debitoru rēķinu žurnāls | Konts: Klientu korespondējošais konts: starpuzņēmumu Virsgrāmatas tiek atbalstīts.                                                     | Virsgrāmatas žurnāls                                                                         |
-| Brīva teksta rēķins        |                                                                                                                         | Par **brīvā teksta rēķina** lapu, noklikšķiniet uz **atvērta programmā Excel** (Microsoft Office ikonu). |
-| Pamatlīdzekļu žurnāls     | Pamatlīdzeklis, lai grāmatas, bankas, klientu vai piegādātāju. Starpuzņēmumu vai nav atbalstīta.                                               | Pamatlīdzekļu žurnāls                                                                     |
-| Kreditoru maksājumu žurnāls   | Konts: Kreditora korespondējošais konts: grāmatas, bankas starpuzņēmumu tiek atbalstīts.                                                 | Kreditoru maksājumu žurnāls                                                                  |
-| Debitoru maksājumu žurnāls | Konts: Klientu korespondējošais konts: grāmatas, bankas starpuzņēmumu tiek atbalstīts.                                               | Debitoru maksājumu žurnāls                                                                |
-| Projekta izdevumu žurnāls  | Konts: Projektu Virsgrāmatas, klientu, kreditora korespondējošais konts: tiek atbalstīts projekts, Virsgrāmatas, klientu, piegādātāju starpuzņēmumu. | Virsgrāmatas žurnāla izdevumu (saskaņā ar projekta vadības un grāmatvedības)                       |
+| Debitoru rēķinu žurnāls | Konts: Debitors Korespondējošais konts: Virsgrāmata Tiek atbalstīti starpuzņēmumu konti                                                     | Virsgrāmatas žurnāls                                                                         |
+| Brīva teksta rēķins        |                                                                                                                         | Lapā **Brīva teksta rēķins** noklikšķiniet uz **Atvērt programmā Excel** (Microsoft Office ikona). |
+| Pamatlīdzekļu žurnāls     | Virsgrāmatas, bankas, debitora vai kreditora līdzeklis. Starpuzņēmumu konti netiek atbalstīti.                                               | Pamatlīdzekļu žurnāls                                                                     |
+| Kreditoru maksājumu žurnāls   | Konts: Kreditors Korespondējošais konts: Virsgrāmata, banka Tiek atbalstīti starpuzņēmumu konti                                                 | Kreditoru maksājumu žurnāls                                                                  |
+| Debitoru maksājumu žurnāls | Konts: Debitors Korespondējošais konts: Virsgrāmata, Banka Tiek atbalstīti starpuzņēmumu konti                                               | Debitoru maksājumu žurnāls                                                                |
+| Projekta izdevumu žurnāls  | Konts: Projekts, Virsgrāmata, Debitors, Kreditors Korespondējošais konts: Projekts, Virsgrāmata, Debitors, Kreditors Tiek atbalstīti starpuzņēmumu konti | Virsgrāmatas žurnāla izdevumi (Sadaļā Projektu vadība un uzskaite)                       |
 
-Publicējot līnijas, tie tiek pārbaudīti, lai pārliecinātos, ka tās atbilst noteikumiem, kas iestatīti finanšu žurnālos. Pēc tam, kad ir publicētas līnijām, lietotāji var rediģēt vai grāmatot dokumentus no Microsoft Dynamics 365 operācijām. 
+Kad rindas tiek publicētas, tās tiek validētas, lai pārliecinātos, ka tās atbilst finanšu žurnālos iestatītajām kārtulām. Pēc rindu publicēšanas lietotāji var rediģēt vai grāmatot dokumentus programmatūrā Microsoft Dynamics 365 for Operations. 
 
-Lai pievienotu veidni finanšu dimensijas, nepieciešami papildu izmaiņas. Lai iegūtu papildu informāciju, skatiet [Microsoft Excel veidnei pievienotu dimensijas](\dev-itpro\financial-dimensions\add-dimensions-excel-templates). Pēc dimensijām tiek pievienoti entītijas, tie ir pieejami programmā Excel dizainers un var pievienot veidnei.
+Lai pievienotu veidnei finanšu dimensijas, ir jāveic papildu izmaiņas. Papildinformāciju skatiet tēmā [Dimensiju pievienošana Microsoft Excel veidnei](\dev-itpro\financial-dimensions\add-dimensions-excel-templates). Pēc dimensiju pievienošanas elementam tās ir pieejamas Excel veidotājā un tās var pievienot veidnei.
 
 
 

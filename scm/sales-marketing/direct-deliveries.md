@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="direct-deliveries"></a>Tiešās piegādes
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegta informācija par tiešajām piegādēm. Tiešās piegādes ir tādas piegādes, kas no kreditora tiek nosūtītas tieši debitoram.
 
 Tiešās piegādes ietaupa piegādes laiku un samazina izmaksas, kas ir saistītas ar krājuma pārvadāšanu, jo pirms preču nosūtīšanas debitoram tās nav jāuzglabā noliktavā.  
@@ -49,5 +52,7 @@ Ja mēģināt dzēst pārdošanas pasūtījuma rindu, kuras piegādes veids ir *
 
 ## <a name="warehouse"></a>Noliktava
 Kad veidojat tiešo piegādi, jūsu pārdotie krājumi nekad fiziski netiek ievesti noliktavā. Tomēr pārdošanas pasūtījuma rindā tik un tā ir jānorāda noliktava. Tāpat arī attiecīgajam krājumam krājumu modeļu grupā var būt norādītas izsniegšanas prasībās. Tā kā krājumi nekad fiziski netiek ievesti noliktavā, šīs prasības tiek ignorētas, ja pārdošanas pasūtījumam izmantojat tiešo piegādi.
+
+
 
 

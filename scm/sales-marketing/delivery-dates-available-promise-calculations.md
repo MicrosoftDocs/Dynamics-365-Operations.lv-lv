@@ -28,23 +28,26 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="order-promising"></a>Pasūtījumu solīšana
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegta informācija par pasūtījuma solīšanu. Pasūtījuma solīšana jums palīdz saviem klientiem droši apsolīt piegādes datumus un nodrošina elastību, lai jūs spētu ievērot solītos datumus.
 
 Pasūtījumu solīšana aprēķina agrākos nosūtīšanas un saņemšanas datumus, un tā ir balstīta uz piegādes datuma kontroles metodi un transportēšanas dienām. Varat izvēlēties no četrām piegādes datuma kontroles metodēm:
 
--   **Pārdošanas izpildes laiks** -pārdošanas izpildes laiks ir laiks starp pārdošanas pasūtījuma izveidi un preču nosūtīšanas. Piegādes datumu aprēķina pamatā ir noklusējuma vairākas dienas un neuzskata par krājumu pieejamību, zināmu pieprasījuma vai plānoto piegādes.
--   **ATP (pieejams solīšanai)** -ATP ir daudzums krājumu, kas ir pieejama, un klients var solīja noteiktā datumā. ATP aprēķinā tiek iekļauti nesaistītie krājumi, izpildes laiki, plānotās ieejas plūsmas un izejas plūsmas.
--   **ATP + Izejas plūsmas rezerve **— nosūtīšanas datums ir vienāds ar ATP datumu, pieskaitot krājuma izejas plūsmas rezervi. Izejas plūsmas rezerve ir laiks, kas ir nepieciešams, lai krājumus sagatavotu sūtīšanai.
--   **CTP (pieejams solīšanai) **— pieejamība tiek aprēķināta, izmantojot izvēršanu.
+-   **Pārdošanas izpildes laiks** — pārdošanas izpildes laiks ir laiks starp pārdošanas pasūtījuma izveidošanu un krājumu nosūtīšanu. Piegādes datuma aprēķini ir balstīti uz noklusējuma dienu skaitu, un netiek ņemta vērā krājumu pieejamība, zināmais pieprasījums vai plānotais piedāvājums.
+-   **ATP (pieejams solīšanai)** — ATP ir tas krājuma daudzums, kas ir pieejams un ko var apsolīt debitoram noteiktā datumā. ATP aprēķinā tiek iekļauti nesaistītie krājumi, izpildes laiki, plānotās ieejas plūsmas un izejas plūsmas.
+-   **ATP + Izejas plūsmas rezerve** — nosūtīšanas datums ir vienāds ar ATP datumu, pieskaitot krājuma izejas plūsmas rezervi. Izejas plūsmas rezerve ir laiks, kas ir nepieciešams, lai krājumus sagatavotu sūtīšanai.
+-   **CTP (iespējams solīšanai)** — pieejamība tiek aprēķināta, izmantojot izvēršanu.
 
 ## <a name="atp-calculations"></a>ATP aprēķini
-ATP daudzums tiek aprēķināts, izmantojot metodi "kumulatīvo ATP ar skatienu uz priekšu". Galvenais šīs ATP aprēķinu metodes priekšrocība ir tā, ka tā var rīkoties gadījumos, kad problēmas starp ieņēmumu summa ir vairāk nekā jaunāko kvīti, kura apliecina (piemēram, ja no iepriekšējām ieejas plūsmas daudzums ir jāizmanto prasībai). "Skatīties uz priekšu ar kumulatīvo ATP" aprēķina metode ietver visus jautājumus, kas līdz kumulatīvā daudzuma saņemšanai pārsniedz kopējo daudzumu izsludināt. Tāpēc šī ATP aprēķina metode novērtē, vai kaut ko no agrāka perioda daudzuma var lietot vēlākā periodā.  
+ATP daudzums tiek aprēķināts, izmantojot metodi “kopīgo ATP ar prognozējamo”. Šīs ATP aprēķināšanas metodes galvenā priekšrocība ir tāda, ka tā spēj tikt galā ar gadījumiem, kad izejas plūsmu summa ieejas plūsmās ir lielāka par pēdējo ieejas plūsmu (piemēram, ja ir jālieto daudzums no iepriekšējās ieejas plūsmas, lai atbilstu kādai prasībai). Aprēķina metode “kopīgo ATP ar prognozējamo” ietver visas izejas plūsmas, līdz kopīgais saņemamais daudzums pārsniedz kopīgo izsniedzamo daudzumu. Tāpēc šī ATP aprēķina metode novērtē, vai kaut ko no agrāka perioda daudzuma var lietot vēlākā periodā.  
 
 ATP daudzums ir nesaistītā krājumu bilance pirmajā periodā. Parasti tas tiek aprēķināts katram periodam, kurā ir plānota ieejas plūsma. Programma aprēķina ATP periodu dienās un aprēķina pašreizējo datumu kā pirmo datumu ATP daudzumam. Pirmajā periodā ATP ietver rīcībā esošos krājumus, atņemot debitoru pasūtījumus, kas ir jāizpilda vai ir nokavēti.  
 
 ATP tiek aprēķināts, izmantojot šādu formulu:  
 
-ATP = ATP iepriekšējā perioda + kvītis par pašreizējā periodā – jautājumi par pašreizējo periodu-neto izdošanas daudzums par katru turpmāko periodu līdz periodam, kad apliecinājumi visiem periodiem, līdz un ieskaitot nākamā perioda summa pārsniedz summu jautājumiem līdz un ieskaitot turpmāko periodu.  
+ATP = ATP iepriekšējam periodam + Ieejas plūsmas pašreizējam periodam - Izejas plūsmas pašreizējam periodam - Neto izejas plūsmu daudzums katram turpmākajam periodam, līdz periodam, kad ieejas plūsmu summa visiem turpmākajiem periodiem, līdz nākotnes periodam un ietverot nākotnes periodu, pārsniedz izejas plūsmu summu līdz nākotnes periodam un ietverot nākotnes periodu.  
 
 Kad vairāk nav izdošanu un saņemšanu apsvēršanai, ATP daudzums sekojošajiem datumiem ir tāds pats, kā pēdējais aprēķinātais ATP daudzums.  
 
@@ -66,8 +69,10 @@ Klients zvana ar vēlas pasūtīt 150 gab. tās pašas preces. Kad pārbaudāt p
 
 Jūs izveidojat pārdošanas pasūtījuma rindu par preci un ievadāt **150** kā daudzumu.  
 
-Tā kā piegādes datuma kontroles metode ir ATP, tiek aprēķināti ATP dati, lai atrastu agrāko iespējamo nosūtīšanas datumu. Pamatojoties uz iestatījumiem, kavējas iepirkuma pasūtījumu un pārdošanas pasūtījumu tiek uzskatīti par un pašreizējā datuma iegūtās ATP daudzums ir 0. Rīt, kad kavējas iepirkuma pasūtījumā ir paredzams saņemt, ATP daudzums tiek aprēķināts kā vairāk par 0 (šajā gadījumā tā tiek aprēķināta kā 125). Tomēr, 10 dienas no tagad, kad papildu pirkšanas pasūtījums par 100 gabali ir paredzams saņemt, ATP daudzums kļūst vairāk nekā 150.  
+Tā kā piegādes datuma kontroles metode ir ATP, tiek aprēķināti ATP dati, lai atrastu agrāko iespējamo nosūtīšanas datumu. Pamatojoties uz šiem iestatījumiem, tiek ņemts vērā aizkavētais pirkšanas pasūtījums un pārdošanas pasūtījums, un iegūtais ATP daudzums pašreizējam datumam ir 0. Rīt, kad ir paredzēts saņemt aizkavēto pirkšanas pasūtījumu, ATP daudzums tiek aprēķināts kā vairāk par 0 (šajā gadījumā tas tiek aprēķināts kā 125). Taču 10 dienas pēc šī brīža, kad ir plānots saņemt papildu pirkšanas pasūtījumu par 100 gab., ATP daudzums kļūst vairāk par 150.  
 
-Tādēļ nosūtīšanas datums ir iestatīts uz 10 dienām no šī brīža, ATP aprēķinu pamatā. Tādējādi jūs klientu informējat, ka pieprasīto daudzumu var piegādāt 10 dienas no šī brīža.
+Tāpēc nosūtīšanas datums tiek iestatīts uz 10 dienām no šī brīža, pamatojoties uz ATP aprēķinu. Tādējādi jūs klientu informējat, ka pieprasīto daudzumu var piegādāt 10 dienas no šī brīža.
+
+
 
 

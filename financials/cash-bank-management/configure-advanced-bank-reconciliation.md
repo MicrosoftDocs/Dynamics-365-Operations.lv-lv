@@ -1,6 +1,6 @@
 ---
 title: "Detalizētās bankas darbību saskaņošanas pārskats"
-description: "Papildu bankas saskaņošana ļauj importēt elektronisko bankas izraksti un automātiski saskaņot ar bankas darbībām programmā Microsoft Dynamics 365 operācijām.  Šajā rakstā ir paskaidrota saskaņošanas procesu iestatīšana."
+description: "Detalizētā bankas darbību saskaņošana jums ļauj importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmatūrā Microsoft Dynamics 365 for Operations.  Šajā rakstā ir paskaidrota saskaņošanas procesu iestatīšana."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,34 +26,39 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="advanced-bank-reconciliation-overview"></a>Detalizētās bankas darbību saskaņošanas pārskats
 
-Papildu bankas saskaņošana ļauj importēt elektronisko bankas izraksti un automātiski saskaņot ar bankas darbībām programmā Microsoft Dynamics 365 operācijām.  Šajā rakstā ir paskaidrota saskaņošanas procesu iestatīšana.  
+[!include[banner](../includes/banner.md)]
 
-Ir vairāki gabali, kas jāiestata pirms izmantojot papildu bankas saskaņojuma funkcionalitāti. Plašāku informāciju par bankas pārskatu importa iestatīšanu, skatiet [iestatītu bankas pārskatu importēšanu](set-up-advanced-bank-reconciliation-import-process.md).  Prasībām, izveidota saskaņošanas process ir detalizēti aprakstīta zemāk.
 
-## <a name="transaction-codes"></a>Darbību kodi
-Transakcijas kodus var izmantot kā daļu no bankas saskaņojumu atbilstības kārtulas.  Darījumu kodi palīdzēs saskaņot tikai tāda paša veida darījumiem starp Dynamics 365 operācijām un jūsu bankas konta paziņojumā.  Lai veiktu šāda veida atbilstību, ir vispirms definētu darbību tipus, bankas darbībām no Dynamics 365 operācijām izmantotā tad kartēt šos tipus paziņojumu darījumu kodus izmanto jūsu bankas.  Transakciju tipus Dynamics 365 operācijas bankas darbībām ir definētas **bankas darbības tipa** lapā.  Tas ir arī, kur var noteikt galveno kontu, kas jālieto grāmatojumiem, kas saistīti ar darbības tipu. 
+Detalizētā bankas darbību saskaņošana jums ļauj importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmatūrā Microsoft Dynamics 365 for Operations.  Šajā rakstā ir paskaidrota saskaņošanas procesu iestatīšana.  
 
-Pēc tam, kad savu dinamiku 365 operācijas bankas darījumu kodi ir definēti, tad kartēt tos izmanto elektronisko bankas izrakstu transakcijas kodus.  Šīs kartēšanas procedūra tiek veikta izmantojot **darījuma koda kartēšanas** lapā.  Darījuma kods kartēšanas pabeigšanas atsevišķi katram bankas kontam.
+Pirms detalizētās bankas darbību saskaņošanas funkcionalitātes lietošanas ir jāizpilda vairāki sagatavošanās darbi. Papildinformāciju par bankas izrakstu importa iestatīšanu skatiet rakstā [Iestatīt bankas izraksta importēšanas procesu](set-up-advanced-bank-reconciliation-import-process.md).  Tālāk ir aprakstītas prasības saskaņošanas procesa iestatīšanai.
+
+## <a name="transaction-codes"></a>Transakciju kodi
+Transakciju kodus var izmantot kā daļu no bankas darbību saskaņošanas atbilstības kārtulām.  Transakciju kodi starp Dynamics 365 for Operations un jūsu bankas izrakstu palīdzēs saskaņot tikai transakcijas ar vienādu tipu.  Lai veiktu šāda tipa saskaņošanu, jums vispirms ir jādefinē transakciju tipi, kas tiek izmantoti bankas transakcijām no Dynamics 365 for Operations, un pēc tam šie tipi ir jākartē uz jūsu bankas izraksta transakciju kodiem.  Transakciju tipi Dynamics 365 for Operations banku transakcijām ir definēti lapā **Bankas transakcijas tips**.  Šī ir arī tā vietā, kur jūs definējat galveno kontu, kuru izmantot ar attiecīgo transakcijas tipu saistītajiem grāmatojumiem. 
+
+Kad jūsu Dynamics 365 for Operations bankas transakciju kodi ir definēti, pēc tam šie transakciju kodi ir jākartē uz elektroniskajos bankas izrakstos izmantotajiem transakciju kodiem.  Šī kartēšana notiek, izmantojot lapu **Transakciju kodu kartēšana**.  Transakciju kodu kartējums katram bankas kontam tiek izpildīts atsevišķi.
 
 ## <a name="matching-rules-and-matching-rule-sets"></a>Atbilstības kārtulas un atbilstības kārtulu kopas
-Atbilstības kārtulas ļauj definēt kritērijus automātisku saskaņošanu starp Dynamics 365 banku operācijas darījumus un bankas izraksta transakcijām.  Iestatīt atbilstošo noteikumu tiek veikta **saskaņošanas atbilstības kārtulas** lapā.  Lai iegūtu papildinformāciju, skatiet [bankas saskaņojumu atbilstības kārtulas iestatīt](set-up-bank-reconciliation-matching-rules.md). 
+Atbilstības kārtulas jums ļauj definēt kritērijus automātiskai saskaņošanai starp ynamics 365 for Operations bankas transakcijām un bankas izraksta transakcijām.  Atbilstības kārtulu iestatīšana tiek veikta lapā **Saskaņošanas atbilstības kārtulas**.  Papildinformāciju skatiet rakstā [Iestatīt bankas saskaņošanas atbilstības kārtulas](set-up-bank-reconciliation-matching-rules.md). 
 
-Atbilstības kārtulu kopas tiek izmantotas, lai norādītu grupu atbilstības kārtulas, kas tiek izpildīti bankas saskaņošanas procesa laikā.  Atbilstības kārtulu kopas tiek konfigurēts, **saskaņošanas atbilstības kārtulu kopas** lapā.
+Lai definētu atbilstības kārtulu grupu, kas tiek secīgi izpildīta bankas darbību saskaņošanas procesa laikā, tiek izmantotas atbilstības kārtulu kopas.  Atbilstības kārtulu kopas tiek konfigurētas lapā **Saskaņošanas atbilstības kārtulu kopas**.
 
 ## <a name="cash-and-bank-management-parameters"></a>Kases un bankas vadības parametri
-Pastāv īpašas papildu bankas saskaņošanas procesa parametru skaits **naudas un bankas vadības parametrus** lapā.  **Parādīt paziņojumu rindas summa debeta/kredīta** mainās summas uzskata par **bankas paziņojuma** lapā.  Ja ir atlasīta šī opcija, bankas paziņojumu darījumu summas tiks parādīts atsevišķā debeta un kredīta kolonnās.  Ja nav atlasīts, bankas paziņojumu darījumu summas tiks parādīta vienotu summu kolonnā ar attiecīgu zīmi. 
+Lapā **Kases un bankas vadības parametri** pastāv vairāki detalizētās bankas darbību saskaņošanas procesam specifiski parametri.  Opcija **Rādīt izraksta rindas summu formātā debets/kredīts** maina summu skatu lapā **Bankas izraksts**.  Ja šī opcija ir atzīmēta, tad bankas izraksta transakciju summas tiek rādītas atsevišķās debeta un kredīta kolonnās.  Ja tā nav atzīmēta, bankas izraksta transakciju summas tiek rādītas vienā summu kolonnā ar atbilstošo zīmi. 
 
-Validēšanas opcijas iestatiet parametru lapā ignorēt selekciju noteikt atbilstības kārtulas.  Piemēram, jūs nevarat manuāli vai automātiski saskaņot dokumentus ārpus iestatīt parametrus lapā datumu atšķirība.  Arī tad, ja iespēja **transakcijas tipu kartēšana pārbaudīt** ir atlasīta, transakciju tipus ir kartēts starp Dynamics 365 operācijas bankas darbībai un bankas izraksta transakciju darbības secību manuāli vai automātiski saskaņot. 
+Parametru lapā iestatītajām validēšanas opcijām ir prioritāte pār atbilstības kārtulām veiktajām atlasēm.  Piemēram, jūs nevarat manuāli vai automātiski noteikt atbilstību dokumentiem, kas neietilpst parametru lapā iestatītajā datumu atšķirības diapazonā.  Turklāt, ja ir atzīmēta opcija **Validēt transakcijas tipa kartēšanu**, tad transakciju tipiem ir jāveic kartēšana starp Dynamics 365 for Operations bankas transakciju un bankas izraksta transakciju, lai šīm transakcijām varētu manuāli vai automātiski noteikt atbilstību. 
 
-Arī ir jākonfigurē nepieciešamo numuru sērijas par **naudas un bankas vadības parametrus** lapu.  Par **numuru sērijas** cilnē iestatiet numuru sēriju kodus Download **ID, paziņojums ID, saskaņot ID un bankas saskaņojuma** atsauces.
+Jums ir arī jākonfigurē nepieciešamo numuru sērijas lapā **Kases un bankas vadības parametri**.  Cilnē **Numuru sērijas** iestatiet numuru sēriju kodus atsaucēm **Lejupielādes ID, Izraksta ID, Saskaņošanas ID un Bankas darbību saskaņošana**.
 
 ## <a name="bank-account-reconciliation-options"></a>Bankas kontu saskaņošanas opcijas
-Vispirms ir jāiespējo papildu bankas saskaņojums par bankas kontu.  Vairākas papildu opcijas ir pieejamas **bankas konta** lapa, kad papildu bankas saskaņošanas funkcija tiek iespējota. 
+Vispirms jums ir jāiespējo detalizētā bankas darbību saskaņošana attiecīgajam bankas kontam.  Kad detalizētā bankas darbību saskaņošanas funkcionalitāte ir iespējota, lapā **Bankas konts** ir pieejamas vairākas papildu opcijas. 
 
-**Izmantot bankas kontu izrakstus, kā apstiprinājums par elektronisko maksājumu** funkcionalitāti integrē bankas saskaņojuma funkcionalitāti ar elektronisko maksājumu statusiem.  Kad šī atslēga ir aktivizēta, bankas dokumentu automātiski tiks izveidota elektronisko maksājumu statuss ir iestatīts **Sent**.  Turklāt elektronisko maksājumu statuss tiks atjaunināts no **Sent** uz **Received** pēc tam, kad maksājums ir saskaņota, saskaņota un grāmatots. 
+Funkcionalitāte **Lietot bankas izrakstus kā elektronisko maksājumu apstiprinājumu** bankas darbību saskaņošanas funkcionalitāti integrē elektronisko maksājumu statusos.  Ja tā ir iespējota, tiek automātiski izveidots bankas dokuments, kad elektroniskā maksājuma statuss ir iestatīts uz **Nosūtīts**.  Turklāt pēc maksājumu atbilstības noteikšanas, saskaņošanas un grāmatošanas elektroniskā maksājuma statuss no **Nosūtīts** tiek mainīts uz **Saņemts**. 
 
-**Bankas konta nosaukumu pārskatos** lauks ir nosaukums, ko izmanto bankas konta uz elektronisko banku pārskatiem.  Šis nosaukums tiek lietots nosakot kādas darbības importēt bankas konta izrakstā, kas var saturēt informāciju vairākus bankas kontus. 
+Lauks **Bankas konta nosaukumu izrakstos** ir nosaukums, kas tiek izmantots bankas kontam jūsu elektroniskajos bankas izrakstos.  Šis nosaukums tiek lietots, kad nepieciešams noteikt, kādas transakcijas importēt bankas kontam no izraksta, kurā var būt iekļauta informācija par vairākiem bankas kontiem. 
 
-Iespēja **saskaņot pēc importa** tiks automātiski apstiprināt bankas izrakstā, izveidot jaunu bankas saskaņojumu un darblapas un palaist noklusējumā atbilstošus noteikumu kopu.  Šī funkcionalitāte automatizē procesu līdz vietai, no darbībām, kas ir manuāli saskaņotas.  Banku kontu iestatījumu noklusējuma importēšanas.
+Opcija **Saskaņot pēc importēšanas** automātiski validē šo bankas izrakstu, izveido jaunu bankas saskaņošanu un darblapu, ka arī izpilda noklusējuma atbilstības kārtulu kopu.  Šī funkcionalitāte procesu automatizē līdz vietai, kur transakciju atbilstība ir jānosaka manuāli.  Importēšanas laikā bankas konta iestatījums tiek pārslēgts uz noklusējuma vērtībām.
+
+
 
 

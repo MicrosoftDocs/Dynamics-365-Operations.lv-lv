@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="factor-depreciation"></a>Reizinātāja nolietojums
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegts pārskats par koeficienta nolietojuma metodi.
 
 Koeficienti ir procenti, kurus lieto, lai pazeminātu pamatlīdzekļu vērtību. Ja iestatāt pamatlīdzekļa nolietojuma tabulu un lapā **Nolietojuma tabulas** atlasāt lauka **Metode** vērtību **Koeficients**, varat iestatīt progresīvo, regresīvo vai lineāro nolietojumu.
@@ -39,18 +42,18 @@ Koeficienti ir procenti, kurus lieto, lai pazeminātu pamatlīdzekļu vērtību.
 Tālāk sniegtajos noteikumos un piemēros ir norādīts, kā varat iestatīt katra nolietojuma veida koeficientus. 
 
 > [!NOTE] 
-> Izvēloties **Factor**, **metodi** jomā, **faktors** lauku un **intervāls** lauku, tiek parādīti.
+> Ja atlasāt lauka **Metode** vērtību **Koeficients**, tiek parādīts lauks **Koeficients** un lauks **Intervāls**.
 
 ## <a name="progressive-depreciation"></a>Progresīvais nolietojums
 Lauka **Koeficients** vērtība ir lielāka nekā **50**.
 
 ### <a name="example"></a>Piemērs
 
-Iegādes cena ir 100 000, koeficents ir 70, lietošanas ilgums ir 10 gadi un nolietojums sākas 1. janvārī. Nolietojuma summas un atlikušās vērtības summas tiek rādītas vienīgi pirmajiem sešiem lietošanas ilguma gadiem.
+Iegādes cena ir 100 000, koeficents ir 70, lietošanas ilgums ir 10 gadi, un nolietojums sākas 1. janvārī. Nolietojuma summas un atlikušās vērtības summas tiek rādītas vienīgi pirmajiem sešiem lietošanas ilguma gadiem.
 
 | Gads | Periods      | Nolietojuma summa | Atlikušās vērtības summa |
 |------|-------------|---------------------|-----------------------|
-| formāts 1. proc.    | 31. decembris | 307,69              | 99 692,31             |
+| 1    | 31. decembris | 307,69              | 99 692,31             |
 | 2    | 31. decembris | 1 447,21            | 98 245,10             |
 | 3    | 31. decembris | 3 104,50            | 95 140,60             |
 | 4.    | 31. decembris | 5 150,21            | 89 990,39             |
@@ -62,11 +65,11 @@ Lauka **Koeficients** vērtība ir mazāka nekā **50**.
 
 ### <a name="example"></a>Piemērs
 
-Iegādes cena ir 100 000, koeficents ir 20, lietošanas ilgums ir 10 gadi un nolietojums sākas 1. janvārī. Nolietojuma summas un atlikušās vērtības summas tiek rādītas vienīgi pirmajiem sešiem lietošanas ilguma gadiem.
+Iegādes cena ir 100 000, koeficents ir 20, lietošanas ilgums ir 10 gadi, un nolietojums sākas 1. janvārī. Nolietojuma summas un atlikušās vērtības summas tiek rādītas vienīgi pirmajiem sešiem lietošanas ilguma gadiem.
 
 | Gads | Periods      | Nolietojuma summa | Atlikušās vērtības summa |
 |------|-------------|---------------------|-----------------------|
-| formāts 1. proc.    | 31. decembris | 56 080,43           | 43 919,57             |
+| 1    | 31. decembris | 56 080,43           | 43 919,57             |
 | 2    | 31. decembris | 10 665,70           | 33 253,87             |
 | 3    | 31. decembris | 7 156,22            | 26 097,65             |
 | 4.    | 31. decembris | 5 538,06            | 20 559,59             |
@@ -75,5 +78,7 @@ Iegādes cena ir 100 000, koeficents ir 20, lietošanas ilgums ir 10 gadi un nol
 
 ## <a name="straight-line-depreciation"></a>Lineārais nolietojums
 Lauka **Koeficients** vērtība ir **50**. Šādā gadījumā nolietojums visos periodos ir vienāds un ir jāņem vērā ietekme, ko izraisa citos laukos norādītas vērtības, kā tas ir aprakstīts rakstā [Lineārā lietošanas ilguma nolietojums](straight-line-service-life-depreciation.md).
+
+
 
 

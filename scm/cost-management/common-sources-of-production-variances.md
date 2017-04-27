@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="common-sources-of-production-variances"></a>Ražošanas noviržu vispārējo iemeslu analīze
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir izskaidroti dažādi tipiski visu ražošanas noviržu veidu iemesli. 
 
 Tālāk norādīti daži tipiski **partijas lieluma** noviržu iemesli.
@@ -57,6 +60,8 @@ Tālāk norādīti daži tipiski **ražošanas aizstāšanas** noviržu iemesli.
 -   Operācija tiek manuāli pievienota ražošanas maršrutam, reģistrējot to kā par patērētu.
 -   Izveidojot ražošanas pasūtījumu, tiek atlasīta MK versija, kas atšķiras no tās, ko izmanto standarta izmaksu aprēķinā.
 -   Izveidojot ražošanas pasūtījumu, tiek atlasīta maršruta versija, kas atšķiras no tās, ko izmanto standarta izmaksu aprēķinā.
+
+
 
 
 

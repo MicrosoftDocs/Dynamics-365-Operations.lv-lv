@@ -1,6 +1,6 @@
 ---
-title: "Konfigurēt Warehousing app app lauku nosaukumus"
-description: "Šajā tēmā ir aprakstīts, kā noteikt un konfigurēšana noliktavā app lauku nosaukumus un prioritātes Dynamics 365 operācijām."
+title: "Konfigurēt programmas lauku nosaukumus programmā Noliktava"
+description: "Šajā tēmā ir aprakstīts, kā sistēmā Dynamics 365 for Operations definēt un konfigurēt noliktavu programmas lauku nosaukumus un prioritātes."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,16 +26,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-app-field-names-in-warehousing-app"></a>Konfigurēt Warehousing app app lauku nosaukumus
+# <a name="configure-app-field-names-in-warehousing-app"></a>Konfigurēt programmas lauku nosaukumus programmā Noliktava
 
-Šajā tēmā ir aprakstīts, kā noteikt un konfigurēšana noliktavā app lauku nosaukumus un prioritātes Dynamics 365 operācijām. 
+[!include[banner](../includes/banner.md)]
 
-**Piezīme:** šī tēma attiecas uz noliktavu pārvaldības līdzekļus. Tas neattiecas uz līdzekļiem krājumu vadība. Dynamics 365 operācijām - noliktavas ir lietojumprogramma, kas var izmantot noliktavas uzdevumu veikšanai. Jūs varat definēt un konfigurēt lauku nosaukumi, ko izmanto app, kā arī konfigurēt prioritāte būtu jāpiešķir lauku nosaukumus. Šajā tēmā ir paskaidrots, kā noteikt un konfigurēt šīs noliktavas app lauku nosaukumus un prioritātes un kā tās tiek lietotas Dynamics 365 operācijām - noliktavas. Pamācību skatiet detalizētu informāciju par to, kā konfigurēt savienojumu dinamika 365 operācijām - noliktavas, [instalēt un konfigurēt Dynamics 365 operācijām - noliktavas](install-configure-warehousing-app.md).
 
-<a name="configure-warehouse-app-field-names"></a>Konfigurēšana noliktavā app lauku nosaukumus
+Šajā tēmā ir aprakstīts, kā sistēmā Dynamics 365 for Operations definēt un konfigurēt noliktavu programmas lauku nosaukumus un prioritātes. 
+
+**Piezīme.** Šī tēma attiecas uz moduļa Noliktavas vadība līdzekļiem. Tā neattiecas uz moduļa Krājumu vadība līdzekļiem. Dynamics 365 for Operations - Noliktava ir programma, kuru varat izmantot noliktavas uzdevumu veikšanai. Varat definēt un konfigurēt programmā lietoto lauku nosaukumus, kā arī konfigurēt prioritāti, kādai šie lauku nosaukumi ir jāpiešķir. Šajā tēmā ir paskaidrots, kā definēt un konfigurēt šos noliktavu programmas lauku nosaukumus un prioritātes, un kā tie tiek izmantoti sistēmā Dynamics 365 for Operations - Noliktava. Detalizētu informāciju par to, kā konfigurēt savienojumu ar Dynamics 365 for Operations - Noliktava, skatiet apmācībā [Instalēt un konfigurēt Dynamics 365 for Operations - Noliktava](install-configure-warehousing-app.md).
+
+<a name="configure-warehouse-app-field-names"></a>Konfigurēt noliktavas programmas lauku nosaukumus
 ===================================
 
-Lietojot Dynamics 365 operācijām - noliktavas mobilajā ierīcē, var konfigurēt kā Rādīt metadatus ierīcē par **noliktavas app lauku nosaukumus** lapā. Jaunu uzņēmumu dinamiku 365 operācijām, atlasiet **izveidot noklusēto iestatījumu** visi lauku nosaukumi, kuri tiks izmantoti noliktavas mobilās ierīces darbplūsmām, un pēc tam piešķirt vēlamā ievades režīmā un ievades tips tās ģenerēt. Pēc tam, kad visi lauku nosaukumi ir izveidoti, varat atlasīt opcijas ievades.
+Kad programmu Dynamics 365 for Operations - Noliktava lietojat savā mobilajā ierīcē, tad veidu, kā metadati ir jārāda jūsu ierīcē, varat konfigurēt lapā **Noliktavas programmas lauku nosaukumi**. Jaunā sistēmas Dynamics 365 for Operations uzņēmumā atlasiet vienumu **Izveidot noklusējuma iestatījumus**, lai ģenerētu visus lauku nosaukumus, kuri tiks izmantoti noliktavas mobilo ierīču darbplūsmās, un pēc tam piešķiriet tiem ieteicamo ievades režīmu un ievades tipu. Kad ir ģenerēti visi lauku nosaukumi, varat atlasīt tālāk norādītās ievades opcijas.
 
 <table>
 <colgroup>
@@ -45,31 +48,31 @@ Lietojot Dynamics 365 operācijām - noliktavas mobilajā ierīcē, var konfigur
 <thead>
 <tr class="header">
 <th>Opcija</th>
-<th>apraksts</th>
+<th>Apraksts</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Vēlamais ievades režīms</td>
-<td>Šī opcija nosaka, vai skenēšanas lauks vai manuālā ieraksta ievades lauks ir jāparāda atlasītā lauka nosaukumu. Tas ir noderīgi atšķirt laukus atkarībā, ja lauks tiek izmantoti svītrkodi. <strong>Piezīme:</strong> lauku nosaukumus ar vēlamā ievades režīms iestatīts <strong>skenēšanas</strong>, informāciju var ievadīt manuāli, ja svītrkods ir nav lasāms vai ir bojāts.</td>
+<td>Šī opcija nosaka, vai atlasītajam lauka nosaukumam ir jārāda skenēšanas lauks vai manuālas ievades lauks. Šī opcija noder, lai laukus nodalītu atkarībā no tā, vai laukam ir jāizmanto svītrkodi. <strong>Piezīme.</strong> Ja svītrkods ir nenolasāms vai bojāts, tad lauku nosaukumiem, kuru vēlamais ievades režīms ir iestatīts uz <strong>Skenēšana</strong>, informāciju varat ievadīt arī manuāli.</td>
 </tr>
 <tr class="even">
 <td>Ievades tips</td>
-<td>Šī opcija nosaka, ir jāizmanto kāda ievades tips atlasītā lauka nosaukumu. Ir pieejamas četras opcijas:
+<td>Šī opcija nosaka, kāds ievades tips ir jālieto atlasītajam lauka nosaukumam. Ir pieejamas četras tālāk aprakstītās opcijas.
 <ul>
-<li><strong>Atlases</strong> - ietver opcijas, lai izvēlētos no saraksta. Lauku nosaukumi, ja šī opcija nav rediģējams.</li>
-<li><strong>Datums</strong> - lauku nosaukumi norādīti kā datumu parāda datuma formātu ar etiķeti. Tas palīdz redzēt kādā formātā ievadīt datumu noliktavas darbiniekiem. Lauku nosaukumi, ja šī opcija nav rediģējams.</li>
-<li><strong>Alfa</strong> - ja izvēlēts, ievadot informāciju manuāli app tiks izmantots ierīces tastatūru. Tastatūras pieredze var tikt mainīts atkarībā no tā, kas tiek izmantota ierīcē.</li>
-<li><strong>Ciparu</strong> - par lauku nosaukumus, lietot ciparu ievades tikai, atlasiet šo opciju, lai rādītu pielāgotu cipartastatūru, nevis ierīces tastatūras ievades laukam.</li>
+<li><strong>Atlase</strong> - satur sarakstu ar opcijām, no kurām varat izvēlēties. Izmantojot šo opciju, lauku nosaukumus nevar rediģēt.</li>
+<li><strong>Datums</strong> - lauku nosaukumi, kas ir norādīti kā datumi, rādīs datuma formātu ar etiķeti. Šī opcija noliktavas darbiniekiem palīdz ieraudzīt, kādā formātā ir jāievada datums. Izmantojot šo opciju, lauku nosaukumus nevar rediģēt.</li>
+<li><strong>Alfa</strong> - ja ir atlasīta šī opcija, tad tiek izmantota ierīces tastatūra, programmā manuāli ievadot informāciju. Tastatūras funkcionalitāti var mainīt atkarībā no tā, kura ierīce tiek lietota.</li>
+<li><strong>Skaitlisks</strong> - lauku nosaukumiem, kas izmanto tikai skaitlisko ievadi, varat atlasīt šo opciju, lai ar ievades lauku rādītu pielāgotu cipartastatūru, nevis ierīces tastatūru.</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-<a name="configure-warehouse-app-field-priority"></a>Konfigurēšana noliktavā app laukā Prioritāte
+<a name="configure-warehouse-app-field-priority"></a>Konfigurēt noliktavas programmas lauku prioritāti
 ======================================
 
-Par **noliktavas app lauku prioritāti** lapu, varat ievietot lauku nosaukumi dažādām prioritārajām grupām. Tas dod iespēju izlemt, kāda informācija jāparāda lapā galvenais uzdevums, kad noliktavas darbiniekiem veikt uzdevumus, izmantojot app. Ja noklikšķināsit uz **izveidot noklusēto iestatījumu**, tiks ģenerēti noklusējuma kopu prioritārajām grupām. Ir iespējams izveidot tik daudz prioritārās grupas, pēc vajadzības, bet tikai trīs prioritārās grupas tiks parādīta lapā uzdevums. Kad Dynamics 365 operācijām metadatus nosūta uz app, tā piešķir katram laukam relatīvā prioritāte, atkarībā no tās prioritāro grupu un app rādīs pirmo trīs prioritārās grupas ietverto uzdevumu lapas metadatus. Pārpildītā metadatu pārējo parādās sekundārās informācijas lapā. Nākamā tabula rāda piemēru no piecām prioritārajām grupām.
+Lapā **Noliktavas programmas lauku prioritāte** lauku nosaukumus varat salikt dažādās prioritāšu grupās. Šādi varat izlemt, kāda informācija ir jārāda galvenajā uzdevumu lapā, kad noliktavas darbinieki izpilda uzdevumus, izmantojot šo programmu. Ja noklikšķināt uz **Izveidot noklusējuma iestatījumus**, tiek ģenerēta prioritāšu grupu noklusējuma kopa. Varat izveidot tik prioritāšu grupu, cik vien nepieciešams, bet uzdevumu lapā tiks rādītas tikai trīs prioritāšu grupas. Kad Dynamics 365 for Operations sūta metadatus uz programmu, tā katram laukam piešķir relatīvu prioritāti atkarībā no lauka prioritātes grupas, un programma uzdevumu lapā parāda pirmās trīs prioritāšu grupas, kas ietilpst metadatos. Pārējie metadati tiks rādīti sekundārās informācijas lapā. Nākamajā tabulā ir parādīts piemērs ar piecām prioritāšu grupām.
 
 <table>
 <colgroup>
@@ -78,7 +81,7 @@ Par **noliktavas app lauku prioritāti** lapu, varat ievietot lauku nosaukumi da
 </colgroup>
 <thead>
 <tr class="header">
-<th>Prioritārās grupas</th>
+<th>Prioritātes grupa</th>
 <th>Piešķirtie lauki</th>
 </tr>
 </thead>
@@ -86,7 +89,7 @@ Par **noliktavas app lauku prioritāti** lapu, varat ievietot lauku nosaukumi da
 <tr class="odd">
 <td> 10. prioritāte</td>
 <td><ul>
-<li>Objekts</li>
+<li>Prece</li>
 <li>Daudzums</li>
 <li>Mērvienība</li>
 </ul></td>
@@ -108,8 +111,8 @@ Par **noliktavas app lauku prioritāti** lapu, varat ievietot lauku nosaukumi da
 <td> 40. prioritāte</td>
 <td><ul>
 <li>Konfigurācija</li>
-<li>krāsa</li>
-<li>izmērs</li>
+<li>Krāsa</li>
+<li>Izmērs</li>
 <li>Stils</li>
 </ul></td>
 </tr>
@@ -123,25 +126,27 @@ Par **noliktavas app lauku prioritāti** lapu, varat ievietot lauku nosaukumi da
 </tbody>
 </table>
 
-Piemēram, ja noliktavas darbinieks veic uzdevumu mobilajās ierīcēs, ja metadatus, kas tiks rādīts app, kas sastāv no šādiem laukiem:
+Piemēram, kad noliktavas darbinieks izpilda kādu uzdevumu mobilajā ierīcē, ja programmā rādītie metadati sastāv no šādiem laukiem:
 
--   Objekts
+-   Prece
 -   Daudzums
 -   Mērvienība
 -   Preces apraksts
--   Lielumu un atrašanās vietu
+-   Izmērs un novietojums
 
-Balstoties uz iepriekš tabulā noliktavas app lauku prioritāti, 3 rindas informācija tiks parādīti uzdevumu lapā:
+Pamatojoties uz iepriekšējā tabulā iestatīto noliktavas programmas lauku prioritāti, uzdevumu lapā tiek rādītas šādas 3 informācijas rindas:
 
--   1. rindā: Krājums, daudzums, mērvienība
--   2. rindā: Krājuma aprakstu
--   3. rindu: lielums
+-   1. rinda: Prece, Daudzums, Mērvienība
+-   2. rinda: Preces apraksts
+-   3. rinda: Izmērs
 
-Atlikušos metadatus, piemēram, atrašanās vietu, netiks rādīti uzdevumu lapas, bet detaļu lappuse tiks parādīta. Lai uzzinātu vairāk un redzēt piemērus lietotāja interfeisu, atsaukties uz blog post [paziņojot Dynamics 365 operācijām - noliktavas](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
+Atlikušie metadati, piemēram, Novietojums, netiks rādīti uzdevumu lapā, bet tiks rādīti informācijas lapā. Plašāku informāciju un lietotāja interfeisa piemērus skatiet emuāra ziņā [Paziņojums par Dynamics 365 for Operations - Noliktava](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Jāinstalē un jākonfigurē Microsoft Dynamics 365 operācijām – noliktavas](install-configure-warehousing-app.md)
+[Instalēt un konfigurēt Microsoft Dynamics 365 for Operations – Noliktava](install-configure-warehousing-app.md)
+
+
 
 

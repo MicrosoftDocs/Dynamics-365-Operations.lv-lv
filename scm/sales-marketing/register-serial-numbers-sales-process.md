@@ -1,5 +1,5 @@
 ---
-title: "Reģistrēt sērijas numurus pārdošanas procesā"
+title: "Sērijas numuru reģistrēšana pārdošanas procesa laikā"
 description: "Šajā rakstā ir izskaidrots, kā pārdošanas procesa laikā var reģistrēt sērijas numurus iepakojuma pavadzīmēs vai rēķinos. Šo darbību var izmantot, ja uzņēmums vēlas reģistrēt sērijas numurus pakalpojumu un garantijas nodrošināšanas nolūkos, bet nevēlas saglabāt krājumu sērijas numurus no saņemšanas līdz izsniegšanas brīdim."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="register-serial-numbers-in-the-sales-process"></a>Reģistrēt sērijas numurus pārdošanas procesā
+# <a name="register-serial-numbers-in-the-sales-process"></a>Sērijas numuru reģistrēšana pārdošanas procesa laikā
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir izskaidrots, kā pārdošanas procesa laikā var reģistrēt sērijas numurus iepakojuma pavadzīmēs vai rēķinos. Šo darbību var izmantot, ja uzņēmums vēlas reģistrēt sērijas numurus pakalpojumu un garantijas nodrošināšanas nolūkos, bet nevēlas saglabāt krājumu sērijas numurus no saņemšanas līdz izsniegšanas brīdim.
 
@@ -65,7 +68,7 @@ Jā, pavadzīmju žurnāla vai rēķinu žurnāla rindā var palaist vaicājumu,
 ## <a name="can-i-view-the-serialized-items-that-i-have-on-hand"></a>Vai var skatīt manā rīcībā esošos serializētos krājumus?
 Nē, nevarat skatīt jūsu rīcībā esošos serializētos krājumus jo krājumu sērijas numuri netiek reģistrēti līdz krājumu pārdošanas brīdim.
 
-## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>Vai es varu reģistrēties sērijas numurus catchweight krājumiem?
+## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>Vai var reģistrēt pieļaujamā svara krājumu sērijas numurus?
 Nē, pārdošanas procesa laikā nevarat reģistrēt pieļaujamā svara krājumu sērijas numurus. Turklāt, ja prece ir iestatīta kā pieļaujamā svara krājums, šo preci nevarat piešķirt izsekošanas dimensiju grupai, kas ir iestatīta sērijas numuru izmantošanai tikai pārdošanas procesa laikā.
 Vai varu reģistrēt sērijas numurus mazumtirdzniecības POS?
 ------------------------------------------------
@@ -76,6 +79,8 @@ Jā, lietotājam ir jāievada sērijas numurs mazumtirdzniecības pārdošanas p
 Šī funkcionalitāte ir pieejama visām lomām, kas var pārvaldīt pārdošanas pavadzīmes un pārdošanas rēķinus. Tālāk norādītie pienākumi ļauj darbiniekiem labot sērijas numurus un reģistrēt tukšus ierakstus tad, ja sērijas numurus nevar nolasīt vai noskenēt.
 -   Uzturēt sērijas numuru labojumu
 -   Uzturēt nenolasāmo sērijas numuru reģistrāciju
+
+
 
 
 

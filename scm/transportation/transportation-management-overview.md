@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="transportation-management-overview"></a>Transportēšanas pārvaldības pārskats
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā tēmā ir sniegts apskats par transportēšanas pārvaldības funkcionalitāti programmā Microsoft Dynamics 365 for Operations.
 
 Transportēšanas pārvaldība ļauj pārvaldīt jūsu uzņēmuma transportēšanu un arī ļauj noteikt piegādātāja un maršrutēšanas risinājumus ienākošiem un izejošiem pasūtījumiem. Piemēram, var norādīt ātrāko ceļu vai vislētāko sūtījuma likmi. Nākamajā tabulā ir aprakstīti galvenie scenāriji attiecībā uz moduļa Transportēšanas pārvaldība lietošanu programmā Microsoft Dynamics 365 for Operations.
@@ -67,19 +70,21 @@ Transportēšanas pārvaldība ļauj pārvaldīt jūsu uzņēmuma transportēša
 ## <a name="planning-transportation-in-dynamics-365-for-operations"></a>Transporta plānošana programmā Dynamics 365 for Operations
 Modulī Transportēšanas pārvaldība transportēšanas plānošanu var balstīt uz pasūtījumiem vai uz sūtījumiem, kuri izveidoti, pamatojoties uz šiem pasūtījumiem. Sūtījumi vienmēr pastāv kādā noteiktā brīdī, bet nav nepieciešami transportēšanas plānošanai. Pārsūtīšanas pasūtījumi ir daļa no izejošās plūsmas scenārija, un tos var plānot kopā ar pārdošanas pasūtījumiem. 
 
-![Ievietojiet zīmējuma](./media/Load-drawing1-1024x477.jpg)
+![Zīmējuma ielāde](./media/Load-drawing1-1024x477.jpg)
 
 ## <a name="inbound-transportation"></a>Ienākošā transportēšana
-Ja pasūtāt preces no piegādātāja, un krājumi ir jāpiegādā uz jūsu noliktavu, vēlaties sagatavot preces pārvadāšanai. Dynamics 365 operācijām var izmantot, lai plānotu transporta un ārzemju kravas saņemšanas. Tālāk redzamajā attēlā ir attēlota biznesa procesa plūsma attiecībā uz ienākošas kravas transportēšanu. 
+Ja pasūtat preces pie kreditora, un tās ir jāpiegādā uz jūsu noliktavu, ieteicams pašiem organizēt transportu preču pārvešanai. Pārvešanas plānošanai un ienākošās kravas saņemšanai varat izmantot programmu Dynamics 365 for Operations. Tālāk redzamajā attēlā ir attēlota biznesa procesa plūsma attiecībā uz ienākošas kravas transportēšanu. 
 
 ![Biznesa procesa plūsma ienākošo kravu transportēšanai](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
 ## <a name="outbound-transportation"></a>Izejošā transportēšana
 Var plānot un apstrādāt izejošo kravu, lai nosūtītu noteiktus krājumus no uzņēmuma noliktavas debitoram. Programmu Dynamics 365 for Operations varat izmantot, lai plānotu izejošo kravu transportēšanu un nosūtīšanu. Tālāk ir paskaidrota nosūtīšanas izejošo noslodžu plānošanas un apstrādes biznesa procesa plūsma. 
 
-![Plānošanas un apstrādājot izejošās kravas](./media/Planningandprocessingoutboundloads.jpg)
+![Izejošo kravu plānošana un apstrāde](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>Noslodzes plānošana
 Programma Dynamics 365 for Operations nodrošina noslodzes plānošanas stratēģiju, kuras nosaukums ir Uz apjomu balstīta noslodzes plānošanas stratēģija. Šī stratēģija ļauj izmantot maksimālās vērtības, kuras ir norādītas garumam un svaram noslodzes veidnē, vai arī iestatījumus var ignorēt, ievadot jaunas vērtības. Lai izmantotu šo stratēģiju, atlasiet to laukā **Noslodzes plānošanas stratēģija** kopsavilkuma cilnē **Iestatījumi** lapā **Noslodzes plānošanas rīks**. Turklāt var pievienot savas noslodzes plānošanas stratēģijas, izveidojot jaunu klasi lietojumprogrammas objektu kokā (AOT).
+
+
 
 

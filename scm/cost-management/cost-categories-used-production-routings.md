@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="cost-categories-used-in-production-routing"></a>Ražošanas maršrutēšanā izmantotās izmaksu kategorijas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šis raksts sniedz informāciju par izmaksu kategorijām, kas attiecas uz ražošanas vidēm, kurās izmanto maršrutēšanu.
 
 Izmaksu kategorijas piemēro ražošanas vidēs, kas izmanto maršrutēšanu. Tās tiek piešķirtas operācijas resursiem un maršrutēšanas darbībām, lai noteiktu stundas izmaksas un segmentētu izmaksu ieguldījumu saražoto krājumu aprēķinātajās izmaksās. Izmaksu grupas, kas tiek piešķirtas izmaksu kategorijām, klasificē ražošanas izmaksu ieguldījumu atkarībā no operācijas resursiem un darbības veida, piemēram, iestatīšana un izpildes laika. Izmaksu grupu piešķires specifiskums iespējo aprēķināmās ražošanas pieskaitāmās izmaksas atkarībā no maršrutēšanas datiem. 
@@ -51,5 +54,7 @@ Izmaksu kategorijas izmaksu ieraksts var attiekties uz vietu vai visu uzņēmumu
 Maršrutēšanas operācija parasti pārmanto izmaksu kategorijas, kas tiek piešķirtas operācijas resursam vai galvenajai darbībai. Izveidojot ražošanas pasūtījumu, maršrutēšanas operācija ražošanas maršrutā ir saistīts ar atlasīto maršruta versiju. Izmaksu kategorijas, kas piešķirtas darbības ražošanas maršrutā, var ignorēt. 
 
 Dažus ražošanas darba veidus var saistīt ar projekta laika aprēķiniem un pārskatu sagatavošanu. Šajā gadījumā izmaksu kategorija ir nepieciešama ražošanas un projekta mērķiem. Atzīmējot izmaksu kategoriju ar karodziņu par izmantošanu projektos, jādefinē papildu ar projektu saistīta informācija.
+
+
 
 

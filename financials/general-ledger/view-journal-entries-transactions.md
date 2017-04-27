@@ -46,12 +46,12 @@ Papildus finanšu pārskatiem varat izmantot tālāk aprakstītos Virsgrāmatas 
 
 -   **Dimensiju pārskats** — šajā pārskatā tiek rādītas transakcijas pēc dienas un konta, un ir pieejamas arī transakciju parādīšanas opcijas pēc dimensijas un perioda.
 -   **Virsgrāmatas darbību saraksts** — šajā pārskatā tiek rādītas transakcijā iekļautās transakcijas, uzskaite un konta pārskata valūtas.
--   **Drukājiet žurnāla** – šajā atskaitē tiek parādīts grāmatotajā žurnālā rezultāts. Varat izpildīt pārskatu žurnāla pakešuzdevuma numurs vai žurnāla tipam vai pievienotu papildu laukus.
+-   **Drukāt žurnālu** — šajā pārskatā tiek rādīti grāmatotā žurnāla rezultāti. Varat palaist pārskatu pēc žurnāla pakešuzdevuma numura vai žurnāla veida vai pievienot papildu laukus.
 -   **Grāmatotās darbības pēc žurnāla** — šajā pārskatā tiek rādītas transakcijas, kuras tika grāmatotas žurnālā un grupētas pēc dokumenta.
 -   **Darbību saraksts pa datumiem** — šajā pārskatā tiek rādītas visas transakcijas pēc datuma kopā ar žurnāla numuru, dokumentu un Virsgrāmatas kontu. Tajā tiek rādītas arī transakcijā iekļautās transakcijas, uzskaite un pārskata valūtas.
 -   **Darbības izcelsme** — šajā transakcijas pārskatā tiek rādīts konts pēc žurnāla, transakcijas, uzskaites un pārskata valūtas. Tajā tiek rādītas arī visas tā žurnāla rindas, kas tika izmantots kā korespondējošais konts.
 
 
-Lai iegūtu papildinformāciju, skatiet [Virsgrāmatas kontu bilances](general-ledger-account-balances.md), [grāmatvedības avota Internet explorer](\financials\accounts-payable\accounting-source-explorer) un [finanšu pārskatu](financial-reporting-getting-started.md)
+Papildinformāciju skatiet šeit: [Virsgrāmatas kontu bilances](general-ledger-account-balances.md), [Uzskaites avota pārlūks](\financials\accounts-payable\accounting-source-explorer) un [Finanšu pārskatu veidošana](financial-reporting-getting-started.md)
 
 

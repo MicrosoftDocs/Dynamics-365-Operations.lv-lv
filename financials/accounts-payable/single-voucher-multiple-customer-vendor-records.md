@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Viens dokumenta ar vairākiem debitora vai kreditora ierakstiem
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā tēmā ir sniegts pārskats par to, kas notiek, grāmatojot vienu dokumentu ar vairākiem debitora vai kreditora ierakstiem. Šī funkcionalitāte tiks pārtraukta Microsoft Dynamics 365 for Operations turpmākajās versijās, kā rezultātā, nav ieteicams izmantot šo grāmatošanas metodi sakarā ar uzskaites ietekmi uz norēķinu apstrādi. 
 
 Daži visbiežāk sastopamie piemēri, kur viens dokuments tiek izmantots vairākiem debitoriem vai kreditoriem, ir bilances pārskaitījumi starp debitoriem, un tīkla bilances starp debitoriem un kreditoriem tajā pašā organizācijā. 
@@ -91,7 +94,7 @@ Ja lietotājs ir neapmierināts ar termiņatlaidi, kas tiek piešķirta visās i
 
 |             |                  |              |                 |           |            |                 |                    |
 |-------------|------------------|--------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Dokuments** | **Konta veids** | **Konts**  | **Apraksts** | **Debetkarte** | **Kredītkarte** | **Offset type** | **Offset account** |
+| **Dokuments** | **Konta veids** | **Konts**  | **Apraksts** | **Debetkarte** | **Kredītkarte** | **Korespondējošais veids** | **Korespondējošais konts** |
 | GNJL001     | Kreditors           | 1001         | INV1            |           | 100,00     | Virsgrāmata          | &lt;tukšs&gt;      |
 | GNJL001     | Virsgrāmata           | 606300-001-- | INV1            |   50,00   |            | Virsgrāmata          | &lt;tukšs&gt;      |
 | GNJL001     | Virsgrāmata           | 606300-002-- | INV1            |   50,00   |            | Virsgrāmata          | &lt;tukšs&gt;      |
@@ -248,5 +251,7 @@ Lai novērstu nevēlamas problēmas ar turpmāku nosegšanu šai darbībai, vien
 | 002         | Kreditors           | 1001        |                 |  75,00    |            | Virsgrāmata          | 999999---          |
 
  
+
+
 
 

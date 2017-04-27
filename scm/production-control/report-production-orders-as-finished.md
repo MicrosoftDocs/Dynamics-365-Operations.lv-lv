@@ -1,6 +1,6 @@
 ---
-title: "Ražošanas pasūtījumus paziņot kā pabeigtus"
-description: "Pabeigtajiem krājumiem ir ražošanas posmā. Šajā stadijā gatavā produkta ziņoja, un pārcēlās no ražošanas pasūtījuma uz krājumu."
+title: "Ziņošana par ražošanas pasūtījumu pabeigšanu"
+description: "“Ziņot kā pabeigtu” ir ražošanas posms. Šī posma ietvaros tiek ziņots par preces pabeigšanu un tā tiek pārvietota no ražošanas pasūtījuma uz krājumiem."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="report-production-orders-as-finished"></a>Ražošanas pasūtījumus paziņot kā pabeigtus
+# <a name="report-production-orders-as-finished"></a>Ziņošana par ražošanas pasūtījumu pabeigšanu
 
-Pabeigtajiem krājumiem ir ražošanas posmā. Šajā stadijā gatavā produkta ziņoja, un pārcēlās no ražošanas pasūtījuma uz krājumu.
+[!include[banner](../includes/banner.md)]
+
+
+“Ziņot kā pabeigtu” ir ražošanas posms. Šī posma ietvaros tiek ziņots par preces pabeigšanu un tā tiek pārvietota no ražošanas pasūtījuma uz krājumiem.
 
 Kad pabeigto preču daudzumu ražošanas pasūtījumā reģistrē kā pabeigtu, tiek atjaunināts rīcībā esošo krājumu daudzums. Daļējos daudzumus sākotnēji plānotajā pasūtījuma daudzumā var reģistrēt kā pabeigtus. Reģistrējot daudzumus kā pabeigtus, ir iespējams arī ziņot par kļūdainiem daudzumiem, norādot saistīto kļūdu pamatojumu. Kad ražošanas pasūtījums sasniedz stadiju Fiziski pabeigts, tas nozīmē, ka par pārējiem daudzumiem ražošanas pasūtījumā netiks ziņots.
 Šīs īpašības arī saistītas ar procesu **Reģistrēt pabeigšanu**:
@@ -44,5 +47,7 @@ Daudzums tiek ziņots ražojuma novietojumam. Pēc tam tiek ģenerēts noliktava
 
 ## <a name="set-a-production-order-to-reporting-as-finished"></a>Ražošanas pasūtījuma iestatīšana uz Fiziski pabeigts
 Ražošanas pasūtījumu var iestatīt uz statusu **Fiziski pabeigts**, izmantojot standarta ražošanas pasūtījuma atjaunināšanas funkciju, vai maršrutu un darba karšu žurnālus, vai žurnālu **Fiziski pabeigts**. Jūs varat arī atjaunināt stadiju uz **Fiziski pabeigts**, izmantojot darbu karšu terminālu un darbu karšu ierīces lapas, sniedzot pārskatu par pēdējo ražošanas pasūtījuma darbu. Visbeidzot, jūs varat iespējot opciju **Fiziski pabeigts** kā rokas noliktavas ierīces risinājuma procesu.  
+
+
 
 

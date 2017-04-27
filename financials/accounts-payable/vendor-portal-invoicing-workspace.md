@@ -43,11 +43,11 @@ Elementi **Kopsavilkums** sniedz pārskatu par atlasītā kreditora rēķiniem. 
 Noklikšķinot uz elementa tiks atvērts lapas **Rēķinu saraksts** filtrētais skatījums.
 ### <a name="tabular-lists"></a>Tabulveida saraksti
 
-Sadaļā **Tabulveida saraksti **rēķinu izrakstīšanas stāvoklis tiek sadalīts līdzīgi kā kopsavilkuma elementi: Melnraksti un Iesniegti, neapstiprināti saraksti. Esot stāvoklī Melnraksts, rēķinu nevar iesniegt darbplūsmai vai dzēst. Pēdējā tabulas saraksts ir iespēja atrast rēķinus. Var lietot filtru, kā jūs meklēt, lai atļautu ātrāku meklēšanu.
+Sadaļā **Tabulveida saraksti **rēķinu izrakstīšanas stāvoklis tiek sadalīts līdzīgi kā kopsavilkuma elementi: Melnraksti un Iesniegti, neapstiprināti saraksti. Esot stāvoklī Melnraksts, rēķinu nevar iesniegt darbplūsmai vai dzēst. Rēķinu meklēšanai var izmantot pēdējo tabulveida sarakstu. Lai ātrāk iegūtu rezultātus, varat iestatīt dažādus filtrus.
 Visu kreditora rēķinu saraksta lapa
 -----------------------------
 
-Jūs varat apskatīt visas iegrāmatotu un neiegrāmatotu kreditora rēķiniem **sadarbības kreditora rēķiniem** saraksta lapu. Šī saraksta lapu var izmantot, lai skatītu rēķinus maksājuma statusu. Maksājumu statusi ir Negrāmatots, Neapmaksāts, Daļēji apmaksāts un Pilnībā apmaksāts.
+Visus grāmatotos un negrāmatotos kreditora rēķinus varat skatīt saraksta lapā **Kreditora sadarbības rēķini**. Šo saraksta lapu varat izmantot, lai skatītu rēķinu maksājuma statusu. Maksājumu statusi ir Negrāmatots, Neapmaksāts, Daļēji apmaksāts un Pilnībā apmaksāts.
 Jauna kreditora rēķina izveide no pirkšanas pasūtījuma
 --------------------------------------------
 
@@ -55,6 +55,6 @@ Jūs varat izveidot jaunu kreditora rēķinu, atlasot darbību **Jauns** **Kredi
 
 
 
-Lai iegūtu papildinformāciju, skatiet [sadarbojas ar pārdevējiem, izmantojot piegādātāju portālu](/dynamics365/operations/scm/procurement/collaborate-vendors-vendor-portal)
+Papildinformāciju skatiet šeit: [Sadarbība ar kreditoriem, izmantojot kreditoru portālu](/dynamics365/operations/scm/procurement/collaborate-vendors-vendor-portal)
 
 

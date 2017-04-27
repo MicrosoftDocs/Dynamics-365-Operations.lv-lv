@@ -1,6 +1,6 @@
 ---
-title: "Konfigurēt globālās adrešu grāmatas"
-description: "Šajā rakstā aprakstīts apsvērumiem un lēmumiem, kas ir jāveic plānošanas procesa laikā, pirms jūs iestatāt un konfigurējat globālā adrešu grāmata un jebkuru papildu adrešu grāmatas Microsoft Dynamics 365 operācijām. Dažu lēmumu pieņemšanas nolūkos ir nepieciešams apstiprināt lēmumus, kas jau ir pieņemti citās preces jomās, piemēram, organizācijas hierarhijā."
+title: "Globālo adrešu grāmatu konfigurēšana"
+description: "Šajā rakstā ir aprakstīti apsvērumi un lēmumi, kas ir jāņem vērā un jāpieņem plānošanas procesa laikā pirms globālo adrešu grāmatu un jebkādu papildu adrešu grāmatu iestatīšanas un konfigurēšanas programmatūrā Microsoft Dynamics 365 for Operations. Dažu lēmumu pieņemšanas nolūkos ir nepieciešams apstiprināt lēmumus, kas jau ir pieņemti citās preces jomās, piemēram, organizācijas hierarhijā."
 author: kfend
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-global-address-books"></a>Konfigurēt globālās adrešu grāmatas
+# <a name="configure-global-address-books"></a>Globālo adrešu grāmatu konfigurēšana
 
-Šajā rakstā aprakstīts apsvērumiem un lēmumiem, kas ir jāveic plānošanas procesa laikā, pirms jūs iestatāt un konfigurējat globālā adrešu grāmata un jebkuru papildu adrešu grāmatas Microsoft Dynamics 365 operācijām. Dažu lēmumu pieņemšanas nolūkos ir nepieciešams apstiprināt lēmumus, kas jau ir pieņemti citās preces jomās, piemēram, organizācijas hierarhijā.
+[!include[banner](../includes/banner.md)]
+
+
+Šajā rakstā ir aprakstīti apsvērumi un lēmumi, kas ir jāņem vērā un jāpieņem plānošanas procesa laikā pirms globālo adrešu grāmatu un jebkādu papildu adrešu grāmatu iestatīšanas un konfigurēšanas programmatūrā Microsoft Dynamics 365 for Operations. Dažu lēmumu pieņemšanas nolūkos ir nepieciešams apstiprināt lēmumus, kas jau ir pieņemti citās preces jomās, piemēram, organizācijas hierarhijā.
 
 <a name="global-address-book"></a>Globālā adrešu grāmata
 -------------------
@@ -61,6 +64,8 @@ Pēc globālās adrešu grāmatas izveidošanas pēc nepieciešamības varat izv
 Adrešu grāmatas varat izveidot jebkurā laikā, kā arī jebkurā laikā varat iestatīt drošības parametrus šīm adrešu grāmatām. Adrešu grāmatai jums nav obligāti jāiestata drošības privilēģijas, bet ja to nedarāt, tad visi darbinieki jūsu organizācijā var skatīt visus pušu ierakstus šajā adrešu grāmatā. Varat iestatīt drošības privilēģijas attiecībā uz pušu ierakstiem, izmantojot adrešu grāmatas. Drošības privilēģijas ir balstītas uz darba grupām. Šāda pieeja garantē, ka pušu ierakstus kādā adrešu grāmatā var skatīt tikai darbinieki, kas ir piešķirti kādai darba grupai, kurai ir piekļuve šai adrešu grāmatai. Jums ir jāatlasa grupas, kam ir piekļuve katrai adrešu grāmatai. Attiecībā uz katru adrešu grāmatu varat iestatīt drošības privilēģijas, kas ļauj vai liedz piekļuvi noteiktām darba grupām. Ja piešķirat darba grupas privilēģijas attiecībā uz kādu adrešu grāmatu, visi šīs grupas dalībnieki var skatīt ierakstus šajā adrešu grāmatā. Ja kādai adrešu grāmatai nepiešķirat darba grupas piekļuvi, tad šīs grupas dalībnieki nevar skatīt šo adrešu grāmatu vai tās saturu. **Lēmums:**
 
 -   Kurām grupām ir piekļuve katrai jaunajai adrešu grāmatai, ko jūs veidosiet?
+
+
 
 
 

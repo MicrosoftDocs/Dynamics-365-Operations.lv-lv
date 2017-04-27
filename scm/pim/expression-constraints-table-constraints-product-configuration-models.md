@@ -40,7 +40,7 @@ Tabulas ierobežojumi uzskaita vērtību kombinācijas, kas ir atļautas atribū
 
 ### <a name="example-of-a-table-constraint"></a>Tabulas ierobežojuma piemērs
 
-Šajā piemērā parādīts, kā ierobežot skaļruņa konfigurāciju atbilstoši konkrētai korpusa apdarei un priekšdaļai. Pirmā tabula parāda korpusa apdares un priekšdaļas veidus, kas parasti pieejami konfigurācijai. Tiek definēts vērtības * * korpusa apdare * * un **Priekšējais režģis** atribūtu tipus.
+Šajā piemērā parādīts, kā ierobežot skaļruņa konfigurāciju atbilstoši konkrētai korpusa apdarei un priekšdaļai. Pirmā tabula parāda korpusa apdares un priekšdaļas veidus, kas parasti pieejami konfigurācijai. Vērtības ir definētas atribūtu tipam **Korpusa apdare** un **Priekšējais režģis**.
 
 | Atribūta tips | Vērtības                      |
 |----------------|-----------------------------|
@@ -49,7 +49,7 @@ Tabulas ierobežojumi uzskaita vērtību kombinācijas, kas ir atļautas atribū
 
 Nākamajā tabulā redzamas kombinācijas, ko definē tabulas ierobežojums **Krāsa un apdare**. Izmantojot šo tabulas ierobežojumu, var konfigurēt skaļruni, kam ir ozolkoka apdare un melns režģis, rožkoka apdare un balts režģis utt.
 
-| Pabeigt         | Režģis                       |
+| Apdare         | Režģis                       |
 |----------------|-----------------------------|
 | Ozola            | Melna                       |
 | Rožkoka       | Balta                       |
@@ -60,8 +60,8 @@ Nākamajā tabulā redzamas kombinācijas, ko definē tabulas ierobežojums **Kr
 
 Jūs varat izveidot sistēmas definētus un lietotāja definētus tabulas ierobežojumus. Plašāku informāciju skatiet sadaļā [Sistēmas definēti un lietotāja definēti tabulas ierobežojumi](system-defined-user-defined-table-constraints.md).
 
-## <a name="what-syntax-should-be-used-to-write-constraints"></a>Rakstīt ierobežojumus, ir jāizmanto kāda sintakse?
-Rakstot ierobežojumus, jāizmanto optimizācijas modelēšanas valodas (OML) sintakse. Sistēma izmanto ierobežojums Risinātājs Solver Microsoft Foundation novērst ierobežojumus.
+## <a name="what-syntax-should-be-used-to-write-constraints"></a>Kāda sintakse ir jāizmanto, lai rakstītu ierobežojumus?
+Rakstot ierobežojumus, jāizmanto optimizācijas modelēšanas valodas (OML) sintakse. Ierobežojumu risināšanai sistēma izmanto Microsoft Solver Foundation ierobežojumu risinātāju.
 
 ## <a name="should-i-use-table-constraints-or-expression-constraints"></a>Vai man izmantot izteiksmes ierobežojumus vai tabulas ierobežojumus?
 Varat izmantot vai nu izteiksmes ierobežojumus vai tabulas ierobežojumus atkarībā no tā, kā vēlaties veidot ierobežojumus. Tabulas ierobežojumu varat veidot kā matricu, savukārt izteiksmes ierobežojums ir individuāls paziņojums. Konfigurējot preci, nav svarīgi, kāda veida ierobežojums tiek izmantots. Šajā piemērā parādīta divu metožu atšķirība.  
@@ -75,16 +75,16 @@ Ja konfigurējat preces, izmantojot turpmākos ierobežojumu iestatījumus, ir a
 
 | Krāsa | Izmēri |
 |-------|------|
-| melna | 30   |
-| melna | 50   |
-| Sarkans   | 20.   |
+| Melna | 30   |
+| Melna | 50   |
+| Sarkana   | 20.   |
 
 ### <a name="expression-constraint-setup"></a>Izteiksmes ierobežojuma iestatīšana
 
 (Krāsa == "Melna" un (izmērs == "30" | izmērs == "50")) | (krāsa == "Sarkana" un izmērs = "20")
 
 ## <a name="should-i-use-operators-or-infix-notation-when-i-write-expression-constraints"></a>Vai, rakstot izteiksmes ierobežojumus, lietot operatorus vai infiksālo pieraksti?
-Izteiksmes ierobežojums var rakstīt, izmantojot vai nu pieejamos prefiksa operatorus, vai infiksālo pieraksti. Operatoriem **Min**, **Max** un **Abs **nevar lietot infiksālo pieraksti. Šie operatori iekļauti kā standarta operatori lielākajā daļā programmēšanas valodu.
+Izteiksmes ierobežojums var rakstīt, izmantojot vai nu pieejamos prefiksa operatorus, vai infiksālo pieraksti. Operatoriem **Min**, **Max** un **Abs** nevar lietot infiksālo pieraksti. Šie operatori iekļauti kā standarta operatori lielākajā daļā programmēšanas valodu.
 
 ## <a name="what-operators-and-infix-notation-can-i-use-when-i-write-expression-constraints"></a>Kādus operatorus un infiksālo pierakstus var lietot, rakstot izteiksmes ierobežojumus?
 Tālāk esošajās tabulās uzskaitīti operatori un infiksālā pierakste, ko var lietot, rakstot izteiksmes ierobežojumu sastāvdaļai preces konfigurācijas modelī. Piemēri pirmajā tabulā parāda, kā rakstīt izteiksmi, izmantojot vai nu infiksālo pieraksti vai operatorus.
@@ -110,39 +110,39 @@ Tālāk esošajās tabulās uzskaitīti operatori un infiksālā pierakste, ko v
 <td>Tas ir patiess, ja pirmais nosacījums ir nepatiess, otrais nosacījums ir patiess vai abi.</td>
 <td>Implies[a, b], infix: a -: b</td>
 <td><ul>
-<li><strong>Operators:</strong> nozīmē [x! = 0, y &gt;= 0]</li>
-<li><strong>Infix pierakstā:</strong> x! = 0-: y &gt;= 0</li>
+<li><strong>Operators:</strong> Implies[x != 0, y &gt;= 0]</li>
+<li><strong>Infiksālā pierakste:</strong> x != 0 -: y &gt;= 0</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Un</td>
+<td>And</td>
 <td>Tas ir spēkā tikai tad, ja ir spēkā visi nosacījumi. Ja nosacījumu skaits ir 0 (nulle), tas veido <strong>Patiess</strong>.</td>
-<td>Un [args] infix: &amp;b &amp; ... &amp;z</td>
+<td>And[args], infix: a &amp; b &amp; ... &amp; z</td>
 <td><ul>
-<li><strong>Operators:</strong> un [x = = 2, y &lt;= 2]</li>
-<li><strong>Infix pierakstā:</strong> x = 2 = &amp;y &lt;= 2</li>
+<li><strong>Operators:</strong> And[x == 2, y &lt;= 2]</li>
+<li><strong>Infiksālā pierakste:</strong> x == 2 &amp; y &lt;= 2</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Vai</td>
+<td>Or</td>
 <td>Tas ir patiess, ja jebkurš nosacījums ir patiess. Ja nosacījumu skaits ir 0 (nulle), tas veido <strong>Nepatiess</strong>.</td>
-<td>Vai [args] infix: | b | ... | z</td>
+<td>Or[args], infix: a | b | ... | z</td>
 <td><ul>
-<li><strong>Operators:</strong> vai [x = = 2, y &lt;= 2]</li>
-<li><strong>Infix pierakstā:</strong> x = = 2 | y &lt;= 2</li>
+<li><strong>Operators:</strong> Or[x == 2, y &lt;= 2]</li>
+<li><strong>Infiksālā pierakste:</strong> x == 2 | y &lt;= 2</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Plus</td>
 <td>Tas summē nosacījumus. Ja nosacījumu skaits ir 0 (nulle), tas veido <strong>0</strong>.</td>
-<td>Kā _ arī [args] infix: a + b + … + z</td>
+<td>Plus[args], infix: a + b + ... + z</td>
 <td><ul>
 <li><strong>Operators:</strong> Plus[x, y, 2] == z</li>
 <li><strong>Infiksālā pierakste:</strong> x + y + 2 == z</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Mīnus</td>
+<td>Minus</td>
 <td>Tas noliedz savu argumentu. Tam ir jābūt precīzi vienam nosacījumam.</td>
 <td>Minus[expr], infix: -expr</td>
 <td><ul>
@@ -157,41 +157,41 @@ Tālāk esošajās tabulās uzskaitīti operatori un infiksālā pierakste, ko v
 <td><strong>Operators:</strong> Abs[x]</td>
 </tr>
 <tr class="odd">
-<td>Reizes</td>
+<td>Times</td>
 <td>Tas paņem preci no tā nosacījumiem. Ja nosacījumu skaits ir 0 (nulle), tas veido <strong>1</strong>.</td>
-<td>Laikus [args] infix: * b * … * z</td>
+<td>Times[args], infix: a * b * ... * z</td>
 <td><ul>
 <li><strong>Operators:</strong> Times[x, y, 2] == z</li>
 <li><strong>Infiksālā pierakste:</strong> x * y * 2 == z</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Jauda</td>
-<td>Tas paņem eksponenciāli. Tas piemēro kāpinājumu no labās uz kreiso pusi. (Citiem vārdiem sakot, tas ir labi neasociatīvu.) Tādēļ <strong>Power [a, b, c]</strong> ir līdzvērtīga <strong>jauda [, jauda [b, c]]</strong>. <strong>Power</strong> var lietot tikai tad, ja kāpinātājs ir pozitīva konstante.</td>
-<td>Strāvas [args], infix: ^ b ^ … ^ z</td>
+<td>Power</td>
+<td>Tas paņem eksponenciāli. Tas piemēro kāpinājumu no labās uz kreiso pusi. (Citiem vārdiem sakot, tas ir asociatīvs ar labo pusi.) Tādēļ <strong>Power[a, b, c]</strong> ir ekvivalents ar <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> var lietot tikai tad, ja kāpinātājs ir pozitīva konstante.</td>
+<td>Power[args], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>Operators:</strong> Power[x, 2] == y</li>
 <li><strong>Infiksālā pierakste:</strong> x ^ 2 == y</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Maks.</td>
+<td>Max</td>
 <td>Tas dod lielāko nosacījumu. Ja nosacījumu skaits ir 0 (nulle), tas veido <strong>Bezgalība</strong>.</td>
 <td>Max[args]</td>
 <td><strong>Operators:</strong> Max[x, y, 2] == z</td>
 </tr>
 <tr class="even">
-<td>Min.</td>
+<td>Min</td>
 <td>Tas dod mazāko nosacījumu. Ja nosacījumu skaits ir 0 (nulle), tas veido <strong>Bezgalība</strong>.</td>
 <td>Min[args]</td>
 <td><strong>Operators:</strong> Min[x, y, 2] == z</td>
 </tr>
 <tr class="odd">
-<td>Ne</td>
+<td>Not</td>
 <td>Tas dod sava nosacījuma apgriezto loģiku. Tam ir jābūt precīzi vienam nosacījumam.</td>
 <td>Not[expr], infix: !expr</td>
 <td><ul>
-<li><strong>Operators:</strong> ne [x] &amp;ne [y = = 3]</li>
+<li><strong>Operators:</strong> Not[x] &amp; Not[y == 3]</li>
 <li><strong>Infiksālā pierakste:</strong> !x!(y == 3)</li>
 </ul></td>
 </tr>
@@ -200,10 +200,10 @@ Tālāk esošajās tabulās uzskaitīti operatori un infiksālā pierakste, ko v
 
 Piemēri nākamajā tabulā parada, kā rakstīt infiksālo pieraksti.
 
-| Infiksālā pierakste    | apraksts                                                                                   |
+| Infiksālā pierakste    | Apraksts                                                                                   |
 |-------------------|-----------------------------------------------------------------------------------------------|
-| x + y + z         | Papildinājums                                                                                      |
-| X \*y \*z       | Reizināšana                                                                                |
+| x + y + z         | Saskaitīšana                                                                                      |
+| x \* y \* z       | Reizināšana                                                                                |
 | x - y             | Binārā atņemšana tiek transformēta tāpat kā binārā saskaitīšana, ja ir negatīvā otrā vērtība. |
 | x ^ y ^ z         | Kāpinājums, kam ir labās puses asociācija                                                   |
 | !x                | Nav Būla                                                                                   |
@@ -212,41 +212,41 @@ Piemēri nākamajā tabulā parada, kā rakstīt infiksālo pieraksti.
 | x & y & z         | Būla un                                                                                   |
 | x == y == z       | Vienādība                                                                                      |
 | x != y != z       | Noteikts                                                                                      |
-| X &lt;y &lt;z   | Mazāks nekā                                                                                     |
-| X &gt;y &gt;z   | Lielāks nekā                                                                                  |
-| X &lt;= y &lt;= z | Mazāks vai vienāds ar                                                                         |
-| X &gt;= y &gt;= z | Lielāks vai vienāds ar                                                                      |
+| x &lt; y &lt; z   | Mazāks nekā                                                                                     |
+| x &gt; y &gt; z   | Lielāks nekā                                                                                  |
+| x &lt;= y &lt;= z | Mazāks vai vienāds ar                                                                         |
+| x &gt;= y &gt;= z | Lielāks vai vienāds ar                                                                      |
 | (x)               | Iekavas ignorē noklusējuma prioritāti.                                                      |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Kāpēc mani izteiksmes ierobežojumi nevalidējas pareizi?
-Nevar izmantot rezervētus atslēgas vārdus kā risinātāja nosaukumus atribūtiem, sastāvdaļām vai apakšsastāvdaļām preces konfigurācijas modelī. Šeit ir saraksts ar rezervēto atslēgvārdi, ka jūs nevarat izmantot:
+Nevar izmantot rezervētus atslēgas vārdus kā risinātāja nosaukumus atribūtiem, sastāvdaļām vai apakšsastāvdaļām preces konfigurācijas modelī. Tālāk ir saraksts ar rezervētajiem atslēgvārdiem, kurus jūs nevarat izmantot.
 
--   Augšējā robeža
--   Elements
--   Vienādi
--   Stāvs
--   Ja
--   Mazāks
--   Lielāks
+-   Ceiling
+-   Element
+-   Equal
+-   Floor
+-   If
+-   Less
+-   Greater
 -   Implies
--   Darbu izpildes žurnāls
--   Maks.
--   Min.
--   Mīnus
+-   Log
+-   Max
+-   Min
+-   Minus
 -   Plus
--   Jauda
--   Laiki
--   Slots
--   Modelis
--   Lēmums
--   Mērķis
+-   Power
+-   Times
+-   Slot
+-   Model
+-   Decision
+-   Goal
 
 
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Veidotu izteiksmi ierobežojumu (uzdevuma norādījumi)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
+[Izveidot izteiksmes ierobežojumu (uzdevuma ceļvedis)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
 
-[Aprēķinu pievienošana preču konfigurāciju modelim (uzdevuma norādījumi)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
+[Pievienot aprēķinu preces konfigurācijas modelim (uzdevuma ceļvedis)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Dinamika 365 par operācijas glosārijs"
+title: "Dynamics 365 for Operations glosārijs"
 description: "Microsoft Dynamics 365 for Operations glosārijs definē atslēgas terminus un koncepcijas, kuras tiek izmantotas Microsoft Dynamics 365 for Operations produktā."
 author: tonyafehr
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="dynamics-365-for-operations-glossary"></a>Dinamika 365 par operācijas glosārijs
+# <a name="dynamics-365-for-operations-glossary"></a>Dynamics 365 for Operations glosārijs
+
+[!include[banner](../includes/banner.md)]
+
 
 Microsoft Dynamics 365 for Operations glosārijs definē atslēgas terminus un koncepcijas, kuras tiek izmantotas Microsoft Dynamics 365 for Operations produktā. 
 
@@ -249,7 +252,7 @@ Transportlīdzeklis, kas tiek lietots izvietošanai lietotāja pieņemšanas pā
 
 Visual Studio rīks, ko izmanto, lai izveidotu, atjauninātu un pārbaudītu modeļa elementus.
 
-###### <a name="financial-dimensionsdimension-based-configuration"></a>**.. \financial-dimensions\dimension-Based konfigurācijas**
+###### <a name="financial-dimensionsdimension-based-configuration"></a>**konfigurācija atbilstoši dimensijām**
 
 Konfigurēšanas tehnoloģija, kas izmanto preces variantus, izvēloties vērtības preces dimensijām.
 
@@ -499,7 +502,7 @@ Preces daļa.
 
 ###### <a name="product-dimension"></a>**preces dimensija**
 
-Izmēru, krāsu vai konfigurācijas produkta atribūtiem, kurus izmanto... \financial-dimensions\dimension-based konfigurāciju.
+Izmēra, krāsas vai konfigurācijas preču īpašības, kas tiek izmantotas konfigurācijā atbilstoši dimensijām.
 
 ###### <a name="product-family"></a>**preču saime**
 
@@ -697,7 +700,7 @@ Pārvaldības struktūrvienība, kas kontrolē vienu vai vairākas ražošanas p
 
 Preces šablonu modelēšanas un preces variantu konfigurāciju meklēšanas metode.
 
-###### <a name="vat-value-added-tax"></a>**PVN (pievienotās vērtības nodokļa)**
+###### <a name="vat-value-added-tax"></a>**PVN (pievienotās vērtības nodoklis)**
 
 Nodoklis, ar kuru apliek preces katrā to ražošanas stadijā, pamatojoties uz vērtības, kura tiek pievienota katrā stadijā.
 
@@ -722,5 +725,7 @@ Persona, kas uzņemas darbinieka vai darba uzņēmēja lomu un kurai maksā par 
 ###### <a name="workspace"></a>**darbvieta**
 
 Lapa, kas sniedz vienas vai vairāku lietotāja veikto aktivitāšu pārskatu. Lapa izmanto šūnas, sarakstus un diagrammas, lai parādītu gaidīto darbu un saistītos datus no vairākiem avotiem, un lapā parādīti bieži veiktie uzdevumi, kas saistīti ar šiem datiem. Darbvietas kopsavilkuma sadaļā parādītas šūnas tiek parādītas arī saistītajā informācijas paneļa sadaļā.
+
+
 
 

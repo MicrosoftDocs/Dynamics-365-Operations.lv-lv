@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="physical-and-financial-updates"></a>Fiziskie un finanšu atjauninājumi
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā tēmā ir sniegts pārskats par to, kāda veida darbības palielina vai samazina krājumu daudzumu. 
 
-Krājumu darbības var fiziski atjaunināts un finansiāli atjaunināts programmā Microsoft Dynamics 365 operācijām. Dažu tipu fiziskās un finanšu transakcijas palielina daudzumu, bet citas daudzumu samazina.
+Krājumu transakcijas programmatūrā Microsoft Dynamics 365 for Operations var atjaunināt gan fiziski, gan finansiāli. Dažu tipu fiziskās un finanšu transakcijas palielina daudzumu, bet citas daudzumu samazina.
 
 ## <a name="physical-increases"></a>Fizisks palielinājums
 Kad fiziska transakcija tiek iegrāmatota, transakcijas ieraksta statuss ir **Saņemts**. Turpmāk minētās transakcijas tiek uzskatītas par fizisku palielinājumu:
@@ -49,10 +52,10 @@ Kad finansiālas ieejas plūsmas transakcija tiek iegrāmatota, transakcijas ier
 -   Pozitīva daudzuma krājumu žurnāli, tādi kā pārvietošana, pelņa un zaudējumi, uzskaite, materiālu komplekti un pārsūtīšana
 
 ## <a name="transactions-that-increase-quantity"></a>Darbības, kas palielina daudzumu
-Darbības, kas palielina daudzumu, tiek grāmatotas, norādot kārtējo vidējo pašizmaksu. Dinamika 365 operācijām aprēķina darbojas vidējās izmaksu cenas, kuras pamatā ir izmaksas par katru no šiem darījumiem katrai krājuma dimensijai, kas finansiāli tiek uzskaitīta. Informāciju par kārtējo vidējo pašizmaksu skatiet [Kārtējā vidējā pašizmaksa](running-average-cost-price.md).
+Darbības, kas palielina daudzumu, tiek grāmatotas, norādot kārtējo vidējo pašizmaksu. Programmatūrā Dynamics 365 for Operations tiek aprēķināta kārtējā vidējā pašizmaksa, pamatojoties uz katras transakcijas izmaksām par katru krājuma dimensiju, kas tiek finansiāli izsekota. Informāciju par kārtējo vidējo pašizmaksu skatiet [Kārtējā vidējā pašizmaksa](running-average-cost-price.md).
 
 ## <a name="transactions-that-decrease-quantity"></a>Darbības, kas samazina daudzumu
-Dinamika 365 operācijām izmanto darbojas vidējā aprēķinātā izmaksu cena, grāmatojot transakciju, kuras samazina daudzumu, neatkarīgi no krājumu modelim, kas ir saistīts ar šo krājumu. Ir nepieciešams, lai transakcija, kas samazina daudzumu, pirms grāmatošanas nebūtu iepriekš atzīmēta citai transakcijai. Ja fiziskais rīcībā esošie krājumi kļūst negatīvs, Dynamics 365 operācijām izmanto preču pašizmaksu, kas definēta krājumam par **preces** lapā. **Piezīme:** ja ir iespējota vairākvietu funkcionalitāte, šīs izmaksas būs krājumu izmaksas, kas definētas vietai lapā **Pasūtījuma noklusējuma iestatījumi**.
+Neatkarīgi no tā, kurš krājumu modelis ir saistīts ar attiecīgo krājumu, programmatūrā Dynamics 365 for Operations grāmatojot darbību, kas samazina daudzumu, tiek izmantota aprēķinātā kārtējā vidējā pašizmaksa. Ir nepieciešams, lai transakcija, kas samazina daudzumu, pirms grāmatošanas nebūtu iepriekš atzīmēta citai transakcijai. Ja fizisko rīcībā esošo krājumu daudzums kļūst negatīvs, programmatūrā Dynamics 365 for Operations tiek izmantotas krājuma izmaksas, kas šim krājumam ir definētas lapā **Krājums**. **Piezīme:** ja ir iespējota vairākvietu funkcionalitāte, šīs izmaksas būs krājumu izmaksas, kas definētas vietai lapā **Pasūtījuma noklusējuma iestatījumi**.
 
 ## <a name="physical-issues-vs-financial-issues"></a>Fiziska izdošana un finansiāla izdošana
 Kad fiziskas izejas plūsmas transakcija tiek iegrāmatota, transakcijas ieraksta statuss ir **Atskaitīts**. Turpmāk minētās transakcijas tiek uzskatītas par fiziskām izejas plūsmām:
@@ -69,5 +72,7 @@ Kad finansiāla transakcija tiek iegrāmatota, transakcijas ieraksta statuss ir 
 -   Negatīva daudzuma krājumu žurnāli, tādi kā pārvietošana, pelņa un zaudējumi, uzskaite, materiālu komplekti un pārsūtīšana
 
 Darbības, kas samazina daudzumu, tiek grāmatotas, norādot pašreizējo vidējo pašizmaksu. Līdz ar to, lai izdošanas transakcijas segtu ar saņemšanas darbībām, pamatojoties uz katram krājumam piešķirto krājumu modeli, ir nepieciešama krājumu slēgšanas procedūra.
+
+
 
 

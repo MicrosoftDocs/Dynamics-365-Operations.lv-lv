@@ -1,5 +1,5 @@
 ---
-title: "Iestatīšana kreditoriem"
+title: "Kreditora kontu iestatīšana"
 description: "Šajā tēmā ir aprakstīti informācijas tipi, kuri jānorāda, veidojot jaunu kreditora kontu."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-vendor-accounts"></a>Iestatīšana kreditoriem
+# <a name="set-up-vendor-accounts"></a>Kreditora kontu iestatīšana
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā tēmā ir aprakstīti informācijas tipi, kuri jānorāda, veidojot jaunu kreditora kontu.
 
@@ -40,7 +43,7 @@ Veidojot kreditora kontu, ir jāievada informācija par kreditoru. Šī informā
 -   Iestatiet kreditoram informāciju par nodokļiem piegādi, rēķinu un maksājumu. Pēc noklusējuma šie iestatījumi tiek kopēti jaunizveidotos dokumentos, ko izveidojat šim kreditoram.
 -   Iestatiet noklusējuma finanšu dimensijas, kas tiek izmantotas, lai automātiski grāmatotu transakcijas ar kreditoru finanšu kontiem.
 
-Lai paātrinātu kreditoru kontu izveides procesu, var izveidot veidnes. Lai izveidotu veidni, uz **kreditoru** lapas, darbību rūtī noklikšķiniet uz **opcijas**&gt;**ierakstīt info**. Pēc tam noklikšķiniet uz **Uzņēmuma kontu veidne**. Uzņēmuma kontu veidnes tiek koplietotas ar citiem lietotājiem.  
+Lai paātrinātu kreditoru kontu izveides procesu, var izveidot veidnes. Lai izveidotu veidni, lapas **Kreditors** darbību rūtī noklikšķiniet uz **Opcijas** &gt; **Informācija par ierakstu**. Pēc tam noklikšķiniet uz **Uzņēmuma kontu veidne**. Uzņēmuma kontu veidnes tiek koplietotas ar citiem lietotājiem.  
 
 Varat arī izveidot lietotāja veidni savām vajadzībām. Kreditoru, kas ir saistīts ar citiem ierakstiem, piemēram, kontaktpersonām vai precēm, nevar dzēst.
 
@@ -56,7 +59,7 @@ Katram kreditoram var definēt vairākas adreses, katra no kurām tiek izmantota
 ## <a name="vendor-contacts"></a>Piegādātāja kontaktpersonas
 Varat saglabāt kreditora kontaktpersonas. Šīs kontaktpersonas var izmantot dokumentos, piemēram, pirkšanas pasūtījumos vai piedāvājumu pieprasījumos (PP).  
 
-Pievienot kontaktpersonas kreditoram, **visiem kreditoriem** lapa par **kreditoru** cilni, jo **iestatīt** grupu, noklikšķiniet uz **kontaktus**&gt;**pievienot kontaktpersonas**.  
+Lai pievienotu kreditoram kontaktpersonu, lapas **Visi kreditori** cilnes **Kreditors** grupā **Iestatīt** noklikšķiniet uz **Kontaktpersonas** &gt; **Pievienot kontaktpersonas**.  
 
 Varat izveidot jaunas kreditora kontaktpersonas. Vai arī varat kopēt informāciju no citas personas, kas jau ir reģistrēta programmā Microsoft Dynamics 365 for Operations, un rediģēt informāciju pēc nepieciešamības.  
 
@@ -64,7 +67,7 @@ Varat izveidot jaunas kreditora kontaktpersonas. Vai arī varat kopēt informāc
 
 Kontaktpersonas ierakstu nevar dzēst, ja uz kontaktpersonu ir atsauce dokumentā. Tā vietā var deaktivizēt kontaktpersonu.  
 
-Kreditora kontaktpersonas var pievienot Microsoft Office 365 saglabātos personiskos kontaktus. Tomēr vispirms ir jāuzstāda sinhronizāciju starp Dynamics 365 operācijām un biroja 365 gan Microsoft Exchange servera sinhronizāciju un Microsoft Outlook iestatīšanas vedni.
+Kreditora kontaktpersonas var pievienot jūsu personiskajām kontaktpersonām programmā Microsoft Office 365. Tomēr vispirms ir jāiestata sinhronizācija starp Dynamics 365 for Operations un Office 365 gan Microsoft Exchange servera sinhronizācijā, gan Microsoft Outlook iestatīšanas vednī.
 
 ## <a name="vendors-in-different-legal-entities"></a>Kreditori dažādās juridiskajās personās
 Ja kreditors ir reģistrēts tikai vienai juridiskajai personai jūsu organizācijā un citām juridiskajām personām ir jāreģistrē tas pats kreditors, varat izmantot lapu **Pievienot kreditoru citai juridiskai personai**, lai konfigurētu kreditoru darījumu veikšanai ar citu juridisko personu. Jāatlasa kreditoru grupa, valūta un aizturēšanas statuss kreditoram izvēlētajā juridiskajā personā.  
@@ -101,5 +104,7 @@ Ja jāveic maksājumi uz kreditora bankas kontu, varat ievadīt informāciju par
 Varat norādīt noklusējuma kontus, kuri automātiski parādīsies attiecīgā kreditora rēķinu žurnālos. Šī funkcija var noderēt, ja parasti maksājat par viena veida precēm vai pakalpojumiem, ko nodrošina vieni un tie paši kreditori. Norādot noklusējuma kontu, var ātri un efektīvi ievadīt žurnāla ierakstus rēķinu žurnālā. Noklusējuma konti, ko norādāt, netiek izmantoti pirkšanas pasūtījumiem vai kreditoru rēķiniem, kas ir ievadīti lapā **Kreditora rēķins**.  
 
 Noklusējuma konti tiek atlasīti cilnē **Noklusētie konta iestatījumi**, kuru var atvērt, izmantojot cilni **Rēķins** kreditora ierakstā. Šeit atlasītie konti tiek parādīti kreditora kontam filtrēto kontu sarakstā, kad tiek ievadīts žurnāla ieraksts. Vienu no kontiem var iestatīt kā noklusējuma kontu.
+
+
 
 

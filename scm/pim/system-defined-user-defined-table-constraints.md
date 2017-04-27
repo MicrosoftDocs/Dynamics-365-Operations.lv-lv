@@ -1,6 +1,6 @@
 ---
 title: "Sistēmas definēti un lietotāja definēti tabulas ierobežojumi"
-description: "Šis raksts izskaidro tabulas ierobežojumu komponentu konfigurācija modelī - lietotāja definēts un sistēmas noteikts divu veidu. Tabulas ierobežojumi attiecas uz atļauto atribūtu kombināciju matricām, kur katra rinda nosaka vienu iespējamo atribūta vērtību kopu."
+description: "Šajā rakstā ir aprakstīti lietotāja un sistēmas definēta preces konfigurācijas modeļa komponentu tabulas divi ierobežojumu veidi. Tabulas ierobežojumi attiecas uz atļauto atribūtu kombināciju matricām, kur katra rinda nosaka vienu iespējamo atribūta vērtību kopu."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="system-defined-and-user-defined-table-constraints"></a>Sistēmas definēti un lietotāja definēti tabulas ierobežojumi
 
-Šis raksts izskaidro tabulas ierobežojumu komponentu konfigurācija modelī - lietotāja definēts un sistēmas noteikts divu veidu. Tabulas ierobežojumi attiecas uz atļauto atribūtu kombināciju matricām, kur katra rinda nosaka vienu iespējamo atribūta vērtību kopu.
+[!include[banner](../includes/banner.md)]
+
+
+Šajā rakstā ir aprakstīti lietotāja un sistēmas definēta preces konfigurācijas modeļa komponentu tabulas divi ierobežojumu veidi. Tabulas ierobežojumi attiecas uz atļauto atribūtu kombināciju matricām, kur katra rinda nosaka vienu iespējamo atribūta vērtību kopu.
 
 Tabulas ierobežojumi attiecas uz to atribūtu kombināciju matricām, kas atļauti komponentiem preču konfigurēšanas modelī. Katra tabulas rinda nosaka vienu iespējamo atribūtu vērtību kopu. Preču konfigurēšanas modelī ir iespējams noteikt divu veidu ierobežojumus.
 
@@ -57,11 +60,13 @@ Sistēmas definēts tabulas ierobežojums izveido dinamisku kartēšanu starp at
 
 Izveidojot sistēmas definētu tabulas ierobežojumu, atlasiet tabulu, ja vēlaties papildus definēt izmantojamu vaicājumu, un pēc tam piesaistiet atribūtu veidus atlasītās tabulas laukiem. Lauku veidiem jāatbilst atribūtu veidiem.  
 
-Pirms tabulas ierobežojumu ietekmi uz produkta konfigurācijas paraugs, satura ierobežojums ir jāiekļauj ierobežojuma viena modeļa sastāvdaļu. Procedūra ir, lai veidotu jaunu ierobežojumu, atlasiet tabulu ierobežojuma tips un pēc tam atlasiet tabulu ierobežojums definīciju, kas jāizmanto. Visbeidzot visi tabulas ierobežojuma lauki jākartē uz atribūtiem preces konfigurācijas modelī.
+Pirms tabulas ierobežojumu var izmantot preces konfigurācijas modelī, tabulas ierobežojums jāiekļauj ierobežojumā vienā no modeļu komponentiem. Procedūra paredzēta, lai izveidotu jaunu ierobežojumu, atlasītu tabulas ierobežojuma veidu, un pēc tam atlasītu tabulas lietojamo ierobežojuma definīciju. Visbeidzot visi tabulas ierobežojuma lauki jākartē uz atribūtiem preces konfigurācijas modelī.
 
 <a name="see-also"></a>Skatiet arī
 --------
 
 [Preču konfigurācijas modeļu galvenie jēdzieni](product-configuration-models.md)
+
+
 
 

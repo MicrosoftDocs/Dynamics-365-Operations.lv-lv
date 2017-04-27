@@ -1,6 +1,6 @@
 ---
-title: "Finanšu Performance Power BI saturu"
-description: "Šī tēma apraksta Microsoft Dynamics 365 par darbības finansiālajiem rezultātiem satura pakotne Microsoft Power BI. Tā apraksta panelis un ziņojumus, kas ir iekļautas satura pakotne, un sniedz informāciju par datu modelis un vienībām, kas tika izmantoti, lai izveidotu satura pakotne."
+title: "Power BI saturs Finanšu veiktspēja"
+description: "Šajā tēmā ir aprakstīta Microsoft Dynamics 365 for Operations satura pakotne Finanšu veiktspēja pakalpojumam Microsoft Power BI. Tajā ir arī aprakstīts informācijas panelis un pārskati, kas ir iekļauti šajā satura pakotnē, un ir sniegta informācija par datu modeli un elementiem, kas tika izmantoti, lai satura pakotni izveidotu."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,23 +24,26 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="financial-performance-power-bi-content"></a>Finanšu Performance Power BI saturu
+# <a name="financial-performance-power-bi-content"></a>Power BI saturs Finanšu veiktspēja
 
-Šī tēma apraksta Microsoft Dynamics 365 par darbības finansiālajiem rezultātiem satura pakotne Microsoft Power BI. Tā apraksta panelis un ziņojumus, kas ir iekļautas satura pakotne, un sniedz informāciju par datu modelis un vienībām, kas tika izmantoti, lai izveidotu satura pakotne.
+[!include[banner](../includes/banner.md)]
 
-<a name="accessing-the-content-pack"></a>Piekļūstot satura pakotni
+
+Šajā tēmā ir aprakstīta Microsoft Dynamics 365 for Operations satura pakotne Finanšu veiktspēja pakalpojumam Microsoft Power BI. Tajā ir arī aprakstīts informācijas panelis un pārskati, kas ir iekļauti šajā satura pakotnē, un ir sniegta informācija par datu modeli un elementiem, kas tika izmantoti, lai satura pakotni izveidotu.
+
+<a name="accessing-the-content-pack"></a>Piekļuve satura pakotnei
 --------------------------
 
-Finanšu darbības satura pakotni divas versijas ir pieejamas. Viena versija ir pieejama no Microsoft Dynamics Lifecycle Services (LCS), un otrs ir pieejamas no PowerBI.com.
+Satura pakotnei Finanšu veiktspēja ir pieejamas divas versijas. Viena versija ir pieejama no Microsoft Dynamics Lifecycle Services (LCS), un otra ir pieejama no PowerBI.com.
 
--   **Versija, kas pieejama no LCS:** finansiālo darbību satura pakotne, kas ir pieejama no LCS atbalsta Microsoft Dynamics 365 darbību versija 1611. Jūs varat atrast satura pakotne LCS bibliotēkā Shared aktīvu. Lai iegūtu papildinformāciju par satura pakotnes lejupielāde un izveidojiet savienojumu ar savu Microsoft Dynamics 365 darbības datiem, skatiet [Power BI saturu no Microsoft un partneri LCS](power-bi-content-microsoft-partners.md).
--   **Versija, kas pieejama no PowerBI.com:** finansiālo darbību satura pakotne, kas ir pieejams no PowerBI.com atbalsta Microsoft Dynamics AX versijas 7.0 un 7.0.1. Plašāku informāciju par savienojumu un ielādē savu dinamiku 365 darbības datiem, skatiet [Access Power BI saturu no PowerBI.com](power-bi-home-page.md).
+-   **No LCS pieejamā versija:** satura pakotne Finanšu veiktspēja, kas ir pieejama no LCS, atbalsta Microsoft Dynamics 365 for Operations versiju 1611. Šī satura pakotne ir atrodama LCS koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt šo satura pakotni un to savienot ar saviem Microsoft Dynamics 365 for Operations datiem, skatiet rakstā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md).
+-   **No PowerBI.com pieejamā versija:** satura pakotne Finanšu veiktspēja, kas ir pieejama no PowerBI.com, atbalsta Microsoft Dynamics AX versiju 7.0 un 7.0.1. Plašāku informāciju par to, kā pievienot un ielādēt Dynamics 365 for Operations datus, skatiet rakstā [Piekļūt Power BI saturam no PowerBI.com](power-bi-home-page.md).
 
-## <a name="main-account-setup"></a>Galvenais konta iestatīšanu
-Jo uzņēmumi vēlas pasīvu un ieņēmumu summas tiktu rādīta kā pozitīvas summas atskaitēs, galvenais Dynamics 365 operāciju kontu uzstādījumam ir svarīgi. Šo galveno kontu tiktu rādīta kā pozitīvas summas, galvenā konta tips ir jāiestata **atbildību** vai **ieņēmumi**. Kad šie kontu tipi tiek lietoti, atskaites, izmantojot Microsoft Power BI atsaukt pazīmes un parādīt kā pozitīvas summas.
+## <a name="main-account-setup"></a>Galvenā konta iestatīšana
+Tā kā organizācijas vēlas, lai saistību un ieņēmumu summas pārskatos tiktu rādītas kā pozitīvas summas, galveno kontu iestatīšana programmatūrā Dynamics 365 for Operations ir svarīga. Lai šie galvenie konti tiktu rādīti kā pozitīvas summas, galvenā konta tips ir jāiestata uz **Saistība** vai **Ieņēmumi**. Kad tiek izmantoti šie kontu tipi, pārskatu veidošana, izmantojot Microsoft Power BI, apgriež zīmes un šīs summas rāda kā pozitīvas.
 
-## <a name="dashboard-and-reports-that-are-included-in-the-content-pack"></a>Paneļa un ziņojumus, kas ir iekļautas satura pakotni
-Pēc satura pakotnes savienošanas ar jūsu Dynamics 365 for Operations datiem informācijas panelī un pārskatos tiek rādīti jūsu finanšu dati. Ja neesat lietojis varas BI pirms, jūs varat uzzināt vairāk par to uz [vadīto mācību lapas Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Informācijas panelī ir apkopoti datu elementi, kas ir balstīti uz pamata pārskatiem. Katrs elements satur apkopotu informāciju par pašreizējo gadu visos uzņēmumos attiecīgajā organizācijā. Šeit ir dažas flīzes:
+## <a name="dashboard-and-reports-that-are-included-in-the-content-pack"></a>Satura pakotnē iekļautie informācijas paneļi un pārskati
+Pēc satura pakotnes savienošanas ar jūsu Dynamics 365 for Operations datiem informācijas panelī un pārskatos tiek rādīti jūsu finanšu dati. Ja iepriekš neesat lietojis Power BI, papildinformāciju par to varat uzzināt lapā [Vadītā apmācība par Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Informācijas panelī ir apkopoti datu elementi, kas ir balstīti uz pamata pārskatiem. Katrs elements satur apkopotu informāciju par pašreizējo gadu visos uzņēmumos attiecīgajā organizācijā. Tālāk ir norādīti daži elementi.
 
 -   Kase
 -   Kopējie ieņēmumi šajā gadā
@@ -56,13 +59,13 @@ Pēc satura pakotnes savienošanas ar jūsu Dynamics 365 for Operations datiem i
 -   Peļņas norma šajā gadā
 -   Faktiskie un budžeta izdevumi — visi uzņēmumi
 
-Katras mozaīkas ir nodrošināta atbalsta ziņojumu. Šie pārskati satur gan diagrammas, gan tabulas, kas sniedz papildu informāciju. Tabulā ir sniegts pārskatu apraksts.
+Katrs elements balstās uz atbalsta pārskatu. Šie pārskati satur gan diagrammas, gan tabulas, kas sniedz papildu informāciju. Tabulā ir sniegts pārskatu apraksts.
 
 | Pārskats                      | Pārskatā iekļautā informācija                                                                                                                                                                                                                                                                                                          |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Naudas plūsmas analīze               | Juridiska persona, naudas pa ceturkšņiem, kopējo naudas un naudas konts naudas **Piezīme:****naudas ceturksnī** pārskats neietver sākuma bilances kopsumma pirmajā ceturksnī. Tas parāda pavisam jaunas darbības, kas grāmatotas katrā ceturksnī.                                                                                |
+| Naudas plūsmas analīze               | Naudas plūsma pēc juridiskās personas, naudas plūsma pa ceturkšņiem, kopsumma kasē un naudas plūsma pēc konta. **Piezīme.** Pārskats **Naudas plūsma pa ceturkšņiem** pirmā ceturkšņa kopsummā neietver sākuma bilances. Tas rāda katrā ceturksnī grāmatoto jauno transakciju kopsummu.                                                                                |
 | Pašreizējā koeficienta analīze      | Pašreizējais koeficients pēc juridiskas personas, pašreizējais koeficients pa ceturkšņiem un apgrozāmo līdzekļu un īstermiņa saistību atlikumi                                                                                                                                                                                                                              |
-| Tiešā koeficienta analīze        | Ātru attiecību juridiskā vienība, ātri attiecība pēc ceturkšņa un naudas, bilances debitoru parādiem un pašreizējo saistību                                                                                                                                                                                                                      |
+| Tiešā koeficienta analīze        | Tiešais koeficients pēc juridiskās personas, tiešais koeficients pa ceturkšņiem un skaidras naudas, debitoru parādu un īstermiņa saistību bilances                                                                                                                                                                                                                      |
 | Pārdoto preču pašizmaksas analīze | Pārdoto preču pašizmaksa (PPPI) pēc juridiskas personas, PPPI šājā gadā un iepriekšējā gadā pa ceturkšņiem, PPPI pret apgrozījumu pēc juridiskas personas, PPPI kopsumma un PPPI attiecība pret apgrozījumu procentos                                                                                                                                                                                   |
 | Apgrozāmā kapitāla analīze    | Apgrozāmais kapitāls pēc juridiskas personas, apgrozāmais kapitāls pa ceturkšņiem, apgrozāmie līdzekļi, īstermiņa saistības un kopējais apgrozāmais kapitāls                                                                                                                                                                                                                   |
 | Aktīvu un parādu analīze     | Kopējo līdzekļu ienesīgums un parādu un kopējo līdzekļu attiecība pēc juridiskas personas, parādu un kopējo līdzekļu attiecība un kopējo līdzekļu ienesīgums pa ceturkšņiem līdz pašreizējam datumam, aktīvi un pasīvi                                                                                                                                                                                     |
@@ -71,17 +74,17 @@ Katras mozaīkas ir nodrošināta atbalsta ziņojumu. Šie pārskati satur gan d
 | Ienākumu analīze           | Faktiskie un budžeta ienākumi pirms procentu un nodokļu nomaksas (EBIT) pēc juridiskas personas, EBIT šajā gadā un iepriekšējā gadā, izdevumu un ieņēmumu attiecība procentos un faktiskā un budžeta izdevumu un ieņēmumu attiecība                                                                                                                                                          |
 | Ieņēmumu analīze            | Kopējie ieņēmumi, faktiskie un budžeta kopējie ieņēmumi pēc juridiskas personas, kopējie ieņēmumi šajā gadā un iepriekšējā gadā, ieņēmumu budžeta novirze pēc juridiskas personas un kopējie ieņēmumi šajā periodā un iepriekšējā periodā                                                                                                                                                 |
 | Izdevumu analīze            | Kopējie izdevumi, faktisko un budžeta kopējo izdevumu attiecība pēc juridiskas personas, faktiskie un budžeta kopējie izdevumi pa ceturkšņiem, kopējie izdevumi pēc kontu kategorijas un darbības izmaksu koeficients                                                                                                                                                                 |
-| Rēķinos iekļauto ieņēmumu analīze     | Kopā Debitori kopā Debitori juridiskā vienība, kopā debitori pa ceturkšņiem un bilances pārskatu debitoru kontus **Piezīme:** pārskati neietver sākuma bilances pārskatu debitoru Virsgrāmatas kontiem. Tie parāda jaunas darbības, kas grāmatotas kontiem parādu kopsumma. |
+| Rēķinos iekļauto ieņēmumu analīze     | Debitoru parādu kopsumma, debitoru parādu kopsumma pēc juridiskās personas, debitoru parādu kopsumma pa ceturkšņiem un debitoru parādu kontu atlikumi. **Piezīme.** Pārskati neietver sākuma bilances debitoru parādu virsgrāmatas kontiem. Tie rāda debitoru parādos grāmatoto jauno transakciju kopsummu. |
 
 Diagrammas un elementus attiecībā uz visiem šiem pārskatiem var filtrēt un piespraust pie informācijas paneļa. Plašāku informāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet sadaļā [Informācijas paneļa izveide un konfigurēšana](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
-Datus, kas izplata paneļa un atskaites finanšu sniegums satura pakotne ir dinamika 365 operāciju datus. Šādas vienības izmantoja kā pamatu satura pakotne: **apkopot datu subjekti**
+Dati, ar ko tiek aizpildīts informācijas panelis un pārskati satura pakotnē Finanšu veiktspēja, ir Dynamics 365 for Operations dati. Kā satura pakotnes pamats tika izmantoti tālāk uzskaitītie elementi. **Apkopoto datu elementi**
 
--   **GeneralLedgerActivities** -šai entītijai uzkrāj Virsgrāmatas bilances kontā kategorijā.
--   **BudgetActivities** -šai entītijai uzkrāj budžeta bilances kontu kategorijas.
+-   **GeneralLedgerActivities** — šis elements apkopo virsgrāmatas bilances pēc kontu kategorijas.
+-   **BudgetActivities** — šis elements apkopo budžeta bilances pēc kontu kategorijas.
 
-**Data entities**
+**Datu elementi**
 
 -   FiscalCalendars
 -   MainAccounts
@@ -89,7 +92,7 @@ Datus, kas izplata paneļa un atskaites finanšu sniegums satura pakotne ir dina
 -   Virsgrāmatas
 -   ChartofAccounts
 
-Šīm vienībām tika izmantoti, lai izveidotu aprēķinātās mērvienības datu modelī. Aprēķinātie līdzekļi tiek izmantoti, lai aprēķinātu galveno veiktspējas rādītāju (KPI) un atskaites, kas tiek izmantotas satura pakotne. Pēc noklusējuma satura pakotne piegādā datus par pēdējiem trīs gadiem un vienu turpmāko gadu. Lai pārskatos un informācijas panelī iekļautu papildu aprēķinus, varat modificēt [Microsoft Excel darbgrāmatu](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Šī darbgrāmata ir noklusējuma datu modelis, kas tika izmantots, lai izveidotu satura pakotni. Pēc tam, kad esat pabeidzis savu izmaiņu veikšanu, varat izveidot organizācijas satura pakotni un informācijas paneli, kas satur informāciju, kuru pievienojāt.
+Šie elementi tika izmantoti, lai datu modelī izveidotu aprēķinātus mērus. Šie aprēķinātie mēri tiek lietoti, lai aprēķinātu galvenos veiktspējas rādītājus (key performance indicators — KPI) un pārskatus, kas tiek izmantoti satura pakotnē. Pēc noklusējuma satura pakotne piegādā datus par pēdējiem trīs gadiem un vienu turpmāko gadu. Lai pārskatos un informācijas panelī iekļautu papildu aprēķinus, varat modificēt [Microsoft Excel darbgrāmatu](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Šī darbgrāmata ir noklusējuma datu modelis, kas tika izmantots, lai izveidotu satura pakotni. Pēc tam, kad esat pabeidzis savu izmaiņu veikšanu, varat izveidot organizācijas satura pakotni un informācijas paneli, kas satur informāciju, kuru pievienojāt.
 
 ## <a name="additional-resources"></a>Papildu resursi
 Šeit norādītas dažas noderīgas saites, kas ir saistītas ar elementiem un Power BI satura izveidi:
@@ -98,6 +101,8 @@ Datus, kas izplata paneļa un atskaites finanšu sniegums satura pakotne ir dina
 -   [Organizācijas satura pakotnes izveide](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Datu modelēšana, izmantojot Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Power BI elementu pievienošana darbvietām](configure-power-bi-integration.md)
+
+
 
 
 

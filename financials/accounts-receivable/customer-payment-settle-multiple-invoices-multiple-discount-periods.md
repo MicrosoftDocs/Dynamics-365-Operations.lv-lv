@@ -1,5 +1,5 @@
 ---
-title: "Izmantot klientu maksājumu, lai atrisinātu vairākus rēķinus, kas aptver vairāku atlaižu periodus"
+title: "Lietot debitora maksājumu, lai segtu vairākus rēķinus ar vairākiem atlaižu periodiem"
 description: "Šajā rakstā ir izskaidrots, kā vairāki rēķini tiek apmaksāti, ja katram rēķinam var piemērot termiņatlaidi. Šajā rakstā aprakstītajā scenārijā galvenā uzmanība pievērsta termiņatlaidēm, kas tiek piemērotas atkarībā no maksājuma veikšanas laika."
 author: twheeloc
 manager: AnnBe
@@ -26,18 +26,21 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Izmantot klientu maksājumu, lai atrisinātu vairākus rēķinus, kas aptver vairāku atlaižu periodus
+# <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Lietot debitora maksājumu, lai segtu vairākus rēķinus ar vairākiem atlaižu periodiem
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir izskaidrots, kā vairāki rēķini tiek apmaksāti, ja katram rēķinam var piemērot termiņatlaidi. Šajā rakstā aprakstītajā scenārijā galvenā uzmanība pievērsta termiņatlaidēm, kas tiek piemērotas atkarībā no maksājuma veikšanas laika.
 
-Fabrikam pārdod preces klientam 4032. Fabrikam piedāvā 1 procentu termiņatlaide, ja rēķins ir apmaksāts 14 dienu laikā. Fabrikam piedāvā arī termiņatlaides daļējiem maksājumiem. Settement parametrus, kas atrodas **Accounts receivable parameters** lapā.
+Fabrikam pārdod preces debitoram 4032. Fabrikam piedāvā termiņatlaidi 1 procenta apmērā, ja rēķins tiek apmaksāts 14 dienu laikā. Fabrikam piedāvā arī termiņatlaides daļējiem maksājumiem. Nosegšanas parametri atrodas lapā **Debitoru moduļa parametri**.
 
 ## <a name="invoices"></a>Rēķini
 Debitoram 4032 ir trīs rēķini, kuru kopsumma ir 3000,00.
 
--   Rēķinu FTI-10040, 1000,00, tika ierakstīts 15. maijs. Šis rēķins ir piemērota termiņatlaide, 1 procents, ja tā ir samaksāta 14 dienu laikā.
--   25. jūnijā tika ievadīts rēķina FTI-10041, 1000,00. Šis rēķins ir piemērota termiņatlaide, 1 procents, ja tā ir samaksāta 14 dienu laikā.
--   25. jūnijā tika ievadīts rēķina FTI-10042, 1000,00. Šis rēķins ir piemērota 2 procentu termiņatlaide, ja tas izmaksā piecu dienu un 1 procentu atlaidi, ja tā ir samaksāta 14 dienu laikā.
+-   Rēķins FTI-10040 par summu 1000,00 tika ievadīts 15. maijā. Šis rēķins ir piemērots termiņatlaides saņemšanai 1 procenta apmērā, ja tas tiek apmaksāts 14 dienu laikā.
+-   Rēķins FTI-10041 par summu 1000,00 tika ievadīts 25. jūnijā. Šis rēķins ir piemērots termiņatlaides saņemšanai 1 procenta apmērā, ja tas tiek apmaksāts 14 dienu laikā.
+-   Rēķins FTI-10042 par summu 1000,00 tika ievadīts 25. jūnijā. Šis rēķins ir piemērots termiņatlaides saņemšanai 2 procentu apmērā, ja tas tiek apmaksāts piecu dienu laikā, un 1 procenta apmērā, ja tas tiek apmaksāts 14 dienu laikā.
 
 ## <a name="settle-all-invoices-on-june-29"></a>Visu rēķinu apmaksa 29. jūnijā
 Ja Ārnijs izveido maksājumu žurnālu, lai pilnībā apmaksātu šos rēķinus 29. jūnijā, maksājuma summa ir 2970,00. Visu atlaižu kopsumma ir 30,00. Ārnijs izveido maksājumu debitoram 4032 un pēc tam atver lapu **Transakciju nosegšana**. Lapā **Transakciju nosegšana** Ārnijs atzīmē visas trīs rēķinu rindas segšanai.
@@ -76,7 +79,7 @@ Debitors 4032 var maksāt daļēju summu, piemēram, puse no katra rēķina summ
 | Atlasīts                 | Parastais            | FTI-10041 | 4032    | 25.06.2015 | 25.07.2015 | 10041   | 1000,00                             |                                       | USD      | 495,00           |
 | Atlasīts un iezīmēts | Parastais            | FTI-10042 | 4032    | 25.06.2015 | 25.07.2015 | 10042   | 1000,00                             |                                       | USD      | 490,00           |
 
-Arnie arī manuāli ievadiet maksājuma summu 1,485.00, pirms viņš atver **norēķiniem par darījumiem** lapā. Ja Arnie manuāli ievada maksājuma summu un pēc tam atzīmē visas trīs darbības, bet viņš nav koriģētu vērtību **apjoms, lai nokārtotu** lauks katrai darbībai, viņš saņem šādu ziņojumu, aizverot lappusi:
+Ārnijs var arī manuāli ievadīt maksājuma summu 1485,00, pirms viņš atver lapu **Nosegt transakcijas**. Ja Ārnijs maksājuma summu ievada manuāli un pēc tam atzīmē visas trīs transakcijas, bet nekoriģē katras transakcijas lauka **Nosedzamā summa** vērtību, tad viņš, aizverot lapu, saņem tālāk norādīto ziņojumu.
 
 > Iezīmēto darbību kopsumma atšķiras no žurnāla summas. Mainīt žurnāla summu?
 
@@ -95,6 +98,8 @@ Arnijs apskata informāciju lapā **Debitoru darbības**.
 | FTI-10042  | Rēķins          | 25.06.2015 | 10042   | 1000,00                             |                                       | 505,10   | USD      |
 | ARP-10040  | Maksājums          | 29.06.2015 |         |                                      | 1485,00                              | 0,00     | USD      |
 | DISC-10040 | Termiņatlaide    | 29.06.2015 |         |                                      | 9,90                                  | 0,00     | USD      |
+
+
 
 
 

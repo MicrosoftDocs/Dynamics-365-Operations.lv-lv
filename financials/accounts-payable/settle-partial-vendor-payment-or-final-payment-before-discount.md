@@ -1,5 +1,5 @@
 ---
-title: "Izšķirt daļēju kreditora maksājums un galīgais maksājums pilnā apmērā pirms termiņatlaides datums"
+title: "Daļēja kreditora maksājuma segšana un galīgā maksājuma segšana par pilnu summu pirms atlaides datuma"
 description: "Šajā rakstā ir aprakstīts scenārijs, kurā tiek veikti daļēji maksājumi pēc kreditora rēķina un tiek pielāgota termiņatlaide."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Izšķirt daļēju kreditora maksājums un galīgais maksājums pilnā apmērā pirms termiņatlaides datums
+# <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Daļēja kreditora maksājuma segšana un galīgā maksājuma segšana par pilnu summu pirms atlaides datuma
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir aprakstīts scenārijs, kurā tiek veikti daļēji maksājumi pēc kreditora rēķina un tiek pielāgota termiņatlaide.
 
-Fabrikam pērk preces no piegādātāja 3064. Piegādātājam dod Fabrikam 1 procentu termiņatlaide, ja rēķins ir apmaksāts 14 dienu laikā. Rēķini ir jāapmaksā 30 dienu laikā. Turklāt kreditors Fabrikam termiņatlaides ļauj saņemt arī par daļējiem maksājumiem. Norēķinu parametri atrodas **debitoru kreditoru parametrus** lapā. 25. jūnijā Eiprila ievada rēķinu par summu 1000,00 kreditoram 3064.
+Fabrikam pērk preces no kreditora 3064. Kreditors dod Fabrikam 1 procenta termiņatlaidi, ja rēķins tiek apmaksāts 14 dienu laikā. Rēķini ir jāapmaksā 30 dienu laikā. Turklāt kreditors Fabrikam termiņatlaides ļauj saņemt arī par daļējiem maksājumiem. Nosegšanas parametri atrodas lapā **Kreditoru moduļa parametri**. 25. jūnijā Eiprila ievada rēķinu par summu 1000,00 kreditoram 3064.
 
 ## <a name="vendor-invoice-on-june-25"></a>Kreditora rēķins 25. jūnijā
-25. jūnijā, aprīlī ievada un amatu 1000,00 3064 kreditora rēķinu. Eiprila var skatīt šo transakciju lapā **Debitoru transakcijas**.
+25. jūnijā Eiprila ievada un grāmato rēķinu par summu 1000,00 kreditoram 3064. Eiprila var skatīt šo transakciju lapā **Debitoru transakcijas**.
 
 | Dokuments   | Datums      | Rēķins | Summa transakcijas valūtas debetā | Summa transakcijas valūtas kredītā | Bilance   | Valūta |
 |-----------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
@@ -63,7 +66,7 @@ Eiprila noklikšķina uz cilnes **Termiņatlaide**, lai apskatītu atlaides summ
 | 25.07.2015          | 0,00                 | 1000,00                       |
 
 ## <a name="partial-payment-on-july-1-by-using-the-settle-transactions-page"></a>Daļējs maksājums 1. jūlijā, izmantojot lapu Transakciju nosegšana
-Eiprila var izveidot maksājumu žurnālu šim maksājumam, atverot lapu **Maksājumu žurnāls** sadaļā Kreditori. Viņa veidotu jaunu žurnālu un ievada līniju 3064 kreditoram. Viņa tad atver **norēķiniem par darījumiem** lapa, tāpēc, ka viņa var atzīmēt rēķinu apmaksai. Eiprila atzīmē rēķinu un maina vērtību laukā **Nosedzamā summa** uz **-500,00**. Viņa redz, ka vērtība laukā **Termiņatlaides summa** ir **-10,00** pilnam rēķinam un ka vērtība **Ņemamā termiņatlaides summa** ir **-5,05**. Tāpēc Eiprila nosedz -505,05 no šī rēķina.
+Eiprila var izveidot maksājumu žurnālu šim maksājumam, atverot lapu **Maksājumu žurnāls** sadaļā Kreditori. Viņa izveido jaunu žurnālu un ievada rindu kreditoram 3064. Tad viņa atver lapu **Transakciju nosegšana**, lai varētu atzīmēt rēķinu nosegšanai. Eiprila atzīmē rēķinu un maina vērtību laukā **Nosedzamā summa** uz **-500,00**. Viņa redz, ka vērtība laukā **Termiņatlaides summa** ir **-10,00** pilnam rēķinam un ka vērtība **Ņemamā termiņatlaides summa** ir **-5,05**. Tāpēc Eiprila nosedz -505,05 no šī rēķina.
 
 | Atzīmēt     | Izmantot termiņatlaidi | Dokuments   | Konts | Datums      | Izpildes datums  | Rēķins | Summa darījuma valūtā | Valūta | Nosedzamā summa |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -95,7 +98,7 @@ Atlaides informācija ir redzama lapas **Nosegt atvērtās transakcijas** apakš
 | Paņemta termiņatlaides summa          | 0,00      |
 | Ņemamā termiņatlaides summa | -5,00     |
 
-Eiprila aizver lapu **Transakciju nosegšana**. Žurnālā tiek izveidota maksājuma rinda summai 495,00, un pēc tam Eiprila iegrāmato žurnālu. Aprīļa var pārskatīt kreditoru darbību uz **kreditoru darbību** lapā. Viņa uzskata, ka rēķins ir līdzsvars starp-500.00. Viņa redz arī maksājumu 495,00 apmērā un termiņatlaidi 5,00 apmērā.
+Eiprila aizver lapu **Transakciju nosegšana**. Žurnālā tiek izveidota maksājuma rinda summai 495,00, un pēc tam Eiprila iegrāmato žurnālu. Eiprila var pārskatīt kreditoru transakcijas lapā **Debitoru transakcijas**. Viņa redz rēķinam, ka ir bilance -500,00. Viņa redz arī maksājumu 495,00 apmērā un termiņatlaidi 5,00 apmērā.
 
 | Dokuments    | Darījuma veids | Datums      | Rēķins | Summa transakcijas valūtas debetā | Summa transakcijas valūtas kredītā | Bilance | Valūta |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
@@ -136,6 +139,8 @@ Eiprila grāmato maksājumu žurnālu un pārskata kreditora transakcijas lapā 
 | DISC-10010 | Termiņatlaide    | 01.07.2015  |         | 5,00                                 |                                       | 0,00    | USD      |
 | APP-10011  | Maksājums          | 08.07.2015  |         | 495,00                               |                                       | 0,00    | USD      |
 | DISC-10011 | Termiņatlaide    | 7/8/2015  |         | 5,00                                 |                                       | 0,00    | USD      |
+
+
 
 
 

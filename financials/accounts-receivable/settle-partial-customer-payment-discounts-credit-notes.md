@@ -1,5 +1,5 @@
 ---
-title: "Nokārtot daļēju klientu maksājumu, kas ir atlaides kredīta notās"
+title: "Tāda daļēja debitora maksājuma segšana, kam ir atlaides debitora kredītrēķiniem"
 description: "Šajā rakstā ir aprakstīts scenārijs, kurā kredīta notai tiek piemērota termiņatlaide, ja sākotnējam rēķinam arī ir piemērota termiņatlaide."
 author: twheeloc
 manager: AnnBe
@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Nokārtot daļēju klientu maksājumu, kas ir atlaides kredīta notās
+# <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Tāda daļēja debitora maksājuma segšana, kam ir atlaides debitora kredītrēķiniem
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir aprakstīts scenārijs, kurā kredīta notai tiek piemērota termiņatlaide, ja sākotnējam rēķinam arī ir piemērota termiņatlaide. 
 
-Fabrikam ļauj klientiem veikt termiņatlaides daļējiem maksājumiem, kā arī par kredīta notām (kredītrēķini). Termiņatlaidi var ņemt ar kredīta notu, kad kredīta nota tiek izsniegta rēķinam, par ko debitors ieguva termiņatlaidi. Kredīta par pilnu summu sniegšanas vietā varat kreditēt debitora bilance par summu, kas izslēdz termiņatlaides procentuālo vērtību, ko debitors ieguva. Norēķinu parametri atrodas **Accounts receivable parameters** lapā.
+Fabrikam ļauj klientiem veikt termiņatlaides daļējiem maksājumiem, kā arī par kredīta notām (kredītrēķini). Termiņatlaidi var ņemt ar kredīta notu, kad kredīta nota tiek izsniegta rēķinam, par ko debitors ieguva termiņatlaidi. Kredīta par pilnu summu sniegšanas vietā varat kreditēt debitora bilance par summu, kas izslēdz termiņatlaides procentuālo vērtību, ko debitors ieguva. Nosegšanas parametri atrodas lapā **Debitoru moduļa parametri**.
 
 ## <a name="invoice-and-credit-note"></a>Rēķins un kredīta nota
 Debitoram 4035 ir rēķins par 1000,00 un kredīta nota par 100,00. Katrā dokumentā ir 1 % atlaide, to apmaksājot 14 dienu laikā. Arnijs var apskatīt šo informāciju lapā **Debitoru darbības**.
@@ -59,5 +62,7 @@ Atlaides informācija ir redzama lapas **Nosegt transakcijas** apakšdaļā.
 | Ņemamā termiņatlaides summa | -1,00     |
 
 Nosegšana būs 100,00; tiks iekļauts maksājums 99,00 un atlaide 1,00.
+
+
 
 

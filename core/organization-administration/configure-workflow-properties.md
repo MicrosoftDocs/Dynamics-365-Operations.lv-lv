@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-the-properties-of-a-workflow"></a>Konfigurēt darbplūsmas rekvizītus
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā tēmā ir paskaidrots, kā konfigurēt dažādus darbplūsmas rekvizītus.
 
 Lai konfigurētu darbplūsmas rekvizītus, atveriet darbplūsmu, izmantojot darbplūsmas redaktoru. Noklikšķiniet uz darbplūsmas redaktora audekla un pēc tam noklikšķiniet uz vienuma **Rekvizīti**, lai atvērtu lapu **Rekvizīti**. Varat izmantot tālāk aprakstītās procedūras, lai konfigurētu dažādus darbplūsmas rekvizītus.
@@ -57,7 +60,7 @@ Varat sniegt informāciju lietotājiem, kuri iesniedz dokumentus apstrādei un a
     1.  Noklikšķiniet uz lauka **Iesniegšanas instrukcijas**, lai norādītu, kur vēlaties ievietot vietturi.
     2.  Noklikšķiniet uz **Ievietot vietturi**.
     3.  Parādītajā sarakstā atlasiet vietturi, kuru ievietot.
-    4.  Klikšķiniet **Ievietot**.
+    4.  Noklikšķiniet uz **Ievietot**.
 
 4.  Lai pievienotu instrukciju tulkojumus, rīkojieties šādi:
     1.  Noklikšķiniet uz **Tulkojumi**.
@@ -103,7 +106,7 @@ Kad dokuments iesniegts apstrādei, tiek izveidota darbplūsmas instance. Varat 
     1.  Noklikšķiniet uz lauka, lai norādītu, kur vietturim jāparādās.
     2.  Noklikšķiniet uz **Ievietot vietturi**.
     3.  Parādītajā sarakstā atlasiet vietturi, kuru ievietot.
-    4.  Klikšķiniet **Ievietot**.
+    4.  Noklikšķiniet uz **Ievietot**.
 
 6.  Lai pievienotu teksta tulkojumus, rīkojieties šādi:
     1.  Noklikšķiniet uz **Tulkojumi**.
@@ -147,10 +150,10 @@ Kad dokuments iesniegts apstrādei, tiek izveidota darbplūsmas instance. Varat 
     </tr>
     <tr class="odd">
     <td>Lietotājs</td>
-    <td>Noteiktu dinamiku 365 darbības lietotāji</td>
+    <td>Specifiski Dynamics 365 for Operations lietotāji</td>
     <td><ol>
     <li>Cilnē <strong>Adresāts</strong> noklikšķiniet uz <strong>Lietotājs</strong>.</li>
-    <li>Par <strong>lietotāja</strong> cilnē <strong>pieejams lietotājiem</strong> saraksts ietver visus Dynamics 365 operācijas lietotājiem. Atlasiet lietotājus, kuriem sūtīt paziņojumus, un pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
+    <li>Cilnē <strong>Lietotājs</strong>, sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Operations lietotāji. Atlasiet lietotājus, kuriem sūtīt paziņojumus, un pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -165,6 +168,8 @@ Lai ievadītu komentārus par izmaiņām, ko veicāt šajā darbplūsmā, rīkoj
 2.  Laukā **Ievadīt komentārus par darbplūsmu** ievadiet savus komentārus.
 3.  Pārskatiet savus komentārus. Pēc komentāru pievienošanas tos nevar pārveidot.
 4.  Noklikšķiniet uz **Pievienot**, lai pievienotu jūsu komentārus apgabalā **Komentāru vēsture**.
+
+
 
 
 

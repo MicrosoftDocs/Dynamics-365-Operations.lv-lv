@@ -1,5 +1,5 @@
 ---
-title: "Papildu bankas saskaņojumu MT940 importa – kompozītu datu subjekts jaunināt"
+title: "Detalizētas bankas darbību saskaņošanas MT940 importēšana – Salikta datu elementa jaunināšana"
 description: "Secības numurs jāpievieno bankas izraksta importēšanas elementam, lai atbalstītu MT940 formātu."
 author: twheeloc
 manager: AnnBe
@@ -24,21 +24,24 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>Papildu bankas saskaņojumu MT940 importa – kompozītu datu subjekts jaunināt
+# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>Detalizētas bankas darbību saskaņošanas MT940 importēšana – Salikta datu elementa jaunināšana
+
+[!include[banner](../includes/banner.md)]
+
 
 Secības numurs jāpievieno bankas izraksta importēšanas elementam, lai atbalstītu MT940 formātu. 
 
 Lai pievienotu bankas izraksta importēšanas elementu MT940 formāta atbalstam, veiciet šādas darbības.
 
 1.  Kompilējiet un sinhronizējiet:
-    -   Saliktu vienību\\BankStatementImportEntity
-    -   Uzņēmums\\BankStatementBalanceEntity
-    -   Uzņēmums\\BankStatementDocumentEntity
-    -   Uzņēmums\\BankStatementEntity
-    -   Uzņēmums\\BankStatementLineEntity
+    -   Salikts elements\\BankStatementImportEntity
+    -   Elements\\BankStatementBalanceEntity
+    -   Elements\\BankStatementDocumentEntity
+    -   Elements\\BankStatementEntity
+    -   Elements\\BankStatementLineEntity
     -   Tabulas\\BankStatementStaging
 
-2.  Datu pārvaldības\\datu projektiem.
+2.  Datu pārvaldība\\datu projekti.
     1.  Ielādēt MT940 projekta(-u) importēšanu
         1.  Mainīt XSLT.
             -   Noklikšķiniet uz **Skatīt karti**.
@@ -58,6 +61,8 @@ Lai pievienotu bankas izraksta importēšanas elementu MT940 formāta atbalstam,
                 -   Apstipriniet, ka **SequenceNumber** ir kartēts no Avota uz Sagatavošanu.
 
 3.  Importēt jauno izrakstu.
+
+
 
 
 

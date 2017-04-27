@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="update-standard-costs-in-a-non-manufacturing-environment"></a>Standarta izmaksu atjaunināšana vidē, kas nav saistīta ar ražošanu
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegti norādījumi par to, kā atjaunināt standarta izmaksas vidē, kas nav saistīta ar ražošanu.
 
 Norādījumi tālāk tiek sniegti, pieņemot, ka standarta izmaksu atjaunināšanai tiek izmantota divu versiju pieeja. Izmantojot šo pieeju, viena izmaksu aprēķināšanas versija ietver standarta izmaksas, kas sākotnēji ir noteiktas uz fiksētu periodu, un otra izmaksu aprēķināšanas versija ietver inkrementālos atjauninājumus. Visi atjauninājumi tiek ievadīti kā izmaksu ieraksti, kas ir ietverti otrā izmaksu aprēķināšanas versijā, un galu galā tiek iespējoti. Papildu vienas versijas pieeja izmanto sākotnēji definētu standarta izmaksu kopu. Lai varētu izmantot divu versiju pieeju, jādefinē otra izmaksu aprēķināšanas versija. Tālāk ir sniegtas norādes, ka definēt šo izmaksu aprēķināšanas versiju.
@@ -46,6 +49,8 @@ Lai labotu, pielāgotu vai atjauninātu jauno krājumu standarta izmaksas, veici
 4.  Izmantojiet lapu **Izmaksu aprēķināšanas versijas uzturēšana**, lai mainītu bloķējošo karodziņu un tādējādi atļautu otrajā izmaksu aprēķināšanas versijā iekļauto neapstiprināto izmaksu ierakstu aktivizēšanu.
 5.  Izmantojiet lapu **Aktivizēt cenas** (ko var atvērt, izmantojot lapu **Izmaksu aprēķināšanas versijas uzturēšana**), lai atļautu visu otrajā izmaksu aprēķināšanas versijā iekļauto neapstiprināto krājumu izmaksu ierakstu aktivizēšanu. Var aktivizēt arī atsevišķu krājumu neapstiprināto izmaksu ierakstus, lapā **Krājuma cena** noklikšķinot uz pogas **Aktivizēt neapstiprinātās cenas**.
 6.  Lai nepieļautu papildu datu uzturēšanu, izmantojiet lapu **Izmaksu aprēķināšanas versijas iestatīšana**, lai mainītu bloķējošos karodziņus, kas ir iekļauti otrajā izmaksu aprēķināšanas versijā. Bloķēšana novērsīs jaunu nenokārtotu izmaksu ievadi un nenokārtoto izmaksu aktivizāciju.
+
+
 
 
 

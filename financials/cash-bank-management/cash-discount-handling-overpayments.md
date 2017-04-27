@@ -1,5 +1,5 @@
 ---
-title: "Pārkraušanas termiņatlaides pārmaksa"
+title: "Termiņatlaižu apstrāde pārmaksām"
 description: "Šajā rakstā ir sniegti scenāriji, kas parāda, kā tiek apstrādāts maksājums, kad debitors izmanto termiņatlaidi, bet arī pārmaksā."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="handling-cash-discounts-for-overpayments"></a>Pārkraušanas termiņatlaides pārmaksa
+# <a name="handling-cash-discounts-for-overpayments"></a>Termiņatlaižu apstrāde pārmaksām
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir sniegti scenāriji, kas parāda, kā tiek apstrādāts maksājums, kad debitors izmanto termiņatlaidi, bet arī pārmaksā. 
 
@@ -133,6 +136,8 @@ Termiņatlaides summa tiek samazināta no 10,50 uz 10,00. Maksājums un rēķins
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
 | Termiņatlaide (laukā **Galvenais konts debitoru atlaidēm** lapā **Termiņatlaides**) | 10,50        |               |
 | Debitoru parādi                                                                              |              | 10,50         |
+
+
 
 
 

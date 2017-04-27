@@ -28,27 +28,32 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="vendor-payments-for-a-partial-amount"></a>Kreditora daļējas summas maksājumi
 
+[!include[banner](../includes/banner.md)]
+
+
 Reizēm jūs veicat kreditoram maksājumu, kas ir mazāks par rēķinā norādīto summu. Šajā rakstā ir aprakstītas dažādās opcijas, ko darīt šādās situācijās. Jums pieejamās opcijas ir atkarīgas no jūsu biznesa prasībām un konfigurācijas. 
 
 <a name="cash-discount-amounts"></a>Termiņatlaides summas
 ---------------------
 
-Varat piedāvāt kreditoram termiņatlaidi, ja rēķins tiek apmaksāts pirms apmaksas datuma. Piemēram, ja rēķins tiek apmaksāts 10 dienu laikā, jūs ievadiet rēķinu par summu 100,00, kurā norādīta 2 procentu termiņatlaide. Apmaksas termiņš ir 30 dienas. Ja maksājuma piedāvājums izmanto termiņatlaides kā kritēriju, atlasot rēķinu un priekšlikums darbojas tieši vai pirms termiņatlaides datumu, rēķinu atlasītajam maksājumu un maksājumu izveidojas 98,00. Termiņatlaides var ņemt arī vienreizējs maksājums, kas tika izveidots manuāli.
+Varat piedāvāt kreditoram termiņatlaidi, ja rēķins tiek apmaksāts pirms apmaksas datuma. Piemēram, ja rēķins tiek apmaksāts 10 dienu laikā, jūs ievadiet rēķinu par summu 100,00, kurā norādīta 2 procentu termiņatlaide. Apmaksas termiņš ir 30 dienas. Ja maksājuma piedāvājumā kā rēķina atlases kritērijs ir izmantota termiņatlaide un ja priekšlikums ir spēkā termiņatlaides datumā vai pirms tā, tad šis rēķins tiek atlasīts apmaksai un maksājums tiek veikts par summu 98,00. Termiņatlaidi var piemērot arī vienreizējam maksājumam, kas ir izveidots manuāli.
 
 ## <a name="partial-payments-with-cash-discounts"></a>Daļēji maksājumi ar termiņatlaidēm
-Ja tiek veikts daļējs maksājums, var ieplānot veikt papildu daļēju maksājumu, lai pilnībā segtu rēķinu. Jāiestata termiņatlaides daļēju samaksu veikt * * aprēķināt termiņatlaides daļējiem maksājumiem * * iespēju **Jā** par **konts kreditoru parametrus** lapu. 
+Ja tiek veikts daļējs maksājums, var ieplānot veikt papildu daļēju maksājumu, lai pilnībā segtu rēķinu. Lai termiņatlaidi piemērotu daļējam maksājumam, opcijai **Aprēķināt daļēju maksājumu termiņatlaides** lapā **Debitoru moduļa parametri** ir jāiestata vērtība **Jā**. 
 
-Piemēram, ja rēķins tiek apmaksāts 10 dienu laikā pēc tā izrakstīšanas, jums tiek piedāvāta 2 procentu termiņatlaide. Rēķins ir iegrāmatots par summu 100,00. Ja veicat maksājumu 49.00 10 dienu laikā, ievadiet 49.00 debeta maksājumu žurnālā. Kad iestatāt daļējs maksājums **nokārtot atvērtās darbības** lapu, **1.00** parādās **termiņatlaides summa jāņem** lauks. 
+Piemēram, ja rēķins tiek apmaksāts 10 dienu laikā pēc tā izrakstīšanas, jums tiek piedāvāta 2 procentu termiņatlaide. Rēķins ir iegrāmatots par summu 100,00. Ja 10 dienu laikā veicat maksājumu par summu 49,00, maksājumu žurnālā ievadiet debeta summu 49,00. Kad daļējais maksājums tiek nosegts lapā **Nosegt atvērtās transakcijas**, laukā **Noņemamā termiņatlaides summa** tiek parādīta vērtība **1,00**. 
 
 > [!NOTE] 
-> Ja ievadāt daļēju maksājumu un atstāt pilna rēķina summa **apjoms, lai nokārtotu** jomā, **termiņatlaides summa jāņem** laukā tiek automātiski pārrēķināta, lai, veicot transakciju grāmatošanu.
+> Ja ievadāt daļēju maksājumu un atstājat pilnu rēķina summu laukā **Nosedzamā summa**, tad lauks **Ņemamā termiņatlaides summa** automātiski tiek pārrēķināts, kad grāmatojot transakcijas.
 
 ## <a name="credit-notes-with-cash-discounts"></a>Kredīta notas ar temiņatlaidēm
-Jūs varat atgriezt dažas rēķinā iekļautās preces un saņemt kredīta notu. Ja termiņatlaide ir piemērota sākotnējam rēķinam, varat atņemt atlaides vērtību un saņemt pareizās summas atmaksu. Ja * aprēķināt kredīta notām termiņatlaides * * opcija ir iestatīta uz **Jā** par **debitoru kreditoru parametrus** lapu, atlaides aprēķina automātiski kredīta notu. 
+Jūs varat atgriezt dažas rēķinā iekļautās preces un saņemt kredīta notu. Ja termiņatlaide ir piemērota sākotnējam rēķinam, varat atņemt atlaides vērtību un saņemt pareizās summas atmaksu. Ja opcijai **Aprēķināt kredīta notu termiņatlaides** lapā **Kreditoru moduļa parametri** ir iestatīta vērtība **Jā**, tad kredīta notai automātiski tiek aprēķināta atlaide. 
 
-Piemēram, ja rēķins tiek apmaksāts 10 dienu laikā pēc tā izrakstīšanas, jums tiek piedāvāta 2 procentu termiņatlaide. Rēķins tiek iegrāmatots par summu 100,00. Ja preču atgriešana un saņemt kredīta notu, kredīta notu var ievadīt rēķina oriģinālu 100,00, kopā ar 2 procentu termiņatlaide, kas arī norādīts kredītrēķinam pilnā apmērā.  Skatot kredīta notas **norēķiniem par darījumiem** lapu, **98,00** parādās **apjoms, lai nokārtotu** jomā, un **-2.00** parādās **termiņatlaides summa** lauks. Atlaides summa tiek grāmatota uz termiņatlaides kontu.
+Piemēram, ja rēķins tiek apmaksāts 10 dienu laikā pēc tā izrakstīšanas, jums tiek piedāvāta 2 procentu termiņatlaide. Rēķins tiek iegrāmatots par summu 100,00. Ja tiek atgrieztas preces un saņemta kredīta nota, varat ievadīt kredīta notu par sākotnējā rēķina visu summu 100,00 kopā ar 2 procentu termiņatlaidi, kas arī ir norādīta kredītrēķinā.  Skatot kredīta notu lapā **Nosegt transakcijas**, summa **98,00** ir redzama laukā **Nosedzamā summa**, un summa **-2,00** ir redzama laukā **Termiņatlaides summa**. Atlaides summa tiek grāmatota uz termiņatlaides kontu.
 
 ## <a name="overpaymentunderpayment-amounts"></a>Pārmaksas/nepilnas samaksas summas
 Ja vēl atlikusī nosedzamā summa ir ļoti neliela, varat veikt daļējo maksājumu. Piemēram, kreditora rēķins summa ir 1000,00, bet jūs veicat maksājumu par summu 999.90. Ja atlikusī summa ir mazāka par summu, kas norādīta pārmaksām vai nepilnām samaksām lapā **Kreditoru moduļa parametri**, starpība tiek automātiski grāmatota uz pārmaksas/nepilnas samaksas virsgrāmatas kontu.
+
+
 
 

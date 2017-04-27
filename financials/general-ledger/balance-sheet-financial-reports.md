@@ -1,6 +1,6 @@
 ---
 title: "Bilances finanšu pārskati"
-description: "Šajā rakstā ir aprakstīts šo noklusējuma ziņojumus par bilances. Tā arī apraksta veidošanas blokus, kas ir saistīti ar šiem ziņojumiem."
+description: "Šajā rakstā ir aprakstīti noklusējuma pārskati bilancēm. Tajā ir aprakstīti arī ar šiem pārskatiem saistītie veidošanas bloki."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="balance-sheet-financial-reports"></a>Bilances finanšu pārskati
 
-Šajā rakstā ir aprakstīts šo noklusējuma ziņojumus par bilances. Tā arī apraksta veidošanas blokus, kas ir saistīti ar šiem ziņojumiem. 
+[!include[banner](../includes/banner.md)]
+
+
+Šajā rakstā ir aprakstīti noklusējuma pārskati bilancēm. Tajā ir aprakstīti arī ar šiem pārskatiem saistītie veidošanas bloki. 
 
 <a name="default-balance-sheet-reports"></a>Noklusējuma bilances pārskati
 -----------------------------
@@ -72,10 +75,12 @@ Kolonnu definīcijas satur dažādu veidu kolonnas, lai sniegtu dažāda līmeņ
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[Finanšu pārskati](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Finanšu pārskatu skatīšana](view-financial-reports.md)
 
-[Dinamika finanšu pārskata Blog](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Dynamics finanšu pārskatu veidošanas emuārs](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

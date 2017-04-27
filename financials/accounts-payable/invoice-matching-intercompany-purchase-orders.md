@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Rēķinu salīdzināšana un starpuzņēmumu pirkšanas pasūtījumi
 
+[!include[banner](../includes/banner.md)]
+
+
 Pērkošo juridisko personu, kas ir iesaistīta starpuzņēmumu tirdzniecības transakcijā, var iestatīt kreditoru rēķinu salīdzināšanas lietošanai. Tādā gadījumā, lai varētu grāmatot starpuzņēmumu kreditoru rēķinus, ir jābūt ievērotām gan starpuzņēmumu tirdzniecības, gan kreditoru rēķinu salīdzināšanas grāmatošanas prasībām.
 
 Šīs tēmas piemēros tiek izmantoti šādi starpuzņēmumu tirdzniecības iestatījumi:
@@ -35,8 +38,8 @@ Pērkošo juridisko personu, kas ir iesaistīta starpuzņēmumu tirdzniecības t
 -   Pārdošanas fabrika ir juridiskā persona, kas veic pārdošanu.
 -   Klients 4020 eksistē Pārdošanas Fabrikā.
 -   Kreditors 3024 eksistē Pirkuma Fabrikā.
--   Fabrikam pirkšanā, starpuzņēmumu informāciju nav norādīts kreditora 3024. Fabrikam pārdošanas nav norādīta kā klienta uzņēmuma un klientu 4020 noradīta Fabrikam pirkšanas juridiskajai personai, kas atbilst debitora kontā.
--   Fabrikam pārdošanas, klientu 4020 nav norādīts starpuzņēmumu informāciju. Fabrikam pirkumu nav norādīta kā kreditoru uzņēmumam un kreditoru 3024 nav norādīta kreditora kontu, kas atbilst Fabrikam pārdošana juridiskai personai.
+-   Uzņēmumā Pirkuma fabrika ir norādīta starpuzņēmumu informācija par kreditoru 3024. Uzņēmums Pārdošanas fabrika ir norādīts kā debitora uzņēmums, un debitors 4020 ir norādīts kā debitora konts, kas atbilst juridiskajai personai Pirkuma fabrika.
+-   Uzņēmumā Pārdošanas fabrika ir norādīta starpuzņēmumu informācija par debitoru 4020. Uzņēmums Pirkšanas fabrika ir norādīts kā kreditora uzņēmums, un kreditors 3024 ir norādīts kā kreditora konts, kas atbilst juridiskajai personai Pārdošanas fabrika.
 
 Piemēros Pirkuma fabrikai tiek lietoti šādi kreditoru rēķinu salīdzināšanas iestatījumi:
 -   Lapā Kreditoru moduļa parametri ir atlasīta opcija Iespējot rēķinu salīdzināšanas pārbaudes.
@@ -45,7 +48,7 @@ Piemēros Pirkuma fabrikai tiek lietoti šādi kreditoru rēķinu salīdzināša
 
 ## <a name="example-price-matching-and-intercompany-trade"></a> Piemērs. Cenu salīdzināšana un starpuzņēmumu tirdzniecība
 Starpuzņēmumu kreditoru rēķina un starpuzņēmumu debitora rēķina neto summām ir jābūt vienādām. Šī nosacījuma prioritāte ir augstāka par jebkuriem piemērojamajiem rēķinu salīdzināšanas apstiprinājumiem vai cenu tolerances procentiem. Piemēram, izpildiet tālāk aprakstītās darbības.
-1.  Fabrikam pirkšanā, veidot pārdošanas pasūtījumu SO888 klientam 4020. Starpuzņēmumu pirkšanas pasūtījuma ICPO222 tiek automātiski izveidota kreditoram 3024 Fabrikam pirkšanas un pārdošanas pasūtījumu ICSO888 automātiski tiek izveidota Fabrikam pārdošanas.
+1.  Uzņēmumā Pirkuma fabrika izveidojiet pārdošanas pasūtījumu SO888 debitoram 4020. Pirkuma fabrikā tiek automātiski izveidots starpuzņēmumu pirkšanas pasūtījums ICPO222 kreditoram 3024, un Pārdošanas fabrikā tiek automātiski izveidots pārdošanas pasūtījums ICSO888.
 2.  Pārdošanas fabrikā reģistrējiet, ka krājumi ir saņemti, un iegrāmatojiet pavadzīmi. ICSO888 statuss nomainās uz Piegādāts. ICPO222 statuss nomainās uz Saņemts.
 3.  Pārdošanas fabrikā izpildiet rēķina atjaunināšanu attiecībā uz ICSO888. Vienības cena ir 0,45 un tiek atjauninātas 100 vienības.
 4.  Pirkuma fabrikā izveidojiet rēķins attiecībā uz ICPO222. Neto cenu no 45,00 jūs nejauši maināt uz 54,00. Tiek parādīta ikona, lai norādītu, ka cena pārsniedz atļauto 2 procentu cenas toleranci.
@@ -60,10 +63,12 @@ Starpuzņēmumu pirkšanas pasūtījuma un starpuzņēmumu pārdošanas pasūtī
 -   Rīcībā esošais krājuma B-R14 daudzums ir 0 (nulle).
 
 Piemēram, izpildiet tālāk aprakstītās darbības.
-1.  Fabrikam pirkšanā, veidot pārdošanas pasūtījumu SO999 klientam 4020. Uzdevums satur vienu posteni: 100 baterijas (prece B R14) 1,00 katru vienības cenu. Pirkuma fabrikā tiek automātiski izveidots starpuzņēmumu pirkšanas pasūtījums ICPO333 kreditoram 3024, un Pārdošanas fabrikā tiek automātiski izveidots pārdošanas pasūtījums ICSO999.
+1.  Uzņēmumā Pirkuma fabrika izveidojiet pārdošanas pasūtījumu SO999 debitoram 4020. Pasūtījumā ir viena krājuma rinda: 100 baterijas (krājums B-R14) ar vienas vienības cenu 1,00. Pirkuma fabrikā tiek automātiski izveidots starpuzņēmumu pirkšanas pasūtījums ICPO333 kreditoram 3024, un Pārdošanas fabrikā tiek automātiski izveidots pārdošanas pasūtījums ICSO999.
 2.  Pārdošanas fabrikā izpildiet rēķina atjaunināšanu attiecībā uz ICSO999. Grāmatošana ir nesekmīga, jo šīs preces krājumi ir beigušies un vēl nav saņemti. Tāpēc finanšu informāciju nevar atjaunināt.
 3.  Pārdošanas fabrikā reģistrējiet, ka krājums ir saņemts, un grāmatojiet pavadzīmi attiecībā uz ICSO999. Pirkuma fabrikā tiek automātiski grāmatota produktu ieejas plūsma attiecībā uz ICPO333. Pirkuma fabrikā saņemtais daudzums krājumam B-R14 mainās uz 100.
 4.  Pārdošanas fabrikā izpildiet rēķina atjaunināšanu attiecībā uz ICSO999. Grāmatošana ir sekmīga abās juridiskajās personās. Pirkuma fabrikā daudzums, kas ir iegādāts krājumam B-R14, mainās uz 100. 
+
+
 
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-scheduling-options"></a>Operāciju plānošanas opcijas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā tēmā ir aprakstītas operāciju plānošanas opcijas. Operāciju plānošanu var lietot, lai sniegtu vispārēju ražošanas procesa novērtējumu laika periodam.
 
 Operāciju plānošana aprēķina šādu informāciju ražošanas pasūtījumam:
@@ -128,6 +131,8 @@ Pašreizējās vērtības var saglabāt kā noklusējuma vērtības. Ir divas op
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Operations scheduling](operations-scheduling.md)
+[Operāciju plānošana](operations-scheduling.md)
+
+
 
 

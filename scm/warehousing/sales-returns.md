@@ -1,6 +1,6 @@
 ---
 title: "Pārdošanas ieņēmumi"
-description: "Šajā tēmā ir sniegta informācija par procesu, preču atgriešanas pasūtījumos. Tas ietver informāciju par klientu peļņu, un to ietekme uz pašizmaksas un rīcībā esošo krājumu daudzums."
+description: "Šajā tēmā ir sniegta informācija par atgriešanas pasūtījumu apstrādes procesu. Tajā ir ietverta informācija par debitoru atgriešanām un to ietekmi uz izmaksu aprēķināšanu un rīcībā esošo krājumu daudzumu."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,286 +26,291 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-returns"></a>Pārdošanas ieņēmumi
 
-Šajā tēmā ir sniegta informācija par procesu, preču atgriešanas pasūtījumos. Tas ietver informāciju par klientu peļņu, un to ietekme uz pašizmaksas un rīcībā esošo krājumu daudzums.
+[!include[banner](../includes/banner.md)]
 
-Krājumus varat atgriezt klientiem, dažādu iemeslu dēļ. Piemēram, vienums, iespējams, ir bojāts, vai tā var neatbilst klienta cerības. Atgriešanas process sākas tad, kad klients izdod sūtīšanas pieprasījumu atgriezt vienumu. Pēc klienta pieprasījuma tiek saņemts atgriezto preču pasūtījumā tiek izveidota Microsoft Dynamics 365 operācijām.
 
-## <a name="return-order-process"></a>Atgriezto pasūtījumu procesu
-Attēlā sniegts pārskats par atgriešanas pasūtījumu procesu.  
+Šajā tēmā ir sniegta informācija par atgriešanas pasūtījumu apstrādes procesu. Tajā ir ietverta informācija par debitoru atgriešanām un to ietekmi uz izmaksu aprēķināšanu un rīcībā esošo krājumu daudzumu.
+
+Debitori var atgriezt krājumus dažādu iemeslu dēļ. Piemēram, krājums var būt bojāts vai neatbilst debitora prasībām. Atgriešanas pasūtījums sākas, kad debitors iesniedz krājuma atgriešanas pieprasījumu. Pēc debitora pieprasījuma saņemšanas programmatūrā Microsoft Dynamics 365 for Operations tiek izveidots atgriešanas pasūtījums.
+
+## <a name="return-order-process"></a>Atgriešanas pasūtījuma apstrādes process
+Tālāk esošajā attēlā ir sniegts pārskats par atgriešanas pasūtījuma apstrādes procesu.  
 
 [![salesreturns01](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
 
-Pastāv divu veidu preču atgriešanas pasūtījuma procesu: fiziskā atgriešanās un tikai kredītu.
+Ir pieejami divi atgriešanas pasūtījuma apstrādes procesa veidi: fiziskā atgriešana un tikai kreditēšana.
 
--   **Fizisko atgriešanu** – atgriešanās rīkojumu pilnvaro fizisko produktu atgriešanu.
--   **Tikai kredītu** -pilnvaro klientu kredīta atgriešanas pasūtījumu, bet neprasa, ka klients fiziski nododiet izstrādājumus.
+-   **Fiziskā atgriešana** — ar atgriešanas pasūtījumu tiek autorizēta preces fiziska atgriešana.
+-   **Tikai kredītā** — ar atgriešanas pasūtījumu tiek autorizēta debitora kreditēšana, taču debitoram netiek pieprasīta preču fiziska atgriešana.
 
-### <a name="physical-return-order-process"></a>Fizisko preču atgriešanas pasūtījuma procesu
+### <a name="physical-return-order-process"></a>Fiziskās atgriešanas pasūtījumu apstrādes process
 
-1.  **Izveidot preču atgriešanas pasūtījumu.** Formāli dokumentu klientam iespēju atgriezt jebkuru bojāto vai nevēlamu produktu tirdzniecības atļaujas. Atgriezto preču pasūtījums neprasa, ka uzņēmumam pieņemt atpakaļ nodotu produktu vai sniegt kredītu, klientam. Ja atpakaļ tiek pieņemts, var atļaut aizvietojamajai precei jānosūta pirms brāķa krājumu ir atgriezti.
-2.  **Nonākt pie noliktavas pārbaudi.** Pabeigtu sākotnējās inspekcijas un validācija pret dokumentu atgriešanas pasūtījumu. Atgriezto preču pasūtījums atbalsta arī papildu pārbaudes un kvalitātes kontroles karantīnas atgrieztās preces.
-3.  **Noteiktu izvietojuma.** Pabeigt pārbaudes procesu, un izlemt, kas būtu jādara ar atpakaļ nodotu produktu. Kā daļu no šī soļa, izlemt, vai jums būs kredītiestādes klientam, noraidīt produktu atgriešanas vai pieņemt produktu atgriešanas, brāķa ražojumu un atvietotāju produktu nosūtīšanai klientam.
-4.  **Ģenerēt ar pavadzīmi.** Ģenerē pavadzīmju un izdarīt izvietojuma lēmums, ko izdarījis 3 solis. Pabeidziet loģistikas procesus.
-5.  **Izveidot rēķinu.** Tuvu atgriezto preču pasūtījumā.
+1.  **Izveidojiet atgriešanas pasūtījumu.** Oficiāli dokumentējiet debitora autorizāciju atgriezt jebkuras bojātās vai nevajadzīgās preces. Atgriešanas pasūtījums neuzliek uzņēmumam pienākumu pieņemt atgrieztās preces vai nodrošināt debitora kreditēšanu. Ja atgriešana tiek pieņemta, varat autorizēt aizstāšanas krājuma nosūtīšanu pirms bojātā krājuma atgriešanas.
+2.  **Ierodieties noliktavā, lai veiktu pārbaudi.** Veiciet sākotnējo pārbaudi un salīdziniet rezultātus ar atgriešanas pasūtījuma dokumentu. Atgriešanas pasūtījums atbalsta arī atgriezto krājumu karantīnu, lai veiktu papildu pārbaudi un kvalitātes kontroli.
+3.  **Nosakiet atgriešanas metodi.** Pabeidziet pārbaudes procesu un nolemiet, ko darīt ar atgrieztajām precēm. Šīs darbības ietvaros nolemiet, vai kreditēsiet debitoru, noraidīsiet preces atgriešanu vai pieņemsiet preces atgriešanu, norakstīsiet preci un pēc tam nosūtīsiet debitoram aizstāšanas preci.
+4.  **Ģenerējiet pavadzīmi.** Ģenerējiet pavadzīmi un apstipriniet 3. darbības ietvaros pieņemto lēmumu par atgriešanas metodi. Pabeidziet loģistikas procesus.
+5.  **Ģenerējiet rēķinu.** Slēdziet atgriešanas pasūtījumu.
 
-### <a name="credit-only-process"></a>Kredītu tikai procesa
+### <a name="credit-only-process"></a>Tikai kreditēšanas process
 
-1.  **Izveidot preču atgriešanas pasūtījumu.** Formāli dokumentu klientam saņemt kredītu bez atgriežot bojāto vai nevēlamu produktu tirdzniecības atļaujas. **Kredītu tikai** izvietojuma kodu atļauj kredītiestādes klientam bez fiziskā atgriešanās lēmumu.
-2.  **Izveidot rēķinu.** Izveidot kredīta notu, un pēc tam aizveriet atgriezto preču pasūtījumā.
+1.  **Izveidojiet atgriešanas pasūtījumu.** Oficiāli dokumentējiet debitora autorizāciju saņemt kredītu, neatgriežot bojātās vai nevajadzīgās preces. Izmantojot atgriešanas metodes kodu **Tikai kredītā**, tiek autorizēts lēmums kreditēt debitoru, nepieprasot fizisku atgriešanu.
+2.  **Ģenerējiet rēķinu.** Ģenerējiet kredīta notu un pēc tam slēdziet atgriešanas pasūtījumu.
 
-## <a name="return-material-authorization"></a>Atgriezto materiālu autorizācija
-Atgriezto materiālu autorizācijas (aka) apstrādes balstās uz pārdošanas pasūtījumu funkcionalitāti. AKA ir reģistrēta kā atgriezto preču pasūtījums, kas ir izveidots kā pārdošanas pasūtījums, un var būt citu pārdošanas pasūtījumu, kas saistīts ar to, sauc par rezerves pasūtījuma. Pārdošanas pasūtījumiem saiti uz izcelsmes RMA numuru.
+## <a name="return-material-authorization"></a>Atgrieztā krājuma autorizācija
+Atgrieztā krājuma autorizācijas (AKA) apstrādes pamatā ir pārdošanas pasūtījuma funkcionalitāte. AKA tiek reģistrēta kā atgriešanas pasūtījums, kas tiek izveidots kā pārdošanas pasūtījums un var būt saistīts ar citu pārdošanas pasūtījumu, kurš tiek saukts par aizstāšanas pasūtījumu. Abi pārdošanas pasūtījumi ir saistīti ar avota AKA kodu.
 
--   **Atgriezto preču pasūtījums** -reģistrēties aka, veidojot preču atgriešanas pasūtījums, kas ir pārdošanas pasūtījums, kuram ir piešķirts tipa, **atpakaļ pasūtījuma.** Jebkuras izmaiņas, ko veicat RMA informācija tiek automātiski atjauninātas šajā pārdošanas pasūtījumu. Līdz atgriešanas pasūtījumu statuss ir **Open**, tas neparādīsies pārdošanas pasūtījumu sarakstu. Izmantojat RMA rīkoties ar ierašanos un atgriezto preču saņemšanas, kā arī atļaut kredītu vienīgā izvietojuma darbība (sk. sadaļu **izvietojuma kodus un izvietojuma darbības**). Pārdošanas pasūtījums ir jāapstrādā citiem turpmākajiem procesiem.
--   **Nomaiņa pasūtījuma** – kad Nomaiņa pasūtījums ir nosūtīts klientam, RMA var iekļaut otro saistīto pārdošanas pasūtījumu. Varat manuāli veidot Nomaiņa rīkojuma par atbalsta tiešā sūtījuma RMA. Alternatīvi, Nomaiņa pasūtījumu var izveidot automātiski, pēc ierašanās, pārbaudi un pieņemšanas ir pabeigta RMA rindas precei, kas ir izvietojuma kodu, kas norāda Nomaiņa. Nomaiņa pasūtījumam ir tāda pati funkcionalitāte, kas ir saistīts ar pārdošanas pasūtījumu. Piemēram, jūs var izmantot, lai konfigurētu pielāgotus produktu kā aizvietojamajai precei, veidot ražošanas pasūtījumu atgrieztajam krājumam remonts, izveidot tiešo piegādi pirkšanas pasūtījumu nosūtīt Nomaiņa no piegādātāja vai atbalstu citiem mērķiem.
+-   **Atgriešanas pasūtījums** — lai reģistrētu AKA, tiek izveidots atgriešanas pasūtījums, kas ir pārdošanas pasūtījums, kuram piešķirtais veids ir **Atgrieztais pasūtījums.** Visas AKA informācijas izmaiņas tiek automātiski atjauninātas pārdošanas pasūtījumā. Kamēr atgriešanas pasūtījuma statuss ir **Atvērts**, tas nav redzams pārdošanas pasūtījumu sarakstā. AKA tiek izmantota, lai apstrādātu atgriezto krājumu saņemšanu un ieejas plūsmu, kā arī autorizētu tikai kreditēšanas atgriešanas metodes darbību (skatiet sadaļu **Atgriešanas metožu kodi un atgriešanas metožu darbības**). Visi citi turpmākie procesi ir jāapstrādā pārdošanas pasūtījuma ietvaros.
+-   **Aizstāšanas pasūtījums** — ja debitoram ir jānosūta aizstāšanas pasūtījums, AKA var iekļaut otru saistīto pārdošanas pasūtījumu. Varat manuāli izveidot AKA aizstāšanas pasūtījumu, lai nodrošinātu tūlītēju nosūtīšanu. Aizstāšanas pasūtījums var arī tikt izveidots automātiski pēc tam, kad ir pabeigta tāda AKA rindas krājuma saņemšana, pārbaude un ieejas plūsmas darbība, kura atgriešanas metodes kods norāda uz aizstāšanu. Aizstāšanas pasūtījuma funkcionalitāte ir tāda pati kā ar pārdošanas pasūtījumu saistītā funkcionalitāte. Piemēram, varat to izmantot, lai konfigurētu pielāgotas preces kā aizstāšanas krājumu, izveidotu ražošanas pasūtījumu, lai remontētu atgriezto krājumu, izveidotu tiešās piegādes pirkšanas pasūtījumu, lai nosūtītu aizstāšanas krājumu no kreditora vai lai sasniegtu citus mērķus.
 
 ## <a name="create-a-return-order"></a>Atgriešanas pasūtījuma izveidošana
-Atgriezto preču pasūtījums process sākas, kad klients sazinās ar uzņēmumā defektīvas vai nevēlamu izstrādājuma atgriešanai un/vai tiktu ieskaitīti. Pēc tam, kad jūsu organizācija pieņem atpakaļ, atgriezties dokumentē preču atgriešanas pasūtījumu. Šo preču atgriešanas pasūtījumu kļūst kontaktpunktu iekšējās apstrādes atgrieztās preces. Sekojošajā attēlā redzama procedūra preču atgriešanas pasūtījuma izveide.  
+Atgriešanas pasūtījuma apstrādes process sākas, kad debitors sazinās ar jūsu organizāciju, lai atgrieztu bojātu vai nevajadzīgu preci un/vai pieprasītu kreditēšanu. Kad jūsu organizācija pieņem atgriešanu, tā tiek dokumentēta atgriešanas pasūtījumā. Šis atgriešanas pasūtījums kļūst par galveno dokumentu, kas tiek izmantots atgrieztās preces iekšējai apstrādei. Tālāk esošajā attēlā ir redzama atgriešanas pasūtījuma izveides procedūra.  
 
-[![Procedūru preču atgriešanas pasūtījuma izveide](./media/salesreturn02.png)](./media/salesreturn02.png)
+[![Atgriešanas pasūtījuma izveides procedūra](./media/salesreturn02.png)](./media/salesreturn02.png)
 
-### <a name="create-a-return-order-header"></a>Izveidot preču atgriešanas pasūtījuma virsrakstā
+### <a name="create-a-return-order-header"></a>Atgriešanas pasūtījuma galvenes izveide
 
-Veidojot preču atgriešanas pasūtījums, jāiekļauj tabulā norādīto informāciju.
+Izveidojot atgriešanas pasūtījumu, tajā ir jāietver tālāk esošajā tabulā norādītā informācija.
 
 | Lauks              | apraksts                                              | Komentāri                                                                                                                                                                                                                                                                                                                                        |
 |--------------------|----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Debitora konts   | Atsauce uz tabulu Customers                       | Ir jānorāda esošajam debitora kodam.                                                                                                                                                                                                                                                                                                  |
-| Piegādes adrese   | Adrese, kuru priekšmets tiek atdots atpakaļ, lai                 | Pēc noklusējuma, organizācijas adrese tiek izmantota. Ja konkrētai noliktavai ir atlasīta galvene, piegādes adrese tiek mainīta uz piegādes adresi no noliktavas. Varat mainīt šo adresi uz **atgriešanas pasūtījumu detaļas** lapā.                                                                                                  |
-| Vieta/noliktavas     | Vietā vai noliktavā, kas saņem atpakaļ nosūtīto preču | Atgriešanas pasūtījumu piegādes adreses ir noteikts, pamatojoties uz piegādes adreses vietā vai noliktavā.                                                                                                                                                                                                                                 |
-| AKA kods         | ID, kas tiek piešķirts atgriezto preču pasūtījums              | RMA numurs tiek izmantots kā alternatīvā atslēga preču atgriešanas pasūtījuma procesa gaitā. RMA numuru, kas piešķirts pamatā RMA numuru sēriju, kas iestatīta uz **Accounts receivable parameters** lapā.                                                                                                                              |
-| Termiņš           | Pēdējais datums, kurā preces var atgriezt               | Noklusējuma vērtību, tiek aprēķināts kā pašreizējais datums plus derīguma termiņu. Piemēram, ja atgriešanās ir derīgs tikai 90 dienas no datuma, kad atgriešanas pasūtījums tiek veidots, un 1. maijā tika izveidota atgriezto preču pasūtījums, lauka vērtība ir **30 jūlijs**. Derīguma laiks ir iestatīts uz **Accounts receivable parameters** lapā. |
-| Atgriešanas iemesla kods | Izstrādājuma atgriešanu klienta iemesls          | Iemesla kodu ir atlasīta lietotāja definētus iemesla kodu sarakstu. Šo lauku var atjaunināt jebkurā brīdī.                                                                                                                                                                                                                                    |
+| Debitora konts   | Atsauce uz tabulu Aprēķini                       | Ir jānodrošina esošs debitora konts.                                                                                                                                                                                                                                                                                                  |
+| Piegādes adrese   | Adrese, uz kuru tiek atgriezts krājums.                 | Pēc noklusējuma tiek lietota organizācijas adrese. Ja galvenē ir atlasīta noteikta noliktava, piegādes adrese tiek mainīta uz šīs noliktavas piegādes adresi. Šo adresi var mainīt lapā **Atgriezto pasūtījuma informācija**.                                                                                                  |
+| Vieta/noliktava     | Vieta vai noliktava, kur tiek saņemta atgrieztā prece | Atgriešanas pasūtījuma piegādes adrese tiek noteikta, pamatojoties uz vietas vai noliktavas piegādes adresi.                                                                                                                                                                                                                                 |
+| AKA kods         | Atgriešanas pasūtījumam piešķirtais ID              | AKA kods tiek izmantots kā alternatīva atslēga visa atgriešanas pasūtījuma apstrādes procesa laikā. AKA kods tiek piešķirts, pamatojoties uz AKA koda numuru sēriju , kas ir iestatīta lapā**Debitoru moduļa parametri**.                                                                                                                              |
+| Termiņš           | Pēdējais datums, kad var atgriezt krājumu               | Noklusējuma vērtība tiek aprēķināta, pašreizējam datumam pieskaitot derīguma periodu. Piemēram, ja atgriešana ir derīga tikai 90 dienas no atgriešanas pasūtījuma izveides datuma un atgriešanas pasūtījums ir izveidots 1. maijā, laika vērtība ir **30. jūlijs**. Derīguma periodu var iestatīt lapā **Debitoru moduļa parametri**. |
+| Atgriešanas iemesla kods | Debitora iemesls preces atgriešanai          | Iemesla kodu var atlasīt lietotāja definētu iemeslu kodu sarakstā. Šo lauku varat atjaunināt jebkurā laikā.                                                                                                                                                                                                                                    |
 
-### <a name="create-return-order-lines"></a>Preču atgriešanas pasūtījuma rindu izveide
+### <a name="create-return-order-lines"></a>Atgriešanas pasūtījuma rindu izveide
 
-Pēc pabeigšanas atgriezties galvenes, atgriešanas rindas var izveidot, izmantojot vienu no šādām metodēm:
+Pēc atgriešanas galvenes pabeigšanas varat izveidot atgriešanas rindas, izvēloties kādu no tālāk norādītajām metodēm.
 
--   Manuāli ievadītu vienumu detaļas, daudzumu un cita informācija par katru atgriezto rindu.
--   Atgriezto rindu izveide, izmantojot **atrast pārdošanas pasūtījumā** funkciju. Mēs iesakām izmantot šo funkciju izveidojot atgriešanas pasūtījumu. **Atrast pārdošanas pasūtījumā** funkcija nosaka atgrieztās rindas atsauci uz rēķinā pārdošanas pasūtījumu rindas un iegūst rindas detaļas, piemēram, preces numuru, daudzumu, cenu, atlaižu un izmaksu vērtības no pārdošanas rindas. Atskaites palīdz garantēt, ja uzņēmumam tiek atgriezts produkts, tā ir vērtē pašu vienības pašizmaksu tas bija pārdoti. Atsauce arī apstiprina, ka atgriešanas pasūtījumi nav izveidoti par daudzumu, kas pārsniedz daudzumu, kas tika pārdots par rēķinu.
+-   Manuāli ievadiet krājuma informāciju, daudzumu un citu informāciju katrā atgriešanas rindā.
+-   Izveidojiet atgriešanas rindu, izmantojot funkciju **Atrast pārdošanas pasūtījumu**. Ir ieteicams atgriešanas pasūtījuma izveides laikā izmantot šo funkciju. Funkcija **Atrast pārdošanas pasūtījumu** nodrošina atsauces izveidi starp atgriešanas rundu un rēķinā iekļauto pārdošanas pasūtījuma rindu un rindas informācijas, piemēram, krājuma numura, daudzuma, cenas, atlaides un izmaksu vērtību, izgūšanu no pārdošanas rindas. Atsauce palīdz nodrošināt, ka tad, kad prece tiek atgrieza uzņēmumam, tās vērtība ir tāda pati kā vienības cena pārdošanas laikā. Atsauce arī nepieļauj atgriešanas pasūtījumu izveidi daudzumam, kas pārsniedz rēķinā norādīto pārdoto daudzumu.
 
-**Piezīme:** atgriešanas rindas, kurās ir atsauce uz pārdošanas pasūtījumu rīkojas kā labojumus vai maiņu par pārdošanu. Lai iegūtu papildinformāciju, skatiet sadaļu "Post Virsgrāmatā", šajā tēmā.
+**Piezīme.** Atgriešanas rindas, kurām ir atsauce uz pārdošanas pasūtījumu, tiek apstrādātas kā pārdošanas korekcijas vai atcelšanas. Papildinformāciju skatiet šīs tēmas nākamajā sadaļā “Grāmatošana Virsgrāmatā”.
 
 ### <a name="charges"></a>Papildmaksas
 
-Maksām un atlīdzību var pievienot preču atgriešanas pasūtījumu, izmantojot vienu vai vairākas no šīm metodēm:
+Atgriešanas pasūtījumam var pievienot maksas un papildmaksas, izmantojot vienu vai vairākas no tālāk norādītajām metodēm.
 
--   Var manuāli pievienot izmaksas preču atgriešanas pasūtījuma virsrakstā, preču atgriešanas pasūtījuma rindas vai abus.
--   Preču atgriešanas pasūtījuma virsrakstā var automātiski pievienot maksu atkarībā no atgriešanas iemesla kodu.
--   Maksājumus var automātiski pievienot atgriešanas pasūtījumu rindai, pamatojoties uz izvietojuma koda rindiņas.
+-   Varat manuāli pievienot maksas atgriešanas pasūtījuma galvenei, atgriešanas pasūtījuma rindai vai abām.
+-   Maksas var tikt automātiski pievienotas atgriešanas pasūtījuma galvenei, izmantojot no atgriešanas iemesla koda atkarīgu funkciju.
+-   Maksas var tikt automātiski pievienotas atgriešanas pasūtījuma rindai, pamatojoties uz rindas atgriešanas metodes kodu.
 
-Maksas tiek pievienotas automātiski pēc atgriešanas iemesla kodu vai rindai piešķirtais izvietojuma kodu. Ja iemesla kods ir mainīta vēlāk, esošās maksas ieraksts netiks izņemts, bet varētu pievienot jaunu maksas ierakstu, pamatojoties uz jauno iemesla kodu. Pievienojot maksas atgriešanas pasūtījumu rindas, maksas, kuras tiek aprēķinātas procentos no līnijas vai pasūtījuma vērtība kļūst negatīvs, kad rindu vai rindas kārtībā ir negatīvs, ja vien procents arī ir negatīvs skaitlis. Maksa, kas ir negatīva vērtība atspoguļo kredītu debitoram.
+Maksas tiek automātiski pievienotas pēc tam, kad rindai tiek piešķirts atgriešanas iemesla kods vai atgriešanas metodes kods. Ja iemesla kods vēlāk tiek mainīts, esošais maksas ieraksts netiek noņemts, taču var tikt pievienots jauns maksas ieraksts, kas atbilst jaunajam iemesla kodam. Kad pievienojat maksas atgriešanas pasūtījuma rindām, maksas, kas tiek aprēķinātas kā procenti no rindas vai pasūtījuma vērtības, kļūst negatīvas, ja rindas vai rindas pasūtījuma vērtība ir negatīva, ja vien arī procentu vērtība nav negatīva. Maksa ar negatīvu vērtību ir debitoram izmaksājams kredīts.
 
 ### <a name="return-reason-codes"></a>Atgriešanas iemeslu kodi
 
-Lietojot iemeslu kodus pārskatiem, varat palīdzēt atgriešanās rakstus vieglāk analizēt. Iemesla kodi ir sniegta informācija par kāpēc klients vēlas, lai atgrieztos krājumus. Dažos uzņēmumos ir daudz iemeslu kodus. Šīs organizācijas varētu grupēt iemeslu kodus iemesla kodu grupās, lai gūtu labāku pārskatu un uzkrātā pārskatiem.
+Lietojot iemeslu kodus, varat palīdzēt atvieglot atgriešanas modeļu analīzi. Iemeslu kodi sniedz informāciju par to, kāpēc debitors vēlas atgriezt krājumus. Dažās organizācijās ir daudz iemeslu kodu. Šīs organizācijas var grupēt iemeslu kodus iemeslu kodu grupās, lai nodrošinātu labāku pārskatāmību un varētu izveidot apkopojuma pārskatus.
 
-### <a name="disposition-codes-and-disposition-actions"></a>Izvietojuma kodus un izvietojuma darbības
+### <a name="disposition-codes-and-disposition-actions"></a>Atgriešanas metošu kodi un atgriešanas metožu darbības
 
-Nozīmīgs solis šajā atgriezto preču pasūtījums procesā ir izvietojuma kodu preču atgriešanas pasūtījuma rindā piešķiršanu kā daļa no ierašanās reģistrācijas. Izvietojuma kodu nosaka šādu informāciju:
+Svarīga atgriešanas pasūtījuma apstrādes procesa darbība ir atgriešanas metodes koda piešķiršana atgriešanas pasūtījuma rindai saņemšanas reģistrēšanas ietvaros. Atgriešanas metodes kods nosaka tālāk norādīto informāciju.
 
--   **Finansiālās sekas** – klienta jākreditē atgrieztajiem krājumiem un jebkuri maksājumi jāiekļauj preču atgriešanas pasūtījuma rindas?
--   **Izvietojums atgrieztajam krājumam** -būtu priekšmets var būt pievienota krājumiem, to norakstīšanai vai tas jāatgriež klientam?
--   **Atgrieztā krājuma loģistikas** -aizvietojamajai precei ir jāizsniedz klientam?
+-   **Finansiālās sekas** — vai debitors ir jākreditē par atgrieztajiem krājumiem, un vai atgriešanas pasūtījuma rinda ir jāpievieno kādas maksas?
+-   **Atgrieztā krājuma atgriešanas metode** — vai krājuma vienība ir jāpievieno atpakaļ krājumiem, jānoraksta vai jāatgriež debitoram?
+-   **Atgrieztā krājuma loģistika** — vai debitoram ir jāizsniedz aizstāšanas krājums?
 
-Papildus noteikt kā atpakaļ nosūtītas preces iznīcina, izvietojuma kodus var izraisīt maksājumus piemērot atgriešanas rinda. Tās var arī izmantot, lai grupētu atgriež statistisku analīzi. Izvietojuma kodi ir definēti kā daļa no atgriešanas pasūtījumu uzstādīšana. Tomēr katru izvietojuma kodu ir viens no pasākumiem, kas iebūvēts izvietojuma atsauces. Šajā tabulā ir iebūvēts izvietojuma kodi un to darbības. **Svarīgi:** ja vajadzētu atgriezt vienumu, bet klientam joprojām jākreditē, piešķirt **kredītu tikai** izvietojuma kodu atgriezto rindu.
+Papildus atgriezto preču atgriešanas metodes noteikšanai atgriešanas metožu kodi var izraisīt maksu lietošanu atgriešanas rindām. Tos var izmantot arī atgriešanu grupēšanai statikas datu analīzes nolūkā. Atgriešanas metožu kodi tiek definēti atgriešanas pasūtījumu iestatīšanas ietvaros. Taču katram atgriešanas metodes kodam ir jābūt atsaucei uz kādu no iebūvētajām atgriešanas metožu darbībām. Tālāk esošajā tabulā ir norādīti iebūvētie atgriešanas metožu kodi un to darbības. **Svarīgi!** Ja krājums nav jāatgriež, taču debitors joprojām ir jākreditē, piešķiriet atgriešanas rindai atgriešanas metodes kodu **Tikai kredītā**.
 
 <table>
 <thead>
 <tr class="header">
 <th>Atgriešanas metodes kods</th>
 <th>Finansiālās sekas</th>
-<th>Ietekme uz loģistikas</th>
+<th>Ar loģistiku saistītās sekas</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Tikai kredītā</td>
 <td><ul>
-<li>Klientam tiek kreditēts pārdošanas cena mīnus jebkuras nodevas vai maksas.</li>
-<li>Zaudējumi no nodošanu metāllūžņos krājums tiek grāmatots Virsgrāmatā.</li>
+<li>Klients tiek kreditēts par summu, kas tiek aprēķināta, no pārdošanas cenas atņemot visas maksas vai papildmaksas.</li>
+<li>Virsgrāmatā tiek grāmatoti krājuma norakstīšanas radītie zaudējumi.</li>
 </ul></td>
-<td>Vienumu nevar nosūtīt atpakaļ. Šī izvietojuma darbība tiek izmantots šādos gadījumos:
+<td>Krājums nav jāatgriež. Šī atgriešanas metodes darbība tiek izmantotā tālāk norādītajos gadījumos.
 <ul>
-<li>Nav pietiekamas uzticēšanās starp pusēm.</li>
-<li>Atgriežot bojāto krājumu izmaksas ir aizliedzošas.</li>
-<li>Vienumus nevar pieļaut atpakaļ noliktavā. Citu apstākļu dēļ nav nepieciešama fizisko atgriešanu.</li>
+<li>Puses pietiekamā mērā uzticas viena otrai.</li>
+<li>Bojātā krājuma atgriešanas izmaksas ir pārāk lielas.</li>
+<li>Krājuma vienības nevar pievienot atpakaļ krājumiem. Fiziska atgriešana nav nepieciešama citu apstākļu dēļ.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Kredītkarte</td>
 <td><ul>
-<li>Klientam tiek kreditēts pārdošanas cena mīnus jebkuras nodevas vai maksas.</li>
-<li>Krājumu vērtība palielinās par atgriezto krājumu izmaksu.</li>
+<li>Klients tiek kreditēts par summu, kas tiek aprēķināta, no pārdošanas cenas atņemot visas maksas vai papildmaksas.</li>
+<li>Krājumu vērtība tiek palielināta par atgrieztā krājuma izmaksām.</li>
 </ul></td>
-<td>Vienums tiek atgriezts un pievieno atpakaļ noliktavā.</td>
+<td>Krājuma vienība tiek atgriezta un pievienota atpakaļ krājumiem.</td>
 </tr>
 <tr class="odd">
 <td>Aizstāt un kreditēt</td>
 <td><ul>
-<li>Klientam tiek kreditēts pārdošanas cena mīnus jebkuras nodevas vai maksas.</li>
-<li>Krājumu vērtība palielinās par atgriezto krājumu izmaksu.</li>
-<li>Atsevišķa pārdošanas pasūtījumu Nomaiņa ir izveidota un tiek apstrādāta atsevišķi.</li>
+<li>Klients tiek kreditēts par summu, kas tiek aprēķināta, no pārdošanas cenas atņemot visas maksas vai papildmaksas.</li>
+<li>Krājumu vērtība tiek palielināta par atgrieztā krājuma izmaksām.</li>
+<li>Tiek izveidots atsevišķs aizstāšanas pārdošanas pasūtījums, kas tiek apstrādāts atsevišķi.</li>
 </ul></td>
-<td>Vienums tiek atgriezts un pievieno atpakaļ noliktavā.</td>
+<td>Krājuma vienība tiek atgriezta un pievienota atpakaļ krājumiem.</td>
 </tr>
 <tr class="even">
 <td>Aizstāt un izbrāķēt</td>
 <td><ul>
-<li>Klientam tiek kreditēts pārdošanas cena, atskaitot jebkuras nodevas vai maksu.</li>
-<li>Zaudējumi no nodošanu metāllūžņos krājums tiek grāmatots Virsgrāmatā.</li>
-<li>Atsevišķa pārdošanas pasūtījumu Nomaiņa ir izveidota un tiek apstrādāta atsevišķi.</li>
+<li>Klients tiek kreditēts par summu, kas tiek aprēķināta, no pārdošanas cenas atņemot visas maksas vai papildmaksas.</li>
+<li>Virsgrāmatā tiek grāmatoti krājuma norakstīšanas radītie zaudējumi.</li>
+<li>Tiek izveidots atsevišķs aizstāšanas pārdošanas pasūtījums, kas tiek apstrādāts atsevišķi.</li>
 </ul></td>
-<td>Krājums ir atgriezies un norakstīts.</td>
+<td>Krājums tiek atgriezts un norakstīts.</td>
 </tr>
 <tr class="odd">
 <td>Atgriezt debitoram</td>
-<td>Neviens, izņemot jebkuras nodevas vai maksas.</td>
-<td>Vienums tiek atgriezts, bet nosūta atpakaļ klientam pēc pārbaudes. Šo dispozīciju darbību var izmantot, ja vienums ir tīši bojāts vai garantija ir anulēts.</td>
+<td>Nekas, izņemot jebkuras maksa vai papildmaksas.</td>
+<td>Krājums tiek atgriezts, taču pēc pārbaudes tas tiek nosūtīts atpakaļ debitoram. Šo atgriešanas metodes darbību var izmantot, ja krājums ir tīši sabojāts vai ir anulēta garantija.</td>
 </tr>
 <tr class="even">
 <td>Norakstīt</td>
 <td><ul>
-<li>Klientam tiek kreditēts pārdošanas cena mīnus jebkuras nodevas vai maksas.</li>
-<li>Zaudējumi no nodošanu metāllūžņos krājums tiek grāmatots Virsgrāmatā.</li>
+<li>Klients tiek kreditēts par summu, kas tiek aprēķināta, no pārdošanas cenas atņemot visas maksas vai papildmaksas.</li>
+<li>Virsgrāmatā tiek grāmatoti krājuma norakstīšanas radītie zaudējumi.</li>
 </ul></td>
-<td>Krājums ir atgriezti vai norakstīts.</td>
+<td>Krājums tiek atgriezts vai norakstīts.</td>
 </tr>
 </tbody>
 </table>
 
-## <a name="arrival-at-the-warehouse-for-inspection"></a>Pienākšanas noliktavā pārbaudei
-Pirms jūs fiziski var saņemt atgrieztās preces noliktavā, grāmatojot pavadzīmi, krājumi ir jāiziet cauri ierašanās reģistrācija un papildu pārbaudi. Attēlā sniegts pārskats par saņemšanas process. Šajās sadaļās aprakstīts katrs solis, kas ir redzams attēlā.  
+## <a name="arrival-at-the-warehouse-for-inspection"></a>Ierašanās noliktavā, lai veiktu pārbaudi
+Pirms atgriezto krājumu fiziskas saņemšanas krājumos, grāmatojot pavadzīmi, krājumiem vispirms ir jāveic reģistrācijas un neobligātas pārbaudes process. Tālāk esošajā attēlā ir sniegts pārskats par saņemšanas procesu. Nākamajās sadaļās ir aprakstīta katra attēlā redzamā darbība.  
 
-[![Ierašanās procesu](./media/salesreturn03.png)](./media/salesreturn03.png)  
+[![Saņemšanas process](./media/salesreturn03.png)](./media/salesreturn03.png)  
 
-Procesam ir vairākas variācijas, kas nav iekļauta šajā tēmā. Šeit ir dažas no šīm izmaiņām:
+Pastāv vairākas citas šī procesa variācijas, kas nav aprakstītas šajā tēmā. Tālāk ir norādītas dažas no šīm variācijām.
 
--   Nelietot **ierašanās pārskats** sarakstu, lai izveidotu saņemšanas žurnālā. Tā vietā manuāli izveidot saņemšanas žurnāla. Atgriešanas pasūtījumiem ir **pārdošanas pasūtījumu** atsaucei.
--   Ja lietojat noliktavas vadības, izveidot palešu transportēšanu. Atgrieztās rindas būs statuss **saņemts** palešu transportēšanas laikā.
--   Reģistrējiet ierašanos atgrieztās preces tieši no preču atgriešanas pasūtījuma rindas, izmantojot **reģistrācijas** funkciju.
+-   Saņemšanas žurnāla izveidei neizmantojiet sarakstu **Saņemšanas darbību apskats**. Tā vietā manuāli izveidojiet saņemšanas žurnālu. Atgriešanas pasūtījumu atsauce ir **pārdošanas pasūtījums**.
+-   Ja lietojat moduli Noliktavas vadība, ģenerējiet palešu transportēšanas darbības. Palešu transportēšanas laikā atgriešanas rindas statuss ir **Pienācis**.
+-   Reģistrējiet atgrieztā krājuma saņemšanu tiešā veidā no atgriešanas pasūtījuma rindas, izmantojot funkciju **Reģistrācija**.
 
-Ierašanās laikā, atdeve ir integrēti ar vispārējo procesu saņemšana noliktavā. Ierašanās process nodrošina arī karantīnas pasūtījumiem Atgrieztie krājumi, kas jāveic atsevišķa apskate izveide.
+Saņemšanas procesa laikā atgriešanas tiek integrētas vispārīgajā noliktavā saņemto krājumu apstrādes procesā. Saņemšanas process sniedz iespēju arī izveidot karantīnas pasūtījumus tiem atgrieztajiem krājumiem, kam ir jāveic atsevišķa pārbaude.
 
-### <a name="identify-products-in-the-arrival-overview-list"></a>Identificēt produktu saraksta saņemšanas pārskats
+### <a name="identify-products-in-the-arrival-overview-list"></a>Identificējiet preces sarakstā Saņemšanas darbību apskats.
 
-**Ierašanās pārskats** lappusē uzskaitīti plānotie ienākošo iebraucēju. **Piezīme:** iebraucēju no atgriešanas pasūtījumiem ir jāapstrādā atsevišķi no citiem ierašanās darījumu veidiem. Pēc tam, kad esam noteikuši ienākošā pakete par **ierašanās pārskats** lapā (piemēram, izmantojot RMA pavaddokuments), darbību rūtī, noklikšķiniet uz **sākt ierašanās** izveidot un inicializēt saņemšanas žurnālu, kas atbilst ierašanos.
+Lapā **Saņemšanas darbību apskats** ir norādītas visas ieplānotās saņemšanas. **Piezīme.** Atgriešanas pasūtījumu saņemšanas transakcijas ir jāapstrādā atsevišķi no citu veidu saņemšanas transakcijām. Pēc ienākošā iepakojuma identificēšanas lapā **Saņemšanas darbību apskats** (piemēram, izmantojot pavadošo AKA dokumentu) darbību rūtī noklikšķiniet uz **Sākt saņemšanu**, lai izveidotu un inicializētu saņemšanas žurnālu, kas atbilst saņemšanai.
 
-### <a name="edit-the-arrival-journal"></a>Labojiet saņemšanas žurnāla
+### <a name="edit-the-arrival-journal"></a>Saņemšanas žurnāla rediģēšana
 
-Iestatot **karantīnas pārvaldība** iespēju **Jā**, jūs varat izveidot karantīnas pasūtījuma atgriešanas rindas. Ja rinda ir tikusi nosūtīta karantīnas inspekcijas, izvietojuma kodu nevar norādīt. **Piezīme:** ja iestatāt **karantīnas pārvaldība** iespēju **Jā**, krājumu modeļu grupā, **karantīnas pārvaldība** opciju uz **žurnāla rindas** lapa tiks atzīmēta žurnāla rindai ierašanās, un to nevar mainīt. Ja rinda tiek nosūtīta karantīnas, jānorāda attiecīgi karantīnas noliktavā. Ja ierašanās rinda nav nosūtīta pārbaudei, noliktavas saņemšanas ierēdnis nedrīkst norādīt izvietojuma kodu tieši no saņemšanas žurnāla rindas un pēc tam Grāmatojiet žurnālu ierašanās. Ja vienu un to pašu kodu izvietojums nav jāpiešķir visu atgriezto rindu daudzuma vai nav saņemts pilns daudzums rindā, nedrīkst sadalīt rindu. Kad jūs sadalīt ierašanās žurnāla rindā, sadalīt arī atgriezto rindu (**Salesline_scrap_more**) un izveidot jaunu partijas ID. Sadalīt rindu, samazinot daudzumu saņemšanas žurnāla rindas. Kad žurnāls ir iegrāmatots, tas ir statuss tiek veidota jauna rinda atgriešanās **sagaidāmajām** attiecībā uz atlikušo daudzumu. Var sadalīt rindu, noklikšķinot uz **funkcijas**&gt;**Split**.
+Iestatot opcijas **Karantīnas pārraudzība** vērtību **Jā**, varat izveidot atgriešanas rindas karantīnas pasūtījumu. Ja rinda ir nosūtīta karantīnā pārbaudes veikšanai, nevarat norādīt atgriešanas metodes kodu. **Piezīme.** Ja krājuma vienības krājumu modeļa grupā iestatāt opcijas **Karantīnas pārraudzība** vērtību **Jā**, saņemšanas žurnāla rindai lapā **Žurnāla rindas** tiek atzīmēta opcija **Karantīnas pārvaldība** un to nevar mainīt. Ja rinda ir nosūtīta karantīnā, ir jānorāda atbilstošā karantīnas noliktava. Ja saņemšanas rinda netiek nosūtīta pārbaudei, noliktavas saņemšanas daļas darbiniekam ir tiešā veidā jānorāda atgriešanas metodes kods saņemšanas žurnāla rindā un pēc tam jāgrāmato saņemšanas žurnāls. Ja visam atgriešanas rindas daudzumam nav jāpiešķir viens atgriešanas metodes kods vai nav saņemts viss rindas daudzums, rinda ir jāsadala. Sadalot saņemšanas žurnāla rindu, tiek sadalīta arī atgriešanas rinda (**SalesLine**) un izveidots jauns partijas ID. Rindu var sadalīt, samazinot saņemšanas žurnāla rindas daudzumu. Grāmatojot žurnālu, atlikušajam daudzumam tiek izveidota jauna atgriešanas rinda ar statusu **Paredzamai**. Rindu var arī sadalīt, noklikšķinot uz **Funkcijas** &gt; **Sadalīt**.
 
-### <a name="process-the-quarantine-order"></a>Karantīnas pasūtījuma apstrādē
+### <a name="process-the-quarantine-order"></a>Karantīnas pasūtījuma apstrāde
 
-Sūtīts atpakaļ nodotu produktu pārbaudei karantīnas noliktavā, karantīnas pasūtījums ir pabeigts jebkādu papildu apstrādi. Vienā karantīnas pasūtījums ir izveidots katrai ierašanās līnijai, kas tiek nosūtīts uz karantīnas. Izvietojuma kodu norāda pārbaudes procesa rezultāts. Karantīnas pasūtījuma, var sadalīt, tāpat, kā varat sadalīt saņemšanas žurnāla. Ja jūs sadaliet karantīnas pasūtījumu, jūs izraisīt atbilstošās atgriezto rindu sadalītu. Pēc tam, kad ir ievadīts kods izvietojuma, pabeigt karantīnas pasūtījuma, izmantojot vai nu **gala** funkciju vai **Pabeigtie** funkciju. Ja atlasāt **Pabeigtie**, jaunpienācēju ir izveidotas norādītajā noliktavā. Tad jūs varat apstrādāt šo ierašanos, izmantojot **ierašanās pārskats** lapā. Ja ierašanās veidojas no karantīnas pasūtījums, veicot pārbaudes piešķirtais izvietojuma kodu nevar mainīt. Ja karantīnas pasūtījums var aizpildīt, izmantojot **gala** funkciju, šī partija tiek reģistrēts automātiski. Dažreiz, vienums varētu nosūtīt atpakaļ no karantīnas nosūtīšanas un saņemšanas departaments. Piemēram, karantīnas inspektors varētu nezināt, kur glabāt preces noliktavā. Šādā gadījumā atbilstošo pavadzīmē ir jāatjaunina, lai pareizi reģistrēt un reaģētu uz norādīto karantīnas dēļ izvietojuma kodu. Saņemšanu var nosūtīt klientam, reģistrējot atgriezto rindu. **Atgriezto apliecinājumu** pārskats atgādina dokumentu atgriešanas pasūtījumu. **Atgriezto apliecinājumu** atskaite nav žurnālā reģistrētās vai citādi reģistrēts sistēmā, un tas nav nepieciešamo preču atgriešanas pasūtījuma procesa solī.
+Ja atgrieztās preces tiek nosūtītas pārbaudei karantīnas noliktavā, visa papildu apstrāde tiek veikta karantīnas pasūtījumā. Katrai saņemšanas rindai, kas tiek nosūtīta karantīnā, tiek izveidots viens karantīnas pasūtījums. Atgriešanas metodes kods norāda pārbaudes procesa rezultātu. Karantīnas pasūtījumu var sadalīt tādā pašā veidā kā saņemšanas žurnālu. Sadalot karantīnas pasūtījumu, tiek izraisīta atbilstoša atgriešanas rindas sadalīšana. Pēc atgriešanas metodes koda ievades pabeidziet karantīnas pasūtījumu, izmantojot funkciju **Beigt** vai **Ziņot kā pabeigtu**. Ja atlasāt **Ziņot kā pabeigtu**, norādītajā noliktavā tiek izveidota jauna saņemšana. Pēc tam varat apstrādāt šo saņemšanu, izmantojot lapu **Saņemšanas darbību apskats**. Ja saņemšana ir izveidota no karantīnas pasūtījuma, nevarat mainīt pārbaudes laikā piešķirto atgriešanas metodes kodu. Ja pabeidzat karantīnas pasūtījumu, izmantojot funkciju **Beigt**, partija tiek automātiski reģistrēta. Dažreiz krājums var tikt nosūtīts atpakaļ no karantīnas noliktavas uz nosūtīšanas un saņemšanas nodaļu. Piemēram, karantīnas inspektors, iespējams, nezina, kur noliktavā uzglabāt šo krājumu. Šādā gadījumā ir jāatjaunina atbilstošā pavadzīme, lai pareizi reģistrētu karantīnas dēļ norādīto atgriešanas metodes kodu un rīkotos atbilstoši tam. Reģistrējot atgriešanas rindu, debitoram var nosūtīt ieejas plūsmas apstiprinājumu. Pārskats **Atgriešanas apstiprinājums** līdzinās atgriešanas pasūtījuma dokumentam. Pārskats **Atgriešanas apstiprinājums** netiek reģistrēts žurnālā vai citā veidā reģistrēts sistēmā, un tā izveide nav obligāta atgriešanas pasūtījuma apstrādes procesa darbība.
 
-## <a name="replace-a-product"></a>Produkta vietā
-Pastāv divas metodes produkta Nomaiņa pārvaldīšanai:
+## <a name="replace-a-product"></a>Preces aizstāšana
+Preču aizstāšanu var pārvaldīt divos veidos.
 
--   **Up-front Nomaiņa** – produkta vietā pirms atgriezto preču saņemšanas no klienta.
--   **Aizstāšana ar izvietojuma kodu** – automātiski izveidotu jaunu pasūtījuma rindu Nomaiņa.
+-   **Iepriekšēja aizstāšana** — aizstājiet preci pirms atgrieztās preces saņemšanas no debitora.
+-   **Aizstāšana pēc atgriešanas metodes koda** — automātiski izveidojiet jaunu aizstāšanas pasūtījuma rindu.
 
 ### <a name="up-front-replacement"></a>Priekšpuses aizstāšana
 
-Up-front Nomaiņa aizvietojamajai precei var piegādāt klientam pirms priekšmets tiek atdots atpakaļ. Šī metode ir noderīga, ja, piemēram, preces ir mašīnas daļa, ko nevar noņemt, ja rezerves daļas ir pieejamas ieņemt savu vietu, vai ja jūs vienkārši vēlaties savam klientam ir atvietotāju produktu pēc iespējas ātrāk. Up-front Nomaiņa secība ir neatkarīgas pārdošanas pasūtījumu. Virsrakstu informācija tiek atvērts no klienta un rindas informācija tiek inicializēta no atgriešanas pasūtījumu. Var rediģēt, apstrādāt un dzēst pasūtījumu Nomaiņa, neatkarīgi no preču atgriešanas pasūtījumu. Dzēšot Nomaiņa pasūtījumu, saņemat ziņojumu par rezerves rīkojumu tika izveidots pasūtījums. Sekojošajā attēlā redzama uzreiz nomaiņas process.  
+Izmantojot iepriekšējo aizstāšanu, aizstāšanas krājumu var piegādāt debitoram pirms krājuma atgriešanas. Šī metode ir noderīga, piemēram, ja krājums ir iekārtas daļa, ko nevar noņemt, ja vien nav pieejama rezerves daļa tās nomaiņai, vai arī ja vēlaties, lai debitors pēc iespējas ātrāk saņemtu aizstāšanas preci. Iepriekšējās aizstāšanas pasūtījums ir neatkarīgs pārdošanas pasūtījums. Galvenes informācija sākotnēji tiek ņemta no debitora, bet rindas informācija sākotnēji tiek ņemta no atgriešanas pasūtījuma. Aizstāšanas pasūtījumu var rediģēt, apstrādāt un dzēst neatkarīgi no atgriešanas pasūtījuma. Kad dzēšat aizstāšanas pasūtījumu, saņemat ziņojumu par to, ka pasūtījums tika izveidots kā aizstāšanas pasūtījums. Tālāk esošajā attēlā ir redzams iepriekšējas aizstāšanas process.  
 
-[![Up-front Nomaiņa procesa](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn04.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn04.png)  
+[![Iepriekšējas aizstāšanas process](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn04.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn04.png)  
 
-Atgriezto preču pasūtījums ir atsauce uz pasūtījuma Nomaiņa. Ja atgriezto preču pasūtījums tiek izveidots up-front Nomaiņa pasūtījums pirms brāķa priekšmets tiek atdots atpakaļ, nevar atlasīt izvietojuma kodu Nomaiņa pēc bojāto krājumu ir atgriezti.
+Atgriešanas pasūtījumā ir ietverta atsauce uz aizstāšanas pasūtījumu. Ja pirms bojātā krājuma atgriešanas tiek izveidots atgriešanas pasūtījuma iepriekšējas aizstāšanas pasūtījums, pēc bojātā krājuma atgriešanas nevarat atlasīt aizstāšanas atgriešanas metodes kodus.
 
-### <a name="replacement-by-disposition-code"></a>Pēc izvietojuma koda Nomaiņa
+### <a name="replacement-by-disposition-code"></a>Aizstāšana pēc atgriešanas metodes koda
 
-Ja aizvietojamajai precei tiek nosūtītas klientam, un izmantot **Replace un lūžņu** vai **Replace un kredīta** izvietojuma rīcības atgriešanas pasūtījumu, izmantojiet to procesu, kurš ir parādīts nākamajā ilustrācijā.  
+Ja nosūtāt debitoram aizstāšanas krājumu un atgriešanas pasūtījumam izmantojat atgriešanas metodes darbību **Aizstāt un izbrāķēt** vai **Aizstāt un kreditēt**, izmantojiet tālāk esošajā attēlā redzamo procesu.  
 
-[![Kad izvietojuma kodu izmanto Nomaiņa procesa](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn05.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn05.png)  
+[![Aizstāšanas process, ja tiek izmantots atgriešanas metodes kods](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn05.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn05.png)  
 
-Aizvietojamajai precei tiks piegādātas, izmantojot neatkarīgas pārdošanas pasūtījuma pārdošanas pasūtījuma Nomaiņa. Šim pārdošanas pasūtījumam ir izveidots ģenerējot pavadzīmes preču atgriešanas pasūtījumu. Pasūtījuma virsraksta informāciju no klienta, uz kuru ir atsauce izmanto preču atgriešanas pasūtījuma virsrakstā. Rindas informācija tiek apkopota informācija, kas ievadīta **aizvietojamajai precei** lapā. **Aizvietojamajai precei** lapa ir jāaizpilda rindām, kam ir atsavināšanas darbības, kas sākas ar vārdu "aizvietot". Tomēr daudzumu, nedz aizvietojamajai precei identitāte ir pārbaudīti vai ierobežots. Šī darbība ļauj gadījumos, ja klients vēlas vienai un tai pašai precei, bet citu konfigurāciju vai lieluma, kā arī gadījumos ja klienti vēlas pilnīgi citu elementu. Pēc noklusējuma tiek ievadīta identiska preču **aizvietojamajai precei** lapā. Taču var atlasīt citu krājumu, ar noteikumu, ka šī funkcija ir iestatīta. **Piezīme:** var rediģēt un dzēst Nomaiņa pārdošanas pasūtījumu pēc tā izveidošanas.
+Aizstāšanas krājums tiek piegādāts, izmantojot neatkarīgu pārdošanas pasūtījumu — aizstāšanas pārdošanas pasūtījumu. Šis pārdošanas pasūtījums tiek izveidots atgriešanas pasūtījuma pavadzīmes ģenerēšanas laikā. Pasūtījuma galvenā tiek izmantota informācija no debitora, uz kuru ir atsauce atgriešanas pasūtījuma galvenē. Rindas informācija tiek apkopota no lapā **Krājuma aizstājējs** ievadītās informācijas. Lapā **Krājuma aizstājējs** ir jāievada informācija par rindām, kuru atgriešanas metožu darbību nosaukums sākas ar vārdu “aizstāt”. Taču netiek pārbaudīts vai ierobežots ne aizstāšanas krājuma daudzums, ne tā identitāte. Šī funkcionalitāte ir piemērota gadījumiem, kad debitors vēlas saņemt tā paša krājuma atšķirīgas konfigurācijas vai izmēra variantu vai kad debitors vēlas saņemt pilnīgi citu krājumu. Pēc noklusējuma lapā **Krājuma aizstājējs** tiek ievadīta informācija par tieši tādu pašu krājumu. Taču varat atlasīt citu krājumu, ja vien ir iestatīta šī funkcija. **Piezīme.** Pēc aizstāšanas pārdošanas pasūtījuma izveides varat to rediģēt un dzēst.
 
-## <a name="generate-a-packing-slip"></a>Ģenerēt ar pavadzīmi
-Pirms atgrieztās preces noliktavā var saņemt, jums ir jāatjaunina pasūtījumu, kas pieder preces pavadzīmes. Tāpat, kā rēķinu atjaunināšanas process ir finanšu darbības atjaunināšanu, pavadzīmes atjaunināšanas process ir fiziski grāmatojot krājumu ieraksta. Citiem vārdiem sakot, šajā procesā izdara izmaiņas noliktavā. Attiecībā uz peļņu, tiek īstenoti soļus, kas tiek piešķirti darbībai izvietojuma laikā pavadzīmes atjauninājumu. Ģenerējot pavadzīmes, šādi notikumi:
+## <a name="generate-a-packing-slip"></a>Pavadzīmes ģenerēšana
+Lai atgrieztās krājuma vienības varētu saņemt krājumos, vispirms ir jāatjaunina tā pasūtījuma pavadzīme, kurā ir ietvertas šīs krājuma vienības. Tāpat kā rēķina atjaunināšanas process finanšu transakcijas atjaunināšana, pavadzīmes atjaunināšanas process ir fiziska krājumu ieraksta atjaunināšana. Citiem vārdiem sakot, šis process izraisa krājumu izmaiņas. Atgriešanas gadījumā darbības, kas ir piešķirtas atgriešanas metodes darbībai, tiek ieviestas pavadzīmes atjaunināšanas laikā. Kad ģenerējat pavadzīmi, notiek tālāk norādītais.
 
--   Noliktavā, standarta process tiek izmantots, lai veiktu fiziskās ieejas plūsmas. Tiek ģenerētas Virsgrāmatas grāmatojumus, ja krājumu modeļu grupas (**pastu inventarizācijas**) un Accounts receivable parameters (**Pavadzīmes grāmatošana Virsgrāmatā**) ir iestatīts atbilstoši.
--   Vienumi, kas atzīmēti ar izvietojuma rīcību, kas satur vārdu "brāķi" ir norakstīti un krājumu zaudējumi tiek grāmatots Virsgrāmatā.
--   Vienumi, kas atzīmēti ar **atgriezties pie klienta** izvietojuma rīcību ir saņemti un piegādāti debitoram. Šos vienumus neietekmē neto krājumu.
--   Pārdošanas pasūtījums tiek izveidots rezerves. Šim pārdošanas pasūtījumam ir balstīts uz informāciju par **aizvietojamajai precei** lapā.
+-   Noliktavā tiek izmantots standarta process, lai veiktu fiziskas ieejas plūsmas darbību. Ja ir atbilstoši iestatīta krājumu modeļu grupa (**Grāmatot fiziskos krājumus**) un debitoru moduļa parametri (**Pavadzīmes grāmatošana Virsgrāmatā**), tiek ģenerēti Virsgrāmatas ieraksti.
+-   Krājumi, kas ir atzīmēti ar atgriešanas metodes darbību, kuras nosaukumā ir vārds “izbrāķēt”, tiek norakstīti, un Virsgrāmatā tiek grāmatota krājumu zaudēšana.
+-   Krājumi, kas ir atzīmēti ar atgriešanas metodes darbību **Atgriezt debitoram**, tiek saņemti un piegādāti debitoram. Šīs krājuma vienības tieši neietekmē krājumus.
+-   Tiek izveidots aizvietošanas pārdošanas pasūtījums. Šis pārdošanas pasūtījums tiek izveidots, pamatojoties uz informāciju lapā **Krājuma aizstājējs**.
 
-Var ģenerēt pavadzīmes tikai rindas, kurās atgriešanas statusu **ierakstītā**, un tikai par pilnu daudzumu atgriešanas rindas. Ja vairākas preču atgriešanas pasūtījuma rindas ir **ierakstītā** statusu, var formēt pavadzīmes rindu apakškopa, izdzēšot rindas no **Pavadzīmes grāmatošana** lapā. Daļēja atgriešanās ir definēti kā atgriezto preču pasūtījumā rindas, nevis kā atgriezto pasūtījumu piegādēm. Tādēļ, ja jūs saņemat pilnu daudzums vienā preču atgriešanas pasūtījuma rindā ir norādīts, bet nekas, saņemot no citas preču atgriešanas pasūtījuma rindas, piegādes nav daļējas piegādes. Tomēr, ja preču atgriešanas pasūtījuma rindas prasa atpakaļ 10 preces vienību, bet jūs saņemat tikai četrām vienībām, piegāde ir daļējas piegādes. Ja ne visu paredzamo atgrieztos krājumus ir ieradušies, var atlikt sūtījumu un gaidīt pārējo atgrieztais daudzums ierasties. Alternatīvi, var reģistrēties un grāmatotu daļēju daudzumu. Procesā pavadzīmes grāmatošanai pavadzīmes atsauces numuru no klienta nosūtīšanas dokumentos var saistīt ar pasūtījuma rindas. Šī asociācija nav obligāta un ir tikai kā atsauce. Tas nerada transakciju atjauninājumi. Vispār, jūs varat izlaist iepakošanas slīdēšanas procesu un doties tieši uz rēķinu izrakstīšanu. Šajā gadījumā darbības, kuras jūs būtu jāizpilda laikā iepakošanas slīdēšanas paaudzes pabeigti rēķinu.
+Pavadzīmi varat ģenerēt tikai tām rindām, kuru atgriešanas statuss ir **Reģistrēts**, un tikai visam atgriešanas rindas daudzumam. Ja vairākām atgriešanas pasūtījuma rindām ir statuss **Reģistrēts**, varat ģenerēt pavadzīmi rindu apakškopai, dzēšot pārējās rindas no lapas **Grāmatot pavadzīmi**. Daļējas atgriešanas tiek definētas atbilstoši atgriešanas pasūtījuma rindām, nevis atgriešanas pasūtījuma sūtījumiem. Tāpēc, ja saņemat visu vienā atgriešanas pasūtījuma rindā norādīto daudzumu, taču nesaņemat neko no citās atgriešanas pasūtījuma rindās norādītā, piegāde nav daļēja piegāde. Taču, ja atgriešanas pasūtījuma rindā ir norādīts, ka ir jāatgriež 10 krājuma vienības, taču jūs saņemat tikai četras vienības, piegāde ir daļēja piegāde. Ja nav saņemti visi paredzētie atgriešanas krājumi, varat atlikt sūtījuma apstrādi un gaidīt pārējā atgriežamā daudzuma saņemšanu. Varat arī reģistrēt un grāmatot daļēji piegādāto daudzumu. Pavadzīmju grāmatošanas procesa ietvaros debitora nosūtīšanas dokumentos norādīto pavadzīmes atsauces numuru var saistīt ar pasūtījuma rindām. Šī saistīšana nav obligāta un tiek izmantota tikai kā atsauce. Tā neizraisa nekādus transakcijas atjauninājumus. Vispārīgā gadījumā varat izlaist pavadzīmes apstrādes procesu un uzreiz pāriet pie rēķina izrakstīšanas. Šādā gadījumā darbības, ko jūs būtu veicis pavadzīmes ģenerēšanas laikā, tiek veiktas rēķina izrakstīšanas laikā.
 
 ## <a name="generate-an-invoice"></a>Ģenerēt rēķinu
-Kaut arī **atgriezto preču pasūtījums** lapa satur informāciju un darbības, kas ir vajadzīgas, lai apstrādātu atgriezto preču pasūtījums, īpašus loģistikas aspekti ir jāizmanto **pārdošanas pasūtījuma** lapu, lai pabeigtu rēķinu izrakstīšanas procesu. Jūsu organizācija var pēc tam rēķina preču atgriešanas pasūtījumi un pārdošanas pasūtījumi, tajā pašā laikā, un viena un tā pati persona var aizpildīt rēķinu izrakstīšanas procesu, kā to prasa. Lai apskatītu atgriešanas pasūtījumu no **pārdošanas pasūtījumu** lapu, noklikšķiniet uz saites, lai atvērtu saistītās pārdošanas pasūtījuma pārdošanas pasūtījuma numuru. Jūs varat arī atrast atgriezto preču pasūtījums **visus pārdošanas pasūtījumus** lapā. Atgriešanas pasūtījumiem ir pasūtījuma tips ir pārdošanas pasūtījumu **atpakaļ pasūtījuma**.
+Lai gan lapā **Atgriešanas pasūtījums** ir ietverta informācija un darbības, kas ir nepieciešamas, lai apstrādātu atgriešanas pasūtījuma īpašos loģistikas aspektus, rēķina izrakstīšanas procesa pabeigšanai ir jāizmanto lapa **Pārdošanas pasūtījums**. Šādā gadījumā jūsu organizācija var vienlaikus izrakstīt rēķinus par atgriešanas pasūtījumiem un pārdošanas pasūtījumiem un tā pati persona var pabeigt rēķinu izrakstīšanas procesu, ja tas ir nepieciešams. Lai lapā **Pārdošanas pasūtījums** skatītu atgriešanas pasūtījumu, noklikšķiniet uz pārdošanas pasūtījuma numura saites, lai atvērtu saistīto pārdošanas pasūtījumu. Atgriešanas pasūtījumam var piekļūt arī lapā **Visi pārdošanas pasūtījumi**. Atgriešanas pasūtījumi ir pārdošanas pasūtījumi, kuru pasūtījuma veids ir **Atgrieztais pasūtījums**.
 
 ### <a name="credit-correction"></a>Kredīta korekcija
 
-Kā daļu no rēķinā iekļaušanas procesā, pārliecinieties, vai ir pareizi visas papildmaksas. Izraisīt Virsgrāmatas grāmatojumus kļūt korekcijas (Storno), apsveriet iespēju izmantot **kredīta korekciju** opciju uz **citu** cilnē **rēķina grāmatošanas** lapa, grāmatojot rēķinu/kredīta notu. **Piezīme:** pēc noklusējuma **kredīta korekciju** iespēja ir aktivizēta, ja **kredīta notu kā labojumu** opciju uz **Accounts receivable parameters** lapa, ir iespējota. Tomēr mēs iesakām, ka jums nav amatā atgriežas ar Storno.
+Rēķina izrakstīšanas procesa ietvaros pārbaudiet, vai visas papildmaksas ir pareizas. Lai Virsgrāmatas ierakstus padarītu par korekciju (storno), rēķina/kredīta notas grāmatošanas laikā ir ieteicams izmantot opciju **Kredīta korekcija**, kas ir pieejama lapas **Rēķina grāmatošana** cilnē **Cits**. **Piezīme.** Pēc noklusējuma opcija **Kredīta korekcija** ir aktivizēta, ja lapā **Debitoru moduļa parametri** ir iespējota opcija **Kredīta nota kā korekcija**. Taču nav ieteicams grāmatot atgriešanas, izmantojot storno.
 
-## <a name="create-intercompany-return-orders"></a>Izveidot starpuzņēmumu atgriezto pasūtījumu
-Preču atgriešanas pasūtījumus var izpildīt starp diviem uzņēmumiem, jūsu organizācijā. Tiek atbalstīti šādi scenāriji:
+## <a name="create-intercompany-return-orders"></a>Starpuzņēmumu atgriešanas pasūtījumu izveide
+Atgriešanas pasūtījumus var izpildīt starp diviem uzņēmumiem jūsu organizācijas ietvaros. Tālāk ir norādīti atbalstītie scenāriji.
 
--   Vienkārša starpuzņēmumu atgriež starp diviem uzņēmumiem, kas piedalās starpuzņēmumu attiecības
--   Starpuzņēmumu ķēdē, kas ir noteikta klienta atgriezto pasūtījumu veidojot pārdošanas uzņēmumā
--   Starpuzņēmumu ķēdē, kas tiek izveidota, kad piegādātājam atgriezto preču pasūtījums tiek izveidots pircēja uzņēmumam
--   Tiešās piegādes nosūtīšanas atgriež ārējam debitoram un divi uzņēmumi, kas piedalās starpuzņēmumu attiecības starp
+-   Vienkāršas starpuzņēmumu atgriešanas starp diviem uzņēmumiem, kas piedalās starpuzņēmumu relācijā
+-   Starpuzņēmumu ķēde, kas tiek izveidota, kad pārdošanas uzņēmumā tiek izveidots debitora atgriešanas pasūtījums
+-   Starpuzņēmumu ķēde, kas tiek izveidota, kad pirkšanas uzņēmumā tiek izveidots kreditora atgriešanas pasūtījums
+-   Tiešas piegādes sūtījumu atgriešanas starp ārēju debitoru un diviem uzņēmumiem, kas piedalās starpuzņēmumu relācijā
 
 ### <a name="setup"></a>Iestatīšana
 
-Attēlā parādīts minimālais uzstādīšanas tas ir nepieciešami divi uzņēmumi starpuzņēmumu attiecības piedalīties un gūt labumu no starpuzņēmumu tirdzniecībai.  
+Tālāk esošajā attēlā ir redzami minimālie iestatījumi, kas ir nepieciešami, lai divi uzņēmumi varētu piedalīties starpuzņēmumu relācijā un izmanot starpuzņēmumu tirdzniecības iespējas  
 
-[![Minimum setup](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn06.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn06.png)  
+[![Minimālie iestatījumi](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn06.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn06.png)  
 
-Šādā gadījumā CompBuy ir uzņēmums, kas pērk un CompSell ir pārdošanas uzņēmums. Parasti, pārdošanas uzņēmumam kuģiem preces pircēja uzņēmumam vai, tiešās piegādes nosūtīšanas gadījumos tieši līdz gala debitoram. Šajā CompBuy, piegādātāja SU\_CompSell ir definēts kā starpuzņēmumu galapunktam, kas saistīta ar uzņēmuma CompSell. Tajā pašā laikā CompSell, klienta SU\_CompBuy ir definēts kā starpuzņēmumu galapunktam, kas saistīta ar uzņēmuma CompBuy. Abos uzņēmumos ir jānosaka attiecīgas darbības politikas detaļas un vērtību kartēšanas. Tiešās piegādes nosūtīšanas scenārija gadījumā starpuzņēmumu atgriezto pasūtījumu, kas arī ir starpuzņēmumu pārdošanas pasūtījumu, tiek izveidots pārdošanas uzņēmumā. AKA kodu no starpuzņēmumu atgriezto preču pasūtījums var izdot no RMA numuru sērijas, kas CompSell, vai to var nokopēt no RMA numuru, kas piešķirts sākotnējais preču atgriešanas pasūtījums, CompBuy. RMA numuru iestatījumus uz **pirkšanas pieprasījums** CompBuy rīcības politiku nosaka šīs darbības. Ja RMA numurs tiek sinhronizēts, jums vajadzētu plānot numuru sadursmes riska mazināšanai, ja divi uzņēmumi lieto numuru sēriju.
+Tālāk aprakstītajā scenārijā CompBuy ir pirkšanas uzņēmums un CompSell ir pārdošanas uzņēmums. Parasti pārdošanas uzņēmums nosūta preces pirkšanas uzņēmuma vai tiešās piegādes sūtījuma scenārijos tieši gala debitoram. Uzņēmumā CompBuy kreditors IC\_CompSell ir definēts kā starpuzņēmumu galapunkts, kas ir saistīts ar uzņēmumu CompSell. Vienlaikus uzņēmumā CompSell debitors IC\_CompBuy ir definēts kā starpuzņēmumu galapunkts, kas ir saistīts ar uzņēmumu CompBuy. Abos uzņēmumos ir jābūt definētai atbilstošai darbību politikas informācijai un vērtību kartējumiem. Tiešās piegādes sūtījuma scenārija ietvaros pārdošanas uzņēmumā tiek izveidots starpuzņēmumu atgriešanas pasūtījums, kas ir arī starpuzņēmumu pārdošanas pasūtījums. Starpuzņēmumu atgriešanas pasūtījuma AKA kods var tikt iegūts no AKA koda numuru sērijas uzņēmumā CompSell vai kopēts no AKA koda, kas ir piešķirts sākotnējam atgriešanas pasūtījumam uzņēmumā CompBuy. Šīs darbības ir atkarīgas no darbības politikas **PurchaseRequisition** iestatījuma uzņēmumā CompBuy. Ja AKA kods tiek sinhronizēts, ir jāsagatavojas novērst kodu dublēšanos gadījumā, ja abos uzņēmumos tiek izmantota viena numuru sērija.
 
-### <a name="simple-intercompany-returns"></a>Vienkārša starpuzņēmumu atgriež
+### <a name="simple-intercompany-returns"></a>Vienkāršas starpuzņēmumu atgriešanas
 
-Šis scenārijs ietver divas uzņēmējsabiedrības pašas organizācijas, kā parādīts sekojošajā attēlā.  
+Šajā scenārijā ir iesaistīti divi uzņēmumi vienā organizācijā, kā tas ir redzams tālāk esošajā attēlā.  
 
-[![Vienkārši atgriezties starpuzņēmumu](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)  
+[![Vienkārša starpuzņēmumu atgriešana](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)  
 
-Secības ķēdi var tikt izveidota, kad piegādātājam atgriezto preču pasūtījums tiek izveidots pircēja uzņēmumam vai klienta atgriezto preču pasūtījums tiek izveidots, pārdošanas uzņēmumā. Dinamika 365 operācijām veido atbilstošo pasūtījumu citā uzņēmumā, un pārliecinās, ka galvenes un rindu informāciju par kreditora atgriešanas pasūtījumu atspoguļo klienta iestatījumus atgriezto preču pasūtījums. Atgriezto preču pasūtījums, kas ir reģistrēta var vai nu iekļaut vai neiekļaut atsauci (**atrast pārdošanas pasūtījumā**) uz esošo klientu rēķinu. Pavadzīmēm un rēķiniem, divi pasūtījumi var apstrādāt atsevišķi. Piemēram, lai ģenerētu pavadzīmi piegādātājam atgriezto preču pasūtījums pirms jums radīt klienta atgriezto pasūtījumu pavadzīmes nav.
+Pasūtījumu ķēdi var izveidot, ja pirkšanas uzņēmumā tiek izveidots kreditora atgriešanas pasūtījums vai pārdošanas uzņēmumā tiek izveidots debitora atgriešanas pasūtījums. Programmatūra Dynamics 365 for Operations nodrošina attiecīgā pasūtījuma izvedi otrā uzņēmumā, kā arī to, ka galvenes un rindas informācija kreditora atgriešanas pasūtījumā atbilst iestatījumiem debitora atgriešanas pasūtījumā. Izveidotajā atgriešanas pasūtījumā var tikt ietverta atsauce (**Atrast pārdošanas pasūtījumu**) uz esošu debitora rēķinu, vai arī šī atsauce var tikt izslēgta. Abu pasūtījumu rēķinus un pavadzīmes var apstrādāt atsevišķi. Piemēram, nav nepieciešams ģenerēt kreditora atgriešanas pasūtījuma pavadzīmi pirms debitora atgriešanas pasūtījuma pavadzīmes ģenerēšanas.
 
-### <a name="direct-delivery-shipment-returns-among-three-parties"></a>Tiešās piegādes nosūtīšanas atgriež starp trim pusēm
+### <a name="direct-delivery-shipment-returns-among-three-parties"></a>Tiešās piegādes sūtījuma atgriešanas starp trim pusēm
 
-Šis scenārijs var noteikt, ja iepriekšējā pārdošana **tiešu piegādi** tips ir pabeigts un ja pret rēķins klientam pastāv uzņēmumā, kas mijiedarbojas ar klientu. Tālāk redzamajā attēlā uzņēmums CompBuy iepriekš pārdoti un rēķins klientam Extern produktu. Produkti tika nosūtīti tieši no uzņēmuma CompSell klientu caur starpuzņēmumu secības ķēdi.  
+Šo scenāriju var īstenot, ja iepriekš ir veikta veida **Tiešā piegāde** pārdošana un uzņēmumā, kas mijiedarbojas ar debitoru, pastāv šim debitoram izrakstīts rēķins. Tālāk esošajā attēlā ir redzams, ka uzņēmums CompBuy iepriekš ir pārdevis rēķinos ietvertas preces debitoram Extern. Preces tika tieši nosūtītas debitoram no uzņēmuma CompSell, izmantojot starpuzņēmumu pasūtījumu ķēdi.  
 
-[![Tiešās piegādes nosūtīšanas atgriež starp trim pusēm](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn08.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn08.png)  
+[![Tiešās piegādes sūtījuma atgriešanas starp trim pusēm](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn08.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn08.png)  
 
-Ja Extern klients vēlas, lai atgrieztos produktu, atgriezto preču pasūtījumā (RMA02) ir izveidots klientu uzņēmuma CompBuy. Izveidot starpuzņēmumu ķēdē, atgriezto preču pasūtījumā ir jāmarķē tiešajai piegādei. Izmantojot **atrast pārdošanas pasūtījumā** funkciju izvēlēties atgriezties, debitora rēķina tiek izveidots starpuzņēmumu secības ķēdi, kas sastāv no šādiem dokumentiem:
+Ja debitors Extern vēlas atgriezt preces, uzņēmumā CompBuy debitoram tiek izveidots atgriešanas pasūtījums (RMA02). Lai izveidotu starpuzņēmumu ķēdi, atgriešanas pasūtījums ir jāatzīmē tiešajai piegādei. Ja atgriežamā debitora rēķina izvēlei izmantojat funkciju **Atrast pārdošanas pasūtījumu**, tiek izveidota starpuzņēmumu pasūtījumu ķēde, kas sastāv no tālāk norādītajiem dokumentiem.
 
--   **Oriģinālo preču atgriešanas pasūtījumu:** RMA02 (uzņēmums CompBuy)
--   **Pirkšanas pasūtījumu:** PO02 (uzņēmums CompBuy)
--   **Starpuzņēmumu atgriezto preču pasūtījums:** aka\_00032 (uzņēmuma CompSell)
+-   **Sākotnējais atgriešanas pasūtījums:** RMA02 (uzņēmums CompBuy)
+-   **Pirkšanas pasūtījums:** PO02 (uzņēmums CompBuy)
+-   **Starpuzņēmumu atgriešanas pasūtījums:** RMA\_00032 (uzņēmums CompSell)
 
-Pēc tam, kad izveidots starpuzņēmumu tiešās piegādes ķēdē, un apstrādes atgriež fizisko apstrādi saistībā ar starpuzņēmumu atgriezto pasūtījumu RMA jānotiek\_00032 uzņēmuma CompSell. Produktu nevar saņemt uzņēmuma CompBuy. Kad izvietojuma kodu tiek piešķirts starpuzņēmumu atgriezto preču pasūtījums, tas tiek sinhronizēts ar sākotnējo preču atgriešanas pasūtījums, lai ļautu pienācīgi izrakstīšanai no oriģinālā pasūtījuma.
+Pēc tiešās piegādes starpuzņēmumu ķēdes izveides visas fiziskās darbības ar atgriešanām un to apstrāde ir jāveic uzņēmumā CompSell izveidotā starpuzņēmumu atgriešanas pasūtījuma RMA\_00032 kontekstā. Preces nevar saņemt uzņēmumā CompBuy. Kad starpuzņēmumu atgriešanas pasūtījumam tiek piešķirts atgriešanas metodes kods, tas tiek sinhronizēts ar sākotnējo atgriešanas pasūtījumu, lai nodrošinātu pareizu sākotnējā pasūtījuma rēķina izrakstīšanu.
 
-## <a name="post-to-the-ledger"></a>Grāmatošanai Virsgrāmatā
-Virsgrāmatas grāmatojumus, kas tiek ģenerēti, kad atgriezto preču pasūtījums ir iekļauts rēķinā, ko ietekmē daži svarīgi iestatījumi un parametri:
+## <a name="post-to-the-ledger"></a>Grāmatošana Virsgrāmatā
+Virsgrāmatas ierakstus, kas tiek ģenerēti atgriešanas pasūtījuma rēķina izrakstīšanas laikā, ietekmē daži svarīgi iestatījumi un parametri.
 
--   **Atgriezt pašizmaksu** – par krājumu modeļiem, izņemot **standarta izmaksu**, **atgriezt pašizmaksu** parametrs nosaka krājumu izmaksu, ja tas ir pieņemts atpakaļ noliktavā vai nodod atkritumos. Lai aprēķinātu pareizo krājumu novērtēšanai, ir svarīgi, ka jūs iestatāt **atgriezt pašizmaksu** parametrs pareizi. Ja izmantojat **atrast pārdošanas pasūtījumā** funkcijas, lai izveidotu preču atgriešanas pasūtījuma rindā ir atsauce uz klientu rēķina, **atgriezt pašizmaksu** vērtība ir vienāda ar izmaksu cena krājumam, kas tiek pārdots. Pretējā gadījumā izmaksu cenu vērtības nāk no krājuma iestatījuma vai var ievadīt manuāli.
--   **Kredīta korekciju/Storno** - **kredīta korekciju** parametru par **rēķina grāmatošanas** lappusē nosaka, vai piedāvājumi būtu ierakstītas kā pozitīvs (DR/CR) ierakstus vai labojot, negatīvo ierakstu.
+-   **Vienības izmaksu cena** — krājumu modeļiem, kas nav **Standarta izmaksas**, parametrs **Vienības izmaksu cena** nosaka krājuma vienības izmaksas brīdī, kad tā tiek pieņemta atpakaļ krājumos vai norakstīta. Lai aprēķinātu pareizo krājumu vērtību, ir svarīgi pareizi iestatīt parametru **Vienības izmaksu cena**. Ja izmantojat funkciju **Atrast pārdošanas pasūtījumu**, lai izveidotu atgriešanas pasūtījuma rindu, kurā ir atsauce uz debitora rēķinu, parametra **Vienības izmaksu cena** vērtība ir vienāda ar pārdotā krājuma izmaksu cenu. Pretējā gadījumā izmaksu cenas vērtība tiek iegūta no krājuma iestatījumiem vai to var ievadīt manuāli.
+-   **Kredīta korekcijas/Storno** — parametrs **Kredīta korekcija** lapā **Rēķina grāmatošana** nosaka, vai ieraksti ir jāgrāmato kā pozitīvas vērtības (debets/kredīts) vai kā korekcijas ar negatīvu vērtību.
 
-Sekojošie piemēri atgriezto izmaksu cenas tiek uzradīta **Inv izmaksu cenu**.
+Tālāk sniegtajos piemēros atgrieztās vienības izmaksu cena ir norādīta kā **Krāj. izmaksu cena**.
 
-### <a name="example-1-the-return-order-doesnt-reference-a-customer-invoice"></a>1. piemērs: Atgriezto preču pasūtījumā nav atsauces debitora rēķina
+### <a name="example-1-the-return-order-doesnt-reference-a-customer-invoice"></a>1. piemērs. Atgriešanas pasūtījumā nav atsauces uz debitora rēķinu
 
-Atgriezto preču pasūtījums nav atsauces uz klienta rēķina. Atgrieztajam krājumam tiek kreditēts. **Kredīta korekciju** parametrs nav atlasīta, kad preču atgriešanas pasūtījuma rēķina vai kredīta notas tiek ģenerēts.  
+Atgriešanas pasūtījumā nav atsauces uz debitora rēķinu. Atgrieztais krājums tiek kreditēts. Ģenerējot atgriešanas pasūtījuma rēķinu vai kredīta notu, nav atlasīts parametrs **Kredīta korekcija**.  
 
-[![Atgriezto preču pasūtījums nav atsauces klientu invoic](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn09.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn09.png)  
+[![Atgriešanas pasūtījumā nav atsauces uz debitora rēķinu](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn09.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn09.png)  
 
-**Piezīme:** krājuma vispārējās cenu tiek izmantota kā noklusētā vērtība **atgriezt pašizmaksu** parametrs. Noklusētā cena atšķiras no izmaksu cenas krājumu izdošanas laikā. Tādējādi netieši ir sedzis zaudējumus 3. Turklāt, atgriezto preču pasūtījumā neietver atlaides, kas bija veltīta klientu pārdošanas pasūtījumā. Tādēļ rodas pārmērīga kredītu.
+**Piezīme.** Kā parametra **Vienības izmaksu cena** noklusējuma vērtība tiek izmantota krājuma šablona cena. Noklusējuma cena atšķiras no izmaksu cenas krājumu izejas plūsmas laikā. Tāpēc sekas ir 3 naudas vienību zaudējums. Turklāt atgriešanas pasūtījumā nav ietverta atlaide, kas debitoram tika piešķirta pārdošanas pasūtījumā. Tāpēc rodas pārāk liels kredīts.
 
-### <a name="example-2-credit-correction-is-selected-for-the-return-order"></a>2. piemērs: Atgriezto preču pasūtījums ir atlasīts kredīta korekciju
+### <a name="example-2-credit-correction-is-selected-for-the-return-order"></a>2. piemērs. Atgriešanas pasūtījumam ir atlasīts parametrs Kredīta korekcija
 
-2. piemērs ir tas pats, piemēram, % 1, bet **kredīta korekciju** ģenerējot rēķina preču atgriešanas pasūtījums ir atlasīts parametrs.  
+2. piemērs ir tāds pats kā 1. piemērs, taču, ģenerējot atgriešanas pasūtījuma rēķinu, ir atlasīts parametrs **Kredīta korekcija**.  
 
-[![Atgriezto preču pasūtījums, ja ir atlasīts kredīta korekciju](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn10.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn10.png)  
+[![Atgriešanas pasūtījums, kam ir atlasīts parametrs Kredīta korekcija ](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn10.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn10.png)  
 
-**Piezīme:** Virsgrāmatas grāmatojumus tiek ievadīts kā negatīva labojumus.
+**Piezīme.** Virsgrāmatas ieraksti ir grāmatoti kā korekcijas ar negatīvu vērtību.
 
-### <a name="example-3-the-return-order-line-is-created-by-using-the-find-sales-order-function"></a>3. piemērs: Atgriešanas pasūtījumu līnija ir izveidota, izmantojot funkcijas Find pārdošanas pasūtījumu
+### <a name="example-3-the-return-order-line-is-created-by-using-the-find-sales-order-function"></a>3. piemērs. Atgriešanas pasūtījuma rinda ir izveidota, izmantojot funkciju Atrast pārdošanas pasūtījumu
 
-Šajā piemērā atgriešanas pasūtījumu līnija ir izveidota, izmantojot **atrast pārdošanas pasūtījumā** funkciju. **Kredīta korekciju** parametrs nav atlasīts pēc rēķina izveidošanas.  
+Šajā piemērā atgriešanas pasūtījuma rinda ir izveidota, izmantojot funkciju **Atrast pārdošanas pasūtījumu**. Veidojot rēķinu, nav atlasīts parametrs **Kredīta korekcija**.  
 
-[![Pasūtījuma rindai, kas izveidots, izmantojot Find pārdošanas pasūtījuma atgriešanas](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn11.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn11.png)  
+[![Atgriešanas pasūtījuma rinda, kas ir izveidota, izmantojot funkciju Atrast pārdošanas pasūtījumu ](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn11.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn11.png)  
 
-**Piezīme:****Discount** un **atgriezt pašizmaksu** ir iestatītas pareizi. Tādēļ rodas precīzu atsaukšana debitora rēķina.
+**Piezīme.** Parametri **Atlaide** un **Vienības izmaksu cena** ir iestatīti pareizi. Tāpēc notiek debitora rēķina precīza anulēšana.
+
+
 
 

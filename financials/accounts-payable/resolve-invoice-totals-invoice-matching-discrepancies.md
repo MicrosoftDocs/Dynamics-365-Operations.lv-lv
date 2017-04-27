@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="resolve-discrepancies-during-invoice-totals-matching"></a>Neatbilstību novēršana rēķinu kopsummu salīdzināšanas laikā
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Viens rēķinu salīdzināšanas validēšanas veids ir rēķinu kopsummu salīdzināšana. Lai norādītu, ka sistēmai būtu jāveic rēķinu kopsummu salīdzināšana, lapā **Kreditoru moduļa parametri** cilnē **Rēķinu validēšana** iestatiet opciju **Saskaņot rēķinu kopsummas** uz **Jā**. 
@@ -39,6 +42,8 @@ Kad neatbilstība ir identificēta, var būt nepieciešams sazināties ar kredit
 -   Pieņemt cenas atšķirību un grāmatot rēķinu, kurā ir salīdzināšanas neatbilstības. Sistēmu var iestatīt, lai pieprasītu apstiprinājumu, pirms var grāmatot, vai pastāv salīdzināšanas neatbilstības. Šajā gadījumā jums ir jāapstiprina salīdzināšanas neatbilstība un pēc izvēles var ievadīt apstiprinājuma komentāru. Pēc tam varat atlasīt rēķina grāmatošanu.
 -   Labot rēķina summu uz prognozējamo summu un grāmatot šo rēķinu.
 -   Pieprasīt no kreditora visu kredītu un jaunu, labotu rēķinu.
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Jaunu vai atjauninātu uzdevumu ceļveži (2016. gada novembrī)"
-description: "Šajā tēmā iekļautas jaunu vai atjauninātu uzdevumu rokasgrāmatas kas laistas korporācijai Microsoft (November 2016 - visās valodās) APQC vienotās bibliotēku Microsoft Dynamics 365 operācijām. Netika izlaista neviena jauna darba sākšanas bibliotēka."
+title: "Jauni vai atjaunināti uzdevumu ceļveži (2016. gada novembris)"
+description: "Šajā tēmā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas tika izlaisti Microsoft APQC vienotajā bibliotēkā programmatūrai MicrosoftDynamics 365 for Operations (2016. gada novembra visu valodu laidienā). Netika izlaista neviena jauna darba sākšanas bibliotēka."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,21 +24,24 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-or-updated-task-guides-november-2016"></a>Jaunu vai atjauninātu uzdevumu ceļveži (2016. gada novembrī)
+# <a name="new-or-updated-task-guides-november-2016"></a>Jauni vai atjaunināti uzdevumu ceļveži (2016. gada novembris)
 
-Šajā tēmā iekļautas jaunu vai atjauninātu uzdevumu rokasgrāmatas kas laistas korporācijai Microsoft (November 2016 - visās valodās) APQC vienotās bibliotēku Microsoft Dynamics 365 operācijām. Netika izlaista neviena jauna darba sākšanas bibliotēka.
+[!include[banner](../includes/banner.md)]
 
-(November 2.016 - visās valodās) APQC Unified Library satur uzdevumu palīglīnijas, ko paredzēts izmantot palīdzību Microsoft Dynamics 365 operācijām, Microsoft Dynamics 365 darbības platformu Update 3, Microsoft Dynamics AX platforma update 2, Dynamics AX maija 2016 update un Microsoft Dynamics AX februārī 2016 atbrīvot. Plašāku informāciju par šiem laidieniem, sk [what jauno vai mainīto](whats-new-changed.md). Lokalizētās versijas rokasgrāmatas uzdevums ir pieejamas šajā bibliotēkā. Papildinformāciju, kā savienot palīdzības sistēmas uzdevumu rokasgrāmata bibliotēku, skatiet [Iepazīstieties ar palīdzības](help-overview.md). **Piezīme:** zvaigznīti (**\***) pie biznesa procesu modelētājs (BPM) virsraksta rinda norāda uzdevuma rokasgrāmatā, ka biznesa procesu izveidota Dynamics 365 operācijām novembrī 2016 atjaunināta un nav atbalstīts iepriekšējās versijas Microsoft Dynamics AX.
+
+Šajā tēmā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas tika izlaisti Microsoft APQC vienotajā bibliotēkā programmatūrai MicrosoftDynamics 365 for Operations (2016. gada novembra visu valodu laidienā). Netika izlaista neviena jauna darba sākšanas bibliotēka.
+
+APQC vienotajā bibliotēkā (2016. gada novembra visu valodu laidienā) ir ietverti uzdevumu ceļveži, kas ir paredzēti izmantošanai kā palīdzības materiāli kopā ar programmatūru Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations 3. platformas atjauninājumu, Microsoft Dynamics AX 2. platformas atjauninājumu, Dynamics AX 2016. gada maija atjauninājumu un Microsoft Dynamics AX 2016. gada februāra laidienu. Papildinformāciju par šiem laidieniem skatiet tēmā [Jaunumi un izmaiņas](whats-new-changed.md). Šajā bibliotēkā ir pieejamas uzdevumu ceļvežu lokalizētās versijas. Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Darba sākšana ar palīdzības sistēmu](help-overview.md). **Piezīme.** Zvaigznīte (**\***) blakus biznesa procesu modelētāja (BPM) rindai norāda, ka šī biznesa procesa uzdevuma ceļvedis ir izveidots Dynamics 365 for Operations 2016. gada novembra atjauninājumam un netiek atbalstīts agrākās Microsoft Dynamics AX versijās.
 
 ### <a name="accounts-payable"></a>Kreditoru parādi
 
 | BPM rinda                                                                                           | Valsts/reģions |
 |----------------------------------------------------------------------------------------------------|----------------|
-| Atslēgas rēķinu datu AP sistēmā izmantojot apstiprināšanas žurnālu                                               | Globāls         |
-| Atslēgas rēķinu datu AP sistēmā, izmantojot piegādātāja rēķina (Enter un kreditora rēķinu ar atbilstošiem post) | Globāls         |
+| Galveno rēķina datu ievade parādu kreditoriem sistēmā, izmantojot apstiprināšanas žurnālu                                               | Globāls         |
+| Galveno rēķina datu ievade parādu kreditoriem sistēmā, izmantojot kreditoru rēķinu (kreditora rēķina ievade un grāmatošana, izmantojot atbilstības pārbaudi) | Globāls         |
 | Galvenie rēķinu dati kreditoru sistēmā, izmantojot rēķinu žurnālu                                              | Globāls         |
 | Galvenie rēķinu dati kreditoru sistēmā, izmantojot rēķinu kopu                                                 | Globāls         |
-| Ierakstītu piegādātāja rēķina saņemšanas un spēlē pret saņemto daudzumu                           | Globāls         |
+| Kreditora rēķina saņemšanas reģistrēšana un atbilstības pārbaude attiecībā pret saņemto daudzumu                           | Globāls         |
 | Parādu kreditoriem rēķinu saskaņošanas pārbaudes iestatīšana                                                | Globāls         |
 | Kreditoru rēķinu ierobežojumu iestatīšana                                                                    | Globāls         |
 
@@ -49,7 +52,7 @@ ms.lasthandoff: 03/31/2017
 | BPM rinda                                                                           | Valsts/reģions |
 |------------------------------------------------------------------------------------|----------------|
 | Piešķirt debitoram periodisku brīva teksta rēķina veidni                        | Globāls         |
-| Aprēķināt soda naudu un veidot un drukājiet un Grāmatojiet procentu paziņojumos (procesu procentus) | Globāls         |
+| Procentu aprēķins un procentu paziņojumu izveide, drukāšana un grāmatošana (procentu apstrāde) | Globāls         |
 | Atgādinājuma vēstuļu secības izveidošana                                                | Globāls         |
 | Tiešā debeta pilnvarojuma izveide debitoram                                       | Globāls         |
 | Izveidot brīva teksta rēķinu                                                         | Globāls         |
@@ -59,7 +62,7 @@ ms.lasthandoff: 03/31/2017
 | Pārdošanas pasūtījuma rēķinu izveide                                                        | Globāls         |
 | Periodisku brīva teksta rēķinu ģenerēšana un grāmatošana                                     | Globāls         |
 | Atgādinājuma vēstuļu apstrāde                                                         | Globāls         |
-| Pārskatiet kolekciju informācijas                                                      | Globāls         |
+| Iekasēšanas informācijas pārskatīšana                                                      | Globāls         |
 | Debitoru vecumstruktūras informācijas iestatīšana un ģenerēšana                          | Globāls         |
 
 ### 
@@ -77,7 +80,7 @@ ms.lasthandoff: 03/31/2017
 
 | BPM rinda                    | Valsts/reģions |
 |-----------------------------|----------------|
-| Modificēt budžeta plānu izkārtojumu | Globāls         |
+| Budžeta plāna izkārtojuma modificēšana | Globāls         |
 
 ### 
 
@@ -104,7 +107,7 @@ ms.lasthandoff: 03/31/2017
 | Iestatīt ar iepriekšēju datumu datētus čekus                                              | Globālais         |
 | Segt kreditora rēķinu, kas datēts ar iepriekšēju datumu                                | Globālais         |
 | Nomaksāt ar iepriekšēju datumu datētu čeku no debitora                             | Globāls         |
-| Kreditora maksājumu pārskats                                             | Globāls         |
+| Pārskats par kreditoru maksājumiem                                             | Globāls         |
 
 ### 
 
@@ -137,45 +140,45 @@ ms.lasthandoff: 03/31/2017
 
 | BPM rinda                                                                                                                             | Valsts/reģions                    |
 |--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
-| Pievienotu BAS pārskatu lodziņi un radīt Austrālijas biznesa darbības pārskats (SDP)                                                    | Austrālija un Jaunzēlande         |
+| SDP pārskata rūtiņu pievienošana un Austrālijas saimnieciskās darbības pārskatu (SDP) ģenerēšana                                                    | Austrālija un Jaunzēlande         |
 | Austrālijas BAS iemeslu kodu iestatīšana                                                                                                | Austrālija un Jaunzēlande         |
-| **\***Chinese voucher continuity check                                                                                               | Ķīna                             |
-| **\***KN-00010 Ķīnas hierarhija no kontu plāna                                                                                  | Ķīna                             |
-| **\***KN-00016 lietotāju darbību reģistrācijas žurnāls ar Ķīnas darba likums                                                                              | Ķīna                             |
-| **\***Golden tax integration export setup                                                                                            | Ķīna                             |
-| **\***Post vouchers from other modules, like sales invoices                                                                          | Ķīna                             |
-| **\***Post vouchers from the general journal                                                                                         | Ķīna                             |
-| **\***Set up basic tax integration profile for China                                                                                 | Ķīna                             |
-| **\***Set up Chinese vouchers                                                                                                        | Ķīna                             |
+| **\***Ķīniešu dokumentu nepārtrauktības pārbaude                                                                                               | Ķīna                             |
+| **\***CN-00010: Ķīnas kontu plāna hierarhija                                                                                  | Ķīna                             |
+| **\***CN-00016: lietotāja darbību žurnāls atbilstoši Ķīnas darba likumam                                                                              | Ķīna                             |
+| **\***Zelta nodokļu integrācijas eksportēšanas iestatīšana                                                                                            | Ķīna                             |
+| **\***Dokumentu grāmatošana no citiem moduļiem, piemēram, pārdošanas rēķinu grāmatošana                                                                          | Ķīna                             |
+| **\***Dokumentu grāmatošana no Virsgrāmatas žurnāla                                                                                         | Ķīna                             |
+| **\***Ķīnai paredzēta pamata nodokļu integrācijas profila iestatīšana                                                                                 | Ķīna                             |
+| **\***Ķīniešu dokumentu iestatīšana                                                                                                        | Ķīna                             |
 | Izveidot un grāmatot debitora rēķinu publiskā sektora debitoram                                                                      | Dānija                           |
 | Izveidot un grāmatot brīva teksta rēķinu publiskā sektora debitoram                                                                     | Dānija                           |
 | Izveidot un grāmatot projekta rēķinu publiskā sektora debitoram                                                                       | Dānija                           |
-| DK-00007 FIK 752 žiro naudas pārsūtīšanas pavadzīmes/pa pastu brīvā teksta rēķinu ar maksājuma kvīts                                               | Dānija                           |
-| DK-00007 FIK 752 žiro naudas pārsūtīšanas pavadzīmes/Post projektu rēķinu ar maksājuma kvīts                                                 | Dānija                           |
+| DK-00007: FIK 752 žiro naudas pārskaitījuma kvīts/Brīva teksta rēķina grāmatošana, izmantojot maksājuma kvīti                                               | Dānija                           |
+| DK-00007: FIK 752 žiro naudas pārskaitījuma kvīts/Projekta rēķina grāmatošana, izmantojot maksājuma kvīti                                                 | Dānija                           |
 | OIOUBL elektronisko rēķinu izrakstīšanas konfigurācijas importēšana                                                                                    | Dānija                           |
 | Iestatiet klientu kontus OIOUBL elektronisko rēķinu izrakstīšanai                                                                             | Dānija                           |
 | OIOBL elektronisko rēķinu izrakstīšanas iestatīšana                                                                                                   | Dānija                           |
 | Maksājumu kvīts formāta iestatīšana                                                                                                           | Dānija                           |
-| **\***EEU-00047 Advance payment to employee                                                                                          | Austrumeiropa                    |
+| **\***EEU-00047: Avansa maksājums darbiniekam                                                                                          | Austrumeiropa                    |
 | Izveidot un eksportēt kreditoru maksājumus, izmantojot maksājumu formātu ISO20022                                                                      | Eiropa                            |
 | Maksājumu izveide debitoriem, kuriem ir tiešā debeta mandāti                                                                          | Eiropa                            |
-| **\***EE-00015 maksājumu atskaites ģenerēšanas rīka                                                                                     | Eiropa                            |
+| **\***EE-00015: Maksājuma atsauces ģenerēšanas rīks                                                                                     | Eiropa                            |
 | EUR-00002 Ģenerēt ES Intrastat deklarāciju                                                                                       | Eiropa                            |
-| **\***EUR-00002 norādīt kravām risināt Kopienas iekšējai darbībai                                                          | Eiropa                            |
+| **\***EUR-00002: EK iekšējo transakciju iekraušanas adreses norādīšana                                                          | Eiropa                            |
 | EUR-00002 Pārsūtīt transakcijas uz Intrastat                                                                                     | Eiropa                            |
 | EUR-00011 Ģenerēt ES pārdošanas saraksta atskaiti                                                                                          | Eiropa                            |
 | EUR-00011 Iestatīt ES pārdošanas saraksta atskaišu veidošanu                                                                                             | Eiropa                            |
 | EUR-00012 ES ieraksta sertifikāta izsniegšana                                                                                              | Eiropa                            |
 | EUR-00012 ES ieraksta sertifikāta saņemšana                                                                                            | Eiropa                            |
-| **\***EUR-00015 Party search using VAT ID                                                                                            | Eiropa                            |
-| **\***EUR-00015 Registration of vendor VAT ID                                                                                        | Eiropa                            |
-| **\***EUR-00015 PVN ID iestatīšana                                                                                                        | Eiropa                            |
-| **\***HU-00001 maiņas kursa aprēķins                                                                                             | Eiropa                            |
+| **\***EUR-00015: Pušu meklēšana, izmantojot PVN ID                                                                                            | Eiropa                            |
+| **\***EUR-00015: Kreditora PVN ID reģistrēšana                                                                                        | Eiropa                            |
+| **\***EUR-00015: PVN ID iestatīšana                                                                                                        | Eiropa                            |
+| **\***HU-00001: Maiņas kursa aprēķins                                                                                             | Eiropa                            |
 | ISO20022 pārvietošanai kredītā konfigurācijas importēšana                                                                                        | Eiropa                            |
 | ISO20022 tiešā debeta konfigurācijas importēšana                                                                                           | Eiropa                            |
-| **\***LT-00003 nodošanas dokumentu preču kustība iekšpusē uzņēmums/izveidot nodošanas dokumentu iekšējo krājumu pārsūtīšanai   | Eiropa                            |
-| **\***LT-00003 nodošanas dokumentu preču kustība iekšpusē uzņēmums/iestatīt pārsūtīšanas dokumentiem attiecībā uz preču apriti uzņēmuma iekšienē | Eiropa                            |
-| **\***Nr-00002 klientam samaksu, pamatojoties uz maksājuma identifikators                                                                                  | Eiropa                            |
+| **\***LT-00003: Pārvietošanas pavadzīme par preču kustību uzņēmuma ietvaros/Iekšējās krājumu pārvietošanas pavadzīme   | Eiropa                            |
+| **\***LT-00003: Pārvietošanas pavadzīme par preču kustību uzņēmuma ietvaros/Pārvietošanas pavadzīmju par preču kustību uzņēmuma ietvaros iestatīšana | Eiropa                            |
+| **\***NO-00002: Debitora maksājuma veikšana, pamatojoties uz maksājuma ID                                                                                  | Eiropa                            |
 | Uzņēmuma bankas kontu iestatīšana ISO20022 kredīta pārsūtījumiem                                                                           | Eiropa                            |
 | Uzņēmuma bankas kontu iestatīšana ISO20022 tiešajiem debetiem                                                                              | Eiropa                            |
 | Debitoru un debitoru bankas kontu iestatīšana ISO20022 tiešajiem debetiem                                                               | Eiropa                            |
@@ -183,10 +186,10 @@ ms.lasthandoff: 03/31/2017
 | Maksājumu metodes iestatīšana ISO20022 tiešajam debetam                                                                                   | Eiropa                            |
 | Kreditoru un kreditoru bankas kontu iestatīšana ISO20022 kredīta pārsūtījumiem                                                                | Eiropa                            |
 | Debitoru maksāšanas metožu noteikšana                                                                                                | Francija                            |
-| Debitora un kreditora koda FR-00002                                                                                                 | Francija                            |
+| FR-00002: Debitora un kreditora konts                                                                                                 | Francija                            |
 | FR-00003 NAF kodi un Siret numuri                                                                                                 | Francija                            |
 | FR-00004 Apstiprināt un grāmatot izrakstītu vekseli                                                                                      | Francija                            |
-| FR-00004 Francijas vekseļiem un parādzīmēm                                                                               | Francija                            |
+| FR-00004: Franču vekseļi un parādzīmes                                                                               | Francija                            |
 | FR-00004 Grāmatot noraidīto vekseļu izrakstīšanas žurnālu                                                                                  | Francija                            |
 | FR-00004 Grāmatot atkārtoti izrakstīto vekseļu žurnālu                                                                                       | Francija                            |
 | FR-00004 Maksāšanas metodes iestatīšana                                                                                                     | Francija                            |
@@ -200,7 +203,7 @@ ms.lasthandoff: 03/31/2017
 | ER konfigurēt formātu, lai veiktu uzskaiti un summēšanu (2. daļa: Konfigurēt aprēķināšanas)                                                      | Vācija                           |
 | ER konfigurēt formātu, lai veiktu uzskaiti un summēšanu (3. daļa: Aprēķināšanu izmantošana, lai izveidotu izvades datus)                                         | Vācija                           |
 | ER konfigurēt formātu, lai veiktu uzskaiti un summēšanu (4. daļa: Palaist formātu)                                                                  | Vācija                           |
-| ER izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvo                                                                             | Vācija                           |
+| ER: Konfigurācijas nodrošinātāja izveide un atzīmēšana kā aktīvu                                                                             | Vācija                           |
 | ER Izveidot konfigurāciju pārskatu ģenerēšanai formātā Microsoft WORD (2016. gada novembris)                                            | Vācija                           |
 | ER Noformēt domēnam specifisku formātu (2016. gada novembris)                                                                                 | Vācija                           |
 | ER Importēt konfigurāciju no Lifecycle Services                                                                                    | Vācija                           |
@@ -218,28 +221,28 @@ ms.lasthandoff: 03/31/2017
 | ER izmantot horizontāli paplašināmus diapazonus, lai dinamiski pievienotu kolonnas programmas Excel pārskatos (2. daļa: Palaist formātu)                               | Vācija                           |
 | Vācijas audita faila ģenerēšana                                                                                                           | Vācija                           |
 | Vācijas audita faila konfigurācijas importēšana                                                                                               | Vācija                           |
-| **\***EUR-00018 PVN darbību saskaņošanas pārskatu                                                                                            | Islande                           |
-| IS-00006 kreditora rēķina deklarācija/izveidot kreditora kontu un pievienojiet rēķindeklarācijā                                       | Islande                           |
-| Kreditora rēķina deklarācija/iestatītu faktūrrēķina deklarāciju kreditoriem IS-00006                                                        | Islande                           |
-| IS-00006 piegādātāja deklarāciju/Update kreditora rēķina faktūrā un ģenerēt atskaiti                                       | Islande                           |
-| Uzturēt kontu plāna konti/iestatītu obligāto maksājumu atsauces                                                                       | Islande                           |
+| **\***EUR-00018: PVN saskaņošanas pārskats                                                                                            | Islande                           |
+| IS-00006: Kreditora rēķina deklarācija/Kreditora konta izveide un rēķina deklarācijas pievienošana                                       | Islande                           |
+| IS-00006: Kreditora rēķina deklarācija/Kreditoru rēķina deklarācijas iestatīšana                                                        | Islande                           |
+| IS-00006: Kreditora rēķina deklarācija/Kreditoru rēķinu deklarāciju atjaunināšana un pārskata ģenerēšana                                       | Islande                           |
+| Kontu plāna uzturēšana/Obligāto maksājuma atsauču iestatīšana                                                                       | Islande                           |
 | Iegūt pamatlīdzekli ar līdzekļu norakstīšanas saistībām                                                                              | Japāna                             |
-| Iegādājas pamatlīdzekļus, pretendēt uz valsts dotāciju                                                                                 | Japāna                             |
+| Pamatlīdzekļu iegāde, valdības dotācijas pieprasīšana                                                                                 | Japāna                             |
 | Līdzekļu norakstīšanas saistību novērtējuma korekcija                                                                               | Japāna                             |
-| Piešķirt uzskaites koplietojuma pamatlīdzekļu un nemateriālo vērtību, naudas ģenerēšanas vienībām                                                   | Japāna                             |
+| Koplietojamo līdzekļu un uzņēmuma prestiža uzturēšanas summas piešķiršana skaidru naudu ienesošajām vienībām                                                   | Japāna                             |
 | Nolietojuma metodes maiņa viena līdzekļa kalpošanas laikā                                                                   | Japāna                             |
 | Nolietojuma metodes maiņa viena līdzekļa kalpošanas laikā grāmatai                                                                        | Japāna                             |
 | Konfigurēt paātrinātā nolietojuma parametrus un grāmatošanas profilus                                                                   | Japāna                             |
 | CN-00004 Pamatlīdzekļu nolietojuma sadalījums (JP-)                                                                                   | Japāna                             |
-| Konfigurēt nolietojuma profilu un papildu nolietojuma grāmatošanas metodi                                                   | Japāna                             |
-| Konfigurēt nolietojuma tabula un specifiska nolietojuma grāmatošanas metodi                                                      | Japāna                             |
+| Nolietojuma profila un papildu nolietojuma grāmatošanas profila konfigurēšana                                                   | Japāna                             |
+| Nolietojuma profila un speciālā nolietojuma grāmatošanas profila konfigurēšana                                                      | Japāna                             |
 | Konfigurēt kreditoru konsolidētā rēķina parametrus un iestatīšanu                                                             | Japāna                             |
 | Konfigurēt līdzekļu norakstīšanas saistību grāmatošanas un tirgus atlaižu likmju galvenos kontus                                            | Japāna                             |
 | Izveidot pamatlīdzekli ar papildu nolietojumu                                                                                    | Japāna                             |
 | Izveidot pamatlīdzekli ar speciālā nolietojuma profilu                                                                               | Japāna                             |
 | Paātrinātā nolietojuma profila izveide un tā piešķiršana grāmatai                                                                        | Japāna                             |
 | Paātrinātā nolietojuma dokumenta izveide un lietojuma datu ievadīšana                                                                     | Japāna                             |
-| Veidotu un piešķirtu iekārtu grupā                                                                                                 | Japāna                             |
+| Aprīkojuma grupas izveide un piešķire                                                                                                 | Japāna                             |
 | Izveidot un piešķirt samazināšanas ieraksta dokumentu                                                                                           | Japāna                             |
 | Kreditora konsolidēta rēķina izveide un apstiprināšana                                                                                     | Japāna                             |
 | Izveidot un apstiprināt atzīšanas pārbaudi                                                                                                  | Japāna                             |
@@ -259,14 +262,14 @@ ms.lasthandoff: 03/31/2017
 | Transakciju uzziņas, kas saistītas ar līdzekļu norakstīšanu                                                                    | Japāna                             |
 | Uzziņas par ieturamo izdevumi                                                                                                       | Japāna                             |
 | JP-00005 Ievades žurnāls T konta formā (Japāna)                                                                                     | Japāna                             |
-| JP-00011 consolidated rēķina - Ak - izveidotu un apstiprinātu klientu Konsolidēts rēķina                                              | Japāna                             |
-| Aprēķināt nolietojumu nodokļa deklarācijas veidlapas 26 JP-00027                                                                                     | Japāna                             |
+| JP-00011: Konsolidētais rēķins — Debitoru parādi — Debitora konsolidētā rēķina izveide un apstiprināšana                                              | Japāna                             |
+| JP-00027: 26. veidlapa nolietojuma nodokļa deklarācijai                                                                                     | Japāna                             |
 | Pamatlīdzekļu galveno datu failu uzturēšana atskaitāmiem izdevumiem                                                                       | Japāna                             |
 | Pasliktināšanās rādītāju uzturēšana par atsevišķiem pamatlīdzekļiem                                                                                  | Japāna                             |
 | Kreditora transakcijas apmaksa, apstiprinot debitora vekseli                                                                    | Japāna                             |
 | Periodiskā nosegšana pārsniegtam un nesasniegtam nolietojumam                                                                                   | Japāna                             |
 | Papildu nolietojuma piedāvāšana                                                                                                      | Japāna                             |
-| Ierosināt un post paātrinātā nolietojuma aprēķina                                                                                        | Japāna                             |
+| Paātrinātā nolietojuma piedāvāšana un grāmatošana                                                                                        | Japāna                             |
 | Pasliktināšanās summas piedāvāšana un grāmatošana pēc partijas                                                                                      | Japāna                             |
 | Pasliktināšanās summas piedāvāšana un grāmatošana, izmantojot pamatlīdzekļu žurnālu                                                                  | Japāna                             |
 | Pasliktināšanās summas piedāvāšana un grāmatošana naudu ienesošā vienībā                                                                     | Japāna                             |
@@ -300,12 +303,12 @@ ms.lasthandoff: 03/31/2017
 | MX-00010 Pieprasīt un drukāt elektronisku rēķinu                                                                                     | Meksika                            |
 | MX-00010 Grāmatot brīva teksta rēķinu                                                                                                    | Meksika                            |
 | MX-00010 Iestatīt elektroniskā rēķina parametrus                                                                                    | Meksika                            |
-| MX-00020: Ražot Meksikas elektroniskās grāmatas grāmatvedības atskaites versiju 1.1                                                            | Meksika                            |
+| MX-00020: Meksikas elektroniskās Virsgrāmatas uzskaites atskaites versijas 1.1 izveide                                                            | Meksika                            |
 | MX-00020 Iestatīt kontu plānu juridiskajai personai Meksikā                                                                   | Meksika                            |
 | MX-00020 – Norādīt RFC reģistrācijas ID Meksikas bankas kontiem                                                                 | Meksika                            |
 | NL-00003 Semansys XBRL integrācija                                                                                                   | Nīderlande                       |
 | NL-00010 Elektroniskās nodokļu deklarācijas (EVAT)                                                                                          | Nīderlande                       |
-| MY-00003 Manage debitora debeta nota un kredīta notas GST                                                                          | Singapūra, Malaizija un Taizeme |
+| MY-00003: Debitora GST debeta notas un kredīta notas pārvaldība                                                                          | Singapūra, Malaizija un Taizeme |
 | MY-00004 Pārvaldīt kreditora debeta notu un kredīta notu GST                                                                            | Singapūra, Malaizija un Taizeme |
 | MY-00005 Drukāt GST nodokļu rēķinus                                                                                                      | Singapūra, Malaizija un Taizeme |
 | MY-00006 01 Iestatīt GST atvieglojumu klauzulas                                                                                                | Singapūra, Malaizija un Taizeme |
@@ -340,7 +343,7 @@ ms.lasthandoff: 03/31/2017
 | Mainīt līdzekļu grupu                                        | Globāls         |
 | Nolietojuma konvenciju maiņa vairākiem pamatlīdzekļiem | Globāls         |
 | Izveidot pamatlīdzekli                                      | Globāls         |
-| Izveidot un iegūt līdzekļus no debitoriem           | Globāls         |
+| Līdzekļu izveide un iegūšana modulī Parādi kreditoriem           | Globāls         |
 | Izveidot nolietojuma priekšlikumu                              | Globāls         |
 | Pamatlīdzekļa izslēgšana, izmantojot brīvā teksta rēķinu        | Globālais         |
 | Pamatlīdzekļu papildinājuma ievadīšana                        | Globāls         |
@@ -362,7 +365,7 @@ ms.lasthandoff: 03/31/2017
 | BPM rinda                                       | Valsts/reģions |
 |------------------------------------------------|----------------|
 | Slēgt finanšu gadu                          | Globāls         |
-| Izveidotu dienasgrāmatas ierakstu, izmantojot veidnes        | Globāls         |
+| Žurnāla ieraksta izveide, izmantojot veidni        | Globāls         |
 | Izveidot galveno kontu                          | Globāls         |
 | Izveidot konta struktūras                      | Globālais         |
 | Uzkrāšanas shēmu izveide                         | Globāls         |
@@ -371,7 +374,7 @@ ms.lasthandoff: 03/31/2017
 | Virsgrāmatas uzkrājumu darbību izveide             | Globāls         |
 | Finanšu dimensiju definēšana                    | Globālais         |
 | Žurnālā grāmatoto ierakstu reģistrēšana žurnālā              | Globāls         |
-| Uzturēt finanšu dimensijai veidnes         | Globāls         |
+| Finanšu dimensiju veidņu uzturēšana         | Globāls         |
 | Masveida finanšu perioda slēgšana                    | Globāls         |
 | Žurnāla ierakstu apstrāde                        | Globāls         |
 | Virsgrāmatas sadalījuma žurnāla apstrāde              | Globāls         |
@@ -387,9 +390,9 @@ ms.lasthandoff: 03/31/2017
 
 | BPM rinda                                                                       | Valsts/reģions |
 |--------------------------------------------------------------------------------|----------------|
-| **\***Change the ownership of consignment inventory based on production demand | Globāls         |
-| **\***Create a consignment replenishment order                                 | Globāls         |
-| **\***Monitor consignment inventory using vendor collaboration                 | Globāls         |
+| **\***Sūtījumu krājumu īpašumtiesību maiņa, pamatojoties uz ražošanas pieprasījumu | Globāls         |
+| **\***Sūtījuma papildināšanas pasūtījuma izveide                                 | Globāls         |
+| **\***Sūtījuma krājumu pārraudzība, izmantojot kreditoru sadarbības līdzekli                 | Globāls         |
 
 ### 
 
@@ -412,13 +415,13 @@ ms.lasthandoff: 03/31/2017
 
 ### 
 
-### <a name="performance-management"></a>Veiktspējas pārvaldības
+### <a name="performance-management"></a>Veiktspējas pārvaldība
 
 | BPM rinda                                                         | Valsts/reģions |
 |------------------------------------------------------------------|----------------|
-| **\***Add to your performance journal and send praise to someone | Globāls         |
-| **\***Create a goal                                              | Globāls         |
-| **\***Create a performance review                                | Globāls         |
+| **\***Informācijas pievienošana veiktspējas žurnālā un darbinieku uzslavēšana | Globāls         |
+| **\***Mērķa izveide                                              | Globāls         |
+| **\***Veiktspējas pārskata izveide                                | Globāls         |
 
 ### 
 
@@ -442,9 +445,9 @@ ms.lasthandoff: 03/31/2017
 | Pievienot produktam attēlu                                               | Globāls         |
 | Klasificēt produktu, izmantojot kategorijas hierarhijas                           | Globāls         |
 | Izveidot produktam svītrkodu                                         | Globāls         |
-| \*Izveidot produktu numuru nomenklatūras iepriekš definēto produktu variantiem | Globāls         |
-| \*Izveidot produktu numuru nomenklatūras konfigurēto produkta variantiem | Globāls         |
-| \*Definējiet noklusētās pasūtījumu krājumam                            | Globāls         |
+| \* Preču numuru nomenklatūras izveide iepriekš definētiem preču variantiem | Globāls         |
+| \* Preču numuru nomenklatūras izveide konfigurētiem preču variantiem | Globāls         |
+| \* Krājuma noklusējuma pasūtījuma iestatījumu definēšana                            | Globāls         |
 | Izveidojiet pārdošanas pasūtījumu konfigurējamas produktam                         | Globāls         |
 | Izveidot pārdošanas cenu atlases kritērijus                                   | Globāls         |
 | Ievadiet produkta GTIN kodu                                       | Globāls         |
@@ -468,11 +471,11 @@ ms.lasthandoff: 03/31/2017
 | BPM rinda                                                                      | Valsts/reģions |
 |-------------------------------------------------------------------------------|----------------|
 | Pievienot sertifikācijas veidu publiskā sektora kreditoram                        | Globāls         |
-| Kontrolē piekļuvi pirkšanas līgumus no publiskā sektora                      | Globāls         |
+| Piekļuves kontrole publiskā sektora pirkšanas līgumiem                      | Globāls         |
 | Rēķinu klasificēšanas izveide                                               | Globāls         |
 | Norēķinu koda izveide                                                         | Globāls         |
 | Izveidot saistības, lai rezervētu publiskā sektora budžeta līdzekļus                 | Globāls         |
-| Veidojiet pielāgotu lauku rēķina kods                                      | Globāls         |
+| Pielāgota lauka izveide norēķinu kodam                                      | Globāls         |
 | Līdzekļu veida izveide                                                            | Globāls         |
 | Vienreizēja kreditora un rēķina izveide                                          | Globāls         |
 | Izveidot publiskā sektora provizorisko budžetu                                 | Globāls         |
@@ -480,10 +483,10 @@ ms.lasthandoff: 03/31/2017
 | Papildu publiskā sektora virsgrāmatas ieraksta izveide                          | Globāls         |
 | Sākotnējā budžeta izveide un tā ierakstu atcelšana         | Globāls         |
 | Publiskā sektora tirdzniecības partnera koda izveide un piešķiršana                 | Globāls         |
-| Vāka un parakstu lapas publiskā sektora maksājumi atskaites izveide   | Globāls         |
+| Publiskā sektora maksājumu pārskatu titullapu un parakstu lapu izveide   | Globāls         |
 | Vairāku publiskā sektora vienreizējo kreditoru un rēķinu importēšana un izveide | Globāls         |
 | Publiskā sektora atvasinātās finanšu hierarhijas iestatīšana                     | Globāls         |
-| Kas izveidota fonda valsts sektorā                                            | Globāls         |
+| Publiskā sektora līdzekļa iestatīšana                                            | Globāls         |
 | Pirkšanas līgumu klasifikācijas iestatīšana sabiedriskajā sektorā                   | Globāls         |
 
 ### 
@@ -493,17 +496,17 @@ ms.lasthandoff: 03/31/2017
 | BPM rinda                                                         | Valsts/reģions |
 |------------------------------------------------------------------|----------------|
 | Konfigurēt darbinieku                                               | Globāls         |
-| **\***Configure machine learning-powered product recommendations | Globāls         |
+| **\***Algoritmiskās mācīšanās produktu ieteikumu konfigurēšana | Globāls         |
 | Konfigurēt funkcionalitātes profilu pārdošanas pārstāvim   | Globāls         |
-| **\***Create a POS visual profile (November 2016)                | Globāls         |
+| **\***POS vizuālā profila izveide (2016. gada novembris)                | Globāls         |
 | Izveidot un saistīt reģistrus                                   | Globāls         |
 | Izveidot zvanu centra pasūtījumus                                        | Globāls         |
 | Tirdzniecības līgumu izveide, izmantojot kategorijas cenu noteikšanas kārtulas            | Globāls         |
 | Izveidot, aprēķināt un grāmatot veikala pārskatu              | Globāls         |
 | Piederības definēšana un atlaides piešķiršana                      | Globāls         |
-| Definēt un pārvaldīt POS permission grupas                          | Globāls         |
-| Definēt nepārtrauktības plānu                                       | Globāls         |
-| **\***Definēt mazumtirdzniecības kanāls sakariem (CDX)                 | Globāls         |
+| POS atļauju grupas definēšana un pārvaldība                          | Globāls         |
+| Nepārtrauktības grafika definēšana                                       | Globāls         |
+| **\***Mazumtirdzniecības kanālu sakaru definēšana (CDX)                 | Globāls         |
 | Lojalitātes programmas atlīdzības punktu koriģēšana                                      | Globāls         |
 | Klāsta pārvaldība                                               | Globāls         |
 | Pārdošanas nodokļu piešķiršana un ignorēšana                                | Globāls         |
@@ -526,7 +529,7 @@ ms.lasthandoff: 03/31/2017
 | Pārdošanas līgumu nosacījumu izpilde                   | Globālais         |
 | Debitora atlaižu ģenerēšana un apstrāde      | Globāls         |
 | Attiecināmo cenu un atlaižu pārlūkošana    | Globāls         |
-| Pārvaldīt pārdošanas pasūtījuma aizturēšanas                   | Globāls         |
+| Pārdošanas pasūtījumu aizturēšanu pārvaldība                   | Globāls         |
 | Veidot pārdošanas piedāvājumus masveidā               | Globāls         |
 | Maksājuma atlaižu apstrāde                | Globālais         |
 | Pārdošanas komisiju reģistrēšana                 | Globālais         |
@@ -554,7 +557,7 @@ ms.lasthandoff: 03/31/2017
 
 ### 
 
-### <a name="supply-relationship-management"></a>Padeves attiecību pārvaldība
+### <a name="supply-relationship-management"></a>Piegādes attiecību pārvaldība
 
 | BPM rinda                                                           | Valsts/reģions |
 |--------------------------------------------------------------------|----------------|
@@ -575,14 +578,14 @@ ms.lasthandoff: 03/31/2017
 | BPM rinda                                                                    | Valsts/reģions |
 |-----------------------------------------------------------------------------|----------------|
 | Izveidot novietojuma profilu                                                   | Globāls         |
-| **\***Create a mobile device menu item for license plate consolidation      | Globāls         |
+| **\***Mobilās ierīces izvēlnes vienuma izveide noliktavas vienības konsolidācijai      | Globāls         |
 | Manuāli saskaņot kravu                                                  | Globāls         |
 | Autovadītāja reģistrēšanās norīkojuma izpildei un reģistrēšanās pēc norīkojuma izpildes                   | Globāls         |
-| Iestatīta mobilās ierīces izvēlnes elementu tips pirkšanas pasūtījumu darbu izpildei | Globāls         |
+| Mobilās ierīces izvēlnes vienuma iestatīšana pirkšanas pasūtījuma darba pabeigšanai | Globāls         |
 | Iestatīt kravas norīkojumu                                            | Globāls         |
 | Transportēšanas norēķinu iestatīšana                                              | Globāls         |
 | Automātiskās kravas saskaņošanas iestatīšana                                     | Globāls         |
-| **\***Set up short picking item reallocation                                | Globāls         |
+| **\***Saīsinātas izdošanas krājuma atkārtotas sadales iestatīšana                                | Globāls         |
 
 
 
@@ -593,6 +596,8 @@ ms.lasthandoff: 03/31/2017
 
 [Pieejami jauni vai atjaunināti uzdevumu ceļveži (2016. gada maijs)](new-updated-task-guides-available-may-2016.md)
 
-[New or updated task guides available (August 2016)](new-updated-task-guides-available-august-2016.md)
+[Pieejami jauni vai atjaunināti uzdevumu ceļveži (2016. gada augusts)](new-updated-task-guides-available-august-2016.md)
+
+
 
 

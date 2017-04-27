@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-contracts"></a>Projekta līgumi
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir aprakstīti projektu līgumi, ko varat izveidot dažādu veidu projektiem un finansējuma avotiem, kā arī sniegti to piemēri, un aprakstīts, kā varat pārvaldīt līgumus un izrakstīt projekta rēķinus debitoriem programmatūrā Microsoft Dynamics 365 for Operations.
 
 Projekta tips, ko izveidojat projekta līgumam, nosaka metodi, kas tiek izmantota projekta debitoru rēķinu izrakstīšanai. Varat mainīt projekta līgumu un saistīto projektu, bet projekta tipu nevar mainīt. 
@@ -80,7 +83,7 @@ Nākamajā tabulā ir sniegti scenāriji finansējuma sadalījuma pārvaldīšan
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Scenario</strong></td>
+<td><strong>Scenārijs</strong></td>
 <td><strong>Finansējuma avots </strong></td>
 <td><strong>Sadalījuma procenti </strong></td>
 <td><strong>Sadalījuma prioritāte </strong></td>
@@ -192,7 +195,7 @@ Nākamajā tabulā šis scenārijs ir izpētīts detalizētāk.
 <tbody>
 <tr class="odd">
 <td><strong>Fokuss </strong></td>
-<td><strong>Details</strong></td>
+<td><strong>Detalizēta informācija</strong></td>
 </tr>
 <tr class="even">
 <td>Finansējuma nosacījumi</td>
@@ -220,17 +223,17 @@ Nākamajā tabulā šis scenārijs ir izpētīts detalizētāk.
 </tr>
 <tr class="odd">
 <td>2. transakcija</td>
-<td><strong>Darījuma summa:</strong> 5, 000.00<strong>Funding:</strong> darbība izmaksā saskaņā ar visiem trim kārtulām. <strong>Reglamenta 1</strong><ph id="t1">
-</ph><ul>
+<td><strong>Transakcijas summa:</strong> 5000,00<strong>Finansējums:</strong> transakcija tiek apmaksāta saskaņā ar visiem trim nosacījumiem.<strong>1. nosacījums</strong>
+<ul>
 <li>2. finansējuma avots: 450,00</li>
 <li>3. finansējuma avots: 450,00</li>
-</ul><bpt id="t2">
-< spēcīgu ></bpt> 2. noteikums</strong><ph id="t3">
-</ph><ul>
+</ul>
+<strong>2. nosacījums</strong>
+<ul>
 <li>3. finansējuma avots: 250,00 (= 750,00 – 50,00 – 450,00)</li>
-</ul><bpt id="t4">
-< spēcīgu ></bpt> 3. noteikums</strong><ph id="t5">
-</ph><ul>
+</ul>
+<strong>3. nosacījums</strong>
+<ul>
 <li>1. finansējuma avots: 3850,00 (= 5000,00 – 450,00 – 450,00 – 250,00)</li>
 </ul></td>
 </tr>
@@ -339,5 +342,7 @@ Kad iestatāt projekta līgumu, jūs piekrītat debitoram katru mēnesi izrakst�
 -   Debitora rēķins projekta laikā tiek izveidots katra kalendārā mēneša beigās.
 
 Pirmajā mēnesī projekta konsultanti ieraksta kopumā 800 stundas. Kancelejas preču izmaksas, kuras tiek iekļautas projekta rēķinā, ir 2000. Līdz ar to mēneša beigās jūs izveidojat rēķinu par summu 122 000, kura tiek aprēķināta kā 800 stundas par likmi 150/stundā, kā arī 2000 par kancelejas precēm.
+
+
 
 

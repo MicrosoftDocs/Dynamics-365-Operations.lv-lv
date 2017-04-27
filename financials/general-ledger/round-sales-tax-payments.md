@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-tax-payments-and-rounding-rules"></a>PVN maksājumi un noapaļošanas kārtulas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir izskaidrots, kā iestatīt noapaļošanas kārtulu PVN iestādēm paredzētās atskaitēs, un sniegta informācija par PVN bilances noapaļošanu nosegšanas un PVN iegrāmatošanas darba laikā.
 
-Periodiski ir jāziņo par PVN un tas ir jāsamaksā nodokļu iestādēm. To var izdarīt, izpildot nosegt un pēc PVN procesu PVN lapā. PVN periodam tiks nosegti pret PVN pārskatus un PVN bilance tiks izvietota uz PVN noslēgšanas kontu. PVN apmaksas kontā grāmatoto PVN bilanci var noapaļot atbilstoši nodokļu iestāžu prasībām, iestatot noapaļošanas kārtulu lapā PVN. 
+Periodiski ir jāziņo par PVN un tas ir jāsamaksā nodokļu iestādēm. To var izdarīt, lapa PVN palaižot procesu Nosegt un grāmatot PVN. Noteikta perioda PVN tiek nosegts no PVN kontiem, un PVN apmaksas kontā tiek grāmatota PVN bilance. PVN apmaksas kontā grāmatoto PVN bilanci var noapaļot atbilstoši nodokļu iestāžu prasībām, iestatot noapaļošanas kārtulu lapā PVN. 
 
 Noapaļošanas starpība tiek grāmatota PVN noapaļošanas kontā, kas ir atlasīts virsgrāmatas laukā Automātisko darījumu konti.
 
@@ -42,10 +45,10 @@ Kopējā PVN summa par periodu atbilst kredīta bilancei –98 765,43. Juridisk�
 
 Juridiskā persona vēlas izmantot noapaļošanas metodi, kas noapaļo bilanci līdz tuvākajam veselam skaitlim (1,00). Lietotājs, kurš ir atbildīgs par PVN uzskaiti, veic tālāk norādītās darbības.
 
-1.  Noklikšķiniet uz nodokļu &gt;netiešie nodokļi &gt;PVN &gt;PVN iestādes
+1.  Noklikšķiniet uz Nodokļi &gt; Netiešie nodokļi &gt; PVN &gt; Nodokļu iestādes.
 2.  Kopsavilkuma cilnes Vispārīgi laukā Noapaļošanas veids atlasiet opciju Parastais.
 3.  Laukā Noapaļošana ievadiet vērtību 1,00.
-4.  Kad ir pienācis laiks maksāt PVN nodokļu iestādei, atveriet lapu Nosegt un grāmatot PVN. (Noklikšķiniet uz nodokļu &gt;deklarācijas &gt;PVN &gt;nokārtot un grāmatotu PVN.)
+4.  Kad ir pienācis laiks maksāt PVN nodokļu iestādei, atveriet lapu Nosegt un grāmatot PVN. (Noklikšķiniet uz Nodokļi &gt; Deklarācijas &gt; PVN &gt; Nosegt un grāmatot PVN.)
 5.  PVN apmaksas kontā nodokļu parāda suma 98 765,43 tiek noapaļota līdz 98 765.
 
 Tālāk esošajā tabulā ir parādīts, kā summa 98 765,43 tiek noapaļota, izmantojot katru noapaļošanas metodi, kas ir pieejama lapas Nodokļu iestādes laukā Noapaļošanas veids.
@@ -61,6 +64,8 @@ Tālāk esošajā tabulā ir parādīts, kā summa 98 765,43 tiek noapaļota, iz
 > [!NOTE]                                                                                  
 > Ja atlasāt opciju Pašu priekšrocība, noapaļošana vienmēr tiek veikta atbilstoši juridiskās personas interesēm. 
 
-Lai iegūtu papildinformāciju, skatiet [PVN pārskats](indirect-taxes-overview.md). 
+Papildinformāciju skatiet tēmā [Pārskats par PVN](indirect-taxes-overview.md). 
+
+
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="audit-policy-rules"></a>Audita ierobežojuma nosacījumi
 
+[!include[banner](../includes/banner.md)]
+
+
 Audita politiku var izmantot, lai novērtētu izdevumu pārskatus, kreditoru rēķinus un pirkšanas pasūtījumus, lai pārliecinātos, ka tie atbilst izveidotajiem politikas nosacījumiem. Visi ar audita politiku saistītie nosacījumi tiek izpildīti pakešuzdevuma režīmā saskaņā ar norādīto grafiku.  Katras politikas nosacījums ir politikas nosacījumu veida instance. Katram politikas nosacījumu veidam vienlaikus var būt aktīvs tikai viens politikas nosacījums. 
 
 <a name="queries-and-query-types"></a>Vaicājumi un vaicājumu veidi
@@ -97,5 +100,7 @@ Visiem noteiktas audita politikas nosacījumiem ir vienādi pakešuzdevumu param
 --------
 
 [Audita ierobežojuma nosacījumu pārkāpumi un gadījumi](audit-policy-violations-cases.md)
+
+
 
 

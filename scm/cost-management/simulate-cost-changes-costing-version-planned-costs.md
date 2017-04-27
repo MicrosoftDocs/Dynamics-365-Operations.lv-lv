@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>Simulēt izmaksu izmaiņas, plānotajām izmaksām izmantojot izmaksu aprēķināšanas versiju
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir paskaidrots, kā varat simulēt izmaksu izmaiņu ietekmi uz ražota krājuma aprēķinātajām izmaksām, izmantojot atsevišķu izmaksu aprēķināšanas versiju plānotajām izmaksām.
 
 Varat simulēt izmaksu izmaiņu ietekmi uz ražotā krājuma aprēķinātajām izmaksām, izmantojot atsevišķu izmaksu aprēķināšanas versiju plānotajām izmaksām. Izmantojiet šo atsevišķo izmaksu aprēķināšanas versiju, lai ievadītu gaidošos izmaksu ierakstus, kas atspoguļo inkrementālās izmaksu maiņas, un lai aprēķinātu izmaksu ietekmi uz ražotajiem krājumiem. Tā kā aktīvo izmaksu regresa princips tiks izmantots materiālu komplektu (MK) aprēķinos, ir nepieciešams ievadīt tikai inkrementālās izmaksu maiņas.
@@ -54,5 +57,7 @@ Nākamajos scenārijos ir ilustrēts, kā izmaksu aprēķināšanas versijas sim
 -   Simulējiet izmaksu maiņu netiešo izmaksu aprēķināšanas formulā. Piemēram, izmaksu izmaiņas varētu atspoguļot gaidāmu ražošanas pieskaitāmo izmaksu palielināšanos vai samazināšanos. Lai definētu izmaiņas netiešo izmaksu aprēķināšanas formulā, izmantojiet lapu **Izmaksu aprēķināšanas lapas iestatīšana**, lai gaidošo izmaksu ierakstu ievadītu izmaksu aprēķināšanas versijas simulācijā un lai izmaiņas validētu un saglabātu.
 
 Pēc simulēto izmaksu izmaiņu ievadīšanas aprēķiniet to ražoto krājumu izmaksas, ko ietekmēja šīs izmaksu izmaiņas. Izmantojiet lapu **Aprēķins** izmaksu aprēķināšanas versijas simulācijai, un identificējiet atlasītos ražotos krājumus, ko ietekmēs izmaksu izmaiņas. MK aprēķini tiek lietoti visiem ražotajiem krājumiem, ja vien neesat atlasījis konkrētus krājumus. Kā alternatīvu varat izmantot MK aprēķināšanas opciju “kur lietots” atjauninājumiem. Skatiet krājuma izmaksu ierakstus izmaksu aprēķināšanas simulācijas versijā, lai analizētu, kā simulētās izmaksu izmaiņas ietekmēja atlasīto ražoto krājumu izmaksas. Izmantojiet lapu **Krājuma cena** un lapu **Aprēķināt krājuma izmaksas**, lai skatītu un analizētu izmaksas.
+
+
 
 

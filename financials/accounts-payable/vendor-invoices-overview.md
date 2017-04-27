@@ -1,5 +1,5 @@
 ---
-title: "Kreditora rēķinu pārskats"
+title: "Pārskats par kreditora rēķiniem"
 description: "Šajā rakstā ir sniegta vispārīga informācija par kreditoru rēķiniem. Kreditoru rēķini ir maksājuma pieprasījumi par saņemtajām precēm un pakalpojumiem. Kreditoru rēķini var būt rēķini par notiekošiem pakalpojumiem, vai to pamatā var būt pirkšanas pasūtījumi par noteiktiem krājumiem un pakalpojumiem."
 author: twheeloc
 manager: AnnBe
@@ -25,20 +25,23 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="vendor-invoices-overview"></a>Kreditora rēķinu pārskats
+# <a name="vendor-invoices-overview"></a>Pārskats par kreditora rēķiniem
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir sniegta vispārīga informācija par kreditoru rēķiniem. Kreditoru rēķini ir maksājuma pieprasījumi par saņemtajām precēm un pakalpojumiem. Kreditoru rēķini var būt rēķini par notiekošiem pakalpojumiem, vai to pamatā var būt pirkšanas pasūtījumi par noteiktiem krājumiem un pakalpojumiem. 
 
 <a name="vendor-invoices"></a>Kreditora rēķini
 ---------------
 
-Kreditora rēķins no pirkšanas pasūtījuma ir rēķins, kas tiek izveidots, kad preces vai pakalpojumi tiek saņemti saskaņā ar kreditoram iesniegtu pirkšanas pasūtījumu. Kreditora rēķins satur virsraksta un vienas vai vairākām rindām, preces vai pakalpojumus. Kreditora rēķinu aizpilda ciklu no pirkšanas pasūtījuma, lai produkta saņemšanas uz kreditora rēķina. 
+Kreditora rēķins no pirkšanas pasūtījuma ir rēķins, kas tiek izveidots, kad preces vai pakalpojumi tiek saņemti saskaņā ar kreditoram iesniegtu pirkšanas pasūtījumu. Kreditora rēķinā tiek ietverts virsraksts un viena vai vairākas rindas ar krājumiem vai pakalpojumiem. Kreditora rēķins tiek izmantots ciklā “produktu ieejas plūsmas pirkšanas pasūtījums–kreditora rēķins”. 
 
 Lai gan daži kreditoru rēķini ir saistīti ar pirkšanas pasūtījumu, kreditoru rēķini var ietvert arī rindas, kas neatbilst pirkšanas pasūtījuma rindām. Varat arī izveidot kreditoru rēķinus, kas nav saistīti ar pirkšanas pasūtījumu. Šie kreditoru rēķini var atspoguļot notiekošus pakalpojumus, piemēram, rēķinu par pakalpojumiem, un jums nav jāatsaucas uz pirkšanas pasūtījumu, kad tos pievienojat. 
 
 Kreditora rēķinu var ievadīt vairākos veidos:
 
--   Kreditora rēķina reģistrs ļauj ātri ievadīt rēķinus, kuros nav atsauces pirkšanas pasūtījums, tā, lai jūs varētu uzkrāt rēķina. Izmantojot piegādātāju rēķinu apstiprināšanas žurnāls, var atlasīt šos rēķinus un grāmatojiet tos atsaukt uzkrāšanas kreditora bilance.
+-   Reģistrējot kreditora rēķinu, varat ātri ievadīt rēķinus, kam nav izveidota atsauce uz pirkšanas pasūtījumu, tādējādi nodrošinot izdevumu uzkrājumu. Izmantojot kreditora rēķinu apstiprināšanas žurnālu, varat atlasīt un grāmatot šos rēķinus kreditora bilancē, tādējādi atceļot uzkrājumu.
 -   Kreditoru rēķinu žurnāls jums ļauj ar vienu darbību ātri ievadīt rēķinus, kam nav atsauces uz pirkšanas pasūtījumu.
 -   Kopā ar kreditoru rēķinu kopu kreditoru rēķinu reģistrs jums ļauj ātri ievadīt rēķinus, lai uzkrātu izdevumus. Vēlāk varat atvērt saistītos pirkšanas pasūtījumus, lai grāmatotu rēķinu pret izdevumu kontu.
 -   Lapa **Atvērtie kreditoru rēķini** un **Gaidošie kreditoru rēķini** jums ļauj izveidot kreditoru rēķinus no apstiprinātajiem pirkšanas pasūtījumiem.
@@ -57,7 +60,7 @@ Kad kādu kreditora rēķinu atverat no saistīta pirkšanas pasūtījuma, no š
 Ja jūsu juridiskā persona izmanto rēķinu salīdzināšanu, tad daudzumu salīdzināšanas rezultātus varat skatīt kolonnā **Produktu ieejas plūsmas daudzuma atbilstība**. Lai apskatītu daudzumu salīdzināšanas rezultātus, varat izmantot arī izvēlnes komandu **Detalizēta informācija par atbilstību** cilnē **Pārskatīt**.
 
 ## <a name="adding-a-line-that-wasnt-on-the-purchase-order"></a>Pirkšanas pasūtījumā nebijušas rindas pievienošana
-Varat pievienot jaunu rindu, kas nebija uz kreditora rēķinu pirkšanas pasūtījumā. Ir jāatlasa preces numuru vai iepirkumu kategorijas. Pēc tam rindai varat pievienot daudzumus, cenas un summas. Šī rinda tiks iekļauta tikai atbilstības ierobežojumos rēķinu kopsummām.
+Varat pievienot kreditora rēķinam jaunu rindu, kas netika iekļauta pirkšanas pasūtījumā. Tādā gadījumā atlasiet krājuma kodu vai sagādes kategoriju. Pēc tam rindai varat pievienot daudzumus, cenas un summas. Šī rinda tiks iekļauta tikai atbilstības ierobežojumos rēķinu kopsummām.
 
 ## <a name="submitting-a-vendor-invoice-for-review"></a>Kreditora rēķina iesniegšana pārskatīšanai
 Lai pārvaldītu kreditoru rēķinu pārskatīšanas procesu, organizācijā var tikt izmantotas darbplūsmas. Pārskatīšanu darbplūsmā var pieprasīt rēķina virsrakstam, rēķina rindai vai abiem vienumiem. Darbplūsmas vadīklas tiek piemērotas virsrakstam vai rindai atkarībā no tā, kurš apgabals bija fokusā, kad noklikšķinājāt uz vadīklas. Pogas **Grāmatot** vietā ir redzama poga **Iesniegt**, kuru varat lietot, lai kreditora rēķinu sūtītu caur pārskatīšanas procesu.
@@ -74,6 +77,8 @@ Kad grāmatojat rēķinu, katra krājuma daudzums laukā **Rēķina atlikums** t
 ## <a name="working-with-multiple-invoices"></a>Darbs ar vairākiem rēķiniem
 
 Jūs varat vienlaikus strādāt ar vairākiem rēķiniem un grāmatot tos. Ja ir jāizveido vairāki rēķini, izmantojiet lapu **Gaidošie kreditoru rēķini**. Ja ir nepieciešams grāmatot un drukāt vairākus kreditoru rēķinus, izmantojiet rēķinu apstiprināšanas žurnāla lapu. Ja lietojat rēķinu apstiprināšanas žurnālu, pirkšanas pasūtījumam ir jābūt grāmatotai vismaz vienai produktu ieejas plūsmai, un rēķinam par pirkšanas pasūtījumu ir jābūt grāmatotam rēķinu reģistrā. Rēķina finanšu informācija tiek ņemta no rēķina, kas ir grāmatots reģistrā.
+
+
 
 
 

@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-and-filter-workspaces"></a>Konfigurēt un filtrēt darbvietas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegts pārskats par to, kā konfigurēt un filtrēt darbvietas.
 
 <a name="configuring-a-workspace"></a>Darbvietas konfigurēšana
@@ -33,11 +36,11 @@ ms.lasthandoff: 03/31/2017
 
 Dažām darbvietām varat mainīt izskatu un darbību, atjauninot iestatījumus, kuri attiecas uz visu darbvietu. Ja darbvietu var konfigurēt, darbību rūtī ir iekļauta poga, kas jums norāda, ka uz tās ir jānoklikšķina, lai veiktu konfigurācijas izmaiņas. Piemēram, nākamajā attēlā pogas nosaukums ir **Konfigurēt manu darbvietu**. 
 
-[![konfigurēt-un-filtrs-darbvietām](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)   
+[![configure-and-filter-workspaces](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)   
 
 Kad noklikšķināt uz šīs pogas, tiek atvērts dialoglodziņš, kurā varat modificēt darbvietas iepriekš definētos iestatījumus. Konkrētie šajā dialoglodziņā redzamie iestatījumi ir atkarīgi no darbvietas, kā arī no konkrētajām darbvietā pieejamajām vadīklām un biznesa datiem. 
 
-[![konfigurēt-mana-darbvietu](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)
+[![configure-my-workspace](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)
 
 ## <a name="filtering-a-workspace"></a>Darbvietas filtrēšana
 Daudzas darbvietas jums ļauj filtrēt tajās rādīto saturu. Pieejamās vadīklas jums var ļaut filtrēt visu darbvietā esošo saturu vai tikai saturu konkrētā darbvietas sadaļā. Darbvietās esošie filtri var būt uzmeklēšana, kombinētie lodziņi, brīvas formas teksta lauki un citu tipu vadīklas. Taču katram filtra tipam ir tāda pati ietekme, kā aprakstīts nākamajās sadaļās.
@@ -46,11 +49,11 @@ Daudzas darbvietas jums ļauj filtrēt tajās rādīto saturu. Pieejamās vadīk
 
 Izmantojot darbvietas mēroga filtru, varat filtrēt visu darbvietu. Darbvietas mēroga filtrs tiek rādīts darbvietas kreisajā augšējā stūrī. Kad nolaižamajā sarakstā atlasāt kādu noteiktu vērtību, darbvietas saturs tiek filtrēts, pamatojoties uz šo atlasi. 
 
-[![darbvietas filtrs](./media/workspace-filter.png)](./media/workspace-filter.png) 
+[![workspace-filter](./media/workspace-filter.png)](./media/workspace-filter.png) 
 
 Kad noklikšķināt, lai šo filtru atvērtu, jums tiek sniegtas vairākas opcijas. 
 
-[![paplašināts darbvietas filtrs](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png) 
+[![workspace-filter-expanded](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png) 
 
 Atlasiet kādu opciju, lai darbvietu filtrētu, pamatojoties uz šo opciju.
 
@@ -58,8 +61,10 @@ Atlasiet kādu opciju, lai darbvietu filtrētu, pamatojoties uz šo opciju.
 
 Ja atsevišķām darbvietas sadaļām ir filtri, katru sadaļu varat filtrēt atsevišķi. Nākamajā attēlā filtrs (lauks, kas satur tekstu “Filtrs”) ir brīvas formas teksta filtra piemērs. 
 
-[![darbvieta sadaļā filtri](./media/workspace-section-filters.png)](./media/workspace-section-filters.png) 
+[![workspace-section-filters](./media/workspace-section-filters.png)](./media/workspace-section-filters.png) 
 
 Tāpat kā ar darbvietas mēroga filtru, laukā atlasiet vai ievadiet kādu vērtību, lai filtrētu sadaļas saturu.
+
+
 
 

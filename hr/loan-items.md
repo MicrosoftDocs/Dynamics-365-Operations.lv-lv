@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manage-items-lent-to-workers"></a>Darbiniekiem aizdotu krājumu pārvaldīšana
 
+[!include[banner](includes/banner.md)]
+
+
 Patapinājuma priekšmeti ir ieraksti, kas vadītājiem palīdz izsekot fiziskos priekšmetus, kurus jūsu uzņēmums patapina saviem darbiniekiem. 
 
 Tālāk ir uzskaitīti tādu priekšmetu piemēri, ko uzņēmums var aizdot saviem darbiniekiem:
@@ -39,7 +42,7 @@ Katram fiziskajam priekšmetam ir nepieciešams atbilstošs patapinājuma priek�
 
 Kad priekšmets tiek patapināts, ievadiet datumu, kad tas ticis patapināts, un plānoto atpakaļatdošanas datumu. Kad priekšmets tiek atdots atpakaļ, ievadiet faktisko atpakaļatdošanas datumu.
 
-Darbinieki varētu skatīt ierakstus par precēm, kas ir aizdots, viņiem izmantojot darbinieku pašapkalpošanās darbvietu. Tie var arī rediģēt esošos ierakstus vai ievadiet jaunu patapinājuma priekšmetus, ja tie esam saņēmuši papildu fiziskos krājumus.  Darbplūsmas var iestatīt, lai maršruta izmaiņas jaunā vai esošā Patapinājuma priekšmeti ar apstiprināšanas procesu. 
+Izmantojot darbvietu Darbinieku patstāvīgi izmantojamais pakalpojums, darbinieki var skatīt patapinājuma priekšmetu ierakstus. Viņi var arī rediģēt esošos ierakstus vai ievadīt jaunus patapinājuma priekšmetus, ja viņi ir saņēmuši papildu fiziskos priekšmetus.  Darbplūsmu var iestatīt tā, lai jauno vai esošo patapinājuma priekšmetu izmaiņas novirzītu uz apstiprināšanas procesu. 
 
 Vadītāji var skatīt patapinājuma priekšmetus savām tiešajām atskaitēm. Tāpat viņiem var piešķirt atļauju pievienot jaunus patapinājuma priekšmetus savu darbinieku vārdā.
 
@@ -52,6 +55,8 @@ Ja priekšmets ir bojāts vai netiek atdots laikā, ievadiet fiktīvu atdošanas
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Human resources](index.md)
+[Personāla vadība](index.md)
+
+
 
 

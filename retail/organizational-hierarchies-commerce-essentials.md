@@ -1,6 +1,6 @@
 ---
-title: "Organizācijām un organizatoriskās hierarhijas (Commerce pamati)"
-description: "Komercijas pamati ir trīs veidu iekšējo organizāciju, kuru varat norādīt, lai palīdzētu organizācijai veikt biznesa procesu vai sasniegtu mērķi."
+title: "Organizācijas un organizāciju hierarhijas (modulis Komercijas rekvizīti)"
+description: "Modulī Komercijas rekvizīti ir pieejami trīs iekšējo organizāciju veidi, ko var definēt, lai palīdzētu organizācijai veikt biznesa procesu vai sasniegt mērķi."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 21251
 ms.assetid: 2bfc6bfe-784b-42e8-8bf0-116e9f0a558e
 ms.search.region: global
@@ -25,9 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="organizations-and-organizational-hierarchies-commerce-essentials"></a>Organizācijām un organizatoriskās hierarhijas (Commerce pamati)
+# <a name="organizations-and-organizational-hierarchies-commerce-essentials"></a>Organizācijas un organizāciju hierarhijas (modulis Komercijas rekvizīti)
 
-Komercijas pamati ir trīs veidu iekšējo organizāciju, kuru varat norādīt, lai palīdzētu organizācijai veikt biznesa procesu vai sasniegtu mērķi. 
+[!include[banner](includes/banner.md)]
+
+
+Modulī Komercijas rekvizīti ir pieejami trīs iekšējo organizāciju veidi, ko var definēt, lai palīdzētu organizācijai veikt biznesa procesu vai sasniegt mērķi. 
 
 Organizācija ir cilvēku grupa, kas strādā kopā, lai nodrošinātu biznesa procesu vai sasniegtu mērķi. Organizācijas hierarhija formulē attiecības starp biznesa vienībām, kas veido jūsu organizāciju.
 
@@ -47,7 +50,7 @@ Pārvaldības struktūrvienība ir organizācija, kas tiek lietota, lai sadalīt
 | Mazumtirdzniecības kanāls          | Pārvaldības struktūrvienība, kas formulē fiziska veikala esamību.                             | Izmantojiet, lai pārvaldītu un kontrolētu vienas vai visu juridisko personu vienu vai vairākus veikalus.                                                               |
 
 ## <a name="organizational-hierarchies"></a>Organizācijas hierarhijas
-Programmā Komercijas rekvizīti katrai hierarhijai tiek piešķirts nolūks. Hierarhijas mērķis nosaka organizāciju veidus, ko var iekļaut hierarhijā. Mērķis nosaka arī pielietojuma scenārijus, kuros hierarhiju var izmantot. Piemēram, mazumtirdzniecības hierarhiju var izmantot pirkt un pārdot produkciju, kas veikalā. Organizācijas hierarhijā var koplietot parametrus, politiku un transakcijas. Organizācija var mantot vai ignorēt savas pamatorganizācijas parametrus. Tomēr koplietojamie pamatdati, piemēram, preces un adrešu grāmatas, attiecas uz visu organizāciju un tos nevar ignorēt atsevišķu organizāciju gadījumā.
+Programmā Komercijas rekvizīti katrai hierarhijai tiek piešķirts nolūks. Hierarhijas mērķis nosaka organizāciju veidus, ko var iekļaut hierarhijā. Mērķis nosaka arī pielietojuma scenārijus, kuros hierarhiju var izmantot. Piemēram, mazumtirdzniecības hierarhiju var izmantot, lai pirktu un pārdotu preces mazumtirdzniecības veikalā. Organizācijas hierarhijā var koplietot parametrus, politiku un transakcijas. Organizācija var mantot vai ignorēt savas pamatorganizācijas parametrus. Tomēr koplietojamie pamatdati, piemēram, preces un adrešu grāmatas, attiecas uz visu organizāciju un tos nevar ignorēt atsevišķu organizāciju gadījumā.
 ### <a name="best-practices-for-setting-up-an-organization-in-a-hierarchy"></a>Piemērotākā prakse organizācijas hierarhijas iestatīšanai
 
 Ieviešot organizācijas hierarhiju, ņemiet vērā šādu labāko praksi:
@@ -68,6 +71,8 @@ Tālāk norādītajā tabulā ir aprakstīti programmas Komercijas rekvizīti sc
 | Mazumtirdzniecības papildināšanas pārvaldība                                                    | Grupējiet veikalus, lai papildinātu krājumus atbilstoši papildināšanas nosacījumiem.                                                                                                                                                                                                                                          | Mazumtirdzniecības papildināšana |
 | Veikalu pārskata dati                                                         | Grupējiet veikalus pārskatiem.                                                                                                                                                                                                                                                                                | Mazumtirdzniecības pārskati     |
 | Krājumu grāmatošana, aprēķinu veikšana vai pārskatu grāmatošana veikalu grupai | Izveidojiet veikalu grupu, ko var piešķirt pakešuzdevumam. Definējot pakešuzdevumu krājumu grāmatošanai, aprēķinu veikšanai vai pārskatu grāmatošanai, varat norādīt, uz kuru hierarhiju attiecas darbs. Kad veikali ir pievienoti hierarhijai vai noņemti no tās, jums nav jāmaina pakešuzdevums. | Mazumtirdzniecības POS grāmatošana   |
+
+
 
 
 

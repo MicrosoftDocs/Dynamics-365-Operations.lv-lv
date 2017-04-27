@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="depreciation-effects-with-reversals"></a>Nolietojuma ietekmes ar apgriešanām
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir apspriesta pamatlīdzekļu transakcijas atcelšanas potenciālā ietekme. 
 
 Varat apgriezt pamatlīdzekļu transakcijas, kā arī transakcijas, kas ir saistītas ar kādu pamatlīdzekli. Apgrieztu transakciju varat arī atcelt. 
@@ -37,7 +40,7 @@ Lai nodrošinātu, ka nolietojums ir pareizs, kad veicat transakcijas apgriešan
 
 Nākamajos piemēros ir parādīti aprēķini, kas rodas, ja pēc ziņojuma saņemšanas procedūru turpināt, neapgriežot nolietojuma transakcijas.
 
-## <a name="example-1-depreciation-is-overstated"></a> 1. piemērs. Nolietojums tiek pārvērtēts
+## <a name="example-1-depreciation-is-overstated"></a>1. piemērs. Nolietojums tiek pārvērtēts
 Līdzeklis ir iestatīts ar 5 gadu lietošanas laiku un lineāro nolietojumu (60 nolietojuma periodi). Šajā piemērā nolietojums tiek pārvērtēts.
 #### <a name="asset-transaction-history"></a>Līdzekļu darbību vēsture
 
@@ -61,7 +64,7 @@ Līdzeklis ir iestatīts ar 5 gadu lietošanas laiku un lineāro nolietojumu (60
 
 Nolietojums ir pārvērtēts par 16,95 (1000 - 983,05).
 
-## <a name="example-2-depreciation-is-understated"></a> 2. piemērs. Nolietojums tiek nepietiekami novērtēts
+## <a name="example-2-depreciation-is-understated"></a>2. piemērs. Nolietojums tiek nepietiekami novērtēts
 Līdzeklis ir iestatīts ar 5 gadu lietošanas laiku un lineāro nolietojumu (60 nolietojuma periodi). Šajā piemērā nolietojums tiek nepietiekami novērtēts.
 #### <a name="asset-transaction-history"></a>Līdzekļu darbību vēsture
 
@@ -90,6 +93,8 @@ Nolietojums ir nepietiekami novērtēts par 16,95 (983,62 - 966,67).
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Fixed asset depreciation](fixed-asset-depreciation.md)
+[Pamatlīdzekļu nolietojums](fixed-asset-depreciation.md)
+
+
 
 

@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-a-line-item-workflow"></a>Konfigurēt dokumenta rindas darbplūsmu
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā tēmā ir paskaidrots, kā konfigurēt dokumenta rindas darbplūsmas elementu.
 
 Lai konfigurētu dokumenta rindas darbplūsmas elementu, darbplūsmas redaktorā ar peles labo taustiņu noklikšķiniet uz elementa un pēc tam noklikšķiniet uz **Rekvizīti**, lai atvērtu lapu **Rekvizīti**. Pēc tam izmantojiet tālāk aprakstītās procedūras, lai konfigurētu dokumenta rindas darbplūsmas elementa rekvizītus.
 
-## <a name="name-the-lineitem-workflow-element"></a>Nosaukums lineitem darbplūsmas elementu
+## <a name="name-the-lineitem-workflow-element"></a>Piešķirt nosaukumu rindas vienuma darbplūsmas elementam
 Veiciet šādas darbības, lai ievadītu dokumenta rindas darbplūsmas elementa nosaukumu.
 
 1.  Kreisajā rūtī noklikšķiniet uz **Pamata iestatījumi**.
@@ -50,6 +53,8 @@ Veiciet šīs darbības, lai norādītu, vai visu dokumenta rindu apstrādei tie
     6.  Lai pārbaudītu, vai ievadītā nosacījuma kopa ir pareizi konfigurēta, noklikšķiniet uz **Pārbaudīt**. Lapas **Testēt darbplūsmas nosacījumu** apgabalā **Pārbaudīt nosacījumu** atlasiet ierakstu un pēc tam noklikšķiniet uz **Pārbaudīt**. Sistēma novērtē ierakstu, lai noteiktu, vai tas atbilst jūsu definētajiem nosacījumiem. Noklikšķiniet uz **Labi** vai **Atcelt**, lai atgrieztos lapā **Rekvizīti**.
 
     Cilnē **Darbplūsma** atlasiet darbplūsmu tādu rindu vienumu apstrādei, kuri atbilst definēto nosacījumu kopai.
+
+
 
 
 

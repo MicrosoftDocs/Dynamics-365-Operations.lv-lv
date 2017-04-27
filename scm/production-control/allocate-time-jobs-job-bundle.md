@@ -1,5 +1,5 @@
 ---
-title: "Piešķirt laika darbu saišķa darbus"
+title: "Piešķirt laiku darbu komplektā iekļautiem darbiem"
 description: "Lapā Ražošanas izpilde var veikt darbu komplektēšanu. Pēc tam lapā Darbu saraksts var sākt vairākus darbus vienlaicīgi."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Piešķirt laika darbu saišķa darbus
+# <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Piešķirt laiku darbu komplektā iekļautiem darbiem
+
+[!include[banner](../includes/banner.md)]
+
 
 Lapā Ražošanas izpilde var veikt darbu komplektēšanu. Pēc tam lapā Darbu saraksts var sākt vairākus darbus vienlaicīgi.
 
@@ -84,7 +87,7 @@ Nākamajā tabulā ir redzama iedalītā laika aprēķināšanas formula. Formul
 
 |                              | 09:00–10:00 (1 stunda) | 10:00–11:00 (1 stunda) | 11:00–13:00 (2 stundas) | 13:00–15:00 (2 stundas) | Piešķirtais laiks |
 |------------------------------|----------------------|----------------------|-----------------------|-----------------------|----------------|
-| Darbu skaits komplektā | formāts 1. proc.                    | 3                    | 2                     | formāts 1. proc.                     | Nav attiecināms |
+| Darbu skaits komplektā | 1                    | 3                    | 2                     | 1                     | Nav attiecināms |
 | 1. darbs                        | 1 ÷ 1 = 1 stunda       | 1 ÷ 3 = 0,33 stundas    | Nav attiecināms        | Nav attiecināms        | 1,33 stundas     |
 | 2. darbs                        | Nav attiecināms       | 1 ÷ 3 = 0,33 stundas    | 2 ÷ 2 = 1 stunda        | Nav attiecināms        | 1,33 stundas     |
 | 3. darbs                        | Nav attiecināms       | 1 ÷ 3 = 0,33 stundas    | 2 ÷ 2 = 1 stunda        | 2 ÷ 1 = 2 stundas       | 3,33 stundas     |
@@ -107,5 +110,7 @@ Ja vēlaties ražošanas izmaksas aprēķināt atbilstoši reālajām izmaksām,
 | 3. darbs | (3,33 ÷ 5) × 12,00 USD                 | USD 8,00                | 5 stundas        | USD 40,00         |
 
 Koriģētās vienas stundas izmaksas un darba laiks tiek iegrāmatots ražošanas žurnālā. **Piezīme.** Ja lapā **Ražošanas pasūtījumu noklusējuma iestatījumi** ir atzīmēta cilnes **Vispārīgi** opcija **Izmaksu kategorija**, katram darbam faktiski patērētais laiks tiek pārnests ražošanas žurnālā, kur izmaksas tiek attiecinātas uz konkrēta darba izmaksu kategoriju.
+
+
 
 

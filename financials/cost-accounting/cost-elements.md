@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="cost-element-dimensions"></a>Izmaksu elementu dimensijas
 
+[!include[banner](../includes/banner.md)]
+
+
 Kā viens no pamatelementiem Izmaksu uzskaitē, izmaksu elementa dimensijas tiek izmantotas, lai sadalītu kategorijās un izsekotu, uz kurieni plūst izmaksas. 
 
 Izmaksu elements atbilst izmaksu atbilstošajam krājumam kontu plānā. Būtībā tas var būt jebkura veida elements, kam ir zemākais līmenis uzņēmumā, kur var plūst izmaksas. Izmaksu elementi kā koncepcijas diapazons no virsgrāmatas kontiem uz visiem izmaksu atbilstošajiem resursiem. Pašlaik Izmaksu uzskaite atbalsta virsgrāmatas kontus.
@@ -64,12 +67,14 @@ Ir divu veidu izmaksu elementi: primāro izmaksu elementi un sekundāro izmaksu 
 ## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>Izmaksu elementu dimensijas un izmaksu elementu dimensijas dalībnieki
 Izmaksu elementi, kas tiek saukti par *izmaksu elementu dimensijas*. Atsevišķas dimensiju vērtības tiek sauktas par *izmaksu elementu dimensijas dalībnieki*. Piemēram, jums ir ASV kontu plāna struktūra (COA), kas ir pamats ar likumu noteikto pārskatu veidošanai. Šī COA tiek izmantota kā izmaksu elementa dimensija. Konti, kas ir primāro izmaksu elementi, tiek attēloti kā izmaksu elementu dimensijas dalībnieki Izmaksu uzskaitē. Šajā ekrānuzņēmumā parādīts Galveno kontu kā izmaksu elementu dimensijas piemērs, ar tā faktiskajiem galvenajiem kontiem kā izmaksu elementa dimensijas dalībniekiem. 
 
-[![izmaksu elementu izmēri](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
+[![cost-element-dimensions](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
 
 ## <a name="import-cost-element-dimension-members-through-data-connectors"></a>Importējiet izmaksu elementu dimensijas dalībniekus, izmantojot datu savienotājus
 Lai vienkāršotu izmaksu elementa dimensijas dalībnieku iestatīšanu Izmaksu uzskaitē, jūs varat izmantot datu savienotājus, kas ir vai nu iepriekš izveidoti vai jūsu izveidoti, lai izgūt primāro izmaksu elementus no vienas vai vairākām avota sistēmām.
 
 ## <a name="implementation-considerations"></a>Ieviešanas apsvērumi
 Tā kā izmaksu elementi pārstāv izmaksu informācijas zemāko līmeni, jums nepieciešams pārliecināties, ka visi izmaksu elementi, kas ir nepieciešami vadības pārskata izveidei, ir iekļauti, īstenojot izmaksu elementu struktūru. Var būt sarežģīti atrast atbilstošu izmaksu elementu skaitu izmaksu kontrolei. Tā kā pastāv tūkstošiem izmaksu elementu, var būt sarežģīti kontrolēt katru izmaksu elementu. Alternatīva metode - jūs varat grupēt izmaksu elementus un pārvaldīt izmaksu kontroli uzkrātajā līmenī.
+
+
 
 

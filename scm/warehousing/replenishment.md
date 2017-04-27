@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="replenishment"></a>Papildināšana
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir aprakstītas papildināšanas stratēģijas, kas ir pieejamas noliktavām, kuras izmanto noliktavas vadībā pieejamo funkcionalitāti.
 
 Šajā rakstā ir aprakstītas papildināšanas stratēģijas, kas ir pieejamas noliktavām, kuras izmanto noliktavas vadībā pieejamo funkcionalitāti. Šī informācija neattiecas uz noliktavas risinājumu, kas ir pieejams modulī Krājumu vadība. Ir pieejamas trīs papildināšanas stratēģijas.
@@ -67,6 +70,8 @@ Kravas pieprasījuma papildināšana summē pieprasījumu pēc vairākām kravā
 | Atrašanās vietu profili       | Novietojumu profili ir nepieciešami, lai izveidotu novietojumus.                                                                                                                                                                                       |
 | Novietojuma direktīvas     | Novietojuma direktīvas ir nepieciešamas, lai vadītu darbu uz novietojumiem, kur ir nepieciešama papildināšana, un uz novietojumiem, no kuriem tiek iegūti krājumi.                                                                                     |
 | Darbu veidnes          | Darba veidnes ar tipu **Papildināšana** ir nepieciešamas, lai izveidotu papildināšanas darbu un krājumus varētu pārvietot uz vēlamajiem novietojumiem.                                                                                           |
+
+
 
 
 

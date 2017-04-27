@@ -33,7 +33,7 @@ Kad veidojat pirkšanas pasūtījumu (PP), vispārīgā informācija par visu pa
 
 Pirkšanas pasūtījumu varat arī izveidot, kopējot rindas no cita pirkšanas pasūtījuma dokumenta vai pārdošanas pasūtījuma. Tādā gadījumā varat krājumiem mainīt zīmi uz pretējo, kā jūs rēķinā mainītu zīmi uz pretējo, lai norādītu kredītu.  
 
-Lai gan pirkšanas pasūtījumus varat izveidot manuāli, tie parasti tiek ģenerēti no citiem procesiem. Pasūtījumus var izveidot automātiski, pamatojoties uz citiem dokumentiem, piemēram, uz pieprasījumiem. Alternatīvi, tās var izveidot kā daļu no vispārējās plānošanas procesu caur plānoto POs. Ja izmantojat pirkuma līgumi, POs var izveidot ar **izpildpasūtījuma** darbību. Automātiskai pirkšanas pasūtījuma izveidošanai pastāv arī uzlabotākas metodes. Piemēram, pasūtījumus varat izveidot, kad lietojat tiešo piegādi vai starpuzņēmumu pasūtījumu ķēdes.
+Lai gan pirkšanas pasūtījumus varat izveidot manuāli, tie parasti tiek ģenerēti no citiem procesiem. Pasūtījumus var izveidot automātiski, pamatojoties uz citiem dokumentiem, piemēram, uz pieprasījumiem. Tos var arī izveidot galvenās plānošanas procesa ietvaros, izmantojot ieplānotos pirkšanas pasūtījumus. Ja lietojat pirkšanas līgumus, pirkšanas pasūtījumus var izveidot, izmantojot darbību **Izpildīt pasūtījumu**. Automātiskai pirkšanas pasūtījuma izveidošanai pastāv arī uzlabotākas metodes. Piemēram, pasūtījumus varat izveidot, kad lietojat tiešo piegādi vai starpuzņēmumu pasūtījumu ķēdes.
 
 ## <a name="creating-a-purchase-order-header"></a>Pirkšanas pasūtījuma virsraksta izveidošana
 Kad veidojat jaunu pirkšanas pasūtījumu, tiek atvērts dialoglodziņš, kurā varat ievadīt pirkšanas pasūtījuma virsrakstā visbiežāk izmantoto informāciju. Kad noklikšķināt uz **Labi**, lai aizvērtu šo dialoglodziņu, pasūtījums tiek izveidots, un pēc tam virsrakstā varat norādīt papildu informāciju.  
@@ -84,7 +84,7 @@ Iespējams, pirkšanas pasūtījuma izpildi ir nepieciešams aizkavēt. Piemēra
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Pārskats par pirkšanas pasūtījumu](purchase-order-overview.md)
 
 [Pirkšanas pasūtījumu apstiprināšana un ratificēšana](purchase-order-approval-confirmation.md)
 

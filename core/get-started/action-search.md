@@ -1,6 +1,6 @@
 ---
 title: "Darbību meklēšana"
-description: "Šajā rakstā izklāstīts rīcības meklēšanas funkcionalitāti Microsoft Dynamics 365 operācijām. Meklēšanas darbība palīdzēs atrast un izpildes darbības attiecībā uz lapu."
+description: "Šajā rakstā ir aprakstīta darbību meklēšanas funkcionalitāte programmā Microsoft Dynamics 365 for Operations. Darbību meklēšana jums palīdz lapā atrast un izpildīt darbības."
 author: jasongre
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,30 +26,33 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="action-search"></a>Darbību meklēšana
 
-Šajā rakstā izklāstīts rīcības meklēšanas funkcionalitāti Microsoft Dynamics 365 operācijām. Meklēšanas darbība palīdzēs atrast un izpildes darbības attiecībā uz lapu.
+[!include[banner](../includes/banner.md)]
+
+
+Šajā rakstā ir aprakstīta darbību meklēšanas funkcionalitāte programmā Microsoft Dynamics 365 for Operations. Darbību meklēšana jums palīdz lapā atrast un izpildīt darbības.
 
 <a name="introduction"></a>Ievads
 ------------
 
-Lappuses programmā Microsoft Dynamics 365 operācijām galvenokārt pakļaut komandas darbību rūtis, gan standarta darbību rūts, kurā redzams lapas augšdaļā un rīkjoslu, kas parādās dažādas lapas sadaļās. Iepriekšējās versijās, taustiņu padomi iezīme ļauj ātri piekļūt jebkuru pogu darbību rūtī, nospiežot taustiņu Alt un pēc tam vēstuļu sēriju. 
+Programmas Microsoft Dynamics 365 for Operations lapas galvenokārt rāda komandas darbību rūtīs, gan standarta darbību rūtī, kas ir redzama lapas augšdaļā, gan rīkjoslās, kas ir redzamas dažādās lapas sadaļās. Iepriekšējās versijās taustiņu padomu līdzeklis jums ļauj ātri piekļūt jebkurai pogai darbību rūtī, nospiežot taustiņu Alt un pēc tam burtu sēriju. 
 
-[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png) Dynamics 365 darbībām pašreizējā versijā, taustiņu padomiem vairs nav pieejami tomēr ir aizstājis darbību meklēšanas funkciju. Šī jaunā funkcija ļauj jums ātri meklēt un palaist pogu no jebkuras redzamas darbību rūts.
+[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png) Taču pašreizējā Dynamics 365 for Operations versijā taustiņu padomi vairs nav pieejami. Tie ir aizstāti ar darbību meklēšanas funkciju. Šī jaunā funkcija ļauj jums ātri meklēt un palaist pogu no jebkuras redzamas darbību rūts.
 
 ## <a name="using-action-search"></a>Darbību meklēšanas izmantošana
 Lai izmantotu darbību meklēšanas līdzekli, rīkojieties šādi.
 
 1.  Darbību rūtī noklikšķiniet uz **darbību meklēšanas** lauka. (**Darbību meklēšanas** lauks satur lupas ikonu.)
-2.  Ierakstiet visu vai daļu no pogas nosaukumam, kuru vēlaties palaist. Meklēšanu varat veikt arī, izmantojot vārdus no pogas "ceļš". (Papildinformāciju skatiet nākamajā šī raksta sadaļā). Parasti, pogu parādīsies pie rezultātu saraksta augšgalā pēc tam, kad esat ievadījis divas līdz četras rakstzīmes.
+2.  Ierakstiet pilnīgu vai daļēju nosaukumu tai pogai, kuru vēlaties palaist. Meklēšanu varat arī veikt, izmantojot vārdus no pogas “ceļa”. (Plašāku informāciju skatiet šī raksta nākamajā sadaļā.) Parasti poga rezultātu saraksta augšpusē kļūst redzama, kad ir ievadītas divas līdz četras rakstzīmes.
 3.  Atrodiet un palaidiet pogu rezultātu sarakstā (izmantojot peli vai tastatūru).
 
 Pēc pogas palaišanas fokuss tiek atgriezts pēdējā pozīcijā lapā, tādējādi varat turpināt darbu. 
 
-[![meklēšanas laukā darbība](./media/action-search-field.png)](./media/action-search-field.png)
+[![action-search-field](./media/action-search-field.png)](./media/action-search-field.png)
 
 Jūs varat arī sākt darbību meklēšanu, nospiežot Ctrl+/ vai Alt+Q. Nospiediet īsinājumtaustiņus vēlreiz, lai atgrieztu fokusu pēdējā pozīcijā lapā.
 
 ## <a name="understanding-the-results-list"></a>Rezultātu saraksta izprašana
-Bieži vien, Dynamics 365 operācijām, ir jāzina, atrašanās vieta, gan saistībā ar pogu, lai pilnībā izprastu šo pogu mērķis. Tādēļ papildu informāciju katrai precei tiek rādīta rezultātu sarakstā, lai palīdzētu saprast, tieši kuras pogas tiek parādītas sarakstā. Jo īpaši, tiek parādīts pogas "ceļš". Šis ceļš var ietvert šādu UI elementu etiķetes, ja nepieciešams:
+Lai pilnībā izprastu attiecīgās pogas darbību, programmā Dynamics 365 for Operations jums bieži vien ir jāzina pogas atrašanās vieta un konteksts. Tādēļ par katru sarakstā ietverto vienumu tiek radīta papildinformācija, lai jums palīdzētu saprast, kuras tieši pogas sarakstā ir redzamas. Jo īpaši, tiek parādīts pogas "ceļš". Šis ceļš var ietvert šādu UI elementu etiķetes, ja nepieciešams:
 
 -   Cilne Darbību rūts
 -   Pogu grupa
@@ -57,15 +60,17 @@ Bieži vien, Dynamics 365 operācijām, ir jāzina, atrašanās vieta, gan saist
 -   Izvēlnes atdalītājs (ja šī poga ir iekļauta nosauktā grupā izvēlnes pogā)
 -   Grupa vai cilne lapā (piemēram, kopsavilkuma cilnes nosaukums)
 
-Piemēram, jūs ievadījāt **kop** **darbību meklēšanas** laukā un tagad izskatāt rezultātu sarakstu. Pirmais ieraksts, pogai, uz kuras ir nosaukts **kopsummas**, ir izcelta. Pogas ceļš **pārdošanas pasūtījumu**&gt;**View** ir redzama arī. **Pārdošanas pasūtījumu** ceļa daļu, kas atbilst **pārdošanas pasūtījuma** tab rūtī darbības un **View** ceļa daļu, kas atbilst **View** grupas šajā cilnē. Tāpat ceļu **kopējā atlaide** poga (**pārdot**&gt;**aprēķināt**) informē, ka šī poga atrodas **aprēķināt** grupu **pārdot** darbību rūtī cilni. Tādēļ šī informācija palīdz jums saprast, tieši kura poga tiks uzsākta darbība meklēšanā (atlasot šo pogu rezultātu sarakstā). 
+Piemēram, jūs ievadījāt **kop** **darbību meklēšanas** laukā un tagad izskatāt rezultātu sarakstu. Tiek izcelts pirmais ieraksts pogai ar nosaukumu **Kopsummas**. Tiek rādīts arī pogas ceļš **Pārdošanas pasūtījums** &gt; **Skatīt**. Šajā ceļā daļa **Pārdošanas pasūtījums** atbilst darbību rūts cilnei **Pārdošanas pasūtījums**, un ceļa daļa **Skatīt** atbilst šīs cilnes grupai **Skatīt**. Līdzīgi arī pogas **Beigu atlaide** ceļš (**Pārdot** &gt; **Aprēķināt**) jūs informē par to, ka šī poga atrodas darbību rūts cilnes **Pārdot** grupā **Aprēķināt**. Līdz ar to šī informācija jums palīdz saprast, tieši kura poga ar darbību meklēšanu tiks aktivizēta (ja atlasāt šo pogu meklēšanas sarakstā). 
 
-[![darbība-meklēšana-lauks ar datu](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png) 
+[![action-search-field-with-data](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png) 
 
-Iepriekšējā piemērā darbību meklēšana parādīja rezultātus no standarta darbību rūts lapas augšdaļā. Tomēr, darbību meklēšana rāda rezultātus arī no redzamas rīkjoslas, kas atrodas citās vietās lapā. Piemēram, jūs meklējat **rīcībā esošie krājumi** pogu, kas atrodas **pārdošanas pasūtījuma rindas** FastTab. Šādā gadījumā poga ceļu sarakstā rezultāti (**pārdošanas pasūtījuma rindas**&gt;**krājumu**&gt;**View**) informē, ka šī poga atrodas zem **View** pozīcijā par **krājumu** izvēlnes pogu **pārdošanas pasūtījuma rindas** FastTab. 
+Iepriekšējā piemērā darbību meklēšana parādīja rezultātus no standarta darbību rūts lapas augšdaļā. Tomēr, darbību meklēšana rāda rezultātus arī no redzamas rīkjoslas, kas atrodas citās vietās lapā. Jūs meklējat, piemēram, pogu **Rīcībā esošie krājumi**, kura atrodas kopsavilkuma cilnē **Pārdošanas pasūtījuma rindas**. Šajā gadījumā pogas ceļš rezultātu sarakstā (**Pārdošanas pasūtījuma rindas** &gt; **Krājumi** &gt; **Skatīt**) jūs informē, ka šī poga atrodas zem kopsavilkuma cilnes **Pārdošanas pasūtījuma rindas** izvēlnes pogas **Krājumi** virsraksta **Skatīt**. 
 
-[![uz pieejamo krājumu](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
+[![on-hand-inventory](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
 
 ## <a name="action-search-vs-navigation-search"></a>Darbību meklēšana un Navigācijas meklēšana
-Tā kā rīcības meklēšanas mērķis ir atrast un palaist darbības lapā, pastāv atsevišķu meklēšanas mehānisms atrašanu un navigāciju lapās Dynamics 365 operācijām. Lai iegūtu papildinformāciju par šo līdzekli, skatiet [navigācijas meklēšanas](navigation-search.md) pants.
+Tā kā darbību meklēšana ir paredzēta, lai atrastu un palaistu darbības lapā, pastāv atsevišķs meklēšanas mehānisms, kas palīdz atrast lapas un pārvietojoties uz lapām programmā Dynamics 365 for Operations. Plašāku informāciju skatiet rakstā [Navigācijas meklēšana](navigation-search.md).
+
+
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="150-percent-reducing-balance-depreciation"></a>150 procentu degresīvā nolietojuma aprēķināšanas metode
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegts pārskats par 150 procentu degresīvās nolietojuma aprēķināšanas metodi.
 
 Ja iestatāt pamatlīdzekļa nolietojuma tabulu un atlasāt lauka **Metode** vērtību **150% atlikumu bilance** lapā **Nolietojuma tabulas**, pamatlīdzekļiem, kam ir piešķirta šī nolietojuma tabula, tiek izmantota vienāda nolietojuma procentu likme katrā nolietojuma periodā. Šī procentu likme tiek aprēķināta, pamatojoties uz pamatlīdzekļa lietošanas ilgumu. Piemēram, ja līdzekļa lietošanas ilgums ir pieci gadi, tiek aprēķināta procentu likme 30 procenti (150% ÷ 5). 
@@ -56,7 +59,7 @@ Ja kā nolietojuma aprēķināšanas gadu atlasāt opciju **Kalendārs**, tad la
 
 Ja atlasāt lauka **Nolietojuma aprēķina gads** vērtību **Finanšu**, tad 150% regresīvā nolietojuma bilance tiek aprēķināta, pamatojoties uz finanšu gadu finanšu kalendāram, kas ir norādīts šai grāmatai, vai finanšu kalendāram, kas ir atlasīts lapā **Virsgrāmata**. Finanšu kalendāri tiek iestatīti lapā **Finanšu kalendāri**. 
 
-Piemēram, finanšu gada 1. jūlija līdz 30. jūnijs, nolietojuma aprēķins sākas 1. jūlijā. Finanšu gads var būt garāks vai īsāks par 12 mēnešiem. Nolietojums tiek pielāgots katram periodam. Nākamā finanšu gada garumu nosaka periodu iestatījumi lapā **Finanšu kalendāri**. 
+Piemēram, finanšu gadam no 1. jūlija līdz 30. jūnijam nolietojuma aprēķins sākas 1. jūlijā. Finanšu gads var būt garāks vai īsāks par 12 mēnešiem. Nolietojums tiek pielāgots katram periodam. Nākamā finanšu gada garumu nosaka periodu iestatījumi lapā **Finanšu kalendāri**. 
 
 Ja kā nolietojuma aprēķināšanas gadu atlasāt opciju **Finanšu**, tad laukā **Perioda biežums** ir pieejamas tālāk norādītās opcijas.
 
@@ -81,6 +84,8 @@ Izmantojot 150% atlikumu bilances metodi, 150 procenti tiek dalīti ar lietošan
 | 3. gads | 4900 × 30% = 1470                           | 5900 – 1470 = 4430  | 4900 – 1470 = 3430                 |
 
 > [!NOTE]
-> Parasti, ja summa, kas aprēķināta, izmantojot 150 %, samazinot nolietojuma aprēķināšanas metodi kļūst mazāka par summu, kas būtu jāaprēķina, izmantojot lineāro metodi, ir pārvēršanas par atlikušā laika lineāro metodi.
+> Kad summa, kas tiek aprēķināta, izmantojot 150% degresīvo nolietojuma aprēķināšanas metodi, kļūst mazāka par summu, kas rastos, lietojot lineāro metodi, atlikušā kalpošanas laika aprēķināšanai parasti notiek konversija uz lineāro metodi.
+
+
 
 

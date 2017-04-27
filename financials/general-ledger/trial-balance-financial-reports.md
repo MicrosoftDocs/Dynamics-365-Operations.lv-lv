@@ -1,6 +1,6 @@
 ---
 title: "Apgrozījuma bilances finanšu pārskati"
-description: "Šajā rakstā ir aprakstīts šo noklusējuma ziņojumus par izmēģinājuma bilances. Tā arī apraksta veidošanas blokus, kas ir saistīti ar šiem ziņojumiem un cik var modificēt atskaites, lai atbilstu jūsu biznesa vajadzībām."
+description: "Šajā rakstā ir aprakstīti noklusējuma pārskati apgrozījuma bilancēm. Tajā ir aprakstīti arī ar šiem pārskatiem saistītie veidošanas bloki un veids, kā šos pārskatus varat modificēt, lai tie atbilstu jūsu biznesa prasībām."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="trial-balance-financial-reports"></a>Apgrozījuma bilances finanšu pārskati
 
-Šajā rakstā ir aprakstīts šo noklusējuma ziņojumus par izmēģinājuma bilances. Tā arī apraksta veidošanas blokus, kas ir saistīti ar šiem ziņojumiem un cik var modificēt atskaites, lai atbilstu jūsu biznesa vajadzībām. 
+[!include[banner](../includes/banner.md)]
+
+
+Šajā rakstā ir aprakstīti noklusējuma pārskati apgrozījuma bilancēm. Tajā ir aprakstīti arī ar šiem pārskatiem saistītie veidošanas bloki un veids, kā šos pārskatus varat modificēt, lai tie atbilstu jūsu biznesa prasībām. 
 
 <a name="default-trial-balance-reports"></a>Noklusējuma apgrozījuma bilances pārskati
 -----------------------------
@@ -51,7 +54,7 @@ Apgrozījuma bilances finanšu pārskati izmanto tālāk aprakstītos veidošana
 
 ### <a name="row-definition"></a>Rindas definīcija
 
-Rindas definīcijas izmēģinājuma bilance-noklusējuma ir viena rinda, kas velk visu galveno kontu. Tāpēc ikviens var ģenerēt pārskatu bez nepieciešamības veikt modifikācijas. Kad apskatāt atskaiti, detalizējiet vienu rindu, lai apskatītu detalizētu informāciju par katru kontu. Rindas definīciju varat modificēt, lai iekļautu vairāk informācijas. Lai modificētu rindas definīciju "apgrozījuma bilance — noklusējuma" un iekļautu rindas visiem kontiem, rīkojieties kā aprakstīts tālāk.
+Rindas definīcija, Apgrozījuma bilance – Noklusējums, ietver vienu rindu, kas apkopo datus no visiem galvenajiem kontiem. Tāpēc ikviens var ģenerēt pārskatu bez nepieciešamības veikt modifikācijas. Kad apskatāt atskaiti, detalizējiet vienu rindu, lai apskatītu detalizētu informāciju par katru kontu. Rindas definīciju varat modificēt, lai iekļautu vairāk informācijas. Lai modificētu rindas definīciju "apgrozījuma bilance — noklusējuma" un iekļautu rindas visiem kontiem, rīkojieties kā aprakstīts tālāk.
 
 1.  Noklikšķiniet uz **Rediģēšana** un tad noklikšķiniet uz **Ievietot rindas no dimensijām**. Komanda **Ievietot rindas no dimensijām** ļauj izvēlēties, kuras dimensijas vēlaties iekļaut rindas definīcijā. Šai rindas definīcijai izmantojiet **Galvenais konts**.
 2.  Pārliecinieties, vai sadaļā **Galvenais konts** ir iekļautas visas rakstzīmes "&", un noklikšķiniet uz **Labi**.
@@ -100,10 +103,12 @@ Katrā apgrozījuma bilances pārskatā izmantota cita kolonnas definīcija. Š�
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[Finanšu pārskati](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Skatīt finanšu pārskatus](view-financial-reports.md)
 
-[Dinamika finanšu pārskata Blog](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Dynamics finanšu pārskatu veidošanas emuārs](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="bonus-depreciation"></a>Papildnolietojums
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegts pārskats par papildnolietojuma funkcionalitāti.
 
 Papildnolietojumam varat izmantot papildnolietojuma summas pirmā gada laikā, kad līdzeklis tiek ievadīts ekspluatācijā un nolietots. Papildnolietojums ir jāizmanto pirms pārējiem nolietojuma aprēķiniem. Tādēļ papildnolietojumu ieteicams izmantot ar grāmatām, kur ir atspējota funkcionalitāte Grāmatot virsgrāmatā. Varat izmantot opciju **Dzēst virsgrāmatā negrāmatotās transakcijas**, lai dzēstu vēsturiskās transakcijas grāmatām, kuras neveic grāmatošanu virsgrāmatā. Pēc tam papildnolietojumu varat vēlāk uzkrāt attiecīgā līdzekļa kalpošanas cikla gaitā, dzēšot iepriekš grāmatotās nolietojuma transakcijas. 
@@ -61,5 +64,7 @@ Ja papildnolietojums tiek aprēķināts, izmantojot priekšlikuma procesu, tiek 
 Var izveidot neierobežotu papildnolietojuma ierakstu skaitu. Pēc šo ierakstu piešķiršanas līdzekļu grupas grāmatai tie tiek lietoti attiecīgajai līdzekļu grāmatai. 
 
 Papildnolietojums tiek ievadīts kā procenti vai kā fiksēta summa. Kad grāmatojot nolietojuma priekšlikumus, papildnolietojuma transakcijas šajā grāmatā tiek grāmatotas kā no nolietojuma transakcijām atsevišķas transakcijas.
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Jaunu vai atjauninātu uzdevumu ceļveži (maija 2016)"
-description: "Šajā rakstā tiek uzskaitīti jaunu vai atjauninātu uzdevumu palīglīdzekļi, kas tika izlaists Microsoft maijs 2016 - visās valodās APQC vienotās bibliotēku sistēmai Microsoft Dynamics AX. Netika izlaista neviena jauna darba sākšanas bibliotēka."
+title: "Jauni vai atjaunināti uzdevumu ceļveži (2016. gada maijs)"
+description: "Šajā rakstā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas ir izlaisti Microsoft APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics AX (2016. gada maija visu valodu laidienā). Netika izlaista neviena jauna darba sākšanas bibliotēka."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-or-updated-task-guides-may-2016"></a>Jaunu vai atjauninātu uzdevumu ceļveži (maija 2016)
+# <a name="new-or-updated-task-guides-may-2016"></a>Jauni vai atjaunināti uzdevumu ceļveži (2016. gada maijs)
 
-Šajā rakstā tiek uzskaitīti jaunu vai atjauninātu uzdevumu palīglīdzekļi, kas tika izlaists Microsoft maijs 2016 - visās valodās APQC vienotās bibliotēku sistēmai Microsoft Dynamics AX. Netika izlaista neviena jauna darba sākšanas bibliotēka. 
+[!include[banner](../includes/banner.md)]
 
-<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Uzdevuma rokasgrāmatas (maija 2016 - visās valodās) APQC vienotās bibliotēku Microsoft Dynamics AX
+
+Šajā rakstā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas ir izlaisti Microsoft APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics AX (2016. gada maija visu valodu laidienā). Netika izlaista neviena jauna darba sākšanas bibliotēka. 
+
+<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics AX (2016. gada maija visu valdu laidienā) ietvertie uzdevumu ceļveži
 ------------------------------------------------------------------------------------------------
 
-(Maija 2016) APQC Unified Library satur uzdevumu palīglīnijas, kuras ir paredzēts izmantot, lai palīdzētu ar Microsoft Dynamics AX var 2016 atjaunina un Microsoft Dynamics AX februārī 2016 atbrīvot. Lokalizētās versijas uzdevumu ceļvežus, kas tika izlaists (februārī 2016) APQC vienotās bibliotēku ir pieejamas šajā bibliotēkā. Papildinformāciju, kā savienot palīdzības sistēmas uzdevumu rokasgrāmata bibliotēku, skatiet [Iepazīstieties ar palīdzības](help-overview.md). **Piezīme:** zvaigznīti (**\***) pie biznesa procesu modelētājs (BPM) virsraksta rinda norāda uzdevuma rokasgrāmatā, ka biznesa procesu izveidota Dynamics AX var atjaunināt 2016 un nav atbalstīts iepriekšējās versijas Microsoft Dynamics AX.
+APQC vienotajā bibliotēkā (2016. gada maija laidienā) ir ietverti uzdevumu ceļveži, kurus ir paredzēts izmantot kā palīdzības materiālus kopā ar Microsoft Dynamics AX 2016. gada maija atjauninājumu un Microsoft Dynamics AX 2016. gada februāra laidienu. Šajā bibliotēkā ir pieejamas APQC vienotajā bibliotēkā (2016. gada februāra laidienā) izlaisto uzdevumu ceļvežu lokalizētās versijas. Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Darba sākšana ar palīdzības sistēmu](help-overview.md). **Piezīme.** Zvaigznīte (**\***) blakus biznesa procesa modelētāja (BPM) rindai norāda, ka šī biznesa procesa uzdevuma ceļvedis ir izveidots Dynamics AX 2016. gada maija atjauninājumam un netiek atbalstīts iepriekšējās Microsoft Dynamics AX versijās.
 
 ### <a name="countryregion-functionality"></a>Valsts/reģiona funkcionalitāte
 
@@ -65,7 +68,7 @@ ms.lasthandoff: 03/31/2017
 | ER Izveidot konfigurāciju atskaišu ģenerēšanai formātā OPENXML         | Globālais         |
 | ER Ģenerēt elektroniskos dokumentus maksājumiem, izmantojot formātu konfigurāciju | Globāls         |
 | ER Importēt konfigurāciju no Lifecycle Services                          | Globāls         |
-| **\***ER Select service provider                                           | Globāls         |
+| **\***ER: Pakalpojumu sniedzēja atlase                                           | Globāls         |
 | ER Jaunināt savu formātu, pieņemot šī formāta jaunu bāzes versiju      | Globālais         |
 | ER Augšupielādēt konfigurāciju pakalpojumos Lifecycle Services                          | Globālais         |
 
@@ -126,7 +129,7 @@ ms.lasthandoff: 03/31/2017
 | BPM rinda                                                 | Valsts/reģions |
 |----------------------------------------------------------|----------------|
 | Izveidot jaunu preci                                     | Globāls         |
-| Izveidot... \financial-dimensions\dimension-Based sastāvi                    | Globāls         |
+| Dimensijām atbilstošas konfigurācijas izveide                    | Globāls         |
 | Izveidot iepriekš definētus preces variantus                       | Globālais         |
 | Izveidot pārdošanas cenu atlases kritērijus                    | Globālais         |
 | Konfigurējamu preču pasūtījumu ievadīšana                   | Globālais         |
@@ -176,22 +179,24 @@ ms.lasthandoff: 03/31/2017
 | BPM rinda                                                            | Valsts/reģions |
 |---------------------------------------------------------------------|----------------|
 | Konfigurēt kopuma apstrādi                                           | Globāls         |
-| **\***Pabeigtajiem krājumiem license plate kontrolētā vietā | Globālais         |
+| **\***Ziņošana par pabeigšanu atrašanās vietā, kas nav atkarīga no noliktavas vienības | Globālais         |
 | Iestatīt min.-maks. papildināšanas procesu                              | Globālais         |
 | Konteinerizēšanas iestatīšana                                             | Globālais         |
 | Iestatīt manuālu iepakošanu                                               | Globāls         |
 | Iestatīt transportēšanas ierobežojumus krājumam                       | Globāls         |
-| **\***Set up warehouse work policies                                | Globāls         |
+| **\***Noliktavas darba politiku iestatīšana                                | Globāls         |
 
 
 
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Jaunu uzdevumu ceļveži (februārī 2016)](new-task-guides-available-february-2016.md)
+[Jauni uzdevumu ceļveži (2016. gada februāris)](new-task-guides-available-february-2016.md)
 
-[Jaunu vai atjauninātu uzdevumu ceļveži (August 2016)](new-updated-task-guides-available-august-2016.md)
+[Jauni vai atjaunināti uzdevumu ceļveži (2016. gada augusts)](new-updated-task-guides-available-august-2016.md)
 
-[Jaunu vai atjauninātu uzdevumu ceļveži (2016. gada novembrī)](new-task-guides-november-2016.md)
+[Jauni vai atjaunināti uzdevumu ceļveži (2016. gada novembris)](new-task-guides-november-2016.md)
+
+
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="view-financial-reports"></a>Skatīt finanšu pārskatus
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir aprakstīts, kā skatīt un izpētīt finanšu atskaites programmatūrā Microsoft Dynamics AX. Tas ietver informāciju par dažādām opcijām, kuras varat lietot finanšu atskaitēm, lai mainītu to izskatu un tajās ietvertos datus.
 
 <a name="financial-reporting-overview"></a>Finanšu atskaišu veidošanas apskats
@@ -48,7 +51,7 @@ Var mainīt pārskata datumu, lietot atribūtu un dimensiju filtrus vai mainīt 
 
 -   Lai mainītu pārskata pamata periodu un gadu, atlasiet pamata periodu un pamata gadu un pēc tam noklikšķiniet uz **Labi**.
 -   Lai pārskatam lietotu atribūta filtrus, atlasiet **Pievienot atribūta filtru**. Atlasiet atribūtu, ierakstiet atribūta vērtību un tad noklikšķiniet uz **Labi**. Piemēram, atlasot atribūtu **Konta kategorija**, ievadiet **PĀRDOŠANA** kā atribūta vērtību. Lai noņemtu atribūtu filtru, noklikšķiniet uz **Notīrīt**.
--   Lai lietotu dimensiju filtri rakurstabulas atskaitē, atzīmējiet **pievienot dimensijas filtrs**. Atlasiet dimensiju, un pēc tam ievadiet dimensijas ID vai sarakstā atlasiet dimensiju. Lai noņemtu dimensiju filtru, noklikšķiniet uz **Notīrīt**.
+-   Lai pārskatam lietotu dimensiju filtrus, atlasiet **Pievienot dimensiju filtru**. Atlasiet dimensiju un pēc tam vai nu ierakstiet dimensijas ID, vai atlasiet dimensiju sarakstā. Lai noņemtu dimensiju filtru, noklikšķiniet uz **Notīrīt**.
 -   Lai mainītu scenāriju pārskatā **Faktiskās pret budžeta**, atlasiet jaunu scenāriju un pēc tam noklikšķiniet uz **Labi**. Ja atlasītais scenārijs ir citam gadam, noteikti atjauniniet pamata gadu. Piemēram, ja pašreizējais scenārijs ir par FY2015 gadu, un jūs atlasījāt jaunu scenāriju FY2016 gadam, pamata gads ir jānomaina uz **2016**.
 
 Noklikšķinot uz **Labi**, pārskatā tiek lietotas visas atlasītās opcijas. Ja izlemjat, ka nevēlaties lietot atlasītās opcijas, noklikšķiniet uz **Atcelt**.
@@ -66,7 +69,7 @@ Jebkurā laikā finanšu pārskatu var parādīt jebkurā valūtā. Lai pārskat
 Finanšu pārskats var ietvert detalizētas rindas un kopsavilkuma rindas. Detalizētās rindas ir rindas, kas ietver galvenos kontus vai dimensijas. Kopsavilkuma rindas ir apraksts, kopsumma un aprēķina rinda. Lai parādītu tikai pārskata kopsavilkuma rindas, noklikšķiniet uz **Rādīt** un pēc tam noklikšķiniet uz **Tikai kopsavilkuma rindas**. Pārskats tiek sakļauts un tiek parādītas tikai kopsavilkuma rindas. Lai skatītu detalizētas rindas kopā ar kopsavilkuma rindām, noklikšķiniet uz **Rādīt** un pēc tam vēlreiz noklikšķiniet uz **Tikai kopsavilkuma rindas**.
 
 ## <a name="open-a-financial-report-from-a-previous-month"></a>Iepriekšējā mēneša finanšu pārskata atvēršana
-Varat skatīt pašreizējā mēneša vai iepriekšējo mēnešu pārskatus, neveicot atkātrotu pārskatu ģenerēšanu. Lai atvērtu atskaiti par iepriekšējo mēnesi, noklikšķiniet uz **parādīt**, un pēc tam noklikšķiniet uz **iepriekšējais atskaites**. Tiek parādīts saraksts ar iepriekšējiem mēnešiem, kas ir ģenerēta atskaite. Izvērsiet mēnesi, par kuru skatīt pārskatu, atlasiet datumu un pēc tam noklikšķiniet uz **Labi**. Tiek parādīts iepriekšējā mēneša pārskats. Lai atgrieztos pašreizējā mēneša pārskatā, noklikšķiniet uz **Atcelt**.
+Varat skatīt pašreizējā mēneša vai iepriekšējo mēnešu pārskatus, neveicot atkātrotu pārskatu ģenerēšanu. Lai atvērtu iepriekšējā mēneša pārskatu, noklikšķiniet uz **Parādīt** un pēc tam noklikšķiniet uz **Iepriekšējie pārskati**. Tiek parādīts saraksts ar iepriekšējiem mēnešiem, kad pārskats tika ģenerēts. Izvērsiet mēnesi, par kuru skatīt pārskatu, atlasiet datumu un pēc tam noklikšķiniet uz **Labi**. Tiek parādīts iepriekšējā mēneša pārskats. Lai atgrieztos pašreizējā mēneša pārskatā, noklikšķiniet uz **Atcelt**.
 
 ## <a name="print-a-financial-report"></a>Finanšu pārskata drukāšana
 Lai drukātu finanšu pārskatu, darbību rūtī noklikšķiniet uz **Drukāt** un pēc tam izpildiet vienu vai vairākas no tālāk minētajām darbībām, lai iestatītu drukas opcijas.
@@ -85,5 +88,7 @@ Lai eksportētu finanšu pārskatu, darbību rūti noklikšķiniet uz **Eksport�
 --------
 
 [Finanšu atskaišu veidošana programmatūrai Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/analytics/financial-reporting-intro)
+
+
 
 

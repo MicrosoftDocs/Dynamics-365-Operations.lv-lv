@@ -1,5 +1,5 @@
 ---
-title: "Liesās ražošanas pārskats"
+title: "Pārskats par metodi lean manufacturing"
 description: "Šajā rakstā ir sniegts apskats un apraksts par lean manufacturing līdzekļiem sistēmā Microsoft Dynamics AX."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="lean-manufacturing-overview"></a>Liesās ražošanas pārskats
+# <a name="lean-manufacturing-overview"></a>Pārskats par metodi lean manufacturing
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir sniegts apskats un apraksts par lean manufacturing līdzekļiem sistēmā Microsoft Dynamics AX.
 
@@ -49,7 +52,7 @@ Lai izveidotu Lean manufacturing pamatu, ražošanas un loģistikas procesus mod
 
 ## <a name="using-kanbans-to-signal-demand-requirements"></a> Kanban izmantošana, lai signalizētu par prasību pieprasījumiem
 Vilkšanas sistēma preces rada tikai tad, kad preces ir nepieciešamas. Šī prakse samazina piegādes izpildes laikus un lieko krājumu daudzumu. Lai plānotu, izsekotu un apstrādātu pieprasījumus, kuru pamatā ir ražošanas plūsmas, varat izmantot Kanban. Lai izveidotu Kanban struktūru, izveidojiet Kanban nosacījumus, kas definē, kad tiek izveidoti Kanban un kā tiek izpildīti pieprasījumi. Varat izveidot divus veidu Kanban nosacījumus. Ražošanas nosacījumi izveido procesa Kanban darbus, un atvilkumu Kanban nosacījumi izveido pārsūtīšanas Kanban darbus. Varat iestatīt tālāk aprakstītās papildināšanas stratēģijas.
--   Kanban nosacījumi **Fiksēts daudzums** ir saistīti ar fiksētu skaitu materiālu apstrādes vienību, kas nozīmē, ka aktīvo Kanban skaits ir konstants. Ikreiz, kad visi no Kanban produkti tiek patērēti un apstrādes vienības manuāli iztukšo, tiek izveidots jauns kanban tāda paša tipa. Veidojot noteiktu daudzumu kanban kārtulas, var aprēķināt optimālu kanban daudzumiem un produktu daudzumu, kas tiek izmantoti. Šajā aprēķinā tiek ņemtas vērā prognozes, faktiskais pieprasījums no atvērtajiem pasūtījumiem, izpildes laiks līdz krājumu papildināšanai un vēsturiskais pieprasījums.
+-   Kanban nosacījumi **Fiksēts daudzums** ir saistīti ar fiksētu skaitu materiālu apstrādes vienību, kas nozīmē, ka aktīvo Kanban skaits ir konstants. Ikreiz, kad ir patērētas visas preces no Kanban un ir manuāli iztukšotas materiālu apstrādes vienības, tiek izveidots jauns tāda paša tipa Kanban. Kad izveidojat fiksēta daudzuma Kanban nosacījumus, varat aprēķināt optimālos Kanban daudzumus un izmantotos preču daudzumus. Šajā aprēķinā tiek ņemtas vērā prognozes, faktiskais pieprasījums no atvērtajiem pasūtījumiem, izpildes laiks līdz krājumu papildināšanai un vēsturiskais pieprasījums.
 -   Kanban nosacījumi **Ieplānots** papildina pieprasījumus, kas tiek aprēķināti ar vispārējo plānošanu. Vispārējā plānošana ģenerē plānotos Kanban, kurus var apstiprināt uz Kanban.
 -   Kanban nosacījumi **Notikums** papildina pieprasījumus, kas cēlušies no pārdošanas pasūtījumu rindām, ražošanas MK rindām, Kanban rindām vai minimālo krājumu iestatījumiem. Kad tiek ģenerēti notikumu Kanban, tie tiek piesaistīti izcelsmes pieprasījumiem.
 
@@ -76,6 +79,8 @@ Kanban darbi ir pilnībā integrēti pašreizējos procesos attiecībā uz krāj
 Turklāt Lean manufacturing atbalsta pirkšanas un rēķinu izrakstīšanas procesus attiecībā uz pakalpojumiem, uz kuriem atsaucas apakšlīgumā paredzētās aktivitātes.
 -   Pirkšanas līguma rindas un pakalpojumus var piešķirt apakšlīgumā paredzētajām aktivitātēm.
 -   Varat izveidot periodiskus pirkšanas pasūtījumus un paziņojumus par saņemšanu, lai atbalstītu pakalpojumu pirkšanu un rēķinu izrakstīšanu.
+
+
 
 
 

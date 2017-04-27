@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="centralized-payments-for-accounts-payable"></a>Centralizētie maksājumi norēķiniem ar piegādātājiem
 
+[!include[banner](../includes/banner.md)]
+
+
 Organizācijas, kurās ir iekļautas vairākas juridiskās personas, var izveidot un pārvaldīt maksājumus, izmantojot vienu juridisko personu, kura apstrādā visus maksājumus. Tāpēc vieniem un tiem pašiem maksājumiem nav jāievada vairākās juridiskajās personās. Šajā rakstā ir sniegti piemēri, kas parāda, kā tiek veikta centralizēto maksājumu grāmatošana dažādās situācijās.
 
 Organizācijas, kurās ir iekļautas vairākas juridiskās personas, var izveidot un pārvaldīt maksājumus, izmantojot vienu juridisko personu, kas apstrādā visus maksājumus. Tāpēc vieniem un tiem pašiem maksājumiem nav jāievada vairākās juridiskajās personās. Turklāt organizācijas ietaupa laiku, jo maksāšanas process tiek racionalizēts.
@@ -66,14 +69,14 @@ Fabrikam East ir atvērts rēķins kreditora kontam 100, Fourth Coffee. Fabrikam
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam maksājums tiek nosegts ar Fabrikam East rēķinu
 
-**Fabrikam posting**
+**Fabrikam grāmatojums**
 
 | Konts                           | Summa debetā | Summa kredītā |
 |-----------------------------------|--------------|---------------|
 | Fabrikam East (Fabrikam) debitora parādi | 600,00       |               |
 | Parādi kreditoriem (Fabrikam)       |              | 600,00        |
 
-**Fabrikam East posting**
+**Fabrikam East grāmatojums**
 
 | Konts                          | Summa debetā | Summa kredītā |
 |----------------------------------|--------------|---------------|
@@ -99,14 +102,14 @@ Fabrikam East ir atvērts rēķins kreditoram 100, Fourth Coffee. Rēķinam ir p
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam maksājums tiek nosegts ar Fabrikam East rēķinu
 
-**Fabrikam posting**
+**Fabrikam grāmatojums**
 
 | Konts                           | Summa debetā | Summa kredītā |
 |-----------------------------------|--------------|---------------|
 | Fabrikam East (Fabrikam) debitora parādi | 580,00       |               |
 | Parādi kreditoriem (Fabrikam)       |              | 580,00        |
 
-**Fabrikam East posting**
+**Fabrikam East grāmatojums**
 
 | Konts                          | Summa debetā | Summa kredītā |
 |----------------------------------|--------------|---------------|
@@ -137,7 +140,7 @@ Fabrikam East ir atvērts rēķins kreditoram 100, Fourth Coffee. Fabrikam ievad
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam maksājums tiek nosegts ar Fabrikam East rēķinu
 
-**Fabrikam posting**
+**Fabrikam grāmatojums**
 
 | Konts                           | Summa debetā            | Summa kredītā           |
 |-----------------------------------|-------------------------|-------------------------|
@@ -146,7 +149,7 @@ Fabrikam East ir atvērts rēķins kreditoram 100, Fourth Coffee. Fabrikam ievad
 | Realizētie zaudējumi (Fabrikam)          | 0,00 EUR / 12,90 USD    |                         |
 | Fabrikam East (Fabrikam) debitora parādi |                         | 0,00 EUR / 12,90 USD    |
 
-**Fabrikam East posting**
+**Fabrikam East grāmatojums**
 
 | Konts                          | Summa debetā            | Summa kredītā           |
 |----------------------------------|-------------------------|-------------------------|
@@ -178,7 +181,7 @@ Fabrikam East ir atvērts rēķins kreditoram 100, Fourth Coffee. Šim rēķinam
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam maksājums tiek nosegts ar Fabrikam East rēķinu
 
-**Fabrikam posting**
+**Fabrikam grāmatojums**
 
 | Konts                           | Summa debetā            | Summa kredītā           |
 |-----------------------------------|-------------------------|-------------------------|
@@ -187,7 +190,7 @@ Fabrikam East ir atvērts rēķins kreditoram 100, Fourth Coffee. Šim rēķinam
 | Realizētie zaudējumi (Fabrikam)          | 0,00 EUR / 12,66 USD    |                         |
 | Fabrikam East (Fabrikam) debitora parādi |                         | 0,00 EUR / 12,66 USD    |
 
-**Fabrikam East posting**
+**Fabrikam East grāmatojums**
 
 | Konts                          | Summa debetā            | Summa kredītā           |
 |----------------------------------|-------------------------|-------------------------|
@@ -199,7 +202,7 @@ Fabrikam East ir atvērts rēķins kreditoram 100, Fourth Coffee. Šim rēķinam
 | Termiņatlaide (Fabrikam East)    |                         | 11,28 EUR / 13,61 USD   |
 
 ## <a name="example-5-vendor-credit-note-with-primary-payment"></a>5. piemērs: kreditora kredīta nota ar primāro maksājumu
-Fabrikam ģenerē 75,00 lielu maksājumu kreditoram 3004, Fourth Coffee. Maksājums ir nosegts ar atvērtu rēķinu Fabrikam West kreditoram 3004 un atvērtu kredīta notu Fabrikam East kreditoram 100. Maksājums ir atlasīts kā primārais maksājumu **norēķiniem par darījumiem** lapā.
+Fabrikam ģenerē 75,00 lielu maksājumu kreditoram 3004, Fourth Coffee. Maksājums ir nosegts ar atvērtu rēķinu Fabrikam West kreditoram 3004 un atvērtu kredīta notu Fabrikam East kreditoram 100. Šis maksājums tiek atlasīts kā primārais maksājums lapā **Segt transakcijas**.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>Rēķins ir grāmatots Fabrikam West kreditoram 3004
 
@@ -224,7 +227,7 @@ Fabrikam ģenerē 75,00 lielu maksājumu kreditoram 3004, Fourth Coffee. Maksāj
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam maksājums ir nosegts ar Fabrikam West rēķinu un Fabrikam East kredīta notu
 
-**Fabrikam posting**
+**Fabrikam grāmatojums**
 
 | Konts                           | Summa debetā | Summa kredītā |
 |-----------------------------------|--------------|---------------|
@@ -233,14 +236,14 @@ Fabrikam ģenerē 75,00 lielu maksājumu kreditoram 3004, Fourth Coffee. Maksāj
 | Fabrikam West (Fabrikam) debitora parādi | 100,00       |               |
 | Parādi kreditoriem (Fabrikam)       |              | 100,00        |
 
-**Fabrikam East posting**
+**Fabrikam East grāmatojums**
 
 | Konts                           | Summa debetā | Summa kredītā |
 |-----------------------------------|--------------|---------------|
 | Fabrikam (Fabrikam East) debitora parādi | 25,00        |               |
 | Parādi kreditoriem (Fabrikam East)  |              | 25,00         |
 
-**Fabrikam West posting**
+**Fabrikam West grāmatojums**
 
 | Konts                          | Summa debetā | Summa kredītā |
 |----------------------------------|--------------|---------------|
@@ -248,7 +251,7 @@ Fabrikam ģenerē 75,00 lielu maksājumu kreditoram 3004, Fourth Coffee. Maksāj
 | Fabrikam (Fabrikam West) kreditora parādi  |              | 100,00        |
 
 ## <a name="example-6-vendor-credit-note-without-primary-payment"></a>6. piemērs: kreditora kredīta nota bez primārā maksājuma
-Fabrikam ģenerē 75,00 lielu maksājumu kreditoram 3004, Fourth Coffee. Maksājums ir nosegts ar atvērtu rēķinu Fabrikam West kreditoram 3004 un atvērtu kredīta notu Fabrikam East kreditoram 100. Maksājums nav atlasīts kā primārais maksājumu **norēķiniem par darījumiem** lapā.
+Fabrikam ģenerē 75,00 lielu maksājumu kreditoram 3004, Fourth Coffee. Maksājums ir nosegts ar atvērtu rēķinu Fabrikam West kreditoram 3004 un atvērtu kredīta notu Fabrikam East kreditoram 100. Šis maksājums netiek atlasīts kā primārais maksājums lapā **Segt transakcijas**.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>Rēķins ir grāmatots Fabrikam West kreditoram 3004
 
@@ -273,21 +276,21 @@ Fabrikam ģenerē 75,00 lielu maksājumu kreditoram 3004, Fourth Coffee. Maksāj
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam maksājums ir nosegts ar Fabrikam West rēķinu un Fabrikam East kredīta notu
 
-**Fabrikam posting**
+**Fabrikam grāmatojums**
 
 | Konts                           | Summa debetā | Summa kredītā |
 |-----------------------------------|--------------|---------------|
 | Fabrikam West (Fabrikam) debitora parādi | 75,00        |               |
 | Parādi kreditoriem (Fabrikam)       |              | 75,00         |
 
-**Fabrikam East posting**
+**Fabrikam East grāmatojums**
 
 | Konts                                | Summa debetā | Summa kredītā |
 |----------------------------------------|--------------|---------------|
 | Pienākas no Fabrikam West (Fabrikam East) | 25,00        |               |
 | Parādi kreditoriem (Fabrikam East)       |              | 25,00         |
 
-**Fabrikam West posting**
+**Fabrikam West grāmatojums**
 
 | Konts                              | Summa debetā | Summa kredītā |
 |--------------------------------------|--------------|---------------|
@@ -295,6 +298,8 @@ Fabrikam ģenerē 75,00 lielu maksājumu kreditoram 3004, Fourth Coffee. Maksāj
 | Fabrikam (Fabrikam West) kreditora parādi      |              | 75,00         |
 | Parādi kreditoriem (Fabrikam West)     | 25,00        |               |
 | Pienākas Fabrikam East (Fabrikam West) |              | 25,00         |
+
+
 
 
 

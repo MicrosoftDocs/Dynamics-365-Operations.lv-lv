@@ -1,6 +1,6 @@
 ---
-title: "Sadarboties ar pārdevējiem, izmantojot piegādātāju portālu"
-description: "Šajā tēmā ir aprakstīts, kā iepirkuma aģenti var izmantot kreditoru portālu, lai sadarbotos ar ārējiem kreditoriem pirkšanas pasūtījumu apstiprināšanas procesa laikā. Šī informācija attiecas tikai uz februāra 2.016 &amp;maija 2016 Dynamics AX versijām."
+title: "Sadarbība ar kreditoriem, izmantojot kreditoru portālu"
+description: "Šajā tēmā ir aprakstīts, kā iepirkuma aģenti var izmantot kreditoru portālu, lai sadarbotos ar ārējiem kreditoriem pirkšanas pasūtījumu apstiprināšanas procesa laikā. Šī informācija attiecas tikai uz 2016. februāra un 2016. gada maija Dynamics AX versijām."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,11 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Sadarboties ar pārdevējiem, izmantojot piegādātāju portālu
+# <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Sadarbība ar kreditoriem, izmantojot kreditoru portālu
 
-Šajā tēmā ir aprakstīts, kā iepirkuma aģenti var izmantot kreditoru portālu, lai sadarbotos ar ārējiem kreditoriem pirkšanas pasūtījumu apstiprināšanas procesa laikā. Šī informācija attiecas tikai uz februāra 2.016 &amp;maija 2016 Dynamics AX versijām.
+[!include[banner](../includes/banner.md)]
 
-Šajā tēmā sniegtā informācija attiecas tikai uz 2016. februāra un 2016. gada maija Dynamics AX versijām. Piegādātāju portāla funkcionalitāte ir aizstāta ar paplašināto piegādātāju sadarbības funkcionalitātei Dynamics 365 darbību versija 1611. Plašāku informāciju par jauno piegādātāju sadarbības funkcionalitāti skatiet [piegādātāja sadarbības izmantošana, lai strādātu ar ārējiem kreditoriem](vendor-collaboration-work-external-vendors.md).  
+
+Šajā tēmā ir aprakstīts, kā iepirkuma aģenti var izmantot kreditoru portālu, lai sadarbotos ar ārējiem kreditoriem pirkšanas pasūtījumu apstiprināšanas procesa laikā. Šī informācija attiecas tikai uz 2016. februāra un 2016. gada maija Dynamics AX versijām.
+
+Šajā tēmā sniegtā informācija attiecas tikai uz 2016. februāra un 2016. gada maija Dynamics AX versijām. Dynamics 365 for Operations versijā 1611 kreditoru portāla funkcionalitāte ir aizstāta ar paplašināto kreditoru sadarbības funkcionalitāti. Papildinformāciju par jauno kreditoru sadarbības funkcionalitāti skatiet rakstā [Kreditoru sadarbības izmantošana darbam ar ārējiem kreditoriem](vendor-collaboration-work-external-vendors.md).  
 
 Kreditoru portāls ir paredzēts kreditoriem, kuriem nav elektronisko datu savstarpējas apmaiņas (EDI) integrācijas ar programmu Microsoft Dynamics AX pirkšanas pasūtījumu (PP) informācijas apmaiņai. Portāls ļauj iepirkuma aģentiem nosūtīt PP kreditoram un pēc tam saņemt atbildi Akceptēts vai Noraidīts tieši programmā Dynamics AX.  
 
@@ -66,9 +69,9 @@ Tālāk redzamajā tabulā ir parādīts statusa un versijas izmaiņu piemērs, 
 | Jūs nosūtāt PP jauno versiju uz kreditoru portālu. | Jaunā versija tiek reģistrēta kreditoru portālā, un statuss tiek mainīts uz **Tiek pārskatīts ārēji**. |
 | Kreditors apstiprina PP jauno versiju.           | Statuss tiek mainīts uz **Akceptēts**.                                                                |
 
-Lai apskatītu PO versijām, kas nosūta piegādātājs un piegādātāja atbildes, noklikšķiniet **žurnālos**&gt;**apstiprinājuma pieprasījumi** no PO.  
+Lai apskatītu pirkšanas pasūtījumu versijas, kas ir nosūtītas kreditoram, un kreditora atbildes, pirkšanas pasūtījumā noklikšķiniet uz **Žurnāli** &gt; **Apstiprinājuma pieprasījumi**.  
 
-Pasūtījumi, kuri nosūtīti kreditoram kā atbilde un kuriem ir statuss **Tiek pārskatīts ārēji**, parādīsies sarakstā **Pirkšanas pasūtījumi nosūtīti uz kreditoru portālu, tiek gaidīta atbilde** vai **Pirkšanas pasūtījumi nosūtīti uz kreditoru portālu, atbildēšanai ir nepieciešama darbība**. Ja maināt pasūtījumu, kas ir nosūtīts kreditoram, tā, ka statuss mainās atpakaļ uz **Apstiprināts**, tas vairs neparādās šajos sarakstos. Lai redzētu, vai tur ir bijis iepriekš atbildi uz pasūtījumu no pārdevēja, noklikšķiniet **žurnālos**&gt;**apstiprinājuma pieprasījumi**.  
+Pasūtījumi, kuri nosūtīti kreditoram kā atbilde un kuriem ir statuss **Tiek pārskatīts ārēji**, parādīsies sarakstā **Pirkšanas pasūtījumi nosūtīti uz kreditoru portālu, tiek gaidīta atbilde** vai **Pirkšanas pasūtījumi nosūtīti uz kreditoru portālu, atbildēšanai ir nepieciešama darbība**. Ja maināt pasūtījumu, kas ir nosūtīts kreditoram, tā, ka statuss mainās atpakaļ uz **Apstiprināts**, tas vairs neparādās šajos sarakstos. Lai redzētu, vai no kreditora iepriekš ir saņemta atbilde uz pasūtījumu, noklikšķiniet uz **Žurnāli** &gt; **Apstiprinājuma pieprasījumi**.  
 
 Kreditoriem nav jāapstiprina PP kreditoru portālā. Tie var arī nosūtīt e-pasta ziņojumu vai informēt par PP pieņemšanu, izmantojot citus kanālus. Pēc tam var apstiprināt pasūtījumu manuāli programmā Dynamics AX. Šajā gadījumā tiek saņemts brīdinājums, ka pasūtījums tiek akceptēts, pat tad, ja nav atbildes no kreditora. Pēc tam PP tiek parādīts apstiprināšanas vēsturē kreditoru portālā kā atvērts akceptēts pasūtījums, kuram nav atbilžu. Turklāt kreditoram vairs nav iespējas apstiprināt vai noraidīt PP.  
 
@@ -97,5 +100,7 @@ Tālāk redzamajā tabulā ir parādīts statusa un versijas izmaiņu piemērs, 
 [Kreditoru sadarbības lietotāju drošības konfigurācija](configure-security-vendor-portal-users.md)
 
 [Kreditora sadarbības rēķinu izveides darbvieta](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace)
+
+
 
 

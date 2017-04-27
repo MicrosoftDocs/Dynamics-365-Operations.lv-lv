@@ -1,6 +1,6 @@
 ---
-title: "Darbplūsmas sistēmu apskats"
-description: "Šajā rakstā ir izklāstīts, darbplūsmas sistēmā Microsoft Dynamics 365 operācijām."
+title: "Pārskats par darbplūsmas sistēmu"
+description: "Šajā rakstā ir aprakstīta darbplūsmu sistēma programmatūrā Microsoft Dynamics 365 for Operations."
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,9 +24,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="workflow-system-overview"></a>Darbplūsmas sistēmu apskats
+# <a name="workflow-system-overview"></a>Pārskats par darbplūsmas sistēmu
 
-Šajā rakstā ir izklāstīts, darbplūsmas sistēmā Microsoft Dynamics 365 operācijām.
+[!include[banner](../includes/banner.md)]
+
+
+Šajā rakstā ir aprakstīta darbplūsmu sistēma programmatūrā Microsoft Dynamics 365 for Operations.
 
 <a name="what-is-workflow"></a>Kas ir darbplūsma?
 -----------------
@@ -34,7 +37,7 @@ ms.lasthandoff: 03/31/2017
 Terminu *darbplūsma* var definēt divos veidos — gan kā sistēmu, gan kā biznesa procesu.
 ### <a name="workflow-is-a-system"></a>Darbplūsma ir sistēma
 
-Darbplūsma ir sistēma, kas ir instalēta ar Dynamics 365 operācijām un kas tiek palaista programmas objektu servera (AOS). Darbplūsmas sistēma nodrošina funkcionalitāti, kuru jūs varat izmantot, lai izveidotu individuālas darbplūsmas vai biznesa procesus.
+Darbplūsma ir sistēma, kas tiek instalēta kopā ar programmatūru Dynamics 365 for Operations un darbojas serverī Application Object Server (AOS). Darbplūsmas sistēma nodrošina funkcionalitāti, kuru jūs varat izmantot, lai izveidotu individuālas darbplūsmas vai biznesa procesus.
 
 ### <a name="workflow-is-a-business-process"></a>Darbplūsma ir biznesa process
 
@@ -46,6 +49,7 @@ Darbplūsmas sistēmas lietošanai organizācijā ir vairākas priekšrocības.
 -   **Saskaņoti procesi** — varat definēt noteiktu dokumentu, piemēram, pirkšanas pieprasījumu un izdevumu pārskatu, apstiprināšanas procesu. Izmantojot darbplūsmas sistēmu, jūs nodrošināt, ka dokumenti tiek apstrādāti un apstiprināti saskaņotā un efektīvā veidā.
 -   **Procesa pārskatāmība** — varat izsekot noteiktu darbplūsmas instanču statusa, vēsturiskajiem un veiktspējas rādītājiem. Tādējādi varat noteikt, vai ir jāveic darbplūsmas izmaiņas, lai uzlabotu efektivitāti.
 -   **Centralizēts darbu saraksts** — lietotāji var apskatīt centralizētu darbu sarakstu, kurā ir iekļauti tiem piešķirtie darbplūsmas uzdevumi un apstiprinājumi.
+
 
 
 

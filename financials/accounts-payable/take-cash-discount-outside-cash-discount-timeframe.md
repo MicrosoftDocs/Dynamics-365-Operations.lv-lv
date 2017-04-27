@@ -1,5 +1,5 @@
 ---
-title: "Termiņatlaidi, termiņatlaide periodā ārpus veikt"
+title: "Termiņatlaides ārpus termiņatlaides perioda piešķiršana"
 description: "Šajā rakstā ir aprakstīti divi scenāriji, kas izskaidro, kā var piemērot termiņatlaidi arī tad, ja maksājums tiek veikts ārpus termiņatlaides perioda."
 author: twheeloc
 manager: AnnBe
@@ -26,16 +26,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Termiņatlaidi, termiņatlaide periodā ārpus veikt
+# <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Termiņatlaides ārpus termiņatlaides perioda piešķiršana
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir aprakstīti divi scenāriji, kas izskaidro, kā var piemērot termiņatlaidi arī tad, ja maksājums tiek veikts ārpus termiņatlaides perioda.
 
-Gada 28. jūnijā, aprīlī izveido 2, 000.00 3052 kreditora rēķinu. Rēķins ir 1 procentu termiņatlaide, ja rēķins ir apmaksāts 14 dienu laikā.
+Eiprila 28. jūnijā izveido kreditoram 3052 rēķinu par summu 2000,00. Ja rēķins tiek apmaksāts 14 dienu laikā, rēķinam tiek piemērota termiņatlaide 1 procenta apmērā.
 
 ## <a name="use-cash-discount-option--always"></a>Izmantot termiņatlaides opciju = vienmēr.
 Eiprila veic maksājumu 1. jūlijā, bet tas ir pēc atlaides datuma. Eiprila atver lapu **Transakciju nosegšana**, lai skatītu nosedzamās transakcijas. 
 
-Eiprila atzīmē rēķinu kā apmaksājamu. Termiņatlaide netiek piemērota, jo maksājums tiek veikts pēc konkrētā atlaides datuma. Tomēr kreditors sniegusi aprīlī apstiprināšanas veikt termiņatlaides anyways. Tāpēc aprīļa maina vērtību **izmantot termiņatlaidi** lauku, lai **vienmēr**.
+Eiprila atzīmē rēķinu kā apmaksājamu. Termiņatlaide netiek piemērota, jo maksājums tiek veikts pēc konkrētā atlaides datuma. Tomēr kreditors ir devis Eiprilai atļauju piemērot termiņatlaidi jebkurā gadījumā. Tāpēc Eiprila maina vērtību laukā **Izmantot termiņatlaidi**, atzīmējot **Vienmēr**.
 
 | Atzīmēt     | Izmantot termiņatlaidi | Dokuments   | Konts | Termiņatlaides datums | Izpildes datums  | Rēķins | Summa darījuma valūtā | Valūta | Nosedzamā summa |
 |----------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
@@ -85,6 +88,8 @@ Atlaides informācija ir redzama lapas **Nosegt atvērtās transakcijas** apakš
 | Izmantot termiņatlaidi            | Parastais    |
 | Paņemta termiņatlaides summa          | 0,00      |
 | Ņemamā termiņatlaides summa | -5,05     |
+
+
 
 
 

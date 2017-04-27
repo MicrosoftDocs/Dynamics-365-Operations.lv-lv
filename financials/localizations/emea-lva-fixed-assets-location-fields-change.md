@@ -1,6 +1,6 @@
 ---
-title: "Pamatlīdzekļu atrašanās vietas izmaiņu reģistrēšanas Latvija"
-description: "Šajā tēmā ir informācija par izmaiņu reģistrēšanu funkcionalitāti pamatlīdzekļa atrašanās laukos juridiskas personas ar primāro adresi, Latvija."
+title: "Sekošana līdzi pamatlīdzekļu novietojuma maiņām Latvijai"
+description: "Šajā tēmā ir sniegta informācija par izmaiņu izsekošanas funkcionalitāti attiecībā uz pamatlīdzekļu novietojuma laukiem juridiskajām personām, kuru primārā adrese atrodas Latvijā."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,22 +25,27 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="fixed-assets-location-change-tracking-for-latvia"></a>Pamatlīdzekļu atrašanās vietas izmaiņu reģistrēšanas Latvija
+# <a name="fixed-assets-location-change-tracking-for-latvia"></a>Sekošana līdzi pamatlīdzekļu novietojuma maiņām Latvijai
 
-Šajā tēmā ir informācija par izmaiņu reģistrēšanu funkcionalitāti pamatlīdzekļa atrašanās laukos juridiskas personas ar primāro adresi, Latvija.
+[!include[banner](../includes/banner.md)]
 
-Juridiskām personām ar primārā adrese ir Latvija, modificējot šos laukus **pamatlīdzekļu** lapu, modifikācijas ierakstu tiek saglabāts vēlākai apskatei.
+
+Šajā tēmā ir sniegta informācija par izmaiņu izsekošanas funkcionalitāti attiecībā uz pamatlīdzekļu novietojuma laukiem juridiskajām personām, kuru primārā adrese atrodas Latvijā.
+
+Juridiskajām personām, kuru primārā adrese atrodas Latvijā, kad lapā **Pamatlīdzeklis** modificējat tālāk uzskaitītos laukus, tiek saglabāts modifikāciju pārskats vēlākai apskatīšanai.
 
 -   Atbildīgā persona
 -   Nodaļa
 -   Novietojums
 
-Tiek saglabāts jūsu modifikācijas, noklikšķinot uz **saglabāt** vai pārvietojot savu fokusu prom no lauka, kur veicāt izmaiņas. Modifikāciju vēsture, šo lauku varat skatīt, veicot šādas darbības:
+Jūsu modifikācija tiek saglabāta, kad noklikšķināt uz **Saglabāt** vai kad fokusu pārvietojat no lauka, kurā veicāt šīs izmaiņas. Šo lauku modifikāciju vēsturi varat apskatīt, izpildot tālāk sniegtos norādījumus.
 
-1.  Noklikšķiniet uz **Pamatlīdzekļi**&gt;**Pamatlīdzekļi**&gt;**Pamatlīdzekļi**.
+1.  Noklikšķiniet uz **Pamatlīdzekļi** &gt; **Pamatlīdzekļi** &gt; **Pamatlīdzekļi**.
 2.  Atlasiet pamatlīdzekli.
-3.  Par **pamatlīdzekļu** cilni, noklikšķiniet uz **pārvedumi**&gt;**iekšējās pārsūtīšanas vēsturi**.
-4.  Pēc izvēles: Noklikšķiniet uz **drukas**&gt;**iekšējās pārvietošanas deklarāciju**.
+3.  Cilnē **Pamatlīdzeklis** noklikšķiniet uz **Pārsūtījumi** &gt; **Iekšējās pārsūtīšanas vēsture**.
+4.  Neobligāti: noklikšķiniet uz **Drukāt** &gt; **Pārvietošanas akts**.
+
+
 
 
 

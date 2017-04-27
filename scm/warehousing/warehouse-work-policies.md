@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="warehouse-work-policies"></a>Noliktavas darba politikas
 
+[!include[banner](../includes/banner.md)]
+
+
 Versijā Microsoft Dynamics AX 7.0.1 (2016. gada maija atjauninājums) ir ieviesta jauna noliktavas darba politika. Šī darba politika kontrolē to, vai ražošanā noliktavas procesiem tiek izveidots noliktavas darbs.
 
-Šī darba politika kontrolē to, vai ražošanā noliktavas procesiem tiek izveidots noliktavas darbs. Šo darba politiku varat iestatīt, izmantojot kombināciju no vienumiem **darba pasūtījuma veidi**, **krājumu novietojums** un **prece**. Piemēram, produkta L0101 tiek ziņota kā pabeigta izvades vietu 001. Vēlāk pabeigta prece tiek patērēts citā ražošanas pasūtījumā izvades vietā 001. Šajā gadījumā var iestatīt darba politiku, lai neļautu gatavās produkcijas izvietošanas darbā tiek veidota, ziņojot produkta L0101 pabeigšanu izvades vietu 001. Darba politika ir atsevišķs elements, ko var aprakstīt ar tālāk norādīto informāciju.
+Šī darba politika kontrolē to, vai ražošanā noliktavas procesiem tiek izveidots noliktavas darbs. Šo darba politiku varat iestatīt, izmantojot kombināciju no vienumiem **darba pasūtījuma veidi**, **krājumu novietojums** un **prece**. Piemēram, prece L0101 tiek ziņota kā pabeigta uz izvades novietojumu 001. Vēlāk šī pabeigtā prece tiek patērēta citā ražošanas pasūtījumā izvades novietojumā 001. Šajā gadījumā varat iestatīt darba politiku, lai neļautu izveidot darbu gatavo preču izvietošanai, kad preci L0101 ziņojat kā pabeigtu uz izvades novietojumu 001. Darba politika ir atsevišķs elements, ko var aprakstīt ar tālāk norādīto informāciju.
 
--   **Darba politikas nosaukums **(darba politikas unikālais identifikators)
--   **Darba pasūtījumu veidi **un** Darba izveidošanas metode**
+-   **Darba politikas nosaukums** (darba politikas unikālais identifikators)
+-   **Darba pasūtījumu veidi** un **Darba izveidošanas metode**
 -   **Krājumu vietas**
 -   **preces.**
 
@@ -55,7 +58,7 @@ Varat atlasīt preci, uz kuru attiecas šī darba politika. Darba politiku varat
 ## <a name="example"></a>Piemērs
 Nākamajā piemērā ir divi ražošanas pasūtījumi, PRD-001 un PRD-00*2*. Ražošanas pasūtījumā PRD-001 ir operācija ar nosaukumu **Montāža**, kur prece SC1 tiek ziņota kā pabeigta uz novietojumu O1. Ražošanas pasūtījumā PRD-002 ir operācija ar nosaukumu **Krāsošana**, un tas patērē preci SC1 no novietojuma O1. Ražošanas pasūtījums PRD-002 patērē arī izejmateriālu RM1 no novietojuma O1. Izejmateriāls RM1 tiek glabāts noliktavas novietojumā BULK-001 un ar noliktavas darbu izejmateriālu izdošanai tiks izdots uz novietojumu O1. Izdošanas darbs tiek ģenerēts, kad tiek izlaista ražošana PRD-002. 
 
-[![Warehouse work policies](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png) 
+[![Noliktavas darba politikas](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png) 
 
 Kad plānojat konfigurēt noliktavas darba politiku šim scenārijam, ir jāņem vērā tālāk norādītā informācija.
 
@@ -66,12 +69,12 @@ Kad plānojat konfigurēt noliktavas darba politiku šim scenārijam, ir jāņem
 
 |                                         |                                                       |
 |-----------------------------------------|-------------------------------------------------------|
-|**Work policy name**<br>                 |**Work order types**<br>                               |
-| Nē, nolikšu 01'                    |-Pabeigta prece izvietota<br>                           |
-|                                         |**Locations**<br>                                      |
-|                                         |-O1   |                                               |
-|                                         |**Products** <br>                                      |
-|                                         |-SC1                                                  |
+|**Darba politikas nosaukums**<br>                 |**Darba pasūtījumu veidi**<br>                               |
+| Nav izvietošanas 01     `                    |- Pabeigtas preces izvietošana<br>                           |
+|                                         |**Novietojumi**<br>                                      |
+|                                         |- O1   |                                               |
+|                                         |**Preces** <br>                                      |
+|                                         |- SC1                                                  |
 
 Nākamajās procedūrās ir sniegtas detalizētas instrukcijas par to, kā iestatīt noliktavas darba politiku šim scenārijam. Ir aprakstīts arī piemēra iestatījums, kurā redzams, kā ražošanas pasūtījumu ziņot kā pabeigtu uz novietojumu, kas nav atkarīgs no noliktavas vienības.
 
@@ -244,5 +247,7 @@ DARBĪBAS (25)
 </tr>
 </tbody>
 </table>
+
+
 
 

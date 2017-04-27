@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-planning-integration-with-other-modules"></a>Budžeta plānošanas integrācija ar citiem moduļiem
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 <a name="periodic-processes-for-generating-budget-plans"></a>Periodiskie procesi budžeta plānu ģenerēšanai
@@ -49,13 +52,13 @@ Periodiskā procesa pamatelementi ir vienādi visiem procesiem. Cilnes ļauj def
 
 Katram ražošanas procesam ir pieejamas trīs darbības:
 
--   **Izveidot jaunu budžeta plānu** izveido jaunu plānu, kuram ir tādi atribūti, kas atlasītas elementā * * mērķa * * sadaļu. Šiem atribūtiem nav jābūt unikāliem. Tāpēc diviem plāniem var būt vienāds nosaukums un citas vērtības.
+-   Ar darbību **Izveidot jaunu budžeta plānu** tiek izveidots jauns plāns, kuram ir sadaļā **Mērķis** atlasītie atribūti. Šiem atribūtiem nav jābūt unikāliem. Tāpēc diviem plāniem var būt vienāds nosaukums un citas vērtības.
 -   **Aizstāt esošo budžeta plāna scenāriju** dzēš visus datus mērķa budžeta plānā atlasītajā budžeta plāna scenārijā un izveido jaunas rindas, kas lieto atlasītos avota datus.
 -   **Atjaunināt esošo budžeta plāna scenāriju un pievienot jaunus datus** atjaunina esošās rindas mērķa plānā, kas atbilst avota rindām, un pievieno jaunas rindas jauniem datiem. Atbilstības pamatā ir Virsgrāmatas konts, datums, budžeta klase un dažādi citi lauki. Piemēram, ģenerējot budžeta plānus no prognozes pozīcijām, pozīcijas numurs ir svarīgs lauks. Visas rindas, kurām ir pozīcijas numurs, kas atbilst avota pozīcijas numuram, tiek aizstātas ar jaunām rindām no avota.
 
 ### <a name="source"></a>Avots
 
-Visiem procesiem **avots** zīmne ļauj filtrēt datus, izmantojot **filtra** pogu. Pēc noklusējuma filtrs katram procesam tiek pievienoti īpašās jomās. Piemēram, procesam **Budžeta plāna ģenerēšana no virsgrāmatas** ir pieejamas un tiek rādītas ģenerēšanas lapā kategorijas **Virsgrāmatas konts** un **Galvenais konts**. Lauki, kurus pievienojat filtram, tiek pievienoti arī lapai, kopā ar jebkuriem kritērijiem, ko pievienojat.
+Visiem procesiem cilne **Avots** jums ļauj filtrēt datus, izmantojot pogu **Filtrs**. Pēc noklusējuma katram procesam filtram tiek pievienoti noteikti lauki. Piemēram, procesam **Budžeta plāna ģenerēšana no virsgrāmatas** ir pieejamas un tiek rādītas ģenerēšanas lapā kategorijas **Virsgrāmatas konts** un **Galvenais konts**. Lauki, kurus pievienojat filtram, tiek pievienoti arī lapai, kopā ar jebkuriem kritērijiem, ko pievienojat.
 
 ### <a name="target"></a>Mērķis
 
@@ -63,7 +66,7 @@ Opcija **Vēsturiskais** cilnē **Mērķis** ļauj jums izmantot datumus no datu
 
 Lauks **Apkopot kopsummu pēc** lapas augšdaļā arī nosaka izmantoto datumu. Šajā laukā aprēķina kopsummas, un pēc izvēles iestata spēkā stāšanās datumu uz finanšu gadu vai finanšu perioda pirmo dienu. 
 
-Daudzi no laukiem cilnē **Mērķis** kļūst rediģējami vai tikai lasāmi atkarībā no atlasītās darbības. Pārejot no jauna budžeta plāna izveides uz esošā plāna atjaunināšanu, lauks **Budžeta plāna nosaukums** kļūst nepieejams, un kļūst pieejami lauki, kas ir saistīti ar esošā plāna atlasi. Gan **Target** tab un * * avota * * tab, **grāmatas** lauks nav vienmēr pieejams, jo vērtību nosaka pēc atlasītā budžeta plānošanas procesā. 
+Daudzi no laukiem cilnē **Mērķis** kļūst rediģējami vai tikai lasāmi atkarībā no atlasītās darbības. Pārejot no jauna budžeta plāna izveides uz esošā plāna atjaunināšanu, lauks **Budžeta plāna nosaukums** kļūst nepieejams, un kļūst pieejami lauki, kas ir saistīti ar esošā plāna atlasi. Cilnē **Mērķis** un cilnē **Avots** nekad nav pieejams lauks **Virsgrāmata**, jo šī vērtība tiek noteikta ar atlasīto budžeta plānošanas procesu. 
 
 Lauks **Budžeta klase** var iestatīt budžeta plāna rindas kā izdevumu transakcijas vai ieņēmumu transakcijas. Parasti, ieņēmumu transakcijas ir kredīti Virsgrāmatas kontā un tādējādi saglabātas kā negatīvas summas. Parasti šīs transakcijas parādās arī kā negatīvas summas budžeta plānā. Tomēr, pievienojot budžeta klasi kā lauku plāna izkārtojumā, varat iespējot opciju, lai ieņēmumi tiktu rādīti kā pozitīvas summas.
 
@@ -73,7 +76,7 @@ Trīs lauki nodrošina papildu funkcionalitāti: **Faktors**, **Minimums** un **
 
 Vērtība laukā **Faktors** tiek reizināta ar avota summu, lai iestatītu daudzumu budžeta plānā. Pielāgojumus var veikt pēc budžeta plāna rindu izveides. Piemēram, jūs varat ievadīt **1,03** 3 procentu pieaugumam. Šim koeficientam jābūt pozitīvam skaitlim. 
 
-Lauks **Minimums** ļauj iestatīt sliekšņa summu budžeta plāna rindu veidošanai. Ja avota summa ir mazāka par šo skaitli, budžeta plāna rinda netiek izveidota. Vērtība ir **0.00** ļauj visas summas, bet ne ierobežot līnijas pozitīvas summas. (Nav vērtības robežas līnijas pozitīvas summas. Negatīvas summas vienmēr tiek iekļauti un parasti atspoguļo kredīta ierakstu.)
+Lauks **Minimums** ļauj iestatīt sliekšņa summu budžeta plāna rindu veidošanai. Ja avota summa ir mazāka par šo skaitli, budžeta plāna rinda netiek izveidota. Vērtība **0,00** ļauj izmantot visas summas, bet neierobežo rindas uz pasīvajām summām. (Neviena vērtība rindas neierobežo uz pasīvajām summām. Negatīvas summas vienmēr ir iekļautas, un parasti tās apzīmē kredīta ierakstus.)
 
 Lauks **Noapaļošanas nosacījumi** ļauj iestatīt izveidoto budžeta plāna rindu precizitāti. Var noapaļot summas līdz valūtas tuvākajai vērtībai 1,00, 10,00, 100,00 utt.
 
@@ -86,13 +89,13 @@ Mērķī lauks **Budžeta klase** ir iestatīts uz **Izdevumi** vai **Ieņēmumi
 
 ### <a name="generate-budget-plan-from-fixed-assets"></a>Budžeta plāna ģenerēšana no pamatlīdzekļiem
 
-Procesam **Budžeta plāna ģenerēšana no pamatlīdzekļiem** nav opcijas apvienošanai pēc perioda vai dienas. Nav arī nosakot plāna kā vēsturisku iespēju. Šī periodiskā procesā var izmantot, lai budžeta plānošanā iekļaut prognozēto pamatlīdzekļu darbības.
+Procesam **Budžeta plāna ģenerēšana no pamatlīdzekļiem** nav opcijas apvienošanai pēc perioda vai dienas. Nav arī nevienas opcijas plāna iestatīšanai par vēsturisku. Šo periodisko procesu varat izmantot, lai budžeta plānošanā iekļautu prognozētās pamatlīdzekļu transakcijas.
 
 ### <a name="generate-budget-plan-from-forecast-positions"></a>Budžeta plāna ģenerēšana no prognozes pozīcijām
 
 Process **Budžeta plāna ģenerēšana no prognozes pozīcijām** piešķir avota prognozes pozīciju budžeta plāna rindai. Pozīciju var skatīt, pievienojot prognozes pozīciju kā rindu budžeta plāna izkārtojumā vai izmantojot pieprasījumu **Budžeta plāna rindas**. Ja nevēlaties piešķirt prognozes pozīciju budžeta plāna rindām, iestatiet opciju **Ietvert pozīciju budžeta plāna rindā** uz **Nē**.
 
-Rindas budžeta plānā ir apkopoti pēc Virsgrāmatas konta un pozīciju. Tomēr tā vietas numuru atmiņā, var izslēgt tāpēc, ka līnijas ir apkopoti tikai Virsgrāmatas konts. Cilnē **Mērķis** iestatiet opciju **Ietvert pozīciju budžeta plānā** uz **Nē**.
+Budžeta plāna rindas ir apkopotas pēc virsgrāmatas konta un pozīcijas. Taču pozīcijas numuru varat izslēgt, lai rindas tiktu apkopotas tikai pēc virsgrāmatas konta. Cilnē **Mērķis** iestatiet opciju **Ietvert pozīciju budžeta plānā** uz **Nē**.
 
 Laukā **budžeta plāna FTE scenārijs** var atlasīt scenāriju, lai ietvertu pilnas slodzes ekvivalentu (FTE) skaitu budžeta plānā. Šis lauks ir ierobežots ar daudzuma tipa scenārijiem, kas ir iekļauti mērķa budžeta plāna izkārtojumā. Ja atlasāt FTE scenāriju, jāatlasa arī FTE galvenais konts. Šis konts tiek izmantots, lai izveidotu daudzuma budžeta plāna rindas. 
 
@@ -140,5 +143,7 @@ Atlasiet rindu un noklikšķiniet uz pogas **Budžeta plāna rindas**, lai izpil
 Izmantojiet pogas **Piegādes apjoma prognoze** un **Pieprasījuma apjoma prognoze**, lai izpildītu šos vaicājumus. Abos gadījumos vaicājums meklē budžeta rindas, kuras varētu izveidot budžeta plāna rindas. 
 
 Pieejamie papildu pārskati ietver pārskatu **Prognozes pozīcijas pēc budžeta plāna**. Šis pārskats ir īpaši noderīgs, ja vēlaties noskaidrot, vai pozīcija ir pareizi piešķirta budžeta plāniem.
+
+
 
 

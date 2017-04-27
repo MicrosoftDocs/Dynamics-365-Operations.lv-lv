@@ -1,5 +1,5 @@
 ---
-title: "Karti dažādu izmaksu elementu dimensiju biedriem kopīgo dimensiju dalībnieku kopu"
+title: "Dažādu izmaksu elementa dimensijas dalībnieku kartēšana ar vispārēju izmaksu elementa dimensijas dalībnieku kopu"
 description: "Kartējot dažādu izmaksu elementa dimensiju dalībniekus vienotā izmaksu elementa dimensijas dalībnieku kopā, jūs sapludināt datus vispārējā formātā analīzes nolūkiem."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="map-different-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Karti dažādu izmaksu elementu dimensiju biedriem kopīgo dimensiju dalībnieku kopu
+# <a name="map-different-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Dažādu izmaksu elementa dimensijas dalībnieku kartēšana ar vispārēju izmaksu elementa dimensijas dalībnieku kopu
 
 Kartējot dažādu izmaksu elementa dimensiju dalībniekus vienotā izmaksu elementa dimensijas dalībnieku kopā, jūs sapludināt datus vispārējā formātā analīzes nolūkiem.
 
@@ -38,10 +38,10 @@ Ja jūs esat globāla kompānija un atbilstat likumā noteiktajām grāmatvedīb
 |-----------------------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------|
 | Importēto izmaksu elementa dimensijas dalībnieki no ASV kontu plāna | Importēto izmaksu elementa dimensijas dalībnieki no Francijas kontu plāna | ASV un Francijas izmaksu elementa dimensijas dalībnieku kartēšana vienotā kopā |
 | 5001: Pārdošana                                                           | 5001: Pārdošana un reklāma                                               | 5000: Pārdošana un reklāma                                             |
-| 5030: Reklāma                                                     | 6390: akciju pirkšanas\*                                                    | 7000: Tīrīšanas izdevumi                                                 |
+| 5030: Reklāma                                                     | 6390: Krājumu pirkšana\*                                                    | 7000: Tīrīšanas izdevumi                                                 |
 | 7001: Tīrīšanas izdevumi                                               | 7001: Komandējuma izdevumi                                                      | 7001: Komandējuma izdevumi                                                   |
 
-\*Dimensiju dalībvalstu akciju pirkšanas Francijas izmaksu elements nav kartēts.
+\*Francijas izmaksu elementa dimensijas dalībnieks Krājumu pirkšana netiek kartēts.
 
 ## <a name="currency-conversion"></a>Valūtas konvertācija
 Dažādus kontu plānus, ko jūs izmantojat iespējams iestatīt izmantošanai dažādās valūtās. Šajā gadījumā noteikti norādiet valūtas konvertāciju, lai izmaksu dati tiek apstrādāti, izmantojot pareizo valūtu, kā definēts izmaksu uzskaites virsgrāmatā, kur tiek izmantoti izmaksu elementa dimensijas dalībnieki. Iepriekšējā piemērā, ja izmaksu uzskaites virsgrāmatā tiek izmantoti ASV dolāri (USD), nepieciešams izveidot valūtas konvertāciju no USD uz eiro (EUR), lai apstrādātu darījumus kartētajiem izmaksu elementa dimensijas dalībniekiem.

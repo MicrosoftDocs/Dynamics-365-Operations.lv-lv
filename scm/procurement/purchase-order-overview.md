@@ -27,15 +27,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-order-overview"></a>Pirkšanas pasūtījuma apskats
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegta vispārīga informācija par pirkšanas pasūtījumiem (PP) un saites uz papildu rakstiem, kas ir saistīti ar dažādajiem PP apstrādes posmiem.
 
 Pirkšanas pasūtījums (PP) ir dokuments, kas atspoguļo vienošanos ar kreditoru par preču vai pakalpojumu iegādi. Šis dokuments palīdz arī sekot līdzi informācijai par produktu ieejas plūsmu, kuras tiek veikta saistībā ar pasūtījumu, un vēlāk veikt uzskaiti kreditora rēķiniem, ko šis kreditors izraksta saistībā ar pasūtījumu.  
 
-Lapā **Pirkšanas pasūtījumi** ir sniegts pārskats par pieejamajiem pasūtījumiem, un tā jums ļauj modificēt šos pasūtījumus. Kad atverat pārdošanas pasūtījumu, varat atlasīt skatu **Virsraksts**, kur ir sniegta informācija, kas katram PP ir norādīta tikai vienu reizi, piemēram, informācija par kreditoru. Varat arī atlasīt skatu **Rindas**, kur varat modificēt pasūtījuma rindas. Parasti jums pārslēgties starp šiem diviem skatiem, kā modificēt POs. Maksājumi nav uzskaitīti tieši **pirkšanas pasūtījumiem** lapu, bet ir piekļūt, izmantojot izvēlnes pasūtījuma virsrakstā un rindās.  
+Lapā **Pirkšanas pasūtījumi** ir sniegts pārskats par pieejamajiem pasūtījumiem, un tā jums ļauj modificēt šos pasūtījumus. Kad atverat pārdošanas pasūtījumu, varat atlasīt skatu **Virsraksts**, kur ir sniegta informācija, kas katram PP ir norādīta tikai vienu reizi, piemēram, informācija par kreditoru. Varat arī atlasīt skatu **Rindas**, kur varat modificēt pasūtījuma rindas. Parasti šie skati tiek pārslēgti pirkšanas pasūtījumu modificēšanas laikā. Maksas nav tieši norādītas lapā **Pirkšanas pasūtījumi**, bet tām var piekļūt, izmantojot izvēlnes pasūtījuma virsrakstā un rindās.  
 
 Pastāv daudzas atskaites, kur varat apskatīt informāciju par pirkšanas pasūtījumiem, produktu ieejas plūsmām un kreditoru rēķiniem. Šīs atskaites atrodas moduļos **Sagāde un avoti** un **Kreditori**.  
 
-Darbvietas **Pirkšanas pasūtījumu sagatavošana** un **Pirkšanas pasūtījuma ieejas plūsma un papilddati** jums ļauj skatīt pirkšanas pasūtījumu sarakstus dažādajos to apstrādes stāvokļos. Tie sniedz arī kopsavilkumu par veicamajām darbībām. Darbvieta **Pirkšanas pasūtījumu sagatavošana** ir koncentrēta uz pirkšanas pasūtījumu izveidošanu un pārskatīšanu, pasūtījuma apstrādāšanu, izmantojot apstiprinājumu, kā arī ratificēšanu no kreditora. **Pirkšanas pasūtījuma saņemšanas un turpinājumu** darbvieta ir vērsta uz precēm vai pakalpojumiem, pret POs saņemšanas apstrāde. Tajā ir iekļauti sarakstos, kas sniedz ieskatu par ieņēmumiem, kas nokavēts, vai ka drīz būs jāmaksā par piegādi, piegādātājs. Šīs darbvietas netiek izmantots, lai veiktu saistītās ieejas plūsmu aktivitātes, kuras tiek izpildītas noliktavā. Šīs aktivitātes tiek veiktas, izmantojot lapas moduļos **Krājumu vadība** un **Noliktavas valdība**. Kreditoru rēķinu apstrādāšana ir jāveic, izmantojot darbvietu **Kreditora rēķina ieraksts**, un maksājumi ir jāizpilda, izmantojot darbvietu **Kreditoru maksājumi**.  
+Darbvietas **Pirkšanas pasūtījumu sagatavošana** un **Pirkšanas pasūtījuma ieejas plūsma un papilddati** jums ļauj skatīt pirkšanas pasūtījumu sarakstus dažādajos to apstrādes stāvokļos. Tie sniedz arī kopsavilkumu par veicamajām darbībām. Darbvieta **Pirkšanas pasūtījumu sagatavošana** ir koncentrēta uz pirkšanas pasūtījumu izveidošanu un pārskatīšanu, pasūtījuma apstrādāšanu, izmantojot apstiprinājumu, kā arī ratificēšanu no kreditora. Darbvieta **Pirkšanas pasūtījuma ieejas plūsma un papilddati** ir saistīta ar pirkšanas pasūtījumiem atbilstošo preču vai pakalpojumu ieejas plūsmas apstrādi. Tajā ir ietverti saraksti, kas sniedz ieskatu par ieejas plūsmām, kuras ir nokavētas vai kuras drīz būs jāpiegādā piegādātājam. Šīs darbvietas netiek izmantots, lai veiktu saistītās ieejas plūsmu aktivitātes, kuras tiek izpildītas noliktavā. Šīs aktivitātes tiek veiktas, izmantojot lapas moduļos **Krājumu vadība** un **Noliktavas valdība**. Kreditoru rēķinu apstrādāšana ir jāveic, izmantojot darbvietu **Kreditora rēķina ieraksts**, un maksājumi ir jāizpilda, izmantojot darbvietu **Kreditoru maksājumi**.  
 
 Tālāk norādītajos rakstos ir sniegts apskats par dažādajiem PP apstrādes posmiem.
 
@@ -45,7 +48,7 @@ Tālāk norādītajos rakstos ir sniegts apskats par dažādajiem PP apstrādes 
 -   [Kreditoru rēķinu apskats](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
 
 ## <a name="types-of-purchase-orders"></a>Pirkšanas pasūtījumu tipi
-Pastāv trīs veidu POs. Veidojot PO, jānorāda tips. Noklusējuma pasūtījuma tipu jauniem pasūtījumiem varat iestatīt lapā **Sagādes un avotu parametri**.
+Ir pieejami trīs pirkšanas pasūtījumu veidi. Kad izveidojat pirkšanas pasūtījumu, ir jānorāda tā veids. Noklusējuma pasūtījuma tipu jauniem pasūtījumiem varat iestatīt lapā **Sagādes un avotu parametri**.
 
 | PP tips        | Apraksts                                                                                                                                                                                                                                                                           |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -80,12 +83,14 @@ Lauks **Apstiprinājuma statuss** tiek izmantots, kad pirkšanas pasūtījumam t
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Purchase order creation](purchase-order-creation.md)
+[Pirkšanas pasūtījuma izveide](purchase-order-creation.md)
 
 [Pirkšanas pasūtījumu apstiprināšana un ratificēšana](purchase-order-approval-confirmation.md)
 
 [Produktu ieejas plūsma pret pirkšanas pasūtījumiem](product-receipt-against-purchase-orders.md)
 
 [Kreditoru rēķinu apskats](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

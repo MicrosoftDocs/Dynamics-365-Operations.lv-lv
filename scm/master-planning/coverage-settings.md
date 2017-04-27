@@ -29,13 +29,16 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="coverage-settings"></a>Vajadzības iestatījumi
 
+[!include[banner](../includes/banner.md)]
+
+
 Vispārējā plānošana izmanto vajadzības iestatījumus, lai aprēķinātu krājumu vajadzības. 
 
 Jūs varat norādīt vajadzības iestatījumus vairākos veidos:
 
--   Norādiet vajadzību grupas vajadzības iestatījumus. Varat izveidot vajadzību grupu, kas satur iestatījumus visām precēm, kuras ir saistītas ar šo vajadzību grupu. Noklikšķiniet uz **vispārējā plānošana &gt;Setup &gt;vajadzību &gt;Coverage groups**, lai izveidotu vajadzību grupu. Vajadzību grupu varat saistīt ar preci. Ja saite attiecas uz noteiktu vietu, noliktavu vai preces dimensiju, izmantojiet lauku **Vajadzības grupa** lapā **Krājumu vajadzība**. Ja saite ir vispārīga un nav atkarīga no preču dimensijām, izmantojiet lauku **Vajadzības grupa** lapas **Detalizēta informācija par preci** kopsavilkuma cilnē **Plāns**. Ja vajadzību grupa netiek saistīta ar preci, vispārējai plānošanai pēc noklusējuma tiek izmantota lauka **Vispārējā vajadzību grupa** vērtība, kas ir norādīta lapā **Vispārējās plānošanas parametri**.
+-   Norādiet vajadzību grupas vajadzības iestatījumus. Varat izveidot vajadzību grupu, kas satur iestatījumus visām precēm, kuras ir saistītas ar šo vajadzību grupu. Lai izveidotu vajadzību grupu, noklikšķiniet uz **Vispārējā plānošana &gt; Iestatīšana &gt; Vajadzība &gt; Vajadzības grupas**. Vajadzību grupu varat saistīt ar preci. Ja saite attiecas uz noteiktu vietu, noliktavu vai preces dimensiju, izmantojiet lauku **Vajadzības grupa** lapā **Krājumu vajadzība**. Ja saite ir vispārīga un nav atkarīga no preču dimensijām, izmantojiet lauku **Vajadzības grupa** lapas **Detalizēta informācija par preci** kopsavilkuma cilnē **Plāns**. Ja vajadzību grupa netiek saistīta ar preci, vispārējai plānošanai pēc noklusējuma tiek izmantota lauka **Vispārējā vajadzību grupa** vērtība, kas ir norādīta lapā **Vispārējās plānošanas parametri**.
 
--   Norādiet preces vajadzības iestatījumus. Varat izveidot vajadzību iestatījumus noteiktai precei. Noklikšķiniet uz **produkta informācijas pārvaldības &gt;produkti &gt;atbrīvo produktus**. Izvēlēties produktu, par **darbību rūti**, **plāns** cilni, jo **vajadzību grupu**, noklikšķiniet uz **krājumu vajadzība** atvērt **krājumu vajadzība** lapu. Ja prece jau ir saistīta ar vajadzību grupu, varat ignorēt vajadzību grupas iestatījumus, izmantojot lauku **Ignorēt**. Vajadzības iestatījumiem lapā **Krājumu vajadzība** ir augstāka prioritāte nekā iestatījumiem lapā **Vajadzības grupa**.
+-   Norādiet preces vajadzības iestatījumus. Varat izveidot vajadzību iestatījumus noteiktai precei. Noklikšķiniet uz **Preču informācijas pārvaldība &gt; Preces &gt; Izlaistās preces**. Atlasiet preci lapas sadaļā **Darbību rūts**, cilnē **Plāns**, **Vajadzības grupa** un noklikšķiniet uz **Krājumu vajadzība**, lai atvērtu lapu **Krājumu vajadzība**. Ja prece jau ir saistīta ar vajadzību grupu, varat ignorēt vajadzību grupas iestatījumus, izmantojot lauku **Ignorēt**. Vajadzības iestatījumiem lapā **Krājumu vajadzība** ir augstāka prioritāte nekā iestatījumiem lapā **Vajadzības grupa**.
 
 <!-- -->
 
@@ -43,13 +46,15 @@ Jūs varat norādīt vajadzības iestatījumus vairākos veidos:
 
 <!-- -->
 
--   Norādiet dimensiju grupas vajadzības iestatījumus. Noklikšķiniet uz **produkta informācijas pārvaldības &gt;kopējo &gt;atbrīvo produktus**. Uz * * atbrīvo produkta detaļas * * lapa, no **vispārējā** cilni, jo **administrācija** grupu, noklikšķiniet uz **glabāšanas dimensiju grupu** saiti. Lapā **Noliktavas dimensiju grupa** atlasiet lauku **Vajadzības plāns pa dimensijām**, lai izveidotu vajadzības iestatījumus dimensijai noliktavas dimensiju grupā. Visu produktu dimensijas, piemēram, konfigurācijas, krāsu, izmērus, stilu, ir jābūt **vajadzības plāns pa dimensijām** atlasītais lauks.
+-   Norādiet dimensiju grupas vajadzības iestatījumus. Noklikšķiniet uz **Preču informācijas pārvaldība &gt; Vispārīgi &gt; Izlaistās preces**. Lapas **Detalizēta informācija par izlaistajām precēm** cilnes **Vispārīgi**, grupā **Administrēšana** noklikšķiniet uz saites **Noliktavas dimensiju grupa**. Lapā **Noliktavas dimensiju grupa** atlasiet lauku **Vajadzības plāns pa dimensijām**, lai izveidotu vajadzības iestatījumus dimensijai noliktavas dimensiju grupā. Lauks **Vajadzības plāns pa dimensijām** ir jāatlasa visām preces dimensijām, piemēram, konfigurācijai, krāsai, izmēram un stilam.
 
 
 
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Master plans](master-plans.md)
+[Vispārējie plāni](master-plans.md)
+
+
 
 

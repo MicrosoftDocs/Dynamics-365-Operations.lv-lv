@@ -1,6 +1,6 @@
 ---
-title: Korekcijas noteikumi
-description: "Šajā tēmā ir sniegta informācija par likvidēšanas noteikumus un piedāvā dažādas iespējas ziņošanai par izslēgšanu."
+title: "Korekciju kārtulas"
+description: "Šajā tēmā ir sniegta informācija par korekciju kārtulām un dažādām korekciju ziņošanas iespējām."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,17 +26,20 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="elimination-rules"></a>Korekcijas noteikumi
+# <a name="elimination-rules"></a>Korekciju kārtulas
 
-Šajā tēmā ir sniegta informācija par likvidēšanas noteikumus un piedāvā dažādas iespējas ziņošanai par izslēgšanu.
+[!include[banner](../includes/banner.md)]
 
-Korekcijas darbības ir nepieciešamas, kad pamata juridiska persona darbojas ar vienu vai vairākām pakārtotām juridiskām personām un tiek izmantoti konsolidētie finanšu pārskati. Konsolidētajos finanšu pārskatos jābūt iekļautām tikai darbībām, kas veiktas starp konsolidēto organizāciju un citām personām ārpus šīs organizācijas. Tāpēc darījumos starp juridiskām personām, kas ir daļa no tās pašas organizācijas ir jānoņem, vai izslēgti no Virsgrāmatas, tāpēc tie neparādās finanšu pārskatos. Ir vairāki veidi, kā ziņot korekcijas:
 
--   Korekcijas noteikumu var izveidot un apstrādāt konsolidēšanas vai korekcijas uzņēmumā.
+Šajā tēmā ir sniegta informācija par korekciju kārtulām un dažādām korekciju ziņošanas iespējām.
+
+Korekcijas darbības ir nepieciešamas, kad pamata juridiska persona darbojas ar vienu vai vairākām pakārtotām juridiskām personām un tiek izmantoti konsolidētie finanšu pārskati. Konsolidētajos finanšu pārskatos jābūt iekļautām tikai darbībām, kas veiktas starp konsolidēto organizāciju un citām personām ārpus šīs organizācijas. Tāpēc transakcijas starp juridiskajām personām, kas pieder vienai un tai pašai organizācijai, ir jānoņem no virsgrāmatas vai jākoriģē virsgrāmatā tā, lai tās netiktu rādītas finanšu pārskatos. Ir vairāki veidi, kā ziņot korekcijas:
+
+-   Korekciju kārtulu var izveidot un apstrādāt konsolidēšanas vai korekcijas uzņēmumā.
 -   Var izmantot finanšu pārskatu, lai parādītu korekciju kontus un dimensijas noteiktā rindā vai kolonnā.
 -   Var izmantot atsevišķu juridisku personu manuālo darbību ierakstu grāmatošanai, lai izsekotu korekcijas.
 
-Šajā tēmā ir pievērsta uzmanība korekcijas noteikumiem, kas tiek apstrādāti konsolidēšanas vai korekcijas uzņēmumā. Var iestatīt korekcijas noteikumus korekcijas darbību izveidei juridiskā personā, kura ir norādīta kā korekcijas mērķa juridiska persona. Šī mērķa juridiska persona ir pazīstama arī kā koriģēta juridiska persona. Korekcijas žurnāli var tikt izveidoti konsolidācijas procesa laikā vai izmantojot korekcijas žurnāla priekšlikumu. Pirms likvidēšanas noteikumu iestatīšanas jums ir jāiepazīstas ar sekojošajiem terminiem:
+Šajā tēmā ir pievērsta uzmanība korekciju kārtulām, kas tiek apstrādātas konsolidēšanas vai korekcijas uzņēmumā. Korekciju kārtulas varat iestatīt, lai izveidotu korekciju transakcijas juridiskajā personā, kura ir norādīta kā korekcijas mērķa juridiskā persona. Šī mērķa juridiska persona ir pazīstama arī kā koriģēta juridiska persona. Korekcijas žurnāli var tikt izveidoti konsolidācijas procesa laikā vai izmantojot korekcijas žurnāla priekšlikumu. Pirms likvidēšanas noteikumu iestatīšanas jums ir jāiepazīstas ar sekojošajiem terminiem:
 
 -   **Avota juridiska persona** — juridiska persona, kurai koriģējamās summas ir iegrāmatotas.
 -   **Mērķa juridiska persona** — juridiska persona, kurā tiek grāmatoti korekcijas noteikumi.
@@ -129,27 +132,29 @@ Jūsu juridiska persona — juridiska persona A — pārdod logrīkus citai juri
 Visas šīs transakcijas ir starpuzņēmumu transakcijas, kuras tiek grāmatotas abu pušu kontos. Turklāt šajās transakcijās var tikt iekļautas uzcenojuma un nocenošanas summas, kad starpuzņēmumu pārdošanas summa nav vienāda ar preču vērtību.
 
 ## <a name="set-up-elimination-rules"></a>Korekcijas noteikumu iestatīšana
-Iestatot novēršanas noteikumu dinamika 365 operācijām, ieteicams izveidot finanšu dimensiju, jo īpaši novēršanas nolūkos. Lielākā daļa klientu nosaukt to tirdzniecības partneris vai kaut ko tamlīdzīgu. Ja nolemjat nelietot finanšu dimensijai, tad pārliecinieties, ka ir galvenā uzskaite, kas ir raksturīgas tikai starpuzņēmumu transakcijas. 
+Kad programmatūrā Dynamics 365 for Operations iestatāt korekciju kārtulas, ieteicams izveidot finanšu dimensiju speciāli koriģēšanas nolūkiem. Vairums klientu tai piešķir nosaukumu Darījumu partneris vai tamlīdzīgu. Ja izlemjat kādu finanšu dimensiju nelietot, jums noteikti ir nepieciešami galvenie konti, kas ir raksturīgi tikai starpuzņēmumu transakcijām. 
 
-Korekcijas iestatīšanas atrodas konsolidācijas modulis uzstādīšanas jomā. Pēc tam, kad jūs ievadiet kārtulas aprakstu, ir izvēlēties uzņēmumu, kas post korekcijas žurnālu. Tas būtu uzņēmums, kas ir **finanšu likvidēšanas procesu izmantošanai** atlasīts iestatījuma juridiska persona. 
+Korekciju iestatījumi atrodamas moduļa Konsolidācijas apgabalā Iestatīšana. Kad esat ievadījis kārtulas aprakstu, ir jāizvēlas uzņēmums, uz kuru šis korekciju žurnāls tiks grāmatots. Tam ir jābūt uzņēmumam, kuram juridiskās personas iestatījumos ir atlasīta opcija **Lietot finanšu korekciju procesā**. 
 
-Var uzstādīt datumu kas novēršanas likums stājas spēkā, un, kad tas ir beidzies, ja nepieciešams. Ir jāiestata **aktīvā** uz **Jā** ja jūs vēlaties, lai tie būtu pieejami likvidēšanu priekšlikuma procesā. Žurnāla nosaukumu, kuru tips ir atlasiet **likvidēšanu**.
+Ja nepieciešams, varat iestatīt datumu, kurā šī korekciju kārtula kļūst aktīva un kurā tās darbība beidzas. Ja vēlaties, lai tā būtu pieejama korekcijas priekšlikuma procesā, tad opcija **Aktīvs** ir jāiestata uz **Jā**. Atlasiet žurnāla nosaukumu, kura tips ir **Korekcija**.
 
-Pēc tam, kad esat definējis pamati, faktisko apstrādes kārtulas var definēt, noklikšķinot uz **līnijas**. Ir divas iespējas saīsināšanai, novēršot neto apgrozījuma summu vai noteikt fiksētu summu. 
+Kad pamatinformācija ir definēta, varat definēt faktiskās apstrādes kārtulas, noklikšķinot uz **Rindas**. Korekcijām ir divas opcijas — neto izmaiņas summas koriģēšana vai fiksētas summas definēšana. 
 
-Atlasiet avotu kontā. Var izmantot zvaigznīti (\*) kā savvaļas karti. Piemēram, 1\* varētu atlasīt visus kontus, kas sākas ar 1 kā avota datu sadalījumu. 
+Atlasiet savu pakalpojuma kontu. Varat izmantot zvaigznīti (\*) kā aizstājzīmi. Piemēram, 1\* kā sadalījuma datu avotu atlasītu visus kontus, kas sākas ar 1. 
 
-Pēc tam, kad esat atlasījis avota konti, **konta specifikācija** nosaka no galamērķa uzņēmumā, kas izmanto kontu. Atlasiet **avots** ja jūs vēlaties izmantot vienu un to pašu galveno kontu, kas definēts **avots** kontu. Ja atlasāt **lietotāja definēts**, tad ir jānorāda uz galamērķa kontu. 
+Kad ir atlasīti jūsu avota konti, opcija **Konta specifikācijas** nosaka kontu no izmantotā mērķa uzņēmuma. Atlasiet vērtību **Avots**, ja vēlaties lietot to pašu galveno kontu, kurš definēts kontā **Avots**. Ja atlasāt vērtību **Lietotāja definēts**, tad jums ir jānorāda galamērķa konts. 
 
-Dimensijas specifikācija darbojas tādā pašā veidā. Ja atlasāt **avots**, tā izmantos tās pašas dimensijas adresāta uzņēmumā kā avota uzņēmumā. Ja atlasāt **lietotāja definēts**, jums vajadzēs norādīt dimensijas galamērķa uzņēmumā, noklikšķinot uz **mērķa dimensiju** izvēlnes elementu. 
+Dimensiju specifikācija darbojas tāpat. Ja atlasāt vērtību **Avots**, tad mērķa uzņēmumā tiks lietotas tādas pašas dimensijas kā avota uzņēmumā. Ja atlasāt vērtību **Lietotāja definēts**, tad jums ir jānorāda dimensijas mērķa uzņēmumā, noklikšķinot uz izvēlnes vienuma **Mērķa dimensijas**. 
 
-Atlasiet avota izmērus un finanšu dimensijas un vērtības, kas tiek izmantotas kā avotu likvidēšanu.
+Atlasiet avota dimensijas un finanšu dimensijas un vērtības, kuras tiek lietotas kā korekcijas avots.
 
 ## <a name="process-elimination-transactions"></a>Korekcijas transakciju apstrāde
-Ir divi veidi, kā procesa novēršanas darbības konsolidācija tiešsaistē procesa laikā vai likvidēšanas žurnālā izveidojot un palaižot likvidēšanas priekšlikumu procesu. Šajā sadaļā ir vērsta uz žurnālu izveide un palaišana likvidēšanas procesu. 
+Korekciju transakcijas var apstrādāt divos veidos — kamēr notiek konsolidēšana tiešsaistē vai izveidojot korekciju žurnālu un izpildot korekciju priekšlikuma procesu. Šajā sadaļā galvenā uzmanība ir vērsta uz žurnāla izveidošanu un korekcijas procesa izpildi. 
 
-Sabiedrība definē kā uzņēmuma likvidēšanu, atlasiet **likvidēšanu žurnāla** konsolidācijas modulī. Pēc tam, kad ir atlasīti žurnāla nosaukumu, noklikšķiniet uz **līnijas**. Priekšlikums var palaist, izvēloties **priekšlikumus** izvēlni, un pēc tam atlasot **likvidēšanas priekšlikumu**.
+Ja kāds uzņēmums ir definēts kā korekcijas uzņēmums, tad modulī Konsolidācijas atlasiet vienumu **Korekciju žurnāls**. Pēc žurnāla nosaukuma atlasīšanas noklikšķiniet uz **Rindas**. Priekšlikumu varat palaist, atlasot izvēlni **Priekšlikumi** un pēc tam atlasot vienumu **Korekcijas priekšlikums**.
 
-Atlasiet uzņēmumu, kas ir konsolidēto datu avotu un pēc tam izvēlieties kārtulas, kuru vēlaties apstrādāt. Ievadiet sākuma datumu, lai sāktu meklēt korekcijas summas un beigu datumu, lai meklēšanas termiņš korekcijas summas. **VG grāmatojuma datumu** lauks ir izmantots, grāmatojot žurnālu Virsgrāmatā datums. Pēc noklikšķināšanas uz **OK**, var pārskatīt summas un Grāmatojiet žurnālu.
+Atlasiet uzņēmumu, kurš ir konsolidēto datu avots, un pēc tam izvēlieties kārtulu, kuru vēlaties apstrādāt. Ievadiet sākuma datumu, kad sākt meklēt korekcijas summas, un beigu datumu, kad beigt meklēt korekcijas summas. Lauks **VG grāmatošanas datums** ir datums, kurš tiek izmantots žurnāla grāmatošanai virsgrāmatā. Kad noklikšķināt uz **Labi**, varat pārskatīt summas un grāmatot šo žurnālu.
+
+
 
 

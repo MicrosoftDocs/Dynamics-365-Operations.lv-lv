@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="address-books"></a>Adrešu grāmatas
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 <a name="how-do-i-check-for-duplicate-records"></a>Kā pārbaudīt, vai nav ierakstu dublikātu?
@@ -53,7 +56,7 @@ Jebkurā laikā varat atjaunināt puses ieraksta nosaukumu, kā arī adreses, ka
 ## <a name="can-i-merge-two-or-more-party-records-into-one-record"></a>Vai divus vai vairākus pušu ierakstus var sapludināt vienā ierakstā?
 Laiku pa laikam, iespējams, divu vai vairāku pušu ierakstus ir nepieciešams sapludināt vienā ierakstā. Tas var notikt, ja ar nolūku vai netīšām izveidojat vienu vai vairākus puses ierakstu dublējumus. Kad sapludināt pušu ierakstus, jums ir jāatlasa viens ieraksts, ko paturēt. Pēc tam informācija no pārējiem ierakstiem tiek sapludināta šajā ierakstā. Piemēram, jūs konstatējat, ka informācija par Fabrikam ir saglabāta trīs pušu ierakstos: A, B un C. Jūs izlemjat paturēt puses ierakstu A. Tāpēc informācija, kas glabājas puses ierakstos B un C tiks sapludināta puses ierakstā A. Pastāv noteiktas situācijas, kad pušu ierakstus nevarat sapludināt:
 
--   Nevar sapludināt pušu ierakstus, kas ir saistīti ar to pašu puses lomu, piemēram, debitoru vai kreditoru, tajā pašā juridiskajā personā. Piemēram, persona A ir saistīta ar debitoru, juridiska persona 123 un B grupa ir saistīta ar dažādām klientu juridiska persona 123. Šīs partijas ierakstus nevar sapludināt, jo, ja tās tika apvienotas, sapludinātās puse ieraksts varētu būt saistīta ar vairākiem klientiem tā pati juridiskā persona, un tas nav atļauts. Taču ierakstus var sapludināt, ja puse B ir saistīta ar kreditoru juridiskajā personā 123 vai ar debitoru citā juridiskajā personā.
+-   Nevar sapludināt pušu ierakstus, kas ir saistīti ar to pašu puses lomu, piemēram, debitoru vai kreditoru, tajā pašā juridiskajā personā. Piemēram, puse A ir saistīta ar juridiskās personas 123 debitoru, bet puse B ir saistīta ar citu juridiskās personas 123 debitoru. Šos pušu ierakstus nevar sapludināt, jo veicot sapludināšanu iegūtais puses ieraksts ir saistīts ar vairākiem vienas juridiskās personas debitoriem un tas nav atļauts. Taču ierakstus var sapludināt, ja puse B ir saistīta ar kreditoru juridiskajā personā 123 vai ar debitoru citā juridiskajā personā.
 -   Nevar sapludināt iekšējos puses organizatoriskos ierakstus tajā pašā juridiskajā personā, darba grupā vai pārvaldības struktūrvienībā.
 
 ## <a name="should-i-create-a-party-record-in-the-global-address-book-or-in-another-place-such-as-the-customer-or-vendor-page"></a>Vai man ir jāizveido puses ieraksts globālajā adrešu grāmatā vai citā vietā, piemēram, lapā Debitors vai Kreditors?
@@ -64,5 +67,7 @@ Pušu ierakstus varat ievadīt globālajā adrešu grāmatā vai atbilstošajā 
 
 ## <a name="can-i-translate-address-information-for-party-records"></a>Vai varu tulkot adreses informāciju pušu ierakstiem?
 Varat iestatīt adreses informācijas tulkojumus, lai programmatūrā Microsoft Dynamics 365 for Operations informācija būtu redzama jūsu lietotāja valodā (sistēmas valodā), bet dokumentos, piemēram, pārdošanas pasūtījumos, būtu redzama citā valodā. Varat ievadīt tulkojumus valstu/reģionu nosaukumiem, adreses nolūkiem un nosaukumu/vārdu secībām. Piemēram, jūsu sistēmas valoda ir Dāņu, un jūs izveidojat pārdošanas pasūtījumu kādam debitoram Francijā. Šajā gadījumā programmā debitora ierakstu varat skatīt dāņu valodā, adreses informāciju drukātajā pārdošanas pasūtījumā varat rādīt franču valodā. Kad iestatāt tulkojumus, tulkojums jums ir jāievada katram vienumam sarakstā. Katrs vienums, kam neievadāt tulkojumu, tiks rādīts sistēmas valodā. Piemēram, jūsu sistēmas valoda ir Dāņu, un jūs sūtāt dokumentu debitoram Spānijā. Ja adreses informācijai neesat ievadījis tulkojumus Spāņu (ESP), šī informācija tiks rādīta dāņu valodā gan programmā, gan izdrukātajā dokumentā.
+
+
 
 

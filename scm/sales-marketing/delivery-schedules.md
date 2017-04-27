@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="delivery-schedules"></a>Piegādes grafiki
 
+[!include[banner](../includes/banner.md)]
+
+
 Piegādes grafiki ļauj izsekot pasūtījuma rindu daudzumam, ja vienam pārdošanas pasūtījumam, pārdošanas piedāvājumam vai pirkšanas pasūtījumam tiek izmantotas vairākas piegādes.
 
-Izmantot piegādes grafiku, kad kopējo daudzumu pasūtījuma vai piedāvājuma rindā jānogādā vairākās partijās. Atsevišķām kravām tiek apzīmētas ar piegādes līniju. Divas vai vairākas piegādes rindas veido vienu piegādes grafiku. Piegādes rindām var būt atšķirīgi piegādes datumi, daudzumi, piegādes režīmi un noliktavas dimensijas, piemēram, vieta un noliktava.  
+Izmantojiet piegādes grafikus, kad kopējais daudzums pasūtījuma vai piedāvājuma rindā ir jāpiegādā vairākos sūtījumos. Atsevišķi sūtījumi tiek norādīti ar piegādes rindām. Divas vai vairākas piegādes rindas veido vienu piegādes grafiku. Piegādes rindām var būt atšķirīgi piegādes datumi, daudzumi, piegādes režīmi un noliktavas dimensijas, piemēram, vieta un noliktava.  
 
 **Piegādes grafika piemērs**
 
@@ -42,7 +45,7 @@ Izmantot piegādes grafiku, kad kopējo daudzumu pasūtījuma vai piedāvājuma 
 
 Šādā gadījumā klients pieprasa piegādāt 600 krēslus paketēs pa 100 krēsliem sešu mēnešu laikā. Lai izsekotu piegādes prasības, izveidojiet piegādes grafiku. Piegādes grafika lapā izveidojiet sešas atsevišķas piegādes rindas. Katrā piegādes rindā ir 100 krēsli; tā norāda šo 100 krēslu piegādes datumu. Šajā gadījumā katra rinda ir korespondējoša pirmajā mēneša dienā sešus mēnešus pēc kārtas.  
 
-Izveidojot piegādes grafiku, sākotnējās pasūtījuma rindas tips automātiski mainās uz **Pasūtījuma rinda ar vairākām piegādēm**. Šī tipa rindu dēvē par tirdzniecības rindu, un tā tiek apzīmēta ar ikonu. Piegādes rinda tiek atzīmēta ar citu ikonu. Mainot daudzumu piegādi rindā, komerciālo rinda tiek atjaunināta ar kopējo daudzumu piegādes grafiku. Ja tirdzniecības līgums ir definēts pasūtījuma kopējo atlaidi, piegādes grafiks nodrošina, ka jūsu pasūtījumu pretendēt uz pasūtījuma kopējo atlaidi, pat tad, ja pasūtījums ir sadalīts atsevišķas piegādes.  
+Izveidojot piegādes grafiku, sākotnējās pasūtījuma rindas tips automātiski mainās uz **Pasūtījuma rinda ar vairākām piegādēm**. Šī tipa rindu dēvē par tirdzniecības rindu, un tā tiek apzīmēta ar ikonu. Piegādes rinda tiek atzīmēta ar citu ikonu. Ja piegādes rindā maināt daudzumu, tad tirdzniecības rinda tiek atjaunināta uz piegādes grafika kopējo daudzumu. Ja tirdzniecības līgums ir definējis pasūtījuma kopējo atlaidi, tad piegādes grafiks nodrošina, ka jūsu pasūtījumam piešķir kopējo pasūtījuma atlaidi pat tad, ja pasūtījums ir sadalīts atsevišķās piegādēs.  
 
 Pasūtījumi, kuriem ir piegādes grafiks, tiek apstrādāti pret piegādes rindām. Apstrāde ietver pavadzīmju grāmatošanu, produktu ieejas plūsmas un rēķina izrakstīšanu.  
 
@@ -53,5 +56,7 @@ Dokumenta izdrukas pasūtījumiem un piedāvājumiem, kam ir piegādes grafiks, 
 -   Pārlūkot saraksta lapas un pārskatus
 
 Apstiprinot pārdošanas piedāvājumu, iegūtie pārdošanas pasūtījumi uzradīs visu piegādes grafiku pat tad, ja pasūtījuma rindās ir vairākas piegādes. Turklāt viss piegādes grafiks būs redzams visās galvenajās lapās, piemēram, pārdošanas pasūtījumos, pārdošanas piedāvājumos un pirkšanas pasūtījumos.
+
+
 
 

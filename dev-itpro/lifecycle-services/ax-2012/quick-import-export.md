@@ -1,5 +1,5 @@
 ---
-title: "Izmantot ātro importēšanas/eksportēšanas"
+title: "Ātrās importēšanas/eksportēšanas lietošana"
 description: "Ātrās importēšanas un eksportēšanas mērķis ir ļaut jums veikt importēšanu un eksportēšanu tikai ar dažām darbībām."
 author: margoc
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="run-the-test-data-transfer-tool-beta-for-dynamics-ax-ax-2012"></a>Dynamics AX (AX 2012) palaist testu datu pārsūtīšanas rīks (beta)
+# <a name="run-the-test-data-transfer-tool-beta-for-dynamics-ax-ax-2012"></a>Palaidiet Dynamics AX (AX 2012) paredzēto testēšanas datu pārsūtīšanas rīku (beta versiju)
+
+[!include[banner](../../includes/banner.md)]
+
 
 Ātrās importēšanas un eksportēšanas mērķis ir ļaut jums veikt importēšanu un eksportēšanu tikai ar dažām darbībām.
 
@@ -36,5 +39,7 @@ Esam pievienojuši līdzekli Ātrā importēšana un eksportēšana, lai lietot�
 -   Lai izmantotu ātro importēšanu/eksportēšanu, jums nav nepieciešams izveidot apstrādes grupu — sistēma tādu izveidos automātiski, kad izpildīs importēšanas vai eksportēšanas darbu. Tāpat varat arī norādīt, lai tiktu saglabāta ar ātro importēšanu/eksportēšanu importēto datu vēsture.
 
   Ņemiet vērā, ka ātrā importēšana un eksportēšana pieņem, ka jūs pārzināt DIXF jēdzienus.
+
+
 
 

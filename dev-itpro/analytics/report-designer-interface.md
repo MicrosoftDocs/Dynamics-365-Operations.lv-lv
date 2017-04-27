@@ -49,7 +49,7 @@ Izvēlne **Fails** ir pieejama visiem lietotājiem un ietver tālāk minētās k
 | Saglabāt Kā                           | Saglabāt pašreizējo rindas definīciju, kolonnas definīciju, pārskata koka definīciju vai pārskata definīciju, norādot jaunu nosaukumu.                                                                            |
 | Rekvizīti                        | Atvērt dialoglodziņu **Rekvizīti**, kur varat mainīt pārskata nosaukumu un aprakstu.                                                                                                   |
 | Ģenerēt                          | Ģenerēt pašreizējo pārskatu. Šī komanda ir pieejama no pārskata definīcijas.                                                                                                                 |
-| Apskatīt pārskatu                       | Atveriet jaunāko versiju ģenerētajās atskaitēs Dynamics 365 operācijām. Šī komanda ir pieejama no pārskata definīcijas, ja esat ģenerējis vismaz vienu pārskatu.                                 |
+| Apskatīt pārskatu                       | Atvērt programmatūrā Dynamics 365 for Operations ģenerētā pārskata jaunāko versiju. Šī komanda ir pieejama no pārskata definīcijas, ja esat ģenerējis vismaz vienu pārskatu.                                 |
 | Nesen izmantotās pārskatu definīcijas         | Rādīt sarakstu ar pārskatiem, kas nesen izveidoti vai modificēti. Tad varat atlasīt pārskatu no saraksta.                                                                                    |
 | Nesen izmantotās rindu definīcijas            | Rādīt sarakstu ar rindu definīcijām, kas nesen izveidotas vai modificētas. Tad varat atlasīt rindas definīciju no saraksta.                                                                    |
 | Nesen izmantotās kolonnu definīcijas         | Rādīt sarakstu ar kolonnu definīcijām, kas nesen izveidotas vai modificētas. Tad varat atlasīt kolonnas definīciju no saraksta.                                                              |
@@ -80,7 +80,7 @@ Izvēlne **Rediģēt** ir pieejama lietotājiem, kuriem ir **veidotāja** vai **
 | Ievietot kolonnu                          | Ievietot tukšu kolonnu kolonnas definīcijā. Šī komanda ir pieejama no kolonnas definīcijas.                                                                                                             |
 | Dzēst kolonnu                          | Dzēst atlasīto kolonnu no kolonnas definīcijas. Šī komanda ir pieejama no kolonnas definīcijas.                                                                                                         |
 | Ievietot pārskata vienības no dimensijām | Atvērt dialoglodziņu **Ievietot pārskata vienības no dimensijām**, kurā varat atlasīt dimensijas vērtības, kuras vēlaties iekļaut pārskata koka definīcijā. Šī komanda ir pieejama no pārskata koka definīcijas. |
-| Importēt dimensiju kopas hierarhiju         | Atvērt dialoglodziņu **Dimensijas kopas hierarhija**, kur varat importēt dimensiju kopas hierarhiju no finanšu datiem. Šī komanda ir pieejama no ziņošanas koka definīcija... sistēmu, \financial-dimensions\dimension-Based.  |
+| Importēt dimensiju kopas hierarhiju         | Atvērt dialoglodziņu **Dimensijas kopas hierarhija**, kur varat importēt dimensiju kopas hierarhiju no finanšu datiem. Šī komanda ir pieejama pārskata koka definīcijā sistēmās, kuras ir balstītas uz dimensijām.  |
 | Ievietot pārskata vienību                  | Ievietot tukšu rindu pārskata koka definīcijā. Šī komanda ir pieejama no pārskata koka definīcijas.                                                                                                |
 | Dzēst pārskata vienību                  | Dzēst atlasīto pārskata vienības rindu no pārskata koka definīcijas. Šī komanda ir pieejama no pārskata koka definīcijas.                                                                             |
 
@@ -159,7 +159,7 @@ Izvēlne **Palīdzība** ir pieejama visiem lietotājiem un ietver tālāk minē
 
 | Komanda | apraksts                                                  |
 |---------|--------------------------------------------------------------|
-| Palīdzība    | Atveriet Dynamics 365 operāciju palīdzību wiki lapas finanšu pārskatiem. |
+| Palīdzība    | Atvērt Dynamics 365 for Operations palīdzības vikilapu par finanšu pārskatiem. |
 |         |                                                              |
 
 ## <a name="report-designer-toolbar-buttons"></a>Pārskatu veidotāja rīkjoslas pogas
@@ -171,24 +171,24 @@ Standarta rīkjosla nodrošina ātru piekļuvi failu un rediģēšanas komandām
 
 | Poga                                                                                                                                                                                   | Apraksts                                                                                                                                                                            |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [![New button](./media/rowc130389.png)](./media/rowc130389.png)                              | Izveidot jaunu (tukšu) pārskata definīciju, rindas definīciju, kolonnas definīciju vai pārskata koka definīciju.                                                                               |
-| [![Pogas atvērt](./media/openfolderc130389.png)](./media/openfolderc130389.png)               | Atvērt eksistējošu rindas definīciju, kolonnas definīciju, pārskata koka definīciju vai pārskata definīciju.                                                                                   |
-| [![Pogas Saglabāt](./media/savec130389.png)](./media/savec130389.png)                           | Saglabāt pašreizējo rindas definīciju, kolonnas definīciju, pārskata koka definīciju vai pārskata definīciju.                                                                                   |
-| [![Pogas Kopēt](./media/copyc130389.png)](./media/copyc130389.png)                           | Kopēt atlasīto tekstu uz starpliktuvi.                                                                                                                                               |
-| [![Izgriezt pogas](./media/cutc130389.png)](./media/cutc130389.png)                              | Dzēst atlasīto tekstu un kopēt to uz starpliktuvi.                                                                                                                                |
+| [![Poga Jauns](./media/rowc130389.png)](./media/rowc130389.png)                              | Izveidot jaunu (tukšu) pārskata definīciju, rindas definīciju, kolonnas definīciju vai pārskata koka definīciju.                                                                               |
+| [![Poga Atvērt](./media/openfolderc130389.png)](./media/openfolderc130389.png)               | Atvērt eksistējošu rindas definīciju, kolonnas definīciju, pārskata koka definīciju vai pārskata definīciju.                                                                                   |
+| [![Poga Saglabāt](./media/savec130389.png)](./media/savec130389.png)                           | Saglabāt pašreizējo rindas definīciju, kolonnas definīciju, pārskata koka definīciju vai pārskata definīciju.                                                                                   |
+| [![Poga Kopēt](./media/copyc130389.png)](./media/copyc130389.png)                           | Kopēt atlasīto tekstu uz starpliktuvi.                                                                                                                                               |
+| [![Poga Izgriezt](./media/cutc130389.png)](./media/cutc130389.png)                              | Dzēst atlasīto tekstu un kopēt to uz starpliktuvi.                                                                                                                                |
 | [![Poga Ielīmēt](./media/pastec130389.png)](./media/pastec130389.png)                        | Ievietot tekstu no starpliktuves.                                                                                                                                                    |
-| [![Atsaukt pogu](./media/undoc130389.png)](./media/undoc130389.png)                           | Atsaukt pēdējo darbību.                                                                                                                                                                  |
-| [![Atcelt poga](./media/redoc130389.png)](./media/redoc130389.png)                           | Atgriezt pēdējo atsaukto darbību.                                                                                                                                                          |
-| [![Pogas atrast](./media/findc130389.png)](./media/findc130389.png)                           | Atvērt dialoglodziņu **Meklēt un aizvietot**, kur varat meklēt un aizvietot tekstu aktīvajā logā.                                                                                  |
-| [![Ievietot rindu pogas](./media/insertrowc130389.png)](./media/insertrowc130389.png)           | Ievietot tukšu rindu rindas definīcijā vai tukšu virsraksta rindu kolonnas definīcijā. Šī poga ir pieejama no rindas definīcijas vai kolonnas definīcijas.                    |
-| [![Ievietot kolonnu poga](./media/insertcolumnc130389.png)](./media/insertcolumnc130389.png)  | Ievietot tukšu kolonnu kolonnas definīcijā. Šī poga ir pieejama no kolonnas definīcijas.                                                                                  |
-| [![Slēdzenes poga](./media/lockc130389.png)](./media/lockc130389.png)                           | Lietot paroli pašreizējam veidošanas blokam. Šī poga ir pieejama lietotājiem, kuriem ir **veidotāja** vai **administratora** loma.                                                 |
-| [![Saite pogu rinda](./media/rowlinkc130389.png)](./media/rowlinkc130389.png)                 | Atvērt dialoglodziņu **Rindu saites**, kur varat norādīt datu saišu avotus rindas definīcijām un pārskata koku definīcijām. Šī poga ir pieejama no rindas definīcijas. |
-| [![Veicinātu poga](./media/promotec130389.png)](./media/promotec130389.png)                  | Paaugstināt pārskata koka definīcijas vienību. Kad atlasāt pakārtoto vienību un tad noklikšķināt uz **Paaugstināt**, pakārtotā vienība tiek pārvietots uz to pašu līmeni kā tās pamata vienība.                |
-| [![Poga pazemināt](./media/demotec130389.png)](./media/demotec130389.png)                     | Pazemināt pārskata koka definīcijas vienību. Kad atlasāt vienību un tad noklikšķināt uz **Pazemināt**, vienība kļūst par apakšelementu vienībai, kas ir pirms tā.                               |
-| [![Izvēršanas pogas](./media/expandtreebuttonc130389.png)](./media/expandtreebuttonc130389.png) | Izvērst visas pārskata koka definīcijas vienības atlasītās vienības līmenī.                                                                                                   |
-| [![Sakļaušanas pogas](./media/collapsec130389.png)](./media/collapsec130389.png)               | Sakļaut pārskata koku.                                                                                                                                                           |
-| [![Palīdzības poga](./media/helpc130389.png)](./media/helpc130389.png)                           | Atvērt palīdzību.                                                                                                                                                                             |
+| [![Poga Atsaukt](./media/undoc130389.png)](./media/undoc130389.png)                           | Atsaukt pēdējo darbību.                                                                                                                                                                  |
+| [![Poga Atcelt atsaukšanu](./media/redoc130389.png)](./media/redoc130389.png)                           | Atgriezt pēdējo atsaukto darbību.                                                                                                                                                          |
+| [![Poga Atrast](./media/findc130389.png)](./media/findc130389.png)                           | Atvērt dialoglodziņu **Meklēt un aizvietot**, kur varat meklēt un aizvietot tekstu aktīvajā logā.                                                                                  |
+| [![Poga Ievietot rindu](./media/insertrowc130389.png)](./media/insertrowc130389.png)           | Ievietot tukšu rindu rindas definīcijā vai tukšu virsraksta rindu kolonnas definīcijā. Šī poga ir pieejama no rindas definīcijas vai kolonnas definīcijas.                    |
+| [![Poga Ievietot kolonnu](./media/insertcolumnc130389.png)](./media/insertcolumnc130389.png)  | Ievietot tukšu kolonnu kolonnas definīcijā. Šī poga ir pieejama no kolonnas definīcijas.                                                                                  |
+| [![Poga Bloķēt](./media/lockc130389.png)](./media/lockc130389.png)                           | Lietot paroli pašreizējam veidošanas blokam. Šī poga ir pieejama lietotājiem, kuriem ir **veidotāja** vai **administratora** loma.                                                 |
+| [![Poga Rindas saite](./media/rowlinkc130389.png)](./media/rowlinkc130389.png)                 | Atvērt dialoglodziņu **Rindu saites**, kur varat norādīt datu saišu avotus rindas definīcijām un pārskata koku definīcijām. Šī poga ir pieejama no rindas definīcijas. |
+| [![Poga Paaugstināt](./media/promotec130389.png)](./media/promotec130389.png)                  | Paaugstināt pārskata koka definīcijas vienību. Kad atlasāt pakārtoto vienību un tad noklikšķināt uz **Paaugstināt**, pakārtotā vienība tiek pārvietots uz to pašu līmeni kā tās pamata vienība.                |
+| [![Poga Pazemināt](./media/demotec130389.png)](./media/demotec130389.png)                     | Pazemināt pārskata koka definīcijas vienību. Kad atlasāt vienību un tad noklikšķināt uz **Pazemināt**, vienība kļūst par apakšelementu vienībai, kas ir pirms tā.                               |
+| [![Poga Izvērst](./media/expandtreebuttonc130389.png)](./media/expandtreebuttonc130389.png) | Izvērst visas pārskata koka definīcijas vienības atlasītās vienības līmenī.                                                                                                   |
+| [![Poga Sakļaut](./media/collapsec130389.png)](./media/collapsec130389.png)               | Sakļaut pārskata koku.                                                                                                                                                           |
+| [![Poga Palīdzība](./media/helpc130389.png)](./media/helpc130389.png)                           | Atvērt palīdzību.                                                                                                                                                                             |
 
 ### <a name="formatting-toolbar"></a>Formatēšanas rīkjosla
 
@@ -196,16 +196,16 @@ Formatēšanas rīkjosla sniedz ērtu piekļuvi stila komandām. Šajā rīkjosl
 
 | Poga                                                                                                                                                                                                   | Apraksts                                             |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| [![Fonta stila poga](./media/formattingc130389.png)](./media/formattingc130389.png)                         | Lietot atlasīto fonta stilu pašreizējam tekstam.      |
-| [![Pogas fonta](./media/fonttype.png)](./media/fonttype.png)                                                 | Iestatīt atlasīto fontu pašreizējam tekstam.              |
-| [![Pogas fonta lielumu](./media/fontsize.png)](./media/fontsize.png)                                            | Iestatīt atlasīto fonta lielumu (punktos) pašreizējam tekstam. |
+| [![Poga Fonta stils](./media/formattingc130389.png)](./media/formattingc130389.png)                         | Lietot atlasīto fonta stilu pašreizējam tekstam.      |
+| [![Poga Fonts](./media/fonttype.png)](./media/fonttype.png)                                                 | Iestatīt atlasīto fontu pašreizējam tekstam.              |
+| [![Poga Fonta lielums](./media/fontsize.png)](./media/fontsize.png)                                            | Iestatīt atlasīto fonta lielumu (punktos) pašreizējam tekstam. |
 | [![Poga Treknraksts](./media/boldc130389.png)](./media/boldc130389.png)                                           | Pārveidot pašreizējo tekstu treknrakstā.                             |
-| [![Slīpraksta pogas](./media/italicsc130389.png)](./media/italicsc130389.png)                                   | Pārveidot pašreizējo tekstu slīprakstā.                           |
-| [![Pogas Pasvītrojums](./media/underlinec130389.png)](./media/underlinec130389.png)                            | Pasvītrot pašreizējo tekstu.                             |
-| [![Samazinātu atkāpi poga](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | Samazināt pašreizējā teksta atkāpi.                |
+| [![Poga Slīpraksts](./media/italicsc130389.png)](./media/italicsc130389.png)                                   | Pārveidot pašreizējo tekstu slīprakstā.                           |
+| [![Poga Pasvītrot](./media/underlinec130389.png)](./media/underlinec130389.png)                            | Pasvītrot pašreizējo tekstu.                             |
+| [![Poga Samazināt atkāpi](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | Samazināt pašreizējā teksta atkāpi.                |
 | [![Poga Palielināt atkāpi](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | Palielināt pašreizējā teksta atkāpi.                |
-| [![Fona krāsu pogas](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | Mainīt pašreizējās šūnas fona krāsu.        |
-| [![Pogas fonta krāsa](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | Mainīt pašreizējā teksta krāsu.                   |
+| [![Poga Fona krāsa](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | Mainīt pašreizējās šūnas fona krāsu.        |
+| [![Poga Fonta krāsa](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | Mainīt pašreizējā teksta krāsu.                   |
 
 ### <a name="report-designer-toolbar"></a>Atskaišu veidotāja rīkjosla
 
@@ -213,12 +213,12 @@ Atskaišu veidotāja rīkjosla sniedz ātru piekļuvi komandām, kas paredzētas
 
 | Poga                                                                                                                                                                                          | Apraksts                                                                                                                                                                  |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [![Pārskatu definīcija poga](./media/reportc130389.png)](./media/reportc130389.png)                 | Rādīt pārskata definīciju, kas ir uzskaitīta izvēlnē **Logs**.                                                                                                            |
-| [![Rindas definīcijas poga](./media/rowc130389.png)](./media/rowc130389.png)                          | Rādīt rindas definīciju, kas ir piešķirta aktīvajai pārskata definīcijai.                                                                                                    |
-| [![Kolonna definīcijas poga](./media/columnc130389.png)](./media/columnc130389.png)                 | Rādīt kolonnas definīciju, kas ir piešķirta aktīvajai pārskata definīcijai.                                                                                                 |
-| [![Pārskata definīcija koka poga](./media/treec130389.png)](./media/treec130389.png)             | Rādīt pārskata koka definīciju, kas ir piešķirta aktīvajai pārskata definīcijai.                                                                                         |
-| [![Ziņojums skatītāja pogas](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Palaist pārskatu skatītāju un parādīt ģenerētā pārskata jaunāko versiju. Šī poga ir pieejama no pārskata definīcijas, ja esat ģenerējis vismaz vienu pārskatu. |
-| [![Ģenerēt atskaiti poga](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Ģenerēt pārskatu no aktīvās pārskata definīcijas. Šī poga ir pieejama no pārskata definīcijas.                                                                      |
+| [![Poga Pārskata definīcija](./media/reportc130389.png)](./media/reportc130389.png)                 | Rādīt pārskata definīciju, kas ir uzskaitīta izvēlnē **Logs**.                                                                                                            |
+| [![Poga Rindas definīcija](./media/rowc130389.png)](./media/rowc130389.png)                          | Rādīt rindas definīciju, kas ir piešķirta aktīvajai pārskata definīcijai.                                                                                                    |
+| [![Poga Kolonnas definīcija](./media/columnc130389.png)](./media/columnc130389.png)                 | Rādīt kolonnas definīciju, kas ir piešķirta aktīvajai pārskata definīcijai.                                                                                                 |
+| [![Poga Pārskata koka definīcija](./media/treec130389.png)](./media/treec130389.png)             | Rādīt pārskata koka definīciju, kas ir piešķirta aktīvajai pārskata definīcijai.                                                                                         |
+| [![Poga Pārskatu skatītājs](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Palaist pārskatu skatītāju un parādīt ģenerētā pārskata jaunāko versiju. Šī poga ir pieejama no pārskata definīcijas, ja esat ģenerējis vismaz vienu pārskatu. |
+| [![Poga Ģenerēt pārskatu](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Ģenerēt pārskatu no aktīvās pārskata definīcijas. Šī poga ir pieejama no pārskata definīcijas.                                                                      |
 
 
 
@@ -227,6 +227,6 @@ Atskaišu veidotāja rīkjosla sniedz ātru piekļuvi komandām, kas paredzētas
 
 [Finanšu atskaišu veidošana programmatūrai Microsoft Dynamics ERP](financial-reporting-intro.md)
 
-[Generate a financial report](\financials\general-ledger\generate-financial-report.md)
+[Finanšu pārskata ģenerēšana](\financials\general-ledger\generate-financial-report.md)
 
 

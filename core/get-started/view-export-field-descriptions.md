@@ -36,9 +36,9 @@ Ne visām lapām ir lauku apraksti. Mēs vēlamies sniegt aprakstus tikai sarež
 Ja jums ir piekļuve Dynamics 365 for Operations izstrādes videi, varat pievienot jaunus lauku aprakstus un pielāgot esošos aprakstus. Piemēram, lauka aprakstam varat pievienot uzņēmumam specifisku informāciju. Papildinformāciju skatiet rakstā [Pielāgot lauka palīdzību](/dynamics365/operations/dev-itpro/user-interface/customize-field-help).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Skatīt lauku aprakstus lietotāja interfeisā
-Lauku aprakstus varat apskatīt, virzot peles kursoru pār attiecīgo lauku. Ja apraksts nav pieejams, kad novietojat peles kursoru uz lauka, jūs redzat lauka nosaukumu. (Piezīme: versija 7.0.0, lauku aprakstus var uzskatīt tikai par **lauku aprakstus** lapu.) Šajā attēlā ir parādīts laukā Apraksts, kas parādās, kad jūs lidināties pār **bloķēt krājumu uzskaites laikā** lauks. 
+Lauku aprakstus varat apskatīt, virzot peles kursoru pār attiecīgo lauku. Ja apraksts nav pieejams, kad novietojat peles kursoru uz lauka, jūs redzat lauka nosaukumu. (Piezīme: versijā 7.0.0 lauku aprakstus var skatīt tikai lapā **Lauku apraksti**.) Nākamajā attēlā ir parādīts lauka apraksts, kas ir redzams, kad novietojat peles kursoru uz lauka **Bloķēt krājumus inventarizācijas laikā**. 
 
-[![Lauku aprakstu piemērs](./media/field-description.png)](./media/field-description.png)
+[![Lauka apraksta piemērs](./media/field-description.png)](./media/field-description.png)
 
 ## <a name="use-the-field-descriptions-page-to-view-and-export-field-help"></a>Izmantot lapu Lauku apraksti, lai skatītu un eksportētu lauku palīdzību
 Lapa **Lauku apraksti** jums ļauj skatīt un eksportēt lauku aprakstus. Jūs varat redzēt aprakstus, kas ir pieejami vienā lapā vienlaicīgi.
@@ -73,7 +73,7 @@ Pastāv vairāki veidi, kā meklēt lapu laukā **Atlasīt lapu**. Daudzos gadī
     -   Ja ir vairākas precīzas atbilstības, netiek rādīts neviens apraksts. Jums ir jāatver nolaižamais saraksts un jāatlasa nepieciešamā lapa.
     -   Ja ierakstītais nosaukums ir daļa no citas lapas nosaukuma, tiek rādīti apraksti jūsu lapai. Taču, ja atverat nolaižamo sarakstu, varat redzēt papildu lapas, kas ietver šo nosaukumu.
 
-Piemēram, ne apraksti tiek rādīti rakstot **Counting**, * * * atlasiet lauka lappuses * * *. Jūs atverat nolaižamo sarakstu un redzat, ka pastāv divas lapas, kuru nosaukums ir **Inventarizācija**, un vairākas lapas, kuru nosaukumā ir ietverts vārds “Inventarizācija”. Ja atlasāt lapu, kuras AOT nosaukums ir **InventJournalCount**, tiek rādīti lauku nosaukumi šai lapai. Taču, ja atkal atverat nolaižamo sarakstu, jūs redzat, ka sarakstā tagad ir visas lapas, kurām kā daļa no to AOT lapas nosaukuma ir “InventJournalCount”.
+Piemēram, nekādi apraksti netiek rādīti, kad laukā ****Atlasīt lapu**** ierakstāt **Inventarizācija**. Jūs atverat nolaižamo sarakstu un redzat, ka pastāv divas lapas, kuru nosaukums ir **Inventarizācija**, un vairākas lapas, kuru nosaukumā ir ietverts vārds “Inventarizācija”. Ja atlasāt lapu, kuras AOT nosaukums ir **InventJournalCount**, tiek rādīti lauku nosaukumi šai lapai. Taču, ja atkal atverat nolaižamo sarakstu, jūs redzat, ka sarakstā tagad ir visas lapas, kurām kā daļa no to AOT lapas nosaukuma ir “InventJournalCount”.
 
 ## <a name="troubleshooting"></a>Problēmu novēršana
 Šajā sadaļā ir sniegta informācija, lai jums palīdzētu novērst problēmas, kas varētu rasties, izmantojot lauku aprakstus.

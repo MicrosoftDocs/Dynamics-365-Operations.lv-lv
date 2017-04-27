@@ -1,6 +1,6 @@
 ---
 title: "POS programma un lietotāja valodas iestatījumi"
-description: "Šajā tēmā ir aprakstīts, kā mainīt valodas iestatījumus mazumtirdzniecības mūsdienu POS (MPOS) un mākonis POS."
+description: "Šajā tēmā ir aprakstīts, kā mainīt valodas iestatījumus programmās Retail Modern POS (MPOS) un Cloud POS."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: HcmWorker, RetailStoreTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 78891
 ms.assetid: 0030940c-e0a5-4345-9511-8c3bd1f487ad
 ms.search.region: global
@@ -28,15 +28,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="pos-application-and-user-language-settings"></a>POS programma un lietotāja valodas iestatījumi
 
-Šajā tēmā ir aprakstīts, kā mainīt valodas iestatījumus mazumtirdzniecības mūsdienu POS (MPOS) un mākonis POS.
+[!include[banner](includes/banner.md)]
+
+
+Šajā tēmā ir aprakstīts, kā mainīt valodas iestatījumus programmās Retail Modern POS (MPOS) un Cloud POS.
 
 <a name="overview"></a>Pārskats
 ========
 
-Mazumtirdzniecība modernas POS (MPOS) un mākonis POS atbalsta vidēs, ja valodas iestatījumi un tulkojumus var svārstīties starp veikalu un lietotāja iestatījumus. Piemēram, veikalā varēja atrodas reģionā, kur latviešu valoda ir visizplatītākā saviem klientiem, bet daži darbinieki labprāt izmanto pieteikumu ar franču valodas tulkojumi.
+Programmas Retail Modern POS (MPOS) un Cloud POS atbalsta vides, kurās veikala un lietotāja iestatījumos var atšķirties valodas iestatījumi un tulkojumi. Piemēram, veikals var atrasties reģionā, kur vairums debitoru runā angļu valodā, taču daži nodarbinātie vēlas izmantot lietojumprogrammu ar tulkojumiem franču valodā.
 
 ## <a name="data-language"></a>Datu valoda
-Neatkarīgi no lietotāja iestatījumiem MPOS un mākonis POS vienmēr izmantos veikala valodu iestatījumi noteikt tulkojumi lietot attiecībā uz datiem. Tas nodrošinās, ka visiem lietotājiem un klientiem būs atbilstošu pieredzi.  Datu piemēri:
+Neatkarīgi no lietotāja iestatījumiem programmās MPOS un Cloud POS vienmēr tiek izmantoti veikala valodas iestatījumi, lai noteiktu datiem lietotos tulkojumus. Tādējādi tiek nodrošināts, ka visiem lietotājiem un debitoriem ir pieejamas vienādas iespējas.  Tālāk ir norādīti datu piemēri.
 
 -   Preces
 -   Atribūti un vērtības
@@ -45,25 +48,27 @@ Neatkarīgi no lietotāja iestatījumiem MPOS un mākonis POS vienmēr izmantos 
 -   Maksāšanas metožu nosaukumi
 -   Rindu displeja ziņojumi
 
-Veikala valoda tiks izmantota arī galveno POS pieteikšanās ekrānu, jo lietotājs nav zināms pirms pieteikšanās. Ja tulkojums nav pieejams veikala valodai, POS atgriezīsies pie uzņēmuma valodu.
+Veikala valoda tiek lietota arī galvenajā POS pieteikšanās ekrānā, jo pirms pieteikšanās nav zināms, kurš lietotājs izmanto POS. Ja nav pieejams tulkojums veikala valodā, POS tiek pārslēgts atpakaļ uzņēmuma valodā.
 
 ### <a name="configuring-the-stores-language-setting"></a>Veikala valodas iestatījumu konfigurēšana
 
-Veikala valodas iestatījums ir no **visiem mazumtirdzniecības veikalos** par **mazumtirdzniecības veikalu** lapa zem * * vispārējā &gt;reģionālos iestatījumus &gt;valodu. * * Izmantot kritums noteikti izvēlēties valodu, katrā noliktavā.
+Veikala valodas iestatījumu var norādīt, lapas **Mazumtirdzniecības veikals** sadaļā **Visi mazumtirdzniecības veikali** noklikšķinot uz **Vispārīgi &gt; Reģionālie iestatījumi &gt; Valoda. **Izmantojiet nolaižamo izvēlni, lai izvēlētos katra veikala valodu.
 
 ## <a name="user-interface-language"></a>Lietotāja interfeisa valoda
-POS lietotāja valodas iestatījums nosaka tulkojumiem izmantotas lietojumprogrammu lietotāja interfeisā. Tas ietver visu etiķetēm, izvēlnes un sarakstus, kas nav uzskatāmi par datu. Vienīgais izņēmums ir teksts, kas tiek parādīts uz pogas grids POS. Pogas grids neatbalsta tulkojumi, tāpēc viņi vienmēr rādīt tekstu, kā noteikts uz pogas. Lai atbalstītu tulkoto pogu, jums nāksies kopēt un saglabāt atsevišķu pogu režģus un tos piesaistīt lietotājiem pēc vajadzības.
+POS lietotāja valodas iestatījums nosaka tulkojumus, kas tiek izmantoti lietojumprogrammas lietotāja interfeisā. Tas attiecas uz visām etiķetēm, izvēlnēm un sarakstiem, kas netiek uzskatīti par datiem. Vienīgais izņēmums ir teksts, kas tiek rādīts POS pogu režģos. Pogu režģi neatbalsta tulkojumus, tāpēc tajos teksts vienmēr tiek rādīts tā, kā tas ir definēts uz pogas. Lai nodrošinātu pogu tulkojumus, ir jākopē un jāuztur atsevišķi pogu režģi un tie ir jāpiešķir atbilstošajiem lietotājiem.
 
 ### <a name="configuring-the-users-language-setting"></a>Lietotāja valodas iestatījumu konfigurēšana
 
-POS lietotāja valodas iestatījums ir no **visiem darba ņēmējiem** par **darbinieku** lapa zem **mazumtirdzniecības &gt;valodas**.  Tas nav iestatīts profils galvenajā cilnē.  Šo iestatījumu izmanto, POS. Ja lietotāja valoda nav iestatīta vai tā ir iestatīta uz valodu, kurā tulkojumi nav pieejami, POS atgriezīsies pie veikala valodas.  
+POS lietotāja valodas iestatījumus var iestatīt, lapas **Nodarbinātais** sadaļā **Visi nodarbinātie** noklikšķinot uz **Mazumtirdzniecība &gt; Valoda**.  To nevar iestatīt galvenajā cilnē Profils.  Šis iestatījums netiek lietots POS. Ja lietotāja valoda nav iestatīta vai tā ir iestatīta uz valodu, kurā tulkojumi nav pieejami, POS atgriezīsies pie veikala valodas.  
 
 |             |                            |                                                                   |
 |-------------|----------------------------|-------------------------------------------------------------------|
-| ** **       | **Lietotāja interfeisa valodu** * * * *      | **Datu valoda (preces, kvīšu formāti, rindu displejs utt.)** |
+| ** **       | **UI valoda** ** **      | **Datu valoda (preces, kvīšu formāti, rindu displejs utt.)** |
 | **Uzņēmums** | Noklusējums                    | Noklusējums                                                           |
 | **Veikals**   | Ignorē uzņēmumu          | Ignorē uzņēmumu                                                 |
-| **User**    | Ignorē veikalu vai uzņēmumu | Nekad                                                             |
+| **Lietotājs**    | Ignorē veikalu vai uzņēmumu | Nekad                                                             |
+
+
 
 
 

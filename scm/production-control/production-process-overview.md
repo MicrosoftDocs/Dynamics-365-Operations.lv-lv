@@ -1,6 +1,6 @@
 ---
-title: "Ražošanas procesa apskats"
-description: "Šis raksts sniedz pārskatu par ražošanas procesu. Tas raksturo ražošanas pasūtījumus, partijas rīkojumus un kanbans, no pasūtījuma izveides līdz beigu finanšu perioda dažādos posmos."
+title: "Pārskats par ražošanas procesu"
+description: "Šajā rakstā ir sniegts pārskats par ražošanas procesu. Tajā ir aprakstīti dažādie ražošanas pasūtījumu, partijas pasūtījumu un Kanban darbu stāvokļi no pasūtījuma izveides līdz finanšu perioda slēgšanai."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,20 +27,23 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="production-process-overview"></a>Ražošanas procesa apskats
+# <a name="production-process-overview"></a>Pārskats par ražošanas procesu
 
-Šis raksts sniedz pārskatu par ražošanas procesu. Tas raksturo ražošanas pasūtījumus, partijas rīkojumus un kanbans, no pasūtījuma izveides līdz beigu finanšu perioda dažādos posmos. 
+[!include[banner](../includes/banner.md)]
+
+
+Šajā rakstā ir sniegts pārskats par ražošanas procesu. Tajā ir aprakstīti dažādie ražošanas pasūtījumu, partijas pasūtījumu un Kanban darbu stāvokļi no pasūtījuma izveides līdz finanšu perioda slēgšanai. 
 
 Preču ražošanas process dažreiz tiek saukts arī par ražošanas dzīves ciklu, un tā ietvaros tiek veiktas konkrētas darbības, kas ir nepieciešamas, lai pabeigtu krājuma ražošanu. Dzīves cikls sākas ar ražošanas pasūtījuma, partijas pasūtījuma vai Kanban izveidi. Tas beidzas ar pabeigtu saražoto krājumu, ko var nodot debitoram vai citai ražošanas fāzei. Lai pabeigtu visu procesu, katrai dzīves cikla darbībai ir nepieciešama atšķirīga informācija. Pēc katras darbības pabeigšanas ražošanas pasūtījumā, partijas pasūtījumā vai Kanban tiek atspoguļotas ražošanas statusa izmaiņas. Dažāda veida precēm ir nepieciešami dažādi ražošanas procesi.  
 
-**Ražošanas kontroles** modulis ir saistīts ar citiem moduļiem, piemēram, **produkta informācijas pārvaldības**, **krājumu vadība**, **Virsgrāmatas**, **noliktavas vadība**, **projekta grāmatvedības**, un **organizācijas administrācija**. Šī integrācija atbalsta informācijas plūsmu, kas ir nepieciešama pabeigtā krājuma ražošanas pabeigšanai.  
+Modulis **Ražošanas kontrole** ir saistīts ar citiem moduļiem, piemēram, **Preču informācijas pārvaldība**, **Krājumu vadība**, **Virsgrāmata**, **Noliktavas pārvaldība**, **Projektu uzskaite** un **Organizācijas administrēšana**. Šī integrācija atbalsta informācijas plūsmu, kas ir nepieciešama pabeigtā krājuma ražošanas pabeigšanai.  
 
-Ražošanas procesu parasti ietekmē izmaksu uzskaites un krājumu novērtēšanas metodes, kas ir izvēlas konkrētam ražošanas procesam. Dinamika 365 operācijām nodrošina gan faktiskās izmaksas (pirmais iekšā, pirmais ārā \[FIFO\]; pēdējais iekšā, pirmais ārā \[LIFO\]; mainīgais vidējais; un periodisku vidējā svērtā) un standarta izmaksu metodes. Lean manufacturing ražošana tiek ieviesta, pamatojoties uz atgriezeniskās izmaksu aprēķināšanas principu.  
+Ražošanas procesu parasti ietekmē izmaksu uzskaites un krājumu novērtēšanas metodes, kas ir izvēlas konkrētam ražošanas procesam. Programmatūra Dynamics 365 for Operations atbalsta gan faktisko izmaksu (pirmais iekšā, pirmais ārā \[FIFO\]; pēdējais iekšā, pirmais ārā \[LIFO\]; slīdošais vidējais; periodiskais svērtais vidējais) un standarta izmaksu metodes. Lean manufacturing ražošana tiek ieviesta, pamatojoties uz atgriezeniskās izmaksu aprēķināšanas principu.  
 
 Izmaksu noteikšanas metožu izvēle nosaka arī prasības attiecībā uz ziņošanu par materiālu un resursu patēriņu ražošanas procesa laikā. Parasti faktisko izmaksu metodēm ir nepieciešama precīza ziņošana darba līmenī, taču periodisko izmaksu noteikšanas metodēm ir nepieciešama mazāk detalizēta ziņošana par materiālu un resursu patēriņu.
 
 ## <a name="mixed-mode-manufacturing"></a>Jauktā režīma ražošana
-Dažādām precēm un preču topoloģijām ir nepieciešams lietot dažādus pasūtījumu veidus. Dinamika 365 operācijām var lietot dažāda secība jauktā režīmā. Citiem vārdiem sakot, visa vienas saražotās preces ražošanas procesa laikā var veikt visu veidu pasūtījumus.
+Dažādām precēm un preču topoloģijām ir nepieciešams lietot dažādus pasūtījumu veidus. Programmatūras Dynamics 365 for Operations jauktajā režīmā var lietot dažādos pasūtījumu veidus. Citiem vārdiem sakot, visa vienas saražotās preces ražošanas procesa laikā var veikt visu veidu pasūtījumus.
 
 -   **Ražošanas pasūtījums** — tas ir standarta pasūtījuma veids, kas tiek izmantots, lai noteiktā datumā saražotu noteiktu konkrētas preces vai preces varianta daudzumu. Ražošanas pasūtījumi tiek veidoti, pamatojoties uz materiālu komplektiem (MK) un maršrutiem.
 -   **Partijas pasūtījums** — šis pasūtījuma veids tiek izmantots ražošanas nozarēs un atsevišķos procesos, kur ražošanas pārveidošanas pamatā ir formula vai kur līdzprodukti un blakusprodukti var būt galaprodukti, kas papildina vai aizstāj pamatpreci. Partijas pasūtījumiem tiek izmantoti MK un maršruti, kuru tips ir **Formula**.
@@ -59,14 +62,14 @@ Lai atlasītu ražošanas principu, kas ir vislabāk piemērots konkrētai prece
 Tālāk norādītās ražošanas dzīves cikla darbības var tikt veiktas visiem jauktas ražošanas pasūtījumu veidiem. Taču dažas no tām netiek norādītas ar īpašu pasūtījuma statusu.
 
 1.  **Izveidots** — varat manuāli izveidot ražošanas pasūtījumu, partijas pasūtījumu vai Kanban vai arī varat konfigurēt sistēmu tā, lai tie tiktu ģenerēti, pamatojoties uz dažādiem pieprasījuma signāliem. Vispārējā plānošana nodrošina ražošanas pasūtījumu, partijas pasūtījumu vai Kanban izveidi, apstiprinot plānotos pasūtījumus. Citi pieprasījuma signāli ir pārdošanas pasūtījumi vai piesaistītas piegādes signāli no citiem ražošanas pasūtījumiem vai Kanban. Fiksēta daudzuma Kanban gadījumā pieprasījuma signāli tiek ģenerēti, kad Kanban tiek reģistrēti kā tukši.
-2.  **Novērtēts** — varat aprēķināt materiālu vai resursu patēriņa novērtēto apjomu. Veicot novērtējumu, tiek ģenerētas krājumu transakcijas izejmateriāliem, kuru statuss ir **Pasūtīts**. Ražošanas pasūtījumi ir ģenerēt apliecinājumos galveno produktu, līdzproduktu un blakusproduktu vai partiju pasūtījumi tiek lēsts. Ja MK rindas satur **piesaistīts piegādes** tipa pirkšanas pasūtījumu materiālu vai apakšuzņēmēju darbības pakalpojumi ir radīts un piesaistīts ražošanas pasūtījumu vai pasūtījumu partiju. Krājumi vai pasūtījumi tiek rezervēti atbilstoši ražošanas pasūtījuma rezervēšanas stratēģijai, un saražoto preču cena tiek aprēķināta, pamatojoties uz parametru iestatījumiem.
+2.  **Novērtēts** — varat aprēķināt materiālu vai resursu patēriņa novērtēto apjomu. Veicot novērtējumu, tiek ģenerētas krājumu transakcijas izejmateriāliem, kuru statuss ir **Pasūtīts**. Kad tiek novērtēti ražošanas pasūtījumi vai partijas pasūtījumi, tiek ģenerētas pamatpreču, līdzproduktu un blakusproduktu ieejas plūsmas. Ja MK ir rindas, kuru veids ir **Pieprasīta piegāde**, tiek ģenerēti materiālu vai apakšuzņēmēja operāciju pakalpojumu pirkšanas pasūtījumi, kas tiek piesaistīti ražošanas pasūtījumam vai partijas pasūtījumam. Krājumi vai pasūtījumi tiek rezervēti atbilstoši ražošanas pasūtījuma rezervēšanas stratēģijai, un saražoto preču cena tiek aprēķināta, pamatojoties uz parametru iestatījumiem.
 3.  **Ieplānots** — varat plānot ražošanu, pamatojoties uz operācijām, atsevišķiem darbiem vai abiem šiem faktoriem.
     -   **Operāciju plānošana** — šī plānošanas metode nodrošina aptuvenu ilgtermiņa plānu. Izmantojot šo metodi, ražošanas pasūtījumiem varat piešķirt sākuma un beigu datumus. Ja ražošanas pasūtījumi tiek piesaistīti maršruta operācijām, varat tos piešķirt izmaksu centru grupām.
     -   **Darbu plānošana** — šī plānošanas metode nodrošina detalizētu plānu. Katra operācija tiek sadalīta atsevišķos darbos, kam ir noteikti datumi, laiki un piešķirtie operācijas resursi. Ja tiek izmantota ierobežota noslodze, darbi tiek piešķirti operācijas resursiem atkarībā no pieejamības. Plānu var skatīt un mainīt Ganta shēmā.
     -   **Kanban grafiks** — Kanban darbi tiek plānoti, izmantojot Kanban grafika dēli, vai tiek automātiski plānoti, pamatojoties uz Kanban nosacījumu automātiskās plānošanas konfigurāciju.
 
 4.  **Izlaists** — varat izlaist ražošanas pasūtījumu vai partijas pasūtījumu, kad grafiks ir izpildīts un materiāls ir pieejama izdošanai vai sagatavošanai. Materiālu pieejamības pārbaude palīdz ražotnes vadītājam novērtēt materiāla pieejamību ražošanas pasūtījumu vai partijas pasūtījumu izpildei. Varat arī izdrukāt ražošanas pasūtījuma dokumentus, piemēram, izdošanas sarakstus, darbu karti, maršruta karti un maršruta darbu. Kad ražošanas pasūtījums ir izlaists, pasūtījuma statuss tiek mainīts, norādot, ka ražošanu var sākt. Ja tiek izmantota noliktavas pārvaldība, izlaižot ražošanas pasūtījumu vai partijas pasūtījumu, ražošanas MK rindas tiek izlaistas noliktavas pārvaldībai. Pēc tam tiek ģenerēti noliktavas kopumi un noliktavas darbi atbilstoši noliktavas iestatījumiem.
-5.  **Sagatavoti**/**izdots** – kad visi materiāli un resursi ir iestudētas ražošanas vietā, ražošanas IMS rindas vai kanban līnijām tiek atjaunināti statusu **izdots**. Šajā posmā parasti tiek pabeigti pieprasītās piegādes pasūtījumi un saistītie noliktavas darbi. Ir jāpiešķir un jāizdrukā Kanban kartes vai darbu kartes, kas ir nepieciešamas ziņošanai par ražošanas norisi.
+5.  **Sagatavots**/**izdots** — kad ražošanas vietā ir nodrošināti visi materiāli un resursi, ražošanas MK rindu vai Kanban rindu statuss tiek mainīts uz **Izdots**. Šajā posmā parasti tiek pabeigti pieprasītās piegādes pasūtījumi un saistītie noliktavas darbi. Ir jāpiešķir un jāizdrukā Kanban kartes vai darbu kartes, kas ir nepieciešamas ziņošanai par ražošanas norisi.
 6.  **Sākts** — kad tiek sākts ražošanas pasūtījums, partijas pasūtījums vai Kanban, varat ziņot par materiālu un resursu patēriņu atbilstoši pasūtījumam. Sistēmu var konfigurēt tā, lai automātiski grāmatotu to materiālu un resursu patēriņu, kas tiek piešķirti pasūtījumam tā sākšanas laikā. Šī piešķiršana tiek saukta par sākotnējo norakstīšanu, iepriekšēju norakstīšanu vai automātisko patēriņu. Varat manuāli piešķirt materiālus ražošanas pasūtījumiem vai partijas pasūtījumiem, izveidojot papildu izdošanas sarakstu žurnālus. Varat pasūtījumam manuāli piešķirt arī darbaspēka un citas maršruta izmaksas. Ja izmantojat operāciju plānošanu, varat piešķirt šīs izmaksas, izveidojot maršruta karšu žurnālu. Ja izmantojat darbu plānošanu, varat piešķirt izmaksas, izveidojot darbu karšu žurnālu. Ražošanas pasūtījumus vai partijas pasūtījumus var sākt pieprasītajam beigu daudzumam atbilstošās partijās. Ražošanas pasūtījumā, partijas pasūtījumā vai Kanban izveidotos darbus var sākt un reģistrēt atsevišķi, izmantojot žurnālus, ražošanas izpildes termināli (MES termināli) vai Kanban dēļus.
 7.  Ziņot par norisi/**pabeigt** darbus — izmantojiet MES termināli, ražošanas žurnālus, Kanban dēļus vai mobilās skenēšanas iespējas, lai ziņotu par ražošanas norisi pēc darba vai resursa. Tiek grāmatots materiālu un resursu patēriņš, un saistīto Kanban, ražošanas pasūtījumu un partijas pasūtījumu statuss var tikt atjaunināts uz **Saņemts** vai **Ziņots kā pabeigts**. Var tikt izveidots izvietošanas noliktavas darbs atkarībā no noliktavas konfigurācijas.
 8.  **Ziņots kā pabeigts** (produktu ieejas plūsma) — kad tiek ziņots par ražošanas pasūtījuma vai partijas pasūtījuma pabeigšanu, krājumos tiek atjaunināts pabeigto saražoto preču daudzums. Šis daudzums ietver saistīto līdzproduktu un blakusproduktu daudzumu. Ja izmantojat nepabeigtās ražošanas (NP) uzskaiti, tiek ģenerēts virsgrāmatas žurnāls, lai samazinātu NP kontu skaitu un palielinātu saražoto preču krājumu skaitu. Kad ir aprēķinātas ražošanas pasūtījuma izmaksas, tiek iegrāmatotas ražošanas faktiskās izmaksas. Ja ar ražošanu saistītās materiālu un darbaspēka izmaksas vēl nav piešķirtas žurnālā vai ar iepriekšēju norakstīšanu, tās var automātiski piešķirt, izmantojot atgriezenisko norakstīšanu. Piešķiršana, izmantojot atgriezenisko norakstīšanu, ietver krājumu transakciju procesu vēlāku samazināšanu. Ja ražošanas pasūtījums ir pabeigts, atzīmējiet izvēles rūtiņu **Pēdējais darbs**, lai mainītu atlikušo statusu uz **Pabeigts**. Pretējā gadījumā atstājiet šo lauku tukšu, lai varētu ziņot par papildu saražoto daudzumu.
@@ -79,10 +82,12 @@ Tālāk norādītās ražošanas dzīves cikla darbības var tikt veiktas visiem
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Production feedback](production-feedback.md)
+[Ražošanas atsauksmes](production-feedback.md)
 
-[Product configuration models](../pim/product-configuration-models.md)
+[Preču konfigurācijas modeļi](../pim/product-configuration-models.md)
 
 [Lean manufacturing](lean-manufacturing-overview.md)
+
+
 
 

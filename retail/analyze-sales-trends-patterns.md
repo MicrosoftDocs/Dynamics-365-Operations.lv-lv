@@ -1,6 +1,6 @@
 ---
 title: "Pārdošanas tendenču un modeļu analīze"
-description: "Jūs varat pētījumā pārdošanas tendences un modeļi Microsoft Dynamics 365 operācijām - mazumtirdzniecības reālā laikā."
+description: "Programmas Microsoft Dynamics 365 for Operations modulī Mazumtirdzniecība pārdošanas tendences un modeļus varat izpētīt reālajā laikā."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 85183
 ms.assetid: df9c62a2-6f13-4a08-bdca-07d041172c1b
 ms.search.region: Global
@@ -27,17 +27,22 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="analyze-sales-trends-and-patterns"></a>Pārdošanas tendenču un modeļu analīze
 
-Jūs varat pētījumā pārdošanas tendences un modeļi Microsoft Dynamics 365 operācijām - mazumtirdzniecības reālā laikā.
+[!include[banner](includes/banner.md)]
 
-Kā daļu no Dynamics 365 operācijām, lietotāji var aplūkot pārdošanas tendences un modeļi reālā laikā dažādas organizācijas hierarhijas līmeņos vairāku gadu laikā, izmantojot out-of-box **kanālu pārdošanu pa gadiem** atskaite. Šo pārskatu var atvērt no šādām vietām:
 
--   **Mazumtirdzniecības veikala vadība** darbvietas Dynamics 365 operācijām &gt;**mazumtirdzniecības un komercijas**&gt;**kanālus**&gt;**mazumtirdzniecības veikala vadība**&gt;**atskaites**&gt;**pārdošanas kanālu pēc gada pārskata**
--   **Mazumtirdzniecības veikalu financials** darbvietas Dynamics 365 operācijām &gt;**mazumtirdzniecības un komercijas**&gt;**kanālus**&gt;**mazumtirdzniecības veikalu financials**&gt;**atskaites**&gt;**pārdošanas kanālu pēc gada pārskata**
--   **Uzziņās un pārskatos** sadaļu Dynamics 365 operācijām &gt;**mazumtirdzniecības un komercijas**&gt;**uzziņās un pārskatos**&gt;**pārdošanas atskaišu**&gt;**pārdošanas kanālu pēc gada pārskata**
+Programmas Microsoft Dynamics 365 for Operations modulī Mazumtirdzniecība pārdošanas tendences un modeļus varat izpētīt reālajā laikā.
+
+Izmantojot programmu Dynamics 365 for Operations, lietotāji reālajā laikā var izpētīt pārdošanas tendences un modeļus dažādos organizācijas hierarhijas līmeņos vairāku gadu periodā, lietojot standarta pārskatu **Kanāla pārdošana pa gadiem**. Šo pārskatu var atvērt no šādām vietām:
+
+-   **Mazumtirdzniecības veikala pārvaldība** darbvieta Dynamics 365 for Operations &gt; **Mazumtirdzniecība un komercija** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Kanāla pārdošanas pārskats pa gadiem**
+-   **Mazumtirdzniecības veikala finanses** darbvieta Dynamics 365 for Operations &gt; **Mazumtirdzniecība un komercija** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala finanses** &gt; **Pārskati** &gt; **Kanāla pārdošanas pārskats pa gadiem**
+-   **Pieprasījumi un pārskati** sadaļa Dynamics 365 for Operations &gt; **Mazumtirdzniecība un komercija** &gt; **Pieprasījumi un pārskati** &gt; **Pārdošanas pārskati** &gt; **Kanāla pārdošanas pārskats pa gadiem**
 
 Lietotāji arī var izpētīt pārdošanas tendences un modeļus pa stundām dažādos organizācijas hierarhijas līmeņos atlasītajā periodā, lietojot standarta pārskatu **Kanāla pārdošanas pārskats pa stundām**. Šo pārskatu var atvērt no šādām vietām:
 
--   **Mazumtirdzniecības veikala vadība** darbvietas Dynamics 365 operācijām &gt;**mazumtirdzniecības un komercijas**&gt;**kanālus**&gt;**mazumtirdzniecības veikala vadība**&gt;**atskaites**&gt;**pārdošanas kanālu ar stundu atskaite**
--   **Mazumtirdzniecības veikalu financials** darbvietas Dynamics 365 operācijām &gt;**mazumtirdzniecības un komercijas**&gt;**kanālus**&gt;**mazumtirdzniecības veikalu financials**&gt;**atskaites**&gt;**pārdošanas kanālu ar stundu atskaite**
--   **Uzziņās un pārskatos** sadaļu Dynamics 365 operācijām &gt;**mazumtirdzniecības un komercijas**&gt;**uzziņās un pārskatos**&gt;**pārdošanas atskaišu**&gt;**pārdošanas kanālu ar stundu atskaite**
+-   **Mazumtirdzniecības veikala pārvaldība** darbvieta Dynamics 365 for Operations &gt; **Mazumtirdzniecība un komercija** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Kanāla pārdošanas pārskats pa stundām**
+-   **Mazumtirdzniecības veikala finanses** darbvieta Dynamics 365 for Operations &gt; **Mazumtirdzniecība un komercija** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala finanses** &gt; **Pārskati** &gt; **Kanāla pārdošanas pārskats pa stundām**
+-   **Pieprasījumi un pārskati** sadaļa Dynamics 365 for Operations &gt; **Mazumtirdzniecība un komercija** &gt; **Pieprasījumi un pārskati** &gt; **Pārdošanas pārskati** &gt; **Kanāla pārdošanas pārskats pa stundām**
+
+
 

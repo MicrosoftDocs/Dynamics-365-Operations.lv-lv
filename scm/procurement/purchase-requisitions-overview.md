@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-requisition-overview"></a>Pirkšanas pieprasījuma apskats
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā aprakstīta pirkšanas pieprasījuma darbplūsma un dažādi statusi, kas var iekļaut pirkšanas pieprasījumu.
 
 Atkarībā no jūsu uzņēmuma iestatījumiem, var izveidot organizācijā izmantoto preču pirkšanas pieprasījumus. Pirkšanas pieprasījums ir iekšējs dokuments, kas pilnvaro iepirkumu departamentu pirkt krājumus vai pakalpojumus.  
@@ -48,7 +51,7 @@ Pirkšanas pieprasījuma darbplūsmas procesu var konfigurēt, lai pirkšanas pi
 
 Nākamajā diagrammā ir redzami pirkšanas pieprasījumam un tā rindām piešķirtais statuss atbilstoši to apstrādes gaitai darbplūsmas procesā.  
 
-[![Pirkšanas pieprasījuma galvenes un rindu statusus](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![Pirkšanas pieprasījuma galvenes un rindu statusi](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>Pirkšanas pieprasījuma galvene un rindu statusa attiecības
 
@@ -77,7 +80,7 @@ Pirkšanas pieprasījuma vispārējo statusu nosaka pirkšanas pieprasījuma rin
 <td>Ja darbplūsma ir konfigurēta tā, lai pirkšanas pieprasījuma rindas tiek virzītas atsevišķiem pārskatītājiem, katras pirkšanas pieprasījuma rindas statuss ir <strong>Notiek pārskatīšana</strong> vai <strong>Noraidīts</strong>. Pirkšanas pieprasījuma statuss tiek atjaunināts, kad visu rindu apstrāde pārskatīšanas procesā ir pabeigta un ir veiktas visas pirkšanas pieprasījuma pārskatīšanas darbības.
 <ul>
 <li><strong>Notiek pārskatīšana</strong> — pirkšanas pieprasījuma rindas ir iesniegtas pārskatīšanai. Kad pirkšanas pieprasījuma rindas apstrāde darbplūsmas procesā ir pabeigta, šīs rindas statuss saglabājas <strong>Notiek pārskatīšana</strong>, līdz visas pārējās pirkšanas pieprasījuma rindas ir pārskatītas.</li>
-<li><strong>Noraida</strong> – pirkuma pieprasījuma rinda ir ticis noraidīts. Var modificēt un atkārtoti iesniedz pirkšanas pieprasījuma rindām, kas ir noraidīts.</li>
+<li><strong>Noraidīta</strong> — pirkšanas pieprasījuma rinda ir noraidīta. Noraidītās pirkšanas pieprasījuma rindas var modificēt iesniegt atkārtoti.</li>
 </ul>
 Ja noraidīta pirkšanas pieprasījuma rinda tiek iesniegta vēlreiz, pārskatīšanas process tiek sākts vēlreiz visām pirkšanas pieprasījuma rindām, kas vēl tiek pārskatītas. <strong>Piezīme:</strong> jau iesniegtu pirkšanas pieprasījumu var atsaukt. Ja pirkšanas pieprasījums tiek atsaukts, atsauktas tiek arī visas pārējās pirkšanas pieprasījuma rindas. Atsauktas pirkšanas pieprasījuma rindas var dzēst.</td>
 </tr>
@@ -133,7 +136,7 @@ Ja noraidīta pirkšanas pieprasījuma rinda tiek iesniegta vēlreiz, pārskatī
 Varat sadalīt preču izmaksas, kas ir iekļautas pirkšanas pieprasījumā vairākos finanšu kontos. Ja jūsu organizācija izmanto tādas dimensijas kā centru un nodaļu izmaksas, varat sadalīt preču izmaksas dimensijās finanšu kontos.
 
 ## <a name="requisition-purposes"></a>Pieprasījuma mērķi
-Pieprasījuma mērķi nodrošina lielāku pieprasījuma izpildes elastību. Izveidojot pieprasījumu, tam var piešķirt kādu no diviem mērķiem: patēriņš vai papildināšana. Atkarībā no pieprasījuma mērķis un setup jūsu organizācijas, pieprasījuma pieprasījumu var izpildīt ar pirkšanas pasūtījumu, pārvietošanas pasūtījumam, ražošanas pasūtījumam vai kanban.  
+Pieprasījuma mērķi nodrošina lielāku pieprasījuma izpildes elastību. Izveidojot pieprasījumu, tam var piešķirt kādu no diviem mērķiem: patēriņš vai papildināšana. Atkarībā no pieprasījuma mērķa un organizācijas iestatījumiem pieprasījumu var izpildīt, izmantojot pirkšanas pasūtījumu, pārvietošanas pasūtījumu, ražošanas pasūtījumu vai Kanban darbu.  
 
 Izveidojot jūsu organizācijas pieprasījumu un izmantojot iepirkuma procedūras, var kontrolēt pieejamos pieprasījuma mērķus.
 
@@ -152,7 +155,7 @@ Lai izmantotu pirkšanas pieprasījumus, kuru mērķis ir papildināšana, visp�
 ## <a name="purchase-requisitions-and-requests-for-quotation"></a>Pirkšanas un piedāvājuma pieprasījumi
 Dažos gadījumos, lai noteikt preču piegādātāju un cenu, kas ir jāuzrāda pirkšanas pieprasījumā, ir jāuzsāk piedāvājuma pieprasījuma (PP) process. PP procesu var uzsākts, kad pirkšanas pieprasījums atrodas pārskatīšanas procesā. Kad tiek pieņemts piedāvājums, informācija par piegādātāju, cenu utt. tiek pārsūtīta uz pieprasījumu.  
 
-Varat ievietot aizturēto pirkšanas pasūtījumu, atzīmējot **aizturēts** izvēles rūtiņu **pirkuma pieprasījuma detaļas** lapā. Pirkšanas pasūtījumu apstrādi var turpināt tikai pēc tam, kad jūs noņemt aizturēšanu, notīrot izvēles rūtiņu.  
+Pirkšanas pieprasījumu var aizturēt, atzīmējot izvēles rūtiņu **Aizturēts** lapā **Pirkšanas pieprasījuma detaļas**. Pirkšanas pieprasījuma apstrādi var turpināt tikai pēc tam, kad aizturēšana ir atcelta, noņemot atzīmi no izvēles rūtiņas.  
 
 **Piezīme:** programmā eProcurement piegādātājiem var tikt dota atļauja jūsu pirkšanas pieprasījuma piedāvājuma pieprasījumā pievienot papildu rindas. Šajā gadījumā pirkšanas pieprasījumā būs redzamas apstiprinātas papildu opcijas.
 
@@ -178,7 +181,7 @@ Lai izveidotu to pirkšanas pieprasījuma rindu pirkšanas pasūtījumu, kuras n
 
 Vajadzību konsolidācijas process sākas brīdī, kad darbplūsmā tiek apstiprināts pirkšanas pieprasījums un, ja programmā ir konfigurēta jūsu organizācijas budžeta kontrole, kad tiek ierakstītas budžeta rezervācijas un apgrūtinājumi bez juridiskām saistībām. Tālāk norādītajā diagrammā ir attēlota vajadzību konsolidācijas procesa gaita.  
 
-[![Pieprasījums konsolidācijas procesa gaitu](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
+[![Pieprasījuma konsolidācijas procesa plūsma](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 Lai konsolidētu apstiprinātās pirkšanas pieprasījuma rindas, rīkojieties šādi:
 
@@ -192,8 +195,10 @@ Lai konsolidētu apstiprinātās pirkšanas pieprasījuma rindas, rīkojieties �
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Izveidotu pieprasījuma patēriņam (uzdevuma norādījumi)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
+[Patēriņa pieprasījuma izveide (uzdevuma ceļvedis)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
 
-[Purchase requisition workflow](purchase-requisitions-workflow.md)
+[Pirkšanas pieprasījuma darbplūsma](purchase-requisitions-workflow.md)
+
+
 
 

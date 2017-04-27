@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="main-account-types"></a>Galveno kontu veidi
 
+[!include[banner](../includes/banner.md)]
+
+
 Galvenā konta veidi nosaka, kā galvenais konts tiek izmantots kontu plānā.
 
 Izveidojot galveno kontu lapā Galvenie konti — kontu plāns, ir jāatlasa galvenā konta veids.
@@ -35,6 +38,8 @@ Izveidojot galveno kontu lapā Galvenie konti — kontu plāns, ir jāatlasa gal
 -   Bilance, aktīvi, pasīvi un kapitāls — šos galvenos kontus izmanto kā transakciju kontus, kuros reģistrē summas, kas pieder juridiskai personai vai kuras tā ir parādā.
 -   Kopsumma — šos galvenos kontus izmanto kontu intervālu pievienošanai. Lai konfigurētu galvenā konta Kopsumma veidu, izmantojiet lapu Konta intervāls, kura tiek parādīta visu konta intervālu grupas bilances kopsumma. Lai piekļūtu lapai Konta intervāls, atlasiet konta Kopsumma veidu un noklikšķiniet uz Kopsummas cilnē Vispārīgi.
 -   Pārskatu sagatavošana — šie galvenie konti tiek izmantoti finanšu pārskatu sagatavošanai tikai Brazīlijā.
+
+
 
 
 

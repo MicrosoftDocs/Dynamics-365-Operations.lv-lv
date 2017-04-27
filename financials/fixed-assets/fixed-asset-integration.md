@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-assets-integration"></a>Pamatlīdzekļu integrācija
 
+[!include[banner](../includes/banner.md)]
+
+
 Pamatlīdzekļus var integrēt ar Virsgrāmatu, krājumu vadību, debitoriem un kreditoriem. Varat arī uzstādīt, lai pamatlīdzekļi integrētos ar pirkšanas pasūtījumiem.
 
 <a name="general-ledger"></a>Virsgrāmata
@@ -82,7 +85,7 @@ Katras pasūtījuma rindas integrācija tiek aktivizēta lapas **Pirkšanas pas�
 ## <a name="project-management-and-accounting"></a>Projektu vadība un uzskaite
 Jūs varat projektu piesaistīti līdzekli, kas ietekmē projektu. Jūs varat arī piesaistīt katru posmu, uzdevumu vai apakšprojektu dažādiem līdzekļiem. Viens pamatlīdzeklis var būt saistīts ar katru projekta ierakstu. Jūs veidojat saistību, kad ievadāt pamatlīdzekļa numuru lapas **Projekti** laukā **Pamatlīdzekļa numurs**. Projekta veidam ir jābūt **Iekšējs** vai **Izmaksu projekts**. 
 
-Varat arī izmantot lapu **Projekti**, lai skatītu detalizētu informāciju par līdzekļiem, kas ir saistīti ar projektiem. Ja vēlaties skatīt pamatlīdzekļa ierakstu, noklikšķiniet uz līdzekļa saites kopsavilkuma cilnē **Iestatīšana**, lai atvērtu lapu **Pamatlīdzekļi**. Noklikšķiniet uz **projektu**&gt;**visi projekti** apskatīt projektus, kas saistīti ar pamatlīdzekļu. 
+Varat arī izmantot lapu **Projekti**, lai skatītu detalizētu informāciju par līdzekļiem, kas ir saistīti ar projektiem. Ja vēlaties skatīt pamatlīdzekļa ierakstu, noklikšķiniet uz līdzekļa saites kopsavilkuma cilnē **Iestatīšana**, lai atvērtu lapu **Pamatlīdzekļi**. Pēc tam noklikšķiniet uz **Projekti** &gt; **Visi projekti**, lai skatītu projektus, kas ir saistīti ar pamatlīdzekli. 
 
 Parasti pamatlīdzekļi tiek saistīti ar projektiem, ja projekti ir saistīti ar darbu, apkopi vai līdzekļu uzlabošanu. Kad projekts ir pabeigts, līdzekļa vērtības palielināšana netiek veikta automātiski. Tāpēc, ja ir nepieciešama vērtības palielināšana, tā jāveic manuāli. 
 
@@ -90,6 +93,8 @@ Lai dzēstu saistību starp projektu un līdzekli, notīriet lauku **Pamatlīdze
 
 Varat arī norādīt pamatlīdzekli, ko izveidojat vai ražojat kā daļu no paredzētā projekta. Paredzēta projekta beigās, varat automātiski iegrāmatot līdzekļa ieguves darbību.
 
-Lai iegūtu papildinformāciju, skatiet [iegādātos aktīvus ar iepirkumu](acquire-assets-procurement.md)
+Papildinformāciju skatiet tēmā [Līdzekļu iegādāšanās, izmantojot iepirkuma procesu](acquire-assets-procurement.md)
+
+
 
 

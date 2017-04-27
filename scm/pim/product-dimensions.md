@@ -1,6 +1,6 @@
 ---
 title: Preces dimensijas
-description: "Pastāv četri izstrādājuma izmēri - krāsu, konfigurācija, lielums un stils. Preču dimensijas var apvienot dimensiju grupās, un dimensiju grupas var piešķirt preču šabloniem. Preču dimensiju kombinācijas nosaka, kā tiek definēti preču varianti."
+description: "Pastāv četras preču dimensijas: Krāsa, Konfigurācija, Izmērs un Stils. Preču dimensijas var apvienot dimensiju grupās, un dimensiju grupas var piešķirt preču šabloniem. Preču dimensiju kombinācijas nosaka, kā tiek definēti preču varianti."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,21 +29,24 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="product-dimensions"></a>Preces dimensijas
 
-Pastāv četri izstrādājuma izmēri - krāsu, konfigurācija, lielums un stils. Preču dimensijas var apvienot dimensiju grupās, un dimensiju grupas var piešķirt preču šabloniem. Preču dimensiju kombinācijas nosaka, kā tiek definēti preču varianti.
+[!include[banner](../includes/banner.md)]
+
+
+Pastāv četras preču dimensijas: Krāsa, Konfigurācija, Izmērs un Stils. Preču dimensijas var apvienot dimensiju grupās, un dimensiju grupas var piešķirt preču šabloniem. Preču dimensiju kombinācijas nosaka, kā tiek definēti preču varianti.
 
 Preču dimensijas ir īpašības, ko izmanto, lai identificētu preces variantu. Preču variantu definēšanai vai izmantot preču dimensiju kombinācijas. Lai izveidotu preces variantu, ir jādefinē vismaz viena preces dimensija preces šablonam.
 Preces varianti
 ----------------
 
-Preču varianti tiek saukti arī par krājumiem. Krājums ir materiāla prece, kas nav tāds pats kā pakalpojums. Ir iespējams noteikt produkta pamata ar pakalpojuma veidu. Izmantojot tipu Pakalpojums, varat norādīt preču variantus, kas ietver pakalpojumus. Piemēram, var norādīt preces šablonu konsultāciju darbam un preču variantus darbam, ko veic vecākie konsultanti un jaunākie konsultanti.
+Preču varianti tiek saukti arī par krājumiem. Krājums ir materiāla prece, kas nav tāds pats kā pakalpojums. Var arī definēt preces šablonu, kura veids ir Pakalpojums. Izmantojot tipu Pakalpojums, varat norādīt preču variantus, kas ietver pakalpojumus. Piemēram, var norādīt preces šablonu konsultāciju darbam un preču variantus darbam, ko veic vecākie konsultanti un jaunākie konsultanti.
 
 ## <a name="product-dimensions"></a>Preces dimensijas
-Ir pieejamas šādas preču dimensijas: konfigurācijas, krāsu, lielumu un stilu. Izstrādājuma variantu var ģenerēts, pamatojoties uz preču dimensijas vērtības.
+Ir pieejamas šādas preču dimensijas: Konfigurācija, Krāsa, Izmērs un Stils. Pamatojoties uz preces dimensijas vērtībām, var ģenerēt preces variantu.
 
-Preču dimensijas vērtības, piemēram, lielumu, krāsu un stilu var izveidot **izmērs**, **krāsu** un **stila** lapas, kuram var piekļūt no šādām vietām: **produkta informācijas pārvaldības**&gt;**Setup**&gt;**dimensiju un variant grupas**&gt;**izmēri/krāsas/stili**. Preces dimensijas Konfigurācija vērtības parasti tiek izveidotas, izmantojot preču konfiguratoru vai dimensiju konfiguratoru. Preces dimensijas var izveidot un uzturēt arī lapā **Preces dimensijas**, kam var piekļūt tālāk norādītajās vietās.
--   Noklikšķiniet uz **produkta informācijas pārvaldības**&gt;**produkti**&gt;**produkta meistari**. Par **darbību rūti**, noklikšķiniet uz **izstrādājuma izmēri**.
--   Noklikšķiniet uz **produkta informācijas pārvaldības**&gt;**produkti**&gt;**visiem produktiem un produktu meistari**. Atlasiet preces šablonu. Par **darbību rūti**, noklikšķiniet uz **izstrādājuma izmēri**.
--   Noklikšķiniet uz **produkta informācijas pārvaldības**&gt;**atbrīvo produktus**. Atlasiet preces šablonu. Par **darbību rūti**, noklikšķiniet uz **produkta**. Grupā **Preces šablons** noklikšķiniet uz **Preces dimensijas**.
+Tādu preču dimensiju kā Izmērs, Krāsa un Stils vērtības var izveidot lapās **Izmērs**, **Krāsa** un **Stils**, kam var piekļūt šajās vietās: **Preču informācijas pārvaldība** &gt; **Iestatījumi** &gt; **Dimensiju un variantu grupas** &gt; **Izmēri/Krāsas/Stili**. Preces dimensijas Konfigurācija vērtības parasti tiek izveidotas, izmantojot preču konfiguratoru vai dimensiju konfiguratoru. Preces dimensijas var izveidot un uzturēt arī lapā **Preces dimensijas**, kam var piekļūt tālāk norādītajās vietās.
+-   Noklikšķiniet uz **Preču informācijas pārvaldība** &gt; **Preces** &gt; **Preču šabloni**. **Darbību rūtī** noklikšķiniet uz **Preču dimensijas**.
+-   Noklikšķiniet uz **Preču informācijas pārvaldība** &gt; **Preces** &gt; **Visas preces un preču šabloni**. Atlasiet preces šablonu. **Darbību rūtī** noklikšķiniet uz **Preču dimensijas**.
+-   Noklikšķiniet uz **Preču informācijas pārvaldība** &gt; **Izlaistās preces**. Atlasiet preces šablonu. **Darbību rūtī** noklikšķiniet uz**Prece**. Grupā **Preces šablons** noklikšķiniet uz **Preces dimensijas**.
 
 Krājumam izveidojamo variantu skaitu ierobežo iespējamo preču dimensiju kombināciju skaits.
 | **Padoms **                                                                                                                                              |
@@ -64,6 +67,8 @@ Uzņēmums pārdod džinsus. Krājumam Džinsi tiek izmantotas preces dimensijas
 | brūna | L    |
 | brūna | XL   |
 | brūna | XXL  |
+
+
 
 
 

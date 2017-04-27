@@ -1,6 +1,6 @@
 ---
 title: "Pamatlīdzekļu sākumlapa"
-description: "Pamatlīdzekļi ir vērtību, piemēram, ēkas, transportlīdzekļi, zeme un iekārtas, kas pieder privātpersonai vai organizācijas vienības."
+description: "Pamatlīdzekļi ir līdzekļi ar noteiktu vērtību, piemēram, ēkas, transportlīdzekļi, zeme un iekārtas, kas pieder privātpersonai vai organizācijai."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-assets-home-page"></a>Pamatlīdzekļu sākumlapa
 
-Pamatlīdzekļi ir vērtību, piemēram, ēkas, transportlīdzekļi, zeme un iekārtas, kas pieder privātpersonai vai organizācijas vienības.
+[!include[banner](../includes/banner.md)]
+
+
+Pamatlīdzekļi ir līdzekļi ar noteiktu vērtību, piemēram, ēkas, transportlīdzekļi, zeme un iekārtas, kas pieder privātpersonai vai organizācijai. 
 
 Pamatlīdzekļiem var iestatīt un ievadīt informāciju par to iegādi un pēc tam tos var pārvaldīt, samazinot to vērtību un iestatot kapitalizācijas slieksni, lai noteiktu nolietojumu. Jūs varat aprēķināt pielāgojumus pamatlīdzekļiem, kā arī norakstīt tos. Izmantojot Virsgrāmatu kopā ar pamatlīdzekļiem, jūs varat skatīt visu pamatlīdzekļu pašreizējo vērtību. Pamatlīdzekļu apstrādes veidam ir jāatbilst gan starptautiskajiem grāmatvedības standartiem, gan katras valsts/reģiona grāmatvedības tiesību aktiem. Prasības var ietvert noteikumus pārskatiem par pamatlīdzekļu iegādi un norakstīšanas transakcijām, par nolietojumu, kalpošanas ilgumu, vērtības palielināšanu un samazināšanu. Pamatlīdzekļu funkcionalitāte ietver daudzus no šiem standartiem un noteikumiem.
+
+
 
 
 

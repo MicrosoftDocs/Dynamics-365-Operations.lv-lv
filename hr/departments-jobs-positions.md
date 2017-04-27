@@ -1,5 +1,5 @@
 ---
-title: "Organizēt savu darbaspēku izmantojot departamenti, darbus un pozīcijas"
+title: "Organizēt darbaspēku, izmantojot nodaļas, darbus un amatus"
 description: "Nodaļas, amati un pozīcijas ir organizācijas elementi, kas tiek uzturēti personāla vadības procesā. Šajā tēmā ir sniegta konceptuāla informācija par šiem elementiem."
 author: rschloma
 manager: AnnBe
@@ -26,22 +26,25 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>Organizēt savu darbaspēku izmantojot departamenti, darbus un pozīcijas
+# <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>Organizēt darbaspēku, izmantojot nodaļas, darbus un amatus
+
+[!include[banner](includes/banner.md)]
+
 
 Nodaļas, amati un pozīcijas ir organizācijas elementi, kas tiek uzturēti personāla vadības procesā. Šajā tēmā ir sniegta konceptuāla informācija par šiem elementiem. 
 
 Tālāk sniegtais piemērs tiek izmantots, lai paskaidrotu šajā tēmā aprakstītās koncepcijas.
 
-|**Nodaļa**|**Position**|**Job**|
+|**Nodaļa**|**Amats**|**Darbs**|
 |---|---|---|
-|**pārdošana;**|Pārdošanas daļas vadītājs (austrumu reģions)|Pārdošanas daļas vadītājs|
-|**pārdošana;**|Pārdošanas daļas vadītājs (rietumu reģions)|Pārdošanas daļas vadītājs|
-|**pārdošana;**|Pārdošanas daļas vadītājs (centrālais reģions)|Pārdošanas daļas vadītājs|
-|**Accounting**|Uzskaites supervizors|Uzskaites vadītājs|
-|**Accounting**|Uzskaite A|Grāmatvedis|
-|**Human resources**|PV vadītājs (austrumu reģions)|PV vadītājs|
-|**Human resources**|PV vadītājs (rietumu reģions)|PV vadītājs|
-|**Human resources**|PV vadītājs (centrālais reģions)|PV vadītājs|
+|**Pārdošana**|Pārdošanas daļas vadītājs (austrumu reģions)|Pārdošanas daļas vadītājs|
+|**Pārdošana**|Pārdošanas daļas vadītājs (rietumu reģions)|Pārdošanas daļas vadītājs|
+|**Pārdošana**|Pārdošanas daļas vadītājs (centrālais reģions)|Pārdošanas daļas vadītājs|
+|**Uzskaite**|Uzskaites supervizors|Uzskaites vadītājs|
+|**Uzskaite**|Uzskaite A|Grāmatvedis|
+|**Personāla vadība**|PV vadītājs (austrumu reģions)|PV vadītājs|
+|**Personāla vadība**|PV vadītājs (rietumu reģions)|PV vadītājs|
+|**Personāla vadība**|PV vadītājs (centrālais reģions)|PV vadītājs|
 
  
  <a name="departments"></a>Nodaļas
@@ -79,7 +82,7 @@ Varat izveidot darba uzdevumus, kas atbilst pamata uzdevumiem, kuri ir jāveic d
 
 ### <a name="job-functions"></a>Darba funkcijas
 
-Darba funkcijas līdzinās darba uzdevumiem. Darba funkcija atbilst vienam vai vairākiem uzdevumiem, pienākumiem vai atbildības jomām, kas ir piešķirti darbam. Darba funkcijas var piešķirt darbus un izmantot, lai izveido un īsteno atbilstības noteikumi attiecībā uz kompensācijas plāniem. Šajā tabulā norādītie piemēri darba funkcijas.
+Darba funkcijas līdzinās darba uzdevumiem. Darba funkcija atbilst vienam vai vairākiem uzdevumiem, pienākumiem vai atbildības jomām, kas ir piešķirti darbam. Darba funkcijas var piešķirt darbiem un izmantot, lai iestatītu un ieviestu atlīdzības plānu piemērotības noteikumus. Nākamajā tabulā ir norādīti darba funkciju piemēri.
 
 | Darbs           | Darba funkcija                                                |
 |---------------|-------------------------------------------------------------|
@@ -101,7 +104,7 @@ Izmantojiet atbildības jomas, lai norādītu darba lomas, procesus un preces, p
 <a name="positions"></a>Amati
 ----------
 
-Amats ir nozīmīgs organizācijas hierarhijas zemāko līmeņu elements. Pozīcija ir atsevišķa darba instance. Piemēram, pozīcijā "(East), Sales manager" ir tikai viena no pozīcijām, kas ir saistīts ar darbu, "Pārdošanas vadītājs." Pozīcijas nodaļu pastāv un tiek piešķirti darbiniekiem.
+Amats ir nozīmīgs organizācijas hierarhijas zemāko līmeņu elements. Pozīcija ir atsevišķa darba instance. Piemēram, amats “Pārdošanas daļas vadītājs (austrumu reģions)” ir tikai viens no amatiem, kas ir saistīti ar darbu “Pārdošanas daļas vadītājs”. Amati ir ietverti nodaļā un tiek piešķirti darbiniekiem.
 ### <a name="position-creation-and-maintenance"></a>Amata izveide un uzturēšana
 
 -   Varat skatīt ar amatu saistīto sistēmas izmaiņu vēsturi viegli pieejamā saraksta lapā.
@@ -161,6 +164,8 @@ Dažiem ierakstiem varat norādīt turpmākās ierakstu izmaiņas. Tālāk norā
 </table>
 
 Varat modificēt iepriekš esošajā tabulā ietverto informāciju par amatu vai darbu un norādīt datumu, kas amata vai darba izmaiņām ir jāstājas spēkā. Piemēram, amatu var piešķirt tikai vienam darbiniekam, taču Sandžejs Patels, kurš ir piešķirts amatam “Grāmatvedis A”, aizies no darba pēc divām nedēļām. Pēc tam Sandžeja Patelu aizstās Džo Hīlijs. Lai gan Sandžejs joprojām ir piešķirts savam amatam, varat piešķirt šim amatam arī Džo Hīliju tā, lai šī piešķire stātos spēkā tikai pēc Sandžeja pēdējās darba dienas.
+
+
 
 
 

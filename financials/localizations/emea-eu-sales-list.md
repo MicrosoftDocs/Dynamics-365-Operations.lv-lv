@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="eu-sales-list-reporting"></a>ES pārdošanas saraksta pārskats
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegta informācija par Eiropas Savienības (ES) pārdošanas saraksta atskaišu veidošanu.
 
 <a name="eu-sales-list-reporting"></a>ES pārdošanas saraksta pārskats
@@ -64,11 +67,11 @@ Tālāk esošajā tabulā ir norādīti priekšnoteikumi, kas ir jāizpilda pirm
 <tbody>
 <tr class="odd">
 <td><strong>Iestatīšana:</strong> Juridiska persona</td>
-<td>Juridiskās personas primārajai adresei ir jāatrodas ES dalībvalstī. Par <strong>juridiskajām personām</strong> lapu (noklikšķiniet <strong>organizācijas administrācija</strong>&gt;<strong>organizācijām</strong>&gt;<strong>juridiskajām personām</strong>), atlasiet juridiska persona. Kopsavilkuma cilnē <strong>Adreses</strong>, izveidojiet adresi, atlasiet valsti/reģionu un citas adreses sastāvdaļas, un atzīmējiet adresi kā <strong>Primārā</strong>. Kopsavilkuma cilnē <strong>Nodokļa reģistrācija</strong>, laukā <strong>Nodokļa reģistrācijas numurs</strong> norādiet nodokļa reģistrācijas numuru jūsu uzņēmumam.</td>
+<td>Juridiskās personas primārajai adresei ir jāatrodas ES dalībvalstī. Lapā <strong>Juridiskas personas</strong> (noklikšķiniet uz <strong>Organizācijas administrēšana</strong> &gt; <strong>Organizācijas</strong> &gt; <strong>Juridiskas personas</strong>) atlasiet savu juridisko personu. Kopsavilkuma cilnē <strong>Adreses</strong>, izveidojiet adresi, atlasiet valsti/reģionu un citas adreses sastāvdaļas, un atzīmējiet adresi kā <strong>Primārā</strong>. Kopsavilkuma cilnē <strong>Nodokļa reģistrācija</strong>, laukā <strong>Nodokļa reģistrācijas numurs</strong> norādiet nodokļa reģistrācijas numuru jūsu uzņēmumam.</td>
 </tr>
 <tr class="even">
 <td><strong>Iestatīšana:</strong> PVN reģistrācijas identifikācijas parametri</td>
-<td>Nodokļu reģistrācijas identifikācijas parametru iestatīšana uz <strong>valstij/reģionam parametrus</strong> lapu (noklikšķiniet <strong>nodokļu</strong>&gt;<strong>Setup</strong>&gt;<strong>PVN</strong>&gt;<strong>valstij/reģionam parametrus</strong>). Katrai valstij/reģionam, kur jums ir darījumu partneri, izveidojiet ierakstu lapā un norādiet šādu informāciju:
+<td>Iestatiet PVN reģistrācijas identifikācijas parametrus lapā <strong>Valsts/reģiona parametri</strong> (noklikšķiniet uz <strong>Nodokļi</strong> &gt; <strong>Iestatīšana</strong> &gt; <strong>PVN</strong> &gt; <strong>Valsts/reģiona parametri</strong>). Katrai valstij/reģionam, kur jums ir darījumu partneri, izveidojiet ierakstu lapā un norādiet šādu informāciju:
 <ul>
 <li><strong>Valsts/reģions</strong> – atlasiet valsti/reģionu, ko saistīt ar PVN reģistrācijas identifikāciju.</li>
 <li><strong>PVN</strong> – ievadiet nodokļa reģistrācijas identifikācijas numuru (t.i., nodokļa reģistrācijas numura prefiksu) atlasītajai valstij/reģionam.</li>
@@ -76,21 +79,21 @@ Tālāk esošajā tabulā ir norādīti priekšnoteikumi, kas ir jāizpilda pirm
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Iestatīšana: </strong>PVN reģistrācijas numuri</td>
-<td>Izveidot savu darījumu partneru PVN reģistrācijas numuru uz <strong>PVN reģistrācijas numuri</strong> lapu (noklikšķiniet <strong>nodokļu</strong>&gt;<strong>Setup</strong>&gt;<strong>PVN</strong>&gt;<strong>PVN reģistrācijas numuri</strong>). Katram PVN reģistrācijas numuram, izveidojiet ierakstu lapā un norādiet šādu informāciju:
+<td><strong>Iestatīšana:</strong> PVN reģistrācijas numuri</td>
+<td>Izveidojiet PVN reģistrācijas numurus jūsu darījumu partneriem lapā <strong>PVN reģistrācijas numuri</strong> (noklikšķiniet uz <strong>Nodokļi</strong> &gt; <strong>Iestatīšana</strong> &gt; <strong>PVN</strong> &gt; <strong>PVN reģistrācijas numuri</strong>). Katram PVN reģistrācijas numuram, izveidojiet ierakstu lapā un norādiet šādu informāciju:
 <ul>
-<li><strong>Valsts/reģions </strong>– atlasiet darījumu partnera PVN reģistrācijas valsti/reģionu.</li>
+<li><strong>Valsts/reģions</strong> – atlasiet darījumu partnera PVN reģistrācijas valsti/reģionu.</li>
 <li><strong>PVN reģistrācijas numurs</strong> – ievadiet darījuma partnera PVN reģistrācijas numuru.</li>
 <li><strong>Uzņēmuma nosaukums</strong> – (Izvēles iespēja) ievadiet darījuma partnera nosaukumu.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Iestatīšana: </strong>darījuma partneru nodokļu reģistrācija</td>
-<td>Iestatīt nodokļu reģistrācijas informāciju par jūsu darījumu partneriem vai nu <strong>visiem klientiem</strong> lapu (noklikšķiniet uz <strong>pārdošanas un mārketinga</strong>&gt;<strong>klientiem</strong>&gt;<strong>visiem klientiem</strong>, atlasiet klienta ierakstu, un pēc tam noklikšķiniet uz <strong>opcijas</strong>&gt;<strong>skata maiņa</strong>&gt;<strong>detaļas skatīt</strong>) vai <strong>kreditoriem</strong> lapu (noklikšķiniet uz <strong>iepirkumu un plānošanas</strong>&gt;<strong>kreditoriem</strong>&gt;<strong>kreditoriem</strong>, atlasiet kreditora ierakstu un pēc tam noklikšķiniet uz <strong>opcijas</strong>&gt;<strong>skata maiņa</strong>&gt;<strong>sīkāk skatīt</strong>). Kopsavilkuma cilnē <strong>Rēķins un piegāde</strong>, laukā <strong>PVN reģistrācijas numurs</strong>, atlasiet PVN reģistrācijas numuru.</td>
+<td><strong>Iestatīšana:</strong> darījuma partneru nodokļu reģistrācija</td>
+<td>Iestatiet nodokļu reģistrācijas informāciju par jūsu darījumu partneriem lapā <strong>Visi debitori</strong> (noklikšķiniet uz <strong>Pārdošana un mārketings</strong> &gt; <strong>Debitori</strong> &gt; <strong>Visi debitori</strong>, atlasiet debitora ierakstu un pēc tam noklikšķiniet uz <strong>Opcijas</strong> &gt; <strong>Mainīt skatījumu</strong> &gt; <strong>Detalizētas informācijas skats</strong>) vai lapā <strong>Kreditori</strong> (noklikšķiniet uz <strong>Sagāde un avoti</strong> &gt; <strong>Kreditori</strong> &gt; <strong>Kreditori</strong>, atlasiet kreditora ierakstu un pēc tam noklikšķiniet uz <strong>Opcijas</strong> > &gt; <strong>Mainīt skatījumu</strong> &gt; <strong>Detalizētas informācijas skats</strong>). Kopsavilkuma cilnē <strong>Rēķins un piegāde</strong>, laukā <strong>PVN reģistrācijas numurs</strong>, atlasiet PVN reģistrācijas numuru.</td>
 </tr>
 <tr class="odd">
-<td><strong>Iestatīšana: </strong>PVN</td>
-<td>Iestatīt nodokļu kodus iekļaut <strong>ES pārdošanas sarakstā</strong> ziņojums par <strong>PVN kodus</strong> lapu (noklikšķiniet <strong>nodokļu</strong>&gt;<strong>netiešie nodokļi</strong>&gt;<strong>PVN</strong>&gt;<strong>PVN kodus</strong>). Kopsavilkuma cilnē <strong>Pārskata iestatīšana</strong> katram PVN kodam, kas jāiekļauj pārskatā, notīriet izvēles rūtiņu <strong>Nav iekļauts </strong>. Iestatīt PVN parametrus, krājumiem <strong>krājumu PVN grupas</strong> lapu (noklikšķiniet <strong>nodokļu</strong>&gt;<strong>netiešie nodokļi</strong>&gt;<strong>PVN</strong>&gt;<strong>krājumu PVN grupas</strong>). Katrai PVN krājumu grupai, atlasiet vērtību laukā <strong>Pārskata veids</strong>. Vērtību, ko jūs atlasāt nosaka ESL summas kolonnu, kurā tiks iekļauta rindas summa.
+<td><strong>Iestatīšana:</strong> PVN</td>
+<td>Iestatiet nodokļu kodus, lai pārskatu <strong>ES pārdošanas saraksts</strong> iekļautu lapā <strong>PVN kodi</strong> (noklikšķiniet uz <strong>Nodokļi</strong> &gt; <strong>Netiešie nodokļi</strong> &gt; <strong>PVN</strong> &gt; <strong>PVN kodi</strong>). Kopsavilkuma cilnē <strong>Pārskata iestatīšana</strong> katram PVN kodam, kas jāiekļauj pārskatā, notīriet izvēles rūtiņu <strong>Nav iekļauts</strong>. Iestatiet PVN parametrus krājumiem lapā <strong>Krājumu PVN grupas</strong> (noklikšķiniet uz <strong>Nodokļi</strong> &gt; <strong>Netiešie nodokļi</strong> &gt; <strong>PVN</strong> &gt; <strong>Krājumu PVN grupas</strong>). Katrai PVN krājumu grupai, atlasiet vērtību laukā <strong>Pārskata veids</strong>. Vērtību, ko jūs atlasāt nosaka ESL summas kolonnu, kurā tiks iekļauta rindas summa.
 <ul>
 <li><strong>Tukšs</strong> – rindas summa tiek iekļauta kolonnā <strong>Nepiešķirta vērtība</strong>.</li>
 <li><strong>Krājums</strong> – rindas summa tiek iekļauta kolonnā <strong>Krājuma vērtība</strong>.</li>
@@ -103,8 +106,8 @@ Tālāk esošajā tabulā ir norādīti priekšnoteikumi, kas ir jāizpilda pirm
 <td>ESL elektronisko pārskatu veidošanas konfigurācijas importēšana vai izveidošana Informāciju par to, kā izveidot un uzturēt elektroniskā pārskata konfigurācijas, skatiet elektroniskā pārskata dokumentācijā.</td>
 </tr>
 <tr class="odd">
-<td><strong>Iestatīšana: </strong>Galvenie parametri</td>
-<td>Iestatiet atskaites parametrus uz ESL <strong>ārējās tirdzniecības parametri</strong> lapu (noklikšķiniet <strong>nodokļu</strong>&gt;<strong>Setup</strong>&gt;<strong>ārējās tirdzniecības</strong>&gt;<strong>ārējās tirdzniecības parametri</strong>). Norādiet šādus parametrus:
+<td><strong>Iestatīšana:</strong> Galvenie parametri</td>
+<td>Iestatiet ESL pārskatu parametrus lapā <strong>Ārējās tirdzniecības parametri</strong> (noklikšķiniet uz <strong>Nodokļi</strong> &gt; <strong>Iestatīšana</strong> &gt; <strong>Ārējā tirdzniecība</strong> &gt; <strong>Ārējās tirdzniecības parametri</strong>). Norādiet šādus parametrus:
 <ul>
 <li>Cilne <strong>ES pārdošanas saraksts</strong>:
 <ul>
@@ -147,14 +150,16 @@ Tālāk esošajā tabulā ir norādīti priekšnoteikumi, kas ir jāizpilda pirm
 -   Projekta rēķini
 -   Kreditora rēķini
 
-Darbība tiek uzskatīta par EK tirdzniecības darbību, ja darbības piegādes adrese ir kādā no ES dalībvalstīm. Šādām valstīm/reģioniem, cilnē **Valsts/reģiona parametri** ir jābūt ierakstam lapā **Ārējās tirdzniecības parametri**, un **Valsts/reģiona tips** vērtībai ir jābūt iestatītam uz **ES**. EK tirdzniecības darbības tiek atzīmētas laukā **Saraksta kods** lauks. Izmantojot šo lauku, jūs varat arī atdalīt vispārējās EK tirdzniecības darbības no triangulārās tirdzniecības darījumiem. Var apkopot informāciju par tirdzniecības darījumiem Kopienas iekšienē, par **ES pārdošanas saraksts** lapu (noklikšķiniet **nodokļu**&gt;**deklarācijas**&gt;**ārējās tirdzniecības**&gt;**ES pārdošanas saraksts**), izmantojot **nodot** funkciju. Šī funkcija ļauj iekļaut darbības, kurām ir dažādu pārskatu veidu summas (t. i., krājumu vai pakalpojumu), saskaņā ar krājumu PVN grupām, kas norādītas darbību rindās. Jūs varat lietot arī citus filtrus, lai noteiktu darbības, kas jāiekļauj. Funkcija **Pārsūtīt** lapā **ES pārdošanas saraksts** izveido ierakstu katrai EK tirdzniecības darbībai, kas ir iekļauta, un norāda darījuma partnera konta numuru, valsti/reģionu, PVN reģistrācijas numuru, rēķina numuru un datumu, kā arī katra pārskata tipa rindu kopskaitu. Tas arī nokopē vērtību **Saraksta kods** no darbības. Saraksta kodu darbībai var manuāli mainīt lapā **ES pārdošanas saraksts**. Funkcija **Pārsūtīt** izveido ierakstus, kur vērtība **Pārskata statuss** ir iestatīta uz **Iekļauts**. Jūs varat pārbaudīt informāciju, kas tiek apkopota lapā **ES pārdošanas saraksts **, izmantojot funkciju **Apstiprināt**.
+Darbība tiek uzskatīta par EK tirdzniecības darbību, ja darbības piegādes adrese ir kādā no ES dalībvalstīm. Šādām valstīm/reģioniem, cilnē **Valsts/reģiona parametri** ir jābūt ierakstam lapā **Ārējās tirdzniecības parametri**, un **Valsts/reģiona tips** vērtībai ir jābūt iestatītam uz **ES**. EK tirdzniecības darbības tiek atzīmētas laukā **Saraksta kods** lauks. Izmantojot šo lauku, jūs varat arī atdalīt vispārējās EK tirdzniecības darbības no triangulārās tirdzniecības darījumiem. Informāciju par kopienas iekšējās tirdzniecības transakcijām varat apkopot lapā **ES pārdošanas saraksts** (noklikšķiniet uz **Nodokļi** &gt; **Deklarācijas** &gt; **Ārējā tirdzniecība** &gt; **ES pārdošanas saraksts**), izmantojot funkciju **Pārsūtīt**. Šī funkcija ļauj iekļaut darbības, kurām ir dažādu pārskatu veidu summas (t. i., krājumu vai pakalpojumu), saskaņā ar krājumu PVN grupām, kas norādītas darbību rindās. Jūs varat lietot arī citus filtrus, lai noteiktu darbības, kas jāiekļauj. Funkcija **Pārsūtīt** lapā **ES pārdošanas saraksts** izveido ierakstu katrai EK tirdzniecības darbībai, kas ir iekļauta, un norāda darījuma partnera konta numuru, valsti/reģionu, PVN reģistrācijas numuru, rēķina numuru un datumu, kā arī katra pārskata tipa rindu kopskaitu. Tas arī nokopē vērtību **Saraksta kods** no darbības. Saraksta kodu darbībai var manuāli mainīt lapā **ES pārdošanas saraksts**. Funkcija **Pārsūtīt** izveido ierakstus, kur vērtība **Pārskata statuss** ir iestatīta uz **Iekļauts**. Jūs varat pārbaudīt informāciju, kas tiek apkopota lapā **ES pārdošanas saraksts**, izmantojot funkciju **Apstiprināt**.
 
 ### <a name="generating-the-eu-sales-list-report"></a>ES pārdošanas saraksta pārskata izveide
 
-Jūs varat izveidot pārskatu **ES pārdošanas saraksts**, izmantojot funkciju **Pārskatu veidošana **, lapā **ES pārdošanas saraksts **. Funkcija ļauj atlasīt pārskata periodu un lietot filtrus, lai definētu ESL ierakstus, kas jāiekļauj. Papildus var norādīt citus parametrus, kas ir specifiski katrai valstij/reģionam. Jūs varat arī izveidot priekšskatījuma pārskatu, elektronisko failu vai abus. Funkcija **Pārskatu veidošana **izmanto pārskatu un failu formāta iestatījumus, kas norādīti lapā **Ārējās tirdzniecības parametri **. Parasti, pārskats **ES pārdošanas saraksts** sastāv no atsevišķām rindām, kas uzskaita piegāžu kopsummas pēc darījuma partnera valsts/reģiona, PVN reģistrācijas numura un pārskata veida (tiek ietvertas triangulārās tirdzniecības darbības). Pēc tam, kad izveidojat pārskatu **ES pārdošanas saraksts** konkrētam periodam, jūs varat atzīmēt ESL ierakstus, kas tiek iekļauti, iestatot vērtību **Pārskata statuss** kā **Iekļauti pārskatā**. Lai iestatītu šo statusu, izmantojiet funkciju **Atzīmēt kā iekļauti pārskatā **, lapā **ES pārdošanas saraksts **.
+Jūs varat izveidot pārskatu **ES pārdošanas saraksts**, izmantojot funkciju **Pārskatu veidošana**, lapā **ES pārdošanas saraksts**. Funkcija ļauj atlasīt pārskata periodu un lietot filtrus, lai definētu ESL ierakstus, kas jāiekļauj. Papildus var norādīt citus parametrus, kas ir specifiski katrai valstij/reģionam. Jūs varat arī izveidot priekšskatījuma pārskatu, elektronisko failu vai abus. Funkcija **Pārskatu veidošana** izmanto pārskatu un failu formāta iestatījumus, kas norādīti lapā **Ārējās tirdzniecības parametri**. Parasti, pārskats **ES pārdošanas saraksts** sastāv no atsevišķām rindām, kas uzskaita piegāžu kopsummas pēc darījuma partnera valsts/reģiona, PVN reģistrācijas numura un pārskata veida (tiek ietvertas triangulārās tirdzniecības darbības). Pēc tam, kad izveidojat pārskatu **ES pārdošanas saraksts** konkrētam periodam, jūs varat atzīmēt ESL ierakstus, kas tiek iekļauti, iestatot vērtību **Pārskata statuss** kā **Iekļauti pārskatā**. Lai iestatītu šo statusu, izmantojiet funkciju **Atzīmēt kā iekļauti pārskatā**, lapā **ES pārdošanas saraksts**.
 
 ### <a name="closing-the-eu-sales-list-reporting-period"></a>ES pārdošanas saraksta pārskata perioda aizvēršana
 
-Kad esat pabeidzis pārskata sniegšanas procesu noteiktam laika periodam (piemēram, kad nodokļu iestādes ir pieņēmušas pārskatu **ES pārdošanas saraksts**), jūs varat atzīmēt ESL ierakstus, kas pārskatā tiek iekļauti periodam, iestatot vērtību **Pārskata statuss** kā **Slēgts**. Lai iestatītu šo statusu, izmantojiet funkciju **Atzīmēt kā slēgts **, lapā **ES pārdošanas saraksts **. Ja jūs atgriežat perioda slēgšanu, varat atzīmēt ESL ierakstus, iestatot vērtību **Pārskata statuss** kā **Iekļauts**. Šie ieraksti tad var vēlreiz tikt iekļauti pārskatā **ES pārdošanas saraksts**. Lai iestatītu šo statusu, izmantojiet funkciju **Atzīmēt kā** **iekļauti **, lapā **ES pārdošanas saraksts**.
+Kad esat pabeidzis pārskata sniegšanas procesu noteiktam laika periodam (piemēram, kad nodokļu iestādes ir pieņēmušas pārskatu **ES pārdošanas saraksts**), jūs varat atzīmēt ESL ierakstus, kas pārskatā tiek iekļauti periodam, iestatot vērtību **Pārskata statuss** kā **Slēgts**. Lai iestatītu šo statusu, izmantojiet funkciju **Atzīmēt kā slēgts**, lapā **ES pārdošanas saraksts**. Ja jūs atgriežat perioda slēgšanu, varat atzīmēt ESL ierakstus, iestatot vērtību **Pārskata statuss** kā **Iekļauts**. Šie ieraksti tad var vēlreiz tikt iekļauti pārskatā **ES pārdošanas saraksts**. Lai iestatītu šo statusu, izmantojiet funkciju **Atzīmēt kā** **iekļauti**, lapā **ES pārdošanas saraksts**.
+
+
 
 

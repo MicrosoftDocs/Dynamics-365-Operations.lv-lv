@@ -1,6 +1,6 @@
 ---
-title: "Krājuma rīcībā esošo mobilo darbvietu Microsoft Dynamics 365 app darbības"
-description: "Rīcībā esošo krājumu mobilo darbvietu palīdz jums iegūt mobilā ieskatu rezervēta un pieejamo krājumu jebkurā laikā un jebkurā vietā."
+title: "Mobilā darbvieta Rīcībā esošie krājumi Microsoft Dynamics 365 for Operations programmai"
+description: "Mobilā darbvieta Rīcībā esošie krājumi palīdz mobilajā ierīcē gūt ieskatu par rezervēto un pieejamo krājumu daudzumu jebkurā vietā un laikā."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,72 +25,72 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="inventory-on-hand-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Krājuma rīcībā esošo mobilo darbvietu Microsoft Dynamics 365 app darbības
+# <a name="inventory-on-hand-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Mobilā darbvieta Rīcībā esošie krājumi Microsoft Dynamics 365 for Operations programmai
 
-Rīcībā esošo krājumu mobilo darbvietu palīdz jums iegūt mobilā ieskatu rezervēta un pieejamo krājumu jebkurā laikā un jebkurā vietā. 
+Mobilā darbvieta Rīcībā esošie krājumi palīdz mobilajā ierīcē gūt ieskatu par rezervēto un pieejamo krājumu daudzumu jebkurā vietā un laikā. 
 
 <a name="prerequisites"></a>Priekšnosacījumi
 -------------
 
 | Priekšnoteikumi                                                         | apraksts                                                                                                                                        |
 |----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Lasiet par Microsoft Dynamics 365 operācijas mobilā platforma | [Dinamika 365 operācijas mobilā platforma](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                   |
-| Dinamika 365 operācijām                                          | Vidi, kas ir Microsoft Dynamics 365 darbību versija 1611 un Microsoft Dynamics darbības platformu update 3 (2016. gada novembrī) |
-| Labojumfailu KB 3215650                                                    | Jāinstalē labojumfails, lai iespējotu darbvietu, ar kurām ir norādītas jūsu Microsoft Dynamics 365 operācijām.                                       |
-| Mobilā ierīce, kurā ir dinamika 365 operācijas app uzstādīta | Lejupielādējiet Dynamics 365 operācijas app no mobilo app store.                                                                           |
+| Lasīt par Microsoft Dynamics 365 for Operations mobilo platformu | [Dynamics 365 for Operations mobilā platforma](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                   |
+| Dynamics 365 for Operations                                          | Vide, kurā ir instalēta Microsoft Dynamics 365 for Operations versija 1611 un Microsoft Dynamics for Operations 3. platformas atjauninājums (2016. gada novembra versija) |
+| Labojumfails KB 3215650                                                    | Instalējiet labojumfailu, lai iespējotu programmatūrā Microsoft Dynamics 365 for Operations nodrošinātās darbvietas.                                       |
+| Mobilā ierīce, kurā ir instalēta Dynamics 365 for Operations programma | Lejupielādējiet Dynamics 365 for Operations programmu no mobilo programmu veikala.                                                                           |
 
 ## <a name="introduction"></a>Ievads
-Parasti uzņēmumi ir vairākiem sūtījumiem un vairākas noliktavas saņemšanas katru dienu. Rīcībā esošo krājumu statusu mainīt pastāvīgi šīm kustībām. Krājuma rīcībā esošo mobilo darbvietu var apskatīt visuzņēmuma rīcībā esošo krājumu stāvokli, tāpēc, ka jūs varat iegūt jaunākos ieskatu inventarizācijas datu izvēle jūsu mobilajā ierīcē. Neatkarīgi no tā, vai darbs noliktavu, pirkšanas, pārdošanas, ražošanas vai pārvaldības vai citām lomām, rīcībā esošo krājumu datiem varat piekļūt jebkurā brīdī un jebkur. Mobilo darbvietu nodrošina tērzēšanas skats statusa rīcībā visā iekārtas un ļauj apskatīt rīcībā esošo krājumu, iekārtas, gan pašreizējo materiālu rezervāciju un tiešs rīcībā esošos krājumus. Var ievadīt preču numurus vaicājuma rīcībā esošos krājumus un filtrētu meklēšanas rīcībā esošo produktu vai varianti. Konkrētāk, mobilā darbvieta nodrošina šos līdzekļus:
+Parasti uzņēmumos katru dienu tiek veiktas vairākas krājumu nosūtīšanas un saņemšanas darbības. Šīs krājumu kustības dēļ nepārtraukti mainās rīcībā esošo krājumu statuss. Mobilā darbvieta Rīcībā esošie krājumi sniedz iespēju skatīt starpuzņēmumu rīcībā esošo krājumu statusu, lai varētu gūt jaunākos ieskatus par krājumu datiem jebkurā mobilajā ierīcē. Neatkarīgi no tā, vai strādājat noliktavā vai iepirkumu, pārdošanas, ražošanas vai vadības nodaļā vai ieņemat citu amatu, varat piekļūt rīcībā esošo krājumu datiem jebkurā laikā un vietā. Mobilā darbvieta nodrošina tūlītēju informāciju par rīcībā esošo krājumu statusu dažādās vietās un sniedz iespēju skatīt rīcībā esošos krājumus dažādās vietās, pašreizējās materiālu rezervācijas un nerezervētos rīcībā esošos krājumus. Varat arī ievadīt krājumu numurus, lai izveidotu rīcībā esošo krājumu vaicājumu, un veikt rīcībā esošo krājumu preču vai variantu meklēšanu, izmantojot filtrus. Mobilā darbvieta nodrošina tālāk norādītos līdzekļus.
 
--   Jūs varat meklēt pēc produkta numuru vai produkta nosaukumu, lai atrastu produktu apskatīt rīcībā esošo krājumu statuss.
--   Izvēlēto produktu, var apskatīt šādu informāciju:
-    -   Rīcībā esošie krājumi uz vienu vietu
-    -   Rīcībā esošo krājumu noliktavas
-    -   Rīcībā esošos krājumus pēc novietojuma
-    -   Rīcībā esošie krājumi uz partiju (par partijas kontrolē produkti)
-    -   Rīcībā esošie krājumi uz vienu krājumu statuss
+-   Varat meklēt pēc preces numura vai nosaukuma, lai atrastu preces, kuru rīcībā esošo krājumu statusu vēlaties skatīt.
+-   Varat skatīt tālāk norādīto informāciju par atlasītajām precēm.
+    -   Rīcībā esošie krājumi pēc vietas
+    -   Rīcībā esošie krājumi pēc noliktavas
+    -   Rīcībā esošie krājumi pēc atrašanās vietas
+    -   Rīcībā esošie krājumi pēc partijas (precēm, kas tiek komplektētas partijās)
+    -   Rīcībā esošie krājumi pēc krājumu statusa
 
 <!-- -->
 
--   Produkts ir rīcībā esošie krājumi tiek parādīts šādi:
-    -   Pēc inventarizācijas (Šis skatījums parāda kopējo summu).
-    -   Ar fiziski rezervētā (šo viedokli pārstāv rezervēto summu).
-    -   Pēc pieejamo fizisko (šo skatu attēlo pieejamā summa, kas nav atrunu.)
+-   Preces rīcībā esošie krājumi tiek rādīti tālāk norādītajos veidos.
+    -   Pēc fiziskajiem krājumiem (Šajā skatā tiek rādīts kopējais daudzums.)
+    -   Pēc rezervētajiem fiziskajiem krājumiem (Šajā skatā tiek rādīts rezervētais daudzums.)
+    -   Pēc pieejamajiem fiziskajiem krājumiem (Šajā skatā tiek rādīts pieejamais daudzums, kas nav rezervēts.)
 
 ## <a name="get-started"></a>Darba sākšana
-Lai sāktu jūsu mobilajā ierīcē:
+Lai sāktu darbu mobilajā ierīcē, veiciet tālāk norādītās darbības.
 
-1.  No mobilo app store, lejupielādējiet un instalējiet Microsoft Dynamics 365 operācijas app.
-2.  Savā ierīcē palaidiet app.
-3.  Ievadiet savu dinamiku 365 URL.
-4.  Ievadiet uzņēmuma pieteikties. Piemēram, ievadiet **USMF**.
-5.  Pirmo reizi piesakoties, jums tiek lūgts ievadīt lietotājvārdu un paroli par jūsu Microsoft Dynamics 365 operāciju kontam. Ievadiet savus akreditācijas datus. Pēc tam, kad jūs piesakāties sistēmā, jūs redzēt pieejams darbvietā savam uzņēmumam.
+1.  Mobilo programmu veikalā lejupielādējiet Microsoft Dynamics 365 for Operations programmu un instalējiet to.
+2.  Palaidiet programmu savā mobilajā ierīcē.
+3.  Ievadiet savu Dynamics 365 vietrādi URL.
+4.  Ievadiet uzņēmumu, kurā pierakstīties. Ievadiet, piemēram, **USMF**.
+5.  Pirmajā pierakstīšanās reizē ir jāievada Microsoft Dynamics 365 for Operations konta lietotājvārds un parole. Ievadiet savus akreditācijas datus. Pēc pierakstīšanās ir redzamas jūsu uzņēmumam pieejamās darbvietas.
 
-Lai skatītu darbvietu mobilo app, vispirms jāpublicē vajadzīgo darbvietu Dynamics 365 operācijas app.
+Lai darbvietas skatītu savā mobilajā programmā, jums šīs nepieciešamās darbvietas vispirms ir jāpublicē Dynamics 365 for Operations programmā.
 
-1.  Dynamics 365 sākt operāciju.
-2.  Dodieties uz **sistēmas administrēšanu**&gt;**Setup**&gt;**sistēmas parametru**.
-3.  Atlasiet **Manage mobilo app**.
-4.  Atlasīt darbvietas publicēt mobilā platforma.
-5.  Atlasiet **publicēt darbvietu**.
-6.  Atsvaidzinātu ierīces redzēt publicēto darbvietām.
+1.  Palaidiet Dynamics 365 for Operations.
+2.  Dodieties uz **Sistēmas administrēšana** &gt; **Iestatīšana** &gt; **Sistēmas parametri**.
+3.  Atlasiet vienumu **Pārvaldīt mobilo programmu**.
+4.  Atlasiet darbvietu, kas ir jāpublicē mobilajā platformā.
+5.  Atlasiet vienumu **Publicēt darbvietu**.
+6.  Atsvaidziniet ierīci, lai redzētu publicētās darbvietas.
 
-## <a name="view-the-onhand-inventory-for-a-product"></a>Skatiet produkta krājumu onhand
-1.  Mobilajā ierīcē, atlasiet **rīcībā esošo krājumu** darbvietu.
-2.  Atlasiet **pārbaudiet rīcībā esošo krājumu**. Tiek parādīts saraksts ar tādiem produktiem, kuri tiek ielādēta jūsu app lietošanai bezsaistē. Pēc noklusējuma 50 preces iekrauj, bet šo numuru var mainīt. Lai iegūtu papildinformāciju, skatiet iepriekš lasīt rokasgrāmatu.
-3.  Ja sarakstā nav vienumu, atlasiet **meklēt vairāk** darīt tiešsaistes meklēšanas programmā Dynamics 365 operācijām. Meklēt pēc produkta numuru, vai pāriet uz meklēšanu pēc produkta nosaukuma.
-4.  Atlasiet preci. Ja precei ir attēlu, attēls tiek parādīts.
-5.  Atlasiet vienu no šīm opcijām, lai apskatīt rīcībā esošo krājumu statusu:
-    -   Skatīt rīcībā esošo katrā vietnē
-    -   Skatīt rīcībā esošo noliktavu
-    -   Skatīt rīcībā esošo katrā vietā
-    -   Skatīt rīcībā esošo katras partijas (par partijas kontrolē produkti)
-    -   Skatīt rīcībā uz vienu krājumu statuss
+## <a name="view-the-onhand-inventory-for-a-product"></a>Preces rīcībā esošo krājumu skatīšana
+1.  Mobilajā ierīcē atlasiet darbvietu **Rīcībā esošie krājumi**.
+2.  Atlasiet vienumu **Pārbaudīt preces rīcībā esošos krājumus**. Tiek parādīts to preču saraksts, kas ir ielādētas programmā lietošanai bezsaistes režīmā. Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču šo skaitu var mainīt. Papildinformāciju skatiet iepriekš izlasāmajā rokasgrāmatā.
+3.  Ja vajadzīgais krājums nav ietverts sarakstā, atlasiet vienumu **Meklēt vairāk**, lai veiktu tiešsaistes meklēšanu programmatūrā Dynamics 365 for Operations. Meklējiet pēc preces numura vai pārslēdziet uz meklēšanu pēc preces nosaukuma.
+4.  Atlasiet preci. Ja krājumam ir attēls, tas tiek parādīts.
+5.  Atlasiet vienu no tālāk norādītājām opcijām, lai skatītu rīcībā esošo krājumu statusu.
+    -   Skatīt rīcībā esošos krājumus pēc vietas
+    -   Skatīt rīcībā esošos krājumus pēc noliktavas
+    -   Skatīt rīcībā esošos krājumus pēc atrašanās vietas
+    -   Skatīt rīcībā esošos krājumus pēc partijas (precēm, kas tiek komplektētas partijās)
+    -   Skatīt rīcībā esošos krājumus pēc krājumu statusa
 
-    Produkts ir rīcībā esošie krājumi tiek parādīts šādi:
-    -   Pēc inventarizācijas (Šis skatījums parāda kopējo summu).
-    -   Ar fiziski rezervētā (šo viedokli pārstāv rezervēto summu).
-    -   Pēc pieejamo fizisko (šo viedokli pārstāv pieejamā summa, kas nav atrunu).
+    Preces rīcībā esošie krājumi tiek rādīti tālāk norādītajos veidos.
+    -   Pēc fiziskajiem krājumiem (Šajā skatā tiek rādīts kopējais daudzums.)
+    -   Pēc rezervētajiem fiziskajiem krājumiem (Šajā skatā tiek rādīts rezervētais daudzums.)
+    -   Pēc pieejamajiem fiziskajiem krājumiem (Šajā skatā tiek rādīts pieejamais daudzums, kas nav rezervēts.)
 
 
 

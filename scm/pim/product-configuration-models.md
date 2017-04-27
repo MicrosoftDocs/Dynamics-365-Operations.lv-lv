@@ -1,6 +1,6 @@
 ---
-title: "Produkta konfigurācijas modeļu pārskats"
-description: "Šis pants definē termini un jēdzieni, kas attiecas uz produkta konfigurācijas modeļiem. Izstrādājuma konfigurācijas modeļi ļauj veidot ģenērisko zāļu struktūrā, ko var izmantot, lai konfigurētu daudzi produkta variantus par vienu ražojumu."
+title: "Pārskats par preču konfigurācijas modeļiem"
+description: "Šajā rakstā ir definēti termini un koncepcijas, kas ir saistīti ar preču konfigurācijas modeļiem. Preču konfigurācijas modeļi sniedz iespēju veidot iekšējo preču struktūru, ko var izmantot, lai konfigurētu daudzus vienas preces variantus."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="product-configuration-models-overview"></a>Produkta konfigurācijas modeļu pārskats
+# <a name="product-configuration-models-overview"></a>Pārskats par preču konfigurācijas modeļiem
 
-Šis pants definē termini un jēdzieni, kas attiecas uz produkta konfigurācijas modeļiem. Izstrādājuma konfigurācijas modeļi ļauj veidot ģenērisko zāļu struktūrā, ko var izmantot, lai konfigurētu daudzi produkta variantus par vienu ražojumu.
+Šajā rakstā ir definēti termini un koncepcijas, kas ir saistīti ar preču konfigurācijas modeļiem. Preču konfigurācijas modeļi sniedz iespēju veidot iekšējo preču struktūru, ko var izmantot, lai konfigurētu daudzus vienas preces variantus.
 
 Preču konfigurācijas modeļi tiek veidoti, lai pārstāvētu vispārīgu preču struktūru. Kad ir iestatīts kāds preču konfigurācijas modelis, varat konfigurēt atšķirīgu preces variantu, kam ir unikāls materiālu komplekts (MK) un unikāls maršruts. Lai izpildītu relācijas un ierobežojumus starp dažādiem preces variantiem, preču konfigurācijas modeļiem tiek izmantoti gan deklaratīvie ierobežojumi, gan obligātie aprēķini. Jūs varat konfigurēt krājumus pārdošanas pasūtījumos, pārdošanas piedāvājumos, pirkšanas pasūtījumos un ražošanas pasūtījumos. Nākamajā tabulā ir aprakstīti tabulas ierobežojumu termini un jēdzieni.
 <table>
@@ -69,16 +69,16 @@ Varat norādīt arī atribūtu nosacījumu. Ja nosacījums tiek izpildīts, obli
 <li><strong>Teksts</strong> ar fiksētu sarakstu vai bez tā</li>
 <li><strong>Būla</strong></li>
 </ul>
-Ja atribūta tips ir <strong>Būla</strong>, <strong>Vesels skaitlis</strong> ar diapazonu vai <strong>Teksts</strong> ar fiksētu sarakstu, tad šī vērtību kopa ir pieejama, kad ir iestatīts preces konfigurācijas modelis. <strong>Piezīme:</strong> produkta konfigurācijas Risinātājs atpazīst tikai šādus atribūtu veidus: <strong>Boolean</strong>, <strong>teksta</strong> ar fiksēta saraksta, un <strong>Integer</strong> ar loku. Tāpēc tikai šos atribūtu veidus var izmantot izteiksmju ierobežojumos un nosacījumos.</td>
+Ja atribūta tips ir <strong>Būla</strong>, <strong>Vesels skaitlis</strong> ar diapazonu vai <strong>Teksts</strong> ar fiksētu sarakstu, tad šī vērtību kopa ir pieejama, kad ir iestatīts preces konfigurācijas modelis. <strong>Piezīme.</strong> Preču konfigurācijas risinātājs atpazīst tikai šādus atribūtu tipus: <strong>Būla</strong>, <strong>Teksts</strong> ar fiksētu sarakstu un <strong>Vesels skaitlis</strong> ar diapazonu. Tāpēc tikai šos atribūtu veidus var izmantot izteiksmju ierobežojumos un nosacījumos.</td>
 </tr>
 <tr class="even">
 <td>Ierobežojumi</td>
 <td>Ierobežojumi apraksta preču modeļa konfigurācijas ierobežojumus. Ierobežojumi tiek izmantoti, lai garantētu, ka preces konfigurēšanas laikā tiek atlasītas tikai derīgas vērtības. Ierobežojumi var būt izteiksmes ierobežojumi vai tabulas ierobežojumi:
 <ul>
 <li>Izteiksmes ierobežojumus var izmantot tikai tam komponentam, kuram tie ir piesaistīti. Komponenta izteiksmes ierobežojumi var izveidot atsauci uz komponenta apakškomponentu atribūtiem. Preču konfigurācijas risinātājs tiek izmantots, lai atrisinātu ierobežojumus, un ierobežojumu rakstīšanas laikā jums ir jālieto risinātāja sintakse. Plašāku informāciju skatiet vikisaitē par izteiksmes ierobežojumiem un tabulas ierobežojumiem.</li>
-<li>Tabulu ierobežojumi ir jānosaka, pirms viņi var lietot komponenta konfigurāciju modelī. Tabulu ierobežojumi var būt lietotāja definēta vai sistēmas definēta. Lietotāja definēts tabulas ierobežojums ir tādas matricas veids, ko var izmantot, lai aprakstītu tādu atribūtu vērtību kombināciju kopas, ko definē atribūtu veidi. Piemēram, ja tiek ražoti skaļruņi, tad lietotāja definēta tabulas ierobežojuma matricā var būt kolonnas skaļruņu apdarei un režģim.</li>
+<li>Lai preces konfigurācijas modeļa komponentam varētu lieto tabulas ierobežojumus, tie vispirms ir jādefinē. Tabulas ierobežojumi var būt lietotāja definēti vai sistēmas definēti. Lietotāja definēts tabulas ierobežojums ir tādas matricas veids, ko var izmantot, lai aprakstītu tādu atribūtu vērtību kombināciju kopas, ko definē atribūtu veidi. Piemēram, ja tiek ražoti skaļruņi, tad lietotāja definēta tabulas ierobežojuma matricā var būt kolonnas skaļruņu apdarei un režģim.</li>
 </ul>
-<strong>Piemērs.</strong> Skaļruņi ir pieejami ar četrām apdarēm: Melns, Ozola, Rožkoka un Balts. Skaļruņi var būt viens no trim priekšējiem grili: Black, metāla vai balts. Melna apdare ir pieejama visiem griliem, bet citi apdares materiāli aprobežojas ar īpašu griliem. Nākamajā tabulā ir parādīts piemērs, kāda informācija tiek rādīta cilnē <strong>Atļautās kombinācijas</strong>, lapā <strong>Rediģēt tabulas ierobežojumu</strong>.
+<strong>Piemērs.</strong> Skaļruņi ir pieejami ar četrām apdarēm: Melns, Ozola, Rožkoka un Balts. Skaļruņiem var būt viens no trim priekšējiem režģiem: Melns, Metāla vai Balts. Melnā apdare ir pieejama visiem režģiem, bet pārējās apdares ir pieejamas tikai noteiktiem režģiem. Nākamajā tabulā ir parādīts piemērs, kāda informācija tiek rādīta cilnē <strong>Atļautās kombinācijas</strong>, lapā <strong>Rediģēt tabulas ierobežojumu</strong>.
 <table>
 <thead>
 <tr class="header">
@@ -117,11 +117,11 @@ Ja atribūta tips ir <strong>Būla</strong>, <strong>Vesels skaitlis</strong> ar
 </tr>
 </tbody>
 </table>
-Sistēmas definēta satura ierobežojums pārstāv kartēšanu starp atribūtu lauku programmā Dynamics 365 uz operāciju galda. Sistēmas definēta satura ierobežojums dinamiski saista atribūta tipu laukā. Saite ļauj atribūta konfigurāciju modelī atspoguļojot datus laukā Dynamics 365 uz operāciju galda.</td>
+Sistēmas definēts tabulas ierobežojums norāda kartēšanu starp atribūta tipu un lauku Microsoft Dynamics 365 for Operations tabulā. Sistēmas definēts tabulas ierobežojums dinamiski saista atribūta tipu un lauku. Šī saite sniedz iespēju ar preces konfigurācijas modeļa atribūtu atspoguļojot Dynamics 365 for Operations tabulas lauka datus.</td>
 </tr>
 <tr class="odd">
 <td>Aprēķini</td>
-<td>Aprēķini atspoguļo papildināt ierobežojumus. Var izmantot aprēķinu aritmētisku darbību veikšanai ar atribūtu <strong>Decimal</strong> un <strong>Integer</strong> tipiem vai loģiskās operācijas, kuras ietver atribūtu <strong>teksta</strong> ar fiksēta saraksta un <strong>Būla</strong> veidiem. Aprēķinam ir mērķa atribūts, kurš ietvers aprēķina izteiksmes rezultātu. Aprēķina izteiksme tiek veidota, izmantojot izteiksmju redaktoru.</td>
+<td>Aprēķini ir ierobežojumu papildinājums. Varat izmantot aprēķinu, lai veiktu aritmētiskas operācijas ar tipa <strong>Decimāldaļskaitlis</strong> un <strong>Vesels skaitlis</strong> atribūtiem vai loģiskas operācijas ar tipa <strong>Teksts</strong> (ar fiksētu sarakstu) un <strong>Būla</strong> atribūtiem. Aprēķinam ir mērķa atribūts, kurš ietvers aprēķina izteiksmes rezultātu. Aprēķina izteiksme tiek veidota, izmantojot izteiksmju redaktoru.</td>
 </tr>
 <tr class="even">
 <td>Apakškomponenti</td>

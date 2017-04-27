@@ -1,6 +1,6 @@
 ---
-title: "Izmaksas, kontrolējot mobilo darbvietu Microsoft Dynamics 365 app darbības"
-description: "Ar izmaksu kontrolēt mobilo darbvietu, izmaksu centra vadītāji var redzēt izmaksu centra darbību jebkurā laikā un jebkurā vietā."
+title: "Mobilā darbvieta Izmaksu kontrole Microsoft Dynamics 365 for Operations programmai"
+description: "Izmantojot mobilo darbvietu Izmaksu kontrole, izmaksu centru vadītāji izmaksu centra veiktspēju var redzēt jebkurā laikā un jebkurā vietā."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 2017-01-12 16 - 53 - 04
@@ -24,89 +24,89 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="cost-controlling-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Izmaksas, kontrolējot mobilo darbvietu Microsoft Dynamics 365 app darbības
+# <a name="cost-controlling-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Mobilā darbvieta Izmaksu kontrole Microsoft Dynamics 365 for Operations programmai
 
-Ar izmaksu kontrolēt mobilo darbvietu, izmaksu centra vadītāji var redzēt izmaksu centra darbību jebkurā laikā un jebkurā vietā. 
+Izmantojot mobilo darbvietu Izmaksu kontrole, izmaksu centru vadītāji izmaksu centra veiktspēju var redzēt jebkurā laikā un jebkurā vietā. 
 
 <a name="prerequisites"></a>Priekšnosacījumi
 -------------
 
-| Priekšnoteikumi                                                         | apraksts                                                                                                                                                                   |
+| Priekšnoteikumi                                                         | Apraksts                                                                                                                                                                   |
 |----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Lasiet par Microsoft Dynamics 365 operācijas mobilā platforma | [Dinamika 365 operācijas mobilā platforma](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
-| Dinamika 365 operācijām                                          | Pārliecinieties, ka jūs izmantojat vidē, kas ir Microsoft Dynamics 365 darbību versija 1611 un Microsoft Dynamics darbības platformu atjaunināt 3 (2016. gada novembrī). |
-| Labojumfailu KB 3215650                                                    | Jāinstalē labojumfails, lai iespējotu darbvietu, ar kurām ir norādītas Microsoft Dynamics 365 operācijām.                                                                       |
-| Mobilā ierīce, kurā ir dinamika 365 operācijas app uzstādīta | Lejupielādējiet Dynamics 365 operācijas app no mobilo app store.                                                                                                      |
+| Lasīt par Microsoft Dynamics 365 for Operations mobilo platformu | [Dynamics 365 for Operations mobilā platforma](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
+| Dynamics 365 for Operations                                          | Pārliecinieties, ka izmantojat vidi, kurā ir instalēta Microsoft Dynamics 365 for Operations versija 1611 un Microsoft Dynamics for Operations 3. platformas atjauninājums (2016. gada novembra versija). |
+| Labojumfails KB 3215650                                                    | Instalējiet labojumfailu, lai iespējotu programmatūrā Microsoft Dynamics 365 for Operations nodrošinātās darbvietas.                                                                       |
+| Mobilā ierīce, kurā ir instalēta Dynamics 365 for Operations programma | Lejupielādējiet Dynamics 365 for Operations programmu no mobilo programmu veikala.                                                                                                      |
 
 ## <a name="introduction"></a>Ievads
-Izmaksas kontrolēt mobilo darbvietu nodrošina tūlītēju skatu pašreizējā darbības izmaksu centriem, salīdzinot faktiskās izmaksas attiecībā pret budžetā paredzētajām izmaksām. Var detalizēti statusi individuālo izmaksu elementus.
+Mobilā darbvieta Izmaksu kontrole sniedz tūlītēju skatu uz izmaksu centru pašreizējo veiktspēju, faktiskās izmaksas salīdzinot ar budžetā paredzētajām izmaksām. Varat skatīt detalizētāku informāciju līdz pat atsevišķu izmaksu elementu statusiem.
 
-### <a name="example"></a>Paraugs
+### <a name="example"></a>Piemērs
 
-Darbinieks saņem ielūgumu uz starptautisku konferenci. Organizācija būs ceļa izdevumu segšanai. Darbinieka lūdz viņa silītē, ja viņš var apmeklēt konferenci. Pārvaldnieks atver ātri izmaksas kontrolēt mobilo darbvietu savā mobilajā telefonā, lai redzētu, vai viņš ir budžeta darbiniekam piedalīties konferencē.
+Kāds darbinieks saņem uzaicinājumu uz starptautisku konferenci. Organizācijai būs jāsedz visi ceļojuma izdevumi. Darbinieks savam vadītājam vaicā, vai ir iespējams apmeklēt šo konferenci. Vadītājs savā mobilajā tālrunī ātri atver mobilo darbvietu Izmaksu kontrole, lai apskatītu, vai ir pieejams budžets, lai darbinieks šo konferenci varētu apmeklēt.
 
 ### <a name="data-security"></a>Datu drošība
 
-Izmaksu kontrole darbvietas datiem aizsargā lietotāja akreditācijas datus. Izmaksu centra vadītājs drīkst tikai redzēt savu izmaksu centra dati. Piekļuves drošības līmenī pārvalda izmaksu uzskaites moduļa. Grāmatvežu izmaksas norādīt izmaksas kontrolēt mobilo darbvietu konfigurāciju izmaksu uzskaites modulī. Pēc tam, kad darbvieta ir publicēts Microsoft Dynamics 365 app operācijām, tā ir pieejama Dynamics 365 operāciju mobilo app. Tas nodrošina, ka visu izmaksu centra vadītāji uzņēmumā apskatīt datus tādā pašā formātā.
+Darbvietā Izmaksu kontrole datus aizsargā lietotāja akreditācijas dati. Izmaksu centra vadītājam ir atļauts apskatīt tikai datus par viņa paša izmaksu centru. Piekļuves līmeņa drošība tiek pārvaldīta modulī Izmaksu uzskaite. Izmaksu grāmatveži mobilās darbvietas Izmaksu kontrole konfigurāciju definē modulī Izmaksu uzskaite. Kad šī darbvieta ir publicēta Microsoft Dynamics 365 for Operations programmā, tā ir pieejama Dynamics 365 for Operations mobilajā programmā. Tādējādi tiek nodrošināts, ka visi organizācijas izmaksu centra vadītāji datus redz vienādā formātā.
 
-### <a name="actions-views-and-links"></a>Darbību, viedokli un saites
+### <a name="actions-views-and-links"></a>Darbības, skati un saites
 
-Kontrolējot mobilo darbvietu Dynamics 365 app darbības izmaksas nodrošina šādu darbību, viedokli un saites:
+Mobilajā darbvietā Izmaksu kontrole Dynamics 365 for Operations programmai ir pieejamas tālāk uzskaitītās darbības, skati un saites.
 
 -   Darbības 
-    -   Atlasiet **konfigurācijas** izvēlēties izkārtojumu.
-    -   Atlasiet **objektu izmaksas** izvēlēties izmaksu centriem, pēc kuras vēlaties filtrēt datus. **Piezīme:** saskaņā ar izmaksu uzskaites modulī piešķirta piekļuve tiek parādīts saraksts.
+    -   Atlasiet vienumu **Konfigurācijas**, lai izvēlētos kādu izkārtojumu.
+    -   Atlasiet vienumu **Izmaksu objekti**, lai izvēlētos izmaksu centrus, par kuriem vēlaties filtrēt datus. **Piezīme.** Šis saraksts tiek rādīts atbilstoši izmaksu uzskaites modulī piešķirtajai piekļuvei.
 
 <!-- -->
 
--   Atkarībā no tā, kas izvēlēts saskaņā ar **darbības** un kas ir konfigurēta izmaksu uzskaites moduli, var apskatīt šādu informāciju kartes. Ņemiet vērā, ka summa tiek parādīta tādā pašā formātā: faktiskās, budžeta, dispersiju un dispersiju %. 
-    -   Budžets (perioda) faktisko vs
-    -   Faktisko vs pārskatītais budžets (periodā)
-    -   Faktisko vs budžeta (iepriekšējā periodā)
-    -   Faktisko vs pārskatītais budžets (iepriekšējā periodā)
-    -   Faktisko vs budžeta (gads, datums)
-    -   Faktisko vs pārskatītais budžets (gads, datums)
+-   Atkarībā no sadaļā **Darbības** veiktās atlases un atkarībā no konfigurējuma izmaksu uzskaites modulī, kartēs varat skatīt tālāk aprakstīto informāciju. Ņemiet vērā, ka summa tiek rādīta tādā pašā formātā: Faktiski, Budžets, Novirze un Novirze %. 
+    -   Faktiski pret budžetu (pašreizējais periods)
+    -   Faktiski pret pārskatīto budžetu (pašreizējais periods)
+    -   Faktiski pret budžetu (iepriekšējais periods)
+    -   Faktiski pret pārskatīto budžetu (iepriekšējais periods)
+    -   Faktiski pret budžetu (no gada sākuma)
+    -   Faktiski pret pārskatīto budžetu (no gada sākuma)
 
 <!-- -->
 
 -   Saites
-    -   Detalizētu informāciju par pašreizējo periodu.
-    -   Informācija par iepriekšējo periodu.
-    -   Datus no gada sākuma.
+    -   Informācija pašreizējam periodam.
+    -   Informācija iepriekšējam periodam.
+    -   Informācija līdzšinējam gadam.
 
-Atlasot vienu no saitēm, tiek parādīta karte katram izmaksu elements. Kartes summa tiek parādīta šādā formātā: budžeta starpība faktiskās, budžeta, budžeta starpība %, pārskatītais budžets, pārskatītais budžets dispersiju un pārskatītais budžets dispersijas %.  [![izmaksu kontrole](./media/cost-controlling.png)](./media/cost-controlling.png)
+Kad atlasāt kādu no saitēm, tiek parādīta Karte katram izmaksu elementam. Summa kartēs tiek rādīta šādā formātā: Faktiski, Budžets, Budžeta novirze, Budžeta novirze %, Pārskatītais budžets, Pārskatītā budžeta novirze un Pārskatītā budžeta novirze %.  [![cost-controlling](./media/cost-controlling.png)](./media/cost-controlling.png)
 
 ## <a name="get-started"></a>Darba sākšana
-Lai sāktu izmantot izmaksu kontroles mobilo app savā mobilajā ierīcē, rīkojieties šādi.
+Lai savā mobilajā ierīcē sāktu lietot izmaksu kontroles mobilo programmu, izpildiet tālāk aprakstītos norādījumus.
 
-1.  Mobilo app Store, lejupielādējiet un instalējiet Microsoft Dynamics 365 operācijas app.
-2.  Savā ierīcē palaidiet app.
-3.  Ievadiet savu dinamiku 365 URL.
-4.  Ievadiet uzņēmuma pieteikties. Piemēram, ievadiet **USMF**.
-5.  Pirmo reizi piesakoties, jums tiek lūgts ievadīt lietotājvārdu un paroli par jūsu Microsoft Dynamics 365 operāciju kontam. Ievadiet savus akreditācijas datus. Pēc tam, kad jūs piesakāties sistēmā, jūs redzēt pieejams darbvietā savam uzņēmumam.
+1.  Savā mobilo programmu veikalā lejupielādējiet programmu Microsoft Dynamics 365 for Operations un instalējiet to.
+2.  Palaidiet programmu savā mobilajā ierīcē.
+3.  Ievadiet savu Dynamics 365 vietrādi URL.
+4.  Ievadiet uzņēmumu, kurā pierakstīties. Ievadiet, piemēram, **USMF**.
+5.  Pirmajā pierakstīšanās reizē ir jāievada Microsoft Dynamics 365 for Operations konta lietotājvārds un parole. Ievadiet savus akreditācijas datus. Pēc pierakstīšanās ir redzamas jūsu uzņēmumam pieejamās darbvietas.
 
-Lai skatītu darbvietu mobilo app, vispirms jāpublicē vajadzīgo darbvietu Dynamics 365 operācijas app.
+Lai darbvietas skatītu savā mobilajā programmā, jums šīs nepieciešamās darbvietas vispirms ir jāpublicē Dynamics 365 for Operations programmā.
 
-1.  Dynamics 365 sākt operāciju.
-2.  Dodieties uz **sistēmas administrēšanu**&gt;**Setup**&gt;**sistēmas parametru**.
-3.  Atlasiet **Manage mobilo app**.
-4.  Atlasīt darbvietas * * izmaksu kontrole * * publicēt mobilā platforma.
-5.  Atlasiet **publicēt darbvietu**.
-6.  Atsvaidzinātu ierīces redzēt publicēto darbvietām.
+1.  Palaidiet Dynamics 365 for Operations.
+2.  Dodieties uz **Sistēmas administrēšana** &gt; **Iestatīšana** &gt; **Sistēmas parametri**.
+3.  Atlasiet vienumu **Pārvaldīt mobilo programmu**.
+4.  Atlasiet darbvietu **Izmaksu kontrole**, kas ir jāpublicē mobilajā platformā.
+5.  Atlasiet vienumu **Publicēt darbvietu**.
+6.  Atsvaidziniet ierīci, lai redzētu publicētās darbvietas.
 
-## <a name="view-the-performance-of-your-cost-center"></a>Skatiet izmaksu centru darbības
-1.  Mobilajā ierīcē, atlasiet **izmaksu kontrolei** darbvietu.
-2.  Atlasiet **izmaksas, objektu kontrolei**.
-3.  Noklikšķiniet uz **darbības**.
-4.  Noklikšķiniet uz **Select configuration**, lai atlasītu izmaksu kontroles izkārtojumu.
-5.  Click **Done**.
-6.  Noklikšķiniet uz **darbības**.
-7.  Noklikšķiniet uz **atlasiet izmaksu objektam** uz atlasiet izmaksu centru, kas jums ir piešķirta pieeja.
-8.  Click **Done**.
-9.  Skatiet izmaksu centru vispārējo veiktspēju.
-10. Noklikšķiniet uz **sīkāku informāciju par pašreizējo periodu**.
-11. Skatīt atsevišķu izmaksu elementu izpildi.
-12. Varat arī meklēt konkrētu izmaksu elementus.
+## <a name="view-the-performance-of-your-cost-center"></a>Skatīt sava izmaksu centra veiktspēju
+1.  Mobilajā ierīcē atlasiet darbvietu **Izmaksu kontrole**.
+2.  Atlasiet vienumu **Izmaksu objektu kontrole**.
+3.  Noklikšķiniet uz **Darbības**.
+4.  Noklikšķiniet uz **Atlasīt konfigurāciju**, lai atlasītu izmaksu kontroles izkārtojumu.
+5.  Noklikšķiniet uz **Gatavs**.
+6.  Noklikšķiniet uz **Darbības**.
+7.  Noklikšķiniet uz **Atlasīt izmaksu objektu**, lai atlasītu izmaksu centrus, attiecībā uz kuriem jums ir piešķirta piekļuve.
+8.  Noklikšķiniet uz **Gatavs**.
+9.  Skatiet vispārēju sava izmaksu centra veiktspēju.
+10. Noklikšķiniet uz **Informācija pašreizējam periodam**.
+11. Skatiet atsevišķu izmaksu elementu veiktspēju.
+12. Varat arī meklēt konkrētus izmaksu elementus.
 
 
 

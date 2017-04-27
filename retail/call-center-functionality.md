@@ -1,6 +1,6 @@
 ---
 title: "Zvanu centra funkcionalitāte"
-description: "Šis raksts sniedz pārskatu par zvanu centra pārdošanas funkcionalitāti Microsoft Dynamics 365 operācijām."
+description: "Šajā rakstā ir sniegts apskats par zvanu centra pārdošanas funkcionalitāti programmatūrā Microsoft Dynamics 365 for Operations."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16361
 ms.assetid: c8ed2ba4-8d06-4d99-9728-2a83e6d95ca9
 ms.search.region: global
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="call-center-functionality"></a>Zvanu centra funkcionalitāte
 
-Šis raksts sniedz pārskatu par zvanu centra pārdošanas funkcionalitāti Microsoft Dynamics 365 operācijām.
+[!include[banner](includes/banner.md)]
 
-Mazumtirdzniecība un komercija programmā Microsoft Dynamics AX atbalsta zvanu centrus kā mazumtirdzniecības kanāla veidu. Zvanu centrā darbinieki pa tālruni no debitoriem saņem pasūtījumus un izveido pārdošanas pasūtījumus. Zvanu centra funkcionalitāte ietver līdzekļus, kas ir veidoti ar mērķi vienkāršot tālruņa pasūtījumu pieņemšanu un debitoru pakalpojumu nodrošināšanu visā pasūtījumu izpildes procesā. Piemēram, zvanu centra darbinieki var ievadīt maksājuma informāciju tieši no pārdošanas pasūtījuma, un var apskatīt sīki izklāstīts kopsavilkums par maksu un maksājumus, pirms tās iesniegšanas kārtību. Darbiniekiem ir iespējas kontrolēt izcenojumu, un no **Pārdošanas pasūtījuma** formas viņi var piekļūt dažādai informācijai par debitoriem, precēm un cenām. Zvanu centriem ir arī uzlabota funkcionalitāte debitoru vēstures un pasūtījuma statusa izsekošanai. Katram zvanu centram var būt savi lietotāji, maksājuma metodes, cenu grupas, finanšu dimensijas un piegādes veidi. Šīs opcijas var konfigurēt zvanu centra izveides brīdī. Turklāt varat izmantot lapu **Zvanu centrs**, lai iespējotu vai atspējotu šādas līdzekļu grupas, kas ir unikālas zvanu centriem:
+
+Šajā rakstā ir sniegts apskats par zvanu centra pārdošanas funkcionalitāti programmatūrā Microsoft Dynamics 365 for Operations.
+
+Mazumtirdzniecība un komercija programmā Microsoft Dynamics AX atbalsta zvanu centrus kā mazumtirdzniecības kanāla veidu. Zvanu centrā darbinieki pa tālruni no debitoriem saņem pasūtījumus un izveido pārdošanas pasūtījumus. Zvanu centra funkcionalitāte ietver līdzekļus, kas ir veidoti ar mērķi vienkāršot tālruņa pasūtījumu pieņemšanu un debitoru pakalpojumu nodrošināšanu visā pasūtījumu izpildes procesā. Piemēram, zvanu centra darbinieki var ievadīt maksājuma informāciju tieši pārdošanas pasūtījumā, un var apskatīt detalizētu izmaksu un maksājumu kopsavilkumu, pirms viņi iesniedz pasūtījumu. Darbiniekiem ir iespējas kontrolēt izcenojumu, un no **Pārdošanas pasūtījuma** formas viņi var piekļūt dažādai informācijai par debitoriem, precēm un cenām. Zvanu centriem ir arī uzlabota funkcionalitāte debitoru vēstures un pasūtījuma statusa izsekošanai. Katram zvanu centram var būt savi lietotāji, maksājuma metodes, cenu grupas, finanšu dimensijas un piegādes veidi. Šīs opcijas var konfigurēt zvanu centra izveides brīdī. Turklāt varat izmantot lapu **Zvanu centrs**, lai iespējotu vai atspējotu šādas līdzekļu grupas, kas ir unikālas zvanu centriem:
 
 -   **Pasūtījuma veikšana** – šajā grupā iekļauti līdzekļi, kas attiecas uz maksājumiem un pasūtījuma pabeigšanu lapā **Pārdošanas pasūtījums**.
 -   **Vadītā pārdošana** – šajā grupā ir iekļauti līdzekļi, kas saistīti ar pirmkodiem, skriptiem un kataloga pieprasījumiem.
@@ -44,6 +47,8 @@ Iespējojot šos līdzekļus zvanu centra iestatījumos, lapā **Pārdošanas pa
 -   Pārdošanas darbinieki pasūtījumam var pievienot mazumtirgotāja kuponus.
 -   Pārdošanas darbinieki var pārdot nepārtrauktības programmas.
 -   Pasūtījumus var manuāli vai automātiski aizturēt, lai norādītu, ka pirms pasūtījuma apstrādes ir nepieciešama papildu izmeklēšana.
+
+
 
 
 

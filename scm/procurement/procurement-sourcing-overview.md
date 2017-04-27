@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="procurement-and-sourcing-overview"></a>Sagādes un avotu apskats
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegts pārskats par funkcionalitāti, kas ir pieejama Sagādes un plānošanas modulī.
 
 Sagāde un avoti aptver visas darbības no preces un pakalpojumus nepieciešamības noteikšanas līdz preces sagādei, saņemšanai, rēķinu izrakstīšanai un maksājuma apstrādei ar kreditoriem. Sagādes procesu var konfigurēt atbilstoši noteiktām biznesa vajadzībām, definējot iepirkuma politikas un darbplūsmas.
@@ -37,14 +40,14 @@ Sagāde un avoti aptver visas darbības no preces un pakalpojumus nepieciešamī
   
 Sagādes nodaļa identificē nepieciešamo preču un pakalpojumu piegādātājus un tas var iekļaut *piedāvājuma pieprasījumu *nosūtīšanu vairākiem iespējamiem piegādātājiem. Ir iespējams koplietot pieprasītās preces specifikācijas un potenciālie kreditori var tos skatīt, lai redzētu, vai viņi var piegādāt preces, kas tām atbilst. Kreditori atgriež savus piedāvājumus, kurus pēc tam pārskata sagādes nodaļa pirms tā atlasa piegādātāju, no kura vēlas iegādāties preces.  
 
-Pirkšanas pasūtījums iekļauj opciju izsūtīt *pirkšanas pieprasījumu *kreditoram kā alternatīvu plašākam piedāvājuma pieprasījuma procesam. Pirkšanas pieprasījumu var izmantot, lai palīdzētu izveidot noteikumus, piemēram, cenas, atlaides un pasūtījuma piegādes datumu. Ja piegādātāji ir iestatīts, lai izmantotu **kreditoru** portālā, * * iepirkuma izmeklēšanas darbība ir atspējota. Tā vietā pasūtījums ir koplietots** Kreditoru** portālā, un, kad tiek nosūtīts *apstiprinājuma pieprasījums*, kreditors var tieši apstiprināt šo pasūtījumu.  
+Pirkšanas pasūtījums iekļauj opciju izsūtīt *pirkšanas pieprasījumu *kreditoram kā alternatīvu plašākam piedāvājuma pieprasījuma procesam. Pirkšanas pieprasījumu var izmantot, lai palīdzētu izveidot noteikumus, piemēram, cenas, atlaides un pasūtījuma piegādes datumu. Ja kreditori ir iestatīti **kreditoru** portāla* * izmantošanai, pirkšanas pieprasījuma funkcija ir atspējota. Tā vietā pasūtījums ir koplietots** Kreditoru** portālā, un, kad tiek nosūtīts *apstiprinājuma pieprasījums*, kreditors var tieši apstiprināt šo pasūtījumu.  
 
 *Piegādātāju katalogus *var izmantot, lai apkopotu informāciju par preču klāstu, ko var piegādāt kreditori. Kreditori var publicēt savu katalogu, lai katalogu būtu vieglāk atjaunināt. Ir iespējams pievienot *apstiprināto kreditoru sarakstu* precei, un tas var palīdzēt organizēt kreditora izvēli, kad tiek atvērti jauni pirkšanas pasūtījumi, un novērst neparedzētu kreditoru izmantošanu.
 
 ## <a name="procurement"></a>Sagāde
 *Pirkšanas pasūtījumus *var izveidot daudzos dažādos veidos, ieskaitot:
 
--   Kā vispārējās plānošanas, kas ir noteikusi pieprasījuma iznākumu, kas prasa pirkumu. Šis process izveido plānotos pirkšanas pasūtījumus un ja tās ir atbrīvotas, pirkšanas pasūtījumi tiks ģenerēti.
+-   Galvenās plānošanas rezultātā, ja ir noteikts pieprasījums, kam ir nepieciešama pirkšana. Šī procesa ietvaros tiek ģenerēti plānotie pirkšanas pasūtījumi, un to izlaišanas laikā tiek ģenerēti pirkšanas pasūtījumi.
 -   Izmantojot pirkšanas pieprasījumu apstrādi, kas beidzas ar sagādi.
 -   Izmantojot pirkšanas līgumu apstrādi, kur pirkšanas pasūtījumi tiek izveidoti kā izpildei nodotie pasūtījumi no līgumiem. Parasti to izmanto, kad pirkšanas līgumi tiek izmantoti, lai attēlotu virspasūtījumus.
 -   Manuāli, kad izveidojamais pirkšanas pasūtījums nav balstīts uz citu dokumentu.
@@ -53,7 +56,7 @@ Pirkšanas pasūtījumi, kas ir konfigurēti ar *pirkšanas apstiprinājuma darb
 
 Pirkšanas pasūtījumi tiek *apstiprināti*, lai norādītu, ka ar kreditoru ir izveidots līgums. Pēc tam pirkšanas pasūtījums pakāpeniski izies cauri dažādiem stāvokļiem līdz galu galā tiks izrakstīts rēķins vai tas tiks atcelts.  
 
-Veidojot pirkšanas pasūtījumu daudzi lauki ir iepriekš aizpildīt ar vērtībām, kas veidots no saglabāto informāciju par piegādātāju no **kreditoriem** lapā. Tas nozīmē, ka ir ierobežots lauku skaits, ko nepieciešams aizpildīt pirkšanas pasūtījumā, lai gan var izvēlēties ignorēt noklusējuma vērtības.
+Kad veidojat pirkšanas pasūtījumu, daudzi lauki ir iepriekš aizpildīti ar vērtībām, kas pēc noklusējuma tiek ņemtas no lapā **Kreditori** glabātās informācijas par kreditoru. Tas nozīmē, ka ir ierobežots lauku skaits, ko nepieciešams aizpildīt pirkšanas pasūtījumā, lai gan var izvēlēties ignorēt noklusējuma vērtības.
 
 ### <a name="prices-and-discounts"></a>Cenas un atlaides
 
@@ -86,5 +89,7 @@ Rēķinos iekļautie pirkšanas pasūtījumi tiek reģistrēti kā kreditoru par
 
 ## <a name="vendor-performance"></a>Kreditora veiktspēja
 Pirkšanas veiktspēja un pārskatīšana tiek atbalstīta, izmantojot *sagādes un kreditoru pārskatus,* kuri ietver tēriņu analīzi un kreditora veiktspējas analīzi.
+
+
 
 

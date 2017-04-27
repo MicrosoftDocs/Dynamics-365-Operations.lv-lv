@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="ledger-allocation-rules"></a>Virsgrāmatas sadalījuma kārtulas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegta informācija par virsgrāmatas sadalījuma kārtulām. Tajā ir aprakstīti dažādi šo sadalījuma kārtulu un tiem izmantojamo sadalīšanas metožu komponenti.
 
 Virsgrāmatas sadalījuma kārtulas izmanto, lai automātiski aprēķinātu un ģenerētu sadalījuma žurnālus un virsgrāmatas bilances vai fiksētu summu sadales kontu ierakstus. Sadalījuma metodes var būt mainīgas vai fiksētas. Virsgrāmatas sadalījuma kārtulām var izmantot šādas sadalījuma metodes.
@@ -42,10 +45,12 @@ Ja sadalījuma kārtulai izmanto sadalījuma metodi Pamata, jādefinē arī atse
 Katrai sadales kārtulai ir četri komponenti: vispārīgais, avota, galamērķa un korespondējošais. Papildu komponents, virsgrāmatas sadalījuma pamatu kārtulas ir nepieciešamas tad, ja pamata metode tiek izmantota kā sadalījuma metode. Katrs komponents nodrošina nozīmīgu informācijas daļu, kas nepieciešama sadalījumu apstrādei.
 
 -   **Vispārīgais** — šis komponents ļauj lietotājam noteikt opcijas, piemēram, sadalījuma metodi, starpuzņēmuma kārtulas iestatījumus un to, vai kārtula ir aktīva.
--   **Avots** — šis komponents ļauj lietotājam noteikt avota datus sadalījumam. Sadalījums var pamatoties uz Virsgrāmatas bilances (**datu avotu** = **grāmatas**) vai fiksētas summas (**datu avotu** = **fiksētu vērtību**). Ja opcija **Datu avots** ir iestatīta uz **Virsgrāmata**, virsgrāmatas sadalījuma kārtulai jānosaka avota filtra kritēriji (piemēram, par reklāmas izdevumiem).
+-   **Avots** — šis komponents ļauj lietotājam noteikt avota datus sadalījumam. Sadalījumu var veidot, pamatojoties uz Virsgrāmatas bilancēm (**Datu avots** = **Virsgrāmata**) vai fiksētām summām (**Datu avots** = **Fiksēta vērtība**). Ja opcija **Datu avots** ir iestatīta uz **Virsgrāmata**, virsgrāmatas sadalījuma kārtulai jānosaka avota filtra kritēriji (piemēram, par reklāmas izdevumiem).
 -   **Galamērķis** — šis komponents definē, kā sadales aprēķina rezultāts jāsadala un jāiekļauj norēķinos. Piemēram, katrai nodaļai var būt viena galamērķa rinda.
 -   **Korespondējošais konts** — šis komponents definē, kā jānosaka galvenie konti un dimensijas korespondējošiem ierakstiem, kas līdzsvaro galamērķa ierakstus. Lietotāja definētus ierakstus parasti izmanto to kontu un dimensiju vietā, kuru pamatā ir avots. Kad opcija **Datu avots** ir iestatīta uz **Fiksēta vērtība**, opciju **Avots** nevar izmantot kā opciju.
 -   **Virsgrāmatas sadalījuma pamata kārtulas** — šīs kārtulas izmanto savus avota filtra kritērijus, lai noteiktu, kuru virsgrāmatas bilanci lietot sadalījumam (piemēram, ieņēmumu departamenta). Katra sadalījuma pamata kārtulu var izmantot ar vairākām sadalījuma kārtulām.
+
+
 
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-disposal-posting-accounts"></a>Pamatlīdzekļu norakstīšanas grāmatošanas konti
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir izskaidrots, kā iestatīt līdzekļu norakstīšanas virsgrāmatas grāmatošanas kontus.
 
 Lapas Pamatlīdzekļu grāmatošanas metodes kopsavilkuma cilnē Virsgrāmatas konti atlasiet opcijas Izslēgšana — pārdošana un Izslēgšana — brāķis, lai iestatītu grāmatošanu virsgrāmatā.
@@ -37,6 +40,8 @@ Abiem darbību veidiem tiek kreditēts virsgrāmatas konts, kas paredzēts pamat
 Noklikšķiniet uz Izslēgšana un pēc tam noklikšķiniet uz Pārdošana vai Brāķis un pēc tam detalizēti iestatiet kontus, lai atgūtu pamatlīdzekļa atlikušo vērtību. Varat arī ievadīt informāciju lapas Izslēgšanas parametri laukos Grāmatot vērtību un Pārdošanas vērtības kontējuma tips. 
 
 Mazvērtīgas kopas līdzekļa norakstīšanas darbība samazina mazvērtīgās kopas atlikušo vērtību tikai par norakstīto summu. Tomēr, ja līdzekļa pārdošanas summa pārsniedz mazvērtīgās kopas atlikušo vērtību, atlikusī vērtība tiek samazināta līdz nullei.
+
+
 
 
 

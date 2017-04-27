@@ -1,6 +1,6 @@
 ---
-title: Noteikt, kura MK versija
-description: "Laikā pieprasījums sprādziens, ja vienums ir noklusētais pasūtījuma tipu ražošanas plānošanas dzinējs konstatē spēkā MK versiju, kas pamatojas uz vietas."
+title: "MK versijas noteikšana"
+description: "Ja krājuma noklusējuma pasūtījuma veids ir Ražošana, tad pieprasījuma izvēršanas laikā plānošanas programmā tiek atrasta derīga MK versija, pamatojoties uz atrašanās vietu."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="determine-the-bom-version"></a>Noteikt, kura MK versija
+# <a name="determine-the-bom-version"></a>MK versijas noteikšana
 
-Laikā pieprasījums sprādziens, ja vienums ir noklusētais pasūtījuma tipu ražošanas plānošanas dzinējs konstatē spēkā MK versiju, kas pamatojas uz vietas. 
+[!include[banner](../includes/banner.md)]
+
+
+Ja krājuma noklusējuma pasūtījuma veids ir Ražošana, tad pieprasījuma izvēršanas laikā plānošanas programmā tiek atrasta derīga MK versija, pamatojoties uz atrašanās vietu. 
 
 Vietas dimensija vienmēr ir zināma, un tā ir norādīta pieprasījuma transakcijā. Tālāk aprakstītais process tiek lietots, lai noteiktu, kuru MK versiju izmantot.
 
@@ -38,6 +41,8 @@ Vietas dimensija vienmēr ir zināma, un tā ir norādīta pieprasījuma transak
 -   Ja nav izmantojamas vispārīgas MK versijas, pieprasījuma izvēršana šajā vietā apstājas.
 
 Derīgai MK versijai, vietai specifiskai vai vispārīgai, jāatbilst vajadzīgajiem datuma un daudzuma kritērijiem.
+
+
 
 
 

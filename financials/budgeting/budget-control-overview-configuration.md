@@ -1,6 +1,6 @@
 ---
-title: "Budžeta kontroles pārskats"
-description: "Šis raksts iepazīstina budžeta kontroli un sniegta informācija, kas palīdzēs konfigurēt budžeta kontroles programmā Microsoft Dynamics 365 operācijām var pārvaldīt finanšu līdzekļus."
+title: "Budžeta kontroles apskats"
+description: "Šajā raksta tiek iepazīstināts ar budžeta kontroli un ir sniegta informācija, kas jums palīdzēs konfigurēt budžeta kontroli programmā Microsoft Dynamics 365 for Operations, lai varētu pārvaldīt finanšu resursus."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,16 +24,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="budget-control-overview"></a>Budžeta kontroles pārskats
+# <a name="budget-control-overview"></a>Budžeta kontroles apskats
 
-Šis raksts iepazīstina budžeta kontroli un sniegta informācija, kas palīdzēs konfigurēt budžeta kontroles programmā Microsoft Dynamics 365 operācijām var pārvaldīt finanšu līdzekļus.
+[!include[banner](../includes/banner.md)]
+
+
+Šajā raksta tiek iepazīstināts ar budžeta kontroli un ir sniegta informācija, kas jums palīdzēs konfigurēt budžeta kontroli programmā Microsoft Dynamics 365 for Operations, lai varētu pārvaldīt finanšu resursus.
 
 <a name="overview"></a>Pārskats
 --------
 
-Budžeta kontroles operācijām Microsoft Dynamics 365 atbalsta pārvaldību uzņēmuma finanšu resursus caur kontu plāna kontiem, darbplūsmas, lietotāju grupas, pirmdokumenti un žurnālus, konfigurējams aprēķina pieejamajiem fondiem, budžeta ciklu un limitus. Kad tiek izmantotas kontroles, organizācija var plānot, mērīt, pārvaldīt un prognozēt savus finanšu resursus visa finanšu gada garumā. 
+Budžeta kontrole programmā Microsoft Dynamics 365 for Operations atbalsta organizācijas finanšu resursu pārvaldību, izmantojot kontu plānus, darbplūsmas, lietotāju grupas, pirmdokumentus un žurnālus, konfigurējamu pieejamo līdzekļu aprēķinu, budžeta ciklus un sliekšņus. Kad tiek izmantotas kontroles, organizācija var plānot, mērīt, pārvaldīt un prognozēt savus finanšu resursus visa finanšu gada garumā. 
 
-Pēc budžeta apstiprināšanas programmā Dynamics 365 operācijām, budžeta plānus var izmantot, lai ģenerētu budžeta reģistra ierakstus, lai reģistrētu izdevumu budžeta organizācijas. Alternatīvi, var izveidot vai importēt budžeta reģistra ieraksti no trešās puses programmu, tā vietā, lai izmantotu budžeta plānošanas funkcionalitāti. 
+Kad budžeti ir apstiprināti programmatūrā Dynamics 365 for Operations, varat izmantot budžeta plānus, lai ģenerētu budžeta reģistra ierakstus un organizācijai reģistrētu izdevumu budžetu. Alternatīvi budžeta reģistra ierakstus varat izveidot trešās puses programmā vai importēt no trešās puses programmas, nevis izmantot budžeta plānošanas funkcionalitāti. 
 
 Izdevumus var reģistrēt, izmantojot galvenos kontus un finanšu dimensijas. Kopējo izdevumu kontroli varat konfigurēt, lai tā atbilstu organizācijas politikām un prasībām, grupējot finanšu dimensiju un galveno kontu kombinācijas. 
 
@@ -41,22 +44,22 @@ Nākamajā diagrammā ir parādīta budžeta kontroles vieta tipiska budžeta ci
 
 [![BudgetingCycle](./media/budgetingcycle-300x198.png)](./media/budgetingcycle.png) 
 
-Jūs varat konfigurēt budžeta kontroli saskaņā ar vairākiem faktoriem:
+Budžeta kontroli varat konfigurēt atbilstoši vairākiem tālāk aprakstītajiem faktoriem.
 
 -   **Finanšu dimensijas** — kādas finanšu dimensijas jāizmanto budžeta un faktisko vērtību atskaitēm un kādas finanšu dimensijas ir nepieciešamas, lai kontrolētu budžetu? Vai pastāv specifiskas dimensiju vai galveno kontu kombinācijas, kurām ir jāpievērš īpaša uzmanība? Piemēram, vai ir prasība izsekot budžetu un faktiskās izmaksas atbilstoši izmaksu centram un programmai? Vai ceļojuma izdevumiem ir nepieciešama īpaša uzmanība?
 -   **Laiks** — kāds laika posms (finanšu periods, finanšu periods līdz datumam un citi posmi) tiks izmantots, lai novērtētu pieejamos budžeta līdzekļus?
--   **Avota dokumentu** -ko pirmdokumentu iegūšanai jāizvērtē budžeta kontrolei? Dokumenti jāizvērtē katrā rindā vai vienā dokumentā?
+-   **Pirmdokumenti**— kādus pirmdokumentus ir nepieciešams novērtēt budžeta kontrolei? Vai dokumentos ir jānovērtē katra rinda atsevišķi vai jānovērtē dokuments kopumā?
 -   **Pieejamo līdzekļu aprēķins** — vai pieejamo līdzekļu aprēķinā ir jāņem vērā tādi dokumenti kā pirkšanas pieprasījumi (apgrūtinājumi bez juridiskām saistībām) un pirkšanas pasūtījumi (apgrūtinājumi)? Vai aprēķinā ir jāņem vērā dokumenti, kuru statuss ir melnraksts?
 -   **Ignorēt atļauju** — kam ir atļauja pārsniegt pieejamo budžetu?
 
-Budžeta kontroli ir pilnībā integrēta programmā Dynamics 365 operācijām. Tāpēc pieejamo budžetu varat novērtēt gan plānotajiem pirkumiem, gan faktiskajiem pirkumiem. Ir pieejamas budžeta uzziņas un atskaites. Tāpēc lietotāji var novērtēt budžetu visā budžeta cikla laikā un veikt visas nepieciešamās korekcijas, kas izpaužas kā budžeta pārskatījumi vai pārsūtījumi. Budžeta pārvaldnieks budžeta un faktiskās vērtības var arī eksportēt uz programmu Microsoft Excel, lai pēc nepieciešamības tās labāk analizētu un prognozētu.
+Budžeta kontrole ir pilnīgi integrēta programmatūrā Dynamics 365 for Operations. Tāpēc pieejamo budžetu varat novērtēt gan plānotajiem pirkumiem, gan faktiskajiem pirkumiem. Ir pieejamas budžeta uzziņas un atskaites. Tāpēc lietotāji var novērtēt budžetu visā budžeta cikla laikā un veikt visas nepieciešamās korekcijas, kas izpaužas kā budžeta pārskatījumi vai pārsūtījumi. Budžeta pārvaldnieks budžeta un faktiskās vērtības var arī eksportēt uz programmu Microsoft Excel, lai pēc nepieciešamības tās labāk analizētu un prognozētu.
 
 ## <a name="configuring-budget-control"></a>Budžeta kontroles konfigurēšana
 ### <a name="budget-cycle-time-span"></a>Budžeta cikla laika posms
 
 Kad ir konfigurēts budžeta veidošanas pamats, lapā **Budžeta cikla laika posms** varat definēt budžeta vai budžeta kontroles laiku vai sākuma un beigu periodus. Budžeta cikli bieži atbilst finanšu kalendāriem, bet var ietvert vairākus finanšu gadus.
 
-Nākamie soļi konfigurācijā tiek pabeigti dažādās cilnēs **budžeta vadības konfigurāciju** lapā.
+Nākamās konfigurēšanas darbības tiek veiktas dažādās cilnēs lapā **Budžeta kontroles konfigurācija**.
 
 ### <a name="define-parameters"></a>Definēt parametrus
 
@@ -77,7 +80,7 @@ Pēc tam cilnē **Budžeta sliekšņa pārsniegšanas atļaujas** varat norādī
 Pēc tam cilnē **Pieejamie budžeta līdzekļi** varat definēt formulu, kas tiek izmantota, lai aprēķinātu pieejamos budžeta līdzekļus. Atkarībā no tā, cik konservatīvi organizācija pārvalda savus finanšu resursus, vai atkarībā no noteikumiem vai nozares prasībām, šis aprēķins var ietvert dokumentu melnrakstus vai neiegrāmatotus dokumentus. 
 
 > [!NOTE] 
-> Ja aprēķins ir modificēts budžeta cikla laikā, izmaiņas neietekmēs visus dokumentus, kas iepriekš nodots budžeta kontroles pārbaudēm un kas tika norīkots vai pabeigts.
+> Ja aprēķins tiek modificēts budžeta cikla laikā, tad veiktās izmaiņas neietekmēs nevienu dokumentu, kam budžeta kontroles pārbaudes tika veiktas iepriekš un kas tika iegrāmatots vai pabeigts.
 
 ### <a name="documents-and-journals"></a>Dokumenti un žurnāli
 
@@ -96,7 +99,7 @@ Pēc tam cilnē **Piešķirt budžeta modeļus** jūs piešķirat budžeta mode�
 Pēc tam cilnē **Definēt budžeta kontroles nosacījumus** jums ir jāizveido specifiski nosacījumi, ņemot vērā budžeta kontrolei iespējotās finanšu dimensijas. Piemēram, ja koncentrējaties uz nodaļas izdevumiem vai izdevumu diapazonu, tad šīs cilnes iestatījumus varat izmantot, lai definētu un izvērtētu šos izdevumus. Katram budžeta kontroles nosacījumam varat definēt atšķirīgus sliekšņus. 
 
 > [!Important]
-> Budžeta kontrole tiks iespējoti galvenais vērā **peļņas un zaudējumu**, **izdevumu**, **ieņēmumi, bilances, saistību, pašu kapitāla** vai **Asset** tips. Ja šajā cilnē ir kāds nosacījums, kuram ir tukši kritēriji, tad budžeta kontrole tiek iespējota **visām **finanšu dimensiju kombinācijām, kas ietver šo tipu galvenos kontus. Tāpēc nodrošiniet, lai tiktu izveidoti budžeta kontroles nosacījumi, kas definē vienīgi tos finanšu dimensiju kombināciju diapazonus, kur ir svarīgi ieslēgt budžeta kontroli.  
+> Budžeta kontrole būs iespējota visiem galvenajiem kontiem ar tipu **Peļņa un zaudējumi**, **Izdevumi**, **Ieņēmumi, Bilance, Saistības, Kapitāls** vai **Aktīvi**. Ja šajā cilnē ir kāds nosacījums, kuram ir tukši kritēriji, tad budžeta kontrole tiek iespējota **visām** finanšu dimensiju kombinācijām, kas ietver šo tipu galvenos kontus. Tāpēc nodrošiniet, lai tiktu izveidoti budžeta kontroles nosacījumi, kas definē vienīgi tos finanšu dimensiju kombināciju diapazonus, kur ir svarīgi ieslēgt budžeta kontroli.  
 
 ### <a name="select-main-accounts"></a>Atlasīt galvenos kontus
 
@@ -114,15 +117,17 @@ Ja budžeta kontroles brīdinājuma ziņojumi ir jāaiztur kādai no lietotāju 
 
 Kad budžeta kontrole ir konfigurēta, varat to ieslēgt un aktivizēt cilnē **Aktivizēt budžeta kontroli**. Pēc tam melnraksta versija stājas spēkā.
 > [!Important]
-> Pēc tam, kad budžeta kontroli ir ieslēgts un ir aktīvs un pēc tam, kad tiek grāmatotas, tas nav jāizslēdz gada vidū. Ja budžeta kontrole tiek izslēgta, budžeta kontroles nolūkiem vairs netiek reģistrētas aktivitātes un budžeta pārbaudes vairs netiek veiktas. Tāpēc dokumenti, kas jau ir iegrāmatoti, ar budžeta kontroli saistītajās uzziņās un atskaitēs varētu nepareizi atspoguļot jebkādas atvieglošanas summas vai bilances. Tostarp ietilpst budžeta kontroles statistika par jebkādiem lejupstraumes vai koriģējošajiem dokumentiem un žurnāliem. 
+> Kad budžeta kontrole ir ieslēgta un aktīva un kad transakcijas ir iegrāmatotas, to nevajadzētu izslēgt gada vidū. Ja budžeta kontrole tiek izslēgta, budžeta kontroles nolūkiem vairs netiek reģistrētas aktivitātes un budžeta pārbaudes vairs netiek veiktas. Tāpēc dokumenti, kas jau ir iegrāmatoti, ar budžeta kontroli saistītajās uzziņās un atskaitēs varētu nepareizi atspoguļot jebkādas atvieglošanas summas vai bilances. Tostarp ietilpst budžeta kontroles statistika par jebkādiem lejupstraumes vai koriģējošajiem dokumentiem un žurnāliem. 
 
 Turklāt ņemiet vērā, ka transakcijas, tostarp budžeta reģistra ieraksti, kas iegrāmatotas pirms budžeta kontroles ieslēgšanas, budžeta kontrolei netiek ņemtas vērā. Tāpēc budžeta kontroli ieteicams ieslēgt tikai jauna budžeta cikla sākumā. Nodrošiniet, lai budžeta reģistra ierakstos, kas ietver budžeta kontrolei nepieciešamās sākuma budžeta bilances, būtu iekļautas budžeta bilances, kas atjauninātas tikai pēc budžeta kontroles ieslēgšanas. Kad lietotājs manuāli izsauc budžeta kontroles pārbaudi dokumentā, jebkurš atvērts dokuments (piemēram, pirkšanas pasūtījums) tiks pārbaudīts attiecībā uz pieejamajiem budžeta līdzekļiem un saņems budžeta rezervāciju budžeta kontrolei.
 
 ## <a name="using-budget-control"></a>Budžeta kontroles lietošana
 Kad budžeta kontrole ir ieslēgta, lietotāji saņems budžeta kontroles brīdinājumu un kļūdu ziņojumus dokumentos un žurnālos, kas ir konfigurēti budžeta kontrolei. Atcerieties — budžeta kontroli varat konfigurēt tā, lai lietotāji tiktu brīdināti, ja viņi pārsniedz budžeta līdzekļus, bet transakciju joprojām varētu apstiprināt vai grāmatot. Detalizētu informāciju par nesekmīgajām budžeta pārbaudēm lietotāji var skatīt lapā **Budžeta kontroles kļūdas un brīdinājumi**.   
 
-No šīs lapas, lietotāji var Detalizēt **budžeta kontroles statistikas perioda** lapu skatīt budžeta pieejamības detaļas un atrunas par atlasīto budžeta kontroles dimensiju kombinācija. Lietotāji var arī atvērt lapu **Budžeta kontroles statistika**, lai skatītu visas budžeta pieejamību visām finanšu dimensiju kombinācijām, kas tiek lietotas budžeta kontrolē. 
+No šīs lapas lietotāji var atvērt lapu **Budžeta kontroles statistika pēc perioda**, lai skatītu detalizētu informāciju par budžeta pieejamību un rezervācijām atlasīto budžeta kontroles dimensiju kombinācijai. Lietotāji var arī atvērt lapu **Budžeta kontroles statistika**, lai skatītu visas budžeta pieejamību visām finanšu dimensiju kombinācijām, kas tiek lietotas budžeta kontrolē. 
 
 Ja budžeta kontrole ir ieslēgta pirkšanas pasūtījumiem, tad budžeta pārvaldnieks var lietot darbvietu **Virsgrāmatas budžeti un prognozes**, lai pārskatītu visu neapstiprināto pirkšanas pasūtījumu rindu, kuriem ir budžeta pārbaudes brīdinājumi un kļūdas. Ja budžeta pārvaldniekam ir konfigurētas budžeta pārsniegšanas atļaujas, viņš vai viņa var apstiprināt pirkšanas pasūtījumus tieši darbvietā.    
+
+
 
 

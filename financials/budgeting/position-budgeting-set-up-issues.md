@@ -1,5 +1,5 @@
 ---
-title: "Nostāju budžeta problēmu novēršana"
+title: "Pozīciju budžeta izveides problēmu novēršana"
 description: "Šajā raksta ir sniegtas atbildes uz jautājumiem, kas var rasties budžeta veidošanas pozīciju konfigurēšanas gaitā. Tēma atsaucas uz biežāk uzdotajiem jautājumiem par to, kā izveidot budžeta izmaksu elementus, atlīdzību grupas un atlīdzību režģus."
 author: twheeloc
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="position-budgeting-troubleshooting"></a>Nostāju budžeta problēmu novēršana
+# <a name="position-budgeting-troubleshooting"></a>Pozīciju budžeta izveides problēmu novēršana
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā raksta ir sniegtas atbildes uz jautājumiem, kas var rasties budžeta veidošanas pozīciju konfigurēšanas gaitā. Tēma atsaucas uz biežāk uzdotajiem jautājumiem par to, kā izveidot budžeta izmaksu elementus, atlīdzību grupas un atlīdzību režģus. 
 
@@ -58,6 +61,8 @@ Prognozes pozīcijas izmaksu elementa rindas datumiem jābūt tālāk norādīta
 -   Pozīcijas aktivizēšanas un norakstīšanas datums.
 -   Budžeta izmaksu elementa aktivizēšanas un beigu datums.
 -   Budžeta cikla sākuma un beigu datums, kas ir saistīts ar prognozes pozīcijas budžeta plānošanas procesu.
+
+
 
 
 

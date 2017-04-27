@@ -68,14 +68,14 @@ Izmantojot slīdošo vidējo, preces izmaksas tiek noteiktas pēc pirkšanas iee
 3.  Izveidojiet pārdošanas pasūtījumu, norādot daudzumu 1 un vienības cenu 10,00.
 4.  Izveidojiet pirkšanas rēķinu, norādot daudzumu 2 un vienības cenu 12,00.
 
-Grāmatojot pirkšanas rēķinu, vienības cenu atšķirība 2,00 tiek grāmatota kontā Cenas atšķirība vidējās vērtības pārvietošanai. Tā notiek tāpēc, ka tika nopirktas divas preces, radot izmaksas 20,00. Viena no precēm tika pārdota par vienības cenu 10,00. Iepirkuma rēķins iegrāmatots 12.00 ar daudzumu 2 vienības cenu. Produkta vienības cenu nevar iegrāmatot 14.00.
+Grāmatojot pirkšanas rēķinu, vienības cenu atšķirība 2,00 tiek grāmatota kontā Cenas atšķirība vidējās vērtības pārvietošanai. Tā notiek tāpēc, ka tika nopirktas divas preces, radot izmaksas 20,00. Viena no precēm tika pārdota par vienības cenu 10,00. Tika grāmatos pirkšanas rēķins ar vienības cenu 12,00 un daudzumu 2. Nevar grāmatot preces vienības cenu 14,00.
 
 ## <a name="moving-average-product-and-inventory-adjustment"></a>Preču un krājumu korekcija, izmantojot slīdošo vidējo
 Ja ir nepieciešams koriģēt preces slīdošās vidējās izmaksas, var veikt krājumu korekciju no šodienas datuma. Preces slīdošās vidējās izmaksas nevar labot, izmantojot krājumu korekciju ar atpakaļejošu datumu. Nevar izmantot izmaksu plūsmu secīgās transakcijās. Šajā piemērā tiek koriģētas preces slīdošās vidējās izmaksas.
 1.  Atlasiet preci, kam vēlaties koriģēt slīdošās vidējās izmaksas.
-    | **Note**                                                                                    |
+    | **Piezīme**                                                                                    |
     |---------------------------------------------------------------------------------------------|
-    | * * Mainīgā vidējā pārvērtēšanu * * lapas izskata pieejamo produktu krājumu. |
+    | Lapā **Pārvērtēšana vidējās vērtības pārvietošanai** tiek pārbaudīti pieejamie preces krājumi. |
 
     Atlasītās preces grāmatotais daudzums ir 1, grāmatotā vērtība ir 12,00, grāmatotās vienības izmaksas ir 12,00 un vienības izmaksas ir 12,00.
 2.  Atjauniniet lauka **Vienības izmaksas** vērtību uz 16,00. Sistēmā tiek aprēķinātas pārējo lauku vērtības.
@@ -88,7 +88,7 @@ Ja ir nepieciešams koriģēt preces slīdošās vidējās izmaksas, var veikt k
 Lapā **Dokumenta segšanas darbības** varat redzēt, ka kontā Izmaksu pārvērtēšana vidējās vērtības pārvietošanai ir grāmatota korekcija 4,00.
 
 ## <a name="moving-average-with-production"></a>Slīdošā vidējā izmantošana ražošanā
-Slīdošo vidējo var izmantot saražotajiem krājumiem. Ja jūs plānojat izmantot slīdošo vidējo ražošanas vidē, **izmantot paredzamo izmaksu cenu** slīdni ar * * ražošanas kontroles parametri * * lapā vajadzētu būt selcted. Tas nozīmē, ka faktiskās MK aprēķina izmaksu cenas vietā tiek izmantota novērtēšanas laikā aprēķinātā izmaksu cena.
+Slīdošo vidējo var izmantot saražotajiem krājumiem. Ja slīdošā vidējā vērtība tiks izmantota ražošanas vidē, ir jāatlasa slīdnis **Lietot novērtēto izmaksu cenu** lapā **Ražošanas kontroles parametri**. Tas nozīmē, ka faktiskās MK aprēķina izmaksu cenas vietā tiek izmantota novērtēšanas laikā aprēķinātā izmaksu cena.
 
 ## <a name="moving-average-with-a-backdated-transaction"></a>Slīdošā vidējā izmantošana transakcijās ar atpakaļejošu datumu
 Transakcijām ar atpakaļejošu datumu tiek piešķirtas pašreizējas slīdošās vidējās izmaksas, un tiek atjaunināti preces fiziskie krājumi, taču netiek ietekmētas preces vidējās slīdošās izmaksas. Šajā slīdošā vidējā izmantošanas piemērā tiek grāmatota vidējās slīdošās vērtības preces transakcija ar atpakaļejošu datumu.

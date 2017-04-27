@@ -1,6 +1,6 @@
 ---
 title: "Sistēmas prasības"
-description: "Šajā tēmā uzskaitītas pašreizējā versijā Microsoft Dynamics 365 operāciju sistēmas prasības."
+description: "Šajā tēmā ir uzskaitītas sistēmas prasības pašreizējai Microsoft Dynamics 365 for Operations versijai."
 author: sericks007
 manager: AnnBe
 ms.date: 2017-04-04
@@ -26,102 +26,102 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="system-requirements"></a>Sistēmas prasības
 
-Šajā tēmā uzskaitītas pašreizējā versijā Microsoft Dynamics 365 operāciju sistēmas prasības.
+Šajā tēmā ir uzskaitītas sistēmas prasības pašreizējai Microsoft Dynamics 365 for Operations versijai.
 
 <a name="supported-web-browsers"></a>Atbalstītās tīmekļa pārlūkprogrammas
 ----------------------
 
-Microsoft Dynamics 365 operācijas web lietojumprogrammas var palaist jebkurā no šīm web pārlūkprogrammas un kas darbojas noteiktā operētājsistēmas:
+Microsoft Dynamics 365 for Operations tīmekļa programmu var palaist jebkurā no tālāk uzskaitītajām tīmekļa pārlūkprogrammām, kas darbojas norādītajās operētājsistēmās.
 
--   Microsoft Edge (jaunāko publiski pieejamā versija), Windows 10
+-   Microsoft Edge (jaunākā publiski pieejamā versija) operētājsistēmā Windows 10
 -   Internet Explorer 11 operētājsistēmā Windows 10, Windows 8.1 vai Windows 7
--   Google Chrome (jaunāko publiski pieejamā versija) operētājsistēmā Windows 10, Windows 8.1, Windows 8, Windows 7 vai Google Nexus 10 tablet
--   Apple Safari (jaunāko publiski pieejamā versija) uz Mac OS X 10.10 (Yosemite), 10.11 (El Capitan) vai 10.12 (Sierra) vai Apple iPad
+-   Google Chrome (jaunākā publiski pieejamā versija) operētājsistēmā Windows 10, Windows 8.1, Windows 8, Windows 7 vai Google Nexus 10 planšetdatorā
+-   Apple Safari (jaunākā publiski pieejamā versija) operētājsistēmā Mac OS X 10.10 (Yosemite), 10.11 (El Capitan), 10.12 (Sierra) vai Apple iPad
 
 Lai atrastu katras tīmekļa pārlūkprogrammas visjaunāko laidienu, dodieties uz programmatūras ražotāja vietni. **Piezīmes.**
 
--   Lai uzņemtu attēlus, kas tiek ģenerēti no uzdevuma rakstītāju un tos iekļaut Microsoft Word dokumentus, jums ir jābūt Chrome paplašinājumu instalēta. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/operations/dev-itpro/user-interface/task-recorder).-->
--   Darbplūsmas redaktors tiek sākts kā ClickOnce lietojumprogramma. Tikai Microsoft Edge un Internet Explorer (par atbalstītajiem Microsoft Windows versijai) atbalsta ClickOnce pieteikumus. Darbplūsmas redaktors ClickOnce lietojumprogramma ir nepieciešama 64 bitu saderīga operētājsistēmu.
--   Report Designer finanšu pārskatiem tiek sākts kā ClickOnce lietojumprogramma. Tā ir nepieciešama 64 bitu saderīga operētājsistēmu. Ja jūs izmantojat Chrome, lai lejupielādētu ziņojumu designer klienta jāinstalē ClickOnce paplašinājums. Ja jūs izmantojat Chrome inkognito režīmā, pārliecinieties, ka ClickOnce paplašinājumu iespējots inkognito režīmā.
+-   Lai tvertu attēlus, kas izveidoti Uzdevumu reģistrētājā un iekļautu tos Microsoft Word dokumentos, ir jābūt instalētam Chrome paplašinājumam. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/operations/dev-itpro/user-interface/task-recorder).-->
+-   Darbplūsmas redaktors tiek startēts kā ClickOnce programma. ClickOnce programmas atbalsta tikai Microsoft Edge un Internet Explorer (atbalstītā Microsoft Windows versijā). Darbplūsmas redaktora ClickOnce programmai ir nepieciešama 64 bitu saderīga operētājsistēma.
+-   Pārskatu noformētājs finanšu pārskatiem tiek startēts kā ClickOnce programma. Tam ir nepieciešama 64 bitu saderīga operētājsistēma. Ja lietojat pārlūkprogrammu Chrome, lai varētu lejupielādēt pārskatu veidošanas klientu, ir jāinstalē paplašinājums ClickOnce. Ja lietojat pārlūkprogrammu Chrome inkognito režīmā, pārliecinieties, ka paplašinājums ClickOnce ir arī iespējots inkognito režīmā.
 
 ### <a name="supported-web-browsers-for-retail-cloud-pos"></a>Retail Cloud POS atbalstītās tīmekļa pārlūkprogrammas
 
-Mazumtirdzniecības mākonis POS Dynamics 365 operācijām var palaist jebkurā no šīm web pārlūkprogrammas un kas darbojas noteiktā operētājsistēmas:
+Retail Cloud POS programmatūrai Microsoft Dynamics 365 for Operations var palaist jebkurā no tālāk uzskaitītajām tīmekļa pārlūkprogrammām, kas darbojas norādītajās operētājsistēmās.
 
--   Microsoft Edge (jaunāko publiski pieejamā versija), Windows 10
+-   Microsoft Edge (jaunākā publiski pieejamā versija) operētājsistēmā Windows 10
 -   Internet Explorer 11 operētājsistēmā Windows 10, Windows 8.1 vai Windows 7
--   Hroma (jaunāko publiski pieejamā versija) Windows 10, Windows 8.1 vai Windows 7
+-   Chrome (jaunākā publiski pieejamā versija) operētājsistēmā Windows 10, Windows 8.1 vai Windows 7
 
-## <a name="network-requirements"></a>Tīkla prasībām.
--   Dinamika 365 operācijām ir paredzēts tīklu latentumu mazāk nekā 150 milisekundēm (ms). Tas ir Latentums no klienta pārlūkprogramma Microsoft Azure datu centrā, kas vieso Dynamics 365 operācijām. Mēs iesakām jums pārbaudīt tīkla latentumu par <http://www.azurespeed.com>.
--   Joslas platuma prasības Dynamics 365 darbības ir atkarīgas no jūsu scenārijs. Tipiskākās scenāriji pieprasa frekvenču joslas platums ir vairāk nekā 50 kilobaiti sekundē (KB/s). Tomēr gadījumi, kas ir liela celtspēja prasības, piemēram, darbvietas vai scenārijiem, kas ietver plašas pielāgošanas ir ieteicama lielāku joslas platumu.
+## <a name="network-requirements"></a>Tīkla prasības
+-   Programma Dynamics 365 for Operations ir izstrādāta tīkliem, kuru latentums ir mazāks par 150 milisekundēm (ms). Tas ir latentums no pārlūkprogrammas klienta līdz Microsoft Azure datu centram, kurā tiek viesota programma Microsoft Dynamics 365 for Operations. Ieteicams pārbaudīt tīkla latentumu vietnē <http://www.azurespeed.com>.
+-   Joslas platuma prasības programmai Dynamics 365 for Operations ir atkarīgas no scenārija. Tipiskākajiem scenārijiem ir nepieciešams joslas platums, kas ir lielāks par 50 kilobaitiem sekundē (KB/s). Tomēr scenārijiem, kuriem ir augstas lietderīgās slodzes prasības, piemēram, darbvietām, vai scenārijiem, kuru ietvaros tiek veikta plaša pielāgošana, ieteicams izmantot lielāku joslas platumu.
 
-Kopumā, Dynamics 365 operācijām ir optimizēts interneta. Reisi no pārlūkprogrammu klienta debeszils datu centru skaits ir ļoti mazs, un visa lietderīgā slodze ir saspiests. **Brīdinājums:** nav aprēķināt joslas platuma prasības no klienta atrašanās vietas lietotāju skaitu reizinot ar minimālo joslas platuma prasības. Vienlaicīgu lietošanu konkrētā vietā ir ļoti grūti aprēķināt. Klientiem, kuri uztraucas par joslas platuma prasības, izmantot priekšskatījuma versiju Dynamics 365 operācijām.
+Parasti programma Dynamics 365 for Operations ir optimizēta internetam. Ciklu skaits no pārlūkprogrammas klienta uz Azure datu centru ir pavisam neliels, un visa lietderīgā slodze tiek saspiesta. **Brīdinājums.** Neaprēķiniet nepieciešamo joslas platumu no klienta novietojuma, reizinot lietotāju skaitu ar minimālo nepieciešamo joslas platumu. Noteikta novietojuma vienlaicīgu izmantošanu ir ļoti grūti aprēķināt. Debitoriem, kurus uztrauc joslas platuma prasības, izmantojiet Dynamics 365 for Operations priekšskatījuma versiju.
 
-## <a name="net-framework-requirements"></a>.NET framework prasības
-Dinamika 365 operācijām ir nepieciešama .NET Framework versija 4.6.2 visus noklikšķiniet-vienreiz lietojumprogrammas, piemēram, dokumenta maršrutēšanas aģents. Instalācijas instrukcijas, skatiet [instalējot .NET Framework](https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx).
+## <a name="net-framework-requirements"></a>.NET Framework prasības
+Programmai Dynamics 365 for Operations ir nepieciešama .NET Framework versija 4.6.2 visām viena klikšķa programmām, piemēram, dokumentu maršrutēšanas aģentam. Instalācijas instrukcijas skatiet sadaļā [.NET Framework instalācija](https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx).
 
-## <a name="supported-microsoft-office-applications"></a>Atbalsta Microsoft Office lietojumprogrammām
--   Lai palaist Microsoft Excel un Word pievienojumprogrammas, datorā jābūt instalētai Microsoft Office 2016 Windows vai Mac uzstādīta. Plašāku informāciju par versiju prasībām skatiet [Office integrācijas problēmu novēršanas](/dynamics365/operations/dev-itpro/office-integration/office-integration-troubleshooting).
--   Skatīt dokumentus, ko ģenerējusi eksportēt uz Excel vai Word funkcionalitāti eksportam, ir jābūt Microsoft Office 2007 vai jaunāka versija.
+## <a name="supported-microsoft-office-applications"></a>Atbalstītās Microsoft Office programmas
+-   Lai palaistu Microsoft Excel un Word pievienojumprogrammas, jābūt instalētai programmai Microsoft Office 2016 operētājsistēmai Windows vai Mac. Plašāku informāciju par versijas prasībām skatiet sadaļā [Office integrācijas problēmu novēršana](/dynamics365/operations/dev-itpro/office-integration/office-integration-troubleshooting).
+-   Lai skatītu dokumentus, kas izveidoti, izmantojot funkcijas Eksportēt programmā Excel vai Eksportēt programmā Word, ir jābūt instalētai programmai Microsoft Office 2007 vai jaunākai versijai.
 
-## <a name="retail-modern-pos-requirements"></a>Mazumtirdzniecības POS mūsdienu prasībām
+## <a name="retail-modern-pos-requirements"></a>Retail Modern POS prasības
 ### <a name="supported-operating-systems"></a>Atbalstītās operētājsistēmas
 
--   Mazumtirdzniecība modernas POS ir 32 bitu lietojumprogramma, bet tā darbosies gan x86 un x64 arhitektūras.
--   Mazumtirdzniecība modernas POS ir atbalstīta tikai izdevumos Windows 10 Pro, Enterprise un uzņēmuma garu terminu apkalpošanas filiāle (LTSB).
+-   Retail Modern POS ir 32 bitu programma, taču tā darbojas gan x86, gan x64 arhitektūrā.
+-   Programma Retail Modern POS tiek atbalstīta tikai operētājsistēmā Windows 10 Pro, Enterprise un Enterprise Long Term Servicing Branch (LTSB) versijās.
 
-### <a name="minimum-system-requirements"></a>Minimālajām sistēmas prasībām
+### <a name="minimum-system-requirements"></a>Minimālās sistēmas prasības
 
--   Minimālā atbalstītā izšķirtspēja ir 1280 × 1024.
--   Dators, kas darbojas mazumtirdzniecības mūsdienu POS jāatbilst šīm prasībām:
-    -   Tai ir jābūt, kā minimums, dual-core procesoru, kas darbojas pie ne mazāk kā 2 gigahercu (GHz).
-    -   Tai jābūt vismaz 3 gigabaitiem (GB) RAM.
-    -   Tai jābūt pieejai internetam.
+-   Minimālā atbalstītā izšķirtspēja ir 1280 × 1024.
+-   Datoram, kurā tiek izmantota programma Retail Modern POS, jāatbilst šādām prasībām:
+    -   Tam jābūt vismaz divkodolu procesoram, kura takts frekvence ir vismaz 2 gigaherci (GHz).
+    -   Tam jābūt vismaz 3 gigabaitiem (GB) RAM.
+    -   Tam jābūt piekļuvei internetam.
 
-## <a name="retail-hardware-station-requirements"></a>Mazumtirdzniecības stacijas prasības aparatūrai
+## <a name="retail-hardware-station-requirements"></a>Retail hardware station prasības
 ### <a name="supported-operating-systems"></a>Atbalstītās operētājsistēmas
 
--   Mazumtirdzniecības aparatūras stacija ir 32 bitu lietojumprogramma, bet tā darbosies gan x86 un x64 arhitektūras.
--   Mazumtirdzniecības aparatūras stacija tiek atbalstīta šādām operētājsistēmām:
-    -   Izdevumos Windows 7 Professional, Enterprise un Ultimate **Piezīme:** Windows 7 tiek atbalstīta tikai, ja Internet Explorer 11 manuāli ir instalēts sistēmā.
-    -   8.1. Windows Update 1 izdevumos Professional, Enterprise un iegultie
-    -   Windows 10 Pro, Enterprise un Enterprise LTSB izdevumi
+-   Retail hardware station ir 32 bitu programma, taču tā darbojas gan x86, gan x64 arhitektūrā.
+-   Programma Retail hardware station tiek atbalstīta šādās operētājsistēmās:
+    -   Windows 7 Professional, Enterprise, un Ultimate versijas **Piezīme.** Windows 7 tiek atbalstīta tikai tad, ja pārlūkprogramma Internet Explorer 11 ir manuāli instalēta sistēmā.
+    -   Windows 8.1 1. atjauninājums Professional, Enterprise un Embedded versijas
+    -   Windows 10 Pro, Enterprise un Enterprise LTSB versijas
 
-### <a name="minimum-system-requirements"></a>Minimālajām sistēmas prasībām
+### <a name="minimum-system-requirements"></a>Minimālās sistēmas prasības
 
-Datoram ir jāatbilst visām sistēmas prasībām, instalējot un lietojot šādus vienumus:
+Datoram ir jāatbilst visām sistēmas prasībām tālāk minēto vienumu instalēšanai un izmantošanai:
 
 -   Interneta informācijas pakalpojumi (IIS)
 -   Trešās puses aparatūra
 
-## <a name="retail-store-scale-unit-requirements"></a>Mazumtirdzniecības veikala mēroga struktūrvienības prasības
+## <a name="retail-store-scale-unit-requirements"></a>Retail Store Scale Unit prasības
 ### <a name="supported-operating-systems"></a>Atbalstītās operētājsistēmas
 
--   Mazumtirdzniecības veikalu skalas vienība ir 32 bitu lietojumprogramma, bet tā darbosies gan x86 un x64 arhitektūras.
--   Mazumtirdzniecības veikalu skalas vienība tiek atbalstīta šādām operētājsistēmām:
-    -   Izdevumos Windows 7 Professional, Enterprise un Ultimate
-    -   8.1. Windows Update 1 izdevumos Professional, Enterprise un iegultie
-    -   Windows 10 Pro, Enterprise un Enterprise LTSB izdevumi
+-   Retail Store Scale Unit ir 32 bitu programma, taču tā darbojas gan x86, gan x64 arhitektūrā.
+-   Programma Retail Store Scale Unit tiek atbalstīta šādās operētājsistēmās:
+    -   Windows 7 Professional, Enterprise un Ultimate versijas
+    -   Windows 8.1 1. atjauninājums Professional, Enterprise un Embedded versijas
+    -   Windows 10 Pro, Enterprise un Enterprise LTSB versijas
 
-### <a name="minimum-system-requirements"></a>Minimālajām sistēmas prasībām
+### <a name="minimum-system-requirements"></a>Minimālās sistēmas prasības
 
--   4 GB RAM
--   1.6 GHz pīķa CPU ātrums katram kodols (divas serdes ir minimums).
--   Vismaz 10 GB brīvas vietas (kanāla datu bāze var pieprasīt lielu daudzumu telpā.)
+-   4 GB RAM
+-   1,6 GHz maksimālais centrālā procesora ātrums katram kodolam (Ir jābūt vismaz diviem kodoliem.)
+-   Vismaz 10 GB brīvās vietas (Kanāla datu bāzei var būt nepieciešams lielāks vietas daudzums.)
 
 ### <a name="recommended-system-requirements"></a>Ieteicamās sistēmas prasības
 
--   6 GB RAM
--   2.4 GHz i7 (vai ekvivalents) pīķa CPU ātrums katram kodols (četriem serdeņiem ir ieteicama).
--   Vismaz 10 GB brīvas vietas (kanāla datu bāze var pieprasīt lielu daudzumu telpā.)
+-   6 GB RAM
+-   2,4 GHz i7 (vai ekvivalents) maksimālais centrālā procesora ātrums katram kodolam (Ieteicami vismaz četri kodoli.)
+-   Vismaz 10 GB brīvās vietas (Kanāla datu bāzei var būt nepieciešams lielāks vietas daudzums.)
 
-## <a name="requirements-for-development-on-local-vms"></a>Attīstība attiecībā uz vietējo VMs prasības
-Skatiet informāciju par prasībām attiecībā uz attīstības vietējās virtuālās mašīnas (VMs), [VM darbojas lokālā](/dynamics365/operations/dev-itpro/dev-tools/access-instances#vm-that-is-running-in-premises).
+## <a name="requirements-for-development-on-local-vms"></a>Prasības izstrādei lokālās virtuālajās mašīnās
+Informāciju par prasībām attiecībā uz izstrādi vietējās virtuālajās mašīnās (VM) skatiet sadaļā [VM, kuras darbojas lokāli](/dynamics365/operations/dev-itpro/dev-tools/access-instances#vm-that-is-running-in-premises).
 
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Iegūt novērtējuma kopiju Dynamics 365 operācijām](/dynamics365/operations/dev-itpro/dev-tools/get-evaluation-copy)
+[Iegūt Dynamics 365 for Operations iepazīšanās versiju](/dynamics365/operations/dev-itpro/dev-tools/get-evaluation-copy)
 
 

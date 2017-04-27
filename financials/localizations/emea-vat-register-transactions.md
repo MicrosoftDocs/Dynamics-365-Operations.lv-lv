@@ -1,6 +1,6 @@
 ---
-title: "PVN reģistra darbības Austrumeiropā"
-description: "Šajā tēmā ir sniegta informācija par PVN reģistra darbības attiecībā uz Igauniju, Lietuvu, Čehijas Republika, Ungārija, Latvija un Polija."
+title: "PVN reģistra transakcijas Austrumeiropai"
+description: "Šajā tēmā ir sniegta informācija par PVN reģistra transakcijām Igaunijai, Lietuvai, Čehijai, Ungārijai, Latvijai un Polijai."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,10 +25,15 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="vat-register-transactions-for-eastern-europe"></a>PVN reģistra darbības Austrumeiropā
+# <a name="vat-register-transactions-for-eastern-europe"></a>PVN reģistra transakcijas Austrumeiropai
 
-Šajā tēmā ir sniegta informācija par PVN reģistra darbības attiecībā uz Igauniju, Lietuvu, Čehijas Republika, Ungārija, Latvija un Polija. 
+[!include[banner](../includes/banner.md)]
 
-Juridiskām personām ar primāro adresi ar Igauniju, Lietuvu, Čehijas Republika, Ungārija, Latvija un Polija, jūs varat pārskatīt nodokļu darbības un atjaunināt **datums, PVN reģistra** tiem. Lai apskatītu PVN reģistra darbības, atveriet **nodokļu**&gt;**periodiskos uzdevumus**&gt;**PVN reģistra darbības**. Šī lapa parāda nodokļu darbībām, kas radījušas PVN kodus tipa **standarta PVN** kuriem **datums, PVN reģistra** ir tukša. Jūs varat aizpildīt **datums, PVN reģistra** lauku nodokļu darbības, izmantojot **datums, PVN reģistra** pogu **Galv. IZVELNE [galvenā izvēlne**. Juridiskām personām ar primāro adresi, Čehijas Republikā, ir papildu kolonnas, **atlikta PVN**. Ja ir atlasīts šis lauks norāda, ka pievienotās vērtības nodoklis netiek ziņots darbībai. Parasti tas attiecas uz pārdošanas kredīta notas, kas gaida apstiprinājumu no klienta. Pārdošanas rēķinu grāmatošanas procesu laikā, varat atzīmēt šo izvēles rūtiņu. Par **PVN kodus** lapas (**nodokļu**&gt;**PVN**&gt;**PVN kodus**), var pārskatīt vai atjaunināt PVN koda tips. <!---For more information about sales tax codes, refer to [Set up sales tax codes](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-codes/).-->
+
+Šajā tēmā ir sniegta informācija par PVN reģistra transakcijām Igaunijai, Lietuvai, Čehijai, Ungārijai, Latvijai un Polijai. 
+
+Juridiskām personām, kuru primārā adrese ir Igaunijā, Lietuvā, Čehijā, Ungārijā, Latvijā un Polijā, varat pārskatīt nodokļu transakcijas un tām atjaunināt vērtību **PVN reģistra datums**. Lai skatītu PVN reģistra transakcijas, atveriet sadaļu **Nodokļi** &gt; **Periodiskie uzdevumi** &gt; **VAT reģistra transakcijas**. Šajā lapā tiek rādītas nodokļu transakcijas, kuras izveidoja PVN kodi ar tipu **Standarta PVN** un kuru vērtība **PVN reģistra datums** ir tukša. Nodokļu transakciju lauku **PVN reģistra datums** varat aizpildīt, **Galvenajā izvēlnē** izmantojot pogu **VN reģistra datums**. Juridiskajām personām, kuru primārā adrese atrodas Čehijā, pastāv papildu kolonna ar nosaukumu **Atlikts PVN**. Ja šis lauks ir atzīmēts, tas norāda, ka šai transakcijai pievienotās vērtības nodoklis nav iekļauts pārskatā. Parasti tas attiecas uz pārdošanas kredīta notām, kuras gaida apstiprinājumu no debitora. Šo izvēles rūtiņu varat atzīmēt pārdošanas rēķina grāmatošanas procesā. Lapā **PVN kodi** (**Nodokļi** &gt; **PVN** &gt; **PVN kodi**) varat pārskatīt vai atjaunināt PVN koda tipu. <!---For more information about sales tax codes, refer to [Set up sales tax codes](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-codes/).-->
+
+
 
 

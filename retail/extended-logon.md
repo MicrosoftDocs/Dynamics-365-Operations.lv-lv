@@ -1,5 +1,5 @@
 ---
-title: "Pagarināts pieteikšanās funkcionalitāti iestatīt mākonis POS un MPOS"
+title: "Iestatīt paplašinātās pieteikšanās funkcionalitāti pārdošanas punktam Cloud POS un MPOS"
 description: "Šajā vikirakstā ir aprakstītas jums pieejamās opcijas paplašinātās pieteikšanās iestatīšanai attiecībā uz mākoņa POS un Retail Modern POS (MPOS)."
 author: josaw1
 manager: AnnBe
@@ -25,14 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>Pagarināts pieteikšanās funkcionalitāti iestatīt mākonis POS un MPOS
+# <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>Iestatīt paplašinātās pieteikšanās funkcionalitāti pārdošanas punktam Cloud POS un MPOS
 
 Šajā vikirakstā ir aprakstītas jums pieejamās opcijas paplašinātās pieteikšanās iestatīšanai attiecībā uz mākoņa POS un Retail Modern POS (MPOS).
 
 <a name="setting-up-extended-logon"></a>Paplašinātās pieteikšanās iestatīšana
 =========================
 
-Jūs varat atrast uzstādīšanas svītrkodu maskas pie **mazumtirdzniecības un komercijas**&gt;**Channel setup**&gt;**POS uzstādīšanas**&gt;**POS profili**&gt;**funkcionalitāti profili**. Kopsavilkuma cilnē **Funkcijas** ir iekļautas tālāk norādītās opcijas, kas ir saistītas ar paplašināto pieteikšanos.
+Svītrkoda masku iestatījumi i pieejami sadaļā **Mazumtirdzniecība un komercija** &gt; **Kanāla iestatījumi** &gt; **POS iestatījumi** &gt; **POS profili** &gt; **Funkcionalitātes profili**. Kopsavilkuma cilnē **Funkcijas** ir iekļautas tālāk norādītās opcijas, kas ir saistītas ar paplašināto pieteikšanos.
 
 ### <a name="staff-bar-code-logon"></a>Personāla pieteikšanās ar svītrkodu
 
@@ -53,7 +53,7 @@ Ja ir iespējota opcija **Personāla pieteikšanās ar karti jāpapildina ar par
 <a name="assigning-an-extended-logon"></a>Paplašinātās pieteikšanās tiesību piešķiršana
 ===========================
 
-Pēc noklusējuma paplašinātās pieteikšanās tiesības strādniekiem var piešķirt tikai vadītāji. Lai piešķirtu papildu pieteikšanos, dodieties uz **Extended pieteikties**, POS. Pēc tam meklējiet darba ņēmējs, meklēšanas laukā ievadot viņa vai viņas operators ID. Atlasiet strādnieka vārdu un pēc tam noklikšķiniet uz **Piešķirt**. Nākamajā lapā nolasiet vai skenējiet paplašinātās pieteikšanās karti, lai piešķirtu to strādniekam. Ja kartes nolasīšana vai skenēšana ir sekmīga, aktivizēta tiek poga **Labi**. Noklikšķiniet uz **Labi**, lai saglabātu darbinieka paplašinātās pieteikšanās tiesības.
+Pēc noklusējuma paplašinātās pieteikšanās tiesības strādniekiem var piešķirt tikai vadītāji. Lai piešķirtu paplašināto pieteikšanos, pārdošanas punktā (POS) dodieties uz **Paplašinātā pieteikšanās**. Pēc tam meklējiet nodarbināto, meklēšanas laukā ievadot viņa vai viņas operatora ID. Atlasiet strādnieka vārdu un pēc tam noklikšķiniet uz **Piešķirt**. Nākamajā lapā nolasiet vai skenējiet paplašinātās pieteikšanās karti, lai piešķirtu to strādniekam. Ja kartes nolasīšana vai skenēšana ir sekmīga, aktivizēta tiek poga **Labi**. Noklikšķiniet uz **Labi**, lai saglabātu darbinieka paplašinātās pieteikšanās tiesības.
 
 <a name="deleting-an-extended-logon"></a>Paplašinātās pieteikšanās tiesību dzēšana
 ==========================

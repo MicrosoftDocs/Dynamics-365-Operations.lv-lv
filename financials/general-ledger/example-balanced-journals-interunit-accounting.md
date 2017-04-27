@@ -1,5 +1,5 @@
 ---
-title: "Līdzsvarotu interunit uzskaites žurnālus"
+title: "Saskaņoti starpvienību uzskaites žurnāli"
 description: "Šajā rakstā ir izskaidrots, kā automātiski tiek noteikts žurnāla atlikums, ja lapā Virsgrāmata ir atlasīta finanšu dimensijas atlikuma noteikšana."
 author: twheeloc
 manager: AnnBe
@@ -26,17 +26,20 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="balanced-journals-for-interunit-accounting"></a>Līdzsvarotu interunit uzskaites žurnālus
+# <a name="balanced-journals-for-interunit-accounting"></a>Saskaņoti starpvienību uzskaites žurnāli
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir izskaidrots, kā automātiski tiek noteikts žurnāla atlikums, ja lapā Virsgrāmata ir atlasīta finanšu dimensijas atlikuma noteikšana. 
 
-Ja konta ieraksti nav saskaņoti finanšu dimensijas vērtību līmenī, tiek automātiski izveidoti papildu kona ieraksti, lai saskaņotu žurnālu. Šie konta ieraksti izmanto grāmatošanas tipus **Starpvienumu uzskaite — debets** un** Starpvienumu uzskaite — kredīts** lapā **Automātisko darījumu konti**, lai noteiktu galveno kontu. Piemēram, kā saskaņošanas finanšu dimensija tiek atlasīta dimensija Filiāle, kas ir otrais virsgrāmatas konta segments, un tiks izveidoti tālāk norādītie uzskaites ieraksti.
+Ja konta ieraksti nav saskaņoti finanšu dimensijas vērtību līmenī, tiek automātiski izveidoti papildu kona ieraksti, lai saskaņotu žurnālu. Šie konta ieraksti izmanto grāmatošanas tipus **Starpvienību uzskaite — debets** un **Starpvienību uzskaite — kredīts** lapā **Automātisko darījumu konti**, lai noteiktu galveno kontu. Piemēram, kā saskaņošanas finanšu dimensija tiek atlasīta dimensija Filiāle, kas ir otrais virsgrāmatas konta segments, un tiks izveidoti tālāk norādītie uzskaites ieraksti.
 
 |                      |           |
 |----------------------|-----------|
-| 6100-MSP-OU\_256 | 100.00 DR |
-| 6100-NY-OU\_249  | 100.00 DR |
-| 2100-MSP-OU\_256 | 200.00 CR |
+| 6100 – MSP – OU\_256 | 100.00 DR |
+| 6100 – NY – OU\_249  | 100.00 DR |
+| 2100 – MSP – OU\_256 | 200.00 CR |
 
 Šādā gadījumā tiek noteiktas tālāk norādītās bilances.
 
@@ -47,8 +50,10 @@ Tāpēc tiek automātiski izveidoti tālāk norādītie uzskaites ieraksti, lai 
 
 |                                   |           |
 |-----------------------------------|-----------|
-| (Interunit debeta) – MSP-OU\_256 | 100.00 DR |
-| (Interunit kredīts)-NY-OU\_249 | 100.00 CR |
+| (Starpvienību debets) – MSP – OU\_256 | 100.00 DR |
+| (Starpvienību kredīts) – NY – OU\_249 | 100.00 CR |
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Pamatlīdzekļu vērtības modeļa un nolietojuma grāmatas sapludināšana"
-description: "Iepriekšējos laidienos, pastāvēja divi vērtēšanas jēdzieni - vērtību modeļus un nolietojuma grāmatas pamatlīdzekļiem. Programmā Microsoft Dynamics 365 atbrīvošanas operāciju 1611, vērtības modeļa funkcionalitāti un nolietojuma grāmatu funkcionalitāte sapludināti vienotā koncepcija, kas ir pazīstams kā grāmatu."
+description: "Iepriekšējos laidienos pamatlīdzekļiem pastāvēja divi vērtēšanas jēdzieni — vērtības modeļi un nolietojuma grāmatas. Programmatūras Microsoft Dynamics 365 for Operations laidienā 1611 vērtības modeļa funkcijas un nolietojuma grāmatas funkcijas ir apvienotas vienā līdzeklī, kas tiek saukts par grāmatu."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Pamatlīdzekļu vērtības modeļa un nolietojuma grāmatas sapludināšana
 
-Iepriekšējos laidienos, pastāvēja divi vērtēšanas jēdzieni - vērtību modeļus un nolietojuma grāmatas pamatlīdzekļiem. Programmā Microsoft Dynamics 365 atbrīvošanas operāciju 1611, vērtības modeļa funkcionalitāti un nolietojuma grāmatu funkcionalitāte sapludināti vienotā koncepcija, kas ir pazīstams kā grāmatu.
+[!include[banner](../includes/banner.md)]
 
-Jauna grāmatas funkcionalitāte ir balstīta uz iepriekšējās vērtības modeļa funkcionalitāti, bet ietver arī visas funkcionalitātes, kas iepriekš tika nodrošinātas tikai nolietojuma grāmatām. [![Grāmatu kā apvienojas ar vērtības modeli un nolietojuma grāmatu funkcionalitāte](./media/fixed-assets.png)](./media/fixed-assets.png) sapludināšanu, tāpēc tagad varat izmantot vienotu kopumu lapas, Uzziņas un pārskatus visiem pamatlīdzekļu procesiem. Tabulas šajā tēmā apraksta nolietojuma grāmatu un vērtības modeļu iepriekšējo funkcionalitāti, kopā ar jauno funkcionalitāti grāmatām.
+
+Iepriekšējos laidienos pamatlīdzekļiem pastāvēja divi vērtēšanas jēdzieni — vērtības modeļi un nolietojuma grāmatas. Programmatūras Microsoft Dynamics 365 for Operations laidienā 1611 vērtības modeļa funkcijas un nolietojuma grāmatas funkcijas ir apvienotas vienā līdzeklī, kas tiek saukts par grāmatu.
+
+Jauna grāmatas funkcionalitāte ir balstīta uz iepriekšējās vērtības modeļa funkcionalitāti, bet ietver arī visas funkcionalitātes, kas iepriekš tika nodrošinātas tikai nolietojuma grāmatām. [![Grāmata, kurā ir apvienotas vērības modeļa un nolietojuma grāmatas funkcijas](./media/fixed-assets.png)](./media/fixed-assets.png) Šī funkciju apvienošana tagad sniedz iespēju izmantot vienu lapu, pieprasījumu un pārskatu kopu visiem pamatlīdzekļu procesiem. Tabulas šajā tēmā apraksta nolietojuma grāmatu un vērtības modeļu iepriekšējo funkcionalitāti, kopā ar jauno funkcionalitāti grāmatām.
 
 ## <a name="setup"></a>Iestatīšana
 Pēc noklusējuma grāmatas grāmato gan virsgrāmatā (GL), gan pamatlīdzekļu apakšgrāmatā. Grāmatām ir jauna opcija **Grāmatot Virsgrāmatā**, kas ļauj atspējot grāmatošanu virsgrāmatā, un grāmatot tikai pamatlīdzekļu apakšgrāmatās. Šī funkcionalitāte ir līdzīga agrākai grāmatošanas uzvedībai nolietojuma grāmatām. Žurnālu nosaukumu iestatīšanai ir jaunu grāmatošanas slānis, ar nosaukumu Nav. Šis grāmatošanas līmenis tika pievienots īpaši pamatlīdzekļu darbībām. Lai grāmatotu darbības grāmatām, kas negrāmato Virsgrāmatā, jums ir jāizmanto žurnāla nosaukums, kura grāmatošanas slānis ir iestatīts uz **Nav**.
@@ -66,5 +69,7 @@ Pieprasījumos un pārskatos tiek atbalstītas visas grāmatas. Pārskati, kas n
 
 ## <a name="upgrade"></a>Jaunināt
 Jaunināšanas process jūsu esošos iestatījumus un visas jūsu pastāvošās transakcijas pārvietos uz jaunās grāmatas struktūru. Vērtību modeļi saglabāsies pašreizējā stāvokli, kā grāmata, kas grāmato Virsgrāmatā. Tomēr nolietojuma grāmatas tiks pārvietotas uz grāmatu, kurai opcija **Grāmatot virsgrāmatā** ir iestatīta uz **Nē**. Nolietojuma grāmatas žurnāla nosaukumi tiks pārvietoti uz virsgrāmatas žurnāla nosaukumu, kura grāmatošanas slānis ir iestatīts uz **Nav**.
+
+
 
 

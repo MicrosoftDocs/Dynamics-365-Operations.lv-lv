@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reduction-keys"></a>Samazināšanas principi
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegti piemēri, kas izskaidro, kā iestatīt samazināšanas principu. Šeit iekļauta informācija par dažādiem samazināšanas principa iestatījumiem un to visu rezultātiem. Samazināšanas principu var izmantot, lai noteiktu, kā samazināt budžeta vajadzības.
 
 <a name="example-1-percent---reduction-key-forecast-reduction-principle"></a>1. piemērs: Procenti — samazināšanas princips prognozes samazināšanai
@@ -58,7 +61,7 @@ Sākot budžeta plānošanu 1. janvārī, pieprasījuma apjoma prognozes vajadz�
 | Aprīlī                | 750                       |
 | Maijs – decembris | 1000                     |
 
-## <a name="example-2-transactions--reduction-key-forecast-reduction-principle"></a>2. piemērs: Darījumu samazināšanas princips budžeta samazināšanas princips
+## <a name="example-2-transactions--reduction-key-forecast-reduction-principle"></a>2. piemērs. Transakciju samazināšanas principa prognozes samazināšanas princips
 Šis piemērs parāda, kā faktiskie pasūtījumi, ko samazināšanas princips noteicis noteiktos periodos, samazina pieprasījuma apjoma prognozes vajadzības.
 
 -   Lapas **Vispārējie plāni** laukā **Samazināšanas princips** atlasiet **Transakcijas — samazināšanas princips**.
@@ -82,7 +85,7 @@ Ja izmantojat to pašu pieprasījuma apjoma prognozi 1000 gabaliem mēnesī, uz 
 | Aprīlī                | 881                       |
 | Maijs – decembris | 1000                     |
 
-## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>3. piemērs: Dinamisku darbības perioda budžeta samazināšanas princips
+## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>3. piemērs:. Transakciju dinamiskā perioda prognozes samazināšanas princips
 Vairāmā gadījumu sistēmas ir iestatītas tā, lai darbības samazina pieprasījuma apjoma prognozi noteiktos prognozes periodos: nedēļās, mēnešus utt. Šie periodi ir definēti samazināšanas principā. Tomēr laiks starp divām pieprasījuma apjoma prognozes rindām var arī *nozīmēt* periodu.
 
 1.  Izveidojiet pieprasījuma apjoma prognozi šādiem datumiem un daudzumiem.
@@ -129,6 +132,8 @@ Kopsavilkums par **Transakcijas — dinamiskais periods** samazinājumu:
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Master plans](master-plans.md)
+[Vispārējie plāni](master-plans.md)
+
+
 
 

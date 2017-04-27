@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-resources"></a>Operations resursi
 
+[!include[banner](../includes/banner.md)]
+
+
 Operācijas resursi izpilda projekta vai ražošanas procesa aktivitātes. Tie var būt dažādu veidu, ar dažādām iespējām. 
 
 <a name="operations-resources"></a>Operations resursi
@@ -36,7 +39,7 @@ Operācijas resursi izpilda projekta vai ražošanas procesa aktivitātes. Tie v
 Operācijas resursi ir iekārtas, rīki, darbinieki, iekārtas, fiziski apgabali vai kreditori, kas veic projekta darbības vai ražošanas procesa darbības. Tie var būt dažādu veidu, ar dažādām iespējām.
 
 -   **Kreditors** — ārējais resurss, kas izpilda projekta vai ražošanas procesa darbības. Piemērs ir apakšuzņēmējs. Piesaistot kreditoru resursus kreditora kontam, varat ģenerēt apakšuzņēmējiem pirkumus, pamatojoties uz materiālu komplekta (MK) rindām vai ražošanas rindām.
--   **Personāla vadība** — projektu vai ražošanas darbinieks, kas veic darbību individuāli vai kā instrumenta vai mašīnas operators. Ja jūs izmantojat cilvēkresursu funkcionalitāti, var piesaistīt cilvēkresursu darba ņēmējs. Pēc tam plānošanas programma var piešķirt resursus, pamatojoties uz zināšanām, kas definētas attiecīgajam darbiniekam.
+-   **Personāla vadība** — projektu vai ražošanas darbinieks, kas veic darbību individuāli vai kā instrumenta vai mašīnas operators. Ja izmantojat personāla vadības funkcionalitāti, varat saistīt darbaspēku ar darbinieku. Pēc tam plānošanas programma var piešķirt resursus, pamatojoties uz zināšanām, kas definētas attiecīgajam darbiniekam.
 -   **Iekārta** — iekārta vai cits ražošanas aprīkojums, kas nepieciešams ražošanai.
 -   **Rīks** — instruments vai ierīce, ko parasti lieto kopā ar citu resursu, lai veiktu darbību projektā vai ražošanā.
 -   **Atrašanās vieta** — tā specifiskā izmēra fiziskā atrašanās vieta, kas nepieciešams, lai veiktu darbību. Piemērs ir komplektēšanas zona.
@@ -80,5 +83,7 @@ Ja resursu grupa tiek lietota kā racionāla darba šūna, darba šūnas noslodz
 
 ## <a name="costing-resources"></a>Izmaksu aprēķināšanas resursi
 Definējot aktivitāti, piemēram, maršruta operāciju vai projekta stundu budžetu, varat norādīt prasību pēc noteikta darbības veikšanas resursa vai resursu grupas. Tomēr ir iespējams norādīt arī prasību pēc noteikta darbību veikšanas resursa veida vai darbību veikšanas resursa, kam ir konkrētas prasmes vai kompetence. Šī iemesla dēļ faktiska resursu piešķire netiek veikta līdz brīdim, kad ieplānota aktivitāte un ir rezervēta noslodze. Tāpēc maršruta operācijā var norādīt, ka novērtēšana un MK aprēķini jāveic, izmantojot konkrētu darbību veikšanas resursu. Šo darbību veikšanas resursu dēvē par izmaksu aprēķināšanas resursu. Varat arī pārsūtīt izmaksu kategorijas un darbības veikšanas laikus no izmaksu aprēķināšanas resursiem uz aktivitāti. Kad darbības veikšana ieplānota, novērtēšana un MK aprēķins tiek veikts, izmantojot faktiski ieplānotos darbību veikšanas resursus.
+
+
 
 
