@@ -1,6 +1,6 @@
 ---
-title: "Skaidras naudas un bankas vadības sākumlapa"
-description: "Varat izmantot skaidras naudas un bankas pārvaldības moduli, lai uzturētu juridiskās personas bankas kontus un finanšu instrumentus, kas saistīti ar šīs bankas kontiem."
+title: "Kases un bankas vadības sākumlapa"
+description: "Kases un bankas vadību varat izmantot, lai uzturētu juridiskās personas bankas kontus un ar šiem bankas kontiem saistītos finanšu instrumentus."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,53 +25,53 @@ ms.lasthandoff: 04/12/2017
 
 ---
 
-# <a name="cash-and-bank-management-home-page"></a>Skaidras naudas un bankas vadības sākumlapa
+# <a name="cash-and-bank-management-home-page"></a>Kases un bankas vadības sākumlapa
 
 [!include[banner](../includes/banner.md)]
 
 
-Varat izmantot skaidras naudas un bankas pārvaldības moduli, lai uzturētu juridiskās personas bankas kontus un finanšu instrumentus, kas saistīti ar šīs bankas kontiem. 
+Kases un bankas vadību varat izmantot, lai uzturētu juridiskās personas bankas kontus un ar šiem bankas kontiem saistītos finanšu instrumentus. 
 
-Šie instrumenti ietver depozīta kvītis, čekus, vekseļus un parādzīmes. Varat arī saskaņot bankas kontu izrakstus un drukāt bankas informāciju uz standarta pārskatiem.
+Šo instrumentu klāstā ietilpst depozīta kvītis, čeki, vekseļi un parādzīmes. Varat arī saskaņot bankas izrakstus un drukāt bankas informāciju standarta pārskatos.
 
--   [Cash discounts](cash-discounts.md)
--   [Settlement overview](settlement-overview.md)
--   [Configure settlement](configure-settlement.md)
--   [Foreign currency revaluation for Accounts payable and Accounts receivable](foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
+-   [Termiņatlaides](cash-discounts.md)
+-   [Segšanas apskats](settlement-overview.md)
+-   [Konfigurēt segšanu](configure-settlement.md)
+-   [Ārvalstu valūtas pārvērtēšana moduļiem Parādi kreditoriem un Debitoru parādi](foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
 -   [Akreditīvi](letters-of-credit.md)
--   [Kredītvēstules un importa inkaso](letters-of-credit-import-collections.md)
+-   [Akreditīvi un importa inkaso](letters-of-credit-import-collections.md)
 -   [Garantijas vēstule](letters-of-guarantee.md)
--   [Detalizētās bankas darbību saskaņošanas pārskats](advanced-bank-reconciliation-overview.md)
--   [Configure advanced bank reconciliation](configure-advanced-bank-reconciliation.md)
+-   [Detalizētās bankas darbību saskaņošanas apskats](advanced-bank-reconciliation-overview.md)
+-   [Konfigurēt detalizēto bankas darbību saskaņošanu](configure-advanced-bank-reconciliation.md)
 -   [Iestatīt detalizētās bankas darbību saskaņošanas importu](set-up-advanced-bank-reconciliation-import-process.md)
 -   [Saskaņot bankas izrakstus, izmantojot detalizēto bankas darbību saskaņošanu](reconcile-bank-statements-advanced-bank-reconciliation.md)
--   [Iestatīt bankas saskaņošanas atbilstības kārtulas](set-up-bank-reconciliation-matching-rules.md)
--   [Centralizēto maksājumu iestatīšana](set-up-centralized-payments.md)
+-   [Iestatīt bankas darbību saskaņošanas atbilstības kārtulas](set-up-bank-reconciliation-matching-rules.md)
+-   [Iestatīt centralizētos maksājumus](set-up-centralized-payments.md)
 
-## <a name="accounts-payable-payments-and-settlements"></a>Kreditoru maksājumi un norēķini
--   [Centralized payments for Accounts payable](../accounts-payable/centralized-payments-accounts-payable.md)
--   [Kreditoru rēķinu, izmantojot maksājuma priekšlikumu](../accounts-payable/create-vendor-payments-payment-proposal.md)
--   [Reverse a vendor payment](../accounts-payable/reverse-vendor-payment.md)
--   [Vendor payments for a partial amount](../accounts-payable/vendor-payments-partial-amount.md)
--   [Priekšapmaksas rēķini un priekšapmaksas pārskats](../accounts-payable/prepayments-invoices-vs-prepayments.md)
--   [Scenario: Settle a partial vendor payment and settle the final payment in full before the discount date](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)
--   [Scenario: Settle a partial vendor payment before the discount date with a final payment after the discount date](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
--   [Scenario: Settle a partial vendor payment that has discounts on vendor credit notes](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
--   [Scenario: Settle a partial vendor payment that has multiple discount periods](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)
--   [Scenario: Take a discount that is more than the calculated discount for a vendor payment](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
--   [Scenario: Take a cash discount outside the cash discount period](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)
+## <a name="accounts-payable-payments-and-settlements"></a>Moduļa Parādi kreditoriem maksājumi un norēķini
+-   [Centralizētie maksājumi modulim Parādi kreditoriem](../accounts-payable/centralized-payments-accounts-payable.md)
+-   [Izveidot kreditoru rēķinus, izmantojot maksājuma priekšlikumu](../accounts-payable/create-vendor-payments-payment-proposal.md)
+-   [Atsaukt kreditora maksājumu](../accounts-payable/reverse-vendor-payment.md)
+-   [Kreditoru maksājumi par daļēju summu](../accounts-payable/vendor-payments-partial-amount.md)
+-   [Priekšapmaksas rēķinu un priekšapmaksu apskats](../accounts-payable/prepayments-invoices-vs-prepayments.md)
+-   [Scenārijs: nosegt daļēju kreditora maksājumu un nosegt gala maksājumu pilnā apmērā pirms atlaižu piemērošanas datuma](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)
+-   [Scenārijs: nosegt daļēju kreditora maksājumu pirms atlaižu piemērošanas datuma ar gala maksājumu pēc atlaižu piemērošanas datuma](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+-   [Scenārijs: nosegt daļēju kreditora maksājumu, kam ir atlaides kreditora kredīta notām](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
+-   [Scenārijs: nosegt daļēju kreditora maksājumu, kam ir vairāki atlaižu periodi](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)
+-   [Scenārijs: piemērot atlaidi, kas ir lielāka par kreditora maksājumam aprēķināto atlaidi](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
+-   [Scenārijs: piemērot termiņatlaidi ārpus termiņatlaides perioda](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)
 
-## <a name="accounts-receivable-payments-and-settlements"></a>Debitoru maksājumi un norēķini
--   [Centralized payments for Accounts receivable](../accounts-receivable/centralized-payments-accounts-receivable.md)
--   [Customer payments for a partial amount](../accounts-receivable/customer-payments-partial-amount.md)
--   [Reimburse customers](../accounts-receivable/reimburse-customers.md)
--   [Scenario: Automatic settlement and prioritization](../accounts-receivable/automatic-settlement-prioritization.md)
--   [Scenārijs: Handling termiņatlaides pārmaksa](../cash-bank-management/cash-discount-handling-overpayments.md)
--   [Scenario: Settle a partial customer payment and settle the final payment in full before the discount date](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
--   [Scenario: Settle a partial customer payment before the discount date with a final payment after the discount date](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)
--   [Scenario: Settle a partial customer payment that has discounts on credit notes](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
--   [Scenario: Settle a partial customer payment that has multiple discount periods](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
--   [Scenārijs: Izmantot vienu klientu maksājumu, lai atrisinātu vairākas rēķina, kas aptver vairāku atlaižu periodus](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+## <a name="accounts-receivable-payments-and-settlements"></a>Moduļa Debitoru parādi maksājumi un norēķini
+-   [Centralizētie maksājumi modulim Debitoru parādi](../accounts-receivable/centralized-payments-accounts-receivable.md)
+-   [Debitoru maksājumi par daļēju summu](../accounts-receivable/customer-payments-partial-amount.md)
+-   [Atlīdzināt debitoriem](../accounts-receivable/reimburse-customers.md)
+-   [Scenārijs: automātiska nosegšana un prioritāšu noteikšana](../accounts-receivable/automatic-settlement-prioritization.md)
+-   [Scenārijs: darbs ar termiņatlaidi pārmaksām](../cash-bank-management/cash-discount-handling-overpayments.md)
+-   [Scenārijs: nosegt daļēju debitora maksājumu un nosegt gala maksājumu pilnā apmērā pirms atlaižu piemērošanas datuma](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
+-   [Scenārijs: nosegt daļēju debitora maksājumu pirms atlaižu piemērošanas datuma ar gala maksājumu pēc atlaižu piemērošanas datuma](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+-   [Scenārijs: nosegt daļēju debitora maksājumu, kam ir atlaides kredīta notām](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
+-   [Scenārijs: nosegt daļēju debitora maksājumu, kam ir vairāki atlaižu periodi](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
+-   [Scenārijs: lietot viena debitora maksājumu, lai nosegtu vairākus rēķinus ar vairākiem atlaižu periodiem](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
 
 
 

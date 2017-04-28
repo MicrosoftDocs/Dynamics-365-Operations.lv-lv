@@ -1,6 +1,6 @@
 ---
 title: "Finanšu pārvaldības sākumlapa"
-description: "Šajā tēmā ir saraksts ar palīdzības tēmām un citiem resursiem finanšu pārvaldības līdzekļiem programmā Microsoft Dynamics 365 for Operations."
+description: "Šajā tēmā ir sniegts saraksts ar palīdzības tēmām un citiem resursiem finanšu pārvaldības līdzekļiem programmā Microsoft Dynamics 365 for Operations."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,18 +28,18 @@ ms.lasthandoff: 04/12/2017
 
 [!include[banner](includes/banner.md)]
 
-Šajā tēmā ir saraksts ar palīdzības tēmām un citiem resursiem finanšu pārvaldības līdzekļiem programmā Microsoft Dynamics 365 for Operations. 
+Šajā tēmā ir sniegts saraksts ar palīdzības tēmām un citiem resursiem finanšu pārvaldības līdzekļiem programmā Microsoft Dynamics 365 for Operations. 
 
-Atlasiet līdzekļa apgabalu, lai par to uzzinātu vairāk.
-- [Accounts payable](accounts-payable\accounts-payable.md) 
-- [Accounts receivable](accounts-receivable\accounts-receivable.md) 
-- [Cash and bank management](cash-bank-management\cash-bank-management.md)
-- [Cost accounting](cost-accounting\cost-accounting-home-page.md)
-- [Fixed assets](fixed-assets\fixed-assets.md)
-- [General ledger](general-ledger\general-ledger.md) 
-- [Project management](project-management\overview-project-management-accounting.md)
-- [Public sector](public-sector\public-sector-functionality.md) 
-- [Budgeting](budgeting\budgeting-overview.md) 
+Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
+- [Parādi kreditoriem](accounts-payable\accounts-payable.md) 
+- [Debitoru parādi](accounts-receivable\accounts-receivable.md) 
+- [Kases un bankas vadība](cash-bank-management\cash-bank-management.md)
+- [Izmaksu uzskaite](cost-accounting\cost-accounting-home-page.md)
+- [Pamatlīdzekļi](fixed-assets\fixed-assets.md)
+- [Virsgrāmata](general-ledger\general-ledger.md) 
+- [Projekta pārvaldība](project-management\overview-project-management-accounting.md)
+- [Publiskais sektors](public-sector\public-sector-functionality.md) 
+- [Budžeta veidošana](budgeting\budgeting-overview.md) 
 
 
 

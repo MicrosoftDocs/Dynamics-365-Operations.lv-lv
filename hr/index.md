@@ -1,6 +1,6 @@
 ---
 title: "Personāla vadība"
-description: "Personāla vadība racionalizē daudzus ikdienas lietvedības uzdevumus un automatizē vairākus ar jūsu organizācijas personālu saistītus procesus. Tā personāla vadībai arī nodrošina struktūru, lai pārvaldītu uzraudzības jomas. Šajās jomās ietilpst darbinieku pieņemšanu darbā un saglabāšana, pabalstu administrēšana, apmācība, veiktspējas pārbaudes, un izmaiņu pārvaldība."
+description: "Personāla vadība racionalizē daudzus ikdienas lietvedības uzdevumus un automatizē vairākus ar jūsu organizācijas personālu saistītus procesus. Personāla vadības darbiniekiem tā nodrošina arī struktūru uzraudzības jomu pārvaldīšanai. Šajās jomās ietilpst darbinieku pieņemšana darbā, kā arī ieturējumu un atvieglojumu administrēšana, apmācība, darba izpildes novērtējumi un izmaiņu pārvaldība."
 author: rschloma
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,77 +25,77 @@ ms.lasthandoff: 04/12/2017
 
 ---
 
-# <a name="welcome-to-human-resources"></a>Laipni lūgti cilvēkresursu
+# <a name="welcome-to-human-resources"></a>Laipni lūdzam personāla vadībā
 
 [!include[banner](includes/banner.md)]
 
-Personāla vadība racionalizē daudzus ikdienas lietvedības uzdevumus un automatizē vairākus ar jūsu organizācijas personālu saistītus procesus. Tā personāla vadībai arī nodrošina struktūru, lai pārvaldītu uzraudzības jomas. Šajās jomās ietilpst darbinieku pieņemšanu darbā un saglabāšana, pabalstu administrēšana, apmācība, veiktspējas pārbaudes, un izmaiņu pārvaldība.
+Personāla vadība racionalizē daudzus ikdienas lietvedības uzdevumus un automatizē vairākus ar jūsu organizācijas personālu saistītus procesus. Personāla vadības darbiniekiem tā nodrošina arī struktūru uzraudzības jomu pārvaldīšanai. Šajās jomās ietilpst darbinieku pieņemšana darbā, kā arī ieturējumu un atvieglojumu administrēšana, apmācība, darba izpildes novērtējumi un izmaiņu pārvaldība.
 
-Varat izmantot cilvēku resursus, lai izpildītu šādus uzdevumus:
+Personāla vadību varat izmantot tālāk uzskaitīto uzdevumu izpildīšanai.
 
-> + Administrēt organizācijas struktūras.
-> + Uzturēt vispārīgu darbinieku informāciju no pieņemšanas darbā līdz aiziešanai pensijā.
-> + Definēt un administrēt pabalstu plānus, reģistrēt darbiniekus, piešķirt apgādājamā apdrošināšanu un norādīt labumguvējus.
-> + Izveidot un pārraudzīt kavējumu politiku.
-> + Ieviest un izsekot no profila atkarīgu laika pārvaldību un ģenerēt algu informāciju, ko eksportēt uz algu sistēmu.
-> + Pārvaldīt darbinieka kompetences.
-> + Pārskatīt veiktspēju un ieviest darbinieku mērķus.
-> + Iestatīt, piegādāt un analizēt apmācības kursus, kuri ietver darba kārtību, sesijas un izsekošanu.
-> + Pieņemt darbā strādniekus un izsekot kandidātus.
+> + Administrējiet organizācijas struktūras.
+> + Uzturiet visaptverošu informāciju par darbinieku no pieņemšanas darbā līdz aiziešanai pensijā.
+> + Definējiet un administrējiet atvieglojumu plānus, reģistrējiet darbiniekus, piešķiriet apgādājamo segumu un norādiet labumguvējus.
+> + Izveidojiet un pārraugiet kavējumu politiku.
+> + Ieviesiet un izsekojiet no profila atkarīgu laika pārvaldību, un ģenerējiet algu informāciju, ko eksportēt uz algu sistēmu.
+> + Pārvaldiet darbinieku kompetences.
+> + Pārskatiet darba izpildes kvalitāti un ieviesiet darbinieku mērķus.
+> + Iestatiet, nodrošiniet un analizējiet apmācību kursus, kuri ietver darba kārtības, sesijas un izsekošanu.
+> + Veiciet personāla atlasi un sekojiet līdzi kandidātiem.
 
-<a name="develop-a-human-resources-strategy"></a>Attīstīt cilvēkresursu stratēģijas
+<a name="develop-a-human-resources-strategy"></a>Izstrādāt personāla vadības stratēģiju
 ---------------------------------------------------------
 
-Strādājot ar cilvēkresursiem, jums izlemt kā strukturēt jūsu organizācijā, izmantojot elementus, piemēram, departamentu, darbus un amatus. Šie ir pamatus elementiem, kas jākonfigurē cilvēkresursos. Atsevišķiem darbiniekiem tiek piešķirti amati, kas ir saistīti ar darbiem.
+Strādājot ar personāla vadību, jums ir jāizlemj, kā strukturēt savu organizāciju, izmantojot tādus elementus kā nodaļas, darbi un amati. Tie ir vieni no galvenajiem pamatelementiem, kas jums personāla vadībā ir jākonfigurē. Atsevišķi darbinieki tiek piešķirti amatiem, kuri ir saistīti ar darbiem.
 
--   [Organizēt savu darbaspēku izmantojot departamenti, darbus un pozīcijas](departments-jobs-positions.md)
--   [Uzņēmumam raksturīgo PV parametru iestatīšana](set-up-company-specific-hr-parameters.md)
--   [PV parametru iestatīšana juridiskām personām](set-up-hr-parameters-across-legal-entities.md) 
+-   [Organizēt darbaspēku, izmantojot nodaļas, darbus un amatus](departments-jobs-positions.md)
+-   [Iestatīt uzņēmumam raksturīgus HR parametrus](set-up-company-specific-hr-parameters.md)
+-   [Iestatīt HR parametrus dažādām juridiskajām personām](set-up-hr-parameters-across-legal-entities.md) 
 
 ## <a name="recruit-hire-and-motivate-employees"></a>Veikt personāla atlasi, pieņemt darbā un motivēt darbiniekus
 
-Personāla atlases projekti pārvalda saturu, kas tiek izmantots vakanto amatu sludinājumos, un tas jums var palīdzēt pārvaldīt pieteikumus uz vakancēm. Varat tos izmantot, lai sekotu līdzi atbildēm uz darba sludinājumiem noteiktiem personāla atlases projektiem vai konkrētiem kandidātiem, un atjauninātu vakanto amatu statusu. Varat arī nolīgt atsevišķus kandidātus vai pārvaldīt “projektus ar masveida pieņemšanu darbā”, kas atvieglo vairāku darbinieku pieņemšanu darbā, piemēram, lai nodrošinātu sezonālas vajadzības.
+Personāla atlases projekti pārvalda saturu, kas tiek izmantots vakanto amatu sludinājumos, un tas jums var palīdzēt pārvaldīt pieteikumus uz vakancēm. Tos varat izmantot, lai sekotu līdzi atbildēm uz darba sludinājumiem noteiktiem personāla atlases projektiem vai konkrētiem kandidātiem, un atjauninātu vakanto amatu statusu. Varat arī nolīgt atsevišķus kandidātus vai pārvaldīt “projektus ar masveida pieņemšanu darbā”, kas atvieglo vairāku darbinieku pieņemšanu darbā, piemēram, lai nodrošinātu sezonālas vajadzības.
 
--   [Manage a recruiting process](manage-recruiting-process.md)
--   [Mass hire projects](mass-hire-projects.md) 
+-   [Pārvaldīt personāla atlases procesu](manage-recruiting-process.md)
+-   [Masveida darbā pieņemšanas projekti](mass-hire-projects.md) 
 
-Pēc personāla pieņemšanas darbā varat iestatīt plānus, lai efektīvi un taisnīgi pārvaldītu atlīdzības, kā arī pārvaldītu krājumus, piemēram, datorus un tālruņus, kurus jūsu organizācija aizdod saviem darbiniekiem. Varat izveidot fiksētas un mainīgas atlīdzības plānus, kā arī definēt kārtulas, kas attiecas uz atlīdzības plānu, lai atbilstu šī plāna kritērijiem.
+Pēc personāla pieņemšanas darbā varat iestatīt plānus, lai efektīvi un taisnīgi pārvaldītu atlīdzības, kā arī pārvaldītu krājumus, piemēram, datorus un tālruņus, kurus jūsu organizācija aizdod saviem darbiniekiem. Varat izveidot fiksētās un mainīgās atlīdzības plānus, kā arī definēt kārtulas, kas attiecas uz atlīdzības plānu, lai atbilstu šī plāna kritērijiem.
 
 -   [Atlīdzības plāni](compensation-plans.md)
--   [Fiksētas atlīdzības plāna izveide](create-fixed-compensation-plans.md)
--   [Mainīgās atlīdzības plānu izveide](create-variable-compensation-plans.md)
+-   [Izveidot fiksētās atlīdzības plānus](create-fixed-compensation-plans.md)
+-   [Izveidot mainīgās atlīdzības plānus](create-variable-compensation-plans.md)
 
-## <a name="develop-and-train-employees"></a>Darbinieku attīstības veicināšana un apmācība
+## <a name="develop-and-train-employees"></a>Veicināt darbinieku attīstību un apmācīt darbiniekus
 
-Palīdzēt jūsu darbiniekiem sasniegt savas karjeras mērķiem, kamēr piegādājot svarīgas uzņēmuma vajadzībām, jūs varat iestatīt mērķus, izveidojiet veiktspējas atsauksmes un izsekotu atgriezenisko saiti, lai palīdzētu darbiniekiem attīstīt nepieciešamās prasmes, var iestatīt arī instruktori, kursu tipi, kursu, kursu aprakstus, darba kārtības, dziesmas un sesijas pirms lai kursam piešķirtu instruktoru, vai reģistrēt kādu kursu. Instruktoriem ir jāpastāv jau kā darbiniekiem, kandidātiem vai kontaktpersonām.
+Lai saviem darbiniekiem palīdzētu sasniegt viņu karjeras mērķus, vienlaicīgi nodrošinot svarīgās uzņēmuma vajadzības, varat iestatīt mērķus, izveidot darba izpildes novērtējumus un sekot līdzi atsauksmēm. Lai darbiniekiem palīdzētu attīstīt nepieciešamās prasmes, varat arī iestatīt instruktorus, kursu tipus, kursus, kursu aprakstus, darba kārtības, izsekošanu un sesijas, pirms kursam piešķirat kādu instruktoru vai kādu reģistrējat kursam. Instruktoriem jau ir jāpastāv kā darbiniekiem, kandidātiem vai kontaktpersonām.
 
--   [Veiktspējas pārvaldības](performance-management-overview.md)
--   [Izlīdzināt darbaspēka prasmes un biznesa vajadzībām](skills.md)
--   [Administer training through courses](courses.md)
+-   [Veiktspējas pārvaldība](performance-management-overview.md)
+-   [Darbaspēka prasmes padarīt atbilstošas biznesa vajadzībām](skills.md)
+-   [Administrēt apmācību, izmantojot kursus](courses.md)
 
 ## <a name="create-and-maintain-benefits"></a>Izveidot un uzturēt atvieglojumus
 
-Papildus darbinieku kompensēšanai ar darba samaksām, algām un prēmijām, varat izstrādāt atvieglojumu programmas, piemēram, veselības apdrošināšanu un pensiju plānus. Varat arī pārvaldīt atvieglojumus, piemēram, aizdevumu programmas, kurās jūsu uzņēmums saviem darbiniekiem kaut ko aizdod, piemēram, datorus vai tālruņus.
+Papildus darbinieku atlīdzināšanai, izmantojot samaksas par darbu, algas un prēmijas, varat izstrādāt atvieglojumu programmas, piemēram, veselības apdrošināšanu un pensiju plānus. Varat arī pārvaldīt tādus atvieglojumus kā aizdevumu programmas, kurās jūsu uzņēmums saviem darbiniekiem kaut ko aizdod, piemēram, datorus vai tālruņus.
 
--   [Pārvaldīt pabalstu programmu](manage-benefit-program.md)
--   [Benefit eligibility policies](benefit-eligibility-policies.md)
--   [Manage items lent to workers](loan-items.md)
+-   [Pārvaldīt atvieglojumu programmu](manage-benefit-program.md)
+-   [Atvieglojumu piemērojamības ierobežojumi](benefit-eligibility-policies.md)
+-   [Pārvaldīt darbiniekiem aizdotus krājumus](loan-items.md)
 
-## <a name="maintain-workplace-safety-and-compliance"></a>Uzturēt darba vietas drošību un atbilstību
+## <a name="maintain-workplace-safety-and-compliance"></a>Uzturēt darbavietas drošību un atbilstību
 
-Microsoft Dynamics AX var jums palīdzēt uzturēt drošu darba vidi, kas atbilst piemērojamajiem tiesību aktiem, tostarp likumam Amerikāņi ar īpašām vajadzībām un tiesību aktiem par imigrāciju un naturalizāciju. Piemēram, varat pārvaldīt fiziskās prasības noteiktiem darbiem, kā arī sekot līdzi pieprasījumiem par izmitināšanu, kas jūsu organizācijai var palīdzēt optimizēt tās darbaspēka prasmes.
+Sistēma Microsoft Dynamics AX jums var palīdzēt uzturēt drošu darba vidi, kas atbilst piemērojamajiem tiesību aktiem, tostarp likumam Amerikāņi ar īpašām vajadzībām un tiesību aktiem par imigrāciju un naturalizāciju. Piemēram, noteiktiem darbiem varat pārvaldīt fiziskās prasības, kā arī sekot līdzi pieprasījumiem par izmitināšanu, kas jūsu organizācijai var palīdzēt optimizēt tās darbaspēka prasmes.
 
--   [Veidlapas I-9 darba pārbaude](localizations/noam-usa-form-i-9-verification.md)
--   [Izpildītu amerikāņi ar invaliditāti Act](localizations/noam-usa-comply-ada.md)
+-   [Formas I-9 nodarbinātības pārbaude](localizations/noam-usa-form-i-9-verification.md)
+-   [Ievērot likumu Amerikāņi ar īpašām vajadzībām](localizations/noam-usa-comply-ada.md)
 
-## <a name="gather-information-using-questionnaires"></a>Vāciet informāciju, izmantojot anketas
+## <a name="gather-information-using-questionnaires"></a>Vākt informāciju, izmantojot anketas
 
-Varat plānot un administrēt anketas, lai vāktu dažādiem nolūkiem izmantojamu informāciju. Līdzeklis Anketa jums ļauj projektēt un veidot anketas. Kad anketa ir gatava, varat to lūgt aizpildīt plašai publikai vai tikai noteiktai respondentu kopai. Kad respondenti ir snieguši savas atbildes, varat pārskatīt un analizēt rezultātus.
+Varat izstrādāt un administrēt anketas, lai vāktu dažādiem nolūkiem izmantojamu informāciju. Līdzeklis Anketa jums ļauj projektēt un veidot anketas. Kad anketa ir gatava, varat to lūgt aizpildīt plašai publikai vai tikai noteiktai respondentu kopai. Kad respondenti ir snieguši savas atbildes, varat pārskatīt un analizēt rezultātus.
 
--   [Questionnaires](questionnaires.md)
--   [Design a questionnaire](design-questionnaires.md)
--   [Distribute and complete a questionnaire](distribute-questionnaires.md)
--   [View and evaluate the results of a questionnaire](evaluate-questionnaire-results.md)
+-   [Anketas](questionnaires.md)
+-   [Projektēt anketu](design-questionnaires.md)
+-   [Izplatīt un aizpildīt anketu](distribute-questionnaires.md)
+-   [Skatīt un novērtēt anketas rezultātus](evaluate-questionnaire-results.md)
 
 
 

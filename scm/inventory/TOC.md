@@ -1,21 +1,21 @@
-# Izveidojiet noliktavu izkārtojumu
-# Indbound procesā
-# Nosūtīšanas procesā
-# Iestatītu krājumu izsekošanas
-## [Inventory journals](inventory-journals.md)
-## [Inventory locations](inventory-locations.md)
-## [Inventory statuses](inventory-statuses.md)
-## [Rezerves krājumu daudzums](reserve-inventory-quantities.md)
-## [Rezerves pašu partijas pārdošanas pasūtījumam](../sales-marketing/reserve-same-batch-sales-order.md)
+# Izveidot noliktavas izkārtojumu
+# Ienākošais process
+# Izejošais process
+# Iestatīt krājumu izsekošanu
+## [Krājumu žurnāli](inventory-journals.md)
+## [Krājumu novietojumi](inventory-locations.md)
+## [Krājumu statusi](inventory-statuses.md)
+## [Rezervēt krājumu daudzumu](reserve-inventory-quantities.md)
+## [Rezervēt to pašu partiju pārdošanas pasūtījumam](../sales-marketing/reserve-same-batch-sales-order.md)
 # Sūtījuma krājumi
-## [Consignment](consignment.md)
-## [Iestatītu sūtījumu](set-up-consignment.md)
-# Kvalitātes vadība
-## [Enable quality management](enable-quality-management.md)
-## [Inventory blocking](inventory-blocking.md)
-## [Nonconformance pārvaldības](enable-nonconformance-management.md)
-## [Quarantine order](quarantine-orders.md)
-## [Kvalitātes vadības procesu](quality-management-processes.md)
-# Trasēt vienumu un partijas
-## [Apvienot krājumu partijas](merge-inventory-batches.md)
-## [Izsekot preces un izejvielas](trace-items-raw-materials-inventory-production-sales.md)
+## [Sūtījums](consignment.md)
+## [Iestatīt sūtījumu](set-up-consignment.md)
+# Kvalitātes pārvaldība
+## [Iespējot kvalitātes pārvaldību](enable-quality-management.md)
+## [Krājumu bloķēšana](inventory-blocking.md)
+## [Neatbilstības pārvaldība](enable-nonconformance-management.md)
+## [Karantīnas pasūtījums](quarantine-orders.md)
+## [Kvalitātes pārvaldības process](quality-management-processes.md)
+# Izsekot krājumus un partijas
+## [Sapludināt krājumu partiju](merge-inventory-batches.md)
+## [Izsekot krājumus un izejmateriālus](trace-items-raw-materials-inventory-production-sales.md)
