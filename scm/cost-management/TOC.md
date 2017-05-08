@@ -22,10 +22,14 @@
 ## [Vidējā svērtā uz datumu](weighted-average-date.md)
 ## [Vidējā svērtā ar fizisko vērtību un iezīmēšanu](weighted-average-physical-value-marking.md)
 # Ražošanas izmaksu aprēķināšana
+## [Ražotā krājuma konstanto izmaksu amortizācija](amortize-constant-costs-manufactured-item.md)
+## [Atgriezeniska izmaksu aprēķināšana](backflush-costing.md)
+## [MK aprēķini](bom-calculations.md)
 ## [MK aprēķinu grupa](bom-calculation-groups.md)
 ## [Ražošanas novirzes kopējie avoti](common-sources-of-production-variances.md)
 ## [Ražošanas maršrutēšanā izmantotā izmaksu kategorija](cost-categories-used-production-routings.md)
 ## [Ražošanas kontroles un projekta pārvaldības uzskaitē izmantotā izmaksu kategorija](cost-categories-used-production-control-project-management-accounting.md)
+## [Saražoto krājumu papildmaksu parādīšana](charges-manufactured-item.md)
 ## [Ražošanas pasūtījuma izmaksu analīze](production-order-cost-analysis.md)
 ## [Ražošanas pasūtījuma izmaksu novērtējums](production-order-cost-estimation.md)
 ## [Ražošanas grāmatošana](production-posting.md)
@@ -39,5 +43,6 @@
 ## [Atjaunināt standarta izmaksas ražošanas vidē](update-standard-costs-manufacturing-environment.md)
 ## [Atjaunināt standarta izmaksas jaunam ražotajam krājumam](update-standard-costs-new-manufactured-item.md)
 ## [Atjaunināt standarta izmaksas neražošanas vidē](update-standard-costs-non-manufacturing-environment.md)
+
 
 

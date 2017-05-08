@@ -1,6 +1,6 @@
 ---
 title: "Pamatlīdzekļu sākumlapa"
-description: "Pamatlīdzekļi ir līdzekļi ar noteiktu vērtību, piemēram, ēkas, transportlīdzekļi, zeme un iekārtas, kas pieder privātpersonai vai organizācijai."
+description: "Pamatlīdzekļi ir vērtību krājumi, piemēram, ēkas, transportlīdzekļi, zeme un aprīkojums, kas pieder privātpersonai vai organizācijai."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 00f022da597b1de2454e93123de31731c6a65962
-ms.openlocfilehash: cdcf247f33a35ebae4af4ff22c10083642e9f97a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: dd17842365e357ecb5cb6034ed8878fcd60be5fc
+ms.openlocfilehash: 9d2c591b4a3f30ac9a3a842161ee7aa0e6c1db35
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -30,9 +31,9 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](../includes/banner.md)]
 
 
-Pamatlīdzekļi ir līdzekļi ar noteiktu vērtību, piemēram, ēkas, transportlīdzekļi, zeme un iekārtas, kas pieder privātpersonai vai organizācijai. 
+Pamatlīdzekļi ir vērtību krājumi, piemēram, ēkas, transportlīdzekļi, zeme un aprīkojums, kas pieder privātpersonai vai organizācijai. 
 
-Pamatlīdzekļiem var iestatīt un ievadīt informāciju par to iegādi un pēc tam tos var pārvaldīt, samazinot to vērtību un iestatot kapitalizācijas slieksni, lai noteiktu nolietojumu. Jūs varat aprēķināt pielāgojumus pamatlīdzekļiem, kā arī norakstīt tos. Izmantojot Virsgrāmatu kopā ar pamatlīdzekļiem, jūs varat skatīt visu pamatlīdzekļu pašreizējo vērtību. Pamatlīdzekļu apstrādes veidam ir jāatbilst gan starptautiskajiem grāmatvedības standartiem, gan katras valsts/reģiona grāmatvedības tiesību aktiem. Prasības var ietvert noteikumus pārskatiem par pamatlīdzekļu iegādi un norakstīšanas transakcijām, par nolietojumu, kalpošanas ilgumu, vērtības palielināšanu un samazināšanu. Pamatlīdzekļu funkcionalitāte ietver daudzus no šiem standartiem un noteikumiem.
+Pamatlīdzekļiem var iestatīt un ievadīt informāciju par to iegādi un pēc tam to pārvaldīt, samazinot to vērtību un iestatot kapitalizācijas slieksni, lai noteiktu nolietojumu. Varat aprēķināt pamatlīdzekļu pielāgojumus, kā arī izslēgt tos. Izmantojot virsgrāmatu kopā ar pamatlīdzekļiem, jūs varat skatīt visu pamatlīdzekļu pašreizējo vērtību. Pamatlīdzekļu apstrādes veidam ir jāatbilst gan starptautiskajiem grāmatvedības standartiem, gan katras valsts/reģiona grāmatvedības likumdošanai. Prasības var ietvert noteikumus pārskatiem par pamatlīdzekļu iegādi un izslēgšanas darbībām, par nolietojumu, kalpošanas ilgumu, vērtības palielināšanu un samazināšanu. Pamatlīdzekļu funkcionalitāte ietver daudzus no šiem standartiem un noteikumiem.
 
 
 

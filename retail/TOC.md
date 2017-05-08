@@ -68,3 +68,16 @@
 ## [Komercijas rekvizītu apskats](commerce-essentials.md)
 ## [Organizācijas un organizāciju hierarhijas (Komercijas rekvizīti)](organizational-hierarchies-commerce-essentials.md)
 # [IT speciālista un izstrādātāja saturs](dev-itpro/TOC.md)
+
+# [Finanšu dati](/dynamics365/operations/financials/index)
+
+# [Personāla vadība](/dynamics365/operations/human-resources/index)
+
+# [Piegādes ķēdes pārvaldība](/dynamics365/operations/supply-chain/index)
+
+# [Izstrādātājs un administrators](/dynamics365/operations/dev-itpro/index)
+
+# Citi resursi
+## [Dynamics 365 for Operations glosārijs](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/retail/toc.json)
+## [Jaunumi un izmaiņas](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/retail/toc.json)
+

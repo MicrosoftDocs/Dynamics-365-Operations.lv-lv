@@ -1,5 +1,6 @@
 # Izveidot noliktavas izkārtojumu
 # Ienākošais process
+## [Saņemšanas pārskats](arrival-overview.md)
 # Izejošais process
 # Iestatīt krājumu izsekošanu
 ## [Krājumu žurnāli](inventory-journals.md)
@@ -11,6 +12,7 @@
 ## [Sūtījums](consignment.md)
 ## [Iestatīt sūtījumu](set-up-consignment.md)
 # Kvalitātes pārvaldība
+## [Rīcībā esošo krājumu mobilā darbvieta](inventory-on-hand-mobile-workspace.md)
 ## [Iespējot kvalitātes pārvaldību](enable-quality-management.md)
 ## [Krājumu bloķēšana](inventory-blocking.md)
 ## [Neatbilstības pārvaldība](enable-nonconformance-management.md)
@@ -19,3 +21,4 @@
 # Izsekot krājumus un partijas
 ## [Sapludināt krājumu partiju](merge-inventory-batches.md)
 ## [Izsekot krājumus un izejmateriālus](trace-items-raw-materials-inventory-production-sales.md)
+

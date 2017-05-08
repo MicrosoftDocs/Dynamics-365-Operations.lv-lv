@@ -56,6 +56,7 @@
 ### [MK un formula](production-control/bill-of-material-bom.md)
 ### [MK veidotāja funkcionalitāte](production-control/bom-designer-functionality.md)
 ### [Preces dimensija](pim/product-dimensions.md)
+### [Noklusējuma pasūtījumu iestatījumi dimensijām un preču variantiem](production-control/default-order-settings.md)
 ### [Preces numura nomenklatūra](pim/product-variant-identification-nomenclature.md)
 ### [Bieži uzdotie jautājumi par transakcijām, kas saistītas ar precēm](pim/translations-product-related-information.md)
 ### [Reģistrēt sērijas numuru pārdošanas procesā](sales-marketing/register-serial-numbers-sales-process.md)
@@ -70,49 +71,77 @@
 ### [Iestatīt konfigurācijas modeli](pim/set-up-maintain-product-configuration-model.md)
 ### [Sistēmas definēts un lietotāja definēts tabulas ierobežojums](pim/system-defined-user-defined-table-constraints.md)
 # Ražošanas kontrole
-## Ražošanas process    
-### [No aktivitātēm atkarīgu apakšlīgumu slēgšana](production-control/activity-based-subcontracting.md)
-### [Partijas atribūti](production-control/batch-attributes.md)
-### [MK un formulas](production-control/bill-of-material-bom.md)
-### [MK veidotāja funkcionalitāte](production-control/bom-designer-functionality.md)
-### [Konsolidēti partijas pasūtījumi](production-control/consolidated-batch-orders.md)
-### [Pārvaldīt apakšlīgumu slēgšanas darbu ražošanā](production-control/manage-subcontract-work-production.md)
-### [Jaukta režīma plānošana: kombinēt atsevišķu avotus, procesa avotus un racionālos avotus](production-control/mixed-mode-plan.md)
-### [Ražošanas process](production-control/production-process-overview.md)
-### [Ražošanas iestatījumu prasības](production-control/production-set-up-requirements.md)
-### [Maršruti un operācijas](production-control/routes-operations.md)
-## Ražošanas pasūtījumi
-### [Veidot ražošanas pasūtījumus](production-control/create-production-orders.md)
-### [Noklusējuma pasūtījumu iestatījumi dimensijām un preču variantiem](production-control/default-order-settings.md)
-### [Izlaist ražošanas pasūtījumus](production-control/release-production-orders.md)
-### [Atcelt ražošanas pasūtījuma statusu](production-control/reverse-production-order-status.md)
-### [Ziņot par MK kā par pabeigtiem](production-control/report-boms-as-finished.md)
-### [Ziņot par ražošanas pasūtījumiem kā par pabeigtiem](production-control/report-production-orders-as-finished.md)
-## Racionālā ražošana 
-### [Kanban pārsūtīšanas paneļa atbalsts svītrkoda skeneriem](production-control/kanban-transfer-board-support-barcode-scanner.md) 
-### [Kanban darbu plānošana ražošanai lean manufacturing](production-control/lean-manufacturing-kanban-job-scheduling.md)
+## [Pārskats par ražošanas procesu](production-control/production-process-overview.md)
+## [Jaukta režīma plānošana: kombinēt atsevišķu avotus, procesa avotus un racionālos avotus](production-control/mixed-mode-plan.md)
+## [Pārvaldīt apakšlīgumu slēgšanas darbu ražošanā](production-control/manage-subcontract-work-production.md)
+## Atsevišķā ražošana
+### Uzturēt ražošanas pamatdatus
+#### [Ražošanas iestatījumu prasības](production-control/production-set-up-requirements.md)
+#### [Materiālu komplekti un formulas](production-control/bill-of-material-bom.md)
+#### [MK veidotāja funkcionalitāte](production-control/bom-designer-functionality.md)
+#### [MK aprēķini](cost-management/bom-calculations.md)
+#### [Operācijas resursi](production-control/operations-resources.md)
+#### [Resursu iespējas](production-control/resource-capabilities.md)
+#### [Maršruti un operācijas](production-control/routes-operations.md)
+#### [Ražošanas pasūtījuma noklusējuma vērtības ražošanas izpildē](production-control/production-order-defaults-manufacturing-execution.md)
+#### [Noliktavas darba politikas](warehousing/warehouse-work-policies.md)
+### Ražošanas operācijas grafika izveide
+#### [Operāciju plānošana](production-control/operations-scheduling.md)
+#### [Darbu plānošana](production-control/job-scheduling.md)
+#### [Operāciju plānošanas opcijas](production-control/operation-scheduling-options.md)
+### Ražošanas darbu pārvaldība
+#### [Veidot ražošanas pasūtījumus](production-control/create-production-orders.md)
+#### [Izlaist ražošanas pasūtījumus](production-control/release-production-orders.md)
+#### [Atcelt ražošanas pasūtījuma statusu](production-control/reverse-production-order-status.md)
+#### [Ziņot par ražošanas pasūtījumiem kā par pabeigtiem](production-control/report-production-orders-as-finished.md)
+#### [Ziņot par MK kā par pabeigtiem](production-control/report-boms-as-finished.md)
+#### [Materiālu aizstāšana ražošanā](production-control/substitute-items-bom-lines.md)
+#### [Ražošanas izpildes reģistrācija](production-control/registration-manufacturing-execution.md)
+#### [Ražošanas atsauksmes](production-control/production-feedback.md)
+#### [Laika un apmeklētības reģistrācija](production-control/time-attendance-registrations.md)
+### Ražošanas finanšu līdzekļu pārvaldība
+#### [Piešķirt laiku darbu komplektā iekļautiem darbiem](production-control/allocate-time-jobs-job-bundle.md)
+#### [Aprēķināt materiālu patēriņu](production-control/consumption.md)
+#### [Ražošanas grāmatošana](cost-management/production-posting.md)
+## Lean manufacturing 
 ### [Lean manufacturing apskats](production-control/lean-manufacturing-overview.md)
-### [Modelēt racionālu organizāciju](production-control/lean-manufacturing-modeling-lean-organization.md)
-## Plānot operācijas un darbus
-### [Piešķirt laiku darbu komplektā iekļautiem darbiem](production-control/allocate-time-jobs-job-bundle.md)
-### [Darbu plānošana](production-control/job-scheduling.md)
-### [Operāciju plānošanas opcijas](production-control/operation-scheduling-options.md)
-### [Operāciju plānošana](production-control/operations-scheduling.md)
-## Resursi
-### [Operations resursi](production-control/operations-resources.md)
-### [Resursu iespējas](production-control/resource-capabilities.md)
-### [Laika un apmeklētības reģistrācija](production-control/time-attendance-registrations.md)
-## Ražošanas izpilde
-### [Materiālu aizstāšana ražošanā](production-control/substitute-items-bom-lines.md)
-### [Aprēķināt materiālu patēriņu](production-control/consumption.md)
-### [Ražošanas atsauksmes](production-control/production-feedback.md)
-### [Ražošanas pasūtījuma noklusējuma vērtības ražošanas izpildē](production-control/production-order-defaults-manufacturing-execution.md)
-### [Ražošanas grāmatošana](cost-management/production-posting.md)
-### [Ražošanas izpildes reģistrācija](production-control/registration-manufacturing-execution.md)
+### [No aktivitātēm atkarīgu apakšlīgumu slēgšana](production-control/activity-based-subcontracting.md)
+### Uzturēt ražošanas pamatdatus
+#### [Modelēt racionālu organizāciju](production-control/lean-manufacturing-modeling-lean-organization.md)
+#### [Operācijas resursi](production-control/operations-resources.md)
+### Kanban darbu grafika izveide
+#### [Kanban darbu plānošana ražošanai lean manufacturing](production-control/lean-manufacturing-kanban-job-scheduling.md)
+#### [Darbu plānošana](production-control/job-scheduling.md)
+### Kanban darbu pārvaldība
+#### [Kanban pārsūtīšanas paneļa atbalsts svītrkoda skeneriem](production-control/kanban-transfer-board-support-barcode-scanner.md)
+#### [Ražošanas atsauksmes](production-control/production-feedback.md)
+## Ražošanas process
+### Uzturēt ražošanas pamatdatus
+#### [Materiālu komplekti un formulas](production-control/bill-of-material-bom.md)
+#### [Operācijas resursi](production-control/operations-resources.md)
+#### [Resursu iespējas](production-control/resource-capabilities.md)
+#### [Partijas atribūti](production-control/batch-attributes.md)
+#### [Ražošanas pasūtījuma noklusējuma vērtības ražošanas izpildē](production-control/production-order-defaults-manufacturing-execution.md)
+#### [Ražošanas iestatījumu prasības](production-control/production-set-up-requirements.md)
+### Ražošanas operācijas grafika izveide
+#### [Operāciju plānošana](production-control/operations-scheduling.md)
+#### [Operāciju plānošanas opcijas](production-control/operation-scheduling-options.md)
+#### [Darbu plānošana](production-control/job-scheduling.md)
+### Ražošanas darbu pārvaldība
+#### [Konsolidēti partijas pasūtījumi](production-control/consolidated-batch-orders.md)
+#### [Materiālu aizstāšana ražošanā](production-control/substitute-items-bom-lines.md)
+#### [Ražošanas izpildes reģistrācija](production-control/registration-manufacturing-execution.md)
+#### [Ražošanas atsauksmes](production-control/production-feedback.md)
+#### [Laika un apmeklētības reģistrācija](production-control/time-attendance-registrations.md) 
+### Ražošanas finanšu līdzekļu pārvaldība
+#### [Piešķirt laiku darbu komplektā iekļautiem darbiem](production-control/allocate-time-jobs-job-bundle.md)
+#### [Aprēķināt materiālu patēriņu](production-control/consumption.md)
+#### [Ražošanas grāmatošana](cost-management/production-posting.md)
 # Pārdošana un mārketings
 ## [Mārketings](sales-marketing/overview-sales-marketing.md)
 ## Pārdošanas pasūtījumi
 ### [Pasūtījumu solīšana](sales-marketing/delivery-dates-available-promise-calculations.md)
+### [Piegādes alternatīvas](sales-marketing/delivery-alternatives.md)
 ### [Pasūtījumu izveides termiņi](sales-marketing/order-entry-deadlines.md)
 ### [Tiešās piegādes](sales-marketing/direct-deliveries.md)
 ### [Piegādes grafiki](sales-marketing/delivery-schedules.md)
@@ -138,6 +167,7 @@
 ### [Iestatīt izkārtojumu](warehousing/warehouse-configuration.md)
 ### [Noliktavas darba politikas](warehousing/warehouse-work-policies.md)
 ### [Mērvienību un uzkrājumu politikas](warehousing/unit-measure-stocking-policies.md)
+### [Noliktavas Power BI saturs](/dynamics365/operations/dev-itpro/analytics/warehouse-power-bi-content?toc=/dynamics365/operations/scm/toc.json)
 ## Izdošana un iepakošana
 ### [Iepakojuma materiāli un maksas](warehousing/pack-materials-packing-material-fees.md)
 ## Krājumu inventarizācija
@@ -151,7 +181,21 @@
 ## Papildināšana
 ### [Papildināšana](warehousing/replenishment.md)
 ## Mobilās ierīces
+### [Instalēt un konfigurēt noliktavas programmu ](warehousing/install-configure-warehousing-app.md)
 ### [Konfigurēt lauku nosaukumus noliktavas programmā](warehousing/configure-app-field-names-priorities-warehouse.md)
 ### [Iestatīt mobilās ierīces darbam noliktavā](warehousing/configure-mobile-devices-warehouse.md)
 ### [Noliktavas mobilo ierīču portāls (WMDP)](warehousing/warehouse-mobile-devices-portal.md)
 ### [Noliktavas mobilo ierīču displeja iestatījumi](warehousing/change-warehouse-mobile-device-displays.md)
+
+# [Finanšu dati](/dynamics365/operations/financials/index)
+
+# [Personāla vadība](/dynamics365/operations/human-resources/index)
+
+# [Mazumtirdzniecība](/dynamics365/operations/retail/index)
+
+# [Izstrādātājs un administrators](/dynamics365/operations/dev-itpro/index)
+
+# Citi resursi
+## [Dynamics 365 for Operations glosārijs](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/supply-chain/toc.json)
+## [Jaunumi un izmaiņas](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/supply-chain/toc.json)
+

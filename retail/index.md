@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 03f54d7cf25b928d51d7d382ec490295dcbbbefe
-ms.openlocfilehash: 0d00f33ce8059acd877d1c177e3def0b5f0b73b1
-ms.lasthandoff: 04/12/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a8385e7103b74be33fd79c1143e481ad8edca31c
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -34,11 +35,9 @@ Dynamics 365 for Operations – Retail sniedz pilnīgu iepirkšanās funkcionali
 Šajā lapā ir norādīts uz resursiem, kas jums palīdzēs efektīvāk lietot risinājumu Microsoft Dynamics 365 for Operations - Retail. Rūtī, kas atrodas kreisajā malā, atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk. 
 
 ## <a name="set-up-retail-channels"></a>Iestatīt mazumtirdzniecības kanālus
-Kad iestatāt savu mazumtirdzniecības funkcionalitāti, jūs izlemjat, kā definēt un konfigurēt sava fiziskā veikala (programmā Dynamics 365 for Operations tas ir *mazumtirdzniecības veikals*) un tiešsaistes veikala operācijas. 
+Kad iestatāt savu mazumtirdzniecības funkcionalitāti, jūs izlemjat, kā definēt un konfigurēt savus veikalus — būvmateriālu veikals, tiešsaistes veikals un zvanu centrs. 
 
-Katrā mazumtirdzniecības veikalā var būt savas maksāšanas metodes, cenu grupas, POS risinājumi, ienākumu konti, izdevumu konti un personāls. Pēc mazumtirdzniecības veikala izveidošanas ir jāpiešķir preces, kuras veikals pārdos. Veikalam varat piešķirt arī darbiniekus, reģistrus un debitorus. Visbeidzot jaunais veikals ir jāpievieno organizācijas hierarhijai.
-
-Kad veidojat savu tiešsaistes veikalu, ir jāiestata tādi komponenti kā preču klāsts, atribūti, maksāšanas metodes un sūtīšanas metodes. Varat definēt arī cenas, veicināšanas pasākumus, atlaides un sūtīšanas nosacījumus, kas attiecas uz šo tiešsaistes veikalu.
+Katrā mazumtirdzniecības veikalā var būt savas maksāšanas un piegādes metodes, cenu grupas, ienākumu/izdevumu konti, reģistri un personāls. Pēc mazumtirdzniecības veikala izveides ir jāizveido preču sortiments, kas tiks pārdots veikalā. Varat definēt arī veikalā pieejamo preču veikala cenas un atlaides.
 
 -   [Definēt mazumtirdzniecības kanālus](define-maintain-retail-channels.md)
 -   [Tiešsaistes veikala apskats](online-stores.md)
@@ -49,10 +48,10 @@ Zvanu centru varat iestatīt kā mazumtirdzniecības kanāla tipu. Zvanu centrā
 -   [Zvanu centra funkcionalitāte](call-center-functionality.md)
 -   [Izveidot zvanu centra katalogus](create-call-center-catalogs.md)
 
-## <a name="define-your-pos-and-mpos-solutions"></a>Definēt savus POS un MPOS risinājumus
-Retail Modern POS (MPOS) ir pārdošanas punkta programma personālajiem datoriem, planšetdatoriem un tālruņiem. Pārdošanas personāls var apstrādāt pārdošanas transakcijas, klientu pasūtījumus un veikt ikdienas operācijas un krājumu pārvaldību, izmantojot mobilās ierīces jebkurā veikalā, kā arī datorā pieejamos reģistros. Mākoņa POS ir pārlūkprogrammā pieejams POS. 
+## <a name="define-your-pos-solutions"></a>POS risinājumu definēšana
+Retail Modern POS (MPOS) ir pārdošanas punkta programma personālajiem datoriem, planšetdatoriem un tālruņiem. Pārdošanas personāls var apstrādāt pārdošanas transakcijas un klientu pasūtījumus, kā arī īstenot attiecību ar klientiem veidošanas pasākumus un veikt ikdienas operācijas un krājumu pārvaldību, izmantojot mobilās ierīces jebkurā veikalā, kā arī datorā pieejamos reģistros. Cloud POS ir programmas POS mākoņa versija, kam var piekļūt no jebkuras standarta pārlūkprogrammas. 
 
-Lai definētu attiecības starp veikalu, POS reģistriem vai kanāliem veikalā un mazumtirdzniecības perifērajām ierīcēm, kas šos reģistrus vai kanālus izmanto transakciju apstrādāšanai, ir jāiestata vairāki komponenti. Ir jādefinē arī konkrētas POS instances īpašības, tostarp aparatūras profils vai uzstādīšana mazumtirdzniecības perifērajām ierīcēm, kas tiks izmantotas reģistrā, veikals, uz kuru šis reģistrs ir kartēts, un vizuālā pieredze lietotājam, kurš piesakās šajā reģistrā.
+Lai definētu attiecības starp veikalu, veikalā esošajiem POS reģistriem un mazumtirdzniecības perifērajām ierīcēm, ko šie reģistri izmanto transakciju apstrādē, ir jāiestata vairāki komponenti. Ir jādefinē arī konkrētas POS instances īpašības, tostarp aparatūras profils vai uzstādīšana mazumtirdzniecības perifērajām ierīcēm, kas tiks izmantotas reģistrā, veikals, uz kuru šis reģistrs ir kartēts, vizuālā pieredze lietotājam, kurš piesakās šajā reģistrā, un reģistrā iespējotās funkcionalitātes. Definējiet arī to, vai reģistrs var darboties atvienots vai bezsaistes režīmā.
 
 -   [Definēt un uzturēt kanālu klientus, reģistrus un aparatūras stacijas](define-maintain-channel-clients-registers-hw-stations.md)
 -   [Konfigurēt un instalēt MPOS](retail-modern-pos-device-activation.md)
@@ -92,4 +91,6 @@ Viedokļi, ziņas un cita informācija par Microsoft Dynamics 365 for Operations
 <a href="https://blogs.msdn.microsoft.com/dax/">Microsoft Dynamics AX produktu darba grupas emuārā</a> ir daudzi raksti par risinājumu Mazumtirdzniecība. Daži no šiem rakstiem tika rakstīti iepriekšējai Dynamics 365 for Operations versijai, bet šīs pašas koncepcijas joprojām ir spēkā, un procedūras pašreizējā versijā ir līdzīgas.
 
 <a href="https://community.dynamics.com/partner/b/operationspartnercommunityblog">Microsoft Dynamics Operations partneru kopienas emuārā</a> Microsoft Dynamics partneriem tiek sniegts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā MBS Operations.
+
+
 

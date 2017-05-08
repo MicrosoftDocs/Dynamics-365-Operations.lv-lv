@@ -1,6 +1,6 @@
 ---
 title: "Budžeta veidošanas sākumlapa"
-description: "Šajā tēmā ir sniegts apskats par budžeta veidošanas funkcionalitātes sastāvdaļām, budžeta veidošanas rīkiem, kā arī pārskatu veidošanas iespējām programmatūrā Microsoft Dynamics 365 for Operations."
+description: "Šajā tēmā ir sniegts apskats par budžeta veidošanas funkcionalitātes sastāvdaļām, budžeta veidošanas rīkiem, kā arī atskaišu veidošanas iespējām programmatūrā Microsoft Dynamics 365 for Operations."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b21fd97426b331726c12ea29f89817a46dd445c3
-ms.openlocfilehash: f7b4efc06b8e64c05da026850b41cb5b68c33ec3
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: dd17842365e357ecb5cb6034ed8878fcd60be5fc
+ms.openlocfilehash: aacce0449c9490c4ab66cacb9945ed64fa40de34
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -29,13 +30,13 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā tēmā ir sniegts apskats par budžeta veidošanas funkcionalitātes sastāvdaļām, budžeta veidošanas rīkiem, kā arī pārskatu veidošanas iespējām programmatūrā Microsoft Dynamics 365 for Operations. 
+Šajā tēmā ir sniegts apskats par budžeta veidošanas funkcionalitātes sastāvdaļām, budžeta veidošanas rīkiem, kā arī atskaišu veidošanas iespējām programmatūrā Microsoft Dynamics 365 for Operations. 
 
 <a name="components-of-budgeting-functionality"></a>Budžeta veidošanas funkcionalitātes komponenti
 -------------------------------------
 
 Resursu plānošanas cikls uzņēmumam parasti sastāv no plānošanas, budžeta veidošanas un prognozēšanas darbībām.
-[![Budžeta veidošanas funkcionalitātes komponent](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg) Gan ilgtermiņa stratēģiskās plānošanas, gan gada budžeta plānošanas procesi tiek atbalstīti, izmantojot budžeta plāna dokumentu. Budžeta plāna dokumenti ir cieši integrēti programmā Microsoft Excel. Lietotāji var konfigurēt neierobežotus naudas un daudzuma scenārijus, kā arī var definēt budžeta plānošanas organizācijas hierarhiju, lai atbalstītu budžeta veidošanu gan no augšas uz leju, gan no apakšas uz augšu. Kad budžets ir izveidots un apstiprināts programmatūrā Microsoft Dynamics 365 for Operations, jūs šo budžeta plānu pārveidojat par budžeta reģistra ierakstu. Budžeta reģistra ieraksti nodrošina rīkus budžeta uzturēšanai un summu izsekojamības saglabāšanai, izmantojot budžeta kodus. Budžeta reģistra ieraksti ļauj pārskatīt sākotnējos budžetus, veikt pārsūtījumus un pārnest budžeta summas no iepriekšējā gada. Pamatojoties uz izveidoto budžetu, uzņēmums var iespējot budžeta kontroli. Kontroles līmenis ir atkarīgs no organizācijas kultūras un organizācijas brieduma līmeņa. Organizācijas, kurām ir zems brieduma līmenis, var atstāt budžetu “tādu, kāds tas ir” un spēt labāk reaģēt, nevis darboties proaktīvi, ja budžets neatbilst gaidītajam. Citas organizācijas var iespējot budžeta kontroles politikas, kas neļauj lietotājiem veikt pirkšanu, ja nav pieejami budžeta līdzekļi. Visbeidzot ļoti nobriedušām organizācijām var būt izveidota organizācijas kultūra, kurā darbinieki tiek izglītoti par organizācijas mērķiem un cenšas sasniegt šos mērķus, izmantojot tādas politikas kā, piemēram, “Apsvērt iespēju tikties tiešsaistē, nevis doties komandējumā”. Programmatūra Dynamics 365 for Operations ietver budžeta kontroles struktūru, kas uzņēmuma vadībai ļauj izvēlēties stingru kontroli (kas liedz veikt grāmatojumus, kuri pārsniegtu budžetu) vai vāju kontroli (kuras ietvaros lietotāji tiek brīdināti, ka viņi pārsniegs pieejamos budžeta līdzekļus, bet var paši pieņemt lēmumu par turpmāku rīcību). Visbeidzot, varat izmantot slīdošās prognozes. Slīdošā prognoze ir regulāra budžeta un faktisko datu salīdzināšana, un tā tiek izmantota, lai definētu, cik labi uzņēmums darbojas, salīdzinot ar budžeta datiem. Slīdošā prognoze tiek izmantota arī, lai noteiktu tendences. Programmatūrā Microsoft Dynamics 365 for Operations slīdošās prognozes tiek atbalstītas ar budžeta plāna dokumenta starpniecību kā sākotnējās plānošanas aktivitātes. Slīdošās prognozes var veikt vienlaicīgi ar plānošanu gaidāmajam budžeta ciklam.
+[![Budžeta veidošanas funkcionalitātes komponenti](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg) Gan ilgtermiņa stratēģiskās plānošanas, gan gada budžeta plānošanas procesi tiek atbalstīti, izmantojot budžeta plāna dokumentu. Budžeta plāna dokumenti ir cieši integrēti programmā Microsoft Excel. Lietotāji var konfigurēt neierobežotus naudas un daudzuma scenārijus, kā arī var definēt budžeta plānošanas organizācijas hierarhiju, lai atbalstītu budžeta veidošanu gan no augšas uz leju, gan no apakšas uz augšu. Kad budžets ir izveidots un apstiprināts programmatūrā Microsoft Dynamics 365 for Operations, jūs šo budžeta plānu pārveidojat par budžeta reģistra ierakstu. Budžeta reģistra ieraksti nodrošina rīkus budžeta uzturēšanai un summu izsekojamības saglabāšanai, izmantojot budžeta kodus. Budžeta reģistra ieraksti ļauj pārskatīt sākotnējos budžetus, veikt pārsūtījumus un pārnest budžeta summas no iepriekšējā gada. Pamatojoties uz izveidoto budžetu, uzņēmums var iespējot budžeta kontroli. Kontroles līmenis ir atkarīgs no organizācijas kultūras un organizācijas brieduma līmeņa. Organizācijas, kurām ir zems brieduma līmenis, var atstāt budžetu “tādu, kāds tas ir” un spēt labāk reaģēt, nevis darboties proaktīvi, ja budžets neatbilst gaidītajam. Citas organizācijas var iespējot budžeta kontroles politikas, kas neļauj lietotājiem veikt pirkšanu, ja nav pieejami budžeta līdzekļi. Visbeidzot — ļoti nobriedušām organizācijām var būt izveidota organizācijas kultūra, kurā darbinieki tiek izglītoti par organizācijas mērķiem un cenšas sasniegt šos mērķus, izmantojot tādas politikas kā, piemēram, “apsvērt iespēju tikties tiešsaistē, nevis doties komandējumā”. Programmatūra Dynamics 365 for Operations ietver budžeta kontroles struktūru, kas uzņēmuma vadībai ļauj izvēlēties stingru kontroli (kas liedz veikt grāmatojumus, kuri pārsniegtu budžetu) vai vāju kontroli (kuras ietvaros lietotāji tiek brīdināti, ka viņi pārsniegs pieejamos budžeta līdzekļus, bet var paši pieņemt lēmumu par turpmāku rīcību). Visbeidzot — varat izmantot slīdošās prognozes. Slīdošā prognoze ir regulāra budžeta un faktisko datu salīdzināšana, un tā tiek izmantota, lai definētu, cik labi uzņēmums darbojas, salīdzinot ar budžeta datiem. Slīdošā prognoze tiek izmantota, arī lai noteiktu tendences. Programmatūrā Microsoft Dynamics 365 for Operations slīdošās prognozes tiek atbalstītas ar budžeta plāna dokumenta starpniecību kā sākotnējās plānošanas aktivitātes. Slīdošās prognozes var veikt vienlaicīgi ar plānošanu gaidāmajam budžeta ciklam.
 
 -   [Pamata budžeta veidošana: pārskats un konfigurācija](basic-budgeting-overview-configuration.md)
 -   [Budžeta kontrole: pārskats un konfigurācija](budget-control-overview-configuration.md)

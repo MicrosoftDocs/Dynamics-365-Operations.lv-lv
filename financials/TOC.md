@@ -170,6 +170,7 @@
 ## [Izmaksu elementu dimensijas](cost-accounting/cost-elements.md)
 ## [Izmaksu objekta dimensijas](cost-accounting/cost-objects.md)
 ## [Izmaksu elementu dimensiju elementus kartēt uz kopīgu dimensiju elementu kopu](cost-accounting/map-cost-elements-dimension-members.md)
+## [Pieskaitāmo izmaksu aprēķins](cost-accounting/overhead-calculation.md)
 ## [Izmaksu kontroles mobilā darbvieta](cost-accounting/cost-controlling-mobile-workspace.md)
 ## [Power BI saturs Izmaksu uzskaites analīze](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack?toc=/dynamics365/operations/financials/toc.json)
 ## [Iestatīt drošību Power BI saturam Izmaksu uzskaites analīze](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack?toc=/dynamics365/operations/financials/toc.json)
@@ -206,4 +207,18 @@
 ## [Projektu piedāvājumi](project-management/project-quotations.md)
 ## [Projekta resursi](project-management/project-resourcing.md)
 ## [Darba sadalījuma struktūras](project-management/work-breakdown-structures.md)
+## [Projekta laika ieraksta mobilajām ierīcēm paredzēta darbvieta](project-management/project-time-entry-mobile-workspace.md)
 # [Lokalizācijas](localizations/TOC.md)
+
+# [Personāla vadība](/dynamics365/operations/human-resources/index)
+
+# [Mazumtirdzniecība](/dynamics365/operations/retail/index)
+
+# [Piegādes ķēdes pārvaldība](/dynamics365/operations/supply-chain/index)
+
+# [Izstrādātājs un administrators](/dynamics365/operations/dev-itpro/index)
+
+# Citi resursi
+## [Dynamics 365 for Operations glosārijs](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/financials/toc.json)
+## [Jaunumi un izmaiņas](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/financials/toc.json)
+

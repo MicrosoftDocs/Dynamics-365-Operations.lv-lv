@@ -42,6 +42,7 @@
 ## [Labot rēķina ID pārdošanas pasūtījumos](emea-edit-invoice-id-sales-orders.md)
 ## [ES ierakstu sertifikāti](emea-entry-certificates.md)
 ## [ES pārdošanas saraksta pārskats](emea-eu-sales-list.md)
+## [Valūtas kursa korekcijas](emea-exchange-rate-adjustments.md)
 ## [Maksāšanas metožu failu formāti](emea-select-file-formats-for-the-method-of-payments.md)
 ## [Pamatlīdzekļu norakstīšana Igaunijai un Lietuvai](emea-credit-note-reverse-fixed-asset-sale.md)
 ## [Intrastat](emea-intrastat.md)
@@ -56,18 +57,19 @@
 ## [SEPA kredīta pārskaitījuma apskats](../accounts-payable/sepa-credit-transfer.md)
 ## [SEPA tiešā debeta apskats](../accounts-receivable/sepa-direct-debit-overview.md)
 ## [Iestatīt parakstītājus drukātajām formām](emea-set-up-signers-for-printing-forms.md)
-## [Sadalīt periodus periodiskajos žurnālos](emea-create-post-periodic-journals.md)
-## [Atjaunināt veidu, kā summas tiek rādītas pārskatos un dokumentos](emea-amount-printing-forms.md)
-## [PVN pārskati](emea-vat-reporting.md)
+## [PVN maiņas kursi](emea-vat-exchange-rate.md)
 ## [Skatīt nosegšanas transakcijas](emea-transactions-settlement-form.md)
 ## Austrija
-### [Iepakojuma materiālu maksas](emea-aut-packing-material-fee-calculation.md)
+### [Pusgada nolietojums](emea-aut-half-year-depreciation.md)
+### [Iepakojuma materiālu papildmaksas](emea-aut-packing-material-fee-calculation.md)
 ### [PVN deklarācija](emea-aut-vat-statement-details.md)
 ## Beļģija
 ### [CODA bankas izraksts](emea-bel-coda-bank-statement-import.md)
+### [Intervat nodokļu deklarācija](emea-bel-intervat-tax-declaration.md)
 ### [PRODCOM pārskata iestatīšana](emea-bel-prodcom-report.md)
 
 ## Čehija
+### [Termiņatlaide kredīta notā](emea-cze-credit-note-cash-discount.md)
 ### [Nolietojuma noapaļošana](emea-cze-depreciation-rounding.md)
 ### [Nolietojuma atlikšana](emea-cze-depreciation-suspension-holidays.md)
 ### [Pamatlīdzekļu nolietojums](emea-cze-fixed-assets-depreciation.md)
@@ -94,7 +96,9 @@
 ### [Žurnālu saraksta pārskats](emea-deu-journal-list-report.md)
 ### [Drukāt atsevišķu etiķeti kredītrēķiniem, kuri izveidojušies no pārdošanas](emea-deu-print-separate-label-credit-memo-originating-sales.md)
 ## Ungārija
+### [Pamatlīdzekļu nolietojuma metodes](emea-hun-fixed-assets-depreciation-methods.md)    
 ### [Lētie pamatlīdzekļi](emea-hun-low-cost-fixed-assets.md)
+### [Pārvietot pamatlīdzekli uz krājumu](emea-hun-fixed-asset-to-inventory.md)
 ## Itālija
 ### [PVN deklarācijas informācija](emea-ita-vat-statements-details.md)
 ### [Melnā saraksta pārskats](emea-ita-black-list-report.md)
@@ -103,6 +107,7 @@
 ### [Pavadzīmes datuma pārbaude rēķinos](emea-ita-packing-slip-date-verification-on-invoice.md)
 ### [PVN grāmatas](emea-ita-fiscal-books.md)
 ### [Sadalīt maksājumus valsts administrācijai izsniegtiem rēķiniem](emea-ita-split-payment-invoices-issued-public-administration.md)
+### [Ieturētais nodoklis](emea-ita-withholding tax.md)
 ## Latvija
 ### [Pamatlīdzekļu uzskaite](emea-lva-fixed-assets-accounting.md)
 ### [Pamatlīdzekļu novietojuma maiņas izsekošana](emea-lva-fixed-assets-location-fields-change.md)
@@ -119,12 +124,17 @@
 ### [Dublēt pārdošanas rēķinu numerāciju](emea-pol-sales-invoice-duplicates-numbering.md)
 ### [Pamatlīdzekļu nolietojums](emea-pol-fixed-assets-depreciation.md)
 ### [Pamatlīdzekļu norakstīšanas funkcionalitātes paplašinājums](emea-pol-fixed-asset-disposal-functionality-extension.md)
+### [Atgriežams iepakojums](emea-pol-returnable-packages.md)
+### [PVN pārskati](emea-pol-sales-tax-reports.md)
+### [Standarta audita faili (SAF)](emea-pol-standard-audit-file-saf.md)
 ### [Apgrozījuma bilances pārskats](emea-pol-turnover-balances-statement.md)
 ## Spānija
-### [Vekseļu opcijas](emea-esp-bill-of-exchange-options.md)
 ### [Lietot termiņatlaides rēķinā](emea-esp-cash-discount-applied-invoice.md)
+### [Vekseļu opcijas](emea-esp-bill-of-exchange-options.md)
+### [Nosacījuma PVN](emea-esp-conditional-sales-tax.md)
 ### [Finanšu datu rēķina konts](emea-esp-fiscal-data-invoice-account.md)
 ### [Pamatlīdzekļu grupas pārvērtēšana](emea-esp-fixed-asset-group-revaluation.md)
+### [EK iekšējais PVN](emea-esp-intra-community-vat.md)
 ### [Vienreizēji debitori](emea-esp-no-one-time-customer-for-project-contracts.md)
 ### [Parādzīmju opcijas](emea-esp-promissory-note-options.md)
 ### [Pārdošanas un pirkšanas cikli](emea-esp-sales-purchase-cycle.md)
@@ -163,3 +173,4 @@
 
 # Ziemeļamerika
 ## [Gada beigu 1099 pārskati Amerikas Savienotajām Valstīm](noam-usa-year-end-1099-reporting.md)
+

@@ -60,3 +60,15 @@
 #### [Bieži uzdotie jautājumi par algu datu atjauninājumiem](localizations/noam-usa-payroll-data-updates.md)
 #### [Ģenerēt algu pārskatus](localizations/noam-usa-generate-payroll-reports.md)
 
+# [Finanšu dati](/dynamics365/operations/financials/index)
+
+# [Mazumtirdzniecība](/dynamics365/operations/retail/index)
+
+# [Piegādes ķēdes pārvaldība](/dynamics365/operations/supply-chain/index)
+
+# [Izstrādātājs un administrators](/dynamics365/operations/dev-itpro/index)
+
+# Citi resursi
+## [Dynamics 365 for Operations glosārijs](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/human-resources/toc.json)
+## [Jaunumi un izmaiņas](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/human-resources/toc.json)
+

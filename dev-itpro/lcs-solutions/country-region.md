@@ -17,29 +17,40 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 03f54d7cf25b928d51d7d382ec490295dcbbbefe
-ms.openlocfilehash: b77b61089c359127a7404437c29ef63a01416779
-ms.lasthandoff: 04/12/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 4a3ecb4cb643d63333666f8d5d49760caacc4e58
+ms.openlocfilehash: e14d0836ee16db4fba9ef49df9a49564aa4c0402
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/27/2017
 
 
 ---
 
 # <a name="localization-and-regulatory-features"></a>Lokalizācijas un normatīvie līdzekļi
 
-Microsoft Dynamics 365 for Operations ietver funkcionalitāti noteiktām valstīm/reģioniem specifiskām likuma prasībām un procedūrām. Šī funkcionalitāte tiek iespējota, pamatojoties uz aktīvās juridiskās personas primāro adresi. Šajā tēmā ir sniegts saraksts ar resursiem, kas jums var noderēt, lai uzzinātu papildinformāciju par valstij/reģionam specifisko funkcionalitāti. 
+[!include[banner](../includes/banner.md)]
 
-## <a name="developer-and-isv-information"></a>Izstrādātāja un ISV informācija
-Tālāk norādītajos resursos ir sniegta informācija, kas var palīdzēt izstrādātājiem un ISV, kuri veido valstij/reģionam specifiskus pielāgojumus.
+
+Microsoft Dynamics 365 for Operations ir ietverta funkcionalitāte tām valstīm/reģioniem, kas minētas [preču pieejamības ceļvedī](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Šī funkcionalitāte tiek iespējota, pamatojoties uz aktīvās juridiskās personas primāro adresi. 
+
+Šajā tēmā ir sniegts saraksts ar resursiem, kas jums var noderēt, lai uzzinātu papildinformāciju par valstij/reģionam specifisko funkcionalitāti. 
+
+## <a name="developing-localized-solutions"></a>Lokalizētu risinājumu izveide
+Tālāk norādītajos resursos ir sniegti norādījumi un informācija, kas var noderēt izstrādātājiem un ISV, kuri veido valstij/reģionam specifiskus pielāgojumus vai izstrādā risinājumu valstij, ko Microsoft neatbalsta.
 -   [Atdalīt lokalizācijas modeļus](separate-localization-models.md)
 -   [Lietot valsts/reģiona kontekstu](apply-country-context.md)
 -   [Normatīvās sertifikācijas](regulatory-certifications.md)
 -   [Klasificēt lokalizācijas līdzekļus](classify-localization-features.md)
 -   [Valstu kodi – ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
-## <a name="localization-updates"></a>Lokalizācijas atjauninājumi
+## <a name="localization-updates-and-communication"></a>Lokalizācijas atjauninājumi un saziņa
 Tālāk norādītajos resursos ir sniegta informācija par plānotajiem un jaunajiem lokalizācijas līdzekļiem. 
--   [Lokalizācijas portāls](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC)
+
+### <a name="localization-updates"></a>Lokalizācijas atjauninājumi
+-   [Lokalizācijas portāls](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (tiek atjaunināts vienreiz nedēļā)
+-   [LCS problēmu meklētājs](../lifecycle-services/issue-search-lcs.md) (tiek atjaunināts vienreiz dienā)
+
+### <a name="communication-and-alerts"></a>Saziņa un brīdinājumi
 -   [Normatīvā uzraudzība un informēšana par normatīvajiem jaunumiem](regulatory-watch-communication.md)
 -   [Informēt korporāciju Microsoft par valsts/reģiona normatīvu brīdinājumiem un sekot līdzi normatīvo līdzekļu statusam](submit-localization-alerts.md)
 
@@ -51,7 +62,15 @@ Elektronisko pārskatu veidošanas (Electronic reporting — ER) rīks jums ļa
 -   [Paplašināt elektronisko pārskatu veidošanas funkciju sarakstu](../analytics/general-electronic-reporting-formulas-list-extension.md)
 -   [Elektroniskās pārskatu veidošanas adresāti](../analytics/electronic-reporting-destinations.md)
 -   [Lejupielādēt elektronisko pārskatu veidošanas konfigurāciju no Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
--   [Iestatīt elektronisko pārskatu veidošanu ar Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Konfigurēt elektroniskos pārskatus, lai ievilktu datus pakalpojumā Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+
+## <a name="task-guides"></a>Uzdevumu ceļveži
+Uzdevumu ceļveži ir pieejami produktu palīdzības rūtī, un tajos ir iekļauti norādījumi saistībā ar svarīgākajiem biznesa procesiem. Varat atvērt uzdevuma ceļvedi, lai uzzinātu par biznesa procesa darbībām, vai arī varat to atskaņot, lai skatītu informāciju par biznesa procesu un datu ievadi.
+
+Lai skatītu uzdevumu ceļvežus, pārejiet uz Microsoft Dynamics 365 for Operations lapu un noklikšķiniet uz Palīdzība. Lapā pieejamo uzdevumu ceļvežu sarakstu palīdzības rūtī. Palīdzības rūti varat izmantot arī uzdevumu ceļvežu meklēšanai pēc nosaukuma.
+
+Papildinformāciju skatiet sadaļā [Uzdevumu ceļveži](/dynamics365/operations/dev-itpro/get-started/help-overview#task-guides).
+
 
 ## <a name="countryregion-specific-help-topics"></a>Valstij/reģionam specifiskās palīdzības tēmas
 Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
@@ -62,17 +81,17 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 -   [Saimnieciskās darbības pārskats ](/dynamics365/operations/financials/localizations/apac-aus-business-activity-statement)
 -   [Pamatlīdzekļu nolietojuma aprēķina metode](/dynamics365/operations/financials/localizations/apac-aus-low-value-pool-depreciation)
 
-
 ### <a name="austria"></a>Austrija
 
--   [Iepakojuma materiālu maksas](/dynamics365/operations/financials/localizations/emea-aut-packing-material-fee-calculation)
+-   [Pusgada nolietojums](/dynamics365/operations/financials/localizations/emea-aut-half-year-depreciation)
+-   [Iepakojuma materiālu papildmaksas](/dynamics365/operations/financials/localizations/emea-aut-packing-material-fee-calculation)
 -   [PVN deklarācija](/dynamics365/operations/financials/localizations/emea-aut-vat-statement-details)
 
 ### <a name="belgium"></a>Beļģija
 
 -   [CODA bankas izraksts](/dynamics365/operations/financials/localizations/emea-bel-coda-bank-statement-import)
+-   [Intervat nodokļu deklarācija](/dynamics365/operations/financials/localizations/emea-bel-intervat-tax-declaration)
 -   [PRODCOM pārskata iestatīšana](/dynamics365/operations/financials/localizations/emea-bel-prodcom-report)
-
 
 ### <a name="brazil"></a>Brazīlija
 
@@ -93,7 +112,6 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 -   [Nodokļu maksājumi](/dynamics365/operations/financials/localizations/latam-bra-tax-payments)
 -   [Nodokļi](/dynamics365/operations/financials/localizations/latam-bra-calculate-taxes)
 
-
 ### <a name="china"></a>Ķīna
 -   [Materiālu komplektu salīdzinājums](/dynamics365/operations/financials/localizations/apac-chn-bom-comparison)
 -   [Ķīnas dokumenti](/dynamics365/operations/financials/localizations/apac-chn-vouchers)
@@ -105,12 +123,14 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 -   [Grāmatot krājumu galvenos kontus pēc vietas](/dynamics365/operations/financials/localizations/apac-chn-post-inventory-main-accounts-by-site)
 -   [Rādīt debeta un kredīta summas virsgrāmatas kontiem](/dynamics365/operations/financials/localizations/apac-chn-negative-debits-credits)
 
-
 ### <a name="the-czech-republic"></a>Čehija
+
+-   [Termiņatlaide kredīta notā](/dynamics365/operations/financials/localizations/emea-cze-credit-note-cash-discount)
 -   [Nolietojuma noapaļošana](/dynamics365/operations/financials/localizations/emea-cze-depreciation-rounding)
--       [Pamatlīdzekļu norakstīšanas pusgada nolietojums Čehijai](/dynamics365/operations/financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal)
-    -   [Nolietojuma atlikšana (brīvdienas)](/dynamics365/operations/financials/localizations/emea-cze-depreciation-suspension-holidays)
-    -   [Pamatlīdzekļu nolietojuma metodes Čehijai](/dynamics365/operations/financials/localizations/emea-cze-fixed-assets-depreciation)
+-   [Pamatlīdzekļu norakstīšanas pusgada nolietojums Čehijai](/dynamics365/operations/financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal)
+-   [Nolietojuma atlikšana (brīvdienas)](/dynamics365/operations/financials/localizations/emea-cze-depreciation-suspension-holidays)
+-   [Pamatlīdzekļu nolietojuma metodes Čehijai](/dynamics365/operations/financials/localizations/emea-cze-fixed-assets-depreciation)
+
 -   [Grāmatot pamatlīdzekļa pirmsiegādi](/dynamics365/operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
 -   [PVN deklarācija Čehijai](/dynamics365/operations/financials/localizations/emea-cze-vat-statement-details)
 -   [Sadalīt periodus periodiskajos žurnālos](/dynamics365/operations/financials/localizations/emea-create-post-periodic-journals)
@@ -127,6 +147,7 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 -   [Labot rēķina ID pārdošanas pasūtījumos](/dynamics365/operations/financials/localizations/emea-edit-invoice-id-sales-orders)
 -   [ES ierakstu sertifikāti](/dynamics365/operations/financials/localizations/emea-entry-certificates)
 -   [ES pārdošanas saraksta pārskats](/dynamics365/operations/financials/localizations/emea-eu-sales-list)
+-   [Valūtas kursa korekcijas](/dynamics365/operations/financials/localizations/emea-exchange-rate-adjustments)
 -   [Maksāšanas metožu failu formāti](/dynamics365/operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
 -   [Pamatlīdzekļu norakstīšana Igaunijai un Lietuvai](/dynamics365/operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
 -   [Intrastat](/dynamics365/operations/financials/localizations/emea-intrastat)
@@ -143,11 +164,9 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 -   [Iestatīt parakstītājus drukātajām formām](/dynamics365/operations/financials/localizations/emea-set-up-signers-for-printing-forms)
 -   [Sadalīt periodus periodiskajos žurnālos](/dynamics365/operations/financials/localizations/emea-create-post-periodic-journals)
 -   [Atjaunināt veidu, kā summas tiek rādītas pārskatos un dokumentos](/dynamics365/operations/financials/localizations/emea-amount-printing-forms)
-
+-   [PVN maiņas kursi](/dynamics365/operations/financials/localizations/emea-vat-exchange-rate)
 -   [PVN pārskati Eiropai](/dynamics365/operations/financials/localizations/emea-vat-reporting)
-
 -   [Skatīt nosegšanas transakcijas](/dynamics365/operations/financials/localizations/emea-transactions-settlement-form)
-
 
 ### <a name="france"></a>Francija
 -   [Hronoloģiski rēķinu un dokumentu numuri](/dynamics365/operations/financials/localizations/emea-fra-chronological-invoices-vouchers)
@@ -164,15 +183,16 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
    -   [Titres de recette](/dynamics365/operations/financials/localizations/emea-fra-titres-de-recette-public-sector)
    -   [Kreditoru rēķinu maksājamu aizturēšana](/dynamics365/operations/financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector)
 
-
 ### <a name="germany"></a>Vācija
 -   [Papildu iegādes nolietojums](/dynamics365/operations/financials/localizations/emea-deu-additional-acquisition-depreciation)
 -   [Vācijas audita fails (GDPdU/GoBD)](/dynamics365/operations/financials/localizations/emea-deu-gdpdu-audit-data-export)
 -   [Vācijas žurnālu saraksta pārskats](/dynamics365/operations/financials/localizations/emea-deu-journal-list-report)
--   [Drukāt atsevišķu etiķeti kredītrēķiniem, kuri izveidojušies no pārdošanas (uzdevuma ceļvedis)](/dynamics365/operations/financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales)
+-   [Drukāt atsevišķu etiķeti kredītrēķiniem, kuri izveidojušies no pārdošanas](/dynamics365/operations/financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales)
 
 ### <a name="hungary"></a>Ungārija
 
+-   [Pamatlīdzekļu nolietojuma metodes](/dynamics365/operations/financials/localizations/emea-hun-fixed-assets-depreciation-methods)    
+-   [Pārvietot pamatlīdzekli uz krājumu](/dynamics365/operations/financials/localizations/emea-hun-fixed-asset-to-inventory)
 -   [Lētie pamatlīdzekļi](/dynamics365/operations/financials/localizations/emea-hun-low-cost-fixed-assets)
 
 ### <a name="italy"></a>Itālija
@@ -184,6 +204,7 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 -   [Pavadzīmes datuma pārbaude rēķinos Itālijai](/dynamics365/operations/financials/localizations/emea-ita-packing-slip-date-verification-on-invoice)
 -   [Itālijas PVN grāmatas](/dynamics365/operations/financials/localizations/emea-ita-fiscal-books)
 -   [Sadalīt maksājumus valsts administrācijai izsniegtiem rēķiniem](/dynamics365/operations/financials/localizations/emea-ita-split-payment-invoices-issued-public-administration)
+-   [Ieturētais nodoklis](/dynamics365/operations/financials/localizations/emea-ita-withholding tax)
 
 ### <a name="japan"></a>Japāna
 
@@ -240,6 +261,9 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 -   [Dublēt pārdošanas rēķinu numerāciju](/dynamics365/operations/financials/localizations/emea-pol-sales-invoice-duplicates-numbering)
 -   [Pamatlīdzekļu nolietojums](/dynamics365/operations/financials/localizations/emea-pol-fixed-assets-depreciation)
 -   [Pamatlīdzekļu norakstīšana](/dynamics365/operations/financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension)
+-   [Atgriežams iepakojums](/dynamics365/operations/financials/localizations/emea-pol-returnable-packages)
+-   [PVN pārskati](/dynamics365/operations/financials/localizations/emea-pol-sales-tax-reports)
+-   [Standarta audita faili (SAF)](/dynamics365/operations/financials/localizations/emea-pol-standard-audit-file-saf)
 -   [Apgrozījuma un bilances pārskats](/dynamics365/operations/financials/localizations/emea-pol-turnover-balances-statement)
 
 ### <a name="saudi-arabia"></a>Saūda Arābija
@@ -252,15 +276,16 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 
 ### <a name="spain"></a>Spānija
 
-
--   [Spānijas vekseļu opcijas](/dynamics365/operations/financials/localizations/emea-esp-spanish-bill-of-exchange-options)
+-   [Spānijas vekseļu opcijas](/dynamics365/operations/financials/localizations/emea-esp-bill-of-exchange-options)
 -   [Termiņatlaide attiecas uz rēķina parametru](/dynamics365/operations/financials/localizations/emea-esp-cash-discount-applied-invoice)
--   [Lietot fiskālos datus no rēķina konta](/dynamics365/operations/financials/localizations/emea-esp-fiscal-data-invoice-account)
+-   [Nosacījuma PVN](/dynamics365/operations/financials/localizations/emea-esp-conditional-sales-tax)
 -   [Pamatlīdzekļu pārvērtēšanas grupas](/dynamics365/operations/financials/localizations/emea-esp-fixed-asset-group-revaluation)
+-   [EK iekšējais PVN](/dynamics365/operations/financials/localizations/emea-esp-intra-community-vat)
 -   [Vienreizēji debitori](/dynamics365/operations/financials/localizations/emea-esp-no-one-time-customer-for-project-contracts)
 -   [Spānijas parādzīmju opcijas](/dynamics365/operations/financials/localizations/emea-esp-promissory-note-options)
 -   [Pārdošanas un pirkšanas cikli](/dynamics365/operations/financials/localizations/emea-esp-sales-purchase-cycle)
 -   [Īpašie ieraksti un sākuma lapas](/dynamics365/operations/financials/localizations/emea-esp-opening-sheets-spain)
+-   [Lietot fiskālos datus no rēķina konta](/dynamics365/operations/financials/localizations/emea-esp-fiscal-data-invoice-account)
 
 ### <a name="sweden"></a>Zviedrija
 
@@ -286,4 +311,7 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 -   [Gada beigu 1099 pārskati](/dynamics365/operations/financials/localizations/noam-usa-year-end-1099-reporting)
 -   [Alga](/dynamics365/operations/human-resources/localizations/noam-usa-payroll)
 -   [Publiskais sektors](/dynamics365/operations/financials/public-sector/public-sector-functionality)
+
+
+
 
