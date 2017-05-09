@@ -1,0 +1,48 @@
+# Power BI satura pakotne
+## [Izmaksu vadības satura pakotne](/dynamics365/operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/operations/supply-chain/toc.json)
+# Iepriekš noteiktas izmaksas
+## [Izmaksu aprēķina lapa](costing-sheets.md)
+## [Izmaksu aprēķināšanas versija](costing-versions.md)
+## [Simulēt izmaksu izmaiņas, izmantojot izmaksu aprēķināšanas versiju plānotām izmaksām](simulate-cost-changes-costing-version-planned-costs.md)
+# Krājuma izmaksu aprēķināšana
+## [Koriģēt rīcībā esošo krājumu izmaksu vērtību](adjust-hand-inventory-cost-values.md)
+## [Izmaksu objekts](cost-object.md)
+## [Izmaksu ieraksts](cost-entries.md)
+## [Izmaksu grupa](cost-groups.md)
+## [FIFO ar fizisko vērtību un iezīmēšanu](fifo-physical-value-marking.md)
+## [Iekļaut fizisko vērtību](include-physical-value.md)
+## [Krājumu objekta vērtība](physical-quantity.md)
+## [Krājumu slēgšana](inventory-close.md)
+## [LIFO datums ar fizisko vērtību un iezīmēšanu](lifo-date-physical-value-marking.md)
+## [LIFO ar fizisko vērtību un iezīmēšanu](lifo-physical-value-marking.md)
+## [Vidējās vērtības pārvietošana](moving-average.md)
+## [Fiziskais un finanšu atjauninājums](physical-financial-updates.md)
+## [Pašreizējā vidējā izmaksu cena](running-average-cost-price.md)
+## [Pašreizējās vidējās izmaksu cenas izsekošana pēc krājumu dimensijas](track-running-average-cost-per-inventory-dimension.md)
+## [Vidējā svērtā uz datumu](weighted-average-date.md)
+## [Vidējā svērtā ar fizisko vērtību un iezīmēšanu](weighted-average-physical-value-marking.md)
+# Ražošanas izmaksu aprēķināšana
+## [Ražotā krājuma konstanto izmaksu amortizācija](amortize-constant-costs-manufactured-item.md)
+## [Atgriezeniska izmaksu aprēķināšana](backflush-costing.md)
+## [MK aprēķini](bom-calculations.md)
+## [MK aprēķinu grupa](bom-calculation-groups.md)
+## [Ražošanas novirzes kopējie avoti](common-sources-of-production-variances.md)
+## [Ražošanas maršrutēšanā izmantotā izmaksu kategorija](cost-categories-used-production-routings.md)
+## [Ražošanas kontroles un projekta pārvaldības uzskaitē izmantotā izmaksu kategorija](cost-categories-used-production-control-project-management-accounting.md)
+## [Saražoto krājumu papildmaksu parādīšana](charges-manufactured-item.md)
+## [Ražošanas pasūtījuma izmaksu analīze](production-order-cost-analysis.md)
+## [Ražošanas pasūtījuma izmaksu novērtējums](production-order-cost-estimation.md)
+## [Ražošanas grāmatošana](production-posting.md)
+## [Iestatīt preci, ko var ražot vai sagādāt](manufactured-items-treated-as-purchased-items.md)
+## [Kopējo izmaksu sadalījuma metode](methodology-total-cost-allocation.md)
+# Standarta izmaksas
+## [MK aprēķini ar standarta izmaksām](information-used-bom-calculations-standard-costs.md)
+## [Pārvaldīt standarta izmaksu atjauninājumu](manage-standard-cost-updates.md)
+## [Standarta izmaksu pārveidošanas priekšnoteikums](prerequisites-standard-cost-conversion.md)
+## [Standarta izmaksu pārveidošanas apskats](standard-cost-conversion-overview.md)
+## [Atjaunināt standarta izmaksas ražošanas vidē](update-standard-costs-manufacturing-environment.md)
+## [Atjaunināt standarta izmaksas jaunam ražotajam krājumam](update-standard-costs-new-manufactured-item.md)
+## [Atjaunināt standarta izmaksas neražošanas vidē](update-standard-costs-non-manufacturing-environment.md)
+
+
+
