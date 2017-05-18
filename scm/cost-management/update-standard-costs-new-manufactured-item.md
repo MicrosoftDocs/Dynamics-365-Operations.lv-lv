@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 84b9f91f49e988244b98aeb7a6a6344548d6a8c0
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: fb9f7b8aa9198b66f196613641de5237fac2ac2c
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ Norādījumi tālāk tiek sniegti, pieņemot, ka standarta izmaksu atjaunināša
 -   Piešķiriet instancei **Standarta izmaksas** izmaksu aprēķināšanas veidu.
 -   Piešķiriet nozīmīgu identifikatoru, kas norāda izmaksu aprēķināšanas versijas komponentus, piemēram, **2016-ATJAUNINĀJUMI**.
 -   Lauka grupā **Atļaut cenu veidus** pārbaudiet, vai ir iestatīta vienuma **Izmaksu cena** opcija **Jā**.
--   Atļaujiet veikt izmaksu ierakstus visām vietām (t.i., atstājiet lauku **Vieta **tukšu). Ja vieta ir ievadīta, izmaksu ierakstus var ievadīt tikai šai vietai.
+-   Atļaujiet veikt izmaksu ierakstus visām vietām (t.i., atstājiet lauku **Vieta**tukšu). Ja vieta ir ievadīta, izmaksu ierakstus var ievadīt tikai šai vietai.
 -   Izmantojiet regresa principu **Aktīvs**.
 
 Lai pievienotu jaunus ražošanas krājumus iesaldētajā periodā, veiciet tālāk norādītās darbības.

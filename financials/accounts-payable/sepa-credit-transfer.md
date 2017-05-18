@@ -3,7 +3,7 @@ title: "SEPA kredīta pārskaitījuma apskats"
 description: "Šajā rakstā ir sniegta vispārīga informācija par ISO 20022 kredīta pārskaitījumiem, kas ietver vienotās eiro maksājumu zonas (SEPA) kredīta pārskaitījumus un citus elektroniskos maksājumus kreditoriem. SEPA kredīta pārskaitījums ir noteikta tipa maksājums (eiro valūtā), ko viens uzņēmums vai privātpersona veic citam uzņēmumam vai privātpersonai. Tēmā ir arī paskaidrots, kā iestatīt un pārsūtīt SEPA kredīta pārskaitījuma maksājuma failu."
 author: twheeloc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 848df5e3898f37284d7746c59bff8b38d35ac883
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: f7adaf2f3a14d2c0e094314f0b36b5d4bdb0a65c
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="sepa-credit-transfer-overview"></a>SEPA kredīta pārskaitījuma apskats
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir sniegta vispārīga informācija par ISO 20022 kredīta pārskaitījumiem, kas ietver vienotās eiro maksājumu zonas (SEPA) kredīta pārskaitījumus un citus elektroniskos maksājumus kreditoriem. SEPA kredīta pārskaitījums ir noteikta tipa maksājums (eiro valūtā), ko viens uzņēmums vai privātpersona veic citam uzņēmumam vai privātpersonai. Tēmā ir arī paskaidrots, kā iestatīt un pārsūtīt SEPA kredīta pārskaitījuma maksājuma failu.
 
@@ -55,7 +59,7 @@ Kredīta pārsūtīšanas maksājuma formāts Eiropas valstīm tiek īstenots, i
 Vienmēr atveriet koplietojamo līdzekļu bibliotēku pakalpojumā Microsoft Dynamics Lifecycle Services (LCS) un skatiet jaunāko sarakstu, kurā ietverti pieejamie faili, kuru pamatlīdzekļa tips ir **GER konfigurācija**. Nākamajā sadaļā “Kas man ir jāiestata?” ir norādīta saite uz tēmu, kurā paskaidrots, kā izveidot LCS repozitoriju, lai pārskatītu pieejamās konfigurācijas un importētu atlasītās konfigurācijas.
 
 ## <a name="what-do-i-have-to-set-up"></a>Kas man ir jāiestata?
--   Lai varētu izveidot kredīta pārskaitījumu failus, jūsu ER konfigurācijās ir nepieciešams importēt vismaz vienu aktīvu kredīta pārskaitījuma konfigurāciju. Norādījumus skatiet sadaļā [Elektronisko atskaišu veidošanas konfigurāciju lejupielāde no Lifecycle Services](https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+-   Lai varētu izveidot kredīta pārskaitījumu failus, jūsu ER konfigurācijās ir nepieciešams importēt vismaz vienu aktīvu kredīta pārskaitījuma konfigurāciju. Norādījumus skatiet sadaļā [Elektronisko atskaišu veidošanas konfigurāciju lejupielāde no Lifecycle Services](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 -   Kad konfigurējat kreditoru maksājuma metodes, atzīmējiet izvēles rūtiņu **Vispārīga elektronisko atskaišu veidošana** un atlasiet atbilstošo kredīta pārskaitījuma formātu (piemēram, **ISO 20022 kredīta pārskaitījums (AT)**) kā eksporta formāta konfigurāciju.
 -   Jums ir arī jāiestata juridiskās personas un bankas konta informācija programmatūrā Dynamics 365 for Operations.
 -   Lai izveidotu derīgus kredīta pārsūtīšanas maksājumus, ir nepieciešami bankas kontu numuri, IBAN un dažreiz SWIFT kodi (BIC) vai citi identifikatori. Tādēļ jums tie ir jāiestata gan kreditora bankas kontam, gan bankas kontam tai organizācijai, kas pieprasa pārskaitījumu.
@@ -73,7 +77,7 @@ Noteiktu parametru saraksts ir atkarīgs no kredīta pārskaitījuma formāta. N
 <thead>
 <tr class="header">
 <th>Lauks</th>
-<th>apraksts</th>
+<th>Apraksts</th>
 </tr>
 </thead>
 <tbody>
@@ -121,5 +125,7 @@ Starptautiskais bankas konta numurs (IBAN) un bankas identifikācijas kods (BIC)
 
 ## <a name="how-do-i-transmit-a-payment-file-to-the-bank"></a>Kā maksājuma failu nosūtīt uz banku?
 Kad ģenerējat maksājumus, tiek ģenerēts maksājuma fails, un jums tiek lūgts no tīmekļa pārlūkprogrammas to saglabāt jebkurā pieejamā vietā. Nākamā darbība ir XML faila sūtīšana uz jūsu banku. Šis process ir atkarīgs no bankas. Izpildiet savas bankas sniegtās instrukcijas, lai failus iesniegtu apstrādei bankā.
+
+
 
 

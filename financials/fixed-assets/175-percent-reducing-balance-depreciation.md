@@ -3,7 +3,7 @@ title: "175 procentu degresīvā nolietojuma aprēķināšanas metode"
 description: "Šajā rakstā ir sniegts pārskats par 175 procentu degresīvās nolietojuma aprēķināšanas metodi."
 author: twheeloc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: 812fbb3cc3159783e9908e537c366ffc7f934092
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: cf428d61f89ea70a83e440c656fbc84d7dbded8d
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="175-percent-reducing-balance-depreciation"></a>175 procentu degresīvā nolietojuma aprēķināšanas metode
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir sniegts pārskats par 175 procentu degresīvās nolietojuma aprēķināšanas metodi.
 
@@ -54,7 +58,7 @@ Ja kā nolietojuma aprēķināšanas gadu atlasāt opciju **Kalendārs**, tad la
 
 ### <a name="fiscal"></a>Finanšu
 
-Ja atlasāt lauka **Nolietojuma aprēķina gads** vērtību **Finanšu**, tad 175% regresīvā nolietojuma bilance tiek aprēķināta, pamatojoties uz finanšu gadu finanšu kalendāram, kas ir norādīts šai grāmatai, vai finanšu kalendāram, kas ir atlasīts lapā **Virsgrāmata**. Finanšu kalendāri tiek iestatīti lapā **Finanšu kalendāri**. Papildinformāciju skatiet rakstā [Finanšu kalendāri, finanšu gadi un periodi.](\financials\budgeting\fiscal-calendars-fiscal-years-periods.md).
+Ja atlasāt lauka **Nolietojuma aprēķina gads** vērtību **Finanšu**, tad 175% regresīvā nolietojuma bilance tiek aprēķināta, pamatojoties uz finanšu gadu finanšu kalendāram, kas ir norādīts šai grāmatai, vai finanšu kalendāram, kas ir atlasīts lapā **Virsgrāmata**. Finanšu kalendāri tiek iestatīti lapā **Finanšu kalendāri**. Papildinformāciju skatiet rakstā [Finanšu kalendāri, finanšu gadi un periodi.](..\budgeting\fiscal-calendars-fiscal-years-periods.md).
 
 Piemēram, finanšu gadam no 1. jūlija līdz 30. jūnijam nolietojuma aprēķins sākas 1. jūlijā. Finanšu gads var būt garāks vai īsāks par 12 mēnešiem. Nolietojums tiek automātiski pielāgots katram periodam, un nākamā finanšu gada garumu nosaka periodu iestatījumi lapā **Finanšu kalendāri**. 
 
@@ -82,5 +86,7 @@ Izmantojot 175% degresīvā nolietojuma aprēķināšanas metodi, 175 procenti t
 
 > [!NOTE] 
 > Kad summa, kas tiek aprēķināta, izmantojot 175% degresīvo nolietojuma aprēķināšanas metodi, kļūst mazāka par summu, kas rastos, lietojot lineāro metodi, atlikušā kalpošanas laika aprēķināšanai parasti notiek konversija uz lineāro metodi.
+
+
 
 

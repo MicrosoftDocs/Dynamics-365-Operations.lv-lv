@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a76ec0cd86bcc810b42ae3cd8efd8a584e6c4da3
-ms.openlocfilehash: 8e09c6b042d557e3b2d608fb5e278169fc3c1d88
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4a5e6164f8aea2d4a6a063966c10f33a5e1f0cdd
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="distribute-and-complete-a-questionnaire"></a>Aptaujas izplatīšana un aizpildīšana
+
+[!include[banner](includes/banner.md)]
+
 
 Šajā tēmā ir skaidrots, kā jūsu izveidotās anketas izplatīt tā, lai tās būtu pieejamas tai personai vai personu grupai, kas anketas aizpildīs. 
 
@@ -53,7 +57,8 @@ Lai anketai piešķirtu anketu grupu, lapā **Anketas** noklikšķiniet uz **Lie
 ## <a name="planned-answer-sessions-in-a-questionnaire"></a>Plānotās atbilžu sesijas anketā
 Plānotās atbilžu sesijas ir anketas, ko esat izstrādājis un kam esat atlasījis respondentus. 
 
-**Piezīme.** Pirms iestatāt plānotās atbilžu sesijas, ir nepieciešams izveidot anketu. 
+> **Piezīme.**
+>   Pirms iestatāt plānotās atbilžu sesijas, ir nepieciešams izveidot anketu. 
 
 Lapā **Plānotā atbilžu sesija** varat izveidot plānoto atbilžu sesiju atsevišķam darbiniekam. Lapas sarakstā tiek rādītas visas plānotās anketas. 
 
@@ -99,7 +104,8 @@ Lai anketu paradītu pieejamu lietotājiem saistītajās plānotajās atbilžu s
 ## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a>Ziņošana respondentiem par viņiem pieejamām anketām
 Kad izplatāt kādu anketu, jums ir jāpaziņo respondentiem, ka viņiem ir pieejamas anketas. 
 
-**Piezīme.** Lai aizpildītu anketu, respondentiem ir jābūt lietotājiem programmatūrā Microsoft Dynamics 365 for Operations.
+> **Piezīme.**
+>   Lai aizpildītu anketu, respondentiem ir jābūt lietotājiem programmatūrā Microsoft Dynamics 365 for Operations.
 
 ### <a name="notifying-respondents-about-a-planned-answer-session"></a>Ziņošana respondentiem par plānoto atbilžu sesiju
 
@@ -109,12 +115,14 @@ Ja izmantojat plānoto atbilžu sesiju, jums persona ir jāinformē tieši, piem
 
 Izmantojiet lapu **Anketu grafiki**, lai sagatavotu un nosūtītu e-pasta ziņojumus visiem anketai piešķirtajiem respondentiem. Ievadiet e-pasta ziņojuma tekstu cilnē **E-pasta ziņojums, ko sūtīt uz darbinieku pašapkalpošanos**. Kad grafiks ir sācies, noklikšķiniet uz **Funkcijas** &gt; **Nosūtīt e-pastu**, lai ģenerētu un respondentiem nosūtītu e-pasta ziņojumu. Pēc tam respondenti var pierakstīties vietnē un aizpildīt anketu. 
 
-**Piezīme.** Lai varētu izmantot e-pasta funkcionalitāti, IT administratoram ir jāievada e-pasta iestatījumi lapā **E-pasta parametri**.
+> **Piezīme.**
+>   Lai varētu izmantot e-pasta funkcionalitāti, IT administratoram ir jāievada e-pasta iestatījumi lapā **E-pasta parametri**.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Plānotas anketas beigšana
 Ieplānoto anketu var pabeigt pēc tam, kad visi respondenti ir aizpildījuši piešķirtās atbilžu sesijas. Kad plānota anketa ir beigusies, tās iestatījumus vairs nevarat kopēt uz jaunu grafiku. 
 
-**Piezīme.** Ja viens vai vairāki respondenti nav aizpildījusi anketu, bet jūs joprojām vēlaties beigt plānošanu, jums vispirms šie respondenti ir jāizdzēš no saraksta lapā **Plānotā atbilžu sesija**. Pēc tam grafiku varat beigt.
+> **Piezīme.**
+>   Ja viens vai vairāki respondenti nav aizpildījusi anketu, bet jūs joprojām vēlaties beigt plānošanu, jums vispirms šie respondenti ir jāizdzēš no saraksta lapā **Plānotā atbilžu sesija**. Pēc tam grafiku varat beigt.
 
 ## <a name="completing-questionnaires"></a>Anketu aizpildīšana
 Kad esat izstrādājis un izplatījis kādu anketu, šo anketu var aizpildīt atlasīti respondenti. Jūs varat aizpildīt jums pieejamās aptaujas anketas no divām vietām:
@@ -132,5 +140,7 @@ Anketas var tikt padarītas pieejamas noteiktiem lietotājiem vai lietotāju gru
 [Anketu lietošana](questionnaires.md)
 
 [Anketu rezultātu skatīšana un novērtēšana](evaluate-questionnaire-results.md)
+
+
 
 

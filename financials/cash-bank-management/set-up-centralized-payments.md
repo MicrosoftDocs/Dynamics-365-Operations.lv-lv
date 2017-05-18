@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 44d51807cd6bb64ae2c4bef58d8a445417ffa3a9
-ms.openlocfilehash: 815282422a6d7b8eef7d0628cf10b715449e1d1d
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 474453e7f33526bc7bebc60ef68f560d489a1841
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -52,7 +53,7 @@ Ja maksājat kreditoram no vienas juridiskās personas un šim kreditoram vēlat
 Izveidojot maksājumu juridiskajā personā, kas rēķinus kārto citās juridiskajās personās, abās juridiskajās jābūt vienādam grāmatošanas metodes ID. Lai pārliecinātos, ka maksājumi tiek izveidoti pareizi, katrai rēķinā norādītajai juridiskajai personai iestatiet grāmatošanas metodi, kas atbilst maksājuma dokumentā norādītās juridiskās personas grāmatošanas metodēm. Pārejiet uz pirmo rēķinā minēto juridisko personu un tad lapā **Kreditoru grāmatošanas metodes** varat izveidot jaunu grāmatošanas metodi vai rediģēt esošu grāmatošanas metodi. Rēķinā norādītās juridiskās personas grāmatošanas metodei izvēlētajām opcijām nav jāatbilst maksājuma dokumentā norādītās juridiskās personas grāmatošanas metodes iestatījumiem.
 
 ## <a name="set-up-methods-of-payment-for-centralized-payments"></a>Maksāšanas metožu iestatīšana centralizētajiem maksājumiem
-Izveidojot maksājumu juridiskajā personā, kas rēķinus kārto citās juridiskajās personās, abās juridiskajās jābūt vienādam maksāšanas metodes ID. Lai pārliecinātos, ka maksājumi tiek izveidoti pareizi, katrai rēķinā norādītajai juridiskajai personai iestatiet maksāšanas metodi, kas atbilst maksājuma dokumentā norādītās juridiskās personas maksāšanas metodēm. Pārejiet uz pirmo rēķinā minēto juridisko personu un tad lapā **Maksāšanas metodes **varat izveidot jaunu maksāšanas metodi vai rediģēt esošu maksāšanas metodi. Rēķinā norādītās juridiskās personas maksāšanas metodei izvēlētajām opcijām nav jāatbilst maksājuma dokumentā norādītās juridiskās personas maksāšanas metodes iestatījumiem.
+Izveidojot maksājumu juridiskajā personā, kas rēķinus kārto citās juridiskajās personās, abās juridiskajās jābūt vienādam maksāšanas metodes ID. Lai pārliecinātos, ka maksājumi tiek izveidoti pareizi, katrai rēķinā norādītajai juridiskajai personai iestatiet maksāšanas metodi, kas atbilst maksājuma dokumentā norādītās juridiskās personas maksāšanas metodēm. Pārejiet uz pirmo rēķinā minēto juridisko personu un tad lapā **Maksāšanas metodes**varat izveidot jaunu maksāšanas metodi vai rediģēt esošu maksāšanas metodi. Rēķinā norādītās juridiskās personas maksāšanas metodei izvēlētajām opcijām nav jāatbilst maksājuma dokumentā norādītās juridiskās personas maksāšanas metodes iestatījumiem.
 
 ## <a name="set-up-default-descriptions"></a>Noklusējuma aprakstu iestatīšana
 Starpuzņēmumu segšanas dokumentiem varat definēt noklusējuma aprakstus. Noklusējuma apraksts starpuzņēmumu apmaksas apstrādes laikā tiek ietverts apmaksas sākuma un beigu darījumos. Lapā **Noklusējuma apraksti** varat izveidot jaunus aprakstus gan **Starpuzņēmumu debitoru nosegšana**, gan **Starpuzņēmumu kreditora nosegšana**, atlasot valodu un pēc tam ievadot tekstu.

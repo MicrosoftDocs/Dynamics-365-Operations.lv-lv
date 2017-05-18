@@ -3,7 +3,7 @@ title: "Kopējo izmaksu sadalījuma metode"
 description: "Šajā rakstā ir sniegtas norādes par to, kā izmantot kopējo izmaksu sadalījumu (TCA). Kopējo izmaksu sadalījums (Total cost allocation — TCA) ir tādu izmaksu aprēķināšanas metode, kas jāsadala starp partijas pasūtījuma galvenās formulas krājumu un formulā noteiktajiem līdzproduktiem."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: c26dcc5a8caa461bce90f931bb5c584f1816526b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a5c5788a3145dd6cabeed097d25a03a243577b8f
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="total-cost-allocation-method"></a>Kopējo izmaksu sadalījuma metode
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir sniegtas norādes par to, kā izmantot kopējo izmaksu sadalījumu (TCA). Kopējo izmaksu sadalījums (Total cost allocation — TCA) ir tādu izmaksu aprēķināšanas metode, kas jāsadala starp partijas pasūtījuma galvenās formulas krājumu un formulā noteiktajiem līdzproduktiem.
 
@@ -36,6 +40,11 @@ Kopējo izmaksu sadalījums (Total cost allocation — TCA) ir tādu izmaksu apr
 Tālāk ir sniegti daži norādījumi par TCA metodes izmantošanu līdzproduktu aprēķinos.
 
 -   Ja tiek iestatīta formulas versijas slīdņa **Kopējo izmaksu sadalījums** opcija **Jā**, līdzproduktiem ir jānorāda izmaksu cena, kas ir lielāka par 0 (nulli). Vērtību formulai, kas nav saistīta ar vietu, var izgūt no tās pašas vietas vai no pirmās vietas aktīvo izmaksu versijas. Šis nosacījums tiek pārbaudīts, apstiprinot formulu.
+
+    -   Jums nav nepieciešams manuāli ievadīt izmaksu sadalījuma procentus līdzproduktiem. Tā vietā sistēma izmaksu sadalījuma procentus izveido automātiski kā līdzproduktu aktīvo izmaksu cenu vidējo vērtību. 
+    -   Jums nav nepieciešams ievadīt standarta izmaksas nestandarta izmaksu krājumiem, kas ir līdzprodukti. Sistēma ir divu veidu izmaksu novērtēšanas versijas: standarta izmaksas un plānotās izmaksas 
+    -   Ja krājums netiek novērtēts pēc standarta izmaksu novērtēšanas metodes, ieteicams izmantot aktīvu izmaksu cenu plānoto izmaksu versijā. Šī cena tiek izmantota izmaksu novērtēšanai, piemēram, MK aprēķinos, ražošanas izmaksu novērtēšanā un regresa cenām krājumu novērtēšanas procesā. 
+
 -   Ja tiek iestatīta formulas versijas slīdņa **Kopējo izmaksu sadalījums** opcija **Jā** un tālāk minētie nosacījumi ir patiesi, izmaksu sadalījuma metode ir **TCA** un izmaksu sadalījuma procentuālā vērtība nemainās.
     -   Tika pievienots līdzprodukts.
     -   Tika izmantota cita līdzproduktu izmaksu sadales metode.
@@ -53,6 +62,8 @@ Lauks **Blakusproduktu izmaksu sadalījums** lapā **Līdzprodukti** ir skaitīt
 -   **Procentuālā vērtība** ─ izmaksu summa tiek aprēķināta kā ražošanā patērēto izejmateriālu kopējo izmaksu procentuālā vērtība. Laukā tiek ievadīta aprēķinos izmantotā procentuālā vērtība.
 -   **Uz vienu sēriju** ─ izmaksu summa tiek aprēķināta kā summa uz vienu ražošanas pasūtījuma standarta partijas lielumu. Šī summa ir atkarīga no ražošanā izmantotā reģistrētā daudzuma. Laukā tiek ievadīta aprēķinos izmantotā summa.
 -   **Uz daudzuma vienības** ─ izmaksu summa tiek aprēķināta kā summa uz vienu reģistrēto ražošanā izmantoto formulas krājuma daudzuma vienību. Laukā tiek ievadīta aprēķinos izmantotā summa.
+
+
 
 
 

@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: dbcf6d2ca3a6009c1631636309ff55cebb0551e6
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: e144b05ec516d297c3cf81081936d306b9cb9026
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -35,7 +36,7 @@ ms.lasthandoff: 03/31/2017
 <a name="setting-up-the-media-base-url-and-defining-media-templates-to-configure-the-format-for-image-urls"></a>Multivides bāzes vietrāža URL iestatīšana un multivides veidņu definēšana, lai konfigurētu attēlu vietrāžu URL formātu
 -------------------------------------------------------------------------------------------------
 
-Attēli, kas parādās Retail Modern POS (MPOS), jāizvieto ārēji, ārpus Microsoft Dynamics 365 for Operations — Retail. Parasti tie ir izvietoti satura vadības sistēmā, satura piegādes tīklā (CDN) vai multivides serverī. Pēc tam MPOS ienes un parāda atbilstošo elementu, piemēram, preču un katalogu, attēlus, piekļūstot mērķa vietrādim URL. Lai ienestu šos ārējos attēlus, MPOS nepieciešams pareizs attēlu vietrāža URL formāts. Nepieciešamo attēlu vietrāžu URL formātu var konfigurēt, iestatot vērtību **Multivides bāzes vietrādis URL **kanāla profilā un izmantojot funkciju **Definēt multivides veidni **katram elementam. Varat arī pārrakstīt elementu apakškopas standarta vietrāža URL formātu, izmantojot funkciju **Rediģēt programmā Excel**. **Svarīga piezīme.** Pašreizējā Dynamics 365 for Operations versijā vietrāža URL formātu vairs nevar iestatīt, izmantojot atribūta **Attēls** XML MPOS elementu atribūtu grupā **Noklusējuma**. Ja jūs esat pazīstami ar Microsoft Dynamics AX 2012 R3 un tagad izmantojat pašreizējo Dynamics 365 for Operations versiju, pārliecinieties, ka attēlu iestatīšanai vienmēr izmantojat jauno funkciju **Definēt multivides veidni**. Neizmantojiet un nemainiet atribūtu **Attēls** elementiem, tostarp precēm, atribūtu grupā **Noklusējuma**. Izmaiņas, ko veicat attēlos tieši atribūtu grupā **Noklusējuma**, netiks atspoguļotas. Šī opcija būs atspējota nākamajos laidienos. Nākamajās procedūrās, kā piemērs, attēli tiek iestatīti elementam Katalogs. Šīs procedūras palīdzēs nodrošināt, ka visiem kataloga attēliem, kas izmanto kopīgo ceļu, netieši iestatīts pareizais attēlu mērķa ceļš. Piemēram, ja ir ārēji iestatīts multivides serveris vai CDN, un vēlaties, lai attēli parādītos MPOS konkrētajam veikalam, funkcija **Definēt multivides veidni** palīdz iestatīt ceļu, kur MPOS var uzmeklēt un iegūt attēlus. **Piezīme:** šajā demonstrācijas datu piemērā multivides serveris ir izvietots mazumtirdzniecības serverī. Tomēr tas var būt arī jebkur ārpus Dynamics 365 for Operations.
+Attēli, kas parādās Retail Modern POS (MPOS), jāizvieto ārēji, ārpus Microsoft Dynamics 365 for Operations — Retail. Parasti tie ir izvietoti satura vadības sistēmā, satura piegādes tīklā (CDN) vai multivides serverī. Pēc tam MPOS ienes un parāda atbilstošo elementu, piemēram, preču un katalogu, attēlus, piekļūstot mērķa vietrādim URL. Lai ienestu šos ārējos attēlus, MPOS nepieciešams pareizs attēlu vietrāža URL formāts. Nepieciešamo attēlu vietrāžu URL formātu var konfigurēt, iestatot vērtību **Multivides bāzes vietrādis URL**kanāla profilā un izmantojot funkciju **Definēt multivides veidni**katram elementam. Varat arī pārrakstīt elementu apakškopas standarta vietrāža URL formātu, izmantojot funkciju **Rediģēt programmā Excel**. **Svarīga piezīme.** Pašreizējā Dynamics 365 for Operations versijā vietrāža URL formātu vairs nevar iestatīt, izmantojot atribūta **Attēls** XML MPOS elementu atribūtu grupā **Noklusējuma**. Ja jūs esat pazīstami ar Microsoft Dynamics AX 2012 R3 un tagad izmantojat pašreizējo Dynamics 365 for Operations versiju, pārliecinieties, ka attēlu iestatīšanai vienmēr izmantojat jauno funkciju **Definēt multivides veidni**. Neizmantojiet un nemainiet atribūtu **Attēls** elementiem, tostarp precēm, atribūtu grupā **Noklusējuma**. Izmaiņas, ko veicat attēlos tieši atribūtu grupā **Noklusējuma**, netiks atspoguļotas. Šī opcija būs atspējota nākamajos laidienos. Nākamajās procedūrās, kā piemērs, attēli tiek iestatīti elementam Katalogs. Šīs procedūras palīdzēs nodrošināt, ka visiem kataloga attēliem, kas izmanto kopīgo ceļu, netieši iestatīts pareizais attēlu mērķa ceļš. Piemēram, ja ir ārēji iestatīts multivides serveris vai CDN, un vēlaties, lai attēli parādītos MPOS konkrētajam veikalam, funkcija **Definēt multivides veidni** palīdz iestatīt ceļu, kur MPOS var uzmeklēt un iegūt attēlus. **Piezīme:** šajā demonstrācijas datu piemērā multivides serveris ir izvietots mazumtirdzniecības serverī. Tomēr tas var būt arī jebkur ārpus Dynamics 365 for Operations.
 
 ### <a name="set-up-the-media-base-url-for-a-channel"></a>Multivides bāzes vietrāža URL iestatīšana kanālam
 
@@ -107,7 +108,7 @@ Visiem elementiem, izņemot Preces, var pārrakstīt dotā elementā krājuma at
 1.  Noklikšķiniet uz **Katalogi** &gt; **Multivide** &gt; **Attēli**, un atlasiet kataloga attēlu, kurš jāatjaunina.
 2.  Noklikšķiniet uz **Pievienot** un ievadiet attēla vietrādi URL, lai pārrakstītu multivides veidnes vietrādi URL.
 3.  Ja vēlaties, lai šis attēls būtu redzams katalogam MPOS, to var iestatīt kā noklusējuma attēlu.
-4.  Noklikšķiniet uz **OK**. Attēla vietrādis URL tiek atjaunināts šim kataloga attēlam, un tiek parādīts priekšskatījums. [![preview3](./media/preview3.png)](./media/preview3.png)
+4.  Noklikšķiniet uz **Labi**. Attēla vietrādis URL tiek atjaunināts šim kataloga attēlam, un tiek parādīts priekšskatījums. [![preview3](./media/preview3.png)](./media/preview3.png)
 5.  Jūs varat arī redzēt visu pārrakstīto attēlu vietrāžu URL attēla priekšskatījumu galerijas lapā **Kataloga attēli**.
 
 **[![preview-4](./media/preview-4.png)](./media/preview-4.png)Piezīme.** Pašlaik galerija nerāda attēlu priekšskatījumus multivides veidnes attēlu vietrāžiem URL. Ja elementos Katalogs, Darbinieks, Debitors un Kategorija lietotājs skaidri norāda vietrādi URL, izmantojot šo lapu, mēs iesakām norādīt, kurš attēls ir noklusējuma attēls, jo mazumtirdzniecības servera klientiem tiek rādīts tikai viens attēls uz Katalogu, Debitoru, Darbinieku un Kategoriju. Ja lietotājs nenorāda noklusējuma attēlu, sistēma nosaka noklusējuma attēlu un nosūta to mazumtirdzniecības pakalpojumu izsaucējam (MPOS vai e-Komercija).
@@ -120,7 +121,7 @@ Lai pārrakstītu kataloga preču attēlu vietrāža URL, jāizmanto lapa **Prie
 2.  Noklikšķiniet uz **Atribūti**.
 3.  Nākamajā lapā atlasiet **Attēls** un tad noklikšķiniet uz **Rediģēt**. Lapa **Priekšskatījums** tiek atvērta kā slīdņa dialoglodziņš.
 4.  Noklikšķiniet uz **Pievienot** un pārrakstiet attēla vietrādi URL ar jaunu vietrādi URL.
-5.  Noklikšķiniet uz **OK**. Jūs tagad redzat jauna attēla priekšskatījumu un varat to iestatīt kā noklusējuma attēlu.
+5.  Noklikšķiniet uz **Labi**. Jūs tagad redzat jauna attēla priekšskatījumu un varat to iestatīt kā noklusējuma attēlu.
 
 **[![cat3](./media/cat3.png)](./media/cat3.png)Piezīme.** Pēc kategorijas attēlu saistīšanas jāpublicē kanāls un jāpalaiž Kanāla darbs, lai palīdzētu nodrošināt, ka izmaiņas tiek publicētas kanāla datu bāzē.
 

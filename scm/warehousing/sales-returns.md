@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3d02a15387231160f5b8a237aa11008b91ef1223
-ms.openlocfilehash: b265a20a271230de5dba6df93900a24aad642885
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: efc932d24e20721c024e8da735ccdbbeca58beb1
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -71,7 +72,7 @@ Atgriešanas pasūtījuma apstrādes process sākas, kad debitors sazinās ar j�
 
 Izveidojot atgriešanas pasūtījumu, tajā ir jāietver tālāk esošajā tabulā norādītā informācija.
 
-| Lauks              | apraksts                                              | Komentāri                                                                                                                                                                                                                                                                                                                                        |
+| Lauks              | Apraksts                                              | Komentāri                                                                                                                                                                                                                                                                                                                                        |
 |--------------------|----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Debitora konts   | Atsauce uz tabulu Aprēķini                       | Ir jānodrošina esošs debitora konts.                                                                                                                                                                                                                                                                                                  |
 | Piegādes adrese   | Adrese, uz kuru tiek atgriezts krājums.                 | Pēc noklusējuma tiek lietota organizācijas adrese. Ja galvenē ir atlasīta noteikta noliktava, piegādes adrese tiek mainīta uz šīs noliktavas piegādes adresi. Šo adresi var mainīt lapā **Atgriezto pasūtījuma informācija**.                                                                                                  |

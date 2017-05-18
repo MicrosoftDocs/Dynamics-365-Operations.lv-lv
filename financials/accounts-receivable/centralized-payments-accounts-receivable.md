@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: 17a6a25d99bcefe88af3ced72c9e62e1f9393d14
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d3fd164ded7feabff716f3d4a71f77aab85418d9
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -69,7 +70,7 @@ Fabrikam saņem maksājumu par 600,00 Fabrikam debitora kontam 4000, uzņēmumam
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam maksājums tiek nosegts ar Fabrikam East rēķinu
 
-**Fabrikam grāmatojums**
+**Fabrikam grāmatošana**
 
 | Konts                         | Summa debetā | Summa kredītā |
 |---------------------------------|--------------|---------------|
@@ -102,7 +103,7 @@ Fabrikam saņem maksājumu par 580,00 Fabrikam debitoram 4000, uzņēmumam North
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam maksājums tiek nosegts ar Fabrikam East rēķinu
 
-**Fabrikam grāmatojums**
+**Fabrikam grāmatošana**
 
 | Konts                         | Summa debetā | Summa kredītā |
 |---------------------------------|--------------|---------------|
@@ -140,7 +141,7 @@ Fabrikam saņem maksājumu par 600,00 EUR Fabrikam debitoram 4000 — uzņēmuma
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam maksājums tiek nosegts ar Fabrikam East rēķinu
 
-**Fabrikam grāmatojums**
+**Fabrikam grāmatošana**
 
 | Konts                         | Summa debetā            | Summa kredītā           |
 |---------------------------------|-------------------------|-------------------------|
@@ -181,7 +182,7 @@ Fabrikam grāmato maksājumu Fabrikam debitoram 4000, Northwind Traders, par nea
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam maksājums tiek nosegts ar Fabrikam East rēķinu
 
-**Fabrikam grāmatojums**
+**Fabrikam grāmatošana**
 
 | Konts                         | Summa debetā            | Summa kredītā           |
 |---------------------------------|-------------------------|-------------------------|
@@ -227,7 +228,7 @@ Fabrikam saņem maksājumu par 75,00 no debitora 4000, uzņēmuma Northwind Trad
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam maksājums ir nosegts ar Fabrikam West rēķinu un Fabrikam East kredīta notu
 
-**Fabrikam grāmatojums**
+**Fabrikam grāmatošana**
 
 | Konts                           | Summa debetā | Summa kredītā |
 |-----------------------------------|--------------|---------------|
@@ -243,7 +244,7 @@ Fabrikam saņem maksājumu par 75,00 no debitora 4000, uzņēmuma Northwind Trad
 | Debitoru parādi (Fabrikam East) | 25,00        |               |
 | Fabrikam (Fabrikam East) kreditora parādi     |              | 25,00         |
 
-**Fabrikam West grāmatojums**
+**Fabrikam West grāmatošana**
 
 | Konts                             | Summa debetā | Summa kredītā |
 |-------------------------------------|--------------|---------------|
@@ -276,7 +277,7 @@ Fabrikam saņem maksājumu par 75,00 no debitora 4000, uzņēmuma Northwind Trad
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam maksājums ir nosegts ar Fabrikam West rēķinu un Fabrikam East kredīta notu
 
-**Fabrikam grāmatojums**
+**Fabrikam grāmatošana**
 
 | Konts                         | Summa debetā | Summa kredītā |
 |---------------------------------|--------------|---------------|
@@ -290,7 +291,7 @@ Fabrikam saņem maksājumu par 75,00 no debitora 4000, uzņēmuma Northwind Trad
 | Debitoru parādi (Fabrikam East)  | 25,00        |               |
 | Maksājuma saņēmējs - Fabrikam West (Fabrikam East) |              | 25,00         |
 
-**Fabrikam West grāmatojums**
+**Fabrikam West grāmatošana**
 
 | Konts                                | Summa debetā | Summa kredītā |
 |----------------------------------------|--------------|---------------|

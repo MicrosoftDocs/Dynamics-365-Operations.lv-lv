@@ -1,9 +1,9 @@
 ---
 title: "Finanšu pārskatu veidošana programmai Dynamics 365 for Operations"
 description: "Finanšu pārskatu veidošana programmai Dynamics 365 for Operations finanšu un biznesa speciālistiem ļauj veidot, uzturēt, izvietot un skatīt finanšu pārskatus. Tā pārvar tradicionālos pārskatu veidošanas ierobežojumus, lai jums palīdzētu efektīvi veidot dažāda veida pārskatus."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-18 15 - 31 - 29
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 519b3d3fb53b20d0014c97bcb1b9b21802a376d6
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: fee79dad870bfbf8852198c7e825cfaa95a8d10b
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="financial-reporting-for-dynamics-365-for-operations"></a>Finanšu pārskatu veidošana programmai Dynamics 365 for Operations
+
+[!include[banner](../includes/banner.md)]
+
 
 Finanšu pārskatu veidošana programmai Dynamics 365 for Operations finanšu un biznesa speciālistiem ļauj veidot, uzturēt, izvietot un skatīt finanšu pārskatus. Tā pārvar tradicionālos pārskatu veidošanas ierobežojumus, lai jums palīdzētu efektīvi veidot dažāda veida pārskatus.
 
@@ -36,15 +40,14 @@ Tālāk aprakstītie finanšu atskaišu veidošanas komponenti ļauj atskaites �
 | Komponents        | Funkcijas                                                                                                                                                                                                                                                                           | Papildinformācija                                                                          |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | Pārskata veidotājs  | Izveidojiet atskaišu veidošanas blokus, kurus var kombinēt, lai definētu un ģenerētu atskaiti. Pārskatu ceļvedis kalpo par veidošanas palīgrīku mazāk pieredzējušiem lietotājiem. Pieredzējuši lietotāji var veidot jaunus atskaišu veidošanas blokus vai modificēt jau esošos veidošanas blokus atbilstoši savām prasībām. |                                                                                                 |
-| Tīmekļa skatītājs       | Skatiet finanšu atskaites tīmekļa pārlūkprogrammā. Tīmekļa skatītājam nav nepieciešams instalēt finanšu atskaišu veidošanas servera komponentus.                                                                                                                                                        | [Tīmekļa skatītājs](financial-reporter-designer-web-client.md)            |
-| Pārskatu grafiki | Plānojiet atsevišķu atskaiti vai atskaišu grupu, lai tās tiktu regulāri ģenerētas.                                                                                                                                                                                          | [Pārskata izveide](/dynamics365/operations/financials/general-ledger/generate-financial-report) |
+| Pārskatu grafiki | Plānojiet atsevišķu atskaiti vai atskaišu grupu, lai tās tiktu regulāri ģenerētas.                                                                                                                                                                                          | [Ģenerēt finanšu pārskatu](generate-financial-report.md) |
 
 ## <a name="features"></a>Līdzekļi
 <table>
 <thead>
 <tr class="header">
 <th>Funkcija</th>
-<th>Apraksts</th>
+<th>apraksts</th>
 </tr>
 </thead>
 <tbody>
@@ -78,13 +81,15 @@ Tālāk aprakstītie finanšu atskaišu veidošanas komponenti ļauj atskaites �
 <li>Pievienot dimensiju filtrus, lai ierobežotu atskaites saturu līdz noteiktai dimensijai vai dimensiju kombinācijai.</li>
 <li>Pievienot atribūtu filtrus, lai ierobežotu atskaites saturu līdz noteiktam atribūtam vai atribūtu kombinācijai.</li>
 </ul>
-Papildinformāciju skatiet sadaļā “Interaktīvie komponenti un navigācijas līdzekļi”, rakstā <a href="https://technet.microsoft.com/en-us/library/dn469079.aspx">Darbvirsmas skatītāja interfeiss</a>.</td>
+</td>
 </tr>
 </tbody>
 </table>
 
 #<a name="see-also"></a>Skatiet arī
+[Ģenerēt finanšu pārskatu](generate-financial-report.md)
 
-[Finanšu pārskata ģenerēšana]((dynamics365\operations\financials\general-ledger\generate-financial-report)
+
+
 
 

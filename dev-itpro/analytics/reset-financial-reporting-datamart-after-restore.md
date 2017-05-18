@@ -1,9 +1,9 @@
 ---
 title: "Finanšu pārskata data mart atiestatīšana pēc datu bāzes atjaunošanas"
 description: "Šajā tēmā ir aprakstīts, kā atiestatīt finanšu pārskatu data mart pēc Microsoft Dynamics 365 for Operations datu bāzes atjaunošanas."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-12-08 16 - 20 - 13
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 3967cbb869fbb23d5d7716f619e4c22b4a273921
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d4ce390c62cbfb1f693410b004aa296c0ed75eb2
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="reset-the-financial-reporting-data-mart-after-restoring-a-database"></a>Finanšu pārskata data mart atiestatīšana pēc datu bāzes atjaunošanas
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā tēmā ir aprakstīts, kā atiestatīt finanšu pārskatu data mart pēc Microsoft Dynamics 365 for Operations datu bāzes atjaunošanas. 
 
@@ -43,7 +47,11 @@ Vispirms eksportējiet pārskatu dizainus no pārskatu veidotāja, veicot tālā
 5.  Ievadiet faila nosaukumu un atlasiet drošu atrašanās vietu, kur vēlaties saglabāt eksportētās pārskatu definīcijas.
 6.  Noklikšķiniet uz **Saglabāt**.
 
-Failu var kopēt vai augšupielādēt drošā atrašanās vietā, lai vēlāk to varētu importēt citā vidē. Informācija par Microsoft Azure krātuves konta lietošanu ir pieejama tēmā [Datu pārsūtīšana, izmantojot komandrindas utilītu AzCopy](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy). **Piezīme.** Microsoft nenodrošina krātuves kontu Dynamics 365 for Operations līguma ietvaros. Jums ir jāiegādājas krātuves konts vai jāizmanto atsevišķa Azure abonementa krātuves konts. **Svarīgi!** Ņemiet vērā D diska darbību Azure virtuālajās mašīnās. Ilgstoši neglabājiet tajā eksportētās veidošanas bloku grupas. Papildinformāciju par pagaidu diskiem skatiet tēmā [Izpratne par pagaidu disku Windows Azure virtuālajās mašīnās](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
+Failu var kopēt vai augšupielādēt drošā atrašanās vietā, lai vēlāk to varētu importēt citā vidē. Informācija par Microsoft Azure krātuves konta lietošanu ir pieejama tēmā [Datu pārsūtīšana, izmantojot komandrindas utilītu AzCopy](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy). 
+> [!NOTE]
+> Microsoft krātuves kontu nenodrošina Dynamics 365 for Operations līguma ietvaros. Jums ir jāiegādājas krātuves konts vai jāizmanto atsevišķa Azure abonementa krātuves konts. 
+> [!WARNING]
+> Ņemiet vērā D diska darbību Azure virtuālajās mašīnās. Ilgstoši neglabājiet tajā eksportētās veidošanas bloku grupas. Papildinformāciju par pagaidu diskiem skatiet tēmā [Izpratne par pagaidu disku Windows Azure virtuālajās mašīnās](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
 
 ## <a name="stop-services"></a>Pakalpojumu apturēšana
 Izmantojiet attālo darbvirsmu, lai izveidotu savienojumu ar visiem vidē ietvertajiem datoriem un apturētu tālāk norādītos Windows pakalpojumus, izmantojot failu services.msc.
@@ -96,7 +104,9 @@ Izmantojiet failu services.msc, lai atkal startētu pakalpojumus, ko iepriekš a
 Importējiet pārskatu dizainus no pārskatu veidotāja, izmantojot eksportēšanas laikā izveidoto failu.
 
 1.  Pārskatu veidotājā pārejiet uz sadaļu **Uzņēmums** &gt; **Veidošanas bloku grupas**.
-2.  Atlasiet eksportējamo veidošanas bloku grupu un noklikšķiniet uz **Eksportēt**. **Piezīme.** Programmatūrā Dynamics 365 for Operations tiek atbalstīta tikai viena veidošanas bloku grupa **Noklusējuma**.
+2.  Atlasiet eksportējamo veidošanas bloku grupu un noklikšķiniet uz **Eksportēt**. 
+    > [!NOTE]
+    > Programmatūrā Dynamics 365 for Operations tiek atbalstīta tikai viena veidošanas bloku grupa — **Noklusējums**.
 3.  Atlasiet veidošanas bloku **Noklusējuma** un noklikšķiniet uz **Importēt**.
 4.  Atlasiet failu, kurā ir ietvertas eksportētās pārskatu definīcijas, un noklikšķiniet uz **Atvērt**.
 5.  Dialoglodziņā Importēt atlasiet importējamās pārskatu definīcijas.
@@ -104,6 +114,8 @@ Importējiet pārskatu dizainus no pārskatu veidotāja, izmantojot eksportēša
     -   Lai importētu atsevišķus pārskatus, rindas, kolonnas, koku struktūras vai dimensiju kopas, atlasiet importējamos pārskatus, rindas, kolonnas, koku struktūras vai dimensiju kopas.
 
 6.  Noklikšķiniet uz **Importēt**.
+
+
 
 
 

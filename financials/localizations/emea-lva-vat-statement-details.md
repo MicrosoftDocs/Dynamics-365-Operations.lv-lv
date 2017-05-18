@@ -17,10 +17,11 @@ ms.search.region: Latvia
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: bec019d218d80ba059d5a1c232072f46b1ae3ee2
-ms.openlocfilehash: 04b5aba27fd4cb8eb0c11f56b06ee787bc55b7cd
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: f91171308e682c00d6f78689aef8c6b6a6c7150d
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---

@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: eab840b2974f4e9e8cf542c146482ba8e4239079
-ms.openlocfilehash: acf7bacf6e95725024ff0a542a059349593d01a0
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 51f45ce0953f31e0573833ba41d9e0b5ac43bfbb
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -64,13 +65,13 @@ Vispirms ir jādefinē bankas izraksta formāta apstrādes grupa ISO20022 bankas
 1.  Dodieties uz **Darbvietas** &gt; **Datu pārvaldība**.
 2.  Noklikšķiniet uz **Importēt**.
 3.  Ievadiet formāta nosaukumu, piemēram, **ISO20022**.
-4.  Laukam **Avota datu formāts **iestatiet vērtību **XML elements**.
+4.  Laukam **Avota datu formāts**iestatiet vērtību **XML elements**.
 5.  Laukam **Elementa nosaukums** iestatiet vērtību **Bankas izraksti**.
 6.  Lai augšupielādētu importa failus, noklikšķiniet uz **Augšupielādēt** un pēc tam pārlūkojiet, lai atlasītu iepriekš saglabāto failu **SampleBankCompositeEntity.xml**.
 7.  Kad bankas izrakstu elements ir augšupielādēts un kartēšana ir pabeigta, noklikšķiniet uz darbības **Skatīt karti** šim elementam.
 8.  Bankas izrakstu elements ir saliktais elements, kas sastāv no četriem atsevišķiem elementiem. Sarakstā atlasiet vienumu **BankStatementDocumentEntity** un pēc tam noklikšķiniet uz darbības **Skatīt karti**.
 9.  Cilnē **Transformācijas** noklikšķiniet uz **Jauns**.
-10. Kārtas numuram 1 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu** ISO20022XML-to-Reconciliation.xslt**. **Piezīme.** Dynamics 365 for Operations transformāciju faili ir veidoti standarta formātam. Tā kā bankas bieži vien novirzās no šī formāta, jums var būt jāatjaunina transformācijas fails, lai kartētu uz savu bankas izraksta formātu. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
+10. Kārtas numuram 1 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu**ISO20022XML-to-Reconciliation.xslt**. **Piezīme.** Dynamics 365 for Operations transformāciju faili ir veidoti standarta formātam. Tā kā bankas bieži vien novirzās no šī formāta, jums var būt jāatjaunina transformācijas fails, lai kartētu uz savu bankas izraksta formātu. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
 11. Noklikšķiniet uz **Jauns**.
 12. Kārtas numuram 2 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **BankReconciliation-to-Composite.xslt**.
 13. Noklikšķiniet uz **Lietot transformācijas**.
@@ -88,8 +89,8 @@ Visbeidzot ir jāiespējo detalizētā bankas darbību saskaņošana un jāiesta
 
 1.  Dodieties uz **Skaidras naudas un bankas vadība** &gt; **Banku konti**.
 2.  Atlasiet bankas kontu un atveriet to, lai skatītu detalizētu informāciju.
-3.  Cilnē **Saskaņošana** opciju **Detalizētā bankas darbību saskaņošana **iestatiet uz **Jā**.
-4.  Lauku **Izraksta formāts **iestatiet uz iepriekš izveidoto formātu, piemēram, **ISO20022**.
+3.  Cilnē **Saskaņošana** opciju **Detalizētā bankas darbību saskaņošana**iestatiet uz **Jā**.
+4.  Lauku **Izraksta formāts**iestatiet uz iepriekš izveidoto formātu, piemēram, **ISO20022**.
 
 ## <a name="set-up-the-import-of-mt940-bank-statements"></a>Iestatīt MT940 bankas izrakstu importu
 Vispirms ir jādefinē bankas izraksta formāta apstrādes grupa MT940 bankas izrakstiem, izmantojot datu elementa struktūru.
@@ -104,7 +105,7 @@ Vispirms ir jādefinē bankas izraksta formāta apstrādes grupa MT940 bankas iz
 8.  Bankas izrakstu elements ir saliktais elements, kas sastāv no četriem atsevišķiem elementiem. Sarakstā atlasiet vienumu **BankStatementDocumentEntity** un pēc tam noklikšķiniet uz darbības **Skatīt karti**.
 9.  Cilnē **Transformācijas** noklikšķiniet uz **Jauns**.
 10. Kārtas numuram 1 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **MT940TXT-to-MT940XML.xslt**.
-11. Klikšķiniet **Jauns**.
+11. Noklikšķiniet uz **Jauns**.
 12. Kārtas numuram 2 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **MT940XML-to-Reconciliation.xslt**. **Piezīme.** Dynamics 365 for Operations transformāciju faili ir veidoti standarta formātam. Tā kā bankas bieži vien novirzās no šī formāta, jums var būt jāatjaunina transformācijas fails, lai kartētu uz savu bankas izraksta formātu. <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
 13. Noklikšķiniet uz **Jauns**.
 14. Kārtas numuram 3 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **BankReconciliation-to-Composite.xslt**.
@@ -140,7 +141,7 @@ Vispirms ir jādefinē bankas izraksta formāta apstrādes grupa BAI2 bankas izr
 8.  Bankas izrakstu elements ir saliktais elements, kas sastāv no četriem atsevišķiem elementiem. Sarakstā atlasiet vienumu **BankStatementDocumentEntity** un pēc tam noklikšķiniet uz darbības **Skatīt karti**.
 9.  Cilnē **Transformācijas** noklikšķiniet uz **Jauns**.
 10. Kārtas numuram 1 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **BAI2CSV-to-BAI2XML.xslt**.
-11. Klikšķiniet **Jauns**.
+11. Noklikšķiniet uz **Jauns**.
 12. Kārtas numuram 2 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **BAI2XML-to-Reconciliation.xslt**. **Piezīme.** Dynamics 365 for Operations transformāciju faili ir veidoti standarta formātam. Tā kā bankas bieži vien novirzās no šī formāta, jums var būt jāatjaunina transformācijas fails, lai kartētu uz savu bankas izraksta formātu. <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
 13. Noklikšķiniet uz **Jauns**.
 14. Kārtas numuram 3 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **BankReconciliation-to-Composite.xslt**.
@@ -172,8 +173,8 @@ Visbeidzot ir jāpārbauda, vai varat importēt savu bankas izrakstu.
 4.  Lapā **Bankas izraksts** noklikšķiniet uz **Importēt izrakstu**.
 5.  Laukam **Bankas konts** iestatiet atlasīto bankas kontu. Lauks **Pārskata formāts** tiks iestatīts automātiski, pamatojoties uz bankas konta iestatījumiem.
 6.  Noklikšķiniet uz **Pārlūkot** un atlasiet savu elektroniskā bankas izraksta failu.
-7.  Klikšķiniet **Augšupielādēt**.
-8.  Noklikšķiniet uz **OK**.
+7.  Noklikšķiniet uz **Augšupielādēt**.
+8.  Noklikšķiniet uz **Labi**.
 
 Ja importēšana notika sekmīgi, jūs saņemat ziņojumu, ka jūsu izraksts tika importēts. Ja importēšana nebija sekmīga, darbvietas **Datu pārvaldība** sadaļā **Darbu vēsture** atrodiet šo darbu. Noklikšķiniet uz **Detalizēta informācija par izpildi** šim darbam, lai atvērtu lapu **Izpildes kopsavilkums**, un pēc tam noklikšķiniet uz **Skatīt izpildes žurnālu**, lai skatītu importēšanas kļūdas.
 

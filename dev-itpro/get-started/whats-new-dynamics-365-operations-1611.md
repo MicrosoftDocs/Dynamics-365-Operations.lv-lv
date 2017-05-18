@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 82d03b6bc190fb612dd2cc7a25dc11875212f1ea
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fbca041e0663fad4437207146bcfff8f93f4a7fc
+ms.openlocfilehash: 67faa02d445cc4c6e78fe5471605d8c0a2da21de
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/27/2017
 
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Jaunumi un izmaiņas versijā Dynamics 365 for Operations version 1611 (2016. gada novembris)
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā tēmā ir aprakstītas funkcijas, kas Dynamics 365 for Operations programmas versijā 1611 ir jaunas vai ir mainītas.
 
@@ -514,6 +518,11 @@ ms.lasthandoff: 03/31/2017
 <li>ESR bankas izraksta importa formāts Šveicei</li>
 </ul></td>
 </tr>
+<tr class="even">
+<td>Vācija — Eksportēt kreditora maksājumus DTAZV formātā</td>
+<td>Vācijā ir nepieciešams DTAZV ar ārzemju formāta specifikāciju, kas apzīmē kredīta pārskaitījuma (kreditora maksājuma) ziņojumu saskaņā ar specifikāciju par pārrobežu maksājumiem no Vācijas uz kontu ārvalstu bankā vai uz iekšzemes banku ārvalstu valūtā. 
+</td>
+</tr>
 </tbody>
 </table>
 
@@ -555,8 +564,8 @@ ms.lasthandoff: 03/31/2017
 </ul></td>
 </tr>
 <tr class="even">
-<td>Pārraudzīt un apstrādāt jūsu apmaksas perioda procesu iespējams, izmantojot jauno darbvietu <strong>Algu pārvaldība </strong>.</td>
-<td>Tagad jūs viegli varat pārraudzīt jūsu algu apstrādi. Acumirklī algu administratori var redzēt ienākumu un algu pārskatus, kuriem jāpievērš uzmanība, lai apmaksas būtu pilnīgas un precīzas. Darbvieta <strong>Algu pārvaldība </strong>ļauj lietotājiem pārraudzīt un palaist procesus no sākuma līdz beigām no vienas darbvietas.</td>
+<td>Pārraudzīt un apstrādāt jūsu apmaksas perioda procesu iespējams, izmantojot jauno darbvietu <strong>Algu pārvaldība</strong>.</td>
+<td>Tagad jūs viegli varat pārraudzīt jūsu algu apstrādi. Acumirklī algu administratori var redzēt ienākumu un algu pārskatus, kuriem jāpievērš uzmanība, lai apmaksas būtu pilnīgas un precīzas. Darbvieta <strong>Algu pārvaldība</strong> ļauj lietotājiem pārraudzīt un palaist procesus no sākuma līdz beigām no vienas darbvietas.</td>
 </tr>
 <tr class="odd">
 <td>Ģenerēt pozitīvā maksājuma failus algas čekiem.</td>
@@ -675,7 +684,7 @@ Viengabala visaptveroša kanāla komercija attiecas uz pārvaldību un pasūtīj
 
 ### <a name="store-system-providing-a-seamless-on-premises-store-experience"></a>Veikala sistēma: viengabala lokāla veikala pieredzes sniegšana
 
-Veikala sistēma ir izvietošanas izvēle mazumtirgotājiem, kas palīdz vadīt veikala darbību kopumu lokālā veikalā, Microsoft publiskajā mākonī vai klienta privātajā mākonī. Microsoft Dynamics AX programmas versijai 7.1 sfēra ir tikai "veikalā". Lai labāk atbalstītu vides, kurām ir lēna un nedroša tīkla savienojamība, nepieciešams mazumtirgotājiem sniegt iespēju veikalā izvietot kanāla datu bāzi un Mazumtirdzniecības serveri. Pēc tam tie var turpināt darboties savos pamata uzņēmējdarbības scenārijos, pat ja nav savienojamības ar galveno pārvaldi (HQ). Pamatojoties uz dažādiem datu punktiem, kas satur tehniskās grupas diskusijas, klientu aptauju rezultātus un konkurentu analīzi, mēs esam noteikuši šādu risinājumu tvērumu kā ideāli piemērotu mūsu mērķa klientiem:
+Veikala sistēma ir izvietošanas izvēle mazumtirgotājiem, kas palīdz vadīt veikala darbību kopumu lokālā veikalā, Microsoft publiskajā mākonī vai klienta privātajā mākonī. Šim laidienam tvērums ir tikai veikala ietvaros. Lai labāk atbalstītu vides, kurām ir lēna un nedroša tīkla savienojamība, nepieciešams mazumtirgotājiem sniegt iespēju veikalā izvietot kanāla datu bāzi un Mazumtirdzniecības serveri. Pēc tam tie var turpināt darboties savos pamata uzņēmējdarbības scenārijos, pat ja nav savienojamības ar galveno pārvaldi (HQ). Pamatojoties uz dažādiem datu punktiem, kas satur tehniskās grupas diskusijas, klientu aptauju rezultātus un konkurentu analīzi, mēs esam noteikuši šādu risinājumu tvērumu kā ideāli piemērotu mūsu mērķa klientiem:
 
 -   Pašapkalpošanās pakete ir pieejama Veikala sistēmai.
 -   Noklusējuma instalācija ir viena lodziņa izvietošana, taču ir pieļaujama pielāgota izvietošana.
@@ -718,7 +727,7 @@ Pašlaik Retail Modern POS ir pieejams tikai kā operētājsistēmas Windows 8.1
 | Kā kreditors, iegūstiet informāciju par nosūtīto krājumu, kas tiek pārsūtīts debitoram.                                                                      | Lai izrakstītu rēķinu debitoram, kreditoram ir nepieciešama informācija par izejmateriāliem, kas tika iegādāti no sūtījuma krājuma, un iegādes datums. Kreditors var arī pārraudzīt paredzamos rīcībā esošos krājumus debitora atrašanās vietā, izmantojot kreditoru sadarbības interfeisu.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | Pārvietot kreditora īpašumā esošos krājumus, izmantojot pārsūtīšanas žurnālu.                                                                                                                       | Lai izsekotu kreditora īpašumā esošo krājumu fizisko stāvokli, jums ir jābūt iespējai ierakstīt sistēmas pozīciju. Izmantojot pārsūtīšanas žurnālu, ir iespējams reģistrēt krājumu fizisko kustību, piemēram, pārvietošanos no vienas vietas noliktavā uz citu vietu šajā noliktavā.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Koriģēt kreditora īpašumā esošos krājumus, izmantojot uzskaites žurnālu.                                                                                                                     | Ir svarīgi saglabāt rīcībā esošo krājumu sistēmu sinhronizētu ar faktisko fizisko krājumu. Kreditora īpašumā esošos krājumus var koriģēt, izmantojot uzskaites procesus, piemēram, daudzuma korekcija un uzskaites žurnāla procesi.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Uzziniet vairāk par sūtījuma atbalstu sistēmā Dynamics 365 for Operations                                                                                                         | Papildinformāciju par sūtījuma apstrādes procesu atbalstu skatiet tēmās [Sūtījums](/dynamics365/operations/scm/inventory/consignment), [Sūtījuma iestatīšana](/dynamics365/operations/scm/inventory/set-up-consignment), [Sūtījuma papildināšanas pasūtījuma izveide (uzdevuma ceļvedis)](http://ax.help.dynamics.com/en/wiki/create-a-consignment-replenishment-order/) un [Sūtījumu krājumu īpašumtiesību maiņa, pamatojoties uz ražošanas pieprasījumu (Uzdevuma ceļvedis)](http://ax.help.dynamics.com/en/wiki/change-the-ownership-of-consignment-inventory-based-on-production-demand/).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Uzziniet vairāk par sūtījuma atbalstu sistēmā Dynamics 365 for Operations                                                                                                         | Papildinformāciju par sūtījuma apstrādes procesu atbalstu skatiet tēmās [Sūtījums](/dynamics365/operations/supply-chain/inventory/consignment), [Sūtījuma iestatīšana](/dynamics365/operations/supply-chain/inventory/set-up-consignment), [Sūtījuma papildināšanas pasūtījuma izveide (uzdevuma ceļvedis)](http://ax.help.dynamics.com/en/wiki/create-a-consignment-replenishment-order/) un [Sūtījumu krājumu īpašumtiesību maiņa, pamatojoties uz ražošanas pieprasījumu (Uzdevuma ceļvedis)](http://ax.help.dynamics.com/en/wiki/change-the-ownership-of-consignment-inventory-based-on-production-demand/).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 
 ### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>Kreditora sadarbība (iepriekš zināma kā Kreditoru portāls)
 
@@ -728,7 +737,7 @@ Pašlaik Retail Modern POS ir pieejams tikai kā operētājsistēmas Windows 8.1
 | Sniegt kreditoriem iespēju pārvaldīt informāciju par kontaktpersonu.                                 | Kreditori var uzturēt sava uzņēmuma kontaktpersonas informāciju. Šī informācija ietver vārdus, e-pasta adreses un tālruņu numurus. Piekļuve šai funkcijai tiek nodrošināta ar īpašu drošības lomu.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | Koplietojiet dokumentus, kas ir saistīti ar kreditoru pirkšanas pasūtījumiem.                    | Kad nepieciešams koplietot dokumentu ar kreditoru, piemēram dokumentu par prasībām, ir ērti saistīt dokumentu ar atbilstošo pirkšanas pasūtījumu. Kreditors var koplietot piezīmes un pielikumus ar klientu, saistot dokumentu ar viņa vai viņas atbildi uz pirkšanas pasūtījumu. Dokumentu pārvaldība ir pakārtota atbalsta struktūra, un tikai piezīmes un pielikumi, kas tiek klasificēti kā "ārēji" var tikt koplietot ar kreditoriem.                                                                                                                                                                                                                                                                                                                              |
 | Jaunu kreditora lietotāju nodrošināšana.                                                          | Ja jūsu kreditori izmanto kreditoru sadarbības interfeisu, viņiem ir ērts veids, kā pieprasīt jaunus lietotāju kontus, kad jaunām kontaktpersonām nepieciešama piekļuve kreditoru sadarbības interfeisam. Sagādes profesionāļi var iesniegt pieprasījumu lietotāja kontam kontaktpersonai kreditora organizācijā. Kreditora kontaktpersona, kura jau ir kreditoru sadarbības lietotājs, var arī iesniegt šo pieprasījuma veidu. Šis pieprasījums galu galā izveido jaunu lietotāju sistēmā Dynamics 365 for Operations, ar kreditoram noteiktām drošības lomām. Tas atvieglo arī pieprasījumu portālam Microsoft Azure B2B, sniegt lietotājam jaunu Azure Active Directory (Azure AD) lietotāja kontu. Kreditori var pieprasīt arī deaktivizēt noteiktus kreditoru interfeisa lietotāju kontus, vai mainīt to drošības lomas. |
-| Uzziniet vairāk par kreditoru sadarbību sistēmā Dynamics 365 for Operations. | Plašāku informāciju par kreditoru sadarbību skatiet [Kreditoru sadarbība ar ārējiem kreditoriem](/dynamics365/operations/scm/procurement/vendor-collaboration-work-external-vendors), [Kreditoru sadarbība ar debitoriem](/dynamics365/operations/scm/procurement/vendor-collaboration-work-customers-dynamics-365-operations), [Pārvaldīt kreditoru sadarbības lietotājus](/dynamics365/operations/scm/procurement/manage-vendor-collaboration-users), [Iestatīt un uzturēt kreditoru sadarbību](/dynamics365/operations/scm/procurement/set-up-maintain-vendor-collaboration), un [Kreditora sadarbības rēķinu izveides darbvieta](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace).                                                         |
+| Uzziniet vairāk par kreditoru sadarbību sistēmā Dynamics 365 for Operations. | Plašāku informāciju par kreditoru sadarbību skatiet [Kreditoru sadarbība ar ārējiem kreditoriem](/dynamics365/operations/supply-chain/procurement/vendor-collaboration-work-external-vendors), [Kreditoru sadarbība ar debitoriem](/dynamics365/operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations), [Pārvaldīt kreditoru sadarbības lietotājus](/dynamics365/operations/supply-chain/procurement/manage-vendor-collaboration-users), [Iestatīt un uzturēt kreditoru sadarbību](/dynamics365/operations/supply-chain/procurement/set-up-maintain-vendor-collaboration), un [Kreditora sadarbības rēķinu izveides darbvieta](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace).                                                         |
 
 ### <a name="intercompany-order-processing"></a>Starpuzņēmuma pasūtījumu apstrāde
 
@@ -846,5 +855,7 @@ Pašlaik Retail Modern POS ir pieejams tikai kā operētājsistēmas Windows 8.1
 --------
 
 [Jaunumi un izmaiņas](whats-new-changed.md)
+
+
 
 

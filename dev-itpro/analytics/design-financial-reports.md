@@ -1,7 +1,7 @@
 ---
 title: "Skatīt un izveidot finanšu pārskatus"
-description: "Šajā rakstā ir sniegti vingrinājumi, kas jums izskaidros finanšu pārskatu skatīšanu un veidošanu programmatūrā Microsoft Dynamics 365 for Operations. Finanšu pārskatu veidošana sastāv no skatīšanas funkcionalitātes programmatūrā Dynamics 365 for Operations un no viena klikšķa pārskata veidotāja, kas jums ļauj izveidot un rediģēt finanšu pārskatus."
-author: twheeloc
+description: "Šajā rakstā ir sniegti vingrinājumi, kas jums izskaidros finanšu pārskatu skatīšanu un veidošanu programmatūrā Microsoft Dynamics 365 for Operations."
+author: jcart1106
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: shylaw
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 3319fa0a919ca5e2737319f5cdc4190cf32d59b6
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6f785ac8b9a8be503bf9122f21716f745b17115b
+ms.openlocfilehash: 635e9e90c63330b3d8b0cc46f16a36fa44ef915d
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/27/2017
 
 
 ---
@@ -182,8 +183,8 @@ ms.lasthandoff: 03/31/2017
 18. **Saglabājiet** veiktās izmaiņas un **ģenerējiet** pārskatu. Kad pārskata ģenerēšana tiek pabeigta un tas tiek atvērts, varat to pārskatīt.
 
 ## <a name="additional-resources"></a>Papildu resursi
-[Finanšu pārskati](\financials\general-ledger\financial-reporting-getting-started.md) 
-[Skatīt finanšu pārskatus](\financials\general-ledger\view-financial-reports.md) 
+[Finanšu pārskati](/dynamics365/operations/financials/general-ledger/financial-reporting-getting-started) 
+[Skatīt finanšu pārskatus](/dynamics365/operations/financials/general-ledger/view-financial-reports) 
 [Emuārs Dynamics finanšu pārskatus sastādīšana](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 

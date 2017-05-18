@@ -3,7 +3,7 @@ title: "Noliktavas konfigurācija"
 description: "Šajā rakstā ir paskaidrots, kā konfigurēt noliktavu. Tajā ir ietverta informācija par to, kā iespējot noliktavas izkārtojumu un noliktavas procesus."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-10-30 12 - 52 - 43
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 437f2348603db432df6d7589e4043d8145c52a1e
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e312f953d6a29d26b98794ed213d6ec70f6aa4b7
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="warehouse-configuration"></a>Noliktavas konfigurācija
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir paskaidrots, kā konfigurēt noliktavu. Tajā ir ietverta informācija par to, kā iespējot noliktavas izkārtojumu un noliktavas procesus.
 
@@ -75,7 +79,12 @@ Kā daļa no noliktavas konfigurēšanas ir svarīgi noliktavas procesus iespēj
 
 Kopumu veidnes jums palīdz iespējot izejošo procesu “Pārvietot uz noliktavu”. Tiklīdz pasūtījuma rindas tiek izlaistas (vai nu tieši no pirmdokumentiem, izmantojot pakešuzdevumu procesus vai noslodzes, kas jau ir izveidotas), tiek izmantota kopumu veidnes funkcionalitāte. 
 
-Varat izveidot trīs tipu kopumu veidnes: **Nosūtīšana**, **Ražošanas pasūtījums** un **Kanban**. Parametri tiek izmantoti, lai noteiktu, cik tālu sistēmai ir automātiski jāiet, apstrādājot izejošo darbu. Kopuma veidne tiek atlasīta, balstoties uz kopuma veidnes secību un kritērijiem, kas ir noteikti šajā veidnē. Ja veidne ir uzskaitīta secības augšpusē, kritēriji šajā veidnē tiek pārbaudīti vispirms. Ja kritēriji ir izpildīti, šī kopuma veidne tiek apstrādāta. Pretējā gadījumā tiek pārbaudīti kritēriji nākamajā veidnē, un tā tālāk. Tādēļ veidni, kurā ir visspecifiskākie kritēriji, ieteicams novietot kopumu veidņu secības saraksta augšpusē, lai tā tiktu apstrādāta vispirms. Piemēram, jūs šodien vēlaties apstrādāt visu darbu attiecībā uz kādu noteiktu pārvadātāju un īslaicīgi aizkavēt darba apstrādi citiem pārvadātājiem. Tādā gadījumā kopumu veidnei, kas atlasa darbu šim pārvadātājam, secībā ir jāatrodas augstāk par citām veidnēm. Pretējā gadījumā var tikt apstrādāts darbs citiem pārvadātājiem, pirms ir pabeigts darbs šim pārvadātājam. 
+Varat izveidot trīs tālāk norādīto tipu kopuma veidnes. 
+-   **Nosūtīšana**
+-   **Ražošanas pasūtījums**
+-   **Kanban** 
+
+Parametri tiek izmantoti, lai noteiktu, cik tālu sistēmai ir automātiski jāiet, apstrādājot izejošo darbu. Kopuma veidne tiek atlasīta, balstoties uz kopuma veidnes secību un kritērijiem, kas ir noteikti šajā veidnē. Ja veidne ir uzskaitīta secības augšpusē, kritēriji šajā veidnē tiek pārbaudīti vispirms. Ja kritēriji ir izpildīti, šī kopuma veidne tiek apstrādāta. Pretējā gadījumā tiek pārbaudīti kritēriji nākamajā veidnē, un tā tālāk. Tādēļ veidni, kurā ir visspecifiskākie kritēriji, ieteicams novietot kopumu veidņu secības saraksta augšpusē, lai tā tiktu apstrādāta vispirms. Piemēram, jūs šodien vēlaties apstrādāt visu darbu attiecībā uz kādu noteiktu pārvadātāju un īslaicīgi aizkavēt darba apstrādi citiem pārvadātājiem. Tādā gadījumā kopumu veidnei, kas atlasa darbu šim pārvadātājam, secībā ir jāatrodas augstāk par citām veidnēm. Pretējā gadījumā var tikt apstrādāts darbs citiem pārvadātājiem, pirms ir pabeigts darbs šim pārvadātājam. 
 
 Katrā kopumu veidnē jums ir jānorāda kopumu apstrādes metodes. Pieejamās metodes ir atkarīgas no kopumu veidnes tipa.
 
@@ -107,6 +116,8 @@ Lai varētu vieglāk un ātrāk definēt darbības, kas ir saistītas ar katru n
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Konfigurēt novietojumus noliktavā ar iespējotu NPS (uzdevuma ceļvedis)](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehousing/)
+[Konfigurēt novietojumus noliktavā ar iespējotu NPS (uzdevuma ceļvedis)](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehouse/)
+
+
 
 

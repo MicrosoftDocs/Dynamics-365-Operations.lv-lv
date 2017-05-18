@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: f82033798dbe603c0f2e2c92f91d28985c12b3b4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 144a1adbff74aef468dd4b2c9f69bf479a5ec671
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -40,7 +41,7 @@ Uzņēmumos, kuros ir laika un apmeklētības reģistrācija, darbiniekiem ir j�
 -   Darbinieki, kuriem regulāri jāreģistrē laiks un apmeklējums, to darot katru dienu, ik nedēļu vai katru otro nedēļu.
 -   Supervizori, vadītāji un algu daļas darbinieki, kuri aprēķina, apstiprina un pārsūta darbinieka reģistrācijas tālākai apstrādei.
 
-| **Piezīme. **                                                                                                                                                                                                                                                    |
+| **Piezīme.**                                                                                                                                                                                                                                                    |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ja veicat laika un apmeklētības reģistrāciju kopā ar ražošanas izpildi, visas reģistrācijas par projektiem, projektu aktivitātēm, netiešām aktivitātēm, kavējumu kodiem, virsstundām un brīvā režīma laiku tiks veiktas algas aprēķināšanai abos moduļos. |
 
@@ -53,7 +54,7 @@ Pēc iestatīšanas darbinieku datus var ievadīt dažādu veidu reģistrācijā
 -   Laika un krājumu patēriņš ražošanas darbos.
 -   Laiks, kas izmantots, strādājot pie ražotnes iekārtas, ja iekārta ir definēta kā resurss.
 
-| **Piezīme. **                                                                                                                                                                                                                      |
+| **Piezīme.**                                                                                                                                                                                                                      |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Darbiniekam var tik automātiski piešķirta laika reģistrācija, kas veikta par konkrētu darbu pie ražotnes iekārtas, ja darbinieks izvēlas strādāt kā asistents iekārtai, sākot ar ražošanas darbu. |
 
@@ -82,7 +83,7 @@ Tāpat kā piešķīrāt reģistrācijas darbiniekam aprēķina grupu, jums jāp
 -   Manuāli pievienot prēmijas.
 -   Ievadīt papildinformāciju par kavējuma reģistrācijām.
 
-| **Piezīme. **                                                                                                                                                                             |
+| **Piezīme.**                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ja konkrētiem darbiniekiem ir aprēķinātas virsstundas, tās var piešķirt par konkrētiem dienas laika darbiem. Tas jādara, ja darba izmaksas tiek aprēķinātas, pamatojoties uz darbinieka apmaksu. |
 
@@ -102,7 +103,7 @@ Pēc reģistrāciju apstiprināšanas tās var pārsūtīt uz periodisko algas d
 ## <a name="reversing-transferred-registrations"></a>Pārsūtīto reģistrāciju atcelšana
 Atcelto darbību uzdevumu — darbību anulēšanu — var veikt līdz laikam, kad izpildei ir jāpalaiž algas perioda apmaksas pārsūtīšana. Tas nozīmē, ka algu dati ir pārsūtīti uz ārēju failu. Pēc atcelšanas visas reģistrācijas tiek izņemtas un visas darbības, kas grāmatotas konkrētos ražošanas pasūtījumos vai projektos, tiek nobīdītas un neitralizētas.
 
-| **Piezīme. **                                                 |
+| **Piezīme.**                                                 |
 |----------------------------------------------------------|
 | Ārējo failu var importēt uz algu sistēmu. |
 

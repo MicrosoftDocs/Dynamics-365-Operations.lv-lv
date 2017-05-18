@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: ac8d6c064ca826cc1c2fed07578ca9ce0c66ef66
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 335a0d7ca466028e8b157cb4e04df7d0f4880e73
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -158,11 +159,11 @@ Visus pašreizējā ER komponenta (modeļa vai formāta) datu avotus, kas ir pie
 
 #### <a name="path"></a>Ceļš
 
-Ja izteiksme atsaucas uz kādu strukturētu datu avotu, ceļa definīciju varat izmantot, lai atlasītu konkrētu šī datu avota primitīvo elementu. Punkta rakstzīme (.) tiek lietota, lai atdalītu atsevišķus strukturēta datu avota elementus. Piemēram, pašreizējais ER datu modelis ietver datu avotu **InvoiceTransactions**, kurš atgriež ierakstu sarakstu. Ieraksta** InvoiceTransactions** struktūra ietver laukus **AmountDebit** un **AmountCredit**, kuri atgriež skaitliskas vērtības. Tādēļ varat izveidot šādu izteiksmi, lai aprēķinātu rēķinā iekļauto summu: **InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit**
+Ja izteiksme atsaucas uz kādu strukturētu datu avotu, ceļa definīciju varat izmantot, lai atlasītu konkrētu šī datu avota primitīvo elementu. Punkta rakstzīme (.) tiek lietota, lai atdalītu atsevišķus strukturēta datu avota elementus. Piemēram, pašreizējais ER datu modelis ietver datu avotu **InvoiceTransactions**, kurš atgriež ierakstu sarakstu. Ieraksta**InvoiceTransactions** struktūra ietver laukus **AmountDebit** un **AmountCredit**, kuri atgriež skaitliskas vērtības. Tādēļ varat izveidot šādu izteiksmi, lai aprēķinātu rēķinā iekļauto summu: **InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit**
 
 #### <a name="functions"></a>Funkcijas
 
-Nākamajā sadaļā ir aprakstītas funkcijas, kuras var izmantot ER izteiksmēs. Visus izteiksmes konteksta datu avotus (pašreizējo ER datu modeli vai ER formātu), kā arī visas konstantes var izmantot kā parametrus funkciju izsaukšanai saskaņā ar funkciju izsaukšanas argumentu sarakstu. Piemēram, pašreizējais ER datu modelis ietver datu avotu **InvoiceTransactions**, kurš atgriež ierakstu sarakstu. Ieraksta** InvoiceTransactions** struktūra ietver laukus **AmountDebit** un **AmountCredit**, kuri atgriež skaitliskas vērtības. Tāpēc, lai aprēķinātu rēķinā iekļauto sumu, varat izveidot šādu izteiksmi, kas lieto iebūvēto ER noapaļošanas funkciju: **ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)**
+Nākamajā sadaļā ir aprakstītas funkcijas, kuras var izmantot ER izteiksmēs. Visus izteiksmes konteksta datu avotus (pašreizējo ER datu modeli vai ER formātu), kā arī visas konstantes var izmantot kā parametrus funkciju izsaukšanai saskaņā ar funkciju izsaukšanas argumentu sarakstu. Piemēram, pašreizējais ER datu modelis ietver datu avotu **InvoiceTransactions**, kurš atgriež ierakstu sarakstu. Ieraksta**InvoiceTransactions** struktūra ietver laukus **AmountDebit** un **AmountCredit**, kuri atgriež skaitliskas vērtības. Tāpēc, lai aprēķinātu rēķinā iekļauto sumu, varat izveidot šādu izteiksmi, kas lieto iebūvēto ER noapaļošanas funkciju: **ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)**
 
 ## <a name="supported-functions"></a>Atbalstītās funkcijas
 Nākamajās tabulās ir aprakstītas datu manipulācijas funkcijas, kuras var izmantot, lai izveidotu ER datu modeļus un ER atskaites. Šis funkciju saraksts nav fiksēts, un izstrādātāji to var pagarināt. Lai redzētu sarakstu ar funkcijām, kuras varat izmantot, piekļūstiet funkciju rūtij ER formulas veidotājā.
@@ -257,12 +258,12 @@ Nākamajās tabulās ir aprakstītas datu manipulācijas funkcijas, kuras var iz
 <tr class="odd">
 <td>ORDERBY (saraksts [, 1. izteiksme, 2. izteiksme, …])</td>
 <td>Atgriezt norādīto sarakstu, kas ir sakārtots atbilstoši norādītajiem argumentiem, kurus var definēt kā izteiksmes.</td>
-<td>Kad parametrs <strong>Vendor </strong>(Kreditors) ir konfigurēts kā ER datu avots, kurš atsaucas uz tabulu VendTable, tad<strong> ORDERBY (Vendors, Vendors.'name()')</strong> atgriež sarakstu ar kreditoriem, kuri ir sakārtoti augošā secībā pēc nosaukuma.</td>
+<td>Kad parametrs <strong>Vendor</strong>(Kreditors) ir konfigurēts kā ER datu avots, kurš atsaucas uz tabulu VendTable, tad<strong>ORDERBY (Vendors, Vendors.'name()')</strong> atgriež sarakstu ar kreditoriem, kuri ir sakārtoti augošā secībā pēc nosaukuma.</td>
 </tr>
 <tr class="even">
 <td>REVERSE (saraksts)</td>
 <td>Atgriezt norādīto sarakstu apgrieztā kārtošanas secībā.</td>
-<td>Kad parametrs <strong>Vendor </strong>(Kreditors) ir konfigurēts kā ER datu avots, kurš atsaucas uz tabulu VendTable, tad <strong>REVERSE (ORDERBY (Vendors, Vendors.'name()')) )</strong> atgriež sarakstu ar kreditoriem, kuri ir sakārtoti dilstošā secībā pēc nosaukuma.</td>
+<td>Kad parametrs <strong>Vendor</strong>(Kreditors) ir konfigurēts kā ER datu avots, kurš atsaucas uz tabulu VendTable, tad <strong>REVERSE (ORDERBY (Vendors, Vendors.'name()')) )</strong> atgriež sarakstu ar kreditoriem, kuri ir sakārtoti dilstošā secībā pēc nosaukuma.</td>
 </tr>
 <tr class="odd">
 <td>WHERE (saraksts, nosacījums)</td>
@@ -397,7 +398,7 @@ Lauki Etiķete un Apraksts atgriezīsies pie izpildes laika vērtībām, pamatoj
 
 | Funkcija             | Apraksts                                                                                                                                                                                                                                     | Piemērs                                                                                                                                             |
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| NULLCONTAINER (saraksts) | Atgriezt ierakstu **null**, kam ir tāda pati struktūra kā norādītajam ierakstu sarakstam vai ierakstam. **Piezīme. **Šī funkcija ir novecojusi. Tās vietā lietojiet **EMPTYRECORD**.                                                                                  | **NULLCONTAINER (SPLIT ("abc", 1))** atgriež jaunu tukšu ierakstu, kam ir tāda pati struktūra kā sarakstam, ko atgrieza funkcija **SPLIT**. |
+| NULLCONTAINER (saraksts) | Atgriezt ierakstu **null**, kam ir tāda pati struktūra kā norādītajam ierakstu sarakstam vai ierakstam. **Piezīme.**Šī funkcija ir novecojusi. Tās vietā lietojiet **EMPTYRECORD**.                                                                                  | **NULLCONTAINER (SPLIT ("abc", 1))** atgriež jaunu tukšu ierakstu, kam ir tāda pati struktūra kā sarakstam, ko atgrieza funkcija **SPLIT**. |
 | EMPTYRECORD (ieraksts) | Atgriezt ierakstu **null**, kam ir tāda pati struktūra kā norādītajam ierakstu sarakstam vai ierakstam. **Piezīme.** Ieraksts **Null** tiek lietots, ja visu lauku vērtības ir tukšas (**0** \[nulle\] skaitliskas vērtības laikam, tukša vērtība virknes laukam utt.). | **EMPTYRECORD (SPLIT ("abc", 1))** atgriež jaunu tukšu ierakstu, kam ir tāda pati struktūra kā sarakstam, ko atgrieza funkcija **SPLIT**.   |
 
 ### <a name="text-functions"></a>Teksta funkcijas
@@ -527,7 +528,7 @@ Lai uzzinātu papildinformāciju par šo funkciju lietojumu, skatiet uzdevuma ce
 
 SUMIFS (galvenā virkne summēšanai, kritēriju 1. diapazona virkne, kritēriju 1. vērtības virkne \[, kritēriju 2. diapazona virkne, kritēriju 2. vērtības virkne, …\])
 
-Atgriež zaru vērtību summu (ar nosaukumu, kas definēts kā atslēga) no XML, kas ir savākts šī formāta izpildes laikā un apmierina ievadītos nosacījumus (diapazona un vērtības pārus). Atgriež nulles vērtību, ja pašreizējo failu karogs **Apkopot izvades informāciju **ir izslēgts.
+Atgriež zaru vērtību summu (ar nosaukumu, kas definēts kā atslēga) no XML, kas ir savākts šī formāta izpildes laikā un apmierina ievadītos nosacījumus (diapazona un vērtības pārus). Atgriež nulles vērtību, ja pašreizējo failu karogs **Apkopot izvades informāciju**ir izslēgts.
 
 SUMIF (atslēgu virkne summēšanai, kritēriju diapazona virkne, kritēriju vērtību virkne)
 
@@ -543,7 +544,7 @@ Atgriež zaru skaitu no XML, kas ir savākts šī formāta izpildes laikā un ap
 
 COLLECTEDLIST (kritēriju 1. diapazona virkne, kritēriju 1. vērtības virkne \[, kritēriju 2. diapazona virkne, kritēriju 2. vērtības virkne, …\])
 
-Atgriež zaru vērtību sarakstu no XML, kas ir savākts šī formāta izpildes laikā un apmierina ievadītos nosacījumus (diapazonu un vērtību). Atgriež tukšu sarakstu, ja pašreizējo failu karogs **Apkopot izvades informāciju **ir izslēgts.
+Atgriež zaru vērtību sarakstu no XML, kas ir savākts šī formāta izpildes laikā un apmierina ievadītos nosacījumus (diapazonu un vērtību). Atgriež tukšu sarakstu, ja pašreizējo failu karogs **Apkopot izvades informāciju**ir izslēgts.
 
 ### <a name="other-business-domainspecific-functions"></a>Citas (biznesa jomai specifiskas) funkcijas
 
@@ -553,7 +554,7 @@ Atgriež zaru vērtību sarakstu no XML, kas ir savākts šī formāta izpildes 
 | ROUNDAMOUNT (skaitlis, cipari aiz komata, noapaļošanas kārtula)                                       | Norādīto summu noapaļot atbilstoši norādītajai noapaļošanas kārtulai un norādītajam ciparu skaitam aiz komata. **Piezīme.** Noapaļošanas kārtula ir jānorāda kā Dynamics 365 for Operations uzskaitījums **RoundOffType**.                          | Ja ir iestatīta parametra **model.RoundOff** vērtība ****Downward****, funkcija **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** atgriež vērtību **1000.78**. Ja parametrs **model.RoundOff** ir iestatīts uz **Normal** vai uz **Rounding-up**, tad **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** atgriež vērtību **1000.79**. |
 | CURCredRef (cipari)                                                              | Atgriezt kreditora atsauci, pamatojoties uz norādītā rēķina numura cipariem.                                                                                                                                                                                  | **CURCredRef ("VEND-200002")** atgriež **"2200002"**.                                                                                                                                                                                                                                                         |
 | MOD\_97 (cipari)                                                                 | Atgriezt kreditora atsauci kā MOD97 izteiksmi, pamatojoties uz norādītā rēķina numura cipariem.                                                                                                                                                            | **MOD\_97 ("VEND-200002")** atgriež **"20000285"**.                                                                                                                                                                                                                                                           |
-| ISOCredRef (cipari)                                                              | Atgriezt ISO kreditora atsauci, pamatojoties uz norādītā rēķina numura cipariem un burtiem. **Piezīme. **Lai izslēgtu alfabētu simbolus, kas nesader ar ISO, šo ievades parametru ir nepieciešams tulkot, pirms to nodod šai funkcijai. | **ISOCredRef ("VEND-200002")** atgriež **"RF23VEND-200002"**.                                                                                                                                                                                                                                                 |
+| ISOCredRef (cipari)                                                              | Atgriezt ISO kreditora atsauci, pamatojoties uz norādītā rēķina numura cipariem un burtiem. **Piezīme.**Lai izslēgtu alfabētu simbolus, kas nesader ar ISO, šo ievades parametru ir nepieciešams tulkot, pirms to nodod šai funkcijai. | **ISOCredRef ("VEND-200002")** atgriež **"RF23VEND-200002"**.                                                                                                                                                                                                                                                 |
 | CN\_GBT\_AdditionalDimensionID (virkne, skaitlis)                                  | Iegūt papildu finanšu dimensijas ID. Dimensijas šajā virknē tiek attēlotas kā ar komatiem atdalīti ID. Numuri šajā virknē definē pieprasītās dimensijas sērijas kodu.                                                                            | CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3) atgriež “CC”                                                                                                                                                                                                                                      |
 | GetCurrentCompany ()                                                             | Atgriež kodu uzņēmumam, kurā lietotājs ir pieteicies pašlaik.                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                               |
 | CH\_BANK\_MOD\_10 (cipari)                                                       | Atgriež kreditora atsauci kā MOD10 izteiksmi, pamatojoties uz norādīto rēķina numuru.                                                                                                                                                                      | CH\_BANK\_MOD\_10 ("VEND-200002") atgriež 3                                                                                                                                                                                                                                                                   |

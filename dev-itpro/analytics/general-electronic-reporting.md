@@ -18,10 +18,11 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: b3e8174d07c9b9fd4210486c369c640fe07c49eb
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: abe9212372fb7429d68c1fb6b32ec1d15c20a6d7
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -47,7 +48,7 @@ ER programmai ir šādas iespējas:
 ## <a name="concepts"></a>Koncepcijas
 ### <a name="components"></a>Komponenti
 
-ER atbalsta divus komponentu tipus: **Datu modelis **un **Formāts**.
+ER atbalsta divus komponentu tipus: **Datu modelis**un **Formāts**.
 
 #### <a name="data-model-components"></a>Datu modeļa komponenti
 
@@ -93,9 +94,9 @@ Formāta komponents nodrošina iespēju pievienot noteiktus failus, kurus var iz
 ER komponentiem tiek atbalstīta versiju izveide. ER komponentu izmaiņu pārvaldīšanai tiek sniegtas tālāk aprakstītā darbplūsma.
 
 -   Sākotnēji izveidotā versija tiek atzīmēta kā versija **MELNRAKSTS**. Šo versiju var rediģēt, un tā ir pieejama testu izpildīšanai.
--   Versiju** MELNRAKSTS** var pārveidot par versiju **PABEIGTS**. Šo versiju var izmantot vietējos atskaišu procesos.
+-   Versiju**MELNRAKSTS** var pārveidot par versiju **PABEIGTS**. Šo versiju var izmantot vietējos atskaišu procesos.
 -   Versiju **PABEIGTS** var pārveidot par versiju **KOPLIETOTS**. Šī versija tiek publicēta LCS, un to var izmantot globālos pārskatu izveides procesos.
--   Versiju **KOPLIETOTS **var pārveidot par versiju **PĀRTRAUKTS**. Pēc tam šo versiju var dzēst.
+-   Versiju **KOPLIETOTS**var pārveidot par versiju **PĀRTRAUKTS**. Pēc tam šo versiju var dzēst.
 
 Versijas, kuru statuss ir ** PABEIGTS** vai **KOPLIETOTS**, var izmantot citu datu apmaiņai. Komponentam, kam ir šie statusi, var izpildīt tālāk uzskaitītās darbības.
 
@@ -104,7 +105,7 @@ Versijas, kuru statuss ir ** PABEIGTS** vai **KOPLIETOTS**, var izmantot citu da
 
 #### <a name="component-date-effectivity"></a>Komponenta spēkā stāšanās datums
 
-ER komponentu versijas ir ar spēkā stāšanās datumu. ER komponentam var definēt datumu** Spēkā no**, lai norādītu datumu, kad šis komponents stājas spēkā atskaišu veidošanas procesiem. Dynamics 365 for Operations sesijas datums tiek izmantots, lai noteiktu, vai komponents ir derīgs izpildei. Ja noteiktam datumam ir derīgas vairākas versijas, tad atskaišu veidošanas procesiem tiek izmantota jaunākā versija.
+ER komponentu versijas ir ar spēkā stāšanās datumu. ER komponentam var definēt datumu**Spēkā no**, lai norādītu datumu, kad šis komponents stājas spēkā atskaišu veidošanas procesiem. Dynamics 365 for Operations sesijas datums tiek izmantots, lai noteiktu, vai komponents ir derīgs izpildei. Ja noteiktam datumam ir derīgas vairākas versijas, tad atskaišu veidošanas procesiem tiek izmantota jaunākā versija.
 
 #### <a name="component-access"></a>Komponenta piekļuve
 
@@ -112,7 +113,7 @@ Piekļuve ER formāta komponentiem ir atkarīga no iestatījuma ISO valsts/reģi
 
 #### <a name="configuration"></a>Konfigurācija
 
-ER konfigurācija ir aplika noteiktam ER komponentam — **Datu modelis **vai **Formāts**. Konfigurācija var ietvert noteikta ER komponenta dažādās versijas. Katra konfigurācija tiek atzīmēta kā piederoša noteiktam konfigurācijas nodrošinātājam. Konfigurācijas komponenta versiju **MELNRAKSTS** var rediģēt, ja šīs konfigurācijas īpašnieks Dynamics 365 for Operations ER iestatījumos ir atlasīts kā aktīvs nodrošinātājs. Katra modeļa konfigurācija satur komponentu **Datu modelis**. Jaunu formāta konfigurāciju var izveidot (atvasināt) no konkrētas datu modeļa konfigurācijas. Izveidotā formāta konfigurācija konfigurāciju kokā tiek rādīta kā sākotnējā datu modeļa konfigurācijas pakārtotais elements. Izveidotā formāta konfigurācija ietver komponentu **Formāts**. Sākotnējā modeļa konfigurācijas komponents **Datu modelis** automātiski tiek ievietots pakārtotā formāta konfigurācijas komponentā **Formāts** kā noklusējuma datu avots. ER konfigurācija tiek koplietota Dynamics 365 for Operations uzņēmumiem.
+ER konfigurācija ir aplika noteiktam ER komponentam — **Datu modelis**vai **Formāts**. Konfigurācija var ietvert noteikta ER komponenta dažādās versijas. Katra konfigurācija tiek atzīmēta kā piederoša noteiktam konfigurācijas nodrošinātājam. Konfigurācijas komponenta versiju **MELNRAKSTS** var rediģēt, ja šīs konfigurācijas īpašnieks Dynamics 365 for Operations ER iestatījumos ir atlasīts kā aktīvs nodrošinātājs. Katra modeļa konfigurācija satur komponentu **Datu modelis**. Jaunu formāta konfigurāciju var izveidot (atvasināt) no konkrētas datu modeļa konfigurācijas. Izveidotā formāta konfigurācija konfigurāciju kokā tiek rādīta kā sākotnējā datu modeļa konfigurācijas pakārtotais elements. Izveidotā formāta konfigurācija ietver komponentu **Formāts**. Sākotnējā modeļa konfigurācijas komponents **Datu modelis** automātiski tiek ievietots pakārtotā formāta konfigurācijas komponentā **Formāts** kā noklusējuma datu avots. ER konfigurācija tiek koplietota Dynamics 365 for Operations uzņēmumiem.
 
 #### <a name="provider"></a>Piegādātājs
 
@@ -120,7 +121,7 @@ ER nodrošinātājs ir puses identifikators, kas tiek izmantots, lai norādītu 
 
 #### <a name="repository"></a>Repozitorijs
 
-ER repozitorijā glabājas ER konfigurācijas. Pašlaik tiek atbalstīti šādi ER repozitoriju veidi: **Operāciju resursi** un **LCS projekts**. Veida **Operāciju resursi** repozitorijs nodrošina piekļuvi to konfigurāciju sarakstam, ko korporācija Microsoft kā ER konfigurāciju nodrošinātājs ir izlaidusi Dynamics 365 for Operations risinājuma ietvaros. Šīs konfigurācijas var importēt pašreizējā Dynamics 365 for Operations instancē un izmantot elektronisko pārskatu veidošanai. Tās var izmantot arī papildu lokalizācijām/pielāgojumiem. Repozitorijs **LCS projekts **nodrošina piekļuvi noteikta LCS projekta (LCS projekta līdzekļu bibliotēkas) konfigurāciju sarakstam, kurš tika atlasīts repozitorija reģistrācijas posmā. Modulis ER sniedz iespēju augšupielādēt koplietotās konfigurācijas no pašreizējās Dynamics 365 for Operations instances konkrētā veida **LCS projekts** repozitorijā. Varat arī importēt konfigurācijas no konkrēta veida **LCS projekts** repozitorija pašreizējā Dynamics 365 for Operations instancē. Nepieciešamos veida **LCS projekts** repozitorijus var atsevišķi reģistrēt katram pašreizējās Dynamics 365 for Operations instances konfigurāciju nodrošinātājam. Katru repozitoriju var piešķirt noteiktam konfigurācijas nodrošinātājam.
+ER repozitorijā glabājas ER konfigurācijas. Pašlaik tiek atbalstīti šādi ER repozitoriju veidi: **Operāciju resursi** un **LCS projekts**. Veida **Operāciju resursi** repozitorijs nodrošina piekļuvi to konfigurāciju sarakstam, ko korporācija Microsoft kā ER konfigurāciju nodrošinātājs ir izlaidusi Dynamics 365 for Operations risinājuma ietvaros. Šīs konfigurācijas var importēt pašreizējā Dynamics 365 for Operations instancē un izmantot elektronisko pārskatu veidošanai. Tās var izmantot arī papildu lokalizācijām/pielāgojumiem. Repozitorijs **LCS projekts**nodrošina piekļuvi noteikta LCS projekta (LCS projekta līdzekļu bibliotēkas) konfigurāciju sarakstam, kurš tika atlasīts repozitorija reģistrācijas posmā. Modulis ER sniedz iespēju augšupielādēt koplietotās konfigurācijas no pašreizējās Dynamics 365 for Operations instances konkrētā veida **LCS projekts** repozitorijā. Varat arī importēt konfigurācijas no konkrēta veida **LCS projekts** repozitorija pašreizējā Dynamics 365 for Operations instancē. Nepieciešamos veida **LCS projekts** repozitorijus var atsevišķi reģistrēt katram pašreizējās Dynamics 365 for Operations instances konfigurāciju nodrošinātājam. Katru repozitoriju var piešķirt noteiktam konfigurācijas nodrošinātājam.
 
 ## <a name="supported-scenarios"></a>Atbalstītie scenāriji
 ### <a name="building-a-data-model"></a>Datu modeļa veidošana
@@ -154,7 +155,7 @@ ER formāta veidotāju var izmantot, lai veidotu īpašu elektronisko dokumentu 
 
 ### <a name="storing-a-designed-format-component-in-a-format-configuration"></a>Izveidotā formāta komponenta glabāšana formāta konfigurācijā
 
-Modulī ER izstrādātu formātu var saglabāt kopā ar konfigurētajiem datu kartējumiem kā pašreizējās Dynamics 365 for Operations instances formāta konfigurāciju. Iepriekšējā attēlā ir parādīts šāda tipa formāta konfigurācijas piemērs (**BACS (UK)**, kas ir konfigurācijas **Maksājumu modelis **pakārtotais elements). Lai iepazītos ar detalizētu informāciju par šo scenāriju, atskaņojiet uzdevuma ceļvedi **ER Izveidot domēnam specifisku formātu** (daļa no biznesa procesa **7.5.4.3. Iegūt/izstrādāt IT pakalpojumu/risinājuma komponentus (10677)**).
+Modulī ER izstrādātu formātu var saglabāt kopā ar konfigurētajiem datu kartējumiem kā pašreizējās Dynamics 365 for Operations instances formāta konfigurāciju. Iepriekšējā attēlā ir parādīts šāda tipa formāta konfigurācijas piemērs (**BACS (UK)**, kas ir konfigurācijas **Maksājumu modelis**pakārtotais elements). Lai iepazītos ar detalizētu informāciju par šo scenāriju, atskaņojiet uzdevuma ceļvedi **ER Izveidot domēnam specifisku formātu** (daļa no biznesa procesa **7.5.4.3. Iegūt/izstrādāt IT pakalpojumu/risinājuma komponentus (10677)**).
 
 ### <a name="configuring-dynamics-365-for-operations-to-start-to-use-a-created-format-internally"></a>Dynamics 365 for Operations konfigurēšana izveidota formāta iekšējai lietošanai
 
@@ -169,7 +170,7 @@ Lai iepazītos ar detalizētu informāciju par šo scenāriju, atskaņojiet uzde
 ## <a name="handling-er-components"></a>Darbs ar ER komponentiem
 ### <a name="publishing-an-er-component-in-lcs-to-offer-it-externally-localization"></a>ER komponenta publicēšana pakalpojumos LCS, lai to piedāvātu ārēji (lokalizācija)
 
-Izveidota komponenta (modeļa vai formāta) īpašnieks var izmantot ER, lai komponenta pabeigto versiju publicētu pakalpojumos LCS. Pašreizējās ER konfigurācijas nodrošinātājam ir nepieciešams repozitorijs ar tipu **LCS projekts**. Kad komponenta pabeigtas versijas statuss no **PABEIGTS** tiek mainīts uz **KOPLIETOTS**, šī versija tiek publicēta pakalpojumos LCS. Kad komponents ir publicēts pakalpojumos LCS, šī komponenta īpašnieks kļūst par pakalpojuma nodrošinātāju, lai atbalstītu šo komponentu. Piemēram, ja formāta komponents ir paredzēts, lai ģenerētu elektronisku dokumentu, kurš ir juridiski nepieciešams (piemēram, saskaņā ar kādu lokalizācijas scenāriju), tad tiek pieņemts, ka šis formāts saglabāsies atbilstošs likumdošanas izmaiņām un ka tā nodrošinātājs izdos šī komponenta jaunās versijas katru reizi, kad radīsies jaunas likumdošanas prasības. Lai iepazītos ar detalizētu informāciju par šo scenāriju, atskaņojiet uzdevuma ceļvedi **ER Augšupielādēt konfigurāciju pakalpojumos Lifecycle Services **(daļa no biznesa procesa **7.5.4.3. Iegūt/izstrādāt IT pakalpojumu/risinājuma komponentus (10677)**).
+Izveidota komponenta (modeļa vai formāta) īpašnieks var izmantot ER, lai komponenta pabeigto versiju publicētu pakalpojumos LCS. Pašreizējās ER konfigurācijas nodrošinātājam ir nepieciešams repozitorijs ar tipu **LCS projekts**. Kad komponenta pabeigtas versijas statuss no **PABEIGTS** tiek mainīts uz **KOPLIETOTS**, šī versija tiek publicēta pakalpojumos LCS. Kad komponents ir publicēts pakalpojumos LCS, šī komponenta īpašnieks kļūst par pakalpojuma nodrošinātāju, lai atbalstītu šo komponentu. Piemēram, ja formāta komponents ir paredzēts, lai ģenerētu elektronisku dokumentu, kurš ir juridiski nepieciešams (piemēram, saskaņā ar kādu lokalizācijas scenāriju), tad tiek pieņemts, ka šis formāts saglabāsies atbilstošs likumdošanas izmaiņām un ka tā nodrošinātājs izdos šī komponenta jaunās versijas katru reizi, kad radīsies jaunas likumdošanas prasības. Lai iepazītos ar detalizētu informāciju par šo scenāriju, atskaņojiet uzdevuma ceļvedi **ER Augšupielādēt konfigurāciju pakalpojumos Lifecycle Services**(daļa no biznesa procesa **7.5.4.3. Iegūt/izstrādāt IT pakalpojumu/risinājuma komponentus (10677)**).
 
 ### <a name="importing-an-er-component-from-lcs-to-use-it-internally"></a>ER komponenta importēšana no LCS iekšējai izmantošanai
 

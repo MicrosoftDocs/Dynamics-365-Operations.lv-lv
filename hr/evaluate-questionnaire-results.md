@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a76ec0cd86bcc810b42ae3cd8efd8a584e6c4da3
-ms.openlocfilehash: bcf59ea8862280675c9fb711d2aab1e8dff18806
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 0285103ef30ebf8322f2bf60941b07c7496e9c70
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Anketas rezultātu skatīšana un novērtēšana
+
+[!include[banner](includes/banner.md)]
+
 
 Šajā tēmā ir skaidrots, kā varat skatīt un novērtēt respondentu aizpildīto anketu rezultātus. 
 
@@ -56,7 +60,8 @@ Lapā **Atbildes** varat skatīt detalizētu informāciju par atbildēm, iegūto
 -   **Atbilžu atskaite** — šajā atskaitē tiek rādītas atbildes, ko respondents atlasīja katram anketas jautājumam.
 -   **Nepareizās atbildes** — šajā atskaitē tiek rādīta informācija, kas ir saistīta ar respondenta atlasītajām nepareizajām atbildēm.
 
-**Piezīme.** Atskaite **Rezultāti** ir pieejama tikai tad, ja anketai lietojat rezultātu grupas un ja lapā **Anketas** atlasījāt vienumu **Rezultātu lapa**. Atskaite **Atbilde** un atskaite **Nepareizās atbildes** ir pieejamas tikai tad, ja lapā **Anketas** atlasījāt vienumu **Atbilžu atskaite**.
+> **Piezīme.**
+>   Pārskats **Rezultāti** ir pieejams tikai tad, ja anketai lietojat rezultātu grupas un ja lapā **Anketas** atlasījāt vienumu **Rezultātu lapa**. Atskaite **Atbilde** un atskaite **Nepareizās atbildes** ir pieejamas tikai tad, ja lapā **Anketas** atlasījāt vienumu **Atbilžu atskaite**.
 
 ## <a name="questionnaire-statistics"></a>Anketu statistika
 Anketu statistiku varat izmantot, lai analizētu aizpildīto anketu rezultātus, pamatojoties uz jūsu definētajiem aprēķiniem. Lai definētu aprēķinus, jums ir jāizpilda šādi uzdevumi:
@@ -79,5 +84,7 @@ Jūsu definētie iestatījumi tiek saglabāti, un tos var izmantot periodiskai r
 [Anketu lietošana](questionnaires.md)
 
 [Anketu izplatīšana un aizpildīšana](distribute-questionnaires.md)
+
+
 
 

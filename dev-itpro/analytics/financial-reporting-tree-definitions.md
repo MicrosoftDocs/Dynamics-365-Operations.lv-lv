@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 288605570462c2e7659a894731c12933410d7636
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 7e6a3c25dd97d242e28bff319c75a64718c39f55
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -128,7 +129,7 @@ Jūs varat pārkārtot pārskata koka definīcijas organizatorisko struktūru, p
 
 ### <a name="add-text-about-a-reporting-unit"></a> Pievienojiet tekstu par pārskata vienību
 
-Papildu teksta ieraksts ir statiska teksta virkne līdz 255 rakstzīmju garumā, kas papildina atskaišu koka definīcijas informāciju. Piemēram, papildu teksts var būt īss uzņēmuma apraksts. Jūs varat izveidot līdz pat desmit papildu teksta ierakstiem katrai pārskata vienībai pārskata koka definīcijā. Papildu teksts atskaitē ir redzams tai atskaites vienībai, kurai šis teksts ir piešķirts. Teksta ierakstus varat pievienot no rindas definīcijas kolonnas ** Apraksts** un no atskaites definīcijas cilnes **Galvenes un kājenes**.
+Papildu teksta ieraksts ir statiska teksta virkne līdz 255 rakstzīmju garumā, kas papildina atskaišu koka definīcijas informāciju. Piemēram, papildu teksts var būt īss uzņēmuma apraksts. Jūs varat izveidot līdz pat desmit papildu teksta ierakstiem katrai pārskata vienībai pārskata koka definīcijā. Papildu teksts atskaitē ir redzams tai atskaites vienībai, kurai šis teksts ir piešķirts. Teksta ierakstus varat pievienot no rindas definīcijas kolonnas **Apraksts** un no atskaites definīcijas cilnes **Galvenes un kājenes**.
 
 1.  Pārskatu veidotājā atveriet modificējamo pārskata koka definīciju.
 2.  Veiciet dubultklikšķi uz atskaites vienības rindas šūnas **Papildu teksts**.

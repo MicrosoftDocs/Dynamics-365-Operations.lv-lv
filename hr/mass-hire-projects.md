@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 6f4429202efd0506378d681188035c5cc69f56a1
-ms.openlocfilehash: d330f73ee9cbdd6bdcc197c3783a9230b26e04d8
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5ba5816b65bcaa3a71ab3367cfbe6a115e52062a
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="mass-hire-projects"></a>Masveida darbā pieņemšanas projekti
+
+[!include[banner](includes/banner.md)]
+
 
 Masveida darbā pieņemšanas projekti ļauj personāla vadības speciālistiem izveidot vairākus amatus un efektīvi pieņemt uz šiem amatiem darbā darbiniekus.
 
@@ -46,7 +50,7 @@ Lapā **Masveida pieņemšanas darbā projekti** atlasiet projektu “Vasaras pr
 
 Kad studenti ir pieņemti darbā prakses pozīcijās, ievadiet studentu datus pozīcijas, kurā pieņemat viņus darbā, laukā **Pozīcijas dati**. Kad visi pozīcijas dati ir ievadīti, atlasiet pozīciju lapā Masu darbā pieņemšanas projekti un noklikšķiniet uz **Pieņemt darbā**. Katrai pozīcijai tiek izveidots pozīcijas ieraksts, kā arī tiek izveidots darbinieka ieraksts, kas tiek piešķirts katras darba pieņemtās personas attiecīgai pozīcijai.
 
-## <a name="masshire-project-statuses"></a>Masveida projekta statusi
+## <a name="mass-hire-project-statuses"></a>Masveida pieņemšanas darbā projekta statusi
 Masveida pieņemšanas darbā projektam var piešķirt tālāk norādītos statusus.
 -   Izveidota
 -   Atvērta
@@ -92,6 +96,8 @@ Lai mainītu masveida pieņemšanas darbā projekta statusu, lapā **Masveida pi
 </table>
 
  
+
+
 
 
 

@@ -3,7 +3,7 @@ title: "Krājumu objekta vērtības"
 description: "Šajā rakstā ir sniegta informācija par to, kā tiek aprēķinātas krājuma objekta vērtības."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-12-07 09 - 09 - 05
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -19,19 +19,31 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 7a0a2af2094e3e5be757d3dd82255769677b96ea
-ms.openlocfilehash: 8898d5d91ffb4f73ea68f1251e1a99440e81bcd4
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d177903e3c79226e90a1f2eb3d55e3c670446a44
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="inventory-object-values"></a>Krājumu objekta vērtības
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegta informācija par to, kā tiek aprēķinātas krājuma objekta vērtības. 
 
-Jauna funkcija **Fiziskais daudzums** sniedz iespēju skatīt noteikta krājumu objekta vērtības. Izmaksu objekts norāda elementa līmeni, kurā tiek veikta krājumu uzskaite. Plašāku informāciju par izmaksu objektiem skatiet sadaļā [Izmaksu objekti](cost-object.md). Lai skatītu noteikta krājumu objekta vērtības, lapā **Izmaksu objekts** noklikšķiniet uz vienuma **Fiziskais daudzums**. Krājumu objekta vērtība tiek aprēķināta šādā veidā: krājumu objekta vērtība = izmaksu objekta vidējās vienības izmaksas × krājumu objekta daudzums. Tālāk esošajā piemērā ir parādīts, kā tiek aprēķinātas krājumu objekta un izmaksu objekta vērtības. Krājumam A ir reģistrēti divi preču saņemšanas notikumi:
+Jaunā funkcija, kuras nosaukums ir **fiziskais daudzums** ļauj jums apskatīt noteikta krājuma objekta vērtības. 
+
+Izmaksu objekts norāda elementa līmeni, kurā tiek veikta krājumu uzskaite. Plašāku informāciju par izmaksu objektiem skatiet sadaļā [Izmaksu objekti](cost-object.md). 
+
+Lai skatītu noteikta krājumu objekta vērtības, lapā **Izmaksu objekts** noklikšķiniet uz vienuma **Fiziskais daudzums**. Krājumu objekta vērtība tiek aprēķināta tālāk norādītajā veidā. 
+
+Inventory object.Value = Cost object.Average unit cost × Inventory object.Quantity 
+
+Nākamajā piemērā ir parādīts, kā tiek aprēķinātas krājumu objekta un izmaksu objekta vērtības. Krājumam A ir reģistrēti divi preču saņemšanas notikumi:
 
 -   1. preces saņemšana: daudzums = 100 gab., summa = $ 1000,00, vieta = 1, noliktava = 11, partijas Nr. = B1
 -   2. preces saņemšana: daudzums = 50 gab., summa = $ 800,00, vieta = 1, noliktava = 11, partijas Nr. = B2
@@ -135,5 +147,7 @@ Jauna funkcija **Fiziskais daudzums** sniedz iespēju skatīt noteikta krājumu 
 [Izmaksu ieraksti](cost-entries.md)
 
 [Jaunumi un izmaiņas programmatūrā Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
+
+
 
 

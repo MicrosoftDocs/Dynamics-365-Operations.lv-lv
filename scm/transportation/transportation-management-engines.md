@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 9db73514d71239d75dc63fcf6e9f45923b1272f4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c65f7e44459478cac7663575abe588ad057f18e0
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -37,7 +38,7 @@ Transportēšanas pārvaldības programma aprēķina uzdevumus, piemēram, pārv
 ## <a name="what-engines-are-available"></a>Kādas programmas ir pieejamas?
 Tālāk esošajās tabulā ir norādītas transportēšanas pārvaldības programmas, kas ir pieejamas sistēmā Microsoft Dynamics 365 for Operations.
 
-| Transportēšanas pārvaldības programma | apraksts                                                                                                                                                                                                                                                                                                                 |
+| Transportēšanas pārvaldības programma | Apraksts                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Likmes noteikšanas programma**                  | Aprēķina likmes.                                                                                                                                                                                                                                                                                                           |
 | **Vispārīgā programma**               | Vienkāršas papildu programmas, ko izmanto citas programmas, kam nav nepieciešami dati no Microsoft Dynamics 365 for Operations, piemēram, norīkojumu programma. Norīkojumu programmas izmanto, lai samazinātu transportēšanas gala izmaksas noteiktiem pasūtījumiem un rindām, pamatojoties uz dimensijām, piemēram, apjomu un svaru. |
@@ -50,7 +51,7 @@ Tālāk esošajās tabulā ir norādītas transportēšanas pārvaldības progra
 <a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Kuras programmas ir jākonfigurē, lai sūtījumam izveidotu likmes?
 ---------------------------------------------------
 
-Lai izveidotu likmes sūtījumam, kam tiek izmantots noteikts pārvadātājs, ir jākonfigurē vairākas transportēšanas pārvaldības programmas. **Likmes noteikšanas programma** ir obligāti nepieciešama, taču, lai nodrošinātu **likmes noteikšanas programmas** atbalstu, var būt nepieciešamas citas transportēšanas pārvaldības programmas. Piemēram **likmes noteikšanas programmu** var izmantot, lai izgūtu datus no **attāluma noteikšanas programmas ** un aprēķinātu likmi, pamatojoties uz attālumu starp avotu un mērķi.
+Lai izveidotu likmes sūtījumam, kam tiek izmantots noteikts pārvadātājs, ir jākonfigurē vairākas transportēšanas pārvaldības programmas. **Likmes noteikšanas programma** ir obligāti nepieciešama, taču, lai nodrošinātu **likmes noteikšanas programmas** atbalstu, var būt nepieciešamas citas transportēšanas pārvaldības programmas. Piemēram **likmes noteikšanas programmu** var izmantot, lai izgūtu datus no **attāluma noteikšanas programmas** un aprēķinātu likmi, pamatojoties uz attālumu starp avotu un mērķi.
 
 ## <a name="whats-required-to-initialize-a-transportation-management-engine"></a>Kas ir nepieciešams, lai inicializētu transportēšanas pārvaldības programmu?
 Lai transportēšanas pārvaldības programma darbotos noteiktā veidā, tai ir jāiestata inicializēšanas dati. Ir jāiestata tālāk minētie, bet ne tikai, dati.
@@ -76,7 +77,7 @@ Dati, kas tiek izmantoti, aprēķinot likmes sistēmā Microsoft Dynamics 365 fo
 
 ## <a name="do-all-engine-configurations-require-metadata"></a>Vai visām programmas konfigurācijām ir nepieciešami metadati?
 Nē, transportēšanas pārvaldības programmām, kas tiek izmantotas likmju aprēķiniem nepieciešamo datu izgūšanai no ārējām sistēmām, metadati nav nepieciešami. Likmju datus šīm programmām var izgūt no ārējām transportēšanas pārvadātāju sistēmām, parasti izmantojot tīmekļa pakalpojumu. Piemēram, varat izmantot attāluma noteikšanas programmu, kas tieši izgūst datus no pakalpojuma Bing kartes, tādēļ metadati šai programmai nav nepieciešami.
-| **Piezīme. **                                                                                                                                                                                                                                                                                                                                                                     |
+| **Piezīme.**                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Transportēšanas pārvaldības programmas, kas tiek nodrošinātas kopā ar Microsoft Dynamics 365 for Operations, izmanto datus, kas tiek izgūti no programmas. Programmas, kas veido savienojumu ar ārējām sistēmām, nav ietvertas sistēmas Operations komplektācijā. Taču programmu paplašināšanas modelis ļauj izveidot paplašinājumus, izmantojot programmatūru Microsoft Dynamics 365 for Operations Visual Studio Tools. |
 

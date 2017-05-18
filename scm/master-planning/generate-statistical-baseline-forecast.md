@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: c0c918b94fe96d123bb6c25c42fe168a026cd8a9
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 36b307870f2427cc43a189e92cbd8c30f6ddb0c1
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -39,14 +40,14 @@ Lai ģenerētu pieprasījuma apjoma prognozi, pārejiet uz sadaļu **Vispārēj�
 
 Prognozes intervālu var atlasīt prognozes ģenerēšanas brīdī. Pieejamās vērtības ir šādas: diena, nedēļa un mēnesis. 
 
-Prognozes ģenerēšanā izmantojamo intervālu skaits ir iestatīts laukā** Prognozes periods**. 
+Prognozes ģenerēšanā izmantojamo intervālu skaits ir iestatīts laukā**Prognozes periods**. 
 
 Ja prognozes stratēģija ir iestatīta ar opciju **Kopēt vēsturiskā pieprasījuma vietā**, vēsturiskā perioda beigas tiek ignorētas. Sistēma nodrošina laukā **Prognozes periods** norādītā intervālu skaita kopēšanu uz prognozēto pieprasījumu, sākot ar sadaļas **Vēsturiskais periods** laukā **Sākuma datuma** iestatīto datumu. Kopējot vēsturisko pieprasījumu no noteikta datuma uz priekšu, ražošanas plānotāji var sagatavot nākamā ceturkšņa plānu divējādi:
 
 -   kopējot pieprasījumu no tā paša pagājušajā gada ceturkšņa;
 -   kopējot pieprasījumu no iepriekšējā ceturkšņa.
 
-Lai nepieļautu ražošanas plānos pārpratumus, noteiktu prognožu intervālu skaitu var sasaldēt. Šis skaits tiek iestatīts laukā **Sasaldēt periodu**. Laukā **Koriģēta pieprasījuma apjoma prognoze **tiek atspējotas iesaldēto intervālu šūnas, vizuāli norādot, ka šīs vērtības nedrīkst mainīt. 
+Lai nepieļautu ražošanas plānos pārpratumus, noteiktu prognožu intervālu skaitu var sasaldēt. Šis skaits tiek iestatīts laukā **Sasaldēt periodu**. Laukā **Koriģēta pieprasījuma apjoma prognoze**tiek atspējotas iesaldēto intervālu šūnas, vizuāli norādot, ka šīs vērtības nedrīkst mainīt. 
 
 Bāzlīnijas pieprasījuma apjoma prognozes sākuma datumam nav jābūt pašreizējam datumam vai datumam nākotnē. Lai iestatītu citu sākuma datumu, izmantojiet lauku **Bāzlīnijas prognozes sākuma datums - Sākuma datums**. Piemēram, jūnijā lietotāji var ģenerēt nākamā gada prognozi. Ja trūkst prognožu intervālu starp vēsturiskā pieprasījuma beigām un bāzlīnijas sākumu, prognozes var būt neprecīzas. Ja lietojat Microsoft Dynamics 365 for Operations pakalpojumu Pieprasījuma prognozēšana, trūkstošos periodus var aizpildīt četros veidos. Varat izvēlēties izmantojamo metodi, lapā **Pieprasījuma prognozēšanas parametri** iestatot parametru MISSING\_VALUE\_SUBSTITUTION . 
 

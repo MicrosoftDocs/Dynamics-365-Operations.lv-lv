@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 2928b86a9dbf001451933f9d17287400cafaf089
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 36d4aec3936ef99b880f3affc75df1b952cb3133
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Jaunumi un izmaiņas programmatūrā Dynamics AX 7.0 (2016. gada februāra izlaidumā)
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir aprakstītas funkcijas, kas versijā Microsoft Dynamics AX 7.0 ir jaunas vai ir mainītas. Šī versija satur gan platformas, gan programmas līdzekļus, un tā tika izlaista 2016. gada februārī.
 
@@ -47,7 +51,7 @@ ms.lasthandoff: 03/31/2017
 <td>Izmaksu kontrolleriem interesē, vai inventarizācijas vai NP inventarizācijas akta bilance laika gaitā palielinās vai samazinās. Operāciju notikumus klasificējot izrakstā, izmaksu kontrolleris var gūt pārskatu par krājumu plūsmu. Ja krājumi vai NO krājumi tiek vērtēti pēc standarta izmaksām, tad ir redzama arī vispārējā reģistrētā novirze.</td>
 </tr>
 <tr class="odd">
-<td>Izmantojiet moduli<strong> Izmaksu pārvaldība</strong>.</td>
+<td>Izmantojiet moduli <strong>Izmaksu pārvaldība</strong>.</td>
 <td>Nav attiecināms</td>
 <td>Izmaksu pārvaldība ir ieviesta kā domēna apgabals. Ar izmaksām saistītā konfigurācija un ieskati bija izkaisīti pa sadaļām Krājumu vadība, Ražošanas kontrole un Kreditori.</td>
 <td>Tā kā visi ar izmaksu pārvaldību saistītie uzdevumi ir centralizēti vienā modulī, izmaksu kontrolleriem sistēmas uzturēšana tagad būs ērtāka.</td>
@@ -331,8 +335,8 @@ ms.lasthandoff: 03/31/2017
 <tr class="even">
 <td>Piekļūstiet strukturētai procedurālai palīdzībai (uzdevumu ceļvežiem) un konceptuālām tēmām, noklikšķinot uz **Palīdzība**.</td>
 <td>AX 2012 palīdzības sistēma novirza uz HTML tēmām, kas tiek glabātas lokālajā tīmekļa serverī. Debitori un partneri var izveidot paši savu palīdzību.</td>
-<td>Pašreizējā Dynamics AX versijā palīdzības sistēma rāda uzdevumu ceļvežus, kas tiek glabāti pakalpojumu Microsoft Dynamics Lifecycle Services (LCS) BPM. Palīdzības sistēma rāda arī tēmas no Microsoft vikivietnes. Papildinformāciju skatiet tēmās [Dynamics AX palīdzība — darba sākšana](help-overview.md) un [Jaunie pieejamie uzdevumu ceļveži (2016. gada februāris)](new-task-guides-available-february-2016.md).</td>
-<td>Uzdevumu ceļveži sniedz strukturētu, interaktīvu pieredzi, kas jūs vada caur uzdevuma vai biznesa procesa darbībām. Varat lejupielādēt un pielāgot uzdevumu ceļvežus, ko nodrošina Microsoft. Vikirakstā ir sniegts ātrāks un elastīgāks veids, kā izveidot, piegādāt un atjaunināt preces dokumentāciju. Tāpēc tā palīdz garantēt, ka jums ir pieeja visjaunākajai tehniskajai informācijai.</td>
+<td>Pašreizējā Dynamics AX versijā palīdzības sistēma rāda uzdevumu ceļvežus, kas tiek glabāti pakalpojumu Microsoft Dynamics Lifecycle Services (LCS) BPM. Palīdzības sistēma rāda arī tēmas no Microsoft dokumentu vietnes. Papildinformāciju skatiet tēmās [Dynamics AX palīdzība — darba sākšana](help-overview.md) un [Jaunie pieejamie uzdevumu ceļveži (2016. gada februāris)](new-task-guides-available-february-2016.md).</td>
+<td>Uzdevumu ceļveži sniedz strukturētu, interaktīvu pieredzi, kas jūs vada caur uzdevuma vai biznesa procesa darbībām. Varat lejupielādēt un pielāgot uzdevumu ceļvežus, ko nodrošina Microsoft. Tēmā ir sniegts ātrāks un elastīgāks veids, kā izveidot, piegādāt un atjaunināt preces dokumentāciju. Tāpēc tā palīdz garantēt, ka jums ir pieeja visjaunākajai tehniskajai informācijai.</td>
 </tr>
 </tbody>
 </table>
@@ -651,7 +655,7 @@ Darbvieta <strong>Katalogu pārvaldība</strong> sniedz šādu funkcionalitāti:
 <li>Veiciet uzdevuma pabeigšanai nepieciešamās darbības vai sniedziet uzdevuma pabeigšanai nepieciešamo informāciju.</li>
 <li>Sekojiet līdzi ierīču statusam, kā arī veikalos tieši pārbaudiet un lejupielādējiet Retail Modern POS (MPOS) programmas instalāciju.</li>
 <li>Piekļūstiet visām saistītajām lapām.</li>
-</ul>Darbvieta 
+</ul>Darbvieta
 <strong>Mazumtirdzniecības veikala pārvaldība</strong> jums ļauj veikt šādus uzdevumus:
 <ul>
 <li>Pārvaldiet darbiniekus un darbinieku pārdošanas punkta (point of sale — POS) atļaujas.</li>
@@ -1076,5 +1080,7 @@ Nav pievienoti jauni līdzekļi.
 [Jaunumi un izmaiņas](whats-new-changed.md)
 
 [Pieejami jauni uzdevumu ceļveži (2016. gada februāris)](new-task-guides-available-february-2016.md)
+
+
 
 

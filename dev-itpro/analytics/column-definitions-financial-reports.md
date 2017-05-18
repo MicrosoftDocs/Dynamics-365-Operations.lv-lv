@@ -1,16 +1,16 @@
 ---
 title: "Kolonnu definīcijas finanšu pārskatos"
 description: "Šajā rakstā ir sniegta informācija par kolonnu definīcijām. Kolonnas definīcija ir pārskata komponents jeb veidošanas bloks, kas nosaka katras kolonnas saturu pārskatā. Tāpat kā rindas definīcijas pamata kolonnu definīcijas var izmantot vairākos pārskatos."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-08-09 21 - 27 - 36
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: Management Reporter, Core
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: af336db81f659d80248aa4ab1fbba96ed1ff48c2
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: bf42b287e2e9235fd50f78a6fadc3f9efbd1fbe5
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="column-definitions-in-financial-reports"></a>Kolonnu definīcijas finanšu pārskatos
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir sniegta informācija par kolonnu definīcijām. Kolonnas definīcija ir pārskata komponents jeb veidošanas bloks, kas nosaka katras kolonnas saturu pārskatā. Tāpat kā rindas definīcijas pamata kolonnu definīcijas var izmantot vairākos pārskatos.
 
@@ -318,11 +322,11 @@ Kolonnas definīcijā, formatēšanas kolonnu detaļu rindas atlasītajām kolon
 2.  Veiciet dubultklikšķi uz šūnas **Drukāšanas vadība**.
 3.  Dialoglodziņā **Drukāšanas vadība**, atlasiet kodu sarakstā **Atlasiet drukāšanas vadības opcijas**. Lai atlasītu vairāk nekā vienu kodu, turiet nospiestu taustiņu Ctrl un atlasiet kodus.
 4.  Atlasiet opciju laukā **Nosacījuma drukāšanas opcijas**. Pēc noklusējuma tiek atlasīts **(nav)**. Vienlaicīgi var atlasīt tikai vienu nosacījuma drukāšanas kodu.
-5.  Noklikšķiniet uz **OK**.
+5.  Noklikšķiniet uz **Labi**.
 
-**Padoms:** jūs varat arī ievadīt drukāšanas kodus pa tiešo šūnā **Drukāšanas vadība**. Atdaliet ar komatu vairākus drukāšanas vadības kodus.
+> [!TIP]
+> Jūs varat arī ievadīt drukāšanas kodus pa tiešo šūnā **Drukāšanas vadība**. Atdaliet ar komatu vairākus drukāšanas vadības kodus.
 
-### 
 
 ## <a name="column-types"></a>Kolonnas tipi
 Informācijas tips, ko satur katra kolonna pārskatā, tiek norādīts ar vērtību rindā **Kolonnas tipu** kolonnas definīcijā. Katras kolonnas definīcijai jāsatur vismaz vienu apraksta kolonnu (**DESC**) un vienu summas kolonnu (**FD**, **WKS** vai **CALC**). **Piezīme:** kolonnas tipa kodi neattiecas uz visām grāmatvedības sistēmām. Atlasot tipu, kas nav derīgs jūsu grāmatvedības sistēmai, šī kolonna pārskatā ir tukša.
@@ -507,7 +511,8 @@ Daudzvalūtu pārskatā var parādīt summas nacionālajā (vietējā) valūtā,
 -   **Valūtas parādīšana** — norādiet valūtas tipu (nacionālā, funkcionālā vai pārskata), kurā tiek rādītas transakcijas. Šī funkcionalitāte dažreiz tiek saukta par valūtas pārrēķināšanu. Valūtas pārrēķināšana ir spēja izveidot pārskatu par virsgrāmatas summām, valūtā, kas varētu nebūt uzņēmuma funkcionālā valūta, vai valūtā, kas tika ievadīta darbībai.
 -   **Valūtas filtrs** – norādiet valūtas filtru. Atskaitē tiek rādītas tikai darbības, kas tika ievadītas atlasītajā valūtā.
 
-**Piezīme:** lai izveidotu pārskatus, kuros tiek izmantotas vairākas valūtās, jums ir jāatlasa izvēles rūtiņa **Iekļaut visas pārskatu veidošanas valūtas** pārskata definīcijas cilnē **Pārskats**. Lai noteiktu uzņēmuma funkcionālo valūta, rīkojieties šādi.
+> [!NOTE]
+> Lai izveidotu pārskatus, kuros tiek izmantotas vairākas valūtās, jums ir jāatlasa izvēles rūtiņa **Iekļaut visas pārskatu veidošanas valūtas** pārskata definīcijas cilnē **Pārskats**. Lai noteiktu uzņēmuma funkcionālo valūta, rīkojieties šādi.
 
 1.  Pārskatu veidotājā, izvēlnē **Uzņēmums**, noklikšķiniet uz **Uzņēmumi**.
 2.  Dialoglodziņā **Uzņēmumi**, atlasiet uzņēmumu, un tad noklikšķiniet **Skatīt**.
@@ -519,7 +524,8 @@ Daudzvalūtu pārskatā var parādīt summas nacionālajā (vietējā) valūtā,
 2.  Veiciet dubultklikšķi uz šūnas **Valūtas parādīšana** atbilstošajā **FD** kolonnā, un pēc tam atlasiet valūtas informācijas parādīšanas opciju: **Nacionālā/izcelsmes valūta**, **Funkcionālā valūta no uzņēmuma informācijas** vai pārskata valūta.
 3.  Veiciet dubultklikšķi uz šūnas **Valūtas filtrs** atbilstošajā **FD** kolonnā, un pēc tam sarakstā atlasiet atbilstošu valūtas kodu. Atskaitē tiek rādītas tikai darbības, kas tika ievadītas šajā valūtā.
 
-**Piezīme:** šeit aprakstītās opcijas var atšķirties, atkarībā no ERP sistēmas. Papildinformāciju skatiet savā [Microsoft ERP sistēmas dokumentācijā](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
+> [!NOTE]
+> Šeit aprakstītās opcijas var atšķirties atkarībā no ERP sistēmas. Papildinformāciju skatiet savā [Microsoft ERP sistēmas dokumentācijā](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
 
 ### <a name="example-for-currency-display-and-currency-filter-cells"></a>Piemērs Valūtas parādīšanas un Valūtas filtra šūnām
 
@@ -584,5 +590,7 @@ Jūs varat dalīt summu kolonnā ar norādīto periodu skaitu. Piemēram, formul
 [Rindas definīcijas finanšu pārskatos](row-definitions-financial-reporting.md)
 
 [Papildu formatēšanas opcijas finanšu pārskatos](advanced-formatting-options-financial-reporting.md)
+
+
 
 
