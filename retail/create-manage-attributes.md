@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16461
 ms.assetid: 2b85491c-f830-4e79-a2cb-681b7ced6988
 ms.search.region: global
@@ -18,15 +18,19 @@ ms.search.industry: Retail
 ms.author: prabhup
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 26c628e10aaa5f47bc87d7510ca8f41ab3630204
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: a5c45bb0b9ed10c989a3222a751df3f454b14a0b
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/26/2017
 
 
 ---
 
 # <a name="create-and-manage-attributes"></a>Izveidot un pārvaldīt atribūtus
+
+[!include[banner](includes/banner.md)]
+
 
 Šajā rakstā ir aprakstīti atribūti programmatūrā Microsoft Dynamics 365 for Operations. Atribūti ļauj aprakstīt preci un tās raksturīgās iezīmes, izmantojot lietotāja definētos laukus.
 
@@ -34,110 +38,28 @@ Atribūti ļauj aprakstīt preci un tās raksturīgās iezīmes, izmantojot liet
 
 #### <a name="examples"></a>Piemēri
 
-Kategorija
+| Kategorija   | Atribūts                | Pieļaujamās vērtības          | Noklusētā vērtība |
+|------------|--------------------------|-----------------------------|---------------|
+| TV un Video | Zīmols                    | Jebkura derīga Zīmola vērtība       | Nav          |
+| TV         | Ekrāna izmērs              | 20″–80″                     | Nav          |
+| TV         | Vertikālā izšķirtspēja      | 480i, 720p, 1080i, vai 1080p | 1080p         |
+| TV         | Ekrāna atsvaidzes intensitāte      | 60 Hz, 120 Hz, vai 240 Hz       | 60 Hz          |
+| TV         | HDMI ievades              | 0–10                        | 3.             |
+| TV         | DVI ievades               | 0–10                        | 1.             |
+| TV         | Kompozītie ievadi         | 0–10                        | 2.             |
+| TV         | Komponentās ievades         | 0–10                        | 1.             |
+| LCD        | 3D gatavs                 | Jā vai Nē                   | Jā           |
+| LCD        | 3D iespējots               | Jā vai Nē                   | Nav            |
+| Plazmas     | Ekspluatācijas temperatūra no      | 32–110 grādiem              | 32            |
+| Plazmas     | Ekspluatācijas temperatūra līdz        | 32–110 grādiem              | 100           |
+| Projekcijas | Kineskopa garantija | 6, 12, vai 18 mēneši         | 12.            |
+| Projekcijas | #  kineskopu skaits    | 1–5                         | 3.             |
 
-Atribūts
-
-Pieļaujamās vērtības
-
-Noklusējuma vērtība
-
-TV un Video
-
-Zīmols
-
-Jebkura derīga **Zīmola** vērtība
-
-Nav
-
-TV
-
-Ekrāna izmērs
-
-**20"**–**80"**
-
-Nav
-
-Vertikālā izšķirtspēja
-
-**480i**, **720p**, **1080i**, vai **1080p**
-
-**1080p**
-
-Ekrāna atsvaidzes intensitāte
-
-**60 Hz**, **120 Hz**, vai **240 Hz**
-
-**60 Hz**
-
-HDMI ievades
-
-**0**–**10**
-
-**3**
-
-DVI ievades
-
-**0**–**10**
-
-**1**
-
-Kompozītie ievadi
-
-**0**–**10**
-
-**2**
-
-Komponentās ievades
-
-**0**–**10**
-
-**1**
-
-LCD
-
-3D gatavs
-
-**Jā** vai **Nē**
-
-**Jā**
-
-3D iespējots
-
-**Jā** vai **Nē**
-
-**Nē**
-
-Plazmas
-
-Ekspluatācijas temperatūra no
-
-**32**–**110** grādiem
-
-**32**
-
-Ekspluatācijas temperatūra līdz
-
-**32**–**110** grādiem
-
-**100**
-
-Projekcijas
-
-Kineskopa garantija
-
-**6**, **12**, vai **18** mēneši
-
-**12**
-
-\# kineskopu skaits
-
-**1**–**5**
-
-**3**
 
 ## <a name="attribute-type"></a>Atribūta tips
-  [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) Atribūti ir balstīti uz atribūtu tipiem. Atribūta veidi norāda datu veidu, ko var ievadīt noteiktam atribūtam. Šobrīd Microsoft Dynamics 365 for Operations atbalsta tālāk aprakstītos atribūtu tipus.
+  [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 
+  
+Atribūti ir balstīti uz atribūtu tipiem. Atribūta veidi norāda datu veidu, ko var ievadīt noteiktam atribūtam. Šobrīd Microsoft Dynamics 365 for Operations atbalsta tālāk aprakstītos atribūtu tipus.
 
 -   **Valūta** – šī atribūta veids atbalsta valūtas vērtības. Tas var būt saistīts (var atbalstīt vērtību diapazonu), vai tas var palikt atklāts.
 -   **DateTime** – šī atribūta veids atbalsta datuma un laika vērtības. Tas var būt saistīts (var atbalstīt vērtību diapazonu), vai tas var palikt atklāts.
@@ -174,5 +96,7 @@ Kineskopa garantija
 ### <a name="at-the-retail-channel-level"></a>Mazumtirdzniecības kanāla līmenī
 
   [![createandmanageattribute-1](./media/createandmanageattribute-1.jpg)](./media/createandmanageattribute-1.jpg) Atribūtu noklusējuma vērtības var ignorēt atsevišķām precēm noteiktos katalogos, kas ir paredzēti specifiskiem mazumtirdzniecības kanāliem.
+
+
 
 

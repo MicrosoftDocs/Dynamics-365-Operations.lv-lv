@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: cmercado
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: eb32cf1b96dfef75131b8c7541e20a93615a87f7
-ms.openlocfilehash: c29c95fc6abd13e668c44d3ccf437bb0e879e46b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 11755e4ab4b3c1f55da80e57ff96e0b13c84c697
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -88,7 +89,7 @@ Lai iestatītu nodarbinātā kompetences, var izmantot saraksta lapu **Nodarbin�
 
 1.  Saraksta lapā **Nodarbinātie** atlasiet tāda nodarbinātā rindu, attiecībā uz kuru pievienosit sertifikāta informāciju.
 2.  Sadaļas Darbību rūts cilnē **Nodarbinātais**, grupā **Kompetences** noklikšķiniet uz **Sertifikāti**.
-3.  Klikšķiniet **Jauns**.
+3.  Noklikšķiniet uz **Jauns**.
 4.  Laukā **Sertifikāta veids** atlasiet **PMP**.
 5.  Laukā **Sākuma datums** atlasiet **01.10.2015.**.
 6.  Noklikšķiniet uz **Saglabāt** un pēc tam aizveriet lapu.
@@ -96,7 +97,7 @@ Lai iestatītu nodarbinātā kompetences, var izmantot saraksta lapu **Nodarbin�
 ### <a name="set-up-competencies-skills"></a>Komptenču iestatīšana: prasmes
 
 1.  Saraksta lapā **Nodarbinātie** pārbaudiet, vai iepriekšējā procedūrā izmantotais nodarbinātais joprojām ir atlasīts. Pēc tam sadaļas Darbību rūts cilnē **Nodarbinātais**, grupā **Kompetences** noklikšķiniet uz **Prasmes**.
-2.  Klikšķiniet **Jauns**.
+2.  Noklikšķiniet uz **Jauns**.
 3.  Laukā **Prasme** atlasiet **Projektu vadība**.
 4.  Laukā **Līmenis** atlasiet **5 Eksperta līmenis**.
 5.  Laukā **Līmeņa datums** atlasiet **14.01.2014.**.
@@ -211,7 +212,7 @@ Tālāk esošajā procedūrā izskaidrots, kā izveidot projekta grupu.
 3.  Noklikšķiniet uz **Pievienot**.
 4.  Rūts **Pievienot projekta lomas** laukā **Loma** atlasiet **Vecākais projektu vadītājs**.
 5.  Noklikšķiniet uz **Nepieciešamās kompetences**.
-6.  Lapā **Īpašību izvēle** īpašības, ko iepriekš iestatījāt lomai Vecākais projektu vadītājs, tiek atlasītas pēc noklusējuma. Noklikšķiniet uz **OK**.
+6.  Lapā **Īpašību izvēle** īpašības, ko iepriekš iestatījāt lomai Vecākais projektu vadītājs, tiek atlasītas pēc noklusējuma. Noklikšķiniet uz **Labi**.
 7.  Lapas **Pievienot projekta lomas** laukā **Resursu skaits** ievadiet **1**.
 8.  Laukā **Resursi** uzmeklēšana parāda visus resursus, kuriem ir nepieciešamās kompetences. Atlasiet **Rihards Taurenis** un pēc tam noklikšķiniet uz **Izveidot**.
 9.  Lapā **Projekts** noklikšķiniet uz **Pievienot**.
@@ -232,7 +233,7 @@ Ieteicams izmantot partijas. Opcijas ir pieejamas, sinhronizējot noslodzes reze
 
 -   Noklikšķiniet uz **Projektu vadība un uzskaite** &gt; **Periodiskās darbības** &gt; **Noslodzes sinhronizācija** &gt; **Sinhronizēt resursu noslodzes apkopojumus**.
 
-| Opcija | apraksts                                                                                                                                                                                          |
+| Opcija | Apraksts                                                                                                                                                                                          |
 |--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Jā    | Sinhronizēt visus resursu datus ar kalendāra un pamatkalendāra informāciju un aizstāt visu informāciju projekta resursu noslodzes kalendārā.                                                  |
 | Nē     | Sinhronizēt resursu datus, pamatojoties uz datumu intervāla kodu un norādītajiem sākuma un beigu datumiem. Šī opcija nedzēš esošos datus un atjaunina informāciju tikai par jaunpievienotiem resursiem. |
@@ -316,7 +317,7 @@ WBS struktūrā ir pievienotas papildu opcijas, lai labāk izmantotu resursu sad
 
 > [!NOTE] 
 > Netiek parādīts brīdinājums par to, ka norādītais resurss tagad ir Nr. 2, jo resursu skaits joprojām ir 1.
-18. Lapā **Darba sadalījuma struktūra ** pārbaudiet resursa piešķiri WBS struktūrā un pēc tam noklikšķiniet uz **Saglabāt**.
+18. Lapā **Darba sadalījuma struktūra** pārbaudiet resursa piešķiri WBS struktūrā un pēc tam noklikšķiniet uz **Saglabāt**.
 
 ## <a name="resource-fulfillment-for-planned-resources"></a>Resursu izpilde plānotiem resursiem
 Projektu vadītājs var plānot nepieciešamo resursu lomas projektam. Resursu pārvaldnieks redzēs šos plānotos resursus kā pieprasījumus lapā **Resursu izpilde** un var piešķirt faktiskos resursus.

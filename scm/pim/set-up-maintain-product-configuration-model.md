@@ -19,10 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: e7138dcc15cb8e16ad5cee83b40ba72555d89e6a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 76f445ad88839ed8ddccde4d1cbde9589a8791b1
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -34,7 +35,7 @@ ms.lasthandoff: 03/31/2017
 
 Šajā rakstā ir aprakstītas iestatīšanas un preču konfigurācijas modeļa izveidošanas darbības.
 
-| Uzdevums                                                        | apraksts                                                                                                                                                                                                                                                                                                                                                                                        |
+| Uzdevums                                                        | Apraksts                                                                                                                                                                                                                                                                                                                                                                                        |
 |-------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Izveidojiet preces šablonu.                                    | Izveidojiet preces šablonu no saraksta **Preces šablons**. Izdodiet preces šablonu visiem saistītajiem uzņēmumiem. Preces šablonam, kas tiek izmantots kā preču konfigurācijas modeļa versija vai kā apakškomponents, ir jāatlasa konfigurācijas tehnoloģija **Konfigurācija atbilstoši ierobežojumam** un ir jāatlasa tikai preču dimensiju grupas konfigurācijas dimensija. |
 | Izveidojiet komponentus.                                          | Izveidojiet komponentus lapā **Komponenti**. Komponenti ir preces konfigurācijas modeļa pamatelementi, ko var atkārtoti izmantot vairākos preču konfigurācijas modeļos.                                                                                                                                                                                                                      |

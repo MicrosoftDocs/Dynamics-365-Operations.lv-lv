@@ -3,7 +3,7 @@ title: "Novecojušie līdzekļi"
 description: "Šajā tēmā ir aprakstīti līdzekļi, kas programmā Dynamics 365 for Operations ir noņemti vai kuru noņemšana tiek plānota. Tajā ir arī uzskaitīti līdzekļi, kas kļuva novecojuši Dynamics AX 7.0 laidienos."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -15,16 +15,20 @@ ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
-ms.dyn365.ops.version: Platform update 2
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: e9ba7239b9ff8b9b97c9dabc06fb2c68760d19d4
-ms.lasthandoff: 03/31/2017
+ms.dyn365.ops.version: Platform update 6
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8fbfc8c91c836eb9922f2bf1165ec887d8a0bc8e
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="deprecated-features"></a>Novecojušie līdzekļi
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā tēmā ir aprakstīti līdzekļi, kas programmā Dynamics 365 for Operations ir noņemti vai kuru noņemšana tiek plānota. Tajā ir arī uzskaitīti līdzekļi, kas kļuva novecojuši Dynamics AX 7.0 laidienos.
 
@@ -472,7 +476,17 @@ Datu nodalījumi nodrošina loģisku datu nošķiršanu Microsoft Dynamics AX da
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | Novecošanas pamatojums       | Dynamics AX klienta lietošana ir pārveidota tā, lai uzlabotu izmantojamību dažādās platformās un ierīcēs.                      |
 | Vai aizstāts ar citu līdzekli? | Jaunais tīmekļa klients ir balstīts uz darbvirsmas formas metadatiem un programmēšanas modeli, kas ir modificēti tā, lai nodrošinātu bagātīgu tīmekļa platformu. |
-| Ietekmētie moduļi             | Visi                                                                                                                                    |
+| Ietekmētie moduļi             | Visus                                                                                                                                    |
+
+### <a name="direct-database-connection"></a>Tiešs datu bāzes savienojums
+
+Programmā Dynamics AX 2012 R3 Retail Modern POS var izveidot tiešu savienojumu ar kanāla DB līdzīgi kā Uzņēmuma POS. Tas bija papildinājums Retail Modern POS standarta sakaru metodei, kas nodrošināja saziņu ar Retail Server starpniecību.  
+
+|                              |                                                                                         |
+|------------------------------|-----------------------------------------------------------------------------------------|
+| Novecošanas pamatojums       | Tiešajai datu bāzes savienojamībai bija nepieciešami zemākas drošības protokoli, un tā galvenokārt tika izmantota, lai sasniegtu augstāko veiktspējas līmeni. Veiktspējas un drošības uzlabojumu dēļ, kuri īstenoti programmā Dynamics 365 for Operations, tagad šī funkcionalitāte rada vairāk problēmu, nekā tā atrisina. |
+| Vai aizstāts ar citu līdzekli? | Nr.p.k. Tagad tiek atbalstīti tikai standarta Retail Server sakari.    |
+| Ietekmētie moduļi             | Kanāla DB/Retail Modern POS                                    |
 
 ### <a name="dutch-swift-mt940"></a>Holandes SWIFT MT940
 
@@ -661,8 +675,18 @@ Preču konfigurators tika izmantots, lai dinamiski konfigurētu krājumus no pā
 |                              |                                                                               |
 |------------------------------|-------------------------------------------------------------------------------|
 | Novecošanas pamatojums       | Dynamics AX pašreizējā versija neatbalsta etiķešu izmaiņu veikšanu izpildlaikā. |
-| Vai aizstāts ar citu līdzekli? | Nē                                                                            |
+| Vai aizstāts ar citu līdzekli? | Nav                                                                            |
 | Ietekmētie moduļi             | Preču informācijas pārvaldība                                                |
+
+### <a name="retail-server-connectivity-using-http"></a>Retail Server savienojamība, izmantojot HTTP
+
+Programmā Dynamics AX 2012 R3 Retail Server varēja darboties, izmantojot HTTP sakarus (nedroši). To varēja veikt papildus standarta sakariem, izmantojot HTTPS.
+
+|                              |                                                                               |
+|------------------------------|-------------------------------------------------------------------------------|
+| Novecošanas pamatojums       | Jauno drošības prasību dēļ tagad tiek atbalstīti tikai droši sakari, izmantojot TLS 1.2 (vai jaunāka versija, ja pieejama). Pašapkalpošanās instalētājs automātiski konfigurēs datoru šādam saziņas veidam. |
+| Vai aizstāts ar citu līdzekli? | Nr.p.k. Tagad tiek atbalstīti tikai standarta HTTPS sakari.                                                                           |
+| Ietekmētie moduļi             | Mazumtirdzniecības serveris                                                |
 
 ### <a name="role-center-pages"></a>Informācijas centru lapas
 
@@ -784,6 +808,8 @@ Personāla vadības algas informācija
 | Novecošanas pamatojums       | Šī funkcionalitāte ir aizstāta ar citu līdzekli.                                    |
 | Vai aizstāts ar citu līdzekli? | Ar pārvaldības atskaišu sastādītāju (pašreizējā Dynamics AX versijā apzīmēts kā **Finanšu pārskati**) |
 | Ietekmētie moduļi             | Virsgrāmata                                                                              |
+
+
 
 
 

@@ -3,7 +3,7 @@ title: "Cikla inventarizācija"
 description: "Šajā rakstā aprakstīts, kā var izmantot cikla inventarizāciju ar noliktavas risinājumu, kas ir pieejams modulī Noliktavas pārvaldība. Šis raksts neattiecas uz noliktavas risinājumu, kas ir pieejams modulī Krājumu vadība."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-18 11 - 46 - 20
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3d02a15387231160f5b8a237aa11008b91ef1223
-ms.openlocfilehash: ffc1523d53732616d77511f39b72efc8f97744eb
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 387d114936567fc471cdcafcb2e93c1704db7ead
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="cycle-counting"></a>Cikla inventarizācija
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā aprakstīts, kā var izmantot cikla inventarizāciju ar noliktavas risinājumu, kas ir pieejams modulī Noliktavas pārvaldība. Šis raksts neattiecas uz noliktavas risinājumu, kas ir pieejams modulī Krājumu vadība.
 
@@ -39,7 +43,6 @@ Cikla inventarizācija ir noliktavas process, ko var izmantot, lai auditētu rī
 
 ## <a name="cycle-counting-prerequisites"></a>Cikla inventarizācijas priekšnoteikumi
 Tālāk esošajā tabulā ir norādīti priekšnoteikumi, kas ir jāizpilda, pirms varat izmantot cikla inventarizāciju.
-
 <table>
 <colgroup>
 <col width="50%" />
@@ -82,7 +85,7 @@ Tālāk esošajā tabulā ir norādīti priekšnoteikumi, kas ir jāizpilda, pir
 <li>Cikla inventarizācijas grupēšana</li>
 <li>Cikla inventarizācija uz vietas</li>
 </ul>
-Lai iegūtu sīkāku informāciju, skatiet sadaļu <a href="configure-mobile-devices-warehouse">Konfigurēt mobilās ierīces darbam noliktavā</a>.</li>
+</li>
 <li>Iestatiet izvēlni mobilajai ierīcei.</li>
 <li>Izveidojiet darba lietotāja kontu un piešķiriet mobilās ierīces izvēlni, ko izmantot darba lietotāja ID.</li>
 </ul></td>
@@ -133,6 +136,9 @@ Ja ar darba lietotāja ID saistītajai opcijai **Ir cikla inventarizācijas vad�
 -   Inventarizācijas laikā aprēķinātā vērtība atšķiras no rīcībā esošo krājumu daudzuma, un nav iestatīti novirzes ierobežojumi.
 
 Jūs varat pielāgot inventarizācijas laikā aprēķinātās vērtības starpības un pēc tam akceptēt inventarizācijas laikā aprēķināto vērtību lapā **Izskatīšanu gaidošā cikla inventarizācija**. Jūs varat pārbaudīt koriģēto krājuma daudzuma skaitu lapā **Rīcībā esošie krājumi pēc novietojuma**. Inventarizācijas laikā aprēķinātā vērtība tiek noraidīta, ja starpību nevar apstiprināt.
+
+# <a name="see-also"></a>Skatiet arī
+[Konfigurēt mobilās ierīces darbam noliktavā](configure-mobile-devices-warehouse.md)
 
 
 

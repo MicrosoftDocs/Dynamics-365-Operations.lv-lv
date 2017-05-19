@@ -3,7 +3,7 @@ title: "Lauku aprakstu skatīšana un eksportēšana"
 description: "Šajā rakstā ir paskaidrots, ka skatīt lauku aprakstus un kā lietot lapu Lauku apraksti, lai eksportētu aprakstus."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: c8c96dc9705688308dd4a5c720700ddc17657d75
-ms.openlocfilehash: d4fc9cdee0e2160e363f9defcf6bdbc57ed4db74
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3029cb441d124e6e5aa427f7fcd95540700254c6
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="view-and-export-field-descriptions"></a>Lauku aprakstu skatīšana un eksportēšana
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir paskaidrots, ka skatīt lauku aprakstus un kā lietot lapu Lauku apraksti, lai eksportētu aprakstus.
 
@@ -80,11 +84,11 @@ Piemēram, nekādi apraksti netiek rādīti, kad laukā ****Atlasīt lapu**** ie
 
 ### <a name="i-cant-find-a-field-description"></a>Nevar atrast lauka aprakstu
 
-Mēs pievienojam aprakstus sarežģītākajiem laukiem. Ja jums ir nepieciešama palīdzība par noteiktu lauku, lūdzu, ziņojiet mums, pievienojot komentāru šim vikirakstam.
+Mēs pievienojam aprakstus sarežģītākajiem laukiem. Ja jums ir nepieciešama palīdzība par noteiktu lauku, lūdzu, ziņojiet mums, pievienojot komentāru šai tēmai.
 
 ### <a name="the-field-description-isnt-helpful"></a>Šis lauka apraksts nav noderīgs
 
-Ziņojiet mums, pievienojot komentāru šim vikirakstam. Ja varat, aprakstiet papildinformāciju, kas jums ir nepieciešama.
+Ziņojiet mums, pievienojot komentāru šai tēmai. Ja varat, aprakstiet papildinformāciju, kas jums ir nepieciešama.
 
 ### <a name="i-cant-find-a-field-on-the-field-descriptions-page"></a>Nevar atrast kādu lauku lapā Lauku apraksti
 
@@ -97,6 +101,9 @@ Informāciju par dažādajiem veidiem, kā atrast lapas, skatiet agrākā šī r
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Pielāgot lauku palīdzību](https:/docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/user-interface/customize-field-help.md)
+[Pielāgot lauku palīdzību](/dynamics365/operations/dev-itpro/user-interface/customize-field-help)
+
+
+
 
 

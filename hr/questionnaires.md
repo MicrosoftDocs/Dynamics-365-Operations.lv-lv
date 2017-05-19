@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a76ec0cd86bcc810b42ae3cd8efd8a584e6c4da3
-ms.openlocfilehash: b1a7ebd221357540384c77b78834d12f81773ff1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d67413419c4d2a983bf11c8ac36d55ed952c45f7
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -43,7 +44,7 @@ Izmantojot dažādus programmatūrā Microsoft Dynamics 365 for Operations piee
 
 Nākamajā tabulā ir sniegtas saites uz informāciju par galvenajiem anketu uzdevumiem. Lai uzzinātu plašāku informāciju, klikšķiniet uz šīm saitēm.
 
-| Tēma| apraksts|
+| Tēma| Apraksts|
 |------|------------|
 | [Anketas izstrāde](design-questionnaires.md)  | Šajā rakstā ir sniegta informācija par to, kā veidot anketu. Izstrādāšanas process ietver priekšnosacījumu, atbilžu un jautājumu iestatīšanu, un tad to kombinēšanu vienā anketā. |
 | [Anketas izplatīšana un aizpildīšana](distribute-questionnaires.md)  | Šajā rakstā ir sniegta informācija par to, kā anketu izplatīt respondentiem un kā anketas aizpildīt.                                                                       |

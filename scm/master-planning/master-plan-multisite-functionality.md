@@ -19,15 +19,19 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 19eeee753c15cf2670948ce2c615a112813c16ad
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 2112d6dd45c76af3cea75a4e06b06f9577c572ad
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="master-planning-and-multisite-functionality"></a>Vispārēja plānošana un vairākvietu funkcionalitāte
+
+[!include[banner](../includes/banner.md)]
+
 
 Vispārējā plānošanā tiek ņemti vērā vietas iestatījumi un noliktavas krājumu dimensijas. 
 
@@ -37,7 +41,7 @@ Kad dimensija ir obligāta, dimensijas lielumu jāievada visās krājuma darbīb
 
 Kad noliktava nav iestatīta kā obligāta, tā var nebūt zināma sākotnējā pieprasījumā. Plānošanas dzinim jānosaka, kādu noliktava izmantot, pamatojoties uz iestatījumiem, kas definēti vienībai, atsevišķām noliktavām un pasūtījuma rindas detaļām.
 
-Nākamajos vikirakstos ir aprakstīts, kā darbojas plānošanas programma, ja ir definēti dažādi iestatījumi, lai noteiktu izmantojamo noliktavu.
+Tālāk sniegtajās tēmās ir aprakstīts, kā plānot dziņa darbus, ja izmantojamās noliktavas noteikšanai definēti dažādi iestatījumi.
 
 [Vispārējā plānošana — vietas un noliktavas segums, noliktava ir obligāta](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
@@ -48,5 +52,7 @@ Nākamajos vikirakstos ir aprakstīts, kā darbojas plānošanas programma, ja i
 [Vispārējā plānošana — vietas segums, noliktava nav obligāta](master-plan-site-coverage-warehouse-not-mandatory.md)
 
 [Vispārējā plānošana — kā tiek noteikta MK versija](master-plan-bom-version-determined.md)
+
+
 
 

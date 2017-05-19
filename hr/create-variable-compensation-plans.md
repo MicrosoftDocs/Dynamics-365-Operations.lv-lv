@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9397e84f03ee5b340fa2aa0a64e582fc0078526e
-ms.openlocfilehash: be156afa73de731e54985485b617bcbae883db3a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 917771596a0c56561bf302ae990d95a987f442e0
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ Mainīgās atlīdzības summas saviem darbiniekiem var aprēķināt, ņemot vēr
 ## <a name="variable-compensation-components"></a>Aainīgās atlīdzības komponenti
 ### <a name="create-compensation-types"></a>Atlīdzības veidu izveide
 
-**Mainīgās atlīdzības veidi **ir nepieciešams komponents. Izmantojot mainīgās atlīdzības veidus, var aprakstīt mainīgās atlīdzības veidus, ko jūsu organizācijā izmaksā. Tie arī ļauj norādīt, vai atlīdzība tiks izmaksāta skaidrā naudā vai citā veidā, piemēram, izmantojot krājumus.
+**Mainīgās atlīdzības veidi**ir nepieciešams komponents. Izmantojot mainīgās atlīdzības veidus, var aprakstīt mainīgās atlīdzības veidus, ko jūsu organizācijā izmaksā. Tie arī ļauj norādīt, vai atlīdzība tiks izmaksāta skaidrā naudā vai citā veidā, piemēram, izmantojot krājumus.
 
 ### <a name="describe-vesting-rules"></a>Izmaksas nosacījumu aprakstīšana
 
@@ -53,21 +54,21 @@ Ja nepieciešams, uzņēmumi var iestatīt **Izmaksas nosacījumus**. Izmaksas n
 Mainīgās atlīdzības summu var izteikt vai nu procentos no darbinieka parastās pamata izpeļņas, vai arī kā vienību skaita kopu.
 
 -   Atlasiet opciju **Pamatsummas procenti**, lai ievadiet noklusējuma procentuālo vērtību, un pēc tam norādiet, vai pamatsumma ir darbinieka fiksētā izmaksu likme vai atskaites punkts darbinieka atlīdzības līmenim. Atlīdzības līmenis tiek iestatīts darbinieka darbam. Vienu atsauces punktu no atlīdzības struktūras var iestatīt kā atskaites punktu fiksētās atlīdzības plānā. Sistēma izmanto atlīdzības līmeni no darbinieka darba un veido tam krustenisko atsauci ar atskaites punktu, kas ir norādīts darbinieka fiksētas atlīdzības plānā, lai atrastu darbinieka atlīdzības līmeņa kontroles punkta summu. Pēc tam kā atlīdzības pamatsumma tiek izmantota kontroles punkta summa, nevis darbinieka fiksēto izmaksu likme.
--   Atlasiet opciju** Vienību skaits**, lai ievadītu noklusējuma vienību skaitu, katras vienības vērtību un vienības vērtības valūtu, ja atlīdzības plāns ir bezskaidras naudas atlīdzībai (piemēram, 200 vienības krājuma, kas tiek novērtētas 40 USD vērtībā), vai tikai vienību skaitu, ja atlīdzības plāns katrai skaidras naudas atlīdzībai. Naudas atlīdzības gadījumā darbinieks saņems norādīto vienību skaitu tajā valūtā, kas tiek izmantota viņa vai viņas fiksētas atlīdzības plānā (piemēram, 500 vienības ar vērtību 1 USD). Relācijas “viens pret vienu” kontroli var izmantot, lai norādītu, vai starp vienību skaitu un vienības vērtību pastāv tiešs “viens pret vienu” kartējums. Kad veidojat mainīgās atlīdzības plānu izmaksām skaidrā naudā, izmantojot vienību skaitu, šī opcija automātiski tiek bloķēta uz **Jā**, un vienības vērtība ir **1,0000**.
+-   Atlasiet opciju**Vienību skaits**, lai ievadītu noklusējuma vienību skaitu, katras vienības vērtību un vienības vērtības valūtu, ja atlīdzības plāns ir bezskaidras naudas atlīdzībai (piemēram, 200 vienības krājuma, kas tiek novērtētas 40 USD vērtībā), vai tikai vienību skaitu, ja atlīdzības plāns katrai skaidras naudas atlīdzībai. Naudas atlīdzības gadījumā darbinieks saņems norādīto vienību skaitu tajā valūtā, kas tiek izmantota viņa vai viņas fiksētas atlīdzības plānā (piemēram, 500 vienības ar vērtību 1 USD). Relācijas “viens pret vienu” kontroli var izmantot, lai norādītu, vai starp vienību skaitu un vienības vērtību pastāv tiešs “viens pret vienu” kartējums. Kad veidojat mainīgās atlīdzības plānu izmaksām skaidrā naudā, izmantojot vienību skaitu, šī opcija automātiski tiek bloķēta uz **Jā**, un vienības vērtība ir **1,0000**.
 
 Izmantojot iestatījumu **Nolīgšanas kārtula**, varat norādīt, vai visiem darbiniekiem ir jāsaņem vienāds palielinājums neatkarīgi no datuma, kurā viņi tika pieņemti darbā (**Nolīgšanas kārtula** = **Nav**), vai arī šiem darbiniekiem ir jāsaņem procenti no atlīdzības atkarībā no tā, cik ilgi viņi bija nodarbināti cikla laikā (**Nolīgšanas kārtula** = **Procenti**). 
 
 **Līdzekļu faktors** — ļauj koriģēt darbinieku atlīdzību, ņemot vērā darbinieka nodaļas sniegumu. Veiktspējas rādītājus katrai nodaļai var iestatīt lapas **Nodaļas** sadaļā **Saistītās formas** &gt; **Atlīdzība** &gt; **Veiktspēja**. Atlīdzība, ko saņem attiecīgās nodaļas darbinieki, ir atkarīga no vērtības laukā **Sasniegtie mērķa procenti**, kas norāda nodaļas sniegumu.
 
--   Ja nodaļas sniegums ir 100 procenti, atlīdzība šīs nodaļas darbiniekiem tiek aprēķināta, ņemot vērā procentuālo vērtību, kas ir iestatīta laukā** Izmaksa pie 100%**.
+-   Ja nodaļas sniegums ir 100 procenti, atlīdzība šīs nodaļas darbiniekiem tiek aprēķināta, ņemot vērā procentuālo vērtību, kas ir iestatīta laukā**Izmaksa pie 100%**.
 -   Ja nodaļas sniegums ir lielāks par 100 procentiem, sistēma pievieno procentu likmi, kas ir iestatīta laukā **Katram 1% virs mērķa**, procentu likmei, kas ir iestatīta laukā **Izmaksa pie 100%**, līdz tiek sasniegta vērtība, kas ir iestatīta laukā **Augstākā pieļaujamā izmaksa**.
 -   Ja nodaļas sniegums ir mazāks par 100 procentiem, sistēma atņem procentu likmi, kas ir iestatīta laukā **Katram 1% zem mērķa**, no procentu likmes, kas ir iestatīta laukā **Izmaksa pie 100%**, līdz tiek sasniegta vērtība, kas ir iestatīta laukā **Zemākā pieļaujamā izmaksa**.
 
-Varat iestatīt** tolerances līmeņus** no sliekšņa procentuālajām vērtībām. Tādējādi tiks parādīts brīdinājuma ziņojums, ja tolerances rezultātā procentuālā vērtība pārsniedz procentuālās vērtības slieksni. 
+Varat iestatīt**tolerances līmeņus** no sliekšņa procentuālajām vērtībām. Tādējādi tiks parādīts brīdinājuma ziņojums, ja tolerances rezultātā procentuālā vērtība pārsniedz procentuālās vērtības slieksni. 
 
 Pēc noklusējuma sistēma meklē nodaļu, kas ir iestatīta darbinieka amatam. Taču dažu darbinieku atlīdzība var būt atkarīga no vairāku nodaļu snieguma. Tādā gadījumā dažādas nodaļas un atlīdzības procentuālo vērtību, kas tiek piešķirta atkarībā no katras nodaļas snieguma, var iestatīt darbinieka mainīgās atlīdzības reģistrācijas lapā. Papildinformāciju skatiet sadaļā “Mainīgās atlīdzības reģistrācija”. 
 
-Tolerance tiek izmantota tikai tad, ja atlīdzības procesa laika tika atlasīta opcija** Alga par rezultātiem**. 
+Tolerance tiek izmantota tikai tad, ja atlīdzības procesa laika tika atlasīta opcija**Alga par rezultātiem**. 
 
 Cilnē **Līmeņu ignorēšana** varat ignorēt atlīdzības noklusējuma procentuālo vērtību vai vienību skaitu, pamatojoties uz darbinieka atlīdzības līmeni. Ja vienums **Iespējot ignorēšanu līmeņiem** ir iestatīts uz **Jā** tiem darbiniekiem, kuri ir reģistrēti mainīgās atlīdzības plānam, tad sistēma ņem līmeni no darbinieka darba un pēc tam meklē to līmeņu ignorēšanas tabulā, lai šim līmenim noteiktu procentuālo vērtību vai vienību skaitu. Ja līmeņu ignorēšanas tabulā līmenis nav atrodams, tiek izmantota noklusējuma procentuālā vērtība vai vienību skaits no cilnes **Vispārīgi**. Procentuālo vērtību un vienību skaitu var ignorēt arī darbinieka mainīgās atlīdzības plāna reģistrācijā.
 

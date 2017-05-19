@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: 1a9bf1067d0f6e0e139ef13d939d2f0e9bf2126b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8dd5cc110e83e1b10db233547b0ac2081cc6c380
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ ms.lasthandoff: 03/31/2017
 Iestatiet vecumstruktūras perioda definīciju. Vecumstruktūras perioda definīcija nosaka kolonnas, kas tiek rādītas sarakstu lapās **Vecas bilances**, **Iekasēšanas aktivitātes** un **Iekasēšanas gadījumi**. Tā definē arī periodus, kas tiek rādīti lapā **Iekasēšana**. Ja ir iestatīta debitoru kopa, kopai tiek izmantota vecumstruktūras perioda definīcija. Ja kopas nav iestatītas, tiek izmantota noklusējuma vecumstruktūras perioda definīcija, kas ir norādīta lapā **Debitoru moduļa parametri**. Ja noklusējuma vecumstruktūras perioda definīcija nav norādīta, tiek izmantota pirmā vecumstruktūras perioda definīcija no lapas **Vecumstruktūras perioda definīcijas**.
 
 ## <a name="create-an-aging-snapshot"></a>Izveidot vecumstruktūras momentuzņēmumu
-Izveidojiet vecumstruktūras momentuzņēmumu ierakstus visiem debitoriem vai debitoru kopai. Vecumstruktūras momentuzņēmuma informācija tiek rādīta saraksta lapā** Vecas bilances** un lapā **Iekasēšana**. Vispirms ir jāizveido vecumstruktūras momentuzņēmums, un tikai tad varat izmantot saraksta lapu. Saraksta lapā tiek rādīta informācija tikai par tiem debitoriem, kuriem ir izveidots vecumstruktūras momentuzņēmums.
+Izveidojiet vecumstruktūras momentuzņēmumu ierakstus visiem debitoriem vai debitoru kopai. Vecumstruktūras momentuzņēmuma informācija tiek rādīta saraksta lapā**Vecas bilances** un lapā **Iekasēšana**. Vispirms ir jāizveido vecumstruktūras momentuzņēmums, un tikai tad varat izmantot saraksta lapu. Saraksta lapā tiek rādīta informācija tikai par tiem debitoriem, kuriem ir izveidots vecumstruktūras momentuzņēmums.
 
 ## <a name="optional-set-up-customer-pools"></a>Pēc izvēles: iestatīt debitoru kopas
 Lai attēlotu debitoru grupas, varat iestatīt debitoru kopas. Debitoru kopas varat izmantot kā filtrus debitoru informācijai, kas tiek rādīta sarakstu lapās **Iekasēšana**, lapā **Iekasēšana**, vai veidojot vecumstruktūras momentuzņēmumus.

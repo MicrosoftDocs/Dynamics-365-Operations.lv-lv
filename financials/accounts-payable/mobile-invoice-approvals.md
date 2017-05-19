@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: c8c96dc9705688308dd4a5c720700ddc17657d75
-ms.openlocfilehash: 30229c0d24aed0bd927993b9af76b32d9bb073ee
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 511dc31b96f2f5133dd0c22712d2c8d6f8746e8c
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -34,7 +35,7 @@ Programmatūrā Microsoft Dynamics 365 for Operations ietvertās mobilās iesp�
 <a name="prerequisites"></a>Priekšnosacījumi
 -------------
 
-| Priekšnoteikumi                                                                                            | apraksts                                                                                                                                                          |
+| Priekšnosacījums                                                                                            | Apraksts                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Iepriekš izlasiet mobilo risinājumu rokasgrāmatu.                                                                                |(/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform.md)                                                                                                  |
 | Dynamics 365 for Operations                                                                             | Vide, kurā ir instalēta Microsoft Dynamics 365 for Operations versija 1611 un Microsoft Dynamics for Operations 3. platformas atjauninājums (2016. gada novembra versija)                   |

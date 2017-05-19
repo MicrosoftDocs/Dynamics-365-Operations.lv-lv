@@ -3,7 +3,7 @@ title: "Grāmatošanas definīcijas"
 description: "Šajā rakstā ir sniegta informācija par grāmatošanas definīcijām un veidu, kā tās definēt un saistīt. Lai uzskaites ierakstos klasificētu galvenos kontus un finanšu dimensijas, atbalstītajiem grāmatošanas veidiem un dokumentiem var izmantot grāmatošanas definīcijas nevis grāmatošanas metodes."
 author: twheeloc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,26 +18,30 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9f4d7fdd8cfa7a540fce219f6ae4792e57dfbe44
-ms.openlocfilehash: 357ae498e84ef27e46142c7dcc0f90ecb0ee9f1c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: aea0a5c078e4fb3a47cce3a7b427b56bf7a9bcf5
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="posting-definitions"></a>Grāmatošanas definīcijas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegta informācija par grāmatošanas definīcijām un veidu, kā tās definēt un saistīt. Lai uzskaites ierakstos klasificētu galvenos kontus un finanšu dimensijas, atbalstītajiem grāmatošanas veidiem un dokumentiem var izmantot grāmatošanas definīcijas nevis grāmatošanas metodes.
 
 Lai uzskaites ierakstos klasificētu galvenos kontus un finanšu dimensijas, atbalstītajiem grāmatošanas veidiem un dokumentiem var izmantot grāmatošanas definīcijas nevis grāmatošanas metodes. Atbalstītos dokumentus un grāmatošanas veidus varat skatīt lapā **Transakcijas grāmatošanas definīcijas**. 
 
-Lai sāktu lietot grāmatošanas definīcijas, atlasiet opciju** Izmantot grāmatošanas definīcijas** lapā **Virsgrāmatas parametri**. Pat ja izmantojat grāmatošanas definīcijas, vienalga ir jādefinē sākotnējo ierakstu grāmatošanas metodes un neatbalstītie grāmatošanas veidi un dokumenti. 
+Lai sāktu lietot grāmatošanas definīcijas, atlasiet opciju**Izmantot grāmatošanas definīcijas** lapā **Virsgrāmatas parametri**. Pat ja izmantojat grāmatošanas definīcijas, vienalga ir jādefinē sākotnējo ierakstu grāmatošanas metodes un neatbalstītie grāmatošanas veidi un dokumenti. 
 
 Lai pirkšanas pasūtījumiem iespējotu apgrūtinājumu uzskaiti un pirkšanas pieprasījumiem iespējotu apgrūtinājumu bez juridiskām saistībām uzskaiti, izmantotjiet grāmatošanas definīcijas.
 
 ## <a name="defining-posting-definitions"></a>Grāmatošanas definīciju definēšana
-Izmantojiet lapu** Grāmatošanas definīcijas**, lai norādītu atbilstības kritērijus un definētu ierakstus, kas ir jāģenerē rodoties atbilstībai. Atbilstības kritēriji tiek novērtēti sākotnējiem ierakstiem kā uzskaites sadalēm. 
+Izmantojiet lapu**Grāmatošanas definīcijas**, lai norādītu atbilstības kritērijus un definētu ierakstus, kas ir jāģenerē rodoties atbilstībai. Atbilstības kritēriji tiek novērtēti sākotnējiem ierakstiem kā uzskaites sadalēm. 
 
 Lapā **Grāmatošanas definīcijas** var arī piešķirt prioritātes numurus ierakstu rindām, lai kontrolētu secību, kādā rindas tiek novērtētas. Rindas, kurām ir zemāks prioritātes numurs, tiek novērtētas vispirms. Piemēram, tiek novērtētas visas rindas, kam ir prioritātes numurs 1, pēc tam rindas, kam ir prioritātes numurs 2, un tā tālāk. Ja konstatēta atbilstība, citi atbilstības kritēriji tiek ignorēti. Turklāt, tikai sākotnējai transakcijai atbilstošās grupas kritēriji rada ģenerētos ierakstus. 
 
@@ -59,5 +63,7 @@ Veidojot saites grāmatošanas definīcijās, tiek lietoti šādi ierobežojumi:
 -   grāmatošanas definīciju var piešķirt jebkuram transakcijas veidam, bet šim transakcijas veidam jābūt tajā pašā modulī, kur ir grāmatošanas definīcija. Izmantojiet lapu **Darījuma grāmatošanas definīcijas**, lai redzētu, kurā modulī ir transakcijas veids.
 
 
-Papildinformāciju skatiet tēmā [Grāmatošanas definīciju piemēri](/general-ledger/example-posting-definitions.md). 
+Papildinformāciju skatiet tēmā [Grāmatošanas definīciju piemēri](example-posting-definitions.md). 
+
+
 

@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 68cac68e1ea3db35b44c91f2c1901abf2aa521be
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4b79b21c6c4ceebfd24225643d099a2e2789d303
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -45,7 +46,7 @@ To, kā tiek aprēķināti ražošanas grafiki, nosaka vairāki iestatījumi. Š
 
 Plānošanas virziens ir plānošanas procesa pamatā. Ražošanu var plānot uz priekšu un atpakaļ no jebkura datuma atkarībā no laika un plānošanas prasībām.
 
--   **Turpvērstā plānošana **— jūs varat plānot ražošanas sākšanu pēc iespējas agrāk. Ražošanu var sākt šodien, rīt vai noteiktā datumā nākotnē. Ražošanu tiek plānots sākt agrākajā iespējamā datumā, un tā tiek plānota uz priekšu līdz agrākajam iespējamajam beigu datumam.
+-   **Turpvērstā plānošana**— jūs varat plānot ražošanas sākšanu pēc iespējas agrāk. Ražošanu var sākt šodien, rīt vai noteiktā datumā nākotnē. Ražošanu tiek plānots sākt agrākajā iespējamā datumā, un tā tiek plānota uz priekšu līdz agrākajam iespējamajam beigu datumam.
 -   **Atpakaļejošā plānošana** — jūs varat plānot ražošanas sākšanu pēc iespējas vēlāk. Grafiks tiek balstīts uz datumu, kad ražošana jāpabeidz un tiek skaitīts atpakaļ līdz pēdējam iespējamajam datumam, kad ražošanu var sākt un pabeigt noteiktajā beigu datumā.
 
 Pieejamas šādas opcijas
@@ -98,7 +99,7 @@ Ja atsauces ir atkarīgas no ražošanas pasūtījumiem, tās tiek dēvētas ar�
 
 ### <a name="synchronize-references"></a>Sinhronizēt atsauces
 
-Atsauces var sinhronizēt ar ražošanas pasūtījumu. Ja izvēlēta šī opcija, apakšražošanas tiek pārvietotas un saskaņotas, tiklīdz ražošanas pasūtījuma plānā tiek izdarītas izmaiņas. Ja ražošanas pasūtījumam ir viens vai vairāki apakšražošanas uzdevumi, varat plānot apakšražošanas uzdevumus kopā ar galveno ražošanu. Šādā gadījumā galveno ražošanu nevar sākt, kamēr nav pabeigti saistītie apakšražošanas uzdevumi. Tādējādi atzīmējiet šo izvēles rūtiņu, ja apakšražošanas uzdevumu plānošanas pamatā jābūt atlasītās ražošanas sākuma un beigu laikam. Šo izvēles rūtiņu var atzīmēt tikai tad, ja izvēles rūtiņa** Plānot atsauces** arī ir atzīmēta.
+Atsauces var sinhronizēt ar ražošanas pasūtījumu. Ja izvēlēta šī opcija, apakšražošanas tiek pārvietotas un saskaņotas, tiklīdz ražošanas pasūtījuma plānā tiek izdarītas izmaiņas. Ja ražošanas pasūtījumam ir viens vai vairāki apakšražošanas uzdevumi, varat plānot apakšražošanas uzdevumus kopā ar galveno ražošanu. Šādā gadījumā galveno ražošanu nevar sākt, kamēr nav pabeigti saistītie apakšražošanas uzdevumi. Tādējādi atzīmējiet šo izvēles rūtiņu, ja apakšražošanas uzdevumu plānošanas pamatā jābūt atlasītās ražošanas sākuma un beigu laikam. Šo izvēles rūtiņu var atzīmēt tikai tad, ja izvēles rūtiņa**Plānot atsauces** arī ir atzīmēta.
 
 ## <a name="cancellation"></a>Atcelšana
 ### <a name="cancel-queue-time"></a>Atcelt gaidīšanas laiku

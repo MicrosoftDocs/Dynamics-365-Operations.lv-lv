@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: d585ae0716a4bd9c3531e8639cd7c6b3cab780ac
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c8947f9335b3a2de83ab00bad1043ee14d35f2c8
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -57,8 +58,8 @@ Kreditoru sadarbības vispārīgos iestatījumus programmā Dynamics 365 for Ope
 
 Lai ārējam kreditoram varētu izveidot lietotāju kontus, jums šis kreditora konts ir jākonfigurē, lai kreditoram ļautu lietot kreditoru sadarbību. Lai to izdarītu, lapas **Kreditori** cilnē **Vispārīgi** lauku **Sadarbības aktivizēšana** iestatiet kā aktīvu. Varat izvēlēties no divām tālāk aprakstītajām opcijām.
 
--   **Aktīvs (PP tiek akceptēts automātiski) **— kad kreditors pirkšanas pasūtījumus pieņem bez izmaiņām, šie pirkšanas pasūtījumi tiek akceptēti automātiski.
--   **Aktīvs (PP netiek akceptēts automātiski) **— kad kreditors ir pieņēmis pirkšanas pasūtījumus, jūsu organizācijai šie pirkšanas pasūtījumi ir jāakceptē manuāli.
+-   **Aktīvs (PP tiek akceptēts automātiski)**— kad kreditors pirkšanas pasūtījumus pieņem bez izmaiņām, šie pirkšanas pasūtījumi tiek akceptēti automātiski.
+-   **Aktīvs (PP netiek akceptēts automātiski)**— kad kreditors ir pieņēmis pirkšanas pasūtījumus, jūsu organizācijai šie pirkšanas pasūtījumi ir jāakceptē manuāli.
 
 ### <a name="decide-whether-you-want-the-vendor-to-see-price-information"></a>Izlemt, vai vēlaties, lai kreditors redzētu informāciju par cenu
 

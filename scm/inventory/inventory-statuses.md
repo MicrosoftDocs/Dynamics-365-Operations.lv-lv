@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 1fcdf262ee1e7e1fbbdd0a5fed46fb1867f8d8fd
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a9794dd5bf62630ec815aaf42a032f61dbedc5dd
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -49,7 +50,7 @@ Izejošam darbam izmantojiet vienības, kam krājuma statuss ir Pieejams. Ja ir 
 
 Kad krājumu statusi ir iestatīti, varat iestatīt noklusējuma krājumu statusu vietai, vienībai un noliktavai. Varat arī iestatīt noklusējuma statusu pārdošanas, pārsūtīšanas un pirkšanas pasūtījumiem. Noklusējuma pārdošanas pasūtījumu un izejošo pārsūtīšanas pasūtījumu statusam opcija **Krājuma bloķēšana** nevar būt iestatīta uz **Jā**. Krājuma statusu, kas tiek mantots no vietas, noliktavas, vienības, pirkšanas pasūtījuma, pārsūtīšanas pasūtījuma vai pārdošanas pasūtījuma noklusējuma iestatījumiem, var mainīt, izmantojot mobilo ierīci, pirkšanas un pārdošanas pasūtījumu vai pārsūtīšanas pasūtījuma rindu. 
 
-Lai plānotu to vienību segumu, kam krājuma statuss ir Pieejams, lapā **Noliktavas dimensiju grupas** noliktavas dimensijai atlasiet opciju **Vajadzības plāns pa dimensijām**. Atverot vedni **Vienības vajadzības **, vienības, kurām statuss ir Pieejams, tiks parādītas lapā **Statuss**. Lai izveidotu šo preču segšanas iestatījumus, atlasiet krājumu statusa ID pieejamo krājumu statusiem. Pamatojoties uz segšanas iestatījumiem, varat aprēķināt preču vajadzības un prognozēt pieejamo preču piegādi un piedāvājumu vispārējās plānošanas laikā. Vienības vajadzības iestatījumus nevar izveidot, ja krājuma statuss ir Bloķēts. Tā vietā izmantojiet lapu **Vienības vajadzības**, lai izveidotu vai modificētu vienības vajadzības parametrus.
+Lai plānotu to vienību segumu, kam krājuma statuss ir Pieejams, lapā **Noliktavas dimensiju grupas** noliktavas dimensijai atlasiet opciju **Vajadzības plāns pa dimensijām**. Atverot vedni **Vienības vajadzības**, vienības, kurām statuss ir Pieejams, tiks parādītas lapā **Statuss**. Lai izveidotu šo preču segšanas iestatījumus, atlasiet krājumu statusa ID pieejamo krājumu statusiem. Pamatojoties uz segšanas iestatījumiem, varat aprēķināt preču vajadzības un prognozēt pieejamo preču piegādi un piedāvājumu vispārējās plānošanas laikā. Vienības vajadzības iestatījumus nevar izveidot, ja krājuma statuss ir Bloķēts. Tā vietā izmantojiet lapu **Vienības vajadzības**, lai izveidotu vai modificētu vienības vajadzības parametrus.
 
 
 

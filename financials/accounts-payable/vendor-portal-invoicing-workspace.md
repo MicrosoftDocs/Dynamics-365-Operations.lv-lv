@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 822e621f22f8af63b2a827dcc50a6b0ac68d3e21
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 7aebcdf0578d931d326420b42e2b220407049bc6
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="vendor-collaboration-invoicing-workspace"></a>Kreditora sadarbības rēķinu izveides darbvieta
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā tēmā izskaidrots, kā jūs varat skatīt kreditora rēķinus un iesniegt rēķinus no kreditora sadarbības rēķinu izveides darbvietas.
 
@@ -43,7 +47,7 @@ Elementi **Kopsavilkums** sniedz pārskatu par atlasītā kreditora rēķiniem. 
 Noklikšķinot uz elementa tiks atvērts lapas **Rēķinu saraksts** filtrētais skatījums.
 ### <a name="tabular-lists"></a>Tabulveida saraksti
 
-Sadaļā **Tabulveida saraksti **rēķinu izrakstīšanas stāvoklis tiek sadalīts līdzīgi kā kopsavilkuma elementi: Melnraksti un Iesniegti, neapstiprināti saraksti. Esot stāvoklī Melnraksts, rēķinu nevar iesniegt darbplūsmai vai dzēst. Rēķinu meklēšanai var izmantot pēdējo tabulveida sarakstu. Lai ātrāk iegūtu rezultātus, varat iestatīt dažādus filtrus.
+Sadaļā **Tabulveida saraksti**rēķinu izrakstīšanas stāvoklis tiek sadalīts līdzīgi kā kopsavilkuma elementi: Melnraksti un Iesniegti, neapstiprināti saraksti. Esot stāvoklī Melnraksts, rēķinu nevar iesniegt darbplūsmai vai dzēst. Rēķinu meklēšanai var izmantot pēdējo tabulveida sarakstu. Lai ātrāk iegūtu rezultātus, varat iestatīt dažādus filtrus.
 Visu kreditora rēķinu saraksta lapa
 -----------------------------
 
@@ -55,6 +59,8 @@ Jūs varat izveidot jaunu kreditora rēķinu, atlasot darbību **Jauns** **Kredi
 
 
 
-Papildinformāciju skatiet šeit: [Sadarbība ar kreditoriem, izmantojot kreditoru portālu](/dynamics365/operations/scm/procurement/collaborate-vendors-vendor-portal)
+Papildinformāciju skatiet šeit: [Sadarbība ar kreditoriem, izmantojot kreditoru portālu](/dynamics365/operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
+
+
 
 

@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 7c5986dbce88a1cb704dddfc2afbcf2ac8c4b0dd
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 2a39054e5736c1162634cf9b1dd3f7e0c0c4ec16
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -104,7 +105,7 @@ Izdevumu pārskatītāju konfigurācijas nav jādefinē. Tā vietā, definējot 
 
 Izdevumu pārskatītājus var iestatīt lapā **Pirkšanas pieprasījumu izdevumu pārskatītāji**. Izveidojiet izdevumu pārskatītāju konfigurāciju un ievadiet vērtības katrai jūsu organizācijas juridiskajai personai. Projektam piešķirtajos pieprasījumos var norādīt to, kurš būs atbildīgs par pieprasījumu pārskatīšanu: projekta vadītājs, projekta kontrolieris vai projekta pārdošanas vadītājs. Izdevumi tiks maršrutēti lietotājam, kuram ir piešķirta konkrēta loma. Izdevumus ir iespējams maršrutēt arī finanšu dimensijas īpašniekam, atzīmējot atbilstošās finanšu dimensijas opciju cilnē **Organizācijas sadales**.  
 
-Lai izmantotu kādu no darbplūsmā iestatītajiem izdevumu pārskatītājiem, opcija **Dalībnieka tips** ir jāiestata uz** Izdevumu dalībnieki** sadaļas** Piešķire**  attiecīgās darbplūsmas elementa rekvizītos.
+Lai izmantotu kādu no darbplūsmā iestatītajiem izdevumu pārskatītājiem, opcija **Dalībnieka tips** ir jāiestata uz**Izdevumu dalībnieki** sadaļas**Piešķire**  attiecīgās darbplūsmas elementa rekvizītos.
 
 <a name="see-also"></a>Skatiet arī
 --------

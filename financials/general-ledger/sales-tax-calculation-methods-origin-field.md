@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b21fd97426b331726c12ea29f89817a46dd445c3
-ms.openlocfilehash: 0a716310a3b813e08d46ac609e8ac6ce9a2db3e6
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5f3d0e2016a3ffe5500ecae9508d44a115c56880
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -51,7 +52,7 @@ Nodokļu iestāde krājumu ir aplikusi ar speciāliem nodokļiem. Šo nodokļu s
 -   PVN = 25%, izmantojot aprēķina metodi Procenti no bruto summas
 
 Ja neto summa ir 10,00, tad 1. NODOKLIS ir 1,00 (10,00 x 10%) un 2. nodoklis ir 2,00 (10,00 x 20%). Tālāk ir norādītas summas. Bruto summa: neto summa + 1. NODOKĻA summa + 2. NODOKĻA summa (10,00 + 1,00 + 2,00) = 13,00 PVN: 13,00 x 25% = 3,25 NODOKĻI un PVN kopā: 1,00 + 2,00 + 3,25 = 6,25 Kopsumma: 10,00 + 6,25 = 16,25
-| **Piezīme. **                                                                                                                                                                                                                 |
+| **Piezīme.**                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Transakcijai var izmantoti tikai vienu nodokļa kodu, kam ir iestatīta lauka Izcelsme vērtība Procenti no bruto summas. Ja transakcijai ir norādīti vairāki šādi nodokļu kodi, tiek parādīts kļūdas ziņojums par to, ka nevar aprēķināt PVN. |
 
@@ -68,7 +69,7 @@ Tiek izmantoti tālāk norādītie PVN kodi.
 -   PVN = 25%, izmantojot metodi Procenti no bruto summas
 
 Neto summa: 10,00 1. NODOKLIS: 10,00 x 10% = 1,00 2. NODOKLIS: 1,00 x 20% = 0,20 Bruto summa: 10,00 + 1,00 + 0,20 = 11,20 PVN: 11,20 x 25% = 2,80 NODOKĻI un PVN kopā: 1,00+ 0,20 + 2,80 = 4,00 Kopsumma: 10,00 + 4,00 = 14,00
-| **Piezīme. **                                                                                                                                                                                                                    |
+| **Piezīme.**                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nevar veikt daudzlīmeņu nodokļa aprēķinu, pamatojoties uz nodokli. Nevar aprēķināt nodokli, pamatojoties uz nodokli, kas jau ir aprēķināts, pamatojoties uz citu nodokli. Transakcijai var veikt vairākus vienlīmeņa nodokļa koda aprēķinus, pamatojoties uz nodokli. |
 
@@ -77,7 +78,7 @@ Ja atlasāt lauka Izcelsme vērtību Sumam uz vienu vienību, PVN tiek aprēķin
 ### <a name="example"></a>Paraugs
 
 PVN kods ir iestatīts kā: USD 1,20 uz vienu vienību = kasti Pārdošanas rēķina rindā ir reģistrēta 25 krājuma kastu pārdošana PVN ir aprēķināts kā: 25 x1,20 =30,00
-| **Piezīme. **                                                                                                                                                                                                 |
+| **Piezīme.**                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ja transakcija ir ievadīta, izmantojot citu vienību, nevis PVN kodam norādīto vienību, tā tiek automātiski konvertēta, pamatojoties uz vienību konvertācijām, kas ir iestatītas lapā Mērvienību pārveidošana. |
 

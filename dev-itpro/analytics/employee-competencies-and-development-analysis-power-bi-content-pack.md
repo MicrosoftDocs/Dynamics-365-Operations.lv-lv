@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 1fd6f978b6a871f9f7d3d5e91ab3e0aac789ae88
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 48a12a32fd6a0d95f50b98e6533173265b9867ab
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -56,8 +57,8 @@ Satura pakotnes Darbinieku zināšanas un attīstība pārskatu aizpildīšanai 
 | Darbaspēks\_Uzņēmums                | Uzņēmumi, pēc kuriem pārskatus filtrēt                                                                             |                                                                                                                                                                                                                                                                                                         |
 | Darbaspēks\_Atlīdzība           | Apmaksas likme un frekvence laika gaitā                                                                           |                                                                                                                                                                                                                                                                                                         |
 | Darbaspēks\_CurrentCompensation    | Apmaksas likme un frekvence pašreizējā datumā                                                              | Darbaspēks\_Uzņēmums Darbaspēks\_CurrentCompensation Darbaspēks\_Demogrāfiskie dati Darbaspēks\_Darbs Darbaspēks\_Amats                                                                                                                                                                                            |
-| Darbaspēks\_CurrentPosition        | Amati ir pašreizējā datuma, pilna laika ekvivalenta (full-time equivalent — FTE) atvērti amati/vakances, un amati, kas ir atvērti līdz aizpildīšanai | Darbaspēks\_Darbs Darbaspēk\_Amats                                                                                                                                                                                                                                                                      |
-| Darbaspēks\_CurrentWorker          | Nodarbinātie pašreizējā datumā, vecums un skaits                                                         | Darbaspēks\_Uzņēmums Darbaspēks\_Atlīdzība Darbaspēks\_GeographicLocation Darbaspēks\_Veiktspēja Darbaspēks\_PersonSkill Darbaspēks\_WorkerName Darbaspēks\_ReportsToWorkerName Darbaspēks\_WorkerTitle Darbaspēks\_Demogrāfiskie dati Darbaspēks\_Darbs Darbaspēks\_Nodarbinātība Darbaspēks\_Amats                     |
+| Workforce\_CurrentPosition        | Amati ir pašreizējā datuma, pilna laika ekvivalenta (full-time equivalent — FTE) atvērti amati/vakances, un amati, kas ir atvērti līdz aizpildīšanai | Workforce\_Job Workforce\_Position                                                                                                                                                                                                                                                                      |
+| Workforce\_CurrentWorker          | Nodarbinātie pašreizējā datumā, vecums un skaits                                                         | Darbaspēks\_Uzņēmums Darbaspēks\_Atlīdzība Darbaspēks\_GeographicLocation Darbaspēks\_Veiktspēja Darbaspēks\_PersonSkill Darbaspēks\_WorkerName Darbaspēks\_ReportsToWorkerName Darbaspēks\_WorkerTitle Darbaspēks\_Demogrāfiskie dati Darbaspēks\_Darbs Darbaspēks\_Nodarbinātība Darbaspēks\_Amats                     |
 | Darbaspēks\_Datums                   | Dienas, nedēļas, mēneši un gadi                                                                             |                                                                                                                                                                                                                                                                                                         |
 | Darbaspēks\_Demogrāfiskie dati           | Dzimšanas datums, dzimums, etniskā izcelsme un ģimenes stāvoklis                                                   |                                                                                                                                                                                                                                                                                                         |
 | Darbaspēks\_Nodarbinātība             | Sākuma datums, beigu datums un pārejas datums                                                                  |                                                                                                                                                                                                                                                                                                         |

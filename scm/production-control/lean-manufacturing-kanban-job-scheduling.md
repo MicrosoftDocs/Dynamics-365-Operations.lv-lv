@@ -3,7 +3,7 @@ title: "Kanban darbu plānošana metodei lean manufacturing"
 description: "Šajā rakstā ir sniegta informācija par vizuālo kontroli pār kanban darbu plānošanu un dažādajiem veidiem, kā plānot kanban darbus."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-24 15 - 02 - 36
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,22 +18,28 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 062cbbc8a4fd3b4dc738f24ee0606a3741736377
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 019974b96985748c82641b73e40a3131d5b27232
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Kanban darbu plānošana metodei lean manufacturing
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā rakstā ir sniegta informācija par vizuālo kontroli pār kanban darbu plānošanu un dažādajiem veidiem, kā plānot kanban darbus.  
 
 Lapa **Kanban darbu plānošana** nodrošina lean manufacturing darba šūnu vizuālu kontroli. Tā sniedz visu Kanban darbu pārskatu un nodrošina vairākas filtrēšanas iespējas. No šīs lapas var pārvietoties uz visām citām lapām, kas ir saistītas ar Kanban konfigurāciju un izpildi.
 
 ## <a name="automatic-scheduling-of-kanban-jobs"></a>Automātiska Kanban darbu plānošana
-Plānošanu var aktivizēt automātiski, ja iestatāt Kanban nosacījuma parametru **Automātiskais plānošanas daudzums**. Ja iestatāt parametra **Automātiskais plānošanas daudzums** vērtību **1**, katrs Kanban darbs tiek automātiski plānots uzreiz pēc tā izveidošanas. Rezultāts ir pirmās pieprasījumpiegādes, pirmās apkalpošanas operāciju sērija. Ja iestatāt **Automātiskais plānošanas daudzums** uz vērtību, kas ir lielāka nekā 1, Kanban darbi tiek grupēti, pirms tie tiek plānoti. Šī koncepcija ļauj padarīt Kanban lielumu mazāku par faktiskās ekonomiskās partijas lielumu. Piemēram, konkrēta krājuma (vai krājumu saimes) ekonomiskās partijas lielums ir 30. Tā vietā, lai izveidotu Kanban, kas izmantot preču daudzumu 30, varat konfigurēt Kanban nosacījumu tā, lai preču daudzums būtu 10 un parametra **Automātiskais plānošanas daudzums** vērtība būtu **3**. Lai gan automātiskā plānošana plāno Kanban darbus darba šūnai tikai tad, ja pastāv trīs neplānotie darbi, plānotājs un ražotnes vadītājs var skaidri redzēt, ka divi neplānotie darbi gaida izpildi. Plānotājs vai ražotnes pārvaldnieks var iekļaut šos divus darbus ražošanā, ieplānojot tos manuāli vai izveidojot papildu Kanban.
+Plānošanu var aktivizēt automātiski, ja iestatāt Kanban nosacījuma parametru **Automātiskais plānošanas daudzums**. Ja iestatāt parametra **Automātiskais plānošanas daudzums** vērtību **1**, katrs Kanban darbs tiek automātiski plānots uzreiz pēc tā izveidošanas. Rezultāts ir pirmās pieprasījumpiegādes, pirmās apkalpošanas operāciju sērija. Ja iestatāt **Automātiskais plānošanas daudzums** uz vērtību, kas ir lielāka nekā 1, Kanban darbi tiek grupēti, pirms tie tiek plānoti. 
+
+Šī koncepcija ļauj padarīt Kanban lielumu mazāku par faktiskās ekonomiskās partijas lielumu. Piemēram, konkrēta krājuma (vai krājumu saimes) ekonomiskās partijas lielums ir 30. Tā vietā, lai izveidotu Kanban, kas izmantot preču daudzumu 30, varat konfigurēt Kanban nosacījumu tā, lai preču daudzums būtu 10 un parametra **Automātiskais plānošanas daudzums** vērtība būtu **3**. Lai gan automātiskā plānošana plāno Kanban darbus darba šūnai tikai tad, ja pastāv trīs neplānotie darbi, plānotājs un ražotnes vadītājs var skaidri redzēt, ka divi neplānotie darbi gaida izpildi. Plānotājs vai ražotnes pārvaldnieks var iekļaut šos divus darbus ražošanā, ieplānojot tos manuāli vai izveidojot papildu Kanban.
 
 ## <a name="manual-scheduling"></a>Manuālā plānošana
 Manuālai plānošanai programmā Microsoft Dynamics AX 2012 ir ieviests Kanban plānošanas panelis. Manuālo plānošanu var kombinēt ar automātisko plānošanu. Kanban plānošanas panelis ļauj jums plānot darbus un izņemt darbus no plāna, mainīt tos secību vai pārvietot to no perioda uz periodu. Darbus, kas ir balstīti uz Kanban nosacījumiem, kur vērtība **Automātistā plānošana** ir lielāka par **0**, var manuāli izslēgt no plāna. Tomēr, šie darbi tiks pārplānoti, kad notiks nākamais automātiskās plānošanas notikums (t.i., kad tiek izveidots jauns Kanban). Manuālai plānošanai ir pieejamas šādas opcijas:
@@ -66,5 +72,7 @@ Saraksta lapa **Kanban darbu plānošana** satur papildinformāciju, kur redzama
 
 <a name="see-also"></a>Skatiet arī
 --------
+
+
 
 

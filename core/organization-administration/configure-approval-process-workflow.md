@@ -3,7 +3,7 @@ title: "Konfigurēt apstiprināšanas procesu darbplūsmā"
 description: "Izmantojiet tālāk aprakstīto procedūru, lai konfigurētu apstiprināšanas procesa rekvizītus."
 author: sericks007
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 579e393ef64bc5ad72d129ac08ac215c524d5c55
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 99decd86602e7537af6393c6d28c262f20ca1f00
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="configure-an-approval-process-in-a-workflow"></a>Konfigurēt apstiprināšanas procesu darbplūsmā
+
+[!include[banner](../includes/banner.md)]
+
 
 Izmantojiet tālāk aprakstīto procedūru, lai konfigurētu apstiprināšanas procesa rekvizītus.
 
@@ -132,7 +136,7 @@ Varat apzīmēt pēdējo apstiprinātāju scenārijiem, kuros apstiprinātājs i
 
 ## <a name="set-a-time-limit"></a>Laika robežas iestatīšana
 Veiciet šīs darbības, ja apstiprināšanas process ir jāpabeidz noteiktā laikā.
-| **Piezīme **                                                                                                                                                |
+| **Piezīme**                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Šajās darbībās izvēlētās opcijas tiks lietotas neatkarīgi no opcijām, kas atlasītas katra apstiprināšanas soļa apgabalā **Piešķire** un **Eskalācija**. |
 
@@ -155,13 +159,15 @@ Kad dokuments ir piešķirts lietotājam apstiprināšanai, lietotājam ar šo d
 4.  Atzīmējiet izvēles rūtiņu **Pieprasīt izmaiņas**, ja lietotājs var pieprasīt izmaiņas dokumentā.
 5.  Atzīmējiet izvēles rūtiņu **Deleģēt**, ja lietotājs var piešķirt dokumentu citam lietotājam apstiprināšanai.
 
-**Piezīme**. Izvēles rūtiņa **Iespējot darbības no darbu saraksta uzņēmuma portālā ** ir novecojusi.
+**Piezīme**. Izvēles rūtiņa **Iespējot darbības no darbu saraksta uzņēmuma portālā** ir novecojusi.
 
 ## <a name="configure-the-approval-steps"></a> Apstiprinājuma darbību konfigurēšana
 Apstiprināšanas process sastāv no apstiprināšanas darbībām. Veiciet šādu procedūru, lai pievienotu darbības apstiprināšanas procesam un konfigurētu darbības.
 1.  Darbplūsmas redaktorā veiciet dubultklikšķi uz apstiprināšanas procesa. Darbplūsmas redaktorā tiek parādītas apstiprināšanas procesa darbības.
 2.  Lai pievienotu apstiprināšanas darbību, velciet darbību no apgabala **Darbplūsmas elementi** uz audekla.
-3.  Lai konfigurētu apstiprināšanas darbību, skatiet sadaļu [Apstiprinājuma darbības konfigurēšana](http://axhelp.dynamics.com/en/wiki/configure-an-approval-step/).
+3.  Lai konfigurētu apstiprināšanas darbību, skatiet sadaļu [Apstiprinājuma darbības konfigurēšana](configure-approval-step-workflow.md).
+
+
 
 
 

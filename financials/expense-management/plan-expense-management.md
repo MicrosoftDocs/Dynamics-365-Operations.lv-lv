@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: af7e7288f741b3c519227e2778c4c4311c3a2012
-ms.openlocfilehash: 88cdf531b6da615034f9982d3503b9add0100479
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 447ba56a279a29392b00119730c3594fa4ea80f6
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -42,7 +43,7 @@ Izdevumu pārvaldība ir cieši integrēta jūsu organizācijas finanšu pārval
 
 ### <a name="per-diems"></a>Dienasnauda
 
-Ir nepieciešams definēt darbinieku dienasnaudas, ko nodrošina jūsu organizācija. Tā kā dienasnaudas parasti tiek izmantotas, lai segtu tādus izdevumus kā maltītes, izmitināšana un citi gadījuma izdevumi, varat izveidot kārtulas attiecībā uz dienasnaudas piemaksām, jūsu organizācija piedāvā. Dienasnaudas likmes var būt balstītas uz komandējuma gada laiku, komandējuma vietu vai uz abiem. Kad definējat dienasnaudas kārtulu, varat norādīt, ka tiek ieturēts procentuāls daudzums no dienas naudas, ja darbinieks saņem brīvpusdienas vai bezmaksas pakalpojumus. Varat arī definēt dienasnaudas likmju pakāpes, lai iestatītu minimālo un maksimālo stundu skaitu, kādam dienasnaudas likmes var lietot attiecībā uz darbinieka komandējumu. **Lēmumi: **
+Ir nepieciešams definēt darbinieku dienasnaudas, ko nodrošina jūsu organizācija. Tā kā dienasnaudas parasti tiek izmantotas, lai segtu tādus izdevumus kā maltītes, izmitināšana un citi gadījuma izdevumi, varat izveidot kārtulas attiecībā uz dienasnaudas piemaksām, jūsu organizācija piedāvā. Dienasnaudas likmes var būt balstītas uz komandējuma gada laiku, komandējuma vietu vai uz abiem. Kad definējat dienasnaudas kārtulu, varat norādīt, ka tiek ieturēts procentuāls daudzums no dienas naudas, ja darbinieks saņem brīvpusdienas vai bezmaksas pakalpojumus. Varat arī definēt dienasnaudas likmju pakāpes, lai iestatītu minimālo un maksimālo stundu skaitu, kādam dienasnaudas likmes var lietot attiecībā uz darbinieka komandējumu. **Lēmumi:**
 
 -   Noklusējuma dienasnaudas kārtulas pirmajai un pēdējai dienai:
     -   Kāds ir minimālais stundu skaits, ko darbinieks var pieprasīt vienai dienai un joprojām saņemt dienasnaudu?
@@ -127,7 +128,7 @@ Attiecībā uz nodokļiem, kas saistīti ar izdevumiem, jums ir jānosaka, kas t
 Ievērojiet — ja virsgrāmatas plānošanas laikā jūs nolēmāt lietot ASV pārdošanas nodokļa un importa nodokļa kārtulas, kas tiek izdarīts, lauka **Lietot pārdošanas nodokļa nodokļu kārtulas** vērtību pārslēdzot uz Jā, tad jūs nevarat nodokļa atgūšanu iespējot izdevumiem.
 
 ## <a name="policies"></a>Lietošanas ierobežojumi
-Varat izveidot izdevumu atskaišu politikas tā, lai jūsu organizācija varētu ietaupīt laiku un naudu, kad darbinieki rada zaudējumus tās vārdā. Politikas nodrošina, ka darbinieki iekļaujas budžetā, sniedz visu prasīto informāciju un tērē naudu tikai pēc nepieciešamības. Attiecībā uz katru izdevumu atskaišu politiku un katru izdevumu atskaites apstiprināšanas politiku, ko izveidojat, jums ir jāpieņem tālāk norādītie lēmumi. **Lēmumi: **
+Varat izveidot izdevumu atskaišu politikas tā, lai jūsu organizācija varētu ietaupīt laiku un naudu, kad darbinieki rada zaudējumus tās vārdā. Politikas nodrošina, ka darbinieki iekļaujas budžetā, sniedz visu prasīto informāciju un tērē naudu tikai pēc nepieciešamības. Attiecībā uz katru izdevumu atskaišu politiku un katru izdevumu atskaites apstiprināšanas politiku, ko izveidojat, jums ir jāpieņem tālāk norādītie lēmumi. **Lēmumi:**
 
 -   Kāds ir politikas nosaukums?
 -   Kam šī izdevumu politika ir paredzēta?

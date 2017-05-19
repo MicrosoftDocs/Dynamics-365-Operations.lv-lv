@@ -3,7 +3,7 @@ title: "Rēķinu un pavadzīmju numurēšana Latvijai un Lietuvai"
 description: "Šajā tēmā ir paskaidrots, kā iestatīt numuru sērijas rēķiniem un pavadzīmēm un kā dokumentiem iestatīt pašnumerācijas diapazonus."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Latvia, Lithuania
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 6bb98cc72c2ec0c1551412dd39d5bea3ce10e2cd
-ms.openlocfilehash: c36db28260fc081f5667149bb52f9d3df0369490
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 198839f1e1f2eada32c23d1d3d030c0d326d478b
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="invoice-and-packing-slip-numbering-for-latvia-and-lithuania"></a>Rēķinu un pavadzīmju numurēšana Latvijai un Lietuvai
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā tēmā ir paskaidrots, kā iestatīt numuru sērijas rēķiniem un pavadzīmēm un kā dokumentiem iestatīt pašnumerācijas diapazonus.
 
@@ -97,7 +101,7 @@ Rēķiniem un pavadzīmēm, kas tiek ģenerēti moduļos **Debitoru parādi**, *
 | Tips           | Atlasiet numurējamo dokumentu tipu: **Rēķins** vai **Pavadzīme**.                                                                         |
 | Automātiska numerācija | Atzīmējiet šo opciju, lai numuru dokumentam piešķirtu automātiski. Atsevišķiem dokumentiem šo opciju varat manuāli atzīmēt vai noņemt tās atzīmi.       |
 
-Papildinformāciju par to, ka manuāli numurēt rēķinus un pavadzīmes, skatiet rakstā [(EEU) Labot rēķina ID pārdošanas pasūtījumos](https://ax.help.dynamics.com/en/?post_type=incsub_wiki&p=1162853&preview=true).
+Papildinformāciju par to, ka manuāli numurēt rēķinus un pavadzīmes, skatiet rakstā [Labot rēķina ID pārdošanas pasūtījumos](emea-edit-invoice-id-sales-orders.md).
 
 ## <a name="affected-processes"></a>Ietekmētie procesi
 Izmantojot rēķinu un pavadzīmju numurēšanu, tiek atjauninātas tālāk uzskaitīto dokumentu galvenes.
@@ -124,5 +128,7 @@ Turklāt tālāk norādītās formas tiek papildinātas ar lauku **Atjaunināmie
 -   Pirkšanas produktu ieejas plūsmas grāmatošanas forma
 
 Lauks “**Atjaunināmie dokumenti**” ietekmē lauku “**Dokumenta statuss**” žurnālā “**Pavadzīmju žurnāls**” un "**Rēķinu žurnāls**". Veidojot dokumentu **Pavadzīme**, lauka “**Dokumenta statuss**”vērtība ir vienāda ar vērtību “**Nav**”. Ja laukā “**Atjaunināmie dokumenti**” tika izvēlēta kāda **Pavadzīme**, tad tās “**Dokumenta statuss**” ir “**Bojāts**”, bet “**Dokumenta statuss**” tādam dokumentam **Pavadzīme**, kur tas tika izdarīts, ir “**Atcelts**”.
+
+
 
 

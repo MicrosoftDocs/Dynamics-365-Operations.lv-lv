@@ -1,16 +1,16 @@
 ---
 title: "Rindas definīcijas finanšu atskaišu veidotājā"
 description: "Rindas definīcija ir atskaites komponents jeb veidošanas bloks, kas norāda katras rindas saturu finanšu atskaitē. Rindas definīciju var kombinēt ar kolonnas definīcijām, atskaišu koka definīcijām un atskaites definīcijām, lai izveidotu veidošanas bloku grupu, kuru var izmantot vairāki uzņēmumi."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-18 15 - 42 - 39
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: Management Reporter, Core
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: a2f92effd1cfdc1d5da2c5ec895c0487a6fc82a4
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: aa9fcc4d0c122d2355362b75ca210af4c2ef4338
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="row-definitions-in-financial-report-designer"></a>Rindas definīcijas finanšu atskaišu veidotājā
+
+[!include[banner](../includes/banner.md)]
+
 
 Rindas definīcija ir atskaites komponents jeb veidošanas bloks, kas norāda katras rindas saturu finanšu atskaitē. Rindas definīciju var kombinēt ar kolonnas definīcijām, atskaišu koka definīcijām un atskaites definīcijām, lai izveidotu veidošanas bloku grupu, kuru var izmantot vairāki uzņēmumi.
 
@@ -72,11 +76,11 @@ Lai rindas definīcijai pievienotu dimensijas, izpildiet šādas darbības.
 
 1.  Atskaišu veidotājā noklikšķiniet uz **Rindas definīcijas** un atveriet modificējamo rindas definīciju.
 2.  Izvēlnē **Rediģēšana** noklikšķiniet uz **Ievietot rindas no dimensijām**.
-3.  Dialoglodziņa **Ievietot rindas no dimensijām **rindā **Dimensijas** atlasiet šūnu dimensijai, kuru pārsūtīt uz rindas definīciju, un pēc tam noklikšķiniet uz **Visas &&&**.
+3.  Dialoglodziņa **Ievietot rindas no dimensijām** rindā **Dimensijas** atlasiet šūnu dimensijai, kuru pārsūtīt uz rindas definīciju, un pēc tam noklikšķiniet uz **Visas &&&**.
 4.  Lai rindas definīcijai ļautu izmantot tikai noteiktu dimensijas vērtību diapazonu, dimensijas sākuma vērtību ievadiet šūnā **Dimensijas diapazona sākums** un pēc tam dimensijas beigu vērtību ievadiet šūnā **Dimensijas diapazona beigas**. Lai atlasītajai dimensijai iekļautu visas vērtības, atstājiet šīs šūnas tukšas. **Piezīme.** . Aizstājējzīmes (\* vai ?) dimensiju diapazonos var neatgriezt visus vēlamos rezultātus atkarībā no tā, kā ERP datu bāzē tiek apkopoti dati.
 5.  Laukā **Sākuma rindas kods** norādiet rindas kodu pirmajai dimensijas vērtībai, kas jāpievieno rindas definīcijai.
 6.  Laukā **Pieauguma solis katrā rindā** norādiet atstarpi starp secīgiem rindu kodiem. Piemēram, ja pirmās rindas kods ir 100 un pieauguma vērtība ir 30, pirmo jauno rindu kodi ir 100, 130, 160, 190 un 220. Izmantojiet pieauguma vērtību, kas nodrošina pietiekami daudz vietas jaunu formāta un formulas rindu ievietošanai.
-7.  Noklikšķiniet uz **OK**. Katrai no atlasītajām dimensijas vērtībām rindas definīcijai tiek pievienota viena rinda.
+7.  Noklikšķiniet uz **Labi**. Katrai no atlasītajām dimensijas vērtībām rindas definīcijai tiek pievienota viena rinda.
 
 ## <a name="adjust-rounding-in-a-row-definition"></a>Noapaļošanas koriģēšana rindas definīcijā
 Ja jums ir bilance, kur summas tiek noapaļotas, tad kopsummas var nesakrist. Šāda problēma var rasties, ja, piemēram, jūs bilances atskaitē izmantojat noapaļošanas opciju un arī atskaites definīcijai ir norādīta noapaļošana. Varat rindas definīcijā izmantot opciju **Noapaļošanas korekcija**, lai sabalansētu bilanču summas. Varat noapaļošanu izslēgt vai to modificēt atskaites definīcijas cilnē **Iestatījumi**. Sekojošajā tabulā redzams, kā šīs summas tiek noapaļotas. Ja noapaļošana ir ieslēgta, šīs tabulas 100. un 200. rindas kopsummas atšķiras.
@@ -97,9 +101,9 @@ Lai koriģētu bilances noapaļošanu, izpildiet šādas darbības.
     -   **Saistību un kapitāla kopsummas rinda** — rindas kods rindai bilancē, kas satur kopējo saistību un kapitāla summu.
     -   **Korekcijas summas ierobežojums** — pozitīvs vesels skaitlis, kas norāda automātisko korekciju ierobežojumu. Šī summa tiek salīdzināta ar faktisko noapaļošanas starpības absolūto vērtību.
 
-    **Piezīme: **šie rindu kodi ir jāsaista ar jūsu finanšu datiem. Citiem vārdiem sakot, rindas šūnā **Saite uz finanšu dimensijām** jābūt dimensijas vērtībai. **Neatsaucieties** uz apraksta (**DESC**), aprēķina (**CALC**) vai kopsavilkuma (**TOT**) rindu.
+    **Piezīme:** šie rindu kodi ir jāsaista ar jūsu finanšu datiem. Citiem vārdiem sakot, rindas šūnā **Saite uz finanšu dimensijām** jābūt dimensijas vērtībai. **Neatsaucieties** uz apraksta (**DESC**), aprēķina (**CALC**) vai kopsavilkuma (**TOT**) rindu.
 
-Kad noapaļošana ir ieslēgta, jūsu bilances summas tagad tiks izlīdzinātas. **Piezīme: **korekcijas ierobežojums tiek piemērots, pamatojoties uz opciju **Noapaļošanas precizitāte**, kas ir norādīta pārskata definīcijā. Piemēram, ja atskaites summas noapaļojat līdz tūkstošiem un laukā **Korekcijas summas ierobežojums** ievadāt **2**, tad brīdinājuma ziņojums tiek parādīts, kad laukā **Noapaļošanas korekcijas rinda** esošā vērtība tiek palielināta vai samazināta par vairāk nekā 2000.
+Kad noapaļošana ir ieslēgta, jūsu bilances summas tagad tiks izlīdzinātas. **Piezīme:** korekcijas ierobežojums tiek piemērots, pamatojoties uz opciju **Noapaļošanas precizitāte**, kas ir norādīta pārskata definīcijā. Piemēram, ja atskaites summas noapaļojat līdz tūkstošiem un laukā **Korekcijas summas ierobežojums** ievadāt **2**, tad brīdinājuma ziņojums tiek parādīts, kad laukā **Noapaļošanas korekcijas rinda** esošā vērtība tiek palielināta vai samazināta par vairāk nekā 2000.
 
 ## <a name="format-row-and-column-text"></a>Rindu un kolonnu teksta formatēšana
 Savu pārskatu izskatu varat pielāgot, mainot fontus un izmantojot teksta formatēšanu. Nākamajās sadaļās ir paskaidrots, kā formatēt atskaišu rindu un kolonnu izskatu.
@@ -117,7 +121,7 @@ Savai atskaitei varat veidot un modificēt fontu stilus. Pēc tam šos stilus va
 <tr class="odd">
 <td>Fonta stila izveide</td>
 <td><ol>
-<li>Pārskatu veidotāja izvēlnē <strong>Formāts </strong>noklikšķiniet uz <strong>Stili un formatējums</strong>.</li>
+<li>Pārskatu veidotāja izvēlnē <strong>Formāts</strong> noklikšķiniet uz <strong>Stili un formatējums</strong>.</li>
 <li>Dialoglodziņā <strong>Stili un formatējums</strong> noklikšķiniet uz <strong>Jauns</strong> un pēc tam ievadiet unikālu nosaukumu jaunajam stilam.</li>
 <li>Veiciet fontu atlasi un tad noklikšķiniet uz <strong>Labi</strong>.</li>
 </ol></td>
@@ -125,7 +129,7 @@ Savai atskaitei varat veidot un modificēt fontu stilus. Pēc tam šos stilus va
 <tr class="even">
 <td>Fonta stila modificēšana</td>
 <td><ol>
-<li>Pārskatu veidotāja izvēlnē <strong>Formāts </strong>noklikšķiniet uz <strong>Stili un formatējums</strong>.</li>
+<li>Pārskatu veidotāja izvēlnē <strong>Formāts</strong> noklikšķiniet uz <strong>Stili un formatējums</strong>.</li>
 <li>Dialoglodziņā <strong>Stili un formatējums</strong> atlasiet modificējamo stilu un pēc tam noklikšķiniet uz <strong>Modificēt</strong>.</li>
 <li>Veiciet fontu atlasi un tad noklikšķiniet uz <strong>Labi</strong>.</li>
 </ol></td>
@@ -173,6 +177,8 @@ Lai atvieglotu iespēju apskatīt kolonnas, ar kurām strādājat rindas definī
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Finanšu pārskatu veidošana programmai Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
+[Finanšu pārskati](financial-reporting-intro.md)
+
+
 
 

@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: f77fe37933854d66c35a4a14e6dfb6db398eb034
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 53700246fb072c4d9afb2e475ae27892700a078a
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -58,7 +59,7 @@ Resursu grupa ir darbību veikšanas resursu kopa, kas pārstāv granularitāti,
 Ražošanas vienība ir administratīva vienība, kas ir resursu grupu kolekcija. Ražošanas vienība var saturēt vairākas resursu grupas, bet resursu grupu var piešķirt tikai vienai ražošanas vienībai. Ražošanas vienība parāda ražošanas resursu fizisko izkārtojumu, un tā neietekmē darbības vai to, kā tās tiek apstrādātas. Ražošanas vienība ir jāsaista ar vietu. Ražošanas vienībai varat piešķirt arī izdošanas noliktavu un glabāšanas noliktavu. Varat izmantot ražošanas vienību, lai konsolidētu un filtrētu ar ražošanu saistītos datus. Piemēram, ražotnes pārvaldnieks var skatīt pārskatu par konkrētas ražošanas vienības neizpildīto darba noslodzi un pieejamo noslodzi. Varat mainīt ražošanas vienību, kas piešķirta resursu grupai. Varat arī izdzēst ražošanas vienību. Tomēr šīs ražošanas vienības izmaiņas ir efektīvas tikai jaunajiem pasūtījumiem, kas ir izveidoti pēc vispārējās plānošanas izpildes. Ja vēlaties lietot ražošanas vienības izmaiņas esošajiem pasūtījumiem, tas jādara manuāli.
 
 ## <a name="resource-scheduling"></a>Resursu plānošana
-Operācijas resursi tiek piešķirti darbībām, ieplānojot projektu vai ražošanu. Ir pieejamas divas plānošanas metodes: operāciju plānošana un darbu plānošana. Izmantojot darbību veikšanas plānošanu, katra darbības veikšana vai projekta darbība tiek ieplānota resursu grupā, kurā ir darbības veikšanas resursi atbilstoši darbības veikšanai norādītajām resursu prasībām. Ja darbībai nepieciešami noteikti operācijas resursi, plānošana rezervē noslodzi tikai noteiktām resursu grupas operācijām. Darbu plānošana ir daudz detalizētāka plānošanas forma par operāciju plānošanu. Tā sadala katru darbību tās atsevišķajos uzdevumos un darbos. Šie darbi pēc tam tiek piešķirti operācijas resursiem, kas tos veiks. Plānošana rezervē noslodzi resursu grupās, pamatojoties uz darbības laikiem, kas definēti ražošanas maršrutā vai projekta darbībās. Ja strādājat ar ierobežotu noslodzi, grafiks būs atkarīgs no tiem pieejamajiem operācijas resursiem, kas nepieciešami darbības veikšanai. Darbību veikšanas plānošanai resursu grupas noslodze ir pieejamās darbības veikšanas resursu summa, kas ir daļa no šīs grupas. Noslodzes rezervācijas, kas jau pastāv darbību veikšanas resursiem, tiek uzskatītas par nepieejamu noslodzi. Ja nav pietiekami daudz pieejamās noslodzes ražošanai, ražošanas pasūtījumus var aizkavēt vai pat apturēt. Lapā **Resursi **var definēt vairākus rekvizītus, kas kontrolē, kā tiek veiktas noslodzes rezervācijas:
+Operācijas resursi tiek piešķirti darbībām, ieplānojot projektu vai ražošanu. Ir pieejamas divas plānošanas metodes: operāciju plānošana un darbu plānošana. Izmantojot darbību veikšanas plānošanu, katra darbības veikšana vai projekta darbība tiek ieplānota resursu grupā, kurā ir darbības veikšanas resursi atbilstoši darbības veikšanai norādītajām resursu prasībām. Ja darbībai nepieciešami noteikti operācijas resursi, plānošana rezervē noslodzi tikai noteiktām resursu grupas operācijām. Darbu plānošana ir daudz detalizētāka plānošanas forma par operāciju plānošanu. Tā sadala katru darbību tās atsevišķajos uzdevumos un darbos. Šie darbi pēc tam tiek piešķirti operācijas resursiem, kas tos veiks. Plānošana rezervē noslodzi resursu grupās, pamatojoties uz darbības laikiem, kas definēti ražošanas maršrutā vai projekta darbībās. Ja strādājat ar ierobežotu noslodzi, grafiks būs atkarīgs no tiem pieejamajiem operācijas resursiem, kas nepieciešami darbības veikšanai. Darbību veikšanas plānošanai resursu grupas noslodze ir pieejamās darbības veikšanas resursu summa, kas ir daļa no šīs grupas. Noslodzes rezervācijas, kas jau pastāv darbību veikšanas resursiem, tiek uzskatītas par nepieejamu noslodzi. Ja nav pietiekami daudz pieejamās noslodzes ražošanai, ražošanas pasūtījumus var aizkavēt vai pat apturēt. Lapā **Resursi**var definēt vairākus rekvizītus, kas kontrolē, kā tiek veiktas noslodzes rezervācijas:
 
 -   **Noslodze** — norādiet operācijas resursu noslodzi stundā attiecībā uz noslodzes mērvienību.
 -   **Paketes noslodze** — norādiet maksimālo gabalu daudzumu, ko operācijas resursi var vienlaikus apstrādāt.

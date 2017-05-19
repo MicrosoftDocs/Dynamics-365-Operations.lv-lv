@@ -1,9 +1,9 @@
 ---
-title: "Elektronisko pārskatu iestatīšana, lai nodrošinātu Power BI datus no programmatūras Dynamics 365 for Operations"
+title: "Konfigurēt elektroniskos pārskatus, lai ievilktu datus pakalpojumā Power BI"
 description: "Šajā tēmā ir paskaidrots, kā varat lietot savu elektronisko pārskatu (Electronic Reporting — ER) konfigurāciju, lai organizētu datu pārsūtīšanu no jūsu Dynamics 365 for Operations instances uz Power BI pakalpojumiem. Kā piemērs šajā tēmā ir izmantotas Intrastat transakcijas, kas veido pārsūtāmos biznesa datus. Power BI kartes vizualizācija šos Intrastat transakciju datus izmanto, lai sniegtu skatu uzņēmuma importēšanas/eksportēšanas aktivitāšu analīzei Power BI pārskatā."
 author: kfend
 manager: AnnBe
-ms.date: 2016-10-31 13 - 22 - 29
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: ed0192c44b6d7e88120c64e539ebb0ac3b379831
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4bbc77eb1edfe0c109434ce4d26228ed031f48bc
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
-# <a name="set-up-electronic-reporting-to-provide-power-bi-with-data-from-dynamics-365-for-operations"></a>Elektronisko pārskatu iestatīšana, lai nodrošinātu Power BI datus no programmatūras Dynamics 365 for Operations
+# <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Konfigurēt elektroniskos pārskatus, lai ievilktu datus pakalpojumā Power BI
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā tēmā ir paskaidrots, kā varat lietot savu elektronisko pārskatu (Electronic Reporting — ER) konfigurāciju, lai organizētu datu pārsūtīšanu no jūsu Dynamics 365 for Operations instances uz Power BI pakalpojumiem. Kā piemērs šajā tēmā ir izmantotas Intrastat transakcijas, kas veido pārsūtāmos biznesa datus. Power BI kartes vizualizācija šos Intrastat transakciju datus izmanto, lai sniegtu skatu uzņēmuma importēšanas/eksportēšanas aktivitāšu analīzei Power BI pārskatā.
 
@@ -61,7 +65,7 @@ Lai izpildītu šajā tēmā aprakstīto piemēru, jums ir nepieciešama tālāk
 3.  Darbvietā **Elektronisko pārskatu veidošana** nepieciešamo pakalpojumu sniedzēju padariet aktīvu, noklikšķinot uz **Iestatīt kā aktīvu**. Lai iegūtu papildinformāciju, noskatieties uzdevuma ceļvedi **ER Atlasīt pakalpojumu sniedzēju**.
 
 ## <a name="use-an-er-data-model-as-the-source-of-data"></a>Izmantot ER datu modeli kā datu avotu
-Jums ir nepieciešams ER datu modelis kā biznesa datu avots, kurš tiks izmantots Power BI pārskatos. Šis datu modelis tiek augšupielādēts no ER konfigurācijas krātuves. Papildinformāciju skatiet tēmā [Lejupielādēt elektronisko pārskatu veidošanas konfigurācijas no Lifecycle Services](download-electronic-reporting-configuration-lcs.md) vai noskatieties uzdevuma ceļvedi **ER Importēt konfigurāciju no Lifecycle Services**. Atlasiet **Intrastat **kā datu modeli, kurš tiks augšupielādēts no atlasītā ER konfigurāciju repozitorija. (Šajā piemērā tiek lietota modeļa 1. versija.) Pēc tam varat piekļūt ER modeļa konfigurācijai **Intrastat** lapā **Konfigurācijas**. [![Lapa Konfigurācijas](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
+Jums ir nepieciešams ER datu modelis kā biznesa datu avots, kurš tiks izmantots Power BI pārskatos. Šis datu modelis tiek augšupielādēts no ER konfigurācijas krātuves. Papildinformāciju skatiet tēmā [Lejupielādēt elektronisko pārskatu veidošanas konfigurācijas no Lifecycle Services](download-electronic-reporting-configuration-lcs.md) vai noskatieties uzdevuma ceļvedi **ER Importēt konfigurāciju no Lifecycle Services**. Atlasiet **Intrastat**kā datu modeli, kurš tiks augšupielādēts no atlasītā ER konfigurāciju repozitorija. (Šajā piemērā tiek lietota modeļa 1. versija.) Pēc tam varat piekļūt ER modeļa konfigurācijai **Intrastat** lapā **Konfigurācijas**. [![Lapa Konfigurācijas](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
 
 ## <a name="design-an-er-format-configuration"></a>Noformēt ER formāta konfigurāciju
 Jums ir jāizveido jauna ER formāta konfigurācija, kas kā biznesa datu avotu lieto **Intrastat** datu modeli. Šai formāta konfigurācijai izvades rezultāti ir jāģenerē kā elektroniskie dokumenti OpenXML (Excel faila) formātā. Lai iegūtu papildinformāciju, noskatieties uzdevuma ceļvedi **ER Izveidot konfigurāciju pārskatiem OPENXML formātā**. Jaunajai konfigurācijai piešķiriet nosaukumu **Importēšanas/eksportēšanas aktivitātes**, kā parādīts nākamajā attēlā. kad noformējat ER formātu, kā veidni izmantojiet Excel failu [ER dati — importēšanas un eksportēšanas informācija](https://go.microsoft.com/fwlink/?linkid=845208). (Lai uzzinātu, kā importēt formāta veidni, atskaņojiet uzdevuma ceļvedi.) [![Konfigurācija Importēšanas/eksportēšanas aktivitātes](media/ger-power-bi-format-configuration.png)](media/ger-power-bi-format-configuration.png) Lai modificētu formāta konfigurāciju **Importēšanas/eksportēšanas aktivitātes**, veiciet tālāk norādītās darbības.
@@ -119,5 +123,7 @@ Iestatiet integrāciju starp programmu Dynamics 365 for Operations un pakalpojum
 [Elektronisko atskaišu galamērķi](electronic-reporting-destinations.md)
 
 [Elektronisko atskaišu veidošanas pārskats](general-electronic-reporting.md)
+
+
 
 

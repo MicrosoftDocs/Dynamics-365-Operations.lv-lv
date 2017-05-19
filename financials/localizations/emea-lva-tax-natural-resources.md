@@ -17,10 +17,11 @@ ms.search.region: Latvia
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 6bb98cc72c2ec0c1551412dd39d5bea3ce10e2cd
-ms.openlocfilehash: 422d944d4d7ee2388017ba84a686fad4252e2012
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ee3a15e7c40f5aa9851245dc9c82e6eb261479f1
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---

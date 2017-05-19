@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 720a1f272948eb310dc3cd02588aeec40b556d20
-ms.openlocfilehash: 31dda85ff2e4a4e5380401b031b2dd74acff394b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4fd6e61e88ca3ca3fa63308dead1258c0263e5aa
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="align-workforce-skills-with-business-needs"></a>Salāgojiet darbaspēka prasmes ar biznesa vajadzībām
+
+[!include[banner](includes/banner.md)]
+
 
 Varat izsekot prasmes, kas piemīt darbiniekiem, kandidātiem vai kontaktpersonām vai kuriem tādām vajadzētu būt darbinieku, kandidātu vai kontaktpersonu lomas efektīvai izpildei. Varat arī norādīt prasmes, kas ir nepieciešamas konkrētam darbam.
 
@@ -47,29 +51,17 @@ Kad ievadāt informāciju par darbu, varat norādīt prasmes, kas personai ir ne
 ## <a name="enter-skills-for-workers-applicants-or-contacts"></a>Prasmju ievadīšana darbiniekiem, kandidātiem vai kontaktpersonām
 Darbiniekiem, kandidātiem vai kontaktpersonām varat ievadīt mērķa prasmes vai faktiskās prasmes. Mērķa prasme ir prasme, ko persona plāno sasniegt. Faktiskā prasme ir prasme, kas personai piemīt pašlaik.
 
-## <a name="skill-mapping-and-skill-mapping-profiles"></a> Prasmju kartēšana un prasmju kartēšanas profili
+## <a name="skill-mapping-and-skill-mapping-profiles"></a>Prasmju kartēšana un prasmju kartēšanas profili
 Varat izveidot prasmju kartēšanas meklēšanu, lai atrastu darbinieku, kandidātu vai kontaktpersonu, kas ir kvalificēta veikt noteikta veida uzdevumu. Prasmju kartēšanas meklēšana meklē visas prasmes, izglītību, sertifikātus, uzticēšanās pozīcijas un projektu pieredzi un uzrāda rezultātus, kas atbilst ievadītajiem kritērijiem.  Piemēram, var būt lietderīgi zināt, kuri no darbiniekiem jūsu organizācijā ir ieguvuši CPA.
 
 Prasmju kartēšanas profili ļauj atrast pašreizējos darbiniekus vai kandidātus ar kvalifikāciju, kas tieši atbilst uzņēmuma vajadzībām.  Piemēram, varat izveidot prasmju kartēšanas profilu jūsu organizācijas vakancei. Izveidojot profilu konkrētam darbam un kopējot prasmes, izglītību un sertifikātus no šī darba profilā, var ātri atrast darbiniekus, kandidātus un kontaktpersonas, kas atbilst vienam vai vairākiem profilā ievadītiem kritērijiem, un skatīt sarakstu ar kandidātiem, kuru prasmes visprecīzāk atbilst nepieciešamajam darbam.
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>Piezīme. </strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Prasmju kartēšanas rezultātu sarakstā var tikt parādīti vai prasmju profilā var tikt iekļauti tikai darbinieki, kandidāti un kontaktpersonas, kas ir izvēlēti iekļaušanai prasmju kartēšanas meklējumos. Lai prasmju kartēšanas rezultātos iekļautu darbinieku, kandidātu vai kontaktpersonu, iestatiet opciju <strong>Iekļaut prasmju kartēšanā</strong> uz Jā šādās lapās.
-<ul>
-<li>Darbinieks</li>
-<li>Darbinieks</li>
-<li>Kandidāts</li>
-<li>Kontaktpersonas</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+>**Piezīme.** Prasmju kartēšanas rezultātu sarakstā var tikt parādīti vai prasmju profilā var tikt iekļauti tikai darbinieki, kandidāti un kontaktpersonas, kas ir izvēlēti iekļaušanai prasmju kartēšanas meklējumos. Lai prasmju kartēšanas rezultātos iekļautu darbinieku, kandidātu vai kontaktpersonu, iestatiet opciju **Iekļaut prasmju kartēšanā** uz Jā šādās lapās.
+
+> + Darbinieks
+> + Darbinieks
+> + Kandidāts
+> + Kontaktpersonas
 
 ## <a name="skill-gap-analysis-and-skill-profile-analysis"></a>Prasmju atšķirības analīze un prasmju profila analīze
 Varat izveidot prasmju profila analīzi, lai skatītu darbinieka, kandidāta vai kontaktpersonas kompetenču sarakstu no konkrēta datuma. Varat izveidot prasmju starpības analīzi, lai salīdzinātu personas prasmes un konkrētam darbam nepieciešamās prasmes.  
@@ -80,5 +72,7 @@ Varat izveidot prasmju profila analīzi, lai skatītu darbinieka, kandidāta vai
 --------
 
 [Personāla vadība](index.md)
+
+
 
 

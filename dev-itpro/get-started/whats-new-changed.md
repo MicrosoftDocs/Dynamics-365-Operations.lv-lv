@@ -3,33 +3,37 @@ title: "Jaunumi un izmaiņas"
 description: "Šajā lapā ir norādes uz tēmām, kas var palīdzēt jums uzzināt par jaunajiem līdzekļiem programmas Microsoft Dynamics 365 for Operations jaunākajās versijās."
 author: sericks007
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
-ms.search.scope: Core
+ms.search.scope: Operations, Core
 ms.custom: 27141
 ms.assetid: b86934d4-d9dd-4a07-bfd1-4adb948a5139
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-translationtype: Human Translation
-ms.sourcegitcommit: 0d954043c461975a70f9e0ab867f30cadd9800b5
-ms.openlocfilehash: 2896a11f79d5cbb00137a439e0a2c8caaee705a0
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c9f1e32986238739fc7eee519fd1d17a6ce6731e
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="whats-new-or-changed"></a>Jaunumi un izmaiņas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šajā lapā ir norādes uz tēmām, kas var palīdzēt jums uzzināt par jaunajiem līdzekļiem programmas Microsoft Dynamics 365 for Operations jaunākajās versijās.
 
-Lai jauninātu uz jaunāko versiju, skatiet tēmu [Jaunināšana uz jaunāko Dynamics 365 for Operations atjauninājumu](/migration-upgrade/upgrade-latest-update.md).
+Lai jauninātu uz jaunāko versiju, skatiet tēmu [Jaunināšana uz jaunāko Dynamics 365 for Operations atjauninājumu](../migration-upgrade/upgrade-latest-update.md).
 <table>
 <colgroup>
 <col width="20%" />
@@ -50,15 +54,24 @@ Lai jauninātu uz jaunāko versiju, skatiet tēmu [Jaunināšana uz jaunāko Dyn
 <tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Operations platforma</td>
+<td>6. platformas atjauninājums</td>
+<td> 7.0.4509.16180</td>
+<td>2017. aprīlis</td>
+<td><a href="whats-new-platform-update-6.md">Jaunumi un izmaiņas Dynamics 365 for Operations 6. platformas atjauninājumā (2017. gada aprīlis)</a></td>
+</tr>
+<tr class="odd">
+<td>Microsoft Dynamics 365 for Operations platforma</td>
+<td>5. platformas atjauninājums</td>
+<td> 7.0.4475.16165</td>
+<td>2017. marts</td>
+<td><a href="whats-new-platform-update-5.md">Jaunumi un izmaiņas Dynamics 365 for Operations 5. platformas atjauninājumā (2017. gada marts)</a></td>
+</tr>
+<tr class="odd">
+<td>Microsoft Dynamics 365 for Operations platforma</td>
 <td>4. platformas atjauninājums</td>
-<td>7.0.4425.16160</td>
+<td> 7.0.4425.16161</td>
 <td>2017. februāris</td>
-<td><ol>
-<li>Dodieties uz <a href="https://roadmap.dynamics.com/">Dynamics 365 Roadmap</a>.</li>
-<li>Atlasiet cilni <strong>Jaunumi</strong>.</li>
-<li>Sadaļā <strong>Programmas</strong> atlasiet vienumu <strong>Dynamics 365 for Operations</strong>.</li>
-<li>Sadaļā <strong>Apgabali</strong> atlasiet <strong>Mākoņa platforma</strong>.</li>
-</ol></td>
+<td><a href="whats-new-platform-update-4.md">Jaunumi un izmaiņas Dynamics 365 for Operations 4. platformas atjauninājumā (2017. gada februāris)</a></td>
 </tr>
 <tr class="even">
 <td>Microsoft Dynamics 365 for Operations</td>
@@ -111,6 +124,8 @@ Lai jauninātu uz jaunāko versiju, skatiet tēmu [Jaunināšana uz jaunāko Dyn
 </tr>
 </tbody>
 </table>
+
+
 
 
 

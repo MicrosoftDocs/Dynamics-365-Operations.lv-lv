@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4bb647cfd3f012efbffa93a81462c538a24ac850
-ms.openlocfilehash: 8965c193839002776b3c61036b23b54625c974a4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 734bf8a5cd71d218942e1a57fbb6af8fef4dc998
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -39,10 +40,10 @@ Jebkura veida personalizēšana, ko lietotājs veic programmatūrā Dynamics 36
 ## <a name="systemwide-options-for-the-current-user"></a>Sistēmas līmeņa opcijas pašreizējam lietotājam
 Navigācijas joslā jūs atradīsiet zobrata attēlu, kas tiek saukts par izvēlnes pogu **Iestatījumi**. Atverot izvēlni **Iestatījumi**, parādīsies vairākas opcijas. Atlasot **Opcijas** atvērsies lietotāja lapa **Opcijas**. Tur atradīsiet četras opciju cilnes: **Vizuāls**, **Preferences**, **Konts** un **Darbplūsma**.
 
--   **Vizuāls: **izmantojiet, lai izvēlētos savas lapas krāsu dizainu un elementu noklusējuma izmēru.
+-   **Vizuāls:**izmantojiet, lai izvēlētos savas lapas krāsu dizainu un elementu noklusējuma izmēru.
 -   **Preferences:** šajā cilnē varat izvēlēties noklusējuma iestatījumus, kas tiek lietoti ikreiz, kad atverat programmatūru Dynamics 365 for Operations, tostarp uzņēmuma, sākotnējās lapas un noklusējuma skata/rediģēšanas režīma iestatījumus (kas nosaka, vai lapa ir bloķēta skatīšanai vai atvērta rediģēšanai ikreiz, kad to atverat). Var atrast arī valodas, laika joslu un datumu, laiku un skaitļu formātu opcijas. Visbeidzot, šajā lapā ir vairākas dažādas preferences, kas atšķirsies dažādos laidienos.
--   **Konts: **izmantot, lai sniegtu savu lietotāja ID un citas ar kontu saistītas opcijas.
--   **Darbplūsma: **šeit var izvēlēties ar darbplūsmu saistītas opcijas.
+-   **Konts:**izmantot, lai sniegtu savu lietotāja ID un citas ar kontu saistītas opcijas.
+-   **Darbplūsma:**šeit var izvēlēties ar darbplūsmu saistītas opcijas.
 
 ## <a name="implicit-personalizations"></a>Netiešas personalizācijas
 Netiešas personalizācijas ir tās personalizācijas, ko veicat vienkārši, izmantojot atsevišķas vadīklas, kas atcerēsies savu pašreizējo redzamo stāvokli. 
@@ -106,7 +107,7 @@ Dažās darbvietās ir ietverti skaitīšanas elementi (elementi, uz kuriem ir s
 Informācijas panelis bieži ir pirmā lapa, ko redzat, atverot programmatūru Dynamics 365 for Operations. Informācijas paneli var personalizēt, lai pārdēvētu darbvietas navigācijas elementus, parādītu tikai elementus, ko vēlaties redzēt, pārdēvētu elementus vai sakārtotu elementus secībā, kādā vēlaties tos redzēt. Lai personalizētu informācijas paneli, atlasiet jebkuru elementu un noklikšķiniet ar peles labo pogu, lai atvērtu konteksta izvēlni. Konteksta izvēlnē atlasiet **Personalizēt**. Ja atlasītais elements ir tas, ko vēlaties paslēpt, vai pārdēvēt, vai izlaist, jūs varat veikt izmaiņas tieši parādītajā rekvizītu logā. Ja vēlaties sakārtot elementus, atlasiet **Personalizēt šo formu** rekvizītu logā, lai atvērtu rīkjoslu Personalizēšana. Pēc tam elementu izkārtošanai var izmantot Pārvietošanas rīku.
 
 ## <a name="administration-of-personalization"></a>Personalizēšanas administrēšana
-Ir iespējams personalizēt lapu un koplietot to ar citiem lietotājiem, vienkārši eksportējot personalizētu lapu un lūdzot citus lietotājus naviģēt uz personalizētu lapu un importēt personalizēšanas failu, ko esat izveidojis. Ja lietotājam ir administratora tiesības, viņš var arī pārvaldīt citu lietotāju personalizācijas lapā **Personalizēšanas iestatījumi**. Pārvietojieties uz b lapu. Lapā **Personalizēšana** jūs atradīsiet divas cilnes — vienu ar nosaukumu **Sistēma** un vienu ar nosaukumu** Lietotāji**. 
+Ir iespējams personalizēt lapu un koplietot to ar citiem lietotājiem, vienkārši eksportējot personalizētu lapu un lūdzot citus lietotājus naviģēt uz personalizētu lapu un importēt personalizēšanas failu, ko esat izveidojis. Ja lietotājam ir administratora tiesības, viņš var arī pārvaldīt citu lietotāju personalizācijas lapā **Personalizēšanas iestatījumi**. Pārvietojieties uz b lapu. Lapā **Personalizēšana** jūs atradīsiet divas cilnes — vienu ar nosaukumu **Sistēma** un vienu ar nosaukumu**Lietotāji**. 
 
 **Sistēma:** te var īslaicīgi atspējot vai "izslēgt" visas personalizācijas sistēmā. Tas nedzēš personalizācijas, bet gan atiestata visas formas uz noklusēto stāvokli. Personalizācijas var vēlāk atkārtoti iespējot, lai visas personalizācijas atkārtoti lietotu katra lietotāja formām. Varat arī dzēst visas personalizācijas visiem lietotājiem. Ņemiet vērā, ka, dzēšot personalizācijas, nevar automātiski atkārtoti iespējot personalizācijas no sistēmas. Pārliecinieties, ka eksportējāt personalizācijas, ko vēlaties vēlāk importēt, pirms šīs darbības veikšanas. 
 

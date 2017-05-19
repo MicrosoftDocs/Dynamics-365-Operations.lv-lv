@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 9dca5dec846670da25926826f59d7bce0fa0dcea
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e2f3a352ca70472de838271fdedfede575cb839d
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Elektronisko atskaišu veidošanas konfigurāciju lejupielāde no Lifecycle Services
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā tēmā ir paskaidrots, kā lejupielādēt elektronisko pārskatu veidošanas (Electronic reporting — ER) konfigurācijas no Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -43,9 +47,10 @@ ms.lasthandoff: 03/31/2017
     1.  Noklikšķiniet uz **Pievienot**, lai pievienotu jaunu repozitoriju.
     2.  Atlasiet **LCS** kā repozitorija tipu.
     3.  Noklikšķiniet uz **Izveidot repozitoriju**.
-    4.  Ievadiet repozitorija nosaukumu un aprakstu.
-    5.  Noklikšķiniet uz **Labi**, lai apstiprinātu jauno repozitorija ierakstu.
-    6.  Režģī atlasiet jauno repozitoriju ar tipu **LCS**.
+    4. Ja tiek pieprasīts, izpildiet autorizācijas norādījumus.
+    5.  Ievadiet repozitorija nosaukumu un aprakstu.
+    6.  Noklikšķiniet uz **Labi**, lai apstiprinātu jauno repozitorija ierakstu.
+    7.  Režģī atlasiet jauno repozitoriju ar tipu **LCS**.
 
 6.  Noklikšķiniet uz **Atvērt**, lai skatītu ER konfigurāciju sarakstu atlasītajam repozitorijam. [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 7.  Konfigurāciju koka skata kreisajā rūtī atlasiet nepieciešamo ER konfigurāciju.
@@ -58,5 +63,7 @@ ms.lasthandoff: 03/31/2017
 --------
 
 [Elektronisko atskaišu veidošanas pārskats](general-electronic-reporting.md)
+
+
 
 

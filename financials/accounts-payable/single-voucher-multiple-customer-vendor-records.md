@@ -16,10 +16,11 @@ ms.search.region: global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: 415eca2219cdba3da96c1cb54bea8af81fd50119
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 10b96749fd8bfaa1ae98f7f5a0fa3f7dac2d16bb
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -119,7 +120,7 @@ Tagad, kad ir apmaksāts INV2, tiks veikts šāds ieraksts. Ņemiet vērā, ka t
 | GNJL001     | Kreditors           | 1001        | INV1            |           | 100,00     | Virsgrāmata           | 606300-001-- |
 | GNJL001     | Kreditors           | 1001        | INV2            |           | 200,00     | Virsgrāmata           | 606300-002-- |
 
-Šajā piemērā vairāki kreditora rēķini tiek ierakstīti vienā dokumentā Virsgrāmatā, lapā **Virsgrāmatas žurnāls **. Šie rēķini tiek sadalīti starp vairākām konta dimensijām. Pēc grāmatošanas tiek izveidots viens dokuments.
+Šajā piemērā vairāki kreditora rēķini tiek ierakstīti vienā dokumentā Virsgrāmatā, lapā **Virsgrāmatas žurnāls**. Šie rēķini tiek sadalīti starp vairākām konta dimensijām. Pēc grāmatošanas tiek izveidots viens dokuments.
 
 |             |              |                  |                                          |                                         |
 |-------------|--------------|------------------|------------------------------------------|-----------------------------------------|

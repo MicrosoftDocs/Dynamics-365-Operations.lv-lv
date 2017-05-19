@@ -3,7 +3,7 @@ title: "Microsoft Dynamics 365 for Operations &#8211; Warehousing instalēšan
 description: "Šajā tēmā ir aprakstīts, kā instalēt un konfigurēt lietojumprogrammu Microsoft Dynamics 365 for Operations — Warehousing"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 231c087ddc976aa552fc9cd6c89188f82a0247d1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: bbf6df8d43889e7a62bfe28921997c45c8b4c632
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="install-and-configure-microsoft-dynamics-365-for-operations-8211-warehousing"></a>Microsoft Dynamics 365 for Operations &#8211; Warehousing instalēšana un konfigurēšana
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā tēmā ir aprakstīts, kā instalēt un konfigurēt lietojumprogrammu Microsoft Dynamics 365 for Operations — Warehousing
 
@@ -67,7 +71,7 @@ Lai programma varētu mijiedarboties ar noteiktu Dynamics 365 for Operations se
 ## <a name="create-and-configure-a-user-account-in-dynamics-365-for-operations"></a>Lietotāja konta izveide un konfigurēšana programmatūrā Dynamics 365 for Operations
 Lai programmatūrā Dynamics 365 for Operations varētu izmantot jūsu Azure AD lietojumprogrammu, ir jāveic tālāk norādītās konfigurēšanas darbības.
 
-1.  Pakalpojumā Azure Active Directory izveidojiet jaunu lietotāja kontu Dynamics 365 for Operations nomniekam. Šī konta mērķis ir piekļūt konkrētajam noliktavu programmas pielāgotajam pakalpojumam, ko nodrošina Dynamics 365 for Operations serveris. Pēc šīs darbības veikšanas jums ir pieejami WMDP lietotāja akreditācijas dati, kas sastāv no WMDP e-pasta adreses un WMDP paroles. Lai uzzinātu par pamata darbībām, kas ir jāveic, lai pievienotu lietotājus pakalpojumā Azure AD un programmatūrā Dynamics 365 for Operations, skatiet pamācību: [Reģistrācija Microsoft Dynamics 365 for Operations abonementam](/dynamics365/operations/dev-itpro/sign-up-preview-subscription).
+1.  Pakalpojumā Azure Active Directory izveidojiet jaunu lietotāja kontu Dynamics 365 for Operations nomniekam. Šī konta mērķis ir piekļūt konkrētajam noliktavu programmas pielāgotajam pakalpojumam, ko nodrošina Dynamics 365 for Operations serveris. Pēc šīs darbības veikšanas jums ir pieejami WMDP lietotāja akreditācijas dati, kas sastāv no WMDP e-pasta adreses un WMDP paroles. Lai uzzinātu par pamata darbībām, kas ir jāveic, lai pievienotu lietotājus pakalpojumā Azure AD un programmatūrā Dynamics 365 for Operations, skatiet pamācību: [Reģistrācija Microsoft Dynamics 365 for Operations abonementam](/dynamics365/operations/dev-itpro/dev-tools/sign-up-preview-subscription).
 2.  Izveidojiet Dynamics 365 for Operations lietotāju, kas atbilst noliktavu programmas lietotāja akreditācijas datiem.
     1.  Programmatūrā Dynamics 365 for Operations pārejiet uz sadaļu **Sistēmas administrēšana** &gt; **Vispārīgi** &gt; **Lietotāji**.
     2.  Izveidojiet jaunu lietotāju.
@@ -98,6 +102,8 @@ Ja ierīce ir nozaudēta vai apdraudēta, ir jāliedz šīs ierīces piekļuve p
 6.  Noklikšķiniet uz cilnes **Konfigurēšana**, ritiniet uz leju un pārliecinieties, ka lietojumprogrammas parametra **Klienta ID** vērtība ir vienāda ar vērtību, ko pierakstījāt, veicot 2. darbību šajā sadaļā.
 7.  Noklikšķiniet uz komandjoslas pogas **Dzēst**.
 8.  Apstiprinājuma ziņojumā noklikšķiniet uz **Jā**.
+
+
 
 
 

@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: yuyus
 ms.dyn365.intro: Feb-16
 ms.dyn365.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 15af90d007d77a490db7cb540ef96b4104dbba7e
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 35c3d59abe8c2cb4d2db9fa1cf581f022dbc8c39
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="product-configuration-models-overview"></a>Pārskats par preču konfigurācijas modeļiem
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir definēti termini un koncepcijas, kas ir saistīti ar preču konfigurācijas modeļiem. Preču konfigurācijas modeļi sniedz iespēju veidot iekšējo preču struktūru, ko var izmantot, lai konfigurētu daudzus vienas preces variantus.
 
@@ -75,7 +79,7 @@ Ja atribūta tips ir <strong>Būla</strong>, <strong>Vesels skaitlis</strong> ar
 <td>Ierobežojumi</td>
 <td>Ierobežojumi apraksta preču modeļa konfigurācijas ierobežojumus. Ierobežojumi tiek izmantoti, lai garantētu, ka preces konfigurēšanas laikā tiek atlasītas tikai derīgas vērtības. Ierobežojumi var būt izteiksmes ierobežojumi vai tabulas ierobežojumi:
 <ul>
-<li>Izteiksmes ierobežojumus var izmantot tikai tam komponentam, kuram tie ir piesaistīti. Komponenta izteiksmes ierobežojumi var izveidot atsauci uz komponenta apakškomponentu atribūtiem. Preču konfigurācijas risinātājs tiek izmantots, lai atrisinātu ierobežojumus, un ierobežojumu rakstīšanas laikā jums ir jālieto risinātāja sintakse. Plašāku informāciju skatiet vikisaitē par izteiksmes ierobežojumiem un tabulas ierobežojumiem.</li>
+<li>Izteiksmes ierobežojumus var izmantot tikai tam komponentam, kuram tie ir piesaistīti. Komponenta izteiksmes ierobežojumi var izveidot atsauci uz komponenta apakškomponentu atribūtiem. Preču konfigurācijas risinātājs tiek izmantots, lai atrisinātu ierobežojumus, un ierobežojumu rakstīšanas laikā jums ir jālieto risinātāja sintakse. Plašāku informāciju skatiet tēmas vietnē par izteiksmes ierobežojumiem un tabulas ierobežojumiem.</li>
 <li>Lai preces konfigurācijas modeļa komponentam varētu lieto tabulas ierobežojumus, tie vispirms ir jādefinē. Tabulas ierobežojumi var būt lietotāja definēti vai sistēmas definēti. Lietotāja definēts tabulas ierobežojums ir tādas matricas veids, ko var izmantot, lai aprakstītu tādu atribūtu vērtību kombināciju kopas, ko definē atribūtu veidi. Piemēram, ja tiek ražoti skaļruņi, tad lietotāja definēta tabulas ierobežojuma matricā var būt kolonnas skaļruņu apdarei un režģim.</li>
 </ul>
 <strong>Piemērs.</strong> Skaļruņi ir pieejami ar četrām apdarēm: Melns, Ozola, Rožkoka un Balts. Skaļruņiem var būt viens no trim priekšējiem režģiem: Melns, Metāla vai Balts. Melnā apdare ir pieejama visiem režģiem, bet pārējās apdares ir pieejamas tikai noteiktiem režģiem. Nākamajā tabulā ir parādīts piemērs, kāda informācija tiek rādīta cilnē <strong>Atļautās kombinācijas</strong>, lapā <strong>Rediģēt tabulas ierobežojumu</strong>.
@@ -125,7 +129,7 @@ Sistēmas definēts tabulas ierobežojums norāda kartēšanu starp atribūta ti
 </tr>
 <tr class="even">
 <td>Apakškomponenti</td>
-<td>Apakškomponenti atspoguļo preču konfigurācijas modeļa koka struktūru. Apakškomponentus var izmantot, lai veidotu preču konfigurācijas modeļa struktūru. Apakškomponenti veido atsauces uz esošiem komponentiem. Tādēļ apakškomponentu lietošana veicina komponentu atkārtotu izmantošanu vairākos preces konfigurācijas modeļos. Apakškomponenta lapā <strong>Detalizēta informācija par MK rindu</strong> apakškomponentam varat atlasīt atšķirīgu vērtību. Alternatīvi varat atlasīt atribūtu, kuram vērtība ir atlasīta, iestatot preces konfigurācijas modeli. Lai preci iekļautu kā komponentu vai apakškomponentu, preces izveidošanas laikā lapā<strong> Izveidot preci</strong> ir jānorāda tālāk minētā informācija.
+<td>Apakškomponenti atspoguļo preču konfigurācijas modeļa koka struktūru. Apakškomponentus var izmantot, lai veidotu preču konfigurācijas modeļa struktūru. Apakškomponenti veido atsauces uz esošiem komponentiem. Tādēļ apakškomponentu lietošana veicina komponentu atkārtotu izmantošanu vairākos preces konfigurācijas modeļos. Apakškomponenta lapā <strong>Detalizēta informācija par MK rindu</strong> apakškomponentam varat atlasīt atšķirīgu vērtību. Alternatīvi varat atlasīt atribūtu, kuram vērtība ir atlasīta, iestatot preces konfigurācijas modeli. Lai preci iekļautu kā komponentu vai apakškomponentu, preces izveidošanas laikā lapā <strong>Izveidot preci</strong> ir jānorāda tālāk minētā informācija.
 <ul>
 <li>Laukā <strong>Preces tips</strong> atlasiet opciju <strong>Krājums</strong>.</li>
 <li>Laukā <strong>Preces apakštips</strong> atlasiet opciju <strong>Preces šablons</strong>.</li>
@@ -147,6 +151,8 @@ Cilnē <strong>Vispārīgi</strong>, lapā <strong>Detalizēta informācija par 
 </tr>
 </tbody>
 </table>
+
+
 
 
 

@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: e7cc68b1b40b6a0361d7c215af466ae5a17a2aaa
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 6bf6194b2e198cdbb8e0acf9efda7d7279b072f6
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -69,7 +70,7 @@ Fabrikam East ir atvērts rēķins kreditora kontam 100, Fourth Coffee. Fabrikam
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam maksājums tiek nosegts ar Fabrikam East rēķinu
 
-**Fabrikam grāmatojums**
+**Fabrikam grāmatošana**
 
 | Konts                           | Summa debetā | Summa kredītā |
 |-----------------------------------|--------------|---------------|
@@ -102,7 +103,7 @@ Fabrikam East ir atvērts rēķins kreditoram 100, Fourth Coffee. Rēķinam ir p
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam maksājums tiek nosegts ar Fabrikam East rēķinu
 
-**Fabrikam grāmatojums**
+**Fabrikam grāmatošana**
 
 | Konts                           | Summa debetā | Summa kredītā |
 |-----------------------------------|--------------|---------------|
@@ -140,7 +141,7 @@ Fabrikam East ir atvērts rēķins kreditoram 100, Fourth Coffee. Fabrikam ievad
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam maksājums tiek nosegts ar Fabrikam East rēķinu
 
-**Fabrikam grāmatojums**
+**Fabrikam grāmatošana**
 
 | Konts                           | Summa debetā            | Summa kredītā           |
 |-----------------------------------|-------------------------|-------------------------|
@@ -181,7 +182,7 @@ Fabrikam East ir atvērts rēķins kreditoram 100, Fourth Coffee. Šim rēķinam
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam maksājums tiek nosegts ar Fabrikam East rēķinu
 
-**Fabrikam grāmatojums**
+**Fabrikam grāmatošana**
 
 | Konts                           | Summa debetā            | Summa kredītā           |
 |-----------------------------------|-------------------------|-------------------------|
@@ -227,7 +228,7 @@ Fabrikam ģenerē 75,00 lielu maksājumu kreditoram 3004, Fourth Coffee. Maksāj
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam maksājums ir nosegts ar Fabrikam West rēķinu un Fabrikam East kredīta notu
 
-**Fabrikam grāmatojums**
+**Fabrikam grāmatošana**
 
 | Konts                           | Summa debetā | Summa kredītā |
 |-----------------------------------|--------------|---------------|
@@ -243,7 +244,7 @@ Fabrikam ģenerē 75,00 lielu maksājumu kreditoram 3004, Fourth Coffee. Maksāj
 | Fabrikam (Fabrikam East) debitora parādi | 25,00        |               |
 | Parādi kreditoriem (Fabrikam East)  |              | 25,00         |
 
-**Fabrikam West grāmatojums**
+**Fabrikam West grāmatošana**
 
 | Konts                          | Summa debetā | Summa kredītā |
 |----------------------------------|--------------|---------------|
@@ -276,7 +277,7 @@ Fabrikam ģenerē 75,00 lielu maksājumu kreditoram 3004, Fourth Coffee. Maksāj
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam maksājums ir nosegts ar Fabrikam West rēķinu un Fabrikam East kredīta notu
 
-**Fabrikam grāmatojums**
+**Fabrikam grāmatošana**
 
 | Konts                           | Summa debetā | Summa kredītā |
 |-----------------------------------|--------------|---------------|
@@ -290,7 +291,7 @@ Fabrikam ģenerē 75,00 lielu maksājumu kreditoram 3004, Fourth Coffee. Maksāj
 | Pienākas no Fabrikam West (Fabrikam East) | 25,00        |               |
 | Parādi kreditoriem (Fabrikam East)       |              | 25,00         |
 
-**Fabrikam West grāmatojums**
+**Fabrikam West grāmatošana**
 
 | Konts                              | Summa debetā | Summa kredītā |
 |--------------------------------------|--------------|---------------|

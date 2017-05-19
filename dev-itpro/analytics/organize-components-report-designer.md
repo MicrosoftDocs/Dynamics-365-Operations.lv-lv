@@ -1,16 +1,16 @@
 ---
 title: "Organizēt atskaites komponentus atskaišu veidotājā"
 description: "Kad esat izveidojuši veidošanas blokus un ģenerējuši atskaites, ir noderīgi šos objektus sakārtot, lai lietotāji tos varētu vienkāršāk atrast. Šajā rakstā ir paskaidrots, kā sakārtot esošas atskaites, veidošanas blokus un objektus atskaišu veidotājā."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-07 19 - 06 - 25
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: Management Reporter, Core
 ms.custom: 59161
 ms.assetid: 32e728c5-3b06-4049-8070-ade01e951d49
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: c8efd57805cd89eb8cdfabe81a60704bb4390194
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ca6d02d41be67447719819e27fbcf3f615eced63
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="organize-report-components-in-report-designer"></a>Organizēt atskaites komponentus atskaišu veidotājā
+
+[!include[banner](../includes/banner.md)]
+
 
 Kad esat izveidojuši veidošanas blokus un ģenerējuši atskaites, ir noderīgi šos objektus sakārtot, lai lietotāji tos varētu vienkāršāk atrast. Šajā rakstā ir paskaidrots, kā sakārtot esošas atskaites, veidošanas blokus un objektus atskaišu veidotājā.
 
@@ -60,7 +64,7 @@ Pārskatu definīcijas iespējams grupēt, lai vienlaicīgi izveidotu vairākus 
 1.  Atskaišu veidotāja navigācijas rūtī noklikšķiniet uz **Atskaišu grupas**.
 2.  Veiciet dubultklikšķi uz pārskata grupas, lai modificētu to.
 3.  Cilnē **Atskaišu grupa** veiciet nepieciešamās izmaiņas.
-4.  Izvēlnē **Fails** noklikšķiniet uz **Saglabāt**, lai saglabātu modificēto pārskatu grupu, vai arī noklikšķiniet uz rīkjoslas pogas**Saglabāt** ![Saglabāt](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "Saglabāt").
+4.  Izvēlnē **Fails** noklikšķiniet uz **Saglabāt**, lai saglabātu modificēto pārskatu grupu, vai arī noklikšķiniet uz rīkjoslas pogas **Saglabāt** ![Saglabāt](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "Saglabāt").
 
 **Piezīme.** Ja esat ieplānojis atskaites, lai tās tiktu ģenerētas noteiktos intervālos, varat ignorēt šos iestatījumus un ģenerēt atskaiti nekavējoties.
 
@@ -103,7 +107,7 @@ Nākamajā tabulā ir aprakstītas vadīklas cilnē **Atskaišu grupa**.
 <td>Detalizācijas līmenis</td>
 <td>Norādiet detalizētības līmeni, kāds ir iekļauts atskaitēs.
 <ul>
-<li><strong>Finanšu</strong>− augsta līmeņa kopsavilkuma pārskats. Jūs nevarat rakties līdz kontiem un dimensijām, izņemot tos kontus un dimensijas, kas ir pievienoti, izmantojot atskaišu koku.</li>
+<li><strong>Finanšu</strong> − augsta līmeņa kopsavilkuma pārskats. Jūs nevarat rakties līdz kontiem un dimensijām, izņemot tos kontus un dimensijas, kas ir pievienoti, izmantojot atskaišu koku.</li>
 <li><strong>Finanšu un Konts</strong> — pārskats, kas satur augsta līmeņa kopsavilkumu un detalizētu informāciju par kontu.</li>
 <li><strong>Finanšu, Konts un Transakcija</strong> — pārskats, kas satur augsta līmeņa kopsavilkumu un detalizētu informāciju par transakciju.</li>
 </ul></td>
@@ -154,6 +158,8 @@ Ar atskaites definīciju tiek saglabāti tikai noklusējuma bāzes perioda iesta
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Finanšu pārskatu veidošana programmai Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
+[Finanšu pārskati](financial-reporting-intro.md)
+
+
 
 

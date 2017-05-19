@@ -3,7 +3,7 @@ title: "Ražošanas pasūtījuma izmaksu analīze"
 description: "Šajā rakstā ir sniegta informācija par izmaksu analizēšanu, ko var veikt par pabeigtiem un pašreizējiem ražošanas pasūtījumiem. Izmantojot lapu Cenu aprēķināšana vai novērtētās un Novērtētās un faktiski grāmatotās izmaksas, analizēt var novērtētās un faktiskās izmaksas. Var skatīt informācija par katra komponenta krājuma, maršruta operācijas un netiešo izmaksu novērtētajām un faktiskajām izmaksām (un daudzumu)."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-04-11 13 - 25 - 42
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: f931432f6dc919d448ed690a1deae3d64bebe455
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: acb8e49ed86d3e22ba8e343280f77c0644f057c6
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="production-order-cost-analysis"></a>Ražošanas pasūtījuma izmaksu analīze
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā rakstā ir sniegta informācija par izmaksu analizēšanu, ko var veikt par pabeigtiem un pašreizējiem ražošanas pasūtījumiem. Izmantojot lapu Cenu aprēķināšana vai novērtētās un Novērtētās un faktiski grāmatotās izmaksas, analizēt var novērtētās un faktiskās izmaksas. Var skatīt informācija par katra komponenta krājuma, maršruta operācijas un netiešo izmaksu novērtētajām un faktiskajām izmaksām (un daudzumu).
 
@@ -40,21 +44,27 @@ Novirzes norāda ar ražošanas krājumu saistīto reģistrēto ražošanas darb
 -   Ražošanas cenas novirze
 -   Ražošanas aizstāšanas novirze
 
-Šajā diagrammā redzamas četras novirzes, kas attiecas uz ražošanas pasūtījuma faktisko izmaksu un aprēķināto izmaksu starpību krājumu izmaksu ierakstā ražošanas pasūtījuma izpildes beigās. ![Novirzes, kas attiecas uz pabeigta ražošanas pasūtījuma atšķirībām](./media/control.jpg) Ražošanas novirzes var analizēt, izmantojot lapu **Novirze** vai pārskatu **Ražošanas novirzes**. Izmantojiet displeja opcijas, lai apskatītu detalizētas novirzes pēc krājuma un operāciju resursa vai pēc izmaksu grupas. Izmaksu sadalījuma politika krājumu parametros nosaka, vai novirzes tiek izsekotas pēc izmaksu grupas. Lai skatītu apkopojumu par novirzēm, var izmantot displeja opciju **viena**, **vairākas** un **kopsumma**. Detalizēta informācija par novirzēm var palīdzēt izprast katras noviržu avotu. Lai prognozētu novirzes pirms ražošanas pasūtījuma beigām, analizējiet pārskatā **Novērtētās un faktiski grāmatotās izmaksas** pieejamo detalizēto informāciju.
+Šajā diagrammā redzamas četras novirzes, kas attiecas uz ražošanas pasūtījuma faktisko izmaksu un aprēķināto izmaksu starpību krājumu izmaksu ierakstā ražošanas pasūtījuma izpildes beigās. 
+
+![Novirzes, kas norāda uz atšķirībām pabeigtā ražošanas pasūtījumā](./media/control.jpg) 
+
+Ražošanas novirzes varat analizēt, izmantojot lapu **Novirze** vai pārskatu **Ražošanas novirze**. Izmantojiet displeja opcijas, lai apskatītu detalizētas novirzes pēc krājuma un operāciju resursa vai pēc izmaksu grupas. Izmaksu sadalījuma politika krājumu parametros nosaka, vai novirzes tiek izsekotas pēc izmaksu grupas. Lai skatītu apkopojumu par novirzēm, var izmantot displeja opciju **viena**, **vairākas** un **kopsumma**. Detalizēta informācija par novirzēm var palīdzēt izprast katras noviržu avotu. Lai prognozētu novirzes pirms ražošanas pasūtījuma beigām, analizējiet pārskatā **Novērtētās un faktiski grāmatotās izmaksas** pieejamo detalizēto informāciju.
 
 ## <a name="cost-analysis-for-current-production-orders"></a>Pašreizējo ražošanas pasūtījumu izmaksu analīze
-Atsevišķi pārskati sniedz informāciju par katru darbības veidu. Izmantojiet šos pārskatus, lai analizētu ziņoto ražošanas darbību izmaksas. Tiek parādīta tikai informācija par pašreizējiem ražošanas pasūtījumiem ar statusu **Sākts** vai** Reģistrēts kā pabeigts**.
+Atsevišķi pārskati sniedz informāciju par katru darbības veidu. Izmantojiet šos pārskatus, lai analizētu ziņoto ražošanas darbību izmaksas. Tiek parādīta tikai informācija par pašreizējiem ražošanas pasūtījumiem ar statusu **Sākts** vai **Reģistrēts kā pabeigts**.
 
--   **Materiāli nepabeigtajā ražošanā **— šajā pārskatā ir minētas pašreizējiem ražošanas pasūtījumiem saistītās izdošanas saraksta transakcijas, kas ir reģistrētas no norādītā transakcijas datuma. Pārskatā ir norādīts izsniegtais sastāvdaļu daudzums un katras transakcijas izmaksu summa. Izmantojiet vienas sastāvdaļas krājuma atlases kritērijus. Piemēram, var izdrukāt informāciju par attiecīgajiem ražošanas pasūtījumiem izsniegto komponenta daudzumu. Izsniegtais daudzums netiek atjaunināts ar daudzumiem, kas pamatkrājumā ir reģistrēti kā pabeigti. Tāpēc var tikt norādīts lielāks faktiskais procesā izmantoto izejmateriālu daudzums.
--   **Nepabeigtā ražošana **— šajā pārskatā ir uzskaitītas ar pašreizējiem ražošanas pasūtījumiem saistītās transakcijas (vai darba transakcijas), kas reģistrētas no norādītā transakcijas datuma. Pārskatā ir norādītas stundas, summu un daudzums (gan derīgais daudzums, gan brāķa daudzums), kas ir reģistrēti katrai transakcijai. Tajā ir iekļauta arī cita informācija, piemēram, operācijas numurs, operācijas ID un operācijas resursi. Papildus šajā pārskatā ir norādīts ar ražošanas pasūtījumu saistītais visu transakciju kopējais laiks un summa, un daudzums, kas reģistrēts kā pabeigts.
--   **Nepabeigtās ražošanas netiešās izmaksas **− šajā pārskatā ir norādītas netiešās izmaksas, kas radušās saistībā ar ražošanas pasūtījumiem. Šie dati ir atkarīgi no reģistrētā maršrutēšanas operāciju un komponentu patēriņa no norādītā transakciju datuma. Pārskats norāda netiešo izmaksu tipu (piemaksas vai likmes), aprēķina lapas kodu netiešajām izmaksām un summu katrai darbībai. Šis pārskats nesniedz informāciju par maršruta karti vai izdošanas saraksta transakciju, kas ģenerēja netiešās izmaksas.
--   **Nepabeigtās ražošanas izmaksas **− šajā pārskatā ir uzskaitīts ar ražošanas pasūtījumiem saistītais kombinētais materiālu un maršrutēšanas operāciju patēriņš, kā arī netiešas izmaksas no noteiktā transakcijas datuma.
--   **Nepabeigtās ražošanas pabeigtie krājumi **— šajā pārskatā ir uzskaitīti pašreizējie ražošanas pasūtījumi un transakcijas no norādītā transakcijas datuma, kas reģistrētas kā pabeigtas.
+-   **Materiāli nepabeigtajā ražošanā** — šajā pārskatā ir minētas pašreizējiem ražošanas pasūtījumiem saistītās izdošanas saraksta transakcijas, kas ir reģistrētas no norādītā transakcijas datuma. Pārskatā ir norādīts izsniegtais sastāvdaļu daudzums un katras transakcijas izmaksu summa. Izmantojiet vienas sastāvdaļas krājuma atlases kritērijus. Piemēram, var izdrukāt informāciju par attiecīgajiem ražošanas pasūtījumiem izsniegto komponenta daudzumu. Izsniegtais daudzums netiek atjaunināts ar daudzumiem, kas pamatkrājumā ir reģistrēti kā pabeigti. Tāpēc var tikt norādīts lielāks faktiskais procesā izmantoto izejmateriālu daudzums.
+-   **Nepabeigtā ražošana** — šajā pārskatā ir uzskaitītas ar pašreizējiem ražošanas pasūtījumiem saistītās transakcijas (vai darba transakcijas), kas reģistrētas no norādītā transakcijas datuma. Pārskatā ir norādītas stundas, summu un daudzums (gan derīgais daudzums, gan brāķa daudzums), kas ir reģistrēti katrai transakcijai. Tajā ir iekļauta arī cita informācija, piemēram, operācijas numurs, operācijas ID un operācijas resursi. Papildus šajā pārskatā ir norādīts ar ražošanas pasūtījumu saistītais visu transakciju kopējais laiks un summa, un daudzums, kas reģistrēts kā pabeigts.
+-   **Nepabeigtās ražošanas netiešās izmaksas** − šajā pārskatā ir norādītas netiešās izmaksas, kas radušās saistībā ar ražošanas pasūtījumiem. Šie dati ir atkarīgi no reģistrētā maršrutēšanas operāciju un komponentu patēriņa no norādītā transakciju datuma. Pārskats norāda netiešo izmaksu tipu (piemaksas vai likmes), aprēķina lapas kodu netiešajām izmaksām un summu katrai darbībai. Šis pārskats nesniedz informāciju par maršruta karti vai izdošanas saraksta transakciju, kas ģenerēja netiešās izmaksas.
+-   **Nepabeigtās ražošanas izmaksas** − šajā pārskatā ir uzskaitīts ar ražošanas pasūtījumiem saistītais kombinētais materiālu un maršrutēšanas operāciju patēriņš, kā arī netiešas izmaksas no noteiktā transakcijas datuma.
+-   **Nepabeigtās ražošanas pabeigtie krājumi** – šajā pārskatā ir uzskaitīti pašreizējie ražošanas pasūtījumi un transakcijas no norādītā transakcijas datuma, kas reģistrētas kā pabeigtas.
 
 
 <a name="see-also"></a>Skatiet arī
 --------
 
 [Ražošanas noviržu vispārējo avotu analīze](common-sources-of-production-variances.md)
+
+
 
 

@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: ac2c569666b97bc430d3d677366a88446ab76091
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 0b96ab8833146041bd41fe8b1b0d9aad28287e29
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -36,7 +37,7 @@ ms.lasthandoff: 03/31/2017
 Fabrikam pārdod preces debitoram 4028. Fabrikam piedāvā termiņatlaidi 1 procenta apmērā, ja rēķins tiek apmaksāts 14 dienu laikā. Rēķini ir jāapmaksā 30 dienu laikā. Fabrikam piedāvā arī termiņatlaides daļējiem maksājumiem. Nosegšanas parametri atrodas lapā **Debitoru moduļa parametri**.
 
 ## <a name="customer-invoice"></a>Debitora rēķins
-Arnis debitoram 4028 izrakstīto rēķinu par summu 1000,00 ievada un grāmato 25. jūnijā. Arnijs varat apskatīt šo transakciju lapā** Debitoru darbības**.
+Arnis debitoram 4028 izrakstīto rēķinu par summu 1000,00 ievada un grāmato 25. jūnijā. Arnijs varat apskatīt šo transakciju lapā**Debitoru darbības**.
 
 | Dokuments   | Darījuma veids | Datums      | Rēķins | Summa transakcijas valūtas debetā | Summa transakcijas valūtas kredītā | Bilance  | Valūta |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|

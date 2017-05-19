@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 3e6b48768bb8e69d46f1555d9300f3b878b01ff1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 35d34f9a356f8a041f2abf0aa8d6c3a6d9ca4a46
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Power BI satura pakotne Pārdošanas un ienesīguma veiktspēja
+
+[!include[banner](../includes/banner.md)]
+
 
 Šajā tēmā ir aprakstīts, kas ir iekļauts Dynamics 365 for Operations Microsoft Power BI satura pakotnē Pārdošanas un ienesīguma veiktspēja. Tajā ir paskaidrots, kā piekļūt pārskatiem, kas ir iekļauti satura pakotnē, un ir sniegta informācija par satura pakotnes izveidei izmantoto datu modeli un elementiem.
 
@@ -44,6 +48,7 @@ Ienesīgumu var analizēt pēc tālāk minētajiem rādītājiem.
 
 ## <a name="accessing-the-content-pack"></a>Piekļuve satura pakotnei
 Power BI satura pakotne Pārdošanas un ienesīguma veiktspēja ir publicēta kā ieviešanas līdzeklis pakalpojumā Lifecycle Services (LCS), un tai var piekļūt programmatūrā Dynamics 365 for Operations. Papildinformāciju par to, kā palaist Power BI pārskatus, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md).
+**Piezīme.** Rakstā KB 4011327 ir priekšnosacījumi tā Power BI saturam. Kad esat pierakstījies pakalpojumos Lifecycle Services, tad KB varat piekļūt šeit: <a href="https://fix.lcs.dynamics.com/issue/results/?q=kb4011327">https://fix.lcs.dynamics.com/issue/results/?q=kb4011327</a>.
 
 ## <a name="metrics-included-in-the-content-pack"></a>Satura pakotnē iekļautie rādītāji
 Satura pakotnē ir iekļauts pārskats, kas sastāv no rādītāju kopas, kurā rādītāji ir vizualizēti diagrammu, elementu un tabulu veidā. Tālāk esošajā tabulā ir sniegts apskats par satura pakotnes rādītāju vizualizēšanu.
@@ -69,7 +74,7 @@ Satura pakotnē ir iekļauts pārskats, kas sastāv no rādītāju kopas, kurā 
 |                        | Pirmie 15 debitori pēc peļņas normas           |                                                         |
 |                        | Mēneša bruto peļņa pa gadiem                 |                                                         |
 
-\* Šī gada un pagājušā gada ieņēmumi un palielinājums pēc pārdošanas kategorijas.
+\* Šī gada un pagājušā gada ieņēmumi un palielinājums pēc pārdošanas kategorijas.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
 Satura pakotnes Pārdošanas un ienesīguma veiktspēja pārskata aizpildīšanai tiek izmantoti Dynamics 365 for Operations dati. Šie dati tiek attēloti kā apkopoti mērījumi, kuri ir pieejami elementu krātuvē, kas ir analīzes veikšanai optimizēta Microsoft SQL datu bāze. Papildinformāciju par to lasiet emuārā [Power BI integrācija elementu krātuvē programmatūrā Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Šajā satura pakotnē ietvertie apkopošanas mērījumi ir to apkopošanas mērījumu apakškopa, kas ir pieejami pārdošanas kubā programmatūrā Dynamics AX 2012 un AX 2012 R3. Lai padarītu kuba apkopošanas mērījumus pieejamus elementu krātuvē, tie ir jāpadara izvietojami. Papildinformāciju skatiet emuāra [Power BI integrācija elementu krātuvē programmatūrā Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) sadaļā par to, kā padarīt apkopošanas mērījumus pieejamus elementu krātuvē. Tālāk ir norādīti elementa Rēķina rindas galvenie apkopošanas mērījumi, kas tiek izmantoti kā satura pakotnes pamatdati.
@@ -110,6 +115,8 @@ Pēc noklusējuma satura pakotnē tiek radīti dati par pašreizējo kalendāro 
 -   [Organizācijas satura pakotnes izveide](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Datu modelēšana, izmantojot Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Power BI elementu pievienošana darbvietām](configure-power-bi-integration.md)
+
+
 
 
 

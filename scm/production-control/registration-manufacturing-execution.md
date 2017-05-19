@@ -19,10 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: aee0a4eda2a2ac2f272f590781b9e751a8797095
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 61c5ddc8961427c472c36f10fd395045591ec34f
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -39,7 +40,7 @@ Ražošanas izpildi ir paredzēts izmantot galvenokārt ražošanas uzņēmumos.
 ## <a name="manufacturing-execution-and-registration-terminology"></a>Reģistrācijas izpildes un reģistrācijas terminoloģija
 Šajā tabulā ir norādīti termini, kas attiecas uz ražošanas izpildi un saistītajiem reģistrācijas uzdevumiem.
 
-| Termiņš                          | apraksts                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Termins                          | Apraksts                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |-------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ražošanas izpilde       | Funkcija, kas tiek izmantota, lai reģistrētu ražošanas darbu, projektu un netiešo aktivitāšu laiku, materiālu patēriņu un izmaksas. Reģistrācija tiek veikta ražošanas izpildes reģistrācijas klientā.                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Darbu saraksts                      | Lapā **Darba reģistrācija** darbiniekiem ir pieejams to darbu saraksts, kas viņiem jāveic, izmantojot noteikto resursu, piemēram, mašīnu. Darbinieks var reģistrēt laiku un krājuma patēriņu katram darbam vai uzdevumam darbu sarakstā.                                                                                                                                                                                                                                                                                                                                                                           |

@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 81b5c9056001b26c33b2b42a95711ff5b50243e6
-ms.openlocfilehash: 4bd934091c80ab9a4d244499d2bce2c4646c3e99
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 769680aff8c018bc042ffce98ee50a9760a65fcf
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -126,7 +127,7 @@ Pārskatam varat pievienot dokumentu **pārskatu** lapas sadaļā **Pielikumi**.
 Darbplūsmu Nodarbināto pārskats varat izmantot, lai kontrolētu pārskata apstiprināšanu. Varat arī izlaist automatizēto darbplūsmu un manuāli mainīt pārskata statusa — tādējādi varat izveidot vienkāršākus dokumentus, piemēram, tikšanās vienam pret vienu, bez nepieciešamības izmantot darbplūsmas procesu. Piekļuve pārskatam tiek kontrolēta ar pārskata statusu.
 
 1.  Kad pārskats tiek izveidots, tā statuss ir iestatīts uz **Nav sākts**. Šo pārskatu var rediģēt ikviens.
-2.  Kad darbinieks nospiež pogu **Sākt pārskatu**, pārskata statuss tiek iestatīts uz** Notiek**. Pēc tam darbinieks sāk pievienot saturu. Šajā brīdī vadītājs vairs nevar skatīt pārskata dokumentu.
+2.  Kad darbinieks nospiež pogu **Sākt pārskatu**, pārskata statuss tiek iestatīts uz**Notiek**. Pēc tam darbinieks sāk pievienot saturu. Šajā brīdī vadītājs vairs nevar skatīt pārskata dokumentu.
 3.  Darbinieks statusu maina uz **Gatavs pārskatīšanai**.
 4.  Vadītājs var pievienot komentārus un vērtējumus. Šajā brīdī pārskatu var redzēt tikai vadītājs.
 5.  Vadītājs statusu maina uz **Gala pārskats**, lai gan vadītājs, gan darbinieks varētu redzēt šo pārskatu un apspriest to. Parametros varat norādīt, vai šajā brīdī pārskatu ir iespējams rediģēt. Šī darbība ir neobligāta arī tad, ja vadītājs vienkārši vēlas kopīgot pārskatu ar darbinieku un atzīmēt to kā **Pabeigts**, kad viņi ir beiguši.

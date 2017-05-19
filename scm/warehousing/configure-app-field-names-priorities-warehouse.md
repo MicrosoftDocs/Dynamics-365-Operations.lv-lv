@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: ce8f6d6f7090995bc44db1ba0103a7d6c0416620
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 73fcc19b9ee17a691206019efbff29c4967f4e2f
+ms.contentlocale: lv-lv
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -89,7 +90,7 @@ Lapā **Noliktavas programmas lauku prioritāte** lauku nosaukumus varat salikt 
 <tr class="odd">
 <td> 10. prioritāte</td>
 <td><ul>
-<li>Prece</li>
+<li>Objekts</li>
 <li>Daudzums</li>
 <li>Mērvienība</li>
 </ul></td>
@@ -111,8 +112,8 @@ Lapā **Noliktavas programmas lauku prioritāte** lauku nosaukumus varat salikt 
 <td> 40. prioritāte</td>
 <td><ul>
 <li>Konfigurācija</li>
-<li>Krāsa</li>
-<li>Izmērs</li>
+<li>krāsa</li>
+<li>izmērs</li>
 <li>Stils</li>
 </ul></td>
 </tr>
@@ -128,7 +129,7 @@ Lapā **Noliktavas programmas lauku prioritāte** lauku nosaukumus varat salikt 
 
 Piemēram, kad noliktavas darbinieks izpilda kādu uzdevumu mobilajā ierīcē, ja programmā rādītie metadati sastāv no šādiem laukiem:
 
--   Prece
+-   Objekts
 -   Daudzums
 -   Mērvienība
 -   Preces apraksts
