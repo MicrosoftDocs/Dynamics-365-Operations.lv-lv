@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 for Operations glosārijs"
-description: "Microsoft Dynamics 365 for Operations glosārijs definē atslēgas terminus un koncepcijas, kuras tiek izmantotas Microsoft Dynamics 365 for Operations produktā."
+title: "Dynamics 365 for Operations glosārijs"
+description: "Microsoft Dynamics 365 for Operations glosārijā ir definēti galvenie produkta Dynamics 365 for Operations termini un jēdzieni."
 author: tonyafehr
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,52 +26,52 @@ ms.lasthandoff: 05/10/2017
 
 ---
 
-# <a name="dynamics-365-for-operations-glossary"></a>Dynamics 365 for Operations glosārijs
+# <a name="dynamics-365-for-operations-glossary"></a>Dynamics 365 for Operations glosārijs
 
 [!include[banner](../includes/banner.md)]
 
 
-Microsoft Dynamics 365 for Operations glosārijs definē atslēgas terminus un koncepcijas, kuras tiek izmantotas Microsoft Dynamics 365 for Operations produktā. 
+Microsoft Dynamics 365 for Operations glosārijā ir definēti galvenie produkta Dynamics 365 for Operations termini un jēdzieni. 
 
 ### <a name="a"></a>**A**
 
 ###### <a name="accounting-journal"></a>**uzskaites žurnāls**
 
-Žurnāls, kas tiek izmantots uzskaites notikumu finanšu seku reģistrēšanai grāmatvedības sistēmā.
+Žurnāls, kas tiek izmantots, lai uzskaites notikumu finanšu sekas reģistrētu uzskaites sistēmā.
 
 ###### <a name="accounting-rule"></a>**uzskaites nosacījums**
 
-Nosacījums grāmatvedības sistēmā, kas kontrolē uzskaites notikumu finanšu seku principus, metodes un klasifikācijas, reģistrācijas un paziņošanas procedūras.
+Nosacījums uzskaites sistēmā, kas kontrolē uzskaites notikumu finanšu seku principus, metodes un klasificēšanas, reģistrēšanas un paziņošanas procedūras.
 
 ###### <a name="ach-automated-clearing-house"></a>**ACH (Automatizēto norēķinu centrs)**
 
-Elektroniska naudas līdzekļu pārsūtīšanas sistēma, kura ir pieejama Amerikas Savienotajās Valstīs, kas atvieglo naudas līdzekļu pārsūtīšanu starp saņēmēja un nosūtītāja bankas kontiem.
+Amerikas Savienotajās Valstīs pieejama elektroniska naudas līdzekļu pārsūtīšanas sistēma, kura sniedz iespēju naudas līdzekļus pārsūtīt starp saņēmēja un nosūtītāja bankas kontiem.
 
 ###### <a name="actual-quantity"></a>**faktiskais daudzums**
 
-Mērāmais daudzums, kas ir ieguldīts aktivitātē vai gūts no aktivitātes.
+Mērītais daudzums, kas tiek ieguldīts aktivitātē vai gūts no aktivitātes.
 
 ###### <a name="address-verification-service"></a>**adrešu pārbaudes pakalpojums**
 
-Kredītkaršu procesora sniegtais pakalpojums, kas apstiprina, ka kartes īpašnieka norādītā rēķina adrese atbilst izsniedzējā bankā reģistrētajai informācijai.
+Kredītkaršu procesora sniegts pakalpojums, kas apstiprina, ka kartes īpašnieka norādītā rēķina adrese atbilst izsniedzējā bankā reģistrētajai informācijai.
 
 ###### <a name="adjusted-unit-price"></a>**koriģētā vienības cena**
 
-Aprēķināta vienības cena, pamatojoties uz atribūtam atbilstošo cenu aprēķinu un faktiski saņemto saturu.
+Aprēķinātā vienības cena, pamatojoties uz atribūtam atbilstošo cenu aprēķinu un faktiski saņemto saturu.
 
-###### <a name="advanced-pricing"></a>**detalizēts cenu aprēķins**
+###### <a name="advanced-pricing"></a>**padziļinātā cenu noteikšana**
 
-Loģika, ko izmanto, lai aprēķinātu satura krājuma pirkšanas cenu.
+Loģika, kas tiek izmantota, lai aprēķinātu satura krājuma pirkšanas cenu.
 
-###### <a name="aging"></a>**klasifikācija pēc termiņiem**
+###### <a name="aging"></a>**vecumstruktūras**
 
-Laika periodu klasifikācijas process pēc vecuma.
+Process laika periodu klasificēšanai pēc vecuma.
 
 ###### <a name="aging-period"></a>**vecumstruktūras periods**
 
-Dienu skaits laika periodā, kāds tiek izmantots, lai paziņotu par debitora maksājuma kavētu bilanci.
+Dienu skaits laika periodā, kāds tiek izmantots, lai paziņotu par debitora maksājuma bilances kavējumu.
 
-### <a name="b"></a>**mljrd.**
+### <a name="b"></a>**B**
 
 ###### <a name="balance-sheet"></a>**bilance**
 
@@ -79,11 +79,11 @@ Pārskats par organizācijas finansiālo stāvokli, kas paziņo par aktīvu, sai
 
 ###### <a name="balance-sheet-account"></a>**bilances konts**
 
-Konts, kas apraksta bilancē paziņotas izmaiņas vērtībā.
+Konts, kas apraksta bilancē ziņotās vērtības izmaiņas.
 
 ###### <a name="bank-reconciliation"></a>**bankas darbību saskaņošana**
 
-Prakse, kas paredz saskaņot virsgrāmatas kontu, kas ir bankas konts, salīdzinot virsgrāmatas kontu ierakstus ar bankas konta izraksta ierakstiem.
+Virsgrāmatas konta, kurš ir bankas konts, saskaņošanas procedūra, virsgrāmatas konta ierakstus salīdzinot ar bankas izraksta ierakstiem.
 
 ###### <a name="batch-attribute"></a>**partijas atribūts**
 
@@ -99,27 +99,27 @@ Laika periods, kurā iegūt preces optimālo kvalitāti vai raksturlielumu.
 
 ###### <a name="bill-of-exchange"></a>**vekselis**
 
-Pirmdokuments, kas dokumentē beznosacījuma pieprasījumu trešajai pusei samaksāt otrajai pusei pēc pieprasījuma.
+Pirmdokuments, kas dokumentē beznosacījuma pieprasījumu trešajai pusei pēc pieprasījuma samaksāt otrajai pusei.
 
 ###### <a name="bill-of-materials"></a>**materiālu komplekts**
 
 Preču saraksts un daudzums, kas nepieciešams vienas preces ražošanai.
 
-###### <a name="blocking"></a>**aizturēšana**
+###### <a name="blocking"></a>**bloķēšana**
 
 Rīcība, ar kuru dokumentu vai preci aiztur.
 
 ###### <a name="budget-control"></a>**budžeta kontrole**
 
-Izdevumu autorizēšanas prakse tikai, kas budžeta fondus var rezervēt, lai izpildītu nākotnes maksājuma saistības.
+Izdevumu autorizēšanas prakse tikai gadījumā, kad budžeta līdzekļus var rezervēt, lai izpildītu nākotnes maksājumu saistības.
 
 ###### <a name="budget-control-dimension"></a>**budžeta kontroles dimensija**
 
-Aktīvo finanšu dimensiju vērtību kombinācija, kuru lieto, lai sadalītu budžeta līdzekļus, lai apmaksātu ieplānotas aktivitātes.
+Aktīvo finanšu dimensiju vērtību kombinācija, kuru lieto budžeta līdzekļu sadalīšanai, lai apmaksātu plānotās aktivitātes.
 
 ###### <a name="budget-control-rule"></a>**budžeta kontroles nosacījumi**
 
-Biznesa lēmuma kodēšana, lai pārbaudītu uzņemtos un faktiskos izdevumus, salīdzinot tos ar pieejamiem budžeta līdzekļiem, kuri tika sadalīti detalizētām un apkopotām aktivitātēm, ko definē derīgas budžeta kontroles dimensijas vērtības kombinācijas.
+Biznesa lēmuma kodēšana, lai pārbaudītu uzņemtos un faktiskos izdevumus, tos salīdzinot ar pieejamiem budžeta līdzekļiem, kuri tika sadalīti detalizētām un apkopotām aktivitātēm, ko definē derīgas budžeta kontroles dimensijas vērtību kombinācijas.
 
 ###### <a name="budget-cycle-time-span"></a>**budžeta cikla laika posms**
 
@@ -127,25 +127,25 @@ Laika periods, kas norādīts kā finanšu kalendāra periodu skaits. Budžeta p
 
 ###### <a name="budget-group"></a>**budžeta grupa**
 
-Finanšu dimensijas vērtību kopa budžeta dimensijas hierarhijā, ko izmanto, lai aprēķinātu apkopotus budžeta līdzekļus, kuri ir piešķirti pārākām finanšu dimensijas vērtībām, sasummējot budžeta līdzekļus, kuri ir piešķirti pakļautajām finanšu dimensijas vērtībām.
+Finanšu dimensiju vērtību kopa budžeta dimensiju hierarhijā, ko izmanto, lai aprēķinātu apkopotus budžeta līdzekļus, kuri ir piešķirti pārākām finanšu dimensijas vērtībām, summējot budžeta līdzekļus, kuri ir piešķirti pakļautajām finanšu dimensijas vērtībām.
 
 ###### <a name="budget-model"></a>**budžeta modelis**
 
-Plānošanas struktūra, kuru izmanto budžeta līdzekļu sadalīšanas un izdevumu ieplānošanai.
+Plānošanas struktūra, kuru izmanto budžeta līdzekļu sadalīšanas un izdevumu plānošanai.
 
 ###### <a name="bulk-item"></a>**lielapjoma krājums**
 
 Formulas krājuma ievade preces piegādes aktivitātē.
 
-###### <a name="bundle"></a>**saišķis**
+###### <a name="bundle"></a>**komplekts**
 
-Preču, kuras ir paredzētas pārošanai kā viens veselums, skaita kombinācija.
+Vairāku preču kombinācija, ko paredzēts pārdot kā vienu vienību.
 
 ###### <a name="business-unit"></a>**biznesa vienība**
 
-Pusautonoma pārvaldības struktūrvienība, kura tiek izveidot, lai izpildītu stratēģiskus biznesa mērķus.
+Pusautonoma pārvaldības struktūrvienība, kura tiek izveidota, lai izpildītu stratēģiskus biznesa mērķus.
 
-### <a name="c"></a>**K**
+### <a name="c"></a>**C**
 
 ###### <a name="capacity-load"></a>**noslodzes grafiks**
 
@@ -153,7 +153,7 @@ Maksimālais ieplānotā darba daudzums, kādu resurss var veikt nepieciešamaj�
 
 ###### <a name="capacity-planning"></a>**noslodzes plānošana**
 
-Procedūra, lai noteiktu resursa noslodzes prasības, kas atbilst nākotnes izvades pieprasījumam noteiktajā perioda laikā.
+Procedūra, lai noteiktu resursa noslodzes prasības, kas atbilst nākotnes izvades pieprasījumam noteiktajos laika periodos.
 
 ###### <a name="carry-forward-budget"></a>**pārnestais budžets**
 
@@ -173,23 +173,23 @@ Galveno kontu saraksts.
 
 ###### <a name="cogs-cost-of-goods-sold"></a>**PPPI (pārdoto preču pašizmaksa)**
 
-Uzskaites kategorija, kuru izmanto preču ražošanas un krājumu pārnešanas finanšu seku sasummēšanai.
+Uzskaites kategorija, kuru izmanto preču ražošanas un krājumu pārnešanas finanšu seku summēšanai.
 
 ###### <a name="commodity-pricing"></a>**preču cenu noteikšana**
 
-Cenu noteikšanas stratēģija krājumu vienību, kuras tiek ražotas no precēm, kuru cenas bieži mainās, cenu atjaunināšanai.
+Cenu noteikšanas stratēģija, kas tiek izmantota, lai atjauninātu cenas krājumu vienībām, kas tiek ražotas no precēm, kuru cenas bieži mainās.
 
 ###### <a name="consolidated-order"></a>**konsolidētais pasūtījums**
 
-Pirmdokuments, kas dokumentē vairāk kā vienu pasūtījumu, uz kuru sniegta atsauce.
+Pirmdokuments, kas dokumentē vairākus pasūtījumus, uz kuriem ir sniegta atsauce.
 
-###### <a name="contractor"></a>**darba uzņēmējs**
+###### <a name="contractor"></a>**līgumdarbinieks**
 
-Loma, kuru uzņemas persona, kura piedalās darbuzņēmēja un darba devēja attiecībās ar juridisku personu.
+Loma, kuru uzņemas persona, kas piedalās līgumdarbinieka un darba devēja attiecībās ar juridisku personu.
 
 ###### <a name="co-product"></a>**līdzprodukts**
 
-Krājums, kas tiek ražots kopa ar citu krājumu.
+Krājums, kas tiek ražots kopā ar citu krājumu.
 
 ###### <a name="cost-center"></a>**izmaksu centrs**
 
@@ -197,7 +197,7 @@ Pārvaldības struktūrvienība, kuras vadītāji atskaitās par budžetā iepl�
 
 ###### <a name="cost-of-goods-sold"></a>**pārdoto preču pašizmaksa**
 
-Uzskaites kategorija, kuru izmanto preču ražošanas un krājumu pārnešanas finanšu seku sasummēšanai.
+Uzskaites kategorija, kuru izmanto preču ražošanas un krājumu pārnešanas finanšu seku summēšanai.
 
 ###### <a name="cost-variance"></a>**izmaksu novirze**
 
@@ -207,27 +207,27 @@ Starpība starp paredzamām un faktiskām izmaksām.
 
 Organizācijas iegūto, saražoto vai piegādāto ekonomisko resursu izmaksu aprēķināšanas, piešķiršanas un sadalīšanas process.
 
-###### <a name="ctp-capable-to-promise"></a>**CTP (pieejams iegādei)**
+###### <a name="ctp-capable-to-promise"></a>**CTP (pieejams solīšanai)**
 
-Preces izvades daļa no pieejamajiem operāciju resursiem un pieejamā ievades prece, kas nepieciešama klienta specifisku prasību izpildīšanai.
+Preces izvades daļa no pieejamajiem operāciju resursiem un pieejamā ievades prece, kas nepieciešama specifisku klienta prasību izpildīšanai.
 
 ###### <a name="currency-code"></a>**valūtas kods**
 
-Burtciparu identifikators, kas attēlo valūtas vienību.
+Burtciparu identifikators, kas apzīmē valūtas vienību.
 
 ###### <a name="cycle-time"></a>**cikla laiks**
 
-Laiks, kuru aizņem aktivitātes veikšana.
+Laiks, kas nepieciešams kādas aktivitātes izpildīšanai.
 
 ### <a name="d"></a>**D**
 
 ###### <a name="dashboard"></a>**informācijas panelis**
 
-Tipiska sākumlapa sistēmā Dynamics 365 for Operations. Informācijas panelī lietotāji redz sadaļu katrai darbvietai, kurai viņiem ir piekļuve. Katrai sadaļai ir parādītas šūnas no kopsavilkuma sadaļām saistītajā darbvietā. Informācijas panelis sastāv no nosaukuma un sekcijām ar šūnām.
+Tipiskā sākumlapa sistēmā Dynamics 365 for Operations. Informācijas panelī lietotāji redz sadaļu katrai darbvietai, attiecībā uz kuru šiem lietotājiem ir piekļuve. Katrā sadaļā tiek rādītas šūnas no kopsavilkuma sadaļām saistītajā darbvietā. Informācijas panelis sastāv no nosaukuma un sekcijām ar šūnām.
 
 ###### <a name="data-entity"></a>**datu elements**
 
-Informācijas struktūra, kas atspoguļo elementa datu raksturlielumu.
+Informācijas struktūra, kas atspoguļo elementa datu īpašības.
 
 ###### <a name="delegate"></a>**pārstāvis**
 
@@ -239,31 +239,31 @@ Biznesa dokuments, kas dokumentē preču piegādi divu pušu starpā.
 
 ###### <a name="demand-forecast"></a>**pieprasījuma apjoma prognoze**
 
-Preces nākotnes pieprasījuma prognoze:
+Preces nākotnes pieprasījuma prognoze.
 
 ###### <a name="demand-forecasting"></a>**pieprasījuma prognozēšana**
 
-Biznesa process, kas novērtē pieprasījumu nākotnē un izveido pieprasījuma apjoma prognozes, pamatojoties uz vēsturiskiem darījumu datiem.
+Biznesa process, kas novērtē pieprasījumu nākotnē un izveido pieprasījuma apjoma prognozes, pamatojoties uz vēsturiskiem transakciju datiem.
 
 ###### <a name="deployable-package"></a>**izvietojamā pakotne**
 
-Transportlīdzeklis, kas tiek lietots izvietošanai lietotāja pieņemšanas pārbaudē (UAT) un ražošanas vidē.
+Transportlīdzeklis, kas tiek lietots izvietošanai lietotāja pieņemšanas pārbaudē (User Acceptance Test — UAT) un ražošanas vidēs.
 
 ###### <a name="designer"></a>**veidotājs**
 
 Visual Studio rīks, ko izmanto, lai izveidotu, atjauninātu un pārbaudītu modeļa elementus.
 
-###### <a name="financial-dimensionsdimension-based-configuration"></a>**konfigurācija atbilstoši dimensijām**
+###### <a name="financial-dimensionsdimension-based-configuration"></a>**preces konfigurācija atbilstoši dimensijām**
 
-Konfigurēšanas tehnoloģija, kas izmanto preces variantus, izvēloties vērtības preces dimensijām.
+Konfigurēšanas tehnoloģija, kas tiek izmantota, lai veidotu preču variantus, izvēloties vērtības preces dimensijām.
 
 ###### <a name="distinct-product"></a>**atšķirīga prece**
 
 Unikāli identificējama prece.
 
-###### <a name="document-blocking"></a>**dokumenta aizturēšana**
+###### <a name="document-blocking"></a>**dokumenta bloķēšana**
 
-Darba procesa aizturēšanas metode, kamēr pasūtītie krājumi atrodas kvalitātes nodrošināšanas procesā.
+Metode darba procesa aizturēšanai, kamēr pasūtītie krājumi atrodas kvalitātes nodrošināšanas procesā.
 
 ###### <a name="document-management-system"></a>**dokumentu pārvaldības sistēma**
 
@@ -271,17 +271,17 @@ Programmas pakalpojums organizācijas dokumentu glabāšanai un apstrādei.
 
 ###### <a name="duty"></a>**pienākums**
 
-Drošības modelī programmas piekļuves privilēģiju kopa, kas nepieciešamas lietotājam savu pienākumu veikšanai.
+Programmas piekļuves privilēģiju kopa drošības modelī, kas lietotājam ir nepieciešama savu pienākumu veikšanai.
 
 ### <a name="e"></a>**E**
 
 ###### <a name="eft-electronic-funds-transfer"></a>**EFT (elektronisko līdzekļu pārskaitījums)**
 
-Tīkla sistēma naudas līdzekļu pārskaitīšanai no viena bankas konta uz otru.
+Tīkla sistēma naudas līdzekļu pārskaitīšanai no viena bankas konta uz citu.
 
 ###### <a name="event"></a>**notikums**
 
-Notikums ļauj klasei vai objektam paziņot citām klasēm vai objektiem, ja notiek kaut kas interesants.
+Notikums klasei vai objektam ļauj paziņot citām klasēm vai objektiem, ja notiek kaut kas interesants.
 
 ###### <a name="epe-every-product-every"></a>**EPE (Every Product Every)**
 
@@ -289,13 +289,13 @@ Racionāla koncepcija, kuru izmanto, lai izveidotu ražošanas ciklu, kas regul�
 
 ###### <a name="extension"></a>**paplašinājums**
 
-Pieteikuma pielāgošana, pievienojot funkcionalitāti esošajam kodam.
+Programmas pielāgošana, esošajam kodam pievienojot funkcionalitāti.
 
 ### <a name="f"></a>**F**
 
 ###### <a name="financial-dimension"></a>**finanšu dimensija**
 
-finanšu datu klasifikators, kas tiek izveidots no pusēm, atrašanās vietām, precēm un aktivitātēm organizācijā un tiek izmantots vadības pārskatu sagatavošanai.
+Finanšu datu klasifikators, kas tiek izveidots no pusēm, atrašanās vietām, precēm un aktivitātēm organizācijā un tiek izmantots vadības pārskatu sagatavošanai.
 
 ###### <a name="financial-dimension-value"></a>**finanšu dimensijas vērtība**
 
@@ -309,17 +309,17 @@ Pārskats, kas dokumentē organizācijas finansiālo informāciju un finansiālo
 
 Izmaksas, kas nemainās ar izmaiņām precu piegādes caurlaidspējā vai izvadē.
 
-###### <a name="fixed-currency"></a>**fiksēta valūta**
+###### <a name="fixed-currency"></a>**fiksētā valūta**
 
 Valūta, kurai ir fiksēts valūtas kurss attiecībā pret citu valūtu.
 
-###### <a name="fixed-quantity-kanban"></a>**fiksēta daudzuma Kanban**
+###### <a name="fixed-quantity-kanban"></a>**fiksēts daudzuma Kanban**
 
-Kanban tips, kuru izmanto, kad Kanban nosacījumiem piešķirtais Kanban skaits ir pastāvīgs.
+Kanban tips, kuru izmanto, kad Kanban nosacījumiem piešķirtais Kanban skaits ir konstants.
 
 ###### <a name="flexible-authentication"></a>**elastīgā autentifikācija**
 
-Autentifikācijas process, kad lietotāji dažādās identitātes pārvaldības sistēmās var būt autentificēti.
+Autentifikācijas process, kad lietotāji var būt autentificēti dažādās identitātes pārvaldības sistēmās.
 
 ###### <a name="formula"></a>**formula**
 
@@ -327,41 +327,41 @@ Skaitliskā attiecība starp ražošanas procesa ievadēm un ražošanas procesa
 
 ###### <a name="formula-item"></a>**formulas krājums**
 
-Pakešveida apstrādes izvade, kuru kontrolē formula.
+Formulas kontrolēta pakešveida apstrādes izvade.
 
 ### <a name="g"></a>**G**
 
 ###### <a name="general-budget-reservation"></a>**vispārīga budžeta rezervācija**
 
-Dokuments, ko bieži izmanto publiskā sektora iestādes, lai atliktu vai atzīmētu budžeta līdzekļus, padarot šos līdzekļus nepieejamus citiem nolūkiem.
+Dokuments, ko bieži izmanto publiskā sektora iestādes, lai atliktu vai atzīmētu budžetā paredzētos līdzekļus, šos līdzekļus padarot nepieejamus citiem nolūkiem.
 
-###### <a name="grace-period"></a>**pagarinājuma periods.**
+###### <a name="grace-period"></a>**pagarinājuma periods**
 
 Laika periods ārpus norādītā datuma, kura laikā saistību var izpildīt bez soda naudas.
 
 ###### <a name="gst-goods-and-services-tax"></a>**GST (preču un pakalpojumu nodoklis)**
 
-Pievienotās vērtības nodoklis, ar kuru apliek dažās/valstīs/reģionos.
+Pievienotās vērtības nodoklis, ar kuru apliek dažās valstīs/reģionos.
 
 ### <a name="i"></a>**I**
 
 ###### <a name="intercompany"></a>**starpuzņēmumu**
 
-Notiek starp vai attiecas uz divām vai vairākām juridiskām personām, kuras ir vienas organizācijas puses, kas konsolidē visu juridisko personu kontus.
+Notiek starp vai attiecas uz divām vai vairākām juridiskajām personām, kuras ir daļa no tās pašas organizācijas, kas konsolidē visu juridisko personu kontus.
 
 ###### <a name="invoice-matching"></a>**rēķinu salīdzināšana**
 
-Kreditora rēķinu cenu un preču daudzumu salīdzināšanas ar pirkšanas pasūtījumiem un produktu ieejas plūsmām salīdzināšana.
+Kreditora rēķinu cenu un preču daudzumu salīdzināšana ar pirkšanas pasūtījumiem un produktu ieejas plūsmām.
 
 ###### <a name="item-allocation-key"></a>**krājumu sadalījuma princips**
 
-Preču saimes grupējums, kuru izmanto prognožu un pieprasījumu ieplānošanai.
+Preču saimes grupējums, kuru izmanto prognožu un pieprasījumu plānošanai.
 
 ###### <a name="item-relation"></a>**krājumu saistība**
 
-Atsauce uz krājumu sadalījuma grupu vai preces dimensijām Kanban nosacījumos.
+Atsauce uz krājumu sadalījuma grupu vai uz krājumu un tā preces dimensijām Kanban nosacījumos.
 
-### <a name="k"></a>**tūkst.**
+### <a name="k"></a>**K**
 
 ###### <a name="kanban"></a>**Kanban**
 
@@ -369,19 +369,19 @@ Signāls, kas paziņo par preces daudzuma prasību.
 
 ###### <a name="kanban-flow"></a>**Kanban plūsma**
 
-Norāda darbību secību, kas tiek veiktas Kanban, kas izveidotas Kanban nosacījumos.
+Norāda aktivitāšu secību, kas tiek veiktas Kanban nosacījumiem izveidotajos Kanban.
 
 ###### <a name="kanban-job"></a>**Kanban darbs**
 
-Process vai pārsūtīšanas darbība ražošanas plūsmā, kuru izraisa Kanban.
+Procesa vai pārsūtīšanas aktivitāte ražošanas plūsmā, kuru izraisa Kanban.
 
 ###### <a name="kanban-job-consumption"></a>**Kanban darba patēriņš**
 
-Preces sastāvdaļu izņemšana no krājumiem, lai veiktu Kanban ražošanas darbus.
+Preces sastāvdaļu izņemšana no krājumiem, lai izpildītu Kanban ražošanas darbus.
 
 ###### <a name="kanban-product-quantity"></a>**Kanban preču daudzums**
 
-Krājuma prasību skaits, kuras tiek izpildītas uz Kanban, pamatojoties uz Kanban nosacījumiem.
+Krājuma prasību skaits, kuras tiek izpildītas ar Kanban, pamatojoties uz Kanban nosacījumiem.
 
 ###### <a name="kanban-rule"></a>**Kanban nosacījumi**
 
@@ -397,41 +397,41 @@ Filozofija, kurā ražošanas darbības veicina racionālas ražošanas plūsmas
 
 Veids, kādā apkopot krājumus ražošanai, piemēram, pamatojoties uz iestatījumu grupu, nosūtīšanas grupu vai transporta grupu.
 
-###### <a name="ledger-account"></a>**Virsgrāmatas konts**
+###### <a name="ledger-account"></a>**virsgrāmatas konts**
 
-Klasifikators, kas ir izveidots no galvenā konta vērtības un citu finanšu dimensiju vērtību, kuras ir uzskaitītas kontu plānā, kombinācijas un tiek izmantots ekonomiskās darbības finanšu seku klasificēšanai.
+Klasifikators, kas ir izveidots no galvenā konta vērtības un citu kontu plānā uzskaitīto finanšu dimensiju vērtību kombinācijas un tiek izmantots ekonomiskās aktivitātes finanšu seku klasificēšanai.
 
 ###### <a name="license-code"></a>**licences kods**
 
-Burtciparu atslēga, kas sniedz pusei tiesības izmantot programmatūru vai programmatūras komponentus saskaņā ar licences līguma noteikumiem un kas aktivizē un deaktivizē programmatūras moduļus, programmatūras spējas un programmatūras funkcijas.
+Burtciparu atslēga, kas pusei sniedz tiesības izmantot programmatūru vai programmatūras komponentus saskaņā ar licences līguma noteikumiem un kas aktivizē un deaktivizē programmatūras moduļus, programmatūras iespējas un programmatūras funkcijas.
 
 ###### <a name="liquidity"></a>**likviditāte**
 
 Puses spēja izmantot apgrozāmos līdzekļus pašreizējo saistību nokārtošanai.
 
-### <a name="m"></a>**milj.**
+### <a name="m"></a>**M**
 
-###### <a name="manufacturing-overhead-based-on-material"></a>**ražošanas papildu atbalsts, balstoties uz materiālu**
+###### <a name="manufacturing-overhead-based-on-material"></a>**uz materiālu balstītas ražošanas pieskaitāmās izmaksas**
 
-Ražošanas papildu atbalsts ir izteikts kā piemaksu procentu netiešo izmaksu aprēķināšanas formulas. Materiālu komponentiem piesaistītā izmaksu grupa ir pamats aprēķina formulai. Aprēķina formulas var noteikt atsevišķiem produktiem vai krājumu grupām, kas piesaistītas produktiem, tādējādi sniedzot lielāku elastību, aprēķinot uz materiālu balstītu ražošanas papildu atbalstu.
+Ražošanas pieskaitāmās izmaksas tiek izteiktas kā piemaksu procentu netiešo izmaksu aprēķināšanas formulas. Materiālu komponentiem piesaistītā izmaksu grupa ir pamats aprēķina formulai. Aprēķina formulas var noteikt atsevišķām precēm vai krājumu grupām, kas ir piesaistītas precēm, lai panāktu lielāku elastību, aprēķinot ražošanas pieskaitāmās izmaksas, kas ir balstītas uz materiālu.
 
-###### <a name="master-scheduling"></a>**vispārējā (grafika) plānošana**
+###### <a name="master-scheduling"></a>**vispārējā plānošana**
 
 Grafika ģenerēšanas process piedāvājuma un pieprasījuma saskaņošanai.
 
 ###### <a name="model"></a>**modelis**
 
-Modelis satur koda elementus un atsauču metadatus. Tas tiek izveidots un pārbaudīts programmā Visual Studio.
+Modelis ietver koda elementus un atsauču metadatus. Tas tiek izveidots un pārbaudīts programmā Visual Studio.
 
 ###### <a name="model-element"></a>**modeļa elements**
 
-Modelis ir elementu (avota failu un metadatu) grupa, kas veido sadalāmo programmatūras risinājumu. Modelis ir noformēšanas režīma jēdziens.
+Modelis ir elementu (avota failu un metadatu) grupa, kas veido izplatāmo programmatūras risinājumu. Modelis ir noformēšanas laika jēdziens.
 
-### <a name="n"></a>**Nē**
+### <a name="n"></a>**N**
 
 ###### <a name="nbv-net-book-value"></a>**AV (atlikusī vērtība)**
 
-Pamatlīdzekļa vērtība, kuru aprēķina kā starpību starp pamatlīdzekļa sākotnējo vērtību, atskaitot uzkrāto nolietojumu.
+Pamatlīdzekļa vērtība, kuru aprēķina, no pamatlīdzekļa sākotnējās vērtības atskaitot uzkrāto nolietojumu.
 
 ### <a name="o"></a>**O**
 
@@ -441,11 +441,11 @@ Atļautā izveidošanas, lasīšanas, atjaunināšanas, dzēšanas vai izpildī�
 
 ###### <a name="operating-unit"></a>**pārvaldības struktūrvienība**
 
-Organizācija, kas sadala ekonomisko resursu un darba procesu kontroli starp cilvēkiem, kuriem ir pienākums maksimizēt nepietiekamu resursu izmantošanu, uzlabotu procesus un atskaitītos par to veiktspēju.
+Organizācija, kas ekonomisko resursu un darba procesu kontroli sadala starp cilvēkiem, kuriem ir pienākums maksimizēt nepietiekamu resursu izmantošanu, uzlabot procesus un atskaitīties par to veiktspēju.
 
 ###### <a name="output-product"></a>**ražošanas produkts**
 
-Fiziskais produkts, kas parādās aktivitātes rezultātā.
+Fiziskā prece, kas rodas aktivitātes rezultātā.
 
 ###### <a name="overlayering"></a>**pārklāšanās**
 
@@ -453,9 +453,9 @@ Pirmkoda pielāgošanas metode, nodrošinot jaunu pirmkodu, kas ignorē noklusē
 
 ### <a name="p"></a>**P**
 
-###### <a name="package"></a>**iepakojums**
+###### <a name="package"></a>**pakotne**
 
-Pakete ir viena vai vairāku modeļu kompilējamā un izvietojamā vienība.
+Pakotne ir kompilējama un izvietojama viena vai vairāku modeļu vienība.
 
 ###### <a name="party"></a>**puse**
 
@@ -463,11 +463,11 @@ Vienība, kas uzņemas juridiski saistošu lomu, piedaloties līgumiskās attiec
 
 ###### <a name="party"></a>**puse**
 
-Persona vai organizācija, kas piedalās ekonomiskajā darbībā.
+Persona vai organizācija, kas piedalās ekonomiskās aktivitātēs.
 
 ###### <a name="pegging"></a>**piesaiste**
 
-Nepieciešamā krājuma daudzuma izsekošanas process līdz tā avotam.
+Process nepieciešamā krājuma daudzuma izsekošanai līdz tā avotam.
 
 ###### <a name="pegging-event"></a>**pieprasījuma notikums**
 
@@ -479,11 +479,11 @@ Krājums, kas tiek ražots, bet netiek uzkrāts.
 
 ###### <a name="planned-intercompany-demand"></a>**plānotais starpuzņēmumu pieprasījums**
 
-Prognozētais preces pieprasījums no juridiskas personas, kas uzņemas kreditora lomu. Plānotais pieprasījums tiek ģenerēts no plānotā preses pieprasījuma no zemāka līmeņa juridiskas personas.
+Prognozētais preces pieprasījums no juridiskās personas, kas uzņemas kreditora lomu. Plānotais pieprasījums tiek ģenerēts no plānotā preces pieprasījuma no lejupstraumes juridiskās personas.
 
 ###### <a name="post"></a>**grāmatot**
 
-Reģistrēt ekonomiskā notikuma naudas vērtību noteiktajā kontā vai apkopot un pārklasificēt vispārējo un pakārtoto žurnālu kontu ierakstus virsgrāmatas un pakārtotu virsgrāmatas kontu ierakstos.
+Ekonomiskā notikuma naudas vērtību reģistrēt konkrētā kontā vai virsgrāmatas un pakārtoto žurnālu kontu ierakstus apkopot un pārklasificēt virsgrāmatas un pakārtotu virsgrāmatas kontu ierakstos.
 
 ###### <a name="preparer"></a>**sagatavotājs**
 
@@ -491,23 +491,23 @@ Persona, kas izveido pirmdokumentu, lai iniciētu ekonomisko resursu pieprasīju
 
 ###### <a name="privilege"></a>**privilēģija**
 
-Viena vai vairākas atļaujas, kas nepieciešamas lietotājam, lai veiktu uzdevumu.
+Viena vai vairākas atļaujas, kas lietotājam ir nepieciešamas, lai veiktu uzdevumu.
 
 ###### <a name="procurement-catalog"></a>**sagādes katalogs**
 
-Preču piedāvājumu saraksts, kuri ir grupēti pēc sagādes kategorijas. Sagādes katalogs tiek izmantots, lai pieprasītu preces organizācijas iekšējai lietošanai.
+Saraksts ar preču piedāvājumiem, kas ir grupēti pēc sagādes kategorijas. Sagādes katalogs tiek izmantots, lai pieprasītu preces organizācijas iekšējai lietošanai.
 
 ###### <a name="product-component"></a>**preces sastāvdaļa**
 
-Preces daļa.
+Daļa no preces.
 
 ###### <a name="product-dimension"></a>**preces dimensija**
 
-Izmēra, krāsas vai konfigurācijas preču īpašības, kas tiek izmantotas konfigurācijā atbilstoši dimensijām.
+Izmēra, krāsas vai konfigurācijas preču īpašības, kas tiek izmantotas preces konfigurācijai atbilstoši dimensijām.
 
 ###### <a name="product-family"></a>**preču saime**
 
-Krājumu, pakalpojumu vai tiesību unikālais grupējums, kas vai nu piedalās vienādās ražošanas vai piegādes aktivitātēs vai tiek piedāvāti vienā tirgus segmentā. Sistēmā Dynamics 365 for Operations grupēšanu attēlo, izmantojot prognozētu sadalījuma principu.
+Unikāls krājumu, pakalpojumu vai tiesību grupējums, kas vai nu piedalās vienādās ražošanas vai piegādes aktivitātēs, vai tiek piedāvāts tajos pašos tirgus segmentos. Sistēmā Dynamics 365 for Operations grupēšana tiek attēlota, izmantojot prognozētu sadalījuma principu.
 
 ###### <a name="product-master"></a>**preces šablons**
 
@@ -523,7 +523,7 @@ Preces šablona konfigurācija.
 
 ###### <a name="production-flow"></a>**ražošanas plūsma**
 
-Ražošanas process, kas ir izveidots, izmantojot ekonomijas principus.
+Ražošanas process, kas ir izveidots, izmantojot racionālos principus.
 
 ###### <a name="production-flow-model"></a>**ražošanas plūsmas modelis**
 
@@ -535,19 +535,19 @@ Pirmdokuments, kas dokumentē prasības krājumu ražošanai, lai izpildītu pie
 
 ###### <a name="production-schedule"></a>**ražošanas grafiks**
 
-grafiks noteikta krājuma un krājumu daudzuma ražošanai noteiktajā laika, izmantojot noteiktus cilvēku un darba resursus.
+Grafiks noteikta krājuma un krājumu daudzuma ražošanai noteiktā laika, izmantojot noteiktus cilvēku un darba resursus.
 
 ###### <a name="prospect"></a>**paredzams klients**
 
-Dalībnieks, kuram ir esošā vai potenciālā spēja sniegt juridiskai personai pakalpojumu vai iespējamo ekonomisko labumu nākotnē.
+Dalībnieks, kuram ir esošā vai potenciālā spēja juridiskai personai sniegt pakalpojumu vai iespējamu ekonomisko labumu nākotnē.
 
 ###### <a name="purchase-agreement-policy"></a>**pirkšanas līguma ierobežojumi**
 
-Ierobežojumi, kas pilnvaro puses mainīt pirkšanas līguma noteikumus.
+Ierobežojumi, kas puses pilnvaro mainīt pirkšanas līguma noteikumus.
 
 ###### <a name="purchase-order-policy"></a>**pirkšanas pasūtījuma ierobežojumi**
 
-Ierobežojumi, kas pilnvaro puses mainīt pirkšanas pasūtījuma noteikumus un kontrolēt pasūtījuma apstrādi.
+Ierobežojumi, kas puses pilnvaro mainīt pirkšanas pasūtījuma noteikumus un kontrolēt pasūtījuma apstrādi.
 
 ###### <a name="purchase-quotation"></a>**pirkšanas piedāvājums**
 
@@ -557,7 +557,7 @@ Pirmdokuments, kas dokumentē piedāvājumu iegādāties preču daudzumu par nor
 
 Pirmdokuments, kas dokumentē preču pieprasījumus, lai tos varētu iesniegt pārskatīšanai un izmantot, lai pilnvarotu iegādi, kuru veiks pērkošā organizācija.
 
-### <a name="q"></a>**kvadrilj.**
+### <a name="q"></a>**Q**
 
 ###### <a name="quantity-variance"></a>**daudzuma novirze**
 
@@ -575,15 +575,15 @@ Divu vai vairāku kontu vai pārskatu koriģēšanas prakse, lai skaitļi saskan
 
 ###### <a name="reduction-key"></a>**samazināšanas princips**
 
-Metode, kuru izmanto, lai palielinātu vai samazinātu vispārējās plānošānas prasības, pamatojoties uz lietotāja procentuālajiem iestatījumiem, kurus piemēro noteiktos periodos.
+Metode, kuru izmanto, lai palielinātu vai samazinātu vispārējās plānošanas prasības, pamatojoties uz lietotāja definētām procentuālajām vērtībām, kuras tiek piemērotas noteiktos periodos.
 
-###### <a name="register"></a>**reģistrēt**
+###### <a name="register"></a>**reģistrs**
 
-Ieraksts, kas tiek izmantots resursu plūsmas notikumu darba, juridisko un finanšu seku reģistrēšanai grāmatvedības sistēmā.
+Ieraksts, kas tiek izmantots resursu plūsmas notikumu darba, juridisko un finanšu seku reģistrēšanai uzskaites sistēmā.
 
 ###### <a name="regulated-product"></a>**tiesiski regulējams produkts**
 
-Produkts, kuru regulē valdība, kas pieprasa atbilstību un auditācijas pārskatu sniegšanu.
+Produkts, kuru regulē valsts iestāde, kas pieprasa atbilstību un auditācijas pārskatu sniegšanu.
 
 ###### <a name="rfq-request-for-quotation"></a>**PP (piedāvājuma pieprasījums)**
 
@@ -595,45 +595,45 @@ Persona, kas pieprasa ekonomiskos resursus.
 
 ###### <a name="restricted-product"></a>**ierobežotas izplatīšanas produkts**
 
-Produkts, kura izplatīšanu ierobežo valdība.
+Produkts, kura izplatīšanu ierobežo valsts iestāde.
 
 ### <a name="s"></a>**S**
 
 ###### <a name="sales-agreement"></a>**pārdošanas līgums**
 
-Pirmdokuments, kas dokumentē vienošanos starp divām vai vairākām pusēm, pamatojoties uz izpratnes, ka puse, kas pārdod, apņemsies pārdot noteiktu preču daudzumu vai vērtību kādā laika periodā par labvēlīgām cenām un atlaidēm.
+Pirmdokuments, kas dokumentē līgumu starp divām vai vairākām pusēm, pamatojoties uz vienošanos, ka pārdodošā puse apņemas pārdot noteiktu preču daudzumu vai vērtību kādā laika periodā apmaiņā pret izdevīgām cenām un atlaidēm.
 
 ###### <a name="sales-agreement-policy"></a>**pārdošanas līguma ierobežojumi**
 
-Ierobežojumi, kas pilnvaro puses mainīt pārdošanas līguma noteikumus.
+Ierobežojumi, kas puses pilnvaro mainīt pārdošanas līguma noteikumus.
 
 ###### <a name="sales-order-policy"></a>**pārdošanas pasūtījuma ierobežojumi**
 
-Ierobežojumi, kas pilnvaro puses mainīt pārdošanas pasūtījuma noteikumus un kontrolēt pasūtījuma apstrādi un apmaksas procesus.
+Ierobežojumi, kas puses pilnvaro mainīt pārdošanas pasūtījuma noteikumus un kontrolēt pasūtījuma apstrādi un apmaksas procesus.
 
 ###### <a name="sales-quotation"></a>**pārdošanas piedāvājums**
 
-Pirmdokuments, kas dokumentē piedāvājumu piegādāt preču daudzumu par norādīto cenu un līdz norādītajam datumam, atbildot uz piedāvājuma pieprasījumu pārdošanas procesā.
+Pirmdokuments, kas dokumentē piedāvājumu nodrošināt preču daudzumu par norādīto cenu un līdz norādītajam datumam, atbildot uz piedāvājuma pieprasījumu pārdošanas procesā.
 
 ###### <a name="security-role"></a>**drošības loma**
 
-Noteikta programmas piekļuves privilēģiju kopa. Lietotājam piešķirtā drošības loma nosaka, kādus uzdevumus var pildīt lietotājs un kādas lietotāja interfeisa daļas lietotājs var skatīt. Visiem lietotājiem jāpiešķir vismaz viena drošības loma, lai piekļūtu sistēmai.
+Noteikta programmas piekļuves privilēģiju kopa. Lietotājam piešķirtā drošības loma nosaka, kādus uzdevumus šis lietotājs var pildīt un kādas lietotāja interfeisa daļas šis lietotājs var skatīt. Lai piekļūtu sistēmai, visiem lietotājiem ir jāpiešķir vismaz viena drošības loma.
 
 ###### <a name="segregation-of-duties"></a>**pienākumu sadale**
 
-Izveidotais princips, kuru izmanto, lai samazinātu viltojuma, nepareizuma un kļūdu riskus, kas atdala iesaistīto cilvēku pienākumus reģistrēt, pārbaudīt, autorizēt, uzraudzīt un periodiski pārskatīt aktīvus, dokumentētu un reģistrētu ekonomiskas darbības finanšu sekas.
+Dizaina princips, kuru izmanto, lai samazinātu viltojuma, neatbilstību un kļūdu riskus, kas atdala ekonomisko transakciju finanšu sekās iesaistīto, to dokumentējošo vai reģistrējošo cilvēku pienākumus reģistrēt, pārbaudīt, autorizēt, uzraudzīt un periodiski pārskatīt aktīvus.
 
 ###### <a name="sequencing"></a>**secība**
 
-Secība, kādā tiek apstrādāti darbi vai veiktas darbības ražošanas objektā, lai sasniegtu mērķus.
+Secība, kādā ražošanas objektā tiek apstrādāti darbi vai veiktas darbības, lai sasniegtu mērķus.
 
 ###### <a name="shared-asset"></a>**koplietojamais līdzeklis**
 
-Līdzeklis, ko izmanto vairāk nekā viena naudu ienesošā vienība (NIV). Piemērs ir izplatīšanas centrs, kas tiek izmantots krājumu uzglabāšanai pirms to transportēšanas uz dažādiem tirgiem, kas koplieto šo pašu izplatīšanas centru.
+Līdzeklis, ko izmanto vairākas naudu ienesošās vienības (NIV). Piemērs ir izplatīšanas centrs, kas tiek izmantots krājumu uzglabāšanai pirms to transportēšanas uz dažādiem tirgiem, kuri koplieto vienu un to pašu izplatīšanas centru.
 
 ###### <a name="single-use-kanban"></a>**vienreizējās lietošanas Kanban**
 
-Kanban veids, ko izmanto ar fiksēta daudzuma Kanban nosacījumu, lai apmierinātu ārkārtīgi augstu pieprasījumu. Vienreizējās lietošanas Kanban neizraisa jaunu Kanban, kad tas tiek anulēts.
+Kanban tips, ko izmanto ar fiksēta daudzuma Kanban nosacījumu, lai apmierinātu ārkārtīgi augstu pieprasījumu. Vienreizējās lietošanas Kanban neizraisa jaunu Kanban, kad tas tiek anulēts.
 
 ###### <a name="smart-rounding"></a>**noapaļošana uz leju**
 
@@ -641,41 +641,41 @@ Tirgzinības prakse cenu noteikšanai izmantot nepāra skaitļus, kuri ir nedaud
 
 ###### <a name="source-requirement"></a>**izcelsmes pieprasījums**
 
-Preces daudzums, kas ir dokumentēts pirmdokumenta rindā, kas izveido piesaistes prasību.
+Preces daudzums, kas ir dokumentēts pirmdokumenta rindā, kura izveido piesaistes prasību.
 
 ###### <a name="statistical-baseline-forecast"></a>**statistiskās bāzlīnijas prognoze**
 
-Nākotnes pieprasījums, kas tiek izveidots, lietojot prognozēšanas algoritma vēsturisko darījumu datu novērtējumu.
+Prognoze par nākotnes pieprasījumu, kas tiek izveidota, vēsturiskajiem transakcijas datiem lietojot prognozēšanas algoritmu.
 
 ###### <a name="supermarket"></a>**lielveikals**
 
-Savlaicīga krājumu vieta, kurai ir ierobežots tilpums un kuru izmanto materiālu komplektēšanai blakus patēriņa punktam.
+Savlaicīgs krājumu novietojums, kuram ir ierobežota ietilpība un kuru izmanto materiālu komplektēšanai patēriņa punkta tuvumā.
 
 ###### <a name="system-defined-financial-dimension-type"></a>**sistēmas definēts finanšu dimensijas tips**
 
-Finanšu dimensija, kura ir kartēta tabulā vai skatā datubāzē, kas atspoguļo elementa tipu un kuras vērtības ir šī elementa tipa viena atribūta domēnā.
+Uz kādu tabulu vai skatu datu bāzē kartēta finanšu dimensija, kura atspoguļo elementa tipu un kuras vērtības ir šī elementa tipa viena atribūta domēnā.
 
-### <a name="t"></a>**trilj.**
+### <a name="t"></a>**T**
 
 ###### <a name="takt-time"></a>**izgatavošanas laiks**
 
-Laiks vienas preces vienības izgatavošanai.
+Vienas preces vienības izgatavošanai nepieciešamais laiks.
 
 ###### <a name="task-guide"></a>**Uzdevuma ceļvedis**
 
-Kontrolēta, vadīta pieredze, izmantojot Uzdevumu ierakstīšanas darbības. Uzdevumu rokasgrāmata ved lietotāju caur ierakstīto pieredzi. Visa drošības, datu un programmu uzvedība ir vienāda gan izpildot Uzdevumu rokasgrāmatu, gan bez Uzdevumu rokasgrāmatas. Uzdevuma ceļvedis izmanto tādu pašu instrumentāciju kā uzdevumu ierakstītājs, lai uzzinātu, kad lietotājs ir pabeidzis paredzēto darbību, lai tas varētu piedāvāt lietotājam veikt nākamo ieraksta darbību.
+Kontrolēta, vadīta pieredze, izmantojot uzdevumu ieraksta darbības. Uzdevuma ceļvedis lietotāju vada caur ierakstītu piedzīvojumu. Izpildot uzdevuma ceļvedi, visa drošības, datu un programmas uzvedība ir tāda pati, kāda tā būtu, neizmantojot uzdevuma ceļvedi. Uzdevuma ceļvedis izmanto tādu pašu instrumentāciju kā uzdevumu ierakstītājs, lai uzzinātu, kad lietotājs ir pabeidzis paredzēto darbību, un varētu lietotājam piedāvāt nākamās ieraksta darbības izpildi.
 
-###### <a name="task-recorder"></a>**Uzdevumu reģistrētājs**
+###### <a name="task-recorder"></a>**Uzdevumu ierakstītājs**
 
-Rīks, kurš jau ir instalēts programmā Dynamics 365 for Operations. Ierakstīšanas laikā tas ieraksta visus notikumus, kurus lietotājs ievada Dynamics 365 for Operations lietotāja interfeisā un kuri tiek izpildīti serverī — ieskaitot pievienotās vērtības, izmainītos iestatījumus, noņemtos datus utt.
+Rīks, kurš jau ir instalēts programmā Dynamics 365 for Operations. Ierakstīšanas laikā tas ieraksta visus notikumus, kurus lietotājs ievada Dynamics 365 for Operations lietotāja interfeisā un kuri tiek izpildīti serverī — tostarp pievienotās vērtības, izmainītos iestatījumus, noņemtos datus utt.
 
-###### <a name="task-recording"></a>**Uzdevuma ierakstīšana**
+###### <a name="task-recording"></a>**Uzdevuma ieraksts**
 
-Fails, kas satur darbības un piezīmes, kas tiek uzņemtas, kad Uzdevumu ierakstītājs tiek palaists sistēmā Microsoft Dynamics 365 for Operations.
+Fails, kas ietver darbības un anotācijas, kuras tiek uzņemtas, kad sistēmā Microsoft Dynamics 365 for Operations darbojas uzdevumu ierakstītājs.
 
 ###### <a name="three-way-matching-policy"></a>**trīsvirzienu atbilstības ierobežojumi**
 
-Atbilstības ierobežojumi, kas pieprasa viena vai vairāku kreditoru rēķinu cenas, lai saskaņotu ar viena vai vairāku pirkšanas pasūtījumu cenām un kas pieprasa, lai viena vai vairāku kreditoru rēķinu daudzumi atbilstu vienas vai vairāku produktu ieejas plūsmu daudzumiem.
+Atbilstības ierobežojumi, kas pieprasa, lai viena vai vairāku kreditoru rēķinu cenas saskanētu ar viena vai vairāku pirkšanas pasūtījumu cenām, un kas pieprasa, lai viena vai vairāku kreditoru rēķinu daudzumi saskanētu ar vienas vai vairāku produktu ieejas plūsmu daudzumiem.
 
 ###### <a name="transfer-batch"></a>**pārsūtāmā partija**
 
@@ -683,13 +683,13 @@ Viena vai vairāku krājumu daudzums, kuru nosūta vai var nosūtīt.
 
 ###### <a name="two-way-matching-policy"></a>**divvirzienu atbilstības ierobežojumi**
 
-Atbilstības ierobežojumi, kas pieprasa, lai viena vai vairāku kreditoru rēķinu cenas sakristu ar viena vai vairāku pirkšanas pasūtījumu cenām.
+Atbilstības ierobežojumi, kas pieprasa, lai viena vai vairāku kreditoru rēķinu cenas saskanētu ar viena vai vairāku pirkšanas pasūtījumu cenām.
 
 ### <a name="u"></a>**U**
 
 ###### <a name="user-defined-financial-dimension-type"></a>**lietotāja definēts finanšu dimensijas tips**
 
-Finanšu dimensija, kura ir kartēta uz lietotāja definēto vērtību sarakstu.
+Finanšu dimensija, kura ir kartēta uz lietotāja definētu vērtību sarakstu.
 
 ### <a name="v"></a>**V**
 
@@ -703,29 +703,29 @@ Preces šablonu modelēšanas un preces variantu konfigurāciju meklēšanas met
 
 ###### <a name="vat-value-added-tax"></a>**PVN (pievienotās vērtības nodoklis)**
 
-Nodoklis, ar kuru apliek preces katrā to ražošanas stadijā, pamatojoties uz vērtības, kura tiek pievienota katrā stadijā.
+Nodoklis, ar kuru apliek preces katrā to ražošanas stadijā, pamatojoties uz attiecīgajā stadijā pievienoto vērtību.
 
 ###### <a name="vendor-catalog"></a>**piegādātāju katalogs**
 
-Preču piedāvājumu saraksts, kuri ir pieejami iegādei no piegādātāja.
+Saraksts ar preču piedāvājumiem, kuri ir pieejami iegādei no piegādātāja.
 
 ###### <a name="vendor-invoice"></a>**kreditora rēķins**
 
-Pirmdokuments, kas dokumentē kreditora maksājuma pieprasījumu. Kreditora rēķins var attiekties uz vienu vai vairākiem pirkšanas pasūtījumiem. Kad kreditora rēķins ir autorizēts, var veikt maksājumu kreditoram.
+Pirmdokuments, kas dokumentē kreditora maksājuma pieprasījumu. Kreditora rēķins var attiekties uz vienu vai vairākiem pirkšanas pasūtījumiem. Kad kreditora rēķins ir autorizēts, šim kreditoram var veikt maksājumu.
 
-### <a name="w"></a>**T**
+### <a name="w"></a>**W**
 
 ###### <a name="work-cell"></a>**darba šūna**
 
 Resursu grupa, kas piedalās ražošanas plūsmas aktivitātē.
 
-###### <a name="worker"></a>**darbinieks**
+###### <a name="worker"></a>**nodarbinātais**
 
-Persona, kas uzņemas darbinieka vai darba uzņēmēja lomu un kurai maksā par pakalpojumiem.
+Persona, kura uzņemas darbinieka vai līgumdarbinieka lomu un kurai maksā par pakalpojumiem.
 
 ###### <a name="workspace"></a>**darbvieta**
 
-Lapa, kas sniedz vienas vai vairāku lietotāja veikto aktivitāšu pārskatu. Lapa izmanto šūnas, sarakstus un diagrammas, lai parādītu gaidīto darbu un saistītos datus no vairākiem avotiem, un lapā parādīti bieži veiktie uzdevumi, kas saistīti ar šiem datiem. Darbvietas kopsavilkuma sadaļā parādītas šūnas tiek parādītas arī saistītajā informācijas paneļa sadaļā.
+Lapa, kas sniedz apskatu par vienu vai vairākām lietotāja veiktajām aktivitātēm. Lai parādītu gaidošo darbu un saistītos datus no vairākiem avotiem, šī lapa izmanto šūnas, sarakstus un diagrammas, un lapā tiek rādīti ar šiem datiem saistītie bieži veiktie uzdevumi. Darbvietas kopsavilkuma sadaļā rādītas šūnas tiek rādītas arī informācijas paneļa saistītajā sadaļā.
 
 
 
