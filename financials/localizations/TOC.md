@@ -67,6 +67,7 @@
 ### [CODA bankas izraksts](emea-bel-coda-bank-statement-import.md)
 ### [Intervat nodokļu deklarācija](emea-bel-intervat-tax-declaration.md)
 ### [PRODCOM pārskata iestatīšana](emea-bel-prodcom-report.md)
+### [Saskaņošanas pārskati](emea-bel-reconciliation-reports.md)
 
 ## Čehija
 ### [Termiņatlaide kredīta notā](emea-cze-credit-note-cash-discount.md)
@@ -74,6 +75,7 @@
 ### [Nolietojuma atlikšana](emea-cze-depreciation-suspension-holidays.md)
 ### [Pamatlīdzekļu nolietojums](emea-cze-fixed-assets-depreciation.md)
 ### [Pusgada nolietojums](emea-cze-half-depreciation-fixed-asset-disposal.md)
+### [PVN pārskats ](emea-cze-intra-community-vat-transactions.md)
 ### [PVN deklarācija](emea-cze-vat-statement-details.md)
 ## Igaunija
 ### [PVN deklarācija](emea-est-vat-statement-details.md)

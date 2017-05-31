@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 17a5dcf0f406380fbc4ff242932516894562fe5d
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 7d9b5870d8b1c64e3d444900253b06bbb76b6feb
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -30,7 +30,6 @@ ms.lasthandoff: 04/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-"[!include[banner](../includes/banner.md)]"
 
 
 Šajā tēmā ir uzskaitītas mobilās darbvietas, kuras ir nesen izlaistas Microsoft Dynamics 365 for Operations mobilajai programmai.
@@ -51,9 +50,9 @@ ms.lasthandoff: 04/25/2017
 | Mobilā darbvieta     | Apraksts                                                                                                                                                                         | Papildinformācija                                                                                                                                                        |
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Izmaksu kontrolēšana     | Izmaksu centru vadītāji izmaksu centra veiktspēju var redzēt jebkurā laikā un jebkurā vietā.                                                                                               | [Izmaksu kontrolēšanas mobilā darbvieta](/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace)         |
-| Rīcībā esošie krājumi    | Gūstiet ieskatu par rezervēto un pieejamo krājumu daudzumu jebkurā vietā un laikā.                                                                                                    | [Rīcībā esošo krājumu mobilā darbvieta](/dynamics365/operations/scm/production-control/inventory-on-hand-mobile-workspace)       |
-| Pārdošanas pasūtījumi         | Vienmēr ziniet visjaunāko informāciju par saviem pārdošanas pasūtījumiem jebkurā laikā un vietā.                                                                                                                          | [Pārdošanas pasūtījumu mobilā darbvieta](/dynamics365/operations/scm/production-control/sales-orders-mobile-workspace)                 |
-| Kreditoru sadarbība | Jūsu kreditori var uzzināt aktuālo informāciju par pirkšanas pasūtījumiem, kas viņiem ir nosūtīti apstiprināšanai, un viņi var apskatīt informāciju par jauniem un atjauninātiem pirkšanas pasūtījumiem un kontaktpersonām. | [Kreditoru sadarbības mobilā darbvieta](/dynamics365/operations/scm/procurement/vendor-collaboration-mobile-workspace) |
+| Rīcībā esošie krājumi    | Gūstiet ieskatu par rezervēto un pieejamo krājumu daudzumu jebkurā vietā un laikā.                                                                                                    | [Rīcībā esošo krājumu mobilā darbvieta](/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace)       |
+| Pārdošanas pasūtījumi         | Vienmēr ziniet visjaunāko informāciju par saviem pārdošanas pasūtījumiem jebkurā laikā un vietā.                                                                                                                          | [Pārdošanas pasūtījumu mobilā darbvieta](/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace)                 |
+| Kreditoru sadarbība | Jūsu kreditori var uzzināt aktuālo informāciju par pirkšanas pasūtījumiem, kas viņiem ir nosūtīti apstiprināšanai, un viņi var apskatīt informāciju par jauniem un atjauninātiem pirkšanas pasūtījumiem un kontaktpersonām. | [Kreditoru sadarbības mobilā darbvieta](/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace) |
 
 ## <a name="mobile-workspace-functionality-that-was-released-in-december-2016"></a>Mobilo darbvietu funkcionalitāte, kas tika izlaista 2016. gada decembrī
 | Mobilā darbvieta        | Apraksts                                                                    | Papildinformācija                                                                                                            |

@@ -4,6 +4,7 @@
 ## Izveidot pieprasījuma apjoma prognozes
 ### [Pieprasījuma apjoma prognozes apskats](master-planning/introduction-demand-forecasting.md)
 ### [Iestatīt pieprasījuma apjoma prognozi](master-planning/demand-forecasting-setup.md)
+### [Importējiet vēsturiskos datus pieprasījuma apjoma prognozēm](master-planning/import-historical-data.md)
 ### [Ģenerēt statistiskās bāzlīnijas prognozi](master-planning/generate-statistical-baseline-forecast.md)
 ### [Veikt manuālas korekcijas bāzlīnijas prognozē](master-planning/manual-adjustments-baseline-forecast.md)
 ### [Autorizēt koriģēto pieprasījuma apjoma prognozi](master-planning/authorize-adjusted-forecast.md)

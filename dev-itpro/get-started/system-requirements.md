@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.search.scope: Core
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 86053196a3aad6b7b5d7830860e1af347dd969d8
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: de2f71a21c5aac953349559c84283d0f76082d42
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -42,7 +42,9 @@ Microsoft Dynamics 365 for Operations tīmekļa programmu var palaist jebkurā n
 -   Google Chrome (jaunākā publiski pieejamā versija) operētājsistēmā Windows 10, Windows 8.1, Windows 8, Windows 7 vai Google Nexus 10 planšetdatorā
 -   Apple Safari (jaunākā publiski pieejamā versija) operētājsistēmā Mac OS X 10.10 (Yosemite), 10.11 (El Capitan), 10.12 (Sierra) vai Apple iPad
 
-Lai atrastu katras tīmekļa pārlūkprogrammas visjaunāko laidienu, dodieties uz programmatūras ražotāja vietni. **Piezīmes.**
+Lai atrastu katras tīmekļa pārlūkprogrammas visjaunāko laidienu, dodieties uz programmatūras ražotāja vietni. 
+
+**Piezīmes.**
 
 -   Lai tvertu attēlus, kas izveidoti Uzdevumu reģistrētājā un iekļautu tos Microsoft Word dokumentos, ir jābūt instalētam Chrome paplašinājumam. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/operations/dev-itpro/user-interface/task-recorder).-->
 -   Darbplūsmas redaktors tiek startēts kā ClickOnce programma. ClickOnce programmas atbalsta tikai Microsoft Edge un Internet Explorer (atbalstītā Microsoft Windows versijā). Darbplūsmas redaktora ClickOnce programmai ir nepieciešama 64 bitu saderīga operētājsistēma.
@@ -59,10 +61,12 @@ Retail Cloud POS programmatūrai Microsoft Dynamics 365 for Operations var palai
 -   Chrome (jaunākā publiski pieejamā versija) operētājsistēmā Windows 10, Windows 8.1 vai Windows 7
 
 ## <a name="network-requirements"></a>Tīkla prasības
--   Programma Dynamics 365 for Operations ir izstrādāta tīkliem, kuru latentums ir mazāks par 150 milisekundēm (ms). Tas ir latentums no pārlūkprogrammas klienta līdz Microsoft Azure datu centram, kurā tiek viesota programma Microsoft Dynamics 365 for Operations. Ieteicams pārbaudīt tīkla latentumu vietnē <http://www.azurespeed.com>.
+-   Programmatūra Dynamics 365 for Operations ir izstrādāta tīkliem, kuru latentums ir 250–300 milisekundes (ms) vai mazāks. Tas ir latentums no pārlūkprogrammas klienta līdz Microsoft Azure datu centram, kurā tiek viesota programma Microsoft Dynamics 365 for Operations. Ieteicams pārbaudīt tīkla latentumu vietnē <http://www.azurespeed.com>.
 -   Joslas platuma prasības programmai Dynamics 365 for Operations ir atkarīgas no scenārija. Tipiskākajiem scenārijiem ir nepieciešams joslas platums, kas ir lielāks par 50 kilobaitiem sekundē (KB/s). Tomēr scenārijiem, kuriem ir augstas lietderīgās slodzes prasības, piemēram, darbvietām, vai scenārijiem, kuru ietvaros tiek veikta plaša pielāgošana, ieteicams izmantot lielāku joslas platumu.
 
-Parasti programma Dynamics 365 for Operations ir optimizēta internetam. Ciklu skaits no pārlūkprogrammas klienta uz Azure datu centru ir pavisam neliels, un visa lietderīgā slodze tiek saspiesta. **Brīdinājums.** Neaprēķiniet nepieciešamo joslas platumu no klienta novietojuma, reizinot lietotāju skaitu ar minimālo nepieciešamo joslas platumu. Noteikta novietojuma vienlaicīgu izmantošanu ir ļoti grūti aprēķināt. Debitoriem, kurus uztrauc joslas platuma prasības, izmantojiet Dynamics 365 for Operations priekšskatījuma versiju.
+Parasti programma Dynamics 365 for Operations ir optimizēta internetam. Ciklu skaits no pārlūkprogrammas klienta uz Azure datu centru ir pavisam neliels, un visa lietderīgā slodze tiek saspiesta. 
+
+**Brīdinājums.** Neaprēķiniet nepieciešamo joslas platumu no klienta novietojuma, reizinot lietotāju skaitu ar minimālo nepieciešamo joslas platumu. Noteikta novietojuma vienlaicīgu izmantošanu ir ļoti grūti aprēķināt. Debitoriem, kurus uztrauc joslas platuma prasības, izmantojiet Dynamics 365 for Operations priekšskatījuma versiju.
 
 ## <a name="net-framework-requirements"></a>.NET Framework prasības
 Programmai Dynamics 365 for Operations ir nepieciešama .NET Framework versija 4.6.2 visām viena klikšķa programmām, piemēram, dokumentu maršrutēšanas aģentam. Instalācijas instrukcijas skatiet sadaļā [.NET Framework instalācija](https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx).

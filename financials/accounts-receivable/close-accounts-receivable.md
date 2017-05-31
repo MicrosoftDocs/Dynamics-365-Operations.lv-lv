@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 1ab51f90be918ee60e99fe11e5425383beefb26e
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 6e8e87df88aace213f50db617229383eba4d86ec
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -47,13 +47,11 @@ Aizvērt Virsgrāmatas periodus
 |Apstiprināt pārdošanas pasūtījumu                   | Labot pārdošanas pasūtījumus.                                                                       |
 |Ārvalstu valūtas pārvērtēšana          | Izveidojiet darbības, kas atjaunina debitoru atvērto darbību vērtību ārvalstu valūtās.                                                                                                                         |
 | Žurnāls                              | Iegrāmatojiet rēķinus, maksājumus un parādzīmes.                                             |
-| Žurnāla dokuments                      | -   **Maksājumu žurnāls** — ģenerējiet, apstrādājiet un grāmatojiet maksājumus.
-                                         -   **Draw bill of exchange journal** – Post bills of exchange.
-                                         -   **Protest bill of exchange journal** – Post protested bills of exchange.
-                                         -   **Redraw bill of exchange journal** – Post redrawn bills of exchange.
-                                         -   **Remittance journal** – Post remittances.
-                                         -   **Settle bill of exchange journal** – Post settled bills of exchange                   |
-| Pavadzīmes grāmatošana                 | Atjauniniet pavadzīmes pārdošanas pasūtījumiem.                                                     | | Grāmatot brīva teksta rēķinu               | Grāmatojiet brīva teksta rēķinus.                                                                   | | Rēķina grāmatošana                      | Grāmatojiet rēķinus pārdošanas pasūtījumiem.                                                            | | Izdošanas sarakstu grāmatošana                 |Atjauniniet izdošanas sarakstus pārdošanas pasūtījumiem.                                                      |
+| Žurnāla dokuments                      |<ul><li>**Maksājumu žurnāls** – veidojiet, apstrādājiet un grāmatojiet maksājumus.</li><li>**Vekseļu izrakstīšanas žurnāls** – grāmatojiet vekseļus.</li><li>**Vekseļu noraidīšanas žurnāls** – grāmatojiet noraidītos vekseļus.</li><li>**Vekseļu atkārtotas izrakstīšanas žurnāls** – grāmatojiet atkārtoti izrakstītos vekseļus.</li><li>**Pārskaitījumu žurnāls** – grāmatojiet pārskaitījumus.</li><li>**Vekseļu apmaksas žurnāls** — grāmatojiet apmaksātos vekseļus.</li></ul>                   |
+| Pavadzīmes grāmatošana                 | Atjauniniet pavadzīmes pārdošanas pasūtījumiem.                                                     |
+| Grāmatot brīva teksta rēķinu               | Iegrāmatojiet brīva teksta rēķinus.                                                                   |
+| Rēķina grāmatošana                      | Grāmatojiet rēķinus pārdošanas pasūtījumiem.                                                            |
+| Izdošanas saraksta grāmatošana                 |Atjauniniet izdošanas sarakstus pārdošanas pasūtījumiem.                                                      |
 
 **Biznesa procesa komponenta uzdevums**   
 

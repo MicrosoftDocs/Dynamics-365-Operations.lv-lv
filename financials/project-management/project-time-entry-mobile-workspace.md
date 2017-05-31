@@ -3,10 +3,10 @@ title: "Mobilā darbvieta Projekta laika ieraksts Dynamics 365 for Operations pr
 description: "Šajā tēmā ir sniegta informācija par mobilo darbvietu Projekta laika ieraksts. Šajā darbvietā lietotāji, izmantojot savu mobilo ierīci, var ievadīt un saglabāt laiku attiecībā pret projektu."
 author: annbe
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: annbe
@@ -19,19 +19,18 @@ ms.author: annbe
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: e3e0be36c045acc3750efbb739d79d81ab937c65
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 9c592c301908898915164e9236850759b73543fe
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
 
-# <a name="project-time-entry-mobile-workspace"></a>Mobilā darbvieta Projekta laika ieraksts
+# <a name="project-time-entry-mobile-workspace"></a>Projekta laika ieraksta mobilajām ierīcēm paredzēta darbvieta
 
 [!include[banner](../includes/banner.md)]
 
-"[!include[banner](../includes/banner.md)]"
 
 
 Šajā tēmā ir sniegta informācija par mobilo darbvietu Projekta laika ieraksts Dynamics 365 for Operations mobilajai programmai. Šajā darbvietā lietotāji, izmantojot savu mobilo ierīci, var ievadīt un saglabāt laiku attiecībā pret projektu.
@@ -71,7 +70,7 @@ Lai varētu ieviest mobilo darbvietu **Projekta laika ieraksts**, pārliecinieti
 <tr class="odd">
 <td>Jābūt ieviestai Microsoft Dynamics 365 for Operation versijai 1611 ar 3. vai jaunāku platformas atjauninājumu.</td>
 <td>Sistēmas administrators</td>
-<td>Ja programma Dynamics 365 for Operations vēl nav izvietota jūsu organizācijā, jūsu sistēmas administratoram vajadzētu izlasīt rakstu <a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Izvietot Microsoft Dynamics 365 for Operations demonstrācijas vidi</a>.</td>
+<td>Ja programma Dynamics 365 for Operations vēl nav izvietota jūsu organizācijā, jūsu sistēmas administratoram vajadzētu izlasīt rakstu <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Microsoft Dynamics 365 for Operations izvietošana demonstrācijas vidē</a>.</td>
 </tr>
 <tr class="even">
 <td>Jāievieš KB 4018050.</td>
@@ -79,9 +78,9 @@ Lai varētu ieviest mobilo darbvietu **Projekta laika ieraksts**, pārliecinieti
 <td>KB 4018050 ir X++ atjauninājums vai metadatu labojumfails, kas ietver mobilo darbvietu <strong>Projekta laika ieraksts</strong>. Lai ieviestu KB 4018050, jūsu sistēmas administratoram ir jāizpilda tālāk minētās darbības.
 <ol>
 <li>Lejupielādējiet KB 4018050 no pakalpojuma Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalējiet metadatu labojumfailu</a>.</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Izveidojiet izvietojama pakotni,</a> kas ietver modeļus <strong>ApplicationSuite</strong> un <strong>ProjectMobile</strong>, un pēc tam šo izvietojamo pakotni augšupielādējiet pakalpojumā LCS.</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Lietojiet šo izvietojamo pakotni</a> savai Dynamics 365 for Operations sistēmai.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalējiet metadatu labojumfailu</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Izveidojiet izvietojama pakotni,</a> kas ietver modeļus <strong>ApplicationSuite</strong> un <strong>ProjectMobile</strong>, un pēc tam šo izvietojamo pakotni augšupielādējiet pakalpojumā LCS.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Lietojiet šo izvietojamo pakotni</a> savai Dynamics 365 for Operations sistēmai.</li>
 </ol></td>
 </tr>
 <tr class="odd">

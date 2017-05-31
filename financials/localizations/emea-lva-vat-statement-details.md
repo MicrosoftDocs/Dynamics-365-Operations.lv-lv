@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: TaxAuthority, TaxReportCollection, TaxReportVoucher, TaxTable
 audience: Application User
@@ -18,10 +18,10 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: f91171308e682c00d6f78689aef8c6b6a6c7150d
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 2f6cb775242ac1efdad7525515b3409d353fa0ab
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -52,7 +52,7 @@ Lai PVN deklarāciju ģenerētu atbilstošajai nodokļu iestādei pieprasītajā
 | 48                       | Provided services                                                                        | Par sniegtajiem pakalpojumiem                                                            | R48          |
 | 481                      | Export goods                                                                             | Eksportētās preces                                                                       | R48\_1       |
 | 482                      | Citās valstīs veiktie darījumi                                                         | Citās valstīs veiktie darījumi                                                           | R48\_2       |
-| 49                       | Not taxable transactions                                                                 | Ar PVN neapliekamie darījumi                                                             | R49          |
+| 49                       | Ar nodokli neapliekamie darījumi                                                                 | Ar PVN neapliekamie darījumi                                                             | R49          |
 | 50                       | No ES dalībvalstīm saņemtās preces un pakalpojumi (standartlikme)                | No ES dalībvalstīm saņemtās preces un pakalpojumi (standartlikme)                        | R50          |
 | 51                       | No ES dalībvalstīm saņemtās preces (samazinātā likme)                | No ES dalībvalstīm saņemtās preces (samazinātā likme)                                    | R51          |
 | 54                       | Received services                                                                        | Par saņemtajiem pakalpojumiem                                                            | R54          |
@@ -61,7 +61,7 @@ Lai PVN deklarāciju ģenerētu atbilstošajai nodokļu iestādei pieprasītajā
 | 63                       | Aprēķinātā nodokļa priekšapmaksas summa                                                                | Aprēķinātā PVN summa saskaņā ar likuma 92. panta pirmās daļas 4. punktu (izņemot 64. rindu) | R63          |
 | 64                       | Aprēķinātā nodokļa priekšapmaksas summa par precēm un pakalpojumiem, kas saņemtas no ES dalībvalstīm | Aprēķinātā PVN summa par precēm un pakalpojumiem, kas saņemti no ES dalībvalstīm         | R64          |
 | 65                       | Lauksaimniekiem izmaksātā kompensācija                                                         | Lauksaimniekiem izmaksātā kompensācija                                                   | R65          |
-| 66                       | Not payable tax prepayment                                                               | PVN summa, kas nav atskaitāma kā priekšnodoklis                                          | R66          |
+| 66                       | Nemaksājamā nodokļa priekšapmaksa                                                               | PVN summa, kas nav atskaitāma kā priekšnodoklis                                          | R66          |
 | 67                       | Iepriekšējos taksācijas periodos aprēķinātās nodokļa summas samazinājums                                 | Iepriekšējos taksācijas periodos samaksai valsts budžetā aprēķinātā nodokļa samazinājums | R67          |
 | 57                       | Iepriekšējos taksācijas periodos aprēķinātā priekšnodokļa samazinājuma summa                      | Iepriekšējos taksācijas periodos atskaitītā priekšnodokļa samazinājums                   | R57          |
 

@@ -3,10 +3,10 @@ title: "Pārdošanas pasūtījumu mobilā darbvieta"
 description: "Šajā tēmā ir sniegta informācija par mobilo darbvietu Pārdošanas pasūtījumi, kura ir pieejama Microsoft Dynamics 365 for Operations mobilajā programmā. Šī darbvieta jums palīdz pastāvīgi būt informētam par saviem pārdošanas pasūtījumiem jebkurā vietā un jebkurā laikā."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -19,10 +19,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 119b80e5d8067ffbf75d8b067f4803558c2c94b0
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 11898146a13756a6bb22a769e37e8773484e0d04
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -37,7 +37,9 @@ ms.lasthandoff: 04/25/2017
 <a name="overview-of-the-sales-orders-mobile-workspace"></a>Apskats par mobilo darbvietu Pārdošanas pasūtījumi
 ---------------------------------------------
 
-Mobila darbvieta **Pārdošanas pasūtījumi** piekļūst sistēmai Microsoft Dynamics 365 for Operations un ļauj jums apskatīt detalizētu informāciju par katru pārdošanas pasūtījumu. Šī informācija ietver pasūtījuma statusu, kontaktinformāciju par debitoru un kontaktinformāciju par pasūtījuma veicēju. Mobilā darbvieta **Pārdošanas pasūtījumi** sniedz iespēju nekavējoties skatīt pārdošanas pasūtījumus. Varat skatīt visus pārdošanas pasūtījumus, skatīt pārdošanas pasūtījumus pēc debitora vai skatīt informāciju par konkrētu pārdošanas pasūtījumu. Mobilā darbvieta nodrošina divus skatus, kas palīdz detalizēti analizēt pārdošanas pasūtījumus.
+Mobila darbvieta **Pārdošanas pasūtījumi** piekļūst sistēmai Microsoft Dynamics 365 for Operations un ļauj jums apskatīt detalizētu informāciju par katru pārdošanas pasūtījumu. Šī informācija ietver pasūtījuma statusu, kontaktinformāciju par debitoru un kontaktinformāciju par pasūtījuma veicēju. Mobilā darbvieta **Pārdošanas pasūtījumi** sniedz iespēju nekavējoties skatīt pārdošanas pasūtījumus. Varat skatīt visus pārdošanas pasūtījumus, skatīt pārdošanas pasūtījumus pēc debitora vai skatīt informāciju par konkrētu pārdošanas pasūtījumu. 
+
+Mobilā darbvieta nodrošina divus skatus, kas palīdz detalizēti analizēt pārdošanas pasūtījumus.
 
 ### <a name="view-all-sales-orders"></a>Skatīt visus pārdošanas pasūtījumus
 
@@ -50,6 +52,7 @@ Mobila darbvieta **Pārdošanas pasūtījumi** piekļūst sistēmai Microsoft Dy
     -   Meklēt pēc statusa
     -   Meklēt pēc nodošanas izpildei statusa
     -   Meklēt pēc izveides datuma un laika
+    
 -   Pēc pārdošanas pasūtījumu atlasīšanas varat skatīt detalizētu informāciju par noteiktiem pasūtījumiem. Varat aplūkot tālāk aprakstīto informāciju.
     -   Debitora nosaukuma un adreses informācija
     -   Dažādi datumi saistībā ar pārdošanas pasūtījumu, piemēram, pieprasītais nosūtīšanas datums un apstiprinātais nosūtīšanas datums
@@ -65,6 +68,7 @@ Mobila darbvieta **Pārdošanas pasūtījumi** piekļūst sistēmai Microsoft Dy
 -   Lai skatītu noteikta debitora pārdošanas pasūtījumus, izmantojiet tālāk norādītos filtrus,.
     -   Meklēt pēc nosaukuma
     -   Meklēt pēc konta
+
 -   Kad esat atlasījis debitoru, varat aplūkot tālāk norādīto informāciju.
     -   Debitora nosaukums un grupa
     -   Debitora kontaktinformācija
@@ -96,7 +100,7 @@ Lai varētu izmantot mobilo darbvietu **Pārdošanas pasūtījumi**, pārliecini
 <tr class="odd">
 <td>Jābūt ieviestai Dynamics 365 for Operations versijai 1611 ar 3. vai jaunāku platformas atjauninājumu.</td>
 <td>Sistēmas administrators</td>
-<td>Ja programma Dynamics 365 for Operations vēl nav izvietota jūsu organizācijā, sistēmas administratoram vajadzētu izlasīt rakstu <a href="http://ax.help.dynamics.com/en/wiki/deploy-an-ax7-demo-environment/">Microsoft Dynamics 365 for Operations izvietošana demonstrācijas vidē</a>.</td>
+<td>Ja programma Dynamics 365 for Operations vēl nav izvietota jūsu organizācijā, sistēmas administratoram vajadzētu izlasīt rakstu <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment/">Microsoft Dynamics 365 for Operations izvietošana demonstrācijas vidē</a>.</td>
 </tr>
 <tr class="even">
 <td>Jāievieš KB 4013633.</td>
@@ -104,9 +108,9 @@ Lai varētu izmantot mobilo darbvietu **Pārdošanas pasūtījumi**, pārliecini
 <td>KB 4013633 (X++ atjauninājums vai metadatu labojumfails) satur četras mobilās darbvietas piegādes ķēdes pārvaldībai. Lai ieviestu KB 4013633, jūsu sistēmas administratoram ir jāizpilda tālāk minētās darbības:
 <ol>
 <li>Lejupielādējiet KB 4013633 no pakalpojuma Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/configuring-and-installing-a-metadata-hotfix-package/">Instalējiet metadatu labojumfailu</a>.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/create-and-apply-a-deployable-package/">Izveidojiet izvietojamu pakotni,</a> kas ietver modeli <strong>SCMMobile</strong>, un pēc tam augšupielādējiet izvietojamo pakotni pakalpojumā LCS.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/apply-a-deployable-package-on-a-dynamics-ax-system/">Lietojiet šo izvietojamo pakotni</a> savai Dynamics 365 for Operations sistēmai.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalējiet metadatu labojumfailu</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Izveidojiet izvietojamu pakotni,</a> kas ietver modeli <strong>SCMMobile</strong>, un pēc tam augšupielādējiet izvietojamo pakotni pakalpojumā LCS.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Lietojiet šo izvietojamo pakotni</a> savai Dynamics 365 for Operations sistēmai.</li>
 </ol></td>
 </tr>
 <tr class="odd">

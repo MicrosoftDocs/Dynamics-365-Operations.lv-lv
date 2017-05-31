@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
@@ -18,17 +18,15 @@ ms.author: sericks
 ms.dyn365.ops.intro: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: e1a9e0eeb45f011ccb2aa091e68aff92782e1ae7
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5962fa36b061382e7f0ad55c08c81ac2cebc047d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
 
 # <a name="dynamics-365-for-operations-mobile-app-home-page"></a>Dynamics 365 for Operations mobilās programmas sākumlapa
-
-[!include[banner](../includes/banner.md)]
 
 [!include[banner](../includes/banner.md)]
 
@@ -61,7 +59,7 @@ Navigāciju mobilajā programmā veido četri vienkārši jēdzieni: informācij
 ## <a name="implementation-process"></a>Ieviešanas process
 Nākamajā attēlā ir parādīta procedūra, kā Dynamics 365 for Operations mobilo programmu ieviest jūsu organizācijā. 
 
-[![](./media/mobile-implementation-process_4.png)](./media/mobile-implementation-process_4.png) 
+![Mobilo programmu ieviešanas process](./media/mobile-implementation-process_4.png)
 
 Nākamā tabula ietver saites uz resursiem, kas jums var palīdzēt Dynamics 365 for Operations mobilo programmu ieviest savā organizācijā. Numuri pirmajā kolonnā atbilst iepriekšējā attēlā uzskaitītajiem soļiem.
 
@@ -85,7 +83,7 @@ Nākamā tabula ietver saites uz resursiem, kas jums var palīdzēt Dynamics 365
 <td>1.</td>
 <td>Sistēmas administrators</td>
 <td>Ieviesiet Dynamics 365 for Operations organizācijai.</td>
-<td>Ja programma Dynamics 365 for Operations vēl nav izvietota jūsu organizācijā, skatiet rakstu <a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Izvietot Microsoft Dynamics 365 for Operations demonstrācijas vidi</a>.</td>
+<td>Ja programma Dynamics 365 for Operations vēl nav izvietota jūsu organizācijā, skatiet rakstu <a href="../deployment/deploy-demo-environment.md">Izvietot Microsoft Dynamics 365 for Operations demonstrācijas vidi</a>.</td>
 </tr>
 <tr class="even">
 <td>2.</td>
@@ -93,32 +91,27 @@ Nākamā tabula ietver saites uz resursiem, kas jums var palīdzēt Dynamics 365
 <td>Lejupielādējiet un instalējiet zināšanu bāzes rakstus, kas iespējo Microsoft nodrošinātās mobilās darbvietas.</td>
 <td>Skatiet sadaļu &quot;Priekšnosacījumi&quot; tēmā par tālāk norādīto mobilo darbvietu, kuru jūsu organizācija vēlas izmantot.
 <ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Izmaksu kontrolēšanas mobilās darbvietas</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">Rīcībā esošo krājumu mobilā darbvieta</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">Pārdošanas pasūtījumu mobilās darbvietas</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Kreditoru sadarbības mobilā darbvieta</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Projekta laika ieraksta mobilā darbvieta</a></li>
+<li><a href="/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Izmaksu kontrolēšanas mobilās darbvietas</a></li>
+<li><a href="/dynamics365/operations/supply-chain/inventory/inventory-on-hand-mobile-workspace">Rīcībā esošo krājumu mobilā darbvieta</a></li>
+<li><a href="/dynamics365/operations/supply-chain/sales-marketing/sales-orders-mobile-workspace">Pārdošanas pasūtījumu mobilās darbvietas</a></li>
+<li><a href="/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Kreditoru sadarbības mobilā darbvieta</a></li>
+<li><a href="/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Projekta laika ieraksta mobilajām ierīcēm paredzēta darbvieta</a></li>
+<li><a href="/dynamics365/operations/financials/expense-management/expense-management-mobile-workspace">Mobilā darbvieta Izdevumu pārvaldība</a></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>3.</td>
 <td>Sistēmas administrators</td>
 <td>Publicējiet Microsoft nodrošinātās mobilās darbvietas.</td>
-<td>Skatiet sadaļu &quot;Priekšnosacījumi&quot; tēmā par tālāk norādīto mobilo darbvietu, kuru jūsu organizācija vēlas izmantot.
-<ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Izmaksu kontrolēšanas mobilās darbvietas</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">Rīcībā esošo krājumu mobilā darbvieta</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">Pārdošanas pasūtījumu mobilās darbvietas</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Kreditoru sadarbības mobilā darbvieta</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Projekta laika ieraksta mobilā darbvieta</a></li>
-</ul></td>
+<td><a href="publish-mobile-workspace.md">Mobilās darbvietas publicēšana</a>
+</td>
 </tr>
 <tr class="even">
 <td>4.</td>
 <td>Izstrādātājs vai neatkarīgs programmatūras izstrādātājs (independent software vendor — ISV)</td>
 <td>Lietojiet Dynamics 365 for Operations mobilo struktūru, lai izveidotu pielāgotas mobilās darbvietas.</td>
 <td><ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform">Dynamics 365 for Operations mobilā struktūra</a></li>
+<li><a href="mobile-platform.md">Dynamics 365 for Operations mobilā struktūra</a></li>
 <li><a href="http://ax.help.dynamics.com/en/wiki/operations-mobile-workspace-x-apis/">Dynamics 365 for Operations darbvietas X++ API</a></li>
 </ul></td>
 </tr>
@@ -126,19 +119,19 @@ Nākamā tabula ietver saites uz resursiem, kas jums var palīdzēt Dynamics 365
 <td>5.</td>
 <td>NPI</td>
 <td>Izveidojiet izvietojamu pakotni, kas ietver pielāgotas mobilās darbvietas, un augšupielādējiet šo pakotni uz Microsoft Dynamics Lifecycle Services (LCS).</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Ģenerēt izvietojamu pakotni</a></td>
+<td><a href="../deployment/create-apply-deployable-package.md">Izvietojamas pakotnes izveide</a></td>
 </tr>
 <tr class="even">
 <td>6.</td>
 <td>Sistēmas administrators</td>
 <td>Lietojiet izvietojamo pakotni, kas ietver ISV nodrošinātas pielāgotas darbvietas.</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Lietot izvietojamu pakotni Microsoft Dynamics 365 for Operations sistēmā</a></td>
+<td><a href="../deployment/apply-deployable-package-system.md">Lietot izvietojamu pakotni Microsoft Dynamics 365 for Operations sistēmā</a></td>
 </tr>
 <tr class="odd">
 <td>7.</td>
 <td>Sistēmas administrators</td>
 <td>Publicējiet pielāgotās mobilās darbvietas, ko nodrošina ISV.</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/mobile-apps/publish-mobile-workspace">Publicēt mobilu darbvietu</a></td>
+<td><a href="publish-mobile-workspace.md">Publicēt mobilu darbvietu</a></td>
 </tr>
 <tr class="even">
 <td>8.</td>
@@ -153,24 +146,12 @@ Nākamā tabula ietver saites uz resursiem, kas jums var palīdzēt Dynamics 365
 <td>9.</td>
 <td>Lietotājs</td>
 <td>Pierakstieties Dynamics 365 for Operations mobilajā programmā un lietojiet to. Programma ietver mobilās darbvietas, kuras ir publicētas.</td>
-<td>Microsoft nodrošina tālāk uzskaitītās mobilās darbvietas.
-<ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Izmaksu kontrolēšanas mobilās darbvietas</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">Rīcībā esošo krājumu mobilā darbvieta</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">Pārdošanas pasūtījumu mobilās darbvietas</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Kreditoru sadarbības mobilā darbvieta</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Projekta laika ieraksta mobilā darbvieta</a></li>
-</ul></td>
+<td>Microsoft nodrošināto mobilo darbvietu sarakstu skatiet sadaļā <a href="mobile-workspaces-released.md"> Nesen izlaistās Dynamics 365 for Operations mobilajai programmai paredzētās mobilās darbvietas</a>
+</td>
 </tr>
 </tbody>
 </table>
 
-
-
-<a name="see-also"></a>Skatiet arī
---------
-
-[Dynamics 365 for Operations mobilajai programmai nesen izlaistās mobilās darbvietas](mobile-workspaces-released.md)
 
 
 

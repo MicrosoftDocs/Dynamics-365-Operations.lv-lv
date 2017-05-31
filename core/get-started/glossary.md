@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: dd9f65e045367aeba081d026da53894679ee7ed0
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 4f3015ed4f8dc165d988b2b63ed9ad89d6d6f578
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/10/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -253,7 +253,7 @@ Transportlīdzeklis, kas tiek lietots izvietošanai lietotāja pieņemšanas pā
 
 Visual Studio rīks, ko izmanto, lai izveidotu, atjauninātu un pārbaudītu modeļa elementus.
 
-###### <a name="financial-dimensionsdimension-based-configuration"></a>**preces konfigurācija atbilstoši dimensijām**
+###### <a name="dimension-based-product-configuration"></a>**uz dimensiju balstīta konfigurācija**
 
 Konfigurēšanas tehnoloģija, kas tiek izmantota, lai veidotu preču variantus, izvēloties vērtības preces dimensijām.
 
@@ -503,7 +503,7 @@ Daļa no preces.
 
 ###### <a name="product-dimension"></a>**preces dimensija**
 
-Izmēra, krāsas vai konfigurācijas preču īpašības, kas tiek izmantotas preces konfigurācijai atbilstoši dimensijām.
+Izmēra, krāsas vai konfigurācijas preču īpašības, kas tiek izmantotas uz dimensiju balstītām produktu konfigurācijām.
 
 ###### <a name="product-family"></a>**preču saime**
 

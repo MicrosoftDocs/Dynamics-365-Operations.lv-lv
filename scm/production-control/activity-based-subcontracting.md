@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 4d8ebe2c0a8b4fe08fa7f63ba310c1d9203c1150
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 4cf93c861345ad11b995ac2fe50c9a94dddcbd56
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -90,7 +90,7 @@ Attiecībā uz procesa aktivitātēm lapas **Detalizēta informācija par** **ak
 ## <a name="service-quantity-calculation"></a>Pakalpojuma daudzuma aprēķins
 Viss pirkšanas process ir balstīts uz krājuma atsauci kādam pakalpojumam. Šī krājuma atsauce tiek mērīta pakalpojuma mērvienībās. Parasti pakalpojumu daudzums tiek izteikts kā pakalpojumu skaits (vienības) vai laiks. Lai aprēķinātu pakalpojuma daudzumu, pamatojoties uz reģistrēto Kanban darbu pabeigšanu, varat izmantot tālāk aprakstītās metodes.
 
--   **No darbu skaita atkarīgais aprēķins** — viens Kanban darbs ir vienāds ar *n* pakalpojuma vienībām neatkarīgi no piegādātā preču daudzuma. Ja izmantojat lean manufacturing, tad viens darbs atbilst vienai materiālu apstrādes vienībai. Šī aprēķināšanas metode attiecas uz visiem pakalpojumiem, kam ir fiksēta cena par materiālu apstrādes vienību. Tādēļ šī metode parasti attiecas uz pārsūtīšanas aktivitātēm. Taču to var lietot arī tādu aktivitāšu apstrādāšanai, kurās tiek apstrādātas veselas materiālu apstrādes vienības.
+-   **No darbu skaita atkarīgais aprēķins** — viens Kanban darbs ir vienāds ar *n*pakalpojuma vienībām neatkarīgi no piegādātā preču daudzuma. Ja izmantojat lean manufacturing, tad viens darbs atbilst vienai materiālu apstrādes vienībai. Šī aprēķināšanas metode attiecas uz visiem pakalpojumiem, kam ir fiksēta cena par materiālu apstrādes vienību. Tādēļ šī metode parasti attiecas uz pārsūtīšanas aktivitātēm. Taču to var lietot arī tādu aktivitāšu apstrādāšanai, kurās tiek apstrādātas veselas materiālu apstrādes vienības.
 -   **No preču daudzuma atkarīgais aprēķins** — pakalpojuma daudzums tiek izteikts relatīvi pret plānoto/piegādāto preču daudzumu. Kad ir aprēķināts piegādāto preču daudzums, kļūdainos daudzumus var iekļaut vai izslēgt. Šī aprēķināšanas metode attiecas uz visiem gadījumiem, kad pastāv vienošanās par pakalpojuma cenu par apstrādātās preces vienību.
 -   **No aktivitātes laika atkarīgais aprēķins** — teorētiskie aktivitātes laiki tiek aprēķināti, pamatojoties uz aktivitātes apstrādāšanas laiku, kopējo apstrādāto daudzumu un apstrādātās preces caurlaides koeficientu. Šī aprēķināšanas metode attiecas uz pakalpojumiem, kas tiek apmaksāti pēc stundu skaita un kam pastāv novirze attiecībā uz apstrādātās preces laiku.
 

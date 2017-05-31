@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: ef434747c075a32887035fa1d3c0e6fecd4e0a0d
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 7d146f3dfe1d71e8d3031a851f47fac35d0f1a58
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -68,7 +68,7 @@ Programmā Microsoft Dynamics 365 for Operations tiek izmantotas tālāk norād�
 | Atvērt papildinformācijas rūti (vai aktivizēt papildinformācijas rūti, ja tās jau ir atvērta) | Ctrl+F2                                   |
 | Aizvērt papildinformācijas rūti (kad papildinformācijas rūts ir aktivizēta)                         | Esc                                       |
 | Pāriet uz nākamo/iepriekšējo papildinformācijas rūti (kad papildinformācijas rūts ir aktivizēta)              | Alt+Shift+lejupvērstā bultiņa/Alt+Shift+augšupvērstā bultiņa |
-| Pāriet uz papildinformācijas rūti Nr. &lt;n&gt; (kad papildinformācijas rūts ir aktivizēta)                | Alt+&lt;n&gt; (&lt;n&gt; = 1–9)           |
+| Pāriet uz papildinformācijas lodziņu Nr. &lt;n&gt; (kad ir aktivizēta papildinformācijas rūts)                | Alt+&lt;n&gt; (&lt;n&gt; = 1–9)           |
 | Izvērst papildinformācijas rūti (kad papildinformācijas rūts ir aktivizēta)                             | Atstarpes taustiņš vai Enter                            |
 | Sakļaut pašreizējo papildinformācijas rūti                                                    | Alt+0                                     |
 
@@ -115,8 +115,8 @@ Programmā Microsoft Dynamics 365 for Operations tiek izmantotas tālāk norād�
 | Pāriet uz nākamo/iepriekšējo lauku                     | Tab/Shift+Tab                              |
 | Pāriet uz nākamo/iepriekšējo cilni                       | Alt+Shift+pa labi vērstā bultiņa/Alt+Shift+pa kreisi vērstā bultiņa |
 | Pāriet uz nākamo/iepriekšējo kopsavilkuma cilni                   | Alt+Shift+lejupvērstā bultiņa/Alt+Shift+augšupvērstā bultiņa    |
-| Pāriet uz kopsavilkuma cilni Nr. &lt;n&gt;                     | Alt+&lt;n&gt; (&lt;n&gt; = 1–9)              |
-| Pāriet uz cilni Nr. &lt;n&gt;                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1–9)        |
+| Pāriet uz kopsavilkuma cilni Nr. &lt;n&gt;                     | Alt+&lt;n&gt; (&lt;n&gt; = 1–9)              |
+| Pāriet uz cilni Nr. &lt;n&gt;                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1–9)        |
 | Izvērst kopsavilkuma cilni (kad kopsavilkuma cilne ir aktivizēta) | Atstarpes taustiņš vai Enter                               |
 | Sakļaut pašreizējo kopsavilkuma cilni                        | Alt+0                                        |
 | Aktivizēt režģa skatu                                 | Ctrl+Shift+G                                 |

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation
 audience: Application User
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: bb02e0756d675726f6c3b9f456b980a7ed695463
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: a24c24f842e4f1b1c7806c2fb2ccbd1329fe4851
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -53,7 +53,8 @@ Pieskaitāmo izmaksu aprēķins izpilda izmaksu uzskaites politikas pareizajā s
 -   Finanšu gads
 -   Fiskālais periods
 
-Pieskaitāmo izmaksu aprēķins tiek darbināts neatkarīgi no versijas. Tāpēc budžeta versiju varat aprēķināt pirms faktiskās versijas. Pieskaitāmo izmaksu aprēķinu veido četri soļi, kā parādīts nākamajā attēlā. Katrā solī tiek izveidots žurnāla virsraksts, kurā ir žurnāla ieraksti. Šis žurnāla virsraksts glabā ievades datus par katru aprēķina soli. Politikas un kārtulas tiek lietotas katrai žurnāla rindai, un izmaksu ieraksti tiek ģenerēti kā izvade. Tādēļ jums vienmēr ir pilnīga izsekojamība. [![Pieskaitāmo izmaksu aprēķins](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+Pieskaitāmo izmaksu aprēķins tiek darbināts neatkarīgi no versijas. Tāpēc budžeta versiju varat aprēķināt pirms faktiskās versijas. Pieskaitāmo izmaksu aprēķinu veido četri soļi, kā parādīts nākamajā attēlā. Katrā solī tiek izveidots žurnāla virsraksts, kurā ir žurnāla ieraksti. Šis žurnāla virsraksts glabā ievades datus par katru aprēķina soli. Politikas un kārtulas tiek lietotas katrai žurnāla rindai, un izmaksu ieraksti tiek ģenerēti kā izvade. Tādēļ jums vienmēr ir pilnīga izsekojamība. 
+[![Pieskaitāmo izmaksu aprēķins](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>Aprēķināt un piešķirt elektrības pieskaitāmās izmaksas
 Finanšu uzskaitē noteiktas izmaksas, piemēram, par elektrību, tiek reģistrētas kā vienreizēja izmaksa. Tāpēc izmaksu uzskaitei netiek nodrošināti detalizēti pārvaldības ieskati. Lai izmaksu uzskaitē sniegtu pareizus pārvaldības ieskatus par visām organizācijas vienībām un līmeņiem, izmaksām ir jāplūst caur organizatoriskajām vienībām. Šīs plūsmas pamatā ir jābūt vai nu precīzai patēriņa reģistrēšanai, vai objektīvam novērtējumam. Virsgrāmatā elektrības izmaksas var grāmatot nākamajā tabulā parādītajā veidā.
@@ -622,7 +623,7 @@ Detalizētu informāciju par pieskaitāmo izmaksu likmes politiku skatiet sadaļ
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>4. solis. Apstrādāt izmaksu sadalījuma aprēķinu
 
-Sadalījums tiek izmantots, lai izmaksu objekta bilanci piešķirtu citiem izmaksu objektiem, lietojot sadalījuma pamatu. Microsoft Dynamics 365 for Operations atbalsta savstarpējā sadalījuma metodi. Savstarpējā sadalījuma metodē tiek pilnīgi atpazīti savstarpējie pakalpojumi, ar kuriem izmaksu objekti apmainās. Sistēma automātiski nosaka pareizo secību, kādā veikt sadalījumus. Izmaksu objekta bilance tiek sadalīta pēc viena sadalījuma pamata. Tiek atbalstīti sadalījumi dažādās izmaksu objektu dimensijās un to attiecīgajos elementos. Sadalījuma secību kontrolē izmaksu kontroles vienība. [![](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+Sadalījums tiek izmantots, lai izmaksu objekta bilanci piešķirtu citiem izmaksu objektiem, lietojot sadalījuma pamatu. Microsoft Dynamics 365 for Operations atbalsta savstarpējā sadalījuma metodi. Savstarpējā sadalījuma metodē tiek pilnīgi atpazīti savstarpējie pakalpojumi, ar kuriem izmaksu objekti apmainās. Sistēma automātiski nosaka pareizo secību, kādā veikt sadalījumus. Izmaksu objekta bilance tiek sadalīta pēc viena sadalījuma pamata. Tiek atbalstīti sadalījumi dažādās izmaksu objektu dimensijās un to attiecīgajos elementos. Sadalījuma secību kontrolē izmaksu kontroles vienība. [![Savstarpējā metode](./media/reciprocal-method.png)]
 
 #### <a name="define-the-cost-allocation"></a>Definēt izmaksu sadalījumu
 

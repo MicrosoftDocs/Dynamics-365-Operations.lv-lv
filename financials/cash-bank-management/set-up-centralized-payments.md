@@ -3,10 +3,10 @@ title: "Centralizēto maksājumu iestatīšana"
 description: 
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 05/09/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerInterCompany
 audience: Application User
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 474453e7f33526bc7bebc60ef68f560d489a1841
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 60cc59911cf2d10d73206885eb97b346ec3e3e87
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -41,7 +41,7 @@ Veiciet šīs darbības, lai sagatavos maksājumu apstrādei vienai juridiskajai
 -   Iestatiet starpuzņēmumu grāmatvedību.
 
 ## <a name="set-up-an-organizational-hierarchy-for-centralized-payments"></a>Organizācijas hierarhijas iestatīšana centralizētiem maksājumiem
-Jums ir jāiestata organizācijas hierarhija centralizētiem maksājumiem. Viena un tā pati organizācijas hierarhija tiek izmantota, lai apstrādātu centralizētos kreditoru maksājumus un centralizētos debitoru maksājumus. **Piezīme:** centralizētajiem maksājumiem hierarhijas struktūrai nav nozīmes. Jebkura juridiskā persona šajā hierarhijā varēs apstrādāt maksājumus citas šīs hierarhijas juridiskās personas vārdā. Lapā **Organizācijas hierarhijas** varat izveidot jaunu organizācijas hierarhiju.
+Jums ir jāiestata organizācijas hierarhija centralizētiem maksājumiem. Viena un tā pati organizācijas hierarhija tiek izmantota, lai apstrādātu centralizētos kreditoru maksājumus un centralizētos debitoru maksājumus. **Piezīme:** centralizētajiem maksājumiem hierarhijas struktūrai nav nozīmes. Jebkura juridiskā persona šajā hierarhijā varēs apstrādāt maksājumus citas šīs hierarhijas juridiskās personas vārdā. Lapā **Organizācijas hierarhijas** varat izveidot jaunu organizācijas hierarhiju. Laukā **Nolūks** ir jāatlasa **Centralizēti maksājumi**. 
 
 ## <a name="set-up-an-intercompany-account-for-centralized-payments"></a>Starpuzņēmumu konta iestatīšana centralizētajiem norēķiniem
 Kad pašreizējās juridiskās personas maksājumu transakcijas tiek nosegtas ar rēķiniem citās juridiskajās personās, katrai juridiskajai personai tiek izveidotas atbilstošas sākuma un beigu transakcijas. Jums jānorāda juridiskā persona, kurai tiek grāmatotas jebkuras termiņatlaižu vai realizētās peļņas vai zaudējumu summas. Pirms sākat, izlemiet, kuru juridisko personu izmantosiet kreditoru un debitoru maksājumu apstrādei. Ja viena juridiskā persona apstrādā kreditoru maksājumus, bet cita juridiskā persona apstrādā debitoru maksājumus, jums būs nepieciešams pārslēgties uz katru juridisko personu. Lapā **Starpuzņēmumu grāmatvedība** varat atlasīt starpuzņēmumu attiecību ierakstu juridiskajai personai, kuras vārdā apstrādāsit maksājumus. Cilnē **Centralizēti maksājumi** varat atlasīt, vai tiks grāmatotas termiņatlaides maksājuma (vai cita darījuma, kas samazina kreditora konta bilanci) juridiskajai personai vai rēķina (vai citas transakcijas, kas palielina kreditora konta bilanci) juridiskajai personai. Šī izvēle darbojas kopā ar lauku **Termiņatlaižu administrēšana** lapās **Kreditoru moduļa parametri** un **Debitoru moduļa parametri**. Pārmaksām un sīknaudas starpības tolerancēm tiek izmantots maksājuma juridiskās personas iestatījums. Nepilnas samaksas un sīknaudas starpības tolerancēm tiek izmantots rēķina juridiskās personas iestatījums.
