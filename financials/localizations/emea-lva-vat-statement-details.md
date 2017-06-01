@@ -10,9 +10,9 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: TaxAuthority, TaxReportCollection, TaxReportVoucher, TaxTable
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 266864
-ms.assetid: 40104afc-cbce-4f03-9318-7d0599bb1323
 ms.search.region: Latvia
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30

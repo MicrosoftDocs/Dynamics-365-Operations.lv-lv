@@ -10,9 +10,9 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetTable
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 266924
-ms.assetid: 7bbcacb6-a3c3-4e45-a1a5-e02feabf1f56
 ms.search.region: Latvia
 ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
