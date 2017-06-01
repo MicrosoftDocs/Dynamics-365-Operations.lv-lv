@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6f785ac8b9a8be503bf9122f21716f745b17115b
-ms.openlocfilehash: f08434b4c818460009644e77da1b37ba86cc1d54
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 181ad9a7ab4e83ce9eb34312e93b1ebdeb2e04eb
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/27/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -38,10 +38,14 @@ Dynamics 365 for Operations ietver palīdzības sistēmu, kuras pamatā ir divi 
 -   Dokumentācijas vietne
 -   Uzdevumu ceļveži
 
-Gan rakstiem, gan uzdevumu ceļvežiem varat piekļūt Dynamics 365 for Operations rūtī Palīdzība, kā tas ir redzams tālāk esošajā ekrānuzņēmumā. [![Rūts Palīdzība](./media/help-pane-ops-task-guides-1024x741.png)](./media/help-pane-ops-task-guides.png) Šajā rakstā ir aprakstīta palīdzības sistēma un paskaidrots, kā varat savai organizācijai izveidot pielāgotu dokumentāciju un apmācības resursus.
+Gan rakstiem, gan uzdevumu ceļvežiem varat piekļūt Dynamics 365 for Operations rūtī Palīdzība, kā tas ir redzams tālāk esošajā ekrānuzņēmumā.
+
+![Rūts Palīdzība](./media/help-pane-ops-task-guides-1024x741.png)
+
+Šajā rakstā ir aprakstīta palīdzības sistēma un paskaidrots, kā varat izveidot pielāgotu dokumentāciju un apmācības resursus savai organizācijai.
 
 ## <a name="help-on-docsmicrosoftcom"></a>Palīdzība vietnē docs.microsoft.com
-Vietne docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations) ir galvenais Dynamics 365 for Operations produkta dokumentācijas avots. Vietnē ir pieejami tālāk norādītie līdzekļi.
+Vietne docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) ir galvenais Dynamics 365 for Operations produkta dokumentācijas avots. Vietnē ir pieejami tālāk norādītie līdzekļi.
 
 -   **Piekļuve visjaunākajam saturam** — vietne nodrošina ātrāku un pielāgojamāku veidu, kā piegādāt un atjaunināt produkta dokumentāciju. Tāpēc tā palīdz garantēt, ka jums ir pieeja visjaunākajai tehniskajai informācijai.
 -   **Saturs, ko ir rakstījuši speciālisti** — vietne nodrošina plašāku produkta dokumentācijas klāstu, ko var paplašināt kopienas dalībnieki gan korporācijā Microsoft, gan ārpus tās.
@@ -50,13 +54,48 @@ Vietne docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics
 
 Viss mūsu saturs ir migrēts no mūsu iepriekšējās palīdzības vikivietnes uz vietni docs. Mēs esam sajūsmā par savu jauno vietni un ceram, ka arī jums tā patiks.
 
-### <a name="when-can-we-use-it"></a>Kad mēs varam to izmantot?
+### <a name="searching-on-docsmicrosoftcom"></a>Meklēšana vietnē docs.microsoft.com
+Mēs saņemam daudz jautājumu par to, kā meklēt mūsu saturu. Ja sākat meklēšanu mūsu vietnes lapā par Dynamics 365 for Operations, meklēšana tiek koncentrēta uz Dynamics 365 for Operations saturu. Varat noņemt koncentrēšanu, noklikšķinot uz simbola X, kas atrodas blakus tekstam Darbības meklēšanas lodziņā. 
+![Meklēšana](./media/search-scope.png)
 
-Vietnes docs saturu varat lasīt jau tagad — šī vietne ir pilnībā publiska, un tajā var veikt meklēšanu nepierakstoties. Lai atrastu saturu, varat izmantot jebkuru no iecienītākajām meklēšanas programmām. Ja vēlaties, varat pierakstīties un pievienot komentārus vietnē esošajiem rakstiem.
+Varat arī atrast mūsu saturu, izmantojot jebkuru meklēšanas programmu. Lai iegūtu labākos rezultātus, ir ieteicams izmantoto meklēšanu vietnē, piemēram, site:docs.microsoft.com “meklējamais vārds vai frāze”.  
+![Meklēšana vietnē](./media/site-search.png)
+
+![Meklēšanas vietnē rezultāti](./media/site-search-results.png)
+
+
+### <a name="how-can-i-contribute"></a>Kā es varu palīdzēt? 
+
+Pievienojiet komentāru. 
+
+1. Noklikšķiniet uz **Komentāri**, lai pārietu uz komentāru sadaļu lapas apakšdaļā.
+
+![Komentāri](./media/comments.png)
+
+2. Ievadīt komentāru un pēc tam noklikšķiniet uz **Publicēt komentāru**.
+
+![Komentāra publicēšana](./media/before-signin.png)
+
+3. Atlasiet tā konta veidu, ko vēlaties izmantot, lai pierakstītos.  
+Noklikšķiniet uz vienas no kreisajā pusē esošajām ikonām, lai saistītu šo vietni ar esošu kontu, piemēram, Twitter, Facebook vai Microsoft kontu. 
+
+Vai 
+
+Labajā pusē ievadiet e-pasta adresi un jaunu paroli, lai izveidotu jaunu kontu izmantošanai šajā vietnē. 
+
+![Pierakstīšanās opcijas](./media/signin-options.png)
 
 
 ## <a name="task-guides"></a>Uzdevumu ceļveži
-Uzdevuma ceļvedis ir kontrolēts, strukturēts, interaktīvs līdzeklis, kas palīdz veikt uzdevuma vai biznesa procesa darbības. Uzdevumu ceļvežus varat atvērt (atskaņot) rūtī Palīdzība. Kad pirmo reizi noklikšķināta uz kāda uzdevuma ceļveža, rūtī Palīdzība tiek parādīti detalizēti šī uzdevuma veikšanas norādījumi. Tagad ir pieejami lokalizēti uzdevumu ceļveži. [![Uzdevuma ceļveža lasīšanas skats](./media/task-guide-ops-1024x742.png)](./media/task-guide-ops.png) Lai sāktu lietot strukturēto, interaktīvo līdzekli, noklikšķiet uz **Sākt uzdevuma ceļvedi** rūts Palīdzība apakšdaļā. Tiek atvērts melns rādītājs, un tas norāda uz darbību, kas jums ir jāveic. Izpildiet norādījumus, kas tiek parādīti UI, un ievadiet datus saskaņā ar norādījumiem. [![Uzdevuma ceļveža darbības veikšanas norādījums](./media/task-guide-step-1-ops.png)](./media/task-guide-step-1-ops.png) **Svarīgi!** Dati, ko ievadāt uzdevuma ceļveža atskaņošanas laikā, ir īsti. Ja esat ražošanas vidē, šie dati tiks ievadīti uzņēmumā, kuru pašlaik izmantojat.
+Uzdevuma ceļvedis ir kontrolēts, strukturēts, interaktīvs līdzeklis, kas palīdz veikt uzdevuma vai biznesa procesa darbības. Uzdevumu ceļvežus varat atvērt (atskaņot) rūtī Palīdzība. Kad pirmo reizi noklikšķināta uz kāda uzdevuma ceļveža, rūtī Palīdzība tiek parādīti detalizēti šī uzdevuma veikšanas norādījumi. Tagad ir pieejami lokalizēti uzdevumu ceļveži. 
+
+![Uzdevuma ceļveža lasīšanas skats](./media/task-guide-ops-1024x742.png)
+
+Lai sāktu strukturēto, interaktīvo pieredzi, noklikšķiniet uz vienuma **Sākt uzdevuma ceļvedi** rūts Palīdzība apakšā. Tiek atvērts melns rādītājs, un tas norāda uz darbību, kas jums ir jāveic. Izpildiet norādījumus, kas tiek parādīti UI, un ievadiet datus saskaņā ar norādījumiem. 
+![Uzdevuma ceļveža darbības norādījums](./media/task-guide-step-1-ops.png)
+
+> [!IMPORTANT] 
+> Uzdevuma ceļveža demontēšanas laikā tiek ievadīti īsti dati. Ja esat ražošanas vidē, šie dati tiks ievadīti uzņēmumā, kuru pašlaik izmantojat.
 
 ### <a name="it-all-begins-with-task-recorder"></a>Viss sākas ar uzdevumu ierakstītāju
 
@@ -72,7 +111,9 @@ Papildinformāciju par uzdevumu reģistrētāju skatiet tēmā [Uzdevumu reģist
 Varat izveidot pats savus uzdevumu ierakstus, vai varat lejupielādēt un pielāgot uzdevuma ierakstu, kas nodrošina Microsoft. Līdz ar to varat izveidot savai organizācijai pielāgotu palīdzību, kas atspoguļo jūsu konkrēto Dynamics 365 for Operations implementāciju. Lai Dynamics 365 for Operations rūtī Palīdzība parādītu uzdevuma ierakstu un to atskaņotu kā uzdevuma ceļvedi, šis ieraksts ir jāsaglabā LCS bibliotēkā. Ja esat partneris un pārveidojat bibliotēku par korporatīvo bibliotēku, un iekļaujat to kādā risinājumā, tā ir pieejama jūsu klientiem. Pilnīgus norādījumus skatiet tēmā [Uzdevumu ierakstu izmantošana, lai izveidotu dokumentāciju vai apmācību](../user-interface/task-recorder.md).
 
 ## <a name="in-product-help"></a>Produktā iebūvētā palīdzība
-Lai piekļūtu palīdzības saturam programmatūrā Dynamics 365 for Operations, noklikšķiniet uz ikonas **Palīdzība** (**?**) un pēc tam izvēlieties Palīdzība vai nospiediet taustiņu kombināciju Ctrl+Shift+?. Abos gadījumos tiek atvērta rūts Palīdzība. Rūtī Palīdzība varat piekļūt rakstiem vai uzdevumu ceļvežiem. [![Palīdzības rūts](./media/help-pane-wiki-1024x684.png)](./media/help-pane-wiki.png)
+Lai piekļūtu palīdzības saturam programmatūrā Dynamics 365 for Operations, noklikšķiniet uz ikonas **Palīdzība** (**?**) un pēc tam izvēlieties Palīdzība vai nospiediet taustiņu kombināciju Ctrl+Shift+?. Abos gadījumos tiek atvērta rūts Palīdzība. Rūtī Palīdzība varat piekļūt rakstiem vai uzdevumu ceļvežiem. 
+
+![Rūts Palīdzība](./media/help-pane-wiki-1024x684.png)
 
 ### <a name="accessing-articles-from-the-help-pane"></a>Piekļuve rakstiem rūtī Palīdzība
 
@@ -80,19 +121,24 @@ Rūtī Palīdzība varat piekļūt rakstiem, kas attiecas uz Dynamics 365 for O
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>Piekļuve uzdevumu ceļvežiem rūtī Palīdzība
 
-Lai rūtī Palīdzība varētu piekļūt uzdevumu ceļvežiem, sistēmas administratoram programmatūrā Dynamics 365 for Operations ir jāatver lapa **Sistēmas parametri** un jākonfigurē daži iestatījumi. **Piezīmes.**
+Lai rūtī Palīdzība varētu piekļūt uzdevumu ceļvežiem, sistēmas administratoram programmatūrā Dynamics 365 for Operations ir jāatver lapa **Sistēmas parametri** un jākonfigurē daži iestatījumi. 
 
--   Lai konfigurētu palīdzību, jums ir jāpierakstās ar kontu tajā pašā nomniekā, kurā ir izvietota programmatūra Dynamics 365 for Operations.
--   Savienojumu ar LCS bibliotēku nav iespējams izveidot no Dynamics 365 for Operations instances, kas darbojas lokālā virtuālajā cietajā diskā (VHD).
+> [!NOTE]
+> -   Lai konfigurētu palīdzību, jums ir jāpierakstās ar kontu tajā pašā nomniekā, kurā ir izvietota programmatūra Dynamics 365 for Operations.
+> -   Savienojumu ar LCS bibliotēku nav iespējams izveidot no Dynamics 365 for Operations instances, kas darbojas lokālā virtuālajā cietajā diskā (VHD).
 
-[![Veidlapa Sistēmas parametri ar palīdzības sistēmas iestatījumiem](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) Lapā **Sistēmas parametri** veiciet tālāk norādītās darbības.
+![Veidlapa Sistēmas parametri, kurā ir atvērti palīdzības iestatījumi](./media/system-parameters_ops-1024x437.png)
 
-1.  **Svarīgi!**Kad cilni Palīdzība atverat pirmo reizi, ir jāizveido savienojums ar Lifecycle Services. Noteikti noklikšķiniet uz saites veidlapas vidū, uzgaidiet, līdz tiek izveidots savienojums, aizveriet dialoglodziņu un pēc tam noklikšķiniet uz Labi, piekļūtu parametru veidlapai.[![Savienojuma izveide ar LCS](./media/connect-to-lcs-crop-1024x365.png)](./media/connect-to-lcs-crop.png)
+Lapā **Sistēmas parametri** izpildiet šādas darbības:
+
+1.  **Svarīgi!**Kad cilni Palīdzība atverat pirmo reizi, ir jāizveido savienojums ar Lifecycle Services. Noteikti noklikšķiniet uz saites veidlapas vidū, uzgaidiet, līdz tiek izveidots savienojums, aizveriet dialoglodziņu un pēc tam noklikšķiniet uz Labi, lai piekļūtu parametru veidlapai.
+![Izveidot savienojumu ar LCS](./media/connect-to-lcs-crop-1024x365.png)
 2.  Atlasiet Lifecycle Services projektu, ar kuru izveidot savienojumu.
 3.  Atlasiet BPM bibliotēkas (atlasītajā projektā), no kurām izgūt uzdevumu ierakstus.
 4.  Iestatiet BPM bibliotēku attēlošanas secību. Tā nosaka secību, kādā uzdevumu ieraksti no bibliotēkām tiks rādīti rūtī Palīdzība.
 
-Kad sistēmas administrators ir izpildījis šīs darbības, varat atvērt rūti Palīdzība un noklikšķināt uz cilnes **Uzdevumu ceļveži**. Tagad tiek parādīti uzdevumu ceļveži, kas attiecas uz programmatūrā Dynamics 365 for Operations pašlaik atvērto lapu. Ja nav atrasts neviens uzdevuma ceļvedis, varat ievadīt atslēgvārdus, lai precizētu meklēšanu. Kad rūtī Palīdzība noklikšķināt uz kāda uzdevuma ceļveža, rūtī Palīdzība tiek parādīti detalizēti norādījumi un varat atskaņot uzdevuma ceļvedi. [![Uzdevuma ceļveža lasīšanas skats](./media/task-guide-ops-1024x742.png)](./media/task-guide-ops.png)
+Kad sistēmas administrators ir izpildījis šīs darbības, varat atvērt rūti Palīdzība un noklikšķināt uz cilnes **Uzdevumu ceļveži**. Tagad tiek parādīti uzdevumu ceļveži, kas attiecas uz programmatūrā Dynamics 365 for Operations pašlaik atvērto lapu. Ja nav atrasts neviens uzdevuma ceļvedis, varat ievadīt atslēgvārdus, lai precizētu meklēšanu. Kad rūtī Palīdzība noklikšķināt uz kāda uzdevuma ceļveža, rūtī Palīdzība tiek parādīti detalizēti norādījumi un varat atskaņot uzdevuma ceļvedi. 
+![Uzdevuma ceļveža lasīšanas skats](./media/task-guide-ops-1024x742.png)
 
 ### <a name="where-are-the-translated-task-guides"></a>Kur ir pieejami tulkotie uzdevumu ceļveži?
 

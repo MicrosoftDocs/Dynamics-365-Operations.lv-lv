@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: Operations, Platform, AX Platform
@@ -17,10 +17,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: d54240eb29ede3c1361f14dea186776f6d11a4d8
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: a613f5a84a7c72da3cc76eac147d4754f6259e4c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -129,8 +129,8 @@ APQC vienotajā bibliotēkā (2016. gada maija laidienā) ir ietverti uzdevumu
 
 | BPM rinda                                                 | Valsts/reģions |
 |----------------------------------------------------------|----------------|
-| Izveidot jaunu preci                                     | Globāls         |
-| Dimensijām atbilstošas konfigurācijas izveide                    | Globāls         |
+| Izveidot jaunu preci                                     | Globālais         |
+| Izveidot uz dimensiju balstītas konfigurācijas                    | Globālais         |
 | Izveidot iepriekš definētus preces variantus                       | Globālais         |
 | Izveidot pārdošanas cenu atlases kritērijus                    | Globālais         |
 | Konfigurējamu preču pasūtījumu ievadīšana                   | Globālais         |

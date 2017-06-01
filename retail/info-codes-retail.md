@@ -1,15 +1,15 @@
 ---
 title: "Informācijas kodi"
 description: "Šajā rakstā ir sniegts pārskats par informācijas kodiem, informācijas kodu grupām un par to, kā tos izmantot."
-author: RobinARH
+author: mumani
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: josaw
 ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 22761
 ms.assetid: 99877dba-a6e3-4d88-ba0a-ee5913aea17e
@@ -19,10 +19,10 @@ ms.author: sijoshi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
-ms.openlocfilehash: aaf02ce5bf3af94dea12344c9bfc5c8e9be7abb9
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5790f54a531336b30ee140ebf8b9c782d8b347f7
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/26/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -47,13 +47,12 @@ Programmatūrā Dynamics 365 for Operations — Retail varat izveidot infokodu
 -   Saistiet informācijas kodus ar citiem informācijas kodiem vai informācijas kodu grupām, lai apkopotu informāciju par preci vai darījumu jums nepieciešamajā veidā, bez nepieciešamības definēt atsevišķu informācijas kodu vai piesaistīt informācijas kodu katram scenārijam.
 
 ## <a name="info-code-examples"></a>Informācijas koda piemēri
-**1. piemērs: informācijas kodu atkārtota lietošana** Varat saistīt informācijas kodus, lai gadījumā, ja tiek aktivizēts viens informācijas kods, uzreiz pēc tā tiktu aktivizēts cits informācijas kods. Piemēram, kad pārdodat noteiktas preces, varat noteikt, lai kasieris vaicā debitoram, vai tas vēlas iegādāties baterijas un preces garantiju. Attiecībā uz citām precēm varat ieteikt kasierim vaicāt debitoram, vai tas vēlas iegādāties baterijas, un uzzināt debitora pasta indeksu. Ja šiem scenārijiem izveidojat saistītus infokodus, ir jāiestata katra infokoda variācija, lai kasierim liktu vaicāt pareizo informāciju. Ja izmantojat informācijas kodu grupas, kopējos informācijas kodus, piemēram, vaicāšanu par baterijām, var iestatīt vienreiz un tad atkārtoti izmantot vairākās informācijas kodu grupās. Infokodu grupām varat arī izmantot prioritāšu noteikšanu, lai noteiktu uzvedņu parādīšanas secību. **2. piemērs: infokodu piesaistīšana infokodu grupām** Kad pārdodat atsevišķas preces, piemēram, mobilās ierīces, iespējams, vienmēr vēlēsities iegūt noteiktu datu kopu, piemēram, tālruņa numuru, mobilās ierīces identifikatoru (MEID) un sērijas numuru. Tomēr vēlaties arī planšetdatoriem iegūt citādu informāciju nekā mobilajam tālrunim. Varat iestatīt informācijas kodu grupu, kas ietver uzvednes par tālruņa numuru, MEID un sērijas numuru, un pēc tam saistīt šo informācijas kodu grupu ar atsevišķu informācijas kodu. Kad tiek aktivizēts precei raksturīgais infokods, šo infokodu grupu var aktivizēt kā nākamo, ļaujot jums iegūt kopējos datus bez nepieciešamības definēt vairākas saistītu infokodu kopas katrai ierīcei.
+**1. piemērs: informācijas kodu atkārtota lietošana** Varat saistīt informācijas kodus, lai gadījumā, ja tiek aktivizēts viens informācijas kods, uzreiz pēc tā tiktu aktivizēts cits informācijas kods. Piemēram, kad pārdodat noteiktas preces, varat noteikt, lai kasieris vaicā debitoram, vai tas vēlas iegādāties baterijas un preces garantiju. Attiecībā uz citām precēm varat ieteikt kasierim vaicāt debitoram, vai tas vēlas iegādāties baterijas, un uzzināt debitora pasta indeksu. Ja šiem scenārijiem izveidojat saistītus infokodus, ir jāiestata katra infokoda variācija, lai kasierim liktu vaicāt pareizo informāciju. Ja izmantojat informācijas kodu grupas, kopējos informācijas kodus, piemēram, vaicāšanu par baterijām, var iestatīt vienreiz un tad atkārtoti izmantot vairākās informācijas kodu grupās. Infokodu grupām varat arī izmantot prioritāšu noteikšanu, lai noteiktu uzvedņu parādīšanas secību.
+
+
+**2. piemērs: infokodu piesaistīšana infokodu grupām** Kad pārdodat atsevišķas preces, piemēram, mobilās ierīces, iespējams, vienmēr vēlēsities iegūt noteiktu datu kopu, piemēram, tālruņa numuru, mobilās ierīces identifikatoru (MEID) un sērijas numuru. Tomēr vēlaties arī planšetdatoriem iegūt citādu informāciju nekā mobilajam tālrunim. Varat iestatīt informācijas kodu grupu, kas ietver uzvednes par tālruņa numuru, MEID un sērijas numuru, un pēc tam saistīt šo informācijas kodu grupu ar atsevišķu informācijas kodu. Kad tiek aktivizēts precei raksturīgais infokods, šo infokodu grupu var aktivizēt kā nākamo, ļaujot jums iegūt kopējos datus bez nepieciešamības definēt vairākas saistītu infokodu kopas katrai ierīcei.
 
  
--
-
-
-
 
 
 

@@ -3,10 +3,10 @@ title: "Mobilā darbvieta Rīcībā esošie krājumi"
 description: "Šajā tēmā ir sniegta informācija par mobilo darbvietu Rīcībā esošie krājumi, kas ir pieejama Microsoft Dynamics 365 for Operations mobilajā programmā. Šī darbvieta palīdz mobilajā ierīcē gūt ieskatu par rezervēto un pieejamo krājumu daudzumu jebkurā vietā un laikā."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -19,10 +19,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: e703ae80800b993ebca1c7bee455af1be41c7d5f
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 7387df37e047d5ab7a90b696a6ffa249094499c4
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -37,15 +37,21 @@ ms.lasthandoff: 04/25/2017
 <a name="overview-of-the-inventory-on-hand-mobile-workspace"></a>Pārskats par mobilo darbvietu Rīcībā esošie krājumi
 --------------------------------------------------
 
-Parasti uzņēmumos katru dienu tiek veiktas vairākas krājumu nosūtīšanas un saņemšanas darbības. Šīs krājumu kustības dēļ nepārtraukti mainās rīcībā esošo krājumu statuss. Mobilā darbvieta **Rīcībā esošie krājumi** sniedz iespēju skatīt starpuzņēmumu rīcībā esošo krājumu statusu, lai varētu gūt jaunākos ieskatus par krājumu datiem jebkurā mobilajā ierīcē. Neatkarīgi no tā, vai strādājat noliktavā vai iepirkumu, pārdošanas, ražošanas vai vadības nodaļā vai ieņemat citu amatu, varat piekļūt rīcībā esošo krājumu datiem jebkurā laikā un vietā. Mobilā darbvieta nodrošina tūlītēju informāciju par rīcībā esošo krājumu statusu dažādās vietās. Tā arī sniedz iespēju skatīt rīcībā esošos krājumus dažādās vietās, pašreizējās materiālu rezervācijas un nerezervētos rīcībā esošos krājumus. Varat arī ievadīt krājumu numurus, lai izveidotu rīcībā esošo krājumu vaicājumu, un veikt rīcībā esošo krājumu preču vai variantu meklēšanu, izmantojot filtrus. Mobilā darbvieta nodrošina tālāk norādītos līdzekļus.
+Parasti uzņēmumos katru dienu tiek veiktas vairākas krājumu nosūtīšanas un saņemšanas darbības. Šīs krājumu kustības dēļ nepārtraukti mainās rīcībā esošo krājumu statuss. Mobilā darbvieta **Rīcībā esošie krājumi** sniedz iespēju skatīt starpuzņēmumu rīcībā esošo krājumu statusu, lai varētu gūt jaunākos ieskatus par krājumu datiem jebkurā mobilajā ierīcē. Neatkarīgi no tā, vai strādājat noliktavā vai iepirkumu, pārdošanas, ražošanas vai vadības nodaļā vai ieņemat citu amatu, varat piekļūt rīcībā esošo krājumu datiem jebkurā laikā un vietā. 
+
+Mobilā darbvieta nodrošina tūlītēju informāciju par rīcībā esošo krājumu statusu dažādās vietās. Tā arī sniedz iespēju skatīt rīcībā esošos krājumus dažādās vietās, pašreizējās materiālu rezervācijas un nerezervētos rīcībā esošos krājumus. Varat arī ievadīt krājumu numurus, lai izveidotu rīcībā esošo krājumu vaicājumu, un veikt rīcībā esošo krājumu preču vai variantu meklēšanu, izmantojot filtrus. 
+
+Mobilā darbvieta nodrošina tālāk norādītos līdzekļus.
 
 -   Varat meklēt pēc preces numura vai nosaukuma, lai atrastu preces, kuru rīcībā esošo krājumu statusu vēlaties skatīt.
+
 -   Varat skatīt tālāk norādīto informāciju par atlasītajām precēm.
     -   Rīcībā esošie krājumi pēc vietas
     -   Rīcībā esošie krājumi pēc noliktavas
     -   Rīcībā esošie krājumi pēc atrašanās vietas
     -   Rīcībā esošie krājumi pēc partijas (precēm, kas tiek komplektētas partijās)
     -   Rīcībā esošie krājumi pēc krājumu statusa
+    
 -   Preces rīcībā esošie krājumi tiek rādīti tālāk norādītajos veidos.
     -   Pēc fiziskajiem krājumiem (Šajā skatā tiek rādīts kopējais daudzums.)
     -   Pēc rezervētajiem fiziskajiem krājumiem (Šajā skatā tiek rādīts rezervētais daudzums.)
@@ -71,7 +77,7 @@ Lai varētu izmantot mobilo darbvietu **Rīcībā esošie krājumi**, pārliecin
 <tr class="odd">
 <td>Jābūt ieviestai Microsoft Dynamics 365 for Operation versijai 1611 ar 3. vai jaunāku platformas atjauninājumu.</td>
 <td>Sistēmas administrators</td>
-<td>Ja programma Dynamics 365 for Operations vēl nav izvietota jūsu organizācijā, sistēmas administratoram vajadzētu izlasīt rakstu <a href="http://ax.help.dynamics.com/en/wiki/deploy-an-ax7-demo-environment/">Microsoft Dynamics 365 for Operations izvietošana demonstrācijas vidē</a>.</td>
+<td>Ja programma Dynamics 365 for Operations vēl nav izvietota jūsu organizācijā, sistēmas administratoram vajadzētu izlasīt rakstu <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Microsoft Dynamics 365 for Operations izvietošana demonstrācijas vidē</a>.</td>
 </tr>
 <tr class="even">
 <td>Jāievieš KB 4013633.</td>
@@ -79,9 +85,9 @@ Lai varētu izmantot mobilo darbvietu **Rīcībā esošie krājumi**, pārliecin
 <td>KB 4013633 (X++ atjauninājums vai metadatu labojumfails) satur četras mobilās darbvietas piegādes ķēdes pārvaldībai. Lai ieviestu KB 4013633, jūsu sistēmas administratoram ir jāizpilda tālāk minētās darbības:
 <ol>
 <li>Lejupielādējiet KB 4013633 no pakalpojuma Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/configuring-and-installing-a-metadata-hotfix-package/">Instalējiet metadatu labojumfailu</a>.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/create-and-apply-a-deployable-package/">Izveidojiet izvietojamu pakotni,</a> kas ietver modeli <strong>SCMMobile</strong>, un pēc tam augšupielādējiet izvietojamo pakotni pakalpojumā LCS.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/apply-a-deployable-package-on-a-dynamics-ax-system/">Lietojiet šo izvietojamo pakotni</a> savai Dynamics 365 for Operations sistēmai.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalējiet metadatu labojumfailu</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Izveidojiet izvietojamu pakotni,</a> kas ietver modeli <strong>SCMMobile</strong>, un pēc tam augšupielādējiet izvietojamo pakotni pakalpojumā LCS.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Lietojiet šo izvietojamo pakotni</a> savai Dynamics 365 for Operations sistēmai.</li>
 </ol></td>
 </tr>
 <tr class="odd">
@@ -114,7 +120,7 @@ Mobilo programmu veikalā lejupielādējiet Dynamics 365 for Operations mobilo 
 
 ## <a name="view-the-onhand-inventory-for-a-product-by-using-the-inventory-onhand-mobile-workspace"></a>Preces rīcībā esošo krājumu skatīšana, izmantojot mobilo darbvietu Rīcībā esošie krājumi
 1.  Mobilajā ierīcē atlasiet darbvietu **Rīcībā esošie krājumi**.
-2.  Atlasiet vienumu **Pārbaudīt preces rīcībā esošos krājumus**. Tiek parādīts to preču saraksts, kas ir ielādētas programmā lietošanai bezsaistes režīmā. Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju izstrādātāji var skatīt rakstā [Dynamics 365 for Operations mobilā platforma](http://ax.help.dynamics.com/en/wiki/mobile-development-handbook/).
+2.  Atlasiet vienumu **Pārbaudīt preces rīcībā esošos krājumus**. Tiek parādīts to preču saraksts, kas ir ielādētas programmā lietošanai bezsaistes režīmā. Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju izstrādātāji var skatīt rakstā [Dynamics 365 for Operations mobilā platforma](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform).
 3.  Ja vajadzīgais krājums nav ietverts sarakstā, atlasiet vienumu **Meklēt vairāk**, lai veiktu tiešsaistes meklēšanu programmatūrā Dynamics 365 for Operations. Meklējiet pēc preces numura vai pārslēdziet uz meklēšanu pēc preces nosaukuma.
 4.  Atlasiet preci. Ja krājumam ir attēls, tas tiek parādīts.
 5.  Atlasiet vienu no tālāk norādītājām opcijām, lai skatītu rīcībā esošo krājumu statusu.

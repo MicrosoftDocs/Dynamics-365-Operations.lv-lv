@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: bf42b287e2e9235fd50f78a6fadc3f9efbd1fbe5
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: ca82d24f591aaeb0d675716857cf94a4696785ad
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -350,8 +350,7 @@ Informācijas tips, ko satur katra kolonna pārskatā, tiek norādīts ar vērt�
     <tbody>
     <tr class="odd">
     <td>FD</td>
-    <td>Rādīt finanšu datus vai datus no Excel darblapas, izmantojot kolonnu <strong>Saite uz finanšu dimensijām</strong> vai kolonnu <strong>Saite uz darblapu</strong> rindas definīcijā. Atlasot <strong>FD</strong> kolonnas tipu, noklusējuma iestatījumi tiek automātiski norādīti šādām rindām:
-    <ul>
+    <td>Rādīt finanšu datus vai datus no Excel darblapas, izmantojot kolonnu <strong>Saite uz finanšu dimensijām</strong> vai kolonnu <strong>Saite uz darblapu</strong> rindas definīcijā. Atlasot <strong>FD</strong> kolonnas tipu, noklusējuma iestatījumi tiek automātiski norādīti šādām rindām: <ul>
     <li><strong>Grāmatas kods/Kategorijas atribūts:</strong> FAKTISKAIS</li>
     <li><strong>Grāmatas kods/Kategorijas atribūts:</strong> FAKTISKAIS</li>
     <li><strong>Finanšu gads:</strong> PAMATA</li>
@@ -359,7 +358,7 @@ Informācijas tips, ko satur katra kolonna pārskatā, tiek norādīts ar vērt�
     <li><strong>Iekļautie periodi:</strong> PERIODISKS</li>
     <li><strong>Kolonnas platums:</strong> 14</li>
     </ul>
-    Šos noklusējuma iestatījumus jūs varat mainīt.</td>
+Šos noklusējuma iestatījumus jūs varat mainīt.</td>
     </tr>
     <tr class="even">
     <td>CALC</td>
@@ -379,7 +378,7 @@ Informācijas tips, ko satur katra kolonna pārskatā, tiek norādīts ar vērt�
     </tr>
     <tr class="even">
     <td>FILL</td>
-    <td>Aizpildīt šūnu ar rakstzīmi, kas ir iekļauta vienpēdiņās. Ja jūs neievadāt rakstzīmi, kolonna ir tukša. Piemēram, lai aizpildītu kolonnu ar daudzpunkti (...), ievadiet <strong>FILL</strong> <strong>'.'</strong>.</td>
+    <td>Aizpildīt šūnu ar rakstzīmi, kas ir iekļauta vienpēdiņās. Ja jūs neievadāt rakstzīmi, kolonna ir tukša. Piemēram, lai aizpildītu kolonnu ar daudzpunkti (...), ievadiet <strong>FILL</strong> <strong>'.'</strong>.</td>
     </tr>
     <tr class="odd">
     <td>PAGE</td>
@@ -387,12 +386,11 @@ Informācijas tips, ko satur katra kolonna pārskatā, tiek norādīts ar vērt�
     </tr>
     <tr class="even">
     <td>WKS</td>
-    <td>Parāda datus, kas ir izgūti no Excel darblapas. Atlasot <strong>WKS</strong> kolonnas tipu, noklusējuma iestatījumi tiek automātiski norādīti šādām rindām:
-    <ul>
+    <td>Parāda datus, kas ir izgūti no Excel darblapas. Atlasot <strong>WKS</strong> kolonnas tipu, noklusējuma iestatījumi tiek automātiski norādīti šādām rindām: <ul>
     <li><strong>Finanšu gads:</strong> PERIODISKS</li>
     <li><strong>Periods:</strong> PAMATA</li>
     </ul>
-    Šos noklusējuma iestatījumus jūs varat mainīt.</td>
+Šos noklusējuma iestatījumus jūs varat mainīt.</td>
     </tr>
     <tr class="odd">
     <td>ATTR</td>

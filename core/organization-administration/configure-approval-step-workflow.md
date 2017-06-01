@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 052cec3010c0d5ecbb9ed341fb23d0ec64682467
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 1924562f866ecdbb6fa6d3d0a9dc7627387f2d6a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -106,13 +106,11 @@ Veiciet šīs darbības, lai norādītu personu, kurai jāpiešķir apstiprinā�
     <td>Lietotāji īpašā organizācijas hierarhijā</td>
     <td><ol>
     <li>Pēc tam, kad ir atlasīts vienums <strong>Hierarhija</strong>, cilnes <strong>Hierarhijas atlase</strong> sarakstā <strong>Hierarhijas tips</strong> atlasiet hierarhijas tipu, kurai piešķirt darbību.</li>
-    <li>Sistēmai no hierarhijas ir jāizgūst lietotāju vārdu diapazons. Šie vārdi norāda, kuriem lietotājiem var piešķirt attiecīgo darbību. Veiciet šīs darbības, lai norādītu sistēmas izgūto lietotāju vārdu diapazona sākumu un beigas:
-    <ol>
+    <li>Sistēmai no hierarhijas ir jāizgūst lietotāju vārdu diapazons. Šie vārdi norāda, kuriem lietotājiem var piešķirt attiecīgo darbību. Veiciet šīs darbības, lai norādītu sistēmas izgūto lietotāju vārdu diapazona sākumu un beigas: <ol>
     <li>Lai norādītu sākumu, atlasiet kādu personu sarakstā <strong>Sākt no</strong>.</li>
     <li>Lai norādītu beigas, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>. Pēc tam ievadiet nosacījumu, kas nosaka, kurā vietā hierarhijā sistēma pārtrauc vārdu izgūšanu.</li>
     </ol></li>
-    <li>Cilnē <strong>Hierarhijas opcijas</strong> norādiet attiecīgajā diapazonā esošos lietotājus, kuriem darbība jāpiešķir:
-    <ul>
+    <li>Cilnē <strong>Hierarhijas opcijas</strong> norādiet attiecīgajā diapazonā esošos lietotājus, kuriem darbība jāpiešķir: <ul>
     <li><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — darbība tiek piešķirta visiem diapazonā esošajiem lietotājiem.</li>
     <li><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — darbība tiek piešķirta tikai pēdējam lietotājam diapazonā.</li>
     <li><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — darbība netiek piešķirta diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam. Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</li>
@@ -211,13 +209,11 @@ Ja lietotājs neveic darbības ar dokumentu atvēlētajā laikā, dokuments ir n
     <td>Lietotāji īpašā organizācijas hierarhijā</td>
     <td><ol>
     <li>Pēc tam, kad ir atlasīts vienums <strong>Hierarhija</strong>, cilnes <strong>Hierarhijas atlase</strong> sarakstā <strong>Hierarhijas tips</strong> atlasiet hierarhijas tipu, uz kuru eskalēt dokumentu.</li>
-    <li>Sistēmai no hierarhijas ir jāizgūst lietotāju vārdu diapazons. Šie vārdi norāda, kuriem lietotājiem var eskalēt dokumentu. Veiciet šīs darbības, lai norādītu sistēmas izgūto lietotāju vārdu diapazona sākumu un beigas:
-    <ol>
+    <li>Sistēmai no hierarhijas ir jāizgūst lietotāju vārdu diapazons. Šie vārdi norāda, kuriem lietotājiem var eskalēt dokumentu. Veiciet šīs darbības, lai norādītu sistēmas izgūto lietotāju vārdu diapazona sākumu un beigas: <ol>
     <li>Lai norādītu sākumu, atlasiet kādu personu sarakstā <strong>Sākt no</strong>.</li>
     <li>Lai norādītu beigas, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>. Pēc tam ievadiet nosacījumu, kas nosaka, kurā vietā hierarhijā sistēma pārtrauc vārdu izgūšanu.</li>
     </ol></li>
-    <li>Cilnē <strong>Hierarhijas opcijas</strong> norādiet attiecīgajā diapazonā esošos lietotājus, kuriem jāveic dokumenta eskalācija:
-    <ul>
+    <li>Cilnē <strong>Hierarhijas opcijas</strong> norādiet attiecīgajā diapazonā esošos lietotājus, kuriem jāveic dokumenta eskalācija: <ul>
     <li><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — dokuments tiek eskalēts visiem diapazonā esošajiem lietotājiem.</li>
     <li><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — dokuments tiek eskalēts tikai pēdējam lietotājam diapazonā.</li>
     <li><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — dokuments netiek eskalēts diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam. Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</li>

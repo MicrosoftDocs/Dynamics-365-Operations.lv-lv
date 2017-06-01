@@ -3,10 +3,10 @@ title: "Izmaksu kontrolēšanas mobilā darbvieta"
 description: "Šajā tēmā ir sniegta informācija par mobilo darbvietu Izmaksu kontrole, kura ir pieejama Microsoft Dynamics 365 for Operations mobilajā programmā. Šī darbvieta ļauj izmaksu centra vadītājiem skatīt informāciju par izmaksu centra veiktspēju jebkurā laikā un vietā."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 05/04/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 31a9650774b2ddb70827ffa210154ca10c761236
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 09383c24b0dd2ad61a836f6c8dc97f4389915772
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -36,11 +36,15 @@ ms.lasthandoff: 04/25/2017
 <a name="overview-of-the-cost-controlling-mobile-workspace"></a>Pārskats par mobilo darbvietu Izmaksu kontrole
 -------------------------------------------------
 
-Mobilā darbvieta **Izmaksu kontrole** sniedz tūlītēju skatu uz izmaksu centru pašreizējo veiktspēju, faktiskās izmaksas salīdzinot ar budžetā paredzētajām izmaksām. Varat skatīt detalizētāku informāciju līdz pat atsevišķu izmaksu elementu statusiem. Piemēram, darbinieks saņem uzaicinājumu uz starptautisku konferenci, bet organizācijai ir jāsedz visi ceļa izdevumi. Darbinieks savam vadītājam vaicā, vai ir iespējams apmeklēt šo konferenci. Vadītājs savā mobilajā ierīcē ātri atver mobilo darbvietu **Izmaksu kontrole**, lai apskatītu, vai ir pieejams budžets, lai darbinieks šo konferenci varētu apmeklēt.
+Mobilā darbvieta **Izmaksu kontrole** sniedz tūlītēju skatu uz izmaksu centru pašreizējo veiktspēju, faktiskās izmaksas salīdzinot ar budžetā paredzētajām izmaksām. Varat skatīt detalizētāku informāciju līdz pat atsevišķu izmaksu elementu statusiem. 
+
+Piemēram, darbinieks saņem uzaicinājumu uz starptautisku konferenci, bet organizācijai ir jāsedz visi ceļa izdevumi. Darbinieks savam vadītājam vaicā, vai ir iespējams apmeklēt šo konferenci. Vadītājs savā mobilajā ierīcē ātri atver mobilo darbvietu **Izmaksu kontrole**, lai apskatītu, vai ir pieejams budžets, lai darbinieks šo konferenci varētu apmeklēt.
 
 ### <a name="data-security"></a>Datu drošība
 
-Darbvietā **Izmaksu kontrole** datus aizsargā lietotāja akreditācijas dati. Izmaksu centra vadītājiem ir atļauts skatīt tikai datus par savu izmaksu centru. Piekļuves līmeņa drošība tiek pārvaldīta modulī **Izmaksu uzskaite**. Izmaksu grāmatveži mobilās darbvietas **Izmaksu kontrole** konfigurāciju definē modulī **Izmaksu uzskaite**. Kad šī darbvieta ir publicēta Microsoft Dynamics 365 for Operations mobilajā programmā, tā ir pieejama programmā. Tādējādi visi organizācijas izmaksu centra vadītāji var skatīt datus vienādā formātā.
+Darbvietā **Izmaksu kontrole** datus aizsargā lietotāja akreditācijas dati. Izmaksu centra vadītājiem ir atļauts skatīt tikai datus par savu izmaksu centru. Piekļuves līmeņa drošība tiek pārvaldīta modulī **Izmaksu uzskaite**. 
+
+Izmaksu grāmatveži mobilās darbvietas **Izmaksu kontrole** konfigurāciju definē modulī **Izmaksu uzskaite**. Kad šī darbvieta ir publicēta Microsoft Dynamics 365 for Operations mobilajā programmā, tā ir pieejama programmā. Tādējādi visi organizācijas izmaksu centra vadītāji var skatīt datus vienādā formātā.
 
 ### <a name="actions-views-and-links"></a>Darbības, skati un saites
 
@@ -78,16 +82,16 @@ Lai varētu izmantot mobilo darbvietu **Izmaksu kontrole**, pārliecinieties, ka
 </colgroup>
 <thead>
 <tr class="header">
-<th>Priekšnoteikumi</th>
+<th>Priekšnosacījums</th>
 <th>Loma</th>
-<th>apraksts</th>
+<th>Apraksts</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Jābūt ieviestai Dynamics 365 for Operations versijai 1611 ar 3. vai jaunāku platformas atjauninājumu.</td>
 <td>Sistēmas administrators</td>
-<td>Ja programma Dynamics 365 for Operations vēl nav izvietota jūsu organizācijā, sistēmas administratoram vajadzētu izlasīt rakstu <a href="http://ax.help.dynamics.com/en/wiki/deploy-an-ax7-demo-environment/">Microsoft Dynamics 365 for Operations izvietošana demonstrācijas vidē</a>.</td>
+<td>Ja programma Dynamics 365 for Operations vēl nav izvietota jūsu organizācijā, sistēmas administratoram vajadzētu izlasīt rakstu <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Microsoft Dynamics 365 for Operations izvietošana demonstrācijas vidē</a>.</td>
 </tr>
 <tr class="even">
 <td>Jāievieš KB 4013633.</td>
@@ -95,9 +99,9 @@ Lai varētu izmantot mobilo darbvietu **Izmaksu kontrole**, pārliecinieties, ka
 <td>KB 4013633 (X++ atjauninājums vai metadatu labojumfails) satur četras mobilās darbvietas piegādes ķēdes pārvaldībai. Lai ieviestu KB 4013633, jūsu sistēmas administratoram ir jāizpilda tālāk minētās darbības:
 <ol>
 <li>Lejupielādējiet KB 4013633 no pakalpojuma Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/configuring-and-installing-a-metadata-hotfix-package/">Instalējiet metadatu labojumfailu</a>.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/create-and-apply-a-deployable-package/">Izveidojiet izvietojamu pakotni,</a> kas ietver modeli <strong>SCMMobile</strong>, un pēc tam augšupielādējiet izvietojamo pakotni pakalpojumā LCS.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/apply-a-deployable-package-on-a-dynamics-ax-system/">Lietojiet šo izvietojamo pakotni</a> savai Dynamics 365 for Operations sistēmai.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalējiet metadatu labojumfailu</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Izveidojiet izvietojamu pakotni,</a> kas ietver modeli <strong>SCMMobile</strong>, un pēc tam augšupielādējiet izvietojamo pakotni pakalpojumā LCS.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Lietojiet šo izvietojamo pakotni</a> savai Dynamics 365 for Operations sistēmai.</li>
 </ol></td>
 </tr>
 <tr class="odd">

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: c9f1e32986238739fc7eee519fd1d17a6ce6731e
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 55a3252aa2d84ac5af68a1a6eebeaa909d95b33b
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -34,6 +34,9 @@ ms.lasthandoff: 04/25/2017
 Šajā lapā ir norādes uz tēmām, kas var palīdzēt jums uzzināt par jaunajiem līdzekļiem programmas Microsoft Dynamics 365 for Operations jaunākajās versijās.
 
 Lai jauninātu uz jaunāko versiju, skatiet tēmu [Jaunināšana uz jaunāko Dynamics 365 for Operations atjauninājumu](../migration-upgrade/upgrade-latest-update.md).
+
+Papildinformāciju par nesen izlaistajām mobilajām darbvietām un Power BI satura pakotnēm skariet tēmās [Nesen izlaistās Dynamics 365 for Operations mobilajai programmai paredzētas mobilās darbvietas](../mobile-apps/mobile-workspaces-released.md) un [Nesen izlaistās Dynamics 365 for Operations paredzētās Power BI satura pakotnes](../analytics/power-bi-content-released.md)
+
 <table>
 <colgroup>
 <col width="20%" />
@@ -44,15 +47,21 @@ Lai jauninātu uz jaunāko versiju, skatiet tēmu [Jaunināšana uz jaunāko Dyn
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Nodot izpildei</strong></th>
+<th><strong>Laidiens</strong></th>
 <th><strong><strong>Versija</strong></strong></th>
-<th><strong><strong>Būvējuma numurs</strong></strong></th>
+<th><strong><strong>Būvējums numurs</strong></strong></th>
 <th><strong><strong>Pieejamība</strong></strong></th>
 <th><strong><strong>Lai uzzinātu vairāk</strong></strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
+<td>Microsoft Dynamics 365 for Operations platforma</td>
+<td>7. platformas atjauninājums</td>
+<td> 7.0.4542.16189</td>
+<td>2017. maijs</td>
+<td><a href="whats-new-platform-update-7.md">Jaunumi un izmaiņas Dynamics 365 for Operations 7. platformas atjauninājumā (2017. gada maija laidienā)</a></td>
+</tr><tr class="odd">
 <td>Microsoft Dynamics 365 for Operations platforma</td>
 <td>6. platformas atjauninājums</td>
 <td> 7.0.4509.16180</td>

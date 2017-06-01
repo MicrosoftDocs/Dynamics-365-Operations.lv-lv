@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: a62b56bd2ac0a7484471190c5f342a1db335ab07
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5d2a69066a1245d5b86d27d01db4b67d4a490488
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -106,13 +106,11 @@ Veiciet šīs darbības, lai norādītu personu, kurai jāpiešķir manuālais u
     <td>Lietotāji īpašā organizācijas hierarhijā</td>
     <td><ol>
     <li>Pēc tam, kad ir atlasīts vienums <strong>Hierarhija</strong>, cilnes <strong>Hierarhijas atlase</strong> sarakstā <strong>Hierarhijas tips</strong> atlasiet hierarhijas tipu, kuram piešķirt uzdevumu.</li>
-    <li>Sistēmai no hierarhijas ir jāizgūst lietotāju vārdu diapazons. Šie vārdi norāda, kuriem lietotājiem var piešķirt attiecīgo uzdevumu. Veiciet šīs darbības, lai norādītu sistēmas izgūto lietotāju vārdu diapazona sākumu un beigas:
-    <ol>
+    <li>Sistēmai no hierarhijas ir jāizgūst lietotāju vārdu diapazons. Šie vārdi norāda, kuriem lietotājiem var piešķirt attiecīgo uzdevumu. Veiciet šīs darbības, lai norādītu sistēmas izgūto lietotāju vārdu diapazona sākumu un beigas: <ol>
     <li>Lai norādītu sākumu, atlasiet kādu personu sarakstā <strong>Sākt no</strong>.</li>
     <li>Lai norādītu beigas, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>. Pēc tam ievadiet nosacījumu, kas nosaka, kurā vietā hierarhijā sistēma pārtrauc vārdu izgūšanu.</li>
     </ol></li>
-    <li>Cilnē <strong>Hierarhijas opcijas</strong> norādiet attiecīgajā diapazonā esošos lietotājus, kuriem uzdevums jāpiešķir:
-    <ul>
+    <li>Cilnē <strong>Hierarhijas opcijas</strong> norādiet attiecīgajā diapazonā esošos lietotājus, kuriem uzdevums jāpiešķir: <ul>
     <li><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — uzdevums tiek piešķirts visiem diapazonā esošajiem lietotājiem.</li>
     <li><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — uzdevums tiek piešķirts tikai pēdējam lietotājam diapazonā.</li>
     <li><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — uzdevums netiek piešķirts diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam. Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</li>
@@ -139,13 +137,11 @@ Veiciet šīs darbības, lai norādītu personu, kurai jāpiešķir manuālais u
     <td>Darba vienumu rinda</td>
     <td><ol>
     <li>Pēc tam, kad ir atlasīts vienums <strong>Rinda</strong>, noklikšķiniet uz cilnes <strong>Balstīts uz rindu</strong>.</li>
-    <li>Lai uzdevumu piešķirtu noteiktai rindai, rīkojieties šādi:
-    <ol>
+    <li>Lai uzdevumu piešķirtu noteiktai rindai, rīkojieties šādi: <ol>
     <li>Sarakstā <strong>Rindas tips</strong> atlasiet <strong>Darba vienumu rindas</strong>.</li>
     <li>Sarakstā <strong>Rindas nosaukums</strong> atlasiet rindu.</li>
     </ol></li>
-    <li>Ja konkrētam nosacījumam jānosaka, kurai rindai uzdevums tiek piešķirts, rīkojieties šādi:
-    <ol>
+    <li>Ja konkrētam nosacījumam jānosaka, kurai rindai uzdevums tiek piešķirts, rīkojieties šādi: <ol>
     <li>Sarakstā <strong>Rindas tips</strong> atlasiet <strong>Nosacījuma darba vienumu rindas</strong>.</li>
     <li>Sarakstā <strong>Rindas nosaukums</strong> atlasiet <strong>Nosacījumu rinda</strong>.</li>
     </ol></li>
@@ -196,13 +192,11 @@ Ja lietotājs nepabeidz manuālo uzdevumu atvēlētajā laikā, uzdevums ir noka
     <td>Lietotāji īpašā organizācijas hierarhijā</td>
     <td><ol>
     <li>Pēc tam, kad ir atlasīts vienums <strong>Hierarhija</strong>, cilnes <strong>Hierarhijas atlase</strong> sarakstā <strong>Hierarhijas tips</strong> atlasiet hierarhijas tipu, kuram eskalēt uzdevumu.</li>
-    <li>Sistēmai no hierarhijas ir jāizgūst lietotāju vārdu diapazons. Šie vārdi norāda, kuriem lietotājiem var eskalēt attiecīgo uzdevumu. Veiciet šīs darbības, lai norādītu sistēmas izgūto lietotāju vārdu diapazona sākumu un beigas:
-    <ol>
+    <li>Sistēmai no hierarhijas ir jāizgūst lietotāju vārdu diapazons. Šie vārdi norāda, kuriem lietotājiem var eskalēt attiecīgo uzdevumu. Veiciet šīs darbības, lai norādītu sistēmas izgūto lietotāju vārdu diapazona sākumu un beigas: <ol>
     <li>Lai norādītu sākumu, atlasiet kādu personu sarakstā <strong>Sākt no</strong>.</li>
     <li>Lai norādītu beigas, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>. Pēc tam ievadiet nosacījumu, kas nosaka, kurā vietā hierarhijā sistēma pārtrauc vārdu izgūšanu.</li>
     </ol></li>
-    <li>Cilnē <strong>Hierarhijas opcijas</strong> norādiet attiecīgajā diapazonā esošos lietotājus, kuriem uzdevums jāeskalē:
-    <ul>
+    <li>Cilnē <strong>Hierarhijas opcijas</strong> norādiet attiecīgajā diapazonā esošos lietotājus, kuriem uzdevums jāeskalē: <ul>
     <li><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — uzdevums tiek eskalēts visiem diapazonā esošajiem lietotājiem.</li>
     <li><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — uzdevums tiek eskalēts tikai pēdējam lietotājam diapazonā.</li>
     <li><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — šis uzdevums netiek eskalēts diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam. Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</li>

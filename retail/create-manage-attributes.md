@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -19,10 +19,10 @@ ms.author: prabhup
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
-ms.openlocfilehash: a5c45bb0b9ed10c989a3222a751df3f454b14a0b
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: eaee0edb4822a386c8781d9929999cea326f0a40
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/26/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -53,7 +53,7 @@ Atribūti ļauj aprakstīt preci un tās raksturīgās iezīmes, izmantojot liet
 | Plazmas     | Ekspluatācijas temperatūra no      | 32–110 grādiem              | 32            |
 | Plazmas     | Ekspluatācijas temperatūra līdz        | 32–110 grādiem              | 100           |
 | Projekcijas | Kineskopa garantija | 6, 12, vai 18 mēneši         | 12.            |
-| Projekcijas | #  kineskopu skaits    | 1–5                         | 3.             |
+| Projekcijas | Kineskopu skaits    | 1–5                         | 3.             |
 
 
 ## <a name="attribute-type"></a>Atribūta tips
