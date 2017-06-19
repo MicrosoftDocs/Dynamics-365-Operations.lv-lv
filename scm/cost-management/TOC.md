@@ -1,5 +1,5 @@
 # Power BI satura pakotne
-## [Izmaksu vadības satura pakotne](/dynamics365/operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/operations/supply-chain/toc.json)
+## [Izmaksu vadības satura pakotne](/dynamics365/unified-operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 # Iepriekš noteiktas izmaksas
 ## [Izmaksu aprēķina lapa](costing-sheets.md)
 ## [Izmaksu aprēķināšanas versija](costing-versions.md)

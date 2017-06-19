@@ -15,8 +15,9 @@
 ## [Konfigurēt un instalēt Retail Hardware Station](retail-hardware-station-configuration-installation.md)
 ## [Mazumtirdzniecības laiks un apmeklētība](retail-time-attendance.md)
 # Modern Point of Sale (MPOS) un mākoņa POS
-## Aparatūras perifērijas ierīces
+## Aparatūra un perifērijas ierīces
 ### [Mazumtirdzniecības perifērijas ierīču apskats](retail-peripherals-overview.md)
+### [Mazumtirdzniecības perifērijas ierīču simulators](retail-peripheral-simulator.md)
 ### [Microsoft pārbaudītas POS aparatūras perifērijas ierīces](microsoft-tested-pos-hardware-peripherals.md)
 ### [Definēt un uzturēt kanālu klientus, reģistrus un aparatūras stacijas](define-maintain-channel-clients-registers-hw-stations.md)
 ## Ekrāna izkārtojums
@@ -39,9 +40,10 @@
 ### [Konfigurēt un instalēt MPOS](retail-modern-pos-device-activation.md)
 ### [Iestatīt paplašināto pieteikšanos mākoņa POS un MPOS](extended-logon.md)
 ### [Pārvaldīt mazumtirdzniecības kontus un ierīces no galvenā biroja](set-up-activation-accounts-validate-devices-hq.md)
-## Ieejas plūsma
+## Ieejas plūsmas
 ### [Iestatīt ieejas plūsmu veidnes](receipt-templates-printing.md) 
 ### [Sūtīt e-pasta kvītis no MPOS](email-receipts.md)
+## [POS uzdevuma reģistrētājs un palīdzība](task-recorder-retail-pos.md)
 # Pārraudzība un analīze
 ## [Pārraudzīt pārdošanas un uzcenojuma veiktspēju](monitor-sales-margin-performance.md)
 ## [Analizēt pārdošanas tendences un modeļus](analyze-sales-trends-patterns.md)
@@ -53,6 +55,7 @@
 ## [Cenu korekcijas un atlaides](price-adjustments-discounts.md)
 ## [Noteikt optimālo kombināciju atlaidēm, kas pārklājas](optimal-combination-overlapping-discounts.md)
 ## [Definēt kanālam raksturīgās atlaides](define-channel-specific-discounts.md)
+## [Izveidot mazumtirdzniecības pārdošanas kuponus](retail-coupons.md)
 # Preces un virzīšana tirgū
 ## [Mazumtirdzniecības hierarhijas](retail-hierarchies.md)
 ## [Izveidot un pārvaldīt atribūtus](create-manage-attributes.md)
@@ -60,7 +63,8 @@
 ## [Iestatīt svītrkodus](set-up-bar-codes.md)
 ## [Iestatīt svītrkodu maskas](set-up-bar-code-masks.md)
 ## [Iestatīt preču klāstus](set-up-assortments.md)
-# Lojalitāte
+## [Preču preču klāstā neesošu preču pārdošana un atgriešana](sell-return-outside-assortments.md)
+# Lojalitātes programma
 ## [Iestatīt klientu lojalitātes programmu](set-up-customer-loyalty-program.md)
 # Krājumi
 ## [Pārvaldīt veikala krājumus](work-with-store-inventory.md)
@@ -69,15 +73,15 @@
 ## [Organizācijas un organizāciju hierarhijas (Komercijas rekvizīti)](organizational-hierarchies-commerce-essentials.md)
 # [IT speciālista un izstrādātāja saturs](dev-itpro/TOC.md)
 
-# [Finanšu dati](/dynamics365/operations/financials/index)
+# [Finanšu dati](/dynamics365/unified-operations/financials/index)
 
-# [Personāla vadība](/dynamics365/operations/human-resources/index)
+# [Personāla vadība](/dynamics365/unified-operations/talent/index)
 
-# [Piegādes ķēdes pārvaldība](/dynamics365/operations/supply-chain/index)
+# [Piegādes ķēdes pārvaldība](/dynamics365/unified-operations/supply-chain/index)
 
-# [Izstrādātājs un administrators](/dynamics365/operations/dev-itpro/index)
+# [Izstrādātājs un administrators](/dynamics365/unified-operations/dev-itpro/index)
 
 # Citi resursi
-## [Dynamics 365 for Operations glosārijs](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/retail/toc.json)
-## [Jaunumi un izmaiņas](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/retail/toc.json)
+## [Dynamics 365 for Retail glosārijs](/dynamics365/unified-operations/get-started/glossary?toc=/dynamics365/unified-operations/retail/toc.json)
+## [Jaunumi un izmaiņas](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/retail/toc.json)
 

@@ -1,4 +1,4 @@
-# [Lokalizācijas apskats](/dynamics365/operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/operations/financials/toc.json)
+# [Lokalizācijas apskats](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/financials/toc.json)
 # Āzijas Klusā okeāna daļa
 ## Austrālija
 ### [Bankas failu formāti](apac-aus-method-of-payment-pay-vendors-banks.md)
@@ -54,6 +54,7 @@
 ## [Grāmatot pamatlīdzekļa pirmsiegādi](emea-pre-acquisition-acquisition-fixed-asset.md)
 ## [Pasta indeksi](emea-import-create-postal-codes-manually.md)
 ## [Reģistrācijas ID](emea-registration-ids.md)
+## [Apgrieztais PVN](emea-reverse-charge.md)
 ## [SEPA kredīta pārskaitījuma apskats](../accounts-payable/sepa-credit-transfer.md)
 ## [SEPA tiešā debeta apskats](../accounts-receivable/sepa-direct-debit-overview.md)
 ## [Iestatīt parakstītājus drukātajām formām](emea-set-up-signers-for-printing-forms.md)
@@ -98,7 +99,7 @@
 ### [Žurnālu saraksta pārskats](emea-deu-journal-list-report.md)
 ### [Drukāt atsevišķu etiķeti kredītrēķiniem, kuri izveidojušies no pārdošanas](emea-deu-print-separate-label-credit-memo-originating-sales.md)
 ## Ungārija
-### [Pamatlīdzekļu nolietojuma metodes](emea-hun-fixed-assets-depreciation-methods.md)    
+### [Pamatlīdzekļu nolietojuma metodes](emea-hun-fixed-assets-depreciation-methods.md)   
 ### [Lētie pamatlīdzekļi](emea-hun-low-cost-fixed-assets.md)
 ### [Pārvietot pamatlīdzekli uz krājumu](emea-hun-fixed-asset-to-inventory.md)
 ## Itālija
@@ -138,6 +139,7 @@
 ### [Pamatlīdzekļu grupas pārvērtēšana](emea-esp-fixed-asset-group-revaluation.md)
 ### [EK iekšējais PVN](emea-esp-intra-community-vat.md)
 ### [Vienreizēji debitori](emea-esp-no-one-time-customer-for-project-contracts.md)
+### [Drukāt čekus Spānijas formātā](emea-esp-print-checks-with-spanish-layout.md)
 ### [Parādzīmju opcijas](emea-esp-promissory-note-options.md)
 ### [Pārdošanas un pirkšanas cikli](emea-esp-sales-purchase-cycle.md)
 ### [Īpašie ieraksti un sākuma lapas](emea-esp-opening-sheets-spain.md)
@@ -153,7 +155,9 @@
 ### [Finanšu grāmatas](latam-bra-fiscal-books.md)
 #### [ICMS nodokļa finanšu dokumenti](latam-bra-icms-tax-fiscal-documents.md)
 #### [Importēt finanšu dokumentus](latam-bra-import-fiscal-documents.md)
+#### [Eksportēt un importēt juridiskas personas darījumus no konsolidētās Virsgrāmatas](latam-bra-general-ledger-consolidation-transactions.md)
 #### [Importēt un pārbaudīt NF-e XML dokumentus un DANFE failus](latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md)
+#### [Apstrādāt elektroniskos maksājumu pārskaitījumus](latam-bra-process-electronic-payment-remittances.md)
 #### [Finanšu dokumenti](latam-bra-fiscal-documents-fiscal-document-framework.md)
 #### [Finanšu dokumentu teksta vietturi](latam-bra-fiscal-document-text-placeholders.md)
 #### [Pirkšanas papildu finanšu dokumenti](latam-bra-purchase-complementary-fiscal-documents.md)
@@ -163,6 +167,8 @@
 ### [Elektroniska maksājuma atgriešanas procesa laikā ģenerētie žurnāli](latam-bra-examples-journals-generated-electronic-payment-return-process.md)
 ### [NF-e process](latam-bra-nf-e-process.md)
 ### [Parametri juridiskajām personām](latam-bra-legal-entity-parameters.md)
+### [Iegūt CIAP pamatlīdzekļus](latam-bra-ciap-fixed-asset.md)
+### [Izslēgt CIAP pamatlīdzekļus](latam-bra-ciap-fixed-asset.md)
 ### [Nodokļi](latam-bra-calculate-taxes.md)
 #### [Nodokļu atribūti](latam-bra-tax-attributes.md)
 #### [Nodokļu maksājumi](latam-bra-tax-payments.md)

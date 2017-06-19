@@ -21,4 +21,5 @@
 # Izsekot krājumus un partijas
 ## [Sapludināt krājumu partiju](merge-inventory-batches.md)
 ## [Izsekot krājumus un izejmateriālus](trace-items-raw-materials-inventory-production-sales.md)
+## [Reģistrēt sērijas numuru pārdošanas procesā](../sales-marketing/register-serial-numbers-sales-process.md)
 
