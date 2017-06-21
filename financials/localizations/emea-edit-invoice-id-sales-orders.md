@@ -3,7 +3,7 @@ title: "Labot rēķina ID pārdošanas pasūtījumos Austrumeiropai"
 description: "Šajā tēmā ir sniegta informācija par kreditoru moduļa parametriem, kas ietekmē rēķinu numurus pavadzīmēs un rēķinos Čehijai, Igaunijai, Ungārijai, Lietuvai, Latvijai un Polijai."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

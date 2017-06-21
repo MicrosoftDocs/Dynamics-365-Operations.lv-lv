@@ -3,7 +3,7 @@ title: "Sekošana līdzi pamatlīdzekļu novietojuma maiņām Latvijai"
 description: "Šajā tēmā ir sniegta informācija par izmaiņu izsekošanas funkcionalitāti attiecībā uz pamatlīdzekļu novietojuma laukiem juridiskajām personām, kuru primārā adrese atrodas Latvijā."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Procentu maksu atcelšana, atjaunošana vai anulēšana"
 description: "Šajā rakstā ir paskaidrots, kā atcelt, atjaunot un apgriezt maksas par procentiem un maksām."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Jaunumi un izmaiņas Dynamics AX programmas versijā 7.0.1 (2016. gada m
 description: "Šajā rakstā ir aprakstītas funkcijas, kas Microsoft Dynamics AX programmas versijā 7.0.1 ir jaunas vai ir mainītas. Šī versija tika izlaista 2016. gada maijā, un tās būvējuma numurs ir 7.0.1265.23014."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

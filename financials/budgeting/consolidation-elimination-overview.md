@@ -3,7 +3,7 @@ title: "Konsolidēšanas un koriģēšanas pārskats"
 description: "Šajā rakstā ir sniegta vispārīga informācija par konsolidēšanas un koriģēšanas procesu. Tajā ir atbildes uz dažiem bieži uzdotiem jautājumiem."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

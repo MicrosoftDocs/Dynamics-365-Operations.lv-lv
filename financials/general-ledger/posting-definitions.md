@@ -3,7 +3,7 @@ title: "Grāmatošanas definīcijas"
 description: "Šajā rakstā ir sniegta informācija par grāmatošanas definīcijām un veidu, kā tās definēt un saistīt. Lai uzskaites ierakstos klasificētu galvenos kontus un finanšu dimensijas, atbalstītajiem grāmatošanas veidiem un dokumentiem var izmantot grāmatošanas definīcijas nevis grāmatošanas metodes."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Žurnāla ierakstu un transakciju skatīšana"
 description: "Šajā rakstā ir paskaidroti dažādie veidi, kādā varat skatīt žurnālu ierakstus un transakcijas."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

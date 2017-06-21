@@ -3,7 +3,7 @@ title: "Tāda daļēja debitora maksājuma segšana, kam ir atlaides debitora kr
 description: "Šajā rakstā ir aprakstīts scenārijs, kurā kredīta notai tiek piemērota termiņatlaide, ja sākotnējam rēķinam arī ir piemērota termiņatlaide."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Centralizētu maksājumu nosegšanas pārskats"
 description: "Organizācijas, kurās ir iekļautas vairākas juridiskās personas, var izveidot un pārvaldīt maksājumus, izmantojot vienu juridisko personu, kas apstrādā visus maksājumus. Tādējādi tiek izslēgta nepieciešamība ievadīt vienas un tās pašas darbības vairākās juridiskajās personās un taupīts laiks, racionalizējot centralizētu maksājumu priekšlikuma procesu, segšanas procesu, neapmaksātu darbību rediģēšanu un slēgtu darbību rediģēšanu."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Patēriņa nolietojuma aprēķins"
 description: "Šajā rakstā ir sniegts pārskats par nolietojuma patēriņa metodi."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

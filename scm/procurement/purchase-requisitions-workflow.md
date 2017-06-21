@@ -3,7 +3,7 @@ title: "Pirkšanas pieprasījuma darbplūsma"
 description: "Šajā darbplūsmas procesā pārskatīšanas procesa gaitā tiek pārvietoti pirkšanas pieprasījumi no sākotnēja statusa Melnraksts līdz galīgajam statusam Apstiprināts. Kad pirkšanas pieprasījums ir iesniegts pārskatīšanai, tiek uzsākts darbplūsmas process. Kad pirkšanas pieprasījums ir apstiprināts, pirkšanas pasūtījumu var ģenerēt pirkšanas pieprasījuma rindām un iesniegt kreditoram pasūtījuma izpildīšanai."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

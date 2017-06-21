@@ -3,7 +3,7 @@ title: "Uzkrājumu pārskats"
 description: "Šajā rakstā ir aprakstīti uzkrājumi un sniegta informācija par to, kā tos iestatīt un izveidot transakcijas."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

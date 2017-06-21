@@ -3,7 +3,7 @@ title: "Skatīt nosegšanas transakcijas Austrumeiropai"
 description: "Šajā tēmā ir sniegta informācija par lapu Nosegšanas transakcijas debitoriem un kreditoriem."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

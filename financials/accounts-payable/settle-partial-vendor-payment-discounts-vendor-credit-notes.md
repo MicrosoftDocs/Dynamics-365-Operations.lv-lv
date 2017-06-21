@@ -3,7 +3,7 @@ title: "Tāda daļēja kreditora maksājuma segšana, kam ir atlaides kreditora 
 description: "Šajā rakstā ir izklāstīts scenārijs, kur kredītrēķins tiek nosegts pret rēķinu."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

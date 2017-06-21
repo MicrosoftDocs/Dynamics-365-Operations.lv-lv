@@ -3,7 +3,7 @@ title: "Virsgrāmatas konta bilances"
 description: "Šajā rakstā ir paskaidroti divi veidi, kā skatīt Virsgrāmatas kontu bilances, izmantojot lapu Apgrozījuma bilances saraksts un finanšu atskaites. Tajā ir arī aprakstīts, kā atjaunināt dimensiju kopu bilances."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

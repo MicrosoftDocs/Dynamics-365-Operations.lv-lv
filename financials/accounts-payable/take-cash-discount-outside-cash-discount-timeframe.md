@@ -3,7 +3,7 @@ title: "Termiņatlaides ārpus termiņatlaides perioda piešķiršana"
 description: "Šajā rakstā ir aprakstīti divi scenāriji, kas izskaidro, kā var piemērot termiņatlaidi arī tad, ja maksājums tiek veikts ārpus termiņatlaides perioda."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

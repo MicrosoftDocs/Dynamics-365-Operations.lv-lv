@@ -3,7 +3,7 @@ title: Izmaksu grupas
 description: "Izmaksu grupas sniedz pamatu izmaksu seguma segmentēšanai un analīzei ražotā krājuma aprēķinātajā izmaksā, kā, piemēram, materiālu, darba un papildus atbalsta izmaksu segumus. Izmaksu grupu segmentācijai ir vairāki sinonīmi, kā, piemēram, izmaksu sadalīšana, izmaksu dekompozīcija vai izmaksu klasifikācija."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

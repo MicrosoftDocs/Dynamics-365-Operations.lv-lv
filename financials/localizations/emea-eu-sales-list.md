@@ -3,7 +3,7 @@ title: "ES pārdošanas saraksta pārskats"
 description: "Šajā rakstā ir sniegta informācija par Eiropas Savienības (ES) pārdošanas saraksta atskaišu veidošanu."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

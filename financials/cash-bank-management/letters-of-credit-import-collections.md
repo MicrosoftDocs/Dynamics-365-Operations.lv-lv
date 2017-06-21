@@ -3,7 +3,7 @@ title: "Kredītvēstules un importa inkaso"
 description: "Šajā rakstā ir sniegta vispārīga informācija par akreditīviem un importa inkaso. Abu tipu bankas dokumenti bieži tiek lietoti pārrobežu preču pirkšanai un pārdošanai."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Mazie kases posteņi Austrumeiropai"
 description: "Šajā tēmā ir sniegta informācija par mazo kases posteņu funkcionalitāti, kas lietotājiem Igaunijā, Lietuvā, Čehijā, Ungārijā, Latvijā, Polijā un Krievijā ļauj sistēmā atainot kases operācijas."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

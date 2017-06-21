@@ -3,7 +3,7 @@ title: "Ražošanas maršrutēšanā izmantotās izmaksu kategorijas"
 description: "Šis raksts sniedz informāciju par izmaksu kategorijām, kas attiecas uz ražošanas vidēm, kurās izmanto maršrutēšanu."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

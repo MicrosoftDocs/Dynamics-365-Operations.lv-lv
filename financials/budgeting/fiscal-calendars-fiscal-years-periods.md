@@ -3,7 +3,7 @@ title: "Finanšu kalendāri, finanšu gadi un periodi"
 description: "Šajā rakstā ir aprakstīti finanšu kalendāri, finanšu gadi un periodi, kā arī to lietošana juridiskajām personām, pamatlīdzekļiem un budžeta veidošanai."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

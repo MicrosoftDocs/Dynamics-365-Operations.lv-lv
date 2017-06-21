@@ -3,7 +3,7 @@ title: "Pamatlīdzekļu sākumlapa"
 description: "Pamatlīdzekļi ir vērtību krājumi, piemēram, ēkas, transportlīdzekļi, zeme un aprīkojums, kas pieder privātpersonai vai organizācijai."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

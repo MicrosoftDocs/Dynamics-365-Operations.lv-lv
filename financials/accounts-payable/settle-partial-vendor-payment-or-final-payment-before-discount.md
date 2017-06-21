@@ -3,7 +3,7 @@ title: "Daļēja kreditora maksājuma segšana un galīgā maksājuma segšana p
 description: "Šajā rakstā ir aprakstīts scenārijs, kurā tiek veikti daļēji maksājumi pēc kreditora rēķina un tiek pielāgota termiņatlaide."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

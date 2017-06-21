@@ -3,7 +3,7 @@ title: "ES ieraksta sertifikāti"
 description: "Šajā rakstā ir sniegta informācija par Eiropas Savienības (ES) ierakstu sertifikātiem."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

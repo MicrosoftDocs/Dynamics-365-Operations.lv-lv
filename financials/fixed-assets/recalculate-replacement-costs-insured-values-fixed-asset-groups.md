@@ -3,7 +3,7 @@ title: "Pamatlīdzekļu grupu aizstāšanas izmaksu un apdrošinātās vērtību
 description: "Šajā rakstā ir paskaidrots, kā atjaunināt pamatlīdzekļu atjaunošanas izmaksas un apdrošinātās vērtības."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

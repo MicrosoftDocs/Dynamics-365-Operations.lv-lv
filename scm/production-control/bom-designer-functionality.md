@@ -3,7 +3,7 @@ title: "BOM veidotāja funkcionalitāte"
 description: "Šajā rakstā ir aprakstīts, kā jūs varat izmantot MK veidotāja lapu, lai materiālu komplektiem (MK) projektētu koka struktūras un strādātu ar tām. Varat noklikšķināt uz Iestatīšana, lai atlasītu dažādas konfigurācijas, un norādīt, kāda informācija tiek rādīta koka rindās."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

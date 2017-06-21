@@ -3,7 +3,7 @@ title: "Kreditoriem un debitoru parādu ārvalstu valūtas pārvērtēšana"
 description: "Valūtas maiņas kursu svārstības laikā gaitā izraisa neapmaksāto transakciju teorētiskās vērtības (atlikušās vērtības) ārvalstu valūtās izmaiņas. Šajā rakstā ir sniegta informācija par ārvalstu valūtas pārvērtēšanas procesu, kas tiek veikts, lai atjauninātu kreditoru un debitoru neapmaksāto transakciju vērtību."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

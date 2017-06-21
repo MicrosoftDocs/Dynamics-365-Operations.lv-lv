@@ -3,7 +3,7 @@ title: "Jaunumi un izmaiņas programmatūrā Dynamics AX 7.0 (2016. gada febru
 description: "Šajā rakstā ir aprakstītas funkcijas, kas versijā Microsoft Dynamics AX 7.0 ir jaunas vai ir mainītas. Šī versija satur gan platformas, gan programmas līdzekļus, un tā tika izlaista 2016. gada februārī."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

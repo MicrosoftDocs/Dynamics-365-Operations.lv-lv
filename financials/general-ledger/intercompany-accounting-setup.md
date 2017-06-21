@@ -3,7 +3,7 @@ title: "Starpuzņēmumu uzskaites iestatīšana"
 description: "Šajā tēmā ir paskaidrots, kā iestatīt starpuzņēmumu uzskaiti, lai varētu izmantot starpuzņēmumu žurnālus Virsgrāmatas sadalījumiem un finanšu žurnāliem, piemēram, ikdienas žurnāliem, kreditoru rēķinu žurnāliem un maksājumu žurnāliem."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Iestatīt parakstītājus drukātajām formām"
 description: "Juridiskajām personām Čehijā, Igaunijā, Ungārijā, Lietuvā, Latvijā, Polijā un Krievijā varat iestatīt parakstītājus un amatus debitoriem un kreditoriem, kas drukā tādus dokumentus kā rēķini un kases orderi."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Laika un apmeklētības reģistrācija"
 description: "Laika reģistrācijas darbinieki var ievadīt dažādus laika reģistrācijas veidus, piemēram, ierašanās laiku, aiziešanas laiku, netiešu aktivitāšu un kavējumu reģistrāciju. Šajā rakstā sniegta informācija par reģistrācijas veidiem, to aprēķināšanu, apstiprināšanu un darbplūsmas izmantošanu, lai pievienotu struktūru un automātisko apstiprināšanu darba laika uzskaites tabulu apstiprināšanas procesam."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

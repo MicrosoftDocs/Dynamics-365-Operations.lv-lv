@@ -3,7 +3,7 @@ title: "Līdzekļu iegādāšanās, izmantojot iepirkuma procesu"
 description: "Šajā rakstā aprakstīts, ka var iestatīt saistību starp laukiem Pamatlīdzekļi un Kreditori, lai no pirkšanas pasūtījumiem vai kreditora rēķiniem automātiski izveidotu pamatlīdzekļus vai automātiski iegrāmatotu pamatlīdzekļu iegādes vai iegādes pielāgošanas transakcijas."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

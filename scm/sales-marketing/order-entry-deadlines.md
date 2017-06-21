@@ -3,7 +3,7 @@ title: "Pasūtījumu izveides termiņi"
 description: "Šajā rakstā ir sniegta informācija par pasūtījuma izveides termiņiem. Pasūtījuma izveides termiņš ir pēdējais laiks, kas nosaka, vai debitora pasūtījums tiek apstrādāts (un izpildīts) tā, it kā tas būtu jāsaņem šodien vai nākamajā dienā."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

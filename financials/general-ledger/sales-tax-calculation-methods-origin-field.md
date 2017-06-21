@@ -3,7 +3,7 @@ title: "PVN aprēķina metodes laukā Izcelsme"
 description: "Šajā rakstā ir aprakstītas lauka Izcelsme opcijas PVN kodu lapā un kā PVN tiek aprēķināts atkarībā no atlasītās PVN koda opcijas."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

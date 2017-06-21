@@ -3,7 +3,7 @@ title: "Krājumu slēgšana"
 description: "Izsniegšanas transakciju nosegšanas ar saņemšanas transakcijām procesa gaitā var arī noteikt, ka ir jāatjaunina galvenā virsgrāmata, lai varētu redzēt veiktās korekcijas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Kvalitātes pārvaldības procesi"
 description: "Šajā rakstā ir sniegta informācija par kvalitātes pārvaldības procesu nekondīcijas precēm. Tajā ir aprakstīts, kā varat lietot kvalitātes kontroles funkcionalitāti, kā noteikt un uzturēt neatbilstības un kā rīkoties ar labojumiem."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Plānot kravas, izmantojot pārkraušanas punktu konsolidāciju"
 description: "Šajā rakstā ir aprakstīts līdzeklis sūtījumu konsolidēšanai pārkraušanas punktā, kad preces no dažādām noliktavām piegādājat tam pašam debitoram vai kad preces no vairākiem kreditoriem saņemat tajā pašā noliktavā."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

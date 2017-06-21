@@ -3,7 +3,7 @@ title: "Operāciju plānošanas opcijas"
 description: "Šajā tēmā ir aprakstītas operāciju plānošanas opcijas. Operāciju plānošanu var lietot, lai sniegtu vispārēju ražošanas procesa novērtējumu laika periodam."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

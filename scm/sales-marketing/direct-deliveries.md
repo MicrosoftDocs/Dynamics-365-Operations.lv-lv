@@ -3,7 +3,7 @@ title: "Tiešās piegādes"
 description: "Šajā rakstā ir sniegta informācija par tiešajām piegādēm. Tiešās piegādes ir tādas piegādes, kas no kreditora tiek nosūtītas tieši debitoram."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

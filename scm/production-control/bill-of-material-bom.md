@@ -3,7 +3,7 @@ title: "Materiālu komplekti un formulas"
 description: "Šajā rakstā ir sniegta informācija par materiālu komplektu (MK) un formulām, kuras veido preču un preču variantu definīcijas centrālo daļu. MK un formulas norāda konkrētas preces nepieciešamos materiālus jeb komponentus. Formulas norāda arī līdzproduktus un blakusproduktus, kas tiek saņemti noteiktā ražošanas kontekstā."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

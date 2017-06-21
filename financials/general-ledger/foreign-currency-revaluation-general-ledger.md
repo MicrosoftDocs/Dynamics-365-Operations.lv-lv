@@ -3,7 +3,7 @@ title: "Ārvalstu valūtas pārvērtēšana Virsgrāmatai"
 description: "Šajā tēmā ir sniegts pārskats par šādiem ārvalstu valūtas pārvērtēšanas procesiem Virsgrāmatā: iestatīšana, procesa izpilde, procesa aprēķini un pārvērtēšanas transakciju anulēšana nepieciešamības gadījumā."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

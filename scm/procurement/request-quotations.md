@@ -3,7 +3,7 @@ title: "Piedāvājuma pieprasījumi (PP)"
 description: "Šajā rakstā ir sniegts pārskats par piedāvājuma pieprasījumiem (PP), kuras organizācijas izsniedz, kad tām jāiegādājas preces vai pakalpojumus, un tādēļ vēlas saņemt vairāku kreditoru konkurētspējīgus piedāvājumus. Piedāvājuma pieprasījumā kreditoriem tiek lūgts piedāvāt norādītā krājuma daudzuma cenas un piegādes laiku. Kreditoriem var lūgt arī norādīt, vai pastāv jebkādas nejaušās izmaksas, piemēram, piegādes izmaksas, kā arī vai pastāv jebkādas atlaides lielu pasūtījumu vai savlaicīgas kreditora rēķina apmaksas gadījumā."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

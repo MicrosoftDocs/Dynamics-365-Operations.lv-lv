@@ -3,7 +3,7 @@ title: "PVN reģistra transakcijas Austrumeiropai"
 description: "Šajā tēmā ir sniegta informācija par PVN reģistra transakcijām Igaunijai, Lietuvai, Čehijai, Ungārijai, Latvijai un Polijai."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

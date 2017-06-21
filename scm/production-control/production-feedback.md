@@ -3,7 +3,7 @@ title: "Ražošanas atsauksmes"
 description: "Šajā rakstā ir sniegta informācija par ražošanas atsauksmi, kas sniedz darbinieku atsauksmi par ražošanas darbiem. Rakstā ir iekļauta informācija par dažādiem ražošanas atsauksmes atjaunināšanas veidiem."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
