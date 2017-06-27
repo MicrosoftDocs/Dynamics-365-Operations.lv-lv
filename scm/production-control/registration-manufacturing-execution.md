@@ -3,7 +3,7 @@ title: "Ražošanas izpildes reģistrācija"
 description: "Šajā tēmā ir aprakstītas galvenās koncepcijas un termini, kas ir jāsaprot, lai varētu konfigurēt un lietot ražošanas izpildi"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

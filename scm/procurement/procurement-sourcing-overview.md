@@ -3,7 +3,7 @@ title: "Sagādes un avotu apskats"
 description: "Šajā rakstā ir sniegts pārskats par funkcionalitāti, kas ir pieejama Sagādes un plānošanas modulī."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

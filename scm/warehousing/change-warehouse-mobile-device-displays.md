@@ -3,7 +3,7 @@ title: "Noliktavas mobilo ierīču displeja iestatījumi"
 description: "Šajā rakstā ir izskaidrots, kā iestatīt mobilās ierīces displeja izskatu un kartēt vadīklu tastatūras īsinājumtaustiņus, piemēram, pogas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

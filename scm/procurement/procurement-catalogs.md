@@ -3,7 +3,7 @@ title: "Sagādes katalogi"
 description: "Šajā rakstā ir detalizēti aprakstīts, kā iepirkumu speciālisti var iestatīt un uzturēt sagādes katalogus. Sagādes katalogos ir noteikti krājumi un pakalpojumi, ko uzņēmuma darbinieki var pasūtīt iekšējai lietošanai."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

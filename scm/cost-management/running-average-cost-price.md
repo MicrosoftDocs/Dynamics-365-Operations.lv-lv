@@ -3,7 +3,7 @@ title: "Faktiskā vidējo izmaksu cena"
 description: "Krājumu slēgšanas procesa laikā saņemšanas darbības tiek segtas ar izdošanas darbībām, pamatojoties uz krājumu novērtēšanas metodi, kas ir atlasīta vienības krājumu modeļa grupā. Taču pirms krājumu slēgšanas izpildes sistēmā tiek aprēķināta faktiskā vidējo izmaksu cena, kas parasti tiek izmantota, iegrāmatojot izdošanas transakcijas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

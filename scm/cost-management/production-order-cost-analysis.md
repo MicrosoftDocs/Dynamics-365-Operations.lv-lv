@@ -3,7 +3,7 @@ title: "Ražošanas pasūtījuma izmaksu analīze"
 description: "Šajā rakstā ir sniegta informācija par izmaksu analizēšanu, ko var veikt par pabeigtiem un pašreizējiem ražošanas pasūtījumiem. Izmantojot lapu Cenu aprēķināšana vai novērtētās un Novērtētās un faktiski grāmatotās izmaksas, analizēt var novērtētās un faktiskās izmaksas. Var skatīt informācija par katra komponenta krājuma, maršruta operācijas un netiešo izmaksu novērtētajām un faktiskajām izmaksām (un daudzumu)."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

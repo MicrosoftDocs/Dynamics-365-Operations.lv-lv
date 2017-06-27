@@ -3,7 +3,7 @@ title: "Gada beigu slēgšana"
 description: "Šajā tēmā ir aprakstīti nepieciešamie iestatījumi un darbības, kas ir jāveic, lai izpildītu Virsgrāmatas gada slēgšanas procesu."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

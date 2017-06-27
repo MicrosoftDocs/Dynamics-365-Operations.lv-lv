@@ -3,7 +3,7 @@ title: "Kredīta un iekasēšanas iestatīšana"
 description: "Šajā rakstā ir paskaidrots, kā iestatīt iekasēšanas funkcionalitāti."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

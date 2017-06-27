@@ -3,7 +3,7 @@ title: "Kases un bankas vadības sākumlapa"
 description: "Kases un bankas vadību varat izmantot, lai uzturētu juridiskās personas bankas kontus un ar šiem bankas kontiem saistītos finanšu instrumentus."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

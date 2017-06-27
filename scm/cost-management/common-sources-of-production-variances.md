@@ -3,7 +3,7 @@ title: "Ražošanas noviržu vispārējo iemeslu analīze"
 description: "Šajā rakstā ir izskaidroti dažādi tipiski visu ražošanas noviržu veidu iemesli."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

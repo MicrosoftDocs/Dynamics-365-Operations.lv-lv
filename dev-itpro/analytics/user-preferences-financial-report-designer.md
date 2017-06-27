@@ -3,7 +3,7 @@ title: "Lietotāja preferences finanšu atskaišu veidotājā"
 description: "Šajā rakstā ir paskaidrots, kā iestatīt lietotāja preferences, lai pielāgotu jūsu lietotāju mijiedarbības finanšu atskaišu veidotājā un kontrolētu sākotnējo pierakstīšanās pieredzi. Varat arī kontrolēt, kā tiek rādītas atsevišķas atskaites, atskaišu bibliotēka un failu noklusējuma atrašanās vietas."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

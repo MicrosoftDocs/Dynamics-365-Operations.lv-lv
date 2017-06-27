@@ -3,7 +3,7 @@ title: "Bieži uzdotie jautājumi par tulkojumiem, kas saistīti ar precēm"
 description: "Šajā tēmā aprakstīts, kā pārvaldīt preču tulkojumus, preču dimensiju vērtības un preču īpašības."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

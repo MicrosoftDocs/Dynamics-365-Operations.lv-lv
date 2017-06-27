@@ -3,7 +3,7 @@ title: Cenu versijas
 description: "Šajā rakstā ir sniegta informācija par izmaksu aprēķināšanas versijām, par to uzturēšanu un datu tipiem, kurus tajās varat iekļaut. Izmaksu aprēķināšanas versijas galvenais mērķis ir iekļaut izmaksu ierakstus par krājumiem, izmaksu kategorijas un netiešo izmaksu aprēķinu formulas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

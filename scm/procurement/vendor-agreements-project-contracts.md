@@ -3,7 +3,7 @@ title: "Kreditoru līgumi Apmaksāt pēc apmaksas"
 description: "Šajā rakstā ir izskaidroti kreditoru līgumiem paredzētie nosacījumi “apmaksāt pēc apmaksas” (pay-when-paid — PWP). PWP nosacījumi jums ļauj daļēji vai pilnībā aizturēt maksājumu kreditoram, līdz jums ir samaksājis projekta debitors. Šajā rakstā ir arī sniegti reāli piemēri, lai parādītu, kā varat projektam izmantot PWP nosacījumus."
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

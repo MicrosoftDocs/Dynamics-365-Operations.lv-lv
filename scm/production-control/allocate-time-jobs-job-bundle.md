@@ -3,7 +3,7 @@ title: "Piešķirt laiku darbu komplektā iekļautiem darbiem"
 description: "Lapā Ražošanas izpilde var veikt darbu komplektēšanu. Pēc tam lapā Darbu saraksts var sākt vairākus darbus vienlaicīgi."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

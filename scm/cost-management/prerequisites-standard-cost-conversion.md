@@ -3,7 +3,7 @@ title: "Standarta izmaksu konvertēšanas priekšnoteikumi"
 description: "Šajā tēmā ir aprakstīti uzdevumi, kas ir jāveic pirms standarta izmaksu konvertēšanas izpildes."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

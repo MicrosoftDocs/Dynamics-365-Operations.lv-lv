@@ -3,7 +3,7 @@ title: "Iepakojuma materiāli un papildmaksas"
 description: "Iepakojuma materiālu papildmaksas pārstrādes uzņēmumam tiek maksātas zināmos laika intervālos. Apmaksa tiek veikta par smaguma mērvienību katram iepakojuma vienības sastāvā esošajam materiālam. Iepakojuma materiālu papildmaksas tiek aprēķinātas un iekļautas atskaitēs, bet netiek grāmatotas virsgrāmatas transakcijas, jo papildmaksas netiek uzskatītas par valsts iestādei maksājamiem nodokļiem."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "MK aprēķinu grupas"
 description: "Šajā rakstā ir sniegta informācija par materiālu komplektu (MK) aprēķinu grupām un to iestatīšanu. Lai izpildītu MK aprēķinu, ir jāiestata aprēķinu grupas un tās jāpiešķir atsevišķiem krājumiem, vai jāiestata noklusējuma aprēķinu grupa. MK aprēķināšanas laikā aprēķinu iestatījumi no aprēķinu grupas tad tiek izmantoti kā noklusējuma vērtības lapā MK aprēķins."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

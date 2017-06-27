@@ -3,7 +3,7 @@ title: "Izmaksu aprēķināšanas lapas"
 description: "Aprēķina shēmas iestatīšana ietver divus mērķus. Kā pirmo mērķi jūs nosakiet formātu pārdoto preču izmaksu informācijas parādīšanai par ražoto vienību vai ražošanas pasūtījumu. Noformētais ekrāns ir nosauktā aprēķina shēma. Kā otro mērķi jūs nosakiet pamatu netiešo izmaksu aprēķināšanai. Aprēķina shēmas iestatījums balstās uz izmaksu grupas līdzekli informācijas parādīšanai un netiešo izmaksu aprēķināšanas formulām. Šajā rakstā ir aprakstīti divi izmaksu aprēķināšanas shēmu iestatīšanas mērķi."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

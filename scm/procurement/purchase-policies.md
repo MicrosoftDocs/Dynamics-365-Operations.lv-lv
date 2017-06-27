@@ -3,7 +3,7 @@ title: "Pirkšanas ierobežojumi"
 description: "Šajā rakstā ir sniegta informācija par pirkšanas ierobežojumiem. Pirkšanas ierobežojumi ir nosacījumu kopums, kas kontrolē pieprasījumu procesu. Pirkšanas ierobežojumi palīdz sagādes administratoriem ieviest sagādes stratēģiju, izveidojot politikas struktūru, kas ir saskaņota ar organizācijas stratēģiskajām pirkšanas prasībām."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

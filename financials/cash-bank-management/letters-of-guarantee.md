@@ -3,7 +3,7 @@ title: "Garantijas vēstules"
 description: "Šajā rakstā ir sniegta informācija par garantijas vēstulēm. Garantijas vēstulē banka piekrīt personai maksāt noteiktu naudas summu, ja kāds no bankas klientiem nepilda maksājumu vai saistības attiecībā pret šo personu."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

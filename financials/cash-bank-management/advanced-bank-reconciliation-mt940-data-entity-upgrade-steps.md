@@ -3,7 +3,7 @@ title: "Detalizētas bankas darbību saskaņošanas MT940 importēšana – Sali
 description: "Secības numurs jāpievieno bankas izraksta importēšanas elementam, lai atbalstītu MT940 formātu."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

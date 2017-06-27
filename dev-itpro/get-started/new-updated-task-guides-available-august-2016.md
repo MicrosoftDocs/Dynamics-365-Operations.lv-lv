@@ -3,7 +3,7 @@ title: "Jauni vai atjaunināti uzdevumu ceļveži (2016. gada augusts)"
 description: "Šajā tēmā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas ir izlaisti Microsoft APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics AX (2016. gada augusta visu valodu laidienā). Netika izlaista neviena jauna darba sākšanas bibliotēka."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

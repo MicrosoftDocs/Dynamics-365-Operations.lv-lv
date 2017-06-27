@@ -3,7 +3,7 @@ title: "Priekšapmaksas rēķini salīdzinājumā ar priekšapmaksu"
 description: "Šajā rakstā ir aprakstītas un salīdzinātas divas metodes, kuras organizācijas var izmantot, veicot avansa maksājumus (priekšapmaksas). Izmantojot vienu metodi, ir jāizveido priekšapmaksas rēķins, kas saistīts ar pirkšanas pasūtījumu. Izmantojot otru metodi, ir jāizveido priekšapmaksas žurnāla dokumenti, vispirms izveidojot žurnāla ierakstus un atzīmējot tos kā priekšapmaksas žurnāla dokumentus."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

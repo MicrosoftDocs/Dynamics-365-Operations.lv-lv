@@ -3,7 +3,7 @@ title: "Konta un dimensiju kombināciju ievade (segmentētu ierakstu kontrole)"
 description: "Šajā rakstā ir aprakstīts, kā ievadīt kontu un dimensiju kombinācijas vai virsgrāmatas kontus. Ierakstīšanas darbība bieži tiek saukta par segmentētu ierakstu kontroli."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

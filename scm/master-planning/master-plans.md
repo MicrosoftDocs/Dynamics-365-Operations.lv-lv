@@ -3,7 +3,7 @@ title: "Vispārējie plāni"
 description: "Izmantojiet dažādus vispārējos plānus, lai atbalstītu uzņēmuma ikdienas darba operācijas, simulētu dažādas plānošanas stratēģijas, ko vēlaties pārraudzīt, un īstenotu uzņēmuma politiku, piemēram, attiecībā uz iekšējo veiktspēju vai debitoru apmierinātību."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

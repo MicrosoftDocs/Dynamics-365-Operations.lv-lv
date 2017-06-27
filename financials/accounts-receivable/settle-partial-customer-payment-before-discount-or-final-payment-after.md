@@ -3,7 +3,7 @@ title: "Daļēja debitora maksājuma nosegšana pirms atlaižu piemērošanas da
 description: "Šajā rakstā ir aprakstīta debitoru rēķinu segšanas maksājumu ietekme. Scenārija aprakstā galvenā uzmanība pievērsta izmaiņām, kas rodas apakšgrāmatā, nevis virsgrāmatā."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

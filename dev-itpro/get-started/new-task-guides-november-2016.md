@@ -3,7 +3,7 @@ title: "Jauni vai atjaunināti uzdevumu ceļveži (2016. gada novembris)"
 description: "Šajā tēmā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas tika izlaisti Microsoft APQC vienotajā bibliotēkā programmatūrai MicrosoftDynamics 365 for Operations (2016. gada novembra visu valodu laidienā). Netika izlaista neviena jauna darba sākšanas bibliotēka."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

@@ -3,7 +3,7 @@ title: "Daļēju kreditora maksājumu nosegšana, kam ir vairāki atlaižu perio
 description: "Šajā rakstā ir aprakstīts scenārijs, kurā tiek veikti vairāki daļējie maksājumi kreditoram, kas piedāvā vairākas termiņatlaides."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

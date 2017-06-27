@@ -3,7 +3,7 @@ title: "Kreditoru maksājumu atcelšana"
 description: "Šajā rakstā aprakstītas maksājuma atcelšanas, dzēšanas, anulēšanas un noraidīšanas atšķirības. Papildus šeit ir aprakstītas divas kreditora čeka atcelšanas metodes."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

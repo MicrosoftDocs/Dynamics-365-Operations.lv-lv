@@ -3,7 +3,7 @@ title: "Pozīciju budžeta izveides problēmu novēršana"
 description: "Šajā raksta ir sniegtas atbildes uz jautājumiem, kas var rasties budžeta veidošanas pozīciju konfigurēšanas gaitā. Tēma atsaucas uz biežāk uzdotajiem jautājumiem par to, kā izveidot budžeta izmaksu elementus, atlīdzību grupas un atlīdzību režģus."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

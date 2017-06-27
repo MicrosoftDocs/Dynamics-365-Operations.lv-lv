@@ -3,7 +3,7 @@ title: "Partijas atribūti"
 description: "Šajā rakstā ir sniegta informācija par partijas atribūtiem. Partijas atribūti ir krājumu partijās ietverto izejvielu un saražoto preču raksturlielumi. Rakstā ir sniegts arī skaidrojums, kā piešķirt partijas atribūtus un kā var tos meklēt, rezervējot partijas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Lietot debitora maksājumu, lai segtu vairākus rēķinus ar vairākiem 
 description: "Šajā rakstā ir izskaidrots, kā vairāki rēķini tiek apmaksāti, ja katram rēķinam var piemērot termiņatlaidi. Šajā rakstā aprakstītajā scenārijā galvenā uzmanība pievērsta termiņatlaidēm, kas tiek piemērotas atkarībā no maksājuma veikšanas laika."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

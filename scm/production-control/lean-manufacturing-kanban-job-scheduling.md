@@ -3,7 +3,7 @@ title: "Kanban darbu plānošana metodei lean manufacturing"
 description: "Šajā rakstā ir sniegta informācija par vizuālo kontroli pār kanban darbu plānošanu un dažādajiem veidiem, kā plānot kanban darbus."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

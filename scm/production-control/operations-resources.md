@@ -3,7 +3,7 @@ title: Operations resursi
 description: "Operācijas resursi izpilda projekta vai ražošanas procesa aktivitātes. Tie var būt dažādu veidu, ar dažādām iespējām."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

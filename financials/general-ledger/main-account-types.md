@@ -3,7 +3,7 @@ title: Galveno kontu veidi
 description: "Galvenā konta veidi nosaka, kā galvenais konts tiek izmantots kontu plānā."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

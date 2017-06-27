@@ -3,7 +3,7 @@ title: "Resursu iespējas"
 description: "Šajā rakstā ir sniegta informācija par resursu iespējām. Iespēja ir operācijas resursa pieejamība konkrētas aktivitātes izpildīšanai. Rakstā ir izskaidrots, kā iespējas un saistītās koncepcijas, piemēram, prasmes līmenis un prioritāte, tiek izmantotas, lai atlasītu attiecīgos darbības resursus."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

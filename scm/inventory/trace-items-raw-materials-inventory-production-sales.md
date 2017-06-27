@@ -3,7 +3,7 @@ title: "Krājumu un izejmateriālu izsekošana krājumos, ražošanā un pārdo�
 description: "Šajā tēmā ir aprakstīts, kā jūs varat izmantot krājuma izsekošanu, lai identificētu, kur krājumi vai izejmateriāli ir izmantoti, tiek izmantoti vai tiks izmantoti ražošanas un pārdošanas procesos."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

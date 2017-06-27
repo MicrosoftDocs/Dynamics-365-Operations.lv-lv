@@ -3,16 +3,16 @@ title: "Dabas resursu nodokļa pārskats"
 description: "Šajā tēmā ir paskaidrots, kā iestatīt un ģenerēt pārskatu Dabas resursu nodoklis (DRN)."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LvNRTaxItemGroupLookup
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 270454
-ms.assetid: ca5fb637-e01b-4499-9bc4-51da02b8c61a
 ms.search.region: Latvia
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30

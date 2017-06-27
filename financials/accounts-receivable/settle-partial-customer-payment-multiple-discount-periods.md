@@ -3,7 +3,7 @@ title: "Daļēju debitora maksājumu nosegšana, kam ir vairāki atlaižu period
 description: "Šajā rakstā ir izskaidrots, kā tiek nosegti daļēji debitora maksājumi, ja ir vairāki atlaižu periodi."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

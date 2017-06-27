@@ -3,7 +3,7 @@ title: "Standarta izmaksu pārveidošanas apskats"
 description: "Šajā rakstā ir sniegts procesa pārskats, kas palīdz iestatīt un palaist standarta izmaksu pārveidošanas procesu. Norādītās darbības ir jāveic pēc tam, kad ir pilnībā izpildīti standarta izmaksu pārveidošanas priekšnoteikumi."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

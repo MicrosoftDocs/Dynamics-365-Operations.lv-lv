@@ -3,7 +3,7 @@ title: "Darbu plānošana"
 description: "Šajā rakstā ir sniegta informācija par darbu plānošanu, kas ir daudz detalizētāka plānošanas forma nekā operāciju plānošana. Darbu plānošanu var izmantot, lai plānotu atsevišķus darbus vai veikalu pasūtījumus un kontrolētu ražošanas vidi."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
