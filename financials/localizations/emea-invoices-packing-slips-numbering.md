@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LtInvoiceAutoNumberingGroups, LtInvoiceAutonumberingTable, NumberSequenceTableListPage
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 268484
 ms.search.region: Latvia, Lithuania
 ms.author: v-elgolu

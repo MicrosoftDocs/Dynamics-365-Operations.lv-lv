@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: TaxAuthority, TaxReportCollection, TaxReportVoucher, TaxTable
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 266864
 ms.search.region: Latvia
 ms.author: v-elgolu
