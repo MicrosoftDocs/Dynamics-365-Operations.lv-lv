@@ -1,15 +1,15 @@
 ---
 title: "BI un atskaišu veidošanas sākumlapa"
-description: "Šajā tēmā ir minēti BI un atskaišu veidošanas resursi, kas ir pieejami programmatūrā Microsoft Dynamics 365 for Operations."
+description: "Šajā tēmā ir minēti BI un atskaišu veidošanas resursi, kas ir pieejami risinājumā Microsoft Dynamics 365 for Finance and Operations."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 27681
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3e97fda52acf6b61bf47eb30d53ce6597b4929d3
+ms.sourcegitcommit: c8684bf17946edff8230f0b6d324d355e61dc89b
+ms.openlocfilehash: 448517531112636d553dc895b17c5644c9c1f0bc
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/21/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā tēmā ir minēti BI un atskaišu veidošanas resursi, kas ir pieejami programmatūrā Microsoft Dynamics 365 for Operations. 
+Šajā tēmā ir minēti BI un atskaišu veidošanas resursi, kas ir pieejami risinājumā Microsoft Dynamics 365 for Finance and Operations. 
 
 <a name="working-with-aggregate-data"></a>Darbs ar apkopotiem datiem
 ---------------------------
@@ -43,14 +43,14 @@ ms.lasthandoff: 05/25/2017
 ## <a name="self-service-reporting"></a>Pašapkalpošanās pārskatu veidošana
 -   [Power BI integrācija](power-bi-integration.md)
 -   [Power BI integrācijas konfigurēšana darbvietām](configure-power-bi-integration.md)
--   [Izveidot Power BI pārskatu, izmantojot Microsoft Dynamics 365 for Operations datus](create-powerbi-report-data.md)
+-   [Izveidot Power BI pārskatu, izmantojot Microsoft Dynamics 365 for Finance and Operations datus](create-powerbi-report-data.md)
 -   [Power BI pārskata un informācijas paneļa veidošana](create-powerbi-report-dashboard.md)
 -   [Power BI saturs Mazumtirdzniecības kanāla veiktspēja](retail-channel-performance-dashboard-power-bi-data.md)
 -   [Power BI saturs Finanšu veiktspēja](financial-performance-power-bi-content-pack.md)
 -   [Power BI saturs Pārdošanas un ienesīguma veiktspēja](sales-profitability-performance-content-pack.md)
--   [Izmantot elektronisko pārskatu veidošanas konfigurāciju, lai pakalpojumam Power BI sniegtu datus no Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Izmantot elektronisko pārskatu veidošanas konfigurāciju, lai pakalpojumam Power BI sniegtu datus no Dynamics 365 for Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
-## <a name="building-embedded-analytical-experiences-in-the-dynamics-365-for-operations-client"></a>Iegultas analītiskas pieredzes veidošana Dynamics 365 for Operations klientā
+## <a name="building-embedded-analytical-experiences-in-the-finance-and-operations-client"></a>Iegultas analītiskas pieredzes veidošana Dynamics 365 for Finance and Operations klientā
 -   [Iegulta biznesa informācija](analytics.md#embedded-business-intelligence)
 -   [KPI modelēšana un pielāgošana](analytics.md#kpi-modeling-and-customization)
 -   [BI pievienošana darbvietām](add-bi-workspaces.md)
@@ -58,7 +58,7 @@ ms.lasthandoff: 05/25/2017
 
 ## <a name="document-reporting-and-printing"></a>Dokumentu atskaišu veidošana un drukāšana
 -   [Dokumentu atskaišu veidošanas pakalpojumu pārskats](document-reporting-services.md)
--   [Drukāšana Dynamics 365 for Operations programmās](print-documents.md)
+-   [Drukāšana Dynamics 365 for Finance and Operations programmās](print-documents.md)
 -   [Instalēt dokumentu maršrutēšanas aģentu, lai iespējotu tīkla printera ierīces](install-document-routing-agent.md)
 -   [Palaist dokumentu maršrutēšanas aģentu kā Windows pakalpojumu](run-document-routing-agent-as-windows-service.md)
 -   [Nākamās paaudzes atskaišu veidošanas risinājumu izveidošana](create-nextgen-reporting-solutions.md)
@@ -72,7 +72,7 @@ ms.lasthandoff: 05/25/2017
 -   [Formulas veidotājs elektronisko atskaišu veidošanā](general-electronic-reporting-formula-designer.md)
 -   [Elektroniskās pārskatu veidošanas adresāti](electronic-reporting-destinations.md)
 -   [Lejupielādēt elektronisko pārskatu veidošanas konfigurāciju no Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
--   [Izmantot elektronisko pārskatu veidošanas konfigurāciju, lai pakalpojumam Power BI sniegtu datus no Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Izmantot elektronisko pārskatu veidošanas konfigurāciju, lai pakalpojumam Power BI sniegtu datus no Dynamics 365 for Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 -   [ER Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu](http://ax.help.dynamics.com/en/wiki/er-select-service-provider/) (uzdevuma ceļvedis)
 -   [ER Noformēt domēnam specifisku datu modeli](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-data-model/) (uzdevuma ceļvedis)
 -   [ER Definēt modeļa kartēšanu un atlasīt datu avotus](http://ax.help.dynamics.com/en/wiki/er-define-model-mapping-and-select-data-sources/) (uzdevuma ceļvedis)

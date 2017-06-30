@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LvNRTaxItemGroupLookup
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 270454
 ms.search.region: Latvia
 ms.author: v-lenest

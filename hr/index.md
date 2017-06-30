@@ -1,12 +1,12 @@
 ---
-title: "Personāla vadība"
-description: "Personāla vadība racionalizē daudzus ikdienas lietvedības uzdevumus un automatizē vairākus ar jūsu organizācijas personālu saistītus procesus. Personāla vadības darbiniekiem tā nodrošina arī struktūru uzraudzības jomu pārvaldīšanai. Šajās jomās ietilpst darbinieku pieņemšana darbā, kā arī ieturējumu un atvieglojumu administrēšana, apmācība, darba izpildes novērtējumi un izmaiņu pārvaldība."
+title: "Microsoft Dynamics 365 for Talent"
+description: "Talent racionalizē daudzus ikdienas lietvedības uzdevumus un automatizē vairākus ar jūsu organizācijas personālu saistītus procesus. Šajos procesos ietilpst darbinieku ieturējumu un atvieglojumu administrēšana, apmācība, darba izpildes novērtējumi un izmaiņu pārvaldība."
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/19/2017
 ms.topic: index-page
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
@@ -16,23 +16,25 @@ ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 213d1dc69ac0f6dc10138e185625a142e107f073
+ms.sourcegitcommit: 6e2feeadd7cef8273d94810a13df6c5dfe6f1d4a
+ms.openlocfilehash: e0f41445c621a317fcdccef6cb08766dd6fac279
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/21/2017
 
 
 ---
 
-# <a name="welcome-to-human-resources"></a>Laipni lūdzam personāla vadībā
+# <a name="welcome-to-microsoft-dynamics-365-for-talent"></a>Esiet sveicināti risinājumā Microsoft Dynamics 365 for Talent!
 
 [!include[banner](includes/banner.md)]
 
-Personāla vadība racionalizē daudzus ikdienas lietvedības uzdevumus un automatizē vairākus ar jūsu organizācijas personālu saistītus procesus. Personāla vadības darbiniekiem tā nodrošina arī struktūru uzraudzības jomu pārvaldīšanai. Šajās jomās ietilpst darbinieku pieņemšana darbā, kā arī ieturējumu un atvieglojumu administrēšana, apmācība, darba izpildes novērtējumi un izmaiņu pārvaldība.
+Risinājums Microsoft Dynamics 365 for Talent racionalizē daudzus ikdienas lietvedības uzdevumus un automatizē vairākus ar jūsu organizācijas personālu saistītus procesus. Šajos procesos ietilpst darbinieku ieturējumu un atvieglojumu administrēšana, apmācība, darba izpildes novērtējumi un izmaiņu pārvaldība. Personāla vadības darbiniekiem tā nodrošina arī struktūru uzraudzības jomu pārvaldīšanai.
 
-Personāla vadību varat izmantot tālāk uzskaitīto uzdevumu izpildīšanai.
+Risinājums Dynamics 365 for Talent ir cieši saistīta ar personāla vadību Dynamics 365 for Finance and Operations, Enterprise izdevumā. Šī funkcionalitāte var būt pieejama abos produktos. Tādējādi tēmās, kas galvenokārt ir saistītas ar personāla vadību, produkta nosaukums būs Dynamics 365 for Finance and Operations, Enterprise izdevums; tēmās, kas galvenokārt ir saistītas ar Talent, produkta nosaukums būs Dynamics 365 for Talent. Tēmas, kas sarakstītas vienam produktam, var attiekties uz to pašu funkcionalitāti saistītā produktā.
+
+Risinājumu Talent varat izmantot tālāk uzskaitīto uzdevumu izpildīšanai.
 
 > + Administrējiet organizācijas struktūras.
 > + Uzturiet visaptverošu informāciju par darbinieku no pieņemšanas darbā līdz aiziešanai pensijā.
@@ -42,25 +44,19 @@ Personāla vadību varat izmantot tālāk uzskaitīto uzdevumu izpildīšanai.
 > + Pārvaldiet darbinieku kompetences.
 > + Pārskatiet darba izpildes kvalitāti un ieviesiet darbinieku mērķus.
 > + Iestatiet, nodrošiniet un analizējiet apmācību kursus, kuri ietver darba kārtības, sesijas un izsekošanu.
-> + Veiciet personāla atlasi un sekojiet līdzi kandidātiem.
 
-<a name="develop-a-human-resources-strategy"></a>Izstrādāt personāla vadības stratēģiju
+<a name="develop-a-strategy-for-managing-your-human-resources"></a>Izstrādājiet personāla vadības stratēģiju
 ---------------------------------------------------------
 
-Strādājot ar personāla vadību, jums ir jāizlemj, kā strukturēt savu organizāciju, izmantojot tādus elementus kā nodaļas, darbi un amati. Tie ir vieni no galvenajiem pamatelementiem, kas jums personāla vadībā ir jākonfigurē. Atsevišķi darbinieki tiek piešķirti amatiem, kuri ir saistīti ar darbiem.
+Strādājot ar Talent, jums ir jāizlemj, kā strukturēt savu organizāciju, izmantojot tādus elementus kā nodaļas, darbi un amati. Tie ir vieni no galvenajiem pamatelementiem, kas jums ir jākonfigurē. Atsevišķi darbinieki tiek piešķirti amatiem, kuri ir saistīti ar darbiem.
 
 -   [Organizēt darbaspēku, izmantojot nodaļas, darbus un amatus](departments-jobs-positions.md)
 -   [Iestatīt uzņēmumam raksturīgus HR parametrus](set-up-company-specific-hr-parameters.md)
 -   [Iestatīt HR parametrus dažādām juridiskajām personām](set-up-hr-parameters-across-legal-entities.md) 
 
-## <a name="recruit-hire-and-motivate-employees"></a>Veikt personāla atlasi, pieņemt darbā un motivēt darbiniekus
+## <a name="retain-and-motivate-employees"></a>Darbinieku saglabāšana un motivēšana
 
-Personāla atlases projekti pārvalda saturu, kas tiek izmantots vakanto amatu sludinājumos, un tas jums var palīdzēt pārvaldīt pieteikumus uz vakancēm. Tos varat izmantot, lai sekotu līdzi atbildēm uz darba sludinājumiem noteiktiem personāla atlases projektiem vai konkrētiem kandidātiem, un atjauninātu vakanto amatu statusu. Varat arī nolīgt atsevišķus kandidātus vai pārvaldīt “projektus ar masveida pieņemšanu darbā”, kas atvieglo vairāku darbinieku pieņemšanu darbā, piemēram, lai nodrošinātu sezonālas vajadzības.
-
--   [Pārvaldīt personāla atlases procesu](manage-recruiting-process.md)
--   [Masveida darbā pieņemšanas projekti](mass-hire-projects.md) 
-
-Pēc personāla pieņemšanas darbā varat iestatīt plānus, lai efektīvi un taisnīgi pārvaldītu atlīdzības, kā arī pārvaldītu krājumus, piemēram, datorus un tālruņus, kurus jūsu organizācija aizdod saviem darbiniekiem. Varat izveidot fiksētās un mainīgās atlīdzības plānus, kā arī definēt kārtulas, kas attiecas uz atlīdzības plānu, lai atbilstu šī plāna kritērijiem.
+Varat iestatīt plānus, lai efektīvi un taisnīgi pārvaldītu atlīdzības, kā arī pārvaldītu krājumus, piemēram, datorus un tālruņus, kurus jūsu organizācija aizdod saviem darbiniekiem. Varat izveidot fiksētās un mainīgās atlīdzības plānus, kā arī definēt kārtulas, kas attiecas uz atlīdzības plānu, lai atbilstu šī plāna kritērijiem.
 
 -   [Atlīdzības plāni](compensation-plans.md)
 -   [Izveidot fiksētās atlīdzības plānus](create-fixed-compensation-plans.md)
@@ -84,10 +80,10 @@ Papildus darbinieku atlīdzināšanai, izmantojot samaksas par darbu, algas un p
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Uzturēt darbavietas drošību un atbilstību
 
-Sistēma Microsoft Dynamics AX jums var palīdzēt uzturēt drošu darba vidi, kas atbilst piemērojamajiem tiesību aktiem, tostarp likumam Amerikāņi ar īpašām vajadzībām un tiesību aktiem par imigrāciju un naturalizāciju. Piemēram, noteiktiem darbiem varat pārvaldīt fiziskās prasības, kā arī sekot līdzi pieprasījumiem par izmitināšanu, kas jūsu organizācijai var palīdzēt optimizēt tās darbaspēka prasmes.
+Risinājums Talent jums var palīdzēt uzturēt drošu darba vidi, kas atbilst piemērojamajiem tiesību aktiem, tostarp likumam Amerikāņi ar īpašām vajadzībām un tiesību aktiem par imigrāciju un naturalizāciju. Piemēram, noteiktiem darbiem varat pārvaldīt fiziskās prasības, kā arī sekot līdzi pieprasījumiem par izmitināšanu, kas jūsu organizācijai var palīdzēt optimizēt tās darbaspēka prasmes.
 
--   [Formas I-9 nodarbinātības pārbaude](localizations/noam-usa-form-i-9-verification.md)
--   [Ievērot likumu Amerikāņi ar īpašām vajadzībām](localizations/noam-usa-comply-ada.md)
+-   [Formas I-9 nodarbinātības pārbaude](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-form-i-9-verification)
+-   [Ievērot likumu Amerikāņi ar īpašām vajadzībām](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-comply-ada)
 
 ## <a name="gather-information-using-questionnaires"></a>Vākt informāciju, izmantojot anketas
 
@@ -97,7 +93,4 @@ Varat izstrādāt un administrēt anketas, lai vāktu dažādiem nolūkiem izman
 -   [Projektēt anketu](design-questionnaires.md)
 -   [Izplatīt un aizpildīt anketu](distribute-questionnaires.md)
 -   [Skatīt un novērtēt anketas rezultātus](evaluate-questionnaire-results.md)
-
-
-
 
