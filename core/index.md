@@ -1,9 +1,9 @@
 ---
-title: "Iepazīstināšana ar Dynamics 365 for Operations"
-description: "Microsoft Dynamics 365 for Operations ir korporācijas Microsoft biznesa programma uzņēmumiem. Šī lapa jums palīdz apgūt šo produktu un sākt to lietot."
+title: "Iepazīstināšana ar Dynamics 365 for Finance and Operations"
+description: "Microsoft Dynamics 365 for Finance and Operations ir korporācijas Microsoft biznesa programma uzņēmumiem. Šī lapa jums palīdz apgūt šo produktu un sākt to lietot."
 author: margoc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,77 +17,107 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 86f8625019c25257d8d07701b17707c8ca48c9df
+ms.sourcegitcommit: c8684bf17946edff8230f0b6d324d355e61dc89b
+ms.openlocfilehash: 8703b3bc5642e6dbe9dd399ced5af6da25f9b226
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/21/2017
 
 
 ---
-# <a name="introduction-to-dynamics-365-for-operations"></a>Iepazīstināšana ar Dynamics 365 for Operations
+# <a name="introduction-to-dynamics-365-finance-and-operations"></a>Iepazīstināšana ar Dynamics 365 Finance and Operations
 
 [!include[banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Operations ir korporācijas Microsoft biznesa programma uzņēmumiem. Tā cilvēkiem sniedz iespējas ātri pieņemt gudrākus lēmumus, izmantojot viedu lietotāja interfeisu, kurš nodrošina piekļuvi reāllaika ieskatiem un datiem. Uzņēmumiem tā ļauj transformēties un ieviest jauninājumus, dāvājot pierādītu biznesa loģiku, kas uzņēmumiem sniedz iespējas pārveidot savus biznesa procesus un padarīt tos ātrākus. Šādi uzņēmumi var elastīgi augt sev vispiemērotākajā solī un nodarboties ar komercdarbību gandrīz jebkurā vietā un jebkurā laikā, kas uzņēmumiem visā pasaulē ļauj mērogot savas operācijas, lai apmierinātu biznesa vajadzības. 
+Microsoft Dynamics 365 for Finance and Operations ir korporācijas Microsoft biznesa programma uzņēmumiem. Tā cilvēkiem sniedz iespējas ātri pieņemt gudrākus lēmumus, izmantojot viedu lietotāja interfeisu, kurš nodrošina piekļuvi reāllaika ieskatiem un datiem. Uzņēmumiem tā ļauj transformēties un ieviest jauninājumus, dāvājot pierādītu biznesa loģiku, kas uzņēmumiem sniedz iespējas pārveidot savus biznesa procesus un padarīt tos ātrākus. Šādi uzņēmumi var elastīgi augt sev vispiemērotākajā veidā un nodarboties ar komercdarbību gandrīz jebkurā vietā un jebkurā laikā, kas uzņēmumiem visā pasaulē ļauj mērogot savas operācijas, lai apmierinātu biznesa vajadzības. 
 
-Šī lietotāja rokasgrāmata jums var palīdzēt uzzināt, kā programmu Dynamics 365 for Operations izmantot sava uzņēmuma labā.    
+Šī dokumentācija jums var palīdzēt uzzināt, kā risinājumu Dynamics 365 for Finance and Operations izmantot sava uzņēmuma labā. Tā ir savienota ar saistīto produktu dokumentāciju komplektā Unified Operations, risinājumā Dynamics 365 for Retail un Dynamics 365 for Talent. 
 
 <table>
 <colgroup>
-<col width="50%" />
-<col width="50%" />
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="get-started/onboarding-home.md">Savas organizācijas pievienošana</a></p>
-<p>Finanšu dati</p>
-<ul><li><a href="financials/accounts-payable/accounts-payable.md">Parādi kreditoriem</a></li>
-<li><a href="financials/accounts-receivable/accounts-receivable.md">Debitoru parādi</a></li>
-<li><a href="financials/budgeting/budgeting-overview.md">Budžeta veidošana</a></li>
-<li><a href="financials/cash-bank-management/cash-bank-management.md">Kases un bankas vadība</a></li>
-<li><a href="financials/cost-accounting/cost-accounting-home-page.md">Izmaksu uzskaite</a></li>
-<li><a href="financials/fixed-assets/fixed-assets.md">Pamatlīdzekļi</a></li>
-<li><a href="financials/general-ledger/general-ledger.md">Virsgrāmata</a></li>
-<li><a href="financials/project-management/overview-project-management-accounting.md">Projekta pārvaldība</a></li>
-<li><a href="financials/public-sector/public-sector-functionality.md">Publiskais sektors</a></li></ul>
-<p><a href="dev-itpro/lcs-solutions/country-region.md">Reģionālie līdzekļi</a></p>
-<p>Personāla vadība</p>
-   <ul>
-  <li><a href="human-resources/departments-jobs-positions.md">HR stratēģija</a></li>
-  <li><a href="human-resources/manage-recruiting-process.md">Veikt personāla atlasi, pieņemt darbā un motivēt</a></li>
-  <li><a href="human-resources/performance-management-overview.md">Darbinieku apmācība</a></li>
-  <li><a href="human-resources/manage-benefit-program.md">Atvieglojumi</a></li>
-  <li><a href="human-resources/questionnaires.md">Anketa</a></li>
-  <li><a href="human-resources/localizations/noam-usa-payroll.md">ASV līdzekļi</a></li>
-</ul></td>
-  <td>
-  <p>Mazumtirdzniecība</p>
+<td><h3>Finanšu dati</h3>
+<p>Atbilstība</p>
+<p>Finanšu pārvaldība</p>
+<ul><li><a href="../financials/accounts-payable/accounts-payable">Parādi kreditoriem</a></li>
+<li><a href="../financials/accounts-receivable/accounts-receivable">Debitoru parādi</a></li>
+<li><a href="../financials/budgeting/budgeting-overview">Budžeta veidošana</a></li>
+<li><a href="../financials/cash-bank-management/cash-bank-management">Kases un bankas vadība</a></li>
+<li><a href="../financials/cost-accounting/cost-accounting-home-page">Izmaksu uzskaite</a></li>
+<li><a href="../financials/fixed-assets/fixed-assets">Pamatlīdzekļi</a></li>
+<li><a href="../financials/general-ledger/general-ledger">Virsgrāmata</a></li>
+
+<li><a href="../financials/public-sector/public-sector-functionality">Publiskais sektors</a></li>
+<li><a href="../dev-itpro/lcs-solutions/country-region">Reģionālie regulēšanas līdzekļi</a></li></ul>
+<p><a href="../financials/project-management/overview-project-management-accounting">Projektu pārvaldība</a></p>
+<H3>Personāla vadība</h3>
   <ul>
-<li><a href="retail/call-center-functionality.md">Zvanu centrs</a></li>
-  <li><a href="retail/define-maintain-retail-channels.md">Kanāla iestatīšana un pārvaldība</a></li>
-  <li><a href="retail/define-maintain-channel-clients-registers-hw-stations.md">MPOS un mākoņa POS</a></li>
-  <li><a href="retail/dev-itpro/dev-retail-home-page.md">Mazumtirdzniecības izstrādātājs un administrācija </a></li></ul>
-  <p>Piegādes ķēdes pārvaldība</p>
+<li><a href="hr/manage-recruiting-process">Personāla atlase</a></li>
+<li><a href="hr/localizations/noam-usa-payroll">ASV alga</a></li>
+</ul>
+<h3>Piegādes ķēdes pārvaldība</h3>
+<p><a href="../supply-chain/cost-management/costing-sheets">Izmaksu pārvaldība</a></p>
+<p><a href="../supply-chain/inventory/inventory-locations">Krājumu pārvaldība</a></p>
+<p>Loģistika</p>
+<ul><li><a href="../supply-chain/transportation/transportation-management-overview">Transportēšanas pārvaldība</a></li>
+<li><a href="../supply-chain/warehousing/warehouse-configuration">Noliktavas pārvaldība</a></li></ul></li>
+<p><a href="../supply-chain/master-planning/master-plans">Plānošana</a></p>
+  <p><a href="../supply-chain/pim/set-up-maintain-product-configuration-model">Preču informācijas pārvaldība</a></p>
+  <p><a href="../supply-chain/production-control/create-production-orders">Ražošanas kontrole</a></p>
+<p>Pasūtījumu pārvaldība</p>
+  <ul><li><a href="../supply-chain/procurement/procurement-sourcing-overview">Sagāde un avoti</a></li>
+  <li><a href="../supply-chain/sales-marketing/overview-sales-marketing">Pārdošana un mārketings</a></li></ul>
+</td>
+<td>
+<h3>Platforma Unified Operations</h3>
+<p>Informācija</p>
+<ul><li><a href="../dev-itpro/analytics/analytics">Analīze</a></li>
+ <li><a href="../dev-itpro/analytics/document-reporting-services">Biznesa dokumenti</a></li>
+<li><a href="../dev-itpro/analytics/financial-reporting-intro">Finanšu pārskati</a></li>
+<li><a href="../dev-itpro/analytics/general-electronic-reporting">Regulēšanas pārskatu veidošana</a></li></ul>
+
+<p><a href="../dev-itpro/mobile-apps/mobile-platform">Mobilā platforma</a></p>
+
+ <p>Izstrādātāju funkcionalitāte</p>
 <ul>
-<li><a href="supply-chain/cost-management/costing-sheets.md">Izmaksu pārvaldība</a></li>
-  <li><a href="supply-chain/inventory/inventory-locations.md">Krājumu pārvaldība</a></li>
-  <li><a href="supply-chain/master-planning/master-plans.md">Vispārējā plānošana</a></li>
-  <li><a href="supply-chain/procurement/procurement-sourcing-overview.md">Sagāde un avoti</a></li>
-  <li><a href="supply-chain/pim/set-up-maintain-product-configuration-model.md">Preču informācijas pārvaldība</a></li>
-  <li><a href="supply-chain/production-control/create-production-orders">Ražošanas kontrole</a></li>
-  <li><a href="supply-chain/sales-marketing/overview-sales-marketing.md">Pārdošana un mārketings</a></li>
-  <li><a href="supply-chain/transportation/transportation-management-overview.md">Transportēšanas pārvaldība</a></li>
-  <li><a href="supply-chain/warehousing/warehouse-configuration.md">Noliktavas pārvaldība</a></li></ul>
-  <p>Izstrādātāja un administratora funkcionalitāte</p>
-  <ul><li><a href="dev-itpro/analytics/analytics.md">Analīze</a></li>
-  <li><a href="dev-itpro/data-entities/data-entities.md">Datu elementi</a></li>
-  <li><a href="dev-itpro/mobile-apps/mobile-platform.md">Mobilās programmas</a></li>
-  <li><a href="dev-itpro/office-integration/office-integration.md">Office integrācija</a></li>
-  <li><a href="dev-itpro/sysadmin/system-administration-home-page.md">Administrācija</a></li>
-  <li><a href="dev-itpro/dev-tools/developer-home-page.md">Izstrādātāju rīki</a></li></ul></td>
+<li><a href="../dev-itpro/continuous-delivery-home-page">Pastāvīga piegāde</a></li>
+<li><a href="../dev-itpro/get-started/demo-data">Demonstrācijas dati</a></li>
+<li><a href="../dev-itpro/dev-tools/developer-home-page">Izstrādātāju rīki</a></li>
+<li><a href="../dev-itpro/extensibility/customize-model-elements-extensions">Paplašināmība</a></li>
+<li><p>Integrācija</p>
+<ul><li><a href="../dev-itpro/data-entities/data-entities">Datu elementi</a></li>
+<li><a href="../dev-itpro/office-integration/office-integration">Office integrācija</a></li></ul></li></ul>
+
+<p>Administratoru funkcionalitāte<p>
+<ul>
+<li><a href="../get-started/onboarding-home">Savas organizācijas pievienošana</a></li>
+<li><a href="../dev-itpro/deploy-demo-environment">Izvietošana un apkalpošana</a></li>
+<li><a href="../dev-itpro/migration-upgrade/upgrade-home-page">Jaunināšana</a></li>
+<li><a href="../dev-itpro/data-entities/data-management-integration-data-entity">Datu pārvaldība</a></li>
+<li><a href="../dev-itpro/lifecycle-services/lcs">Lifecycle Services</a></li>
+<li><a href="../fin-and-ops/organization-administration/organization-administration-home-page">Organizācijas administrēšana</a></li>
+<li><a href="../dev-itpro/sysadmin/system-administration-home-page">Sistēmas administrēšana</a></li>
+<ul>
+</td>
+<td>
+<h3>Dynamics 365 for Talent</h3>
+<p><a href="../talent/manage-benefit-program">Atvieglojumi</a></p>
+<p><a href="../talent/performance-management-overview">Darbinieku izaugsme un apmācība</a></p>
+<p><a href="../talent/questionnaires">Anketa</a></p>
+
+<h3>Dynamics 365 for Retail</h3>
+<p><a href="../retail/call-center-functionality">Zvanu centrs</p>
+<p><a href="../retail/define-maintain-retail-channels">Kanāla iestatīšana un pārvaldība</p>
+<p><a href="../retail/retail-peripherals-overview">MPOS un Cloud POS</p>
+<p><a href="../retail/dev-itpro/dev-retail-home-page">Mazumtirdzniecības izstrādātājs un administrācija</p>
+
+</td>
 </tr>
+
 </tbody>
 </table>
-
-
 

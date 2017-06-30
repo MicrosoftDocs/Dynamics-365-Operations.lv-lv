@@ -1,96 +1,99 @@
 ---
-title: "Mazumtirdzniecības sākumlapa"
-description: "Sākumlapa risinājumam Dynamics 365 for Operations – Retail"
+title: "Microsoft Dynamics 365 for Retail"
+description: "Sākumlapa risinājumam Dynamics 365 for Retail"
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations, Retail
 ms.custom: 
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
-ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
+ms.search.validFrom: 2017-6-19
+ms.dyn365.ops.version: Version 1611, Retail Version
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a1004022b1b9dfc43bd2ef5b9f59c759397a3af1
+ms.sourcegitcommit: c8684bf17946edff8230f0b6d324d355e61dc89b
+ms.openlocfilehash: 6684e1f3703df8eb821b442c98d187ffcf931796
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/21/2017
 
 
 ---
 
-# <a name="retail-home-page"></a>Mazumtirdzniecības sākumlapa
+# <a name="welcome-to-dynamics-365-for-retail"></a>Esiet sveicināti risinājumā Dynamics 365 for Retail
 
 [!include[banner](includes/banner.md)]
 
-Dynamics 365 for Operations – Retail sniedz pilnīgu iepirkšanās funkcionalitāti ar apvienotu un diferencējošu visu kanālu risinājumu, kurš ir moderns, mobils un globāls. Visaptverošas iespējas — no moderna pārdošanas punkta (point of sale — POS) programmatūras risinājumiem, veikala operācijām, preču pārvaldības, e-komercijas, zvanu centra, mārketinga un klientu apkalpošanas līdz piegādes ķēdei, finanšu datiem un daudz kam citam — var izvietot jūsu uzņēmumam vispiemērotākajā veidā.
+Microsoft Dynamics 365 for Retail ir vispārīgs mazumtirdzniecības risinājums, kas nodrošina unificētu komerciju visos kanālos. Tas aptver pārdošanu, mobilitāti, informāciju un produktivitāti, lai palīdzētu mazumtirgotājiem sasniegt vairāk, izmantojot mākoņpakalpojumus un mobilās iespējas. Retail nodrošina vispusīgu atbalstu, veicot dažādus biznesa procesus, piemēram, tirgū virzīšanas vai krājumu un kanālu pārvaldības iespējas. Turklāt tas nodrošina visaptverošu klientu pieredzi visās saskares vietās.
 
-Šajā lapā ir norādīts uz resursiem, kas jums palīdzēs efektīvāk lietot risinājumu Microsoft Dynamics 365 for Operations - Retail. Rūtī, kas atrodas kreisajā malā, atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk. 
+Trīs tālāk minētie produkti ir cieši saistīti.
 
-## <a name="set-up-retail-channels"></a>Iestatīt mazumtirdzniecības kanālus
-Kad iestatāt savu mazumtirdzniecības funkcionalitāti, jūs izlemjat, kā definēt un konfigurēt savus veikalus — būvmateriālu veikals, tiešsaistes veikals un zvanu centrs. 
+- Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevums
+- Microsoft Dynamics 365 for Retail
+- Microsoft Dynamics 365 for Talent
 
-Katrā mazumtirdzniecības veikalā var būt savas maksāšanas un piegādes metodes, cenu grupas, ienākumu/izdevumu konti, reģistri un personāls. Pēc mazumtirdzniecības veikala izveides ir jāizveido preču sortiments, kas tiks pārdots veikalā. Varat definēt arī veikalā pieejamo preču veikala cenas un atlaides.
+Šī funkcionalitāte var būt pieejama visos trīs produktos. Tādēļ tēmās, kas galvenokārt ir saistītas ar Retail, produkta nosaukums būs Microsoft Dynamics 365 for Retail. Tēmās, kas galvenokārt ir saistītas ar Talent, produkta nosaukums būs Microsoft Dynamics 365 for Talent. Savukārt tēmās, kas ir saistītas ar pamatproduktu (Finance and Operations), produkta nosaukums būs Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevums. Tēmas, kas sarakstītas vienam produktam, var attiekties uz to pašu funkcionalitāti saistītā produktā.
 
--   [Definēt mazumtirdzniecības kanālus](define-maintain-retail-channels.md)
--   [Tiešsaistes veikala apskats](online-stores.md)
+Kreisajā rūtī atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
 
-## <a name="set-up-a-call-center"></a>Iestatīt zvanu centru
-Zvanu centru varat iestatīt kā mazumtirdzniecības kanāla tipu. Zvanu centrā darbinieki pa tālruni no klientiem saņem pasūtījumus un izveido pārdošanas pasūtījumus. Lai saviem darbiniekiem palīdzētu pieņemt pasūtījumus un sniegt klientu apkalpošanu visā pasūtījuma izpildes procesa gaitā, varat iestatīt, kas pārdošanas pasūtījumam ir jāietver, kā tiek kontrolēta cenu noteikšana un kādiem datiem par klientiem, precēm un cenu noteikšanu ir iespējams piekļūt. Katram zvanu centram varat iestatīt arī lietotājus, maksāšanas metodes, cenu grupas, finanšu dimensijas un piegādes veidus.
+## <a name="channel-management"></a>Kanāla pārvaldība
+Veidojot savu Retail pieredzi, jūs izlemjat, kā definēt un konfigurēt jūsu veikalus. Tie var būt fiziski veikali, tiešsaistes veikali vai zvanu centri.
 
--   [Zvanu centra funkcionalitāte](call-center-functionality.md)
--   [Izveidot zvanu centra katalogus](create-call-center-catalogs.md)
+Katrā mazumtirdzniecības veikalā var būt savas maksāšanas un piegādes metodes, cenu grupas, ienākumu un izdevumu konti, reģistri un personāls. Pēc mazumtirdzniecības veikala izveides ir jāizveido preču sortiments, kas tiks pārdots veikalā. Varat definēt arī veikalā pieejamo preču veikala cenas un atlaides.
 
-## <a name="define-your-pos-solutions"></a>POS risinājumu definēšana
-Retail Modern POS (MPOS) ir pārdošanas punkta programma personālajiem datoriem, planšetdatoriem un tālruņiem. Pārdošanas personāls var apstrādāt pārdošanas transakcijas un klientu pasūtījumus, kā arī īstenot attiecību ar klientiem veidošanas pasākumus un veikt ikdienas operācijas un krājumu pārvaldību, izmantojot mobilās ierīces jebkurā veikalā, kā arī datorā pieejamos reģistros. Cloud POS ir programmas POS mākoņa versija, kam var piekļūt no jebkuras standarta pārlūkprogrammas. 
+## <a name="clienteling-and-loyalty"></a>Attiecības ar klientiem un lojalitāte
+Klientiem ir nepieciešamas nepārtrauktas pārmaiņas. Jums jāspēj ātri un efektīvi pielāgoties pirkšanas ieradumu un tendenču izmaiņām, lai jūs varētu uzrunāt un piesaistīt jaunus klientus un vienlaikus uzturēt esošo klientu apmierinātību.
 
-Lai definētu attiecības starp veikalu, veikalā esošajiem POS reģistriem un mazumtirdzniecības perifērajām ierīcēm, ko šie reģistri izmanto transakciju apstrādē, ir jāiestata vairāki komponenti. Ir jādefinē arī konkrētas POS instances īpašības, tostarp aparatūras profils vai uzstādīšana mazumtirdzniecības perifērajām ierīcēm, kas tiks izmantotas reģistrā, veikals, uz kuru šis reģistrs ir kartēts, vizuālā pieredze lietotājam, kurš piesakās šajā reģistrā, un reģistrā iespējotās funkcionalitātes. Definējiet arī to, vai reģistrs var darboties atvienots vai bezsaistes režīmā.
+Turklāt klientiem ir daudz iespēju iegūt vēlamās preces sev izdevīgā laikā un par sev piemērotu cenu. Lai nodrošinātu klientu lojalitāti, varat izmantot personalizētus paziņojumus un piedāvājumus, kas atvieglo iepirkšanos.
 
--   [Definēt un uzturēt kanālu klientus, reģistrus un aparatūras stacijas](define-maintain-channel-clients-registers-hw-stations.md)
--   [Konfigurēt un instalēt MPOS](retail-modern-pos-device-activation.md)
--   [Bezsaistes POS funkcionalitāte](pos-offline-functionality.md)
+## <a name="hardware-and-peripherals"></a>Aparatūra un perifērijas ierīces
+Produkti Retail Modern point of sale (MPOS) un Cloud POS var darboties kopā ar plašu aparatūras perifērijas klāstu. Gan MPOS, gan Cloud POS nodrošina vairākus interfeisus un izstrādes opcijas, lai palīdzētu nodrošināt risinājumus ikvienam biznesa scenārijam.
 
-## <a name="set-up-a-customer-loyalty-program"></a>Iestatīt klientu lojalitātes programmu
-Varat iestatīt lojalitātes programmu, lai klienti pelnītu punktus, pamatojoties uz noteiktiem kritērijiem, un šos punktus var aprēķināt dažādos veidos. Jūsu lojalitātes programma var būt vienkārša vai kompleksa, un to varat lietot visās savās juridiskajās personās jebkurā mazumtirdzniecības kanālā.
--   [Iestatīt klientu lojalitātes programmu](set-up-customer-loyalty-program.md)
+Retail perifērijas simulators ietver virtuālu perifērijas simulatoru un POS simulatoru. Virtuālais perifērijas simulators galvenokārt atbalsta tādu scenāriju testēšanu, kuros parasti nepieciešamas fiziskas POS perifērijas ierīces. Izmantojot POS simulatoru, varat testēt fizisko perifērijas ierīču saderību par Retail bez nepieciešamības izvietot POS klientu.
 
-## <a name="set-up-discounts-and-price-adjustments"></a>Iestatīt atlaides un cenu korekcijas
-Varat veikt preču cenu korekcijas, un varat arī iestatīt atlaides, kas rindas krājumam vai transakcijai tiek lietotas pārdošanas punktā (POS), zvanu centra pārdošanas pasūtījumā vai tiešsaistes pasūtījumā. 
--   [Cenu korekcijas un atlaides](price-adjustments-discounts.md)
--   [Definēt kanālam raksturīgās atlaides](define-channel-specific-discounts.md)
--   [Noteikt optimālo kombināciju atlaidēm, kas pārklājas](optimal-combination-overlapping-discounts.md)
+## <a name="intelligence"></a>Informācija
+Padziļināta analīze nodrošina algoritmiskās mācīšanās iespējas mazumtirdzniecības problēmu risināšanai un sniedz prognozējošus, optimizētus un personalizētus ieskatus, kas palīdz veicināt izaugsmi un peļņu. Risinājumā Retail jūs varat nosūtīt vizuālus pārskatus uz jebkuru ierīci gan tiešsaistē, gan bezsaistē. Turklāt varat palīdzēt klientiem pirms iegādes identificēt preces un pakalpojumus, kas atbilst viņu vajadzībām.
 
-## <a name="set-up-retail-products"></a>Iestatīt mazumtirdzniecības preces
-Lai preces varētu piedāvāt pārdošanai savos mazumtirdzniecības kanālos, šīs preces ir jāizveido un jākonfigurē programmā Dynamics 365 for Operations. Varat izveidot preces, definēt preču rekvizītus un atribūtus, un piešķirt šīs preces mazumtirdzniecības kategoriju hierarhijām. Lai preces padarītu pieejamas saviem mazumtirdzniecības kanāliem un tās pievienotu aktīvam preču klāstam, šīs preces ir jāizlaiž juridiskajām personām, kurās tās ir pieejamas.
--   [Iestatīt mazumtirdzniecības preces](set-up-retail-products.md)
+## <a name="monitoring-and-diagnosis"></a>Uzraudzība un diagnostika
+Izmantojot Retail, varat veikt pārdošanas un uzcenojuma veiktspējas pārraudzību reāllaikā dažādos organizācijas hierarhijas līmeņos.
 
-## <a name="monitor-and-analyze-performance"></a>Pārraudzīt un analizēt veiktspēju
-Izmantojot savus Dynamics 365 for Operations datus, varat analizēt veikala sniegumu, debitoru un preču rentabilitāti, pārdošanas tendences un daudz ko citu.
--   [Novērtēt debitoru un preču ienesīgumu](assess-customer-product-profitability.md)
--   [Analizēt veikala veiktspēju](store-performance-information.md)
+## <a name="merchandising"></a>Virzīšana tirgū
+Lai preces varētu piedāvāt pārdošanai savos mazumtirdzniecības kanālos, šīs preces ir jāizveido un jākonfigurē risinājumā Retail. Varat izveidot preces, definēt preču rekvizītus un atribūtus, un piešķirt šīs preces mazumtirdzniecības kategoriju hierarhijām. Lai preces padarītu pieejamas saviem mazumtirdzniecības kanāliem un tās pievienotu aktīvam preču klāstam, šīs preces ir jāizlaiž juridiskajām personām, kurās tās ir pieejamas.
+
+Varat veikt preču cenu korekcijas, un varat arī iestatīt atlaides, kas rindas krājumam vai transakcijai tiek lietotas pārdošanas punktā (POS), zvanu centra pārdošanas pasūtījumā vai tiešsaistes pasūtījumā.
+
+## <a name="store-operations-and-pos"></a>Veikalu operācijas un POS
+MPOS ir POS programma, kas paredzēta datoriem, planšetdatoriem un tālruņiem. Pārdošanas personāls var apstrādāt pārdošanas transakcijas un klientu pasūtījumus, kā arī īstenot attiecību ar klientiem veidošanas pasākumus un veikt ikdienas operācijas un krājumu pārvaldību, izmantojot mobilās ierīces jebkurā veikalā, kā arī datorā pieejamos reģistros. Cloud POS ir programmas POS mākoņa versija, ko var palaist no jebkuras standarta pārlūkprogrammas.
+
+Lai definētu attiecības starp veikalu, veikalā esošajiem POS reģistriem un mazumtirdzniecības perifērijas ierīcēm, ko šie reģistri izmanto transakciju apstrādē, ir jāiestata vairāki komponenti. Turklāt jādefinē konkrētas POS instances raksturlielumi. Šīs īpašības ietver aparatūras profilu vai uzstādīšanu mazumtirdzniecības perifērijas ierīcēm, kas tiks izmantotas reģistrā, veikalu, uz kuru šis reģistrs ir kartēts, vizuālo pieredzi lietotājam, kurš reģistrējas šajā reģistrā, un reģistrā iespējotās funkcionalitātes. Jādefinē arī tas, vai reģistrs var darboties atvienots vai bezsaistes režīmā.
+
+## <a name="workforce-management"></a>Darbaspēka pārvaldība
+Lai nodrošinātu peļņu vidē, kurā samazinās pārdošanas cenas, mazumtirgotāji nepārtraukti cenšas samazināt darbības izmaksas. Lielākajai daļai mazumtirgotāju ievērojamu daļu darbības izmaksu veido mazumtirdzniecības personāla izmaksas. Tādējādi, kontrolējot šīs izmaksas, mazumtirgotāji var būtiski ietekmēt kopējās izmaksas. Turklāt apmierināts un produktīvs darbaspēks palīdz uzlabot klientu pieredzi.
+
+Izmantojot Retail, veikalu vadītāji var izveidot un publicēt darbinieku maiņas un grafikus veikalos, pievienot maiņām anotācijas, izmantojot instrukcijas, un kopēt grafikus no iepriekšējās nedēļas šajā nedēļā. Turklāt vadītāji redz mazumtirdzniecības darbinieku iesniegtos prombūtnes pieprasījumus un var apstiprināt vai noraidīt šos pieprasījumus. Vadītāji redz arī maiņu samainīšanas un maiņu piedāvājumu pieprasījumus un var apstiprināt vai noraidīt šos pieprasījumus.
+
+Veikala asistenti redz maiņas un piešķirtos grafikus, kā arī maiņu instrukcijas un to, kuri kolēģi ir piešķirti maiņām. Turklāt viņi var iesniegt prombūtnes pieprasījumus, maiņu samainīšanas pieprasījumus ar kolēģiem un maiņu piedāvājumu pieprasījumus.
 
 ## <a name="customize-and-administer-retail-environments"></a>Pielāgot un administrēt mazumtirdzniecības vides
-Ja jums tiek lūgts pielāgot savu vidi vai ja jums tiek uzdots izvietot un uzturēt savu sistēmu, apskatiet programmai Mazumtirdzniecība raksturīgo izstrādātāja un sistēmas administratora saturu, kā arī vispārīgo saturu par programmu Microsoft Dynamics 365 for Operations. 
--   [Dynamics 365 for Operations - Retail IT speciālistiem un izstrādātājiem](dev-itpro/dev-retail-home-page.md)
--   [Microsoft Dynamics 365 for Operations izstrādātājiem un IT speciālistiem](/dynamics365/operations/dev-itpro/dev-tools/developer-home-page)
+Ja jums tiek lūgts pielāgot savu vidi vai ja atbildat par savas sistēmas izvietošanu un uzturēšanu, papildus vispārīgajam saturam apskatiet programmai Retail raksturīgo izstrādātāja un sistēmas administratora saturu.
+
+- [Dynamics 365 for Retail IT speciālistiem un izstrādātājiem](dev-itpro/dev-retail-home-page.md)
+- [Microsoft Dynamics 365 for Retail izstrādātājiem un IT speciālistiem](/dynamics365/unified-operations/dev-itpro/dev-tools/developer-home-page)
 
 ## <a name="additional-resources"></a>Papildu resursi
 ### <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā
-Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek izstrādāti, dodieties uz <a href="https://roadmap.dynamics.com/">Dynamics 365 rīcības plāns</a>. 
+Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek izstrādāti, dodieties uz [Microsoft Dynamics 365 rīcības plānu](https://roadmap.dynamics.com/).
 
 ### <a name="blogs"></a>Emuāri
-Viedokļi, ziņas un cita informācija par Microsoft Dynamics 365 for Operations - Retail un citiem risinājumiem ir atrodama <a href="https://community.dynamics.com/b/msftdynamicsblog">Microsoft Dynamics 365 emuārā</a>.
+Viedokļi, ziņas un cita informācija par Retail un citiem risinājumiem ir atrodama [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog).
 
-<a href="https://blogs.msdn.microsoft.com/dax/">Microsoft Dynamics AX produktu darba grupas emuārā</a> ir daudzi raksti par risinājumu Mazumtirdzniecība. Daži no šiem rakstiem tika rakstīti iepriekšējai Dynamics 365 for Operations versijai, bet šīs pašas koncepcijas joprojām ir spēkā, un procedūras pašreizējā versijā ir līdzīgas.
+[Microsoft Dynamics AX produktu darba grupas emuārā](https://blogs.msdn.microsoft.com/dax/) ir daudzas ziņas par risinājumu Retail. Lai gan daži no šiem rakstiem tika rakstīti iepriekšējai Retail versijai, šīs pašas koncepcijas joprojām ir spēkā, un procedūras pašreizējā versijā ir līdzīgas.
 
-<a href="https://community.dynamics.com/partner/b/operationspartnercommunityblog">Microsoft Dynamics Operations partneru kopienas emuārā</a> Microsoft Dynamics partneriem tiek sniegts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā MBS Operations.
-
-
+[Microsoft Dynamics Operations partneru kopienas emuārā](https://community.dynamics.com/partner/b/operationspartnercommunityblog) Microsoft Dynamics partneriem tiek sniegts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā MBS Operations.
 
