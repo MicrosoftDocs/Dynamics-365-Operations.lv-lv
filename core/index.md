@@ -40,7 +40,7 @@ Microsoft Dynamics 365 for Finance and Operations ir korporācijas Microsoft 
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><h3>Finanšu dati</h3>
+<td><h3>Financials</h3>
 <p><a href="../financials/general-ledger/audit-policy-rules">Atbilstība</a></p>
 <p>Finanšu pārvaldība</p>
 <ul style="list-style-type:none">
