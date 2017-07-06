@@ -31,6 +31,7 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[Retail name](../includes/retail-name.md)]
 
 Izmantojiet lauku <strong>Krājuma kods </strong>, lai meklētu preces un preču variantus, manuāli izveidojot pārdošanas pasūtījuma vai pirkšanas pasūtījuma rindas.  Tas ļauj jums ātri atrast preces variantus, ja jums ir tikai konfigurācijas virkne, vai vienu no pieejamajām preces dimensijām.
 
