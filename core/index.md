@@ -17,10 +17,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: c8684bf17946edff8230f0b6d324d355e61dc89b
-ms.openlocfilehash: 8703b3bc5642e6dbe9dd399ced5af6da25f9b226
+ms.sourcegitcommit: bb0700ad317fa8faf5dc83ea523dd151f0f4a811
+ms.openlocfilehash: 713178e79000e4358104038295452db0ba025195
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/21/2017
+ms.lasthandoff: 06/28/2017
 
 
 ---
@@ -40,22 +40,22 @@ Microsoft Dynamics 365 for Finance and Operations ir korporācijas Microsoft 
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><h3>Finanšu dati</h3>
-<p>Atbilstība</p>
+<td><h3>Financials</h3>
+<p><a href="../financials/general-ledger/audit-policy-rules">Atbilstība</a></p>
 <p>Finanšu pārvaldība</p>
-<ul><li><a href="../financials/accounts-payable/accounts-payable">Parādi kreditoriem</a></li>
+<ul style="list-style-type:none">
+<li><a href="../financials/accounts-payable/accounts-payable">Parādi kreditoriem</a></li>
 <li><a href="../financials/accounts-receivable/accounts-receivable">Debitoru parādi</a></li>
 <li><a href="../financials/budgeting/budgeting-overview">Budžeta veidošana</a></li>
 <li><a href="../financials/cash-bank-management/cash-bank-management">Kases un bankas vadība</a></li>
 <li><a href="../financials/cost-accounting/cost-accounting-home-page">Izmaksu uzskaite</a></li>
 <li><a href="../financials/fixed-assets/fixed-assets">Pamatlīdzekļi</a></li>
 <li><a href="../financials/general-ledger/general-ledger">Virsgrāmata</a></li>
-
 <li><a href="../financials/public-sector/public-sector-functionality">Publiskais sektors</a></li>
 <li><a href="../dev-itpro/lcs-solutions/country-region">Reģionālie regulēšanas līdzekļi</a></li></ul>
 <p><a href="../financials/project-management/overview-project-management-accounting">Projektu pārvaldība</a></p>
 <H3>Personāla vadība</h3>
-  <ul>
+  <ul style="list-style-type:none">
 <li><a href="hr/manage-recruiting-process">Personāla atlase</a></li>
 <li><a href="hr/localizations/noam-usa-payroll">ASV alga</a></li>
 </ul>
@@ -63,19 +63,19 @@ Microsoft Dynamics 365 for Finance and Operations ir korporācijas Microsoft 
 <p><a href="../supply-chain/cost-management/costing-sheets">Izmaksu pārvaldība</a></p>
 <p><a href="../supply-chain/inventory/inventory-locations">Krājumu pārvaldība</a></p>
 <p>Loģistika</p>
-<ul><li><a href="../supply-chain/transportation/transportation-management-overview">Transportēšanas pārvaldība</a></li>
-<li><a href="../supply-chain/warehousing/warehouse-configuration">Noliktavas pārvaldība</a></li></ul></li>
+<ul style="list-style-type:none"><li><a href="../supply-chain/transportation/transportation-management-overview">Transportēšanas pārvaldība</a></li>
+<li><a href="../supply-chain/warehousing/warehouse-configuration">Noliktavas pārvaldība</a></li></ul>
 <p><a href="../supply-chain/master-planning/master-plans">Plānošana</a></p>
   <p><a href="../supply-chain/pim/set-up-maintain-product-configuration-model">Preču informācijas pārvaldība</a></p>
   <p><a href="../supply-chain/production-control/create-production-orders">Ražošanas kontrole</a></p>
 <p>Pasūtījumu pārvaldība</p>
-  <ul><li><a href="../supply-chain/procurement/procurement-sourcing-overview">Sagāde un avoti</a></li>
+  <ul style="list-style-type:none"><li><a href="../supply-chain/procurement/procurement-sourcing-overview">Sagāde un avoti</a></li>
   <li><a href="../supply-chain/sales-marketing/overview-sales-marketing">Pārdošana un mārketings</a></li></ul>
 </td>
 <td>
 <h3>Platforma Unified Operations</h3>
 <p>Informācija</p>
-<ul><li><a href="../dev-itpro/analytics/analytics">Analīze</a></li>
+<ul style="list-style-type:none"><li><a href="../dev-itpro/analytics/analytics">Analīze</a></li>
  <li><a href="../dev-itpro/analytics/document-reporting-services">Biznesa dokumenti</a></li>
 <li><a href="../dev-itpro/analytics/financial-reporting-intro">Finanšu pārskati</a></li>
 <li><a href="../dev-itpro/analytics/general-electronic-reporting">Regulēšanas pārskatu veidošana</a></li></ul>
@@ -83,33 +83,34 @@ Microsoft Dynamics 365 for Finance and Operations ir korporācijas Microsoft 
 <p><a href="../dev-itpro/mobile-apps/mobile-platform">Mobilā platforma</a></p>
 
  <p>Izstrādātāju funkcionalitāte</p>
-<ul>
-<li><a href="../dev-itpro/continuous-delivery-home-page">Pastāvīga piegāde</a></li>
+<ul style="list-style-type:none">
+<li><a href="../dev-itpro/dev-tools/continuous-delivery-home-page">Pastāvīga piegāde</a></li>
 <li><a href="../dev-itpro/get-started/demo-data">Demonstrācijas dati</a></li>
 <li><a href="../dev-itpro/dev-tools/developer-home-page">Izstrādātāju rīki</a></li>
 <li><a href="../dev-itpro/extensibility/customize-model-elements-extensions">Paplašināmība</a></li>
 <li><p>Integrācija</p>
-<ul><li><a href="../dev-itpro/data-entities/data-entities">Datu elementi</a></li>
+<ul style="list-style-type:none"><li><a href="../dev-itpro/data-entities/data-entities">Datu elementi</a></li>
 <li><a href="../dev-itpro/office-integration/office-integration">Office integrācija</a></li></ul></li></ul>
 
 <p>Administratoru funkcionalitāte<p>
-<ul>
-<li><a href="../get-started/onboarding-home">Savas organizācijas pievienošana</a></li>
-<li><a href="../dev-itpro/deploy-demo-environment">Izvietošana un apkalpošana</a></li>
+<ul style="list-style-type:none">
+<li><a href="../fin-and-ops/get-started/onboarding-home">Savas organizācijas pievienošana</a></li>
+<li><a href="../dev-itpro/deployment/deploy-demo-environment">Izvietošana un apkalpošana</a></li>
 <li><a href="../dev-itpro/migration-upgrade/upgrade-home-page">Jaunināšana</a></li>
 <li><a href="../dev-itpro/data-entities/data-management-integration-data-entity">Datu pārvaldība</a></li>
 <li><a href="../dev-itpro/lifecycle-services/lcs">Lifecycle Services</a></li>
 <li><a href="../fin-and-ops/organization-administration/organization-administration-home-page">Organizācijas administrēšana</a></li>
 <li><a href="../dev-itpro/sysadmin/system-administration-home-page">Sistēmas administrēšana</a></li>
-<ul>
+</ul>
 </td>
 <td>
-<h3>Dynamics 365 for Talent</h3>
+<h3>Saistītās preces</h3>
+<h4>Dynamics 365 for Talent</h4>
 <p><a href="../talent/manage-benefit-program">Atvieglojumi</a></p>
 <p><a href="../talent/performance-management-overview">Darbinieku izaugsme un apmācība</a></p>
 <p><a href="../talent/questionnaires">Anketa</a></p>
 
-<h3>Dynamics 365 for Retail</h3>
+<h4>Dynamics 365 for Retail</h4>
 <p><a href="../retail/call-center-functionality">Zvanu centrs</p>
 <p><a href="../retail/define-maintain-retail-channels">Kanāla iestatīšana un pārvaldība</p>
 <p><a href="../retail/retail-peripherals-overview">MPOS un Cloud POS</p>

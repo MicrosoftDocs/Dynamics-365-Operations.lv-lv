@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -31,6 +31,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="weighted-average-date"></a>Vidējā svērtā uz datumu
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Svērtais vidējais uz datumu ir krājumu modelis, kura pamatā ir svērtā vidējā princips. Izmantojot svērtā vidējā principu, krājumu izejas plūsmas tiek novērtētas atbilstoši krājumu ieejas plūsmu vidējai vērtībai katrā atsevišķā dienā krājumu slēgšanas perioda laikā. Veicot krājumu slēgšanu, izmantojot svērto vidējo uz datumu, visas dienas ieejas plūsmas tiek segtas ar virtuālu izejas plūsmu. Šī virtuālā izejas plūsma satur kopējo ieejas plūsmas daudzumu un vērtību šajā dienā. Virtuālajai izejas plūsmai ir atbilstoša virtuālā ieejas plūsma, ar ko tiks segta izejas plūsma. Tāpēc visām izejas plūsmām ir vienādas vidējās izmaksas. Virtuālo izejas plūsmu un virtuālo ieejas plūsmu var uzskatīt par virtuālu pārsūtīšanu, ko sauc par *svērtā vidējā krājumu slēgšanas pārsūtīšanu*. 

@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6e2feeadd7cef8273d94810a13df6c5dfe6f1d4a
-ms.openlocfilehash: e0f41445c621a317fcdccef6cb08766dd6fac279
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 28b5c72a174c7d40fcf1e4c348834fc532b04fcc
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/21/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
@@ -32,18 +32,19 @@ ms.lasthandoff: 06/21/2017
 
 Risinājums Microsoft Dynamics 365 for Talent racionalizē daudzus ikdienas lietvedības uzdevumus un automatizē vairākus ar jūsu organizācijas personālu saistītus procesus. Šajos procesos ietilpst darbinieku ieturējumu un atvieglojumu administrēšana, apmācība, darba izpildes novērtējumi un izmaiņu pārvaldība. Personāla vadības darbiniekiem tā nodrošina arī struktūru uzraudzības jomu pārvaldīšanai.
 
-Risinājums Dynamics 365 for Talent ir cieši saistīta ar personāla vadību Dynamics 365 for Finance and Operations, Enterprise izdevumā. Šī funkcionalitāte var būt pieejama abos produktos. Tādējādi tēmās, kas galvenokārt ir saistītas ar personāla vadību, produkta nosaukums būs Dynamics 365 for Finance and Operations, Enterprise izdevums; tēmās, kas galvenokārt ir saistītas ar Talent, produkta nosaukums būs Dynamics 365 for Talent. Tēmas, kas sarakstītas vienam produktam, var attiekties uz to pašu funkcionalitāti saistītā produktā.
-
 Risinājumu Talent varat izmantot tālāk uzskaitīto uzdevumu izpildīšanai.
 
-> + Administrējiet organizācijas struktūras.
-> + Uzturiet visaptverošu informāciju par darbinieku no pieņemšanas darbā līdz aiziešanai pensijā.
-> + Definējiet un administrējiet atvieglojumu plānus, reģistrējiet darbiniekus, piešķiriet apgādājamo segumu un norādiet labumguvējus.
-> + Izveidojiet un pārraugiet kavējumu politiku.
-> + Ieviesiet un izsekojiet no profila atkarīgu laika pārvaldību, un ģenerējiet algu informāciju, ko eksportēt uz algu sistēmu.
-> + Pārvaldiet darbinieku kompetences.
-> + Pārskatiet darba izpildes kvalitāti un ieviesiet darbinieku mērķus.
-> + Iestatiet, nodrošiniet un analizējiet apmācību kursus, kuri ietver darba kārtības, sesijas un izsekošanu.
++ Administrējiet organizācijas struktūras.
++ Uzturiet visaptverošu informāciju par darbinieku no pieņemšanas darbā līdz aiziešanai pensijā.
++ Definējiet un administrējiet atvieglojumu plānus, reģistrējiet darbiniekus, piešķiriet apgādājamo segumu un norādiet labumguvējus.
++ Izveidojiet un pārraugiet kavējumu politiku.
++ Ieviesiet un izsekojiet no profila atkarīgu laika pārvaldību, un ģenerējiet algu informāciju, ko eksportēt uz algu sistēmu.
++ Pārvaldiet darbinieku kompetences.
++ Pārskatiet darba izpildes kvalitāti un ieviesiet darbinieku mērķus.
++ Iestatiet, nodrošiniet un analizējiet apmācību kursus, kuri ietver darba kārtības, sesijas un izsekošanu.
+
+> [!NOTE] 
+> Risinājums Dynamics 365 for Talent ir cieši saistīta ar personāla vadību Dynamics 365 for Finance and Operations, Enterprise izdevumā. Šī funkcionalitāte var būt pieejama abos produktos. Tādējādi tēmās, kas galvenokārt ir saistītas ar personāla vadību, produkta nosaukums būs Dynamics 365 for Finance and Operations, Enterprise izdevums; tēmās, kas galvenokārt ir saistītas ar Talent, produkta nosaukums būs Dynamics 365 for Talent. Tēmas, kas sarakstītas vienam produktam, var attiekties uz to pašu funkcionalitāti saistītā produktā.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>Izstrādājiet personāla vadības stratēģiju
 ---------------------------------------------------------
