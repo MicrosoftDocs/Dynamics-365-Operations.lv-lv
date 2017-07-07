@@ -1,9 +1,9 @@
 ---
 title: Lietot Excel pievienojumprogrammu
-description: "Šajā tēmā ir paskaidrots, kā elementa datus atvērt programmā Microsoft Excel un pēc tam šos datus apskatīt, atjaunināt un rediģēt, izmantojot Microsoft Dynamics Office pievienojumprogrammu programmai Excel. Lai atvērtu elementa datus, varat sākt no programmas Excel vai no sistēmas Microsoft Dynamics 365 for Operations."
+description: "Šajā tēmā ir paskaidrots, kā elementa datus atvērt programmā Microsoft Excel un pēc tam šos datus apskatīt, atjaunināt un rediģēt, izmantojot Microsoft Dynamics Office pievienojumprogrammu programmai Excel."
 author: ChrisGarty
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c391fb70d837db9c0f167b392291fc1c5cc2bb53
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: f55e1e89d0e48819962c169a56f0f27dc0d792b4
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -30,16 +30,16 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā tēmā ir paskaidrots, kā elementa datus atvērt programmā Microsoft Excel un pēc tam šos datus apskatīt, atjaunināt un rediģēt, izmantojot Microsoft Dynamics Office pievienojumprogrammu programmai Excel. Lai atvērtu elementa datus, varat sākt no programmas Excel vai no sistēmas Microsoft Dynamics 365 for Operations.
+Šajā tēmā ir paskaidrots, kā elementa datus atvērt programmā Microsoft Excel un pēc tam šos datus apskatīt, atjaunināt un rediģēt, izmantojot Microsoft Dynamics Office pievienojumprogrammu programmai Excel. Lai atvērtu elementa datus, varat sākt no programmas Excel vai Microsoft Dynamics 365 for Finance and Operations Enterprise izdevuma.
 
 Atverot elementa datus programmā Microsoft Excel, šos datus varat ātri un vienkārši apskatīt un rediģēt, izmantojot Microsoft Dynamics Office pievienojumprogrammu programmai Excel. Šai pievienojumprogrammai ir nepieciešama programma Microsoft Excel 2016. **Piezīme.** Ja jūsu Microsoft Azure Active Directory (Azure AD) nomnieks ir konfigurēts Active Directory federācijas pakalpojumu (AD FS) lietošanai, jums ir jānodrošina, ka ir lietots 2016. gada maija atjauninājums, lai Excel pievienojumprogramma jūs varētu pierakstīt pareizi.
 
-## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-operations"></a>Atvērt elementa datus programmā Excel, kas sākat no Dynamics 365 for Operations
-1.  Kādā sistēmas Microsoft Dynamics 365 for Operations lapā noklikšķiniet uz **Atvērt, izmantojot Microsoft Office**. Ja saknes datu avots (tabula) šai lapai ir tāda pati kā saknes datu avots jebkuriem elementiem, šai lapai tiek ģenerētas noklusējuma opcijas **Atvērt programmā Excel**. Opcijas **Atvērt programmā Excel** ir atrodamas bieži izmantotajās lapās, piemēram, **Visi kreditori** un **Visi debitori**.
+## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-finance-and-operations"></a>Elementa datu atvēršana programmā Excel, sākot no Dynamics 365 for Finance and Operations
+1.  Kādā programmatūras Microsoft Dynamics 365 for Finance and Operations lapā noklikšķiniet uz **Atvērt, izmantojot Microsoft Office**. Ja saknes datu avots (tabula) šai lapai ir tāda pati kā saknes datu avots jebkuriem elementiem, šai lapai tiek ģenerētas noklusējuma opcijas **Atvērt programmā Excel**. Opcijas **Atvērt programmā Excel** ir atrodamas bieži izmantotajās lapās, piemēram, **Visi kreditori** un **Visi debitori**.
 2.  Noklikšķiniet uz kādas opcijas **Atvērt programmā Excel**, un atveriet ģenerēto darbgrāmatu. Šajā darbgrāmatā ir saistību informācija par attiecīgo elementu, rādītājs uz jūsu vidi un rādītājs uz Excel pievienojumprogrammu.
 3.  Programmā Excel noklikšķiniet uz **Iespējot rediģēšanu**, lai iespējotu Excel pievienojumprogrammas palaišanu. Excel pievienojumprogramma darbojas rūtī, kas atrodas Excel loga labajā pusē.
 4.  Ja Excel pievienojumprogrammu palaižat pirmo reizi, noklikšķiniet uz **Uzticēties šai pievienojumprogrammai**.
-5.  Ja tiek prasīts pierakstīties, noklikšķiniet uz **Pierakstīties** un pēc tam pierakstieties, izmantojot tos pašus akreditācijas datus, ko izmantojāt, lai pierakstītos sistēmā Dynamics 365 for Operations. Excel pievienojumprogramma lieto iepriekšējās pierakstīšanās kontekstu no Internet Explorer un jūs pieraksta automātiski, ja iespējams. Tādēļ pārbaudiet lietotājvārdu Excel pievienojumprogrammas labajā augšējā stūrī.
+5.  Ja tiek prasīts pierakstīties, noklikšķiniet uz **Pierakstīties** un pēc tam pierakstieties, izmantojot tos pašus akreditācijas datus, ko izmantojāt, lai pierakstītos programmatūrā Dynamics 365 for Finance and Operations. Excel pievienojumprogramma lieto iepriekšējās pierakstīšanās kontekstu no Internet Explorer un jūs pieraksta automātiski, ja iespējams. Tādēļ pārbaudiet lietotājvārdu Excel pievienojumprogrammas labajā augšējā stūrī.
 
 Excel pievienojumprogramma automātiski nolasa datus par jūsu atlasīto elementu. Ņemiet vērā, ka darbgrāmatā nav nekādu datu, līdz Excel pievienojums tos ielasa.
 
@@ -48,7 +48,7 @@ Excel pievienojumprogramma automātiski nolasa datus par jūsu atlasīto element
 2.  Office veikalā meklējiet pēc atslēgvārda “Dynamics” un noklikšķiniet uz **Pievienot** blakus vienumam **Microsoft Dynamics Office pievienojumprogramma** (Excel pievienojumprogramma).
 3.  Ja Excel pievienojumprogrammu palaižat pirmo reizi, noklikšķiniet uz **Uzticēties šai pievienojumprogrammai**, lai šai Excel pievienojumprogrammai ļautu darboties. Excel pievienojumprogramma darbojas rūtī, kas atrodas Excel loga labajā pusē.
 4.  Noklikšķiniet uz **Pievienot servera informāciju**, lai atvērtu rūti **Opcijas**.
-5.  Nokopējiet pārlūkprogrammas vietrādi URL no savas mērķa Dynamics 365 for Operations instances, ielīmējiet to laukā **Servera URL** un pēc tam izdzēsiet visu aiz resursdatora nosaukuma. Rezultātā iegūtajam vietrādim URL vajadzētu būt tikai resursdatora nosaukumam.
+5.  Nokopējiet pārlūkprogrammas vietrādi URL no savas mērķa Dynamics 365 for Finance and Operations instances, ielīmējiet to laukā **Servera URL** un pēc tam izdzēsiet visu aiz resursdatora nosaukuma. Rezultātā iegūtajam vietrādim URL vajadzētu būt tikai resursdatora nosaukumam.
 Piemēram, ja vietrādis URL ir https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage, tad izdzēsiet visu, izņemot **https://xxx.dynamics.com**.
 6.  Noklikšķiniet uz **Labi** un pēc tam noklikšķiniet uz **Jā**, lai apstiprinātu veiktās izmaiņas. Excel pievienojumprogramma restartējas un ielādē metadatus. Tagad ir pieejama poga **Dizains**. Ja Excel pievienojumprogrammai ir poga **Ielādēt sīkprogrammas**, visticamāk, jūs neesat pierakstījies kā pareizais lietotājs. Papildinformāciju skatiet šīs tēmas sadaļas “Problēmu novēršana” punktā “Tiek rādīta poga Ielādēt sīkprogrammas”.
 7.  Noklikšķiniet uz **Dizains**. Excel pievienojumprogramma izgūst elementa metadatus.

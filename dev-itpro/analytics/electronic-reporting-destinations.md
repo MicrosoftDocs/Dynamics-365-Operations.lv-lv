@@ -3,14 +3,14 @@ title: "Elektronisko atskaišu galamērķi"
 description: "Varat konfigurēt adresātu katrai elektronisko atskaišu (Electronic Reporting — ER) formāta konfigurācijai un tā izvades komponentu (mapi vai failu). Lietotāji, kuriem ir piešķirtas atbilstošas piekļuves tiesības, galamērķa iestatījumus var modificēt arī izpildlaikā. Šajā rakstā ir paskaidrota ER galamērķu pārvaldība, atbalstītie galamērķu tipi un drošības apsvērumi."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5fb008420f82abd7983ee26854f84330705c0c01
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fb2aeee1f38823e7ea96071f773e8448d65ba8ff
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,9 +36,9 @@ Varat konfigurēt adresātu katrai elektronisko atskaišu (Electronic Reporting 
 Elektronisko atskaišu (ER) formāta konfigurācijas parasti satur vismaz vienu izvades komponentu: failu. Parasti konfigurācijas ietver vairākus dažādu tipu failu izvades komponentus (piemēram, XML, TXT vai XLSX), kuri ir grupēti vienā mapē vai vairākās mapēs. ER galamērķu pārvaldība jums ļauj sākotnēji konfigurēt, kas notiek, kad tiek palaists katrs komponents. Pēc noklusējuma, kad tiek palaista kāda konfigurācija, tiek parādīts dialoglodziņš, ko lietotājs var izmantot, lai failu saglabātu vai atvērtu. Tāda pati uzvedība tiek izmantota arī tad, kad importējat kādu ER konfigurāciju un neesat tai konfigurējis nekādu noteiktu galamērķi. Kad galvenajam izvades komponentam ir izveidots galamērķis, šis galamērķis ignorē noklusējuma uzvedību un mape vai fails tiek nosūtīti saskaņā ar galamērķa iestatījumiem.
 
 ## <a name="availability-and-general-prerequisites"></a>Pieejamības un vispārīgie priekšnosacījumi
-ER galamērķu funkcionalitāte nav pieejama laidienā Microsoft Dynamics 365 for Operations 7.0 (2016. gada februāris). Lai lietotu visas šajā tēmā aprakstītās funkcijas, ir jāinstalē Microsoft Dynamics 365 for Operations (2016. gada novembra laidiens). Ja vēlaties, varat instalēt vienu no tālāk norādītajiem priekšnosacījumiem. Taču ņemiet vērā, ka šī alternatīva sniedz ierobežotāku ER galamērķa funkcionalitāti.
+ER galamērķu funkcionalitāte nav pieejama programmatūrā Microsoft Dynamics AX 7.0 (2016. gada februāra laidienā). Tāpēc, lai varēti izmantot visas šajā tēmā aprakstītās funkcijas, ir jāinstalē programmatūras Microsoft Dynamics 365 for Operations versija 1611 (2016. gada novembra laidiens). Ja vēlaties, varat instalēt vienu no tālāk norādītajiem priekšnosacījumiem. Taču ņemiet vērā, ka šī alternatīva sniedz ierobežotāku ER galamērķa funkcionalitāti.
 
--   Microsoft Dynamics 365 for Operations programmas versija 7.0.1 (2016. gada maijs)
+-   Microsoft Dynamics AX programmas versija 7.0.1 (2016. gada maijs)
 -   ER galamērķa pārvaldības [programmas labojumfails](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
 
 Varat iestatīt galamērķus tikai ER konfigurācijām, kas ir importētas, un formātiem, kas ir pieejami lapā **Elektronisko atskaišu veidošanas konfigurācijas**.
@@ -61,7 +61,7 @@ Tiek atbalstīti dažādi galamērķu tipi. Visus tipus varat atspējot vai iesp
 
 ### <a name="email-destination"></a>E-pasta galamērķis
 
-Opciju **Iespējots** iestatiet uz **Jā**, lai izvades failu sūtītu pa e-pastu. Kad šī opcija ir iespējota, varat norādīt e-pasta adresātus, ka arī rediģēt tēmu un e-pasta ziņojuma pamattekstu. E-pasta ziņojuma tēmai un pamattekstam varat iestatīt konstantus tekstus, vai arī varat lietot ER formulas, lai e-pasta tekstus izveidotu dinamiski. E-pasta adreses lietošanai ar ER varat konfigurēt divos veidos. Konfigurēšanu var izpildīt tāpat, kā programmatūrā Dynamics 365 for Operations to izpilda līdzeklis Drukāšanas iestatījumi. Ja vēlaties, e-pasta adresi varat atrisināt, izmantojot tiešu atsauci uz ER konfigurāciju, lietojot formulu.
+Opciju **Iespējots** iestatiet uz **Jā**, lai izvades failu sūtītu pa e-pastu. Kad šī opcija ir iespējota, varat norādīt e-pasta adresātus, ka arī rediģēt tēmu un e-pasta ziņojuma pamattekstu. E-pasta ziņojuma tēmai un pamattekstam varat iestatīt konstantus tekstus, vai arī varat lietot ER formulas, lai e-pasta tekstus izveidotu dinamiski. E-pasta adreses lietošanai ar ER varat konfigurēt divos veidos. Konfigurēšanu var veikt tāpat, kā to nodrošina programmatūras Dynamics 365 for Finance and Operations līdzeklis Drukāšanas iestatījumi. Ja vēlaties, e-pasta adresi varat atrisināt, izmantojot tiešu atsauci uz ER konfigurāciju, lietojot formulu.
 
 ### <a name="email-address-types"></a>E-pasta adrešu tipi
 
@@ -89,7 +89,7 @@ Izmantojiet šo e-pasta ziņojuma tipu, ja izmantotajā konfigurācijā ir zars 
 
 [![E-pasta adreses datu avota piešķiršana e-pasta galamērķim](./media/ger-destinations-email-4-1611-1024x587.jpg)](./media/ger-destinations-email-4-1611.jpg) 
 
-**Piezīme.** Ir jābūt konfigurētam un pieejamam vienkāršā pasta pārsūtīšanas protokola (SMTP) serverim. Savu SMTP serveri varat norādīt programmatūras Dynamics 365 for Operations sadaļā **Sistēmas administrēšana** &gt; **Iestatīšana** &gt; **E-pasts** &gt; **E-pasta parametri**.
+**Piezīme.** Ir jābūt konfigurētam un pieejamam vienkāršā pasta pārsūtīšanas protokola (SMTP) serverim. Savu SMTP serveri varat norādīt programmatūras Dynamics 365 for Finance and Operations sadaļā **Sistēmas administrēšana** &gt; **Iestatīšana** &gt; **E-pasts** &gt; **E-pasta parametri**.
 
 ### <a name="archive-destination"></a>Arhīva galamērķis
 
@@ -97,7 +97,7 @@ Izmantojiet šo e-pasta ziņojuma tipu, ja izmantotajā konfigurācijā ir zars 
 
 [![Lapa Dokumentu tipi](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg) 
 
-Atrašanās vieta nosaka, kur fails tiek saglabāts. Kad ir iespējots galamērķis **Arhīvs**, konfigurācijas izpildes rezultātus var saglabāt darbu arhīvā. Rezultātus varat skatīt sadaļā **Organizācijas administrēšana** &gt; **Elektronisko pārskatu veidošana** &gt; **Elektronisko pārskatu arhivētie darbi**. **Piezīme.** Programmatūrā Dynamics 365 for Operations dokumentu tipu darbu arhīvam varat atlasīt sadaļā **Organizācijas administrēšana** &gt; **Darbvietas** &gt; **Elektronisko pārskatu veidošana** &gt; **Elektronisko pārskatu parametri**.
+Atrašanās vieta nosaka, kur fails tiek saglabāts. Kad ir iespējots galamērķis **Arhīvs**, konfigurācijas izpildes rezultātus var saglabāt darbu arhīvā. Rezultātus varat skatīt sadaļā **Organizācijas administrēšana** &gt; **Elektronisko pārskatu veidošana** &gt; **Elektronisko pārskatu arhivētie darbi**. **Piezīme.** Programmatūrā Dynamics 365 for Finance and Operations darbu arhīva dokumenta veidu var atlasīt sadaļā **Organizācijas administrēšana** &gt; **Darbvietas** &gt; **Elektronisko pārskatu veidošana** &gt; **Elektronisko pārskatu parametri**.
 
 #### <a name="sharepoint"></a>SharePoint
 
@@ -119,7 +119,7 @@ Ja opciju **Iespējots** iestatāt uz **Jā**, tad tiek izveidots izvades priek�
 
 ### <a name="power-bi-destination"></a>Power BI galamērķis
 
-Opciju **Iespējots** iestatiet uz **Jā**, lai savu ER konfigurāciju izmantotu datu pārsūtīšanas organizēšanai no savas Dynamics 365 for Operations instances uz Microsoft Power BI pakalpojumiem. Pārsūtītie faili tiek glabāti Microsoft SharePoint Server instancē, kura ir jākonfigurē šim nolūkam. Plašāku informāciju skatiet rakstā [Izmantot elektronisko pārskatu veidošanas konfigurāciju, lai pakalpojumam Power BI sniegtu datus no Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md). **Padoms.** Lai ignorētu noklusējuma uzvedību (t.i., dialoglodziņu kādai konfigurācijai), varat izveidot galamērķa atsauci un faila galamērķi galvenajam izvades komponentam un pēc tam atspējot visus galamērķus.
+Iestatiet opcijas **Iespējots** vērtību **Jā**, lai izmantotu savu ER konfigurāciju datu pārsūtīšanai no savas programmatūras Dynamics 365 for Finance and Operations instances uz Microsoft Power BI pakalpojumiem. Pārsūtītie faili tiek glabāti Microsoft SharePoint Server instancē, kura ir jākonfigurē šim nolūkam. Papildinformāciju skatiet tēmā [Elektronisko pārskatu veidošanas konfigurācijas izmantošana, lai pakalpojumā Power BI nodrošinātu datus no programmatūras Dynamics 365 for Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md). **Padoms.** Lai ignorētu noklusējuma uzvedību (t.i., dialoglodziņu kādai konfigurācijai), varat izveidot galamērķa atsauci un faila galamērķi galvenajam izvades komponentam un pēc tam atspējot visus galamērķus.
 
 ## <a name="security-considerations"></a>Drošības apsvērumi
 ER galamērķiem tiek izmantoti divu tipu privilēģijas un pienākumi. Viens tips kontrolē spēju uzturēt vispārējos galamērķus, kas ir konfigurēti kādai juridiskajai personai (t.i., tas kontrolē piekļuvi lapai **Elektronisko pārskatu veidošanas adresāti**). Otrs tips kontrolē programmas lietotāja spēju izpildes laikā ignorēt galamērķu iestatījumus, ko konfigurēja ER izstrādātājs vai ER funkcionālais konsultants.

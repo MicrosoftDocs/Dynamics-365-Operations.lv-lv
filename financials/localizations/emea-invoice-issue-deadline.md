@@ -3,7 +3,7 @@ title: "Rēķina izsniegšanas termiņš"
 description: "Šajā rakstā ir izskaidrots, kā iestatīt parametrus, lai aprēķinātu izpildes termiņus kreditoru un debitori rēķinu izrakstīšanai Eiropas Savienībā (ES)."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,17 +11,17 @@ ms.technology:
 ms.search.form: CustParameters, LedgerInvoiceIssueDueDateSetup_W
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10923
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Iceland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 77a498e0d3081cdac39dfe4261b7e8be7b7af9e6
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 3fdd9f21964ae6d0c12225feebb6d73e852dc50e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -55,7 +55,7 @@ Izmantojiet lapu **Iestatīt rēķina izrakstīšanas izpildes termiņa aprēķi
 Varat iestatīt arī datumu kontroles parametrus, lai nodrošinātu, ka debitoru rēķini un kredīta notas debitoru transakcijām tiek ģenerēti noteiktā periodā pēc piegādes veikšanas. Šie parametri ir pieejami lapas **Debitoru moduļa parametri** apgabalā **Rēķinu datumu kontrole**.
 
 ## <a name="example"></a>Paraugs
-Lai programmā Microsoft Dynamics 365 for Operations iestatītu, ka sūtījumiem ES robežās rēķina izrakstīšanas izpildes termiņi tiek aprēķināti tā mēneša piecpadsmitajā dienā, kas ir pēc sūtījuma piegādāšanas, izveidojiet datumu intervāla kodu un aprēķina kārtulu ar tālāk sniegtajiem iestatījumiem.
+Lai programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise iestatītu ES iekšējo sūtījumu rēķina izrakstīšanas izpildes termiņu aprēķināšanu pēc sūtījuma piegādāšanas nākamā mēneša piecpadsmitajā dienā, izveidojiet datumu intervāla kodu un aprēķina kārtulu ar tālāk norādītajiem iestatījumiem.
 
 ### <a name="date-interval-code"></a>Datumu intervāla kods
 

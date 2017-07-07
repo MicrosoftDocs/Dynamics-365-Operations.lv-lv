@@ -114,7 +114,7 @@ Microsoft Dynamics 365 for Finance and Operations ir korporācijas Microsoft 
 <p><a href="../retail/call-center-functionality">Zvanu centrs</p>
 <p><a href="../retail/define-maintain-retail-channels">Kanāla iestatīšana un pārvaldība</p>
 <p><a href="../retail/retail-peripherals-overview">MPOS un Cloud POS</p>
-<p><a href="../retail/dev-itpro/dev-retail-home-page">Mazumtirdzniecības izstrādātājs un administrācija</p>
+<p><a href="../retail/dev-itpro/dev-retail-home-page">Retail izstrādātājs un administrācija</p>
 
 </td>
 </tr>

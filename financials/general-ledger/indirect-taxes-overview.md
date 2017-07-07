@@ -3,7 +3,7 @@ title: "Pārdošanas nodokļa apskats"
 description: "Šajā rakstā ir sniegts pārskats par pārdošanas nodokļa sistēmu. Tajā ir paskaidroti pārdošanas nodokļa iestatīšanas elementi un to mijiedarbība."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 13111
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bdb3188f533cf0cdb1e70c63891408e45d02418d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 415928125c14dfc69020b712f281835701ba2f83
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,6 +30,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="sales-tax-overview"></a>Pārdošanas nodokļa apskats
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Šajā rakstā ir sniegts pārskats par pārdošanas nodokļa sistēmu. Tajā ir paskaidroti pārdošanas nodokļa iestatīšanas elementi un to mijiedarbība.
@@ -73,7 +75,7 @@ Katrā transakcijā (pārdošanas/pirkšanas dokumentu rindās, žurnālos un ci
 Katrā transakcijā aprēķināto pārdošanas nodokli varat uzmeklēt, atverot lapu **Pārdošanas nodokļa transakcija**. Varat uzmeklēt pārdošanas nodokli dokumenta rindai vai visam dokumentam. Noteiktiem dokumentiem (piemēram, kreditora rēķinam un virsgrāmatas žurnāliem) varat pielāgot aprēķināto pārdošanas nodokli, ja sākotnējā dokumentā tiek rādītas summas ar novirzēm.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>Pārdošanas nodokļa apmaksa un atskaišu veidošana
-Pārdošanas nodoklis regulāri (reizi mēnesī, reizi ceturksnī un citos intervālos) ir jāziņo un jāmaksā nodokļu iestādēm. Microsoft Dynamics 365 for Operations nodrošina funkcijas, kas sniedz iespēju segt nodokļu kontus par to intervālu un nobīdīt bilances tam nodokļa apmaksas kontam, kas ir norādīts Virsgrāmatas grāmatošanas grupās. Šīm funkcijām var piekļūt lapā **Nosegt un grāmatot PVN**. Ir jānorāda PVN segšanas periods, par kuru ir jāsedz PVN. 
+Pārdošanas nodoklis regulāri (reizi mēnesī, reizi ceturksnī un citos intervālos) ir jāziņo un jāmaksā nodokļu iestādēm. Microsoft Dynamics 365 for Finance and Operations, izdevums Enterprise nodrošina funkcijas, kas sniedz iespēju segt nodokļu kontus par to intervālu un nobīdīt bilances tam nodokļa apmaksas kontam, kas ir norādīts virsgrāmatas grāmatošanas grupās. Šīm funkcijām var piekļūt lapā **Nosegt un grāmatot PVN**. Ir jānorāda PVN segšanas periods, par kuru ir jāsedz PVN. 
 
 Kad pārdošanas nodoklis ir samaksāts, bilance pārdošanas nodokļa apmaksas kontā vajadzētu būt saskaņotai pret bankas kontu. Ja pārdošanas nodokļa iestāde, kas ir norādīta pārdošanas nodokļa apmaksas periodam, ir saistīta ar kreditora kontu, tad pārdošanas nodokļa bilance tiek grāmatota kā atvērts kreditora rēķins, un to var iekļaut regulāra maksājuma priekšlikumā.
 
@@ -85,7 +87,7 @@ Ja veidlapā Virsgrāmatas parametri ir atzīmēta izvēles rūtiņa Nosacījuma
 > [!NOTE]
 > Ja ir atzīmēta izvēles rūtiņa Nosacījuma PVN, ir jāiestata PVN kodi un PVN grupas un jāizveido Virsgrāmatas grāmatošanas grupas šīs funkcijas atbalstam. |
 
-###  <a name="example"></a>Paraugs
+###  <a name="example"></a>Piemērs
 
 Jūs sedzat PVN katru mēnesi. 15. jūnijā jūs izveidojat debitora rēķinu par 10 000 plus PVN.
 -   PVN ir 25 procenti jeb 2500.

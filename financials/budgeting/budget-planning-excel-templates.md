@@ -3,7 +3,7 @@ title: "Budžeta plānošanas veidnes programmai Excel"
 description: "Šajā tēmā ir aprakstīts, ka izveidot Microsoft Excel veidnes, kuras var izmantot ar budžeta plāniem."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 93aa0aeffad0411542f36e27745f63198c4438b2
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 9f8073a2eb0d1b61d6a168f43eba983d113cf453
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -50,7 +50,7 @@ Excel veidnē būs visi elementi no budžeta plāna dokumenta izkārtojuma, kur 
 [![bpt4](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> Lai nepieļautu iespējamas problēmas saistībā ar budžeta plāna datu skatīšanu un rediģēšanu, izmantojot programmu Excel, vienam un tam pašam lietotājam ir jāpiesakās gan Dynamics 365 for Operations, gan Microsoft Dynamics Office pievienojumprogrammā Datu savienotājs.
+> Lai nepieļautu iespējamas problēmas saistībā ar budžeta plāna datu skatīšanu un rediģēšanu, izmantojot programmu Excel, vienam un tam pašam lietotājam ir jāpiesakās gan programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise, gan Microsoft Dynamics Office pievienojumprogrammā Datu savienotājs.
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>Pievienot galveni budžeta plāna dokumenta veidnei
 Lai pievienotu galvenes informāciju, atlasiet augšējo rindu Excel failā un ievietojiet tukšas rindas. Programmā **Datu savienotājs** noklikšķiniet uz **Dizains**, lai Excel failam pievienotu galvenes laukus.
@@ -79,11 +79,11 @@ Atlasītajā lauku grupā tiek rādītas veidnē pieejamās kolonnas. Noklikšķ
 [![bpt12](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> Lai formulu definētu, izveidojiet šo formulu izklājlapā un pēc tam to iekopējiet logā **Dizains**. Ar programmu Dynamics 365 for Operations saistītai tabulai parasti tiek piešķirts nosaukums “AXTable1”. Piemēram, lai izklājlapā apkopotu kolonnas Pieprasījums Q1 : Pieprasījums Q4, tiek izmantota formula = AxTable1\[Pieprasījums Q1\]+AxTable1\[Pieprasījums Q2\]+AxTable1\[Pieprasījums Q3\]+AxTable1\[Pieprasījums Q4\].
+> Lai formulu definētu, izveidojiet šo formulu izklājlapā un pēc tam to iekopējiet logā **Dizains**. Ar programmatūru Dynamics 365 for Finance and Operations saistītai tabulai parasti tiek piešķirts nosaukums “AXTable1”. Piemēram, lai izklājlapā apkopotu kolonnas Pieprasījums Q1 : Pieprasījums Q4, tiek izmantota formula = AxTable1\[Pieprasījums Q1\]+AxTable1\[Pieprasījums Q2\]+AxTable1\[Pieprasījums Q3\]+AxTable1\[Pieprasījums Q4\].
 
 Atkārtojiet šīs darbības, lai ievietotu kolonnu **Korekcija**. Šai kolonnai izmantojiet formulu = AxTable1\[Kopējais pieprasījums\]\*$I$1. Šādi šūnā I1 esošā vērtība tiks izmantota reizināšanai ar vērtībām kolonnā **Kopējais pieprasījums**, lai aprēķinātu korekcijas summas.
 
-Saglabājiet un aizveriet Excel failu. Atgriezieties programmā Dynamics 365 for Operations un sadaļā **Izkārtojumi** noklikšķiniet uz **Veidne &gt; Augšupielādēt**, lai saglabāto Excel veidni augšupielādētu lietošanai budžeta plānā. 
+Saglabājiet un aizveriet Excel failu. Atgriezieties programmatūrā Dynamics 365 for Finance and Operations un sadaļā **Izkārtojumi** noklikšķiniet uz **Veidne &gt; Augšupielādēt**, lai saglabāto Excel veidni augšupielādētu lietošanai budžeta plānā. 
 
 [![bpt10](./media/bpt10-1024x352.png)](./media/bpt10.png) 
 

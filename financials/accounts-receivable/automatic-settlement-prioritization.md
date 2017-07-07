@@ -3,7 +3,7 @@ title: "Automātiska nosegšana un prioritāšu noteikšana"
 description: "Šajā rakstā ir sniegta informācija par to, kā tiek segtas transakcijas, atlasot vienumu Automātiska nosegšana lapā Kreditoru parametri. Šeit ir arī izskaidrots, kā automātisko nosegšanu var izmantot kopā ar maksājuma prioritātes statusu."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14531
 ms.assetid: e7837cf6-ec69-44b4-8d47-eba38d5c7b1f
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 890de45f8425bdc59ca2fd2ed8297ab3690cc98d
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 3e2ca11eef4246d5abfd77351325ac2b4440b446
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/25/2017
 
 Šajā rakstā ir sniegta informācija par to, kā tiek segtas transakcijas, atlasot vienumu Automātiska nosegšana lapā Kreditoru parametri. Šeit ir arī izskaidrots, kā automātisko nosegšanu var izmantot kopā ar maksājuma prioritātes statusu.
 
-Jums ir divas iespējas, apmaksājot maksājumus ar rēķiniem un citām transakcijām. Varat manuāli atlasīt sedzamās transakcijas, vai programmā Microsoft Dynamics 365 for Operations šīs transakcijas var tikt atlasītas automātiski, izmantojot automātiskās segšanas funkcionalitāti. Varat arī pielāgot automātiskās segšanas apstrādi, izmantojot opciju **Noteikt segšanai prioritāti**. Visas šīs opcijas ir daļa no segšanas parametriem, kas ir definēti lapā **Debitoru parādu parametri**. Veida, kā transakcijas tiek automātiski nosegtas, var atšķirties atkarībā no metodes, ko izmantojat automātiskajai nosegšanai. Pieejamas šādas metodes.
+Jums ir divas iespējas, apmaksājot maksājumus ar rēķiniem un citām transakcijām. Varat manuāli atlasīt sedzamās transakcijas, vai arī programmatūrā Microsoft Dynamics 365 for Finance and Operations šīs transakcijas var tikt atlasītas automātiski, izmantojot automātiskās segšanas funkcionalitāti. Varat arī pielāgot automātiskās segšanas apstrādi, izmantojot opciju **Noteikt segšanai prioritāti**. Visas šīs opcijas ir daļa no segšanas parametriem, kas ir definēti lapā **Debitoru parādu parametri**. Veida, kā transakcijas tiek automātiski nosegtas, var atšķirties atkarībā no metodes, ko izmantojat automātiskajai nosegšanai. Pieejamas šādas metodes.
 
 -   Lietotāja definētas nosegšanas prioritātes
 -   Automātiskā nosegšana pēc noklusējuma

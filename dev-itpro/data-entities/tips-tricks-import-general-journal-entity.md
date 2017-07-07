@@ -3,13 +3,13 @@ title: "Labākās prakses dokumentu importēšanai, izmantojot elementu Virsgrā
 description: "Šajā tēmā ir sniegti padomi par datu importēšanu virsgrāmatas žurnālā, izmantojot elementu Virsgrāmatas žurnāls."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94363
 ms.assetid: 0b8149b5-32c5-4518-9ebd-09c9fd7f4cfc
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a1740f322972b1c37f23a0422fdcb4435253710
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b9a5c03584635908067bb7b623deba76f4ba3e18
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -53,14 +53,14 @@ Nākamajās sadaļās ir aprakstīta šo iestatījumu ietekme, kā arī paskaidr
 -   Iestatījums **No kopas atkarīga apstrāde** elementā Virsgrāmatas žurnāls neietekmē veidu, kā tiek ģenerēti žurnālu pakešuzdevumu numuri.
 -   Ja lauks **Žurnāla pakešuzdevuma numurs** ir iestatīts uz **Automātiski ģenerēts**, tad jauns žurnāla pakešuzdevuma numurs tiek veidots katrai rindai, kas tiek importēta. Šāda uzvedība nav ieteicama. Iestatījums **Automātiski ģenerēts** atrodas importēšanas projektā, sadaļā **Skatīt karti**, cilnē **Detalizēta informācija par kartēšanu**.
 -   Ja lauks **Žurnāla pakešuzdevuma numurs** nav iestatīts uz **Automātiski ģenerēts**, tad žurnāla pakešuzdevuma numurs tiek veidots šādi:
-    -   Ja importētajā failā definētais žurnāla pakešuzdevuma numurs atbilst esošajam, negrāmatotajam ikdienas žurnālam programmatūrā Microsoft Dynamics 365 for Operations, tad visas rindas, kam ir atbilstošs žurnāla pakešuzdevuma numurs, tiek importētas esošajā žurnālā. Rindas nekad netiek importētas grāmatotā žurnāla pakešuzdevuma numurā. Tā vietā tiek izveidots jauns numurs.
-    -   Ja importētajā failā definētais žurnāla pakešuzdevuma numurs neatbilst esošajam, negrāmatotajam ikdienas žurnālam programmatūrā Dynamics 365 for Operations, tad visas rindas, kam ir tāds pats žurnāla pakešuzdevuma numurs, tiek grupētas jaunā žurnālā. Piemēram, visas rindas, kurās žurnāla pakešuzdevuma numurs ir 1, tiek importētas jaunā žurnālā, un visas rindas, kurās žurnāla pakešuzdevuma numurs ir 2, tiek importētas otrā jaunā žurnālā. Žurnāla pakešuzdevuma numurs tiek veidots, izmantojot numuru sēriju, kas ir definēta virsgrāmatas parametros.
+    -   Ja importētajā failā definētais žurnāla pakešuzdevuma numurs atbilst esošajam, negrāmatotajam ikdienas žurnālam, tad visas rindas, kam ir atbilstošs žurnāla pakešuzdevuma numurs, tiek importētas esošajā žurnālā. Rindas nekad netiek importētas grāmatotā žurnāla pakešuzdevuma numurā. Tā vietā tiek izveidots jauns numurs.
+    -   Ja importētajā failā definētais žurnāla pakešuzdevuma numurs neatbilst esošajam, negrāmatotajam ikdienas žurnālam, tad visas rindas, kam ir tāds pats žurnāla pakešuzdevuma numurs, tiek grupētas jaunā žurnālā. Piemēram, visas rindas, kurās žurnāla pakešuzdevuma numurs ir 1, tiek importētas jaunā žurnālā, un visas rindas, kurās žurnāla pakešuzdevuma numurs ir 2, tiek importētas otrā jaunā žurnālā. Žurnāla pakešuzdevuma numurs tiek veidots, izmantojot numuru sēriju, kas ir definēta virsgrāmatas parametros.
 
 ### <a name="voucher-number"></a>Dokumenta numurs
 
--   Kad izmantojat iestatījumu **No kopas atkarīga apstrāde** elementā Virsgrāmatas žurnāls, dokumenta numuram ir jābūt norādītam importētajā failā. Katrai transakcijai virsgrāmatas žurnālā tiek piešķirts dokumenta numurs, kas ir norādīts importētajā failā, pat ja dokuments nav līdzsvarots. Ja vēlaties lietot no kopas atkarīgu apstrādi, bet vēlaties arī lietot numuru sēriju, kas programmatūrā Dynamics 365 for Operations ir definēta dokumentu numuriem, ir nodrošināts labojumfails versijas 2016. gada februāra laidienam. Šī labojumfaila numurs ir 3170316, un tas ir pieejams lejupielādei no Lifecycle Services (LCS). Papildinformāciju skatiet rakstā [Lejupielādēt labojumfailus no Lifecycle Services](..\migration-upgrade\download-hotfix-lcs.md).
-    -   Lai iespējotu šo funkcionalitāti, žurnāla nosaukumam, kas tiek izmantots importēšanai programmatūrā Microsoft Dynamics 365 for Operations, vienumu **Numuru piešķiršana grāmatojot** iestatiet uz **Jā**.
-    -   Dokumenta numuram joprojām ir jābūt definētam importētajā failā. Taču šis numurs ir tikai pagaidu, un žurnāla grāmatošanas laikā tas tiek pārrakstīts ar Dynamics 365 for Operations dokumenta numuru. Jums ir jānodrošina, ka žurnāla rindas tiek pareizi grupētas pēc pagaidu dokumenta numura. Piemēram, grāmatošanas laikā tiek konstatētas trīs rindas, kurās pagaidu dokumenta numurs ir 1. Visu trīs rindu pagaidu dokumenta numurs tiek pārrakstīts ar nākamo numuru attiecīgajā numuru sērijā. Ja šīs trīs rindas nav līdzsvarots ieraksts, tad dokuments netiek grāmatots. Pēc tam, ja tiek konstatētas rindas, kuru pagaidu dokumenta numurs ir 2, šis numurs tiek pārrakstīts ar nākamo dokumenta numuru attiecīgajā numuru sērijā, un tā tālāk.
+-   Kad izmantojat iestatījumu **No kopas atkarīga apstrāde** elementā Virsgrāmatas žurnāls, dokumenta numuram ir jābūt norādītam importētajā failā. Katrai transakcijai virsgrāmatas žurnālā tiek piešķirts dokumenta numurs, kas ir norādīts importētajā failā, pat ja dokuments nav līdzsvarots. Ja vēlaties lietot no kopas atkarīgu apstrādi, bet vēlaties arī lietot numuru sēriju, kas ir definēta dokumentu numuriem, ir nodrošināts labojumfails versijas 2016. gada februāra laidienam. Šī labojumfaila numurs ir 3170316, un tas ir pieejams lejupielādei no Lifecycle Services (LCS). Papildinformāciju skatiet rakstā [Lejupielādēt labojumfailus no Lifecycle Services](..\migration-upgrade\download-hotfix-lcs.md).
+    -   Lai iespējotu šo funkcionalitāti, žurnāla nosaukumam, kas tiek izmantots importēšanai, vienumu **Numuru piešķiršana grāmatojot** iestatiet uz **Jā**.
+    -   Dokumenta numuram joprojām ir jābūt definētam importētajā failā. Taču šis numurs ir tikai pagaidu, un žurnāla grāmatošanas laikā tas tiek pārrakstīts ar dokumenta numuru. Jums ir jānodrošina, ka žurnāla rindas tiek pareizi grupētas pēc pagaidu dokumenta numura. Piemēram, grāmatošanas laikā tiek konstatētas trīs rindas, kurās pagaidu dokumenta numurs ir 1. Visu trīs rindu pagaidu dokumenta numurs tiek pārrakstīts ar nākamo numuru attiecīgajā numuru sērijā. Ja šīs trīs rindas nav līdzsvarots ieraksts, tad dokuments netiek grāmatots. Pēc tam, ja tiek konstatētas rindas, kuru pagaidu dokumenta numurs ir 2, šis numurs tiek pārrakstīts ar nākamo dokumenta numuru attiecīgajā numuru sērijā, un tā tālāk.
 
 <!-- -->
 

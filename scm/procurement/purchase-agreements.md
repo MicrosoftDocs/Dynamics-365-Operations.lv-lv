@@ -3,14 +3,14 @@ title: "Pirkšanas līgumi"
 description: "Šajā rakstā ir sniegta informācija par pirkšanas līgumiem. Pirkšanas līgums ir līgums, kas nosaka, ka organizācijai ir jānopērk noteikts daudzums vai jāiztērē noteikta summa, laika gaitā izmantojot vairākus pirkšanas pasūtījumus. Apmaiņā pret šīm saistībām pircējs saņem īpašas cenas un atlaides."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c100bd34725c67710d0f473a001c73705600ba79
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 4266ba2b19c3bd31a10301dd2290cd4b4fa53bdb
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -80,7 +80,7 @@ Apstiprinot pirkšanas līgumu, tā pašreizējā versija tiek saglabāta vēstu
 Kad veidojat pirkšanas pasūtījumu, varat tam lietot pirkšanas līgumu. Pēc tam informācija no līguma nosacījumiem, piemēram, maksājumu nosacījumi, piegādes nosacījumi un piegādes adrese, tiek kopēta uz pirkšanas pasūtījuma galveni. Ja pirkšanas pasūtījumā ir viena vai vairākas rindas precēm vai kategorijām, uz ko attiecas šis līgums, šajās rindās tiek izmantotas cenas un atlaides no pirkšanas līguma. Summa vai daudzums pasūtījuma rindā tiek izmantots saistību pildīšanai pirkšanas līgumā. Vienā pirkšanas pasūtījumā var iekļaut gan rindas, kas nav saistītas ar pirkšanas līgumu, gan rindas, kas ir saistītas ar pirkšanas līgumu.  
 
 Pirkšanas līgumu varat atlasīt tikai tad, kad veidojat pirkšanas pasūtījumu. Pirkšanas līgumu nevar atlasīt pēc tam, kad pirkšanas pasūtījums jau ir izveidots.  
-Noteiktos risinājumos, kur pirkšanas pasūtījumi tiek veidoti netieši, varat kontrolēt, vai Microsoft Dynamics 365 for Operations automātiski meklē piemērojamos pirkšanas līgumus. Piemēram, varat to darīt, ja automātiski apstiprināt plānotos pirkšanas pasūtījumus vai veidojat pirkšanas pasūtījumus, kuru pamatā ir pārdošanas pasūtījumi.
+Noteiktos risinājumos, kur pirkšanas pasūtījumi tiek veidoti netieši, varat kontrolēt, vai Finance and Operations automātiski meklē piemērojamos pirkšanas līgumus. Piemēram, varat to darīt, ja automātiski apstiprināt plānotos pirkšanas pasūtījumus vai veidojat pirkšanas pasūtījumus, kuru pamatā ir pārdošanas pasūtījumi.
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Pirkšanas līgumi un starpuzņēmumu tirdzniecība
 Starpuzņēmumu darījumu attiecības var izveidot starp kreditoru kontiem un debitoru kontiem, kas pieder dažādām juridiskajām personām. Kad veidojat pārdošanas pasūtījumu vai pirkšanas pasūtījumu vienai no pusēm, tiek izveidota starpuzņēmumu pasūtījumu ķēde. Pasūtījumu ķēdē pārdošanas pasūtījums un pirkšanas pasūtījums tiek izveidots atbilstošajās juridiskajās personās.  

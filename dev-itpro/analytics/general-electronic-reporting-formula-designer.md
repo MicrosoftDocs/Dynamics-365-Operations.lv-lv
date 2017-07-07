@@ -1,9 +1,9 @@
 ---
 title: "Formulas veidotājs elektronisko atskaišu veidošanā"
-description: "Šajā tēmā ir paskaidrots, kā elektronisko pārskatu veidošanā (Electronic reporting — ER) lietot formulas veidotāju. Kad veidojat formātu noteiktam ER elektroniskajam dokumentam, datu pārveidošanai varat lietot Microsoft Excel stila formulas, lai izpildītu attiecīgā dokumenta izpildes un formatējuma prasības. Tiek atbalstītas dažādu veidu funkcijas — teksta, datuma un laika, matemātiski loģiskās, informācijas, datu tipa pārveidošanas un citas (biznesa jomai specifiskas funkcijas)."
+description: "Šajā tēmā ir paskaidrots, kā elektronisko pārskatu veidošanā (Electronic reporting — ER) lietot formulas veidotāju. Kad veidojat formātu noteiktam ER elektroniskajam dokumentam, datu pārveidošanai varat lietot Microsoft Excel stila formulas, lai izpildītu attiecīgā dokumenta izpildes un formatējuma prasības. Tiek atbalstīti dažādi funkciju tipi — teksta, datuma un laika, matemātiskās, loģiskās, informācijas, datu tipu pārveidošanas un citas (biznesa jomai specifiskas funkcijas)."
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5726a6fc60977a82b49e00ca653696e4051cbb10
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 655a6fd99c0688b13c31c79f3322a287f902e7f1
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,14 +31,14 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā tēmā ir paskaidrots, kā elektronisko pārskatu veidošanā (Electronic reporting — ER) lietot formulas veidotāju. Kad veidojat formātu noteiktam ER elektroniskajam dokumentam, datu pārveidošanai varat lietot Microsoft Excel stila formulas, lai izpildītu attiecīgā dokumenta izpildes un formatējuma prasības. Tiek atbalstītas dažādu veidu funkcijas — teksta, datuma un laika, matemātiski loģiskās, informācijas, datu tipa pārveidošanas un citas (biznesa jomai specifiskas funkcijas).
+Šajā tēmā ir paskaidrots, kā elektronisko pārskatu veidošanā (Electronic reporting — ER) lietot formulas veidotāju. Kad veidojat formātu noteiktam ER elektroniskajam dokumentam, datu pārveidošanai varat lietot Microsoft Excel stila formulas, lai izpildītu attiecīgā dokumenta izpildes un formatējuma prasības. Tiek atbalstīti dažādi funkciju tipi — teksta, datuma un laika, matemātiskās, loģiskās, informācijas, datu tipu pārveidošanas un citas (biznesa jomai specifiskas funkcijas).
 
 <a name="formula-designer-overview"></a>Pārskats par formulas veidotāju
 -------------------------
 
 Elektronisko atskaišu veidošana (Electronic Reporting — ER) atbalsta formulas veidotāju. Tāpēc veidošanas laikā varat konfigurēt izteiksmes, kuras var izmantot šādu uzdevumu izpildes laikā:
 
--   Datu pārveidošana tādiem datiem, kas ir saņemti no Microsoft Dynamics 365 for Operations datu bāzes un kas ir jāaizpilda ER datu modelī, kuru ir paredzēts lietot kā datu avotu ER formātiem (filtrēšana, grupēšana, datu tipa pārveidošana un citas darbības).
+-   Datu pārveidošana tādiem datiem, kas ir saņemti no Microsoft Dynamics 365 for Finance and Operations datu bāzes un kas ir jāaizpilda ER datu modelī, kuru ir paredzēts lietot kā datu avotu ER formātiem (filtrēšana, grupēšana, datu tipa pārveidošana un citas darbības).
 -   Datu formatēšana tādiem datiem, kas ir jāsūta uz ģenerēto elektronisko dokumentu saskaņā ar noteikta ER formāta izkārtojumu un nosacījumiem (saskaņā ar pieprasīto valodu vai kultūru, kodējumu un citām prasībām).
 -   Elektronisko dokumentu ģenerēšanas procesa kontrolēšana (noteiktu formāta elementu izvades iespējošana/atspējošana atkarībā no datu apstrādes, dokumenta izveides pārtraukšana, ziņojumu sūtīšana lietotājiem un citas darbības).
 
@@ -59,11 +59,11 @@ Formulas veidotāja lapu var atvērt, veicot kādu no tālāk uzskaitītajām da
 
 ER formulas veidotāju var izmantot, lai definētu izteiksmi, kas pārveido no datu avotiem saņemtos datus, lai izpildes laikā šos datus varētu aizpildīt datu patērētājā:
 
--   No Dynamics 365 for Operations datu avotiem un izpildes laika parametriem uz ER datu modeli.
+-   No Finance and Operations datu avotiem un izpildes laika parametriem uz ER datu modeli.
 -   No ER datu modeļa uz ER formātu.
--   No Dynamics 365 for Operations datu avotiem un izpildes laika parametriem uz ER formātu.
+-   No Finance and Operations datu avotiem un izpildes laika parametriem uz ER formātu.
 
-Nākamajā attēlā ir parādīts šī tipa izteiksmes noformējums. Šajā piemērā izteiksme atgriež Dynamics 365 for Operations tabulas **Intrastat** lauka **Intrastat.AmountMST** vērtību pēc tam, kad šī vērtība ir noapaļota līdz diviem cipariem aiz komata. [![picture-expression-binding](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg) Tālāk esošajā attēlā ir redzams, kā var izmantot šāda veida izteiksmi. Šajā piemērā izstrādātās izteiksmes rezultāts tiek ievadīts datu modeļa **Nodokļu pārskatu veidošanas modelis** komponentā **Transaction.InvoicedAmount**. [![picture-expression-binding2](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg) Izpildes laikā izstrādātā formula **ROUND (Intrastat.AmountMST, 2)** noapaļo katra tabulas **Intrastat** ieraksta lauka **AmountMST** vērtību līdz diviem cipariem aiz komata un ievada noapaļoto vērtību datu modeļa **Nodokļu pārskatu veidošana** komponentā **Transaction.InvoicedAmount**.
+Nākamajā attēlā ir parādīts šī tipa izteiksmes noformējums. Šajā piemērā izteiksme atgriež Finance and Operations tabulas **Intrastat** lauka **Intrastat.AmountMST** vērtību pēc tam, kad šī vērtība ir noapaļota līdz diviem cipariem aiz komata. [![picture-expression-binding](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg) Tālāk esošajā attēlā ir redzams, kā var izmantot šāda veida izteiksmi. Šajā piemērā izstrādātās izteiksmes rezultāts tiek ievadīts datu modeļa **Nodokļu pārskatu veidošanas modelis** komponentā **Transaction.InvoicedAmount**. [![picture-expression-binding2](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg) Izpildes laikā izstrādātā formula **ROUND (Intrastat.AmountMST, 2)** noapaļo katra tabulas **Intrastat** ieraksta lauka **AmountMST** vērtību līdz diviem cipariem aiz komata un ievada noapaļoto vērtību datu modeļa **Nodokļu pārskatu veidošana** komponentā **Transaction.InvoicedAmount**.
 
 ### <a name="data-formatting"></a>Datu formatēšana
 
@@ -110,7 +110,7 @@ Kad veidojat izteiksmes, varat lietot teksta un skaitļu konstantes (vērtības,
 
 Nākamajā tabulā ir parādīti aritmētiskie operatori, ko varat izmantot, lai veiktu pamata matemātiskās darbības, piemēram, saskaitīšanu, atņemšanu, dalīšanu un reizināšanu.
 
-| Operators | Nozīme              | Paraugs |
+| Operators | Nozīme              | Piemērs |
 |----------|----------------------|---------|
 | +        | Papildinājums             | 1+2     |
 | -        | Atņemšana Negācija | 5-2 -1  |
@@ -119,7 +119,7 @@ Nākamajā tabulā ir parādīti aritmētiskie operatori, ko varat izmantot, lai
 
 Nākamajā tabulā ir parādīti salīdzināšanas operatori, kas tiek atbalstīti un ko varat izmantot, lai salīdzinātu divas vērtības.
 
-| Operators | Nozīme                  | Paraugs    |
+| Operators | Nozīme                  | Piemērs    |
 |----------|--------------------------|------------|
 | =        | Vienāds                    | X=Y        |
 | &gt;     | Lielāks nekā             | X&gt;Y     |
@@ -130,7 +130,7 @@ Nākamajā tabulā ir parādīti salīdzināšanas operatori, kas tiek atbalstī
 
 Turklāt rakstzīmi & varat izmantot kā teksta konkatenācijas operatoru, lai vienu vai vairākas teksta virknes savirknētu jeb savienotu vienā teksta daļā.
 
-| Operators | Nozīme     | Paraugs                                        |
+| Operators | Nozīme     | Piemērs                                        |
 |----------|-------------|------------------------------------------------|
 | &        | Savienot | "Nav ko drukāt" & ": " & "nav atrasts neviens ieraksts" |
 
@@ -157,13 +157,25 @@ Visus pašreizējā ER komponenta (modeļa vai formāta) datu avotus, kas ir pie
 -   Uz datu avotu **Today's date & time** jūsu ER izteiksmē ir jāatsaucas šādi: **'Today''s date & time'**
 -   Uz metodi **name()** datu avotam **Customers** jūsu ER izteiksmē ir jāatsaucas šādi: **Customers.'name()'**
 
+Ņemiet vērā, ka tālāk norādītā sintakse tiek izmantota, lai izsauktu metodes Dynamics 365 for Operation datu avotiem ar parametriem.
+
+- Uz metodi isLanguageRTL sistēmas datu avotam ar parametru EN-US, kuram ir virknes datu tips, ER izteiksmē ir jāatsaucas šādi: System.’isLanguageRTL’(“EN-US”).
+- Pēdiņas nav obligātas, ja metodes nosaukums ietver tikai burtu un ciparu simbolus. Tās ir obligātas tabulu metodei, kad nosaukums ietver iekavas.
+
+Kad šis sistēmas datu avots tiek pievienots ER kartēšanai, kas atsaucas uz Dynamics 365 for Operation programmas klasi Globāls, tad izteiksme atgriež Būla vērtību FALSE. Modificētā izteiksme, System.’ isLanguageRTL’(“AR”) atgriež Būla vērtību TRUE.
+
+Ņemiet vērā, ka nodošanu šādu metožu parametriem var definēt ar tālāk norādītajiem ierobežojumiem.
+
+- Uz šādām metodēm var nodot tikai konstantes, kuru vērtība tiek definēta noformēšanas laikā.
+- Šādiem parametriem tiek atbalstīti tikai primitīvi (pamata) datu tipi (vesels skaitlis, reāls skaitlis, Būla vērtība, virkne un citi).
+
 #### <a name="path"></a>Ceļš
 
-Ja izteiksme atsaucas uz kādu strukturētu datu avotu, ceļa definīciju varat izmantot, lai atlasītu konkrētu šī datu avota primitīvo elementu. Punkta rakstzīme (.) tiek lietota, lai atdalītu atsevišķus strukturēta datu avota elementus. Piemēram, pašreizējais ER datu modelis ietver datu avotu **InvoiceTransactions**, kurš atgriež ierakstu sarakstu. Ieraksta**InvoiceTransactions** struktūra ietver laukus **AmountDebit** un **AmountCredit**, kuri atgriež skaitliskas vērtības. Tādēļ varat izveidot šādu izteiksmi, lai aprēķinātu rēķinā iekļauto summu: **InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit**
+Ja izteiksme atsaucas uz kādu strukturētu datu avotu, ceļa definīciju varat izmantot, lai atlasītu konkrētu šī datu avota primitīvo elementu. Punkta rakstzīme (.) tiek lietota, lai atdalītu atsevišķus strukturēta datu avota elementus. Piemēram, pašreizējais ER datu modelis ietver datu avotu **InvoiceTransactions**, kurš atgriež ierakstu sarakstu. Ieraksta **InvoiceTransactions** struktūra ietver laukus **AmountDebit** un **AmountCredit**, kuri atgriež skaitliskas vērtības. Tādēļ varat izveidot šādu izteiksmi, lai aprēķinātu rēķinā iekļauto summu: **InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit**
 
 #### <a name="functions"></a>Funkcijas
 
-Nākamajā sadaļā ir aprakstītas funkcijas, kuras var izmantot ER izteiksmēs. Visus izteiksmes konteksta datu avotus (pašreizējo ER datu modeli vai ER formātu), kā arī visas konstantes var izmantot kā parametrus funkciju izsaukšanai saskaņā ar funkciju izsaukšanas argumentu sarakstu. Piemēram, pašreizējais ER datu modelis ietver datu avotu **InvoiceTransactions**, kurš atgriež ierakstu sarakstu. Ieraksta**InvoiceTransactions** struktūra ietver laukus **AmountDebit** un **AmountCredit**, kuri atgriež skaitliskas vērtības. Tāpēc, lai aprēķinātu rēķinā iekļauto sumu, varat izveidot šādu izteiksmi, kas lieto iebūvēto ER noapaļošanas funkciju: **ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)**
+Nākamajā sadaļā ir aprakstītas funkcijas, kuras var izmantot ER izteiksmēs. Visus izteiksmes konteksta datu avotus (pašreizējo ER datu modeli vai ER formātu), kā arī visas konstantes var izmantot kā parametrus funkciju izsaukšanai saskaņā ar funkciju izsaukšanas argumentu sarakstu. Piemēram, pašreizējais ER datu modelis ietver datu avotu **InvoiceTransactions**, kurš atgriež ierakstu sarakstu. Ieraksta **InvoiceTransactions** struktūra ietver laukus **AmountDebit** un **AmountCredit**, kuri atgriež skaitliskas vērtības. Tāpēc, lai aprēķinātu rēķinā iekļauto sumu, varat izveidot šādu izteiksmi, kas lieto iebūvēto ER noapaļošanas funkciju: **ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)**
 
 ## <a name="supported-functions"></a>Atbalstītās funkcijas
 Nākamajās tabulās ir aprakstītas datu manipulācijas funkcijas, kuras var izmantot, lai izveidotu ER datu modeļus un ER atskaites. Šis funkciju saraksts nav fiksēts, un izstrādātāji to var pagarināt. Lai redzētu sarakstu ar funkcijām, kuras varat izmantot, piekļūstiet funkciju rūtij ER formulas veidotājā.
@@ -173,18 +185,29 @@ Nākamajās tabulās ir aprakstītas datu manipulācijas funkcijas, kuras var iz
 | Funkcija                                   | Apraksts                                                                                                                                                                                                                                                                                                                                                      | Piemērs                                                                                                                                                                                                                                                                                               |
 |--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ADDDAYS (datums un laiks, dienas)                   | Norādītajai datuma un laika vērtībai pieskaitiet norādīto dienu skaitu.                                                                                                                                                                                                                                                                                                | **ADDDAYS (NOW(), 7)** atgriež datumu un laiku septiņas dienas uz priekšu.                                                                                                                                                                                                                            |
-| DATETODATETIME (datums)                      | Norādīto datuma vērtību pārveidojiet par datuma un laika vērtību.                                                                                                                                                                                                                                                                                                            | **DATETODATETIME (CompInfo. 'getCurrentDate()')** atgriež pašreizējās Dynamics 365 for Operations sesijas datumu 12.24.2015. formātā **12/24/2015 12:00:00 AM**. Šajā piemērā **CompInfo** ir ER datu avots ar tipu **Dynamics 365 for Operations/Table**, kas atsaucas uz tabulu CompanyInfo. |
-| NOW ()                                     | Pašreizējā Dynamics 365 for Operations programmas servera datumu un laiku atgrieziet kā datuma un laika vērtību.                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                       |
-| TODAY ()                                   | Pašreizējā Dynamics 365 for Operations programmas servera datumu atgrieziet kā datuma vērtību.                                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                       |
+| DATETODATETIME (datums)                      | Norādīto datuma vērtību pārveidojiet par datuma un laika vērtību.                                                                                                                                                                                                                                                                                                            | **DATETODATETIME (CompInfo. 'getCurrentDate()')** pašreizējās Finance and Operations sesijas datumu, 24.12.2015, atgriež izteiktu kā **12/24/2015 12:00:00 AM**. Šajā piemērā **CompInfo** ir ER datu avots ar tipu **Finance and Operations/Table**, kas atsaucas uz tabulu CompanyInfo. |
+| NOW ()                                     | Pašreizējo Finance and Operations programmas servera datumu un laiku atgrieziet kā datuma un laika vērtību.                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                       |
+| TODAY ()                                   | Pašreizējo Finance and Operations programmas servera datumu atgrieziet kā datuma vērtību.                                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                       |
 | NULLDATE ()                                | Atgrieziet datuma vērtību **null**.                                                                                                                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                       |
 | NULLDATETIME ()                            | Atgrieziet datuma un laika vērtību **null**.                                                                                                                                                                                                                                                                                                                                |                                                                                                                                                                                                                                                                                                       |
-| DATETIMEFORMAT (datums un laiks, formāts)          | Norādīto datuma un laika vērtību pārveidojiet par virkni norādītajā formātā. (Papildinformāciju par atbalstītajiem formātiem skatiet sadaļās [standarta](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) un [pielāgots](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).)                                                                        | **DATETIMEFORMAT (NOW(), "dd-MM-yyyy")** pašreizējo Dynamics 365 for Operations programmas servera datumu, 12/24/2015, atgriež kā **"24-12-2015"**, atbilstoši norādītajam pielāgotajam formātam.                                                                                                          |
-| DATETIMEFORMAT (datums un laiks, formāts, kultūra) | Norādīto datuma un laika vērtību pārveidojiet par virkni norādītajā formātā un atbilstoši norādītajai [kultūrai](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Papildinformāciju par atbalstītajiem formātiem skatiet sadaļās [standarta](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) un [pielāgots](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "d", "de")** pašreizējo Dynamics 365 for Operations programmas servera datumu, 12/24/2015, atgriež kā **"24.12.2015"**, atbilstoši atlasītajai vācu kultūrai.                                                                                                             |
-| SESSIONTODAY ()                            | Pašreizējās Dynamics 365 for Operations sesijas datumu atgriež kā datuma vērtību.                                                                                                                                                                                                                                                                                      |                                                                                                                                                                                                                                                                                                       |
-| SESSIONNOW ()                              | Pašreizējās Dynamics 365 for Operations sesijas datumu un laiku atgriež kā datuma un laika vērtību.                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                       |
-| DATEFORMAT (datums, formāts)                  | Atgriež datuma virknes attēlojumu, izmantojot norādīto formātu.                                                                                                                                                                                                                                                                                                    | **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** pašreizējās Dynamics 365 for Operations sesijas datumu 12/24/2015 atgriež kā “**24-12-2015**” atbilstoši norādītajam pielāgotajam formātam.                                                                                                                      |
-| DATEFORMAT (datums, formāts, kultūra)         | Norādīto datuma vērtību pārveidojiet par virkni norādītajā formātā un atbilstoši norādītajai [kultūrai](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Papildinformāciju par atbalstītajiem formātiem skatiet sadaļās [standarta](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) un [pielāgots](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).)     | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** pašreizējās Dynamics 365 for Operations sesijas datumu 12/24/2015 atgriež kā **“24.12.2015”** atbilstoši atlasītajai vācu kultūrai.                                                                                                                       |
+| DATETIMEFORMAT (datums un laiks, formāts)          | Norādīto datuma un laika vērtību pārveidojiet par virkni norādītajā formātā. (Papildinformāciju par atbalstītajiem formātiem skatiet sadaļās [standarta](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) un [pielāgots](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).)                                                                        | **DATETIMEFORMAT (NOW(), "dd-MM-yyyy")** pašreizējās Finance and Operations programmas servera datumu, 24.12.2015, atgriež kā **"24-12-2015"**, atbilstoši norādītajam pielāgotajam formātam.                                                                                                          |
+| DATETIMEFORMAT (datums un laiks, formāts, kultūra) | Norādīto datuma un laika vērtību pārveidojiet par virkni norādītajā formātā un atbilstoši norādītajai [kultūrai](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Papildinformāciju par atbalstītajiem formātiem skatiet sadaļās [standarta](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) un [pielāgots](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "d", "de")** pašreizējo Finance and Operations programmas servera datumu, 12.24.2015, atgriež kā **"24.12.2015"** atbilstoši atlasītajai vācu kultūrai.                                                                                                             |
+| SESSIONTODAY ()                            | Pašreizējās Finance and Operations sesijas datumu atgriež kā datuma vērtību.                                                                                                                                                                                                                                                                                      |                                                                                                                                                                                                                                                                                                       |
+| SESSIONNOW ()                              | Pašreizējās Dynamics 365 for Finance and Operations sesijas datumu un laiku atgriež kā datuma un laika vērtību.                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                       |
+| DATEFORMAT (datums, formāts)                  | Atgriež datuma virknes attēlojumu, izmantojot norādīto formātu.                                                                                                                                                                                                                                                                                                    | **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** pašreizējās Dynamics 365 for Operations sesijas datumu 24.12.2015 atgriež kā “**24-12-2015**” atbilstoši norādītajam pielāgotajam formātam.                                                                                                                      |
+| DATEFORMAT (datums, formāts, kultūra)         | Norādīto datuma vērtību pārveidojiet par virkni norādītajā formātā un atbilstoši norādītajai [kultūrai](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Papildinformāciju par atbalstītajiem formātiem skatiet sadaļās [standarta](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) un [pielāgots](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).)     | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** pašreizējo Finance and Operations programmas servera datumu, 24.12.2015, atgriež kā **“24.12.2015”** atbilstoši atlasītajai vācu kultūrai.                                                                                                                       |
+| DAYOFYEAR (datums)              | Atgriež veselu skaitļu attēlojumu dienu skaitam no 1. janvāra līdz norādītajam datumam.       | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** atgriež **61**.
+**DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** atgriež **1**.                                                                                                                       |
 
+**Datu konvertēšanas funkcijas**
+
+| Funkcija                                   | Apraksts                                                                                                                                                                                                                                                                                                                                                      | Piemērs                                                                                                                                                                                                                                                                                               |
+|--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| DATETODATETIME (datums)                 | Norādīto datuma vērtību pārveidojiet par datuma un laika vērtību.           | **DATETODATETIME (CompInfo. 'getCurrentDate()')** pašreizējās Finance and Operations sesijas datumu, 24.12.2015, atgriež izteiktu kā **12/24/2015 12:00:00 AM**. Šajā piemērā **CompInfo** ir ER datu avots ar tipu **Finance and Operations/Table**, kas atsaucas uz tabulu **CompanyInfo**.                                                                                                                       |
+| DATEVALUE (virkne, formāts)              | Atgriež virknei atbilstošo datuma attēlojumu, izmantojot norādīto formātu.       | **DATEVALUE ("21-Dec-2016", "dd-MMM-yyyy")** atgriež datumu 21.12.2016 atbilstoši norādītajam pielāgotajam formātam un programmas noklusējuma kultūrai **EN-US**.                                                                                                                       |
+| DATEVALUE (virkne, formāts, kultūra)              | Atgriež virknei atbilstošo datuma attēlojumu, izmantojot norādīto formātu un kultūru.       | **DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", “IT”)** atgriež datumu 21.01.2016 atbilstoši norādītajam pielāgotajam formātam un kultūrai. Šīs funkcijas izsaukumam **DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", “EN-US”)** tiek parādīts izņēmums, informējot, ka attiecīgā virkne nav atpazīta kā derīgs datums.                                                                                                                       |
+| DATETIMEVALUE (virkne, formāts)              | Atgriež virknei atbilstošo datumu un laiku, izmantojot norādīto formātu.       | **DATETIMEVALUE ("21-Dec-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss")** atgriež 2016. gada 21. decembra plkst. 2.55.00 atbilstoši norādītajam pielāgotajam formātam un programmas noklusējuma kultūrai **EN-US**.                                                                                                                       |
+| DATETIMEVALUE (virkne, formāts, kultūra)              | Atgriež virknei atbilstošo datuma un laika attēlojumu, izmantojot norādīto formātu un kultūru.       | **DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", “IT”)** atgriež 2016. gada 21. decembra plkst. 2.55.00 atbilstoši norādītajam pielāgotajam formātam un kultūrai. Šīs funkcijas izsaukumam **DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", “EN-US”)** tiek parādīts izņēmums, informējot, ka attiecīgā virkne nav atpazīta kā derīgs datums un laiks.                                                                                                                       |
 ### <a name="list-functions"></a>Saraksta funkcijas
 
 <table>
@@ -196,7 +219,7 @@ Nākamajās tabulās ir aprakstītas datu manipulācijas funkcijas, kuras var iz
 <thead>
 <tr class="header">
 <th>Funkcija</th>
-<th>apraksts</th>
+<th>Apraksts</th>
 <th>Piemērs</th>
 </tr>
 </thead>
@@ -296,7 +319,7 @@ Izveidotais saraksts sastāvēs no ierakstiem ar šādiem laukiem:
 <ul>
 <li>Vārds, uzvārds</li>
 <li>Etiķete</li>
-<li>apraksts</li>
+<li>Apraksts</li>
 </ul>
 Lauki Etiķete un Apraksts atgriezīsies pie izpildes laika vērtībām, pamatojoties uz formāta valodas iestatījumiem.</td>
 <td>Nākamajā piemērā ir parādīts datu modelī ieviests uzskaitījums. <a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="GER LISTOFFIELDS function - model enumeration" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a>Nākamajā piemērā ir redzams tālāk norādītais.
@@ -327,9 +350,9 @@ Lauki Etiķete un Apraksts atgriezīsies pie izpildes laika vērtībām, pamatoj
 
 ### <a name="logical-functions"></a>Loģiskas funkcijas
 
-| Funkcija                                                                                | apraksts                                                                                                                                                                                                                                                                     | Paraugs                                                                                                                                                                                                                                                      |
+| Funkcija                                                                                | Apraksts                                                                                                                                                                                                                                                                     | Piemērs                                                                                                                                                                                                                                                      |
 |-----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| CASE (izteiksme, 1. opcija, 1. rezultāts \[, 2. opcija, 2. rezultāts\] ... \[, noklusējuma rezultāts\]) | Norādītās izteiksmes vērtību novērtēt pret norādītajām alternatīvajām opcijām. Atgriezt tās opcijas rezultātu, kas ir vienāda ar izteiksmes vērtību. Pretējā gadījumā atgriezt pēc izvēles ievadīto noklusējuma rezultātu (pēdējais parametrs, kura priekšā neatrodas opcija). | **CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "WINTER", "11", "WINTER", "12", "WINTER", "")** atgriež virkni **"WINTER"**, ja pašreizējās Dynamics 365 for Operations sesijas datums ir diapazonā no oktobra līdz decembrim. Pretējā gadījumā šī izteiksme atgriež tukšu virkni. |
+| CASE (izteiksme, 1. opcija, 1. rezultāts \[, 2. opcija, 2. rezultāts\] ... \[, noklusējuma rezultāts\]) | Norādītās izteiksmes vērtību novērtēt pret norādītajām alternatīvajām opcijām. Atgriezt tās opcijas rezultātu, kas ir vienāda ar izteiksmes vērtību. Pretējā gadījumā atgriezt pēc izvēles ievadīto noklusējuma rezultātu (pēdējais parametrs, kura priekšā neatrodas opcija). | **CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "WINTER", "11", "WINTER", "12", "WINTER", "")** atgriež virkni **"WINTER"**, ja pašreizējās Finance and Operations sesijas datums ir diapazonā no oktobra līdz decembrim. Pretējā gadījumā šī izteiksme atgriež tukšu virkni. |
 | IF (nosacījums, 1. vērtība, 2. vērtība)                                                        | Atgriezt norādīto 1. vērtību, ja attiecīgais nosacījums tiek izpildīts. Pretējā gadījumā tiek atgriezta 2. vērtība. Ja 1. vērtība un 2. vērtība ir ieraksti vai ierakstu saraksti, rezultātā ir ietverti tikai tie lauki, kas ir iekļauti abos sarakstos.                                                                     | **IF (1=2, "nosacījums tiek izpildīts", "nosacījums netiek izpildīts")** atgriež virkni **"nosacījums netiek izpildīts"**.                                                                                                                                                      |
 | NOT (nosacījums)                                                                         | Atgriezt norādītā nosacījuma pretējo loģisko vērtību.                                                                                                                                                                                                                   | **NOT (TRUE)** atgriež **FALSE**.                                                                                                                                                                                                                            |
 | AND (1. nosacījums\[, 2. nosacījums, ...\])                                                 | Atgriež **TRUE**, ja *visi *norādītie nosacījumi ir patiesi. Pretējā gadījumā atgriezt vērtību **FALSE**.                                                                                                                                                                                            | **AND (1=1, "a"="a")** atgriež **TRUE**. **AND (1=2, "a"="a")** atgriež **FALSE**.                                                                                                                                                                           |
@@ -394,11 +417,24 @@ Lauki Etiķete un Apraksts atgriezīsies pie izpildes laika vērtībām, pamatoj
 </tbody>
 </table>
 
+**Datu konvertēšanas funkcijas**
+
+| Funkcija             | Apraksts                                                                                                                                                                                                                                     | Piemērs                                                                                                                                             |
+|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| VALUE (vērtība) | Norādīto virkni pārveidot par skaitli. Komati un punkta rakstzīmes (.) tiek uzskatīti par decimāldaļu atdalītājiem, un sākuma defise (-) tiek lietota kā mīnusa zīme. Ja norādītajā virknē tiek konstatētas citas rakstzīmes, kas nav skaitļi, rodas kļūda.                                                                                  | **VALUE ("1 234,56")** parāda izņēmumu.   |
+| NUMBERVALUE (virkne, decimāldaļu atdalītājs, ciparu grupēšanas atdalītājs) | Norādīto virkni pārveidot par skaitli. Norādītais simbols tiek lietots, lai decimāldaļskaitlim veselo skaitli atdalītu no daļskaitļiem, kā arī tiek lietots norādītais tūkstošu atdalītājs.                                                                                  | **NUMBERVALUE("1 234,56", ",", " ")** atgriež vērtību **1234.56**.    |
+| INTVALUE (virkne) | Atgriež virknei atbilstošo vesela skaitļa attēlojumu. Visi pieejamie cipari aiz komata tiks apcirsti.                                                                                  | **INTVALUE (“100.77”)** atgriež **100**. |
+| INTVALUE (skaitlis) | Atgriež skaitlim atbilstošo vesela skaitļa attēlojumu. Visi pieejamie cipari aiz komata tiks apcirsti.                                                                                  | **INTVALUE (-100.77)** atgriež **-100**. |
+| INT64VALUE (virkne) | Atgriež virknei atbilstošo int64 attēlojumu. Visi pieejamie cipari aiz komata tiks apcirsti.                                                                                  | **INT64VALUE (“22565422744”)** atgriež **22565422744**. |
+| INT64VALUE (skaitlis) | Atgriež skaitlim atbilstošo int64 attēlojumu. Visi pieejamie cipari aiz komata tiks apcirsti.                                                                                  | **INT64VALUE (22565422744.00)** atgriež **22565422744**. |
+
+
+
 ### <a name="record-functions"></a>Ieraksta funkcijas
 
 | Funkcija             | Apraksts                                                                                                                                                                                                                                     | Piemērs                                                                                                                                             |
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| NULLCONTAINER (saraksts) | Atgriezt ierakstu **null**, kam ir tāda pati struktūra kā norādītajam ierakstu sarakstam vai ierakstam. **Piezīme.**Šī funkcija ir novecojusi. Tās vietā lietojiet **EMPTYRECORD**.                                                                                  | **NULLCONTAINER (SPLIT ("abc", 1))** atgriež jaunu tukšu ierakstu, kam ir tāda pati struktūra kā sarakstam, ko atgrieza funkcija **SPLIT**. |
+| NULLCONTAINER (saraksts) | Atgriezt ierakstu **null**, kam ir tāda pati struktūra kā norādītajam ierakstu sarakstam vai ierakstam. **Piezīme.** Šī funkcija ir novecojusi. Tās vietā lietojiet **EMPTYRECORD**.                                                                                  | **NULLCONTAINER (SPLIT ("abc", 1))** atgriež jaunu tukšu ierakstu, kam ir tāda pati struktūra kā sarakstam, ko atgrieza funkcija **SPLIT**. |
 | EMPTYRECORD (ieraksts) | Atgriezt ierakstu **null**, kam ir tāda pati struktūra kā norādītajam ierakstu sarakstam vai ierakstam. **Piezīme.** Ieraksts **Null** tiek lietots, ja visu lauku vērtības ir tukšas (**0** \[nulle\] skaitliskas vērtības laikam, tukša vērtība virknes laukam utt.). | **EMPTYRECORD (SPLIT ("abc", 1))** atgriež jaunu tukšu ierakstu, kam ir tāda pati struktūra kā sarakstam, ko atgrieza funkcija **SPLIT**.   |
 
 ### <a name="text-functions"></a>Teksta funkcijas
@@ -420,32 +456,32 @@ Lauki Etiķete un Apraksts atgriezīsies pie izpildes laika vērtībām, pamatoj
 <tr class="odd">
 <td>UPPER (virkne)</td>
 <td>Atgriezt norādīto virkni, kas pārveidota par lielajiem burtiem.</td>
-<td><strong>UPPER(&quot;Paraugs&quot;)</strong> atgriež <strong>&quot;PARAUGS&quot;</strong>.</td>
+<td><strong>UPPER(&quot;Piemērs&quot;)</strong> atgriež <strong>&quot;PIEMĒRS&quot;</strong>.</td>
 </tr>
 <tr class="even">
 <td>LOWER (virkne)</td>
 <td>Atgriezt norādīto virkni, kas pārveidota par mazajiem burtiem.</td>
-<td><strong>LOWER (&quot;Paraugs&quot;)</strong> atgriež <strong>&quot;paraugs&quot;</strong>.</td>
+<td><strong>LOWER (&quot;Piemērs&quot;)</strong> atgriež <strong>&quot;piemērs&quot;</strong>.</td>
 </tr>
 <tr class="odd">
 <td>LEFT (virkne, rakstzīmju skaits)</td>
 <td>Atgriezt noteikto rakstzīmju skaitu no norādītās virknes sākuma.</td>
-<td><strong>LEFT (&quot;Paraugs&quot;, 3)</strong> atgriež <strong>&quot;Par&quot;</strong>.</td>
+<td><strong>LEFT (&quot;Piemērs&quot;, 3)</strong> atgriež <strong>&quot;Pie&quot;</strong>.</td>
 </tr>
 <tr class="even">
 <td>RIGHT (virkne, rakstzīmju skaits)</td>
 <td>Atgriezt noteikto rakstzīmju skaitu no norādītās virknes beigām.</td>
-<td><strong>RIGHT (&quot;Paraugs&quot;, 3)</strong> atgriež <strong>&quot;ugs&quot;</strong>.</td>
+<td><strong>RIGHT (&quot;Piemērs&quot;, 3)</strong> atgriež <strong>&quot;ērs&quot;</strong>.</td>
 </tr>
 <tr class="odd">
 <td>MID (virkne, sākuma pozīcija, rakstzīmju skaits)</td>
 <td>Atgriezt noteikto rakstzīmju skaitu no norādītās virknes, sākot norādītajā pozīcijā.</td>
-<td><strong>MID (&quot;Paraugs&quot;, 2, 3)</strong> atgriež <strong>&quot;ara&quot;</strong>.</td>
+<td><strong>MID (&quot;Piemērs&quot;, 2, 3)</strong> atgriež <strong>&quot;mēr&quot;</strong>.</td>
 </tr>
 <tr class="even">
 <td>LEN (virkne)</td>
 <td>Atgriezt norādītajā virknē esošo rakstzīmju skaitu.</td>
-<td><strong>LEN (&quot;Paraugs&quot;)</strong> atgriež <strong>6</strong>.</td>
+<td><strong>LEN (&quot;Piemērs&quot;)</strong> atgriež <strong>6</strong>.</td>
 </tr>
 <tr class="odd">
 <td>CHAR (skaitlis)</td>
@@ -469,29 +505,29 @@ Lauki Etiķete un Apraksts atgriezīsies pie izpildes laika vērtībām, pamatoj
 </tr>
 <tr class="odd">
 <td>TEXT (ievade)</td>
-<td>Atgriezt norādīto ievadi, kas ir pārveidota par teksta virkni, kura ir formatēta atbilstoši pašreizējāsDynamics 365 for Operations instances servera lokalizācijas iestatījumiem. Vērtībām ar tipu <strong>real</strong> šīs virknes pārveidošana ir ierobežota līdz diviem cipariem aiz komata.</td>
-<td>Ja ir norādīta Dynamics 365 for Operations instances servera lokalizācija <strong>EN-US</strong>, funkcija <strong>TEXT (NOW ())</strong> atgriež pašreizējās Dynamics 365 for Operations sesijas datumu 12.17.2015. kā teksta virkni <strong>&quot;12/17/2015 07:59:23 AM&quot;</strong>. <strong>TEXT (1/3)</strong> atgriež <strong>&quot;0.33&quot;</strong>.</td>
+<td>Atgriezt norādīto ievadi, kas ir pārveidota par teksta virkni, kura ir formatēta atbilstoši pašreizējās Finance and Operations instances servera lokalizācijas iestatījumiem. Vērtībām ar tipu <strong>real</strong> šīs virknes pārveidošana ir ierobežota līdz diviem cipariem aiz komata.</td>
+<td>Ja Finance and Operations instances servera lokalizācija ir definēta kā <strong>EN-US</strong>, tad <strong>TEXT (NOW ())</strong> pašreizējo Finance and Operations sesijas datumu 17.12.2015 atgriež kā teksta virkni <strong>&quot;12/17/2015 07:59:23 AM&quot;</strong>. <strong>TEXT (1/3)</strong> atgriež <strong>&quot;0.33&quot;</strong>.</td>
 </tr>
 <tr class="even">
 <td>FORMAT (1. virkne, 2. virkne[, 3. virkne, ...])</td>
 <td>Atgriež norādīto virkni, kas ir formatēta, visus <strong>%N</strong> gadījumus aizstājot ar <em>n</em>-to argumentu. Argumenti ir virknes. Ja nav norādīts parametra arguments, šis parametrs virknē tiek atgriezts kā <strong>&quot;%N&quot;</strong>. Vērtībām ar tipu <strong>real</strong> šīs virknes pārveidošana ir ierobežota līdz diviem cipariem aiz komata.</td>
 <td>Šajā piemērā datu avots <strong>PaymentModel</strong> atgriež sarakstu ar debitoru ierakstiem, izmantojot komponentu <strong>Customer</strong>, un apstrādāšanas datuma vērtību, izmantojot lauku <strong>ProcessingDate</strong>. <a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> ER formātā, kas ir izstrādāts, lai ģenerētu elektronisku failu noteiktiem debitoriem, kā datu avots ir atlasīts elements <strong>PaymentModel</strong>, un tas kontrolē procesa plūsmu. Izņēmums lietotājiem tiek parādīts, kad atlasītais debitors tiek apturēts datumam, kad atskaite tiek apstrādāta. Šāda tipa apstrādes kontrolei izveidotā formulā var izmantot šādus resursus:
 <ul>
-<li>Dynamics 365 for Operations etiķete SYS70894, kurā ir šāds teksts:
+<li>Finance and Operations etiķete SYS70894, kurā ir šāds teksts:
 <ul>
 <li><strong>Valodai EN-US:</strong> &quot;Nothing to print&quot;</li>
 <li><strong>Valodai DE:</strong> &quot;Nichts zu drucken&quot;</li>
 </ul></li>
-<li>Dynamics 365 for Operations etiķete SYS18389, kurā ir šāds teksts:
+<li>Finance and Operations etiķete SYS18389, kurā ir šāds teksts:
 <ul>
 <li><strong>Valodai EN-US:</strong> &quot;Customer %1 is stopped for %2.&quot;</li>
 <li><strong>Valodai DE:</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
 </ul></li>
 </ul>
-Tālāk ir norādīta izstrādājamā formula. FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &quot;. &quot;, @&quot;SYS18389&quot;), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, &quot;d&quot;)) Ja 2015. gada 17. decembrī tiek apstrādāta atskaite par debitoru <strong>Litware Retail customer</strong>, izmantojot kultūru <strong>EN-US</strong> un valodu <strong>EN-US</strong>, šī formula atgriež tālāk norādīto tekstu, kas var tikt parādīts lietotajam kā izņēmuma ziņojums. &quot;Nothing to print. Customer Litware Retail is stopped for 12/17/2015.&quot; Ja 2015. gada 17. decembrī tiek apstrādāta tā pati atskaite par debitoru <strong> Litware Retail customer</strong>, izmantojot kultūru <strong>DE</strong> un valodu <strong>DE</strong>, šī formula atgriež tālāk norādīto tekstu, kurā tiek izmantots cits datuma formāts. &quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot; <strong>Piezīme. </strong>ER formulās etiķetēm tiek lietota šāda sintakse:
+Tālāk ir norādīta izstrādājamā formula. FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &quot;. &quot;, @&quot;SYS18389&quot;), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, &quot;d&quot;)) Ja 2015. gada 17. decembrī tiek apstrādāta atskaite par debitoru <strong>Litware Retail customer</strong>, izmantojot kultūru <strong>EN-US</strong> un valodu <strong>EN-US</strong>, šī formula atgriež tālāk norādīto tekstu, kas var tikt parādīts lietotajam kā izņēmuma ziņojums. &quot;Nothing to print. Customer Litware Retail is stopped for 12/17/2015.&quot; Ja tas pats pārskats par debitoru<strong> Litware Retail customer</strong> tiek apstrādāts 2015. gada 17. decembrī, izmantojot kultūru <strong>DE</strong> un valodu <strong>DE</strong>, tad šī formula atgriež tālāk norādīto tekstu, kurā tiek izmantots cits datuma formāts. &quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot; <strong>Ņemiet vērā!</strong> ER formulās etiķetēm tiek lietota tālāk norādītā sintakse.
 <ul>
-<li><strong>Etiķetēm no Dynamics 365 for Operations resursiem:</strong> <strong>@&quot;X&quot;</strong>, kur X ir etiķetes ID lietojumprogrammas objektu kokā (AOT)</li>
-<li><strong>Etiķetēm, kas ir ietvertas ER konfigurācijās:</strong> <strong>@&quot;ER_LABEL:X&quot;</strong>, kur X ir etiķetes ID ER konfigurācijā</li>
+<li><strong>Etiķetēm no Finance and Operations resursiem:</strong> <strong>@&quot;X&quot;</strong>, kur X ir etiķetes ID programmas objektu kokā (Application Object Tree — AOT)</li>
+<li><strong>Etiķetēm, kas ir ietvertas ER konfigurācijās:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, kur X ir etiķetes ID ER konfigurācijā</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -501,7 +537,7 @@ Tālāk ir norādīta izstrādājamā formula. FORMAT (CONCATENATE (@&quot;SYS70
 </tr>
 <tr class="even">
 <td>NUMERALSTOTEXT (skaitlis, valoda, valūta, drukas valūtas nosaukuma karogs, cipari aiz komata)</td>
-<td>Atgriež vārdos izteiktu (konvertētu) skaitli kā teksta virknes definētajā valodā. Valodas kods nav obligāts: ja tas ir definēts kā tukša virkne, tā vietā tiek lietots darbinātais konteksta valodas kods (definēts ģenerēšanas mapei vai failam). Valūtas kods nav obligāts. Ja tas ir definēts kā tukša virkne, tiek ņemta uzņēmuma valūta. Ievērojiet, parametrs <strong>Drukāt valūtas nosaukumu</strong> un parametrs <strong>Cipari aiz komata</strong> tiek analizēti tikai šādiem valodu kodiem: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong>, <strong>RU</strong>. Ievērojiet, parametrs <strong>Drukāt valūtas nosaukumu</strong> tiek analizēts tikai tiem Dynamics 365 for Operations uzņēmumiem, kuru valsts konteksts atbalsta valūtas locījumus.</td>
+<td>Atgriež vārdos izteiktu (konvertētu) skaitli kā teksta virknes definētajā valodā. Valodas kods nav obligāts: ja tas ir definēts kā tukša virkne, tā vietā tiek lietots darbinātais konteksta valodas kods (definēts ģenerēšanas mapei vai failam). Valūtas kods nav obligāts. Ja tas ir definēts kā tukša virkne, tiek ņemta uzņēmuma valūta. Ievērojiet, parametrs <strong>Drukāt valūtas nosaukumu</strong> un parametrs <strong>Cipari aiz komata</strong> tiek analizēti tikai šādiem valodu kodiem: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong>, <strong>RU</strong>. Ņemiet vērā, ka parametrs <strong>Drukāt valūtas nosaukumu</strong> tiek analizēts tikai tiem Finance and Operations uzņēmumiem, kuru valsts konteksts atbalsta valūtas locījumus.</td>
 <td>NUMERALSTOTEXT (1234.56, &quot;EN&quot;, &quot;&quot;, false, 2) atgriež “One Thousand Two Hundred Thirty Four and 56” NUMERALSTOTEXT (120, &quot;PL&quot;, &quot;&quot;, false, 0) atgriež “Sto dwadzieścia” NUMERALSTOTEXT (120.21, &quot;RU&quot;, &quot;EUR&quot;, true, 2) atgriež “Сто двадцать евро 21 евроцент”</td>
 </tr>
 <tr class="odd">
@@ -509,57 +545,60 @@ Tālāk ir norādīta izstrādājamā formula. FORMAT (CONCATENATE (@&quot;SYS70
 <td>Atgriež noteikta garuma virkni, kurā pašreizējās virknes sākumā ir ievadītas norādītās rakstzīmes.</td>
 <td>PADLEFT (“1234”, 10, “ “) atgriež teksta virkni “      1234”</td>
 </tr>
+<tr class="even">
+<td>TRIM (virkne)</td>
+<td>Atgriež norādīto tekstu, apraujot atstarpes sākumā un noslēdzošās atstarpes, kā arī vairākas atstarpes starp vārdiem samazinot līdz vienai atstarpei. </td>
+<td><strong>TRIM ("     Piemēra     teksts     ")</strong> atgriež <strong>"Piemēra teksts".</strong></td>
+=======
+<td>GETENUMVALUEBYNAME (uzskaitījuma datu avota ceļš, uzskaitījuma vērtības etiķetes teksts)</td>
+<td>Atgriež norādītā uzskaitījuma datu avota vērtību pēc norādītā teksta ar šo uzskaitījuma etiķeti.</td>
+<td>Nākamajā piemērā ir parādīts datu modelī ieviests uzskaitījums ReportDirection. Ņemiet vērā, ka etiķetes ir definētas uzskaitījumu vērtībām.
+Nākamajos piemēros ir redzams tālāk norādītais.
+<ul><li>Modeļa uzskaitījums <strong>ReportDirection</strong> ievietots pārskatā kā datu avots <strong>$Direction</strong>.</li>
+<li>ER izteiksme <strong>$IsArrivals</strong>, izveidota ar mērķi lietot modeļa uzskaitījumu kā šīs funkcijas parametru. Šīs izteiksmes vērtība ir <strong>TRUE</strong></li></ul></td>
+</tr>
 </tbody>
 </table>
 
+**Datu konvertēšanas funkcijas**
+
+| Funkcija             | Apraksts                                                                                                                                                                                                                                     | Piemērs                                                                                                                                             |
+|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| TEXT (ievade) | Atgriezt norādīto ievadi, kas ir pārveidota par teksta virkni, kura ir formatēta atbilstoši pašreizējās Finance and Operations instances servera lokalizācijas iestatījumiem.
+Vērtībām ar tipu real šīs virknes pārveidošana ir ierobežota līdz diviem cipariem aiz komata.| Ja Finance and Operations instances servera lokalizācija ir definēta kā **EN-US, TEXT (NOW ())**, tad pašreizējais Finance and Operations sesijas datums, 17.12.2015, tiek atgriezts kā teksta virkne **"12/17/2015 07:59:23 AM"**.
+**TEXT (1/3) atgriež "0.33"**. |
+| QRCODE (virkne) | Atgriež QR koda attēlu base64 binārajā formātā attiecīgajai virknei. | **QRCODE (“Sample text”)** atgriež **U2FtcGxlIHRleHQ=**.   |
+
 ### <a name="data-collection-functions"></a>Datu apkopošanas funkcijas
 
-Funkcija
+| Funkcija             | Apraksts                                                                                                                                                                                                                                     | Piemērs                                                                                                                                             |
+|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| FORMATELEMENTNAME () | Tiek atgriezts pašreizējā formāta elementa nosaukums. Atgriež tukšu virkni, ja pašreizējo failu karogs **Apkopot izvades informāciju** ir izslēgts.| Lai uzzinātu papildinformāciju par šo funkciju lietojumu, skatiet uzdevuma ceļvedi **ER Lietot formāta izvades datus uzskaitei un summēšanai** (daļa no biznesa procesa **Iegūt/izstrādāt IT pakalpojumu/risinājuma komponentus**). |
+| SUMIFS (galvenā virkne summēšanai, kritēriju 1. diapazona virkne, kritēriju 1. vērtības virkne \[, kritēriju 2. diapazona virkne, kritēriju 2. vērtības virkne, …\]) |Atgriež zaru vērtību summu (ar nosaukumu, kas definēts kā atslēga) no XML, kas ir savākts šī formāta izpildes laikā un apmierina ievadītos nosacījumus (diapazona un vērtības pārus). Atgriež nulles vērtību, ja pašreizējo failu karogs **Apkopot izvades informāciju** ir izslēgts. |            |
+| SUMIF (atslēgu virkne summēšanai, kritēriju diapazona virkne, kritēriju vērtību virkne) | Atgriež zaru vērtību summu (ar nosaukumu, kas definēts kā atslēga) no XML, kas ir savākts šī formāta izpildes laikā un apmierina ievadīto nosacījumu (diapazonu un vērtību). Atgriež nulles vērtību, ja pašreizējo failu karogs **Apkopot izvades informāciju** ir izslēgts.|           |
+| COUNTIFS (kritēriju 1. diapazona virkne, kritēriju 1. vērtības virkne \[, kritēriju 2. diapazona virkne, kritēriju 2. vērtības virkne, …\]) | Atgriež zaru skaitu no XML, kas ir savākts šī formāta izpildes laikā un apmierina ievadītos nosacījumus (diapazona un vērtības pārus). Atgriež nulles vērtību, ja pašreizējo failu karogs **Apkopot izvades informāciju** ir izslēgts.|     |
+| COUNTIF (kritēriju diapazona virkne, kritēriju vērtību virkne) | Atgriež zaru skaitu no XML, kas ir savākts šī formāta izpildes laikā un apmierina ievadīto nosacījumu (diapazonu un vērtību). Atgriež nulles vērtību, ja pašreizējo failu karogs **Apkopot izvades informāciju** ir izslēgts.|          |
+| COLLECTEDLIST (kritēriju 1. diapazona virkne, kritēriju 1. vērtības virkne \[, kritēriju 2. diapazona virkne, kritēriju 2. vērtības virkne, …\]) | Atgriež zaru vērtību sarakstu no XML, kas ir savākts šī formāta izpildes laikā un apmierina ievadītos nosacījumus (diapazonu un vērtību). Atgriež tukšu sarakstu, ja pašreizējo failu karogs **Apkopot izvades informāciju** ir izslēgts.|               |   
 
-Apraksts
 
-Paraugs
 
-FORMATELEMENTNAME ()
-
-Tiek atgriezts pašreizējā formāta elementa nosaukums. Atgriež tukšu virkni, ja pašreizējo failu karogs **Apkopot izvades informāciju** ir izslēgts.
-
-Lai uzzinātu papildinformāciju par šo funkciju lietojumu, skatiet uzdevuma ceļvedi **ER Lietot formāta izvades datus uzskaitei un summēšanai** (daļa no biznesa procesa **Iegūt/izstrādāt IT pakalpojumu/risinājuma komponentus**).
-
-SUMIFS (galvenā virkne summēšanai, kritēriju 1. diapazona virkne, kritēriju 1. vērtības virkne \[, kritēriju 2. diapazona virkne, kritēriju 2. vērtības virkne, …\])
-
-Atgriež zaru vērtību summu (ar nosaukumu, kas definēts kā atslēga) no XML, kas ir savākts šī formāta izpildes laikā un apmierina ievadītos nosacījumus (diapazona un vērtības pārus). Atgriež nulles vērtību, ja pašreizējo failu karogs **Apkopot izvades informāciju**ir izslēgts.
-
-SUMIF (atslēgu virkne summēšanai, kritēriju diapazona virkne, kritēriju vērtību virkne)
-
-Atgriež zaru vērtību summu (ar nosaukumu, kas definēts kā atslēga) no XML, kas ir savākts šī formāta izpildes laikā un apmierina ievadīto nosacījumu (diapazonu un vērtību). Atgriež nulles vērtību, ja pašreizējo failu karogs **Apkopot izvades informāciju** ir izslēgts.
-
-COUNTIFS (kritēriju 1. diapazona virkne, kritēriju 1. vērtības virkne \[, kritēriju 2. diapazona virkne, kritēriju 2. vērtības virkne, …\])
-
-Atgriež zaru skaitu no XML, kas ir savākts šī formāta izpildes laikā un apmierina ievadītos nosacījumus (diapazona un vērtības pārus). Atgriež nulles vērtību, ja pašreizējo failu karogs **Apkopot izvades informāciju** ir izslēgts.
-
-COUNTIF (kritēriju diapazona virkne, kritēriju vērtību virkne)
-
-Atgriež zaru skaitu no XML, kas ir savākts šī formāta izpildes laikā un apmierina ievadīto nosacījumu (diapazonu un vērtību). Atgriež nulles vērtību, ja pašreizējo failu karogs **Apkopot izvades informāciju** ir izslēgts.
-
-COLLECTEDLIST (kritēriju 1. diapazona virkne, kritēriju 1. vērtības virkne \[, kritēriju 2. diapazona virkne, kritēriju 2. vērtības virkne, …\])
-
-Atgriež zaru vērtību sarakstu no XML, kas ir savākts šī formāta izpildes laikā un apmierina ievadītos nosacījumus (diapazonu un vērtību). Atgriež tukšu sarakstu, ja pašreizējo failu karogs **Apkopot izvades informāciju**ir izslēgts.
 
 ### <a name="other-business-domainspecific-functions"></a>Citas (biznesa jomai specifiskas) funkcijas
 
-| Funkcija                                                                         | apraksts                                                                                                                                                                                                                                                        | Piemērs                                                                                                                                                                                                                                                                                                       |
+| Funkcija                                                                         | Apraksts                                                                                                                                                                                                                                                        | Piemērs                                                                                                                                                                                                                                                                                                       |
 |----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| CONVERTCURRENCY (summa, avota valūta, mērķa valūta, datums, uzņēmums)        | Norādīto naudas summu no avota valūtas konvertēt mērķa valūtā, izmantojot norādītā Dynamics 365 for Operations uzņēmuma iestatījumus norādītajā datumā.                                                                            | **CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")** atgriež viena eiro ekvivalentu ASV dolāros pašreizējās sesijas datumā, balstoties uz uzņēmuma DEMF iestatījumiem.                                                                                                                                  |
-| ROUNDAMOUNT (skaitlis, cipari aiz komata, noapaļošanas kārtula)                                       | Norādīto summu noapaļot atbilstoši norādītajai noapaļošanas kārtulai un norādītajam ciparu skaitam aiz komata. **Piezīme.** Noapaļošanas kārtula ir jānorāda kā Dynamics 365 for Operations uzskaitījums **RoundOffType**.                          | Ja ir iestatīta parametra **model.RoundOff** vērtība ****Downward****, funkcija **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** atgriež vērtību **1000.78**. Ja parametrs **model.RoundOff** ir iestatīts uz **Normal** vai uz **Rounding-up**, tad **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** atgriež vērtību **1000.79**. |
+| CONVERTCURRENCY (summa, avota valūta, mērķa valūta, datums, uzņēmums)        | Norādīto naudas summu no avota valūtas konvertēt mērķa valūtā, izmantojot norādītā Finance and Operations uzņēmuma iestatījumus norādītajā datumā.                                                                            | **CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")** atgriež viena eiro ekvivalentu ASV dolāros pašreizējās sesijas datumā, balstoties uz uzņēmuma DEMF iestatījumiem.                                                                                                                                  |
+| ROUNDAMOUNT (skaitlis, cipari aiz komata, noapaļošanas kārtula)                                       | Norādīto summu noapaļot atbilstoši norādītajai noapaļošanas kārtulai un norādītajam ciparu skaitam aiz komata. **Piezīme.** Noapaļošanas kārtula ir jānorāda kā Finance and Operations uzskaitījums **RoundOffType**.                          | Ja ir iestatīta parametra **model.RoundOff** vērtība ****Downward****, funkcija **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** atgriež vērtību **1000.78**. Ja parametrs **model.RoundOff** ir iestatīts uz **Normal** vai uz **Rounding-up**, tad **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** atgriež vērtību **1000.79**. |
 | CURCredRef (cipari)                                                              | Atgriezt kreditora atsauci, pamatojoties uz norādītā rēķina numura cipariem.                                                                                                                                                                                  | **CURCredRef ("VEND-200002")** atgriež **"2200002"**.                                                                                                                                                                                                                                                         |
 | MOD\_97 (cipari)                                                                 | Atgriezt kreditora atsauci kā MOD97 izteiksmi, pamatojoties uz norādītā rēķina numura cipariem.                                                                                                                                                            | **MOD\_97 ("VEND-200002")** atgriež **"20000285"**.                                                                                                                                                                                                                                                           |
-| ISOCredRef (cipari)                                                              | Atgriezt ISO kreditora atsauci, pamatojoties uz norādītā rēķina numura cipariem un burtiem. **Piezīme.**Lai izslēgtu alfabētu simbolus, kas nesader ar ISO, šo ievades parametru ir nepieciešams tulkot, pirms to nodod šai funkcijai. | **ISOCredRef ("VEND-200002")** atgriež **"RF23VEND-200002"**.                                                                                                                                                                                                                                                 |
+| ISOCredRef (cipari)                                                              | Atgriezt ISO kreditora atsauci, pamatojoties uz norādītā rēķina numura cipariem un burtiem. **Piezīme.** Lai izslēgtu alfabētu simbolus, kas nesader ar ISO, šo ievades parametru ir nepieciešams tulkot, pirms to nodod šai funkcijai. | **ISOCredRef ("VEND-200002")** atgriež **"RF23VEND-200002"**.                                                                                                                                                                                                                                                 |
 | CN\_GBT\_AdditionalDimensionID (virkne, skaitlis)                                  | Iegūt papildu finanšu dimensijas ID. Dimensijas šajā virknē tiek attēlotas kā ar komatiem atdalīti ID. Numuri šajā virknē definē pieprasītās dimensijas sērijas kodu.                                                                            | CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3) atgriež “CC”                                                                                                                                                                                                                                      |
-| GetCurrentCompany ()                                                             | Atgriež kodu uzņēmumam, kurā lietotājs ir pieteicies pašlaik.                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                               |
+| GetCurrentCompany ()                                                             | Atgriež tās juridiskās personas (uzņēmuma) koda teksta attēlojumu, kurā lietotājs ir pašlaik pieteicies.                                                                                                                                                                                                                    | **GETCURRENTCOMPANY ()** atgriež **USMF** lietotājam, kurš ir pieteicies Finance and Operations uzņēmumā **Contoso Entertainment System USA**.                                                                                                                                                                                                                                                                                                              |
 | CH\_BANK\_MOD\_10 (cipari)                                                       | Atgriež kreditora atsauci kā MOD10 izteiksmi, pamatojoties uz norādīto rēķina numuru.                                                                                                                                                                      | CH\_BANK\_MOD\_10 ("VEND-200002") atgriež 3                                                                                                                                                                                                                                                                   |
 | FA\_SUM (pamatlīdzekļa kods, vērtības modeļa kods, sākuma datums, beigu datums)               | Atgriež sagatavoto perioda pamatlīdzekļu summu datu konteineru.                                                                                                                                                                                         | FA\_SUM ("COMP-000001", “Current”, Date1, Date2) atgriež sagatavoto datu konteineru pamatlīdzeklim “COMP-000001” ar vērtības modeli “Current” par periodu no Date1 līdz Date2.                                                                                                                        |
-| FA\_BALANCE (pamatlīdzekļa kods, vērtības modeļa kods, pārskata gads, pārskata datums) | Atgriež sagatavoto pamatlīdzekļa bilanču datu konteineru. Pārskata gads ir jānorāda kā Dynamics 365 for Operations uzskaitījuma **AssetYear** vērtība.                                                                                           | FA\_SUM ("COMP-000001", “Current”, AxEnumAssetYear.ThisYear, SESSIONTODAY ()) atgriež sagatavoto datu konteineru no bilancēm pamatlīdzeklim “COMP-000001” ar vērtības modeli “Current” pašreizējā Dynamics 365 for Operations sesijas datumā.                                                                |
+| FA\_BALANCE (pamatlīdzekļa kods, vērtības modeļa kods, pārskata gads, pārskata datums) | Atgriež sagatavoto pamatlīdzekļa bilanču datu konteineru. Pārskata gads ir jānorāda kā Finance and Operations uzskaitījuma **AssetYear** vērtība.                                                                                           | FA\_SUM ("COMP-000001", “Current”, AxEnumAssetYear.ThisYear, SESSIONTODAY ()) atgriež sagatavoto datu konteineru no bilancēm pamatlīdzeklim “COMP-000001” ar vērtības modeli “Current” pašreizējā 365 for Finance and Operations sesijas datumā.                                                                |
+| TABLENAME2ID (virkne)                                                       | Atgriež tabulas ID veselu skaitļu attēlojumu attiecīgajam tabulas nosaukumam.                                                                                                                                                                      | **TABLENAME2ID (“Intrastat”)** atgriež **1510**.                                                                                                                                                                                                                                                                   |
+| ISVALIDCHARACTERISO7064 (virkne)                                                       | Atgriež Būla vērtību **TRUE**, ja attiecīgā virkne pārstāv derīgu starptautisko bankas konta numuru (IBAN). Pretējā gadījumā atgriež Būla vērtību **FALSE**.                                                                                                                                                                      | **ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")** atgriež **TRUE**. **ISVALIDCHARACTERISO7064 ("AT61")** atgriež **FALSE**.                                                                                                                                                                                                                                                                   |
 
 ### <a name="functions-list-extension"></a>Funkciju saraksta paplašināšana
 

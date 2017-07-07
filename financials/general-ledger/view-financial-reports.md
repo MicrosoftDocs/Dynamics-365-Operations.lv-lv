@@ -1,27 +1,27 @@
 ---
 title: "Skatīt finanšu pārskatus"
-description: "Šajā rakstā ir aprakstīts, kā skatīt un izpētīt finanšu atskaites programmatūrā Microsoft Dynamics AX. Tas ietver informāciju par dažādām opcijām, kuras varat lietot finanšu atskaitēm, lai mainītu to izskatu un tajās ietvertos datus."
-author: RobinARH
+description: "Šajā rakstā ir aprakstīts, kā skatīt un izpētīt finanšu pārskatus programmatūrā Microsoft Dynamics 365 for Finance and Operations (Enterprise izdevuma). Tas ietver informāciju par dažādām opcijām, kuras varat lietot finanšu atskaitēm, lai mainītu to izskatu un tajās ietvertos datus."
+author: kweekley
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: shylaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10334
 ms.assetid: d20f435f-fb65-4068-ab09-7efc7be683a6
 ms.search.region: Global
-ms.author: aolson
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8b02dbc0181c08611674cdf571075c20d78cebdc
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 102031174417a33b12c32f6b8185556b8c4701e5
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir aprakstīts, kā skatīt un izpētīt finanšu atskaites programmatūrā Microsoft Dynamics AX. Tas ietver informāciju par dažādām opcijām, kuras varat lietot finanšu atskaitēm, lai mainītu to izskatu un tajās ietvertos datus.
+Šajā rakstā ir aprakstīts, kā skatīt un izpētīt finanšu pārskatus programmatūrā Microsoft Dynamics 365 for Finance and Operations (Enterprise izdevuma). Tas ietver informāciju par dažādām opcijām, kuras varat lietot finanšu atskaitēm, lai mainītu to izskatu un tajās ietvertos datus.
 
 <a name="financial-reporting-overview"></a>Finanšu atskaišu veidošanas apskats
 ----------------------------
@@ -64,7 +64,7 @@ Varat atsvaidzināt (atjaunināt) finanšu pārskatu, lai tajā parādītu jaun�
 Pēc finanšu pārskata atjaunināšanas to var publicēt. Citas personas organizācijā varēs to skatīt. Lai publicētu pārskatu, darbību rūti noklikšķiniet uz **Publicēt**.
 
 ## <a name="display-a-financial-report-in-a-different-currency"></a>Finanšu pārskata parādīšana citā valūtā
-Jebkurā laikā finanšu pārskatu var parādīt jebkurā valūtā. Lai pārskatu parādītu citā valūtā, darbību rūtī noklikšķiniet uz **Valūta** un pēc tam atlasiet valūtu. Pārskats tiek pārveidots izvēlētajā valūtā un rezultāti tiek parādīti. Valūtas kodi vai simboli, kas ir iekļauti pārskata noformējumā, tiek atjaunināti, lai atspoguļotu jauno valūtu. Valūtas, kas tiek rādītas sarakstā, ir pārskata valūtas, kas tiek konfigurētas sistēmā Microsoft Dynamics AX.
+Jebkurā laikā finanšu pārskatu var parādīt jebkurā valūtā. Lai pārskatu parādītu citā valūtā, darbību rūtī noklikšķiniet uz **Valūta** un pēc tam atlasiet valūtu. Pārskats tiek pārveidots izvēlētajā valūtā un rezultāti tiek parādīti. Valūtas kodi vai simboli, kas ir iekļauti pārskata noformējumā, tiek atjaunināti, lai atspoguļotu jauno valūtu. Valūtas, kuras tiek rādītas sarakstā, ir pārskata valūtas, kas ir konfigurētas programmatūrā Finance and Operations.
 
 ## <a name="display-a-summarized-view-of-the-financial-report"></a>Finanšu pārskata kopskata parādīšana
 Finanšu pārskats var ietvert detalizētas rindas un kopsavilkuma rindas. Detalizētās rindas ir rindas, kas ietver galvenos kontus vai dimensijas. Kopsavilkuma rindas ir apraksts, kopsumma un aprēķina rinda. Lai parādītu tikai pārskata kopsavilkuma rindas, noklikšķiniet uz **Rādīt** un pēc tam noklikšķiniet uz **Tikai kopsavilkuma rindas**. Pārskats tiek sakļauts un tiek parādītas tikai kopsavilkuma rindas. Lai skatītu detalizētas rindas kopā ar kopsavilkuma rindām, noklikšķiniet uz **Rādīt** un pēc tam vēlreiz noklikšķiniet uz **Tikai kopsavilkuma rindas**.
@@ -88,7 +88,8 @@ Lai eksportētu finanšu pārskatu, darbību rūti noklikšķiniet uz **Eksport�
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Finanšu atskaišu veidošana programmatūrai Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/analytics/financial-reporting-intro)
+[Finanšu atskaišu veidošana programmatūrai Microsoft Dynamics AX](/dynamics365/unified-operations/dev-itpro/analytics/financial-reporting-intro)
+
 
 
 

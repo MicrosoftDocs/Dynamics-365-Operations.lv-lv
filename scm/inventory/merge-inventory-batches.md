@@ -3,14 +3,14 @@ title: "Sapludināt krājumu partijas"
 description: "Šajā rakstā ir sniegta informācija par to kā, konsolidēt divu vai vairāku krājumu partijas sapludinātā partijā."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e97257955f4f8fa86c8bf957a182aa71d4fbc8ef
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: aec97976ef6a2b4c66118289f7f76b14351456f8
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -91,7 +91,7 @@ Nē, sapludināt var tikai tās partijas, kuras atrodas vienā vietā, vienas no
 Nē, sapludināt var tikai pilna daudzuma partijas. Partiju sapludināšanas funkcionalitāti ir paredzēts izmantot kā krājumu apstrādes līdzekli, nevis ražošanas līdzekli.
 
 ## <a name="what-if-the-batches-have-different-batch-attribute-values"></a>Ko darīt, ja partijām ir dažādas partijas atribūtu vērtības?
-Kad tiek atlasītas avota partijas, kuras vēlaties apvienot sapludinātajā partijā, programma Microsoft Dynamics 365 for Operations pārbauda, vai visām partijām ir vienādi raksturlielumi vai atribūtu vērtības. Ja atribūta vērtības ir vienādas, sapludinātajai partijai tiek piedāvāta vērtība. Šo vērtību var mainīt. To atribūtu vērtību lauki, kuras sapludinātajai partijai atšķiras, tiek atstāti neaizpildīti, un šīs vērtības var ievadīt manuāli. Ja partijas atribūta vērtības veids ir vesels skaitlis vai daļskaitlis un vērtības visās avota partijās atšķiras, vērtība tiek aprēķināta, izmantojot svērtā vidējā aprēķināšanu. Aprēķinātā vērtība tiek noapaļota uz augšu vai uz leju uz tuvāko soļa vērtību. Ja avota partijas vērtības lauks ir tukšs, partija un tās daudzums aprēķinā netiek iekļauts. **Piemērs.** Turpmākajā piemērā ir norādīta sapludinātās partijas svērtā vidējā aprēķināšana. Divām avota partijām nav norādīta partijas atribūta veida vērtība, kura ir vesels skaitlis. Šāds atribūts ir piešķirts avota partijām.
+Kad atlasāt avota partijas, kuras vēlaties apvienot sapludinātajā partijā, programmatūra Finance and Operations pārbauda, vai visām partijām ir raksturlielumi vai atribūtu vērtības. Ja atribūta vērtības ir vienādas, sapludinātajai partijai tiek piedāvāta vērtība. Šo vērtību var mainīt. To atribūtu vērtību lauki, kuras sapludinātajai partijai atšķiras, tiek atstāti neaizpildīti, un šīs vērtības var ievadīt manuāli. Ja partijas atribūta vērtības veids ir vesels skaitlis vai daļskaitlis un vērtības visās avota partijās atšķiras, vērtība tiek aprēķināta, izmantojot svērtā vidējā aprēķināšanu. Aprēķinātā vērtība tiek noapaļota uz augšu vai uz leju uz tuvāko soļa vērtību. Ja avota partijas vērtības lauks ir tukšs, partija un tās daudzums aprēķinā netiek iekļauts. **Piemērs.** Turpmākajā piemērā ir norādīta sapludinātās partijas svērtā vidējā aprēķināšana. Divām avota partijām nav norādīta partijas atribūta veida vērtība, kura ir vesels skaitlis. Šāds atribūts ir piešķirts avota partijām.
 
 | Atribūts | Minimums | Solis | Maksimums |
 |-----------|---------|-----------|---------|

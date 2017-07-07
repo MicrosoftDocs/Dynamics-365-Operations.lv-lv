@@ -3,7 +3,7 @@ title: "Pārskats par ražošanas procesu"
 description: "Šajā rakstā ir sniegts pārskats par ražošanas procesu. Tajā ir aprakstīti dažādie ražošanas pasūtījumu, partijas pasūtījumu un Kanban darbu stāvokļi no pasūtījuma izveides līdz finanšu perioda slēgšanai."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19832
 ms.assetid: 0e83c7ea-feba-4ed6-8717-8b48a3b8804a
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 311debe610b58af7cd986bd33ce9473e41cb3d8b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b73ec05442c8b089435d5813ea93b997c473cbb4
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -39,12 +39,12 @@ Preču ražošanas process dažreiz tiek saukts arī par ražošanas dzīves cik
 
 Modulis **Ražošanas kontrole** ir saistīts ar citiem moduļiem, piemēram, **Preču informācijas pārvaldība**, **Krājumu vadība**, **Virsgrāmata**, **Noliktavas pārvaldība**, **Projektu uzskaite** un **Organizācijas administrēšana**. Šī integrācija atbalsta informācijas plūsmu, kas ir nepieciešama pabeigtā krājuma ražošanas pabeigšanai.  
 
-Ražošanas procesu parasti ietekmē izmaksu uzskaites un krājumu novērtēšanas metodes, kas ir izvēlas konkrētam ražošanas procesam. Programmatūra Dynamics 365 for Operations atbalsta gan faktisko izmaksu (pirmais iekšā, pirmais ārā \[FIFO\]; pēdējais iekšā, pirmais ārā \[LIFO\]; slīdošais vidējais; periodiskais svērtais vidējais) un standarta izmaksu metodes. Lean manufacturing ražošana tiek ieviesta, pamatojoties uz atgriezeniskās izmaksu aprēķināšanas principu.  
+Ražošanas procesu parasti ietekmē izmaksu uzskaites un krājumu novērtēšanas metodes, kas ir izvēlas konkrētam ražošanas procesam. Programmatūra Finance and Operations atbalsta gan faktisko izmaksu (pirmie iekšā, pirmie ārā \[FIFO\]; pēdējie iekšā, pirmie ārā \[LIFO\]; slīdošais vidējais; periodiskais svērtais vidējais) un standarta izmaksu metodes. Lean manufacturing ražošana tiek ieviesta, pamatojoties uz atgriezeniskās izmaksu aprēķināšanas principu.  
 
 Izmaksu noteikšanas metožu izvēle nosaka arī prasības attiecībā uz ziņošanu par materiālu un resursu patēriņu ražošanas procesa laikā. Parasti faktisko izmaksu metodēm ir nepieciešama precīza ziņošana darba līmenī, taču periodisko izmaksu noteikšanas metodēm ir nepieciešama mazāk detalizēta ziņošana par materiālu un resursu patēriņu.
 
 ## <a name="mixed-mode-manufacturing"></a>Jauktā režīma ražošana
-Dažādām precēm un preču topoloģijām ir nepieciešams lietot dažādus pasūtījumu veidus. Programmatūras Dynamics 365 for Operations jauktajā režīmā var lietot dažādos pasūtījumu veidus. Citiem vārdiem sakot, visa vienas saražotās preces ražošanas procesa laikā var veikt visu veidu pasūtījumus.
+Dažādām precēm un preču topoloģijām ir nepieciešams lietot dažādus pasūtījumu veidus. Programmatūras Finance and Operations jauktajā režīmā var lietot dažādos pasūtījumu veidus. Citiem vārdiem sakot, visa vienas saražotās preces ražošanas procesa laikā var veikt visu veidu pasūtījumus.
 
 -   **Ražošanas pasūtījums** — tas ir standarta pasūtījuma veids, kas tiek izmantots, lai noteiktā datumā saražotu noteiktu konkrētas preces vai preces varianta daudzumu. Ražošanas pasūtījumi tiek veidoti, pamatojoties uz materiālu komplektiem (MK) un maršrutiem.
 -   **Partijas pasūtījums** — šis pasūtījuma veids tiek izmantots ražošanas nozarēs un atsevišķos procesos, kur ražošanas pārveidošanas pamatā ir formula vai kur līdzprodukti un blakusprodukti var būt galaprodukti, kas papildina vai aizstāj pamatpreci. Partijas pasūtījumiem tiek izmantoti MK un maršruti, kuru tips ir **Formula**.

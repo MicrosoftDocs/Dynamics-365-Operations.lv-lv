@@ -1,16 +1,16 @@
 ---
 title: "Finanšu pārskati"
-description: "Šajā tēmā ir aprakstīts, kur programmatūrā Microsoft Dynamics 365 for Operations var piekļūt finanšu pārskatiem un kā lietot finanšu pārskatu iespējas. Tajā ir ietverts nodrošināto noklusējuma finanšu pārskatu apraksts."
+description: "Šajā tēmā ir aprakstīts, kur programmatūrā Microsoft Dynamics 365 for Finance and Operations, izdevumā Enterprise var piekļūt finanšu pārskatiem un kā lietot finanšu pārskatu iespējas. Tajā ir ietverts nodrošināto noklusējuma finanšu pārskatu apraksts."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10444
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 39db754df7edeca414752ce1844d7f9e85df0b36
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fedde78a563939fd7080e748c412c89c71586823
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā tēmā ir aprakstīts, kur programmatūrā Microsoft Dynamics 365 for Operations var piekļūt finanšu pārskatiem un kā lietot finanšu pārskatu iespējas. Tajā ir ietverts nodrošināto noklusējuma finanšu pārskatu apraksts.
+Šajā tēmā ir aprakstīts, kur programmatūrā Microsoft Dynamics 365 for Finance and Operations, izdevumā Enterprise var piekļūt finanšu pārskatiem un kā lietot finanšu pārskatu iespējas. Tajā ir ietverts nodrošināto noklusējuma finanšu pārskatu apraksts.
 
 <a name="accessing-financial-reporting"></a>Piekļuve finanšu atskaišu veidošanai
 -----------------------------
 
-Izvēlne **Finanšu pārskati** programmatūrā Dynamics 365 for Operations ir pieejama tālāk norādītajās vietās.
+Izvēlne **Finanšu pārskati** programmatūrā Finance and Operations ir pieejama tālāk norādītajās vietās.
 
 -   **Virsgrāmata** &gt; **Pieprasījumi un pārskati**
 -   **Budžeta veidošana** &gt; **Pieprasījumi un pārskati** &gt; **Pamata budžeta veidošana**
@@ -83,9 +83,9 @@ Finanšu atskaišu veidošanas funkcijas ir pieejamas lietotājiem, kam ir pieš
 Kad lietotājs ir pievienots vai loma ir mainīta, lietotājam dažu minūšu laika ir jāspēj piekļūt finanšu atskaišu veidošanai. **Piezīme.** Visām finanšu pārskatu lomām tiek pievienota sistēmas administratora loma.
 
 ## <a name="default-reports"></a>Noklusējuma pārskati
-Finanšu atskaišu veidošana nodrošina 22 noklusējuma finanšu atskaites. Viesiem pārskatiem programmatūrā Dynamics 365 for Operations tiek izmantotas noklusējuma galvenā konta kategorijas. Šīs atskaites varat lietot tādas, kādas tās ir, vai kā sākuma punktu savām finanšu atskaišu veidošanas nepieciešamībām. Papildus tradicionālajiem finanšu pārskatiem, piemēram, peļņas vai zaudējumu aprēķinam un bilancei, šīs noklusējuma atskaites ietver atskaites, kurās ir redzami dažādie finanšu atskaišu veidi, ko varat izveidot. Visi tālāk esošajā tabulā norādītie pārskati ir saistīti ar Office Mix prezentāciju par attiecīgo pārskatu.
+Finanšu atskaišu veidošana nodrošina 22 noklusējuma finanšu atskaites. Viesiem pārskatiem programmatūrā Finance and Operations tiek izmantotas noklusējuma galvenā konta kategorijas. Šīs atskaites varat lietot tādas, kādas tās ir, vai kā sākuma punktu savām finanšu atskaišu veidošanas nepieciešamībām. Papildus tradicionālajiem finanšu pārskatiem, piemēram, peļņas vai zaudējumu aprēķinam un bilancei, šīs noklusējuma atskaites ietver atskaites, kurās ir redzami dažādie finanšu atskaišu veidi, ko varat izveidot. Visi tālāk esošajā tabulā norādītie pārskati ir saistīti ar Office Mix prezentāciju par attiecīgo pārskatu.
 
-| Noklusējuma pārskats                                                                                         | apraksts                                                                                                                                                                                                                                                                                                          |
+| Noklusējuma pārskats                                                                                         | Apraksts                                                                                                                                                                                                                                                                                                          |
 |--------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [12 mēnešu atritināšanas vienas kolonnas peļņas vai zaudējumu aprēķins — noklusējuma pārskats](https://mix.office.com/watch/76kc7bm3wnt1) | Skatiet organizācijas ienesīgumu pēdējos 12 mēnešos vienā kolonnā.                                                                                                                                                                                                                                      |
 | [12 mēnešu tendenču peļņas vai zaudējumu aprēķins — noklusējuma pārskats](https://mix.office.com/watch/12brmfge5p8r)                 | Skatiet organizācijas ienesīgumu katram no pēdējiem 12 mēnešiem. Šie 12 mēneši var attiekties uz periodu, kas ir ilgāks par vienu finanšu gadu.                                                                                                                                                                                             |
@@ -114,7 +114,7 @@ Finanšu atskaišu veidošana nodrošina 22 noklusējuma finanšu atskaites. Vie
 Kad noklikšķināt uz izvēlnes **Finanšu atskaišu veidošana**, tiek parādīts saraksts ar uzņēmuma noklusējuma finanšu atskaitēm. Pēc tam varat atvērt vai modificēt kādu atskaiti. Lai atvērtu kādu no noklusējuma atskaitēm, atlasiet atskaites nosaukumu. Kad atskaiti atverat pirmo reizi, tā tiek automātiski tiek ģenerēta par iepriekšējo mēnesi. Piemēram, ja atskaiti pirmo reizi atverat 2016. gada augustā, šī atskaite tiek ģenerēta par 2016. gada 31. jūliju. Pēc atskaites atvēršanas varat sākt to pētīt, detalizējot konkrētus datus un mainot atskaites opcijas.
 
 ## <a name="creating-and-modifying-financial-reports"></a>Finanšu atskaišu veidošana un modificēšana
-No finanšu atskaišu saraksta varat izveidot jaunu atskaiti vai modificēt jau esošu atskaiti. Ja jums ir atbilstošās atļaujas, varat izveidot jaunu finanšu pārskatu, darbību rūtī noklikšķinot uz **Jauns**. Ierīcē tiek lejupielādēta pārskatu veidošanas programma. Kad ir palaista pārskatu veidošanas programma, varat izveidot jaunu pārskatu. Kad esat saglabājis jauno atskaiti, tā kļūst redzama finanšu atskaišu sarakstā. Sarakstā tiek rādīti tikai tie pārskati, kas ir izveidoti uzņēmumam, kuru lietojat programmatūrā Dynamics 365 for Operations Papildinformāciju par finanšu pārskatu izveides un modificēšanas procesu programmatūrā Dynamics 365 for Operations skatiet šajos Dynamics finanšu pārskatu [emuāra ierakstos](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/tag/learning/). **Piezīme.** Datorā, kurā lejupielādējat pārskatu veidošanas klientu, ir jābūt instalētai Microsoft .NET Framework versijai 4.6.2. Šo Microsoft .NET Framework versiju var lejupielādēt un instalēt [šeit](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Ja lietojat pārlūkprogrammu Chrome, lai varētu lejupielādēt pārskatu veidošanas klientu, ir jāinstalē paplašinājums ClickOnce. Ja lietojat inkognito režīmu, pārliecinieties, ka paplašinājums ClickOnce ir iespējots inkognito režīmā. Varat arī modificēt atskaiti, kas ir redzama finanšu atskaišu sarakstā. Kad ir atlasīts apgabals ap atskaites nosaukumu, darbību rūtī noklikšķiniet uz **Rediģēt**. Tiek palaista atskaišu veidotāja programma.
+No finanšu atskaišu saraksta varat izveidot jaunu atskaiti vai modificēt jau esošu atskaiti. Ja jums ir atbilstošās atļaujas, varat izveidot jaunu finanšu pārskatu, darbību rūtī noklikšķinot uz **Jauns**. Ierīcē tiek lejupielādēta pārskatu veidošanas programma. Kad ir palaista pārskatu veidošanas programma, varat izveidot jaunu pārskatu. Kad esat saglabājis jauno atskaiti, tā kļūst redzama finanšu atskaišu sarakstā. Sarakstā tiek rādīti tikai pārskati, kas tika izveidoti tam uzņēmumam, kuru lietojat programmatūrā Finance and Operations. Papildinformāciju par finanšu pārskatu izveides un modificēšanas procesu programmatūrā Finance and Operations skatiet šajos Dynamics finanšu pārskatu [emuāra ierakstos](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/tag/learning/). **Piezīme.** Datorā, kurā lejupielādējat pārskatu veidošanas klientu, ir jābūt instalētai Microsoft .NET Framework versijai 4.6.2. Šo Microsoft .NET Framework versiju var lejupielādēt un instalēt [šeit](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Ja lietojat pārlūkprogrammu Chrome, lai varētu lejupielādēt pārskatu veidošanas klientu, ir jāinstalē paplašinājums ClickOnce. Ja lietojat inkognito režīmu, pārliecinieties, ka paplašinājums ClickOnce ir iespējots inkognito režīmā. Varat arī modificēt atskaiti, kas ir redzama finanšu atskaišu sarakstā. Kad ir atlasīts apgabals ap atskaites nosaukumu, darbību rūtī noklikšķiniet uz **Rediģēt**. Tiek palaista atskaišu veidotāja programma.
 
 <a name="see-also"></a>Skatiet arī
 --------

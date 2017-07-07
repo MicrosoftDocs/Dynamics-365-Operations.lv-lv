@@ -1,15 +1,15 @@
 ---
 title: "Viens dokumenta ar vairākiem debitora vai kreditora ierakstiem"
-description: "Šajā tēmā ir sniegts pārskats par to, kas notiek, grāmatojot vienu dokumentu ar vairākiem debitora vai kreditora ierakstiem. Šī funkcionalitāte tiks pārtraukta Microsoft Dynamics 365 for Operations turpmākajās versijās, kā rezultātā, nav ieteicams izmantot šo grāmatošanas metodi sakarā ar uzskaites ietekmi uz norēķinu apstrādi."
+description: "Šajā tēmā ir sniegts pārskats par to, kas notiek, grāmatojot vienu dokumentu ar vairākiem debitora vai kreditora ierakstiem. Šī funkcionalitāte tiks pārtraukta Microsoft Dynamics 365 for Finance and Operations izdevuma Enterprise turpmākajās versijās, kā rezultātā, nav ieteicams izmantot šo grāmatošanas metodi sakarā ar uzskaites ietekmi uz norēķinu apstrādi."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 222534
 ms.assetid: d4df11ce-4d36-4c66-8230-f5fc58e021bc
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b1038ea950141f0e7d4678cac9edd3b0bd5beb6f
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 31040ff14b99a9b351268feb88698ac706befb55
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā tēmā ir sniegts pārskats par to, kas notiek, grāmatojot vienu dokumentu ar vairākiem debitora vai kreditora ierakstiem. Šī funkcionalitāte tiks pārtraukta Microsoft Dynamics 365 for Operations turpmākajās versijās, kā rezultātā, nav ieteicams izmantot šo grāmatošanas metodi sakarā ar uzskaites ietekmi uz norēķinu apstrādi. 
+Šajā tēmā ir sniegts pārskats par to, kas notiek, grāmatojot vienu dokumentu ar vairākiem debitora vai kreditora ierakstiem. Šī funkcionalitāte tiks pārtraukta Microsoft Dynamics 365 for Finance and Operations izdevuma Enterprise turpmākajās versijās, kā rezultātā, nav ieteicams izmantot šo grāmatošanas metodi sakarā ar uzskaites ietekmi uz norēķinu apstrādi. 
 
 Daži visbiežāk sastopamie piemēri, kur viens dokuments tiek izmantots vairākiem debitoriem vai kreditoriem, ir bilances pārskaitījumi starp debitoriem, un tīkla bilances starp debitoriem un kreditoriem tajā pašā organizācijā. 
 
@@ -162,7 +162,7 @@ Tagad, kad ir apmaksāts INV2, tiks veikts šāds ieraksts. Ņemiet vērā, ka v
 | 14000056    | 200110-001- | Kreditora bilance     |                                          | -2.00                                   |
 
 ## <a name="one-voucher-for-balance-transfers-and-netting-scenarios"></a>Viens dokuments bilances pārskaitījumiem un tīkla scenārijiem
-Divi visbiežāk izmantotie scenāriji, kas izmanto vienu dokumentu, kas satur vairākus debitorus vai kreditorus, satur bilances pārskaitījumus no viena debitora/kreditora uz citu debitoru/kreditoru, veicot debitora un kreditora ieskaitu, kas ir vienas un tās pašas organizācijas. Nākamie divi piemēri parāda vēlamo metodi, ievadot šos scenārijus Dynamics 365 for Operations, kā alternatīvu to ievadīšanai vienā dokumentā. 
+Divi visbiežāk izmantotie scenāriji, kas izmanto vienu dokumentu, kas satur vairākus debitorus vai kreditorus, satur bilances pārskaitījumus no viena debitora/kreditora uz citu debitoru/kreditoru, veicot debitora un kreditora ieskaitu, kas ir vienas un tās pašas organizācijas. Nākamie divi piemēri parāda vēlamo metodi, ievadot šos scenārijus programmatūrā Finance and Operations, kā alternatīvu to ievadīšanai vienā dokumentā. 
 
 *Bilances pārsūtīšana* ir viens dokuments ar vairākiem debitoriem, kas tika ievadīti, lai pārsūtītu bilanci no viena debitora citam debitoram (tas pats kreditoriem). Šis scenārijs var notikt, ja atbildība par rēķinu apmaksu pāriet pie citas puses, piemēram meitas uzņēmums maina atbildību uz mātes uzņēmumu. 
 
@@ -176,7 +176,7 @@ Lai ilustrētu, pieņemsim, ka šāda pārdošana tiek veikta debitoram ACME. Š
 | 401100-002-023-    | Ieņēmumi          |           | 100        |
 | 130100-002-        | Debitora bilance | 100       |            |
 
-Pēc tam lietotājs pārsūta bilanci apmaksai no ACME apdrošināšanas kompānijai vienā dokumentā Debitoru parādu žurnālā. Dynamics 365 for Operations, apdrošināšanas uzņēmums tiek iestatīts kā debitors Apdrošināšana.
+Pēc tam lietotājs pārsūta bilanci apmaksai no ACME apdrošināšanas kompānijai vienā dokumentā Debitoru parādu žurnālā. Programmatūrā Finance and Operations apdrošināšanas uzņēmums tiek iestatīts kā debitors Apdrošināšana.
 
 |             |                  |             |                 |           |            |                 |                    |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|

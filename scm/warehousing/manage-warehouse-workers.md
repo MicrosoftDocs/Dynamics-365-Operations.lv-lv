@@ -1,16 +1,16 @@
 ---
-title: "Noliktavu darbinieku pārvaldība"
-description: "Šajā rakstā aprakstīts, kā izmantot Microsoft Dynamics AX, lai palīdzētu kontrolēt un pārraudzīt darbu, ko veic darbinieki jūsu noliktavās."
+title: "Pārvaldīt noliktavu darbiniekus"
+description: "Šajā rakstā aprakstīts, kā izmantot programmatūru Dynamics 365 for Finance and Operations, lai palīdzētu kontrolēt un pārraudzīt darbu, ko darbinieki veic jūsu noliktavās."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72891
 ms.assetid: feaa6f15-49d2-41f5-9b87-453463c52e4e
 ms.search.region: Global
@@ -18,20 +18,20 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b4e2cb91cac210a659f261c5fcabb5f3643cdbec
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 52753c21862a2955e15140bb1cdb5ef6f6efe31a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="manage-warehouse-workers"></a>Noliktavu darbinieku pārvaldība
+# <a name="manage-warehouse-workers"></a>Pārvaldīt noliktavu darbiniekus
 
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā aprakstīts, kā izmantot Microsoft Dynamics AX, lai palīdzētu kontrolēt un pārraudzīt darbu, ko veic darbinieki jūsu noliktavās.
+Šajā rakstā aprakstīts, kā izmantot programmatūru Microsoft Dynamics 365 for Finance and Operations, izdevumu Enterprise, lai palīdzētu kontrolēt un pārraudzīt darbu, ko darbinieki veic jūsu noliktavās.
 
 Ja jūs izmantojat funkcionalitāti Noliktavas pārvaldībā, visas noliktavas darbinieka operācijas tiek sauktas par *darbu*. Tāds darbs kā rīcībā esošo krājumu izdošana, pārvietošana un uzskaite tiek reģistrēts, izmantojot mobilās ierīces. Pirms noliktavas darbinieks var veikt darbu, viņam ir jābūt saistītam ar darbinieku Personāla vadībā. Ar katru **Darbinieka** kontu var būt saistīti vairāki noliktavas darba lietotāji. Šie darba lietotāji var strādāt dažādās noliktavās un tiem var būt dažādi piekļuves līmeņi dažādām mobilās ierīces izvēlnēm. Noliktavas darba lietotājus var uzskatīt par vairākām pieteikšanām atlasītajam darbiniekam. Katram darba lietotājam ir noklusētā noliktava, un noteiktas darbplūsmas tiek atklātas caur izvēlnes elementiem, kas ir pieejami šī darba lietotājam. 
 

@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 50651
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3a95ce92fe40f7e1c52bba554b82bd73d627c6b4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: cf6d4756ae706316a342590ab76b4a5cbdd7e4f9
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -57,11 +57,11 @@ Sagāde un avoti aptver visas darbības no preces un pakalpojumus nepieciešamī
 -   [Kreditoru sadarbība ar debitoriem](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Pārvaldīt kreditoru sadarbības lietotājus](manage-vendor-collaboration-users.md)
 -   [Iestatīt un uzturēt kreditoru sadarbību](set-up-maintain-vendor-collaboration.md)
--   [Ienākošo sūtījuma krājumu demonstrācijas skripts programmai Microsoft Dynamics 365 for Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(tehniskais dokuments)
+-   [Ienākošo sūtījuma krājumu demonstrācijas skripts programmai Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(tehniskais dokuments)
 -   [Pārraudzīt sūtījuma krājumus, izmantojot kreditoru sadarbību](http://ax.help.dynamics.com/en/wiki/monitor-consignment-inventory-using-vendor-collaboration/)
--   [Sadarbība ar kreditoriem, izmantojot kreditoru portālu](collaborate-vendors-vendor-portal.md) (tikai Dynamics 365 for Operations 2016. gada februāra un 2016. gada maija versijas)
--   [Kreditoru portāla lietotāju drošības konfigurācija](configure-security-vendor-portal-users.md) (tikai Dynamics 365 for Operations 2016. gada un 2016. gada maija versijas)
--   [Mobilā darbvieta Kreditoru sadarbība Microsoft Dynamics 365 for Operations programmai](vendor-collaboration-mobile-workspace.md)
+-   [Sadarbība ar kreditoriem, izmantojot kreditoru portālu](collaborate-vendors-vendor-portal.md)  (tikai Dynamics AX 2016. gada februāra un 2016. gada maija versijas)
+-   [Kreditoru portāla lietotāju drošības konfigurācija](configure-security-vendor-portal-users.md) (tikai Finance and Operations 2016. gada februāra un 2016. gada maija versijas)
+-   [Mobilā darbvieta Kreditoru sadarbība Microsoft Dynamics 365 for Finance and Operations programmai](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Sagādes preču pārvaldība
 -   [Sagādes katalogi](procurement-catalogs.md)
@@ -92,8 +92,8 @@ Sagāde un avoti aptver visas darbības no preces un pakalpojumus nepieciešamī
 
 ## <a name="product-receipt-and-invoicing"></a>Preču ieejas plūsma un rēķinu izrakstīšana
 -   [Produktu ieejas plūsma pret pirkšanas pasūtījumiem](product-receipt-against-purchase-orders.md)
--   [Apskats par kreditoru rēķiniem](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/operations/supply-chain/toc.json)
--   [Kreditoru grāmatošanas metodes](/dynamics365/operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/operations/supply-chain/toc.json)
+-   [Apskats par kreditoru rēķiniem](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+-   [Kreditoru grāmatošanas metodes](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 ## <a name="procurement-and-sourcing-workflows"></a>Sagādes un avotu darbplūsmas
 -   [Sagādes un avotu apskats](procurement-sourcing-overview.md)

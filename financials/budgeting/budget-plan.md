@@ -1,9 +1,9 @@
 ---
 title: "Budžeta plānošana"
-description: "Šī uzdevuma mērķis ir sniegt vadītu ieskatu par Microsoft Dynamics 365 for Operations funkcionalitātes atjauninājumus apgabalā Budžeta plānošana. Šī uzdevuma nolūks ir ilustrēt budžeta plānošanas moduļa ātras konfigurēšanas piemēru un demonstrēt, kā var paveikt budžeta plānošanu, izmantojot šo konfigurāciju.  Šajā uzdevumā galvenā uzmanība ir pievērsta tālāk uzskaitītajiem biznesa procesiem vai uzdevumiem. -    - Organizācijas hierarhijas izveidošana budžeta plānošanai un lietotāju drošības konfigurēšanai   - Budžeta plāna scenāriju, budžeta plāna kolonnu, izkārtojumu un Excel veidņu definēšana   - Budžeta plānošanas procesa izveidošana un aktivizēšana   - Budžeta plāna dokumenta izveidošana, izgūstot faktiskos datus no virsgrāmatas   - Sadalījumu izmantošana, lai koriģētu budžeta plāna dokumenta datus   - Budžeta plāna dokumenta datu rediģēšana programmā Excel"
+description: "Šī uzdevuma mērķis ir jūs iepazīstināt ar funkcionalitātes atjauninājumiem Microsoft Dynamics 365 for Finance and Operations izdevuma Enterprise apgabalā Budžeta plānošana. Šī uzdevuma nolūks ir ilustrēt budžeta plānošanas moduļa ātras konfigurēšanas piemēru un demonstrēt, kā var paveikt budžeta plānošanu, izmantojot šo konfigurāciju.  Šajā uzdevumā galvenā uzmanība ir pievērsta tālāk uzskaitītajiem biznesa procesiem vai uzdevumiem. -    - Organizācijas hierarhijas izveidošana budžeta plānošanai un lietotāju drošības konfigurēšanai   - Budžeta plāna scenāriju, budžeta plāna kolonnu, izkārtojumu un Excel veidņu definēšana   - Budžeta plānošanas procesa izveidošana un aktivizēšana   - Budžeta plāna dokumenta izveidošana, izgūstot faktiskos datus no virsgrāmatas   - Sadalījumu izmantošana, lai koriģētu budžeta plāna dokumenta datus   - Budžeta plāna dokumenta datu rediģēšana programmā Excel"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: dbe2b386de9e88af354015705e1444987a3f7e82
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 11b5ffacef06fd3e83c61cd14da11ad645eec335
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šī uzdevuma mērķis ir sniegt vadītu ieskatu par Microsoft Dynamics 365 for Operations funkcionalitātes atjauninājumus apgabalā Budžeta plānošana. Šī uzdevuma nolūks ir ilustrēt budžeta plānošanas moduļa ātras konfigurēšanas piemēru un demonstrēt, kā var paveikt budžeta plānošanu, izmantojot šo konfigurāciju.  Šajā uzdevumā galvenā uzmanība ir pievērsta tālāk uzskaitītajiem biznesa procesiem vai uzdevumiem. -    - Organizācijas hierarhijas izveidošana budžeta plānošanai un lietotāju drošības konfigurēšanai   - Budžeta plāna scenāriju, budžeta plāna kolonnu, izkārtojumu un Excel veidņu definēšana   - Budžeta plānošanas procesa izveidošana un aktivizēšana   - Budžeta plāna dokumenta izveidošana, izgūstot faktiskos datus no virsgrāmatas   - Sadalījumu izmantošana, lai koriģētu budžeta plāna dokumenta datus   - Budžeta plāna dokumenta datu rediģēšana programmā Excel 
+Šī uzdevuma mērķis ir jūs iepazīstināt ar funkcionalitātes atjauninājumiem Microsoft Dynamics 365 for Finance and Operations izdevuma Enterprise apgabalā Budžeta plānošana. Šī uzdevuma nolūks ir ilustrēt budžeta plānošanas moduļa ātras konfigurēšanas piemēru un demonstrēt, kā var paveikt budžeta plānošanu, izmantojot šo konfigurāciju.  Šajā uzdevumā galvenā uzmanība ir pievērsta tālāk uzskaitītajiem biznesa procesiem vai uzdevumiem. -    - Organizācijas hierarhijas izveidošana budžeta plānošanai un lietotāju drošības konfigurēšanai   - Budžeta plāna scenāriju, budžeta plāna kolonnu, izkārtojumu un Excel veidņu definēšana   - Budžeta plānošanas procesa izveidošana un aktivizēšana   - Budžeta plāna dokumenta izveidošana, izgūstot faktiskos datus no virsgrāmatas   - Sadalījumu izmantošana, lai koriģētu budžeta plāna dokumenta datus   - Budžeta plāna dokumenta datu rediģēšana programmā Excel 
 
 <a name="prerequisites"></a>Priekšnosacījumi 
 ------------------
 
-Šajā apmācībā ir nepieciešama piekļuve Dynamics 365 for Operations videi, izmantojot Contoso demonstrācijas datus, un šai instancei jums ir jābūt norādītam kā administratoram. Šī uzdevuma izpildē nedrīkst izmantot privātās pārlūkošanas režīmu — ja nepieciešams, pārlūkprogrammā izrakstieties no visiem citiem kontiem, un pēc tam pierakstieties, izmantojot Dynamics 365 for Operations administratora akreditācijas datus. Pierakstoties sistēmā Dynamics 365 for Operations, jums **IR JĀATZĪMĒ** izvēles rūtiņa “Saglabāt manu pieteikuminformāciju”. Tādējādi tiks izveidots pastāvīgs sīkfails, kas pašlaik nepieciešams programmai Excel. Ja sistēmā Dynamics 365 for Operations pierakstījāties, izmantojot pārlūkprogrammu, kas nav IE, tiks piedāvāts pierakstīties programmā Excel. Kad programmā Excel noklikšķināsit uz Pierakstīties, pārlūkprogrammā IE tiks atvērts uznirstošais logs. Pierakstīšanās laikā **IR** jāatzīmē izvēles rūtiņa Saglabāt manu pieteikuminformāciju. Ja programmā Excel noklikšķinot uz Pierakstīties, netiek atvērta neviena uzvedne, pārlūkprogrammā IE notīriet sīkfailu kešatmiņu.
+Lai izpildītu šo apmācību, jums ir jāpiekļūst Dynamics 365 for Finance and Operations videi ar Contoso demonstrācijas datiem un jums ir jābūt norādītam kā šīs instances administratoram. Šī uzdevuma izpildē nedrīkst izmantot privātās pārlūkošanas režīmu — ja tas ir nepieciešams, pārlūkprogrammā izrakstieties no visiem citiem kontiem un pēc tam pierakstieties, izmantojot Dynamics 365 for Finance and Operations administratora akreditācijas datus. Pierakstoties programmatūrā Dynamics 365 for Finance and Operations, jums **IR JĀATZĪMĒ** izvēles rūtiņa Saglabāt manu pieteikuminformāciju. Tādējādi tiks izveidots pastāvīgs sīkfails, kas pašlaik nepieciešams programmai Excel. Ja pierakstāties programmatūrā Dynamics 365 for Finance and Operations, izmantojot citu pārlūkprogrammu, izņemot IE, tiek piedāvāts pierakstīties programmā Excel. Kad programmā Excel noklikšķināsit uz Pierakstīties, pārlūkprogrammā IE tiks atvērts uznirstošais logs. Pierakstīšanās laikā **IR** jāatzīmē izvēles rūtiņa Saglabāt manu pieteikuminformāciju. Ja programmā Excel noklikšķinot uz Pierakstīties, netiek atvērta neviena uzvedne, pārlūkprogrammā IE notīriet sīkfailu kešatmiņu.
 
 ## <a name="scenario-overview"></a>**Scenārija apskats**
 Jūlija ir grāmatvede uzņēmumā Contoso Entertainment Systems (DEMF) Vācijā. Tuvojas 2016. finanšu gads, tādēļ viņai ir jāiestata uzņēmuma budžets nākamajam gadam. Tālāk ir aprakstīts budžeta sagatavošanas process.
@@ -148,9 +148,9 @@ Budžeta plāna kolonnas ir atkarīgas no naudas vai daudzuma kolonnām, kuras v
 
 [![Automātiskais aizpildījums](./media/screenshot22.png)](./media/screenshot22.png) 
 
-4.7. Atgriezties programmā Dynamics 365 for Operations un atsvaidziniet lapu. Publicētās vērtības ir redzamas programmā Dynamics 365 for Operations. 
+4.7. Atgriezties programmatūrā Dynamics 365 for Finance and Operations un atsvaidziniet lapu. Programmatūrā Dynamics 365 for Finance and Operations ir redzamas publicētās vērtības. 
 
-[![Atsvaidzināt](./media/screenshot23.png)](./media/screenshot23.png)
+[![Atsvaidzināšana](./media/screenshot23.png)](./media/screenshot23.png)
 
 ## <a name="task-5-create-budget-plan-document-layouts-and-templates"></a>5. uzdevums. Budžeta plāna dokumenta izkārtojumu un veidņu izveide
 Izkārtojums definē, kā izskatīsies budžeta plāna dokumenta rindu režģis, kad lietotājs atver budžeta plāna dokumentu. Budžeta plāna dokumentu izkārtojumu var arī pārslēgt, lai datus aplūkotu no dažādiem aspektiem. Tā kā budžeta plāna dokumentam lietojamās kolonnas ir definētas, Jūlijai ir jāizveido budžeta plāna dokumenta izkārtojums, kas izskatīsies līdzīgi Excel tabulai, ko viņa izmanto, lai izveidotu budžeta datus (skatiet šī uzdevuma sadaļu Scenārija pārskats) 
@@ -231,9 +231,9 @@ Iepriekšējā gada faktiskās summas tiks kopētas uz pašreizējā gada budže
 
 9.2. Kad tiek atvērta Excel darbgrāmata, pielāgojiet budžeta plāna dokumenta skaitļus un noklikšķiniet uz pogas Publicēt.
 
-[![Publicēt](./media/screenshot36.png)](./media/screenshot36.png)
+[![Publicēšana](./media/screenshot36.png)](./media/screenshot36.png)
 
-9.3. Atgriezieties budžeta plāna dokumentā programmā Dynamics 365 for Operations. Noklikšķiniet uz Darbplūsma &gt; Iesniegt dokumentu automātiskai apstiprināšanai
+9.3. Atkal atveriet budžeta plāna dokumentu programmatūrā Dynamics 365 for Finance and Operations. Noklikšķiniet uz Darbplūsma &gt; Iesniegt dokumentu automātiskai apstiprināšanai
 
 [![Automātiska apstiprināšana](./media/screenshot37.png)](./media/screenshot37.png) 
 

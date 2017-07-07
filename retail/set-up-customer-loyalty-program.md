@@ -1,27 +1,29 @@
 ---
 title: "Klientu lojalitātes programmas iestatīšana"
-description: "Šajā rakstā aprakstīts, kā iestatīt lojalitātes programmas komponentes. Lojalitātes programmas var palīdzēt paaugstināt debitoru lojalitāti, atlīdzinot debitoriem par preču pirkšanu jūsu mazumtirdzniecības veikalos. Programmā Microsoft Dynamics 365 for Operations varat iestatīt vienkāršās vai kompleksās lojalitātes programmas, kas tiek piemērotas jūsu juridiskajām personām jebkurā mazumtirdzniecības kanālā."
+description: "Šajā rakstā aprakstīts, kā iestatīt lojalitātes programmas komponentes. Lojalitātes programmas var palīdzēt paaugstināt debitoru lojalitāti, atlīdzinot debitoriem par preču pirkšanu jūsu mazumtirdzniecības veikalos. Programmā Microsoft Dynamics 365 for Retail varat iestatīt vienkāršās vai kompleksās lojalitātes programmas, kas tiek piemērotas jūsu juridiskajām personām jebkurā mazumtirdzniecības kanālā."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16201
 ms.assetid: f79559d2-bc2d-4f0b-a938-e7a61524ed80
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 04521c20ddeca1154b134b23c1db69f45c554ed3
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 710f8ae3a6a2b5072f37879aad066dc699ede8f0
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -31,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Šajā rakstā aprakstīts, kā iestatīt lojalitātes programmas komponentes. Lojalitātes programmas var palīdzēt paaugstināt debitoru lojalitāti, atlīdzinot debitoriem par preču pirkšanu jūsu mazumtirdzniecības veikalos. Programmā Microsoft Dynamics 365 for Operations varat iestatīt vienkāršās vai kompleksās lojalitātes programmas, kas tiek piemērotas jūsu juridiskajām personām jebkurā mazumtirdzniecības kanālā.
+Šajā rakstā aprakstīts, kā iestatīt lojalitātes programmas komponentes. Lojalitātes programmas var palīdzēt paaugstināt debitoru lojalitāti, atlīdzinot debitoriem par preču pirkšanu jūsu mazumtirdzniecības veikalos. Programmā Microsoft Dynamics 365 for Retail varat iestatīt vienkāršās vai kompleksās lojalitātes programmas, kas tiek piemērotas jūsu juridiskajām personām jebkurā mazumtirdzniecības kanālā.
 
 <a name="loyalty-features"></a>Lojalitātes programmas funkcijas
 ----------------
@@ -45,7 +47,7 @@ Lojalitātes programmu var iestatīt tā, lai tiktu ietvertas šādas opcijas.
 -   Manuāli pielāgojiet lojalitātes programmas kartes vai pārsūtiet lojalitātes programmas atlīdzību bilanci no vienas kartes uz citu, lai uzņemtu vai izsniegtu atlīdzību klientam.
 
 ## <a name="setting-up-loyalty-programs"></a>Lojalitātes programmas iestatīšana
-Lai nodrošinātu lojalitātes funkciju programmā Dynamics 365 for Operations — Retail, jāiestata vairāki komponenti. Šajā diagrammā redzami lojalitātes programmas komponenti un tas, kā tie saistīti viens ar otru. ![Lojalitātes iestatīšanas procesa plūsma](./media/loyaltyprocess.gif)
+Lai nodrošinātu lojalitātes funkciju programmā Dynamics 365 for Retail, jāiestata vairāki komponenti. Šajā diagrammā redzami lojalitātes programmas komponenti un tas, kā tie saistīti viens ar otru. ![Lojalitātes iestatīšanas procesa plūsma](./media/loyaltyprocess.gif)
 
 ## <a name="loyalty-components"></a>Lojalitātes komponenti
 Šī tabula apraksta katru komponentu un kur to izmanto lojalitātes programmas iestatījumos.
@@ -68,7 +70,7 @@ Lai nodrošinātu lojalitātes funkciju programmā Dynamics 365 for Operations �
 
 | Procesa Nosaukums                         | Apraksts                                                                                                                                                                                                                                                                                                                                                                                                    | Lapas nosaukums                            |
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| 1050 (Informācija par lojalitātes programmu)           | Sāciet šo procesu, lai sūtītu lojalitātes programmas datus no Dynamics 365 for Operations uz mazumtirdzniecības veikaliem. Ir ieteicams šo procesu ieplānot un palaist to biežāk, tādējādi lojalitātes programmas dati tiks nosūtīti uz visiem veikaliem.                                                                                                                                                                                               | Sadales grafiks                |
+| 1050 (Informācija par lojalitātes programmu)           | Sāciet šo procesu, lai sūtītu lojalitātes programmas datus no Dynamics 365 for Retail uz mazumtirdzniecības veikaliem. Ir ieteicams šo procesu ieplānot un palaist to biežāk, tādējādi lojalitātes programmas dati tiks nosūtīti uz visiem veikaliem.                                                                                                                                                                                               | Sadales grafiks                |
 | Procesa lojalitātes programmas shēmas              | Palaidiet šo procesu, lai saistītu lojalitātes programmas shēmas ar mazumtirdzniecības kanāliem, kas tiek piešķirta lojalitātes programmas shēmai. Šo procesu var ieplānot tā, lai to varētu palaist kā pakešveida apstrādi. Šis process ir jāpalaiž, ja maināt lojalitātes programmas konfigurācijas datus, piemēram, lojalitātes programmas shēmas, lojalitātes programmas vai lojalitātes programmas atlīdzības punktus.                                                                                               | Procesa lojalitātes programmas shēmas              |
 | Apstrādāt bezsaistes lojalitātes programmu darījumus | Palaidiet šo procesu, lai atjauninātu lojalitātes programmas kartes tā, lai tiktu iekļauti bezsaistē apstrādāti darījumi. Šis process tiek lietots tikai tad, ja lapā **Mazumtirdzniecības koplietojamie parametri **ir atzīmēta izvēles rūtiņa **Iegūt bezsaistē**; tādējādi atlīdzības varēs iegūt bezsaistē.                                                                                                                                               | Apstrādāt bezsaistes lojalitātes programmu darījumus |
 | Atjaunināt lojalitātes programmas kartes pakāpes            | Palaidiet šo procesu, lai izvērtētu klienta pelnīšanas darījumus, kas attiecas uz lojalitātes programmas līmeņa noteikumiem, un atjauninātu klienta līmeņa statusu. Šis process ir nepieciešams tikai tad, ja maināt līmeņu noteikumus lojalitātes programmā un vēlaties atjauninātos noteikumus piemērot jau izsniegtajām lojalitātes programmas kartēm. Šo procesu var palaist kā pakešveida apstrādi vai tikai konkrētām kartēm. | Atjaunināt lojalitātes programmas kartes pakāpes            |

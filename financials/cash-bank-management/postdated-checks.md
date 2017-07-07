@@ -1,16 +1,16 @@
 ---
 title: "Ar iepriekšēju datumu datēti čeki"
-description: "Šajā rakstā ir sniegta informācija par programmatūrā Microsoft Dynamics 365 for Operations nodrošināto ar iepriekšēju datumu datētu čeku atbalstu. Ar iepriekšēju datumu datēti čeki ir čeki, kas tiek izsniegti, lai veiktu vai saņemtu maksājumus nākotnes datumā. Tāpēc šādu čeku nevar iekasēt pirms norādītā datuma."
+description: "Šajā rakstā ir sniegta informācija par programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise nodrošināto ar iepriekšēju datumu datētu čeku atbalstu. Ar iepriekšēju datumu datēti čeki ir čeki, kas tiek izsniegti, lai veiktu vai saņemtu maksājumus nākotnes datumā. Tāpēc šādu čeku nevar iekasēt pirms norādītā datuma."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 21741
 ms.assetid: 4eb7c7da-1e6b-4d35-9f41-373b66103229
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c3e59ae5126cd21e668459686133ba8bcf728df3
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: f7cf2b7996d113f0f883b39f3603de8236e8ad2c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,9 +31,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir sniegta informācija par programmatūrā Microsoft Dynamics 365 for Operations nodrošināto ar iepriekšēju datumu datētu čeku atbalstu. Ar iepriekšēju datumu datēti čeki ir čeki, kas tiek izsniegti, lai veiktu vai saņemtu maksājumus nākotnes datumā. Tāpēc šādu čeku nevar iekasēt pirms norādītā datuma.
+Šajā rakstā ir sniegta informācija par programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise nodrošināto ar iepriekšēju datumu datētu čeku atbalstu. Ar iepriekšēju datumu datēti čeki ir čeki, kas tiek izsniegti, lai veiktu vai saņemtu maksājumus nākotnes datumā. Tāpēc šādu čeku nevar iekasēt pirms norādītā datuma.
 
-Microsoft Dynamics 365 for Operations atbalsta pilnu ar iepriekšēju datumu datētu čeku pārvaldības ciklu gan modulī Debitoru parādi, gan modulī Parādi kreditoriem, kā tas ir redzams tālāk esošajā tabulā.
+Microsoft Dynamics 365 for Finance and Operations atbalsta pilnu ar iepriekšēju datumu datētu čeku pārvaldības ciklu gan modulī Debitoru parādi, gan modulī Parādi kreditoriem, kā tas ir redzams tālāk esošajā tabulā.
 <table>
 <colgroup>
 <col width="50%" />
@@ -74,8 +74,8 @@ Ja jūsu sākotnējais kreditoram izsniegtais vai no debitora saņemtais čeks i
 <tr class="odd">
 <td>Atcelt kreditora čeku, kas datēts ar iepriekšēju datumu</td>
 <td>Varat atcelt ar iepriekšēju datumu datētu čeku tālāk norādītajās situācijās. - Banka ir atgriezusi čeku.
-- Čeks ir lietots nepareizam rēķinam.
-- Čeks ir apmaksāts skaidrā naudā.
+- Čeks ir lietots nepareizam rēķinam.
+- Čeks ir apmaksāts skaidrā naudā.
 </td>
 </tr>
 <tr class="even">

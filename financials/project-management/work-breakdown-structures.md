@@ -1,27 +1,27 @@
 ---
 title: "Darba sadalījuma struktūras"
-description: 
+description: "Darba sadalījuma struktūra (Work Breakdown Structure — WBS) ir projekta ietvaros veicamā darba apraksts. Tā ir uzdevumu hierarhija, kas norāda projekta grupas izpratni par darba saturu un katra komponenta vai uzdevuma lielumu, izmaksām un ilgumu."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/05/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23861
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a700f61bcc6e6d9c699987999be25649862b0d8
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 6d4391f1a6fa517b447387562fd3216201451316
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -30,10 +30,7 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-
-
-
-Darba sadalījuma struktūras Darba sadalījuma struktūra (WBS) ir projekta ietvaros veicamā darba apraksts. Tā ir uzdevumu hierarhija, kas norāda projekta grupas izpratni par darba saturu un katra komponenta vai uzdevuma lielumu, izmaksām un ilgumu. WBS ir trīs galvenie mērķi:
+Darba sadalījuma struktūra (Work Breakdown Structure — WBS) ir projekta ietvaros veicamā darba apraksts. Tā ir uzdevumu hierarhija, kas norāda projekta grupas izpratni par darba saturu un katra komponenta vai uzdevuma lielumu, izmaksām un ilgumu. WBS ir trīs galvenie mērķi:
 
 -   Aprakstīt uzdevumos ietilpstošo darbu sadalījumu vai sastāvu.
 -   Plānot projekta darbu.
@@ -43,7 +40,7 @@ Detalizācijas pakāpe WBS ir atkarīga no precizitātes, kas nepieciešama nov�
 
 Turpretim projekti tādās jomās kā plašsaziņas līdzekļi un reklāma, programmatūra un IT infrastruktūra mēdz būt unikāli un produktivitāte ir atkarīga no uzdevuma veicēja pieredzes un kompetences. Tādēļ šajās nozarēs WBS tiek izmantota, lai noteiktu aptuvenu projekta lielumu, nevis lai detalizēti izsekotu attiecīgā projekta norisi. 
 
-WBS izveide ir intensīvs process, kurš parasti tiek veikts ilgā laikposmā un kuram nepieciešama sadarbība un informācija, ko nodrošina dažādas personas. Šajā tēmā ir aprakstīts, kā varat izmantot WBS uzlabojumus programmatūrā Microsoft Dynamics 365 for Operations, lai apmierinātu savas novērtēšanas un izsekošanas vajadzības.
+WBS izveide ir intensīvs process, kurš parasti tiek veikts ilgā laikposmā un kuram nepieciešama sadarbība un informācija, ko nodrošina dažādas personas. Šajā tēmā ir aprakstīts, kā varat izmantot WBS uzlabojumus programmatūrā Microsoft Dynamics 365 for Finance and Operations, lai nodrošinātu atbilstību novērtēšanas un izsekošanas prasībām.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>WBS izveides priekšnoteikumi
 Lai izveidotu WBS, jums jāvar izveidot darba grafiku un novērtēt darba izmaksas.
@@ -68,7 +65,7 @@ Lai iestatītu kalendāra darba dienas un darba stundas vai izveidotu jaunu kale
 Lai pilnībā izmantotu izmaksu novērtēšanas iespējas, ko sniedz WBS, ir jāiestata izmaksas un pārdošanas cenas darbiniekiem, darbaspēka, izdevumu un maksu kategorijām un krājumiem.
 
 -   Lai iestatītu darbaspēka, izdevumu un maksu kategoriju izmaksas un pārdošanas cenu, noklikšķiniet uz **Projektu vadība un uzskaite** &gt; **Iestatījumi** &gt; **Cenas**.
--   Lai iestatītu krājumu izmaksas un pārdošanas cenu, izmantojiet lapu **Tirdzniecības līgumi**katram krājumam saraksta lapā **Izlaistās preces** sadaļā Preču informācijas pārvaldība.
+-   Lai iestatītu krājumu izmaksas un pārdošanas cenu, izmantojiet lapu **Tirdzniecības līgumi** katram krājumam saraksta lapā **Izlaistās preces** sadaļā Preču informācijas pārvaldība.
 
 ## <a name="creating-a-wbs"></a>WBS izveide
 WBS izveidē ietilpst trīs darbības:
@@ -106,10 +103,10 @@ Pašlaik WBS numerāciju nevar pielāgot.
 
 ### <a name="schedule-estimation"></a>Grafika novērtējums
 
-Grafika novērtējums parasti ir otrais solis, veidojot WBS. Saskaņā ar paraugpraksi grafika novērtējums ir jāveic pēc uzdevumu izveides. Lapai **Darba sadalījuma struktūra** programmatūrā Microsoft Dynamics 365 for Operations ir divas sadaļas. Augšējā rūts ir paredzēta grafika novērtējumam, un apakšējā rūtī ir cilne **Novērtētās izmaksas un ieņēmumi**, kuru varat izmantot izmaksu novērtējumam. 
+Grafika novērtējums parasti ir otrais solis, veidojot WBS. Saskaņā ar paraugpraksi grafika novērtējums ir jāveic pēc uzdevumu izveides. Lapai **Darba sadalījuma struktūra** programmatūrā Finance and Operations ir divas sadaļas. Augšējā rūts ir paredzēta grafika novērtējumam, un apakšējā rūtī ir cilne **Novērtētās izmaksas un ieņēmumi**, kuru varat izmantot izmaksu novērtējumam. 
 **Uzdevumu atkarības** WBS struktūrā iespējams izveidot pirmstecīgās attiecības starp uzdevumiem. Piešķirot uzdevumam pirmstecīgo uzdevumu, attiecīgo uzdevumu var sākt tikai pēc tam, kad ir pabeigti tā pirmstecīgie uzdevumi. Uzdevuma plānotais sākuma datums automātiski tiek iestatīts uz pirmstecīgo uzdevumu pēdējo datumu. 
 
-**Uzdevumu plānošana programmatūrā Microsoft Dynamics 365 for Operations** Lapas mezgla uzdevumu plānošanu nosaka tālāk norādītie faktori.
+**Uzdevumu plānošana programmatūrā Microsoft Dynamics 365 for Finance and Operations** Lapas mezgla uzdevumu plānošanu nosaka tālāk norādītie faktori.
 
 -   Pirmstecīgas aktivitātes
 -   Darbs
@@ -126,7 +123,7 @@ Tāda lapas mezgla uzdevumu sākuma datums, kuram nav pirmstecīgu uzdevumu, tie
 
 cilvēku skaits × ilgums × stundu skaits projekta kalendāra standarta darba dienā. 
 
-Iespējams, reizēm vēlaties atkāpties no šīm kārtulām. Varat izslēgt automātisko plānošanu, lai programmatūrā Microsoft Dynamics 365 for Operations netiktu automātiski iestatīti vai laboti lapas mezgla uzdevumu rekvizīti. Ievadot uzdevuma informāciju, kas izraisa plānošanas kārtulu pārkāpumu, attiecīgajam uzdevumam tiek parādīta plānošanas kļūdas ikona. Ja nevēlaties, lai plānošanas kļūdas tiktu parādītas, noklikšķiniet uz **Plānošanas kļūdas tiek rādītas**, lai izslēgtu šo līdzekli. 
+Iespējams, reizēm vēlaties atkāpties no šīm kārtulām. Automātisko plānošanu var izslēgt, lai neļautu programmatūrai Finance and Operations automātiski iestatīt vai labot lapas mezgla uzdevumu rekvizītus. Ievadot uzdevuma informāciju, kas izraisa plānošanas kārtulu pārkāpumu, attiecīgajam uzdevumam tiek parādīta plānošanas kļūdas ikona. Ja nevēlaties, lai plānošanas kļūdas tiktu parādītas, noklikšķiniet uz **Plānošanas kļūdas tiek rādītas**, lai izslēgtu šo līdzekli. 
 
 > [!NOTE] 
 > Kopsavilkuma uzdevuma vai konteineruzdevuma vērtības arī turpmāk tiek aprēķinātas kā komponentu uzdevumu vērtību summa neatkarīgi no tā, vai automātiskās plānošanas palīdzība ir ieslēgta vai izslēgta. 
@@ -135,7 +132,7 @@ Iespējams, reizēm vēlaties atkāpties no šīm kārtulām. Varat izslēgt aut
 
 **Plānošanas kļūdu labošana pēc uzdevuma** Veicot dubultklikšķi uz plānošanas kļūdas ikonas noteiktam uzdevumam, dialoglodziņā tiek parādītas visas plānošanas kļūdas attiecīgajam uzdevumam. Jūs varat izlemt, kuras plānošanas kļūdas uzdevumam labot. 
 
-**Visu plānošanas kļūdu labošana** Ja vēlaties, lai programmatūrā Microsoft Dynamics 365 for Operations tiktu labotas visas plānošanas kļūdas WBS struktūrā, darbības rūtī noklikšķiniet uz **Labot visas plānošanas neatbilstības**. 
+**Visu plānošanas kļūdu labošana** Ja vēlaties, lai programmatūra Finance and Operations veiktu visu plānošanas kļūdu labošanu WBS struktūrā, darbību rūtī noklikšķiniet uz **Labot visas plānošanas neatbilstības**. 
 
 > [!NOTE] 
 > Šis līdzeklis var izraisīt nozīmīgas WBS modifikācijas. Kļūdas tiek labotas šādā secībā:
@@ -170,7 +167,7 @@ Katras darbaspēka vai izdevumu novērtējuma rindas izmaksas un pārdošanas ce
 ## <a name="tracking-progress-on-the-wbs"></a>Sekošana norisei WBS struktūrā
 Dažās nozarēs sekošana projekta norisei, salīdzinot to ar WBS struktūru, tiek veikta ļoti fragmentārā līmenī, savukārt citās jomās sekošana projekta norisei tiek īstenota augstākā WBS līmenī. Šajā sadaļā ir aprakstīts, kā jūs varat izmantot WBS izsekošanu jūsu projekta prasībām. 
 
-Programmatūrā Microsoft Dynamics 365 for Operations ir pieejami trīs projekta WBS struktūras skati: plānošanas skats, darba izsekošanas skats un izmaksu izsekošanas skats.
+Programmatūrā Finance and Operations ir trīs skati projekta WBS struktūrai: plānošanas skats, darba izsekošanas skats un izmaksu izsekošanas skats.
 
 ### <a name="planning-view"></a>Plānošanas skats
 
@@ -246,13 +243,13 @@ Laika posms iegūtās vērtības diagrammā tiek parādīts pa nedēļām vai m�
 
 **Plānotā vērtība** Saskaņā ar EVM teorētisko pamatojumu plānotās vērtības grafiks norāda ātrumu, ar kuru projekta grupa plānoja iegūt vērtību attiecīgajā projektā. 
 
-Programmatūrā Microsoft Dynamics 365 for Operations plānotās vērtības grafika veidošanas laikā tiek izmantots pelnīšanas noteikums 0:100. Saskaņā ar šo noteikumu uzdevuma vērtība tiek grāmatota uzdevumā tā beigu datumā. Vērtība netiek grāmatota, līdz projekta pabeigtība sasniedz 100 procentus. 
+Finance and Operations izmanto 0:100 pelnīšanas kārtulu, atzīmējot plānoto vērtību grafikā. Saskaņā ar šo noteikumu uzdevuma vērtība tiek grāmatota uzdevumā tā beigu datumā. Vērtība netiek grāmatota, līdz projekta pabeigtība sasniedz 100 procentus. 
 
 Sadaļā Projektu vadība un uzskaite, ievadiet lapu mezglu beigu datumu un plānotās izmaksas. Kad plānotās vērtības grafiks ir parādīts pa nedēļām, plānotā vērtība tiek summēta pa nedēļām visiem lapas mezgla uzdevumiem visā projekta periodā. 
 
 **Iegūtā vērtība** Saskaņā ar EVM teorētisko pamatojumu iegūtās vērtības grafiks norāda ātrumu, ar kuru projekta grupa faktiski iegūst vērtību attiecīgajā projektā. 
 
-Programmatūrā Microsoft Dynamics 365 for Operations iegūtās vērtības grafika veidošanas laikā tiek izmantots pelnīšanas noteikums 0:100. Saskaņā ar šo noteikumu uzdevuma vērtība tiek grāmatota uzdevumā tā beigu datumā. Vērtība netiek grāmatota, līdz projekta pabeigtība sasniedz 100 procentus. 
+Finance and Operations izmanto 0:100 pelnīšanas kārtulu, atzīmējot iegūto vērtību grafikā. Saskaņā ar šo noteikumu uzdevuma vērtība tiek grāmatota uzdevumā tā beigu datumā. Vērtība netiek grāmatota, līdz projekta pabeigtība sasniedz 100 procentus. 
 
 Aprēķinot iegūto vērtību, tiek ņemta vērā katra uzdevuma norises procentuālā vērtība. Saskaņā ar 0:100 pelnīšanas kārtulu tikai uzdevumi, kas ir pabeigti attiecīgajā periodā, tiek ņemti vērā iegūtās vērtības aprēķinā attiecīgā perioda beigās. Iegūtā vērtība projektam tiek aprēķināta visiem uzdevumiem, kuri ir pabeigti grafika izveides brīdī. 
 

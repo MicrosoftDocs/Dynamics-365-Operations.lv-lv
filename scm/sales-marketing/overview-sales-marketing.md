@@ -3,13 +3,13 @@ title: "Pārdošana un mārketings"
 description: "Moduli Pārdošana un mārketings varat izmantot, lai iegūtu, uzglabātu un izmantotu dažādu tipu datus pārdošanas plūsmā. Šie dati ietver sākotnējo pārdošanas iniciatīvu, turpmāko darbību un papildu pārdošanu."
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 92303
 ms.assetid: 65ca9992-bbfa-4224-bf0e-067a25c7e6a4
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 25ea6e64453b22d664dd65a1f1bb18e3a1997bc5
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: dddcc764bb11540b8207350c463d1adb2533e1c0
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -43,7 +43,7 @@ Pārdošanā un mārketingā sākotnējās mijiedarbības, kas jums notiek ar po
 
 ### <a name="campaigns"></a>Kampaņas
 
-Kampaņa ir vērsta uz kontaktpersonām potenciālajiem klientiem, interesentiem, iespējām un debitoriem, kas ir atlasīti dalībai šajā kampaņā. Programmatūrā Microsoft Dynamics 365 for Operations varat izveidot vairāku vidu kampaņas, piemēram, telemārketinga, pasta sūtījumu un e-pasta kampaņas, lai maksimāli izmantotu debitoru potenciālu. Kad kampaņas gaitā saņemt pozitīvas atbildes, varat sākt pārdošanas procesu tiem adresātiem, kuri uz kampaņu ir atbildējuši pozitīvi.
+Kampaņa ir vērsta uz kontaktpersonām potenciālajiem klientiem, interesentiem, iespējām un debitoriem, kas ir atlasīti dalībai šajā kampaņā. Programmatūrā Microsoft Dynamics 365 for Finance and Operations varat izveidot vairāku tipu kampaņas, piemēram, telemārketinga, pasta sūtījumu un e-pasta kampaņas, lai maksimāli izmantotu debitoru potenciālu. Kad kampaņas gaitā saņemt pozitīvas atbildes, varat sākt pārdošanas procesu tiem adresātiem, kuri uz kampaņu ir atbildējuši pozitīvi.
 
 ## <a name="sales"></a>Pārdošana
 Pārdošanas funkcionalitāti varat izmantot, lai izveidotu piedāvājumus, papildu pārdošanu un šķērspārdošanu jauniem un esošajiem klientiem, izveidot pārdošanas pasūtījumus un izveidot pārdošanas rēķinus debitoriem. Nākamajā procesa plūsmā ir parādīts biznesa process pārdošanai. [![Pārdošanas biznesa process](./media/sales01.jpg)](./media/sales01.jpg)

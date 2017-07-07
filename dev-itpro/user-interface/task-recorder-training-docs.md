@@ -3,7 +3,7 @@ title: "Dokumentācijas vai apmācības veidošana, izmantojot uzdevumu ierakstu
 description: "Šajā tēmā ir paskaidrots, kas ir uzdevumu reģistrētājs un uzdevumu ceļveži, kā izveidot uzdevumu ierakstus un kā pielāgot Microsoft uzdevumu ceļvežus un iekļaut tos palīdzībā."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8b44dc66cdcd1ede59cb9bb4ed05be27dd465599
+ms.sourcegitcommit: ee6d455c44a38d9b3962ca20a5cb28007c19cf1d
+ms.openlocfilehash: e71c2638caccb9a31c5254a3cf68c802808960b9
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/17/2017
 
 
 ---
@@ -31,19 +31,22 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kas ir uzdevumu reģistrētājs un uzdevumu ceļveži, kā izveidot uzdevumu ierakstus un kā pielāgot Microsoft uzdevumu ceļvežus un iekļaut tos palīdzībā.
+Šajā tēmā ir paskaidrots, kas ir uzdevumu reģistrētājs un uzdevumu ceļveži, kā izveidot uzdevumu ierakstus un kā pielāgot Microsoft uzdevumu ceļvežus lietošanai Unified Operations produktos un iekļaut tos palīdzībā.
+
+> [!IMPORTANT]
+> Nevar izveidot pielāgotus uzdevumu ceļvežus programmatūrai Dynamics 365 for Talent. Talent palīdzības sistēmai tiek automātiski izveidots savienojums ar preces uzdevumu ceļvežiem. 
 
 <a name="learn-about-task-recorder"></a>Uzdevumu ierakstītāja iepazīšana
 -------------------------
 
-Uzdevumu reģistrētājs ir Microsoft Dynamics 365 for Operations rīks, ko varat izmantot, lai reģistrētu produkta lietotāja interfeisā (UI) veiktās darbības. Kad izmantojat uzdevumu ierakstītāju, tiek uzņemti visi notikumi, ko veicat UI un kas tiek izpildīti attiecībā pret serveri — tostarp vērtību pievienošana, iestatījumu mainīšana, datu noņemšana. Ierakstītās darbības kopā tiek sauktas par *uzdevuma ierakstu*. Uzdevumu ierakstus var izmantot daudzos veidos:
+Uzdevuma reģistrētājs ir rīks, ko varat lietot, lai reģistrētu darbības, kuras veicat preces lietotāja interfeisā (UI). Kad izmantojat uzdevumu ierakstītāju, tiek uzņemti visi notikumi, ko veicat UI un kas tiek izpildīti attiecībā pret serveri — tostarp vērtību pievienošana, iestatījumu mainīšana, datu noņemšana. Ierakstītās darbības kopā tiek sauktas par *uzdevuma ierakstu*. Uzdevumu ierakstus var izmantot daudzos veidos:
 
--   **Uzdevumu ierakstus var atskaņot kā uzdevumu ceļvežus.** Uzdevumu ceļveži ir neatņemama programmas Dynamics 365 for Operations palīdzības funkcionalitātes sastāvdaļa. Uzdevuma ceļvedis ir kontrolēts, strukturēts, interaktīvs līdzeklis, kas palīdz veikt biznesa procesa darbības. Lietotājs tiek instruēts izpildīt katru darbību, izmantojot uznirstošas uzvednes (jeb “burbuļus”), kas kā animācija tiek parādītas lietotāja interfeisā un norāda uz UI elementiem, ar kuriem lietotājam ir nepieciešams mijiedarboties. “Burbulis” arī sniedz informāciju par to, kā mijiedarboties ar attiecīgo elementu, piemēram, “Noklikšķiniet šeit” vai “Ievadiet vērtību šajā laukā”. Uzdevuma ceļvedis darbojas ar lietotāja pašreizējo datu kopu, un ievadītie dati tiek saglabāti lietotāja vidē.
+-   **Uzdevumu ierakstus var atskaņot kā uzdevumu ceļvežus.** Uzdevumu ceļveži ir neatņemama palīdzības funkcionalitātes sastāvdaļa. Uzdevuma ceļvedis ir kontrolēts, strukturēts, interaktīvs līdzeklis, kas palīdz veikt biznesa procesa darbības. Lietotājs tiek instruēts izpildīt katru darbību, izmantojot uznirstošas uzvednes (jeb “burbuļus”), kas kā animācija tiek parādītas lietotāja interfeisā un norāda uz UI elementiem, ar kuriem lietotājam ir nepieciešams mijiedarboties. “Burbulis” arī sniedz informāciju par to, kā mijiedarboties ar attiecīgo elementu, piemēram, “Noklikšķiniet šeit” vai “Ievadiet vērtību šajā laukā”. Uzdevuma ceļvedis darbojas ar lietotāja pašreizējo datu kopu, un ievadītie dati tiek saglabāti lietotāja vidē.
 -   **Uzdevumu ierakstus var rādīt kā procedurālas darbības palīdzības rūtī.** Lai meklētu un parādītu uzdevumu ierakstus, varat izmantot palīdzības rūti. Jūs varat piekļūt palīdzības rūtij, noklikšķinot uz **?** ikonas augšējā navigācijas joslā, vai arī varat izmantot īsinājumtaustiņu kombināciju **Ctrl+Shift+?**. Palīdzības rūtī varat lasīt uzdevumu ieraksta darbības, vai varat izvēlēties ierakstu atskaņot kā uzdevuma ceļvedi, lai tas jūs vadītu pa UI.
--   **Uzdevumu ierakstus var saglabāt uz BPM.** Savu uzdevuma ierakstu varat saglabāt kādā Biznesa procesu modelētāja (BPM) bibliotēkas hierarhijas rindā pakalpojumos Lifecycle Services (LCS). No ieraksta tiks ģenerēts darbību saraksts un biznesa procesu plūsmas diagramma. Uzdevumu ierakstus, kas ir saglabāti BPM bibliotēkā, var rādīt programmatūrā Dynamics 365 for Operations kā palīdzību.
+-   **Uzdevumu ierakstus var saglabāt uz BPM.** Savu uzdevuma ierakstu varat saglabāt kādā Biznesa procesu modelētāja (BPM) bibliotēkas hierarhijas rindā pakalpojumos Lifecycle Services (LCS). No ieraksta tiks ģenerēts darbību saraksts un biznesa procesu plūsmas diagramma. Uzdevumu ierakstus, kas ir saglabāti BPM bibliotēkā, var rādīt kā palīdzības saturu.
 -   **Uzdevumu ierakstus var saglabāt kā Word dokumentus.** Tādējādi varat ērti veidot drukājamus apmācību ceļvežus.
 
-Varat izveidot pats savus uzdevumu ierakstus, atskaņot Microsoft nodrošinātos uzdevumu ierakstus vai modificēt Microsoft nodrošinātos uzdevumu ierakstus, lai atspoguļotu jūsu konfigurāciju. Papildinformāciju par uzdevumu reģistrētāju skatiet tēmā [Uzdevumu reģistrētājs programmatūrā Dynamics 365 for Operations](task-recorder.md).
+Varat izveidot pats savus uzdevumu ierakstus, atskaņot Microsoft nodrošinātos uzdevumu ierakstus vai modificēt Microsoft nodrošinātos uzdevumu ierakstus, lai atspoguļotu jūsu konfigurāciju. Plašāku informāciju par uzdevuma reģistrētāju skatiet rakstā [Uzdevuma reģistrētājs](task-recorder.md).
 
 ## <a name="plan-your-task-recording"></a>Jūsu uzdevuma ieraksta plānošana
 Gan veidojot jaunu uzdevumu ierakstu, gan sava ieraksta pamatā izmantojot Microsoft uzdevuma ierakstu, paturiet prātā tālāk norādīto informāciju.
@@ -83,7 +86,7 @@ Gan veidojot jaunu uzdevumu ierakstu, gan sava ieraksta pamatā izmantojot Micro
 
 [![screen4](./media/screen4.png)](./media/screen4.png)
 
--   **Informācijas darbība**. Šāda tipa anotācijas tiek izveidotas, ar peles labo pogu noklikšķinot uz vadīklas vai jebkurā vietā formā &lt; **Uzdevumu reģistrētājs** &lt; **Pievienot informācijas darbību. **Informācijas darbības tiek parādītas kā numurētas darbības jebkurā vietā, kur tās ievietojat, pat ja UI netika ierakstīta nekāda darbība. Varat pievienot formas līmeņa informācijas darbību vai ar vadīklu saistītu informācijas darbību. Ja informācijas darbība ir saistīta ar kādu formu, uzdevumu ceļveža atskaņošanas laikā uzdevumu ceļveža “burbulis” kļūst redzams kaut kur šajā formā, bez rādītāja. Ja informācijas darbība ir saistīta ar kādu vadīklu, uzdevuma ceļveža atskaņošanas laikā uzdevuma ceļveža “burbulis” norāda uz attiecīgo vadīklu. Palīdzības rūtī informācijas darbības anotācija tiek radīta kā numurēta darbība ar jebkādu jūsu ievadīto tekstu. Informācijas darbības varat izmantot, lai lietotāju sagatavotu nākamajām darbībām, lai aprakstītu darbības, ko nepieciešams izpildīt ārpus Dynamics 365 for Operations, vai lai atsauktos uz citiem ierakstiem (lai gan anotācijās nevar izveidot hipersaites.).
+-   **Informācijas darbība**. Šāda tipa anotācijas tiek izveidotas, ar peles labo pogu noklikšķinot uz vadīklas vai jebkurā vietā formā &lt; **Uzdevumu reģistrētājs** &lt; **Pievienot informācijas darbību. **Informācijas darbības tiek parādītas kā numurētas darbības jebkurā vietā, kur tās ievietojat, pat ja UI netika ierakstīta nekāda darbība. Varat pievienot formas līmeņa informācijas darbību vai ar vadīklu saistītu informācijas darbību. Ja informācijas darbība ir saistīta ar kādu formu, uzdevumu ceļveža atskaņošanas laikā uzdevumu ceļveža “burbulis” kļūst redzams kaut kur šajā formā, bez rādītāja. Ja informācijas darbība ir saistīta ar kādu vadīklu, uzdevuma ceļveža atskaņošanas laikā uzdevuma ceļveža “burbulis” norāda uz attiecīgo vadīklu. Palīdzības rūtī informācijas darbības anotācija tiek radīta kā numurēta darbība ar jebkādu jūsu ievadīto tekstu. Informācijas darbības varat izmantot, lai lietotāju sagatavotu nākamajām darbībām, lai aprakstītu darbības, ko nepieciešams izpildīt ārpus Microsoft Dynamics 365 for Finance and Operations izdevuma Enterprise, vai lai atsauktos uz citiem ierakstiem (lai gan anotācijās nevar izveidot hipersaites.).
 
 **Nosakiet, cik ilgu ierakstu veidot**
 
@@ -101,7 +104,7 @@ Detalizētus norādījumus par izpildīšanu skatiet rakstā sadaļā [Kā izvei
 ## <a name="copy-and-customize-microsofts-task-recordings"></a>Microsoft uzdevumu ierakstu kopēšana un pielāgošana
 Varat lejupielādēt un rediģēt Microsoft uzdevumu ierakstus, lai tos izmantotu savai palīdzības dokumentācijai vai apmācību materiāliem. Lai lejupielādētu Microsoft uzdevumu ierakstu, rīkojieties šādi:
 
-1.  Programmatūrā Dynamics 365 for Operations atveriet uzdevumu reģistrētāju. Uzdevumu ierakstītājs atrodas izvēlnē **Iestatījumi**.
+1.  Atveriet uzdevumu reģistrētāju. Uzdevumu ierakstītājs atrodas izvēlnē **Iestatījumi**.
 2.  Uzdevumu ierakstītāja rūtī noklikšķiniet uz **Uzturēt ierakstu.**
 3.  Sadaļā **Kur ir šis ieraksts?** noklikšķiniet uz **Tas ir LCS bibliotēkā**.
 4.  Noklikšķiniet uz **Atlasīt LCS bibliotēku**.
@@ -119,18 +122,13 @@ Lai savus pielāgotos uzdevumu ierakstus parādītu palīdzības rūtī un tos v
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Dynamics 365 for Operations palīdzība](..\get-started\help-overview.md)
+[Palīdzības apskats](..\get-started\help-overview.md)
 
-[Savienojuma izveide ar palīdzības funkciju](..\get-started\help-connect.md)
+[Pievienot palīdzību](..\get-started\help-connect.md)
 
-[Uzdevumu reģistrētājs programmatūrā Dynamics 365 for Operations](task-recorder.md)
+[Uzdevumu ierakstītājs](task-recorder.md)
 
 [Nesen pievienotie uzdevumu reģistrētāja līdzekļi](\core\get-started\recently-added-editing-features-in-task-recorder)
 
-[Jaunu apmācību bibliotēku veidošana programmatūrai Dynamics AX pakalpojumos Lifecycle Services, izmantojot uzdevumu reģistrētāju (ārējā saite)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
-
 [Bagātinātu palīdzības tēmu izveide ar uzdevumu reģistrētāju (ārējās saite)](https://mbspartner.microsoft.com/AX/Videos/970)
-
-
-
 

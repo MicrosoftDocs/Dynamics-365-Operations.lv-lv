@@ -1,16 +1,16 @@
 ---
 title: "Pozīciju prognozēšana"
-description: 
+description: "Izdevumi, kas ir saistīti ar darbiniekiem, bieži veido lielu daļu no organizācijas izmaksām. Pozīciju prognozēšana ļauj jums plānot šos izdevumus un iekļaut tos budžetu plānošanā."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 64413
 ms.assetid: 35e791d2-1905-4808-a579-7f181ddddd91
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 03645693c5101c48ef9d35bdbe14debef1e69fc8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 2dffb2634701210852b4b146a762434cf6df07e3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -29,7 +29,6 @@ ms.lasthandoff: 05/25/2017
 # <a name="position-forecasting"></a>Pozīciju prognozēšana
 
 [!include[banner](../includes/banner.md)]
-
 
 
 
@@ -97,9 +96,9 @@ Ieņēmumu izmaksu elements, kas atlasīts atlīdzības grupā, tiek lietots, ka
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Prognozes pozīciju izveide esošajiem amatiem
 
-Lai nodrošinātu visprecīzāko budžeta plānošanu, varat izveidot prognozes pozīcijas, izmantojot informāciju no esošām pozīcijām programmatūrā Microsoft Dynamics 365 for Operations neatkarīgi no tā, vai pozīcija pašlaik ir aizņemta vai brīva. 
+Lai nodrošinātu visprecīzāko budžeta plānošanu, varat izveidot prognozes pozīcijas, izmantojot informāciju no esošām pozīcijām programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise neatkarīgi no tā, vai pozīcija pašlaik ir aizņemta vai brīva. 
 
-Funkcija **Pievienot esošos amatus** parāda visus organizācijas amatus. Iestatot**No** datumu, varat mainīt amatu sarakstu, lai tajā ir amati, kas pastāvējusi kādā datumā agrāk vai parasti nākotnē (piemēram, nākamā budžeta cikla sākumu). Atlasiet budžeta plānošanas procesu un budžeta plāna scenāriju, atlasiet amatus sarakstā un pēc tam noklikšķiniet uz **Labi**, lai izveidotu prognozes pozīcijas atlasītajiem amatiem. Ievērojiet, ka var izveidot tikai vienu prognozes pozīciju katram esošajam amatam budžeta plānošanas procesā un scenārijā. Tomēr, varat izveidot papildu versijas, piešķirot citus budžeta plāna scenārijus. 
+Funkcija **Pievienot esošos amatus** parāda visus organizācijas amatus. Iestatot **No** datumu, varat mainīt amatu sarakstu, lai tajā ir amati, kas pastāvējusi kādā datumā agrāk vai parasti nākotnē (piemēram, nākamā budžeta cikla sākumu). Atlasiet budžeta plānošanas procesu un budžeta plāna scenāriju, atlasiet amatus sarakstā un pēc tam noklikšķiniet uz **Labi**, lai izveidotu prognozes pozīcijas atlasītajiem amatiem. Ievērojiet, ka var izveidot tikai vienu prognozes pozīciju katram esošajam amatam budžeta plānošanas procesā un scenārijā. Tomēr, varat izveidot papildu versijas, piešķirot citus budžeta plāna scenārijus. 
 
 Ja budžeta izmaksu elementi tika piešķirti amatam personāla vadībā, tie budžeta izmaksu elementi tiek piešķirti arī prognozes pozīcijai un izmanto noklusētās summas. Lauks **Piešķirtais darbinieks** prognozes pozīcijā ir iestatīts uz tā darbinieka vārdu, kas ir piešķirts šim amatam, ja darbinieks ir piešķirts. Šis lauks ir vienkāršs teksta lauks. Tiešā saite netiek izveidota. 
 
@@ -164,7 +163,7 @@ Ja noklikšķināsit uz **Ģenerēt palielinājumus** otro reizi, process tiks i
 
 Atjauninājumi prognožu pozīcijās var arī nākt no citām vietām, piemēram, budžeta izmaksu elementa un kompensācijas grupas iestatījumu lapām. Varat arī modificēt prognožu pozīcijas, izmantojot masveida atjaunināšanas procesu. 
 
-Iestatījumu lapā**Budžeta izmaksu elements** ir pieejamas divas opcijas: **Pievienot pozīcijām** un **Atjaunināt pozīcijas**. Opcija **Pievienot pozīcijām** pievieno budžeta izmaksu elementu atlasītajām prognožu pozīcijām. Ja šis elements jau ir piešķirts prognozes pozīcijai, šī prognozes pozīcija tiek izlaista. Opcija **Atjaunināt pozīcijas** lieto pašreizējās vērtības (galveno kontu, procentiem, gada summu utt.) atlasītajām prognožu pozīcijām. 
+Iestatījumu lapā **Budžeta izmaksu elements** ir pieejamas divas opcijas: **Pievienot pozīcijām** un **Atjaunināt pozīcijas**. Opcija **Pievienot pozīcijām** pievieno budžeta izmaksu elementu atlasītajām prognožu pozīcijām. Ja šis elements jau ir piešķirts prognozes pozīcijai, šī prognozes pozīcija tiek izlaista. Opcija **Atjaunināt pozīcijas** lieto pašreizējās vērtības (galveno kontu, procentiem, gada summu utt.) atlasītajām prognožu pozīcijām. 
 
 Katram procesam ir līdzīga lapa, kur varat atlasīt prognozes pozīcijas. Lapā **Pievienot pozīcijām** tiek parādītas visas prognožu pozīcijas, kas ir pieejamas atlasei, bet lapā **Atjaunināt pozīcijas** tiek parādītas tikai tās prognožu pozīcijas, kurām jau ir piešķirts budžeta izmaksu elements. (Tāpēc lapā **Atjaunināt pozīcijas** varat uzzināt, kurām budžeta pozīcijām jau ir pievienots izmaksu elements.) Lai ietvertu prognozes pozīcijas atjaunināšanā, tās ir jāpārvieto no augšējā režģa uz apakšējo režģi. 
 

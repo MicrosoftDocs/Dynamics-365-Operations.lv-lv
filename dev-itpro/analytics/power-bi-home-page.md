@@ -1,9 +1,9 @@
 ---
-title: "Power BI sākumlapa"
-description: "Šajā tēmā ir norādīti resursi, kas palīdzēs jums lietot Power BI kopā ar programmatūru Dynamics 365 for Operations."
+title: "Pieejamais Power BI saturs"
+description: "Šajā tēmā ir uzskaitīts pieejamais Power BI saturs un norādīti resursi, kur varat uzzināt vairāk par to."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,66 +17,86 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 711a2e18a692d7f4d048109fdd97497483ce05e8
+ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
+ms.openlocfilehash: 2df0c6dc9b41dde861f5361bfcc1226786e7aa76
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
 
-# <a name="power-bi-home-page"></a>Power BI sākumlapa
-
+# <a name="power-bi-content-available"></a>Pieejamais Power BI saturs
 [!include[banner](../includes/banner.md)]
 
 
-Šajā tēmā ir norādīti resursi, kas palīdzēs jums lietot Power BI kopā ar programmatūru Dynamics 365 for Operations.
+Šajā tēmā ir uzskaitīts pieejamais Microsoft Power BI saturs un norādīti resursi, kur varat uzzināt vairāk par to.
 
-<a name="power-bi-content-for-dynamics-365-for-operations"></a>Power BI saturs programmatūrai Dynamics 365 for Operations
-------------------------------------------------
+## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Power BI saturs programmatūrai Dynamics 365 for Finance and Operations izdevuma Enterprise 2017. gada jūlija atjauninājumam
+Ja izmantojat Microsoft Dynamics 365 for Finance and Operations izdevuma Enterprise 2017. gada jūlija atjauninājumu, ir pieejams tālāk norādītais Power BI saturs.
 
-| **Līdzekļu apgabals**                  | **Power BI saturs**                          | **Power BI satura atrašanās vieta**                                                                                                                                                                                         | **Papildinformācija**                                                                                                                                                               |
-|-----------------------------------|-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Finanšu pārvaldība              | Finanšu veiktspēja                         | Microsoft Dynamics Lifecycle Services (LCS) (Šī šautra pakotnes versija atbalsta Dynamics 365 for Operations versiju 1611.) PowerBI.com (Šī satura pakotnes versija atbalsta Microsoft Dynamics 365 for Operations versijas 7.0 un 7.0.1.) | [Power BI saturs Finanšu veiktspēja](financial-performance-power-bi-content-pack.md)                                               |
-|                                   | Kredītu un iekasēšanas pārvaldība             | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
-| Cilvēkkapitāla pārvaldība          | Personāla atlases pārskati                            | LCS                                                                                                                                                                                                                            | [Power BI satura pakotne Personāla atlase](recruiting-analysis-power-bi-content-pack.md)                                                       |
-|                                   | Darbinieku zināšanu un attīstības pārskati | LCS                                                                                                                                                                                                                            | [Power BI satura pakotne Darbinieku zināšanas un attīstība](employee-competencies-and-development-analysis-power-bi-content-pack.md) |
-|                                   | Organizācijas apmācības pārskati               | LCS                                                                                                                                                                                                                            | [Power BI satura pakotne Organizācijas apmācības](organizational-training-analysis-power-bi-content-pack.md)                             |
-|                                   | Darbaspēka rādītāji                             | LCS                                                                                                                                                                                                                            | [Power BI satura pakotne Darbaspēka rādītāji](workforce-analysis-power-bi-content-pack.md)                                                 |
-|                                   | Atlīdzību un atvieglojumu pārskati             | LCS                                                                                                                                                                                                                            | [Power BI satura pakotne Atlīdzības un atvieglojumi](compensation-and-benefits-analysis-power-bi-content-pack.md)                         |
-| Projektu vadība un uzskaite | Prakses pārvaldnieks                              | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
-| Mazumtirdzniecība un komercija               | Mazumtirdzniecības kanāla veiktspēja                    | PowerBI.com                                                                                                                                                                                                                    | [Power BI saturs Mazumtirdzniecības kanāla veiktspēja](retail-channel-performance-dashboard-power-bi-data.md)                 |
-| Piegādes ķēdes pārvaldība           | Izmaksu pārvaldība                               | PowerBI.com                                                                                                                                                                                                                    |  [Power BI satura pakotne Izmaksu pārvaldība](cost-management-content-pack.md)                                                          |
-|                                   | Pārdošanas un ienesīguma veiktspēja           | LCS                                                                                                                                                                                                                            | [Power BI saturs Pārdošanas un ienesīguma veiktspēja](sales-profitability-performance-content-pack.md)          |
-|                                   | Pirkumu tēriņu analīze                       | LCS                                                                                                                                                                                                                            | [Power BI satura pakotne Pirkumu tēriņu analīze](purchase-content-pack-for-power-bi.md)                                                 |
-|                                   | Izmaksu uzskaites analīze                      | LCS                                                                                                                                                                                                                            | [Power BI satura pakotne Izmaksu uzskaites analīze](cost-accounting-analysis-content-pack.md)                                         |
-|                                   | Noliktavas veiktspēja                         | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
-|                                   | Ražošanas veiktspēja                        | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
+- [Power BI satura priekšrocības](benefits-power-bi.md)
+- [Naudas pārskata Power BI saturs](/dynamics365/operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
+- [CFO pārskata Power BI saturs](CFO-power-bi.md)
+- [Atlīdzības Power BI saturs](compensation-power-bi.md)
+- [Izmaksu uzskaites analīzes Power BI saturs*](cost-accounting-analysis-content-pack.md) 
+- [Kredīta un iekasēšanas Power BI saturs](/dynamics365/operations/financials/accounts-receivable/credit-collections-power-bi)
+- [Darbinieku attīstības Power BI saturs](employee-development-PBI.md) 
+- [Finanšu veiktspējas Power BI saturs*](financial-performance-power-bi-content-pack.md)
+- [Pamatlīdzekļu Power BI saturs](/dynamics365/operations/financials/fixed-assets/Fixed-asset-management-workspace)
+- [Apmācību Power BI saturs](learning-power-bi.md)
+- [Prakses pārvaldnieka Power BI saturs](practice-manager-power-bi.md)
+- [Ražošanas veiktspējas Power BI saturs](production-performance-power-bi.md)
+- [Power BI satura pakotne Pirkumu tēriņu analīze](purchase-content-pack-for-power-bi.md) 
+- [Power BI satura pakotne Personāla atlase](recruiting-analysis-power-bi-content-pack.md) 
+- [Power BI saturs Pārdošanas un ienesīguma veiktspēja](sales-profitability-performance-content-pack.md)
+- [Kreditoru maksājumu Power BI saturs](/dynamics365/operations/financials/accounts-payable/Vendor-payments-workspace)
+- [Power BI saturs Noliktavas veiktspēja](warehouse-power-bi-content.md)
+- [Power BI saturs Darbaspēka rādītāji](workforce-analysis-power-bi-content-pack.md)  
 
-## <a name="access-power-bi-content-from-lcs"></a>Piekļuve Power BI saturam pakalpojumā LCS
-Papildinformāciju par to, kā lejupielādēt Power BI saturu un izveidot tā savienojumu ar organizācijas datiem, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md).
+### <a name="accessing-the-content"></a>Piekļuve saturam
 
-## <a name="access-power-bi-content-from-powerbicom"></a>Piekļuve Power BI saturam vietnē PowerBI.com
-1.  Pierakstieties vietnē [PowerBI.com](https://www.powerbi.com/).
-2.  Noklikšķiniet uz **Iegūt datus**.
-3.  Lodziņā **Pakalpojumi** noklikšķiniet uz **Iegūt**.
-4.  Atlasiet vajadzīgo satura pakotni un pēc tam noklikšķiniet uz **Iegūt**.
-5.  Ievadiet savas Dynamics 365 for Operations vides URL. URL formātam ir jābūt šādam: **https://&lt;JūsuAOSNomnieks&gt;.cloudax.dynamics.com**. Noklikšķiniet uz **Tālāk**.
-6.  Atlasiet autentifikācijas metodi **oAuth2** un pēc tam noklikšķiniet uz **Pierakstīties**.
-7.  Kad tiek parādīta attiecīga uzvedne, ievadiet Microsoft Office 365 kontu, kam ir atļauja piekļūt jūsu Dynamics 365 for Operations videi.
-8.  Pēc pierakstīšanās tiek automātiski sākts importēšanas process. Kad importēšana ir pabeigta, navigācijas rūtī tiek parādīti satura pakotnē ietvertie rezultāti. Atlasiet pārskatu, lai skatītu importētos datus.
+#### <a name="embedded-content"></a>Iegultais saturs
+Izņemot saturu, kas ir atzīmēts ar zvaigznīti (\*), viss pārējais saturs iepriekšējā sarakstā ir iegults programmā. Lai uzzinātu vairāk par to, kur var skatīt Power BI saturu, klikšķiniet uz saitēm.
 
-## <a name="learn-more-about-the-power-bi-integration"></a>Papildinformācija par Power BI integrāciju
--   [Power BI integrācija](power-bi-integration.md)
--   [Pārskats par Power BI integrāciju, izmantojot elementu krātuvi](power-bi-integration-entity-store.md)
--   [Power BI pārskatu izveide un izplatīšana, izmantojot elementu krātuvi](author-distribute-power-bi-reports.md)
--   [Power BI pārskatu piespraušana darbvietām](pin-power-bi-reports.md)
--   [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md)
--   [Izmantot elektronisko pārskatu veidošanas konfigurāciju, lai pakalpojumam Power BI sniegtu datus no Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+#### <a name="files-available-in-lifecycle-services"></a>Faili, kas pieejami Lifecycle Services
+Šis Power BI saturs ir pieejams Microsoft Dynamics Lifecycle Services (LCS) koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt saturu un saistīt to ar saviem datiem, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md). Power BI satura pakotnes implementēšanas demonstrāciju skatiet tēmā [Power BI saturs pakalpojumā Dynamics Lifecycle Services no Microsoft un jūsu partneriem](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
 
+## <a name="power-bi-content-for-dynamics-365-for-operations-version-1611"></a>Power BI saturs programmatūras Dynamics 365 for Operations versijai 1611
+Ja izmantojat Microsoft Dynamics 365 for Operations versiju 1611, ir pieejams tālāk norādītais Power BI saturs.
 
+- [Power BI saturs Atlīdzības un atvieglojumi](compensation-and-benefits-analysis-power-bi-content-pack.md)   
+- [Power BI saturs Izmaksu uzskaites analīze](cost-accounting-analysis-content-pack.md) 
+- [Kredīta un iekasēšanas Power BI saturs](/dynamics365/operations/financials/accounts-receivable/credit-collections-power-bi)
+- [Power BI saturs Darbinieku zināšanas un attīstība](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
+- [Power BI saturs Finanšu veiktspēja](financial-performance-power-bi-content-pack.md)
+- [Power BI saturs Organizācijas apmācības](organizational-training-analysis-power-bi-content-pack.md) 
+- [Prakses pārvaldnieka Power BI saturs](practice-manager-power-bi.md)
+- [Ražošanas veiktspējas Power BI saturs](production-performance-power-bi.md)
+- [Power BI satura pakotne Pirkumu tēriņu analīze](purchase-content-pack-for-power-bi.md) 
+- [Power BI satura pakotne Personāla atlase](recruiting-analysis-power-bi-content-pack.md) 
+- [Power BI saturs Pārdošanas un ienesīguma veiktspēja](sales-profitability-performance-content-pack.md)
+- [Power BI saturs Noliktavas veiktspēja](warehouse-power-bi-content.md)
+- [Power BI saturs Darbaspēka rādītāji](workforce-analysis-power-bi-content-pack.md)  
 
+### <a name="accessing-the-content"></a>Piekļuve saturam
+Šis Power BI saturs ir pieejams (LCS) koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt saturu un saistīt to ar saviem datiem, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md). Power BI satura pakotnes implementēšanas demonstrāciju skatiet tēmā [Power BI saturs pakalpojumā Dynamics Lifecycle Services no Microsoft un jūsu partneriem](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
 
+## <a name="power-bi-content-for-microsoft-dynamics-ax"></a>Power BI saturs programmatūrai Microsoft Dynamics AX
+Ja izmantojat Microsoft Dynamics AX 7.0 vai Microsoft Dynamics AX 7.0.1, ir pieejams tālāk norādītais Power BI saturs.
 
+- [Power BI satura pakotne Izmaksu pārvaldība](cost-management-content-pack.md)    
+- [Power BI saturs Finanšu veiktspēja](financial-performance-power-bi-content-pack.md)
+- [Mazumtirdzniecības kanāla veiktspējas Power BI saturs](retail-channel-performance-dashboard-power-bi-data.md) 
 
+### <a name="accessing-the-content"></a>Piekļuve saturam
+Šis Power BI saturs ir pieejams tīmekļa vietnē PowerBI.com.
+
+1. Pierakstieties vietnē [PowerBI.com](https://www.powerbi.com/).
+2. Noklikšķiniet uz **Iegūt datus**.
+3. Lodziņā **Pakalpojumi** noklikšķiniet uz **Iegūt**.
+4. Atlasiet vajadzīgo satura pakotni un pēc tam noklikšķiniet uz **Iegūt**.
+5. Ievadiet savas Dynamics AX vides vietrādi URL. URL formātam ir jābūt šādam: **https://&lt;JūsuAOSNomnieks&gt;.cloudax.dynamics.com**. Noklikšķiniet uz **Tālāk**.
+6. Atlasiet autentifikācijas metodi **oAuth2** un pēc tam noklikšķiniet uz **Pierakstīties**.
+7. Kad tiek parādīta attiecīga uzvedne, piesakieties ar Microsoft Office 365 kontu, kam ir atļauja piekļūt jūsu Microsoft Dynamics AX videi.
+8. Pēc pierakstīšanās tiek automātiski sākts importēšanas process. Kad importēšana ir pabeigta, navigācijas rūtī tiek parādīti satura pakotnē ietvertie rezultāti. Atlasiet pārskatu, lai skatītu importētos datus.
 

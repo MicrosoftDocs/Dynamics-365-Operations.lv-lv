@@ -1,16 +1,16 @@
 ---
 title: "Kreditoru sadarbība ar debitoriem"
-description: "Šajā tēmā ir aprakstīts, kā varat izmantot kreditoru sadarbību programmā Dynamics 365 for Operations, lai strādātu ar pirkšanas pasūtījumiem un uzraudzītu sūtījuma krājumus."
+description: "Šajā tēmā ir aprakstīts, kā varat izmantot kreditoru sadarbību programmatūrā Finance and Operations, lai strādātu ar pirkšanas pasūtījumiem un uzraudzītu sūtījuma krājumus."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1649014855d8d5e0f1225a661c9b6bae6490f597
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 41436dab710a5fee0fe0800dff1ebefefa841afc
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,9 +31,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā tēmā ir aprakstīts, kā varat izmantot kreditoru sadarbību programmā Dynamics 365 for Operations, lai strādātu ar pirkšanas pasūtījumiem un uzraudzītu sūtījuma krājumus.
+Šajā tēmā ir aprakstīts, kā varat izmantot kreditoru sadarbību programmatūrā Finance and Operations, lai strādātu ar pirkšanas pasūtījumiem un uzraudzītu sūtījuma krājumus.
 
-Šajā tēmā ir aprakstīts, kā varat izmantot kreditoru sadarbību, lai strādātu ar debitoriem programmā Microsoft Dynamics 365 for Operations. Tā ietver informāciju par to, kā uzraudzīt pirkšanas pasūtījumus un reaģēt uz tiem un kā uzraudzīt sūtījuma krājumus. Kreditoru sadarbību ir iespējams izmantot arī darbam ar rēķiniem. Papildinformāciju skatiet rakstā [Kreditoru sadarbības rēķinu izrakstīšanas darbvieta](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
+Šajā tēmā ir aprakstīts, kā varat izmantot kreditoru sadarbību, lai strādātu ar debitoriem programmatūrā Microsoft Finance and Operations. Tā ietver informāciju par to, kā uzraudzīt pirkšanas pasūtījumus un reaģēt uz tiem un kā uzraudzīt sūtījuma krājumus. Kreditoru sadarbību ir iespējams izmantot arī darbam ar rēķiniem. Papildinformāciju skatiet rakstā [Kreditoru sadarbības rēķinu izrakstīšanas darbvieta](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
 
 ## <a name="working-with-purchase-orders"></a>Darbs ar pirkšanas pasūtījumiem
 Darbvieta **Pirkšanas pasūtījuma akceptēšana** jums ļauj atbildēt uz pirkšanas pasūtījumiem, kas jums ir nosūtīti pārskatīšanai. Tā jums ļauj skatīt arī informāciju par pirkšanas pasūtījumiem, kas gaida rīcību no debitora, un pirkšanas pasūtījumiem, kas ir akceptēti, bet joprojām ir atvērti. Darbvietā **Pirkšanas pasūtījuma akceptēšana** pastāv trīs tālāk aprakstītie saraksti.

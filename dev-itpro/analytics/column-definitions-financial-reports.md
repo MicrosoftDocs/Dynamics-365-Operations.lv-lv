@@ -3,7 +3,7 @@ title: "Kolonnu definīcijas finanšu pārskatos"
 description: "Šajā rakstā ir sniegta informācija par kolonnu definīcijām. Kolonnas definīcija ir pārskata komponents jeb veidošanas bloks, kas nosaka katras kolonnas saturu pārskatā. Tāpat kā rindas definīcijas pamata kolonnu definīcijas var izmantot vairākos pārskatos."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: Management Reporter, Core
+ms.search.scope: Management Reporter, UnifiedOperations, Core
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ca82d24f591aaeb0d675716857cf94a4696785ad
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: d976988a599f65de9957c53a2d149576a1a11d83
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -164,7 +164,7 @@ Jūs varat izmantot dialoglodziņu **Kolonnas galvene**, lai pievienotu, modific
 
 ### <a name="create-an-automatically-generated-header"></a>Izveidot automātiski ģenerētu galveni
 
-Pārskata veidotājs var automātiski ģenerēt kolonnas galvenes, pamatojoties uz automātiskā teksta kodiem. Automātiskā teksta kodi ir mainīgie, kas tiek atjaunināts katru reizi, kad tiek izveidots pārskats. Kolonnas galvene var saturēt šos kodus, lai norādītu pārskata informāciju, kas var mainīties, piemēram, datumi vai periodu skaits. Tādējādi jūs varat izmantot vienu kolonnas definīciju vairākām pārskata definīcijām, laika periodiem un pārskata veidošanas kokiem. Tā kā automātiskā teksta kodi balstās uz kalendāra informāciju no kolonnas definīcijas detaļu rindām, tie tiek atbalstīti tikai kolonām **CALC**, **FD**, un **WKS**. Veids, kādā automātiskā teksta kods parādās kolonnas galvenes šūnā nosaka to, kā šī informācija parādās pārskatā. Dialoglodziņā **Kolonnas galvene**, automātiskā teksta kodi parādās dažādu reģistru burtos. Tāpēc, pārskatā teksts parādās dažādu reģistru burtos. Piemēram, standarta kalendārajā gadā **@CalMonthLong** mēnesi **7** atrisina uz **Jūlijs**. Ja mēneša nosaukumā ir jābūt lielajiem burtiem (piemēram **JŪLIJS**), tad laukā **Kolonnas galvenes teksts** ievadiet automātiskā teksta kodu ar lielajiem burtiem. Ievadiet, piemēram, **@CALMONTHLONG**. Jūs varat kombinēt kodus un tekstu. Jūs ievadāt, piemēram, šādu galvenes tekstu: **Periods @FiscalPeriod-@FiscalYear no @StartDate līdz @EndDate**. Pārskata galvene, kas tiek izveidota līdzinās šādam tekstam: **Periods 1-02 no 01/01/02 līdz 31/01/02**. **Piezīme.** Dažu tekstu formāts, piemēram, pilnais datuma formāts, ir atkarīgs no jūsu Dynamics 365 for Operations servera reģionālajiem iestatījumiem. Lai mainītu šos iestatījumus, noklikšķiniet uz pogas **Sākums**, noklikšķiniet uz **Vadības panelis**, un pēc tam noklikšķiniet uz **Reģions un valoda**. Šajā tabulā ir uzskaitītas pieejamās automātiskā teksta opcijas kolonnu galvenēm.
+Pārskata veidotājs var automātiski ģenerēt kolonnas galvenes, pamatojoties uz automātiskā teksta kodiem. Automātiskā teksta kodi ir mainīgie, kas tiek atjaunināts katru reizi, kad tiek izveidots pārskats. Kolonnas galvene var saturēt šos kodus, lai norādītu pārskata informāciju, kas var mainīties, piemēram, datumi vai periodu skaits. Tādējādi jūs varat izmantot vienu kolonnas definīciju vairākām pārskata definīcijām, laika periodiem un pārskata veidošanas kokiem. Tā kā automātiskā teksta kodi balstās uz kalendāra informāciju no kolonnas definīcijas detaļu rindām, tie tiek atbalstīti tikai kolonām **CALC**, **FD**, un **WKS**. Veids, kādā automātiskā teksta kods parādās kolonnas galvenes šūnā nosaka to, kā šī informācija parādās pārskatā. Dialoglodziņā **Kolonnas galvene**, automātiskā teksta kodi parādās dažādu reģistru burtos. Tāpēc, pārskatā teksts parādās dažādu reģistru burtos. Piemēram, standarta kalendārajā gadā **@CalMonthLong** mēnesi **7** atrisina uz **Jūlijs**. Ja mēneša nosaukumā ir jābūt lielajiem burtiem (piemēram **JŪLIJS**), tad laukā **Kolonnas galvenes teksts** ievadiet automātiskā teksta kodu ar lielajiem burtiem. Ievadiet, piemēram, **@CALMONTHLONG**. Jūs varat kombinēt kodus un tekstu. Jūs ievadāt, piemēram, šādu galvenes tekstu: **Periods @FiscalPeriod-@FiscalYear no @StartDate līdz @EndDate**. Pārskata galvene, kas tiek izveidota līdzinās šādam tekstam: **Periods 1-02 no 01/01/02 līdz 31/01/02**. **Piezīme.** Dažu teksta vērtību formāts, piemēram, pilnā datuma vērtību formāts, ir atkarīgs no jūsu Dynamics 365 for Finance and Operations servera reģionālajiem iestatījumiem. Lai mainītu šos iestatījumus, noklikšķiniet uz pogas **Sākums**, noklikšķiniet uz **Vadības panelis**, un pēc tam noklikšķiniet uz **Reģions un valoda**. Šajā tabulā ir uzskaitītas pieejamās automātiskā teksta opcijas kolonnu galvenēm.
 
 | Automātiskā teksta opcija un kods                | Apraksts                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -488,7 +488,7 @@ Atribūti ir finanšu datu vērtības, kas definē kontu vai darbību. Konta atr
 
 ### <a name="dimension-filter-in-a-column-definition"></a>Dimensiju filtrs kolonnas definīcijā
 
-Dimensijas filtrs tiek izmantots, lai ierobežotu kolonnu **FD** līdz noteiktām dimensiju vērtībām. Filtrs var ietvert vienu dimensiju, dimensiju diapazonu vai dimensiju grupu. Filtrs var ietvert arī dimensiju vērtību kopas. Tā kā dimensiju vērtības var mainīties, tad sistēmai, kas ir balstīta uz \finanšu dimensijām\dimensijām, nav jāatbilst precīzam garumam. Neatkarīgi no tā, vai pārskatā ir ietverts pārskata koks, tiek izmantots filtrs. Jebkurā vietā varat izmantot aizstājējzīmes (\* vai ?). Norādot vairākus kontus, starp kontiem ir jāliek komati, kā redzams šajā piemērā: +Konts=\[1200\], +Konts=\[1100\], Nodaļa=\[01?\] Lai saņemtu visas nodaļas noteiktam kontam, jūs varat izslēgt nodaļas dimensiju no dimensiju filtra. Piemēram, abi šo dimensiju filtri tiek apstrādāti tādā pašā veidā:
+Dimensijas filtrs tiek izmantots, lai ierobežotu kolonnu **FD** līdz noteiktām dimensiju vērtībām. Filtrs var ietvert vienu dimensiju, dimensiju diapazonu vai dimensiju grupu. Filtrs var ietvert arī dimensiju vērtību kopas. Tā kā dimensiju vērtības var mainīties, tad sistēmai, kas ir balstīta uz \finanšu dimensijām\dimensijām, nav jāatbilst precīzam garumam. Neatkarīgi no tā, vai pārskatā ir ietverts pārskata koks, tiek izmantots filtrs. Jebkurā vietā varat izmantot aizstājējzīmes (\* vai ?). Ja norādāt vairākus kontus, atdaliet tos ar komatu kā šajā piemērā: +Konts=\[1200\], +Konts=\[1100\], Nodaļa=\[01?\]. Lai iegūtu visas noteikta konta nodaļas, varat dimensiju filtrā izlaist dimensiju Nodaļa. Piemēram, abi šo dimensiju filtri tiek apstrādāti tādā pašā veidā:
 
 -   +Konts=\[1100\],Nodaļa
 -   +Konts=\[1100\]

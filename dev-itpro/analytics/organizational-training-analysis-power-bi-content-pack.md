@@ -1,15 +1,15 @@
 ---
 title: "Power BI satura pakotne Organizācijas apmācība"
-description: "Šajā tēmā ir aprakstīta Dynamics 365 for Operations Power BI satura pakotne Organizācijas apmācība. Tajā ir paskaidrots, kā piekļūt satura pakotnei, un ir izskaidrots satura pakotnes izstrādei izmantotais datu modelis un elementi."
+description: "Šajā tēmā ir aprakstīta Finance and Operations Power BI satura pakotne Organizācijas apmācība. Tajā ir paskaidrots, kā piekļūt satura pakotnei, un ir izskaidrots satura pakotnes izstrādei izmantotais datu modelis un elementi."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations
+ms.search.scope: Operations, UnifiedOperations
 ms.custom: 263874
 ms.assetid: 45dbba14-aba6-4571-be0d-5d1aba3515d9
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e1bfe405e2e4bf6445567d966ab20bd8645f8dbf
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 26499bf5423bc3711d110bd7e548eda238162b7a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,15 +30,15 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā tēmā ir aprakstīta Dynamics 365 for Operations Power BI satura pakotne Organizācijas apmācība. Tajā ir paskaidrots, kā piekļūt satura pakotnei, un ir izskaidrots satura pakotnes izstrādei izmantotais datu modelis un elementi.
+Šajā tēmā ir aprakstīta Finance and Operations Power BI satura pakotne Organizācijas apmācība. Tajā ir paskaidrots, kā piekļūt satura pakotnei, un ir izskaidrots satura pakotnes izstrādei izmantotais datu modelis un elementi.
 
 <a name="accessing-the-content-pack"></a>Piekļuve satura pakotnei
 --------------------------
 
-Satura pakotne Organizācijas apmācība ir pieejama Microsoft Dynamics Lifecycle Services (LCS) koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt šo satura pakotni un to savienot ar saviem Microsoft Dynamics 365 for Operations datiem, skatiet rakstā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md).
+Satura pakotne Organizācijas apmācība ir pieejama Microsoft Dynamics Lifecycle Services (LCS) koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt šo satura pakotni un izveidot tās savienojumu ar Microsoft Dynamics 365 for Finance and Operations datiem, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md).
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Satura pakotnē iekļautie pārskati
-Pēc tam, kad ir izveidots satura pakotnes savienojums ar jūsu Dynamics 365 for Operations datiem, pārskatos tiek rādīti jūsu organizācijas dati. Ja iepriekš neesat lietojis Microsoft Power BI, papildinformāciju par to varat uzzināt lapā [Vadītā apmācība par Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Satura pakotnē iekļautajos pārskatos ir gan diagrammas, gan tabulas, kas satur papildinformāciju. Tabulā ir sniegts pārskatu apraksts.
+Kad ir izveidots satura pakotnes savienojums ar jūsu Finance and Operations datiem, pārskatos tiek rādīti jūsu organizācijas dati. Ja iepriekš neesat lietojis Microsoft Power BI, papildinformāciju par to varat uzzināt lapā [Vadītā apmācība par Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Satura pakotnē iekļautajos pārskatos ir gan diagrammas, gan tabulas, kas satur papildinformāciju. Tabulā ir sniegts pārskatu apraksts.
 
 | Pārskats          | Saturs                                                                    |
 |-----------------|-----------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ Pēc tam, kad ir izveidots satura pakotnes savienojums ar jūsu Dynamics 365 fo
 Šajos pārskatos esošās diagrammas un elementus varat filtrēt, un diagrammas un elementus varat piespraust informācijas panelim. Plašāku informāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet rakstā [Izveidot un konfigurēt informācijas paneli](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
-Satura pakotnes Organizācijas apmācība pārskatu aizpildīšanai tiek izmantoti Dynamics 365 for Operations dati. Nākamajā tabulā ir redzami elementi, uz kuriem šī satura pakotne bija balstīta.
+Satura pakotnes Organizācijas apmācība pārskatu aizpildīšanai tiek izmantoti Finance and Operations dati. Nākamajā tabulā ir redzami elementi, uz kuriem šī satura pakotne bija balstīta.
 
 | Elements                    | Saturs                                                         | Attiecības ar citiem elementiem                                                                                                                                                                  |
 |---------------------------|------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

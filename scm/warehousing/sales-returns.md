@@ -3,13 +3,13 @@ title: "Pārdošanas ieņēmumi"
 description: "Šajā tēmā ir sniegta informācija par atgriešanas pasūtījumu apstrādes procesu. Tajā ir ietverta informācija par debitoru atgriešanām un to ietekmi uz izmaksu aprēķināšanu un rīcībā esošo krājumu daudzumu."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269384
 ms.assetid: 98a4b517-e606-4036-b55f-1ab248898bdf
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bdec28ba1fe3650f59520cb42a71497c54a7d93e
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b66bf79413ad21f12f789eabafe8413af3f58c9c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 
 Šajā tēmā ir sniegta informācija par atgriešanas pasūtījumu apstrādes procesu. Tajā ir ietverta informācija par debitoru atgriešanām un to ietekmi uz izmaksu aprēķināšanu un rīcībā esošo krājumu daudzumu.
 
-Debitori var atgriezt krājumus dažādu iemeslu dēļ. Piemēram, krājums var būt bojāts vai neatbilst debitora prasībām. Atgriešanas pasūtījums sākas, kad debitors iesniedz krājuma atgriešanas pieprasījumu. Pēc debitora pieprasījuma saņemšanas programmatūrā Microsoft Dynamics 365 for Operations tiek izveidots atgriešanas pasūtījums.
+Debitori var atgriezt krājumus dažādu iemeslu dēļ. Piemēram, krājums var būt bojāts vai neatbilst debitora prasībām. Atgriešanas pasūtījums sākas, kad debitors iesniedz krājuma atgriešanas pieprasījumu. Pēc debitora pieprasījuma saņemšanas programmatūrā Microsoft Dynamics 365 for Finance and Operations tiek izveidots atgriešanas pasūtījums.
 
 ## <a name="return-order-process"></a>Atgriešanas pasūtījuma apstrādes process
 Tālāk esošajā attēlā ir sniegts pārskats par atgriešanas pasūtījuma apstrādes procesu.  
@@ -77,7 +77,7 @@ Izveidojot atgriešanas pasūtījumu, tajā ir jāietver tālāk esošajā tabul
 | Debitora konts   | Atsauce uz tabulu Aprēķini                       | Ir jānodrošina esošs debitora konts.                                                                                                                                                                                                                                                                                                  |
 | Piegādes adrese   | Adrese, uz kuru tiek atgriezts krājums.                 | Pēc noklusējuma tiek lietota organizācijas adrese. Ja galvenē ir atlasīta noteikta noliktava, piegādes adrese tiek mainīta uz šīs noliktavas piegādes adresi. Šo adresi var mainīt lapā **Atgriezto pasūtījuma informācija**.                                                                                                  |
 | Vieta/noliktava     | Vieta vai noliktava, kur tiek saņemta atgrieztā prece | Atgriešanas pasūtījuma piegādes adrese tiek noteikta, pamatojoties uz vietas vai noliktavas piegādes adresi.                                                                                                                                                                                                                                 |
-| AKA kods         | Atgriešanas pasūtījumam piešķirtais ID              | AKA kods tiek izmantots kā alternatīva atslēga visa atgriešanas pasūtījuma apstrādes procesa laikā. AKA kods tiek piešķirts, pamatojoties uz AKA koda numuru sēriju , kas ir iestatīta lapā**Debitoru moduļa parametri**.                                                                                                                              |
+| AKA kods         | Atgriešanas pasūtījumam piešķirtais ID              | AKA kods tiek izmantots kā alternatīva atslēga visa atgriešanas pasūtījuma apstrādes procesa laikā. AKA kods tiek piešķirts, pamatojoties uz AKA koda numuru sēriju , kas ir iestatīta lapā **Debitoru moduļa parametri**.                                                                                                                              |
 | Termiņš           | Pēdējais datums, kad var atgriezt krājumu               | Noklusējuma vērtība tiek aprēķināta, pašreizējam datumam pieskaitot derīguma periodu. Piemēram, ja atgriešana ir derīga tikai 90 dienas no atgriešanas pasūtījuma izveides datuma un atgriešanas pasūtījums ir izveidots 1. maijā, laika vērtība ir **30. jūlijs**. Derīguma periodu var iestatīt lapā **Debitoru moduļa parametri**. |
 | Atgriešanas iemesla kods | Debitora iemesls preces atgriešanai          | Iemesla kodu var atlasīt lietotāja definētu iemeslu kodu sarakstā. Šo lauku varat atjaunināt jebkurā laikā.                                                                                                                                                                                                                                    |
 
@@ -264,7 +264,7 @@ Tālāk aprakstītajā scenārijā CompBuy ir pirkšanas uzņēmums un CompSell 
 
 [![Vienkārša starpuzņēmumu atgriešana](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)  
 
-Pasūtījumu ķēdi var izveidot, ja pirkšanas uzņēmumā tiek izveidots kreditora atgriešanas pasūtījums vai pārdošanas uzņēmumā tiek izveidots debitora atgriešanas pasūtījums. Programmatūra Dynamics 365 for Operations nodrošina attiecīgā pasūtījuma izvedi otrā uzņēmumā, kā arī to, ka galvenes un rindas informācija kreditora atgriešanas pasūtījumā atbilst iestatījumiem debitora atgriešanas pasūtījumā. Izveidotajā atgriešanas pasūtījumā var tikt ietverta atsauce (**Atrast pārdošanas pasūtījumu**) uz esošu debitora rēķinu, vai arī šī atsauce var tikt izslēgta. Abu pasūtījumu rēķinus un pavadzīmes var apstrādāt atsevišķi. Piemēram, nav nepieciešams ģenerēt kreditora atgriešanas pasūtījuma pavadzīmi pirms debitora atgriešanas pasūtījuma pavadzīmes ģenerēšanas.
+Pasūtījumu ķēdi var izveidot, ja pirkšanas uzņēmumā tiek izveidots kreditora atgriešanas pasūtījums vai pārdošanas uzņēmumā tiek izveidots debitora atgriešanas pasūtījums. Programmatūra Dynamics 365 for Finance and Operations nodrošina attiecīgā pasūtījuma izvedi otrā uzņēmumā, kā arī to, ka galvenes un rindas informācija kreditora atgriešanas pasūtījumā atbilst iestatījumiem debitora atgriešanas pasūtījumā. Izveidotajā atgriešanas pasūtījumā var tikt ietverta atsauce (**Atrast pārdošanas pasūtījumu**) uz esošu debitora rēķinu, vai arī šī atsauce var tikt izslēgta. Abu pasūtījumu rēķinus un pavadzīmes var apstrādāt atsevišķi. Piemēram, nav nepieciešams ģenerēt kreditora atgriešanas pasūtījuma pavadzīmi pirms debitora atgriešanas pasūtījuma pavadzīmes ģenerēšanas.
 
 ### <a name="direct-delivery-shipment-returns-among-three-parties"></a>Tiešās piegādes sūtījuma atgriešanas starp trim pusēm
 

@@ -1,15 +1,15 @@
 ---
-title: "Power BI satura pakotne Pārdošanas un ienesīguma veiktspēja"
-description: "Šajā tēmā ir aprakstīts, kas ir iekļauts Dynamics 365 for Operations Microsoft Power BI satura pakotnē Pārdošanas un ienesīguma veiktspēja. Tajā ir paskaidrots, kā piekļūt pārskatiem, kas ir iekļauti satura pakotnē, un ir sniegta informācija par satura pakotnes izveidei izmantoto datu modeli un elementiem."
+title: "Power BI saturs Pārdošanas un ienesīguma veiktspēja"
+description: "Šajā tēmā ir aprakstīts, kas ir iekļauts pārdošanas un ienesīguma veiktspējas Power BI saturā. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
-audience: Application User
-ms.search.scope: Operations, Core
+audience: Application User, IT Pro
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 260674
 ms.assetid: ab457f02-929e-4d34-b813-335be3092287
 ms.search.region: Global
@@ -17,45 +17,45 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 357f7071d801b13518c83170f8d0e7946dd9dede
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 16fef86e330a392ddd888fcb46060c3e1efa87c5
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="sales-and-profitability-performance-power-bi-content"></a>Power BI satura pakotne Pārdošanas un ienesīguma veiktspēja
+# <a name="sales-and-profitability-performance-power-bi-content"></a>Power BI saturs Pārdošanas un ienesīguma veiktspēja
 
 [!include[banner](../includes/banner.md)]
 
+Šajā tēmā ir aprakstīts, kas ir iekļauts **pārdošanas un ienesīguma veiktspējas** Microsoft Power BI saturā. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 
-Šajā tēmā ir aprakstīts, kas ir iekļauts Dynamics 365 for Operations Microsoft Power BI satura pakotnē Pārdošanas un ienesīguma veiktspēja. Tajā ir paskaidrots, kā piekļūt pārskatiem, kas ir iekļauti satura pakotnē, un ir sniegta informācija par satura pakotnes izveidei izmantoto datu modeli un elementiem.
+## <a name="overview"></a>Pārskats
 
-<a name="overview"></a>Pārskats
---------
+**Pārdošanas un ienesīguma veiktspēja** Power BI saturs tika izveidots, lai pārdošanas vadītāji var uzraudzīt galvenos ieņēmumu, bruto peļņas un peļņas normas pārdošanas rādītājus. Tas izmanto pārdošanas transakciju datus un nodrošina gan uzņēmuma līmeņa pārdošanas rādītāju apkopošanas skatu, gan pārdošanas veiktspējas datu sadalījumu pēc debitora un preces.
 
-Šī satura pakotne ir izveidota pārdošanas daļas vadītājiem, lai viņi varētu pārraudzīt galvenos pārdošanas rādītājus, tostarp, ieņēmumu, bruto peļņas un peļņas normas rādītājus. Tā izmanto pārdošanas transakciju datus no programmatūras Dynamics 365 for Operations un nodrošina gan uzņēmuma līmeņa pārdošanas rādītāju apkopošanas skatu, gan pārdošanas veiktspējas datu sadalījumu pēc debitora un preces. Pārskatos izceļot ieņēmumus un peļņas palielinājumu laika gaitā, tos var izmantot, lai brīdinātu vadītājus par pozitīvām un negatīvām tendencēm attiecībā uz atsevišķiem debitoriem un precēm. Kategoriju un reģionālajiem vadītājiem ir noderīgas diagrammas, kurās ir salīdzināti dažādu preču kategoriju un debitoru grupu ieņēmumi un ienesīgums, lai noteiktu kategorijas un grupas, kas sniedz labākos un sliktākos rezultātus. Visaptverošs pārskats, kurā ir sniegts atsevišķa debitora ieņēmumu un peļņas normas attiecība, sniedz kontu pārvaldniekiem iespēju pielāgot pārdošanas un mārketinga pasākumus katra debitora attiecīgajam profilam, pamatojoties uz datiem. Satura pakotne Pārdošanas un ienesīguma veiktspēja sniedz pārdošanas daļas vadītājiem iespēju analizēt pārdošanas veiktspēju pēc tālāk minētajiem rādītājiem.
+Pārskati izceļ ieņēmumus un peļņas palielinājumu laika gaitā. Tāpēc pārskatus var izmantot, lai brīdinātu vadītājus par pozitīvām un negatīvām tendencēm saistībā ar atsevišķiem kreditoriem un precēm. Turklāt diagrammas salīdzina dažādu preču kategoriju un debitoru grupu ieņēmumus un peļņu. Tāpēc kategorijas un reģionālie vadītāji var noteikt labākos un sliktākos rezultātus. Visbeidzot, visaptverošs pārskats atzīmē atsevišķu debitora ieņēmumus salīdzinājumā ar peļņas normu. Tāpēc kontu pārvaldniekiem ir uz datiem balstīts pamatojums tam, ko tie var izmantot, lai pielāgotu pārdošanas un mārketinga pasākumus katra debitora profilam. 
+
+**Pārdošanas un ienesīguma veiktspējas** saturs sniedz pārdošanas daļas vadītājiem iespēju analizēt pārdošanas veiktspēju pēc tālāk minētajiem rādītājiem.
 
 -   Līdzšinējā gada ieņēmumi (pēc debitoru grupas, atsevišķa debitora, pārdošanas kategorijas, atsevišķas preces un atrašanās vietas)
 -   Ieņēmumu izmaiņas pa gadiem (pēc debitora reģiona un pārdošanas kategorijas)
 
-Ienesīgumu var analizēt pēc tālāk minētajiem rādītājiem.
+Ienesīgumu var analizēt tālāk minētajos veidos.
 
 -   Bruto peļņa un peļņas norma (pēc debitoru grupas un preču pārdošanas kategorijas)
 -   Bruto peļņas izmaiņas gadu no gada
 -   Debitora ienesīgums (pēc ieņēmumu un peļņas normas attiecības)
 
-## <a name="accessing-the-content-pack"></a>Piekļuve satura pakotnei
-Power BI satura pakotne Pārdošanas un ienesīguma veiktspēja ir publicēta kā ieviešanas līdzeklis pakalpojumā Lifecycle Services (LCS), un tai var piekļūt programmatūrā Dynamics 365 for Operations. Papildinformāciju par to, kā palaist Power BI pārskatus, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md).
-**Piezīme.** Rakstā KB 4011327 ir priekšnosacījumi tā Power BI saturam. Kad esat pierakstījies pakalpojumos Lifecycle Services, tad KB varat piekļūt šeit: <a href="https://fix.lcs.dynamics.com/issue/results/?q=kb4011327">https://fix.lcs.dynamics.com/issue/results/?q=kb4011327</a>.
+## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
+Ja izmantojat Microsoft Dynamics 365 for Finance and Operations izdevuma Enterprise 2017. gada jūlija atjauninājumu, **Pārdošanas un ienesīguma veiktspējas** Power BI saturs tiek rādīts lapā **Pārdošanas un ienesīguma veiktspēja** (**Pārdošana un mārketings** > **Pieprasījumi un pārskati** > **Pārdošanas veiktspējas analīze** > **Pārdošanas un ienesīguma veiktspēja**). 
 
-## <a name="metrics-included-in-the-content-pack"></a>Satura pakotnē iekļautie rādītāji
-Satura pakotnē ir iekļauts pārskats, kas sastāv no rādītāju kopas, kurā rādītāji ir vizualizēti diagrammu, elementu un tabulu veidā. Tālāk esošajā tabulā ir sniegts apskats par satura pakotnes rādītāju vizualizēšanu.
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI saturā iekļautā metrika
+**Pārdošanas un ienesīguma veiktspējas** Power BI satura pakotnē ir iekļauts pārskats, kas sastāv no rādītāju kopas. Šie rādītāji tiek vizualizēti kā diagrammas, elementi un tabulas. Tālāk esošajā tabulā ir sniegts apskats par satura rādītāju vizualizēšanu.
 
-|                        |                                            |                                                         |
+| Pārskata lapa            | Diagrammas                                     | Elementi                                                   |
 |------------------------|--------------------------------------------|---------------------------------------------------------|
-| **Pārskata lapa**        | **Diagrammas**                                 | **Elementi**                                               |
 | Ieņēmumi pēc debitora    | Pirmie 10 debitori pēc ieņēmumiem                | Kopējie ieņēmumi                                           |
 |                        | Ieņēmumu kopsumma pēc debitoru grupas            | Ieņēmumu palielinājums pa gadiem                                      |
 |                        | Vidējie debitora ieņēmumi pēc debitoru grupas | Bruto peļņa                                            |
@@ -76,47 +76,46 @@ Satura pakotnē ir iekļauts pārskats, kas sastāv no rādītāju kopas, kurā 
 
 \* Šī gada un pagājušā gada ieņēmumi un palielinājums pēc pārdošanas kategorijas.
 
+## <a name="extending-the-power-bi-content"></a>Power BI satura paplašināšana
+Izmantojot pakalpojumā Microsoft Dynamics Lifecycle Services (LCS) pieejamās satura pakotnes, varat nodrošināt lielisku analīzes funkcionalitāti personām, kuras nepierakstās programmatūrā Microsoft Dynamics 365. Varat izmainīt šīs satura pakotnes, tajās ietverot citus pārskatus vai vizualizācijas, un pēc tam publicēt tās savā Power BI.com nomniekā analīzes veikšanai.
+
+**Pārdošanas un ienesīguma veiktspējas** Power BI saturs ir pieejama LCS koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt satura pakotni un ieviest to savā organizācijā, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md). Power BI satura pakotnes implementēšanas demonstrāciju skatiet tēmā [Power BI saturs pakalpojumā Dynamics Lifecycle Services no Microsoft un jūsu partneriem](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
+
+Noteikti lejupielādējiet **pārdošanas un ienesīguma veiktspējas** saturu, kas attiecas uz izmantoto Dynamics 365 versiju.
+
+> [!NOTE]
+> Ja izmantojat Microsoft Dynamics 365 for Operations versiju 1611, šī Power BI satura izmantošanas priekšnosacījums ir KB 4011327. Ja esat pierakstījies LCS, tad KB varat piekļūt šeit: https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
+
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
-Satura pakotnes Pārdošanas un ienesīguma veiktspēja pārskata aizpildīšanai tiek izmantoti Dynamics 365 for Operations dati. Šie dati tiek attēloti kā apkopoti mērījumi, kuri ir pieejami elementu krātuvē, kas ir analīzes veikšanai optimizēta Microsoft SQL datu bāze. Papildinformāciju par to lasiet emuārā [Power BI integrācija elementu krātuvē programmatūrā Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Šajā satura pakotnē ietvertie apkopošanas mērījumi ir to apkopošanas mērījumu apakškopa, kas ir pieejami pārdošanas kubā programmatūrā Dynamics AX 2012 un AX 2012 R3. Lai padarītu kuba apkopošanas mērījumus pieejamus elementu krātuvē, tie ir jāpadara izvietojami. Papildinformāciju skatiet emuāra [Power BI integrācija elementu krātuvē programmatūrā Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) sadaļā par to, kā padarīt apkopošanas mērījumus pieejamus elementu krātuvē. Tālāk ir norādīti elementa Rēķina rindas galvenie apkopošanas mērījumi, kas tiek izmantoti kā satura pakotnes pamatdati.
+**Pārdošanas un ienesīguma veiktspējas** Power BI satura pārskata aizpildīšanai tiek izmantoti tālāk norādītie dati. Šie dati tiek attēloti kā apkopoti mērījumi, kas tiek sagatavoti elementu krātuvē. Elementu krātuve ir analīzei optimizēta Microsoft SQL Server datu bāze. Papildinformāciju skatiet tēmā [Apskats par Power BI integrāciju elementu krātuvē](power-bi-integration-entity-store.md). 
 
-|               |                                              |                                                 |                                              |                                          |
-|---------------|----------------------------------------------|-------------------------------------------------|----------------------------------------------|------------------------------------------|
-| **Elements**    | **Galvenie apkopošanas mērījumi**               | **Dynamics 365 for Operations datu avots** | **Lauks**                                    | **Apraksts**                          |
-| Rēķina rindas | Ieņēmumi                                      | CustInvoiceTrans                                | SUM(LineAmountMST)                           | Summa uzskaites valūtā            |
-|               | Pārdoto preču pašizmaksa                           | InventTrans                                     | SUM(CostAmountPosted + CostAmountAdjustment) | Izmaksu summa + korekcija                 |
-|               | Komisijas rindas summa — uzskaites valūta | CustInvoiceTrans                                | SUM(CommissAmountMST)                        | Komisijas rindas summa uzskaites valūtā |
+Šajā saturā ietvertie apkopošanas mērījumi ir apakškopa tiem apkopošanas mērījumiem, kas ir pieejami pārdošanas kubā programmatūrā Microsoft Dynamics AX 2012 un Microsoft Dynamics AX 2012 R3. Lai padarītu kuba apkopošanas mērījumus pieejamus elementu krātuvē, tie ir jāpadara izvietojami. Papildinformāciju skatiet emuāra ieraksta [Power BI integrācija elementu krātuvē programmatūrā Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) sadaļā par apkopošanas mērījumu izvietošanas elementu krātuvē procedūru. 
 
-Tālāk esošajā tabulā ir norādīti elementa Rēķina rindas galvenie apkopošanas mērījumi, kas tiek izmantoti vairāku aprēķināto mērījumu izveidei satura pakotnes datu kopā.
+Tālāk ir norādīti elementa Rēķina rindas galvenie apkopošanas mērījumi, kas tiek izmantoti kā satura pamatdati.
 
-|                   |                                                                                                  |
+| Elements        | Galvenie apkopošanas mērījumi                   | Dynamics 365 datu avots                    | Lauks                                        | apraksts                                   |
+|---------------|----------------------------------------------|-------------------------------------------------|----------------------------------------------|----------------------------------------------|
+| Rēķina rindas | Ieņēmumi                                      | CustInvoiceTrans                                | SUM(LineAmountMST)                           | Summa uzskaites valūtā.            |
+|               | Pārdoto preču pašizmaksa                           | InventTrans                                     | SUM(CostAmountPosted + CostAmountAdjustment) | Izmaksu summas un korekcijas vērtības summa.    |
+|               | Komisijas rindas summa — uzskaites valūta | CustInvoiceTrans                                | SUM(CommissAmountMST)                        | Komisijas summa uzskaites valūtā. |
+
+Tālāk esošajā tabulā ir norādīti rēķina rindas galvenie apkopošanas mērījumi, kas tiek izmantoti vairāku aprēķināto mērījumu izveidei satura datu kopā.
+
+| Mērs           | Aprēķins                                                                                      |
 |-------------------|--------------------------------------------------------------------------------------------------|
-| **Mērījums**       | **Aprēķins**                                                                                |
 | Bruto peļņa      | SUM(Ieņēmumi – PPPI – Komisija –PVN (iekļauts debitora rēķina rindas summā))          |
 | Bruto peļņa      | SUM(Bruto peļņa / (Ieņēmumi – PVN (iekļauts debitora rēķina rindas summā)))             |
 | Pagājušā gada ieņēmumi | Pagājušā gada ieņēmumi = CALCULATE(SUM('Rēķina rindas'\[Ieņēmumi\]), SAMEPERIODLASTYEAR(Datumi\[Datums\]) |
 
-Tālāk norādītās **pārdošanas kuba** galvenās dimensijas tiek izmantotas kā filtri, lai sadalītu apkopošanas mērījumus, iegūstot lielāku granularitāti un sniedzot dziļākus analītiskos ieskatus.
+Tālāk minētās pārdošanas kuba galvenās dimensijas tiek izmantotas kā filtri, lai sadalītu apkopošanas mērījumus, iegūstot lielāku granularitāti un sniedzot dziļākus analītiskos ieskatus.
 
-|                  |                                                      |
+| Elements           | Atribūtu piemēri                               |
 |------------------|------------------------------------------------------|
-| **Elements**       | **Atribūtu piemēri**                           |
 | Debitori        | Debitoru grupas, Debitoru reģioni, Adrese, Nozare |
 | Preces         | Preces numurs, Preces nosaukums, Krājumu grupas nosaukums       |
 | Pārdošanas kategorijas | Pārdošanas kategoriju nosaukumi                                 |
 | Juridiskas personas   | Juridisko personu nosaukumi                                   |
 | Datumi            | Datumi                                                |
 
-Pēc noklusējuma satura pakotnē tiek radīti dati par pašreizējo kalendāro gadu, taču varat atvērt pārskata filtru sadaļu un mainīt datumu filtru. Varat mainīt arī uzņēmuma filtru.
-
-## <a name="additional-resources"></a>Papildu resursi
-Šeit norādītas dažas noderīgas saites, kas ir saistītas ar elementiem un Power BI satura izveidi:
-
--   [Datu elementi](..\data-entities\data-entities.md)
--   [Organizācijas satura pakotnes izveide](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Datu modelēšana, izmantojot Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Power BI elementu pievienošana darbvietām](configure-power-bi-integration.md)
-
-
-
-
+Pēc noklusējuma saturs nodrošina pašreizējā kalendārā gada datu rādīšanu. Taču varat mainīt datumu filtru pārskata filtru sadaļā. Varat mainīt arī uzņēmuma filtru.
 

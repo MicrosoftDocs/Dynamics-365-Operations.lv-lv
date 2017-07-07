@@ -1,6 +1,6 @@
 ---
-title: "Centralizēto maksājumu iestatīšana"
-description: 
+title: "Iestatīt centralizētos maksājumus"
+description: "Veiciet šīs darbības, lai sagatavos maksājumu apstrādei vienai juridiskajai personai citu jūsu organizācijas juridisko personu vārdā."
 author: twheeloc
 manager: AnnBe
 ms.date: 05/09/2017
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerInterCompany
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 62243
 ms.assetid: ffd17b5f-9aea-40e0-be49-d8702f615256
 ms.search.region: Global
@@ -18,19 +18,17 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 60cc59911cf2d10d73206885eb97b346ec3e3e87
+ms.sourcegitcommit: 975497e8ed0c9738c225bad4db9165bf2ebc0192
+ms.openlocfilehash: 0b33e37699fb9b81ad1803f670a4dedbce6a9c29
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/05/2017
 
 
 ---
 
-# <a name="set-up-centralized-payments"></a>Centralizēto maksājumu iestatīšana
+# <a name="set-up-centralized-payments"></a>Iestatīt centralizētos maksājumus
 
 [!include[banner](../includes/banner.md)]
-
-
 
 
 Veiciet šīs darbības, lai sagatavos maksājumu apstrādei vienai juridiskajai personai citu jūsu organizācijas juridisko personu vārdā. Pirms sākat, jāveic tālāk aprakstītā iestatīšana.
@@ -53,7 +51,7 @@ Ja maksājat kreditoram no vienas juridiskās personas un šim kreditoram vēlat
 Izveidojot maksājumu juridiskajā personā, kas rēķinus kārto citās juridiskajās personās, abās juridiskajās jābūt vienādam grāmatošanas metodes ID. Lai pārliecinātos, ka maksājumi tiek izveidoti pareizi, katrai rēķinā norādītajai juridiskajai personai iestatiet grāmatošanas metodi, kas atbilst maksājuma dokumentā norādītās juridiskās personas grāmatošanas metodēm. Pārejiet uz pirmo rēķinā minēto juridisko personu un tad lapā **Kreditoru grāmatošanas metodes** varat izveidot jaunu grāmatošanas metodi vai rediģēt esošu grāmatošanas metodi. Rēķinā norādītās juridiskās personas grāmatošanas metodei izvēlētajām opcijām nav jāatbilst maksājuma dokumentā norādītās juridiskās personas grāmatošanas metodes iestatījumiem.
 
 ## <a name="set-up-methods-of-payment-for-centralized-payments"></a>Maksāšanas metožu iestatīšana centralizētajiem maksājumiem
-Izveidojot maksājumu juridiskajā personā, kas rēķinus kārto citās juridiskajās personās, abās juridiskajās jābūt vienādam maksāšanas metodes ID. Lai pārliecinātos, ka maksājumi tiek izveidoti pareizi, katrai rēķinā norādītajai juridiskajai personai iestatiet maksāšanas metodi, kas atbilst maksājuma dokumentā norādītās juridiskās personas maksāšanas metodēm. Pārejiet uz pirmo rēķinā minēto juridisko personu un tad lapā **Maksāšanas metodes**varat izveidot jaunu maksāšanas metodi vai rediģēt esošu maksāšanas metodi. Rēķinā norādītās juridiskās personas maksāšanas metodei izvēlētajām opcijām nav jāatbilst maksājuma dokumentā norādītās juridiskās personas maksāšanas metodes iestatījumiem.
+Izveidojot maksājumu juridiskajā personā, kas rēķinus kārto citās juridiskajās personās, abās juridiskajās jābūt vienādam maksāšanas metodes ID. Lai pārliecinātos, ka maksājumi tiek izveidoti pareizi, katrai rēķinā norādītajai juridiskajai personai iestatiet maksāšanas metodi, kas atbilst maksājuma dokumentā norādītās juridiskās personas maksāšanas metodēm. Pārejiet uz pirmo rēķinā minēto juridisko personu un tad lapā **Maksāšanas metodes** varat izveidot jaunu maksāšanas metodi vai rediģēt esošu maksāšanas metodi. Rēķinā norādītās juridiskās personas maksāšanas metodei izvēlētajām opcijām nav jāatbilst maksājuma dokumentā norādītās juridiskās personas maksāšanas metodes iestatījumiem.
 
 ## <a name="set-up-default-descriptions"></a>Noklusējuma aprakstu iestatīšana
 Starpuzņēmumu segšanas dokumentiem varat definēt noklusējuma aprakstus. Noklusējuma apraksts starpuzņēmumu apmaksas apstrādes laikā tiek ietverts apmaksas sākuma un beigu darījumos. Lapā **Noklusējuma apraksti** varat izveidot jaunus aprakstus gan **Starpuzņēmumu debitoru nosegšana**, gan **Starpuzņēmumu kreditora nosegšana**, atlasot valodu un pēc tam ievadot tekstu.

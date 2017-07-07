@@ -1,6 +1,6 @@
 ---
 title: "Virsgrāmatas žurnāla apstrāde"
-description: "Šajā rakstā ir aprakstītas programmatūras Microsoft Dynamics 365 for Operations iespējas, kas var palīdzēt vienkāršot Virsgrāmatas žurnālu apstrādi un arī nodrošināt pareizu datu ieguvi un pienācīgu iekšējo kontroli."
+description: "Šajā rakstā ir aprakstītas programmatūras Microsoft Dynamics 365 for Finance and Operations izdevuma Enterprise iespējas, kas var palīdzēt vienkāršot virsgrāmatas žurnālu apstrādi un arī nodrošināt pareizu datu ieguvi un pienācīgu iekšējo kontroli."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/25/2017
@@ -10,8 +10,8 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 150ca540fca154947cca47e97e45ce865ab1f507
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 244eada4202106b65198e3d6e3d0dedaa5486632
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir aprakstītas programmatūras Microsoft Dynamics 365 for Operations iespējas, kas var palīdzēt vienkāršot Virsgrāmatas žurnālu apstrādi un arī nodrošināt pareizu datu ieguvi un pienācīgu iekšējo kontroli.  
+Šajā rakstā ir aprakstītas programmatūras Microsoft Dynamics 365 for Finance and Operations izdevuma Enterprise iespējas, kas var palīdzēt vienkāršot virsgrāmatas žurnālu apstrādi un arī nodrošināt pareizu datu ieguvi un pienācīgu iekšējo kontroli.  
 
 Žurnālu nosaukumi
 
@@ -53,11 +53,11 @@ Lapā **Žurnālu nosaukumi**, jūs varat iestatīt šādus elementus:
 Virsgrāmatas žurnālos ir pieejama opcija **Automātiskās atgriešana**. Piemēram, jums ir uzkrājuma korekcija, kur faktiskais dokuments vēl nav apstrādāts, kā parādīts šajā attēlā.
 [![Virsgrāmatas žurnāla storno](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
-Microsoft Excel pievienojumprogramma žurnāla ierakstu veidošanai nodrošina papildu automatizācijas līmeni un atvieglo datu ievadi. Darbība **Atvērt rindas programmā Excel**ir pieejama lapās **Virsgrāmatas žurnāls** un **Žurnāla dokuments**. 
+Microsoft Excel pievienojumprogramma žurnāla ierakstu veidošanai nodrošina papildu automatizācijas līmeni un atvieglo datu ievadi. Darbība **Atvērt rindas programmā Excel** ir pieejama lapās **Virsgrāmatas žurnāls** un **Žurnāla dokuments**. 
 
 Lapā **Periodiskie žurnāli**, jūs varat iestatīt periodiskos žurnālus, lai automatizētu žurnāla apstrādi. 
 
-Jebkurā laikā varat izmantot dokumentu veidnes. Lapā **Virsgrāmatas žurnali** darbības**Saglabāt** un **Atlasīt dokumenta veidni** ir pieejamas lapas **Žurnāla dokuments** dokumentu rindiņu sadaļā **Funkcijas**.
+Jebkurā laikā varat izmantot dokumentu veidnes. Lapā **Virsgrāmatas žurnāli** darbības **Saglabāt** un **Atlasīt dokumenta veidni** ir pieejamas lapas **Žurnāla dokuments** dokumentu rindiņu sadaļā **Funkcijas**.
 
 ## <a name="related-setup"></a>Saistītā iestatīšana
 Šī iestatīšana nav raksturīga Virsgrāmatas žurnāliem, bet palīdzēs garantēt, ka datu ievade notiek pareizi un viegli.

@@ -1,15 +1,16 @@
 ---
 title: "Darbību meklēšana"
-description: "Šajā rakstā ir aprakstīta darbību meklēšanas funkcionalitāte programmā Microsoft Dynamics 365 for Operations. Darbību meklēšana jums palīdz lapā atrast un izpildīt darbības."
+description: "Šajā rakstā ir aprakstīta darbību meklēšanas funkcionalitāte programmā Microsoft Dynamics 365 for Finance and Operations. Darbību meklēšana jums palīdz lapā atrast un izpildīt darbības."
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 62303
 ms.assetid: 62c70de0-fdde-4417-8e08-0583fb095a40
 ms.search.region: Global
@@ -17,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ef5709889dcabd4c9ed760f57d210956f38c37e9
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: cd024f2bc06fca9c21ea41fbed44efbc519cee94
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,14 +31,14 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir aprakstīta darbību meklēšanas funkcionalitāte programmā Microsoft Dynamics 365 for Operations. Darbību meklēšana jums palīdz lapā atrast un izpildīt darbības.
+Šajā rakstā ir aprakstīta darbību meklēšanas funkcionalitāte programmā Microsoft Dynamics 365 for Finance and Operations. Darbību meklēšana jums palīdz lapā atrast un izpildīt darbības.
 
 <a name="introduction"></a>Ievads
 ------------
 
-Programmas Microsoft Dynamics 365 for Operations lapas galvenokārt rāda komandas darbību rūtīs, gan standarta darbību rūtī, kas ir redzama lapas augšdaļā, gan rīkjoslās, kas ir redzamas dažādās lapas sadaļās. Iepriekšējās versijās taustiņu padomu līdzeklis jums ļauj ātri piekļūt jebkurai pogai darbību rūtī, nospiežot taustiņu Alt un pēc tam burtu sēriju. 
+Programmatūras Microsoft Dynamics 365 for Finance and Operations lapās galvenokārt tiek rādītas komandas darbību rūtīs, gan standarta darbību rūtī, kas ir redzama lapas augšdaļā, gan rīkjoslās, kas ir redzamas dažādās lapas sadaļās. Iepriekšējās versijās taustiņu padomu līdzeklis jums ļauj ātri piekļūt jebkurai pogai darbību rūtī, nospiežot taustiņu Alt un pēc tam burtu sēriju. 
 
-[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png) Taču pašreizējā Dynamics 365 for Operations versijā taustiņu padomi vairs nav pieejami. Tie ir aizstāti ar darbību meklēšanas funkciju. Šī jaunā funkcija ļauj jums ātri meklēt un palaist pogu no jebkuras redzamas darbību rūts.
+[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png) Taču pašreizējā Dynamics 365 for Finance and Operations versijā vairs nav pieejami taustiņu padomi. Tie ir aizstāti ar darbību meklēšanas līdzekli. Šī jaunā funkcija ļauj jums ātri meklēt un palaist pogu no jebkuras redzamas darbību rūts.
 
 ## <a name="using-action-search"></a>Darbību meklēšanas izmantošana
 Lai izmantotu darbību meklēšanas līdzekli, rīkojieties šādi.
@@ -53,7 +54,7 @@ Pēc pogas palaišanas fokuss tiek atgriezts pēdējā pozīcijā lapā, tādēj
 Jūs varat arī sākt darbību meklēšanu, nospiežot Ctrl+/ vai Alt+Q. Nospiediet īsinājumtaustiņus vēlreiz, lai atgrieztu fokusu pēdējā pozīcijā lapā.
 
 ## <a name="understanding-the-results-list"></a>Rezultātu saraksta izprašana
-Lai pilnībā izprastu attiecīgās pogas darbību, programmā Dynamics 365 for Operations jums bieži vien ir jāzina pogas atrašanās vieta un konteksts. Tādēļ par katru sarakstā ietverto vienumu tiek radīta papildinformācija, lai jums palīdzētu saprast, kuras tieši pogas sarakstā ir redzamas. Jo īpaši, tiek parādīts pogas "ceļš". Šis ceļš var ietvert šādu UI elementu etiķetes, ja nepieciešams:
+Lai pilnībā saprastu kādas pogas darbību programmatūrā Dynamics 365 for Finance and Operations, bieži vien ir jāzina šīs pogas atrašanās vieta un konteksts. Tādēļ par katru sarakstā ietverto vienumu tiek radīta papildinformācija, lai jums palīdzētu saprast, kuras tieši pogas sarakstā ir redzamas. Jo īpaši, tiek parādīts pogas "ceļš". Šis ceļš var ietvert šādu UI elementu etiķetes, ja nepieciešams:
 
 -   Cilne Darbību rūts
 -   Pogu grupa
@@ -70,7 +71,7 @@ Iepriekšējā piemērā darbību meklēšana parādīja rezultātus no standart
 [![on-hand-inventory](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
 
 ## <a name="action-search-vs-navigation-search"></a>Darbību meklēšana un Navigācijas meklēšana
-Tā kā darbību meklēšana ir paredzēta, lai atrastu un palaistu darbības lapā, pastāv atsevišķs meklēšanas mehānisms, kas palīdz atrast lapas un pārvietojoties uz lapām programmā Dynamics 365 for Operations. Plašāku informāciju skatiet rakstā [Navigācijas meklēšana](navigation-search.md).
+Tā kā darbību meklēšana ir paredzēta darbību atrašanai un palaišanai noteiktā lapā, pastāv atsevišķa meklēšanas metode, kas ir paredzēta lapu atrašanai un pāriešanai uz tām programmatūrā Dynamics 365 for Finance and Operations. Plašāku informāciju skatiet rakstā [Navigācijas meklēšana](navigation-search.md).
 
 
 

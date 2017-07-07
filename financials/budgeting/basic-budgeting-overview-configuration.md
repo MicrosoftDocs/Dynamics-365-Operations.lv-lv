@@ -1,15 +1,15 @@
 ---
 title: "Budžeta veidošanas apskats"
-description: "Gandrīz ikvienam uzņēmumam, kas izmanto funkcionalitāti Finanšu dati programmā Microsoft Dynamics 365 for Operations, ir jāspēj izveidot pārskatus par budžetā paredzētajām vērtībām pret faktiskajām. Šajā rakstā ir paskaidrota minimālā konfigurēšana, kas ir nepieciešama, lai programmā Dynamics 365 for Operations izveidotu budžetus vai tos ielādētu no kādas trešās puses programmas."
+description: "Gandrīz ikvienam uzņēmumam, kas izmanto programmatūras Microsoft Dynamics 365 for Finance and Operations izdevuma Enterprise funkcionalitāti Finanšu dati, ir jāspēj izveidot budžeta un faktisko izmaksu salīdzinājuma pārskatus. Šajā rakstā ir paskaidrota minimālā konfigurācija, kas ir nepieciešama, lai programmatūras Dynamics 365 for Finance and Operations izdevumā Enterprise izveidotu budžetus vai tos ielādētu no kādas trešās puses programmas."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 60113
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
 ms.search.region: global
@@ -17,27 +17,27 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a4f9c99b8d74e20fbadc6cd9617451cfbfc06ba4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: f35db274a6b14f6bae185b69348d3829c77801b5
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="budgeting-overview"></a>Budžeta veidošanas apskats
+# <a name="budgeting-overview"></a>Budžeta veidošanas apskats 
 
 [!include[banner](../includes/banner.md)]
 
 
-Gandrīz ikvienam uzņēmumam, kas izmanto funkcionalitāti Finanšu dati programmā Microsoft Dynamics 365 for Operations, ir jāspēj izveidot pārskatus par budžetā paredzētajām vērtībām pret faktiskajām. Šajā rakstā ir paskaidrota minimālā konfigurēšana, kas ir nepieciešama, lai programmā Dynamics 365 for Operations izveidotu budžetus vai tos ielādētu no kādas trešās puses programmas.
+Gandrīz ikvienam uzņēmumam, kas izmanto programmatūras Microsoft Dynamics 365 for Finance and Operations izdevuma Enterprise funkcionalitāti Finanšu dati, ir jāspēj izveidot budžeta un faktisko izmaksu salīdzinājuma pārskatus. Šajā rakstā ir paskaidrota minimālā konfigurācija, kas ir nepieciešama, lai programmatūrā Dynamics 365 for Finance and Operations izveidotu budžetus vai tos ielādētu no kādas trešās puses programmas.
 
 <a name="overview"></a>Pārskats
 --------
 
 Apstiprinātais budžets juridiskai personai tiek uzturēts dokumentā, kas ir pazīstams kā *budžeta reģistra ieraksts*. Rindas budžeta reģistra ieraksta dokumentā tiek sauktas par *budžeta konta* ierakstiem, un satur informāciju par apstiprinātā budžeta finanšu dimensiju, datumiem un summām. Budžeta reģistra ieraksta dokuments ietver pamata finanšu pārskatus un uzziņu lapas, kur virsgrāmatas faktiskās summas tiek salīdzinātas ar budžetā paredzētajām summām. 
 
-Programmā Dynamics 365 for Operations budžeta reģistra ierakstu izveidošanai ir pieejamas vairākas tālāk aprakstītās metodes.
+Programmatūrā Dynamics 365 for Finance and Operations ir pieejamas vairākas budžeta reģistra ierakstu izveides metodes, kas ir norādītas tālāk.
 
 -   Manuāli ievadiet dokumenta informāciju lapā **Budžeta reģistra ieraksti**.
 -   Izmantojiet Microsoft Excel veidni, ko var atvērt, noklikšķinot uz pogas **Atvērt programmā Excel** lapā **Budžeta reģistra ieraksti**.

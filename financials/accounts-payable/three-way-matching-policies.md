@@ -3,15 +3,15 @@ title: "Trīsvirzienu atbilstības ierobežojumi"
 description: "Šajā rakstā ir sniegti trīsvirzienu atbilstības piemēri."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b9f66a9a907cf01046c78677a3f1d55f112fa8c7
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 8ae07088fec05ad416ce1891dd0d0ecd489364ca
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -66,7 +66,7 @@ Fabrikam vada vairākas juridiskās personas un nodarbina darbiniekus visā pasa
 1.  Samijs, Fabrikam saņemšanas nodaļas darbinieks, saņem visas no Contoso nosūtītās mašīnas. Viņš ievada daudzumu 5 produktu ieejas plūsmas dokumentā. Tā kā pirkšanas pasūtījums ir pilnībā saņemts, pirkšanas pasūtījuma statuss tiek mainīts uz Saņemts.
 2.  Eiprila, Fabrikam kreditoru nodaļas koordinatore, ievada un pārbauda uzņēmuma Contoso iesniegto rēķinu. Viņa pārbauda tālāk norādīto informāciju.
     -   Krājumiem, kuriem ir nepieciešama trīsvirzienu atbilstība, rēķina rindā norādītais daudzums atbilst saņemtajam daudzumam. Saņemtais daudzums ir norādīts produktu ieejas plūsmas dokumentā, kas tiek salīdzināts ar rēķinu.
-    -   Krājumiem, kuriem ir nepieciešama divvirzienu vai trīsvirzienu atbilstība, rēķina rindās norādītās cenas atbilst Microsoft Dynamics 365 for Operations definētajām pielaidēm. Tas attiecas uz tālāk norādītajiem cenu salīdzināšanas tipiem.
+    -   Krājumiem, kuriem ir nepieciešama divvirzienu vai trīsvirzienu atbilstība, rēķina rindās norādītās cenas atbilst Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise definētajām pielaidēm. Tas attiecas uz tālāk norādītajiem cenu salīdzināšanas tipiem.
         -   Vienības neto cenu salīdzināšana — rēķina rindā norādītā vienības neto cena atbilst pirkšanas pasūtījuma rindā norādītajai vienības neto cenai saskaņā ar pielaides procentuālo vērtību. Šajā piemērā izmantotā vienības neto cenas pielaide ir +8%.
         -   Cenu kopsummu salīdzināšana — rēķina rindā norādītā neto summa atbilst pirkšanas pasūtījuma rindā norādītajai neto summai saskaņā ar pielaides procentuālo vērtību, summu vai procentuālo vērtību un summu. Šajā piemērā izmantotā cenu kopsummu salīdzināšanas pielaide ir +15%.
 
@@ -79,7 +79,7 @@ Contoso izrakstītajā papīra formāta rēķinā ir ietverta tālāk norādīt�
 | Nodokļi                         |          |            | 0,00       |
 | Summa                       |          |            | 44 500,00  |
 
-Sistēmā Microsoft Dynamics 365 for Operations saglabātajā rēķina rindā ir ietverta tālāk norādītā informācija.
+Sistēmā Finance and Operations saglabātajā rēķina rindā ir ietverta tālāk norādītā informācija.
 
 | Krājums                 | Daudzums | Vienības cena | Rindas neto summa | Atbilstības ierobežojumi    | Salīdzināmais produktu ieejas plūsmas daudzums | Cenas salīdzināšana | Cenas kopsummas saskaņošana |
 |-----------------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|
@@ -115,7 +115,7 @@ Apjomi un summas ir mazi, un ir radušas problēmas saistībā ar piegādi no da
 1.  Krājumi tiek saņemti. Samijs, Fabrikam Malaizijas nodaļas saņemšanas daļas darbinieks, tiek pārtraukts un uzreiz neiegrāmato produkta ieejas plūsmas dokumentu.
 2.  Eiprila, Fabrikam kreditoru nodaļas koordinatore, ievada un pārbauda uzņēmuma Contoso iesniegto rēķinu. Viņa pārbauda tālāk norādīto informāciju.
     -   Krājumiem, kuriem ir nepieciešama trīsvirzienu atbilstība, rēķina rindā norādītais daudzums atbilst saņemtajam daudzumam. Saņemtais daudzums ir norādīts produktu ieejas plūsmas dokumentā, kas tiek salīdzināts ar rēķinu.
-    -   Krājumiem, kuriem ir nepieciešama divvirzienu vai trīsvirzienu atbilstība, rēķina rindās norādītās cenas atbilst Microsoft Dynamics 365 for Operations definētajām pielaidēm. Tas attiecas uz tālāk norādītajiem cenu salīdzināšanas tipiem.
+    -   Krājumiem, kuriem ir nepieciešama divvirzienu vai trīsvirzienu atbilstība, rēķina rindās norādītās cenas atbilst Finance and Operations definētajām pielaidēm. Tas attiecas uz tālāk norādītajiem cenu salīdzināšanas tipiem.
         -   Vienības neto cenu salīdzināšana — rēķina rindā norādītā vienības neto cena atbilst pirkšanas pasūtījuma rindā norādītajai vienības neto cenai saskaņā ar pielaides procentuālo vērtību. Šajā piemērā izmantotā vienības neto cenas pielaide ir +2%.
         -   Cenu kopsummu salīdzināšana — rēķina rindā norādītā neto summa atbilst pirkšanas pasūtījuma rindā norādītajai neto summai saskaņā ar pielaides procentuālo vērtību, summu vai procentuālo vērtību un summu. Šajā piemērā izmantotā cenu kopsummu salīdzināšanas pielaide ir +10%.
 
@@ -125,10 +125,10 @@ Contoso izrakstītajā papīra formāta rēķinā ir ietverta tālāk norādīt�
 |-----------------------|----------|------------|------------|
 | PH2500 — dators     | 2        | 2500,00   | 5000,00   |
 | MM01 — bezvadu pele | 2        | 41,00      | 82,00      |
-| USB disks             | 200      | 10,05      | 2010,00   |
+| USB atmiņā             | 200      | 10,05      | 2010,00   |
 | Rēķina kopsumma         |          |            | 7092,00   |
 
-Sistēmā Microsoft Dynamics 365 for Operations saglabātajā rēķina rindā ir ietverta tālāk norādītā informācija.
+Sistēmā Finance and Operations saglabātajā rēķina rindā ir ietverta tālāk norādītā informācija.
 
 | Krājums           | Daudzums | Vienības cena | Rindas neto summa | Atbilstības ierobežojumi    | Salīdzināmais produktu ieejas plūsmas daudzums | Cenas salīdzināšana | Cenas kopsummas saskaņošana |
 |-----------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|

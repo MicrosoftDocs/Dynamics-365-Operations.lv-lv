@@ -1,15 +1,15 @@
 ---
 title: "Lietot uzmeklēšanu, lai atrastu informāciju"
-description: "Sistēmā Microsoft Dynamics 365 for Operations daudziem laukiem ir uzmeklēšana, kas jums palīdz ērti atrast pareizo vai vēlamo vērtību. Uzmeklēšanai ir pievienoti vairāki uzlabojumi, vadīklas padarot ērtāk lietojamas un lietotāju darbu — vēl produktīvāku. Šajā tēmā jūs uzzināsiet par šiem jaunajiem uzmeklēšanas līdzekļiem un saņemsiet noderīgus padomus par optimālu uzmeklēšanas lietojumu sistēmā."
+description: "Programmatūrā Microsoft Dynamics 365 for Finance and Operations daudziem laukiem ir pārlūki, kas var palīdzēt jums viegli atrast pareizo vai vajadzīgo vērtību. Uzmeklēšanai ir pievienoti vairāki uzlabojumi, vadīklas padarot ērtāk lietojamas un lietotāju darbu — vēl produktīvāku. Šajā tēmā jūs uzzināsiet par šiem jaunajiem uzmeklēšanas līdzekļiem un saņemsiet noderīgus padomus par optimālu uzmeklēšanas lietojumu sistēmā."
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269934
 ms.assetid: f20cbd2c-14e0-47e7-b351-8e60d3537f96
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 652fbdb7a96c516ca1fc17357683d94b85cd93f3
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a5d0a9edd2cb5747fc799c6fdca45dd9ba5720f7
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,12 +30,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Sistēmā Microsoft Dynamics 365 for Operations daudziem laukiem ir uzmeklēšana, kas jums palīdz ērti atrast pareizo vai vēlamo vērtību. Uzmeklēšanai ir pievienoti vairāki uzlabojumi, vadīklas padarot ērtāk lietojamas un lietotāju darbu — vēl produktīvāku. Šajā tēmā jūs uzzināsiet par šiem jaunajiem uzmeklēšanas līdzekļiem un saņemsiet noderīgus padomus par optimālu uzmeklēšanas lietojumu sistēmā.  
+Programmatūrā Microsoft Dynamics 365 for Finance and Operations daudziem laukiem ir pārlūki, kas var palīdzēt jums viegli atrast pareizo vai vajadzīgo vērtību. Uzmeklēšanai ir pievienoti vairāki uzlabojumi, vadīklas padarot ērtāk lietojamas un lietotāju darbu — vēl produktīvāku. Šajā tēmā jūs uzzināsiet par šiem jaunajiem uzmeklēšanas līdzekļiem un saņemsiet noderīgus padomus par optimālu uzmeklēšanas lietojumu sistēmā.  
 
 <a name="responsive-lookups"></a>Reaģējoša uzmeklēšana
 ------------------
 
-Iepriekšējās Dynamics 365 for Operations versijās, mijiedarbojoties ar uzmeklēšanas vadīklu, lietotājam bija īpaši jārīkojas, lai atvērtu nolaižamo izvēlni. Šīs īpašās darbības varēja būt zvaigznītes (\*) ierakstīšana vadīklā, lai uzmeklēšanu filtrētu, pamatojoties uz vadīklas pašreizējo vērtību, noklikšķināšana uz nolaižamas pogas vai tastatūras saīsnes **Alt**+**Bultiņa uz leju** lietošana. Lai labāk atbilstu pašreizējai tīmekļa praksei, uzmeklēšanas vadīklas ir modificētas tālāk aprakstītajos veidos.
+Iepriekšējās Finance and Operations versijās, izmantojot uzmeklēšanas vadīklu, lietotājam bija īpaši jārīkojas, lai atvērtu nolaižamo izvēlni. Šīs īpašās darbības varēja būt zvaigznītes (\*) ierakstīšana vadīklā, lai uzmeklēšanu filtrētu, pamatojoties uz vadīklas pašreizējo vērtību, noklikšķināšana uz nolaižamas pogas vai tastatūras saīsnes **Alt**+**Bultiņa uz leju** lietošana. Lai labāk atbilstu pašreizējai tīmekļa praksei, uzmeklēšanas vadīklas ir modificētas tālāk aprakstītajos veidos.
 
 -   Uzmeklēšanas nolaižamās izvēlnes tagad atveras automātiski pēc tam, kad rakstīšanā ir ieturēta neliela pauze, un nolaižamās izvēlnes saturs ir filtrēts, pamatojoties uz uzmeklēšanas vadīklas vērtību.
     -   Ņemiet vērā, ka ir atmesta iepriekšējā uzvedība ar nolaižamās izvēlnes automātisku atvēršanu pēc zvaigznītes (\*) ierakstīšanas.
@@ -58,7 +58,7 @@ Lai gan fokuss joprojām atrodas uzmeklēšanas vadīklā, varat arī izmantot t
 ![changingSelectionLookup](./media/changingselectionlookup.png)
 
 ## <a name="typing-in-more-than-ids"></a>Vairāku ID ierakstīšana
-Ievadot datus, lietotāji bieži kādu elementu, piemēram, debitoru vai kreditoru, cenšas identificēt ar šī elementa nosaukumu, nevis šo elementu apzīmējošo identifikatoru. Sistēmas Dynamics 365 for Operations pašreizēja versijā daudzas (bet ne visas) uzmeklēšanas tagad ļauj izmantot kontekstuālu datu ievadi. Šis iespaidīgais līdzeklis lietotājam uzmeklēšanas vadīklā ļauj ierakstīt ID vai atbilstošo nosaukumu. 
+Ievadot datus, lietotāji bieži kādu elementu, piemēram, debitoru vai kreditoru, cenšas identificēt ar šī elementa nosaukumu, nevis šo elementu apzīmējošo identifikatoru. Pašreizējā Finance and Operations versijā daudzi (bet ne visi) pārlūki ļauj izmantot kontekstuālu datu ievadi. Šis iespaidīgais līdzeklis lietotājam uzmeklēšanas vadīklā ļauj ierakstīt ID vai atbilstošo nosaukumu. 
 
 Piemēram, apsveriet lauka **Debitora konts** iespējas pārdošanas pasūtījuma izveidošanas laikā. Šajā laukā debitoram tiek rādīts **Konta ID**, bet lietotājs, veidojot pārdošanas pasūtījumu, parasti dotu priekšroku iespējai šajā laukā ierakstīt vērtību **Konta nosaukums**, nevis vērtību **Konta ID**, piemēram, “Forest Wholesales”, nevis “US-003”.
 
