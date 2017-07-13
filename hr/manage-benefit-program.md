@@ -3,26 +3,26 @@ title: "Atvieglojumu programmas definēšana un pārvaldība"
 description: "Personāla vadība sniedz rīkus, ko var izmantot, lai iestatītu un uzturētu atvieglojumus, atvilkumus un darbinieku kompensāciju plānus, kurus uzņēmums piedāvā vai apstrādā saviem darbiniekiem. Šis raksts sniedz informāciju par to, kā iestatīt pārvaldīt atvieglojumus."
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 ms.search.form: HcmBenefitEligibilityDetail, HcmBenefitSelection, SysPolicyListPage, SysPolicySourceDocumentRuleType
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 15681
 ms.assetid: 6aee97ac-29f7-4b3c-8aa1-c65810de3090
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1d972f2d6bacf6f60ab3ce3bab2fcfaeb8d2e524
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 09ad9ad22c676c3b117cc39e692c64ef92637dc1
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -53,13 +53,13 @@ Katram atvieglojumu tipam, piemēram, redzes vai zobu, organizācija saviem darb
 [![Atvieglojumu attēls](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>Piemērojamība
-Daudzi faktori ietekmē darbinieka atbilstību dažādiem atvieglojumu tipiem, kurus piedāvā darba devējs. Izveidojot atvieglojumu programmatūrā Microsoft Dynamics 365 for Operations, varat iestatīt uz šo atvieglojumu attiecināmo piemērotības veidu. 
+Daudzi faktori ietekmē darbinieka atbilstību dažādiem atvieglojumu tipiem, kurus piedāvā darba devējs. Kad veidojat atvieglojumu programmatūrā Microsoft Talent, varat iestatīt piemērojamības tipu, kas attiecas uz šo atvieglojumu. 
 
 Varat padarīt atvieglojumu pieejamu visiem nodarbinātajiem. Piemēram, daži uzņēmumi kā papildienākumu piedāvā visiem darbiniekiem stāvvietas caurlaides. Veidojot šo atvieglojumu, iestatiet piemērojamību **Visi darbinieki ir piemēroti**. 
 
 Piemērotība neattiecas uz citiem atvieglojumiem, piemēram, ieturējumiem un nodokļu maksājumiem. Izveidojot šo veidu atvieglojumus, ir jāiestata piemērotības opcija **Apiet piemērojamības procesu**. 
 
-Turklāt atvieglojumu piemērotība var būt atkarīga no kārtulām. Piemēram, uzņēmums piedāvā darbiniekiem divu veidu dzīvības apdrošināšanas atvieglojumus. Vadošie darbinieki var saņemt vienu dzīvības apdrošināšanas plānu, bet visi citi pilna laika darbinieki var saņemt citu dzīvības apdrošināšanas plānu. Programmatūrā Dynamics 365 for Operations varat izveidot atvieglojumu piemērotības kārtulu, lai atrastu visus vadošos darbiniekus, un citu kārtulu, lai atrastu visus citus pilna laika darbiniekus, un pēc tam varat lietot šīs kārtulas atbilstošajiem atvieglojumiem.
+Turklāt atvieglojumu piemērotība var būt atkarīga no kārtulām. Piemēram, uzņēmums piedāvā darbiniekiem divu veidu dzīvības apdrošināšanas atvieglojumus. Vadošie darbinieki var saņemt vienu dzīvības apdrošināšanas plānu, bet visi citi pilna laika darbinieki var saņemt citu dzīvības apdrošināšanas plānu. Programmatūrā Talent varat izveidot atvieglojumu piemērotības kārtulu, lai atrastu visus vadošos darbiniekus, un citu kārtulu, lai atrastu visus citus pilna laika darbiniekus, un pēc tam varat lietot šīs kārtulas atbilstošajiem atvieglojumiem.
 
 ## <a name="enrollment"></a>Reģistrācija
 Pēc tam, kad esat izveidojis uzņēmuma piedāvātos atvieglojumus un noteicis piemērojamību, varat reģistrēt jūsu darbiniekus atvieglojumiem. Varat reģistrēt atvieglojumam vienu darbinieku vai varat reģistrēt daudzus darbiniekus vienam vai vairākiem atvieglojumiem vienā procesā. 

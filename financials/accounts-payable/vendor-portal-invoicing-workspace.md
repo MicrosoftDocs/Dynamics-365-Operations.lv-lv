@@ -3,13 +3,14 @@ title: "Kreditora sadarbības rēķinu izveides darbvieta"
 description: "Šajā tēmā izskaidrots, kā jūs varat skatīt kreditora rēķinus un iesniegt rēķinus no kreditora sadarbības rēķinu izveides darbvietas."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221534
 ms.assetid: c4ed62f3-d351-41d7-a2ad-790576cde4ab
 ms.search.region: Global
@@ -17,10 +18,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7c8fe2fea08dbad625cd373ca316135ac4e29e13
+ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e
+ms.openlocfilehash: 2171a454c763abab82f6555950994237b4de7b8b
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/14/2017
 
 
 ---
@@ -32,22 +33,22 @@ ms.lasthandoff: 05/25/2017
 
 Šajā tēmā izskaidrots, kā jūs varat skatīt kreditora rēķinus un iesniegt rēķinus no kreditora sadarbības rēķinu izveides darbvietas.
 
-**Kreditora sadarbības rēķinu izveides** darbvieta var tikt izmantota, lai skatītu kreditoru rēķinu informāciju, un lai iesniegtu rēķinus Microsoft Dynamics 365 for Operations, izmantojot darbplūsmas iespējas.
-Kreditora sadarbības rēķinu izveides darbvieta
+Darbvietu **Kreditoru sadarbības rēķinu izveidošana** var izmantot, lai skatītu kreditoru rēķinu informāciju un iesniegtu rēķinus programmatūrā Microsoft Dynamics 365 for Finance and Operations (Enterprise izdevuma), izmantojot darbplūsmas iespējas.
+Kreditoru sadarbības rēķinu izveidošanas darbvieta
 ----------------------------------------
 
 ### <a name="summary-tiles"></a>Kopsavilkuma elementi
 
 Elementi **Kopsavilkums** sniedz pārskatu par atlasītā kreditora rēķiniem. Jūs varat skatīt rēķinus pēc to stāvokļa.
 -   Melnraksta rēķini netika iesniegti darbplūsmai.
--   Iesniegtie neapstiprinātie rēķini ir rēķini, kurus kreditors ir iesniedzis, taču tie nav grāmatoti Dynamics 365 for Operations.
--   Apstiprinātie neapmaksātie rēķini ir rēķini, kuri ir grāmatoti Dynamics 365 for Operations, taču vēl nav pilnībā apmaksāti.
--   Apmaksātie rēķini ir rēķini, kas tika pilnībā apmaksāti Dynamics 365 for Operations.
+-   Iesniegtie un neapstiprinātie rēķini ir rēķini, kurus kreditors ir iesniedzis, bet kas nav grāmatoti programmatūrā Finance and Operations.
+-   Apstiprinātie un neapmaksātie rēķini ir rēķini, kuri ir grāmatoti programmatūrā Finance and Operations, taču vēl nav pilnībā apmaksāti.
+-   Apmaksātie rēķini ir rēķini, kas ir pilnībā apmaksāti programmatūrā Finance and Operations.
 
 Noklikšķinot uz elementa tiks atvērts lapas **Rēķinu saraksts** filtrētais skatījums.
 ### <a name="tabular-lists"></a>Tabulveida saraksti
 
-Sadaļā **Tabulveida saraksti**rēķinu izrakstīšanas stāvoklis tiek sadalīts līdzīgi kā kopsavilkuma elementi: Melnraksti un Iesniegti, neapstiprināti saraksti. Esot stāvoklī Melnraksts, rēķinu nevar iesniegt darbplūsmai vai dzēst. Rēķinu meklēšanai var izmantot pēdējo tabulveida sarakstu. Lai ātrāk iegūtu rezultātus, varat iestatīt dažādus filtrus.
+Sadaļā **Tabulveida saraksti** rēķinu izrakstīšanas stāvoklis tiek sadalīts līdzīgi kā kopsavilkuma elementi: Melnraksti un Iesniegti, neapstiprināti saraksti. Esot stāvoklī Melnraksts, rēķinu nevar iesniegt darbplūsmai vai dzēst. Rēķinu meklēšanai var izmantot pēdējo tabulveida sarakstu. Lai ātrāk iegūtu rezultātus, varat iestatīt dažādus filtrus.
 Visu kreditora rēķinu saraksta lapa
 -----------------------------
 
@@ -59,7 +60,7 @@ Jūs varat izveidot jaunu kreditora rēķinu, atlasot darbību **Jauns** **Kredi
 
 
 
-Papildinformāciju skatiet šeit: [Sadarbība ar kreditoriem, izmantojot kreditoru portālu](/dynamics365/operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
+Papildinformāciju skatiet šeit: [Sadarbība ar kreditoriem, izmantojot kreditoru portālu](/dynamics365/unified-operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
 
 
 

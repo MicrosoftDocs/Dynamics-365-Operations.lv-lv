@@ -3,13 +3,13 @@ title: "Budžeta plānošanas attaisnojuma dokumenti"
 description: "Attaisnojuma dokumenti sniedz skaidrojumu tiem, kas budžetam pieprasa paskaidrot, kādēļ ir nepieciešams kāds noteikts budžets."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 259594
 ms.assetid: 52576fad-32b9-48f2-8197-c11ec313fc29
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6178addb9226912feb1974793525ab4ba9441193
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1d23c0e1725a39d25d2be8971f541b2c31bbe859
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -46,7 +46,7 @@ Budžeta plāna veidni budžeta pārvaldnieks izveido programmā Microsoft Word,
 
 1.  Pēc pierakstīšanās Microsoft Dynamics Office pievienojumprogrammā noklikšķiniet uz **Dizains**.
 2.  Galvenes informācijai izmantojiet pogu **Pievienot laukus**.
-3.  Atlasiet BudgetPlanJustification elementa datu avotu un noklikšķiniet uz **Tālāk**. **Piezīme.** Šis elements ir nepieciešams visiem attaisnojuma dokumentiem. Var izmantot citus elementus, bet augšupielādēšana atpakaļ programmā Microsoft Dynamics 365 for Operations neizdosies, ja šis elements nav iekļauts.
+3.  Atlasiet BudgetPlanJustification elementa datu avotu un noklikšķiniet uz **Tālāk**. **Piezīme.** Šis elements ir nepieciešams visiem attaisnojuma dokumentiem. Var izmantot citus elementus, taču, ja nav ietverts šis elements, nevar veikt augšupielādi atpakaļ programmatūrā Microsoft Dynamics 365 for Finance and Operations.
 4.  Word dokumentā pievienojiet etiķetes un vērtības BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter un DocumentNumber. **Piezīme.** Ja nepieciešams, varat izmantot pats savas pielāgotās etiķetes, nevis standarta etiķetes.
 5.  Lai pabeigtu galvenes atlasi, noklikšķiniet uz **Gatavs**.
 6.  Rindas līmeņa informācijai par budžeta plāna summām noklikšķiniet uz **Pievienot tabulu**.
@@ -57,7 +57,7 @@ Budžeta plāna veidni budžeta pārvaldnieks izveido programmā Microsoft Word,
 
 ##### <a name="set-up-the-budget-planning-process-to-use-the-justification-template"></a>Iestatīt budžeta plānošanas procesu attaisnojuma veidnes lietošanai
 
-1.  Programmā Microsoft Dynamics 365 for Operations dodieties uz **Budžeta veidošana** &gt; **Iestatīšana** &gt; **Budžeta plānošana** &gt; **Attaisnojuma dokumenta veidnes**.
+1.  Programmatūrā Dynamics 365 for Finance and Operations pārejiet uz sadaļu **Budžeta veidošana** &gt; **Iestatīšana** &gt; **Budžeta plānošana** &gt; **Attaisnojuma dokumenta veidnes**.
 2.  Noklikšķiniet uz **Jauns** un pārlūkojiet uz jaunizveidoto Microsoft Word dokumentu.
 3.  Ievadiet veidnes parādāmo nosaukumu un aprakstu. Noklikšķiniet uz **Labi**.
 4.  Dodieties uz **Budžeta veidošana** &gt; **Iestatīšana** &gt; **Budžeta** **plānošana** &gt; **Budžeta plānošanas process**.
@@ -66,7 +66,7 @@ Budžeta plāna veidni budžeta pārvaldnieks izveido programmā Microsoft Word,
 
 ##### <a name="edit-and-save-personalized-justification-documents"></a>Rediģēt un saglabāt personalizētus attaisnojuma dokumentus
 
-1.  Programmā Dynamics 365 for Operations izveidojiet jaunu budžeta plānu vai atveriet jau esošu budžeta plānu.
+1.  Programmatūrā Dynamics 365 for Finance and Operations izveidojiet jaunu budžeta plānu vai atveriet esošu budžeta plānu.
 2.  Nolaižamajā izvēlnē **Attaisnojums** atlasiet vienumu **Izveidot jaunu attaisnojumu**.
 3.  Pēc informācijas aizpildīšanas izvēlieties augšupielādēt personalizēto dokumentu no nolaižamās izvēlnes **Attaisnojums**.
 

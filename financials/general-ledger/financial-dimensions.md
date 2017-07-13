@@ -1,28 +1,27 @@
 ---
 title: "Finanšu dimensijas"
-description: "Šajā rakstā ir aprakstīti dažādi finanšu dimensiju veidi un izskaidrots, kā tie tiek iestatīti."
-author: RobinARH
+description: "Šajā tēmā ir aprakstīti dažādie finanšu dimensiju tipi un izskaidrots, kā tie tiek iestatīti."
+author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ems.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: DimensionDetails, DimensionValueDetails, SysTranslationDetail
 audience: Application User
-ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 25871
-ms.assetid: af54621c-c8be-4b72-b6df-dcf886c40ce4
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 01f189b8de3f0cc707dcc54f4cde75aed95b8e3f
+ms.sourcegitcommit: a0edbad63c51d111d7c8985aa7fdf7312da6149d
+ms.openlocfilehash: e82d53b3f6b4c8d3e2363f26576331e1d03434d9
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,53 +30,58 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+Šajā tēmā ir paskaidroti dažādie finanšu dimensiju tipi un izskaidrots, kā tie tiek iestatīti.
 
-Šajā rakstā ir aprakstīti dažādi finanšu dimensiju veidi un izskaidrots, kā tie tiek iestatīti.
+Izmantojiet lapu **Finanšu dimensijas**, lai izveidotu finanšu dimensijas, ko varat izmantot kā kontu segmentus kontu plānos. Ir divu veidu finanšu dimensijas: pielāgotas dimensijas un uz elementu balstītas dimensijas. Pielāgotās dimensijas tiek kopīgi izmantotas dažādās juridiskajās personās, un to vērtības ievada un uztur lietotāji. Attiecībā uz elementu balstītajām dimensijām to vērtības sistēmā tiek definētas kaut kur citur, piemēram, elementos Klienti vai Veikali. Dažas uz elementu balstītas dimensijas tiek kopīgi izmantotas dažādās juridiskajās personās, bet citas uz elementu balstītas dimensijas ir paredzētas tikai noteiktam uzņēmumam. 
 
-Izmantojiet lapu Finanšu dimensijas, lai izveidotu finanšu dimensijas, ko varat izmantot kā kontu segmentus kontu plānos. Ir divu veidu finanšu dimensijas — pielāgotas dimensijas un uz elementu balstītas dimensijas. Pielāgotās dimensijas tiek izmantotas visām juridiskajām personām, un to vērtības ievada un uztur lietotājs. Uz elementu balstītas dimensijas ir dimensijas, kuru vērtības tiek definētas citā sistēmas sadaļā, piemēram, modulī Klienti vai Veikali. Dažas uz elementu balstītas dimensijas tiek izmantotas visām juridiskajām personām, bet dažas uz elementu balstītas dimensijas ir paredzētas noteiktam uzņēmumam. 
+Kad esat izveidojis finanšu dimensijas, izmantojiet lapu **Finanšu dimensiju vērtības**, lai katrai finanšu dimensijai piešķirtu papildu rekvizītus. 
 
-Kad esat izveidojis finanšu dimensijas, izmantojiet lapu Finanšu dimensijas, lai piešķirtu papildu rekvizītus katrai finanšu dimensijai. 
+Finanšu dimensijas varat izmantot, lai attēlotu juridiskās personas. Programmatūrā Microsoft Dynamics 365 for Finance and Operations, izdevumā Enterprise nav nepieciešams izveidot juridiskās personas. Taču finanšu dimensijas nav paredzētas tam, lai risinātu juridisko personu operāciju vai biznesa prasības. Programmatūras Finance and Operations starpvienību uzskaites funkcionalitāte ir paredzēta darbam tikai ar katras transakcijas ietvaros izveidotajiem uzskaites ierakstiem. 
 
-Lai gan programmatūrā Microsoft Dynamics 365 for Operations varat izmantot finanšu dimensijas, lai norādītu juridiskās personas, tās neizveidojot, finanšu dimensijas nav paredzētas juridisko personu operāciju vai uzņēmējdarbības vajadzību nodrošināšanai. Programmatūras Microsoft Dynamics 365 for Operations starpvienību uzskaites funkcionalitāte ir paredzēta darbam tikai ar katras transakcijas izveidotajiem uzskaites ierakstiem. 
+Pirms finanšu dimensijas iestatāt kā juridiskas personas, nosakiet, vai šie iestatījumi ir piemēroti jūsu organizācijai, novērtējot savas uzņēmējdarbības procesus tālāk norādītajās jomās.
 
-Pirms iestatāt finanšu dimensijas kā juridiskas personas, nosakiet, vai šie iestatījumi ir piemēroti jūsu organizācijai, novērtējot savas uzņēmējdarbības procesus tālāk norādītajās jomās.
+- Krājums
+- Pārdošanas un pirkšanas darījumi starp finanšu dimensijām un juridiskām personām
+- PVN aprēķins un pārskatu izveide
+- Operāciju pārskatu izveide
 
--   Krājumi
--   Pārdošanas un pirkšanas darījumi starp finanšu dimensijām un juridiskām personām
--   PVN aprēķins un pārskatu izveide
--   Operāciju pārskatu izveide
+Lūk, daži no ierobežojumiem.
 
-Tālāk ir sniegti daži ierobežojumu piemēri.
+- PVN funkcijas var lietot tikai juridiskām personām, nevis finanšu dimensijām.
+- Dažos pārskatos finanšu dimensijas nav ietvertas. Tādēļ, lai ziņotu pēc finanšu dimensijas, jums, iespējams, ir jāmodificē pārskati.
 
--   PVN funkcijas var lietot tikai juridiskām personām, nevis finanšu dimensijām.
--   Dažos pārskatos nav ietvertas finanšu dimensijas, tāpēc dažreiz pārskatus nevar veidot pēc finanšu dimensijas, ja vien šie pārskati netiek modificēti.
+## <a name="custom-dimensions"></a>Pielāgotas dimensijas
 
-**Pielāgotas dimensijas** 
+Lai izveidotu lietotāja definētu finanšu dimensiju, laukā **Izmantot vērtības no** atlasiet opciju **&lt; Pielāgota dimensija &gt;**. Lai ierobežotu summas un tipa informāciju, ko var ievadīt dimensiju vērtībām, var norādīt arī konta masku. Varat ievadīt rakstzīmes, kas paliek tādas pašas katrai dimensijas vērtībai, piemēram, burtus vai defisi (-). Numura zīmes (\#) un zīmes & varat arī ievadīt kā vietturus burtiem un cipariem, kas mainīsies ikreiz, kad tiks izveidota dimensijas vērtība. Numura zīmi (\#) izmantojiet kā vietturi cipariem un zīmi & izmantojiet kā vietturi burtiem. Formāta maskai paredzētais lauks ir pieejams tikai tad, ja laukā **Izmantot vērtības no** atlasāt opciju **&lt; Pielāgota dimensija &gt;**.
 
-Lai izveidotu lietotāja definētu finanšu dimensiju, laukā Izmantot vērtības no atlasiet opciju &lt; Pielāgota dimensija &gt;. Lai ierobežotu summas un tipa informāciju, ko var ievadīt dimensiju vērtībām, var norādīt arī konta masku. Jūs varat ievadīt rakstzīmes, kas paliek vienādas katrai dimensijas vērtībai, piemēram, burtus vai pārnesumzīmi. Numura zīmes (\#) un zīmes & varat arī ievadīt kā vietturus burtiem un cipariem, kas mainīsies ikreiz, kad tiks izveidota dimensijas vērtība. Numura zīmi (\#) izmantojiet kā vietturi cipariem un zīmi & izmantojiet kā vietturi burtiem. 
+**Piemērs**
 
-**Piemērs** 
+Lai dimensijas vērtību noteiktu kā burtus “CC” un trīs ciparus, kā formāta maska ir jāieraksta **CC-\#\#\#**.
 
-Lai dimensijas vērtību noteiktu kā burtus CC un trīs ciparus, kā formāta maska ir jāieraksta CC-\#\#\#. Šis lauks ir pieejams tikai tad, ja laukā Izmantot vērtības no ir atlasīta vērtība &lt; Pielāgota dimensija &gt;. 
+## <a name="entity-backed-dimensions"></a>Uz elementu balstītas dimensijas
 
-**Uz elementu balstītas dimensijas** 
+Lai izveidotu uz elementu balstītu finanšu dimensiju, laukā **Izmantot vērtības no** atlasiet sistēmas definētu elementu, uz kuru balstīt šo finanšu dimensiju. Pēc tam finanšu dimensijas vērtības tiek veidotas no šī elementa. Piemēram, lai izveidotu dimensiju vērtības projektiem, atlasiet vienumu **Projekti**. Pēc tam dimensijas vērtība tiek izveidota katram projekta nosaukumam. Lapā **Finanšu dimensiju vērtības** tiek rādītas vērtības šim elementam. Ja šīs vērtības ir atkarīgas no uzņēmuma, tad lapā tiek rādīts arī uzņēmums.
 
-Lai izveidotu uz elementu balstītu finanšu dimensiju, laukā Izmantot vērtības no atlasiet sistēmas definētu elementu, uz kuru balstīt finanšu dimensiju. Finanšu dimensijas vērtības tiek veidotas no šīs atlases. Piemēram, lai izveidotu dimensijas vērtības projektiem, atlasiet Projekti. Dimensijas vērtība tiks izveidota katram projekta nosaukumam. Dimensiju vērtību lapā tiek rādītas elementa vērtības un vērtībai atbilstošais uzņēmums, ja vērtības ir raksturīgas noteiktam uzņēmumam. 
+## <a name="activating-dimensions"></a>Dimensiju aktivizēšana
 
-**Dimensiju aktivizēšana** 
+Kad aktivizējat kādu finanšu dimensiju, tabula tiek atjaunināta tā, lai tajā būtu ietverts finanšu dimensijas nosaukums. Dzēstās dimensijas tiek noņemtas. Dimensiju vērtības varat ievadīt, pirms aktivizējat kādu finanšu dimensiju. Taču finanšu dimensiju nekur nevar patērēt, kamēr tā nav aktivizēta. Jūs nevarat finanšu dimensiju, piemēram, pievienot konta struktūrai, kamēr šī finanšu dimensija nav aktivizēta. Kad noklikšķināt uz **Aktivizēt**, visas dimensijas tiek atjauninātas un tām tiek rādītas statusa izmaiņas. 
 
-Aktivizējot finanšu dimensiju, tabulā tiek atjaunināts finanšu dimensijas nosaukums un tiek noņemtas dzēstās dimensijas. Varat ievadīt dimensijas vērtības pirms finanšu dimensijas aktivizēšanas, taču finanšu dimensiju nevar nekur patērēt, kamēr tā nav aktivizēta. Piemēram, nevarat pievienot finanšu dimensiju konta struktūrai, kamēr finanšu dimensija nav aktivizēta. Noklikšķinot uz Aktivizēt, tiek atjauninātas visas dimensijas, kuru statuss ir mainīts. 
+## <a name="translations"></a>Tulkojumi
 
-**Tulkojumi** 
+Lapā **Teksta tulkojums** atlasītajai finanšu dimensijai varat ievadīt tekstu dažādās valodās. Lapā **Galvenā konta tulkojums** attiecīgajam galvenajam kontam varat ievadīt tekstu dažādās valodās. 
 
-Lapā Teksta tulkojums varat ievadīt atlasītajai finanšu dimensijai parādāmo tekstu dažādās valodās. Lapā Galvenā konta tulkojums varat ievadīt galvenā konta parādāmo tekstu dažādās valodās. 
+## <a name="legal-entity-overrides"></a>Juridiskas personas prioritātes
 
-**Juridiskas personas prioritātes** 
+Ne visas dimensijas ir derīgas visām juridiskajām personām. Turklāt dažas dimensijas var attiekties tikai uz noteiktu periodu. Tādos gadījumos varat izmantot sadaļu **Juridiskas personas prioritātes**, lai norādītu uzņēmumus, attiecībā uz kuriem šī dimensija ir jāaiztur, kā arī īpašnieku un periodu, kad šī dimensija ir aktīva.
 
-Ne visas dimensijas ir derīgas visām juridiskajām personām, un noteiktas dimensijas var attiekties tikai uz noteiktu laika periodu. Šādā gadījumā varat izmantot sadaļu Juridiskas personas prioritātes, lai norādītu, kuriem uzņēmumiem dimensija ir jāaiztur, kas ir īpašnieks un kāds ir dimensijas aktīvais laika periods.
+## <a name="deleting-financial-dimensions"></a>Finanšu dimensiju dzēšana
 
+Lai palīdzētu uzturēt atsauču datu integritāti, finanšu dimensijas dzēst ir iespējams reti. Ja mēģināt dzēst kādu finanšu dimensiju, tiek izvērtēti tālāk norādītie kritēriji.
 
+- Vai šī finanšu dimensija ir izmantota kādās iegrāmatotās un neiegrāmatotās transakcijās, vai kādā dimensiju vērtību kombinācijā?
+- Vai šī finanšu dimensija ir izmantota kādā aktīvā konta struktūrā, papildu kārtulas struktūrā vai finanšu dimensiju kopā?
+- Vai šī finanšu dimensija veido daļu no noklusējuma finanšu dimensiju integrācijas formāta?
+- Vai šī finanšu dimensija ir iestatīta kā noklusējuma dimensija?
 
-
-
+Ja finanšu dimensija atbilst kādam no šiem kritērijiem, tad šo finanšu dimensiju nevar izdzēst.
 

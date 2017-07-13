@@ -3,7 +3,7 @@ title: "Finanšu perioda slēgšanas darbvieta"
 description: "Šajā rakstā ir sniegts pārskats par finanšu perioda slēgšanas darbvietu un saistīto konfigurāciju."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 788b0af30eb750cad8f958ecc4c33cf989b2a417
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 5de5e3aad0b7a5853653ae53326dac078ec94fea
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -65,7 +65,7 @@ Opcija **Uzdevums pabeigts** ir manuāli jāatlasa pēc tam, kad uzdevums ir pab
 Visus pašreizējos un iepriekšējo periodu slēgšanas uzdevumus varat skatīt saraksta lapā **Visi finanšu perioda slēgšanas uzdevumi**. Šo saraksta lapu vislabāk izmantot slēgšanas procesa vēsturisko datu analīzē, jo tajā ir ietverta informācija par plānoto izpildes datumu, faktisko pabeigšanas datumu un personu, kas šo uzdevumu pabeidza. Šīs saraksta lapas informāciju varat ērti eksportēt uz programmu Microsoft Excel, lai veidotu pārskatus un veiktu auditus.
 
 ## <a name="financial-period-close-configuration-page"></a>Finanšu perioda slēgšanas konfigurācijas lapa
-Lai varētu izmantot darbvietu **Finanšu perioda slēgšana**, process ir jākonfigurē sistēmā Microsoft Dynamics 365 for Operations, izmantojot lapu **Finanšu perioda slēgšanas konfigurācija**. (Noklikšķiniet uz **Virsgrāmata** &gt; **Perioda slēgšana** &gt; **Finanšu perioda slēgšanas konfigurācija**.)
+Lai varētu izmantot darbvietu **Finanšu perioda slēgšana**, process ir jākonfigurē sistēmā Microsoft Dynamics 365 for Finance and Operations, izmantojot lapu **Finanšu perioda slēgšanas konfigurācija**. (Noklikšķiniet uz **Virsgrāmata** &gt; **Perioda slēgšana** &gt; **Finanšu perioda slēgšanas konfigurācija**.)
 
 ### <a name="resources"></a>Resursi
 
@@ -90,7 +90,7 @@ Finanšu slēgšanas veidni varat izmantot, lai definētu visus uzdevumus, kas i
 
 Veidnē uzdevumu var piešķirt vienam vai vairākiem uzņēmumiem, uz kuriem šis uzdevums attiecas. Ja katrā uzņēmumā šī darba izpildei tiek piešķirta cita persona, var būt noderīgi vienam darbam izveidot vairākus uzdevumus. Izveidojiet vienu uzdevumu katram uzņēmumam. 
 
-Izvēlnes vienums **Uzdevuma saite** ir saistīts ar uzdevuma darbu, un to var izmantot, lai no uzdevuma saites darbvietā pārietu tieši uz saistīto lapu. Piemēram, lai palaistu valūtas pārvērtēšanas procesu kreditoriem, slēgšanas uzdevumu var saistīt ar attiecīgo lapu **Ārvalstu valūtas pārvērtēšana** sistēmā Microsoft Dynamics 365 for Operations. Varat arī saistīt ar ārējo vietrādi URL. 
+Izvēlnes vienums **Uzdevuma saite** ir saistīts ar uzdevuma darbu, un to var izmantot, lai no uzdevuma saites darbvietā pārietu tieši uz saistīto lapu. Piemēram, slēgšanas uzdevumu, ko paredzēts izpildīt valūtas pārvērtēšanas procesam kreditoriem, var saistīt ar attiecīgo lapu **Ārvalstu valūtas pārvērtēšana** sistēmā Microsoft Dynamics 365 for Finance and Operations, izdevumā Enterprise. Varat arī saistīt ar ārējo vietrādi URL. 
 
 > [!Ieteikums] Lai finanšu perioda slēgšanas uzdevumam piesaistītu noteiktu pārvaldības pārskata sastādītāja pārskatu, var izmantot pārskata URL. Lai piekļūtu pārskata vietrādim URL, pārskatu veidotājā atveriet šo pārskatu un pēc tam noklikšķiniet uz **Fails** &gt; **Skatīt pārskatu**, lai pārskatu atvērtu tīmekļa pārlūkprogrammā. Pēc tam varat kopēt URL no pārlūkprogrammas adreses joslas un ielīmēt to laukā **Uzdevuma saites** **URL**. 
 

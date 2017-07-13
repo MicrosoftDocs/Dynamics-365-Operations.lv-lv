@@ -3,25 +3,26 @@ title: "Uzņēmumam raksturīgo PV parametru iestatīšana"
 description: "Dažu personāla vadības (PV) parametru iestatījumi tiek koplietoti uzņēmumu starpā, savukārt citu parametru iestatījumi ir raksturīgi noteiktam uzņēmumam. Šajā rakstā ir paskaidrots, kā iestatīt uzņēmumam raksturīgus PV parametrus."
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 ms.search.form: HRMParameters
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: rschloma
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e1a3560013271fc1b83bdb931aef2153b1d07317
+ms.sourcegitcommit: f83bc127f7bf3cdceb39a79c1e69f4f7e96f6462
+ms.openlocfilehash: ef84ad6e90e7c58ea921930e23b67228d393bc7e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/19/2017
 
 
 ---
@@ -35,9 +36,9 @@ Dažu personāla vadības (PV) parametru iestatījumi tiek koplietoti uzņēmumu
 
 Divas lapas tiek izmantotas, lai iestatītu personāla vadības parametrus (PV). Parametriem, kas ir kopīgi visiem uzņēmumiem, izmanto lapu **Personāla vadības kopīgie parametri**. Parametriem, kas ir specifiski uzņēmumam (citiem vārdiem sakot, iestatījumi attiecas uz vienu uzņēmumu), izmanto lapu **Personāla vadības parametri**. Lapā **Personāla vadības parametri** iestatījumi ir sadalīti sešās cilnēs:
 
--   Vispārīgi
--   Personāla atlase
--   Kompensācija
+-   Vispārējs
+-   Personāla atlase nav iekļauta programmatūrā Dynamics 365 for Talent
+-   Atlīdzība
 -   Numuru sērijas
 -   Likums par ģimenes un medicīniskajiem atvaļinājumiem (FMLA)
 -   Darbinieku pašapkalpošanās
@@ -48,7 +49,11 @@ Iestatījumi cilnē **Personāla atlase** definē dokumentu tipus, kas tiek izma
 
 Iestatījumi cilnē **Atlīdzība** definē, vai lietotājiem ir jāapstiprina, ka viņi vēlas saglabāt informāciju fiksēto vai mainīgo atlīdzību plānam. Ja atzīmējat izvēles rūtiņu **Iespējot saglabāšanas pārbaudi**, ikreiz, kad lietotāji aizver ar atlīdzību saistītu lapu, viņi saņem ziņojumu ar jautājumu, vai viņi vēlas saglabāt ierakstu. Dažas atlīdzības pārvaldības lapas neļauj lietotājiem dzēst informāciju. Tāpēc prasot lietotājiem apstiprināt, ka viņi vēlas saglabāt informāciju, var ierobežot informācijas daudzumu, kas tiek saglabāts un ko nevar izdzēst vēlāk. Ja izvēles rūtiņa **Iespējot saglabāšanas pārbaudi** ir notīrīta, ieraksti tiek vienmēr saglabāti nekavējoties, iespējams pirms lietotājs ir gatavs. Ja jūs izmantojat veiktspējas pārvaldību, cilne **Atlīdzība** ļauj jums izvēlēties vērtēšanas modeli, ko veiktspējas vērtēšanas laikā lietot modeļa, kas piešķirts atlīdzības plāniem, vietā. 
 
-Iestatījumi cilnē **Numuru sērija** nosaka sērijas, kas tiek izmantotas, lai automātiski piešķirtu ID krājumiem Personāla vadībā, piemēram, pieteikumiem, kavējumu reģistrācijām, atlīdzības procesa rezultātiem, lietas numuriem, kursiem un kursu darba kārtībām. Lai saglabātu numuru sēriju atsauces un kodus, lietojiet saraksta lapu **Numuru sērijas** (noklikšķiniet uz **Organizācijas administrēšana** &gt; **Numuru sērijas** &gt; **Numuru sērijas**). 
+### <a name="previously-released-functionality"></a>Iepriekš izlaistā funkcionalitāte
+Iestatījumi cilnē **Numuru sērija** nosaka sērijas, kas tiek izmantotas, lai automātiski piešķirtu ID krājumiem Personāla vadībā, piemēram, pieteikumiem, kavējumu reģistrācijām, atlīdzības procesa rezultātiem, lietas numuriem, kursiem un kursu darba kārtībām. Lai saglabātu numuru sēriju atsauces un kodus, lietojiet saraksta lapu **Numuru sērijas** (noklikšķiniet uz **Organizācijas administrēšana** &gt; **Numuru sērijas** &gt; **Numuru sērijas**).
+
+### <a name="if-youre-using-dynamics-365-for-talent"></a>Ja izmantojat Dynamics 365 for Talent
+Iestatījumi cilnē **Numuru sērija** nosaka sērijas, kas tiek izmantotas, lai automātiski piešķirtu ID krājumiem Personāla vadībā, piemēram, pieteikumiem, kavējumu reģistrācijām, atlīdzības procesa rezultātiem, lietas numuriem, kursiem un kursu darba kārtībām. Lai saglabātu numuru sēriju atsauces un kodus, lietojiet saraksta lapu **Numuru sērijas** (noklikšķiniet uz **Sistēmas administrēšana** &gt; **cilne Saites** &gt; **Numuru sērijas** &gt; **Numuru sērijas**). 
 
 Iestatījumi cilnē **FMLA** definē, cik stundas darbiniekam jānostrādā, lai varētu pretendēt uz FMLA pabalstiem, nodarbinātības ilgumu, kas ir nepieciešams šim nolūkam, un nodarbinātības sākuma datumu, kas tiek izmantots, lai noteiktu nodarbinātības ilgumu. Iestatījumi arī nosaka FMLA stundu skaitu, kas darbiniekiem pienākas un FMLA atvaļinājumu kalendāru, ko izmanto, lai aprēķinātu, cik FMLA stundas darbinieki ir izlietojuši. Cilne **FMLA** ir pieejama tikai uzņēmumiem Amerikas Savienotajās Valstīs. 
 

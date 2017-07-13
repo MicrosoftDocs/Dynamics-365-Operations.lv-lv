@@ -3,14 +3,14 @@ title: "Budžeta plānošanas pārskats"
 description: "Šajā rakstā tiek iepazīstināts ar budžeta plānošanu, un tajā ir ietverta informācija, kas jums palīdz konfigurēt budžeta plānošanu un iestatīt budžeta plānošanas procesus."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 17251
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5212c8401f26f30cf593c52eb88291463b9b8810
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: e2c956969626836fadb0a6cac6dbb1d57f169f28
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -38,7 +38,7 @@ ms.lasthandoff: 05/25/2017
 
 Budžeta plānošana tiek veikta, kad sagatavojat budžetus, kurus ieviesīs organizācija. Organizācija var konfigurēt budžeta plānošanu un pēc tam iestatīt budžeta plānošanas procesus atbilstoši savai politikai, procedūrām un budžeta sagatavošanas prasībām. 
 
-Gūstot izpratni par koncepcijām un terminoloģiju, kas tiek izmantotas Microsoft Dynamics 365 for Operations vidē, būs vieglāk īstenot savas organizācijas budžeta plānošanu.
+Kad sapratīsiet koncepcijas un terminoloģiju, kas tiek izmantotas programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise, varēsiet vieglāk ieviest budžeta plānošanu savā organizācijā.
 
 ### <a name="key-terms"></a>Galvenie termini
 
@@ -59,7 +59,7 @@ Budžeta plānošanu var izmantot tālāk norādīto uzdevumu izpildei.
 -   Automātiski maršrutējiet budžeta plānus kopā ar darblapām, pamatojuma dokumentiem un citiem pielikumiem turpmākai pārskatīšanai un apstiprināšanai.
 -   Konsolidējiet vairākus budžeta plānus no zemāka organizācijas līmeņa vienā pamata budžeta plānā augstākā organizācijas līmenī. Varat arī izstrādāt vienu budžeta plānu augstākā organizācijas līmenī un piešķirt budžetu zemākiem organizācijas līmeņiem.
 
-Budžeta plānošana ir integrēta citos Microsoft Dynamics 365 for Operations moduļos. Tāpēc varat ietvert informāciju no iepriekšējiem budžetiem, faktiskajiem izdevumiem, pamatlīdzekļiem un cilvēkresursiem. Tā kā budžeta plānošana ir arī integrēta ar Microsoft Excel un Microsoft Word, varat izmantot šīs programmas, lai strādātu ar budžeta plānošanas datiem. Piemēram, budžeta pārvaldnieks var eksportēt nodaļas budžeta pieprasījumu no budžeta plāna scenārija uz Excel darblapu. Datus var analizēt, atjaunināt un veido diagrammas darblapās un pēc tam publicēt budžeta plāna rindās.
+Budžeta plānošana ir integrēta citos programmatūras Microsoft Dynamics 365 for Finance and Operations moduļos. Tāpēc varat ietvert informāciju no iepriekšējiem budžetiem, faktiskajiem izdevumiem, pamatlīdzekļiem un cilvēkresursiem. Tā kā budžeta plānošana ir arī integrēta ar Microsoft Excel un Microsoft Word, varat izmantot šīs programmas, lai strādātu ar budžeta plānošanas datiem. Piemēram, budžeta pārvaldnieks var eksportēt nodaļas budžeta pieprasījumu no budžeta plāna scenārija uz Excel darblapu. Datus var analizēt, atjaunināt un veido diagrammas darblapās un pēc tam publicēt budžeta plāna rindās.
 
 ## <a name="configuring-budget-planning"></a>Budžeta plānošanas konfigurēšana
 Lapā **Budžeta plānošanas konfigurācija** ir lielākā iestatījumu daļa, kas jums nepieciešama, lai iestatītu budžeta plānošanu. Turpmākajās sadaļās aprakstīti galvenie faktori, kas jāņem vērā, kad konfigurējat budžeta plānošanu. Kad esat pabeidzis konfigurēšanu, uzstādiet budžeta plānošanas procesus.
@@ -78,7 +78,7 @@ Nākamajā piemērā galvenā pārvalde prognozē sākotnējās budžetā bāzl�
 
 Lapā **Organizācijas hierarhija** varat norādīt organizācijas hierarhiju par budžeta plānošanas hierarhiju katrā budžeta plānošanas procesā. Budžeta plānošanas hierarhijai nav jāatbilst standarta organizācijas hierarhijai, kas tiek izmantota citiem mērķiem. Tā kā šī hierarhija tiek izmantota, lai apkopotu un izplatītu datus, varat izvēlēties atšķirīgu struktūru. Piemēra shēmā pārdošanas nodaļas pakļaujas galvenās pārvaldes līmenim, kurā ir budžeta un finanšu nodaļas. Šī struktūra, iespējams, atšķiras no struktūras, kas tiek izmantota, lai pārvaldītu operācijas pārdošanas nodaļās. Katram budžeta plānošanas procesam var piešķirt tikai vienu organizācijas hierarhiju. 
 
-Papildinformāciju skatiet rakstā [Organizācijas un organizāciju hierarhijas](/dynamics365/operations/organization-administration/organizations-organizational-hierarchies).
+Papildinformāciju skatiet rakstā [Organizācijas un organizāciju hierarhijas](/dynamics365/unified-operations/fin-and-ops/organization-administration/organizations-organizational-hierarchies).
 
 ### <a name="user-security"></a>Lietotāja drošība
 
@@ -88,13 +88,13 @@ Budžeta plānošanai varat izmantot vienu no diviem drošības modeļiem, kas d
 
 Lai pārvaldītu budžeta plānu izveidi un attīstību, tiek izmantotas budžeta plānošanas darbplūsmas un budžeta veidošanas darbplūsmas.
 
-Budžeta plānošanas darbplūsmu sastāv no sakārtota posmu kopuma, pa kuru pārvietojas budžeta plāns. Katra budžeta plānošanas darbplūsma ir saistīta ar budžeta veidošanas darbplūsmu. Budžeta veidošanas darbplūsmas ir viens no darbplūsmu tipiem, kas tiek izmantots sistēmā Microsoft Dynamics 365 for Operations. Budžeta veidošanas darbplūsmas maršrutē budžeta plānus kopā ar darblapām, pamatojumiem un pielikumiem organizācijas ietvaros to pārskatīšanai un apstiprināšanai. 
+Budžeta plānošanas darbplūsmu sastāv no sakārtota posmu kopuma, pa kuru pārvietojas budžeta plāns. Katra budžeta plānošanas darbplūsma ir saistīta ar budžeta veidošanas darbplūsmu. Budžeta veidošanas darbplūsmas ir viens no programmatūrā Dynamics 365 for Finance and Operations izmantotajiem darbplūsmu veidiem. Budžeta veidošanas darbplūsmas maršrutē budžeta plānus kopā ar darblapām, pamatojumiem un pielikumiem organizācijas ietvaros to pārskatīšanai un apstiprināšanai. 
 
 Budžeta plānošanas darbplūsmu iespējams izveidot lapas **Budžeta plānošanas konfigurācija** sadaļā **Darbplūsmas stadijas**. Tur varat atlasīt izmantojamās stadijas un budžeta veidošanas darbplūsmas, kā arī konfigurēt papildu iestatījumus. 
 
 Laba prakse ir izveidot budžeta plānošanas darbplūsmu katrā budžeta veidošanas hierarhijas līmenī. Pēc tam piešķiriet budžeta veidošanas darbplūsmu, kas satur elementus, kuri atbilst budžeta plānošanas darbplūsmas stadijām. Piemēra shēmā, kas parādīta iepriekš šajā rakstā, viena budžeta plānošanas darbplūsma tiktu izveidota pārdošanas nodaļām un cita tiktu izveidota galvenajai pārvaldei. Budžeta veidošanas darbplūsmas pārvieto budžeta plānus no vienas stadijas uz citu. 
 
-Budžeta veidošanas darbplūsmu budžeta plānošanai varat izveidot lapā **Budžeta veidošanas darbplūsmas**. Process līdzinās citu darbplūsmu veidošanai sistēmā Microsoft Dynamics 365 for Operations. Šajā attēlā parādīts galvenās pārvaldes darbplūsmas piemērs. 
+Budžeta veidošanas darbplūsmu budžeta plānošanai varat izveidot lapā **Budžeta veidošanas darbplūsmas**. Šis process līdzinās citu darbplūsmu izveidei programmatūrā Dynamics 365 for Finance and Operations. Šajā attēlā parādīts galvenās pārvaldes darbplūsmas piemērs. 
 
 [![Budžeta veidošanas darbplūsma budžeta plānošanai](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
 

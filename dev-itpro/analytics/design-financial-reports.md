@@ -1,16 +1,16 @@
 ---
 title: "Skatīt un izveidot finanšu pārskatus"
-description: "Šajā rakstā ir sniegti vingrinājumi, kas jums izskaidros finanšu pārskatu skatīšanu un veidošanu programmatūrā Microsoft Dynamics 365 for Operations."
+description: "Šajā rakstā ir sniegti vingrinājumi, kas palīdzēs jums apgūt finanšu pārskatu skatīšanu un veidošanu programmatūrā Microsoft Dynamics 365 for Finance and Operations."
 author: jcart1106
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1c0787327830d2cdff9e8a48798165dc83493393
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0dc453ab56a2d381afa6e22d847f0b1eb7a16e7e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir sniegti vingrinājumi, kas jums izskaidros finanšu pārskatu skatīšanu un veidošanu programmatūrā Microsoft Dynamics 365 for Operations. Finanšu pārskatu veidošana sastāv no skatīšanas funkcionalitātes programmatūrā Dynamics 365 for Operations un no viena klikšķa pārskata veidotāja, kas jums ļauj izveidot un rediģēt finanšu pārskatus.  
+Šajā rakstā ir sniegti vingrinājumi, kas palīdzēs jums apgūt finanšu pārskatu skatīšanu un veidošanu programmatūrā Microsoft Dynamics 365 for Finance and Operations. Finanšu pārskatu veidošanas ietvaros tiek izmantota programmatūras Dynamics 365 for Finance and Operations pārskatu skatīšanas funkcionalitāte un no viena klikšķa pārskatu veidotājs, kas sniedz iespēju izveidot un rediģēt finanšu pārskatus.  
 
 <a name="exercise-1-generate-and-explore-a-default-financial-report"></a>1. uzdevums. Noklusējuma finanšu pārskata ģenerēšana un pārlūkošana
 -----------------------------------------------------------
@@ -59,7 +59,7 @@ ms.lasthandoff: 05/25/2017
 13. Atlasiet **Pārskata opcijas**.
 14. Atlasiet **Pievienot dimensiju filtru** un izvēlieties **Biznesa vienība**.
 15. Laukā ievadiet 001 un atlasiet **Labi**. Pārskatā tagad tiek rādīti tikai biznesa vienības 001 dati. Šis ir pārskata personalizēts skats un nav pieejams citiem lietotājiem.
-16. Aizveriet filtrēto pārskatu. Finanšu pārskatus var parādīt jebkurā valūtā, kas ir pievienota programmā Dynamics 365 for Operations.
+16. Aizveriet filtrēto pārskatu. Finanšu pārskati var tikt rādīti jebkurā valūtā, kas ir pievienota programmatūrā Dynamics 365 for Finance and Operations.
 17. Atlasiet **Valūta** un pēc tam atlasiet **EUR.** Pārskata summas tagad tiek rādītas eiro. Visi pārskata noformējumā iekļautie valūtu kodi un simboli tagad tiek rādīti lietotajā valūtā. Ja valūtai nav definēts valūtas simbols, valūtas simbols netiek rādīts.
 18. Aizveriet pārskatu **VG dati**.
 19. Aizveriet lapu **Finanšu pārskata veidotājs**.
@@ -70,7 +70,7 @@ ms.lasthandoff: 05/25/2017
 1.  Dodieties uz lapu **Finanšu pārskati**, kas atrodas Virsgrāmatas sadaļā Pieprasījumi un pārskati.
 2.  Atlasiet rindu pārskatam ar nosaukumu **Kopsavilkuma apgrozījuma bilance — noklusējuma.**
 3.  Atlasiet **Rediģēt**. Pārskatu veidotājā tiks atvērta **Kopsavilkuma apgrozījuma bilance — noklusējuma**.
-4.  Atlasiet **Fails** un pēc tam **Saglabāt kā** un nosauciet pārskatu Detalizēta apgrozījuma bilance ar atribūtiem. Piezīme. Katru reizi, kad tiek izveidots jauns pārskats, izmantojot pārskatu veidotāju, programmā Dynamics 365 for Operations tiek atjaunināts finanšu pārskatu saraksts.
+4.  Atlasiet **Fails** un pēc tam **Saglabāt kā** un nosauciet pārskatu Detalizēta apgrozījuma bilance ar atribūtiem. Piezīme. Ikreiz, kad tiek izveidots jauns pārskats, izmantojot pārskatu veidotāju, programmatūrā Dynamics 365 for Finance and Operations tiek atjaunināts finanšu pārskatu saraksts.
 5.  No pārskata definīcijas atlasiet rindas definīcijas ikonu, lai atvērtu **Apgrozījuma bilance — noklusējuma rindas definīcija**.
 6.  Saglabājiet rindas definīciju kā **Detalizēta apgrozījuma bilance ar atribūtiem**.
 7.  Novietojiet kursoru 50. rindā, atlasiet **Rediģēt** un pēc tam atlasiet **Ievietot rindas no dimensijām**. Ievietojot rindas no dimensijām, varat izvēlēties, kādas dimensijas vēlaties iekļaut rindas definīcijā. Šajā uzdevumā mēs izveidosim rindas definīciju, izmantojot galveno kontu.
@@ -183,8 +183,8 @@ ms.lasthandoff: 05/25/2017
 18. **Saglabājiet** veiktās izmaiņas un **ģenerējiet** pārskatu. Kad pārskata ģenerēšana tiek pabeigta un tas tiek atvērts, varat to pārskatīt.
 
 ## <a name="additional-resources"></a>Papildu resursi
-[Finanšu pārskati](/dynamics365/operations/financials/general-ledger/financial-reporting-getting-started) 
-[Skatīt finanšu pārskatus](/dynamics365/operations/financials/general-ledger/view-financial-reports) 
+[Finanšu pārskati](/dynamics365/unified-operations/financials/general-ledger/financial-reporting-getting-started) 
+[Skatīt finanšu pārskatus](/dynamics365/unified-operations/financials/general-ledger/view-financial-reports) 
 [Emuārs Dynamics finanšu pārskatus sastādīšana](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 

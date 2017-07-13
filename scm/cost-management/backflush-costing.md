@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LeanCosting, LeanCostingTimeBucket
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 272063
 ms.assetid: 62a2a7da-ff79-49bf-a6e8-29460ba5252f
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fb8fa9f5f17b8d658e2d0fea3a9659ab09562611
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: e520c292b7350f332649f23fb4232e7ecd191776
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -64,11 +64,11 @@ Precēm, kas tiek piegādātas no ražošanas plūsmas, MK aprēķina pamatā j�
 
 ### <a name="calculation-that-is-based-on-the-production-flow"></a>Aprēķins, kas balstīts uz ražošanas plūsmu
 
-Lean manufacturing programmai Microsoft Dynamics 365 for Operations operācijām nav atkarīga no maršrutiem. Izmaksu aprēķinu precēm, kuras tiek piegādātas no ražošanas plūsmas, var balstīt uz attiecīgo ražošanas plūsmu. Pirms var veikt aprēķinu, jāizveido Kanban nosacījums, ar kuru tiek piegādāta prece no ražošanas plūsmas. Ja aprēķina datumā preci var piegādāt no vairākām ražošanas plūsmām tajā pašā vietā, varat atlasīt ražošanas plūsmu MK aprēķinam. Lapā **Noklusējuma ražošanas plūsma** varat konfigurēt noklusējuma ražošanas plūsmu katram krājumam. Ja vienam produktam tajā pašā ražošanas plūsmā, kas ir aktīva aprēķina datumā, pastāv vairāki Kanban nosacījumi, aprēķins atlasa pirmo Kanban nosacījumu, kas ir aktīvs attiecīgajam aprēķinam.
+Lean manufacturing programmatūrai Microsoft Dynamics 365 for Finance and Operations darbība ir neatkarīga no maršrutiem. Izmaksu aprēķinu precēm, kuras tiek piegādātas no ražošanas plūsmas, var balstīt uz attiecīgo ražošanas plūsmu. Pirms var veikt aprēķinu, jāizveido Kanban nosacījums, ar kuru tiek piegādāta prece no ražošanas plūsmas. Ja aprēķina datumā preci var piegādāt no vairākām ražošanas plūsmām tajā pašā vietā, varat atlasīt ražošanas plūsmu MK aprēķinam. Lapā **Noklusējuma ražošanas plūsma** varat konfigurēt noklusējuma ražošanas plūsmu katram krājumam. Ja vienam produktam tajā pašā ražošanas plūsmā, kas ir aktīva aprēķina datumā, pastāv vairāki Kanban nosacījumi, aprēķins atlasa pirmo Kanban nosacījumu, kas ir aktīvs attiecīgajam aprēķinam.
 
 ### <a name="calculation-that-is-based-on-the-route"></a>Aprēķins, kas balstīts uz maršrutu
 
-Aprēķins, kas balstīts uz maršrutu, ir tikpat derīgs kā aprēķins, kas balstīts uz ražošanas plūsmu. Tomēr aprēķinā, kas balstīts uz maršrutu, nav izmantota izmaksu aprēķināšana Lean manufacturing funkcionalitātei. Maršrutam ir jāizmanto resursu pieprasījums resursu grupām. Lai izvairītos no sistemātiskām novirzēm, tam jāizmanto arī tās pašas darba šūnas vai vismaz tās pašas izmaksu kategorijas. Ir jāizvairās no izmaksu kategorijām iestatīšanai un daudzumam. Tās nepalīdz aprēķināt izmaksas detalizētākā sadalījumā nekā Lean manufacturing atgriezeniskā izmaksu aprēķināšana. Lai noteiktu, kura opcija (ražošanas plūsmas vai maršruta) ir jāizmanto izmaksu aprēķināšanai, ņemiet vērā izmaksu sadalījuma rezultātus. Versija, kas vairāk atbilst realitātei un rada mazāk noviržu kopumā, ir labākā izvēle. Lean manufacturing vidē, kur prece tiek piegādāta, izmantojot vienu ražošanas plūsmu un vienu Kanban nosacījumu, aprēķins, kas ir balstīts uz ražošanas plūsmu, iespējams, ir precīzāks. Precei, kuru var piegādāt, izmantojot ražošanu Lean manufacturing un ražošanas pasūtījumus tajā pašā vietā, vai kurai var būt vairākas ražošanas plūsmas vai vairāki Kanban nosacījumi tajā pašā plūsmā, aprēķins var būt precīzāks, ja tas balstīts uz maršruta versiju, kas ir īpaši veidota izmaksu aprēķinam, nevis ražošanai. Ražošanas plūsmas aprēķins jāizmanto, lai aprēķinātu preces, kas ietver apakšlīgumu slēgšanu. Programmā Microsoft Dynamics 365 for Operations izmaksu modeļiem apakšlīgumu slēgšanai, izmantojot ražošanas pasūtījumus, un apakšlīgumu slēgšanai ražošanas Lean manufacturing ietvaros tiek izmantotas divas dažādas pieejas. Lean manufacturing ievieš jaunu izmaksu grupas tipu **Tiešie ārpakalpojumi**, lai aprēķinātu apakšuzņēmēju pakalpojumus.
+Aprēķins, kas balstīts uz maršrutu, ir tikpat derīgs kā aprēķins, kas balstīts uz ražošanas plūsmu. Tomēr aprēķinā, kas balstīts uz maršrutu, nav izmantota izmaksu aprēķināšana Lean manufacturing funkcionalitātei. Maršrutam ir jāizmanto resursu pieprasījums resursu grupām. Lai izvairītos no sistemātiskām novirzēm, tam jāizmanto arī tās pašas darba šūnas vai vismaz tās pašas izmaksu kategorijas. Ir jāizvairās no izmaksu kategorijām iestatīšanai un daudzumam. Tās nepalīdz aprēķināt izmaksas detalizētākā sadalījumā nekā Lean manufacturing atgriezeniskā izmaksu aprēķināšana. Lai noteiktu, kura opcija (ražošanas plūsmas vai maršruta) ir jāizmanto izmaksu aprēķināšanai, ņemiet vērā izmaksu sadalījuma rezultātus. Versija, kas vairāk atbilst realitātei un rada mazāk noviržu kopumā, ir labākā izvēle. Lean manufacturing vidē, kur prece tiek piegādāta, izmantojot vienu ražošanas plūsmu un vienu Kanban nosacījumu, aprēķins, kas ir balstīts uz ražošanas plūsmu, iespējams, ir precīzāks. Precei, kuru var piegādāt, izmantojot ražošanu Lean manufacturing un ražošanas pasūtījumus tajā pašā vietā, vai kurai var būt vairākas ražošanas plūsmas vai vairāki Kanban nosacījumi tajā pašā plūsmā, aprēķins var būt precīzāks, ja tas balstīts uz maršruta versiju, kas ir īpaši veidota izmaksu aprēķinam, nevis ražošanai. Ražošanas plūsmas aprēķins jāizmanto, lai aprēķinātu preces, kas ietver apakšlīgumu slēgšanu. Programmatūrā Microsoft Dynamics 365 for Finance and Operations izmaksu modeļiem apakšlīgumu slēgšanai, izmantojot ražošanas pasūtījumus, un apakšlīgumu slēgšanai Lean manufacturing ietvaros tiek izmantotas divas dažādas pieejas. Lean manufacturing ievieš jaunu izmaksu grupas tipu **Tiešie ārpakalpojumi**, lai aprēķinātu apakšuzņēmēju pakalpojumus.
 
 ## <a name="material-consumption"></a>Materiālu patēriņš
 Kad materiāli tiek patērēti no krājumiem uz NP, materiālu izmaksas tiek pievienotas NP atbilstoši faktiskajām standarta izmaksām attiecīgajai izmaksu grupai. Šī operācija notiek saskaņā ar šādiem nosacījumiem:
@@ -85,7 +85,7 @@ Preces tiek saņemtas no ražošanas plūsmas saskaņā ar šādiem nosacījumie
 Preces, kas tiek saņemtas no ražošanas plūsmas, tiek atskaitītas no NP.
 
 ## <a name="products-in-wip"></a>Preces NP ietvaros
-Ražošanas Lean manufacturing NP modelis programmā Microsoft Dynamics 365 for Operations ļauj izmantot Kanban materiālu apstrādes vienības statusu, lai pārvaldītu materiālus, daļēji pabeigtās preces un pabeigtās preces, kas ir daļa no NP.
+Programmatūrā Microsoft Dynamics 365 for Finance and Operations pieejamais Lean manufacturing NP modelis sniedz iespēju izmantot Kanban materiālu apstrādes vienības statusu, lai pārvaldītu materiālus, daļēji pabeigtās preces un pabeigtās preces, kas ir iekļauti NP.
 
 -   **Piešķirts** — Kanban var būt patērēti materiāli, kuri ir uzskaitīti NP.
 -   **Saņemts** — ja Kanban attiecas uz pēdējo aktivitāti, kurai vienumam **Atjaunināt krājumus saņemot** ir iestatīta opcija **Nē**, tas parāda tādas preces vai nepabeigtas preces pilnu materiālu apstrādes vienību, kas nav reģistrēta krājumos.

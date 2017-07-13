@@ -3,13 +3,13 @@ title: "Konfigurēt manuālu lēmumu darbplūsmā"
 description: "Šajā tēmā ir paskaidrots, kā konfigurēt manuāla lēmuma rekvizītus."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 192101
 ms.assetid: 0bccad77-1a44-4f08-967b-12c62c02afc7
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ac86ffa794b5fd92ca9aba24537fbc05057fe824
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 6ea8b060741ea94af16861d5bb52894a577e5521
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -152,10 +152,10 @@ Varat nosūtīt lietotājiem paziņojumus, ja lēmums ir pieņemts, deleģēts v
     </tr>
     <tr class="odd">
     <td>Lietotājs</td>
-    <td>Specifiski Microsoft Dynamics 365 for Operations lietotāji</td>
+    <td>Noteikti Microsoft Dynamics 365 for Finance and Operations lietotāji</td>
     <td><ol>
     <li>Pēc tam, kad ir atlasīts vienums <strong>Lietotājs</strong>, noklikšķiniet uz cilnes <strong>Lietotājs</strong>.</li>
-    <li>Sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Operations lietotāji. Atlasiet lietotājus, kuriem sūtīt paziņojumus, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
+    <li>Sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Finance and Operations lietotāji. Atlasiet lietotājus, kuriem sūtīt paziņojumus, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -215,10 +215,10 @@ Veiciet šīs darbības, lai norādītu personu, kurai jāpiešķir manuālais l
     </tr>
     <tr class="even">
     <td>Lietotājs</td>
-    <td>Specifiski Dynamics 365 for Operations lietotāji</td>
+    <td>Noteikti Dynamics 365 for Finance and Operations lietotāji</td>
     <td><ol>
     <li>Pēc tam, kad ir atlasīts vienums <strong>Lietotājs</strong>, noklikšķiniet uz cilnes <strong>Lietotājs</strong>.</li>
-    <li>Sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Operations lietotāji. Atlasiet lietotājus, kuriem piešķirt lēmumu, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
+    <li>Sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Finance and Operations lietotāji. Atlasiet lietotājus, kuriem piešķirt lēmumu, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -301,10 +301,10 @@ Ja lietotājs nepieņem lēmumu atvēlētajā laikā, lēmums ir nokavēts. Lēm
     </tr>
     <tr class="odd">
     <td>Lietotājs</td>
-    <td>Specifiski Dynamics 365 for Operations lietotāji</td>
+    <td>Noteikti Dynamics 365 for Finance and Operations lietotāji</td>
     <td><ol>
     <li>Pēc tam, kad ir atlasīts vienums <strong>Lietotājs</strong>, noklikšķiniet uz cilnes <strong>Lietotājs</strong>.</li>
-    <li>Sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Operations lietotāji. Atlasiet lietotājus, kuriem eskalēt lēmumu, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
+    <li>Sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Finance and Operations lietotāji. Atlasiet lietotājus, kuriem eskalēt lēmumu, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
     </ol></td>
     </tr>
     </tbody>

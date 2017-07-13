@@ -3,7 +3,7 @@ title: "PVN pārskati Eiropai"
 description: "Šajā tēmā ir sniegta vispārīga informācija par pievienotās vērtības nodokļa (PVN) pārskatu iestatīšanu un ģenerēšanu noteiktām Eiropas valstīm."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,22 +11,23 @@ ms.technology:
 ms.search.form: TaxAuthority, TaxReportCollection, TaxTable
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 266844
 ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, Latvia, Lithuania, Netherlands, Sweden
 ms.author: v-elgolu
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 697af132142fadf907ffcab3fa20a6646d9ae632
+ms.sourcegitcommit: f76e431320414b508728cbe9fe20456f107cbe40
+ms.openlocfilehash: 7dc6a32a9babc95cfa4ad031534404cae6fa37ea
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/09/2017
 
 ---
 
-# <a name="vat-reporting-for-europe"></a>PVN pārskati Eiropai
+<a id="vat-reporting-for-europe" class="xliff"></a>
+
+# PVN pārskati Eiropai
 
 [!include[banner](../includes/banner.md)]
 
@@ -46,26 +47,36 @@ ms.lasthandoff: 05/25/2017
 -   Nīderlande
 -   Zviedrija
 
-## <a name="vat-statement-overview"></a>PVN deklarācijas apskats
+<a id="vat-statement-overview" class="xliff"></a>
+
+## PVN deklarācijas apskats
 PVN deklarācija ir balstīta uz nodokļu transakciju summām. PVN deklarācijas ģenerēšanas process ietilpst PVN maksājuma procesā, kurš ir ieviests ar funkciju Nosegt un grāmatot PVN. Šī funkcija aprēķina PVN, kurš ir jāmaksā par attiecīgo periodu. Nosegšanas aprēķinā ir iekļauts atlasītajam nosegšanas periodam nodokļu transakcijām grāmatotais PVN. Process PVN deklarācijas datu aprēķināšanai ir balstīts uz attiecībām starp PVN kodiem un PVN pārskatu kodiem, kur PVN pārskatu kodi atbilst PVN deklarācijas lodziņiem (vai etiķetēm XML failā). Attiecībā uz katru PVN kodu ir jāiestata PVN pārskatu kodi katram transakcijas tipam, piemēram, ar nodokli apliekamajai pārdošanai, ar nodokli apliekamajiem pirkumiem, ar nodokli apliekamajam importam. Šie transakciju tipi ir aprakstīti tālāk šīs tēmas sadaļā PVN kodi PVN pārskatiem.
 
 Katram PVN pārskatu kodam ir jānorāda noteikts pārskata izkārtojums. Tajā pašā laikā PVN kodi ir saistīti ar noteiktu PVN iestādi, izmantojot PVN nosegšanas periodus. Katrai PVN iestādei ir jānorāda noteikts pārskata izkārtojums. Tādējādi PVN koda pārskatu iestatīšanā var atlasīt tikai PVN pārskatu kodus ar vienādu pārskata izkārtojumu, kas attiecībā uz šo PVN kodu ir iestatīti PVN iestādei PVN nosegšanas periodos. Ar pasūtījuma vai žurnāla grāmatošanu ģenerēta PVN transakcija ietver PVN kodu, PVN avotu, PVN virzienu un transakciju summas (nodokļu bāzes summu un nodokļu summu uzskaites valūtā, PVN valūtā un transakcijas valūtā). Pamatojoties uz nodokļu transakciju atribūtu kombināciju, transakciju summas veido kopējās summas PVN pārskatu kodiem, kas norādīti PVN kodiem. Nākamajā attēlā ir redzamas datu attiecības.
 
 ![diagramma](./media/diagram4.jpg)
 
-## <a name="vat-statement-setup"></a>PVN pārskata iestatīšana
+<a id="vat-statement-setup" class="xliff"></a>
+
+## PVN pārskata iestatīšana
 Lai ģenerētu PVN pārskatu, ir jāiestata tālāk aprakstītie priekšnoteikumi.
 
-### <a name="sales-tax-authorities-for-vat-reporting"></a>PVN iestādes PVN pārskatiem
+<a id="sales-tax-authorities-for-vat-reporting" class="xliff"></a>
+
+### PVN iestādes PVN pārskatiem
 
 <!---For general information about setting up a sales tax authority, see [Set up sales tax authorities](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-authorities/). -->
 Lai varētu iestatīt PVN pārskatu kodus, ir jāatlasa attiecīgajai PVN iestādei atbilstošais pārskata izkārtojums. Lapā **PVN iestādes**, sadaļā **Vispārīgi** atlasiet vienumu **Pārskata izkārtojums**. Šis izkārtojums tiek izmantots, kad iestatāt PVN pārskatu kodus.
 
-### <a name="sales-tax-reporting-codes"></a>PVN pārskatu kodi
+<a id="sales-tax-reporting-codes" class="xliff"></a>
 
-PVN pārskatu kodi ir lodziņu kodi PVN deklarācijā vai etiķešu nosaukumi XML formātā. Šie kodi tiek izmantoti, lai pārskatam apkopotu un sagatavotu summas. Kad konfigurējat PVN deklarācijas elektroniskā pārskata formātu, tiek izmantoti rezultātu summu nosaukumi. PVN pārskatu kodus varat izveidot un uzturēt lapā **PVN pārskatu kodi**. Katram kodam ir jāpiešķir kāds pārskata izkārtojums. Pēc PVN pārskatu kodu izveidošanas šos kodus varat izvēlēties lapas **PVN kodi** sadaļā **Pārskata iestatīšana**. <!---For more information, see [Set up sales tax reporting codes](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-reporting-codes/) and [Sales tax reporting codes page (Field descriptions)](http://ax.help.dynamics.com/en/wiki/sales-tax-reporting-codes-page-field-descriptions/).-->
+### PVN pārskatu kodi
 
-### <a name="sales-tax-codes-for-vat-reporting"></a>PVN kodi PVN pārskatiem
+PVN pārskatu kodi ir lodziņu kodi PVN deklarācijā vai etiķešu nosaukumi XML formātā. Šie kodi tiek izmantoti, lai pārskatam apkopotu un sagatavotu summas. Kad konfigurējat PVN deklarācijas elektroniskā pārskata formātu, tiek izmantoti rezultātu summu nosaukumi. PVN pārskatu kodus varat izveidot un uzturēt lapā **PVN pārskatu kodi**. Katram kodam ir jāpiešķir kāds pārskata izkārtojums. Pēc PVN pārskatu kodu izveidošanas šos kodus varat izvēlēties lapas **PVN kodi** sadaļā **Pārskata iestatīšana**. <!---For more information, see [Set up sales tax reporting codes](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-reporting-codes/).-->
+
+<a id="sales-tax-codes-for-vat-reporting" class="xliff"></a>
+
+### PVN kodi PVN pārskatiem
 
 <!---For general information about setting up sales tax codes, see [Set up sales tax codes](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-codes/).--> Base amounts and tax amounts of sales tax transactions can be aggregated on reporting codes in the VAT statement (XML tags or declaration boxes). You can set this up by associating sales tax reporting codes for different transaction types for sales tax codes on the **Sales tax codes** page. The following table describes the transaction types in the report setup for sales tax codes. The calculation includes transactions for all types of sources except sales tax.
 
@@ -249,15 +260,19 @@ d<li>Transakcijas <strong>Nodokļu bāzes summa</strong> vai <strong>Nodokļu su
 > -   Nodokļu bāzes summa ir transakcijas summa no lauka **Izcelsme uzskaites valūtā**.
 > -   Nodokļu summa ir transakcijas summa no lauka **Reālā PVN summa uzskaites valūtā**.
 
-### <a name="configure-the-er-model-and-format-for-the-report"></a>Pārskatam konfigurēt ER modeli un formātu
+<a id="configure-the-er-model-and-format-for-the-report" class="xliff"></a>
+
+### Pārskatam konfigurēt ER modeli un formātu
 
 Varat izmantot elektronisko pārskatu veidošanu (Electronic Reporting — ER), lai datus eksportētu dažādos elektroniskajos formātos, nemainot X++ kodu. Papildinformāciju skatiet tālāk norādītajos resursos.
 
--   [Elektronisko pārskatu veidošanas apskats](/dynamics365/operations/dev-itpro/analytics/general-electronic-reporting)
--   [Elektronisko atskaišu veidošanas konfigurāciju lejupielāde no Lifecycle Services](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
--   [Lokalizācijas prasības — izveidot GER konfigurāciju](/dynamics365/operations/dev-itpro/analytics/electronic-reporting-configuration)
+-   [Elektronisko pārskatu veidošanas apskats](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting)
+-   [Lejupielādēt elektronisko pārskatu veidošanas konfigurāciju no Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
+-   [Lokalizācijas prasības — izveidot GER konfigurāciju](/dynamics365/unified-operations/dev-itpro/analytics/electronic-reporting-configuration)
 
-## <a name="countryspecific-resources-for-vat-statements"></a>Valstij specifiskie resursi PVN deklarācijām
+<a id="countryspecific-resources-for-vat-statements" class="xliff"></a>
+
+## Valstij specifiskie resursi PVN deklarācijām
 Katras valsts PVN deklarācijai ir jāatbilst attiecīgās valsts likumdošanas prasībām. Nākamajā tabulā uzskaitītajām valstīm pastāv sākotnēji definēti PVN deklarāciju vispārīgie modeļi un formāti.
 
 

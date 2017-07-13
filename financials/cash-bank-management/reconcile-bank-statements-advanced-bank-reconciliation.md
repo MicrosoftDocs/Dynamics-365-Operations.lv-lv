@@ -1,15 +1,15 @@
 ---
 title: "Saskaņot bankas izrakstus, izmantojot detalizēto bankas darbību saskaņošanu"
-description: "Līdzeklis Detalizētā bankas darbību saskaņošana jums ļauj importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmatūrā Microsoft Dynamics 365 for Operations Šajā tēmā ir paskaidrots šis saskaņošanas process."
+description: "Detalizētā bankas darbību saskaņošanas līdzeklis sniedz jums iespēju importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise. Šajā tēmā ir paskaidrots šis saskaņošanas process."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 98243
 ms.assetid: 9df13adf-aa9d-4f6b-bde6-25a214611692
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 81368294164ca4ca1915d73f8f5622e61f5d1fc8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: eb7fd01874b08417933ddf575c7d6ff866b4e6f8
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Līdzeklis Detalizētā bankas darbību saskaņošana jums ļauj importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmatūrā Microsoft Dynamics 365 for Operations Šajā tēmā ir paskaidrots šis saskaņošanas process.  
+Detalizētā bankas darbību saskaņošanas līdzeklis sniedz jums iespēju importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise. Šajā tēmā ir paskaidrots šis saskaņošanas process.  
 
 <a name="import-an-electronic-bank-statement"></a>Importētu elektronisku bankas izrakstu
 -----------------------------------
@@ -44,7 +44,7 @@ Varat augšupielādēt bankas izrakstu, kurā ir informācija par atsevišķu ko
 
 Ja jebkuru izraksta elektronisko failu nevar saistīt ar bankas kontu, izmantojot identifikācijas laukus, tie netiks importēti. Tomēr joprojām var importēt citus izrakstus failā. Pēc tam lietotājs saņem ziņojumu, ka bankas izrakstu importēšana neizdevās noteiktiem bankas kontiem. Ņemiet vērā, ka lietotājam, kas importē bankas izraksta failu jābūt piekļuvei juridiskai personai, lai importētu izrakstus no juridiskās personas bankas kontiem. 
 
-Programmatūrā Microsoft Dynamics 365 for Operations ar vienu darbību varat augšupielādēt arī vairākus izrakstu failus, izmantojot zip failu. Lai importētu vairākus bankas izraksta failus vairākiem kontiem, visus bankas izrakstu failus apvienojiet vienā zip failā. Dialoglodziņā **Importēt bankas izrakstus** opciju **Vairāku bankas kontu izrakstu importēšana visām juridiskajām personām** iestatiet uz **Jā**. Noklikšķiniet uz **Pārlūkot**, lai atlasītu zip failu, kurā atrodas bankas izrakstu faili, un pēc tam noklikšķiniet uz **Augšupielādēt**. Importēšanas process atpazīst zip failu un augšupielādē katru tajā iekļauto izrakstu, neatkarīgi no juridiskās personas bankas konta. 
+Programmatūrā Finance and Operations ar vienu darbību varat augšupielādēt arī vairākus izrakstu failus, izmantojot zip failu. Lai importētu vairākus bankas izraksta failus vairākiem kontiem, visus bankas izrakstu failus apvienojiet vienā zip failā. Dialoglodziņā **Importēt bankas izrakstus** opciju **Vairāku bankas kontu izrakstu importēšana visām juridiskajām personām** iestatiet uz **Jā**. Noklikšķiniet uz **Pārlūkot**, lai atlasītu zip failu, kurā atrodas bankas izrakstu faili, un pēc tam noklikšķiniet uz **Augšupielādēt**. Importēšanas process atpazīst zip failu un augšupielādē katru tajā iekļauto izrakstu, neatkarīgi no juridiskās personas bankas konta. 
 
 Ir pieejama opcija **Saskaņot pēc importēšanas**. Ja šī opcija ir iestatīta uz **Jā**, tad pēc bankas izraksta augšupielādēšanas sistēma automātiski validē šo bankas izrakstu, izveido jaunu bankas darbību saskaņošanu un darblapu un izpilda noklusējuma atbilstības kārtulu kopu. Šī funkcionalitāte procesu automatizē līdz vietai, kur transakciju atbilstība ir jānosaka manuāli.
 
@@ -76,7 +76,7 @@ Bankas izraksta transakcijām atbilstību var noteikt vai saskaņošanu var veik
 
 -   Transakcijām noteikt atbilstību Operations bankas darbībām.
 -   Transakcijām noteikt atbilstību anulēšanas bankas izraksta transakcijai.
--   Transakcijas atzīmēt kā **Jauns**, lai vēlāk tās varētu grāmatot kā bankas transakciju programmatūrā Dynamics 365 for Operations.
+-   Transakcijas atzīmēt kā **Jauns**, lai vēlāk tās varētu grāmatot kā bankas transakciju programmatūrā Finance and Operations.
 
 Lai manuāli noteiktu transakciju atbilstību, atlasiet transakcijas režģī **Bankas izraksta transakcijas**, atlasiet atbilstošās transakcijas režģī **Operāciju bankas transakcijas** un pēc tam noklikšķiniet uz **Saskaņot**. Atlasītās transakcijas no augšējiem režģiem, kas paredzēti transakcijām, kurām nav noteiktas atbilstības, tiek pārvietotas uz apakšējiem režģiem transakcijām, kurām ir atrastas atbilstības. Turklāt tiek atjauninātas kopsummas, kurām ir un nav atrasta atbilstība. Jums var būt transakciju atbilstības viena pret vienu, daudzas pret vienu un daudzas pret daudzām. Atbilstībām ir jāievēro kārtulas par atļautajām datumu atšķirībām un transakcijas tipu kartēšanu. Šīs kārtulas ir iestatītas lapā **Skaidras naudas un bankas pārvaldības parametri**.
 
@@ -86,7 +86,7 @@ Bankas izraksta transakciju anulēšanām atbilstība tiek noteikta, izmantojot 
 
 Anulētajām Operations bankas transakcijām saskaņošana ir jāveic, izmantojot lapu **Operations bankas transakcijas**. Divām Operations bankas transakcijām saskaņošanu varat veikt kopā, ja dokumentos ir vienāds bankas konts, dokumenta tips un maksājuma atsauce, un ja tām ir pretējas summas. Var arī saskaņot vienu atceltu čeku, lai nepieļautu šo transakciju parādīšanu saskaņošanas darblapā. 
 
-Ja pastāv jaunas bankas uzsāktas transakcijas, piemēram, procentu maksājumi, komisijas maksas un nodevas, kas vēl nav norādītas programmatūrā Dynamics 365 for Operations, varat tās pievienot ar atlasīto bankas izraksta saskaņošanu saistītajam žurnālam. Atlasiet bankas izraksta transakciju režģī **Bankas izraksta transakcijas** tām transakcijām, kam nav noteikta atbilstība, un pēc tam noklikšķiniet uz **Atzīmēt kā jaunu**. Transakcijas statuss tiek iestatīts uz **Jauns**, un šī transakcija tiek pārvietota uz režģi **Bankas izraksta transakcijas** tām transakcijām, kam ir noteikta atbilstība. Transakcijas, kas ir atzīmētas kā **Jauns**, jūs vēlāk grāmatosiet no lapas **Bankas izraksts**. 
+Ja pastāv jaunas bankas uzsāktas transakcijas, piemēram, procentu maksājumi, komisijas maksas un nodevas, kas vēl nav norādītas programmatūrā Finance and Operations, varat tās pievienot ar atlasīto bankas izraksta saskaņošanu saistītajam žurnālam. Atlasiet bankas izraksta transakciju režģī **Bankas izraksta transakcijas** tām transakcijām, kam nav noteikta atbilstība, un pēc tam noklikšķiniet uz **Atzīmēt kā jaunu**. Transakcijas statuss tiek iestatīts uz **Jauns**, un šī transakcija tiek pārvietota uz režģi **Bankas izraksta transakcijas** tām transakcijām, kam ir noteikta atbilstība. Transakcijas, kas ir atzīmētas kā **Jauns**, jūs vēlāk grāmatosiet no lapas **Bankas izraksts**. 
 
 Transakcijām, kam ir nepareizi noteikta atbilstība, šo atbilstību varat atcelt. Atlasiet atbilstošo bankas izraksta transakciju un pēc tam noklikšķiniet uz **Atcelt atbilstības noteikšanu**. Visas saistītās transakcijas tiek pārceltas atpakaļ uz augšējiem režģiem transakcijām, kam nav noteikta atbilstība, un tiek atjauninātas kopsummas, kam ir un nav noteikta atbilstība. 
 

@@ -3,7 +3,7 @@ title: Intrastat
 description: "Šajā rakstā ir sniegta informācija par Intrastat atskaišu veidošanu preču — un noteiktos gadījumos arī pakalpojumu — tirdzniecībai starp dažādām Eiropas Savienības (ES) valstīm/reģioniem. Tajā ir sniegts pārskats par atskaišu veidošanas procesu, kā arī aprakstīti nepieciešamie iestatījumi un priekšnosacījumi."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,17 +11,17 @@ ms.technology:
 ms.search.form: Intrastat
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 28581
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5dea47c92c3891ce86b470119ea3bad8252c08d1
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 6d1141d597e95b0d5cabf77c0248697d256b102a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -40,7 +40,7 @@ Nākamajās sadaļās ir aprakstīta vispārējā informācijas plūsma, kas tie
 
 ### <a name="1-enter-a-transaction-that-crosses-the-border-of-another-eu-countryregion"></a>1. Ievadiet transakciju, kas šķērso citas ES valsts/reģiona robežu
 
-Debitora rēķins, brīva teksta rēķins, pirkšanas rēķins, projekta rēķins, debitora pavadzīme, kreditora produktu ieejas plūsma vai pārsūtīšanas pasūtījums tiek pārsūtīti uz Intrastat žurnālu tikai tad, ja mērķa (nosūtīšanai) vai nosūtīšanas (saņemšanai) valsts/reģiona tips ir **ES**. Šis līdzeklis tika paplašināts Microsoft Dynamics 365 for Operations versijai 1611, un tas jums ļauj norādīt iekraušanas adreses transakcijai kopienas ietvaros. Ja iekraušanas adrese atšķiras no kreditora uzņēmuma adreses (vai ja atšķiras debitora uzņēmuma adrese atgriešanas pasūtījumam), tad Intrastat pārskatu veidošana strādā ar šo informāciju. Kad veidojat kādu pārdošanas pasūtījumu, brīva teksta rēķinu, pirkšanas pasūtījumu, kreditora rēķinu, projekta rēķinu vai pārsūtīšanas pasūtījumu, dažiem laukiem, kas ir saistīti ar ārējo tirdzniecību, dokumenta virsrakstā vai rindā ir noklusējuma vērtības. Noklusējuma transakcijas kods tiek ņemts no atbilstošā lauka lapā **Ārējās tirdzniecības parametri**. Noklusējuma preču kods, izcelsmes valsts/reģions un izcelsmes novads tiek ņemti no krājuma. Šīs noklusējuma vērtības varat mainīt, ka arī varat aizpildīt citu ar ārējo tirdzniecību saistīto informāciju: statistisko procedūru, transportēšanas metodi un ostu.
+Debitora rēķins, brīva teksta rēķins, pirkšanas rēķins, projekta rēķins, debitora pavadzīme, kreditora produktu ieejas plūsma vai pārsūtīšanas pasūtījums tiek pārsūtīti uz Intrastat žurnālu tikai tad, ja mērķa (nosūtīšanai) vai nosūtīšanas (saņemšanai) valsts/reģiona tips ir **ES**. Programmatūrā Microsoft Dynamics 365 for Operations (1611) šis līdzeklis ir paplašināts un sniedz iespēju norādīt EK iekšējo transakciju iekraušanas adreses. Ja iekraušanas adrese atšķiras no kreditora uzņēmuma adreses (vai ja atšķiras debitora uzņēmuma adrese atgriešanas pasūtījumam), tad Intrastat pārskatu veidošana strādā ar šo informāciju. Kad veidojat kādu pārdošanas pasūtījumu, brīva teksta rēķinu, pirkšanas pasūtījumu, kreditora rēķinu, projekta rēķinu vai pārsūtīšanas pasūtījumu, dažiem laukiem, kas ir saistīti ar ārējo tirdzniecību, dokumenta virsrakstā vai rindā ir noklusējuma vērtības. Noklusējuma transakcijas kods tiek ņemts no atbilstošā lauka lapā **Ārējās tirdzniecības parametri**. Noklusējuma preču kods, izcelsmes valsts/reģions un izcelsmes novads tiek ņemti no krājuma. Šīs noklusējuma vērtības varat mainīt, ka arī varat aizpildīt citu ar ārējo tirdzniecību saistīto informāciju: statistisko procedūru, transportēšanas metodi un ostu.
 
 ### <a name="2-use-the-intrastat-journal-to-generate-information-about-trade-among-eu-countriesregions"></a>2. Lietojiet Intrastat žurnālu, lai ģenerētu informāciju par tirdzniecību starp ES valstīm/reģioniem
 

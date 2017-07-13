@@ -1,15 +1,15 @@
 ---
 title: "Uzkrātās projekta izmaksas pirkšanas pavadzīmēs"
-description: "Šajā tēmā ir aprakstīts, kā programmatūrā Microsoft Dynamics 365 for Operations var izsekot uzkrātajām projekta izmaksām no pirkšanas pavadzīmēm."
+description: "Šajā tēmā ir aprakstīts, kā programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise var izsekot uzkrātajām projekta izmaksām no pirkšanas pavadzīmēm."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 266984
 ms.assetid: 61e7d2a3-5aab-4113-bccc-213f932885d2
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: acb14deb9d77927ffc95500e4e97763ba3ad7826
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b46929d2991f3ec1b38d54ddc57de632aa9b01b9
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā tēmā ir aprakstīts, kā programmatūrā Microsoft Dynamics 365 for Operations var izsekot uzkrātajām projekta izmaksām no pirkšanas pavadzīmēm. 
+Šajā tēmā ir aprakstīts, kā programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise var izsekot uzkrātajām projekta izmaksām no pirkšanas pavadzīmēm. 
 
 Bieži vien projekta rēķini tiek saņemti vēlāk par preču un pakalpojumu piegādi, un tas var būtiski ietekmēt projekta izpildes pamatrādītājus (KPI). Ir svarīgi, lai jūs varētu izsekot šīs transakcijas gan finanšu, gan projekta pārskatos.
 
@@ -38,7 +38,7 @@ Tas ir atainots tālāk sniegtajā scenārija piemērā.
 
 Uzņēmums Contoso Consulting ir sācis jaunu mākoņa izvietošanas projektu. Ir izveidots pirkšanas pasūtījums, lai nopirktu datoru šī projekta vajadzībām. Datora izmaksas ir $ 1500 un uzstādīšanas pakalpojumu izmaksas ir $ 150. Kreditors ir piegādājis un uzstādījis datoru, taču uzņēmums Contoso Consulting vēl nav saņēmis rēķinu. Projekta vadītājs vēlas redzēt uzkrātās projekta izmaksas $ 1650, pirms tiek piegādāts rēķins. Šīs izmaksas ir arī jāietver uzņēmuma mēneša beigu finanšu pārskatos. 
 
-Uzkrātās izmaksas ir jāreģistrē gan finanšu līmenī, gan projekta līmenī pārskatu izveides nolūkā. Programmatūrā Dynamics 365 for Operations var izsekot krājumu un sagādes kategoriju preces ieejas plūsmas finanšu atjauninājumu. 
+Uzkrātās izmaksas ir jāreģistrē gan finanšu līmenī, gan projekta līmenī pārskatu izveides nolūkā. Programmatūrā Finance and Operations var izsekot krājumu un sagādes kategoriju preces ieejas plūsmas finanšu atjauninājumu. 
 
 Krājumiem lapā **Kreditoru parādu parametri** atlasiet opciju **Grāmatot produktu ieejas plūsmas Virsgrāmatā**.
 [![accruals1](./media/accruals1-1024x409.png)](./media/accruals1.png) 
@@ -73,7 +73,7 @@ Sagādes kategorijas var kartēt ar preču kategorijām lapā **Sagādes kategor
 
 **3. darbība.** Izveidojiet kreditora rēķina melnrakstu. 
 
-Programmatūrā Dynamics 365 for Operations preces ieejas plūsmas grāmatošana neietekmē projekta informāciju. Lai to atrisinātu, varat ģenerēt kreditora rēķina melnrakstu uzreiz pēc pirkšanas ieejas plūsmas grāmatošanas. Pārejiet uz lapu **Pirkšanas pasūtījums** &gt; **cilni Rēķins** &gt; **Ģenerēt** &gt; **Rēķins**. Tādējādi tiek izveidots nenokārtota rēķina dokuments, kas nodrošina projekta informācijas atjaunināšanu. 
+Programmatūrā Finance and Operations preces ieejas plūsmas grāmatošana neietekmē projekta informāciju. Lai to atrisinātu, varat ģenerēt kreditora rēķina melnrakstu uzreiz pēc pirkšanas ieejas plūsmas grāmatošanas. Pārejiet uz lapu **Pirkšanas pasūtījums** &gt; **cilni Rēķins** &gt; **Ģenerēt** &gt; **Rēķins**. Tādējādi tiek izveidots nenokārtota rēķina dokuments, kas nodrošina projekta informācijas atjaunināšanu. 
 
 Izveidojot kreditora rēķina melnrakstu, tiek ģenerētas nepabeigtas projekta transakcijas. 
 [![accruals8](./media/accruals8-1024x225.png)](./media/accruals8.png) 

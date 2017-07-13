@@ -10,8 +10,8 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 272163
 ms.assetid: 93119afb-47ed-4786-ba44-ba93576d3e28
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a24c24f842e4f1b1c7806c2fb2ccbd1329fe4851
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: c040a50d9962d7a900fbef285ea1f1baea124033
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -623,7 +623,7 @@ Detalizētu informāciju par pieskaitāmo izmaksu likmes politiku skatiet sadaļ
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>4. solis. Apstrādāt izmaksu sadalījuma aprēķinu
 
-Sadalījums tiek izmantots, lai izmaksu objekta bilanci piešķirtu citiem izmaksu objektiem, lietojot sadalījuma pamatu. Microsoft Dynamics 365 for Operations atbalsta savstarpējā sadalījuma metodi. Savstarpējā sadalījuma metodē tiek pilnīgi atpazīti savstarpējie pakalpojumi, ar kuriem izmaksu objekti apmainās. Sistēma automātiski nosaka pareizo secību, kādā veikt sadalījumus. Izmaksu objekta bilance tiek sadalīta pēc viena sadalījuma pamata. Tiek atbalstīti sadalījumi dažādās izmaksu objektu dimensijās un to attiecīgajos elementos. Sadalījuma secību kontrolē izmaksu kontroles vienība. [![Savstarpējā metode](./media/reciprocal-method.png)]
+Sadalījums tiek izmantots, lai izmaksu objekta bilanci piešķirtu citiem izmaksu objektiem, lietojot sadalījuma pamatu. Finance and Operations atbalsta savstarpējā sadalījuma metodi. Savstarpējā sadalījuma metodē tiek pilnīgi atpazīti savstarpējie pakalpojumi, ar kuriem izmaksu objekti apmainās. Sistēma automātiski nosaka pareizo secību, kādā veikt sadalījumus. Izmaksu objekta bilance tiek sadalīta pēc viena sadalījuma pamata. Tiek atbalstīti sadalījumi dažādās izmaksu objektu dimensijās un to attiecīgajos elementos. Sadalījuma secību kontrolē izmaksu kontroles vienība. [![Savstarpējā metode](./media/reciprocal-method.png)]
 
 #### <a name="define-the-cost-allocation"></a>Definēt izmaksu sadalījumu
 
@@ -719,12 +719,12 @@ Izmaksu objekts CC004 Iepakošana sniedz ieguldījumu vairākos izmaksu objektos
 <tr>
 <td>Prod 2</td>
 <td>2. prece</td>
-<td>15</td>
+<td>15.</td>
 </tr>
 </tbody>
 </table>
 
-**Piezīme.** Sistēmā Dynamics 365 for Operations statistiskos mērus, piemēram, preces patērētās ražošanas stundas, var atvasināt no avota datiem. Plašāku informāciju par statistisko mēru nodrošinātājiem skatiet sadaļā Statistisko mēru nodrošinātāja veidnes. (Ņemiet vērā, ka šī tēma vēl nav pabeigta, bet būs pieejama drīzumā.) Nākamajā tabulā ir parādīts rezultāts, kāds tiek iegūts, ja kopējām izmaksām (fiksētajām izmaksām un mainīgajām izmaksām) kā sadalījumam pamats tiek lietoti HR pakalpojumi.
+**Piezīme.** Sistēmā Finance and Operations statistiskos mērus, piemēram, preces patērētās ražošanas stundas, var atvasināt no avota datiem. Plašāku informāciju par statistisko mēru nodrošinātājiem skatiet sadaļā Statistisko mēru nodrošinātāja veidnes. (Ņemiet vērā, ka šī tēma vēl nav pabeigta, bet būs pieejama drīzumā.) Nākamajā tabulā ir parādīts rezultāts, kāds tiek iegūts, ja kopējām izmaksām (fiksētajām izmaksām un mainīgajām izmaksām) kā sadalījumam pamats tiek lietoti HR pakalpojumi.
 
 <table>
 <thead>

@@ -3,24 +3,24 @@ title: "Power BI saturs Izmaksu uzskaites analīze"
 description: "Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI saturā Izmaksu uzskaites analīze. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 270274
 ms.assetid: b74549df-35d5-4f2f-b3c7-405b0d38ea78
 ms.search.region: Global
-ms.author: yuyus
+ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5ce75a6145bde4a8c33ed785c7d2a60a52416676
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1d19276331a4278f44ad14292ed434c49b74d727
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -29,18 +29,27 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+Šajā tēmā ir aprakstīts, kas ir iekļauts Microsoft Power BI satura pakotnē **Izmaksu uzskaites analīze**. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 
-Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI saturā Izmaksu uzskaites analīze. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
+## <a name="overview"></a>Pārskats
 
-<a name="overview"></a>Pārskats
---------
+Power BI satura pakotne **Izmaksu uzskaites analīze** ir paredzēta izmaksu kontrolieriem vai jebkurai personai, kura ir atbildīga par organizācijas izmaksu kontroles veikšanu. Tā ietver galvenos rādītājus, piemēram, izmaksas, lielumu un izmaksu likmi pēc faktiskajām izmaksām, budžeta izmaksām un elastīgajām budžeta izmaksām. Šajā satura pakotnē tiek izmantoti transakciju dati no moduļa **Izmaksu uzskaite**, un tā nodrošina apkopotu informāciju par izmaksām visas organizācijas ietvaros vienā pārskata valūtā. Vadītāji var datus filtrēt pēc izmaksu objektiem, lai veiktu savu organizatorisko vienību izmaksu kontroli pat tad, ja organizācijā ietilpst vairākas juridiskās personas. 
 
-Microsoft Power BI saturs **Izmaksu uzskaites analīze** ir paredzēts izmaksu kontrolierim vai ikvienam, kurš ir atbildīgs par organizācijas izmaksu kontroles veikšanu. Tā ietver galvenos rādītājus, piemēram, izmaksas, lielumu un izmaksu likmi pēc faktiskajām izmaksām, budžeta izmaksām un elastīgajām budžeta izmaksām. Tā lieto transakciju datus no izmaksu uzskaites programmā Microsoft Dynamics 365 for Operations un sniedz apkopotu skatu uz izmaksām visai organizācijai vienā pārskata valūtā. Vadītāji var datus filtrēt pēc izmaksu objektiem, lai veiktu savu organizatorisko vienību izmaksu kontroli pat tad, ja organizācijā ietilpst vairākas juridiskās personas. Tā kā Power BI saturs **Izmaksu uzskaites analīze** izceļ novirzes starp faktiskajām un budžetā paredzētajām izmaksām, vadītāji var tikt informēti par savu organizatorisko vienību pozitīvajām un negatīvajām tendencēm. Vadītāji var detalizēti skatīt informāciju līdz pat izmaksu elementu hierarhijām vai atsevišķiem izmaksu elementiem, lai gūtu detalizētu ieskatu par to, kā izmaksu novirzes ir radušās, un pēc tam efektīvi rīkoties. Power BI saturs **Izmaksu uzskaites analīze** grāmatvežiem ļauj analizēt veidu, kā izmaksas plūst caur visas organizācijas izmaksu objektiem. Lai uzzinātu papildinformāciju par izmaksu uzskaiti, skatiet [izmaksu uzskaites sākumlapu](/dynamics365/operations/financials/cost-accounting/cost-accounting-home-page). Izmaksu uzskaitē definējot piekļuves līmeņa drošību un to kombinējot ar rindas līmeņa drošību pakalpojumā Power BI, visiem izmaksu objektu īpašniekiem varat sniegt piekļuvi Power BI saturam **Izmaksu uzskaites analīze**. Pēc tam visi vizualizācijās esošie dati tiks filtrēti, pamatojoties uz piekļuves līmeni, kurš ir kontrolēts izmaksu uzskaitē. Lai uzzinātu papildinformāciju par piekļuves līmeņa drošību un rindas līmeņa drošību, skatiet rakstu [Iestatīt drošību Power BI saturam Izmaksu analīze](setup-security-cost-accounting-content-pack.md).
+Tā kā satura pakotne **Izmaksu uzskaites analīze** izceļ novirzes starp faktiskajām un budžetā paredzētajām izmaksām, vadītāji var tikt informēti par savu organizatorisko vienību vēlamajām un nevēlamajām tendencēm. Vadītāji var skatīt detalizētu informāciju par izmaksu elementu hierarhijām vai atsevišķiem izmaksu elementiem. Tādējādi vadītāji var gūt detalizētu ieskatu par izmaksu nobīdes iemesliem un pēc tam efektīvi rīkoties. 
+
+Satura pakotne **Izmaksu uzskaites analīze** sniedz grāmatvežiem iespēju analizēt izmaksu plūsmu caur izmaksu objektiem visas organizācijas ietvaros. 
+
+Lai uzzinātu papildinformāciju par izmaksu uzskaiti, skatiet [izmaksu uzskaites sākumlapu](/dynamics365/unified-operations/financials/cost-accounting/cost-accounting-home-page). 
+
+Izmaksu uzskaitē definējot piekļuves līmeņa drošību un to kombinējot ar rindas līmeņa drošību pakalpojumā Power BI, visiem izmaksu objektu īpašniekiem varat sniegt piekļuvi Power BI saturam **Izmaksu uzskaites analīze**. Pēc tam visi vizualizācijās esošie dati tiks filtrēti, pamatojoties uz piekļuves līmeni, kurš ir kontrolēts izmaksu uzskaitē. Lai uzzinātu papildinformāciju par piekļuves līmeņa drošību un rindas līmeņa drošību, skatiet rakstu [Iestatīt drošību Power BI saturam Izmaksu analīze](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
-Power BI saturs **Izmaksu uzskaites analīze** ir atrodama Microsoft Dynamics Lifecycle Services (LCS) koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt šo satura pakotni un to savienot ar saviem Dynamics 365 for Operations datiem, skatiet rakstā [Power BI saturs LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md). 
+Power BI saturs **Izmaksu uzskaites analīze** ir atrodama Microsoft Dynamics Lifecycle Services (LCS) koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt satura pakotni un ieviest to savā organizācijā, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md). Power BI satura pakotnes implementēšanas demonstrāciju skatiet tēmā [Power BI saturs pakalpojumā Dynamics Lifecycle Services no Microsoft un jūsu partneriem](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
 
-> PIEZĪME. **KB4011327** ir priekšnosacījums šim Power BI saturam. Kad esat pierakstījies pakalpojumos Lifecycle Services, tad KB varat piekļūt šeit: <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
+Noteikti lejupielādējiet satura pakotni **Izmaksu uzskaites analīze**, kas ir paredzēta jūsu Microsoft Dynamics 365 versijai.
+
+> [!NOTE]
+> KB 4011327 ir viens no šīs Power BI satura pakotnes izmantošanas priekšnoteikumiem. Pēc pierakstīšanās pakalpojumā LCS varat piekļūt KB šeit: <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI saturā iekļautā metrika
 Saturā ietilpst pārskatu lapu komplekts. Katra lapa sastāv no rādītāju kopas, kuri ir vizualizēti kā diagrammas, elementi un tabulas. Nākamajā tabulā ir sniegts apskats par vizualizācijām Power BI saturā **Izmaksu uzskaites analīze**.
@@ -64,12 +73,14 @@ Saturā ietilpst pārskatu lapu komplekts. Katra lapa sastāv no rādītāju kop
 |                                  | Faktiskās izmaksas pēc izmaksu objekta dimensijas elementa nosaukuma un izmaksu elementa dimensijas elementa nosaukuma                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
-Lai aizpildītu pārskatu lapas Power BI saturā **Izmaksu uzskaites analīze**, tiek lietoti Dynamics 365 for Operations dati. Šie dati tiek attēloti kā apkopoti mērījumi, kuri pa posmiem tiek izveidoti elementu krātuvē, kas ir analīzes veikšanai optimizēta Microsoft SQL datu bāze. Papildinformāciju skatiet tēmā [Apskats par Power BI integrāciju elementu krātuvē](power-bi-integration-entity-store.md). Kā satura pamats tiek izmantoti tālāk norādītie galvenie apkopošanas mērījumi.
+Power BI satura pakotnes **Izmaksu uzskaites analīze** pārskatu lapu aizpildīšanai tiek izmantoti tālāk norādītie dati. Šie dati tiek attēloti kā apkopoti mērījumi, kas tiek sagatavoti elementu krātuvē. Elementu krātuve ir analīzei optimizēta Microsoft SQL Server datu bāze. Papildinformāciju skatiet tēmā [Apskats par Power BI integrāciju elementu krātuvē](power-bi-integration-entity-store.md). 
 
-| Elements                  | Galvenais apkopošanas mērījums | Datu avots programmai Dynamics 365 for Operations | Lauks     | Apraksts                                   |
-|-------------------------|---------------------------|---------------------------------------------|-----------|-----------------------------------------------|
-| Izmaksu uzskaites ieraksti | SUM(Summa)               | CAMDATAAggregatedCostEntry                  | Summa    | Summa izmaksu uzskaites virsgrāmatas valūtā |
-| Statistikas ieraksti     | SUM(Lielums)            | CAMDATAAggregatedStatisctialEntry           | Lielums |                                               |
+Kā satura pamats tiek izmantoti tālāk norādītie galvenie apkopošanas mērījumi.
+
+| Elements                  | Galvenais apkopošanas mērījums | Dynamics 365 datu avots      | Lauks     | apraksts                                        |
+|-------------------------|---------------------------|-----------------------------------|-----------|----------------------------------------------------|
+| Izmaksu uzskaites ieraksti | SUM(Summa)               | CAMDATAAggregatedCostEntry        | Summa    | Summa izmaksu uzskaites virsgrāmatas valūtā. |
+| Statistikas ieraksti     | SUM(Lielums)            | CAMDATAAggregatedStatisctialEntry | Lielums |                                                    |
 
 Nākamajā tabulā ir parādīts, kā galvenie apkopošanas mērījumi tiek izmantoti, lai satura datu kopā izveidotu vairākus aprēķinātos mērus.
 
@@ -114,16 +125,4 @@ Tālāk norādītās galvenās dimensijas tiek lietotas kā filtri, lai apkopoš
 | Finanšu kalendāri                   | Kalendārs, Kalendāra apraksts                                                                                       |
 | Finanšu gadi                       | Kalendārais gads                                                                                                        |
 | Finanšu periodi                     | Kalendārā gada periods                                                                                                 |
-
-## <a name="additional-resources"></a>Papildu resursi
-Šeit norādītas dažas noderīgas saites, kas ir saistītas ar elementiem un Power BI satura izveidi:
-
--   [Datu elementi](..\data-entities\data-entities.md)
--   [Organizācijas satura pakotnes izveide](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Datu modelēšana, izmantojot Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Power BI elementu pievienošana darbvietām](configure-power-bi-integration.md)
--   [Drošības iestatīšana Power BI saturam Izmaksu uzskaite](setup-security-cost-accounting-content-pack.md)
-
-
-
 

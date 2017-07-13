@@ -1,9 +1,9 @@
 ---
 title: "Novecojušie līdzekļi"
-description: "Šajā tēmā ir aprakstīti līdzekļi, kas programmā Dynamics 365 for Operations ir noņemti vai kuru noņemšana tiek plānota. Tajā ir arī uzskaitīti līdzekļi, kas kļuva novecojuši Dynamics AX 7.0 laidienos."
+description: "Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt."
 author: sericks007
 manager: AnnBe
-ms.date: 04/18/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 6
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 46a6f054f1cc5162e19d962964eb6eeb780087a6
+ms.sourcegitcommit: 3267bd1cbd738b5ced9996fc3b28eee211627591
+ms.openlocfilehash: 8feffb27b5d08a9c90e97ac0d7e00abf0448d0df
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/16/2017
 
 
 ---
@@ -29,8 +29,40 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt.
 
-Šajā tēmā ir aprakstīti līdzekļi, kas programmā Dynamics 365 for Operations ir noņemti vai kuru noņemšana tiek plānota. Tajā ir arī uzskaitīti līdzekļi, kas kļuva novecojuši Dynamics AX 7.0 laidienos.
+## <a name="features-that-have-been-deprecated-in-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Līdzekļi, kas vairs netiek atbalstīti programmatūras Dynamics 365 for Finance and Operations izdevuma Enterprise 2017. gada jūlija atjauninājumā.
+
+### <a name="warehouse-mobile-devices-portal"></a>Noliktavas mobilo ierīču portāls
+
+Noliktavas mobilo ierīču portāls (Warehouse mobile devices portal — WMDP) bija savrupa komponents, kas bija paredzēts lokālai lietotāja veiktai izvietošanai. Šis komponents vairs netiek atbalstīta programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise. WMDP funkcionalitāte ir aizstāta ar iekšēju programmu, kas uzlabo lietotāju iespējas. 
+
+|                                  |                                                 |
+|----------------------------------|-------------------------------------------------|
+| **Atbalsta pārtraukšanas iemesls**       | Funkcionalitātes dublēšanās.                        |
+| **Vai ir aizstāts ar citu līdzekli?** | Jā. Šis līdzeklis ir aizstāts ar programmu Dynamics 365 for Finance and Operations — Noliktava. Papildinformāciju par iestatīšanu un priekšnoteikumiem skatiet tēmē [Programmas Microsoft Dynamics 365 for Finance and Operations — Noliktava instalēšana un konfigurēšana](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **Ietekmētie moduļi**             | Noliktavas pārvaldība, Transportēšanas pārvaldība |
+
+### <a name="advanced-bank-reconciliation-matching-rule-for-manual-matching"></a>Detalizētās bankas darbību atbilstības kārtula manuālai atbilstības noteikšanai
+
+Atbilstības kārtula tika izmantota, lai atlasītu un atzīmētu bankas dokumentu, manuāli nosakot dokumentu atbilstību saskaņošanas darblapā.
+
+|                                  |                                                                                        |
+|----------------------------------|----------------------------------------------------------------------------------------|
+| **Atbalsta pārtraukšanas iemesls**       | Ierobežots lietojums.                                                                         |
+| **Vai ir aizstāts ar citu līdzekli?** | Nr.p.k. Saskaņojamo dokumentu atrašanai ir jāizmanto kolonnu filtrēšanas iespējas. |
+| **Ietekmētie moduļi**             | Kases un bankas vadība                                                               |
+
+### <a name="windows-8-tablet-app"></a>Windows 8 planšetdatoru programma
+
+Windows 8 planšetdatoru programma nodrošināja izdevumu ievades un apstiprināšanas funkcijas.
+
+|                                  |                                                                                          |
+|----------------------------------|------------------------------------------------------------------------------------------|
+| **Atbalsta pārtraukšanas iemesls**       | Programmatūra Dynamics 365 for Finance and Operations ir saderīga ar planšetdatoriem. Planšetdatoru programma vairs nav nepieciešama. |
+| **Vai ir aizstāts ar citu līdzekli?** | Nr.p.k.                                                                                      |
+| **Ietekmētie moduļi**             | Izmaksu pārvaldība                                                                       |
+
 
 <a name="features-that-have-been-deprecated-in-dynamics-365-for-operations-1611-with-platform-update-3"></a>Līdzekļi, kas ir novecojuši versijā Dynamics 365 for Operations 1611 ar 3. platformas atjauninājumu
 ---------------------------------------------------------------------------------------------
@@ -301,7 +333,7 @@ Darbplūsma darbinieku mērķu izveidošanas pārvaldībai ir viena no vairākā
 
 |                              |                                                                                                                                                                                                                                                                                                                                        |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Novecošanas pamatojums       | Programmā Microsoft Dynamics 365 for Operations veiktspējas pārvaldība ir pilnīgi pārveidota.                                                                                                                                                                                                                                        |
+| Novecošanas pamatojums       | Programmatūrā Microsoft Dynamics 365 for Finance and Operations ir pilnībā pārveidota veiktspējas pārvaldība.                                                                                                                                                                                                                                        |
 | Vai aizstāts ar citu līdzekli? | Pārveidotais līdzeklis Veiktspējas pārvaldība sniedz lielāku kontroli pār mērķu saturu, mērījumiem, kas tiek izmantoti progresa izsekošanai, un pavaddokumentu piesaistīšanu. Mērķus var glabāt kā veidnes un pēc tam lietot atkārtoti. Šis līdzeklis jums var palīdzēt ātrāk iestatīt papildu mērķus saviem darbiniekiem. |
 | Ietekmētie moduļi             | Cilvēkkapitāla pārvaldība                                                                                                                                                                                                                                                                                                               |
 
@@ -484,7 +516,7 @@ Programmā Dynamics AX 2012 R3 Retail Modern POS var izveidot tiešu savienojumu
 
 |                              |                                                                                         |
 |------------------------------|-----------------------------------------------------------------------------------------|
-| Novecošanas pamatojums       | Tiešajai datu bāzes savienojamībai bija nepieciešami zemākas drošības protokoli, un tā galvenokārt tika izmantota, lai sasniegtu augstāko veiktspējas līmeni. Veiktspējas un drošības uzlabojumu dēļ, kuri īstenoti programmā Dynamics 365 for Operations, tagad šī funkcionalitāte rada vairāk problēmu, nekā tā atrisina. |
+| Novecošanas pamatojums       | Tiešajai datu bāzes savienojamībai bija nepieciešami zemākas drošības protokoli, un tā galvenokārt tika izmantota, lai sasniegtu augstāko veiktspējas līmeni. Programmatūras Dynamics 365 for Finance and Operations veiktspējas un drošības uzlabojumu dēļ šī funkcionalitāte tagad rada vairāk problēmu, nekā tā atrisina. |
 | Vai aizstāts ar citu līdzekli? | Nr.p.k. Tagad tiek atbalstīti tikai standarta Retail Server sakari.    |
 | Ietekmētie moduļi             | Kanāla DB/Retail Modern POS                                    |
 
@@ -808,9 +840,5 @@ Personāla vadības algas informācija
 | Novecošanas pamatojums       | Šī funkcionalitāte ir aizstāta ar citu līdzekli.                                    |
 | Vai aizstāts ar citu līdzekli? | Ar pārvaldības atskaišu sastādītāju (pašreizējā Dynamics AX versijā apzīmēts kā **Finanšu pārskati**) |
 | Ietekmētie moduļi             | Virsgrāmata                                                                              |
-
-
-
-
 
 

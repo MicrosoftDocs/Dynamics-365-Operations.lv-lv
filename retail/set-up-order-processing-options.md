@@ -1,39 +1,41 @@
 ---
 title: "Pasūtījumu apstrādes opciju iestatīšana"
-description: "Šajā tēmā ir sniegta informācija par to, kā apstrādāt pasūtījumus zvanu centriem, izmantojot Microsoft Dynamics 365 for Operations — Retail."
+description: "Šajā tēmā ir sniegta informācija par to, kā apstrādāt pasūtījumus zvanu centriem, izmantojot Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 78973
 ms.assetid: 09fca083-ac0d-4f30-baf2-bb00a626be12
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 52b56274c8b72c67bc0a50f23114cebc510f1667
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: afdea84b7016fcc3214dc94f2d393a5f3d256370
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
 
-# <a name="set-up-order-processing-options"></a>Pasūtījumu apstrādes opciju iestatīšana
+# <a name="set-up-order-processing-options"></a>Iestatīt pasūtījumu apstrādes opcijas
 
 [!include[banner](includes/banner.md)]
 
 
-Šajā tēmā ir sniegta informācija par to, kā apstrādāt pasūtījumus zvanu centriem, izmantojot Microsoft Dynamics 365 for Operations — Retail. 
+Šajā tēmā ir sniegta informācija par to, kā apstrādāt pasūtījumus zvanu centriem, izmantojot Microsoft Dynamics 365 for Retail. 
 
-Mazumtirdzniecība un komercija programmatūrā Dynamics 365 for Operations atbalsta vairākus mazumtirdzniecības kanālus, piemēram, tiešsaistes veikalus, fiziskos veikalus un zvanu centrus. Zvanu centros darbinieki pa tālruni no debitoriem saņem pasūtījumus un izveido pārdošanas pasūtījumus. Šajā tēmā ir aprakstīts, kā izveidot zvanu centru un konfigurēt zvanu centra opcijas. Katram zvanu centram var būt savi lietotāji, maksājuma metodes, cenu grupas, finanšu dimensijas un piegādes veidi. Šīs opcijas var konfigurēt zvanu centra izveides brīdī. **Svarīgi:** pirms zvanu centra darbplūsmas var izmantot, kad pašreizējais Dynamics AX lietotājs izveido pārdošanas pasūtījumus, lietotājam jābūt piešķirtam zvanu centram kā zvanu centra lietotājam. Varat izmantot lapu **Zvanu centrs**, lai iespējotu vai atspējotu līdzekļu grupas, kas ir unikālas zvanu centriem. Var iespējot tālāk minētās līdzekļu grupas.
+Retail atbalsta vairākus mazumtirdzniecības kanālus, piemēram, tiešsaistes veikalus, veikalus ēkās un zvanu centrus. Zvanu centros darbinieki pa tālruni no debitoriem saņem pasūtījumus un izveido pārdošanas pasūtījumus. Šajā tēmā ir aprakstīts, kā izveidot zvanu centru un konfigurēt zvanu centra opcijas. Katram zvanu centram var būt savi lietotāji, maksājuma metodes, cenu grupas, finanšu dimensijas un piegādes veidi. Šīs opcijas var konfigurēt zvanu centra izveides brīdī. **Svarīgi:** pirms zvanu centra darbplūsmas var izmantot, kad lietotājs izveido pārdošanas pasūtījumus, lietotājam jābūt piešķirtam zvanu centram kā zvanu centra lietotājam. Varat izmantot lapu **Zvanu centrs**, lai iespējotu vai atspējotu līdzekļu grupas, kas ir unikālas zvanu centriem. Var iespējot tālāk minētās līdzekļu grupas.
 
 -   **Pasūtījuma veikšana** – šajā grupā iekļauti līdzekļi, kas attiecas uz maksājumiem un pasūtījuma pabeigšanu lapā **Pārdošanas pasūtījums**.
 -   **Vadītā pārdošana** – šajā grupā ir iekļauti līdzekļi, kas saistīti ar pirmkodiem, skriptiem un kataloga pieprasījumiem.

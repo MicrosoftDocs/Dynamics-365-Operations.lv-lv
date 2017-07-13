@@ -1,15 +1,15 @@
 ---
 title: "Power BI saturs Atlīdzība un atvieglojumi"
-description: "Šajā tēmā ir aprakstīts Power BI saturs Dynamics 365 for Operations – Atlīdzība un atvieglojumi. Tajā ir paskaidrots, kā piekļūt pārskatiem, kas ir iekļauti satura pakotnē, un ir sniegta informācija par datu modeli un elementiem, kas tika izmantoti, lai izveidotu šo satura pakotni."
+description: "Šajā tēmā ir aprakstīta Dynamics 365 for Finance and Operations Power BI satura pakotne Atlīdzība un atvieglojumi. Tajā ir paskaidrots, kā piekļūt pārskatiem, kas ir iekļauti satura pakotnē, un ir sniegta informācija par datu modeli un elementiem, kas tika izmantoti, lai izveidotu šo satura pakotni."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations
+ms.search.scope: Operations, UnifiedOperations
 ms.custom: 263914
 ms.assetid: 18634bb5-3341-42f2-9cc9-7b04708b506b
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6f8375d31cb3b6a68314eba8341d94dce2edaac2
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 70e35a33e06fe7c89dd64d17703f19a71d4a157e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,15 +30,15 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā tēmā ir aprakstīts Power BI saturs Dynamics 365 for Operations – Atlīdzība un atvieglojumi. Tajā ir paskaidrots, kā piekļūt pārskatiem, kas ir iekļauti satura pakotnē, un ir sniegta informācija par datu modeli un elementiem, kas tika izmantoti, lai izveidotu šo satura pakotni.
+Šajā tēmā ir aprakstīta Dynamics 365 for Finance and Operations Power BI satura pakotne Atlīdzība un atvieglojumi. Tajā ir paskaidrots, kā piekļūt pārskatiem, kas ir iekļauti satura pakotnē, un ir sniegta informācija par datu modeli un elementiem, kas tika izmantoti, lai izveidotu šo satura pakotni.
 
 <a name="accessing-the-content-pack"></a>Piekļuve satura pakotnei
 --------------------------
 
-Satura pakotne Atlīdzība un atvieglojumi ir atrodama Microsoft Dynamics Lifecycle Services (LCS) koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt šo satura pakotni un to savienot ar saviem Microsoft Dynamics 365 for Operations datiem, skatiet rakstā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md).
+Satura pakotne Atlīdzība un atvieglojumi ir atrodama Microsoft Dynamics Lifecycle Services (LCS) koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt šo satura pakotni un izveidot tās savienojumu ar Microsoft Dynamics 365 for Finance and Operations datiem, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md).
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Satura pakotnē iekļautie pārskati
-Pēc satura pakotnes savienošanas ar jūsu Dynamics 365 for Operations datiem pārskatos tiek rādīti jūsu organizācijas dati. Ja iepriekš neesat lietojis Microsoft Power BI, papildinformāciju par to varat uzzināt lapā [Vadītā apmācība par Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Satura pakotnē iekļautajos pārskatos ir gan diagrammas, gan tabulas, kas satur papildinformāciju. Tabulā ir sniegts pārskatu apraksts.
+Pēc tam, kad ir izveidots satura pakotnes savienojums ar jūsu Dynamics 365 for Finance and Operations datiem, pārskatos tiek rādīti jūsu organizācijas dati. Ja iepriekš neesat lietojis Microsoft Power BI, papildinformāciju par to varat uzzināt lapā [Vadītā apmācība par Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Satura pakotnē iekļautajos pārskatos ir gan diagrammas, gan tabulas, kas satur papildinformāciju. Tabulā ir sniegts pārskatu apraksts.
 
 | Pārskats                     | Saturs                                                                                                                              |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ Pēc satura pakotnes savienošanas ar jūsu Dynamics 365 for Operations datiem p
 Šajos pārskatos esošās diagrammas un elementus varat filtrēt, un diagrammas un elementus varat piespraust informācijas panelim. Plašāku informāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet rakstā [Izveidot un konfigurēt informācijas paneli](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
-Satura pakotnes Atlīdzība un atvieglojumi pārskatu aizpildīšanai tiek izmantoti Dynamics 365 for Operations dati. Nākamajā tabulā ir redzami elementi, uz kuriem šī satura pakotne bija balstīta.
+Satura pakotnes Atlīdzība un atvieglojumi pārskatu aizpildīšanai tiek izmantoti Dynamics 365 for Finance and Operations dati. Nākamajā tabulā ir redzami elementi, uz kuriem šī satura pakotne bija balstīta.
 
 | Elements                            | Saturs                                                                                                   | Attiecības ar citiem elementiem                                                                                                                                                                                                                                                                                                |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

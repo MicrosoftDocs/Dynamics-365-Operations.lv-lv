@@ -3,14 +3,14 @@ title: "Produktu ieejas plūsma pret pirkšanas pasūtījumiem"
 description: "Šajā rakstā ir izklāstītas dažādās opcijas, kas ir pieejamas, lai produktus reģistrētu kā saņemtus."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 93113
 ms.assetid: d4ec3e86-fce2-4546-911b-e0acf64c8887
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5d1b063344d4191facf2ddace5f5c9d592fb0942
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a192688315adb2d83f349c525c5d8f70309375db
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -29,6 +29,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="product-receipt-against-purchase-orders"></a>Produktu ieejas plūsma pret pirkšanas pasūtījumiem
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Šajā rakstā ir izklāstītas dažādās opcijas, kas ir pieejamas, lai produktus reģistrētu kā saņemtus.
@@ -54,7 +56,7 @@ Varat izveidot pirkšanas pasūtījuma rindas, kur ir iespējota opcija **Jauns 
 
 Varat atlasīt vairākus pasūtījumus un apstrādāt ieejas plūsmu visiem šiem pasūtījumiem kopā. Šāda metode netiek izmantota ļoti bieži, bet varat vēlēties to izmantot, ja piegādātājs jūsu sūtījumus ir konsolidējis vienā kravā. Pirkuma produktu ieejas plūsmas laikā ir funkcija kopgrāmatojumu veikšanai. Kopgrāmatojuma jums ļauj no piegādātāja grāmatot vienu pavadzīmi par vairākiem pirkšanas pasūtījumiem.  
 
-Pirkšanas pasūtījumus ir iespējams veidot no pārdošanas pasūtījuma, kur ir atlasīta opcija **Tiešā piegāde**. Ja tiek lietota tiešā piegāde, produkti nekad netiek piegādāti jūsu noliktavā, bet no piegādātāja tiek nosūtīti tieši debitoram. Tādā gadījumā ieejas plūsma parasti tiek ierakstīta tieši pirkšanas pasūtījumā. Ieejas plūsmu var izpildīt automātiski, piemēram, izmantojot elektroniskās datu apmaiņas (EDI) integrāciju ar piegādātāju. Ja pirkšanas pasūtījums ir starpuzņēmumu pirkšanas pasūtījums, tad Microsoft Dynamics 365 for Operations sūtījuma veikšanas laikā var arī automatizēt ieejas plūsmu starpuzņēmumu pārdošanas pasūtījumam. Kad tiek lietota tiešā piegāde, produkti joprojām tiek iekļauti uzskaitē kā krājumi, lai gan tie fiziski netiek piegādāti noliktavā. Tādēļ, kad produktu ieejas plūsmu reģistrējat pirkšanas pasūtījumā, pārdošanas pasūtījums tiek automātiski atjaunināts ar pavadzīmi, tādējādi kopējās krājumu izmaiņas ir 0 (nulle). Tiešās piegādes scenārijos jums nav nepieciešama sākotnējā reģistrēšana. Ja lietojat noliktavas, kurām ir iespējota noliktavas vadība, varat apiet prasību reģistrēt noliktavas vienības identifikatoru, tā vietā norādot virtuālu noliktavu. Šo noliktavu jūs norādāt produkta laukā **Tiešās piegādes noliktava**. 
+Pirkšanas pasūtījumus ir iespējams veidot no pārdošanas pasūtījuma, kur ir atlasīta opcija **Tiešā piegāde**. Ja tiek lietota tiešā piegāde, produkti nekad netiek piegādāti jūsu noliktavā, bet no piegādātāja tiek nosūtīti tieši debitoram. Tādā gadījumā ieejas plūsma parasti tiek ierakstīta tieši pirkšanas pasūtījumā. Ieejas plūsmu var izpildīt automātiski, piemēram, izmantojot elektroniskās datu apmaiņas (EDI) integrāciju ar piegādātāju. Ja pirkšanas pasūtījums ir starpuzņēmumu pirkšanas pasūtījums, tad Microsoft Dynamics 365 for Finance and Operations sūtījuma veikšanas laikā var arī automatizēt ieejas plūsmu starpuzņēmumu pārdošanas pasūtījumam. Kad tiek lietota tiešā piegāde, produkti joprojām tiek iekļauti uzskaitē kā krājumi, lai gan tie fiziski netiek piegādāti noliktavā. Tādēļ, kad produktu ieejas plūsmu reģistrējat pirkšanas pasūtījumā, pārdošanas pasūtījums tiek automātiski atjaunināts ar pavadzīmi, tādējādi kopējās krājumu izmaiņas ir 0 (nulle). Tiešās piegādes scenārijos jums nav nepieciešama sākotnējā reģistrēšana. Ja lietojat noliktavas, kurām ir iespējota noliktavas vadība, varat apiet prasību reģistrēt noliktavas vienības identifikatoru, tā vietā norādot virtuālu noliktavu. Šo noliktavu jūs norādāt produkta laukā **Tiešās piegādes noliktava**. 
 
 Kad pirkšanas pasūtījumā ir apstrādāta produkta ieejas plūsma, pirkšanas pasūtījuma statuss tiek mainīts uz **Saņemts**, lai norādītu, ka šim pasūtījumam var apstrādāt rēķinu. Detalizētu informāciju par produktiem, kas jau ir saņemti, varat pārskatīt, izmantojot lapu **Produktu ieejas plūsmu žurnāli**.  
 
@@ -69,7 +71,7 @@ Kad pirkšanas pasūtījumā ir apstrādāta produkta ieejas plūsma, pirkšanas
 
 [Pirkšanas pasūtījumu apstiprināšana un ratificēšana](purchase-order-approval-confirmation.md)
 
-[Kreditoru rēķinu apskats](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+[Apskats par kreditoru rēķiniem](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
 
 
 

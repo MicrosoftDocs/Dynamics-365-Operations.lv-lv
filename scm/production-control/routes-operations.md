@@ -3,7 +3,7 @@ title: "Maršruti un operācijas"
 description: "Šajā tēmā ir sniegta informācija par maršrutiem un operācijām. Maršruts definē preces vai preces varianta ražošanas procesu. Tas raksturo katru ražošanas procesa darbību (operāciju) un šo darbību veikšanas secību. Maršruts definē arī katrai darbībai nepieciešamos operācijas resursus, nepieciešamo iestatīšanas un izpildes laiku un lietojamo izmaksu aprēķināšanas veidu."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3abc4e6f648ecc10105346ce181d8bc752d95f17
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 61548f2e308781e8329ca3cd26c3e6502d2f92c9
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -37,7 +37,7 @@ ms.lasthandoff: 05/25/2017
 <a name="overview"></a>Pārskats
 --------
 
-Maršruts raksturo preces vai preces varianta ražošanai nepieciešamo operāciju secību. Maršruts definē arī katrai operācijai nepieciešamos operācijas resursus, operācijas iestatīšanai un izpildei nepieciešamo laiku un lietojamo izmaksu aprēķināšanas veidu. Varat izmantot vienu maršrutu vairāku preču ražošanai vai definēt unikālu maršrutu katrai precei vai preces variantam. Varat pat izmantot vairākus maršrutus vienai precei. Šādā gadījumā izmantotais maršruts ir atkarīgs no tādiem faktoriem kā saražojamais daudzums. Maršruta definīcija programmatūrā Microsoft Dynamics 365 for Operations sastāv no četriem atsevišķiem elementiem, kas kopā raksturo ražošanas procesu.
+Maršruts raksturo preces vai preces varianta ražošanai nepieciešamo operāciju secību. Maršruts definē arī katrai operācijai nepieciešamos operācijas resursus, operācijas iestatīšanai un izpildei nepieciešamo laiku un lietojamo izmaksu aprēķināšanas veidu. Varat izmantot vienu maršrutu vairāku preču ražošanai vai definēt unikālu maršrutu katrai precei vai preces variantam. Varat pat izmantot vairākus maršrutus vienai precei. Šādā gadījumā izmantotais maršruts ir atkarīgs no tādiem faktoriem kā saražojamais daudzums. Maršruta definīcija programmatūrā Microsoft Dynamics 365 for Finance and Operations sastāv no četriem atsevišķiem elementiem, kas kopā raksturo ražošanas procesu.
 
 -   **Maršruts** — maršruts definē ražošanas procesa struktūru. Citiem vārdiem sakot, tas definē operāciju secību.
 -   **Operācija** — operācija norāda konkrētu maršruta darbību, piemēram, darbību **Montāža**. Vienu operāciju var izmantot vairākos maršrutos un tai var būt dažādi operācijas numuri.
@@ -45,7 +45,7 @@ Maršruts raksturo preces vai preces varianta ražošanai nepieciešamo operāci
 -   **Maršruta versija** — maršruta versija definē maršrutu, kas tiek izmantots preces vai preces varianta ražošanai. Maršruta versijas sniedz iespēju atkārtoti lietot maršrutus dažādām precēm vai mainīt tos laika gaitā. Tās sniedz iespēju arī izmantot dažādus maršrutus vienas preces ražošanai. Šādā gadījumā izmantotais maršruts ir atkarīgs no tādiem faktoriem kā atrašanās vieta vai saražojamais daudzums.
 
 ## <a name="routes"></a>Maršruti
-Maršruts raksturo preces vai preces varianta ražošanai izmantoto operāciju secību. Katrai operācijai tiek piešķirts operācijas numurs un nākamā operācija. Operāciju secība veido maršruta tīklu, ko var atainot, izmantojot virzienu diagrammu, kurā ir viens vai vairāki sākuma punkti un viens baigu punkts. Programmatūrā Dynamics 365 for Operations maršruti atšķiras pēc struktūras veida. Ir pieejami divi maršrutu veidi: vienkāršie maršruti un maršrutu tīkli. Sadaļā Ražošanas kontroles parametri varat norādīt to, vai var tikt izmantoti tikai vienkārši maršruti vai arī sarežģītāki maršrutu tīkli.
+Maršruts raksturo preces vai preces varianta ražošanai izmantoto operāciju secību. Katrai operācijai tiek piešķirts operācijas numurs un nākamā operācija. Operāciju secība veido maršruta tīklu, ko var atainot, izmantojot virzienu diagrammu, kurā ir viens vai vairāki sākuma punkti un viens baigu punkts. Programmatūrā Dynamics 365 for Finance and Operations maršruti atšķiras pēc struktūras veida. Ir pieejami divi maršrutu veidi: vienkāršie maršruti un maršrutu tīkli. Sadaļā Ražošanas kontroles parametri varat norādīt to, vai var tikt izmantoti tikai vienkārši maršruti vai arī sarežģītāki maršrutu tīkli.
 
 ### <a name="simple-routes"></a>Vienkārši maršruti
 
@@ -53,7 +53,7 @@ Vienkāršs maršruts ir secīgs un tajā ir tikai viens sākuma punkts.
 
 [![Vienkāršs maršruts](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
-Ja sadaļā Ražošanas kontroles parametri iespējojat tikai vienkāršus maršrutus, kad definējat maršrutu, programmatūrā Dynamics 365 for Operations tiek automātiski ģenerēti operāciju numuri (10, 20, 30 utt.).
+Ja sadaļā Ražošanas kontroles parametri iespējojat tikai vienkāršus maršrutus, kad definējat maršrutu, programmatūrā Dynamics 365 for Finance and Operations tiek automātiski ģenerēti operāciju numuri (10, 20, 30 utt.).
 
 ### <a name="route-networks"></a>Maršrutu tīkli
 
@@ -85,10 +85,10 @@ Lai maršrutu varētu izmantot plānošanas vai ražošanas procesā, maršruts 
 
 Katru maršrutu var atsevišķi apstiprināt vai neapstiprināt. Taču ņemiet vērā to, ka gadījumā, ja maršruts ir neapstiprināts, arī visas saistītās maršruta versijas ir neapstiprinātas. Sadaļā Ražošanas kontroles parametri varat norādīt to, vai maršruti var būt neapstiprināti un vai var mainīt apstiprinātos maršrutus.  
 
-Ja ir nepieciešams žurnālā reģistrēt katra maršruta apstiprinātāju, varat iestatīt elektroniskā paraksta prasību maršruta apstiprināšanai. Šādā gadījumā lietotājiem ir jāapstiprina sava identitāte, izmantojot [elektronisko parakstu](/dynamics365/operations/organization-administration/electronic-signature-overview).
+Ja ir nepieciešams žurnālā reģistrēt katra maršruta apstiprinātāju, varat iestatīt elektroniskā paraksta prasību maršruta apstiprināšanai. Šādā gadījumā lietotājiem ir jāapstiprina sava identitāte, izmantojot [elektronisko parakstu](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview).
 
 ## <a name="operations"></a>Operācijas
-Operācija ir ražošanas procesa darbība. Programmatūrā Dynamics 365 for Operations katrai operācijai ir ID un vienkāršs apraksts. Tālāk esošajās tabulās ir sniegti tipiski mehāniskas darbnīcas operāciju piemēri.
+Operācija ir ražošanas procesa darbība. Programmatūrā Dynamics 365 for Finance and Operations katrai operācijai ir ID un vienkāršs apraksts. Tālāk esošajās tabulās ir sniegti tipiski mehāniskas darbnīcas operāciju piemēri.
 
 | Operācija  | Apraksts        |
 |------------|--------------------|
@@ -128,7 +128,7 @@ Operāciju saites nodrošina lielu pielāgojamību maršrutu definēšanas laik�
 
 ### <a name="modifying-product-specific-routes"></a>Precei raksturīgo maršrutu modificēšana
 
-Kad lapā **Nodoto preču papildinformācija** atverat lapu **Maršruts**, tiek parādītas ar atlasīto izlaisto preci saistītās maršruta versijas. Šajā konteksta programmatūrā Dynamics 365 for Operations tiek rādīti katras operācijas darbības rekvizīti, kas atbilst maršruta versijai visatbilstošākajai operācijas saitei. Operāciju sarakstā ir ietverti operācijas saites rekvizīti **Krājuma kods** un **Maršruta kods**. Tāpēc varat noteikt, kura operācijas saite tiek rādīta.  
+Kad lapā **Nodoto preču papildinformācija** atverat lapu **Maršruts**, tiek parādītas ar atlasīto izlaisto preci saistītās maršruta versijas. Šajā konteksta programmatūrā Dynamics 365 for Finance and Operations tiek rādīti katras operācijas darbības rekvizīti, kas atbilst maršruta versijai visatbilstošākajai operācijas saitei. Operāciju sarakstā ir ietverti operācijas saites rekvizīti **Krājuma kods** un **Maršruta kods**. Tāpēc varat noteikt, kura operācijas saite tiek rādīta.  
 
 Lapā **Maršruts** varat modificēt operācijas darbības rekvizītus, piemēram, izpildes laiku vai izmaksu kategorijas. Izmaiņas tiek saglabātas operācijas saitē, kas ir raksturīga maršrutam un izlaistajai precei, uz kuru ir atsauce pašreizējā maršruta versijā. Ja parādītā operācijas saite nav raksturīga maršrutam un izlaistajai precei, pirms izmaiņu saglabāšanas sistēmā tiek izveidota operācijas saites kopija. Šī kopija *ir* raksturīga maršrutam un izlaistajai precei. Tāpēc veiktās izmaiņas neietekmē citus maršrutus vai izlaistās preces. Lai pārbaudītu, kura operācijas saite tiek modificēta lapā **Maršruts**, skatiet lauku **Krājuma kods** un **Maršruta kods** vērtības.  
 
@@ -150,9 +150,9 @@ Ja jūsu uzņēmumā tiek lietotas standarta operācijas un visām precēm un pr
 
 ### <a name="applying-operation-relations"></a>Operāciju saišu lietošana
 
-Dažos gadījumos programmatūrā Dynamics 365 for Operations ir jāatrod noteiktas operācijas darbības rekvizīti. Piemēram, izveidojot pirkšanas pasūtījumu, katras operācijas darbības rekvizīti ir jākopē no operāciju saitēm uz ražošanas maršrutiem. Šādos gadījumos programmatūrā Dynamics 365 for Operations tiek meklētas piemērotās operāciju saites, sākot ar visraksturīgāko un beidzot ar vismazāk raksturīgo kombināciju.  
+Dažos gadījumos programmatūrā Dynamics 365 for Finance and Operations ir jāatrod noteiktas operācijas darbības rekvizīti. Piemēram, izveidojot pirkšanas pasūtījumu, katras operācijas darbības rekvizīti ir jākopē no operāciju saitēm uz ražošanas maršrutiem. Šādos gadījumos programmatūrā Finance and Operations tiek meklētas piemērotās operāciju saites, sākot ar visraksturīgāko un beidzot ar vismazāk raksturīgo kombināciju.  
 
-Kad programmatūrā Dynamics 365 for Operations tiek meklēta izlaistai precei vispiemērotākā operācijas saite, tai operācijas saitei, kas atbilst krājuma ID, ir augstāka prioritāte nekā operācijas saitei, kas atbilst krājumu grupas ID. Savukārt operācijas saitei, kas atbilst krājumu grupas ID, ir augstāka prioritāte nekā noklusējuma operācijas saitei. Šī meklēšana tiek veikta tālāk norādītajā secībā.
+Kad programmatūrā Dynamics 365 for Finance and Operations tiek meklēta izlaistai precei vispiemērotākā operācijas saite, tai operācijas saitei, kas atbilst krājuma ID, ir augstāka prioritāte nekā operācijas saitei, kas atbilst krājumu grupas ID. Savukārt operācijas saitei, kas atbilst krājumu grupas ID, ir augstāka prioritāte nekā noklusējuma operācijas saitei. Šī meklēšana tiek veikta tālāk norādītajā secībā.
 
 1.  **Krājuma kods**=**Tabula** un **Krājuma saistība**=&lt;krājuma ID&gt;
 2.  **Krājuma kods**=**Grupa** un **Krājuma saistība**=&lt;krājumu grupas ID&gt;
@@ -188,7 +188,7 @@ Aktivizējot maršruta versiju, tā tiek norādīta kā noklusējuma maršruta v
 
 ### <a name="electronic-signatures"></a>Elektroniskie paraksti
 
-Ja ir nepieciešams žurnālā reģistrēt katras maršruta versijas apstiprinātāju un aktivizētāju, varat iestatīt elektroniskā paraksta prasību šo uzdevumu veikšanai. Šādā gadījumā lietotājiem, kuri apstiprina un aktivizē maršruta versijas, ir jāapstiprina sava identitāte, izmantojot [elektronisko parakstu](/dynamics365/operations/organization-administration/electronic-signature-overview).
+Ja ir nepieciešams žurnālā reģistrēt katras maršruta versijas apstiprinātāju un aktivizētāju, varat iestatīt elektroniskā paraksta prasību šo uzdevumu veikšanai. Šādā gadījumā lietotājiem, kuri apstiprina un aktivizē maršruta versijas, ir jāapstiprina sava identitāte, izmantojot [elektronisko parakstu](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview).
 
 ### <a name="product-change-that-uses-case-management"></a>Preces izmaiņas, izmantojot gadījumu pārvaldību
 
@@ -199,7 +199,7 @@ Atkarībā no jūsu uzņēmējdarbības vajadzībām varat atvieglot procesa def
 
 ### <a name="making-routes-independent-of-resources"></a>Maršruta neatkarības no resursiem konfigurēšana
 
-Daudzās sistēmās maršrutā ir jānorāda operācijas resurss vai resursu grupa, kas ir jāizmanto operācijas veikšanai. Taču programmatūrā Dynamics 365 for Operations varat definēt vajadzību kopu, kam ir jāatbilst operācijas resursam, lai to varētu lietot operācijai. Tāpēc konkrētais operācijas resurss vai resursu grupa, kas ir jāizmanto, nav jānosaka līdz operācijas plānošanas laikam. Šī funkcionalitāte ir īpaši noderīga, ja ir pieejams daudz darbinieku vai iekārtu, kas var veikt vienu un to pašu operāciju.  
+Daudzās sistēmās maršrutā ir jānorāda operācijas resurss vai resursu grupa, kas ir jāizmanto operācijas veikšanai. Taču programmatūrā Dynamics 365 for Finance and Operations varat definēt vajadzību kopu, kam ir jāatbilst operācijas resursam, lai to varētu lietot operācijai. Tāpēc konkrētais operācijas resurss vai resursu grupa, kas ir jāizmanto, nav jānosaka līdz operācijas plānošanas laikam. Šī funkcionalitāte ir īpaši noderīga, ja ir pieejams daudz darbinieku vai iekārtu, kas var veikt vienu un to pašu operāciju.  
 
 Piemēram, pieņemsim, ka norādāt, ka operācijai ir vajadzīgs veida **Iekārta** operācijas resurss, kura **štancēšanas** spēja ir 20 tonnas. Pēc tam operācijas plānošanas laikā plānošanas programma nodrošina šo vajadzību atrisināšanu, piešķirot noteiktu operācijas resursu vai resursu grupu. Tas, ka varat vienkārši norādīt šīs vajadzības, nesaistot operāciju ar noteiktu iekārtu, sniedz daudz lielāku pielāgojamību. Turklāt tādējādi tiek atvieglota uzturēšana resursu pārvietošanas vai jaunu resursu pievienošanas gadījumā.  
 
@@ -240,7 +240,7 @@ Ja operācijas resursu vajadzību ietvaros nenorādāt operācijas resursu vai r
 
 [Resursu iespējas](resource-capabilities.md)
 
-[Pārskats par elektronisko parakstu](/dynamics365/operations/organization-administration/electronic-signature-overview)
+[Elektronisko parakstu apskats](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview)
 
 
 

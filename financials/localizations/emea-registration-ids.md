@@ -3,7 +3,7 @@ title: "Reģistrācijas ID"
 description: "Šajā tēmā ir sniegta informācija par reģistrācijas ID iestatīšanu un lietošanu."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,17 +11,17 @@ ms.technology:
 ms.search.form: DirPartTaxRegistrationSearch, LogisticsPostalAddress, TaxRegistrationLegislationTypes, TaxRegistrationType
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 264824
 ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fc4a56eceb75673b7a044bd8392f8d0cc675e869
+ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
+ms.openlocfilehash: 55c25b005e9dc73713f3d4a30eab5148b17c2fec
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -57,10 +57,12 @@ Reģistrācijas kategorija ir valsts/reģiona reģistrācijas identifikators, ka
 |-----------------------|----------------|
 | Reģistrācijas tips     | Reģistrācijas tips konkrētajā valstī/reģionā.|
 | Iekļaut         | Ierobežojuma veids, kas attiecas uz nodokļa reģistrācijas tipu: Nav, Persona, Organizācija.|
-| Reģistrācijas kategorija | Unikālais reģistrācijas identifikators, kurš ir apstiprināts lietošanai attiecīgajā valstī. Tālāk ir sniegts pilns saraksts ar versijā AX7.1 atbalstītajām kategorijām. |
+| Reģistrācijas kategorija | Unikālais reģistrācijas identifikators, kurš ir apstiprināts lietošanai attiecīgajā valstī. Tālāk ir sniegts visu programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise atbalstīto kategoriju saraksts. |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Ievadīt reģistrācijas ID globālās adrešu grāmatas ierakstiem
-Globālā adrešu grāmata programmatūrā Microsoft Dynamics 365 for Operations satur konsolidētu adrešu informāciju debitoriem, kreditoriem, kontaktpersonām, biznesa attiecībām un juridiskajām personām. Papildinformāciju skatiet rakstā, [Globālās adrešu grāmatas apskats](/dynamics365/operations/organization-administration/overview-global-address-book). Puses ierakstos, kas saglabāti globālajā adrešu grāmatā, var būt viens vai vairāki adrešu ieraksti. Šīs adreses tiek izmantotas dažādiem nolūkiem, piemēram, norēķiniem vai piegādēm. Adrešu informācijai reģistrācijas ID varat iestatīt debitoriem, kreditoriem, darbiniekiem un juridiskajām personām. Atrodiet puses (juridiskās personas, kreditora, debitora, darbinieka) ierakstu, kuram vēlaties ievadīt reģistrācijas ID, un pēc tam ar šo pusi, juridisko personu, kreditoru, debitoru, darbinieku saistītajās formās noklikšķiniet uz **Reģistrācijas ID**, lai atvērtu lapu **Pārvaldīt adreses**. Cilnē **Nodokļa reģistrācija** noklikšķiniet uz **Pievienot** un ievadiet tālāk norādīto informāciju par šo reģistrācijas ID.
+
+Programmatūras Microsoft Dynamics 365 for Finance and Operations globālajā adrešu grāmatā (global address book — GAB) ir apkopota informācija par debitoru, kreditoru, kontaktpersonu, biznesa attiecību un juridisko personu adresēm. Papildinformāciju skatiet rakstā, [Globālās adrešu grāmatas apskats](/dynamics365/unified-operations/fin-and-ops/organization-administration/overview-global-address-book). Puses ierakstos, kas saglabāti globālajā adrešu grāmatā, var būt viens vai vairāki adrešu ieraksti. Šīs adreses tiek izmantotas dažādiem nolūkiem, piemēram, norēķiniem vai piegādēm. Adrešu informācijai reģistrācijas ID varat iestatīt debitoriem, kreditoriem, darbiniekiem un juridiskajām personām. Atrodiet puses (juridiskās personas, kreditora, debitora, darbinieka) ierakstu, kuram vēlaties ievadīt reģistrācijas ID, un pēc tam ar šo pusi, juridisko personu, kreditoru, debitoru, darbinieku saistītajās formās noklikšķiniet uz **Reģistrācijas ID**, lai atvērtu lapu **Pārvaldīt adreses**. Cilnē **Nodokļa reģistrācija** noklikšķiniet uz **Pievienot** un ievadiet tālāk norādīto informāciju par šo reģistrācijas ID.
+
 
 |Lauks                |Apraksts                                                |
 |---------------------|-----------------------------------------------------------|
@@ -80,23 +82,23 @@ Globālā adrešu grāmata programmatūrā Microsoft Dynamics 365 for Operations
 Iespēja meklēt puses ierakstus, pamatojoties uz reģistrācijas ID, ir pieejama ar pusi, juridisko personu, kreditoru, debitoru un darbinieku saistītajās formās. Noklikšķiniet uz **Reģistrācijas ID meklēšana**, lai atvērtu lapu **Reģistrācijas ID meklēšanas kritēriji**. Norādiet meklēšanas kritērijus un noklikšķiniet uz **Atrast**. Sistēma parāda atlasītos ierakstus no globālās adrešu grāmatas un saistītos pušu ierakstu tipus.
 
 ## <a name="supported-registration-categories"></a>Atbalstītās reģistrācijas kategorijas
-Nākamajā tabulā ir uzskaitīti programmatūrā Dynamics 365 for Operations atbalstītie reģistrācijas tipi. Ja pārzināt Microsoft Dynamics AX 2012 laukus, kas paredzēti reģistrācijas ID, tabulā šie lauki ir kartēti arī uz Dynamics 365 for Operations reģistrācijas kategorijām.
+Tālāk esošajā tabulā ir norādīti programmatūrā Dynamics 365 for Finance and Operations atbalstītie reģistrācijas veidi. Ja pārzināt reģistrācijas ID laukus programmatūrā Microsoft Dynamics AX 2012, šajā tabulā ir norādīta arī šo lauku saistība ar Dynamics 365 for Finance and Operations reģistrācijas kategorijām.
 
-| Dynamics 365 for Operations reģistrācijas kategorija         |Valsts/reģions  | Dynamics AX 2012 termins/lauks|
+| Dynamics 365 for Finance and Operations reģistrācijas kategorija         |Valsts/reģions  | Dynamics AX 2012 termins/lauks|
 |---------------------------------------------------------------|---------------------|---------------------------------|
-| PVN ID                                                        | Visas Eiropas Savienības (ES) valstis|  PVN reģistrācijas numurs (Tiesību aktos noteiktais nodokļa ID versijā AX2012 R3)|
-| Uzņēmuma ID (COID)                                          | Beļģija Čehija Igaunija Ungārija Latvija Lietuva Polija Šveice | Uzņēmuma numurs (EnterpriseNumber) Reģistrācijas numurs (RegNum\_W) Reģistrācijas numurs (RegNum\_W) Reģistrācijas numurs (RegNum\_W) Reģistrācijas numurs (RegNum\_W) Uzņēmuma kods (EnterpriseCode) Reģistrācijas numurs (RegNum\_W) UID (Tiesību aktos noteiktais UID versijā AX2012 R3) |
+| PVN ID                                                        | Visas Eiropas Savienības (ES) valstis|  PVN reģistrācijas numurs (tiesību aktos noteiktais veids NODOKĻA ID programmatūrā AX 2012 R3)|
+| Uzņēmuma ID (COID)                                          | Beļģija Čehija Igaunija Ungārija Latvija Lietuva Polija Šveice | Uzņēmuma numurs (EnterpriseNumber) Reģistrācijas numurs (RegNum\_W) Reģistrācijas numurs (RegNum\_W) Reģistrācijas numurs (RegNum\_W) Reģistrācijas numurs (RegNum\_W) Uzņēmuma kods (EnterpriseCode) Reģistrācijas numurs (RegNum\_W) UID (tiesību aktos noteiktais veids UID programmatūrā AX 2012 R3) |
 | Filiāles ID                                                     | Beļģija            | Filiāles numurs (BranchNumber)|
 | Spisová značka (Reģistrācijas numurs, Izdevējiestāde, Sadaļa) | Čehija     | Iekļaušanas numurs (CommercialRegisterInsetNumber) Glabājas komercreģistrā (CommercialRegister) Komercreģistra sadaļa (CommercialRegisterSection)|
 | Debitora muitas ID                                           | Somija | Debitora muitas numurs (CustomsCustomerNumber\_FI)|
-| INN                                                           | Krievijas Federācija| INN (Tiesību aktos noteiktā tipa INN versijā AX2012 R3)|
-| RRC                                                           | Krievijas Federācija| RRC (Tiesību aktos noteiktā tipa RRC versijā AX2012 R3)|
-| OKDP                                                          | Krievijas Federācija| OKDP (Tiesību aktos noteiktā tipa OKDP versijā AX2012 R3)|
-| OKPO                                                          | Krievijas Federācija| OKPO (Tiesību aktos noteiktā tipa OKPO versijā AX2012 R3)|
-| RCOAD                                                         | Krievijas Federācija| RCOAD (Tiesību aktos noteiktā tipa RCOAD versijā AX2012 R3)|
-| OGRN                                                          | Krievijas Federācija| OGRN (Tiesību aktos noteiktā tipa OGRN versijā AX2012 R3) |
-| SNILS                                                         | Krievijas Federācija| SNILS (Tiesību aktos noteiktā tipa SNILS versijā AX2012 R3)|
-| CIFTS                                                         | Krievijas Federācija| CIFTS (Tiesību aktos noteiktā tipa CIFTS versijā AX2012 R3)|
+| INN                                                           | Krievijas Federācija| INN (tiesību aktos noteiktais veids INN programmatūrā AX 2012 R3)|
+| RRC                                                           | Krievijas Federācija| RRC (tiesību aktos noteiktais veids RRC programmatūrā AX 2012 R3)|
+| OKDP                                                          | Krievijas Federācija| OKDP (tiesību aktos noteiktais veids OKDP programmatūrā AX 2012 R3)|
+| OKPO                                                          | Krievijas Federācija| OKPO (tiesību aktos noteiktais veids OKPO programmatūrā AX 2012 R3)|
+| RCOAD                                                         | Krievijas Federācija| RCOAD (tiesību aktos noteiktais veids RCOAD programmatūrā AX 2012 R3)|
+| OGRN                                                          | Krievijas Federācija| OGRN (tiesību aktos noteiktais veids OGRN programmatūrā AX 2012 R3) |
+| SNILS                                                         | Krievijas Federācija| SNILS (tiesību aktos noteiktais veids SNILS programmatūrā AX 2012 R3)|
+| CIFTS                                                         | Krievijas Federācija| CIFTS (tiesību aktos noteiktais veids CIFTS programmatūrā AX 2012 R3)|
 
 Papildinformāciju par reģistrācijas ID apstrādāšanu, tostarp nepieciešamajiem priekšnosacījumiem, skatiet tālāk norādītajos uzdevumu ierakstos, kas paredzēti PVN ID pakalpojumā Lifecycle Services (LCS).
 

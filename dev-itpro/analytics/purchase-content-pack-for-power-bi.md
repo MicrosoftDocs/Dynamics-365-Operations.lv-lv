@@ -1,15 +1,15 @@
 ---
 title: "Power BI satura pakotne Pirkumu tēriņu analīze"
-description: "Šajā tēmā ir aprakstīts, kas ir iekļauts Microsoft Power BI satura pakotnē Pirkumu tēriņu analīze. Tajā ir paskaidrots, kā piekļūt pārskatiem, kas ir iekļauti satura pakotnē, un ir sniegta informācija par satura pakotnes izveidei izmantoto datu modeli un elementiem."
-author: YuyuScheller
+description: "Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pirkumu tēriņu analīzē. Tajā ir paskaidrots, kā piekļūt pārskatiem, kas ir iekļauti saturā, un ir sniegta informācija par satura izveidei izmantoto datu modeli un elementiem."
+author: FrankDahl
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
-audience: Application User
-ms.search.scope: Operations, Core
+audience: Application User, IT Pro
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 265434
 ms.assetid: 3cd9dfce-2687-4303-bc78-349e7cb5ea75
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ad0ee95113d05710cccc1a5e9d215b38244c2047
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: daba17aed7e6cc475a16d6100c5c99ee747ca048
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -29,23 +29,22 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+Šajā tēmā ir aprakstīts, kas ir iekļauts Microsoft Power BI satura **pirkumu tēriņu analīzē**. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 
-Šajā tēmā ir aprakstīts, kas ir iekļauts Microsoft Power BI satura pakotnē Pirkumu tēriņu analīze. Tajā ir paskaidrots, kā piekļūt pārskatiem, kas ir iekļauti satura pakotnē, un ir sniegta informācija par satura pakotnes izveidei izmantoto datu modeli un elementiem.
+## <a name="overview"></a>Pārskats
 
-<a name="overview"></a>Pārskats
---------
-
-Microsoft Power BI satura pakotne Pirkumu tēriņu analīze ir izveidota iepirkumu nodaļas vadītāju un par budžetu atbildīgo vadītāju vajadzībām. Tā ir izstrādāta tā, lai palīdzētu viņiem sekot līdzi pirkumu tēriņiem. Tā izmanto pirkumu transakciju datus no programmatūras Microsoft Dynamics 365 for Operations un nodrošina gan uzņēmuma līmeņa pirkumu rādītāju apkopošanas skatu, gan pirkumu tēriņu sadalījumu pēc kreditora vai preces. Pārskatos ir izceltas pirkumu tēriņu izmaiņas laika gaitā. Tāpēc tos var izmantot, lai brīdinātu vadītājus par pozitīvām un negatīvām tēriņu tendencēm saistībā ar atsevišķiem kreditoriem un precēm. Diagrammas ataino pirkumu tēriņus dažādām sagādes kategorijām un kreditoru grupām. Kategoriju un reģionālie vadītāji var izmantot šīs diagrammas, lai palīdzētu noteikt tēriņu darbību izmaiņas. Satura pakotne sniedz iepirkumu daļas vadītājiem un par budžetu atbildīgajiem vadītājiem analizēt pirkumu tēriņus tālāk norādītajos veidos.
+**Pirkumu tēriņu analīzes** Power BI saturs tika veidots, lai iepirkumu nodaļas vadītājiem un vadītājiem, kuri ir atbildīgi par budžetu, palīdzētu sekot pirkuma tēriņiem. Vadītāji var analizēt pirkumu tēriņus šādos veidos:
 
 -   Līdzšinējā gada pirkumi (pēc kreditoru grupas, atsevišķa kreditora, sagādes kategorijas, atsevišķas preces un kreditora atrašanās vietas)
 -   Pirkumu izmaiņas pa gadiem (pēc kreditoru grupas un sagādes kategorijas)
 
-## <a name="accessing-the-content-pack"></a>Piekļuve satura pakotnei
-Satura pakotne Pirkumu tēriņu analīze ir publicēta kā ieviešanas līdzeklis pakalpojumā Microsoft Dynamics Lifecycle Services (LCS), un tai var piekļūt programmatūrā Microsoft Dynamics 365 for Operations. Papildinformāciju par to, kā piekļūt Power BI pārskatiem, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md).
-Piezīme. Rakstā KB 4011327 ir priekšnosacījumi tā Power BI saturam. Kad esat pierakstījies pakalpojumos Lifecycle Services, tad KB varat piekļūt šeit: https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
+Saturam tiek izmantoti pirkumu transakciju dati, un tas nodrošina gan uzņēmuma līmeņa pirkumu rādītāju apkopošanas skatu, gan pirkumu tēriņu sadalījumu pēc kreditora vai preces. Pārskatos ir izceltas pirkumu tēriņu izmaiņas laika gaitā. Tāpēc pārskatus var izmantot, lai brīdinātu vadītājus par pozitīvām un negatīvām tēriņu tendencēm saistībā ar atsevišķiem kreditoriem un precēm. Turklāt diagrammas ataino pirkumu tēriņus dažādām sagādes kategorijām un kreditoru grupām. Tādēļ kategoriju un reģionālie vadītāji var izmantot šīs diagrammas, lai palīdzētu noteikt tēriņu darbību izmaiņas.
 
-## <a name="metrics-that-are-included-in-the-content-pack"></a>Satura pakotnē iekļautie rādītāji
-Satura pakotnē Pirkumu tēriņu analīze ir iekļauts pārskats, kas sastāv no rādītāju kopas. Šie rādītāji tiek vizualizēti kā diagrammas, elementi un tabulas. Tālāk esošajā tabulā ir sniegts apskats par satura pakotnes rādītāju vizualizēšanu.
+## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
+Ja lietojat Microsoft Dynamics 365 for Finance and Operations izdevuma Enterprise 2017. gada jūlija atjauninājumu, **pirkumu tēriņu analīze** Power BI saturs tiek rādīts lapā **Pirkšanas un tēriņu rādītāju analīze** (**Sagāde un avoti** > **Pieprasījumi un pārskati** > **Pirkšanas rādītāju analīze** > **Pirkšanas un tēriņu rādītāju analīze**). 
+
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI saturā iekļautā metrika
+**Pirkumu tēriņu analīzes** Power BI satura pakotnē ir iekļauts pārskats, kas sastāv no rādītāju kopas. Šie rādītāji tiek vizualizēti kā diagrammas, elementi un tabulas. Zemāk norādītajā tabulā ir sniegts pārskats par vizualizācijām.
 
 <table>
 <colgroup>
@@ -133,14 +132,26 @@ Satura pakotnē Pirkumu tēriņu analīze ir iekļauts pārskats, kas sastāv no
 
 \* Šī gada un pagājušā gada pirkumi un palielinājums pēc sagādes kategorijas
 
+## <a name="extending-the-power-bi-content"></a>Power BI satura paplašināšana
+Izmantojot pakalpojumā Microsoft Dynamics Lifecycle Services (LCS) pieejamās satura pakotnes, varat nodrošināt lielisku analīzes funkcionalitāti personām, kuras nepierakstās programmatūrā Microsoft Dynamics 365. Varat izmainīt šīs satura pakotnes, tajās ietverot citus pārskatus vai vizualizācijas, un pēc tam publicēt tās savā Power BI.com nomniekā analīzes veikšanai. 
+
+**Pirkumu tēriņu analīzes** Power BI saturs ir pieejams LCS koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt satura pakotni un ieviest to savā organizācijā, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md). Power BI satura pakotnes implementēšanas demonstrāciju skatiet tēmā [Power BI saturs pakalpojumā Dynamics Lifecycle Services no Microsoft un jūsu partneriem](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
+
+Noteikti lejupielādējiet **pirkumu tēriņu analīzes** saturu, kas attiecas uz izmantoto Dynamics 365 versiju.
+
+> [!NOTE]
+> Ja izmantojat Microsoft Dynamics 365 for Operations versiju 1611, šī Power BI satura izmantošanas priekšnosacījums ir KB 4011327. Ja esat pierakstījies LCS, tad KB varat piekļūt šeit: https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
+
 ## <a name="data-model-and-entities"></a>Datu modelis un elementi
-Satura pakotnes Pirkumu tēriņu analīze pārskata izveidei tiek izmantoti Dynamics 365 for Operations dati. Šie dati tiek attēloti kā apkopoti mērījumi, kuri pa posmiem tiek izveidoti elementu krātuvē, kas ir analīzes veikšanai optimizēta Microsoft SQL datu bāze. Papildinformāciju par elementu krātuvi skatiet emuāra ierakstā [Power BI integrācija elementu krātuvē programmatūrā Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Šajā satura pakotnē ietvertie apkopošanas mērījumi ir apakškopa tiem apkopošanas mērījumiem, kas ir pieejami pirkšanas kubā programmatūrā Microsoft Dynamics AX 2012 un Microsoft Dynamics AX 2012 R3. Lai padarītu kuba apkopošanas mērījumus pieejamus elementu krātuvē, tie ir jāpadara izvietojami. Papildinformāciju skatiet emuāra ieraksta [Power BI integrācija elementu krātuvē programmatūrā Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) sadaļā par apkopošanas mērījumu izvietošanas elementu krātuvē procedūru. Tālāk norādītie galvenie apkopošanas mērījumi ir tieši pieejami no elementa Rēķina rindas, un tie tiek izmantoti kā satura pakotnes pamatdati.
+**Pirkumu tēriņu analīzes** Power BI satura pārskatu lapu aizpildīšanai tiek izmantoti tālāk norādītie dati. Šie dati tiek attēloti kā apkopoti mērījumi, kas tiek sagatavoti elementu krātuvē. Elementu krātuve ir analīzei optimizēta Microsoft SQL Server datu bāze. Papildinformāciju skatiet tēmā [Apskats par Power BI integrāciju elementu krātuvē](power-bi-integration-entity-store.md).
 
-| Elements        | Galvenie apkopošanas mērījumi | Datu avots programmai Dynamics 365 for Operations | Lauks              | Apraksts                           |
-|---------------|----------------------------|---------------------------------------------|--------------------|---------------------------------------|
-| Rēķina rindas | Pirkšana                   | VendInvoiceTrans                            | SUM(LineAmountMST) | Summa uzskaites valūtā |
+Šajā saturā ietvertie apkopošanas mērījumi ir apakškopa tiem apkopošanas mērījumiem, kas ir pieejami pirkšanas kubā programmatūrā Microsoft Dynamics AX 2012 un Microsoft Dynamics AX 2012 R3. Lai padarītu kuba apkopošanas mērījumus pieejamus elementu krātuvē, tie ir jāpadara izvietojami. Papildinformāciju skatiet emuāra ieraksta [Pārskats par Power BI integrāciju, izmantojot elementu krātuvi](power-bi-integration-entity-store.md) sadaļā par apkopošanas mērījumu izvietošanas elementu krātuvē procedūru. Tālāk norādītie galvenie apkopošanas mērījumi ir tieši pieejami no elementa Rēķina rindas, un tie tiek izmantoti kā satura pamatdati.
 
-Tālāk esošajā tabulā ir norādīti galvenie mērījumi, kas tiek aprēķināti satura pakotnē no elementa Rēķina rindas.
+| Elements        | Galvenie apkopošanas mērījumi | Datu avots                                 | Lauks              | apraksts                            |
+|---------------|----------------------------|---------------------------------------------|--------------------|----------------------------------------|
+| Rēķina rindas | Pirkšana                   | VendInvoiceTrans                            | SUM(LineAmountMST) | Summa uzskaites valūtā. |
+
+Tālāk esošajā tabulā ir norādīti galvenie satura mērījumi, kas tiek aprēķināti no elementa Rēķina rindas.
 
 | Mērs               | Aprēķins                                                                                         |
 |-----------------------|-----------------------------------------------------------------------------------------------------|
@@ -148,7 +159,7 @@ Tālāk esošajā tabulā ir norādīti galvenie mērījumi, kas tiek aprēķin�
 | Pagājušā gada pirkumi    | Pagājušā gada pirkumi = CALCULATE(SUM('Rēķina rindas'\[Pirkšana\]), SAMEPERIODLASTYEAR(Datumi\[Datums\])) |
 | Pirkumu palielinājums pa gadiem   | Pirkumu palielinājums pa gadiem = \[Pašreizējā gada pirkumi\] – \[Pagājušā gada pirkumi\]                            |
 
-Tālāk norādītās galvenās dimensijas satura pakotnē tiek izmantotas kā filtri, lai sadalītu apkopošanas mērījumus, iegūstot lielāku granularitāti un sniedzot dziļākus analītiskos ieskatus.
+Tālāk norādītās galvenās dimensijas saturam tiek izmantotas kā filtri, lai sadalītu apkopošanas mērījumus, iegūstot lielāku granularitāti un sniedzot dziļākus analītiskos ieskatus.
 
 | Elements                 | Atribūtu piemēri                                |
 |------------------------|-------------------------------------------------------|
@@ -158,17 +169,5 @@ Tālāk norādītās galvenās dimensijas satura pakotnē tiek izmantotas kā fi
 | Juridiskas personas         | Juridiskās personas nosaukums                                     |
 | Datumi                  | Datumi, Gada nobīde                                    |
 
-Pēc noklusējuma satura pakotne nodrošina pašreizējā kalendārā gada datu rādīšanu. Taču varat mainīt datumu filtru pārskata filtru sadaļā. Varat mainīt arī uzņēmuma filtru.
-
-## <a name="additional-resources"></a>Papildu resursi
-Šeit norādītas dažas noderīgas saites, kas ir saistītas ar elementiem un Power BI satura izveidi:
-
--   [Datu elementi](..\data-entities\data-entities.md)
--   [Organizācijas satura pakotnes izveide](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Datu modelēšana, izmantojot Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Power BI elementu pievienošana darbvietām](configure-power-bi-integration.md)
-
-
-
-
+Pēc noklusējuma saturs nodrošina pašreizējā kalendārā gada datu rādīšanu. Taču varat mainīt datumu filtru pārskata filtru sadaļā. Varat mainīt arī uzņēmuma filtru.
 

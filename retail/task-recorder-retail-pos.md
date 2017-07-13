@@ -3,25 +3,27 @@ title: "POS uzdevuma reģistrētājs un palīdzība"
 description: "Šajā tēmā ir aprakstīts, kā lietot uzdevuma reģistrētāju programmās Retail Modern POS un Cloud POS"
 author: mugunthanm
 manager: AnnBe
-ms.date: 2017-05-15
+ms.date: 06/19/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
+audience: Application User
 ms.reviewer: 41
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 1205393
 ms.assetid: 2f13e9cf-55b5-458b-8c32-3f8cd98c9ecf
 ms.search.region: Global
 ms.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3ca86a3353d3f613057dd77754266fc69975229f
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 007a7e8a34f3f5a2d0d18eb3955822a8fd8bdd0a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 ---
 
@@ -40,11 +42,11 @@ Uzdevuma reģistrētājs var nodrošināt klientā veikto lietotāja darbību pr
 ## <a name="basic-configuration"></a>Pamata konfigurācija
 Lai POS iespējotu uzdevuma reģistrēšanu, veiciet tālāk norādītas darbības.
 
-1.  Noklikšķiniet uz **Mazumtirdzniecība un komercija** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **Reģistri**.
+1.  Noklikšķiniet uz **Mazumtirdzniecība** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **Reģistri**.
 2.  Noklikšķiniet uz kases sistēmas, kurā vēlaties iespējot uzdevuma reģistrēšanu.
 3.  Cilnes **Reģistrs** kopsavilkuma cilnē **Vispārīgi** iestatiet opcijas **Iespējot uzdevumu ierakstīšanu** vērtību **Jā**.
 4.  Noklikšķiniet uz **Saglabāt**.
-5.  Pārejiet uz sadaļu **Mazumtirdzniecība un komercija** &gt; **Mazumtirdzniecības IT** &gt; **Sadales grafiks**.
+5.  Dodieties uz **Mazumtirdzniecība** &gt; **Mazumtirdzniecības IT** &gt; **Sadales grafiks**.
 6.  Atlasiet uzdevumu **Reģistri (1090)** un pēc tam noklikšķiniet uz **Izpildīt tūlīt**.
 
 ## <a name="create-a-recording"></a>Ieraksta izveide
@@ -54,7 +56,9 @@ Lai izveidotu jaunu ierakstu, izmantojot uzdevuma reģistrētāju, veiciet tāl�
 2.  Lapas **Iestatījumi** sadaļā **Uzdevuma reģistrētājs** noklikšķiniet uz **Atvērt uzdevuma reģistrētāju**. Tiek parādīta rūts **Uzdevuma reģistrētājs**. Varat noklikšķināt uz pogas **Aizvērt** (**X**) augšējā labajā stūrī, lai aizvērtu rūti **Uzdevuma reģistrētājs** pirms jaunas reģistrēšanas sesijas sākšanas. Lai atkārtoti atvērtu rūti, atkārtojiet 2. darbību.
 [![Rūts Uzdevuma reģistrētājs](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
 
-3.  Ievadiet ieraksta nosaukumu un aprakstu un pēc tam noklikšķiniet uz **Sākt**. Reģistrēšanas sesija sākas, tiklīdz noklikšķināt uz **Sākt**. **Piezīme.** Ja ierakstīšanas laikā noklikšķināt uz pogas **Aizvērt** (**X**) augšējā labajā stūrī, tiek aizvērta rūts **Uzdevuma reģistrētājs**, taču reģistrēšanas sesija netiek beigta. Lai atkāroti atvērtu uzdevuma reģistrētāju, noklikšķiniet uz pogas Palīdzība (jautājuma zīmes ikonas) ekrāna augšpusē. 
+3.  Ievadiet ieraksta nosaukumu un aprakstu un pēc tam noklikšķiniet uz **Sākt**. Reģistrēšanas sesija sākas, tiklīdz noklikšķināt uz **Sākt**.
+
+**Piezīme.** Ja ierakstīšanas laikā noklikšķināt uz pogas **Aizvērt** (**X**) augšējā labajā stūrī, tiek aizvērta rūts **Uzdevuma reģistrētājs**, taču reģistrēšanas sesija netiek beigta. Lai atkāroti atvērtu uzdevuma reģistrētāju, noklikšķiniet uz pogas **Palīdzība** (jautājuma zīmes ikonas) ekrāna augšpusē. 
 
 [![Jautājuma zīme](./media/help.jpg)](./media/help.jpg)
 
@@ -95,7 +99,10 @@ Lai atsāktu reģistrēšanas sesiju pēc tās pārtraukšanas noklikšķiniet u
 
 ### <a name="capture-screenshots"></a>Veikt ekrānuzņēmumus
 
-Uzdevuma reģistrētājs var nodrošināt Retail Modern POS lietotāj interfeisa ekrānuzņēmumu veikšanu biznesa procesa reģistrēšanas laikā. Uzdevumu reģistrētājā ekrānuzņēmumi tiek izmantoti tad, ja lejupielādējat ierakstu Word dokumenta formātā. Lai ieslēgtu ekrānuzņēmumu veikšanas līdzekli, iestatiet opcijas **Veikt ekrānuzņēmumu** vērtību **Jā**. Piezīme. Funkcija Veikt ekrānuzņēmumu netiek atbalstīta programmā Cloud POS.
+Uzdevuma reģistrētājs var nodrošināt Retail Modern POS lietotāj interfeisa ekrānuzņēmumu veikšanu biznesa procesa reģistrēšanas laikā. Uzdevumu reģistrētājā ekrānuzņēmumi tiek izmantoti tad, ja lejupielādējat ierakstu Word dokumenta formātā. Lai ieslēgtu ekrānuzņēmumu veikšanas līdzekli, iestatiet opcijas **Veikt ekrānuzņēmumu** vērtību **Jā**. 
+
+#### <a name="note"></a>Piezīme
+> Funkcija Veikt ekrānuzņēmumu netiek atbalstīta programmā Cloud POS.
 
 ### <a name="start-task-and-end-task"></a>Uzdevuma sākšana un beigšana
 
@@ -119,11 +126,13 @@ Laukā **Teksts** ievadītais teksts tiek rādīts *virs* darbības teksta uzdev
 
 Laukā **Piezīmes** ievadītais teksts tiek rādīts *zem* darbības teksta uzdevuma reģistrētājā. Lai izlasītu piezīmes tekstu, lietotājam ir jāizvērš darbības teksts uznirstošajā logā. Šī atrašanās vieta ir piemērota papildinformācijai vai citai informācijai, kas lietotājam var noderēt lietotājam, taču nav nepieciešama, lai veiktu darbību.
 
-## <a name="help-at-retail-modern-pos-and-cloud-pos"></a>Palīdzība programmās Retail Modern POS un Cloud POS
-Lai jūsu pielāgotie uzdevumu ieraksti tiktu rādīti programmu Retail Modern POS un Cloud POS rūtī Palīdzība teksta formātā, jums ir jāsaglabā ieraksti savā BPM bibliotēkā un pēc tam ir jāatjaunina palīdzības sistēmas parametri tā, lai tie norādītu uz jūsu BPM bibliotēku. Papildinformāciju skatiet tēmā [Savienojuma izveide ar palīdzības sistēmu.](https://ax.help.dynamics.com/en/wiki/working-with-help/#connecting-the-help-system) Retail Modern POS un Cloud POS palīdzības sistēma nodrošina reāllaika meklēšanu pakalpojumā LCS. Sistēma nodrošina meklēšanu visās BPM bibliotēkās, kas ir atlasītas Microsoft Dynamics AX palīdzības sistēmas parametros, un atbilstošo rezultātu parādīšanu. Lai piekļūtu izvēlnei **Palīdzība**, noklikšķiniet uz pogas **Palīdzīga** ekrāna augšdaļā, meklēšanas lodziņā ievadiet procesa nosaukumu un nospiediet meklēšanas pogu. 
+## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Palīdzība programmās Retail Modern POS un Cloud POS
+Lai jūsu pielāgotie uzdevumu ieraksti tiktu rādīti programmu Retail Modern POS un Cloud POS rūtī Palīdzība teksta formātā, jums ir jāsaglabā ieraksti savā BPM bibliotēkā un pēc tam ir jāatjaunina palīdzības sistēmas parametri tā, lai tie norādītu uz jūsu BPM bibliotēku. Plašāku informāciju skatiet rakstā [Savienojuma izveidošana ar palīdzības sistēmu](/dynamics365/unified-operations/dev-itpro/get-started/help-connect). Retail Modern POS un Cloud POS palīdzības sistēma nodrošina reāllaika meklēšanu pakalpojumā LCS. Sistēma nodrošina meklēšanu visās BPM bibliotēkās, kas ir atlasītas Microsoft Dynamics 365 for Retail palīdzības sistēmas parametros, un atbilstošo rezultātu parādīšanu. Lai piekļūtu izvēlnei **Palīdzība**, noklikšķiniet uz pogas **Palīdzīga** (jautājuma zīme) ekrāna augšdaļā, meklēšanas lodziņā ievadiet procesa nosaukumu un nospiediet meklēšanas pogu. 
 
 [![Poga Palīdzība](./media/help.jpg)](./media/help.jpg) 
 
-Kad meklēšanas rezultātu sarakstā noklikšķināt uz uzdevuma ceļveža, varat skatīt darbības palīdzības tēmas formātā vai eksportēt darbības Word dokumenta formātā. Piezīme. Retail Modern POS un Cloud POS palīdzības sistēma nenodrošina uzdevumu ceļvežu automātisku parādīšanu, pamatojoties uz atvērto veidlapu vai veiktajām darbībām. Lai iegūtu rezultātus, jums ir jāievada procesa nosaukums meklēšanas lodziņā un jānoklikšķina uz meklēšanas pogas.
+Kad meklēšanas rezultātu sarakstā noklikšķināt uz uzdevuma ceļveža, varat skatīt darbības palīdzības tēmas formātā vai eksportēt darbības Word dokumenta formātā. 
+#### <a name="note"></a>Piezīme
+> Palīdzība programmās Retail Modern POS un Cloud POS nevar parādīt uzdevumu ceļvežus, ņemot vērā, kuru veidlapu pašlaik atvērāt vai kuru darbību izpildāt. Meklēšanas lodziņā ierakstiet procesa nosaukumu un pēc tam noklikšķiniet uz **Meklēt**.
 
 

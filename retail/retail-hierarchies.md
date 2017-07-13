@@ -1,28 +1,29 @@
 ---
 title: "Mazumtirdzniecības hierarhijas"
-description: "Šajā rakstā ir aprakstītas programmā Microsoft Dynamics AX pieejamās mazumtirdzniecības hierarhijas."
+description: "Šajā rakstā ir aprakstītas programmā Microsoft Dynamics 365 for Retail pieejamās mazumtirdzniecības hierarhijas."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 15851
 ms.assetid: dfa11d41-2a0c-4cde-99b6-058c49176c94
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2544b299267ec6e21adf5c657c23f545fc66a0b3
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: a425680fb4d2e2da8d96acd843694ea9a07e29f0
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -32,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Šajā rakstā ir aprakstītas programmā Microsoft Dynamics AX pieejamās mazumtirdzniecības hierarhijas.
+Šajā rakstā ir aprakstītas programmā Microsoft Dynamics 365 for Retail pieejamās mazumtirdzniecības hierarhijas.
 
 Varat izveidot mazumtirdzniecības kategoriju hierarhiju, lai sakārtotu preces, ko pārdodat mazumtirdzniecības kanālos. Varat izmantot mazumtirdzniecības preču hierarhijas, lai dalītu preces kategorijās vai grupās. Šīs preces tad var izmantot preču klāstu un klientu lojalitātes programmu izveidei. Var arī piešķirt preces īpašības un rekvizītus, piešķirt cenu struktūru, iekļaut preces preču reklamēšanas pasākumos, kā arī izmantot preces pārskatiem. Varat izveidot vienu mazumtirdzniecības kategoriju hierarhiju, lai pārstāvētu visas preces un kategorijas jūsu uzņēmumā, un pēc tam izmantot šo kategoriju hierarhiju vairākiem mērķiem. Varat arī izveidot vairākas mazumtirdzniecības kategoriju hierarhijas īpašiem nolūkiem, piemēram, preču reklamēšanas pasākumiem. Veidojot mazumtirdzniecības preču hierarhiju, jāpiešķir kategoriju hierarhijas tips, lai noteiktu kategoriju hierarhijas mērķi. Piemēram: pārlūkojot preces pēc kategorijas tiešsaistē vai pārdošanas punktā (POS), atsauce tiks norādīta tikai uz tām preču hierarhijām, kurām piešķirts tips **Mazumtirdzniecības navigācijas hierarhija**.
 

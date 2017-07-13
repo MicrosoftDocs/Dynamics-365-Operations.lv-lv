@@ -3,25 +3,27 @@ title: "Svītrkodu masku iestatīšana"
 description: "Šajā tēmā ir aprakstīts, kā iestatīt svītrkoda maskas rakstzīmes, svītrkoda maskas un kā piešķirt svītrkoda maskas svītrkodiem."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 265994
 ms.assetid: 5831c74d-d2a1-4fa5-9a9a-a5aba8848381
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7b71cbe75f2d7e8f20201e8fa50df8ea1021c4de
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 958cac2e85ae7fa514f6f26cbb6178d8fdec9783
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -36,7 +38,7 @@ ms.lasthandoff: 05/25/2017
 <a name="set-up-bar-code-mask-characters"></a>Svītrkoda maskas rakstzīmju iestatīšana
 -------------------------------
 
-Svītrkoda maskas tiek izmantotas, lai izveidotu svītrkodus un ātri identificētu svītrkodus, kuri tiek skenēti pārdošanas punktā (POS). Maskas sastāv no rakstzīmēm, kas darbojas kā vietturi, kuri norāda izveidojamo svītrkodu formātu. Lai konfigurētu svītrkoda masku, ir jāiestata svītrkoda maskas rakstzīmes. Dodieties uz **Mazumtirdzniecība un komercija** &gt; **Krājumu pārvaldība** &gt; **Svītrkodi un uzlīmes** &gt; **Maskas rakstzīmes**. Noklikšķiniet uz **Jauns**, lai izveidotu svītrkoda maskas rakstzīmes. Maskas rakstzīmes nevar izveidot, lai norādītu šādus svītrkoda datus.
+Svītrkoda maskas tiek izmantotas, lai izveidotu svītrkodus un ātri identificētu svītrkodus, kuri tiek skenēti pārdošanas punktā (POS). Maskas sastāv no rakstzīmēm, kas darbojas kā vietturi, kuri norāda izveidojamo svītrkodu formātu. Lai konfigurētu svītrkoda masku, ir jāiestata svītrkoda maskas rakstzīmes. Dodieties uz **Mazumtirdzniecība** &gt; **Krājumu pārvaldība** &gt; **Svītrkodi un uzlīmes** &gt; **Maskas rakstzīmes**. Noklikšķiniet uz **Jauns**, lai izveidotu svītrkoda maskas rakstzīmes. Maskas rakstzīmes nevar izveidot, lai norādītu šādus svītrkoda datus.
 
 |                      |                                                                                                                 |
 |----------------------|-----------------------------------------------------------------------------------------------------------------|
@@ -53,12 +55,13 @@ Svītrkoda maskas tiek izmantotas, lai izveidotu svītrkodus un ātri identific�
 | **Darbinieks**         | Norāda svītrkoda segmentu darbinieka ID numuram, kas tiek izmantots, lai veiktu POS pieteikšanos ar svītrkodu.                                  |
 | **Debitors**         | Norāda debitora ID segmentu.                                                                                  |
 | **Datu ievade**       | *Vēl nav ieviests.*                                                                                          |
-| **Atlaides kods**    | Norāda atlaižu kodu svītrkodam, kas tiek izmantots, lai pievienotu atlaidi pārdošanas punkta transakcijai             |
+| **Atlaides kods**    | *Pazemināts* kopš Dynamics 365 for Retail 2017. gada pavasara laidiena. Iepriekš: norāda atlaižu kodu svītrkodam, kas tiek izmantots, lai pievienotu atlaidi pārdošanas punkta transakcijai.                                                                   |
+| **Kupona kods**      | Norāda svītrkoda kupona kodu, kas izmantots, lai pievienotu atlaidi mazumtirdzniecības pasūtījumam. Tas aizstāja atlaides kodu.     |
 | **Dāvanu karte**        | Norāda dāvanu kartes numuru, izdodot dāvanu karti vai veicot ar to apmaksu.                                               |
 | **Lojalitātes programmas karte**     | Pievieno transakcijai lojalitātes programmas debitoru, un to var izmantot, veicot maksājumu lojalitātes programmas ietvaros.                             |
 
 ## <a name="define-bar-code-masks"></a>Noteikt svītrkoda maskas
-Pēc svītrkoda maskas rakstzīmju norādīšanas nepieciešamajām svītrkoda maskām, dodieties uz **Mazumtirdzniecība un komercija** &gt; **Krājumu pārvaldība** &gt; **Svītrkodi un uzlīmes** &gt; **Svītrkoda maskas iestatīšana**. Šajā lapā varat definēt svītrkoda maskas, kurās tiek izmantotas iepriekš norādītās rakstzīmes. Šīs svītrkoda maskas tiks izmantotas, izveidojot svītrkodus un arī palīdzēs identificēt svītrkodus, kuri tiek skenēti POS.
+Pēc svītrkoda maskas rakstzīmju norādīšanas nepieciešamajām svītrkoda maskām, dodieties uz **Mazumtirdzniecība** &gt; **Krājumu pārvaldība** &gt; **Svītrkodi un uzlīmes** &gt; **Svītrkoda maskas iestatīšana**. Šajā lapā varat definēt svītrkoda maskas, kurās tiek izmantotas iepriekš norādītās rakstzīmes. Šīs svītrkoda maskas tiks izmantotas, izveidojot svītrkodus un arī palīdzēs identificēt svītrkodus, kuri tiek skenēti POS.
 
 1.  Noklikšķiniet uz **Jauns**, lai izveidotu jaunu svītrkoda masku.
 2.  Ievadiet vērtības laukā **Maskas ID** un **Apraksts** un pēc tam atlasiet svītrkoda maskas tipu laukā **Tips**.

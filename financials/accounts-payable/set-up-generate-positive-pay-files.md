@@ -3,13 +3,13 @@ title: "Pozitīvo maksājumu failu iestatīšana un izveidošana"
 description: "Šajā rakstā ir izskaidrots, kā iestatīt pozitīvo maksājumu un izveidot pozitīvo maksājumu failus."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 88433
 ms.assetid: 73f3dcf6-040a-44ad-9512-7b3e0d17a571
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f82ed69aaaf4d3345ef4e74a338124465dcf2358
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fc4269fc8bf8319a2a2f4e3769f0ffb31d5ef79d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/25/2017
 Iestatiet pozitīvo maksājumu, lai izveidotu elektronisku čeku sarakstu, kas tiek iesniegts bankai. Kad čeks ir iesniegts bankai, banka to salīdzina ar čeku sarakstu. Ja čeks atbilst čekam sarakstā, banka to dzēš. Ja čeks neatbilst čekam sarakstā, banka to aiztur uz pārskatīšanu.
 
 ## <a name="security-for-positive-pay-files"></a>Pozitīvā maksājuma failu drošība
-Pozitīvo maksājumu faili var saturēt konfidenciālu informāciju par maksājumu saņēmējiem un čeku summām. Šī iemesla dēļ nodrošiniet, lai no failu ģenerēšanas, līdz to saņemšanai bankā, tiek veikti atbilstoši drošības pasākumi. Pozitīvo maksājumu faili tiek lejupielādēti atrašanās vietā, kas ir norādīta tīmekļa pārlūkprogrammā. Tā kā pozitīvo maksājumu faili var saturēt sensitīvu informāciju, jāievēro, ka tikai autorizētiem lietotājiem ir piekļuve šīs informācijas izveidošanai un skatīšanai programmā Microsoft Dynamics 365 for Operations. Izmantojiet nākamo tabulu, kas palīdzēs noskaidrot nepieciešamās privilēģijas.
+Pozitīvo maksājumu faili var saturēt konfidenciālu informāciju par maksājumu saņēmējiem un čeku summām. Šī iemesla dēļ nodrošiniet, lai no failu ģenerēšanas, līdz to saņemšanai bankā, tiek veikti atbilstoši drošības pasākumi. Pozitīvo maksājumu faili tiek lejupielādēti atrašanās vietā, kas ir norādīta tīmekļa pārlūkprogrammā. Tā kā pozitīvo maksājumu faili var saturēt sensitīvu informāciju, jāievēro, ka tikai autorizētiem lietotājiem ir piekļuve šīs informācijas izveidošanai un skatīšanai programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise. Izmantojiet nākamo tabulu, kas palīdzēs noskaidrot nepieciešamās privilēģijas.
 
 <table>
 <colgroup>

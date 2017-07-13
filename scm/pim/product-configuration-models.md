@@ -3,7 +3,7 @@ title: "Pārskats par preču konfigurācijas modeļiem"
 description: "Šajā rakstā ir definēti termini un koncepcijas, kas ir saistīti ar preču konfigurācijas modeļiem. Preču konfigurācijas modeļi sniedz iespēju veidot iekšējo preču struktūru, ko var izmantot, lai konfigurētu daudzus vienas preces variantus."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PCProductConfigurationModelDetails, PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 4031
 ms.assetid: 70b968e8-e550-4731-823d-d713b8910f7b
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.dyn365.intro: Feb-16
 ms.dyn365.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 30580b059a4c240ad540a9c347b0551df0ab5c02
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1270c35bc7dbe4c85a1aa991a0387b33e1cb6990
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -121,7 +121,7 @@ Ja atribūta tips ir <strong>Būla</strong>, <strong>Vesels skaitlis</strong> ar
 </tr>
 </tbody>
 </table>
-Sistēmas definēts tabulas ierobežojums norāda kartēšanu starp atribūta tipu un lauku Microsoft Dynamics 365 for Operations tabulā. Sistēmas definēts tabulas ierobežojums dinamiski saista atribūta tipu un lauku. Šī saite sniedz iespēju ar preces konfigurācijas modeļa atribūtu atspoguļojot Dynamics 365 for Operations tabulas lauka datus.</td>
+Sistēmas definēts tabulas ierobežojums norāda kartēšanu starp atribūta tipu un lauku Finance and Operations tabulā. Sistēmas definēts tabulas ierobežojums dinamiski saista atribūta tipu un lauku. Šī saite sniedz iespēju ar preces konfigurācijas modeļa atribūtu atspoguļojot Finance and Operations tabulas lauka datus.</td>
 </tr>
 <tr class="odd">
 <td>Aprēķini</td>

@@ -3,14 +3,14 @@ title: "Žurnālu rindu un dokumentu publicēšana programmā Excel"
 description: "Šajā tēmā ir paskaidrots, kā ievadīt un publicēt Virsgrāmatas žurnālu rindas programmā Microsoft Excel. Tajā ir ietverta informācija par dažādajām veidnēm, ko varat izmantot atkarībā no ievadītās transakcijas veida."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 62213
 ms.assetid: 211874a7-4bf0-4a0c-96c2-fa05042777d3
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a43bf66de7602aa9fb47925996ec5b979e1f8dac
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1fed8d162a37736883365fa765a059e5beff06be
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -48,9 +48,9 @@ Lietotāji var ievadīt un publicēt finanšu žurnālu rindas programmā Micros
 | Debitoru maksājumu žurnāls | Konts: Debitors Korespondējošais konts: Virsgrāmata, Banka Tiek atbalstīti starpuzņēmumu konti                                               | Debitoru maksājumu žurnāls                                                                |
 | Projekta izdevumu žurnāls  | Konts: Projekts, Virsgrāmata, Debitors, Kreditors Korespondējošais konts: Projekts, Virsgrāmata, Debitors, Kreditors Tiek atbalstīti starpuzņēmumu konti | Virsgrāmatas žurnāla izdevumi (Sadaļā Projektu vadība un uzskaite)                       |
 
-Kad rindas tiek publicētas, tās tiek validētas, lai pārliecinātos, ka tās atbilst finanšu žurnālos iestatītajām kārtulām. Pēc rindu publicēšanas lietotāji var rediģēt vai grāmatot dokumentus programmatūrā Microsoft Dynamics 365 for Operations. 
+Kad rindas tiek publicētas, tās tiek validētas, lai pārliecinātos, ka tās atbilst finanšu žurnālos iestatītajām kārtulām. Pēc rindu publicēšanas lietotāji var rediģēt vai grāmatot dokumentus no programmatūras Microsoft Dynamics 365 for Finance and Operations, izdevuma Enterprise. 
 
-Lai pievienotu veidnei finanšu dimensijas, ir jāveic papildu izmaiņas. Papildinformāciju skatiet tēmā [Dimensiju pievienošana Microsoft Excel veidnei](/dynamics365/operations/dev-itpro/financial/add-dimensions-excel-templates). Pēc dimensiju pievienošanas elementam tās ir pieejamas Excel veidotājā un tās var pievienot veidnei.
+Lai pievienotu veidnei finanšu dimensijas, ir jāveic papildu izmaiņas. Papildinformāciju skatiet tēmā [Dimensiju pievienošana Microsoft Excel veidnei](/dynamics365/unified-operations/dev-itpro/financial/add-dimensions-excel-templates). Pēc dimensiju pievienošanas elementam tās ir pieejamas Excel veidotājā un tās var pievienot veidnei.
 
 
 

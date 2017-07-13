@@ -80,7 +80,7 @@ Izmantojot Retail, veikalu vadītāji var izveidot un publicēt darbinieku maiņ
 
 Veikala asistenti redz maiņas un piešķirtos grafikus, kā arī maiņu instrukcijas un to, kuri kolēģi ir piešķirti maiņām. Turklāt viņi var iesniegt prombūtnes pieprasījumus, maiņu samainīšanas pieprasījumus ar kolēģiem un maiņu piedāvājumu pieprasījumus.
 
-## <a name="customize-and-administer-retail-environments"></a>Pielāgot un administrēt mazumtirdzniecības vides
+## <a name="customize-and-administer-retail-environments"></a>Pielāgot un administrēt Retail vides
 Ja jums tiek lūgts pielāgot savu vidi vai ja atbildat par savas sistēmas izvietošanu un uzturēšanu, papildus vispārīgajam saturam apskatiet programmai Retail raksturīgo izstrādātāja un sistēmas administratora saturu.
 
 - [Dynamics 365 for Retail IT speciālistiem un izstrādātājiem](dev-itpro/dev-retail-home-page.md)

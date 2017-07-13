@@ -3,25 +3,27 @@ title: "Definēt un uzturēt kanālu klientus, reģistrus un aparatūras stacija
 description: "Šajā tēmā ir izklāstīts, kā perifērijas ierīces savienot ar jūsu Retail POS."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 92383
 ms.assetid: 83f31ea6-f0a2-4501-9d4d-a37b6eec2599
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 800e5c139b54541a179a336c8247eaa6017201d8
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 5c5a6cc45ad65c7581dbfb9a4441fdddbbc19242
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -38,13 +40,13 @@ ms.lasthandoff: 05/25/2017
 ## <a name="key-components"></a>Galvenie komponenti
 Lai definētu attiecības starp veikalu, pārdošanas punktu (POS) reģistriem vai kanāliem veikalā, un mazumtirdzniecības perifērijas ierīcēm, kas šos reģistrus vai kanālus lieto, lai apstrādātu transakcijas, tiek izmantoti vairāki komponenti. Šajā sadaļā ir aprakstīts katrs komponents un paskaidrots, kā tas ir jāizmanto mazumtirdzniecības veikalu izvietošanā.
 
-### <a name="pos-registers"></a>POS reģistri
+### <a name="pos-registers"></a>POS kases sistēmas
 
-Navigācija: noklikšķiniet uz **Mazumtirdzniecība un komercija** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **Reģistri**. POS reģistrs ir elements, kurš tiek izmantots konkrētas POS instances raksturlielumu definēšanai. Šie raksturlielumi ietver aparatūras profilu vai iestatījumus mazumtirdzniecības perifērijas ierīcēm, kas tiks izmantotas reģistrā, veikalu, uz kuru šis reģistrs ir kartēts, un vizuālo pieredzi lietotājam, kas piesakās šajā reģistrā.
+Navigācija: noklikšķiniet uz **Mazumtirdzniecība** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **Reģistri**. POS reģistrs ir elements, kurš tiek izmantots konkrētas POS instances raksturlielumu definēšanai. Šie raksturlielumi ietver aparatūras profilu vai iestatījumus mazumtirdzniecības perifērijas ierīcēm, kas tiks izmantotas reģistrā, veikalu, uz kuru šis reģistrs ir kartēts, un vizuālo pieredzi lietotājam, kas piesakās šajā reģistrā.
 
 ### <a name="devices"></a>Ierīces
 
-Navigācija: noklikšķiniet uz **Mazumtirdzniecība un komercija** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **Ierīces**. Ierīce ir elements, kas pārstāv fizisku instanci tādai ierīcei, kura ir kartēta uz POS reģistru. Kad ierīce tiek izveidota, tā tiek kartēta uz POS reģistru. Ierīces elements seko līdzi informācijai par laiku, kad POS reģistrs tiek aktivizēts, par izmantotā klienta tipu, kā arī par programmu pakotni, kas ir izvietota konkrētā ierīcē. Ierīces var būt divu veidu: **Retail Modern POS** (MPOS) vai **Retail Cloud POS** (Cloud POS).
+Navigācija: noklikšķiniet uz **Mazumtirdzniecība** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **Ierīces**. Ierīce ir elements, kas pārstāv fizisku instanci tādai ierīcei, kura ir kartēta uz POS reģistru. Kad ierīce tiek izveidota, tā tiek kartēta uz POS reģistru. Ierīces elements seko līdzi informācijai par laiku, kad POS reģistrs tiek aktivizēts, par izmantotā klienta tipu, kā arī par programmu pakotni, kas ir izvietota konkrētā ierīcē. Ierīces var būt divu veidu: **Retail Modern POS** (MPOS) vai **Retail Cloud POS** (Cloud POS).
 
 #### <a name="mpos"></a>MPOS
 
@@ -52,7 +54,7 @@ MPOS ir POS klienta programma, kas ir instalēta operētājsistēmā Windows 8.1
 
 #### <a name="cloud-pos"></a>Cloud POS
 
-Cloud POS ir pārlūkprogrammā pieejams POS. Tā kā tas darbojas pārlūkprogrammā, pārdošanas punktam Cloud POS nav nepieciešama Windows 8.1 vai jaunāka personālā datora (PC) operētājsistēma. Ja programmas tips **Retail Cloud POS** ir kartēts uz noteiktu ierīci apstrādes birojā, šo ierīci var lietot, izmantojot pārlūkprogrammu, un nav nepieciešams lejupielādēt vai instalēt pakotni. Lai lietotu aparatūru, kas pārsniedz svītrkoda skenera iespējas, pārdošanas punktam Cloud POS ir nepieciešama aparatūras stacija.
+Cloud POS ir pārlūkprogrammā pieejams POS. Tā kā tas darbojas pārlūkprogrammā, pārdošanas punktam Cloud POS nav nepieciešama Windows 8.1 vai jaunāka personālā datora (PC) operētājsistēma. Ja programmas veids **Retail Cloud POS** ir kartēts ar noteiktu ierīci modulī Mazumtirdzniecība, šo ierīci var izmantot, lietojot pārlūkprogrammu, un nav nepieciešams lejupielādēt vai instalēt pakotni. Lai lietotu aparatūru, kas pārsniedz svītrkoda skenera iespējas, pārdošanas punktam Cloud POS ir nepieciešama aparatūras stacija.
 
 ### <a name="hardware-profile"></a>Aparatūras profils
 
@@ -60,7 +62,7 @@ Navigācija: noklikšķiniet uz **Komercija** &gt; **Kanāla iestatīšana** &gt
 
 ### <a name="hardware-station"></a>Aparatūras stacija
 
-Navigācija: noklikšķiniet uz **Mazumtirdzniecība un komercija** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikali** &gt; **Visi mazumtirdzniecības veikali**. Atlasiet veikalu un pēc tam noklikšķiniet uz kopsavilkuma cilnes **Aparatūras stacijas**. Aparatūras stacija ir biznesa loģikas instance, kas vada POS perifērijas ierīces. Aparatūras stacija tiek automātiski instalēta kopā ar MPOS. Aparatūras staciju var instalēt arī ka savrupu komponentu, un pēc tam tai var piekļūt ar MPOS vai Cloud POS, izmantojot tīmekļa pakalpojumu. Aparatūras stacijai ir jābūt definētai kanāla līmenī.
+Navigācija: noklikšķiniet uz **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikali** &gt; **Visi mazumtirdzniecības veikali**. Atlasiet veikalu un pēc tam noklikšķiniet uz kopsavilkuma cilnes **Aparatūras stacijas**. Aparatūras stacija ir biznesa loģikas instance, kas vada POS perifērijas ierīces. Aparatūras stacija tiek automātiski instalēta kopā ar MPOS. Aparatūras staciju var instalēt arī ka savrupu komponentu, un pēc tam tai var piekļūt ar MPOS vai Cloud POS, izmantojot tīmekļa pakalpojumu. Aparatūras stacijai ir jābūt definētai kanāla līmenī.
 
 ### <a name="hardware-station-profile"></a>Aparatūras stacijas profils
 
@@ -71,12 +73,12 @@ Navigācija: noklikšķiniet uz **Komercija** &gt; **Kanāla iestatīšana** &gt
 
 [![Tradicionāls, fiksēts pārdošanas punkts](./media/traditional-300x279.png)](./media/traditional.png) 
 
-Lai MPOS savienotu ar POS perifērijas ierīcēm tradicionāla, fiksēta POS scenārijā, vispirms pārejiet uz pašu reģistru un piešķiriet tam aparatūras profilu. POS reģistrus varat atrast sadaļā **Mazumtirdzniecība un komercija** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **Reģistri**. Kad aparatūras profils ir piešķirts, sinhronizējiet izmaiņas ar kanālu datu bāzi, izmantojot sadales grafiku “Reģistri”. Sadales grafikus varat atrast sadaļā **Mazumtirdzniecība un komercija** &gt; **Mazumtirdzniecības IT** &gt; **Sadales grafiks**. Pēc tam iestatiet kanālā “lokālo” aparatūras staciju. Noklikšķiniet uz **Mazumtirdzniecība un komercija** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikali** &gt; **Visi mazumtirdzniecības veikali** un atlasiet kādu veikalu. Pēc tam kopsavilkuma cilnē **Aparatūras stacijas** noklikšķiniet uz **Pievienot**, lai pievienotu kādu aparatūras staciju. Ievadiet aprakstu, kā resursdatora nosaukumu ievadiet **localhost** un pēc tam sinhronizējiet izmaiņas uz kanālu, izmantojot sadales grafiku “Kanāla konfigurācija”. Sadales grafikus varat atrast sadaļā **Mazumtirdzniecība un komercija** &gt; **Mazumtirdzniecības IT** &gt; **Sadales grafiks**. Visbeidzot pārdošanas punktā MPOS izmantojiet operāciju **Atlasīt aparatūras staciju**, lai atlasītu aparatūras staciju **localhost**. Iestatiet aparatūras staciju uz **Aktīvs**. Aparatūras profilam, kas tiek izmantots šajā scenārijā, ir jānāk no paša POS reģistra. Šim scenārijam nav nepieciešams aparatūras stacijas profils. **Piezīme.** Noteiktām aparatūras profila izmaiņām, piemēram, skaidras naudas kastes izmaiņām, ir nepieciešams, lai pēc izmaiņu sinhronizēšanas ar kanālu tiktu atvērta jauna maiņa. **Piezīme.** Lai sazinātos ar mazumtirdzniecības perifērijas ierīcēm, pārdošanas punktam Cloud POS ir jāizmanto savrupa aparatūras stacija.
+Lai MPOS savienotu ar POS perifērijas ierīcēm tradicionāla, fiksēta POS scenārijā, vispirms pārejiet uz pašu reģistru un piešķiriet tam aparatūras profilu. POS kases sistēmas ir pieejamas sadaļā **Mazumtirdzniecība** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **Reģistri**. Kad aparatūras profils ir piešķirts, sinhronizējiet izmaiņas ar kanālu datu bāzi, izmantojot sadales grafiku “Reģistri”. Sadales grafiki ir pieejamo sadaļā **Mazumtirdzniecība** &gt; **Mazumtirdzniecības IT** &gt; **Sadales grafiks**. Pēc tam iestatiet kanālā “lokālo” aparatūras staciju. Noklikšķiniet uz **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikali** &gt; **Visi mazumtirdzniecības veikali** un atlasiet kādu veikalu. Pēc tam kopsavilkuma cilnē **Aparatūras stacijas** noklikšķiniet uz **Pievienot**, lai pievienotu kādu aparatūras staciju. Ievadiet aprakstu, kā resursdatora nosaukumu ievadiet **localhost** un pēc tam sinhronizējiet izmaiņas uz kanālu, izmantojot sadales grafiku “Kanāla konfigurācija”. Sadales grafiki ir pieejamo sadaļā **Mazumtirdzniecība** &gt; **Mazumtirdzniecības IT** &gt; **Sadales grafiks**. Visbeidzot pārdošanas punktā MPOS izmantojiet operāciju **Atlasīt aparatūras staciju**, lai atlasītu aparatūras staciju **localhost**. Iestatiet aparatūras staciju uz **Aktīvs**. Aparatūras profilam, kas tiek izmantots šajā scenārijā, ir jānāk no paša POS reģistra. Šim scenārijam nav nepieciešams aparatūras stacijas profils. **Piezīme.** Noteiktām aparatūras profila izmaiņām, piemēram, skaidras naudas kastes izmaiņām, ir nepieciešams, lai pēc izmaiņu sinhronizēšanas ar kanālu tiktu atvērta jauna maiņa. **Piezīme.** Lai sazinātos ar mazumtirdzniecības perifērijas ierīcēm, pārdošanas punktam Cloud POS ir jāizmanto savrupa aparatūras stacija.
 
 ### <a name="mpos-or-cloud-pos-with-a-stand-alone-hardware-station"></a>MPOS vai Cloud POS ar savrupu aparatūras staciju
 [![Kopīgas perifērijas ierīces](./media/shared-300x254.png)](./media/shared.png)
 
-Šādā scenārijā savrupu aparatūras staciju kopīgi lieto MPOS un Cloud POS klienti. Šim scenārijam ir nepieciešams, lai jūs izveidotu aparatūras stacijas profilu, lai norādītu lejupielādes pakotni, portu un aparatūras profilu, kurus šī aparatūras stacija izmanto. Aparatūras stacijas profilu varat atrast sadaļā **Mazumtirdzniecība un komercija** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS profili** &gt; **Aparatūras stacijas profili**. Kad esat izveidojis aparatūras stacijas profilu, pārejiet uz konkrēto mazumtirdzniecības kanālu (**Mazumtirdzniecība un komercija** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikali** &gt; **Visi mazumtirdzniecības veikali**) un pievienojiet jaunu aparatūras staciju. Šo jauno aparatūras staciju kartējiet uz iepriekš izveidoto aparatūras stacijas profilu. Pēc tam sniedziet aprakstu, kas kasierim palīdzēs identificēt šo aparatūras staciju. Laukā **Resursdatora nosaukums** ievadiet resursdatora vietrādi URL šādā formātā: **https://&lt;MachineName:Port&gt;/HardwareStation**. (Ierakstu **&lt;MachineName:Port&gt;** aizstājiet ar aparatūras stacijas faktisko iekārtas nosaukumu un portu, kas ir norādīts aparatūras stacijas profilā.) Savrupai aparatūras stacijai ir jānorāda arī elektronisko līdzekļu pārskaitījumu (electronic funds transfer — EFT) termināļa ID. Šī vērtība identificē EFT termināli, kas ir savienots ar aparatūras staciju, kad maksājumu savienotājs sazinās ar maksājuma nodrošinātāju. Pēc tam no faktiskās aparatūras stacijas iekārtas pārejiet uz kanālu un atlasiet aparatūras staciju. Pēc tam noklikšķiniet uz **Lejupielādēt** un instalējiet aparatūras staciju. Pēc tam no MPOS vai Cloud POS izmantojiet operāciju **Atlasīt aparatūras staciju**, lai atlasītu iepriekš instalēto aparatūras staciju. Atlasiet vienumu **Savienot pārī**, lai izveidotu drošas attiecības starp POS un aparatūras staciju. Šī darbība ir jāizpilda vienu reizi katrai POS un aparatūras stacijas kombinācijai. Kad aparatūras stacija ir savienota pārī, tāda pati operācija tiek izmantota, lai aktivizētu aparatūras staciju, kamēr tā tiek izmantota. Šajā scenārijā aparatūras profils ir jāpiešķir aparatūras stacijas profilam, nevis pašam reģistram. Ja kaut kādu iemeslu dēļ aparatūras stacijai nav tieši piešķirts aparatūras profils, tad tiek izmantots reģistram piešķirtais aparatūras profils
+Šādā scenārijā savrupu aparatūras staciju kopīgi lieto MPOS un Cloud POS klienti. Šim scenārijam ir nepieciešams, lai jūs izveidotu aparatūras stacijas profilu, lai norādītu lejupielādes pakotni, portu un aparatūras profilu, kurus šī aparatūras stacija izmanto. Aparatūras stacijas profils ir pieejams sadaļā **Mazumtirdzniecība** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS profili** &gt; **Aparatūras stacijas profili**. Kad esat izveidojis aparatūras stacijas profilu, pārejiet uz konkrēto mazumtirdzniecības kanālu (**Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikali** &gt; **Visi mazumtirdzniecības veikali**) un pievienojiet jaunu aparatūras staciju. Šo jauno aparatūras staciju kartējiet uz iepriekš izveidoto aparatūras stacijas profilu. Pēc tam sniedziet aprakstu, kas kasierim palīdzēs identificēt šo aparatūras staciju. Laukā **Resursdatora nosaukums** ievadiet resursdatora vietrādi URL šādā formātā: **https://&lt;MachineName:Port&gt;/HardwareStation**. (Ierakstu **&lt;MachineName:Port&gt;** aizstājiet ar aparatūras stacijas faktisko iekārtas nosaukumu un portu, kas ir norādīts aparatūras stacijas profilā.) Savrupai aparatūras stacijai ir jānorāda arī elektronisko līdzekļu pārskaitījumu (electronic funds transfer — EFT) termināļa ID. Šī vērtība identificē EFT termināli, kas ir savienots ar aparatūras staciju, kad maksājumu savienotājs sazinās ar maksājuma nodrošinātāju. Pēc tam no faktiskās aparatūras stacijas iekārtas pārejiet uz kanālu un atlasiet aparatūras staciju. Pēc tam noklikšķiniet uz **Lejupielādēt** un instalējiet aparatūras staciju. Pēc tam no MPOS vai Cloud POS izmantojiet operāciju **Atlasīt aparatūras staciju**, lai atlasītu iepriekš instalēto aparatūras staciju. Atlasiet vienumu **Savienot pārī**, lai izveidotu drošas attiecības starp POS un aparatūras staciju. Šī darbība ir jāizpilda vienu reizi katrai POS un aparatūras stacijas kombinācijai. Kad aparatūras stacija ir savienota pārī, tāda pati operācija tiek izmantota, lai aktivizētu aparatūras staciju, kamēr tā tiek izmantota. Šajā scenārijā aparatūras profils ir jāpiešķir aparatūras stacijas profilam, nevis pašam reģistram. Ja kaut kādu iemeslu dēļ aparatūras stacijai nav tieši piešķirts aparatūras profils, tad tiek izmantots reģistram piešķirtais aparatūras profils
 
 ## <a name="client-maintenance"></a>Klienta uzturēšana
 ### <a name="registers"></a>Reģistri
@@ -85,7 +87,7 @@ POS reģistri galvenokārt tiek pārvaldīti, izmantojot pašus reģistrus, kā 
 
 ### <a name="pos-profiles"></a>POS profili
 
-POS profilus varat atrast sadaļā **Mazumtirdzniecība un komercija** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS profili**. Daudzus reģistru aspektus var būt noderīgi pārvaldīt, izmantojot profilus, jo profilus var kopīgi lietot daudzi reģistri. Profilus var kartēt uz atsevišķu reģistru vai — ja profils ir spēkā visā veikalā — uz mazumtirdzniecības veikalu. Nākamajās sadaļās ir aprakstīti POS profili un to lietošana.
+POS profili ir pieejami sadaļā **Mazumtirdzniecība** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS profili**. Daudzus reģistru aspektus var būt noderīgi pārvaldīt, izmantojot profilus, jo profilus var kopīgi lietot daudzi reģistri. Profilus var kartēt uz atsevišķu reģistru vai — ja profils ir spēkā visā veikalā — uz mazumtirdzniecības veikalu. Nākamajās sadaļās ir aprakstīti POS profili un to lietošana.
 
 #### <a name="offline-profile"></a>Bezsaistes profils
 
@@ -151,14 +153,14 @@ Ierīces ir paskaidrotas agrāk šajā rakstā. Tās tiek izmantotas, lai pārva
 
 -   **Gaidošs** — ierīce ir gatava aktivizēšanai.
 -   **Aktivizēts** — ierīce ir aktivizēta.
--   **Deaktivizēts** — ierīce ir deaktivizēta apstrādes birojā vai ar POS.
+-   **Deaktivizēts** — ierīce ir deaktivizēta modulī Mazumtirdzniecība vai POS.
 -   **Atspējots** — ierīce ir atspējota.
 
 Ar aktivizēšanu saistītā papildinformācija ietver darbinieku, kurš mainīja ierīces aktivizēšanas statusu, aktivizēšanas laikspiedolu un to, vai šīs ierīces konfigurācija tika validēta.
 
 ### <a name="client-data-synchronization"></a>Klienta datu sinhronizācija
 
-Visas izmaiņas POS klientā, izņemot izmaiņas ierīces aktivizēšanas statusā, ir nepieciešams sinhronizēt ar kanālu datu bāzi, lai tās stātos spēkā. Lai izmaiņas sinhronizētu ar kanālu datu bāzi, dodieties uz **Mazumtirdzniecība un komercija** &gt; **Mazumtirdzniecības IT** &gt; **Sadales grafiks** un palaidiet nepieciešamo sadales grafiku. Klienta izmaiņām jums ir jāpalaiž sadales grafiki “Reģistri” un “Kanāla konfigurācija”.
+Visas izmaiņas POS klientā, izņemot izmaiņas ierīces aktivizēšanas statusā, ir nepieciešams sinhronizēt ar kanālu datu bāzi, lai tās stātos spēkā. Lai sinhronizētu izmaiņas ar kanālu datu bāzi, pārejiet uz sadaļu **Mazumtirdzniecība**  &gt; **Mazumtirdzniecības IT** &gt; **Sadales grafiks** un palaidiet nepieciešamo sadales grafiku. Klienta izmaiņām jums ir jāpalaiž sadales grafiki “Reģistri” un “Kanāla konfigurācija”.
 
 
 

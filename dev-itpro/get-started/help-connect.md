@@ -1,9 +1,9 @@
 ---
 title: "Savienojuma izveide ar palīdzības sistēmu"
-description: "Šajā tēmā ir aprakstīti programmatūrai Microsoft Dynamics 365 for Operations paredzētās palīdzības sistēmas komponenti, sniegts apskats par to, kā tos savienot, un kopsavilkums par to, kā izveidot pielāgotu palīdzību."
+description: "Šajā tēmā ir aprakstīti programmatūrai Microsoft Dynamics 365 for Finance and Operations paredzētās palīdzības sistēmas komponenti, sniegts apskats par to, kā tos savienot, un kopsavilkums par to, kā izveidot pielāgotu palīdzību."
 author: margoc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 86c7cb3961ba5170c32979e77aaa5f506ffac8a1
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 425e87f8b667b53fcc950730dc4ece6330503d66
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -32,15 +32,19 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā tēmā ir aprakstīti Microsoft Dynamics 365 for Operations palīdzības sistēmas komponenti. Tajā ir sniegts pārskats par to, kā izveidot savienojumu ar šiem komponentiem, kā arī kopsavilkums par to, kā izveidot pielāgotus palīdzības materiālus. 
+Šajā tēmā ir aprakstīti Microsoft Dynamics 365 for Finance and Operations palīdzības sistēmas komponenti. Tajā ir sniegts pārskats par to, kā izveidot savienojumu ar šiem komponentiem, kā arī kopsavilkums par to, kā izveidot pielāgotus palīdzības materiālus. 
 
-<a name="help-architecture"></a>Palīdzības arhitektūra
------------------
+## <a name="help-architecture"></a>Palīdzības arhitektūra
+Nākamajā attēlā ir redzamas Finance and Operations palīdzības sistēmas daļas. Produktā iebūvētā palīdzības sistēma izgūst rakstus no Finance and Operations vietnes (https://docs.microsoft.com), kā arī uzdevumu ceļvežus no biznesa procesu modelētāja pakalpojumos Lifecycle Services (LCS). 
+> [!NOTE]
+> Līdzekļi, kas diagrammā ir atzīmēti ar zvaigznīti (\*), ir plānoti, taču vēl nav pieejami. [![Palīdzības sistēmas arhitektūra](./media/help-architecture.png)](./media/help-architecture.png)
 
-Tālāk esošajā attēlā ir redzamas Dynamics 365 for Operations palīdzības sistēmas daļas. Produktā iebūvētā palīdzības sistēma nodrošina rakstu izguvi no Dynamics 365 for Operations vietnes (https://docs.microsoft.com), kā arī uzdevumu ceļvežus no biznesa procesu modelētāja pakalpojumos Lifecycle Services (LCS). 
-**Piezīme.** Līdzekļi, kas shēmā ir atzīmēti ar zvaigznīti (\*), ir plānoti, taču vēl nav pieejami. [![Palīdzības sistēmas arhitektūra](./media/help-architecture.png)](./media/help-architecture.png)
 
 ## <a name="connecting-the-help-system"></a>Savienojuma izveide ar palīdzības sistēmu
+> [!NOTE]
+> Cilne **Uzdevumu ceļveži** pašlaik nav pieejama versijā Microsoft Dynamics 365 for Talent un Microsoft Dynamics 365 for Retail. Mēs pašlaik strādājam pie tā, šo funkcionalitāti iespējotu nākamajos laidienos. Uzdevumu ceļveži versijas Talent funkcionalitātē Darba sākšana joprojām ir pieejami pamata funkcionalitātes segšanai. Procedurāla palīdzība ir pieejama arī vietnē docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) gan versijai Retail, gan versijai Talent.
+ 
+
 Izmantojot lapu **Sistēmas parametri**, sistēmas administratori izveido savienojumu ar palīdzības sistēmas daļām implementācijas nolūkā. [![Veidlapa Sistēmas parametri ar palīdzības sistēmas iestatījumiem](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) Lapā **Sistēmas parametri** veiciet tālāk norādītās darbības.
 
 > [!IMPORTANT]
@@ -48,21 +52,27 @@ Izmantojot lapu **Sistēmas parametri**, sistēmas administratori izveido savien
 
 1.  Atlasiet Lifecycle Services projektu, ar kuru izveidot savienojumu.
 2.  Atlasiet BPM bibliotēkas (atlasītajā projektā), no kurām izgūt uzdevumu ierakstus.
+    - Saistībā ar programmatūru Finance and Operations un Microsoft saturu atlasiet 2017. gada februāra QPC vienoto bibliotēku programmatūrai Microsoft Dynamics 365 for Finance and Operations. 
+    - Versijai Retail mēs bibliotēku izlaidīsim jūlijā. 
+    - Nav nepieciešams atlasīt bibliotēku versijai Talent — savienojums ar pareizo bibliotēku jums ir izveidots. 
+
 3.  Iestatiet BPM bibliotēku attēlošanas secību. Tā nosaka secību, kādā uzdevumu ieraksti no bibliotēkām tiks rādīti rūtī **Palīdzība**.
 
-Kad esat pabeidzis šīs darbības, varat atvērt rūti **Palīdzība** un noklikšķināt uz cilnes **Uzdevumu ceļveži**. Tagad tiek rādīti uzdevumu ceļveži, kas attiecas uz programmatūrā Dynamics 365 for Operations pašlaik atvērto lapu. Ja netiek atrasts neviens uzdevuma ceļvedis, varat ievadīt atslēgvārdus, lai precizētu meklēšanu.
+Kad esat pabeidzis šīs darbības, varat atvērt rūti **Palīdzība** un noklikšķināt uz cilnes **Uzdevumu ceļveži**. Tagad tiek rādīti uzdevumu ceļveži, kas attiecas uz programmatūrā Finance and Operations pašlaik atvērto lapu. Ja netiek atrasts neviens uzdevuma ceļvedis, varat ievadīt atslēgvārdus, lai precizētu meklēšanu.
 
 ### <a name="showing-translated-task-guides"></a>Tulkotu uzdevumu ceļvežu parādīšana
 
-Tulkotie uzdevumu ceļveži pirmo reizi tika nodrošināti 2016. gada maijā izlaistajā APQC vienotajā bibliotēkā un darba sākšanas bibliotēkā. Lai programmatūrā Dynamics 365 for Operations redzētu lokalizēto uzdevumu ceļvežu palīdzību, pārliecinieties, ka ir izveidots savienojums ar maija bibliotēku. Uzdevuma ceļveža rādīšanas valodu katram lietotājam var norādīt, izmantojot valodas iestatījumus sadaļā **Opcijas** &gt; **Preferences**. 
+Tulkotie uzdevumu ceļveži pirmo reizi tika nodrošināti 2016. gada maijā izlaistajā APQC vienotajā bibliotēkā un darba sākšanas bibliotēkā. Lai redzētu lokalizēto uzdevumu ceļvežu palīdzību programmatūrā Finance and Operations, pārliecinieties, ka ir izveidots savienojums ar maija bibliotēku. Uzdevuma ceļveža rādīšanas valodu katram lietotājam var norādīt, izmantojot valodas iestatījumus sadaļā **Opcijas** &gt; **Preferences**. 
 
 > [!NOTE]
-> Lai gan daudzi uzdevumu ceļveži ir iztulkoti, pašlaik Dynamics 365 for Operations klients nerāda tulkoto uzdevumu ceļvežu nosaukumus. Turklāt maijā izlaistajā bibliotēkā tulkotā veidā ir pieejami tikai tie uzdevumu ceļveži, kas tika izlaisti 2016. gada februārī. Mēs izdosim atjauninātu bibliotēku ar papildu tulkojumiem.
+> Lai gan daudzi uzdevumu ceļveži ir iztulkoti, pašlaik Finance and Operations klients nerāda tulkoto uzdevumu ceļvežu nosaukumus. Turklāt maijā izlaistajā bibliotēkā tulkotā veidā ir pieejami tikai tie uzdevumu ceļveži, kas tika izlaisti 2016. gada februārī. Mēs izdosim atjauninātu bibliotēku ar papildu tulkojumiem.
 > -   Ja kāds uzdevumu ceļvedis ir iztulkots, kad atverat šo uzdevumu ceļvedi, viss uzdevuma ceļveža teksts jums tiek rādīts jūsu izvēlētajā valodā.
 > -   Ja kāds uzdevumu ceļvedis vēl nav iztulkots, kad to atverat, jūsu izvēlētajā valodā jums tiek rādīta tikai daļa teksta (vadīklu teksts).
 
 ## <a name="creating-custom-help"></a>Pielāgotas palīdzības veidošana
-Savai Dynamics 365 for Operations implementācijai varat izveidot pielāgotu palīdzību, izveidojot uzdevumu ierakstus, kas atspoguļo jūsu implementāciju, un tos saglabājot LCS biznesa procesu bibliotēkā. Partneriem — ja bibliotēku paaugstināt uz korporatīvu bibliotēku, un iekļaut to kādā risinājumā, tā būs pieejama jūsu klientiem. Varat arī izveidot APQC vienotās globālās bibliotēkas kopiju, pēc tam atvērt savu kopiju, no tās atvērt uzdevumu ierakstus, modificēt tos un saglabāt ierakstus ar savām veiktajām izmaiņām. Papildinformāciju skatiet tēmā [Kā izveidot uzdevuma ierakstu izmantošanai dokumentācijas vai apmācības nolūkā](../user-interface/task-recorder.md).
+Savai programmatūrai Finance and Operations un Retail varat izveidot pielāgotu palīdzību, izveidojot uzdevumu ierakstus, kas atspoguļo jūsu implementāciju, un tos saglabājot LCS biznesa procesu bibliotēkā. Pielāgotus uzdevumu ceļvežus nevar izveidot programmatūrai Talent. 
+
+Partneriem — ja bibliotēku paaugstināt uz korporatīvu bibliotēku, un iekļaut to kādā risinājumā, tā būs pieejama jūsu klientiem. Varat arī izveidot APQC vienotās globālās bibliotēkas kopiju, pēc tam atvērt savu kopiju, no tās atvērt uzdevumu ierakstus, modificēt tos un saglabāt ierakstus ar savām veiktajām izmaiņām. Papildinformāciju skatiet tēmā [Kā izveidot uzdevuma ierakstu izmantošanai dokumentācijas vai apmācības nolūkā](../user-interface/task-recorder.md).
 
 <a name="see-also"></a>Skatiet arī
 --------

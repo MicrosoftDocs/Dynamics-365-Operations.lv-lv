@@ -3,14 +3,14 @@ title: "Transportēšanas pārvaldības programmas"
 description: "Transportēšanas pārvaldības programmas definē loģiku, ko izmanto, lai izveidotu un apstrādātu transportēšanas likmes transportēšanas pārvaldības procesā."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: TMSFreightBillType, TMSGenericEngine, TMSMileageEngine, TMSRateEngine, TMSTransitTimeEngine, TMSZoneEngine
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 12234
 ms.assetid: b878478c-0e04-4a1e-a037-6fdbb345a9a3
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f5db69ed204b9503fb710426f449f38e76591641
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: c4aac72d9f7e975d4a270deb340f96ddcc9ca1fb
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -33,15 +33,15 @@ ms.lasthandoff: 05/25/2017
 
 Transportēšanas pārvaldības programmas definē loģiku, ko izmanto, lai izveidotu un apstrādātu transportēšanas likmes transportēšanas pārvaldības procesā. 
 
-Transportēšanas pārvaldības programma aprēķina uzdevumus, piemēram, pārvadātāja transportēšanas likmi. Programmas sistēma ļauj mainīt aprēķina stratēģijas izpildlaikā, pamatojoties uz Microsoft Dynamics 365 for Operations datiem. Transportēšanas pārvaldības programma līdzinās spraudnim, kas attiecas uz konkrēta pārvadātāja līgumu.
+Transportēšanas pārvaldības programma aprēķina uzdevumus, piemēram, pārvadātāja transportēšanas likmi. Programmas sistēma ļauj mainīt aprēķina stratēģijas izpildlaikā, pamatojoties uz Microsoft Dynamics 365 for Finance and Operations datiem. Transportēšanas pārvaldības programma līdzinās spraudnim, kas attiecas uz konkrēta pārvadātāja līgumu.
 
 ## <a name="what-engines-are-available"></a>Kādas programmas ir pieejamas?
-Tālāk esošajās tabulā ir norādītas transportēšanas pārvaldības programmas, kas ir pieejamas sistēmā Microsoft Dynamics 365 for Operations.
+Tālāk esošajās tabulā ir norādītas transportēšanas pārvaldības programmas, kas ir pieejamas sistēmā Microsoft Dynamics 365 for Finance and Operations.
 
-| Transportēšanas pārvaldības programma | Apraksts                                                                                                                                                                                                                                                                                                                 |
+| Transportēšanas pārvaldības programma | apraksts                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Likmes noteikšanas programma**                  | Aprēķina likmes.                                                                                                                                                                                                                                                                                                           |
-| **Vispārīgā programma**               | Vienkāršas papildu programmas, ko izmanto citas programmas, kam nav nepieciešami dati no Microsoft Dynamics 365 for Operations, piemēram, norīkojumu programma. Norīkojumu programmas izmanto, lai samazinātu transportēšanas gala izmaksas noteiktiem pasūtījumiem un rindām, pamatojoties uz dimensijām, piemēram, apjomu un svaru. |
+| **Vispārīgā programma**               | Vienkāršas papildu programmas, ko izmanto citas programmas, kam nav nepieciešami dati no Microsoft Dynamics 365 for Finance and Operations, piemēram, norīkojumu programma. Norīkojumu programmas izmanto, lai samazinātu transportēšanas gala izmaksas noteiktiem pasūtījumiem un rindām, pamatojoties uz dimensijām, piemēram, apjomu un svaru. |
 | **Attāluma noteikšanas programma**               | Aprēķina transportēšanas attālumu.                                                                                                                                                                                                                                                                                     |
 | **Tranzīta laika noteikšanas programma**          | Aprēķina laiku, kas ir nepieciešams, lai transportētu no sākuma līdz beigu punktam.                                                                                                                                                                                                                                       |
 | **Zonas noteikšanas programma**                  | Aprēķina zonu, pamatojoties uz pašreizējo adresi, un aprēķina zonu skaitu, kas jāšķērso, lai transportētu no adreses A uz adresi B.                                                                                                                                                                    |
@@ -63,23 +63,23 @@ Vairumā gadījumu, lai konfigurētu inicializēšanas datus, varat noklikšķin
 | Parametrs             | Apraksts                                                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *RateBaseAssigner*    | .NET veids, kas izskaidro likmes bāzes piešķires datus konkrētai shēmai. Parametra vērtības sintakse sastāv no diviem segmentiem, kas ir atdalīti ar vertikālo joslu (|). Pirmajā segmentā ir norādīts montāžas nosaukums, kas definē piešķīrēja veidu. Otrajā segmentā ir definēts pilnībā kvalificēta piešķīrēja veida nosaukums. Tiek ietverta arī veida nosaukumvieta. |
-| *MileageEngineCode*   | Attāluma noteikšanas programmas kods, kas identificē attāluma noteikšanas programmas ierakstu Microsoft Dynamics 365 for Operations datu bāzē.                                                                                                                                                                                                                                                             |
-| *ApportionmentEngine* | Vispārīgās programmas kods, kas identificē norīkojuma programmas ierakstu Microsoft Dynamics 365 for Operations bāzē.                                                                                                                                                                                                                                                              |
+| *MileageEngineCode*   | Attāluma noteikšanas programmas kods, kas identificē attāluma noteikšanas programmas ierakstu Microsoft Dynamics 365 for Finance and Operations datu bāzē.                                                                                                                                                                                                                                                             |
+| *ApportionmentEngine* | Vispārīgās programmas kods, kas identificē norīkojuma programmas ierakstu Microsoft Dynamics 365 for Finance and Operations bāzē.                                                                                                                                                                                                                                                              |
 
  
 <a name="how-is-metadata-used-in-transportation-management-engines"></a>Kā transportēšanas pārvaldības programmas izmanto metadatus?
 ----------------------------------------------------------
 
-Transportēšanas pārvaldības programmas, kas izmanto sistēmā Dynamics 365 for Operations definētos datus, var izmantot dažādas datu shēmas. Transportēšanas pārvaldības sistēma ļauj dažādām transportēšanas pārvaldības programmām izmantot vienas un tās pašas vispārējo fizisko datu bāžu tabulas. Lai nodrošinātu, ka programmas datu izpildes laika interpretācija ir pareiza, varat definēt metadatus datu bāzes tabulām. Tas samazina jaunu transportēšanas pārvaldības programmu izstrādes izmaksas, jo sistēmā Operations nav nepieciešamas papildu tabulu un veidlapu struktūras.
+Transportēšanas pārvaldības programmas, kas izmanto sistēmā Dynamics 365 for Finance and Operations definētos datus, var izmantot dažādas datu shēmas. Transportēšanas pārvaldības sistēma ļauj dažādām transportēšanas pārvaldības programmām izmantot vienas un tās pašas vispārējo fizisko datu bāžu tabulas. Lai nodrošinātu, ka programmas datu izpildes laika interpretācija ir pareiza, varat definēt metadatus datu bāzes tabulām. Tas samazina jaunu transportēšanas pārvaldības programmu izstrādes izmaksas, jo sistēmā Operations nav nepieciešamas papildu tabulu un veidlapu struktūras.
 
 ## <a name="what-can-be-used-as-search-data-in-rate-calculations"></a>Ko var izmantot likmes aprēķinos kā meklēšanas datus?
-Dati, kas tiek izmantoti, aprēķinot likmes sistēmā Microsoft Dynamics 365 for Operations, ir atkarīgi no metadatu konfigurācijas. Piemēram, ja likmes vēlaties meklēt, pamatojoties uz pasta indeksiem, metadati jāiestata, pamatojoties uz pasta indeksa uzmeklēšanas veidu.
+Dati, kas tiek izmantoti, aprēķinot likmes sistēmā Microsoft Dynamics 365 for Finance and Operations, ir atkarīgi no metadatu konfigurācijas. Piemēram, ja likmes vēlaties meklēt, pamatojoties uz pasta indeksiem, metadati jāiestata, pamatojoties uz pasta indeksa uzmeklēšanas veidu.
 
 ## <a name="do-all-engine-configurations-require-metadata"></a>Vai visām programmas konfigurācijām ir nepieciešami metadati?
 Nē, transportēšanas pārvaldības programmām, kas tiek izmantotas likmju aprēķiniem nepieciešamo datu izgūšanai no ārējām sistēmām, metadati nav nepieciešami. Likmju datus šīm programmām var izgūt no ārējām transportēšanas pārvadātāju sistēmām, parasti izmantojot tīmekļa pakalpojumu. Piemēram, varat izmantot attāluma noteikšanas programmu, kas tieši izgūst datus no pakalpojuma Bing kartes, tādēļ metadati šai programmai nav nepieciešami.
 | **Piezīme.**                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Transportēšanas pārvaldības programmas, kas tiek nodrošinātas kopā ar Microsoft Dynamics 365 for Operations, izmanto datus, kas tiek izgūti no programmas. Programmas, kas veido savienojumu ar ārējām sistēmām, nav ietvertas sistēmas Operations komplektācijā. Taču programmu paplašināšanas modelis ļauj izveidot paplašinājumus, izmantojot programmatūru Microsoft Dynamics 365 for Operations Visual Studio Tools. |
+| Transportēšanas pārvaldības programmas, kas tiek nodrošinātas kopā ar Finance and Operations, izmanto datus, kas tiek izgūti lietojumprogrammas. Programmas, kas veido savienojumu ar ārējām sistēmām, nav ietvertas sistēmas Operations komplektācijā. Taču programmu paplašināšanas modelis ļauj izveidot paplašinājumus, izmantojot programmatūru Microsoft Dynamics 365 for Finance and Operations Visual Studio Tools. |
 
 ## <a name="how-do-i-configure-metadata-for-a-transportation-management-engine"></a>Kā konfigurēt metadatus transportēšanas pārvaldības programmai?
 Dažādām transportēšanas pārvaldības programmām metadatus konfigurē atšķirīgi.

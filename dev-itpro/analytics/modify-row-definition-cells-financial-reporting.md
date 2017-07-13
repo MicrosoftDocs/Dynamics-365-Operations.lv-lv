@@ -3,7 +3,7 @@ title: "Rindu definīciju šūnu modificēšana"
 description: "Šajā rakstā ir paskaidrota informācija, kas ir nepieciešama katrai šūnai finanšu atskaites rindas definīcijā, un paskaidrots, kā šo informāciju ievadīt."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: Management Reporter, Core
+ms.search.scope: Management Reporter, UnifiedOperations, Core
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 920cd02edee96b829069e88e026af1774d037d9a
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: 40ae4e0774c5752d697baba6c8add8aaf44fbb6d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -252,8 +252,7 @@ Tālāk sniegtā piemēra ietvaros pārskata D kolonnas 160.–490. rindas vē
 
 |PPPI|873,872|236,144|(637,728)|4,864,274|1,590,315|(3,273,959)|
 
-|Algas un samaksas|97,624|65,573|(32,051)|653,884|441,664|(212,220)| |Pārdošanas atlaides|36,383|24,152|(12,231)|241,562|162,670|(78,892)| |Pārdošanas ieņēmumi|10,917|7,246|(3,671)|62,809|48,803|(14,006)| |Nomas izdevumi|12,052|9,019|(3,033)|80,444|60,748|(19,696)| |Biroja izdevumi|5,023|3,291|(1,732)|33,420|22,098|(11,322)| |Komandējumu izdevumi|7,656|7,641|(15)|51,062|51,469|407| |Pārdošana|1,240,119|410,389|829,730|7,139,288|2,764,549|4,374,739| |**Sakārtots pēc līdzšinējā gada absolūtās novirzes dilstošā secībā**|||||||
-|Pārdošana|1,240,119|410,389|829,730|7,139,288|2,764,549|4,374,739| |Komandējumu izdevumi|7,656|7,641|(15)|51,062|51,469|407| |Biroja izdevumi|5,023|3,291|(1,732)|33,420|22,098|(11,322)| |Pārdošanas ieņēmumi|10,917|7,246|(3,671)|62,809|48,803|(14,006)| |Nomas izdevumi|12,052|9,019|(3,033)|80,444|60,748|(19,696)| |Pārdošanas atlaides|36,383|24,152|(12,231)|241,562|162,670|(78,892)| |Algas un samaksas|97,624|65,573|(32,051)|653,884|441,664|(212,220)| |PPPI|873,872|236,144|(637,728)|4,864,274|1,590,315|(3,273,959)|
+|Algas un samaksas|97,624|65,573|(32,051)|653,884|441,664|(212,220)| |Pārdošanas atlaides|36,383|24,152|(12,231)|241,562|162,670|(78,892)| |Pārdošanas ieņēmumi|10,917|7,246|(3,671)|62,809|48,803|(14,006)| |Nomas izdevumi|12,052|9,019|(3,033)|80,444|60,748|(19,696)| |Biroja izdevumi|5,023|3,291|(1,732)|33,420|22,098|(11,322)| |Komandējumu izdevumi|7,656|7,641|(15)|51,062|51,469|407| |Pārdošana|1,240,119|410,389|829,730|7,139,288|2,764,549|4,374,739| |**Sakārtots pēc līdzšinējā gada absolūtās novirzes dilstošā secībā**||||||| |Pārdošana|1,240,119|410,389|829,730|7,139,288|2,764,549|4,374,739| |Komandējumu izdevumi|7,656|7,641|(15)|51,062|51,469|407| |Biroja izdevumi|5,023|3,291|(1,732)|33,420|22,098|(11,322)| |Pārdošanas ieņēmumi|10,917|7,246|(3,671)|62,809|48,803|(14,006)| |Nomas izdevumi|12,052|9,019|(3,033)|80,444|60,748|(19,696)| |Pārdošanas atlaides|36,383|24,152|(12,231)|241,562|162,670|(78,892)| |Algas un samaksas|97,624|65,573|(32,051)|653,884|441,664|(212,220)| |COGS|873,872|236,144|(637,728)|4,864,274|1,590,315|(3,273,959)|
 
 ## <a name="specify-a-format-override-cell"></a>Formāta ignorēšanas šūnu norādīšana
 Šūna **Formāta ignorēšana** norāda formatējumu, kas rindai tiek izmantots pārskata drukāšanai. Šis formatējums ignorē formatējumu, kas norādīts kolonnas definīcijā un pārskata definīcijā. Pēc noklusējuma formatējums, kas tiek norādīts šajās definīcijās, ir valūta. Ja viena pārskata rinda norāda pamatlīdzekļu skaitu, piemēram, ēku skaitu, bet cita rinda norāda šo pamatlīdzekļu vērtību, varat ignorēt valūtas formatējumu un ievadīt skaitlisko formatējumu rindai, kas norāda ēku skaitu. Šī informācija jānorāda dialoglodziņā **Formātā ignorēšana**. Pieejamās opcijas ir atkarīgas no izvēlētās formāta kategorijas. Dialoglodziņa apgabalā **Paraugs** tiek parādīti formātu piemēri. Pieejamas šādas formātu kategorijas:

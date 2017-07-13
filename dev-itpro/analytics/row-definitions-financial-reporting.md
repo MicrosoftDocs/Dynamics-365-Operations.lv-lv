@@ -3,7 +3,7 @@ title: "Rindas definīcijas finanšu atskaišu veidotājā"
 description: "Rindas definīcija ir atskaites komponents jeb veidošanas bloks, kas norāda katras rindas saturu finanšu atskaitē. Rindas definīciju var kombinēt ar kolonnas definīcijām, atskaišu koka definīcijām un atskaites definīcijām, lai izveidotu veidošanas bloku grupu, kuru var izmantot vairāki uzņēmumi."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: Management Reporter, Core
+ms.search.scope: Management Reporter, UnifiedOperations, Core
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: cf0886725e2d8d4031e19810e75755f4306b7c49
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: 6d4697af6f7467f25a461fae4e9320402f83b0e3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -49,7 +49,7 @@ Rindas definīcija ir atskaites komponents jeb veidošanas bloks, kas norāda ka
 Rindas definīcijas var ietvert līdz 20 000 finanšu dimensiju rindu, kā arī tālāk minēto informāciju.
 
 -   Aprakstošs teksts, kas piešķir atskaitei jēgu, izveidojot sadaļu virsrakstus, rindas un atstarpes, piemēram, **Skaidra nauda** vai **Kopējie ieņēmumi**.
--   Saites uz finanšu datiem, kas var ietvert dimensiju vērtības programmatūrā Microsoft Dynamics 365 for Operations **Piezīme.** Varat iestatīt rindas definīciju, lai izgūtu datus no finanšu dimensiju sistēmas ikreiz, kad tiek ģenerēts pārskats.
+-   Saites uz finanšu datiem, kas var ietvert dimensiju vērtības programmatūrā Microsoft Dynamics 365 for Finance and Operations **Piezīme.** Varat iestatīt rindas definīciju, lai izgūtu datus no finanšu dimensiju sistēmas ikreiz, kad tiek ģenerēts pārskats.
 -   Rindu kopsummas un formulas, kuru pamatā ir saistītie finanšu dati
 
 Parasti katra rinda rindas definīcijā satur vienu no šiem informācijas tipiem:

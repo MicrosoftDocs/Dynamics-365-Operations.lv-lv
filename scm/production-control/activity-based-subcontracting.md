@@ -3,14 +3,14 @@ title: "No aktivitātēm atkarīgu apakšlīgumu slēgšana"
 description: "Šajā tēmā ir detalizēti aprakstīts, kā lean manufacturing ražošanas plūsmā izmantot apakšlīgumā paredzētas aktivitātes."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 267034
 ms.assetid: 15c76a51-fa6d-42d2-994a-c67df6bae6a9
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4cf93c861345ad11b995ac2fe50c9a94dddcbd56
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 43c95c8ab8599a048b1c8c732d6dcac1c3e8b9e9
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/25/2017
 
 Šajā tēmā ir detalizēti aprakstīts, kā lean manufacturing ražošanas plūsmā izmantot apakšlīgumā paredzētas aktivitātes.
 
-Programmā Microsoft Dynamics 365 for Operations apakšlīgumu slēgšanai var izmantot divas metodes: ražošanas pasūtījumus un lean manufacturing. Ja izmantojat lean manufacturing metodi, tad apakšlīgumā paredzētais darbs tiek modelēts kā pakalpojums, kas ir saistīts ar kādu ražošanas plūsmas aktivitāti. Ir ieviests īpašs izmaksu grupas tips ar nosaukumu **Tiešie ārpakalpojumi**, un šādi apakšlīgumā paredzētie pakalpojumi vairs neveido daļu no materiālu komplektiem (MK). Apakšlīgumā paredzēto darbu izmaksu uzskaite ir pilnīgi integrēta lean manufacturing izmaksu aprēķināšanas risinājumā.
+Programmatūrā Microsoft Dynamics 365 for Finance and Operations ir pieejamas divas apakšlīgumu slēgšanas metodes: izmantojot ražošanas pasūtījumus un lean manufacturing. Ja izmantojat lean manufacturing metodi, tad apakšlīgumā paredzētais darbs tiek modelēts kā pakalpojums, kas ir saistīts ar kādu ražošanas plūsmas aktivitāti. Ir ieviests īpašs izmaksu grupas tips ar nosaukumu **Tiešie ārpakalpojumi**, un šādi apakšlīgumā paredzētie pakalpojumi vairs neveido daļu no materiālu komplektiem (MK). Apakšlīgumā paredzēto darbu izmaksu uzskaite ir pilnīgi integrēta lean manufacturing izmaksu aprēķināšanas risinājumā.
 
 ## <a name="production-flows-that-involve-subcontractors"></a>Ražošanas plūsmas, kurās piedalās apakšuzņēmēji
 Ja par kādām aktivitātēm ir noslēgts apakšlīgums, ražošanas plūsmas pamatprincipi nemainās. Joprojām notiek materiālu plūsma starp novietojumiem, procesa aktivitātes materiālus pārvērš par precēm un pārsūtīšanas aktivitātes materiālus vai preces pārvieto no viena novietojuma uz citu. Novietojumus un darba šūnas varat modelēt kā kreditora pārvaldītas, piešķirot kreditora kontu kādai noliktavai vai kādam resursu grupas resursam.  
@@ -104,7 +104,7 @@ Bieži vien ļaudis uzskata, ka transportēšana nav produktīva un nevairo nek�
 
 Kad izmantojat lean manufacturing, no aktivitātēm atkarīga apakšlīgumu slēgšana jums ļauj integrēt pārvadātājus un transporta kreditorus, kuri materiālus un preces pārvieto starp atrašanās vietām ražošanas plūsmā. Modelējot transportēšanas aktivitāti, varat piešķirt pārvadātāju vai kreditoru. Pārsūtīšanas aktivitātes/darbs ir atkarīgs no pakalpojuma un pirkšanas līguma, un pirkšanas pasūtījumus un ieejas plūsmas paziņojumus varat izveidot, pamatojoties uz faktiskajiem pārsūtīšanas darbiem. Šī funkcionalitāte ir tāda pati kā funkcionalitāte apakšlīgumā paredzētajām procesa aktivitātēm.  
 
-Tādēļ Dynamics 365 for Operations tagad atbalsta MK aprēķinu, kas ietver transportēšanas pakalpojumus, saistītu pirkšanas pasūtījumu izveidošanu, integrētu ieejas plūsmas reģistrēšanu un transportēšanas pakalpojumu izmaksu integrēšanu ražošanas plūsmas izmaksu aprēķināšanā.
+Tāpēc programmatūra Dynamics 365 for Finance and Operations tagad atbalsta MK aprēķinu, kas ietver transportēšanas pakalpojumus, saistīto pirkšanas pasūtījumu izveidi, integrētu ieejas plūsmas reģistrēšanu un transportēšanas pakalpojumu izmaksu integrēšanu ražošanas plūsmas izmaksu aprēķināšanā.
 
 
 

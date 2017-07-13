@@ -1,9 +1,9 @@
 ---
 title: "Avansa turētāju darbības"
-description: "Uzziniet, kā strādāt ar avansa turētāju transakcijām programmatūrā Microsoft Dynamics 365 for Operations."
+description: "Uzziniet, kā strādāt ar avansa turētāju transakcijām programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: dfca71b0ba48a725d1e1c5418d9e505744545d33
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 6424d371fb2cfdbfb657931f982670755d4d4155
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Uzziniet, kā strādāt ar avansa turētāju transakcijām programmatūrā Microsoft Dynamics 365 for Operations.
+Uzziniet, kā strādāt ar avansa turētāju transakcijām programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise.
 
 Šiem darbiniekiem, kuri ir avansa turētāji, transakcijas var grāmatot, izmantojot avansa turētāju kontus. Lai izsekotu visas avansa turētāja transakcijas, var izmantot katram avansa turētājam norādīto nodarbinātā ID. Šis numurs kā konta numurs avansa turētāju transakcijām tiek izgūts lapās **Virsgrāmatas žurnāli** un **Avansa turētāju transakcijas**.
 

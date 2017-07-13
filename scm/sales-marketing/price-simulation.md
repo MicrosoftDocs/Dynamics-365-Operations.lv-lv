@@ -3,7 +3,7 @@ title: "Cenas simulācija"
 description: "Šajā rakstā ir sniegta informācija par cenu simulāciju piedāvājumiem. Cenu simulācija jums piedāvājuma procesa laikā palīdz novērtēt ieturējumu ietekmi uz turpmāku pārdošanas cenu, pirms piekrītat lietot noteiktu cenu."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SalesQuotationPriceSimulation
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 12254
 ms.assetid: 92be7c85-73cf-4f77-833c-d37ce779a031
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 293f09ca8758c0b1a66614eb9c75ca266b044fe7
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: c5381ab48e394702c2423de7a5b5cb9166993388
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -54,7 +54,7 @@ Lai nodrošinātu, ka atlaides un cenas tiek aprēķinātas pareizi, uzmanieties
 
 ### <a name="types-of-discounts-in-trade-agreements"></a>Atlaižu tipi tirdzniecības līgumos
 
-Tirdzniecības līgumiem programmatūrā Microsoft Dynamics 365 for Operations var lietot četru veidu cenu atlaides. Šīs atlaides var iestatīt atšķirīgiem krājumiem, debitoriem vai cenu grupām, un tās var ierobežot datums. Lai nepieļautu nepareizus aprēķinus, cenu simulāciju palaišanas laikā jums ir jāņem vērā tirdzniecības līgumi. Lūk, četri atlaižu tipi tirdzniecības līgumos:
+Tirdzniecības līgumiem programmatūrā Microsoft Dynamics 365 for Finance and Operations var lietot četru veidu cenu atlaides. Šīs atlaides var iestatīt atšķirīgiem krājumiem, debitoriem vai cenu grupām, un tās var ierobežot datums. Lai nepieļautu nepareizus aprēķinus, cenu simulāciju palaišanas laikā jums ir jāņem vērā tirdzniecības līgumi. Lūk, četri atlaižu tipi tirdzniecības līgumos:
 
 -   **Pārdošanas cena** — krājumiem var norādīt atsevišķas pārdošanas cenas. Kad tiek izveidotas piedāvājuma rindas, programma meklē pareizo pārdošanas cenu attiecībā uz krājumu un pārsūta to uz piedāvājuma rindām. Tāpēc tirdzniecības līgums, kam ir šāda veida atlaide, neietekmē cenas simulāciju. Pārdošanas cena, kas tiek izmantota piedāvājuma rindā, ataino tirdzniecības līgumu.
 -   **Rindas atlaide** — krājumiem tiek norādītas īpašas atlaides, ņemot vērā pasūtīto daudzumu. Pirms cenu simulācijas sākšanas rindas summas parasti tiek samazinātas ar rindas atlaidi. Tāpēc tirdzniecības līgums, kam ir šāda veida atlaide, ietekmē cenas simulāciju.

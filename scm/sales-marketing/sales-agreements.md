@@ -3,7 +3,7 @@ title: "Pārdošanas līgumi"
 description: "Šajā rakstā ir sniegta informācija par pārdošanas līgumiem. Pārdošanas līgums ir līgums, ar kuru debitors piekrīt laika gaitā iegādāties noteiktu daudzumu preču vai iegādāties preces par noteiktu summu apmaiņā pret īpašām cenām un atlaidēm."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesAgreementListPage
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 9554
 ms.assetid: c5d55c8d-99f2-44f9-a897-5b0dee85fc81
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d356017ac0413b92ff9734800231ba1979dac242
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 4eaa4fef65fb310524f25d052aeefb58c5f20fe4
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -102,14 +102,14 @@ Ja esat izveidojis (izsniedzis) pārdošanas pasūtījumu atbilstoši pārdošan
 | Daudzums                                                          | Ja norādāt daudzumu, kas pārsniedz to, kas norādīts pārdošanas līguma rindā, kur ir atzīmēta izvēles rūtiņa **Sasniegts maksimums**, ziņojuma lodziņš piedāvā saglabāt mainīto daudzumu. Noklikšķiniet uz **Jā**, lai noņemtu saiti uz pārdošanas līguma rindu un pārrēķinātu cenu. Noklikšķiniet uz **Nē**, lai noņemtu saiti uz pārdošanas līguma rindu, nepārrēķinot cenu.                                                            |
 
 ## <a name="returning-an-item-that-was-ordered-from-a-sales-agreement"></a>Krājuma, kas tika pasūtīts pārdošanas līgumā, nodošana atpakaļ
-Kad klients atgriež preci, kas tika pasūtīta no pārdošanas līguma, programmatūrā Microsoft Dynamics 365 for Operations var tikt atrastas un automātiski atjauninātas saistītās pārdošanas līguma saistības, lai atainotu daudzuma vai summas izmaiņas. Ja izveidojat atgriešanas pasūtījumu, pamatojoties uz sākotnējo pārdošanas pasūtījumu, kas ir piesaistīts pārdošanas līgumam, tiek izveidota relācija starp pārdošanas līguma saistību, pārdošanas pasūtījuma rindu un atgriešanas pasūtījuma rēķinu.  
+Kad klients atgriež preci, kas tika pasūtīta no pārdošanas līguma, programmatūrā Microsoft Dynamics 365 for Finance and Operations var tikt atrastas un automātiski atjauninātas saistītās pārdošanas līguma saistības, lai atainotu daudzuma vai summas izmaiņas. Ja izveidojat atgriešanas pasūtījumu, pamatojoties uz sākotnējo pārdošanas pasūtījumu, kas ir piesaistīts pārdošanas līgumam, tiek izveidota relācija starp pārdošanas līguma saistību, pārdošanas pasūtījuma rindu un atgriešanas pasūtījuma rēķinu.  
 
 Ja nevēlaties, lai atgriezto krājumu daudzumu ieturētu no pārdošanas līguma saistībām, var izmantot vadīklu **Noņemt saiti** lapā **Atgriezt pasūtījumu**, lai noņemtu saiti starp pasūtījumu un pārdošanas līguma saistībām. Ja jums ir vēlāk atkārtoti jāizveido saite, noklikšķinot uz **Izveidot saiti**.  
 
 **Piezīme.** Atgriešanas pasūtījumu var saistīt tikai ar vienu pārdošanas līgumu.. Ja klients atgriež vairākas preces, kas tika pasūtītas no vairākiem pārdošanas līgumiem, ir jāizveido jauns atgriešanas pasūtījums katrai precei un jāizveido saite uz atbilstošo pārdošanas līgumu.
 
 ## <a name="automatic-search-for-sales-agreements"></a>Pārdošanas līgumu automātiskā meklēšana
-Dažās situācijās, kad pārdošanas pasūtījumi tiek izveidoti netiešā veidā, piemēram, izveidojot kredīta notu vai starpuzņēmumu pārdošanas pasūtījumus, varat kontrolēt, vai programmatūrā Microsoft Dynamics 365 for Operations tiek automātiski meklēti lietojamie pārdošanas līgumi.
+Dažās situācijās, kad pārdošanas pasūtījumi tiek izveidoti netiešā veidā, piemēram, izveidojot kredīta notu vai starpuzņēmumu pārdošanas pasūtījumus, varat kontrolēt, vai programmatūrā Microsoft Dynamics 365 for Finance and Operations tiek automātiski meklēti lietojamie pārdošanas līgumi.
 
 ## <a name="financial-dimensions-on-sales-agreements"></a>Pārdošanas līgumu finanšu dimensijas
 Finanšu dimensijas varat kopēt pārdošanas līguma dokumentu galvenēs vai atsevišķās rindās. Dimensijas uz līguma virsraksta vai līguma rindā var mainīt jebkurā laikā. Šajā gadījumā dimensijas tiek automātiski iekopētas izpildei nodoto pasūtījumu izpildpasūtījuma galvenē vai rindā.

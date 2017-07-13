@@ -1,15 +1,15 @@
 ---
 title: "Budžeta kontroles apskats"
-description: "Šajā raksta tiek iepazīstināts ar budžeta kontroli un ir sniegta informācija, kas jums palīdzēs konfigurēt budžeta kontroli programmā Microsoft Dynamics 365 for Operations, lai varētu pārvaldīt finanšu resursus."
+description: "Šajā rakstā ir aprakstīta budžeta kontrole un sniegta informācija, kas jums palīdzēs konfigurēt budžeta kontroli programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise, lai jūs varētu pārvaldīt finanšu resursus."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
@@ -17,27 +17,27 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 48649b891be72529e6045e48f9738fe68be6cffe
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 77d6d9afeb5669c2ae8460f0503e68a3559514ec
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
 
-# <a name="budget-control-overview"></a>Budžeta kontroles apskats
+# <a name="budget-control-overview"></a>Budžeta kontroles apskats 
 
 [!include[banner](../includes/banner.md)]
 
 
-Šajā raksta tiek iepazīstināts ar budžeta kontroli un ir sniegta informācija, kas jums palīdzēs konfigurēt budžeta kontroli programmā Microsoft Dynamics 365 for Operations, lai varētu pārvaldīt finanšu resursus.
+Šajā rakstā ir aprakstīta budžeta kontrole un sniegta informācija, kas jums palīdzēs konfigurēt budžeta kontroli programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise, lai jūs varētu pārvaldīt finanšu resursus.
 
 <a name="overview"></a>Pārskats
 --------
 
-Budžeta kontrole programmā Microsoft Dynamics 365 for Operations atbalsta organizācijas finanšu resursu pārvaldību, izmantojot kontu plānus, darbplūsmas, lietotāju grupas, pirmdokumentus un žurnālus, konfigurējamu pieejamo līdzekļu aprēķinu, budžeta ciklus un sliekšņus. Kad tiek izmantotas kontroles, organizācija var plānot, mērīt, pārvaldīt un prognozēt savus finanšu resursus visa finanšu gada garumā. 
+Budžeta kontrole programmatūrā Microsoft Dynamics 365 for Finance and Operations atbalsta organizācijas finanšu resursu pārvaldību, izmantojot kontu plānus, darbplūsmas, lietotāju grupas, pirmdokumentus un žurnālus, konfigurējamu pieejamo līdzekļu aprēķinu, budžeta ciklus un sliekšņus. Kad tiek izmantotas kontroles, organizācija var plānot, mērīt, pārvaldīt un prognozēt savus finanšu resursus visa finanšu gada garumā. 
 
-Kad budžeti ir apstiprināti programmatūrā Dynamics 365 for Operations, varat izmantot budžeta plānus, lai ģenerētu budžeta reģistra ierakstus un organizācijai reģistrētu izdevumu budžetu. Alternatīvi budžeta reģistra ierakstus varat izveidot trešās puses programmā vai importēt no trešās puses programmas, nevis izmantot budžeta plānošanas funkcionalitāti. 
+Pēc budžetu apstiprināšanas programmatūrā Dynamics 365 for Finance and Operations varat izmantot budžeta plānus, lai ģenerētu budžeta reģistra ierakstus un reģistrētu organizācijas izdevumu budžetu. Alternatīvi budžeta reģistra ierakstus varat izveidot trešās puses programmā vai importēt no trešās puses programmas, nevis izmantot budžeta plānošanas funkcionalitāti. 
 
 Izdevumus var reģistrēt, izmantojot galvenos kontus un finanšu dimensijas. Kopējo izdevumu kontroli varat konfigurēt, lai tā atbilstu organizācijas politikām un prasībām, grupējot finanšu dimensiju un galveno kontu kombinācijas. 
 
@@ -53,7 +53,7 @@ Budžeta kontroli varat konfigurēt atbilstoši vairākiem tālāk aprakstītaji
 -   **Pieejamo līdzekļu aprēķins** — vai pieejamo līdzekļu aprēķinā ir jāņem vērā tādi dokumenti kā pirkšanas pieprasījumi (apgrūtinājumi bez juridiskām saistībām) un pirkšanas pasūtījumi (apgrūtinājumi)? Vai aprēķinā ir jāņem vērā dokumenti, kuru statuss ir melnraksts?
 -   **Ignorēt atļauju** — kam ir atļauja pārsniegt pieejamo budžetu?
 
-Budžeta kontrole ir pilnīgi integrēta programmatūrā Dynamics 365 for Operations. Tāpēc pieejamo budžetu varat novērtēt gan plānotajiem pirkumiem, gan faktiskajiem pirkumiem. Ir pieejamas budžeta uzziņas un atskaites. Tāpēc lietotāji var novērtēt budžetu visā budžeta cikla laikā un veikt visas nepieciešamās korekcijas, kas izpaužas kā budžeta pārskatījumi vai pārsūtījumi. Budžeta pārvaldnieks budžeta un faktiskās vērtības var arī eksportēt uz programmu Microsoft Excel, lai pēc nepieciešamības tās labāk analizētu un prognozētu.
+Budžeta kontrole ir pilnībā integrēta programmatūrā Dynamics 365 for Finance and Operations. Tāpēc pieejamo budžetu varat novērtēt gan plānotajiem pirkumiem, gan faktiskajiem pirkumiem. Ir pieejamas budžeta uzziņas un atskaites. Tāpēc lietotāji var novērtēt budžetu visā budžeta cikla laikā un veikt visas nepieciešamās korekcijas, kas izpaužas kā budžeta pārskatījumi vai pārsūtījumi. Budžeta pārvaldnieks budžeta un faktiskās vērtības var arī eksportēt uz programmu Microsoft Excel, lai pēc nepieciešamības tās labāk analizētu un prognozētu.
 
 ## <a name="configuring-budget-control"></a>Budžeta kontroles konfigurēšana
 ### <a name="budget-cycle-time-span"></a>Budžeta cikla laika posms
@@ -128,7 +128,3 @@ Kad budžeta kontrole ir ieslēgta, lietotāji saņems budžeta kontroles brīdi
 No šīs lapas lietotāji var atvērt lapu **Budžeta kontroles statistika pēc perioda**, lai skatītu detalizētu informāciju par budžeta pieejamību un rezervācijām atlasīto budžeta kontroles dimensiju kombinācijai. Lietotāji var arī atvērt lapu **Budžeta kontroles statistika**, lai skatītu visas budžeta pieejamību visām finanšu dimensiju kombinācijām, kas tiek lietotas budžeta kontrolē. 
 
 Ja budžeta kontrole ir ieslēgta pirkšanas pasūtījumiem, tad budžeta pārvaldnieks var lietot darbvietu **Virsgrāmatas budžeti un prognozes**, lai pārskatītu visu neapstiprināto pirkšanas pasūtījumu rindu, kuriem ir budžeta pārbaudes brīdinājumi un kļūdas. Ja budžeta pārvaldniekam ir konfigurētas budžeta pārsniegšanas atļaujas, viņš vai viņa var apstiprināt pirkšanas pasūtījumus tieši darbvietā.    
-
-
-
-

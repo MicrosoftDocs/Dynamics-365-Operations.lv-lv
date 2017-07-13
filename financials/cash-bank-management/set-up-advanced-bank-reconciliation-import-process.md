@@ -1,16 +1,16 @@
 ---
 title: "Iestatīt detalizētās bankas darbību saskaņošanas importa procesu"
-description: "Līdzeklis Detalizētā bankas darbību saskaņošana jums ļauj importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmatūrā Microsoft Dynamics 365 for Operations Šajā rakstā ir paskaidrots, kā iestatīt importēšanas funkcionalitāti saviem bankas izrakstiem."
+description: "Detalizētā bankas darbību saskaņošanas līdzeklis sniedz jums iespēju importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise. Šajā rakstā ir paskaidrots, kā iestatīt importēšanas funkcionalitāti saviem bankas izrakstiem."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 106853
 ms.assetid: 45dae275-ea45-4c7e-b38f-89297c7b5352
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fda4dca4339c09757477b04166b17d5f92f46a7c
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a4d1c81386c0ef03391f3127fa51a6b09a5142b3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Līdzeklis Detalizētā bankas darbību saskaņošana jums ļauj importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmatūrā Microsoft Dynamics 365 for Operations Šajā rakstā ir paskaidrots, kā iestatīt importēšanas funkcionalitāti saviem bankas izrakstiem. 
+Detalizētā bankas darbību saskaņošanas līdzeklis sniedz jums iespēju importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise. Šajā rakstā ir paskaidrots, kā iestatīt importēšanas funkcionalitāti saviem bankas izrakstiem. 
 
-Bankas izraksta importēšanas iestatījumi ir dažādi, un tie ir atkarīgi no jūsu elektroniskā bankas izraksta formāta. Microsoft Dynamics 365 for Operations standarta komplektācijā atbalsta trīs bankas izraksta formātus: ISO20022, MT940 un BAI2.
+Bankas izraksta importēšanas iestatījumi ir dažādi, un tie ir atkarīgi no jūsu elektroniskā bankas izraksta formāta. Finance and Operations atbalsta trīs bankas izraksta formātus: ISO20022, MT940 un BAI2.
 
 ## <a name="sample-files"></a>Parauga faili
-Visiem trim formātiem jums ir nepieciešami faili, kas elektronisko bankas izrakstu no sākotnējā formāta pārveido formātā, kuru var izmantot Dynamics 365 for Operations. Nepieciešamie resursu faili ir atrodami Microsoft Visual Studio programmu pārlūka zarā **Resursi**. Kad faili ir atrasti, kopējiet tos uz vienu zināmu vietu, lai iestatīšanas procesa laikā tos varētu ērti augšupielādēt.
+Visiem trim formātiem jums ir nepieciešami faili, kas elektronisko bankas izrakstu no sākotnējā formāta pārveido formātā, kuru var izmantot Finance and Operations. Nepieciešamie resursu faili ir atrodami Microsoft Visual Studio programmu pārlūka zarā **Resursi**. Kad faili ir atrasti, kopējiet tos uz vienu zināmu vietu, lai iestatīšanas procesa laikā tos varētu ērti augšupielādēt.
 
 | Resursa nosaukums                                           | Faila nosaukums                            |
 |---------------------------------------------------------|--------------------------------------|
@@ -65,13 +65,13 @@ Vispirms ir jādefinē bankas izraksta formāta apstrādes grupa ISO20022 bankas
 1.  Dodieties uz **Darbvietas** &gt; **Datu pārvaldība**.
 2.  Noklikšķiniet uz **Importēt**.
 3.  Ievadiet formāta nosaukumu, piemēram, **ISO20022**.
-4.  Laukam **Avota datu formāts**iestatiet vērtību **XML elements**.
+4.  Laukam **Avota datu formāts** iestatiet vērtību **XML elements**.
 5.  Laukam **Elementa nosaukums** iestatiet vērtību **Bankas izraksti**.
 6.  Lai augšupielādētu importa failus, noklikšķiniet uz **Augšupielādēt** un pēc tam pārlūkojiet, lai atlasītu iepriekš saglabāto failu **SampleBankCompositeEntity.xml**.
 7.  Kad bankas izrakstu elements ir augšupielādēts un kartēšana ir pabeigta, noklikšķiniet uz darbības **Skatīt karti** šim elementam.
 8.  Bankas izrakstu elements ir saliktais elements, kas sastāv no četriem atsevišķiem elementiem. Sarakstā atlasiet vienumu **BankStatementDocumentEntity** un pēc tam noklikšķiniet uz darbības **Skatīt karti**.
 9.  Cilnē **Transformācijas** noklikšķiniet uz **Jauns**.
-10. Kārtas numuram 1 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu**ISO20022XML-to-Reconciliation.xslt**. **Piezīme.** Dynamics 365 for Operations transformāciju faili ir veidoti standarta formātam. Tā kā bankas bieži vien novirzās no šī formāta, jums var būt jāatjaunina transformācijas fails, lai kartētu uz savu bankas izraksta formātu. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
+10. Kārtas numuram 1 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **ISO20022XML-to-Reconciliation.xslt**. **Piezīme.** Finance and Operations transformāciju faili ir veidoti standarta formātam. Tā kā bankas bieži vien novirzās no šī formāta, jums var būt jāatjaunina transformācijas fails, lai kartētu uz savu bankas izraksta formātu. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
 11. Noklikšķiniet uz **Jauns**.
 12. Kārtas numuram 2 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **BankReconciliation-to-Composite.xslt**.
 13. Noklikšķiniet uz **Lietot transformācijas**.
@@ -89,8 +89,8 @@ Visbeidzot ir jāiespējo detalizētā bankas darbību saskaņošana un jāiesta
 
 1.  Dodieties uz **Skaidras naudas un bankas vadība** &gt; **Banku konti**.
 2.  Atlasiet bankas kontu un atveriet to, lai skatītu detalizētu informāciju.
-3.  Cilnē **Saskaņošana** opciju **Detalizētā bankas darbību saskaņošana**iestatiet uz **Jā**.
-4.  Lauku **Izraksta formāts**iestatiet uz iepriekš izveidoto formātu, piemēram, **ISO20022**.
+3.  Cilnē **Saskaņošana** opciju **Detalizētā bankas darbību saskaņošana** iestatiet uz **Jā**.
+4.  Lauku **Izraksta formāts** iestatiet uz iepriekš izveidoto formātu, piemēram, **ISO20022**.
 
 ## <a name="set-up-the-import-of-mt940-bank-statements"></a>Iestatīt MT940 bankas izrakstu importu
 Vispirms ir jādefinē bankas izraksta formāta apstrādes grupa MT940 bankas izrakstiem, izmantojot datu elementa struktūru.
@@ -106,7 +106,7 @@ Vispirms ir jādefinē bankas izraksta formāta apstrādes grupa MT940 bankas iz
 9.  Cilnē **Transformācijas** noklikšķiniet uz **Jauns**.
 10. Kārtas numuram 1 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **MT940TXT-to-MT940XML.xslt**.
 11. Noklikšķiniet uz **Jauns**.
-12. Kārtas numuram 2 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **MT940XML-to-Reconciliation.xslt**. **Piezīme.** Dynamics 365 for Operations transformāciju faili ir veidoti standarta formātam. Tā kā bankas bieži vien novirzās no šī formāta, jums var būt jāatjaunina transformācijas fails, lai kartētu uz savu bankas izraksta formātu. <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
+12. Kārtas numuram 2 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **MT940XML-to-Reconciliation.xslt**. **Piezīme.** Finance and Operations transformāciju faili ir veidoti standarta formātam. Tā kā bankas bieži vien novirzās no šī formāta, jums var būt jāatjaunina transformācijas fails, lai kartētu uz savu bankas izraksta formātu. <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
 13. Noklikšķiniet uz **Jauns**.
 14. Kārtas numuram 3 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **BankReconciliation-to-Composite.xslt**.
 15. Noklikšķiniet uz **Lietot transformācijas**.
@@ -142,7 +142,7 @@ Vispirms ir jādefinē bankas izraksta formāta apstrādes grupa BAI2 bankas izr
 9.  Cilnē **Transformācijas** noklikšķiniet uz **Jauns**.
 10. Kārtas numuram 1 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **BAI2CSV-to-BAI2XML.xslt**.
 11. Noklikšķiniet uz **Jauns**.
-12. Kārtas numuram 2 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **BAI2XML-to-Reconciliation.xslt**. **Piezīme.** Dynamics 365 for Operations transformāciju faili ir veidoti standarta formātam. Tā kā bankas bieži vien novirzās no šī formāta, jums var būt jāatjaunina transformācijas fails, lai kartētu uz savu bankas izraksta formātu. <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
+12. Kārtas numuram 2 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **BAI2XML-to-Reconciliation.xslt**. **Piezīme.** Finance and Operations transformāciju faili ir veidoti standarta formātam. Tā kā bankas bieži vien novirzās no šī formāta, jums var būt jāatjaunina transformācijas fails, lai kartētu uz savu bankas izraksta formātu. <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
 13. Noklikšķiniet uz **Jauns**.
 14. Kārtas numuram 3 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **BankReconciliation-to-Composite.xslt**.
 15. Noklikšķiniet uz **Lietot transformācijas**.

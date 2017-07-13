@@ -1,16 +1,16 @@
 ---
 title: "Konfigurēt programmas lauku nosaukumus programmā Noliktava"
-description: "Šajā tēmā ir aprakstīts, kā sistēmā Dynamics 365 for Operations definēt un konfigurēt noliktavu programmas lauku nosaukumus un prioritātes."
+description: "Šajā tēmā ir aprakstīts, kā definēt un konfigurēt noliktavu programmas lauku nosaukumus un prioritātes programmatūrā Dynamics 365 for Finance and Operations."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 269434
 ms.assetid: 6cf3d7da-29bb-4d3d-aaf5-544ca9cc2980
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: edcbf8a0921e0eb08d0f970e681c9d098b354c0b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 49db5ad10914897b2157e123c5803ca51e4e66e7
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,14 +32,14 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā tēmā ir aprakstīts, kā sistēmā Dynamics 365 for Operations definēt un konfigurēt noliktavu programmas lauku nosaukumus un prioritātes. 
+Šajā tēmā ir aprakstīts, kā definēt un konfigurēt noliktavu programmas lauku nosaukumus un prioritātes programmatūrā Dynamics 365 for Finance and Operations. 
 
-**Piezīme.** Šī tēma attiecas uz moduļa Noliktavas vadība līdzekļiem. Tā neattiecas uz moduļa Krājumu vadība līdzekļiem. Dynamics 365 for Operations - Noliktava ir programma, kuru varat izmantot noliktavas uzdevumu veikšanai. Varat definēt un konfigurēt programmā lietoto lauku nosaukumus, kā arī konfigurēt prioritāti, kādai šie lauku nosaukumi ir jāpiešķir. Šajā tēmā ir paskaidrots, kā definēt un konfigurēt šos noliktavu programmas lauku nosaukumus un prioritātes, un kā tie tiek izmantoti sistēmā Dynamics 365 for Operations - Noliktava. Detalizētu informāciju par to, kā konfigurēt savienojumu ar Dynamics 365 for Operations - Noliktava, skatiet apmācībā [Instalēt un konfigurēt Dynamics 365 for Operations - Noliktava](install-configure-warehousing-app.md).
+**Piezīme.** Šī tēma attiecas uz moduļa Noliktavas vadība līdzekļiem. Tā neattiecas uz moduļa Krājumu vadība līdzekļiem. Dynamics 365 for Finance and Operations — Noliktava ir lietojumprogramma, ko varat izmantot noliktavas uzdevumu veikšanai. Varat definēt un konfigurēt programmā lietoto lauku nosaukumus, kā arī konfigurēt prioritāti, kādai šie lauku nosaukumi ir jāpiešķir. Šajā tēmā ir paskaidrots, kā definēt un konfigurēt šos noliktavu programmas lauku nosaukumus un prioritātes un kā tie tiek izmantoti programmā Dynamics 365 for Finance and Operations — Noliktava. Detalizētu informāciju par to, kā konfigurēt savienojumu ar programmu Dynamics 365 for Finance and Operations — Noliktava, skatiet apmācībā [Programmas Dynamics 365 for Finance and Operations — Noliktava instalēšana un konfigurēšana](install-configure-warehousing-app.md).
 
 <a name="configure-warehouse-app-field-names"></a>Konfigurēt noliktavas programmas lauku nosaukumus
 ===================================
 
-Kad programmu Dynamics 365 for Operations - Noliktava lietojat savā mobilajā ierīcē, tad veidu, kā metadati ir jārāda jūsu ierīcē, varat konfigurēt lapā **Noliktavas programmas lauku nosaukumi**. Jaunā sistēmas Dynamics 365 for Operations uzņēmumā atlasiet vienumu **Izveidot noklusējuma iestatījumus**, lai ģenerētu visus lauku nosaukumus, kuri tiks izmantoti noliktavas mobilo ierīču darbplūsmās, un pēc tam piešķiriet tiem ieteicamo ievades režīmu un ievades tipu. Kad ir ģenerēti visi lauku nosaukumi, varat atlasīt tālāk norādītās ievades opcijas.
+Kad lietojat programmu Dynamics 365 for Finance and Operations — Noliktava mobilajā ierīcē, lapā **Noliktavas programmu lauku nosaukumi** varat konfigurēt to, kā ierīcē ir jārāda metadati. Jaunā uzņēmumā programmatūrā Dynamics 365 for Finance and Operations atlasiet opciju **Izveidot noklusējuma iestatījumus**, lai ģenerētu visus lauku nosaukumus, kas tiks izmantoti noliktavas mobilo ierīču darbplūsmās, un pēc tam piešķiriet tiem vajadzīgo ievades režīmu un ievades veidu. Kad ir ģenerēti visi lauku nosaukumi, varat atlasīt tālāk norādītās ievades opcijas.
 
 <table>
 <colgroup>
@@ -73,7 +73,7 @@ Kad programmu Dynamics 365 for Operations - Noliktava lietojat savā mobilajā 
 <a name="configure-warehouse-app-field-priority"></a>Konfigurēt noliktavas programmas lauku prioritāti
 ======================================
 
-Lapā **Noliktavas programmas lauku prioritāte** lauku nosaukumus varat salikt dažādās prioritāšu grupās. Šādi varat izlemt, kāda informācija ir jārāda galvenajā uzdevumu lapā, kad noliktavas darbinieki izpilda uzdevumus, izmantojot šo programmu. Ja noklikšķināt uz **Izveidot noklusējuma iestatījumus**, tiek ģenerēta prioritāšu grupu noklusējuma kopa. Varat izveidot tik prioritāšu grupu, cik vien nepieciešams, bet uzdevumu lapā tiks rādītas tikai trīs prioritāšu grupas. Kad Dynamics 365 for Operations sūta metadatus uz programmu, tā katram laukam piešķir relatīvu prioritāti atkarībā no lauka prioritātes grupas, un programma uzdevumu lapā parāda pirmās trīs prioritāšu grupas, kas ietilpst metadatos. Pārējie metadati tiks rādīti sekundārās informācijas lapā. Nākamajā tabulā ir parādīts piemērs ar piecām prioritāšu grupām.
+Lapā **Noliktavas programmas lauku prioritāte** lauku nosaukumus varat salikt dažādās prioritāšu grupās. Šādi varat izlemt, kāda informācija ir jārāda galvenajā uzdevumu lapā, kad noliktavas darbinieki izpilda uzdevumus, izmantojot šo programmu. Ja noklikšķināt uz **Izveidot noklusējuma iestatījumus**, tiek ģenerēta prioritāšu grupu noklusējuma kopa. Varat izveidot tik prioritāšu grupu, cik vien nepieciešams, bet uzdevumu lapā tiks rādītas tikai trīs prioritāšu grupas. Kad no programmatūras Dynamics 365 for Finance and Operations uz programmu tiek sūtīti metadati, katram laukam tiek piešķirta relatīva prioritāte atkarībā no lauka prioritāšu grupas un programmas uzdevumu lapā tiek parādītas pirmās trīs metadatos ietvertās prioritāšu grupas. Pārējie metadati tiks rādīti sekundārās informācijas lapā. Nākamajā tabulā ir parādīts piemērs ar piecām prioritāšu grupām.
 
 <table>
 <colgroup>
@@ -141,12 +141,12 @@ Pamatojoties uz iepriekšējā tabulā iestatīto noliktavas programmas lauku pr
 -   2. rinda: Preces apraksts
 -   3. rinda: Izmērs
 
-Atlikušie metadati, piemēram, Novietojums, netiks rādīti uzdevumu lapā, bet tiks rādīti informācijas lapā. Plašāku informāciju un lietotāja interfeisa piemērus skatiet emuāra ziņā [Paziņojums par Dynamics 365 for Operations - Noliktava](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
+Atlikušie metadati, piemēram, Novietojums, netiks rādīti uzdevumu lapā, bet tiks rādīti informācijas lapā. Papildinformāciju un lietotāja interfeisa piemērus skatiet emuāra ziņā [Paziņojums par programmu Dynamics 365 for Finance and Operations — Noliktava](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Instalēt un konfigurēt Microsoft Dynamics 365 for Operations – Noliktava](install-configure-warehousing-app.md)
+[Programmas Microsoft Dynamics 365 for Finance and Operations — Noliktava instalēšana un konfigurēšana](install-configure-warehousing-app.md)
 
 
 

@@ -1,16 +1,16 @@
 ---
 title: "Ražošanas apakšuzņēmēja darba pārvaldība"
-description: "Šajā tēmā ir aprakstīts, kā programmatūrā Microsoft Dynamics 365 for Operations tiek pārvaldītas apakšuzņēmēja operācijas. Tas nozīmē, ka tajā ir paskaidrots, kā kreditors pārvalda resursam piešķirtās ražošanas operācijas."
+description: "Šajā tēmā ir aprakstīts, kā programmatūrā Microsoft Dynamics 365 for Finance and Operations tiek pārvaldītas apakšuzņēmēja operācijas. Tas nozīmē, ka tajā ir paskaidrots, kā kreditors pārvalda resursam piešķirtās ražošanas operācijas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 268174
 ms.assetid: fe47c498-4f48-42a2-a0cf-5436c19ab3ea
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 582807f9f416d3e6e73226dfd2e22af2d6331acd
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0e1368d3f637143fd47c3772c811257e8472cc74
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,9 +32,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā tēmā ir aprakstīts, kā programmatūrā Microsoft Dynamics 365 for Operations tiek pārvaldītas apakšuzņēmēja operācijas. Tas nozīmē, ka tajā ir paskaidrots, kā kreditors pārvalda resursam piešķirtās ražošanas operācijas.
+Šajā tēmā ir aprakstīts, kā programmatūrā Microsoft Dynamics 365 for Finance and Operations tiek pārvaldītas apakšuzņēmēja operācijas. Tas nozīmē, ka tajā ir paskaidrots, kā kreditors pārvalda resursam piešķirtās ražošanas operācijas.
 
-[Ražošanas procesu](production-process-overview.md) ietvaros darbu var veikt kreditoriem piederoši vai kreditoru administrēti resursi. Parasti kreditora resursi tiek izmantoti, lai apmierinātu periodiski radīto papildu pieprasījumu, kas pārsniedz uzņēmuma resursu ražīgumu. Kreditors, iespējams, var piedāvāt arī īpašas [resursu iespējas](resource-capabilities.md) vai resursus par zemāku cenu.  
+[Ražošanas procesu](production-process-overview.md) ietvaros darbu var veikt kreditoriem piederoši vai kreditoru administrēti resursi. Parasti kreditora resursi tiek izmantoti, lai apmierinātu periodiski radīto papildu pieprasījumu, kas pārsniedz uzņēmuma resursu ražīgumu. Kreditors, iespējams, var piedāvāt arī īpašas [resursu iespējas](resource-capabilities.md)vai resursus par zemāku cenu.  
 
 Atkarībā no kreditora resursiem, kas tiek izmantoti ražošanas procesā, [maršrutam](routes-operations.md) bieži ir papildu loģistikas prasības, jo materiāli un daļēji pabeigtās preces vispirms ir jātransportē uz kreditora apstrādes vietu. Pēc tam apakšuzņēmēja operācijas rezultāts ir jātransportē uz nākamajai operācijai piešķirto atrašanās vietu vai gatavo preču noliktavu.  
 
@@ -42,7 +42,7 @@ Ja tiek izmantotas apakšuzņēmēja operācijas vai aktivitātes, tās ietekmē
 
 Iekšējiem resursiem parasti tiek piešķirta fiksēta izmaksu likme par periodu. Turpretim apakšuzņēmēja resursu izmaksas tiek noteiktas, pamatojoties uz saistītā pakalpojuma pirkšanas cenu. Pakalpojums tiek definēts kā cita prece, un tas tiek izmantots konkrētās apakšuzņēmēja operācijas sagādes un iegādes procesu vadībai.  
 
-Pašlaik programmatūrā Microsoft Dynamics 365 for Operations nav īpašas daļēji pabeigto preču koncepcijas. Ja ražošanas pasūtījuma ietvaros izejmateriālu pārveidošanai par gatavo preci ir nepieciešamas vairākas operācijas, šī pasūtījuma gatavā prece tiek grāmatota atpakaļ krājumos tikai pēdējās operācijas laikā. Daļēji pabeigtās preces, kas tika iegūtas iepriekšējo operāciju laikā, tiek uzskaitītas kā nepabeigtais darbs (NP), taču tās netiek grāmatotas vai izsekotas krājumos. Lai gan maršrutus un materiālu komplektus (MK) var sadalīt vairākās mazākās vienībās, tādējādi tiek palielināts pārvaldāmo preču, MK un maršrutu skaits.  
+Pašlaik programmatūrā Microsoft Dynamics 365 for Finance and Operations nav īpašas daļēji pabeigto preču koncepcijas. Ja ražošanas pasūtījuma ietvaros izejmateriālu pārveidošanai par gatavo preci ir nepieciešamas vairākas operācijas, šī pasūtījuma gatavā prece tiek grāmatota atpakaļ krājumos tikai pēdējās operācijas laikā. Daļēji pabeigtās preces, kas tika iegūtas iepriekšējo operāciju laikā, tiek uzskaitītas kā nepabeigtais darbs (NP), taču tās netiek grāmatotas vai izsekotas krājumos. Lai gan maršrutus un materiālu komplektus (MK) var sadalīt vairākās mazākās vienībās, tādējādi tiek palielināts pārvaldāmo preču, MK un maršrutu skaits.  
 
 Ir pieejamas divas metodes ražošanas operāciju apakšuzņēmēja darbu pārvaldībai. Šīm metodēm atšķiras veids, kā var modelēt apakšlīgumu slēgšanas procesus, kā tiek atainotas daļēji pabeigtās preces procesa ietvaros un kā tiek pārvaldīta izmaksu kontrole.
 
@@ -68,7 +68,7 @@ Ja tiek izmantota šāda konfigurācija, saistītajai pakalpojuma precei tiek iz
 Ražošanas pasūtījumam var būt daudz operāciju, un katra operācija var būt piešķirta atšķirīgam kreditoram. Tāpēc pilnīgs ražošanas pasūtījums var aktivizēt vairākus pirkšanas pasūtījumus.
 
 ## <a name="subcontracting-of-production-flow-activities"></a>Ražošanas plūsmas aktivitāšu apakšlīgumu slēgšana
-Risinājums [lean manufacturing](lean-manufacturing-overview.md) modelē apakšuzņēmēja darbu kā pakalpojumu, kas ir saistīts ar [ražošanas plūsmas](http://ax.help.dynamics.com/en/wiki/create-a-production-flow-version/) (uzdevuma ceļveža tēma) aktivitāti. Tāpēc šī veida apakšlīgumu slēgšana tiek saukta arī par [no aktivitātēm atkarīgu apakšlīguma slēgšanu.](activity-based-subcontracting.md) Ir ieviests īpašs izmaksu grupas veids **Tiešie ārpakalpojumi**, un apakšuzņēmēju pakalpojumi nav ietverti gatavo preču MK. Ja lietojat metodi lean manufacturing, visas aktivitātes tiek definētas, izmantojot Kanban, kas var būt saistīts ar vienu vai vairākām ražošanas plūsmas aktivitātēm. Pagaidām šis skaidrojums līdzinās ražošanas pasūtījumu skaidrojumam. Taču atšķirībā no ražošanas pasūtījumiem, kurus pabeidzot, vienmēr ir jāiegūst gatava prece, varat izveidot Kanban, lai piegādātu daļēji pabeigtu preci. Nav nepieciešams ieviest jaunu preci un MK līmeni.  
+Risinājums [lean manufacturing](lean-manufacturing-overview.md)modelē apakšuzņēmēja darbu kā pakalpojumu, kas ir saistīts ar [ražošanas plūsmas](http://ax.help.dynamics.com/en/wiki/create-a-production-flow-version/) (uzdevuma ceļveža tēma) aktivitāti. Tāpēc šī veida apakšlīgumu slēgšana tiek saukta arī par [no aktivitātēm atkarīgu apakšlīguma slēgšanu.](activity-based-subcontracting.md) Ir ieviests īpašs izmaksu grupas veids **Tiešie ārpakalpojumi**, un apakšuzņēmēju pakalpojumi nav ietverti gatavo preču MK. Ja lietojat metodi lean manufacturing, visas aktivitātes tiek definētas, izmantojot Kanban, kas var būt saistīts ar vienu vai vairākām ražošanas plūsmas aktivitātēm. Pagaidām šis skaidrojums līdzinās ražošanas pasūtījumu skaidrojumam. Taču atšķirībā no ražošanas pasūtījumiem, kurus pabeidzot, vienmēr ir jāiegūst gatava prece, varat izveidot Kanban, lai piegādātu daļēji pabeigtu preci. Nav nepieciešams ieviest jaunu preci un MK līmeni.  
 
 Kanban nosacījumi var būt ļoti dinamiski, tāpēc varat modelēt dažādus vienas preces piegādes variantus ražošanas plūsmā. Ja lietojat racionalizēto apakšlīgumu slēgšanu, materiālu plūsma un finanšu plūsma ir stingri atdalītas. Visu materiālu plūsma ir atainota, izmantojot Kanban aktivitātes. Pakalpojumu preču pirkšanas pasūtījumu un šo pakalpojumu ieejas plūsmu grāmatošanu var automatizēt, pamatojoties uz Kanban darbu statusu ražošanas plūsmā. Kanban darbus var sākt un pabeigt pat pirms pirkšanas pasūtījumu izveides. Apakšlīgumu slēgšanas dokumentus (pakalpojuma pirkšanas pasūtījumu un pirkšanas ieejas plūsmas dokumentu) var apkopot pēc perioda un pakalpojuma. Tādējādi var samazināt pirkšanas dokumentu un rindu skaitu pat ļoti bieži atkārtotu operāciju gadījumā, kad kreditori nodrošina apakšuzņēmēju pakalpojumus viengabala plūsmā.
 

@@ -3,7 +3,7 @@ title: Izmaksu objekti
 description: "Šajā rakstā ir sniegta informācija par izmaksu objektiem un paskaidrots, kā tiek uzkrātas izmaksas un daudzumi. Izmaksu objekts ir elements, kam ir uzkrātas izmaksas un daudzumi. Izmaksu objekta elements var būt prece vai preces varianti, piemēram, stila un krāsas varianti."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventCostOnhandItem
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19451
 ms.assetid: ec776b98-813a-490d-848f-468452d98fac
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c818bfac6645b71bcc8b2249534aa80907786651
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 823d3edd106925339607d01fbf5f1921b85ff244
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -80,7 +80,7 @@ Sarakstā **Izmaksu objekti** ir parādīts saraksts ar visiem izmaksu objektiem
 
 [Izsekošanas dimensiju grupa](https://technet.microsoft.com/en-us/library/hh209465.aspx)
 
-[Jaunumi un izmaiņas programmā Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
+[Jaunumi un izmaiņas](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed)
 
 [Izmaksu ieraksti](cost-entries.md)
 

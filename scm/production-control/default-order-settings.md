@@ -1,16 +1,16 @@
 ---
 title: "Noklusējuma pasūtījuma iestatījumi dimensijām un preču variantiem"
-description: "Pasūtījuma noklusējuma iestatījumi definē vietu un noliktavu, kur krājumi tiks iegūti vai glabāti, minimālos, maksimālos, vairākkārtējos un standarta daudzumus, kas tiks izmantoti tirdzniecībai vai krājumu pārvaldībai, izpildes laikus, apturēšanas karodziņus un pasūtījumu solīšanas metodes. Pasūtījuma noklusējuma iestatījumi tiek izmantoti, veidojot pirkšanas pasūtījumus, pārdošanas pasūtījumus, pārsūtīšanas pasūtījumus, krājumu žurnālus un veicot vispārējo plānošanu plānoto pasūtījumu ģenerēšanai. Pasūtījuma noklusējuma iestatījumi var būt atkarīgi no preces, atkarīgi no vietas, atkarīgi no preces varianta vai atkarīgi no preces dimensijas."
+description: "Pasūtījuma noklusējuma iestatījumi definē vietu un noliktavu, kur krājumi tiks iegūti vai glabāti, minimālos, maksimālos, vairākkārtējos un standarta daudzumus, kas tiks izmantoti tirdzniecībai vai krājumu pārvaldībai, izpildes laikus, apturēšanas karodziņus un pasūtījumu solīšanas metodes."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventItemOrderSetup
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations, Retail
 ms.custom: 223084
 ms.assetid: fbfbcd7b-dc75-44ab-bffc-8bad576804a4
 ms.search.region: global
@@ -19,20 +19,22 @@ ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: db2398e85d5f49cece4f406b2244cf072cce083d
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: b4e8ff363a98f8dfc90af0133807373566531568
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="default-order-settings-for-dimensions-and-product-variants"></a>Noklusējuma pasūtījuma iestatījumi dimensijām un preču variantiem
+# <a name="default-order-settings-for-dimensions-and-product-variants"></a>Noklusējuma pasūtījumu iestatījumi dimensijām un preču variantiem
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
 
-Pasūtījuma noklusējuma iestatījumi definē vietu un noliktavu, kur krājumi tiks iegūti vai glabāti, minimālos, maksimālos, vairākkārtējos un standarta daudzumus, kas tiks izmantoti tirdzniecībai vai krājumu pārvaldībai, izpildes laikus, apturēšanas karodziņus un pasūtījumu solīšanas metodes. Pasūtījuma noklusējuma iestatījumi tiek izmantoti, veidojot pirkšanas pasūtījumus, pārdošanas pasūtījumus, pārsūtīšanas pasūtījumus, krājumu žurnālus un veicot vispārējo plānošanu plānoto pasūtījumu ģenerēšanai. Pasūtījuma noklusējuma iestatījumi var būt atkarīgi no preces, atkarīgi no vietas, atkarīgi no preces varianta vai atkarīgi no preces dimensijas.
+
+Izmantojot pasūtījuma noklusējuma iestatījumus programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterpise, tiek definēta vieta un noliktava, kur krājumi tiks iegūti vai glabāti, minimālie, maksimālie, vairākkārtējie un standarta daudzumi, kas tiks izmantoti tirdzniecībai vai krājumu pārvaldībai, izpildes laiki, apturēšanas karodziņš un pasūtījumu solīšanas metode. Pasūtījuma noklusējuma iestatījumi tiek izmantoti, veidojot pirkšanas pasūtījumus, pārdošanas pasūtījumus, pārsūtīšanas pasūtījumus, krājumu žurnālus un veicot vispārējo plānošanu plānoto pasūtījumu ģenerēšanai. Pasūtījuma noklusējuma iestatījumi var būt atkarīgi no preces, atkarīgi no vietas, atkarīgi no preces varianta vai atkarīgi no preces dimensijas.
 
 Pasūtījuma noklusējuma iestatījumus varat definēt lapā **Pasūtījuma noklusējuma iestatījumi**. Lai atvērtu šo lapu, dodieties uz **Preču informācijas pārvaldība** &gt; **Preces** &gt; **Izlaistās preces** &gt; atlasiet kādu izlaisto preci &gt; darbību rūtī **Plāns** vai ****Pārvaldīt krājumus**** &gt; **Pasūtījuma iestatījumi** &gt; **Pasūtījuma noklusējuma iestatījumi**.
 
@@ -74,7 +76,7 @@ Krājumu pasūtījuma noklusējuma iestatījumi tiek izmantoti arī tad, kad izv
 -   Plānotie ražošanas pasūtījumi
 
 ## <a name="full-definition-of-a-released-product"></a>Pilna izlaistās preces definīcija
-Kad veidojat kādu transakciju, rindā ir jānorāda pilnā izlaistās preces definīcija, pirms Dynamics 365 for Operations mēģina identificēt pasūtījuma noklusējuma iestatījumus. Pilna izlaistās preces definīcija nozīmē, ka transakcijā ir norādīts krājuma kods un visas aktīvās preces dimensijas, piemēram, konfigurācija, izmērs, stils un krāsa. Piemēram, ja manuāli veidojat pirkšanas pasūtījuma rindu izlaistam preces variantam, ir jānorāda visas nepieciešamās preces dimensijas, pirms pasūtījuma rindā tiek parādīta noklusējuma vieta, noliktava, daudzumi un izpildes laiks. 
+Transakcijas izveides laikā, rindā ir jānorāda pilnā izlaistās preces definīcija, pirms programmatūrā Dynamics 365 for Finance and Operations tiek mēģināts noteikt pasūtījuma noklusējuma iestatījumus. Pilna izlaistās preces definīcija nozīmē, ka transakcijā ir norādīts krājuma kods un visas aktīvās preces dimensijas, piemēram, konfigurācija, izmērs, stils un krāsa. Piemēram, ja manuāli veidojat pirkšanas pasūtījuma rindu izlaistam preces variantam, ir jānorāda visas nepieciešamās preces dimensijas, pirms pasūtījuma rindā tiek parādīta noklusējuma vieta, noliktava, daudzumi un izpildes laiks. 
 
 Ne visi pasūtījuma noklusējuma iestatījumu parametri tiek lietoti, kad veidojat pasūtījumu vai žurnāla rindas. Daudzumi un izpildes laiki pēc noklusējuma tiek rādīti tikai tad, ja piemērojams. Piemēram, veicot aprēķinus žurnāla rindā, izveidojot rindu, pēc noklusējuma tiek rādīta tikai vieta un noliktava. Skaidrs, ka netiek veikta nekāda daudzuma noklusējuma iestatīšana vai pārbaudes par vairākkārtējiem un minimālajiem daudzumiem, kad veidojot rindu vai grāmatojat žurnālu. 
 
@@ -97,7 +99,7 @@ Atšķirīgām izlaistajām precēm varat definēt vispārējos pasūtījuma ies
 
 Lai izveidotu no vietas atkarīgus pasūtījuma iestatījumus, noklikšķiniet uz **Jauns**. Skatā **Detalizētas informācijas skats** aizpildiet vietu laukā **Iestatījumi, kas piemērojami šeit:** &gt; **Vieta**. Skatā **Režģa skats** aizpildiet vietas vērtību kolonnā **Vieta**. Jaunā kārtula automātiski iegūs jaunu ranga vērtību, kas ir lielāka par nulli. Varat izveidot neierobežotu skaitu no vietas atkarīgo kārtulu, un visām no vietas atkarīgajām kārtulām varat piešķirt vienādu rangu, lai norādītu, ka tās ir vienlīdz svarīgas. 
 
-Ja esat atvēris skatu **Detalizētas informācijas skats**, nevar iegūt pārskatu par krājumam izveidotajām kārtulām. Pārslēdziet pogu **Rādīt/slēpt sarakstu**, lai redzētu pārskata informāciju. Kad tiek izveidota jebkāda tipa pasūtījuma rinda un tai nav norādīta neviena vieta, tad Dynamics 365 for Operations meklē kārtulu, kurai nav norādīta neviena vieta. Tas var palīdzēt pasūtījuma rindai noteikt noklusējuma vietu. Pēc tam šī vieta tiek izmantota no vietas atkarīgas kārtulas meklēšanai, kur var būt iestatīta noklusējuma noliktava. Šī noliktava tiek lietota pasūtījuma rindā.
+Ja esat atvēris skatu **Detalizētas informācijas skats**, nevar iegūt pārskatu par krājumam izveidotajām kārtulām. Pārslēdziet pogu **Rādīt/slēpt sarakstu**, lai redzētu pārskata informāciju. Kad tiek izveidota jebkāda veida pasūtījuma rinda, kam nav norādīta vieta, programmatūrā Dynamics 365 for Finance and Operations tiek meklēta kārtula, kurai nav norādīta vieta. Tas var palīdzēt pasūtījuma rindai noteikt noklusējuma vietu. Pēc tam šī vieta tiek izmantota no vietas atkarīgas kārtulas meklēšanai, kur var būt iestatīta noklusējuma noliktava. Šī noliktava tiek lietota pasūtījuma rindā.
 
 ### <a name="specific-order-settings-for-product-dimension"></a>Īpaši pasūtījuma iestatījumi preces dimensijai
 
@@ -134,7 +136,7 @@ Varat izveidot tālāk norādītās pasūtījuma noklusējuma iestatījumu kārt
 
 Abām veco izdevumu apturēšanas kārtulām ir vienāds rangs, tas nozīmē, ka tās ir vienlīdz svarīgas. Abām šīm kārtulām ir augstāks rangs nekā kārtulai, kas attiecas uz konfigurāciju C1 — tas nozīmē, ka tām ir virsroka pār konfigurācijas C1 kārtulu. 
 
-Šajā piemērā ir paskaidrota ranga nepieciešamība. Ja pirkšanas pasūtījums tiek izveidots konfigurācijai C1 un izdevumam R2, tad gadījumā, ja ranga nav, abas R2 un C1 definētās kārtulas būtu neskaidras. Lai novērstu šo neskaidrību, Dynamics 365 for Operations kārtulas meklēs dilstošā secībā pēc ranga, un lietos pirmo piemērojamo kārtulu. Pašreizējā piemērā, kad pirkšanas pasūtījuma rinda tiek izveidota konfigurācijai C1 un izdevumam R2, lietotājs saņem brīdinājuma ziņojumu, ka krājums ir aizturēts un ka to ir izraisījusi izdevuma vērtība. Ja konfigurācijas kārtulas rangs būtu augstāks par izdevuma kārtulas rangu, tad šī pirkšanas pasūtījuma rindas izveidošana konfigurācijai C1 un izdevumam R2 būtu izpildīta sekmīgi, un lietotājam netiktu rādīts ziņojums “krājums ir aizturēts”. 
+Šajā piemērā ir paskaidrota ranga nepieciešamība. Ja pirkšanas pasūtījums tiek izveidots konfigurācijai C1 un izdevumam R2, tad gadījumā, ja ranga nav, abas R2 un C1 definētās kārtulas būtu neskaidras. Lai novērstu šo neskaidrību, programmatūrā Dynamics 365 for Finance and Operations kārtulas tiek meklētas dilstošā secībā pēc ranga un tiek izmantota pirmā attiecināmā kārtula. Pašreizējā piemērā, kad pirkšanas pasūtījuma rinda tiek izveidota konfigurācijai C1 un izdevumam R2, lietotājs saņem brīdinājuma ziņojumu, ka krājums ir aizturēts un ka to ir izraisījusi izdevuma vērtība. Ja konfigurācijas kārtulas rangs būtu augstāks par izdevuma kārtulas rangu, tad šī pirkšanas pasūtījuma rindas izveidošana konfigurācijai C1 un izdevumam R2 būtu izpildīta sekmīgi, un lietotājam netiktu rādīts ziņojums “krājums ir aizturēts”. 
 
 Apsveriet tālāk norādītās pasūtījuma noklusējuma iestatījumu kārtulas.
 

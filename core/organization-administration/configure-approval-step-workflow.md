@@ -3,13 +3,13 @@ title: "Konfigurēt apstiprināšanas darbību darbplūsmā"
 description: "Šajā tēmā ir paskaidrots, kā konfigurēt apstiprināšanas darbības rekvizītus."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 192161
 ms.assetid: 8b478e3d-d6b4-403b-aae0-f639a71ca36c
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1924562f866ecdbb6fa6d3d0a9dc7627387f2d6a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 61b3107516c7af8d1c0f4c427bdffa9be0fbc18d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -126,10 +126,10 @@ Veiciet šīs darbības, lai norādītu personu, kurai jāpiešķir apstiprinā�
     </tr>
     <tr class="even">
     <td>Lietotājs</td>
-    <td>Specifiski Microsoft Dynamics 365 for Operations lietotāji</td>
+    <td>Noteikti Microsoft Dynamics 365 for Finance and Operations lietotāji</td>
     <td><ol>
     <li>Pēc tam, kad ir atlasīts vienums <strong>Lietotājs</strong>, noklikšķiniet uz cilnes <strong>Lietotājs</strong>.</li>
-    <li>Sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Operations lietotāji. Atlasiet lietotājus, kuriem piešķirt darbību, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
+    <li>Sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Finance and Operations lietotāji. Atlasiet lietotājus, kuriem piešķirt darbību, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -229,10 +229,10 @@ Ja lietotājs neveic darbības ar dokumentu atvēlētajā laikā, dokuments ir n
     </tr>
     <tr class="odd">
     <td>Lietotājs</td>
-    <td>Specifiski Dynamics 365 for Operations lietotāji</td>
+    <td>Noteikti Dynamics 365 for Finance and Operations lietotāji</td>
     <td><ol>
     <li>Pēc tam, kad ir atlasīts vienums <strong>Lietotājs</strong>, noklikšķiniet uz cilnes <strong>Lietotājs</strong>.</li>
-    <li>Sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Operations lietotāji. Atlasiet lietotājus, kuriem eskalēt dokumentu, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
+    <li>Sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Finance and Operations lietotāji. Atlasiet lietotājus, kuriem eskalēt dokumentu, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
     </ol></td>
     </tr>
     </tbody>

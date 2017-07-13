@@ -1,6 +1,6 @@
 ---
 title: "Jaunināt budžeta plānošanu"
-description: "Attiecībā uz budžeta plānošanu starp versiju Microsoft Dynamics AX 2012 un versiju Microsoft Dynamics 365 for Operations pastāv būtiskas atšķirības. Daži līdzekļi netika jaunināti, tādēļ tiem ir nepieciešama pārkonfigurēšana. Šajā tēmā ir skaidrots, kas ir jāpārkonfigurē, kā arī ir aprakstīti jaunie līdzekļi, kas ir jāņem vērā pēc jaunināšanas."
+description: "Attiecībā uz budžeta plānošanu starp versiju Microsoft Dynamics AX 2012 un versiju Microsoft Dynamics 365 for Finance and Operations pastāv būtiskas atšķirības. Daži līdzekļi netika jaunināti, tādēļ tiem ir nepieciešama pārkonfigurēšana. Šajā tēmā ir skaidrots, kas ir jāpārkonfigurē, kā arī ir aprakstīti jaunie līdzekļi, kas ir jāņem vērā pēc jaunināšanas."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/10/2017
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 272923
 ms.assetid: 17cdfe74-bdfd-466a-9bdd-c12583f250c7
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: ryansand
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fafa323c3949c09707c81ec41edae25ad2677eeb
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 83e93df3284760c46cb95b931f32cc9990ef2db1
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Attiecībā uz budžeta plānošanu starp versiju Microsoft Dynamics AX 2012 un versiju Microsoft Dynamics 365 for Operations pastāv būtiskas atšķirības. Daži līdzekļi netika jaunināti, tādēļ tiem ir nepieciešama pārkonfigurēšana. Šajā tēmā ir skaidrots, kas ir jāpārkonfigurē, kā arī ir aprakstīti jaunie līdzekļi, kas ir jāņem vērā pēc jaunināšanas.  
+Attiecībā uz budžeta plānošanu starp versiju Microsoft Dynamics AX 2012 un versiju Microsoft Dynamics 365 for Finance and Operations pastāv būtiskas atšķirības. Daži līdzekļi netika jaunināti, tādēļ tiem ir nepieciešama pārkonfigurēšana. Šajā tēmā ir skaidrots, kas ir jāpārkonfigurē, kā arī ir aprakstīti jaunie līdzekļi, kas ir jāņem vērā pēc jaunināšanas.  
 
-Attiecībā uz budžeta plānošanu versijā Microsoft Dynamics 365 for Operations ir daudz uzlabojumu, kas nebija pieejami versijā Microsoft Dynamics AX 2012. Šajā tēmā ir skaidrotas, kādas izmaiņas ir jāveic klientiem, kuri veic jaunināšanu. Tajā ir arī norādīti jaunie līdzekļi, kas ir jāņem vērā jaunināšanas procesā. Ņemot vērā izmaiņu apjomu, visus esošos budžeta plānus nevarēs atvērt līdz brīdim, kad ir pabeigtas šajā tēmā izklāstītās izmaiņas. Taču pārskatiem vajadzētu turpināt darboties, un tiem nav nepieciešamas papildu izmaiņas.
+Attiecībā uz budžeta plānošanu versijā Microsoft Dynamics 365 for Finance and Operations ir daudz uzlabojumu, kas nebija pieejami versijā Microsoft Dynamics AX 2012. Šajā tēmā ir skaidrotas, kādas izmaiņas ir jāveic klientiem, kuri veic jaunināšanu. Tajā ir arī norādīti jaunie līdzekļi, kas ir jāņem vērā jaunināšanas procesā. Ņemot vērā izmaiņu apjomu, visus esošos budžeta plānus nevarēs atvērt līdz brīdim, kad ir pabeigtas šajā tēmā izklāstītās izmaiņas. Taču pārskatiem vajadzētu turpināt darboties, un tiem nav nepieciešamas papildu izmaiņas.
 
 ## <a name="overview-of-changes"></a>Izmaiņu apskats
-Versijas Dynamics 365 for Operations budžeta veidošanā ir veiktas daudzas būtiskas izmaiņas. Šīs izmaiņas ir paredzēts, lai padarītu vienkāršāku budžeta plānošanas konfigurējamību, uzlabotu atkārtotu lietošanu un samazinātu ikgadējo uzturēšanu un uzstādīšanu. Tālāk norādītie AX 2012 apgabali versijā Dynamics 365 for Operations vairs nepastāv.
+Versijas Dynamics 365 for Finance and Operations budžeta veidošanā ir veiktas daudzas būtiskas izmaiņas. Šīs izmaiņas ir paredzēts, lai padarītu vienkāršāku budžeta plānošanas konfigurējamību, uzlabotu atkārtotu lietošanu un samazinātu ikgadējo uzturēšanu un uzstādīšanu. Tālāk norādītie AX 2012 apgabali versijā Dynamics 365 for Finance and Operations vairs nepastāv.
 
 -   Budžeta plāna veidnes (budžeta plānošanas konfigurācija)
 -   Budžeta plānu mapes (budžeta plānošanas konfigurācija)
@@ -53,15 +53,15 @@ Kolonnas ir jauns jēdziens, kas aizstāj daļas no Excel veidnes, kā arī matr
 
 ### <a name="layouts"></a>Izkārtojumi
 
-Izkārtojumi ir jauns jēdziens, kas aizstāj Excel veidni. Izkārtojumi ietver kolonnas, kas definē, kuri budžeta vai faktiskie dati un periodi ir jārāda. Izkārtojumi tiek arī kopīgoti starp klientu un Excel pievienojumprogrammu. Tāpēc lietotāja funkcionalitāte, kad datus ievadāt vai skatāt versijas Dynamics 365 for Operations klientā, ir labāka par lietotāja funkcionalitāti versijā AX 2012. Lai ievadītu datus versijas Dynamics 365 for Operations klientā, jums vairs nav ierobežojuma, ka transakciju skatā varat skatīt un ievadīt tikai vienu scenāriju. Tā vietā salīdzinājuma skats jums ļauj ērti skatīt un ievadīt summas par vairākiem periodiem un kontiem vienlaicīgi. Izkārtojumus var arī definēt tā, lai jūs varētu ievadīt un skatīt valūtas, komentāru un citus neobligātus datus. Izkārtojumi jums ļauj arī definēt, kuras virsgrāmatas dimensijas un dimensiju apraksti ir jārāda. Izkārtojumi ietver arī scenārija ierobežojumus, lai definētu, kuras kolonnas veidnē var rediģēt un kurām kolonnām ir jābūt pieejamām programmā Excel. Kad izkārtojums ir definēts, tam tiek ģenerēta veidne. Šī veidne, savukārt, izveido atbilstošo Excel veidni. Pēc tam šo Excel veidni varat rediģēt, lai iekļautu vairāk formulu un formatējuma, un pēc tam to augšupielādēt vēlreiz. Pēc tam izkārtojumi tiek piešķirti katrai stadijas lomai lapā **Budžeta plānošanas process**. Tāpēc izkārtojumi aizstāj veidnes, kas tika piešķirtas un lietotas līdzīgā veidā.
+Izkārtojumi ir jauns jēdziens, kas aizstāj Excel veidni. Izkārtojumi ietver kolonnas, kas definē, kuri budžeta vai faktiskie dati un periodi ir jārāda. Izkārtojumi tiek arī kopīgoti starp klientu un Excel pievienojumprogrammu. Tāpēc lietotāja funkcionalitāte, kad datus ievadāt vai skatāt versijas Dynamics 365 for Finance and Operations klientā, ir labāka par lietotāja funkcionalitāti versijā AX 2012. Lai ievadītu datus versijas Dynamics 365 for Finance and Operations klientā, jums vairs nav ierobežojuma, ka transakciju skatā varat skatīt un ievadīt tikai vienu scenāriju. Tā vietā salīdzinājuma skats jums ļauj ērti skatīt un ievadīt summas par vairākiem periodiem un kontiem vienlaicīgi. Izkārtojumus var arī definēt tā, lai jūs varētu ievadīt un skatīt valūtas, komentāru un citus neobligātus datus. Izkārtojumi jums ļauj arī definēt, kuras virsgrāmatas dimensijas un dimensiju apraksti ir jārāda. Izkārtojumi ietver arī scenārija ierobežojumus, lai definētu, kuras kolonnas veidnē var rediģēt un kurām kolonnām ir jābūt pieejamām programmā Excel. Kad izkārtojums ir definēts, tam tiek ģenerēta veidne. Šī veidne, savukārt, izveido atbilstošo Excel veidni. Pēc tam šo Excel veidni varat rediģēt, lai iekļautu vairāk formulu un formatējuma, un pēc tam to augšupielādēt vēlreiz. Pēc tam izkārtojumi tiek piešķirti katrai stadijas lomai lapā **Budžeta plānošanas process**. Tāpēc izkārtojumi aizstāj veidnes, kas tika piešķirtas un lietotas līdzīgā veidā.
 
 ### <a name="budget-planning-processes"></a>Budžeta plānošanas procesi
 
-Budžeta plānošanas procesi lielākoties ir tādi paši kā versijā AX 2012. Visbūtiskākā izmaiņa ir veidņu aizstāšana ar izkārtojumiem. Ja kādi procesi iepriekš tika pabeigti versijā AX 2012, tad šie procesi tiek atjaunināti uz notiekošu statusu, lai varētu veikt izmaiņas. Jums ir jāpiešķir katrai stadijas lomai nepieciešamie izkārtojumi, lai noteiktu, kuri scenāriji un laika periodi ir redzami, kad attiecīgais plāns tiek atvērts klientā. Izkārtojumi arī nosaka, kura Excel veidne tiek atvērta ārpus Dynamic 365 for Operations, lai jūs varētu skatīt attiecīgo budžetu. **Noklusējuma konta struktūra** ir jauns obligātais lauks budžeta plānošanas procesam. Katram budžeta plānošanas procesam ir jāpiešķir primārā konta struktūra, kas ir jāizmanto budžeta veidošanai.
+Budžeta plānošanas procesi lielākoties ir tādi paši kā versijā AX 2012. Visbūtiskākā izmaiņa ir veidņu aizstāšana ar izkārtojumiem. Ja kādi procesi iepriekš tika pabeigti versijā AX 2012, tad šie procesi tiek atjaunināti uz notiekošu statusu, lai varētu veikt izmaiņas. Jums ir jāpiešķir katrai stadijas lomai nepieciešamie izkārtojumi, lai noteiktu, kuri scenāriji un laika periodi ir redzami, kad attiecīgais plāns tiek atvērts klientā. Izkārtojumi arī nosaka, kura Excel veidne tiek atvērta ārpus Dynamic 365 for Finance and Operations, lai jūs varētu skatīt attiecīgo budžetu. **Noklusējuma konta struktūra** ir jauns obligātais lauks budžeta plānošanas procesam. Katram budžeta plānošanas procesam ir jāpiešķir primārā konta struktūra, kas ir jāizmanto budžeta veidošanai.
 
 ### <a name="attachments"></a>Pielikumi
 
-Versijā AX 2012 attaisnojuma dokumenti tika saglabāti pielikumu mapē. Iepriekšējie attaisnojuma dokumenti netiek jaunināti. Tagad attaisnojuma dokumenti tiek glabāti datu bāzē. Ja šī informācija ir jāsaglabā jauninātajā versijā, gala attaisnojuma dokumentus katram plānam varat augšupielādēt kā pielikumu, darbību rūtī izmantojot pogu **Attaisnojums**. Versijā AX 2012 Excel darblapas katram budžeta plānam tika izveidotas, pamatojoties uz veidni. Versijā Dynamics 365 for Operations visi plāni atver izkārtojuma kopiju. Taču Excel failā veiktās izmaiņas netiek saglabātas. Visas formulas vai atbalsta informācija, kas tika izmantota atkarībā no plāna, ir jāpievieno, izmantojot komentārus, attaisnojuma dokumentu vai kādu citu papildu procesu.
+Versijā AX 2012 attaisnojuma dokumenti tika saglabāti pielikumu mapē. Iepriekšējie attaisnojuma dokumenti netiek jaunināti. Tagad attaisnojuma dokumenti tiek glabāti datu bāzē. Ja šī informācija ir jāsaglabā jauninātajā versijā, gala attaisnojuma dokumentus katram plānam varat augšupielādēt kā pielikumu, darbību rūtī izmantojot pogu **Attaisnojums**. Versijā AX 2012 Excel darblapas katram budžeta plānam tika izveidotas, pamatojoties uz veidni. Versijā Dynamics 365 for Finance and Operations visi plāni atver izkārtojuma kopiju. Taču Excel failā veiktās izmaiņas netiek saglabātas. Visas formulas vai atbalsta informācija, kas tika izmantota atkarībā no plāna, ir jāpievieno, izmantojot komentārus, attaisnojuma dokumentu vai kādu citu papildu procesu.
 
 ## <a name="configuring-an-upgraded-environment-from-ax-2012"></a>No AX 2012 jauninātas vides konfigurēšana
 Lai palīdzētu noteikt veidu, kā konfigurēt jaunināto sistēmu, nākamajā piemērā tiek izmantots jaunināts budžeta process no AX 2012 demonstrācijas datiem. Lai palīdzētu saistībā ar jaunināšanas procesu, kolonnām tika izveidoti noklusējuma konfigurācijas dati. Šos noklusējuma datus varat atjaunināt vai dzēst, ja tie neatbilst jūsu konfigurācijas prasībām. **Piezīme.** Pastāv jauni obligātie lauki, kas sistēmā nav iestatīti. Ja iestrēgstat kādā lapā, piemēram, lapā **Budžeta plānošanas konfigurācija**, un nevarat aiziet no tās, tad varat aizvērt savu pārlūkprogrammu un pēc tam to vēlreiz atvērt citā lapā, lai ievadītu informāciju pareizajā secībā. Pastāv obligātie lauki, kas vēl nav iestatīti. Tāpēc līdz brīdim, kad viss ir konfigurēts un visi obligātie lauki ir iestatīti, var rasties problēmas. Šajā tēmā ir paskaidrots, kāpēc nepieciešamības iestatīt šos laukus. Tālāk ir norādīti daži no šiem obligātajiem laukiem.
@@ -75,7 +75,7 @@ Lai palīdzētu noteikt veidu, kā konfigurēt jaunināto sistēmu, nākamajā p
     -   Budžeta plāna scenāriji: Faktiskās vērtības, Bāzlīnija, Budžeta pieprasījums, Apstiprinātais budžets
     -   Budžeta plāna rindas visiem scenārijiem 2017. gadā un faktiskajām vērtībām gan 2017., gan 2016. gadam
 
-    Versijā Dynamics 365 for Operations tiks izveidotas tālāk norādītās kolonnas.
+    Versijā Dynamics 365 for Finance and Operations tiks izveidotas tālāk norādītās kolonnas.
     | Kolonnas nosaukums    | Budžeta plāna scenārijs | Kolonnas laika periods | Gada nobīde |
     |----------------|----------------------|--------------------|-------------|
     | Jan 1. scenārijs | Faktiskās vērtības              | 1                  | 0           |
@@ -128,7 +128,7 @@ Tālāk norādītās opcijas ir pievienotas kā periodiski procesi. Tālāk uzsk
 
 ### <a name="more-complete-tracking-of-amounts"></a>Pilnīgāka summu izsekošana
 
-Versijā AX 2012 budžeta plānošanai bija viena plāna summa, kas tika saglabāta katrai vērtībai. Versijā Dynamics 365 for Operations šis datu modelis ir paplašināts. Tagad katrai vērtībai ir uzskaites valūtas, transakcijas valūtas un pārskata valūtas summas. Jaunināšanas laikā šīs jaunās kolonnas esošajiem datiem tiek aizpildītas automātiski.
+Versijā AX 2012 budžeta plānošanai bija viena plāna summa, kas tika saglabāta katrai vērtībai. Versijā Dynamics 365 for Finance and Operations šis datu modelis ir paplašināts. Tagad katrai vērtībai ir uzskaites valūtas, transakcijas valūtas un pārskata valūtas summas. Jaunināšanas laikā šīs jaunās kolonnas esošajiem datiem tiek aizpildītas automātiski.
 
 ### <a name="do-not-convert-currency-in-aggregation"></a>Nekonvertēt valūtu apkopojumā
 

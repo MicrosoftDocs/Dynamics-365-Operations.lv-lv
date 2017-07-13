@@ -3,14 +3,14 @@ title: "Noliktavas konfigurācija"
 description: "Šajā rakstā ir paskaidrots, kā konfigurēt noliktavu. Tajā ir ietverta informācija par to, kā iespējot noliktavas izkārtojumu un noliktavas procesus."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11554
 ms.assetid: 262b7b88-2cce-44f7-9a5b-77c12af1be20
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 08c086767303f6f52e085f8f56b5d09f1e46878f
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 17608d373fbedd20efe0b525ec141989a50a40a2
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,7 +36,7 @@ ms.lasthandoff: 05/25/2017
 **Piezīme.** Šis raksts attiecas uz moduļa **Noliktavas vadība** (uzlabotās noliktavas) līdzekļiem. Tas neattiecas uz noliktavas līdzekļiem modulī **Krājumu vadība**.
 
 ## <a name="warehouse-layout"></a>Noliktavas izkārtojums
-Noliktavu vadības sistēma programmatūrā Microsoft Dynamics 365 for Operations jums sniedz elastīgus veidus, kā definēt savas noliktavas izkārtojumu, lai tas atbilstu mainīgajām vajadzībām, tāpēc varat sasniegt optimālu noliktavas efektivitāti.
+Noliktavu pārvaldības sistēma programmatūrā Microsoft Dynamics 365 for Finance and Operations (Enterprise izdevumā) sniedz elastīgas iespējas, kā definēt savas noliktavas izkārtojumu tā, lai tas atbilstu mainīgajām vajadzībām un jūs varētu nodrošināt optimālu noliktavas efektivitāti.
 
 -   Optimālai preču izvietošanai varat izveidot augstas prioritātes un zemas prioritātes glabāšanas zonas.
 -   Noliktavas varat sadalīt zonās, lai pielāgotos dažādām glabāšanas vajadzībām, piemēram, temperatūras prasībām vai dažādiem krājumu apgrozījuma ātrumiem.
@@ -44,7 +44,7 @@ Noliktavu vadības sistēma programmatūrā Microsoft Dynamics 365 for Operation
 -   Novietojumus varat grupēt, izmantojot fiziskās ietilpības ierobežojumu iestatījumus.
 -   Varat kontrolēt veidu, kā krājumi tiek glabāti un izdoti, pamatojoties uz vaicājuma definētām kārtulām.
 
-Lai programmatūrā Microsoft Dynamics 365 for Operations izmantotu noliktavas vadību, jums ir jāizveido noliktava un tā jāiespējo papildu vai specializētākām noliktavas vadības aktivitātēm. Lapā **Noliktavas** atzīmējiet opciju **Izmantot noliktavas vadības procesus**.
+Lai programmatūrā Finance and Operations izmantotu noliktavas pārvaldību, jums ir jāizveido noliktava un tā jāiespējo papildu vai specializētākām noliktavas pārvaldības darbībām. Lapā **Noliktavas** atzīmējiet opciju **Izmantot noliktavas vadības procesus**.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Zonu grupas, zonas, novietojumu tipi un novietojumi
 
@@ -56,7 +56,7 @@ Kā daļa no noliktavas izkārtojuma iespējošanas procesa jums ir jādefinē n
 -   **Novietojumu tipi** — loģiska vai fiziska noliktavas novietojumu grupēšana. Piemēram, varat izveidot atrašanās vietas veidu visiem novietojuma veidiem. Obligātie iestatījumi lapā **Noliktavas vadības parametri** vada sagatavošanas posmu novietojuma tipu un galīgās nosūtīšanas novietojuma tipu definēšanas procesu.
 -   **Novietojumi** — novietojuma informācijas zemākais līmenis. Novietojumi tiek izmantoti, lai izsekotu, kur rīcībā esošie krājumi tiek glabāti un izdoti noliktavā.
 
-Elementi, ko izveidojat, lai definētu savas noliktavas izkārtojumu, tiek izmantoti vaicājumos, kurus iestatāt darbu veidnēs, lai noliktavā vadītu darba pasūtījumus. Tādēļ, kad definējat zonas, novietojumu tipus un citus elementus, ņemiet vērā veidu, kā dažādi apgabali noliktavā tiek izmantoti dažādiem procesiem. Turklāt ņemiet vērā arī tādus faktorus kā konkrēta apgabala fiziskie raksturlielumi. Piemēram, var būt apgabali, kur varat izmantot tikai noteikta veida autoiekrāvēju. Vai — ja jūsu uzņēmumam vienās telpās ir gan ražošanas, gan pabeigtās preces — programmatūrā Dynamics 365 for Operations vēlaties izveidot vienu noliktavu, bet pēc tam abas operācijas sadalīt, izveidojot divas zonu grupas. Piešķiriet saviem elementiem aprakstošus nosaukumus, lai tos būtu vienkārši identificēt, kad tos izmantojat veidņu vaicājumos.
+Elementi, ko izveidojat, lai definētu savas noliktavas izkārtojumu, tiek izmantoti vaicājumos, kurus iestatāt darbu veidnēs, lai noliktavā vadītu darba pasūtījumus. Tādēļ, kad definējat zonas, novietojumu tipus un citus elementus, ņemiet vērā veidu, kā dažādi apgabali noliktavā tiek izmantoti dažādiem procesiem. Turklāt ņemiet vērā arī tādus faktorus kā konkrēta apgabala fiziskie raksturlielumi. Piemēram, var būt apgabali, kur varat izmantot tikai noteikta veida autoiekrāvēju. Vai arī, ja jūsu uzņēmumam vienās telpās ir gan ražošanas, gan pabeigtās preces, iespējams, programmatūrā Finance and Operations vēlaties izveidot vienu noliktavu, bet pēc tam abas operācijas sadalīt, izveidojot divas zonu grupas. Piešķiriet saviem elementiem aprakstošus nosaukumus, lai tos būtu vienkārši identificēt, kad tos izmantojat veidņu vaicājumos.
 
 ### <a name="location-stocking-limits-location-profiles-and-fixed-picking-locations"></a>Novietojumu dimensiju ierobežojumi, novietojumu profili un fiksēti izdošanas novietojumi
 

@@ -1,27 +1,28 @@
 ---
 title: "Maksājumu metodes zvanu centrā"
-description: "Šajā tēmā ir aprakstītas dažādās maksājumu metodes, ko mazumtirdzniecībā un komercijā varat izmantot zvanu centrā."
+description: "Šajā tēmā ir aprakstītas dažādās maksājumu metodes, ko varat izmantot zvanu centrā programmatūrai Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 92163
 ms.assetid: 8e738907-870b-466c-ab0c-07f4a4aa47f3
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 930264f9c22cbde102b59237e432df7d7e4836c8
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 07cb1bcb3870b96e34f7f6725fe5b7da32628fde
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,9 +32,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Šajā tēmā ir aprakstītas dažādās maksājumu metodes, ko mazumtirdzniecībā un komercijā varat izmantot zvanu centrā.
+Šajā tēmā ir aprakstītas dažādās maksājumu metodes, ko varat izmantot zvanu centrā programmatūrai Dynamics 365 for Retail.
 
-Maksājumu metodes, kuras programmatūras Microsoft Dynamics AX modulī Mazumtirdzniecība un komercija tiek izmantotas citos kanālos, piemēram, skaidru naudu, čekus, kredītkartes un dāvanu kartes, var izmantot arī zvanu centros. Pēc zvanu centra maksājuma metodes iestatīšanas tā tiek rādīta zvanu centra lietotājiem kā viena no opcijām lapas **Pārdošanas pasūtījums** sadaļā **Maksājumi**. Turklāt varat iestatīt kuponus, lai piedāvātu atlaides debitoriem, kas veic pasūtījumu jūsu organizācijas zvanu centrā. Kuponi var būt par fiksētas summas atlaidi vai par procentiem no krājuma cenas vai pasūtījuma kopsummas. Piemēram, no summas atkarīgs kupons var debitoriem piedāvāt atlaidi 75,00, ja debitors iztērē vismaz 750,00. Varat izveidot dažādus kuponu tipus, iestatīt pamata/pakārtotos kuponus, un kuponus kopēt vai anulēt. Lai izveidotu kuponus, izmantojiet nākamajā tabulā aprakstītas opcijas.
+Maksājumu metodes, kuras izmanto citos kanālos, piemēram, skaidru naudu, čekus, kredītkartes un dāvanu kartes, var izmantot arī zvanu centros. Pēc zvanu centra maksājuma metodes iestatīšanas tā tiek rādīta zvanu centra lietotājiem kā viena no opcijām lapas **Pārdošanas pasūtījums** sadaļā **Maksājumi**. Turklāt varat iestatīt kuponus, lai piedāvātu atlaides debitoriem, kas veic pasūtījumu jūsu organizācijas zvanu centrā. Kuponi var būt par fiksētas summas atlaidi vai par procentiem no krājuma cenas vai pasūtījuma kopsummas. Piemēram, no summas atkarīgs kupons var debitoriem piedāvāt atlaidi 75,00, ja debitors iztērē vismaz 750,00. Varat izveidot dažādus kuponu tipus, iestatīt pamata/pakārtotos kuponus, un kuponus kopēt vai anulēt. Lai izveidotu kuponus, izmantojiet nākamajā tabulā aprakstītas opcijas.
 
 |                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

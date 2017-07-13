@@ -3,24 +3,24 @@ title: "Projektu vadība un uzskaite"
 description: "Projekta vadības un uzskaites funkcionalitāti var izmantot vairākās nozarēs, lai sniegtu pakalpojumus, ražotu preces vai sasniegtu rezultātu."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a6235f36af6dfb2f4164405d384f13a7c1cde06
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 12afcde947463b3abf58dea6138653a32dcda6f1
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -37,7 +37,7 @@ Projekts darbību grupa, kas ir izstrādāta, lai sniegtu pakalpojumu, ražotu p
 ## <a name="projects-across-industries"></a>Projekti dažādās nozarēs
 Projektu vadības un uzskaites funkcionalitāti var izmantot vairākās nozarēm, kā parādīts šajā attēlā. [![Projekti dažādās nozarēs](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-Zvanu centrā tādu darbību kopu aprakstīšanai, kas nepieciešamas, lai atrisinātu zvanu, var izmantot biļeti. Konsultāciju uzņēmumi, piemēram, vadības vai tehnisko konsultāciju organizācijas vai reklāmas aģentūras, savas darbības sauc par projektiem. Mārketinga nozarē veicamo darbu kopa ir kampaņa Uz projektiem balstītas ražošanas nozarēs ražošanas pasūtījums saista dažādus darbus, kuri jāveic, lai saražotu pabeigtas preces. Neatkarīgi no lietotā nosaukuma šie projekti ietver resursus, grafikus un izmaksas, un projektu vadības un uzskaites funkcijas programmatūrā Microsoft Dynamics 365 for Operations var palīdzēt planot, izpildīt un analizēt šos projektus.
+Zvanu centrā tādu darbību kopu aprakstīšanai, kas nepieciešamas, lai atrisinātu zvanu, var izmantot biļeti. Konsultāciju uzņēmumi, piemēram, vadības vai tehnisko konsultāciju organizācijas vai reklāmas aģentūras, savas darbības sauc par projektiem. Mārketinga nozarē veicamo darbu kopa ir kampaņa Uz projektiem balstītas ražošanas nozarēs ražošanas pasūtījums saista dažādus darbus, kuri jāveic, lai saražotu pabeigtas preces. Neatkarīgi no lietotā nosaukuma šie projekti ietver resursus, grafikus un izmaksas, un projektu vadības un uzskaites funkcijas programmatūrā Microsoft Dynamics 365 for Finance and Operations, izdevumā Enterprise var palīdzēt plānot, izpildīt un analizēt šos projektus.
 
 ## <a name="project-phases"></a>Projekta fāzes
 Lai gan šī procesa plūsma ir paredzēta ārējiem projektiem vai projektiem, kas tiek veikti vienam vai vairākiem debitoriem, funkcionalitāte attiecas arī uz iekšējiem izmaksu projektiem. 
@@ -75,11 +75,11 @@ Plašāku informāciju skatiet sadaļā [Darba sadalījuma struktūras](work-bre
 
 ### <a name="create-project-forecasts-and-budgets"></a>Projektu prognožu un budžetu izveide
 
-Varat izmantot prognozēšanu, ja jūsu organizācijai ir operatīva perspektīva un ja tā koncentrējas uz ieņēmumiem un izmaksām, kas ir atvasināti no noteiktām darbībām. Tomēr, ja jūsu organizācija vairāk koncentrējas uz finanšu summām, varat izmantot budžeta veidošanu. Katrai metodei ir savas priekšrocības. Plašāku informāciju skatiet sadaļā [Projektu prognozes un budžeti](project-forecasts-budgets.mdhttps:/ax.help.dynamics.com/en/wiki/project-forecasts-and-budgets/).
+Varat izmantot prognozēšanu, ja jūsu organizācijai ir operatīva perspektīva un ja tā koncentrējas uz ieņēmumiem un izmaksām, kas ir atvasināti no noteiktām darbībām. Tomēr, ja jūsu organizācija vairāk koncentrējas uz finanšu summām, varat izmantot budžeta veidošanu. Katrai metodei ir savas priekšrocības. Plašāku informāciju skatiet sadaļā [Projektu prognozes un budžeti](project-forecasts-budgets.md).
 
 ### <a name="create-projects"></a>Izveidot projektus
 
-Programmatūrā Microsoft Dynamics 365 for Operations varat izveidot sešu veidu projektus. Katram projekta veidam tiek lietoti atšķirīgi izmaksu un ieņēmumu atzīšanas iestatījumi. Projekta tipa izvēle ir atkarīga no šī projekta mērķa. Nākamajā tabulā ir aprakstīts katra projekta tipa tipiskais lietojums.
+Programmatūrā Microsoft Finance and Operations varat izveidot sešu tipu projektus. Katram projekta veidam tiek lietoti atšķirīgi izmaksu un ieņēmumu atzīšanas iestatījumi. Projekta tipa izvēle ir atkarīga no šī projekta mērķa. Nākamajā tabulā ir aprakstīts katra projekta tipa tipiskais lietojums.
 
                                                                                                                                                                          |
 | Projekta veids      | Apraksts                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -118,7 +118,7 @@ Plašāku informāciju skatiet sadaļā [Darba sadalījuma struktūras](work-bre
 
 Projektus var kontrolēt un pārvadīt divos veidos: izmantojot projekta prognozes vai projekta budžetus. Varat izmantot prognozēšanu, ja jūsu organizācijai ir operatīva perspektīva un ja tā koncentrējas uz ieņēmumiem un izmaksām, kas ir atvasināti no noteiktām darbībām. Tomēr, ja jūsu organizācija vairāk koncentrējas uz finanšu summām, varat izmantot budžeta veidošanu.
 
-Plašāku informāciju skatiet sadaļā [Projektu prognozes un budžeti](project-forecasts-budgets.mdhttps:/ax.help.dynamics.com/en/wiki/project-forecasts-and-budgets/).
+Plašāku informāciju skatiet sadaļā [Projektu prognozes un budžeti](project-forecasts-budgets.md).
 
 ### <a name="create-production-orders"></a>Ražošanas pasūtījumu izveide
 
@@ -228,7 +228,7 @@ Veidojot novērtējumu, varat izvēlēties metodi, kas tiek izmantota, lai aprē
 <tbody>
 <tr class="odd">
 <td>Kopējās izmaksas – faktiskās</td>
-<td>Novērtētās izmaksas ir jāievada manuāli. Kad ir aizpildīta kolonna <strong>Kopējās izmaksas</strong> vai <strong>Kopējais daudzums</strong> lapā <strong>Izmaksu novērtējums</strong>, faktiskās izmaksas tiek atņemtas no lietotāja ievadītajām kopsummām. Rezultāts ir projekta pabeigšanas izmaksas. Parasti izmaksu izmaiņas netiek izsekotas, pamatojoties uz, piemēram, viesnīcas pakalpojumu un maltīšu skaitu katrā periodā. Tā vietā: izsekošanas parasti balstās uz salīdzinājumu ar novērtēto stundu kopējo summu. Šai pieejai nav vajadzīgs budžeta modelis, un kopējās izmaksas vai kopējo daudzumu var mainīt manuāli. Kad kolonnā <strong>Kopējās izmaksas</strong> vai <strong>Kopējais daudzums</strong> ir ievadīta vērtība, programmatūrā Microsoft Dynamics 365 for Operations šī vērtība tiek salīdzināta ar faktiskajām transakcijām, kas ir grāmatotas attiecīgajā periodā, un pēc tam tiek samazināta vērtība kolonnā <strong>Daudzums pabeigšanai</strong> vai <strong>Pabeigšanas izmaksas</strong>.</td>
+<td>Novērtētās izmaksas ir jāievada manuāli. Kad ir aizpildīta kolonna <strong>Kopējās izmaksas</strong> vai <strong>Kopējais daudzums</strong> lapā <strong>Izmaksu novērtējums</strong>, faktiskās izmaksas tiek atņemtas no lietotāja ievadītajām kopsummām. Rezultāts ir projekta pabeigšanas izmaksas. Parasti izmaksu izmaiņas netiek izsekotas, pamatojoties uz, piemēram, viesnīcas pakalpojumu un maltīšu skaitu katrā periodā. Tā vietā: izsekošanas parasti balstās uz salīdzinājumu ar novērtēto stundu kopējo summu. Šai pieejai nav vajadzīgs budžeta modelis, un kopējās izmaksas vai kopējo daudzumu var mainīt manuāli. Kad kolonnā <strong>Kopējās izmaksas</strong> vai <strong>Kopējais daudzums</strong> ir ievadīta kāda vērtība, programmatūra Finance and Operations salīdzina šo vērtību ar faktiskajām transakcijām, kas ir grāmatotas periodā, un pēc tam samazina vērtību kolonnā <strong>Daudzums pabeigšanai</strong> vai <strong>Pabeigšanas izmaksas</strong>.</td>
 </tr>
 <tr class="even">
 <td>Kopējais budžets – faktiskais</td>
@@ -238,7 +238,7 @@ Veidojot novērtējumu, varat izvēlēties metodi, kas tiek izmantota, lai aprē
 <li>Salīdziniet budžeta darbības ar faktiskajām darbībām.</li>
 <li>Saglabājiet tādus pašus, samaziniet vai palieliniet novērtējumus nākamajam periodam.</li>
 </ol>
-Programmatūrā Microsoft Dynamics 365 for Operations netiek automātiski samazināts prognozētais budžets. Tādēļ ieteicams saglabāt sākotnējo budžeta modeli fiksētas cenas projektam, lai izveidotu bāzlīniju salīdzināšanai, kad projekts ir pabeigts. 
+Programmatūrā Finance and Operations netiek automātiski samazināts prognozētais budžets. Tādēļ ieteicams saglabāt sākotnējo budžeta modeli fiksētas cenas projektam, lai izveidotu bāzlīniju salīdzināšanai, kad projekts ir pabeigts. 
 > [!NOTE] Ja izvēlaties šo metodi, izmantojiet vismaz divus budžeta modeļus. Vienā modelī jābūt ietvertai sākotnējai prognozei. Otrā modelī ir jāiekopē budžeta darbības no cita modeļā. Šī metode ir derīga tikai fiksētas cenas un investīciju projektiem.</td>
 > </tr>
 <tr class="odd">

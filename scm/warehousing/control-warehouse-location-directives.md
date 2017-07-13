@@ -3,14 +3,14 @@ title: "Kontrolēt noliktavas darbu, izmantojot darbu veidnes un novietojuma dir
 description: "Šajā rakstā aprakstīts, kā izmantot darba veidnes un novietojuma direktīvas, lai noteiktu, kā un kur darbs tiek veikts noliktavā."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSLocDirFailure, WHSLocDirHint, WHSLocDirTable, WHSLocDirTableUOM, WHSRFMenuItem, WHSWork, WHSWorkClass, WHSWorkPool, WHSWorkTemplateTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72921
 ms.assetid: 377ab8af-5b0c-4b5e-a387-06ac1e1820c0
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9d0ad4f64ee84da4e90dfa1525ebb5ff9fec4063
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: f8bcdcf70089aaed06ba0f88cdbec8dfdf9121d1
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 Šajā rakstā aprakstīts, kā izmantot darba veidnes un novietojuma direktīvas, lai noteiktu, kā un kur darbs tiek veikts noliktavā.
 
-Instrukcijas, ko noliktavas darbinieki saņem mobilajā ierīcē, nosaka darba veidnes, kuras iestatāt programmā Microsoft Dynamics 365 for Operations, lai definētu dažādus noliktavas procesus un uzdevumus. Darba veidnes nosaka, kā darbs tiek veikts katram noliktavas procesam. Saistot novietojuma direktīvu ar darba veidnēm, var palīdzēt garantēt, ka darbs notiek noteiktās noliktavu fiziskās daļās.
+Norādījumi, ko noliktavas darbinieki saņem mobilajā ierīcē, ir atkarīgi no darba veidnēm, kuras iestatāt programmatūrā Microsoft Dynamics 365 for Finance and Operations, lai definētu dažādos noliktavas procesus un uzdevumus. Darba veidnes nosaka, kā darbs tiek veikts katram noliktavas procesam. Saistot novietojuma direktīvu ar darba veidnēm, var palīdzēt garantēt, ka darbs notiek noteiktās noliktavu fiziskās daļās.
 
 ## <a name="work-templates"></a>Darbu veidnes
 Lapa **Darbu veidnes** ļauj definēt darba operācijas, kas jāveic noliktavā. Parasti, noliktavas darba operācijas sastāv no darbību pāra: noliktavas darbinieks paņem rīcībā esošos krājumus vienā novietojumā un pēc tam liek paņemtos krājumus citā novietojumā. 
@@ -57,7 +57,7 @@ Attiecībā uz darba veidnēm, varat iestatīt vaicājumu, lai noteiktu, kad tie
 
 Novietojuma direktīvas rindas iestata papildu ierobežojumus attiecībā uz novietojuma meklēšanas noteikumu lietošanu. Varat norādīt minimālo daudzumu un maksimālo daudzumu, kuram direktīva jāpiemēro, kā arī varat norādīt, ka direktīvai jābūt paredzētai noteiktai krājuma vienībai. Piemēram, ja mērvienība ir paletes, krājumus paletēs var izvietot konkrētā novietojumā. Var arī norādīt, vai daudzumu var sadalīt starp vairākiem novietojumiem. Tāpat kā novietojuma direktīvas virsraksts katrai novietojuma direktīvas rindai ir sērijas numurs, kas nosaka secību, kādā rindas tiek novērtētas. 
 
-Novietojuma direktīvām ir viens papildu detalizācijas līmenis: *novietojuma direktīvas darbības*. Var definēt vairākas novietojuma direktīvas darbības katrai rindai. Un atkal — kārtas numurs tiek izmantots, lai noteiktu secību, kādā darbības tiek novērtētas. Šajā līmenī varat iestatīt vaicājumu, lai definētu, kā atrast vislabāko novietojumu noliktavā. Varat arī izmantot iepriekš definētus **Stratēģijas**iestatījumus, lai atrastu optimālu novietojumu.
+Novietojuma direktīvām ir viens papildu detalizācijas līmenis: *novietojuma direktīvas darbības*. Var definēt vairākas novietojuma direktīvas darbības katrai rindai. Un atkal — kārtas numurs tiek izmantots, lai noteiktu secību, kādā darbības tiek novērtētas. Šajā līmenī varat iestatīt vaicājumu, lai definētu, kā atrast vislabāko novietojumu noliktavā. Varat arī izmantot iepriekš definētus **Stratēģijas** iestatījumus, lai atrastu optimālu novietojumu.
 
 ### <a name="example-of-the-use-of-location-directives"></a>Novietojuma direktīvas izmantošanas piemērs
 

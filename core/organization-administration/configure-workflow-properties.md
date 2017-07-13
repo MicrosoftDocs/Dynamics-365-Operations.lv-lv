@@ -3,13 +3,13 @@ title: "Konfigurēt darbplūsmas rekvizītus"
 description: "Šajā tēmā ir paskaidrots, kā konfigurēt dažādus darbplūsmas rekvizītus."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 196083
 ms.assetid: 192b7a98-7d04-4c7a-a986-29d797a8a837
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 263ebaf1cf509589a745f1a9ec3384f97e854519
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 713204bc1e9c757bda48d556ea5b0f66ed79a5c9
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -151,10 +151,10 @@ Kad dokuments iesniegts apstrādei, tiek izveidota darbplūsmas instance. Varat 
     </tr>
     <tr class="odd">
     <td>Lietotājs</td>
-    <td>Specifiski Dynamics 365 for Operations lietotāji</td>
+    <td>Noteikti Dynamics 365 for Finance and Operations lietotāji</td>
     <td><ol>
     <li>Cilnē <strong>Adresāts</strong> noklikšķiniet uz <strong>Lietotājs</strong>.</li>
-    <li>Cilnē <strong>Lietotājs</strong>, sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Operations lietotāji. Atlasiet lietotājus, kuriem sūtīt paziņojumus, un pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
+    <li>Cilnes <strong>Lietotājs</strong> sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Finance and Operations lietotāji. Atlasiet lietotājus, kuriem sūtīt paziņojumus, un pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
     </ol></td>
     </tr>
     </tbody>

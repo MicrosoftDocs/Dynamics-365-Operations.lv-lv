@@ -1,16 +1,16 @@
 ---
 title: "Kvalitātes pārvaldības apskats"
-description: "Šajā rakstā ir aprakstīts, kā programmatūrā Microsoft Dynamics 365 for Operations varat lietot kvalitātes pārvaldību, lai savā piegādes ķēdē uzlabotu produkta kvalitāti."
+description: "Šajā rakstā ir aprakstīts, kā programmatūrā Microsoft Dynamics 365 for Finance and Operations varat lietot kvalitātes pārvaldību, lai savā piegādes ķēdē uzlabotu produktu kvalitāti."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bb3f36bb425adffa7e055eba4e8732866cb67c49
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 255035bf13155190e59088a7f64f798c7462b885
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -32,13 +32,13 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir aprakstīts, kā programmatūrā Microsoft Dynamics 365 for Operations varat lietot kvalitātes pārvaldību, lai savā piegādes ķēdē uzlabotu produkta kvalitāti.
+Šajā rakstā ir aprakstīts, kā programmatūrā Microsoft Dynamics 365 for Finance and Operations varat lietot kvalitātes pārvaldību, lai savā piegādes ķēdē uzlabotu produktu kvalitāti.
 
-Kvalitātes pārvaldība jums var palīdzēt pārvaldīt apgrozījumu laikus, kad strādājat ar nekondīcijas precēm, neatkarīgi no to izcelsmes vietas. Tā kā diagnostikas tipi ir saistīti ar korekciju ziņošanu, Microsoft Dynamics 365 for Operations var plānot uzdevumus, lai izlabotu problēmas un novērstu to atkārtošanos.
+Kvalitātes pārvaldība jums var palīdzēt pārvaldīt apgrozījumu laikus, kad strādājat ar nekondīcijas precēm, neatkarīgi no to izcelsmes vietas. Tā kā diagnostikas tipi ir saistīti ar korekciju ziņošanu, Microsoft Dynamics 365 for Finance and Operations var plānot uzdevumus, lai izlabotu problēmas un novērstu to atkārtošanos.
 
 Papildus neatbilstības pārvaldības funkcionalitātei kvalitātes pārvaldība ietver arī funkcionalitāti problēmu izsekošanai pēc problēmas tipa (pat iekšējām problēmām) un risinājumu identificēšanai īstermiņā vai ilgtermiņā. Statistika par galvenajiem darba kvalitātes rādītājiem (KPI) sniedz ieskatu par iepriekšējām neatbilstības problēmām un risinājumiem, kas tika izmantoti to labošanai. Vēsturiskos datus varat izmantot, lai pārskatītu iepriekšējo kvalitātes pasākumu efektivitāti un noteiktu, kuri pasākumi ir piemēroti turpmākai izmantošanai.
 
-Kad iestatāt kvalitātes saistību, Microsoft Dynamics 365 for Operations var ģenerēt kvalitātes pārbaudes pasūtījumus dažādiem biznesa procesiem, notikumiem un nosacījumiem. Šāda kvalitātes saistība var attiekties uz noteiktu krājumu, noteiktu krājumu grupu vai visiem krājumiem.
+Kad iestatāt kvalitātes saistību, Finance and Operations var ģenerēt kvalitātes pārbaudes pasūtījumus dažādiem biznesa procesiem, notikumiem un nosacījumiem. Šāda kvalitātes saistība var attiekties uz noteiktu krājumu, noteiktu krājumu grupu vai visiem krājumiem.
 
 ## <a name="examples-of-the-use-of-quality-management"></a>Kvalitātes pārvaldības lietošanas piemēri
 Kvalitātes pārvaldība ir elastīga, un to var ieviest dažādos veidos, lai atbilstu noteiktu piegādes ķēdes darbību līmeņu prasībām. Nākamajos piemēros ir parādīti šādu līdzekļu iespējamie lietojumi:

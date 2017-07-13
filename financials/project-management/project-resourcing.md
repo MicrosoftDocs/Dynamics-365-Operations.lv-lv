@@ -3,14 +3,14 @@ title: "Projekta resursu sadalījums"
 description: "Šajā tēmā ir sniegta informācija par projekta resursu sadalījumu."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 82022
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: cmercado
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5c00c63e3c55e818934c36b818c90025002092d4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a7275e9ad8d655d0d2ee5ba90a792775dec0cf05
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 Šajā tēmā ir sniegta informācija par projekta resursu sadalījumu.
 
-Viens no izaicinājumiem, ar ko projektu vadītāji un resursu pārvaldnieki saskaras projekta plānošanas posma laikā, ir resursu sadalījums, kura ietvaros viņiem ir jānosaka un jārezervē darbam projektā vajadzīgais resurss. Programmatūrā Microsoft Dynamics 365 for Operations projektu resursu sadalījuma iespējas sniedz iespēju definēt lomas, kas tiek uzskatītas par pagaidu resursiem, kurus var rezervēt noteiktai iesaistei vai iesaistes daļai. Šāds resursu sadalījuma veids ļauj projektu vadītājiem un resursu pārvaldniekiem veikt šādus uzdevumus:
+Viens no izaicinājumiem, ar ko projektu vadītāji un resursu pārvaldnieki saskaras projekta plānošanas posma laikā, ir resursu sadalījums, kura ietvaros viņiem ir jānosaka un jārezervē darbam projektā vajadzīgais resurss. Programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise projektu resursu sadalījuma iespējas sniedz iespēju definēt lomas, kas tiek uzskatītas par pagaidu resursiem, kurus var rezervēt noteiktai iesaistei vai iesaistes daļai. Šāds resursu sadalījuma veids ļauj projektu vadītājiem un resursu pārvaldniekiem veikt šādus uzdevumus:
 
 -   Definēt lomu, kurai ir nepieciešamās kompetences, lai atvieglotu resursu saskaņošanu.
 -   Izmantot lomas, lai definētu sākotnējo iesaistes grafiku, pamatojoties uz rezervētajiem resursiem.
@@ -65,7 +65,7 @@ Kad iestatāt nodarbināto kā starpuzņēmumu resursu, ir jāveic iestatīšana
 
 **Uzņēmumā, kas aizdod**
 
-1.  Programmatūrā Dynamics 365 for Operations pārbaudiet, vai ir atlasīts uzņēmums, kas aizdod, un pēc tam veiciet iepriekš sadaļā “Nodarbinātā kā projekta resursa iestatīšana” aprakstīto procedūru.
+1.  Programmatūrā Finance and Operations pārbaudiet, vai ir atlasīts uzņēmums, kas aizdod, un pēc tam veiciet iepriekš sadaļā “Nodarbinātā kā projekta resursa iestatīšana” aprakstīto procedūru.
 2.  Pārejiet uz sadaļu **Virsgrāmata **&gt; **Grāmatošanas iestatīšana = **&gt; **Starpuzņēmumu uzskaite**. Noklikšķiniet uz **Jauns**.
 3.  Laukā **Juridiskās personas ID** atlasiet uzņēmumu, kas aizdod. Aizpildiet pārējos laukus ar atbilstošu informāciju un pēc tam atlasiet vienumu **Saglabāt**.
 4.  Pārejiet uz sadaļu **Projektu vadība un uzskaite **&gt; **Iestatījumi **&gt; **Cenas ** &gt; **Transfertcena**.** **
@@ -123,7 +123,7 @@ Lai iestatītu nodarbinātā kompetences, var izmantot saraksta lapu **Nodarbin�
 6.  Rūtī **Atlikušie projekti** atlasiet projektu un pēc tam noklikšķiniet uz bultiņas, lai to pievienotu rūtī **Atlasītie projekti**.
 7.  Aizvērt lapu.
 
-Nepieciešamības gadījumā var arī piešķirt kategorijas resursam. Kategorijas tips ir Izmaksas vai Ieņēmumi. To nosaka jūsu organizācija. Ja resursam nav piešķirta neviena kategorija, programmatūrā Dynamics 365 for Operations tiek uzmeklēta izmaksu un ieņēmumu noklusējuma stundu likmju kategorija.
+Nepieciešamības gadījumā var arī piešķirt kategorijas resursam. Kategorijas tips ir Izmaksas vai Ieņēmumi. To nosaka jūsu organizācija. Ja resursam nav piešķirta neviena kategorija, programmatūrā Finance and Operations tiek uzmeklēta izmaksu un ieņēmumu noklusējuma stundu likmju kategorija.
 
 ### <a name="set-up-project-resource-and-role-characteristics"></a>Projekta resursu un lomu īpašību iestatīšana
 
@@ -190,7 +190,7 @@ Visas izmaksu, pārdošanas un pārsūtīšanas cenas var iestatīt lomām.
 5.  Kolonnā **Cenu noteikšana** ievadiet cenu atlasītajai resursu lomai.
 
 ## <a name="form-a-project-team"></a>Projekta grupas veidošana
-Lai lietotu lomas, kas iepriekš tika iestatītas projektā, projektu vadītājam šīs lomas ir jāsaista ar projektu. Projektam var piešķirt vairākas lomas, un rezervēšanas laikā programmatūrā Dynamics 365 for Operations šīs lomas tiek automātiski apzīmētas, lai nepieļautu neskaidrības. Piemēram, ja projektu vadītājam ir nepieciešami trīs programmatūras inženieri, tiek automātiski ģenerētas trīs lomas Programmatūras inženieris, kuru apzīmējumi ir “1. programmatūras inženieris”, “2. programmatūras inženieris” un “3. programmatūras inženieris”. Ja lomai iepriekš tika iestatītas lomas īpašības, tās tiek pielietotas kā filtrs resursu meklēšanas laikā. Lai precizētu meklēšanu, nepieciešamības gadījumā var pievienot papildu īpašības. 
+Lai lietotu lomas, kas iepriekš tika iestatītas projektā, projektu vadītājam šīs lomas ir jāsaista ar projektu. Projektam var piešķirt vairākas lomas, un rezervēšanas laikā programmatūrā Finance and Operations šīs lomas tiek automātiski apzīmētas, lai nepieļautu neskaidrības. Piemēram, ja projektu vadītājam ir nepieciešami trīs programmatūras inženieri, tiek automātiski ģenerētas trīs lomas Programmatūras inženieris, kuru apzīmējumi ir “1. programmatūras inženieris”, “2. programmatūras inženieris” un “3. programmatūras inženieris”. Ja lomai iepriekš tika iestatītas lomas īpašības, tās tiek pielietotas kā filtrs resursu meklēšanas laikā. Lai precizētu meklēšanu, nepieciešamības gadījumā var pievienot papildu īpašības. 
 
 Skata iestatījumus arī var pielāgot, lai nodrošinātu labāku pārskatu par resursu pieejamību. Ir pieejamas iespējas stundu, dienu, nedēļu, ceturkšņu un gada pieejamības attēlošanai. Pastāv arī iespēja rādīt pieejamo un atlikušo resursu noslodzi. Šī opcija ir noderīga laika pārvaldībai, novērtējot pieejamo laiku darbībām vai resursu pieejamību. 
 
@@ -277,7 +277,7 @@ WBS struktūrā ir pievienotas papildu opcijas, lai labāk izmantotu resursu sad
 </tr>
 <tr class="even">
 <td>Automātiski ģenerēt grupu</td>
-<td>Automātiski pievienot plānotos resursus, izmantojot lomas, kas ir saistītas ar uzdevumu. Programmatūrā Dynamics 365 for Operations tiek automātiski ieteikti ieplānotie resursi, izmantojot vairāku kritēriju lēmumu analīzi, kuras pamatā ir lomas. Pēc lomu un darba (stundas) iestatīšanas uzdevumiem WBS struktūrā un struktūras nodošanas noklikšķiniet uz <strong>Automātiski ģenerēt grupu</strong>. Nepieciešamais plānoto resursu skaits tiek pievienots WBS struktūrai un cilnē <strong>Projekta un grupas plānošana</strong>.</td>
+<td>Automātiski pievienot plānotos resursus, izmantojot lomas, kas ir saistītas ar uzdevumu. Programmatūrā Finance and Operations tiek automātiski ieteikti ieplānotie resursi, izmantojot vairāku kritēriju lēmumu analīzi, kuras pamatā ir lomas. Pēc lomu un darba (stundas) iestatīšanas uzdevumiem WBS struktūrā un struktūras nodošanas noklikšķiniet uz <strong>Automātiski ģenerēt grupu</strong>. Nepieciešamais plānoto resursu skaits tiek pievienots WBS struktūrai un cilnē <strong>Projekta un grupas plānošana</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Resurss (nolaižamais saraksts)</td>
@@ -330,7 +330,7 @@ Projektu vadītājs var plānot nepieciešamo resursu lomas projektam. Resursu p
 6.  Dialoglodziņā **Pievienot lomas** atlasiet lomu **Programmatūras izstrādātājs**.
 7.  Noklikšķiniet uz **Izveidot**.
 8.  Aizveriet projekta lapu.
-9.  Noklikšķiniet uz**Projektu vadība un uzskaite** &gt; **Projekta resursi** &gt; **Resursu izpilde**.
+9.  Noklikšķiniet uz **Projektu vadība un uzskaite** &gt; **Projekta resursi** &gt; **Resursu izpilde**.
 10. Atlasiet **Programmatūras izstrādātājs 1** projektam **XYZ jaunināšanas projekta fāze 2**.
 11. Atlasiet nodarbināto un pēc tam noklikšķiniet uz **Piešķirt**.
 12. Pārbaudiet, vai rinda vienumam **Programmatūras izstrādātājs 1** ir izdzēsta projektam **XYZ jaunināšanas projekta fāze 2**.

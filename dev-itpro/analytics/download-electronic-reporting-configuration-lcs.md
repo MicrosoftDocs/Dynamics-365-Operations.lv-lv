@@ -3,14 +3,14 @@ title: "Elektronisko atskaišu veidošanas konfigurāciju lejupielāde no Lifecy
 description: "Šajā tēmā ir paskaidrots, kā lejupielādēt elektronisko pārskatu veidošanas (Electronic reporting — ER) konfigurācijas no Microsoft Dynamics Lifecycle Services (LCS)."
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERSolutionImport, ERWorkspace
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 105843
 ms.assetid: dc44dea2-22ce-401e-98b9-d289e0e2825b
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1e73cd38c33d88feaba825abb64721bc332a4d6e
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: be77d76194e9d38589548113cc650599d5af4323
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/25/2017
 
 Šī apmācība palīdzēs jums veikt elektronisko atskaišu veidošanas (ER) konfigurāciju jaunāko versiju lejupielādi no Microsoft Dynamics Lifecycle Services (LCS).
 
-1.  Pierakstieties programmā Dynamics 365 for Operations, izmantojot vienu no šīm lomām:
+1.  Pierakstieties programmatūrā Dynamics 365 for Finance and Operations, izmantojot kādu no tālāk norādītajām lomām.
     -   Elektroniskā pārskata izstrādātājs
     -   Elektronisko pārskatu veidošanas funkcionālais konsultants
     -   Sistēmas administrators
@@ -55,7 +55,7 @@ ms.lasthandoff: 05/25/2017
 6.  Noklikšķiniet uz **Atvērt**, lai skatītu ER konfigurāciju sarakstu atlasītajam repozitorijam. [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 7.  Konfigurāciju koka skata kreisajā rūtī atlasiet nepieciešamo ER konfigurāciju.
 8.  Kopsavilkuma cilnē **Versijas** izvēlieties atlasītās ER konfigurācijas nepieciešamo versiju.
-9.  Noklikšķiniet uz **Importēt**, lai lejupielādētu atlasīto versiju no LCS uz pašreizējo Dynamics 365 for Operations instanci. **Piezīme.** Poga **Importēt** nav pieejama ER konfigurācijas versijām, kuras jau ir pašreizējā Dynamics 365 for Operations instancē. [![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+9.  Noklikšķiniet uz **Importēt**, lai lejupielādētu atlasīto versiju no pakalpojuma LCS uz pašreizējo programmatūras Dynamics 365 for Finance and Operations instanci. **Piezīme.** Poga **Importēt** nav pieejama ER konfigurācijas versijām, kas jau ir ietvertas pašreizējā programmatūras Dynamics 365 for Finance and Operations instancē. [![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
 
 **Piezīme.** Atkarībā no ER iestatījumiem konfigurācijas tiek apstiprinātas pēc to importēšanas. Jūs varat saņemt paziņojumu par konstatētajām neatbilstības problēmām. Šīs problēmas ir jāatrisina, pirms varat izmantot importēto konfigurācijas versiju. Plašāku informāciju skatiet ar šo tēmu saistīto rakstu sarakstā.
 

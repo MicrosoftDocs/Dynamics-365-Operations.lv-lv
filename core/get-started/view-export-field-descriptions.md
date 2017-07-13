@@ -3,14 +3,14 @@ title: "Lauku aprakstu skatīšana un eksportēšana"
 description: "Šajā rakstā ir paskaidrots, ka skatīt lauku aprakstus un kā lietot lapu Lauku apraksti, lai eksportētu aprakstus."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: FieldDescriptions
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11534
 ms.assetid: e2795f51-a8a7-4c74-bdb9-b1be93bdd358
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: cd84c03baa4f7a9d38e380c37ed2020ee3387954
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 7898ff427ede4447a5798d4989ffd3088a776d9c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,14 +33,14 @@ ms.lasthandoff: 05/25/2017
 
 Šajā rakstā ir paskaidrots, ka skatīt lauku aprakstus un kā lietot lapu Lauku apraksti, lai eksportētu aprakstus.
 
-Programmatūrā Microsoft Dynamics 365 for Operations tiek nodrošināti apraksti par dažiem sarežģītākajiem laukiem. Šie apraksti tiek parādīti, kad novietojat peles kursoru uz lauka. Aprakstus varat skatīt un eksportēt lapā **Lauku apraksti**. 
+Programmatūrā Microsoft Dynamics 365 for Finance and Operations tiek nodrošināti apraksti par dažiem sarežģītākajiem laukiem. Šie apraksti tiek parādīti, kad novietojat peles kursoru uz lauka. Aprakstus varat skatīt un eksportēt lapā **Lauku apraksti**. 
 
 Ne visām lapām ir lauku apraksti. Mēs vēlamies sniegt aprakstus tikai sarežģītākajiem laukiem, nevis tiem, kuru lietojums ir acīmredzams. Tādēļ dažās lapās nav neviena lauka apraksta, dažās lapās ir daži apraksti, bet dažās no sarežģītākajām lapām, piemēram, daudzās parametru lapās, ir daudz aprakstu. 
 
-Ja jums ir piekļuve Dynamics 365 for Operations izstrādes videi, varat pievienot jaunus lauku aprakstus un pielāgot esošos aprakstus. Piemēram, lauka aprakstam varat pievienot uzņēmumam specifisku informāciju. Papildinformāciju skatiet rakstā [Pielāgot lauka palīdzību](/dynamics365/operations/dev-itpro/user-interface/customize-field-help).
+Ja jums ir piekļuve Finance and Operations izstrādes videi, varat pievienot jaunus lauku aprakstus un pielāgot esošos aprakstus. Piemēram, lauka aprakstam varat pievienot uzņēmumam specifisku informāciju. Papildinformāciju skatiet rakstā [Pielāgot lauka palīdzību](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Skatīt lauku aprakstus lietotāja interfeisā
-Lauku aprakstus varat apskatīt, virzot peles kursoru pār attiecīgo lauku. Ja apraksts nav pieejams, kad novietojat peles kursoru uz lauka, jūs redzat lauka nosaukumu. (Piezīme: versijā 7.0.0 lauku aprakstus var skatīt tikai lapā **Lauku apraksti**.) Nākamajā attēlā ir parādīts lauka apraksts, kas ir redzams, kad novietojat peles kursoru uz lauka **Bloķēt krājumus inventarizācijas laikā**. 
+Lauku aprakstus varat apskatīt, virzot peles kursoru pār attiecīgo lauku. Ja apraksts nav pieejams, kad novietojat peles kursoru uz lauka, jūs redzat lauka nosaukumu. (Piezīme. Versijā Dynamics AX 7.0 (2016. gada februāris) lauku aprakstus var skatīt tikai lapā **Lauku apraksti**.) Tālāk esošajā attēlā ir parādīts lauka apraksts, kas ir redzams, kad novietojat peles kursoru uz lauka **Bloķēt krājumus inventarizācijas laikā**. 
 
 [![Lauka apraksta piemērs](./media/field-description.png)](./media/field-description.png)
 
@@ -101,7 +101,7 @@ Informāciju par dažādajiem veidiem, kā atrast lapas, skatiet agrākā šī r
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Pielāgot lauku palīdzību](/dynamics365/operations/dev-itpro/user-interface/customize-field-help)
+[Pielāgot lauku palīdzību](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help)
 
 
 

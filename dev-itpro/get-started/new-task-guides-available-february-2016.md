@@ -3,13 +3,13 @@ title: "Jauni uzdevumu ceļveži (2016. gada februāris)"
 description: "Šajā tēmā ir norādīti uzdevumu ceļveži, kas tika izlaisti Microsoft BMP bibliotēkās 2016. gada februārī.  Tika publicētas šādas bibliotēkas: APQC vienotā bibliotēka programmatūrai Microsoft Dynamics 365 for Operations (2016. gada februāra laidiens) un Darba sākšana (2016. gada februāra laidiens)."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 102083
 ms.assetid: f50585e8-4ef6-4cd8-90d8-c8d6a65b22b8
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3c99753f22e537fdc026342dce12389fb9acc83a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: cdad1d6c2466b47b07133a5335866ef6881609ca
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,12 +30,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā tēmā ir norādīti uzdevumu ceļveži, kas tika izlaisti Microsoft BMP bibliotēkās 2016. gada februārī.  Tika publicētas šādas bibliotēkas: APQC vienotā bibliotēka programmatūrai Microsoft Dynamics 365 for Operations (2016. gada februāra laidiens) un Darba sākšana (2016. gada februāra laidiens).
+Šajā tēmā ir norādīti uzdevumu ceļveži, kas tika izlaisti Microsoft BMP bibliotēkās 2016. gada februārī.  Publicēto bibliotēku klāstā ietilpst (2016. gada februāra) APQC vienotā bibliotēka programmatūrai Microsoft Dynamics AX un (2016. gada februāra) Darba sākšana.
 
-<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics 365 for Operations (2016. gada februāra laidienā) ietvertie uzdevumu ceļveži
+<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Uzdevumu ceļveži (2016. gada februāra) APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics AX
 ---------------------------------------------------------------------------------
 
-APQC vienotajā bibliotēkā (2016. gada februāra laidienā) ir ietverti uzdevumu ceļveži, ko ir paredzēts izmantot kā palīdzības materiālus kopā ar Dynamics 365 for Operations versiju 7.0.0. Ja jums ir vajadzīgas šo uzdevumu ceļvežu lokalizētās versijas, tās ir pieejamas APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics 365 for Operations (2016. gada maija laidienā). Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Darba sākšana ar palīdzības sistēmu](help-overview.md).
+(2016. gada februāra) APQC vienotajā bibliotēkā ir iekļauti uzdevumu ceļveži, kurus ir paredzēts lietot laidiena Dynamics AX 7.0.0 palīdzībai. Ja jums ir nepieciešamas šo ceļvežu lokalizētās versijas, tās ir pieejamas (2016. gada maija) APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics AX. Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Darba sākšana ar palīdzības sistēmu](help-overview.md).
 
 ### <a name="accounts-payable"></a>Kreditoru parādi
 

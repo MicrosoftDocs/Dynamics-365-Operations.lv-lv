@@ -1,15 +1,15 @@
 ---
-title: "Pārskats par numuru sērijām"
-description: "Numuru sērijas programmatūrā Microsoft Dynamics 365 for Operations tiek izmantotas, lai ģenerētu nolasāmus, unikālus pamatdatu ierakstu identifikatorus un transakciju ierakstus, kam ir nepieciešami identifikatori. Pamatdatu ieraksts vai darījuma ieraksts, kam nepieciešams identifikators, tiek saukts par <em>atsauci</em>."
+title: "Numuru sēriju apskats"
+description: "Numuru sērijas programmatūrā Microsoft Dynamics 365 for Finance and Operations tiek izmantotas, lai ģenerētu nolasāmus, unikālus pamatdatu ierakstu identifikatorus un transakciju ierakstus, kam ir nepieciešami identifikatori. Pamatdatu ieraksts vai darījuma ieraksts, kam nepieciešams identifikators, tiek saukts par <em>atsauci</em>."
 author: MargoC
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 15461
 ms.assetid: 6e19bd1d-192b-4da2-8573-84f6e1ce98ef
 ms.search.region: Global
@@ -17,29 +17,29 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a2dcbbbd0b67c171d5a26bbf2053d159f7367cc5
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: d260f460bf0da072eb46909d8c28d18041ecaa78
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="number-sequence-overview"></a>Pārskats par numuru sērijām
+# <a name="number-sequence-overview"></a>Numuru sēriju apskats
 
 [!include[banner](../includes/banner.md)]
 
 
-Numuru sērijas programmatūrā Microsoft Dynamics 365 for Operations tiek izmantotas, lai ģenerētu nolasāmus, unikālus pamatdatu ierakstu identifikatorus un transakciju ierakstus, kam ir nepieciešami identifikatori. Pamatdatu ieraksts vai darījuma ieraksts, kam nepieciešams identifikators, tiek saukts par <em>atsauci</em>.
+Numuru sērijas programmatūrā Microsoft Dynamics 365 for Finance and Operations tiek izmantotas, lai ģenerētu nolasāmus, unikālus pamatdatu ierakstu identifikatorus un transakciju ierakstus, kam ir nepieciešami identifikatori. Pamatdatu ieraksts vai darījuma ieraksts, kam nepieciešams identifikators, tiek saukts par <em>atsauci</em>.
 
-Lai programmatūrā Microsoft Dynamics 365 for Operations varētu izveidot jaunus atsauces ierakstus, vispirms ir jāiestata numuru sērija un tā ir jāsaista ar šo atsauci. Numuru sēriju iestatīšanai ieteicams izmantot lapas sadaļā **Organizācijas administrēšana**. Ja ir nepieciešami modelim raksturīgi iestatījumi, varat kādā modulī izmantot parametru lapu, lai šajā modulī esošajām atsaucēm norādītu numuru sērijas. Piemēram, sadaļā **Debitori** un **Debitori** varat iestatīt numuru sēriju grupas, lai konkrētas numuru sērijas piešķirtu konkrētiem debitoriem vai kreditoriem. Iestatot numuru sēriju, ir jānorāda tvērums, kas nosaka, kura organizācija šo numuru sēriju izmanto. Tvērums var būt **Koplietots**, **Uzņēmums**, **Juridiska persona** vai **Pārvaldības struktūrvienība**. Tvērumus **Juridiskā persona** un **Uzņēmums** var kombinēt ar iestatījumu **Finanšu kalendāra periods**, lai izveidotu vēl specifiskākas numuru sērijas. Numuru sēriju formāti sastāv no segmentiem. Numuru sērijas, kuru tvērums nav **Koplietots**, var ietvert tvērumam atbilstošus segmentus. Piemēram, numuru sērija ar tvērumu **Juridiska persona** var ietvert juridiskas personas segmentu. Ja numuru sērijas formātā ietilpst tvēruma segments, konkrēta ieraksta tvērumu varat identificēt, skatoties uz tā numuru. Turklāt segmentiem, kas atbilst tvērumiem, numuru sērijas formāti var ietvert segmentus **Konstante** un **Burti un cipari**. Segments **Konstante** ietver nemainīgu burtu, skaitļu vai simbolu kopu. Segments **Burti un cipari** ietver burtu vai ciparu kopu, kas tiek palielināta katru reizi, kad tiek izmantots numurs. Izmantojiet restītes simbolu (\#), lai apzīmētu pieaugošus numurus, un simbolu &, lai apzīmētu pieaugošus burtus. Piemēram, izmantojot formātu \#\#\#\#\#\_2017, tiek izveidota sērija 00001\_2017, 00002\_2017 utt.
+Lai programmatūrā Microsoft Dynamics 365 for Finance and Operations varētu izveidot jaunus atsauces ierakstus, vispirms ir jāiestata numuru sērija un tā ir jāsaista ar šo atsauci. Numuru sēriju iestatīšanai ieteicams izmantot lapas sadaļā **Organizācijas administrēšana**. Ja ir nepieciešami modelim raksturīgi iestatījumi, varat kādā modulī izmantot parametru lapu, lai šajā modulī esošajām atsaucēm norādītu numuru sērijas. Piemēram, sadaļā **Debitori** un **Debitori** varat iestatīt numuru sēriju grupas, lai konkrētas numuru sērijas piešķirtu konkrētiem debitoriem vai kreditoriem. Iestatot numuru sēriju, ir jānorāda tvērums, kas nosaka, kura organizācija šo numuru sēriju izmanto. Tvērums var būt **Koplietots**, **Uzņēmums**, **Juridiska persona** vai **Pārvaldības struktūrvienība**. Tvērumus **Juridiskā persona** un **Uzņēmums** var kombinēt ar iestatījumu **Finanšu kalendāra periods**, lai izveidotu vēl specifiskākas numuru sērijas. Numuru sēriju formāti sastāv no segmentiem. Numuru sērijas, kuru tvērums nav **Koplietots**, var ietvert tvērumam atbilstošus segmentus. Piemēram, numuru sērija ar tvērumu **Juridiska persona** var ietvert juridiskas personas segmentu. Ja numuru sērijas formātā ietilpst tvēruma segments, konkrēta ieraksta tvērumu varat identificēt, skatoties uz tā numuru. Turklāt segmentiem, kas atbilst tvērumiem, numuru sērijas formāti var ietvert segmentus **Konstante** un **Burti un cipari**. Segments **Konstante** ietver nemainīgu burtu, skaitļu vai simbolu kopu. Segments **Burti un cipari** ietver burtu vai ciparu kopu, kas tiek palielināta katru reizi, kad tiek izmantots numurs. Izmantojiet restītes simbolu (\#), lai apzīmētu pieaugošus numurus, un simbolu &, lai apzīmētu pieaugošus burtus. Piemēram, izmantojot formātu \#\#\#\#\#\_2017, tiek izveidota sērija 00001\_2017, 00002\_2017 utt.
 Numuru sēriju piemēri
 ------------------------
 
 Tālāk sniegtajos piemēros ir parādīts, kā izmantot segmentus, lai izveidotu numuru sēriju formātus. Šajos piemēros ir īpaši parādītas tvēruma segmentu izmantošanas ietekmes.
 ### <a name="expense-report-numbers"></a>Izdevumu pārskatu numuri
 
-Nākamajā piemērā izdevumu pārskatu numuri tiek iestatīti juridiskajai personai ar nosaukumu **CS**. **Apgabals:**Ceļošana un izdevumi **Atsauce:**Izdevumu atskaites numurs **Tvērums:**Juridiska persona **Juridiska persona:**CS
+Nākamajā piemērā izdevumu pārskatu numuri tiek iestatīti juridiskajai personai ar nosaukumu **CS**. **Apgabals:** Ceļošana un izdevumi **Atsauce:** Izdevumu atskaites numurs **Tvērums:** Juridiska persona **Juridiska persona:** CS
 | Segmenti  | Segmenta tips | Vērtība     |
 |-----------|--------------|-----------|
 | 1. segments | Juridiska persona | CS        |
@@ -50,7 +50,7 @@ Nākamajā piemērā izdevumu pārskatu numuri tiek iestatīti juridiskajai pers
 
 ### <a name="sales-order-numbers"></a>Pārdošanas pasūtījumu numuri
 
-Nākamajā piemērā pārdošanas pasūtījumu numuri ir iestatīti uzņēmumam, kura ID ir **CEU**. **Apgabals:**Pārdošana **Atsauce:**Pārdošanas pasūtījums **Tvērums:**Uzņēmums **Uzņēmums:**CEU
+Nākamajā piemērā pārdošanas pasūtījumu numuri ir iestatīti uzņēmumam, kura ID ir **CEU**. **Apgabals:** Pārdošana **Atsauce:** Pārdošanas pasūtījums **Tvērums:** Uzņēmums **Uzņēmums:** CEU
 | Segmenti  | Segmenta veids | Vērtība    |
 |-----------|--------------|----------|
 | 1. segments | Konstants     | SO-      |
@@ -60,7 +60,7 @@ Nākamajā piemērā pārdošanas pasūtījumu numuri ir iestatīti uzņēmumam,
 
 ### <a name="purchase-requisition-numbers"></a>Pirkšanas pieprasījumu numuri
 
-Nākamajā piemērā pirkšanas pieprasījumu numuri tiek izmantoti visas organizācijas līmenī. **Apgabals:**Pirkšana **Atsauce:**Pirkšanas pieprasījums **Tvērums:**Koplietots
+Nākamajā piemērā pirkšanas pieprasījumu numuri tiek izmantoti visas organizācijas līmenī. **Apgabals:** Pirkšana **Atsauce:** Pirkšanas pieprasījums **Tvērums:** Koplietots
 | Segmenti  | Segmenta veids | Vērtība    |
 |-----------|--------------|----------|
 | 1. segments | Konstants     | Req      |

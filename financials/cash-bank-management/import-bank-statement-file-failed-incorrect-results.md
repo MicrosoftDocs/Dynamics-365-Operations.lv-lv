@@ -1,15 +1,15 @@
 ---
 title: "Bankas izraksta faila importēšanas problēmu novēršana"
-description: "Ir svarīgi, lai no bankas saņemtais bankas izraksta fails atbilstu programmatūrā Microsoft Dynamics 365 for Operations atbalstītajam izkārtojumam. Stingro bankas izrakstu standartu dēļ lielākā daļa integrāciju darbosies pareizi. Tomēr dažreiz izraksta failu nevar importēt vai ir nepareizi rezultāti. Parasti šīs problēmas izraisa nelielas atšķirības bankas izraksta failā. Šajā rakstā ir paskaidrots, kā novērst šīs atšķirības un atrisināt problēmas."
+description: "Ir svarīgi, lai no bankas saņemtais bankas izraksta fails atbilstu programmatūrā Microsoft Dynamics 365 for Finance and Operations, izdevumā Enterprise atbalstītajam izkārtojumam. Stingro bankas izrakstu standartu dēļ lielākā daļa integrāciju darbosies pareizi. Tomēr dažreiz izraksta failu nevar importēt vai ir nepareizi rezultāti. Parasti šīs problēmas izraisa nelielas atšķirības bankas izraksta failā. Šajā rakstā ir paskaidrots, kā novērst šīs atšķirības un atrisināt problēmas."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 141273
 ms.assetid: 3ee2f32b-02aa-420b-8990-e6aa5fc6bda3
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e2029a03cf6b46ee206417076c64a269080119ed
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 33b7a499caf9292e44c155a0e1bd6a8929558be5
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Ir svarīgi, lai no bankas saņemtais bankas izraksta fails atbilstu programmatūrā Microsoft Dynamics 365 for Operations atbalstītajam izkārtojumam. Stingro bankas izrakstu standartu dēļ lielākā daļa integrāciju darbosies pareizi. Tomēr dažreiz izraksta failu nevar importēt vai ir nepareizi rezultāti. Parasti šīs problēmas izraisa nelielas atšķirības bankas izraksta failā. Šajā rakstā ir paskaidrots, kā novērst šīs atšķirības un atrisināt problēmas.
+Ir svarīgi, lai no bankas saņemtais bankas izraksta fails atbilstu programmatūrā Microsoft Dynamics 365 for Finance and Operations, izdevumā Enterprise atbalstītajam izkārtojumam. Stingro bankas izrakstu standartu dēļ lielākā daļa integrāciju darbosies pareizi. Tomēr dažreiz izraksta failu nevar importēt vai ir nepareizi rezultāti. Parasti šīs problēmas izraisa nelielas atšķirības bankas izraksta failā. Šajā rakstā ir paskaidrots, kā novērst šīs atšķirības un atrisināt problēmas.
 
 <a name="what-is-the-error"></a>Kāda kļūda radusies?
 ------------------
@@ -38,7 +38,7 @@ Ir svarīgi, lai no bankas saņemtais bankas izraksta fails atbilstu programmat�
 Pēc bankas pārskata faila importēšanas mēģinājuma atveriet sadaļu Datu pārvaldības uzdevumu vēsture un tās detalizēto izpildes informāciju, lai atrastu kļūdu. Kļūda var palīdzēt, norādot uz izrakstu, bilanci vai izraksta rindu. Tomēr ir maz ticams, ka tā nodrošinās pietiekami daudz informācijas, lai palīdzētu noteikt lauku vai elementu, kas radīja problēmu.
 
 ## <a name="what-are-the-differences"></a>Kādas ir galvenās atšķirības?
-Salīdziniet bankas faila izkārtojuma definīciju ar Microsoft Dynamics 365 for Operations importēšanas definīciju un pievērsiet uzmanību lauku un elementu atšķirībām. Salīdziniet bankas izraksta failu ar saistīto Dynamics 365 for Operations faila paraugu. ISO20022 failos var viegli pamanīt jebkādas atšķirības.
+Bankas faila izkārtojuma definīciju salīdziniet ar Finance and Operations importa definīciju un pievērsiet uzmanību atšķirībām laukos un elementos. Bankas izraksta failu salīdziniet ar saistīto Finance and Operations faila paraugu. ISO20022 failos var viegli pamanīt jebkādas atšķirības.
 
 ## <a name="transformations"></a>Transformācijas
 Parasti izmaiņas ir jāveic, izmantojot vienu no trīs transformācijām. Katra transformācija ir rakstīta konkrētam standartam.
@@ -80,7 +80,7 @@ Transformācijas darbības laikā tiek izveidots izvades fails, kuru var skatīt
 
 ### <a name="adjust-the-transformation"></a>Transformācijas korekcija
 
-Koriģējiet transformāciju, lai iegūtu atbilstošo lauku vai elementu bankas pārskata failā. Pēc tam kartējiet attiecīgo lauku vai elementu ar atbilstošo Dynamics 365 for Operations elementu.
+Koriģējiet transformāciju, lai iegūtu atbilstošo lauku vai elementu bankas pārskata failā. Pēc tam attiecīgo lauku vai elementu kartējiet uz atbilstošo Finance and Operations elementu.
 
 ### <a name="debitcredit-indicator"></a>Debeta/kredīta indikators
 

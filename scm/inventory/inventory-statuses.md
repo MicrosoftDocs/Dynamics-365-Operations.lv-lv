@@ -3,14 +3,14 @@ title: "Krājumu statusi"
 description: "Šajā rakstā ir aprakstīts, kā varat izmantot krājumu statusus, lai krājumus sadalītu kategorijās un sekotu tiem līdzi."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: EcoResStorageDimensionGroup, WHSInventStatus
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 21331
 ms.assetid: b35f495f-de4f-48a0-9d09-4d06781d7650
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1565b7738260270a986b515dfd21931296ce83bd
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b3ec66c805d028c20f3d3f95e7af9d78252828c7
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -44,7 +44,7 @@ Tālāk ir minēti daži piemēri, kā izmantot krājumu statusus.
 
 Krājumu statuss ir viena no dimensijām noliktavas dimensiju grupā. Krājumu statusus var klasificēt kā pieejamus vai nepieejamus, un var izmantot parametru **Krājuma bloķēšana**, lai bloķētu vienības, kam krājuma statuss ir Nav pieejams. Vienības ar statusu Bloķēts tiek uzskatītas par fiziskiem krājumiem un tās nevar izmantot ražošanas pasūtījumā, pārdošanas pasūtījumā, pārsūtīšanas pasūtījumā vai izejošā transakcijā. 
 
-Ienākošam darbam varat izmantot noliktavas vienības ar statusu Pieejams vai Nav pieejams. Piemēram, izveidojiet pieejamības statusu ar nosaukumu **Gatavs**, nepieejamības statusu ar nosaukumu **Bojāts** un bloķēšanas statusu ar nosaukumu **Bloķēts**. Veidojot pirkšanas pasūtījumu saņemtām vai atgrieztām vienībām, ja kāda no vienībām ir bojāta vai sadalīta, pirkšanas pasūtījuma rindā varat mainīt šo vienību krājuma statusu uz **Bojāts**. Kad šīs vienības ir saņemtas, automātiski tiek iestatīts statuss **Bloķēts**. Ja bojāto krājumu skenēšanai izmantojat mobilo ierīci, programma Microsoft Dynamics 365 for Operations var izmantot novietojuma direktīvas un darba veidnes, lai rādītu informāciju par atbilstošo novietojumu vai novietojumu diapazonu, kur varat ievietot šīs vienības. Atgrieztajām vienībām lapā **Krājumu darbības** tiek izveidots izsniegšanas veids **Rezervācija**. 
+Ienākošam darbam varat izmantot noliktavas vienības ar statusu Pieejams vai Nav pieejams. Piemēram, izveidojiet pieejamības statusu ar nosaukumu **Gatavs**, nepieejamības statusu ar nosaukumu **Bojāts** un bloķēšanas statusu ar nosaukumu **Bloķēts**. Veidojot pirkšanas pasūtījumu saņemtām vai atgrieztām vienībām, ja kāda no vienībām ir bojāta vai sadalīta, pirkšanas pasūtījuma rindā varat mainīt šo vienību krājuma statusu uz **Bojāts**. Kad šīs vienības ir saņemtas, automātiski tiek iestatīts statuss **Bloķēts**. Ja bojāto krājumu skenēšanai izmantojat mobilo ierīci, programmatūra Microsoft Dynamics 365 for Finance and Operations var izmantot novietojuma direktīvas un darba veidnes, lai rādītu informāciju par atbilstošo novietojumu vai novietojumu diapazonu, kur šīs vienības varat ievietot. Atgrieztajām vienībām lapā **Krājumu darbības** tiek izveidots izsniegšanas veids **Rezervācija**. 
 
 Izejošam darbam izmantojiet vienības, kam krājuma statuss ir Pieejams. Ja ir vienības ar statusu **Bojāts**, un šīm vienībām tiek palaista vispārējā plānošana, tās tiek uzskatītas par trūkstošām, un krājums tiek automātiski papildināts. 
 
