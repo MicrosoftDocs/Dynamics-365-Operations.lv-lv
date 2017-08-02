@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 745abbfde09bab40f032c13d1b0293e0990a3de3
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 85000ee4507e1d716c6118441d77d94091494f33
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/29/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -73,32 +73,32 @@ ms.lasthandoff: 06/29/2017
 -   [Elektroniskās pārskatu veidošanas adresāti](electronic-reporting-destinations.md)
 -   [Lejupielādēt elektronisko pārskatu veidošanas konfigurāciju no Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
 -   [Izmantot elektronisko pārskatu veidošanas konfigurāciju, lai pakalpojumam Power BI sniegtu datus no Dynamics 365 for Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [ER Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu](http://ax.help.dynamics.com/en/wiki/er-select-service-provider/) (uzdevuma ceļvedis)
--   [ER Noformēt domēnam specifisku datu modeli](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-data-model/) (uzdevuma ceļvedis)
--   [ER Definēt modeļa kartēšanu un atlasīt datu avotus](http://ax.help.dynamics.com/en/wiki/er-define-model-mapping-and-select-data-sources/) (uzdevuma ceļvedis)
--   [ER Kartēt datu modeli uz atlasītiem datu avotiem](http://ax.help.dynamics.com/en/wiki/er-map-data-model-to-selected-data-sources/) (uzdevuma ceļvedis)
--   [ER Noformēt domēnam specifisku formātu](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-format/) (uzdevuma ceļvedis)
--   [ER Augšupielādēt konfigurāciju pakalpojumos Lifecycle Services](http://ax.help.dynamics.com/en/wiki/upload-a-configuration-into-lifecycle-services/) (uzdevuma ceļvedis)
--   [ER Importēt konfigurāciju no Lifecycle Services](http://ax.help.dynamics.com/en/wiki/import-a-configuration-from-lifecycle-services/) (uzdevuma ceļvedis)
--   [ER Noformēt konfigurāciju pārskatu ģenerēšanai formātā OPENXML](http://ax.help.dynamics.com/en/wiki/design-a-configuration-for-generating-reports-in-openxml-format/) (uzdevuma ceļvedis)
--   [ER Konfigurēt adresātus](http://ax.help.dynamics.com/en/wiki/configure-destinations/) (uzdevuma ceļvedis)
--   [ER Lietot finanšu dimensijas kā datu avotu (1. daļa. Noformēt datu modeli)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-1-design-data-model/) (uzdevuma ceļvedis)
--   [ER Lietot finanšu dimensijas kā datu avotu (2. daļa. Modeļa kartēšana)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-2-model-mapping/) (uzdevuma ceļvedis)
--   [ER Lietot finanšu dimensijas kā datu avotu (3. daļa. Pārskata noformēšana)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-3-design-the-report/) (uzdevuma ceļvedis)
--   [ER Lietot finanšu dimensijas kā datu avotu (4. daļa. Pārskata palaišana)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-4-run-the-report/) (uzdevuma ceļvedis)
--   [ER Konfigurēt formātu, lai veiktu uzskaiti un summēšanu (1. daļa. Formāta izveidošana)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-1-create-format/) (uzdevuma ceļvedis)
--   [ER Konfigurēt formātu, lai veiktu uzskaiti un summēšanu (2. daļa. Aprēķinu konfigurēšana)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-2-configure-computations/) (uzdevuma ceļvedis)
--   [ER Konfigurēt formātu, lai veiktu uzskaiti un summēšanu (3. daļa. Aprēķinu lietošana izvades datu izveidei)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-3-use-computations-to-make-the-output/) (uzdevuma ceļvedis)
--   [ER Konfigurēt formātu, lai veiktu uzskaiti un summēšanu (4. daļa. Formāta palaišana)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-4-run-format/) (uzdevuma ceļvedis)
--   [ER Lietot horizontāli paplašināmus diapazonus, lai dinamiski pievienotu kolonnas programmas Excel pārskatos (1. daļa. Pārskata noformēšana)](http://ax.help.dynamics.com/en/wiki/er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1-design-format/) (uzdevuma ceļvedis)
--   [ER Lietot horizontāli paplašināmus diapazonus, lai dinamiski pievienotu kolonnas programmas Excel pārskatos (2. daļa. Formāta palaišana)](http://ax.help.dynamics.com/en/wiki/er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-2-run-format/) (uzdevuma ceļvedis)
--   [ER Lietot dokumentu pārvaldības failus formāta izvades datos (1. daļa. Datu modeļa sagatavošana)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-1-prepare-data-model/) (uzdevuma ceļvedis)
--   [ER Lietot dokumentu pārvaldības failus formāta izvades datos (2. daļa. Datu modeļa paplašināšana)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-2-extend-data-model/) (uzdevuma ceļvedis)
--   [ER Lietot dokumentu pārvaldības failus formāta izvades datos (3. daļa. Formāta izveide)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-3-create-format/) (uzdevuma ceļvedis)
--   [ER Lietot dokumentu pārvaldības failus formāta izvades datos (4. daļa. Formāta palaišana)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-4-run-format/) (uzdevuma ceļvedis)
--   [ER Lietot dokumentu pārvaldības failus formāta izvades datos (5. daļa. Formāta modificēšana un palaišana)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format/) (uzdevuma ceļvedis)
--   [ER Ģenerēt elektroniskos dokumentus maksājumiem, izmantojot formāta konfigurāciju](http://ax.help.dynamics.com/en/wiki/generate-electronic-documents-for-payments-using-a-format-configuration/) (uzdevuma ceļvedis)
--   [ER Jaunināt savu formātu, pieņemot šī formāta jaunu bāzes versiju](http://ax.help.dynamics.com/en/wiki/upgrade-your-format-by-adopting-a-new-base-version-of-that-format/) (uzdevuma ceļvedis)
+-   [ER Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu](/dynamics365/unified-operations/do-not-publish/er-configuration-provider-mark-it-active-2016-02) (uzdevuma ceļvedis)
+-   [ER Noformēt domēnam specifisku datu modeli](/dynamics365/unified-operations/do-not-publish/er-design-domain-specific-data-model-2016-02-05) (uzdevuma ceļvedis)
+-   [ER Definēt modeļa kartēšanu un atlasīt datu avotus](/dynamics365/unified-operations/do-not-publish/er-define-model-mapping-select-data-sources-2016-02-05) (uzdevuma ceļvedis)
+-   [ER Kartēt datu modeli uz atlasītiem datu avotiem](/dynamics365/unified-operations/do-not-publish/er-map-data-model-selected-data-sources-2016-02-05) (uzdevuma ceļvedis)
+-   [ER Noformēt domēnam specifisku formātu](/dynamics365/unified-operations/do-not-publish/er-design-domain-specific-format-2016-02-05) (uzdevuma ceļvedis)
+-   [ER Augšupielādēt konfigurāciju pakalpojumos Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services) (uzdevuma ceļvedis)
+-   [ER Importēt konfigurāciju no Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services) (uzdevuma ceļvedis)
+-   [ER Noformēt konfigurāciju pārskatu ģenerēšanai formātā OPENXML](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11) (uzdevuma ceļvedis)
+-   [ER Konfigurēt adresātus](/dynamics365/unified-operations/do-not-publish/er-destinations-2016-05) (uzdevuma ceļvedis)
+-   [ER Lietot finanšu dimensijas kā datu avotu (1. daļa. Noformēt datu modeli)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1) (uzdevuma ceļvedis)
+-   [ER Lietot finanšu dimensijas kā datu avotu (2. daļa. Modeļa kartēšana)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2) (uzdevuma ceļvedis)
+-   [ER Lietot finanšu dimensijas kā datu avotu (3. daļa. Pārskata noformēšana)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3) (uzdevuma ceļvedis)
+-   [ER Lietot finanšu dimensijas kā datu avotu (4. daļa. Pārskata palaišana)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4) (uzdevuma ceļvedis)
+-   [ER Konfigurēt formātu, lai veiktu uzskaiti un summēšanu (1. daļa. Formāta izveidošana)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-1) (uzdevuma ceļvedis)
+-   [ER Konfigurēt formātu, lai veiktu uzskaiti un summēšanu (2. daļa. Aprēķinu konfigurēšana)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-2) (uzdevuma ceļvedis)
+-   [ER Konfigurēt formātu, lai veiktu uzskaiti un summēšanu (3. daļa. Aprēķinu lietošana izvades datu izveidei)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-3) (uzdevuma ceļvedis)
+-   [ER Konfigurēt formātu, lai veiktu uzskaiti un summēšanu (4. daļa. Formāta palaišana)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-4) (uzdevuma ceļvedis)
+-   [ER Lietot horizontāli paplašināmus diapazonus, lai dinamiski pievienotu kolonnas programmas Excel pārskatos (1. daļa. Pārskata noformēšana)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-horizontal-1) (uzdevuma ceļvedis)
+-   [ER Lietot horizontāli paplašināmus diapazonus, lai dinamiski pievienotu kolonnas programmas Excel pārskatos (2. daļa. Formāta palaišana)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-horizontal-2) (uzdevuma ceļvedis)
+-   [ER Lietot dokumentu pārvaldības failus formāta izvades datos (1. daļa. Datu modeļa sagatavošana)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-1) (uzdevuma ceļvedis)
+-   [ER Lietot dokumentu pārvaldības failus formāta izvades datos (2. daļa. Datu modeļa paplašināšana)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-2) (uzdevuma ceļvedis)
+-   [ER Lietot dokumentu pārvaldības failus formāta izvades datos (3. daļa. Formāta izveide)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-3) (uzdevuma ceļvedis)
+-   [ER Lietot dokumentu pārvaldības failus formāta izvades datos (4. daļa. Formāta palaišana)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-4) (uzdevuma ceļvedis)
+-   [ER Lietot dokumentu pārvaldības failus formāta izvades datos (5. daļa. Formāta modificēšana un palaišana)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-5) (uzdevuma ceļvedis)
+-   [ER Ģenerēt elektroniskos dokumentus maksājumiem, izmantojot formāta konfigurāciju](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-electronic-payments) (uzdevuma ceļvedis)
+-   [ER Jaunināt savu formātu, pieņemot šī formāta jaunu bāzes versiju](/dynamics365/unified-operations/do-not-publish/er-upgrade-format--2016-05) (uzdevuma ceļvedis)
 
 
 

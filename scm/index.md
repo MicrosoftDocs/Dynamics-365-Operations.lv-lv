@@ -1,28 +1,28 @@
 ---
 title: "Piegādes ķēdes pārvaldības sākumlapa"
 description: "Šajā lapā ir norādīts uz resursiem, kas jums palīdzēs efektīvāk lietot risinājumu Microsoft Dynamics 365 for Finance and Operations — Piegādes ķēdes pārvaldība."
-author: yuyus
+author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
 ms.search.industry: 
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 4044c66833e914b1f0f2d552d827013bd48dc2db
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 7e916dd91126d140790cbb3a6a740c2e2f20ccef
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/29/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -36,22 +36,49 @@ ms.lasthandoff: 06/29/2017
 Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek izstrādāti, dodieties uz <a href="https://roadmap.dynamics.com/">Dynamics 365 rīcības plāns</a>. 
 
 ## <a name="core-concepts-and-tasks"></a>Pamatkoncepcijas un uzdevumi
-*  Kreisajā rūtī atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk. 
-*  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">Apstrādāt ienākošos IPPN risinājumā Noliktavas pārvaldība</a> (video) 
 
+Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
+
+- [Izmaksu uzskaite](/dynamics365/unified-operations/financials/cost-accounting/cost-accounting-home-page?toc=/dynamics365/unified-operations/financials/toc.json)
+- [Izmaksu pārvaldība](cost-management\costing-sheets.md)  
+- [Krājuma pārvaldība](inventory\consignment.md)
+- [Vispārējā plānošana](master-planning\introduction-demand-forecasting.md)
+- [Sagāde un avoti](procurement\procurement-sourcing-overview.md)
+- [Preču informācijas pārvaldība](pim\product-information.md)
+- [Ražošanas kontrole](production-control\production-process-overview.md)
+- [Pārdošana un mārketings](sales-marketing\overview-sales-marketing.md)
+- [Transportēšanas pārvaldība](transportation\transportation-management-overview.md)
+- [Noliktavas pārvaldība](warehousing\warehouse-configuration.md)
+
+## <a name="videos"></a>Videoklipi
+
+### <a name="get-started"></a>Darba sākšana  
+
+Šie īsie videoklipi palīdzēs jums sākt darbu ar jaunajiem līdzekļiem, ka iekļauti Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevuma 2017. gada jūlija atjauninājumā.
+
+-  [Darba sākšana ar risinājumu Izmaksu uzskaite](https://youtu.be/1pUDtJQZ8FU)
+-  [Izmaksu kontroles mobilā darbvieta](https://youtu.be/imsuTg8rUVk)
+-  [Excel izmantošana izmaksu analīzei](https://youtu.be/-HKHYdClvx8)
+
+### <a name="tech-talk"></a>Tehniskas sarunas 
+-  <a href="https://youtu.be/zotrj3SbCl4">Preču konfigurators risinājumā Microsoft Dynamics AX</a>
+-  <a href="https://youtu.be/7v8BPmEs9Dg">Vispārēja plānošana — padomi un metodes problēmu novēršanai</a>
+-  <a href="https://youtu.be/RLXybx20B5o">Palīdzība, ja MRP darbojas lēni.</a>
+-  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">Ienākošo IPPN apstrāde risinājumā Noliktavas pārvaldība</a> 
+-  <a href="https://www.youtube.com/watch?v=--_didmZKHo&t=10s">Visefektīvākā noliktavas vadības sistēma</a>
+-  <a href="https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s">Uzlabota R3 Noliktavas pārvaldība — ienākošā apstrāde un min./maks. papildināšana</a>
+-  <a href="https://youtu.be/Og0gLlVp7jA">Uzlabota R3 noliktavas vadība — izejošā apstrāde un pieprasījuma papildināšana ikdienā</a>
+-  <a href="https://youtu.be/5w1MngVchBA">Etiķetes jaunajā Microsoft Dynamics AX 2012 R3 noliktavas vadībā</a>
+-  <a href="https://www.youtube.com/embed/QUxXUrN-7n4">Dynamics AX 2012 R3: uzlabota noliktavas vadība — ražošanas process ikdienā</a>
+-  <a href="https://youtu.be/y1jrd3A_k70">Apakšlīgumu slēgšanas operācijas un ražošanas aktivitātes</a>
 
 ## <a name="blogs"></a>Emuāri
 Daudzi raksti par ražošanu un piegādes ķēdes pārvaldību ir atrodami <a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX ražošanas pētniecības un attīstības darba grupas emuārā</a> un <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Piegādes ķēdes pārvaldība programmā Dynamics AX pētniecības un attīstības darba grupas emuārā</a>. Vairums no šiem rakstiem tika rakstīti iepriekšējai Dynamics 365 for Finance and Operations versijai, bet šīs pašas koncepcijas joprojām ir spēkā, un procedūras pašreizējā versijā ir līdzīgas. 
 
-Piemēram, varat izlasīt jaunākās publikācijas par tālāk norādītajām tēmām. 
-* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/">Paziņojums par Finance and Operations — Warehousing</a>
-* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/12/01/improved-packing-functionality-dynamics-365-for-operations-1611/">Uzlabota iepakošanas funkcionalitāte (Dynamics 365 for Operations 1611)</a>
-* <a href="https://blogs.msdn.microsoft.com/axmfg/2017/02/13/cross-docking-from-production-orders-to-transfer-orders/">Pārkraušana no ražošanas pasūtījumiem uz pārsūtīšanas pasūtījumiem</a>
-
 ## <a name="white-papers"></a>Tehniskie dokumenti
-* Tehniskajā dokumentā <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Microsoft Dynamics 365 for Finance and Operations — Darba sākšana ar izmaksu uzskaiti</a> ir aprakstītas pamata darbības risinājuma Microsoft Dynamics 365 for Finance and Operations — Izmaksu uzskaite konfigurēšanai, lai veiktu faktisko izmaksu analīzi. Tajā ir sniegta arī virkne ar procedūrām, kuras varat izpildīt aprakstītajā secībā.
-* Tehniskajā dokumentā <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Finance and Operations - Lean Manufacturing: Pieejams iegādei un Kanban darbu plānošana</a> ir aprakstīta informācija par Kanban darbu plānošanu un iepazīstināts ar tādu pārdošanas pasūtījumu, kas piegādes datuma kontrolēšanai izmanto metodi Pieejams iegādei (capable to promise — CTP). Tajā ir arī izskaidrots, kā CTP var kombinēt ar notikumu Kanban darbiem, lai modelētu scenārijus “montēt pēc pasūtījuma” vai “veidot pēc pasūtījuma”.
-* Tehniskajā dokumentā <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Microsoft Dynamics 365 for Finance and Operations — MK aprēķināšana, izmantojot izmaksu aprēķina lapu</a> ir aprakstīts, kā iestatīt izmaksu aprēķināšanas lapu, kurā ir ietverti materiāli un ražošana, un kā šī iestatīšana ietekmē MK aprēķina rezultātus. Mācību nolūkos varat izpildīt pielikumā iekļautos vingrinājumus un izmantot zināšanas, ko ieguvāt, lasot šo dokumentu, lai veiktu MK aprēķinu analīzi.
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Izmaksu uzskaites praktiskie uzdevumi</a> 
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean Manufacturing: pieejams iegādei un Kanban darbu plānošana</a> 
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">MK aprēķināšana, izmantojot izmaksu aprēķina lapu</a>
 
 ## <a name="elearning-courses"></a>Elektronisko mācību kursi
 Informāciju par Microsoft Dynamics 365 for Finance and Operations apmācību skatiet <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Microsoft Dynamics mācību portālā</a>. (ir nepieciešams CustomerSource konts) 
