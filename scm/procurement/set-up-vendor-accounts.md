@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: bis
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 191053
 ms.assetid: 06168199-7c54-40e9-a038-4eb274ca958d
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 4c97f11fa85b8eee54daea8ccaa183859a89fe7f
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 3c3c215dbc64c3b823ab8537b66f72d7d7fdf5c1
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -94,6 +94,18 @@ Varat aizturēt apstrādi kreditoram dažādiem darbību tipiem. Pieejamas šād
 -   **Nekad** — kreditoram nekad netiek aizturētas darbības.
 
 Nosakot kreditoram aizturējumu, varat arī norādīt iemeslu un aizturēšanas statusa beigu datumu. Ja beigu datums netiek ievadīts, kreditora aizturēšanas statuss ilgst nenoteiktu laiku.
+
+Varat kreditoriem veikt aizturēšanas statusa lielapjoma atjaunināšanu uz **Visi** atbilstoši lapā **Kreditora deaktivizēšana** atlasītajiem kritērijiem, kā arī piešķirt iemeslu kreditora aizturēšanai.
+
+Lai iekļautu kreditorus, kas ir noteiktu periodu bijuši neaktīvi, iekļautu vai izslēgtu kreditorus, kas ir darbinieki, kā arī izslēgtu kreditorus, kam ir pagarinājuma laiks pirms nākamās aizturēšanas, tiek izmantoti tālāk norādītie kritēriji.
+
+- Pamatojoties uz dienu skaitu, ko ievadāt lapas **Kreditora deaktivizēšana** laukā **Aktivitātes periods**, programma aprēķina pēdējo datumu, kurā kreditors var būt veicis kādu aktivitāti, lai viņš būtu uzskatāms par neaktīvu. Tātad no pašreizējā datuma tiek atņemts ievadītais dienu skaits. Ja kreditoram pastāv viens vai vairāki rēķini, kuros datums ir vēlāks par aprēķināto pēdējo datumu, kreditors tiks izslēgts no deaktivizācijas. Tas tiek validēts arī tad, ja kreditoram pēc šī datuma ir maksājumi, atvērti pirkšanas pieprasījumi, atvērti pirkšanas pasūtījumi, piedāvājuma pieprasījumi vai atbildes.
+- Pēdējā pagarinājuma datuma aprēķināšanai tiek izmantots laukā **Pagarinājuma laiks pirms nākamās aizturēšanas** ievadītais dienu skaits. Tātad no pašreizējā datuma tiek atņemtas ievadītās dienas. Tas attiecas tikai uz kreditoriem, kas ir iepriekš tikuši deaktivizēti. Iepriekšējas deaktivizācijas gadījumā programma pārbauda kreditora deaktivizācijas pārējo notikumu vēsturi, kā arī pārbauda, vai pēdējā deaktivizācija notika pirms pēdējā pagarinājuma datuma. Ja tā ir, kreditors tiks iekļauts deaktivizācijas procesā.
+- Parametrs **Iekļaut darbiniekus** attiecas uz kreditoriem, kas ir saistīti ar darbinieku. Ja vēlaties iekļaut šos darbiniekus, varat veikt attiecīgu iestatījumu.
+
+Šis process vienmēr izslēgs kreditorus, kuriem laukā **Kreditora aizturēšana** ir iestatīta vērtība **Nekad**.
+
+Kreditori, kas iztur validāciju, tiek aizturēti, un tādējādi lauka **Kreditora aizturēšana** vērtība tiek iestatīta uz **Visi**, savukārt lauks **Iemesls** — uz atlasīto vērtību. Kreditora aizturēšanas vēsturē tiek izveidots ieraksts.
 
 ## <a name="vendor-invoice-account"></a>Kreditora rēķina saņēmējs
 Ja tāda pati rēķina adrese ir vairāk nekā vienam kreditoram vai kreditoram ir izrakstīts rēķins ar trešās puses starpniecību, varat norādīt rēķina kontu kreditora ierakstam. Rēķina konts ir konts, kurā kreditēta rēķina summa, veidojot kreditora rēķinu no pirkšanas pasūtījuma. Neievadot rēķina kontu kreditora ierakstam, kreditora konts tiek izmantots kā rēķina konts.

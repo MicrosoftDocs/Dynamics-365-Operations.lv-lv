@@ -3,25 +3,25 @@ title: "Novecojušie līdzekļi"
 description: "Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt."
 author: sericks007
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 07/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: Operations, Platform
+ms.reviewer: sericks
+ms.search.scope: Operations, Platform, UnifiedOperations
 ms.custom: 21821
 ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-08-30
+ms.search.validFrom: 2016-08-30T00:00:00.000Z
 ms.dyn365.ops.version: Platform update 6
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 3267bd1cbd738b5ced9996fc3b28eee211627591
-ms.openlocfilehash: 8feffb27b5d08a9c90e97ac0d7e00abf0448d0df
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 18274d9ca390ee3d6d463b3a6d67ddc3a39294f8
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/16/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -29,9 +29,10 @@ ms.lasthandoff: 06/16/2017
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt.
+Šajā tēmā ir aprakstīti līdzekļi, kas ir noņemti no Microsoft Dynamics 365 for Finance and Operations Enterprise izdevuma vai ko ir plānots noņemt no tā.
 
-## <a name="features-that-have-been-deprecated-in-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Līdzekļi, kas vairs netiek atbalstīti programmatūras Dynamics 365 for Finance and Operations izdevuma Enterprise 2017. gada jūlija atjauninājumā.
+## <a name="features-that-have-been-deprecated-for-all-deployment-types-of-the-july-2017-update-with-platform-update-8"></a>Līdzekļi, kas ir novecojuši visiem izvietojumu veidiem 2017. gada jūlija atjauninājumā ar platformas 8. atjauninājumu
+Šajā sarakstā iekļauti līdzekļi, kas ir novecojuši gan mākoņa, gan lokālajiem izvietojumiem.
 
 ### <a name="warehouse-mobile-devices-portal"></a>Noliktavas mobilo ierīču portāls
 
@@ -40,7 +41,7 @@ Noliktavas mobilo ierīču portāls (Warehouse mobile devices portal — WMDP) 
 |                                  |                                                 |
 |----------------------------------|-------------------------------------------------|
 | **Atbalsta pārtraukšanas iemesls**       | Funkcionalitātes dublēšanās.                        |
-| **Vai ir aizstāts ar citu līdzekli?** | Jā. Šis līdzeklis ir aizstāts ar programmu Dynamics 365 for Finance and Operations — Noliktava. Papildinformāciju par iestatīšanu un priekšnoteikumiem skatiet tēmē [Programmas Microsoft Dynamics 365 for Finance and Operations — Noliktava instalēšana un konfigurēšana](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **Vai ir aizstāts ar citu līdzekli?** | Jā. Šis līdzeklis ir aizstāts ar programmu Dynamics 365 for Finance and Operations — Noliktava. Papildinformāciju par iestatīšanu un priekšnoteikumiem skatiet tēmē [Programmas Microsoft Dynamics 365 for Finance and Operations — Noliktava instalēšana un konfigurēšana](/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
 | **Ietekmētie moduļi**             | Noliktavas pārvaldība, Transportēšanas pārvaldība |
 
 ### <a name="advanced-bank-reconciliation-matching-rule-for-manual-matching"></a>Detalizētās bankas darbību atbilstības kārtula manuālai atbilstības noteikšanai
@@ -62,6 +63,28 @@ Windows 8 planšetdatoru programma nodrošināja izdevumu ievades un apstiprin�
 | **Atbalsta pārtraukšanas iemesls**       | Programmatūra Dynamics 365 for Finance and Operations ir saderīga ar planšetdatoriem. Planšetdatoru programma vairs nav nepieciešama. |
 | **Vai ir aizstāts ar citu līdzekli?** | Nr.p.k.                                                                                      |
 | **Ietekmētie moduļi**             | Izmaksu pārvaldība                                                                       |
+
+## <a name="features-that-have-been-deprecated-for-on-premises-deployments-of-the-july-2017-update-with-platform-update-8"></a>Līdzekļi, kas ir novecojuši lokālajiem izvietojumiem 2017. gada jūlija atjauninājumā ar platformas 8. atjauninājumu
+
+### <a name="ssrs-report-viewer-control"></a>SSRS pārskatu skatītāja vadīkla
+
+Šis līdzeklis tika izmantots HTML formatēto pārskatu izmantošanai Finance and Operations tīmekļa klientā.
+
+|                                  |  |
+|----------------------------------|--|
+| **Atbalsta pārtraukšanas iemesls**       | SQL pārskatu izveides pakalpojumi (SSRS) neatbalsta pārskatu skatītāja vadīklu, kas ir saderīga ar lokālo tīmekļa klientu.      |
+| **Vai ir aizstāts ar citu līdzekli?** | Lokālais pakalpojums pārskatus rāda kā PDF dokumentus. Izmantojiet paplašinājumus, lai programmas pārskatos iespējotu iegultās detalizētās saites. |
+| **Ietekmētie moduļi**             | Visus    |
+
+### <a name="document-routing-agent"></a>Dokumentu maršrutēšanas aģents
+
+Dokumentu maršrutēšanas aģenta klients tiek izmantots kā pakalpojuma vārteja savienojuma izveidei starp mākoni un domēna autentificētiem tīkla printeriem.
+
+|                                  |  |
+|----------------------------------|--|
+| **Atbalsta pārtraukšanas iemesls**       | Lokālie izvietojumi tiek viesoti domēna autentificētos serveros. Tas piedāvā drošu, tiešu piekļuvi tīkla printera ierīcēm. |
+| **Vai ir aizstāts ar citu līdzekli?** | Šis komponents nav nepieciešams lokālajiem izvietojumiem.|
+| **Ietekmētie moduļi**             | Nekārtot               |
 
 
 <a name="features-that-have-been-deprecated-in-dynamics-365-for-operations-1611-with-platform-update-3"></a>Līdzekļi, kas ir novecojuši versijā Dynamics 365 for Operations 1611 ar 3. platformas atjauninājumu
@@ -488,11 +511,20 @@ Atbilstības centrs bija uzņēmuma portāla vietne dokumentācijas prasību pā
 
 Datu nodalījumi nodrošina loģisku datu nošķiršanu Microsoft Dynamics AX datu bāzē.
 
-|                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   |   |
+|---|---|
 | Novecošanas pamatojums       | Datu nodalījumi tika ieviesti versijā Microsoft Dynamics AX 2012 R2, lai varētu izmantot datu izolēšanu. Tipiskā scenārijā uzņēmumam ir filiāles, un datiem no vienas filiāles nevajadzētu būt redzamiem citai filiālei, lai gan abas filiāles pārvalda tā pati IT nodaļa. Taču bija nepieciešami papildu skripti un pārvaldība visā programmā, lai izveidotu jaunus nodalījumus un aizpildītu tos ar datiem, kā arī lai veiktu nodalījuma datu dublējumus. Mākonī, kur mums ir piekļuve platformas kā pakalpojuma (PaaS) datu bāzu pakalpojumiem (Microsoft Azure SQL datu bāzei), daudz efektīvāk ir datu bāzi lietot kā izolācijas konteineru, nevis veikt izolēšanu programmā. Neatkarīgi no tā, vai datu nodalījumu izmantošana ir nepieciešama filiālēm, vairākiem nomniekiem vai tikai mērogam, mēs uzskatām, ka ar scenārijiem daudz labāk var strādāt, izmantojot vairākas datu bāzes vai vairākas Dynamics AX instances. |
-| Vai aizstāts ar citu līdzekli? | Datu nodalījumi tiks aizstāti, izmantojot atbalstu vairākām datu bāzēm vai Dynamics AX instancēm turpmākos laidienos.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| Ietekmētie moduļi             | Visi                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Vai aizstāts ar citu līdzekli? | Datu nodalījumi tiks aizstāti, izmantojot atbalstu vairākām datu bāzēm vai Dynamics AX instancēm turpmākos laidienos.    |
+| Ietekmētie moduļi             | Visus  |
+
+### <a name="database-and-file-share-storage-for-attachments"></a>Datu bāzes un failu koplietošanas krātuve pielikumiem
+Microsoft Dynamics AX 2012 ļāva izmantot krātuvi pielikumiem datu bāzē un failu koplietojumos. Abas šīs opcijas vairs netiek atbalstītas.
+
+|                              |                                        |
+|------------------------------|----------------------------------------|
+| Novecošanas pamatojums       | Failu koplietošanas krātuve vairs netiek atbalstīta, jo mākoņvides nevar sazināties ar lokālajiem failu koplietojumiem. Datu bāzes krātuve ir novecojusi, un tās vietā tiek izmantota Azure Blob krātuve. Azure Blob krātuve ir ekvivalents krātuvei datu bāzē, jo dokumentiem var piekļūt, tikai izmantojot Dynamics 365 for Finance and Operations klienta formas. Tas nodrošina papildu priekšrocību — šī krātuve neietekmē negatīvi datu bāzes darbību. Blob krātuve ir noklusējuma krātuves mehānisms dokumentu pārvaldībai, un tā darbojas uzreiz. |
+| Vai aizstāts ar citu līdzekli? | Datu bāzes krātuve ir novecojusi, un tās vietā tiek izmantota Azure Blob krātuve.       |
+| Ietekmētie moduļi             | Visus                   |
 
 ### <a name="delimitation"></a>Norobežošana
 
@@ -525,8 +557,8 @@ Programmā Dynamics AX 2012 R3 Retail Modern POS var izveidot tiešu savienojumu
 |                              |                                                                                                                                                                                                                                       |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Novecošanas pamatojums       | Tagad tiek izmantota vispārīgā funkcionalitāte, nevis lokalizētā funkcionalitāte.                                                                                                                                                                 |
-| Vai aizstāts ar citu līdzekli? | Jā, šī funkcionalitāte ir aizstāta ar detalizētas bankas darbību saskaņošanas funkcionalitāti. Turklāt nākamajā Dynamics AX atjauninājumā virsgrāmatai tiek plānots ieviest camt.053 ISO20022 konta izraksta importēšanu. |
-| Ietekmētie moduļi             | Visi                                                                                                                                                                                                                                   |
+| Vai aizstāts ar citu līdzekli? | Jā, šī funkcionalitāte ir aizstāta ar detalizētas bankas darbību saskaņošanas funkcionalitāti. |
+| Ietekmētie moduļi             | Visus                                                                                                                                                                                                                                   |
 
 ### <a name="ebilanz-xbrl-for-germany"></a>eBilanz (XBRL Vācijai)
 
@@ -577,8 +609,8 @@ Pārbaudes ģenerēšanu nevar veikt, izmantojot paketi, bet lietotājs to jopro
 |                              |                                                                                                                                                                                                                                                                                                |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Novecošanas pamatojums       | Šis formāts Vācijā vairs nav lietojams, jo tas ir aizstāts ar vienotās eiro maksājumu zonas (Single Euro Payments Area — SEPA) funkcionalitāti.                                                                                                                                                                 |
-| Vai aizstāts ar citu līdzekli? | Jā, šī funkcionalitāte ir aizstāta ar SEPA maksājumu eksportēšanas un detalizētās bankas darbību saskaņošanas funkcionalitāti kontu pārskatu importēšanai. Turklāt nākamajā Dynamics AX atjauninājumā virsgrāmatai tiek plānots ieviest camt.053 ISO20022 konta izraksta importēšanu. |
-| Ietekmētie moduļi             | Visi                                                                                                                                                                                                                                                                                            |
+| Vai aizstāts ar citu līdzekli? | Jā, šī funkcionalitāte ir aizstāta ar SEPA maksājumu eksportēšanas un detalizētās bankas darbību saskaņošanas funkcionalitāti kontu pārskatu importēšanai. |
+| Ietekmētie moduļi             | Visus                                                                                                                                                                                                                                                                                            |
 
 ### <a name="german-dtazv-payment-format"></a>Vācijas DTAZV maksājumu formāts
 
@@ -593,8 +625,8 @@ Pārbaudes ģenerēšanu nevar veikt, izmantojot paketi, bet lietotājs to jopro
 |                              |                                                                                                                                                                                                                                       |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Novecošanas pamatojums       | Tagad tiek izmantota vispārīgā funkcionalitāte, nevis lokalizētā funkcionalitāte.                                                                                                                                                                 |
-| Vai aizstāts ar citu līdzekli? | Jā, šī funkcionalitāte ir aizstāta ar detalizētas bankas darbību saskaņošanas funkcionalitāti. Turklāt nākamajā Dynamics AX atjauninājumā virsgrāmatai tiek plānots ieviest camt.053 ISO20022 konta izraksta importēšanu. |
-| Ietekmētie moduļi             | Visi                                                                                                                                                                                                                                   |
+| Vai aizstāts ar citu līdzekli? | Jā, šī funkcionalitāte ir aizstāta ar detalizētas bankas darbību saskaņošanas funkcionalitāti. |
+| Ietekmētie moduļi             | Visus                                                                                                                                                                                                                                   |
 
 ### <a name="german-xml-eu-sales-list"></a>Vācijas XML ES pārdošanas saraksts
 

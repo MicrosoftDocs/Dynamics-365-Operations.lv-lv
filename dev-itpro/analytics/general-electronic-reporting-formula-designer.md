@@ -10,19 +10,19 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: kfend
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 655a6fd99c0688b13c31c79f3322a287f902e7f1
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 2c04bbccf22ab830404206cd54b4cb8e97b6a822
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -67,7 +67,7 @@ Nākamajā attēlā ir parādīts šī tipa izteiksmes noformējums. Šajā piem
 
 ### <a name="data-formatting"></a>Datu formatēšana
 
-ER formulas veidotāju var izmantot, lai definētu izteiksmi, kas formatē no datu avotiem saņemtos datus, lai šos datus varētu nosūtīt kā daļu no ģenerētā elektroniskā dokumenta. Ja jums ir formatēšana, kas ir jālieto kā tipisks nosacījums, kuru ir nepieciešams atkārtoti izmantot kādam formātam, tad formāta konfigurācijā šo formatēšanu varat vienu reizi ieviest kā nosauktu transformēšanu, kurai ir formatēšanas izteiksme. Pēc tam šo nosaukto transformēšanu var saistīt ar daudziem formāta komponentiem, kuriem ir nepieciešams formatēt izvadi atbilstoši izveidotajai izteiksmei. Nākamajā attēlā ir parādīts šī tipa transformēšanas noformējums. Šajā piemērā transformēšana **TrimmedString** saņem ienākošos datus ar datu tipu **String** un apcērp sākuma un beigu atstarpes, kad atgriež virknes vērtību. [![picture-transformation-design](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg) Tālāk esošajā attēlā ir redzams, kā var lietot šāda veida transformēšanu. Šajā piemērā vairāki formāta komponenti, kas sūta tekstu kā izvadi uz ģenerēto elektronisko dokumentu, izpildes laikā atsaucas uz transformēšanu **TrimmedString** pēc nosaukuma. [![picture-transformation-usage](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg) Ja formāta komponentos ir atsauce uz transformāciju **TrimmedString ** (piemēram, komponentā **partyName** iepriekšējā attēlā), kā izvade uz ģenerēto dokumentu tiek nosūtīts teksts. Teksts neietver sākuma un noslēdzošās atstarpes. Ja jums ir formatējums, kas ir jālieto atsevišķi, šo formatējumu varat ieviest kā noteikta formāta komponenta saistīšanas atsevišķu izteiksmi. Nākamajā attēlā ir parādīta šī tipa izteiksme. Šajā piemērā formāta komponents **partyType** tiek saistīts ar datu avotu, izmantojot izteiksmi, kas ienākošos datus no lauka **Model.Company.RegistrationType** datu avotā pārveido par tekstu, kurš rakstīts ar lielajiem burtiem, un šo teksta izvadi sūta uz elektronisko dokumentu. [![picture-binding-with-formula](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
+ER formulas veidotāju var izmantot, lai definētu izteiksmi, kas formatē no datu avotiem saņemtos datus, lai šos datus varētu nosūtīt kā daļu no ģenerētā elektroniskā dokumenta. Ja jums ir formatēšana, kas ir jālieto kā tipisks nosacījums, kuru ir nepieciešams atkārtoti izmantot kādam formātam, tad formāta konfigurācijā šo formatēšanu varat vienu reizi ieviest kā nosauktu transformēšanu, kurai ir formatēšanas izteiksme. Pēc tam šo nosaukto transformēšanu var saistīt ar daudziem formāta komponentiem, kuriem ir nepieciešams formatēt izvadi atbilstoši izveidotajai izteiksmei. Nākamajā attēlā ir parādīts šī tipa transformēšanas noformējums. Šajā piemērā transformēšana **TrimmedString** saņem ienākošos datus ar datu tipu **String** un apcērp sākuma un beigu atstarpes, kad atgriež virknes vērtību. [![picture-transformation-design](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg) Tālāk esošajā attēlā ir redzams, kā var lietot šāda veida transformēšanu. Šajā piemērā vairāki formāta komponenti, kas sūta tekstu kā izvadi uz ģenerēto elektronisko dokumentu, izpildes laikā atsaucas uz transformēšanu **TrimmedString** pēc nosaukuma. [![picture-transformation-usage](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg) Ja formāta komponentos ir atsauce uz transformāciju **TrimmedString** (piemēram, komponentā **partyName** iepriekšējā attēlā), kā izvade uz ģenerēto dokumentu tiek nosūtīts teksts. Teksts neietver sākuma un noslēdzošās atstarpes. Ja jums ir formatējums, kas ir jālieto atsevišķi, šo formatējumu varat ieviest kā noteikta formāta komponenta saistīšanas atsevišķu izteiksmi. Nākamajā attēlā ir parādīta šī tipa izteiksme. Šajā piemērā formāta komponents **partyType** tiek saistīts ar datu avotu, izmantojot izteiksmi, kas ienākošos datus no lauka **Model.Company.RegistrationType** datu avotā pārveido par tekstu, kurš rakstīts ar lielajiem burtiem, un šo teksta izvadi sūta uz elektronisko dokumentu. [![picture-binding-with-formula](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
 ### <a name="process-flow-control"></a>Apstrādes plūsmas kontrole
 
@@ -196,8 +196,8 @@ Nākamajās tabulās ir aprakstītas datu manipulācijas funkcijas, kuras var iz
 | SESSIONNOW ()                              | Pašreizējās Dynamics 365 for Finance and Operations sesijas datumu un laiku atgriež kā datuma un laika vērtību.                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                       |
 | DATEFORMAT (datums, formāts)                  | Atgriež datuma virknes attēlojumu, izmantojot norādīto formātu.                                                                                                                                                                                                                                                                                                    | **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** pašreizējās Dynamics 365 for Operations sesijas datumu 24.12.2015 atgriež kā “**24-12-2015**” atbilstoši norādītajam pielāgotajam formātam.                                                                                                                      |
 | DATEFORMAT (datums, formāts, kultūra)         | Norādīto datuma vērtību pārveidojiet par virkni norādītajā formātā un atbilstoši norādītajai [kultūrai](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Papildinformāciju par atbalstītajiem formātiem skatiet sadaļās [standarta](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) un [pielāgots](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).)     | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** pašreizējo Finance and Operations programmas servera datumu, 24.12.2015, atgriež kā **“24.12.2015”** atbilstoši atlasītajai vācu kultūrai.                                                                                                                       |
-| DAYOFYEAR (datums)              | Atgriež veselu skaitļu attēlojumu dienu skaitam no 1. janvāra līdz norādītajam datumam.       | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** atgriež **61**.
-**DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** atgriež **1**.                                                                                                                       |
+| DAYOFYEAR (datums)              | Atgriež veselu skaitļu attēlojumu dienu skaitam no 1. janvāra līdz norādītajam datumam.       | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** atgriež **61**. **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** atgriež **1**. 
+                                                                                                                      |
 
 **Datu konvertēšanas funkcijas**
 
@@ -236,7 +236,14 @@ Nākamajās tabulās ir aprakstītas datu manipulācijas funkcijas, kuras var iz
 <li>Partijas kā parasti saraksti (komponents <strong>Value</strong>)</li>
 <li>Skaits pašreizējā partijā (komponents <strong>BatchNumber</strong>)</li>
 </ul></td>
-<td>Nākamajā piemērā datu avots <strong>Lines</strong> tiek izveidots kā ierakstu saraksts, kurš sastāv no trīs ierakstiem, un tas tiek sadalīts divās partijās — katrā no partijām ir līdz diviem ierakstiem. <a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> Tālāk ir norādīts izstrādātā formāta izkārtojums, kurā ir izveidotas saites ar datu avotu <strong>Lines</strong>, lai ģenerētu izvades XML formāta failu, kurā ir ietverti atsevišķi mezgli atbilstoši katrai paketei un tajā ietvertajiem ierakstiem. <a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a> Tālāk ir norādīts izstrādātā formāta izpildes rezultāts. <a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
+<td>Nākamajā piemērā datu avots <strong>Lines</strong> tiek izveidots kā ierakstu saraksts, kurš sastāv no trīs ierakstiem, un tas tiek sadalīts divās partijās — katrā no partijām ir līdz diviem ierakstiem. 
+<a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> 
+
+Šis rāda izveidotā formāta izkārtojumu, kur saistījumi ar datu avotu <strong>Lines</strong> tiek izveidoti, lai ģenerētu izvadi XML formātā, kas pārstāv atsevišķus zarus katrai partijai un tajā esošajiem ierakstiem. 
+<a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a> 
+
+Palaižot izveidoto formātu, tiek iegūts tālāk parādītais rezultāts. 
+<a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
 </tr>
 <tr class="odd">
 <td>LIST (1. ieraksts [, 2. ieraksts, ...])</td>
@@ -300,7 +307,14 @@ Nākamajās tabulās ir aprakstītas datu manipulācijas funkcijas, kuras var iz
 <li>Norādītā saraksta ieraksti kā parasti saraksti (komponents <strong>Value</strong>)</li>
 <li>Pašreizējā ieraksta indekss (komponents <strong>Number</strong>)</li>
 </ul></td>
-<td>Nākamajā piemērā datu avots <strong>Enumerated</strong> tiek izveidots kā uzskaitījuma kreditoru ierakstu saraksts no datu avota <strong>Vendors</strong>, kurš atsaucas uz tabulu <strong>VendTable</strong>. <a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a>Šeit ir formāts, kur datu saistījumi tiek izveidoti, lai ģenerētu izvadi XML formātā, kas atsevišķus kreditorus attēlo kā uzskaitījuma zarus. <a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a> Tālāk ir norādīts izstrādātā formāta izpildes rezultāts. <a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
+<td>Nākamajā piemērā datu avots <strong>Enumerated</strong> tiek izveidots kā uzskaitījuma kreditoru ierakstu saraksts no datu avota <strong>Vendors</strong>, kurš atsaucas uz tabulu <strong>VendTable</strong>. 
+<a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a> 
+
+Šeit ir formāts, kur datu saistījumi tiek izveidoti, lai ģenerētu izvadi XML formātā, kas atsevišķus kreditorus attēlo kā uzskaitījuma zarus. 
+<a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a> 
+
+Šis ir izveidotā formāta izpildīšanas rezultāts. 
+<a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
 </tr>
 <tr class="odd">
 <td>COUNT (saraksts)</td>
@@ -322,13 +336,24 @@ Izveidotais saraksts sastāvēs no ierakstiem ar šādiem laukiem:
 <li>Apraksts</li>
 </ul>
 Lauki Etiķete un Apraksts atgriezīsies pie izpildes laika vērtībām, pamatojoties uz formāta valodas iestatījumiem.</td>
-<td>Nākamajā piemērā ir parādīts datu modelī ieviests uzskaitījums. <a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="GER LISTOFFIELDS function - model enumeration" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a>Nākamajā piemērā ir redzams tālāk norādītais.
+<td>Nākamajā piemērā ir parādīts datu modelī ieviests uzskaitījums. 
+<a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="GER LISTOFFIELDS function - model enumeration" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a>
+
+Nākamajā piemērā ir redzams tālāk norādītais.
 <ul>
 <li>Modeļa uzskaitījums ievietots pārskatā kā datu avots.</li>
 <li>ER izteiksme, izveidota ar mērķi lietot modeļa uzskaitījumu kā šīs funkcijas parametru.</li>
 <li>Datu avots ar ierakstu saraksta tipu, ievietots pārskatā, izmantojot izveidoto ER izteiksmi.</li>
 </ul>
-<a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="GER LISTOFFIELDS function - in format expression" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a> Tālāk esošajā piemērā ir redzami ER formāta elementi, kas ir saistīti ar ierakstu saraksta tipa datu avotu, kurš ir izveidots, izmantojot funkciju LISTOFFIELDS.<a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="GER LISTOFFIELDS function - format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a>Tālāk ir norādīts izstrādātā formāta izpildes rezultāts.<a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="GER LISTOFFIELDS function - format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a><strong>Piezīme.</strong> ER formāta izvadē etiķešu un aprakstu tulkotais teksts tiek nodrošināts saskaņā ar valodas iestatījumiem, kas ir konfigurēti formāta vecākelementiem FILE un FOLDER.</td>
+<a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="GER LISTOFFIELDS function - in format expression" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a> 
+
+Tālāk esošajā piemērā parādīti ER formāta elementi, kas ir piesaistīti datu avotam ar ierakstu saraksta tipu, kas tika izveidots, izmantojot funkciju LISTOFFIELDS.
+<a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="GER LISTOFFIELDS function - format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a>
+
+Tālāk ir norādīts izstrādātā formāta izpildes rezultāts.
+<a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="GER LISTOFFIELDS function - format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a><strong>
+
+Piezīme.</strong> ER formāta izvadē etiķešu un aprakstu tulkotais teksts tiek nodrošināts saskaņā ar valodas iestatījumiem, kas ir konfigurēti formāta vecākelementiem FILE un FOLDER.</td>
 </tr>
 <tr class="odd">
 <td>STRINGJOIN (saraksts, lauka nosaukums, norobežotājs)</td>
@@ -338,7 +363,18 @@ Lauki Etiķete un Apraksts atgriezīsies pie izpildes laika vērtībām, pamatoj
 <tr class="even">
 <td>SPLITLISTBYLIMIT (saraksts, robežvērtība, ierobežojumu avots)</td>
 <td>Attiecīgo sarakstu sadala jaunā apakšsarakstu sarakstā un atgriež rezultātu ierakstu saraksta saturā. Robežvērtības parametrs norāda ierobežojuma vērtību sākotnējā saraksta sadalīšanai. Ierobežojuma avota parametrs norāda soli, par kādu kopsumma tiek palielināta. Ierobežojums netiek lietots atsevišķam elementam attiecīgajā sarakstā, ja ierobežojuma avots pārsniedz definēto ierobežojumu.</td>
-<td>Nākamajā piemērā ir redzams parauga formāts, izmantojot datu avotus. <a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="GER SPLITLISTBYLIMIT - format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="GER SPLITLISTBYLIMIT - datasources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a>Tālāk ir redzams formāta izpildes rezultāts, kurā ir ietverts nekārtots preču saraksts.<a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="GER SPLITLISTBYLIMIT - output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a>Tālāk esošajā piemērā ir redzams tas pats formāts, kas ir pielāgots preču saraksta rādīšanai pa partijām, vienā partijā ietverot preces, kuru kopējais svars nepārsniedz ierobežojumu 9.<a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="GER SPLITLISTBYLIMIT - format 1" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="GER SPLITLISTBYLIMIT - datasources 1" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a>Tālāk ir redzams pielāgotā formāta izpildes rezultāts. <a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="GER SPLITLISTBYLIMIT - output 1" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a><strong>Piezīme.</strong> Ierobežojums netiek lietots pēdējam sākotnējā saraksta elementam, jo tā ierobežojuma avota (svara) vērtība (11) pārsniedz noteikto ierobežojumu (9). Lai pārskata ģenerēšanas laikā ignorētu (izlaistu) apakšsarakstus (ja nepieciešams), izmantojiet funkciju <strong>WHERE</strong> vai <strong>Enabled</strong>.</td>
+<td>Nākamajā piemērā ir redzams parauga formāts, izmantojot datu avotus. 
+<a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="GER SPLITLISTBYLIMIT - format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="GER SPLITLISTBYLIMIT - datasources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a>
+
+Tālāk ir redzams formāta izpildes rezultāts, kurā ir ietverts nekārtots preču saraksts.
+<a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="GER SPLITLISTBYLIMIT - output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a>
+
+Tālāk esošajā piemērā ir redzams tas pats formāts, kas tika pielāgots preču saraksta rādīšanai pa partijām, vienā partijā ietverot preces, kuru kopējais svars nepārsniedz ierobežojumu 9.
+<a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="GER SPLITLISTBYLIMIT - format 1" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="GER SPLITLISTBYLIMIT - datasources 1" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a>
+
+Tālāk ir redzams pielāgotā formāta izpildes rezultāts. <a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="GER SPLITLISTBYLIMIT - output 1" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a>
+
+<strong>Piezīme.</strong> Ierobežojums netiek lietots pēdējam sākotnējā saraksta elementam, jo tā ierobežojuma avota (svara) vērtība (11) pārsniedz noteikto ierobežojumu (9). Lai pārskata ģenerēšanas laikā ignorētu (izlaistu) apakšsarakstus (ja nepieciešams), izmantojiet funkciju <strong>WHERE</strong> vai <strong>Enabled</strong>.</td>
 </tr>
 <tr class="odd">
 <td>FILTER (saraksts, nosacījums)</td>
@@ -511,7 +547,10 @@ Lauki Etiķete un Apraksts atgriezīsies pie izpildes laika vērtībām, pamatoj
 <tr class="even">
 <td>FORMAT (1. virkne, 2. virkne[, 3. virkne, ...])</td>
 <td>Atgriež norādīto virkni, kas ir formatēta, visus <strong>%N</strong> gadījumus aizstājot ar <em>n</em>-to argumentu. Argumenti ir virknes. Ja nav norādīts parametra arguments, šis parametrs virknē tiek atgriezts kā <strong>&quot;%N&quot;</strong>. Vērtībām ar tipu <strong>real</strong> šīs virknes pārveidošana ir ierobežota līdz diviem cipariem aiz komata.</td>
-<td>Šajā piemērā datu avots <strong>PaymentModel</strong> atgriež sarakstu ar debitoru ierakstiem, izmantojot komponentu <strong>Customer</strong>, un apstrādāšanas datuma vērtību, izmantojot lauku <strong>ProcessingDate</strong>. <a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> ER formātā, kas ir izstrādāts, lai ģenerētu elektronisku failu noteiktiem debitoriem, kā datu avots ir atlasīts elements <strong>PaymentModel</strong>, un tas kontrolē procesa plūsmu. Izņēmums lietotājiem tiek parādīts, kad atlasītais debitors tiek apturēts datumam, kad atskaite tiek apstrādāta. Šāda tipa apstrādes kontrolei izveidotā formulā var izmantot šādus resursus:
+<td>Šajā piemērā datu avots <strong>PaymentModel</strong> atgriež sarakstu ar debitoru ierakstiem, izmantojot komponentu <strong>Customer</strong>, un apstrādāšanas datuma vērtību, izmantojot lauku <strong>ProcessingDate</strong>. 
+<a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> 
+
+ER formātā, kas ir izveidots tā, lai ģenerētu elektronisku failu noteiktiem debitoriem, vienums <strong>PaymentModel</strong> ir atlasīts kā datu avots, un tas kontrolē procesa plūsmu. Izņēmums lietotājiem tiek parādīts, kad atlasītais debitors tiek apturēts datumam, kad atskaite tiek apstrādāta. Šāda tipa apstrādes kontrolei izveidotā formulā var izmantot šādus resursus:
 <ul>
 <li>Finance and Operations etiķete SYS70894, kurā ir šāds teksts:
 <ul>
@@ -526,7 +565,7 @@ Lauki Etiķete un Apraksts atgriezīsies pie izpildes laika vērtībām, pamatoj
 </ul>
 Tālāk ir norādīta izstrādājamā formula. FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &quot;. &quot;, @&quot;SYS18389&quot;), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, &quot;d&quot;)) Ja 2015. gada 17. decembrī tiek apstrādāta atskaite par debitoru <strong>Litware Retail customer</strong>, izmantojot kultūru <strong>EN-US</strong> un valodu <strong>EN-US</strong>, šī formula atgriež tālāk norādīto tekstu, kas var tikt parādīts lietotajam kā izņēmuma ziņojums. &quot;Nothing to print. Customer Litware Retail is stopped for 12/17/2015.&quot; Ja tas pats pārskats par debitoru<strong> Litware Retail customer</strong> tiek apstrādāts 2015. gada 17. decembrī, izmantojot kultūru <strong>DE</strong> un valodu <strong>DE</strong>, tad šī formula atgriež tālāk norādīto tekstu, kurā tiek izmantots cits datuma formāts. &quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot; <strong>Ņemiet vērā!</strong> ER formulās etiķetēm tiek lietota tālāk norādītā sintakse.
 <ul>
-<li><strong>Etiķetēm no Finance and Operations resursiem:</strong> <strong>@&quot;X&quot;</strong>, kur X ir etiķetes ID programmas objektu kokā (Application Object Tree — AOT)</li>
+<li><strong>Etiķetēm no Finance and Operations resursiem:</strong> <strong>@&quot;X&quot;</strong>, kur X ir etiķetes ID lietojumprogrammas objektu kokā (AOT)</li>
 <li><strong>Etiķetēm, kas ir ietvertas ER konfigurācijās:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, kur X ir etiķetes ID ER konfigurācijā</li>
 </ul></td>
 </tr>
@@ -549,7 +588,8 @@ Tālāk ir norādīta izstrādājamā formula. FORMAT (CONCATENATE (@&quot;SYS70
 <td>TRIM (virkne)</td>
 <td>Atgriež norādīto tekstu, apraujot atstarpes sākumā un noslēdzošās atstarpes, kā arī vairākas atstarpes starp vārdiem samazinot līdz vienai atstarpei. </td>
 <td><strong>TRIM ("     Piemēra     teksts     ")</strong> atgriež <strong>"Piemēra teksts".</strong></td>
-=======
+</tr>
+<tr class="odd">
 <td>GETENUMVALUEBYNAME (uzskaitījuma datu avota ceļš, uzskaitījuma vērtības etiķetes teksts)</td>
 <td>Atgriež norādītā uzskaitījuma datu avota vērtību pēc norādītā teksta ar šo uzskaitījuma etiķeti.</td>
 <td>Nākamajā piemērā ir parādīts datu modelī ieviests uzskaitījums ReportDirection. Ņemiet vērā, ka etiķetes ir definētas uzskaitījumu vērtībām.

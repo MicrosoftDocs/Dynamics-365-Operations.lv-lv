@@ -14,14 +14,13 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 262574
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
 ms.author: v-elgolu
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: fedcd2b4756faddc20fe6f304e4448949acdaa61
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: c6cbc225d6ac8eb4c4c22dc50c42bf9563cec02a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -79,7 +78,7 @@ Lai atainotu avansa turētāju transakcijas, lapas **Kreditoru moduļa parametri
 Lai pareizi reģistrētu un grāmatotu pirkšanas pasūtījumu, izmantojot avansa turētāju, ir jālieto maksājuma nosacījumi, kuriem opcija **No avansa turētāja** ir iestatīta uz **Patiess**.
 ### <a name="create-an-advance-holder-creation"></a>Izveidot avansa turētāja izveidi
 
-Lai varētu izveidot avansa turētāju, nodarbinātajiem jau ir jābūt iestatītiem. Papildinformāciju skatiet rakstā [Ievadīt darbinieka informāciju (uzdevuma ceļvedis).](http://ax.help.dynamics.com/en/wiki/enter-worker-information/) Lai nodarbināto iestatītu kā avansa turētāju, izmantojiet lapu **Avansa turētāji**. Atlasiet nodarbināto, ko lietot kā avansa turētāju, noklikšķiniet uz **Rediģēt** un pēc tam opciju **Avansa turētājs** iestatiet uz **Patiess**. Ir jāaizpilda arī tālāk norādītie lauki.
+Lai varētu izveidot avansa turētāju, nodarbinātajiem jau ir jābūt iestatītiem. Papildinformāciju skatiet rakstā [Ievadīt darbinieka informāciju (uzdevuma ceļvedis).](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enter-worker-information) Lai nodarbināto iestatītu kā avansa turētāju, izmantojiet lapu **Avansa turētāji**. Atlasiet nodarbināto, ko lietot kā avansa turētāju, noklikšķiniet uz **Rediģēt** un pēc tam opciju **Avansa turētājs** iestatiet uz **Patiess**. Ir jāaizpilda arī tālāk norādītie lauki.
 |                |                                                                                             |
 |----------------|---------------------------------------------------------------------------------------------|
 | **Lauks**      | **Apraksts**                                                                             |

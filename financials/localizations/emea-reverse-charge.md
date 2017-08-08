@@ -1,5 +1,5 @@
 ---
-title: "Apgrieztais PVN | Microsoft Docs"
+title: Apgrieztais PVN
 description: "Šajā tēmā ir paskaidrots, kā iestatīt apgriezto pievienotās vērtības nodokli (PVN) Eiropas valstīs."
 author: epodkolz
 manager: AnnBe
@@ -13,13 +13,13 @@ ms.reviewer: shylaw
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: epodkolz
-ms.search.validFrom: 2017-06-30
+ms.search.validFrom: 2017-06-30T00:00:00.000Z
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 6cb473962f40ed9ef2f5f807f089098764f47009
-ms.openlocfilehash: b3c94fa73410d9bdcaaec11dee04a7a239e4d45a
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: dba651b4e6f0e661d6743780495c7ee217eefd9d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/14/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -39,12 +39,12 @@ Ir ieteicams pirkšanas un pārdošanas operācijām izmantot atsevišķus PVN 
 <body>
 <tr>
 <td><strong>Pārdošanas PVN kods</strong></td>
-<td>Izveidojiet PVN kodu apgrieztās maksāšanas pārdošanas operācijām (<strong>Nodokļi</strong> > <strong>Netiešie nodokļi</strong> > <strong>PVN</strong> > <strong>PVN kodi</strong>).
+<td>Izveidojiet PVN kodu apgrieztās maksāšanas pārdošanas operācijām (<strong>Nodokļi</strong> > <strong>Netiešie nodokļi</strong> > <strong>PVN</strong> > <strong>PVN kodi</strong>).
 </td>
 </tr>
 <tr>
 <td><strong>Pirkšanas PVN kods</strong></td>
-<td><p>Izveidojiet pozitīvā un negatīvā PVN kodus pirkšanas apgrieztajam PVN (<strong>Nodokļi</strong> > <strong>Netiešie nodokļi</strong> > <strong>PVN</strong> > <strong>PVN kodi</strong>).</p>
+<td><p>Izveidojiet pozitīvā un negatīvā PVN kodus pirkšanas apgrieztajam PVN (<strong>Nodokļi</strong> > <strong>Netiešie nodokļi</strong> > <strong>PVN</strong> > <strong>PVN kodi</strong>).</p>
 <ol>
 <li>Izveidojiet pozitīvas vērtības PVN kodu.</li>
 <li>Izveidojiet negatīvas vērtības PVN kodu. Iestatiet opcijas <strong>Atļaut negatīvu PVN likmi</strong> vērtību <strong>Jā</strong>.
@@ -62,15 +62,15 @@ Ir ieteicams pirkšanas un pārdošanas operācijām izmantot atsevišķas PVN 
 <table>
 <tr>
 <td><strong>Pārdošanas PVN grupas</strong></td>
-<td>Izveidojiet PVN grupu apgrieztās maksāšanas pārdošanas operācijām (<strong>Nodokļi</strong> > <strong>Netiešie nodokļi</strong> > <strong>PVN</strong> > <strong>PVN grupas</strong>). Cilnē <strong>Iestatīšana</strong> ietveriet šajā grupā apgrieztās maksāšanas PVN kodu. Atzīmējiet pārdošanas PVN koda izvēles rūtiņas <strong>Neapliekams</strong> un <strong>Atgriezes maksa</strong>.</td>
+<td>Izveidojiet PVN grupu apgrieztās maksāšanas pārdošanas operācijām (<strong>Nodokļi</strong> > <strong>Netiešie nodokļi</strong> > <strong>PVN</strong> > <strong>PVN grupas</strong>). Cilnē <strong>Iestatīšana</strong> ietveriet šajā grupā apgrieztās maksāšanas PVN kodu. Atzīmējiet pārdošanas PVN koda izvēles rūtiņas <strong>Neapliekams</strong> un <strong>Atgriezes maksa</strong>.</td>
 </tr>
 <tr>
 <td><strong>Pirkšanas PVN grupas</strong></td>
-<td>Izveidojiet PVN grupu apgrieztās maksāšanas pirkšanas operācijām (<strong>Nodokļi</strong> > <strong>Netiešie nodokļi</strong> > <strong>PVN</strong> > <strong>PVN grupas</strong>). Cilnē <strong>Iestatījumi</strong> ietveriet šajā grupā gan pozitīvās, gan negatīvās vērtības PVN kodus. Atzīmējiet negatīvās vērtības PVN koda izvēles rūtiņu <strong>Atgriezes maksa</strong>.</td>
+<td>Izveidojiet PVN grupu apgrieztās maksāšanas pirkšanas operācijām (<strong>Nodokļi</strong> > <strong>Netiešie nodokļi</strong> > <strong>PVN</strong> > <strong>PVN grupas</strong>). Cilnē <strong>Iestatījumi</strong> ietveriet šajā grupā gan pozitīvās, gan negatīvās vērtības PVN kodus. Atzīmējiet negatīvās vērtības PVN koda izvēles rūtiņu <strong>Atgriezes maksa</strong>.</td>
 </tr>
 <tr>
 <td><strong>Krājumu PVN grupas</strong></td>
-<td>Izveidojiet vai atjauniniet krājumu PVN grupu, izmantojot negatīvās vērtības PVN kodu (<strong>Nodokļi</strong> > <strong>Netiešie nodokļi</strong> > <strong>PVN</strong> > <strong>Krājumu PVN grupas</strong>). Produktiem un kategorijām, uz kuriem attiecas apgrieztā maksāšana, ir jāpiešķir noklusējuma krājumu PVN grupa.</td>
+<td>Izveidojiet vai atjauniniet krājumu PVN grupu, izmantojot negatīvās vērtības PVN kodu (<strong>Nodokļi</strong> > <strong>Netiešie nodokļi</strong> > <strong>PVN</strong> > <strong>Krājumu PVN grupas</strong>). Produktiem un kategorijām, uz kuriem attiecas apgrieztā maksāšana, ir jāpiešķir noklusējuma krājumu PVN grupa.</td>
 </tr>
 </table>
 

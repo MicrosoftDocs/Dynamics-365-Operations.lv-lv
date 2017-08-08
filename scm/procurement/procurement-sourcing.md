@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: cf6d4756ae706316a342590ab76b4a5cbdd7e4f9
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 6e9402eb1fd559784a9013f91205503d806e2a44
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -36,58 +36,58 @@ Sagāde un avoti aptver visas darbības no preces un pakalpojumus nepieciešamī
 
 ## <a name="purchase-requisitions"></a>Pirkšanas pieprasījumi
 -   [Pirkšanas pieprasījuma apskats](purchase-requisitions-overview.md)
--   [Patēriņa pieprasījuma izveide](http://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
--   [Izveidot pieprasījumu, kas lieto IP](http://ax.help.dynamics.com/en/wiki/create-a-requisition-that-uses-an-rfq/)
--   [Atļauju iestatīšana preču pasūtīšanai kāda cita vārdā](http://ax.help.dynamics.com/en/wiki/set-up-permissions-for-ordering-products-on-behalf-of-someone-else/)
+-   [Patēriņa pieprasījuma izveide](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-requisition-consumption)
+-   [Izveidot pieprasījumu, kas lieto IP](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-requisition-uses-rfq)
+-   [Atļauju iestatīšana preču pasūtīšanai kāda cita vārdā](/dynamics365/unified-operations/supply-chain/procurement/tasks/set-up-permissions-ordering-products)
 
 ## <a name="requests-for-quotation"></a>Piedāvājumu pieprasījumi
 -   [Piedāvājumu pieprasījumi](request-quotations.md)
--   [Izveidot piedāvājuma pieprasījumu](http://ax.help.dynamics.com/en/wiki/create-a-request-for-quotation/)
--   [Ievadīt un salīdzināt PP piedāvājumus un piešķirt līgumus](http://ax.help.dynamics.com/en/wiki/enter-and-compare-rfq-bids-and-award-contracts/)
--   [Izveidot IP punktu skaitīšanas metodi](http://ax.help.dynamics.com/en/wiki/create-a-scoring-method-for-rfqs/)
--   [Izveidot IP lūgumu tipus un punktu skaitīšanas kritērijus](http://ax.help.dynamics.com/en/wiki/create-solicitation-types-and-scoring-criteria-for-rfqs/)
+-   [Izveidot piedāvājuma pieprasījumu](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-request-quotation)
+-   [Ievadīt un salīdzināt PP piedāvājumus un piešķirt līgumus](/dynamics365/unified-operations/supply-chain/procurement/tasks/enter-compare-rfq-bids-award-contracts)
+-   [Izveidot IP punktu skaitīšanas metodi](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-scoring-method-rfqs)
+-   [Izveidot IP lūgumu tipus un punktu skaitīšanas kritērijus](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-solicitation-types-scoring-criteria-rfqs)
 
 ## <a name="vendor-management-and-collaboration"></a>Kreditoru pārvaldība un sadarbība
 -   [Kreditoru kontu iestatīšana](set-up-vendor-accounts.md)
--   [Izveidot kreditora kontu](http://ax.help.dynamics.com/en/wiki/create-a-vendor-account/)
--   [Izveidot kreditora bankas kontu](http://ax.help.dynamics.com/en/wiki/create-a-vendor-bank-account/)
--   [Kreditoru meklēšana](http://ax.help.dynamics.com/en/wiki/search-for-vendors/)
--   [Apstiprināt kreditorus konkrētām precēm](http://ax.help.dynamics.com/en/wiki/approve-vendors-for-specific-products/)
+-   [Kreditora konta izveidošana](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-vendor-account)
+-   [Izveidot kreditora bankas kontu](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-vendor-bank-account)
+-   [Kreditoru meklēšana](/dynamics365/unified-operations/supply-chain/procurement/tasks/search-vendors)
+-   [Apstiprināt kreditorus konkrētām precēm](/dynamics365/unified-operations/supply-chain/procurement/tasks/approve-vendors-specific-products)
 -   [Kreditoru sadarbība ar ārējiem kreditoriem](vendor-collaboration-work-external-vendors.md)
 -   [Kreditoru sadarbība ar debitoriem](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Pārvaldīt kreditoru sadarbības lietotājus](manage-vendor-collaboration-users.md)
 -   [Iestatīt un uzturēt kreditoru sadarbību](set-up-maintain-vendor-collaboration.md)
 -   [Ienākošo sūtījuma krājumu demonstrācijas skripts programmai Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(tehniskais dokuments)
--   [Pārraudzīt sūtījuma krājumus, izmantojot kreditoru sadarbību](http://ax.help.dynamics.com/en/wiki/monitor-consignment-inventory-using-vendor-collaboration/)
+-   [Pārraudzīt sūtījuma krājumus, izmantojot kreditoru sadarbību](/dynamics365/unified-operations/supply-chain/inventory/tasks/monitor-consignment-inventory-vendor-collaboration)
 -   [Sadarbība ar kreditoriem, izmantojot kreditoru portālu](collaborate-vendors-vendor-portal.md)  (tikai Dynamics AX 2016. gada februāra un 2016. gada maija versijas)
 -   [Kreditoru portāla lietotāju drošības konfigurācija](configure-security-vendor-portal-users.md) (tikai Finance and Operations 2016. gada februāra un 2016. gada maija versijas)
 -   [Mobilā darbvieta Kreditoru sadarbība Microsoft Dynamics 365 for Finance and Operations programmai](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Sagādes preču pārvaldība
 -   [Sagādes katalogi](procurement-catalogs.md)
--   [Izveidot sagādes katalogu](http://ax.help.dynamics.com/en/wiki/create-a-procurement-catalog/)
+-   [Izveidot sagādes katalogu](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-procurement-catalog)
 -   [Piegādātāju katalogu importēšana](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/) (emuāra ziņa)
--   [Sagādes kategoriju hierarhijas iestatīšana](http://ax.help.dynamics.com/en/wiki/set-up-a-procurement-category-hierarchy/)
--   [Iestatīt politikas sagādes kategoriju hierarhijai](http://ax.help.dynamics.com/en/wiki/set-up-policies-for-procurement-category-hierarchies/)
--   [Apstiprināt kreditorus noteiktām sagādes kategorijām](http://ax.help.dynamics.com/en/wiki/approve-vendors-for-specific-procurement-categories/)
+-   [Sagādes kategoriju hierarhijas iestatīšana](/dynamics365/unified-operations/supply-chain/procurement/tasks/set-up-procurement-category-hierarchy)
+-   [Iestatīt politikas sagādes kategoriju hierarhijai](/dynamics365/unified-operations/supply-chain/procurement/tasks/set-up-policies-procurement-category-hierarchies)
+-   [Apstiprināt kreditorus noteiktām sagādes kategorijām](/dynamics365/unified-operations/supply-chain/procurement/tasks/approve-vendors-specific-procurement-categories)
 
 ## <a name="procurement"></a>Sagāde
 -   [Pirkšanas pasūtījuma apskats](purchase-order-overview.md)
 -   [Pirkšanas pasūtījuma izveidošana](purchase-order-creation.md)
 -   [Pirkšanas pasūtījumu apstiprināšana un ratificēšana](purchase-order-approval-confirmation.md)
--   [Pirkšanas pasūtījuma izveide](http://ax.help.dynamics.com/en/wiki/create-a-purchase-order/)
--   [Izveidot atkārtotu pirkšanas pasūtījumu](http://ax.help.dynamics.com/en/wiki/create-a-repeat-purchase-order/)
--   [Izveidot pirkšanas pasūtījumu no pārdošanas pasūtījuma](http://ax.help.dynamics.com/en/wiki/create-a-purchase-order-from-a-sales-order/)
--   [Izveidot pirkšanas pasūtījumu vienreizējam piegādātājam](http://ax.help.dynamics.com/en/wiki/create-a-purchase-order-for-a-one-time-supplier/)
--   [Izveidot pirkšanas pasūtījumu ar piegādes grafiku](http://ax.help.dynamics.com/en/wiki/create-a-purchase-order-with-a-delivery-schedule/)
--   [Izveidot pirkšanas atgriešanas pasūtījumu](http://ax.help.dynamics.com/en/wiki/create-a-purchase-return-order/)
--   [Pirkšanas izpildpasūtījumu izveide no pirkšanas līguma](http://ax.help.dynamics.com/en/wiki/create-a-purchase-release-order-from-a-purchase-agreement/)
--   [Pirkšanas izpildpasūtījumu izveide, veidojot pirkšanas pasūtījumu](http://ax.help.dynamics.com/en/wiki/create-a-purchase-release-order-when-creating-the-purchase-order/)
--   [Izveidot sūtījuma papildināšanas pasūtījumu](http://ax.help.dynamics.com/en/wiki/create-a-consignment-replenishment-order/)
+-   [Pirkšanas pasūtījuma izveide](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-purchase-order)
+-   [Izveidot atkārtotu pirkšanas pasūtījumu](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-repeat-purchase-order)
+-   [Pirkšanas pasūtījuma izveide no pārdošanas pasūtījuma](/dynamics365/unified-operations/supply-chain/sales-marketing/tasks/create-purchase-order-sales-order)
+-   [Izveidot pirkšanas pasūtījumu vienreizējam piegādātājam](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-purchase-order-one-time-supplier)
+-   [Izveidot pirkšanas pasūtījumu ar piegādes grafiku](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-purchase-order-delivery-schedule)
+-   [Izveidot pirkšanas atgriešanas pasūtījumu](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-purchase-return-order)
+-   [Pirkšanas izpildpasūtījumu izveide no pirkšanas līguma](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-purchase-release-order-purchase-agreement)
+-   [Pirkšanas izpildpasūtījumu izveide, veidojot pirkšanas pasūtījumu](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-purchase-release-order-creating-purchase-order)
+-   [Izveidot sūtījuma papildināšanas pasūtījumu](/dynamics365/unified-operations/supply-chain/inventory/tasks/create-consignment-replenishment-order)
 
 ## <a name="prices-and-discounts"></a>Cenas un atlaides
 -   [Pirkšanas līgumi](purchase-agreements.md)
--   [Pirkšanas līguma izveide](http://ax.help.dynamics.com/en/wiki/create-a-purchase-agreement/)
+-   [Pirkšanas līguma izveide](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-purchase-agreement)
 -   [Kreditoru atlaides](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/Vendor_rebates) (tehniskais apraksts)
 
 ## <a name="product-receipt-and-invoicing"></a>Preču ieejas plūsma un rēķinu izrakstīšana
@@ -98,11 +98,11 @@ Sagāde un avoti aptver visas darbības no preces un pakalpojumus nepieciešamī
 ## <a name="procurement-and-sourcing-workflows"></a>Sagādes un avotu darbplūsmas
 -   [Sagādes un avotu apskats](procurement-sourcing-overview.md)
 -   [Sagādes un avotu darbplūsmas](procurement-sourcing-workflows.md)
--   [Reģistrēt preču saņemšanu pirkšanas pasūtījumā](http://ax.help.dynamics.com/en/wiki/record-receipt-of-goods-on-a-purchase-order/)
+-   [Reģistrēt preču saņemšanu pirkšanas pasūtījumā](/dynamics365/unified-operations/supply-chain/procurement/tasks/record-receipt-goods-purchase-order)
 -   [Pirkšanas pieprasījuma darbplūsma](purchase-requisitions-workflow.md)
 -   [Biznesa procesu darbplūsmu definēšana pirkšanas pieprasījumiem](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (tehniskais apraksts)
 -   [Pirkšanas ierobežojumi](purchase-policies.md)
--   [Izveidot pirkšanas politikas](http://ax.help.dynamics.com/en/wiki/create-purchasing-policies/)
+-   [Izveidot pirkšanas politikas](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-purchasing-policies)
 
 
 

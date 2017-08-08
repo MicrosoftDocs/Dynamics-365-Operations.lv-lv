@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
+ms.reviewer: kfend
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 36c5e78f4b85d0c763c35b62a6592365501db325
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 6be91dfc02b728ffdf0f9d3baf1d41d3d2c10fea
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -103,7 +103,7 @@ Noklikšķiniet uz pogas **Iestatījumi** jaunajam adresāta ierakstam. Pēc tam
 Lapā **Konfigurācijas** (**Organizācijas administrēšana** &gt; **Elektroniskie pārskati** &gt; **Konfigurācijas**) esošajā konfigurācijas kokā atlasiet iepriekš izveidoto konfigurāciju **Importēšanas/eksportēšanas aktivitātes**. Lai šo formātu padarītu pieejamu lietošanai, versijas 1.1 statusu no **Melnraksts** mainiet uz **Pabeigts**. [![Lapa Konfigurācijas](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png) Atlasiet pabeigto konfigurācijas **Importēšanas/eksportēšanas aktivitātes** versiju un noklikšķiniet uz **Palaist**. Ievērojiet, ka konfigurētais adresāts tiek lietots izvades rezultātam, kurš tiek ģenerēts Excel formātā. Opcijai **Pakešapstrāde** iestatiet vērtību **Jā**, lai šo pārskatu palaistu neuzraudzītā režīmā. Noklikšķiniet uz **Periodiskums**, lai šī pakešuzdevuma izpildei plānotu nepieciešamo periodiskumu. Periodiskums nosaka, cik bieži atjauninātie dati no Finance and Operations tiks pārsūtīti uz Power BI. [![Dialoglodziņš Elektroniskā pārskata parametri](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png) Kad tas ir konfigurēts, ER pārskata izpildes darbs ir pieejams lapā **Pakešuzdevumi** (**Sistēmas administrēšana &gt; Pieprasījumi &gt; Pakešuzdevumi**). [![Lapa Pakešuzdevumi](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png) Kad šis darbs tiek palaists pirmo reizi, adresāts izveido jaunu Excel failu ar konfigurēto nosaukumu atlasītajā SharePoint mapē. Katrā turpmākajā šī darba palaišanas reizē adresāts izveido jaunu šī Excel faila versiju. [![Jauna Excel faila versija](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
 
 ## <a name="create-a-power-bi-dataset-by-using-the-output-result-of-the-er-format"></a>Izveidot Power BI datu kopu, izmantojot ER formāta izvades rezultātu
-Pierakstieties pakalpojumā Power BI un atveriet esošu Power BI grupu (darbvieta) vai izveidojiet jaunu grupu. Noklikšķiniet uz **Pievienot** izvēlnē **Faili** sadaļā **Importējiet datus vai izveidojiet savienojumu ar tiem** vai noklikšķiniet uz pluszīmes (**+**), kas atrodas blakus vienumam **Datu kopas** kreisajā rūtī. [![Datu kopas izveide](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) Atlasiet opciju **SharePoint — darba grupas vietnes** un pēc tam ievadiet izmantotā SharePoint servera ceļu (šajā piemērā tas ir **https://ax7partner.spoppe.com**). Pēc tam pārlūkojiet uz mapi **/Koplietotie dokumenti/GER dati/PowerBI** un atlasiet Excel failu, kuru izveidojāt kā jaunās Power BI datu kopas datu avotu. [![Excel faila atlase](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) Noklikšķiniet uz **Izveidot savienojumu** un pēc tam noklikšķiniet uz **Importēt**. Tiek izveidota jauna datu kopa, kas ir balstīta uz atlasīto Excel failu. Šo datu kopu jaunizveidotajam informācijas panelim var pievienot arī automātiski. [![Datu kopa informācijas panelī](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) Konfigurējiet šīs datu kopas atsvaidzināšanas grafiku, lai piespiedu kārtā veiktu periodisku atjaunināšanu. Periodiskie atjauninājumi ļauj patērēt jaunus biznesa datus, kas tiek saņemti no Finance and Operations, izmantojot periodisku ER pārskata izpildi ar jaunām pakalpojumā SharePoint Server esošā Excel faila versijām.
+Pierakstieties pakalpojumā Power BI un atveriet esošu Power BI grupu (darbvieta) vai izveidojiet jaunu grupu. Noklikšķiniet uz **Pievienot** izvēlnē **Faili** sadaļā **Importējiet datus vai izveidojiet savienojumu ar tiem** vai noklikšķiniet uz pluszīmes (**+**), kas atrodas blakus vienumam **Datu kopas** kreisajā rūtī. [![Datu kopas izveide](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) Atlasiet opciju **SharePoint — grupas vietnes** un pēc tam ievadiet izmantotā SharePoint Server ceļu (šajā piemērā tas ir **https://ax7partner.litware.com**). Pēc tam pārlūkojiet uz mapi **/Koplietotie dokumenti/GER dati/PowerBI** un atlasiet Excel failu, kuru izveidojāt kā jaunās Power BI datu kopas datu avotu. [![Excel faila atlase](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) Noklikšķiniet uz **Izveidot savienojumu** un pēc tam noklikšķiniet uz **Importēt**. Tiek izveidota jauna datu kopa, kas ir balstīta uz atlasīto Excel failu. Šo datu kopu jaunizveidotajam informācijas panelim var pievienot arī automātiski. [![Datu kopa informācijas panelī](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) Konfigurējiet šīs datu kopas atsvaidzināšanas grafiku, lai piespiedu kārtā veiktu periodisku atjaunināšanu. Periodiskie atjauninājumi ļauj patērēt jaunus biznesa datus, kas tiek saņemti no Finance and Operations, izmantojot periodisku ER pārskata izpildi ar jaunām pakalpojumā SharePoint Server esošā Excel faila versijām.
 
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>Izveidot Power BI pārskatu, izmantojot jauno datu kopu
 Lai izveidotu jaunu Power BI pārskatu, noklikšķiniet uz jūsu izveidoto **Importēšanas un eksportēšanas informācija** Power BI datu kopu. Pēc tam konfigurējiet vizualizācijas. Piemēram, atlasiet vizualizāciju **Kartogramma** un konfigurējiet to tālāk aprakstītajā veidā.

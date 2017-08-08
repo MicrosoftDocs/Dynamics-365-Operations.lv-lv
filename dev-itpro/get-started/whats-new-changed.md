@@ -10,19 +10,19 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
-ms.search.scope: Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 27141
 ms.assetid: b86934d4-d9dd-4a07-bfd1-4adb948a5139
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-08-30
+ms.search.validFrom: 2016-08-30T00:00:00.000Z
 ms.dyn365.ops.version: Platform update 2
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: a65de22d01d15510c3f2cb792b86e6a88260bed9
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 2044bd5a3c858fb099fa7f612ede9963acc51efb
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -34,9 +34,10 @@ ms.lasthandoff: 06/20/2017
 
 Informāciju par jaunināšanu uz pēdējo versiju skatiet sadaļā [Jaunināšana uz pēdējo atjauninājumu](../migration-upgrade/upgrade-latest-update.md).
 
-## <a name="application-releases"></a>Programmas laidieni
+> [!NOTE]
+> Programma Dynamics 365 for Operations (lokālā versija) pašlaik tiek pārdēvēta. Informācijā un licencēšanas ceļvežos programma būs norādīta kā Dynamics 365 for Operations (lokālā versija). Savukārt produkta nosaukums, kas redzams produkta izvietošanas laikā, ir Dynamics 365 for Finance and Operations, Enterprise izdevums. Abi šie nosaukumi attiecas uz vienu produktu.
 
-Papildinformāciju par nesen izlaistajām mobilajām darbvietām un Power BI satura pakotnēm skatiet tēmās [Nesen izlaistās Dynamics 365 for Finance and Operations mobilajai programmai paredzētas mobilās darbvietas](../mobile-apps/mobile-workspaces-released.md) un [Nesen izlaistās programmatūrai Dynamics 365 for Finance and Operations paredzētās Power BI satura pakotnes](../analytics/power-bi-home-page.md)
+## <a name="application-releases"></a>Programmas laidieni
 
 <table>
 <colgroup>
@@ -59,7 +60,7 @@ Papildinformāciju par nesen izlaistajām mobilajām darbvietām un Power BI sa
 <tr class="even">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevums</td>
 <td>2017. gada jūlija atjauninājums</td>
-<td>X</td>
+<td>7.2.11792.56024</td>
 <td>2017. jūnijs</td>
 <td><a href="whats-new-application-July-2017-update.md">Jaunumi un izmaiņas Dynamics 365 for Finance and Operations Enterprise izdevuma 2017. gada jūlija atjauninājumā</a></td>
 </tr>
@@ -110,7 +111,7 @@ Papildinformāciju par nesen izlaistajām mobilajām darbvietām un Power BI sa
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevums</td>
 <td>8. platformas atjauninājums</td>
-<td>X</td>
+<td>7.0.4565.16212</td>
 <td>2017. jūnijs</td>
 <td><a href="whats-new-platform-update-8.md">Jaunumi un izmaiņas Dynamics 365 for Finance and Operations Enterprise izdevuma platformas 8. atjauninājumā (2017. jūnijs)</a></td>
 </tr>

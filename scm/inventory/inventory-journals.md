@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: fa629b4b8f7fcbd15ee89bc66cbc0bd7ca45215c
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: d549f38b9278eed222a1318c51962b248149c569
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -78,7 +78,7 @@ Ražošanas ievades žurnāli darbojas kā krājumu saņemšanas žurnāli, bet 
 
 ### <a name="counting"></a>Uzskaite
 
-Inventarizācijas žurnāli jums ļauj labot pašreizējos rīcībā esošos krājumus, kas ir reģistrēti krājumiem vai krājumu grupām, un tad grāmatot faktisko fizisko skaitu, tādējādi varat veikt atšķirību saskaņošanai nepieciešamos pielāgojumus. Inventarizācijas politikas varat saistīt ar inventarizācijas grupām, lai palīdzētu grupēt krājumus, kuriem ir dažādas īpašības un šos krājumus varētu iekļaut inventarizācijas žurnālā. Piemēram, varat iestatīt inventarizācijas grupas, lai saskaitītu krājumus, kuriem ir specifisks biežums, vai lai saskaitītu krājumus, ja krājumu daudzums nokrītas līdz noteiktam līmenim. Informāciju par to, kā definēt inventarizācijas grupas, skatiet tēmā [Krājumu inventarizācijas procesu definēšana (uzdevuma ceļvedis)](http://ax.help.dynamics.com/en/wiki/define-inventory-counting-processes/).
+Inventarizācijas žurnāli jums ļauj labot pašreizējos rīcībā esošos krājumus, kas ir reģistrēti krājumiem vai krājumu grupām, un tad grāmatot faktisko fizisko skaitu, tādējādi varat veikt atšķirību saskaņošanai nepieciešamos pielāgojumus. Inventarizācijas politikas varat saistīt ar inventarizācijas grupām, lai palīdzētu grupēt krājumus, kuriem ir dažādas īpašības un šos krājumus varētu iekļaut inventarizācijas žurnālā. Piemēram, varat iestatīt inventarizācijas grupas, lai saskaitītu krājumus, kuriem ir specifisks biežums, vai lai saskaitītu krājumus, ja krājumu daudzums nokrītas līdz noteiktam līmenim. Informāciju par to, kā definēt inventarizācijas grupas, skatiet tēmā [Krājumu inventarizācijas procesu definēšana (uzdevuma ceļvedis)](/dynamics365/unified-operations/supply-chain/inventory/tasks/define-inventory-counting-processes).
 
 ### <a name="tag-counting"></a>Etiķešu skaitīšana
 

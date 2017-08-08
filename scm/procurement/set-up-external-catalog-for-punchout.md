@@ -1,7 +1,7 @@
 ---
 title: "Iestatīt ārējo katalogus elektroniskai atzīmēšanas sagādei"
 description: "Šajā tēmā ir aprakstīta ārējā vai atzīmēšanas kataloga izmantošana piedāvājuma informācijas iegūšanai no kreditora un pievienošanai pieprasījumam."
-author: BibiSp
+author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable, PurchVendorPortalRequests
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: bis
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 2d853cb963471f81d7a2a09a0f7913722de8a417
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 4c89f6f168825f7767b836be09fa73b8659b00c6
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -40,9 +40,9 @@ Lai iestatītu savienojumu, jūsu kreditoram ir jāiesniedz jums informācija, k
 
 ### <a name="to-set-up-an-external-vendor-catalog-complete-the-following-tasks"></a>Lai iestatītu ārējo piegādātāju katalogu, jāizpilda šādi uzdevumi.
 
-1. Iestatiet sagādes kategoriju hierarhiju. Plašāku informāciju skatiet sadaļā [Iestatīt politikas sagādes kategoriju hierarhijai](/https://ax.help.dynamics.com/en/wiki/set-up-policies-for-procurement-category-hierarchies/).
-2. Reģistrējiet kreditoru programmatūrā Finance and Operations. Lai iestatītu konfigurācijas un piekļūtu ārējam kreditora katalogam, programmatūrā Microsoft Dynamics 365 jāiestata kreditors un kreditora kontaktpersonas. Ārējā kataloga kreditors arī ir jāpievieno atlasītajai sagādes kategorijai. Plašāku informāciju par kreditoru reģistrāciju programmatūrā Microsoft Dynamics 365 skatiet sadaļā [Pārvaldīt kreditoru sadarbības lietotājus](/procurement/manage-vendor-collaboration-users.md). Plašāku informāciju par kreditoru piešķiršanu sagādes kategorijai skatiet sadaļā [Apstiprināt kreditorus noteiktām sagādes kategorijām](/https://ax.help.dynamics.com/en/wiki/approve-vendors-for-specific-procurement-categories/).
-3. Pārliecinieties, vai ir iestatītas mērvienības un valūta, ko izmanto kreditors. Informāciju par to, kā izveidot mērvienību, skatiet sadaļā [Mērvienību izveide](/https://ax.help.dynamics.com/en/wiki/manage-unit-of-measure/).
+1. Iestatiet sagādes kategoriju hierarhiju. Plašāku informāciju skatiet sadaļā [Iestatīt politikas sagādes kategoriju hierarhijai](/dynamics365/unified-operations/supply-chain/procurement/tasks/set-up-policies-procurement-category-hierarchies).
+2. Reģistrējiet kreditoru programmatūrā Finance and Operations. Lai iestatītu konfigurācijas un piekļūtu ārējam kreditora katalogam, programmatūrā Microsoft Dynamics 365 jāiestata kreditors un kreditora kontaktpersonas. Ārējā kataloga kreditors arī ir jāpievieno atlasītajai sagādes kategorijai. Plašāku informāciju par kreditoru reģistrāciju programmatūrā Microsoft Dynamics 365 skatiet sadaļā [Pārvaldīt kreditoru sadarbības lietotājus](manage-vendor-collaboration-users.md). Plašāku informāciju par kreditoru piešķiršanu sagādes kategorijai skatiet sadaļā [Apstiprināt kreditorus noteiktām sagādes kategorijām](/dynamics365/unified-operations/supply-chain/procurement/tasks/approve-vendors-specific-procurement-categories).
+3. Pārliecinieties, vai ir iestatītas mērvienības un valūta, ko izmanto kreditors. Informāciju par to, kā izveidot mērvienību, skatiet rakstā [Mērvienību pārvaldība](/dynamics365/unified-operations/supply-chain/pim/tasks/manage-unit-measure).
 4. Konfigurējiet ārējo piegādātāju katalogu, izmantojot piegādātāju prasību ārējo kataloga vietni. Plašāku informāciju par šo uzdevumu skatiet nākamajā sadaļā.
 5. Testējiet ārējā piegādātāju kataloga konfigurācijas, lai pārbaudītu, vai iestatījumi ir derīgi un varat piekļūt ārējam piegādātāju katalogam. Izmantojiet darbību **Validēt iestatījumus**, lai validētu pieprasījuma iestatījumu ziņojumu, ko esat definējis. Šim ziņojumam būtu jāatver ārējā piegādātāju kataloga vietne pārlūka logā. Pārbaudes laikā nevar pasūtīt preces un pakalpojumus no kreditora. Lai pasūtītu preces un pakalpojumus, ir jāpiekļūst piegādātāju katalogam no pirkšanas pieprasījuma.
 6. Aktivizējiet ārējo katalogu, izmantojot pogu **Aktivizējiet katalogu** lapā **Ārējie katalogi**. Ārējais katalogs ir jāaktivizē, lai darbinieki varētu to lietot. Varat deaktivizēt ārējo katalogu jebkurā laikā.

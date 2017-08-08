@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: b0aefc62f2d54da963f03dc74d492260722cd451
-ms.openlocfilehash: aabb8277218895566edada3c74d99c02a83dae1e
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: cbd099403f48b502ca74bcb38ae12decedb8f2da
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/15/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -36,7 +36,7 @@ Modulis **Kreditoru sadarbība** ir paredzēts kreditoriem, kuri neizmanto elekt
 
 Papildinformāciju par to, kā kreditori var lietot kreditoru sadarbības rēķinu izrakstīšanas procesus, skatiet tēmā [Kreditoru sadarbības rēķinu izrakstīšanas darbvieta](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). Informāciju par to, kā nodrošināt jauna kreditora sadarbības lietotājus, skatiet tēmā [Pārvaldīt kreditoru sadarbības lietotājus](manage-vendor-collaboration-users.md).
 
-Papildinformāciju par to, kā kreditori var lietot kreditoru sadarbības rēķinu izrakstīšanas procesus, skatiet tēmā [Kreditoru sadarbības rēķinu izrakstīšanas darbvieta](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace). 
+Papildinformāciju par to, kā kreditori var lietot kreditoru sadarbības rēķinu izrakstīšanas procesus, skatiet tēmā [Kreditoru sadarbības rēķinu izrakstīšanas darbvieta](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). 
 
 Informāciju par to, kā nodrošināt jauna kreditora sadarbības lietotājus, skatiet tēmā [Pārvaldīt kreditoru sadarbības lietotājus](manage-vendor-collaboration-users.md).
 
@@ -196,12 +196,16 @@ Ja pirkšanas pasūtījumiem ir iespējota izmaiņu pārvaldība, tad pirkšanas
 
 Tālāk redzamajā tabulā ir parādīts statusa un versijas izmaiņu piemērs, kādas var notikt PP, kad ir aktivizēta izmaiņu pārvaldība. Versija tiek reģistrēta, kad PP tiek apstiprināts, nevis kad PP tiek nosūtīts kreditoram vai akceptēts.
 
-|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                             |
-|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Darbība**                                                                                                    | **Statuss un versija**                                                                                                                                                                                                                                                                                                                                                                      |
-| Pirkšanas pasūtījuma sākotnējā versija tiek izveidota programmatūrā Finance and Operations.                                      | Statuss ir **Melnraksts**.                                                                                                                                                                                                                                                                                                                                                                    |
-
-| Pirkšanas pasūtījums tiek iesniegts apstiprināšanas procesam. (Apstiprināšanas process ir iekšējs process, kurā kreditors nav iesaistīts.) | Ja pirkšanas pasūtījums apstiprināšanas procesa laikā netiek noraidīts, statuss mainās no **Melnraksts** uz **Tiek pārskatīts** un uz **Apstiprinājums**. Apstiprināts PP tiek reģistrēts kā versija.                                                                                                                                                                                                                     | | Pirkšanas pasūtījums tiek nosūtīts kreditoram                                                                                  | Versija tiek reģistrēta kreditoru sadarbības interfeisā, un statuss tiek mainīts uz **Tiek pārskatīts ārēji**.                                                                                                                                                                                                                                                                       | | Jūs veicat dažas kreditora pieprasītās izmaiņas manuāli vai izmantojot darbību atbildē, lai atjauninātu pirkšanas pasūtījumu.                                                       | Statuss tiek mainīts atpakaļ uz **Melnraksts**.                                                                                                                                                                                                                                                                                                                                                    | | Pirkšanas pasūtījums tiek atkārtoti iesniegts apstiprināšanas procesam.                                                            | Statuss tiek mainīts no **Melnraksts** uz **Tiek pārskatīts** un uz **Apstiprinājums**, ja pirkšanas pasūtījums netiek noraidīts apstiprināšanas procesa laikā. Ja vēlaties, sistēmu var konfigurēt tā, lai noteiktu lauku izmaiņām nebūtu nepieciešams atkārtots apstiprinājums. Šajā gadījumā statuss vispirms tiek mainīts uz **Melnraksts** un pēc tam tiek automātiski atjaunināts uz **Apstiprināts**. Apstiprinātais PP tiek reģistrēts kā jauna versija. | | Jūs PP jauno versiju nosūtāt kreditoram.                                                             | Jaunā versija tiek reģistrēta kreditoru sadarbības interfeisā, un statuss tiek mainīts uz **Tiek pārskatīts ārēji**.                                                                                                                                                                                                                                                                   | | Kreditors apstiprina jauno pirkšanas pasūtījuma versiju.                                                                | Statuss tiek mainīts uz **Apstiprināts** automātiski vai saņemot atbildi no kreditora un pēc tam apstiprinot pirkšanas pasūtījumu.                                                                                                                                                                                                                                                     |
+|                                                                          |                                                                                                                                                              |
+|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Darbība**                                                               | **Statuss un versija**                                                                                                                                       |
+| Pirkšanas pasūtījuma sākotnējā versija tiek izveidota programmatūrā Finance and Operations.      | Statuss ir **Melnraksts**.  |
+| PP tiek iesniegts apstiprināšanas procesam. (Apstiprināšanas process ir iekšējs process, kurā kreditors nav iesaistīts.)                                                           | Statuss tiek mainīts no **Melnraksts** uz **Tiek pārskatīts** un uz **Apstiprinājums**, ja PP netiek noraidīts apstiprināšanas procesa laikā. Apstiprināts PP tiek reģistrēts kā versija.           | 
+| PP tiek nosūtīts kreditoram                                                            | Šī versija tiek reģistrēta kreditoru sadarbības interfeisā, un statuss tiek mainīts uz **Tiek pārskatīts ārēji**.      |
+| Jūs veicat dažas kreditora pieprasītās izmaiņas manuāli vai izmantojot darbību atbildē, lai atjauninātu pirkšanas pasūtījumu.                                                            | Statuss tiek mainīts atpakaļ uz **Melnraksts**.     |
+|PP tiek atkārtoti iesniegts apstiprināšanas procesam.                                                |  Statuss tiek mainīts no **Melnraksts** uz **Tiek pārskatīts** un uz **Apstiprinājums**, ja PP netiek noraidīts apstiprināšanas procesa laikā. Ja vēlaties, sistēmu var konfigurēt tā, lai noteiktu lauku izmaiņām nebūtu nepieciešams atkārtots apstiprinājums. Šajā gadījumā statuss vispirms tiek mainīts uz **Melnraksts** un pēc tam tiek automātiski atjaunināts uz **Apstiprināts**. Apstiprinātais PP tiek reģistrēts kā jauna versija.                                         |
+|Jūs PP jauno versiju nosūtāt kreditoram.                                                |  Jaunā versija tiek reģistrēta kreditoru sadarbības interfeisā, un statuss tiek mainīts uz **Tiek pārskatīts ārēji**.                                         |
+|Kreditors apstiprina PP jauno versiju.                                                |  Statuss tiek mainīts uz **Akceptēts** automātiski vai saņemot atbildi no kreditora un pēc tam akceptējot PP. |
 
 ## <a name="share-information-about-consignment-inventory"></a>Kopīgot informāciju par sūtījuma krājumiem
 Ja izmantojat sūtījuma krājumus, tad kreditori var izmantot kreditoru sadarbības interfeisu, lai skatītu informāciju tālāk norādītajās lapās.

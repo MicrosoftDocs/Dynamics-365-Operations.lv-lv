@@ -3,26 +3,26 @@ title: "Kreditoru maksājumu izveide, izmantojot maksājuma priekšlikumu"
 description: "Šajā tēmā ir sniegts maksājumu priekšlikumu opciju pārskats, kā arī ir iekļauti daži piemēri, kas izskaidro, kā maksājumu priekšlikumi darbojas. Maksājumu priekšlikumi bieži tiek izmantoti, lai izveidotu kreditoru maksājumus, jo maksājuma priekšlikuma vaicājumu var izmantot, lai ātri atlasītu apmaksājamos kreditoru rēķinus atbilstoši, piemēram, apmaksas datuma un termiņatlaides, kritērijiem."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/17/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
+ms.reviewer: twheeloc
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b351ea58a25c763dcf90ff1c61e0e3b3cba6c34a
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: aac70abc25c45ef4479425cdb648f4450d5db2dc
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -40,10 +40,10 @@ Maksājuma priekšlikuma vaicājumā ir ietvertas dažādas cilnes, kur ir pieej
 ## <a name="parameters"></a>Parametri
 -   **Atlasīt rēķinus pēc** — rēķinus, kuru datums atbilst laukos **Sākuma datums** un **Beigu datums** norādītajam datumu diapazonam, var atlasīt pēc apmaksas datuma, termiņatlaides datuma vai abiem datumiem. Ja izmantojat termiņatlaides datumu, tad sistēmā vispirms tiek meklēti rēķini, kuru termiņatlaides datums ir diapazonā no sākuma līdz beigu datumam. Pēc tam sistēmā tiek noteikts, vai rēķins ir piemērots termiņatlaides saņemšanai, izmantojot sezonas datumu, lai pārliecinātos, ka termiņatlaides datums nav jau pagājis.
 -   **Sākuma datums** un **Beigu datums** — apmaksai tiek atlasīti rēķini, kuru apmaksas datums vai termiņatlaides datums ir šajā datumu diapazonā.
--   **Maksājuma datums** — ja ir definēts datums, visi maksājumi tiek izveidoti šajā datumā. Lauks **Agrākais maksājuma datums** tiek ignorēts.
+-   **Maksājuma datums** — to izmanto tikai tad, ja lauks **Periods** maksāšanas metodei ir iestatīts uz **Kopsumma**. Ja ir definēts datums, visi maksājumi tiek izveidoti šajā datumā. Lauks **Agrākais maksājuma datums** tiek ignorēts.
 -   **Agrākais maksājuma datums** — ievadiet agrāko maksājuma datumu. Piemēram, laukos **Sākuma datums** un **Beigu datums** ir norādīts diapazons no 1. septembra līdz 10. septembrim, bet agrākais maksājuma datums ir 5. septembris. Šādā gadījumā visiem rēķiniem, kuru apmaksas datums ir no 1. septembra līdz 5. septembrim, maksājuma datums ir 5. septembris. Taču visiem rēķiniem, kuru apmaksas datums ir no 5. septembra līdz 10. septembrim, maksājuma datums ir vienāds ar katra rēķina apmaksas datumu.
 -   **Vērtības robeža** — ievadiet maksimālo visu maksājumu kopsummu.
--   **Izveidot maksājumus bez rēķina priekšskatīšanas** — ja šai opcijai ir iestatīta vērtība **Jā**, tad maksājumi tiek nekavējoties izveidoti lapā **Kreditoru maksājumi**. Lapa **Maksājuma priekšlikums** tiek izlaista. Tāpēc maksājumi tiek izveidoti ātrāk. Maksājumus joprojām var modificēt lapā**Kreditoru maksājumi**. Varat arī atgriezties lapā **Maksājuma priekšlikums**, izmantojot pogu **Rediģēt atlasītā maksājuma rēķinus**.
+-   **Izveidot maksājumus bez rēķina priekšskatīšanas** — ja šai opcijai ir iestatīta vērtība **Jā**, tad maksājumi tiek nekavējoties izveidoti lapā **Kreditoru maksājumi**. Lapa **Maksājuma priekšlikums** tiek izlaista. Tāpēc maksājumi tiek izveidoti ātrāk. Maksājumus joprojām var modificēt lapā **Kreditoru maksājumi**. Varat arī atgriezties lapā **Maksājuma priekšlikums**, izmantojot pogu **Rediģēt atlasītā maksājuma rēķinus**.
 
 ## <a name="advanced-options"></a>Detalizētās opcijas
 -   **Pārbaudīt kreditora bilanci** — ja ir iestatīta šīs opcijas vērtība **Jā**, pirms jebkura rēķina apmaksas sistēmā tiek pārbaudīts, vai kreditoram nav debeta bilances. Ja kreditoram ir debeta bilance, netiek izveidots neviens maksājums. Piemēram, kreditoram var būt kredītrēķini vai maksājumi, kas ir iegrāmatoti, bet vēl nav nosegti. Šādos gadījumos kreditoram nav jāmaksā. Tā vietā kredītrēķini vai maksājumi ir jāsedz ar neapmaksātajiem rēķiniem.
@@ -51,7 +51,7 @@ Maksājuma priekšlikuma vaicājumā ir ietvertas dažādas cilnes, kur ir pieej
 -   **Katra rēķina apmaksa** — ja ir iestatīta opcijas **Dzēst negatīvos maksājumus** vērtība **Jā** un kreditoram ir nesegts rēķins un maksājums, apmaksai tiek atlasīts tikai rēķins. Esošais maksājums netiek segts ar rēķinu. Ja ir iestatīta opcijas **Dzēst negatīvos maksājumus** vērtība **Nē** un pastāv nesegts rēķins un maksājums, apmaksai tiek atlasīts gan rēķins, gan maksājums. Maksājumam tiek izveidots maksājums, un maksājumam tiek izveidota atmaksa (negatīvs maksājums).
 -   **Rēķinu kopas apmaksa** — ja ir iestatīta opcijas **Dzēst negatīvos maksājumus** vērtība **Jā** un kreditoram ir nesegts rēķins un maksājums, apmaksai tiek atlasīts gan nenosegtais rēķins, gan maksājums un summas tiek saskaitītas, lai iegūtu kopējo maksājuma summu. Vienīgais izņēmums ir gadījumā, ja pēc saskaitīšanas ir jāveic atmaksa. Šādā gadījumā netiek atlasīts ne rēķins, ne maksājums. Ja ir iestatīta opcijas **Dzēst negatīvos maksājumus** vērtība **Nē** un pastāv nesegts rēķins un maksājums, apmaksai tiek atlasīts gan rēķins, gan maksājums un summas tiek saskaitītas, lai iegūtu kopējo maksājuma summu.
 -   **Drukāt tikai pārskatu** — iestatiet šīs opcijas vērtību **Jā**, lai maksājuma piedāvājuma rezultāti tiktu ietverti pārskatā, neizveidojot nevienu maksājumu.
--   **Iekļaut kreditora rēķinus no citām juridiskām personām** — ja jūsu organizācijā tiek izmantots centralizēts maksāšanas process un maksāšanas priekšlikumā ir jāietver rēķini no citām juridiskajām personām, kas ir ietvertas meklēšanas kritērijos, iestatiet šīs opcijas vērtību**Jā**.
+-   **Iekļaut kreditora rēķinus no citām juridiskām personām** — ja jūsu organizācijā tiek izmantots centralizēts maksāšanas process un maksāšanas priekšlikumā ir jāietver rēķini no citām juridiskajām personām, kas ir ietvertas meklēšanas kritērijos, iestatiet šīs opcijas vērtību **Jā**.
 -   **Piedāvāt atsevišķu kreditora maksājumu pēc juridiskās personas** — ja ir iestatīta šīs opcijas vērtība **Jā**, katra kreditora katrai juridiskajai personai tiek izveidots atsevišķs maksājums. Maksājumā tiek norādīts tas kreditors, kas ir norādīts katras juridiskās personas rēķinā. Ja ir iestatīta šīs opcijas vērtība **Nē** un vienam kreditoram ir rēķini no vairākām juridiskajām personām, tiek izveidots viens rēķins par atlasīto rēķinu kopsummu. Maksājumā tiek norādīts pašreizējās juridiskās personas kreditors. Ja nepastāv pašreizējās juridiskās personas kreditora konts, tiek izmantots pirmā apmaksājamā rēķina kreditora konts.
 -   **Maksājuma valūta** — šajā laukā tiek norādīta valūta, kurā tiek izveidoti visi maksājumi. Ja valūta nav norādīta, katrs rēķins tiek maksāts rēķina valūtā.
 -   **Maksājuma nedēļas diena** — ievadiet nedēļas dienu, kad ir jāveic maksājums. Šis lauks tiek izmantots tikai tad, ja maksāšanas metode ir iestatīta rēķinu kopsummas apmaksai noteiktā nedēļas dienā.

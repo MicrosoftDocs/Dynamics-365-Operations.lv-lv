@@ -9,18 +9,18 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.assetid: 
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2017-06-30
+ms.search.validFrom: 2017-06-30T00:00:00.000Z
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: e5d079ad711b45060eb4548efdedf2c0efb04d60
-ms.openlocfilehash: ddb36da6d86425d75c6fe30dd8b0902dd07bf240
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 69f728c5b5897d7210941643d2c7d0d7abf054fa
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/14/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -72,4 +72,6 @@ Nākamajā tabulā ir redzama katrā pārskata lapā pieejamā vizuālā inform�
 | Novērtējumu kartes        | Kopējā atlikusī vērtība |
 | Novērtējumu kartes        | Pamatlīdzekļu novietojumi |
 | Novērtējumu kartes        | Pamatlīdzekļu detalizēta informācija |
+
+Lai skatītu analīzi ar datiem, vispirms ir jāatsvaidzina apkopošanas mērījums AssetTransactionMeasure lapā **Elementu krātuve**.
 

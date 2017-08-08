@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 91207e03902fa8a45ab44270cc61b58ef9e3c98c
+ms.translationtype: HT
+ms.sourcegitcommit: 9c083fd26a58e96b3bb810df11eadace184f9dbf
+ms.openlocfilehash: eaa3317acf7df84d06ad3641486df1c096b26a56
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -32,33 +31,31 @@ ms.lasthandoff: 06/20/2017
 
 Šajā rakstā ir sniegts apskats par Microsoft Dynamics 365 for Finance and Operations palīdzības sistēmas komponentiem. Tajā ir arī paskaidrots, kā savai organizācijai varat sniegt pielāgotu dokumentāciju un apmācību. 
 
-> [!IMPORTANT] 
-> Šie produkti ir cieši saistīti: Dynamics 365 for Finance and Operations, izdevums Enterprise; Dynamics 365 for Retail; un Dynamics 365 for Talent. Visos 3 produktos var būt pieejama tā pati funkcionalitāte. Tādēļ tēmās, kas galvenokārt ir saistītas ar programmatūru Retail, produkta nosaukums ir Dynamics 365 for Retail; tēmās, kas galvenokārt ir saistītas ar programmatūru Talent, produkta nosaukums ir Dynamics 365 for Talent; un tēmās, kas ir saistītas ar galveno produktu, produkta nosaukums ir Dynamics 365 for Finance and Operations. Tēmas, kas ir sarakstītas vienam produktam, var attiekties uz to pašu funkcionalitāti saistītā produktā
+> [!NOTE] 
+> Šie produkti ir cieši saistīti: Dynamics 365 for Finance and Operations, izdevums Enterprise; Dynamics 365 for Retail; un Dynamics 365 for Talent. Visos 3 produktos var būt pieejama tā pati funkcionalitāte. Tādēļ tēmās, kas galvenokārt ir saistītas ar programmatūru Retail, produkta nosaukums ir Dynamics 365 for Retail; tēmās, kas galvenokārt ir saistītas ar programmatūru Talent, produkta nosaukums ir Dynamics 365 for Talent; un tēmās, kas ir saistītas ar galveno produktu, produkta nosaukums ir Dynamics 365 for Finance and Operations. Tēmas, kas ir sarakstītas vienam produktam, var attiekties uz to pašu funkcionalitāti saistītā produktā.
+
+Palīdzības sistēmu koplieto visi Unified Operations produkti:
+- Dynamics 365 for Finance and Operations, Enterprise izdevums
+- Dynamics 365 for Retail
+- Dynamics 365 for Talent
 
 Finance and Operations ietver palīdzības sistēmu, kuras pamatā ir divi galvenie komponenti:
 
 -   Dokumentācijas vietne
 -   Uzdevumu ceļveži
 
-Šie produkti ir cieši saistīti: Dynamics 365 for Finance and Operations, izdevums Enterprise; Dynamics 365 for Retail; un Dynamics 365 for Talent. Visos 3 produktos var būt pieejama tā pati funkcionalitāte. Tādēļ tēmās, kas galvenokārt ir saistītas ar programmatūru Retail, produkta nosaukums ir Dynamics 365 for Retail; tēmās, kas galvenokārt ir saistītas ar programmatūru Talent, produkta nosaukums ir Dynamics 365 for Talent; un tēmās, kas ir saistītas ar galveno produktu, produkta nosaukums ir Dynamics 365 for Finance and Operations. Tēmas, kas ir sarakstītas vienam produktam, var attiekties uz to pašu funkcionalitāti saistītā produktā. 
-
-Palīdzības sistēmu koplieto visi Unified Operations produkti:
-- Dynamics 365 for Finance and Operations, izdevums Enterprise
-- Dynamics 365 for Retail
-- Dynamics 365 for Talent
-
 Palīdzības tēmām un uzdevumu ceļvežiem varat piekļūt no jūsu izmantotā produkta palīdzības rūts. Nākamajos ekrānuzņēmumos ir redzama programmatūra Dynamics 365 for Finance and Operations
 
-![Rūts Palīdzība](./media/help-pane-ops-task-guides-1024x741.png)
+![Rūts Palīdzība](./media/help-pane-ops-task-guides.png)
 
 Šajā tēmā ir aprakstīta palīdzības sistēma un paskaidrots, kā varat izveidot pielāgotu dokumentāciju un apmācības resursus savai organizācijai.
 
 > [!IMPORTANT]
-> Cilne **Uzdevumu ceļveži** pašlaik nav pieejama versijā Microsoft Dynamics 365 for Talent un Microsoft Dynamics 365 for Retail. Mēs pašlaik strādājam pie tā, šo funkcionalitāti iespējotu nākamajos laidienos. Uzdevumu ceļveži versijas Talent funkcionalitātē Darba sākšana joprojām ir pieejami pamata funkcionalitātes segšanai. Procedurāla palīdzība ir pieejama arī vietnē docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) gan versijai Retail, gan versijai Talent.
+> Cilne **Uzdevumu ceļveži** pašlaik nav pieejama versijā Microsoft Dynamics 365 for Talent un Microsoft Dynamics 365 for Retail. Mēs pašlaik strādājam pie tā, šo funkcionalitāti iespējotu nākamajos laidienos. Uzdevumu ceļveži versijas Talent funkcionalitātē Darba sākšana joprojām ir pieejami pamata funkcionalitātes segšanai. Palīdzība saistībā ar procedūrām ir pieejama arī vietnē docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/unified-operations/fin-and-ops/index)) gan versijai Retail, gan versijai Talent.
 
 ## <a name="help-on-docsmicrosoftcom"></a>Palīdzība vietnē docs.microsoft.com
 
-Vietne docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) ir galvenais Finance and Operations produkta dokumentācijas avots. Vietnē ir pieejami tālāk norādītie līdzekļi.
+Vietne docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/unified-operations/fin-and-ops/index)) ir galvenais Finance and Operations produkta dokumentācijas avots. Vietnē ir pieejami tālāk norādītie līdzekļi.
 
 -   **Piekļuve visjaunākajam saturam** — vietne nodrošina ātrāku un pielāgojamāku veidu, kā piegādāt un atjaunināt produkta dokumentāciju. Tāpēc tā palīdz nodrošināt, ka jums ir pieeja visjaunākajai tehniskajai informācijai.
 -   **Saturs, ko ir rakstījuši speciālisti** — vietne nodrošina plašāku produkta dokumentācijas klāstu, ko var paplašināt kopienas dalībnieki gan korporācijā Microsoft, gan ārpus tās.
@@ -68,12 +65,13 @@ Vietne docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics
 ### <a name="searching-on-docsmicrosoftcom"></a>Meklēšana vietnē docs.microsoft.com
 Mēs saņemam daudz jautājumu par to, kā meklēt mūsu saturu. Ja sākat meklēšanu mūsu vietnes lapā par Finance and Operations, meklēšana tiek koncentrēta uz Finance and Operations saturu. Varat noņemt koncentrēšanu, noklikšķinot uz simbola X, kas atrodas blakus tekstam Darbības meklēšanas lodziņā. 
 
-![Meklēšana](./media/search-scope.png)
+![Meklēšana](./media/search-scope-2.png)
 
 Varat arī atrast mūsu saturu, izmantojot jebkuru meklēšanas programmu. Lai iegūtu vislabākos rezultātus, ieteicams izmantoto meklēšanu vietnē, piemēram, site:docs.microsoft.com dynamics 365 “meklējamais vārds vai frāze”.  
-![Meklēšana vietnē](./media/site-search.png)
 
-![Meklēšanas vietnē rezultāti](./media/site-search-results.png)
+![Meklēšana vietnē](./media/site-search-1.png)
+
+![Meklēšanas vietnē rezultāti](./media/site-search-results-2.png)
 
 ### <a name="the-docsmicrosoftcom-table-of-contents-for-unified-operations"></a>Vietnes docs.microsoft.com satura rādītājs platformai Unified Operations
 Visiem produktiem dokumentācijas vietnē ir kopīgs satura rādītājs, tādēļ klienti var redzēt viņu atvērtās lapas saturu. Tas jums arī ļauj izmantot vadīklu Filtrs, lai atrastu meklētās tēmas.
@@ -105,7 +103,7 @@ Uzdevuma ceļvedis ir kontrolēts, strukturēts, interaktīvs līdzeklis, kas pa
 
 Katram Unified Operations produktam mēs sniedzam dažādus uzdevumu komplektu ceļvežus. Palīdzības rūts sadaļā Piekļuve uzdevumu ceļvežiem ir aprakstīts, kā atrast jūsu produktam atbilstošos uzdevumu ceļvežus. 
 
-![Uzdevuma ceļveža lasīšanas skats](./media/task-guide-ops-1024x742.png)
+![Uzdevuma ceļveža lasīšanas skats](./media/task-guide-ops.png)
 
 Lai sāktu strukturēto, interaktīvo pieredzi, noklikšķiniet uz vienuma **Sākt uzdevuma ceļvedi** rūts Palīdzība apakšā. Tiek atvērts melns rādītājs, un tas norāda uz darbību, kas jums ir jāveic. Izpildiet norādījumus, kas tiek parādīti UI, un ievadiet datus saskaņā ar norādījumiem. 
 ![Uzdevuma ceļveža darbības norādījums](./media/task-guide-step-1-ops.png)
@@ -129,7 +127,7 @@ Varat izveidot pats savus uzdevumu ierakstus, vai varat lejupielādēt un pielā
 ## <a name="in-product-help"></a>Produktā iebūvētā palīdzība
 Lai piekļūtu palīdzības saturam programmatūrā Finance and Operations, noklikšķiniet uz ikonas **Palīdzība** (**?**) un pēc tam izvēlieties Palīdzība vai nospiediet taustiņu kombināciju Ctrl+Shift+?. Abos gadījumos tiek atvērta rūts Palīdzība. Rūtī Palīdzība varat piekļūt rakstiem vai uzdevumu ceļvežiem. 
 
-![Rūts Palīdzība](./media/help-pane-wiki-1024x684.png)
+![Rūts Palīdzība](./media/help-pane-wiki.png)
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Piekļuve palīdzības tēmām no rūts Palīdzība
 
@@ -162,7 +160,7 @@ Lapā **Sistēmas parametri** izpildiet šādas darbības:
 
 Kad sistēmas administrators ir izpildījis šīs darbības, varat atvērt rūti Palīdzība un noklikšķināt uz cilnes **Uzdevumu ceļveži**. Tagad tiek rādīti uzdevumu ceļveži, kas attiecas uz programmatūrā Finance and Operations pašlaik atvērto lapu. Ja nav atrasts neviens uzdevuma ceļvedis, varat ievadīt atslēgvārdus, lai precizētu meklēšanu. Kad rūtī Palīdzība noklikšķināt uz kāda uzdevuma ceļveža, rūtī Palīdzība tiek parādīti detalizēti norādījumi un varat atskaņot uzdevuma ceļvedi. 
 
-![Uzdevuma ceļveža lasīšanas skats](./media/task-guide-ops-1024x742.png)
+![Uzdevuma ceļveža lasīšanas skats](./media/task-guide-ops.png)
 
 ### <a name="where-are-the-translated-task-guides"></a>Kur ir pieejami tulkotie uzdevumu ceļveži?
 

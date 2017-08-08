@@ -10,25 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: kherr
-ms.search.validFrom: 2017-07-01
+ms.search.validFrom: 2017-07-01T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 911a51e2498800e7ee7b1562b66c56967eef0505
-ms.openlocfilehash: e6213d2e01445b78c6d8f98fc6a55f7c551231b5
+ms.translationtype: HT
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: d9e3018eb7b6c20cfd5e23a10d15e230009196de
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/19/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
 # <a name="enter-payroll-beginning-balances"></a>Ievadīt algu sākuma bilances
 
-[!include[banner](../../includes/banner.md)]]
+[!include[banner](../../includes/banner.md)]
 
 Šajā tēmā ir aprakstītas darbības sākuma bilanču ievadīšanai attiecībā uz ienākumu veida kodiem, ieturējumiem, atvieglojumiem un nodokļiem. Šī informācija ir vērtīga partneriem, kuri datus jaunai algu ieviešanai pārsūtīta no citas sistēmas. Lai sagatavotos ievadīt sākuma algu bilances, mēs pārbaudām tālāk norādīto informāciju.
 
@@ -47,9 +46,6 @@ ms.lasthandoff: 06/19/2017
 Kad plānojat ievadīt sākuma bilances, apsveriet, cik detalizētai šai informācijai ir jābūt. Vairums uzņēmumu ievada vienu, konsolidētu līdzšinējā gada summu. Taču, ja ir nepieciešama sīkāka informācija, bilances var ievadīt ar ceturkšņa pieaugumu. Lēmums par nepieciešamo detalizētības līmeni arī nosaka, cik manuālo algas pārskatu ir jāizveido katram nodarbinātajam. Vienai līdzšinējā gada summai katram darbiniekam ir nepieciešams tikai viens manuāls pārskats. Lai to izdarītu, kā jaunajā algu sistēmā ievadīto summu izmantojiet līdzšinējā gada summas no iepriekšējās sistēmas gala algas pārskata.
 
 Nākamajā piemērā ir parādīts, kā varat ievadīt darbinieku algu sākuma bilances, tostarp ienākumu veida kodus, atvieglojumu/atvilkumus un nodokļus. Reālā piemērā jums būtu rindas krājums katram ienākumu veida kodam, atvieglojuma ieturējumam, atvieglojumu iemaksai, darbinieka nodoklim un darba devēja nodoklim, kuru ievadītā summa ir līdzšinējā gada summa. Izmantojot šo kodu un summu sarakstu, izpildiet norādījumus par manuāla ienākumu un algas pārskata izveidošanu ar atspējotu uzskaiti, lai pārceltu sākuma bilances algu nolūkiem.  Uzskaite ir jāatspējo, jo šo sākuma bilances algas pārskatu jūs nevēlaties grāmatot savā virsgrāmatā. Tas tika izdarīts mantojuma sistēmā un pārnāk uz jauno sistēmu, kad virsgrāmatā iestatāt sākuma bilances.
-
-> [!NOTE] 
-> Ja vēlaties izpildīt tālāk aprakstītās darbības, varat izmantot demonstrācijas datus. Demonstrācijas datus var lejupielādēt no PartnerSource
 
 ### <a name="a-how-to-set-up-earnings-codes-to-be-used-on-payroll-beginning-balances"></a>A. Kā iestatīt ienākumu veida kodus, ko izmantot algu sākuma bilancēm
 Kad ievadāt algu sākuma bilances, pārliecinieties, ka ienākumu veida kodi, kurus jūs izmantosiet, ir konfigurēti ar iespējotu opciju “Atļaut ienākumu pārskata likmju rediģēšanu”. Tas jums ļauj manuāli pielāgot summu no mantojuma sistēmas. 
@@ -101,7 +97,7 @@ Ievadiet tālāk norādīto informāciju.
 | Manuālā          | (iezīmēts)   |
 
 > [!NOTE]
-> Izvēles rūtiņu Manuāls atzīmēšana cilnē **Detalizēta informācija par rindu** katrai ienākumu izraksta rindai ir veids, kā likt ievadīt sākuma bilances katram nodarbinātajam.
+> Slīdņa **Manuāli** iestatīšana uz **Jā** cilnē **Detalizēta informācija par rindu** katrai ienākumu izraksta rindai ir veids, kā likt ievadīt algu sākuma bilances katram nodarbinātajam.
 
 3. Rūtī **Darbība** noklikšķiniet uz **Izlaist ienākumu izrakstu** USA-FED-ER-FICA.
 
@@ -111,15 +107,15 @@ Ievadiet tālāk norādīto informāciju.
 |--------------------|-----------|
 | Maksājuma datums       | 6/30/2017 |
 | Maksājuma izdošanas veids   | Manuālā    |
-| Atspējot uzskaiti | (iezīmēts)  |
+| Atspējot uzskaiti |   Jā     |
 
 > [!NOTE] 
 > Šī darbība ir pieejama tikai tad, ja maksājuma izpildes tips ir manuāls un ja lietotājs vēlaties atspējot uzskaiti par apmaksas izpildi.
 
 Noklikšķiniet uz **Labi** un aizveriet žurnālu **Informācijas žurnāls**.
 
-#### <a name="why-disable-accounting-checkbox-needs-to-be-turned-on-when-generating-pay-statements"></a>Kādēļ ir jāieslēdz izvēles rūtiņa Atspējot uzskaiti, ģenerējot algas pārskatus?
-Tādējādi visām rindām šajā algas pārskatā netiek ļauta izplatīšana un grāmatošana virsgrāmatā. Jūs nevēlaties grāmatot šo sākuma bilances algas pārskatu, jo tā vērtības virsgrāmatā jau atrodas no mantojuma sistēmas. Šī bilance ielādēšana tiek izmantota tikai pārskatiem un ierobežotiem mērķiem.
+#### <a name="why-the-disable-accounting-slider-needs-to-set-to-yes-when-generating-pay-statements"></a>Kādēļ slīdnis Atspējot uzskaiti ir jāiestata uz Jā, ģenerējot algu pārskatus?
+Slīdni iestatot uz **Jā**, algas pārskatā netiek ļauta rindu izplatīšana virsgrāmatā. Virsgrāmatas summas tika atjauninātas iepriekš, kad tika ievadītas konta bilances no mantojuma sistēmas. Ievadot algu sākuma bilances, varat ģenerēt pārskatus, kuros ietverta informācija no iepriekšējiem gadiem, kā arī identificēt ierobežojumus atvieglojumu un nodokļu nolūkiem.   
 
 ### <a name="c-create-pay-statements-for-employees"></a>C. Izveidot algas pārskatus darbiniekiem
 Kad ir izveidoti algas pārskati, kuriem ir sākuma bilances, ir jāpārbauda, vai šie algas pārskati precīzi atspoguļo algu datus. Tāpat jums ir manuāli jāatjaunina atvieglojumu un nodokļu informācija, lai tā atbilstu vērtībām iepriekšējā algu sistēmā. Kad esat pārbaudījis, vai summas no iepriekšējās algu sistēmas atbilst summām pašreizējos algas pārskatos, šie algas pārskati ir jāfinalizē.
@@ -140,17 +136,7 @@ Kad ir izveidoti algas pārskati, kuriem ir sākuma bilances, ir jāpārbauda, v
 | Apg. aprūpes izdevumi | Piedalīties | 2500.00          |
 | Redze | SupSp                  | 500,00           |
 
-5. Cilnē **Atvieglojumu ieturējumi** ievadiet tālāk norādīto informāciju. 
-
-| Lauks                           | Vērtība            |
-|---------------------------------|------------------|
-| Atvieglojumi                         | Ieturējuma summa |
-| 401K | Piedalīties              | 3000.00          |
-| Zobārstniecība | SubSp                  | 495,00           |
-| Apg. aprūpes izdevumi | Piedalīties | 2500.00          |
-| Redze | SupSp                  | 500,00           |
-
-6. Cilnē **Atvieglojumu iemaksas** ievadiet tālāk norādīto informāciju.
+5. Cilnē **Atvieglojumu iemaksas** ievadiet tālāk norādīto informāciju.
 
 | Lauks              | Vērtība               |
 |--------------------|---------------------|
@@ -159,7 +145,7 @@ Kad ir izveidoti algas pārskati, kuriem ir sākuma bilances, ir jāpārbauda, v
 | Zobārstniecība | SubSp     | 495,00              |
 | Redze | SubSp     | 500,00              |
 
-7. Cilnē **Nodokļu ieturējumi** ievadiet tālāk norādīto informāciju.
+6. Cilnē **Nodokļu ieturējumi** ievadiet tālāk norādīto informāciju.
 
 | Lauks           | Vērtība            |
 |-----------------|------------------|
@@ -167,9 +153,9 @@ Kad ir izveidoti algas pārskati, kuriem ir sākuma bilances, ir jāpārbauda, v
 | USA-FED-ER-FICA | 1600.00          |
 | USA-FED-ER-MEDI | 825.75           |
 
-8. Cilnē **Nodokļu iemaksas** ievadiet tālāk norādīto informāciju.
+7. Cilnē **Nodokļu iemaksas** ievadiet tālāk norādīto informāciju.
 
-9. Noklikšķiniet uz **Aprēķināt**.
+8. Noklikšķiniet uz **Aprēķināt**.
 > [!IMPORTANT] 
 > Pārliecinieties, ka algas pārskata kopsummas atbilst mantojuma sistēmas šī nodarbinātā līdzšinējā gada kopsummām. Iespējams, finalizēšana ir jāatliek uz nākamo darbību, lai veiktu visu algas pārskatu vispārēju validēšanu kopumā. Pēc validēšanas izejiet cauri visiem algas pārskatiem un finalizējiet tos.
 
@@ -182,5 +168,5 @@ Transakcijas ir iespējams atsaukt un ievadīt no jauna. Lai transakciju atsaukt
 
 2. Noklikšķiniet uz **Jā**, kad tiek parādīts ziņojums “Kad anulējat šo algas pārskatu, tiek izveidots anulēšanas algas pārskats, lai kompensētu šo algas pārskatu. Nevienu no algas pārskatiem nevar rediģēt. Vai vēlaties anulēt šo samaksas pārskatu?” 
 
-Kad anulējat algas pārskatu, varat ģenerēt jaunu algas pārskatu nodarbinātajam no ienākumu izraksta, ko iepriekš izveidojāt šīs tēmas procedūrā “Veidot ienākumu izrakstus un algas pārskatus, kuriem ir sākuma bilances”. Noteikti izlabojiet visas nepareizās rindas ienākumu izrakstā, pirms ģenerējat jaunu algas pārskatu, un pēc tam atkārtojiet šajā tēmā aprakstīto procedūru “Atjaunināt algas pārskatus, kam ir sākuma bilances atvieglojumiem un nodokļiem”.
+Pēc algas pārskata anulēšanas varat ģenerēt jaunu nodarbinātā algas pārskatu no iepriekš izveidotā ienākumu izraksta. Pirms ģenerējat jauno algas pārskatu, noteikti labojiet visas nepareizās ienākumu izraksta rindas, un pēc tam ģenerējiet jauno algas pārskatu ar pareizajām summām. 
 

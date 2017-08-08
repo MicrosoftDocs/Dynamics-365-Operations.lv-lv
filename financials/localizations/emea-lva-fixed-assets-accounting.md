@@ -16,14 +16,13 @@ ms.custom: 264374
 ms.assetid: cbf94106-2c1b-45dd-8734-18a2a56a4682
 ms.search.region: Latvia
 ms.author: v-elgolu
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 69c27ac0fe897cc035e06e8ae44f26b2450c4db1
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 7597496ba963461851745d73c84703edf6b1f53e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -45,7 +44,7 @@ Iestatot nolietojuma tabulu, ņemiet vērā tālāk minēto.
 | **Perioda biežums**  | Atlasiet virsgrāmatas uzkrājumu biežumu kalendārā gada vai finanšu gada laikā. Šajā laukā rādītās opcijas ir atkarīgas no jūsu atlasītā nolietojuma gada. Ja kā nolietojuma aprēķināšanas gadu atlasījāt vērtību **Kalendārs**, tad opcijas ir **Reizi gadā**, **Reizi mēnesī**, **Reizi ceturksnī** un **Reizi pusgadā**. |
 | **Pilns nolietojums** | Atzīmējiet šo opciju, lai pamatlīdzekli uzskatītu par pilnīgi nolietotu, kad atlikušais lietošanas ilgums ir 0 (nulle).                                                                                                                                                                                                             |
 
-<!---To set up a depreciation profile, complete the following procedure, [Set up and create depreciation profiles](http://ax.help.dynamics.com/en/wiki/set-up-and-create-depreciation-profiles/).-->
+<!---To set up a depreciation profile, complete the following procedure, [Set up and create depreciation profiles](/dynamics365/unified-operations/financials/fixed-assets/tasks/set-up-depreciation-profiles).-->
 
 ## <a name="set-up-books"></a>Iestatīt grāmatas
 Izmantojiet lapu **Grāmatas**, lai definētu nodokļu kategoriju. Grāmatas tiek sauktas arī par nodokļu kategorijām. Lai izveidotu grāmatu, atlasiet nolietojuma tabulu, kurai lapas **Nolietojuma tabulas** laukā **Metode** ir atzīmēta vērtība **Degresīvā**. Lapa **Grāmatas** juridiskajām personām Latvijā ietver tālāk uzskaitītos laukus.
@@ -54,7 +53,7 @@ Izmantojiet lapu **Grāmatas**, lai definētu nodokļu kategoriju. Grāmatas tie
 -   **Summēt par kategoriju** — atzīmējiet šo opciju, ja nodokļu nolietojums ir jāsummē un jāaprēķina visiem pamatlīdzekļiem, kam laukā **Kategorija** ir atlasīta vienāda grāmata.
 -   **Nodokļu koeficienti** — varat iestatīt nodokļu koeficientus katram koeficientam, lai finanšu gadam koriģētu iegādes cenu.
 
-<!---For more information about setting up books, see [Set up depreciation books](http://ax.help.dynamics.com/en/wiki/set-up-depreciation-books/).-->
+Papildinformāciju par grāmatu iestatīšanu skatiet rakstā [Nolietojuma grāmatu iestatīšana](/dynamics365/unified-operations/financials/fixed-assets/tasks/set-up-depreciation-books-2016-05)
 
 ### <a name="set-up-tax-depreciation-calculation"></a>Iestatīt nodokļu nolietojuma aprēķinu
 
