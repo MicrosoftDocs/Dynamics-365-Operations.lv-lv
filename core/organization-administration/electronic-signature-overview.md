@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 0cebd30a560ff033efab89c2055827b62cf31576
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 9bc4dba3c31e82da2285ef5e339ace634fbd6fde
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -39,7 +39,7 @@ ms.lasthandoff: 06/20/2017
 Elektroniskais paraksts apstiprina personas identitāti, kas gatavojas sākt vai apstiprināt skaitļošanas procesu. Dažās nozarēs elektroniskais paraksts ir tikpat juridiski saistošs kā ar roku veikts paraksts. Vairākās regulētas nozarēs, piemēram, farmācijas, pārtikas un dzērienu un aviācijas un aizsardzības nozarēs, elektronisko parakstu izmantošana ir normatīva prasība. Tie ir arī nepieciešami, lai izpildītu ASV Pārtikas un zāļu pārvaldes (FDA) izdotā standarta 21 CFR 11. daļas normatīvās prasības. **Piezīme.** Elektroniskais paraksts pats par sevi nav tas pats kas ciparparaksts. Elektroniskais paraksts ir vienkārši ar roku rakstīta paraksta aizstājējs, bet ciparparaksts sniedz papildu drošības pasākumus. Ciparparaksts var palīdzēt identificēt, vai cits lietotājs vai process ir darbojies ar datiem. Ciparparakstu var arī verificēt, un šo verifikāciju nevar atspēkot datu parakstīšanai izmantotā sertifikāta īpašnieks. Kā tas ir aprakstīts tālāk, elektroniskajiem parakstiem programmatūrā Microsoft Dynamics 365 for Finance and Operations ir iebūvēta ciparparaksta funkcionalitāte.
 
 ## <a name="electronic-signatures-in-dynamics-365-for-finance-and-operations"></a>Elektroniskie paraksti programmatūrā Dynamics 365 for Finance and Operations
-Programmatūrā Dynamics 365 for Finance and Operations varat izmantot elektroniskos parakstus īpaši svarīgiem biznesa procesiem. Dažiem procesiem ir iebūvētas elektronisko parakstu iespējas. Varat arī izveidot pielāgotas parakstu prasības jebkurai datu bāzes tabulai un laukam. Elektroniskajiem parakstiem ir iebūvēta ciparparaksta funkcionalitāte. Katram lietotājam, kas paraksta dokumentus, ir jāiegūst derīgs šifrēšanas sertifikāts. Kad dokuments ir parakstīts, tiek validēta ar šo sertifikātu saistītā privātā atslēga. Programmatūrā Dynamics 365 for Finance and Operations elektroniskā paraksta informācija tiek reģistrēta žurnālā, lai nodrošinātu auditācijas pierakstus. Lai iestatītu elektroniskos parakstus, skatiet rakstu [Iestatīt elektroniskos parakstus (uzdevuma ceļvedis)](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/).
+Programmatūrā Dynamics 365 for Finance and Operations varat izmantot elektroniskos parakstus īpaši svarīgiem biznesa procesiem. Dažiem procesiem ir iebūvētas elektronisko parakstu iespējas. Varat arī izveidot pielāgotas parakstu prasības jebkurai datu bāzes tabulai un laukam. Elektroniskajiem parakstiem ir iebūvēta ciparparaksta funkcionalitāte. Katram lietotājam, kas paraksta dokumentus, ir jāiegūst derīgs šifrēšanas sertifikāts. Kad dokuments ir parakstīts, tiek validēta ar šo sertifikātu saistītā privātā atslēga. Programmatūrā Dynamics 365 for Finance and Operations elektroniskā paraksta informācija tiek reģistrēta žurnālā, lai nodrošinātu auditācijas pierakstus. Lai iestatītu elektroniskos parakstus, skatiet rakstu [Iestatīt elektroniskos parakstus (uzdevuma ceļvedis)](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-electronic-signatures).
 
 ## <a name="users-who-require-access-to-electronic-signatures"></a>Lietotāji, kuriem ir nepieciešama piekļuve elektroniskajiem parakstiem
 Elektroniskajiem parakstiem drošības piekļuve parasti ir nepieciešama trīs veidu lietotājiem: elektronisko parakstu administratoriem, parakstītājiem un elektronisko parakstu auditoriem.

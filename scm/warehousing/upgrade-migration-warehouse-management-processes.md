@@ -15,13 +15,13 @@ ms.custom: 1714054
 ms.assetid: 79a1a3b9-3a36-4162-8839-ec39b5e26602
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 5ab19faddedae8cf61222762714609601b0ae96f
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: cacf48bc10be5c06154816c2f9951ab4bbaee1c1
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 06/20/2017
 Jaunināšanas uz Finance and Operations laikā preces tiek bloķētas, ja tās ir saistītas ar noliktavas dimensiju grupu, kurā ir iestatījumi, kas neatbilst noliktavas dimensiju grupu iestatījumu prasībām programmatūrā Finance and Operations. Taču pēc jaunināšanas varat izmantot migrācijas opciju kopu procesā **Mainīt noliktavas dimensiju grupu krājumiem**, lai atbloķētu jaunināšanas laikā bloķētās preces. Pēc tam varat apstrādāt transakcijas šīm precēm. Daļa jūsu krājumu jau var būt saistīta ar noliktavas dimensiju grupām, kurās ir aktīvas un fiziski izsekotas krājumu dimensijas Vieta, Noliktava un Novietojums. Šajā gadījumā varat izmantot procesu **Mainīt noliktavas dimensiju grupu krājumiem**, lai ļautu šos krājumus izmantot noliktavas pārvaldības procesos. Šī iespēja ir noderīga, ja vēlaties izmantot noliktavas pārvaldības funkcionalitāti esošajiem krājumiem.
 
 ## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>Jaunināšana uz Finance and Operations, ja tiek izmantots modulis AX 2012 R3 WMSII
-Finance and Operations vairs neatbalsta Microsoft Dynamics AX 2012 moduli **WMSII**. Tā vietā varat izmantot jauno moduli **Noliktavas pārvaldība**. Papildinformāciju skatiet sadaļā [Noliktavas pārvaldības sākumlapa](https://ax.help.dynamics.com/en/wiki/warehouse-management/). Iepriekšējās versijās finanšu krājumiem varēja atlasīt krājumu dimensijas Novietojums un Paletes ID. Tomēr jaunināšanas procesa ietvaros finanšu krājumiem vairs nevar iespējot krājumu dimensiju Paletes ID. Visas preces, kuras ir saistītas ar noliktavas dimensiju grupu, kas izmanto krājumu dimensiju Paletes ID, tiks bloķētas un netiks apstrādātas.
+Finance and Operations vairs neatbalsta Microsoft Dynamics AX 2012 moduli **WMSII**. Tā vietā varat izmantot jauno moduli **Noliktavas pārvaldība**. Iepriekšējās versijās finanšu krājumiem varēja atlasīt krājumu dimensijas Novietojums un Paletes ID. Tomēr jaunināšanas procesa ietvaros finanšu krājumiem vairs nevar iespējot krājumu dimensiju Paletes ID. Visas preces, kuras ir saistītas ar noliktavas dimensiju grupu, kas izmanto krājumu dimensiju Paletes ID, tiks bloķētas un netiks apstrādātas.
 
 ### <a name="enabling-items-in-finance-and-operations"></a>Krājumu iespējošana programmatūrā Finance and Operations
 
@@ -70,7 +70,7 @@ Pirms izlaisto preču lietošanas modulī **Noliktavas pārvaldība** precēm ir
 1.  Izveidojiet vismaz vienu jaunu novietojuma profilu.
 2.  Noklikšķiniet uz **Noliktavas pārvaldība** &gt; **Iestatīšana** &gt; **Iespējot noliktavas pārvaldības procesus** &gt; **Iespējot noliktavas iestatīšanu**.
 3.  Lapā **Iespējot noliktavas iestatīšanu** pievienojiet noliktavas, kas jāiespējo. Šo darbību var veikt tieši lapā vai izmantojot Microsoft Office integrāciju.
-4.  Piešķiriet novietojuma profilu visiem novietojumiem. Šo darbību var ērti veikt, izmantojot Microsoft Office integrāciju tieši no lapas. Varat eksportēt un importēt datus vai arī izmantot datu elementa apstrādi sadaļā [Datu pārvaldība](https://ax.help.dynamics.com/en/wiki/data-management-and-integration-through-data-entity/).
+4.  Piešķiriet novietojuma profilu visiem novietojumiem. Šo darbību var ērti veikt, izmantojot Microsoft Office integrāciju tieši no lapas. Varat eksportēt un importēt datus vai arī izmantot datu elementa apstrādi sadaļā [Datu pārvaldība](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities).
 5.  Pārbaudiet izmaiņas. Kā daļa no pārbaudes procesa notiek dažādas datu integritātes pārbaudes. Lielāka jaunināšanas procesa ietvaros, iespējams, avota ieviešanā ir jākoriģē radušās problēmas. Šajā gadījumā būs nepieciešama papildu datu jaunināšana.
 6.  Apstrādājiet izmaiņas.
 
@@ -81,7 +81,7 @@ Pirms izlaisto preču lietošanas modulī **Noliktavas pārvaldība** precēm ir
 3.  Lapā **Rezervāciju hierarhija** definējiet jaunu rezervāciju hierarhiju saskaņā ar krājuma noliktavas un izsekošanas dimensiju grupām.
 4.  Izveidojiet vienu vai vairākas vienību secību grupas, kas ietver vismaz tās pašas vienības, kas tiek izmantotas krājumu uzskaites vienībām.
 5.  Noklikšķiniet uz **Noliktavas pārvaldība** &gt; **Iestatīšana** &gt; **Iespējot noliktavas pārvaldības procesus** &gt; **Mainīt noliktavas dimensiju grupu krājumiem**.
-6.  Lapā **Mainīt noliktavas dimensiju grupu krājumiem** pievienojiet krājumu kodus, noliktavas dimensiju grupas un vienību secību grupas. Šo darbību var veikt tieši lapā, izmantojot Microsoft Office integrāciju, vai izmantojot datu elementa apstrādi sadaļā [Datu pārvaldība](https://ax.help.dynamics.com/en/wiki/data-management-and-integration-through-data-entity/).
+6.  Lapā **Mainīt noliktavas dimensiju grupu krājumiem** pievienojiet krājumu kodus, noliktavas dimensiju grupas un vienību secību grupas. Šo darbību var veikt tieši lapā, izmantojot Microsoft Office integrāciju, vai izmantojot datu elementa apstrādi sadaļā [Datu pārvaldība](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities).
 7.  Pārbaudiet izmaiņas. Kā daļa no pārbaudes procesa notiek dažādas datu integritātes pārbaudes. Lielāka jaunināšanas procesa ietvaros, iespējams, avota ieviešanā ir jākoriģē radušās problēmas. Šajā gadījumā būs nepieciešama papildu datu jaunināšana.
 8.  Apstrādājiet izmaiņas. Visu krājumu dimensiju atjaunināšana var ilgt kādu laiku. Varat pārraudzīt norisi, izmantojot pakešuzdevumus.
 

@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations
+ms.reviewer: sericks
+ms.search.scope: Operations, UnifiedOperations
 ms.custom: 265694
 ms.assetid: 0095a7cf-8cc9-41f6-bf00-b59868fa6ea2
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 2df0c6dc9b41dde861f5361bfcc1226786e7aa76
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 282973618e56db3feb0103a7021a66d137218a7a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/25/2017
 
 ---
 
@@ -35,28 +35,30 @@ ms.lasthandoff: 06/20/2017
 Ja izmantojat Microsoft Dynamics 365 for Finance and Operations izdevuma Enterprise 2017. gada jūlija atjauninājumu, ir pieejams tālāk norādītais Power BI saturs.
 
 - [Power BI satura priekšrocības](benefits-power-bi.md)
-- [Naudas pārskata Power BI saturs](/dynamics365/operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
+- [Naudas pārskata Power BI saturs](/dynamics365/unified-operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
 - [CFO pārskata Power BI saturs](CFO-power-bi.md)
 - [Atlīdzības Power BI saturs](compensation-power-bi.md)
 - [Izmaksu uzskaites analīzes Power BI saturs*](cost-accounting-analysis-content-pack.md) 
-- [Kredīta un iekasēšanas Power BI saturs](/dynamics365/operations/financials/accounts-receivable/credit-collections-power-bi)
+- [Kredīta un iekasēšanas Power BI saturs](/dynamics365/unified-operations/financials/accounts-receivable/credit-collections-power-bi)
 - [Darbinieku attīstības Power BI saturs](employee-development-PBI.md) 
 - [Finanšu veiktspējas Power BI saturs*](financial-performance-power-bi-content-pack.md)
-- [Pamatlīdzekļu Power BI saturs](/dynamics365/operations/financials/fixed-assets/Fixed-asset-management-workspace)
+- [Pamatlīdzekļu Power BI saturs](/dynamics365/unified-operations/financials/fixed-assets/Fixed-asset-management-workspace)
 - [Apmācību Power BI saturs](learning-power-bi.md)
 - [Prakses pārvaldnieka Power BI saturs](practice-manager-power-bi.md)
 - [Ražošanas veiktspējas Power BI saturs](production-performance-power-bi.md)
 - [Power BI satura pakotne Pirkumu tēriņu analīze](purchase-content-pack-for-power-bi.md) 
 - [Power BI satura pakotne Personāla atlase](recruiting-analysis-power-bi-content-pack.md) 
 - [Power BI saturs Pārdošanas un ienesīguma veiktspēja](sales-profitability-performance-content-pack.md)
-- [Kreditoru maksājumu Power BI saturs](/dynamics365/operations/financials/accounts-payable/Vendor-payments-workspace)
+- [Kreditoru maksājumu Power BI saturs](/dynamics365/unified-operations/financials/accounts-payable/Vendor-payments-workspace)
 - [Power BI saturs Noliktavas veiktspēja](warehouse-power-bi-content.md)
 - [Power BI saturs Darbaspēka rādītāji](workforce-analysis-power-bi-content-pack.md)  
 
 ### <a name="accessing-the-content"></a>Piekļuve saturam
 
 #### <a name="embedded-content"></a>Iegultais saturs
-Izņemot saturu, kas ir atzīmēts ar zvaigznīti (\*), viss pārējais saturs iepriekšējā sarakstā ir iegults programmā. Lai uzzinātu vairāk par to, kur var skatīt Power BI saturu, klikšķiniet uz saitēm.
+Izņemot saturu, kas ir atzīmēts ar zvaigznīti (\*), viss pārējais saturs iepriekšējā sarakstā ir iegults programmā. Lai uzzinātu vairāk par to, kur var skatīt Power BI saturu, noklikšķiniet uz iepriekš norādītajām saitēm.
+
+Lai skatītu datus Power BI pārskatos, noteikti atsvaidziniet elementu krātuvi. Papildinformāciju skatiet raksta [Pārskats par Power BI integrāciju, izmantojot elementu krātuvi](power-bi-integration-entity-store.md) sadaļā *Elementu krātuves atjaunināšana*.
 
 #### <a name="files-available-in-lifecycle-services"></a>Faili, kas pieejami Lifecycle Services
 Šis Power BI saturs ir pieejams Microsoft Dynamics Lifecycle Services (LCS) koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt saturu un saistīt to ar saviem datiem, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md). Power BI satura pakotnes implementēšanas demonstrāciju skatiet tēmā [Power BI saturs pakalpojumā Dynamics Lifecycle Services no Microsoft un jūsu partneriem](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
@@ -66,7 +68,7 @@ Ja izmantojat Microsoft Dynamics 365 for Operations versiju 1611, ir pieejams 
 
 - [Power BI saturs Atlīdzības un atvieglojumi](compensation-and-benefits-analysis-power-bi-content-pack.md)   
 - [Power BI saturs Izmaksu uzskaites analīze](cost-accounting-analysis-content-pack.md) 
-- [Kredīta un iekasēšanas Power BI saturs](/dynamics365/operations/financials/accounts-receivable/credit-collections-power-bi)
+- [Kredīta un iekasēšanas Power BI saturs](/dynamics365/unified-operations/financials/accounts-receivable/credit-collections-power-bi)
 - [Power BI saturs Darbinieku zināšanas un attīstība](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
 - [Power BI saturs Finanšu veiktspēja](financial-performance-power-bi-content-pack.md)
 - [Power BI saturs Organizācijas apmācības](organizational-training-analysis-power-bi-content-pack.md) 

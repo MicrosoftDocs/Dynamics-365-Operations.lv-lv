@@ -3,21 +3,23 @@ title: "Power BI satura pakotne Naudas pārskats"
 description: "Šajā tēmā ir aprakstīta Power BI satura pakotne Naudas pārskats. Tajā ir paskaidrots, kā piekļūt pārskatiem, kas ir iekļauti saturā, un ir sniegta informācija par satura izveidei izmantoto datu modeli un elementiem."
 author: saraschi2
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 06/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: sericks
+ms.search.scope: Operations, UnifiedOperations
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2017-06-30
+ms.search.validFrom: 2017-06-30T00:00:00.000Z
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: e969c2033463d565ce782c7dc8cfc4b458349289
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 367fe61492648ee3ee629a8121e664dfaa0c6c99
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -34,6 +36,10 @@ Power BI satura pakotne **Naudas pārskats** ir izveidota personām, kuras ir a
 ## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
 
 Ja lietojat programmatūras Dynamics 365 for Finance and Operation izdevuma Enterprise 2017. gada jūlija atjauninājumu, Power BI satura pakotnes **Naudas pārskats** pārskati tiek rādīti darbvietās **Naudas pārskats** un **Banku vadība**.
+
+Lai skatītu naudas plūsmas prognožu pārskatus ar datiem, jums vispirms ir jāpalaiž prognožu aprēķina process, izmantojot apgabalā Naudas un bankas pārvaldība esošo funkciju **Aprēķināt naudas plūsmas prognozes**.  Šī funkcija ir jāaizpilda katram prognozē ietvertajam uzņēmumam.  Pēc tam ir jāatsvaidzina apkopošanas mērījums LedgerCovLiquidityMeasurement lapā **Elementu krātuve**.  
+
+Demonstrācijas nolūkos varat pievienot naudas plūsmas prognožu demonstrācijas datus, izmantojot modulī Demonstrācijas dati esošo lapu **Ģenerēt datus**.  Šis skripts ievietos datus naudas plūsmas prognožu tabulās, lai ātri aizpildītu pārskatiem nepieciešamo informāciju.  Šis modulis ir pieejams tikai tad, ja vidē ir izvietots demonstrācijas datu komplekta modelis. 
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie pārskati
 Tālāk esošajā tabulā ir sniegta detalizēta informācija par rādītājiem, kas ir iekļauti katrā Power BI satura pakotnes **Naudas pārskats** pārskata lapā.

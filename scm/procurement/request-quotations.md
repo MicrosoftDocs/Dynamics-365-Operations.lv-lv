@@ -1,6 +1,6 @@
 ---
-title: "Piedāvājuma pieprasījumi (PP)"
-description: "Šajā rakstā ir sniegts pārskats par piedāvājuma pieprasījumiem (PP), kuras organizācijas izsniedz, kad tām jāiegādājas preces vai pakalpojumus, un tādēļ vēlas saņemt vairāku kreditoru konkurētspējīgus piedāvājumus. Piedāvājuma pieprasījumā kreditoriem tiek lūgts piedāvāt norādītā krājuma daudzuma cenas un piegādes laiku. Kreditoriem var lūgt arī norādīt, vai pastāv jebkādas nejaušās izmaksas, piemēram, piegādes izmaksas, kā arī vai pastāv jebkādas atlaides lielu pasūtījumu vai savlaicīgas kreditora rēķina apmaksas gadījumā."
+title: "Piedāvājumu pieprasījumi"
+description: "Šajā tēmā ir sniegts pārskats par piedāvājuma pieprasījumiem (PP), kurus organizācijas izsniedz, kad tām jāiegādājas preces vai pakalpojumi, un tādēļ vēlas saņemt vairāku kreditoru konkurētspējīgus piedāvājumus."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 06/20/2017
@@ -10,34 +10,34 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2154
 ms.assetid: 3936996e-d943-46ca-8385-84c042990f1d
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d681f4c107a9dbc1ea8c5e1de38b2d45cf19bcfa
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 47e394c8642f502c698dbcd5506979b7cac0a830
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="request-for-quotations-rfqs"></a>Piedāvājuma pieprasījumi (PP)
+# <a name="request-for-quotations-rfqs"></a>Piedāvājumu pieprasījumi
 
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir sniegts pārskats par piedāvājuma pieprasījumiem (PP), kuras organizācijas izsniedz, kad tām jāiegādājas preces vai pakalpojumus, un tādēļ vēlas saņemt vairāku kreditoru konkurētspējīgus piedāvājumus. Piedāvājuma pieprasījumā kreditoriem tiek lūgts piedāvāt norādītā krājuma daudzuma cenas un piegādes laiku. Kreditoriem var lūgt arī norādīt, vai pastāv jebkādas nejaušās izmaksas, piemēram, piegādes izmaksas, kā arī vai pastāv jebkādas atlaides lielu pasūtījumu vai savlaicīgas kreditora rēķina apmaksas gadījumā.
+Šajā tēmā ir sniegts pārskats par piedāvājuma pieprasījumiem (PP), kurus organizācijas izsniedz, kad tām jāiegādājas preces vai pakalpojumi, un tādēļ vēlas saņemt vairāku kreditoru konkurētspējīgus piedāvājumus. Piedāvājuma pieprasījumā kreditoriem tiek lūgts piedāvāt norādītā krājuma daudzuma cenas un piegādes laiku. Kreditoriem var lūgt arī norādīt, vai pastāv jebkādas nejaušās izmaksas, piemēram, piegādes izmaksas, kā arī vai pastāv jebkādas atlaides lielu pasūtījumu vai savlaicīgas kreditora rēķina apmaksas gadījumā.
 
 Piedāvājuma pieprasījuma (PP) process ietver tālāk norādītos uzdevumus.
 
--   PP izveidošana un sūtīšana vienam vai vairākiem kreditoriem
--   PP atbilžu (piedāvājumu) saņemšana un reģistrēšana
--   Pieņemto piedāvājumu pārsūtīšana uz pirkšanas pasūtījumu, pirkšanas līgumu vai pirkšanas pieprasījumu
+-   PP izveidošana un sūtīšana vienam vai vairākiem kreditoriem.
+-   PP atbilžu (piedāvājumu) saņemšana un reģistrācija.
+-   Pieņemto piedāvājumu pārsūtīšana uz pirkšanas pasūtījumu, pirkšanas līgumu vai pirkšanas pieprasījumu.
 
 Šajā ilustrācijā parādīts pārskats par PP procesu.  
 
@@ -49,7 +49,7 @@ Ja pēc PP nosūtīšanas ir nepieciešams veikt grozījumus, pēc grozījumu pa
 
 Saņemot piedāvājumus, tie ir jāievada lapa **Atbildes uz piedāvājuma pieprasījumiem**. Ja atlasāt opciju **Kopēt datus uz atbildēm**, atbildē tiek kopēti dati no PP gadījuma, piemēram, daudzums un datumi. Varat mainīt šos datus atbilstoši kreditora piedāvājumam.  
 
-Ja konkrētam kreditoram ir nepieciešama vēl viena atbilde, noklikšķiniet uz **Atgriezt**lapā **Piedāvājuma pieprasījuma atbilde**. Izpildot atgriešanas darbību, tiek ģenerēts jauns žurnāls un pārskats, kas tiks drukāts, arhivēts un nosūtīts atbilstoši drukas pārvaldības iestatījumiem.  
+Ja konkrētam kreditoram ir nepieciešama vēl viena atbilde, noklikšķiniet uz **Atgriezt** lapā **Piedāvājuma pieprasījuma atbilde**. Izpildot atgriešanas darbību, tiek ģenerēts jauns žurnāls un pārskats, kas tiks drukāts, arhivēts un nosūtīts atbilstoši drukas pārvaldības iestatījumiem.  
 
 Ja PP gadījumam pievienojāt punktu skaitīšanas kritēriju, PP atbildē tiek ietverts punktu skaitīšanas panelis, kur varat ievadīt punktu skaitu. Kopējais punktu skaits tiek rādīts, kad salīdzināt atbildes lapā **Salīdzināt atbildes**, kur varat salīdzināt arī citus atbilžu datus, piemēram, rindas cenu, piegādes datumu un kopējo cenu.  
 
@@ -66,17 +66,17 @@ Tālāk ir secīgi norādīti PP apstrādes statusi.
 3.  **Saņemts**
 4.  **Pieņemts**/**Atcelts**/**Noraidīts**
 
-Statusi ir detalizētāk aprakstīti sadaļās šī raksta turpinājumā.
+Statusi ir detalizētāk aprakstīti sadaļās šīs tēmas turpinājumā.
 
 ## <a name="setting-up-rfq-functionality"></a>PP funkcionalitātes iestatīšana
 Lai varētu izveidot PP gadījumu, vispirms ir jāiestata PP informācija lapā **Sagādes un avotu parametri**. Izveidojot PP gadījumu, varat norādīt noklusējuma vērtības, kas tiek kopētas uz PP. Varat norādīt tālāk uzskaitītās vērtības.
 
--   Jaunu PP pirkšanas tips: **Pirkšanas pasūtījums** vai **Pirkšanas līgums**
--   Beigu datuma un laika iestatījumi
+-   Jaunu PP pirkšanas tips: **Pirkšanas pasūtījums** vai **Pirkšanas līgums**.
+-   Beigu datuma un laika iestatījumi.
 -   Piegādes informācija un maksājumu nosacījumi.
--   Lauki, kas ir jāiekļauj PP atbildē
+-   Lauki, kas ir jāiekļauj PP atbildē.
 
-Varat mainīt šīs vērtības noteiktam PP gadījumam. Ir jākonfigurē arī grozījumu process. Šīs konfigurēšanas ietvaros varat ieslēgt lauku bloķēšanu. Ja ir ieslēgta lauku bloķēšana, sagādes speciālistam, kas vēlas veikt PP grozījumus, vispirms ir jānoklikšķina uz **Izveidot** cilnes **Piedāvājums** sadaļā **Grozījums**. Kad PP ir atjaunināts, veicot grozījumu, sagādes speciālistam ir jāpabeidz process, noklikšķinot uz **Pabeigt**.** **Veicot pabeigšanas darbību, tiek ģenerēts e-pasta ziņojums, lai paziņotu kreditoriem par grozīto PP. Kreditoriem sūtītā e-pasta paziņojuma veidni varat atlasīt lapā **Sagādes un avotu parametri**. Kad tiek izveidota veidne, tā var saturēt tālāk norādītos aizstāšanas marķierus.
+Varat mainīt šīs vērtības noteiktam PP gadījumam. Ir jākonfigurē arī grozījumu process. Šīs konfigurēšanas ietvaros varat ieslēgt lauku bloķēšanu. Ja ir ieslēgta lauku bloķēšana, sagādes speciālistam, kas vēlas veikt PP grozījumus, vispirms ir jānoklikšķina uz **Izveidot** cilnes **Piedāvājums** sadaļā **Grozījums**. Kad PP ir atjaunināts ar grozījumu, sagādātājam ir jāpabeidz process, noklikšķinot uz **Pabeigt**. Darbība **Pabeigt** ģenerē e-pasta ziņojumu, kas kreditoriem paziņo par grozīto PP. Kreditoriem sūtītā e-pasta paziņojuma veidni varat atlasīt lapā **Sagādes un avotu parametri**. Kad tiek izveidota veidne, tā var saturēt tālāk norādītos aizstāšanas marķierus.
 
 -   %Piedāvājuma atgriešanas iemesls%
 -   %Grozījuma iemesls%
@@ -87,7 +87,10 @@ Marķieri %Piedāvājuma atgriešanas iemesls% un %Grozījuma iemesls%i tiek aiz
 
 Ja vēlaties PP atbildē izmantot iemeslu kodus, lai norādītu, kāpēc piedāvājums tika noraidīts vai pieņemts, jums ir jāuzstāda iemeslu kodu lapā **Kreditoru iemesli**.  
 
-Varat konfigurēt drukātā vai saglabātā PP dokumenta izskatu moduļa Sagāde un avoti lapā **Formas iestatījumi**.  
+Varat konfigurēt drukātā vai saglabātā PP dokumenta izskatu moduļa Sagāde un avoti lapā **Formas iestatījumi**. 
+
+**Piezīme.** Publiskā sektora konfigurācijai jebkurām izmaiņām jau nosūtītā PP ir jāizmanto grozījumu process. Pēc PP nosūtīšanas lauki ir bloķēti, tādēļ, lai veiktu PP izmaiņas, ir obligāti jānoklikšķina uz **Izveidot** un jāizmanto iepriekš aprakstītais grozījumu process.
+To kontrolē lauku bloķēšanas parametrs **Slēgt PP pēc tā nosūtīšanas** sadaļā **Sagādes un avotu parametri**. Šis parametrs ir iestatīts uz **Jā**, un publiskā sektora konfigurācijai tas ir noklusējuma iestatījums, ko nevar mainīt. Tas nozīmē, ka, lai gan sektora, kas nav publisks, konfigurācijā grozījumu procesu var veikt manuāli, publiskajam sektoram ir obligāts grozījumu apstrādes process, bloķējot laukus pēc PP nosūtīšanas.
 
 Kad izveidojat pirkšanas pasūtījuma PP un pievienojat šim PP krājumu vienību, tiek ģenerēta krājumu transakcija, kuras ieejas plūsmas statuss ir **Piedāvājuma saņemšana**. Kad izmantojat vispārējo plānu piegāžu aprēķināšanai, tiek ņemtas vērā tikai PP rindas ar šo statusu. Ja vēlaties, lai PP rindas tiktu iekļautas vispārējā plānā kā paredzētās ieejas plūsmas, šī darbība ir jākonfigurē vispārējās plānošanas iestatījumos.  
 
@@ -137,7 +140,7 @@ Tālāk esošajā tabulā ir parādīts, kā mainās PP statuss, kad izveidojat 
 **Piezīme.** Jebkurā brīdī varat pievienot citus kreditorus PP, un zemākie un augstākie statusi tiek mainīti atbilstoši jaunajiem kreditoriem. Piemēram, ja esat saņēmis piedāvājumus no visiem kreditoriem un esat pieņēmis vismaz vienu piedāvājuma rindu, PP virsraksta zemākais statuss ir **Noraidīts**, bet augstākais statuss ir **Pieņemts**. Ja pievienojat jaunu kreditoru, visu rindu zemākais statuss tiek mainīts uz **Izveidots**. Tāpēc PP virsraksta zemākais statuss tiek mainīts uz **Izveidots** un augstākais statuss joprojām paliek **Pieņemts**.
 
 ## <a name="amending-an-rfq"></a>PP grozījumu veikšana
-Dažreiz pēc PP nosūtīšanas ir nepieciešams to mainīt. Tā var notikt, jo, piemēram, ir mainīts piegādes datums vai vēlaties saņemt papildu preces vai citu preču daudzumu. Varat konfigurēt grozījumu procesu, uzstādot stingrākus vai mazāk stingrus ierobežojumus.  
+Dažreiz pēc PP nosūtīšanas ir nepieciešams to mainīt. Piemēram, tā var notikt, ja ir mainīti piegādes datumi vai vēlaties saņemt papildu preces vai citu preču daudzumu. Varat konfigurēt grozījumu procesu, uzstādot stingrākus vai mazāk stingrus ierobežojumus.  
 
 Ja izmantojat grozījumu procesu ar stingrākiem ierobežojumiem, lai varētu mainīt PP gadījuma laukus, vispirms PP gadījumā ir jānoklikšķina uz **Izveidot**, lai sāktu grozījuma procesu. Kad esat veicis visas izmaiņas, ir jānoklikšķina uz **Pabeigt**. Pēc tam saņemat norādījumus par informācijas pievienošanu e-pasta ziņojumam, kas tiek nosūtīts, lai informētu kreditorus par grozījumiem. Ziņojumam tiek automātiski pievienots atjauninātais PP pārskats, kas satur piezīmi par grozījumiem.  
 
@@ -181,7 +184,7 @@ Kad pieņemat PP atbildi, kuras tips ir **Pirkšanas pieprasījums**, PP atbilde
 
 Atbildē varat pievienot iemesla kodu, lai paskaidrotu, kāpēc pieņēmāt vai noraidījāt piedāvājumu.  
 
-Varat pieņemt dažas piedāvājuma rindas un noraidīt citas. Varat arī pieņemt dažādu kreditoru piedāvājumu rindas. Taču ņemiet vērā, ka, pieņemot dažas rindas, tiek piedāvāts noraidīt visas citas rindas. Tāpēc, ja vēlaties pieņemt citas rindas, uzvednē ir jānoklikšķina uz **Atcelt**.  
+Varat pieņemt dažas piedāvājuma rindas un noraidīt citas. Varat arī pieņemt dažādu kreditoru piedāvājumu rindas. Ņemiet vērā, ka, pieņemot dažas rindas, tiek piedāvāts noraidīt visas citas rindas. Tāpēc, ja vēlaties pieņemt citas rindas, uzvednē ir jānoklikšķina uz **Atcelt**.  
 
 Tālāk esošajā tabulā ir parādīts, kā tiek mainīts PP statuss, kad pieņemat vai noraidāt kreditoru piedāvājumus.
 

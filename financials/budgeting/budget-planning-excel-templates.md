@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 261794
 ms.assetid: 1d8e99c1-b70d-41ba-991e-ab50b16797e0
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 9f8073a2eb0d1b61d6a168f43eba983d113cf453
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 734c8930f239d8c9d220601bb2103bd55dd5bfd8
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,12 +35,18 @@ ms.lasthandoff: 06/13/2017
 Šajā tēmā ir parādīts, ka izveidot Excel veidnes, kuras tiks izmantotas ar budžeta plāniem, izmantojot standarta demonstrācijas datu kopu un piesakoties lietotājam ar administratora tiesībām. Papildinformāciju par darbu ar budžeta plānošanu skatiet sadaļā [Budžeta plānošanas apskats.](budget-planning-overview-configuration.md) Lai apgūtu moduļa konfigurēšanas un lietošanas pamatprincipus, varat izpildīt arī apmācību [Budžeta plānošana 101](budget-plan.md).
 
 ## <a name="generate-a-worksheet-using-budget-plan-document-layout"></a>Ģenerēt darblapu, izmantojot budžeta plāna dokumenta izkārtojumu
-Budžeta plāna dokumentus var skatīt un rediģēt, izmantojot vienu vai vairākus izkārtojumus. Ar katru izkārtojumu var būt saistīta budžeta plāna dokumenta veidne, lai šos budžeta plāna datus skatītu un rediģētu Excel darblapā. Šajā tēmā budžeta plāna dokumenta veidne tiks ģenerēta, izmantojot jau esošu izkārtojuma konfigurāciju. Atveriet **budžeta plānu sarakstu** (**Budžeta veidošana**&gt; **Budžeta plāni**). Noklikšķiniet uz **Jauns**, lai izveidotu jaunu budžeta plāna dokumentu. [![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+
+Budžeta plāna dokumentus var skatīt un rediģēt, izmantojot vienu vai vairākus izkārtojumus. Ar katru izkārtojumu var būt saistīta budžeta plāna dokumenta veidne, lai šos budžeta plāna datus skatītu un rediģētu Excel darblapā. Šajā tēmā budžeta plāna dokumenta veidne tiks ģenerēta, izmantojot jau esošu izkārtojuma konfigurāciju. 
+
+Atveriet sadaļu **Budžeta plānu saraksts** (**Budžeta veidošana** &gt; **Budžeta plāni**). Noklikšķiniet uz **Jauns**, lai izveidotu jaunu budžeta plāna dokumentu. 
+
+[![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
 Izmantojiet rindas opciju **Pievienot**, lai pievienotu rindas. Noklikšķiniet uz **Izkārtojumi**, lai skatītu budžeta plāna dokumenta izkārtojuma konfigurāciju. 
+
 [![bpt2](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
-Izkārtojuma konfigurāciju varat pārskatīt un pēc nepieciešamības koriģēt. Dodieties uz **Veidne** &gt; **Ģenerēt**, lai izveidotu Excel failu šim izkārtojumam. Kad veidne ir ģenerēta, pārejiet uz **Veidne** &gt; **Skatīt**, lai atvērtu un pārskatītu budžeta plāna dokumenta veidni. Šo Excel failu varat saglabāt lokālajā diskā. [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png) 
+Izkārtojuma konfigurāciju varat pārskatīt un pēc nepieciešamības koriģēt. Dodieties uz **Veidne** &gt; **Ģenerēt**, lai izveidotu Excel failu šim izkārtojumam. Kad veidne ir ģenerēta, pārejiet uz **Veidne** &gt; **Skatīt**, lai atvērtu un pārskatītu budžeta plāna dokumenta veidni. Šo Excel failu varat saglabāt lokālajā diskā. [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png)
 
 > [!NOTE] 
 > Kad ar budžeta plāna dokumenta izkārtojumu ir saistīta Excel veidne, šo izkārtojumu vairs nevar rediģēt. Lai izkārtojumu modificētu, izdzēsiet piesaistītās Excel veidnes failu un ģenerējiet to no jauna. Tas ir nepieciešams tādēļ, lai izkārtojuma un darblapas lauki būtu sinhronizēti. 

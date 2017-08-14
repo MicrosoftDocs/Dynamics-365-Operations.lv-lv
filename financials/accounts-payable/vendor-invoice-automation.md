@@ -12,13 +12,13 @@ audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: sunilg
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 5bfde00f88a12711c2519aaea19dd7a48196a828
+ms.translationtype: HT
+ms.sourcegitcommit: 172d952c79347e7dd563cfda70729750fa0ddde9
+ms.openlocfilehash: c47ca406e2c8be98f26f1c78d6f5e0a3f66690a5
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 # <a name="vendor-invoice-automation"></a>Kreditoru rēķinu izrakstīšanas automatizācija
@@ -57,7 +57,7 @@ Datu pakotne ir darba vienība, kas ir jānosūta uz programmatūru Finance and 
 
 Kreditora rēķina dokumenta pielikums ir jauns datu elements, kas ir ieviests kā daļa no šī līdzekļa. Kreditora rēķina virsraksta elements ir modificēts tā, lai tas atbalstītu pielikumus. Kreditora rēķina rindas elements nav modificēts šim līdzeklim.
 
-Šajā tēmā nav sniegta detalizēta datu pakotnes definīcija. Tajā arī nav izskaidrots, kā izveidot datu pakotnes. Šo informāciju skatiet sadaļā [Datu elementi un pakotņu struktūra](/dynamics365/en-us/unified-operations/dev-itpro/data-entities/data-entities-data-packages).
+Šajā tēmā nav sniegta detalizēta datu pakotnes definīcija. Tajā arī nav izskaidrots, kā izveidot datu pakotnes. Šo informāciju skatiet sadaļā [Datu elementi un pakotņu struktūra](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages).
 
 Lai ātri ģenerētu testa datus, kas ietver rēķinus un pielikumus, veiciet tālāk norādītās darbības.
 
