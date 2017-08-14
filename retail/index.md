@@ -18,27 +18,20 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611, Retail Version
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 2de5b3d532c599f2273b97dad1db6a027c4dc04a
+ms.translationtype: HT
+ms.sourcegitcommit: 77a0d4c2a31128fb7d082238d443f297fd40664f
+ms.openlocfilehash: bde08c142e976cd5546703b27af2f9a3ac635d9e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/29/2017
+ms.lasthandoff: 07/31/2017
 
 ---
 
 # <a name="welcome-to-dynamics-365-for-retail"></a>Esiet sveicināti risinājumā Dynamics 365 for Retail
 
-[!include[banner](includes/banner.md)]
-
 Microsoft Dynamics 365 for Retail ir vispārīgs mazumtirdzniecības risinājums, kas nodrošina unificētu komerciju visos kanālos. Tas aptver pārdošanu, mobilitāti, informāciju un produktivitāti, lai palīdzētu mazumtirgotājiem sasniegt vairāk, izmantojot mākoņpakalpojumus un mobilās iespējas. Retail nodrošina vispusīgu atbalstu, veicot dažādus biznesa procesus, piemēram, tirgū virzīšanas vai krājumu un kanālu pārvaldības iespējas. Turklāt tas nodrošina visaptverošu klientu pieredzi visās saskares vietās.
 
-Trīs tālāk minētie produkti ir cieši saistīti.
-
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevums
-- Microsoft Dynamics 365 for Retail
-- Microsoft Dynamics 365 for Talent
-
-Šī funkcionalitāte var būt pieejama visos trīs produktos. Tādēļ tēmās, kas galvenokārt ir saistītas ar Retail, produkta nosaukums būs Microsoft Dynamics 365 for Retail. Tēmās, kas galvenokārt ir saistītas ar Talent, produkta nosaukums būs Microsoft Dynamics 365 for Talent. Savukārt tēmās, kas ir saistītas ar pamatproduktu (Finance and Operations), produkta nosaukums būs Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevums. Tēmas, kas sarakstītas vienam produktam, var attiekties uz to pašu funkcionalitāti saistītā produktā.
+> [!NOTE] 
+> Risinājums Dynamics 365 for Retail ir cieši saistīts ar Dynamics 365 for Finance and Operations, Enterprise izdevumu un Dynamics 365 for Talent. Šī funkcionalitāte var būt pieejama visos trīs produktos. Tādēļ tēmās, kas galvenokārt ir saistītas ar programmatūru Retail, produkta nosaukums ir Microsoft Dynamics 365 for Retail; tēmās, kas galvenokārt ir saistītas ar pamatproduktu (Finance and Operations), produkta nosaukums ir Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevums; tēmās, kas galvenokārt ir saistītas ar cilvēkresursiem, produkta nosaukums ir Dynamics 365 for Talent. 
 
 Kreisajā rūtī atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
 
