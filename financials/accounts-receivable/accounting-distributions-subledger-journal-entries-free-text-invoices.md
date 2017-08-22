@@ -1,9 +1,9 @@
 ---
 title: "Uzskaites sadales un apakšgrāmatas žurnāla ieraksti brīva teksta rēķiniem"
 description: "Uzskaites sadales tiek izmantotas, lai definētu, kā summa tiek uzskaitīta, piemēram, kā ieņēmumi, nodokļi vai izmaksas tiek uzskaitīti brīva teksta rēķinā. Katrai summai, kas ir jānorāda brīva teksta rēķina reģistrēšanai žurnālā, ir viena vai vairākas uzskaites sadales."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,7 +15,7 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3141
 ms.assetid: fecd17a2-d7b4-4a20-ac81-eb71abbfa9d1
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: b530b5c8b5e252efb253dcf5b4ad080e2f646e5f
 ms.contentlocale: lv-lv
 ms.lasthandoff: 05/25/2017
-
 
 ---
 
