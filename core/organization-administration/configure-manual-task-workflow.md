@@ -3,7 +3,7 @@ title: "Konfigurēt manuālu uzdevumu darbplūsmā"
 description: "Šajā tēmā ir paskaidrots, kā konfigurēt manuāla uzdevuma rekvizītus."
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,7 +15,7 @@ ms.custom: 192191
 ms.assetid: 27f1afde-ff26-4b6f-8c11-27ec49130bbb
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -165,6 +165,7 @@ Ja lietotājs nepabeidz manuālo uzdevumu atvēlētajā laikā, uzdevums ir noka
 
 1.  Kreisajā rūtī noklikšķiniet uz **Eskalācija**.
 2.  Atzīmējiet izvēles rūtiņu **Izmantot eskalācijas ceļu**, lai izveidotu eskalācijas ceļu. Sistēma automātiski piešķirs uzdevumu lietotājiem, kuri ir norādīti eskalācijas ceļā. Piemēram, šajā tabulā ir attēlots eskalācijas ceļš.
+
     | Secība | Eskalācijas ceļš      |
     |----------|----------------------|
     | 1        | Piešķirt: Lindai     |
@@ -318,7 +319,9 @@ Varat lietotājiem nosūtīt paziņojumus, kad manuālais uzdevums ir deleģēts
 8.  Atkārtojiet 3.–7. darbību katram notikumam, ko atlasījāt 2. darbībā.
 
 ## <a name="set-a-time-limit"></a>Laika robežas iestatīšana
-Veiciet šīs darbības, ja manuālais uzdevums ir jāpabeidz noteiktā laikā. **Piezīme.** Šajā procedūrā izvēlētās opcijas tiks lietotas neatkarīgi no opcijām, kas atlasītas lapas apgabalos **Piešķire** un **Eskalācija**.
+Veiciet šīs darbības, ja manuālais uzdevums ir jāpabeidz noteiktā laikā. 
+
+**Piezīme.** Šajā procedūrā izvēlētās opcijas tiks lietotas neatkarīgi no opcijām, kas atlasītas lapas apgabalos **Piešķire** un **Eskalācija**.
 
 1.  Kreisajā rūtī noklikšķiniet uz **Papildu iestatījumi**.
 2.  Atzīmējiet izvēles rūtiņu **Iestatīt darbplūsmas elementa laika ierobežojumu**.
