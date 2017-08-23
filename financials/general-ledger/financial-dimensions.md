@@ -3,7 +3,7 @@ title: "Finanšu dimensijas"
 description: "Šajā tēmā ir aprakstīti dažādie finanšu dimensiju tipi un izskaidrots, kā tie tiek iestatīti."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ems.prod: 
 ms.service: dynamics-ax-applications
@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: a0edbad63c51d111d7c8985aa7fdf7312da6149d
-ms.openlocfilehash: e82d53b3f6b4c8d3e2363f26576331e1d03434d9
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: b5615a6d9003554593981ce65be0283a249a7d93
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -84,4 +83,9 @@ Lai palīdzētu uzturēt atsauču datu integritāti, finanšu dimensijas dzēst 
 - Vai šī finanšu dimensija ir iestatīta kā noklusējuma dimensija?
 
 Ja finanšu dimensija atbilst kādam no šiem kritērijiem, tad šo finanšu dimensiju nevar izdzēst.
+
+
+Lai iegūtu papildu informāciju, skatiet šādas tēmas:
+- [Finanšu dimensiju definēšana](tasks/define-financial-dimensions.md)
+- [Finanšu dimensijas noklusējuma veidņu uzturēšana](tasks/maintain-financial-dimension-default-templates.md)
 

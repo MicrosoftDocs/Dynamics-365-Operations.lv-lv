@@ -1,9 +1,9 @@
 ---
 title: "Debitoru maksājumi daļējai summai"
 description: "Reizēm debitori veic maksājumu, kas ir mazāks par rēķinā norādīto summu. Šajā rakstā ir aprakstītas dažādās opcijas, ko darīt šādās situācijās. Jums pieejamās opcijas ir atkarīgas no jūsu biznesa prasībām un konfigurācijas."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,15 +14,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13011
 ms.assetid: 20423a2d-6997-4e1c-a596-a77016600071
 ms.search.region: Global
-ms.author: kweekley
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 795d13a07065a125a750970beaff85b59307f623
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: ebfa8aaed6f82e9c3142540d0850c59d49328d59
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -58,8 +57,8 @@ Piemēram, jūs piedāvājāt maksājuma nosacījumus ar 2 procentu termiņatlai
 Kad klienti veic maksājumu, iespējams, ka būs ļoti neliela summa, kas paliks nenosegta. Piemēram, jūs klientam izrakstāt rēķinu par summu 1000,00, bet debitors apmaksā 999,90. Ja atlikusī summa ir mazāka par summu, kas norādīta pārmaksām vai nepilnām samaksām lapā **Debitoru moduļa parametri**, starpība tiek automātiski grāmatota uz pārmaksas/nepilnas samaksas virsgrāmatas kontu.
 
 ## <a name="full-settlement"></a>Pilnīga nosegšana
-Klienti var veikt daļēju maksājumu, kur atlikusī summa netiks samaksāta, taču ir lielāka nekā nepilnas samaksas summa, kas norādīta lapā **Kreditoru moduļa parametri**. Ja rēķinu vēlaties atzīmēt kā pilnībā nosegtu, varat izmantot opciju ***Pilnīga nosegšana** lapā **Nosegt transakciju**. (Jūs varat iespējot pilnīgas segšanas funkcionalitāti, izmantojot konfigurācijas atslēgu.) Piemēram, rēķins tiek iegrāmatots par summu 1000,00 un klients veic maksājumu 990,00. Jūs esat vienojušies, ka klientam nav jāmaksā atlikusī summa 10,00. Pēc rēķina atzīmēšanas segšanai varat arī atzīmēt vienumu **Pilnīga nosegšana**. Tad rēķins tiks uzskatīts par pilnībā nosegtu. 10,00 starpība tiek grāmatota uz termiņatlaides kontu kā papildu termiņatlaides summa.
+Klienti var veikt daļēju maksājumu, kur atlikusī summa netiks samaksāta, taču ir lielāka nekā nepilnas samaksas summa, kas norādīta lapā **Kreditoru moduļa parametri**. Ja rēķinu vēlaties atzīmēt kā pilnībā nosegtu, varat izmantot opciju **Pilnīga nosegšana** lapā **Nosegt transakciju**. (Jūs varat iespējot pilnīgas segšanas funkcionalitāti, izmantojot konfigurācijas atslēgu.) Piemēram, rēķins tiek iegrāmatots par summu 1000,00 un klients veic maksājumu 990,00. Jūs esat vienojušies, ka klientam nav jāmaksā atlikusī summa 10,00. Pēc rēķina atzīmēšanas segšanai varat arī atzīmēt vienumu **Pilnīga nosegšana**. Tad rēķins tiks uzskatīts par pilnībā nosegtu. 10,00 starpība tiek grāmatota uz termiņatlaides kontu kā papildu termiņatlaides summa.
 
 
-
+Papildinformāciju skatiet šeit: [Debitora maksājumu depozīts](tasks/deposit-customer-payments.md).
 

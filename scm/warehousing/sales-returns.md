@@ -15,13 +15,13 @@ ms.custom: 269384
 ms.assetid: 98a4b517-e606-4036-b55f-1ab248898bdf
 ms.search.region: Global
 ms.author: omulvad
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: b66bf79413ad21f12f789eabafe8413af3f58c9c
+ms.translationtype: HT
+ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
+ms.openlocfilehash: 0484723217ccff2ebf717d059429d863ececb797
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/02/2017
 
 ---
 
@@ -37,7 +37,7 @@ Debitori var atgriezt krājumus dažādu iemeslu dēļ. Piemēram, krājums var 
 ## <a name="return-order-process"></a>Atgriešanas pasūtījuma apstrādes process
 Tālāk esošajā attēlā ir sniegts pārskats par atgriešanas pasūtījuma apstrādes procesu.  
 
-[![salesreturns01](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
+[![Atgriešanas pasūtījuma apstrādes process](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
 
 Ir pieejami divi atgriešanas pasūtījuma apstrādes procesa veidi: fiziskā atgriešana un tikai kreditēšana.
 
@@ -213,7 +213,7 @@ Preču aizstāšanu var pārvaldīt divos veidos.
 
 Izmantojot iepriekšējo aizstāšanu, aizstāšanas krājumu var piegādāt debitoram pirms krājuma atgriešanas. Šī metode ir noderīga, piemēram, ja krājums ir iekārtas daļa, ko nevar noņemt, ja vien nav pieejama rezerves daļa tās nomaiņai, vai arī ja vēlaties, lai debitors pēc iespējas ātrāk saņemtu aizstāšanas preci. Iepriekšējās aizstāšanas pasūtījums ir neatkarīgs pārdošanas pasūtījums. Galvenes informācija sākotnēji tiek ņemta no debitora, bet rindas informācija sākotnēji tiek ņemta no atgriešanas pasūtījuma. Aizstāšanas pasūtījumu var rediģēt, apstrādāt un dzēst neatkarīgi no atgriešanas pasūtījuma. Kad dzēšat aizstāšanas pasūtījumu, saņemat ziņojumu par to, ka pasūtījums tika izveidots kā aizstāšanas pasūtījums. Tālāk esošajā attēlā ir redzams iepriekšējas aizstāšanas process.  
 
-[![Iepriekšējas aizstāšanas process](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn04.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn04.png)  
+![Iepriekšējas aizstāšanas process](./media/SalesReturn04.png)
 
 Atgriešanas pasūtījumā ir ietverta atsauce uz aizstāšanas pasūtījumu. Ja pirms bojātā krājuma atgriešanas tiek izveidots atgriešanas pasūtījuma iepriekšējas aizstāšanas pasūtījums, pēc bojātā krājuma atgriešanas nevarat atlasīt aizstāšanas atgriešanas metodes kodus.
 
@@ -221,7 +221,7 @@ Atgriešanas pasūtījumā ir ietverta atsauce uz aizstāšanas pasūtījumu. Ja
 
 Ja nosūtāt debitoram aizstāšanas krājumu un atgriešanas pasūtījumam izmantojat atgriešanas metodes darbību **Aizstāt un izbrāķēt** vai **Aizstāt un kreditēt**, izmantojiet tālāk esošajā attēlā redzamo procesu.  
 
-[![Aizstāšanas process, ja tiek izmantots atgriešanas metodes kods](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn05.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn05.png)  
+![Aizstāšanas process, ja tiek izmantots atgriešanas metodes kods](./media/SalesReturn05.png)
 
 Aizstāšanas krājums tiek piegādāts, izmantojot neatkarīgu pārdošanas pasūtījumu — aizstāšanas pārdošanas pasūtījumu. Šis pārdošanas pasūtījums tiek izveidots atgriešanas pasūtījuma pavadzīmes ģenerēšanas laikā. Pasūtījuma galvenā tiek izmantota informācija no debitora, uz kuru ir atsauce atgriešanas pasūtījuma galvenē. Rindas informācija tiek apkopota no lapā **Krājuma aizstājējs** ievadītās informācijas. Lapā **Krājuma aizstājējs** ir jāievada informācija par rindām, kuru atgriešanas metožu darbību nosaukums sākas ar vārdu “aizstāt”. Taču netiek pārbaudīts vai ierobežots ne aizstāšanas krājuma daudzums, ne tā identitāte. Šī funkcionalitāte ir piemērota gadījumiem, kad debitors vēlas saņemt tā paša krājuma atšķirīgas konfigurācijas vai izmēra variantu vai kad debitors vēlas saņemt pilnīgi citu krājumu. Pēc noklusējuma lapā **Krājuma aizstājējs** tiek ievadīta informācija par tieši tādu pašu krājumu. Taču varat atlasīt citu krājumu, ja vien ir iestatīta šī funkcija. **Piezīme.** Pēc aizstāšanas pārdošanas pasūtījuma izveides varat to rediģēt un dzēst.
 
@@ -254,7 +254,7 @@ Atgriešanas pasūtījumus var izpildīt starp diviem uzņēmumiem jūsu organiz
 
 Tālāk esošajā attēlā ir redzami minimālie iestatījumi, kas ir nepieciešami, lai divi uzņēmumi varētu piedalīties starpuzņēmumu relācijā un izmanot starpuzņēmumu tirdzniecības iespējas  
 
-[![Minimālie iestatījumi](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn06.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn06.png)  
+![Minimālais uzstādījums](./media/SalesReturn06.png)
 
 Tālāk aprakstītajā scenārijā CompBuy ir pirkšanas uzņēmums un CompSell ir pārdošanas uzņēmums. Parasti pārdošanas uzņēmums nosūta preces pirkšanas uzņēmuma vai tiešās piegādes sūtījuma scenārijos tieši gala debitoram. Uzņēmumā CompBuy kreditors IC\_CompSell ir definēts kā starpuzņēmumu galapunkts, kas ir saistīts ar uzņēmumu CompSell. Vienlaikus uzņēmumā CompSell debitors IC\_CompBuy ir definēts kā starpuzņēmumu galapunkts, kas ir saistīts ar uzņēmumu CompBuy. Abos uzņēmumos ir jābūt definētai atbilstošai darbību politikas informācijai un vērtību kartējumiem. Tiešās piegādes sūtījuma scenārija ietvaros pārdošanas uzņēmumā tiek izveidots starpuzņēmumu atgriešanas pasūtījums, kas ir arī starpuzņēmumu pārdošanas pasūtījums. Starpuzņēmumu atgriešanas pasūtījuma AKA kods var tikt iegūts no AKA koda numuru sērijas uzņēmumā CompSell vai kopēts no AKA koda, kas ir piešķirts sākotnējam atgriešanas pasūtījumam uzņēmumā CompBuy. Šīs darbības ir atkarīgas no darbības politikas **PurchaseRequisition** iestatījuma uzņēmumā CompBuy. Ja AKA kods tiek sinhronizēts, ir jāsagatavojas novērst kodu dublēšanos gadījumā, ja abos uzņēmumos tiek izmantota viena numuru sērija.
 
@@ -262,7 +262,7 @@ Tālāk aprakstītajā scenārijā CompBuy ir pirkšanas uzņēmums un CompSell 
 
 Šajā scenārijā ir iesaistīti divi uzņēmumi vienā organizācijā, kā tas ir redzams tālāk esošajā attēlā.  
 
-[![Vienkārša starpuzņēmumu atgriešana](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)  
+![Vienkārša starpuzņēmumu atgriešana](./media/SalesReturn07.png)
 
 Pasūtījumu ķēdi var izveidot, ja pirkšanas uzņēmumā tiek izveidots kreditora atgriešanas pasūtījums vai pārdošanas uzņēmumā tiek izveidots debitora atgriešanas pasūtījums. Programmatūra Dynamics 365 for Finance and Operations nodrošina attiecīgā pasūtījuma izvedi otrā uzņēmumā, kā arī to, ka galvenes un rindas informācija kreditora atgriešanas pasūtījumā atbilst iestatījumiem debitora atgriešanas pasūtījumā. Izveidotajā atgriešanas pasūtījumā var tikt ietverta atsauce (**Atrast pārdošanas pasūtījumu**) uz esošu debitora rēķinu, vai arī šī atsauce var tikt izslēgta. Abu pasūtījumu rēķinus un pavadzīmes var apstrādāt atsevišķi. Piemēram, nav nepieciešams ģenerēt kreditora atgriešanas pasūtījuma pavadzīmi pirms debitora atgriešanas pasūtījuma pavadzīmes ģenerēšanas.
 
@@ -270,7 +270,7 @@ Pasūtījumu ķēdi var izveidot, ja pirkšanas uzņēmumā tiek izveidots kredi
 
 Šo scenāriju var īstenot, ja iepriekš ir veikta veida **Tiešā piegāde** pārdošana un uzņēmumā, kas mijiedarbojas ar debitoru, pastāv šim debitoram izrakstīts rēķins. Tālāk esošajā attēlā ir redzams, ka uzņēmums CompBuy iepriekš ir pārdevis rēķinos ietvertas preces debitoram Extern. Preces tika tieši nosūtītas debitoram no uzņēmuma CompSell, izmantojot starpuzņēmumu pasūtījumu ķēdi.  
 
-[![Tiešās piegādes sūtījuma atgriešanas starp trim pusēm](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn08.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn08.png)  
+![Tiešās piegādes sūtījuma atgriešanas starp trim pusēm](./media/SalesReturn08.png)
 
 Ja debitors Extern vēlas atgriezt preces, uzņēmumā CompBuy debitoram tiek izveidots atgriešanas pasūtījums (RMA02). Lai izveidotu starpuzņēmumu ķēdi, atgriešanas pasūtījums ir jāatzīmē tiešajai piegādei. Ja atgriežamā debitora rēķina izvēlei izmantojat funkciju **Atrast pārdošanas pasūtījumu**, tiek izveidota starpuzņēmumu pasūtījumu ķēde, kas sastāv no tālāk norādītajiem dokumentiem.
 
@@ -292,7 +292,7 @@ Tālāk sniegtajos piemēros atgrieztās vienības izmaksu cena ir norādīta k�
 
 Atgriešanas pasūtījumā nav atsauces uz debitora rēķinu. Atgrieztais krājums tiek kreditēts. Ģenerējot atgriešanas pasūtījuma rēķinu vai kredīta notu, nav atlasīts parametrs **Kredīta korekcija**.  
 
-[![Atgriešanas pasūtījumā nav atsauces uz debitora rēķinu](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn09.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn09.png)  
+![Atgriešanas pasūtījumā nav atsauces uz debitora rēķinu](./media/SalesReturn09.png)  
 
 **Piezīme.** Kā parametra **Vienības izmaksu cena** noklusējuma vērtība tiek izmantota krājuma šablona cena. Noklusējuma cena atšķiras no izmaksu cenas krājumu izejas plūsmas laikā. Tāpēc sekas ir 3 naudas vienību zaudējums. Turklāt atgriešanas pasūtījumā nav ietverta atlaide, kas debitoram tika piešķirta pārdošanas pasūtījumā. Tāpēc rodas pārāk liels kredīts.
 
@@ -300,7 +300,7 @@ Atgriešanas pasūtījumā nav atsauces uz debitora rēķinu. Atgrieztais krāju
 
 2. piemērs ir tāds pats kā 1. piemērs, taču, ģenerējot atgriešanas pasūtījuma rēķinu, ir atlasīts parametrs **Kredīta korekcija**.  
 
-[![Atgriešanas pasūtījums, kam ir atlasīts parametrs Kredīta korekcija ](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn10.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn10.png)  
+![Atgriešanas pasūtījums, kam ir atlasīts parametrs Kredīta korekcija ](./media/SalesReturn10.png)  
 
 **Piezīme.** Virsgrāmatas ieraksti ir grāmatoti kā korekcijas ar negatīvu vērtību.
 
@@ -308,7 +308,7 @@ Atgriešanas pasūtījumā nav atsauces uz debitora rēķinu. Atgrieztais krāju
 
 Šajā piemērā atgriešanas pasūtījuma rinda ir izveidota, izmantojot funkciju **Atrast pārdošanas pasūtījumu**. Veidojot rēķinu, nav atlasīts parametrs **Kredīta korekcija**.  
 
-[![Atgriešanas pasūtījuma rinda, kas ir izveidota, izmantojot funkciju Atrast pārdošanas pasūtījumu ](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn11.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn11.png)  
+![Atgriešanas pasūtījuma rinda, kas ir izveidota, izmantojot funkciju Atrast pārdošanas pasūtījumu ](./media/SalesReturn11.png)  
 
 **Piezīme.** Parametri **Atlaide** un **Vienības izmaksu cena** ir iestatīti pareizi. Tāpēc notiek debitora rēķina precīza anulēšana.
 

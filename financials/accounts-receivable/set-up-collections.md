@@ -1,9 +1,9 @@
 ---
 title: "Kredīta un iekasēšanas iestatīšana"
 description: "Šajā rakstā ir paskaidrots, kā iestatīt iekasēšanas funkcionalitāti."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,14 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14031
 ms.assetid: dcc6da2f-9af5-4f1d-abaa-b72967b66979
 ms.search.region: Global
-ms.author: mfalkner
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4d3682c486e80afd03ec5805575357f4e87781f2
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 76937aacbc1925603766299168ec2d4090bd161b
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -39,7 +39,7 @@ ms.lasthandoff: 05/25/2017
 Iestatiet vecumstruktūras perioda definīciju. Vecumstruktūras perioda definīcija nosaka kolonnas, kas tiek rādītas sarakstu lapās **Vecas bilances**, **Iekasēšanas aktivitātes** un **Iekasēšanas gadījumi**. Tā definē arī periodus, kas tiek rādīti lapā **Iekasēšana**. Ja ir iestatīta debitoru kopa, kopai tiek izmantota vecumstruktūras perioda definīcija. Ja kopas nav iestatītas, tiek izmantota noklusējuma vecumstruktūras perioda definīcija, kas ir norādīta lapā **Debitoru moduļa parametri**. Ja noklusējuma vecumstruktūras perioda definīcija nav norādīta, tiek izmantota pirmā vecumstruktūras perioda definīcija no lapas **Vecumstruktūras perioda definīcijas**.
 
 ## <a name="create-an-aging-snapshot"></a>Izveidot vecumstruktūras momentuzņēmumu
-Izveidojiet vecumstruktūras momentuzņēmumu ierakstus visiem debitoriem vai debitoru kopai. Vecumstruktūras momentuzņēmuma informācija tiek rādīta saraksta lapā**Vecas bilances** un lapā **Iekasēšana**. Vispirms ir jāizveido vecumstruktūras momentuzņēmums, un tikai tad varat izmantot saraksta lapu. Saraksta lapā tiek rādīta informācija tikai par tiem debitoriem, kuriem ir izveidots vecumstruktūras momentuzņēmums.
+Izveidojiet vecumstruktūras momentuzņēmumu ierakstus visiem debitoriem vai debitoru kopai. Vecumstruktūras momentuzņēmuma informācija tiek rādīta saraksta lapā **Vecas bilances** un lapā **Iekasēšana**. Vispirms ir jāizveido vecumstruktūras momentuzņēmums, un tikai tad varat izmantot saraksta lapu. Saraksta lapā tiek rādīta informācija tikai par tiem debitoriem, kuriem ir izveidots vecumstruktūras momentuzņēmums.
 
 ## <a name="optional-set-up-customer-pools"></a>Pēc izvēles: iestatīt debitoru kopas
 Lai attēlotu debitoru grupas, varat iestatīt debitoru kopas. Debitoru kopas varat izmantot kā filtrus debitoru informācijai, kas tiek rādīta sarakstu lapās **Iekasēšana**, lapā **Iekasēšana**, vai veidojot vecumstruktūras momentuzņēmumus.
@@ -69,7 +69,7 @@ Ja no lapas **Iekasēšana** sūtīsiet e-pasta ziņojumus, kuriem ir Microsoft 
 Iestatiet debitoru moduļa parametrus, kas tiek rādīti cilnē **Iekasēšana**.
 
 ## <a name="optional-set-up-collections-agents"></a>Pēc izvēles: iestatīt iekasēšanas aģentus
-Ja vairāki cilvēki jūsu organizācijā veic iekasēšanas darbu, varat iestatīt iekasēšanas aģentus. Iekasēšanas aģents ir darbinieks, kas ir iestatīts kā lietotājs lapā **Lietotāju attiecības**. Lai aģentiem palīdzētu organizēt viņu darbu, iekasēšanas aģentiem varat piešķirt debitoru kopas (debitoru vaicājumus). Iekasēšanas aģenti tiek pievienoti darba grupai, kas ir atlasīta lapā**Debitoru moduļa parametri**. Ja šajā lapā nav atlasīta neviena grupa, automātiski tiek izveidota jauna grupa ar nosaukumu **Iekasēšana**, un iekasēšanas aģenti tiek pievienoti šai grupai.
+Ja vairāki cilvēki jūsu organizācijā veic iekasēšanas darbu, varat iestatīt iekasēšanas aģentus. Iekasēšanas aģents ir darbinieks, kas ir iestatīts kā lietotājs lapā **Lietotāju attiecības**. Lai aģentiem palīdzētu organizēt viņu darbu, iekasēšanas aģentiem varat piešķirt debitoru kopas (debitoru vaicājumus). Iekasēšanas aģenti tiek pievienoti darba grupai, kas ir atlasīta lapā **Debitoru moduļa parametri**. Ja šajā lapā nav atlasīta neviena grupa, automātiski tiek izveidota jauna grupa ar nosaukumu **Iekasēšana**, un iekasēšanas aģenti tiek pievienoti šai grupai.
 
 ## <a name="set-up-a-writeoff-account"></a>Iestatīt norakstīšanas kontu
 Iestatiet norakstīšanas kontu, kas tiek izmantots virsgrāmatas norakstīšanas ierakstam, kad tiek norakstīta kāda transakcija. Šis konts tiek glabāts debitoru grāmatošanas metodē.
@@ -94,5 +94,12 @@ Ja vēlaties sūtīt e-pasta ziņojumus pārdevējiem, kas norādīti lapā **Ie
 Ja tirdzniecības pārstāvis nav norādīts, tiek izmantots debitora organizācijas primārais pārdevējs. Ja primārais pārdevējs nav norādīts, tad e-pasta ziņojumi tiek sūtīti pirmajam pārdevējam, kas ir norādīts šajā lapā.
 
 
+Lai iegūtu papildu informāciju, skatiet šādas tēmas:
+
+ - [Atgādinājuma vēstules secības izveide](tasks/create-collection-letter-sequence.md)
+ 
+ - [Atgādinājuma vēstuļu apstrāde](tasks/process-collection-letters.md)
+ 
+ - [Iekasēšanas informācijas pārskatīšana](tasks/review-collections-information.md)
 
 

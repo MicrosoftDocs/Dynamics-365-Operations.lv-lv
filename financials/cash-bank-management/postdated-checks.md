@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: f7cf2b7996d113f0f883b39f3603de8236e8ad2c
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 6a535b5f1192b7c27383cb8ece53f76a9c76f047
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -52,7 +51,7 @@ Microsoft Dynamics 365 for Finance and Operations atbalsta pilnu ar iepriekšē
 </tr>
 <tr class="even">
 <td>Reģistrēt un grāmatot čeku kreditoram, kas datēts ar iepriekšēju datumu</td>
-<td>Reģistrējiet informāciju par kreditoram izsniegto čeku, kas datēts ar iepriekšēju datumu. Grāmatojot maksājumu, tiek atzītas kreditora saistības, taču vēl netiek kreditēts bankas konts. Tā vietā šim nolūkam tiek lietots klīringa konts.</td>
+<td>Reģistrējiet informāciju par kreditoram izsniegto čeku, kas datēts ar iepriekšēju datumu. Grāmatojot maksājumu, tiek atzītas kreditora saistības, taču vēl netiek kreditēts bankas konts. Tā vietā šim nolūkam tiek lietots klīringa konts. </td>
 </tr>
 <tr class="odd">
 <td>Ar iepriekšēju datumu datētu čeku reģistrēšana un grāmatošana debitoram</td>
@@ -87,6 +86,17 @@ Ja jūsu sākotnējais kreditoram izsniegtais vai no debitora saņemtais čeks i
 
 
 
+Lai iegūtu papildu informāciju, skatiet šādas tēmas:
+
+[Ar iepriekšēju datumu datētu čeku iestatīšana](tasks/set-up-postdated-checks.md)
+
+[Ar iepriekšēju datumu datētu čeku reģistrēšana un grāmatošana debitoram](tasks/register-post-postdated-check-customer.md)
+
+[Ar iepriekšēju datumu datētu čeku no debitora apmaksa](tasks/settle-postdated-check-customer.md)
+
+[Ar iepriekšēju datumu datētu čeku reģistrēšana un grāmatošana kreditoram](tasks/register-post-postdated-check-vendor.md) 
+
+[Ar iepriekšēju datumu datētu čeku no kreditora apmaksa](tasks/settle-postdated-check-vendor.md)
 
 
 

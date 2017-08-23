@@ -16,12 +16,12 @@ ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2dd3db95eb741c37dd8a50c397cb4c9494599250
-ms.openlocfilehash: 993586b1fb46c21d2b68a6060ab897c8ccc76a6c
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 58d36505461ea89bf466209d3da968d1357e58ae
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -131,11 +131,11 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
 ## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Ātra izdevumu ievadīšana, izmantojot mobilo darbvietu Izdevumu pārvaldība
 1. Mobilajā ierīcē atveriet darbvietu **Izdevumu pārvaldība**.
 2. Atlasiet **Ātra izdevumu ievade**.
-3. Atlasiet izdevumu kategoriju. Tiek parādīts to izdevumu kategoriju saraksts, kas ir ielādētas programmā lietošanai bezsaistes režīmā. Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Ja vajadzīgā kategorija nav sarakstā, atlasiet **Meklēšana**, lai veiktu tiešsaistes meklēšanu. Meklējiet pēc izdevumu kategorijas vai pārslēdzieties uz meklēšanu pēc izdevumu veida.
+3. Atlasiet izdevumu kategoriju. Tiek parādīts to izdevumu kategoriju saraksts, kas ir ielādētas programmā lietošanai bezsaistes režīmā. Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ja vajadzīgā kategorija nav sarakstā, atlasiet **Meklēšana**, lai veiktu tiešsaistes meklēšanu. Meklējiet pēc izdevumu kategorijas vai pārslēdzieties uz meklēšanu pēc izdevumu veida.
 4. Ievadiet izdevuma darījuma datumu.
 5. Nav obligāti: ievadiet izdevumu komersanta nosaukumu.
 6. Ievadiet izdevumu summu.
-7. Atlasiet izdevumu valūtu. Tiek parādīts to valūtas kodu saraksts, kas ir ielādēti programmā lietošanai bezsaistes režīmā. Pēc noklusējuma tiek ielādēti 400 valūtu nosaukumi, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Ja vajadzīgā valūta nav sarakstā, atlasiet **Meklēšana**, lai veiktu tiešsaistes meklēšanu. Meklējiet pēc valūtas vai pārslēdzieties uz meklēšanu pēc nosaukuma.
+7. Atlasiet izdevumu valūtu. Tiek parādīts to valūtas kodu saraksts, kas ir ielādēti programmā lietošanai bezsaistes režīmā. Pēc noklusējuma tiek ielādēti 400 valūtu nosaukumi, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ja vajadzīgā valūta nav sarakstā, atlasiet **Meklēšana**, lai veiktu tiešsaistes meklēšanu. Meklējiet pēc valūtas vai pārslēdzieties uz meklēšanu pēc nosaukuma.
 8. Atlasiet **Uzņemt fotoattēlu** vai **Izvēlēties attēlu**.
 9. Izpildiet kādu no norādītajām transakcijām.
 
@@ -166,11 +166,11 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
 7. Atlasiet vienu vai vairākus izdevumus sarakstā.
 8. Atlasiet **Gatavs**.
 9. Lai izdevumu pārskatam pievienotu jaunus izdevumus, atlasiet **Jauni izdevumi**.
-10. Atlasiet izdevumu kategoriju. Tiek parādīts to izdevumu kategoriju saraksts, kas ir ielādētas programmā lietošanai bezsaistes režīmā. Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Ja vajadzīgā kategorija nav sarakstā, atlasiet **Meklēšana**, lai veiktu tiešsaistes meklēšanu. Meklējiet pēc izdevumu kategorijas vai pārslēdzieties uz meklēšanu pēc izdevumu veida.
+10. Atlasiet izdevumu kategoriju. Tiek parādīts to izdevumu kategoriju saraksts, kas ir ielādētas programmā lietošanai bezsaistes režīmā. Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ja vajadzīgā kategorija nav sarakstā, atlasiet **Meklēšana**, lai veiktu tiešsaistes meklēšanu. Meklējiet pēc izdevumu kategorijas vai pārslēdzieties uz meklēšanu pēc izdevumu veida.
 11. Nav obligāti: ievadiet izdevumu komersanta nosaukumu.
 12. Ievadiet izdevuma darījuma datumu.
 13. Ievadiet izdevumu summu.
-14. Atlasiet izdevumu valūtu. Tiek parādīts to valūtas kodu saraksts, kas ir ielādēti programmā lietošanai bezsaistes režīmā. Pēc noklusējuma tiek ielādēti 400 valūtu nosaukumi, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Ja vajadzīgā valūta nav sarakstā, atlasiet **Meklēšana**, lai veiktu tiešsaistes meklēšanu. Meklējiet pēc valūtas vai pārslēdzieties uz meklēšanu pēc nosaukuma.
+14. Atlasiet izdevumu valūtu. Tiek parādīts to valūtas kodu saraksts, kas ir ielādēti programmā lietošanai bezsaistes režīmā. Pēc noklusējuma tiek ielādēti 400 valūtu nosaukumi, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ja vajadzīgā valūta nav sarakstā, atlasiet **Meklēšana**, lai veiktu tiešsaistes meklēšanu. Meklējiet pēc valūtas vai pārslēdzieties uz meklēšanu pēc nosaukuma.
 15. Atlasiet **Gatavs**.
 16. Lai izdevumiem pievienotu papildinformāciju, atlasiet **Pievienot papildinformāciju**. Pieejamie lauki ir atkarīgi no izmaksu pārvaldības konfigurācijas jūsu uzņēmumā.
 17. Ja saskaņā ar uzņēmuma politiku izdevumiem ir nepieciešama kvīts, atlasiet **Kvītis** un pēc tam veiciet tālāk norādītās darbības.
@@ -216,12 +216,12 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
 
         - Ja atlasījāt **Iepriekšējie viesi**, rīkojieties, kā aprakstīts tālāk.
 
-            1. Atlasiet vienu vai vairākus iepriekšējos viesus sarakstā. Varat skatīt sarakstu ar iepriekšējiem viesiem, kuras esat pievienojis iepriekšējiem izdevumu pārskatiem, kas ir ielādēti programmā lietošanai bezsaistes režīmā. Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Ja vajadzīgais iepriekšējais viesis nav sarakstā, atlasiet **Meklēšana**, lai veiktu tiešsaistes meklēšanu. Meklējiet pēc vārda vai pārslēdziet uz meklēšanu pēc organizācijas, valsts vai amata.
+            1. Atlasiet vienu vai vairākus iepriekšējos viesus sarakstā. Varat skatīt sarakstu ar iepriekšējiem viesiem, kuras esat pievienojis iepriekšējiem izdevumu pārskatiem, kas ir ielādēti programmā lietošanai bezsaistes režīmā. Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ja vajadzīgais iepriekšējais viesis nav sarakstā, atlasiet **Meklēšana**, lai veiktu tiešsaistes meklēšanu. Meklējiet pēc vārda vai pārslēdziet uz meklēšanu pēc organizācijas, valsts vai amata.
             2. Atlasiet **Gatavs**.
 
         - Ja atlasījāt **Kolēģi**, rīkojieties, kā aprakstīts tālāk.
 
-            1. Atlasiet vienu vai vairākus kolēģus sarakstā. Tiek parādīts saraksts ar kolēģiem, kas ir ielādēti programmā lietošanai bezsaistes režīmā. Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Ja vajadzīgais kolēģis nav sarakstā, atlasiet **Meklēšana**, lai veiktu tiešsaistes meklēšanu. Meklējiet pēc vārda vai pārslēdziet uz meklēšanu pēc uzņēmuma vai amata.
+            1. Atlasiet vienu vai vairākus kolēģus sarakstā. Tiek parādīts saraksts ar kolēģiem, kas ir ielādēti programmā lietošanai bezsaistes režīmā. Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ja vajadzīgais kolēģis nav sarakstā, atlasiet **Meklēšana**, lai veiktu tiešsaistes meklēšanu. Meklējiet pēc vārda vai pārslēdziet uz meklēšanu pēc uzņēmuma vai amata.
             2. Atlasiet **Gatavs**.
 
     3. Atlasiet pogu **Atpakaļ**, lai atgrieztos pie izdevumu detalizētās informācijas.
@@ -230,7 +230,7 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
 
     1. Atlasiet pirmo datumu, kas jāuzskaita.
     2. Atlasiet **Pievienot specifikāciju**.
-    3. Izvēlieties izdevumu specifikācijas apakškategoriju. Tiek parādīts saraksts ar izdevumu apakškategorijām, kas ir ielādētas programmā lietošanai bezsaistes režīmā. Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Ja vajadzīgā apakškategorija nav sarakstā, atlasiet **Meklēšana**, lai veiktu tiešsaistes meklēšanu. Meklējiet pēc izdevumu apakškategorijas nosaukuma.
+    3. Izvēlieties izdevumu specifikācijas apakškategoriju. Tiek parādīts saraksts ar izdevumu apakškategorijām, kas ir ielādētas programmā lietošanai bezsaistes režīmā. Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ja vajadzīgā apakškategorija nav sarakstā, atlasiet **Meklēšana**, lai veiktu tiešsaistes meklēšanu. Meklējiet pēc izdevumu apakškategorijas nosaukuma.
     4. Ievadiet specifikācijas transakcijas summu.
     5. Rediģējiet transakcijas datumu, ja tas ir nepieciešams.
     6. Atlasiet **Gatavs**.

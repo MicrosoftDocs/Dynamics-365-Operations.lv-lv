@@ -3,7 +3,7 @@ title: "Pārdošanas nodokļa apskats"
 description: "Šajā rakstā ir sniegts pārskats par pārdošanas nodokļa sistēmu. Tajā ir paskaidroti pārdošanas nodokļa iestatīšanas elementi un to mijiedarbība."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 415928125c14dfc69020b712f281835701ba2f83
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: f4838dade6b2694a11f4b9775fe53560b1332f18
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -47,7 +46,7 @@ Nākamajā diagrammā ir parādīti nodokļu iestatījumu elementi un kā tie ir
 
 Katram PVN veidam, par kuru uzņēmumam ir jāatskaitās, ir jādefinē PVN kods. Pārdošanas nodokļa kods glabā nodokļu likmes un aprēķina kārtulas šim pārdošanas nodoklim. 
 
-Katrs pārdošanas nodokļa kods ir jāsaista ar pārdošanas nodokļa apmaksas periodu. Pārdošanas nodokļa apmaksas periodi definē intervālus, kādos par pārdošanas nodokli ir jāziņo un tas ir jāsamaksā pārdošanas nodokļa iestādei. Katrs pārdošanas nodokļa apmaksas periods ir jāpiešķir kādai pārdošanas nodokļa iestādei. Pārdošanas nodokļa iestāde ir persona, kam tiek ziņots par pārdošanas nodokli un kam tas tiek samaksāts. Tas definē arī pārdošanas nodokļa atskaites izkārtojumu. Pārdošanas nodokļa iestādes var būt saistītas ar kreditoru kontiem. 
+Katrs pārdošanas nodokļa kods ir jāsaista ar pārdošanas nodokļa apmaksas periodu. Pārdošanas nodokļa apmaksas periodi definē intervālus, kādos par pārdošanas nodokli ir jāziņo un tas ir jāsamaksā pārdošanas nodokļa iestādei. Katrs pārdošanas nodokļa apmaksas periods ir jāpiešķir kādai pārdošanas nodokļa iestādei. Pārdošanas nodokļa iestāde ir persona, kam tiek ziņots par pārdošanas nodokli un kam tas tiek samaksāts. Tas definē arī pārdošanas nodokļa atskaites izkārtojumu. Pārdošanas nodokļa iestādes var būt saistītas ar kreditoru kontiem. Plašāku informāciju skatiet šeit: [Iestatīt PVN apmaksas periodus](tasks/set-up-sales-tax-settlement-periods.md).
 
 Katrs pārdošanas nodokļa kods ir jāsaista arī ar virsgrāmatas grāmatošanas grupu. Virsgrāmatas grāmatošanas grupa norāda galvenos kontus, kuros ir jāgrāmato pārdošanas nodokļa kodu summas. 
 
@@ -60,13 +59,13 @@ Nākamajā tabulā ir aprakstīti nodokļa iestatīšanas elementi un to secība
 | Iestatīšanas darbība                                                  | Vai darbība ir obligāta/neobligāta un tās apraksts                                                                                                                                                                                                                                                                                         |
 |-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Izveidojiet galvenos kontus.                                           | Obligāta. Pirms pārdošanas nodokļa funkcionalitātes iestatīšanas ir jāizveido galvenie konti, ko uzņēmums lieto nodokļu samaksai un to ierakstīšanai.                                                                                                                                                                             |
-| Iestatiet Virsgrāmatas grāmatošanas grupas pievienotās vērtības nodoklim.                     | Obligāta. Virsgrāmatas grāmatošanas grupas definē galvenos kontus pārdošanas nodokļu reģistrēšanai un maksāšanai.                                                                                                                                                                                                                            |
-| Iestatiet pārdošanas nodokļa iestādes.                                   | Obligāta. Pārdošanas nodokļa iestādes ir iestādes, kurām šis nodoklis ir jāziņo un jāmaksā.                                                                                                                                                                                                                                   |
+| Iestatiet Virsgrāmatas grāmatošanas grupas pievienotās vērtības nodoklim.                     | Obligāta. Virsgrāmatas grāmatošanas grupas definē galvenos kontus pārdošanas nodokļu reģistrēšanai un maksāšanai.   Plašaku informāciju skatiet šeit: [Virsgrāmatas PVN grāmatošanas grupu iestatīšana](tasks/set-up-ledger-posting-groups-sales-tax.md).                                                                                 |
+| Iestatiet pārdošanas nodokļa iestādes.                                   | Obligāta. Pārdošanas nodokļa iestādes ir iestādes, kurām šis nodoklis ir jāziņo un jāmaksā.    Plašāku informāciju skatiet šeit: [PVN iestāžu iestatīšana](tasks/set-up-sales-tax-authorities.md).                                                                                                                                          |
 | Iestatiet pārdošanas nodokļa apmaksas periodus.                            | Obligāta. Pārdošanas nodokļa apmaksas periodi satur informāciju par to, kad un cik bieži ir jāatskaitās par pārdošanas nodokli un tas ir jāmaksā. Tie ir saistīti ar pārdošanas nodokļa iestādi.                                                                                                                                                       |
-| Iestatiet pārdošanas nodokļu atskaišu kodus.                               | Neobligāta. Pārdošanas nodokļa atskaišu kodus var piešķirt pārdošanas nodokļa kodiem, lai ziņotu summas vairākiem pārdošanas nodokļa kodiem saskaņā ar vienu pārdošanas nodokļa atskaišu kodu.                                                                                                                                                                 |
-| Iestatiet pārdošanas nodokļa kodus.                                         | Obligāta. Pārdošanas nodokļa kodi ietver nodokļu likmes un aprēķina kārtulas katram pārdošanas nodoklim. Pārdošanas nodokļa kodi ir saistīti ar pārdošanas nodokļa apmaksas periodu un virsgrāmatas grāmatošanas grupu.                                                                                                                                        |
+| Iestatiet pārdošanas nodokļu atskaišu kodus.                               | Neobligāta. Pārdošanas nodokļa atskaišu kodus var piešķirt pārdošanas nodokļa kodiem, lai ziņotu summas vairākiem pārdošanas nodokļa kodiem saskaņā ar vienu pārdošanas nodokļa atskaišu kodu. Plašāku informāciju skatiet šeit: [Iestatīt PVN pārskatu kodus](tasks/set-up-sales-tax-reporting-codes.md).                                         |
+| Iestatiet pārdošanas nodokļa kodus.                                         | Obligāta. Pārdošanas nodokļa kodi ietver nodokļu likmes un aprēķina kārtulas katram pārdošanas nodoklim. Pārdošanas nodokļa kodi ir saistīti ar pārdošanas nodokļa apmaksas periodu un virsgrāmatas grāmatošanas grupu. Plašāku informāciju skatiet šeit: [Iestatīt PVN kodus](tasks/set-up-sales-tax-codes.md).                                |
 | Iestatiet pārdošanas nodokļu grupas.                                        | Obligāta. Pārdošanas nodokļu grupas satur sarakstu ar pārdošanas kodiem, kas attiecas uz transakcijas pusi (debitoru vai kreditoru). Attiecīgajai transakcijai pārdošanas nodokļa kodu krustpunkts pārdošanas nodokļu grupā un krājumu pārdošanas nodokļu grupā nosaka pārdošanas nodokļa kodus, kas attiecas uz šo transakciju.                  |
-| Iestatiet krājumu pārdošanas nodokļu grupas.                                   | Obligāta. Krājumu pārdošanas nodokļu grupas satur sarakstu ar pārdošanas kodiem, kas attiecas uz transakcijas resursu (preci, pakalpojumu un citiem resursiem). Attiecīgajai transakcijai pārdošanas nodokļa kodu krustpunkts pārdošanas nodokļu grupā un krājumu pārdošanas nodokļu grupā nosaka pārdošanas nodokļa kodus, kas attiecas uz šo transakciju. |
+| Iestatiet krājumu pārdošanas nodokļu grupas.                                   | Obligāta. Krājumu pārdošanas nodokļu grupas satur sarakstu ar pārdošanas kodiem, kas attiecas uz transakcijas resursu (preci, pakalpojumu un citiem resursiem). Attiecīgajai transakcijai pārdošanas nodokļa kodu krustpunkts pārdošanas nodokļu grupā un krājumu pārdošanas nodokļu grupā nosaka pārdošanas nodokļa kodus, kas attiecas uz šo transakciju. Plašāku informāciju skatiet šeit: [PVN grupu un krājumu PVN grupu iestatīšana](tasks/set-up-sales-tax-groups-item-sales-tax-groups.md). |
 | Iestatiet pārdošanas nodokļa parametrus programmas parametru lapās. | Obligāta. Dažādos apgabalos, piemēram, apgabalos Virsgrāmata, Debitori un Kreditori, ir jāiestata parametri pareizai netiešo nodokļu aprēķināšanai. Lai gan lielākajai daļai šo parametru ir noklusējuma vērtības, tās ir jāmaina, lai atbilstu katra uzņēmuma vajadzībām.                                          |
 
 ## <a name="sales-tax-on-transactions"></a>Pārdošanas nodoklis transakcijām
@@ -98,5 +97,5 @@ Parasti nodokļu iestādei ir jāsamaksā 2500 jūnijā, kad tiek grāmatots rē
 Taču, ja lietojat nosacījuma PVN, PVN nodokļu iestādei ir jāmaksā 30. jūlijā, kad saņemat maksājumu no debitora.
 
 
-
+Plašāku informāciju skatiet šeit: [Iestatīt ieturētā nodokļa kodus](tasks/set-up-withholding-tax.md).
 

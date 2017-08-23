@@ -3,7 +3,7 @@ title: "ISO20022 failu importēšana"
 description: "Šajā tēmā izskaidrots, kā importēt maksājumu failus ISO 20022 camt.054 un pain.002 formātos Microsoft Dynamics 365 for Finance and Operations Enterprise izdevumā."
 author: neserovleo
 manager: AnnBe
-ms.date: 05/25/2017
+ms.date: 07/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -13,13 +13,13 @@ ms.reviewer: shylaw
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Italy, Latvia, Lithuania, Norway, Poland, Spain, Sweden, Switzerland, United Kingdom
 ms.author: v-lenest
-ms.search.validFrom: 2017-06-01T00:00:00.000Z
+ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: Enterprise edition, July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 48e280bf0a6c5db237bd389fe448c9d698d3ae12
-ms.openlocfilehash: acf6ed5f503d77f372d802a51a71cec062c2b24b
+ms.sourcegitcommit: 77a0d4c2a31128fb7d082238d443f297fd40664f
+ms.openlocfilehash: 90e21bb939bd96a3420decb5f9bc07c017c3e946
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 07/31/2017
 
 ---
 
@@ -105,4 +105,29 @@ Ja importējat camt.054 failu, jums ir jānorāda tālāk norādītie papildu pa
 - **Transakciju nosegšana** — iestatiet šo opciju uz **Jā**, ja importētie kreditoru maksājumi ir jānosedz ar rēķiniem, kas ir atrasti sistēmā.
 
 Importēto informāciju var skatīt lapā **Maksājumu pārsūtījumi**. 
+
+## <a name="additional-details"></a>Papildu informācija
+
+Importējot formāta konfigurāciju no LCS, tiek importēts viss konfigurācijas koks, un tas nozīmē, ka ir iekļauts modelis un modeļa kartēšana konfigurācijas. Sākot no 8. versijas, maksājumu modelī kartējumi atrodas risinājumu kokā atsevišķās ER konfigurācijās (maksājumu modeļa kartējums 1611, maksājumu modeļa kartējums līdz galamērķim ISO20022 utt.). Atsevišķā modelī ir daudz dažādu maksājuma formātu (maksājuma modelis), tādējādi kartējumu apstrāde ir galvenais nosacījums vienkāršai risinājuma uzturēšanai. Piemērs. Jūs izmantojat ISO20022 maksājumus, lai ģenerētu kredīta pārskaitījuma failus, un pēc tam importējat atbildes ziņojumus no bankas. Šādā scenārijā jums būtu jāizmanto šādas konfigurācijas:
+
+ - **Maksājuma modelis**
+ - **Maksājumu modeļa kartējums 1611** — šis kartējums tiks lietots, lai ģenerētu eksporta failu
+ - **Maksājumu modeļa kartējums līdz galamērķim ISO20022** — šajā konfigurācijā ir iekļauti visi kartējumi, kas tiks izmantoti datu importēšanai (kartējuma virziens: "uz galamērķi")
+ - **ISO20022 kredīta pārskaitījums** — šajā konfigurācijā ir iekļauts formāta komponents, kas ir atbildīgs par eksporta faila ģenerēšana (pain.001), pamatojoties uz maksājumu modeļa kartējumu 1611, kā arī formāta-modeļa kartējuma komponents, kas tiks izmantots kopā ar maksājumu modeļa kartējumu līdz galamērķim ISO20022, lai reģistrētu eksportētos maksājumus sistēmā turpmākas importēšanas vajadzībām (importēšana tehniskajā tabulā CustVendProcessedPayments)
+ - **ISO20022 pārskaitījums (CE)**, kur CE atbilst valsts paplašinājumam — ISO20022 kredīta pārskaitījuma atvasināts formāts ar tādu pašu struktūru un konkrētajai valstij raksturīgam atšķirībām
+ - **Pain.002** — šis formāts tiks izmantots kopā ar maksājumu modeļa kartējumu līdz galamērķim ISO20022, lai importētu failu pain.002 kreditoru maksājumu pārskaitījumu žurnālu
+ - **Camt.054** — šis formāts tiks izmantots kopā ar maksājumu modeļa kartējumu līdz galamērķim ISO20022, lai importētu failu camt.054 kreditoru maksājumu pārskaitījumu žurnālu. Tāda pati formātu konfigurācija tiks izmantota debitoru maksājumu importēšanas funkcionalitātē, tomēr atšķirīgs kartējums tiks izmantots maksājumu modeļa kartējumā līdz galamērķa ISO20022 konfigurācijai.
+
+Plašāku informāciju par elektronisko pārskatu veidošanu skatiet šeit: [Elektronisko pārskatu veidošanas apskats](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
+
+## <a name="additional-resources"></a>Papildu resursi
+- [Kreditoru maksājumu izveide un eksportēšana, izmantojot maksājumu formātu ISO20022](./tasks/create-export-vendor-payments-iso20022-payment-format.md)
+- [ISO20022 pārvietošanai kredītā konfigurācijas importēšana](./tasks/import-iso20022-credit-transfer-configuration.md)
+- [ISO20022 tiešā debeta konfigurācijas importēšana](./tasks/import-iso20022-direct-debit-configuration.md)
+- [Uzņēmuma bankas kontu iestatīšana ISO20022 kredīta pārsūtījumiem](./tasks/set-up-company-bank-accounts-iso20022-credit-transfers.md)
+- [Uzņēmuma bankas kontu iestatīšana ISO20022 tiešajiem debetiem](./tasks/set-up-company-bank-accounts-iso20022-direct-debits.md)
+- [Debitoru un debitoru bankas kontu iestatīšana ISO20022 tiešajiem debetiem](./tasks/set-up-bank-accounts-iso20022-direct-debits.md)
+- [Maksājuma metodes iestatīšana ISO20022 pārvietošanai kredītā](./tasks/set-up-method-payment-iso20022-credit-transfer.md)
+- [Maksājumu metodes iestatīšana ISO20022 tiešajam debetam](./tasks/setup-method-payment-iso20022-direct-debit.md)
+- [Kreditoru un kreditoru bankas kontu iestatīšana ISO20022 kredīta pārsūtījumiem](./tasks/set-up-vendor-iso20022-credit-transfers.md)
 
