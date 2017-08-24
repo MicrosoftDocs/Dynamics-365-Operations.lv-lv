@@ -13,13 +13,13 @@ ms.reviewer: margoc
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: fc446f381850f4f42b6dbc886646d3d32f2d5dd7
-ms.openlocfilehash: 1b46d24a0f671502c9dc3d46849240342d680468
+ms.sourcegitcommit: 8ae84f23744947cf49365d318a208802c6db95a9
+ms.openlocfilehash: 5c40e4bf1d2defeeb656348e1bc3886d5423ca12
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/16/2017
 
 ---
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 07/27/2017
 
 Microsoft Dynamics 365 for Finance and Operations ir korporācijas Microsoft biznesa programma uzņēmumiem. Tā cilvēkiem sniedz iespējas ātri pieņemt gudrākus lēmumus, izmantojot viedu lietotāja interfeisu, kurš nodrošina piekļuvi reāllaika ieskatiem un datiem. Uzņēmumiem tā ļauj transformēties un ieviest jauninājumus, dāvājot pierādītu biznesa loģiku, kas uzņēmumiem sniedz iespējas pārveidot savus biznesa procesus un padarīt tos ātrākus. Šādi uzņēmumi var elastīgi augt sev vispiemērotākajā veidā un nodarboties ar komercdarbību gandrīz jebkurā vietā un jebkurā laikā, kas uzņēmumiem visā pasaulē ļauj mērogot savas operācijas, lai apmierinātu biznesa vajadzības. 
 
-Šī dokumentācija jums var palīdzēt uzzināt, kā risinājumu Dynamics 365 for Finance and Operations izmantot sava uzņēmuma labā. Tā ir savienota ar saistīto produktu dokumentāciju komplektā Unified Operations, risinājumā Dynamics 365 for Retail un Dynamics 365 for Talent. 
+Šī dokumentācija jums var palīdzēt uzzināt, kā risinājumu Dynamics 365 for Finance and Operations izmantot sava uzņēmuma labā. Tā ir savienota ar saistīto produktu dokumentāciju risinājumā Dynamics 365 for Retail un Dynamics 365 for Talent. 
 
 <table>
 <colgroup>
@@ -86,7 +86,7 @@ Microsoft Dynamics 365 for Finance and Operations ir korporācijas Microsoft 
 <p><a href="../dev-itpro/analytics/financial-reporting-intro">Finanšu pārskati</a></p>
 <p><a href="../dev-itpro/analytics/general-electronic-reporting">Regulēšanas pārskatu veidošana</a></p>
 
-<h3><a href="../dev-itpro/mobile-apps/mobile-platform">Mobilā platforma</a></h3>
+<h3><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page">Mobilā platforma</a></h3>
 
 <h3>Izstrādātāju funkcionalitāte</h3>
 <p><a href="../dev-itpro/dev-tools/developer-home-page">Izstrādātāju sākumlapa</a></p>

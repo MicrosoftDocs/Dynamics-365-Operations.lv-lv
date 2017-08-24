@@ -14,13 +14,13 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: shylaw
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9f4b007c174961a8e6794ab532d733584f492758
-ms.openlocfilehash: ead315d2e07818b35dd2806fca7e242f4028be07
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 25cba59dfbab2e1030660840e85d278452e39e52
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -29,11 +29,11 @@ ms.lasthandoff: 07/27/2017
 [!include[banner](../includes/banner.md)]
 
 
-Microsoft Dynamics 365 for Finance and Operations ir ietverta funkcionalitāte tām valstīm/reģioniem, kas minētas [preču pieejamības ceļvedī](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Šī funkcionalitāte tiek iespējota, pamatojoties uz aktīvās juridiskās personas primāro adresi. 
+Produktā Microsoft Dynamics 365 for Finance and Operations ir ietverta funkcionalitāte tām valstīm/reģioniem, kas minētas [starptautiskajā produktu pieejamības ceļvedī](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Šī funkcionalitāte tiek iespējota, pamatojoties uz aktīvās juridiskās personas primāro adresi. 
 
-Šajā tēmā ir sniegts saraksts ar resursiem, kas jums var noderēt, lai uzzinātu papildinformāciju par valstij/reģionam specifisko funkcionalitāti. 
+Šajā tēmā ir sniegts saraksts ar resursiem, kas jums var noderēt, lai uzzinātu papildinformāciju par valstij/reģionam specifiskiem risinājumiem, atjauninājumiem, brīdinājumiem un funkcionalitāti. 
 
-## <a name="developing-localized-solutions"></a>Lokalizētu risinājumu izveide
+## <a name="developing-localized-solutions"></a>Lokalizētu risinājumu izstrāde
 Tālāk norādītajos resursos ir sniegti norādījumi un informācija, kas var noderēt izstrādātājiem un ISV, kuri veido valstij/reģionam specifiskus pielāgojumus vai izstrādā risinājumu valstij, ko Microsoft neatbalsta.
 -   [Atdalīt lokalizācijas modeļus](separate-localization-models.md)
 -   [Lietot valsts/reģiona kontekstu](apply-country-context.md)
@@ -94,11 +94,15 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 ### <a name="belgium"></a>Beļģija
 
 -   [CODA bankas izraksts](/dynamics365/unified-operations/financials/localizations/emea-bel-coda-bank-statement-import)
--   [Intervat nodokļu deklarācija](/dynamics365/unified-operations/financials/localizations/emea-bel-intervat-tax-declaration)
+-   i[Intervat nodokļu deklarācija](/dynamics365/unified-operations/financials/localizations/emea-bel-intervat-tax-declaration)
 -   [PRODCOM pārskata iestatīšana](/dynamics365/unified-operations/financials/localizations/emea-bel-prodcom-report)
+-   [Saskaņošanas pārskati](/dynamics365/unified-operations/financials/localizations/emea-bel-reconciliation-reports)
 
 ### <a name="brazil"></a>Brazīlija
 
+-   [CIAP pamatlīdzeklis](/dynamics365/unified-operations/financials/localizations/latam-bra-ciap-fixed-asset)
+-   [Finanšu grāmatu konfigurēšana](/dynamics365/unified-operations/financials/localizations/latam-bra-configure-fiscal-books)
+-   [Eksporta un importa darījumi virsgrāmatas konsolidēšanai Brazīlijai](/dynamics365/unified-operations/financials/localizations/latam-bra-general-ledger-consolidation-transactions)
 -   [Finanšu grāmatas](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-books)
 -   [Finanšu dokumentu teksta vietturi](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-document-text-placeholders)
 -   [Finanšu dokumenti](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework)
@@ -108,10 +112,12 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 -   [Elektroniska maksājuma atgriešanas procesa laikā ģenerētie žurnāli](/dynamics365/unified-operations/financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process)
 -   [NF-e process](/dynamics365/unified-operations/financials/localizations/latam-bra-nf-e-process)
 -   [Parametri juridiskajām personām](/dynamics365/unified-operations/financials/localizations/latam-bra-legal-entity-parameters)
+-   [Elektronisko maksājumu pārskaitījumu apstrāde Brazīlijai](/dynamics365/unified-operations/financials/localizations/latam-bra-process-electronic-payment-remittances)
 -   [Pirkšanas papildu finanšu dokumenti](/dynamics365/unified-operations/financials/localizations/latam-bra-purchase-complementary-fiscal-documents)
 -   [Finanšu dokumenti, uz kuriem ir atsauce](/dynamics365/unified-operations/financials/localizations/latam-bra-referenced-fiscal-documents)
 -   [Pārdošanas papildu finanšu dokumenti](/dynamics365/unified-operations/financials/localizations/latam-bra-sales-complementary-fiscal-documents)
 -   [Pakalpojuma elektroniskie finanšu dokumenti](/dynamics365/unified-operations/financials/localizations/latam-bra-service-electronic-fiscal-document)
+-   [NF-e XML dokumentu un DANFE failu izveide, importēšana un pārbaudīšana](/dynamics365/unified-operations/financials/localizations/latam-bra-set-up-import-nfe)
 -   [Nodokļu atribūti](/dynamics365/unified-operations/financials/localizations/latam-bra-tax-attributes)
 -   [Nodokļu maksājumi](/dynamics365/unified-operations/financials/localizations/latam-bra-tax-payments)
 -   [Nodokļi](/dynamics365/unified-operations/financials/localizations/latam-bra-calculate-taxes)
@@ -138,8 +144,8 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 -   [PVN deklarācija Čehijai](/dynamics365/unified-operations/financials/localizations/emea-cze-vat-statement-details)
 -   [PVN pārskats ](/dynamics365/unified-operations/financials/localizations/emea-cze-intra-community-vat-transactions)
 -   [Sadalīt periodus periodiskajos žurnālos](/dynamics365/unified-operations/financials/localizations/emea-create-post-periodic-journals)
--   [Iestatīt parakstītājus drukātajām formām](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
--   [Atjaunināt veidu, kā summas tiek rādītas pārskatos un dokumentos](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms)
+-   [Drukāto veidlapu parakstītāju iestatīšana](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
+-   [Summu rādījuma pārskatos un dokumentos atjaunināšana](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms)
 
 ### <a name="estonia"></a>Igaunija
 
@@ -159,6 +165,7 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 - [Valūtas kursa korekcijas](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments)
 - [Maksāšanas metožu failu formāti](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
 - [Pamatlīdzekļu norakstīšana Igaunijai un Lietuvai](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
+- [Importēt ISO20022 failus](/dynamics365/unified-operations/financials/localizations/emea-ISO20022-file-formats)
 - [Intrastat](/dynamics365/unified-operations/financials/localizations/emea-intrastat)
 - [Krājumu žurnāla pārskati](/dynamics365/unified-operations/financials/localizations/emea-set-up-report-inventory-journal-names)
 - [Rēķinu un pavadzīmju numurēšana Latvijai un Lietuvai](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
@@ -173,9 +180,10 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 - [SEPA kredīta pārskaitījuma apskats](/dynamics365/unified-operations/financials/accounts-payable/sepa-credit-transfer)
 - [SEPA tiešā debeta apskats](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview)
 - [Iestatiet debitoru un kreditoru atlīdzību](/dynamics365/unified-operations/financials/localizations/emea-compensation-customer-vendor-transactions)
-- [Iestatīt parakstītājus drukātajām formām](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
+- [Drukāto veidlapu parakstītāju iestatīšana](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
+- [Storno uzskaite](/dynamics365/unified-operations/financials/localizations/emea-storno)
 - [Nodokļu direktīvas](/dynamics365/unified-operations/financials/localizations/emea-tax-directives)
-- [Atjaunināt veidu, kā summas tiek rādītas pārskatos un dokumentos](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms) 
+- [Summu rādījuma pārskatos un dokumentos atjaunināšana](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms) 
 - [PVN maiņas kursi](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate)
 - [PVN reģistra transakcijas Austrumeiropai](/dynamics365/unified-operations/financials/localizations/emea-vat-register-transactions)
 - [PVN pārskati](/dynamics365/unified-operations/financials/localizations/emea-vat-reporting)
@@ -246,6 +254,7 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 
 -   [Pamatlīdzekļu remonta pārskats](/dynamics365/unified-operations/financials/localizations/emea-ltu-fixed-asset-repair-statement)
 -   [Rēķinu un pavadzīmju numerācija](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
+-   [PVN deklarācijas informācija](/dynamics365/unified-operations/financials/localizations/emea-ltu-vat-statement-details)
 
 ### <a name="mexico"></a>Meksika
 
@@ -294,8 +303,9 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 -   [Termiņatlaide attiecas uz rēķina parametru](/dynamics365/unified-operations/financials/localizations/emea-esp-cash-discount-applied-invoice)
 -   [Nosacījuma PVN](/dynamics365/unified-operations/financials/localizations/emea-esp-conditional-sales-tax)
 -   [Pamatlīdzekļu pārvērtēšanas grupas](/dynamics365/unified-operations/financials/localizations/emea-esp-fixed-asset-group-revaluation)
--   [EK iekšējais PVN](/dynamics365/unified-operations/financials/localizations/emea-esp-intra-community-vat)
+-   [Iekšējais PVN](/dynamics365/unified-operations/financials/localizations/emea-esp-intra-community-vat)
 -   [Vienreizēji debitori](/dynamics365/unified-operations/financials/localizations/emea-esp-no-one-time-customer-for-project-contracts)
+-   [Čeku drukāšana Spānijas formātā](/dynamics365/unified-operations/financials/localizations/emea-esp-print-checks-with-spanish-layout)
 -   [Spānijas parādzīmju opcijas](/dynamics365/unified-operations/financials/localizations/emea-esp-promissory-note-options)
 -   [Pārdošanas un pirkšanas cikli](/dynamics365/unified-operations/financials/localizations/emea-esp-sales-purchase-cycle)
 -   [Īpašie ieraksti un sākuma lapas](/dynamics365/unified-operations/financials/localizations/emea-esp-opening-sheets-spain)
@@ -313,6 +323,7 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 ### <a name="thailand"></a>Taizeme
 
 -   [Krājumu karšu pārskati](/dynamics365/unified-operations/financials/localizations/apac-tha-stock-card-reports)
+-   [Nodokļu rēķina aizstāšana/korekcija Taizemei](/dynamics365/unified-operations/financials/localizations/apac-tha-substitution-and-adjustment-invoices)
 -   [Nerealizētais PVN](/dynamics365/unified-operations/financials/localizations/apac-tha-unrealized-vat)
 -   [Ieturētais nodoklis](/dynamics365/unified-operations/financials/localizations/apac-tha-withholding-tax)
 
@@ -322,9 +333,10 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 
 ### <a name="united-states"></a>Amerikas Savienotās Valstis
 
+-   [Forma 1099 publiskajam sektoram](/dynamics365/unified-operations/financials/localizations/noam-usa-form-1099-public-sector)   
 -   [Formas I-9 pārbaude](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-form-i-9-verification)
 -   [Gada beigu 1099 pārskati](/dynamics365/unified-operations/financials/localizations/noam-usa-year-end-1099-reporting)
--   [Alga](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-payroll)
+-   [Algu saraksts](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-payroll)
 -   [Publiskais sektors](/dynamics365/unified-operations/financials/public-sector/public-sector-functionality)
 
 
