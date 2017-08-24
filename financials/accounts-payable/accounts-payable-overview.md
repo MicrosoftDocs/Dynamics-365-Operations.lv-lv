@@ -1,9 +1,9 @@
 ---
 title: "Kreditoru konfigurēšana"
 description: "Šajā rakstā ir aprakstītas lapas, ko izmantojat, lai programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise iestatītu moduļa Parādi kreditoriem pamata un papildu funkcionalitāti. Tajā ir aprakstītas arī iestatīšanas darbības, kas ir jāizpilda, pirms sākat iestatīt moduli Parādi kreditoriem."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 24671
 ms.assetid: 82561fe7-b2d6-464c-9347-79d0ce0f9743
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 2a61cb86a4f2cfc6d701445c139e22df0db44f8c
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 9b29fec7fadbb1ac699f1144f011df1bfd2f511a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -47,7 +46,7 @@ Lai varētu iestatīt moduli Kreditori, ir jāizpilda šāda iestatīšana:
 ## <a name="setup-pages-for-accounts-payable"></a>Iestatījumu lapas modulim Parādi kreditoriem
 
 Izmantojiet nākamās lapas, lai katrai juridiskajai personai iestatītu moduļa Kreditori pamata funkcionalitāti. Lapas ir uzskaitītas ieteicamajā iestatīšanas secībā. Lai iestatīšanas procesu padarītu vienkāršāku, no pirmajiem izveidotajiem ierakstiem varat izveidot veidnes. Veidnē vērtības parasti tiek ievadītas daudzos laukos, lai parādītu līdzekļus, kurus organizācija vēlas ieviest konkrētam kreditora tipam.
-1.  Lapā Apmaksas nosacījumi definējiet apmaksas nosacījumus, kurus piešķirat pārdošanas pasūtījumiem, pirkšanas pasūtījumiem, debitoriem un kreditoriem, un kas nosaka rēķinu izpildes datumus.
+1.  Lapā Apmaksas nosacījumi definējiet apmaksas nosacījumus, kurus piešķirat pārdošanas pasūtījumiem, pirkšanas pasūtījumiem, debitoriem un kreditoriem, un kas nosaka rēķinu izpildes datumus. Plašāku informāciju skatiet šeit: [Kreditora maksājumu papildmaksu definēšana](tasks/define-vendor-payment-fees.md).
 2.  Lapā Maksāšanas metodes — kreditori izveidojiet un uzturiet informāciju par to, kā organizācija maksā saviem kreditoriem.
 3.  Lapā Kreditoru grupas izveidojiet un uzturiet kreditoru grupas, kurām ir kopīgi svarīgi parametri attiecībā uz grāmatošanu, nosegšanu un maksājumiem, atskaišu veidošanu un prognozēšanu.
 4.  Lapā Kreditoru grāmatošanas metodes definējiet, kā kreditoru transakcijas tiek grāmatotas virsgrāmatā.

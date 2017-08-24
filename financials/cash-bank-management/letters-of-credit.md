@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bd61cd2a5fa7705f3f9152323281e6f4ca520dc1
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 64446efd518390ee2a7204e2c977fa4174581808
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -46,6 +45,13 @@ Akreditīvs ietver preču aprakstu, visus nepieciešamos dokumentus, nosūtīša
 
 Akreditīvs var būt atsaucams vai neatsaucams. Akreditīva raksturs var būt nododams, nenododams vai atjaunojams. Parasti akreditīvs ir neatsaucams un akceptēts līgums, ka maksājums tiks veikts noteiktam saņēmējam pēc pilnīgas un precīzas nosūtīšanas dokumentācijas iesniegšanas.
 
+Lai iegūtu papildu informāciju, skatiet šādas tēmas:
+
+[Akreditīva importēšana](tasks/import-letter-credit.md)
+
+[Akreditīva eksportēšana](tasks/export-letter-credit.md)
+
+[Bankas iestādes izveide akreditīvam](tasks/create-bank-facility-agreement-letter-credit.md)
 
 
 

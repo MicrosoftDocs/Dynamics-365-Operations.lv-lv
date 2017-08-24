@@ -5,8 +5,10 @@
 #### [Reģistrācija priekšskatījuma abonementam](/dynamics365/unified-operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Demonstrācijas vides izvietošana](/dynamics365/unified-operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Izvietošanas opcijas izvēle](/dynamics365/unified-operations/dev-itpro/deployment/choose-deployment-type?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Mākoņa izvietošana](/dynamics365/unified-operations/dev-itpro/deployment/cloud-deployment-overview)
-##### [Lokāla izvietošana](/dynamics365/unified-operations/dev-itpro/deployment/on-premises-deployment-landing-page)
+##### [Mākoņa izvietošana](/dynamics365/unified-operations/dev-itpro/deployment/cloud-deployment-overview?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Sistēmas prasības mākoņa izvietojumiem](/dynamics365/unified-operations/dev-itpro/get-started/system-requirements?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Lokāla izvietošana](/dynamics365/unified-operations/dev-itpro/deployment/on-premises-deployment-landing-page?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Sistēmas prasības lokālajiem izvietojumiem](/dynamics365/unified-operations/dev-itpro/get-started/system-requirements-on-prem?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 #### Finance and Operations iegāde
 ##### [Microsoft FastTrack for Dynamics 365](/dynamics365/unified-operations/fin-and-ops/get-started/fasttrack-dynamics-365-overview?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -18,7 +20,8 @@
 #### [Līdzekļi, kas nav ieviesti lokālos izvietojumos](/dynamics365/unified-operations/dev-itpro/get-started/features-not-implemented-on-prem?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Dzīves cikla politika](/dynamics365/unified-operations/dev-itpro/migration-upgrade/versions-update-policy?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Finance and Operations, Enterprise izdevums, 2017. gada jūlija atjauninājums](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-application-July-2017-update?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-#### [Operations platformas 8. atjauninājums (2017. gada jūnijs)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-8?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Operations platformas 9. atjauninājums (2017. gada jūlijs)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-9?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Operations platformas 8. atjauninājums (2017. gada jūnijs)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-8?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Operāciju platformas 7. atjauninājums (2017. gada maijs)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-7?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Operāciju platformas 6. atjauninājums (2017. gada aprīlis)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-6?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Operāciju platformas 5. atjauninājums (2017. gada marts)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-5?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -71,6 +74,7 @@
 #### [Izmaksu aprēķina lapa](/dynamics365/unified-operations/supply-chain/cost-management/costing-sheets?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Izmaksu aprēķināšanas versija](/dynamics365/unified-operations/supply-chain/cost-management/costing-versions?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Simulēt izmaksu izmaiņas, izmantojot izmaksu aprēķināšanas versiju plānotām izmaksām](/dynamics365/unified-operations/supply-chain/cost-management/simulate-cost-changes-costing-version-planned-costs?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+
 ### Krājuma izmaksu aprēķināšana
 #### [Koriģēt rīcībā esošo krājumu izmaksu vērtību](/dynamics365/unified-operations/supply-chain/cost-management/adjust-hand-inventory-cost-values?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Izmaksu objekts](/dynamics365/unified-operations/supply-chain/cost-management/cost-object?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -153,6 +157,7 @@
 
 #### Elementu migrēšana
 ##### [Konfigurācijas datu projekti](/dynamics365/unified-operations/dev-itpro/data-entities/configuration-data-projects?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [Konfigurācijas datu pakotnes](/dynamics365/unified-operations/dev-itpro/data-entities/configuration-data-packages?toc=dynamics365/unified-operations/fin-and-ops/toc.json)]
 ###### [Konfigurācijas datu veidnes](/dynamics365/unified-operations/dev-itpro/data-entities/configuration-data-templates?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ###### [Konfigurācijas datu kopēšana starp uzņēmumiem](/dynamics365/unified-operations/dev-itpro/data-entities/copy-configuration?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Labākās prakses dokumentu importēšanai, izmantojot virsgrāmatas žurnāla elementu](/dynamics365/unified-operations/dev-itpro/data-entities/tips-tricks-import-general-journal-entity?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -181,9 +186,9 @@
 #### [Pakalpojumu autentifikācijas problēmu novēršana](/dynamics365/unified-operations/dev-itpro/data-entities/troubleshoot-service-authentication?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ### [OData](/dynamics365/unified-operations/dev-itpro/data-entities/odata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-#### [Atkārtotas integrācijas](/dynamics365/unified-operations/dev-itpro/data-entities/recurring-integrations?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+### [Atkārtotas integrācijas](/dynamics365/unified-operations/dev-itpro/data-entities/recurring-integrations?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 
-### [Datu integrācija, izmantojot pakalpojumu Common Data Service](/common-data-service/entity-referencedynamics-365-integration) 
+### [Datu integrācija, izmantojot pakalpojumu Common Data Service](/common-data-service/entity-reference/dynamics-365-integration) 
 #### [Potenciālā klienta konfigurēšana uz skaidru naudu](/dynamics365/unified-operations/supply-chain/sales-marketing/prospect-to-cash?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Preču sinhronizēšana no programmas Finance and Operations uz precēm programmā Sales](/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Kontu sinhronizēšana no programmas Sales uz klientiem programmā Finance and Operations](/dynamics365/unified-operations/supply-chain/sales-marketing/accounts-template-mapping?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -739,7 +744,7 @@
 #### [SEPA tiešā debeta apskats](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Uzņēmuma bankas kontu iestatīšana ISO20022 kredīta pārsūtījumiem](/dynamics365/unified-operations/financials/localizations/tasks/set-up-company-bank-accounts-iso20022-credit-transfers?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Uzņēmuma bankas kontu iestatīšana ISO20022 tiešajiem debetiem](/dynamics365/unified-operations/financials/localizations/tasks/set-up-company-bank-accounts-iso20022-direct-debits?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-#### [Debitoru un kreditoru atlīdzības iestatīšana](/dynamics365/unified-operations/financials/accounts-receivable/emea-compensation-customer-vendor-transactions?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Iestatiet debitoru un kreditoru atlīdzību](/dynamics365/unified-operations/financials/localizations/emea-compensation-customer-vendor-transactions?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Debitoru un debitoru bankas kontu iestatīšana ISO20022 tiešajiem debetiem](/dynamics365/unified-operations/financials/localizations/tasks/set-up-bank-accounts-iso20022-direct-debits?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [ES pārdošanas saraksta pārskatu iestatīšana](/dynamics365/unified-operations/financials/localizations/tasks/eur-00011-eu-sales-list-reporting?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Maksājuma metodes iestatīšana ISO20022 pārvietošanai kredītā](/dynamics365/unified-operations/financials/localizations/tasks/set-up-method-payment-iso20022-credit-transfer?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -804,21 +809,21 @@
 ###### [Sagāde un avoti](/dynamics365/unified-operations/financials/localizations/emea-fra-procurement-sourcing-public-sector?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ###### [Titres de recette](/dynamics365/unified-operations/financials/localizations/emea-fra-titres-de-recette-public-sector?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ###### [Kreditoru rēķinu maksājumu aizturēšana](/dynamics365/unified-operations/financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Izrakstīto vekseļu apstiprināšana un grāmatošana (Francija)](/dynamics365/unified-operations/financials/localizations/tasks/fr-00004-approve-post-draw-bill-exchange?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Izrakstīto vekseļu apstiprināšana un grāmatošana](/dynamics365/unified-operations/financials/localizations/tasks/fr-00004-approve-post-draw-bill-exchange?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Hronoloģiski rēķini dokumenti](/dynamics365/unified-operations/financials/localizations/emea-fra-chronological-invoices-vouchers?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Debitoru un kreditoru kontu pārskati (Francija)](/dynamics365/unified-operations/financials/localizations/tasks/fr-00002-customer-vendor-account-statements?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Nokavēta maksājuma un vienreizējās izmaksas ikdienas procentu aprēķins atgādinājuma vēstulē un rēķinā (Francija)](/dynamics365/unified-operations/financials/localizations/tasks/fr-00018-daily-interest?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Debitoru un kreditoru kontu pārskati](/dynamics365/unified-operations/financials/localizations/tasks/fr-00002-customer-vendor-account-statements?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Nokavēta maksājuma un vienreizējās izmaksas ikdienas procentu aprēķins atgādinājuma vēstulē un rēķinā](/dynamics365/unified-operations/financials/localizations/tasks/fr-00018-daily-interest?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Derogatīvais nolietojums](/dynamics365/unified-operations/financials/localizations/emea-fra-derogatory-depreciation?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Francijas vekseļi un parādzīmes (Francija)](/dynamics365/unified-operations/financials/localizations/tasks/fr-00004-french-bills-exchange-promissory-notes?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Francijas vekseļi un parādzīmes](/dynamics365/unified-operations/financials/localizations/tasks/fr-00004-french-bills-exchange-promissory-notes?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [NAF kodi un siret numuri](/dynamics365/unified-operations/financials/localizations/emea-fra-naf-codes-siret-numbers?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [NAF kodu un siret numuru iestatīšana](/dynamics365/unified-operations/financials/localizations/tasks/fr-00003-naf-codes-siret-numbers?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Sodi par nokavētiem debitoru maksājumiem](/dynamics365/unified-operations/financials/localizations/emea-fra-apply-penalty-customer-payment-past-due?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Noraidīto izrakstīto vekseļu žurnāla grāmatošana (Francija)](/dynamics365/unified-operations/financials/localizations/tasks/fr-00004-post-protest-draw-bill-exchange-journal?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Noraidīto atkārtoti izrakstīto vekseļu žurnāla grāmatošana (Francija)](/dynamics365/unified-operations/financials/localizations/tasks/fr-00004-post-re-draw-bill-exchange-journal?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Noraidīto izrakstīto vekseļu žurnāla grāmatošana](/dynamics365/unified-operations/financials/localizations/tasks/fr-00004-post-protest-draw-bill-exchange-journal?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Noraidīto atkārtoti izrakstīto vekseļu žurnāla grāmatošana](/dynamics365/unified-operations/financials/localizations/tasks/fr-00004-post-re-draw-bill-exchange-journal?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Vienreizējās izmaksas atgūšanas teksta drukāšana debitora rēķinā](/dynamics365/unified-operations/financials/localizations/emea-fra-print-lump-sum-recovery-text?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [RB/SL nolietojums](/dynamics365/unified-operations/financials/localizations/emea-fra-rbsl-depreciation?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Maksāšanas veidu iestatīšana (Francija)](/dynamics365/unified-operations/financials/localizations/tasks/fr-00004-setup-method-payment?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Debitora maksāšanas metodes atjaunināšana (Francija)](/dynamics365/unified-operations/financials/localizations/tasks/fr-00004-update-method-payment-customer?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Maksāšanas veidu izveidošana](/dynamics365/unified-operations/financials/localizations/tasks/fr-00004-setup-method-payment?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Debitora maksāšanas metodes atjaunināšana](/dynamics365/unified-operations/financials/localizations/tasks/fr-00004-update-method-payment-customer?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### Vācija
 ##### [Papildu iegādes nolietojums](/dynamics365/unified-operations/financials/localizations/emea-deu-additional-acquisition-depreciation?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Audita fails ](/dynamics365/unified-operations/financials/localizations/emea-deu-gdpdu-audit-data-export?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -859,7 +864,7 @@
 ##### [PVN deklarācijas informācija](/dynamics365/unified-operations/financials/localizations/emea-lva-vat-statement-details?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### Lietuva
 ##### [Pamatlīdzekļu remonta pārskats](/dynamics365/unified-operations/financials/localizations/emea-ltu-fixed-asset-repair-statement?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Dokumenta ģenerēšana pamatlīdzekļa pārsūtīšanai starp noliktavām (Lietuva)](/dynamics365/unified-operations/financials/localizations/tasks/lt-00003-fixed-asset-transfer?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Dokumenta ģenerēšana pamatlīdzekļa pārsūtīšanai starp noliktavām](/dynamics365/unified-operations/financials/localizations/tasks/lt-00003-fixed-asset-transfer?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [PVN deklarācijas informācija](/dynamics365/unified-operations/financials/localizations/emea-ltu-vat-statement-details?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 
 #### Nīderlande
@@ -879,10 +884,10 @@
 ##### [Pamatlīdzekļu norakstīšanas funkcionalitātes paplašinājums](/dynamics365/unified-operations/financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Atgriežams iepakojums](/dynamics365/unified-operations/financials/localizations/emea-pol-returnable-packages?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [PVN pārskati](/dynamics365/unified-operations/financials/localizations/emea-pol-sales-tax-reports?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Standarta audita fails (/dynamics365/unified-operations/financials/localizations/SAF)](/dynamics365/unified-operations/financials/localizations/emea-pol-standard-audit-file-saf?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Standarta audita faili](/dynamics365/unified-operations/financials/localizations/emea-pol-standard-audit-file-saf?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Apgrozījuma bilances pārskats](/dynamics365/unified-operations/financials/localizations/emea-pol-turnover-balances-statement?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### Spānija
-##### [Lietot termiņatlaides rēķinā](/dynamics365/unified-operations/financials/localizations/emea-esp-cash-discount-applied-invoice?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Termiņatlaižu lietošana rēķinā](/dynamics365/unified-operations/financials/localizations/emea-esp-cash-discount-applied-invoice?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Vekseļu opcijas](/dynamics365/unified-operations/financials/localizations/emea-esp-bill-of-exchange-options?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Nosacījuma PVN](/dynamics365/unified-operations/financials/localizations/emea-esp-conditional-sales-tax?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Finanšu datu rēķina konts](/dynamics365/unified-operations/financials/localizations/emea-esp-fiscal-data-invoice-account?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -902,7 +907,6 @@
 ##### [Kredīta notas par seguma atlaidi izveide](/dynamics365/unified-operations/financials/localizations/tasks/gb-00009-credit-note-settlement-discount?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Pirkšanas pasūtījuma izveide, kas satur krājumus, uz ko attiecas apgrieztais PVN](/dynamics365/unified-operations/financials/localizations/tasks/purchase-order-reverse-charge-vat?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Pārdošanas pasūtījuma izveide, kas satur krājumus, uz ko attiecas apgrieztais PVN](/dynamics365/unified-operations/financials/localizations/tasks/gb-00002-sales-order?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Esoša darbinieka pieņemšana darbā, izmantojot personāla atlasi](/dynamics365/unified-operations/financials/localizations/tasks/hire-existing-employee-through-recruiting?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Krājumu PVN grupu iestatīšana apgrieztajam PVN](/dynamics365/unified-operations/financials/localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Apgrieztā PVN krājumu grupu, kārtulu un parametru iestatīšana](/dynamics365/unified-operations/financials/localizations/tasks/gb-00002-reverse-charge-vat-item-groups?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [PVN grupu iestatīšana apgrieztajam PVN](/dynamics365/unified-operations/financials/localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -1118,6 +1122,7 @@
 #### [Projekta grafiku ievade](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enter-project-timesheets?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Nodarbinātā informācijas ievade](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enter-worker-information?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Kandidāta pieņemšana darbā, izmantojot personāla atlasi](/dynamics365/unified-operations/fin-and-ops/hr/tasks/hire-candidate-through-recruiting?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Esoša darbinieka pieņemšana darbā, izmantojot personāla atlasi](/dynamics365/unified-operations/fin-and-ops/hr/tasks/hire-existing-employee-through-recruiting?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Kandidātu izvēles rīku noteikšana un ieviešana](/dynamics365/unified-operations/fin-and-ops/hr/tasks/identify-deploy-candidate-selection-tools?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Patapinātie krājumi nodarbinātajam](/dynamics365/unified-operations/fin-and-ops/hr/tasks/loan-item-worker?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Darbinieku savainojumu un slimību informācijas uzturēšana](/dynamics365/unified-operations/fin-and-ops/hr/tasks/maintain-employee-injury-illness-information?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -1133,7 +1138,7 @@
 ## [Informācija](/dynamics365/unified-operations/dev-itpro/analytics/information-access-reporting?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Piekļūšana Power BI saturam](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-content-microsoft-partners?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 
-### [Izlaistais Power BI saturs](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-home-page?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+### [Power BI saturs](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-home-page?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Faktiski pret budžetu](/dynamics365/unified-operations/dev-itpro/analytics/ledger-budgets-power-bi?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Atvieglojumi](/dynamics365/unified-operations/dev-itpro/analytics/benefits-power-bi?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Skaidras naudas pārskats](/dynamics365/unified-operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
@@ -1162,6 +1167,7 @@
 
 ### Dokumentu atskaišu veidošana un drukāšana
 #### [Dokumentu atskaišu veidošanas pakalpojumu pārskats](/dynamics365/unified-operations/dev-itpro/analytics/document-reporting-services?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [SSRS konfigurēšana lokālam izvietojumam](/dynamics365/unified-operations/dev-itpro/analytics/configure-ssrs-on-premises?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Drukāšana](/dynamics365/unified-operations/dev-itpro/analytics/print-documents?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Tīkla printeru ierīču iespējošana](/dynamics365/unified-operations/dev-itpro/analytics/install-document-routing-agent?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Dokumentu veidošanas, publicēšanas un drukāšanas iespējas lokālos izvietojumos](/dynamics365/unified-operations/dev-itpro/analytics/printing-capabilities-on-premises?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -1187,6 +1193,48 @@
 #### [Adresāti](/dynamics365/unified-operations/dev-itpro/analytics/electronic-reporting-destinations?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Iestatīt elektronisko pārskatu veidošanu ar Power BI](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Elektronisko dokumentu ģenerēšana un pieteikumu datu atjaunināšana, izmantojot elektronisko pārskatu veidošanas rīku](/dynamics365/unified-operations/dev-itpro/analytics/generate-electronic-documents-update-application-data?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### Elektronisko pārskatu veidošanas uzdevumi
+##### [Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Definēt konfigurāciju atkarību no citiem komponentiem elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Definēt modeļa kartēšanu un atlasīt datu avotus elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Noformēt konfigurāciju pārskatu ģenerēšanai Microsoft Word formātā elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Noformēt domēnam specifisku datu modeli elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Noformēt konfigurāciju pārskatu ģenerēšanai OpenXML formātā elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Konfigurēt adresātus elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Sagatavot datu modeli dokumentu pārvaldības failu lietošanai formāta izvades datos elektronisko pārskatu veidošanai)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-1?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Paplašināt datu modeli dokumentu pārvaldības failu lietošanai formāta izvades datos elektronisko pārskatu veidošanai)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-2?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Izveidot formātu dokumentu pārvaldības failu lietošanai formāta izvades datos elektronisko pārskatu veidošanai)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-3?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Palaist formātu dokumentu pārvaldības failu lietošanai formāta izvades datos elektronisko pārskatu veidošanai)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-4?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Modificēt un palaist formātu dokumentu pārvaldības failu lietošanai formāta izvades datos elektronisko pārskatu veidošanai)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-5?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Ģenerēt elektroniskos dokumentus maksājumiem, izmantojot formāta konfigurāciju elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-electronic-payments?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Noformēt datu modeli finanšu dimensiju kā datu avota lietošanai elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Kartēt modeļus finanšu dimensiju kā datu avota lietošanai elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Noformēt pārskatu finanšu dimensiju kā datu avota lietošanai elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Palaist pārskatu, kas izmanto finanšu dimensijas kā datu avotu elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Izveidot formāta konfigurāciju elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-configuration-2016-11?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Izveidot formātu uzskaites un summēšanas veikšanai elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-1?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Konfigurēt aprēķinus uzskaites un summēšanas veikšanai elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-2?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Izmantot aprēķinus uzskaites un summēšanas izvades datu izveidei elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-3?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Palaist formātu uzskaites un summēšanas veikšanai elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-4?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Importēt konfigurācijas, lai ģenerētu dokumentus, izmantojot pieteikumu datu atjaunināšanu elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Ģenerēt dokumentus, izmantojot pieteikumu datu atjaunināšanu elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Modificēt modeli un kartējumu, lai ģenerētu dokumentus, izmantojot pieteikumu datu atjaunināšanu elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Modificēt formātu, lai ģenerētu dokumentus, izmantojot pieteikumu datu atjaunināšanu elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Ģenerēt dokumentus, izmantojot pieteikumu datu atjaunināšanu elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Izveidot formātu horizontāli paplašināmu diapazonu izmantošanai, lai dinamiski pievienotu kolonnas programmas Excel pārskatos elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-horizontal-1?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Palaist formātu, kas izmanto horizontāli paplašināmus diapazonus, lai dinamiski pievienotu kolonnas programmas Excel pārskatos elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-horizontal-2?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Importēt konfigurāciju no Lifecycle Services elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Veidot pārskatus Microsoft Office formātos ar iegultiem attēliem elektronisko pārskatu veidošanai (1. daļa) ](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Pārskatīt konfigurācijas, lai veidotu pārskatus Microsoft Office formātos ar iegultiem attēliem elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Ģenerēt pārskatus Microsoft Office formātos ar iegultiem attēliem elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Pārvaldīt modeļa kartēšanas konfigurācijas elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Izveidotā formāta komponentus kartēt uz datu modeļa elementiem elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Kartēt datu modeli uz atlasītajiem datu avotiem elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Modificēt formātu, atkārtoti pielietojot Microsoft Excel veidni elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-modify-format-by-reapplying-microsoft-excel-template-july-2017?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Izveidot nepieciešamās konfigurācijas datu importēšanai no ārējā faila elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-required-configurations-import-data?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Atlasīt datu modeļa definīciju, veidojot formātu elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Jaunināt savu formātu, pieņemot šī formāta jaunu bāzes versiju elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-upgrade-format?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Augšupielādēt konfigurācijas informāciju no Lifecycle Services elektronisko pārskatu veidošanai](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ### Analītikas rīki un vizualizācijas
 #### [Analītika, apkopošanas mērījumi un KPI modelēšana](/dynamics365/unified-operations/dev-itpro/analytics/analytics?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -1197,6 +1245,8 @@
 #### [Apkopoto datu elementu pārskats](/dynamics365/unified-operations/dev-itpro/analytics/aggregate-data-entities-report?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Izpildes pamatrādītāja (KPI) pārskats](/dynamics365/unified-operations/dev-itpro/analytics/key-performance-indicators-report?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Power BI integrācija](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-integration?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Power BI pārskata un informācijas paneļa veidošana](/dynamics365/unified-operations/dev-itpro/analytics/create-powerbi-report-dashboard?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Power BI pārskata izveide, izmantojot programmas Finance and Operations datus](/dynamics365/unified-operations/dev-itpro/analytics/create-powerbi-report-data?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Power BI integrācijas konfigurēšana darbvietām](/dynamics365/unified-operations/dev-itpro/analytics/configure-power-bi-integration?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Power BI Embedded integrācija](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-embedded-integration?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Iegultais Power BI darbvietās](/dynamics365/unified-operations/dev-itpro/analytics/embed-power-bi-workspaces?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -1205,8 +1255,9 @@
 #### [Power BI pievienošana darbvietām](/dynamics365/unified-operations/dev-itpro/analytics/add-bi-workspaces?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Power BI pārskatu piespraušana darbvietām](/dynamics365/unified-operations/dev-itpro/analytics/pin-power-bi-reports?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Power BI integrācija ar elementu krātuvi](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-integration-entity-store?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
-#### [Power BI pārskatu izveide un sadale elementu krātuves vidē](/dynamics365/unified-operations/dev-itpro/analytics/author-distribute-power-bi-reports?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Elementu eksportēšana uz savu Azure SQL datu bāzi](/dynamics365/unified-operations/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Analītisku pārskatu izveide, izmantojot programmu Power BI Desktop](/dynamics365/unified-operations/dev-itpro/analytics/author-distribute-power-bi-reports?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Analītisku pieteikumu publicēšana pakalpojumā Power BI](/dynamics365/unified-operations/dev-itpro/analytics/publish-apps-powerbi?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 
 ## Krājumu vadība
@@ -1380,10 +1431,18 @@
 
 ## Mobilās programmas
 ### [Mobilās programmas sākumlapa](/dynamics365/unified-operations/dev-itpro/mobile-apps/Mobile-app-home-page?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-### [Nesen izlaistās mobilās darbvietas](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-workspaces-released?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+### [Mobilās darbvietas](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-workspaces-released?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Uzņēmuma direktorijs](/dynamics365/unified-operations/dev-itpro/mobile-apps/company-directory-mobile-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Izmaksu kontrolēšana](/dynamics365/unified-operations/financials/cost-accounting/cost-controlling-mobile-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Izmaksu pārvaldība](/dynamics365/unified-operations/financials/expense-management/expense-management-mobile-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Rīcībā esošie krājumi](/dynamics365/unified-operations/supply-chain/inventory/inventory-on-hand-mobile-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Rēķina apstiprinājumi](/dynamics365/unified-operations/dev-itpro/mobile-apps/invoice-approval-mobile-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Mana darba grupa](/dynamics365/unified-operations/dev-itpro/mobile-apps/manager-self-service-mobile-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Projekta laika ieraksts](/dynamics365/unified-operations/financials/project-management/project-time-entry-mobile-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Pirkšanas pasūtījuma apstiprināšana](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-mobile-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Pārdošanas pasūtījumi](/dynamics365/unified-operations/supply-chain/sales-marketing/sales-orders-mobile-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Kreditoru sadarbība](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-mobile-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Mobilās darbvietas publicēšana](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-### [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-### [Mobilās darbvietas X++ API](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-workspace-xpp-apis?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ## Office integrācija
 ### [Office integrācija](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -1396,8 +1455,7 @@
 ### [Problēmu novēršana](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ## Pasūtījumu pārvaldība
-### Sagāde un avoti
-#### [Sagādes un avotu apskats](/dynamics365/unified-operations/supply-chain/procurement/procurement-sourcing-overview?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+### [Sagāde un avoti](/dynamics365/unified-operations/supply-chain/procurement/procurement-sourcing-overview?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Sagādes un avotu darbplūsma](/dynamics365/unified-operations/supply-chain/procurement/procurement-sourcing-workflows?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Pirkšanas ierobežojumi](/dynamics365/unified-operations/supply-chain/procurement/purchase-policies?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Sagādes katalogi](/dynamics365/unified-operations/supply-chain/procurement/procurement-catalogs?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -1460,8 +1518,7 @@
 ##### [Projekta budžeta pārskatīšanas iesniegšana un apstiprināšana](/dynamics365/unified-operations/supply-chain/procurement/tasks/submit-approve-project-budget-revision?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 
 
-### Pārdošana un mārketings
-#### [Mārketings](/dynamics365/unified-operations/supply-chain/sales-marketing/overview-sales-marketing?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+### [Pārdošana un mārketings](/dynamics365/unified-operations/supply-chain/sales-marketing/overview-sales-marketing?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### Pārdošanas pasūtījumi
 ##### [Pasūtījumu solīšana](/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Piegādes alternatīvas](/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-alternatives?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -1498,11 +1555,17 @@
 
 ## [Organizācijas administrēšana](/dynamics365/unified-operations/fin-and-ops/organization-administration/organization-administration-home-page?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Organizācijas un organizāciju hierarhijas](/dynamics365/unified-operations/fin-and-ops/organization-administration/organizations-organizational-hierarchies?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-### [Konfigurēt organizāciju hierarhijas](/dynamics365/unified-operations/fin-and-ops/organization-administration/plan-organizational-hierarchy?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+### [Organizācijas hierarhijas konfigurēšana](/dynamics365/unified-operations/fin-and-ops/organization-administration/plan-organizational-hierarchy?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Organizācijas hierarhijas izveide](/dynamics365/unified-operations/core/organization-administration/tasks/create-organization-hierarchy?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Juridiskās personas izveide](/dynamics365/unified-operations/core/organization-administration/tasks/create-legal-entity?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Pārvaldības struktūrvienības izveide](/dynamics365/unified-operations/core/organization-administration/tasks/create-operating-unit?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Adrešu grāmatas](/dynamics365/unified-operations/fin-and-ops/organization-administration/qa-address-books?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Globālā adrešu grāmata](/dynamics365/unified-operations/fin-and-ops/organization-administration/overview-global-address-book?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-#### [Globālo adrešu grāmatu konfigurēšana](/dynamics365/unified-operations/fin-and-ops/organization-administration/plan-configuration-global-address-book-additional-address-books?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Globālo adrešu grāmatu plānošana](/dynamics365/unified-operations/fin-and-ops/organization-administration/plan-configuration-global-address-book-additional-address-books?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Globālās adrešu grāmatas konfigurēšana](/dynamics365/unified-operations/core/organization-administration/tasks/configure-global-address-book?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Numuru sēriju apskats](/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Atsevišķu numuru sēriju iestatīšana](/dynamics365/unified-operations/core/organization-administration/tasks/set-up-number-sequences-individual-basis?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Numuru sēriju iestatīšana, izmantojot vedni](/dynamics365/unified-operations/core/organization-administration/tasks/set-up-number-sequences-wizard?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Elektronisko parakstu apskats](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Elektronisko parakstu iestatīšana](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-electronic-signatures?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Pieteikumu pārvaldības apskats](/dynamics365/unified-operations/fin-and-ops/organization-administration/cases?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -1527,8 +1590,11 @@
 ##### [Konfigurēt manuālu uzdevumu](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-manual-task-workflow?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Konfigurēt paralēlu aktivitāti](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-parallel-activity-workflow?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Konfigurēt paralēlu zaru](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-parallel-branch-workflow?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-#### [Konfigurēt darbplūsmas rekvizītus](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-workflow-properties?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Darbplūsmas rekvizītu konfigurēšana](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-workflow-properties?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Konfigurēt darbplūsmas ziņojumu apstrādes pakešuzdevumu](/dynamics365/unified-operations/fin-and-ops/organization-administration/workflow-batch-job-critical?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Darba vienumu ģenerēšana darbplūsmā](/dynamics365/unified-operations/core/organization-administration/tasks/delegate-work-items-workflow?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Darbplūsmas vēstures skatīšana](/dynamics365/unified-operations/core/organization-administration/tasks/view-workflow-history?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Kā ļaut lietotājiem saņemt ar darbplūsmu saistītus e-pasta ziņojumus](/dynamics365/unified-operations/core/organization-administration/tasks/users-receive-workflow-related-email-messages?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Darbplūsmu tipu pārskats](/dynamics365/unified-operations/fin-and-ops/organization-administration/workflow-types-report?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ## Ražošana
@@ -1766,6 +1832,7 @@
 ## Maksājumi
 ### [Maksāšanas metodes](/dynamics365/unified-operations/retail/payment-methods?toc=dynamics365/unified-operations/retail/toc.json)
 ### [Kredītkartes iestatīšana, autorizācija un nolasīšana](/dynamics365/unified-operations/financials/accounts-receivable/credit-card-authorizations?toc=dynamics365/unified-operations/retail/toc.json)
+### [Maksājumu metožu konfigurēšana POS](/dynamics365/unified-operations/retail/cash-denominations?toc=dynamics365/unified-operations/retail/toc.json)
 ### [Bieži uzdotie jautājumi par maksājumiem](/dynamics365/unified-operations/retail/dev-itpro/payments-retail?toc=dynamics365/unified-operations/retail/toc.json)
 
 ## Pirkšanas pasūtījumi
@@ -1977,6 +2044,7 @@
 #### [Retail SDK apskats](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-overview?toc=dynamics365/unified-operations/retail/toc.json)
 #### [Retail SDK integrēšana pastāvīgajā sistēmu būvēšanā](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build?toc=dynamics365/unified-operations/retail/toc.json)
 #### [Retail SDK paplašināmības paraugi](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-extensibility-samples?toc=dynamics365/unified-operations/retail/toc.json)
+#### [Kases sistēmas Zviedrijai](/dynamics365/unified-operations/retail/localizations/emea-swe-cash-registers?toc=dynamics365/unified-operations/retail/toc.json)
 #### [Paraugs Retail POS integrācijai ar vadības ierīcēm Zviedrijai](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-control-unit-sample?toc=dynamics365/unified-operations/retail/toc.json)
 #### [Retail SDK iepakojums](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-packaging?toc=dynamics365/unified-operations/retail/toc.json)
 #### [Retail SDK paraugi ](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-samples?toc=dynamics365/unified-operations/retail/toc.json)
@@ -1986,18 +2054,22 @@
 
 # [Dynamics 365 for Talent](/dynamics365/unified-operations/talent/index?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 
-## Izstrādāt personāla vadības stratēģiju
-### [Organizēt darbaspēku, izmantojot nodaļas, darbus un amatus](/dynamics365/unified-operations/talent/departments-jobs-positions?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+## Darba sākšana
+### [Sistēmas prasības un atjaunināšanas politika](/dynamics365/unified-operations/talent/talent-versions-update-policy?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+
+## Personāla vadības stratēģijas izstrāde
+### [Darbaspēka organizēšana, izmantojot nodaļas, darbus un amatus](/dynamics365/unified-operations/talent/departments-jobs-positions?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Iestatīt darba komponentus](/dynamics365/unified-operations/talent/create-job?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Izveidot nodaļu un saistīt to ar nodaļu hierarhiju](/dynamics365/unified-operations/talent/create-department-add-department-hierarchy?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Iestatīt HR parametrus dažādām juridiskajām personām](/dynamics365/unified-operations/talent/set-up-hr-parameters-across-legal-entities?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Iestatīt uzņēmumam raksturīgus HR parametrus](/dynamics365/unified-operations/talent/set-up-company-specific-hr-parameters?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Bieži uzdotie jautājumi par personāla darbībām](/dynamics365/unified-operations/talent/personnel-actions-faq?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-### [Izmantot darbplūsmu, lai pārvaldītu informāciju par darbiniekiem](/dynamics365/unified-operations/talent/workflow-manage-employee-information?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+### [Darbplūsmas izmantošana, lai pārvaldītu informāciju par darbiniekiem](/dynamics365/unified-operations/talent/workflow-manage-employee-information?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+### [Atvaļinājuma un kavējuma pārskats](/dynamics365/unified-operations/talent/leave-and-absence-overview?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ## Darbinieku motivācija
 ### [Atlīdzības plāni](/dynamics365/unified-operations/talent/compensation-plans?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-### [Izveidot fiksētās atlīdzības plānus](/dynamics365/unified-operations/talent/create-fixed-compensation-plans?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+### [Fiksētās atlīdzības plānu izveide](/dynamics365/unified-operations/talent/create-fixed-compensation-plans?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Izveidot mainīgās atlīdzības plānus](/dynamics365/unified-operations/talent/create-variable-compensation-plans?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Procesa kompensācija](/dynamics365/unified-operations/talent/process-compensation?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 
@@ -2023,7 +2095,8 @@
 
 # [Izstrāde un administrācija, izmantojot platformu Unified Operations](/dynamics365/unified-operations/dev-itpro/index?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 
-## [Sistēmas prasības](/dynamics365/unified-operations/dev-itpro/get-started/system-requirements?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+## [Sistēmas prasības mākoņa izvietojumiem](/dynamics365/unified-operations/dev-itpro/get-started/system-requirements?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+## [Sistēmas prasības lokālajiem izvietojumiem](/dynamics365/unified-operations/dev-itpro/get-started/system-requirements-on-prem?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 ## [Demonstrācijas dati](/dynamics365/unified-operations/dev-itpro/get-started/demo-data?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 
 
@@ -2277,6 +2350,116 @@
 #### [Uzdevumu reģistrētāja ātrā atsauce](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder-quick-reference?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Dokumentācijas vai apmācības izveide, izmantojot uzdevuma reģistrētāju](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder-training-docs?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 
+## [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+### Darba sākšana
+#### [Darba sākšana](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-getting-started?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Arhitektūras un noformējuma apsvērumi](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-architecture?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+### Mobilās darbvietas konfigurēšana
+#### [Darbvietas konfigurēšana, izmantojot SysAppWorkspace klasi](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/scenarios/mobile-workspace-configuration?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Darbvietu lokalizēšana serverī](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/scenarios/localize-workspaces-on-server?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Mobilās darbvietas aizsardzības nodrošināšana](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/scenarios/secure-mobile-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Lauka attēlojuma pielāgošana, lai uz tā varētu noklikšķināt](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/scenarios/make-workspace-field-clickable?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Lauka padarīšana par obligātu, izmantojot darbvietu klases](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/scenarios/make-field-mandatory?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+### Mobilās darbvietas optimizēšana
+#### [Skaita rādīšana laukā](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/scenarios/display-count-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+### Servera puses izstrādes atsauce
+#### [Servera puses izstrādes atsauce (darbvietas X++ API)](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-workspace-server-apis?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+### Klienta puses izstrādes atsauce
+#### [Klienta puses noformējuma API apskats](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/scenarios/client-api-design-overview?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Klienta API](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/client-apis-reference?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Pieteikums](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/services-application?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Application](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/services-application-iapplication?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [ApplicationMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/services-application-iapplicationmetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [galvenā](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/services-application.md#main)
+#### [Kontrole](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-icontrol?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Konteiners](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-container-icontainercontrol?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [ContainerControl](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrol?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [ContainerControlDesign](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontroldesign?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [ContainerControlMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrolmetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Lauks](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-field-ifield?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Field](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifield?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [FieldDesign](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifielddesign?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [FieldMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifieldmetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Failu augšupielādētājs](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-fileuploader-ifileuploader?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [FileUploader](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploader?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [FileUploaderDesign](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploaderdesign?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [FileUploaderMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploadermetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Grupa](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-group-igroup?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [Group](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroup?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [GroupDesign](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupdesign?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [GroupMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupmetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Hipersaite](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-hyperlink-ihyperlink?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [HyperLink](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlink?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [HyperLinkDesign](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkdesign?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [HyperLinkMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkmetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Attēls](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-image-iimage?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [Image](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimage?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [ImageDesign](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagedesign?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [ImageMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/ interfaces/view-model-control-image-iimage-iimagemetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [ImageStyleType](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-image-iimage.md#imagestyletype)
+##### [Ievade](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-iinputcontrol?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [InputControl](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrol?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [InputControlDesign](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontroldesign?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [InputControlMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrolmetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [NumberSequenceConfig](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-inumbersequenceconfig?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Saraksts](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-list-ilist?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [List](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilist?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [ListDesign](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistdesign?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [ListMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistmetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [Rinda](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Uzmeklēšana](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-lookup-ilookup?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [Lookup](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookup?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [LookupDesign](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupdesign?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [LookupMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupmetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Vairākas uzmeklēšanas](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-lookup-imultilookup?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [MultiLookup](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookup?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [MultiLookupDesign](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupdesign?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [MultiLookupMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupmetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Lapas saite](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-pagelink-ipagelink?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [PageLink](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelink?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [PageLinkDesign](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkdesign?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [PageLinkMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkmetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Daļa](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-part-ipart?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [Part](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipart?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [PartDesign](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartdesign?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [PartMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Vērtība](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-value-ivalue?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [GenericValue](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-igenericvalue?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [Value](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [ValueDesign](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [ValueMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Kontrole](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrol?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [ControlMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrolmetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [ControlType](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-icontrol.md#controltype)
+#### [Atlikšana](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/defer?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [visi](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/defer.md#all)
+##### [atlikšana](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/defer.md#defer)
+##### [Atliktais](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/defer-ideferred?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [noraidīt](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/defer.md#reject)
+##### [atrisināt](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/defer.md#resolve)
+#### [Notikums](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/event-ievent?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [EventHook](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/event-ievent-ieventhook?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [IEventListener](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/event-ievent.md#ieventlistener)
+#### [Lapa](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-ipage?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [CompleteEventArgs](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-icompleteeventargs?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Design](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-idesign?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [NavigationArgs](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-inavigationargs?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Page](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipage?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [PageDataState](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/enums/view-model-ipage-pagedatastate?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [PageLoadState](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/enums/view-model-ipage-pageloadstate?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [PageMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagemetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [PageOptions](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipageoptions?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [PageSubmitArgs](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagesubmitargs?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [PageTarget](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagetarget?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Pakalpojumi](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/services-business-logic-services?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [AsyncService](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-iasyncservice?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [CacheService](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-icacheservice?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [DataService](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-idataservice?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [ExpressionOperator](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/services-business-logic-services.md#expressionoperator)
+##### [MetadataService](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-imetadataservice?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [PageData](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-ipagedata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+
+
 ## Risinājumu izlaišana, izmantojot Lifecycle Services
 ### [Izstrāde un izlaide](/dynamics365/unified-operations/dev-itpro/lcs-solutions/lcs-solutions-app-source?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Stadijas maiņa un publicēšana](/dynamics365/unified-operations/dev-itpro/lcs-solutions/marketing-content-lcs-solutions?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -2329,6 +2512,10 @@
 #### [Azure ExpressRoute un Dynamics 365 for Finance and Operations Enterprise izdevums](/dynamics365/unified-operations/dev-itpro/deployment/expressroute?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ### [Lokāla izvietošana](/dynamics365/unified-operations/dev-itpro/deployment/on-premises-deployment-landing-page)
+#### [Lokāls apskats](/dynamics365/unified-operations/dev-itpro/deployment/on-premises-overview?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Aparatūras lielums](/dynamics365/unified-operations/dev-itpro/get-started/hardware-sizing-on-premises-environments?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Lokāla projekta izveide](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lbd-create-lcs-on-prem-project?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Lokālu vižu iestatīšana un izvietošana](/dynamics365/unified-operations/dev-itpro/deployment/setup-deploy-on-premises-environments?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ### Pielāgota koda izvietošana
 #### [Izvietojamas pakotnes izveide](/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -2340,8 +2527,8 @@
 #### [Analīze — jauninājumu analizētāja rīka izmantošana jaunināšanas plānošanai](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-analyzer-tool?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Analīze — koda jaunināšanas pakalpojuma izmantošana, lai noteiktu koda jaunināšanas radīto slodzi](/dynamics365/unified-operations/dev-itpro/migration-upgrade/analyze-code-upgrade?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Analīze — smilškastes vides izvietošana](/dynamics365/unified-operations/dev-itpro/migration-upgrade/analysis-sandbox?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-#### [Jaunināšana — datu jaunināšana izstrādes vidē](/dynamics365/unified-operations/dev-itpro/migration-upgrade/prepare-data-upgrade?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-#### [Jaunināšana — AX 2012 datu jauninājumu uzdevumi](/dynamics365/unified-operations/dev-itpro/migration-upgrade/data-upgrade-2012?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Jaunināšana — datu jaunināšana izstrādes vidē](/dynamics365/unified-operations/dev-itpro/migration-upgrade/data-upgrade-2012?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Jaunināšana — AX 2012 datu jauninājumu uzdevumi](/dynamics365/unified-operations/dev-itpro/migration-upgrade/prepare-data-upgrade?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Jaunināšana — datu jaunināšana smilškastes vidē](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-data-sandbox?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Pārbaude — pārslēgšanas testēšana](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-cutover-testing?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Pārbaude — pēc jaunināšanas veicamie uzdevumi](/dynamics365/unified-operations/dev-itpro/migration-upgrade/app-validation-process?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -2375,14 +2562,11 @@
 ### Labojumfaili un apkalpošana
 #### [Labojumfailu lejupielāde no Lifecycle Services](/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Metadatu labojumfaila instalēšana](/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-#### [Finanšu pārskatu binārā labojumfaila instalēšana](/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-financial-reporting-binary-hotfix?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Pārskatu izveides pakalpojumu labošana vienotā vidē](/dynamics365/unified-operations/dev-itpro/migration-upgrade/patch-reporting-service-environment?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ### Nolietojums
 #### [Novecojušie API](/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-apis?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Novecojušie līdzekļi](/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-
-
 
 ## Sistēmas administrēšana
 ### [Platformas ikmēneša atjauninājumu BUJ](/dynamics365/unified-operations/dev-itpro/sysadmin/faq-platform-monthly-updates?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -2394,6 +2578,11 @@
 #### [Uz lomām balstīta drošība](/dynamics365/unified-operations/dev-itpro/sysadmin/role-based-security?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Drošības arhitektūra](/dynamics365/unified-operations/dev-itpro/sysadmin/security-architecture?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Drošības pārskati](/dynamics365/unified-operations/dev-itpro/sysadmin/security-reports?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Jaunu lietotāju izveide](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Pienākumu sadales iestatīšana](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/set-up-segregation-duties?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Pienākumu sadales konfliktu identificēšana un atrisināšana](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/identify-resolve-conflicts-segregation-duties?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Drošības lomu piešķiršana lietotājiem](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+
 ### Pakešapstrāde
 #### [Pakešapstrādes apskats](/dynamics365/unified-operations/dev-itpro/sysadmin/batch-processing-overview?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Pakešapstrādes servera apskats](/dynamics365/unified-operations/dev-itpro/sysadmin/batch-server-overview?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -2467,46 +2656,6 @@
 ##### [Sistēmas diagnostikas instalēšana un palaišana](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-run-system-diagnostics-lcs?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Jauninājumu analizētājs](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/upgrade-analysis-lcs?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Lietojuma profilētājs](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/usage-profiler-lcs?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-#### Dynamics AX 2012 lejupielādējamie rīki
-##### [Koda jaunināšanas rīka lietotāja rokasgrāmata (novecojusi)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/code-upgrade-tool-user-guide?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Lifecycle Services lejupielādējamie rīki](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/lcs-downloadable-tools-formerly-informationsource?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Testa datu pārsūtīšanas rīks (beta)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/test-data-transfer-tool-beta-2012?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Instalēšana](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-test-data-transfer-tool-beta?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Palaišana](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/run-test-data-transfer-tool-beta?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [AX 2012 R3 demonstrācijas datu importēšana](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/import-demo-data-ax-2012-r3-test-data-transfer-tool?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Security Development Tool](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/overview-security-development-tool-user-interface?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Instalēšana](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-security-development-tool?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Lietotāja rokasgrāmata](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/security-development-tool-user-guide?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Ieejas punktu atļauju definēšana un rediģēšana](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/define-edit-entry-point-permissions?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Veiktspējas procesu mērījumu programmatūras izstrādes rīkkopa](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/performance-benchmark-software-development-toolkit-sdk-2012?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Drošības jaunināšanas padomnieka rīks](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/security-upgrade-advisor-tool-user-guide?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Inteliģentā datu pārvaldības struktūra (IDMF)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/microsoft-idmf?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Apskats](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/overview-idmf?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Instalēšanas rokasgrāmata](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/installation-guide-idmf?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Konfigurācija](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/configuration-functionality-idmf-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Analīze](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/analysis-functionality-idmf-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Objektu dzēšana un arhivēšana](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/work-with-purge-objects-archive-objects?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Arhīva objektu izveide](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/create-archive-objects?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Dzēšanas objektu izveide](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/create-purge-objects?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Dzēšanas un analīzes uzdevumu plānošana](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/schedule-purge-analysis-tasks?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Dzēšanas vai arhivēšanas darbu apskate](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/view-status-purge-archive-jobs?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Uzturēšana](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/maintain-idmf?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Problēmu novēršana](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/troubleshoot-idmf?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-
-## Datu bāzes pārvaldība
-### [Datu bāzes kopēšana no Azure SQL Database uz SQL Server vidi](/dynamics365/unified-operations/dev-itpro/database/copy-database-from-azure-sql-to-sql-server?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-### [Datu bāzes kopēšana no SQL Server uz Azure SQL Database ražošanas vidi](/dynamics365/unified-operations/dev-itpro/database/copy-database-from-sql-server-to-azure-sql?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-### [Datu bāzes atjaunošana no vides, kas nav ražošanas vide](/dynamics365/unified-operations/dev-itpro/database/request-point-in-time-restore?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-### [Datu bāzes kopijas eksportēšana vēlākai atjaunošanai](/dynamics365/unified-operations/dev-itpro/database/copy-operations-database?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-
-## Atbalsts
-### [Saņemt atbalstu Dynamics 365 for Finance and Operations Enterprise izdevumam un Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-support?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-### [Premier atbalsta biļetes reģistrēšana](/dynamics365/unified-operations/dev-itpro/lifecycle-services/premier-support?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-### [Pieprasījuma iesniegšana Dynamics Service tehniskajai grupai](/dynamics365/unified-operations/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-### [Tehniskā atbalsta uzstādīšana Dynamics 365 for Finance and Operations Enterprise izdevumam](/dynamics365/unified-operations/dev-itpro/lifecycle-services/support-experience?toc=dynamics365/unified-operations/fin-and-ops/toc.json) 
-### [BUJ par plānoto uzturēšanas periodu](/dynamics365/unified-operations/dev-itpro/lifecycle-services/planned-maintenance-window-faq?toc=dynamics365/unified-operations/fin-and-ops/toc.json) 
-### [Mākoņu darbība un apkalpošana](/dynamics365/unified-operations/dev-itpro/lifecycle-services/cloud-operations-servicing?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-### [Finance and Operations atbalsta pieredzes pārvaldība](/dynamics365/unified-operations/dev-itpro/lifecycle-services/cloud-powered-support-lcs?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### Dynamics AX 2012 lejupielādējamie rīki
 ##### [Koda jaunināšanas rīka lietotāja rokasgrāmata (novecojusi)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/code-upgrade-tool-user-guide?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Lifecycle Services lejupielādējamie rīki](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/lcs-downloadable-tools-formerly-informationsource?toc=dynamics365/unified-operations/fin-and-ops/toc.json)

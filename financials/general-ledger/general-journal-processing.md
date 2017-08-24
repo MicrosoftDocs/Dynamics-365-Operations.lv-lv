@@ -3,7 +3,7 @@ title: "Virsgrāmatas žurnāla apstrāde"
 description: "Šajā rakstā ir aprakstītas programmatūras Microsoft Dynamics 365 for Finance and Operations izdevuma Enterprise iespējas, kas var palīdzēt vienkāršot virsgrāmatas žurnālu apstrādi un arī nodrošināt pareizu datu ieguvi un pienācīgu iekšējo kontroli."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/25/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 244eada4202106b65198e3d6e3d0dedaa5486632
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 68da281cb4793ed83f70c68d061d327aa8a8c772
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -82,8 +81,13 @@ Galvenā konta iestatīšana sniedz daudzas opcijas Virsgrāmatas žurnāla apst
 
 Grāmatvedības struktūras un papildu kārtulu struktūras ir ļoti svarīgas, lai nodrošinātu, ka dati, kas ir nepieciešami finanšu pārskatiem un veiktspējas izsekošanai, tiek tverti Virsgrāmatas žurnāla un jebkādas dokumentācijas apstrādes laikā. Grāmatvedības struktūras un papildu kārtulu struktūras ļauj pielāgot datu ievades iespējas. Jūs varat atļaut datu ievadi tikai finanšu dimensijām, kas ir atbilstošas katrā situācijā, kā arī ieviest prasību par to, ka vienmēr jātver obligāti un pareizi dati.
 
-Papildinformāciju skatiet tēmā [Plānošana: kontu plāns](plan-chart-of-accounts.md). 
-
+Lai iegūtu papildu informāciju, skatiet šādas tēmas:
+- [Plānošana: kontu plāns](plan-chart-of-accounts.md). 
+- [Žurnālu papildu kārtulu izveide](tasks/create-advanced-rules-journals.md)
+- [Žurnāla ieraksta izveide, izmantojot veidni](tasks/create-journal-entry-template.md)
+- [Žurnālu izveide un validēšana](tasks/create-validate-journals.md)
+- [Periodu žurnālu grāmatošana](tasks/post-periodic-journals.md)
+- [Virsgrāmatas sadalījuma žurnāla apstrāde](tasks/process-ledger-allocation-journal.md)
 
 
 

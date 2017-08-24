@@ -1,9 +1,9 @@
 ---
 title: "Mobilie rēķinu apstiprinājumi"
 description: "Šajā tēmā ir aprakstīta praktiska pieeja mobilo scenāriju izstrādei programmatūrā Dynamics 365 for Finance and Operations, kā lietojuma gadījumu apskatot kreditoru rēķinu apstiprināšanu mobilajās ierīcēs."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,14 +14,14 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
-ms.author: sunilg
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 0ca4ebdca1fce3863a50abf19a071af1f1c425e0
+ms.translationtype: HT
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 108a4f4ce366d2efd66fc1ed27ffb6b23ff0e933
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -37,7 +37,7 @@ Programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Ente
 
 | Priekšnoteikumi                                                                                            | Apraksts                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Iepriekš izlasiet mobilo risinājumu rokasgrāmatu.                                                                                |[Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform)                                                                                                  |
+| Iepriekš izlasiet mobilo risinājumu rokasgrāmatu.                                                                                |[Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)                                                                                                  |
 | Dynamics 365 for Finance and Operations                                                                             | Vide, kurā ir instalēta Microsoft Dynamics 365 for Operations versija 1611 un Microsoft Dynamics for Operations 3. platformas atjauninājums (2016. gada novembra versija)                   |
 | Instalējiet labojumfailu KB 3204341.                                                                              | Uzdevumu reģistrētājs var kļūdaini reģistrēt divas nolaižamo dialoglodziņu aizvēršanas komandas; tas ir ietverts Dynamics 365 for Operations 3. platformas atjauninājumā (2016. gada novembrī izlaistais atjauninājums) |
 | Instalējiet labojumfailu KB 3207800.                                                                              | Šis labojumfails sniedz iespēju skatīt pielikumus mobilajā klientā; tas ir ietverts Dynamics 365 for Operations 3. platformas atjauninājumā (2016. gada novembrī izlaistais atjauninājums)           |

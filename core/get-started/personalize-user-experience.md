@@ -1,9 +1,9 @@
 ---
 title: "Personalizēt lietotāja pieredzi"
-description: "Šajā rakstā ir paskaidrots, kā varat personalizēt programmatūru Microsoft Dynamics 365 for Finance and Operations."
+description: "Šajā tēmā skaidrots, kā personalizēt programmatūru Microsoft Dynamics 365 for Finance and Operations."
 author: RobinARH
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 62363
 ms.assetid: 57b445d7-3e9e-4228-8728-f63b9dbd77a3
 ms.search.region: Global
 ms.author: tlefor
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: b338a930777a5945eb6318dc8066fb3649c79dbe
+ms.translationtype: HT
+ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
+ms.openlocfilehash: dbc80ff756a5286a98489f1f1403959d9b18ebe6
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/04/2017
 
 ---
 
@@ -31,28 +31,28 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir paskaidrots, kā varat personalizēt programmatūru Microsoft Dynamics 365 for Finance and Operations.
+Šajā tēmā skaidrots, kā personalizēt programmatūru Microsoft Dynamics 365 for Finance and Operations.
 
 Programmatūrā Microsoft Dynamics 365 for Finance and Operations ir pieejami daudzi personalizēšanas veidi. Dažas personalizācijas ir no opciju saraksta iestatīšanas lapā veiktās atlases. Dažas personalizēšanas darbības ir netiešas, piemēram, Finance and Operations seko režģa kolonnu platumam, ja to koriģējat, un kopsavilkuma ciļņu izvēršanas/sakļaušanas stāvoklim. Citas personalizācijas ir tiešas. Tiešajām personalizācijām jūs ieejat interaktīvās personalizēšanas režīmā un modificējat lapas izskatu, tieši pārvaldot to, kā elementi tiek parādīti vai darbojas lapā. 
 
 Jebkura veida personalizēšana, ko lietotājs veic programmatūrā Finance and Operations, attiecas tikai uz šo lietotāju neatkarīgi no uzņēmuma, ar kuru lietotājs mijiedarbojas. Izmaiņas, ko lietotājs veic lapā, neietekmē citus lietotājus sistēmā.
 
 ## <a name="systemwide-options-for-the-current-user"></a>Sistēmas līmeņa opcijas pašreizējam lietotājam
-Navigācijas joslā jūs atradīsiet zobrata attēlu, kas tiek saukts par izvēlnes pogu **Iestatījumi**. Atverot izvēlni **Iestatījumi**, parādīsies vairākas opcijas. Atlasot **Opcijas** atvērsies lietotāja lapa **Opcijas**. Tur atradīsiet četras opciju cilnes: **Vizuāls**, **Preferences**, **Konts** un **Darbplūsma**.
+Navigācijas joslā jūs atradīsiet zobrata attēlu, kas tiek saukts par izvēlnes pogu **Iestatījumi**. Atverot izvēlni **Iestatījumi**, parādīsies vairākas opcijas. Atlasot **Opcijas** atvērsies lietotāja lapa **Opcijas**. Ir pieejamas četras opciju cilnes: 
 
--   **Vizuāls:** izmantojiet, lai izvēlētos savas lapas krāsu dizainu un elementu noklusējuma izmēru.
--   **Preferences:** šajā cilnē varat izvēlēties noklusējuma iestatījumus, kas tiek lietoti ikreiz, kad atverat programmatūru Finance and Operations, tostarp uzņēmuma, sākotnējās lapas un noklusējuma skata/rediģēšanas režīma iestatījumus (kas nosaka, vai lapa ir bloķēta skatīšanai vai atvērta rediģēšanai ikreiz, kad to atverat). Var atrast arī valodas, laika joslu un datumu, laiku un skaitļu formātu opcijas. Visbeidzot, šajā lapā ir vairākas dažādas preferences, kas atšķirsies dažādos laidienos.
--   **Konts:** izmantot, lai sniegtu savu lietotāja ID un citas ar kontu saistītas opcijas.
--   **Darbplūsma:** šeit var izvēlēties ar darbplūsmu saistītas opcijas.
+-   **Vizuāls**: izvelieties lapas krāsu dizainu un elementu noklusējuma izmēru.
+-   **Preferences**: izvēlieties noklusējuma iestatījumus, kas tiek lietoti ikreiz, kad atverat programmatūru Finance and Operations, tostarp uzņēmuma, sākotnējās lapas un noklusējuma skata/rediģēšanas režīma iestatījumus (kas nosaka, vai lapa ir bloķēta skatīšanai vai atvērta rediģēšanai ikreiz, kad to atverat). Var atrast arī valodas, laika joslu un datumu, laiku un skaitļu formātu opcijas. Visbeidzot, šajā lapā ir vairākas dažādas preferences, kas atšķirsies dažādos laidienos.
+-   **Konts**: norādiet lietotāja ID un citas ar kontu saistītas opcijas.
+-   **Darbplūsma**: izvēlieties ar darbplūsmu saistītas opcijas.
 
 ## <a name="implicit-personalizations"></a>Netiešas personalizācijas
 Netiešas personalizācijas ir tās personalizācijas, ko veicat vienkārši, izmantojot atsevišķas vadīklas, kas atcerēsies savu pašreizējo redzamo stāvokli. 
 
-**Režģa kolonnas:** saraksta kolonnu platumu var pielāgot, atlasot esošo izmēra maiņas joslu pa kreisi vai pa labi no virsraksta kolonnas un pavirzot to pa kreisi vai pa labi līdz nepieciešamajam platumam. Programmatūrā Finance and Operations tiek saglabāts vēlamais platums, un tas tiek izmantots šīs kolonnas rādīšanai ikreiz, kad atverat lapu ar šo sarakstu. 
+**Režģa kolonnas**: pielāgojiet saraksta kolonnu platumu, atlasot esošo izmēra maiņas joslu pa kreisi vai pa labi no virsraksta kolonnas un pavirzot to pa kreisi vai pa labi līdz nepieciešamajam platumam. Programmatūrā Finance and Operations tiek saglabāts vēlamais platums, un tas tiek izmantots šīs kolonnas rādīšanai ikreiz, kad atverat lapu ar šo sarakstu. 
 
-**Kopsavilkuma cilnes:** dažām lapām ir paplašināmās sadaļas, ko sauc par kopsavilkuma cilnēm. Programmatūrā Finance and Operations tiek saglabāta informācija par to, kuras kopsavilkuma cilnes ir izvērstas un kuras kopsavilkuma cilnes ir sakļautas. Katru reizi, kad atgriezīsieties šajā lapā, tās pašas kopsavilkuma cilnes tiks izvērstas vai sakļautas, atkarībā no tā, kā jūs pēdējo reizi tās lietojāt. Šajā rakstā mēs izskaidrosim, kā mainīt kopsavilkuma ciļņu sadaļu secību. Dažos gadījumos kopsavilkuma cilnes sakļaušana var uzlabot veiktspēju, jo šādā gadījumā programmatūrā Finance and Operations nav jāizgūst informācija par šo kopsavilkuma cilni, kamēr tā nav izvērsta. 
+**Kopsavilkuma cilnes**: dažām lapām ir paplašināmās sadaļas, ko sauc par kopsavilkuma cilnēm. Programmatūrā Finance and Operations tiek saglabāta informācija par to, kuras kopsavilkuma cilnes ir izvērstas un kuras kopsavilkuma cilnes ir sakļautas. Katru reizi, kad atgriezīsieties šajā lapā, tās pašas kopsavilkuma cilnes tiks izvērstas vai sakļautas, atkarībā no tā, kā jūs pēdējo reizi tās lietojāt. Šajā rakstā mēs izskaidrosim, kā mainīt kopsavilkuma ciļņu sadaļu secību. Dažos gadījumos kopsavilkuma cilnes sakļaušana var uzlabot veiktspēju, jo šādā gadījumā programmatūrā Finance and Operations nav jāizgūst informācija par šo kopsavilkuma cilni, kamēr tā nav izvērsta. 
 
-**Papildinformācija:** dažām lapām ir sadaļa ar nosaukumu papildinformācijas rūts. Šī rūts satur tikai lasāmu informāciju, kas saistīta ar pašreizējo lapas tēmu. Katru sadaļu papildinformācijas rūtī sauc par papildinformāciju. Papildinformāciju varat izvērst vai sakļaut, un šis stāvoklis tiek saglabāts programmatūrā Finance and Operations. Dažos gadījumos papildinformācijas sakļaušana var uzlabot veiktspēju, jo šādā gadījumā programmatūrā Finance and Operations nav jāizgūst informācija par šo papildinformāciju, kamēr tā nav izvērsta.
+**Papildinformācija**: dažām lapām ir sadaļa ar nosaukumu Papildinformācijas rūts. Šī rūts satur tikai lasāmu informāciju, kas saistīta ar pašreizējo lapas tēmu. Katru sadaļu papildinformācijas rūtī sauc par papildinformāciju. Papildinformāciju varat izvērst vai sakļaut, un šis stāvoklis tiek saglabāts programmatūrā Finance and Operations. Dažos gadījumos papildinformācijas sakļaušana var uzlabot veiktspēju, jo šādā gadījumā programmatūrā Finance and Operations nav jāizgūst informācija par šo papildinformāciju, kamēr tā nav izvērsta.
 
 ## <a name="explicit-personalizations-using-the-personalization-toolbar"></a>Tiešas personalizācijas, izmantojot rīkjoslu Personalizēšana
 Katrai personai un uzņēmumam ir savi uzskati par to, kuri dati ir viņiem vissvarīgākie, vai kuri dati nav nepieciešami viņu uzņēmējdarbības veidam. Iespējas pielāgot to, kā informācija tiek kārtota, izmantota un pat paslēpta, ir ļoti svarīgs faktors, kā personalizēt programmatūras Finance and Operations lietošanu un padarīt to efektīvu. 
@@ -107,15 +107,20 @@ Dažās darbvietās ir ietverti skaitīšanas elementi (elementi, uz kuriem ir s
 Informācijas panelis bieži ir pirmā lapa, ko redzat, atverot programmatūru Finance and Operations. Informācijas paneli var personalizēt, lai pārdēvētu darbvietas navigācijas elementus, parādītu tikai elementus, ko vēlaties redzēt, pārdēvētu elementus vai sakārtotu elementus secībā, kādā vēlaties tos redzēt. Lai personalizētu informācijas paneli, atlasiet jebkuru elementu un noklikšķiniet ar peles labo pogu, lai atvērtu konteksta izvēlni. Konteksta izvēlnē atlasiet **Personalizēt**. Ja atlasītais elements ir tas, ko vēlaties paslēpt, vai pārdēvēt, vai izlaist, jūs varat veikt izmaiņas tieši parādītajā rekvizītu logā. Ja vēlaties sakārtot elementus, atlasiet **Personalizēt šo formu** rekvizītu logā, lai atvērtu rīkjoslu Personalizēšana. Pēc tam elementu izkārtošanai var izmantot Pārvietošanas rīku.
 
 ## <a name="administration-of-personalization"></a>Personalizēšanas administrēšana
-Pēc lapas personalizēšanas savas personalizācijas varat kopīgot ar citiem lietotāja lietotājiem. Vienkārši eksportējiet personalizēto lapu. Pēc tam varat lūgt citiem lietotājiem pāriet uz šo personalizēto lapu un importēt jūsu izveidoto personalizēšanas failu.
+Pēc lapas personalizēšanas savas personalizācijas varat kopīgot ar citiem lietotāja lietotājiem, eksportējot personalizēto lapu. Pēc tam varat lūgt citiem lietotājiem pāriet uz šo personalizēto lapu un importēt jūsu izveidoto personalizēšanas failu.
 
-Lietotāji ar administratora privilēģijām lapā **Personalizācija** var arī pārvaldīt personalizācijas citiem lietotājiem. Šajā lapā ir četras cilnes: **Sistēma**, **Lietotāji**, **Importēt** un **Notīrīt**.
+Lietotāji ar administratora privilēģijām lapā **Personalizācija** var arī pārvaldīt personalizācijas citiem lietotājiem. Šai lapai ir četras cilnēs: 
 
 - **Sistēma** – varat īslaicīgi atspējot vai izslēgt visas personalizācijas sistēmā. Tādā gadījumā jūs personalizācijas nedzēšat. Tā vietā jūs tikai atiestatāt visas lapas uz to noklusējuma stāvokli. Ja vēlāk personalizācijas no jauna iespējojat, katrai lietotāja lapai tiek atjaunotas visas personalizācijas. Varat arī dzēst visas personalizācijas visiem lietotājiem. Ņemiet vērā, ka, dzēšot personalizācijas, nevar automātiski atkārtoti iespējot personalizācijas no sistēmas. Tādēļ, pirms veicat šo darbību, ir jāpārliecinās, ka ir eksportētas visas personalizācijas, kuras vēlāk varētu būt nepieciešams importēt.
 - **Lietotāji** – varat norādīt, vai katrs lietotājs var veikt netiešu personalizēšanu vai tiešu personalizēšanu. Varat arī norādīt, vai katrs lietotājs var veikt netiešu vai tiešu personalizēšanu konkrētā lapā. Visbeidzot, varat importēt, eksportēt, vai dzēst personalizācijas katram lietotājam.
 - **Importēt** – varat importēt personalizāciju vienam vai vairākiem lietotājiem. Šī cilne ir jāizmanto pēc tam, kad esat izveidojis personalizāciju kādā lapā vai darbvietā, un pēc tam šo personalizāciju esat eksportējis kā personalizēšanas failu. Lai importētu savu personalizēšanas failu un to lietotu vienam vai vairākiem lietotājiem, visu lietotāju sarakstā atlasiet atsevišķus lietotājus vai filtrējiet sarakstu pēc noteiktas lomas un pēc tam atlasiet lietotājus šajā lomā. Kad esat atlasījis lietotājus, kuri izmantos jūsu personalizāciju, noklikšķiniet uz **Importēt** un atlasiet savu personalizēšanas failu. Personalizācija tiks validēta un visiem atlasītajiem lietotājiem tiks lietota nākamajā reizē, kad viņi atvērs atlasīto lapu.
 - **Notīrīt** – varat notīrīt lapas vai darbvietas personalizācijas vienam vai vairākiem lietotājiem. Vispirms atlasiet lapu vai darbvietu, kurai notīrīt personalizācijas. Pēc tam visu lietotāju sarakstā atlasiet atsevišķus lietotājus vai filtrējiet pēc noteiktas lomas un pēc tam atlasiet lietotājus šajā lomā. Kad esat atlasījis gan lapu vai darbvietu, gan lietotājus, noklikšķiniet uz **Notīrīt**. Tiek notīrītas visas personalizācijas, ko atlasītie lietotāji ir lietojuši atlasītajai lapai vai darbvietai. Šo darbību nevar atsaukt. Taču, ja lapai vai darbvietai ir saglabāta personalizācija, šo personalizāciju var importēt atkārtoti.
 
+## <a name="personalization-of-inventory-dimensions"></a>Krājumu dimensiju personalizēšana
 
+Kad personalizējat krājumu dimensiju iestatījumus lapā, ņemiet vērā iestatījumus, kas izveidoti, izmantojot opciju **Parādīt dimensijas**. Piemēram, ja veicat personalizēšanu ar mērķi paslēpt partijas numuru krājumu dimensijas kolonnu, un kolonna tiek parādīta nākamreiz, kad tiek atvērta lapa, iespējamais iemesls var būt tas, ka dimensiju parādīšanas iestatījumi nosaka, kādas krājumu dimensiju kolonnas tiek parādītas. 
 
+Dimensiju parādīšanas iestatījumi tiek lietoti visās lapās, un šiem iestatījumiem ir virsroka pār jebkādiem personalizētiem krājumu dimensiju lauku iestatījumiem atsevišķās lapās. 
+
+Piemēram, lai netiktu rādīta partijas numuru krājumu dimensijas kolonna, šī dimensija ir jānotīra kā daļa no tabulas opcijas **Parādīt dimensijas**. Šīs izmaiņas attiektos ne tikai uz konkrēto lapu, bet uz visām lapām.
 

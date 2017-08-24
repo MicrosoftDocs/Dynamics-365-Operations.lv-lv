@@ -18,12 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: a0edbad63c51d111d7c8985aa7fdf7312da6149d
-ms.openlocfilehash: d14f3510df45169e3b77ee9c4f3d0d9d389e6036
+ms.translationtype: HT
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 6e062ffa459b7d008fc5d24f27538f8df04d7e82
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -71,7 +70,7 @@ Ja jūsu organizācija ir izvietota Microsoft Dynamics 365 for Operations versi
 <tr class="header">
 <th>Priekšnoteikumi</th>
 <th>Loma</th>
-<th>Apraksts</th>
+<th>apraksts</th>
 </tr>
 </thead>
 <tbody>
@@ -116,7 +115,7 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
 
 1.  Mobilajā ierīcē atlasiet darbvietu **Rīcībā esošie krājumi**.
 
-2.  Atlasiet vienumu **Pārbaudīt preces rīcībā esošos krājumus**. Tiek parādīts to preču saraksts, kas ir ielādētas programmā lietošanai bezsaistes režīmā. Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+2.  Atlasiet vienumu **Pārbaudīt preces rīcībā esošos krājumus**. Tiek parādīts to preču saraksts, kas ir ielādētas programmā lietošanai bezsaistes režīmā. Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 3.  Ja jūsu krājuma sarakstā nav, atlasiet vienumu **Meklēt vēl**. Meklējiet pēc preces numura vai pārslēdziet uz meklēšanu pēc preces nosaukuma.
 
 4.  Atlasiet preci. Ja krājumam ir attēls, tas tiek parādīts.

@@ -18,12 +18,11 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: d80dea89db1fbe270b96063f3818ec3ac95239c8
+ms.translationtype: HT
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 83899969255a9b771fc5e62e66e3c5ffdca0296e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -105,11 +104,11 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
 2.  Atlasiet vienumu **Laika ieraksts**. Tiek parādīti kalendāra datumi pašreizējai nedēļai.
 3.  Atlasītajam datumam atlasiet vienumu **Darbības** &gt; **Jauns ieraksts**.
 4.  Ievadiet reģistrējamo stundu skaitu.
-5.  Atlasiet projektu šim laika ierakstam. Sarakstā tiek parādīts to projektu saraksts, kas ir ielādēti programmā lietošanai bezsaistes režīmā. Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju skatiet rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+5.  Atlasiet projektu šim laika ierakstam. Sarakstā tiek parādīts to projektu saraksts, kas ir ielādēti programmā lietošanai bezsaistes režīmā. Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju skatiet rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 6.  Ja jūsu projekts nav sarakstā, atlasiet **Meklēšana**. Meklējiet pēc nosaukuma vai pārslēdziet uz meklēšanu pēc projekta nosaukuma vai debitora.
-7.  Atlasiet kategoriju. Sarakstā tiek parādītas kategorijas, kas ir ielādēti programmā lietošanai bezsaistes režīmā. Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju skatiet rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+7.  Atlasiet kategoriju. Sarakstā tiek parādītas kategorijas, kas ir ielādēti programmā lietošanai bezsaistes režīmā. Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju skatiet rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 8.  Ja jūsu kategorija nav sarakstā, atlasiet **Meklēšana**. Meklējiet pēc kategorijas vai pārslēdzieties uz meklēšanu pēc kategorijas nosaukuma.
-9.  Atlasiet kādu aktivitāti. Sarakstā tiek parādītas aktivitātes, kas ir ielādētas programmā lietošanai bezsaistes režīmā. Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju skatiet rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+9.  Atlasiet kādu aktivitāti. Sarakstā tiek parādītas aktivitātes, kas ir ielādētas programmā lietošanai bezsaistes režīmā. Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju skatiet rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 10. Ja jūsu aktivitāte nav sarakstā, atlasiet **Meklēšana**. Meklējiet pēc aktivitātes numura vai pārslēdziet uz meklēšanu pēc nolūka.
 
 11. Atlasiet rindas rekvizītu.

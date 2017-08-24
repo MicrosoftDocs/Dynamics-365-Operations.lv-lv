@@ -3,7 +3,7 @@ title: "Žurnāla ierakstu un transakciju skatīšana"
 description: "Šajā rakstā ir paskaidroti dažādie veidi, kādā varat skatīt žurnālu ierakstus un transakcijas."
 author: RobinARH
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 13031
 ms.assetid: 281c7ea6-4dfd-4d1f-994f-c361ee299dbe
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8607f27bc36d62865b03f433c24c90763e8e0bec
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 91cf395f2245f85cb244c7532ea77a63da98fcd7
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -59,6 +59,7 @@ Papildus finanšu pārskatiem varat izmantot tālāk aprakstītos Virsgrāmatas 
 - [Virsgrāmatas konta bilances](general-ledger-account-balances.md) 
 - [Uzskaites avota pārlūks](..\accounts-payable\accounting-source-explorer.md)
 - [Finanšu pārskati](financial-reporting-getting-started.md)
+- [Skatīt žurnālu ierakstus](tasks/view-journal-entries-or-transactions.md)
 
 
 

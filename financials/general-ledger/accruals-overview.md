@@ -3,7 +3,7 @@ title: "Uzkrājumu pārskats"
 description: "Šajā rakstā ir aprakstīti uzkrājumi un sniegta informācija par to, kā tos iestatīt un izveidot transakcijas."
 author: RobinARH
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 14131
 ms.assetid: 0489b59a-37a7-4a78-87bf-4b597e9efad9
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5ad5030da963ca961d49e645b1d9ad19453376b8
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 87d9f7fbdbc06a3399a6ec5c2492de0f053b1513
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -47,5 +47,5 @@ Pēc tam, kad definēsiet, kurus kontus izmantot, var norādīt, kā dokumenta n
 Atverot žurnālu, izvēlnē **Funkcijas** varat noklikšķināt uz **Virsgrāmatas uzkrājumi**. Atlasot uzkrājumu shēmu, redzēsit pamatsummu no žurnāla, kas tiks sadalīts laika posmā, kā noteikts uzkrājmu shēmā. Piemēram, ja janvārī apmaksājat darbinieka apdrošināšanu par visu gadu, un summa ir 12 000, šie izdevumi ir jāapstiprina katru mēnesi. Varat atlasīt sākuma datumu. Var arī norādīt, vai summa, kas tiek uzkrāta, tiek apstiprināta kontā vai korespondējošajā kontā. Pēc atlases veikšanas noklikšķiniet uz **Transakcijas**, lai skatītu visas transakcijas, kas tika izveidotas atbilstoši uzkrājumu shēmai. Piemēram, ja izdevumus par apdrošināšanu 12 000 apmērā sadalāt uz visu gadu, tad katru mēnesi redzēsiet 1000. Pēc žurnāla grāmatošanas transakcijas varat apskatīt, izmantojot uzziņu lapu **Dokumentu transakcijas**. Ja uzkrājumu shēmu nevar lietot (piemēram, ja ir iesaistīts pārdošanas pasūtījuma rēķins vai pirkšanas pasūtījuma rēķins), varat kreditēt priekšapmaksas summu un debitēt izdevumu summu. Kad tiek lietota uzkrājumu shēma, varat atlasīt **Korespondējošais**.
 
 
-
+Plašāku informāciju skatiet šeit: [Uzkrāšanas shēmu izveide](tasks/create-accrual-schemes.md) un [Virsgrāmatas uzkrājumu darbību izveide](tasks/create-ledger-accrual-transactions.md).
 
