@@ -1,7 +1,7 @@
 ---
 title: "Uzkrājumu pārskats"
 description: "Šajā rakstā ir aprakstīti uzkrājumi un sniegta informācija par to, kā tos iestatīt un izveidot transakcijas."
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

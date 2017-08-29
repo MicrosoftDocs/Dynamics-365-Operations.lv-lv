@@ -1,7 +1,7 @@
 ---
 title: "Pārdošanas tendenču un modeļu analīze"
 description: "Programmatūrā Microsoft Dynamics 365 for Retail varat reāllaikā pētīt pārdošanas tendences un modeļus."
-author: josaw1
+author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: f27e332e5a8028055903054a6175baafd224abe9
 ms.contentlocale: lv-lv
 ms.lasthandoff: 06/20/2017
-
 
 ---
 

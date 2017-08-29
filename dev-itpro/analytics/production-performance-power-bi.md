@@ -1,7 +1,7 @@
 ---
 title: "Ražošanas veiktspējas Power BI saturs"
 description: "Šajā tēmā ir aprakstīts, kas ir iekļauts ražošanas veiktspējas Power BI saturā. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem."
-author: sericks
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article

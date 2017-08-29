@@ -1,7 +1,7 @@
 ---
 title: "Termiņatlaides"
 description: "Termiņatlaides tiek iestatītas un koplietotas moduļiem Parādi kreditoriem un Debitoru parādi.  Pieejamo termiņatlaidi var definēt debitora rēķinā vai kreditora rēķinā, un tā tiek izmantota, ja rēķins tiek apmaksāts termiņatlaides datumu diapazonā."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 9d581a1d32a0df15e0b63e129d369d90aaa440d2
 ms.contentlocale: lv-lv
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

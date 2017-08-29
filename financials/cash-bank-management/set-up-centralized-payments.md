@@ -1,7 +1,7 @@
 ---
 title: "Iestatīt centralizētos maksājumus"
 description: "Veiciet šīs darbības, lai sagatavos maksājumu apstrādei vienai juridiskajai personai citu jūsu organizācijas juridisko personu vārdā."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article

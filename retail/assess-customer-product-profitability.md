@@ -1,7 +1,7 @@
 ---
 title: "Debitoru un preču ienesīguma novērtēšana"
 description: "Šajā rakstā ir paskaidrots, kā varat izmantot atmiņā saglabāto datu un reāllaika analīzi, la piekļūtu informācijai par debitoriem un preču ienesīgumu, pētītu šo informāciju un gūtu par to ieskatus, izmantojot Microsoft Dynamics 365 for Retail datus."
-author: josaw1
+author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: ea35bdd54c476fc5a3d329f7ca0dcf014c417e7a
 ms.contentlocale: lv-lv
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

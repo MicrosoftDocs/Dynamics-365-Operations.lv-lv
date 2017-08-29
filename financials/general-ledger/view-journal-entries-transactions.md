@@ -1,7 +1,7 @@
 ---
 title: "Žurnāla ierakstu un transakciju skatīšana"
 description: "Šajā rakstā ir paskaidroti dažādie veidi, kādā varat skatīt žurnālu ierakstus un transakcijas."
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
