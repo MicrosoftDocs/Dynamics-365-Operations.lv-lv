@@ -1,7 +1,7 @@
 ---
 title: "Klientu lojalitātes programmas iestatīšana"
 description: "Šajā rakstā aprakstīts, kā iestatīt lojalitātes programmas komponentes. Lojalitātes programmas var palīdzēt paaugstināt debitoru lojalitāti, atlīdzinot debitoriem par preču pirkšanu jūsu mazumtirdzniecības veikalos. Programmā Microsoft Dynamics 365 for Retail varat iestatīt vienkāršās vai kompleksās lojalitātes programmas, kas tiek piemērotas jūsu juridiskajām personām jebkurā mazumtirdzniecības kanālā."
-author: josaw1
+author: scott-tucker
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 710f8ae3a6a2b5072f37879aad066dc699ede8f0
 ms.contentlocale: lv-lv
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

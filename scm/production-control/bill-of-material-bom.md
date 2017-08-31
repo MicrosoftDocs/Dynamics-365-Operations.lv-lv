@@ -1,7 +1,7 @@
 ---
 title: "Materiālu komplekti un formulas"
 description: "Šajā rakstā ir sniegta informācija par materiālu komplektu (MK) un formulām, kuras veido preču un preču variantu definīcijas centrālo daļu. MK un formulas norāda konkrētas preces nepieciešamos materiālus jeb komponentus. Formulas norāda arī līdzproduktus un blakusproduktus, kas tiek saņemti noteiktā ražošanas kontekstā."
-author: YuyuScheller
+author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BOMConsistOf, BOMDesigner, BOMTable, EcoResProductProcessManufacturingWorkspace
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19331
 ms.assetid: c19b437a-2de2-4728-9477-2bcb0c2b1f5e
@@ -24,7 +24,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 5a23acfa95bb93dbc5990bf3839bbc629f15cc2f
 ms.contentlocale: lv-lv
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

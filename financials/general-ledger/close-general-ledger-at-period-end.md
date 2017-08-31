@@ -1,7 +1,7 @@
 ---
 title: "Virsgrāmatas slēgšana perioda beigās"
 description: "Šajā tēmā ir aprakstīti uzdevumi, kas parasti tiek veikti, virsgrāmatai izpildot perioda slēgšanu."
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

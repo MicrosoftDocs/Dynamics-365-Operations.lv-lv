@@ -1,7 +1,7 @@
 ---
 title: "Mazumtirdzniecības laiks un apmeklētība"
 description: "Šajā tēmā ir aprakstīti programmatūrā Microsoft Dynamics 365 for Finance and Operations — Retail atbalstītie laika un apmeklētības pārvaldības scenāriji."
-author: MargoC
+author: aamirallaqaband
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: b458d1938f49a2f33f7dd3ce3062880f0d4d7bfc
 ms.contentlocale: lv-lv
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

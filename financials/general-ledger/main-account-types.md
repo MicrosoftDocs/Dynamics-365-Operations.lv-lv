@@ -1,7 +1,7 @@
 ---
 title: Galveno kontu veidi
 description: "Galvenā konta veidi nosaka, kā galvenais konts tiek izmantots kontu plānā."
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
