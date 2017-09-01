@@ -1,9 +1,9 @@
 ---
 title: "Moduļu Debitori un Kredīts un iekasēšana konfigurēšana"
 description: "Konfigurējiet debitoru parādus un kredītu un iekasēšanu, lai izsekotu rēķiniem un no debitoriem ienākošajiem maksājumiem."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 24631
 ms.assetid: 8c1fc7c5-b461-41ed-b102-2648cc58eb0b
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 74556e571c215b0fea8deb061fd968c240b063d4
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 1d37014e8f7b333a15077fc3477808a3ad62b96f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -66,12 +65,12 @@ Nākamajā tabulā ir uzskaitītas lapas, kas atbalsta moduļu Debitori un Kred�
 |                                                      | Valūtas                           | Izveidojiet un apskatiet valūtas, ko lieto jūsu organizācijā.                                                                                                                                                                                                                       |
 |                                                      | Valūtas maiņas kursi              | Izveidojiet un uzturiet atbilstošus maiņas kursus starp uzskaites valūtu un citām valūtām.                                                                                                                                                                              |
 |                                                      | Starpuzņēmuma uzskaite              | Izveidojiet kontu sarakstu, kuros iegrāmatot pašreizējo juridiskas personas valūtu. Jāiestata debeta un kredīta konti, kā arī jāiestata žurnāls, kas saņem darbības otrajā juridiskajā personā.                                                                             |
-|                                                      | Maksāšanas metodes — debitors        | Izveidojiet un uzturiet informāciju par maksājumu metodēm debitoriem.                                                                                                                                                                                                           |
+|                                                      | Maksāšanas metodes — debitors        | Izveidojiet un uzturiet informāciju par maksājumu metodēm debitoriem. Plašāku informāciju skatiet šeit: [Debitoru maksāšanas metodes noteikšana](tasks/establish-customer-method-payment.md).                                                                                             |
 |                                                      | Organizācijas hierarhijas             | Iestatiet organizācijas hierarhijas centralizētiem maksājumiem.                                                                                                                                                                                                                        |
 |                                                      | Organizācijas hierarhijas nolūki      | Norādiet centralizēto maksājumu nolūku.                                                                                                                                                                                                                                       |
 |                                                      | Maksājuma dienas                         | Nosakiet maksājuma dienas, ko izmanto, lai aprēķinātu maksājuma veikšanas datumus tiem maksājumiem, ko saņemsit no debitoriem vai izrakstīsiet kreditoriem.                                                                                                                                                |
-|                                                      | Maksājumu apmaksas                          | Izmantojiet un uzturiet komisijas maksas, kas saistītas ar debitoriem, piemēram nodevas vekseļiem.                                                                                                                                                                               |
-|                                                      | Maksājumu apmaksu iestatīšana                    | Iestatiet komisijas maksas dažādām banku kombinācijām, maksājumu metodēm, pārvedumu tipiem, maksājumu specifikācijām, valūtām un datumu intervāliem.                                                                                                                              |
+|                                                      | Maksājumu apmaksas                          | Izmantojiet un uzturiet komisijas maksas, kas saistītas ar debitoriem, piemēram nodevas vekseļiem.                                                                                                                                                                         |
+|                                                      | Maksājumu apmaksu iestatīšana                    | Iestatiet komisijas maksas dažādām banku kombinācijām, maksājumu metodēm, pārvedumu tipiem, maksājumu specifikācijām, valūtām un datumu intervāliem.  Plašāku informāciju skatiet šeit: [Debitoru maksājumu papildu maksas noteikšana](tasks/establish-customer-payment-fees.md).                                                                                   |
 |                                                      | Maksājumu grafiki                    | Izveidojiet maksājumu grafikus, ko var izmantot iemaksu maksājumu plānošanai kreditoriem un maksājumiem no debitoriem.                                                                                                                                                                       |
 |                                                      | Maksājumu specifikācija                | Izveidojiet un apskatiet maksājumu specifikāciju kodus tam maksājuma veidam, ko atlasījāt lapā Maksāšanas metodes. Nosakiet maksājumu specifikācijas kodus attiecīgi līgumam ar banku, kura ir norādīta atlasītajai maksāšanas metodei.                    |
 |                                                      | Darbības teksts                     | Izveidojiet darbības tekstus automātiskai iegrāmatošanai virsgrāmatā. Darbības tekstu var iestatīt dažādās valodās.                                                                                                                                                           |
@@ -83,8 +82,8 @@ Nākamajā tabulā ir uzskaitītas lapas, kas atbalsta moduļu Debitori un Kred�
 |                                                      | Maksāšanas metodes — debitors        | Izveidojiet un uzturiet informāciju par maksājumu metodēm debitoriem.                                                                                                                                                                                                           |
 |                                                      | Paraksts                            | Pievienojiet, mainiet vai noņemiet parakstu attēlu failus, piemēram, .bmp, .jpg vai .gif failus. Paraksta attēla faili tiek drukāti uz čekiem kā oficiālie juridiskas personas paraksti.                                                                                                             |
 |                                                      |                                      |                                                                                                                                                                                                                                                                                   |
-| Debitoru parādu žurnālu statistika           | Vecumstruktūras perioda definīcijas             | Iestatiet un pārvaldiet lietotāja noteiktas vecumstruktūras periodu definīcijas, ko izmanto, lai analizētu debitoru kontu un kreditoru kontu vecumu, balstoties uz jūsu ievadīto datumu.                                                                                                         |
-|                                                      | Biznesa statistika                  | Iestatiet biznesa statistikas uzziņas, kas varētu palīdzēt jums analizēt sava uzņēmuma veiktspēju.                                                                                                                                                                              |
+| Debitoru parādu žurnālu statistika           | Vecumstruktūras perioda definīcijas             | Iestatiet un pārvaldiet lietotāja noteiktas vecumstruktūras periodu definīcijas, ko izmanto, lai analizētu debitoru kontu un kreditoru kontu vecumu, balstoties uz jūsu ievadīto datumu. Plašāku informāciju skatiet šeit: [Debitoru vecumstruktūras informācijas iestatīšana un ģenerēšana](tasks/set-up-accounts-receivable-aging-information.md).                                                           |
+|                                                      | Vadības statistika                  | Iestatiet biznesa statistikas uzziņas, kas varētu palīdzēt jums analizēt sava uzņēmuma veiktspēju.                                                                                                                                                                              |
 |                                                      | Biznesa statistikas dati             | Apskatiet atlasītās biznesa statistiku režģa formātā.                                                                                                                                                                                                                     |
 |                                                      |                                      |                                                                                                                                                                                                                                                                                   |
 | Debitora informācijas uzturēšana                     | Adrešu grāmata                         | Ievadiet vai skatiet informāciju par potenciālajiem klientiem, iestrādēm, iespējā, debitoriem, kontaktpersonām, konkurentiem un darbiniekiem.                                                                                                                                                          |

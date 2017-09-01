@@ -1,9 +1,9 @@
 ---
 title: "Debitoru parādu kredīts un iekasēšana"
 description: "Debitoru parādu iekasēšanas informācija tiek centralizēti pārvaldīta vienā skatā, izmantojot Microsoft Dynamics 365 for Finance and Operations izdevuma Enterprise lapu Iekasēšana. Kreditēšanas un iekasēšanas transakciju vadītāji šo centrālo skatu var izmantot, lai pārvaldītu iekasēšanas transakcijas. Iekasēšanas aģenti var uzsākt iekasēšanas procesu, izmantojot debitoru sarakstus, kas tiek ģenerēti, izmantojot iepriekš definētus iekasēšanas kritērijus, vai lapu Debitori."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 49bc7ca4e5fff4c2686a8b7396d5bd2bcdd0c51a
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 282084b9d4e63795ec475690e5b22e06c23bb704
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -90,6 +89,8 @@ Var atcelt, atjaunot vai anulēt veselus procentu paziņojumus vai procentu pazi
 
 Šīs korekcijas ietekmē tikai procentu paziņojumus un tajos ietvertos procentus un maksas. Veiciet sadaļā “Norakstīšanas transakciju izveide, veicot vienu darbību” aprakstītās darbības, lai norakstītu visas maksas, kuras debitors nav apmaksājis.
 
+Plašāku informāciju skatiet šeit: [Procentu koda ar diapazonu izveidošana](tasks/create-interest-code-range.md) un šeit: [Procentu apstrāde](tasks/process-interest.md). 
+
 ## <a name="create-writeoff-transactions"></a>Izveidot norakstīšanas transakcijas
 Varat norakstīt sliktos parādus, noklikšķinot uz Norakstīt veidlapā Iekasēšana un sarakstu lapās Vecas bilances, Debitori un Atvērtie debitoru rēķini. 
 
@@ -100,7 +101,10 @@ Norakstot debitora transakcijas, visas debitora transakcijas tiek automātiski i
 -   Trešā veida žurnāla rinda satur virsgrāmatas norakstīšanas informāciju par PVN. Šī žurnāla rinda tiek izveidota tikai tad, ja lapā Debitoru parādu parametri ir atlasīts slēdzis Atdalīt PVN. Ja iezīmētās transakcijas satur vairākas maksājamā PVN konta, dimensijas un PVN koda kombinācijas, katrai kombinācijai tiek izveidota atsevišķa žurnāla rinda.
 
 Norakstīšanas transakcija tiek izveidota transakcijas valūtā.
-Nepietiekamu naudas līdzekļu (NSF) maksājumi 
+
+Plašāku informāciju skatiet šeit: [Debitora norakstīšanas žurnāla izveide](tasks/create-write-off-journal-customer.md)
+
+<a name="process-not-sufficient-funds-nsf-payments"></a>Nepietiekamu naudas līdzekļu (NSF) maksājumi 
 --------------------------------------------
 
 Varat apstrādāt NSF maksājumus, lapā Iekasēšana noklikšķinot uz NSF maksājums. Noklikšķinot uz šīs pogas, maksājums tiek atcelts. Ja debitoram ir jāmaksā NSF maksa, maksājumu žurnālā tiek izveidota maksas transakcija. Maksas summa balstās uz automātisko maksu iestatījumiem. Automātiskās maksas, kas attiecas uz NSF maksājumiem, ir atkarīgas no maksu grupas, kas ietekmētajam bankas kontam ir atlasīta lapā Bankas konti.
