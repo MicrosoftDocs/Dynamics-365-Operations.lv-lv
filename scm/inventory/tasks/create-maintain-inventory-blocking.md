@@ -1,4 +1,4 @@
---- 
+---
 title: "Krājumu aizturēšanas izveide un uzturēšana"
 description: "Šajā procedūrā parādīts, kā citos izejošos pirmdokumentos neļaut rezervēt fiziski rīcībā esošus krājumus, izmantojot krājumu aizturēšanu."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -34,7 +34,7 @@ ms.lasthandoff: 07/27/2017
 1. Dodieties uz Krājumu vadība > Periodiskie uzdevumi > Krājumu bloķēšana.
 2. Noklikšķiniet uz Jauns.
 3. Laukā Krājuma kods noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-4. Sarakstā atlasiet krājumu, kuru vēlaties izmantot. 
+4. Sarakstā atlasiet krājumu, kuru vēlaties izmantot.
     * Atlasiet krājuma numuru no fiziski rīcībā esošiem krājumiem, kuru vēlaties bloķēt. Ja izmantojat USMF, varat atlasīt krājumu M9201.  
 5. Laukā Daudzums ievadiet skaitli.
     * Ja lietojat krājumu M9201, ir jāatlasa mazāk par 200 vienībām.  
@@ -55,5 +55,4 @@ ms.lasthandoff: 07/27/2017
 1. Noklikšķiniet uz Dzēst.
 2. Noklikšķiniet uz Jā.
 3. Aizvērt lapu.
-
 

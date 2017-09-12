@@ -1,7 +1,7 @@
 ---
 title: "Sūtījums"
 description: "Šajā tēmā ir paskaidrots, kā izmantot ienākošo sūtījumu krājumu procesus."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ConsignmentDraftReplenishmentOrderJournal, ConsignmentProductReceiptLines, ConsignmentReplenishmentOrder, ConsignmentVendorPortalOnHand, InventJournalOwnershipChange, InventOnHandItemListPage, PurchTable, PurchVendorPortalConfirmedOrders
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 220834
 ms.assetid: 3c9d6de4-45d4-459a-aef7-0d9ad2c22b3a
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
@@ -61,7 +61,7 @@ USMF veic papildu periodiskus procesus:
 Kreditors US-104 var pārraudzīt atjauninājumus, izmantojot lapu **Rīcībā esošie sūtījuma krājumi**.
 
 ## <a name="consignment-replenishment-orders"></a>Sūtījuma papildināšanas pasūtījumi
-Sūtījuma papildināšanas pasūtījums ir dokuments, kas tiek izmantots, lai pieprasītu un sekotu līdzi produktu krājumu daudzumiem, ko kreditors plāno piegādāt noteiktā datumu intervālā, izveidojot pasūtīto krājumu darbības. Parasti tas tiks balstīts uz prognozi un konkrēto produktu faktisko pieprasījumu. Krājumu, kas tiks saņemts atbilstoši sūtījuma papildināšanas pasūtījumam, paliek kreditora īpašumā. Tiek ierakstītas tikai rīcībā esošas preces, kas attiecas uz fiziskās ieejas plūsmas atjaunināšanu, tādēļ notiek virsgrāmatas darbību grāmatošana. Dimensija **Īpašnieks** tiek izmantota, lai atdalītu informāciju par krājumu, kas pieder kreditoram, un kas pieder saņēmēja juridiskajai personai. Kamēr pilnais rindu daudzums nav bijis saņemts vai atcelts, sūtījuma papildināšanas pasūtījuma rindām ir statuss **Atvērts pasūtījums**. Kad pilnais daudzums ir saņemts vai atcelts, statuss tiek mainīts uz **Pabeigts**. Fizisko rīcībā esošo krājumu, kas ir saistīts ar sūtījuma papildināšanas pasūtījumu var ierakstīt, izmantojot Reģistrācijas procesu, kā arī Produktu ieejas plūsmas atjaunināšanas procesu. Reģistrāciju var veikt kā daļu no krājumu saņemšanas procesa, vai manuāli atjauninot pasūtījuma rindas. Ja tiek izmantots Produktu ieejas plūsmas atjaunināšanas process, produktu ieejas plūsmas žurnālā tiek veikts ieraksts, ko var izmantot, lai kreditoriem apstiprinātu preču saņemšanu. 
+Sūtījuma papildināšanas pasūtījums ir dokuments, kas tiek izmantots, lai pieprasītu un sekotu līdzi produktu krājumu daudzumiem, ko kreditors plāno piegādāt noteiktā datumu intervālā, izveidojot pasūtīto krājumu darbības. Parasti tas tiks balstīts uz prognozi un konkrēto produktu faktisko pieprasījumu. Krājumu, kas tiks saņemts atbilstoši sūtījuma papildināšanas pasūtījumam, paliek kreditora īpašumā. Tiek ierakstītas tikai rīcībā esošas preces, kas attiecas uz fiziskās ieejas plūsmas atjaunināšanu, tādēļ notiek virsgrāmatas darbību grāmatošana. Dimensija **Īpašnieks** tiek izmantota, lai atdalītu informāciju par krājumu, kas pieder kreditoram, un kas pieder saņēmēja juridiskajai personai. Kamēr pilnais rindu daudzums nav bijis saņemts vai atcelts, sūtījuma papildināšanas pasūtījuma rindām ir statuss **Atvērts pasūtījums**. Kad pilnais daudzums ir saņemts vai atcelts, statuss tiek mainīts uz **Pabeigts**. Fizisko rīcībā esošo krājumu, kas ir saistīts ar sūtījuma papildināšanas pasūtījumu var ierakstīt, izmantojot Reģistrācijas procesu, kā arī Produktu ieejas plūsmas atjaunināšanas procesu. Reģistrāciju var veikt kā daļu no krājumu saņemšanas procesa, vai manuāli atjauninot pasūtījuma rindas. Ja tiek izmantots Produktu ieejas plūsmas atjaunināšanas process, produktu ieejas plūsmas žurnālā tiek veikts ieraksts, ko var izmantot, lai kreditoriem apstiprinātu preču saņemšanu.
 
 [![consignment-replenishment-order](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
 
@@ -71,7 +71,7 @@ Krājumu īpašumtiesību izmaiņu žurnāls tiek izmantots, lai mainītu krāju
 -   Kreditora īpašumā esošie krājumi tiek izsniegti, izmantojot atsauci **Īpašumtiesību izmaiņa** ar statusu **Pārdots**.
 -   Rīcībā esošus krājumus saņem juridiska persona, kas tos patērē, izmantojot produktu ieejas plūsmas atjaunināto krājumu darbību pirkšanas pasūtījumā. Tas iestata pasūtījuma statusu uz **Saņemts**. Pirkšanas pasūtījumiem, kas tiek izmantoti sūtījumam, lauks **Izcelsme** ir iestatīts uz **Sūtījums**.
 
-Pēc pasūtījuma rindas izveidošanas nav iespējams atjaunināt sūtījuma pirkšanas pasūtījuma rindu daudzumu. 
+Pēc pasūtījuma rindas izveidošanas nav iespējams atjaunināt sūtījuma pirkšanas pasūtījuma rindu daudzumu.
 
 [![inventory-ownership-change-journal](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
@@ -81,8 +81,4 @@ Kreditora sadarbības interfeisā ir trīs lapas, kas ir saistītas ar ienākoš
 -   **Pirkšanas pasūtījumi,** **kas patērē sūtījuma krājumu** — rāda detalizētu pirkšanas pasūtījuma informāciju, kas attiecas uz īpašumtiesību maiņu no sūtījuma procesa.
 -   **No sūtījuma krājumiem saņemtās preces** - rāda informāciju par krājumiem un daudzumiem, kuru produktu ieejas plūsmas tika atjauninātas, īpašumtiesības izmaiņas procesa laikā.
 -   **Rīcībā esošie sūtījuma krājumi** - rāda informāciju par sūtījuma krājumiem, kurus paredzēts piegādāt, un krājumus, kas jau fiziski ir pieejami debitora vietā.
-
-
-
-
 

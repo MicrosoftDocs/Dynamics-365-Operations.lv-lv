@@ -1,4 +1,4 @@
---- 
+---
 title: "Sūtījuma krājumu pārraudzība, izmantojot kreditoru sadarbību"
 description: "Šajā procedūrā ir parādīts kā izmantot kreditoru sadarbību, lai skatītu informāciju par preces rezerves līmeni, kas tika novietots sūtījumā ar debitoru."
 author: mkirknel
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -41,5 +41,4 @@ ms.lasthandoff: 07/27/2017
 ## <a name="view-on-hand-inventory"></a>Apskatīt rīcībā esošos krājumus
 1. Dodieties uz Kreditoru sadarbība > Sūtījuma krājumi > Rīcībā esošie sūtījuma krājumi.
     * Sūtījuma rīcībā esošo krājumu lapā tiek rādīta rezerve, ka jums pieder debitora noliktavā. Jūs varat rādīt papildu dimensijas, piemēram, vieta un noliktava, noklikšķinot cilnes Parādīt dimensijas.   
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: "Kvalitātes pasūtījumu iestatīšana"
 description: "Šajā procedūrā parādīts, kā iespējot kvalitātes pārvaldības procesu, kurā ienākošie krājumi ir jāpārbauda uzreiz pēc saņemšanas reģistrācijas."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -142,5 +142,4 @@ ms.lasthandoff: 07/27/2017
 15. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
 16. Noklikšķiniet uz Saglabāt.
 17. Aizvērt lapu.
-
 

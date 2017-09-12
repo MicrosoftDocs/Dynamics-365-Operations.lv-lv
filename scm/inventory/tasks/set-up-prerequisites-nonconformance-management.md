@@ -1,4 +1,4 @@
---- 
+---
 title: "Pārvaldības priekšnosacījumu iestatīšana"
 description: "Izmantojiet šo procedūru, lai iespējotu neatbilstības pārvaldības procesus."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -101,5 +101,4 @@ Izmantojiet šo procedūru, lai iespējotu neatbilstības pārvaldības procesus
 3. Ierakstiet vērtību laukā Karantīnas zona.
 4. Apraksta laukā ierakstiet vērtību.
 5. Aizvērt lapu.
-
 

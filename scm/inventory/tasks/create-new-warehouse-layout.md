@@ -1,4 +1,4 @@
---- 
+---
 title: "Jauna noliktavas izkārtojuma izveide"
 description: "Šajā procedūrā ir parādīts, kā iestatīt informāciju par novietojumiem noliktavā."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -49,7 +49,7 @@ ms.lasthandoff: 07/27/2017
 7. Pārslēdziet sadaļas Novietojumu nosaukumi izvēršanu.
     * Opcijas šajā sadaļā definē novietojumu nosaukumu noklusējuma formātu. Mūsu piemērā būs ietverts ailes numurs, statīva numurs un plaukta numurs.  
 8. Opcijas Iekļaut aili vērtību iestatiet uz Jā.
-9. Opcijas Iekļaut statīvu vērtību iestatiet uz Jā. 
+9. Opcijas Iekļaut statīvu vērtību iestatiet uz Jā.
 10. Statīva laukā Formāts ierakstiet kādu vērtību.
     * Piemēram: -##  
 11. Opcijas Iekļaut plauktu vērtību iestatiet uz Jā.
@@ -74,5 +74,4 @@ ms.lasthandoff: 07/27/2017
 14. Noklikšķiniet uz Pabeigt.
 15. Aizvērt lapu.
 16. Atsvaidziniet lapu.
-
 

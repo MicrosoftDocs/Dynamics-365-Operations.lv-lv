@@ -1,7 +1,7 @@
 ---
 title: "Kvalitātes pārvaldības procesi"
 description: "Šajā rakstā ir sniegta informācija par kvalitātes pārvaldības procesu nekondīcijas precēm. Tajā ir aprakstīts, kā varat lietot kvalitātes kontroles funkcionalitāti, kā noteikt un uzturēt neatbilstības un kā rīkoties ar labojumiem."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventItemSampling, InventNonConformanceHistory, InventNonConformanceTable, InventQualityOrderLineResults, InventQualityOrderTable, InventTestCorrection, InventTestDiagnosticType, InventTestInstrument, InventTestReportSetup, InventTestTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11574
 ms.assetid: 5ac8a059-5cb4-4cb5-ba14-b944bd08dae9
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
@@ -56,7 +56,7 @@ Preču testēšana parasti tiek saukta par kvalitātes kontroli, un tajā tiek i
 -   Reģistrējiet testu rezultātus kvalitātes pārbaudes pasūtījumā, pārbaudiet testu rezultātus pret AQL un izdrukājiet analīzes sertifikātu, kurā ir parādīti testu rezultāti.
 
 ## <a name="nonconformance"></a>Neatbilstība
-Neatbilstība raksturo krājumu, kuram ir kvalitātes problēma. Neatbilstības process jums ļauj izveidot neatbilstības pasūtījumu, kas apraksta neatbilstības materiāla daudzumu, problēmas avotu, problēmas tipu un sniedz skaidrojošas piezīmes. Varat definēt problēmu tipu klasifikāciju, lai nekondīcijas materiālu analīzi varētu veikt vienkāršāk. Varat arī izdrukāt nekondīcijas etiķeti un nekondīcijas atskaiti, lai vadītu atbrīvošanos no nekondīcijas materiāla. Piemēram, etiķete un atskaite var norādīt stāvokli **Nelietojams** vai **Ierobežots lietojums**. 
+Neatbilstība raksturo krājumu, kuram ir kvalitātes problēma. Neatbilstības process jums ļauj izveidot neatbilstības pasūtījumu, kas apraksta neatbilstības materiāla daudzumu, problēmas avotu, problēmas tipu un sniedz skaidrojošas piezīmes. Varat definēt problēmu tipu klasifikāciju, lai nekondīcijas materiālu analīzi varētu veikt vienkāršāk. Varat arī izdrukāt nekondīcijas etiķeti un nekondīcijas atskaiti, lai vadītu atbrīvošanos no nekondīcijas materiāla. Piemēram, etiķete un atskaite var norādīt stāvokli **Nelietojams** vai **Ierobežots lietojums**.
 
 Nākamajā tabulā ir uzskaitīti seši noklusējuma neatbilstības tipi un aprakstīta informācija, kas ir jāreģistrē katram tipam.
 
@@ -69,23 +69,23 @@ Nākamajā tabulā ir uzskaitīti seši noklusējuma neatbilstības tipi un apra
 | Iekšēji              | Kvalitātes pārbaudes pasūtījuma numurs vai kvalitātes pārbaudes pasūtījuma transakcijas laidiena numurs. Piemēram, neatbilstība varētu būt saistīta ar testiem, kas tiek veikti kā daļa no kvalitātes pārbaudes pasūtījuma, vai ar darbinieka apsvērumiem par preces kvalitāti.     |
 | Līdzprodukta ražošana | Līdzprodukta ražošanas pasūtījuma neatbilstība, kas ir saistīta ar partijas ražošanas pasūtījumiem.                                                                                                                                                    |
 
-Neatbilstības ir saistītas ar problēmas tipu. Problēmu tipi tiek definēti lapā **Problēmtipi**, kur jūs norādāt, kuri problēmu tipi var būt saistīti ar katru neatbilstības tipu. Piemēram, problēmu tipi, kuru neatbilstības veids ir **Pakalpojuma pieprasījums**, var atbilst debitoru sūdzību klasifikācijai, bet problēmu tipi, kuru neatbilstības veids ir **Iekšējs**, var atbilst defektu kodu klasifikācijai. 
+Neatbilstības ir saistītas ar problēmas tipu. Problēmu tipi tiek definēti lapā **Problēmtipi**, kur jūs norādāt, kuri problēmu tipi var būt saistīti ar katru neatbilstības tipu. Piemēram, problēmu tipi, kuru neatbilstības veids ir **Pakalpojuma pieprasījums**, var atbilst debitoru sūdzību klasifikācijai, bet problēmu tipi, kuru neatbilstības veids ir **Iekšējs**, var atbilst defektu kodu klasifikācijai.
 
-Kad veidojat jaunu neatbilstību, jūs atlasāt neatbilstības tipu un problēmas tipu. Sākotnējais apstiprinājuma statuss ir **Jauns**, kas apzīmē darbības pieprasījumu. Nākamā darbība ir apstiprinājuma statusa mainīšana uz **Apstiprināts** vai **Noraidīts**, lai norādītu, ka jūs kaut ko darīsiet vai neko nedarīsiet saistībā ar šo neatbilstību. Varat arī slēgt neatbilstību (atzīmējot atsevišķu izvēles rūtiņu), lai norādītu, kas darbu r to esat beidzis, vai neatbilstību varat atkal atvērt, lai norādītu, ka ir nepieciešami papildu apsvērumi. 
+Kad veidojat jaunu neatbilstību, jūs atlasāt neatbilstības tipu un problēmas tipu. Sākotnējais apstiprinājuma statuss ir **Jauns**, kas apzīmē darbības pieprasījumu. Nākamā darbība ir apstiprinājuma statusa mainīšana uz **Apstiprināts** vai **Noraidīts**, lai norādītu, ka jūs kaut ko darīsiet vai neko nedarīsiet saistībā ar šo neatbilstību. Varat arī slēgt neatbilstību (atzīmējot atsevišķu izvēles rūtiņu), lai norādītu, kas darbu r to esat beidzis, vai neatbilstību varat atkal atvērt, lai norādītu, ka ir nepieciešami papildu apsvērumi.
 
-Varat ievadīt komentārus par neatbilstību, pievienojot dokumentu. Ieteicams neatbilstībām definēt unikālu dokumenta tipu, izmantojot lapu **Dokumenta tips**. Pēc tam varat izmantot lapu **Atskaišu iestatījumi**, lai definētu, vai komentāri šī tipa dokumentiem ir jādrukā neatbilstības atskaitē un neatbilstības etiķetē. Atbilstības atskaite un neatbilstības etiķete var noderēt, lai atbrīvotos no materiāla. Varat atlases viedā ģenerēt atskaites un etiķetes, pamatojoties uz atlases kritērijiem, kas ir saistīti ar neatbilstību. Šie kritēriji ietver neatbilstības numuru, krājumu, debitoru, kreditoru un statusu. 
+Varat ievadīt komentārus par neatbilstību, pievienojot dokumentu. Ieteicams neatbilstībām definēt unikālu dokumenta tipu, izmantojot lapu **Dokumenta tips**. Pēc tam varat izmantot lapu **Atskaišu iestatījumi**, lai definētu, vai komentāri šī tipa dokumentiem ir jādrukā neatbilstības atskaitē un neatbilstības etiķetē. Atbilstības atskaite un neatbilstības etiķete var noderēt, lai atbrīvotos no materiāla. Varat atlases viedā ģenerēt atskaites un etiķetes, pamatojoties uz atlases kritērijiem, kas ir saistīti ar neatbilstību. Šie kritēriji ietver neatbilstības numuru, krājumu, debitoru, kreditoru un statusu.
 
 Neatbilstības atskaitē tiek rādīts neatbilstības numurs, krājums un problēmas tips. Atkarībā no jūsu atskaišu iestatījumu politikas atskaitē var tikt rādītas arī saistītās piezīmes par šo neatbilstību. Neatbilstības etiķetē tiek rādīta līdzīga informācija, un tā ietver arī karantīnas zonu un tipu (piemēram, **Ierobežots lietojums** vai **Nelietojams**), ko piešķīrāt šai neatbilstībai, lai palīdzētu vadīt atbrīvošanos no defektīvā materiāla.
 
 ## <a name="approved-nonconformance"></a>Apstiprināta neatbilstība
-Pēc izvēles varat definēt apstiprinātai neatbilstībai vienu vai vairākas saistītas operācijas. Saistītā operācija atbilst veicamajam darbam, un tajā ir ietverts definēto kvalitātes kontroles operāciju saraksts un darba iemesla apraksts. Kad esat definējis operāciju, varat pēc izvēles definēt papildmaksas, krājumus un darba laika uzskaites tabulas darba stundas, kas bija nepieciešami šī darba izpildīšanai. Tiek parādītas saistītās operācijas aprēķinātās izmaksas, tiek parādīta kopīgās aprēķinātās neatbilstības izmaksas. Aprēķinātās izmaksas un pamata detalizētā informācija (par krājumiem, darba stundām un papildmaksām) ataino atsauces informāciju, un tās tiek izmantotas tikai kvalitātes pārvaldības funkcijā. 
+Pēc izvēles varat definēt apstiprinātai neatbilstībai vienu vai vairākas saistītas operācijas. Saistītā operācija atbilst veicamajam darbam, un tajā ir ietverts definēto kvalitātes kontroles operāciju saraksts un darba iemesla apraksts. Kad esat definējis operāciju, varat pēc izvēles definēt papildmaksas, krājumus un darba laika uzskaites tabulas darba stundas, kas bija nepieciešami šī darba izpildīšanai. Tiek parādītas saistītās operācijas aprēķinātās izmaksas, tiek parādīta kopīgās aprēķinātās neatbilstības izmaksas. Aprēķinātās izmaksas un pamata detalizētā informācija (par krājumiem, darba stundām un papildmaksām) ataino atsauces informāciju, un tās tiek izmantotas tikai kvalitātes pārvaldības funkcijā.
 
-Ja vēlaties, kvalitātes pārbaudes pasūtījumu varat izveidot no neatbilstības, vispirms izpildot pieprasījumu pēc kvalitātes pārbaudes pasūtījumiem un pēc tam izveidojot jauno kvalitātes pārbaudes pasūtījumu. Piemēram, kvalitātes pārbaudes pasūtījums var norādīt uz nepieciešamību testēt (vai atkārtoti testēt) defektīvo materiālu. Jaunizveidotajā kvalitātes pārbaudes pasūtījumā tiek rādīta saite uz sākotnējo neatbilstību. 
+Ja vēlaties, kvalitātes pārbaudes pasūtījumu varat izveidot no neatbilstības, vispirms izpildot pieprasījumu pēc kvalitātes pārbaudes pasūtījumiem un pēc tam izveidojot jauno kvalitātes pārbaudes pasūtījumu. Piemēram, kvalitātes pārbaudes pasūtījums var norādīt uz nepieciešamību testēt (vai atkārtoti testēt) defektīvo materiālu. Jaunizveidotajā kvalitātes pārbaudes pasūtījumā tiek rādīta saite uz sākotnējo neatbilstību.
 
 Vienu neatbilstību pēc izvēles varat saistīt ar citu, un varat izveidot jaunu neatbilstību no kādas jau esošas. Piemēram, šī saite var atspoguļot savstarpēju saistību starp kvalitātes problēmām.
 
 ## <a name="correction-handling"></a>Labojumu apstrāde
-Lapā **Labojumi** varat izveidot sarakstu ar neatbilstībām, kuras nepieciešams labot. Katrs labojuma krājums ir saistīts ar diagnostikas tipu, kas izraisīja noskaidrojamo problēmu. Lapā **Labojumi** ir ietverta arī informācija par to, kam un kad ir jāveic labošanas darbība. Varat sniegt detalizētu informāciju par problēmu un nepieciešamo labošanas darbību, pievienojot dokumentu šim labojumam. Kad neatbilstības problēma ir risināta vai izlabota, labošanas krājumu varat “slēgt”, atzīmējot opciju **Pabeigts**. Varat arī norādīt, vai risinājums bija īstermiņa risinājums. 
+Lapā **Labojumi** varat izveidot sarakstu ar neatbilstībām, kuras nepieciešams labot. Katrs labojuma krājums ir saistīts ar diagnostikas tipu, kas izraisīja noskaidrojamo problēmu. Lapā **Labojumi** ir ietverta arī informācija par to, kam un kad ir jāveic labošanas darbība. Varat sniegt detalizētu informāciju par problēmu un nepieciešamo labošanas darbību, pievienojot dokumentu šim labojumam. Kad neatbilstības problēma ir risināta vai izlabota, labošanas krājumu varat “slēgt”, atzīmējot opciju **Pabeigts**. Varat arī norādīt, vai risinājums bija īstermiņa risinājums.
 
 Ieteicams labojumiem definēt unikālu dokumenta tipu, izmantojot lapu **Dokumenta tips**. Pēc tam varat izmantot lapu **Atskaišu iestatījumi**, lai definētu, vai komentāri šī tipa dokumentiem tiek drukāti labojuma atskaitē. Drukātajā labojuma atskaitē tiek rādīta informācija par neatbilstību un saistītās neatbilstības piezīmes. Atskaitē ir ietverta arī labojuma informācija, piemēram, diagnostikas tips un saistītās labošanas piezīmes.
 
@@ -103,7 +103,4 @@ Ieteicams labojumiem definēt unikālu dokumenta tipu, izmantojot lapu **Dokumen
 [Kvalitātes pārbaudes pasūtījumu iestatīšana (uzdevuma ceļvedis)](/dynamics365/unified-operations/supply-chain/inventory/tasks/set-up-quality-orders)
 
 [Preču kvalitātes pārbaude (uzdevuma ceļvedis)](/dynamics365/unified-operations/supply-chain/inventory/tasks/inspect-quality-goods)
-
-
-
 

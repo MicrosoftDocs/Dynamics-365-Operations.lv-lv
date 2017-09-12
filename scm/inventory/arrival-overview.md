@@ -1,7 +1,7 @@
 ---
 title: "Saņemšanas darbību apskats"
 description: "Šajā tēmā ir sniegta informācija par līdzekli Saņemšanas pārskats. Lapa Saņemšanas pārskats ir šī līdzekļa daļa, un tā sniedz pārskatu par visiem krājumiem, kurus paredzēts saņemt kā ienākošos krājumus."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
@@ -37,9 +37,9 @@ ms.lasthandoff: 05/25/2017
 Lapa **Saņemšanas pārskats** sniedz pārskatu par visiem paredzamajiem ienākošajiem krājumiem. Tā arī parāda saņemšanas gadījumus, kurus var inicializēt, balstoties uz pārskatu. Šajā tēmā ir pievērsta uzmanība saņemšanas procesam.
 
 ## <a name="business-scenario"></a>Biznesa scenārijs
-Aplūkosim tālāk aprakstīto scenāriju saistībā ar ienākošajiem procesiem. 
+Aplūkosim tālāk aprakstīto scenāriju saistībā ar ienākošajiem procesiem.
 
-[![Biznesa scenārijs](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png) 
+[![Biznesa scenārijs](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
 
 Saņemšanas darbinieks Semijs vēlas zināt, ko paredzēts saņemt šajā dienā. Lapā **Saņemšanas pārskats** Semijs var iegūt pārskatu par pašreizējiem uzdevumiem un aptuvenu novērtējumu par daudzumu, apjomu, svaru, dažādiem pasūtījumu veidiem utt. Pēc tam tiek veikta piegāde vienā no saņemšanas dokiem un Semijs saņem piegādes sarakstu. Lapā **Saņemšanas pārskats** Semijs var veikt šādus uzdevumus:
 
@@ -69,7 +69,7 @@ Mūsu piemērā Semijs vēlas iestatīt jaunu datoru vietā, kas tiks izmantota,
 
 Lai automātiski izveidotu saņemšanas žurnālus lapā **Saņemšanas pārskats**, ir jādefinē atbilstoša informācija kopsavilkuma cilnes **Saņemšanas opcijas** lauku grupā **Žurnāls**.
 
--   Ir jānorāda žurnāla nosaukums, lai izveidotu žurnālu. 
+-   Ir jānorāda žurnāla nosaukums, lai izveidotu žurnālu.
 
 [![Žurnāla nosaukuma norādīšana](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
 
@@ -123,7 +123,4 @@ Kad visas preces ir reģistrētas, noliktavas pārvaldnieks vai pirkšanas vadī
 
 ## <a name="summary"></a>Kopsavilkums
 Lapa **Saņemšanas pārskats** var palīdzēt noliktavas pārvaldniekam un noliktavas darbiniekiem sniegt pārskatu par paredzamo darbu, kas jāveic saņemšanas procesa ietvaros. Lapu var arī izmantot, lai sāktu krājumu saņemšanas procesu, lai palīdzētu nodrošināt, ka krājumi tiek izsekoti, pirmo reizi nonākot noliktavā.
-
-
-
 

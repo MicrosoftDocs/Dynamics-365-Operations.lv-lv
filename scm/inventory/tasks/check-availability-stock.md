@@ -1,4 +1,4 @@
---- 
+---
 title: "Krājumu pieejamības pārbaude"
 description: "Šajā procedūrā parādīts, kā pārbaudīt rīcībā esošos un fiziski rīcībā esošos krājumus noteiktam krājuma kodam."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -67,5 +67,4 @@ ms.lasthandoff: 07/27/2017
 4. Noklikšķiniet uz Parādīt dimensijas.
 5. Noklikšķiniet uz OK.
 6. Aizvērt lapu.
-
 

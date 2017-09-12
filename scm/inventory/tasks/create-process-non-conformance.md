@@ -1,4 +1,4 @@
---- 
+---
 title: "Atbilstības izveide un apstrāde"
 description: "Izmantojiet šo procedūru, lai veiktu neatbilstības pārvaldību, pamatojoties uz esošo kvalitātes pārbaudes pasūtījumu."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -27,7 +27,7 @@ ms.lasthandoff: 07/27/2017
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Izmantojiet šo procedūru, lai veiktu neatbilstības pārvaldību, pamatojoties uz esošo kvalitātes pārbaudes pasūtījumu. Šo ierakstu var palaist USMF demonstrācijas uzņēmumā un var izmantot ieteiktās vērtības. Parasti šo procedūru veic kvalitātes darbinieks.  Kā priekšnosacījumu, palaidiet uzdevuma ierakstu "Pārbaudīt preču kvalitāti". Lai apstrādātu neatbilstības apstiprinājumu, lietotājam, kurš palaiž uzdevumu ierakstu, lapā Lietotāji jābūt piešķirtai vērtībai "Nosaukums". Lai lietotu dokumentu piezīmes, lietotājam jābūt aktivizētai Dokumentu apstrāde lietotāja opcijās. 
+Izmantojiet šo procedūru, lai veiktu neatbilstības pārvaldību, pamatojoties uz esošo kvalitātes pārbaudes pasūtījumu. Šo ierakstu var palaist USMF demonstrācijas uzņēmumā un var izmantot ieteiktās vērtības. Parasti šo procedūru veic kvalitātes darbinieks.  Kā priekšnosacījumu, palaidiet uzdevuma ierakstu "Pārbaudīt preču kvalitāti". Lai apstrādātu neatbilstības apstiprinājumu, lietotājam, kurš palaiž uzdevumu ierakstu, lapā Lietotāji jābūt piešķirtai vērtībai "Nosaukums". Lai lietotu dokumentu piezīmes, lietotājam jābūt aktivizētai Dokumentu apstrāde lietotāja opcijās.
 
 
 ## <a name="select-a-quality-order"></a>Atlasiet kvalitātes pārbaudes pasūtījumu.
@@ -78,5 +78,4 @@ Izmantojiet šo procedūru, lai veiktu neatbilstības pārvaldību, pamatojoties
 3. Noklikšķiniet uz Jā.
 4. Aizvērt lapu.
 5. Aizvērt lapu.
-
 

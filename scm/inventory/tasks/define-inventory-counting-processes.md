@@ -1,4 +1,4 @@
---- 
+---
 title: "Krājumu inventarizācijas procesu definēšana"
 description: "Šajā procedūrā parādīts, kā konfigurēt pamata krājumu inventarizācijas procesus, izveidojot inventarizācijas grupu un inventarizācijas žurnālu."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -84,5 +84,4 @@ ms.lasthandoff: 07/27/2017
 7. Atlasiet sarakstā inventarizācijas grupu.
     * Šeit varat atlasīt konkrētu inventarizācijas grupu, kas tiek attiecināta uz krājumu konkrētā noliktavā, kuru esat atlasījis. Kad šajā noliktavā tiek veikta inventarizācija, šī inventarizācijas politika konkrētajam krājumam ignorē vispārējo inventarizācijas politiku.  
 8. Noklikšķiniet uz Saglabāt.
-
 

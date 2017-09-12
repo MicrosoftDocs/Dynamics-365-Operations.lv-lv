@@ -1,4 +1,4 @@
---- 
+---
 title: "Krājumu vai izejmateriālu izsekošana"
 description: "Šajā procedūra parādīts, kā lietot krājumu izsekošanu, lai identificētu, kur krājumi vai izejmateriāli ir izmantoti vai tiek izmantoti."
 author: pjacobse
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -54,5 +54,4 @@ ms.lasthandoff: 07/27/2017
 8. Darbību rūtī noklikšķiniet uz vienuma Izsekošana.
 9. Noklikšķiniet uz vienuma Nosūtītie pārdošanas pasūtījumi.
 10. Aizvērt lapu.
-
 

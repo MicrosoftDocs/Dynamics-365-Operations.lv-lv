@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
@@ -33,7 +33,7 @@ ms.lasthandoff: 07/27/2017
 [!include[retail name](../includes/retail-name.md)]
 
 
-Šajā rakstā ir aprakstīts, kā lietot krājumu žurnālus, lai grāmatotu dažādu veidu fizisko krājumu transakcijas. 
+Šajā rakstā ir aprakstīts, kā lietot krājumu žurnālus, lai grāmatotu dažādu veidu fizisko krājumu transakcijas.
 
 Krājumu žurnāli programmatūrā Microsoft Dynamics 365 for Finance and Operations tiek izmantoti, lai grāmatotu dažādu veidu fizisko krājumu transakcijas, piemēram, izejas un ieejas plūsmu grāmatošanai, krājumu kustībām, materiālu komplektu (MK) izveidošanai un fizisko krājumu saskaņošanai. Visi šie krājumu žurnāli tiek izmantoti līdzīgā veidā, bet tie ir sadalīti dažādos tipos.
 
@@ -95,7 +95,4 @@ Kad grāmatojat etiķešu inventarizācijas žurnālu, tiek izveidots jauns inve
 
 ## <a name="posting-journal-lines"></a>Žurnāla rindu grāmatošana
 Savas izveidotās žurnāla rindas varat grāmatot jebkurā laikā līdz brīdim, kad krājumu esat bloķējis no papildu transakcijām. Žurnālā ievadītie dati paliek šajā žurnālā pat tad, ja žurnālu aizverat, negrāmatojot rindas.
-
-
-
 

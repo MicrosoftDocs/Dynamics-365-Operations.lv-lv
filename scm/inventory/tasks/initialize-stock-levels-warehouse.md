@@ -1,4 +1,4 @@
---- 
+---
 title: "Krājumu līmeņu inicializēšana noliktavā"
 description: "Šajā procedūrā parādīts, kā manuāli atjaunot rīcībā esošo krājumu, izmantojot krājumu kustības žurnālu."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -58,5 +58,4 @@ ms.lasthandoff: 07/27/2017
 24. Noklikšķiniet uz OK.
 25. Aizvērt lapu.
 26. Aizvērt lapu.
-
 

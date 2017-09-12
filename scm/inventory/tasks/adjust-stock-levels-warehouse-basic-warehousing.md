@@ -1,4 +1,4 @@
---- 
+---
 title: "Krājumu līmeņu korekcija noliktavā (pamata noliktava)"
 description: "Šajā procedūrā parādīts krājumu korekcijas žurnāla izveides un grāmatošanas process, lai koriģētu noteiktu preču krājumu līmeņus noliktavā."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -58,5 +58,4 @@ ms.lasthandoff: 07/27/2017
 4. Noklikšķiniet uz OK.
 5. Aizveriet formu.
 6. Aizvērt lapu.
-
 
