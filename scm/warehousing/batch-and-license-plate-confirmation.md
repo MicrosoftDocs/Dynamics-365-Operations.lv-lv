@@ -14,32 +14,32 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 70a8c18560f0cfc7a44625520f2f035a6004618a
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: bf9447f81d6c1ff543ceb5a058428ed1c0090da0
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="batch-and-license-plate-confirmation"></a>Partijas un numura zīmes apstiprināšana
+# <a name="batch-and-license-plate-confirmation"></a><span data-ttu-id="0d467-103">Partijas un numura zīmes apstiprināšana</span><span class="sxs-lookup"><span data-stu-id="0d467-103">Batch and license plate confirmation</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Partijas apstiprināšanas funkcija sniedz iespēju mobilajā ierīcē apstiprināt to, ka tiek izdota pareizā partija. Tikai veicot partijas augstākā līmeņa vienumu darba izdošanu (*partijas austākais līmenis* norāda, ka partija līmenis meklēšanas hierarhijā ir augstāks nekā atrašanās vietas līmenis), jums ir jāapstiprina, ka izdotā partija atbilst darba rindā norādītajai partijai. 
+<span data-ttu-id="0d467-104">Partijas apstiprināšanas funkcija sniedz iespēju mobilajā ierīcē apstiprināt to, ka tiek izdota pareizā partija.</span><span class="sxs-lookup"><span data-stu-id="0d467-104">Batch confirmation allows you to confirm that the correct batch is being picked from the mobile device.</span></span> <span data-ttu-id="0d467-105">Tikai veicot partijas augstākā līmeņa vienumu darba izdošanu (*partijas austākais līmenis* norāda, ka partija līmenis meklēšanas hierarhijā ir augstāks nekā atrašanās vietas līmenis), jums ir jāapstiprina, ka izdotā partija atbilst darba rindā norādītajai partijai.</span><span class="sxs-lookup"><span data-stu-id="0d467-105">On the initial pick of work for batch above-items only, where *batch above* indicates that batch ranges higher than location in the search hierarchy, you must verify that the batch that is picked matches the batch on the work line.</span></span> 
 
-Numura zīmes apstiprināšanas funkcija sniedz iespēju mobilajā ierīcē apstiprināt to, ka tiek izdota pareizā numura zīme. Veicot izdošanu no sagatavošanas vietas, jums ir jāpārliecinās, ka izdotā numura zīme atbilst ar darbu saistītajai numura zīmei. Ja darbs tiek sākts, skenējot numura zīmi, konfigurēšanas darbība tiek izlaista.
+<span data-ttu-id="0d467-106">Numura zīmes apstiprināšanas funkcija sniedz iespēju mobilajā ierīcē apstiprināt to, ka tiek izdota pareizā numura zīme.</span><span class="sxs-lookup"><span data-stu-id="0d467-106">License plate confirmation allows you to confirm that the correct license plate is being picked from the mobile device.</span></span> <span data-ttu-id="0d467-107">Veicot izdošanu no sagatavošanas vietas, jums ir jāpārliecinās, ka izdotā numura zīme atbilst ar darbu saistītajai numura zīmei.</span><span class="sxs-lookup"><span data-stu-id="0d467-107">When picking work from a stage location, you must verify that the license plate that is picked matches the license plate that is associated with the work.</span></span> <span data-ttu-id="0d467-108">Ja darbs tiek sākts, skenējot numura zīmi, konfigurēšanas darbība tiek izlaista.</span><span class="sxs-lookup"><span data-stu-id="0d467-108">If the work is started by scanning a license plate, this confirmation step will be skipped.</span></span>
 
-## <a name="where-it-applies"></a>Darbības tvērums
-Apstiprināšana attiecas uz tālāk norādītajiem gadījumiem.
+## <a name="where-it-applies"></a><span data-ttu-id="0d467-109">Darbības tvērums</span><span class="sxs-lookup"><span data-stu-id="0d467-109">Where it applies</span></span>
+<span data-ttu-id="0d467-110">Apstiprināšana attiecas uz tālāk norādītajiem gadījumiem.</span><span class="sxs-lookup"><span data-stu-id="0d467-110">Confirmation applies in the following scenarios:</span></span>
 
-- Partijas apstiprināšana attiecas uz partijas augstākā līmeņa vienumu darba sākotnējo izdošanu.
-- Numura zīmes apstiprināšana attiecas uz izdošanu no sagatavošanas vietām.
+- <span data-ttu-id="0d467-111">Partijas apstiprināšana attiecas uz partijas augstākā līmeņa vienumu darba sākotnējo izdošanu.</span><span class="sxs-lookup"><span data-stu-id="0d467-111">Batch confirmation applies to the initial picks of work for batch above-items.</span></span>
+- <span data-ttu-id="0d467-112">Numura zīmes apstiprināšana attiecas uz izdošanu no sagatavošanas vietām.</span><span class="sxs-lookup"><span data-stu-id="0d467-112">License plate confirmation applies to picks from stage locations.</span></span>
 
-## <a name="set-up-batch-and-license-plate-confirmation"></a>Partijas un numura zīmes apstiprināšanas funkcijas iestatīšana
-Partijas un numura zīmes apstiprināšanas funkciju var iestatīt, izmantojot mobilās ierīces izvēlnes vienumus.  
-1.  Izmantojot mobilās ierīces izvēlnes vienumus, pārejiet uz darba konfigurēšanas iestatījumu sadaļu.  
-2.  Atlasiet partijas vai numura zīmes apstiprināšanas opciju. Abas opcijas ir pieejamas darba tipa izdošanām, kam nav iespējota automātiskā apstiprināšana.  
+## <a name="set-up-batch-and-license-plate-confirmation"></a><span data-ttu-id="0d467-113">Partijas un numura zīmes apstiprināšanas funkcijas iestatīšana</span><span class="sxs-lookup"><span data-stu-id="0d467-113">Set up batch and license plate confirmation</span></span>
+<span data-ttu-id="0d467-114">Partijas un numura zīmes apstiprināšanas funkciju var iestatīt, izmantojot mobilās ierīces izvēlnes vienumus.</span><span class="sxs-lookup"><span data-stu-id="0d467-114">You can configure batch and license plate confirmation from the mobile device menu items.</span></span>  
+1.  <span data-ttu-id="0d467-115">Izmantojot mobilās ierīces izvēlnes vienumus, pārejiet uz darba konfigurēšanas iestatījumu sadaļu.</span><span class="sxs-lookup"><span data-stu-id="0d467-115">From the mobile device menu items, enter the work confirmation setup.</span></span>  
+2.  <span data-ttu-id="0d467-116">Atlasiet partijas vai numura zīmes apstiprināšanas opciju.</span><span class="sxs-lookup"><span data-stu-id="0d467-116">Select the option for either batch or license plate confirmation.</span></span> <span data-ttu-id="0d467-117">Abas opcijas ir pieejamas darba tipa izdošanām, kam nav iespējota automātiskā apstiprināšana.</span><span class="sxs-lookup"><span data-stu-id="0d467-117">Both options are available for work type picks that do not have automatic confirmation enabled.</span></span>  
 

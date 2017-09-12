@@ -16,64 +16,64 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 19d053a0bdbdcc764b3361fe5a326e8c68cdc682
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: df844ba3834972441daa61899294b3e95cac96c1
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-procurement-catalog"></a>Sagādes kataloga izveide
+# <a name="create-a-procurement-catalog"></a><span data-ttu-id="47fc6-103">Sagādes kataloga izveide</span><span class="sxs-lookup"><span data-stu-id="47fc6-103">Create a procurement catalog</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā ceļvedī ir parādīts, kā izveidot sagādes katalogu. Šo uzdevumu parasti veic sagādes speciālists. Jūs arī uzzināsiet, kā darbinieki var izmantot katalogu, kad viņi veido pieprasījumu. Lai varētu izveidot katalogu, jūsu sistēma ir jābūt sagādes kategoriju hierarhijai. Jaunais katalogs pārmanto šo hierarhiju, kā arī visas preces, kas atrodas šajā hierarhijā. Šo ceļvedi varat izmantot demonstrācijas datu uzņēmumā USMF, kur sagādes kategoriju hierarhija ir pieejama, kā arī procedūras darbībās izmantotajos piemēros.
+<span data-ttu-id="47fc6-104">Šajā ceļvedī ir parādīts, kā izveidot sagādes katalogu.</span><span class="sxs-lookup"><span data-stu-id="47fc6-104">This guide shows you how to create a procurement catalog.</span></span> <span data-ttu-id="47fc6-105">Šo uzdevumu parasti veic sagādes speciālists.</span><span class="sxs-lookup"><span data-stu-id="47fc6-105">This task would typically be carried out by a procurement professional.</span></span> <span data-ttu-id="47fc6-106">Jūs arī uzzināsiet, kā darbinieki var izmantot katalogu, kad viņi veido pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="47fc6-106">You will also learn how employees can use the catalog when they create a requisition.</span></span> <span data-ttu-id="47fc6-107">Lai varētu izveidot katalogu, jūsu sistēma ir jābūt sagādes kategoriju hierarhijai.</span><span class="sxs-lookup"><span data-stu-id="47fc6-107">Before you can create a catalog, there must be a procurement category hierarchy in your system.</span></span> <span data-ttu-id="47fc6-108">Jaunais katalogs pārmanto šo hierarhiju, kā arī visas preces, kas atrodas šajā hierarhijā.</span><span class="sxs-lookup"><span data-stu-id="47fc6-108">The hierarchy is inherited by the new catalog, along with all the products that are in the hierarchy.</span></span> <span data-ttu-id="47fc6-109">Šo ceļvedi varat izmantot demonstrācijas datu uzņēmumā USMF, kur sagādes kategoriju hierarhija ir pieejama, kā arī procedūras darbībās izmantotajos piemēros.</span><span class="sxs-lookup"><span data-stu-id="47fc6-109">You can use this guide in demo data company USMF where the procurement category hierarchy is available, as well as the examples used in the procedure steps.</span></span>
 
 
-## <a name="ensure-that-a-procurement-category-hierarchy-exists"></a>Pārliecinieties, ka pastāv sagādes kategoriju hierarhija
-1. Pārejiet uz Sagāde un avoti > Sagādes kategorijas.
-    * Sagādes kategoriju hierarhija ir pieejama USMF demonstrācijas datu uzņēmumā, un preces ir pievienotas kategorijai Biroja aparatūra/datori. Ja šo procedūru izpildāt kā uzdevuma ceļvedi, ir nepieciešams atbloķēt šo ceļvedi, ja vēlaties pārlūkot kategoriju. Ja hierarhija nebija pieejama, jums tā būtu jāizveido, noklikšķinot uz Jauns. To var izdarīt tikai vienu reizi.  
-2. Aizvērt lapu.
+## <a name="ensure-that-a-procurement-category-hierarchy-exists"></a><span data-ttu-id="47fc6-110">Pārliecinieties, ka pastāv sagādes kategoriju hierarhija</span><span class="sxs-lookup"><span data-stu-id="47fc6-110">Ensure that a procurement category hierarchy exists</span></span>
+1. <span data-ttu-id="47fc6-111">Pārejiet uz Sagāde un avoti > Sagādes kategorijas.</span><span class="sxs-lookup"><span data-stu-id="47fc6-111">Go to Procurement and sourcing > Procurement categories.</span></span>
+    * <span data-ttu-id="47fc6-112">Sagādes kategoriju hierarhija ir pieejama USMF demonstrācijas datu uzņēmumā, un preces ir pievienotas kategorijai Biroja aparatūra/datori.</span><span class="sxs-lookup"><span data-stu-id="47fc6-112">A procurement category hierarchy is available in the USMF demo data company and products have been added to the Office machines/Computers category.</span></span> <span data-ttu-id="47fc6-113">Ja šo procedūru izpildāt kā uzdevuma ceļvedi, ir nepieciešams atbloķēt šo ceļvedi, ja vēlaties pārlūkot kategoriju.</span><span class="sxs-lookup"><span data-stu-id="47fc6-113">If you’re running this procedure as a task guide, you’ll need to unlock the guide if you want to browse through the category.</span></span> <span data-ttu-id="47fc6-114">Ja hierarhija nebija pieejama, jums tā būtu jāizveido, noklikšķinot uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="47fc6-114">If a hierarchy was not available, you’d create it by clicking New.</span></span> <span data-ttu-id="47fc6-115">To var izdarīt tikai vienu reizi.</span><span class="sxs-lookup"><span data-stu-id="47fc6-115">This can only be done once.</span></span>  
+2. <span data-ttu-id="47fc6-116">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="47fc6-116">Close the page.</span></span>
 
-## <a name="create-a-catalog"></a>Kataloga izveidošana
-1. Pārejiet uz sadaļu Sagāde un avoti > Katalogi > Sagādes katalogi.
-2. Noklikšķiniet uz Jauns sagādes katalogs, lai atvērtu nolaižamo dialoglodziņu.
-3. Laukā Nosaukums ierakstiet kādu vērtību.
-4. Noklikšķiniet uz Labi.
-5. Koka struktūrā izvērsiet vienumu “KORP. SAGĀDES KATEGORIJAS”.
-6. Koka struktūrā izvērsiet vienumu “BIROJA APARATŪRA”.
-7. Koka struktūrā atlasiet vienumu “Datori”.
-    * Preces no sagādes kategorijas tiek parādītas sarakstā. Ja vēlaties kategorijai pievienot kādu preci, tas ir jādara lapā Sagādes kategoriju hierarhija vai lapā Detalizēta informācija par krājumu.  
-    * Noklusējuma atjaunināšanas tips nosaka, vai sagādes kategoriju hierarhijai pievienotās jaunās preces katalogā kļūst redzamas uzreiz. Ja atjaunināšanas tips ir iestatīts uz Dinamisks, izmaiņas ir redzamas nekavējoties. Ja atjaunināšanas tips ir Statisks, jaunās preces kļūst redzamas tikai personām, kas katalogu lieto pēc tam, kad katalogs ir pārpublicēts. Darbība Publicēt ir pieejama darbību rūtī lapas augšdaļā. Ja preces tiek noņemtas no sagādes kategoriju hierarhijas, šīs izmaiņas kļūst redzamas nekavējoties, neatkarīgi no vērtības laukā Noklusējuma atjaunināšanas tips.  
-8. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-9. Noklikšķiniet uz Slēpt.
-10. Darbību rūtī noklikšķiniet uz Kategoriju navigācija.
-11. Noklikšķiniet uz Atspējot.
-12. Darbību rūtī noklikšķiniet uz Kategoriju navigācija.
-13. Noklikšķiniet uz Iespējot.
-14. Noklikšķiniet uz Aktivizēt katalogu.
-15. Aizvērt lapu.
+## <a name="create-a-catalog"></a><span data-ttu-id="47fc6-117">Kataloga izveidošana</span><span class="sxs-lookup"><span data-stu-id="47fc6-117">Create a catalog</span></span>
+1. <span data-ttu-id="47fc6-118">Pārejiet uz sadaļu Sagāde un avoti > Katalogi > Sagādes katalogi.</span><span class="sxs-lookup"><span data-stu-id="47fc6-118">Go to Procurement and sourcing > Catalogs > Procurement catalogs.</span></span>
+2. <span data-ttu-id="47fc6-119">Noklikšķiniet uz Jauns sagādes katalogs, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="47fc6-119">Click New procurement catalog to open the drop dialog.</span></span>
+3. <span data-ttu-id="47fc6-120">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="47fc6-120">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="47fc6-121">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="47fc6-121">Click OK.</span></span>
+5. <span data-ttu-id="47fc6-122">Koka struktūrā izvērsiet vienumu “KORP. SAGĀDES KATEGORIJAS”.</span><span class="sxs-lookup"><span data-stu-id="47fc6-122">In the tree, expand 'CORP PROCUREMENT CATEGORIES'.</span></span>
+6. <span data-ttu-id="47fc6-123">Koka struktūrā izvērsiet vienumu “BIROJA APARATŪRA”.</span><span class="sxs-lookup"><span data-stu-id="47fc6-123">In the tree, expand 'OFFICE MACHINES'.</span></span>
+7. <span data-ttu-id="47fc6-124">Koka struktūrā atlasiet vienumu “Datori”.</span><span class="sxs-lookup"><span data-stu-id="47fc6-124">In the tree, select 'Computers'.</span></span>
+    * <span data-ttu-id="47fc6-125">Preces no sagādes kategorijas tiek parādītas sarakstā.</span><span class="sxs-lookup"><span data-stu-id="47fc6-125">The products from the procurement category are displayed in the list.</span></span> <span data-ttu-id="47fc6-126">Ja vēlaties kategorijai pievienot kādu preci, tas ir jādara lapā Sagādes kategoriju hierarhija vai lapā Detalizēta informācija par krājumu.</span><span class="sxs-lookup"><span data-stu-id="47fc6-126">If you want to add a product to the category you need to do this on the Procurement category hierarchy page or on the Item details page.</span></span>  
+    * <span data-ttu-id="47fc6-127">Noklusējuma atjaunināšanas tips nosaka, vai sagādes kategoriju hierarhijai pievienotās jaunās preces katalogā kļūst redzamas uzreiz.</span><span class="sxs-lookup"><span data-stu-id="47fc6-127">The Default update type determines whether new products that have been added to the procurement category hierarchy are immediately visible in the catalog.</span></span> <span data-ttu-id="47fc6-128">Ja atjaunināšanas tips ir iestatīts uz Dinamisks, izmaiņas ir redzamas nekavējoties.</span><span class="sxs-lookup"><span data-stu-id="47fc6-128">If the update type is set to Dynamic, changes are visible immediately.</span></span> <span data-ttu-id="47fc6-129">Ja atjaunināšanas tips ir Statisks, jaunās preces kļūst redzamas tikai personām, kas katalogu lieto pēc tam, kad katalogs ir pārpublicēts.</span><span class="sxs-lookup"><span data-stu-id="47fc6-129">If the update type is Static, new products are only visible to people using the catalog after the catalog has been re-published.</span></span> <span data-ttu-id="47fc6-130">Darbība Publicēt ir pieejama darbību rūtī lapas augšdaļā.</span><span class="sxs-lookup"><span data-stu-id="47fc6-130">The Publish action is available on the Action Pane at the top of the page.</span></span> <span data-ttu-id="47fc6-131">Ja preces tiek noņemtas no sagādes kategoriju hierarhijas, šīs izmaiņas kļūst redzamas nekavējoties, neatkarīgi no vērtības laukā Noklusējuma atjaunināšanas tips.</span><span class="sxs-lookup"><span data-stu-id="47fc6-131">If products are removed from the procurement category hierarchy, the change is immediately visible, regardless of the value in the Default update type field.</span></span>  
+8. <span data-ttu-id="47fc6-132">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="47fc6-132">In the list, find and select the desired record.</span></span>
+9. <span data-ttu-id="47fc6-133">Noklikšķiniet uz Slēpt.</span><span class="sxs-lookup"><span data-stu-id="47fc6-133">Click Hide.</span></span>
+10. <span data-ttu-id="47fc6-134">Darbību rūtī noklikšķiniet uz Kategoriju navigācija.</span><span class="sxs-lookup"><span data-stu-id="47fc6-134">On the Action Pane, click Category navigation.</span></span>
+11. <span data-ttu-id="47fc6-135">Noklikšķiniet uz Atspējot.</span><span class="sxs-lookup"><span data-stu-id="47fc6-135">Click Disable.</span></span>
+12. <span data-ttu-id="47fc6-136">Darbību rūtī noklikšķiniet uz Kategoriju navigācija.</span><span class="sxs-lookup"><span data-stu-id="47fc6-136">On the Action Pane, click Category navigation.</span></span>
+13. <span data-ttu-id="47fc6-137">Noklikšķiniet uz Iespējot.</span><span class="sxs-lookup"><span data-stu-id="47fc6-137">Click Enable.</span></span>
+14. <span data-ttu-id="47fc6-138">Noklikšķiniet uz Aktivizēt katalogu.</span><span class="sxs-lookup"><span data-stu-id="47fc6-138">Click Activate catalog.</span></span>
+15. <span data-ttu-id="47fc6-139">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="47fc6-139">Close the page.</span></span>
 
-## <a name="make-the-catalog-visible"></a>Padarīt katalogu redzamu
-1. Pārejiet uz sadaļu Sagāde un avoti > Iestatīšana > Politikas > Pirkšanas politikas.
-2. Atlasiet vienumu Sagādes politika USMF.
-    * Ir jāatlasa pirkšanas politika tai juridiskajai personai, kurā ar jūsu lietotāja profilu saistītajam nodarbinātajam ir atļauts pasūtīt preces. USMF demonstrācijas datos lietotājs ar lomu Administrators ir savienots ar nodarbināto, kuru sauc Jūlija Funderburka, un viņa pēc noklusējuma pasūta preces uzņēmumā USMF.  
-3. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-4. Atlasiet katalogu, ko tikko izveidojāt.
-5. Noklikšķiniet uz OK.
-6. Aizvērt lapu.
-7. Aizvērt lapu.
+## <a name="make-the-catalog-visible"></a><span data-ttu-id="47fc6-140">Padarīt katalogu redzamu</span><span class="sxs-lookup"><span data-stu-id="47fc6-140">Make the catalog visible</span></span>
+1. <span data-ttu-id="47fc6-141">Pārejiet uz sadaļu Sagāde un avoti > Iestatīšana > Politikas > Pirkšanas politikas.</span><span class="sxs-lookup"><span data-stu-id="47fc6-141">Go to Procurement and sourcing > Setup > Policies > Purchasing policies.</span></span>
+2. <span data-ttu-id="47fc6-142">Atlasiet vienumu Sagādes politika USMF.</span><span class="sxs-lookup"><span data-stu-id="47fc6-142">Select Procurement Policy USMF.</span></span>
+    * <span data-ttu-id="47fc6-143">Ir jāatlasa pirkšanas politika tai juridiskajai personai, kurā ar jūsu lietotāja profilu saistītajam nodarbinātajam ir atļauts pasūtīt preces.</span><span class="sxs-lookup"><span data-stu-id="47fc6-143">You need to select the purchasing policy for the legal entity that the worker connected to your user profile is allowed to order products in.</span></span> <span data-ttu-id="47fc6-144">USMF demonstrācijas datos lietotājs ar lomu Administrators ir savienots ar nodarbināto, kuru sauc Jūlija Funderburka, un viņa pēc noklusējuma pasūta preces uzņēmumā USMF.</span><span class="sxs-lookup"><span data-stu-id="47fc6-144">In the USMF demo data, the Admin user is connected to the worker called Julia Funderburk, and she orders products in USMF by default.</span></span>  
+3. <span data-ttu-id="47fc6-145">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="47fc6-145">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="47fc6-146">Atlasiet katalogu, ko tikko izveidojāt.</span><span class="sxs-lookup"><span data-stu-id="47fc6-146">Select the catalog that you’ve just created.</span></span>
+5. <span data-ttu-id="47fc6-147">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="47fc6-147">Click OK.</span></span>
+6. <span data-ttu-id="47fc6-148">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="47fc6-148">Close the page.</span></span>
+7. <span data-ttu-id="47fc6-149">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="47fc6-149">Close the page.</span></span>
 
-## <a name="use-the-catalog"></a>Lietot katalogu
-1. Dodieties uz sadaļu Sagāde un avoti > Pirkšanas pieprasījumi > Visi pirkšanas pieprasījumi.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Nosaukums ierakstiet kādu vērtību.
-4. Noklikšķiniet uz OK.
-5. Noklikšķiniet uz Pievienot preces.
-6. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-    * Lai filtrētu šīs preces, varat lietot kreisajā pusē esošo kategoriju hierarhiju vai filtru saraksta augšpusē.  
-7. Noklikšķiniet uz Pievienot rindām.
-8. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-9. Noklikšķiniet uz Pievienot rindām.
-10. Noklikšķiniet uz OK.
+## <a name="use-the-catalog"></a><span data-ttu-id="47fc6-150">Lietot katalogu</span><span class="sxs-lookup"><span data-stu-id="47fc6-150">Use the catalog</span></span>
+1. <span data-ttu-id="47fc6-151">Dodieties uz sadaļu Sagāde un avoti > Pirkšanas pieprasījumi > Visi pirkšanas pieprasījumi.</span><span class="sxs-lookup"><span data-stu-id="47fc6-151">Go to Procurement and sourcing > Purchase requisitions > All purchase requisitions.</span></span>
+2. <span data-ttu-id="47fc6-152">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="47fc6-152">Click New.</span></span>
+3. <span data-ttu-id="47fc6-153">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="47fc6-153">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="47fc6-154">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="47fc6-154">Click OK.</span></span>
+5. <span data-ttu-id="47fc6-155">Noklikšķiniet uz Pievienot preces.</span><span class="sxs-lookup"><span data-stu-id="47fc6-155">Click Add products.</span></span>
+6. <span data-ttu-id="47fc6-156">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="47fc6-156">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="47fc6-157">Lai filtrētu šīs preces, varat lietot kreisajā pusē esošo kategoriju hierarhiju vai filtru saraksta augšpusē.</span><span class="sxs-lookup"><span data-stu-id="47fc6-157">You can use the category hierarchy on the left or the filter at the top of the list to filter the products.</span></span>  
+7. <span data-ttu-id="47fc6-158">Noklikšķiniet uz Pievienot rindām.</span><span class="sxs-lookup"><span data-stu-id="47fc6-158">Click Add to lines.</span></span>
+8. <span data-ttu-id="47fc6-159">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="47fc6-159">In the list, find and select the desired record.</span></span>
+9. <span data-ttu-id="47fc6-160">Noklikšķiniet uz Pievienot rindām.</span><span class="sxs-lookup"><span data-stu-id="47fc6-160">Click Add to lines.</span></span>
+10. <span data-ttu-id="47fc6-161">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="47fc6-161">Click OK.</span></span>
 
 

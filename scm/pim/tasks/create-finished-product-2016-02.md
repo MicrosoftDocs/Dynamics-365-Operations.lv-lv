@@ -16,41 +16,41 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: a31a18ee075c865d5ad99f7cf4ca2eac7c6281c9
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 9d1718c5e9c98c77fbc274de1bf94f7f0e5eccb4
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-finished-product-february-2016-only"></a>Pabeigtas preces izveide (tikai 2016. gada februāris)
+# <a name="create-a-finished-product-february-2016-only"></a><span data-ttu-id="30502-103">Pabeigtas preces izveide (tikai 2016. gada februāris)</span><span class="sxs-lookup"><span data-stu-id="30502-103">Create a finished product (February 2016 only)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā uzdevumā uzmanība ir vērsta uz pabeigtas preces izveidošanu. Tas ir MK aprēķina sērijas pirmais uzdevums. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USMF.
+<span data-ttu-id="30502-104">Šajā uzdevumā uzmanība ir vērsta uz pabeigtas preces izveidošanu.</span><span class="sxs-lookup"><span data-stu-id="30502-104">This task focuses on creating a finished product.</span></span> <span data-ttu-id="30502-105">Tas ir MK aprēķina sērijas pirmais uzdevums.</span><span class="sxs-lookup"><span data-stu-id="30502-105">It is the first task in the BOM calculation series.</span></span> <span data-ttu-id="30502-106">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="30502-106">The demo data company used to create this task is USMF.</span></span>
 
-1. Pārejiet uz sadaļu Preču informācijas pārvaldība > Preces > Izlaistās preces.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Preces numurs ierakstiet vērtību.
-    * Demonstrācijas nolūkos ierakstiet BOM_1.  
-4. Laukā Krājumu modeļu grupa ievadiet vai atlasiet kādu vērtību.
-    * Atlasiet STD. STD nozīmē standarta izmaksas, un tas ir visplašāk izmantotais modelis, strādājot ar izmaksu aprēķiniem.  
-5. Laukā Krājumu grupa ievadiet vai atlasiet kādu vērtību.
-    * Atlasiet, piemēram, Audio. Tas neietekmē izmaksu aprēķinus.  
-6. Laukā Noliktavas dimensiju grupa ievadiet vai atlasiet kādu vērtību.
-    * Atlasiet SiteWH. Demonstrācijai tiks izmantota tikai Vieta un Noliktava.  
-7. Laukā Izsekošanas dimensiju grupa ievadiet vai atlasiet kādu vērtību.
-    * Šajā piemērā izsekošanas dimensijas netiks lietotas, atlasiet Nav.  
-8. Noklikšķiniet uz OK.
-9. Darbību rūtī noklikšķiniet uz Pārvaldīt krājumus.
-10. Noklikšķiniet uz Pasūtījuma noklusējuma iestatījumi.
-11. Laukā Noklusējuma pasūtījuma tips atlasiet vērtību “Ražošana”.
-    * Tā kā šī ir pabeigta prece, kas tiks ražota, atlasiet Ražošana.  
-12. Laukā Pirkšanas vieta ievadiet vai atlasiet kādu vērtību.
-    * Demonstrācijas nolūkos atlasiet vērtību 1. vieta.  
-13. Laukā Krājumu vieta ievadiet vai atlasiet kādu vērtību.
-    * Šajā piemērā atlasiet vērtību 1. vieta.  
-14. Laukā Pārdošanas vieta ievadiet vai atlasiet kādu vērtību.
-    * Šajā piemērā atlasiet vērtību 1. vieta.  
-15. Aizvērt lapu.
+1. <span data-ttu-id="30502-107">Pārejiet uz sadaļu Preču informācijas pārvaldība > Preces > Izlaistās preces.</span><span class="sxs-lookup"><span data-stu-id="30502-107">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="30502-108">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="30502-108">Click New.</span></span>
+3. <span data-ttu-id="30502-109">Laukā Preces numurs ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="30502-109">In the Product number field, type a value.</span></span>
+    * <span data-ttu-id="30502-110">Demonstrācijas nolūkos ierakstiet BOM_1.</span><span class="sxs-lookup"><span data-stu-id="30502-110">For the demonstration, type BOM_1.</span></span>  
+4. <span data-ttu-id="30502-111">Laukā Krājumu modeļu grupa ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="30502-111">In the Item model group field, enter or select a value.</span></span>
+    * <span data-ttu-id="30502-112">Atlasiet STD.</span><span class="sxs-lookup"><span data-stu-id="30502-112">Select STD.</span></span> <span data-ttu-id="30502-113">STD nozīmē standarta izmaksas, un tas ir visplašāk izmantotais modelis, strādājot ar izmaksu aprēķiniem.</span><span class="sxs-lookup"><span data-stu-id="30502-113">STD stands for standard cost and is the most commonly used model when working with cost calculations.</span></span>  
+5. <span data-ttu-id="30502-114">Laukā Krājumu grupa ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="30502-114">In the Item group field, enter or select a value.</span></span>
+    * <span data-ttu-id="30502-115">Atlasiet, piemēram, Audio.</span><span class="sxs-lookup"><span data-stu-id="30502-115">For example, select Audio.</span></span> <span data-ttu-id="30502-116">Tas neietekmē izmaksu aprēķinus.</span><span class="sxs-lookup"><span data-stu-id="30502-116">This has no impact on cost calculations.</span></span>  
+6. <span data-ttu-id="30502-117">Laukā Noliktavas dimensiju grupa ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="30502-117">In the Storage dimension group field, enter or select a value.</span></span>
+    * <span data-ttu-id="30502-118">Atlasiet SiteWH.</span><span class="sxs-lookup"><span data-stu-id="30502-118">Select SiteWH.</span></span> <span data-ttu-id="30502-119">Demonstrācijai tiks izmantota tikai Vieta un Noliktava.</span><span class="sxs-lookup"><span data-stu-id="30502-119">Only Site and Warehouse will be used for the demonstration.</span></span>  
+7. <span data-ttu-id="30502-120">Laukā Izsekošanas dimensiju grupa ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="30502-120">In the Tracking dimension group field, enter or select a value.</span></span>
+    * <span data-ttu-id="30502-121">Šajā piemērā izsekošanas dimensijas netiks lietotas, atlasiet Nav.</span><span class="sxs-lookup"><span data-stu-id="30502-121">Tracking dimensions will not be used for this example, select None.</span></span>  
+8. <span data-ttu-id="30502-122">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="30502-122">Click OK.</span></span>
+9. <span data-ttu-id="30502-123">Darbību rūtī noklikšķiniet uz Pārvaldīt krājumus.</span><span class="sxs-lookup"><span data-stu-id="30502-123">On the Action Pane, click Manage inventory.</span></span>
+10. <span data-ttu-id="30502-124">Noklikšķiniet uz Pasūtījuma noklusējuma iestatījumi.</span><span class="sxs-lookup"><span data-stu-id="30502-124">Click Default order settings.</span></span>
+11. <span data-ttu-id="30502-125">Laukā Noklusējuma pasūtījuma tips atlasiet vērtību “Ražošana”.</span><span class="sxs-lookup"><span data-stu-id="30502-125">In the Default order type field, select 'Production'.</span></span>
+    * <span data-ttu-id="30502-126">Tā kā šī ir pabeigta prece, kas tiks ražota, atlasiet Ražošana.</span><span class="sxs-lookup"><span data-stu-id="30502-126">Because this is a finished product that will be produced, select Production.</span></span>  
+12. <span data-ttu-id="30502-127">Laukā Pirkšanas vieta ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="30502-127">In the Purchase site field, enter or select a value.</span></span>
+    * <span data-ttu-id="30502-128">Demonstrācijas nolūkos atlasiet vērtību 1. vieta.</span><span class="sxs-lookup"><span data-stu-id="30502-128">For the demonstration, select Site 1.</span></span>  
+13. <span data-ttu-id="30502-129">Laukā Krājumu vieta ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="30502-129">In the Inventory site field, enter or select a value.</span></span>
+    * <span data-ttu-id="30502-130">Šajā piemērā atlasiet vērtību 1. vieta.</span><span class="sxs-lookup"><span data-stu-id="30502-130">For this example, select Site 1.</span></span>  
+14. <span data-ttu-id="30502-131">Laukā Pārdošanas vieta ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="30502-131">In the Sales site field, enter or select a value.</span></span>
+    * <span data-ttu-id="30502-132">Šajā piemērā atlasiet vērtību 1. vieta.</span><span class="sxs-lookup"><span data-stu-id="30502-132">For this example, select Site 1.</span></span>  
+15. <span data-ttu-id="30502-133">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="30502-133">Close the page.</span></span>
 
 

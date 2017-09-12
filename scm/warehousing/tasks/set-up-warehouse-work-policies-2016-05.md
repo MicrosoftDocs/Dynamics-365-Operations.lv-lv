@@ -17,38 +17,38 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 5db1c99833276a92467ed57b7be51b0ebaa74d83
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: b7d579ca7e2b9ca8cbead74b2c2ababfd142f171
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-warehouse-work-policies"></a>Noliktavas darba politiku iestatīšana  
+# <a name="set-up-warehouse-work-policies"></a><span data-ttu-id="5ba9f-103">Noliktavas darba politiku iestatīšana </span><span class="sxs-lookup"><span data-stu-id="5ba9f-103">Set up warehouse work policies</span></span> 
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Ne vienmēr noliktavas procesi ietver noliktavas darbu. Definējot darba politiku, jūs varat novērst darba izveidošanu izejmateriālu izdošanai un gatavās produkcijas izvietošanai preču kopai konkrētos novietojumos. USMF demonstrācijas datu uzņēmums tika izmantots, lai izveidotu šo ierakstu. Šim uzdevumu ceļvedim ir nepieciešama Dynamics AX programma 7.0.1 vai jaunāka versija.
+<span data-ttu-id="5ba9f-104">Ne vienmēr noliktavas procesi ietver noliktavas darbu.</span><span class="sxs-lookup"><span data-stu-id="5ba9f-104">Warehouse processes don’t always include warehouse work.</span></span> <span data-ttu-id="5ba9f-105">Definējot darba politiku, jūs varat novērst darba izveidošanu izejmateriālu izdošanai un gatavās produkcijas izvietošanai preču kopai konkrētos novietojumos.</span><span class="sxs-lookup"><span data-stu-id="5ba9f-105">By defining a work policy, you can prevent the creation of work for raw material picking and put-away of finished goods for a set of products at specific locations.</span></span> <span data-ttu-id="5ba9f-106">USMF demonstrācijas datu uzņēmums tika izmantots, lai izveidotu šo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="5ba9f-106">The USMF demo data company was used to create this recording.</span></span> <span data-ttu-id="5ba9f-107">Šim uzdevumu ceļvedim ir nepieciešama Dynamics AX programma 7.0.1 vai jaunāka versija.</span><span class="sxs-lookup"><span data-stu-id="5ba9f-107">This task guide requires Dynamics AX application 7.0.1 or later.</span></span>
 
-1. Dodieties uz Noliktavas vadība > Iestatīšana > Darbs > Darba politikas.
-2. Noklikšķiniet uz Jauns.
-3. Darba politikas nosaukumu laukā ierakstiet 'Nav izvietošanas darbu'.
-4. Noklikšķiniet uz Saglabāt.
-5. Noklikšķiniet uz Pievienot.
-6. Sarakstā atzīmējiet atlasīto rindu.
-7. Darba pasūtījuma veida laukā atlasiet 'Pabeigto preču izvietošana'.
-8. Noklikšķiniet uz Pievienot.
-9. Sarakstā atzīmējiet atlasīto rindu.
-10. Darba pasūtījuma veida laukā atlasiet 'Līdzproduktu un blakusproduktu izvietošana'.
-11. Izvērsiet sadaļu Krājumu atrašanās vietas.
-12. Noklikšķiniet uz Pievienot.
-13. Sarakstā atzīmējiet atlasīto rindu.
-14. Sarakstā Noliktava ievadiet '51'.
-15. Laukā Atrašanās vieta, ievadiet vai atlasiet '001'.
-16. Izvērsiet sadaļu Preces.
-17. Laukā Preču atlase, atlasiet 'Atlasīts'.
-18. Noklikšķiniet uz Pievienot.
-19. Sarakstā atzīmējiet atlasīto rindu.
-20. Laukā Krājuma kods ievadiet vai atlasiet 'L0101'.
-21. Noklikšķiniet uz Saglabāt.
+1. <span data-ttu-id="5ba9f-108">Dodieties uz Noliktavas vadība > Iestatīšana > Darbs > Darba politikas.</span><span class="sxs-lookup"><span data-stu-id="5ba9f-108">Go to Warehouse management > Setup > Work > Work policies.</span></span>
+2. <span data-ttu-id="5ba9f-109">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="5ba9f-109">Click New.</span></span>
+3. <span data-ttu-id="5ba9f-110">Darba politikas nosaukumu laukā ierakstiet 'Nav izvietošanas darbu'.</span><span class="sxs-lookup"><span data-stu-id="5ba9f-110">In the Work policy name field, type 'No put-away work'.</span></span>
+4. <span data-ttu-id="5ba9f-111">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="5ba9f-111">Click Save.</span></span>
+5. <span data-ttu-id="5ba9f-112">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="5ba9f-112">Click Add.</span></span>
+6. <span data-ttu-id="5ba9f-113">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="5ba9f-113">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="5ba9f-114">Darba pasūtījuma veida laukā atlasiet 'Pabeigto preču izvietošana'.</span><span class="sxs-lookup"><span data-stu-id="5ba9f-114">In the Work order type field, select 'Finished goods put away'.</span></span>
+8. <span data-ttu-id="5ba9f-115">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="5ba9f-115">Click Add.</span></span>
+9. <span data-ttu-id="5ba9f-116">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="5ba9f-116">In the list, mark the selected row.</span></span>
+10. <span data-ttu-id="5ba9f-117">Darba pasūtījuma veida laukā atlasiet 'Līdzproduktu un blakusproduktu izvietošana'.</span><span class="sxs-lookup"><span data-stu-id="5ba9f-117">In the Work order type field, select 'Co-product and by-product put away'.</span></span>
+11. <span data-ttu-id="5ba9f-118">Izvērsiet sadaļu Krājumu atrašanās vietas.</span><span class="sxs-lookup"><span data-stu-id="5ba9f-118">Expand the Inventory locations section.</span></span>
+12. <span data-ttu-id="5ba9f-119">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="5ba9f-119">Click Add.</span></span>
+13. <span data-ttu-id="5ba9f-120">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="5ba9f-120">In the list, mark the selected row.</span></span>
+14. <span data-ttu-id="5ba9f-121">Sarakstā Noliktava ievadiet '51'.</span><span class="sxs-lookup"><span data-stu-id="5ba9f-121">In the Warehouse list, enter '51'.</span></span>
+15. <span data-ttu-id="5ba9f-122">Laukā Atrašanās vieta, ievadiet vai atlasiet '001'.</span><span class="sxs-lookup"><span data-stu-id="5ba9f-122">In the Location field, enter or select '001'.</span></span>
+16. <span data-ttu-id="5ba9f-123">Izvērsiet sadaļu Preces.</span><span class="sxs-lookup"><span data-stu-id="5ba9f-123">Expand the Products section.</span></span>
+17. <span data-ttu-id="5ba9f-124">Laukā Preču atlase, atlasiet 'Atlasīts'.</span><span class="sxs-lookup"><span data-stu-id="5ba9f-124">In the Product selection field, select 'Selected'.</span></span>
+18. <span data-ttu-id="5ba9f-125">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="5ba9f-125">Click Add.</span></span>
+19. <span data-ttu-id="5ba9f-126">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="5ba9f-126">In the list, mark the selected row.</span></span>
+20. <span data-ttu-id="5ba9f-127">Laukā Krājuma kods ievadiet vai atlasiet 'L0101'.</span><span class="sxs-lookup"><span data-stu-id="5ba9f-127">In the Item number field, enter or select 'L0101'.</span></span>
+21. <span data-ttu-id="5ba9f-128">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="5ba9f-128">Click Save.</span></span>
 
 

@@ -17,321 +17,321 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: dcbab70d2057a2eb252538a51343fa8bae16873d
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 7fb7efdd574c705c2ecfbb46e302985db0729517
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="dimension-hierarchy"></a>Dimensiju hierarhija
+# <a name="dimension-hierarchy"></a><span data-ttu-id="0c203-104">Dimensiju hierarhija</span><span class="sxs-lookup"><span data-stu-id="0c203-104">Dimension hierarchy</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par dimensiju hierarhijām. Izmantojot dimensiju hierarhiju, varat definēt pārskatu struktūru, izmaksu ierobežojumus un drošības iestatījumus modulī Izmaksu uzskaite.  
+<span data-ttu-id="0c203-105">Šajā tēmā ir sniegta informācija par dimensiju hierarhijām.</span><span class="sxs-lookup"><span data-stu-id="0c203-105">This topic provides information about dimension hierarchies.</span></span> <span data-ttu-id="0c203-106">Izmantojot dimensiju hierarhiju, varat definēt pārskatu struktūru, izmaksu ierobežojumus un drošības iestatījumus modulī Izmaksu uzskaite.</span><span class="sxs-lookup"><span data-stu-id="0c203-106">You use a dimension hierarchy to define the reporting structure, cost policies, and security setup in Cost accounting.</span></span>  
 
-## <a name="overview"></a>Pārskats
+## <a name="overview"></a><span data-ttu-id="0c203-107">Pārskats</span><span class="sxs-lookup"><span data-stu-id="0c203-107">Overview</span></span>
 
-Dimensiju hierarhijas tiek izmantotas dažādās moduļa Izmaksu uzskaite sadaļās. Dimensiju hierarhija sniedz iespēju definēt tālāk norādīto informāciju.
+<span data-ttu-id="0c203-108">Dimensiju hierarhijas tiek izmantotas dažādās moduļa Izmaksu uzskaite sadaļās.</span><span class="sxs-lookup"><span data-stu-id="0c203-108">Dimension hierarchies are used in various places in Cost accounting.</span></span> <span data-ttu-id="0c203-109">Dimensiju hierarhija sniedz iespēju definēt tālāk norādīto informāciju.</span><span class="sxs-lookup"><span data-stu-id="0c203-109">A dimension hierarchy lets you define the following information:</span></span>
 
--  Pārskatu struktūru, kas atbilst organizācijas prasībām
--  Izmaksu politikas
--  Drošības iestatījumus
+-  <span data-ttu-id="0c203-110">Pārskatu struktūru, kas atbilst organizācijas prasībām</span><span class="sxs-lookup"><span data-stu-id="0c203-110">The reporting structure that fits into the organization's requirements</span></span>
+-  <span data-ttu-id="0c203-111">Izmaksu politikas</span><span class="sxs-lookup"><span data-stu-id="0c203-111">Cost policies</span></span>
+-  <span data-ttu-id="0c203-112">Drošības iestatījumus</span><span class="sxs-lookup"><span data-stu-id="0c203-112">The security setup</span></span>
 
-Tālāk ir sniegts dimensiju hierarhijas piemērs.
+<span data-ttu-id="0c203-113">Tālāk ir sniegts dimensiju hierarhijas piemērs.</span><span class="sxs-lookup"><span data-stu-id="0c203-113">Here is an example of a dimension hierarchy.</span></span>
 
 ![Dimensiju hierarhijas piemērs](./media/dimension-hierarchy.png)
 
-Var izveidot tālāk norādīto dimensiju veidu dimensiju hierarhiju.
+<span data-ttu-id="0c203-115">Var izveidot tālāk norādīto dimensiju veidu dimensiju hierarhiju.</span><span class="sxs-lookup"><span data-stu-id="0c203-115">A dimension hierarchy can be created for the following types of dimensions:</span></span>
 
--  Izmaksu elementu dimensijas
--  Izmaksu objekta dimensijas
--  Statiskās dimensijas
+-  <span data-ttu-id="0c203-116">Izmaksu elementu dimensijas</span><span class="sxs-lookup"><span data-stu-id="0c203-116">Cost element dimensions</span></span>
+-  <span data-ttu-id="0c203-117">Izmaksu objekta dimensijas</span><span class="sxs-lookup"><span data-stu-id="0c203-117">Cost object dimensions</span></span>
+-  <span data-ttu-id="0c203-118">Statiskās dimensijas</span><span class="sxs-lookup"><span data-stu-id="0c203-118">Statistical dimensions</span></span>
 
 > [!NOTE]
-> - Ja ir nepieciešamas dažādas perspektīvas, vienai dimensijai var izveidot vairākas dimensiju hierarhijas.
-> - Dimensiju hierarhiju var saistīt tikai ar vienu dimensiju.
-> - Dimensiju hierarhijas struktūrā var ietvert neierobežotu skaitu līmeņu. Visi līmeņi ir pieejami darbvietā **Izmaksu kontrole**. Ja pārskatu veidošanai izmantojat programmu Microsoft Excel vai Microsoft Power BI, tiek eksportēti tikai pirmie 15 dimensiju hierarhijas līmeņi. Šis ierobežojums pastāv tāpēc, ka gan Excel, gan Power BI ir nepieciešama fiksēta shēma.
-> - Dimensiju hierarhija nav atkarīga no datuma. Tāpēc visas dimensiju hierarhijas izmaiņas tiek nekavējoties saglabātas ierakstā, un jūs nevarat salīdzināt stāvokli pirms noteikta datuma un pēc noteikta datuma.
+> - <span data-ttu-id="0c203-119">Ja ir nepieciešamas dažādas perspektīvas, vienai dimensijai var izveidot vairākas dimensiju hierarhijas.</span><span class="sxs-lookup"><span data-stu-id="0c203-119">You can create multiple dimension hierarchies for the same dimension if different perspectives are required.</span></span>
+> - <span data-ttu-id="0c203-120">Dimensiju hierarhiju var saistīt tikai ar vienu dimensiju.</span><span class="sxs-lookup"><span data-stu-id="0c203-120">A dimension hierarchy can be associated with only one dimension.</span></span>
+> - <span data-ttu-id="0c203-121">Dimensiju hierarhijas struktūrā var ietvert neierobežotu skaitu līmeņu.</span><span class="sxs-lookup"><span data-stu-id="0c203-121">A dimension hierarchy can have unlimited levels in its structure.</span></span> <span data-ttu-id="0c203-122">Visi līmeņi ir pieejami darbvietā **Izmaksu kontrole**.</span><span class="sxs-lookup"><span data-stu-id="0c203-122">All the levels will be available in the **Cost control** workspace.</span></span> <span data-ttu-id="0c203-123">Ja pārskatu veidošanai izmantojat programmu Microsoft Excel vai Microsoft Power BI, tiek eksportēti tikai pirmie 15 dimensiju hierarhijas līmeņi.</span><span class="sxs-lookup"><span data-stu-id="0c203-123">When you use Microsoft Excel or Microsoft Power BI for reporting purposes, only the first 15 levels of the dimension hierarchy are exported.</span></span> <span data-ttu-id="0c203-124">Šis ierobežojums pastāv tāpēc, ka gan Excel, gan Power BI ir nepieciešama fiksēta shēma.</span><span class="sxs-lookup"><span data-stu-id="0c203-124">This limitation exists because both Excel and Power BI require a fixed schema.</span></span>
+> - <span data-ttu-id="0c203-125">Dimensiju hierarhija nav atkarīga no datuma.</span><span class="sxs-lookup"><span data-stu-id="0c203-125">A dimension hierarchy isn't date-effective.</span></span> <span data-ttu-id="0c203-126">Tāpēc visas dimensiju hierarhijas izmaiņas tiek nekavējoties saglabātas ierakstā, un jūs nevarat salīdzināt stāvokli pirms noteikta datuma un pēc noteikta datuma.</span><span class="sxs-lookup"><span data-stu-id="0c203-126">Therefore, any change to a dimension hierarchy is immediately saved to the record, and you can't compare the before date and after date.</span></span>
 
-## <a name="dimension-hierarchy-type"></a>Dimensiju hierarhijas tips
+## <a name="dimension-hierarchy-type"></a><span data-ttu-id="0c203-127">Dimensiju hierarhijas tips</span><span class="sxs-lookup"><span data-stu-id="0c203-127">Dimension hierarchy type</span></span>
 
-Kad izveidojat jaunu dimensiju hierarhiju, ir jāatlasa hierarhijas veids. Pārejiet uz sadaļu **Izmaksu uzskaite** > **Dimensijas** > **Dimensiju hierarhijas**. Noklikšķiniet uz **Jauna** un atlasiet dimensiju hierarhijas veidu. Varat atlasīt **Dimensiju kategorizācijas hierarhija** vai **Dimensiju klasifikācijas hierarhija**.
+<span data-ttu-id="0c203-128">Kad izveidojat jaunu dimensiju hierarhiju, ir jāatlasa hierarhijas veids.</span><span class="sxs-lookup"><span data-stu-id="0c203-128">When you create a new dimension hierarchy, you must select a hierarchy type.</span></span> <span data-ttu-id="0c203-129">Pārejiet uz sadaļu **Izmaksu uzskaite** > **Dimensijas** > **Dimensiju hierarhijas**.</span><span class="sxs-lookup"><span data-stu-id="0c203-129">Go to **Cost accounting** > **Dimensions** > **Dimension hierarchies**.</span></span> <span data-ttu-id="0c203-130">Noklikšķiniet uz **Jauna** un atlasiet dimensiju hierarhijas veidu.</span><span class="sxs-lookup"><span data-stu-id="0c203-130">Click **New**, and select a dimension hierarchy type.</span></span> <span data-ttu-id="0c203-131">Varat atlasīt **Dimensiju kategorizācijas hierarhija** vai **Dimensiju klasifikācijas hierarhija**.</span><span class="sxs-lookup"><span data-stu-id="0c203-131">You can select either **Dimension categorization hierarchy** or **Dimension classification hierarchy**.</span></span>
 
-### <a name="dimension-categorization-hierarchy"></a>Dimensiju kategorizācijas hierarhija
+### <a name="dimension-categorization-hierarchy"></a><span data-ttu-id="0c203-132">Dimensiju kategorizācijas hierarhija</span><span class="sxs-lookup"><span data-stu-id="0c203-132">Dimension categorization hierarchy</span></span>
 
-Veids **Dimensiju kategorizācijas hierarhija** tiek izmantots pārskatu veidošanai. Tas atbalsta tikai izmaksu elementu dimensijas. Ja atlasāt šo veidu, ir spēkā tālāk norādītie nosacījumi.
+<span data-ttu-id="0c203-133">Veids **Dimensiju kategorizācijas hierarhija** tiek izmantots pārskatu veidošanai.</span><span class="sxs-lookup"><span data-stu-id="0c203-133">The **Dimension categorization hierarchy** type is used for reporting purposes.</span></span> <span data-ttu-id="0c203-134">Tas atbalsta tikai izmaksu elementu dimensijas.</span><span class="sxs-lookup"><span data-stu-id="0c203-134">It supports only the cost element dimensions.</span></span> <span data-ttu-id="0c203-135">Ja atlasāt šo veidu, ir spēkā tālāk norādītie nosacījumi.</span><span class="sxs-lookup"><span data-stu-id="0c203-135">When you select this type, the following rules apply:</span></span>
 
--  Dimensijas elementu var vairākas reizes saistīt hierarhijas struktūras ietvaros.
--  Varat ievietot izmaksu elementa dimensijas elementu dažādos mezglos, piešķirot lapas mezglam izmaksu izturēšanos.
+-  <span data-ttu-id="0c203-136">Dimensijas elementu var vairākas reizes saistīt hierarhijas struktūras ietvaros.</span><span class="sxs-lookup"><span data-stu-id="0c203-136">A dimension member can be associated more than one time in the hierarchy structure.</span></span>
+-  <span data-ttu-id="0c203-137">Varat ievietot izmaksu elementa dimensijas elementu dažādos mezglos, piešķirot lapas mezglam izmaksu izturēšanos.</span><span class="sxs-lookup"><span data-stu-id="0c203-137">You can put a cost element dimension member in different nodes by assigning a cost behavior to the leaf node.</span></span>
 
-### <a name="dimension-classification-hierarchy"></a>Dimensiju klasifikācijas hierarhija
+### <a name="dimension-classification-hierarchy"></a><span data-ttu-id="0c203-138">Dimensiju klasifikācijas hierarhija</span><span class="sxs-lookup"><span data-stu-id="0c203-138">Dimension classification hierarchy</span></span>
 
-Veids **Dimensiju klasifikācijas hierarhija** tiek izmantots kārtulu definēšanai un pārskatu veidošanai. Tas atbalsta visas dimensijas, piemēram, izmaksu objektu, izmaksu elementu un statistiskās dimensijas. Ja atlasāt šo veidu, dimensijas elementu var saistīt tikai vienu reizi hierarhijas struktūras ietvaros.
+<span data-ttu-id="0c203-139">Veids **Dimensiju klasifikācijas hierarhija** tiek izmantots kārtulu definēšanai un pārskatu veidošanai.</span><span class="sxs-lookup"><span data-stu-id="0c203-139">The **Dimension classification hierarchy** type is used to define rules and for reporting purposes.</span></span> <span data-ttu-id="0c203-140">Tas atbalsta visas dimensijas, piemēram, izmaksu objektu, izmaksu elementu un statistiskās dimensijas.</span><span class="sxs-lookup"><span data-stu-id="0c203-140">It supports all dimensions, such as cost objects, cost elements, and statistical dimensions.</span></span> <span data-ttu-id="0c203-141">Ja atlasāt šo veidu, dimensijas elementu var saistīt tikai vienu reizi hierarhijas struktūras ietvaros.</span><span class="sxs-lookup"><span data-stu-id="0c203-141">When you select this type, a dimension member can be associated only one time in the hierarchy structure.</span></span>
 
-## <a name="create-and-maintain-a-dimension-hierarchy"></a>Dimensiju hierarhijas izveide un uzturēšana
+## <a name="create-and-maintain-a-dimension-hierarchy"></a><span data-ttu-id="0c203-142">Dimensiju hierarhijas izveide un uzturēšana</span><span class="sxs-lookup"><span data-stu-id="0c203-142">Create and maintain a dimension hierarchy</span></span>
 
-Dimensiju hierarhija tiek veidota kā koka struktūra, kurā pastāv mezglu un lapu mezglu relācijas.
+<span data-ttu-id="0c203-143">Dimensiju hierarhija tiek veidota kā koka struktūra, kurā pastāv mezglu un lapu mezglu relācijas.</span><span class="sxs-lookup"><span data-stu-id="0c203-143">A dimension hierarchy is created as a tree structure that has node and leaf node relationships.</span></span>
 
--  Katram mezglam var būt 1:_n_ apakšmezgli.
--  Mezglam nevar piešķirt gan apakšmezglus, gan lapu mezglus.
--  Lapas mezglu var piešķirt tikai zemākajā hierarhijas līmenī.
+-  <span data-ttu-id="0c203-144">Katram mezglam var būt 1:_n_ apakšmezgli.</span><span class="sxs-lookup"><span data-stu-id="0c203-144">A node can have 1:_n_ subnodes.</span></span>
+-  <span data-ttu-id="0c203-145">Mezglam nevar piešķirt gan apakšmezglus, gan lapu mezglus.</span><span class="sxs-lookup"><span data-stu-id="0c203-145">A node can’t have both subnodes and leaf nodes assigned to it.</span></span>
+-  <span data-ttu-id="0c203-146">Lapas mezglu var piešķirt tikai zemākajā hierarhijas līmenī.</span><span class="sxs-lookup"><span data-stu-id="0c203-146">A leaf node can be assigned only at the lowest level in the hierarchy.</span></span>
 
-### <a name="example"></a>Paraugs
+### <a name="example"></a><span data-ttu-id="0c203-147">Paraugs</span><span class="sxs-lookup"><span data-stu-id="0c203-147">Example</span></span>
 
-Mazam uzņēmumam ir tālāk norādītā organizācijas struktūra, kurā finanšu un personāla vadības nodaļas ir pakļautas administrācijai, bet montāžas un iepakošanas nodaļas ir pakļautas ražošanas nodaļai.
+<span data-ttu-id="0c203-148">Mazam uzņēmumam ir tālāk norādītā organizācijas struktūra, kurā finanšu un personāla vadības nodaļas ir pakļautas administrācijai, bet montāžas un iepakošanas nodaļas ir pakļautas ražošanas nodaļai.</span><span class="sxs-lookup"><span data-stu-id="0c203-148">A small company has the following organization structure, where Finance and Human resources are departments under Admin, and Assembly and Packaging are departments under Production.</span></span>
 
 ![Organizācijas struktūras piemērs](./media/dimension-hierarchy-org.png)
 
-Izmaksu objekta dimensija atbilst viesiem izmaksu centriem organizācijā.
+<span data-ttu-id="0c203-150">Izmaksu objekta dimensija atbilst viesiem izmaksu centriem organizācijā.</span><span class="sxs-lookup"><span data-stu-id="0c203-150">A cost object dimension represents all the cost centers in the organization.</span></span>
 
-- Izmaksu objekta dimensija
-    - Izmaksu centri
+- <span data-ttu-id="0c203-151">Izmaksu objekta dimensija</span><span class="sxs-lookup"><span data-stu-id="0c203-151">Cost object dimension</span></span>
+    - <span data-ttu-id="0c203-152">Izmaksu centri</span><span class="sxs-lookup"><span data-stu-id="0c203-152">Cost centers</span></span>
 
-Izmaksu objekta dimensiju, kas atbilst visiem izmaksu centriem, var iestatīt tālāk norādītajā veidā.
+<span data-ttu-id="0c203-153">Izmaksu objekta dimensiju, kas atbilst visiem izmaksu centriem, var iestatīt tālāk norādītajā veidā.</span><span class="sxs-lookup"><span data-stu-id="0c203-153">The cost object dimension that represents all the cost centers can be set up as shown here.</span></span>
 
-| Izmaksu centri | apraksts |
+| <span data-ttu-id="0c203-154">Izmaksu centri</span><span class="sxs-lookup"><span data-stu-id="0c203-154">Cost centers</span></span> | <span data-ttu-id="0c203-155">apraksts</span><span class="sxs-lookup"><span data-stu-id="0c203-155">Description</span></span> |
 |--------------|-------------|
-| CC001        | HR          |
-| CC002        | Finansēt     |
-| CC003        | Nodokļi         |
-| CC007        | Debitoru parādi/parādi kreditoriem       |
-| CC005        | Montāža    |
-| CC006        | Iepakošana   |
+| <span data-ttu-id="0c203-156">CC001</span><span class="sxs-lookup"><span data-stu-id="0c203-156">CC001</span></span>        | <span data-ttu-id="0c203-157">HR</span><span class="sxs-lookup"><span data-stu-id="0c203-157">HR</span></span>          |
+| <span data-ttu-id="0c203-158">CC002</span><span class="sxs-lookup"><span data-stu-id="0c203-158">CC002</span></span>        | <span data-ttu-id="0c203-159">Finansēt</span><span class="sxs-lookup"><span data-stu-id="0c203-159">Finance</span></span>     |
+| <span data-ttu-id="0c203-160">CC003</span><span class="sxs-lookup"><span data-stu-id="0c203-160">CC003</span></span>        | <span data-ttu-id="0c203-161">Nodokļi</span><span class="sxs-lookup"><span data-stu-id="0c203-161">Tax</span></span>         |
+| <span data-ttu-id="0c203-162">CC007</span><span class="sxs-lookup"><span data-stu-id="0c203-162">CC007</span></span>        | <span data-ttu-id="0c203-163">Debitoru parādi/parādi kreditoriem</span><span class="sxs-lookup"><span data-stu-id="0c203-163">AR/AP</span></span>       |
+| <span data-ttu-id="0c203-164">CC005</span><span class="sxs-lookup"><span data-stu-id="0c203-164">CC005</span></span>        | <span data-ttu-id="0c203-165">Montāža</span><span class="sxs-lookup"><span data-stu-id="0c203-165">Assembly</span></span>    |
+| <span data-ttu-id="0c203-166">CC006</span><span class="sxs-lookup"><span data-stu-id="0c203-166">CC006</span></span>        | <span data-ttu-id="0c203-167">Iepakošana</span><span class="sxs-lookup"><span data-stu-id="0c203-167">Packaging</span></span>   |
 
-Izmaksu elementa dimensija atbilst viesiem izmaksu elementiem organizācijā.
+<span data-ttu-id="0c203-168">Izmaksu elementa dimensija atbilst viesiem izmaksu elementiem organizācijā.</span><span class="sxs-lookup"><span data-stu-id="0c203-168">A cost element dimension represents all the cost elements in the organization.</span></span>
 
-- Izmaksu elementa dimensija
-    - Izmaksu elementi
+- <span data-ttu-id="0c203-169">Izmaksu elementa dimensija</span><span class="sxs-lookup"><span data-stu-id="0c203-169">Cost element dimension</span></span>
+    - <span data-ttu-id="0c203-170">Izmaksu elementi</span><span class="sxs-lookup"><span data-stu-id="0c203-170">Cost elements</span></span>
 
-Izmaksu elementa dimensiju, kas atbilst visiem izmaksu elementiem, var iestatīt tālāk norādītajā veidā.
+<span data-ttu-id="0c203-171">Izmaksu elementa dimensiju, kas atbilst visiem izmaksu elementiem, var iestatīt tālāk norādītajā veidā.</span><span class="sxs-lookup"><span data-stu-id="0c203-171">The cost element dimension that represents all the cost elements can be set up as shown here.</span></span>
 
-| Izmaksu elementi | apraksts |
+| <span data-ttu-id="0c203-172">Izmaksu elementi</span><span class="sxs-lookup"><span data-stu-id="0c203-172">Cost elements</span></span> | <span data-ttu-id="0c203-173">apraksts</span><span class="sxs-lookup"><span data-stu-id="0c203-173">Description</span></span> |
 |---------------|-------------|
-| 10001         | Elektrība |
-| 10010         | Tīrīšana    |
-| 10011         | Apsilde     |
-| 40001         | PPPI        |
+| <span data-ttu-id="0c203-174">10001</span><span class="sxs-lookup"><span data-stu-id="0c203-174">10001</span></span>         | <span data-ttu-id="0c203-175">Elektrība</span><span class="sxs-lookup"><span data-stu-id="0c203-175">Electricity</span></span> |
+| <span data-ttu-id="0c203-176">10010</span><span class="sxs-lookup"><span data-stu-id="0c203-176">10010</span></span>         | <span data-ttu-id="0c203-177">Tīrīšana</span><span class="sxs-lookup"><span data-stu-id="0c203-177">Cleaning</span></span>    |
+| <span data-ttu-id="0c203-178">10011</span><span class="sxs-lookup"><span data-stu-id="0c203-178">10011</span></span>         | <span data-ttu-id="0c203-179">Apsilde</span><span class="sxs-lookup"><span data-stu-id="0c203-179">Heating</span></span>     |
+| <span data-ttu-id="0c203-180">40001</span><span class="sxs-lookup"><span data-stu-id="0c203-180">40001</span></span>         | <span data-ttu-id="0c203-181">PPPI</span><span class="sxs-lookup"><span data-stu-id="0c203-181">COGS</span></span>        |
 
-Organizācijas pārskatu prasībām atbilstošu dimensiju hierarhiju var iestatīt tālāk norādītajā veidā.
+<span data-ttu-id="0c203-182">Organizācijas pārskatu prasībām atbilstošu dimensiju hierarhiju var iestatīt tālāk norādītajā veidā.</span><span class="sxs-lookup"><span data-stu-id="0c203-182">A dimension hierarchy that meets the organizational reporting requirements can be set up as shown here.</span></span>
 
-**Detalizēta informācija par dimensiju hierarhiju**
+<span data-ttu-id="0c203-183">**Detalizēta informācija par dimensiju hierarhiju**</span><span class="sxs-lookup"><span data-stu-id="0c203-183">**Dimension hierarchy details**</span></span>
 
-| Dimensiju hierarhijas nosaukums | Dimensija    | Dimensiju hierarhijas veida nosaukums      | Piekļuves sarakstu hierarhija |
+| <span data-ttu-id="0c203-184">Dimensiju hierarhijas nosaukums</span><span class="sxs-lookup"><span data-stu-id="0c203-184">Dimension hierarchy name</span></span> | <span data-ttu-id="0c203-185">Dimensija</span><span class="sxs-lookup"><span data-stu-id="0c203-185">Dimension</span></span>    | <span data-ttu-id="0c203-186">Dimensiju hierarhijas veida nosaukums</span><span class="sxs-lookup"><span data-stu-id="0c203-186">Dimension hierarchy type name</span></span>      | <span data-ttu-id="0c203-187">Piekļuves sarakstu hierarhija</span><span class="sxs-lookup"><span data-stu-id="0c203-187">Access list hierarchy</span></span> |
 |--------------------------|--------------|------------------------------------|-----------------------|
-| Organizācija             | Izmaksu centri | Dimensiju klasifikācijas hierarhija | Nav                    |
+| <span data-ttu-id="0c203-188">Organizācija</span><span class="sxs-lookup"><span data-stu-id="0c203-188">Organization</span></span>             | <span data-ttu-id="0c203-189">Izmaksu centri</span><span class="sxs-lookup"><span data-stu-id="0c203-189">Cost centers</span></span> | <span data-ttu-id="0c203-190">Dimensiju klasifikācijas hierarhija</span><span class="sxs-lookup"><span data-stu-id="0c203-190">Dimension classification hierarchy</span></span> | <span data-ttu-id="0c203-191">Nav</span><span class="sxs-lookup"><span data-stu-id="0c203-191">No</span></span>                    |
 
-Pārskatu dimensiju hierarhiju var iestatīt tālāk norādītajā veidā.
+<span data-ttu-id="0c203-192">Pārskatu dimensiju hierarhiju var iestatīt tālāk norādītajā veidā.</span><span class="sxs-lookup"><span data-stu-id="0c203-192">The dimension hierarchy for reporting can be set up as shown here.</span></span>
 
-|                   | Dimensijas elementu diapazons   |                         |
+|                   | <span data-ttu-id="0c203-193">Dimensijas elementu diapazons</span><span class="sxs-lookup"><span data-stu-id="0c203-193">Dimension member ranges</span></span>   |                         |
 |-------------------|---------------------------|-------------------------|
-| **Mezgli**         | **Avota dimensijas elements** | **Mērķa dimensijas elements** |
-| Organizācija      |                           |                         |
-| &nbsp;&nbsp;Administrators         |                           |                         |
-|&nbsp;&nbsp;&nbsp;&nbsp;Finansēt   | CC002                     | CC003                   |
-|                   | CC007                     | CC007                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;HR        | CC001                     | CC001                   |
-| &nbsp;&nbsp;Ražošana    |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;Iepakošana | CC005                     | CC005                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;Montāža  | CC006                     | CC006                   |
+| <span data-ttu-id="0c203-194">**Mezgli**</span><span class="sxs-lookup"><span data-stu-id="0c203-194">**Nodes**</span></span>         | <span data-ttu-id="0c203-195">**Avota dimensijas elements**</span><span class="sxs-lookup"><span data-stu-id="0c203-195">**From dimension member**</span></span> | <span data-ttu-id="0c203-196">**Mērķa dimensijas elements**</span><span class="sxs-lookup"><span data-stu-id="0c203-196">**To dimension member**</span></span> |
+| <span data-ttu-id="0c203-197">Organizācija</span><span class="sxs-lookup"><span data-stu-id="0c203-197">Organization</span></span>      |                           |                         |
+| <span data-ttu-id="0c203-198">&nbsp;&nbsp;Administrators</span><span class="sxs-lookup"><span data-stu-id="0c203-198">&nbsp;&nbsp;Admin</span></span>         |                           |                         |
+|<span data-ttu-id="0c203-199">&nbsp;&nbsp;&nbsp;&nbsp;Finansēt</span><span class="sxs-lookup"><span data-stu-id="0c203-199">&nbsp;&nbsp;&nbsp;&nbsp;Finance</span></span>   | <span data-ttu-id="0c203-200">CC002</span><span class="sxs-lookup"><span data-stu-id="0c203-200">CC002</span></span>                     | <span data-ttu-id="0c203-201">CC003</span><span class="sxs-lookup"><span data-stu-id="0c203-201">CC003</span></span>                   |
+|                   | <span data-ttu-id="0c203-202">CC007</span><span class="sxs-lookup"><span data-stu-id="0c203-202">CC007</span></span>                     | <span data-ttu-id="0c203-203">CC007</span><span class="sxs-lookup"><span data-stu-id="0c203-203">CC007</span></span>                   |
+| <span data-ttu-id="0c203-204">&nbsp;&nbsp;&nbsp;&nbsp;HR</span><span class="sxs-lookup"><span data-stu-id="0c203-204">&nbsp;&nbsp;&nbsp;&nbsp;HR</span></span>        | <span data-ttu-id="0c203-205">CC001</span><span class="sxs-lookup"><span data-stu-id="0c203-205">CC001</span></span>                     | <span data-ttu-id="0c203-206">CC001</span><span class="sxs-lookup"><span data-stu-id="0c203-206">CC001</span></span>                   |
+| <span data-ttu-id="0c203-207">&nbsp;&nbsp;Ražošana</span><span class="sxs-lookup"><span data-stu-id="0c203-207">&nbsp;&nbsp;Production</span></span>    |                           |                         |
+| <span data-ttu-id="0c203-208">&nbsp;&nbsp;&nbsp;&nbsp;Iepakošana</span><span class="sxs-lookup"><span data-stu-id="0c203-208">&nbsp;&nbsp;&nbsp;&nbsp;Packaging</span></span> | <span data-ttu-id="0c203-209">CC005</span><span class="sxs-lookup"><span data-stu-id="0c203-209">CC005</span></span>                     | <span data-ttu-id="0c203-210">CC005</span><span class="sxs-lookup"><span data-stu-id="0c203-210">CC005</span></span>                   |
+| <span data-ttu-id="0c203-211">&nbsp;&nbsp;&nbsp;&nbsp;Montāža</span><span class="sxs-lookup"><span data-stu-id="0c203-211">&nbsp;&nbsp;&nbsp;&nbsp;Assembly</span></span>  | <span data-ttu-id="0c203-212">CC006</span><span class="sxs-lookup"><span data-stu-id="0c203-212">CC006</span></span>                     | <span data-ttu-id="0c203-213">CC006</span><span class="sxs-lookup"><span data-stu-id="0c203-213">CC006</span></span>                   |
 
-Ierobežojuma prasībām atbilstošu dimensiju hierarhiju var iestatīt tālāk norādītajā veidā.
+<span data-ttu-id="0c203-214">Ierobežojuma prasībām atbilstošu dimensiju hierarhiju var iestatīt tālāk norādītajā veidā.</span><span class="sxs-lookup"><span data-stu-id="0c203-214">A dimension hierarchy that meets the policy requirement can be set up as shown here.</span></span>
 
-**Detalizēta informācija par dimensiju hierarhiju**
+<span data-ttu-id="0c203-215">**Detalizēta informācija par dimensiju hierarhiju**</span><span class="sxs-lookup"><span data-stu-id="0c203-215">**Dimension hierarchy details**</span></span>
 
-| Dimensiju hierarhijas nosaukums | Dimensija     | Dimensiju hierarhijas veida nosaukums      |
+| <span data-ttu-id="0c203-216">Dimensiju hierarhijas nosaukums</span><span class="sxs-lookup"><span data-stu-id="0c203-216">Dimension hierarchy name</span></span> | <span data-ttu-id="0c203-217">Dimensija</span><span class="sxs-lookup"><span data-stu-id="0c203-217">Dimension</span></span>     | <span data-ttu-id="0c203-218">Dimensiju hierarhijas veida nosaukums</span><span class="sxs-lookup"><span data-stu-id="0c203-218">Dimension hierarchy type name</span></span>      |
 |--------------------------|---------------|------------------------------------|
-| Izmaksu izturēšanās            | Izmaksu elementi | Dimensiju klasifikācijas hierarhija |
+| <span data-ttu-id="0c203-219">Izmaksu izturēšanās</span><span class="sxs-lookup"><span data-stu-id="0c203-219">Cost behavior</span></span>            | <span data-ttu-id="0c203-220">Izmaksu elementi</span><span class="sxs-lookup"><span data-stu-id="0c203-220">Cost elements</span></span> | <span data-ttu-id="0c203-221">Dimensiju klasifikācijas hierarhija</span><span class="sxs-lookup"><span data-stu-id="0c203-221">Dimension classification hierarchy</span></span> |
 
-Ierobežojuma dimensiju hierarhiju var iestatīt tālāk norādītajā veidā.
+<span data-ttu-id="0c203-222">Ierobežojuma dimensiju hierarhiju var iestatīt tālāk norādītajā veidā.</span><span class="sxs-lookup"><span data-stu-id="0c203-222">The dimension hierarchy for the policy can be set up as shown here.</span></span>
 
-|                   | Dimensijas elementu diapazons   |                         |
+|                   | <span data-ttu-id="0c203-223">Dimensijas elementu diapazons</span><span class="sxs-lookup"><span data-stu-id="0c203-223">Dimension member ranges</span></span>   |                         |
 |-------------------|---------------------------|-------------------------|
-| **Mezgli**         | **Avota dimensijas elements** | **Mērķa dimensijas elements** |
-| Izmaksu izturēšanās     |                           |                         |
-| &nbsp;&nbsp;Fiksētas izmaksas    | 10001                     | 10011                   |
-|&nbsp;&nbsp;Mainīgas izmaksas | 40001                     | 40010                   |
+| <span data-ttu-id="0c203-224">**Mezgli**</span><span class="sxs-lookup"><span data-stu-id="0c203-224">**Nodes**</span></span>         | <span data-ttu-id="0c203-225">**Avota dimensijas elements**</span><span class="sxs-lookup"><span data-stu-id="0c203-225">**From dimension member**</span></span> | <span data-ttu-id="0c203-226">**Mērķa dimensijas elements**</span><span class="sxs-lookup"><span data-stu-id="0c203-226">**To dimension member**</span></span> |
+| <span data-ttu-id="0c203-227">Izmaksu izturēšanās</span><span class="sxs-lookup"><span data-stu-id="0c203-227">Cost behavior</span></span>     |                           |                         |
+| <span data-ttu-id="0c203-228">&nbsp;&nbsp;Fiksētas izmaksas</span><span class="sxs-lookup"><span data-stu-id="0c203-228">&nbsp;&nbsp;Fixed cost</span></span>    | <span data-ttu-id="0c203-229">10001</span><span class="sxs-lookup"><span data-stu-id="0c203-229">10001</span></span>                     | <span data-ttu-id="0c203-230">10011</span><span class="sxs-lookup"><span data-stu-id="0c203-230">10011</span></span>                   |
+|<span data-ttu-id="0c203-231">&nbsp;&nbsp;Mainīgas izmaksas</span><span class="sxs-lookup"><span data-stu-id="0c203-231">&nbsp;&nbsp;Variable cost</span></span> | <span data-ttu-id="0c203-232">40001</span><span class="sxs-lookup"><span data-stu-id="0c203-232">40001</span></span>                     | <span data-ttu-id="0c203-233">40010</span><span class="sxs-lookup"><span data-stu-id="0c203-233">40010</span></span>                   |
 
 > [!NOTE]
-> Sadaļā **Dimensijas elementu diapazons** mezglam var pievienot 1:_n_ dimensiju elementu diapazonus Varat ievietot vēl neesošu dimensiju elementu ID. Tādējādi hierarhija tiek padarīta viegli pielāgojama.  
+> <span data-ttu-id="0c203-234">Sadaļā **Dimensijas elementu diapazons** mezglam var pievienot 1:_n_ dimensiju elementu diapazonus</span><span class="sxs-lookup"><span data-stu-id="0c203-234">Under **Dimension member ranges**, a node can contain 1:_n_ dimension member ranges.</span></span> <span data-ttu-id="0c203-235">Varat ievietot vēl neesošu dimensiju elementu ID.</span><span class="sxs-lookup"><span data-stu-id="0c203-235">You can insert dimension member IDs that don’t yet exist as dimension members.</span></span> <span data-ttu-id="0c203-236">Tādējādi hierarhija tiek padarīta viegli pielāgojama.</span><span class="sxs-lookup"><span data-stu-id="0c203-236">This approach makes the hierarchy resilient for the future.</span></span>  
 
-### <a name="copy-a-hierarchy"></a>Hierarhijas kopēšana
+### <a name="copy-a-hierarchy"></a><span data-ttu-id="0c203-237">Hierarhijas kopēšana</span><span class="sxs-lookup"><span data-stu-id="0c203-237">Copy a hierarchy</span></span>
 
-Varat kopēt pašreizējo dimensiju hierarhiju, lai to izmantotu kā sākumpunktu jaunas dimensiju hierarhijas izveidei. Šī pieeja var būt noderīga, ja vēlaties salīdzināt iepriekšējo dimensiju hierarhiju ar jauno dimensiju hierarhiju.
+<span data-ttu-id="0c203-238">Varat kopēt pašreizējo dimensiju hierarhiju, lai to izmantotu kā sākumpunktu jaunas dimensiju hierarhijas izveidei.</span><span class="sxs-lookup"><span data-stu-id="0c203-238">You can copy a current dimension hierarchy as the starting point for a new dimension hierarchy.</span></span> <span data-ttu-id="0c203-239">Šī pieeja var būt noderīga, ja vēlaties salīdzināt iepriekšējo dimensiju hierarhiju ar jauno dimensiju hierarhiju.</span><span class="sxs-lookup"><span data-stu-id="0c203-239">This approach can be useful if you want to compare the previous dimension hierarchy to the new dimension hierarchy.</span></span>
 
-### <a name="rearrange-nodes-in-a-hierarchy"></a>Hierarhijas mezglu pārkārtošana
+### <a name="rearrange-nodes-in-a-hierarchy"></a><span data-ttu-id="0c203-240">Hierarhijas mezglu pārkārtošana</span><span class="sxs-lookup"><span data-stu-id="0c203-240">Rearrange nodes in a hierarchy</span></span>
 
-Varat pārvietot mezglu hierarhijā uz augšu un uz leju tā pašreizējā līmeņa ietvaros. Tādējādi varat pārkārtot mezglus pārskaut izveidei darbvietā **Izmaksu kontrole**.
+<span data-ttu-id="0c203-241">Varat pārvietot mezglu hierarhijā uz augšu un uz leju tā pašreizējā līmeņa ietvaros.</span><span class="sxs-lookup"><span data-stu-id="0c203-241">You can move a node up and down within its current level in the structure.</span></span> <span data-ttu-id="0c203-242">Tādējādi varat pārkārtot mezglus pārskaut izveidei darbvietā **Izmaksu kontrole**.</span><span class="sxs-lookup"><span data-stu-id="0c203-242">In this way, you can rearrange the order of nodes for reporting in the **Cost control** workspace.</span></span>
 
-Lai pārvietotu mezglu uz jaunu vietu hierarhijā, ir jāatlasa mērķa mezgls. Mezglu var pārvietot divos tālāk norādītajos veidos.
+<span data-ttu-id="0c203-243">Lai pārvietotu mezglu uz jaunu vietu hierarhijā, ir jāatlasa mērķa mezgls.</span><span class="sxs-lookup"><span data-stu-id="0c203-243">You move a node to a new location in the hierarchy by selecting the target node.</span></span> <span data-ttu-id="0c203-244">Mezglu var pārvietot divos tālāk norādītajos veidos.</span><span class="sxs-lookup"><span data-stu-id="0c203-244">There are two ways to move a node:</span></span>
 
-- **Pārvietot zem** — pārvietojiet atlasīto mezglu no tā pašreizējās pozīcijas hierarhijā un ievietojiet to **zem** atlasītā mērķa mezgla.
-- **Pārvietot pēc** — pārvietojiet atlasīto mezglu no tā pašreizējās pozīcijas hierarhijā un ievietojiet to **pēc** atlasītā mērķa mezgla tā hierarhijas līmeņa ietvaros.
+- <span data-ttu-id="0c203-245">**Pārvietot zem** — pārvietojiet atlasīto mezglu no tā pašreizējās pozīcijas hierarhijā un ievietojiet to **zem** atlasītā mērķa mezgla.</span><span class="sxs-lookup"><span data-stu-id="0c203-245">**Move below** – Move the selected node from its current position in the hierarchy, and insert it **under** the selected target node.</span></span>
+- <span data-ttu-id="0c203-246">**Pārvietot pēc** — pārvietojiet atlasīto mezglu no tā pašreizējās pozīcijas hierarhijā un ievietojiet to **pēc** atlasītā mērķa mezgla tā hierarhijas līmeņa ietvaros.</span><span class="sxs-lookup"><span data-stu-id="0c203-246">**Move after** – Move the selected node from its current position in the hierarchy, and insert it **after** the selected target node at its level of the hierarchy.</span></span>
 
 > [!NOTE] 
-> Eksportējot datus uz programmu Excel vai Power BI, netiek saglabāta mezglu secība, jo šajos rīkos pēc noklusējuma tiek izmantota burtciparu kārtošanas secība. Secība ir jāmaina manuāli.
+> <span data-ttu-id="0c203-247">Eksportējot datus uz programmu Excel vai Power BI, netiek saglabāta mezglu secība, jo šajos rīkos pēc noklusējuma tiek izmantota burtciparu kārtošanas secība.</span><span class="sxs-lookup"><span data-stu-id="0c203-247">The order of the nodes isn't maintained when you export data to Excel or Power BI, because those tools use an alphanumeric sort order by default.</span></span> <span data-ttu-id="0c203-248">Secība ir jāmaina manuāli.</span><span class="sxs-lookup"><span data-stu-id="0c203-248">You should manually rearrange the order.</span></span>
 
-## <a name="define-dimension-hierarchies-for-reporting"></a>Dimensiju hierarhiju definēšana pārskatu izveidei
+## <a name="define-dimension-hierarchies-for-reporting"></a><span data-ttu-id="0c203-249">Dimensiju hierarhiju definēšana pārskatu izveidei</span><span class="sxs-lookup"><span data-stu-id="0c203-249">Define dimension hierarchies for reporting</span></span>
 
-Dimensiju hierarhijas ir svarīgas pārskatu izveidi. Tās sniedz iespēju definēt konkrēto struktūru, kas atbilst noteiktas organizācijas prasībām. Dimensiju hierarhijas mezgla līmenī veiktās apkopošanas sniedz ieinteresētajām pusēm jebkurā organizācijas līmenī skatīt jebkura līmeņa datus.
+<span data-ttu-id="0c203-250">Dimensiju hierarhijas ir svarīgas pārskatu izveidi.</span><span class="sxs-lookup"><span data-stu-id="0c203-250">Dimension hierarchies are important for reporting.</span></span> <span data-ttu-id="0c203-251">Tās sniedz iespēju definēt konkrēto struktūru, kas atbilst noteiktas organizācijas prasībām.</span><span class="sxs-lookup"><span data-stu-id="0c203-251">They let you define the specific structure that fits into the individual organization.</span></span> <span data-ttu-id="0c203-252">Dimensiju hierarhijas mezgla līmenī veiktās apkopošanas sniedz ieinteresētajām pusēm jebkurā organizācijas līmenī skatīt jebkura līmeņa datus.</span><span class="sxs-lookup"><span data-stu-id="0c203-252">The aggregations that are done at the node level of the dimension hierarchy let stakeholders at any level of the organization see data at any level.</span></span>
 
-Dimensiju hierarhijas ir pieejamas tālāk norādītajos pārskatu rīkos. Šī pieeja palīdz nodrošināt konsekvenci pārskata struktūras ietvaros.
+<span data-ttu-id="0c203-253">Dimensiju hierarhijas ir pieejamas tālāk norādītajos pārskatu rīkos.</span><span class="sxs-lookup"><span data-stu-id="0c203-253">Dimension hierarchies are available in the following reporting tools.</span></span> <span data-ttu-id="0c203-254">Šī pieeja palīdz nodrošināt konsekvenci pārskata struktūras ietvaros.</span><span class="sxs-lookup"><span data-stu-id="0c203-254">This approach helps guarantee consistency in the reporting structure.</span></span>
 
-- Darbvieta **Izmaksu kontrole** (klients):
+- <span data-ttu-id="0c203-255">Darbvieta **Izmaksu kontrole** (klients):</span><span class="sxs-lookup"><span data-stu-id="0c203-255">**Cost control** workspace (Client):</span></span>
 
-    - tiek kontrolēta, izmantojot konfigurāciju.
+    - <span data-ttu-id="0c203-256">tiek kontrolēta, izmantojot konfigurāciju.</span><span class="sxs-lookup"><span data-stu-id="0c203-256">Controlled by configuration.</span></span>
 
-- Darbvieta **Izmaksu kontrole** (mobilā lietojumprogramma):
+- <span data-ttu-id="0c203-257">Darbvieta **Izmaksu kontrole** (mobilā lietojumprogramma):</span><span class="sxs-lookup"><span data-stu-id="0c203-257">**Cost control** workspace (Mobile application):</span></span>
 
-    - tiek kontrolēta, izmantojot konfigurāciju.
+    - <span data-ttu-id="0c203-258">tiek kontrolēta, izmantojot konfigurāciju.</span><span class="sxs-lookup"><span data-stu-id="0c203-258">Controlled by configuration.</span></span>
 
-- Excel
+- <span data-ttu-id="0c203-259">Excel</span><span class="sxs-lookup"><span data-stu-id="0c203-259">Excel</span></span>
 
-    - Sniedz iespēju katrai eksportēšanas definīcijai atlasīt noteiktu dimensiju hierarhiju.
+    - <span data-ttu-id="0c203-260">Sniedz iespēju katrai eksportēšanas definīcijai atlasīt noteiktu dimensiju hierarhiju.</span><span class="sxs-lookup"><span data-stu-id="0c203-260">Provides the option to select specific dimension hierarchies per export definition:</span></span>
 
-        - Viena izmaksu elementu dimensiju hierarhija (obligāti)
-        - Viena izmaksu objektu dimensiju hierarhija (pēc izvēles)
-        - Viena statistisko dimensiju hierarhija (pēc izvēles)
+        - <span data-ttu-id="0c203-261">Viena izmaksu elementu dimensiju hierarhija (obligāti)</span><span class="sxs-lookup"><span data-stu-id="0c203-261">One cost element dimension hierarchy (mandatory)</span></span>
+        - <span data-ttu-id="0c203-262">Viena izmaksu objektu dimensiju hierarhija (pēc izvēles)</span><span class="sxs-lookup"><span data-stu-id="0c203-262">One cost object dimension hierarchy (optional)</span></span>
+        - <span data-ttu-id="0c203-263">Viena statistisko dimensiju hierarhija (pēc izvēles)</span><span class="sxs-lookup"><span data-stu-id="0c203-263">One statistical dimension hierarchy (optional)</span></span>
 
-- Power BI:
+- <span data-ttu-id="0c203-264">Power BI:</span><span class="sxs-lookup"><span data-stu-id="0c203-264">Power BI:</span></span>
 
-    - ir pieejamas visas dimensiju hierarhijas.
+    - <span data-ttu-id="0c203-265">ir pieejamas visas dimensiju hierarhijas.</span><span class="sxs-lookup"><span data-stu-id="0c203-265">All dimension hierarchies are available.</span></span>
     
-Ja veidojat pārskatus, izmantojot programmu Excel vai Power BI, tiek eksportēti tikai pirmie 15 dimensiju hierarhijas līmeņi. Šis ierobežojums pastāv tāpēc, ka programmā Excel un Power BI ir nepieciešama fiksēta shēma. Ja hierarhijā ir vairāk nekā 15 līmeņi, papildu līmeņi netiek eksportēti. Normalizētajā tabulā ir ietverts katra hierarhijas dimensijas elementa ierakts. Tāpēc notiek automatizēta apkopošana. Tas palīdz nodrošināt, ka jebkurā no 15 pieejamajiem hierarhijas līmeņiem joprojām ir pareiza bilance.
+<span data-ttu-id="0c203-266">Ja veidojat pārskatus, izmantojot programmu Excel vai Power BI, tiek eksportēti tikai pirmie 15 dimensiju hierarhijas līmeņi.</span><span class="sxs-lookup"><span data-stu-id="0c203-266">If you create reports by using Excel or Power BI, only the first 15 levels of the dimension hierarchies are exported.</span></span> <span data-ttu-id="0c203-267">Šis ierobežojums pastāv tāpēc, ka programmā Excel un Power BI ir nepieciešama fiksēta shēma.</span><span class="sxs-lookup"><span data-stu-id="0c203-267">This limitation exists because a fixed schema is required in Excel and Power BI.</span></span> <span data-ttu-id="0c203-268">Ja hierarhijā ir vairāk nekā 15 līmeņi, papildu līmeņi netiek eksportēti.</span><span class="sxs-lookup"><span data-stu-id="0c203-268">If a hierarchy has more than 15 levels, the additional levels won't be exported.</span></span> <span data-ttu-id="0c203-269">Normalizētajā tabulā ir ietverts katra hierarhijas dimensijas elementa ierakts.</span><span class="sxs-lookup"><span data-stu-id="0c203-269">The normalized table contains a record for each dimension member in the hierarchy.</span></span> <span data-ttu-id="0c203-270">Tāpēc notiek automatizēta apkopošana.</span><span class="sxs-lookup"><span data-stu-id="0c203-270">Therefore, automated aggregation occurs.</span></span> <span data-ttu-id="0c203-271">Tas palīdz nodrošināt, ka jebkurā no 15 pieejamajiem hierarhijas līmeņiem joprojām ir pareiza bilance.</span><span class="sxs-lookup"><span data-stu-id="0c203-271">This behavior helps guarantee that the balances at any of the 15 available levels in the hierarchy are still correct.</span></span>
 
-Tālāk ir sniegts pārskatu struktūrā ietvertas dimensiju hierarhijas piemērs.
+<span data-ttu-id="0c203-272">Tālāk ir sniegts pārskatu struktūrā ietvertas dimensiju hierarhijas piemērs.</span><span class="sxs-lookup"><span data-stu-id="0c203-272">The following example shows what a dimension hierarchy might look like in the reporting structure.</span></span>
 
-| Izmaksu objektu dimensiju hierarhija — 1. līmenis | Izmaksu objektu dimensiju hierarhija — 2. līmenis | Izmaksu objektu dimensiju hierarhija — 3. līmenis | Izmaksu objektu dimensiju hierarhija — 4. līmenis | Izmaksu objektu dimensiju hierarhija — 15. līmenis |
+| <span data-ttu-id="0c203-273">Izmaksu objektu dimensiju hierarhija — 1. līmenis</span><span class="sxs-lookup"><span data-stu-id="0c203-273">Cost object dimension hierarchy – Level 1</span></span> | <span data-ttu-id="0c203-274">Izmaksu objektu dimensiju hierarhija — 2. līmenis</span><span class="sxs-lookup"><span data-stu-id="0c203-274">Cost object dimension hierarchy – Level 2</span></span> | <span data-ttu-id="0c203-275">Izmaksu objektu dimensiju hierarhija — 3. līmenis</span><span class="sxs-lookup"><span data-stu-id="0c203-275">Cost object dimension hierarchy – Level 3</span></span> | <span data-ttu-id="0c203-276">Izmaksu objektu dimensiju hierarhija — 4. līmenis</span><span class="sxs-lookup"><span data-stu-id="0c203-276">Cost object dimension hierarchy – Level 4</span></span> | <span data-ttu-id="0c203-277">Izmaksu objektu dimensiju hierarhija — 15. līmenis</span><span class="sxs-lookup"><span data-stu-id="0c203-277">Cost object dimension hierarchy – Level 15</span></span> |
 |-------------------------------------------|-------------------------------------------|-------------------------------------------|-------------------------------------------|--------------------------------------------|
-| Organizācija                              | Administrators                                     | Finansēt                                   | CC002                                     |                                            |
-| Organizācija                              | Administrators                                     | Finansēt                                   | CC003                                     |                                            |
-| Organizācija                              | Administrators                                     | Finansēt                                   | CC007                                     |                                            |
-| Organizācija                              | Administrators                                     | HR                                        | CC001                                     |                                            |
-| Organizācija                              | Ražošana                                | Iepakošana                                 | CC005                                     |                                            |
-| Organizācija                              | Ražošana                                | Montāža                                  | CC006                                     |                                            |
+| <span data-ttu-id="0c203-278">Organizācija</span><span class="sxs-lookup"><span data-stu-id="0c203-278">Organization</span></span>                              | <span data-ttu-id="0c203-279">Administrators</span><span class="sxs-lookup"><span data-stu-id="0c203-279">Admin</span></span>                                     | <span data-ttu-id="0c203-280">Finansēt</span><span class="sxs-lookup"><span data-stu-id="0c203-280">Finance</span></span>                                   | <span data-ttu-id="0c203-281">CC002</span><span class="sxs-lookup"><span data-stu-id="0c203-281">CC002</span></span>                                     |                                            |
+| <span data-ttu-id="0c203-282">Organizācija</span><span class="sxs-lookup"><span data-stu-id="0c203-282">Organization</span></span>                              | <span data-ttu-id="0c203-283">Administrators</span><span class="sxs-lookup"><span data-stu-id="0c203-283">Admin</span></span>                                     | <span data-ttu-id="0c203-284">Finansēt</span><span class="sxs-lookup"><span data-stu-id="0c203-284">Finance</span></span>                                   | <span data-ttu-id="0c203-285">CC003</span><span class="sxs-lookup"><span data-stu-id="0c203-285">CC003</span></span>                                     |                                            |
+| <span data-ttu-id="0c203-286">Organizācija</span><span class="sxs-lookup"><span data-stu-id="0c203-286">Organization</span></span>                              | <span data-ttu-id="0c203-287">Administrators</span><span class="sxs-lookup"><span data-stu-id="0c203-287">Admin</span></span>                                     | <span data-ttu-id="0c203-288">Finansēt</span><span class="sxs-lookup"><span data-stu-id="0c203-288">Finance</span></span>                                   | <span data-ttu-id="0c203-289">CC007</span><span class="sxs-lookup"><span data-stu-id="0c203-289">CC007</span></span>                                     |                                            |
+| <span data-ttu-id="0c203-290">Organizācija</span><span class="sxs-lookup"><span data-stu-id="0c203-290">Organization</span></span>                              | <span data-ttu-id="0c203-291">Administrators</span><span class="sxs-lookup"><span data-stu-id="0c203-291">Admin</span></span>                                     | <span data-ttu-id="0c203-292">HR</span><span class="sxs-lookup"><span data-stu-id="0c203-292">HR</span></span>                                        | <span data-ttu-id="0c203-293">CC001</span><span class="sxs-lookup"><span data-stu-id="0c203-293">CC001</span></span>                                     |                                            |
+| <span data-ttu-id="0c203-294">Organizācija</span><span class="sxs-lookup"><span data-stu-id="0c203-294">Organization</span></span>                              | <span data-ttu-id="0c203-295">Ražošana</span><span class="sxs-lookup"><span data-stu-id="0c203-295">Production</span></span>                                | <span data-ttu-id="0c203-296">Iepakošana</span><span class="sxs-lookup"><span data-stu-id="0c203-296">Packaging</span></span>                                 | <span data-ttu-id="0c203-297">CC005</span><span class="sxs-lookup"><span data-stu-id="0c203-297">CC005</span></span>                                     |                                            |
+| <span data-ttu-id="0c203-298">Organizācija</span><span class="sxs-lookup"><span data-stu-id="0c203-298">Organization</span></span>                              | <span data-ttu-id="0c203-299">Ražošana</span><span class="sxs-lookup"><span data-stu-id="0c203-299">Production</span></span>                                | <span data-ttu-id="0c203-300">Montāža</span><span class="sxs-lookup"><span data-stu-id="0c203-300">Assembly</span></span>                                  | <span data-ttu-id="0c203-301">CC006</span><span class="sxs-lookup"><span data-stu-id="0c203-301">CC006</span></span>                                     |                                            |
 
-### <a name="update-the-dimension-hierarchies-that-are-used-for-reporting"></a>Pārskatiem izmantoto dimensiju hierarhiju atjaunināšana 
+### <a name="update-the-dimension-hierarchies-that-are-used-for-reporting"></a><span data-ttu-id="0c203-302">Pārskatiem izmantoto dimensiju hierarhiju atjaunināšana</span><span class="sxs-lookup"><span data-stu-id="0c203-302">Update the dimension hierarchies that are used for reporting</span></span> 
 
-Pēc kāda laika ir jāatjaunina iepriekš minētajos pārskatu rīkos izmantotās dimensiju hierarhijas. Dimensiju hierarhijas var atjaunināt, atsvaidzinot klientu.
+<span data-ttu-id="0c203-303">Pēc kāda laika ir jāatjaunina iepriekš minētajos pārskatu rīkos izmantotās dimensiju hierarhijas.</span><span class="sxs-lookup"><span data-stu-id="0c203-303">Over time, the dimension hierarchies that are used in the previously mentioned reporting tools will have to be updated.</span></span> <span data-ttu-id="0c203-304">Dimensiju hierarhijas var atjaunināt, atsvaidzinot klientu.</span><span class="sxs-lookup"><span data-stu-id="0c203-304">You can update dimension hierarchies by refreshing the client.</span></span>
 
-- Darbvieta **Izmaksu kontrole** (klients)
-- Darbvieta **Izmaksu kontrole** (mobilā lietojumprogramma)
+- <span data-ttu-id="0c203-305">Darbvieta **Izmaksu kontrole** (klients)</span><span class="sxs-lookup"><span data-stu-id="0c203-305">**Cost control** workspace (Client)</span></span>
+- <span data-ttu-id="0c203-306">Darbvieta **Izmaksu kontrole** (mobilā lietojumprogramma)</span><span class="sxs-lookup"><span data-stu-id="0c203-306">**Cost control** workspace (Mobile application)</span></span>
 
-Dimensiju hierarhiju atjauninājumi tiek fiksēti ik pēc 24 stundām, un to nodrošina kešatmiņa iepriekš saglabāts darbs. Pēc eksportēto datu atjaunināšanas izmainītās dimensiju hierarhijas ir pieejamas tālāk norādītajos rīkos.
+<span data-ttu-id="0c203-307">Dimensiju hierarhiju atjauninājumi tiek fiksēti ik pēc 24 stundām, un to nodrošina kešatmiņa iepriekš saglabāts darbs.</span><span class="sxs-lookup"><span data-stu-id="0c203-307">Updates to dimension hierarchies are picked up every 24 hours by a pre-cached job.</span></span> <span data-ttu-id="0c203-308">Pēc eksportēto datu atjaunināšanas izmainītās dimensiju hierarhijas ir pieejamas tālāk norādītajos rīkos.</span><span class="sxs-lookup"><span data-stu-id="0c203-308">After the exported data is updated, the updated dimension hierarchies are available in the following tools:</span></span>
 
-- Excel
-- Power BI
+- <span data-ttu-id="0c203-309">Excel</span><span class="sxs-lookup"><span data-stu-id="0c203-309">Excel</span></span>
+- <span data-ttu-id="0c203-310">Power BI</span><span class="sxs-lookup"><span data-stu-id="0c203-310">Power BI</span></span>
 
 > [!NOTE] 
-> Lai manuāli aktivizētu dimensiju hierarhijas kešatmiņas atjaunināšanu, varat no jauna eksportēt uz programmu Excel vienu vai vairākas dimensiju hierarhijas, kas ir jāatjaunina.
+> <span data-ttu-id="0c203-311">Lai manuāli aktivizētu dimensiju hierarhijas kešatmiņas atjaunināšanu, varat no jauna eksportēt uz programmu Excel vienu vai vairākas dimensiju hierarhijas, kas ir jāatjaunina.</span><span class="sxs-lookup"><span data-stu-id="0c203-311">To manually trigger an update of the dimension hierarchy cache, you can create a new export to Excel for the dimension hierarchy or hierarchies that must be updated.</span></span>
 
-## <a name="define-dimension-hierarchies-for-cost-policies"></a>Izmaksu ierobežojumu dimensiju hierarhiju definēšana
+## <a name="define-dimension-hierarchies-for-cost-policies"></a><span data-ttu-id="0c203-312">Izmaksu ierobežojumu dimensiju hierarhiju definēšana</span><span class="sxs-lookup"><span data-stu-id="0c203-312">Define dimension hierarchies for cost policies</span></span>
 
-Izmaksu uzskaites ietvaros tiek izmantoti vairāki ierobežojumi, kam tiek definētas detalizētas kārtulas. Tālāk norādītajiem ierobežojumiem ir jādefinē viena vai vairākas dimensiju hierarhijas.
+<span data-ttu-id="0c203-313">Izmaksu uzskaites ietvaros tiek izmantoti vairāki ierobežojumi, kam tiek definētas detalizētas kārtulas.</span><span class="sxs-lookup"><span data-stu-id="0c203-313">Cost accounting consists of multiple policies where detailed rules are defined.</span></span> <span data-ttu-id="0c203-314">Tālāk norādītajiem ierobežojumiem ir jādefinē viena vai vairākas dimensiju hierarhijas.</span><span class="sxs-lookup"><span data-stu-id="0c203-314">You must define one or more dimension hierarchies for the following policies:</span></span>
 
-- Izmaksu izturēšanās
-- Izmaksu sadale
-- Izmaksu sadalījums
-- Izmaksu apkopojums
+- <span data-ttu-id="0c203-315">Izmaksu izturēšanās</span><span class="sxs-lookup"><span data-stu-id="0c203-315">Cost behavior</span></span>
+- <span data-ttu-id="0c203-316">Izmaksu sadale</span><span class="sxs-lookup"><span data-stu-id="0c203-316">Cost distribution</span></span>
+- <span data-ttu-id="0c203-317">Izmaksu sadalījums</span><span class="sxs-lookup"><span data-stu-id="0c203-317">Cost allocation</span></span>
+- <span data-ttu-id="0c203-318">Izmaksu apkopojums</span><span class="sxs-lookup"><span data-stu-id="0c203-318">Cost rollup</span></span>
 
-Dimensiju hierarhijas atvieglo kārtulu izveidi. Lai nevajadzētu izveidot kārtulas katram dimensijas elementam, varat izmantot dimensiju elementu apkopojumus, ko nodrošina dimensiju hierarhijas līmeņi. Ja kārtulas pārklājas, ir jādefinē konkrētas kārtulas, kas sistēmā tiks ņemtas vērā, veidot pieskaitāmo izmaksu aprēķinu.
+<span data-ttu-id="0c203-319">Dimensiju hierarhijas atvieglo kārtulu izveidi.</span><span class="sxs-lookup"><span data-stu-id="0c203-319">Dimension hierarchies make it easy to create rules.</span></span> <span data-ttu-id="0c203-320">Lai nevajadzētu izveidot kārtulas katram dimensijas elementam, varat izmantot dimensiju elementu apkopojumus, ko nodrošina dimensiju hierarhijas līmeņi.</span><span class="sxs-lookup"><span data-stu-id="0c203-320">To avoid having to create rules for every dimension member, you can take advantage of the aggregations of dimension members that are provided by dimension hierarchy levels.</span></span> <span data-ttu-id="0c203-321">Ja kārtulas pārklājas, ir jādefinē konkrētas kārtulas, kas sistēmā tiks ņemtas vērā, veidot pieskaitāmo izmaksu aprēķinu.</span><span class="sxs-lookup"><span data-stu-id="0c203-321">If you have overlapping rules, you must define specific rules that the system will consider when it does the overhead calculation.</span></span>
 
-### <a name="example-define-a-cost-behavior-policy"></a>Piemērs: izmaksu izturēšanās ierobežojuma definēšana
+### <a name="example-define-a-cost-behavior-policy"></a><span data-ttu-id="0c203-322">Piemērs: izmaksu izturēšanās ierobežojuma definēšana</span><span class="sxs-lookup"><span data-stu-id="0c203-322">Example: Define a cost behavior policy</span></span>
 
-Tiek izveidots jauns izmaksu izturēšanās ierobežojums, un tam tiek piešķirtas atbilstošās dimensiju hierarhijas, kā tas ir parādīts tālāk.
+<span data-ttu-id="0c203-323">Tiek izveidots jauns izmaksu izturēšanās ierobežojums, un tam tiek piešķirtas atbilstošās dimensiju hierarhijas, kā tas ir parādīts tālāk.</span><span class="sxs-lookup"><span data-stu-id="0c203-323">A new cost behavior policy is created, and appropriate dimension hierarchies are assigned to the policy, as shown here.</span></span>
 
-**Izmaksu izturēšanās ierobežojums**
+<span data-ttu-id="0c203-324">**Izmaksu izturēšanās ierobežojums**</span><span class="sxs-lookup"><span data-stu-id="0c203-324">**Cost behavior policy**</span></span>
 
-| Ierobežojuma nosaukums   | Izmaksu elementu dimensiju hierarhija | Izmaksu objektu dimensiju hierarhija | Uzskaites valūta |
+| <span data-ttu-id="0c203-325">Ierobežojuma nosaukums</span><span class="sxs-lookup"><span data-stu-id="0c203-325">Policy name</span></span>   | <span data-ttu-id="0c203-326">Izmaksu elementu dimensiju hierarhija</span><span class="sxs-lookup"><span data-stu-id="0c203-326">Cost element dimension hierarchy</span></span> | <span data-ttu-id="0c203-327">Izmaksu objektu dimensiju hierarhija</span><span class="sxs-lookup"><span data-stu-id="0c203-327">Cost object dimension hierarchy</span></span> | <span data-ttu-id="0c203-328">Uzskaites valūta</span><span class="sxs-lookup"><span data-stu-id="0c203-328">Accounting currency</span></span> |
 |---------------|----------------------------------|---------------------------------|---------------------|
-| Izmaksu izturēšanās | Izmaksu izturēšanās                    | Organizācija                    | USD                 |
+| <span data-ttu-id="0c203-329">Izmaksu izturēšanās</span><span class="sxs-lookup"><span data-stu-id="0c203-329">Cost behavior</span></span> | <span data-ttu-id="0c203-330">Izmaksu izturēšanās</span><span class="sxs-lookup"><span data-stu-id="0c203-330">Cost behavior</span></span>                    | <span data-ttu-id="0c203-331">Organizācija</span><span class="sxs-lookup"><span data-stu-id="0c203-331">Organization</span></span>                    | <span data-ttu-id="0c203-332">USD</span><span class="sxs-lookup"><span data-stu-id="0c203-332">USD</span></span>                 |
 
-**Kārtulas**
+<span data-ttu-id="0c203-333">**Kārtulas**</span><span class="sxs-lookup"><span data-stu-id="0c203-333">**Rules**</span></span>
 
-| Izmaksu elementu dimensiju hierarhijas mezgls | Izmaksu objektu dimensiju hierarhijas mezgls | Fiksēta procentuālā vērtība | Fiksēta summa | Derīgs no | Derīgs līdz |
+| <span data-ttu-id="0c203-334">Izmaksu elementu dimensiju hierarhijas mezgls</span><span class="sxs-lookup"><span data-stu-id="0c203-334">Cost element dimension hierarchy node</span></span> | <span data-ttu-id="0c203-335">Izmaksu objektu dimensiju hierarhijas mezgls</span><span class="sxs-lookup"><span data-stu-id="0c203-335">Cost object dimension hierarchy node</span></span> | <span data-ttu-id="0c203-336">Fiksēta procentuālā vērtība</span><span class="sxs-lookup"><span data-stu-id="0c203-336">Fixed percentage</span></span> | <span data-ttu-id="0c203-337">Fiksēta summa</span><span class="sxs-lookup"><span data-stu-id="0c203-337">Fixed amount</span></span> | <span data-ttu-id="0c203-338">Derīgs no</span><span class="sxs-lookup"><span data-stu-id="0c203-338">Valid from</span></span> | <span data-ttu-id="0c203-339">Derīgs līdz</span><span class="sxs-lookup"><span data-stu-id="0c203-339">Valid to</span></span> |
 |---------------------------------------|--------------------------------------|------------------|--------------|------------|----------|
-| Fiksētas izmaksas                            | Organizācija                         | 100,00           | 0,00         | 01.01.2017.   | Nekad    |
-| 10001                                 | Organizācija                         | 0,00             | 150,00       | 01.01.2017.   | Nekad    |
-| 10001 (\*)                             | Finansēt                              |                  | 50,00        | 01.01.2017.   | Nekad    |
-| Izmaksu izturēšanās vai Mainīgās izmaksas (\*\*)   | Organizācija                         | 0,00             | 0,00         | 01.01.2017.   | Nekad    |
+| <span data-ttu-id="0c203-340">Fiksētas izmaksas</span><span class="sxs-lookup"><span data-stu-id="0c203-340">Fixed cost</span></span>                            | <span data-ttu-id="0c203-341">Organizācija</span><span class="sxs-lookup"><span data-stu-id="0c203-341">Organization</span></span>                         | <span data-ttu-id="0c203-342">100,00</span><span class="sxs-lookup"><span data-stu-id="0c203-342">100.00</span></span>           | <span data-ttu-id="0c203-343">0,00</span><span class="sxs-lookup"><span data-stu-id="0c203-343">0.00</span></span>         | <span data-ttu-id="0c203-344">01.01.2017.</span><span class="sxs-lookup"><span data-stu-id="0c203-344">1/1/2017</span></span>   | <span data-ttu-id="0c203-345">Nekad</span><span class="sxs-lookup"><span data-stu-id="0c203-345">Never</span></span>    |
+| <span data-ttu-id="0c203-346">10001</span><span class="sxs-lookup"><span data-stu-id="0c203-346">10001</span></span>                                 | <span data-ttu-id="0c203-347">Organizācija</span><span class="sxs-lookup"><span data-stu-id="0c203-347">Organization</span></span>                         | <span data-ttu-id="0c203-348">0,00</span><span class="sxs-lookup"><span data-stu-id="0c203-348">0.00</span></span>             | <span data-ttu-id="0c203-349">150,00</span><span class="sxs-lookup"><span data-stu-id="0c203-349">150.00</span></span>       | <span data-ttu-id="0c203-350">01.01.2017.</span><span class="sxs-lookup"><span data-stu-id="0c203-350">1/1/2017</span></span>   | <span data-ttu-id="0c203-351">Nekad</span><span class="sxs-lookup"><span data-stu-id="0c203-351">Never</span></span>    |
+| <span data-ttu-id="0c203-352">10001 (\*)</span><span class="sxs-lookup"><span data-stu-id="0c203-352">10001 (\*)</span></span>                             | <span data-ttu-id="0c203-353">Finansēt</span><span class="sxs-lookup"><span data-stu-id="0c203-353">Finance</span></span>                              |                  | <span data-ttu-id="0c203-354">50,00</span><span class="sxs-lookup"><span data-stu-id="0c203-354">50.00</span></span>        | <span data-ttu-id="0c203-355">01.01.2017.</span><span class="sxs-lookup"><span data-stu-id="0c203-355">1/1/2017</span></span>   | <span data-ttu-id="0c203-356">Nekad</span><span class="sxs-lookup"><span data-stu-id="0c203-356">Never</span></span>    |
+| <span data-ttu-id="0c203-357">Izmaksu izturēšanās vai Mainīgās izmaksas (\*\*)</span><span class="sxs-lookup"><span data-stu-id="0c203-357">Cost behavior or Variable cost (\*\*)</span></span>   | <span data-ttu-id="0c203-358">Organizācija</span><span class="sxs-lookup"><span data-stu-id="0c203-358">Organization</span></span>                         | <span data-ttu-id="0c203-359">0,00</span><span class="sxs-lookup"><span data-stu-id="0c203-359">0.00</span></span>             | <span data-ttu-id="0c203-360">0,00</span><span class="sxs-lookup"><span data-stu-id="0c203-360">0.00</span></span>         | <span data-ttu-id="0c203-361">01.01.2017.</span><span class="sxs-lookup"><span data-stu-id="0c203-361">1/1/2017</span></span>   | <span data-ttu-id="0c203-362">Nekad</span><span class="sxs-lookup"><span data-stu-id="0c203-362">Never</span></span>    |
 
-\* Mainīgo izmaksu mezgls nav nepieciešams. Ja izmaksas nav klasificētas kā fiksētas izmaksas, tām ir jābūt mainīgajām izmaksām.
+<span data-ttu-id="0c203-363">\* Mainīgo izmaksu mezgls nav nepieciešams.</span><span class="sxs-lookup"><span data-stu-id="0c203-363">\* The variable cost node isn't required.</span></span> <span data-ttu-id="0c203-364">Ja izmaksas nav klasificētas kā fiksētas izmaksas, tām ir jābūt mainīgajām izmaksām.</span><span class="sxs-lookup"><span data-stu-id="0c203-364">If a cost isn't classified as a fixed cost, it must be a variable cost.</span></span>
 
-\*\* Tiek izveidota detalizēta kārtula, apvienojot izmaksu elementu 10001 un visus izmaksu objektu elementus, kas ir apkopoti hierarhijas līmenī Finanses (CC002, CC003, CC007).
+<span data-ttu-id="0c203-365">\*\* Tiek izveidota detalizēta kārtula, apvienojot izmaksu elementu 10001 un visus izmaksu objektu elementus, kas ir apkopoti hierarhijas līmenī Finanses (CC002, CC003, CC007).</span><span class="sxs-lookup"><span data-stu-id="0c203-365">\*\* A detailed rule is created for the combination of cost element member 10001 and all cost object members that are aggregated under the Finance hierarchy level (CC002, CC003, CC007).</span></span>
 
-Iepriekšējās kārtulas liecina par pielāgojamību, ko nodrošina dimensiju hierarhijas. Definējot augsta līmeņa kārtulas, varat samazināt uzturēšanai vajadzīgo laiku. Pēc tam varat definēt detalizētas kārtulas, kas atbilst noteiktiem uzņēmējdarbības mērķiem.
+<span data-ttu-id="0c203-366">Iepriekšējās kārtulas liecina par pielāgojamību, ko nodrošina dimensiju hierarhijas.</span><span class="sxs-lookup"><span data-stu-id="0c203-366">The preceding rules show the flexibility that dimension hierarchies provide.</span></span> <span data-ttu-id="0c203-367">Definējot augsta līmeņa kārtulas, varat samazināt uzturēšanai vajadzīgo laiku.</span><span class="sxs-lookup"><span data-stu-id="0c203-367">By defining high-level rules, you can help minimize maintenance.</span></span> <span data-ttu-id="0c203-368">Pēc tam varat definēt detalizētas kārtulas, kas atbilst noteiktiem uzņēmējdarbības mērķiem.</span><span class="sxs-lookup"><span data-stu-id="0c203-368">You can then define detailed rules to fit into a specific business objective.</span></span>
 
-Ja tiek atjauninātas kārtulās izmantotās dimensiju hierarhijas, sistēma automātiski izceļ atjauninājumus.
+<span data-ttu-id="0c203-369">Ja tiek atjauninātas kārtulās izmantotās dimensiju hierarhijas, sistēma automātiski izceļ atjauninājumus.</span><span class="sxs-lookup"><span data-stu-id="0c203-369">If the dimension hierarchies that are used in rules are updated, the system automatically brings the updates forward.</span></span>
 
-Ja vairs nav nepieciešams kāds kārtulu granularitātes līmenis, attiecīgo kārtulu var anulēt.
+<span data-ttu-id="0c203-370">Ja vairs nav nepieciešams kāds kārtulu granularitātes līmenis, attiecīgo kārtulu var anulēt.</span><span class="sxs-lookup"><span data-stu-id="0c203-370">If a level of granularity in the rules is no longer required, the rule can be expired.</span></span>
 
-Piemēram, vairs nav nepieciešama noteikta izmaksu objektu dimensiju hierarhijas Finanses izmaksu izturēšanās kārtula. Šādā gadījumā noklikšķiniet uz **Derīguma kārtula**, lai anulētu šo kārtulu.
+<span data-ttu-id="0c203-371">Piemēram, vairs nav nepieciešama noteikta izmaksu objektu dimensiju hierarhijas Finanses izmaksu izturēšanās kārtula.</span><span class="sxs-lookup"><span data-stu-id="0c203-371">For example, a specific cost behavior rule for the Finance cost object dimension hierarchy node is no longer required.</span></span> <span data-ttu-id="0c203-372">Šādā gadījumā noklikšķiniet uz **Derīguma kārtula**, lai anulētu šo kārtulu.</span><span class="sxs-lookup"><span data-stu-id="0c203-372">In this case, click **Expire rule** to expire the rule.</span></span>
 
-| Izmaksu elementu dimensiju hierarhijas mezgls | Izmaksu objektu dimensiju hierarhijas mezgls | Fiksēta procentuālā vērtība | Fiksēta summa | Derīgs no | Derīgs līdz  |
+| <span data-ttu-id="0c203-373">Izmaksu elementu dimensiju hierarhijas mezgls</span><span class="sxs-lookup"><span data-stu-id="0c203-373">Cost element dimension hierarchy node</span></span> | <span data-ttu-id="0c203-374">Izmaksu objektu dimensiju hierarhijas mezgls</span><span class="sxs-lookup"><span data-stu-id="0c203-374">Cost object dimension hierarchy node</span></span> | <span data-ttu-id="0c203-375">Fiksēta procentuālā vērtība</span><span class="sxs-lookup"><span data-stu-id="0c203-375">Fixed percentage</span></span> | <span data-ttu-id="0c203-376">Fiksēta summa</span><span class="sxs-lookup"><span data-stu-id="0c203-376">Fixed amount</span></span> | <span data-ttu-id="0c203-377">Derīgs no</span><span class="sxs-lookup"><span data-stu-id="0c203-377">Valid from</span></span> | <span data-ttu-id="0c203-378">Derīgs līdz</span><span class="sxs-lookup"><span data-stu-id="0c203-378">Valid to</span></span>  |
 |---------------------------------------|--------------------------------------|------------------|--------------|------------|-----------|
-| Fiksētas izmaksas                            | Organizācija                         | 100,00           | 0,00         | 01.01.2017.   | Nekad     |
-| 10001                                 | Organizācija                         | 0,00             | 150,00       | 01.01.2017.   | Nekad     |
-| 10001                                 | Finansēt                              |                  | 50,00        | 01.01.2017.   | 20.01.2017. |
-| Izmaksu izturēšanās vai Mainīgās izmaksas        | Organizācija                         | 0,00             | 0,00         | 01.01.2017.   | Nekad     |
+| <span data-ttu-id="0c203-379">Fiksētas izmaksas</span><span class="sxs-lookup"><span data-stu-id="0c203-379">Fixed cost</span></span>                            | <span data-ttu-id="0c203-380">Organizācija</span><span class="sxs-lookup"><span data-stu-id="0c203-380">Organization</span></span>                         | <span data-ttu-id="0c203-381">100,00</span><span class="sxs-lookup"><span data-stu-id="0c203-381">100,00</span></span>           | <span data-ttu-id="0c203-382">0,00</span><span class="sxs-lookup"><span data-stu-id="0c203-382">0,00</span></span>         | <span data-ttu-id="0c203-383">01.01.2017.</span><span class="sxs-lookup"><span data-stu-id="0c203-383">1/1/2017</span></span>   | <span data-ttu-id="0c203-384">Nekad</span><span class="sxs-lookup"><span data-stu-id="0c203-384">Never</span></span>     |
+| <span data-ttu-id="0c203-385">10001</span><span class="sxs-lookup"><span data-stu-id="0c203-385">10001</span></span>                                 | <span data-ttu-id="0c203-386">Organizācija</span><span class="sxs-lookup"><span data-stu-id="0c203-386">Organization</span></span>                         | <span data-ttu-id="0c203-387">0,00</span><span class="sxs-lookup"><span data-stu-id="0c203-387">0,00</span></span>             | <span data-ttu-id="0c203-388">150,00</span><span class="sxs-lookup"><span data-stu-id="0c203-388">150,00</span></span>       | <span data-ttu-id="0c203-389">01.01.2017.</span><span class="sxs-lookup"><span data-stu-id="0c203-389">1/1/2017</span></span>   | <span data-ttu-id="0c203-390">Nekad</span><span class="sxs-lookup"><span data-stu-id="0c203-390">Never</span></span>     |
+| <span data-ttu-id="0c203-391">10001</span><span class="sxs-lookup"><span data-stu-id="0c203-391">10001</span></span>                                 | <span data-ttu-id="0c203-392">Finansēt</span><span class="sxs-lookup"><span data-stu-id="0c203-392">Finance</span></span>                              |                  | <span data-ttu-id="0c203-393">50,00</span><span class="sxs-lookup"><span data-stu-id="0c203-393">50,00</span></span>        | <span data-ttu-id="0c203-394">01.01.2017.</span><span class="sxs-lookup"><span data-stu-id="0c203-394">1/1/2017</span></span>   | <span data-ttu-id="0c203-395">20.01.2017.</span><span class="sxs-lookup"><span data-stu-id="0c203-395">20/1/2017</span></span> |
+| <span data-ttu-id="0c203-396">Izmaksu izturēšanās vai Mainīgās izmaksas</span><span class="sxs-lookup"><span data-stu-id="0c203-396">Cost behavior or Variable cost</span></span>        | <span data-ttu-id="0c203-397">Organizācija</span><span class="sxs-lookup"><span data-stu-id="0c203-397">Organization</span></span>                         | <span data-ttu-id="0c203-398">0,00</span><span class="sxs-lookup"><span data-stu-id="0c203-398">0,00</span></span>             | <span data-ttu-id="0c203-399">0,00</span><span class="sxs-lookup"><span data-stu-id="0c203-399">0,00</span></span>         | <span data-ttu-id="0c203-400">01.01.2017.</span><span class="sxs-lookup"><span data-stu-id="0c203-400">1/1/2017</span></span>   | <span data-ttu-id="0c203-401">Nekad</span><span class="sxs-lookup"><span data-stu-id="0c203-401">Never</span></span>     |
 
-Šī kārtula netiek ņemta vērā nevienā pieskaitāmo izmaksu aprēķinā, kas tiek veikts pēc 2017. gada 20. janvāra.
+<span data-ttu-id="0c203-402">Šī kārtula netiek ņemta vērā nevienā pieskaitāmo izmaksu aprēķinā, kas tiek veikts pēc 2017. gada 20. janvāra.</span><span class="sxs-lookup"><span data-stu-id="0c203-402">Any overhead calculation that is run after January 20, 2017, no longer considers this rule.</span></span>
 
 > [!NOTE] 
-> Lauki **Derīgs no** un **Derīgs līdz** ir atkarīgi no datuma un laika. Varat anulēt kārtulu un tajā pašā dienā palaist jaunu pieskaitāmo izmaksu aprēķinu.
+> <span data-ttu-id="0c203-403">Lauki **Derīgs no** un **Derīgs līdz** ir atkarīgi no datuma un laika.</span><span class="sxs-lookup"><span data-stu-id="0c203-403">The **Valid from** and **Valid to** fields are date-effective and time-effective.</span></span> <span data-ttu-id="0c203-404">Varat anulēt kārtulu un tajā pašā dienā palaist jaunu pieskaitāmo izmaksu aprēķinu.</span><span class="sxs-lookup"><span data-stu-id="0c203-404">You can expire the rule and run a new overhead calculation on the same day.</span></span>
 
-## <a name="define-dimension-hierarchies-for-security-setup"></a>Dimensiju hierarhiju definēšana drošības iestatīšanai
+## <a name="define-dimension-hierarchies-for-security-setup"></a><span data-ttu-id="0c203-405">Dimensiju hierarhiju definēšana drošības iestatīšanai</span><span class="sxs-lookup"><span data-stu-id="0c203-405">Define dimension hierarchies for security setup</span></span>
 
-Izmaksu uzskaites dati ir jāpadara pieejami visiem vadītājiem, kuri ir atbildīgi par kādu pārskata vienību. Saskaņā ar izmaksu uzskaites terminoloģiju pārskata vienībai atbilst izmaksu objekts vai izmaksu objektu kopa.
+<span data-ttu-id="0c203-406">Izmaksu uzskaites dati ir jāpadara pieejami visiem vadītājiem, kuri ir atbildīgi par kādu pārskata vienību.</span><span class="sxs-lookup"><span data-stu-id="0c203-406">Cost accounting data should be made available to all managers who are responsible for a reporting unit.</span></span> <span data-ttu-id="0c203-407">Saskaņā ar izmaksu uzskaites terminoloģiju pārskata vienībai atbilst izmaksu objekts vai izmaksu objektu kopa.</span><span class="sxs-lookup"><span data-stu-id="0c203-407">In Cost accounting terminology, a reporting unit is represented as a cost object or a set of cost objects.</span></span>
 
-Pastāv iespēja, ka visi vadītāji varēs piekļūt ļoti sensitīviem uzņēmējdarbības datiem, piemēram, informācijai par ieņēmumiem un peļņu. Tāpēc ir svarīgi iestatīt drošības līdzekļus, lai vadītāji varētu skatīt tikai tos datus, kas attiecas uz viņiem. Lai palīdzētu kontrolēt datu drošību, varat definēt dimensiju hierarhijas.
+<span data-ttu-id="0c203-408">Pastāv iespēja, ka visi vadītāji varēs piekļūt ļoti sensitīviem uzņēmējdarbības datiem, piemēram, informācijai par ieņēmumiem un peļņu.</span><span class="sxs-lookup"><span data-stu-id="0c203-408">Potentially, all managers will be able to access highly sensitive business data, such revenues and margins.</span></span> <span data-ttu-id="0c203-409">Tāpēc ir svarīgi iestatīt drošības līdzekļus, lai vadītāji varētu skatīt tikai tos datus, kas attiecas uz viņiem.</span><span class="sxs-lookup"><span data-stu-id="0c203-409">Therefore, it's important that you set up security, so that managers see only the data that is relevant to them.</span></span> <span data-ttu-id="0c203-410">Lai palīdzētu kontrolēt datu drošību, varat definēt dimensiju hierarhijas.</span><span class="sxs-lookup"><span data-stu-id="0c203-410">To help control data security, you define dimension hierarchies.</span></span>
 
-- Dimensiju hierarhijas var izmantot tikai tad, ja atsaucē uz dimensiju hierarhiju atlasītā dimensijas vērtība ir izmaksu objekta dimensija.
-- Katrai izmaksu objekta dimensijai piekļuves saraksta hierarhijā var iespējot tikai vienu dimensiju hierarhiju.
+- <span data-ttu-id="0c203-411">Dimensiju hierarhijas var izmantot tikai tad, ja atsaucē uz dimensiju hierarhiju atlasītā dimensijas vērtība ir izmaksu objekta dimensija.</span><span class="sxs-lookup"><span data-stu-id="0c203-411">The use of dimension hierarchies applies only when the dimension value that is selected in the dimension hierarchy reference is a cost object dimension.</span></span>
+- <span data-ttu-id="0c203-412">Katrai izmaksu objekta dimensijai piekļuves saraksta hierarhijā var iespējot tikai vienu dimensiju hierarhiju.</span><span class="sxs-lookup"><span data-stu-id="0c203-412">Only one dimension hierarchy can be enabled per cost object dimension in the access list hierarchy.</span></span>
 
-**Detalizēta informācija par dimensiju hierarhiju**
+<span data-ttu-id="0c203-413">**Detalizēta informācija par dimensiju hierarhiju**</span><span class="sxs-lookup"><span data-stu-id="0c203-413">**Dimension hierarchy details**</span></span>
 
-| Dimensiju hierarhijas nosaukums | Dimensija    | Dimensiju hierarhijas veida nosaukums      | Piekļuves sarakstu hierarhija |
+| <span data-ttu-id="0c203-414">Dimensiju hierarhijas nosaukums</span><span class="sxs-lookup"><span data-stu-id="0c203-414">Dimension hierarchy name</span></span> | <span data-ttu-id="0c203-415">Dimensija</span><span class="sxs-lookup"><span data-stu-id="0c203-415">Dimension</span></span>    | <span data-ttu-id="0c203-416">Dimensiju hierarhijas veida nosaukums</span><span class="sxs-lookup"><span data-stu-id="0c203-416">Dimension hierarchy type name</span></span>      | <span data-ttu-id="0c203-417">Piekļuves sarakstu hierarhija</span><span class="sxs-lookup"><span data-stu-id="0c203-417">Access list hierarchy</span></span> |
 |--------------------------|--------------|------------------------------------|-----------------------|
-| Organizācija             | Izmaksu centri | Dimensiju klasifikācijas hierarhija | **Jā**               |
+| <span data-ttu-id="0c203-418">Organizācija</span><span class="sxs-lookup"><span data-stu-id="0c203-418">Organization</span></span>             | <span data-ttu-id="0c203-419">Izmaksu centri</span><span class="sxs-lookup"><span data-stu-id="0c203-419">Cost centers</span></span> | <span data-ttu-id="0c203-420">Dimensiju klasifikācijas hierarhija</span><span class="sxs-lookup"><span data-stu-id="0c203-420">Dimension classification hierarchy</span></span> | <span data-ttu-id="0c203-421">**Jā**</span><span class="sxs-lookup"><span data-stu-id="0c203-421">**Yes**</span></span>               |
 
-Hierarhiju veidotājā ir pieejama jauna kopsavilkuma cilne **Lietotāji**. Tajā varat ievietot vienu vai vairākus lietotāju ID katrā hierarhijas mezglā.
+<span data-ttu-id="0c203-422">Hierarhiju veidotājā ir pieejama jauna kopsavilkuma cilne **Lietotāji**.</span><span class="sxs-lookup"><span data-stu-id="0c203-422">A new **Users** FastTab is available in the hierarchy designer.</span></span> <span data-ttu-id="0c203-423">Tajā varat ievietot vienu vai vairākus lietotāju ID katrā hierarhijas mezglā.</span><span class="sxs-lookup"><span data-stu-id="0c203-423">Here, you can insert one or more user IDs at each node in the hierarchy.</span></span>
 
-|                 | Lietotāji            | Dimensijas elementu diapazons   |                         |
+|                 | <span data-ttu-id="0c203-424">Lietotāji</span><span class="sxs-lookup"><span data-stu-id="0c203-424">Users</span></span>            | <span data-ttu-id="0c203-425">Dimensijas elementu diapazons</span><span class="sxs-lookup"><span data-stu-id="0c203-425">Dimension member ranges</span></span>   |                         |
 |-----------------|------------------|---------------------------|-------------------------|
-| **Mezgli**       | **Lietotāja ID**      | **Avota dimensijas elements** | **Mērķa dimensijas elements** |
-| Organizācija    | Bendžamins, Klēra |                           |                         |
-| &nbsp;&nbsp;Administrators         | Aprīlī            |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;Finansēt   | Alīsija           | CC002                     | CC003                   |
-|                 |                  | CC007                     | CC007                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;HR        | Ārnijs            | CC001                     | CC001                   |
-| &nbsp;&nbsp;Ražošana    | Deivids            |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;Iepakošana | Elēna            | CC005                     | CC005                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;Montāža  | Kriss            | CC006                     | CC006                   |
+| <span data-ttu-id="0c203-426">**Mezgli**</span><span class="sxs-lookup"><span data-stu-id="0c203-426">**Nodes**</span></span>       | <span data-ttu-id="0c203-427">**Lietotāja ID**</span><span class="sxs-lookup"><span data-stu-id="0c203-427">**User ID**</span></span>      | <span data-ttu-id="0c203-428">**Avota dimensijas elements**</span><span class="sxs-lookup"><span data-stu-id="0c203-428">**From dimension member**</span></span> | <span data-ttu-id="0c203-429">**Mērķa dimensijas elements**</span><span class="sxs-lookup"><span data-stu-id="0c203-429">**To dimension member**</span></span> |
+| <span data-ttu-id="0c203-430">Organizācija</span><span class="sxs-lookup"><span data-stu-id="0c203-430">Organization</span></span>    | <span data-ttu-id="0c203-431">Bendžamins, Klēra</span><span class="sxs-lookup"><span data-stu-id="0c203-431">Benjamin, Claire</span></span> |                           |                         |
+| <span data-ttu-id="0c203-432">&nbsp;&nbsp;Administrators</span><span class="sxs-lookup"><span data-stu-id="0c203-432">&nbsp;&nbsp;Admin</span></span>         | <span data-ttu-id="0c203-433">Aprīlī</span><span class="sxs-lookup"><span data-stu-id="0c203-433">April</span></span>            |                           |                         |
+| <span data-ttu-id="0c203-434">&nbsp;&nbsp;&nbsp;&nbsp;Finansēt</span><span class="sxs-lookup"><span data-stu-id="0c203-434">&nbsp;&nbsp;&nbsp;&nbsp;Finance</span></span>   | <span data-ttu-id="0c203-435">Alīsija</span><span class="sxs-lookup"><span data-stu-id="0c203-435">Alicia</span></span>           | <span data-ttu-id="0c203-436">CC002</span><span class="sxs-lookup"><span data-stu-id="0c203-436">CC002</span></span>                     | <span data-ttu-id="0c203-437">CC003</span><span class="sxs-lookup"><span data-stu-id="0c203-437">CC003</span></span>                   |
+|                 |                  | <span data-ttu-id="0c203-438">CC007</span><span class="sxs-lookup"><span data-stu-id="0c203-438">CC007</span></span>                     | <span data-ttu-id="0c203-439">CC007</span><span class="sxs-lookup"><span data-stu-id="0c203-439">CC007</span></span>                   |
+| <span data-ttu-id="0c203-440">&nbsp;&nbsp;&nbsp;&nbsp;HR</span><span class="sxs-lookup"><span data-stu-id="0c203-440">&nbsp;&nbsp;&nbsp;&nbsp;HR</span></span>        | <span data-ttu-id="0c203-441">Ārnijs</span><span class="sxs-lookup"><span data-stu-id="0c203-441">Arnie</span></span>            | <span data-ttu-id="0c203-442">CC001</span><span class="sxs-lookup"><span data-stu-id="0c203-442">CC001</span></span>                     | <span data-ttu-id="0c203-443">CC001</span><span class="sxs-lookup"><span data-stu-id="0c203-443">CC001</span></span>                   |
+| <span data-ttu-id="0c203-444">&nbsp;&nbsp;Ražošana</span><span class="sxs-lookup"><span data-stu-id="0c203-444">&nbsp;&nbsp;Production</span></span>    | <span data-ttu-id="0c203-445">Deivids</span><span class="sxs-lookup"><span data-stu-id="0c203-445">David</span></span>            |                           |                         |
+| <span data-ttu-id="0c203-446">&nbsp;&nbsp;&nbsp;&nbsp;Iepakošana</span><span class="sxs-lookup"><span data-stu-id="0c203-446">&nbsp;&nbsp;&nbsp;&nbsp;Packaging</span></span> | <span data-ttu-id="0c203-447">Elēna</span><span class="sxs-lookup"><span data-stu-id="0c203-447">Ellen</span></span>            | <span data-ttu-id="0c203-448">CC005</span><span class="sxs-lookup"><span data-stu-id="0c203-448">CC005</span></span>                     | <span data-ttu-id="0c203-449">CC005</span><span class="sxs-lookup"><span data-stu-id="0c203-449">CC005</span></span>                   |
+| <span data-ttu-id="0c203-450">&nbsp;&nbsp;&nbsp;&nbsp;Montāža</span><span class="sxs-lookup"><span data-stu-id="0c203-450">&nbsp;&nbsp;&nbsp;&nbsp;Assembly</span></span>  | <span data-ttu-id="0c203-451">Kriss</span><span class="sxs-lookup"><span data-stu-id="0c203-451">Chris</span></span>            | <span data-ttu-id="0c203-452">CC006</span><span class="sxs-lookup"><span data-stu-id="0c203-452">CC006</span></span>                     | <span data-ttu-id="0c203-453">CC006</span><span class="sxs-lookup"><span data-stu-id="0c203-453">CC006</span></span>                   |
 
 > [!NOTE] 
-> Izmaksu grāmatveži ir jāpiešķir augstākajam hierarhijas līmenim, lai viņi varētu skatīt visus ierakstus darbvietā Izmaksu uzskaite.
+> <span data-ttu-id="0c203-454">Izmaksu grāmatveži ir jāpiešķir augstākajam hierarhijas līmenim, lai viņi varētu skatīt visus ierakstus darbvietā Izmaksu uzskaite.</span><span class="sxs-lookup"><span data-stu-id="0c203-454">Cost accountants should be assigned to the top level of the hierarchy, so that they can see all entries in Cost accounting.</span></span>
 
-Lai iespējotu piekļuves saraksta hierarhiju un tās drošības iestatījumus, pārejiet uz sadaļu **Izmaksu uzskaite** > **Iestatīšana** > **Parametri** > **Vispārīgi**. Atlasiet parametru **Iespējot skatīšanas piekļuvi izmaksu objekta dimensijas elementiem**.
+<span data-ttu-id="0c203-455">Lai iespējotu piekļuves saraksta hierarhiju un tās drošības iestatījumus, pārejiet uz sadaļu **Izmaksu uzskaite** > **Iestatīšana** > **Parametri** > **Vispārīgi**.</span><span class="sxs-lookup"><span data-stu-id="0c203-455">To enable the access list hierarchy and its security settings, go to **Cost accounting** > **Setup** > **Parameters** > **General**.</span></span> <span data-ttu-id="0c203-456">Atlasiet parametru **Iespējot skatīšanas piekļuvi izmaksu objekta dimensijas elementiem**.</span><span class="sxs-lookup"><span data-stu-id="0c203-456">Select the **Enable view access for cost object dimension members** parameter.</span></span>
 
-Piekļuves saraksta hierarhijas iestatījumi tiek izmantoti, lai kontrolētu to, kādi dati tiek rādīti tālāk norādītajos apgabalos.
+<span data-ttu-id="0c203-457">Piekļuves saraksta hierarhijas iestatījumi tiek izmantoti, lai kontrolētu to, kādi dati tiek rādīti tālāk norādītajos apgabalos.</span><span class="sxs-lookup"><span data-stu-id="0c203-457">The settings for the access list hierarchy are used to control the data that is shown in the following areas:</span></span>
 
-- Darbvieta **Izmaksu kontrole** (klients):
+- <span data-ttu-id="0c203-458">Darbvieta **Izmaksu kontrole** (klients):</span><span class="sxs-lookup"><span data-stu-id="0c203-458">**Cost control** workspace (Client):</span></span>
 
-    - Dati formātos, kas tiek izmantoti detalizētas informācijas skatīšanai par noteiktiem gadījumiem
+    - <span data-ttu-id="0c203-459">Dati formātos, kas tiek izmantoti detalizētas informācijas skatīšanai par noteiktiem gadījumiem</span><span class="sxs-lookup"><span data-stu-id="0c203-459">Data in forms that are used to drill through scenarios</span></span>
 
-- Darbvieta **Izmaksu kontrole** (mobilā lietojumprogramma):
+- <span data-ttu-id="0c203-460">Darbvieta **Izmaksu kontrole** (mobilā lietojumprogramma):</span><span class="sxs-lookup"><span data-stu-id="0c203-460">**Cost control** workspace (Mobile application):</span></span>
 
-    - Kartēs norādītās bilances
+    - <span data-ttu-id="0c203-461">Kartēs norādītās bilances</span><span class="sxs-lookup"><span data-stu-id="0c203-461">Balances in cards</span></span>
 
-- Power BI:
+- <span data-ttu-id="0c203-462">Power BI:</span><span class="sxs-lookup"><span data-stu-id="0c203-462">Power BI:</span></span>
 
-    - Power Bi vizualizācijās attēlotie dati
-    - Programmatūras Microsoft Dynamics 365 for Finance and Operation izdevuma Enterprise klientā iegultās datu Power BI vizualizācijas
+    - <span data-ttu-id="0c203-463">Power Bi vizualizācijās attēlotie dati</span><span class="sxs-lookup"><span data-stu-id="0c203-463">Data that is shown in Power BI visualizations</span></span>
+    - <span data-ttu-id="0c203-464">Programmatūras Microsoft Dynamics 365 for Finance and Operation izdevuma Enterprise klientā iegultās datu Power BI vizualizācijas</span><span class="sxs-lookup"><span data-stu-id="0c203-464">Data Power BI visualizations that are embedded in the Microsoft Dynamics 365 for Finance and Operations, Enterprise edition client</span></span>
 
 > [!NOTE] 
-> - Lai piekļuves saraksta hierarhija varētu ietekmēt datus pakalpojumā Power BI, piekļuves saraksta hierarhija ir jāsavieno pārī ar rindas līmeņa drošību pakalpojumā Power BI. Papildinformāciju skatiet rakstā [Drošības iestatīšana satura pakotnei Izmaksu uzskaite](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).
-> - Piekļuves saraksta hierarhija nepalīdz aizsargāt datu eksportēšanu uz programmu Excel. Tāpēc pārskatu rīku drīkst izmantot tikai izmaksu grāmatveži un vadītāji, kuriem ir nepieciešama pilna piekļuve datu skatīšanai.
+> - <span data-ttu-id="0c203-465">Lai piekļuves saraksta hierarhija varētu ietekmēt datus pakalpojumā Power BI, piekļuves saraksta hierarhija ir jāsavieno pārī ar rindas līmeņa drošību pakalpojumā Power BI.</span><span class="sxs-lookup"><span data-stu-id="0c203-465">Before the access list hierarchy can affect data in Power BI, access list hierarchy and row-level security in Power BI must be paired.</span></span> <span data-ttu-id="0c203-466">Papildinformāciju skatiet rakstā [Drošības iestatīšana satura pakotnei Izmaksu uzskaite](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).</span><span class="sxs-lookup"><span data-stu-id="0c203-466">For more information, see [Set up security for Cost accounting content pack](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).</span></span>
+> - <span data-ttu-id="0c203-467">Piekļuves saraksta hierarhija nepalīdz aizsargāt datu eksportēšanu uz programmu Excel.</span><span class="sxs-lookup"><span data-stu-id="0c203-467">The access list hierarchy doesn't help secure the export of data to Excel.</span></span> <span data-ttu-id="0c203-468">Tāpēc pārskatu rīku drīkst izmantot tikai izmaksu grāmatveži un vadītāji, kuriem ir nepieciešama pilna piekļuve datu skatīšanai.</span><span class="sxs-lookup"><span data-stu-id="0c203-468">Therefore, that reporting tool should be used only by cost accountants and managers who must have full access to view the data.</span></span>
 

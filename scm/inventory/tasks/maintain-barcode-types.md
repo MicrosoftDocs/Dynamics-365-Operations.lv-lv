@@ -1,4 +1,4 @@
---- 
+---
 title: "Svītrkodu tipu uzturēšana"
 description: "Šajā procedūrā parādīts, kā iestatīt jaunu svītrkoda definīciju, ko pēc tam var izmantot kā daļu no izdošanas saraksta pārskata."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,32 +17,31 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 57ad3f2cb4f4a246af4d58001c6ef56c440b5431
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: 45323206550d1b0ed66d89f4be7b995c60af63fc
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
-# <a name="maintain-bar-code-types"></a>Svītrkodu tipu uzturēšana
+# <a name="maintain-bar-code-types"></a><span data-ttu-id="e69b2-103">Svītrkodu tipu uzturēšana</span><span class="sxs-lookup"><span data-stu-id="e69b2-103">Maintain bar code types</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā procedūrā parādīts, kā iestatīt jaunu svītrkoda definīciju, ko pēc tam var izmantot kā daļu no izdošanas saraksta pārskata. Šo procedūru var izmēģināt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus. Ja izmantojat USMF varat izmantot piemēra vērtības, kas parādītas. Šos uzdevumus parasti veic noliktavas pārvaldnieks.
+<span data-ttu-id="e69b2-104">Šajā procedūrā parādīts, kā iestatīt jaunu svītrkoda definīciju, ko pēc tam var izmantot kā daļu no izdošanas saraksta pārskata.</span><span class="sxs-lookup"><span data-stu-id="e69b2-104">This procedure shows you how to set up a new barcode definition which can then be used as part of the picking list report.</span></span> <span data-ttu-id="e69b2-105">Šo procedūru var izmēģināt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.</span><span class="sxs-lookup"><span data-stu-id="e69b2-105">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="e69b2-106">Ja izmantojat USMF varat izmantot piemēra vērtības, kas parādītas.</span><span class="sxs-lookup"><span data-stu-id="e69b2-106">If you are using USMF you can use the example values that are shown.</span></span> <span data-ttu-id="e69b2-107">Šos uzdevumus parasti veic noliktavas pārvaldnieks.</span><span class="sxs-lookup"><span data-stu-id="e69b2-107">These tasks would typically be carried out by a warehouse manager.</span></span>
 
-1. Dodieties uz sadaļu Svītrkodi.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Svītrkodu iestatījumi ierakstiet kādu vērtību.
-4. Apraksta laukā ierakstiet vērtību.
-5. Atlasiet opciju laukā Svītrkoda tips.
-    * Ja izmantojat USMF, varat atlasīt "Kods 39".  
-6. Ievadiet skaitli laukā Lielums.
-7. Ievadiet skaitli laukā Maksimālais garums.
-8. Klikšķiniet Saglabāt.
-9. Aizvērt lapu.
-10. Dodieties uz sadaļu Krājumu un noliktavas vadības parametri.
-11. Ievadiet vai atlasiet vērtību laukā Svītrkodu iestatījumi.
-    * Atlasiet svītrkoda iestatījumu, ko izveidojāt iepriekš, taču ņemiet vērā, ka svītrkoda formātam jāatbilst unikālā identifikatora formātam procesā izmantojamajam ieraksta tipam. Piemēram, izdošanas maršrutiem svītrkoda formātam ir jāatbilst izdošanas maršruta atsauces formātam, kas parasti ir numuru sērija.  
-12. Noklikšķiniet uz Saglabāt.
-13. Aizvērt lapu.
-
+1. <span data-ttu-id="e69b2-108">Dodieties uz sadaļu Svītrkodi.</span><span class="sxs-lookup"><span data-stu-id="e69b2-108">Go to Bar codes.</span></span>
+2. <span data-ttu-id="e69b2-109">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="e69b2-109">Click New.</span></span>
+3. <span data-ttu-id="e69b2-110">Laukā Svītrkodu iestatījumi ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="e69b2-110">In the Barcode setup field, type a value.</span></span>
+4. <span data-ttu-id="e69b2-111">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="e69b2-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="e69b2-112">Atlasiet opciju laukā Svītrkoda tips.</span><span class="sxs-lookup"><span data-stu-id="e69b2-112">In the Bar code type field, select an option.</span></span>
+    * <span data-ttu-id="e69b2-113">Ja izmantojat USMF, varat atlasīt "Kods 39".</span><span class="sxs-lookup"><span data-stu-id="e69b2-113">If you're using USMF, you can select 'Code 39'.</span></span>  
+6. <span data-ttu-id="e69b2-114">Ievadiet skaitli laukā Lielums.</span><span class="sxs-lookup"><span data-stu-id="e69b2-114">In the Size field, enter a number.</span></span>
+7. <span data-ttu-id="e69b2-115">Ievadiet skaitli laukā Maksimālais garums.</span><span class="sxs-lookup"><span data-stu-id="e69b2-115">In the Maximum length field, enter a number.</span></span>
+8. <span data-ttu-id="e69b2-116">Klikšķiniet Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="e69b2-116">Click Save.</span></span>
+9. <span data-ttu-id="e69b2-117">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="e69b2-117">Close the page.</span></span>
+10. <span data-ttu-id="e69b2-118">Dodieties uz sadaļu Krājumu un noliktavas vadības parametri.</span><span class="sxs-lookup"><span data-stu-id="e69b2-118">Go to Inventory and warehouse management parameters.</span></span>
+11. <span data-ttu-id="e69b2-119">Ievadiet vai atlasiet vērtību laukā Svītrkodu iestatījumi.</span><span class="sxs-lookup"><span data-stu-id="e69b2-119">In the Barcode setup field, enter or select a value.</span></span>
+    * <span data-ttu-id="e69b2-120">Atlasiet svītrkoda iestatījumu, ko izveidojāt iepriekš, taču ņemiet vērā, ka svītrkoda formātam jāatbilst unikālā identifikatora formātam procesā izmantojamajam ieraksta tipam.</span><span class="sxs-lookup"><span data-stu-id="e69b2-120">Select the barcode setup that you created before, but be aware that the bar code format must match the format of the unique identifier for the record type used in the process.</span></span> <span data-ttu-id="e69b2-121">Piemēram, izdošanas maršrutiem svītrkoda formātam ir jāatbilst izdošanas maršruta atsauces formātam, kas parasti ir numuru sērija.</span><span class="sxs-lookup"><span data-stu-id="e69b2-121">For example, for picking routes, the bar code format should match the format of the picking route reference, which is typically a number sequence.</span></span>  
+12. <span data-ttu-id="e69b2-122">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="e69b2-122">Click Save.</span></span>
+13. <span data-ttu-id="e69b2-123">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="e69b2-123">Close the page.</span></span>
 

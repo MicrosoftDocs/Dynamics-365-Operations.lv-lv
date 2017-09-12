@@ -16,51 +16,51 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 1c7c499b3df92fee5010c731e331e711ea0d1883
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: c42476ca3ffee41e303457150ef15da0f5af8a8f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="complete-basic-setup-of-a-released-product-master"></a>Pilnīga izlaistās preces šablona pamata iestatīšana
+# <a name="complete-basic-setup-of-a-released-product-master"></a><span data-ttu-id="0e54b-103">Pilnīga izlaistās preces šablona pamata iestatīšana</span><span class="sxs-lookup"><span data-stu-id="0e54b-103">Complete basic setup of a released product master</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā procedūrā tiek parādīts, kā veikt minimālo uzstādīšanu, kas ir nepieciešama pirms preces šablonu varēs izmantot MK versijās.
+<span data-ttu-id="0e54b-104">Šajā procedūrā tiek parādīts, kā veikt minimālo uzstādīšanu, kas ir nepieciešama pirms preces šablonu varēs izmantot MK versijās.</span><span class="sxs-lookup"><span data-stu-id="0e54b-104">This procedure shows how to complete the minimum setup that is required before the product master can be used in BOM versions.</span></span>
 
-Šī ir trešā procedūra no astoņām, kurā ir skaidrots, kā veidot kombinācijas konfigurācijai atbilstoši dimensijām. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
+<span data-ttu-id="0e54b-105">Šī ir trešā procedūra no astoņām, kurā ir skaidrots, kā veidot kombinācijas konfigurācijai atbilstoši dimensijām.</span><span class="sxs-lookup"><span data-stu-id="0e54b-105">This is the third procedure out of eight which explains how to build combinations for dimension-based configuration.</span></span> <span data-ttu-id="0e54b-106">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="0e54b-106">The demo data company used to create this procedure is USMF.</span></span>
 
-1. Pārejiet uz sadaļu Preču informācijas pārvaldība > Preces > Izlaistās preces.
-2. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-    * Atlasiet preces šablonu, kas tika izlaists otrajā procedūrā. Šīs preces šablons tiek izveidots ar konfigurācijas atbilstoši dimensijām tehnoloģiju.  
-3. Darbību rūtī noklikšķiniet uz Prece.
-4. Noklikšķiniet uz Dimensiju grupas, lai atvērtu nolaižamo dialoglodziņu.
-5. Laukā Noliktavas dimensiju grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-6. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-    * Noliktavas dimensiju grupa nosaka, kādas noliktavas dimensijas tiek lietotas preces transakcijai. Šai procedūrai atlasiet Vieta.  
-7. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-8. Laukā Izsekošanas dimensiju grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-9. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-    * Izsekošanas dimensiju grupa nosaka, kādas izsekošanas dimensijas tiek lietotas preces transakcijai. Šai procedūrai atlasiet Nav.  
-10. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-11. Noklikšķiniet uz OK.
-12. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-13. Noklikšķiniet uz Rediģēt.
-    * Atveriet formu Detalizēta informācija par izlaistajām precēm, lai turpinātu iestatīšanas uzdevumu.  
-14. Laukā Krājumu modeļu grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-15. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-    * Krājumu modeļu grupās ir ietverti iestatījumi, kas nosaka krājumu kontroles un vadības veidu to saņemšanas un izsniegšanas laikā. Šie iestatījumi nosaka arī preču patēriņa aprēķināšanas veidu. Šai procedūrai atlasiet FIFO.  
-16. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-17. Izvērsiet vai sakļaujiet sadaļu Pārvaldīt izmaksas.
-18. Laukā Krājumu grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-19. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-    * Krājumu grupas lieto, lai pārvaldītu krājumus, sadalot krājumus grupās. Šai procedūrai atlasiet CarAudio.  
-20. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-21. Darbību rūtī noklikšķiniet uz Plānot.
-22. Noklikšķiniet uz Pasūtījuma noklusējuma iestatījumi.
-23. Laukā Noklusējuma pasūtījuma tips atlasiet kādu opciju.
-    * Atlasiet Ražošana, lai norādītu, ka noklusējuma piegādes opcija šim preces šablonam ir tā ražošana.  
-24. Aizvērt lapu.
-25. Aizveriet formu Detalizēta informācija par izlaistajām precēm.
+1. <span data-ttu-id="0e54b-107">Pārejiet uz sadaļu Preču informācijas pārvaldība > Preces > Izlaistās preces.</span><span class="sxs-lookup"><span data-stu-id="0e54b-107">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="0e54b-108">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="0e54b-108">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="0e54b-109">Atlasiet preces šablonu, kas tika izlaists otrajā procedūrā.</span><span class="sxs-lookup"><span data-stu-id="0e54b-109">Select the product master that you have released in the second procedure.</span></span> <span data-ttu-id="0e54b-110">Šīs preces šablons tiek izveidots ar konfigurācijas atbilstoši dimensijām tehnoloģiju.</span><span class="sxs-lookup"><span data-stu-id="0e54b-110">This product master is created with the dimension-based configuration technology.</span></span>  
+3. <span data-ttu-id="0e54b-111">Darbību rūtī noklikšķiniet uz Prece.</span><span class="sxs-lookup"><span data-stu-id="0e54b-111">On the Action Pane, click Product.</span></span>
+4. <span data-ttu-id="0e54b-112">Noklikšķiniet uz Dimensiju grupas, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="0e54b-112">Click Dimension groups to open the drop dialog.</span></span>
+5. <span data-ttu-id="0e54b-113">Laukā Noliktavas dimensiju grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="0e54b-113">In the Storage dimension group field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="0e54b-114">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="0e54b-114">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="0e54b-115">Noliktavas dimensiju grupa nosaka, kādas noliktavas dimensijas tiek lietotas preces transakcijai.</span><span class="sxs-lookup"><span data-stu-id="0e54b-115">The storage dimension group determines which storage dimensions are used for product transaction.</span></span> <span data-ttu-id="0e54b-116">Šai procedūrai atlasiet Vieta.</span><span class="sxs-lookup"><span data-stu-id="0e54b-116">Select Site for this procedure.</span></span>  
+7. <span data-ttu-id="0e54b-117">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="0e54b-117">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="0e54b-118">Laukā Izsekošanas dimensiju grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="0e54b-118">In the Tracking dimension group field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="0e54b-119">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="0e54b-119">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="0e54b-120">Izsekošanas dimensiju grupa nosaka, kādas izsekošanas dimensijas tiek lietotas preces transakcijai.</span><span class="sxs-lookup"><span data-stu-id="0e54b-120">The tracking dimension group determines which tracking dimensions are used for product transaction.</span></span> <span data-ttu-id="0e54b-121">Šai procedūrai atlasiet Nav.</span><span class="sxs-lookup"><span data-stu-id="0e54b-121">Select None for this procedure.</span></span>  
+10. <span data-ttu-id="0e54b-122">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="0e54b-122">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="0e54b-123">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="0e54b-123">Click OK.</span></span>
+12. <span data-ttu-id="0e54b-124">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="0e54b-124">In the list, click the link in the selected row.</span></span>
+13. <span data-ttu-id="0e54b-125">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="0e54b-125">Click Edit.</span></span>
+    * <span data-ttu-id="0e54b-126">Atveriet formu Detalizēta informācija par izlaistajām precēm, lai turpinātu iestatīšanas uzdevumu.</span><span class="sxs-lookup"><span data-stu-id="0e54b-126">Open the Released product details form to continue the setup task.</span></span>  
+14. <span data-ttu-id="0e54b-127">Laukā Krājumu modeļu grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="0e54b-127">In the Item model group field, click the drop-down button to open the lookup.</span></span>
+15. <span data-ttu-id="0e54b-128">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="0e54b-128">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="0e54b-129">Krājumu modeļu grupās ir ietverti iestatījumi, kas nosaka krājumu kontroles un vadības veidu to saņemšanas un izsniegšanas laikā.</span><span class="sxs-lookup"><span data-stu-id="0e54b-129">Item model groups contain settings that determine how items are controlled and handled on item receipts and issues.</span></span> <span data-ttu-id="0e54b-130">Šie iestatījumi nosaka arī preču patēriņa aprēķināšanas veidu.</span><span class="sxs-lookup"><span data-stu-id="0e54b-130">They also determine how item consumption is calculated.</span></span> <span data-ttu-id="0e54b-131">Šai procedūrai atlasiet FIFO.</span><span class="sxs-lookup"><span data-stu-id="0e54b-131">Select   FIFO for this procedure.</span></span>  
+16. <span data-ttu-id="0e54b-132">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="0e54b-132">In the list, click the link in the selected row.</span></span>
+17. <span data-ttu-id="0e54b-133">Izvērsiet vai sakļaujiet sadaļu Pārvaldīt izmaksas.</span><span class="sxs-lookup"><span data-stu-id="0e54b-133">Expand or collapse the Manage costs section.</span></span>
+18. <span data-ttu-id="0e54b-134">Laukā Krājumu grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="0e54b-134">In the Item group field, click the drop-down button to open the lookup.</span></span>
+19. <span data-ttu-id="0e54b-135">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="0e54b-135">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="0e54b-136">Krājumu grupas lieto, lai pārvaldītu krājumus, sadalot krājumus grupās.</span><span class="sxs-lookup"><span data-stu-id="0e54b-136">Item groups are used to manage inventory by dividing inventory items into groups.</span></span> <span data-ttu-id="0e54b-137">Šai procedūrai atlasiet CarAudio.</span><span class="sxs-lookup"><span data-stu-id="0e54b-137">Select   CarAudio for this procedure.</span></span>  
+20. <span data-ttu-id="0e54b-138">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="0e54b-138">In the list, click the link in the selected row.</span></span>
+21. <span data-ttu-id="0e54b-139">Darbību rūtī noklikšķiniet uz Plānot.</span><span class="sxs-lookup"><span data-stu-id="0e54b-139">On the Action Pane, click Plan.</span></span>
+22. <span data-ttu-id="0e54b-140">Noklikšķiniet uz Pasūtījuma noklusējuma iestatījumi.</span><span class="sxs-lookup"><span data-stu-id="0e54b-140">Click Default order settings.</span></span>
+23. <span data-ttu-id="0e54b-141">Laukā Noklusējuma pasūtījuma tips atlasiet kādu opciju.</span><span class="sxs-lookup"><span data-stu-id="0e54b-141">In the Default order type field, select an option.</span></span>
+    * <span data-ttu-id="0e54b-142">Atlasiet Ražošana, lai norādītu, ka noklusējuma piegādes opcija šim preces šablonam ir tā ražošana.</span><span class="sxs-lookup"><span data-stu-id="0e54b-142">Select Production to specify that the default supply option for this product master is to produce it.</span></span>  
+24. <span data-ttu-id="0e54b-143">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="0e54b-143">Close the page.</span></span>
+25. <span data-ttu-id="0e54b-144">Aizveriet formu Detalizēta informācija par izlaistajām precēm.</span><span class="sxs-lookup"><span data-stu-id="0e54b-144">Close the Released product details form.</span></span>
 
 

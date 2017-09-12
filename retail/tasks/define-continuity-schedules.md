@@ -17,50 +17,50 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: f51cb4fc093db60f03bbe6d2133f61ef90046155
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 4f99b3b71e46aae1e510cc24efe2f99f1a258fa1
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-continuity-schedules"></a> Nepārtrauktības grafiku definēšana
+# <a name="define-continuity-schedules"></a><span data-ttu-id="7fc56-103"> Nepārtrauktības grafiku definēšana</span><span class="sxs-lookup"><span data-stu-id="7fc56-103">Define continuity schedules</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Šajā tēmā aprakstīts, kā iestatīt nepārtrauktības programmu (zināma arī kā atkārtošanās pasūtījumi). Šajā tēmā tiek izmantoti uzņēmuma USRT demonstrācijas dati.
+<span data-ttu-id="7fc56-104">Šajā tēmā aprakstīts, kā iestatīt nepārtrauktības programmu (zināma arī kā atkārtošanās pasūtījumi).</span><span class="sxs-lookup"><span data-stu-id="7fc56-104">This topic walks through setting up a continuity program (otherwise known as reoccurring orders).</span></span> <span data-ttu-id="7fc56-105">Šajā tēmā tiek izmantoti uzņēmuma USRT demonstrācijas dati.</span><span class="sxs-lookup"><span data-stu-id="7fc56-105">This topic uses company USRT in the demo data.</span></span>
 
 
-## <a name="create-continuity-program"></a>Nepārtrauktības programmas izveide
-1. Dodieties uz Mazumtirdzniecība un komercija > Nepārtrauktība > Nepārtrauktība programmas.
-2. Noklikšķiniet uz Jauns.
-3. Grafika ID laukā ierakstiet Nepārtrauktības grafika ID.
-4. Laukā Pasūtījuma sākums atlasiet "Pirmais notikums".
-    * Ja debitors nepārtrauktības programmā veic jaunu pasūtījumu, ir divas preces nosūtīšanas opcijas: 1. Pirmais notikums: tiek nosūtīta pirmā prece nepārtrauktības programmā.  2. Pašreizējais notikums: tiek nosūtīta pašreizējā prece. Piemēram, trīs mēnešus esot programmā, klients saņems trešo programmu.  
-5. Atlasiet 'Jā', lai uzvedinātu pasūtījuma sākuma datumu.
-6. Noklikšķiniet uz Pievienot rindu.
-7. Laukā Krājuma numurs ievadiet krājuma numuru pirmajai precei ('0013').
-8. Ierakstiet 'CP'.
-9. Ievadiet datumu, kad pirmā prece būs pieejama pasūtījumam.
-10. Noklikšķiniet uz Pievienot rindu.
-11. Laukā Krājuma kods ierakstiet 0014.
-12. Laukā Datumu intervāla kods, notīriet vērtību, lai lauks ir tukšs.
-    * Lai veiktu šo procedūru, notīriet datumu intervālu. Jūs varat iestatīt datumu kā inkrementālu no pirmā vienuma sākuma datuma.  
-13. Šeit var ievadīt intervālu, kādā preces tiek izsūtītas. Ierakstiet '30'.
-    * Mēneša programmai, jums būs jāievada 30 dienu intervālu.  
-14. Noklikšķiniet uz Pievienot rindu.
-15. Laukā Krājuma kods ierakstiet 0015.
-16. Ierakstiet 'Beigas'.
-17. Noklikšķiniet uz Saglabāt.
+## <a name="create-continuity-program"></a><span data-ttu-id="7fc56-106">Nepārtrauktības programmas izveide</span><span class="sxs-lookup"><span data-stu-id="7fc56-106">Create continuity program</span></span>
+1. <span data-ttu-id="7fc56-107">Dodieties uz Mazumtirdzniecība un komercija > Nepārtrauktība > Nepārtrauktība programmas.</span><span class="sxs-lookup"><span data-stu-id="7fc56-107">Go to Retail and commerce > Continuity > Continuity programs.</span></span>
+2. <span data-ttu-id="7fc56-108">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="7fc56-108">Click New.</span></span>
+3. <span data-ttu-id="7fc56-109">Grafika ID laukā ierakstiet Nepārtrauktības grafika ID.</span><span class="sxs-lookup"><span data-stu-id="7fc56-109">In the Schedule ID field, type the continuity schedule ID.</span></span>
+4. <span data-ttu-id="7fc56-110">Laukā Pasūtījuma sākums atlasiet "Pirmais notikums".</span><span class="sxs-lookup"><span data-stu-id="7fc56-110">In the Order start field, select 'First event'.</span></span>
+    * <span data-ttu-id="7fc56-111">Ja debitors nepārtrauktības programmā veic jaunu pasūtījumu, ir divas preces nosūtīšanas opcijas: 1.</span><span class="sxs-lookup"><span data-stu-id="7fc56-111">If a customer places a new order for the continuity program, there are two options for which product will be shipped:  1.</span></span> <span data-ttu-id="7fc56-112">Pirmais notikums: tiek nosūtīta pirmā prece nepārtrauktības programmā.</span><span class="sxs-lookup"><span data-stu-id="7fc56-112">First event: the first product in the continuity program will be shipped.</span></span>  <span data-ttu-id="7fc56-113">2.</span><span class="sxs-lookup"><span data-stu-id="7fc56-113">2.</span></span> <span data-ttu-id="7fc56-114">Pašreizējais notikums: tiek nosūtīta pašreizējā prece.</span><span class="sxs-lookup"><span data-stu-id="7fc56-114">Current event: the current product will be shipped.</span></span> <span data-ttu-id="7fc56-115">Piemēram,</span><span class="sxs-lookup"><span data-stu-id="7fc56-115">For example.</span></span> <span data-ttu-id="7fc56-116">trīs mēnešus esot programmā, klients saņems trešo programmu.</span><span class="sxs-lookup"><span data-stu-id="7fc56-116">three months into the program, the customer will receive the third in the program.</span></span>  
+5. <span data-ttu-id="7fc56-117">Atlasiet 'Jā', lai uzvedinātu pasūtījuma sākuma datumu.</span><span class="sxs-lookup"><span data-stu-id="7fc56-117">Select 'Yes' to prompt for the order start date.</span></span>
+6. <span data-ttu-id="7fc56-118">Noklikšķiniet uz Pievienot rindu.</span><span class="sxs-lookup"><span data-stu-id="7fc56-118">Click Add line.</span></span>
+7. <span data-ttu-id="7fc56-119">Laukā Krājuma numurs ievadiet krājuma numuru pirmajai precei ('0013').</span><span class="sxs-lookup"><span data-stu-id="7fc56-119">In the Item number field, type the item number for the first product ('0013').</span></span>
+8. <span data-ttu-id="7fc56-120">Ierakstiet 'CP'.</span><span class="sxs-lookup"><span data-stu-id="7fc56-120">Type 'CP'.</span></span>
+9. <span data-ttu-id="7fc56-121">Ievadiet datumu, kad pirmā prece būs pieejama pasūtījumam.</span><span class="sxs-lookup"><span data-stu-id="7fc56-121">Enter the date when the first product will be available for order.</span></span>
+10. <span data-ttu-id="7fc56-122">Noklikšķiniet uz Pievienot rindu.</span><span class="sxs-lookup"><span data-stu-id="7fc56-122">Click Add line.</span></span>
+11. <span data-ttu-id="7fc56-123">Laukā Krājuma kods ierakstiet 0014.</span><span class="sxs-lookup"><span data-stu-id="7fc56-123">In the Item number field, type '0014'.</span></span>
+12. <span data-ttu-id="7fc56-124">Laukā Datumu intervāla kods, notīriet vērtību, lai lauks ir tukšs.</span><span class="sxs-lookup"><span data-stu-id="7fc56-124">In the Date interval code field, clear the value so the field is empty.</span></span>
+    * <span data-ttu-id="7fc56-125">Lai veiktu šo procedūru, notīriet datumu intervālu.</span><span class="sxs-lookup"><span data-stu-id="7fc56-125">For this procedure, clear the date interval.</span></span> <span data-ttu-id="7fc56-126">Jūs varat iestatīt datumu kā inkrementālu no pirmā vienuma sākuma datuma.</span><span class="sxs-lookup"><span data-stu-id="7fc56-126">You'll set the date as incremental from the start date of the first item.</span></span>  
+13. <span data-ttu-id="7fc56-127">Šeit var ievadīt intervālu, kādā preces tiek izsūtītas.</span><span class="sxs-lookup"><span data-stu-id="7fc56-127">Here you'll enter the interval at which the products are shipped.</span></span> <span data-ttu-id="7fc56-128">Ierakstiet '30'.</span><span class="sxs-lookup"><span data-stu-id="7fc56-128">Type '30'.</span></span>
+    * <span data-ttu-id="7fc56-129">Mēneša programmai, jums būs jāievada 30 dienu intervālu.</span><span class="sxs-lookup"><span data-stu-id="7fc56-129">For a monthly program, you'll enter 30 days for the interval.</span></span>  
+14. <span data-ttu-id="7fc56-130">Noklikšķiniet uz Pievienot rindu.</span><span class="sxs-lookup"><span data-stu-id="7fc56-130">Click Add line.</span></span>
+15. <span data-ttu-id="7fc56-131">Laukā Krājuma kods ierakstiet 0015.</span><span class="sxs-lookup"><span data-stu-id="7fc56-131">In the Item number field, type '0015'.</span></span>
+16. <span data-ttu-id="7fc56-132">Ierakstiet 'Beigas'.</span><span class="sxs-lookup"><span data-stu-id="7fc56-132">Type 'End'.</span></span>
+17. <span data-ttu-id="7fc56-133">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="7fc56-133">Click Save.</span></span>
 
-## <a name="assign-to-continuity-item"></a>Piešķirt nepārtrauktības krājumam
-1. Pārejiet uz sadaļu Preču informācijas pārvaldība > Preces > Izlaistās preces.
-2. Atlasiet vienumu '0016'.
-    * Lai veiktu šo procedūru, jums būs jāatlasa krājuma numuru 0016. Parasti Jums būs izveidota izlaista prece, kurai ir pielietota papildu nepārtrauktības biznesa loģika, ja tā ir izvietota pārdošanas pasūtījumā zvanu centrā.  
-3. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-4. Noklikšķiniet uz Rediģēt.
-5. Izvērsiet vai sakļaujiet sadaļu Pārdot.
-6. Šeit jums jāievada nepārtrauktība programma, kuru pārstāv šis krājums. Ierakstiet Grafika ID, ko izveidojāt iepriekš.
-    * Ja šī prece tiek pārdota zvanu centrā, papildu biznesa loģika tiek pielietota no atlasītās nepārtrauktības programmas.  
-7. Noklikšķiniet uz Saglabāt.
+## <a name="assign-to-continuity-item"></a><span data-ttu-id="7fc56-134">Piešķirt nepārtrauktības krājumam</span><span class="sxs-lookup"><span data-stu-id="7fc56-134">Assign to continuity item</span></span>
+1. <span data-ttu-id="7fc56-135">Pārejiet uz sadaļu Preču informācijas pārvaldība > Preces > Izlaistās preces.</span><span class="sxs-lookup"><span data-stu-id="7fc56-135">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="7fc56-136">Atlasiet vienumu '0016'.</span><span class="sxs-lookup"><span data-stu-id="7fc56-136">Select item '0016'.</span></span>
+    * <span data-ttu-id="7fc56-137">Lai veiktu šo procedūru, jums būs jāatlasa krājuma numuru 0016.</span><span class="sxs-lookup"><span data-stu-id="7fc56-137">For this procedure, you'll select item number 0016.</span></span> <span data-ttu-id="7fc56-138">Parasti Jums būs izveidota izlaista prece, kurai ir pielietota papildu nepārtrauktības biznesa loģika, ja tā ir izvietota pārdošanas pasūtījumā zvanu centrā.</span><span class="sxs-lookup"><span data-stu-id="7fc56-138">Normally, you'll have created a released product that has additional continuity business logic applied when it's placed on a sales order in call center.</span></span>  
+3. <span data-ttu-id="7fc56-139">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="7fc56-139">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="7fc56-140">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="7fc56-140">Click Edit.</span></span>
+5. <span data-ttu-id="7fc56-141">Izvērsiet vai sakļaujiet sadaļu Pārdot.</span><span class="sxs-lookup"><span data-stu-id="7fc56-141">Expand or collapse the Sell section.</span></span>
+6. <span data-ttu-id="7fc56-142">Šeit jums jāievada nepārtrauktība programma, kuru pārstāv šis krājums.</span><span class="sxs-lookup"><span data-stu-id="7fc56-142">Here you'll enter the continuity program that this item represents.</span></span> <span data-ttu-id="7fc56-143">Ierakstiet Grafika ID, ko izveidojāt iepriekš.</span><span class="sxs-lookup"><span data-stu-id="7fc56-143">Type the Schedule ID you created earlier.</span></span>
+    * <span data-ttu-id="7fc56-144">Ja šī prece tiek pārdota zvanu centrā, papildu biznesa loģika tiek pielietota no atlasītās nepārtrauktības programmas.</span><span class="sxs-lookup"><span data-stu-id="7fc56-144">When this item is sold in a call center, additional business logic is applied from the selected continuity program.</span></span>  
+7. <span data-ttu-id="7fc56-145">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="7fc56-145">Click Save.</span></span>
 
 

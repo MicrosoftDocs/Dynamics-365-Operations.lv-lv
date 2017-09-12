@@ -16,49 +16,49 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 88399f70a3c286d536637e166e8428eae50a561d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: f36544993a9280ae10489a19252bc105abd40ac9
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="schedule-kanban-jobs"></a>Kanban darbu grafika izveide
+# <a name="schedule-kanban-jobs"></a><span data-ttu-id="5230a-103">Kanban darbu grafika izveide</span><span class="sxs-lookup"><span data-stu-id="5230a-103">Schedule kanban jobs</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā procedūrā apskatīts Kanban darbu plānošanas process noteiktai darba šūnai. Šīs procedūras izveides priekšnosacījums ir procedūra "Sagatavot procesa Kanban darbu, kad materiāli nav pieejami". Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Šis uzdevums ir paredzēts ražotnes vadītājam un ražošanas plānotājam, kas strādā ar Kanban.
+<span data-ttu-id="5230a-104">Šajā procedūrā apskatīts Kanban darbu plānošanas process noteiktai darba šūnai.</span><span class="sxs-lookup"><span data-stu-id="5230a-104">This procedure focuses on scheduling process kanban jobs for a specific work cell.</span></span> <span data-ttu-id="5230a-105">Šīs procedūras izveides priekšnosacījums ir procedūra "Sagatavot procesa Kanban darbu, kad materiāli nav pieejami".</span><span class="sxs-lookup"><span data-stu-id="5230a-105">The procedure "Prepare a process kanban job when materials are not available" is a prerequisite for creating this procedure.</span></span> <span data-ttu-id="5230a-106">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="5230a-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="5230a-107">Šis uzdevums ir paredzēts ražotnes vadītājam un ražošanas plānotājam, kas strādā ar Kanban.</span><span class="sxs-lookup"><span data-stu-id="5230a-107">This task is intended for the shop floor supervisor and production planner working with kanbans.</span></span>
 
 
-## <a name="select-kanban-jobs-for-a-work-cell"></a>Kanban darbu atlase darba šūnai
-1. Pārejiet uz sadaļu Ražošanas kontrole > Kanban > Kanban darbu plānošana.
-2. Izvērsiet sadaļas Perioda noslodze papildinformāciju
-    * Izvērsiet Kanban papildinformāciju.  
-3. Laukā Darba šūna noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-4. Sarakstā atzīmējiet atlasīto rindu.
-    * Atlasiet darba šūnu 1250. Šādi atfiltrēsiet skatu, lai parādītu tikai darbus šūnai 1250.  
-5. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-6. Noklikšķiniet uz Atlasīt.
+## <a name="select-kanban-jobs-for-a-work-cell"></a><span data-ttu-id="5230a-108">Kanban darbu atlase darba šūnai</span><span class="sxs-lookup"><span data-stu-id="5230a-108">Select kanban jobs for a work cell</span></span>
+1. <span data-ttu-id="5230a-109">Pārejiet uz sadaļu Ražošanas kontrole > Kanban > Kanban darbu plānošana.</span><span class="sxs-lookup"><span data-stu-id="5230a-109">Go to Production control > Kanban > Kanban job scheduling.</span></span>
+2. <span data-ttu-id="5230a-110">Izvērsiet sadaļas Perioda noslodze papildinformāciju</span><span class="sxs-lookup"><span data-stu-id="5230a-110">Expand the Period capacity fact box</span></span>
+    * <span data-ttu-id="5230a-111">Izvērsiet Kanban papildinformāciju.</span><span class="sxs-lookup"><span data-stu-id="5230a-111">Expand the Kanban FactBox.</span></span>  
+3. <span data-ttu-id="5230a-112">Laukā Darba šūna noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="5230a-112">In the Work cell field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="5230a-113">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="5230a-113">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="5230a-114">Atlasiet darba šūnu 1250.</span><span class="sxs-lookup"><span data-stu-id="5230a-114">Select work cell 1250.</span></span> <span data-ttu-id="5230a-115">Šādi atfiltrēsiet skatu, lai parādītu tikai darbus šūnai 1250.</span><span class="sxs-lookup"><span data-stu-id="5230a-115">This will filter the view to display only the jobs for work cell 1250.</span></span>  
+5. <span data-ttu-id="5230a-116">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="5230a-116">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="5230a-117">Noklikšķiniet uz Atlasīt.</span><span class="sxs-lookup"><span data-stu-id="5230a-117">Click Select.</span></span>
 
-## <a name="schedule-a-kanban-job-in-the-first-available-period"></a>Kanban darbs ieplānošana pirmajā pieejamā periodā
-1. Sarakstā atzīmējiet atlasīto rindu.
-    * Atlasiet pirmo rindu sarakstā, kuras statuss ir Nav plānots. Punktotā ikona laukā Darba statuss norāda, ka statuss ir Nav plānots.  
-2. Noklikšķiniet uz Grafiks.
-    * Šādi Kanban darbs tiks ieplānots pirmajā pieejamā periodā.  
-    * Ņemiet vērā, ka Kanban darbs tiek pārvietots uz saraksta beigām, jo tas ir pievienots periodam, kas sākas šodien.  
-    * Ja periods, kas sākas šodien, ir pilnībā rezervēts, darbs tiks pārvietots uz pirmo pieejamo periodu.  
+## <a name="schedule-a-kanban-job-in-the-first-available-period"></a><span data-ttu-id="5230a-118">Kanban darbs ieplānošana pirmajā pieejamā periodā</span><span class="sxs-lookup"><span data-stu-id="5230a-118">Schedule a kanban job in the first available period</span></span>
+1. <span data-ttu-id="5230a-119">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="5230a-119">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="5230a-120">Atlasiet pirmo rindu sarakstā, kuras statuss ir Nav plānots.</span><span class="sxs-lookup"><span data-stu-id="5230a-120">Select the first row in the list that has the Not planned status.</span></span> <span data-ttu-id="5230a-121">Punktotā ikona laukā Darba statuss norāda, ka statuss ir Nav plānots.</span><span class="sxs-lookup"><span data-stu-id="5230a-121">The dotted icon in the Job status field indicates not planned.</span></span>  
+2. <span data-ttu-id="5230a-122">Noklikšķiniet uz Grafiks.</span><span class="sxs-lookup"><span data-stu-id="5230a-122">Click Schedule.</span></span>
+    * <span data-ttu-id="5230a-123">Šādi Kanban darbs tiks ieplānots pirmajā pieejamā periodā.</span><span class="sxs-lookup"><span data-stu-id="5230a-123">This will schedule the kanban job in the first available period.</span></span>  
+    * <span data-ttu-id="5230a-124">Ņemiet vērā, ka Kanban darbs tiek pārvietots uz saraksta beigām, jo tas ir pievienots periodam, kas sākas šodien.</span><span class="sxs-lookup"><span data-stu-id="5230a-124">Notice that the kanban job is moved to the end of the list because it has been added to the period starting from today.</span></span>  
+    * <span data-ttu-id="5230a-125">Ja periods, kas sākas šodien, ir pilnībā rezervēts, darbs tiks pārvietots uz pirmo pieejamo periodu.</span><span class="sxs-lookup"><span data-stu-id="5230a-125">If the period starting from today is fully booked, the job will be moved to the first available period.</span></span>  
 
-## <a name="schedule-two-kanban-jobs-for-a-specific-day"></a>Divu Kanban darbu plānošana noteiktai dienai
-1. Sarakstā atlasiet 1. rindu.
-    * Vajadzētu būt redzamam, ka pirmās rindas vērtība laukā Darba statuss ir Nav plānots.  
-2. Sarakstā atlasiet 2. rindu.
-    * Vajadzētu būt redzamam, ka otrās rindas vērtība laukā Darba statuss ir Nav plānots. Tagad esat atlasījis pirmos divus darbus.  
-3. Noklikšķiniet uz Grafiks no datuma, lai atvērtu nolaižamo dialoglodziņu.
-4. Atzīmējiet rūtiņu Ignorēt noslodzes nepietiekamības sekas vai noņemiet atzīmi.
-    * Šī opcija ļauj ignorēt noklusējuma noslodzes nepietiekamības sekas.  
-5. Laukā Noslodzes nepietiekamības sekas atlasiet Pievienot pieprasītajam periodam.
-    * Šī opcija nodrošina, ka darbs tiek pievienots pieprasītajā periodā neatkarīgi no tā, vai darba šūna ir pārslogota.  
-6. Noklikšķiniet uz Grafiks.
-    * Ņemiet vērā, ka abi darbi tiek pievienoti izvēlētajam periodam.  
-    * Sadaļā Perioda noslodze varat redzēt katra perioda slodzi. Laukā Patēriņš parādīts šī perioda plānotais patēriņš. Ja plānotais patēriņš ir lielāks par šajā periodā pieejamo noslodzi, tiks atlasīts pārslodzes patēriņš.  
+## <a name="schedule-two-kanban-jobs-for-a-specific-day"></a><span data-ttu-id="5230a-126">Divu Kanban darbu plānošana noteiktai dienai</span><span class="sxs-lookup"><span data-stu-id="5230a-126">Schedule two kanban jobs for a specific day</span></span>
+1. <span data-ttu-id="5230a-127">Sarakstā atlasiet 1. rindu.</span><span class="sxs-lookup"><span data-stu-id="5230a-127">In the list, select row 1.</span></span>
+    * <span data-ttu-id="5230a-128">Vajadzētu būt redzamam, ka pirmās rindas vērtība laukā Darba statuss ir Nav plānots.</span><span class="sxs-lookup"><span data-stu-id="5230a-128">You should see that the first row has the Not planned status in the Job status field.</span></span>  
+2. <span data-ttu-id="5230a-129">Sarakstā atlasiet 2. rindu.</span><span class="sxs-lookup"><span data-stu-id="5230a-129">In the list, select row 2.</span></span>
+    * <span data-ttu-id="5230a-130">Vajadzētu būt redzamam, ka otrās rindas vērtība laukā Darba statuss ir Nav plānots.</span><span class="sxs-lookup"><span data-stu-id="5230a-130">You should see that the second row has the Not planned status in the Job status field.</span></span> <span data-ttu-id="5230a-131">Tagad esat atlasījis pirmos divus darbus.</span><span class="sxs-lookup"><span data-stu-id="5230a-131">Now you have the first two jobs selected.</span></span>  
+3. <span data-ttu-id="5230a-132">Noklikšķiniet uz Grafiks no datuma, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="5230a-132">Click Schedule from date to open the drop dialog.</span></span>
+4. <span data-ttu-id="5230a-133">Atzīmējiet rūtiņu Ignorēt noslodzes nepietiekamības sekas vai noņemiet atzīmi.</span><span class="sxs-lookup"><span data-stu-id="5230a-133">Check or uncheck the Override capacity shortage reaction box.</span></span>
+    * <span data-ttu-id="5230a-134">Šī opcija ļauj ignorēt noklusējuma noslodzes nepietiekamības sekas.</span><span class="sxs-lookup"><span data-stu-id="5230a-134">This option allows you to override the default capacity shortage reaction.</span></span>  
+5. <span data-ttu-id="5230a-135">Laukā Noslodzes nepietiekamības sekas atlasiet Pievienot pieprasītajam periodam.</span><span class="sxs-lookup"><span data-stu-id="5230a-135">In the Capacity shortage reaction field, select 'Add to the requested period'.</span></span>
+    * <span data-ttu-id="5230a-136">Šī opcija nodrošina, ka darbs tiek pievienots pieprasītajā periodā neatkarīgi no tā, vai darba šūna ir pārslogota.</span><span class="sxs-lookup"><span data-stu-id="5230a-136">This option will ensure that the job is added to the requested period, regardless if the work cell might be overloaded.</span></span>  
+6. <span data-ttu-id="5230a-137">Noklikšķiniet uz Grafiks.</span><span class="sxs-lookup"><span data-stu-id="5230a-137">Click Schedule.</span></span>
+    * <span data-ttu-id="5230a-138">Ņemiet vērā, ka abi darbi tiek pievienoti izvēlētajam periodam.</span><span class="sxs-lookup"><span data-stu-id="5230a-138">Notice that both jobs are added to the desired period.</span></span>  
+    * <span data-ttu-id="5230a-139">Sadaļā Perioda noslodze varat redzēt katra perioda slodzi.</span><span class="sxs-lookup"><span data-stu-id="5230a-139">In the Period capacity section, you can see the load for each period.</span></span> <span data-ttu-id="5230a-140">Laukā Patēriņš parādīts šī perioda plānotais patēriņš.</span><span class="sxs-lookup"><span data-stu-id="5230a-140">The Consumption field shows the scheduled consumption in this period.</span></span> <span data-ttu-id="5230a-141">Ja plānotais patēriņš ir lielāks par šajā periodā pieejamo noslodzi, tiks atlasīts pārslodzes patēriņš.</span><span class="sxs-lookup"><span data-stu-id="5230a-141">If the scheduled consumption is higher than the available capacity in this period, the overloaded consumption will be selected.</span></span>  
 
 

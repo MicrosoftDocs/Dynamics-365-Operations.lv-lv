@@ -16,36 +16,36 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: af9e5f499e6c162189443d95c90b15c17d910739
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 3bcb59c6edd04877dc2a052002be513205ae840a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="assign-a-free-text-invoice-template-to-a-customer"></a>Brīva teksta rēķina veidnes piešķiršana klientam
+# <a name="assign-a-free-text-invoice-template-to-a-customer"></a><span data-ttu-id="9a8a6-103">Brīva teksta rēķina veidnes piešķiršana klientam</span><span class="sxs-lookup"><span data-stu-id="9a8a6-103">Assign a free text invoice template to a customer</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā uzdevumā parādīts, kā debitoram piešķirt brīvā teksta rēķina veidni. Šajā uzdevumā izmantots demonstrācijas uzņēmums USMF, un šis uzdevums ir paredzēts lietotājam, kurš ir atbildīgs par debitoru parādu rēķinu pārvaldīšanu un apstrādi.
+<span data-ttu-id="9a8a6-104">Šajā uzdevumā parādīts, kā debitoram piešķirt brīvā teksta rēķina veidni.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-104">This task demonstrates how to assign a free text invoice template to a customer.</span></span> <span data-ttu-id="9a8a6-105">Šajā uzdevumā izmantots demonstrācijas uzņēmums USMF, un šis uzdevums ir paredzēts lietotājam, kurš ir atbildīgs par debitoru parādu rēķinu pārvaldīšanu un apstrādi.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-105">This task uses the USMF demo company and is intended for the user who is responsible for managing and processing A/R invoices.</span></span>
 
-1. Pārejiet uz sadaļu Debitori > Debitori > Visi debitori.
-2. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-3. Darbību rūtī noklikšķiniet uz Rēķins.
-4. Noklikšķiniet uz Periodiskie rēķini.
-    * Izmantojiet šo lapu, lai piešķirtu brīva teksta rēķinu veidnes debitoriem un norādītu, cik bieži rēķini tiks nosūtīti debitoram.  
-5. Lai debitoram piešķirtu jaunu veidni, noklikšķiniet uz Jauns.
-6. Atlasiet brīvā teksta rēķina veidni, kuru vēlaties piešķirt debitoram.
-7. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-8. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-9. Ievadiet datumu, kad tiks ģenerēts pirmais rēķins.
-    * Ievadiet periodiskuma beigu datumu.  
-    * Atlasiet kādu no šīm vērtībām: Bez beigu datuma — rēķini tiek ģenerēts uz nenoteiktu laiku, līdz veidne tiek noņemta no debitora konta.  Norēķinu beigu datums — atlasiet šo opciju un ievadiet pēdējo datumu, kad var ģenerēt rēķinu.  
-    * Maksimālā kopējā summa, pēc kuras sasniegšanas rēķinu ģenerēšana tiks pārtraukta.  
-    * Ievadiet maksimālo kopējo summu, kuru atļauts sasniegt, izmantojot atlasīto veidni. Piemēram, ja ievadāt 1000,00 un ģenerējat ikmēneša rēķinus, katru 100,00 vērtībā, rēķinu ģenerēšana tiks pārtraukta pēc desmitā rēķina izveides.  
-    * Ģenerējiet periodiskos rēķinus, izmantojot noklusējuma vērtības no brīvā teksta rēķina veidnes vai debitora konta.  
-    * Atlasiet, vai izmantot brīvā teksta rēķina veidni vai debitora kontu, lai noteiktu noklusējuma vērtības valodai, grāmatošanas profilam, PVN grupai, krājumu PVN grupai, saraksta kodam, piegādes valstij/reģionam, valūtai, maksāšanas termiņiem, maksāšanas metodei, maksājuma specifikācijai, maksājumu grafikam, termiņatlaidei, finanšu dimensijām un žiro naudas pārskaitīšanas sarakstam, kad tiek izveidoti rēķini.  
-10. Atlasiet atkārtošanās shēmu.
-    * Dienas — atlasiet šo opciju un ievadiet dienu skaitu laukā Uz. Piemēram, ja ievadāt 15, tad rēķins šim debitoram tiks ģenerēts ik pēc 15 dienām.  Nedēļas — atlasiet šo opciju un ievadiet nedēļu skaitu laukā Uz. Piemēram, ja ievadāt 2, tad rēķins šim debitoram tiks ģenerēts ik pēc divām nedēļām.  Mēneša — atlasiet šo opciju un ievadiet mēnešu skaitu laukā Uz. Piemēram, ja ievadāt 6, tad rēķins šim debitoram tiks ģenerēts ik pēc sešiem mēnešiem.  Gada — atlasiet šo opciju un ievadiet gadu skaitu laukā Uz. Piemēram, ja ievadāt 2, tad rēķins šim debitoram tiks ģenerēts ik pēc diviem gadiem.  
-11. Ievadiet skaitli laukā Uz.
+1. <span data-ttu-id="9a8a6-106">Pārejiet uz sadaļu Debitori > Debitori > Visi debitori.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-106">Go to Accounts receivable > Customers > All customers.</span></span>
+2. <span data-ttu-id="9a8a6-107">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-107">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="9a8a6-108">Darbību rūtī noklikšķiniet uz Rēķins.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-108">On the Action Pane, click Invoice.</span></span>
+4. <span data-ttu-id="9a8a6-109">Noklikšķiniet uz Periodiskie rēķini.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-109">Click Recurring invoices.</span></span>
+    * <span data-ttu-id="9a8a6-110">Izmantojiet šo lapu, lai piešķirtu brīva teksta rēķinu veidnes debitoriem un norādītu, cik bieži rēķini tiks nosūtīti debitoram.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-110">Use this page to assign free text invoice templates to customers and specify how frequently invoices will be sent to the customer.</span></span>  
+5. <span data-ttu-id="9a8a6-111">Lai debitoram piešķirtu jaunu veidni, noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-111">Click New to assign a new template to the customer.</span></span>
+6. <span data-ttu-id="9a8a6-112">Atlasiet brīvā teksta rēķina veidni, kuru vēlaties piešķirt debitoram.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-112">Select the free text invoice template you want to assign to the customer.</span></span>
+7. <span data-ttu-id="9a8a6-113">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-113">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="9a8a6-114">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-114">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="9a8a6-115">Ievadiet datumu, kad tiks ģenerēts pirmais rēķins.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-115">Enter the date when the first invoice will be generated.</span></span>
+    * <span data-ttu-id="9a8a6-116">Ievadiet periodiskuma beigu datumu.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-116">Enter a recurring end date.</span></span>  
+    * <span data-ttu-id="9a8a6-117">Atlasiet kādu no šīm vērtībām: Bez beigu datuma — rēķini tiek ģenerēts uz nenoteiktu laiku, līdz veidne tiek noņemta no debitora konta.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-117">Select one of the following: No end date – Invoices will be generated indefinitely until the template is removed from the customer account.</span></span>  <span data-ttu-id="9a8a6-118">Norēķinu beigu datums — atlasiet šo opciju un ievadiet pēdējo datumu, kad var ģenerēt rēķinu.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-118">Billing end date – Select this option and enter the last date that the invoice can be generated.</span></span>  
+    * <span data-ttu-id="9a8a6-119">Maksimālā kopējā summa, pēc kuras sasniegšanas rēķinu ģenerēšana tiks pārtraukta.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-119">Maximum cumulative amount after which invoice generation will stop.</span></span>  
+    * <span data-ttu-id="9a8a6-120">Ievadiet maksimālo kopējo summu, kuru atļauts sasniegt, izmantojot atlasīto veidni.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-120">Enter the maximum cumulative amount that can be reached using the selected template.</span></span> <span data-ttu-id="9a8a6-121">Piemēram, ja ievadāt 1000,00 un ģenerējat ikmēneša rēķinus, katru 100,00 vērtībā, rēķinu ģenerēšana tiks pārtraukta pēc desmitā rēķina izveides.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-121">For example, if you enter 1,000.00 and generate monthly invoices for 100.00 each, invoices will stop generating after the tenth invoice is generated.</span></span>  
+    * <span data-ttu-id="9a8a6-122">Ģenerējiet periodiskos rēķinus, izmantojot noklusējuma vērtības no brīvā teksta rēķina veidnes vai debitora konta.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-122">Generate recurring invoices by using the default values from either free text invoice template or the customer account.</span></span>  
+    * <span data-ttu-id="9a8a6-123">Atlasiet, vai izmantot brīvā teksta rēķina veidni vai debitora kontu, lai noteiktu noklusējuma vērtības valodai, grāmatošanas profilam, PVN grupai, krājumu PVN grupai, saraksta kodam, piegādes valstij/reģionam, valūtai, maksāšanas termiņiem, maksāšanas metodei, maksājuma specifikācijai, maksājumu grafikam, termiņatlaidei, finanšu dimensijām un žiro naudas pārskaitīšanas sarakstam, kad tiek izveidoti rēķini.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-123">Select whether to use the free text invoice template or the customer account to determine the default values for the language, posting profile, sales tax group, item sales tax group, list code, country/region for delivery, currency, terms of payment, method of payment, payment specification, payment schedule, cash discount, financial dimensions, and giro money transfer slip when invoices are created.</span></span>  
+10. <span data-ttu-id="9a8a6-124">Atlasiet atkārtošanās shēmu.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-124">Select the recurrence pattern.</span></span>
+    * <span data-ttu-id="9a8a6-125">Dienas — atlasiet šo opciju un ievadiet dienu skaitu laukā Uz.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-125">Daily – Select this option and enter the number of days in the Per field.</span></span> <span data-ttu-id="9a8a6-126">Piemēram, ja ievadāt 15, tad rēķins šim debitoram tiks ģenerēts ik pēc 15 dienām.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-126">For example, if you enter 15, an invoice will be generated every 15 days for this customer.</span></span>  <span data-ttu-id="9a8a6-127">Nedēļas — atlasiet šo opciju un ievadiet nedēļu skaitu laukā Uz.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-127">Weekly - Select this option and enter the number of weeks in the Per field.</span></span> <span data-ttu-id="9a8a6-128">Piemēram, ja ievadāt 2, tad rēķins šim debitoram tiks ģenerēts ik pēc divām nedēļām.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-128">For example, if you enter 2, an invoice will be generated every two weeks for this customer.</span></span>  <span data-ttu-id="9a8a6-129">Mēneša — atlasiet šo opciju un ievadiet mēnešu skaitu laukā Uz.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-129">Monthly - Select this option and enter the number of months in the Per field.</span></span> <span data-ttu-id="9a8a6-130">Piemēram, ja ievadāt 6, tad rēķins šim debitoram tiks ģenerēts ik pēc sešiem mēnešiem.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-130">For example, if you enter 6, an invoice will be generated every six months for this customer.</span></span>  <span data-ttu-id="9a8a6-131">Gada — atlasiet šo opciju un ievadiet gadu skaitu laukā Uz.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-131">Yearly – Select this option and enter the number of years in the Per field.</span></span> <span data-ttu-id="9a8a6-132">Piemēram, ja ievadāt 2, tad rēķins šim debitoram tiks ģenerēts ik pēc diviem gadiem.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-132">For example, if you enter 2, an invoice will be generated every two years for this customer.</span></span>  
+11. <span data-ttu-id="9a8a6-133">Ievadiet skaitli laukā Uz.</span><span class="sxs-lookup"><span data-stu-id="9a8a6-133">In the Per field, enter a number.</span></span>
 
 

@@ -16,42 +16,42 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 2183a6599646880e3af2a76b28a40a6299401943
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 0841cd664a842880f24c30090a33d846b0c08ac4
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="employment-verification-using-form-i-9"></a>Nodarbinātības pārbaude, izmantojot formu I-9
+# <a name="employment-verification-using-form-i-9"></a><span data-ttu-id="e1098-103">Nodarbinātības pārbaude, izmantojot formu I-9</span><span class="sxs-lookup"><span data-stu-id="e1098-103">Employment verification using form I-9</span></span>
 
 [!include[task guide banner](../../../includes/task-guide-banner.md)]
 
-Saskaņā ar Imigrācijas reformu un kontroles aktu (Immigration Reform and Control Act — IRCA) darba devējiem ASV ir jāpārbauda katra jaunpieņemtā darbinieka piemērotības nodarbinātībai statusu. Šajā procedūrā aprakstīts, kā pierakstīt nepieciešamos dokumentus I-9 pārbaudei. Šai procedūrai izmantojiet USMF uzņēmumu.
+<span data-ttu-id="e1098-104">Saskaņā ar Imigrācijas reformu un kontroles aktu (Immigration Reform and Control Act — IRCA) darba devējiem ASV ir jāpārbauda katra jaunpieņemtā darbinieka piemērotības nodarbinātībai statusu.</span><span class="sxs-lookup"><span data-stu-id="e1098-104">The Immigration Reform and Control Act requires US employers to verify the employment eligibility status of newly hired employees.</span></span> <span data-ttu-id="e1098-105">Šajā procedūrā aprakstīts, kā pierakstīt nepieciešamos dokumentus I-9 pārbaudei.</span><span class="sxs-lookup"><span data-stu-id="e1098-105">This procedure will walk you through the steps of recording the necessary documents for I-9 verification.</span></span> <span data-ttu-id="e1098-106">Šai procedūrai izmantojiet USMF uzņēmumu.</span><span class="sxs-lookup"><span data-stu-id="e1098-106">Use the USMF company for this procedure.</span></span>
 
-1. Pārejiet uz sadaļu Personāla vadība > Darbinieki > Darbinieki.
-2. Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus. Piemēram, filtrējiet pēc lauka Nosaukums, izmantojot vērtību "Vinss".
-3. Atlasiet darbinieku. Piemērs: Vinss Prado
-4. Izvērsiet kopsavilkuma cilni Personiskā informācija.
-5. Noklikšķiniet uz Identifikācijas numuri.
-6. Klikšķiniet Jauns.
-7. Atlasiet ierakstāmo identifikācijas tipu. Piemērs: pase
-8. Laukā Numurs ierakstiet kādu vērtību.
-9. Laukā Primārais atlasiet vērtību Jā.
-10. Laukā Apraksts ievadiet identifikācijas ieraksta īsu aprakstu.
-11. Izdevējiestādē atlasiet iestādi, kas izsniedza darbiniekam šo identifikācijas formu. Piemērs: valdība
-12. Ievadiet datumu, kad izdevējiestāde izsniedza darbiniekam šo identifikācijas formu. Piemērs: 15.02.2011
-13. Ievadiet datumu, kad beidzas identifikācijas formas derīguma termiņš. Piemērs: 15.02.2021
-14. Noklikšķiniet uz Saglabāt.
-15. Aizvērt lapu.
-16. Noklikšķiniet uz cilnes Nodarbinātība.
-17. Noklikšķiniet uz I-9.
-18. Noklikšķiniet uz Jauns.
-19. Laukā Darba atbilstība atlasiet opciju.
-    * Ja darbinieks nav Savienoto Valstu pavalstnieks vai pilsonis, jums ir jāievada darbinieka ārzemju pavalstnieka vai atļaujas numurs.  
-20. Atlasiet opciju GroupListA.
-    * Saraksts, kuru atlasījāt, ir atkarīgs no darbinieka sniegtā identifikācijas tipa. Darbiniekam ir jāsniedz viens saraksta A dokuments vai viens dokuments no saraksta B un C. Piemēram, ja darbinieks ir uzrādījis pasi, var atlasīt sarakstu A. Tomēr, ja darbinieks ir uzrādījis tikai autovadītāja apliecību un sociālās nodrošināšanas karti, tad ir jāatlasa saraksts B un C.  
-21. Laukā I-9 dokumenta tips izvēlieties darbinieka iesniegtā dokumenta tipu.
-22. Laukā Dokumenta numurs ievadiet vai atlasiet kādu vērtību.
-23. Noklikšķiniet uz Saglabāt.
+1. <span data-ttu-id="e1098-107">Pārejiet uz sadaļu Personāla vadība > Darbinieki > Darbinieki.</span><span class="sxs-lookup"><span data-stu-id="e1098-107">Go to Human resources > Workers > Employees.</span></span>
+2. <span data-ttu-id="e1098-108">Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus.</span><span class="sxs-lookup"><span data-stu-id="e1098-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="e1098-109">Piemēram, filtrējiet pēc lauka Nosaukums, izmantojot vērtību "Vinss".</span><span class="sxs-lookup"><span data-stu-id="e1098-109">For example, filter on the Name field with a value of 'Vince'.</span></span>
+3. <span data-ttu-id="e1098-110">Atlasiet darbinieku.</span><span class="sxs-lookup"><span data-stu-id="e1098-110">Select the employee.</span></span> <span data-ttu-id="e1098-111">Piemērs: Vinss Prado</span><span class="sxs-lookup"><span data-stu-id="e1098-111">Example: Vince Prado</span></span>
+4. <span data-ttu-id="e1098-112">Izvērsiet kopsavilkuma cilni Personiskā informācija.</span><span class="sxs-lookup"><span data-stu-id="e1098-112">Expand the Personal information FastTab.</span></span>
+5. <span data-ttu-id="e1098-113">Noklikšķiniet uz Identifikācijas numuri.</span><span class="sxs-lookup"><span data-stu-id="e1098-113">Click Identification numbers.</span></span>
+6. <span data-ttu-id="e1098-114">Klikšķiniet Jauns.</span><span class="sxs-lookup"><span data-stu-id="e1098-114">Click New.</span></span>
+7. <span data-ttu-id="e1098-115">Atlasiet ierakstāmo identifikācijas tipu.</span><span class="sxs-lookup"><span data-stu-id="e1098-115">Select the identification type that you are recording.</span></span> <span data-ttu-id="e1098-116">Piemērs: pase</span><span class="sxs-lookup"><span data-stu-id="e1098-116">Example: Passport</span></span>
+8. <span data-ttu-id="e1098-117">Laukā Numurs ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="e1098-117">In the Number field, type a value.</span></span>
+9. <span data-ttu-id="e1098-118">Laukā Primārais atlasiet vērtību Jā.</span><span class="sxs-lookup"><span data-stu-id="e1098-118">Select Yes in the Primary field.</span></span>
+10. <span data-ttu-id="e1098-119">Laukā Apraksts ievadiet identifikācijas ieraksta īsu aprakstu.</span><span class="sxs-lookup"><span data-stu-id="e1098-119">In the Description field, enter a brief description of the identification record..</span></span>
+11. <span data-ttu-id="e1098-120">Izdevējiestādē atlasiet iestādi, kas izsniedza darbiniekam šo identifikācijas formu.</span><span class="sxs-lookup"><span data-stu-id="e1098-120">In the issuing agency select the agency that issued the form of identification to the worker.</span></span> <span data-ttu-id="e1098-121">Piemērs: valdība</span><span class="sxs-lookup"><span data-stu-id="e1098-121">Example: Government</span></span>
+12. <span data-ttu-id="e1098-122">Ievadiet datumu, kad izdevējiestāde izsniedza darbiniekam šo identifikācijas formu.</span><span class="sxs-lookup"><span data-stu-id="e1098-122">Enter the date that the issuing agency issued the form of identification to the worker.</span></span> <span data-ttu-id="e1098-123">Piemērs: 15.02.2011</span><span class="sxs-lookup"><span data-stu-id="e1098-123">Example: 02/15/2011</span></span>
+13. <span data-ttu-id="e1098-124">Ievadiet datumu, kad beidzas identifikācijas formas derīguma termiņš.</span><span class="sxs-lookup"><span data-stu-id="e1098-124">Enter the date when the form of identification expires.</span></span> <span data-ttu-id="e1098-125">Piemērs: 15.02.2021</span><span class="sxs-lookup"><span data-stu-id="e1098-125">Example: 2/15/2021</span></span>
+14. <span data-ttu-id="e1098-126">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="e1098-126">Click Save.</span></span>
+15. <span data-ttu-id="e1098-127">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="e1098-127">Close the page.</span></span>
+16. <span data-ttu-id="e1098-128">Noklikšķiniet uz cilnes Nodarbinātība.</span><span class="sxs-lookup"><span data-stu-id="e1098-128">Click the Employment tab.</span></span>
+17. <span data-ttu-id="e1098-129">Noklikšķiniet uz I-9.</span><span class="sxs-lookup"><span data-stu-id="e1098-129">Click I-9.</span></span>
+18. <span data-ttu-id="e1098-130">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="e1098-130">Click New.</span></span>
+19. <span data-ttu-id="e1098-131">Laukā Darba atbilstība atlasiet opciju.</span><span class="sxs-lookup"><span data-stu-id="e1098-131">In the Work eligibility field, select an option.</span></span>
+    * <span data-ttu-id="e1098-132">Ja darbinieks nav Savienoto Valstu pavalstnieks vai pilsonis, jums ir jāievada darbinieka ārzemju pavalstnieka vai atļaujas numurs.</span><span class="sxs-lookup"><span data-stu-id="e1098-132">If the employee is not a citizen or national of the United States, you must enter the worker's resident alien or admission number.</span></span>  
+20. <span data-ttu-id="e1098-133">Atlasiet opciju GroupListA.</span><span class="sxs-lookup"><span data-stu-id="e1098-133">Select the GroupListA option.</span></span>
+    * <span data-ttu-id="e1098-134">Saraksts, kuru atlasījāt, ir atkarīgs no darbinieka sniegtā identifikācijas tipa.</span><span class="sxs-lookup"><span data-stu-id="e1098-134">The list that you select depends on what form of identification the worker provided.</span></span> <span data-ttu-id="e1098-135">Darbiniekam ir jāsniedz viens saraksta A dokuments vai viens dokuments no saraksta B un C. Piemēram, ja darbinieks ir uzrādījis pasi, var atlasīt sarakstu A.</span><span class="sxs-lookup"><span data-stu-id="e1098-135">A worker must provide one List A document or one document from List B and C. For example, if the worker provided a passport, then List A could be selected.</span></span> <span data-ttu-id="e1098-136">Tomēr, ja darbinieks ir uzrādījis tikai autovadītāja apliecību un sociālās nodrošināšanas karti, tad ir jāatlasa saraksts B un C.</span><span class="sxs-lookup"><span data-stu-id="e1098-136">However, if the worker has only provided their drivers license and social security card, then list B and C must be selected.</span></span>  
+21. <span data-ttu-id="e1098-137">Laukā I-9 dokumenta tips izvēlieties darbinieka iesniegtā dokumenta tipu.</span><span class="sxs-lookup"><span data-stu-id="e1098-137">In the I-9 document type field, select the type of document that the worker provided.</span></span>
+22. <span data-ttu-id="e1098-138">Laukā Dokumenta numurs ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="e1098-138">In the Document number field, enter or select a value.</span></span>
+23. <span data-ttu-id="e1098-139">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="e1098-139">Click Save.</span></span>
 
 

@@ -18,33 +18,33 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9e39cf661dbd443b27d356c8323b383229d9f526
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 163f317106c33817d6a04590738ffc5d15c50e7a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="fixed-assets-location-change-tracking-for-latvia"></a>Sekošana līdzi pamatlīdzekļu novietojuma maiņām Latvijai
+# <a name="fixed-assets-location-change-tracking-for-latvia"></a><span data-ttu-id="03f0d-103">Sekošana līdzi pamatlīdzekļu novietojuma maiņām Latvijai</span><span class="sxs-lookup"><span data-stu-id="03f0d-103">Fixed assets location change tracking for Latvia</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Šajā tēmā ir sniegta informācija par izmaiņu izsekošanas funkcionalitāti attiecībā uz pamatlīdzekļu novietojuma laukiem juridiskajām personām, kuru primārā adrese atrodas Latvijā.
+<span data-ttu-id="03f0d-104">Šajā tēmā ir sniegta informācija par izmaiņu izsekošanas funkcionalitāti attiecībā uz pamatlīdzekļu novietojuma laukiem juridiskajām personām, kuru primārā adrese atrodas Latvijā.</span><span class="sxs-lookup"><span data-stu-id="03f0d-104">This topic provides information about the change tracking functionality for fixed asset location fields for legal entities with a primary address in Latvia.</span></span>
 
-Juridiskajām personām, kuru primārā adrese atrodas Latvijā, kad lapā **Pamatlīdzeklis** modificējat tālāk uzskaitītos laukus, tiek saglabāts modifikāciju pārskats vēlākai apskatīšanai.
+<span data-ttu-id="03f0d-105">Juridiskajām personām, kuru primārā adrese atrodas Latvijā, kad lapā **Pamatlīdzeklis** modificējat tālāk uzskaitītos laukus, tiek saglabāts modifikāciju pārskats vēlākai apskatīšanai.</span><span class="sxs-lookup"><span data-stu-id="03f0d-105">For legal entities with a primary address in Latvia, when you modify the following fields on the **Fixed asset** page, a record of the modification is saved for later viewing.</span></span>
 
--   Atbildīgā persona
--   Nodaļa
--   Novietojums
+-   <span data-ttu-id="03f0d-106">Atbildīgā persona</span><span class="sxs-lookup"><span data-stu-id="03f0d-106">Responsible</span></span>
+-   <span data-ttu-id="03f0d-107">Nodaļa</span><span class="sxs-lookup"><span data-stu-id="03f0d-107">Department</span></span>
+-   <span data-ttu-id="03f0d-108">Novietojums</span><span class="sxs-lookup"><span data-stu-id="03f0d-108">Location</span></span>
 
-Jūsu modifikācija tiek saglabāta, kad noklikšķināt uz **Saglabāt** vai kad fokusu pārvietojat no lauka, kurā veicāt šīs izmaiņas. Šo lauku modifikāciju vēsturi varat apskatīt, izpildot tālāk sniegtos norādījumus.
+<span data-ttu-id="03f0d-109">Jūsu modifikācija tiek saglabāta, kad noklikšķināt uz **Saglabāt** vai kad fokusu pārvietojat no lauka, kurā veicāt šīs izmaiņas.</span><span class="sxs-lookup"><span data-stu-id="03f0d-109">Your modification is saved when you click **Save** or when you move your focus away from the field where you made the change.</span></span> <span data-ttu-id="03f0d-110">Šo lauku modifikāciju vēsturi varat apskatīt, izpildot tālāk sniegtos norādījumus.</span><span class="sxs-lookup"><span data-stu-id="03f0d-110">You can view the modification history for these fields by completing the following steps:</span></span>
 
-1.  Noklikšķiniet uz **Pamatlīdzekļi** &gt; **Pamatlīdzekļi** &gt; **Pamatlīdzekļi**.
-2.  Atlasiet pamatlīdzekli.
-3.  Cilnē **Pamatlīdzeklis** noklikšķiniet uz **Pārsūtījumi** &gt; **Iekšējās pārsūtīšanas vēsture**.
-4.  Neobligāti: noklikšķiniet uz **Drukāt** &gt; **Pārvietošanas akts**.
+1.  <span data-ttu-id="03f0d-111">Noklikšķiniet uz **Pamatlīdzekļi** &gt; **Pamatlīdzekļi** &gt; **Pamatlīdzekļi**.</span><span class="sxs-lookup"><span data-stu-id="03f0d-111">Click **Fixed assets** &gt; **Fixed assets** &gt; **Fixed assets**.</span></span>
+2.  <span data-ttu-id="03f0d-112">Atlasiet pamatlīdzekli.</span><span class="sxs-lookup"><span data-stu-id="03f0d-112">Select a fixed asset.</span></span>
+3.  <span data-ttu-id="03f0d-113">Cilnē **Pamatlīdzeklis** noklikšķiniet uz **Pārsūtījumi** &gt; **Iekšējās pārsūtīšanas vēsture**.</span><span class="sxs-lookup"><span data-stu-id="03f0d-113">On the **Fixed asset** tab, click **Transfers** &gt; **Internal transfer history**.</span></span>
+4.  <span data-ttu-id="03f0d-114">Neobligāti: noklikšķiniet uz **Drukāt** &gt; **Pārvietošanas akts**.</span><span class="sxs-lookup"><span data-stu-id="03f0d-114">Optional: Click **Print** &gt; **Internal transfer statement**.</span></span>
 
 
 

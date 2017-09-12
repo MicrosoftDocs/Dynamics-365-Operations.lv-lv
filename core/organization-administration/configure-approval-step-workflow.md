@@ -15,70 +15,70 @@ ms.custom: 192161
 ms.assetid: 8b478e3d-d6b4-403b-aae0-f639a71ca36c
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 61b3107516c7af8d1c0f4c427bdffa9be0fbc18d
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 38b4f7cf2dfb29390da1cd133870eceecd980fa0
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="configure-an-approval-step-in-a-workflow"></a>Konfigurēt apstiprināšanas darbību darbplūsmā
+# <a name="configure-an-approval-step-in-a-workflow"></a><span data-ttu-id="63120-103">Konfigurēt apstiprināšanas darbību darbplūsmā</span><span class="sxs-lookup"><span data-stu-id="63120-103">Configure an approval step in a workflow</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Šajā tēmā ir paskaidrots, kā konfigurēt apstiprināšanas darbības rekvizītus.
+<span data-ttu-id="63120-104">Šajā tēmā ir paskaidrots, kā konfigurēt apstiprināšanas darbības rekvizītus.</span><span class="sxs-lookup"><span data-stu-id="63120-104">This topic explains how to configure the properties of an approval step.</span></span>
 
-Lai konfigurētu apstiprināšanas darbību darbplūsmas redaktorā, ar peles labo taustiņu noklikšķiniet uz apstiprināšanas darbības un pēc tam noklikšķiniet uz **Rekvizīti**, lai atvērtu lapu **Rekvizīti**. Pēc tam izmantojiet tālāk aprakstītās procedūras, lai konfigurētu apstiprināšanas darbības rekvizītus.
+<span data-ttu-id="63120-105">Lai konfigurētu apstiprināšanas darbību darbplūsmas redaktorā, ar peles labo taustiņu noklikšķiniet uz apstiprināšanas darbības un pēc tam noklikšķiniet uz **Rekvizīti**, lai atvērtu lapu **Rekvizīti**.</span><span class="sxs-lookup"><span data-stu-id="63120-105">To configure an approval step in the workflow editor, right-click the approval step, and then click **Properties** to open the **Properties** page.</span></span> <span data-ttu-id="63120-106">Pēc tam izmantojiet tālāk aprakstītās procedūras, lai konfigurētu apstiprināšanas darbības rekvizītus.</span><span class="sxs-lookup"><span data-stu-id="63120-106">Then use the following procedures to configure the properties of the approval step.</span></span>
 
-## <a name="name-the-step"></a>Nosaukuma piešķiršana solim
-Izpildiet tālākos norādījumus, lai ievadītu apstiprināšanas darbības nosaukumu.
+## <a name="name-the-step"></a><span data-ttu-id="63120-107">Nosaukuma piešķiršana solim</span><span class="sxs-lookup"><span data-stu-id="63120-107">Name the step</span></span>
+<span data-ttu-id="63120-108">Izpildiet tālākos norādījumus, lai ievadītu apstiprināšanas darbības nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="63120-108">Follow these steps to enter a name for the approval step.</span></span>
 
-1.  Kreisajā rūtī noklikšķiniet uz **Pamata iestatījumi**.
-2.  Laukā **Nosaukums** ievadiet unikālu nosaukumu apstiprināšanas solim.
+1.  <span data-ttu-id="63120-109">Kreisajā rūtī noklikšķiniet uz **Pamata iestatījumi**.</span><span class="sxs-lookup"><span data-stu-id="63120-109">In the left pane, click **Basic Settings**.</span></span>
+2.  <span data-ttu-id="63120-110">Laukā **Nosaukums** ievadiet unikālu nosaukumu apstiprināšanas solim.</span><span class="sxs-lookup"><span data-stu-id="63120-110">In the **Name** field, enter a unique name for the approval step.</span></span>
 
-## <a name="enter-a-subject-line-and-instructions"></a>Ievadiet tēmas rindu un instrukcijas
-Jums jānorāda temata rinda un instrukcijas lietotājiem, kas piešķirti apstiprināšanas darbībai. Piemēram, ja konfigurējat pirkšanas pieprasījumu apstiprināšanas darbību, attiecīgajai darbībai piešķirtais lietotājs redz tēmas rindu un instrukcijas lapā **Pirkšanas pieprasījumi**. Tēmas rinda tiek parādīta lapā esošajā ziņojumu joslā. Lietotājs var noklikšķināt uz ziņojumu joslā redzamās ikonas, lai skatītu instrukcijas. Veiciet šīs darbības, lai ievadītu tēmas rindu un instrukcijas.
+## <a name="enter-a-subject-line-and-instructions"></a><span data-ttu-id="63120-111">Ievadiet tēmas rindu un instrukcijas</span><span class="sxs-lookup"><span data-stu-id="63120-111">Enter a subject line and instructions</span></span>
+<span data-ttu-id="63120-112">Jums jānorāda temata rinda un instrukcijas lietotājiem, kas piešķirti apstiprināšanas darbībai.</span><span class="sxs-lookup"><span data-stu-id="63120-112">You must provide a subject line and instructions to users who are assigned to the approval step.</span></span> <span data-ttu-id="63120-113">Piemēram, ja konfigurējat pirkšanas pieprasījumu apstiprināšanas darbību, attiecīgajai darbībai piešķirtais lietotājs redz tēmas rindu un instrukcijas lapā **Pirkšanas pieprasījumi**.</span><span class="sxs-lookup"><span data-stu-id="63120-113">For example, if you're configuring an approval step for purchase requisitions, the user who is assigned to the step sees the subject line and instructions on the **Purchase requisitions** page.</span></span> <span data-ttu-id="63120-114">Tēmas rinda tiek parādīta lapā esošajā ziņojumu joslā.</span><span class="sxs-lookup"><span data-stu-id="63120-114">The subject line appears in a message bar on the page.</span></span> <span data-ttu-id="63120-115">Lietotājs var noklikšķināt uz ziņojumu joslā redzamās ikonas, lai skatītu instrukcijas.</span><span class="sxs-lookup"><span data-stu-id="63120-115">The user can then click the icon in the message bar to see the instructions.</span></span> <span data-ttu-id="63120-116">Veiciet šīs darbības, lai ievadītu tēmas rindu un instrukcijas.</span><span class="sxs-lookup"><span data-stu-id="63120-116">Follow these steps to enter a subject line and instructions.</span></span>
 
-1.  Kreisajā rūtī noklikšķiniet uz **Pamata iestatījumi**.
-2.  Laukā **Darbplūsmas elementa tēma** ievadiet tēmas rindu.
-3.  Lai personalizētu tēmas rindu, var ievadīt vietturus. Vietturi tiks aizvietoti ar atbilstošiem datiem, kad tēmas rinda tiks parādīta lietotājiem. Veiciet šīs darbības, lai ievietotu vietturi:
-    1.  Tekstlodziņā noklikšķiniet uz vietas, kur jāparādās vietturim.
-    2.  Noklikšķiniet uz **Ievietot vietturi**.
-    3.  Parādītajā sarakstā atlasiet vietturi, kuru ievietot.
-    4.  Noklikšķiniet uz **Ievietot**.
+1.  <span data-ttu-id="63120-117">Kreisajā rūtī noklikšķiniet uz **Pamata iestatījumi**.</span><span class="sxs-lookup"><span data-stu-id="63120-117">In the left pane, click **Basic Settings**.</span></span>
+2.  <span data-ttu-id="63120-118">Laukā **Darbplūsmas elementa tēma** ievadiet tēmas rindu.</span><span class="sxs-lookup"><span data-stu-id="63120-118">In the **Work item subject** field, enter the subject line.</span></span>
+3.  <span data-ttu-id="63120-119">Lai personalizētu tēmas rindu, var ievadīt vietturus.</span><span class="sxs-lookup"><span data-stu-id="63120-119">To personalize the subject line, you can insert placeholders.</span></span> <span data-ttu-id="63120-120">Vietturi tiks aizvietoti ar atbilstošiem datiem, kad tēmas rinda tiks parādīta lietotājiem.</span><span class="sxs-lookup"><span data-stu-id="63120-120">Placeholders are replaced with appropriate data when the subject line is shown to users.</span></span> <span data-ttu-id="63120-121">Veiciet šīs darbības, lai ievietotu vietturi:</span><span class="sxs-lookup"><span data-stu-id="63120-121">Follow these steps to insert a placeholder:</span></span>
+    1.  <span data-ttu-id="63120-122">Tekstlodziņā noklikšķiniet uz vietas, kur jāparādās vietturim.</span><span class="sxs-lookup"><span data-stu-id="63120-122">In the text box, click where the placeholder should appear.</span></span>
+    2.  <span data-ttu-id="63120-123">Noklikšķiniet uz **Ievietot vietturi**.</span><span class="sxs-lookup"><span data-stu-id="63120-123">Click **Insert placeholder**.</span></span>
+    3.  <span data-ttu-id="63120-124">Parādītajā sarakstā atlasiet vietturi, kuru ievietot.</span><span class="sxs-lookup"><span data-stu-id="63120-124">In the list that appears, select the placeholder to insert.</span></span>
+    4.  <span data-ttu-id="63120-125">Noklikšķiniet uz **Ievietot**.</span><span class="sxs-lookup"><span data-stu-id="63120-125">Click **Insert**.</span></span>
 
-4.  Lai pievienotu tēmas rindas tulkojumus, rīkojieties šādi:
-    1.  Noklikšķiniet uz **Tulkojumi**.
-    2.  Parādītajā lapā noklikšķiniet uz **Pievienot**.
-    3.  Parādītajā sarakstā izvēlieties valodu, kas tiek izmantota teksta ievadei.
-    4.  Laukā **Tulkotais teksts** ievadiet tekstu.
-    5.  Lai personalizētu tekstu, var ievadīt vietturus, kā aprakstīts 3. darbībā.
-    6.  Noklikšķiniet uz **Aizvērt**.
+4.  <span data-ttu-id="63120-126">Lai pievienotu tēmas rindas tulkojumus, rīkojieties šādi:</span><span class="sxs-lookup"><span data-stu-id="63120-126">To add translations of the subject line, follow these steps:</span></span>
+    1.  <span data-ttu-id="63120-127">Noklikšķiniet uz **Tulkojumi**.</span><span class="sxs-lookup"><span data-stu-id="63120-127">Click **Translations**.</span></span>
+    2.  <span data-ttu-id="63120-128">Parādītajā lapā noklikšķiniet uz **Pievienot**.</span><span class="sxs-lookup"><span data-stu-id="63120-128">On the page that appears, click **Add**.</span></span>
+    3.  <span data-ttu-id="63120-129">Parādītajā sarakstā izvēlieties valodu, kas tiek izmantota teksta ievadei.</span><span class="sxs-lookup"><span data-stu-id="63120-129">In the list that appears, select the language that you're entering the text in.</span></span>
+    4.  <span data-ttu-id="63120-130">Laukā **Tulkotais teksts** ievadiet tekstu.</span><span class="sxs-lookup"><span data-stu-id="63120-130">In the **Translated text** field, enter the text.</span></span>
+    5.  <span data-ttu-id="63120-131">Lai personalizētu tekstu, var ievadīt vietturus, kā aprakstīts 3. darbībā.</span><span class="sxs-lookup"><span data-stu-id="63120-131">To personalize the text, you can insert placeholders as described in step 3.</span></span>
+    6.  <span data-ttu-id="63120-132">Noklikšķiniet uz **Aizvērt**.</span><span class="sxs-lookup"><span data-stu-id="63120-132">Click **Close**.</span></span>
 
-5.  Laukā **Darbplūsmas elementa instrukcijas** ievadiet instrukcijas.
-6.  Lai personalizētu instrukcijas, var ievadīt vietturus. Vietturi tiks aizvietoti ar atbilstošiem datiem, kad instrukcijas tiks parādītas lietotājiem. Veiciet šīs darbības, lai ievietotu vietturi:
-    1.  Tekstlodziņā noklikšķiniet uz vietas, kur jāparādās vietturim.
-    2.  Noklikšķiniet uz **Ievietot vietturi**.
-    3.  Parādītajā sarakstā atlasiet vietturi, kuru ievietot.
-    4.  Noklikšķiniet uz **Ievietot**.
+5.  <span data-ttu-id="63120-133">Laukā **Darbplūsmas elementa instrukcijas** ievadiet instrukcijas.</span><span class="sxs-lookup"><span data-stu-id="63120-133">In the **Work item instructions** field, enter the instructions.</span></span>
+6.  <span data-ttu-id="63120-134">Lai personalizētu instrukcijas, var ievadīt vietturus.</span><span class="sxs-lookup"><span data-stu-id="63120-134">To personalize the instructions, you can insert placeholders.</span></span> <span data-ttu-id="63120-135">Vietturi tiks aizvietoti ar atbilstošiem datiem, kad instrukcijas tiks parādītas lietotājiem.</span><span class="sxs-lookup"><span data-stu-id="63120-135">Placeholders are replaced with appropriate data when the instructions are shown to users.</span></span> <span data-ttu-id="63120-136">Veiciet šīs darbības, lai ievietotu vietturi:</span><span class="sxs-lookup"><span data-stu-id="63120-136">Follow these steps to insert a placeholder:</span></span>
+    1.  <span data-ttu-id="63120-137">Tekstlodziņā noklikšķiniet uz vietas, kur jāparādās vietturim.</span><span class="sxs-lookup"><span data-stu-id="63120-137">In the text box, click where the placeholder should appear.</span></span>
+    2.  <span data-ttu-id="63120-138">Noklikšķiniet uz **Ievietot vietturi**.</span><span class="sxs-lookup"><span data-stu-id="63120-138">Click **Insert placeholder**.</span></span>
+    3.  <span data-ttu-id="63120-139">Parādītajā sarakstā atlasiet vietturi, kuru ievietot.</span><span class="sxs-lookup"><span data-stu-id="63120-139">In the list that appears, select the placeholder to insert.</span></span>
+    4.  <span data-ttu-id="63120-140">Noklikšķiniet uz **Ievietot**.</span><span class="sxs-lookup"><span data-stu-id="63120-140">Click **Insert**.</span></span>
 
-7.  Lai pievienotu instrukciju tulkojumus, rīkojieties šādi:
-    1.  Noklikšķiniet uz **Tulkojumi**.
-    2.  Parādītajā lapā noklikšķiniet uz **Pievienot**.
-    3.  Parādītajā sarakstā izvēlieties valodu, kas tiek izmantota teksta ievadei.
-    4.  Laukā **Tulkotais teksts** ievadiet tekstu.
-    5.  Lai personalizētu tekstu, var ievadīt vietturus, kā aprakstīts 6. darbībā.
-    6.  Noklikšķiniet uz **Aizvērt**.
+7.  <span data-ttu-id="63120-141">Lai pievienotu instrukciju tulkojumus, rīkojieties šādi:</span><span class="sxs-lookup"><span data-stu-id="63120-141">To add translations of the instructions, follow these steps:</span></span>
+    1.  <span data-ttu-id="63120-142">Noklikšķiniet uz **Tulkojumi**.</span><span class="sxs-lookup"><span data-stu-id="63120-142">Click **Translations**.</span></span>
+    2.  <span data-ttu-id="63120-143">Parādītajā lapā noklikšķiniet uz **Pievienot**.</span><span class="sxs-lookup"><span data-stu-id="63120-143">On the page that appears, click **Add**.</span></span>
+    3.  <span data-ttu-id="63120-144">Parādītajā sarakstā izvēlieties valodu, kas tiek izmantota teksta ievadei.</span><span class="sxs-lookup"><span data-stu-id="63120-144">In the list that appears, select the language that you're entering the text in.</span></span>
+    4.  <span data-ttu-id="63120-145">Laukā **Tulkotais teksts** ievadiet tekstu.</span><span class="sxs-lookup"><span data-stu-id="63120-145">In the **Translated text** field, enter the text.</span></span>
+    5.  <span data-ttu-id="63120-146">Lai personalizētu tekstu, var ievadīt vietturus, kā aprakstīts 6. darbībā.</span><span class="sxs-lookup"><span data-stu-id="63120-146">To personalize the text, you can insert placeholders as described in step 6.</span></span>
+    6.  <span data-ttu-id="63120-147">Noklikšķiniet uz **Aizvērt**.</span><span class="sxs-lookup"><span data-stu-id="63120-147">Click **Close**.</span></span>
 
-## <a name="assign-the-approval-step"></a>Piešķiriet apstiprināšanas soli
-Veiciet šīs darbības, lai norādītu personu, kurai jāpiešķir apstiprināšanas darbība.
+## <a name="assign-the-approval-step"></a><span data-ttu-id="63120-148">Piešķiriet apstiprināšanas soli</span><span class="sxs-lookup"><span data-stu-id="63120-148">Assign the approval step</span></span>
+<span data-ttu-id="63120-149">Veiciet šīs darbības, lai norādītu personu, kurai jāpiešķir apstiprināšanas darbība.</span><span class="sxs-lookup"><span data-stu-id="63120-149">Follow these steps to specify who the approval step should be assigned to.</span></span>
 
-1.  Kreisajā rūtī noklikšķiniet uz **Piešķire**.
-2.  Cilnē **Piešķires tips** atlasiet vienu no tālāk redzamajā tabulā minētajām opcijām un pēc tam veiciet papildu darbības attiecīgajai opcijai, pirms pārejat uz 3. darbību.
+1.  <span data-ttu-id="63120-150">Kreisajā rūtī noklikšķiniet uz **Piešķire**.</span><span class="sxs-lookup"><span data-stu-id="63120-150">In the left pane, click **Assignment**.</span></span>
+2.  <span data-ttu-id="63120-151">Cilnē **Piešķires tips** atlasiet vienu no tālāk redzamajā tabulā minētajām opcijām un pēc tam veiciet papildu darbības attiecīgajai opcijai, pirms pārejat uz 3. darbību.</span><span class="sxs-lookup"><span data-stu-id="63120-151">On the **Assignment type** tab, select one of the options in the following table, and then follow the additional steps for that option before you go to step 3.</span></span>
     <table>
     <colgroup>
     <col width="33%" />
@@ -87,109 +87,109 @@ Veiciet šīs darbības, lai norādītu personu, kurai jāpiešķir apstiprinā�
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Opcija</th>
-    <th>Lietotāji, kuriem ir piešķirta apstiprināšanas darbība</th>
-    <th>Papildu transakcijas</th>
+    <th><span data-ttu-id="63120-152">Opcija</span><span class="sxs-lookup"><span data-stu-id="63120-152">Option</span></span></th>
+    <th><span data-ttu-id="63120-153">Lietotāji, kuriem ir piešķirta apstiprināšanas darbība</span><span class="sxs-lookup"><span data-stu-id="63120-153">Users that the approval step is assigned to</span></span></th>
+    <th><span data-ttu-id="63120-154">Papildu transakcijas</span><span class="sxs-lookup"><span data-stu-id="63120-154">Additional steps</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Dalībnieks</td>
-    <td>Lietotāji, kuri ir piešķirti noteiktai grupai vai lomai</td>
+    <td><span data-ttu-id="63120-155">Dalībnieks</span><span class="sxs-lookup"><span data-stu-id="63120-155">Participant</span></span></td>
+    <td><span data-ttu-id="63120-156">Lietotāji, kuri ir piešķirti noteiktai grupai vai lomai</span><span class="sxs-lookup"><span data-stu-id="63120-156">Users who are assigned to a specific group or role</span></span></td>
     <td><ol>
-    <li>Pēc tam, kad ir atlasīts vienums <strong>Dalībnieks</strong>, cilnes <strong>Pēc lomas</strong> sarakstā <strong>Dalībnieka tips</strong> atlasiet grupas tipu vai lomu, kurai piešķirt darbību.</li>
-    <li>Sarakstā <strong>Dalībnieks</strong> atlasiet grupu vai lomu, kurai piešķirt darbību.</li>
+    <li><span data-ttu-id="63120-157">Pēc tam, kad ir atlasīts vienums <strong>Dalībnieks</strong>, cilnes <strong>Pēc lomas</strong> sarakstā <strong>Dalībnieka tips</strong> atlasiet grupas tipu vai lomu, kurai piešķirt darbību.</span><span class="sxs-lookup"><span data-stu-id="63120-157">After you select <strong>Participant</strong>, on the <strong>Role based</strong> tab, in the <strong>Type of participant</strong> list, select the type of group or role to assign the step to.</span></span></li>
+    <li><span data-ttu-id="63120-158">Sarakstā <strong>Dalībnieks</strong> atlasiet grupu vai lomu, kurai piešķirt darbību.</span><span class="sxs-lookup"><span data-stu-id="63120-158">In the <strong>Participant</strong> list, select the group or role to assign the step to.</span></span></li>
     </ol></td>
     </tr>
     <tr class="even">
-    <td>Hierarhija</td>
-    <td>Lietotāji īpašā organizācijas hierarhijā</td>
+    <td><span data-ttu-id="63120-159">Hierarhija</span><span class="sxs-lookup"><span data-stu-id="63120-159">Hierarchy</span></span></td>
+    <td><span data-ttu-id="63120-160">Lietotāji īpašā organizācijas hierarhijā</span><span class="sxs-lookup"><span data-stu-id="63120-160">Users in a specific organizational hierarchy</span></span></td>
     <td><ol>
-    <li>Pēc tam, kad ir atlasīts vienums <strong>Hierarhija</strong>, cilnes <strong>Hierarhijas atlase</strong> sarakstā <strong>Hierarhijas tips</strong> atlasiet hierarhijas tipu, kurai piešķirt darbību.</li>
-    <li>Sistēmai no hierarhijas ir jāizgūst lietotāju vārdu diapazons. Šie vārdi norāda, kuriem lietotājiem var piešķirt attiecīgo darbību. Veiciet šīs darbības, lai norādītu sistēmas izgūto lietotāju vārdu diapazona sākumu un beigas: <ol>
-    <li>Lai norādītu sākumu, atlasiet kādu personu sarakstā <strong>Sākt no</strong>.</li>
-    <li>Lai norādītu beigas, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>. Pēc tam ievadiet nosacījumu, kas nosaka, kurā vietā hierarhijā sistēma pārtrauc vārdu izgūšanu.</li>
+    <li><span data-ttu-id="63120-161">Pēc tam, kad ir atlasīts vienums <strong>Hierarhija</strong>, cilnes <strong>Hierarhijas atlase</strong> sarakstā <strong>Hierarhijas tips</strong> atlasiet hierarhijas tipu, kurai piešķirt darbību.</span><span class="sxs-lookup"><span data-stu-id="63120-161">After you select <strong>Hierarchy</strong>, on the <strong>Hierarchy selection</strong> tab, in the <strong>Hierarchy type</strong> list, select the type of hierarchy to assign the step to.</span></span></li>
+    <li><span data-ttu-id="63120-162">Sistēmai no hierarhijas ir jāizgūst lietotāju vārdu diapazons.</span><span class="sxs-lookup"><span data-stu-id="63120-162">The system must retrieve a range of user names from the hierarchy.</span></span> <span data-ttu-id="63120-163">Šie vārdi norāda, kuriem lietotājiem var piešķirt attiecīgo darbību.</span><span class="sxs-lookup"><span data-stu-id="63120-163">These names represent users that the step can be assigned to.</span></span> <span data-ttu-id="63120-164">Veiciet šīs darbības, lai norādītu sistēmas izgūto lietotāju vārdu diapazona sākumu un beigas:</span><span class="sxs-lookup"><span data-stu-id="63120-164">Follow these steps to specify the starting point and ending point of the range of user names that the system retrieves:</span></span> <ol>
+    <li><span data-ttu-id="63120-165">Lai norādītu sākumu, atlasiet kādu personu sarakstā <strong>Sākt no</strong>.</span><span class="sxs-lookup"><span data-stu-id="63120-165">To specify the starting point, select a person in the <strong>Start from</strong> list.</span></span></li>
+    <li><span data-ttu-id="63120-166">Lai norādītu beigas, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</span><span class="sxs-lookup"><span data-stu-id="63120-166">To specify the ending point, click <strong>Add condition</strong>.</span></span> <span data-ttu-id="63120-167">Pēc tam ievadiet nosacījumu, kas nosaka, kurā vietā hierarhijā sistēma pārtrauc vārdu izgūšanu.</span><span class="sxs-lookup"><span data-stu-id="63120-167">Then enter a condition that determines where in the hierarchy the system stops retrieving names.</span></span></li>
     </ol></li>
-    <li>Cilnē <strong>Hierarhijas opcijas</strong> norādiet attiecīgajā diapazonā esošos lietotājus, kuriem darbība jāpiešķir: <ul>
-    <li><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — darbība tiek piešķirta visiem diapazonā esošajiem lietotājiem.</li>
-    <li><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — darbība tiek piešķirta tikai pēdējam lietotājam diapazonā.</li>
-    <li><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — darbība netiek piešķirta diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam. Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</li>
+    <li><span data-ttu-id="63120-168">Cilnē <strong>Hierarhijas opcijas</strong> norādiet attiecīgajā diapazonā esošos lietotājus, kuriem darbība jāpiešķir:</span><span class="sxs-lookup"><span data-stu-id="63120-168">On the <strong>Hierarchy options</strong> tab, specify which users in the range the step should be assigned to:</span></span> <ul>
+    <li><span data-ttu-id="63120-169"><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — darbība tiek piešķirta visiem diapazonā esošajiem lietotājiem.</span><span class="sxs-lookup"><span data-stu-id="63120-169"><strong>Assign to all users retrieved</strong> – The step is assigned to all users in the range.</span></span></li>
+    <li><span data-ttu-id="63120-170"><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — darbība tiek piešķirta tikai pēdējam lietotājam diapazonā.</span><span class="sxs-lookup"><span data-stu-id="63120-170"><strong>Assign only to last user retrieved</strong> – The step is assigned to only the last user in the range.</span></span></li>
+    <li><span data-ttu-id="63120-171"><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — darbība netiek piešķirta diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam.</span><span class="sxs-lookup"><span data-stu-id="63120-171"><strong>Exclude users with the following condition</strong> – The step isn't assigned to any users in the range who meet a specific condition.</span></span> <span data-ttu-id="63120-172">Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</span><span class="sxs-lookup"><span data-stu-id="63120-172">Click <strong>Add condition</strong> to specify the condition.</span></span></li>
     </ul></li>
     </ol></td>
     </tr>
     <tr class="odd">
-    <td>Darbplūsmas lietotājs</td>
-    <td>Lietotāji pašreizējā darbplūsmā</td>
+    <td><span data-ttu-id="63120-173">Darbplūsmas lietotājs</span><span class="sxs-lookup"><span data-stu-id="63120-173">Workflow user</span></span></td>
+    <td><span data-ttu-id="63120-174">Lietotāji pašreizējā darbplūsmā</span><span class="sxs-lookup"><span data-stu-id="63120-174">Users in the current workflow</span></span></td>
     <td><ul>
-    <li>Pēc tam, kad ir atlasīts vienums <strong>Darbplūsmas lietotājs</strong>, cilnes <strong>Darbplūsmas lietotājs</strong> sarakstā <strong>Darbplūsmas lietotājs</strong> atlasiet lietotāju, kas piedalās attiecīgajā darbplūsmā.</li>
+    <li><span data-ttu-id="63120-175">Pēc tam, kad ir atlasīts vienums <strong>Darbplūsmas lietotājs</strong>, cilnes <strong>Darbplūsmas lietotājs</strong> sarakstā <strong>Darbplūsmas lietotājs</strong> atlasiet lietotāju, kas piedalās attiecīgajā darbplūsmā.</span><span class="sxs-lookup"><span data-stu-id="63120-175">After you select <strong>Workflow user</strong>, on the <strong>Workflow user</strong> tab, in the <strong>Workflow user</strong> list, select a user who participates in the workflow.</span></span></li>
     </ul></td>
     </tr>
     <tr class="even">
-    <td>Lietotājs</td>
-    <td>Noteikti Microsoft Dynamics 365 for Finance and Operations lietotāji</td>
+    <td><span data-ttu-id="63120-176">Lietotājs</span><span class="sxs-lookup"><span data-stu-id="63120-176">User</span></span></td>
+    <td><span data-ttu-id="63120-177">Noteikti Microsoft Dynamics 365 for Finance and Operations lietotāji</span><span class="sxs-lookup"><span data-stu-id="63120-177">Specific Microsoft Dynamics 365 for Finance and Operations users</span></span></td>
     <td><ol>
-    <li>Pēc tam, kad ir atlasīts vienums <strong>Lietotājs</strong>, noklikšķiniet uz cilnes <strong>Lietotājs</strong>.</li>
-    <li>Sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Finance and Operations lietotāji. Atlasiet lietotājus, kuriem piešķirt darbību, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
+    <li><span data-ttu-id="63120-178">Pēc tam, kad ir atlasīts vienums <strong>Lietotājs</strong>, noklikšķiniet uz cilnes <strong>Lietotājs</strong>.</span><span class="sxs-lookup"><span data-stu-id="63120-178">After you select <strong>User</strong>, click the <strong>User</strong> tab.</span></span></li>
+    <li><span data-ttu-id="63120-179">Sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Finance and Operations lietotāji.</span><span class="sxs-lookup"><span data-stu-id="63120-179">The <strong>Available users</strong> list includes all Finance and Operations users.</span></span> <span data-ttu-id="63120-180">Atlasiet lietotājus, kuriem piešķirt darbību, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</span><span class="sxs-lookup"><span data-stu-id="63120-180">Select the users to assign the step to, and then move those users to the <strong>Selected users</strong> list.</span></span></li>
     </ol></td>
     </tr>
     </tbody>
     </table>
 
-3.  Cilnes **Laika limits** laukā **Ilgums** norādiet, cik ilgs laiks ir dots lietotājam, lai veiktu darbību saistībā ar vai atbildētu uz dokumentiem, kas sasniedz apstiprināšanas darbību. Izvēlieties vienu no šīm opcijām:
-    -   **Stundas** — ievadiet stundu skaitu, kuru laikā lietotājam ir jāatbild. Pēc tam atlasiet kalendāru, ko izmanto jūsu organizācija, un ievadiet informāciju par jūsu organizācijas darba nedēļu.
-    -   **Dienas** — ievadiet dienu skaitu, kuru laikā lietotājam ir jāatbild. Pēc tam atlasiet kalendāru, ko izmanto jūsu organizācija, un ievadiet informāciju par jūsu organizācijas darba nedēļu.
-    -   **Nedēļas** — ievadiet nedēļu skaitu, kuru laikā lietotājam ir jāatbild.
-    -   **Mēneši** — izvēlieties dienu un nedēļu, līdz kurai lietotājam ir jāatbild. Piemēram, varat norādīt, lai lietotājs atbild līdz mēneša trešās nedēļas piektdienai.
-    -   **Gadi** — izvēlieties dienu, nedēļu un mēnesi, līdz kuram lietotājam ir jāatbild. Piemēram, varat norādīt, lai lietotājs atbildētu līdz decembra trešās nedēļas piektdienai.
+3.  <span data-ttu-id="63120-181">Cilnes **Laika limits** laukā **Ilgums** norādiet, cik ilgs laiks ir dots lietotājam, lai veiktu darbību saistībā ar vai atbildētu uz dokumentiem, kas sasniedz apstiprināšanas darbību.</span><span class="sxs-lookup"><span data-stu-id="63120-181">On the **Time limit** tab, in the **Duration** field, specify how much time the user has to take action on, or respond to, documents that reach the approval step.</span></span> <span data-ttu-id="63120-182">Izvēlieties vienu no šīm opcijām:</span><span class="sxs-lookup"><span data-stu-id="63120-182">Select one of the following options:</span></span>
+    -   <span data-ttu-id="63120-183">**Stundas** — ievadiet stundu skaitu, kuru laikā lietotājam ir jāatbild.</span><span class="sxs-lookup"><span data-stu-id="63120-183">**Hours** – Enter the number of hours that the user has to respond.</span></span> <span data-ttu-id="63120-184">Pēc tam atlasiet kalendāru, ko izmanto jūsu organizācija, un ievadiet informāciju par jūsu organizācijas darba nedēļu.</span><span class="sxs-lookup"><span data-stu-id="63120-184">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+    -   <span data-ttu-id="63120-185">**Dienas** — ievadiet dienu skaitu, kuru laikā lietotājam ir jāatbild.</span><span class="sxs-lookup"><span data-stu-id="63120-185">**Days** – Enter the number of days that the user has to respond.</span></span> <span data-ttu-id="63120-186">Pēc tam atlasiet kalendāru, ko izmanto jūsu organizācija, un ievadiet informāciju par jūsu organizācijas darba nedēļu.</span><span class="sxs-lookup"><span data-stu-id="63120-186">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+    -   <span data-ttu-id="63120-187">**Nedēļas** — ievadiet nedēļu skaitu, kuru laikā lietotājam ir jāatbild.</span><span class="sxs-lookup"><span data-stu-id="63120-187">**Weeks** – Enter the number of weeks that the user has to respond.</span></span>
+    -   <span data-ttu-id="63120-188">**Mēneši** — izvēlieties dienu un nedēļu, līdz kurai lietotājam ir jāatbild.</span><span class="sxs-lookup"><span data-stu-id="63120-188">**Months** – Select the day and week that the user must respond by.</span></span> <span data-ttu-id="63120-189">Piemēram, varat norādīt, lai lietotājs atbild līdz mēneša trešās nedēļas piektdienai.</span><span class="sxs-lookup"><span data-stu-id="63120-189">For example, you might want the user to respond by Friday of the third week of the month.</span></span>
+    -   <span data-ttu-id="63120-190">**Gadi** — izvēlieties dienu, nedēļu un mēnesi, līdz kuram lietotājam ir jāatbild.</span><span class="sxs-lookup"><span data-stu-id="63120-190">**Years** – Select the day, week, and month that the user must respond by.</span></span> <span data-ttu-id="63120-191">Piemēram, varat norādīt, lai lietotājs atbildētu līdz decembra trešās nedēļas piektdienai.</span><span class="sxs-lookup"><span data-stu-id="63120-191">For example, you might want the user to respond by Friday of the third week of December.</span></span>
 
-    Ja lietotājs neveic darbības ar dokumentu atvēlētajā laikā, dokuments ir nokavēts. Nokavēts dokuments tiek eskalēts, pamatojoties uz opcijām, kas ir atlasītas lapas apgabalā **Eskalācija**.
-4.  Ja apstiprināšanas darbība ir piešķirta vairākiem lietotājiem vai lietotāju grupai, cilnē **Pabeigšanas ierobežojums** atlasiet vienu no šīm opcijām:
-    -   **Viens apstiprinātājs** — ar dokumentu veicamo darbību nosaka pirmā persona, kas atbild. Piemēram, Sems iesniedzis izdevumu pārskatu par USD 15 000. Izdevumu pārskats pašlaik ir piešķirts Sjū, Džo un Bilam. Ja Sjū ir pirmā uz dokumentu atbildējusī persona, dokumentam tiek veikta viņas izpildītā darbība. Ja Sjū noraida dokumentu, tas tiek noraidīts un nosūtīts atpakaļ Semam. Ja Sjū apstiprina šo dokumentu, tas tiek nosūtīts Annai apstiprināšanai. ![Darbplūsma, kurai ir apstiprināšanas process](./media/workflow_multipleusersinstep.gif)
-    -   **Apstiprinātāju vairākums** — ar dokumentu veicamā darbība tiek noteikta, kad atbild apstiprinātāju vairākums. Piemēram, Sems iesniedzis izdevumu pārskatu par USD 15 000. Izdevumu pārskats pašlaik ir piešķirts Sjū, Džo un Bilam. Ja Sjū un Džo ir pirmie divi apstiprinātāji, kas atbild, viņu izpildītā darbība nosaka ar dokumentu veicamo darbību.
-        -   Ja Sjū apstiprina dokumentu, bet Džo to noraida, dokuments tiek noraidīts un atgriežas pie Sema.
-        -   Ja gan Sjū, gan Džo apstiprina dokumentu, tas nonāk apstiprināšanai pie Annas.
-    -   **Apstiprinātāju procenti** — ar dokumentu veicamā darbība tiek noteikta, kad atbild noteikts apstiprinātāju procentuālais daudzums. Piemēram, Sems iesniedzis izdevumu pārskatu par USD 15 000. Izdevumu pārskats pašlaik ir piešķirts Sjū, Džo un Bilam, un jūs ievadījāt **50** kā procentuālo daudzumu. Ja Sjū un Džo ir pirmie divi apstiprinātāji, kas atbild, viņu izpildītā darbība nosaka ar dokumentu veicamo darbību, jo tiek izpildīta prasība attiecībā uz 50 procentiem no apstiprinātājiem.
-        -   Ja Sjū apstiprina dokumentu, bet Džo to noraida, dokuments tiek noraidīts un atgriežas pie Sema.
-        -   Ja gan Sjū, gan Džo apstiprina dokumentu, tas nonāk apstiprināšanai pie Annas.
-    -   **Visi apstiprinātāji** — visiem apstiprinātājiem dokuments jāapstiprina. Pretējā gadījumā nevar turpināt darbplūsmu. Piemēram, Sems iesniedzis izdevumu pārskatu par USD 15 000. Izdevumu pārskats pašlaik ir piešķirts Sjū, Džo un Bilam. Ja Sjū un Džo apstiprina dokumentu, bet Bils to noraida, dokuments tiek noraidīts un nosūtīts atpakaļ Semam. Ja Sjū, Džo un Bils apstiprina dokumentu, tas nonāk apstiprināšanai pie Annas.
+    <span data-ttu-id="63120-192">Ja lietotājs neveic darbības ar dokumentu atvēlētajā laikā, dokuments ir nokavēts.</span><span class="sxs-lookup"><span data-stu-id="63120-192">If the user doesn't take action on the document in the allotted time, the document is overdue.</span></span> <span data-ttu-id="63120-193">Nokavēts dokuments tiek eskalēts, pamatojoties uz opcijām, kas ir atlasītas lapas apgabalā **Eskalācija**.</span><span class="sxs-lookup"><span data-stu-id="63120-193">A document that is overdue is escalated, based on the options that you select in the **Escalation** area of the page.</span></span>
+4.  <span data-ttu-id="63120-194">Ja apstiprināšanas darbība ir piešķirta vairākiem lietotājiem vai lietotāju grupai, cilnē **Pabeigšanas ierobežojums** atlasiet vienu no šīm opcijām:</span><span class="sxs-lookup"><span data-stu-id="63120-194">If you assigned the approval step to multiple users or a group of users, on the **Completion policy** tab, select one of the following options:</span></span>
+    -   <span data-ttu-id="63120-195">**Viens apstiprinātājs** — ar dokumentu veicamo darbību nosaka pirmā persona, kas atbild.</span><span class="sxs-lookup"><span data-stu-id="63120-195">**Single approver** – The action that is applied to the document is determined by the first person who responds.</span></span> <span data-ttu-id="63120-196">Piemēram, Sems iesniedzis izdevumu pārskatu par USD 15 000.</span><span class="sxs-lookup"><span data-stu-id="63120-196">For example, Sam has submitted an expense report for USD 15,000.</span></span> <span data-ttu-id="63120-197">Izdevumu pārskats pašlaik ir piešķirts Sjū, Džo un Bilam.</span><span class="sxs-lookup"><span data-stu-id="63120-197">The expense report is currently assigned to Sue, Jo, and Bill.</span></span> <span data-ttu-id="63120-198">Ja Sjū ir pirmā uz dokumentu atbildējusī persona, dokumentam tiek veikta viņas izpildītā darbība.</span><span class="sxs-lookup"><span data-stu-id="63120-198">If Sue is the first person who responds to the document, the action that she takes is applied to the document.</span></span> <span data-ttu-id="63120-199">Ja Sjū noraida dokumentu, tas tiek noraidīts un nosūtīts atpakaļ Semam.</span><span class="sxs-lookup"><span data-stu-id="63120-199">If Sue rejects the document, it's rejected and sent back to Sam.</span></span> <span data-ttu-id="63120-200">Ja Sjū apstiprina šo dokumentu, tas tiek nosūtīts Annai apstiprināšanai.</span><span class="sxs-lookup"><span data-stu-id="63120-200">If Sue approves the document, it's sent to Ann for approval.</span></span> <span data-ttu-id="63120-201">![Darbplūsma, kurai ir apstiprināšanas process](./media/workflow_multipleusersinstep.gif)</span><span class="sxs-lookup"><span data-stu-id="63120-201">![Workflow that has an approval process](./media/workflow_multipleusersinstep.gif)</span></span>
+    -   <span data-ttu-id="63120-202">**Apstiprinātāju vairākums** — ar dokumentu veicamā darbība tiek noteikta, kad atbild apstiprinātāju vairākums.</span><span class="sxs-lookup"><span data-stu-id="63120-202">**Majority of approvers** – The action that is applied to the document is determined when most of the approvers respond.</span></span> <span data-ttu-id="63120-203">Piemēram, Sems iesniedzis izdevumu pārskatu par USD 15 000.</span><span class="sxs-lookup"><span data-stu-id="63120-203">For example, Sam has submitted an expense report for USD 15,000.</span></span> <span data-ttu-id="63120-204">Izdevumu pārskats pašlaik ir piešķirts Sjū, Džo un Bilam.</span><span class="sxs-lookup"><span data-stu-id="63120-204">The expense report is currently assigned to Sue, Jo, and Bill.</span></span> <span data-ttu-id="63120-205">Ja Sjū un Džo ir pirmie divi apstiprinātāji, kas atbild, viņu izpildītā darbība nosaka ar dokumentu veicamo darbību.</span><span class="sxs-lookup"><span data-stu-id="63120-205">If Sue and Jo are the first two approvers who respond, the action that they take is applied to the document.</span></span>
+        -   <span data-ttu-id="63120-206">Ja Sjū apstiprina dokumentu, bet Džo to noraida, dokuments tiek noraidīts un atgriežas pie Sema.</span><span class="sxs-lookup"><span data-stu-id="63120-206">If Sue approves the document, but Jo rejects it, the document is rejected and sent back to Sam.</span></span>
+        -   <span data-ttu-id="63120-207">Ja gan Sjū, gan Džo apstiprina dokumentu, tas nonāk apstiprināšanai pie Annas.</span><span class="sxs-lookup"><span data-stu-id="63120-207">If both Sue and Jo approve the document, it's sent to Ann for approval.</span></span>
+    -   <span data-ttu-id="63120-208">**Apstiprinātāju procenti** — ar dokumentu veicamā darbība tiek noteikta, kad atbild noteikts apstiprinātāju procentuālais daudzums.</span><span class="sxs-lookup"><span data-stu-id="63120-208">**Percentage of approvers** – The action that is applied to the document is determined when a specific percentage of the approvers respond.</span></span> <span data-ttu-id="63120-209">Piemēram, Sems iesniedzis izdevumu pārskatu par USD 15 000.</span><span class="sxs-lookup"><span data-stu-id="63120-209">For example, Sam has submitted an expense report for USD 15,000.</span></span> <span data-ttu-id="63120-210">Izdevumu pārskats pašlaik ir piešķirts Sjū, Džo un Bilam, un jūs ievadījāt **50** kā procentuālo daudzumu.</span><span class="sxs-lookup"><span data-stu-id="63120-210">The expense report is currently assigned to Sue, Jo, and Bill, and you entered **50** as the percentage.</span></span> <span data-ttu-id="63120-211">Ja Sjū un Džo ir pirmie divi apstiprinātāji, kas atbild, viņu izpildītā darbība nosaka ar dokumentu veicamo darbību, jo tiek izpildīta prasība attiecībā uz 50 procentiem no apstiprinātājiem.</span><span class="sxs-lookup"><span data-stu-id="63120-211">If Sue and Jo are the first two approvers who respond, the action that they take is applied to the document, because they meet the requirement for 50 percent of approvers.</span></span>
+        -   <span data-ttu-id="63120-212">Ja Sjū apstiprina dokumentu, bet Džo to noraida, dokuments tiek noraidīts un atgriežas pie Sema.</span><span class="sxs-lookup"><span data-stu-id="63120-212">If Sue approves the document, but Jo rejects it, the document is rejected and sent back to Sam.</span></span>
+        -   <span data-ttu-id="63120-213">Ja gan Sjū, gan Džo apstiprina dokumentu, tas nonāk apstiprināšanai pie Annas.</span><span class="sxs-lookup"><span data-stu-id="63120-213">If both Sue and Jo approve the document, it's sent to Ann for approval.</span></span>
+    -   <span data-ttu-id="63120-214">**Visi apstiprinātāji** — visiem apstiprinātājiem dokuments jāapstiprina.</span><span class="sxs-lookup"><span data-stu-id="63120-214">**All approvers** – All the approvers must approve the document.</span></span> <span data-ttu-id="63120-215">Pretējā gadījumā nevar turpināt darbplūsmu.</span><span class="sxs-lookup"><span data-stu-id="63120-215">Otherwise, the workflow can't continue.</span></span> <span data-ttu-id="63120-216">Piemēram, Sems iesniedzis izdevumu pārskatu par USD 15 000.</span><span class="sxs-lookup"><span data-stu-id="63120-216">For example, Sam has submitted an expense report for USD 15,000.</span></span> <span data-ttu-id="63120-217">Izdevumu pārskats pašlaik ir piešķirts Sjū, Džo un Bilam.</span><span class="sxs-lookup"><span data-stu-id="63120-217">The expense report is currently assigned to Sue, Jo, and Bill.</span></span> <span data-ttu-id="63120-218">Ja Sjū un Džo apstiprina dokumentu, bet Bils to noraida, dokuments tiek noraidīts un nosūtīts atpakaļ Semam.</span><span class="sxs-lookup"><span data-stu-id="63120-218">If Sue and Joe approve the document, but Bill rejects it, the document is rejected and sent back to Sam.</span></span> <span data-ttu-id="63120-219">Ja Sjū, Džo un Bils apstiprina dokumentu, tas nonāk apstiprināšanai pie Annas.</span><span class="sxs-lookup"><span data-stu-id="63120-219">If Sue, Jo, and Bill all approve the document, it's sent to Ann for approval.</span></span>
 
-## <a name="specify-when-the-approval-step-is-required"></a>Norādiet, kad ir nepieciešama apstiprināšanas darbība
-Varat norādīt, kad ir nepieciešama apstiprināšanas darbība. Apstiprināšanas darbība var būt nepieciešama vienmēr, vai arī tā var būt nepieciešama tikai tad, ja ir izpildīti konkrēti nosacījumi.
+## <a name="specify-when-the-approval-step-is-required"></a><span data-ttu-id="63120-220">Norādiet, kad ir nepieciešama apstiprināšanas darbība</span><span class="sxs-lookup"><span data-stu-id="63120-220">Specify when the approval step is required</span></span>
+<span data-ttu-id="63120-221">Varat norādīt, kad ir nepieciešama apstiprināšanas darbība.</span><span class="sxs-lookup"><span data-stu-id="63120-221">You can specify when the approval step is required.</span></span> <span data-ttu-id="63120-222">Apstiprināšanas darbība var būt nepieciešama vienmēr, vai arī tā var būt nepieciešama tikai tad, ja ir izpildīti konkrēti nosacījumi.</span><span class="sxs-lookup"><span data-stu-id="63120-222">The approval step can always be required, or it can be required only if specific conditions are met.</span></span>
 
-### <a name="the-approval-step-is-always-required"></a>Apstiprināšanas darbība ir nepieciešama vienmēr
+### <a name="the-approval-step-is-always-required"></a><span data-ttu-id="63120-223">Apstiprināšanas darbība ir nepieciešama vienmēr</span><span class="sxs-lookup"><span data-stu-id="63120-223">The approval step is always required</span></span>
 
-Veiciet šīs darbības, ja apstiprināšanas darbība ir nepieciešama vienmēr.
+<span data-ttu-id="63120-224">Veiciet šīs darbības, ja apstiprināšanas darbība ir nepieciešama vienmēr.</span><span class="sxs-lookup"><span data-stu-id="63120-224">Follow these steps if the approval step is always required.</span></span>
 
-1.  Kreisajā rūtī noklikšķiniet uz **Nosacījums**.
-2.  Atlasiet opciju **Vienmēr izpildīt šo soli**.
+1.  <span data-ttu-id="63120-225">Kreisajā rūtī noklikšķiniet uz **Nosacījums**.</span><span class="sxs-lookup"><span data-stu-id="63120-225">In the left pane, click **Condition**.</span></span>
+2.  <span data-ttu-id="63120-226">Atlasiet opciju **Vienmēr izpildīt šo soli**.</span><span class="sxs-lookup"><span data-stu-id="63120-226">Select the **Always run this step** option.</span></span>
 
-### <a name="the-approval-step-is-required-in-specific-conditions"></a>Apstiprināšanas darbība ir nepieciešama, ja ir konkrēti nosacījumi
+### <a name="the-approval-step-is-required-in-specific-conditions"></a><span data-ttu-id="63120-227">Apstiprināšanas darbība ir nepieciešama, ja ir konkrēti nosacījumi</span><span class="sxs-lookup"><span data-stu-id="63120-227">The approval step is required in specific conditions</span></span>
 
-Apstiprināšanas darbība, kura tiek konfigurēta, var būt nepieciešama tikai tad, ja ir izpildīti konkrēti nosacījumi. Piemēram, ja konfigurējat pirkšanas pieprasījuma darbplūsmas apstiprināšanas darbību, varat to lietot tikai tad, ja pirkšanas pieprasījuma summa ir lielāka par USD 10 000. Veiciet šīs darbības, lai norādītu, kad ir nepieciešama apstiprināšanas darbība.
+<span data-ttu-id="63120-228">Apstiprināšanas darbība, kura tiek konfigurēta, var būt nepieciešama tikai tad, ja ir izpildīti konkrēti nosacījumi.</span><span class="sxs-lookup"><span data-stu-id="63120-228">The approval step that you're configuring might be required only if specific conditions are met.</span></span> <span data-ttu-id="63120-229">Piemēram, ja konfigurējat pirkšanas pieprasījuma darbplūsmas apstiprināšanas darbību, varat to lietot tikai tad, ja pirkšanas pieprasījuma summa ir lielāka par USD 10 000.</span><span class="sxs-lookup"><span data-stu-id="63120-229">For example, if you're configuring an approval step for a purchase requisition workflow, you might want the approval step to occur only if the amount of the purchase requisition is more than USD 10,000.</span></span> <span data-ttu-id="63120-230">Veiciet šīs darbības, lai norādītu, kad ir nepieciešama apstiprināšanas darbība.</span><span class="sxs-lookup"><span data-stu-id="63120-230">Follow these steps to specify when the approval step is required.</span></span>
 
-1.  Kreisajā rūtī noklikšķiniet uz **Nosacījums**.
-2.  Atlasiet opciju **Izpildīt šo soli, ja ir spēkā šāds nosacījums**.
-3.  Ievadīt nosacījumu.
-4.  Ievadiet visus nepieciešamos papildu nosacījumus.
-5.  Lai pārbaudītu, vai ievadītie nosacījumi ir pareizi konfigurēti, rīkojieties šādi:
-    1.  Noklikšķiniet uz **Tests**.
-    2.  Lapas **Testēt darbplūsmas nosacījumu** apgabalā **Pārbaudīt nosacījumu** atlasiet ierakstu.
-    3.  Noklikšķiniet uz **Tests**. Sistēma novērtē ierakstu, lai noteiktu, vai tas atbilst jūsu definētajiem nosacījumiem.
-    4.  Noklikšķiniet uz **Labi** vai **Atcelt**, lai atgrieztos lapā **Rekvizīti**.
+1.  <span data-ttu-id="63120-231">Kreisajā rūtī noklikšķiniet uz **Nosacījums**.</span><span class="sxs-lookup"><span data-stu-id="63120-231">In the left pane, click **Condition**.</span></span>
+2.  <span data-ttu-id="63120-232">Atlasiet opciju **Izpildīt šo soli, ja ir spēkā šāds nosacījums**.</span><span class="sxs-lookup"><span data-stu-id="63120-232">Select the **Run this step only when the following condition is met** option.</span></span>
+3.  <span data-ttu-id="63120-233">Ievadīt nosacījumu.</span><span class="sxs-lookup"><span data-stu-id="63120-233">Enter a condition.</span></span>
+4.  <span data-ttu-id="63120-234">Ievadiet visus nepieciešamos papildu nosacījumus.</span><span class="sxs-lookup"><span data-stu-id="63120-234">Enter any additional conditions that are required.</span></span>
+5.  <span data-ttu-id="63120-235">Lai pārbaudītu, vai ievadītie nosacījumi ir pareizi konfigurēti, rīkojieties šādi:</span><span class="sxs-lookup"><span data-stu-id="63120-235">To verify that the conditions that you entered are configured correctly, follow these steps:</span></span>
+    1.  <span data-ttu-id="63120-236">Noklikšķiniet uz **Tests**.</span><span class="sxs-lookup"><span data-stu-id="63120-236">Click **Test**.</span></span>
+    2.  <span data-ttu-id="63120-237">Lapas **Testēt darbplūsmas nosacījumu** apgabalā **Pārbaudīt nosacījumu** atlasiet ierakstu.</span><span class="sxs-lookup"><span data-stu-id="63120-237">On the **Test workflow condition** page, in the **Validate condition** area, select a record.</span></span>
+    3.  <span data-ttu-id="63120-238">Noklikšķiniet uz **Tests**.</span><span class="sxs-lookup"><span data-stu-id="63120-238">Click **Test**.</span></span> <span data-ttu-id="63120-239">Sistēma novērtē ierakstu, lai noteiktu, vai tas atbilst jūsu definētajiem nosacījumiem.</span><span class="sxs-lookup"><span data-stu-id="63120-239">The system evaluates the record to determine whether it meets the conditions that you defined.</span></span>
+    4.  <span data-ttu-id="63120-240">Noklikšķiniet uz **Labi** vai **Atcelt**, lai atgrieztos lapā **Rekvizīti**.</span><span class="sxs-lookup"><span data-stu-id="63120-240">Click **OK** or **Cancel** to return to the **Properties** page.</span></span>
 
-## <a name="specify-what-happens-when-the-document-is-overdue"></a>Norādiet, kas notiek, ja dokuments ir nokavēts
-Ja lietotājs neveic darbības ar dokumentu atvēlētajā laikā, dokuments ir nokavēts. Dokumentu, kas ir nokavēts, var eskalēt vai automātiski piešķirt citam lietotājam apstiprināšanai. Veiciet šīs darbības, lai eskalētu dokumentu, ja tas ir nokavēts.
+## <a name="specify-what-happens-when-the-document-is-overdue"></a><span data-ttu-id="63120-241">Norādiet, kas notiek, ja dokuments ir nokavēts</span><span class="sxs-lookup"><span data-stu-id="63120-241">Specify what happens when the document is overdue</span></span>
+<span data-ttu-id="63120-242">Ja lietotājs neveic darbības ar dokumentu atvēlētajā laikā, dokuments ir nokavēts.</span><span class="sxs-lookup"><span data-stu-id="63120-242">If a user doesn't take action on a document in the allotted time, the document is overdue.</span></span> <span data-ttu-id="63120-243">Dokumentu, kas ir nokavēts, var eskalēt vai automātiski piešķirt citam lietotājam apstiprināšanai.</span><span class="sxs-lookup"><span data-stu-id="63120-243">A document that is overdue can be escalated, or automatically assigned to another user for approval.</span></span> <span data-ttu-id="63120-244">Veiciet šīs darbības, lai eskalētu dokumentu, ja tas ir nokavēts.</span><span class="sxs-lookup"><span data-stu-id="63120-244">Follow these steps to escalate the document if it's overdue.</span></span>
 
-1.  Kreisajā rūtī noklikšķiniet uz **Eskalācija**.
-2.  Atzīmējiet izvēles rūtiņu **Izmantot eskalācijas ceļu**, lai izveidotu eskalācijas ceļu. Sistēma automātiski piešķirs dokumentu lietotājiem, kuri ir norādīti eskalācijas ceļā. Piemēram, šajā tabulā ir attēlots eskalācijas ceļš.
-    | Secība | Eskalācijas ceļš      |
+1.  <span data-ttu-id="63120-245">Kreisajā rūtī noklikšķiniet uz **Eskalācija**.</span><span class="sxs-lookup"><span data-stu-id="63120-245">In the left pane, click **Escalation**.</span></span>
+2.  <span data-ttu-id="63120-246">Atzīmējiet izvēles rūtiņu **Izmantot eskalācijas ceļu**, lai izveidotu eskalācijas ceļu.</span><span class="sxs-lookup"><span data-stu-id="63120-246">Select the **Use escalation path** check box to create an escalation path.</span></span> <span data-ttu-id="63120-247">Sistēma automātiski piešķirs dokumentu lietotājiem, kuri ir norādīti eskalācijas ceļā.</span><span class="sxs-lookup"><span data-stu-id="63120-247">The system automatically assigns the document to the users who are listed in the escalation path.</span></span> <span data-ttu-id="63120-248">Piemēram, šajā tabulā ir attēlots eskalācijas ceļš.</span><span class="sxs-lookup"><span data-stu-id="63120-248">For example, the following table represents an escalation path.</span></span>
+    | <span data-ttu-id="63120-249">Secība</span><span class="sxs-lookup"><span data-stu-id="63120-249">Sequence</span></span> | <span data-ttu-id="63120-250">Eskalācijas ceļš</span><span class="sxs-lookup"><span data-stu-id="63120-250">Escalation path</span></span>      |
     |----------|----------------------|
-    | 1        | Piešķirt: Lindai     |
-    | 2        | Piešķirt: Zanei      |
-    | 3        | Pēdējā darbība: noraidīt |
+    | <span data-ttu-id="63120-251">1</span><span class="sxs-lookup"><span data-stu-id="63120-251">1</span></span>        | <span data-ttu-id="63120-252">Piešķirt: Lindai</span><span class="sxs-lookup"><span data-stu-id="63120-252">Assign to: Donna</span></span>     |
+    | <span data-ttu-id="63120-253">2</span><span class="sxs-lookup"><span data-stu-id="63120-253">2</span></span>        | <span data-ttu-id="63120-254">Piešķirt: Zanei</span><span class="sxs-lookup"><span data-stu-id="63120-254">Assign to: Erin</span></span>      |
+    | <span data-ttu-id="63120-255">3</span><span class="sxs-lookup"><span data-stu-id="63120-255">3</span></span>        | <span data-ttu-id="63120-256">Pēdējā darbība: noraidīt</span><span class="sxs-lookup"><span data-stu-id="63120-256">Final action: Reject</span></span> |
 
-    Šajā piemērā sistēma piešķir nokavēto dokumentu Lindai. Ja Linda neatbild atvēlētajā laikā, sistēma piešķir dokumentu Zanei. Ja Zane neatbild atvēlētajā laikā, sistēma noraida dokumentu.
-3.  Lai pievienotu lietotāju eskalācijas ceļam, noklikšķiniet uz **Pievienot eskalāciju**. Cilnē **Piešķires tips** atlasiet vienu no tālāk redzamajā tabulā minētajām opcijām un pēc tam veiciet papildu darbības attiecīgajai opcijai, pirms pārejat uz 4. darbību.
+    <span data-ttu-id="63120-257">Šajā piemērā sistēma piešķir nokavēto dokumentu Lindai.</span><span class="sxs-lookup"><span data-stu-id="63120-257">In this example, the system assigns the overdue document to Donna.</span></span> <span data-ttu-id="63120-258">Ja Linda neatbild atvēlētajā laikā, sistēma piešķir dokumentu Zanei.</span><span class="sxs-lookup"><span data-stu-id="63120-258">If Donna doesn't respond in the allotted time, the system assigns the document to Erin.</span></span> <span data-ttu-id="63120-259">Ja Zane neatbild atvēlētajā laikā, sistēma noraida dokumentu.</span><span class="sxs-lookup"><span data-stu-id="63120-259">If Erin doesn't respond in the allotted time, the system rejects the document.</span></span>
+3.  <span data-ttu-id="63120-260">Lai pievienotu lietotāju eskalācijas ceļam, noklikšķiniet uz **Pievienot eskalāciju**.</span><span class="sxs-lookup"><span data-stu-id="63120-260">To add a user to the escalation path, click **Add escalation**.</span></span> <span data-ttu-id="63120-261">Cilnē **Piešķires tips** atlasiet vienu no tālāk redzamajā tabulā minētajām opcijām un pēc tam veiciet papildu darbības attiecīgajai opcijai, pirms pārejat uz 4. darbību.</span><span class="sxs-lookup"><span data-stu-id="63120-261">On the **Assignment type** tab, select one of the options in the following table, and then follow the additional steps for that option before you go to step 4.</span></span>
     <table>
     <colgroup>
     <col width="33%" />
@@ -198,55 +198,55 @@ Ja lietotājs neveic darbības ar dokumentu atvēlētajā laikā, dokuments ir n
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Opcija</th>
-    <th>Lietotāji, kuriem tiek eskalēts dokuments</th>
-    <th>Papildu transakcijas</th>
+    <th><span data-ttu-id="63120-262">Opcija</span><span class="sxs-lookup"><span data-stu-id="63120-262">Option</span></span></th>
+    <th><span data-ttu-id="63120-263">Lietotāji, kuriem tiek eskalēts dokuments</span><span class="sxs-lookup"><span data-stu-id="63120-263">Users that the document is escalated to</span></span></th>
+    <th><span data-ttu-id="63120-264">Papildu transakcijas</span><span class="sxs-lookup"><span data-stu-id="63120-264">Additional steps</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Hierarhija</td>
-    <td>Lietotāji īpašā organizācijas hierarhijā</td>
+    <td><span data-ttu-id="63120-265">Hierarhija</span><span class="sxs-lookup"><span data-stu-id="63120-265">Hierarchy</span></span></td>
+    <td><span data-ttu-id="63120-266">Lietotāji īpašā organizācijas hierarhijā</span><span class="sxs-lookup"><span data-stu-id="63120-266">Users in a specific organizational hierarchy</span></span></td>
     <td><ol>
-    <li>Pēc tam, kad ir atlasīts vienums <strong>Hierarhija</strong>, cilnes <strong>Hierarhijas atlase</strong> sarakstā <strong>Hierarhijas tips</strong> atlasiet hierarhijas tipu, uz kuru eskalēt dokumentu.</li>
-    <li>Sistēmai no hierarhijas ir jāizgūst lietotāju vārdu diapazons. Šie vārdi norāda, kuriem lietotājiem var eskalēt dokumentu. Veiciet šīs darbības, lai norādītu sistēmas izgūto lietotāju vārdu diapazona sākumu un beigas: <ol>
-    <li>Lai norādītu sākumu, atlasiet kādu personu sarakstā <strong>Sākt no</strong>.</li>
-    <li>Lai norādītu beigas, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>. Pēc tam ievadiet nosacījumu, kas nosaka, kurā vietā hierarhijā sistēma pārtrauc vārdu izgūšanu.</li>
+    <li><span data-ttu-id="63120-267">Pēc tam, kad ir atlasīts vienums <strong>Hierarhija</strong>, cilnes <strong>Hierarhijas atlase</strong> sarakstā <strong>Hierarhijas tips</strong> atlasiet hierarhijas tipu, uz kuru eskalēt dokumentu.</span><span class="sxs-lookup"><span data-stu-id="63120-267">After you select <strong>Hierarchy</strong>, on the <strong>Hierarchy selection</strong> tab, in the <strong>Hierarchy type</strong> list, select the type of hierarchy to escalate the document to.</span></span></li>
+    <li><span data-ttu-id="63120-268">Sistēmai no hierarhijas ir jāizgūst lietotāju vārdu diapazons.</span><span class="sxs-lookup"><span data-stu-id="63120-268">The system must retrieve a range of user names from the hierarchy.</span></span> <span data-ttu-id="63120-269">Šie vārdi norāda, kuriem lietotājiem var eskalēt dokumentu.</span><span class="sxs-lookup"><span data-stu-id="63120-269">These names represent users that the document can be escalated to.</span></span> <span data-ttu-id="63120-270">Veiciet šīs darbības, lai norādītu sistēmas izgūto lietotāju vārdu diapazona sākumu un beigas:</span><span class="sxs-lookup"><span data-stu-id="63120-270">Follow these steps to specify the starting point and ending point of the range of user names that the system retrieves:</span></span> <ol>
+    <li><span data-ttu-id="63120-271">Lai norādītu sākumu, atlasiet kādu personu sarakstā <strong>Sākt no</strong>.</span><span class="sxs-lookup"><span data-stu-id="63120-271">To specify the starting point, select a person in the <strong>Start from</strong> list.</span></span></li>
+    <li><span data-ttu-id="63120-272">Lai norādītu beigas, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</span><span class="sxs-lookup"><span data-stu-id="63120-272">To specify the ending point, click <strong>Add condition</strong>.</span></span> <span data-ttu-id="63120-273">Pēc tam ievadiet nosacījumu, kas nosaka, kurā vietā hierarhijā sistēma pārtrauc vārdu izgūšanu.</span><span class="sxs-lookup"><span data-stu-id="63120-273">Then enter a condition that determines where in the hierarchy the system stops retrieving names.</span></span></li>
     </ol></li>
-    <li>Cilnē <strong>Hierarhijas opcijas</strong> norādiet attiecīgajā diapazonā esošos lietotājus, kuriem jāveic dokumenta eskalācija: <ul>
-    <li><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — dokuments tiek eskalēts visiem diapazonā esošajiem lietotājiem.</li>
-    <li><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — dokuments tiek eskalēts tikai pēdējam lietotājam diapazonā.</li>
-    <li><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — dokuments netiek eskalēts diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam. Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</li>
+    <li><span data-ttu-id="63120-274">Cilnē <strong>Hierarhijas opcijas</strong> norādiet attiecīgajā diapazonā esošos lietotājus, kuriem jāveic dokumenta eskalācija:</span><span class="sxs-lookup"><span data-stu-id="63120-274">On the <strong>Hierarchy options</strong> tab, specify which users in the range the document should be escalated to:</span></span> <ul>
+    <li><span data-ttu-id="63120-275"><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — dokuments tiek eskalēts visiem diapazonā esošajiem lietotājiem.</span><span class="sxs-lookup"><span data-stu-id="63120-275"><strong>Assign to all users retrieved</strong> – The document is escalated to all users in the range.</span></span></li>
+    <li><span data-ttu-id="63120-276"><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — dokuments tiek eskalēts tikai pēdējam lietotājam diapazonā.</span><span class="sxs-lookup"><span data-stu-id="63120-276"><strong>Assign only to last user retrieved</strong> – The document is escalated to only the last user in the range.</span></span></li>
+    <li><span data-ttu-id="63120-277"><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — dokuments netiek eskalēts diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam.</span><span class="sxs-lookup"><span data-stu-id="63120-277"><strong>Exclude users with the following condition</strong> – The document isn't escalated to any users in the range who meet a specific condition.</span></span> <span data-ttu-id="63120-278">Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</span><span class="sxs-lookup"><span data-stu-id="63120-278">Click <strong>Add condition</strong> to specify the condition.</span></span></li>
     </ul></li>
     </ol></td>
     </tr>
     <tr class="even">
-    <td>Darbplūsmas lietotājs</td>
-    <td>Lietotāji pašreizējā darbplūsmā</td>
+    <td><span data-ttu-id="63120-279">Darbplūsmas lietotājs</span><span class="sxs-lookup"><span data-stu-id="63120-279">Workflow user</span></span></td>
+    <td><span data-ttu-id="63120-280">Lietotāji pašreizējā darbplūsmā</span><span class="sxs-lookup"><span data-stu-id="63120-280">Users in the current workflow</span></span></td>
     <td><ul>
-    <li>Pēc tam, kad ir atlasīts vienums <strong>Darbplūsmas lietotājs</strong>, cilnes <strong>Darbplūsmas lietotājs</strong> sarakstā <strong>Darbplūsmas lietotājs</strong> atlasiet lietotāju, kas piedalās attiecīgajā darbplūsmā.</li>
+    <li><span data-ttu-id="63120-281">Pēc tam, kad ir atlasīts vienums <strong>Darbplūsmas lietotājs</strong>, cilnes <strong>Darbplūsmas lietotājs</strong> sarakstā <strong>Darbplūsmas lietotājs</strong> atlasiet lietotāju, kas piedalās attiecīgajā darbplūsmā.</span><span class="sxs-lookup"><span data-stu-id="63120-281">After you select <strong>Workflow user</strong>, on the <strong>Workflow user</strong> tab, in the <strong>Workflow user</strong> list, select a user who participates in the workflow.</span></span></li>
     </ul></td>
     </tr>
     <tr class="odd">
-    <td>Lietotājs</td>
-    <td>Noteikti Dynamics 365 for Finance and Operations lietotāji</td>
+    <td><span data-ttu-id="63120-282">Lietotājs</span><span class="sxs-lookup"><span data-stu-id="63120-282">User</span></span></td>
+    <td><span data-ttu-id="63120-283">Noteikti Dynamics 365 for Finance and Operations lietotāji</span><span class="sxs-lookup"><span data-stu-id="63120-283">Specific Finance and Operations users</span></span></td>
     <td><ol>
-    <li>Pēc tam, kad ir atlasīts vienums <strong>Lietotājs</strong>, noklikšķiniet uz cilnes <strong>Lietotājs</strong>.</li>
-    <li>Sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Finance and Operations lietotāji. Atlasiet lietotājus, kuriem eskalēt dokumentu, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
+    <li><span data-ttu-id="63120-284">Pēc tam, kad ir atlasīts vienums <strong>Lietotājs</strong>, noklikšķiniet uz cilnes <strong>Lietotājs</strong>.</span><span class="sxs-lookup"><span data-stu-id="63120-284">After you select <strong>User</strong>, click the <strong>User</strong> tab.</span></span></li>
+    <li><span data-ttu-id="63120-285">Sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Finance and Operations lietotāji.</span><span class="sxs-lookup"><span data-stu-id="63120-285">The <strong>Available users</strong> list includes all Finance and Operations users.</span></span> <span data-ttu-id="63120-286">Atlasiet lietotājus, kuriem eskalēt dokumentu, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</span><span class="sxs-lookup"><span data-stu-id="63120-286">Select the users to escalate the document to, and then move those users to the <strong>Selected users</strong> list.</span></span></li>
     </ol></td>
     </tr>
     </tbody>
     </table>
 
-4.  Cilnes **Laika limits** laukā **Ilgums** norādiet, cik ilgs laiks ir dots lietotājam, lai veiktu darbību saistībā ar vai atbildētu uz dokumentiem. Izvēlieties vienu no šīm opcijām:
-    -   **Stundas** — ievadiet stundu skaitu, kuru laikā lietotājam ir jāatbild. Pēc tam atlasiet kalendāru, ko izmanto jūsu organizācija, un ievadiet informāciju par jūsu organizācijas darba nedēļu.
-    -   **Dienas** — ievadiet dienu skaitu, kuru laikā lietotājam ir jāatbild. Pēc tam atlasiet kalendāru, ko izmanto jūsu organizācija, un ievadiet informāciju par jūsu organizācijas darba nedēļu.
-    -   **Nedēļas** — ievadiet nedēļu skaitu, kuru laikā lietotājam ir jāatbild.
-    -   **Mēneši** — izvēlieties dienu un nedēļu, līdz kurai lietotājam ir jāatbild. Piemēram, varat norādīt, lai lietotājs atbild līdz mēneša trešās nedēļas piektdienai.
-    -   **Gadi** — izvēlieties dienu, nedēļu un mēnesi, līdz kuram lietotājam ir jāatbild. Piemēram, varat norādīt, lai lietotājs atbildētu līdz decembra trešās nedēļas piektdienai.
+4.  <span data-ttu-id="63120-287">Cilnes **Laika limits** laukā **Ilgums** norādiet, cik ilgs laiks ir dots lietotājam, lai veiktu darbību saistībā ar vai atbildētu uz dokumentiem.</span><span class="sxs-lookup"><span data-stu-id="63120-287">On the **Time limit** tab, in the **Duration** field, specify how much time the user has to take action on, or respond to, documents.</span></span> <span data-ttu-id="63120-288">Izvēlieties vienu no šīm opcijām:</span><span class="sxs-lookup"><span data-stu-id="63120-288">Select one of the following options:</span></span>
+    -   <span data-ttu-id="63120-289">**Stundas** — ievadiet stundu skaitu, kuru laikā lietotājam ir jāatbild.</span><span class="sxs-lookup"><span data-stu-id="63120-289">**Hours** – Enter the number of hours that the user has to respond.</span></span> <span data-ttu-id="63120-290">Pēc tam atlasiet kalendāru, ko izmanto jūsu organizācija, un ievadiet informāciju par jūsu organizācijas darba nedēļu.</span><span class="sxs-lookup"><span data-stu-id="63120-290">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+    -   <span data-ttu-id="63120-291">**Dienas** — ievadiet dienu skaitu, kuru laikā lietotājam ir jāatbild.</span><span class="sxs-lookup"><span data-stu-id="63120-291">**Days** – Enter the number of days that the user has to respond.</span></span> <span data-ttu-id="63120-292">Pēc tam atlasiet kalendāru, ko izmanto jūsu organizācija, un ievadiet informāciju par jūsu organizācijas darba nedēļu.</span><span class="sxs-lookup"><span data-stu-id="63120-292">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+    -   <span data-ttu-id="63120-293">**Nedēļas** — ievadiet nedēļu skaitu, kuru laikā lietotājam ir jāatbild.</span><span class="sxs-lookup"><span data-stu-id="63120-293">**Weeks** – Enter the number of weeks that the user has to respond.</span></span>
+    -   <span data-ttu-id="63120-294">**Mēneši** — izvēlieties dienu un nedēļu, līdz kurai lietotājam ir jāatbild.</span><span class="sxs-lookup"><span data-stu-id="63120-294">**Months** – Select the day and week that the user must respond by.</span></span> <span data-ttu-id="63120-295">Piemēram, varat norādīt, lai lietotājs atbild līdz mēneša trešās nedēļas piektdienai.</span><span class="sxs-lookup"><span data-stu-id="63120-295">For example, you might want the user to respond by Friday of the third week of the month.</span></span>
+    -   <span data-ttu-id="63120-296">**Gadi** — izvēlieties dienu, nedēļu un mēnesi, līdz kuram lietotājam ir jāatbild.</span><span class="sxs-lookup"><span data-stu-id="63120-296">**Years** – Select the day, week, and month that the user must respond by.</span></span> <span data-ttu-id="63120-297">Piemēram, varat norādīt, lai lietotājs atbildētu līdz decembra trešās nedēļas piektdienai.</span><span class="sxs-lookup"><span data-stu-id="63120-297">For example, you might want the user to respond by Friday of the third week of December.</span></span>
 
-5.  Atkārtojiet 3.–4. darbību katram lietotājam, kurš jāpievieno eskalācijas ceļam. Jūs varat mainīt lietotāju secību.
-6.  Ja eskalācijas ceļā norādītie lietotāji neatbild atvēlētajā laikā, sistēma automātiski veiks darbību ar dokumentu. Lai norādītu darbību, ko sistēma veic, atlasiet rindu **Darbība** un pēc tam cilnē **Beigu darbība** atlasiet darbību.
+5.  <span data-ttu-id="63120-298">Atkārtojiet 3.–4. darbību katram lietotājam, kurš jāpievieno eskalācijas ceļam.</span><span class="sxs-lookup"><span data-stu-id="63120-298">Repeat steps 3 through 4 for each user that should be added to the escalation path.</span></span> <span data-ttu-id="63120-299">Jūs varat mainīt lietotāju secību.</span><span class="sxs-lookup"><span data-stu-id="63120-299">You can change the order of the users.</span></span>
+6.  <span data-ttu-id="63120-300">Ja eskalācijas ceļā norādītie lietotāji neatbild atvēlētajā laikā, sistēma automātiski veiks darbību ar dokumentu.</span><span class="sxs-lookup"><span data-stu-id="63120-300">If the users in the escalation path don't respond in the allotted time, the system automatically take action on the document.</span></span> <span data-ttu-id="63120-301">Lai norādītu darbību, ko sistēma veic, atlasiet rindu **Darbība** un pēc tam cilnē **Beigu darbība** atlasiet darbību.</span><span class="sxs-lookup"><span data-stu-id="63120-301">To specify the action that the system takes, select the **Action** row, and then, on the **End action** tab, select an action.</span></span>
 
 
 

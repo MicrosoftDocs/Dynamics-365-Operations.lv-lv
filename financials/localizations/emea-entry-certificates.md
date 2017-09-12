@@ -18,31 +18,31 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 415e8ec91f3968883cb4e7ece10d8a26782bac1b
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 6856a52ce85d31c4ef8225e56159e8a7ec698fd7
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="eu-entry-certificates"></a>ES ievešanas sertifikāti
+# <a name="eu-entry-certificates"></a><span data-ttu-id="f87f7-103">ES ievešanas sertifikāti</span><span class="sxs-lookup"><span data-stu-id="f87f7-103">EU entry certificates</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir sniegta informācija par Eiropas Savienības (ES) ierakstu sertifikātiem.
+<span data-ttu-id="f87f7-104">Šajā rakstā ir sniegta informācija par Eiropas Savienības (ES) ierakstu sertifikātiem.</span><span class="sxs-lookup"><span data-stu-id="f87f7-104">This article provides information about European Union (EU) entry certificates.</span></span>
 
-Eiropas Savienības (ES) ieraksta sertifikātam varat veikt šādus uzdevumus:
+<span data-ttu-id="f87f7-105">Eiropas Savienības (ES) ieraksta sertifikātam varat veikt šādus uzdevumus:</span><span class="sxs-lookup"><span data-stu-id="f87f7-105">You can complete the following tasks for a European Union (EU) entry certificate:</span></span>
 
--   Izveidot un izsniegt ES ieraksta sertifikātu kopā ar pavadzīmi vai debitora rēķinu par preču vai pakalpojumu piegādi uz ES valstīm/reģioniem.
--   Saņemt ES ieraksta sertifikātu, ko parakstījis ES debitors.
--   Augšupielādēt parakstīto ES ieraksta sertifikātu, kas ir saņemts no debitora vai no trešās puses, kura ir atbildīga par krājumu piegādi debitoram.
--   Piesaistīt augšupielādēto ES ieraksta sertifikātu debitora rēķinam.
--   Atjaunināt augšupielādētā ES ieraksta sertifikāta statusu.
+-   <span data-ttu-id="f87f7-106">Izveidot un izsniegt ES ieraksta sertifikātu kopā ar pavadzīmi vai debitora rēķinu par preču vai pakalpojumu piegādi uz ES valstīm/reģioniem.</span><span class="sxs-lookup"><span data-stu-id="f87f7-106">Create and issue an EU entry certificate together with a packing slip or customer invoice for the delivery of items or services to EU countries/regions.</span></span>
+-   <span data-ttu-id="f87f7-107">Saņemt ES ieraksta sertifikātu, ko parakstījis ES debitors.</span><span class="sxs-lookup"><span data-stu-id="f87f7-107">Receive the EU entry certificate that is signed by an EU customer.</span></span>
+-   <span data-ttu-id="f87f7-108">Augšupielādēt parakstīto ES ieraksta sertifikātu, kas ir saņemts no debitora vai no trešās puses, kura ir atbildīga par krājumu piegādi debitoram.</span><span class="sxs-lookup"><span data-stu-id="f87f7-108">Upload the signed EU entry certificate that is received either from the customer or from a third party who is responsible for delivering items to the customer.</span></span>
+-   <span data-ttu-id="f87f7-109">Piesaistīt augšupielādēto ES ieraksta sertifikātu debitora rēķinam.</span><span class="sxs-lookup"><span data-stu-id="f87f7-109">Associate the uploaded EU entry certificate with a customer invoice.</span></span>
+-   <span data-ttu-id="f87f7-110">Atjaunināt augšupielādētā ES ieraksta sertifikāta statusu.</span><span class="sxs-lookup"><span data-stu-id="f87f7-110">Update the status of the uploaded EU entry certificate.</span></span>
 
-## <a name="prerequisites"></a>Priekšnosacījumi
-Tālāk esošajā tabulā ir norādīti priekšnoteikumi, kas ir jāizpilda pirms darba sākšanas.
+## <a name="prerequisites"></a><span data-ttu-id="f87f7-111">Priekšnosacījumi</span><span class="sxs-lookup"><span data-stu-id="f87f7-111">Prerequisites</span></span>
+<span data-ttu-id="f87f7-112">Tālāk esošajā tabulā ir norādīti priekšnoteikumi, kas ir jāizpilda pirms darba sākšanas.</span><span class="sxs-lookup"><span data-stu-id="f87f7-112">The following table shows the prerequisites that must be in place before you start.</span></span>
 
 <table>
 <colgroup>
@@ -51,54 +51,54 @@ Tālāk esošajā tabulā ir norādīti priekšnoteikumi, kas ir jāizpilda pirm
 </colgroup>
 <thead>
 <tr class="header">
-<th>Kategorija</th>
-<th>Priekšnosacījums</th>
+<th><span data-ttu-id="f87f7-113">Kategorija</span><span class="sxs-lookup"><span data-stu-id="f87f7-113">Category</span></span></th>
+<th><span data-ttu-id="f87f7-114">Priekšnosacījums</span><span class="sxs-lookup"><span data-stu-id="f87f7-114">Prerequisite</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Valsts/reģions</td>
-<td>Juridiskās personas primārajai adresei ir jāatrodas ES dalībvalstī.</td>
+<td><span data-ttu-id="f87f7-115">Valsts/reģions</span><span class="sxs-lookup"><span data-stu-id="f87f7-115">Country/region</span></span></td>
+<td><span data-ttu-id="f87f7-116">Juridiskās personas primārajai adresei ir jāatrodas ES dalībvalstī.</span><span class="sxs-lookup"><span data-stu-id="f87f7-116">The primary address of the legal entity must be in a EU member state.</span></span></td>
 </tr>
 <tr class="even">
-<td>Saistītie iestatīšanas uzdevumi</td>
+<td><span data-ttu-id="f87f7-117">Saistītie iestatīšanas uzdevumi</span><span class="sxs-lookup"><span data-stu-id="f87f7-117">Related set up tasks</span></span></td>
 <td><ul>
-<li>Lapā <strong>Debitoru moduļa parametri</strong> atzīmējiet opcijas <strong>Iespējot ieraksta sertifikāta pārvaldību</strong> un <strong>Iespējot ieraksta sertifikāta izsniegšanu</strong>.</li>
-<li>Lapā <strong>Debitori</strong>, kopsavilkuma cilnē <strong>Rēķins un piegāde</strong> atzīmējiet opciju <strong>Nepieciešams ieraksta sertifikāts</strong> , lai norādītu, ka ES ieraksta sertifikāts šim debitoram ir obligāts. Atzīmējiet opciju <strong>Izsniegt ieraksta sertifikātu</strong>, lai debitoram izdotu juridiskās personas ES ieraksta sertifikātu.</li>
-<li>Lapā <strong>Debitoru moduļa parametri</strong> atzīmējiet numuru secības kodu atsaucei <strong>Ieraksta sertifikāts</strong>.</li>
+<li><span data-ttu-id="f87f7-118">Lapā <strong>Debitoru moduļa parametri</strong> atzīmējiet opcijas <strong>Iespējot ieraksta sertifikāta pārvaldību</strong> un <strong>Iespējot ieraksta sertifikāta izsniegšanu</strong>.</span><span class="sxs-lookup"><span data-stu-id="f87f7-118">On the <strong>Accounts receivable parameters</strong> page, select the <strong>Enable entry certificate management</strong> and <strong>Enable entry certificate issuing</strong> options.</span></span></li>
+<li><span data-ttu-id="f87f7-119">Lapā <strong>Debitori</strong>, kopsavilkuma cilnē <strong>Rēķins un piegāde</strong> atzīmējiet opciju <strong>Nepieciešams ieraksta sertifikāts</strong> , lai norādītu, ka ES ieraksta sertifikāts šim debitoram ir obligāts.</span><span class="sxs-lookup"><span data-stu-id="f87f7-119">On the <strong>Customers</strong> page, on the <strong>Invoice and delivery</strong> FastTab, select the <strong>Entry certificate required</strong> option to indicate that an EU entry certificate is mandatory for the customer.</span></span> <span data-ttu-id="f87f7-120">Atzīmējiet opciju <strong>Izsniegt ieraksta sertifikātu</strong>, lai debitoram izdotu juridiskās personas ES ieraksta sertifikātu.</span><span class="sxs-lookup"><span data-stu-id="f87f7-120">Select the <strong>Issue entry certificate</strong> option to issue an EU entry certificate of the legal entity to the customer.</span></span></li>
+<li><span data-ttu-id="f87f7-121">Lapā <strong>Debitoru moduļa parametri</strong> atzīmējiet numuru secības kodu atsaucei <strong>Ieraksta sertifikāts</strong>.</span><span class="sxs-lookup"><span data-stu-id="f87f7-121">On the <strong>Accounts receivable parameters</strong> page, select a number sequence code for the <strong>Entry certificate</strong> reference.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Saistītās transakcijas</td>
+<td><span data-ttu-id="f87f7-122">Saistītās transakcijas</span><span class="sxs-lookup"><span data-stu-id="f87f7-122">Related transactions</span></span></td>
 <td><ul>
-<li>Izveidojiet debitora kontu.</li>
-<li>Izveidojiet pārdošanas pasūtījumu.</li>
+<li><span data-ttu-id="f87f7-123">Izveidojiet debitora kontu.</span><span class="sxs-lookup"><span data-stu-id="f87f7-123">Create a customer account.</span></span></li>
+<li><span data-ttu-id="f87f7-124">Izveidojiet pārdošanas pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="f87f7-124">Create a sales order.</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="creating-registering-and-uploading-an-eu-entry-certificate"></a>ES ieraksta sertifikāta izveidošana, reģistrēšana un augšupielādēšana
-ES ieraksta sertifikātu var izveidot automātiski vai manuāli. ES ieraksta sertifikāts tiek izveidots un izdrukāts automātiski, kad pavadzīmi vai rēķinu debitoram grāmatojat, izmantojot lapu **Pavadzīmes grāmatošana** vai **Rēķina grāmatošana**. Lai ES ieraksta sertifikātu izveidotu vai atkārtoti drukātu manuāli, izmantojiet lapu **Rēķinu žurnāls**. Turklāt varat izmantot lapu **Ierakstu sertifikātu žurnāls**, lai ievadītu detalizētu informāciju par ES ieraksta sertifikātu, ko izsniedza trešā puse.
+## <a name="creating-registering-and-uploading-an-eu-entry-certificate"></a><span data-ttu-id="f87f7-125">ES ieraksta sertifikāta izveidošana, reģistrēšana un augšupielādēšana</span><span class="sxs-lookup"><span data-stu-id="f87f7-125">Creating, registering, and uploading an EU entry certificate</span></span>
+<span data-ttu-id="f87f7-126">ES ieraksta sertifikātu var izveidot automātiski vai manuāli.</span><span class="sxs-lookup"><span data-stu-id="f87f7-126">You can create an EU entry certificate automatically or manually.</span></span> <span data-ttu-id="f87f7-127">ES ieraksta sertifikāts tiek izveidots un izdrukāts automātiski, kad pavadzīmi vai rēķinu debitoram grāmatojat, izmantojot lapu **Pavadzīmes grāmatošana** vai **Rēķina grāmatošana**.</span><span class="sxs-lookup"><span data-stu-id="f87f7-127">An EU entry certificate is created and printed automatically when you post a packing slip or invoice for a customer by using the **Packing slip posting** page or the **Posting invoice** page.</span></span> <span data-ttu-id="f87f7-128">Lai ES ieraksta sertifikātu izveidotu vai atkārtoti drukātu manuāli, izmantojiet lapu **Rēķinu žurnāls**.</span><span class="sxs-lookup"><span data-stu-id="f87f7-128">To manually create or reprint an EU entry certificate for a customer invoice, use the **Invoice journal** page.</span></span> <span data-ttu-id="f87f7-129">Turklāt varat izmantot lapu **Ierakstu sertifikātu žurnāls**, lai ievadītu detalizētu informāciju par ES ieraksta sertifikātu, ko izsniedza trešā puse.</span><span class="sxs-lookup"><span data-stu-id="f87f7-129">Additionally, you can use the **Entry certificate journal** page to enter details about an EU entry certificate that is issued by a third party.</span></span>
 
-### <a name="creating-an-eu-entry-certificate-automatically-or-manually"></a>ES ieraksta sertifikātu automātiska vai manuāla izveidošana
+### <a name="creating-an-eu-entry-certificate-automatically-or-manually"></a><span data-ttu-id="f87f7-130">ES ieraksta sertifikātu automātiska vai manuāla izveidošana</span><span class="sxs-lookup"><span data-stu-id="f87f7-130">Creating an EU entry certificate automatically or manually</span></span>
 
-ES ieraksta sertifikātu varat izveidot automātiski, izmantojot pavadzīmi lapā **Visi pārdošanas pasūtījumi** vai izmantojot rēķinu lapā **Pārdošanas pasūtījums**. Lai ES ieraksta sertifikātu izveidotu manuāli, varat lietot rēķinu lapā **Rēķinu žurnāls**. Taču pirms ES ieraksta sertifikāta manuālas izveidošanas ir jāmaina rēķina sertifikācijas statuss.
+<span data-ttu-id="f87f7-131">ES ieraksta sertifikātu varat izveidot automātiski, izmantojot pavadzīmi lapā **Visi pārdošanas pasūtījumi** vai izmantojot rēķinu lapā **Pārdošanas pasūtījums**.</span><span class="sxs-lookup"><span data-stu-id="f87f7-131">You can create an EU entry certificate automatically by using a packing slip on the **All sales orders** page or by using an invoice on the **Sales order** page.</span></span> <span data-ttu-id="f87f7-132">Lai ES ieraksta sertifikātu izveidotu manuāli, varat lietot rēķinu lapā **Rēķinu žurnāls**.</span><span class="sxs-lookup"><span data-stu-id="f87f7-132">To manually create an EU entry certificate, you can use an invoice on the **Invoice journal** page.</span></span> <span data-ttu-id="f87f7-133">Taču pirms ES ieraksta sertifikāta manuālas izveidošanas ir jāmaina rēķina sertifikācijas statuss.</span><span class="sxs-lookup"><span data-stu-id="f87f7-133">However, you must change the certification status of the invoice before you manually create an EU entry certificate.</span></span>
 
-### <a name="registering-an-eu-entry-certificate"></a>ES ieraksta sertifikāta reģistrēšana
+### <a name="registering-an-eu-entry-certificate"></a><span data-ttu-id="f87f7-134">ES ieraksta sertifikāta reģistrēšana</span><span class="sxs-lookup"><span data-stu-id="f87f7-134">Registering an EU entry certificate</span></span>
 
-Ja ir nepieciešama reģistrēšana, varat izmantot lapu **Ierakstu sertifikātu žurnāls**, lai reģistrētu ES ieraksta sertifikātu, ko izsniedza trešā puse.
+<span data-ttu-id="f87f7-135">Ja ir nepieciešama reģistrēšana, varat izmantot lapu **Ierakstu sertifikātu žurnāls**, lai reģistrētu ES ieraksta sertifikātu, ko izsniedza trešā puse.</span><span class="sxs-lookup"><span data-stu-id="f87f7-135">If registration is required, you can use the **Entry certificate journal** page to register an EU entry certificate that is issued by a third party.</span></span>
 
-### <a name="uploading-a-received-eu-entry-certificate"></a>Saņemta ES ieraksta sertifikāta augšupielādēšana
+### <a name="uploading-a-received-eu-entry-certificate"></a><span data-ttu-id="f87f7-136">Saņemta ES ieraksta sertifikāta augšupielādēšana</span><span class="sxs-lookup"><span data-stu-id="f87f7-136">Uploading a received EU entry certificate</span></span>
 
-Izmantojiet lapu **Pielikumi**, lai augšupielādētu saņemtu ES ieraksta sertifikātu, ko parakstījis ES debitors. Kad sertifikāts ir augšupielādēts, varat to saistīt ar rēķinu kā pierādījumu, ka krājumi tika piegādāti. Šāds pierādījums ir nepieciešams, ja jums ir jāizsniedz rēķins, kas neietver pievienotās vērtības nodokli (PVN), un tas tiek izmantots arī auditēšanas laikā.
+<span data-ttu-id="f87f7-137">Izmantojiet lapu **Pielikumi**, lai augšupielādētu saņemtu ES ieraksta sertifikātu, ko parakstījis ES debitors.</span><span class="sxs-lookup"><span data-stu-id="f87f7-137">Use the **Attachments** page to upload a received EU entry certificate that is signed by an EU customer.</span></span> <span data-ttu-id="f87f7-138">Kad sertifikāts ir augšupielādēts, varat to saistīt ar rēķinu kā pierādījumu, ka krājumi tika piegādāti.</span><span class="sxs-lookup"><span data-stu-id="f87f7-138">After the certificate is uploaded, you can associate it with an invoice as proof that the items were delivered.</span></span> <span data-ttu-id="f87f7-139">Šāds pierādījums ir nepieciešams, ja jums ir jāizsniedz rēķins, kas neietver pievienotās vērtības nodokli (PVN), un tas tiek izmantots arī auditēšanas laikā.</span><span class="sxs-lookup"><span data-stu-id="f87f7-139">This proof is required if you must issue an invoice that doesn't include value-added tax (VAT), and it's also used during auditing.</span></span>
 
-### <a name="optional-updating-the-certification-status-and-printing-status-of-an-invoice"></a>Nav obligāti: sertifikāta statusa atjaunināšana un rēķina statusa drukāšana
+### <a name="optional-updating-the-certification-status-and-printing-status-of-an-invoice"></a><span data-ttu-id="f87f7-140">Nav obligāti: sertifikāta statusa atjaunināšana un rēķina statusa drukāšana</span><span class="sxs-lookup"><span data-stu-id="f87f7-140">Optional: Updating the certification status and printing status of an invoice</span></span>
 
-Ieraksta sertifikācijas statusu un debitora rēķina drukāšanas statusu varat atjaunināt, izmantojot lapu **Rēķinu žurnāls**.
+<span data-ttu-id="f87f7-141">Ieraksta sertifikācijas statusu un debitora rēķina drukāšanas statusu varat atjaunināt, izmantojot lapu **Rēķinu žurnāls**.</span><span class="sxs-lookup"><span data-stu-id="f87f7-141">You can update the entry certification status and printing status of a customer invoice by using the **Invoice journal** page.</span></span>
 
-## <a name="technical-information-for-system-administrators"></a>Tehniskā informācija sistēmas administratoriem
-Ja nevarat piekļūt lapām, kas tiek izmantotas šī uzdevuma izpildīšanai, sazinieties ar sistēmas administratoru un sniedziet nākamajā tabulā redzamo informāciju.
+## <a name="technical-information-for-system-administrators"></a><span data-ttu-id="f87f7-142">Tehniskā informācija sistēmas administratoriem</span><span class="sxs-lookup"><span data-stu-id="f87f7-142">Technical information for system administrators</span></span>
+<span data-ttu-id="f87f7-143">Ja nevarat piekļūt lapām, kas tiek izmantotas šī uzdevuma izpildīšanai, sazinieties ar sistēmas administratoru un sniedziet nākamajā tabulā redzamo informāciju.</span><span class="sxs-lookup"><span data-stu-id="f87f7-143">If you don't have access to the pages that are used to complete this task, contact your system administrator, and provide the information that is shown in the following table.</span></span>
 
 <table>
 <colgroup>
@@ -107,19 +107,19 @@ Ja nevarat piekļūt lapām, kas tiek izmantotas šī uzdevuma izpildīšanai, s
 </colgroup>
 <thead>
 <tr class="header">
-<th>Kategorija</th>
-<th>Priekšnosacījums</th>
+<th><span data-ttu-id="f87f7-144">Kategorija</span><span class="sxs-lookup"><span data-stu-id="f87f7-144">Category</span></span></th>
+<th><span data-ttu-id="f87f7-145">Priekšnosacījums</span><span class="sxs-lookup"><span data-stu-id="f87f7-145">Prerequisite</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Drošības lomas un pienākumi</td>
-<td>Lai iestatītu un izveidotu ES ieraksta sertifikātu krājumiem vai pakalpojumiem, jums ir jābūt tādas drošības lomas dalībniekam, kurā ietverti tālāk norādītie pienākumi.
+<td><span data-ttu-id="f87f7-146">Drošības lomas un pienākumi</span><span class="sxs-lookup"><span data-stu-id="f87f7-146">Security roles and duties</span></span></td>
+<td><span data-ttu-id="f87f7-147">Lai iestatītu un izveidotu ES ieraksta sertifikātu krājumiem vai pakalpojumiem, jums ir jābūt tādas drošības lomas dalībniekam, kurā ietverti tālāk norādītie pienākumi.</span><span class="sxs-lookup"><span data-stu-id="f87f7-147">To set up and create EU entry certificates for items or services, you must be a member of a security role that includes the following duties:</span></span>
 <ul>
-<li><strong>Debitoru parādu darbinieks</strong> (CustInvoiceAccountsReceivableClerk)</li>
-<li><strong>Klientu apkalpošanas pārstāvis</strong> (TradeCustomerServiceRepresentative)</li>
-<li><strong>Pārdošanas darbinieks</strong> (TradeSalesClerk)</li>
-<li><strong>Nosūtīšanas darbinieks</strong> (InventShippingClerk)</li>
+<li><span data-ttu-id="f87f7-148"><strong>Debitoru parādu darbinieks</strong> (CustInvoiceAccountsReceivableClerk)</span><span class="sxs-lookup"><span data-stu-id="f87f7-148"><strong>Accounts receivable clerk</strong> (CustInvoiceAccountsReceivableClerk)</span></span></li>
+<li><span data-ttu-id="f87f7-149"><strong>Klientu apkalpošanas pārstāvis</strong> (TradeCustomerServiceRepresentative)</span><span class="sxs-lookup"><span data-stu-id="f87f7-149"><strong>Customer service representative</strong> (TradeCustomerServiceRepresentative)</span></span></li>
+<li><span data-ttu-id="f87f7-150"><strong>Pārdošanas darbinieks</strong> (TradeSalesClerk)</span><span class="sxs-lookup"><span data-stu-id="f87f7-150"><strong>Sales clerk</strong> (TradeSalesClerk)</span></span></li>
+<li><span data-ttu-id="f87f7-151"><strong>Nosūtīšanas darbinieks</strong> (InventShippingClerk)</span><span class="sxs-lookup"><span data-stu-id="f87f7-151"><strong>Shipping clerk</strong> (InventShippingClerk)</span></span></li>
 </ul></td>
 </tr>
 </tbody>

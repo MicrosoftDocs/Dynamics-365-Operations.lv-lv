@@ -17,30 +17,30 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 36096c9a0c8dde1028728ec257dfa63e7fb669af
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 0e6829238b244cc01b070fde6acdf37bdaeb9670
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="calculate-a-bom-by-using-a-single-level-structure-february-2016-only"></a>MK aprēķināšana, izmantojot viena līmeņa struktūru (tikai 2016. gada februāris)
+# <a name="calculate-a-bom-by-using-a-single-level-structure-february-2016-only"></a><span data-ttu-id="1a24b-103">MK aprēķināšana, izmantojot viena līmeņa struktūru (tikai 2016. gada februāris)</span><span class="sxs-lookup"><span data-stu-id="1a24b-103">Calculate a BOM by using a single level structure (February 2016 only)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā procedūrā ir parādīts, kā aprēķināt pabeigtas preces izmaksas, izmantojot viena līmeņa izvēršanu, kura ir balstīta uz izmaksu aprēķināšanas lapu. Tas ir MK aprēķina sērijas sestais uzdevums. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USMF.
+<span data-ttu-id="1a24b-104">Šajā procedūrā ir parādīts, kā aprēķināt pabeigtas preces izmaksas, izmantojot viena līmeņa izvēršanu, kura ir balstīta uz izmaksu aprēķināšanas lapu.</span><span class="sxs-lookup"><span data-stu-id="1a24b-104">This procedure shows how to calculate the cost of a finished product by using single level explosion that is based in the Costing sheet.</span></span> <span data-ttu-id="1a24b-105">Tas ir MK aprēķina sērijas sestais uzdevums.</span><span class="sxs-lookup"><span data-stu-id="1a24b-105">This is the sixth task in the BOM calculation series.</span></span> <span data-ttu-id="1a24b-106">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="1a24b-106">The demo data company used to create this task is USMF.</span></span>
 
-1. Dodieties uz Izlaistās preces.
-2. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-    * Atlasiet preci BOM_1.  
-3. Darbību rūtī noklikšķiniet uz Pārvaldīt izmaksas.
-4. Noklikšķiniet uz Krājuma cena.
-5. Noklikšķiniet uz Aprēķināt krājuma izmaksas.
-    * Lai augšējā izvēlnē redzētu šo opciju, iespējams, ir jānoklikšķina uz daudzpunktes (...).  
-6. Laukā Izmaksu aprēķināšanas versija noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-    * Šajā demonstrācijā atlasiet vērtību 10. Tā ir tā pati izmaksu aprēķināšanas versija, kas tika izmantota izmaksu cenas pievienošanai komponentiem.  
-7. Noklikšķiniet uz OK.
-8. Noklikšķiniet uz Skatīt detalizētu informāciju par aprēķinu.
-    * Lai augšējā izvēlnē redzētu šo opciju, iespējams, ir jānoklikšķina uz daudzpunktes (...).    Izmaksu sastāvs: • 10 — atvasināts no ITEM_A, 10 — no ITEM_B, 10 — no BOM_2. Šajā gadījumā nav informācijas par BOM_2, jo tas tika ievadīts kā standarta izmaksas 10, bet nav iegūts, veicot aprēķinu.  • 7 tiek atvasināts no uzstādīšanas laika, kuram ir konstantas izmaksas, un papildu 7 tiek atvasināts no izpildlaika darbības (Process).  • Pastāv arī citas summas, kas atbilst netiešajām izmaksām.  
+1. <span data-ttu-id="1a24b-107">Dodieties uz Izlaistās preces.</span><span class="sxs-lookup"><span data-stu-id="1a24b-107">Go to Released products.</span></span>
+2. <span data-ttu-id="1a24b-108">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="1a24b-108">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="1a24b-109">Atlasiet preci BOM_1.</span><span class="sxs-lookup"><span data-stu-id="1a24b-109">Select product BOM_1.</span></span>  
+3. <span data-ttu-id="1a24b-110">Darbību rūtī noklikšķiniet uz Pārvaldīt izmaksas.</span><span class="sxs-lookup"><span data-stu-id="1a24b-110">On the Action Pane, click Manage costs.</span></span>
+4. <span data-ttu-id="1a24b-111">Noklikšķiniet uz Krājuma cena.</span><span class="sxs-lookup"><span data-stu-id="1a24b-111">Click Item price.</span></span>
+5. <span data-ttu-id="1a24b-112">Noklikšķiniet uz Aprēķināt krājuma izmaksas.</span><span class="sxs-lookup"><span data-stu-id="1a24b-112">Click Calculate item cost.</span></span>
+    * <span data-ttu-id="1a24b-113">Lai augšējā izvēlnē redzētu šo opciju, iespējams, ir jānoklikšķina uz daudzpunktes (...).</span><span class="sxs-lookup"><span data-stu-id="1a24b-113">You may need to click the ellipsis (...) to see this option in the top menu.</span></span>  
+6. <span data-ttu-id="1a24b-114">Laukā Izmaksu aprēķināšanas versija noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="1a24b-114">In the Costing version field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="1a24b-115">Šajā demonstrācijā atlasiet vērtību 10.</span><span class="sxs-lookup"><span data-stu-id="1a24b-115">For this demo, select 10.</span></span> <span data-ttu-id="1a24b-116">Tā ir tā pati izmaksu aprēķināšanas versija, kas tika izmantota izmaksu cenas pievienošanai komponentiem.</span><span class="sxs-lookup"><span data-stu-id="1a24b-116">This is the same costing version used for adding the cost price to the components.</span></span>  
+7. <span data-ttu-id="1a24b-117">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="1a24b-117">Click OK.</span></span>
+8. <span data-ttu-id="1a24b-118">Noklikšķiniet uz Skatīt detalizētu informāciju par aprēķinu.</span><span class="sxs-lookup"><span data-stu-id="1a24b-118">Click View calculation details.</span></span>
+    * <span data-ttu-id="1a24b-119">Lai augšējā izvēlnē redzētu šo opciju, iespējams, ir jānoklikšķina uz daudzpunktes (...).</span><span class="sxs-lookup"><span data-stu-id="1a24b-119">You may need to click the ellipsis (...) to see this option in the top menu.</span></span>    <span data-ttu-id="1a24b-120">Izmaksu sastāvs: • 10 — atvasināts no ITEM_A, 10 — no ITEM_B, 10 — no BOM_2.</span><span class="sxs-lookup"><span data-stu-id="1a24b-120">Here's the composition of the cost:  •    10 is derived from ITEM_A, 10 from ITEM_B, 10 from BOM_2.</span></span> <span data-ttu-id="1a24b-121">Šajā gadījumā nav informācijas par BOM_2, jo tas tika ievadīts kā standarta izmaksas 10, bet nav iegūts, veicot aprēķinu.</span><span class="sxs-lookup"><span data-stu-id="1a24b-121">In this case there are no details for BOM_2 because it was entered as a standard cost of 10 but not done through calculation.</span></span>  <span data-ttu-id="1a24b-122">• 7 tiek atvasināts no uzstādīšanas laika, kuram ir konstantas izmaksas, un papildu 7 tiek atvasināts no izpildlaika darbības (Process).</span><span class="sxs-lookup"><span data-stu-id="1a24b-122">•  7 is derived from the setup time, which is a constant cost, and additional 7 is derived from the run-time operation (Process).</span></span>  <span data-ttu-id="1a24b-123">• Pastāv arī citas summas, kas atbilst netiešajām izmaksām.</span><span class="sxs-lookup"><span data-stu-id="1a24b-123">•   There are also other amounts that correspond to indirect costs.</span></span>  
 9. @SysTaskRecorder:_RequestClose
 
 

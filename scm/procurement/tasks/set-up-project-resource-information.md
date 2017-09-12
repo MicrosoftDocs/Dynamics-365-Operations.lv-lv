@@ -17,38 +17,38 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 1b95b797d5e2b9dbf6e325e71705727b87c5e10e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 9824971eb2a970f6136df9cc2c5feffc038b8f09
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-project-resource-information"></a>Projekta resursu informācijas iestatīšana
+# <a name="set-up-project-resource-information"></a><span data-ttu-id="f6725-103">Projekta resursu informācijas iestatīšana</span><span class="sxs-lookup"><span data-stu-id="f6725-103">Set up project resource information</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā procedūrā ir parādīts, kā iestatīt projekta resursu. Šajā uzdevumā tiek izmantota USMF datu kopa.
+<span data-ttu-id="f6725-104">Šajā procedūrā ir parādīts, kā iestatīt projekta resursu.</span><span class="sxs-lookup"><span data-stu-id="f6725-104">This procedure shows how to set up a project resource.</span></span> <span data-ttu-id="f6725-105">Šajā uzdevumā tiek izmantota USMF datu kopa.</span><span class="sxs-lookup"><span data-stu-id="f6725-105">This task uses the USMF data set.</span></span>
 
-1. Dodieties uz Projektu vadība un uzskaite > Projekta resursi > Resursu saraksts.
-2. Noklikšķiniet uz Jauns resurss.
-3. Laukā Darbinieks ievadiet vai atlasiet vērtību.
-4. Laukā Kalendārs ievadiet vai atlasiet kādu vērtību.
-5. Laukā Perioda kods ievadiet vai atlasiet kādu vērtību.
-6. Noklikšķiniet uz Izveidot.
-7. Noklikšķiniet uz Izmaksu cenas.
-8. Noklikšķiniet uz Izmaksu cena – stunda.
-9. Noklikšķiniet uz Jauns.
-10. Laukā Spēkā stāšanās datums ievadiet kādu datumu.
-11. Laukā Vienības cena, ievadiet kādu skaitli.
-12. Noklikšķiniet uz Saglabāt.
-13. Aizvērt lapu.
-14. Noklikšķiniet uz Pārdošanas cenas.
-15. Noklikšķiniet uz Pārdošanas cena – stunda.
-16. Noklikšķiniet uz Jauns.
-17. Laukā Spēkā stāšanās datums ievadiet kādu datumu.
-18. Laukā Cenu noteikšana ievadiet kādu skaitli.
-19. Atlasiet opciju laukā Derīguma termiņš.
-20. Noklikšķiniet uz Saglabāt.
-21. Aizvērt lapu.
+1. <span data-ttu-id="f6725-106">Dodieties uz Projektu vadība un uzskaite > Projekta resursi > Resursu saraksts.</span><span class="sxs-lookup"><span data-stu-id="f6725-106">Go to Project management and accounting > Project resources > Resources list.</span></span>
+2. <span data-ttu-id="f6725-107">Noklikšķiniet uz Jauns resurss.</span><span class="sxs-lookup"><span data-stu-id="f6725-107">Click New resource.</span></span>
+3. <span data-ttu-id="f6725-108">Laukā Darbinieks ievadiet vai atlasiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="f6725-108">In the Worker field, enter or select a value.</span></span>
+4. <span data-ttu-id="f6725-109">Laukā Kalendārs ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="f6725-109">In the Calendar field, enter or select a value.</span></span>
+5. <span data-ttu-id="f6725-110">Laukā Perioda kods ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="f6725-110">In the Period code field, enter or select a value.</span></span>
+6. <span data-ttu-id="f6725-111">Noklikšķiniet uz Izveidot.</span><span class="sxs-lookup"><span data-stu-id="f6725-111">Click Create.</span></span>
+7. <span data-ttu-id="f6725-112">Noklikšķiniet uz Izmaksu cenas.</span><span class="sxs-lookup"><span data-stu-id="f6725-112">Click Cost prices.</span></span>
+8. <span data-ttu-id="f6725-113">Noklikšķiniet uz Izmaksu cena – stunda.</span><span class="sxs-lookup"><span data-stu-id="f6725-113">Click Cost price - hour.</span></span>
+9. <span data-ttu-id="f6725-114">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="f6725-114">Click New.</span></span>
+10. <span data-ttu-id="f6725-115">Laukā Spēkā stāšanās datums ievadiet kādu datumu.</span><span class="sxs-lookup"><span data-stu-id="f6725-115">In the Effective date field, enter a date.</span></span>
+11. <span data-ttu-id="f6725-116">Laukā Vienības cena, ievadiet kādu skaitli.</span><span class="sxs-lookup"><span data-stu-id="f6725-116">In the Cost price field, enter a number.</span></span>
+12. <span data-ttu-id="f6725-117">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="f6725-117">Click Save.</span></span>
+13. <span data-ttu-id="f6725-118">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="f6725-118">Close the page.</span></span>
+14. <span data-ttu-id="f6725-119">Noklikšķiniet uz Pārdošanas cenas.</span><span class="sxs-lookup"><span data-stu-id="f6725-119">Click Sales prices.</span></span>
+15. <span data-ttu-id="f6725-120">Noklikšķiniet uz Pārdošanas cena – stunda.</span><span class="sxs-lookup"><span data-stu-id="f6725-120">Click Sales price - hour.</span></span>
+16. <span data-ttu-id="f6725-121">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="f6725-121">Click New.</span></span>
+17. <span data-ttu-id="f6725-122">Laukā Spēkā stāšanās datums ievadiet kādu datumu.</span><span class="sxs-lookup"><span data-stu-id="f6725-122">In the Effective date field, enter a date.</span></span>
+18. <span data-ttu-id="f6725-123">Laukā Cenu noteikšana ievadiet kādu skaitli.</span><span class="sxs-lookup"><span data-stu-id="f6725-123">In the Pricing field, enter a number.</span></span>
+19. <span data-ttu-id="f6725-124">Atlasiet opciju laukā Derīguma termiņš.</span><span class="sxs-lookup"><span data-stu-id="f6725-124">In the Valid for field, select an option.</span></span>
+20. <span data-ttu-id="f6725-125">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="f6725-125">Click Save.</span></span>
+21. <span data-ttu-id="f6725-126">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="f6725-126">Close the page.</span></span>
 
 

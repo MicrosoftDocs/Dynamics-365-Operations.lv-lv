@@ -17,28 +17,28 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 4c52a2f226b079b404eab53e01b3025647633d04
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 62f3f71cc5e47f0fb027211a911e61673ca2e375
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="prepare-a-process-kanban-job-when-materials-are-available-for-the-work-cell"></a>Procesa sagatavošana Kanban darbam, kad materiāli ir pieejami darba šūnai
+# <a name="prepare-a-process-kanban-job-when-materials-are-available-for-the-work-cell"></a><span data-ttu-id="f0c37-103">Procesa sagatavošana Kanban darbam, kad materiāli ir pieejami darba šūnai</span><span class="sxs-lookup"><span data-stu-id="f0c37-103">Prepare a process kanban job when materials are available for the work cell</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā uzdevumā parādīts, ka sagatavot procesa Kanban darbu, kad visi darba šūnas materiāli ir pieejami. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USMF. Šis uzdevums ir paredzēts mašīnas operatoram.
+<span data-ttu-id="f0c37-104">Šajā uzdevumā parādīts, ka sagatavot procesa Kanban darbu, kad visi darba šūnas materiāli ir pieejami.</span><span class="sxs-lookup"><span data-stu-id="f0c37-104">This task focuses on preparing a process kanban job when all materials are available for the work cell.</span></span> <span data-ttu-id="f0c37-105">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="f0c37-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="f0c37-106">Šis uzdevums ir paredzēts mašīnas operatoram.</span><span class="sxs-lookup"><span data-stu-id="f0c37-106">This task is intended for the machine operator.</span></span>
 
-1. Dodieties uz procesa darbu Kanban paneli.
-2. Laukā Darba šūna noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-3. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-    * Atlasiet darba šūnu 1250 un noklikšķiniet uz Labi.  
-4. Sarakstā atlasiet 4. rindu.
-    * Tukšā demonstrācijas uzņēmumā Kanban 000329 pirmais vēl nepabeigtais darbs ir 4. rindā.  
-5. Pārslēdziet sadaļas Izdošanas saraksts paplašinājumu.
-    * Pārliecinieties, ka visiem izdošanas saraksta krājumiem piegādes statuss ir pieejams.  
-    * Ja tiek atlasīti vairāki darbi, izdošanas saraksts parāda summāru kopsavilkumu par visiem krājumiem, kas nepieciešami atlasītajiem darbiem.  
-6. Noklikšķiniet uz Sagatavot.
-    * Sagatavošanas process ir pabeigts. Izvēles rūtiņa ar atzīmi visām izdošanas saraksta rindām norāda, tiek piegādes statuss ir Izdots.  
+1. <span data-ttu-id="f0c37-107">Dodieties uz procesa darbu Kanban paneli.</span><span class="sxs-lookup"><span data-stu-id="f0c37-107">Go to Kanban board for process jobs.</span></span>
+2. <span data-ttu-id="f0c37-108">Laukā Darba šūna noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="f0c37-108">In the Work cell field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="f0c37-109">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="f0c37-109">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="f0c37-110">Atlasiet darba šūnu 1250 un noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="f0c37-110">Select work cell 1250 and click OK.</span></span>  
+4. <span data-ttu-id="f0c37-111">Sarakstā atlasiet 4. rindu.</span><span class="sxs-lookup"><span data-stu-id="f0c37-111">In the list, select row 4.</span></span>
+    * <span data-ttu-id="f0c37-112">Tukšā demonstrācijas uzņēmumā Kanban 000329 pirmais vēl nepabeigtais darbs ir 4. rindā.</span><span class="sxs-lookup"><span data-stu-id="f0c37-112">In the clean demo company, Kanban 000329 in row 4 is the first job that is not completed yet.</span></span>  
+5. <span data-ttu-id="f0c37-113">Pārslēdziet sadaļas Izdošanas saraksts paplašinājumu.</span><span class="sxs-lookup"><span data-stu-id="f0c37-113">Toggle the expansion of the Picking list section.</span></span>
+    * <span data-ttu-id="f0c37-114">Pārliecinieties, ka visiem izdošanas saraksta krājumiem piegādes statuss ir pieejams.</span><span class="sxs-lookup"><span data-stu-id="f0c37-114">Verify that the supply status is available for all items in the picking list.</span></span>  
+    * <span data-ttu-id="f0c37-115">Ja tiek atlasīti vairāki darbi, izdošanas saraksts parāda summāru kopsavilkumu par visiem krājumiem, kas nepieciešami atlasītajiem darbiem.</span><span class="sxs-lookup"><span data-stu-id="f0c37-115">If multiple jobs are selected, the picking list will show the sum of all items needed for the selected jobs.</span></span>  
+6. <span data-ttu-id="f0c37-116">Noklikšķiniet uz Sagatavot.</span><span class="sxs-lookup"><span data-stu-id="f0c37-116">Click Prepare.</span></span>
+    * <span data-ttu-id="f0c37-117">Sagatavošanas process ir pabeigts.</span><span class="sxs-lookup"><span data-stu-id="f0c37-117">The preparation process is now completed.</span></span> <span data-ttu-id="f0c37-118">Izvēles rūtiņa ar atzīmi visām izdošanas saraksta rindām norāda, tiek piegādes statuss ir Izdots.</span><span class="sxs-lookup"><span data-stu-id="f0c37-118">The selected check box for all rows in the picking list indicates that the supply status is picked.</span></span>  
 
 

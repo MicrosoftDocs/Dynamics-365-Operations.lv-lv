@@ -16,36 +16,36 @@ ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 2ab30f4326b627406f9a39d6c3203b181b67d68f
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 754f28cd2831d8a9a57c408518d240de460b732b
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-segregation-of-duties"></a>Pienākumu sadales iestatīšana
+# <a name="set-up-segregation-of-duties"></a><span data-ttu-id="2f05d-103">Pienākumu sadales iestatīšana</span><span class="sxs-lookup"><span data-stu-id="2f05d-103">Set up segregation of duties</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Var iestatīt nosacījumus, lai atdalītu uzdevumus, kas ir jāveic dažādiem lietotājiem. Šī koncepcija ir nosaukta par pienākumu sadali. Piemēram, iespējams, nevēlēsieties, lai viena un tā pati persona apstiprina preču saņemšanu un apstrādātu maksājumus kreditoram. Pienākumu sadale palīdz samazināt pārkāpumu risku un palīdz arī noteikt kļūdas vai neatbilstības. Pienākumu sadali var izmantot arī, lai lietotu iekšējās kontroles politikas. Lai izveidotu nosacījumus, veiciet tālākminēto procedūru. Lai izpildītu šo procedūru, jums ir jābūt sistēmas administratoram. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir DAT. 
+<span data-ttu-id="2f05d-104">Var iestatīt nosacījumus, lai atdalītu uzdevumus, kas ir jāveic dažādiem lietotājiem.</span><span class="sxs-lookup"><span data-stu-id="2f05d-104">You can set up rules to separate tasks that must be performed by different users.</span></span> <span data-ttu-id="2f05d-105">Šī koncepcija ir nosaukta par pienākumu sadali.</span><span class="sxs-lookup"><span data-stu-id="2f05d-105">This concept is named segregation of duties.</span></span> <span data-ttu-id="2f05d-106">Piemēram, iespējams, nevēlēsieties, lai viena un tā pati persona apstiprina preču saņemšanu un apstrādātu maksājumus kreditoram.</span><span class="sxs-lookup"><span data-stu-id="2f05d-106">For example, you might not want the same person both to acknowledge the receipt of goods and to process payment to the vendor.</span></span> <span data-ttu-id="2f05d-107">Pienākumu sadale palīdz samazināt pārkāpumu risku un palīdz arī noteikt kļūdas vai neatbilstības.</span><span class="sxs-lookup"><span data-stu-id="2f05d-107">Segregation of duties helps you reduce the risk of fraud, and it also helps you detect errors or irregularities.</span></span> <span data-ttu-id="2f05d-108">Pienākumu sadali var izmantot arī, lai lietotu iekšējās kontroles politikas.</span><span class="sxs-lookup"><span data-stu-id="2f05d-108">You can also use segregation of duties to enforce internal control policies.</span></span> <span data-ttu-id="2f05d-109">Lai izveidotu nosacījumus, veiciet tālākminēto procedūru.</span><span class="sxs-lookup"><span data-stu-id="2f05d-109">Complete the following procedure to create a rule.</span></span> <span data-ttu-id="2f05d-110">Lai izpildītu šo procedūru, jums ir jābūt sistēmas administratoram.</span><span class="sxs-lookup"><span data-stu-id="2f05d-110">You must be a system administrator to complete the procedure.</span></span> <span data-ttu-id="2f05d-111">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir DAT.</span><span class="sxs-lookup"><span data-stu-id="2f05d-111">The demo data company used to create this procedure is DAT.</span></span> 
 
-1. Dodieties uz Sistēmas administrēšana > Drošība > Pienākumu sadale > Pienākumu sadales nosacījumi.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Nosaukums ierakstiet kādu vērtību.
-    * Ievadiet nosacījumu nosaukumu.  
-4. Laukā Pirmais pienākums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-5. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-    * Atlasiet pirmo pienākumu, ko kontrolē nosacījumi.  
-6. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-7. Laukā Otrais pienākums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-8. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-    * Atlasiet otro pienākumu, ko kontrolē nosacījumi.  
-9. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-10. Laukā Stingrība atlasiet opciju.
-    * Atlasiet riska smagumu, kas rodas, ja viens un tas pats lietotājs vai loma pilda abus pienākumus.  
-11. Laukā Drošības risks ierakstiet vērtību.
-    * Ievadiet drošības riska aprakstu.  
-12. Laukā Drošības mazinājums ierakstiet vērtību.
-    * Ievadiet darbību parakstu, kas jāveic, lai mazinātu drošības risku. Piemēram, var mazināt risku, veicot detalizētāku procesa pārskatīšanu, veicot ikmēneša vadības pārskatīšanu vai koplietojot resursus ar citām nodaļām.  
-13. Noklikšķiniet uz Saglabāt.
+1. <span data-ttu-id="2f05d-112">Dodieties uz Sistēmas administrēšana > Drošība > Pienākumu sadale > Pienākumu sadales nosacījumi.</span><span class="sxs-lookup"><span data-stu-id="2f05d-112">Go to System administration > Security > Segregation of duties > Segregation of duties rules.</span></span>
+2. <span data-ttu-id="2f05d-113">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="2f05d-113">Click New.</span></span>
+3. <span data-ttu-id="2f05d-114">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="2f05d-114">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="2f05d-115">Ievadiet nosacījumu nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="2f05d-115">Enter a name for the rule.</span></span>  
+4. <span data-ttu-id="2f05d-116">Laukā Pirmais pienākums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="2f05d-116">In the First duty field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="2f05d-117">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="2f05d-117">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="2f05d-118">Atlasiet pirmo pienākumu, ko kontrolē nosacījumi.</span><span class="sxs-lookup"><span data-stu-id="2f05d-118">Select the first duty that is controlled by the rule.</span></span>  
+6. <span data-ttu-id="2f05d-119">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="2f05d-119">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="2f05d-120">Laukā Otrais pienākums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="2f05d-120">In the Second duty field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="2f05d-121">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="2f05d-121">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="2f05d-122">Atlasiet otro pienākumu, ko kontrolē nosacījumi.</span><span class="sxs-lookup"><span data-stu-id="2f05d-122">Select the second duty that is controlled by the rule.</span></span>  
+9. <span data-ttu-id="2f05d-123">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="2f05d-123">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="2f05d-124">Laukā Stingrība atlasiet opciju.</span><span class="sxs-lookup"><span data-stu-id="2f05d-124">In the Severity field, select an option.</span></span>
+    * <span data-ttu-id="2f05d-125">Atlasiet riska smagumu, kas rodas, ja viens un tas pats lietotājs vai loma pilda abus pienākumus.</span><span class="sxs-lookup"><span data-stu-id="2f05d-125">Select the severity of the risk that occurs when the same user or role performs both duties.</span></span>  
+11. <span data-ttu-id="2f05d-126">Laukā Drošības risks ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="2f05d-126">In the Security risk field, type a value.</span></span>
+    * <span data-ttu-id="2f05d-127">Ievadiet drošības riska aprakstu.</span><span class="sxs-lookup"><span data-stu-id="2f05d-127">Enter a description of the security risk.</span></span>  
+12. <span data-ttu-id="2f05d-128">Laukā Drošības mazinājums ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="2f05d-128">In the Security mitigation field, type a value.</span></span>
+    * <span data-ttu-id="2f05d-129">Ievadiet darbību parakstu, kas jāveic, lai mazinātu drošības risku.</span><span class="sxs-lookup"><span data-stu-id="2f05d-129">Enter a description of the actions that you take to mitigate the security risk.</span></span> <span data-ttu-id="2f05d-130">Piemēram, var mazināt risku, veicot detalizētāku procesa pārskatīšanu, veicot ikmēneša vadības pārskatīšanu vai koplietojot resursus ar citām nodaļām.</span><span class="sxs-lookup"><span data-stu-id="2f05d-130">For example, you can mitigate the risk by conducting more detailed reviews of the process, by conducting a monthly managerial review, or by sharing resources with other departments.</span></span>  
+13. <span data-ttu-id="2f05d-131">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="2f05d-131">Click Save.</span></span>
 
 

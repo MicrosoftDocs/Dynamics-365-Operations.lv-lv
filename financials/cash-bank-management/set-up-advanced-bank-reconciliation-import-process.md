@@ -18,165 +18,165 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: a4d1c81386c0ef03391f3127fa51a6b09a5142b3
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 785da18a851c4d040843f49ca9f1b9ae12d701d3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Iestatīt detalizētās bankas darbību saskaņošanas importa procesu
+# <a name="set-up-the-advanced-bank-reconciliation-import-process"></a><span data-ttu-id="30664-104">Iestatīt detalizētās bankas darbību saskaņošanas importa procesu</span><span class="sxs-lookup"><span data-stu-id="30664-104">Set up the advanced bank reconciliation import process</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Detalizētā bankas darbību saskaņošanas līdzeklis sniedz jums iespēju importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise. Šajā rakstā ir paskaidrots, kā iestatīt importēšanas funkcionalitāti saviem bankas izrakstiem. 
+<span data-ttu-id="30664-105">Detalizētā bankas darbību saskaņošanas līdzeklis sniedz jums iespēju importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise.</span><span class="sxs-lookup"><span data-stu-id="30664-105">The Advanced bank reconciliation feature lets you import electronic bank statements and automatically reconcile them with bank transactions in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="30664-106">Šajā rakstā ir paskaidrots, kā iestatīt importēšanas funkcionalitāti saviem bankas izrakstiem.</span><span class="sxs-lookup"><span data-stu-id="30664-106">This article explains how to set up the import functionality for your bank statements.</span></span> 
 
-Bankas izraksta importēšanas iestatījumi ir dažādi, un tie ir atkarīgi no jūsu elektroniskā bankas izraksta formāta. Finance and Operations atbalsta trīs bankas izraksta formātus: ISO20022, MT940 un BAI2.
+<span data-ttu-id="30664-107">Bankas izraksta importēšanas iestatījumi ir dažādi, un tie ir atkarīgi no jūsu elektroniskā bankas izraksta formāta.</span><span class="sxs-lookup"><span data-stu-id="30664-107">The setup for bank statement import varies, depending on the format of your electronic bank statement.</span></span> <span data-ttu-id="30664-108">Finance and Operations atbalsta trīs bankas izraksta formātus: ISO20022, MT940 un BAI2.</span><span class="sxs-lookup"><span data-stu-id="30664-108">Finance and Operations supports three bank statement formats out of the box: ISO20022, MT940, and BAI2.</span></span>
 
-## <a name="sample-files"></a>Parauga faili
-Visiem trim formātiem jums ir nepieciešami faili, kas elektronisko bankas izrakstu no sākotnējā formāta pārveido formātā, kuru var izmantot Finance and Operations. Nepieciešamie resursu faili ir atrodami Microsoft Visual Studio programmu pārlūka zarā **Resursi**. Kad faili ir atrasti, kopējiet tos uz vienu zināmu vietu, lai iestatīšanas procesa laikā tos varētu ērti augšupielādēt.
+## <a name="sample-files"></a><span data-ttu-id="30664-109">Parauga faili</span><span class="sxs-lookup"><span data-stu-id="30664-109">Sample files</span></span>
+<span data-ttu-id="30664-110">Visiem trim formātiem jums ir nepieciešami faili, kas elektronisko bankas izrakstu no sākotnējā formāta pārveido formātā, kuru var izmantot Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="30664-110">For all three formats, you must have files that translate the electronic bank statement from the original format to a format that Finance and Operations can use.</span></span> <span data-ttu-id="30664-111">Nepieciešamie resursu faili ir atrodami Microsoft Visual Studio programmu pārlūka zarā **Resursi**.</span><span class="sxs-lookup"><span data-stu-id="30664-111">You can find the required resource files under the **Resources** node in Application Explorer in Microsoft Visual Studio.</span></span> <span data-ttu-id="30664-112">Kad faili ir atrasti, kopējiet tos uz vienu zināmu vietu, lai iestatīšanas procesa laikā tos varētu ērti augšupielādēt.</span><span class="sxs-lookup"><span data-stu-id="30664-112">After you find the files, copy them to a single known location, so that you can more easily upload them during the setup process.</span></span>
 
-| Resursa nosaukums                                           | Faila nosaukums                            |
+| <span data-ttu-id="30664-113">Resursa nosaukums</span><span class="sxs-lookup"><span data-stu-id="30664-113">Resource name</span></span>                                           | <span data-ttu-id="30664-114">Faila nosaukums</span><span class="sxs-lookup"><span data-stu-id="30664-114">File name</span></span>                            |
 |---------------------------------------------------------|--------------------------------------|
-| BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt              | BAI2CSV-to-BAI2XML.xslt              |
-| BankStmtImport\_BAI2XML\_to\_Reconciliation\_xslt       | BAI2XML-to-Reconciliation.xslt       |
-| BankStmtImport\_BankReconciliation\_to\_Composite\_xslt | BankReconciliation-to-Composite.xslt |
-| BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt   | ISO20022XML-to-Reconciliation.xslt   |
-| BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt            | MT940TXT-to-MT940XML.xslt            |
-| BankStmtImport\_MT940XML\_to\_Reconciliation\_xslt      | MT940XML-to-Reconciliation.xslt      |
-| BankStmtImport\_SampleBankCompositeEntity\_xml          | SampleBankCompositeEntity.xml        |
+| <span data-ttu-id="30664-115">BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt</span><span class="sxs-lookup"><span data-stu-id="30664-115">BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt</span></span>              | <span data-ttu-id="30664-116">BAI2CSV-to-BAI2XML.xslt</span><span class="sxs-lookup"><span data-stu-id="30664-116">BAI2CSV-to-BAI2XML.xslt</span></span>              |
+| <span data-ttu-id="30664-117">BankStmtImport\_BAI2XML\_to\_Reconciliation\_xslt</span><span class="sxs-lookup"><span data-stu-id="30664-117">BankStmtImport\_BAI2XML\_to\_Reconciliation\_xslt</span></span>       | <span data-ttu-id="30664-118">BAI2XML-to-Reconciliation.xslt</span><span class="sxs-lookup"><span data-stu-id="30664-118">BAI2XML-to-Reconciliation.xslt</span></span>       |
+| <span data-ttu-id="30664-119">BankStmtImport\_BankReconciliation\_to\_Composite\_xslt</span><span class="sxs-lookup"><span data-stu-id="30664-119">BankStmtImport\_BankReconciliation\_to\_Composite\_xslt</span></span> | <span data-ttu-id="30664-120">BankReconciliation-to-Composite.xslt</span><span class="sxs-lookup"><span data-stu-id="30664-120">BankReconciliation-to-Composite.xslt</span></span> |
+| <span data-ttu-id="30664-121">BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt</span><span class="sxs-lookup"><span data-stu-id="30664-121">BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt</span></span>   | <span data-ttu-id="30664-122">ISO20022XML-to-Reconciliation.xslt</span><span class="sxs-lookup"><span data-stu-id="30664-122">ISO20022XML-to-Reconciliation.xslt</span></span>   |
+| <span data-ttu-id="30664-123">BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt</span><span class="sxs-lookup"><span data-stu-id="30664-123">BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt</span></span>            | <span data-ttu-id="30664-124">MT940TXT-to-MT940XML.xslt</span><span class="sxs-lookup"><span data-stu-id="30664-124">MT940TXT-to-MT940XML.xslt</span></span>            |
+| <span data-ttu-id="30664-125">BankStmtImport\_MT940XML\_to\_Reconciliation\_xslt</span><span class="sxs-lookup"><span data-stu-id="30664-125">BankStmtImport\_MT940XML\_to\_Reconciliation\_xslt</span></span>      | <span data-ttu-id="30664-126">MT940XML-to-Reconciliation.xslt</span><span class="sxs-lookup"><span data-stu-id="30664-126">MT940XML-to-Reconciliation.xslt</span></span>      |
+| <span data-ttu-id="30664-127">BankStmtImport\_SampleBankCompositeEntity\_xml</span><span class="sxs-lookup"><span data-stu-id="30664-127">BankStmtImport\_SampleBankCompositeEntity\_xml</span></span>          | <span data-ttu-id="30664-128">SampleBankCompositeEntity.xml</span><span class="sxs-lookup"><span data-stu-id="30664-128">SampleBankCompositeEntity.xml</span></span>        |
 
-## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Bankas izrakstu formātu un tehnisko izkārtojumu paraugi
-Tālāk ir sniegti detalizētās bankas darbību saskaņošanas importa faila tehnisko izkārtojumu definīciju paraugi un trīs saistītie bankas izrakstu parauga faili: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a><span data-ttu-id="30664-129">Bankas izrakstu formātu un tehnisko izkārtojumu paraugi</span><span class="sxs-lookup"><span data-stu-id="30664-129">Examples of bank statement formats and technical layouts</span></span>
+<span data-ttu-id="30664-130">Tālāk ir sniegti detalizētās bankas darbību saskaņošanas importa faila tehnisko izkārtojumu definīciju paraugi un trīs saistītie bankas izrakstu parauga faili: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts</span><span class="sxs-lookup"><span data-stu-id="30664-130">Below are examples of the advanced bank reconciliation import file technical layout definitions and three related bank statement example files: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts</span></span>  
 
-| Tehniskā izkārtojuma definīcija                             | Bankas izraksta parauga fails          |
+| <span data-ttu-id="30664-131">Tehniskā izkārtojuma definīcija</span><span class="sxs-lookup"><span data-stu-id="30664-131">Technical layout definition</span></span>                             | <span data-ttu-id="30664-132">Bankas izraksta parauga fails</span><span class="sxs-lookup"><span data-stu-id="30664-132">Bank statement example file</span></span>          |
 |---------------------------------------------------------|--------------------------------------|
-| DynamicsAXMT940Layout                                   | MT940StatementExample                |
-| DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
-| DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
+| <span data-ttu-id="30664-133">DynamicsAXMT940Layout</span><span class="sxs-lookup"><span data-stu-id="30664-133">DynamicsAXMT940Layout</span></span>                                   | <span data-ttu-id="30664-134">MT940StatementExample</span><span class="sxs-lookup"><span data-stu-id="30664-134">MT940StatementExample</span></span>                |
+| <span data-ttu-id="30664-135">DynamicsAXISO20022Layout</span><span class="sxs-lookup"><span data-stu-id="30664-135">DynamicsAXISO20022Layout</span></span>                                | <span data-ttu-id="30664-136">ISO20022StatementExample</span><span class="sxs-lookup"><span data-stu-id="30664-136">ISO20022StatementExample</span></span>             |
+| <span data-ttu-id="30664-137">DynamicsAXBAI2Layout</span><span class="sxs-lookup"><span data-stu-id="30664-137">DynamicsAXBAI2Layout</span></span>                                    | <span data-ttu-id="30664-138">BAI2StatementExample</span><span class="sxs-lookup"><span data-stu-id="30664-138">BAI2StatementExample</span></span>                 |
 
  
 
-## <a name="set-up-the-import-of-iso20022-bank-statements"></a>Iestatīt ISO20022 bankas izrakstu importu
-Vispirms ir jādefinē bankas izraksta formāta apstrādes grupa ISO20022 bankas izrakstiem, izmantojot datu elementa struktūru.
+## <a name="set-up-the-import-of-iso20022-bank-statements"></a><span data-ttu-id="30664-139">Iestatīt ISO20022 bankas izrakstu importu</span><span class="sxs-lookup"><span data-stu-id="30664-139">Set up the import of ISO20022 bank statements</span></span>
+<span data-ttu-id="30664-140">Vispirms ir jādefinē bankas izraksta formāta apstrādes grupa ISO20022 bankas izrakstiem, izmantojot datu elementa struktūru.</span><span class="sxs-lookup"><span data-stu-id="30664-140">First, you must define the bank statement format processing group for ISO20022 bank statements by using the data entity framework.</span></span>
 
-1.  Dodieties uz **Darbvietas** &gt; **Datu pārvaldība**.
-2.  Noklikšķiniet uz **Importēt**.
-3.  Ievadiet formāta nosaukumu, piemēram, **ISO20022**.
-4.  Laukam **Avota datu formāts** iestatiet vērtību **XML elements**.
-5.  Laukam **Elementa nosaukums** iestatiet vērtību **Bankas izraksti**.
-6.  Lai augšupielādētu importa failus, noklikšķiniet uz **Augšupielādēt** un pēc tam pārlūkojiet, lai atlasītu iepriekš saglabāto failu **SampleBankCompositeEntity.xml**.
-7.  Kad bankas izrakstu elements ir augšupielādēts un kartēšana ir pabeigta, noklikšķiniet uz darbības **Skatīt karti** šim elementam.
-8.  Bankas izrakstu elements ir saliktais elements, kas sastāv no četriem atsevišķiem elementiem. Sarakstā atlasiet vienumu **BankStatementDocumentEntity** un pēc tam noklikšķiniet uz darbības **Skatīt karti**.
-9.  Cilnē **Transformācijas** noklikšķiniet uz **Jauns**.
-10. Kārtas numuram 1 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **ISO20022XML-to-Reconciliation.xslt**. **Piezīme.** Finance and Operations transformāciju faili ir veidoti standarta formātam. Tā kā bankas bieži vien novirzās no šī formāta, jums var būt jāatjaunina transformācijas fails, lai kartētu uz savu bankas izraksta formātu. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
-11. Noklikšķiniet uz **Jauns**.
-12. Kārtas numuram 2 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **BankReconciliation-to-Composite.xslt**.
-13. Noklikšķiniet uz **Lietot transformācijas**.
+1.  <span data-ttu-id="30664-141">Dodieties uz **Darbvietas** &gt; **Datu pārvaldība**.</span><span class="sxs-lookup"><span data-stu-id="30664-141">Go to **Workspaces** &gt; **Data management**.</span></span>
+2.  <span data-ttu-id="30664-142">Noklikšķiniet uz **Importēt**.</span><span class="sxs-lookup"><span data-stu-id="30664-142">Click **Import**.</span></span>
+3.  <span data-ttu-id="30664-143">Ievadiet formāta nosaukumu, piemēram, **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="30664-143">Enter a name for the format, such as **ISO20022**.</span></span>
+4.  <span data-ttu-id="30664-144">Laukam **Avota datu formāts** iestatiet vērtību **XML elements**.</span><span class="sxs-lookup"><span data-stu-id="30664-144">Set the **Source data format** field to **XML-Element**.</span></span>
+5.  <span data-ttu-id="30664-145">Laukam **Elementa nosaukums** iestatiet vērtību **Bankas izraksti**.</span><span class="sxs-lookup"><span data-stu-id="30664-145">Set the **Entity name** field to **Bank statements**.</span></span>
+6.  <span data-ttu-id="30664-146">Lai augšupielādētu importa failus, noklikšķiniet uz **Augšupielādēt** un pēc tam pārlūkojiet, lai atlasītu iepriekš saglabāto failu **SampleBankCompositeEntity.xml**.</span><span class="sxs-lookup"><span data-stu-id="30664-146">To upload the import files, click **Upload**, and then browse to select the **SampleBankCompositeEntity.xml** file that you saved earlier.</span></span>
+7.  <span data-ttu-id="30664-147">Kad bankas izrakstu elements ir augšupielādēts un kartēšana ir pabeigta, noklikšķiniet uz darbības **Skatīt karti** šim elementam.</span><span class="sxs-lookup"><span data-stu-id="30664-147">After the Bank statements entity is uploaded and the mapping is completed, click the **View map** action for the entity.</span></span>
+8.  <span data-ttu-id="30664-148">Bankas izrakstu elements ir saliktais elements, kas sastāv no četriem atsevišķiem elementiem.</span><span class="sxs-lookup"><span data-stu-id="30664-148">The Bank statements entity is a composite entity that consists of four separate entities.</span></span> <span data-ttu-id="30664-149">Sarakstā atlasiet vienumu **BankStatementDocumentEntity** un pēc tam noklikšķiniet uz darbības **Skatīt karti**.</span><span class="sxs-lookup"><span data-stu-id="30664-149">In the list, select **BankStatementDocumentEntity**, and then click the **View map** action.</span></span>
+9.  <span data-ttu-id="30664-150">Cilnē **Transformācijas** noklikšķiniet uz **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="30664-150">On the **Transformations** tab, click **New**.</span></span>
+10. <span data-ttu-id="30664-151">Kārtas numuram 1 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **ISO20022XML-to-Reconciliation.xslt**.</span><span class="sxs-lookup"><span data-stu-id="30664-151">For sequence number 1, click **Upload file**, and select the **ISO20022XML-to-Reconciliation.xslt** file that you saved earlier.</span></span> <span data-ttu-id="30664-152">**Piezīme.** Finance and Operations transformāciju faili ir veidoti standarta formātam.</span><span class="sxs-lookup"><span data-stu-id="30664-152">**Note:** Finance and Operations transformation files are built for the standard format.</span></span> <span data-ttu-id="30664-153">Tā kā bankas bieži vien novirzās no šī formāta, jums var būt jāatjaunina transformācijas fails, lai kartētu uz savu bankas izraksta formātu.</span><span class="sxs-lookup"><span data-stu-id="30664-153">Because banks often diverge from this format, you may have to update the transformation file to map to your bank statement format.</span></span> <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
+11. <span data-ttu-id="30664-154">Noklikšķiniet uz **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="30664-154">Click **New**.</span></span>
+12. <span data-ttu-id="30664-155">Kārtas numuram 2 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **BankReconciliation-to-Composite.xslt**.</span><span class="sxs-lookup"><span data-stu-id="30664-155">For sequence number 2, click **Upload file**, and select the **BankReconciliation-to-Composite.xslt** file that you saved earlier.</span></span>
+13. <span data-ttu-id="30664-156">Noklikšķiniet uz **Lietot transformācijas**.</span><span class="sxs-lookup"><span data-stu-id="30664-156">Click **Apply transforms**.</span></span>
 
-Kad formāta apstrādes grupa ir iestatīta, ir jādefinē bankas izraksta formāta kārtulas ISO20022 bankas izrakstiem.
+<span data-ttu-id="30664-157">Kad formāta apstrādes grupa ir iestatīta, ir jādefinē bankas izraksta formāta kārtulas ISO20022 bankas izrakstiem.</span><span class="sxs-lookup"><span data-stu-id="30664-157">After the format processing group is set up, the next step is to define the bank statement format rules for ISO20022 bank statements.</span></span>
 
-1.  Dodieties uz **Skaidras naudas un bankas vadība** &gt; **Iestatīšana** &gt; **Detalizētas bankas darbību saskaņošanas iestatīšana** &gt; **Bankas izraksta formāts**.
-2.  Noklikšķiniet uz **Jauns**.
-3.  Norādiet pārskata formātu, piemēram, **ISO20022**.
-4.  Ievadiet formāta nosaukumu.
-5.  Lauku **Apstrādes grupa** iestatiet uz iepriekš definēto grupu, piemēram, **ISO20022**.
-6.  Atzīmējiet izvēles rūtiņu **XML fails**.
+1.  <span data-ttu-id="30664-158">Dodieties uz **Skaidras naudas un bankas vadība** &gt; **Iestatīšana** &gt; **Detalizētas bankas darbību saskaņošanas iestatīšana** &gt; **Bankas izraksta formāts**.</span><span class="sxs-lookup"><span data-stu-id="30664-158">Go to **Cash and bank management** &gt; **Setup** &gt; **Advanced bank reconciliation setup** &gt; **Bank statement format**.</span></span>
+2.  <span data-ttu-id="30664-159">Noklikšķiniet uz **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="30664-159">Click **New**.</span></span>
+3.  <span data-ttu-id="30664-160">Norādiet pārskata formātu, piemēram, **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="30664-160">Specify a statement format, such as **ISO20022**.</span></span>
+4.  <span data-ttu-id="30664-161">Ievadiet formāta nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="30664-161">Enter a name for the format.</span></span>
+5.  <span data-ttu-id="30664-162">Lauku **Apstrādes grupa** iestatiet uz iepriekš definēto grupu, piemēram, **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="30664-162">Set the **Processing group** field to the group that you defined earlier, such as **ISO20022**.</span></span>
+6.  <span data-ttu-id="30664-163">Atzīmējiet izvēles rūtiņu **XML fails**.</span><span class="sxs-lookup"><span data-stu-id="30664-163">Select the **XML file** check box.</span></span>
 
-Visbeidzot ir jāiespējo detalizētā bankas darbību saskaņošana un jāiestata izraksta formāts bankas kontā.
+<span data-ttu-id="30664-164">Visbeidzot ir jāiespējo detalizētā bankas darbību saskaņošana un jāiestata izraksta formāts bankas kontā.</span><span class="sxs-lookup"><span data-stu-id="30664-164">The last step is to enable Advanced bank reconciliation and set the statement format on the bank account.</span></span>
 
-1.  Dodieties uz **Skaidras naudas un bankas vadība** &gt; **Banku konti**.
-2.  Atlasiet bankas kontu un atveriet to, lai skatītu detalizētu informāciju.
-3.  Cilnē **Saskaņošana** opciju **Detalizētā bankas darbību saskaņošana** iestatiet uz **Jā**.
-4.  Lauku **Izraksta formāts** iestatiet uz iepriekš izveidoto formātu, piemēram, **ISO20022**.
+1.  <span data-ttu-id="30664-165">Dodieties uz **Skaidras naudas un bankas vadība** &gt; **Banku konti**.</span><span class="sxs-lookup"><span data-stu-id="30664-165">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="30664-166">Atlasiet bankas kontu un atveriet to, lai skatītu detalizētu informāciju.</span><span class="sxs-lookup"><span data-stu-id="30664-166">Select the bank account, and open it to view the details.</span></span>
+3.  <span data-ttu-id="30664-167">Cilnē **Saskaņošana** opciju **Detalizētā bankas darbību saskaņošana** iestatiet uz **Jā**.</span><span class="sxs-lookup"><span data-stu-id="30664-167">On the **Reconciliation** tab, set the **Advanced bank reconciliation** option to **Yes**.</span></span>
+4.  <span data-ttu-id="30664-168">Lauku **Izraksta formāts** iestatiet uz iepriekš izveidoto formātu, piemēram, **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="30664-168">Set the **Statement format** field to the format that you created earlier, such as **ISO20022**.</span></span>
 
-## <a name="set-up-the-import-of-mt940-bank-statements"></a>Iestatīt MT940 bankas izrakstu importu
-Vispirms ir jādefinē bankas izraksta formāta apstrādes grupa MT940 bankas izrakstiem, izmantojot datu elementa struktūru.
+## <a name="set-up-the-import-of-mt940-bank-statements"></a><span data-ttu-id="30664-169">Iestatīt MT940 bankas izrakstu importu</span><span class="sxs-lookup"><span data-stu-id="30664-169">Set up the import of MT940 bank statements</span></span>
+<span data-ttu-id="30664-170">Vispirms ir jādefinē bankas izraksta formāta apstrādes grupa MT940 bankas izrakstiem, izmantojot datu elementa struktūru.</span><span class="sxs-lookup"><span data-stu-id="30664-170">First, you must define the bank statement format processing group for MT940 bank statements by using the data entity framework.</span></span>
 
-1.  Dodieties uz **Darbvietas** &gt; **Datu pārvaldība**.
-2.  Noklikšķiniet uz **Importēt**.
-3.  Ievadiet formāta nosaukumu, piemēram, **MT940**.
-4.  Laukam **Avota datu formāts** iestatiet vērtību **XML elements**.
-5.  Laukam **Elementa nosaukums** iestatiet vērtību **Bankas izraksti**.
-6.  Lai augšupielādētu importa failus, noklikšķiniet uz **Augšupielādēt** un pēc tam pārlūkojiet, lai atlasītu iepriekš saglabāto failu **SampleBankCompositeEntity.xml**.
-7.  Kad bankas izrakstu elements ir augšupielādēts un kartēšana ir pabeigta, noklikšķiniet uz darbības **Skatīt karti** šim elementam.
-8.  Bankas izrakstu elements ir saliktais elements, kas sastāv no četriem atsevišķiem elementiem. Sarakstā atlasiet vienumu **BankStatementDocumentEntity** un pēc tam noklikšķiniet uz darbības **Skatīt karti**.
-9.  Cilnē **Transformācijas** noklikšķiniet uz **Jauns**.
-10. Kārtas numuram 1 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **MT940TXT-to-MT940XML.xslt**.
-11. Noklikšķiniet uz **Jauns**.
-12. Kārtas numuram 2 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **MT940XML-to-Reconciliation.xslt**. **Piezīme.** Finance and Operations transformāciju faili ir veidoti standarta formātam. Tā kā bankas bieži vien novirzās no šī formāta, jums var būt jāatjaunina transformācijas fails, lai kartētu uz savu bankas izraksta formātu. <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
-13. Noklikšķiniet uz **Jauns**.
-14. Kārtas numuram 3 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **BankReconciliation-to-Composite.xslt**.
-15. Noklikšķiniet uz **Lietot transformācijas**.
+1.  <span data-ttu-id="30664-171">Dodieties uz **Darbvietas** &gt; **Datu pārvaldība**.</span><span class="sxs-lookup"><span data-stu-id="30664-171">Go to **Workspaces** &gt; **Data management**.</span></span>
+2.  <span data-ttu-id="30664-172">Noklikšķiniet uz **Importēt**.</span><span class="sxs-lookup"><span data-stu-id="30664-172">Click **Import**.</span></span>
+3.  <span data-ttu-id="30664-173">Ievadiet formāta nosaukumu, piemēram, **MT940**.</span><span class="sxs-lookup"><span data-stu-id="30664-173">Enter a name for the format, such as **MT940**.</span></span>
+4.  <span data-ttu-id="30664-174">Laukam **Avota datu formāts** iestatiet vērtību **XML elements**.</span><span class="sxs-lookup"><span data-stu-id="30664-174">Set the **Source data format** field to **XML-Element**.</span></span>
+5.  <span data-ttu-id="30664-175">Laukam **Elementa nosaukums** iestatiet vērtību **Bankas izraksti**.</span><span class="sxs-lookup"><span data-stu-id="30664-175">Set the **Entity name** field to **Bank statements**.</span></span>
+6.  <span data-ttu-id="30664-176">Lai augšupielādētu importa failus, noklikšķiniet uz **Augšupielādēt** un pēc tam pārlūkojiet, lai atlasītu iepriekš saglabāto failu **SampleBankCompositeEntity.xml**.</span><span class="sxs-lookup"><span data-stu-id="30664-176">To upload import files, click **Upload**, and then browse to select the **SampleBankCompositeEntity.xml** file that you saved earlier.</span></span>
+7.  <span data-ttu-id="30664-177">Kad bankas izrakstu elements ir augšupielādēts un kartēšana ir pabeigta, noklikšķiniet uz darbības **Skatīt karti** šim elementam.</span><span class="sxs-lookup"><span data-stu-id="30664-177">After the Bank statements entity is uploaded and the mapping is completed, click the **View map** action for the entity.</span></span>
+8.  <span data-ttu-id="30664-178">Bankas izrakstu elements ir saliktais elements, kas sastāv no četriem atsevišķiem elementiem.</span><span class="sxs-lookup"><span data-stu-id="30664-178">The Bank statements entity is a composite entity that consists of four separate entities.</span></span> <span data-ttu-id="30664-179">Sarakstā atlasiet vienumu **BankStatementDocumentEntity** un pēc tam noklikšķiniet uz darbības **Skatīt karti**.</span><span class="sxs-lookup"><span data-stu-id="30664-179">In the list, select **BankStatementDocumentEntity**, and then click the **View map** action.</span></span>
+9.  <span data-ttu-id="30664-180">Cilnē **Transformācijas** noklikšķiniet uz **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="30664-180">On the **Transformations** tab, click **New**.</span></span>
+10. <span data-ttu-id="30664-181">Kārtas numuram 1 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **MT940TXT-to-MT940XML.xslt**.</span><span class="sxs-lookup"><span data-stu-id="30664-181">For sequence number 1, click **Upload file**, and select the **MT940TXT-to-MT940XML.xslt** file that you saved earlier.</span></span>
+11. <span data-ttu-id="30664-182">Noklikšķiniet uz **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="30664-182">Click **New**.</span></span>
+12. <span data-ttu-id="30664-183">Kārtas numuram 2 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **MT940XML-to-Reconciliation.xslt**.</span><span class="sxs-lookup"><span data-stu-id="30664-183">For sequence number 2, click **Upload file**, and select the **MT940XML-to-Reconciliation.xslt** file that you saved earlier.</span></span> <span data-ttu-id="30664-184">**Piezīme.** Finance and Operations transformāciju faili ir veidoti standarta formātam.</span><span class="sxs-lookup"><span data-stu-id="30664-184">**Note:** Finance and Operations transformation files are built for the standard format.</span></span> <span data-ttu-id="30664-185">Tā kā bankas bieži vien novirzās no šī formāta, jums var būt jāatjaunina transformācijas fails, lai kartētu uz savu bankas izraksta formātu.</span><span class="sxs-lookup"><span data-stu-id="30664-185">Because banks often diverge from this format, you may have to update the transformation file to map to your bank statement format.</span></span> <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
+13. <span data-ttu-id="30664-186">Noklikšķiniet uz **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="30664-186">Click **New**.</span></span>
+14. <span data-ttu-id="30664-187">Kārtas numuram 3 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **BankReconciliation-to-Composite.xslt**.</span><span class="sxs-lookup"><span data-stu-id="30664-187">For sequence number 3, click **Upload file**, and select the **BankReconciliation-to-Composite.xslt** file that you saved earlier.</span></span>
+15. <span data-ttu-id="30664-188">Noklikšķiniet uz **Lietot transformācijas**.</span><span class="sxs-lookup"><span data-stu-id="30664-188">Click **Apply transforms**.</span></span>
 
-Kad formāta apstrādes grupa ir iestatīta, ir jādefinē bankas izraksta formāta kārtulas MT940 bankas izrakstiem.
+<span data-ttu-id="30664-189">Kad formāta apstrādes grupa ir iestatīta, ir jādefinē bankas izraksta formāta kārtulas MT940 bankas izrakstiem.</span><span class="sxs-lookup"><span data-stu-id="30664-189">After the format processing group is set up, the next step is to define the bank statement format rules for MT940 bank statements.</span></span>
 
-1.  Dodieties uz **Skaidras naudas un bankas vadība** &gt; **Iestatīšana** &gt; **Detalizētas bankas darbību saskaņošanas iestatīšana** &gt; **Bankas izraksta formāts**.
-2.  Noklikšķiniet uz **Jauns**.
-3.  Norādiet pārskata formātu, piemēram, **MT940**.
-4.  Ievadiet formāta nosaukumu.
-5.  Lauku **Apstrādes grupa** iestatiet uz iepriekš definēto grupu, piemēram, **MT940**.
-6.  Laukam **Faila tips** iestatiet vērtību **txt**.
+1.  <span data-ttu-id="30664-190">Dodieties uz **Skaidras naudas un bankas vadība** &gt; **Iestatīšana** &gt; **Detalizētas bankas darbību saskaņošanas iestatīšana** &gt; **Bankas izraksta formāts**.</span><span class="sxs-lookup"><span data-stu-id="30664-190">Go to **Cash and bank management** &gt; **Setup** &gt; **Advanced bank reconciliation setup** &gt; **Bank statement format**.</span></span>
+2.  <span data-ttu-id="30664-191">Noklikšķiniet uz **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="30664-191">Click **New**.</span></span>
+3.  <span data-ttu-id="30664-192">Norādiet pārskata formātu, piemēram, **MT940**.</span><span class="sxs-lookup"><span data-stu-id="30664-192">Specify a statement format, such as **MT940**.</span></span>
+4.  <span data-ttu-id="30664-193">Ievadiet formāta nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="30664-193">Enter a name for the format.</span></span>
+5.  <span data-ttu-id="30664-194">Lauku **Apstrādes grupa** iestatiet uz iepriekš definēto grupu, piemēram, **MT940**.</span><span class="sxs-lookup"><span data-stu-id="30664-194">Set the **Processing group** field to the group that you defined earlier, such as **MT940**.</span></span>
+6.  <span data-ttu-id="30664-195">Laukam **Faila tips** iestatiet vērtību **txt**.</span><span class="sxs-lookup"><span data-stu-id="30664-195">Set the **File type** field to **txt**.</span></span>
 
-Visbeidzot ir jāiespējo detalizētā bankas darbību saskaņošana un jāiestata izraksta formāts bankas kontā.
+<span data-ttu-id="30664-196">Visbeidzot ir jāiespējo detalizētā bankas darbību saskaņošana un jāiestata izraksta formāts bankas kontā.</span><span class="sxs-lookup"><span data-stu-id="30664-196">The last step is to enable Advanced bank reconciliation and set the statement format on the bank account.</span></span>
 
-1.  Dodieties uz **Skaidras naudas un bankas vadība** &gt; **Banku konti**.
-2.  Atlasiet bankas kontu un atveriet to, lai skatītu detalizētu informāciju.
-3.  Cilnē **Saskaņošana** opciju **Detalizētā bankas darbību saskaņošana** iestatiet uz **Jā**.
-4.  Kad tiek piedāvāts apstiprināt jūsu izvēli un iespējot detalizēto bankas darbību saskaņošanu, noklikšķiniet uz **Labi**.
-5.  Lauku **Izraksta formāts** iestatiet uz iepriekš izveidoto formātu, piemēram, **MT940**.
+1.  <span data-ttu-id="30664-197">Dodieties uz **Skaidras naudas un bankas vadība** &gt; **Banku konti**.</span><span class="sxs-lookup"><span data-stu-id="30664-197">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="30664-198">Atlasiet bankas kontu un atveriet to, lai skatītu detalizētu informāciju.</span><span class="sxs-lookup"><span data-stu-id="30664-198">Select the bank account, and open it to view the details.</span></span>
+3.  <span data-ttu-id="30664-199">Cilnē **Saskaņošana** opciju **Detalizētā bankas darbību saskaņošana** iestatiet uz **Jā**.</span><span class="sxs-lookup"><span data-stu-id="30664-199">On the **Reconciliation** tab, set the **Advanced bank reconciliation** option to **Yes**.</span></span>
+4.  <span data-ttu-id="30664-200">Kad tiek piedāvāts apstiprināt jūsu izvēli un iespējot detalizēto bankas darbību saskaņošanu, noklikšķiniet uz **Labi**.</span><span class="sxs-lookup"><span data-stu-id="30664-200">When you're prompted to confirm your selection and enable Advanced bank reconciliation, click **OK**.</span></span>
+5.  <span data-ttu-id="30664-201">Lauku **Izraksta formāts** iestatiet uz iepriekš izveidoto formātu, piemēram, **MT940**.</span><span class="sxs-lookup"><span data-stu-id="30664-201">Set the **Statement format** field to the format that you created earlier, such as **MT940**.</span></span>
 
-## <a name="set-up-the-import-of-bai2-bank-statements"></a>Iestatīt BAI2 bankas izrakstu importu
-Vispirms ir jādefinē bankas izraksta formāta apstrādes grupa BAI2 bankas izrakstiem, izmantojot datu elementa struktūru.
+## <a name="set-up-the-import-of-bai2-bank-statements"></a><span data-ttu-id="30664-202">Iestatīt BAI2 bankas izrakstu importu</span><span class="sxs-lookup"><span data-stu-id="30664-202">Set up the import of BAI2 bank statements</span></span>
+<span data-ttu-id="30664-203">Vispirms ir jādefinē bankas izraksta formāta apstrādes grupa BAI2 bankas izrakstiem, izmantojot datu elementa struktūru.</span><span class="sxs-lookup"><span data-stu-id="30664-203">First, you must define the bank statement format processing group for BAI2 bank statements by using the data entity framework.</span></span>
 
-1.  Dodieties uz **Darbvietas** &gt; **Datu pārvaldība**.
-2.  Noklikšķiniet uz **Importēt**.
-3.  Ievadiet formāta nosaukumu, piemēram, **BAI2**.
-4.  Laukam **Avota datu formāts** iestatiet vērtību **XML elements**.
-5.  Laukam **Elementa nosaukums** iestatiet vērtību **Bankas izraksti**.
-6.  Lai augšupielādētu importa failus, noklikšķiniet uz **Augšupielādēt** un pēc tam pārlūkojiet, lai atlasītu iepriekš saglabāto failu **SampleBankCompositeEntity.xml**.
-7.  Kad bankas izrakstu elements ir augšupielādēts un kartēšana ir pabeigta, noklikšķiniet uz darbības **Skatīt karti** šim elementam.
-8.  Bankas izrakstu elements ir saliktais elements, kas sastāv no četriem atsevišķiem elementiem. Sarakstā atlasiet vienumu **BankStatementDocumentEntity** un pēc tam noklikšķiniet uz darbības **Skatīt karti**.
-9.  Cilnē **Transformācijas** noklikšķiniet uz **Jauns**.
-10. Kārtas numuram 1 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **BAI2CSV-to-BAI2XML.xslt**.
-11. Noklikšķiniet uz **Jauns**.
-12. Kārtas numuram 2 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **BAI2XML-to-Reconciliation.xslt**. **Piezīme.** Finance and Operations transformāciju faili ir veidoti standarta formātam. Tā kā bankas bieži vien novirzās no šī formāta, jums var būt jāatjaunina transformācijas fails, lai kartētu uz savu bankas izraksta formātu. <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
-13. Noklikšķiniet uz **Jauns**.
-14. Kārtas numuram 3 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **BankReconciliation-to-Composite.xslt**.
-15. Noklikšķiniet uz **Lietot transformācijas**.
+1.  <span data-ttu-id="30664-204">Dodieties uz **Darbvietas** &gt; **Datu pārvaldība**.</span><span class="sxs-lookup"><span data-stu-id="30664-204">Go to **Workspaces** &gt; **Data management**.</span></span>
+2.  <span data-ttu-id="30664-205">Noklikšķiniet uz **Importēt**.</span><span class="sxs-lookup"><span data-stu-id="30664-205">Click **Import**.</span></span>
+3.  <span data-ttu-id="30664-206">Ievadiet formāta nosaukumu, piemēram, **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="30664-206">Enter a name for the format, such as **BAI2**.</span></span>
+4.  <span data-ttu-id="30664-207">Laukam **Avota datu formāts** iestatiet vērtību **XML elements**.</span><span class="sxs-lookup"><span data-stu-id="30664-207">Set the **Source data format** field to **XML-Element**.</span></span>
+5.  <span data-ttu-id="30664-208">Laukam **Elementa nosaukums** iestatiet vērtību **Bankas izraksti**.</span><span class="sxs-lookup"><span data-stu-id="30664-208">Set the **Entity name** field to **Bank statements**.</span></span>
+6.  <span data-ttu-id="30664-209">Lai augšupielādētu importa failus, noklikšķiniet uz **Augšupielādēt** un pēc tam pārlūkojiet, lai atlasītu iepriekš saglabāto failu **SampleBankCompositeEntity.xml**.</span><span class="sxs-lookup"><span data-stu-id="30664-209">To upload import files, click **Upload**, and then browse to select the **SampleBankCompositeEntity.xml** file that you saved earlier.</span></span>
+7.  <span data-ttu-id="30664-210">Kad bankas izrakstu elements ir augšupielādēts un kartēšana ir pabeigta, noklikšķiniet uz darbības **Skatīt karti** šim elementam.</span><span class="sxs-lookup"><span data-stu-id="30664-210">After the Bank statements entity is uploaded and the mapping is completed, click the **View map** action for the entity.</span></span>
+8.  <span data-ttu-id="30664-211">Bankas izrakstu elements ir saliktais elements, kas sastāv no četriem atsevišķiem elementiem.</span><span class="sxs-lookup"><span data-stu-id="30664-211">The Bank statements entity is a composite entity that consists of four separate entities.</span></span> <span data-ttu-id="30664-212">Sarakstā atlasiet vienumu **BankStatementDocumentEntity** un pēc tam noklikšķiniet uz darbības **Skatīt karti**.</span><span class="sxs-lookup"><span data-stu-id="30664-212">In the list, select **BankStatementDocumentEntity**, and then click the **View map** action.</span></span>
+9.  <span data-ttu-id="30664-213">Cilnē **Transformācijas** noklikšķiniet uz **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="30664-213">On the **Transformations** tab, click **New**.</span></span>
+10. <span data-ttu-id="30664-214">Kārtas numuram 1 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **BAI2CSV-to-BAI2XML.xslt**.</span><span class="sxs-lookup"><span data-stu-id="30664-214">For sequence number 1, click **Upload file**, and select the **BAI2CSV-to-BAI2XML.xslt** file that you saved earlier.</span></span>
+11. <span data-ttu-id="30664-215">Noklikšķiniet uz **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="30664-215">Click **New**.</span></span>
+12. <span data-ttu-id="30664-216">Kārtas numuram 2 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **BAI2XML-to-Reconciliation.xslt**.</span><span class="sxs-lookup"><span data-stu-id="30664-216">For sequence number 2, click **Upload file**, and select the **BAI2XML-to-Reconciliation.xslt** file that you saved earlier.</span></span> <span data-ttu-id="30664-217">**Piezīme.** Finance and Operations transformāciju faili ir veidoti standarta formātam.</span><span class="sxs-lookup"><span data-stu-id="30664-217">**Note:** Finance and Operations transformation files are built for the standard format.</span></span> <span data-ttu-id="30664-218">Tā kā bankas bieži vien novirzās no šī formāta, jums var būt jāatjaunina transformācijas fails, lai kartētu uz savu bankas izraksta formātu.</span><span class="sxs-lookup"><span data-stu-id="30664-218">Because banks often diverge from this format, and you may have to update the transformation file to map to your bank statement format.</span></span> <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
+13. <span data-ttu-id="30664-219">Noklikšķiniet uz **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="30664-219">Click **New**.</span></span>
+14. <span data-ttu-id="30664-220">Kārtas numuram 3 noklikšķiniet uz **Augšupielādēt failu** un atlasiet iepriekš saglabāto failu **BankReconciliation-to-Composite.xslt**.</span><span class="sxs-lookup"><span data-stu-id="30664-220">For sequence number 3, click **Upload file**, and select the **BankReconciliation-to-Composite.xslt** file that you saved earlier.</span></span>
+15. <span data-ttu-id="30664-221">Noklikšķiniet uz **Lietot transformācijas**.</span><span class="sxs-lookup"><span data-stu-id="30664-221">Click **Apply transforms**.</span></span>
 
-Kad formāta apstrādes grupa ir iestatīta, ir jādefinē bankas izraksta formāta kārtulas BAI2 bankas izrakstiem.
+<span data-ttu-id="30664-222">Kad formāta apstrādes grupa ir iestatīta, ir jādefinē bankas izraksta formāta kārtulas BAI2 bankas izrakstiem.</span><span class="sxs-lookup"><span data-stu-id="30664-222">After the format processing group is set up, the next step is to define the bank statement format rules for BAI2 bank statements.</span></span>
 
-1.  Dodieties uz **Skaidras naudas un bankas vadība** &gt; **Iestatīšana** &gt; **Detalizētas bankas darbību saskaņošanas iestatīšana** &gt; **Bankas izraksta formāts**.
-2.  Noklikšķiniet uz **Jauns**.
-3.  Norādiet pārskata formātu, piemēram, **BAI2**.
-4.  Ievadiet formāta nosaukumu.
-5.  Lauku **Apstrādes grupa** iestatiet uz iepriekš definēto grupu, piemēram, **BAI2**.
-6.  Laukam **Faila tips** iestatiet vērtību **txt**.
+1.  <span data-ttu-id="30664-223">Dodieties uz **Skaidras naudas un bankas vadība** &gt; **Iestatīšana** &gt; **Detalizētas bankas darbību saskaņošanas iestatīšana** &gt; **Bankas izraksta formāts**.</span><span class="sxs-lookup"><span data-stu-id="30664-223">Go to **Cash and bank management** &gt; **Setup** &gt; **Advanced bank reconciliation setup** &gt; **Bank statement format**.</span></span>
+2.  <span data-ttu-id="30664-224">Noklikšķiniet uz **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="30664-224">Click **New**.</span></span>
+3.  <span data-ttu-id="30664-225">Norādiet pārskata formātu, piemēram, **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="30664-225">Specify a statement format, such as **BAI2**.</span></span>
+4.  <span data-ttu-id="30664-226">Ievadiet formāta nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="30664-226">Enter a name for the format.</span></span>
+5.  <span data-ttu-id="30664-227">Lauku **Apstrādes grupa** iestatiet uz iepriekš definēto grupu, piemēram, **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="30664-227">Set the **Processing group** field to the group that you defined earlier, such as **BAI2**.</span></span>
+6.  <span data-ttu-id="30664-228">Laukam **Faila tips** iestatiet vērtību **txt**.</span><span class="sxs-lookup"><span data-stu-id="30664-228">Set the **File type** field to **txt**.</span></span>
 
-Visbeidzot ir jāiespējo detalizētā bankas darbību saskaņošana un jāiestata izraksta formāts bankas kontā.
+<span data-ttu-id="30664-229">Visbeidzot ir jāiespējo detalizētā bankas darbību saskaņošana un jāiestata izraksta formāts bankas kontā.</span><span class="sxs-lookup"><span data-stu-id="30664-229">The last step is to enable Advanced bank reconciliation and set the statement format on the bank account.</span></span>
 
-1.  Dodieties uz **Skaidras naudas un bankas vadība** &gt; **Banku konti**.
-2.  Atlasiet bankas kontu un atveriet to, lai skatītu detalizētu informāciju.
-3.  Cilnē **Saskaņošana** opciju **Detalizētā bankas darbību saskaņošana** iestatiet uz **Jā**.
-4.  Kad tiek piedāvāts apstiprināt jūsu izvēli un iespējot detalizēto bankas darbību saskaņošanu, noklikšķiniet uz **Labi**.
-5.  Lauku **Izraksta formāts** iestatiet uz iepriekš izveidoto formātu, piemēram, **BAI2**.
+1.  <span data-ttu-id="30664-230">Dodieties uz **Skaidras naudas un bankas vadība** &gt; **Banku konti**.</span><span class="sxs-lookup"><span data-stu-id="30664-230">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="30664-231">Atlasiet bankas kontu un atveriet to, lai skatītu detalizētu informāciju.</span><span class="sxs-lookup"><span data-stu-id="30664-231">Select the bank account, and open it to view the details.</span></span>
+3.  <span data-ttu-id="30664-232">Cilnē **Saskaņošana** opciju **Detalizētā bankas darbību saskaņošana** iestatiet uz **Jā**.</span><span class="sxs-lookup"><span data-stu-id="30664-232">On the **Reconciliation** tab, set the **Advanced bank reconciliation** option to **Yes**.</span></span>
+4.  <span data-ttu-id="30664-233">Kad tiek piedāvāts apstiprināt jūsu izvēli un iespējot detalizēto bankas darbību saskaņošanu, noklikšķiniet uz **Labi**.</span><span class="sxs-lookup"><span data-stu-id="30664-233">When you're prompted to confirm your selection and enable Advanced bank reconciliation, click **OK**.</span></span>
+5.  <span data-ttu-id="30664-234">Lauku **Izraksta formāts** iestatiet uz iepriekš izveidoto formātu, piemēram, **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="30664-234">Set the **Statement format** field to the format that you created earlier, such as **BAI2**.</span></span>
 
-## <a name="test-the-bank-statement-import"></a>Testēt bankas izraksta importēšanu
-Visbeidzot ir jāpārbauda, vai varat importēt savu bankas izrakstu.
+## <a name="test-the-bank-statement-import"></a><span data-ttu-id="30664-235">Testēt bankas izraksta importēšanu</span><span class="sxs-lookup"><span data-stu-id="30664-235">Test the bank statement import</span></span>
+<span data-ttu-id="30664-236">Visbeidzot ir jāpārbauda, vai varat importēt savu bankas izrakstu.</span><span class="sxs-lookup"><span data-stu-id="30664-236">The final step is to test that you can import your bank statement.</span></span>
 
-1.  Dodieties uz **Skaidras naudas un bankas vadība** &gt; **Banku konti**.
-2.  Atlasiet bankas kontu, kam ir iespējota detalizētās bankas darbību saskaņošanas funkcionalitāte.
-3.  Cilnē **Saskaņot** noklikšķiniet uz **Bankas izraksti**.
-4.  Lapā **Bankas izraksts** noklikšķiniet uz **Importēt izrakstu**.
-5.  Laukam **Bankas konts** iestatiet atlasīto bankas kontu. Lauks **Pārskata formāts** tiks iestatīts automātiski, pamatojoties uz bankas konta iestatījumiem.
-6.  Noklikšķiniet uz **Pārlūkot** un atlasiet savu elektroniskā bankas izraksta failu.
-7.  Noklikšķiniet uz **Augšupielādēt**.
-8.  Noklikšķiniet uz **Labi**.
+1.  <span data-ttu-id="30664-237">Dodieties uz **Skaidras naudas un bankas vadība** &gt; **Banku konti**.</span><span class="sxs-lookup"><span data-stu-id="30664-237">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="30664-238">Atlasiet bankas kontu, kam ir iespējota detalizētās bankas darbību saskaņošanas funkcionalitāte.</span><span class="sxs-lookup"><span data-stu-id="30664-238">Select the bank account that Advanced bank reconciliation functionality is enabled for.</span></span>
+3.  <span data-ttu-id="30664-239">Cilnē **Saskaņot** noklikšķiniet uz **Bankas izraksti**.</span><span class="sxs-lookup"><span data-stu-id="30664-239">On the **Reconcile** tab, click **Bank statements**.</span></span>
+4.  <span data-ttu-id="30664-240">Lapā **Bankas izraksts** noklikšķiniet uz **Importēt izrakstu**.</span><span class="sxs-lookup"><span data-stu-id="30664-240">On the **Bank statement** page, click **Import statement**.</span></span>
+5.  <span data-ttu-id="30664-241">Laukam **Bankas konts** iestatiet atlasīto bankas kontu.</span><span class="sxs-lookup"><span data-stu-id="30664-241">Set the **Bank account** field to the selected bank account.</span></span> <span data-ttu-id="30664-242">Lauks **Pārskata formāts** tiks iestatīts automātiski, pamatojoties uz bankas konta iestatījumiem.</span><span class="sxs-lookup"><span data-stu-id="30664-242">The **Statement format** field will be set automatically, based on the setting on the bank account.</span></span>
+6.  <span data-ttu-id="30664-243">Noklikšķiniet uz **Pārlūkot** un atlasiet savu elektroniskā bankas izraksta failu.</span><span class="sxs-lookup"><span data-stu-id="30664-243">Click **Browse**, and select your electronic bank statement file.</span></span>
+7.  <span data-ttu-id="30664-244">Noklikšķiniet uz **Augšupielādēt**.</span><span class="sxs-lookup"><span data-stu-id="30664-244">Click **Upload**.</span></span>
+8.  <span data-ttu-id="30664-245">Noklikšķiniet uz **Labi**.</span><span class="sxs-lookup"><span data-stu-id="30664-245">Click **OK**.</span></span>
 
-Ja importēšana notika sekmīgi, jūs saņemat ziņojumu, ka jūsu izraksts tika importēts. Ja importēšana nebija sekmīga, darbvietas **Datu pārvaldība** sadaļā **Darbu vēsture** atrodiet šo darbu. Noklikšķiniet uz **Detalizēta informācija par izpildi** šim darbam, lai atvērtu lapu **Izpildes kopsavilkums**, un pēc tam noklikšķiniet uz **Skatīt izpildes žurnālu**, lai skatītu importēšanas kļūdas.
+<span data-ttu-id="30664-246">Ja importēšana notika sekmīgi, jūs saņemat ziņojumu, ka jūsu izraksts tika importēts.</span><span class="sxs-lookup"><span data-stu-id="30664-246">If the import is successful, you will receive a message that states that your statement was imported.</span></span> <span data-ttu-id="30664-247">Ja importēšana nebija sekmīga, darbvietas **Datu pārvaldība** sadaļā **Darbu vēsture** atrodiet šo darbu.</span><span class="sxs-lookup"><span data-stu-id="30664-247">If the import wasn't successful, in the **Data management** workspace, in the **Job history** section, find the job.</span></span> <span data-ttu-id="30664-248">Noklikšķiniet uz **Detalizēta informācija par izpildi** šim darbam, lai atvērtu lapu **Izpildes kopsavilkums**, un pēc tam noklikšķiniet uz **Skatīt izpildes žurnālu**, lai skatītu importēšanas kļūdas.</span><span class="sxs-lookup"><span data-stu-id="30664-248">Click **Execution details** for the job to open the **Execution summary** page, and then click **View execution log** to view the import errors.</span></span>
 
 
 

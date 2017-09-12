@@ -15,56 +15,56 @@ ms.custom: 192061
 ms.assetid: c0aceb57-b5e6-4ef3-91e7-89a21c9f048a
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 66f1b8e03cc0da5d21fea9b3c795d8f4097c8cfc
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 56e29bd2e875b8bb729e5dfe0c5ac03fc997ecbe
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="configure-an-automated-task-in-a-workflow"></a>Konfigurēt automatizētu uzdevumu darbplūsmā
+# <a name="configure-an-automated-task-in-a-workflow"></a><span data-ttu-id="693a2-103">Konfigurēt automatizētu uzdevumu darbplūsmā</span><span class="sxs-lookup"><span data-stu-id="693a2-103">Configure an automated task in a workflow</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Šajā tēmā ir paskaidrots, kā konfigurēt automatizēta uzdevuma rekvizītus.
+<span data-ttu-id="693a2-104">Šajā tēmā ir paskaidrots, kā konfigurēt automatizēta uzdevuma rekvizītus.</span><span class="sxs-lookup"><span data-stu-id="693a2-104">This topic explains how to configure the properties for an automated task.</span></span>
 
-Lai konfigurētu automatizētu uzdevumu darbplūsmas redaktorā, ar peles labo taustiņu noklikšķiniet uz uzdevuma un pēc tam noklikšķiniet uz **Rekvizīti**, lai atvērtu lapu **Rekvizīti**. Pēc tam izmantojiet tālāk aprakstītās procedūras, lai konfigurētu automatizētā uzdevuma rekvizītus.
+<span data-ttu-id="693a2-105">Lai konfigurētu automatizētu uzdevumu darbplūsmas redaktorā, ar peles labo taustiņu noklikšķiniet uz uzdevuma un pēc tam noklikšķiniet uz **Rekvizīti**, lai atvērtu lapu **Rekvizīti**.</span><span class="sxs-lookup"><span data-stu-id="693a2-105">To configure an automated task in the workflow editor, right-click the task, and then click **Properties** to open the **Properties** page.</span></span> <span data-ttu-id="693a2-106">Pēc tam izmantojiet tālāk aprakstītās procedūras, lai konfigurētu automatizētā uzdevuma rekvizītus.</span><span class="sxs-lookup"><span data-stu-id="693a2-106">Then use the following procedures to configure the properties for the automated task.</span></span>
 
-## <a name="name-the-task"></a>Nosaukuma piešķiršana uzdevumam
-Izpildiet tālākos norādījumus, lai ievadītu automatizētā uzdevuma nosaukumu.
+## <a name="name-the-task"></a><span data-ttu-id="693a2-107">Nosaukuma piešķiršana uzdevumam</span><span class="sxs-lookup"><span data-stu-id="693a2-107">Name the task</span></span>
+<span data-ttu-id="693a2-108">Izpildiet tālākos norādījumus, lai ievadītu automatizētā uzdevuma nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="693a2-108">Follow these steps to enter a name for the automated task.</span></span>
 
-1.  Kreisajā rūtī noklikšķiniet uz **Pamata iestatījumi**.
-2.  Laukā **Nosaukums** uzdevumam ievadiet unikālu nosaukumu.
+1.  <span data-ttu-id="693a2-109">Kreisajā rūtī noklikšķiniet uz **Pamata iestatījumi**.</span><span class="sxs-lookup"><span data-stu-id="693a2-109">In the left pane, click **Basic Settings**.</span></span>
+2.  <span data-ttu-id="693a2-110">Laukā **Nosaukums** uzdevumam ievadiet unikālu nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="693a2-110">In the **Name** field, enter a unique name for the task.</span></span>
 
-## <a name="specify-when-notifications-are-sent"></a>Norādīt, kad tiek sūtīti paziņojumi
-Varat nosūtīt lietotājiem paziņojumus, kad automatizētais uzdevums ir palaists vai atcelts. Veiciet šīs darbības, lai norādītu, kad paziņojumi tiek sūtīti un kam tie tiek sūtīti.
+## <a name="specify-when-notifications-are-sent"></a><span data-ttu-id="693a2-111">Norādīt, kad tiek sūtīti paziņojumi</span><span class="sxs-lookup"><span data-stu-id="693a2-111">Specify when notifications are sent</span></span>
+<span data-ttu-id="693a2-112">Varat nosūtīt lietotājiem paziņojumus, kad automatizētais uzdevums ir palaists vai atcelts.</span><span class="sxs-lookup"><span data-stu-id="693a2-112">You can send notifications to people when an automated task has been run or canceled.</span></span> <span data-ttu-id="693a2-113">Veiciet šīs darbības, lai norādītu, kad paziņojumi tiek sūtīti un kam tie tiek sūtīti.</span><span class="sxs-lookup"><span data-stu-id="693a2-113">Follow these steps to specify when notifications are sent, and who they are sent to.</span></span>
 
-1.  Kreisajā rūtī noklikšķiniet uz **Paziņojumi**.
-2.  Atzīmējiet izvēles rūtiņu pie notikumiem, lai sūtītu paziņojumus par:
-    -   **Izpildi** — paziņojumi tiek nosūtīti, kad uzdevums ir palaists.
-    -   **Atcelšanu** — paziņojumi tiek nosūtīti, kad uzdevums ir atcelts.
+1.  <span data-ttu-id="693a2-114">Kreisajā rūtī noklikšķiniet uz **Paziņojumi**.</span><span class="sxs-lookup"><span data-stu-id="693a2-114">In the left pane, click **Notifications**.</span></span>
+2.  <span data-ttu-id="693a2-115">Atzīmējiet izvēles rūtiņu pie notikumiem, lai sūtītu paziņojumus par:</span><span class="sxs-lookup"><span data-stu-id="693a2-115">Select the check box next to the events to send notifications for:</span></span>
+    -   <span data-ttu-id="693a2-116">**Izpildi** — paziņojumi tiek nosūtīti, kad uzdevums ir palaists.</span><span class="sxs-lookup"><span data-stu-id="693a2-116">**Execution** – Notifications are sent when the task has been run.</span></span>
+    -   <span data-ttu-id="693a2-117">**Atcelšanu** — paziņojumi tiek nosūtīti, kad uzdevums ir atcelts.</span><span class="sxs-lookup"><span data-stu-id="693a2-117">**Canceled** – Notifications are sent when the task has been canceled.</span></span>
 
-3.  Atlasiet tāda notikuma rindu, kuru atlasījāt 2. darbībā.
-4.  Cilnē **Paziņojuma teksts**, tekstlodziņā ievadiet paziņojuma tekstu.
-5.  Lai personalizētu paziņojumu, varat ievadīt vietturus. Vietturi tiks aizvietoti ar atbilstošiem datiem, kad paziņojums tiks parādīts lietotājiem. Veiciet šīs darbības, lai ievietotu vietturi:
-    1.  Tekstlodziņā noklikšķiniet uz vietas, kur jāparādās vietturim.
-    2.  Noklikšķiniet uz **Ievietot vietturi**.
-    3.  Parādītajā sarakstā atlasiet vietturi, kuru ievietot.
-    4.  Noklikšķiniet uz **Ievietot**.
+3.  <span data-ttu-id="693a2-118">Atlasiet tāda notikuma rindu, kuru atlasījāt 2. darbībā.</span><span class="sxs-lookup"><span data-stu-id="693a2-118">Select the row for an event that you selected in step 2.</span></span>
+4.  <span data-ttu-id="693a2-119">Cilnē **Paziņojuma teksts**, tekstlodziņā ievadiet paziņojuma tekstu.</span><span class="sxs-lookup"><span data-stu-id="693a2-119">On the **Notification text** tab, in the text box, enter the text of the notification.</span></span>
+5.  <span data-ttu-id="693a2-120">Lai personalizētu paziņojumu, varat ievadīt vietturus.</span><span class="sxs-lookup"><span data-stu-id="693a2-120">To personalize the notification, you can insert placeholders.</span></span> <span data-ttu-id="693a2-121">Vietturi tiks aizvietoti ar atbilstošiem datiem, kad paziņojums tiks parādīts lietotājiem.</span><span class="sxs-lookup"><span data-stu-id="693a2-121">Placeholders are replaced with appropriate data when the notification is shown to users.</span></span> <span data-ttu-id="693a2-122">Veiciet šīs darbības, lai ievietotu vietturi:</span><span class="sxs-lookup"><span data-stu-id="693a2-122">Follow these steps to insert a placeholder:</span></span>
+    1.  <span data-ttu-id="693a2-123">Tekstlodziņā noklikšķiniet uz vietas, kur jāparādās vietturim.</span><span class="sxs-lookup"><span data-stu-id="693a2-123">In the text box, click where the placeholder should appear.</span></span>
+    2.  <span data-ttu-id="693a2-124">Noklikšķiniet uz **Ievietot vietturi**.</span><span class="sxs-lookup"><span data-stu-id="693a2-124">Click **Insert placeholder**.</span></span>
+    3.  <span data-ttu-id="693a2-125">Parādītajā sarakstā atlasiet vietturi, kuru ievietot.</span><span class="sxs-lookup"><span data-stu-id="693a2-125">In the list that appears, select the placeholder to insert.</span></span>
+    4.  <span data-ttu-id="693a2-126">Noklikšķiniet uz **Ievietot**.</span><span class="sxs-lookup"><span data-stu-id="693a2-126">Click **Insert**.</span></span>
 
-6.  Lai pievienotu paziņojuma tulkojumus, rīkojieties šādi:
-    1.  Noklikšķiniet uz **Tulkojumi**.
-    2.  Parādītajā lapā noklikšķiniet uz **Pievienot**.
-    3.  Parādītajā sarakstā izvēlieties valodu, kas tiek izmantota teksta ievadei.
-    4.  Laukā **Tulkotais teksts** ievadiet tekstu.
-    5.  Lai personalizētu tekstu, var ievadīt vietturus, kā aprakstīts 5. darbībā.
-    6.  Noklikšķiniet uz **Aizvērt**.
+6.  <span data-ttu-id="693a2-127">Lai pievienotu paziņojuma tulkojumus, rīkojieties šādi:</span><span class="sxs-lookup"><span data-stu-id="693a2-127">To add translations of the notification, follow these steps:</span></span>
+    1.  <span data-ttu-id="693a2-128">Noklikšķiniet uz **Tulkojumi**.</span><span class="sxs-lookup"><span data-stu-id="693a2-128">Click **Translations**.</span></span>
+    2.  <span data-ttu-id="693a2-129">Parādītajā lapā noklikšķiniet uz **Pievienot**.</span><span class="sxs-lookup"><span data-stu-id="693a2-129">On the page that appears, click **Add**.</span></span>
+    3.  <span data-ttu-id="693a2-130">Parādītajā sarakstā izvēlieties valodu, kas tiek izmantota teksta ievadei.</span><span class="sxs-lookup"><span data-stu-id="693a2-130">In the list that appears, select the language that you're entering the text in.</span></span>
+    4.  <span data-ttu-id="693a2-131">Laukā **Tulkotais teksts** ievadiet tekstu.</span><span class="sxs-lookup"><span data-stu-id="693a2-131">In the **Translated text** field, enter the text.</span></span>
+    5.  <span data-ttu-id="693a2-132">Lai personalizētu tekstu, var ievadīt vietturus, kā aprakstīts 5. darbībā.</span><span class="sxs-lookup"><span data-stu-id="693a2-132">To personalize the text, you can insert placeholders as described in step 5.</span></span>
+    6.  <span data-ttu-id="693a2-133">Noklikšķiniet uz **Aizvērt**.</span><span class="sxs-lookup"><span data-stu-id="693a2-133">Click **Close**.</span></span>
 
-7.  Cilnē **Adresāts** norādiet personu, kurai paziņojumi tiek nosūtīti. Atlasiet vienu no tālāk redzamajā tabulā minētajām opcijām un pēc tam veiciet papildu darbības attiecīgajai opcijai, pirms pārejat uz 8. darbību.
+7.  <span data-ttu-id="693a2-134">Cilnē **Adresāts** norādiet personu, kurai paziņojumi tiek nosūtīti.</span><span class="sxs-lookup"><span data-stu-id="693a2-134">On the **Recipient** tab, specify who the notifications are sent to.</span></span> <span data-ttu-id="693a2-135">Atlasiet vienu no tālāk redzamajā tabulā minētajām opcijām un pēc tam veiciet papildu darbības attiecīgajai opcijai, pirms pārejat uz 8. darbību.</span><span class="sxs-lookup"><span data-stu-id="693a2-135">Select one of the options in the following table, and then follow the additional steps for that option before you go to step 8.</span></span>
     <table>
     <colgroup>
     <col width="33%" />
@@ -73,39 +73,39 @@ Varat nosūtīt lietotājiem paziņojumus, kad automatizētais uzdevums ir palai
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Opcija</th>
-    <th>Paziņojuma adresāti</th>
-    <th>Papildu transakcijas</th>
+    <th><span data-ttu-id="693a2-136">Opcija</span><span class="sxs-lookup"><span data-stu-id="693a2-136">Option</span></span></th>
+    <th><span data-ttu-id="693a2-137">Paziņojuma adresāti</span><span class="sxs-lookup"><span data-stu-id="693a2-137">Notification recipients</span></span></th>
+    <th><span data-ttu-id="693a2-138">Papildu transakcijas</span><span class="sxs-lookup"><span data-stu-id="693a2-138">Additional steps</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Dalībnieks</td>
-    <td>Lietotāji, kuri ir piešķirti noteiktai grupai vai lomai</td>
+    <td><span data-ttu-id="693a2-139">Dalībnieks</span><span class="sxs-lookup"><span data-stu-id="693a2-139">Participant</span></span></td>
+    <td><span data-ttu-id="693a2-140">Lietotāji, kuri ir piešķirti noteiktai grupai vai lomai</span><span class="sxs-lookup"><span data-stu-id="693a2-140">Users who are assigned to a specific group or role</span></span></td>
     <td><ol>
-    <li>Pēc tam, kad ir atlasīts vienums <strong>Dalībnieks</strong>, cilnes <strong>Pēc lomas</strong> sarakstā <strong>Dalībnieka tips</strong> atlasiet grupas tipu vai lomu, kurai nosūtīt paziņojumu.</li>
-    <li>Sarakstā <strong>Dalībnieks</strong> atlasiet grupu vai lomu, kurai nosūtīt paziņojumus.</li>
+    <li><span data-ttu-id="693a2-141">Pēc tam, kad ir atlasīts vienums <strong>Dalībnieks</strong>, cilnes <strong>Pēc lomas</strong> sarakstā <strong>Dalībnieka tips</strong> atlasiet grupas tipu vai lomu, kurai nosūtīt paziņojumu.</span><span class="sxs-lookup"><span data-stu-id="693a2-141">After you select <strong>Participant</strong>, on the <strong>Role based</strong> tab, in the <strong>Type of participant</strong> list, select the type of group or role to send notifications to.</span></span></li>
+    <li><span data-ttu-id="693a2-142">Sarakstā <strong>Dalībnieks</strong> atlasiet grupu vai lomu, kurai nosūtīt paziņojumus.</span><span class="sxs-lookup"><span data-stu-id="693a2-142">In the <strong>Participant</strong> list, select the group or role to send notifications to.</span></span></li>
     </ol></td>
     </tr>
     <tr class="even">
-    <td>Darbplūsmas lietotājs</td>
-    <td>Lietotāji, kuri piedalās pašreizējā darbplūsmā</td>
+    <td><span data-ttu-id="693a2-143">Darbplūsmas lietotājs</span><span class="sxs-lookup"><span data-stu-id="693a2-143">Workflow user</span></span></td>
+    <td><span data-ttu-id="693a2-144">Lietotāji, kuri piedalās pašreizējā darbplūsmā</span><span class="sxs-lookup"><span data-stu-id="693a2-144">Users who participate in the current workflow</span></span></td>
     <td><ul>
-    <li>Pēc tam, kad ir atlasīts vienums <strong>Darbplūsmas lietotājs</strong>, cilnes <strong>Darbplūsmas lietotājs</strong> sarakstā <strong>Darbplūsmas lietotājs</strong> atlasiet lietotāju, kas piedalās attiecīgajā darbplūsmā.</li>
+    <li><span data-ttu-id="693a2-145">Pēc tam, kad ir atlasīts vienums <strong>Darbplūsmas lietotājs</strong>, cilnes <strong>Darbplūsmas lietotājs</strong> sarakstā <strong>Darbplūsmas lietotājs</strong> atlasiet lietotāju, kas piedalās attiecīgajā darbplūsmā.</span><span class="sxs-lookup"><span data-stu-id="693a2-145">After you select <strong>Workflow user</strong>, on the <strong>Workflow user</strong> tab, in the <strong>Workflow user</strong> list, select a user who participates in the workflow.</span></span></li>
     </ul></td>
     </tr>
     <tr class="odd">
-    <td>Lietotājs</td>
-    <td>Noteikti Microsoft Dynamics 365 for Finance and Operations lietotāji</td>
+    <td><span data-ttu-id="693a2-146">Lietotājs</span><span class="sxs-lookup"><span data-stu-id="693a2-146">User</span></span></td>
+    <td><span data-ttu-id="693a2-147">Noteikti Microsoft Dynamics 365 for Finance and Operations lietotāji</span><span class="sxs-lookup"><span data-stu-id="693a2-147">Specific Microsoft Dynamics 365 for Finance and Operations users</span></span></td>
     <td><ol>
-    <li>Pēc tam, kad ir atlasīts vienums <strong>Lietotājs</strong>, noklikšķiniet uz cilnes <strong>Lietotājs</strong>.</li>
-    <li>Sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Finance and Operations lietotāji. Atlasiet lietotājus, kuriem sūtīt paziņojumus, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
+    <li><span data-ttu-id="693a2-148">Pēc tam, kad ir atlasīts vienums <strong>Lietotājs</strong>, noklikšķiniet uz cilnes <strong>Lietotājs</strong>.</span><span class="sxs-lookup"><span data-stu-id="693a2-148">After you select <strong>User</strong>, click the <strong>User</strong> tab.</span></span></li>
+    <li><span data-ttu-id="693a2-149">Sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Finance and Operations lietotāji.</span><span class="sxs-lookup"><span data-stu-id="693a2-149">The <strong>Available users</strong> list includes all Finance and Operations users.</span></span> <span data-ttu-id="693a2-150">Atlasiet lietotājus, kuriem sūtīt paziņojumus, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</span><span class="sxs-lookup"><span data-stu-id="693a2-150">Select the users to send notifications to, and then move those users to the <strong>Selected users</strong> list.</span></span></li>
     </ol></td>
     </tr>
     </tbody>
     </table>
 
-8.  Atkārtojiet 3.–7. darbību katram notikumam, ko atlasījāt 2. darbībā.
+8.  <span data-ttu-id="693a2-151">Atkārtojiet 3.–7. darbību katram notikumam, ko atlasījāt 2. darbībā.</span><span class="sxs-lookup"><span data-stu-id="693a2-151">Repeat steps 3 through 7 for each event that you selected in step 2.</span></span>
 
 
 

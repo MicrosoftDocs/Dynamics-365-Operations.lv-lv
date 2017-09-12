@@ -24,78 +24,78 @@ ms.lasthandoff: 08/02/2017
 
 ---
 
-# <a name="welcome-to-human-resources"></a>Laipni lūdzam personāla vadībā
+# <a name="welcome-to-human-resources"></a><span data-ttu-id="f2b34-105">Laipni lūdzam personāla vadībā</span><span class="sxs-lookup"><span data-stu-id="f2b34-105">Welcome to human resources</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Personāla vadība racionalizē daudzus ikdienas lietvedības uzdevumus un automatizē vairākus ar jūsu organizācijas personālu saistītus procesus. Personāla vadības darbiniekiem tā nodrošina arī struktūru uzraudzības jomu pārvaldīšanai. Šajās jomās ietilpst darbinieku pieņemšana darbā, kā arī ieturējumu un atvieglojumu administrēšana, apmācība, darba izpildes novērtējumi un izmaiņu pārvaldība.
+<span data-ttu-id="f2b34-106">Personāla vadība racionalizē daudzus ikdienas lietvedības uzdevumus un automatizē vairākus ar jūsu organizācijas personālu saistītus procesus.</span><span class="sxs-lookup"><span data-stu-id="f2b34-106">Human resources streamlines many routine recordkeeping tasks and automates a number of processes related to staffing your organization.</span></span> <span data-ttu-id="f2b34-107">Personāla vadības darbiniekiem tā nodrošina arī struktūru uzraudzības jomu pārvaldīšanai.</span><span class="sxs-lookup"><span data-stu-id="f2b34-107">It also provides a framework for human resources staff to manage areas of oversight.</span></span> <span data-ttu-id="f2b34-108">Šajās jomās ietilpst darbinieku pieņemšana darbā, kā arī ieturējumu un atvieglojumu administrēšana, apmācība, darba izpildes novērtējumi un izmaiņu pārvaldība.</span><span class="sxs-lookup"><span data-stu-id="f2b34-108">These areas include employee recruitment and retention, benefits administration, training, performance reviews, and change management.</span></span>
 
-Personāla vadību varat izmantot tālāk uzskaitīto uzdevumu izpildīšanai.
+<span data-ttu-id="f2b34-109">Personāla vadību varat izmantot tālāk uzskaitīto uzdevumu izpildīšanai.</span><span class="sxs-lookup"><span data-stu-id="f2b34-109">You can use Human resources to complete these tasks:</span></span>
 
-> + Administrējiet organizācijas struktūras.
-> + Uzturiet visaptverošu informāciju par darbinieku no pieņemšanas darbā līdz aiziešanai pensijā.
-> + Definējiet un administrējiet atvieglojumu plānus, reģistrējiet darbiniekus, piešķiriet apgādājamo segumu un norādiet labumguvējus.
-> + Izveidojiet un pārraugiet kavējumu politiku.
-> + Ieviesiet un izsekojiet no profila atkarīgu laika pārvaldību, un ģenerējiet algu informāciju, ko eksportēt uz algu sistēmu.
-> + Pārvaldiet darbinieku kompetences.
-> + Pārskatiet darba izpildes kvalitāti un ieviesiet darbinieku mērķus.
-> + Iestatiet, nodrošiniet un analizējiet apmācību kursus, kuri ietver darba kārtības, sesijas un izsekošanu.
-> + Veiciet personāla atlasi un sekojiet līdzi kandidātiem.
+> + <span data-ttu-id="f2b34-110">Administrējiet organizācijas struktūras.</span><span class="sxs-lookup"><span data-stu-id="f2b34-110">Administer organizational structures.</span></span>
+> + <span data-ttu-id="f2b34-111">Uzturiet visaptverošu informāciju par darbinieku no pieņemšanas darbā līdz aiziešanai pensijā.</span><span class="sxs-lookup"><span data-stu-id="f2b34-111">Maintain comprehensive worker information from hire to retire.</span></span>
+> + <span data-ttu-id="f2b34-112">Definējiet un administrējiet atvieglojumu plānus, reģistrējiet darbiniekus, piešķiriet apgādājamo segumu un norādiet labumguvējus.</span><span class="sxs-lookup"><span data-stu-id="f2b34-112">Define and administer benefit plans, enroll workers, assign dependent coverage, and designate beneficiaries.</span></span>
+> + <span data-ttu-id="f2b34-113">Izveidojiet un pārraugiet kavējumu politiku.</span><span class="sxs-lookup"><span data-stu-id="f2b34-113">Establish and monitor absence policies.</span></span>
+> + <span data-ttu-id="f2b34-114">Ieviesiet un izsekojiet no profila atkarīgu laika pārvaldību, un ģenerējiet algu informāciju, ko eksportēt uz algu sistēmu.</span><span class="sxs-lookup"><span data-stu-id="f2b34-114">Implement and track profile-based time management and generate pay information to export to a payroll system.</span></span>
+> + <span data-ttu-id="f2b34-115">Pārvaldiet darbinieku kompetences.</span><span class="sxs-lookup"><span data-stu-id="f2b34-115">Manage worker competencies.</span></span>
+> + <span data-ttu-id="f2b34-116">Pārskatiet darba izpildes kvalitāti un ieviesiet darbinieku mērķus.</span><span class="sxs-lookup"><span data-stu-id="f2b34-116">Review performance and implement worker goals.</span></span>
+> + <span data-ttu-id="f2b34-117">Iestatiet, nodrošiniet un analizējiet apmācību kursus, kuri ietver darba kārtības, sesijas un izsekošanu.</span><span class="sxs-lookup"><span data-stu-id="f2b34-117">Set up, deliver, and analyze training courses that include agendas, sessions, and tracks.</span></span>
+> + <span data-ttu-id="f2b34-118">Veiciet personāla atlasi un sekojiet līdzi kandidātiem.</span><span class="sxs-lookup"><span data-stu-id="f2b34-118">Recruit workers and track applicants.</span></span>
 
-<a name="develop-a-human-resources-strategy"></a>Izstrādāt personāla vadības stratēģiju
+<a name="develop-a-human-resources-strategy"></a><span data-ttu-id="f2b34-119">Izstrādāt personāla vadības stratēģiju</span><span class="sxs-lookup"><span data-stu-id="f2b34-119">Develop a human resources strategy</span></span>
 ---------------------------------------------------------
 
-Strādājot ar personāla vadību, jums ir jāizlemj, kā strukturēt savu organizāciju, izmantojot tādus elementus kā nodaļas, darbi un amati. Tie ir vieni no galvenajiem pamatelementiem, kas jums personāla vadībā ir jākonfigurē. Atsevišķi darbinieki tiek piešķirti amatiem, kuri ir saistīti ar darbiem.
+<span data-ttu-id="f2b34-120">Strādājot ar personāla vadību, jums ir jāizlemj, kā strukturēt savu organizāciju, izmantojot tādus elementus kā nodaļas, darbi un amati.</span><span class="sxs-lookup"><span data-stu-id="f2b34-120">As you work with Human resources, you'll decide how to structure your organization, using elements, such as departments, jobs, and positions.</span></span> <span data-ttu-id="f2b34-121">Tie ir vieni no galvenajiem pamatelementiem, kas jums personāla vadībā ir jākonfigurē.</span><span class="sxs-lookup"><span data-stu-id="f2b34-121">These are among the foundational elements that you'll configure in Human resources.</span></span> <span data-ttu-id="f2b34-122">Atsevišķi darbinieki tiek piešķirti amatiem, kuri ir saistīti ar darbiem.</span><span class="sxs-lookup"><span data-stu-id="f2b34-122">Individual employees are assigned to positions which are associated with jobs.</span></span>
 
--   [Organizēt darbaspēku, izmantojot nodaļas, darbus un amatus](/dynamics365/unified-operations/talent/departments-jobs-positions)
--   [Iestatīt uzņēmumam raksturīgus HR parametrus](/dynamics365/unified-operations/talent/set-up-company-specific-hr-parameters)
--   [Iestatīt HR parametrus dažādām juridiskajām personām](/dynamics365/unified-operations/talent/set-up-hr-parameters-across-legal-entities) 
+-   [<span data-ttu-id="f2b34-123">Organizēt darbaspēku, izmantojot nodaļas, darbus un amatus</span><span class="sxs-lookup"><span data-stu-id="f2b34-123">Organize your workforce using departments, jobs, and positions</span></span>](/dynamics365/unified-operations/talent/departments-jobs-positions)
+-   [<span data-ttu-id="f2b34-124">Iestatīt uzņēmumam raksturīgus HR parametrus</span><span class="sxs-lookup"><span data-stu-id="f2b34-124">Set up company-specific HR parameters</span></span>](/dynamics365/unified-operations/talent/set-up-company-specific-hr-parameters)
+-   [<span data-ttu-id="f2b34-125">Iestatīt HR parametrus dažādām juridiskajām personām</span><span class="sxs-lookup"><span data-stu-id="f2b34-125">Set up HR parameters across legal entities</span></span>](/dynamics365/unified-operations/talent/set-up-hr-parameters-across-legal-entities) 
 
-## <a name="recruit-hire-and-motivate-employees"></a>Veikt personāla atlasi, pieņemt darbā un motivēt darbiniekus
+## <a name="recruit-hire-and-motivate-employees"></a><span data-ttu-id="f2b34-126">Veikt personāla atlasi, pieņemt darbā un motivēt darbiniekus</span><span class="sxs-lookup"><span data-stu-id="f2b34-126">Recruit, hire, and motivate employees</span></span>
 
-Personāla atlases projekti pārvalda saturu, kas tiek izmantots vakanto amatu sludinājumos, un tas jums var palīdzēt pārvaldīt pieteikumus uz vakancēm. Tos varat izmantot, lai sekotu līdzi atbildēm uz darba sludinājumiem noteiktiem personāla atlases projektiem vai konkrētiem kandidātiem, un atjauninātu vakanto amatu statusu. Varat arī nolīgt atsevišķus kandidātus vai pārvaldīt “projektus ar masveida pieņemšanu darbā”, kas atvieglo vairāku darbinieku pieņemšanu darbā, piemēram, lai nodrošinātu sezonālas vajadzības.
+<span data-ttu-id="f2b34-127">Personāla atlases projekti pārvalda saturu, kas tiek izmantots vakanto amatu sludinājumos, un tas jums var palīdzēt pārvaldīt pieteikumus uz vakancēm.</span><span class="sxs-lookup"><span data-stu-id="f2b34-127">Recruitment projects manage the content used in advertisements for open positions, and can help you manage applications for job openings.</span></span> <span data-ttu-id="f2b34-128">Tos varat izmantot, lai sekotu līdzi atbildēm uz darba sludinājumiem noteiktiem personāla atlases projektiem vai konkrētiem kandidātiem, un atjauninātu vakanto amatu statusu.</span><span class="sxs-lookup"><span data-stu-id="f2b34-128">You can use them to track responses to job postings for a specific recruitment project, or specific applicants, and update the status of open positions.</span></span> <span data-ttu-id="f2b34-129">Varat arī nolīgt atsevišķus kandidātus vai pārvaldīt “projektus ar masveida pieņemšanu darbā”, kas atvieglo vairāku darbinieku pieņemšanu darbā, piemēram, lai nodrošinātu sezonālas vajadzības.</span><span class="sxs-lookup"><span data-stu-id="f2b34-129">You can also hire single applicants or manage "mass hire projects," that facilitate hiring multiple workers, for example, to meet seasonal business needs.</span></span>
 
--   [Pārvaldīt personāla atlases procesu](/dynamics365/unified-operations/talent/manage-recruiting-process)
--   [Masveida darbā pieņemšanas projekti](/dynamics365/unified-operations/talent/mass-hire-projects) 
+-   [<span data-ttu-id="f2b34-130">Pārvaldīt personāla atlases procesu</span><span class="sxs-lookup"><span data-stu-id="f2b34-130">Manage a recruiting process</span></span>](/dynamics365/unified-operations/talent/manage-recruiting-process)
+-   [<span data-ttu-id="f2b34-131">Masveida darbā pieņemšanas projekti</span><span class="sxs-lookup"><span data-stu-id="f2b34-131">Mass hire projects</span></span>](/dynamics365/unified-operations/talent/mass-hire-projects) 
 
-Pēc personāla pieņemšanas darbā varat iestatīt plānus, lai efektīvi un taisnīgi pārvaldītu atlīdzības, kā arī pārvaldītu krājumus, piemēram, datorus un tālruņus, kurus jūsu organizācija aizdod saviem darbiniekiem. Varat izveidot fiksētās un mainīgās atlīdzības plānus, kā arī definēt kārtulas, kas attiecas uz atlīdzības plānu, lai atbilstu šī plāna kritērijiem.
+<span data-ttu-id="f2b34-132">Pēc personāla pieņemšanas darbā varat iestatīt plānus, lai efektīvi un taisnīgi pārvaldītu atlīdzības, kā arī pārvaldītu krājumus, piemēram, datorus un tālruņus, kurus jūsu organizācija aizdod saviem darbiniekiem.</span><span class="sxs-lookup"><span data-stu-id="f2b34-132">After you've hired staff, you can set up plans to effectively and equitably manage compensation, as well as manage items, such as computers or phones, that your organization lends to its employees.</span></span> <span data-ttu-id="f2b34-133">Varat izveidot fiksētās un mainīgās atlīdzības plānus, kā arī definēt kārtulas, kas attiecas uz atlīdzības plānu, lai atbilstu šī plāna kritērijiem.</span><span class="sxs-lookup"><span data-stu-id="f2b34-133">You can create fixed and variable compensation plans, as well as define rules that apply the compensation plan to meet the criteria for that plan.</span></span>
 
--   [Atlīdzības plāni](/dynamics365/unified-operations/talent/compensation-plans)
--   [Izveidot fiksētās atlīdzības plānus](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
--   [Izveidot mainīgās atlīdzības plānus](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+-   [<span data-ttu-id="f2b34-134">Atlīdzības plāni</span><span class="sxs-lookup"><span data-stu-id="f2b34-134">Compensation plans</span></span>](/dynamics365/unified-operations/talent/compensation-plans)
+-   [<span data-ttu-id="f2b34-135">Izveidot fiksētās atlīdzības plānus</span><span class="sxs-lookup"><span data-stu-id="f2b34-135">Create fixed compensation plans</span></span>](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+-   [<span data-ttu-id="f2b34-136">Izveidot mainīgās atlīdzības plānus</span><span class="sxs-lookup"><span data-stu-id="f2b34-136">Create variable compensation plans</span></span>](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
 
-## <a name="develop-and-train-employees"></a>Veicināt darbinieku attīstību un apmācīt darbiniekus
+## <a name="develop-and-train-employees"></a><span data-ttu-id="f2b34-137">Veicināt darbinieku attīstību un apmācīt darbiniekus</span><span class="sxs-lookup"><span data-stu-id="f2b34-137">Develop and train employees</span></span>
 
-Lai saviem darbiniekiem palīdzētu sasniegt viņu karjeras mērķus, vienlaicīgi nodrošinot svarīgās uzņēmuma vajadzības, varat iestatīt mērķus, izveidot darba izpildes novērtējumus un sekot līdzi atsauksmēm. Lai darbiniekiem palīdzētu attīstīt nepieciešamās prasmes, varat arī iestatīt instruktorus, kursu tipus, kursus, kursu aprakstus, darba kārtības, izsekošanu un sesijas, pirms kursam piešķirat kādu instruktoru vai kādu reģistrējat kursam. Instruktoriem jau ir jāpastāv kā darbiniekiem, kandidātiem vai kontaktpersonām.
+<span data-ttu-id="f2b34-138">Lai saviem darbiniekiem palīdzētu sasniegt viņu karjeras mērķus, vienlaicīgi nodrošinot svarīgās uzņēmuma vajadzības, varat iestatīt mērķus, izveidot darba izpildes novērtējumus un sekot līdzi atsauksmēm. Lai darbiniekiem palīdzētu attīstīt nepieciešamās prasmes, varat arī iestatīt instruktorus, kursu tipus, kursus, kursu aprakstus, darba kārtības, izsekošanu un sesijas, pirms kursam piešķirat kādu instruktoru vai kādu reģistrējat kursam.</span><span class="sxs-lookup"><span data-stu-id="f2b34-138">To help your employees reach their career objectives while delivering critical business needs you can set up goals, create performance reviews and track feedback To help employees develop needed skills, you can also set up instructors, course types, courses, course descriptions, agendas, tracks, and sessions before you assign an instructor to a course, or register someone for a course.</span></span> <span data-ttu-id="f2b34-139">Instruktoriem jau ir jāpastāv kā darbiniekiem, kandidātiem vai kontaktpersonām.</span><span class="sxs-lookup"><span data-stu-id="f2b34-139">Instructors must already exist as workers, applicants, or contacts.</span></span>
 
--   [Veiktspējas pārvaldība](/dynamics365/unified-operations/talent/performance-management-overview)
--   [Darbaspēka prasmes padarīt atbilstošas biznesa vajadzībām](/dynamics365/unified-operations/talent/skills)
--   [Administrēt apmācību, izmantojot kursus](/dynamics365/unified-operations/talent/courses)
+-   [<span data-ttu-id="f2b34-140">Veiktspējas pārvaldība</span><span class="sxs-lookup"><span data-stu-id="f2b34-140">Performance management</span></span>](/dynamics365/unified-operations/talent/performance-management-overview)
+-   [<span data-ttu-id="f2b34-141">Darbaspēka prasmes padarīt atbilstošas biznesa vajadzībām</span><span class="sxs-lookup"><span data-stu-id="f2b34-141">Align workforce skills and business needs</span></span>](/dynamics365/unified-operations/talent/skills)
+-   [<span data-ttu-id="f2b34-142">Administrēt apmācību, izmantojot kursus</span><span class="sxs-lookup"><span data-stu-id="f2b34-142">Administer training through courses</span></span>](/dynamics365/unified-operations/talent/courses)
 
-## <a name="create-and-maintain-benefits"></a>Izveidot un uzturēt atvieglojumus
+## <a name="create-and-maintain-benefits"></a><span data-ttu-id="f2b34-143">Izveidot un uzturēt atvieglojumus</span><span class="sxs-lookup"><span data-stu-id="f2b34-143">Create and maintain benefits</span></span>
 
-Papildus darbinieku atlīdzināšanai, izmantojot samaksas par darbu, algas un prēmijas, varat izstrādāt atvieglojumu programmas, piemēram, veselības apdrošināšanu un pensiju plānus. Varat arī pārvaldīt tādus atvieglojumus kā aizdevumu programmas, kurās jūsu uzņēmums saviem darbiniekiem kaut ko aizdod, piemēram, datorus vai tālruņus.
+<span data-ttu-id="f2b34-144">Papildus darbinieku atlīdzināšanai, izmantojot samaksas par darbu, algas un prēmijas, varat izstrādāt atvieglojumu programmas, piemēram, veselības apdrošināšanu un pensiju plānus.</span><span class="sxs-lookup"><span data-stu-id="f2b34-144">In addition to compensating your staff with wages, salaries, and bonuses, you can develop benefit programs such as health insurance and retirement plans.</span></span> <span data-ttu-id="f2b34-145">Varat arī pārvaldīt tādus atvieglojumus kā aizdevumu programmas, kurās jūsu uzņēmums saviem darbiniekiem kaut ko aizdod, piemēram, datorus vai tālruņus.</span><span class="sxs-lookup"><span data-stu-id="f2b34-145">You can also manage benefits such as loan programs, in which your company lends items, such as computers or phones, to its employees.</span></span>
 
--   [Pārvaldīt atvieglojumu programmu](/dynamics365/unified-operations/talent/manage-benefit-program)
--   [Atvieglojumu piemērojamības ierobežojumi](/dynamics365/unified-operations/talent/benefit-eligibility-policies)
--   [Pārvaldīt darbiniekiem aizdotus krājumus](/dynamics365/unified-operations/talent/loan-items)
+-   [<span data-ttu-id="f2b34-146">Pārvaldīt atvieglojumu programmu</span><span class="sxs-lookup"><span data-stu-id="f2b34-146">Manage a benefit program</span></span>](/dynamics365/unified-operations/talent/manage-benefit-program)
+-   [<span data-ttu-id="f2b34-147">Atvieglojumu piemērojamības ierobežojumi</span><span class="sxs-lookup"><span data-stu-id="f2b34-147">Benefit eligibility policies</span></span>](/dynamics365/unified-operations/talent/benefit-eligibility-policies)
+-   [<span data-ttu-id="f2b34-148">Pārvaldīt darbiniekiem aizdotus krājumus</span><span class="sxs-lookup"><span data-stu-id="f2b34-148">Manage items lent to workers</span></span>](/dynamics365/unified-operations/talent/loan-items)
 
-## <a name="maintain-workplace-safety-and-compliance"></a>Uzturēt darbavietas drošību un atbilstību
+## <a name="maintain-workplace-safety-and-compliance"></a><span data-ttu-id="f2b34-149">Uzturēt darbavietas drošību un atbilstību</span><span class="sxs-lookup"><span data-stu-id="f2b34-149">Maintain workplace safety and compliance</span></span>
 
-Sistēma Microsoft Dynamics AX jums var palīdzēt uzturēt drošu darba vidi, kas atbilst piemērojamajiem tiesību aktiem, tostarp likumam Amerikāņi ar īpašām vajadzībām un tiesību aktiem par imigrāciju un naturalizāciju. Piemēram, noteiktiem darbiem varat pārvaldīt fiziskās prasības, kā arī sekot līdzi pieprasījumiem par izmitināšanu, kas jūsu organizācijai var palīdzēt optimizēt tās darbaspēka prasmes.
+<span data-ttu-id="f2b34-150">Sistēma Microsoft Dynamics AX jums var palīdzēt uzturēt drošu darba vidi, kas atbilst piemērojamajiem tiesību aktiem, tostarp likumam Amerikāņi ar īpašām vajadzībām un tiesību aktiem par imigrāciju un naturalizāciju.</span><span class="sxs-lookup"><span data-stu-id="f2b34-150">Microsoft Dynamics AX can help you maintain a safe work environment that’s in compliance with applicable laws, including the Americans with Disabilities Act and immigration and naturalization laws, among others.</span></span> <span data-ttu-id="f2b34-151">Piemēram, noteiktiem darbiem varat pārvaldīt fiziskās prasības, kā arī sekot līdzi pieprasījumiem par izmitināšanu, kas jūsu organizācijai var palīdzēt optimizēt tās darbaspēka prasmes.</span><span class="sxs-lookup"><span data-stu-id="f2b34-151">For example, you can manage the physical requirements for specific jobs, as well as track requests for accommodations that can help your organization optimize the skills of its workforce.</span></span>
 
--   [Formas I-9 nodarbinātības pārbaude](localizations/noam-usa-form-i-9-verification.md)
--   [Ievērot likumu Amerikāņi ar īpašām vajadzībām](localizations/noam-usa-comply-ada.md)
--   [Izsekot prombūtni FMLA](localizations/noam-usa-track-time-for-fmla.md)
+-   [<span data-ttu-id="f2b34-152">Formas I-9 nodarbinātības pārbaude</span><span class="sxs-lookup"><span data-stu-id="f2b34-152">Form I-9 employment verification</span></span>](localizations/noam-usa-form-i-9-verification.md)
+-   [<span data-ttu-id="f2b34-153">Ievērot likumu Amerikāņi ar īpašām vajadzībām</span><span class="sxs-lookup"><span data-stu-id="f2b34-153">Comply with the Americans with Disabilities Act</span></span>](localizations/noam-usa-comply-ada.md)
+-   [<span data-ttu-id="f2b34-154">Izsekot prombūtni FMLA</span><span class="sxs-lookup"><span data-stu-id="f2b34-154">Track time off for FMLA</span></span>](localizations/noam-usa-track-time-for-fmla.md)
 
-## <a name="gather-information-using-questionnaires"></a>Vākt informāciju, izmantojot anketas
+## <a name="gather-information-using-questionnaires"></a><span data-ttu-id="f2b34-155">Vākt informāciju, izmantojot anketas</span><span class="sxs-lookup"><span data-stu-id="f2b34-155">Gather information using questionnaires</span></span>
 
-Varat izstrādāt un administrēt anketas, lai vāktu dažādiem nolūkiem izmantojamu informāciju. Līdzeklis Anketa jums ļauj projektēt un veidot anketas. Kad anketa ir gatava, varat to lūgt aizpildīt plašai publikai vai tikai noteiktai respondentu kopai. Kad respondenti ir snieguši savas atbildes, varat pārskatīt un analizēt rezultātus.
+<span data-ttu-id="f2b34-156">Varat izstrādāt un administrēt anketas, lai vāktu dažādiem nolūkiem izmantojamu informāciju.</span><span class="sxs-lookup"><span data-stu-id="f2b34-156">You can design and administer questionnaires to gather information that’s used for a variety of purposes.</span></span> <span data-ttu-id="f2b34-157">Līdzeklis Anketa jums ļauj projektēt un veidot anketas.</span><span class="sxs-lookup"><span data-stu-id="f2b34-157">The Questionnaire feature lets you design and create questionnaires.</span></span> <span data-ttu-id="f2b34-158">Kad anketa ir gatava, varat to lūgt aizpildīt plašai publikai vai tikai noteiktai respondentu kopai.</span><span class="sxs-lookup"><span data-stu-id="f2b34-158">When a questionnaire is ready, you distribute it broadly or to a specific set of respondents to complete.</span></span> <span data-ttu-id="f2b34-159">Kad respondenti ir snieguši savas atbildes, varat pārskatīt un analizēt rezultātus.</span><span class="sxs-lookup"><span data-stu-id="f2b34-159">After the respondents provide their answers, you can review and analyze the results.</span></span>
 
--   [Anketas](/dynamics365/unified-operations/talent/questionnaires)
--   [Projektēt anketu](/dynamics365/unified-operations/talent/design-questionnaires)
--   [Izplatīt un aizpildīt anketu](/dynamics365/unified-operations/talent/distribute-questionnaires)
--   [Skatīt un novērtēt anketas rezultātus](/dynamics365/unified-operations/talent/evaluate-questionnaire-results)
+-   [<span data-ttu-id="f2b34-160">Anketas</span><span class="sxs-lookup"><span data-stu-id="f2b34-160">Questionnaires</span></span>](/dynamics365/unified-operations/talent/questionnaires)
+-   [<span data-ttu-id="f2b34-161">Projektēt anketu</span><span class="sxs-lookup"><span data-stu-id="f2b34-161">Design a questionnaire</span></span>](/dynamics365/unified-operations/talent/design-questionnaires)
+-   [<span data-ttu-id="f2b34-162">Izplatīt un aizpildīt anketu</span><span class="sxs-lookup"><span data-stu-id="f2b34-162">Distribute and complete a questionnaire</span></span>](/dynamics365/unified-operations/talent/distribute-questionnaires)
+-   [<span data-ttu-id="f2b34-163">Skatīt un novērtēt anketas rezultātus</span><span class="sxs-lookup"><span data-stu-id="f2b34-163">View and evaluate the results of a questionnaire</span></span>](/dynamics365/unified-operations/talent/evaluate-questionnaire-results)
 
 
 

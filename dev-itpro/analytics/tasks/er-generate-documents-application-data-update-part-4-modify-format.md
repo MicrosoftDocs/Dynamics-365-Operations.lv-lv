@@ -22,132 +22,132 @@ ms.contentlocale: lv-lv
 ms.lasthandoff: 07/27/2017
 
 ---
-# <a name="modify-format-to-generate-documents-with-application-data-update-for-electronic-reporting-er"></a>Modificēt formātu, lai ģenerētu dokumentus, izmantojot pieteikumu datu atjaunināšanu elektronisko pārskatu veidošanai (ER)
+# <a name="modify-format-to-generate-documents-with-application-data-update-for-electronic-reporting-er"></a><span data-ttu-id="e9017-103">Modificēt formātu, lai ģenerētu dokumentus, izmantojot pieteikumu datu atjaunināšanu elektronisko pārskatu veidošanai (ER)</span><span class="sxs-lookup"><span data-stu-id="e9017-103">Modify format to generate documents with application data update for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Lai pabeigtu šīs procedūras darbības, vispirms jāpabeidz procedūra "ER: ģenerēt dokumentus ar pieteikumu datu atjaunināšanu (3. daļa — modeļa un kartējuma modificēšana)".
+<span data-ttu-id="e9017-104">Lai pabeigtu šīs procedūras darbības, vispirms jāpabeidz procedūra "ER: ģenerēt dokumentus ar pieteikumu datu atjaunināšanu (3. daļa — modeļa un kartējuma modificēšana)".</span><span class="sxs-lookup"><span data-stu-id="e9017-104">To complete the steps in this procedure, you must first complete the procedure, "ER Generate documents with application data update (Part 3: Modify model and mapping)".</span></span>
 
-Šajā procedūrā skaidrots, kā noformēt elektroniskās atskaišu veidošanas (ER) konfigurācijas, lai ģenerētu elektronisku dokumentu un atjauninātu pieteikuma datus. Šajā procedūrā jūs modificēsit ER konfigurācijas, lai ne tikai sāktu tās lietot elektronisku dokumentu ģenerēšanai, bet arī pieteikumu datu atjaunināšanai. Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma. Šīs darbības var veikt, izmantojot DEMF datu kopu.
+<span data-ttu-id="e9017-105">Šajā procedūrā skaidrots, kā noformēt elektroniskās atskaišu veidošanas (ER) konfigurācijas, lai ģenerētu elektronisku dokumentu un atjauninātu pieteikuma datus.</span><span class="sxs-lookup"><span data-stu-id="e9017-105">The steps in this procedure explain how to design Electronic reporting (ER) configurations to generate an electronic document and update application data.</span></span> <span data-ttu-id="e9017-106">Šajā procedūrā jūs modificēsit ER konfigurācijas, lai ne tikai sāktu tās lietot elektronisku dokumentu ģenerēšanai, bet arī pieteikumu datu atjaunināšanai.</span><span class="sxs-lookup"><span data-stu-id="e9017-106">In this procedure, you will modify the ER configurations to not just use them to generate electronic documents, but also to update application data.</span></span> <span data-ttu-id="e9017-107">Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma.</span><span class="sxs-lookup"><span data-stu-id="e9017-107">This procedure is created for users with the assigned role of system administrator or electronic reporting developer.</span></span> <span data-ttu-id="e9017-108">Šīs darbības var veikt, izmantojot DEMF datu kopu.</span><span class="sxs-lookup"><span data-stu-id="e9017-108">These steps can be completed using the DEMF dataset.</span></span>
 
 
-## <a name="modify-format-to-collect-details-of-reporting"></a>Modificējiet formātu, lai apkopotu detalizētu informāciju par pārskatu veidošanu
-1. Dodieties uz Organizācijas administrēšana > Elektronisko atskaišu veidošana > Konfigurācijas.
-2. Kokā izvērsiet "Intrastat (model)".
-3. Kokā atlasiet "Intrastat (model)\Intrastat (format)".
-4. Noklikšķiniet uz Veidotājs.
-5. Kokā izvērsiet "File".
-6. Kokā izvērsiet "File\Declaration".
-7. Kokā atlasiet "File\Declaration\Data".
-8. Laukā Daudzkārtīgums atlasiet "One many".
-    * Konfigurējiet šo formāta elementu, lai arhivētu detalizētu informāciju par Intrastat pārskatu veidošanas procesu. Šis vienums attiecas uz arhīva galvenes ierakstu.  
-9. Kokā izvērsiet "File\Declaration\Data".
-10. Kokā atlasiet "File\Declaration\Data\Item".
-11. Laukā Daudzkārtīgums atlasiet "Zero many".
-    * Konfigurējiet šo formāta elementu, lai arhivētu detalizētu informāciju par Intrastat pārskatu veidošanas procesu. Šis vienums attēlos arhivēto rindu sarakstu.  
-12. Kokā izvērsiet "File\Declaration\Data\Item".
-13. Kokā atlasiet "File\Declaration\Data\Item\Dim1".
-14. Laukā Nav iekļauts atlasiet Jā.
-    * Šie dati netiks arhivēti, tāpēc varat izslēgt šo formāta elementu no Intrastat pārskatu veidošanas informācijas datu avota.  
-15. Kokā izvērsiet "File\Declaration\Data\Item\Dim1".
-16. Kokā atlasiet "File\Declaration\Data\Item\Dim1\property".
-17. Laukā Nav iekļauts atlasiet Jā.
-18. Kokā atlasiet "File\Declaration\Data\Item\Dim1\date".
-19. Laukā Nav iekļauts atlasiet Jā.
-20. Kokā atlasiet "File\Declaration\Data\Item\Dim2".
-21. Laukā Nav iekļauts atlasiet Jā.
-22. Kokā izvērsiet "File\Declaration\Data\Item\Dim2".
-23. Kokā atlasiet "File\Declaration\Data\Item\Dim2\property".
-24. Laukā Nav iekļauts atlasiet Jā.
-25. Kokā atlasiet "File\Declaration\Data\Item\Dim2".
-26. Laukā Nav iekļauts atlasiet Jā.
-27. Kokā atlasiet "File\Declaration\Data\Item\Dim3".
-    * Vairākiem formāta elementiem var būt vienāds nosaukums. Piemēram, Dim. Jūs nevarat skaidri tos atpazīt, izmantojot šo formātu kā datu avotu Intrastat pārskata datu arhivēšanai, tāpēc jums ir jādefinē alternatīvi nosaukumi šiem formāta elementiem.   
-28. Laukā Nosaukums ierakstiet "Summa".
-    * Summa  
-29. Laukā Daudzkārtīgums atlasiet "Exactly one".
-30. Kokā atlasiet "File\Declaration\Data\Item\Dim4".
-31. Laukā Nosaukums ierakstiet "Krājums".
-    * Objekts  
-32. Laukā Daudzkārtīgums atlasiet "Exactly one".
-    * Papildus noformējuma formāta elementiem ir jāarhivē šādi Intrastat pārskata dati: katra reģistrētā preces krājuma unikāls ieraksta identifikators un ģenerētā faila nosaukums. Tā kā šie dati netiks aizpildīti Intrastat pārskatā, ir jāpievieno formāts, kas ir saistīts ar šiem detalizētas informācijas elementiem kā datu avota vienumiem.  
-33. Kokā atlasiet "File\Declaration\Data".
-34. Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.
-35. Kokā atlasiet "Data source\Item".
-36. Laukā Nosaukums ierakstiet 'File name'.
-    * Faila nosaukums  
-37. Laukā Datu tips atlasiet "String".
-38. Noklikšķiniet uz OK.
-39. Kokā atlasiet "File\Declaration\Data\Item".
-40. Noklikšķiniet uz Pievienot vienumu.
-41. Laukā Nosaukums ierakstiet "Commodity rec id".
-    * Preces ieraksta ID  
-42. Laukā Datu tips atlasiet "Int64".
-43. Noklikšķiniet uz OK.
-44. Noklikšķiniet uz cilnes Kartēšana.
-45. Kokā atlasiet "File\Declaration\Data\File name".
-46. Noklikšķiniet uz Saistīt.
-47. Koka struktūrā izvērsiet elementu “modelis”.
-48. Kokā izvērsiet "model\Transactions".
-49. Kokā atlasiet "File\Declaration\Data\Item =  model.Transactions\Commodity rec id".
-50. Kokā atlasiet "model\Transactions\Commodity rec id".
-51. Noklikšķiniet uz Saistīt.
-52. Noklikšķiniet uz Saglabāt.
+## <a name="modify-format-to-collect-details-of-reporting"></a><span data-ttu-id="e9017-109">Modificējiet formātu, lai apkopotu detalizētu informāciju par pārskatu veidošanu</span><span class="sxs-lookup"><span data-stu-id="e9017-109">Modify format to collect details of reporting</span></span>
+1. <span data-ttu-id="e9017-110">Dodieties uz Organizācijas administrēšana > Elektronisko atskaišu veidošana > Konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="e9017-110">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+2. <span data-ttu-id="e9017-111">Kokā izvērsiet "Intrastat (model)".</span><span class="sxs-lookup"><span data-stu-id="e9017-111">In the tree, expand 'Intrastat (model)'.</span></span>
+3. <span data-ttu-id="e9017-112">Kokā atlasiet "Intrastat (model)\Intrastat (format)".</span><span class="sxs-lookup"><span data-stu-id="e9017-112">In the tree, select 'Intrastat (model)\Intrastat (format)'.</span></span>
+4. <span data-ttu-id="e9017-113">Noklikšķiniet uz Veidotājs.</span><span class="sxs-lookup"><span data-stu-id="e9017-113">Click Designer.</span></span>
+5. <span data-ttu-id="e9017-114">Kokā izvērsiet "File".</span><span class="sxs-lookup"><span data-stu-id="e9017-114">In the tree, expand 'File'.</span></span>
+6. <span data-ttu-id="e9017-115">Kokā izvērsiet "File\Declaration".</span><span class="sxs-lookup"><span data-stu-id="e9017-115">In the tree, expand 'File\Declaration'.</span></span>
+7. <span data-ttu-id="e9017-116">Kokā atlasiet "File\Declaration\Data".</span><span class="sxs-lookup"><span data-stu-id="e9017-116">In the tree, select 'File\Declaration\Data'.</span></span>
+8. <span data-ttu-id="e9017-117">Laukā Daudzkārtīgums atlasiet "One many".</span><span class="sxs-lookup"><span data-stu-id="e9017-117">In the Multiplicity field, select 'One many'.</span></span>
+    * <span data-ttu-id="e9017-118">Konfigurējiet šo formāta elementu, lai arhivētu detalizētu informāciju par Intrastat pārskatu veidošanas procesu.</span><span class="sxs-lookup"><span data-stu-id="e9017-118">Configure this format element to archive details of the Intrastat reporting process.</span></span> <span data-ttu-id="e9017-119">Šis vienums attiecas uz arhīva galvenes ierakstu.</span><span class="sxs-lookup"><span data-stu-id="e9017-119">This item represents the archive’s header record.</span></span>  
+9. <span data-ttu-id="e9017-120">Kokā izvērsiet "File\Declaration\Data".</span><span class="sxs-lookup"><span data-stu-id="e9017-120">In the tree, expand 'File\Declaration\Data'.</span></span>
+10. <span data-ttu-id="e9017-121">Kokā atlasiet "File\Declaration\Data\Item".</span><span class="sxs-lookup"><span data-stu-id="e9017-121">In the tree, select 'File\Declaration\Data\Item'.</span></span>
+11. <span data-ttu-id="e9017-122">Laukā Daudzkārtīgums atlasiet "Zero many".</span><span class="sxs-lookup"><span data-stu-id="e9017-122">In the Multiplicity field, select 'Zero many'.</span></span>
+    * <span data-ttu-id="e9017-123">Konfigurējiet šo formāta elementu, lai arhivētu detalizētu informāciju par Intrastat pārskatu veidošanas procesu.</span><span class="sxs-lookup"><span data-stu-id="e9017-123">Configure this format element to archive details of the Intrastat reporting process.</span></span> <span data-ttu-id="e9017-124">Šis vienums attēlos arhivēto rindu sarakstu.</span><span class="sxs-lookup"><span data-stu-id="e9017-124">This item will represent the list of archived lines.</span></span>  
+12. <span data-ttu-id="e9017-125">Kokā izvērsiet "File\Declaration\Data\Item".</span><span class="sxs-lookup"><span data-stu-id="e9017-125">In the tree, expand 'File\Declaration\Data\Item'.</span></span>
+13. <span data-ttu-id="e9017-126">Kokā atlasiet "File\Declaration\Data\Item\Dim1".</span><span class="sxs-lookup"><span data-stu-id="e9017-126">In the tree, select 'File\Declaration\Data\Item\Dim1'.</span></span>
+14. <span data-ttu-id="e9017-127">Laukā Nav iekļauts atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="e9017-127">Select Yes in the Excluded field.</span></span>
+    * <span data-ttu-id="e9017-128">Šie dati netiks arhivēti, tāpēc varat izslēgt šo formāta elementu no Intrastat pārskatu veidošanas informācijas datu avota.</span><span class="sxs-lookup"><span data-stu-id="e9017-128">You will not archive this data, so you can exclude this format element from the data source of Intrastat reporting details.</span></span>  
+15. <span data-ttu-id="e9017-129">Kokā izvērsiet "File\Declaration\Data\Item\Dim1".</span><span class="sxs-lookup"><span data-stu-id="e9017-129">In the tree, expand 'File\Declaration\Data\Item\Dim1'.</span></span>
+16. <span data-ttu-id="e9017-130">Kokā atlasiet "File\Declaration\Data\Item\Dim1\property".</span><span class="sxs-lookup"><span data-stu-id="e9017-130">In the tree, select 'File\Declaration\Data\Item\Dim1\property'.</span></span>
+17. <span data-ttu-id="e9017-131">Laukā Nav iekļauts atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="e9017-131">Select Yes in the Excluded field.</span></span>
+18. <span data-ttu-id="e9017-132">Kokā atlasiet "File\Declaration\Data\Item\Dim1\date".</span><span class="sxs-lookup"><span data-stu-id="e9017-132">In the tree, select 'File\Declaration\Data\Item\Dim1\date'.</span></span>
+19. <span data-ttu-id="e9017-133">Laukā Nav iekļauts atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="e9017-133">Select Yes in the Excluded field.</span></span>
+20. <span data-ttu-id="e9017-134">Kokā atlasiet "File\Declaration\Data\Item\Dim2".</span><span class="sxs-lookup"><span data-stu-id="e9017-134">In the tree, select 'File\Declaration\Data\Item\Dim2'.</span></span>
+21. <span data-ttu-id="e9017-135">Laukā Nav iekļauts atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="e9017-135">Select Yes in the Excluded field.</span></span>
+22. <span data-ttu-id="e9017-136">Kokā izvērsiet "File\Declaration\Data\Item\Dim2".</span><span class="sxs-lookup"><span data-stu-id="e9017-136">In the tree, expand 'File\Declaration\Data\Item\Dim2'.</span></span>
+23. <span data-ttu-id="e9017-137">Kokā atlasiet "File\Declaration\Data\Item\Dim2\property".</span><span class="sxs-lookup"><span data-stu-id="e9017-137">In the tree, select 'File\Declaration\Data\Item\Dim2\property'.</span></span>
+24. <span data-ttu-id="e9017-138">Laukā Nav iekļauts atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="e9017-138">Select Yes in the Excluded field.</span></span>
+25. <span data-ttu-id="e9017-139">Kokā atlasiet "File\Declaration\Data\Item\Dim2".</span><span class="sxs-lookup"><span data-stu-id="e9017-139">In the tree, select 'File\Declaration\Data\Item\Dim2\code'.</span></span>
+26. <span data-ttu-id="e9017-140">Laukā Nav iekļauts atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="e9017-140">Select Yes in the Excluded field.</span></span>
+27. <span data-ttu-id="e9017-141">Kokā atlasiet "File\Declaration\Data\Item\Dim3".</span><span class="sxs-lookup"><span data-stu-id="e9017-141">In the tree, select 'File\Declaration\Data\Item\Dim3'.</span></span>
+    * <span data-ttu-id="e9017-142">Vairākiem formāta elementiem var būt vienāds nosaukums.</span><span class="sxs-lookup"><span data-stu-id="e9017-142">Several format elements can have the same name.</span></span> <span data-ttu-id="e9017-143">Piemēram, Dim.</span><span class="sxs-lookup"><span data-stu-id="e9017-143">For example, Dim.</span></span> <span data-ttu-id="e9017-144">Jūs nevarat skaidri tos atpazīt, izmantojot šo formātu kā datu avotu Intrastat pārskata datu arhivēšanai, tāpēc jums ir jādefinē alternatīvi nosaukumi šiem formāta elementiem.</span><span class="sxs-lookup"><span data-stu-id="e9017-144">You cannot explicitly recognize them when you use this format as a data source for archiving Intrastat reporting details, so you need to define the alternative names for these format elements.</span></span>   
+28. <span data-ttu-id="e9017-145">Laukā Nosaukums ierakstiet "Summa".</span><span class="sxs-lookup"><span data-stu-id="e9017-145">In the Name field, type 'Amount'.</span></span>
+    * <span data-ttu-id="e9017-146">Summa</span><span class="sxs-lookup"><span data-stu-id="e9017-146">Amount</span></span>  
+29. <span data-ttu-id="e9017-147">Laukā Daudzkārtīgums atlasiet "Exactly one".</span><span class="sxs-lookup"><span data-stu-id="e9017-147">In the Multiplicity field, select 'Exactly one'.</span></span>
+30. <span data-ttu-id="e9017-148">Kokā atlasiet "File\Declaration\Data\Item\Dim4".</span><span class="sxs-lookup"><span data-stu-id="e9017-148">In the tree, select 'File\Declaration\Data\Item\Dim4'.</span></span>
+31. <span data-ttu-id="e9017-149">Laukā Nosaukums ierakstiet "Krājums".</span><span class="sxs-lookup"><span data-stu-id="e9017-149">In the Name field, type 'Item'.</span></span>
+    * <span data-ttu-id="e9017-150">Objekts</span><span class="sxs-lookup"><span data-stu-id="e9017-150">Item</span></span>  
+32. <span data-ttu-id="e9017-151">Laukā Daudzkārtīgums atlasiet "Exactly one".</span><span class="sxs-lookup"><span data-stu-id="e9017-151">In the Multiplicity field, select 'Exactly one'.</span></span>
+    * <span data-ttu-id="e9017-152">Papildus noformējuma formāta elementiem ir jāarhivē šādi Intrastat pārskata dati: katra reģistrētā preces krājuma unikāls ieraksta identifikators un ģenerētā faila nosaukums.</span><span class="sxs-lookup"><span data-stu-id="e9017-152">In addition to the design format elements, the following Intrastat reporting details must be archived: unique record identification of each reported commodity item and name of the generated file.</span></span> <span data-ttu-id="e9017-153">Tā kā šie dati netiks aizpildīti Intrastat pārskatā, ir jāpievieno formāts, kas ir saistīts ar šiem detalizētas informācijas elementiem kā datu avota vienumiem.</span><span class="sxs-lookup"><span data-stu-id="e9017-153">Because this data will not be populated in the Intrastat report, you need to add the format that is related to these detail elements as data source items.</span></span>  
+33. <span data-ttu-id="e9017-154">Kokā atlasiet "File\Declaration\Data".</span><span class="sxs-lookup"><span data-stu-id="e9017-154">In the tree, select 'File\Declaration\Data'.</span></span>
+34. <span data-ttu-id="e9017-155">Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="e9017-155">Click Add to open the drop dialog.</span></span>
+35. <span data-ttu-id="e9017-156">Kokā atlasiet "Data source\Item".</span><span class="sxs-lookup"><span data-stu-id="e9017-156">In the tree, select 'Data source\Item'.</span></span>
+36. <span data-ttu-id="e9017-157">Laukā Nosaukums ierakstiet 'File name'.</span><span class="sxs-lookup"><span data-stu-id="e9017-157">In the Name field, type 'File name'.</span></span>
+    * <span data-ttu-id="e9017-158">Faila nosaukums</span><span class="sxs-lookup"><span data-stu-id="e9017-158">File name</span></span>  
+37. <span data-ttu-id="e9017-159">Laukā Datu tips atlasiet "String".</span><span class="sxs-lookup"><span data-stu-id="e9017-159">In the Data type field, select 'String'.</span></span>
+38. <span data-ttu-id="e9017-160">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="e9017-160">Click OK.</span></span>
+39. <span data-ttu-id="e9017-161">Kokā atlasiet "File\Declaration\Data\Item".</span><span class="sxs-lookup"><span data-stu-id="e9017-161">In the tree, select 'File\Declaration\Data\Item'.</span></span>
+40. <span data-ttu-id="e9017-162">Noklikšķiniet uz Pievienot vienumu.</span><span class="sxs-lookup"><span data-stu-id="e9017-162">Click Add Item.</span></span>
+41. <span data-ttu-id="e9017-163">Laukā Nosaukums ierakstiet "Commodity rec id".</span><span class="sxs-lookup"><span data-stu-id="e9017-163">In the Name field, type 'Commodity rec id'.</span></span>
+    * <span data-ttu-id="e9017-164">Preces ieraksta ID</span><span class="sxs-lookup"><span data-stu-id="e9017-164">Commodity rec id</span></span>  
+42. <span data-ttu-id="e9017-165">Laukā Datu tips atlasiet "Int64".</span><span class="sxs-lookup"><span data-stu-id="e9017-165">In the Data type field, select 'Int64'.</span></span>
+43. <span data-ttu-id="e9017-166">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="e9017-166">Click OK.</span></span>
+44. <span data-ttu-id="e9017-167">Noklikšķiniet uz cilnes Kartēšana.</span><span class="sxs-lookup"><span data-stu-id="e9017-167">Click the Mapping tab.</span></span>
+45. <span data-ttu-id="e9017-168">Kokā atlasiet "File\Declaration\Data\File name".</span><span class="sxs-lookup"><span data-stu-id="e9017-168">In the tree, select 'File\Declaration\Data\File name'.</span></span>
+46. <span data-ttu-id="e9017-169">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="e9017-169">Click Bind.</span></span>
+47. <span data-ttu-id="e9017-170">Koka struktūrā izvērsiet elementu “modelis”.</span><span class="sxs-lookup"><span data-stu-id="e9017-170">In the tree, expand 'model'.</span></span>
+48. <span data-ttu-id="e9017-171">Kokā izvērsiet "model\Transactions".</span><span class="sxs-lookup"><span data-stu-id="e9017-171">In the tree, expand 'model\Transactions'.</span></span>
+49. <span data-ttu-id="e9017-172">Kokā atlasiet "File\Declaration\Data\Item =  model.Transactions\Commodity rec id".</span><span class="sxs-lookup"><span data-stu-id="e9017-172">In the tree, select 'File\Declaration\Data\Item =  model.Transactions\Commodity rec id'.</span></span>
+50. <span data-ttu-id="e9017-173">Kokā atlasiet "model\Transactions\Commodity rec id".</span><span class="sxs-lookup"><span data-stu-id="e9017-173">In the tree, select 'model\Transactions\Commodity rec id'.</span></span>
+51. <span data-ttu-id="e9017-174">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="e9017-174">Click Bind.</span></span>
+52. <span data-ttu-id="e9017-175">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="e9017-175">Click Save.</span></span>
 
-## <a name="modify-format-to-memorize-details-of-reporting"></a>Modificējiet formātu, lai saglabātu atmiņā detalizētu informāciju par pārskatu veidošanu
-1. Noklikšķiniet uz Kartēt formātu uz modeli.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Definīcija ievadiet vai atlasiet saknes vienumu "For application data update".
-    * Pieteikumu datu atjaunināšanai  
-4. Laukā Nosaukums ierakstiet "Mapping to update data".
-    * Kartēšana datu atjaunināšanai  
-5. Noklikšķiniet uz Saglabāt.
-    * Šis kartējums definē to, kā detalizēta informācija par Intrastat pārskatu tiek apkopota datu modelī, kura struktūru nosaka atlasītais saknes vienums "For application data update". Šī detalizētā informācija, modeļa kartējums ar to pašu saknes vienumu "For application data update" un virziens "To destination" tiks izmantots pieteikumu datu atjaunināšanai. Pieteikumu datu atjaunināšana sākas tūlīt pēc tam, kad tiek ģenerēts izejošais Intrastat pārskats. Ņemiet vērā, ka izpildes laikā pieteikumu datu atjaunināšanu var izlaist, bet datu modelim ir jābūt tukšam (ar tukšu ierakstu sarakstu).   
-6. Noklikšķiniet uz Veidotājs.
-    * Ņemiet vērā, ka pēc noklusējuma izejošais Intrastat pārskata formāts tiek pievienots kā datu avots šī modeļa kartēšanai.  
-    * Saistiet noformētā pārskata elementus (izmantoti kā datu avots) ar datu modeļa elementiem, kas ir filtrēts, pamatojoties uz atlasīto modeļa saknes vienumu.  
-7. Kokā izvērsiet "Archive header".
-8. Kokā izvērsiet "Archive header\Archive lines".
-9. Kokā izvērsiet "format".
-10. Kokā izvērsiet "format\Declaration: XML Element(Declaration)".
-11. Kokā izvērsiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)".
-12. Kokā izvērsiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)".
-13. Kokā izvērsiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)".
-14. Kokā izvērsiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)".
-15. Kokā atlasiet "Archive header\Number of lines".
-16. Noklikšķiniet uz Rediģēt.
-17. Kokā atlasiet “List\COUNT”.
-18. Noklikšķiniet uz Pievienot funkciju.
-19. Kokā izvērsiet "format".
-20. Kokā izvērsiet "format\Declaration: XML Element(Declaration)".
-21. Kokā izvērsiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)".
-22. Kokā atlasiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)".
-23. Noklikšķiniet uz Pievienot datu avotu.
-24. Laukā Formula ievadiet "COUNT(format.Declaration.Data.Item)".
-    * COUNT(format.Declaration.Data.Item)  
-25. Noklikšķiniet uz Saglabāt.
-26. Aizvērt lapu.
-27. Kokā atlasiet "Archive header\File name".
-28. Kokā atlasiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\File name: Item String(File name)".
-29. Noklikšķiniet uz Saistīt.
-30. Kokā atlasiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)\number: String(number)".
-31. Kokā atlasiet "Archive header\Archive lines\Item number".
-32. Noklikšķiniet uz Saistīt.
-33. Kokā atlasiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)\value: Numeric Real(value)".
-34. Kokā atlasiet "Archive header\Archive lines\Amount".
-35. Noklikšķiniet uz Saistīt.
-36. Kokā atlasiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Commodity rec id: Item Int64(Commodity rec id)".
-37. Kokā atlasiet "Archive header\Archive lines\Commodity rec id".
-38. Noklikšķiniet uz Saistīt.
-39. Kokā atlasiet "Archive header\Archive lines".
-40. Kokā atlasiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)".
-41. Noklikšķiniet uz Saistīt.
-42. Kokā atlasiet "Archive header".
-43. Kokā atlasiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)".
-44. Noklikšķiniet uz Saistīt.
-45. Noklikšķiniet uz Saglabāt.
-46. Aizvērt lapu.
-47. Aizvērt lapu.
-48. Aizvērt lapu.
+## <a name="modify-format-to-memorize-details-of-reporting"></a><span data-ttu-id="e9017-176">Modificējiet formātu, lai saglabātu atmiņā detalizētu informāciju par pārskatu veidošanu</span><span class="sxs-lookup"><span data-stu-id="e9017-176">Modify format to memorize details of reporting</span></span>
+1. <span data-ttu-id="e9017-177">Noklikšķiniet uz Kartēt formātu uz modeli.</span><span class="sxs-lookup"><span data-stu-id="e9017-177">Click Map format to model.</span></span>
+2. <span data-ttu-id="e9017-178">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="e9017-178">Click New.</span></span>
+3. <span data-ttu-id="e9017-179">Laukā Definīcija ievadiet vai atlasiet saknes vienumu "For application data update".</span><span class="sxs-lookup"><span data-stu-id="e9017-179">In the Definition field, enter or select the ‘For application data update’ root item.</span></span>
+    * <span data-ttu-id="e9017-180">Pieteikumu datu atjaunināšanai</span><span class="sxs-lookup"><span data-stu-id="e9017-180">For application data update</span></span>  
+4. <span data-ttu-id="e9017-181">Laukā Nosaukums ierakstiet "Mapping to update data".</span><span class="sxs-lookup"><span data-stu-id="e9017-181">In the Name field, type 'Mapping to update data'.</span></span>
+    * <span data-ttu-id="e9017-182">Kartēšana datu atjaunināšanai</span><span class="sxs-lookup"><span data-stu-id="e9017-182">Mapping to update data</span></span>  
+5. <span data-ttu-id="e9017-183">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="e9017-183">Click Save.</span></span>
+    * <span data-ttu-id="e9017-184">Šis kartējums definē to, kā detalizēta informācija par Intrastat pārskatu tiek apkopota datu modelī, kura struktūru nosaka atlasītais saknes vienums "For application data update".</span><span class="sxs-lookup"><span data-stu-id="e9017-184">This mapping defines how the details of the Intrastat report are collected in the data model, the structure of which is specified by the selected root item ‘For application data update’.</span></span> <span data-ttu-id="e9017-185">Šī detalizētā informācija, modeļa kartējums ar to pašu saknes vienumu "For application data update" un virziens "To destination" tiks izmantots pieteikumu datu atjaunināšanai.</span><span class="sxs-lookup"><span data-stu-id="e9017-185">These details, the model mapping with same root item ‘For application data update’, and the direction ‘To destination’ will be used for the application data update.</span></span> <span data-ttu-id="e9017-186">Pieteikumu datu atjaunināšana sākas tūlīt pēc tam, kad tiek ģenerēts izejošais Intrastat pārskats.</span><span class="sxs-lookup"><span data-stu-id="e9017-186">The application data update starts immediately after the outgoing Intrastat report is generated.</span></span> <span data-ttu-id="e9017-187">Ņemiet vērā, ka izpildes laikā pieteikumu datu atjaunināšanu var izlaist, bet datu modelim ir jābūt tukšam (ar tukšu ierakstu sarakstu).</span><span class="sxs-lookup"><span data-stu-id="e9017-187">Note that the application data update can be skipped at run-time, but the data model must be empty (containing empty record list).</span></span>   
+6. <span data-ttu-id="e9017-188">Noklikšķiniet uz Veidotājs.</span><span class="sxs-lookup"><span data-stu-id="e9017-188">Click Designer.</span></span>
+    * <span data-ttu-id="e9017-189">Ņemiet vērā, ka pēc noklusējuma izejošais Intrastat pārskata formāts tiek pievienots kā datu avots šī modeļa kartēšanai.</span><span class="sxs-lookup"><span data-stu-id="e9017-189">Note that the outgoing Intrastat report format is added by default as a data source for this model mapping.</span></span>  
+    * <span data-ttu-id="e9017-190">Saistiet noformētā pārskata elementus (izmantoti kā datu avots) ar datu modeļa elementiem, kas ir filtrēts, pamatojoties uz atlasīto modeļa saknes vienumu.</span><span class="sxs-lookup"><span data-stu-id="e9017-190">Bind elements of the designed report (presented as data source) to elements of the data model, which is filtered based on the selected model’s root item.</span></span>  
+7. <span data-ttu-id="e9017-191">Kokā izvērsiet "Archive header".</span><span class="sxs-lookup"><span data-stu-id="e9017-191">In the tree, expand 'Archive header'.</span></span>
+8. <span data-ttu-id="e9017-192">Kokā izvērsiet "Archive header\Archive lines".</span><span class="sxs-lookup"><span data-stu-id="e9017-192">In the tree, expand 'Archive header\Archive lines'.</span></span>
+9. <span data-ttu-id="e9017-193">Kokā izvērsiet "format".</span><span class="sxs-lookup"><span data-stu-id="e9017-193">In the tree, expand 'format'.</span></span>
+10. <span data-ttu-id="e9017-194">Kokā izvērsiet "format\Declaration: XML Element(Declaration)".</span><span class="sxs-lookup"><span data-stu-id="e9017-194">In the tree, expand 'format\Declaration: XML Element(Declaration)'.</span></span>
+11. <span data-ttu-id="e9017-195">Kokā izvērsiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)".</span><span class="sxs-lookup"><span data-stu-id="e9017-195">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)'.</span></span>
+12. <span data-ttu-id="e9017-196">Kokā izvērsiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)".</span><span class="sxs-lookup"><span data-stu-id="e9017-196">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)'.</span></span>
+13. <span data-ttu-id="e9017-197">Kokā izvērsiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)".</span><span class="sxs-lookup"><span data-stu-id="e9017-197">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)'.</span></span>
+14. <span data-ttu-id="e9017-198">Kokā izvērsiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)".</span><span class="sxs-lookup"><span data-stu-id="e9017-198">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)'.</span></span>
+15. <span data-ttu-id="e9017-199">Kokā atlasiet "Archive header\Number of lines".</span><span class="sxs-lookup"><span data-stu-id="e9017-199">In the tree, select 'Archive header\Number of lines'.</span></span>
+16. <span data-ttu-id="e9017-200">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="e9017-200">Click Edit.</span></span>
+17. <span data-ttu-id="e9017-201">Kokā atlasiet “List\COUNT”.</span><span class="sxs-lookup"><span data-stu-id="e9017-201">In the tree, select 'List\COUNT'.</span></span>
+18. <span data-ttu-id="e9017-202">Noklikšķiniet uz Pievienot funkciju.</span><span class="sxs-lookup"><span data-stu-id="e9017-202">Click Add function.</span></span>
+19. <span data-ttu-id="e9017-203">Kokā izvērsiet "format".</span><span class="sxs-lookup"><span data-stu-id="e9017-203">In the tree, expand 'format'.</span></span>
+20. <span data-ttu-id="e9017-204">Kokā izvērsiet "format\Declaration: XML Element(Declaration)".</span><span class="sxs-lookup"><span data-stu-id="e9017-204">In the tree, expand 'format\Declaration: XML Element(Declaration)'.</span></span>
+21. <span data-ttu-id="e9017-205">Kokā izvērsiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)".</span><span class="sxs-lookup"><span data-stu-id="e9017-205">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)'.</span></span>
+22. <span data-ttu-id="e9017-206">Kokā atlasiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)".</span><span class="sxs-lookup"><span data-stu-id="e9017-206">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)'.</span></span>
+23. <span data-ttu-id="e9017-207">Noklikšķiniet uz Pievienot datu avotu.</span><span class="sxs-lookup"><span data-stu-id="e9017-207">Click Add data source.</span></span>
+24. <span data-ttu-id="e9017-208">Laukā Formula ievadiet "COUNT(format.Declaration.Data.Item)".</span><span class="sxs-lookup"><span data-stu-id="e9017-208">In the Formula field, enter 'COUNT(format.Declaration.Data.Item)'.</span></span>
+    * <span data-ttu-id="e9017-209">COUNT(format.Declaration.Data.Item)</span><span class="sxs-lookup"><span data-stu-id="e9017-209">COUNT(format.Declaration.Data.Item)</span></span>  
+25. <span data-ttu-id="e9017-210">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="e9017-210">Click Save.</span></span>
+26. <span data-ttu-id="e9017-211">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="e9017-211">Close the page.</span></span>
+27. <span data-ttu-id="e9017-212">Kokā atlasiet "Archive header\File name".</span><span class="sxs-lookup"><span data-stu-id="e9017-212">In the tree, select 'Archive header\File name'.</span></span>
+28. <span data-ttu-id="e9017-213">Kokā atlasiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\File name: Item String(File name)".</span><span class="sxs-lookup"><span data-stu-id="e9017-213">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\File name: Item String(File name)'.</span></span>
+29. <span data-ttu-id="e9017-214">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="e9017-214">Click Bind.</span></span>
+30. <span data-ttu-id="e9017-215">Kokā atlasiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)\number: String(number)".</span><span class="sxs-lookup"><span data-stu-id="e9017-215">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)\number: String(number)'.</span></span>
+31. <span data-ttu-id="e9017-216">Kokā atlasiet "Archive header\Archive lines\Item number".</span><span class="sxs-lookup"><span data-stu-id="e9017-216">In the tree, select 'Archive header\Archive lines\Item number'.</span></span>
+32. <span data-ttu-id="e9017-217">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="e9017-217">Click Bind.</span></span>
+33. <span data-ttu-id="e9017-218">Kokā atlasiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)\value: Numeric Real(value)".</span><span class="sxs-lookup"><span data-stu-id="e9017-218">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)\value: Numeric Real(value)'.</span></span>
+34. <span data-ttu-id="e9017-219">Kokā atlasiet "Archive header\Archive lines\Amount".</span><span class="sxs-lookup"><span data-stu-id="e9017-219">In the tree, select 'Archive header\Archive lines\Amount'.</span></span>
+35. <span data-ttu-id="e9017-220">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="e9017-220">Click Bind.</span></span>
+36. <span data-ttu-id="e9017-221">Kokā atlasiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Commodity rec id: Item Int64(Commodity rec id)".</span><span class="sxs-lookup"><span data-stu-id="e9017-221">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Commodity rec id: Item Int64(Commodity rec id)'.</span></span>
+37. <span data-ttu-id="e9017-222">Kokā atlasiet "Archive header\Archive lines\Commodity rec id".</span><span class="sxs-lookup"><span data-stu-id="e9017-222">In the tree, select 'Archive header\Archive lines\Commodity rec id'.</span></span>
+38. <span data-ttu-id="e9017-223">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="e9017-223">Click Bind.</span></span>
+39. <span data-ttu-id="e9017-224">Kokā atlasiet "Archive header\Archive lines".</span><span class="sxs-lookup"><span data-stu-id="e9017-224">In the tree, select 'Archive header\Archive lines'.</span></span>
+40. <span data-ttu-id="e9017-225">Kokā atlasiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)".</span><span class="sxs-lookup"><span data-stu-id="e9017-225">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)'.</span></span>
+41. <span data-ttu-id="e9017-226">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="e9017-226">Click Bind.</span></span>
+42. <span data-ttu-id="e9017-227">Kokā atlasiet "Archive header".</span><span class="sxs-lookup"><span data-stu-id="e9017-227">In the tree, select 'Archive header'.</span></span>
+43. <span data-ttu-id="e9017-228">Kokā atlasiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)".</span><span class="sxs-lookup"><span data-stu-id="e9017-228">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)'.</span></span>
+44. <span data-ttu-id="e9017-229">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="e9017-229">Click Bind.</span></span>
+45. <span data-ttu-id="e9017-230">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="e9017-230">Click Save.</span></span>
+46. <span data-ttu-id="e9017-231">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="e9017-231">Close the page.</span></span>
+47. <span data-ttu-id="e9017-232">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="e9017-232">Close the page.</span></span>
+48. <span data-ttu-id="e9017-233">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="e9017-233">Close the page.</span></span>
 
 

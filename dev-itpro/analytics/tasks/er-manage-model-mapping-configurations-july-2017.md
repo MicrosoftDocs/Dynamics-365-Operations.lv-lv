@@ -16,150 +16,150 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 65db27e59ce5f9234eeb486efeb9bb6e9dad40f7
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 473cad588253b0eb42eb927834e186ccfa4c4f1e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="manage-model-mapping-configurations-for-electronic-reporting-er"></a>Pārvaldīt modeļa kartēšanas konfigurācijas elektronisko pārskatu veidošanai (ER)
+# <a name="manage-model-mapping-configurations-for-electronic-reporting-er"></a><span data-ttu-id="80150-103">Pārvaldīt modeļa kartēšanas konfigurācijas elektronisko pārskatu veidošanai (ER)</span><span class="sxs-lookup"><span data-stu-id="80150-103">Manage model mapping configurations for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Turpmāk uzskaitītajos posmos paskaidrots, kā lietotājs, kurš piešķirts sistēmas administratoram vai elektronisko ziņojumu izstrādātāja lomai, var pārvaldīt elektronisko ziņojumu (ER) modeļu veidošanu atsevišķās ER konfigurācijās. Šajā uzdevumu ceļvedis jūs izveidosiet nepieciešamās ER konfigurācijas parauga uzņēmumam Litware, Inc. Lai izpildītu šīs uzskaitītajos posmos darbības, vispirms izpildiet uzskaitītajos posmos "ER: Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu". 
+<span data-ttu-id="80150-104">Turpmāk uzskaitītajos posmos paskaidrots, kā lietotājs, kurš piešķirts sistēmas administratoram vai elektronisko ziņojumu izstrādātāja lomai, var pārvaldīt elektronisko ziņojumu (ER) modeļu veidošanu atsevišķās ER konfigurācijās.</span><span class="sxs-lookup"><span data-stu-id="80150-104">The following steps explain how a user assigned to the System administrator or Electronic reporting developer role can manage Electronic reporting (ER) model mappings in separate ER configurations.</span></span> <span data-ttu-id="80150-105">Šajā uzdevumu ceļvedis jūs izveidosiet nepieciešamās ER konfigurācijas parauga uzņēmumam Litware, Inc. Lai izpildītu šīs uzskaitītajos posmos darbības, vispirms izpildiet uzskaitītajos posmos "ER: Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu".</span><span class="sxs-lookup"><span data-stu-id="80150-105">In this task guide, you will create required ER configurations for the sample company, Litware, Inc. To complete this task guide, you must first complete the steps in the task guide, “ER Create a configuration provider” and mark it as active.</span></span> 
 
-Jo ER konfigurācijas ir kopīgotas starp uzņēmumiem, var aizpildīt rokasgrāmatas uzdevumu, izmantojot uzņēmuma datu kopas pēc savas izvēles. Šī uzdevuma rokasgrāmata funkcionalitāte ir pieejama, ja esat instalējis kādu no tālāk norādītajiem labojumfailiem: https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012872 (Dynamics AX versijai 7.0) vai https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 (Dynamics 365 for Operations versijai).
+<span data-ttu-id="80150-106">Jo ER konfigurācijas ir kopīgotas starp uzņēmumiem, var aizpildīt rokasgrāmatas uzdevumu, izmantojot uzņēmuma datu kopas pēc savas izvēles.</span><span class="sxs-lookup"><span data-stu-id="80150-106">Because ER configurations are shared among companies, you can complete this task guide using the company data set of your choice.</span></span> <span data-ttu-id="80150-107">Šī uzdevuma rokasgrāmata funkcionalitāte ir pieejama, ja esat instalējis kādu no tālāk norādītajiem labojumfailiem: https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012872 (Dynamics AX versijai 7.0) vai https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 (Dynamics 365 for Operations versijai).</span><span class="sxs-lookup"><span data-stu-id="80150-107">The functionality for this task guide is available if you have installed one of the following hotfixes: https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012872 for the Dynamics AX 7.0 version or https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 for the Dynamics 365 for Operations version.</span></span>
 
-1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.
-    * Pārbaudiet, vai konfigurācijas nodrošinātājs parauga uzņēmumam “Litware, Inc.” ir pieejams un atzīmēts kā aktīvs. Ja neredzat šo konfigurācijas nodrošinātāju, jums vispirms ir jāizpilda darbības, kas aprakstītas uzdevuma ceļvedī “Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu”.   
+1. <span data-ttu-id="80150-108">Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.</span><span class="sxs-lookup"><span data-stu-id="80150-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+    * <span data-ttu-id="80150-109">Pārbaudiet, vai konfigurācijas nodrošinātājs parauga uzņēmumam “Litware, Inc.” ir pieejams un atzīmēts kā aktīvs.</span><span class="sxs-lookup"><span data-stu-id="80150-109">Verify that the configuration provider for the sample company Litware, Inc. is available and marked as active.</span></span> <span data-ttu-id="80150-110">Ja neredzat šo konfigurācijas nodrošinātāju, jums vispirms ir jāizpilda darbības, kas aprakstītas uzdevuma ceļvedī “Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu”.</span><span class="sxs-lookup"><span data-stu-id="80150-110">If you don’t see this configuration provider, you must first complete the steps in the task guide, Create a configuration provider and mark it as active.</span></span>   
 
-## <a name="add-a-new-er-model-configuration"></a>Pievienot jaunu ER modeļa konfigurāciju
-1. Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.
-    * Pievienojiet jaunu modeļa konfigurāciju. Nosaukumam jābūt unikālam konfigurāciju kokā.  
-2. Noklikšķiniet uz Izveidot konfigurāciju, lai atvērtu nolaižamo dialoglodziņu.
-3. Laukā Nosaukums ierakstiet “Parauga datu modelis”.
-    * Parauga datu modelis  
-4. Klikšķiniet Izveidot konfigurāciju.
-5. Noklikšķiniet uz Veidotājs.
-6. Noklikšķiniet uz Jauns, lai atvērtu nolaižamo dialoglodziņu.
-7. Laukā Nosaukums ierakstiet 'Sakne'.
-    * Sakne  
-8. Noklikšķiniet uz Pievienot.
-9. Noklikšķiniet uz Jauns, lai atvērtu nolaižamo dialoglodziņu.
-10. Laukā Nosaukums ierakstiet "Uzņēmums".
-    * Uzņēmums  
-11. Noklikšķiniet uz Pievienot.
-12. Ievadiet tekstu, juridiska persona vai uzņēmums, kurā lietotājs reģistrējies izpildes laikā aprakstu laukā Apraksts. 
-    * Tās juridiskās persona vai uzņēmuma apraksts, kurā lietotājs ir pieteicies izpildlaikā.  
-13. Noklikšķiniet uz Saknes atsauce.
-14. Noklikšķiniet uz OK.
-15. Noklikšķiniet uz Saglabāt.
-16. Aizvērt lapu.
-17. Noklikšķiniet uz Mainīt statusu.
-18. Noklikšķiniet uz Pabeigt.
-19. Noklikšķiniet uz OK.
+## <a name="add-a-new-er-model-configuration"></a><span data-ttu-id="80150-111">Pievienot jaunu ER modeļa konfigurāciju</span><span class="sxs-lookup"><span data-stu-id="80150-111">Add a new ER model configuration</span></span>
+1. <span data-ttu-id="80150-112">Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="80150-112">Click Reporting configurations.</span></span>
+    * <span data-ttu-id="80150-113">Pievienojiet jaunu modeļa konfigurāciju.</span><span class="sxs-lookup"><span data-stu-id="80150-113">Add a new model configuration.</span></span> <span data-ttu-id="80150-114">Nosaukumam jābūt unikālam konfigurāciju kokā.</span><span class="sxs-lookup"><span data-stu-id="80150-114">The name must be unique in the configurations tree.</span></span>  
+2. <span data-ttu-id="80150-115">Noklikšķiniet uz Izveidot konfigurāciju, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="80150-115">Click Create configuration to open the drop dialog.</span></span>
+3. <span data-ttu-id="80150-116">Laukā Nosaukums ierakstiet “Parauga datu modelis”.</span><span class="sxs-lookup"><span data-stu-id="80150-116">In the Name field, type 'Sample data model'.</span></span>
+    * <span data-ttu-id="80150-117">Parauga datu modelis</span><span class="sxs-lookup"><span data-stu-id="80150-117">Sample data model</span></span>  
+4. <span data-ttu-id="80150-118">Klikšķiniet Izveidot konfigurāciju.</span><span class="sxs-lookup"><span data-stu-id="80150-118">Click Create configuration.</span></span>
+5. <span data-ttu-id="80150-119">Noklikšķiniet uz Veidotājs.</span><span class="sxs-lookup"><span data-stu-id="80150-119">Click Designer.</span></span>
+6. <span data-ttu-id="80150-120">Noklikšķiniet uz Jauns, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="80150-120">Click New to open the drop dialog.</span></span>
+7. <span data-ttu-id="80150-121">Laukā Nosaukums ierakstiet 'Sakne'.</span><span class="sxs-lookup"><span data-stu-id="80150-121">In the Name field, type 'Root'.</span></span>
+    * <span data-ttu-id="80150-122">Sakne</span><span class="sxs-lookup"><span data-stu-id="80150-122">Root</span></span>  
+8. <span data-ttu-id="80150-123">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="80150-123">Click Add.</span></span>
+9. <span data-ttu-id="80150-124">Noklikšķiniet uz Jauns, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="80150-124">Click New to open the drop dialog.</span></span>
+10. <span data-ttu-id="80150-125">Laukā Nosaukums ierakstiet "Uzņēmums".</span><span class="sxs-lookup"><span data-stu-id="80150-125">In the Name field, type 'Company'.</span></span>
+    * <span data-ttu-id="80150-126">Uzņēmums</span><span class="sxs-lookup"><span data-stu-id="80150-126">Company</span></span>  
+11. <span data-ttu-id="80150-127">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="80150-127">Click Add.</span></span>
+12. <span data-ttu-id="80150-128">Ievadiet tekstu, juridiska persona vai uzņēmums, kurā lietotājs reģistrējies izpildes laikā aprakstu laukā Apraksts.</span><span class="sxs-lookup"><span data-stu-id="80150-128">In the Description field, enter the text, Description of the legal entity or company in which a user logged at run-time.</span></span> 
+    * <span data-ttu-id="80150-129">Tās juridiskās persona vai uzņēmuma apraksts, kurā lietotājs ir pieteicies izpildlaikā.</span><span class="sxs-lookup"><span data-stu-id="80150-129">Description of the legal entity or company in which a user logged at run-time.</span></span>  
+13. <span data-ttu-id="80150-130">Noklikšķiniet uz Saknes atsauce.</span><span class="sxs-lookup"><span data-stu-id="80150-130">Click Root reference.</span></span>
+14. <span data-ttu-id="80150-131">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="80150-131">Click OK.</span></span>
+15. <span data-ttu-id="80150-132">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="80150-132">Click Save.</span></span>
+16. <span data-ttu-id="80150-133">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="80150-133">Close the page.</span></span>
+17. <span data-ttu-id="80150-134">Noklikšķiniet uz Mainīt statusu.</span><span class="sxs-lookup"><span data-stu-id="80150-134">Click Change status.</span></span>
+18. <span data-ttu-id="80150-135">Noklikšķiniet uz Pabeigt.</span><span class="sxs-lookup"><span data-stu-id="80150-135">Click Complete.</span></span>
+19. <span data-ttu-id="80150-136">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="80150-136">Click OK.</span></span>
 
-## <a name="add-a-new-er-model-mapping-configuration"></a>Pievienot jaunu ER datu modeļa kartējuma konfigurāciju
-1. Noklikšķiniet uz Izveidot konfigurāciju, lai atvērtu nolaižamo dialoglodziņu.
-2. Laukā Jauns ievadiet "Model Mapping based on data model Sample data model".
-3. Laukā Nosaukums ierakstiet "Sample mapping".
-    * Kartējuma paraugs  
-4. Klikšķiniet Izveidot konfigurāciju.
-5. Izvērsiet priekšnoteikumu sadaļu.
-    * Ievērojiet, ka ir automātiski pievienota grupa “Ieviešanas priekšnoteikumi”. Grupa satur priekšnoteikumu komponentu, kas attiecas uz pamata datu modeļa konfigurāciju un ir atzīmēts kā Ieviešana. Tas nozīmē, ka šī parauga kartējuma modeļa kartēšanas konfigurācija tiek uzskatīta par datu modeļa Parauga datu modelis ieviešanu. Tāpēc šis komponents liks ER lejupielādēt modeļa kartējuma konfigurāciju Kartējuma paraugs no ER repozitorija, kad tiks lejupielādēta modeļa konfigurācija Parauga datu modelis.   
-6. Noklikšķiniet uz Veidotājs.
-    * Ņemiet vērā, ka izveidotā modeļa kartējuma konfigurācija satur jaunu tukšu kartējumu ar tādu pašu nosaukumu kā izveidotajai konfigurācijai. Ņemiet vērā, ka gadījumā, kad atlasītā pamata modeļa konfigurācija ietver modeļa kartējumus, tie tiks kopēti uz jaunu modeļa kartēšanas konfigurāciju.   
-7. Noklikšķiniet uz Veidotājs.
-8. Kokā atlasiet "Dynamics 365 for Operations\Table".
-9. Noklikšķiniet uz Pievienot sakni.
-10. Laukā Nosaukums ierakstiet "Uzņēmums".
-    * Uzņēmums  
-11. Laukā Tabula ierakstiet "CompanyInfo".
-    * CompanyInfo  
-12. Noklikšķiniet uz OK.
-13. Kokā izvērsiet elementu “Uzņēmums”.
-14. Kokā izvērsiet 'Company\find()'.
-15. Kokā atlasiet 'Company\find()\Name'.
-16. Noklikšķiniet uz Saistīt.
-17. Noklikšķiniet uz Saglabāt.
-18. Aizvērt lapu.
-19. Aizvērt lapu.
-20. Darbību rūtī noklikšķiniet uz Konfigurācijas.
-21. Noklikšķiniet uz Lietotāja parametri.
-22. Laukā Palaist iestatījumus atlasiet Jā.
-23. Noklikšķiniet uz OK.
-24. Noklikšķiniet uz Rediģēt.
-25. Laukā Palaist melnrakstu atlasiet Jā.
+## <a name="add-a-new-er-model-mapping-configuration"></a><span data-ttu-id="80150-137">Pievienot jaunu ER datu modeļa kartējuma konfigurāciju</span><span class="sxs-lookup"><span data-stu-id="80150-137">Add a new ER model mapping configuration</span></span>
+1. <span data-ttu-id="80150-138">Noklikšķiniet uz Izveidot konfigurāciju, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="80150-138">Click Create configuration to open the drop dialog.</span></span>
+2. <span data-ttu-id="80150-139">Laukā Jauns ievadiet "Model Mapping based on data model Sample data model".</span><span class="sxs-lookup"><span data-stu-id="80150-139">In the New field, enter 'Model Mapping based on data model Sample data model'.</span></span>
+3. <span data-ttu-id="80150-140">Laukā Nosaukums ierakstiet "Sample mapping".</span><span class="sxs-lookup"><span data-stu-id="80150-140">In the Name field, type 'Sample mapping'.</span></span>
+    * <span data-ttu-id="80150-141">Kartējuma paraugs</span><span class="sxs-lookup"><span data-stu-id="80150-141">Sample mapping</span></span>  
+4. <span data-ttu-id="80150-142">Klikšķiniet Izveidot konfigurāciju.</span><span class="sxs-lookup"><span data-stu-id="80150-142">Click Create configuration.</span></span>
+5. <span data-ttu-id="80150-143">Izvērsiet priekšnoteikumu sadaļu.</span><span class="sxs-lookup"><span data-stu-id="80150-143">Expand the Prerequisites section.</span></span>
+    * <span data-ttu-id="80150-144">Ievērojiet, ka ir automātiski pievienota grupa “Ieviešanas priekšnoteikumi”.</span><span class="sxs-lookup"><span data-stu-id="80150-144">Note that the Implementations prerequisites group has been added automatically.</span></span> <span data-ttu-id="80150-145">Grupa satur priekšnoteikumu komponentu, kas attiecas uz pamata datu modeļa konfigurāciju un ir atzīmēts kā Ieviešana.</span><span class="sxs-lookup"><span data-stu-id="80150-145">The group contains the prerequisite component that refers to the parent data model configuration and is marked as Implementation.</span></span> <span data-ttu-id="80150-146">Tas nozīmē, ka šī parauga kartējuma modeļa kartēšanas konfigurācija tiek uzskatīta par datu modeļa Parauga datu modelis ieviešanu.</span><span class="sxs-lookup"><span data-stu-id="80150-146">This means that this Sample mapping model mapping configuration is considered the implementation of the data model, Sample data model.</span></span> <span data-ttu-id="80150-147">Tāpēc šis komponents liks ER lejupielādēt modeļa kartējuma konfigurāciju Kartējuma paraugs no ER repozitorija, kad tiks lejupielādēta modeļa konfigurācija Parauga datu modelis.</span><span class="sxs-lookup"><span data-stu-id="80150-147">Therefore, this component will force ER to download the model mapping configuration, Sample mapping from an ER repository when the model configuration, Sample data model, is downloaded.</span></span>   
+6. <span data-ttu-id="80150-148">Noklikšķiniet uz Veidotājs.</span><span class="sxs-lookup"><span data-stu-id="80150-148">Click Designer.</span></span>
+    * <span data-ttu-id="80150-149">Ņemiet vērā, ka izveidotā modeļa kartējuma konfigurācija satur jaunu tukšu kartējumu ar tādu pašu nosaukumu kā izveidotajai konfigurācijai.</span><span class="sxs-lookup"><span data-stu-id="80150-149">Note that the created model mapping configuration contains a new blank mapping with the same name as the created configuration.</span></span> <span data-ttu-id="80150-150">Ņemiet vērā, ka gadījumā, kad atlasītā pamata modeļa konfigurācija ietver modeļa kartējumus, tie tiks kopēti uz jaunu modeļa kartēšanas konfigurāciju.</span><span class="sxs-lookup"><span data-stu-id="80150-150">Be aware that when a selected parent model configuration contains model mappings, they will be copied to a new model mapping configuration.</span></span>   
+7. <span data-ttu-id="80150-151">Noklikšķiniet uz Veidotājs.</span><span class="sxs-lookup"><span data-stu-id="80150-151">Click Designer.</span></span>
+8. <span data-ttu-id="80150-152">Kokā atlasiet "Dynamics 365 for Operations\Table".</span><span class="sxs-lookup"><span data-stu-id="80150-152">In the tree, select 'Dynamics 365 for Operations\Table'.</span></span>
+9. <span data-ttu-id="80150-153">Noklikšķiniet uz Pievienot sakni.</span><span class="sxs-lookup"><span data-stu-id="80150-153">Click Add root.</span></span>
+10. <span data-ttu-id="80150-154">Laukā Nosaukums ierakstiet "Uzņēmums".</span><span class="sxs-lookup"><span data-stu-id="80150-154">In the Name field, type 'Company'.</span></span>
+    * <span data-ttu-id="80150-155">Uzņēmums</span><span class="sxs-lookup"><span data-stu-id="80150-155">Company</span></span>  
+11. <span data-ttu-id="80150-156">Laukā Tabula ierakstiet "CompanyInfo".</span><span class="sxs-lookup"><span data-stu-id="80150-156">In the Table field, type 'CompanyInfo'.</span></span>
+    * <span data-ttu-id="80150-157">CompanyInfo</span><span class="sxs-lookup"><span data-stu-id="80150-157">CompanyInfo</span></span>  
+12. <span data-ttu-id="80150-158">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="80150-158">Click OK.</span></span>
+13. <span data-ttu-id="80150-159">Kokā izvērsiet elementu “Uzņēmums”.</span><span class="sxs-lookup"><span data-stu-id="80150-159">In the tree, expand 'Company'.</span></span>
+14. <span data-ttu-id="80150-160">Kokā izvērsiet 'Company\find()'.</span><span class="sxs-lookup"><span data-stu-id="80150-160">In the tree, expand 'Company\find()'.</span></span>
+15. <span data-ttu-id="80150-161">Kokā atlasiet 'Company\find()\Name'.</span><span class="sxs-lookup"><span data-stu-id="80150-161">In the tree, select 'Company\find()\Name'.</span></span>
+16. <span data-ttu-id="80150-162">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="80150-162">Click Bind.</span></span>
+17. <span data-ttu-id="80150-163">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="80150-163">Click Save.</span></span>
+18. <span data-ttu-id="80150-164">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="80150-164">Close the page.</span></span>
+19. <span data-ttu-id="80150-165">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="80150-165">Close the page.</span></span>
+20. <span data-ttu-id="80150-166">Darbību rūtī noklikšķiniet uz Konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="80150-166">On the Action Pane, click Configurations.</span></span>
+21. <span data-ttu-id="80150-167">Noklikšķiniet uz Lietotāja parametri.</span><span class="sxs-lookup"><span data-stu-id="80150-167">Click User parameters.</span></span>
+22. <span data-ttu-id="80150-168">Laukā Palaist iestatījumus atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="80150-168">Select Yes in the Run settings field.</span></span>
+23. <span data-ttu-id="80150-169">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="80150-169">Click OK.</span></span>
+24. <span data-ttu-id="80150-170">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="80150-170">Click Edit.</span></span>
+25. <span data-ttu-id="80150-171">Laukā Palaist melnrakstu atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="80150-171">Select Yes in the Run Draft field.</span></span>
 
-## <a name="add-a-new-er-format-configuration"></a>Jaunas ER formāta konfigurācijas pievienošana
-1. Kokā atlasiet "Sample data model".
-2. Noklikšķiniet uz Izveidot konfigurāciju, lai atvērtu nolaižamo dialoglodziņu.
-3. Laukā Jauns ievadiet "Format based on data model Sample data model".
-4. Laukā Nosaukums ierakstiet "Sample format".
-    * Parauga formāts  
-5. Klikšķiniet Izveidot konfigurāciju.
-6. Noklikšķiniet uz Veidotājs.
-7. Noklikšķiniet uz Pievienot sakni, lai atvērtu nolaižamo dialogu.
-8. Kokā atlasiet elementu “Teksts\Virkne”.
-9. Noklikšķiniet uz OK.
-10. Noklikšķiniet uz cilnes Kartēšana.
-11. Koka struktūrā izvērsiet elementu “modelis”.
-12. Kokā atlasiet 'model\Company'.
-13. Noklikšķiniet uz Saistīt.
-14. Noklikšķiniet uz Saglabāt.
-15. Aizvērt lapu.
-    * Palaist melnraksta versiju izveides formāts testēšanas nolūkos.  
-16. Noklikšķiniet uz Palaist.
-    * Kopsavilkuma cilnē Versijas noklikšķiniet uz Palaist.  
-17. Noklikšķiniet uz OK.
-    * Pārskatiet izvadi, kas norādīts, kurā nav pieteicies lietotājs, kurš darbojas šī formāta konfigurāciju uzņēmuma nosaukums. Ievērojiet, ka izveidotās modeļa kartēšana konfigurācija tiek izmantots šī formāta konfigurāciju, jo ir pieejams tikai vienu konfigurācijas, kas satur nepieciešamā modeļa kartējumus.   
+## <a name="add-a-new-er-format-configuration"></a><span data-ttu-id="80150-172">Jaunas ER formāta konfigurācijas pievienošana</span><span class="sxs-lookup"><span data-stu-id="80150-172">Add a new ER format configuration</span></span>
+1. <span data-ttu-id="80150-173">Kokā atlasiet "Sample data model".</span><span class="sxs-lookup"><span data-stu-id="80150-173">In the tree, select 'Sample data model'.</span></span>
+2. <span data-ttu-id="80150-174">Noklikšķiniet uz Izveidot konfigurāciju, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="80150-174">Click Create configuration to open the drop dialog.</span></span>
+3. <span data-ttu-id="80150-175">Laukā Jauns ievadiet "Format based on data model Sample data model".</span><span class="sxs-lookup"><span data-stu-id="80150-175">In the New field, enter 'Format based on data model Sample data model'.</span></span>
+4. <span data-ttu-id="80150-176">Laukā Nosaukums ierakstiet "Sample format".</span><span class="sxs-lookup"><span data-stu-id="80150-176">In the Name field, type 'Sample format'.</span></span>
+    * <span data-ttu-id="80150-177">Parauga formāts</span><span class="sxs-lookup"><span data-stu-id="80150-177">Sample format</span></span>  
+5. <span data-ttu-id="80150-178">Klikšķiniet Izveidot konfigurāciju.</span><span class="sxs-lookup"><span data-stu-id="80150-178">Click Create configuration.</span></span>
+6. <span data-ttu-id="80150-179">Noklikšķiniet uz Veidotājs.</span><span class="sxs-lookup"><span data-stu-id="80150-179">Click Designer.</span></span>
+7. <span data-ttu-id="80150-180">Noklikšķiniet uz Pievienot sakni, lai atvērtu nolaižamo dialogu.</span><span class="sxs-lookup"><span data-stu-id="80150-180">Click Add root to open the drop dialog.</span></span>
+8. <span data-ttu-id="80150-181">Kokā atlasiet elementu “Teksts\Virkne”.</span><span class="sxs-lookup"><span data-stu-id="80150-181">In the tree, select 'Text\String'.</span></span>
+9. <span data-ttu-id="80150-182">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="80150-182">Click OK.</span></span>
+10. <span data-ttu-id="80150-183">Noklikšķiniet uz cilnes Kartēšana.</span><span class="sxs-lookup"><span data-stu-id="80150-183">Click the Mapping tab.</span></span>
+11. <span data-ttu-id="80150-184">Koka struktūrā izvērsiet elementu “modelis”.</span><span class="sxs-lookup"><span data-stu-id="80150-184">In the tree, expand 'model'.</span></span>
+12. <span data-ttu-id="80150-185">Kokā atlasiet 'model\Company'.</span><span class="sxs-lookup"><span data-stu-id="80150-185">In the tree, select 'model\Company'.</span></span>
+13. <span data-ttu-id="80150-186">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="80150-186">Click Bind.</span></span>
+14. <span data-ttu-id="80150-187">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="80150-187">Click Save.</span></span>
+15. <span data-ttu-id="80150-188">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="80150-188">Close the page.</span></span>
+    * <span data-ttu-id="80150-189">Palaist melnraksta versiju izveides formāts testēšanas nolūkos.</span><span class="sxs-lookup"><span data-stu-id="80150-189">Run the draft version of the created format for testing purposes.</span></span>  
+16. <span data-ttu-id="80150-190">Noklikšķiniet uz Palaist.</span><span class="sxs-lookup"><span data-stu-id="80150-190">Click Run.</span></span>
+    * <span data-ttu-id="80150-191">Kopsavilkuma cilnē Versijas noklikšķiniet uz Palaist.</span><span class="sxs-lookup"><span data-stu-id="80150-191">On the Versions FastTab, click Run.</span></span>  
+17. <span data-ttu-id="80150-192">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="80150-192">Click OK.</span></span>
+    * <span data-ttu-id="80150-193">Pārskatiet izvadi, kas norādīts, kurā nav pieteicies lietotājs, kurš darbojas šī formāta konfigurāciju uzņēmuma nosaukums.</span><span class="sxs-lookup"><span data-stu-id="80150-193">Review the output that contains the name of the company in which the user who is running this format configuration is logged into.</span></span> <span data-ttu-id="80150-194">Ievērojiet, ka izveidotās modeļa kartēšana konfigurācija tiek izmantots šī formāta konfigurāciju, jo ir pieejams tikai vienu konfigurācijas, kas satur nepieciešamā modeļa kartējumus.</span><span class="sxs-lookup"><span data-stu-id="80150-194">Note that the created model mapping configuration is used by this format configuration because there is only one configuration available that contains required model mappings.</span></span>   
 
-## <a name="add-alternative-er-model-mapping-configuration"></a>Alternatīvas ER modeļa kartējuma konfigurācijas pievienošana
-1. Kokā atlasiet "Sample data model".
-2. Noklikšķiniet uz Izveidot konfigurāciju, lai atvērtu nolaižamo dialoglodziņu.
-3. Laukā Jauns ievadiet "Model Mapping based on data model Sample data model".
-4. Laukā Nosaukums ierakstiet "Sample mapping (alternative)".
-    * Kartējuma paraugs (alternatīva)  
-5. Klikšķiniet Izveidot konfigurāciju.
-6. Noklikšķiniet uz Veidotājs.
-7. Noklikšķiniet uz Veidotājs.
-8. Kokā atlasiet "Dynamics 365 for Operations\Table".
-9. Noklikšķiniet uz Pievienot sakni.
-10. Laukā Nosaukums ierakstiet "Uzņēmums".
-    * Uzņēmums  
-11. Laukā Tabula ierakstiet "CompanyInfo".
-    * CompanyInfo  
-12. Noklikšķiniet uz OK.
-13. Noklikšķiniet uz Rediģēt.
-14. Kokā atlasiet “Virkne\CONCATENATE”.
-15. Noklikšķiniet uz Pievienot funkciju.
-16. Kokā izvērsiet elementu “Uzņēmums”.
-17. Kokā izvērsiet 'Company\find()'.
-18. Kokā atlasiet 'Company\find()\Name'.
-19. Noklikšķiniet uz Pievienot datu avotu.
-20. Laukā Formula ierakstiet vērtību.
-    * CONCATENATE(Company.'find()'.Name, ";",  
-21. Kokā atlasiet 'Company\find()\Company(DataArea)'.
-22. Noklikšķiniet uz Pievienot datu avotu.
-23. Laukā Formula ierakstiet vērtību.
-    * CONCATENATE(Company.'find()'.Name, ";", Company.'find()'.DataArea)  
-24. Noklikšķiniet uz Saglabāt.
-25. Aizvērt lapu.
-26. Noklikšķiniet uz Saglabāt.
-27. Aizvērt lapu.
-28. Aizvērt lapu.
-29. Laukā Palaist melnrakstu atlasiet Jā.
+## <a name="add-alternative-er-model-mapping-configuration"></a><span data-ttu-id="80150-195">Alternatīvas ER modeļa kartējuma konfigurācijas pievienošana</span><span class="sxs-lookup"><span data-stu-id="80150-195">Add alternative ER model mapping configuration</span></span>
+1. <span data-ttu-id="80150-196">Kokā atlasiet "Sample data model".</span><span class="sxs-lookup"><span data-stu-id="80150-196">In the tree, select 'Sample data model'.</span></span>
+2. <span data-ttu-id="80150-197">Noklikšķiniet uz Izveidot konfigurāciju, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="80150-197">Click Create configuration to open the drop dialog.</span></span>
+3. <span data-ttu-id="80150-198">Laukā Jauns ievadiet "Model Mapping based on data model Sample data model".</span><span class="sxs-lookup"><span data-stu-id="80150-198">In the New field, enter 'Model Mapping based on data model Sample data model'.</span></span>
+4. <span data-ttu-id="80150-199">Laukā Nosaukums ierakstiet "Sample mapping (alternative)".</span><span class="sxs-lookup"><span data-stu-id="80150-199">In the Name field, type 'Sample mapping (alternative)'.</span></span>
+    * <span data-ttu-id="80150-200">Kartējuma paraugs (alternatīva)</span><span class="sxs-lookup"><span data-stu-id="80150-200">Sample mapping (alternative)</span></span>  
+5. <span data-ttu-id="80150-201">Klikšķiniet Izveidot konfigurāciju.</span><span class="sxs-lookup"><span data-stu-id="80150-201">Click Create configuration.</span></span>
+6. <span data-ttu-id="80150-202">Noklikšķiniet uz Veidotājs.</span><span class="sxs-lookup"><span data-stu-id="80150-202">Click Designer.</span></span>
+7. <span data-ttu-id="80150-203">Noklikšķiniet uz Veidotājs.</span><span class="sxs-lookup"><span data-stu-id="80150-203">Click Designer.</span></span>
+8. <span data-ttu-id="80150-204">Kokā atlasiet "Dynamics 365 for Operations\Table".</span><span class="sxs-lookup"><span data-stu-id="80150-204">In the tree, select 'Dynamics 365 for Operations\Table'.</span></span>
+9. <span data-ttu-id="80150-205">Noklikšķiniet uz Pievienot sakni.</span><span class="sxs-lookup"><span data-stu-id="80150-205">Click Add root.</span></span>
+10. <span data-ttu-id="80150-206">Laukā Nosaukums ierakstiet "Uzņēmums".</span><span class="sxs-lookup"><span data-stu-id="80150-206">In the Name field, type 'Company'.</span></span>
+    * <span data-ttu-id="80150-207">Uzņēmums</span><span class="sxs-lookup"><span data-stu-id="80150-207">Company</span></span>  
+11. <span data-ttu-id="80150-208">Laukā Tabula ierakstiet "CompanyInfo".</span><span class="sxs-lookup"><span data-stu-id="80150-208">In the Table field, type 'CompanyInfo'.</span></span>
+    * <span data-ttu-id="80150-209">CompanyInfo</span><span class="sxs-lookup"><span data-stu-id="80150-209">CompanyInfo</span></span>  
+12. <span data-ttu-id="80150-210">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="80150-210">Click OK.</span></span>
+13. <span data-ttu-id="80150-211">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="80150-211">Click Edit.</span></span>
+14. <span data-ttu-id="80150-212">Kokā atlasiet “Virkne\CONCATENATE”.</span><span class="sxs-lookup"><span data-stu-id="80150-212">In the tree, select 'String\CONCATENATE'.</span></span>
+15. <span data-ttu-id="80150-213">Noklikšķiniet uz Pievienot funkciju.</span><span class="sxs-lookup"><span data-stu-id="80150-213">Click Add function.</span></span>
+16. <span data-ttu-id="80150-214">Kokā izvērsiet elementu “Uzņēmums”.</span><span class="sxs-lookup"><span data-stu-id="80150-214">In the tree, expand 'Company'.</span></span>
+17. <span data-ttu-id="80150-215">Kokā izvērsiet 'Company\find()'.</span><span class="sxs-lookup"><span data-stu-id="80150-215">In the tree, expand 'Company\find()'.</span></span>
+18. <span data-ttu-id="80150-216">Kokā atlasiet 'Company\find()\Name'.</span><span class="sxs-lookup"><span data-stu-id="80150-216">In the tree, select 'Company\find()\Name'.</span></span>
+19. <span data-ttu-id="80150-217">Noklikšķiniet uz Pievienot datu avotu.</span><span class="sxs-lookup"><span data-stu-id="80150-217">Click Add data source.</span></span>
+20. <span data-ttu-id="80150-218">Laukā Formula ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="80150-218">In the Formula field, type a value.</span></span>
+    * <span data-ttu-id="80150-219">CONCATENATE(Company.'find()'.Name, ";",</span><span class="sxs-lookup"><span data-stu-id="80150-219">CONCATENATE(Company.'find()'.Name, ";",</span></span>  
+21. <span data-ttu-id="80150-220">Kokā atlasiet 'Company\find()\Company(DataArea)'.</span><span class="sxs-lookup"><span data-stu-id="80150-220">In the tree, select 'Company\find()\Company(DataArea)'.</span></span>
+22. <span data-ttu-id="80150-221">Noklikšķiniet uz Pievienot datu avotu.</span><span class="sxs-lookup"><span data-stu-id="80150-221">Click Add data source.</span></span>
+23. <span data-ttu-id="80150-222">Laukā Formula ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="80150-222">In the Formula field, type a value.</span></span>
+    * <span data-ttu-id="80150-223">CONCATENATE(Company.'find()'.Name, ";", Company.'find()'.DataArea)</span><span class="sxs-lookup"><span data-stu-id="80150-223">CONCATENATE(Company.'find()'.Name, ";", Company.'find()'.DataArea)</span></span>  
+24. <span data-ttu-id="80150-224">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="80150-224">Click Save.</span></span>
+25. <span data-ttu-id="80150-225">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="80150-225">Close the page.</span></span>
+26. <span data-ttu-id="80150-226">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="80150-226">Click Save.</span></span>
+27. <span data-ttu-id="80150-227">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="80150-227">Close the page.</span></span>
+28. <span data-ttu-id="80150-228">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="80150-228">Close the page.</span></span>
+29. <span data-ttu-id="80150-229">Laukā Palaist melnrakstu atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="80150-229">Select Yes in the Run Draft field.</span></span>
 
-## <a name="use-an-existing-er-model-mapping-configuration"></a>Esošas ER modeļa kartēšanas konfigurācijas izmantošana
-1. Kokā atlasiet "Sample data model\Sample format".
-2. Noklikšķiniet uz Palaist.
-    * Ņemiet vērā, ka atlasīto melnraksta versiju ER formāta konfigurāciju nevar izpildīt, jo nav pieejams vairāk nekā viens modelis kartēšanas konfigurācijas nedefinētu datu modelis, kas ir izvēlēts kā datu avotu darbojošos ER formāta.   
-    * Nākamais, alternatīvu modeli kartēšanas konfigurācijas definē, kā vienu no kura modeļa kartējumus tiks izmantots kā datu avoti darbojas ER formātā.   
-3. Kokā atlasiet "Sample data model\Sample mapping (alternative)".
-4. Modeļa kartējuma noklusējums atlasiet vērtību Jā.
-5. Kokā atlasiet "Sample data model\Sample format".
-6. Noklikšķiniet uz Palaist.
-7. Noklikšķiniet uz OK.
-    * Ievērojiet, ka noklusējuma modeļa kartēšana konfigurācija tiek izmantots šī formāta konfigurāciju ģenerēšanai elektronisko dokumentu (izveidotās izvades satur uzņēmuma kods).  
+## <a name="use-an-existing-er-model-mapping-configuration"></a><span data-ttu-id="80150-230">Esošas ER modeļa kartēšanas konfigurācijas izmantošana</span><span class="sxs-lookup"><span data-stu-id="80150-230">Use an existing ER model mapping configuration</span></span>
+1. <span data-ttu-id="80150-231">Kokā atlasiet "Sample data model\Sample format".</span><span class="sxs-lookup"><span data-stu-id="80150-231">In the tree, select 'Sample data model\Sample format'.</span></span>
+2. <span data-ttu-id="80150-232">Noklikšķiniet uz Palaist.</span><span class="sxs-lookup"><span data-stu-id="80150-232">Click Run.</span></span>
+    * <span data-ttu-id="80150-233">Ņemiet vērā, ka atlasīto melnraksta versiju ER formāta konfigurāciju nevar izpildīt, jo nav pieejams vairāk nekā viens modelis kartēšanas konfigurācijas nedefinētu datu modelis, kas ir izvēlēts kā datu avotu darbojošos ER formāta.</span><span class="sxs-lookup"><span data-stu-id="80150-233">Note that the selected draft version of the ER format configuration can’t be executed because there is more than one model mapping configuration available for the undefined data model that has been selected as the data source of the running ER format.</span></span>   
+    * <span data-ttu-id="80150-234">Nākamais, alternatīvu modeli kartēšanas konfigurācijas definē, kā vienu no kura modeļa kartējumus tiks izmantots kā datu avoti darbojas ER formātā.</span><span class="sxs-lookup"><span data-stu-id="80150-234">Next, you will define the alternative model mapping configuration as the one from which model mappings will be used as data sources for running ER format.</span></span>   
+3. <span data-ttu-id="80150-235">Kokā atlasiet "Sample data model\Sample mapping (alternative)".</span><span class="sxs-lookup"><span data-stu-id="80150-235">In the tree, select 'Sample data model\Sample mapping (alternative)'.</span></span>
+4. <span data-ttu-id="80150-236">Modeļa kartējuma noklusējums atlasiet vērtību Jā.</span><span class="sxs-lookup"><span data-stu-id="80150-236">Select Yes in the Default for model mapping field.</span></span>
+5. <span data-ttu-id="80150-237">Kokā atlasiet "Sample data model\Sample format".</span><span class="sxs-lookup"><span data-stu-id="80150-237">In the tree, select 'Sample data model\Sample format'.</span></span>
+6. <span data-ttu-id="80150-238">Noklikšķiniet uz Palaist.</span><span class="sxs-lookup"><span data-stu-id="80150-238">Click Run.</span></span>
+7. <span data-ttu-id="80150-239">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="80150-239">Click OK.</span></span>
+    * <span data-ttu-id="80150-240">Ievērojiet, ka noklusējuma modeļa kartēšana konfigurācija tiek izmantots šī formāta konfigurāciju ģenerēšanai elektronisko dokumentu (izveidotās izvades satur uzņēmuma kods).</span><span class="sxs-lookup"><span data-stu-id="80150-240">Note that the default model mapping configuration is used by this format configuration for generating the electronic document (the created output contains the company code).</span></span>  
 
 

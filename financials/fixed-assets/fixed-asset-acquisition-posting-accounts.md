@@ -19,32 +19,32 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d89bff85317a6aee952d32a9c29f0ebdd27934ec
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 887616463856875e2382a00b1d56520391ead844
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="fixed-asset-acquisition-posting-accounts"></a>Pamatlīdzekļu iegādes grāmatošanas konti
+# <a name="fixed-asset-acquisition-posting-accounts"></a><span data-ttu-id="d7b4d-103">Pamatlīdzekļu iegādes grāmatošanas konti</span><span class="sxs-lookup"><span data-stu-id="d7b4d-103">Fixed asset acquisition posting accounts</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir paskaidrots, kā iestatīt virsgrāmatas grāmatošanas kontus līdzekļu iegādei.
+<span data-ttu-id="d7b4d-104">Šajā rakstā ir paskaidrots, kā iestatīt virsgrāmatas grāmatošanas kontus līdzekļu iegādei.</span><span class="sxs-lookup"><span data-stu-id="d7b4d-104">This article explains how to set up general ledger posting accounts for acquiring assets.</span></span>
 
-Pamatlīdzekļu iegādes grāmatošanai izmantotie konti ir atkarīgi no metodes, kādā līdzeklis tiek iegādāts. Lapā Pamatlīdzekļu grāmatošanas metodes, cilnē Virsgrāmatas konti atlasiet Iegāde un Iegādes korekcija, lai iestatītu pamatlīdzekļu kontus grāmatošanai virsgrāmatā. 
+<span data-ttu-id="d7b4d-105">Pamatlīdzekļu iegādes grāmatošanai izmantotie konti ir atkarīgi no metodes, kādā līdzeklis tiek iegādāts.</span><span class="sxs-lookup"><span data-stu-id="d7b4d-105">Accounts used for posting fixed asset acquisitions may vary depending upon the method used to acquire the asset.</span></span> <span data-ttu-id="d7b4d-106">Lapā Pamatlīdzekļu grāmatošanas metodes, cilnē Virsgrāmatas konti atlasiet Iegāde un Iegādes korekcija, lai iestatītu pamatlīdzekļu kontus grāmatošanai virsgrāmatā.</span><span class="sxs-lookup"><span data-stu-id="d7b4d-106">On the Fixed asset posting profiles page, on the Ledger accounts tab, select Acquisition and Acquisition adjustment to set up fixed asset accounts to post to the ledger.</span></span> 
 
-Žurnālos un pirkšanas pasūtījumos Virsgrāmatas konts parasti ir bilances konts, kur jaunā pamatlīdzekļa iegādes vērtība tiek ierakstīta debetā. Šis konts netiek parādīts žurnālā un to nevar aizstāt transakcijās. 
+<span data-ttu-id="d7b4d-107">Žurnālos un pirkšanas pasūtījumos Virsgrāmatas konts parasti ir bilances konts, kur jaunā pamatlīdzekļa iegādes vērtība tiek ierakstīta debetā.</span><span class="sxs-lookup"><span data-stu-id="d7b4d-107">In journals and on purchase orders, Ledger account is typically the balance sheet account, where the acquisition value of the new fixed asset is debited.</span></span> <span data-ttu-id="d7b4d-108">Šis konts netiek parādīts žurnālā un to nevar aizstāt transakcijās.</span><span class="sxs-lookup"><span data-stu-id="d7b4d-108">This account is not displayed in the journal and cannot be replaced in transactions.</span></span> 
 
-Korespondējošais konts ir arī bilances konts. Virsgrāmatas žurnālā un pamatlīdzekļu žurnālā šis konts bieži mēdz būt bankas konts, ko lieto, lai maksātu par pamatlīdzekļa iegādi. Korespondējošais konts ir noklusējuma konts, kas tiek norādīts žurnālos. Žurnālā to var nomainīt ar jebkuru citu kontu no kontu plāna vai ar kreditora kontu, ja pamatlīdzeklis tika pirkts no kreditora. 
+<span data-ttu-id="d7b4d-109">Korespondējošais konts ir arī bilances konts.</span><span class="sxs-lookup"><span data-stu-id="d7b4d-109">Offset account is also a balance sheet account.</span></span> <span data-ttu-id="d7b4d-110">Virsgrāmatas žurnālā un pamatlīdzekļu žurnālā šis konts bieži mēdz būt bankas konts, ko lieto, lai maksātu par pamatlīdzekļa iegādi.</span><span class="sxs-lookup"><span data-stu-id="d7b4d-110">In the general journal and in the fixed assets journal, this account often will be the bank account that is used to pay for the acquisition of the asset.</span></span> <span data-ttu-id="d7b4d-111">Korespondējošais konts ir noklusējuma konts, kas tiek norādīts žurnālos.</span><span class="sxs-lookup"><span data-stu-id="d7b4d-111">The offset account is a default account, which is suggested in the journals.</span></span> <span data-ttu-id="d7b4d-112">Žurnālā to var nomainīt ar jebkuru citu kontu no kontu plāna vai ar kreditora kontu, ja pamatlīdzeklis tika pirkts no kreditora.</span><span class="sxs-lookup"><span data-stu-id="d7b4d-112">It can be changed in the journal to any other account from the chart of accounts or to a vendor account, if the fixed asset was purchase from a vendor.</span></span> 
 
-Ja pamatlīdzekļu iegādei modulī Kreditori tiek lietots vienums Rēķinu žurnāls vai Pirkšanas pasūtījumi, tad pamatlīdzekļu transakcijas korespondējošais konts tiek aizstāts ar šai transakcijai atlasīto kreditora kontu.
+<span data-ttu-id="d7b4d-113">Ja pamatlīdzekļu iegādei modulī Kreditori tiek lietots vienums Rēķinu žurnāls vai Pirkšanas pasūtījumi, tad pamatlīdzekļu transakcijas korespondējošais konts tiek aizstāts ar šai transakcijai atlasīto kreditora kontu.</span><span class="sxs-lookup"><span data-stu-id="d7b4d-113">When Invoice journal or Purchase orders in Accounts payable are used for fixed asset acquisitions, the offset account for the fixed asset transaction is replaced by the vendor account that is selected for the transaction.</span></span>
 
-Iegādēm, kas tiek grāmatotas, virsgrāmatā izmantojot žurnālu Krājumi pamatlīdzekļiem, pamatlīdzekļi netiek pirkti no ārējiem avotiem, bet pārsūtīti no paša uzņēmuma krājumiem. Tādējādi korespondējošais konts ir krājumu izejas plūsmas konts krājumu vienībām sadaļā Krājumu pārvaldība.
+<span data-ttu-id="d7b4d-114">Iegādēm, kas tiek grāmatotas, virsgrāmatā izmantojot žurnālu Krājumi pamatlīdzekļiem, pamatlīdzekļi netiek pirkti no ārējiem avotiem, bet pārsūtīti no paša uzņēmuma krājumiem.</span><span class="sxs-lookup"><span data-stu-id="d7b4d-114">For acquisitions posted using the Inventory to fixed assets journal in General ledger, the fixed asset is not bought from external sources, but transferred from the company's own inventory.</span></span> <span data-ttu-id="d7b4d-115">Tādējādi korespondējošais konts ir krājumu izejas plūsmas konts krājumu vienībām sadaļā Krājumu pārvaldība.</span><span class="sxs-lookup"><span data-stu-id="d7b4d-115">Therefore, the offset account is an inventory issue account for the inventory item in Inventory management.</span></span>
 
-Papildinformāciju skatiet tēmā [Līdzekļu iegādāšanās, izmantojot iepirkuma procesu](acquire-assets-procurement.md).
+<span data-ttu-id="d7b4d-116">Papildinformāciju skatiet tēmā [Līdzekļu iegādāšanās, izmantojot iepirkuma procesu](acquire-assets-procurement.md).</span><span class="sxs-lookup"><span data-stu-id="d7b4d-116">For more information, see [Acquire assets through procurement](acquire-assets-procurement.md).</span></span>
 
 
 

@@ -22,181 +22,181 @@ ms.contentlocale: lv-lv
 ms.lasthandoff: 07/27/2017
 
 ---
-# <a name="upgrade-your-format-by-adopting-of-new-base-version-of-that-format-for-electronic-reporting-er"></a>Jaunināt savu formātu, pieņemot šī formāta jaunu bāzes versiju elektronisko pārskatu veidošanai (ER)
+# <a name="upgrade-your-format-by-adopting-of-new-base-version-of-that-format-for-electronic-reporting-er"></a><span data-ttu-id="2012c-103">Jaunināt savu formātu, pieņemot šī formāta jaunu bāzes versiju elektronisko pārskatu veidošanai (ER)</span><span class="sxs-lookup"><span data-stu-id="2012c-103">Upgrade your format by adopting of new base version of that format for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var uzturēt formāta konfigurāciju Elektroniskajos pārskatos (ER). Šī procedūra skaidro kā var izveidot pielāgotu formātu versiju, balstoties uz formātu, kas saņemts no konfigurācijas sniedzēja (CP). Tas arī skaidro, kā pieņemt jaunu, šī formāta bāzes versiju.
+<span data-ttu-id="2012c-104">Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var uzturēt formāta konfigurāciju Elektroniskajos pārskatos (ER).</span><span class="sxs-lookup"><span data-stu-id="2012c-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can maintain an Electronic reporting (ER) format configuration.</span></span> <span data-ttu-id="2012c-105">Šī procedūra skaidro kā var izveidot pielāgotu formātu versiju, balstoties uz formātu, kas saņemts no konfigurācijas sniedzēja (CP).</span><span class="sxs-lookup"><span data-stu-id="2012c-105">This procedure explains how a custom version of a format can be created based on the format received from a configuration provider (CP).</span></span> <span data-ttu-id="2012c-106">Tas arī skaidro, kā pieņemt jaunu, šī formāta bāzes versiju.</span><span class="sxs-lookup"><span data-stu-id="2012c-106">It also explains how to adopt a new, base version of that format.</span></span>
 
 
 
-Lai veiktu šīs darbības, vispirms jāveic darbības procedūrās "Izveidot konfigurācijas nodrošinātāju un iezīmēt to kā aktīvu" un "Izmantot izveidoto formātu, lai ģenerētu elektroniskos dokumentus maksājumiem". Šīs darbības var veikt uzņēmumā GBSI.
+<span data-ttu-id="2012c-107">Lai veiktu šīs darbības, vispirms jāveic darbības procedūrās "Izveidot konfigurācijas nodrošinātāju un iezīmēt to kā aktīvu" un "Izmantot izveidoto formātu, lai ģenerētu elektroniskos dokumentus maksājumiem".</span><span class="sxs-lookup"><span data-stu-id="2012c-107">To complete these steps, you must first complete the steps in the “Create a configuration provider and mark it as active” and “Use created format to generate electronic documents for payments” procedures.</span></span> <span data-ttu-id="2012c-108">Šīs darbības var veikt uzņēmumā GBSI.</span><span class="sxs-lookup"><span data-stu-id="2012c-108">These steps can be performed in the GBSI company.</span></span>
 
 
-## <a name="select-format-configuration-for-customization"></a>Atlasiet formāta konfigurāciju pielāgošanai
-1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.
-    * Šajā piemērā parauga uzņēmums (http://www.litware.com) ir konfigurācijas nodrošinātājs, kas atbalsta formāta konfigurācijas elektroniskajiem maksājumiem attiecībā uz konkrētu valsti.    Parauga uzņēmums Proseware, Inc. (http://www.proseware.com) ir Litware, Inc. nodrošinātās formāta konfigurācijas patērētājs. Proseware, Inc. izmanto formātus noteiktos attiecīgās valsts reģionos.  
-2. Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.
-3. Noklikšķiniet uz Rādīt filtrus.
-4. Lietojiet šādus filtrus: Ievadiet “BAKS (UK fiktīvs)” filtra vērtību laukā “Nosaukums”, izmantojot filtra operatoru “sākas ar”
-    * BAKS (UK fiktīvs)  
-    * Atlasītā BAKS (UK fiktīvs) formāta konfigurācija pieder nodrošinātājam Litware, Inc.  
-5. Noklikšķiniet uz Rādīt filtrus.
-6. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-    * Šo formāta versiju ar statusu Pabeigts uzņēmums Proseware, Inc. izmanto pielāgošanai.  
+## <a name="select-format-configuration-for-customization"></a><span data-ttu-id="2012c-109">Atlasiet formāta konfigurāciju pielāgošanai</span><span class="sxs-lookup"><span data-stu-id="2012c-109">Select format configuration for customization</span></span>
+1. <span data-ttu-id="2012c-110">Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.</span><span class="sxs-lookup"><span data-stu-id="2012c-110">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+    * <span data-ttu-id="2012c-111">Šajā piemērā parauga uzņēmums (http://www.litware.com) ir konfigurācijas nodrošinātājs, kas atbalsta formāta konfigurācijas elektroniskajiem maksājumiem attiecībā uz konkrētu valsti.</span><span class="sxs-lookup"><span data-stu-id="2012c-111">In this example, sample company Litware, Inc. (http://www.litware.com) will act as a configuration provider that supports format configurations for electronic payments for a particular country.</span></span>    <span data-ttu-id="2012c-112">Parauga uzņēmums Proseware, Inc. (http://www.proseware.com) ir Litware, Inc. nodrošinātās formāta konfigurācijas patērētājs.</span><span class="sxs-lookup"><span data-stu-id="2012c-112">Sample company Proseware, Inc. (http://www.proseware.com) will act as a consumer of the format configuration that Litware, Inc. provided.</span></span> <span data-ttu-id="2012c-113">Proseware, Inc. izmanto formātus noteiktos attiecīgās valsts reģionos.</span><span class="sxs-lookup"><span data-stu-id="2012c-113">Proseware, Inc. uses formats in certain regions of that country.</span></span>  
+2. <span data-ttu-id="2012c-114">Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="2012c-114">Click Reporting configurations.</span></span>
+3. <span data-ttu-id="2012c-115">Noklikšķiniet uz Rādīt filtrus.</span><span class="sxs-lookup"><span data-stu-id="2012c-115">Click Show filters.</span></span>
+4. <span data-ttu-id="2012c-116">Lietojiet šādus filtrus: Ievadiet “BAKS (UK fiktīvs)” filtra vērtību laukā “Nosaukums”, izmantojot filtra operatoru “sākas ar”</span><span class="sxs-lookup"><span data-stu-id="2012c-116">Apply the following filters: Enter a filter value of "BACS (UK fictitious)" on the "Name" field using the "begins with" filter operator</span></span>
+    * <span data-ttu-id="2012c-117">BAKS (UK fiktīvs)</span><span class="sxs-lookup"><span data-stu-id="2012c-117">BACS (UK fictitious)</span></span>  
+    * <span data-ttu-id="2012c-118">Atlasītā BAKS (UK fiktīvs) formāta konfigurācija pieder nodrošinātājam Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="2012c-118">The selected format configuration BACS (UK fictitious) is owned by provider Litware, Inc.</span></span>  
+5. <span data-ttu-id="2012c-119">Noklikšķiniet uz Rādīt filtrus.</span><span class="sxs-lookup"><span data-stu-id="2012c-119">Click Show filters.</span></span>
+6. <span data-ttu-id="2012c-120">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="2012c-120">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="2012c-121">Šo formāta versiju ar statusu Pabeigts uzņēmums Proseware, Inc. izmanto pielāgošanai.</span><span class="sxs-lookup"><span data-stu-id="2012c-121">The version of the format with the status of Completed will be used by Proseware, Inc. for customization.</span></span>  
 
-## <a name="create-a-new-configuration-for-your-custom-format-of-electronic-document"></a>Izveidojiet jaunu konfigurāciju jūsu elektroniskā dokumenta pielāgotajam formātam
-    * Proseware, Inc. saņēma BACS (UK fiktīvs) konfigurācijas versiju 1.1, kurā ietverts sākotnējais formāts elektronisko maksājumu dokumentu ģenerēšanai no Litware, Inc. saskaņā ar attiecīgo pakalpojuma abonementu. Proseware, Inc. vēlas sākt lietot šo metodi kā standartu savā valstī, tomēr ir nepieciešama pielāgošana, lai nodrošinātu atbalstu noteiktām reģionālajām prasībām. Proseware, Inc. arī vēlas saglabāt iespēju jaunināt pielāgotu formātu, tiklīdz Litware, Inc. piedāvā jaunu tā versiju (ar izmaiņām, kas nodrošina atbalstu jaunām valstij raksturīgām prasībām), kā arī vēlas veikt jaunināšanu ar pēc iespējas zemākām izmaksām.  Lai to izdarītu, Proseware, Inc. ir jāizveido konfigurācija, kā bāzi izmantojot Litware, Inc konfigurāciju BACS (UK fiktīvs).  
-1. Aizvērt lapu.
-2. Atlasiet Proseware, Inc., lai to padarītu par aktīvu nodrošinātāju.
-3. Noklikšķiniet uz Iestatīt aktīvu.
-4. Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.
-5. Kokā izvērsiet “Maksājumi (vienkāršotais modelis)”.
-6. Kokā atlasiet 'Maksājumi (vienkāršotais modelis)\BAKS (UK fiktīvs)'.
-    * Atlasiet konfigurāciju BACS (UK fiktīvs) no Litware, Inc. Uzņēmums Proseware, Inc. izmantos versiju 1.1. kā pielāgotās versijas bāzi.  
-7. Noklikšķiniet uz Izveidot konfigurāciju, lai atvērtu nolaižamo dialoglodziņu.
-    * Tas jums ļauj izveidot jaunu konfigurāciju pielāgotam maksājuma formātam.  
-8. Jaunajā laukā, ievadiet 'Atvasināt no nosaukuma: BAKS (UK fiktīvs), Litware, Inc.'.
-    * Atlasiet opciju Atvasināt, lai apstiprinātu BAKS (UK fiktīvs) izmantošanu kā pamatu pielāgotas versijas veidošanai.  
-9. Laukā Nosaukums ierakstiet 'BAKS (UK fiktīvs pielāgots)'.
-    * BAKS (UK fiktīvs pielāgots)  
-10. Laukā Apraksts ierakstiet “BAKS kreditora maksājums (UK fiktīvs pielāgots)”.
-    * BAKS kreditora maksājuma (UK fiktīvs pielāgots)  
-    * Šeit tiek automātiski ievadīts aktīvais konfigurācijas nodrošinātājs (Proseware, Inc.). Šis nodrošinātājs varēs uzturēt šo konfigurāciju. Citi nodrošinātāji var izmantot šo konfigurāciju, bet nevar uzturēt to.  
-11. Klikšķiniet Izveidot konfigurāciju.
+## <a name="create-a-new-configuration-for-your-custom-format-of-electronic-document"></a><span data-ttu-id="2012c-122">Izveidojiet jaunu konfigurāciju jūsu elektroniskā dokumenta pielāgotajam formātam</span><span class="sxs-lookup"><span data-stu-id="2012c-122">Create a new configuration for your custom format of electronic document</span></span>
+    * <span data-ttu-id="2012c-123">Proseware, Inc. saņēma BACS (UK fiktīvs) konfigurācijas versiju 1.1, kurā ietverts sākotnējais formāts elektronisko maksājumu dokumentu ģenerēšanai no Litware, Inc. saskaņā ar attiecīgo pakalpojuma abonementu.</span><span class="sxs-lookup"><span data-stu-id="2012c-123">Proseware, Inc. received version 1.1 of BACS (UK fictitious) configuration that contains the initial format to generate electronic payment documents from Litware, Inc. in accordance to their service subscription.</span></span> <span data-ttu-id="2012c-124">Proseware, Inc. vēlas sākt lietot šo metodi kā standartu savā valstī, tomēr ir nepieciešama pielāgošana, lai nodrošinātu atbalstu noteiktām reģionālajām prasībām.</span><span class="sxs-lookup"><span data-stu-id="2012c-124">Proseware, Inc. wants to start using this as a standard for their country but some customization is required to support specific regional requirements.</span></span> <span data-ttu-id="2012c-125">Proseware, Inc. arī vēlas saglabāt iespēju jaunināt pielāgotu formātu, tiklīdz Litware, Inc. piedāvā jaunu tā versiju (ar izmaiņām, kas nodrošina atbalstu jaunām valstij raksturīgām prasībām), kā arī vēlas veikt jaunināšanu ar pēc iespējas zemākām izmaksām.</span><span class="sxs-lookup"><span data-stu-id="2012c-125">Proseware, Inc. also wants to keep the ability to upgrade a custom format as soon as a new version of it (with changes to support new country-specific requirements) comes from Litware, Inc. and they want to perform this upgrade with the lowest cost.</span></span>  <span data-ttu-id="2012c-126">Lai to izdarītu, Proseware, Inc. ir jāizveido konfigurācija, kā bāzi izmantojot Litware, Inc konfigurāciju BACS (UK fiktīvs).</span><span class="sxs-lookup"><span data-stu-id="2012c-126">To do this, Proseware, Inc. needs to create a configuration using the Litware, Inc. configuration BACS (UK fictitious) as a base.</span></span>  
+1. <span data-ttu-id="2012c-127">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="2012c-127">Close the page.</span></span>
+2. <span data-ttu-id="2012c-128">Atlasiet Proseware, Inc., lai to padarītu par aktīvu nodrošinātāju.</span><span class="sxs-lookup"><span data-stu-id="2012c-128">Select Proseware, Inc. to make it an active provider.</span></span>
+3. <span data-ttu-id="2012c-129">Noklikšķiniet uz Iestatīt aktīvu.</span><span class="sxs-lookup"><span data-stu-id="2012c-129">Click Set active.</span></span>
+4. <span data-ttu-id="2012c-130">Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="2012c-130">Click Reporting configurations.</span></span>
+5. <span data-ttu-id="2012c-131">Kokā izvērsiet “Maksājumi (vienkāršotais modelis)”.</span><span class="sxs-lookup"><span data-stu-id="2012c-131">In the tree, expand 'Payments (simplified model)'.</span></span>
+6. <span data-ttu-id="2012c-132">Kokā atlasiet 'Maksājumi (vienkāršotais modelis)\BAKS (UK fiktīvs)'.</span><span class="sxs-lookup"><span data-stu-id="2012c-132">In the tree, select 'Payments (simplified model)\BACS (UK fictitious)'.</span></span>
+    * <span data-ttu-id="2012c-133">Atlasiet konfigurāciju BACS (UK fiktīvs) no Litware, Inc. Uzņēmums Proseware, Inc. izmantos versiju 1.1. kā pielāgotās versijas bāzi.</span><span class="sxs-lookup"><span data-stu-id="2012c-133">Select the BACS (UK fictitious) configuration from Litware, Inc.     Proseware, Inc. will use version 1.1 as a base for the custom version.</span></span>  
+7. <span data-ttu-id="2012c-134">Noklikšķiniet uz Izveidot konfigurāciju, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="2012c-134">Click Create configuration to open the drop dialog.</span></span>
+    * <span data-ttu-id="2012c-135">Tas jums ļauj izveidot jaunu konfigurāciju pielāgotam maksājuma formātam.</span><span class="sxs-lookup"><span data-stu-id="2012c-135">This lets you create a new configuration for a custom payment format.</span></span>  
+8. <span data-ttu-id="2012c-136">Jaunajā laukā, ievadiet 'Atvasināt no nosaukuma: BAKS (UK fiktīvs), Litware, Inc.'.</span><span class="sxs-lookup"><span data-stu-id="2012c-136">In the New field, enter 'Derive from Name: BACS (UK fictitious), Litware, Inc.'.</span></span>
+    * <span data-ttu-id="2012c-137">Atlasiet opciju Atvasināt, lai apstiprinātu BAKS (UK fiktīvs) izmantošanu kā pamatu pielāgotas versijas veidošanai.</span><span class="sxs-lookup"><span data-stu-id="2012c-137">Select the Derive option to confirm the usage of BACS (UK fictitious) as the base for creating the custom version.</span></span>  
+9. <span data-ttu-id="2012c-138">Laukā Nosaukums ierakstiet 'BAKS (UK fiktīvs pielāgots)'.</span><span class="sxs-lookup"><span data-stu-id="2012c-138">In the Name field, type 'BACS (UK fictitious custom)'.</span></span>
+    * <span data-ttu-id="2012c-139">BAKS (UK fiktīvs pielāgots)</span><span class="sxs-lookup"><span data-stu-id="2012c-139">BACS (UK fictitious custom)</span></span>  
+10. <span data-ttu-id="2012c-140">Laukā Apraksts ierakstiet “BAKS kreditora maksājums (UK fiktīvs pielāgots)”.</span><span class="sxs-lookup"><span data-stu-id="2012c-140">In the Description field, type 'BACS vendor payment (UK fictitious custom)'.</span></span>
+    * <span data-ttu-id="2012c-141">BAKS kreditora maksājuma (UK fiktīvs pielāgots)</span><span class="sxs-lookup"><span data-stu-id="2012c-141">BACS vendor payment (UK fictitious custom)</span></span>  
+    * <span data-ttu-id="2012c-142">Šeit tiek automātiski ievadīts aktīvais konfigurācijas nodrošinātājs (Proseware, Inc.).</span><span class="sxs-lookup"><span data-stu-id="2012c-142">The active configuration provider (Proseware, Inc.) is automatically entered here.</span></span> <span data-ttu-id="2012c-143">Šis nodrošinātājs varēs uzturēt šo konfigurāciju.</span><span class="sxs-lookup"><span data-stu-id="2012c-143">This provider will be able to maintain this configuration.</span></span> <span data-ttu-id="2012c-144">Citi nodrošinātāji var izmantot šo konfigurāciju, bet nevar uzturēt to.</span><span class="sxs-lookup"><span data-stu-id="2012c-144">Other providers can use this configuration, but will not be able to maintain it.</span></span>  
+11. <span data-ttu-id="2012c-145">Klikšķiniet Izveidot konfigurāciju.</span><span class="sxs-lookup"><span data-stu-id="2012c-145">Click Create configuration.</span></span>
 
-## <a name="customize-your-format-for-the-electronic-document"></a>Pielāgojiet jūsu elektroniskā dokumenta formātu
-1. Noklikšķiniet uz Veidotājs.
-2. Noklikšķiniet uz Izvērst/sakļaut.
-3. Noklikšķiniet uz Izvērst/sakļaut.
-4. Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Banka”.
-5. Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.
-6. Kokā atlasiet "XML\Elements".
-7. Laukā Nosaukums ierakstiet "IBAN".
-    * IBAN  
-8. Noklikšķiniet uz OK.
-9. Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Banka\IBAN”.
-10. Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.
-11. Kokā atlasiet elementu “Teksts\Virkne”.
-12. Noklikšķiniet uz Labi.
-13. Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Nosaukums\Virkne”.
-14. Ievadiet '60' laukā Maksimālais garums.
-15. Noklikšķiniet uz cilnes Kartēšana.
-16. Koka struktūrā izvērsiet elementu “modelis”.
-17. Kokā izvērsiet sadaļu “modelis\Maksājumi”.
-18. Kokā izvērsiet sadaļu “modelis\Maksājumi\Kreditors”.
-19. Kokā izvērsiet elementu “modelis\Maksājumi\Kreditors\Konts“.
-20. Koka struktūrā atlasiet zaru “modelis\Maksājumi\Kreditors\Konts\IBAN”.
-21. Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums = model.Payments\Kreditors\Banka\IBAN\Virkne”.
-22. Noklikšķiniet uz Saistīt.
-23. Noklikšķiniet uz Saglabāt.
+## <a name="customize-your-format-for-the-electronic-document"></a><span data-ttu-id="2012c-146">Pielāgojiet jūsu elektroniskā dokumenta formātu</span><span class="sxs-lookup"><span data-stu-id="2012c-146">Customize your format for the electronic document</span></span>
+1. <span data-ttu-id="2012c-147">Noklikšķiniet uz Veidotājs.</span><span class="sxs-lookup"><span data-stu-id="2012c-147">Click Designer.</span></span>
+2. <span data-ttu-id="2012c-148">Noklikšķiniet uz Izvērst/sakļaut.</span><span class="sxs-lookup"><span data-stu-id="2012c-148">Click Expand/collapse.</span></span>
+3. <span data-ttu-id="2012c-149">Noklikšķiniet uz Izvērst/sakļaut.</span><span class="sxs-lookup"><span data-stu-id="2012c-149">Click Expand/collapse.</span></span>
+4. <span data-ttu-id="2012c-150">Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Banka”.</span><span class="sxs-lookup"><span data-stu-id="2012c-150">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank'.</span></span>
+5. <span data-ttu-id="2012c-151">Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="2012c-151">Click Add to open the drop dialog.</span></span>
+6. <span data-ttu-id="2012c-152">Kokā atlasiet "XML\Elements".</span><span class="sxs-lookup"><span data-stu-id="2012c-152">In the tree, select 'XML\Element'.</span></span>
+7. <span data-ttu-id="2012c-153">Laukā Nosaukums ierakstiet "IBAN".</span><span class="sxs-lookup"><span data-stu-id="2012c-153">In the Name field, type 'IBAN'.</span></span>
+    * <span data-ttu-id="2012c-154">IBAN</span><span class="sxs-lookup"><span data-stu-id="2012c-154">IBAN</span></span>  
+8. <span data-ttu-id="2012c-155">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="2012c-155">Click OK.</span></span>
+9. <span data-ttu-id="2012c-156">Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Banka\IBAN”.</span><span class="sxs-lookup"><span data-stu-id="2012c-156">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\IBAN'.</span></span>
+10. <span data-ttu-id="2012c-157">Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="2012c-157">Click Add to open the drop dialog.</span></span>
+11. <span data-ttu-id="2012c-158">Kokā atlasiet elementu “Teksts\Virkne”.</span><span class="sxs-lookup"><span data-stu-id="2012c-158">In the tree, select 'Text\String'.</span></span>
+12. <span data-ttu-id="2012c-159">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="2012c-159">Click OK.</span></span>
+13. <span data-ttu-id="2012c-160">Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Nosaukums\Virkne”.</span><span class="sxs-lookup"><span data-stu-id="2012c-160">In the tree, select 'Xml\Message\Payments\Item\Vendor\Name\String'.</span></span>
+14. <span data-ttu-id="2012c-161">Ievadiet '60' laukā Maksimālais garums.</span><span class="sxs-lookup"><span data-stu-id="2012c-161">In the Maximum length field, enter '60'.</span></span>
+15. <span data-ttu-id="2012c-162">Noklikšķiniet uz cilnes Kartēšana.</span><span class="sxs-lookup"><span data-stu-id="2012c-162">Click the Mapping tab.</span></span>
+16. <span data-ttu-id="2012c-163">Koka struktūrā izvērsiet elementu “modelis”.</span><span class="sxs-lookup"><span data-stu-id="2012c-163">In the tree, expand 'model'.</span></span>
+17. <span data-ttu-id="2012c-164">Kokā izvērsiet sadaļu “modelis\Maksājumi”.</span><span class="sxs-lookup"><span data-stu-id="2012c-164">In the tree, expand 'model\Payments'.</span></span>
+18. <span data-ttu-id="2012c-165">Kokā izvērsiet sadaļu “modelis\Maksājumi\Kreditors”.</span><span class="sxs-lookup"><span data-stu-id="2012c-165">In the tree, expand 'model\Payments\Creditor'.</span></span>
+19. <span data-ttu-id="2012c-166">Kokā izvērsiet elementu “modelis\Maksājumi\Kreditors\Konts“.</span><span class="sxs-lookup"><span data-stu-id="2012c-166">In the tree, expand 'model\Payments\Creditor\Account'.</span></span>
+20. <span data-ttu-id="2012c-167">Koka struktūrā atlasiet zaru “modelis\Maksājumi\Kreditors\Konts\IBAN”.</span><span class="sxs-lookup"><span data-stu-id="2012c-167">In the tree, select 'model\Payments\Creditor\Account\IBAN'.</span></span>
+21. <span data-ttu-id="2012c-168">Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums = model.Payments\Kreditors\Banka\IBAN\Virkne”.</span><span class="sxs-lookup"><span data-stu-id="2012c-168">In the tree, select 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\IBAN\String'.</span></span>
+22. <span data-ttu-id="2012c-169">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="2012c-169">Click Bind.</span></span>
+23. <span data-ttu-id="2012c-170">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="2012c-170">Click Save.</span></span>
 
-## <a name="validate-the-customized-format"></a>Pārbaudiet pielāgoto formātu
-1. Noklikšķiniet uz Pārbaudīt.
-    * Pārbaudiet pielāgotā formāta izkārtojumu un datu kartējuma izmaiņas, lai pārliecinātos, ka visi saistījumi ir pareizi.  
-2. Aizvērt lapu.
+## <a name="validate-the-customized-format"></a><span data-ttu-id="2012c-171">Pārbaudiet pielāgoto formātu</span><span class="sxs-lookup"><span data-stu-id="2012c-171">Validate the customized format</span></span>
+1. <span data-ttu-id="2012c-172">Noklikšķiniet uz Pārbaudīt.</span><span class="sxs-lookup"><span data-stu-id="2012c-172">Click Validate.</span></span>
+    * <span data-ttu-id="2012c-173">Pārbaudiet pielāgotā formāta izkārtojumu un datu kartējuma izmaiņas, lai pārliecinātos, ka visi saistījumi ir pareizi.</span><span class="sxs-lookup"><span data-stu-id="2012c-173">Validate the customized format layout and data mapping changes to make sure that all bindings are okay.</span></span>  
+2. <span data-ttu-id="2012c-174">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="2012c-174">Close the page.</span></span>
 
-## <a name="change-the-status-of-the-current-version-of-the-custom-format-configuration"></a>Mainīt pielāgotā formāta konfigurācijas pašreizējās versijas statusu
-    * Izveidotās formāta konfigurācijas statusu no Melnraksts mainiet uz Pabeigts, lai to padarītu pieejamu maksājumu dokumenta ģenerēšanai.  
-1. Noklikšķiniet uz Mainīt statusu.
-    * Ņemiet vērā, ka atlasītās konfigurācijas pašreizējai versijai ir statuss Melnraksts.  
-2. Noklikšķiniet uz Pabeigt.
-3. Apraksta laukā ierakstiet vērtību.
-4. Noklikšķiniet uz OK.
-5. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-    * Ņemiet vērā, ka izveidotā konfigurācija tiek saglabāta kā pabeigta versija 1.1.1. Tas nozīmē, ka tā ir 1. versija pielāgotajam formātam BAKS (UK fiktīvs pielāgots), kura ir balstīta uz formāta BAKS (UK fiktīvs) 1. versiju, kas ir balstīta uz datu modeļa Maksājumi (vienkāršots modelis) 1. versiju.  
+## <a name="change-the-status-of-the-current-version-of-the-custom-format-configuration"></a><span data-ttu-id="2012c-175">Mainīt pielāgotā formāta konfigurācijas pašreizējās versijas statusu</span><span class="sxs-lookup"><span data-stu-id="2012c-175">Change the status of the current version of the custom format configuration</span></span>
+    * <span data-ttu-id="2012c-176">Izveidotās formāta konfigurācijas statusu no Melnraksts mainiet uz Pabeigts, lai to padarītu pieejamu maksājumu dokumenta ģenerēšanai.</span><span class="sxs-lookup"><span data-stu-id="2012c-176">Change the status of the designed format configuration from Draft to Completed to make it available for payment document generation.</span></span>  
+1. <span data-ttu-id="2012c-177">Noklikšķiniet uz Mainīt statusu.</span><span class="sxs-lookup"><span data-stu-id="2012c-177">Click Change status.</span></span>
+    * <span data-ttu-id="2012c-178">Ņemiet vērā, ka atlasītās konfigurācijas pašreizējai versijai ir statuss Melnraksts.</span><span class="sxs-lookup"><span data-stu-id="2012c-178">Note that the current version of the selected configuration is in Draft status.</span></span>  
+2. <span data-ttu-id="2012c-179">Noklikšķiniet uz Pabeigt.</span><span class="sxs-lookup"><span data-stu-id="2012c-179">Click Complete.</span></span>
+3. <span data-ttu-id="2012c-180">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="2012c-180">In the Description field, type a value.</span></span>
+4. <span data-ttu-id="2012c-181">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="2012c-181">Click OK.</span></span>
+5. <span data-ttu-id="2012c-182">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="2012c-182">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="2012c-183">Ņemiet vērā, ka izveidotā konfigurācija tiek saglabāta kā pabeigta versija 1.1.1.</span><span class="sxs-lookup"><span data-stu-id="2012c-183">Note that the created configuration is saved as completed version 1.1.1.</span></span> <span data-ttu-id="2012c-184">Tas nozīmē, ka tā ir 1. versija pielāgotajam formātam BAKS (UK fiktīvs pielāgots), kura ir balstīta uz formāta BAKS (UK fiktīvs) 1. versiju, kas ir balstīta uz datu modeļa Maksājumi (vienkāršots modelis) 1. versiju.</span><span class="sxs-lookup"><span data-stu-id="2012c-184">This means it is version 1 of the custom BACS (UK fictitious custom) format, which is based on version 1 of the BACS (UK fictitious) format, which is based on version 1 of the Payments (simplified model) data model.</span></span>  
 
-## <a name="test-the-customized-format-to-generate-payment-files"></a>Pārbaudiet pielāgoto formātu, lai ģenerētu maksājuma failus
-    * Paralēlā Dynamics 365 for Finance and Operations Enterprise izdevuma sesijā izpildiet procedūrā “Lietot izveidoto formātu, lai ģenerētu elektroniskos dokumentus maksājumiem” norādītās darbības. Atlasiet BAKS (UK fiktīvs pielāgots) formātu elektronisko maksājumu metodes parametros. Pārliecinieties, ka izveidotais maksājuma fails satur nesen ieviesto XML mezglu ar IBAN kodu, saskaņā ar reģionālajām prasībām.  
+## <a name="test-the-customized-format-to-generate-payment-files"></a><span data-ttu-id="2012c-185">Pārbaudiet pielāgoto formātu, lai ģenerētu maksājuma failus</span><span class="sxs-lookup"><span data-stu-id="2012c-185">Test the customized format to generate payment files</span></span>
+    * <span data-ttu-id="2012c-186">Paralēlā Dynamics 365 for Finance and Operations Enterprise izdevuma sesijā izpildiet procedūrā “Lietot izveidoto formātu, lai ģenerētu elektroniskos dokumentus maksājumiem” norādītās darbības.</span><span class="sxs-lookup"><span data-stu-id="2012c-186">Complete the steps in the “Use created format to generate electronic documents for payments” procedure in a parallel Dynamics 365 for Finance and Operations, Enterprise edition session.</span></span> <span data-ttu-id="2012c-187">Atlasiet BAKS (UK fiktīvs pielāgots) formātu elektronisko maksājumu metodes parametros.</span><span class="sxs-lookup"><span data-stu-id="2012c-187">Select the BACS (UK fictitious custom) format in electronic payment method parameters.</span></span> <span data-ttu-id="2012c-188">Pārliecinieties, ka izveidotais maksājuma fails satur nesen ieviesto XML mezglu ar IBAN kodu, saskaņā ar reģionālajām prasībām.</span><span class="sxs-lookup"><span data-stu-id="2012c-188">Make sure that the created payment file contains the recently introduced XML node presenting IBAN code in accordance to regional requirements.</span></span>  
 
-## <a name="update-the-existing-country-specific-configuration"></a>Atjauniniet esošo valstij specifisko konfigurāciju
-    * Uzņēmumam Litware, Inc. jāveic BACS (UK fiktīvs) konfigurācijas jaunināšana un jāievieš jaunās valstij raksturīgās prasības attiecībā uz elektroniskā dokumenta formāta pārvaldību. Vēlāk, tas tiks ietverts jaunā šīs konfigurācijas versijā, kas tiks piedāvāta pakalpojuma abonentiem, ieskaitot Proseware, Inc.  
-    * Ar reālo pakalpojumu sniegšanu saistītajos procesos katra jauna BACS (UK fiktīvs) versija var tikt importēta uzņēmumā Proseware, Inc. no Litware, Inc. konfigurāciju LCS repozitorija. Šajā procedūrā mēs simulēsim to, atjauninot BAKS (UK fiktīvs) pakalpojuma sniedzēja vārdā.  
-1. Aizvērt lapu.
-2. Atlasiet Litware, Inc. nodrošinātāju.
-3. Noklikšķiniet uz Iestatīt aktīvu.
-4. Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.
-5. Kokā izvērsiet “Maksājumi (vienkāršotais modelis)”.
-6. Kokā atlasiet 'Maksājumi (vienkāršotais modelis)\BAKS (UK fiktīvs)'.
-    * Melnraksta versija BACS (UK fiktīvs), kas pieder Litware, Inc., tiek atlasīta, lai veiktu izmaiņas atbilstoši jaunajām valstij raksturīgajām prasībām.  
+## <a name="update-the-existing-country-specific-configuration"></a><span data-ttu-id="2012c-189">Atjauniniet esošo valstij specifisko konfigurāciju</span><span class="sxs-lookup"><span data-stu-id="2012c-189">Update the existing country-specific configuration</span></span>
+    * <span data-ttu-id="2012c-190">Uzņēmumam Litware, Inc. jāveic BACS (UK fiktīvs) konfigurācijas jaunināšana un jāievieš jaunās valstij raksturīgās prasības attiecībā uz elektroniskā dokumenta formāta pārvaldību.</span><span class="sxs-lookup"><span data-stu-id="2012c-190">Litware, Inc. needs to update the BACS (UK fictitious) configuration and adopt new country requirements for managing the format of the electronic document.</span></span> <span data-ttu-id="2012c-191">Vēlāk, tas tiks ietverts jaunā šīs konfigurācijas versijā, kas tiks piedāvāta pakalpojuma abonentiem, ieskaitot Proseware, Inc.</span><span class="sxs-lookup"><span data-stu-id="2012c-191">Later, this will be enclosed in a new version of this configuration that will be offered for service subscribers, including Proseware, Inc.</span></span>  
+    * <span data-ttu-id="2012c-192">Ar reālo pakalpojumu sniegšanu saistītajos procesos katra jauna BACS (UK fiktīvs) versija var tikt importēta uzņēmumā Proseware, Inc. no Litware, Inc. konfigurāciju LCS repozitorija.</span><span class="sxs-lookup"><span data-stu-id="2012c-192">In real service provision related processes, each new version of BACS (UK fictitious) can be imported by Proseware, Inc. from Litware, Inc. configurations’ LCS repository.</span></span> <span data-ttu-id="2012c-193">Šajā procedūrā mēs simulēsim to, atjauninot BAKS (UK fiktīvs) pakalpojuma sniedzēja vārdā.</span><span class="sxs-lookup"><span data-stu-id="2012c-193">In this procedure we will simulate this by updating BACS (UK fictitious) on behalf of a service provider.</span></span>  
+1. <span data-ttu-id="2012c-194">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="2012c-194">Close the page.</span></span>
+2. <span data-ttu-id="2012c-195">Atlasiet Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="2012c-195">Select Litware, inc.</span></span> <span data-ttu-id="2012c-196">nodrošinātāju.</span><span class="sxs-lookup"><span data-stu-id="2012c-196">provider.</span></span>
+3. <span data-ttu-id="2012c-197">Noklikšķiniet uz Iestatīt aktīvu.</span><span class="sxs-lookup"><span data-stu-id="2012c-197">Click Set active.</span></span>
+4. <span data-ttu-id="2012c-198">Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="2012c-198">Click Reporting configurations.</span></span>
+5. <span data-ttu-id="2012c-199">Kokā izvērsiet “Maksājumi (vienkāršotais modelis)”.</span><span class="sxs-lookup"><span data-stu-id="2012c-199">In the tree, expand 'Payments (simplified model)'.</span></span>
+6. <span data-ttu-id="2012c-200">Kokā atlasiet 'Maksājumi (vienkāršotais modelis)\BAKS (UK fiktīvs)'.</span><span class="sxs-lookup"><span data-stu-id="2012c-200">In the tree, select 'Payments (simplified model)\BACS (UK fictitious)'.</span></span>
+    * <span data-ttu-id="2012c-201">Melnraksta versija BACS (UK fiktīvs), kas pieder Litware, Inc., tiek atlasīta, lai veiktu izmaiņas atbilstoši jaunajām valstij raksturīgajām prasībām.</span><span class="sxs-lookup"><span data-stu-id="2012c-201">The draft version owned by Litware, Inc. provider BACS (UK fictitious) is selected to bring in changes to support new country-specific requirements.</span></span>  
 
-## <a name="localize-the-base-format-of-the-electronic-document"></a>Lokalizējiet elektroniskā dokumenta pamatformātu
-    * Pieņemsim, ka pastāv jaunas valstij raksturīgās prasības, kuru atbalsts jānodrošina uzņēmumam Litware, Inc.: - Vērtība, kas paredzēta kreditora bankas SWIFT kodam katrā maksājuma transakcijā.  - Ģenerēšanas failā pastāv 100 rakstzīmju ierobežojums kreditora nosaukuma teksta garumam.  
-    * Jaunas valstij specifiskas prasības  
-    * Atlasiet vēlamās konfigurācijas melnraksta versiju, lai ieviestu nepieciešamās izmaiņas.  
-1. Noklikšķiniet uz Veidotājs.
-2. Noklikšķiniet uz Izvērst/sakļaut.
-3. Noklikšķiniet uz Izvērst/sakļaut.
-4. Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Banka”.
-5. Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.
-6. Kokā atlasiet "XML\Elements".
-7. Laukā Nosaukums ierakstiet "SWIFT".
-    * SWIFT  
-8. Noklikšķiniet uz OK.
-9. Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Banka\SWIFT”.
-10. Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.
-11. Kokā atlasiet elementu “Teksts\Virkne”.
-12. Noklikšķiniet uz Labi.
-13. Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Nosaukums\Virkne”.
-14. Ievadiet '100' laukā Maksimālais garums.
-15. Noklikšķiniet uz cilnes Kartēšana.
-16. Koka struktūrā izvērsiet elementu “modelis”.
-17. Kokā izvērsiet sadaļu “modelis\Maksājumi”.
-18. Kokā izvērsiet sadaļu “modelis\Maksājumi\Kreditors”.
-19. Kokā izvērsiet elementu “modelis\Maksājumi\Kreditors\Aģents“.
-20. Koka struktūrā atlasiet zaru “modelis\Maksājumi\Kreditors\Aģents\SWIFT”.
-21. Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums = model.Payments\Kreditors\Banka\SWIFT\Virkne”.
-22. Noklikšķiniet uz Saistīt.
-23. Noklikšķiniet uz Saglabāt.
+## <a name="localize-the-base-format-of-the-electronic-document"></a><span data-ttu-id="2012c-202">Lokalizējiet elektroniskā dokumenta pamatformātu</span><span class="sxs-lookup"><span data-stu-id="2012c-202">Localize the base format of the electronic document</span></span>
+    * <span data-ttu-id="2012c-203">Pieņemsim, ka pastāv jaunas valstij raksturīgās prasības, kuru atbalsts jānodrošina uzņēmumam Litware, Inc.: - Vērtība, kas paredzēta kreditora bankas SWIFT kodam katrā maksājuma transakcijā.</span><span class="sxs-lookup"><span data-stu-id="2012c-203">Assume that there are new country-specific requirements to be supported by Litware, Inc.:  - A value for the creditor’s bank SWIFT code in each payment transaction.</span></span>  <span data-ttu-id="2012c-204">- Ģenerēšanas failā pastāv 100 rakstzīmju ierobežojums kreditora nosaukuma teksta garumam.</span><span class="sxs-lookup"><span data-stu-id="2012c-204">- A limit of 100 characters for the length of text for the vendor’s name in a generating file.</span></span>  
+    * <span data-ttu-id="2012c-205">Jaunas valstij specifiskas prasības</span><span class="sxs-lookup"><span data-stu-id="2012c-205">New country-specific requirements</span></span>  
+    * <span data-ttu-id="2012c-206">Atlasiet vēlamās konfigurācijas melnraksta versiju, lai ieviestu nepieciešamās izmaiņas.</span><span class="sxs-lookup"><span data-stu-id="2012c-206">Select the draft version of the desired configuration to introduce required changes.</span></span>  
+1. <span data-ttu-id="2012c-207">Noklikšķiniet uz Veidotājs.</span><span class="sxs-lookup"><span data-stu-id="2012c-207">Click Designer.</span></span>
+2. <span data-ttu-id="2012c-208">Noklikšķiniet uz Izvērst/sakļaut.</span><span class="sxs-lookup"><span data-stu-id="2012c-208">Click Expand/collapse.</span></span>
+3. <span data-ttu-id="2012c-209">Noklikšķiniet uz Izvērst/sakļaut.</span><span class="sxs-lookup"><span data-stu-id="2012c-209">Click Expand/collapse.</span></span>
+4. <span data-ttu-id="2012c-210">Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Banka”.</span><span class="sxs-lookup"><span data-stu-id="2012c-210">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank'.</span></span>
+5. <span data-ttu-id="2012c-211">Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="2012c-211">Click Add to open the drop dialog.</span></span>
+6. <span data-ttu-id="2012c-212">Kokā atlasiet "XML\Elements".</span><span class="sxs-lookup"><span data-stu-id="2012c-212">In the tree, select 'XML\Element'.</span></span>
+7. <span data-ttu-id="2012c-213">Laukā Nosaukums ierakstiet "SWIFT".</span><span class="sxs-lookup"><span data-stu-id="2012c-213">In the Name field, type 'SWIFT'.</span></span>
+    * <span data-ttu-id="2012c-214">SWIFT</span><span class="sxs-lookup"><span data-stu-id="2012c-214">SWIFT</span></span>  
+8. <span data-ttu-id="2012c-215">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="2012c-215">Click OK.</span></span>
+9. <span data-ttu-id="2012c-216">Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Banka\SWIFT”.</span><span class="sxs-lookup"><span data-stu-id="2012c-216">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\SWIFT'.</span></span>
+10. <span data-ttu-id="2012c-217">Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="2012c-217">Click Add to open the drop dialog.</span></span>
+11. <span data-ttu-id="2012c-218">Kokā atlasiet elementu “Teksts\Virkne”.</span><span class="sxs-lookup"><span data-stu-id="2012c-218">In the tree, select 'Text\String'.</span></span>
+12. <span data-ttu-id="2012c-219">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="2012c-219">Click OK.</span></span>
+13. <span data-ttu-id="2012c-220">Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Nosaukums\Virkne”.</span><span class="sxs-lookup"><span data-stu-id="2012c-220">In the tree, select 'Xml\Message\Payments\Item\Vendor\Name\String'.</span></span>
+14. <span data-ttu-id="2012c-221">Ievadiet '100' laukā Maksimālais garums.</span><span class="sxs-lookup"><span data-stu-id="2012c-221">In the Maximum length field, enter '100'.</span></span>
+15. <span data-ttu-id="2012c-222">Noklikšķiniet uz cilnes Kartēšana.</span><span class="sxs-lookup"><span data-stu-id="2012c-222">Click the Mapping tab.</span></span>
+16. <span data-ttu-id="2012c-223">Koka struktūrā izvērsiet elementu “modelis”.</span><span class="sxs-lookup"><span data-stu-id="2012c-223">In the tree, expand 'model'.</span></span>
+17. <span data-ttu-id="2012c-224">Kokā izvērsiet sadaļu “modelis\Maksājumi”.</span><span class="sxs-lookup"><span data-stu-id="2012c-224">In the tree, expand 'model\Payments'.</span></span>
+18. <span data-ttu-id="2012c-225">Kokā izvērsiet sadaļu “modelis\Maksājumi\Kreditors”.</span><span class="sxs-lookup"><span data-stu-id="2012c-225">In the tree, expand 'model\Payments\Creditor'.</span></span>
+19. <span data-ttu-id="2012c-226">Kokā izvērsiet elementu “modelis\Maksājumi\Kreditors\Aģents“.</span><span class="sxs-lookup"><span data-stu-id="2012c-226">In the tree, expand 'model\Payments\Creditor\Agent'.</span></span>
+20. <span data-ttu-id="2012c-227">Koka struktūrā atlasiet zaru “modelis\Maksājumi\Kreditors\Aģents\SWIFT”.</span><span class="sxs-lookup"><span data-stu-id="2012c-227">In the tree, select 'model\Payments\Creditor\Agent\SWIFT'.</span></span>
+21. <span data-ttu-id="2012c-228">Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums = model.Payments\Kreditors\Banka\SWIFT\Virkne”.</span><span class="sxs-lookup"><span data-stu-id="2012c-228">In the tree, select 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\SWIFT\String'.</span></span>
+22. <span data-ttu-id="2012c-229">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="2012c-229">Click Bind.</span></span>
+23. <span data-ttu-id="2012c-230">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="2012c-230">Click Save.</span></span>
 
-## <a name="validate-the-localized-format"></a>Validēt lokalizēto formātu
-1. Noklikšķiniet uz Pārbaudīt.
-2. Aizvērt lapu.
+## <a name="validate-the-localized-format"></a><span data-ttu-id="2012c-231">Validēt lokalizēto formātu</span><span class="sxs-lookup"><span data-stu-id="2012c-231">Validate the localized format</span></span>
+1. <span data-ttu-id="2012c-232">Noklikšķiniet uz Pārbaudīt.</span><span class="sxs-lookup"><span data-stu-id="2012c-232">Click Validate.</span></span>
+2. <span data-ttu-id="2012c-233">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="2012c-233">Close the page.</span></span>
 
-## <a name="change-the-status-of-the-current-version-of-the-base-format-configuration"></a>Pamatformāta konfigurācijas pašreizējās versijas statusa maiņa
-    * Nomainiet atjauninātā pamatformāta konfigurācijas statusu no Melnraksts uz Pabeigts, lai to padarītu pieejamu maksājumu dokumentu ģenerēšanai, un formāts konfigurācijas atjauninājumiem, kas izriet no tās.  
-1. Noklikšķiniet uz Mainīt statusu.
-    * Ņemiet vērā, ka atlasītās konfigurācijas pašreizējai versijai ir statuss Melnraksts.  
-2. Noklikšķiniet uz Pabeigt.
-3. Apraksta laukā ierakstiet vērtību.
-4. Noklikšķiniet uz OK.
-5. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
+## <a name="change-the-status-of-the-current-version-of-the-base-format-configuration"></a><span data-ttu-id="2012c-234">Pamatformāta konfigurācijas pašreizējās versijas statusa maiņa</span><span class="sxs-lookup"><span data-stu-id="2012c-234">Change the status of the current version of the base format configuration</span></span>
+    * <span data-ttu-id="2012c-235">Nomainiet atjauninātā pamatformāta konfigurācijas statusu no Melnraksts uz Pabeigts, lai to padarītu pieejamu maksājumu dokumentu ģenerēšanai, un formāts konfigurācijas atjauninājumiem, kas izriet no tās.</span><span class="sxs-lookup"><span data-stu-id="2012c-235">Change the status of the updated base format configuration from Draft to Completed to make it available for generation of payment documents and updates of format configurations derived from it.</span></span>  
+1. <span data-ttu-id="2012c-236">Noklikšķiniet uz Mainīt statusu.</span><span class="sxs-lookup"><span data-stu-id="2012c-236">Click Change status.</span></span>
+    * <span data-ttu-id="2012c-237">Ņemiet vērā, ka atlasītās konfigurācijas pašreizējai versijai ir statuss Melnraksts.</span><span class="sxs-lookup"><span data-stu-id="2012c-237">Note that the current version of the selected configuration is in Draft status.</span></span>  
+2. <span data-ttu-id="2012c-238">Noklikšķiniet uz Pabeigt.</span><span class="sxs-lookup"><span data-stu-id="2012c-238">Click Complete.</span></span>
+3. <span data-ttu-id="2012c-239">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="2012c-239">In the Description field, type a value.</span></span>
+4. <span data-ttu-id="2012c-240">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="2012c-240">Click OK.</span></span>
+5. <span data-ttu-id="2012c-241">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="2012c-241">In the list, find and select the desired record.</span></span>
 
-## <a name="change-the-base-version-for-the-custom-format-configuration"></a>Mainiet bāzes versiju pielāgota formāta konfigurācijai
-    * Proseware, Inc. tiek informēts, ka ir pieejama jauna BACS (UK fiktīvs) konfigurācijas versija 1.2 elektronisko maksājumu dokumentu ģenerēšanai saskaņā ar nesen izziņotajām valstij raksturīgajām prasībām. Proseware, Inc. vēlas sākt to izmantot kā standartu valstij.  Lai to izdarītu, uzņēmumam Proseware, Inc. ir jāmaina pielāgotās konfigurācijas BACS (UK fiktīvs, pielāgots) bāzes konfigurācijas versiju. 1.1 BAKS (UK fiktīvs) versijas vietā, izmantojiet jauno 1.2 versiju.  
-1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.
-2. Atlasiet nodrošinātāju Proseware, Inc., lai iestatītu to kā aktīvu.
-3. Noklikšķiniet uz Iestatīt aktīvu.
-4. Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.
-5. Kokā izvērsiet “Maksājumi (vienkāršotais modelis)”.
-6. Kokā izvērsiet 'Maksājumi (vienkāršotais modelis)\BAKS (UK fiktīvs)'.
-7. Kokā atlasiet 'Maksājumi (vienkāršotais modelis)\BAKS (UK fiktīvs)\BAKS (UK fiktīvs pielāgots)'.
-    * Atlasiet BACS (UK fiktīvs pielāgots) konfigurāciju, kas pieder Proseware, Inc.  
-    * Izmantojiet atlasītās konfigurācijas melnraksta versiju, lai ieviestu nepieciešamās izmaiņas.  
-8. Noklikšķiniet uz Pārskatīt.
-    * Atlasiet pamata konfigurācijas jauno 1.2 versiju, lai to lietotu kā jaunu bāzi konfigurācijas atjaunināšanai.  
-9. Noklikšķiniet uz OK.
-    * Ņemiet vērā, ka tika atklāti daži konflikti starp pielāgotas versijas un jaunas bāzes versijas sapludināšanu, kas nozīmē formāta izmaiņas, kuras nevar sapludināt automātiski.  
+## <a name="change-the-base-version-for-the-custom-format-configuration"></a><span data-ttu-id="2012c-242">Mainiet bāzes versiju pielāgota formāta konfigurācijai</span><span class="sxs-lookup"><span data-stu-id="2012c-242">Change the base version for the custom format configuration</span></span>
+    * <span data-ttu-id="2012c-243">Proseware, Inc. tiek informēts, ka ir pieejama jauna BACS (UK fiktīvs) konfigurācijas versija 1.2 elektronisko maksājumu dokumentu ģenerēšanai saskaņā ar nesen izziņotajām valstij raksturīgajām prasībām.</span><span class="sxs-lookup"><span data-stu-id="2012c-243">Proseware, Inc. is informed that a new version 1.2 of BACS (UK fictitious) configuration is available to generate electronic payment documents in accordance to recently announced country-specific requirements.</span></span> <span data-ttu-id="2012c-244">Proseware, Inc. vēlas sākt to izmantot kā standartu valstij.</span><span class="sxs-lookup"><span data-stu-id="2012c-244">Proseware, Inc. wants to start using it as a standard for the country.</span></span>  <span data-ttu-id="2012c-245">Lai to izdarītu, uzņēmumam Proseware, Inc. ir jāmaina pielāgotās konfigurācijas BACS (UK fiktīvs, pielāgots) bāzes konfigurācijas versiju.</span><span class="sxs-lookup"><span data-stu-id="2012c-245">To do this, Proseware, Inc. needs to change the base configuration version for the custom configuration BACS (UK fictitious custom).</span></span> <span data-ttu-id="2012c-246">1.1 BAKS (UK fiktīvs) versijas vietā, izmantojiet jauno 1.2 versiju.</span><span class="sxs-lookup"><span data-stu-id="2012c-246">Instead of version 1.1 of BACS (UK fictitious) use new version 1.2.</span></span>  
+1. <span data-ttu-id="2012c-247">Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.</span><span class="sxs-lookup"><span data-stu-id="2012c-247">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="2012c-248">Atlasiet nodrošinātāju Proseware, Inc., lai iestatītu to kā aktīvu.</span><span class="sxs-lookup"><span data-stu-id="2012c-248">Select the Proseware, Inc. provider to mark it as active.</span></span>
+3. <span data-ttu-id="2012c-249">Noklikšķiniet uz Iestatīt aktīvu.</span><span class="sxs-lookup"><span data-stu-id="2012c-249">Click Set active.</span></span>
+4. <span data-ttu-id="2012c-250">Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="2012c-250">Click Reporting configurations.</span></span>
+5. <span data-ttu-id="2012c-251">Kokā izvērsiet “Maksājumi (vienkāršotais modelis)”.</span><span class="sxs-lookup"><span data-stu-id="2012c-251">In the tree, expand 'Payments (simplified model)'.</span></span>
+6. <span data-ttu-id="2012c-252">Kokā izvērsiet 'Maksājumi (vienkāršotais modelis)\BAKS (UK fiktīvs)'.</span><span class="sxs-lookup"><span data-stu-id="2012c-252">In the tree, expand 'Payments (simplified model)\BACS (UK fictitious)'.</span></span>
+7. <span data-ttu-id="2012c-253">Kokā atlasiet 'Maksājumi (vienkāršotais modelis)\BAKS (UK fiktīvs)\BAKS (UK fiktīvs pielāgots)'.</span><span class="sxs-lookup"><span data-stu-id="2012c-253">In the tree, select 'Payments (simplified model)\BACS (UK fictitious)\BACS (UK fictitious custom)'.</span></span>
+    * <span data-ttu-id="2012c-254">Atlasiet BACS (UK fiktīvs pielāgots) konfigurāciju, kas pieder Proseware, Inc.</span><span class="sxs-lookup"><span data-stu-id="2012c-254">Select the BACS (UK fictitious custom) configuration, which is owned by Proseware, Inc.</span></span>  
+    * <span data-ttu-id="2012c-255">Izmantojiet atlasītās konfigurācijas melnraksta versiju, lai ieviestu nepieciešamās izmaiņas.</span><span class="sxs-lookup"><span data-stu-id="2012c-255">Use the draft version of the selected configuration to introduce required changes.</span></span>  
+8. <span data-ttu-id="2012c-256">Noklikšķiniet uz Pārskatīt.</span><span class="sxs-lookup"><span data-stu-id="2012c-256">Click Rebase.</span></span>
+    * <span data-ttu-id="2012c-257">Atlasiet pamata konfigurācijas jauno 1.2 versiju, lai to lietotu kā jaunu bāzi konfigurācijas atjaunināšanai.</span><span class="sxs-lookup"><span data-stu-id="2012c-257">Select the new version 1.2 of the base configuration to be applied as a new base for updating the configuration.</span></span>  
+9. <span data-ttu-id="2012c-258">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="2012c-258">Click OK.</span></span>
+    * <span data-ttu-id="2012c-259">Ņemiet vērā, ka tika atklāti daži konflikti starp pielāgotas versijas un jaunas bāzes versijas sapludināšanu, kas nozīmē formāta izmaiņas, kuras nevar sapludināt automātiski.</span><span class="sxs-lookup"><span data-stu-id="2012c-259">Note that some conflicts have been discovered between merging the custom version and a new base version representing some format changes that can’t be merged automatically.</span></span>  
 
-## <a name="resolve-rebase-conflicts"></a>Atrisiniet pārskatījuma konfliktus
-1. Noklikšķiniet uz Veidotājs.
-    * Ņemiet vērā, ka izmaiņas kreditora nosaukuma teksta garuma ierobežojumā nevar tik atrisinātas automātiski. Tāpēc tas ir norādīts konfliktu sarakstā. Katram konfliktam ar tipu Atjauninājums ir pieejamas šādas opcijas: - Lietot iepriekšējo bāzes vērtību (poga virs režģa), lai izmantotu iepriekšējo pamata versijas vērtību (mūsu gadījumā: 0).  - Piemērot bāzes vērtību (poga virs režģa), lai izmantotu jaunu pamata versijas vērtību (100 mūsu gadījumā).  - Paturiet savu (pielāgotu) vērtību (mūsu gadījumā tā ir 60).  Noklikšķiniet uz Lietot bāzes vērtību, lai pielietotu valstij raksturīgo 100 rakstzīmju limitu kreditora nosaukuma teksta garumam.  
-    * Ņemiet vēra, ka uzņēmumā Proseware, Inc. and Litware, Inc. tiek izmantotas pielāgotas un lokālas šī formāta versijas, izmantojot IBAN un SWIFT kodus ar saistītiem komponentiem, kas automātiski tiek apvienoti pārvaldības formātā.  
-2. Noklikšķiniet uz Pievienot bāzes vērtību.
-    * Noklikšķiniet uz Lietot bāzes vērtību, lai pielietotu valstij raksturīgo 100 rakstzīmju limitu kreditora nosaukumiem.  
-3. Noklikšķiniet uz Saglabāt.
-    * Saglabājot formātu, no konfliktu saraksta tiks noņemti atrisinātie konflikti.  
-4. Aizvērt lapu.
+## <a name="resolve-rebase-conflicts"></a><span data-ttu-id="2012c-260">Atrisiniet pārskatījuma konfliktus</span><span class="sxs-lookup"><span data-stu-id="2012c-260">Resolve rebase conflicts</span></span>
+1. <span data-ttu-id="2012c-261">Noklikšķiniet uz Veidotājs.</span><span class="sxs-lookup"><span data-stu-id="2012c-261">Click Designer.</span></span>
+    * <span data-ttu-id="2012c-262">Ņemiet vērā, ka izmaiņas kreditora nosaukuma teksta garuma ierobežojumā nevar tik atrisinātas automātiski.</span><span class="sxs-lookup"><span data-stu-id="2012c-262">Note that changes to the vendor’s name text length limit couldn’t be resolved automatically.</span></span> <span data-ttu-id="2012c-263">Tāpēc tas ir norādīts konfliktu sarakstā.</span><span class="sxs-lookup"><span data-stu-id="2012c-263">Therefore, this is presented in a conflicts list.</span></span> <span data-ttu-id="2012c-264">Katram konfliktam ar tipu Atjauninājums ir pieejamas šādas opcijas: - Lietot iepriekšējo bāzes vērtību (poga virs režģa), lai izmantotu iepriekšējo pamata versijas vērtību (mūsu gadījumā: 0).</span><span class="sxs-lookup"><span data-stu-id="2012c-264">For each conflict of type Update, the following options are available:  - Apply a prior base value (button on top of the grid) to bring in the previous base version value (0 in our case).</span></span>  <span data-ttu-id="2012c-265">- Piemērot bāzes vērtību (poga virs režģa), lai izmantotu jaunu pamata versijas vērtību (100 mūsu gadījumā).</span><span class="sxs-lookup"><span data-stu-id="2012c-265">- Apply a base value (button on top of the grid) to bring in the new base version value (100 in our case).</span></span>  <span data-ttu-id="2012c-266">- Paturiet savu (pielāgotu) vērtību (mūsu gadījumā tā ir 60).</span><span class="sxs-lookup"><span data-stu-id="2012c-266">- Keep your own (custom) value (60 in our case).</span></span>  <span data-ttu-id="2012c-267">Noklikšķiniet uz Lietot bāzes vērtību, lai pielietotu valstij raksturīgo 100 rakstzīmju limitu kreditora nosaukuma teksta garumam.</span><span class="sxs-lookup"><span data-stu-id="2012c-267">Click Apply base value to apply a country-specific limit of 100 characters for vendor’s name text length.</span></span>  
+    * <span data-ttu-id="2012c-268">Ņemiet vēra, ka uzņēmumā Proseware, Inc. and Litware, Inc. tiek izmantotas pielāgotas un lokālas šī formāta versijas, izmantojot IBAN un SWIFT kodus ar saistītiem komponentiem, kas automātiski tiek apvienoti pārvaldības formātā.</span><span class="sxs-lookup"><span data-stu-id="2012c-268">Note that Proseware, Inc. and Litware, Inc. have custom and local versions of this format using IBAN and SWIFT codes with related components that are automatically merged in the managing format.</span></span>  
+2. <span data-ttu-id="2012c-269">Noklikšķiniet uz Pievienot bāzes vērtību.</span><span class="sxs-lookup"><span data-stu-id="2012c-269">Click Apply base value.</span></span>
+    * <span data-ttu-id="2012c-270">Noklikšķiniet uz Lietot bāzes vērtību, lai pielietotu valstij raksturīgo 100 rakstzīmju limitu kreditora nosaukumiem.</span><span class="sxs-lookup"><span data-stu-id="2012c-270">Click Apply base value to apply the country-specific limit of 100 characters for vendor names.</span></span>  
+3. <span data-ttu-id="2012c-271">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="2012c-271">Click Save.</span></span>
+    * <span data-ttu-id="2012c-272">Saglabājot formātu, no konfliktu saraksta tiks noņemti atrisinātie konflikti.</span><span class="sxs-lookup"><span data-stu-id="2012c-272">Saving the format will remove resolved conflicts from the conflicts list.</span></span>  
+4. <span data-ttu-id="2012c-273">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="2012c-273">Close the page.</span></span>
 
-## <a name="change-the-status-of-the-new-version-of-the-custom-format-configuration"></a>Pielāgotā formāta konfigurācijas pašreizējās versijas statusa maiņa
-1. Noklikšķiniet uz Mainīt statusu.
-    * Mainiet atjaunināta, pielāgota formāta konfigurācijas statusu no Melnraksts uz Pabeigts. Tas šo formāta konfigurāciju padara pieejamu maksājumu dokumentu ģenerēšanai. Ņemiet vērā, ka atlasītās konfigurācijas pašreizējai versijai ir statuss Melnraksts.  
-2. Noklikšķiniet uz Pabeigt.
-3. Apraksta laukā ierakstiet vērtību.
-4. Noklikšķiniet uz OK.
-    * Ņemiet vērā, ka izveidotās konfigurācija ir saglabāta kā pabeigta versija 1.2.2: bāzes BAKS (UK fiktīvs pielāgots) formāta versija 2, kas balstās uz bāzes BAKS (UK fiktīvs) formāta 2 versiju, kas balstās uz maksājumu (vienkāršots modelis) datu modeļa versiju 1.  
+## <a name="change-the-status-of-the-new-version-of-the-custom-format-configuration"></a><span data-ttu-id="2012c-274">Pielāgotā formāta konfigurācijas pašreizējās versijas statusa maiņa</span><span class="sxs-lookup"><span data-stu-id="2012c-274">Change the status of the new version of the custom format configuration</span></span>
+1. <span data-ttu-id="2012c-275">Noklikšķiniet uz Mainīt statusu.</span><span class="sxs-lookup"><span data-stu-id="2012c-275">Click Change status.</span></span>
+    * <span data-ttu-id="2012c-276">Mainiet atjaunināta, pielāgota formāta konfigurācijas statusu no Melnraksts uz Pabeigts.</span><span class="sxs-lookup"><span data-stu-id="2012c-276">Change the status of the updated, custom format configuration from Draft to Completed.</span></span> <span data-ttu-id="2012c-277">Tas šo formāta konfigurāciju padara pieejamu maksājumu dokumentu ģenerēšanai.</span><span class="sxs-lookup"><span data-stu-id="2012c-277">This will make the format configuration available for generating payment documents.</span></span> <span data-ttu-id="2012c-278">Ņemiet vērā, ka atlasītās konfigurācijas pašreizējai versijai ir statuss Melnraksts.</span><span class="sxs-lookup"><span data-stu-id="2012c-278">Note that the current version of the selected configuration is in Draft status.</span></span>  
+2. <span data-ttu-id="2012c-279">Noklikšķiniet uz Pabeigt.</span><span class="sxs-lookup"><span data-stu-id="2012c-279">Click Complete.</span></span>
+3. <span data-ttu-id="2012c-280">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="2012c-280">In the Description field, type a value.</span></span>
+4. <span data-ttu-id="2012c-281">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="2012c-281">Click OK.</span></span>
+    * <span data-ttu-id="2012c-282">Ņemiet vērā, ka izveidotās konfigurācija ir saglabāta kā pabeigta versija 1.2.2: bāzes BAKS (UK fiktīvs pielāgots) formāta versija 2, kas balstās uz bāzes BAKS (UK fiktīvs) formāta 2 versiju, kas balstās uz maksājumu (vienkāršots modelis) datu modeļa versiju 1.</span><span class="sxs-lookup"><span data-stu-id="2012c-282">Note that the created configuration is saved as completed version 1.2.2: version 2 of base BACS (UK fictitious custom) format, which is based on version 2 of base BACS (UK fictitious) format, which is based on version 1 of Payments (simplified model) data model.</span></span>  
 
-## <a name="test-the-customized-format-for-payment-files-generation"></a>Pārbaudiet pielāgoto formātu, lai ģenerētu maksājuma failus
-    * Paralēlā Dynamics 365 for Finance and Operations Enterprise izdevuma sesijā izpildiet procedūrā “Lietot izveidoto formātu, lai ģenerētu elektroniskos dokumentus maksājumiem” norādītās darbības. Atlasiet izveidoto BAKS (UK fiktīvs pielāgots) formātu elektronisko maksājumu metodes parametros. Pārliecinieties, vai izveidotais maksājuma fails satur Proseware, Inc. nesen ieviesto XML mezglu ar IBAN konta kodu, saskaņā ar reģionālajām prasībām. Failam arī jāsatur Litware, Inc. nesen ieviestais XML mezgls SWIFT bankas koda uzrādīšanai saskaņā ar valsts prasībām.  
+## <a name="test-the-customized-format-for-payment-files-generation"></a><span data-ttu-id="2012c-283">Pārbaudiet pielāgoto formātu, lai ģenerētu maksājuma failus</span><span class="sxs-lookup"><span data-stu-id="2012c-283">Test the customized format for payment files generation</span></span>
+    * <span data-ttu-id="2012c-284">Paralēlā Dynamics 365 for Finance and Operations Enterprise izdevuma sesijā izpildiet procedūrā “Lietot izveidoto formātu, lai ģenerētu elektroniskos dokumentus maksājumiem” norādītās darbības.</span><span class="sxs-lookup"><span data-stu-id="2012c-284">Complete the steps in the “Use created format to generate electronic documents for payments” procedure in parallel Dynamics 365 for Finance and Operations, Enterprise edition session.</span></span> <span data-ttu-id="2012c-285">Atlasiet izveidoto BAKS (UK fiktīvs pielāgots) formātu elektronisko maksājumu metodes parametros.</span><span class="sxs-lookup"><span data-stu-id="2012c-285">Select the created ‘BACS (UK fictitious custom)’ format in electronic payment method parameters.</span></span> <span data-ttu-id="2012c-286">Pārliecinieties, vai izveidotais maksājuma fails satur Proseware, Inc. nesen ieviesto XML mezglu ar IBAN konta kodu, saskaņā ar reģionālajām prasībām.</span><span class="sxs-lookup"><span data-stu-id="2012c-286">Make sure that the created payment file contains recently introduced by Proseware, Inc. XML node presenting IBAN account code in accordance to regional requirements.</span></span> <span data-ttu-id="2012c-287">Failam arī jāsatur Litware, Inc. nesen ieviestais XML mezgls SWIFT bankas koda uzrādīšanai saskaņā ar valsts prasībām.</span><span class="sxs-lookup"><span data-stu-id="2012c-287">The file also should contain the recently introduced by Litware, Inc. XML node presenting SWIFT bank code in accordance to country requirements.</span></span>  
 
 

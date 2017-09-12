@@ -25,45 +25,45 @@ ms.lasthandoff: 08/04/2017
 
 ---
 
-# <a name="mobile-app-home-page"></a>Mobilās programmas sākumlapa
+# <a name="mobile-app-home-page"></a><span data-ttu-id="dc802-103">Mobilās programmas sākumlapa</span><span class="sxs-lookup"><span data-stu-id="dc802-103">Mobile app home page</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā aprakstīta Microsoft Dynamics 365 for Unified Operations mobilā programma un sniegtas saites uz resursiem, kas jums var palīdzēt to ieviest savā organizācijā.
+<span data-ttu-id="dc802-104">Šajā tēmā aprakstīta Microsoft Dynamics 365 for Unified Operations mobilā programma un sniegtas saites uz resursiem, kas jums var palīdzēt to ieviest savā organizācijā.</span><span class="sxs-lookup"><span data-stu-id="dc802-104">This topic describes the Microsoft Dynamics 365 for Unified Operations mobile app and provides links to resources that can help you implement it in your organization.</span></span>
 
 > [!NOTE]
-> Iepriekš šīs mobilās programmas nosaukums bija *Microsoft Dynamics 365 for Finance and Operations*.
+> <span data-ttu-id="dc802-105">Iepriekš šīs mobilās programmas nosaukums bija *Microsoft Dynamics 365 for Finance and Operations*.</span><span class="sxs-lookup"><span data-stu-id="dc802-105">The mobile app was previously named *Microsoft Dynamics 365 for Finance and Operations*.</span></span>
 
-<a name="overview"></a>Apskats
+<a name="overview"></a><span data-ttu-id="dc802-106">Apskats</span><span class="sxs-lookup"><span data-stu-id="dc802-106">Overview</span></span>
 --------
 
-Šī mobilā programma jūsu organizācijai sniedz iespējas savus uzņēmējdarbības procesus padarīt pieejamus mobilajās ierīcēs. Kad IT administrators jūsu organizācijai ir iespējojis mobilās darbvietas, lietotāji var pierakstīties programmā un nekavējoties sākt biznesa procesu izpildi no savām mobilajām ierīcēm. Šī mobilā programma ietver tālāk norādītos līdzekļus, kas var palīdzēt uzlabot produktivitāti.
+<span data-ttu-id="dc802-107">Šī mobilā programma jūsu organizācijai sniedz iespējas savus uzņēmējdarbības procesus padarīt pieejamus mobilajās ierīcēs.</span><span class="sxs-lookup"><span data-stu-id="dc802-107">The mobile app enables your organization to make its business processes available on mobile devices.</span></span> <span data-ttu-id="dc802-108">Kad IT administrators jūsu organizācijai ir iespējojis mobilās darbvietas, lietotāji var pierakstīties programmā un nekavējoties sākt biznesa procesu izpildi no savām mobilajām ierīcēm.</span><span class="sxs-lookup"><span data-stu-id="dc802-108">After your IT admin enables the mobile workspaces for your organization, users can sign in to the app and immediately begin to run business processes from their mobile devices.</span></span> <span data-ttu-id="dc802-109">Šī mobilā programma ietver tālāk norādītos līdzekļus, kas var palīdzēt uzlabot produktivitāti.</span><span class="sxs-lookup"><span data-stu-id="dc802-109">The mobile app includes the following features that can help increase productivity:</span></span>
 
-- Lietotāji var skatīt biznesa datus, tos rediģēt un rīkoties ar šiem datiem, pat ja šo lietotāju tīkla savienojamība darbojas ar pārtraukumiem vai ja viņu mobilās ierīces ir pilnīgi bezsaistē. Kad ierīce atkārtoti izveido savienojumu ar tīklu, bezsaistes datu operācijas automātiski tiek sinhronizētas ar Dynamics 365 for Finance and Operations izdevumu Enterprise vai ar Microsoft Dynamics 365 for Finance and Operations.
-- IT administratori vai izstrādātāji var veidot un publicēt mobilās darbvietas, kas ir īpaši izstrādātas viņu organizācijai. Šī programmu izmanto jūsu jau esošos koda līdzekļus. Tāpēc jums nav nepieciešamības atkārtoti ieviest savas validēšanas procedūras, biznesa loģiku vai drošības konfigurāciju.
-- IT administratori vai izstrādātāji mobilās darbvietas var ērti projektēt, izmantojot norādīšanas un klikšķināšanas darbvietas veidotāju, kas ir iekļauts tīmekļa klientā.
-- IT administratori vai izstrādātāji pēc izvēles varat optimizēt darbvietas bezsaistes iespējas, izmantojot biznesa loģikas paplašināšanas struktūru. Tā kā datu apstrāde turpinās arī laikā, kamēr ierīce ir bezsaistē, jūsu mobilie scenāriji joprojām ir bagātīgi un plūstoši, pat ja ierīcēm nav pastāvīga savienojuma ar tīklu.
+- <span data-ttu-id="dc802-110">Lietotāji var skatīt biznesa datus, tos rediģēt un rīkoties ar šiem datiem, pat ja šo lietotāju tīkla savienojamība darbojas ar pārtraukumiem vai ja viņu mobilās ierīces ir pilnīgi bezsaistē.</span><span class="sxs-lookup"><span data-stu-id="dc802-110">Users can view, edit, and act on business data, even if they have intermittent network connectivity or their mobile devices are completely offline.</span></span> <span data-ttu-id="dc802-111">Kad ierīce atkārtoti izveido savienojumu ar tīklu, bezsaistes datu operācijas automātiski tiek sinhronizētas ar Dynamics 365 for Finance and Operations izdevumu Enterprise vai ar Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="dc802-111">When a device reestablishes a network connection, offline data operations are automatically synchronized with Dynamics 365 for Finance and Operations, Enterprise edition, or Microsoft Dynamics 365 for Finance and Operations.</span></span>
+- <span data-ttu-id="dc802-112">IT administratori vai izstrādātāji var veidot un publicēt mobilās darbvietas, kas ir īpaši izstrādātas viņu organizācijai.</span><span class="sxs-lookup"><span data-stu-id="dc802-112">IT admins or developers can build and publish mobile workspaces that have been tailored to their organization.</span></span> <span data-ttu-id="dc802-113">Šī programmu izmanto jūsu jau esošos koda līdzekļus.</span><span class="sxs-lookup"><span data-stu-id="dc802-113">The app uses your existing code assets.</span></span> <span data-ttu-id="dc802-114">Tāpēc jums nav nepieciešamības atkārtoti ieviest savas validēšanas procedūras, biznesa loģiku vai drošības konfigurāciju.</span><span class="sxs-lookup"><span data-stu-id="dc802-114">Therefore, you don't have to re-implement your validation procedures, business logic, or security configuration.</span></span>
+- <span data-ttu-id="dc802-115">IT administratori vai izstrādātāji mobilās darbvietas var ērti projektēt, izmantojot norādīšanas un klikšķināšanas darbvietas veidotāju, kas ir iekļauts tīmekļa klientā.</span><span class="sxs-lookup"><span data-stu-id="dc802-115">IT admins or developers can easily design mobile workspaces by using the point-and-click workspace designer that is included with the web client.</span></span>
+- <span data-ttu-id="dc802-116">IT administratori vai izstrādātāji pēc izvēles varat optimizēt darbvietas bezsaistes iespējas, izmantojot biznesa loģikas paplašināšanas struktūru.</span><span class="sxs-lookup"><span data-stu-id="dc802-116">IT admins or developers can optionally optimize the offline capabilities of workspaces by using the Business logic extensibility framework.</span></span> <span data-ttu-id="dc802-117">Tā kā datu apstrāde turpinās arī laikā, kamēr ierīce ir bezsaistē, jūsu mobilie scenāriji joprojām ir bagātīgi un plūstoši, pat ja ierīcēm nav pastāvīga savienojuma ar tīklu.</span><span class="sxs-lookup"><span data-stu-id="dc802-117">Because data continues to be processed while a device is offline, your mobile scenarios remain rich and fluid, even if devices don't have constant network connectivity.</span></span>
 
-## <a name="elements-of-the-mobile-app"></a>Mobilās programmas elementi
-Navigāciju mobilajā programmā veido četri galvenie jēdzieni: informācijas panelis, darbvietas, lapas un darbības. 
+## <a name="elements-of-the-mobile-app"></a><span data-ttu-id="dc802-118">Mobilās programmas elementi</span><span class="sxs-lookup"><span data-stu-id="dc802-118">Elements of the mobile app</span></span>
+<span data-ttu-id="dc802-119">Navigāciju mobilajā programmā veido četri galvenie jēdzieni: informācijas panelis, darbvietas, lapas un darbības.</span><span class="sxs-lookup"><span data-stu-id="dc802-119">Navigation in the mobile app consists of four basic concepts: the dashboard, workspaces, pages, and actions.</span></span> 
 
-[![Navigācijas jēdzieni mobilajā programmā](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
+<span data-ttu-id="dc802-120">[![Navigācijas jēdzieni mobilajā programmā](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)</span><span class="sxs-lookup"><span data-stu-id="dc802-120">[![Navigation concepts in the mobile app](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)</span></span>
 
-1. Kad programmu startējat, jūs dodieties uz **informācijas paneli**.
-2. Informācijas panelī varat redzēt sarakstu ar **darbvietām**, kuras ir publicētas.
-3. Katrā darbvietā ir redzams saraksts ar **lapām**, kas ir pieejamas attiecīgajai darbvietai.
-4. Pēc lapas atvēršanas varat veikt vairākas darbības. Daži piemēri:
+1. <span data-ttu-id="dc802-121">Kad programmu startējat, jūs dodieties uz **informācijas paneli**.</span><span class="sxs-lookup"><span data-stu-id="dc802-121">When you start the app, you go to the **dashboard**.</span></span>
+2. <span data-ttu-id="dc802-122">Informācijas panelī varat redzēt sarakstu ar **darbvietām**, kuras ir publicētas.</span><span class="sxs-lookup"><span data-stu-id="dc802-122">On the dashboard, you can see a list of **workspaces** that have been published.</span></span>
+3. <span data-ttu-id="dc802-123">Katrā darbvietā ir redzams saraksts ar **lapām**, kas ir pieejamas attiecīgajai darbvietai.</span><span class="sxs-lookup"><span data-stu-id="dc802-123">In each workspace, you can see a list of **pages** that are available for that workspace.</span></span>
+4. <span data-ttu-id="dc802-124">Pēc lapas atvēršanas varat veikt vairākas darbības.</span><span class="sxs-lookup"><span data-stu-id="dc802-124">After you're on a page, you can perform several actions.</span></span> <span data-ttu-id="dc802-125">Daži piemēri:</span><span class="sxs-lookup"><span data-stu-id="dc802-125">Here are some examples:</span></span>
 
-    - Skatīt detalizētus datus.
-    - Pāriet uz citām lapām ar saistītiem datiem, piemēram, ar detalizētu informāciju par elementu vai rindām.
-    - Skatīt sarakstu ar **darbībām**, kas ir pieejamas šai lapai. Darbības jums ļauj izveidot vai rediģēt esošus datus.
+    - <span data-ttu-id="dc802-126">Skatīt detalizētus datus.</span><span class="sxs-lookup"><span data-stu-id="dc802-126">View detailed data.</span></span>
+    - <span data-ttu-id="dc802-127">Pāriet uz citām lapām ar saistītiem datiem, piemēram, ar detalizētu informāciju par elementu vai rindām.</span><span class="sxs-lookup"><span data-stu-id="dc802-127">Navigate to other pages for related data, such as entity details or lines.</span></span>
+    - <span data-ttu-id="dc802-128">Skatīt sarakstu ar **darbībām**, kas ir pieejamas šai lapai.</span><span class="sxs-lookup"><span data-stu-id="dc802-128">See a list of **actions** that are available for that page.</span></span> <span data-ttu-id="dc802-129">Darbības jums ļauj izveidot vai rediģēt esošus datus.</span><span class="sxs-lookup"><span data-stu-id="dc802-129">Actions let you create or edit existing data.</span></span>
 
-## <a name="implementation-process"></a>Ieviešanas process
-Nākamajā attēlā ir parādīts ieviešanas process gan mobilajām darbvietām, ko nodrošina Microsoft, gan pielāgotajām mobilajām darbvietām. 
+## <a name="implementation-process"></a><span data-ttu-id="dc802-130">Ieviešanas process</span><span class="sxs-lookup"><span data-stu-id="dc802-130">Implementation process</span></span>
+<span data-ttu-id="dc802-131">Nākamajā attēlā ir parādīts ieviešanas process gan mobilajām darbvietām, ko nodrošina Microsoft, gan pielāgotajām mobilajām darbvietām.</span><span class="sxs-lookup"><span data-stu-id="dc802-131">The following illustration shows the process for implementing both mobile workspaces that are provided by Microsoft and custom mobile workspaces.</span></span> 
 
 ![Mobilo programmu ieviešanas process](./media/Mobile-implementation-process-5.png)
 
-Nākamajā tabulā ir ietvertas saites uz resursiem, kas jums var palīdzēt ieviest gan mobilās darbvietas, ko nodrošina Microsoft, gan pielāgotās mobilās darbvietas. Numuri pirmajā kolonnā atbilst iepriekšējā attēlā uzskaitītajiem soļiem.
+<span data-ttu-id="dc802-133">Nākamajā tabulā ir ietvertas saites uz resursiem, kas jums var palīdzēt ieviest gan mobilās darbvietas, ko nodrošina Microsoft, gan pielāgotās mobilās darbvietas.</span><span class="sxs-lookup"><span data-stu-id="dc802-133">The following table includes links to resources that can help you implement both mobile workspaces that are provided by Microsoft and custom mobile workspaces.</span></span> <span data-ttu-id="dc802-134">Numuri pirmajā kolonnā atbilst iepriekšējā attēlā uzskaitītajiem soļiem.</span><span class="sxs-lookup"><span data-stu-id="dc802-134">The numbers in the first column correspond to the numbered steps in the previous illustration.</span></span>
 
 <table>
 <colgroup>
@@ -74,80 +74,81 @@ Nākamajā tabulā ir ietvertas saites uz resursiem, kas jums var palīdzēt iev
 </colgroup>
 <thead>
 <tr class="header">
-<th>Solis</th>
-<th>Loma</th>
-<th>Darbība</th>
-<th>Resurss, kas jums palīdz izpildīt šo darbību</th>
+<th><span data-ttu-id="dc802-135">Solis</span><span class="sxs-lookup"><span data-stu-id="dc802-135">Step</span></span></th>
+<th><span data-ttu-id="dc802-136">Loma</span><span class="sxs-lookup"><span data-stu-id="dc802-136">Role</span></span></th>
+<th><span data-ttu-id="dc802-137">Darbība</span><span class="sxs-lookup"><span data-stu-id="dc802-137">Action</span></span></th>
+<th><span data-ttu-id="dc802-138">Resurss, kas jums palīdz izpildīt šo darbību</span><span class="sxs-lookup"><span data-stu-id="dc802-138">Resources to help you complete the action</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1.</td>
-<td>Sistēmas administrators</td>
-<td>Ieviesiet savā organizācijā programmatūru Finance and Operations vai Finance and Operations.</td>
-<td><ul><li>Ja vēl neesat izvietojis Microsoft Dynamics 365 versiju, skatiet rakstu <a href="../deployment/deploy-demo-environment.md">Izvietot demonstrācijas vidi</a>.</li><li>Lai apskatītu sarakstu ar mobilajām darbvietām, ko var izmantot, skatiet rakstu <a href="mobile-workspaces-released.md">Nesen izlaistās mobilās darbvietas</a>.</li></ul></td>
+<td><span data-ttu-id="dc802-139">1.</span><span class="sxs-lookup"><span data-stu-id="dc802-139">1</span></span></td>
+<td><span data-ttu-id="dc802-140">Sistēmas administrators</span><span class="sxs-lookup"><span data-stu-id="dc802-140">System administrator</span></span></td>
+<td><span data-ttu-id="dc802-141">Ieviesiet savā organizācijā programmatūru Finance and Operations vai Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="dc802-141">Implement Finance and Operations or Finance and Operations in your organization.</span></span></td>
+<td><ul><li><span data-ttu-id="dc802-142">Ja vēl neesat izvietojis Microsoft Dynamics 365 versiju, skatiet rakstu <a href="../deployment/deploy-demo-environment.md">Izvietot demonstrācijas vidi</a>.</span><span class="sxs-lookup"><span data-stu-id="dc802-142">If you haven't yet deployed a version of Microsoft Dynamics 365, see <a href="../deployment/deploy-demo-environment.md">Deploy a demo environment</a>.</span></span></li><li><span data-ttu-id="dc802-143">Lai apskatītu sarakstu ar mobilajām darbvietām, ko var izmantot, skatiet rakstu <a href="mobile-workspaces-released.md">Nesen izlaistās mobilās darbvietas</a>.</span><span class="sxs-lookup"><span data-stu-id="dc802-143">To see a list of mobile workspaces that can be used, see <a href="mobile-workspaces-released.md">Mobile workspaces recently released</a>.</span></span></li></ul></td>
 </tr>
 <tr class="even">
-<td>2.</td>
-<td>Sistēmas administrators</td>
-<td><strong>Ja izmantojat Microsoft Dynamics 365 for Finance and Operations versiju 1611:</strong> lejupielādējiet un instalējiet zināšanu bāzes rakstus, kuri iespējo Microsoft nodrošinātās mobilās darbvietas.</td>
-<td>Papildinformāciju skatiet tālāk norādītajās tēmās.
+<td><span data-ttu-id="dc802-144">2.</span><span class="sxs-lookup"><span data-stu-id="dc802-144">2</span></span></td>
+<td><span data-ttu-id="dc802-145">Sistēmas administrators</span><span class="sxs-lookup"><span data-stu-id="dc802-145">System administrator</span></span></td>
+<td><span data-ttu-id="dc802-146"><strong>Ja izmantojat Microsoft Dynamics 365 for Finance and Operations versiju 1611:</strong> lejupielādējiet un instalējiet zināšanu bāzes rakstus, kuri iespējo Microsoft nodrošinātās mobilās darbvietas.</span><span class="sxs-lookup"><span data-stu-id="dc802-146"><strong>If you're using Microsoft Dynamics 365 for Finance and Operations version 1611:</strong> Download and install KBs that enable the mobile workspaces that are provided by Microsoft.</span></span></td>
+<td><span data-ttu-id="dc802-147">Papildinformāciju skatiet tālāk norādītajās tēmās.</span><span class="sxs-lookup"><span data-stu-id="dc802-147">See the following topics for more information:</span></span>
 <ul>
 
-<li><a href="/dynamics365/unified-operations/financials/cost-accounting/cost-controlling-mobile-workspace">Izmaksu kontrolēšanas mobilās darbvietas</a></li>
-<li><a href="/dynamics365/unified-operations/supply-chain/inventory/inventory-on-hand-mobile-workspace">Rīcībā esošo krājumu mobilā darbvieta</a></li>
-<li><a href="/dynamics365/unified-operations/supply-chain/sales-marketing/sales-orders-mobile-workspace">Pārdošanas pasūtījumu mobilās darbvietas</a></li>
-<li><a href="/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Kreditoru sadarbības mobilā darbvieta</a></li>
-<li><a href="/dynamics365/unified-operations/financials/project-management/project-time-entry-mobile-workspace">Projekta laika ieraksta mobilajām ierīcēm paredzēta darbvieta</a></li>
-<li><a href="/dynamics365/unified-operations/financials/expense-management/expense-management-mobile-workspace">Mobilā darbvieta Izdevumu pārvaldība</a></li>
+<li><span data-ttu-id="dc802-148"><a href="/dynamics365/unified-operations/financials/cost-accounting/cost-controlling-mobile-workspace">Izmaksu kontrolēšanas mobilās darbvietas</a></span><span class="sxs-lookup"><span data-stu-id="dc802-148"><a href="/dynamics365/unified-operations/financials/cost-accounting/cost-controlling-mobile-workspace">Cost controlling mobile workspaces</a></span></span></li>
+<li><span data-ttu-id="dc802-149"><a href="/dynamics365/unified-operations/supply-chain/inventory/inventory-on-hand-mobile-workspace">Rīcībā esošo krājumu mobilā darbvieta</a></span><span class="sxs-lookup"><span data-stu-id="dc802-149"><a href="/dynamics365/unified-operations/supply-chain/inventory/inventory-on-hand-mobile-workspace">Inventory on-hand mobile workspace</a></span></span></li>
+<li><span data-ttu-id="dc802-150"><a href="/dynamics365/unified-operations/supply-chain/sales-marketing/sales-orders-mobile-workspace">Pārdošanas pasūtījumu mobilās darbvietas</a></span><span class="sxs-lookup"><span data-stu-id="dc802-150"><a href="/dynamics365/unified-operations/supply-chain/sales-marketing/sales-orders-mobile-workspace">Sales orders mobile workspaces</a></span></span></li>
+<li><span data-ttu-id="dc802-151"><a href="/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Kreditoru sadarbības mobilā darbvieta</a></span><span class="sxs-lookup"><span data-stu-id="dc802-151"><a href="/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Vendor collaboration mobile workspace</a></span></span></li>
+<li><span data-ttu-id="dc802-152"><a href="/dynamics365/unified-operations/financials/project-management/project-time-entry-mobile-workspace">Projekta laika ieraksta mobilajām ierīcēm paredzēta darbvieta</a></span><span class="sxs-lookup"><span data-stu-id="dc802-152"><a href="/dynamics365/unified-operations/financials/project-management/project-time-entry-mobile-workspace">Project time entry mobile workspace</a></span></span></li>
+<li><span data-ttu-id="dc802-153"><a href="/dynamics365/unified-operations/financials/expense-management/expense-management-mobile-workspace">Mobilā darbvieta Izdevumu pārvaldība</a></span><span class="sxs-lookup"><span data-stu-id="dc802-153"><a href="/dynamics365/unified-operations/financials/expense-management/expense-management-mobile-workspace">Expense management mobile workspace</a></span></span></li>
 
 </ul></td>
 </tr>
 <tr class="odd">
-<td>3.</td>
-<td>Sistēmas administrators</td>
-<td>Publicējiet Microsoft nodrošinātās mobilās darbvietas.</td>
-<td><a href="publish-mobile-workspace.md">Mobilās darbvietas publicēšana</a>
-</td>
+<td><span data-ttu-id="dc802-154">3.</span><span class="sxs-lookup"><span data-stu-id="dc802-154">3</span></span></td>
+<td><span data-ttu-id="dc802-155">Sistēmas administrators</span><span class="sxs-lookup"><span data-stu-id="dc802-155">System administrator</span></span></td>
+<td><span data-ttu-id="dc802-156">Publicējiet Microsoft nodrošinātās mobilās darbvietas.</span><span class="sxs-lookup"><span data-stu-id="dc802-156">Publish the mobile workspaces that are provided by Microsoft.</span></span></td>
+<td><span data-ttu-id="dc802-157"><a href="publish-mobile-workspace.md">Mobilās darbvietas publicēšana</a>
+</span><span class="sxs-lookup"><span data-stu-id="dc802-157"><a href="publish-mobile-workspace.md">Publish a mobile workspace</a>
+</span></span></td>
 </tr>
 <tr class="even">
-<td>4.</td>
-<td>Izstrādātājs vai neatkarīgs programmatūras izstrādātājs (independent software vendor — ISV)</td>
-<td>Izmantojiet mobilo platformu, lai izveidotu pielāgotas mobilās darbvietas.</td>
-<td><a href="platform/mobile-platform-home-page.md">Mobilā platforma</a></td>
+<td><span data-ttu-id="dc802-158">4.</span><span class="sxs-lookup"><span data-stu-id="dc802-158">4</span></span></td>
+<td><span data-ttu-id="dc802-159">Izstrādātājs vai neatkarīgs programmatūras izstrādātājs (independent software vendor — ISV)</span><span class="sxs-lookup"><span data-stu-id="dc802-159">Developer or independent software vendor (ISV)</span></span></td>
+<td><span data-ttu-id="dc802-160">Izmantojiet mobilo platformu, lai izveidotu pielāgotas mobilās darbvietas.</span><span class="sxs-lookup"><span data-stu-id="dc802-160">Use the mobile platform to create custom mobile workspaces.</span></span></td>
+<td><span data-ttu-id="dc802-161"><a href="platform/mobile-platform-home-page.md">Mobilā platforma</a></span><span class="sxs-lookup"><span data-stu-id="dc802-161"><a href="platform/mobile-platform-home-page.md">Mobile platform</a></span></span></td>
 </tr>
 <tr class="odd">
-<td>5.</td>
-<td>NPI</td>
-<td>Izveidojiet izvietojamu pakotni, kas ietver pielāgotas mobilās darbvietas, un augšupielādējiet šo pakotni uz Microsoft Dynamics Lifecycle Services (LCS).</td>
-<td><a href="../deployment/create-apply-deployable-package.md">Izvietojamas pakotnes izveide</a></td>
+<td><span data-ttu-id="dc802-162">5.</span><span class="sxs-lookup"><span data-stu-id="dc802-162">5</span></span></td>
+<td><span data-ttu-id="dc802-163">NPI</span><span class="sxs-lookup"><span data-stu-id="dc802-163">ISV</span></span></td>
+<td><span data-ttu-id="dc802-164">Izveidojiet izvietojamu pakotni, kas ietver pielāgotas mobilās darbvietas, un augšupielādējiet šo pakotni uz Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="dc802-164">Create a deployable package that contains custom mobile workspaces, and upload the package to Microsoft Dynamics Lifecycle Services (LCS).</span></span></td>
+<td><span data-ttu-id="dc802-165"><a href="../deployment/create-apply-deployable-package.md">Izvietojamas pakotnes izveide</a></span><span class="sxs-lookup"><span data-stu-id="dc802-165"><a href="../deployment/create-apply-deployable-package.md">Create a deployable package</a></span></span></td>
 </tr>
 <tr class="even">
-<td>6.</td>
-<td>Sistēmas administrators</td>
-<td>Lietojiet izvietojamo pakotni, kas ietver neatkarīgu programmatūras izstrādātāju (independent software vendor — ISV) nodrošinātās pielāgotās darbvietas.</td>
-<td><a href="../deployment/apply-deployable-package-system.md">Lietot izvietojamu pakotni</a></td>
+<td><span data-ttu-id="dc802-166">6.</span><span class="sxs-lookup"><span data-stu-id="dc802-166">6</span></span></td>
+<td><span data-ttu-id="dc802-167">Sistēmas administrators</span><span class="sxs-lookup"><span data-stu-id="dc802-167">System administrator</span></span></td>
+<td><span data-ttu-id="dc802-168">Lietojiet izvietojamo pakotni, kas ietver neatkarīgu programmatūras izstrādātāju (independent software vendor — ISV) nodrošinātās pielāgotās darbvietas.</span><span class="sxs-lookup"><span data-stu-id="dc802-168">Apply the deployable package that contains the custom workspaces that are provided by the independent software vendor (ISV).</span></span></td>
+<td><span data-ttu-id="dc802-169"><a href="../deployment/apply-deployable-package-system.md">Lietot izvietojamu pakotni</a></span><span class="sxs-lookup"><span data-stu-id="dc802-169"><a href="../deployment/apply-deployable-package-system.md">Apply a deployable package</a></span></span></td>
 </tr>
 <tr class="odd">
-<td>7.</td>
-<td>Sistēmas administrators</td>
-<td>Publicējiet pielāgotās mobilās darbvietas, ko nodrošina ISV.</td>
-<td><a href="publish-mobile-workspace.md">Mobilās darbvietas publicēšana</a></td>
+<td><span data-ttu-id="dc802-170">7.</span><span class="sxs-lookup"><span data-stu-id="dc802-170">7</span></span></td>
+<td><span data-ttu-id="dc802-171">Sistēmas administrators</span><span class="sxs-lookup"><span data-stu-id="dc802-171">System administrator</span></span></td>
+<td><span data-ttu-id="dc802-172">Publicējiet pielāgotās mobilās darbvietas, ko nodrošina ISV.</span><span class="sxs-lookup"><span data-stu-id="dc802-172">Publish the custom mobile workspaces that are provided by the ISV.</span></span></td>
+<td><span data-ttu-id="dc802-173"><a href="publish-mobile-workspace.md">Mobilās darbvietas publicēšana</a></span><span class="sxs-lookup"><span data-stu-id="dc802-173"><a href="publish-mobile-workspace.md">Publish a mobile workspace</a></span></span></td>
 </tr>
 <tr class="even">
-<td>8.</td>
-<td>Lietotājs</td>
-<td>Lejupielādējiet un instalējiet mobilo programmu.</td>
+<td><span data-ttu-id="dc802-174">8.</span><span class="sxs-lookup"><span data-stu-id="dc802-174">8</span></span></td>
+<td><span data-ttu-id="dc802-175">Lietotājs</span><span class="sxs-lookup"><span data-stu-id="dc802-175">User</span></span></td>
+<td><span data-ttu-id="dc802-176">Lejupielādējiet un instalējiet mobilo programmu.</span><span class="sxs-lookup"><span data-stu-id="dc802-176">Download and install the mobile app.</span></span></td>
 <td><ul>
-<li><a href="https://go.microsoft.com/fwlink/?linkid=850662">Android tālruņiem</a></li>
-<li><a href="https://go.microsoft.com/fwlink/?linkid=850663">Tālruņiem iPhone</a></li></ul>
+<li><span data-ttu-id="dc802-177"><a href="https://go.microsoft.com/fwlink/?linkid=850662">Android tālruņiem</a></span><span class="sxs-lookup"><span data-stu-id="dc802-177"><a href="https://go.microsoft.com/fwlink/?linkid=850662">For Android phones</a></span></span></li>
+<li><span data-ttu-id="dc802-178"><a href="https://go.microsoft.com/fwlink/?linkid=850663">Tālruņiem iPhone</a></span><span class="sxs-lookup"><span data-stu-id="dc802-178"><a href="https://go.microsoft.com/fwlink/?linkid=850663">For iPhones</a></span></span></li></ul>
 </td>
 </tr>
 <tr class="odd">
-<td>9.</td>
-<td>Lietotājs</td>
-<td>Pierakstieties mobilajā programmā un lietojiet to. Programma ietver mobilās darbvietas, kuras ir publicējis sistēmas administrators.</td>
-<td>Lai apskatītu sarakstu ar mobilajām darbvietām, ko nodrošina korporācija Microsoft, skatiet rakstu <a href="mobile-workspaces-released.md">Nesen izlaistās mobilās darbvietas</a>.
+<td><span data-ttu-id="dc802-179">9.</span><span class="sxs-lookup"><span data-stu-id="dc802-179">9</span></span></td>
+<td><span data-ttu-id="dc802-180">Lietotājs</span><span class="sxs-lookup"><span data-stu-id="dc802-180">User</span></span></td>
+<td><span data-ttu-id="dc802-181">Pierakstieties mobilajā programmā un lietojiet to.</span><span class="sxs-lookup"><span data-stu-id="dc802-181">Sign in, and use the mobile app.</span></span> <span data-ttu-id="dc802-182">Programma ietver mobilās darbvietas, kuras ir publicējis sistēmas administrators.</span><span class="sxs-lookup"><span data-stu-id="dc802-182">The app includes the mobile workspaces that have been published by the system administrator.</span></span></td>
+<td><span data-ttu-id="dc802-183">Lai apskatītu sarakstu ar mobilajām darbvietām, ko nodrošina korporācija Microsoft, skatiet rakstu <a href="mobile-workspaces-released.md">Nesen izlaistās mobilās darbvietas</a>.</span><span class="sxs-lookup"><span data-stu-id="dc802-183">To see a list of mobile workspaces that are provided by Microsoft, see <a href="mobile-workspaces-released.md">Mobile workspaces recently released</a>.</span></span>
 </td>
 </tr>
 </tbody>

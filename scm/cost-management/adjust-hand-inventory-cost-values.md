@@ -16,32 +16,32 @@ ms.assetid: bc1fde9f-5ad9-4339-8ae8-e2839b792eb2
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7f7c1008eea83bbda96ace92cd4aedf09c8febdc
+ms.sourcegitcommit: fb74ddfbc46047251a1f96512891bfbdca8e0389
+ms.openlocfilehash: 2b4a27465908b5ffe19e91cb7ad0d29bce49505a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/15/2017
 
 ---
 
-# <a name="adjust-on-hand-inventory-cost-values"></a>Rīcībā esošo krājumu izmaksu vērtību koriģēšana
+# <a name="adjust-on-hand-inventory-cost-values"></a><span data-ttu-id="24dd7-103">Rīcībā esošo krājumu izmaksu vērtību koriģēšana</span><span class="sxs-lookup"><span data-stu-id="24dd7-103">Adjust on-hand inventory cost values</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Lapu Rīcībā esošo krājumu koriģēšana var izmantot, lai pēc krājumu slēgšanas procesa palaišanas koriģētu rīcībā esošo krājumu daudzuma izmaksu vērtību.
+<span data-ttu-id="24dd7-104">Lapu Rīcībā esošo krājumu koriģēšana var izmantot, lai pēc krājumu slēgšanas procesa palaišanas koriģētu rīcībā esošo krājumu daudzuma izmaksu vērtību.</span><span class="sxs-lookup"><span data-stu-id="24dd7-104">Use the Adjustment of on-hand inventory page to adjust the cost value of the on-hand inventory quantities after an inventory close process is run.</span></span>
 
-Lapu **Rīcībā esošo krājumu koriģēšana** var izmantot, lai koriģētu rīcībā esošo krājumu daudzuma izmaksu vērtību pēc krājumu slēgšanas procesa palaišanas. **Piezīme.** Lai atvērtu lapu **Rīcībā esošo krājumu koriģēšana**, lapā **Slēgšana un koriģēšana** atlasiet pabeigta krājuma slēgšanas procesa ierakstu un pēc tam noklikšķiniet uz **Korekcija** &gt; **Rīcībā esošs**. **Piemērs.** Februārī jums ir šādas transakcijas:
+<span data-ttu-id="24dd7-105">Lapu **Rīcībā esošo krājumu koriģēšana** var izmantot, lai koriģētu rīcībā esošo krājumu daudzuma izmaksu vērtību pēc krājumu slēgšanas procesa palaišanas.</span><span class="sxs-lookup"><span data-stu-id="24dd7-105">You can use the **Adjustment of on-hand inventory** page to adjust the cost value of on-hand inventory quantities after an inventory close process is run.</span></span> <span data-ttu-id="24dd7-106">**Piezīme.** Lai atvērtu lapu **Rīcībā esošo krājumu koriģēšana**, lapā **Slēgšana un koriģēšana** atlasiet pabeigta krājuma slēgšanas procesa ierakstu un pēc tam noklikšķiniet uz **Korekcija** &gt; **Rīcībā esošs**.</span><span class="sxs-lookup"><span data-stu-id="24dd7-106">**Note:** To open the **Adjustment of on-hand inventory** page, on the **Closing and adjustment** page, select the record of a completed inventory close process, and then click **Adjustment** &gt; **On-hand**.</span></span> <span data-ttu-id="24dd7-107">**Piemērs.** Februārī jums ir šādas transakcijas:</span><span class="sxs-lookup"><span data-stu-id="24dd7-107">**Example:** You have the following transactions in February:</span></span>
 
--   1. februāris: krājumu finanšu ieejas plūsma daudzumam ar vērtību 2 un izmaksām ar summu 10,00 USD;
--   5. februāris: krājumu finanšu ieejas plūsma daudzumam ar vērtību 1 un izmaksām ar summu 13,00 USD;
--   19. februāris: krājumu finanšu izejas plūsma daudzumam ar vērtību 1 un kārtējām vidējām izmaksām ar summu 11,00 USD.
+-   <span data-ttu-id="24dd7-108">1. februāris: krājumu finanšu ieejas plūsma daudzumam ar vērtību 2 un izmaksām ar summu 10,00 USD;</span><span class="sxs-lookup"><span data-stu-id="24dd7-108">February 1: An inventory financial receipt for a quantity of 2 at a cost of USD 10.00</span></span>
+-   <span data-ttu-id="24dd7-109">5. februāris: krājumu finanšu ieejas plūsma daudzumam ar vērtību 1 un izmaksām ar summu 13,00 USD;</span><span class="sxs-lookup"><span data-stu-id="24dd7-109">February 5: An inventory financial receipt for a quantity of 1 at a cost of USD 13.00</span></span>
+-   <span data-ttu-id="24dd7-110">19. februāris: krājumu finanšu izejas plūsma daudzumam ar vērtību 1 un kārtējām vidējām izmaksām ar summu 11,00 USD.</span><span class="sxs-lookup"><span data-stu-id="24dd7-110">February 19: An inventory financial issue for a quantity of 1 at a running average cost of USD 11.00</span></span>
 
-Šim krājumam bija iestatīts krājumu modelis “pirmais iekšā, pirmais ārā” (first in, first out – FIFO), un krājuma slēgšana notika 28. februārī. Finanšu izejas plūsmas transakcija 11,00 USD apjomā tiks nokārtota pret 1. februāra krājumu ieejas plūsmu, un tiks veikta korekcija 1,00 USD apjomā. Atvērto krājumu daudzumi būs redzami šādās krājumu ieejas plūsmās:
+<span data-ttu-id="24dd7-111">Šim krājumam bija iestatīts krājumu modelis “pirmais iekšā, pirmais ārā” (first in, first out – FIFO), un krājuma slēgšana notika 28. februārī.</span><span class="sxs-lookup"><span data-stu-id="24dd7-111">This item was set up with the first in, first out (FIFO) inventory model, and inventory close was performed as of February 28.</span></span> <span data-ttu-id="24dd7-112">Finanšu izejas plūsmas transakcija 11,00 USD apjomā tiks nokārtota pret 1. februāra krājumu ieejas plūsmu, un tiks veikta korekcija 1,00 USD apjomā.</span><span class="sxs-lookup"><span data-stu-id="24dd7-112">The financial issue transaction of USD 11.00 will be settled against the financial receipt that is dated February 1, and an adjustment of USD 1.00 will be made.</span></span> <span data-ttu-id="24dd7-113">Atvērto krājumu daudzumi būs redzami šādās krājumu ieejas plūsmās:</span><span class="sxs-lookup"><span data-stu-id="24dd7-113">The following inventory receipts will then contain open inventory quantities:</span></span>
 
--   1. februāris: daudzums ar vērtību 1 un izmaksas ar summu 10,00 USD.
--   5. februāris: daudzums ar vērtību 1 un izmaksas ar summu 13,00 USD.
+-   <span data-ttu-id="24dd7-114">1. februāris: daudzums ar vērtību 1 un izmaksas ar summu 10,00 USD.</span><span class="sxs-lookup"><span data-stu-id="24dd7-114">February 1: A quantity of 1 at a cost of USD 10.00</span></span>
+-   <span data-ttu-id="24dd7-115">5. februāris: daudzums ar vērtību 1 un izmaksas ar summu 13,00 USD.</span><span class="sxs-lookup"><span data-stu-id="24dd7-115">February 5: A quantity of 1 at a cost of USD 13.00</span></span>
 
-Lai šiem diviem krājumiem iestatītu izmaksas USD 15,00 apjomā, izmantojiet rīcībā esošās korekcijas opciju, lai koriģētu atvērtos rīcībā esošos daudzumus no pēdējā krājumu aizvēršanas perioda. **Piezīme.** Rīcībā esošās korekcijas transakcijas grāmatošanas datums būs pēdējās krājumu slēgšanas datums. Šo datumu nevar modificēt.
+<span data-ttu-id="24dd7-116">Lai šiem diviem krājumiem iestatītu izmaksas USD 15,00 apjomā, izmantojiet rīcībā esošās korekcijas opciju, lai koriģētu atvērtos rīcībā esošos daudzumus no pēdējā krājumu aizvēršanas perioda.</span><span class="sxs-lookup"><span data-stu-id="24dd7-116">To set the cost of these two items to USD 15.00, use the on-hand adjustment option to adjust the open on-hand quantities as of the last inventory close period.</span></span> <span data-ttu-id="24dd7-117">**Piezīme.** Rīcībā esošās korekcijas transakcijas grāmatošanas datums būs pēdējās krājumu slēgšanas datums.</span><span class="sxs-lookup"><span data-stu-id="24dd7-117">**Note:** The posting date of the on-hand adjustment transaction will be the date of the last inventory close.</span></span> <span data-ttu-id="24dd7-118">Šo datumu nevar modificēt.</span><span class="sxs-lookup"><span data-stu-id="24dd7-118">This date can't be modified.</span></span>
 

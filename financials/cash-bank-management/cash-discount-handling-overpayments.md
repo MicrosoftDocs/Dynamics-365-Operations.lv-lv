@@ -19,124 +19,124 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f5d75794146eada9b9f439d99ad272f5af8db53b
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 5604f806eed81c60dfcae7cb7b1a22bba25aa454
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="handling-cash-discounts-for-overpayments"></a>Termiņatlaižu apstrāde pārmaksām
+# <a name="handling-cash-discounts-for-overpayments"></a><span data-ttu-id="173ff-103">Termiņatlaižu apstrāde pārmaksām</span><span class="sxs-lookup"><span data-stu-id="173ff-103">Handling cash discounts for overpayments</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir sniegti scenāriji, kas parāda, kā tiek apstrādāts maksājums, kad debitors izmanto termiņatlaidi, bet arī pārmaksā. 
+<span data-ttu-id="173ff-104">Šajā rakstā ir sniegti scenāriji, kas parāda, kā tiek apstrādāts maksājums, kad debitors izmanto termiņatlaidi, bet arī pārmaksā.</span><span class="sxs-lookup"><span data-stu-id="173ff-104">This article provides scenarios that show how a payment is handled when the customer takes a cash discount but also overpays.</span></span> 
 
-Rēķins tiek uzskatīts par pārmaksātu, ja maksājuma summa ir lielāka par rēķina summu, atņemot termiņatlaidi. Lai norādītu, kā iegūstamā termiņatlaides starpība tiek uzskaitīta, kad rēķins ir pārmaksāts, izmantojiet laukus **Termiņatlaižu administrēšana** un **Maksimālā pārmaksa vai nepilna samaksa** lapā **Debitoru moduļa parametri**. Tālāk esošajā piemērā debitors ir pārmaksājis rēķinu par 0,50.
+<span data-ttu-id="173ff-105">Rēķins tiek uzskatīts par pārmaksātu, ja maksājuma summa ir lielāka par rēķina summu, atņemot termiņatlaidi.</span><span class="sxs-lookup"><span data-stu-id="173ff-105">An invoice is considered overpaid when the payment amount is more than the invoice amount minus the cash discount.</span></span> <span data-ttu-id="173ff-106">Lai norādītu, kā iegūstamā termiņatlaides starpība tiek uzskaitīta, kad rēķins ir pārmaksāts, izmantojiet laukus **Termiņatlaižu administrēšana** un **Maksimālā pārmaksa vai nepilna samaksa** lapā **Debitoru moduļa parametri**.</span><span class="sxs-lookup"><span data-stu-id="173ff-106">To specify how an obtainable cash discount difference is handled when an invoice is overpaid, use the **Cash discount administration** and **Maximum overpayment or underpayment** fields on the **Accounts receivable parameters** page.</span></span> <span data-ttu-id="173ff-107">Tālāk esošajā piemērā debitors ir pārmaksājis rēķinu par 0,50.</span><span class="sxs-lookup"><span data-stu-id="173ff-107">In the following example, the customer has overpaid the invoice by 0.50.</span></span>
 
-| Rēķina kopsumma | Pieejamā termiņatlaide | Maksājamā summa, kurā iekļauta termiņatlaide | Summa, kuru faktiski maksā debitors |
+| <span data-ttu-id="173ff-108">Rēķina kopsumma</span><span class="sxs-lookup"><span data-stu-id="173ff-108">Invoice total</span></span> | <span data-ttu-id="173ff-109">Pieejamā termiņatlaide</span><span class="sxs-lookup"><span data-stu-id="173ff-109">Cash discount available</span></span> | <span data-ttu-id="173ff-110">Maksājamā summa, kurā iekļauta termiņatlaide</span><span class="sxs-lookup"><span data-stu-id="173ff-110">Amount to be paid, which includes the cash discount</span></span> | <span data-ttu-id="173ff-111">Summa, kuru faktiski maksā debitors</span><span class="sxs-lookup"><span data-stu-id="173ff-111">Amount the customer actually pays</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|-----------------------------------|
-| 105,00        | 10,50                   | 94,50                                               | 95,00                             |
+| <span data-ttu-id="173ff-112">105,00</span><span class="sxs-lookup"><span data-stu-id="173ff-112">105.00</span></span>        | <span data-ttu-id="173ff-113">10,50</span><span class="sxs-lookup"><span data-stu-id="173ff-113">10.50</span></span>                   | <span data-ttu-id="173ff-114">94,50</span><span class="sxs-lookup"><span data-stu-id="173ff-114">94.50</span></span>                                               | <span data-ttu-id="173ff-115">95,00</span><span class="sxs-lookup"><span data-stu-id="173ff-115">95.00</span></span>                             |
 
-## <a name="cash-discount-administration--specific"></a>Termiņatlaižu administrēšana = Specifiska
-Kad laukā **Termiņatlaižu administrēšana** ir atlasīta vērtība **Specifiska** lapā **Automātisko darījumu konti**, tiek ņemta pilna termiņatlaide. Pārmaksas summa tiek vai nu grāmatota termiņatlaides starpības virsgrāmatas kontā vai paliek kā bilance debitora kontā. Uzvedība ir atkarīga no tā, vai pārmaksas summa ir starp 0,00 un summu, kas ievadīta laukā **Maksimālā pārmaksa vai nepilna samaksa**, vai arī pārmaksas summa ir lielāka nekā summa laukā **Maksimālā pārmaksa vai nepilna samaksa**.
+## <a name="cash-discount-administration--specific"></a><span data-ttu-id="173ff-116">Termiņatlaižu administrēšana = Specifiska</span><span class="sxs-lookup"><span data-stu-id="173ff-116">Cash discount administration = Specific</span></span>
+<span data-ttu-id="173ff-117">Kad laukā **Termiņatlaižu administrēšana** ir atlasīta vērtība **Specifiska** lapā **Automātisko darījumu konti**, tiek ņemta pilna termiņatlaide.</span><span class="sxs-lookup"><span data-stu-id="173ff-117">When **Specific** is selected in the **Cash discount administration** field on the **Accounts for automatic transactions** page, the full cash discount is taken.</span></span> <span data-ttu-id="173ff-118">Pārmaksas summa tiek vai nu grāmatota termiņatlaides starpības virsgrāmatas kontā vai paliek kā bilance debitora kontā.</span><span class="sxs-lookup"><span data-stu-id="173ff-118">The overpayment amount either is posted to a cash discount difference ledger account or remains a balance on the customer’s account.</span></span> <span data-ttu-id="173ff-119">Uzvedība ir atkarīga no tā, vai pārmaksas summa ir starp 0,00 un summu, kas ievadīta laukā **Maksimālā pārmaksa vai nepilna samaksa**, vai arī pārmaksas summa ir lielāka nekā summa laukā **Maksimālā pārmaksa vai nepilna samaksa**.</span><span class="sxs-lookup"><span data-stu-id="173ff-119">The behavior depends on whether the overpayment amount is between 0.00 and the amount that is entered in the **Maximum overpayment or underpayment** field, or whether the overpayment amount is more than the **Maximum overpayment or underpayment** amount.</span></span>
 
-### <a name="scenario-1"></a>1. scenārijs
+### <a name="scenario-1"></a><span data-ttu-id="173ff-120">1. scenārijs</span><span class="sxs-lookup"><span data-stu-id="173ff-120">Scenario 1</span></span>
 
-Šajā scenārijā pārmaksas summa ir starp 0,00 un maksimālo pārmaksu vai nepilnu samaksu. Ir ievadīts rēķins par summu 105,00 un termiņatlaide ir pieejama, ja rēķins tiek apmaksāts septiņu dienu laikā.
+<span data-ttu-id="173ff-121">Šajā scenārijā pārmaksas summa ir starp 0,00 un maksimālo pārmaksu vai nepilnu samaksu.</span><span class="sxs-lookup"><span data-stu-id="173ff-121">In this scenario, the overpayment amount is between 0.00 and the maximum overpayment or underpayment.</span></span> <span data-ttu-id="173ff-122">Ir ievadīts rēķins par summu 105,00 un termiņatlaide ir pieejama, ja rēķins tiek apmaksāts septiņu dienu laikā.</span><span class="sxs-lookup"><span data-stu-id="173ff-122">An invoice for 105.00 is entered, and a cash discount is available if the invoice is paid within seven days.</span></span>
 
-| Rēķina kopsumma | Pieejamā termiņatlaide | Maksājamā summa, kurā iekļauta termiņatlaide |
+| <span data-ttu-id="173ff-123">Rēķina kopsumma</span><span class="sxs-lookup"><span data-stu-id="173ff-123">Invoice total</span></span> | <span data-ttu-id="173ff-124">Pieejamā termiņatlaide</span><span class="sxs-lookup"><span data-stu-id="173ff-124">Cash discount available</span></span> | <span data-ttu-id="173ff-125">Maksājamā summa, kurā iekļauta termiņatlaide</span><span class="sxs-lookup"><span data-stu-id="173ff-125">Amount to be paid, which includes the cash discount</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|
-| 105,00        | 10,50                   | 94,50                                               |
+| <span data-ttu-id="173ff-126">105,00</span><span class="sxs-lookup"><span data-stu-id="173ff-126">105.00</span></span>        | <span data-ttu-id="173ff-127">10,50</span><span class="sxs-lookup"><span data-stu-id="173ff-127">10.50</span></span>                   | <span data-ttu-id="173ff-128">94,50</span><span class="sxs-lookup"><span data-stu-id="173ff-128">94.50</span></span>                                               |
 
-Debitors iesniedz maksājumu par summu 95,00 termiņatlaides perioda ietvaros. Maksājums tiek nosegts atbilstoši rēķinam par summu 105,00. Pēc rēķina un maksājuma nosegšanas debitoram modulī Debitori tiek izveidotas tālāk norādītās transakcijas.
+<span data-ttu-id="173ff-129">Debitors iesniedz maksājumu par summu 95,00 termiņatlaides perioda ietvaros.</span><span class="sxs-lookup"><span data-stu-id="173ff-129">The customer submits a payment for 95.00 within the cash discount period.</span></span> <span data-ttu-id="173ff-130">Maksājums tiek nosegts atbilstoši rēķinam par summu 105,00.</span><span class="sxs-lookup"><span data-stu-id="173ff-130">The payment is settled against the invoice for 105.00.</span></span> <span data-ttu-id="173ff-131">Pēc rēķina un maksājuma nosegšanas debitoram modulī Debitori tiek izveidotas tālāk norādītās transakcijas.</span><span class="sxs-lookup"><span data-stu-id="173ff-131">After the invoice and payment are settled, the following transactions are created for the customer in Accounts receivable.</span></span>
 
-| Transakcija   | Summa | Bilance |
+| <span data-ttu-id="173ff-132">Transakcija</span><span class="sxs-lookup"><span data-stu-id="173ff-132">Transaction</span></span>   | <span data-ttu-id="173ff-133">Summa</span><span class="sxs-lookup"><span data-stu-id="173ff-133">Amount</span></span> | <span data-ttu-id="173ff-134">Bilance</span><span class="sxs-lookup"><span data-stu-id="173ff-134">Balance</span></span> |
 |---------------|--------|---------|
-| Rēķins       | 105,00 | 0,00    |
-| Maksājums       | -95,00 | 0,00    |
-| Termiņatlaide | -10,50 | 0,00    |
+| <span data-ttu-id="173ff-135">Rēķins</span><span class="sxs-lookup"><span data-stu-id="173ff-135">Invoice</span></span>       | <span data-ttu-id="173ff-136">105,00</span><span class="sxs-lookup"><span data-stu-id="173ff-136">105.00</span></span> | <span data-ttu-id="173ff-137">0,00</span><span class="sxs-lookup"><span data-stu-id="173ff-137">0.00</span></span>    |
+| <span data-ttu-id="173ff-138">Maksājums</span><span class="sxs-lookup"><span data-stu-id="173ff-138">Payment</span></span>       | <span data-ttu-id="173ff-139">-95,00</span><span class="sxs-lookup"><span data-stu-id="173ff-139">-95.00</span></span> | <span data-ttu-id="173ff-140">0,00</span><span class="sxs-lookup"><span data-stu-id="173ff-140">0.00</span></span>    |
+| <span data-ttu-id="173ff-141">Termiņatlaide</span><span class="sxs-lookup"><span data-stu-id="173ff-141">Cash discount</span></span> | <span data-ttu-id="173ff-142">-10,50</span><span class="sxs-lookup"><span data-stu-id="173ff-142">-10.50</span></span> | <span data-ttu-id="173ff-143">0,00</span><span class="sxs-lookup"><span data-stu-id="173ff-143">0.00</span></span>    |
 
-Maksājumam un nosegšanai tiek ģenerēti tālāk norādītie uzskaites ieraksti. **Maksājums**;
+<span data-ttu-id="173ff-144">Maksājumam un nosegšanai tiek ģenerēti tālāk norādītie uzskaites ieraksti.</span><span class="sxs-lookup"><span data-stu-id="173ff-144">The following accounting entries are generated for the payment and the settlement.</span></span> <span data-ttu-id="173ff-145">**Maksājums**;</span><span class="sxs-lookup"><span data-stu-id="173ff-145">**Payment**</span></span>
 
-| Konts             | Debeta summa | Kredīta summa |
+| <span data-ttu-id="173ff-146">Konts</span><span class="sxs-lookup"><span data-stu-id="173ff-146">Account</span></span>             | <span data-ttu-id="173ff-147">Debeta summa</span><span class="sxs-lookup"><span data-stu-id="173ff-147">Debit amount</span></span> | <span data-ttu-id="173ff-148">Kredīta summa</span><span class="sxs-lookup"><span data-stu-id="173ff-148">Credit amount</span></span> |
 |---------------------|--------------|---------------|
-| Kase                | 95,00        |               |
-| Debitoru parādi |              | 95,00         |
+| <span data-ttu-id="173ff-149">Kase</span><span class="sxs-lookup"><span data-stu-id="173ff-149">Cash</span></span>                | <span data-ttu-id="173ff-150">95,00</span><span class="sxs-lookup"><span data-stu-id="173ff-150">95.00</span></span>        |               |
+| <span data-ttu-id="173ff-151">Debitoru parādi</span><span class="sxs-lookup"><span data-stu-id="173ff-151">Accounts receivable</span></span> |              | <span data-ttu-id="173ff-152">95,00</span><span class="sxs-lookup"><span data-stu-id="173ff-152">95.00</span></span>         |
 
-**Segšana**
+<span data-ttu-id="173ff-153">**Segšana**</span><span class="sxs-lookup"><span data-stu-id="173ff-153">**Settlement**</span></span>
 
-| Konts                                                                                                          | Debeta summa | Kredīta summa |
+| <span data-ttu-id="173ff-154">Konts</span><span class="sxs-lookup"><span data-stu-id="173ff-154">Account</span></span>                                                                                                          | <span data-ttu-id="173ff-155">Debeta summa</span><span class="sxs-lookup"><span data-stu-id="173ff-155">Debit amount</span></span> | <span data-ttu-id="173ff-156">Kredīta summa</span><span class="sxs-lookup"><span data-stu-id="173ff-156">Credit amount</span></span> |
 |------------------------------------------------------------------------------------------------------------------|--------------|---------------|
-| Termiņatlaide (laukā **Galvenais konts debitoru atlaidēm** lapā **Termiņatlaides**)                 | 10,50        |               |
-| Debitoru parādi                                                                                              |              | 10,50         |
-| Debitora termiņatlaide (lauks **Debitora termiņatlaide** lapā **Automātisko darījumu konti**) |              | 0,50          |
-| Debitoru parādi                                                                                              | 0,50         |               |
+| <span data-ttu-id="173ff-157">Termiņatlaide (laukā **Galvenais konts debitoru atlaidēm** lapā **Termiņatlaides**)</span><span class="sxs-lookup"><span data-stu-id="173ff-157">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span>                 | <span data-ttu-id="173ff-158">10,50</span><span class="sxs-lookup"><span data-stu-id="173ff-158">10.50</span></span>        |               |
+| <span data-ttu-id="173ff-159">Debitoru parādi</span><span class="sxs-lookup"><span data-stu-id="173ff-159">Accounts receivable</span></span>                                                                                              |              | <span data-ttu-id="173ff-160">10,50</span><span class="sxs-lookup"><span data-stu-id="173ff-160">10.50</span></span>         |
+| <span data-ttu-id="173ff-161">Debitora termiņatlaide (lauks **Debitora termiņatlaide** lapā **Automātisko darījumu konti**)</span><span class="sxs-lookup"><span data-stu-id="173ff-161">Customer cash discount (the **Customer cash discount** field on the **Account for automatic transactions** page)</span></span> |              | <span data-ttu-id="173ff-162">0,50</span><span class="sxs-lookup"><span data-stu-id="173ff-162">0.50</span></span>          |
+| <span data-ttu-id="173ff-163">Debitoru parādi</span><span class="sxs-lookup"><span data-stu-id="173ff-163">Accounts receivable</span></span>                                                                                              | <span data-ttu-id="173ff-164">0,50</span><span class="sxs-lookup"><span data-stu-id="173ff-164">0.50</span></span>         |               |
 
-### <a name="scenario-2"></a>2. scenārijs
+### <a name="scenario-2"></a><span data-ttu-id="173ff-165">2. scenārijs</span><span class="sxs-lookup"><span data-stu-id="173ff-165">Scenario 2</span></span>
 
-Šajā scenārijā pārmaksas summa pārsniedz maksimālo pārmaksas vai nepilnas samaksas summu. Ir ievadīts rēķins par summu 105,00 un termiņatlaide ir pieejama, ja rēķins tiek apmaksāts septiņu dienu laikā.
+<span data-ttu-id="173ff-166">Šajā scenārijā pārmaksas summa pārsniedz maksimālo pārmaksas vai nepilnas samaksas summu.</span><span class="sxs-lookup"><span data-stu-id="173ff-166">In this scenario, the overpayment amount exceeds the maximum overpayment or underpayment amount.</span></span> <span data-ttu-id="173ff-167">Ir ievadīts rēķins par summu 105,00 un termiņatlaide ir pieejama, ja rēķins tiek apmaksāts septiņu dienu laikā.</span><span class="sxs-lookup"><span data-stu-id="173ff-167">An invoice for 105.00 is entered, and a cash discount is available if the invoice is paid within seven days.</span></span>
 
-| Rēķina kopsumma | Pieejamā termiņatlaide | Maksājamā summa, kurā iekļauta termiņatlaide |
+| <span data-ttu-id="173ff-168">Rēķina kopsumma</span><span class="sxs-lookup"><span data-stu-id="173ff-168">Invoice total</span></span> | <span data-ttu-id="173ff-169">Pieejamā termiņatlaide</span><span class="sxs-lookup"><span data-stu-id="173ff-169">Cash discount available</span></span> | <span data-ttu-id="173ff-170">Maksājamā summa, kurā iekļauta termiņatlaide</span><span class="sxs-lookup"><span data-stu-id="173ff-170">Amount to be paid, which includes the cash discount</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|
-| 105,00        | 10,50                   | 94,50                                               |
+| <span data-ttu-id="173ff-171">105,00</span><span class="sxs-lookup"><span data-stu-id="173ff-171">105.00</span></span>        | <span data-ttu-id="173ff-172">10,50</span><span class="sxs-lookup"><span data-stu-id="173ff-172">10.50</span></span>                   | <span data-ttu-id="173ff-173">94,50</span><span class="sxs-lookup"><span data-stu-id="173ff-173">94.50</span></span>                                               |
 
-Debitors iesniedz maksājumu par summu 95,00 termiņatlaides perioda ietvaros. Maksājums tiek nosegts atbilstoši rēķinam par summu 105,00. Pēc rēķina un maksājuma nosegšanas debitoram modulī Debitori tiek izveidotas tālāk norādītās transakcijas.
+<span data-ttu-id="173ff-174">Debitors iesniedz maksājumu par summu 95,00 termiņatlaides perioda ietvaros.</span><span class="sxs-lookup"><span data-stu-id="173ff-174">The customer submits a payment for 95.00 within the cash discount period.</span></span> <span data-ttu-id="173ff-175">Maksājums tiek nosegts atbilstoši rēķinam par summu 105,00.</span><span class="sxs-lookup"><span data-stu-id="173ff-175">The payment is settled against the invoice for 105.00.</span></span> <span data-ttu-id="173ff-176">Pēc rēķina un maksājuma nosegšanas debitoram modulī Debitori tiek izveidotas tālāk norādītās transakcijas.</span><span class="sxs-lookup"><span data-stu-id="173ff-176">After the invoice and payment are settled, the following transactions are created for the customer in Accounts receivable.</span></span>
 
-| Transakcija   | Summa | Bilance |
+| <span data-ttu-id="173ff-177">Transakcija</span><span class="sxs-lookup"><span data-stu-id="173ff-177">Transaction</span></span>   | <span data-ttu-id="173ff-178">Summa</span><span class="sxs-lookup"><span data-stu-id="173ff-178">Amount</span></span> | <span data-ttu-id="173ff-179">Bilance</span><span class="sxs-lookup"><span data-stu-id="173ff-179">Balance</span></span> |
 |---------------|--------|---------|
-| Rēķins       | 105,00 | 0,00    |
-| Maksājums       | -95,00 | -0,50   |
-| Termiņatlaide | -10,50 | 0,00    |
+| <span data-ttu-id="173ff-180">Rēķins</span><span class="sxs-lookup"><span data-stu-id="173ff-180">Invoice</span></span>       | <span data-ttu-id="173ff-181">105,00</span><span class="sxs-lookup"><span data-stu-id="173ff-181">105.00</span></span> | <span data-ttu-id="173ff-182">0,00</span><span class="sxs-lookup"><span data-stu-id="173ff-182">0.00</span></span>    |
+| <span data-ttu-id="173ff-183">Maksājums</span><span class="sxs-lookup"><span data-stu-id="173ff-183">Payment</span></span>       | <span data-ttu-id="173ff-184">-95,00</span><span class="sxs-lookup"><span data-stu-id="173ff-184">-95.00</span></span> | <span data-ttu-id="173ff-185">-0,50</span><span class="sxs-lookup"><span data-stu-id="173ff-185">-0.50</span></span>   |
+| <span data-ttu-id="173ff-186">Termiņatlaide</span><span class="sxs-lookup"><span data-stu-id="173ff-186">Cash discount</span></span> | <span data-ttu-id="173ff-187">-10,50</span><span class="sxs-lookup"><span data-stu-id="173ff-187">-10.50</span></span> | <span data-ttu-id="173ff-188">0,00</span><span class="sxs-lookup"><span data-stu-id="173ff-188">0.00</span></span>    |
 
-Pārmaksas summa 0,50 tiks saglabāta kā atvērta bilance maksājumā, un to var nosegt atbilstoši citam rēķinam. Maksājumam un nosegšanai tiek ģenerēti tālāk norādītie uzskaites ieraksti. **Maksājums**;
+<span data-ttu-id="173ff-189">Pārmaksas summa 0,50 tiks saglabāta kā atvērta bilance maksājumā, un to var nosegt atbilstoši citam rēķinam.</span><span class="sxs-lookup"><span data-stu-id="173ff-189">The overpayment amount of 0.50 will remain as an open balance on the payment and can be settled against another invoice.</span></span> <span data-ttu-id="173ff-190">Maksājumam un nosegšanai tiek ģenerēti tālāk norādītie uzskaites ieraksti.</span><span class="sxs-lookup"><span data-stu-id="173ff-190">The following accounting entries are generated for the payment and the settlement.</span></span> <span data-ttu-id="173ff-191">**Maksājums**;</span><span class="sxs-lookup"><span data-stu-id="173ff-191">**Payment**</span></span>
 
-| Konts             | Debeta summa | Kredīta summa |
+| <span data-ttu-id="173ff-192">Konts</span><span class="sxs-lookup"><span data-stu-id="173ff-192">Account</span></span>             | <span data-ttu-id="173ff-193">Debeta summa</span><span class="sxs-lookup"><span data-stu-id="173ff-193">Debit amount</span></span> | <span data-ttu-id="173ff-194">Kredīta summa</span><span class="sxs-lookup"><span data-stu-id="173ff-194">Credit amount</span></span> |
 |---------------------|--------------|---------------|
-| Kase                | 95,00        |               |
-| Debitoru parādi |              | 95,00         |
+| <span data-ttu-id="173ff-195">Kase</span><span class="sxs-lookup"><span data-stu-id="173ff-195">Cash</span></span>                | <span data-ttu-id="173ff-196">95,00</span><span class="sxs-lookup"><span data-stu-id="173ff-196">95.00</span></span>        |               |
+| <span data-ttu-id="173ff-197">Debitoru parādi</span><span class="sxs-lookup"><span data-stu-id="173ff-197">Accounts receivable</span></span> |              | <span data-ttu-id="173ff-198">95,00</span><span class="sxs-lookup"><span data-stu-id="173ff-198">95.00</span></span>         |
 
-**Segšana**
+<span data-ttu-id="173ff-199">**Segšana**</span><span class="sxs-lookup"><span data-stu-id="173ff-199">**Settlement**</span></span>
 
-| Konts                                                                                          | Debeta summa | Kredīta summa |
+| <span data-ttu-id="173ff-200">Konts</span><span class="sxs-lookup"><span data-stu-id="173ff-200">Account</span></span>                                                                                          | <span data-ttu-id="173ff-201">Debeta summa</span><span class="sxs-lookup"><span data-stu-id="173ff-201">Debit amount</span></span> | <span data-ttu-id="173ff-202">Kredīta summa</span><span class="sxs-lookup"><span data-stu-id="173ff-202">Credit amount</span></span> |
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
-| Termiņatlaide (lauks **Galvenais konts debitoru atlaidēm** lapā **Termiņatlaides**) | 10,50        |               |
-| Debitoru parādi                                                                              |              | 10,50         |
+| <span data-ttu-id="173ff-203">Termiņatlaide (lauks **Galvenais konts debitoru atlaidēm** lapā **Termiņatlaides**)</span><span class="sxs-lookup"><span data-stu-id="173ff-203">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span> | <span data-ttu-id="173ff-204">10,50</span><span class="sxs-lookup"><span data-stu-id="173ff-204">10.50</span></span>        |               |
+| <span data-ttu-id="173ff-205">Debitoru parādi</span><span class="sxs-lookup"><span data-stu-id="173ff-205">Accounts receivable</span></span>                                                                              |              | <span data-ttu-id="173ff-206">10,50</span><span class="sxs-lookup"><span data-stu-id="173ff-206">10.50</span></span>         |
 
-## <a name="cash-discount-administration--unspecific"></a>Termiņatlaižu administrēšana = Nepecifiska
-Kad laukā **Termiņatlaižu administrēšana** ir atlasīta vērtība **Nespecifiska** lapā **Automātisko darījumu konti**, termiņatlaides summa tiek samazināta par pārmaksas summu. Šī uzvedība vienmēr piemērojama, neatkarīgi no tā, vai pārmaksas summa ir lielāka vai mazāka par summu, kas tiek ievadīta laukā **Maksimālā pārmaksa vai nepilna samaksa**.
+## <a name="cash-discount-administration--unspecific"></a><span data-ttu-id="173ff-207">Termiņatlaižu administrēšana = Nepecifiska</span><span class="sxs-lookup"><span data-stu-id="173ff-207">Cash discount administration = Unspecific</span></span>
+<span data-ttu-id="173ff-208">Kad laukā **Termiņatlaižu administrēšana** ir atlasīta vērtība **Nespecifiska** lapā **Automātisko darījumu konti**, termiņatlaides summa tiek samazināta par pārmaksas summu.</span><span class="sxs-lookup"><span data-stu-id="173ff-208">When **Unspecific** is selected in the **Cash discount administration** field on the **Accounts for automatic transactions** page, the cash discount amount is reduced by the overpayment amount.</span></span> <span data-ttu-id="173ff-209">Šī uzvedība vienmēr piemērojama, neatkarīgi no tā, vai pārmaksas summa ir lielāka vai mazāka par summu, kas tiek ievadīta laukā **Maksimālā pārmaksa vai nepilna samaksa**.</span><span class="sxs-lookup"><span data-stu-id="173ff-209">This behavior always applies, regardless of whether the overpayment amount is over or under the amount that is entered in the **Maximum overpayment or underpayment** field.</span></span>
 
-### <a name="scenario-3"></a>3. scenārijs
+### <a name="scenario-3"></a><span data-ttu-id="173ff-210">3. scenārijs</span><span class="sxs-lookup"><span data-stu-id="173ff-210">Scenario 3</span></span>
 
-Šajā scenārijā ir ievadīts rēķins par summu 105,00 un termiņatlaide ir pieejama, ja rēķins tiek apmaksāts septiņu dienu laikā.
+<span data-ttu-id="173ff-211">Šajā scenārijā ir ievadīts rēķins par summu 105,00 un termiņatlaide ir pieejama, ja rēķins tiek apmaksāts septiņu dienu laikā.</span><span class="sxs-lookup"><span data-stu-id="173ff-211">In this scenario, an invoice for 105.00 is entered, and a cash discount is available if the invoice is paid within seven days.</span></span>
 
-| Rēķina kopsumma | Pieejamā termiņatlaide | Maksājamā summa, kurā iekļauta termiņatlaide |
+| <span data-ttu-id="173ff-212">Rēķina kopsumma</span><span class="sxs-lookup"><span data-stu-id="173ff-212">Invoice total</span></span> | <span data-ttu-id="173ff-213">Pieejamā termiņatlaide</span><span class="sxs-lookup"><span data-stu-id="173ff-213">Cash discount available</span></span> | <span data-ttu-id="173ff-214">Maksājamā summa, kurā iekļauta termiņatlaide</span><span class="sxs-lookup"><span data-stu-id="173ff-214">Amount to be paid, which includes the cash discount</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|
-| 105,00        | 10,50                   | 94,50                                               |
+| <span data-ttu-id="173ff-215">105,00</span><span class="sxs-lookup"><span data-stu-id="173ff-215">105.00</span></span>        | <span data-ttu-id="173ff-216">10,50</span><span class="sxs-lookup"><span data-stu-id="173ff-216">10.50</span></span>                   | <span data-ttu-id="173ff-217">94,50</span><span class="sxs-lookup"><span data-stu-id="173ff-217">94.50</span></span>                                               |
 
-Debitors iesniedz maksājumu par summu 95,00 līdz termiņatlaides datumam. Maksājums tiek nosegts atbilstoši rēķinam par summu 105,00. Pēc rēķina un maksājuma nosegšanas debitoram modulī Debitori tiek izveidotas tālāk norādītās transakcijas.
+<span data-ttu-id="173ff-218">Debitors iesniedz maksājumu par summu 95,00 līdz termiņatlaides datumam.</span><span class="sxs-lookup"><span data-stu-id="173ff-218">The customer submits a payment for 95.00 within the cash discount date.</span></span> <span data-ttu-id="173ff-219">Maksājums tiek nosegts atbilstoši rēķinam par summu 105,00.</span><span class="sxs-lookup"><span data-stu-id="173ff-219">The payment is settled against the invoice for 105.00.</span></span> <span data-ttu-id="173ff-220">Pēc rēķina un maksājuma nosegšanas debitoram modulī Debitori tiek izveidotas tālāk norādītās transakcijas.</span><span class="sxs-lookup"><span data-stu-id="173ff-220">After the invoice and payment are settled, the following transactions are created for the customer in Accounts receivable.</span></span>
 
-| Transakcija   | Summa | Bilance |
+| <span data-ttu-id="173ff-221">Transakcija</span><span class="sxs-lookup"><span data-stu-id="173ff-221">Transaction</span></span>   | <span data-ttu-id="173ff-222">Summa</span><span class="sxs-lookup"><span data-stu-id="173ff-222">Amount</span></span> | <span data-ttu-id="173ff-223">Bilance</span><span class="sxs-lookup"><span data-stu-id="173ff-223">Balance</span></span> |
 |---------------|--------|---------|
-| Rēķins       | 105,00 | 0,00    |
-| Maksājums       | -95,00 | -0,00   |
-| Termiņatlaide | -10,00 | 0,00    |
+| <span data-ttu-id="173ff-224">Rēķins</span><span class="sxs-lookup"><span data-stu-id="173ff-224">Invoice</span></span>       | <span data-ttu-id="173ff-225">105,00</span><span class="sxs-lookup"><span data-stu-id="173ff-225">105.00</span></span> | <span data-ttu-id="173ff-226">0,00</span><span class="sxs-lookup"><span data-stu-id="173ff-226">0.00</span></span>    |
+| <span data-ttu-id="173ff-227">Maksājums</span><span class="sxs-lookup"><span data-stu-id="173ff-227">Payment</span></span>       | <span data-ttu-id="173ff-228">-95,00</span><span class="sxs-lookup"><span data-stu-id="173ff-228">-95.00</span></span> | <span data-ttu-id="173ff-229">-0,00</span><span class="sxs-lookup"><span data-stu-id="173ff-229">-0.00</span></span>   |
+| <span data-ttu-id="173ff-230">Termiņatlaide</span><span class="sxs-lookup"><span data-stu-id="173ff-230">Cash discount</span></span> | <span data-ttu-id="173ff-231">-10,00</span><span class="sxs-lookup"><span data-stu-id="173ff-231">-10.00</span></span> | <span data-ttu-id="173ff-232">0,00</span><span class="sxs-lookup"><span data-stu-id="173ff-232">0.00</span></span>    |
 
-Termiņatlaides summa tiek samazināta no 10,50 uz 10,00. Maksājums un rēķins tiek uzskatīti par nosegtiem. **Maksājums**;
+<span data-ttu-id="173ff-233">Termiņatlaides summa tiek samazināta no 10,50 uz 10,00.</span><span class="sxs-lookup"><span data-stu-id="173ff-233">The cash discount amount is reduced from 10.50 to 10.00.</span></span> <span data-ttu-id="173ff-234">Maksājums un rēķins tiek uzskatīti par nosegtiem.</span><span class="sxs-lookup"><span data-stu-id="173ff-234">The payment and invoice are considered settled.</span></span> <span data-ttu-id="173ff-235">**Maksājums**;</span><span class="sxs-lookup"><span data-stu-id="173ff-235">**Payment**</span></span>
 
-| Konts             | Debeta summa | Kredīta summa |
+| <span data-ttu-id="173ff-236">Konts</span><span class="sxs-lookup"><span data-stu-id="173ff-236">Account</span></span>             | <span data-ttu-id="173ff-237">Debeta summa</span><span class="sxs-lookup"><span data-stu-id="173ff-237">Debit amount</span></span> | <span data-ttu-id="173ff-238">Kredīta summa</span><span class="sxs-lookup"><span data-stu-id="173ff-238">Credit amount</span></span> |
 |---------------------|--------------|---------------|
-| Kase                | 95,00        |               |
-| Debitoru parādi |              | 95,00         |
+| <span data-ttu-id="173ff-239">Kase</span><span class="sxs-lookup"><span data-stu-id="173ff-239">Cash</span></span>                | <span data-ttu-id="173ff-240">95,00</span><span class="sxs-lookup"><span data-stu-id="173ff-240">95.00</span></span>        |               |
+| <span data-ttu-id="173ff-241">Debitoru parādi</span><span class="sxs-lookup"><span data-stu-id="173ff-241">Accounts receivable</span></span> |              | <span data-ttu-id="173ff-242">95,00</span><span class="sxs-lookup"><span data-stu-id="173ff-242">95.00</span></span>         |
 
-**Segšana**
+<span data-ttu-id="173ff-243">**Segšana**</span><span class="sxs-lookup"><span data-stu-id="173ff-243">**Settlement**</span></span>
 
-| Konts                                                                                          | Debeta summa | Kredīta summa |
+| <span data-ttu-id="173ff-244">Konts</span><span class="sxs-lookup"><span data-stu-id="173ff-244">Account</span></span>                                                                                          | <span data-ttu-id="173ff-245">Debeta summa</span><span class="sxs-lookup"><span data-stu-id="173ff-245">Debit amount</span></span> | <span data-ttu-id="173ff-246">Kredīta summa</span><span class="sxs-lookup"><span data-stu-id="173ff-246">Credit amount</span></span> |
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
-| Termiņatlaide (laukā **Galvenais konts debitoru atlaidēm** lapā **Termiņatlaides**) | 10,50        |               |
-| Debitoru parādi                                                                              |              | 10,50         |
+| <span data-ttu-id="173ff-247">Termiņatlaide (laukā **Galvenais konts debitoru atlaidēm** lapā **Termiņatlaides**)</span><span class="sxs-lookup"><span data-stu-id="173ff-247">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span> | <span data-ttu-id="173ff-248">10,50</span><span class="sxs-lookup"><span data-stu-id="173ff-248">10.50</span></span>        |               |
+| <span data-ttu-id="173ff-249">Debitoru parādi</span><span class="sxs-lookup"><span data-stu-id="173ff-249">Accounts receivable</span></span>                                                                              |              | <span data-ttu-id="173ff-250">10,50</span><span class="sxs-lookup"><span data-stu-id="173ff-250">10.50</span></span>         |
 
 
 

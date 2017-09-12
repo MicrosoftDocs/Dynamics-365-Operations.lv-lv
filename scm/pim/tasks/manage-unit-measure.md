@@ -16,59 +16,59 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: de5baa1e5c30ee998d113f7366c445a65723dfdc
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 6bb7a5133e9412f4ed6fb74f0d3ee595c07a0c4b
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="manage-unit-of-measure"></a>Mērvienības pārvaldība
+# <a name="manage-unit-of-measure"></a><span data-ttu-id="55c4f-103">Mērvienības pārvaldība</span><span class="sxs-lookup"><span data-stu-id="55c4f-103">Manage unit of measure</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā procedūrā parādīts, kā definēt mērvienību, nodrošināt mērvienības tulkojumus un aprakstu, un definēt pārveidošanas noteikumus saistītām mērvienībām. Šo procedūru var izmēģināt, izmantojot demonstrācijas datus vai izmantojot savus datus.
+<span data-ttu-id="55c4f-104">Šajā procedūrā parādīts, kā definēt mērvienību, nodrošināt mērvienības tulkojumus un aprakstu, un definēt pārveidošanas noteikumus saistītām mērvienībām.</span><span class="sxs-lookup"><span data-stu-id="55c4f-104">This procedure shows how to define a unit of measure, provide translations for the unit and it's description, and define conversion rules for related units.</span></span> <span data-ttu-id="55c4f-105">Šo procedūru var izmēģināt, izmantojot demonstrācijas datus vai izmantojot savus datus.</span><span class="sxs-lookup"><span data-stu-id="55c4f-105">You can walk through this procedure using demo data, or using your own data.</span></span>
 
-1. Dodieties uz Izlaisto preču uzturēšana.
-2. Noklikšķiniet uz Mērvienības.
+1. <span data-ttu-id="55c4f-106">Dodieties uz Izlaisto preču uzturēšana.</span><span class="sxs-lookup"><span data-stu-id="55c4f-106">Go to Released product maintenance.</span></span>
+2. <span data-ttu-id="55c4f-107">Noklikšķiniet uz Mērvienības.</span><span class="sxs-lookup"><span data-stu-id="55c4f-107">Click Units.</span></span>
 
-## <a name="create-a-unit-of-measure"></a>Mērvienības izveide
-1. Noklikšķiniet uz Jauns.
-2. Laukā Mērvienība ierakstiet vērtību.
-    * Ievadiet ID vai simbolu, kas jāizmanto, atsaucoties uz mērvienību.  
-3. Apraksta laukā ierakstiet vērtību.
-    * Ievadiet mērvienības aprakstošo nosaukumu sistēmas valodā.  
-4. Laukā Mērvienību kategorija atlasiet opciju.
-    * Mērvienību kategorija nosaka, kādam loģiskam grupējumam pieder mērvienība, piemēram, platībai, masai vai daudzumam.  
-5. Laukā Decimālā precizitāte ievadiet skaitli.
-    * Norādiet decimāldaļu skaitu, līdz kuram jānoapaļo konvertētā mērvienība, kad mērvienības aprēķins ir pabeigts.  
-6. Noklikšķiniet uz Saglabāt.
+## <a name="create-a-unit-of-measure"></a><span data-ttu-id="55c4f-108">Mērvienības izveide</span><span class="sxs-lookup"><span data-stu-id="55c4f-108">Create a unit of measure</span></span>
+1. <span data-ttu-id="55c4f-109">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="55c4f-109">Click New.</span></span>
+2. <span data-ttu-id="55c4f-110">Laukā Mērvienība ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="55c4f-110">In the Unit field, type a value.</span></span>
+    * <span data-ttu-id="55c4f-111">Ievadiet ID vai simbolu, kas jāizmanto, atsaucoties uz mērvienību.</span><span class="sxs-lookup"><span data-stu-id="55c4f-111">Enter the ID or symbol to use when referring to the unit of measure.</span></span>  
+3. <span data-ttu-id="55c4f-112">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="55c4f-112">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="55c4f-113">Ievadiet mērvienības aprakstošo nosaukumu sistēmas valodā.</span><span class="sxs-lookup"><span data-stu-id="55c4f-113">Enter a descriptive name for the unit of measure in the system language.</span></span>  
+4. <span data-ttu-id="55c4f-114">Laukā Mērvienību kategorija atlasiet opciju.</span><span class="sxs-lookup"><span data-stu-id="55c4f-114">In the Unit class field, select an option.</span></span>
+    * <span data-ttu-id="55c4f-115">Mērvienību kategorija nosaka, kādam loģiskam grupējumam pieder mērvienība, piemēram, platībai, masai vai daudzumam.</span><span class="sxs-lookup"><span data-stu-id="55c4f-115">The unit class defines what logical grouping, such as area, mass, or quantity, the unit of measure is part of.</span></span>  
+5. <span data-ttu-id="55c4f-116">Laukā Decimālā precizitāte ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="55c4f-116">In the Decimal precision field, enter a number.</span></span>
+    * <span data-ttu-id="55c4f-117">Norādiet decimāldaļu skaitu, līdz kuram jānoapaļo konvertētā mērvienība, kad mērvienības aprēķins ir pabeigts.</span><span class="sxs-lookup"><span data-stu-id="55c4f-117">Specify the number of decimals that the converted unit of measure must be rounded to when a calculation is completed for the unit of measure.</span></span>  
+6. <span data-ttu-id="55c4f-118">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="55c4f-118">Click Save.</span></span>
 
-## <a name="define-unit-translations"></a>Vienību tulkojumu definēšana
-1. Noklikšķiniet uz Vienības teksti.
-2. Noklikšķiniet uz Jauns.
-    * Izmantojiet vienības tekstu, lai izveidotu ID vai simbola, kas apzīmē mērvienību, tulkojumu izmantošanai ārējos dokumentos debitoram vai kreditoram specifiskā valodā.  
-3. Laukā Valoda ievadiet vai atlasiet kādu vērtību.
-4. Ierakstiet vērtību laukā Teksts.
-5. Noklikšķiniet uz Saglabāt.
-6. Aizvērt lapu.
-7. Noklikšķiniet uz Tulkotie vienību apraksti.
-8. Noklikšķiniet uz Jauns.
-    * Definējiet valodai raksturīgus mērvienības aprakstus.  
-9. Laukā Valoda ievadiet vai atlasiet kādu vērtību.
-10. Apraksta laukā ierakstiet vērtību.
-11. Noklikšķiniet uz Saglabāt.
-12. Aizvērt lapu.
+## <a name="define-unit-translations"></a><span data-ttu-id="55c4f-119">Vienību tulkojumu definēšana</span><span class="sxs-lookup"><span data-stu-id="55c4f-119">Define unit translations</span></span>
+1. <span data-ttu-id="55c4f-120">Noklikšķiniet uz Vienības teksti.</span><span class="sxs-lookup"><span data-stu-id="55c4f-120">Click Unit texts.</span></span>
+2. <span data-ttu-id="55c4f-121">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="55c4f-121">Click New.</span></span>
+    * <span data-ttu-id="55c4f-122">Izmantojiet vienības tekstu, lai izveidotu ID vai simbola, kas apzīmē mērvienību, tulkojumu izmantošanai ārējos dokumentos debitoram vai kreditoram specifiskā valodā.</span><span class="sxs-lookup"><span data-stu-id="55c4f-122">Use unit text to create a translation of the ID or a symbol representing the unit of measure for use on external documents in customer- or vendor-specific languages.</span></span>  
+3. <span data-ttu-id="55c4f-123">Laukā Valoda ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="55c4f-123">In the Language field, enter or select a value.</span></span>
+4. <span data-ttu-id="55c4f-124">Ierakstiet vērtību laukā Teksts.</span><span class="sxs-lookup"><span data-stu-id="55c4f-124">In the Text field, type a value.</span></span>
+5. <span data-ttu-id="55c4f-125">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="55c4f-125">Click Save.</span></span>
+6. <span data-ttu-id="55c4f-126">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="55c4f-126">Close the page.</span></span>
+7. <span data-ttu-id="55c4f-127">Noklikšķiniet uz Tulkotie vienību apraksti.</span><span class="sxs-lookup"><span data-stu-id="55c4f-127">Click Translated unit descriptions.</span></span>
+8. <span data-ttu-id="55c4f-128">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="55c4f-128">Click New.</span></span>
+    * <span data-ttu-id="55c4f-129">Definējiet valodai raksturīgus mērvienības aprakstus.</span><span class="sxs-lookup"><span data-stu-id="55c4f-129">Define language-specific descriptions for the unit of measure.</span></span>  
+9. <span data-ttu-id="55c4f-130">Laukā Valoda ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="55c4f-130">In the Language field, enter or select a value.</span></span>
+10. <span data-ttu-id="55c4f-131">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="55c4f-131">In the Description field, type a value.</span></span>
+11. <span data-ttu-id="55c4f-132">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="55c4f-132">Click Save.</span></span>
+12. <span data-ttu-id="55c4f-133">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="55c4f-133">Close the page.</span></span>
 
-## <a name="define-unit-conversion-rules"></a>Vienību pārveidošanas noteikumu definēšana
-1. Noklikšķiniet uz Mērvienību pārveidošana.
-    * Definējiet noteikumus mērvienības pārveidošanai uz citām mērvienībām un no citām mērvienībām atlasītajā mērvienību kategorijā.  
-2. Noklikšķiniet uz Jauns, lai atvērtu nolaižamo dialoglodziņu.
-3. Laukā Koeficients ievadiet skaitli.
-    * Pārveidošanas koeficients no No vienības uz Uz vienību. Piemēram, pārveidošanas koeficients no centimetriem uz metriem ir 100, jo viena metrā ir 100 centimetru.  
-4. Laukā Uz mērvienību ievadiet vai atlasiet kādu vērtību.
-5. Laukā Noapaļošana atlasiet opciju.
-    * Nosakiet, kā pārveidotā vērtība ir jānoapaļo.  
-6. Noklikšķiniet uz OK.
-7. Aizvērt lapu.
+## <a name="define-unit-conversion-rules"></a><span data-ttu-id="55c4f-134">Vienību pārveidošanas noteikumu definēšana</span><span class="sxs-lookup"><span data-stu-id="55c4f-134">Define unit conversion rules</span></span>
+1. <span data-ttu-id="55c4f-135">Noklikšķiniet uz Mērvienību pārveidošana.</span><span class="sxs-lookup"><span data-stu-id="55c4f-135">Click Unit conversions.</span></span>
+    * <span data-ttu-id="55c4f-136">Definējiet noteikumus mērvienības pārveidošanai uz citām mērvienībām un no citām mērvienībām atlasītajā mērvienību kategorijā.</span><span class="sxs-lookup"><span data-stu-id="55c4f-136">Define rules for converting the unit of measure to and from other units of measure in the selected unit class.</span></span>  
+2. <span data-ttu-id="55c4f-137">Noklikšķiniet uz Jauns, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="55c4f-137">Click New to open the drop dialog.</span></span>
+3. <span data-ttu-id="55c4f-138">Laukā Koeficients ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="55c4f-138">In the Factor field, enter a number.</span></span>
+    * <span data-ttu-id="55c4f-139">Pārveidošanas koeficients no No vienības uz Uz vienību.</span><span class="sxs-lookup"><span data-stu-id="55c4f-139">Conversion factor between the From unit and the To unit.</span></span> <span data-ttu-id="55c4f-140">Piemēram, pārveidošanas koeficients no centimetriem uz metriem ir 100, jo viena metrā ir 100 centimetru.</span><span class="sxs-lookup"><span data-stu-id="55c4f-140">For example, the conversion factor from centimeter to meter is 100 because there are 100 centimeters in one meter.</span></span>  
+4. <span data-ttu-id="55c4f-141">Laukā Uz mērvienību ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="55c4f-141">In the To unit field, enter or select a value.</span></span>
+5. <span data-ttu-id="55c4f-142">Laukā Noapaļošana atlasiet opciju.</span><span class="sxs-lookup"><span data-stu-id="55c4f-142">In the Rounding field, select an option.</span></span>
+    * <span data-ttu-id="55c4f-143">Nosakiet, kā pārveidotā vērtība ir jānoapaļo.</span><span class="sxs-lookup"><span data-stu-id="55c4f-143">Define how the converted value should be rounded.</span></span>  
+6. <span data-ttu-id="55c4f-144">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="55c4f-144">Click OK.</span></span>
+7. <span data-ttu-id="55c4f-145">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="55c4f-145">Close the page.</span></span>
 
 

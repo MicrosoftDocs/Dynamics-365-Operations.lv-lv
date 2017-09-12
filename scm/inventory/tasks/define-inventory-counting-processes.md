@@ -1,4 +1,4 @@
---- 
+---
 title: "Krājumu inventarizācijas procesu definēšana"
 description: "Šajā procedūrā parādīts, kā konfigurēt pamata krājumu inventarizācijas procesus, izveidojot inventarizācijas grupu un inventarizācijas žurnālu."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,72 +17,71 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 62c60faafd9ad96ce636a08102bc8652f9fff870
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: c14c846c55a3d821945160835817cd4f467deda9
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
-# <a name="define-inventory-counting-processes"></a>Krājumu inventarizācijas procesu definēšana
+# <a name="define-inventory-counting-processes"></a><span data-ttu-id="a942d-103">Krājumu inventarizācijas procesu definēšana</span><span class="sxs-lookup"><span data-stu-id="a942d-103">Define inventory counting processes</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā procedūrā parādīts, kā konfigurēt pamata krājumu inventarizācijas procesus, izveidojot inventarizācijas grupu un inventarizācijas žurnālu. Tajā arī parādīts, kā iespējot inventarizācijas politikas noliktavas un krājuma līmenī. Šos uzdevumus parasti veic noliktavas vadītājs. Tā paveikšanai ir nepieciešams, lai būtu izveidotas dažas izlaistas preces un noliktavas. Ja izmantojat demonstrācijas datu uzņēmumu, šo procedūru varat palaist USMF uzņēmumā, izmantojot jebkuru krājumā esošu vienumu.
+<span data-ttu-id="a942d-104">Šajā procedūrā parādīts, kā konfigurēt pamata krājumu inventarizācijas procesus, izveidojot inventarizācijas grupu un inventarizācijas žurnālu.</span><span class="sxs-lookup"><span data-stu-id="a942d-104">This procedure walks you through the configuration of basic inventory counting processes by creating a counting group and a counting journal.</span></span> <span data-ttu-id="a942d-105">Tajā arī parādīts, kā iespējot inventarizācijas politikas noliktavas un krājuma līmenī.</span><span class="sxs-lookup"><span data-stu-id="a942d-105">It also shows you how to enable counting policies on a warehouse and item level.</span></span> <span data-ttu-id="a942d-106">Šos uzdevumus parasti veic noliktavas vadītājs.</span><span class="sxs-lookup"><span data-stu-id="a942d-106">These tasks would typically be carried out by a warehouse supervisor.</span></span> <span data-ttu-id="a942d-107">Tā paveikšanai ir nepieciešams, lai būtu izveidotas dažas izlaistas preces un noliktavas.</span><span class="sxs-lookup"><span data-stu-id="a942d-107">It is a prerequisite to have some existing released products and warehouses.</span></span> <span data-ttu-id="a942d-108">Ja izmantojat demonstrācijas datu uzņēmumu, šo procedūru varat palaist USMF uzņēmumā, izmantojot jebkuru krājumā esošu vienumu.</span><span class="sxs-lookup"><span data-stu-id="a942d-108">If you're using a demo data company, you can run this procedure in the USMF company with any stocked item.</span></span>
 
 
-## <a name="create-a-counting-group"></a>Inventarizācijas grupas izveidošana
-1. Dodieties uz Krājumu vadība > Iestatīšana > Krājumi > Inventarizācijas grupas.
-2. Noklikšķiniet uz Jauns.
-3. Ierakstiet vērtību laukā Inventarizācijas grupa.
-4. Laukā Nosaukums ierakstiet kādu vērtību.
-5. Atlasiet opciju laukā Inventarizācijas kods.
-    * Manuāli – iekļauj rindas katru reizi, kad palaižat darbu. Citiem vārdiem sakot, tiek noteikts inventarizācijas intervāls inventarizācijas grupai.  Periodiski – iekļauj perioda rindas inventarizācijas žurnālā, kad perioda intervāls ir beidzies.   Nav krājumos – ja rīcībā esošais krājums sasniedz nulli (0), rindas inventarizācijas žurnālā tiek veidotas, kad darbs tiek palaists. Ja rīcībā esošais krājums pēc uzskaites ir 0, rindas tiek veidotas nākamajā reizē, kad uzsākat uzskaiti.   Minimums – ievieto rindas inventarizācijas žurnālā, ja rīcībā esošo krājumu daudzums ir vienāds ar vai mazāks par norādīto minimālo daudzumu.  
-    * Papildu: ja laukā Inventarizācijas kods esat norādījis periodu, laukā Inventarizācijas periods jāievada perioda intervāls. Intervālu vienība ir dienas.  
-    * Palaižot darbu, lai inventarizācijas žurnālā radītu jaunas rindas, tās tiek izveidotas ar intervālu, kas norādīts šajā laukā, neatkarīgi no tā, cik bieži palaižat šo pašu darbu. Piemēram, ja Inventarizācijas periods vērtība ir 7 un žurnāla rindas inventarizācijai tika pēdējo reizi ģenerētas 1. janvārī, palaižot citu darbu 5. janvārī, septiņas dienas nebūs pagājušas, un tādēļ žurnālā šim periodam netiks ģenerēta neviena rinda. Ja darbu vēlreiz palaidīsiet 8. janvārī, inventarizācijas žurnālā šim periodam rindas tiks ģenerētas, jo būs pagājušas 7 dienas.  
-6. Noklikšķiniet uz Saglabāt.
+## <a name="create-a-counting-group"></a><span data-ttu-id="a942d-109">Inventarizācijas grupas izveidošana</span><span class="sxs-lookup"><span data-stu-id="a942d-109">Create a counting group</span></span>
+1. <span data-ttu-id="a942d-110">Dodieties uz Krājumu vadība > Iestatīšana > Krājumi > Inventarizācijas grupas.</span><span class="sxs-lookup"><span data-stu-id="a942d-110">Go to Inventory management > Setup > Inventory > Counting groups.</span></span>
+2. <span data-ttu-id="a942d-111">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="a942d-111">Click New.</span></span>
+3. <span data-ttu-id="a942d-112">Ierakstiet vērtību laukā Inventarizācijas grupa.</span><span class="sxs-lookup"><span data-stu-id="a942d-112">In the Counting group field, type a value.</span></span>
+4. <span data-ttu-id="a942d-113">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a942d-113">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="a942d-114">Atlasiet opciju laukā Inventarizācijas kods.</span><span class="sxs-lookup"><span data-stu-id="a942d-114">In the Counting code field, select an option.</span></span>
+    * <span data-ttu-id="a942d-115">Manuāli – iekļauj rindas katru reizi, kad palaižat darbu.</span><span class="sxs-lookup"><span data-stu-id="a942d-115">Manual – Includes lines every time you run the job.</span></span> <span data-ttu-id="a942d-116">Citiem vārdiem sakot, tiek noteikts inventarizācijas intervāls inventarizācijas grupai.</span><span class="sxs-lookup"><span data-stu-id="a942d-116">In other words, you decide the counting interval for the counting group.</span></span>  <span data-ttu-id="a942d-117">Periodiski – iekļauj perioda rindas inventarizācijas žurnālā, kad perioda intervāls ir beidzies.</span><span class="sxs-lookup"><span data-stu-id="a942d-117">Period – Includes lines for the period in the counting journal when the period interval has expired.</span></span>   <span data-ttu-id="a942d-118">Nav krājumos – ja rīcībā esošais krājums sasniedz nulli (0), rindas inventarizācijas žurnālā tiek veidotas, kad darbs tiek palaists.</span><span class="sxs-lookup"><span data-stu-id="a942d-118">Zero in stock – If on-hand inventory reaches zero (0), lines are generated in the counting journal when the job is run.</span></span> <span data-ttu-id="a942d-119">Ja rīcībā esošais krājums pēc uzskaites ir 0, rindas tiek veidotas nākamajā reizē, kad uzsākat uzskaiti.</span><span class="sxs-lookup"><span data-stu-id="a942d-119">If the on-hand inventory reaches 0 after a count, lines are generated the next time that you start the count.</span></span>   <span data-ttu-id="a942d-120">Minimums – ievieto rindas inventarizācijas žurnālā, ja rīcībā esošo krājumu daudzums ir vienāds ar vai mazāks par norādīto minimālo daudzumu.</span><span class="sxs-lookup"><span data-stu-id="a942d-120">Minimum – Inserts lines in the counting journal if the on-hand inventory is equal to or less than the minimum that is specified.</span></span>  
+    * <span data-ttu-id="a942d-121">Papildu: ja laukā Inventarizācijas kods esat norādījis periodu, laukā Inventarizācijas periods jāievada perioda intervāls.</span><span class="sxs-lookup"><span data-stu-id="a942d-121">Optional: If you have specified Period in the Counting code field, you must type the interval for the period in the Counting period field.</span></span> <span data-ttu-id="a942d-122">Intervālu vienība ir dienas.</span><span class="sxs-lookup"><span data-stu-id="a942d-122">The unit for intervals is days.</span></span>  
+    * <span data-ttu-id="a942d-123">Palaižot darbu, lai inventarizācijas žurnālā radītu jaunas rindas, tās tiek izveidotas ar intervālu, kas norādīts šajā laukā, neatkarīgi no tā, cik bieži palaižat šo pašu darbu.</span><span class="sxs-lookup"><span data-stu-id="a942d-123">When you run the job for creating new lines in the counting journal, new lines are created at the interval specified in this field, regardless of how often you run the same job.</span></span> <span data-ttu-id="a942d-124">Piemēram, ja Inventarizācijas periods vērtība ir 7 un žurnāla rindas inventarizācijai tika pēdējo reizi ģenerētas 1. janvārī, palaižot citu darbu 5. janvārī, septiņas dienas nebūs pagājušas, un tādēļ žurnālā šim periodam netiks ģenerēta neviena rinda.</span><span class="sxs-lookup"><span data-stu-id="a942d-124">For example, if Counting period is set to 7, and journal lines were last generated for a count on January 1, if another job is started on January 5, seven days have not passed and so no lines are generated in the journal for that period interval.</span></span> <span data-ttu-id="a942d-125">Ja darbu vēlreiz palaidīsiet 8. janvārī, inventarizācijas žurnālā šim periodam rindas tiks ģenerētas, jo būs pagājušas 7 dienas.</span><span class="sxs-lookup"><span data-stu-id="a942d-125">If you start the job again on January 8, lines are generated for the period in the counting journal, because 7 days have passed.</span></span>  
+6. <span data-ttu-id="a942d-126">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="a942d-126">Click Save.</span></span>
 
-## <a name="create-a-counting-journal-name"></a>Inventarizācijas žurnāla nosaukuma izveide
-1. Dodieties uz Krājumu vadība > Iestatīšana > Žurnālu nosaukumi > Krājumi.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Nosaukums ierakstiet kādu vērtību.
-4. Apraksta laukā ierakstiet vērtību.
-5. Laukā Žurnāla tips atlasiet Inventarizācija.
-    * Papildu: varat izvēlēties atšķirīgu dokumentu sēriju ID, ja inventarizācijas žurnālu izveidē dokumentu ID iezīmēm vēlaties ģenerēt specifisku skaitļu secību. Dokumentu sērijas tiek veidotas lapā Numuru sērijas.  
-6. Atlasiet opciju laukā Detalizācijas līmenis.
-    * Šis ir detalizācijas līmenis, kas tiek lietots, grāmatojot žurnālu.  
-    * Papildu: varat mainīt vērtību laukā Rezervēšana. Tas norāda metodi, kas tiks izmantota krājumu rezervēšanai inventarizācijas laikā.   
-    * Manuāli — krājumi tiek rezervēti manuāli rezervāciju veidlapā.   Automātiski — pasūtījuma daudzums tiem rezervēts no pieejamajiem krājumiem un rīcībā esošajiem krājumiem.   Izvēršana — rezervācija ir daļa no transakcijas vispārējās plānošanas.  
-7. Noklikšķiniet uz Saglabāt.
+## <a name="create-a-counting-journal-name"></a><span data-ttu-id="a942d-127">Inventarizācijas žurnāla nosaukuma izveide</span><span class="sxs-lookup"><span data-stu-id="a942d-127">Create a counting journal name</span></span>
+1. <span data-ttu-id="a942d-128">Dodieties uz Krājumu vadība > Iestatīšana > Žurnālu nosaukumi > Krājumi.</span><span class="sxs-lookup"><span data-stu-id="a942d-128">Go to Inventory management > Setup > Journal names > Inventory.</span></span>
+2. <span data-ttu-id="a942d-129">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="a942d-129">Click New.</span></span>
+3. <span data-ttu-id="a942d-130">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a942d-130">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="a942d-131">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="a942d-131">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="a942d-132">Laukā Žurnāla tips atlasiet Inventarizācija.</span><span class="sxs-lookup"><span data-stu-id="a942d-132">In the Journal type field, select 'Counting'.</span></span>
+    * <span data-ttu-id="a942d-133">Papildu: varat izvēlēties atšķirīgu dokumentu sēriju ID, ja inventarizācijas žurnālu izveidē dokumentu ID iezīmēm vēlaties ģenerēt specifisku skaitļu secību.</span><span class="sxs-lookup"><span data-stu-id="a942d-133">Optional: you can select a different voucher series ID if you want a specific number sequence for the voucher IDs generated when creating counting journals.</span></span> <span data-ttu-id="a942d-134">Dokumentu sērijas tiek veidotas lapā Numuru sērijas.</span><span class="sxs-lookup"><span data-stu-id="a942d-134">Voucher series are created in the Number sequences page.</span></span>  
+6. <span data-ttu-id="a942d-135">Atlasiet opciju laukā Detalizācijas līmenis.</span><span class="sxs-lookup"><span data-stu-id="a942d-135">In the Detail level field, select an option.</span></span>
+    * <span data-ttu-id="a942d-136">Šis ir detalizācijas līmenis, kas tiek lietots, grāmatojot žurnālu.</span><span class="sxs-lookup"><span data-stu-id="a942d-136">This is the level of detail that is applied when the journal is posted.</span></span>  
+    * <span data-ttu-id="a942d-137">Papildu: varat mainīt vērtību laukā Rezervēšana.</span><span class="sxs-lookup"><span data-stu-id="a942d-137">Optional: you can change the value in the Reservation field.</span></span> <span data-ttu-id="a942d-138">Tas norāda metodi, kas tiks izmantota krājumu rezervēšanai inventarizācijas laikā.</span><span class="sxs-lookup"><span data-stu-id="a942d-138">This is the method used to reserve items during counting.</span></span>   
+    * <span data-ttu-id="a942d-139">Manuāli — krājumi tiek rezervēti manuāli rezervāciju veidlapā.</span><span class="sxs-lookup"><span data-stu-id="a942d-139">Manual – The items are reserved manually in the Reservation form.</span></span>   <span data-ttu-id="a942d-140">Automātiski — pasūtījuma daudzums tiem rezervēts no pieejamajiem krājumiem un rīcībā esošajiem krājumiem.</span><span class="sxs-lookup"><span data-stu-id="a942d-140">Automatic – The order quantity is reserved from the available, on-hand inventory for the item.</span></span>   <span data-ttu-id="a942d-141">Izvēršana — rezervācija ir daļa no transakcijas vispārējās plānošanas.</span><span class="sxs-lookup"><span data-stu-id="a942d-141">Explosion – The reservation is part of the master planning of the transaction.</span></span>  
+7. <span data-ttu-id="a942d-142">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="a942d-142">Click Save.</span></span>
 
-## <a name="set-standard-counting-journal-name"></a>Standarta inventarizācijas žurnāla nosaukuma iestatīšana
-1. Pārejiet uz sadaļu Krājumu pārvaldība > Iestatījumi > Krājumu un noliktavas pārvaldības parametri.
-2. Noklikšķiniet uz cilnes Žurnāli.
-3. Laukā Inventarizācija noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-4. Atlasiet iepriekš izveidoto žurnālu.
-    * Šis žurnāls būs noklusētais žurnāla nosaukums inventarizācijas tipa krājumu žurnāliem.  
-5. Noklikšķiniet uz cilnes Vispārīgi.
-    * Papildu: atlasiet šo opciju, lai bloķētu krājumu inventarizācijas laikā un novērstu pavadzīmju, izdošanas sarakstu vai izdošanas saraksta reģistrāciju labošanu.  
+## <a name="set-standard-counting-journal-name"></a><span data-ttu-id="a942d-143">Standarta inventarizācijas žurnāla nosaukuma iestatīšana</span><span class="sxs-lookup"><span data-stu-id="a942d-143">Set standard counting journal name</span></span>
+1. <span data-ttu-id="a942d-144">Pārejiet uz sadaļu Krājumu pārvaldība > Iestatījumi > Krājumu un noliktavas pārvaldības parametri.</span><span class="sxs-lookup"><span data-stu-id="a942d-144">Go to Inventory management > Setup > Inventory and warehouse management parameters.</span></span>
+2. <span data-ttu-id="a942d-145">Noklikšķiniet uz cilnes Žurnāli.</span><span class="sxs-lookup"><span data-stu-id="a942d-145">Click the Journals tab.</span></span>
+3. <span data-ttu-id="a942d-146">Laukā Inventarizācija noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="a942d-146">In the Counting field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="a942d-147">Atlasiet iepriekš izveidoto žurnālu.</span><span class="sxs-lookup"><span data-stu-id="a942d-147">Select the journal you previously created.</span></span>
+    * <span data-ttu-id="a942d-148">Šis žurnāls būs noklusētais žurnāla nosaukums inventarizācijas tipa krājumu žurnāliem.</span><span class="sxs-lookup"><span data-stu-id="a942d-148">This journal will then be the default journal name for inventory journals of the Counting type.</span></span>  
+5. <span data-ttu-id="a942d-149">Noklikšķiniet uz cilnes Vispārīgi.</span><span class="sxs-lookup"><span data-stu-id="a942d-149">Click the General tab.</span></span>
+    * <span data-ttu-id="a942d-150">Papildu: atlasiet šo opciju, lai bloķētu krājumu inventarizācijas laikā un novērstu pavadzīmju, izdošanas sarakstu vai izdošanas saraksta reģistrāciju labošanu.</span><span class="sxs-lookup"><span data-stu-id="a942d-150">Optional: Select this option to lock an item during the counting process to prevent updates for packing slips, picking lists, or picking list registrations.</span></span>  
 
-## <a name="set-the-counting-policy-for-an-item"></a>Krājuma inventarizācijas politikas iestatīšana
-1. Pārejiet uz sadaļu Preču informācijas pārvaldība > Preces > Izlaistās preces.
-2. Sarakstā noklikšķiniet uz saites, kas attiecas uz tās preces Krājuma numuru, kurai vēlaties iestatīt inventarizācijas politikas.
-    * Ņemiet vērā, ka ir nepieciešams atlasīt krājumā izsekotu vienību. Nevar uzskaitīt noliktavā neesošas preces. Ja izmantojat USMF demonstrācijas datus, varat atlasīt krājumu A0001.  
-3. Noklikšķiniet uz Rediģēt.
-4. Pārslēdziet sadaļas Pārvaldīt krājumus paplašinājumu.
-5. Laukā Inventarizācijas grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-6. Sarakstā noklikšķiniet uz iepriekš izveidotās inventarizācijas grupas.
-    * Šī prece tagad tiks iekļauta, kad tiks veidotas krājumu inventarizācijas žurnāla rindas, izmantojot šo inventarizācijas grupu.  
-7. Noklikšķiniet uz Saglabāt.
+## <a name="set-the-counting-policy-for-an-item"></a><span data-ttu-id="a942d-151">Krājuma inventarizācijas politikas iestatīšana</span><span class="sxs-lookup"><span data-stu-id="a942d-151">Set the counting policy for an item</span></span>
+1. <span data-ttu-id="a942d-152">Pārejiet uz sadaļu Preču informācijas pārvaldība > Preces > Izlaistās preces.</span><span class="sxs-lookup"><span data-stu-id="a942d-152">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="a942d-153">Sarakstā noklikšķiniet uz saites, kas attiecas uz tās preces Krājuma numuru, kurai vēlaties iestatīt inventarizācijas politikas.</span><span class="sxs-lookup"><span data-stu-id="a942d-153">In the list, click on the link for the Item number of the product that you want to set counting policies on.</span></span>
+    * <span data-ttu-id="a942d-154">Ņemiet vērā, ka ir nepieciešams atlasīt krājumā izsekotu vienību.</span><span class="sxs-lookup"><span data-stu-id="a942d-154">Note that you need to select an item that is inventory tracked.</span></span> <span data-ttu-id="a942d-155">Nevar uzskaitīt noliktavā neesošas preces.</span><span class="sxs-lookup"><span data-stu-id="a942d-155">A non-stocked product can't be counted.</span></span> <span data-ttu-id="a942d-156">Ja izmantojat USMF demonstrācijas datus, varat atlasīt krājumu A0001.</span><span class="sxs-lookup"><span data-stu-id="a942d-156">If you are using USMF demo data you can select item A0001.</span></span>  
+3. <span data-ttu-id="a942d-157">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="a942d-157">Click Edit.</span></span>
+4. <span data-ttu-id="a942d-158">Pārslēdziet sadaļas Pārvaldīt krājumus paplašinājumu.</span><span class="sxs-lookup"><span data-stu-id="a942d-158">Toggle the expansion of the Manage inventory section.</span></span>
+5. <span data-ttu-id="a942d-159">Laukā Inventarizācijas grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="a942d-159">In the Counting group field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="a942d-160">Sarakstā noklikšķiniet uz iepriekš izveidotās inventarizācijas grupas.</span><span class="sxs-lookup"><span data-stu-id="a942d-160">In the list, click on the counting group you previously created.</span></span>
+    * <span data-ttu-id="a942d-161">Šī prece tagad tiks iekļauta, kad tiks veidotas krājumu inventarizācijas žurnāla rindas, izmantojot šo inventarizācijas grupu.</span><span class="sxs-lookup"><span data-stu-id="a942d-161">This product will now be included when inventory counting journal lines are created using this counting group.</span></span>  
+7. <span data-ttu-id="a942d-162">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="a942d-162">Click Save.</span></span>
 
-## <a name="set-the-counting-policy-for-an-item-in-a-specific-warehouse"></a>Inventarizācijas politikas iestatīšana krājumam konkrētā noliktavā
-1. Darbību rūtī noklikšķiniet uz Pārvaldīt krājumus.
-2. Noklikšķiniet uz Noliktavas krājumi.
-3. Klikšķiniet Jauns.
-4. Laukā Noliktava noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-5. Sarakstā atlasiet noliktavu, kurai vēlaties iestatīt specifisku inventarizācijas politiku.
-6. Laukā Inventarizācijas grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-7. Atlasiet sarakstā inventarizācijas grupu.
-    * Šeit varat atlasīt konkrētu inventarizācijas grupu, kas tiek attiecināta uz krājumu konkrētā noliktavā, kuru esat atlasījis. Kad šajā noliktavā tiek veikta inventarizācija, šī inventarizācijas politika konkrētajam krājumam ignorē vispārējo inventarizācijas politiku.  
-8. Noklikšķiniet uz Saglabāt.
-
+## <a name="set-the-counting-policy-for-an-item-in-a-specific-warehouse"></a><span data-ttu-id="a942d-163">Inventarizācijas politikas iestatīšana krājumam konkrētā noliktavā</span><span class="sxs-lookup"><span data-stu-id="a942d-163">Set the counting policy for an item in a specific warehouse</span></span>
+1. <span data-ttu-id="a942d-164">Darbību rūtī noklikšķiniet uz Pārvaldīt krājumus.</span><span class="sxs-lookup"><span data-stu-id="a942d-164">On the Action Pane, click Manage inventory.</span></span>
+2. <span data-ttu-id="a942d-165">Noklikšķiniet uz Noliktavas krājumi.</span><span class="sxs-lookup"><span data-stu-id="a942d-165">Click Warehouse items.</span></span>
+3. <span data-ttu-id="a942d-166">Klikšķiniet Jauns.</span><span class="sxs-lookup"><span data-stu-id="a942d-166">Click New.</span></span>
+4. <span data-ttu-id="a942d-167">Laukā Noliktava noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="a942d-167">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="a942d-168">Sarakstā atlasiet noliktavu, kurai vēlaties iestatīt specifisku inventarizācijas politiku.</span><span class="sxs-lookup"><span data-stu-id="a942d-168">In the list, select the warehouse you want set up specific counting policies for.</span></span>
+6. <span data-ttu-id="a942d-169">Laukā Inventarizācijas grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="a942d-169">In the Counting group field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="a942d-170">Atlasiet sarakstā inventarizācijas grupu.</span><span class="sxs-lookup"><span data-stu-id="a942d-170">In the list, select a counting group</span></span>
+    * <span data-ttu-id="a942d-171">Šeit varat atlasīt konkrētu inventarizācijas grupu, kas tiek attiecināta uz krājumu konkrētā noliktavā, kuru esat atlasījis.</span><span class="sxs-lookup"><span data-stu-id="a942d-171">Here you can select a specific counting group that should apply to the item in the specific warehouse you have selected.</span></span> <span data-ttu-id="a942d-172">Kad šajā noliktavā tiek veikta inventarizācija, šī inventarizācijas politika konkrētajam krājumam ignorē vispārējo inventarizācijas politiku.</span><span class="sxs-lookup"><span data-stu-id="a942d-172">When counting is performed in that warehouse, this counting policy will override the general counting policy for the item.</span></span>  
+8. <span data-ttu-id="a942d-173">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="a942d-173">Click Save.</span></span>
 

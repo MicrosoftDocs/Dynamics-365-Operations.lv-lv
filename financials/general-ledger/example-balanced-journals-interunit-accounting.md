@@ -19,40 +19,40 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 0909b64a77024d551af0dad2de985887cf6ff06d
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: f45d180dc8dcafb0579e76b890dd5d516df5b8c0
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="balanced-journals-for-interunit-accounting"></a>Saskaņoti starpvienību uzskaites žurnāli
+# <a name="balanced-journals-for-interunit-accounting"></a><span data-ttu-id="775d6-103">Saskaņoti starpvienību uzskaites žurnāli</span><span class="sxs-lookup"><span data-stu-id="775d6-103">Balanced journals for interunit accounting</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir izskaidrots, kā automātiski tiek noteikts žurnāla atlikums, ja lapā Virsgrāmata ir atlasīta finanšu dimensijas atlikuma noteikšana. 
+<span data-ttu-id="775d6-104">Šajā rakstā ir izskaidrots, kā automātiski tiek noteikts žurnāla atlikums, ja lapā Virsgrāmata ir atlasīta finanšu dimensijas atlikuma noteikšana.</span><span class="sxs-lookup"><span data-stu-id="775d6-104">This article shows how a journal is automatically balanced when a balancing financial dimension is selected on the Ledger page.</span></span> 
 
-Ja konta ieraksti nav saskaņoti finanšu dimensijas vērtību līmenī, tiek automātiski izveidoti papildu kona ieraksti, lai saskaņotu žurnālu. Šie konta ieraksti izmanto grāmatošanas tipus **Starpvienību uzskaite — debets** un **Starpvienību uzskaite — kredīts** lapā **Automātisko darījumu konti**, lai noteiktu galveno kontu. Piemēram, kā saskaņošanas finanšu dimensija tiek atlasīta dimensija Filiāle, kas ir otrais virsgrāmatas konta segments, un tiks izveidoti tālāk norādītie uzskaites ieraksti.
+<span data-ttu-id="775d6-105">Ja konta ieraksti nav saskaņoti finanšu dimensijas vērtību līmenī, tiek automātiski izveidoti papildu kona ieraksti, lai saskaņotu žurnālu.</span><span class="sxs-lookup"><span data-stu-id="775d6-105">If account entries don't balance at the level of the financial dimension values, additional account entries are created automatically to balance the journal.</span></span> <span data-ttu-id="775d6-106">Šie konta ieraksti izmanto grāmatošanas tipus **Starpvienību uzskaite — debets** un **Starpvienību uzskaite — kredīts** lapā **Automātisko darījumu konti**, lai noteiktu galveno kontu.</span><span class="sxs-lookup"><span data-stu-id="775d6-106">These account entries use the **Interunit - debit** and **Interunit - credit** posting types on the **Accounts for automatic transactions** page to determine the main account.</span></span> <span data-ttu-id="775d6-107">Piemēram, kā saskaņošanas finanšu dimensija tiek atlasīta dimensija Filiāle, kas ir otrais virsgrāmatas konta segments, un tiks izveidoti tālāk norādītie uzskaites ieraksti.</span><span class="sxs-lookup"><span data-stu-id="775d6-107">For example, Branch, which is the second segment of the ledger account, is selected as the balancing financial dimension, and the following accounting entries are about to be created.</span></span>
 
 |                      |           |
 |----------------------|-----------|
-| 6100 – MSP – OU\_256 | 100.00 DR |
-| 6100 – NY – OU\_249  | 100.00 DR |
-| 2100 – MSP – OU\_256 | 200.00 CR |
+| <span data-ttu-id="775d6-108">6100 – MSP – OU\_256</span><span class="sxs-lookup"><span data-stu-id="775d6-108">6100 – MSP – OU\_256</span></span> | <span data-ttu-id="775d6-109">100.00 DR</span><span class="sxs-lookup"><span data-stu-id="775d6-109">100.00 DR</span></span> |
+| <span data-ttu-id="775d6-110">6100 – NY – OU\_249</span><span class="sxs-lookup"><span data-stu-id="775d6-110">6100 – NY – OU\_249</span></span>  | <span data-ttu-id="775d6-111">100.00 DR</span><span class="sxs-lookup"><span data-stu-id="775d6-111">100.00 DR</span></span> |
+| <span data-ttu-id="775d6-112">2100 – MSP – OU\_256</span><span class="sxs-lookup"><span data-stu-id="775d6-112">2100 – MSP – OU\_256</span></span> | <span data-ttu-id="775d6-113">200.00 CR</span><span class="sxs-lookup"><span data-stu-id="775d6-113">200.00 CR</span></span> |
 
-Šādā gadījumā tiek noteiktas tālāk norādītās bilances.
+<span data-ttu-id="775d6-114">Šādā gadījumā tiek noteiktas tālāk norādītās bilances.</span><span class="sxs-lookup"><span data-stu-id="775d6-114">In this case, the following balances are determined:</span></span>
 
--   Filiālei MSP = 100,00 CR
--   Filiālei NY = 100,00 DR
+-   <span data-ttu-id="775d6-115">Filiālei MSP = 100,00 CR</span><span class="sxs-lookup"><span data-stu-id="775d6-115">For Branch MSP = 100.00 CR</span></span>
+-   <span data-ttu-id="775d6-116">Filiālei NY = 100,00 DR</span><span class="sxs-lookup"><span data-stu-id="775d6-116">For Branch NY = 100.00 DR</span></span>
 
-Tāpēc tiek automātiski izveidoti tālāk norādītie uzskaites ieraksti, lai saskaņotu žurnālu finanšu dimensijas vērtību līmenī.
+<span data-ttu-id="775d6-117">Tāpēc tiek automātiski izveidoti tālāk norādītie uzskaites ieraksti, lai saskaņotu žurnālu finanšu dimensijas vērtību līmenī.</span><span class="sxs-lookup"><span data-stu-id="775d6-117">Therefore, the following accounting entries are created automatically to balance the  journal at the level of the financial dimension values.</span></span>
 
 |                                   |           |
 |-----------------------------------|-----------|
-| (Starpvienību debets) – MSP – OU\_256 | 100.00 DR |
-| (Starpvienību kredīts) – NY – OU\_249 | 100.00 CR |
+| <span data-ttu-id="775d6-118">(Starpvienību debets) – MSP – OU\_256</span><span class="sxs-lookup"><span data-stu-id="775d6-118">(Interunit Debit) – MSP – OU\_256</span></span> | <span data-ttu-id="775d6-119">100.00 DR</span><span class="sxs-lookup"><span data-stu-id="775d6-119">100.00 DR</span></span> |
+| <span data-ttu-id="775d6-120">(Starpvienību kredīts) – NY – OU\_249</span><span class="sxs-lookup"><span data-stu-id="775d6-120">(Interunit Credit) – NY – OU\_249</span></span> | <span data-ttu-id="775d6-121">100.00 CR</span><span class="sxs-lookup"><span data-stu-id="775d6-121">100.00 CR</span></span> |
 
 
 

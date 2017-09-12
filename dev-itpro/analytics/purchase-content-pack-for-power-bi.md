@@ -15,36 +15,36 @@ ms.custom: 265434
 ms.assetid: 3cd9dfce-2687-4303-bc78-349e7cb5ea75
 ms.search.region: global
 ms.author: fdahl
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: daba17aed7e6cc475a16d6100c5c99ee747ca048
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 4e60a6c7d79f59382b3958b849d78aac18550bc3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="purchase-spend-analysis-power-bi-content"></a>Power BI satura pakotne Pirkumu tēriņu analīze
+# <a name="purchase-spend-analysis-power-bi-content"></a><span data-ttu-id="2d1ba-104">Power BI satura pakotne Pirkumu tēriņu analīze</span><span class="sxs-lookup"><span data-stu-id="2d1ba-104">Purchase spend analysis Power BI content</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kas ir iekļauts Microsoft Power BI satura **pirkumu tēriņu analīzē**. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
+<span data-ttu-id="2d1ba-105">Šajā tēmā ir aprakstīts, kas ir iekļauts Microsoft Power BI satura **pirkumu tēriņu analīzē**.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-105">This topic describes what is included in the **Purchase spend analysis** Microsoft Power BI content.</span></span> <span data-ttu-id="2d1ba-106">Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 
-## <a name="overview"></a>Pārskats
+## <a name="overview"></a><span data-ttu-id="2d1ba-107">Pārskats</span><span class="sxs-lookup"><span data-stu-id="2d1ba-107">Overview</span></span>
 
-**Pirkumu tēriņu analīzes** Power BI saturs tika veidots, lai iepirkumu nodaļas vadītājiem un vadītājiem, kuri ir atbildīgi par budžetu, palīdzētu sekot pirkuma tēriņiem. Vadītāji var analizēt pirkumu tēriņus šādos veidos:
+<span data-ttu-id="2d1ba-108">**Pirkumu tēriņu analīzes** Power BI saturs tika veidots, lai iepirkumu nodaļas vadītājiem un vadītājiem, kuri ir atbildīgi par budžetu, palīdzētu sekot pirkuma tēriņiem.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-108">The **Purchase spend analysis** Power BI content was designed to help purchasing managers and managers who are responsible for budgets keep an eye on purchase spending.</span></span> <span data-ttu-id="2d1ba-109">Vadītāji var analizēt pirkumu tēriņus šādos veidos:</span><span class="sxs-lookup"><span data-stu-id="2d1ba-109">Managers can analyze purchase spending in the following ways:</span></span>
 
--   Līdzšinējā gada pirkumi (pēc kreditoru grupas, atsevišķa kreditora, sagādes kategorijas, atsevišķas preces un kreditora atrašanās vietas)
--   Pirkumu izmaiņas pa gadiem (pēc kreditoru grupas un sagādes kategorijas)
+-   <span data-ttu-id="2d1ba-110">Līdzšinējā gada pirkumi (pēc kreditoru grupas, atsevišķa kreditora, sagādes kategorijas, atsevišķas preces un kreditora atrašanās vietas)</span><span class="sxs-lookup"><span data-stu-id="2d1ba-110">Year-to-date purchase (by vendor group and individual vendors, procurement category and individual products, and vendor location)</span></span>
+-   <span data-ttu-id="2d1ba-111">Pirkumu izmaiņas pa gadiem (pēc kreditoru grupas un sagādes kategorijas)</span><span class="sxs-lookup"><span data-stu-id="2d1ba-111">Year-over-year purchase change (by vendor group and procurement category)</span></span>
 
-Saturam tiek izmantoti pirkumu transakciju dati, un tas nodrošina gan uzņēmuma līmeņa pirkumu rādītāju apkopošanas skatu, gan pirkumu tēriņu sadalījumu pēc kreditora vai preces. Pārskatos ir izceltas pirkumu tēriņu izmaiņas laika gaitā. Tāpēc pārskatus var izmantot, lai brīdinātu vadītājus par pozitīvām un negatīvām tēriņu tendencēm saistībā ar atsevišķiem kreditoriem un precēm. Turklāt diagrammas ataino pirkumu tēriņus dažādām sagādes kategorijām un kreditoru grupām. Tādēļ kategoriju un reģionālie vadītāji var izmantot šīs diagrammas, lai palīdzētu noteikt tēriņu darbību izmaiņas.
+<span data-ttu-id="2d1ba-112">Saturam tiek izmantoti pirkumu transakciju dati, un tas nodrošina gan uzņēmuma līmeņa pirkumu rādītāju apkopošanas skatu, gan pirkumu tēriņu sadalījumu pēc kreditora vai preces.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-112">The content uses purchase transactional data, and provides both an aggregate view of the company-wide purchase figures and a breakdown of purchase spending by vendor and product.</span></span> <span data-ttu-id="2d1ba-113">Pārskatos ir izceltas pirkumu tēriņu izmaiņas laika gaitā.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-113">Reports highlight changes in purchase spending over time.</span></span> <span data-ttu-id="2d1ba-114">Tāpēc pārskatus var izmantot, lai brīdinātu vadītājus par pozitīvām un negatīvām tēriņu tendencēm saistībā ar atsevišķiem kreditoriem un precēm.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-114">Therefore, the reports can be used to alert managers about positive and negative spending trends for individual vendors and products.</span></span> <span data-ttu-id="2d1ba-115">Turklāt diagrammas ataino pirkumu tēriņus dažādām sagādes kategorijām un kreditoru grupām.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-115">Additionally, charts show purchase spending for different procurement categories and vendor groups.</span></span> <span data-ttu-id="2d1ba-116">Tādēļ kategoriju un reģionālie vadītāji var izmantot šīs diagrammas, lai palīdzētu noteikt tēriņu darbību izmaiņas.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-116">Therefore, category and regional managers can use the charts to help identify changes in spending behavior.</span></span>
 
-## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
-Ja lietojat Microsoft Dynamics 365 for Finance and Operations izdevuma Enterprise 2017. gada jūlija atjauninājumu, **pirkumu tēriņu analīze** Power BI saturs tiek rādīts lapā **Pirkšanas un tēriņu rādītāju analīze** (**Sagāde un avoti** > **Pieprasījumi un pārskati** > **Pirkšanas rādītāju analīze** > **Pirkšanas un tēriņu rādītāju analīze**). 
+## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="2d1ba-117">Piekļūšana Power BI saturam</span><span class="sxs-lookup"><span data-stu-id="2d1ba-117">Accessing the Power BI content</span></span>
+<span data-ttu-id="2d1ba-118">Ja lietojat Microsoft Dynamics 365 for Finance and Operations izdevuma Enterprise 2017. gada jūlija atjauninājumu, **pirkumu tēriņu analīze** Power BI saturs tiek rādīts lapā **Pirkšanas un tēriņu rādītāju analīze** (**Sagāde un avoti** > **Pieprasījumi un pārskati** > **Pirkšanas rādītāju analīze** > **Pirkšanas un tēriņu rādītāju analīze**).</span><span class="sxs-lookup"><span data-stu-id="2d1ba-118">If you're using Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update, the **Purchase spend analysis** Power BI content is shown on the **Purchase and spend analysis** page (**Procurement and sourcing** > **Inquiries and reports** > **Purchase performance analysis** > **Purchase and spend analysis**).</span></span> 
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI saturā iekļautā metrika
-**Pirkumu tēriņu analīzes** Power BI satura pakotnē ir iekļauts pārskats, kas sastāv no rādītāju kopas. Šie rādītāji tiek vizualizēti kā diagrammas, elementi un tabulas. Zemāk norādītajā tabulā ir sniegts pārskats par vizualizācijām.
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="2d1ba-119">Power BI saturā iekļautā metrika</span><span class="sxs-lookup"><span data-stu-id="2d1ba-119">Metrics that are included in the Power BI content</span></span>
+<span data-ttu-id="2d1ba-120">**Pirkumu tēriņu analīzes** Power BI satura pakotnē ir iekļauts pārskats, kas sastāv no rādītāju kopas.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-120">The **Purchase spend analysis** Power BI content includes a report that consists of a set of metrics.</span></span> <span data-ttu-id="2d1ba-121">Šie rādītāji tiek vizualizēti kā diagrammas, elementi un tabulas.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-121">These metrics are visualized as charts, tiles, and tables.</span></span> <span data-ttu-id="2d1ba-122">Zemāk norādītajā tabulā ir sniegts pārskats par vizualizācijām.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-122">The following table provides an overview of the visualizations.</span></span>
 
 <table>
 <colgroup>
@@ -54,120 +54,120 @@ Ja lietojat Microsoft Dynamics 365 for Finance and Operations izdevuma Enterpri
 </colgroup>
 <thead>
 <tr class="header">
-<th>Pārskata lapa</th>
-<th>Diagrammas</th>
-<th>Elementi</th>
+<th><span data-ttu-id="2d1ba-123">Pārskata lapa</span><span class="sxs-lookup"><span data-stu-id="2d1ba-123">Report page</span></span></th>
+<th><span data-ttu-id="2d1ba-124">Diagrammas</span><span class="sxs-lookup"><span data-stu-id="2d1ba-124">Charts</span></span></th>
+<th><span data-ttu-id="2d1ba-125">Elementi</span><span class="sxs-lookup"><span data-stu-id="2d1ba-125">Tiles</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Pirkumi pēc kreditora</td>
+<td><span data-ttu-id="2d1ba-126">Pirkumi pēc kreditora</span><span class="sxs-lookup"><span data-stu-id="2d1ba-126">Purchase by vendor</span></span></td>
 <td><ul>
-<li>Pirmie 10 kreditori pēc pirkšanas (joslu grēdu diagramma)</li>
-<li>Pirkumu kopsumma pēc kreditoru grupas/valsts/nosaukuma (sektoru diagramma)</li>
-<li>Pirkumi pēc kreditoru grupas/valsts/nosaukuma (stabiņu diagramma)</li>
-<li>Vidējie pirkumi pēc kreditoru grupas/valsts/nosaukuma (stabiņu diagramma)</li>
+<li><span data-ttu-id="2d1ba-127">Pirmie 10 kreditori pēc pirkšanas (joslu grēdu diagramma)</span><span class="sxs-lookup"><span data-stu-id="2d1ba-127">Top 10 vendors by purchase (stacked bar chart)</span></span></li>
+<li><span data-ttu-id="2d1ba-128">Pirkumu kopsumma pēc kreditoru grupas/valsts/nosaukuma (sektoru diagramma)</span><span class="sxs-lookup"><span data-stu-id="2d1ba-128">Total purchase by vendor group / country / name (pie chart)</span></span></li>
+<li><span data-ttu-id="2d1ba-129">Pirkumi pēc kreditoru grupas/valsts/nosaukuma (stabiņu diagramma)</span><span class="sxs-lookup"><span data-stu-id="2d1ba-129">Purchase by vendor group / country / name (column chart)</span></span></li>
+<li><span data-ttu-id="2d1ba-130">Vidējie pirkumi pēc kreditoru grupas/valsts/nosaukuma (stabiņu diagramma)</span><span class="sxs-lookup"><span data-stu-id="2d1ba-130">Average purchase by vendor group / country / name (column chart)</span></span></li>
 </ul></td>
 <td><ul>
-<li>Kopējā pirkšana</li>
-<li>Pirkumu palielinājums pa gadiem</li>
-<li>Kreditoru kopskaits</li>
-<li>Aktīvo kreditoru kopskaits</li>
+<li><span data-ttu-id="2d1ba-131">Kopējā pirkšana</span><span class="sxs-lookup"><span data-stu-id="2d1ba-131">Total purchase</span></span></li>
+<li><span data-ttu-id="2d1ba-132">Pirkumu palielinājums pa gadiem</span><span class="sxs-lookup"><span data-stu-id="2d1ba-132">YOY purchase growth</span></span></li>
+<li><span data-ttu-id="2d1ba-133">Kreditoru kopskaits</span><span class="sxs-lookup"><span data-stu-id="2d1ba-133">Total # vendors</span></span></li>
+<li><span data-ttu-id="2d1ba-134">Aktīvo kreditoru kopskaits</span><span class="sxs-lookup"><span data-stu-id="2d1ba-134">Total # of active vendors</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Pirkumi pēc preces</td>
+<td><span data-ttu-id="2d1ba-135">Pirkumi pēc preces</span><span class="sxs-lookup"><span data-stu-id="2d1ba-135">Purchase by product</span></span></td>
 <td><ul>
-<li>Pirkumi pēc sagādes kategorijas/preces nosaukuma (stabiņu diagramma)</li>
-<li>Pirkumu kopsumma pēc sagādes kategorijas/preces nosaukuma (sektoru diagramma)</li>
-<li>Pirmās 10 preces pēc pirkšanas (joslu grēdu diagramma)</li>
+<li><span data-ttu-id="2d1ba-136">Pirkumi pēc sagādes kategorijas/preces nosaukuma (stabiņu diagramma)</span><span class="sxs-lookup"><span data-stu-id="2d1ba-136">Purchase by procurement category / product name (column chart)</span></span></li>
+<li><span data-ttu-id="2d1ba-137">Pirkumu kopsumma pēc sagādes kategorijas/preces nosaukuma (sektoru diagramma)</span><span class="sxs-lookup"><span data-stu-id="2d1ba-137">Total purchase by procurement category / product name (pie chart)</span></span></li>
+<li><span data-ttu-id="2d1ba-138">Pirmās 10 preces pēc pirkšanas (joslu grēdu diagramma)</span><span class="sxs-lookup"><span data-stu-id="2d1ba-138">Top 10 products by purchase (stacked bar chart)</span></span></li>
 </ul></td>
 <td><ul>
-<li>Preču kopskaits</li>
-<li>Aktīvo preču kopskaits procentos no preču kopskaita</li>
-<li>To preču skaits, kas veido 80% pirkumu</li>
+<li><span data-ttu-id="2d1ba-139">Preču kopskaits</span><span class="sxs-lookup"><span data-stu-id="2d1ba-139">Total # of products</span></span></li>
+<li><span data-ttu-id="2d1ba-140">Aktīvo preču kopskaits procentos no preču kopskaita</span><span class="sxs-lookup"><span data-stu-id="2d1ba-140">Total active products percentage of total # of products</span></span></li>
+<li><span data-ttu-id="2d1ba-141">To preču skaits, kas veido 80% pirkumu</span><span class="sxs-lookup"><span data-stu-id="2d1ba-141">Number of products accounting for 80% purchase</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Pirkumi pēc perioda*</td>
+<td><span data-ttu-id="2d1ba-142">Pirkumi pēc perioda*</span><span class="sxs-lookup"><span data-stu-id="2d1ba-142">Purchase by period*</span></span></td>
 <td><ul>
-<li>Pirkumi pēc mēneša/dienas (stabiņu diagramma)</li>
-<li>Apkopotā pirkumu novirze pa gadiem (ūdenskrituma diagramma)</li>
-<li>Pirkumu kopsummas palielinājums pa gadiem (stabiņu diagramma)</li>
-<li>Sagādes izraksts (matrica)</li>
+<li><span data-ttu-id="2d1ba-143">Pirkumi pēc mēneša/dienas (stabiņu diagramma)</span><span class="sxs-lookup"><span data-stu-id="2d1ba-143">Purchase by month / day (column chart)</span></span></li>
+<li><span data-ttu-id="2d1ba-144">Apkopotā pirkumu novirze pa gadiem (ūdenskrituma diagramma)</span><span class="sxs-lookup"><span data-stu-id="2d1ba-144">Cumulative purchase YOY variance (waterfall chart)</span></span></li>
+<li><span data-ttu-id="2d1ba-145">Pirkumu kopsummas palielinājums pa gadiem (stabiņu diagramma)</span><span class="sxs-lookup"><span data-stu-id="2d1ba-145">Total purchase YOY growth (column chart)</span></span></li>
+<li><span data-ttu-id="2d1ba-146">Sagādes izraksts (matrica)</span><span class="sxs-lookup"><span data-stu-id="2d1ba-146">Procurement statement (matrix)</span></span></li>
 </ul></td>
 <td><ul>
-<li>Pirkumu palielinājums pa gadiem</li>
-<li>Pirkumu palielinājums (%)</li>
+<li><span data-ttu-id="2d1ba-147">Pirkumu palielinājums pa gadiem</span><span class="sxs-lookup"><span data-stu-id="2d1ba-147">YOY purchase growth</span></span></li>
+<li><span data-ttu-id="2d1ba-148">Pirkumu palielinājums (%)</span><span class="sxs-lookup"><span data-stu-id="2d1ba-148">YOY purchase growth %</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Pirkumi pēc kreditora atrašanās vietas</td>
+<td><span data-ttu-id="2d1ba-149">Pirkumi pēc kreditora atrašanās vietas</span><span class="sxs-lookup"><span data-stu-id="2d1ba-149">Purchase by vendor location</span></span></td>
 <td><ul>
-<li>Pirkumi pēc pilsētas</li>
-<li>Pirkumu palielinājums pa gadiem (%)</li>
-<li>Pirkumi pēc valsts</li>
+<li><span data-ttu-id="2d1ba-150">Pirkumi pēc pilsētas</span><span class="sxs-lookup"><span data-stu-id="2d1ba-150">Purchase by city</span></span></li>
+<li><span data-ttu-id="2d1ba-151">Pirkumu palielinājums pa gadiem (%)</span><span class="sxs-lookup"><span data-stu-id="2d1ba-151">Purchase YOY growth %</span></span></li>
+<li><span data-ttu-id="2d1ba-152">Pirkumi pēc valsts</span><span class="sxs-lookup"><span data-stu-id="2d1ba-152">Purchase by country</span></span></li>
 </ul></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>Pirkumu tēriņu analīze pēc laika</td>
+<td><span data-ttu-id="2d1ba-153">Pirkumu tēriņu analīze pēc laika</span><span class="sxs-lookup"><span data-stu-id="2d1ba-153">Purchase spend analysis by time</span></span></td>
 <td><ul>
-<li>Pašreizējā gada pirkumi pēc mēneša/dienas (līniju diagramma)</li>
-<li>Pašreizējā un pagājušā gada pirkumi (līniju un stabiņu diagramma)</li>
+<li><span data-ttu-id="2d1ba-154">Pašreizējā gada pirkumi pēc mēneša/dienas (līniju diagramma)</span><span class="sxs-lookup"><span data-stu-id="2d1ba-154">Purchase current year by month / day (line chart)</span></span></li>
+<li><span data-ttu-id="2d1ba-155">Pašreizējā un pagājušā gada pirkumi (līniju un stabiņu diagramma)</span><span class="sxs-lookup"><span data-stu-id="2d1ba-155">Purchase current and last year (line and column chart)</span></span></li>
 </ul></td>
 <td></td>
 </tr>
 <tr class="even">
-<td>Pirkumu tēriņu analīze pēc kreditora</td>
+<td><span data-ttu-id="2d1ba-156">Pirkumu tēriņu analīze pēc kreditora</span><span class="sxs-lookup"><span data-stu-id="2d1ba-156">Purchase spend analysis by vendor</span></span></td>
 <td><ul>
-<li>Pirmo 10 kreditoru pirkumi procentos (%) no pirkumiem (piltuves diagramma)</li>
-<li>Pirmie 10 kreditori ar palielinātiem tēriņiem pa gadiem</li>
-<li>Pirmie 10 kreditori ar samazinātiem tēriņiem pa gadiem</li>
+<li><span data-ttu-id="2d1ba-157">Pirmo 10 kreditoru pirkumi procentos (%) no pirkumiem (piltuves diagramma)</span><span class="sxs-lookup"><span data-stu-id="2d1ba-157">Top 10 vendor purchase % of purchase (funnel)</span></span></li>
+<li><span data-ttu-id="2d1ba-158">Pirmie 10 kreditori ar palielinātiem tēriņiem pa gadiem</span><span class="sxs-lookup"><span data-stu-id="2d1ba-158">Top 10 vendors with increased spending YOY</span></span></li>
+<li><span data-ttu-id="2d1ba-159">Pirmie 10 kreditori ar samazinātiem tēriņiem pa gadiem</span><span class="sxs-lookup"><span data-stu-id="2d1ba-159">Top 10 vendors with decreased spending YOY</span></span></li>
 </ul></td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-\* Šī gada un pagājušā gada pirkumi un palielinājums pēc sagādes kategorijas
+<span data-ttu-id="2d1ba-160">\* Šī gada un pagājušā gada pirkumi un palielinājums pēc sagādes kategorijas</span><span class="sxs-lookup"><span data-stu-id="2d1ba-160">\* Purchase this year and last year, and growth by procurement category</span></span>
 
-## <a name="extending-the-power-bi-content"></a>Power BI satura paplašināšana
-Izmantojot pakalpojumā Microsoft Dynamics Lifecycle Services (LCS) pieejamās satura pakotnes, varat nodrošināt lielisku analīzes funkcionalitāti personām, kuras nepierakstās programmatūrā Microsoft Dynamics 365. Varat izmainīt šīs satura pakotnes, tajās ietverot citus pārskatus vai vizualizācijas, un pēc tam publicēt tās savā Power BI.com nomniekā analīzes veikšanai. 
+## <a name="extending-the-power-bi-content"></a><span data-ttu-id="2d1ba-161">Power BI satura paplašināšana</span><span class="sxs-lookup"><span data-stu-id="2d1ba-161">Extending the Power BI content</span></span>
+<span data-ttu-id="2d1ba-162">Izmantojot pakalpojumā Microsoft Dynamics Lifecycle Services (LCS) pieejamās satura pakotnes, varat nodrošināt lielisku analīzes funkcionalitāti personām, kuras nepierakstās programmatūrā Microsoft Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-162">By using the content packs that are available in Microsoft Dynamics Lifecycle Services (LCS), you can provide great analytics to people who don't sign in to Microsoft Dynamics 365.</span></span> <span data-ttu-id="2d1ba-163">Varat izmainīt šīs satura pakotnes, tajās ietverot citus pārskatus vai vizualizācijas, un pēc tam publicēt tās savā Power BI.com nomniekā analīzes veikšanai.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-163">You can modify these content packs so that they include other reports or visuals, and then publish the content packs to your Power BI.com tenant for analysis.</span></span> 
 
-**Pirkumu tēriņu analīzes** Power BI saturs ir pieejams LCS koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt satura pakotni un ieviest to savā organizācijā, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md). Power BI satura pakotnes implementēšanas demonstrāciju skatiet tēmā [Power BI saturs pakalpojumā Dynamics Lifecycle Services no Microsoft un jūsu partneriem](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
+<span data-ttu-id="2d1ba-164">**Pirkumu tēriņu analīzes** Power BI saturs ir pieejams LCS koplietojamo līdzekļu bibliotēkā.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-164">You can find the **Purchase spend analysis** Power BI content in the Shared assets library in LCS.</span></span> <span data-ttu-id="2d1ba-165">Papildinformāciju par to, kā lejupielādēt satura pakotni un ieviest to savā organizācijā, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md).</span><span class="sxs-lookup"><span data-stu-id="2d1ba-165">For more information about how to download the content and implement it in your organization, see [Power BI content in LCS from Microsoft and your partners](power-bi-content-microsoft-partners.md).</span></span> <span data-ttu-id="2d1ba-166">Power BI satura pakotnes implementēšanas demonstrāciju skatiet tēmā [Power BI saturs pakalpojumā Dynamics Lifecycle Services no Microsoft un jūsu partneriem](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).</span><span class="sxs-lookup"><span data-stu-id="2d1ba-166">To watch a demo that shows how to implement the Power BI content, see the [Power BI content from Microsoft and your partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.</span></span>
 
-Noteikti lejupielādējiet **pirkumu tēriņu analīzes** saturu, kas attiecas uz izmantoto Dynamics 365 versiju.
+<span data-ttu-id="2d1ba-167">Noteikti lejupielādējiet **pirkumu tēriņu analīzes** saturu, kas attiecas uz izmantoto Dynamics 365 versiju.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-167">Be sure to download the **Purchase spend analysis** content that applies to the version of Dynamics 365 that you're using.</span></span>
 
 > [!NOTE]
-> Ja izmantojat Microsoft Dynamics 365 for Operations versiju 1611, šī Power BI satura izmantošanas priekšnosacījums ir KB 4011327. Ja esat pierakstījies LCS, tad KB varat piekļūt šeit: https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
+> <span data-ttu-id="2d1ba-168">Ja izmantojat Microsoft Dynamics 365 for Operations versiju 1611, šī Power BI satura izmantošanas priekšnosacījums ir KB 4011327.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-168">If you're using Microsoft Dynamics 365 for Operations version 1611, KB 4011327 is a prerequisite for this Power BI content.</span></span> <span data-ttu-id="2d1ba-169">Ja esat pierakstījies LCS, tad KB varat piekļūt šeit: https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-169">After you sign in to LCS, you can access the KB at https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.</span></span>
 
-## <a name="data-model-and-entities"></a>Datu modelis un elementi
-**Pirkumu tēriņu analīzes** Power BI satura pārskatu lapu aizpildīšanai tiek izmantoti tālāk norādītie dati. Šie dati tiek attēloti kā apkopoti mērījumi, kas tiek sagatavoti elementu krātuvē. Elementu krātuve ir analīzei optimizēta Microsoft SQL Server datu bāze. Papildinformāciju skatiet tēmā [Apskats par Power BI integrāciju elementu krātuvē](power-bi-integration-entity-store.md).
+## <a name="data-model-and-entities"></a><span data-ttu-id="2d1ba-170">Datu modelis un elementi</span><span class="sxs-lookup"><span data-stu-id="2d1ba-170">Data model and entities</span></span>
+<span data-ttu-id="2d1ba-171">**Pirkumu tēriņu analīzes** Power BI satura pārskatu lapu aizpildīšanai tiek izmantoti tālāk norādītie dati.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-171">The following data is used to fill the report pages in the **Purchase spend analysis** Power BI content.</span></span> <span data-ttu-id="2d1ba-172">Šie dati tiek attēloti kā apkopoti mērījumi, kas tiek sagatavoti elementu krātuvē.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-172">This data is represented as aggregate measurements that are staged in the Entity store.</span></span> <span data-ttu-id="2d1ba-173">Elementu krātuve ir analīzei optimizēta Microsoft SQL Server datu bāze.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-173">The Entity store is a Microsoft SQL Server database that is optimized for analytics.</span></span> <span data-ttu-id="2d1ba-174">Papildinformāciju skatiet tēmā [Apskats par Power BI integrāciju elementu krātuvē](power-bi-integration-entity-store.md).</span><span class="sxs-lookup"><span data-stu-id="2d1ba-174">For more information, see [Overview of Power BI integration with Entity store](power-bi-integration-entity-store.md).</span></span>
 
-Šajā saturā ietvertie apkopošanas mērījumi ir apakškopa tiem apkopošanas mērījumiem, kas ir pieejami pirkšanas kubā programmatūrā Microsoft Dynamics AX 2012 un Microsoft Dynamics AX 2012 R3. Lai padarītu kuba apkopošanas mērījumus pieejamus elementu krātuvē, tie ir jāpadara izvietojami. Papildinformāciju skatiet emuāra ieraksta [Pārskats par Power BI integrāciju, izmantojot elementu krātuvi](power-bi-integration-entity-store.md) sadaļā par apkopošanas mērījumu izvietošanas elementu krātuvē procedūru. Tālāk norādītie galvenie apkopošanas mērījumi ir tieši pieejami no elementa Rēķina rindas, un tie tiek izmantoti kā satura pamatdati.
+<span data-ttu-id="2d1ba-175">Šajā saturā ietvertie apkopošanas mērījumi ir apakškopa tiem apkopošanas mērījumiem, kas ir pieejami pirkšanas kubā programmatūrā Microsoft Dynamics AX 2012 un Microsoft Dynamics AX 2012 R3.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-175">The aggregate measurements in this content are the subset of aggregate measurements that were available in the Purchase Cube in Microsoft Dynamics AX 2012 and Microsoft Dynamics AX 2012 R3.</span></span> <span data-ttu-id="2d1ba-176">Lai padarītu kuba apkopošanas mērījumus pieejamus elementu krātuvē, tie ir jāpadara izvietojami.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-176">To stage the cube’s aggregate measurements in the Entity store, you must make them deployable.</span></span> <span data-ttu-id="2d1ba-177">Papildinformāciju skatiet emuāra ieraksta [Pārskats par Power BI integrāciju, izmantojot elementu krātuvi](power-bi-integration-entity-store.md) sadaļā par apkopošanas mērījumu izvietošanas elementu krātuvē procedūru.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-177">For more information, see the procedure for staging aggregate measurements in the Entity store in [Overview of Power BI integration with Entity store](power-bi-integration-entity-store.md).</span></span> <span data-ttu-id="2d1ba-178">Tālāk norādītie galvenie apkopošanas mērījumi ir tieši pieejami no elementa Rēķina rindas, un tie tiek izmantoti kā satura pamatdati.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-178">The following key aggregate measurements are available directly from the Invoice lines entity and are used as the basis of the content.</span></span>
 
-| Elements        | Galvenie apkopošanas mērījumi | Datu avots                                 | Lauks              | apraksts                            |
+| <span data-ttu-id="2d1ba-179">Elements</span><span class="sxs-lookup"><span data-stu-id="2d1ba-179">Entity</span></span>        | <span data-ttu-id="2d1ba-180">Galvenie apkopošanas mērījumi</span><span class="sxs-lookup"><span data-stu-id="2d1ba-180">Key aggregate measurements</span></span> | <span data-ttu-id="2d1ba-181">Datu avots</span><span class="sxs-lookup"><span data-stu-id="2d1ba-181">Data source</span></span>                                 | <span data-ttu-id="2d1ba-182">Lauks</span><span class="sxs-lookup"><span data-stu-id="2d1ba-182">Field</span></span>              | <span data-ttu-id="2d1ba-183">apraksts</span><span class="sxs-lookup"><span data-stu-id="2d1ba-183">Description</span></span>                            |
 |---------------|----------------------------|---------------------------------------------|--------------------|----------------------------------------|
-| Rēķina rindas | Pirkšana                   | VendInvoiceTrans                            | SUM(LineAmountMST) | Summa uzskaites valūtā. |
+| <span data-ttu-id="2d1ba-184">Rēķina rindas</span><span class="sxs-lookup"><span data-stu-id="2d1ba-184">Invoice lines</span></span> | <span data-ttu-id="2d1ba-185">Pirkšana</span><span class="sxs-lookup"><span data-stu-id="2d1ba-185">Purchase</span></span>                   | <span data-ttu-id="2d1ba-186">VendInvoiceTrans</span><span class="sxs-lookup"><span data-stu-id="2d1ba-186">VendInvoiceTrans</span></span>                            | <span data-ttu-id="2d1ba-187">SUM(LineAmountMST)</span><span class="sxs-lookup"><span data-stu-id="2d1ba-187">SUM(LineAmountMST)</span></span> | <span data-ttu-id="2d1ba-188">Summa uzskaites valūtā.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-188">The amount in the accounting currency.</span></span> |
 
-Tālāk esošajā tabulā ir norādīti galvenie satura mērījumi, kas tiek aprēķināti no elementa Rēķina rindas.
+<span data-ttu-id="2d1ba-189">Tālāk esošajā tabulā ir norādīti galvenie satura mērījumi, kas tiek aprēķināti no elementa Rēķina rindas.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-189">The following table shows the key measurements in the content that are calculated from the Invoice lines entity.</span></span>
 
-| Mērs               | Aprēķins                                                                                         |
+| <span data-ttu-id="2d1ba-190">Mērs</span><span class="sxs-lookup"><span data-stu-id="2d1ba-190">Measure</span></span>               | <span data-ttu-id="2d1ba-191">Aprēķins</span><span class="sxs-lookup"><span data-stu-id="2d1ba-191">Calculation</span></span>                                                                                         |
 |-----------------------|-----------------------------------------------------------------------------------------------------|
-| Pašreizējā gada pirkumi | Pašreizējā gada pirkumi = SUM('Rēģina rindas'\[Pirkšana\])                                            |
-| Pagājušā gada pirkumi    | Pagājušā gada pirkumi = CALCULATE(SUM('Rēķina rindas'\[Pirkšana\]), SAMEPERIODLASTYEAR(Datumi\[Datums\])) |
-| Pirkumu palielinājums pa gadiem   | Pirkumu palielinājums pa gadiem = \[Pašreizējā gada pirkumi\] – \[Pagājušā gada pirkumi\]                            |
+| <span data-ttu-id="2d1ba-192">Pašreizējā gada pirkumi</span><span class="sxs-lookup"><span data-stu-id="2d1ba-192">Purchase current year</span></span> | <span data-ttu-id="2d1ba-193">Pašreizējā gada pirkumi = SUM('Rēģina rindas'\[Pirkšana\])</span><span class="sxs-lookup"><span data-stu-id="2d1ba-193">Purchase current year = SUM('Invoice lines'\[Purchase\])</span></span>                                            |
+| <span data-ttu-id="2d1ba-194">Pagājušā gada pirkumi</span><span class="sxs-lookup"><span data-stu-id="2d1ba-194">Purchase last year</span></span>    | <span data-ttu-id="2d1ba-195">Pagājušā gada pirkumi = CALCULATE(SUM('Rēķina rindas'\[Pirkšana\]), SAMEPERIODLASTYEAR(Datumi\[Datums\]))</span><span class="sxs-lookup"><span data-stu-id="2d1ba-195">Purchase last year = CALCULATE(SUM('Invoice lines'\[Purchase\]), SAMEPERIODLASTYEAR(Dates\[Date\]))</span></span> |
+| <span data-ttu-id="2d1ba-196">Pirkumu palielinājums pa gadiem</span><span class="sxs-lookup"><span data-stu-id="2d1ba-196">YOY purchase growth</span></span>   | <span data-ttu-id="2d1ba-197">Pirkumu palielinājums pa gadiem = \[Pašreizējā gada pirkumi\] – \[Pagājušā gada pirkumi\]</span><span class="sxs-lookup"><span data-stu-id="2d1ba-197">YOY purchase growth = \[Purchase current year\] – \[Purchase last year\]</span></span>                            |
 
-Tālāk norādītās galvenās dimensijas saturam tiek izmantotas kā filtri, lai sadalītu apkopošanas mērījumus, iegūstot lielāku granularitāti un sniedzot dziļākus analītiskos ieskatus.
+<span data-ttu-id="2d1ba-198">Tālāk norādītās galvenās dimensijas saturam tiek izmantotas kā filtri, lai sadalītu apkopošanas mērījumus, iegūstot lielāku granularitāti un sniedzot dziļākus analītiskos ieskatus.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-198">The following key dimensions in the content are used as filters to slice the aggregate measurements, so that you can achieve more granularity and gain deeper analytical insights.</span></span>
 
-| Elements                 | Atribūtu piemēri                                |
+| <span data-ttu-id="2d1ba-199">Elements</span><span class="sxs-lookup"><span data-stu-id="2d1ba-199">Entity</span></span>                 | <span data-ttu-id="2d1ba-200">Atribūtu piemēri</span><span class="sxs-lookup"><span data-stu-id="2d1ba-200">Examples of attributes</span></span>                                |
 |------------------------|-------------------------------------------------------|
-| Kreditori                | Kreditoru grupas, Kreditora valsts vai reģions, Kreditora nosaukums |
-| Preces               | Preces numurs, Preces nosaukums, Krājumu grupas nosaukums        |
-| Sagādes kategorijas | Sagādes kategorija, Sagādes kategoriju nosaukumi      |
-| Juridiskas personas         | Juridiskās personas nosaukums                                     |
-| Datumi                  | Datumi, Gada nobīde                                    |
+| <span data-ttu-id="2d1ba-201">Kreditori</span><span class="sxs-lookup"><span data-stu-id="2d1ba-201">Vendors</span></span>                | <span data-ttu-id="2d1ba-202">Kreditoru grupas, Kreditora valsts vai reģions, Kreditora nosaukums</span><span class="sxs-lookup"><span data-stu-id="2d1ba-202">Vendor groups, Vendor country or regions, Vendor name</span></span> |
+| <span data-ttu-id="2d1ba-203">Preces</span><span class="sxs-lookup"><span data-stu-id="2d1ba-203">Products</span></span>               | <span data-ttu-id="2d1ba-204">Preces numurs, Preces nosaukums, Krājumu grupas nosaukums</span><span class="sxs-lookup"><span data-stu-id="2d1ba-204">Product number, Product name, Item groups name</span></span>        |
+| <span data-ttu-id="2d1ba-205">Sagādes kategorijas</span><span class="sxs-lookup"><span data-stu-id="2d1ba-205">Procurement categories</span></span> | <span data-ttu-id="2d1ba-206">Sagādes kategorija, Sagādes kategoriju nosaukumi</span><span class="sxs-lookup"><span data-stu-id="2d1ba-206">Procurement category, Procurement category names</span></span>      |
+| <span data-ttu-id="2d1ba-207">Juridiskas personas</span><span class="sxs-lookup"><span data-stu-id="2d1ba-207">Legal entities</span></span>         | <span data-ttu-id="2d1ba-208">Juridiskās personas nosaukums</span><span class="sxs-lookup"><span data-stu-id="2d1ba-208">Legal entity name</span></span>                                     |
+| <span data-ttu-id="2d1ba-209">Datumi</span><span class="sxs-lookup"><span data-stu-id="2d1ba-209">Dates</span></span>                  | <span data-ttu-id="2d1ba-210">Datumi, Gada nobīde</span><span class="sxs-lookup"><span data-stu-id="2d1ba-210">Dates, Year offset</span></span>                                    |
 
-Pēc noklusējuma saturs nodrošina pašreizējā kalendārā gada datu rādīšanu. Taču varat mainīt datumu filtru pārskata filtru sadaļā. Varat mainīt arī uzņēmuma filtru.
+<span data-ttu-id="2d1ba-211">Pēc noklusējuma saturs nodrošina pašreizējā kalendārā gada datu rādīšanu.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-211">By default, the content shows data for the current calendar year.</span></span> <span data-ttu-id="2d1ba-212">Taču varat mainīt datumu filtru pārskata filtru sadaļā.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-212">However, you can change the date filter in the report filters section.</span></span> <span data-ttu-id="2d1ba-213">Varat mainīt arī uzņēmuma filtru.</span><span class="sxs-lookup"><span data-stu-id="2d1ba-213">You can also change the company filter.</span></span>
 

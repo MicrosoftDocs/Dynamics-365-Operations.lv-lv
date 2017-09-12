@@ -16,33 +16,33 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: c0ad052ac0237f4da463ee80197a019df071f827
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 42d37079eeea99aeea062168f4dd5462a8da8016
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-configuration-routes"></a>Konfigurācijas maršrutu definēšana
+# <a name="define-configuration-routes"></a><span data-ttu-id="cd183-103">Konfigurācijas maršrutu definēšana</span><span class="sxs-lookup"><span data-stu-id="cd183-103">Define configuration routes</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šī procedūra fokusējas uz konfigurācijas maršruta definēšanu, kas nosaka secību, kādā tiks attēlotas konfigurācijas grupas. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Šī ir sestā procedūra no astoņām, kurā ir skaidrots, kā veidot kombinācijas konfigurācijai atbilstoši dimensijām.
+<span data-ttu-id="cd183-104">Šī procedūra fokusējas uz konfigurācijas maršruta definēšanu, kas nosaka secību, kādā tiks attēlotas konfigurācijas grupas.</span><span class="sxs-lookup"><span data-stu-id="cd183-104">This procedure focuses on defining a configuration route that determines the sequence in which the configuration groups will be presented.</span></span> <span data-ttu-id="cd183-105">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="cd183-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="cd183-106">Šī ir sestā procedūra no astoņām, kurā ir skaidrots, kā veidot kombinācijas konfigurācijai atbilstoši dimensijām.</span><span class="sxs-lookup"><span data-stu-id="cd183-106">This is the sixth procedure out of eight that explains how to build combinations for dimension-based configuration.</span></span>
 
-1. Pārejiet uz sadaļu Preču informācijas pārvaldība > Materiālu komplekti un formulas > Materiālu komplekti.
-2. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-3. Darbību rūtī noklikšķiniet uz Opcijas.
-4. Noklikšķiniet uz Mainīt skatījumu.
-5. Noklikšķiniet uz Virsraksta skatījuma.
-6. Izvērsiet vai sakļaujiet sadaļu Konfigurācijas maršruts.
-7. Noklikšķiniet uz Pievienot.
-8. Sarakstā atzīmējiet atlasīto rindu.
-9. Laukā Konfigurācijas grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-10. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-11. Noklikšķiniet uz Pievienot.
-12. Sarakstā atzīmējiet atlasīto rindu.
-13. Laukā Konfigurācijas grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-14. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-15. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-16. Noklikšķiniet uz Saglabāt.
+1. <span data-ttu-id="cd183-107">Pārejiet uz sadaļu Preču informācijas pārvaldība > Materiālu komplekti un formulas > Materiālu komplekti.</span><span class="sxs-lookup"><span data-stu-id="cd183-107">Go to Product information management > Bills of materials and formulas > Bills of materials.</span></span>
+2. <span data-ttu-id="cd183-108">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="cd183-108">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="cd183-109">Darbību rūtī noklikšķiniet uz Opcijas.</span><span class="sxs-lookup"><span data-stu-id="cd183-109">On the Action Pane, click Options.</span></span>
+4. <span data-ttu-id="cd183-110">Noklikšķiniet uz Mainīt skatījumu.</span><span class="sxs-lookup"><span data-stu-id="cd183-110">Click Change view.</span></span>
+5. <span data-ttu-id="cd183-111">Noklikšķiniet uz Virsraksta skatījuma.</span><span class="sxs-lookup"><span data-stu-id="cd183-111">Click Header view.</span></span>
+6. <span data-ttu-id="cd183-112">Izvērsiet vai sakļaujiet sadaļu Konfigurācijas maršruts.</span><span class="sxs-lookup"><span data-stu-id="cd183-112">Expand or collapse the Configuration route section.</span></span>
+7. <span data-ttu-id="cd183-113">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="cd183-113">Click Add.</span></span>
+8. <span data-ttu-id="cd183-114">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="cd183-114">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="cd183-115">Laukā Konfigurācijas grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="cd183-115">In the Configuration group field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="cd183-116">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="cd183-116">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="cd183-117">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="cd183-117">Click Add.</span></span>
+12. <span data-ttu-id="cd183-118">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="cd183-118">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="cd183-119">Laukā Konfigurācijas grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="cd183-119">In the Configuration group field, click the drop-down button to open the lookup.</span></span>
+14. <span data-ttu-id="cd183-120">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="cd183-120">In the list, find and select the desired record.</span></span>
+15. <span data-ttu-id="cd183-121">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="cd183-121">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="cd183-122">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="cd183-122">Click Save.</span></span>
 
 

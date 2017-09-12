@@ -16,35 +16,35 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 3003a0dfa30c981eacfd5a643a1c5e902c2ba45d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 5735cabd5a1eab23fbe2b92cf1395110cb33a93c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>Izmaksu uzskaites virsgrāmatas datu avota pārvaldība
+# <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a><span data-ttu-id="7a66f-103">Izmaksu uzskaites virsgrāmatas datu avota pārvaldība</span><span class="sxs-lookup"><span data-stu-id="7a66f-103">Manage a data source for the cost accounting ledger</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Izmantojiet šo procedūru, lai pārvaldītu izmaksu uzskaites virsgrāmatas datu avotu. Pirms varat pabeigt šo uzdevumu, atskaņojiet uzdevuma ceļvežus "Izmaksu uzskaites virsgrāmatas izveide" un "Izmaksu vadības ierīču definēšana". Šajā ierakstā tiek izmantots USP2 demonstrācijas datu uzņēmums.
+<span data-ttu-id="7a66f-104">Izmantojiet šo procedūru, lai pārvaldītu izmaksu uzskaites virsgrāmatas datu avotu.</span><span class="sxs-lookup"><span data-stu-id="7a66f-104">Use this procedure to manage the general ledger data source for a cost accounting ledger.</span></span> <span data-ttu-id="7a66f-105">Pirms varat pabeigt šo uzdevumu, atskaņojiet uzdevuma ceļvežus "Izmaksu uzskaites virsgrāmatas izveide" un "Izmaksu vadības ierīču definēšana".</span><span class="sxs-lookup"><span data-stu-id="7a66f-105">Before you complete this task, make sure that you play the "Create a cost accounting ledger" and "Define cost control units" task guides.</span></span> <span data-ttu-id="7a66f-106">Šajā ierakstā tiek izmantots USP2 demonstrācijas datu uzņēmums.</span><span class="sxs-lookup"><span data-stu-id="7a66f-106">This recording uses the USP2 demo data company.</span></span>
 
-1. Dodieties uz Izmaksu uzskaite > Virsgrāmatas iestatīšana > Izmaksu uzskaites virsgrāmatas.
-2. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-3. Noklikšķiniet uz Faktiskās versijas.
-4. Darbību rūtī noklikšķiniet uz Pārvaldīt.
-5. Noklikšķiniet uz Virsgrāmata.
-6. Noklikšķiniet uz Jauns.
-7. Laukā Nosaukums ierakstiet kādu vērtību.
-8. Laukā Datu nodrošinātājs ievadiet vai atlasiet kādu vērtību.
-    * Šajā piemērā atlasiet Dynamics 365 for Finance and Operations - virsgrāmatas ierakstus.  
-9. Laukā Izmaksu elementa dimensija ievadiet vai atlasiet kādu vērtību.
-    * Šim piemēram atlasiet Izmaksu elementi.  
-10. Noklikšķiniet uz Saglabāt.
-11. Noklikšķiniet uz Konfigurēt datu nodrošinātāju.
-12. Laukā Juridiska persona ievadiet vai atlasiet kādu vērtību.
-    * Šim piemēram atlasiet vienumu USP2.  
-13. Noklikšķiniet uz Jauns.
-14. Laukā Grāmatošanas līmenis atlasiet Pašreizējais.
-15. Noklikšķiniet uz OK.
+1. <span data-ttu-id="7a66f-107">Dodieties uz Izmaksu uzskaite > Virsgrāmatas iestatīšana > Izmaksu uzskaites virsgrāmatas.</span><span class="sxs-lookup"><span data-stu-id="7a66f-107">Go to Cost accounting > Ledger setup > Cost accounting ledgers.</span></span>
+2. <span data-ttu-id="7a66f-108">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="7a66f-108">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="7a66f-109">Noklikšķiniet uz Faktiskās versijas.</span><span class="sxs-lookup"><span data-stu-id="7a66f-109">Click Actual versions.</span></span>
+4. <span data-ttu-id="7a66f-110">Darbību rūtī noklikšķiniet uz Pārvaldīt.</span><span class="sxs-lookup"><span data-stu-id="7a66f-110">On the Action Pane, click Manage.</span></span>
+5. <span data-ttu-id="7a66f-111">Noklikšķiniet uz Virsgrāmata.</span><span class="sxs-lookup"><span data-stu-id="7a66f-111">Click General ledger.</span></span>
+6. <span data-ttu-id="7a66f-112">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="7a66f-112">Click New.</span></span>
+7. <span data-ttu-id="7a66f-113">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="7a66f-113">In the Name field, type a value.</span></span>
+8. <span data-ttu-id="7a66f-114">Laukā Datu nodrošinātājs ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="7a66f-114">In the Data provider field, enter or select a value.</span></span>
+    * <span data-ttu-id="7a66f-115">Šajā piemērā atlasiet Dynamics 365 for Finance and Operations - virsgrāmatas ierakstus.</span><span class="sxs-lookup"><span data-stu-id="7a66f-115">For this example, select Dynamics 365 for Finance and Operations - General ledger entries.</span></span>  
+9. <span data-ttu-id="7a66f-116">Laukā Izmaksu elementa dimensija ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="7a66f-116">In the Cost element dimension field, enter or select a value.</span></span>
+    * <span data-ttu-id="7a66f-117">Šim piemēram atlasiet Izmaksu elementi.</span><span class="sxs-lookup"><span data-stu-id="7a66f-117">For this example, select Cost elements.</span></span>  
+10. <span data-ttu-id="7a66f-118">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="7a66f-118">Click Save.</span></span>
+11. <span data-ttu-id="7a66f-119">Noklikšķiniet uz Konfigurēt datu nodrošinātāju.</span><span class="sxs-lookup"><span data-stu-id="7a66f-119">Click Configure data provider.</span></span>
+12. <span data-ttu-id="7a66f-120">Laukā Juridiska persona ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="7a66f-120">In the Legal entity field, enter or select a value.</span></span>
+    * <span data-ttu-id="7a66f-121">Šim piemēram atlasiet vienumu USP2.</span><span class="sxs-lookup"><span data-stu-id="7a66f-121">For this example, select USP2.</span></span>  
+13. <span data-ttu-id="7a66f-122">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="7a66f-122">Click New.</span></span>
+14. <span data-ttu-id="7a66f-123">Laukā Grāmatošanas līmenis atlasiet Pašreizējais.</span><span class="sxs-lookup"><span data-stu-id="7a66f-123">In the Posting layer field, select Current.</span></span>
+15. <span data-ttu-id="7a66f-124">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="7a66f-124">Click OK.</span></span>
 
 

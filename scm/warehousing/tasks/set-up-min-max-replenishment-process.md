@@ -17,133 +17,133 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 01a0c42c43a23234e0e355193f8dd7e8ee116f71
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 02af5d1beb2d4eb6a7162b47c42854725fbdbec2
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-a-min-max-replenishment-process"></a>Min.-maks. papildināšanas procesa iestatīšana
+# <a name="set-up-a-min-max-replenishment-process"></a><span data-ttu-id="a48ee-103">Min.-maks. papildināšanas procesa iestatīšana</span><span class="sxs-lookup"><span data-stu-id="a48ee-103">Set up a min-max replenishment process</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šī procedūra parāda, kā iestatīt papildināšanas procesu, kas izmanto minimuma/maksimuma papildināšanas stratēģiju. Ja krājumu daudzums ir zem minimālā līmeņa, tiks izveidots uzdevums atrašanās vietas papildināšanai. Procedūra parāda arī kā lietot fiksētas izdošanas vietas, lai ļautu atjaunot krājumus pat tad, ja krājumu daudzums ir mazāks par minimālo līmeni, un to, kā iespējot papildināšanas procesa regulāru palaišanu, izmantojot pakešuzdevumu. Šos uzdevumus parasti veic noliktavas pārvaldnieks. Šo procedūru varat palaist demonstrācijas datu uzņēmumā USMF, izmantojot piemēra vērtības piezīmēs, vai to var palaist, izmantojot savus datus. Ja jūs izmantojat savus datus, pārliecinieties, ka jums ir noliktava, kas ir iespējota noliktavas vadības procesiem.
+<span data-ttu-id="a48ee-104">Šī procedūra parāda, kā iestatīt papildināšanas procesu, kas izmanto minimuma/maksimuma papildināšanas stratēģiju.</span><span class="sxs-lookup"><span data-stu-id="a48ee-104">This procedure shows you how to set up a new replenishment process which uses the minimum/maximum replenishment strategy.</span></span> <span data-ttu-id="a48ee-105">Ja krājumu daudzums ir zem minimālā līmeņa, tiks izveidots uzdevums atrašanās vietas papildināšanai.</span><span class="sxs-lookup"><span data-stu-id="a48ee-105">When inventory falls below the minimum level, work will be created to replenish the location.</span></span> <span data-ttu-id="a48ee-106">Procedūra parāda arī kā lietot fiksētas izdošanas vietas, lai ļautu atjaunot krājumus pat tad, ja krājumu daudzums ir mazāks par minimālo līmeni, un to, kā iespējot papildināšanas procesa regulāru palaišanu, izmantojot pakešuzdevumu.</span><span class="sxs-lookup"><span data-stu-id="a48ee-106">The procedure also shows how to use fixed picking locations to allow restocking even if inventory falls below the minimum level, and how to enable the replenishment process to run regularly using a batch job.</span></span> <span data-ttu-id="a48ee-107">Šos uzdevumus parasti veic noliktavas pārvaldnieks.</span><span class="sxs-lookup"><span data-stu-id="a48ee-107">These tasks would typically be carried out by a warehouse manager.</span></span> <span data-ttu-id="a48ee-108">Šo procedūru varat palaist demonstrācijas datu uzņēmumā USMF, izmantojot piemēra vērtības piezīmēs, vai to var palaist, izmantojot savus datus.</span><span class="sxs-lookup"><span data-stu-id="a48ee-108">You can run this procedure in the USMF demo data company using the example values in the notes, or can run it on your own data.</span></span> <span data-ttu-id="a48ee-109">Ja jūs izmantojat savus datus, pārliecinieties, ka jums ir noliktava, kas ir iespējota noliktavas vadības procesiem.</span><span class="sxs-lookup"><span data-stu-id="a48ee-109">If you’re using your own data, make sure that you have a warehouse that’s enabled for Warehouse management processes.</span></span>
 
 
-## <a name="create-a-fixed-picking-location"></a>Izveidojiet fiksētu izdošanas vietu
-1. Dodieties uz Noliktavas vadība > Iestatīšana > Noliktava > Fiksētie novietojumi.
-    * Tas ir papildu uzdevums min.-maks. papildināšanai, bet ja jūs izmantojat fiksētu izdošanas vietu, tas ļauj krājuma papildināšanu pat, ja tas sarūk zem minimālā līmeņa, jo sistēma var noteikt, kurus krājumus nepieciešams papildināt, pat tad, ja tie ir beigušies.  
-2. Noklikšķiniet uz Jauns.
-3. Laukā Krājuma kods ievadiet vai atlasiet kādu vērtību.
-    * Ja izmantojat USMF, varat atlasīt krājumu A0001.  
-4. Laukā Vieta ievadiet vai atlasiet kādu vērtību.
-    * Ja izmantojat USMF, varat atlasīt "Vieta 2".  
-5. Laukā Noliktava ievadiet vai atlasiet kādu vērtību.
-    * Ja izmantojat krājumu USMF, varat atlasīt 24. noliktavu.  
-6. Laukā Atrašanās vieta, ievadiet vai atlasiet kādu vērtību.
-    * Ja izmantojat USMF, varat atlasīt CP-003.  
-7. Aizvērt lapu.
+## <a name="create-a-fixed-picking-location"></a><span data-ttu-id="a48ee-110">Izveidojiet fiksētu izdošanas vietu</span><span class="sxs-lookup"><span data-stu-id="a48ee-110">Create a fixed picking location</span></span>
+1. <span data-ttu-id="a48ee-111">Dodieties uz Noliktavas vadība > Iestatīšana > Noliktava > Fiksētie novietojumi.</span><span class="sxs-lookup"><span data-stu-id="a48ee-111">Go to Warehouse management > Setup > Warehouse > Fixed locations.</span></span>
+    * <span data-ttu-id="a48ee-112">Tas ir papildu uzdevums min.-maks. papildināšanai, bet ja jūs izmantojat fiksētu izdošanas vietu, tas ļauj krājuma papildināšanu pat, ja tas sarūk zem minimālā līmeņa, jo sistēma var noteikt, kurus krājumus nepieciešams papildināt, pat tad, ja tie ir beigušies.</span><span class="sxs-lookup"><span data-stu-id="a48ee-112">This is an optional task for min-max replenishment, but if you use fixed picking location, this allows stock to be replenished even if it falls below the minimum level, because the system can determine which items need to be replenished, even if there aren't any left.</span></span>  
+2. <span data-ttu-id="a48ee-113">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="a48ee-113">Click New.</span></span>
+3. <span data-ttu-id="a48ee-114">Laukā Krājuma kods ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a48ee-114">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="a48ee-115">Ja izmantojat USMF, varat atlasīt krājumu A0001.</span><span class="sxs-lookup"><span data-stu-id="a48ee-115">If you’re using USMF, you can select item A0001.</span></span>  
+4. <span data-ttu-id="a48ee-116">Laukā Vieta ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a48ee-116">In the Site field, enter or select a value.</span></span>
+    * <span data-ttu-id="a48ee-117">Ja izmantojat USMF, varat atlasīt "Vieta 2".</span><span class="sxs-lookup"><span data-stu-id="a48ee-117">If you’re using USMF, you can select site 2.</span></span>  
+5. <span data-ttu-id="a48ee-118">Laukā Noliktava ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a48ee-118">In the Warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="a48ee-119">Ja izmantojat krājumu USMF, varat atlasīt 24. noliktavu.</span><span class="sxs-lookup"><span data-stu-id="a48ee-119">If you’re using USMF, you can select warehouse 24.</span></span>  
+6. <span data-ttu-id="a48ee-120">Laukā Atrašanās vieta, ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a48ee-120">In the Location field, enter or select a value.</span></span>
+    * <span data-ttu-id="a48ee-121">Ja izmantojat USMF, varat atlasīt CP-003.</span><span class="sxs-lookup"><span data-stu-id="a48ee-121">If you’re using USMF, you can select CP-003.</span></span>  
+7. <span data-ttu-id="a48ee-122">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="a48ee-122">Close the page.</span></span>
 
-## <a name="create-a-replenishment-location-directive"></a>Izveidojiet papildināšanas vietas direktīvu
-1. Dodieties uz Noliktavas vadība > Iestatīšana > Novietojuma direktīvas.
-    * Atrašanās vietas direktīvas tiek izmantotas, lai noteiktu, kur vienības jāizdod papildināšanas procesā.  
-2. Laukā Darba pasūtījuma tips atlasiet 'Papildināšana'.
-3. Noklikšķiniet uz Jauns.
-4. Laukā Nosaukums ierakstiet kādu vērtību.
-5. Laukā Darba tips atlasiet vienumu “Izdošana”.
-6. Laukā Vieta ievadiet vai atlasiet kādu vērtību.
-    * Ja izmantojat USMF, varat atlasīt "Vieta 2".  
-7. Laukā Noliktava ievadiet vai atlasiet kādu vērtību.
-    * Ja izmantojat krājumu USMF, varat atlasīt 24. noliktavu.  
-8. Noklikšķiniet uz Saglabāt.
-9. Noklikšķiniet uz Jauns.
-10. Sarakstā atzīmējiet atlasīto rindu.
-11. Laukā Līdz daudzumam ierakstiet kādu skaitli.
-    * Piemēram, jūs varat iestatīt to uz 9999.  
-12. Atzīmējiet izvēles rūtiņu Atļaut sadali.
-    * Ja atlasāt šo opciju, darba izveides process ļaus darbu rindas daudzumiem tikt sadalītiem vairākās vietās.  
-13. Noklikšķiniet uz Saglabāt.
-14. Noklikšķiniet uz Jauns.
-15. Sarakstā atzīmējiet atlasīto rindu.
-16. Laukā Nosaukums ierakstiet kādu vērtību.
-17. Noklikšķiniet uz Saglabāt.
-18. Noklikšķiniet uz Rediģēt vaicājumu.
-    * Jūs varat rediģēt šo vaicājumu, lai pievienotu ierobežojumus, kur krājumu var atlasīt papildināšanas procesā. Piemēram, var gadīties, ka krājumu var izmantot tikai no lielapjoma zonas noliktavā.  
-19. Noklikšķiniet uz OK.
-20. Aizvērt lapu.
+## <a name="create-a-replenishment-location-directive"></a><span data-ttu-id="a48ee-123">Izveidojiet papildināšanas vietas direktīvu</span><span class="sxs-lookup"><span data-stu-id="a48ee-123">Create a replenishment location directive</span></span>
+1. <span data-ttu-id="a48ee-124">Dodieties uz Noliktavas vadība > Iestatīšana > Novietojuma direktīvas.</span><span class="sxs-lookup"><span data-stu-id="a48ee-124">Go to Warehouse management > Setup > Location directives.</span></span>
+    * <span data-ttu-id="a48ee-125">Atrašanās vietas direktīvas tiek izmantotas, lai noteiktu, kur vienības jāizdod papildināšanas procesā.</span><span class="sxs-lookup"><span data-stu-id="a48ee-125">Location directives are used to determine where items should be picked from in the replenishment process.</span></span>  
+2. <span data-ttu-id="a48ee-126">Laukā Darba pasūtījuma tips atlasiet 'Papildināšana'.</span><span class="sxs-lookup"><span data-stu-id="a48ee-126">In the Work order type field, select 'Replenishment'.</span></span>
+3. <span data-ttu-id="a48ee-127">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="a48ee-127">Click New.</span></span>
+4. <span data-ttu-id="a48ee-128">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a48ee-128">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="a48ee-129">Laukā Darba tips atlasiet vienumu “Izdošana”.</span><span class="sxs-lookup"><span data-stu-id="a48ee-129">In the Work type field, select 'Pick'.</span></span>
+6. <span data-ttu-id="a48ee-130">Laukā Vieta ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a48ee-130">In the Site field, enter or select a value.</span></span>
+    * <span data-ttu-id="a48ee-131">Ja izmantojat USMF, varat atlasīt "Vieta 2".</span><span class="sxs-lookup"><span data-stu-id="a48ee-131">If you’re using USMF, you can select site 2.</span></span>  
+7. <span data-ttu-id="a48ee-132">Laukā Noliktava ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a48ee-132">In the Warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="a48ee-133">Ja izmantojat krājumu USMF, varat atlasīt 24. noliktavu.</span><span class="sxs-lookup"><span data-stu-id="a48ee-133">If you’re using USMF, you can select warehouse 24.</span></span>  
+8. <span data-ttu-id="a48ee-134">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="a48ee-134">Click Save.</span></span>
+9. <span data-ttu-id="a48ee-135">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="a48ee-135">Click New.</span></span>
+10. <span data-ttu-id="a48ee-136">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="a48ee-136">In the list, mark the selected row.</span></span>
+11. <span data-ttu-id="a48ee-137">Laukā Līdz daudzumam ierakstiet kādu skaitli.</span><span class="sxs-lookup"><span data-stu-id="a48ee-137">In the To quantity field, enter a number.</span></span>
+    * <span data-ttu-id="a48ee-138">Piemēram, jūs varat iestatīt to uz 9999.</span><span class="sxs-lookup"><span data-stu-id="a48ee-138">For example, you can set it to 9999.</span></span>  
+12. <span data-ttu-id="a48ee-139">Atzīmējiet izvēles rūtiņu Atļaut sadali.</span><span class="sxs-lookup"><span data-stu-id="a48ee-139">Select the Allow split check box.</span></span>
+    * <span data-ttu-id="a48ee-140">Ja atlasāt šo opciju, darba izveides process ļaus darbu rindas daudzumiem tikt sadalītiem vairākās vietās.</span><span class="sxs-lookup"><span data-stu-id="a48ee-140">If you select this option, the work creation process will allow work line quantities to be split across multiple locations.</span></span>  
+13. <span data-ttu-id="a48ee-141">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="a48ee-141">Click Save.</span></span>
+14. <span data-ttu-id="a48ee-142">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="a48ee-142">Click New.</span></span>
+15. <span data-ttu-id="a48ee-143">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="a48ee-143">In the list, mark the selected row.</span></span>
+16. <span data-ttu-id="a48ee-144">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a48ee-144">In the Name field, type a value.</span></span>
+17. <span data-ttu-id="a48ee-145">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="a48ee-145">Click Save.</span></span>
+18. <span data-ttu-id="a48ee-146">Noklikšķiniet uz Rediģēt vaicājumu.</span><span class="sxs-lookup"><span data-stu-id="a48ee-146">Click Edit query.</span></span>
+    * <span data-ttu-id="a48ee-147">Jūs varat rediģēt šo vaicājumu, lai pievienotu ierobežojumus, kur krājumu var atlasīt papildināšanas procesā.</span><span class="sxs-lookup"><span data-stu-id="a48ee-147">You can edit this query to add restrictions where inventory can be selected from in the replenishment process.</span></span> <span data-ttu-id="a48ee-148">Piemēram, var gadīties, ka krājumu var izmantot tikai no lielapjoma zonas noliktavā.</span><span class="sxs-lookup"><span data-stu-id="a48ee-148">For example, it could be that inventory should only be used from the Bulk area of the warehouse.</span></span>  
+19. <span data-ttu-id="a48ee-149">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="a48ee-149">Click OK.</span></span>
+20. <span data-ttu-id="a48ee-150">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="a48ee-150">Close the page.</span></span>
 
-## <a name="create-a-replenishment-work-template"></a>Izveidojiet papildināšanas darba veidni.
-1. Doties uz Noliktavas vadība > Iestatīšana > Darbs > Darbu veidnes.
-    * Darba veidne tiek izmantota, lai norādītu sistēmai, kā ir jāveido min. /maks. papildināšanas darbs. Vismaz jābūt darba veidnes rindai izdošanai un izvietošanai. Darba veidne paziņos, ka tā ir nederīga līdz brīdim, kad ir ievadīta visa nepieciešamā informācija.  
-2. Laukā Darba pasūtījuma tips atlasiet 'Papildināšana'.
-3. Noklikšķiniet uz Jauns.
-4. Laukā Darba veidne ierakstiet kādu vērtību.
-5. Noklikšķiniet uz Saglabāt.
-6. Noklikšķiniet uz Jauns.
-7. Laukā Darba tips atlasiet vienumu “Izdošana”.
-8. Laukā Darba klases ID ievadiet vai atlasiet kādu vērtību.
-    * Tā būtu darba klase, kas ir saistīta ar papildināšanu. Ja jūs izmantojat USMF, atlasiet Papildināt.  
-9. Noklikšķiniet uz Jauns.
-10. Sarakstā atzīmējiet atlasīto rindu.
-11. Laukā Darba tips atlasiet vienumu “Izvietošana”.
-12. Laukā Darba klases ID ievadiet vai atlasiet kādu vērtību.
-13. Noklikšķiniet uz Saglabāt.
-14. Aizvērt lapu.
+## <a name="create-a-replenishment-work-template"></a><span data-ttu-id="a48ee-151">Izveidojiet papildināšanas darba veidni.</span><span class="sxs-lookup"><span data-stu-id="a48ee-151">Create a replenishment work template</span></span>
+1. <span data-ttu-id="a48ee-152">Doties uz Noliktavas vadība > Iestatīšana > Darbs > Darbu veidnes.</span><span class="sxs-lookup"><span data-stu-id="a48ee-152">Go to Warehouse management > Setup > Work > Work templates.</span></span>
+    * <span data-ttu-id="a48ee-153">Darba veidne tiek izmantota, lai norādītu sistēmai, kā ir jāveido min. /maks. papildināšanas darbs.</span><span class="sxs-lookup"><span data-stu-id="a48ee-153">The work template is use to guide the system as to how the min/max replenishment work must be created.</span></span> <span data-ttu-id="a48ee-154">Vismaz jābūt darba veidnes rindai izdošanai un izvietošanai.</span><span class="sxs-lookup"><span data-stu-id="a48ee-154">As a minimum, there must be a work template line for a pick and a put.</span></span> <span data-ttu-id="a48ee-155">Darba veidne paziņos, ka tā ir nederīga līdz brīdim, kad ir ievadīta visa nepieciešamā informācija.</span><span class="sxs-lookup"><span data-stu-id="a48ee-155">The work template will say that it’s Invalid until all the necessary information has been filled in.</span></span>  
+2. <span data-ttu-id="a48ee-156">Laukā Darba pasūtījuma tips atlasiet 'Papildināšana'.</span><span class="sxs-lookup"><span data-stu-id="a48ee-156">In the Work order type field, select 'Replenishment'.</span></span>
+3. <span data-ttu-id="a48ee-157">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="a48ee-157">Click New.</span></span>
+4. <span data-ttu-id="a48ee-158">Laukā Darba veidne ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a48ee-158">In the Work template field, type a value.</span></span>
+5. <span data-ttu-id="a48ee-159">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="a48ee-159">Click Save.</span></span>
+6. <span data-ttu-id="a48ee-160">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="a48ee-160">Click New.</span></span>
+7. <span data-ttu-id="a48ee-161">Laukā Darba tips atlasiet vienumu “Izdošana”.</span><span class="sxs-lookup"><span data-stu-id="a48ee-161">In the Work type field, select 'Pick'.</span></span>
+8. <span data-ttu-id="a48ee-162">Laukā Darba klases ID ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a48ee-162">In the Work class ID field, enter or select a value.</span></span>
+    * <span data-ttu-id="a48ee-163">Tā būtu darba klase, kas ir saistīta ar papildināšanu.</span><span class="sxs-lookup"><span data-stu-id="a48ee-163">This should be a work class related to replenishment.</span></span> <span data-ttu-id="a48ee-164">Ja jūs izmantojat USMF, atlasiet Papildināt.</span><span class="sxs-lookup"><span data-stu-id="a48ee-164">If you’re using USMF, select Replenish.</span></span>  
+9. <span data-ttu-id="a48ee-165">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="a48ee-165">Click New.</span></span>
+10. <span data-ttu-id="a48ee-166">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="a48ee-166">In the list, mark the selected row.</span></span>
+11. <span data-ttu-id="a48ee-167">Laukā Darba tips atlasiet vienumu “Izvietošana”.</span><span class="sxs-lookup"><span data-stu-id="a48ee-167">In the Work type field, select 'Put'.</span></span>
+12. <span data-ttu-id="a48ee-168">Laukā Darba klases ID ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a48ee-168">In the Work class ID field, enter or select a value.</span></span>
+13. <span data-ttu-id="a48ee-169">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="a48ee-169">Click Save.</span></span>
+14. <span data-ttu-id="a48ee-170">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="a48ee-170">Close the page.</span></span>
 
-## <a name="create-a-new-replenishment-template"></a>Izveidojiet jaunu papildināšanas veidni
-1. Dodieties uz Noliktavas vadība > Iestatīšana > Papildināšana > Papildināšanas veidnes.
-    * Papildināšanas veidne tiek izmantota, lai definētu krājumus un daudzumus un atrašanās vietu papildināšanai.  
-2. Noklikšķiniet uz Jauns.
-3. Laukā Papildināšanas veidne, ierakstiet vērtību.
-    * Piešķiriet veidnei nosaukumu, lai norādītu, ka tā ir min. /maks. papildināšanai.  
-4. Apraksta laukā ierakstiet vērtību.
-5. Atlasiet izvēles rūtiņu Atļaut kopuma pieprasījumā izmantot nerezervētos daudzumus.
-    * Ja atlasāt šo opciju, tā nodrošina kopuma pieprasījuma papildināšanu, lai patērētu daudzumus, kas ir saistīti ar min. /maks. papildināšanu. Piemēram, tas varētu būt noderīgi, ja min. /maks. papildināšanas darbs netiek uzreiz apstrādāts, lai izvairītos no nevajadzīgas pieprasījuma papildināšanas darba izveides.  
-6. Noklikšķiniet uz Jauns.
-7. Ievadiet skaitli laukā Secības numurs.
-8. Apraksta laukā ierakstiet vērtību.
-9. Sarakstā atzīmējiet atlasīto rindu.
-10. Laukā Papildināšanas vienība, ievadiet vai atlasiet kādu vērtību.
-    * Piemēram, atlasiet gab. Šis iestatījums ir obligāts. Tas ļauj norādīt citu mērvienību papildināšanas darbam, salīdzinājumā ar vienību, kas ir norādīta minimālā un maksimālā krājumu līmeņiem šajā veidnē.  
-11. Laukā Darba veidne, ievadiet vai atlasiet kādu vērtību.
-    * Atrodiet iepriekš izveidoto darba veidni.  
-12. Laukā Minimālais daudzums, ievadiet skaitli.
-    * Atlasiet minimālo daudzumu, kam vajadzētu aktivizēt papildināšanu. Piemēram, iestatiet to uz 50. Ir iespējams atstāt šo iestatījumu uz nulli, ja papildināt fiksētu atrašanās vietu, un opcija Papildināt tukšas fiksētas atrašanās vietas ir iestatīta uz Jā. Ieteicams arī atlasīt opciju Papildināt tikai fiksētas atrašanās vietas, lai uzlabotu veiktspēju.  
-13. Laukā Maksimālais daudzums, ievadiet skaitli.
-    * Piemēram, iestatiet to uz 100.  
-14. Laukā Vienība ievadiet vai atlasiet kādu vērtību.
-    * Piešķiriet vienību minimālajam un maksimālajam daudzumam. Piemēram, iestatiet to uz gab.  
-15. Atzīmējiet izvēles rūtiņu Papildināt tukšas fiksētas atrašanās vietas.
-    * Atzīmējiet šo izvēles rūtiņu, lai papildinātu fiksētas atrašanās vietas, kad tās ir tukšas. Pretējā gadījumā tiek papildināti tikai tie novietojumi, kur pastāv rīcībā esošs daudzums.  
-16. Atzīmējiet izvēles rūtiņu Papildināt tikai tukšas fiksētas atrašanās vietas.
-17. Noklikšķiniet uz Atlasīt preces.
-    * Šī ir vieta, lai definētu, kuri produkti ir jāpapildina. Ja ir atlasīta opcija Fiksētas izdošanas vietas, jums nepieciešams arī noteikt atrašanās vietas šajā vaicājumā. Ir pieejami variantam specifiski, kā arī precei specifiski vaicājumi.  
-18. Atlasiet Krājumu rindu.
-19. Laukā Kritēriji ierakstiet kādu vērtību.
-    * Atlasiet krājumus, kas ir jāpapildina fiksētās atrašanās vietās. Piemēram, ierakstiet A*, lai atlasītu visus krājuma numurus, kas sākas ar A.  
-20. Noklikšķiniet uz Pievienot.
-    * Pievienojiet atrašanās vietas entītiju (ja vien tā jau pastāv), lai varētu ierobežot papildināšanas darbu fiksētām izdošanas vietām noteiktā noliktavas apgabalā.  
-21. Sarakstā atzīmējiet atlasīto rindu.
-22. Iestatiet lauku Tabula uz Atrašanās vietas.
-23. Laukā Lauks, atlasiet Atrašanās vietas profila ID.
-24. Laukā Kritēriji ievadiet vai atlasiet kādu vērtību.
-25. Noklikšķiniet uz OK.
-26. Aizvērt lapu.
+## <a name="create-a-new-replenishment-template"></a><span data-ttu-id="a48ee-171">Izveidojiet jaunu papildināšanas veidni</span><span class="sxs-lookup"><span data-stu-id="a48ee-171">Create a new replenishment template</span></span>
+1. <span data-ttu-id="a48ee-172">Dodieties uz Noliktavas vadība > Iestatīšana > Papildināšana > Papildināšanas veidnes.</span><span class="sxs-lookup"><span data-stu-id="a48ee-172">Go to Warehouse management > Setup > Replenishment > Replenishment templates.</span></span>
+    * <span data-ttu-id="a48ee-173">Papildināšanas veidne tiek izmantota, lai definētu krājumus un daudzumus un atrašanās vietu papildināšanai.</span><span class="sxs-lookup"><span data-stu-id="a48ee-173">The replenishment template is used to define the items and quantities, and the location to replenish.</span></span>  
+2. <span data-ttu-id="a48ee-174">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="a48ee-174">Click New.</span></span>
+3. <span data-ttu-id="a48ee-175">Laukā Papildināšanas veidne, ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="a48ee-175">In the Replenish template field, type a value.</span></span>
+    * <span data-ttu-id="a48ee-176">Piešķiriet veidnei nosaukumu, lai norādītu, ka tā ir min. /maks. papildināšanai.</span><span class="sxs-lookup"><span data-stu-id="a48ee-176">Give the template a name to indicate that it’s for min/max replenishment.</span></span>  
+4. <span data-ttu-id="a48ee-177">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="a48ee-177">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="a48ee-178">Atlasiet izvēles rūtiņu Atļaut kopuma pieprasījumā izmantot nerezervētos daudzumus.</span><span class="sxs-lookup"><span data-stu-id="a48ee-178">Select the Allow wave demand to use unreserved quantities check box.</span></span>
+    * <span data-ttu-id="a48ee-179">Ja atlasāt šo opciju, tā nodrošina kopuma pieprasījuma papildināšanu, lai patērētu daudzumus, kas ir saistīti ar min. /maks. papildināšanu.</span><span class="sxs-lookup"><span data-stu-id="a48ee-179">If you select this option, it enables wave demand replenishment to consume quantities that are related to min/max replenishment.</span></span> <span data-ttu-id="a48ee-180">Piemēram, tas varētu būt noderīgi, ja min. /maks. papildināšanas darbs netiek uzreiz apstrādāts, lai izvairītos no nevajadzīgas pieprasījuma papildināšanas darba izveides.</span><span class="sxs-lookup"><span data-stu-id="a48ee-180">For example, this might be useful if the min/max replenishment work isn’t processed immediately, to avoid unnecessary demand replenishment work from being created.</span></span>  
+6. <span data-ttu-id="a48ee-181">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="a48ee-181">Click New.</span></span>
+7. <span data-ttu-id="a48ee-182">Ievadiet skaitli laukā Secības numurs.</span><span class="sxs-lookup"><span data-stu-id="a48ee-182">In the Sequence number field, enter a number.</span></span>
+8. <span data-ttu-id="a48ee-183">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="a48ee-183">In the Description field, type a value.</span></span>
+9. <span data-ttu-id="a48ee-184">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="a48ee-184">In the list, mark the selected row.</span></span>
+10. <span data-ttu-id="a48ee-185">Laukā Papildināšanas vienība, ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a48ee-185">In the Replenishment unit field, enter or select a value.</span></span>
+    * <span data-ttu-id="a48ee-186">Piemēram, atlasiet gab.</span><span class="sxs-lookup"><span data-stu-id="a48ee-186">For example, select pcs.</span></span> <span data-ttu-id="a48ee-187">Šis iestatījums ir obligāts.</span><span class="sxs-lookup"><span data-stu-id="a48ee-187">This setting is mandatory.</span></span> <span data-ttu-id="a48ee-188">Tas ļauj norādīt citu mērvienību papildināšanas darbam, salīdzinājumā ar vienību, kas ir norādīta minimālā un maksimālā krājumu līmeņiem šajā veidnē.</span><span class="sxs-lookup"><span data-stu-id="a48ee-188">It allows you to specify a different unit of measurement for replenishment work compared to the unit specified for the minimum and maximum stock levels in this template.</span></span>  
+11. <span data-ttu-id="a48ee-189">Laukā Darba veidne, ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a48ee-189">In the Work template field, enter or select a value.</span></span>
+    * <span data-ttu-id="a48ee-190">Atrodiet iepriekš izveidoto darba veidni.</span><span class="sxs-lookup"><span data-stu-id="a48ee-190">Choose the work template that you created earlier.</span></span>  
+12. <span data-ttu-id="a48ee-191">Laukā Minimālais daudzums, ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="a48ee-191">In the Minimum quantity field, enter a number.</span></span>
+    * <span data-ttu-id="a48ee-192">Atlasiet minimālo daudzumu, kam vajadzētu aktivizēt papildināšanu.</span><span class="sxs-lookup"><span data-stu-id="a48ee-192">Select the minimum quantity that should trigger the replenishment.</span></span> <span data-ttu-id="a48ee-193">Piemēram, iestatiet to uz 50.</span><span class="sxs-lookup"><span data-stu-id="a48ee-193">For example, set this to 50.</span></span> <span data-ttu-id="a48ee-194">Ir iespējams atstāt šo iestatījumu uz nulli, ja papildināt fiksētu atrašanās vietu, un opcija Papildināt tukšas fiksētas atrašanās vietas ir iestatīta uz Jā.</span><span class="sxs-lookup"><span data-stu-id="a48ee-194">It is possible to leave this set to zero, if you’re replenishing a fixed location and the Replenish empty fixed locations option is set to Yes.</span></span> <span data-ttu-id="a48ee-195">Ieteicams arī atlasīt opciju Papildināt tikai fiksētas atrašanās vietas, lai uzlabotu veiktspēju.</span><span class="sxs-lookup"><span data-stu-id="a48ee-195">We also recommend that you select the Replenish only fixed locations option for performance reasons.</span></span>  
+13. <span data-ttu-id="a48ee-196">Laukā Maksimālais daudzums, ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="a48ee-196">In the Maximum quantity field, enter a number.</span></span>
+    * <span data-ttu-id="a48ee-197">Piemēram, iestatiet to uz 100.</span><span class="sxs-lookup"><span data-stu-id="a48ee-197">For example, set this to 100.</span></span>  
+14. <span data-ttu-id="a48ee-198">Laukā Vienība ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a48ee-198">In the Unit field, enter or select a value.</span></span>
+    * <span data-ttu-id="a48ee-199">Piešķiriet vienību minimālajam un maksimālajam daudzumam.</span><span class="sxs-lookup"><span data-stu-id="a48ee-199">Assign the unit for the minimum and maximum quantities.</span></span> <span data-ttu-id="a48ee-200">Piemēram, iestatiet to uz gab.</span><span class="sxs-lookup"><span data-stu-id="a48ee-200">For example, set this to pcs.</span></span>  
+15. <span data-ttu-id="a48ee-201">Atzīmējiet izvēles rūtiņu Papildināt tukšas fiksētas atrašanās vietas.</span><span class="sxs-lookup"><span data-stu-id="a48ee-201">Select the Replenish empty fixed locations check box.</span></span>
+    * <span data-ttu-id="a48ee-202">Atzīmējiet šo izvēles rūtiņu, lai papildinātu fiksētas atrašanās vietas, kad tās ir tukšas.</span><span class="sxs-lookup"><span data-stu-id="a48ee-202">Select this check box to replenish fixed locations when they are empty.</span></span> <span data-ttu-id="a48ee-203">Pretējā gadījumā tiek papildināti tikai tie novietojumi, kur pastāv rīcībā esošs daudzums.</span><span class="sxs-lookup"><span data-stu-id="a48ee-203">Otherwise, only the locations where there is a quantity on hand will be replenished.</span></span>  
+16. <span data-ttu-id="a48ee-204">Atzīmējiet izvēles rūtiņu Papildināt tikai tukšas fiksētas atrašanās vietas.</span><span class="sxs-lookup"><span data-stu-id="a48ee-204">Select the Replenish only fixed locations check box.</span></span>
+17. <span data-ttu-id="a48ee-205">Noklikšķiniet uz Atlasīt preces.</span><span class="sxs-lookup"><span data-stu-id="a48ee-205">Click Select products.</span></span>
+    * <span data-ttu-id="a48ee-206">Šī ir vieta, lai definētu, kuri produkti ir jāpapildina.</span><span class="sxs-lookup"><span data-stu-id="a48ee-206">This is the place to define which products should be replenished.</span></span> <span data-ttu-id="a48ee-207">Ja ir atlasīta opcija Fiksētas izdošanas vietas, jums nepieciešams arī noteikt atrašanās vietas šajā vaicājumā.</span><span class="sxs-lookup"><span data-stu-id="a48ee-207">If the Fixed picking locations option is selected, you also need to define the locations in this query.</span></span> <span data-ttu-id="a48ee-208">Ir pieejami variantam specifiski, kā arī precei specifiski vaicājumi.</span><span class="sxs-lookup"><span data-stu-id="a48ee-208">Variant-specific queries are available as well product-specific queries.</span></span>  
+18. <span data-ttu-id="a48ee-209">Atlasiet Krājumu rindu.</span><span class="sxs-lookup"><span data-stu-id="a48ee-209">Select the Items row.</span></span>
+19. <span data-ttu-id="a48ee-210">Laukā Kritēriji ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a48ee-210">In the Criteria field, type a value.</span></span>
+    * <span data-ttu-id="a48ee-211">Atlasiet krājumus, kas ir jāpapildina fiksētās atrašanās vietās.</span><span class="sxs-lookup"><span data-stu-id="a48ee-211">Select the items that should be replenished at the fixed locations.</span></span> <span data-ttu-id="a48ee-212">Piemēram, ierakstiet A*, lai atlasītu visus krājuma numurus, kas sākas ar A.</span><span class="sxs-lookup"><span data-stu-id="a48ee-212">For example, type A* to select all item numbers beginning with A.</span></span>  
+20. <span data-ttu-id="a48ee-213">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="a48ee-213">Click Add.</span></span>
+    * <span data-ttu-id="a48ee-214">Pievienojiet atrašanās vietas entītiju (ja vien tā jau pastāv), lai varētu ierobežot papildināšanas darbu fiksētām izdošanas vietām noteiktā noliktavas apgabalā.</span><span class="sxs-lookup"><span data-stu-id="a48ee-214">Add the Location entity (unless it already exists) to be able to restrict the replenishment work to the fixed picking locations within a specific area of the warehouse.</span></span>  
+21. <span data-ttu-id="a48ee-215">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="a48ee-215">In the list, mark the selected row.</span></span>
+22. <span data-ttu-id="a48ee-216">Iestatiet lauku Tabula uz Atrašanās vietas.</span><span class="sxs-lookup"><span data-stu-id="a48ee-216">Set the Table field to Locations.</span></span>
+23. <span data-ttu-id="a48ee-217">Laukā Lauks, atlasiet Atrašanās vietas profila ID.</span><span class="sxs-lookup"><span data-stu-id="a48ee-217">In the Field field, select Location profile ID.</span></span>
+24. <span data-ttu-id="a48ee-218">Laukā Kritēriji ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a48ee-218">In the Criteria field, enter or select a value.</span></span>
+25. <span data-ttu-id="a48ee-219">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="a48ee-219">Click OK.</span></span>
+26. <span data-ttu-id="a48ee-220">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="a48ee-220">Close the page.</span></span>
 
-## <a name="set-the-replenishment-process-to-run-as-a-batch-job"></a>Iestatiet papildināšanas procesu, lai to varētu palaist kā pakešuzdevumu.
-1. Dodieties uz Noliktavas vadība > Papildināšana > Papildināšanas.
-    * Papildināšanas lapa ļauj jums iestatīt papildināšanas palaišanu kā pakešuzdevumu, vai pieprasīt tās palaišanu manuāli.  
-2. Noklikšķiniet uz Filtrēt.
-3. Sarakstā atzīmējiet atlasīto rindu.
-4. Laukā Kritēriji ievadiet vai atlasiet kādu vērtību.
-5. Noklikšķiniet uz Labi.
-6. Izvērsiet sadaļu Palaist fonā.
-7. Iestatiet Pakešapstrādes opciju uz Jā.
-8. Noklikšķiniet uz Periodiskums.
-9. Atlasiet opciju Bez beigu datuma.
-10. Iestatiet Atkārtošanās shēmu.
-    * Piemēram: atlasiet Dienas.  
-11. Noklikšķiniet uz OK.
-12. Noklikšķiniet uz OK.
+## <a name="set-the-replenishment-process-to-run-as-a-batch-job"></a><span data-ttu-id="a48ee-221">Iestatiet papildināšanas procesu, lai to varētu palaist kā pakešuzdevumu.</span><span class="sxs-lookup"><span data-stu-id="a48ee-221">Set the replenishment process to run as a batch job</span></span>
+1. <span data-ttu-id="a48ee-222">Dodieties uz Noliktavas vadība > Papildināšana > Papildināšanas.</span><span class="sxs-lookup"><span data-stu-id="a48ee-222">Go to Warehouse management > Replenishment > Replenishments.</span></span>
+    * <span data-ttu-id="a48ee-223">Papildināšanas lapa ļauj jums iestatīt papildināšanas palaišanu kā pakešuzdevumu, vai pieprasīt tās palaišanu manuāli.</span><span class="sxs-lookup"><span data-stu-id="a48ee-223">The Replenishments page allows you to set up replenishment to run as a batch job, or to require that it’s started manually.</span></span>  
+2. <span data-ttu-id="a48ee-224">Noklikšķiniet uz Filtrēt.</span><span class="sxs-lookup"><span data-stu-id="a48ee-224">Click Filter.</span></span>
+3. <span data-ttu-id="a48ee-225">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="a48ee-225">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="a48ee-226">Laukā Kritēriji ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a48ee-226">In the Criteria field, enter or select a value.</span></span>
+5. <span data-ttu-id="a48ee-227">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="a48ee-227">Click OK.</span></span>
+6. <span data-ttu-id="a48ee-228">Izvērsiet sadaļu Palaist fonā.</span><span class="sxs-lookup"><span data-stu-id="a48ee-228">Expand the Run in the background section.</span></span>
+7. <span data-ttu-id="a48ee-229">Iestatiet Pakešapstrādes opciju uz Jā.</span><span class="sxs-lookup"><span data-stu-id="a48ee-229">Set the Batch processing option to Yes.</span></span>
+8. <span data-ttu-id="a48ee-230">Noklikšķiniet uz Periodiskums.</span><span class="sxs-lookup"><span data-stu-id="a48ee-230">Click Recurrence.</span></span>
+9. <span data-ttu-id="a48ee-231">Atlasiet opciju Bez beigu datuma.</span><span class="sxs-lookup"><span data-stu-id="a48ee-231">Select the No end date option.</span></span>
+10. <span data-ttu-id="a48ee-232">Iestatiet Atkārtošanās shēmu.</span><span class="sxs-lookup"><span data-stu-id="a48ee-232">Set the Recurrance pattern.</span></span>
+    * <span data-ttu-id="a48ee-233">Piemēram: atlasiet Dienas.</span><span class="sxs-lookup"><span data-stu-id="a48ee-233">For example, select Days.</span></span>  
+11. <span data-ttu-id="a48ee-234">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="a48ee-234">Click OK.</span></span>
+12. <span data-ttu-id="a48ee-235">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="a48ee-235">Click OK.</span></span>
 
 

@@ -16,57 +16,57 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 9c5f79b7d9d62b29f21f2ddd1f6507ff82b381cc
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: b0647e1ec55d23607d07f38105e42af498ad1174
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="configure-access-rights-for-a-cost-object-controller"></a>Piekļuves tiesību konfigurēšana izmaksu objekta kontrolierim
+# <a name="configure-access-rights-for-a-cost-object-controller"></a><span data-ttu-id="774fd-103">Piekļuves tiesību konfigurēšana izmaksu objekta kontrolierim</span><span class="sxs-lookup"><span data-stu-id="774fd-103">Configure access rights for a cost object controller</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Izmantojiet šo procedūru, lai konfigurētu izmaksu objekta kontroliera piekļuves tiesības. Šajā ierakstā tiek izmantots USP2 demonstrācijas datu uzņēmums.
+<span data-ttu-id="774fd-104">Izmantojiet šo procedūru, lai konfigurētu izmaksu objekta kontroliera piekļuves tiesības.</span><span class="sxs-lookup"><span data-stu-id="774fd-104">Use this procedure to configure access rights for a cost object controller.</span></span> <span data-ttu-id="774fd-105">Šajā ierakstā tiek izmantots USP2 demonstrācijas datu uzņēmums.</span><span class="sxs-lookup"><span data-stu-id="774fd-105">This recording uses the USP2 demo data company.</span></span>
 
 
-## <a name="assign-the-cost-object-controller-role"></a>Izmaksu objekta kontroliera lomas piešķire
-1. Pārejiet uz sadaļu Sistēmas administrēšana > Lietotāji > Lietotāji.
-2. Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus. Piemēram, filtrējiet pēc lauka Lietotājvārds, izmantojot vērtību "alicia".
-3. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-4. Noklikšķiniet uz Piešķirt lomas.
-5. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-6. Noklikšķiniet uz OK.
+## <a name="assign-the-cost-object-controller-role"></a><span data-ttu-id="774fd-106">Izmaksu objekta kontroliera lomas piešķire</span><span class="sxs-lookup"><span data-stu-id="774fd-106">Assign the cost object controller role</span></span>
+1. <span data-ttu-id="774fd-107">Pārejiet uz sadaļu Sistēmas administrēšana > Lietotāji > Lietotāji.</span><span class="sxs-lookup"><span data-stu-id="774fd-107">Go to System administration > Users > Users.</span></span>
+2. <span data-ttu-id="774fd-108">Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus.</span><span class="sxs-lookup"><span data-stu-id="774fd-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="774fd-109">Piemēram, filtrējiet pēc lauka Lietotājvārds, izmantojot vērtību "alicia".</span><span class="sxs-lookup"><span data-stu-id="774fd-109">For example, filter on the User name field with a value of 'alicia'.</span></span>
+3. <span data-ttu-id="774fd-110">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="774fd-110">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="774fd-111">Noklikšķiniet uz Piešķirt lomas.</span><span class="sxs-lookup"><span data-stu-id="774fd-111">Click Assign roles.</span></span>
+5. <span data-ttu-id="774fd-112">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="774fd-112">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="774fd-113">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="774fd-113">Click OK.</span></span>
 
-## <a name="enable-access-list-security"></a>Piekļuves saraksta drošības iespējošana
-1. Dodieties uz Izmaksu uzskaite > Dimensijas > Dimensiju hierarhijas.
-2. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-    * Atlasiet Organizācija.  
-3. Noklikšķiniet uz Rediģēt.
-4. Laukā Piekļuves sarakstu hierarhija atlasiet Jā.
-5. Noklikšķiniet uz Skatīt hierarhiju.
+## <a name="enable-access-list-security"></a><span data-ttu-id="774fd-114">Piekļuves saraksta drošības iespējošana</span><span class="sxs-lookup"><span data-stu-id="774fd-114">Enable access list security</span></span>
+1. <span data-ttu-id="774fd-115">Dodieties uz Izmaksu uzskaite > Dimensijas > Dimensiju hierarhijas.</span><span class="sxs-lookup"><span data-stu-id="774fd-115">Go to Cost accounting > Dimensions > Dimension hierarchies.</span></span>
+2. <span data-ttu-id="774fd-116">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="774fd-116">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="774fd-117">Atlasiet Organizācija.</span><span class="sxs-lookup"><span data-stu-id="774fd-117">Select Organization.</span></span>  
+3. <span data-ttu-id="774fd-118">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="774fd-118">Click Edit.</span></span>
+4. <span data-ttu-id="774fd-119">Laukā Piekļuves sarakstu hierarhija atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="774fd-119">Select Yes in the Access list hierarchy field.</span></span>
+5. <span data-ttu-id="774fd-120">Noklikšķiniet uz Skatīt hierarhiju.</span><span class="sxs-lookup"><span data-stu-id="774fd-120">Click View hierarchy.</span></span>
 
-## <a name="assign-access-rights-to-user"></a>Piekļuves tiesību piešķiršana lietotājam
-1. Noklikšķiniet uz Jauns.
-2. Sarakstā atzīmējiet atlasīto rindu.
-3. Laukā Lietotāja ID ievadiet vai atlasiet kādu vērtību.
-    * Atlasiet Administrators.  
-4. Kokā atlasiet Organization\CEO\CFO\FIM.
-5. Noklikšķiniet uz Jauns.
-6. Sarakstā atzīmējiet atlasīto rindu.
-7. Laukā Lietotāja ID ievadiet vai atlasiet kādu vērtību.
-    * Atlasiet Alīsija.  
-8. Noklikšķiniet uz Saglabāt.
+## <a name="assign-access-rights-to-user"></a><span data-ttu-id="774fd-121">Piekļuves tiesību piešķiršana lietotājam</span><span class="sxs-lookup"><span data-stu-id="774fd-121">Assign access rights to user</span></span>
+1. <span data-ttu-id="774fd-122">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="774fd-122">Click New.</span></span>
+2. <span data-ttu-id="774fd-123">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="774fd-123">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="774fd-124">Laukā Lietotāja ID ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="774fd-124">In the User ID field, enter or select a value.</span></span>
+    * <span data-ttu-id="774fd-125">Atlasiet Administrators.</span><span class="sxs-lookup"><span data-stu-id="774fd-125">Select Admin.</span></span>  
+4. <span data-ttu-id="774fd-126">Kokā atlasiet Organization\CEO\CFO\FIM.</span><span class="sxs-lookup"><span data-stu-id="774fd-126">In the tree, select 'Organization\CEO\CFO\FIM'.</span></span>
+5. <span data-ttu-id="774fd-127">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="774fd-127">Click New.</span></span>
+6. <span data-ttu-id="774fd-128">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="774fd-128">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="774fd-129">Laukā Lietotāja ID ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="774fd-129">In the User ID field, enter or select a value.</span></span>
+    * <span data-ttu-id="774fd-130">Atlasiet Alīsija.</span><span class="sxs-lookup"><span data-stu-id="774fd-130">Select Alicia.</span></span>  
+8. <span data-ttu-id="774fd-131">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="774fd-131">Click Save.</span></span>
 
-## <a name="enable-access-rights-in-cost-accounting"></a>Piekļuves tiesību iespējošana vidē Izmaksu uzskaite
-1. Dodieties uz Izmaksu uzskaite > Iestatījumi > Parametri.
-2. Noklikšķiniet uz cilnes Vispārīgi.
-3. Laukā Iespējot skatīšanas piekļuvi izmaksu objekta dimensijas elementiem atlasiet Jā.
-4. Noklikšķiniet uz Saglabāt.
-5. Aizvērt lapu.
-6. Dodieties uz Izmaksu uzskaite > Iestatījumi > Izmaksu kontroles darbvietas konfigurācija.
-7. Noklikšķiniet uz Rediģēt.
-8. Laukā Publicēts atlasiet Jā.
-    * Atlasot Jā, lietotājs, kuram ir piešķirta viena no tālāk minētajām četrām lomām, var redzēt pārskatus izmaksu kontroles darbvietā: izmaksu uzskaites vadītājs, izmaksu grāmatvedis, izmaksu grāmatvedības darbinieks un izmaksu objekta kontrolieris. Atlasot Nē, tikai lietotājs, kuram ir piešķirta viena no tālāk minētajām četrām lomām, var redzēt pārskatus: izmaksu uzskaites vadītājs un izmaksu grāmatvedības darbinieks.    
-9. Noklikšķiniet uz Saglabāt.
+## <a name="enable-access-rights-in-cost-accounting"></a><span data-ttu-id="774fd-132">Piekļuves tiesību iespējošana vidē Izmaksu uzskaite</span><span class="sxs-lookup"><span data-stu-id="774fd-132">Enable access rights in Cost accounting</span></span>
+1. <span data-ttu-id="774fd-133">Dodieties uz Izmaksu uzskaite > Iestatījumi > Parametri.</span><span class="sxs-lookup"><span data-stu-id="774fd-133">Go to Cost accounting > Setup > Parameters.</span></span>
+2. <span data-ttu-id="774fd-134">Noklikšķiniet uz cilnes Vispārīgi.</span><span class="sxs-lookup"><span data-stu-id="774fd-134">Click the General tab.</span></span>
+3. <span data-ttu-id="774fd-135">Laukā Iespējot skatīšanas piekļuvi izmaksu objekta dimensijas elementiem atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="774fd-135">Select Yes in the Enable view access for cost object dimension members field.</span></span>
+4. <span data-ttu-id="774fd-136">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="774fd-136">Click Save.</span></span>
+5. <span data-ttu-id="774fd-137">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="774fd-137">Close the page.</span></span>
+6. <span data-ttu-id="774fd-138">Dodieties uz Izmaksu uzskaite > Iestatījumi > Izmaksu kontroles darbvietas konfigurācija.</span><span class="sxs-lookup"><span data-stu-id="774fd-138">Go to Cost accounting > Setup > Cost control workspace configuration.</span></span>
+7. <span data-ttu-id="774fd-139">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="774fd-139">Click Edit.</span></span>
+8. <span data-ttu-id="774fd-140">Laukā Publicēts atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="774fd-140">Select Yes in the Published field.</span></span>
+    * <span data-ttu-id="774fd-141">Atlasot Jā, lietotājs, kuram ir piešķirta viena no tālāk minētajām četrām lomām, var redzēt pārskatus izmaksu kontroles darbvietā: izmaksu uzskaites vadītājs, izmaksu grāmatvedis, izmaksu grāmatvedības darbinieks un izmaksu objekta kontrolieris.</span><span class="sxs-lookup"><span data-stu-id="774fd-141">If you select Yes, a user who is assigned one of the following four roles can see the reports in the Cost control workspace: cost accounting manager, cost accountant, cost accountant clerk, and cost object controller.</span></span> <span data-ttu-id="774fd-142">Atlasot Nē, tikai lietotājs, kuram ir piešķirta viena no tālāk minētajām četrām lomām, var redzēt pārskatus: izmaksu uzskaites vadītājs un izmaksu grāmatvedības darbinieks.</span><span class="sxs-lookup"><span data-stu-id="774fd-142">If you select No, only a user who is assigned one of the following roles can see the reports: cost accounting manager, cost accountant, and cost accountant clerk.</span></span>    
+9. <span data-ttu-id="774fd-143">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="774fd-143">Click Save.</span></span>
 
 

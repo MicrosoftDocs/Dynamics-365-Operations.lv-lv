@@ -17,44 +17,44 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: d57d12f4987c25a6b4e52856fc8fd198efcc8c3c
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: c2423fe91d1531a326080e3a584195ea864f2e3e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-discrete-manufacturing-resource-group"></a>Atsevišķu ražošanas resursu grupu definēšana
+# <a name="define-discrete-manufacturing-resource-group"></a><span data-ttu-id="9c236-103">Atsevišķu ražošanas resursu grupu definēšana</span><span class="sxs-lookup"><span data-stu-id="9c236-103">Define discrete manufacturing resource group</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Resursu grupa ir operācijas resursu kopa, kas parasti atbilst darba šūnu fiziskajai organizācijai, kuras ražotnē ir norādītas ar dzeltenām līnijām. Šajā procedūrā ir parādīts, kā definēt resurss grupu izmantošanai atsevišķā ražošanā. Šo procedūru varat izmēģināt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.
+<span data-ttu-id="9c236-104">Resursu grupa ir operācijas resursu kopa, kas parasti atbilst darba šūnu fiziskajai organizācijai, kuras ražotnē ir norādītas ar dzeltenām līnijām.</span><span class="sxs-lookup"><span data-stu-id="9c236-104">A resource group is a set of operations resources that typically correspond to the physical organization of work cells, defined by yellow lines on the production shop floor.</span></span> <span data-ttu-id="9c236-105">Šajā procedūrā ir parādīts, kā definēt resurss grupu izmantošanai atsevišķā ražošanā.</span><span class="sxs-lookup"><span data-stu-id="9c236-105">This procedure shows you how to define a ressource group for use in discrete production.</span></span> <span data-ttu-id="9c236-106">Šo procedūru varat izmēģināt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.</span><span class="sxs-lookup"><span data-stu-id="9c236-106">You can walk through this procedure in demo data company USMF, or use your own data.</span></span>
 
-1. Dodieties uz Resursu grupas.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Resursu grupa ierakstiet kādu vērtību.
-4. Apraksta laukā ierakstiet vērtību.
-5. Laukā Vieta ievadiet vai atlasiet kādu vērtību.
-6. Laukā Ražošanas vienība ievadiet vai atlasiet kādu vērtību.
+1. <span data-ttu-id="9c236-107">Dodieties uz Resursu grupas.</span><span class="sxs-lookup"><span data-stu-id="9c236-107">Go to Resource groups.</span></span>
+2. <span data-ttu-id="9c236-108">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="9c236-108">Click New.</span></span>
+3. <span data-ttu-id="9c236-109">Laukā Resursu grupa ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="9c236-109">In the Resource group field, type a value.</span></span>
+4. <span data-ttu-id="9c236-110">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="9c236-110">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="9c236-111">Laukā Vieta ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="9c236-111">In the Site field, enter or select a value.</span></span>
+6. <span data-ttu-id="9c236-112">Laukā Ražošanas vienība ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="9c236-112">In the Production unit field, enter or select a value.</span></span>
 
-## <a name="define-default-operational-parameters"></a>Definēt noklusējuma operāciju parametrus
-1. Izvērsiet sadaļu Operācija.
-2. Laukā Brāķis procentos ievadiet kādu skaitli.
-3. Laukā Iestatīšanas kategorija ievadiet vai atlasiet kādu vērtību.
-4. Laukā Izpildlaiks ievadiet vai atlasiet kādu vērtību.
-5. Laukā Operāciju plānošanas procenti ievadiet kādu skaitli.
+## <a name="define-default-operational-parameters"></a><span data-ttu-id="9c236-113">Definēt noklusējuma operāciju parametrus</span><span class="sxs-lookup"><span data-stu-id="9c236-113">Define default operational parameters</span></span>
+1. <span data-ttu-id="9c236-114">Izvērsiet sadaļu Operācija.</span><span class="sxs-lookup"><span data-stu-id="9c236-114">Expand the Operation section.</span></span>
+2. <span data-ttu-id="9c236-115">Laukā Brāķis procentos ievadiet kādu skaitli.</span><span class="sxs-lookup"><span data-stu-id="9c236-115">In the Scrap percentage field, enter a number.</span></span>
+3. <span data-ttu-id="9c236-116">Laukā Iestatīšanas kategorija ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="9c236-116">In the Setup category field, enter or select a value.</span></span>
+4. <span data-ttu-id="9c236-117">Laukā Izpildlaiks ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="9c236-117">In the Run time category field, enter or select a value.</span></span>
+5. <span data-ttu-id="9c236-118">Laukā Operāciju plānošanas procenti ievadiet kādu skaitli.</span><span class="sxs-lookup"><span data-stu-id="9c236-118">In the Operations scheduling percentage field, enter a number.</span></span>
 
-## <a name="define-operating-hours"></a>Definēt darba stundas
-1. Izvērsiet sadaļu Kalendāri.
-2. Noklikšķiniet uz Pievienot.
-3. Laukā Kalendārs ievadiet vai atlasiet kādu vērtību.
+## <a name="define-operating-hours"></a><span data-ttu-id="9c236-119">Definēt darba stundas</span><span class="sxs-lookup"><span data-stu-id="9c236-119">Define operating hours</span></span>
+1. <span data-ttu-id="9c236-120">Izvērsiet sadaļu Kalendāri.</span><span class="sxs-lookup"><span data-stu-id="9c236-120">Expand the Calendars section.</span></span>
+2. <span data-ttu-id="9c236-121">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="9c236-121">Click Add.</span></span>
+3. <span data-ttu-id="9c236-122">Laukā Kalendārs ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="9c236-122">In the Calendar field, enter or select a value.</span></span>
 
-## <a name="add-operations-resources"></a>Pievienot operāciju resursus
-1. Izvērsiet sadaļu Resursi.
-2. Noklikšķiniet uz Pievienot.
-3. Laukā Resursi ievadiet vai atlasiet kādu vērtību.
-4. Noklikšķiniet uz Pievienot.
-5. Laukā Resursi ievadiet vai atlasiet kādu vērtību.
-6. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-7. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
+## <a name="add-operations-resources"></a><span data-ttu-id="9c236-123">Pievienot operāciju resursus</span><span class="sxs-lookup"><span data-stu-id="9c236-123">Add operations resources</span></span>
+1. <span data-ttu-id="9c236-124">Izvērsiet sadaļu Resursi.</span><span class="sxs-lookup"><span data-stu-id="9c236-124">Expand the Resources section.</span></span>
+2. <span data-ttu-id="9c236-125">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="9c236-125">Click Add.</span></span>
+3. <span data-ttu-id="9c236-126">Laukā Resursi ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="9c236-126">In the Resource field, enter or select a value.</span></span>
+4. <span data-ttu-id="9c236-127">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="9c236-127">Click Add.</span></span>
+5. <span data-ttu-id="9c236-128">Laukā Resursi ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="9c236-128">In the Resource field, enter or select a value.</span></span>
+6. <span data-ttu-id="9c236-129">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="9c236-129">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="9c236-130">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="9c236-130">In the list, click the link in the selected row.</span></span>
 
 

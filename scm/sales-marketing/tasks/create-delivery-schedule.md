@@ -16,53 +16,53 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: aa2bb25207be4fde43ae9dee85ee6868b1b58972
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 956edeac33f8531ecebef64301f2318333000429
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-delivery-schedule"></a>Piegādes grafika izveide
+# <a name="create-a-delivery-schedule"></a><span data-ttu-id="02abc-103">Piegādes grafika izveide</span><span class="sxs-lookup"><span data-stu-id="02abc-103">Create a delivery schedule</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā procedūrā ir parādīts, kā pārdošanas pasūtījumam izveidot piegādes grafiku. Piegādes grafiks tiek izmantots, kad pasūtījumā vai piedāvājumā minēto daudzumu ir pieprasīts piegādāt vairākos sūtījumos. Šo procedūru varat izpildīt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.
+<span data-ttu-id="02abc-104">Šajā procedūrā ir parādīts, kā pārdošanas pasūtījumam izveidot piegādes grafiku.</span><span class="sxs-lookup"><span data-stu-id="02abc-104">This procedure demonstrates how to create a delivery schedule for a sales order.</span></span> <span data-ttu-id="02abc-105">Piegādes grafiks tiek izmantots, kad pasūtījumā vai piedāvājumā minēto daudzumu ir pieprasīts piegādāt vairākos sūtījumos.</span><span class="sxs-lookup"><span data-stu-id="02abc-105">A delivery schedule is used when a quantity on an order or a quotation is requested to be delivered in multiple shipments.</span></span> <span data-ttu-id="02abc-106">Šo procedūru varat izpildīt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.</span><span class="sxs-lookup"><span data-stu-id="02abc-106">You can run this procedure in demo data company USMF or on your own data.</span></span>
 
 
-## <a name="create-delivery-schedule"></a>Izveidot piegādes grafiku
-1. Dodieties uz Visi pārdošanas pasūtījumi.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Debitora konts ievadiet vai atlasiet kādu vērtību.
-4. Noklikšķiniet uz Labi.
-5. Laukā Krājuma kods ievadiet vai atlasiet kādu vērtību.
-6. Laukā Daudzums ievadiet skaitli, kas ir lielāks par 1.
-7. Noklikšķiniet uz Pārdošanas pasūtījuma rinda.
-8. Noklikšķiniet uz Piegādes grafiks.
-    * Lapa Piegādes grafiks ir vieta, kur varat norādīt sūtījumu skaitu, kādā debitoram tiks piegādāts viss pasūtījuma rindas daudzums.    
-    * Pēc noklusējuma sistēma no sākotnējās pārdošanas rindas uz pirmo piegādes grafika rindu kopē kopējo daudzumu un citu piegādes informāciju. Šajā piemērā mēs izveidosim grafiku diviem sūtījumiem, un otrā sūtījuma datumam no pirmā būs nobīde par vienu nedēļu.  
-9. Laukā Daudzums ievadiet skaitli, kas ir daļa no kopējā daudzuma.
-10. Klikšķiniet Jauns.
-11. Laukā Daudzums ievadiet atlikušo daudzumu.
-12. Laukā Pieprasītais nosūtīšanas datums ievadiet datumu, kas ir par vienu nedēļu uz priekšu no pirmās piegādes rindas datuma.
-    * Abas opcijas kopsavilkuma cilnē Izmaksu konvertēšana kontrolē veidu, kā šīs izmaksas jāsadala pa piegādes grafika rindām, kad tās ir piešķirtas sākotnējai pasūtījuma rindai. Ja atlasāt Kopēt bruto summas, tad uz katru rindu tiek kopēta tāda pati summa. Ar opciju Piešķirt piegādes rindām šīs izmaksas tiek vienmērīgi sadalītas pa piegādes rindām.  
-    * Iespējams sadalīt tikai fiksētas izmaksas, bet mainīgās izmaksas joprojām tiks kopētas uz rindām.  
-13. Pārvietojiet kursoru prom no otrās piegādes rindas, lai atjauninātu lapu.
-    * Piegādes grafika rindām piešķirtajam kopējam daudzumam varat sekot līdzi, apskatot laukus Kopsumma un Atlicis. Ja atlikušais daudzums ir nulle, grafikam ir piešķirts viss daudzums no sākotnējās rindas.   
-14. Noklikšķiniet uz OK.
-    * Tagad piegādes grafiks ir kopēts uz pasūtījuma rindām.   
-    * Sākotnējā pasūtījuma rinda, ko sauc par komerciālo rindu, ir pārvērsta par pasūtījuma rindu ar vairākām piegādēm. Tā ir atzīmēta ar atšķirīgu ikonu un darbojas kā piegādes rindu virsraksts.  
-    * Abas jaunās rindas, sauktas par piegādes rindām, veido vienu piegādes grafiku. Pasūtījums tiks apstrādāts pret šīm rindām, nevis sākotnējo rindu. Ja tiek drukāti dokumenti, piemēram, apstiprinājuma pavadzīmes, izdošanas saraksti, pavadzīmes vai rēķini, tiek rādītas tikai piegādes rindas.   
-    * Piegādes rindām var būt atšķirīgi piegādes datumi, daudzumi, piegādes režīmi un noliktavas dimensijas, piemēram, vieta un noliktava. Taču preču dimensijām vienmēr ir jāatbilst komerciālajā rindā norādītajām, un tās nevar mainīt.  
-15. Laukā Daudzums ievadiet skaitli, kas ir lielāks par pašreizējo.
-16. Atlasiet komerciālo rindu, lai redzētu daudzuma pārrēķināšanas ietekmi.
-17. Darbību rūtī noklikšķiniet uz Izdot un iepakot.
-18. Noklikšķiniet uz Grāmatot pavadzīmi.
-19. Izvērsiet sadaļu Parametri.
-20. Laukā Daudzums atlasiet vērtību Visi.
-    * Ņemiet vērā, ka pavadzīme tiks izveidota abām piegādes grafika rindām, nevis sākotnējai pasūtījuma rindai.  
-21. Laukā Drukāt pavadzīmi atlasiet Jā.
-22. Noklikšķiniet uz OK.
-23. Noklikšķiniet uz Jā.
-24. Aizvērt lapu.
+## <a name="create-delivery-schedule"></a><span data-ttu-id="02abc-107">Izveidot piegādes grafiku</span><span class="sxs-lookup"><span data-stu-id="02abc-107">Create delivery schedule</span></span>
+1. <span data-ttu-id="02abc-108">Dodieties uz Visi pārdošanas pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="02abc-108">Go to All sales orders.</span></span>
+2. <span data-ttu-id="02abc-109">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="02abc-109">Click New.</span></span>
+3. <span data-ttu-id="02abc-110">Laukā Debitora konts ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="02abc-110">In the Customer account field, enter or select a value.</span></span>
+4. <span data-ttu-id="02abc-111">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="02abc-111">Click OK.</span></span>
+5. <span data-ttu-id="02abc-112">Laukā Krājuma kods ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="02abc-112">In the Item number field, enter or select a value.</span></span>
+6. <span data-ttu-id="02abc-113">Laukā Daudzums ievadiet skaitli, kas ir lielāks par 1.</span><span class="sxs-lookup"><span data-stu-id="02abc-113">In the Quantity field, enter a number that is bigger than 1.</span></span>
+7. <span data-ttu-id="02abc-114">Noklikšķiniet uz Pārdošanas pasūtījuma rinda.</span><span class="sxs-lookup"><span data-stu-id="02abc-114">Click Sales order line.</span></span>
+8. <span data-ttu-id="02abc-115">Noklikšķiniet uz Piegādes grafiks.</span><span class="sxs-lookup"><span data-stu-id="02abc-115">Click Delivery schedule.</span></span>
+    * <span data-ttu-id="02abc-116">Lapa Piegādes grafiks ir vieta, kur varat norādīt sūtījumu skaitu, kādā debitoram tiks piegādāts viss pasūtījuma rindas daudzums.</span><span class="sxs-lookup"><span data-stu-id="02abc-116">The Delivery schedule page is the place where you can specify the number of shipments in which the total quantity of the order line will be delivered to the customer.</span></span>    
+    * <span data-ttu-id="02abc-117">Pēc noklusējuma sistēma no sākotnējās pārdošanas rindas uz pirmo piegādes grafika rindu kopē kopējo daudzumu un citu piegādes informāciju.</span><span class="sxs-lookup"><span data-stu-id="02abc-117">By default, the system copies the total quantity and other delivery details of the original sales line into the first delivery schedule line.</span></span> <span data-ttu-id="02abc-118">Šajā piemērā mēs izveidosim grafiku diviem sūtījumiem, un otrā sūtījuma datumam no pirmā būs nobīde par vienu nedēļu.</span><span class="sxs-lookup"><span data-stu-id="02abc-118">In this example, we’ll create a schedule for two shipments, with the second shipment's date offset by a week from the first one.</span></span>  
+9. <span data-ttu-id="02abc-119">Laukā Daudzums ievadiet skaitli, kas ir daļa no kopējā daudzuma.</span><span class="sxs-lookup"><span data-stu-id="02abc-119">In the Quantity field, enter a number that is part of the total quantity.</span></span>
+10. <span data-ttu-id="02abc-120">Klikšķiniet Jauns.</span><span class="sxs-lookup"><span data-stu-id="02abc-120">Click New.</span></span>
+11. <span data-ttu-id="02abc-121">Laukā Daudzums ievadiet atlikušo daudzumu.</span><span class="sxs-lookup"><span data-stu-id="02abc-121">In the Quantity field, enter the remaining quantity.</span></span>
+12. <span data-ttu-id="02abc-122">Laukā Pieprasītais nosūtīšanas datums ievadiet datumu, kas ir par vienu nedēļu uz priekšu no pirmās piegādes rindas datuma.</span><span class="sxs-lookup"><span data-stu-id="02abc-122">In the Requested ship date field, enter a date a date that is one week ahead from the date of the first delivery line.</span></span>
+    * <span data-ttu-id="02abc-123">Abas opcijas kopsavilkuma cilnē Izmaksu konvertēšana kontrolē veidu, kā šīs izmaksas jāsadala pa piegādes grafika rindām, kad tās ir piešķirtas sākotnējai pasūtījuma rindai.</span><span class="sxs-lookup"><span data-stu-id="02abc-123">The two options on the Charges conversion FastTab control how you want the charges to be distributed across the delivery schedule lines, once they’ve been assigned to the original order line.</span></span> <span data-ttu-id="02abc-124">Ja atlasāt Kopēt bruto summas, tad uz katru rindu tiek kopēta tāda pati summa.</span><span class="sxs-lookup"><span data-stu-id="02abc-124">If you select Copy gross amounts, the same charge amount is copied to each line.</span></span> <span data-ttu-id="02abc-125">Ar opciju Piešķirt piegādes rindām šīs izmaksas tiek vienmērīgi sadalītas pa piegādes rindām.</span><span class="sxs-lookup"><span data-stu-id="02abc-125">The Allocate to delivery lines option divides the charge equally across the delivery lines.</span></span>  
+    * <span data-ttu-id="02abc-126">Iespējams sadalīt tikai fiksētas izmaksas, bet mainīgās izmaksas joprojām tiks kopētas uz rindām.</span><span class="sxs-lookup"><span data-stu-id="02abc-126">Only fixed charges can be divided, whereas variable charges will still be copied to the lines.</span></span>  
+13. <span data-ttu-id="02abc-127">Pārvietojiet kursoru prom no otrās piegādes rindas, lai atjauninātu lapu.</span><span class="sxs-lookup"><span data-stu-id="02abc-127">Move the cursor away from the second delivery line to update the page.</span></span>
+    * <span data-ttu-id="02abc-128">Piegādes grafika rindām piešķirtajam kopējam daudzumam varat sekot līdzi, apskatot laukus Kopsumma un Atlicis.</span><span class="sxs-lookup"><span data-stu-id="02abc-128">You can keep track of the total quantity that’s allocated to the delivery schedule lines by looking at the Total and Remaining fields.</span></span> <span data-ttu-id="02abc-129">Ja atlikušais daudzums ir nulle, grafikam ir piešķirts viss daudzums no sākotnējās rindas.</span><span class="sxs-lookup"><span data-stu-id="02abc-129">When the remaining quantity is zero, the full quantity from the original line has been allocated to the schedule.</span></span>   
+14. <span data-ttu-id="02abc-130">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="02abc-130">Click OK.</span></span>
+    * <span data-ttu-id="02abc-131">Tagad piegādes grafiks ir kopēts uz pasūtījuma rindām.</span><span class="sxs-lookup"><span data-stu-id="02abc-131">The delivery schedule has now been copied to the order lines.</span></span>   
+    * <span data-ttu-id="02abc-132">Sākotnējā pasūtījuma rinda, ko sauc par komerciālo rindu, ir pārvērsta par pasūtījuma rindu ar vairākām piegādēm.</span><span class="sxs-lookup"><span data-stu-id="02abc-132">The original order line, referred to as a Commercial line, has been converted to an Order line with multiple deliveries.</span></span> <span data-ttu-id="02abc-133">Tā ir atzīmēta ar atšķirīgu ikonu un darbojas kā piegādes rindu virsraksts.</span><span class="sxs-lookup"><span data-stu-id="02abc-133">It is marked with a distinct icon and acts as a header for the delivery lines.</span></span>  
+    * <span data-ttu-id="02abc-134">Abas jaunās rindas, sauktas par piegādes rindām, veido vienu piegādes grafiku.</span><span class="sxs-lookup"><span data-stu-id="02abc-134">The two new lines, referred to as delivery lines, make up one delivery schedule.</span></span> <span data-ttu-id="02abc-135">Pasūtījums tiks apstrādāts pret šīm rindām, nevis sākotnējo rindu.</span><span class="sxs-lookup"><span data-stu-id="02abc-135">The order will be processed against these lines and not the original line.</span></span> <span data-ttu-id="02abc-136">Ja tiek drukāti dokumenti, piemēram, apstiprinājuma pavadzīmes, izdošanas saraksti, pavadzīmes vai rēķini, tiek rādītas tikai piegādes rindas.</span><span class="sxs-lookup"><span data-stu-id="02abc-136">If documents such as confirmation slips, picking lists, packing slips, or invoices are printed, only the delivery lines are shown.</span></span>   
+    * <span data-ttu-id="02abc-137">Piegādes rindām var būt atšķirīgi piegādes datumi, daudzumi, piegādes režīmi un noliktavas dimensijas, piemēram, vieta un noliktava.</span><span class="sxs-lookup"><span data-stu-id="02abc-137">The delivery lines can have different delivery dates, quantities, modes of delivery, and storage dimensions, such as site and warehouse.</span></span> <span data-ttu-id="02abc-138">Taču preču dimensijām vienmēr ir jāatbilst komerciālajā rindā norādītajām, un tās nevar mainīt.</span><span class="sxs-lookup"><span data-stu-id="02abc-138">However, the product dimensions must always match the ones on the commercial line and can't be changed.</span></span>  
+15. <span data-ttu-id="02abc-139">Laukā Daudzums ievadiet skaitli, kas ir lielāks par pašreizējo.</span><span class="sxs-lookup"><span data-stu-id="02abc-139">In the Quantity field, enter a number that's bigger than the current one.</span></span>
+16. <span data-ttu-id="02abc-140">Atlasiet komerciālo rindu, lai redzētu daudzuma pārrēķināšanas ietekmi.</span><span class="sxs-lookup"><span data-stu-id="02abc-140">Select the commercial line to see the effect of the quantity recalculation.</span></span>
+17. <span data-ttu-id="02abc-141">Darbību rūtī noklikšķiniet uz Izdot un iepakot.</span><span class="sxs-lookup"><span data-stu-id="02abc-141">On the Action Pane, click Pick and pack.</span></span>
+18. <span data-ttu-id="02abc-142">Noklikšķiniet uz Grāmatot pavadzīmi.</span><span class="sxs-lookup"><span data-stu-id="02abc-142">Click Post packing slip.</span></span>
+19. <span data-ttu-id="02abc-143">Izvērsiet sadaļu Parametri.</span><span class="sxs-lookup"><span data-stu-id="02abc-143">Expand the Parameters section.</span></span>
+20. <span data-ttu-id="02abc-144">Laukā Daudzums atlasiet vērtību Visi.</span><span class="sxs-lookup"><span data-stu-id="02abc-144">In the Quantity field, select 'All'.</span></span>
+    * <span data-ttu-id="02abc-145">Ņemiet vērā, ka pavadzīme tiks izveidota abām piegādes grafika rindām, nevis sākotnējai pasūtījuma rindai.</span><span class="sxs-lookup"><span data-stu-id="02abc-145">Note that the packing slip will be created for the two delivery schedule lines and not the original order line.</span></span>  
+21. <span data-ttu-id="02abc-146">Laukā Drukāt pavadzīmi atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="02abc-146">Select Yes in the Print packing slip field.</span></span>
+22. <span data-ttu-id="02abc-147">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="02abc-147">Click OK.</span></span>
+23. <span data-ttu-id="02abc-148">Noklikšķiniet uz Jā.</span><span class="sxs-lookup"><span data-stu-id="02abc-148">Click Yes.</span></span>
+24. <span data-ttu-id="02abc-149">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="02abc-149">Close the page.</span></span>
 
 

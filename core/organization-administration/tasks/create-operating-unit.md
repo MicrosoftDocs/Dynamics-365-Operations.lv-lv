@@ -16,30 +16,30 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 83e2f3f07482b6b32e3bfa33e63165d4160dba9c
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 838d1c2d5d1ab2524e9f4be423fbf529b89f5f59
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-an-operating-unit"></a>Pārvaldības struktūrvienības izveide
+# <a name="create-an-operating-unit"></a><span data-ttu-id="a8a7d-103">Pārvaldības struktūrvienības izveide</span><span class="sxs-lookup"><span data-stu-id="a8a7d-103">Create an operating unit</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Pārvaldības struktūrvienība ir organizācija, kas tiek lietota, lai sadalītu ekonomisko resursu un operatīvo procesu kontroli biznesā. Cilvēkiem pārvaldības struktūrvienībā ir pienākums maksimāli izmantot ierobežotos resursus, uzlabot procesus un atskaitīties par savu sniegumu. Pārvaldības struktūrvienību veidi ietver izmaksu centrus, biznesa vienības, nodaļas un vērtību plūsmas. Lai izveidotu pārvaldības struktūrvienību, veiciet tālākminētās darbības. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
+<span data-ttu-id="a8a7d-104">Pārvaldības struktūrvienība ir organizācija, kas tiek lietota, lai sadalītu ekonomisko resursu un operatīvo procesu kontroli biznesā.</span><span class="sxs-lookup"><span data-stu-id="a8a7d-104">An operating unit is an organization that is used to divide the control of economic resources and operational processes in a business.</span></span> <span data-ttu-id="a8a7d-105">Cilvēkiem pārvaldības struktūrvienībā ir pienākums maksimāli izmantot ierobežotos resursus, uzlabot procesus un atskaitīties par savu sniegumu.</span><span class="sxs-lookup"><span data-stu-id="a8a7d-105">People in an operating unit have a duty to maximize the use of scarce resources, improve processes, and account for their performance.</span></span> <span data-ttu-id="a8a7d-106">Pārvaldības struktūrvienību veidi ietver izmaksu centrus, biznesa vienības, nodaļas un vērtību plūsmas.</span><span class="sxs-lookup"><span data-stu-id="a8a7d-106">The types of operating units include cost centers, business units, departments, and value streams.</span></span> <span data-ttu-id="a8a7d-107">Lai izveidotu pārvaldības struktūrvienību, veiciet tālākminētās darbības.</span><span class="sxs-lookup"><span data-stu-id="a8a7d-107">Use the following procedure to create an operating unit.</span></span> <span data-ttu-id="a8a7d-108">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="a8a7d-108">The demo data company used to create this procedure is USMF.</span></span>
 
-1. Dodieties uz Organizācijas administrēšana > Organizācijas > Pārvaldības struktūrvienības.
-2. Noklikšķiniet uz Jauns, lai atvērtu nolaižamo dialoglodziņu.
-3. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-    * Atlasiet, kāda tipa pārvaldības struktūrvienību vēlaties veidot.  
-4. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-5. Laukā Nosaukums ierakstiet kādu vērtību.
-    * Izvērsiet sadaļu Vispārēji, ja nepieciešams.  
-    * Sniedziet vispārēju informāciju par pārvaldības struktūrvienību, piemēram, identifikācijas numuru, DUNS numuru un vadītāju.    
-    * Izvērsiet sadaļu Adreses, ja nepieciešams.  
-    * Ievadiet informāciju par adresi, tādu kā ielas nosaukumu un numuru, pasta indeksa kodu un pilsētu. Noklikšķiniet uz Pievienot, lai ievadītu jaunu adreses ierakstu, vai noklikšķiniet uz Rediģēt, lai mainītu jau esošu adreses ierakstu.   
-    * Izvērsiet sadaļu Kontaktinformācija ja nepieciešams.  
-    * Ierakstiet informāciju par komunikācijas veidiem, piemēram, e-pasta adreses, URL un tālruņa numurus. Lai ievadītu jaunu saziņas ierakstu, noklikšķiniet uz Jauns. Lai modificētu esošo sakaru ierakstu, noklikšķiniet uz Vairāk opciju > Detalizēti.   
-6. Noklikšķiniet uz Saglabāt.
+1. <span data-ttu-id="a8a7d-109">Dodieties uz Organizācijas administrēšana > Organizācijas > Pārvaldības struktūrvienības.</span><span class="sxs-lookup"><span data-stu-id="a8a7d-109">Go to Organization administration > Organizations > Operating units.</span></span>
+2. <span data-ttu-id="a8a7d-110">Noklikšķiniet uz Jauns, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="a8a7d-110">Click New to open the drop dialog.</span></span>
+3. <span data-ttu-id="a8a7d-111">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="a8a7d-111">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="a8a7d-112">Atlasiet, kāda tipa pārvaldības struktūrvienību vēlaties veidot.</span><span class="sxs-lookup"><span data-stu-id="a8a7d-112">Select the type of operating unit you want to create.</span></span>  
+4. <span data-ttu-id="a8a7d-113">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="a8a7d-113">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="a8a7d-114">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a8a7d-114">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="a8a7d-115">Izvērsiet sadaļu Vispārēji, ja nepieciešams.</span><span class="sxs-lookup"><span data-stu-id="a8a7d-115">Expand the General section, if necessary.</span></span>  
+    * <span data-ttu-id="a8a7d-116">Sniedziet vispārēju informāciju par pārvaldības struktūrvienību, piemēram, identifikācijas numuru, DUNS numuru un vadītāju.</span><span class="sxs-lookup"><span data-stu-id="a8a7d-116">Provide general information about the operating unit, such as an identification number, DUNS number, and manager.</span></span>    
+    * <span data-ttu-id="a8a7d-117">Izvērsiet sadaļu Adreses, ja nepieciešams.</span><span class="sxs-lookup"><span data-stu-id="a8a7d-117">Expand the Addresses section, if necessary.</span></span>  
+    * <span data-ttu-id="a8a7d-118">Ievadiet informāciju par adresi, tādu kā ielas nosaukumu un numuru, pasta indeksa kodu un pilsētu.</span><span class="sxs-lookup"><span data-stu-id="a8a7d-118">Enter address information, such as the street name and number, postal code, and city.</span></span> <span data-ttu-id="a8a7d-119">Noklikšķiniet uz Pievienot, lai ievadītu jaunu adreses ierakstu, vai noklikšķiniet uz Rediģēt, lai mainītu jau esošu adreses ierakstu.</span><span class="sxs-lookup"><span data-stu-id="a8a7d-119">Click Add to enter a new address record, or click Edit to modify an existing address record.</span></span>   
+    * <span data-ttu-id="a8a7d-120">Izvērsiet sadaļu Kontaktinformācija ja nepieciešams.</span><span class="sxs-lookup"><span data-stu-id="a8a7d-120">Expand the Contact information section, if necessary.</span></span>  
+    * <span data-ttu-id="a8a7d-121">Ierakstiet informāciju par komunikācijas veidiem, piemēram, e-pasta adreses, URL un tālruņa numurus.</span><span class="sxs-lookup"><span data-stu-id="a8a7d-121">Enter information about methods of communication, such as email addresses, URLs, and telephone numbers.</span></span> <span data-ttu-id="a8a7d-122">Lai ievadītu jaunu saziņas ierakstu, noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="a8a7d-122">To enter a new communication record, click New.</span></span> <span data-ttu-id="a8a7d-123">Lai modificētu esošo sakaru ierakstu, noklikšķiniet uz Vairāk opciju > Detalizēti.</span><span class="sxs-lookup"><span data-stu-id="a8a7d-123">To modify an existing communication record, click More options > Advanced.</span></span>   
+6. <span data-ttu-id="a8a7d-124">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="a8a7d-124">Click Save.</span></span>
 
 

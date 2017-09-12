@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalCount, InventJournalCountTag
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 11594
 ms.assetid: 03772d0e-5c37-454c-ab85-82bc8b60a76d
@@ -19,29 +19,26 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 61a48a61963f643c8969e9090c2e84b5499b716a
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: 9e129fda638cfd8cff0e40079747f7ca70fa7531
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/12/2017
 
 ---
 
-# <a name="inventory-tag-counting"></a>Krājumu etiķešu inventarizācija
+# <a name="inventory-tag-counting"></a><span data-ttu-id="4d2a5-103">Krājumu etiķešu inventarizācija</span><span class="sxs-lookup"><span data-stu-id="4d2a5-103">Inventory tag counting</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 [!include[retail name](../includes/retail-name.md)]
 
 
-Šajā rakstā ir sniegta informācija par etiķešu uzskaiti, kuru izmantojat, lai noliktavas faktisko saturu salīdzinātu ar rīcībā esošajiem krājumiem. 
+<span data-ttu-id="4d2a5-104">Šajā rakstā ir sniegta informācija par etiķešu uzskaiti, kuru izmantojat, lai noliktavas faktisko saturu salīdzinātu ar rīcībā esošajiem krājumiem.</span><span class="sxs-lookup"><span data-stu-id="4d2a5-104">This article provides information about tag counting, which you use to compare the actual contents of a warehouse with the on-hand inventory.</span></span>
 
-Izveidojot rindas lapā **Etiķešu skaitīšana**, katrai krājuma vienībai tiek piešķirts etiķetes numurs, piemēram, skaitlis no 1 līdz 500. Inventarizācijas laikā jūs ievadāt krājuma numuru un daudzumu, kas ir norādīts attiecīgajā etiķetē. Šo etiķeti pēc tam var izmantot par pamatu ievadei etiķešu inventarizācijas žurnālā. Pēc etiķešu inventarizācijas žurnāla grāmatošanas lapā **Inventarizācija** tiek izveidots jauns inventarizācijas žurnāls. Jaunais žurnāls balstās uz etiķešu inventarizācijas žurnāla rindām, kuras izveidojāt. Lai veiktu krājumu etiķešu uzskaiti pēc noteiktas krājumu dimensijas, atlasiet dimensiju lapā **Parādīt dimensijas**, kas tiek parādīta, izveidojot etiķešu inventarizācijas žurnālu. Piemēram, lai saskaitītu krājumus noteiktā noliktavā, atzīmējiet izvēles rūtiņu **Noliktava**. Ja ir atlasīts slīdnis **Bloķēt krājumus inventarizācijas laikā** lapā **Krājumu un noliktavas pārvaldības parametri**, krājumus nevar fiziski atjaunināt inventarizācijas laikā. Tomēr krājumi etiķešu inventarizācijas žurnālos inventarizācijas laikā nav bloķēti. Krājumu darbības netiek veidotas, kamēr etiķešu inventarizācijas žurnāla rindas nav grāmatotas un pārsūtītas uz inventarizācijas žurnālu. Ja etiķetes tiek ievadītas izlases veidā un jūs vēlaties noteikt trūkstošās etiķetes, noklikšķiniet uz kolonnas virsraksta **Etiķete**, lai kārtotu rindas pēc etiķetes.
+<span data-ttu-id="4d2a5-105">Izveidojot rindas lapā **Etiķešu skaitīšana**, katrai krājuma vienībai tiek piešķirts etiķetes numurs, piemēram, skaitlis no 1 līdz 500.</span><span class="sxs-lookup"><span data-stu-id="4d2a5-105">By creating lines on the **Tag counting** page, you place a tag number on each inventory item, such as a number from 1 to 500.</span></span> <span data-ttu-id="4d2a5-106">Inventarizācijas laikā jūs ievadāt krājuma numuru un daudzumu, kas ir norādīts attiecīgajā etiķetē.</span><span class="sxs-lookup"><span data-stu-id="4d2a5-106">During the count, you enter the item number and the quantity on a corresponding tag.</span></span> <span data-ttu-id="4d2a5-107">Šo etiķeti pēc tam var izmantot par pamatu ievadei etiķešu inventarizācijas žurnālā.</span><span class="sxs-lookup"><span data-stu-id="4d2a5-107">This tag can then be used as the basis for input in the tag counting journal.</span></span> <span data-ttu-id="4d2a5-108">Pēc etiķešu inventarizācijas žurnāla grāmatošanas lapā **Inventarizācija** tiek izveidots jauns inventarizācijas žurnāls.</span><span class="sxs-lookup"><span data-stu-id="4d2a5-108">After you post the tag counting journal, a new counting journal is created on the **Counting** page.</span></span> <span data-ttu-id="4d2a5-109">Jaunais žurnāls balstās uz etiķešu inventarizācijas žurnāla rindām, kuras izveidojāt.</span><span class="sxs-lookup"><span data-stu-id="4d2a5-109">The new journal is based on the tag counting journal lines that you created.</span></span> <span data-ttu-id="4d2a5-110">Lai veiktu krājumu etiķešu uzskaiti pēc noteiktas krājumu dimensijas, atlasiet dimensiju lapā **Parādīt dimensijas**, kas tiek parādīta, izveidojot etiķešu inventarizācijas žurnālu.</span><span class="sxs-lookup"><span data-stu-id="4d2a5-110">To tag-count items by a specific inventory dimension, select the dimension on the **Display dimension** page that is displayed when you create the tag counting journal.</span></span> <span data-ttu-id="4d2a5-111">Piemēram, lai saskaitītu krājumus noteiktā noliktavā, atzīmējiet izvēles rūtiņu **Noliktava**.</span><span class="sxs-lookup"><span data-stu-id="4d2a5-111">For example, to count items in a specific warehouse, select the **Warehouse** check box.</span></span> <span data-ttu-id="4d2a5-112">Ja ir atlasīts slīdnis **Bloķēt krājumus inventarizācijas laikā** lapā **Krājumu un noliktavas pārvaldības parametri**, krājumus nevar fiziski atjaunināt inventarizācijas laikā.</span><span class="sxs-lookup"><span data-stu-id="4d2a5-112">If the **Lock items during count** slider on the **Inventory and warehouse management parameters** page is selected, items can't be physically updated during counting.</span></span> <span data-ttu-id="4d2a5-113">Tomēr krājumi etiķešu inventarizācijas žurnālos inventarizācijas laikā nav bloķēti.</span><span class="sxs-lookup"><span data-stu-id="4d2a5-113">However, items in tag counting journals aren't locked during counting.</span></span> <span data-ttu-id="4d2a5-114">Krājumu darbības netiek veidotas, kamēr etiķešu inventarizācijas žurnāla rindas nav grāmatotas un pārsūtītas uz inventarizācijas žurnālu.</span><span class="sxs-lookup"><span data-stu-id="4d2a5-114">Inventory transactions aren't created until the tag counting lines are posted and transferred to a counting journal.</span></span> <span data-ttu-id="4d2a5-115">Ja etiķetes tiek ievadītas izlases veidā un jūs vēlaties noteikt trūkstošās etiķetes, noklikšķiniet uz kolonnas virsraksta **Etiķete**, lai kārtotu rindas pēc etiķetes.</span><span class="sxs-lookup"><span data-stu-id="4d2a5-115">If tags are entered randomly, and you want to identify missing tags, click the **Tag** column header to sort the lines by tag.</span></span>
 
-<a name="see-also"></a>Skatiet arī
+<a name="see-also"></a><span data-ttu-id="4d2a5-116">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="4d2a5-116">See also</span></span>
 --------
 
-[Cikla inventarizācija](../warehousing/cycle-counting.md)
-
-
-
+[<span data-ttu-id="4d2a5-117">Cikla inventarizācija</span><span class="sxs-lookup"><span data-stu-id="4d2a5-117">Cycle counting</span></span>](../warehousing/cycle-counting.md)
 

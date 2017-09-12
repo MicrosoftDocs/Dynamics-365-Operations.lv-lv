@@ -26,19 +26,19 @@ ms.lasthandoff: 07/31/2017
 
 ---
 
-# <a name="prevent-discounts-for-retail-products"></a>Nepieļaut atlaižu piemērošanu mazumtirdzniecības produktiem
+# <a name="prevent-discounts-for-retail-products"></a><span data-ttu-id="13f6a-103">Nepieļaut atlaižu piemērošanu mazumtirdzniecības produktiem</span><span class="sxs-lookup"><span data-stu-id="13f6a-103">Prevent discounts for retail products</span></span>
 
 [!include[banner](includes/banner.md)]
 
-Ir dažādi iemesli, kāpēc mazumtirgotāji varētu vēlēties nepieļaut atlaižu piemērošanu dažiem produktiem veicināšanas pasākumu vai pārdošanas ietvaros POS terminālī.
+<span data-ttu-id="13f6a-104">Ir dažādi iemesli, kāpēc mazumtirgotāji varētu vēlēties nepieļaut atlaižu piemērošanu dažiem produktiem veicināšanas pasākumu vai pārdošanas ietvaros POS terminālī.</span><span class="sxs-lookup"><span data-stu-id="13f6a-104">There are various reasons why retailers may want to prevent some products from being discounted, either from a promotion or during the sale at the POS.</span></span>
 
-Tālāk norādītas izlaisto preču cilnē **Mazumtirdzniecība** pieejamās opcijas preces konfigurēšanai tā, lai nepieļautu nekādas vai manuālas atlaides. Iestatījumus var norādīt mazumtirdzniecības kategoriju hierarhijas kategoriju līmenī.
+<span data-ttu-id="13f6a-105">Tālāk norādītas izlaisto preču cilnē **Mazumtirdzniecība** pieejamās opcijas preces konfigurēšanai tā, lai nepieļautu nekādas vai manuālas atlaides.</span><span class="sxs-lookup"><span data-stu-id="13f6a-105">The following options, which can be found on the **Retail** tab of released products, will allow the product to be configured to prevent all or manual discounts.</span></span> <span data-ttu-id="13f6a-106">Iestatījumus var norādīt mazumtirdzniecības kategoriju hierarhijas kategoriju līmenī.</span><span class="sxs-lookup"><span data-stu-id="13f6a-106">The settings can also be specified at the category level from the retail category hierarchy.</span></span>
 
-**Nepieļaut nekādas atlaides**: atlasiet šo opciju, lai nepieļautu nekādu veidu atlaides attiecībā uz šo preci. Tas ietver veicināšanas pasākumus, piemēram, komplektu piedāvājumus, daudzuma un sliekšņvērtību atlaides, kā arī manuālas rindu un transakciju atlaides, ko tirdzniecības laikā piemēro POS lietotājs.
+<span data-ttu-id="13f6a-107">**Nepieļaut nekādas atlaides**: atlasiet šo opciju, lai nepieļautu nekādu veidu atlaides attiecībā uz šo preci.</span><span class="sxs-lookup"><span data-stu-id="13f6a-107">**Prevent all discounts**: Select this option to prevent all types of discounts from being applied to this product.</span></span> <span data-ttu-id="13f6a-108">Tas ietver veicināšanas pasākumus, piemēram, komplektu piedāvājumus, daudzuma un sliekšņvērtību atlaides, kā arī manuālas rindu un transakciju atlaides, ko tirdzniecības laikā piemēro POS lietotājs.</span><span class="sxs-lookup"><span data-stu-id="13f6a-108">This includes promotions such as mix and match, quantity and threshold discounts, as well as manual line and transaction discounts that are applied during a sale by a POS user.</span></span>
 
-**Nepieļaut manuālas atlaides**: atlasiet šo opciju, lai nepieļautu tikai manuālas rindu vai transakciju atlaides, ko tirdzniecības laikā piemēro POS lietotājs. Precēm, kurām ir atlasīta šī opcija, joprojām var piemērot veicināšanas pasākumus, piemēram, komplekta atlaides un daudzuma un sliekšņvērtības atlaides.
+<span data-ttu-id="13f6a-109">**Nepieļaut manuālas atlaides**: atlasiet šo opciju, lai nepieļautu tikai manuālas rindu vai transakciju atlaides, ko tirdzniecības laikā piemēro POS lietotājs.</span><span class="sxs-lookup"><span data-stu-id="13f6a-109">**Prevent manual discounts**: Select this option to only prevent the manual line or transaction discounts that are applied during a sale by a POS user.</span></span> <span data-ttu-id="13f6a-110">Precēm, kurām ir atlasīta šī opcija, joprojām var piemērot veicināšanas pasākumus, piemēram, komplekta atlaides un daudzuma un sliekšņvērtības atlaides.</span><span class="sxs-lookup"><span data-stu-id="13f6a-110">Products with this option selected are still eligible for promotions, such as mix and match and quantity and threshold discounts.</span></span>
 
-**Piezīme.** Šie iestatījumi neierobežo cenas pārrakstīšanas darbību, jo tās gaitā tiek iestatīta pamatcena, kas netiek uzskatīta par atlaidi.  
+<span data-ttu-id="13f6a-111">**Piezīme.** Šie iestatījumi neierobežo cenas pārrakstīšanas darbību, jo tās gaitā tiek iestatīta pamatcena, kas netiek uzskatīta par atlaidi.</span><span class="sxs-lookup"><span data-stu-id="13f6a-111">**Note**: These settings do not restrict the price override operation, because that sets the base price and is not treated as a discount.</span></span>  
 
 ![atlaides nepieļaušanas lauks](/media/prevent-discounts.png)
 

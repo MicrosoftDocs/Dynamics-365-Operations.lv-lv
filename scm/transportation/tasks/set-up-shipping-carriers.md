@@ -17,82 +17,82 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: eec121859b7135741ccf204fd507ef0790f1c8d4
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e27be049bebd63c9266029b8981874417a9f0a8c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-shipping-carriers"></a>Piegādes
+# <a name="set-up-shipping-carriers"></a><span data-ttu-id="a6e0f-103">Piegādes</span><span class="sxs-lookup"><span data-stu-id="a6e0f-103">Set up shipping carriers</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā procedūrā parādīts, kā iestatīt nosūtījuma pārvadātāju un definēt tādu informāciju kā pakalpojums, piegādes režīms, transportēšanas norēķini, transportēšanas ierobežojumi un nosūtīšanas likme. Transportēšanas koordinators pēc tam var piešķirt nosūtījuma pārvadātāju ienākošai vai izejošai kravai.
+<span data-ttu-id="a6e0f-104">Šajā procedūrā parādīts, kā iestatīt nosūtījuma pārvadātāju un definēt tādu informāciju kā pakalpojums, piegādes režīms, transportēšanas norēķini, transportēšanas ierobežojumi un nosūtīšanas likme.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-104">This procedure shows how to set up a shipping carrier and define details such as service, shipment mode, transportation tender, transportation constraints, and shipping rate.</span></span> <span data-ttu-id="a6e0f-105">Transportēšanas koordinators pēc tam var piešķirt nosūtījuma pārvadātāju ienākošai vai izejošai kravai.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-105">A transportation coordinator can then assign a shipping carrier to an inbound or outbound load.</span></span>
 
 
-## <a name="create-a-new-shipping-carrier"></a>Jauna nosūtījumu pārvadātāja izveide
-1. Pārejiet uz sadaļu Transportēšanas pārvaldība > Iestatījumi > Pārvadātāji > Sūtījumu pārvadātāji.
-2. Noklikšķiniet uz Jauns.
-3. Ierakstiet vērtību laukā Sūtījumu pārvadātājs.
-4. Laukā Nosaukums ierakstiet kādu vērtību.
-5. Laukā Režīms noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-6. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-7. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
+## <a name="create-a-new-shipping-carrier"></a><span data-ttu-id="a6e0f-106">Jauna nosūtījumu pārvadātāja izveide</span><span class="sxs-lookup"><span data-stu-id="a6e0f-106">Create a new shipping carrier</span></span>
+1. <span data-ttu-id="a6e0f-107">Pārejiet uz sadaļu Transportēšanas pārvaldība > Iestatījumi > Pārvadātāji > Sūtījumu pārvadātāji.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-107">Go to Transportation management > Setup > Carriers > Shipping carriers.</span></span>
+2. <span data-ttu-id="a6e0f-108">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-108">Click New.</span></span>
+3. <span data-ttu-id="a6e0f-109">Ierakstiet vērtību laukā Sūtījumu pārvadātājs.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-109">In the Shipping carrier field, type a value.</span></span>
+4. <span data-ttu-id="a6e0f-110">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-110">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="a6e0f-111">Laukā Režīms noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-111">In the Mode field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="a6e0f-112">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-112">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="a6e0f-113">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-113">In the list, click the link in the selected row.</span></span>
 
-## <a name="fill-in-the-general-information-for-the-shipping-carrier"></a>Vispārējās informācijas ievade par nosūtījumu pārvadātāju
-1. Pārslēdziet sadaļas Pārskats paplašinājumu.
-2. Atzīmējiet vai noņemiet atzīmi no izvēles rūtiņas Aktivizēt nosūtīšanas pārvadātāju.
-3. Laukā Kreditors noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-    * Atlasiet kreditora kontu, kuram piešķirt nosūtījuma pārvadātāju.  
-4. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-5. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-6. Atlasiet opciju laukā Transportēšanas norēķinu veids.
-    * Atlasiet Manuāli, lai izmantotu transportēšanas norēķinu lapu, vai atlasiet EDI, lai atjauninātu norēķinus, izmantojot elektronisko datu apmaiņu (EDI).  
-7. Atzīmējiet vai noņemiet atzīmi no izvēles rūtiņas Aktivizēt pārvadātāja vērtējumu.
+## <a name="fill-in-the-general-information-for-the-shipping-carrier"></a><span data-ttu-id="a6e0f-114">Vispārējās informācijas ievade par nosūtījumu pārvadātāju</span><span class="sxs-lookup"><span data-stu-id="a6e0f-114">Fill in the general information for the shipping carrier</span></span>
+1. <span data-ttu-id="a6e0f-115">Pārslēdziet sadaļas Pārskats paplašinājumu.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-115">Toggle the expansion of the Overview section.</span></span>
+2. <span data-ttu-id="a6e0f-116">Atzīmējiet vai noņemiet atzīmi no izvēles rūtiņas Aktivizēt nosūtīšanas pārvadātāju.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-116">Check or uncheck the Activate shipping carrier checkbox.</span></span>
+3. <span data-ttu-id="a6e0f-117">Laukā Kreditors noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-117">In the Vendor field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="a6e0f-118">Atlasiet kreditora kontu, kuram piešķirt nosūtījuma pārvadātāju.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-118">Select the vendor account to assign the shipping carrier to.</span></span>  
+4. <span data-ttu-id="a6e0f-119">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-119">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="a6e0f-120">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-120">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="a6e0f-121">Atlasiet opciju laukā Transportēšanas norēķinu veids.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-121">In the Transportation tender type field, select an option.</span></span>
+    * <span data-ttu-id="a6e0f-122">Atlasiet Manuāli, lai izmantotu transportēšanas norēķinu lapu, vai atlasiet EDI, lai atjauninātu norēķinus, izmantojot elektronisko datu apmaiņu (EDI).</span><span class="sxs-lookup"><span data-stu-id="a6e0f-122">Select Manual to use the Transportation Tender page, or select EDI to update the tender by using Electronic Data Interchange (EDI).</span></span>  
+7. <span data-ttu-id="a6e0f-123">Atzīmējiet vai noņemiet atzīmi no izvēles rūtiņas Aktivizēt pārvadātāja vērtējumu.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-123">Check or uncheck the Activate carrier rating checkbox.</span></span>
 
-## <a name="create-the-necessary-services-for-the-shipping-carrier"></a>Nepieciešamo pakalpojumu izveide sūtījumu pārvadātājam
-1. Pārslēdziet sadaļas Pakalpojumi paplašinājumu.
-2. Noklikšķiniet uz Jauns.
-3. Sarakstā atzīmējiet atlasīto rindu.
-4. Ierakstiet vērtību laukā Pārvadātāja pakalpojums.
-5. Laukā Nosaukums ierakstiet kādu vērtību.
-6. Laukā Transportēšanas metode noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-7. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-8. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
+## <a name="create-the-necessary-services-for-the-shipping-carrier"></a><span data-ttu-id="a6e0f-124">Nepieciešamo pakalpojumu izveide sūtījumu pārvadātājam</span><span class="sxs-lookup"><span data-stu-id="a6e0f-124">Create the necessary services for the shipping carrier</span></span>
+1. <span data-ttu-id="a6e0f-125">Pārslēdziet sadaļas Pakalpojumi paplašinājumu.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-125">Toggle the expansion of the Services section.</span></span>
+2. <span data-ttu-id="a6e0f-126">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-126">Click New.</span></span>
+3. <span data-ttu-id="a6e0f-127">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-127">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="a6e0f-128">Ierakstiet vērtību laukā Pārvadātāja pakalpojums.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-128">In the Carrier service field, type a value.</span></span>
+5. <span data-ttu-id="a6e0f-129">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-129">In the Name field, type a value.</span></span>
+6. <span data-ttu-id="a6e0f-130">Laukā Transportēšanas metode noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-130">In the Transportation method field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="a6e0f-131">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-131">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="a6e0f-132">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-132">In the list, click the link in the selected row.</span></span>
 
-## <a name="set-up-the-address-for-the-carrier-optional"></a>Iestatiet pārvadātāja adresi (nav obligāti)
-1. Pārslēdziet sadaļas Adreses izvēršanu.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Nosaukums vai apraksts ierakstiet kādu vērtību.
-4. Laukā Valsts/reģions noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-5. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-6. Laukā Pasta indekss noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-7. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-8. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-9. Laukā Iela ierakstiet kādu vērtību.
-10. Noklikšķiniet uz OK.
+## <a name="set-up-the-address-for-the-carrier-optional"></a><span data-ttu-id="a6e0f-133">Iestatiet pārvadātāja adresi (nav obligāti)</span><span class="sxs-lookup"><span data-stu-id="a6e0f-133">Set up the address for the carrier (optional)</span></span>
+1. <span data-ttu-id="a6e0f-134">Pārslēdziet sadaļas Adreses izvēršanu.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-134">Toggle the expansion of the Addresses section.</span></span>
+2. <span data-ttu-id="a6e0f-135">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-135">Click New.</span></span>
+3. <span data-ttu-id="a6e0f-136">Laukā Nosaukums vai apraksts ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-136">In the Name or description field, type a value.</span></span>
+4. <span data-ttu-id="a6e0f-137">Laukā Valsts/reģions noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-137">In the Country/region field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="a6e0f-138">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-138">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="a6e0f-139">Laukā Pasta indekss noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-139">In the ZIP/postal code field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="a6e0f-140">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-140">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="a6e0f-141">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-141">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="a6e0f-142">Laukā Iela ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-142">In the Street field, type a value.</span></span>
+10. <span data-ttu-id="a6e0f-143">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-143">Click OK.</span></span>
 
-## <a name="set-up-the-rating-profile-for-the-shipping-carrier"></a>Iestatiet nosūtījumu pārvadātāja novērtēšanas profilu
-1. Pārslēdziet sadaļas Novērtējuma profili izvēršanu.
-2. Noklikšķiniet uz Jauns.
-3. Sarakstā atzīmējiet atlasīto rindu.
-4. Ierakstiet vērtību laukā Novērtējuma profils.
-5. Laukā Nosaukums ierakstiet kādu vērtību.
-6. Laukā Vieta noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-7. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-8. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-9. Laukā Noliktava noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-10. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-11. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-12. Laukā Likmes noteikšanas programma noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-    * Atlasiet likmes noteikšanas programmu, kura atbilst līgumam, kas jums noslēgts ar pārvadātāju.  
-13. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-14. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-15. Laukā Likmes šablons noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-16. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-17. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-18. Laukā Tranzīta laika noteikšanas programma noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-19. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-20. Noklikšķiniet uz Saglabāt.
+## <a name="set-up-the-rating-profile-for-the-shipping-carrier"></a><span data-ttu-id="a6e0f-144">Iestatiet nosūtījumu pārvadātāja novērtēšanas profilu</span><span class="sxs-lookup"><span data-stu-id="a6e0f-144">Set up the rating profile for the shipping carrier</span></span>
+1. <span data-ttu-id="a6e0f-145">Pārslēdziet sadaļas Novērtējuma profili izvēršanu.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-145">Toggle the expansion of the Rating profiles section.</span></span>
+2. <span data-ttu-id="a6e0f-146">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-146">Click New.</span></span>
+3. <span data-ttu-id="a6e0f-147">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-147">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="a6e0f-148">Ierakstiet vērtību laukā Novērtējuma profils.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-148">In the Rating profile field, type a value.</span></span>
+5. <span data-ttu-id="a6e0f-149">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-149">In the Name field, type a value.</span></span>
+6. <span data-ttu-id="a6e0f-150">Laukā Vieta noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-150">In the Site field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="a6e0f-151">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-151">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="a6e0f-152">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-152">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="a6e0f-153">Laukā Noliktava noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-153">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="a6e0f-154">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-154">In the list, find and select the desired record.</span></span>
+11. <span data-ttu-id="a6e0f-155">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-155">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="a6e0f-156">Laukā Likmes noteikšanas programma noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-156">In the Rate engine field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="a6e0f-157">Atlasiet likmes noteikšanas programmu, kura atbilst līgumam, kas jums noslēgts ar pārvadātāju.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-157">Select the Rate engine that is in accordance with the contract that you have with the carrier.</span></span>  
+13. <span data-ttu-id="a6e0f-158">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-158">In the list, find and select the desired record.</span></span>
+14. <span data-ttu-id="a6e0f-159">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-159">In the list, click the link in the selected row.</span></span>
+15. <span data-ttu-id="a6e0f-160">Laukā Likmes šablons noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-160">In the Rate master field, click the drop-down button to open the lookup.</span></span>
+16. <span data-ttu-id="a6e0f-161">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-161">In the list, find and select the desired record.</span></span>
+17. <span data-ttu-id="a6e0f-162">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-162">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="a6e0f-163">Laukā Tranzīta laika noteikšanas programma noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-163">In the Transit time engine field, click the drop-down button to open the lookup.</span></span>
+19. <span data-ttu-id="a6e0f-164">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-164">In the list, click the link in the selected row.</span></span>
+20. <span data-ttu-id="a6e0f-165">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="a6e0f-165">Click Save.</span></span>
 
 

@@ -1,7 +1,7 @@
 ---
 title: "Krājumu vietas"
 description: "Krājumu atrašanās vietu dati tiek izmantoti kopā ar pamata noliktavu (WMS I), lai noteiktu, kur tiek glabāti krājumi un kur krājumi tiek izdoti no WMS I noliktavas."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,66 +10,62 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WMSLocation
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2134
 ms.assetid: 69bf6922-4151-447f-b678-4ba95637f54c
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 95d93c9d471cc86877f35340693c171958db71df
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: 22f4d0c93b0fccdb5439998a68add7b7e0e7750b
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
 
-# <a name="inventory-locations"></a>Krājumu vietas
+# <a name="inventory-locations"></a><span data-ttu-id="2d995-103">Krājumu vietas</span><span class="sxs-lookup"><span data-stu-id="2d995-103">Inventory locations</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Krājumu atrašanās vietu dati tiek izmantoti kopā ar pamata noliktavu (WMS I), lai noteiktu, kur tiek glabāti krājumi un kur krājumi tiek izdoti no WMS I noliktavas.
+<span data-ttu-id="2d995-104">Krājumu atrašanās vietu dati tiek izmantoti kopā ar pamata noliktavu (WMS I), lai noteiktu, kur tiek glabāti krājumi un kur krājumi tiek izdoti no WMS I noliktavas.</span><span class="sxs-lookup"><span data-stu-id="2d995-104">Inventory locations are used with basic warehousing (WMS I) to determine where items are stored and where items are picked from in a WMS I warehouse.</span></span>
 
-Šī tēma attiecas uz moduļa Krājumu vadība līdzekļiem. Tā neattiecas uz moduļa Noliktavas pārvaldība līdzekļiem.
+<span data-ttu-id="2d995-105">Šī tēma attiecas uz moduļa Krājumu vadība līdzekļiem.</span><span class="sxs-lookup"><span data-stu-id="2d995-105">This topic applies to features in the Inventory management module.</span></span> <span data-ttu-id="2d995-106">Tā neattiecas uz moduļa Noliktavas pārvaldība līdzekļiem.</span><span class="sxs-lookup"><span data-stu-id="2d995-106">It does not apply to features in the Warehouse management module.</span></span>
 
-Termins novietojums attiecas uz vietu, kur tiek uzglabāti krājumi un no kurienes tie tiek ņemti.
+<span data-ttu-id="2d995-107">Termins novietojums attiecas uz vietu, kur tiek uzglabāti krājumi un no kurienes tie tiek ņemti.</span><span class="sxs-lookup"><span data-stu-id="2d995-107">The term location refers to the place that items are stored and drawn from.</span></span>
 
-Katrai atrašanās vietai var tikt norādīta arī krājuma ievietošanas vieta. Pēc noklusējuma tās ir vienādas. Krājumi parasti, bet ne vienmēr tiek ievietoti un ņemti no vienas un tās pašas atrašanās vietas. Piemēram, noliktavas statīvos uzglabāti krājumi tiek ņemti no vienas ailes un ievietoti citā. Galvenā ievade tiek noteikta pēc novietojuma nosaukuma, ko parasti nosaka tās koordinātas: noliktava, aile, statīvs, plaukts un nodalījums. Šo nosaukumu vai ID var ievadīt manuāli, vai tas var tikt ģenerēts no novietojuma koordinātām lapā Krājumu vietas, piemēram, 01-02-03-4 novietojumam 1. ailē, 2. statīvā, 3. plauktā, 4. nodalījumā.
-Atrašanās vietas rekvizīti
--------------------
+<span data-ttu-id="2d995-108">Katrai atrašanās vietai var tikt norādīta arī krājuma ievietošanas vieta.</span><span class="sxs-lookup"><span data-stu-id="2d995-108">For each location, the place where the item is inserted can also be specified.</span></span> <span data-ttu-id="2d995-109">Pēc noklusējuma tās ir vienādas.</span><span class="sxs-lookup"><span data-stu-id="2d995-109">By default, they are the same.</span></span> <span data-ttu-id="2d995-110">Krājumi parasti, bet ne vienmēr tiek ievietoti un ņemti no vienas un tās pašas atrašanās vietas.</span><span class="sxs-lookup"><span data-stu-id="2d995-110">Items are usually inserted and drawn from the same side of a location, but not always.</span></span> <span data-ttu-id="2d995-111">Piemēram, noliktavas statīvos uzglabāti krājumi tiek ņemti no vienas ailes un ievietoti citā.</span><span class="sxs-lookup"><span data-stu-id="2d995-111">For example, items that are stored in live storage racks are inserted from one aisle and drawn from another.</span></span> <span data-ttu-id="2d995-112">Galvenā ievade tiek noteikta pēc novietojuma nosaukuma, ko parasti nosaka tās koordinātas: noliktava, aile, statīvs, plaukts un nodalījums.</span><span class="sxs-lookup"><span data-stu-id="2d995-112">The main input is given by a location name, which is usually determined by its coordinates: warehouse, aisle, rack, shelf, and bin.</span></span> <span data-ttu-id="2d995-113">Šo nosaukumu vai ID var ievadīt manuāli, vai tas var tikt ģenerēts no novietojuma koordinātām lapā Krājumu vietas, piemēram, 01-02-03-4 novietojumam 1. ailē, 2. statīvā, 3. plauktā, 4. nodalījumā.</span><span class="sxs-lookup"><span data-stu-id="2d995-113">This name or ID can be entered manually or generated from the location coordinates—for example, 01-02-03-4 for aisle 1, rack 2, shelf 3, bin 4 in the Inventory locations page.</span></span>
+<span data-ttu-id="2d995-114">Atrašanās vietas rekvizīti</span><span class="sxs-lookup"><span data-stu-id="2d995-114">Location properties</span></span>
 
-Atrašanās vietai ir šādi rekvizīti:
--   Izmērs (augstums, platums, dziļums un tilpums)
--   Noliktava un ailes, statīva, plaukta un nodalījuma pozīcija
--   Novietojuma tips (uzkrāšanas vieta, izdošanas vietu, saņemšanas doks, izdošanas doks, ražošanas ievades vieta, pārbaudes veikšanas vieta vai Kanban lielveikals)
+<span data-ttu-id="2d995-115">Atrašanās vietai ir šādi rekvizīti:</span><span class="sxs-lookup"><span data-stu-id="2d995-115">A location has the following characteristics:</span></span>
+-   <span data-ttu-id="2d995-116">Izmērs (augstums, platums, dziļums un tilpums)</span><span class="sxs-lookup"><span data-stu-id="2d995-116">Size (height, width, depth, and thereby volume)</span></span>
+-   <span data-ttu-id="2d995-117">Noliktava un ailes, statīva, plaukta un nodalījuma pozīcija</span><span class="sxs-lookup"><span data-stu-id="2d995-117">Warehouse, aisle, rack, shelf, and bin position</span></span>
+-   <span data-ttu-id="2d995-118">Novietojuma tips (uzkrāšanas vieta, izdošanas vietu, saņemšanas doks, izdošanas doks, ražošanas ievades vieta, pārbaudes veikšanas vieta vai Kanban lielveikals)</span><span class="sxs-lookup"><span data-stu-id="2d995-118">Location type (bulk location, picking location, inbound dock, outbound dock, production input location, inspection location, or kanban supermarket)</span></span>
 
-Tiešsaistes sistēmās var lietot kontroltekstu, lai pārliecinātos, ka operators ir atlasījis pareizo noteikta krājuma novietojumu. Kontroltekstu var izveidot manuāli vai pēc noklusējuma.
+<span data-ttu-id="2d995-119">Tiešsaistes sistēmās var lietot kontroltekstu, lai pārliecinātos, ka operators ir atlasījis pareizo noteikta krājuma novietojumu.</span><span class="sxs-lookup"><span data-stu-id="2d995-119">Check text can be used in online systems to verify that the operator has selected the correct location for a specific item.</span></span> <span data-ttu-id="2d995-120">Kontroltekstu var izveidot manuāli vai pēc noklusējuma.</span><span class="sxs-lookup"><span data-stu-id="2d995-120">This check text can be created manually or by default.</span></span>
 
-## <a name="sort-codes"></a>Kārtošanas kodi
-Lietojiet kārtošanas kodus, lai optimizētu izdošanas rindu apstrādi, jo tie sniedz aprakstu par krājumu izdošanu, tostarp, par izdošanas pasūtījumu. Kārtošanas kodi var tikt norādīti pēc ailes un citām koordinātēm vai arī tikt piešķirti novietojumam manuāli.
+## <a name="sort-codes"></a><span data-ttu-id="2d995-121">Kārtošanas kodi</span><span class="sxs-lookup"><span data-stu-id="2d995-121">Sort codes</span></span>
+<span data-ttu-id="2d995-122">Lietojiet kārtošanas kodus, lai optimizētu izdošanas rindu apstrādi, jo tie sniedz aprakstu par krājumu izdošanu, tostarp, par izdošanas pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="2d995-122">Use sort codes to optimize the handling of picking lines, which describe the information that is required for picking items from inventory, including the picking order.</span></span> <span data-ttu-id="2d995-123">Kārtošanas kodi var tikt norādīti pēc ailes un citām koordinātēm vai arī tikt piešķirti novietojumam manuāli.</span><span class="sxs-lookup"><span data-stu-id="2d995-123">Sort codes can be specified by the aisle and other coordinates, or assigned manually for the location.</span></span>
 
-## <a name="blocked-locations"></a>Bloķētas atrašanās vietas
-Dažreiz var būt vajadzīgs norādīt, ka novietojums ir aizturēts uz noteiktu laika periodu, piemēram, lai veiktu remontu. Šādā gadījumā ir ieteicams norādīt tikai ieejas vai izejas plūsmas aizturēšanu.
-Aplikācijas objektu koka struktūra
---------------
+## <a name="blocked-locations"></a><span data-ttu-id="2d995-124">Bloķētas atrašanās vietas</span><span class="sxs-lookup"><span data-stu-id="2d995-124">Blocked locations</span></span>
+<span data-ttu-id="2d995-125">Dažreiz var būt vajadzīgs norādīt, ka novietojums ir aizturēts uz noteiktu laika periodu, piemēram, lai veiktu remontu.</span><span class="sxs-lookup"><span data-stu-id="2d995-125">Occasionally, you might want to indicate that a location is blocked for a period of time, for example, to allow for repairs.</span></span> <span data-ttu-id="2d995-126">Šādā gadījumā ir ieteicams norādīt tikai ieejas vai izejas plūsmas aizturēšanu.</span><span class="sxs-lookup"><span data-stu-id="2d995-126">At other times, you may want to indicate blocking of only the input or only output.</span></span>
 
-Lapā Krājumu vietas varat definēta attēlojuma formātā skatīt noliktavas izkārtojuma koka struktūru, kuras pamatā ir krājumu vietu koordinātes.
-Krājumu vietu uzturēšana, izmantojot noliktavas veidlapu
----------------------------------------------------
+## <a name="tree-structure"></a><span data-ttu-id="2d995-127">Aplikācijas objektu koka struktūra</span><span class="sxs-lookup"><span data-stu-id="2d995-127">Tree structure</span></span>
 
-Varat kopēt novietojumus no vienas noliktavas uz citu, kā arī izveidot novietojumus, izmantojot vedni. Pirms vedņa palaišanas pārliecinieties, ka esat definējis noklusējuma novietojumu nosaukumus lapā Noliktava.
+<span data-ttu-id="2d995-128">Lapā Krājumu vietas varat definēta attēlojuma formātā skatīt noliktavas izkārtojuma koka struktūru, kuras pamatā ir krājumu vietu koordinātes.</span><span class="sxs-lookup"><span data-stu-id="2d995-128">In the Inventory locations page, you can view the warehouse layout in a tree structure based on the coordinates of inventory locations, in a defined display format.</span></span>
 
+## <a name="maintain-inventory-locations-via-the-warehouse-form"></a><span data-ttu-id="2d995-129">Krājumu vietu uzturēšana, izmantojot noliktavas veidlapu</span><span class="sxs-lookup"><span data-stu-id="2d995-129">Maintain inventory locations via the warehouse form</span></span>
+
+<span data-ttu-id="2d995-130">Varat kopēt novietojumus no vienas noliktavas uz citu, kā arī izveidot novietojumus, izmantojot vedni.</span><span class="sxs-lookup"><span data-stu-id="2d995-130">It is possible to copy locations from one warehouse to another and to create locations via a wizard.</span></span> <span data-ttu-id="2d995-131">Pirms vedņa palaišanas pārliecinieties, ka esat definējis noklusējuma novietojumu nosaukumus lapā Noliktava.</span><span class="sxs-lookup"><span data-stu-id="2d995-131">Before you run the wizard you should make sure that you have defined the default location names on the Warehouse page.</span></span>
 
 
-<a name="see-also"></a>Skatiet arī
+
+<a name="see-also"></a><span data-ttu-id="2d995-132">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="2d995-132">See also</span></span>
 --------
 
-[Jauna noliktavas izkārtojuma izveide (uzdevuma ceļvedis)](/dynamics365/unified-operations/supply-chain/inventory/tasks/create-new-warehouse-layout)
-
-
-
+[<span data-ttu-id="2d995-133">Jauna noliktavas izkārtojuma izveide (uzdevuma ceļvedis)</span><span class="sxs-lookup"><span data-stu-id="2d995-133">Create a new warehouse layout (Task guide)</span></span>](/dynamics365/unified-operations/supply-chain/inventory/tasks/create-new-warehouse-layout)
 

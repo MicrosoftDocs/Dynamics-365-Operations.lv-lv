@@ -18,40 +18,40 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
-ms.openlocfilehash: bcf58b0ca995883bc466eec66a3d75c73c0be79e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 16acadf0b814ff5863873280cd8d6e6ddbdcffc8
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/01/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="close-the-general-ledger-at-period-end"></a>Virsgrāmatas slēgšana perioda beigās
+# <a name="close-the-general-ledger-at-period-end"></a><span data-ttu-id="ea2e8-103">Virsgrāmatas slēgšana perioda beigās</span><span class="sxs-lookup"><span data-stu-id="ea2e8-103">Close the general ledger at period end</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Šajā tēmā ir aprakstīti uzdevumi, kas parasti tiek veikti, virsgrāmatai izpildot perioda slēgšanu. 
+<span data-ttu-id="ea2e8-104">Šajā tēmā ir aprakstīti uzdevumi, kas parasti tiek veikti, virsgrāmatai izpildot perioda slēgšanu.</span><span class="sxs-lookup"><span data-stu-id="ea2e8-104">This topic describes the tasks that are typically completed when performing a period closing for General ledger.</span></span> 
 
-Virsgrāmatā varat izpildīt perioda vai gada slēgšanas procedūru. Slēgšanas procesi sagatavo sistēmu jaunajam periodam. Lai sistēmu sagatavotu jaunam gadam, ir jāpalaiž gada beigu slēgšanas process. Katrai organizācijai ir atšķirīgi procesi un darbības, kas jāveic perioda beigās. Dažas no neobligātajām darbībām perioda beigās ir šādas:
+<span data-ttu-id="ea2e8-105">Virsgrāmatā varat izpildīt perioda vai gada slēgšanas procedūru.</span><span class="sxs-lookup"><span data-stu-id="ea2e8-105">In General ledger, you can complete closing procedures for a period or a year.</span></span> <span data-ttu-id="ea2e8-106">Slēgšanas procesi sagatavo sistēmu jaunajam periodam.</span><span class="sxs-lookup"><span data-stu-id="ea2e8-106">Closing processes prepare the system for a new period.</span></span> <span data-ttu-id="ea2e8-107">Lai sistēmu sagatavotu jaunam gadam, ir jāpalaiž gada beigu slēgšanas process.</span><span class="sxs-lookup"><span data-stu-id="ea2e8-107">To prepare the system for a new year, you must run the year end close process.</span></span> <span data-ttu-id="ea2e8-108">Katrai organizācijai ir atšķirīgi procesi un darbības, kas jāveic perioda beigās.</span><span class="sxs-lookup"><span data-stu-id="ea2e8-108">Each organization has different processes and steps that it performs for the end of a period.</span></span> <span data-ttu-id="ea2e8-109">Dažas no neobligātajām darbībām perioda beigās ir šādas:</span><span class="sxs-lookup"><span data-stu-id="ea2e8-109">Here are some optional steps for period ends:</span></span>
 
--   pabeigt visus uzdevumus visiem citiem moduļiem, piemēram, Debitoru parādi, Kreditori un Krājumi;
--   pārbaudīt, vai visi žurnāli ir grāmatoti;
--   palaist ārvalstu valūtas pārvērtēšanas procesu, lai ģenerētu nerealizētās peļņas vai zaudējumu summas;
--   nosegt transakcijas visos virsgrāmatas kontos;
--   apstrādāt visus nepieciešamos sadalījumus;
--   manuāli grāmatot perioda beigu korekcijas;
--   reģistrēt žurnālā darbības un pārskatīt pārskatu **Virsgrāmatas žurnāls**;
--   veikt konsolidāciju, izmantojot konsolidēšanas uzņēmumu vai finanšu pārskatu;
--   ģenerēt perioda beigu finanšu pārskatus, izmantojot finanšu pārskatus;
--   iestatīt virsgrāmatas periodiem statusu **Aizturēta**, lai tālāka grāmatošana netiek veikta. Lai atvieglotu kontroli, var arī ierobežot periodu noteiktai lietotāju grupai, kamēr tiek izpldītas perioda beigu darbības. Nav ieteicams periodiem iestatīt statusu **Neatgriezeniski slēgts**, jo slēgtu periodu nevar atvērt atkārtoti.
+-   <span data-ttu-id="ea2e8-110">pabeigt visus uzdevumus visiem citiem moduļiem, piemēram, Debitoru parādi, Kreditori un Krājumi;</span><span class="sxs-lookup"><span data-stu-id="ea2e8-110">Complete all the tasks for all other modules, such as Accounts receivable, Accounts payable, and Inventory.</span></span>
+-   <span data-ttu-id="ea2e8-111">pārbaudīt, vai visi žurnāli ir grāmatoti;</span><span class="sxs-lookup"><span data-stu-id="ea2e8-111">Verify that all journals are posted.</span></span>
+-   <span data-ttu-id="ea2e8-112">palaist ārvalstu valūtas pārvērtēšanas procesu, lai ģenerētu nerealizētās peļņas vai zaudējumu summas;</span><span class="sxs-lookup"><span data-stu-id="ea2e8-112">Run foreign currency revaluation to generate any unrealized gain or loss amounts.</span></span>
+-   <span data-ttu-id="ea2e8-113">nosegt transakcijas visos virsgrāmatas kontos;</span><span class="sxs-lookup"><span data-stu-id="ea2e8-113">Settle transactions for each ledger account.</span></span>
+-   <span data-ttu-id="ea2e8-114">apstrādāt visus nepieciešamos sadalījumus;</span><span class="sxs-lookup"><span data-stu-id="ea2e8-114">Process any required allocations.</span></span>
+-   <span data-ttu-id="ea2e8-115">manuāli grāmatot perioda beigu korekcijas;</span><span class="sxs-lookup"><span data-stu-id="ea2e8-115">Manually post period-end adjustments.</span></span>
+-   <span data-ttu-id="ea2e8-116">reģistrēt žurnālā darbības un pārskatīt pārskatu **Virsgrāmatas žurnāls**;</span><span class="sxs-lookup"><span data-stu-id="ea2e8-116">Journalize transactions, and review the **Ledger journal** report.</span></span>
+-   <span data-ttu-id="ea2e8-117">veikt konsolidāciju, izmantojot konsolidēšanas uzņēmumu vai finanšu pārskatu;</span><span class="sxs-lookup"><span data-stu-id="ea2e8-117">Perform a consolidation by using a consolidation company or Financial reporting.</span></span>
+-   <span data-ttu-id="ea2e8-118">ģenerēt perioda beigu finanšu pārskatus, izmantojot finanšu pārskatus;</span><span class="sxs-lookup"><span data-stu-id="ea2e8-118">Generate period-end financial statements by using Financial reporting.</span></span>
+-   <span data-ttu-id="ea2e8-119">iestatīt virsgrāmatas periodiem statusu **Aizturēta**, lai tālāka grāmatošana netiek veikta.</span><span class="sxs-lookup"><span data-stu-id="ea2e8-119">Set ledger periods to **On hold**, so that no further posting occurs.</span></span> <span data-ttu-id="ea2e8-120">Lai atvieglotu kontroli, var arī ierobežot periodu noteiktai lietotāju grupai, kamēr tiek izpldītas perioda beigu darbības.</span><span class="sxs-lookup"><span data-stu-id="ea2e8-120">You can also restrict a period to a specific user group while period-end activities are occurring, for better control.</span></span> <span data-ttu-id="ea2e8-121">Nav ieteicams periodiem iestatīt statusu **Neatgriezeniski slēgts**, jo slēgtu periodu nevar atvērt atkārtoti.</span><span class="sxs-lookup"><span data-stu-id="ea2e8-121">It's not a good idea to set periods to **Permanently closed**, because you can't reopen a period that has been closed.</span></span>
 
-Lai kārtotu un izsekotu dažādu periodu beigu procesiem nepieciešamos uzdevumus, var lietot darbvietu Finanšu perioda slēgšana. 
+<span data-ttu-id="ea2e8-122">Lai kārtotu un izsekotu dažādu periodu beigu procesiem nepieciešamos uzdevumus, var lietot darbvietu Finanšu perioda slēgšana.</span><span class="sxs-lookup"><span data-stu-id="ea2e8-122">The Financial period close workspace can be used to organize and track the tasks required for various period end processes.</span></span> 
 
 
-Papildinformāciju skatiet tālāk norādītajās tēmās.
-- [Finanšu perioda slēgšanas darbvieta](financial-period-close-workspace.md) 
-- [Gada beigu slēgšana](Year-end-close.md)  
-- [Masveida finanšu periodu slēgšana](tasks/mass-financial-period-close.md)
+<span data-ttu-id="ea2e8-123">Papildinformāciju skatiet tālāk norādītajās tēmās.</span><span class="sxs-lookup"><span data-stu-id="ea2e8-123">For more information, see the following topics for more information:</span></span>
+- [<span data-ttu-id="ea2e8-124">Finanšu perioda slēgšanas darbvieta</span><span class="sxs-lookup"><span data-stu-id="ea2e8-124">Financial period close workspace</span></span>](financial-period-close-workspace.md) 
+- [<span data-ttu-id="ea2e8-125">Gada beigu slēgšana</span><span class="sxs-lookup"><span data-stu-id="ea2e8-125">Year end close</span></span>](Year-end-close.md)  
+- [<span data-ttu-id="ea2e8-126">Masveida finanšu periodu slēgšana</span><span class="sxs-lookup"><span data-stu-id="ea2e8-126">Mass financial period close</span></span>](tasks/mass-financial-period-close.md)
 
 
 

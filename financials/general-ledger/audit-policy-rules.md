@@ -19,24 +19,24 @@ ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
-ms.openlocfilehash: 68f31f00a30513b7d2f3f36a39eaf1cfe7a219a1
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 31c3fac2117fbc580e0c40d840a037f3073d66b4
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/01/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="audit-policy-rules"></a>Audita ierobežojuma nosacījumi
+# <a name="audit-policy-rules"></a><span data-ttu-id="0ad50-106">Audita ierobežojuma nosacījumi</span><span class="sxs-lookup"><span data-stu-id="0ad50-106">Audit policy rules</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Audita politiku var izmantot, lai novērtētu izdevumu pārskatus, kreditoru rēķinus un pirkšanas pasūtījumus, lai pārliecinātos, ka tie atbilst izveidotajiem politikas nosacījumiem. Visi ar audita politiku saistītie nosacījumi tiek izpildīti pakešuzdevuma režīmā saskaņā ar norādīto grafiku.  Katras politikas nosacījums ir politikas nosacījumu veida instance. Katram politikas nosacījumu veidam vienlaikus var būt aktīvs tikai viens politikas nosacījums. 
+<span data-ttu-id="0ad50-107">Audita politiku var izmantot, lai novērtētu izdevumu pārskatus, kreditoru rēķinus un pirkšanas pasūtījumus, lai pārliecinātos, ka tie atbilst izveidotajiem politikas nosacījumiem.</span><span class="sxs-lookup"><span data-stu-id="0ad50-107">You can use audit policies to evaluate expense reports, vendor invoices, and purchase orders to make sure that they comply with policy rules that you create.</span></span> <span data-ttu-id="0ad50-108">Visi ar audita politiku saistītie nosacījumi tiek izpildīti pakešuzdevuma režīmā saskaņā ar norādīto grafiku.</span><span class="sxs-lookup"><span data-stu-id="0ad50-108">All of the rules that are associated with an audit policy are run in batch mode, according to a schedule that you specify.</span></span>  <span data-ttu-id="0ad50-109">Katras politikas nosacījums ir politikas nosacījumu veida instance.</span><span class="sxs-lookup"><span data-stu-id="0ad50-109">Each policy rule is an instance of a policy rule type.</span></span> <span data-ttu-id="0ad50-110">Katram politikas nosacījumu veidam vienlaikus var būt aktīvs tikai viens politikas nosacījums.</span><span class="sxs-lookup"><span data-stu-id="0ad50-110">For each policy rule type, only one policy rule can be active at a time.</span></span> 
 
-<a name="queries-and-query-types"></a>Vaicājumi un vaicājumu veidi
+<a name="queries-and-query-types"></a><span data-ttu-id="0ad50-111">Vaicājumi un vaicājumu veidi</span><span class="sxs-lookup"><span data-stu-id="0ad50-111">Queries and query types</span></span>
 -----------------------
 
-Veidojot audita politikas nosacījumu, vispirms ir jāatlasa politikas nosacījuma veids. Politikas nosacījuma veids nosaka lietojumprogrammas objektu koka (AOT) vaicājumu, ar ko sāk politikas nosacījuma izveidi. Tas arī norāda vaicājuma veidu, ko izmanto politikas nosacījumam. Vaicājums nosaka pirmdokumentu, kuru novērtē politikas nosacījums. Tas arī norāda laukus pirmdokumentā, kas identificē gan juridisku personu, gan datumu, kas jāizmanto, kad auditam tiek atlasīti dokumenti. Vaicājuma veids kontrolē noklusējuma laukus vaicājuma lapā un lapā Audita ierobežojuma nosacījumi. Šajā tabulā ir parādīti vaicājumu veidi, kas pieejami audita politikas nosacījumiem.
+<span data-ttu-id="0ad50-112">Veidojot audita politikas nosacījumu, vispirms ir jāatlasa politikas nosacījuma veids.</span><span class="sxs-lookup"><span data-stu-id="0ad50-112">When you create an audit policy rule, you first select a policy rule type.</span></span> <span data-ttu-id="0ad50-113">Politikas nosacījuma veids nosaka lietojumprogrammas objektu koka (AOT) vaicājumu, ar ko sāk politikas nosacījuma izveidi.</span><span class="sxs-lookup"><span data-stu-id="0ad50-113">The policy rule type specifies the Application Object Tree (AOT) query to use as the starting point for creating the policy rule.</span></span> <span data-ttu-id="0ad50-114">Tas arī norāda vaicājuma veidu, ko izmanto politikas nosacījumam.</span><span class="sxs-lookup"><span data-stu-id="0ad50-114">It also specifies the query type to use for the policy rule.</span></span> <span data-ttu-id="0ad50-115">Vaicājums nosaka pirmdokumentu, kuru novērtē politikas nosacījums.</span><span class="sxs-lookup"><span data-stu-id="0ad50-115">The query determines the source document that the policy rule evaluates.</span></span> <span data-ttu-id="0ad50-116">Tas arī norāda laukus pirmdokumentā, kas identificē gan juridisku personu, gan datumu, kas jāizmanto, kad auditam tiek atlasīti dokumenti.</span><span class="sxs-lookup"><span data-stu-id="0ad50-116">It also specifies the fields in the source document that identify both the legal entity and the date to use when documents are selected for audit.</span></span> <span data-ttu-id="0ad50-117">Vaicājuma veids kontrolē noklusējuma laukus vaicājuma lapā un lapā Audita ierobežojuma nosacījumi.</span><span class="sxs-lookup"><span data-stu-id="0ad50-117">The query type controls the default fields in the query page and in the Audit policy rule page.</span></span> <span data-ttu-id="0ad50-118">Šajā tabulā ir parādīti vaicājumu veidi, kas pieejami audita politikas nosacījumiem.</span><span class="sxs-lookup"><span data-stu-id="0ad50-118">The following table shows the query types that are available for audit policy rules.</span></span>
 
 <table>
 <colgroup>
@@ -46,61 +46,62 @@ Veidojot audita politikas nosacījumu, vispirms ir jāatlasa politikas nosacīju
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vaicājuma tips</th>
-<th>Mērķis</th>
-<th>Papildinformācija</th>
+<th><span data-ttu-id="0ad50-119">Vaicājuma tips</span><span class="sxs-lookup"><span data-stu-id="0ad50-119">Query type</span></span></th>
+<th><span data-ttu-id="0ad50-120">Mērķis</span><span class="sxs-lookup"><span data-stu-id="0ad50-120">Purpose</span></span></th>
+<th><span data-ttu-id="0ad50-121">Papildinformācija</span><span class="sxs-lookup"><span data-stu-id="0ad50-121">More information</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Nosacījuma</td>
-<td>Novērtējiet pirmdokumenta atribūtus, salīdzinot tos ar norādītām vērtībām.</td>
+<td><span data-ttu-id="0ad50-122">Nosacījuma</span><span class="sxs-lookup"><span data-stu-id="0ad50-122">Conditional</span></span></td>
+<td><span data-ttu-id="0ad50-123">Novērtējiet pirmdokumenta atribūtus, salīdzinot tos ar norādītām vērtībām.</span><span class="sxs-lookup"><span data-stu-id="0ad50-123">Evaluate source document attributes against specified values.</span></span></td>
 <td></td>
 </tr>
 <tr class="even">
-<td>Apkopot</td>
-<td>Novērtējiet vairākus pirmdokumentus vai pirmdokumentu rindas, salīdzinot tos ar politikas nosacījumu, apkopojot skaitliskās vērtības.</td>
+<td><span data-ttu-id="0ad50-124">Apkopot</span><span class="sxs-lookup"><span data-stu-id="0ad50-124">Aggregate</span></span></td>
+<td><span data-ttu-id="0ad50-125">Novērtējiet vairākus pirmdokumentus vai pirmdokumentu rindas, salīdzinot tos ar politikas nosacījumu, apkopojot skaitliskās vērtības.</span><span class="sxs-lookup"><span data-stu-id="0ad50-125">Evaluate multiple source documents or source document lines against a policy rule by aggregating numeric values.</span></span></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>Iztveršana</td>
-<td>Nejaušā secībā atlasiet noteiktu pirmdokumentu procentuālo daļu, lai novērtētu politikas pārkāpumus.</td>
-<td>Kad šī opcija ir atlasīta, jālieto lapa Audita ierobežojuma nosacījumi, lai norādītu dokumentu procentuālo vērtību, kas nejaušā secībā jāatlasa auditam.</td>
+<td><span data-ttu-id="0ad50-126">Iztveršana</span><span class="sxs-lookup"><span data-stu-id="0ad50-126">Sampling</span></span></td>
+<td><span data-ttu-id="0ad50-127">Nejaušā secībā atlasiet noteiktu pirmdokumentu procentuālo daļu, lai novērtētu politikas pārkāpumus.</span><span class="sxs-lookup"><span data-stu-id="0ad50-127">Randomly select a specified percentage of the source documents to evaluate for policy violations.</span></span></td>
+<td><span data-ttu-id="0ad50-128">Kad šī opcija ir atlasīta, jālieto lapa Audita ierobežojuma nosacījumi, lai norādītu dokumentu procentuālo vērtību, kas nejaušā secībā jāatlasa auditam.</span><span class="sxs-lookup"><span data-stu-id="0ad50-128">When you select this option, use the Audit policy rule page to specify the percentage of documents to randomly select for audit.</span></span></td>
 </tr>
 <tr class="even">
-<td>Dublēt</td>
-<td>Novērtējiet pirmdokumentus, lai noteiktu, vai tie satur dublējošos ierakstus norādītajos laukos.</td>
-<td>Ja šī opcija ir atlasīta, izmantojiet lapu Audita ierobežojuma nosacījumi, lai norādītu dienu skaitu, kas jāpievieno dokumentu atlases datumu diapazona sākumam, kad dokumenti tiek novērtēti uz dublējošo ierakstu klātbūtni.</td>
+<td><span data-ttu-id="0ad50-129">Dublēt</span><span class="sxs-lookup"><span data-stu-id="0ad50-129">Duplicate</span></span></td>
+<td><span data-ttu-id="0ad50-130">Novērtējiet pirmdokumentus, lai noteiktu, vai tie satur dublējošos ierakstus norādītajos laukos.</span><span class="sxs-lookup"><span data-stu-id="0ad50-130">Evaluate source documents to determine whether they contain duplicate entries in specified fields.</span></span></td>
+<td><span data-ttu-id="0ad50-131">Ja šī opcija ir atlasīta, izmantojiet lapu Audita ierobežojuma nosacījumi, lai norādītu dienu skaitu, kas jāpievieno dokumentu atlases datumu diapazona sākumam, kad dokumenti tiek novērtēti uz dublējošo ierakstu klātbūtni.</span><span class="sxs-lookup"><span data-stu-id="0ad50-131">When you select this option, use the Audit policy rule page to specify the number of days to add to the start of the document selection date range when documents are evaluated for duplicate entries.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Meklēšana sarakstā</td>
-<td>Novērtējiet pirmdokumentus uz noteikto entītiju klātbūtni.</td>
-<td>Vaicājuma saknes dokuments nosaka dokumentu, kuram tiek veikts audits. Vaicājumam jābūt saraksta formā, kurā ietverta atsauce uz tabulu DirPartyTable. Šo opciju var izmantot tikai šādiem AOT vaicājumiem:
+<td><span data-ttu-id="0ad50-132">Meklēšana sarakstā</span><span class="sxs-lookup"><span data-stu-id="0ad50-132">List search</span></span></td>
+<td><span data-ttu-id="0ad50-133">Novērtējiet pirmdokumentus uz noteikto entītiju klātbūtni.</span><span class="sxs-lookup"><span data-stu-id="0ad50-133">Evaluate source documents for specific entities.</span></span></td>
+<td><span data-ttu-id="0ad50-134">Vaicājuma saknes dokuments nosaka dokumentu, kuram tiek veikts audits.</span><span class="sxs-lookup"><span data-stu-id="0ad50-134">The root document of the query defines the document that is being audited.</span></span> <span data-ttu-id="0ad50-135">Vaicājumam jābūt saraksta formā, kurā ietverta atsauce uz tabulu DirPartyTable.</span><span class="sxs-lookup"><span data-stu-id="0ad50-135">The query must be a list query that includes a reference to the dirpartytable table.</span></span> <span data-ttu-id="0ad50-136">Šo opciju var izmantot tikai šādiem AOT vaicājumiem:</span><span class="sxs-lookup"><span data-stu-id="0ad50-136">This option can be used only with the following AOT queries:</span></span>
 <ul>
-<li><span class="ui">AuditPolicyExpenseList</span> (Izdevumu pārskatā pārraudzītie darbinieki)</li>
-<li><span class="ui">AuditPolicyPurchList</span> (Pirkšanas pasūtījumā pārraudzītie kreditori)</li>
-<li><span class="ui">AuditPolicyVendInvoiceList</span> (Kreditora rēķinā pārraudzītie kreditori)</li>
+<li><span data-ttu-id="0ad50-137"><span class="ui">AuditPolicyExpenseList</span> (Izdevumu pārskatā pārraudzītie darbinieki)</span><span class="sxs-lookup"><span data-stu-id="0ad50-137"><span class="ui">AuditPolicyExpenseList</span> (Expense report monitored employees)</span></span></li>
+<li><span data-ttu-id="0ad50-138"><span class="ui">AuditPolicyPurchList</span> (Pirkšanas pasūtījumā pārraudzītie kreditori)</span><span class="sxs-lookup"><span data-stu-id="0ad50-138"><span class="ui">AuditPolicyPurchList</span> (Purchase order monitored vendors)</span></span></li>
+<li><span data-ttu-id="0ad50-139"><span class="ui">AuditPolicyVendInvoiceList</span> (Kreditora rēķinā pārraudzītie kreditori)</span><span class="sxs-lookup"><span data-stu-id="0ad50-139"><span class="ui">AuditPolicyVendInvoiceList</span> (Vendor invoice monitored vendors)</span></span></li>
 </ul>
-Atlasot šo opciju, norādiet uzraugāmās entītijas lapā Audita ierobežojuma nosacījumi.</td>
+<span data-ttu-id="0ad50-140">Atlasot šo opciju, norādiet uzraugāmās entītijas lapā Audita ierobežojuma nosacījumi.</span><span class="sxs-lookup"><span data-stu-id="0ad50-140">When you select this option, specify the monitored entities in the Audit policy rule page.</span></span></td>
 </tr>
 <tr class="even">
-<td>Meklēšana pēc atslēgvārdiem</td>
-<td>Novērtējiet pirmdokumentus, lai noteiktu, vai tie satur noteiktus vārdus.</td>
-<td>Atlasot šo opciju, ievadiet meklējamos terminus lapā Audita ierobežojuma nosacījumi. Lapā Audita ierobežojuma nosacījumi ir ietvertas arī opcijas, kas ļauj norādīt tabulas un laukus, kurām novērtēt ievadītos vārdus.</td>
+<td><span data-ttu-id="0ad50-141">Meklēšana pēc atslēgvārdiem</span><span class="sxs-lookup"><span data-stu-id="0ad50-141">Keyword search</span></span></td>
+<td><span data-ttu-id="0ad50-142">Novērtējiet pirmdokumentus, lai noteiktu, vai tie satur noteiktus vārdus.</span><span class="sxs-lookup"><span data-stu-id="0ad50-142">Evaluate source documents to determine whether they contain certain words.</span></span></td>
+<td><span data-ttu-id="0ad50-143">Atlasot šo opciju, ievadiet meklējamos terminus lapā Audita ierobežojuma nosacījumi.</span><span class="sxs-lookup"><span data-stu-id="0ad50-143">When you select this option, enter the words to look for in the Audit policy rule page.</span></span> <span data-ttu-id="0ad50-144">Lapā Audita ierobežojuma nosacījumi ir ietvertas arī opcijas, kas ļauj norādīt tabulas un laukus, kurām novērtēt ievadītos vārdus.</span><span class="sxs-lookup"><span data-stu-id="0ad50-144">The Audit policy rule page also includes options that let you specify the tables and fields to evaluate for the words you entered.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="common-parameters"></a>Vispārīgie parametri
-Visiem noteiktas audita politikas nosacījumiem ir vienādi pakešuzdevumu parametri un vienāds dokumentu atlases datumu diapazons. Šie parametri tiek norādīti politikai lapā Audita ierobežojuma nosacījumi.
+## <a name="common-parameters"></a><span data-ttu-id="0ad50-145">Vispārīgie parametri</span><span class="sxs-lookup"><span data-stu-id="0ad50-145">Common parameters</span></span>
+<span data-ttu-id="0ad50-146">Visiem noteiktas audita politikas nosacījumiem ir vienādi pakešuzdevumu parametri un vienāds dokumentu atlases datumu diapazons.</span><span class="sxs-lookup"><span data-stu-id="0ad50-146">All of the policy rules for a particular audit policy share the same batch parameters and the same document selection date range.</span></span> <span data-ttu-id="0ad50-147">Šie parametri tiek norādīti politikai lapā Audita ierobežojuma nosacījumi.</span><span class="sxs-lookup"><span data-stu-id="0ad50-147">These parameters are specified for the policy in the Additional options page.</span></span>
 
 
 
-<a name="see-also"></a>Skatiet arī
+<a name="see-also"></a><span data-ttu-id="0ad50-148">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="0ad50-148">See also</span></span>
 --------
 
-[Audita ierobežojuma nosacījumu pārkāpumi un gadījumi](audit-policy-violations-cases.md)
-[Definēt pirmdokumentu audita politikas](tasks/define-audit-policies-source-documents.md)
+<span data-ttu-id="0ad50-149">[Audita ierobežojuma nosacījumu pārkāpumi un gadījumi](audit-policy-violations-cases.md)
+[Definēt pirmdokumentu audita politikas](tasks/define-audit-policies-source-documents.md)</span><span class="sxs-lookup"><span data-stu-id="0ad50-149">[Audit policy violations and cases](audit-policy-violations-cases.md)
+[Define audit policies for source documents](tasks/define-audit-policies-source-documents.md)</span></span>
 
 
 

@@ -17,25 +17,25 @@ ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: afcd1f177ff8bbac8c830f2b0874a92b666fe4f7
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 6c83ac2ba2d93dfb0b453a93e92376f09dd86083
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="view-inventory-statement-and-kpi-by-cost-object"></a>Inventarizācijas akta un KPI skatīšana pēc izmaksu objekta
+# <a name="view-inventory-statement-and-kpi-by-cost-object"></a><span data-ttu-id="10689-103">Inventarizācijas akta un KPI skatīšana pēc izmaksu objekta</span><span class="sxs-lookup"><span data-stu-id="10689-103">View inventory statement and KPI by cost object</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Šī procedūra ir paredzēta izmaksu kontrolierim.
+<span data-ttu-id="10689-104">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="10689-104">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="10689-105">Šī procedūra ir paredzēta izmaksu kontrolierim.</span><span class="sxs-lookup"><span data-stu-id="10689-105">This procedure is intended for the cost controller.</span></span>
 
-1. Noklikšķiniet uz Izmaksu administrēšana.
-2. Noklikšķiniet uz Izlaistās preces.
-3. Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus. Piemēram, filtrējiet pēc lauka Krājuma numurs, izmantojot vērtību "d0005".
-4. Darbību rūtī noklikšķiniet uz Pārvaldīt izmaksas.
-5. Noklikšķiniet uz Izmaksu objekti.
-6. Noklikšķiniet uz Krājumu akts un KPI.
-7. Ievadiet datumu laukā No datuma.
-8. Laukā Līdz datumam ievadiet datumu.
+1. <span data-ttu-id="10689-106">Noklikšķiniet uz Izmaksu administrēšana.</span><span class="sxs-lookup"><span data-stu-id="10689-106">Click Cost administration.</span></span>
+2. <span data-ttu-id="10689-107">Noklikšķiniet uz Izlaistās preces.</span><span class="sxs-lookup"><span data-stu-id="10689-107">Click Released products.</span></span>
+3. <span data-ttu-id="10689-108">Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus.</span><span class="sxs-lookup"><span data-stu-id="10689-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="10689-109">Piemēram, filtrējiet pēc lauka Krājuma numurs, izmantojot vērtību "d0005".</span><span class="sxs-lookup"><span data-stu-id="10689-109">For example, filter on the Item number field with a value of 'd0005'.</span></span>
+4. <span data-ttu-id="10689-110">Darbību rūtī noklikšķiniet uz Pārvaldīt izmaksas.</span><span class="sxs-lookup"><span data-stu-id="10689-110">On the Action Pane, click Manage costs.</span></span>
+5. <span data-ttu-id="10689-111">Noklikšķiniet uz Izmaksu objekti.</span><span class="sxs-lookup"><span data-stu-id="10689-111">Click Cost objects.</span></span>
+6. <span data-ttu-id="10689-112">Noklikšķiniet uz Krājumu akts un KPI.</span><span class="sxs-lookup"><span data-stu-id="10689-112">Click Inventory statement and KPIs.</span></span>
+7. <span data-ttu-id="10689-113">Ievadiet datumu laukā No datuma.</span><span class="sxs-lookup"><span data-stu-id="10689-113">In the From date field, enter a date.</span></span>
+8. <span data-ttu-id="10689-114">Laukā Līdz datumam ievadiet datumu.</span><span class="sxs-lookup"><span data-stu-id="10689-114">In the To date field, enter a date.</span></span>
 
 

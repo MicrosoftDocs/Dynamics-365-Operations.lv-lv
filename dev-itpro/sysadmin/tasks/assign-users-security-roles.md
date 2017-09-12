@@ -16,40 +16,40 @@ ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: b951bbf935645460f7be1df656ca2c5269a020ec
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 551048af26f46d334c562d1968963aed262a5e03
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="assign-users-to-security-roles"></a>Piešķirt lietotājus drošības lomām
+# <a name="assign-users-to-security-roles"></a><span data-ttu-id="fe5d6-103">Piešķirt lietotājus drošības lomām</span><span class="sxs-lookup"><span data-stu-id="fe5d6-103">Assign users to security roles</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Lai piekļūtu Microsoft Dynamics 365 for Finance and Operations Enterprise edition, lietotājiem jābūt piešķirtai drošības lomai. Šī procedūra skaidro kā sistēmas administratori var automātiski piešķirt lietotājiem lomas, pamatojoties uz biznesa datiem. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
+<span data-ttu-id="fe5d6-104">Lai piekļūtu Microsoft Dynamics 365 for Finance and Operations Enterprise edition, lietotājiem jābūt piešķirtai drošības lomai.</span><span class="sxs-lookup"><span data-stu-id="fe5d6-104">To access Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, users must be assigned to security roles.</span></span> <span data-ttu-id="fe5d6-105">Šī procedūra skaidro kā sistēmas administratori var automātiski piešķirt lietotājiem lomas, pamatojoties uz biznesa datiem.</span><span class="sxs-lookup"><span data-stu-id="fe5d6-105">This procedure explains how system administrators can assign users to roles automatically, based on business data.</span></span> <span data-ttu-id="fe5d6-106">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="fe5d6-106">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="automatically-assign-users-to-roles"></a>Automātiski piešķirt lietotājus lomām
-1. Dodieties uz Sistēmas administrēšana > Drošība > Piešķirt lomas lietotājiem.
-2. Kokā atlasiet 'Uzskaites supervizors'.
-    * Atlasiet lomu, kurai vēlaties konfigurēt kārtulu. Šajā piemērā atlasiet Uzskaites supervizoru.  
-3. Noklikšķiniet uz Pievienot kārtulu, lai atvērtu nolaižamo dialoglodziņu.
-4. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-    * Atlasiet vaicājumu, lai varētu izmantot šo kārtulu.  
-5. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-6. Noklikšķiniet uz Rediģēt vaicājumu.
-    * Rediģējiet vaicājumu pēc nepieciešamības.  
-7. Noklikšķiniet uz OK.
+## <a name="automatically-assign-users-to-roles"></a><span data-ttu-id="fe5d6-107">Automātiski piešķirt lietotājus lomām</span><span class="sxs-lookup"><span data-stu-id="fe5d6-107">Automatically assign users to roles</span></span>
+1. <span data-ttu-id="fe5d6-108">Dodieties uz Sistēmas administrēšana > Drošība > Piešķirt lomas lietotājiem.</span><span class="sxs-lookup"><span data-stu-id="fe5d6-108">Go to System administration > Security > Assign users to roles.</span></span>
+2. <span data-ttu-id="fe5d6-109">Kokā atlasiet 'Uzskaites supervizors'.</span><span class="sxs-lookup"><span data-stu-id="fe5d6-109">In the tree, select 'Accounting supervisor'.</span></span>
+    * <span data-ttu-id="fe5d6-110">Atlasiet lomu, kurai vēlaties konfigurēt kārtulu.</span><span class="sxs-lookup"><span data-stu-id="fe5d6-110">Select the role that you want to configure the rule for.</span></span> <span data-ttu-id="fe5d6-111">Šajā piemērā atlasiet Uzskaites supervizoru.</span><span class="sxs-lookup"><span data-stu-id="fe5d6-111">In this example, select Accounting supervisor.</span></span>  
+3. <span data-ttu-id="fe5d6-112">Noklikšķiniet uz Pievienot kārtulu, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="fe5d6-112">Click Add rule to open the drop dialog.</span></span>
+4. <span data-ttu-id="fe5d6-113">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="fe5d6-113">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="fe5d6-114">Atlasiet vaicājumu, lai varētu izmantot šo kārtulu.</span><span class="sxs-lookup"><span data-stu-id="fe5d6-114">Select the query to use for this rule.</span></span>  
+5. <span data-ttu-id="fe5d6-115">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="fe5d6-115">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="fe5d6-116">Noklikšķiniet uz Rediģēt vaicājumu.</span><span class="sxs-lookup"><span data-stu-id="fe5d6-116">Click Edit query.</span></span>
+    * <span data-ttu-id="fe5d6-117">Rediģējiet vaicājumu pēc nepieciešamības.</span><span class="sxs-lookup"><span data-stu-id="fe5d6-117">Edit the query, as needed.</span></span>  
+7. <span data-ttu-id="fe5d6-118">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="fe5d6-118">Click OK.</span></span>
 
-## <a name="exclude-users-from-automatic-role-assignment"></a>Izslēgt lietotājus no automātiskas lomu piešķiršanas
-1. Aizvērt lapu.
-2. Dodieties uz Sistēmas administrēšana > Drošība > Piešķirt lomas lietotājiem.
-3. Kokā atlasiet 'Uzskaites supervizors'.
-    * Atlasīt lomu. Šajā piemērā atlasiet Uzskaites supervizoru.  
-4. Noklikšķiniet Manuāli piešķirt/izslēgt lietotājus.
-5. Sarakstā atzīmējiet atlasīto rindu.
-    * Atlasiet lietotāju.  
-6. Noklikšķiniet Izslēgt no lomas.
-    * Noklikšķiniet uz Izslēgt no lomas, lai izslēgtu atlasītos lietotājus no lomas. Lai noņemtu izslēgšanu, atlasiet lietotājus, kuriem vēlaties noņemt izslēgšanu, un pēc tam noklikšķiniet uz Atiestatīt statusu. Noņemot izslēgšanu, atiestatot lietotāja statusu, lietotāja loma atkal tiek piešķirta automātiski. Tomēr, atiestatot statusu, lietotājam netiek uzreiz piešķirta vai izslēgta loma. Tā vietā, lietotājam tiek piešķirta vai noņemta loma, nākamreiz, kad tiek palaistas automātiskās lomas norīkojuma kārtulas.  
+## <a name="exclude-users-from-automatic-role-assignment"></a><span data-ttu-id="fe5d6-119">Izslēgt lietotājus no automātiskas lomu piešķiršanas</span><span class="sxs-lookup"><span data-stu-id="fe5d6-119">Exclude users from automatic role assignment</span></span>
+1. <span data-ttu-id="fe5d6-120">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="fe5d6-120">Close the page.</span></span>
+2. <span data-ttu-id="fe5d6-121">Dodieties uz Sistēmas administrēšana > Drošība > Piešķirt lomas lietotājiem.</span><span class="sxs-lookup"><span data-stu-id="fe5d6-121">Go to System administration > Security > Assign users to roles.</span></span>
+3. <span data-ttu-id="fe5d6-122">Kokā atlasiet 'Uzskaites supervizors'.</span><span class="sxs-lookup"><span data-stu-id="fe5d6-122">In the tree, select 'Accounting supervisor'.</span></span>
+    * <span data-ttu-id="fe5d6-123">Atlasīt lomu.</span><span class="sxs-lookup"><span data-stu-id="fe5d6-123">Select a role.</span></span> <span data-ttu-id="fe5d6-124">Šajā piemērā atlasiet Uzskaites supervizoru.</span><span class="sxs-lookup"><span data-stu-id="fe5d6-124">For this example, select Accounting supervisor.</span></span>  
+4. <span data-ttu-id="fe5d6-125">Noklikšķiniet Manuāli piešķirt/izslēgt lietotājus.</span><span class="sxs-lookup"><span data-stu-id="fe5d6-125">Click Manually assign / exclude users.</span></span>
+5. <span data-ttu-id="fe5d6-126">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="fe5d6-126">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="fe5d6-127">Atlasiet lietotāju.</span><span class="sxs-lookup"><span data-stu-id="fe5d6-127">Select a user.</span></span>  
+6. <span data-ttu-id="fe5d6-128">Noklikšķiniet Izslēgt no lomas.</span><span class="sxs-lookup"><span data-stu-id="fe5d6-128">Click Exclude from role.</span></span>
+    * <span data-ttu-id="fe5d6-129">Noklikšķiniet uz Izslēgt no lomas, lai izslēgtu atlasītos lietotājus no lomas.</span><span class="sxs-lookup"><span data-stu-id="fe5d6-129">Click Exclude from role to exclude the selected users from the role.</span></span> <span data-ttu-id="fe5d6-130">Lai noņemtu izslēgšanu, atlasiet lietotājus, kuriem vēlaties noņemt izslēgšanu, un pēc tam noklikšķiniet uz Atiestatīt statusu.</span><span class="sxs-lookup"><span data-stu-id="fe5d6-130">To remove exclusions, select the users that you want to remove exclusions for, and then click Reset status.</span></span> <span data-ttu-id="fe5d6-131">Noņemot izslēgšanu, atiestatot lietotāja statusu, lietotāja loma atkal tiek piešķirta automātiski.</span><span class="sxs-lookup"><span data-stu-id="fe5d6-131">When you remove an exclusion by resetting the user’s status, the user’s role is again assigned automatically.</span></span> <span data-ttu-id="fe5d6-132">Tomēr, atiestatot statusu, lietotājam netiek uzreiz piešķirta vai izslēgta loma.</span><span class="sxs-lookup"><span data-stu-id="fe5d6-132">However, the user is not immediately assigned to the role or excluded from the role when you reset the status.</span></span> <span data-ttu-id="fe5d6-133">Tā vietā, lietotājam tiek piešķirta vai noņemta loma, nākamreiz, kad tiek palaistas automātiskās lomas norīkojuma kārtulas.</span><span class="sxs-lookup"><span data-stu-id="fe5d6-133">Instead, the user is either assigned to the role or removed from the role the next time that the rules for automatic role assignment are run.</span></span>  
 
 

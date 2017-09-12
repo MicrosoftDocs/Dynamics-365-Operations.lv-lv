@@ -19,33 +19,33 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b530b5c8b5e252efb253dcf5b4ad080e2f646e5f
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 6485642d27156dfb37f9e30335369e3287f92148
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="accounting-distributions-and-subledger-journal-entries-for-free-text-invoices"></a>Uzskaites sadales un apakšgrāmatas žurnāla ieraksti brīva teksta rēķiniem
+# <a name="accounting-distributions-and-subledger-journal-entries-for-free-text-invoices"></a><span data-ttu-id="d3e1c-104">Uzskaites sadales un apakšgrāmatas žurnāla ieraksti brīva teksta rēķiniem</span><span class="sxs-lookup"><span data-stu-id="d3e1c-104">Accounting distributions and subledger journal entries for free text invoices</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Uzskaites sadales tiek izmantotas, lai definētu, kā summa tiek uzskaitīta, piemēram, kā ieņēmumi, nodokļi vai izmaksas tiek uzskaitīti brīva teksta rēķinā. Katrai summai, kas ir jānorāda brīva teksta rēķina reģistrēšanai žurnālā, ir viena vai vairākas uzskaites sadales.
+<span data-ttu-id="d3e1c-105">Uzskaites sadales tiek izmantotas, lai definētu, kā summa tiek uzskaitīta, piemēram, kā ieņēmumi, nodokļi vai izmaksas tiek uzskaitīti brīva teksta rēķinā.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-105">Accounting distributions are used to define how an amount will be accounted for, such as how the revenue, tax, or charges will be accounted for on a free text invoice.</span></span> <span data-ttu-id="d3e1c-106">Katrai summai, kas ir jānorāda brīva teksta rēķina reģistrēšanai žurnālā, ir viena vai vairākas uzskaites sadales.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-106">Every amount that must be accounted for when the free text invoice is journalized will have one or more accounting distributions.</span></span>
 
-<a name="accounting-distributions"></a>Uzskaites sadales
+<a name="accounting-distributions"></a><span data-ttu-id="d3e1c-107">Uzskaites sadales</span><span class="sxs-lookup"><span data-stu-id="d3e1c-107">Accounting distributions</span></span>
 ------------------------
 
-Brīva teksta rēķina lapā varat izmantot tālāk aprakstītās pogas, lai brīva teksta rēķinā skatītu un, iespējams, mainītu katras summas uzskaites sadales.
+<span data-ttu-id="d3e1c-108">Brīva teksta rēķina lapā varat izmantot tālāk aprakstītās pogas, lai brīva teksta rēķinā skatītu un, iespējams, mainītu katras summas uzskaites sadales.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-108">You can use the following buttons in the Free text invoice page to view, and possibly change, the accounting distributions for each amount on the free text invoice.</span></span>
 
--   **Sadalīt summas**— skatiet un mainiet uzskaites sadales atsevišķai rindai un jebkurai apakšrindai, piemēram, nodokļiem vai izmaksām. Apakšrindu uzskaites sadales varat arī skatīt un mainīt tieši no lapas Pārdošanas nodokļa transakcijas vai Maksu darbības.
-    -   Mainiet brīva teksta rēķina galvenes summas, piemēram, izmaksas vai valūtas noapaļošanas summas.
-    -   Mainiet brīva teksta rēķina rindas summas.
--   **Skatīt sadales**— skatiet visu dokumenta rindu uzskaites sadales. No šī skata uzskaites sadales nevar mainīt.
-    -   Skatiet galveni un rindu summas.
+-   <span data-ttu-id="d3e1c-109">**Sadalīt summas**— skatiet un mainiet uzskaites sadales atsevišķai rindai un jebkurai apakšrindai, piemēram, nodokļiem vai izmaksām.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-109">**Distribute amounts**—View and change the accounting distributions for an individual line and any child lines, such as taxes or charges.</span></span> <span data-ttu-id="d3e1c-110">Apakšrindu uzskaites sadales varat arī skatīt un mainīt tieši no lapas Pārdošanas nodokļa transakcijas vai Maksu darbības.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-110">You can also view and change the accounting distributions for the child line directly from the Sales tax transactions page or the Charges transactions page.</span></span>
+    -   <span data-ttu-id="d3e1c-111">Mainiet brīva teksta rēķina galvenes summas, piemēram, izmaksas vai valūtas noapaļošanas summas.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-111">Change free text invoice header amounts, such as charges or currency rounding amounts.</span></span>
+    -   <span data-ttu-id="d3e1c-112">Mainiet brīva teksta rēķina rindas summas.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-112">Change free text invoice line amounts.</span></span>
+-   <span data-ttu-id="d3e1c-113">**Skatīt sadales**— skatiet visu dokumenta rindu uzskaites sadales.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-113">**View distributions**—View the accounting distributions for all lines on the document.</span></span> <span data-ttu-id="d3e1c-114">No šī skata uzskaites sadales nevar mainīt.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-114">You can't change the accounting distributions from this view.</span></span>
+    -   <span data-ttu-id="d3e1c-115">Skatiet galveni un rindu summas.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-115">View header and line amounts.</span></span>
 
-## <a name="distributing-amounts"></a>Summu sadalīšana
-Kad ievadāt brīva teksta rēķinu, katra summa tiek sadalīta tālāk aprakstītajā veidā.
+## <a name="distributing-amounts"></a><span data-ttu-id="d3e1c-116">Summu sadalīšana</span><span class="sxs-lookup"><span data-stu-id="d3e1c-116">Distributing amounts</span></span>
+<span data-ttu-id="d3e1c-117">Kad ievadāt brīva teksta rēķinu, katra summa tiek sadalīta tālāk aprakstītajā veidā.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-117">When you enter a free text invoice, each amount will be distributed as follows.</span></span>
 
 <table>
 <colgroup>
@@ -55,86 +55,86 @@ Kad ievadāt brīva teksta rēķinu, katra summa tiek sadalīta tālāk aprakst�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Naudas summas tips</th>
-<th>Kur tiek ņemts rādītais galvenais konts</th>
-<th>Prioritāšu secība, kas nosaka, kuras noklusējuma finanšu dimensijas tiek parādītas</th>
+<th><span data-ttu-id="d3e1c-118">Naudas summas tips</span><span class="sxs-lookup"><span data-stu-id="d3e1c-118">Type of monetary amount</span></span></th>
+<th><span data-ttu-id="d3e1c-119">Kur tiek ņemts rādītais galvenais konts</span><span class="sxs-lookup"><span data-stu-id="d3e1c-119">Where the main account is displayed from</span></span></th>
+<th><span data-ttu-id="d3e1c-120">Prioritāšu secība, kas nosaka, kuras noklusējuma finanšu dimensijas tiek parādītas</span><span class="sxs-lookup"><span data-stu-id="d3e1c-120">Order of priority that determines which default financial dimension is displayed</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Brīvā teksta rēķina rinda</td>
-<td>Virsgrāmatas konts brīva teksta rēķina rindā.</td>
+<td><span data-ttu-id="d3e1c-121">Brīvā teksta rēķina rinda</span><span class="sxs-lookup"><span data-stu-id="d3e1c-121">Free text invoice line</span></span></td>
+<td><span data-ttu-id="d3e1c-122">Virsgrāmatas konts brīva teksta rēķina rindā.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-122">The ledger account on the free text invoice line.</span></span></td>
 <td><ol>
-<li>Ja galvenais konts ir sadalījuma konts, izmantot noklusējuma vērtību no sadalījuma konta definīcijas.</li>
-<li>Ja galvenais konts nav sadalījuma konts, brīva teksta rēķina rindā izmantot finanšu dimensijas noklusējuma veidni.</li>
-<li>Brīva teksta rēķina rindā izmantot noklusējuma finanšu dimensiju vērtības.</li>
-<li>Izmantot noklusējuma finanšu dimensiju vērtības no virsgrāmatas konta lapā Kontu plāns.</li>
+<li><span data-ttu-id="d3e1c-123">Ja galvenais konts ir sadalījuma konts, izmantot noklusējuma vērtību no sadalījuma konta definīcijas.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-123">If the main account is an allocation account, use the default value from the allocation account definition.</span></span></li>
+<li><span data-ttu-id="d3e1c-124">Ja galvenais konts nav sadalījuma konts, brīva teksta rēķina rindā izmantot finanšu dimensijas noklusējuma veidni.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-124">If the main account is not an allocation account, use the financial dimension default template on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="d3e1c-125">Brīva teksta rēķina rindā izmantot noklusējuma finanšu dimensiju vērtības.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-125">Use the default financial dimension values on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="d3e1c-126">Izmantot noklusējuma finanšu dimensiju vērtības no virsgrāmatas konta lapā Kontu plāns.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-126">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Brīva teksta rēķina rinda pamatlīdzekļa numura un vērtības modeļa kombinācijai
+<td><span data-ttu-id="d3e1c-127">Brīva teksta rēķina rinda pamatlīdzekļa numura un vērtības modeļa kombinācijai</span><span class="sxs-lookup"><span data-stu-id="d3e1c-127">Free text invoice line for a fixed asset number and value model combination</span></span>
 <div class="alert">
 <table>
 <thead>
 <tr class="header">
-<th><strong>Piezīme</strong></th>
+<th><span data-ttu-id="d3e1c-128"><strong>Piezīme</strong></span><span class="sxs-lookup"><span data-stu-id="d3e1c-128"><strong>Note</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Galvenais konts brīvā teksta rēķina rindā būs pamatlīdzekļu izslēgšanas konts.</td>
+<td><span data-ttu-id="d3e1c-129">Galvenais konts brīvā teksta rēķina rindā būs pamatlīdzekļu izslēgšanas konts.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-129">The main account on the free text invoice line will be the fixed asset disposal account.</span></span></td>
 </tr>
 </tbody>
 </table>
 </div></td>
-<td>Virsgrāmatas konts brīva teksta rēķina rindā.</td>
+<td><span data-ttu-id="d3e1c-130">Virsgrāmatas konts brīva teksta rēķina rindā.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-130">The ledger account on the free text invoice line.</span></span></td>
 <td><ol>
-<li>Brīva teksta rēķina rindā izmantot noklusējuma finanšu dimensiju vērtības.</li>
-<li>Izmantot noklusējuma finanšu dimensiju vērtības no virsgrāmatas konta lapā Kontu plāns.</li>
+<li><span data-ttu-id="d3e1c-131">Brīva teksta rēķina rindā izmantot noklusējuma finanšu dimensiju vērtības.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-131">Use the default financial dimension values on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="d3e1c-132">Izmantot noklusējuma finanšu dimensiju vērtības no virsgrāmatas konta lapā Kontu plāns.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-132">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
 </ol></td>
 </tr>
 <tr class="odd">
-<td>Brīva teksta rēķina atlaides summa</td>
-<td>Lauks Galvenais konts debitoru atlaidēm lapā Termiņatlaides.</td>
+<td><span data-ttu-id="d3e1c-133">Brīva teksta rēķina atlaides summa</span><span class="sxs-lookup"><span data-stu-id="d3e1c-133">Free text invoice discount amount</span></span></td>
+<td><span data-ttu-id="d3e1c-134">Lauks Galvenais konts debitoru atlaidēm lapā Termiņatlaides.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-134">The Main account for customer discounts field in the Cash discounts page.</span></span></td>
 <td><ol>
-<li>Ja galvenais konts ir sadalījuma konts, izmantot noklusējuma vērtību no sadalījuma konta definīcijas.</li>
-<li>Ja galvenais konts nav sadalījuma konts, brīva teksta rēķina rindā izmantot finanšu dimensijas noklusējuma veidni.</li>
-<li>Brīva teksta rēķina rindā izmantot noklusējuma finanšu dimensiju vērtības.</li>
-<li>Izmantot noklusējuma finanšu dimensiju vērtības no virsgrāmatas konta lapā Kontu plāns.</li>
+<li><span data-ttu-id="d3e1c-135">Ja galvenais konts ir sadalījuma konts, izmantot noklusējuma vērtību no sadalījuma konta definīcijas.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-135">If the main account is an allocation account, use the default value from the allocation account definition.</span></span></li>
+<li><span data-ttu-id="d3e1c-136">Ja galvenais konts nav sadalījuma konts, brīva teksta rēķina rindā izmantot finanšu dimensijas noklusējuma veidni.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-136">If the main account is not an allocation account, use the financial dimension default template on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="d3e1c-137">Brīva teksta rēķina rindā izmantot noklusējuma finanšu dimensiju vērtības.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-137">Use the default financial dimension values on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="d3e1c-138">Izmantot noklusējuma finanšu dimensiju vērtības no virsgrāmatas konta lapā Kontu plāns.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-138">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Brīva teksta rēķina pārdošanas nodokļa summa</td>
-<td>Lauks Maksājamais pārdošanas nodoklis lapā Virsgrāmatas grāmatošanas grupas.</td>
+<td><span data-ttu-id="d3e1c-139">Brīva teksta rēķina pārdošanas nodokļa summa</span><span class="sxs-lookup"><span data-stu-id="d3e1c-139">Free text invoice sales tax amount</span></span></td>
+<td><span data-ttu-id="d3e1c-140">Lauks Maksājamais pārdošanas nodoklis lapā Virsgrāmatas grāmatošanas grupas.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-140">The Sales tax payable field in the Ledger posting groups page.</span></span></td>
 <td><ol>
-<li>Izmantot finanšu dimensijas, kas ir definētas brīva teksta rēķina rindas summai, vai sadales maksa rindas summai.</li>
-<li>Brīva teksta rēķina rindā izmantot noklusējuma finanšu dimensiju vērtības.</li>
-<li>Izmantot noklusējuma finanšu dimensiju vērtības no virsgrāmatas konta lapā Kontu plāns.</li>
+<li><span data-ttu-id="d3e1c-141">Izmantot finanšu dimensijas, kas ir definētas brīva teksta rēķina rindas summai, vai sadales maksa rindas summai.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-141">Use the financial dimensions that are defined on the free text invoice line amount or the distributions for the charge line amount.</span></span></li>
+<li><span data-ttu-id="d3e1c-142">Brīva teksta rēķina rindā izmantot noklusējuma finanšu dimensiju vērtības.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-142">Use the default financial dimension values on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="d3e1c-143">Izmantot noklusējuma finanšu dimensiju vērtības no virsgrāmatas konta lapā Kontu plāns.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-143">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
 </ol></td>
 </tr>
 <tr class="odd">
-<td>Brīva teksta rēķina maksas rindas summa</td>
-<td>Lauks Kredīta konts lapā Maksas kods.</td>
+<td><span data-ttu-id="d3e1c-144">Brīva teksta rēķina maksas rindas summa</span><span class="sxs-lookup"><span data-stu-id="d3e1c-144">Free text invoice charge line amount</span></span></td>
+<td><span data-ttu-id="d3e1c-145">Lauks Kredīta konts lapā Maksas kods.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-145">The Credit account field in the Charges code page.</span></span></td>
 <td><ol>
-<li>Ja galvenais konts ir sadalījuma konts, izmantot noklusējuma vērtību no sadalījuma konta definīcijas.</li>
-<li>Ja galvenais konts nav sadalījuma konts, brīva teksta rēķina rindā izmantot finanšu dimensijas noklusējuma veidni.</li>
-<li>Brīva teksta rēķina rindā izmantot noklusējuma finanšu dimensiju vērtības.</li>
-<li>Izmantot noklusējuma finanšu dimensiju vērtības no virsgrāmatas konta lapā Kontu plāns.</li>
+<li><span data-ttu-id="d3e1c-146">Ja galvenais konts ir sadalījuma konts, izmantot noklusējuma vērtību no sadalījuma konta definīcijas.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-146">If the main account is an allocation account, use the default value from the allocation account definition.</span></span></li>
+<li><span data-ttu-id="d3e1c-147">Ja galvenais konts nav sadalījuma konts, brīva teksta rēķina rindā izmantot finanšu dimensijas noklusējuma veidni.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-147">If the main account is not an allocation account, use the financial dimension default template on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="d3e1c-148">Brīva teksta rēķina rindā izmantot noklusējuma finanšu dimensiju vērtības.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-148">Use the default financial dimension values on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="d3e1c-149">Izmantot noklusējuma finanšu dimensiju vērtības no virsgrāmatas konta lapā Kontu plāns.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-149">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
 </ol></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="distributing-taxes"></a>Nodokļu sadalīšana
-Nodokļu uzskaites sadales var izveidot tikai pēc nodokļu aprēķināšanas. Lai aprēķinātu pārdošanas nodokļus, ir jāizpilda viens no tālāk aprakstītajiem uzdevumiem formā Brīva teksta rēķins.
--   Apskatiet PVN.
--   Apskatiet rēķina kopsummu.
--   Apskatiet skaidras naudas plūsmu.
--   Apskatiet uzskaites sadales visam brīva teksta rēķinam.
--   Apskatiet apakšgrāmatas žurnālu.
+## <a name="distributing-taxes"></a><span data-ttu-id="d3e1c-150">Nodokļu sadalīšana</span><span class="sxs-lookup"><span data-stu-id="d3e1c-150">Distributing taxes</span></span>
+<span data-ttu-id="d3e1c-151">Nodokļu uzskaites sadales var izveidot tikai pēc nodokļu aprēķināšanas.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-151">Accounting distributions for taxes cannot be created until taxes are calculated.</span></span> <span data-ttu-id="d3e1c-152">Lai aprēķinātu pārdošanas nodokļus, ir jāizpilda viens no tālāk aprakstītajiem uzdevumiem formā Brīva teksta rēķins.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-152">To calculate sales taxes, you must complete one of the following tasks in the Free text invoice form:</span></span>
+-   <span data-ttu-id="d3e1c-153">Apskatiet PVN.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-153">View the sales tax.</span></span>
+-   <span data-ttu-id="d3e1c-154">Apskatiet rēķina kopsummu.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-154">View the invoice total.</span></span>
+-   <span data-ttu-id="d3e1c-155">Apskatiet skaidras naudas plūsmu.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-155">View the cash flow.</span></span>
+-   <span data-ttu-id="d3e1c-156">Apskatiet uzskaites sadales visam brīva teksta rēķinam.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-156">View accounting distributions for the whole free text invoice.</span></span>
+-   <span data-ttu-id="d3e1c-157">Apskatiet apakšgrāmatas žurnālu.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-157">View the subledger journal.</span></span>
 
-## <a name="subledger-journals-for-free-text-invoices"></a>Apakšgrāmatas žurnāli brīva teksta rēķiniem
-Pirms grāmatojat brīva teksta rēķinu, varat apskatīt pilnu uzskaites ierakstu šim rēķinam, kas ietver debetu un kredītu, lai pārliecinātos, ka rēķins tiek grāmatots pareizajos kontos. Šis pilnās uzskaites ieraksta skats tiek saukts par apakšgrāmatas žurnālu. Ja pirms brīva teksta rēķina reģistrēšanas žurnālā priekšskatāt apakšgrāmatas žurnāla ierakstu un tas ir nepareizs, šo apakšgrāmatas žurnāla ierakstu nevar mainīt. Tā vietā ir jāmaina uzskaites sadales vai grāmatošanas metode. Uzskaites sadales tiek izmantotas, lai noteiktu uzskaites ieraksta vienu pusi, debetu vai kredītu. Korespondējošais apakšgrāmatas žurnāla konta ieraksts tiek izveidots no grāmatošanas metodēm, piemēram, no debitora konta vai nodokļiem.
+## <a name="subledger-journals-for-free-text-invoices"></a><span data-ttu-id="d3e1c-158">Apakšgrāmatas žurnāli brīva teksta rēķiniem</span><span class="sxs-lookup"><span data-stu-id="d3e1c-158">Subledger journals for free text invoices</span></span>
+<span data-ttu-id="d3e1c-159">Pirms grāmatojat brīva teksta rēķinu, varat apskatīt pilnu uzskaites ierakstu šim rēķinam, kas ietver debetu un kredītu, lai pārliecinātos, ka rēķins tiek grāmatots pareizajos kontos.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-159">Before you post a free text invoice, you can view the full accounting entry of the invoice, which includes debits and credits, to verify that the invoice is being posted to the correct accounts.</span></span> <span data-ttu-id="d3e1c-160">Šis pilnās uzskaites ieraksta skats tiek saukts par apakšgrāmatas žurnālu.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-160">This view of the full accounting entry is called a subledger journal.</span></span> <span data-ttu-id="d3e1c-161">Ja pirms brīva teksta rēķina reģistrēšanas žurnālā priekšskatāt apakšgrāmatas žurnāla ierakstu un tas ir nepareizs, šo apakšgrāmatas žurnāla ierakstu nevar mainīt.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-161">If the subledger journal entry is incorrect when you preview it before you journalize the free text invoice, you can't change the subledger journal entry.</span></span> <span data-ttu-id="d3e1c-162">Tā vietā ir jāmaina uzskaites sadales vai grāmatošanas metode.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-162">Instead, you must change the accounting distributions or the posting profile.</span></span> <span data-ttu-id="d3e1c-163">Uzskaites sadales tiek izmantotas, lai noteiktu uzskaites ieraksta vienu pusi, debetu vai kredītu.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-163">The accounting distributions are used to define one side of the accounting entry, the debit or the credit.</span></span> <span data-ttu-id="d3e1c-164">Korespondējošais apakšgrāmatas žurnāla konta ieraksts tiek izveidots no grāmatošanas metodēm, piemēram, no debitora konta vai nodokļiem.</span><span class="sxs-lookup"><span data-stu-id="d3e1c-164">The offsetting subledger journal account entry is created from the posting profiles, such as from the customer account or the tax.</span></span>
 
 
 

@@ -16,66 +16,66 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 08f66db0f62d5d985177b1d4ec0161df0b9961b3
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 96040b1c1ba130f773ba0defbf7bf1dcebedfc13
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>Rēķinu datu ievade kreditoru sistēmā, izmantojot rēķinu kopu
+# <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a><span data-ttu-id="30c30-103">Rēķinu datu ievade kreditoru sistēmā, izmantojot rēķinu kopu</span><span class="sxs-lookup"><span data-stu-id="30c30-103">Key invoice data into the AP system using invoice pool</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā uzdevuma ceļvedī aprakstīts, kā izmantot rēķinu reģistru, lai izveidotu rēķinus.  Pēc tam izmantojiet rēķinu kopu, lai saskaņotu rēķinu ar pirkšanas pasūtījumu un pabeigtu izdevumu kreditora rēķina lapā.
+<span data-ttu-id="30c30-104">Šajā uzdevuma ceļvedī aprakstīts, kā izmantot rēķinu reģistru, lai izveidotu rēķinus.</span><span class="sxs-lookup"><span data-stu-id="30c30-104">This task guide will show you how to use the invoice register to create invoices.</span></span>  <span data-ttu-id="30c30-105">Pēc tam izmantojiet rēķinu kopu, lai saskaņotu rēķinu ar pirkšanas pasūtījumu un pabeigtu izdevumu kreditora rēķina lapā.</span><span class="sxs-lookup"><span data-stu-id="30c30-105">Then use the invoice pool to match the invoice to a purchase order and finalize the expense in the vendor invoice page.</span></span>
 
 
-## <a name="create-a-purchase-order"></a>Pirkšanas pasūtījuma izveide
-1. Dodieties uz Kreditori > Pirkšanas pasūtījumi > Pirkšanas pasūtījumi.
-2. Lai izveidotu pirkšanas pasūtījumu, noklikšķiniet uz Jauns.
-3. Laukā Kreditora konts noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-4. No saraksta atlasiet kreditoru. Piemēram, kreditors 1001.
-5. Noklikšķiniet uz Labi.
-6. Laukā Krājuma kods noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-7. Sarakstā atrodiet pakalpojumu krājuma numuru. Piemēram, atlasiet S0001.
-8. Noklikšķiniet uz krājuma numura un atlasiet to.
-    * Neto summa ir 75,00.  Tā ir summa, kuru sagaidām rēķinā.  
-9. Darbību rūtī noklikšķiniet uz Pirkšana.
-10. Noklikšķiniet uz Apstiprināt.
+## <a name="create-a-purchase-order"></a><span data-ttu-id="30c30-106">Pirkšanas pasūtījuma izveide</span><span class="sxs-lookup"><span data-stu-id="30c30-106">Create a purchase order</span></span>
+1. <span data-ttu-id="30c30-107">Dodieties uz Kreditori > Pirkšanas pasūtījumi > Pirkšanas pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="30c30-107">Go to Accounts payable > Purchase orders > Purchase orders.</span></span>
+2. <span data-ttu-id="30c30-108">Lai izveidotu pirkšanas pasūtījumu, noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="30c30-108">Click New to create a purchase order.</span></span>
+3. <span data-ttu-id="30c30-109">Laukā Kreditora konts noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="30c30-109">In the Vendor account field, click the drop down button to open the lookup.</span></span>
+4. <span data-ttu-id="30c30-110">No saraksta atlasiet kreditoru.</span><span class="sxs-lookup"><span data-stu-id="30c30-110">Select the vendor from the list.</span></span> <span data-ttu-id="30c30-111">Piemēram, kreditors 1001.</span><span class="sxs-lookup"><span data-stu-id="30c30-111">For example, vendor 1001.</span></span>
+5. <span data-ttu-id="30c30-112">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="30c30-112">Click OK.</span></span>
+6. <span data-ttu-id="30c30-113">Laukā Krājuma kods noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="30c30-113">In the Item number field, click the drop down button to open the lookup.</span></span>
+7. <span data-ttu-id="30c30-114">Sarakstā atrodiet pakalpojumu krājuma numuru.</span><span class="sxs-lookup"><span data-stu-id="30c30-114">Find the services item number in the list.</span></span> <span data-ttu-id="30c30-115">Piemēram, atlasiet S0001.</span><span class="sxs-lookup"><span data-stu-id="30c30-115">For example, select S0001.</span></span>
+8. <span data-ttu-id="30c30-116">Noklikšķiniet uz krājuma numura un atlasiet to.</span><span class="sxs-lookup"><span data-stu-id="30c30-116">Click on the item number and select it.</span></span>
+    * <span data-ttu-id="30c30-117">Neto summa ir 75,00.</span><span class="sxs-lookup"><span data-stu-id="30c30-117">The net amount is 75.00.</span></span>  <span data-ttu-id="30c30-118">Tā ir summa, kuru sagaidām rēķinā.</span><span class="sxs-lookup"><span data-stu-id="30c30-118">That is the amount that we will expect on the invoice.</span></span>  
+9. <span data-ttu-id="30c30-119">Darbību rūtī noklikšķiniet uz Pirkšana.</span><span class="sxs-lookup"><span data-stu-id="30c30-119">On the action pane, click Purchase.</span></span>
+10. <span data-ttu-id="30c30-120">Noklikšķiniet uz Apstiprināt.</span><span class="sxs-lookup"><span data-stu-id="30c30-120">Click Confirm.</span></span>
 
-## <a name="create-and-post-and-invoice"></a>Izveidot un grāmatot rēķinu
-1. Pārejiet uz sadaļu Kreditori > Rēķini > Rēķinu reģistrs.
-2. Noklikšķiniet uz Jauns.
-3. Lai atlasītu nosaukumu rēķinu reģistram, kuru vēlaties izmantot, atveriet uzmeklēšanu.
-4. Atlasiet nosaukumu tam rēķinu reģistram, kuru vēlaties lietot.
-5. Noklikšķiniet uz Rindas, lai atvērtu reģistru un ievadītu izdevumu rindas.
-6. Uzmeklēšanas skatā atlasiet kreditoru. Piemēram, noklikšķiniet uz kreditors 1001.
-7. Laukā Rēķins ievadiet rēķina numuru.
-8. Laukā Apraksts ierakstiet kādu vērtību.
-9. Laukā Kredīts ievadiet kādu skaitli.
-10. Laukā Pirkšanas pasūtījums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-11. Atlasiet iepriekš izveidoto pirkšanas pasūtījumu.
-12. Laukā Apstiprināja noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-13. Iezīmējiet apstiprinātāju un noklikšķiniet uz Atlasīt, lai atlasītu šo apstiprinātāju.
-14. Noklikšķiniet uz Grāmatot.
-15. Aizveriet formu.
-16. Aizveriet formu.
+## <a name="create-and-post-and-invoice"></a><span data-ttu-id="30c30-121">Izveidot un grāmatot rēķinu</span><span class="sxs-lookup"><span data-stu-id="30c30-121">Create and post and invoice</span></span>
+1. <span data-ttu-id="30c30-122">Pārejiet uz sadaļu Kreditori > Rēķini > Rēķinu reģistrs.</span><span class="sxs-lookup"><span data-stu-id="30c30-122">Go to Accounts payable > Invoices > Invoice register.</span></span>
+2. <span data-ttu-id="30c30-123">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="30c30-123">Click New.</span></span>
+3. <span data-ttu-id="30c30-124">Lai atlasītu nosaukumu rēķinu reģistram, kuru vēlaties izmantot, atveriet uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="30c30-124">Open the lookup to select the name of the invoice register that you want to use.</span></span>
+4. <span data-ttu-id="30c30-125">Atlasiet nosaukumu tam rēķinu reģistram, kuru vēlaties lietot.</span><span class="sxs-lookup"><span data-stu-id="30c30-125">Select the name of the invoice register that you want to use.</span></span>
+5. <span data-ttu-id="30c30-126">Noklikšķiniet uz Rindas, lai atvērtu reģistru un ievadītu izdevumu rindas.</span><span class="sxs-lookup"><span data-stu-id="30c30-126">Click on Lines to open the register and enter expense lines.</span></span>
+6. <span data-ttu-id="30c30-127">Uzmeklēšanas skatā atlasiet kreditoru.</span><span class="sxs-lookup"><span data-stu-id="30c30-127">In the lookup, select a vendor.</span></span> <span data-ttu-id="30c30-128">Piemēram, noklikšķiniet uz kreditors 1001.</span><span class="sxs-lookup"><span data-stu-id="30c30-128">For example, click on vendor 1001.</span></span>
+7. <span data-ttu-id="30c30-129">Laukā Rēķins ievadiet rēķina numuru.</span><span class="sxs-lookup"><span data-stu-id="30c30-129">In the Invoice field, enter the invoice number.</span></span>
+8. <span data-ttu-id="30c30-130">Laukā Apraksts ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="30c30-130">In the Description field, type a value.</span></span>
+9. <span data-ttu-id="30c30-131">Laukā Kredīts ievadiet kādu skaitli.</span><span class="sxs-lookup"><span data-stu-id="30c30-131">In the Credit field, enter a number.</span></span>
+10. <span data-ttu-id="30c30-132">Laukā Pirkšanas pasūtījums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="30c30-132">In the Purchase order field, click the drop down button to open the lookup.</span></span>
+11. <span data-ttu-id="30c30-133">Atlasiet iepriekš izveidoto pirkšanas pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="30c30-133">Select the purchase order that you created earlier.</span></span>
+12. <span data-ttu-id="30c30-134">Laukā Apstiprināja noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="30c30-134">In the Approved by field, click the drop down button to open the lookup.</span></span>
+13. <span data-ttu-id="30c30-135">Iezīmējiet apstiprinātāju un noklikšķiniet uz Atlasīt, lai atlasītu šo apstiprinātāju.</span><span class="sxs-lookup"><span data-stu-id="30c30-135">Highlight an approver and click Select to select that approver.</span></span>
+14. <span data-ttu-id="30c30-136">Noklikšķiniet uz Grāmatot.</span><span class="sxs-lookup"><span data-stu-id="30c30-136">Click Post.</span></span>
+15. <span data-ttu-id="30c30-137">Aizveriet formu.</span><span class="sxs-lookup"><span data-stu-id="30c30-137">Close the form.</span></span>
+16. <span data-ttu-id="30c30-138">Aizveriet formu.</span><span class="sxs-lookup"><span data-stu-id="30c30-138">Close the form.</span></span>
 
-## <a name="open-an-invoice-from-the-pool-and-match-it-to-a-purchase-order-to-complete-the-invoice-process"></a>Lai pabeigtu rēķina izveides procesu, atveriet rēķinu no kopas un salīdziniet to ar pirkšanas pasūtījumu.
-1. Pārejiet uz sadaļu Kreditori > Rēķini > Rēķinu kopa.
-2. Lai no kopas rēķina izveidotu kreditora rēķinu, noklikšķiniet uz Pirkšanas pasūtījums.
-3. Atlasiet rēķinu, kuru vēlaties pārskatīt.
-4. Lai pabeigtu salīdzināšanu, noklikšķiniet uz Atjaunot atbilstības statusu.
-5. Darbību rūtī noklikšķiniet uz opcijas.
-6. Noklikšķiniet uz Mainīt skatījumu.
-7. Noklikšķiniet uz Režģa skats.
-8. Noklikšķiniet uz Grāmatot.
-9. Aizveriet formu.
-10. Dodieties uz Parādi kreditoriem > Kreditori > Kreditori.
-11. Atlasiet kreditoru, kuram tika sastādīts pirkšanas pasūtījums. Piemēram, atlasiet kreditors 1001.
-12. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-13. Darbību rūtī noklikšķiniet uz Kreditors.
-14. Noklikšķiniet uz Transakcijas.
-15. Atlasiet izveidoto rēķinu.
-    * Rēķinu reģistra uzkrāšana tika atsaukta un iegrāmatota atbilstošajā izdevumu kontā.  
+## <a name="open-an-invoice-from-the-pool-and-match-it-to-a-purchase-order-to-complete-the-invoice-process"></a><span data-ttu-id="30c30-139">Lai pabeigtu rēķina izveides procesu, atveriet rēķinu no kopas un salīdziniet to ar pirkšanas pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="30c30-139">Open an invoice from the pool and match it to a purchase order to complete the invoice process</span></span>
+1. <span data-ttu-id="30c30-140">Pārejiet uz sadaļu Kreditori > Rēķini > Rēķinu kopa.</span><span class="sxs-lookup"><span data-stu-id="30c30-140">Go to Accounts payable > Invoices > Invoice pool.</span></span>
+2. <span data-ttu-id="30c30-141">Lai no kopas rēķina izveidotu kreditora rēķinu, noklikšķiniet uz Pirkšanas pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="30c30-141">Click Purchase order to create a vendor invoice from the invoice in the pool.</span></span>
+3. <span data-ttu-id="30c30-142">Atlasiet rēķinu, kuru vēlaties pārskatīt.</span><span class="sxs-lookup"><span data-stu-id="30c30-142">Select the invoice that you want to review.</span></span>
+4. <span data-ttu-id="30c30-143">Lai pabeigtu salīdzināšanu, noklikšķiniet uz Atjaunot atbilstības statusu.</span><span class="sxs-lookup"><span data-stu-id="30c30-143">Click Update match status to complete the matching.</span></span>
+5. <span data-ttu-id="30c30-144">Darbību rūtī noklikšķiniet uz opcijas.</span><span class="sxs-lookup"><span data-stu-id="30c30-144">On the action pane, click Options.</span></span>
+6. <span data-ttu-id="30c30-145">Noklikšķiniet uz Mainīt skatījumu.</span><span class="sxs-lookup"><span data-stu-id="30c30-145">Click Change view.</span></span>
+7. <span data-ttu-id="30c30-146">Noklikšķiniet uz Režģa skats.</span><span class="sxs-lookup"><span data-stu-id="30c30-146">Click Grid view.</span></span>
+8. <span data-ttu-id="30c30-147">Noklikšķiniet uz Grāmatot.</span><span class="sxs-lookup"><span data-stu-id="30c30-147">Click Post.</span></span>
+9. <span data-ttu-id="30c30-148">Aizveriet formu.</span><span class="sxs-lookup"><span data-stu-id="30c30-148">Close the form.</span></span>
+10. <span data-ttu-id="30c30-149">Dodieties uz Parādi kreditoriem > Kreditori > Kreditori.</span><span class="sxs-lookup"><span data-stu-id="30c30-149">Go to Accounts payable > Vendors > Vendors.</span></span>
+11. <span data-ttu-id="30c30-150">Atlasiet kreditoru, kuram tika sastādīts pirkšanas pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="30c30-150">Select the vendor that was on the purchase order.</span></span> <span data-ttu-id="30c30-151">Piemēram, atlasiet kreditors 1001.</span><span class="sxs-lookup"><span data-stu-id="30c30-151">For example, select vendor 1001.</span></span>
+12. <span data-ttu-id="30c30-152">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="30c30-152">In the list, click the link in the selected row.</span></span>
+13. <span data-ttu-id="30c30-153">Darbību rūtī noklikšķiniet uz Kreditors.</span><span class="sxs-lookup"><span data-stu-id="30c30-153">On the action pane, click Vendor.</span></span>
+14. <span data-ttu-id="30c30-154">Noklikšķiniet uz Transakcijas.</span><span class="sxs-lookup"><span data-stu-id="30c30-154">Click Transactions.</span></span>
+15. <span data-ttu-id="30c30-155">Atlasiet izveidoto rēķinu.</span><span class="sxs-lookup"><span data-stu-id="30c30-155">Select the invoice that you created.</span></span>
+    * <span data-ttu-id="30c30-156">Rēķinu reģistra uzkrāšana tika atsaukta un iegrāmatota atbilstošajā izdevumu kontā.</span><span class="sxs-lookup"><span data-stu-id="30c30-156">The invoice register accrual was reversed and posted to the appropriate expense account.</span></span>  
 
 

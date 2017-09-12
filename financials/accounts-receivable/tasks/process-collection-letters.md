@@ -16,55 +16,55 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 58dc6176f54a33eda47604b65f5580c21a93fcd7
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: dc837ea6513992a5f94e48baa366e279df297866
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="process-collection-letters"></a>Atgādinājuma vēstuļu apstrāde
+# <a name="process-collection-letters"></a><span data-ttu-id="85305-103">Atgādinājuma vēstuļu apstrāde</span><span class="sxs-lookup"><span data-stu-id="85305-103">Process collection letters</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā procedūrā parādīts, kā izveidot, izdrukāt un grāmatot atgādinājuma vēstules. Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.
+<span data-ttu-id="85305-104">Šajā procedūrā parādīts, kā izveidot, izdrukāt un grāmatot atgādinājuma vēstules.</span><span class="sxs-lookup"><span data-stu-id="85305-104">This procedure shows how to create, print, and post collection letters.</span></span> <span data-ttu-id="85305-105">Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.</span><span class="sxs-lookup"><span data-stu-id="85305-105">This task uses the USMF demo company.</span></span>
 
 
-## <a name="set-up-a-collection-letter-sequence-on-the-posting-profile"></a>Atgādinājuma vēstuļu secības iestatīšana grāmatošanas metodē
-1. Pārejiet uz sadaļu Kredīts un iekasēšana > Iestatījumi > Debitoru grāmatošanas metodes.
-2. Noklikšķiniet uz Rediģēt.
-    * Atlasiet no nolaižamā saraksta atgādinājuma vēstuļu secību. Ja atgādinājuma vēstules nevēlaties ģenerēt darbībām, izmantojot šo grāmatošanas metodi, atstājiet šo lauku tukšu.  
-    * Tabulas ierobežojumu cilnē varat mainīt veidu, kā tiek apstrādātas atgādinājuma vēstules. Ja šajā laukā ir iestatīts Jā, atgādinājuma vēstules tiks izveidotas šai grāmatošanas metodei.  
-3. Aizvērt lapu.
+## <a name="set-up-a-collection-letter-sequence-on-the-posting-profile"></a><span data-ttu-id="85305-106">Atgādinājuma vēstuļu secības iestatīšana grāmatošanas metodē</span><span class="sxs-lookup"><span data-stu-id="85305-106">Set up a collection letter sequence on the posting profile</span></span>
+1. <span data-ttu-id="85305-107">Pārejiet uz sadaļu Kredīts un iekasēšana > Iestatījumi > Debitoru grāmatošanas metodes.</span><span class="sxs-lookup"><span data-stu-id="85305-107">Go to Credit and collections > Setup > Customer posting profiles.</span></span>
+2. <span data-ttu-id="85305-108">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="85305-108">Click Edit.</span></span>
+    * <span data-ttu-id="85305-109">Atlasiet no nolaižamā saraksta atgādinājuma vēstuļu secību.</span><span class="sxs-lookup"><span data-stu-id="85305-109">Select a collection letter sequence from the drop-down list.</span></span> <span data-ttu-id="85305-110">Ja atgādinājuma vēstules nevēlaties ģenerēt darbībām, izmantojot šo grāmatošanas metodi, atstājiet šo lauku tukšu.</span><span class="sxs-lookup"><span data-stu-id="85305-110">If you do not want generate collection letters for transactions using this posting profile, leave the field blank.</span></span>  
+    * <span data-ttu-id="85305-111">Tabulas ierobežojumu cilnē varat mainīt veidu, kā tiek apstrādātas atgādinājuma vēstules.</span><span class="sxs-lookup"><span data-stu-id="85305-111">The table restriction tab allows you to change the way that collection letters are processed.</span></span> <span data-ttu-id="85305-112">Ja šajā laukā ir iestatīts Jā, atgādinājuma vēstules tiks izveidotas šai grāmatošanas metodei.</span><span class="sxs-lookup"><span data-stu-id="85305-112">If this field is set to Yes, then collection letters will be created for this posting profile.</span></span>  
+3. <span data-ttu-id="85305-113">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="85305-113">Close the page.</span></span>
 
-## <a name="create-collection-letters"></a>Izveidot atgādinājuma vēstules
-1. Pārejiet uz sadaļu Kredīts un iekasēšana > Atgādinājuma vēstule > Izveidot atgādinājuma vēstules.
-    * Atlasiet darbību veidus, kam apkoposit vēstules. Aprēķinā tiks iekļautas visas šiem tipiem atbilstošās atvērtās transakcijas.  
-2. Laukā Atgādinājuma vēstule, atlasiet opciju.
-3. Ievadiet atgādinājuma vēstules datumu.
-    * Pieejamas ir divas grāmatošanas metodes opcijas: Konts — izmantot grāmatošanas metodi, kas ir piešķirta debitora kontam attiecībā uz visiem procentu paziņojumiem.   Atlasīt — lietojiet grāmatošanas profilu, kas ir atlasīts laukā Grāmatošanas metode.  
-    * Atlasiet grāmatošanas metodi, ja mainījāt “Izmantojiet grāmatošanas metodi no” uz “Atlasīt”.  
-4. Izvērsiet sadaļu Iekļaujamie ieraksti.
-5. Noklikšķiniet uz Filtrēt.
-6. Laukā Kritēriji ievadiet Debitora ID. Piemēram, ievadiet US-001.
-7. Noklikšķiniet uz OK.
-8. Noklikšķiniet uz OK.
+## <a name="create-collection-letters"></a><span data-ttu-id="85305-114">Izveidot atgādinājuma vēstules</span><span class="sxs-lookup"><span data-stu-id="85305-114">Create collection letters</span></span>
+1. <span data-ttu-id="85305-115">Pārejiet uz sadaļu Kredīts un iekasēšana > Atgādinājuma vēstule > Izveidot atgādinājuma vēstules.</span><span class="sxs-lookup"><span data-stu-id="85305-115">Go to Credit and collections > Collection letter > Create collection letters.</span></span>
+    * <span data-ttu-id="85305-116">Atlasiet darbību veidus, kam apkoposit vēstules.</span><span class="sxs-lookup"><span data-stu-id="85305-116">You must select the transaction types for which you will collect letters.</span></span> <span data-ttu-id="85305-117">Aprēķinā tiks iekļautas visas šiem tipiem atbilstošās atvērtās transakcijas.</span><span class="sxs-lookup"><span data-stu-id="85305-117">All of the open transactions for these types will be included in the calculation.</span></span>  
+2. <span data-ttu-id="85305-118">Laukā Atgādinājuma vēstule, atlasiet opciju.</span><span class="sxs-lookup"><span data-stu-id="85305-118">In the Collection letter field, select an option.</span></span>
+3. <span data-ttu-id="85305-119">Ievadiet atgādinājuma vēstules datumu.</span><span class="sxs-lookup"><span data-stu-id="85305-119">Enter the date of the collection letter.</span></span>
+    * <span data-ttu-id="85305-120">Pieejamas ir divas grāmatošanas metodes opcijas: Konts — izmantot grāmatošanas metodi, kas ir piešķirta debitora kontam attiecībā uz visiem procentu paziņojumiem.</span><span class="sxs-lookup"><span data-stu-id="85305-120">There are two posting profile options:   Account – Use the posting profile that is assigned to the customer account for each interest note.</span></span>   <span data-ttu-id="85305-121">Atlasīt — lietojiet grāmatošanas profilu, kas ir atlasīts laukā Grāmatošanas metode.</span><span class="sxs-lookup"><span data-stu-id="85305-121">Select – Use the posting profile that you select in the Posting profile field.</span></span>  
+    * <span data-ttu-id="85305-122">Atlasiet grāmatošanas metodi, ja mainījāt “Izmantojiet grāmatošanas metodi no” uz “Atlasīt”.</span><span class="sxs-lookup"><span data-stu-id="85305-122">Select a posting profile if you changed "Use posting profile from" to "Select".</span></span>  
+4. <span data-ttu-id="85305-123">Izvērsiet sadaļu Iekļaujamie ieraksti.</span><span class="sxs-lookup"><span data-stu-id="85305-123">Expand the Records to include section.</span></span>
+5. <span data-ttu-id="85305-124">Noklikšķiniet uz Filtrēt.</span><span class="sxs-lookup"><span data-stu-id="85305-124">Click Filter.</span></span>
+6. <span data-ttu-id="85305-125">Laukā Kritēriji ievadiet Debitora ID.</span><span class="sxs-lookup"><span data-stu-id="85305-125">In the Criteria field, In the Criteria field, enter a Customer ID.</span></span> <span data-ttu-id="85305-126">Piemēram, ievadiet US-001.</span><span class="sxs-lookup"><span data-stu-id="85305-126">For example, enter 'US-001'..</span></span>
+7. <span data-ttu-id="85305-127">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="85305-127">Click OK.</span></span>
+8. <span data-ttu-id="85305-128">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="85305-128">Click OK.</span></span>
 
-## <a name="print-collection-letters"></a>Atgādinājuma vēstuļu izdruka
-1. Pārejiet uz sadaļu Kredīts un iekasēšana > Atgādinājuma vēstule > Pārskatīt un apstrādāt atgādinājuma vēstules.
-2. Laukā Statuss atlasiet Izveidots.
-3. Laukā Drukāts atlasiet Nav drukāts.
-4. Klikšķiniet Drukāt.
-5. Noklikšķiniet uz atgādinājuma vēstules piezīmes.
-6. Izvērsiet sadaļu Iekļaujamie ieraksti.
-7. Grāmatošanas robeždatuma ievadīšana
-8. Noklikšķiniet uz Labi, lai drukātu atgādinājuma vēstuli.
+## <a name="print-collection-letters"></a><span data-ttu-id="85305-129">Atgādinājuma vēstuļu izdruka</span><span class="sxs-lookup"><span data-stu-id="85305-129">Print collection letters</span></span>
+1. <span data-ttu-id="85305-130">Pārejiet uz sadaļu Kredīts un iekasēšana > Atgādinājuma vēstule > Pārskatīt un apstrādāt atgādinājuma vēstules.</span><span class="sxs-lookup"><span data-stu-id="85305-130">Go to Credit and collections > Collection letter > Review and process collection letters.</span></span>
+2. <span data-ttu-id="85305-131">Laukā Statuss atlasiet Izveidots.</span><span class="sxs-lookup"><span data-stu-id="85305-131">In the Status field, select 'Created'.</span></span>
+3. <span data-ttu-id="85305-132">Laukā Drukāts atlasiet Nav drukāts.</span><span class="sxs-lookup"><span data-stu-id="85305-132">In the Printed field, select 'Not printed'.</span></span>
+4. <span data-ttu-id="85305-133">Klikšķiniet Drukāt.</span><span class="sxs-lookup"><span data-stu-id="85305-133">Click Print.</span></span>
+5. <span data-ttu-id="85305-134">Noklikšķiniet uz atgādinājuma vēstules piezīmes.</span><span class="sxs-lookup"><span data-stu-id="85305-134">Click Collection letter note.</span></span>
+6. <span data-ttu-id="85305-135">Izvērsiet sadaļu Iekļaujamie ieraksti.</span><span class="sxs-lookup"><span data-stu-id="85305-135">Expand the Records to include section.</span></span>
+7. <span data-ttu-id="85305-136">Grāmatošanas robeždatuma ievadīšana</span><span class="sxs-lookup"><span data-stu-id="85305-136">Enter the cutoff date for postings</span></span>
+8. <span data-ttu-id="85305-137">Noklikšķiniet uz Labi, lai drukātu atgādinājuma vēstuli.</span><span class="sxs-lookup"><span data-stu-id="85305-137">Click OK to print the collection letter.</span></span>
 
-## <a name="post-the-collection-letter"></a>Atgādinājuma vēstules grāmatošana
-1. Noklikšķiniet uz Grāmatot.
-2. Ievadiet atgādinājuma vēstules grāmatošanas datumu.
-3. Izvērsiet sadaļu Iekļaujamie ieraksti.
-4. Noklikšķiniet uz OK.
-5. Laukā Statuss atlasiet Iegrāmatots.
-6. Laukā Drukāts atlasiet opciju.
+## <a name="post-the-collection-letter"></a><span data-ttu-id="85305-138">Atgādinājuma vēstules grāmatošana</span><span class="sxs-lookup"><span data-stu-id="85305-138">Post the collection letter</span></span>
+1. <span data-ttu-id="85305-139">Noklikšķiniet uz Grāmatot.</span><span class="sxs-lookup"><span data-stu-id="85305-139">Click Post.</span></span>
+2. <span data-ttu-id="85305-140">Ievadiet atgādinājuma vēstules grāmatošanas datumu.</span><span class="sxs-lookup"><span data-stu-id="85305-140">Enter the posting date for the collection letter.</span></span>
+3. <span data-ttu-id="85305-141">Izvērsiet sadaļu Iekļaujamie ieraksti.</span><span class="sxs-lookup"><span data-stu-id="85305-141">Expand the Records to include section.</span></span>
+4. <span data-ttu-id="85305-142">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="85305-142">Click OK.</span></span>
+5. <span data-ttu-id="85305-143">Laukā Statuss atlasiet Iegrāmatots.</span><span class="sxs-lookup"><span data-stu-id="85305-143">In the Status field, select 'Posted'.</span></span>
+6. <span data-ttu-id="85305-144">Laukā Drukāts atlasiet opciju.</span><span class="sxs-lookup"><span data-stu-id="85305-144">In the Printed field, select an option.</span></span>
 
 

@@ -17,34 +17,34 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: a22db527d9ab80da9e3592eeef30b4675a3c39c8
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 75b91ea330258a5b57e9e58cb32539d57e458f28
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="end-a-production-order"></a>Ražošanas pasūtījuma pārtraukšana
+# <a name="end-a-production-order"></a><span data-ttu-id="2dc67-103">Ražošanas pasūtījuma pārtraukšana</span><span class="sxs-lookup"><span data-stu-id="2dc67-103">End a production order</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā procedūrā ir parādīts, kā pabeigt ražošanas pasūtījumu. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Šī ir pēdējā procedūra no septiņām, kurā ir paskaidrots ražošanas pasūtījuma dzīves cikls.
+<span data-ttu-id="2dc67-104">Šajā procedūrā ir parādīts, kā pabeigt ražošanas pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="2dc67-104">This procedure shows how to end a production order.</span></span> <span data-ttu-id="2dc67-105">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="2dc67-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="2dc67-106">Šī ir pēdējā procedūra no septiņām, kurā ir paskaidrots ražošanas pasūtījuma dzīves cikls.</span><span class="sxs-lookup"><span data-stu-id="2dc67-106">This is the final procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="end-a-production-order"></a>Ražošanas pasūtījuma pārtraukšana
-1. Pārejiet uz sadaļu Ražošanas kontrole > Ražošanas pasūtījumi > Visi ražošanas pasūtījumi.
-    * Atlasiet ražošanas pasūtījumu, kuram ir statuss Ziņots kā pabeigts.  
-2. Darbības rūtī noklikšķiniet uz vienuma Ražošanas pasūtījums.
-3. Noklikšķiniet uz Beigt.
-    * Šajā lapā var apstiprināt, ka vēlaties pabeigt ražošanas pasūtījumu.  
-4. Noklikšķiniet uz cilnes Vispārīgi.
-5. Laukā Datums ievadiet kādu datumu.
-6. Laukā Brāķa metode atlasiet "Sadalījums".
-    * Atlasot Sadalījuma metodi, izmaksas no norakstītajiem materiāliem tiek pievienotas pabeigtām precēm.  
-7. Noklikšķiniet uz OK.
+## <a name="end-a-production-order"></a><span data-ttu-id="2dc67-107">Ražošanas pasūtījuma pārtraukšana</span><span class="sxs-lookup"><span data-stu-id="2dc67-107">End a production order</span></span>
+1. <span data-ttu-id="2dc67-108">Pārejiet uz sadaļu Ražošanas kontrole > Ražošanas pasūtījumi > Visi ražošanas pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="2dc67-108">Go to Production control > Production orders > All production orders.</span></span>
+    * <span data-ttu-id="2dc67-109">Atlasiet ražošanas pasūtījumu, kuram ir statuss Ziņots kā pabeigts.</span><span class="sxs-lookup"><span data-stu-id="2dc67-109">Select a production order that has the status Reported as finished.</span></span>  
+2. <span data-ttu-id="2dc67-110">Darbības rūtī noklikšķiniet uz vienuma Ražošanas pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="2dc67-110">On the Action Pane, click Production order.</span></span>
+3. <span data-ttu-id="2dc67-111">Noklikšķiniet uz Beigt.</span><span class="sxs-lookup"><span data-stu-id="2dc67-111">Click End.</span></span>
+    * <span data-ttu-id="2dc67-112">Šajā lapā var apstiprināt, ka vēlaties pabeigt ražošanas pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="2dc67-112">On this page, you can confirm that you want to end the production order.</span></span>  
+4. <span data-ttu-id="2dc67-113">Noklikšķiniet uz cilnes Vispārīgi.</span><span class="sxs-lookup"><span data-stu-id="2dc67-113">Click the General tab.</span></span>
+5. <span data-ttu-id="2dc67-114">Laukā Datums ievadiet kādu datumu.</span><span class="sxs-lookup"><span data-stu-id="2dc67-114">In the Date field, enter a date.</span></span>
+6. <span data-ttu-id="2dc67-115">Laukā Brāķa metode atlasiet "Sadalījums".</span><span class="sxs-lookup"><span data-stu-id="2dc67-115">In the Scrap method field, select 'Allocation'.</span></span>
+    * <span data-ttu-id="2dc67-116">Atlasot Sadalījuma metodi, izmaksas no norakstītajiem materiāliem tiek pievienotas pabeigtām precēm.</span><span class="sxs-lookup"><span data-stu-id="2dc67-116">When you select the Allocation method, costs from the scrapped materials are added to the finished goods.</span></span>  
+7. <span data-ttu-id="2dc67-117">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="2dc67-117">Click OK.</span></span>
 
-## <a name="validate-calculation-results"></a>Aprēķina rezultātu pārbaude
-1. Darbību rūtī noklikšķiniet uz Pārvaldīt izmaksas.
-2. Noklikšķiniet uz Skatīt izmaksu salīdzinājumu.
-    * Pēc ražošanas pasūtījuma pabeigšanas var salīdzināt novērtēto izmaksu cenu ar realizēto izmaksu cenu, lai iegūtu pārskatu par ražošanas novirzēm.  
+## <a name="validate-calculation-results"></a><span data-ttu-id="2dc67-118">Aprēķina rezultātu pārbaude</span><span class="sxs-lookup"><span data-stu-id="2dc67-118">Validate calculation results</span></span>
+1. <span data-ttu-id="2dc67-119">Darbību rūtī noklikšķiniet uz Pārvaldīt izmaksas.</span><span class="sxs-lookup"><span data-stu-id="2dc67-119">On the Action Pane, click Manage costs.</span></span>
+2. <span data-ttu-id="2dc67-120">Noklikšķiniet uz Skatīt izmaksu salīdzinājumu.</span><span class="sxs-lookup"><span data-stu-id="2dc67-120">Click View cost comparison.</span></span>
+    * <span data-ttu-id="2dc67-121">Pēc ražošanas pasūtījuma pabeigšanas var salīdzināt novērtēto izmaksu cenu ar realizēto izmaksu cenu, lai iegūtu pārskatu par ražošanas novirzēm.</span><span class="sxs-lookup"><span data-stu-id="2dc67-121">After you have ended the production order, you can compare the estimated cost price against the realized cost price to get an overview of the production variances.</span></span>  
 
 

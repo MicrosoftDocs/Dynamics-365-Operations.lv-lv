@@ -15,53 +15,53 @@ ms.custom: 221594
 ms.assetid: dddc99ae-56ae-48df-856a-131079c17dcb
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 672697254c1bf06e193a51c5c7c83c467a220ce8
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 0fb86cd4264d5420c479e14f7eed41e480c88b63
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>Detalizētas bankas darbību saskaņošanas MT940 importēšana – Salikta datu elementa jaunināšana
+# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a><span data-ttu-id="05092-103">Detalizētas bankas darbību saskaņošanas MT940 importēšana – Salikta datu elementa jaunināšana</span><span class="sxs-lookup"><span data-stu-id="05092-103">Advanced bank reconciliation MT940 Import – Composite data entity upgrade</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Secības numurs jāpievieno bankas izraksta importēšanas elementam, lai atbalstītu MT940 formātu. 
+<span data-ttu-id="05092-104">Secības numurs jāpievieno bankas izraksta importēšanas elementam, lai atbalstītu MT940 formātu.</span><span class="sxs-lookup"><span data-stu-id="05092-104">A sequence number needs to be added to the bank statement import entity to support the MT940 format.</span></span> 
 
-Lai pievienotu bankas izraksta importēšanas elementu MT940 formāta atbalstam, veiciet šādas darbības.
+<span data-ttu-id="05092-105">Lai pievienotu bankas izraksta importēšanas elementu MT940 formāta atbalstam, veiciet šādas darbības.</span><span class="sxs-lookup"><span data-stu-id="05092-105">Use the following steps to add the bank statement import entity to support the MT940 format.</span></span>
 
-1.  Kompilējiet un sinhronizējiet:
-    -   Salikts elements\\BankStatementImportEntity
-    -   Elements\\BankStatementBalanceEntity
-    -   Elements\\BankStatementDocumentEntity
-    -   Elements\\BankStatementEntity
-    -   Elements\\BankStatementLineEntity
-    -   Tabulas\\BankStatementStaging
+1.  <span data-ttu-id="05092-106">Kompilējiet un sinhronizējiet:</span><span class="sxs-lookup"><span data-stu-id="05092-106">Compile and synchronize the following:</span></span>
+    -   <span data-ttu-id="05092-107">Salikts elements\\BankStatementImportEntity</span><span class="sxs-lookup"><span data-stu-id="05092-107">Composite Entity\\BankStatementImportEntity</span></span>
+    -   <span data-ttu-id="05092-108">Elements\\BankStatementBalanceEntity</span><span class="sxs-lookup"><span data-stu-id="05092-108">Entity\\BankStatementBalanceEntity</span></span>
+    -   <span data-ttu-id="05092-109">Elements\\BankStatementDocumentEntity</span><span class="sxs-lookup"><span data-stu-id="05092-109">Entity\\BankStatementDocumentEntity</span></span>
+    -   <span data-ttu-id="05092-110">Elements\\BankStatementEntity</span><span class="sxs-lookup"><span data-stu-id="05092-110">Entity\\BankStatementEntity</span></span>
+    -   <span data-ttu-id="05092-111">Elements\\BankStatementLineEntity</span><span class="sxs-lookup"><span data-stu-id="05092-111">Entity\\BankStatementLineEntity</span></span>
+    -   <span data-ttu-id="05092-112">Tabulas\\BankStatementStaging</span><span class="sxs-lookup"><span data-stu-id="05092-112">Tables\\BankStatementStaging</span></span>
 
-2.  Datu pārvaldība\\datu projekti.
-    1.  Ielādēt MT940 projekta(-u) importēšanu
-        1.  Mainīt XSLT.
-            -   Noklikšķiniet uz **Skatīt karti**.
-            -   Noklikšķiniet uz **Skatīt karti** uz bankas izraksta dokumenta.
-            -   Noklikšķiniet uz **Transformācijas**
-            -   Dzēst BankReconiliation-to-Composite.xslt failu.
-            -   Pievienot jaunu faila BankReconiliation Composite.xsl versiju.
+2.  <span data-ttu-id="05092-113">Datu pārvaldība\\datu projekti.</span><span class="sxs-lookup"><span data-stu-id="05092-113">Data management\\data projects.</span></span>
+    1.  <span data-ttu-id="05092-114">Ielādēt MT940 projekta(-u) importēšanu</span><span class="sxs-lookup"><span data-stu-id="05092-114">Load MT940 import project(s)</span></span>
+        1.  <span data-ttu-id="05092-115">Mainīt XSLT.</span><span class="sxs-lookup"><span data-stu-id="05092-115">Change XSLT.</span></span>
+            -   <span data-ttu-id="05092-116">Noklikšķiniet uz **Skatīt karti**.</span><span class="sxs-lookup"><span data-stu-id="05092-116">Click **View map**.</span></span>
+            -   <span data-ttu-id="05092-117">Noklikšķiniet uz **Skatīt karti** uz bankas izraksta dokumenta.</span><span class="sxs-lookup"><span data-stu-id="05092-117">Click **View map** on the bank statement document.</span></span>
+            -   <span data-ttu-id="05092-118">Noklikšķiniet uz **Transformācijas**</span><span class="sxs-lookup"><span data-stu-id="05092-118">Click **Transformations**</span></span>
+            -   <span data-ttu-id="05092-119">Dzēst BankReconiliation-to-Composite.xslt failu.</span><span class="sxs-lookup"><span data-stu-id="05092-119">Delete the BankReconiliation-to-Composite.xslt file.</span></span>
+            -   <span data-ttu-id="05092-120">Pievienot jaunu faila BankReconiliation Composite.xsl versiju.</span><span class="sxs-lookup"><span data-stu-id="05092-120">Add the new version of BankReconiliation-to-Composite.xsl.</span></span>
 
-        2.  Atklāt **Sērijas numuru** izkārtojumā **Avota dati**.
-            1.  Avota datu formāts = XML elements.
-            2.  Elementa nosaukums = Bankas izraksti.
-            3.  Augšupielādēt datu failu = SampleBankCompositeEntity.xml jauna versija.
-            4.  Noklikšķiniet uz **Jā**, lai pārrakstītu esošo failu.
-            5.  Noklikšķiniet uz **Jā**, lai ģenerētu jaunu kartējumu.
-            6.  Apstipriniet, ka S**equenceNumber** ir kartēts.
-                -   Noklikšķiniet uz **Skatīt karti** uz bankas izraksta elementa.
-                -   Apstipriniet, ka **SequenceNumber** ir kartēts no Avota uz Sagatavošanu.
+        2.  <span data-ttu-id="05092-121">Atklāt **Sērijas numuru** izkārtojumā **Avota dati**.</span><span class="sxs-lookup"><span data-stu-id="05092-121">Expose the **Sequence Number** on **Source Data** layout.</span></span>
+            1.  <span data-ttu-id="05092-122">Avota datu formāts = XML elements.</span><span class="sxs-lookup"><span data-stu-id="05092-122">Source data format = XML-Element.</span></span>
+            2.  <span data-ttu-id="05092-123">Elementa nosaukums = Bankas izraksti.</span><span class="sxs-lookup"><span data-stu-id="05092-123">Entity name = Bank statements.</span></span>
+            3.  <span data-ttu-id="05092-124">Augšupielādēt datu failu = SampleBankCompositeEntity.xml jauna versija.</span><span class="sxs-lookup"><span data-stu-id="05092-124">Upload data file = new version SampleBankCompositeEntity.xml.</span></span>
+            4.  <span data-ttu-id="05092-125">Noklikšķiniet uz **Jā**, lai pārrakstītu esošo failu.</span><span class="sxs-lookup"><span data-stu-id="05092-125">Click **Yes** to overwrite the existing file.</span></span>
+            5.  <span data-ttu-id="05092-126">Noklikšķiniet uz **Jā**, lai ģenerētu jaunu kartējumu.</span><span class="sxs-lookup"><span data-stu-id="05092-126">Click **Yes** to generate a new mapping.</span></span>
+            6.  <span data-ttu-id="05092-127">Apstipriniet, ka S**equenceNumber** ir kartēts.</span><span class="sxs-lookup"><span data-stu-id="05092-127">Verify that S**equenceNumber** is mapped.</span></span>
+                -   <span data-ttu-id="05092-128">Noklikšķiniet uz **Skatīt karti** uz bankas izraksta elementa.</span><span class="sxs-lookup"><span data-stu-id="05092-128">Click **View Map** on the statement entity.</span></span>
+                -   <span data-ttu-id="05092-129">Apstipriniet, ka **SequenceNumber** ir kartēts no Avota uz Sagatavošanu.</span><span class="sxs-lookup"><span data-stu-id="05092-129">Verify that **SequenceNumber** is mapped from Source to Staging.</span></span>
 
-3.  Importēt jauno izrakstu.
+3.  <span data-ttu-id="05092-130">Importēt jauno izrakstu.</span><span class="sxs-lookup"><span data-stu-id="05092-130">Import the new statement.</span></span>
 
 
 

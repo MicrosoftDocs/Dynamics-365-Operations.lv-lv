@@ -20,33 +20,33 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c548a2abcda261cb2bdf9d22425227e857df9c07
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 4e7f765f31ba34481cca78155e77eca61b106d50
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="use-tracing-for-explosion"></a>Izsekošanas izmantošana izvēršanai
+# <a name="use-tracing-for-explosion"></a><span data-ttu-id="d11e3-103">Izsekošanas izmantošana izvēršanai</span><span class="sxs-lookup"><span data-stu-id="d11e3-103">Use tracing for explosion</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir paskaidrots, kā varat izmantot izsekošanu, lai izpētītu pasūtījuma izvērsuma iznākuma cēloņus.
+<span data-ttu-id="d11e3-104">Šajā rakstā ir paskaidrots, kā varat izmantot izsekošanu, lai izpētītu pasūtījuma izvērsuma iznākuma cēloņus.</span><span class="sxs-lookup"><span data-stu-id="d11e3-104">This article explains how you can use tracing to explore the causes behind the outcome of an order explosion.</span></span>
 
-Iespējojot izsekošanu, varat skatīt informāciju par faktoriem, kas ietekmē konkrēta pasūtījuma izvēršanas rezultātu. Nākamajos piemēros ir parādīts, kā varat izmantot izsekošanas informāciju.
+<span data-ttu-id="d11e3-105">Iespējojot izsekošanu, varat skatīt informāciju par faktoriem, kas ietekmē konkrēta pasūtījuma izvēršanas rezultātu.</span><span class="sxs-lookup"><span data-stu-id="d11e3-105">By enabling tracing, you can view information about the factors that contributed to the outcome of the explosion of a particular order.</span></span> <span data-ttu-id="d11e3-106">Nākamajos piemēros ir parādīts, kā varat izmantot izsekošanas informāciju.</span><span class="sxs-lookup"><span data-stu-id="d11e3-106">The following examples show how you can use the tracing information:</span></span>
 
--   Skatiet attiecības starp darbībām plānotajos pasūtījumos, lai optimizētu piegādes ķēdi un krājumu rezervācijas.
--   Skatiet attiecības ar pasūtījumiem, kas jau ir apstiprināti. Varat koncentrēties uz atvasināto pieprasījumu automātisku apstiprināšanu un pēc tam precīzāk norādīt pasūtījumu prioritāti.
--   Simulējiet plānošanas rezultātus, lai noteiktu, vai plānošanas parametri ir optimāli.
--   Identificējiet, kā tika noteikta tāda informācija kā ražošanas datumi, daudzumi un pasūtījumu prioritātes.
+-   <span data-ttu-id="d11e3-107">Skatiet attiecības starp darbībām plānotajos pasūtījumos, lai optimizētu piegādes ķēdi un krājumu rezervācijas.</span><span class="sxs-lookup"><span data-stu-id="d11e3-107">View relations between the actions on planned orders to optimize the supply chain and inventory reservations.</span></span>
+-   <span data-ttu-id="d11e3-108">Skatiet attiecības ar pasūtījumiem, kas jau ir apstiprināti.</span><span class="sxs-lookup"><span data-stu-id="d11e3-108">View relations to orders that are already approved.</span></span> <span data-ttu-id="d11e3-109">Varat koncentrēties uz atvasināto pieprasījumu automātisku apstiprināšanu un pēc tam precīzāk norādīt pasūtījumu prioritāti.</span><span class="sxs-lookup"><span data-stu-id="d11e3-109">You can focus on automatically firming derived requirements and then prioritize orders more accurately.</span></span>
+-   <span data-ttu-id="d11e3-110">Simulējiet plānošanas rezultātus, lai noteiktu, vai plānošanas parametri ir optimāli.</span><span class="sxs-lookup"><span data-stu-id="d11e3-110">Simulate planning results to determine whether the planning parameters are optimal.</span></span>
+-   <span data-ttu-id="d11e3-111">Identificējiet, kā tika noteikta tāda informācija kā ražošanas datumi, daudzumi un pasūtījumu prioritātes.</span><span class="sxs-lookup"><span data-stu-id="d11e3-111">Identify how information such as production dates, quantities, and priorities for an order were determined.</span></span>
 
-Varat skatīt detalizētu informāciju par aizkavējumiem un darbībām atlasītajam pasūtījumam. Lapā **Izvēršana** izsekošanas informācija ir pieejama cilnē **Skaidrojums**, kas atrodas augšēja rūtī. Izsekošana notiek, kad izvēršat pasūtījumu. Lai sāktu pasūtījuma izsekošanu, noklikšķiniet uz **Atjaunināt** un pēc tam atzīmējiet izvēles rūtiņu **Iespējot izsekošanu**. Varat izmantot lauku **Atrast tekstu**, lai žurnālā meklētu noteiktu informāciju. Meklēšanas rezultāti tiek iezīmēti koka struktūrā.
+<span data-ttu-id="d11e3-112">Varat skatīt detalizētu informāciju par aizkavējumiem un darbībām atlasītajam pasūtījumam.</span><span class="sxs-lookup"><span data-stu-id="d11e3-112">You can view details about futures and actions for a selected order.</span></span> <span data-ttu-id="d11e3-113">Lapā **Izvēršana** izsekošanas informācija ir pieejama cilnē **Skaidrojums**, kas atrodas augšēja rūtī.</span><span class="sxs-lookup"><span data-stu-id="d11e3-113">On the **Explosion** page, tracing information is available on the **Explanation** tab in the upper pane.</span></span> <span data-ttu-id="d11e3-114">Izsekošana notiek, kad izvēršat pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="d11e3-114">Tracing occurs when you explode an order.</span></span> <span data-ttu-id="d11e3-115">Lai sāktu pasūtījuma izsekošanu, noklikšķiniet uz **Atjaunināt** un pēc tam atzīmējiet izvēles rūtiņu **Iespējot izsekošanu**.</span><span class="sxs-lookup"><span data-stu-id="d11e3-115">To start tracing for the order, click **Update**, and then select the **Enable trace** check box.</span></span> <span data-ttu-id="d11e3-116">Varat izmantot lauku **Atrast tekstu**, lai žurnālā meklētu noteiktu informāciju.</span><span class="sxs-lookup"><span data-stu-id="d11e3-116">You can use the **Find text** field to search the log for specific information.</span></span> <span data-ttu-id="d11e3-117">Meklēšanas rezultāti tiek iezīmēti koka struktūrā.</span><span class="sxs-lookup"><span data-stu-id="d11e3-117">Search results are highlighted in the tree.</span></span>
 
-<a name="see-also"></a>Skatiet arī
+<a name="see-also"></a><span data-ttu-id="d11e3-118">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="d11e3-118">See also</span></span>
 --------
 
-[Vispārējie plāni](master-plans.md)
+[<span data-ttu-id="d11e3-119">Vispārējie plāni</span><span class="sxs-lookup"><span data-stu-id="d11e3-119">Master plans</span></span>](master-plans.md)
 
 
 

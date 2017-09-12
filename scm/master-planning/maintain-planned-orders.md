@@ -20,38 +20,38 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 94f6f28ec4b255930f84a27eb5394503ff59e4c0
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 3ec45e7426f65827f161245870f9114e52e035ab
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="maintain-planned-orders"></a>Uzturēt plānotos pasūtījumus
+# <a name="maintain-planned-orders"></a><span data-ttu-id="28cd8-104">Uzturēt plānotos pasūtījumus</span><span class="sxs-lookup"><span data-stu-id="28cd8-104">Maintain planned orders</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir sniegta informācija par to, kā pārvaldīt plānotos pasūtījumus. Tajā ir izskaidrots, kā var atjaunināt plānoto pasūtījumu statusu, apstiprināt tos un filtrēt pēc plānotajiem pasūtījumiem, kuriem ir tāds pats statuss kā atlasītajam plānotajam pasūtījumam.
+<span data-ttu-id="28cd8-105">Šajā rakstā ir sniegta informācija par to, kā pārvaldīt plānotos pasūtījumus.</span><span class="sxs-lookup"><span data-stu-id="28cd8-105">This article provides information about how to manage planned orders.</span></span> <span data-ttu-id="28cd8-106">Tajā ir izskaidrots, kā var atjaunināt plānoto pasūtījumu statusu, apstiprināt tos un filtrēt pēc plānotajiem pasūtījumiem, kuriem ir tāds pats statuss kā atlasītajam plānotajam pasūtījumam.</span><span class="sxs-lookup"><span data-stu-id="28cd8-106">It describes how you can update the status of planned orders, firm them, and filter for planned orders that have the same status as a selected planned order.</span></span>
 
-Plānotos pasūtījumus var pārvaldīt no darbvietas **Vispārējā plānošana**, saraksta **Plānotais pasūtījums** vai saraksta **Plānotie ražošanas pasūtījumi**, **Plānotie pirkšanas pasūtījumi** un **Plānotā pārsūtīšana**. Lai sekotu norisei, varat izmantot lauku **Statuss**. Tiek izmantotas šādas vērtības.
+<span data-ttu-id="28cd8-107">Plānotos pasūtījumus var pārvaldīt no darbvietas **Vispārējā plānošana**, saraksta **Plānotais pasūtījums** vai saraksta **Plānotie ražošanas pasūtījumi**, **Plānotie pirkšanas pasūtījumi** un **Plānotā pārsūtīšana**.</span><span class="sxs-lookup"><span data-stu-id="28cd8-107">You can manage planned orders from the **Master planning** workspace, the **Planned order** list, or the **Planned production orders**, **Planned purchase orders**, and **Planned transfer** lists.</span></span> <span data-ttu-id="28cd8-108">Lai sekotu norisei, varat izmantot lauku **Statuss**.</span><span class="sxs-lookup"><span data-stu-id="28cd8-108">You can use the **Status** field to help track your progress.</span></span> <span data-ttu-id="28cd8-109">Tiek izmantotas šādas vērtības.</span><span class="sxs-lookup"><span data-stu-id="28cd8-109">The following values are used:</span></span>
 
--   Kad vispārējā plānošana ģenerē plānotos pasūtījumus, tiem tiek piešķirts statuss **Neapstrādāts**.
--   Ja izvēlaties neapstiprināt plānoto pasūtījumu, tam var piešķirt statusu **Pabeigts**.
--   Izvēloties apstiprināt plānoto pasūtījumu, tam var piešķirt statusu **Apstiprināts**. Šis statuss norāda, ka jūs apstiprināt plānotā pasūtījuma apstiprināšanu, taču tas vēl nav apstiprināts.
+-   <span data-ttu-id="28cd8-110">Kad vispārējā plānošana ģenerē plānotos pasūtījumus, tiem tiek piešķirts statuss **Neapstrādāts**.</span><span class="sxs-lookup"><span data-stu-id="28cd8-110">When master planning generates planned orders, the planned orders have a status of **Unprocessed**.</span></span>
+-   <span data-ttu-id="28cd8-111">Ja izvēlaties neapstiprināt plānoto pasūtījumu, tam var piešķirt statusu **Pabeigts**.</span><span class="sxs-lookup"><span data-stu-id="28cd8-111">If you decide not to firm a planned order, you can give it a status of **Completed**.</span></span>
+-   <span data-ttu-id="28cd8-112">Izvēloties apstiprināt plānoto pasūtījumu, tam var piešķirt statusu **Apstiprināts**.</span><span class="sxs-lookup"><span data-stu-id="28cd8-112">When you decide to firm a planned order, you can give it a status of **Approved**.</span></span> <span data-ttu-id="28cd8-113">Šis statuss norāda, ka jūs apstiprināt plānotā pasūtījuma apstiprināšanu, taču tas vēl nav apstiprināts.</span><span class="sxs-lookup"><span data-stu-id="28cd8-113">This status indicates that you approve firming of the planned order, but it isn't firmed yet.</span></span>
 
-**Piezīme.** Apstiprināts plānotais pasūtījums savā pašreizējā statusā tiek pārsūtīts uz nākamo vispārējās plānošanas aprēķinu. Plānotos pasūtījumus var apstiprināt, noklikšķinot uz **Apstiprināt**. Var apstiprināt šādus plānotos pasūtījumus:
+<span data-ttu-id="28cd8-114">**Piezīme.** Apstiprināts plānotais pasūtījums savā pašreizējā statusā tiek pārsūtīts uz nākamo vispārējās plānošanas aprēķinu.</span><span class="sxs-lookup"><span data-stu-id="28cd8-114">**Note:** An approved planned order is transferred, in its current state, to the next master planning calculation.</span></span> <span data-ttu-id="28cd8-115">Plānotos pasūtījumus var apstiprināt, noklikšķinot uz **Apstiprināt**.</span><span class="sxs-lookup"><span data-stu-id="28cd8-115">You can firm planned orders by clicking **Firm**.</span></span> <span data-ttu-id="28cd8-116">Var apstiprināt šādus plānotos pasūtījumus:</span><span class="sxs-lookup"><span data-stu-id="28cd8-116">You can firm the following planned orders:</span></span>
 
--   Atlasītais plānotais pasūtījums.
--   vairākus plānotos pasūtījumus.
--   Plānotie pasūtījumi, ko izvērsums ir ģenerējis no lapas **Izvēršana**. Noklikšķiniet uz **Plānotie pasūtījumi**, atlasiet plānoto pasūtījumu un tad noklikšķiniet uz **Apstiprināt**.
+-   <span data-ttu-id="28cd8-117">Atlasītais plānotais pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="28cd8-117">The planned order that is selected.</span></span>
+-   <span data-ttu-id="28cd8-118">vairākus plānotos pasūtījumus.</span><span class="sxs-lookup"><span data-stu-id="28cd8-118">Multiple planned orders.</span></span>
+-   <span data-ttu-id="28cd8-119">Plānotie pasūtījumi, ko izvērsums ir ģenerējis no lapas **Izvēršana**.</span><span class="sxs-lookup"><span data-stu-id="28cd8-119">Planned orders that are generated by an explosion from the **Explosion** page.</span></span> <span data-ttu-id="28cd8-120">Noklikšķiniet uz **Plānotie pasūtījumi**, atlasiet plānoto pasūtījumu un tad noklikšķiniet uz **Apstiprināt**.</span><span class="sxs-lookup"><span data-stu-id="28cd8-120">Click **Planned orders**, select the planned order, and then click **Firm**.</span></span>
 
-Kad plānotais pasūtījums apstiprināts, tas tiek pārvietots attiecīgā moduļa pasūtījumu sadaļai. **Piezīme.** Varat noklikšķināt ar peles labo pogu uz plānotā pasūtījuma, kam ir noteikts statuss, un filtrēt citus plānotos pasūtījumus ar to pašu statusu. Šī funkcionalitāte ir noderīga, ja, piemēram, vēlaties filtrēt visus plānotos pasūtījumus ar statusu **Apstiprināts** tā, lai tie pēc tam šos pasūtījumus var apstiprināt.
+<span data-ttu-id="28cd8-121">Kad plānotais pasūtījums apstiprināts, tas tiek pārvietots attiecīgā moduļa pasūtījumu sadaļai.</span><span class="sxs-lookup"><span data-stu-id="28cd8-121">When a planned order is firmed, it's moved to the orders section of the relevant module.</span></span> <span data-ttu-id="28cd8-122">**Piezīme.** Varat noklikšķināt ar peles labo pogu uz plānotā pasūtījuma, kam ir noteikts statuss, un filtrēt citus plānotos pasūtījumus ar to pašu statusu.</span><span class="sxs-lookup"><span data-stu-id="28cd8-122">**Note:** You can right-click a planned order that has a particular status and filter for other planned orders that have the same status.</span></span> <span data-ttu-id="28cd8-123">Šī funkcionalitāte ir noderīga, ja, piemēram, vēlaties filtrēt visus plānotos pasūtījumus ar statusu **Apstiprināts** tā, lai tie pēc tam šos pasūtījumus var apstiprināt.</span><span class="sxs-lookup"><span data-stu-id="28cd8-123">This functionality is useful if, for example, you want to filter for all planned orders that have a status of **Approved**, so that you can then firm them.</span></span>
 
-<a name="see-also"></a>Skatiet arī
+<a name="see-also"></a><span data-ttu-id="28cd8-124">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="28cd8-124">See also</span></span>
 --------
 
-[Vispārējie plāni](master-plans.md)
+[<span data-ttu-id="28cd8-125">Vispārējie plāni</span><span class="sxs-lookup"><span data-stu-id="28cd8-125">Master plans</span></span>](master-plans.md)
 
 
 

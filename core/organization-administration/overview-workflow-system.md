@@ -15,61 +15,61 @@ ms.custom: 56381
 ms.assetid: 20b78595-e1d9-439a-ae1c-a776a3438919
 ms.search.region: Global
 ms.author: tjvass
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 1dc7935bf92567d529d393abf3069935a387e388
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 9a236c6505812e468eea1149a74671ec7bb63793
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="workflow-system-overview"></a>Darbplūsmu sistēmas apskats
+# <a name="workflow-system-overview"></a><span data-ttu-id="38992-103">Darbplūsmu sistēmas apskats</span><span class="sxs-lookup"><span data-stu-id="38992-103">Workflow system overview</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Šajā tēmā ir aprakstīta darbplūsmu sistēma programmatūrā Microsoft Dynamics 365 for Finance and Operations.
+<span data-ttu-id="38992-104">Šajā tēmā ir aprakstīta darbplūsmu sistēma programmatūrā Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="38992-104">This topic describes the workflow system in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 
-<a name="what-is-workflow"></a>Kas ir darbplūsma?
+<a name="what-is-workflow"></a><span data-ttu-id="38992-105">Kas ir darbplūsma?</span><span class="sxs-lookup"><span data-stu-id="38992-105">What is workflow?</span></span>
 -----------------
 
-Terminu *darbplūsma* var definēt divos veidos — gan kā sistēmu, gan kā biznesa procesu.
-### <a name="workflow-is-a-system"></a>Darbplūsma ir sistēma
+<span data-ttu-id="38992-106">Terminu *darbplūsma* var definēt divos veidos — gan kā sistēmu, gan kā biznesa procesu.</span><span class="sxs-lookup"><span data-stu-id="38992-106">The term *workflow* can be defined in two ways: as a system and as a business process.</span></span>
+### <a name="workflow-is-a-system"></a><span data-ttu-id="38992-107">Darbplūsma ir sistēma</span><span class="sxs-lookup"><span data-stu-id="38992-107">Workflow is a system</span></span>
 
-Darbplūsma ir sistēma, kas tiek instalēta kopā ar programmatūru Finance and Operations un darbojas serverī Application Object Server (AOS). Darbplūsmas sistēma nodrošina funkcionalitāti, kuru jūs varat izmantot, lai izveidotu individuālas darbplūsmas vai biznesa procesus.
+<span data-ttu-id="38992-108">Darbplūsma ir sistēma, kas tiek instalēta kopā ar programmatūru Finance and Operations un darbojas serverī Application Object Server (AOS).</span><span class="sxs-lookup"><span data-stu-id="38992-108">Workflow is a system that is installed with Finance and Operations and runs on the Application Object Server (AOS).</span></span> <span data-ttu-id="38992-109">Darbplūsmas sistēma nodrošina funkcionalitāti, kuru jūs varat izmantot, lai izveidotu individuālas darbplūsmas vai biznesa procesus.</span><span class="sxs-lookup"><span data-stu-id="38992-109">The workflow system provides functionality that you can use to create individual workflows, or business processes.</span></span>
 
-### <a name="workflow-is-a-business-process"></a>Darbplūsma ir biznesa process
+### <a name="workflow-is-a-business-process"></a><span data-ttu-id="38992-110">Darbplūsma ir biznesa process</span><span class="sxs-lookup"><span data-stu-id="38992-110">Workflow is a business process</span></span>
 
-Darbplūsma attēlo biznesa procesu. Izmantojot darbplūsmu, tiek noteikta dokumenta plūsma caur sistēmu un norādīts, kam ir jāpabeidz uzdevums, jāpieņem lēmums vai jāapstiprina dokuments. Piemēram, nākamajā attēlā ir redzama darbplūsma izdevumu pārskatiem. 
+<span data-ttu-id="38992-111">Darbplūsma attēlo biznesa procesu.</span><span class="sxs-lookup"><span data-stu-id="38992-111">A workflow represents a business process.</span></span> <span data-ttu-id="38992-112">Izmantojot darbplūsmu, tiek noteikta dokumenta plūsma caur sistēmu un norādīts, kam ir jāpabeidz uzdevums, jāpieņem lēmums vai jāapstiprina dokuments.</span><span class="sxs-lookup"><span data-stu-id="38992-112">It defines how a document flows, or moves, through the system by showing who must complete a task, make a decision, or approve a document.</span></span> <span data-ttu-id="38992-113">Piemēram, nākamajā attēlā ir redzama darbplūsma izdevumu pārskatiem.</span><span class="sxs-lookup"><span data-stu-id="38992-113">For example, the following illustration shows a workflow for expense reports.</span></span> 
 
 ![Darbplūsma ar lietotājiem piešķirtajiem elementiem](./media/workflow_user.gif) 
 
-Lai varētu labāk izprast šo darbplūsmu, pieņemsim, ka Sems iesniedz izdevumu pārskatu par summu USD 7000. Šajā gadījumā Jānim ir jāpārskata kvītis, kuras viņam ir maršrutējis Sems. Pēc tam Kārlim un Santai ir jāapstiprina izdevumu pārskats. Tagad pieņemsim, ka Sems iesniedz izdevumu pārskatu par 11 000 USD. Šajā scenārijā Jānim ir jāpārskata kvītis un Kārlim, Sanitai un Annai ir jāapstiprina izdevumu pārskats.
+<span data-ttu-id="38992-115">Lai varētu labāk izprast šo darbplūsmu, pieņemsim, ka Sems iesniedz izdevumu pārskatu par summu USD 7000.</span><span class="sxs-lookup"><span data-stu-id="38992-115">To better understand this workflow, suppose that Sam submits an expense report for USD 7,000.</span></span> <span data-ttu-id="38992-116">Šajā gadījumā Jānim ir jāpārskata kvītis, kuras viņam ir maršrutējis Sems.</span><span class="sxs-lookup"><span data-stu-id="38992-116">In this scenario, Ivan must review the receipts that Sam routes to him.</span></span> <span data-ttu-id="38992-117">Pēc tam Kārlim un Santai ir jāapstiprina izdevumu pārskats.</span><span class="sxs-lookup"><span data-stu-id="38992-117">Then Frank and Sue must approve the expense report.</span></span> <span data-ttu-id="38992-118">Tagad pieņemsim, ka Sems iesniedz izdevumu pārskatu par 11 000 USD.</span><span class="sxs-lookup"><span data-stu-id="38992-118">Now suppose that Sam submits an expense report for USD 11,000.</span></span> <span data-ttu-id="38992-119">Šajā scenārijā Jānim ir jāpārskata kvītis un Kārlim, Sanitai un Annai ir jāapstiprina izdevumu pārskats.</span><span class="sxs-lookup"><span data-stu-id="38992-119">In this scenario, Ivan must review the receipts, and Frank, Sue, and Ann must approve the expense report.</span></span>
 
-## <a name="benefits-of-using-the-workflow-system"></a>Darbplūsmas sistēmas izmantošanas priekšrocības
+## <a name="benefits-of-using-the-workflow-system"></a><span data-ttu-id="38992-120">Darbplūsmas sistēmas izmantošanas priekšrocības</span><span class="sxs-lookup"><span data-stu-id="38992-120">Benefits of using the workflow system</span></span>
 
-Darbplūsmas sistēmas lietošanai organizācijā ir vairākas priekšrocības.
--   **Saskaņoti procesi** — varat definēt noteiktu dokumentu, piemēram, pirkšanas pieprasījumu un izdevumu pārskatu, apstiprināšanas procesu. Izmantojot darbplūsmas sistēmu, jūs nodrošināt, ka dokumenti tiek apstrādāti un apstiprināti saskaņotā un efektīvā veidā.
--   **Procesa pārskatāmība** — varat izsekot noteiktu darbplūsmas instanču statusa, vēsturiskajiem un veiktspējas rādītājiem. Tādējādi varat noteikt, vai ir jāveic darbplūsmas izmaiņas, lai uzlabotu efektivitāti.
--   **Centralizēts darbu saraksts** — lietotāji var apskatīt centralizētu darbu sarakstu, kurā ir iekļauti tiem piešķirtie darbplūsmas uzdevumi un apstiprinājumi.
+<span data-ttu-id="38992-121">Darbplūsmas sistēmas lietošanai organizācijā ir vairākas priekšrocības.</span><span class="sxs-lookup"><span data-stu-id="38992-121">There are several benefits of using the workflow system in your organization:</span></span>
+-   <span data-ttu-id="38992-122">**Saskaņoti procesi** — varat definēt noteiktu dokumentu, piemēram, pirkšanas pieprasījumu un izdevumu pārskatu, apstiprināšanas procesu.</span><span class="sxs-lookup"><span data-stu-id="38992-122">**Consistent processes** – You can define how specific documents, such as purchase requisitions and expense reports, are processed.</span></span> <span data-ttu-id="38992-123">Izmantojot darbplūsmas sistēmu, jūs nodrošināt, ka dokumenti tiek apstrādāti un apstiprināti saskaņotā un efektīvā veidā.</span><span class="sxs-lookup"><span data-stu-id="38992-123">By using the workflow system, you ensure that documents are processed and approved in a consistent and efficient manner.</span></span>
+-   <span data-ttu-id="38992-124">**Procesa pārskatāmība** — varat izsekot noteiktu darbplūsmas instanču statusa, vēsturiskajiem un veiktspējas rādītājiem.</span><span class="sxs-lookup"><span data-stu-id="38992-124">**Process visibility** – You can track the status, history, and performance metrics of workflow instances.</span></span> <span data-ttu-id="38992-125">Tādējādi varat noteikt, vai ir jāveic darbplūsmas izmaiņas, lai uzlabotu efektivitāti.</span><span class="sxs-lookup"><span data-stu-id="38992-125">This helps you determine whether changes should be made to the workflow to improve efficiency.</span></span>
+-   <span data-ttu-id="38992-126">**Centralizēts darbu saraksts** — lietotāji var apskatīt centralizētu darbu sarakstu, kurā ir iekļauti tiem piešķirtie darbplūsmas uzdevumi un apstiprinājumi.</span><span class="sxs-lookup"><span data-stu-id="38992-126">**Centralized work list** – Users can view a centralized work list that displays the workflow tasks and approvals that are assigned to them.</span></span>
 
 
-## <a name="workflow-content"></a>Darbplūsmas saturs
+## <a name="workflow-content"></a><span data-ttu-id="38992-127">Darbplūsmas saturs</span><span class="sxs-lookup"><span data-stu-id="38992-127">Workflow content</span></span>
 
-+ [Darbplūsmas arhitektūra](workflow-system-architecture.md)
-+ [Darbplūsmas elementi](workflow-elements.md)
-+ [Darbplūsmas darbības](workflow-actions.md)
-+ [Izveidot darbplūsmu](create-workflow.md)
-+ [Konfigurēt darbplūsmas rekvizītus](configure-workflow-properties.md)
-+ [Konfigurēt manuālu uzdevumu darbplūsmā](configure-manual-task-workflow.md)
-+ [Konfigurēt automatizētu uzdevumu darbplūsmā](configure-automated-task-workflow.md)
-+ [Konfigurēt apstiprināšanas procesu darbplūsmā](configure-approval-process-workflow.md)
-+ [Konfigurēt apstiprināšanas darbību darbplūsmā](configure-approval-step-workflow.md)
-+ [Konfigurēt manuālu lēmumu darbplūsmā](configure-manual-decision-workflow.md)
-+ [Konfigurēt nosacījuma lēmumu darbplūsmā](configure-conditional-decision-workflow.md)
-+ [Konfigurēt paralēlu aktivitāti darbplūsmā](configure-parallel-activity-workflow.md)
-+ [Konfigurēt paralēlu zaru darbplūsmā](configure-parallel-branch-workflow.md)
-+ [Konfigurēt dokumenta rindas darbplūsmu](configure-line-item-workflow.md)
++ [<span data-ttu-id="38992-128">Darbplūsmas arhitektūra</span><span class="sxs-lookup"><span data-stu-id="38992-128">Workflow architecture</span></span>](workflow-system-architecture.md)
++ [<span data-ttu-id="38992-129">Darbplūsmas elementi</span><span class="sxs-lookup"><span data-stu-id="38992-129">Workflow elements</span></span>](workflow-elements.md)
++ [<span data-ttu-id="38992-130">Darbplūsmas darbības</span><span class="sxs-lookup"><span data-stu-id="38992-130">Workflow actions</span></span>](workflow-actions.md)
++ [<span data-ttu-id="38992-131">Izveidot darbplūsmu</span><span class="sxs-lookup"><span data-stu-id="38992-131">Create a workflow</span></span>](create-workflow.md)
++ [<span data-ttu-id="38992-132">Konfigurēt darbplūsmas rekvizītus</span><span class="sxs-lookup"><span data-stu-id="38992-132">Configure workflow properties</span></span>](configure-workflow-properties.md)
++ [<span data-ttu-id="38992-133">Konfigurēt manuālu uzdevumu darbplūsmā</span><span class="sxs-lookup"><span data-stu-id="38992-133">Configure a manual task in a workflow</span></span>](configure-manual-task-workflow.md)
++ [<span data-ttu-id="38992-134">Konfigurēt automatizētu uzdevumu darbplūsmā</span><span class="sxs-lookup"><span data-stu-id="38992-134">Configure an automated task in a workflow</span></span>](configure-automated-task-workflow.md)
++ [<span data-ttu-id="38992-135">Konfigurēt apstiprināšanas procesu darbplūsmā</span><span class="sxs-lookup"><span data-stu-id="38992-135">Configure an approval process in a workflow</span></span>](configure-approval-process-workflow.md)
++ [<span data-ttu-id="38992-136">Konfigurēt apstiprināšanas darbību darbplūsmā</span><span class="sxs-lookup"><span data-stu-id="38992-136">Configure an approval step in a workflow</span></span>](configure-approval-step-workflow.md)
++ [<span data-ttu-id="38992-137">Konfigurēt manuālu lēmumu darbplūsmā</span><span class="sxs-lookup"><span data-stu-id="38992-137">Configure a manual decision in a workflow</span></span>](configure-manual-decision-workflow.md)
++ [<span data-ttu-id="38992-138">Konfigurēt nosacījuma lēmumu darbplūsmā</span><span class="sxs-lookup"><span data-stu-id="38992-138">Configure a conditional decision in a workflow</span></span>](configure-conditional-decision-workflow.md)
++ [<span data-ttu-id="38992-139">Konfigurēt paralēlu aktivitāti darbplūsmā</span><span class="sxs-lookup"><span data-stu-id="38992-139">Configure a parallel activity in a workflow</span></span>](configure-parallel-activity-workflow.md)
++ [<span data-ttu-id="38992-140">Konfigurēt paralēlu zaru darbplūsmā</span><span class="sxs-lookup"><span data-stu-id="38992-140">Configure a parallel branch in a workflow</span></span>](configure-parallel-branch-workflow.md)
++ [<span data-ttu-id="38992-141">Konfigurēt dokumenta rindas darbplūsmu</span><span class="sxs-lookup"><span data-stu-id="38992-141">Configure a line-item workflow</span></span>](configure-line-item-workflow.md)
 

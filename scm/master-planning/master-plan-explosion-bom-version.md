@@ -20,33 +20,33 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: efb184269c66483304af0589e4305a55ae08ce08
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: f8c633e09103c45aff5614270a94a3bfe4fc5e20
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="explosion-of-a-bom-version"></a>MK versijas izvēršana
+# <a name="explosion-of-a-bom-version"></a><span data-ttu-id="4fdab-103">MK versijas izvēršana</span><span class="sxs-lookup"><span data-stu-id="4fdab-103">Explosion of a BOM version</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir paskaidrots vispārējās plānošanas scenārijs, kas ietver materiālu komplekta (MK) versijas izvēršanu.
+<span data-ttu-id="4fdab-104">Šajā rakstā ir paskaidrots vispārējās plānošanas scenārijs, kas ietver materiālu komplekta (MK) versijas izvēršanu.</span><span class="sxs-lookup"><span data-stu-id="4fdab-104">This article explains a master planning scenario that involves explosion of a bill of materials (BOM) version.</span></span>
 
-Izvēršanas pieprasīšana materiālu komplekta (MK) versijas izveido pieprasījuma katram MK rindas krājumam noteiktā vietā, un, iespējams, konkrētajā noliktavā. Vietai specifisku MK noteiktā noliktavā var definēt katrai MK rindai. Turklāt par katru MK rindu, krājuma dimensiju iestatījumi nosaka, vai noliktava ir nepieciešama. Iegūtais pieprasījums par katru MK rindas vienību tad kļūst par papildu pieprasījuma izvēršana sākumpunktu. Šis vispārējās plānošanas scenārijs ietver šādus nosacījumus:
+<span data-ttu-id="4fdab-105">Izvēršanas pieprasīšana materiālu komplekta (MK) versijas izveido pieprasījuma katram MK rindas krājumam noteiktā vietā, un, iespējams, konkrētajā noliktavā.</span><span class="sxs-lookup"><span data-stu-id="4fdab-105">A demand explosion of a bill of materials (BOM) version creates a demand for each BOM line item at a specific site and, possibly, at a specific warehouse.</span></span> <span data-ttu-id="4fdab-106">Vietai specifisku MK noteiktā noliktavā var definēt katrai MK rindai.</span><span class="sxs-lookup"><span data-stu-id="4fdab-106">In a site-specific BOM, a specific warehouse can be defined for each BOM line.</span></span> <span data-ttu-id="4fdab-107">Turklāt par katru MK rindu, krājuma dimensiju iestatījumi nosaka, vai noliktava ir nepieciešama.</span><span class="sxs-lookup"><span data-stu-id="4fdab-107">Additionally, for each BOM line, the item's dimension settings determine whether the warehouse is required.</span></span> <span data-ttu-id="4fdab-108">Iegūtais pieprasījums par katru MK rindas vienību tad kļūst par papildu pieprasījuma izvēršana sākumpunktu.</span><span class="sxs-lookup"><span data-stu-id="4fdab-108">The resulting demand for each BOM line item then becomes the starting point for additional demand explosion.</span></span> <span data-ttu-id="4fdab-109">Šis vispārējās plānošanas scenārijs ietver šādus nosacījumus:</span><span class="sxs-lookup"><span data-stu-id="4fdab-109">This master planning scenario involves the following conditions:</span></span>
 
--   Vietas dimensija ir obligāta un tā ir jāievada pieprasījuma darbībā.
--   Vietas dimensija ir saskaņota. Tādēļ vieta zemāka līmeņa prasībai ir tāda pati kā vietai sākotnējā prasības darbībā.
+-   <span data-ttu-id="4fdab-110">Vietas dimensija ir obligāta un tā ir jāievada pieprasījuma darbībā.</span><span class="sxs-lookup"><span data-stu-id="4fdab-110">The site dimension is mandatory and must be entered on the demand transaction.</span></span>
+-   <span data-ttu-id="4fdab-111">Vietas dimensija ir saskaņota.</span><span class="sxs-lookup"><span data-stu-id="4fdab-111">The site dimension is consistent.</span></span> <span data-ttu-id="4fdab-112">Tādēļ vieta zemāka līmeņa prasībai ir tāda pati kā vietai sākotnējā prasības darbībā.</span><span class="sxs-lookup"><span data-stu-id="4fdab-112">Therefore, the site for lower-level demand is the same as the site on the initial demand transaction.</span></span>
 
-Šis grafiks ilustrē, kā turpinās vispārējās plānošanas prasības izvēršana. ![Pieprasīt izvēršanu, lietojot MK versiju](./media/multisitedemandexplosionscenariousingbomversion.gif)
+<span data-ttu-id="4fdab-113">Šis grafiks ilustrē, kā turpinās vispārējās plānošanas prasības izvēršana.</span><span class="sxs-lookup"><span data-stu-id="4fdab-113">The following illustration shows how the process for master planning demand explosion.</span></span> ![Pieprasīt izvēršanu, lietojot MK versiju](./media/multisitedemandexplosionscenariousingbomversion.gif)
 
-<a name="see-also"></a>Skatiet arī
+<a name="see-also"></a><span data-ttu-id="4fdab-115">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="4fdab-115">See also</span></span>
 --------
 
-[Vispārējā plānošana — kā tiek noteikta MK versija](master-plan-bom-version-determined.md)
+[<span data-ttu-id="4fdab-116">Vispārējā plānošana — kā tiek noteikta MK versija</span><span class="sxs-lookup"><span data-stu-id="4fdab-116">Master planning - how the BOM version is determined</span></span>](master-plan-bom-version-determined.md)
 
-[Vispārējā plānošana un vairākvietu funkcionalitāte](master-plan-multisite-functionality.md)
+[<span data-ttu-id="4fdab-117">Vispārējā plānošana un vairākvietu funkcionalitāte</span><span class="sxs-lookup"><span data-stu-id="4fdab-117">Master planning and multisite functionality</span></span>](master-plan-multisite-functionality.md)
 
 
 

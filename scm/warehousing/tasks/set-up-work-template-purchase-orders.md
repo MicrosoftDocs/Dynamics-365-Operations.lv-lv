@@ -17,57 +17,57 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: aa561d558827e78529ef797b6df6dd3c1dcce34d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: fbbe019bdca2d5182466a20370418a14032fe63d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-a-work-template-for-purchase-orders"></a>Pirkšanas pasūtījumu darba veidnes iestatīšana
+# <a name="set-up-a-work-template-for-purchase-orders"></a><span data-ttu-id="cba89-103">Pirkšanas pasūtījumu darba veidnes iestatīšana</span><span class="sxs-lookup"><span data-stu-id="cba89-103">Set up a work template for purchase orders</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā procedūrā aprakstīta vienkāršas darba veidnes izveide, kuru paredzēts izmantot saņemto krājumu izvietošanai. Darba veidnes nosaka norādījumu kopu, kas noliktavas darbiniekam tiek sniegti mobilajā ierīcē, pārvietojot krājumus no saņemšanas zonas. Šo procedūru varat lietot, izmantojot datus, kas minēti demonstrācijas datu uzņēmumam USMF. Pirms sākat darbu ar šo ceļvedi, izveidojiet darbu kopas ID. Šajā piemērā tiek izmantots darbu kopas ID ar nosaukumu Ienākošs. Šī procedūra ir paredzēta noliktavas pārvaldniekam.
+<span data-ttu-id="cba89-104">Šajā procedūrā aprakstīta vienkāršas darba veidnes izveide, kuru paredzēts izmantot saņemto krājumu izvietošanai.</span><span class="sxs-lookup"><span data-stu-id="cba89-104">This procedure focuses on the set up of a simple work template to be used when putting away received items.</span></span> <span data-ttu-id="cba89-105">Darba veidnes nosaka norādījumu kopu, kas noliktavas darbiniekam tiek sniegti mobilajā ierīcē, pārvietojot krājumus no saņemšanas zonas.</span><span class="sxs-lookup"><span data-stu-id="cba89-105">Work templates determine the set of instructions presented to the warehouse worker on a mobile device when moving items from the receiving area.</span></span> <span data-ttu-id="cba89-106">Šo procedūru varat lietot, izmantojot datus, kas minēti demonstrācijas datu uzņēmumam USMF.</span><span class="sxs-lookup"><span data-stu-id="cba89-106">You can use this procedure with the data mentioned in demo data company USMF.</span></span> <span data-ttu-id="cba89-107">Pirms sākat darbu ar šo ceļvedi, izveidojiet darbu kopas ID.</span><span class="sxs-lookup"><span data-stu-id="cba89-107">Before you start this guide, create a work pool ID.</span></span> <span data-ttu-id="cba89-108">Šajā piemērā tiek izmantots darbu kopas ID ar nosaukumu Ienākošs.</span><span class="sxs-lookup"><span data-stu-id="cba89-108">In this example, a work pool ID called in Inbound is used.</span></span> <span data-ttu-id="cba89-109">Šī procedūra ir paredzēta noliktavas pārvaldniekam.</span><span class="sxs-lookup"><span data-stu-id="cba89-109">This procedure is intended for the warehouse manager.</span></span>
 
-1. Doties uz Noliktavas vadība > Iestatīšana > Darbs > Darbu veidnes.
-2. Laukā Darba pasūtījuma tips atlasiet “Pirkšanas pasūtījumi”.
+1. <span data-ttu-id="cba89-110">Doties uz Noliktavas vadība > Iestatīšana > Darbs > Darbu veidnes.</span><span class="sxs-lookup"><span data-stu-id="cba89-110">Go to Warehouse management > Setup > Work > Work templates.</span></span>
+2. <span data-ttu-id="cba89-111">Laukā Darba pasūtījuma tips atlasiet “Pirkšanas pasūtījumi”.</span><span class="sxs-lookup"><span data-stu-id="cba89-111">In the Work order type field, select 'Purchase orders'.</span></span>
 
-## <a name="create-a-work-template-header"></a>Izveidojiet darba veidnes virsrakstu
-1. Noklikšķiniet uz Jauns.
-2. Ievadiet skaitli laukā Secības numurs.
-    * Šī ir darba veidņu novērtēšanas secība. Ja nepieciešams, šo secību varat mainīt.  
-3. Laukā Darba veidne ierakstiet kādu vērtību.
-    * Tas ir šīs veidnes veidnes unikālais identifikators.  
-4. Laukā Darba veidnes apraksts ierakstiet kādu vērtību.
-    * Opcija Derīgs nebūs atzīmēta, kamēr nebūsiet aizpildījis visu veidnei nepieciešamo informāciju un noklikšķinājis uz Saglabāt.  
-    * Darba pasūtījumu, kura veids ir Pirkšanas pasūtījums, nevar apstrādāt automātiski, tāpēc atstājiet opcijai Automātiski apstrādāt iestatījumu Nē.  
-5. Laukā Darba kopas ID ierakstiet kādu vērtību.
-    * Darbu kopu ID ļauj organizēt darbu grupās. Šeit iestatītā vērtība būs noklusējuma vērtība visiem darbiem, kas izveidoti, lietojot šo veidni.  
-6. Laukā Darba prioritāte ievadiet skaitli "1".
-    * Tas norāda darba svarīgumu, un šeit iestatītā vērtība būs noklusējuma vērtība visiem darbiem, kas izveidoti, lietojot šo veidni.  
-7. Noklikšķiniet uz Saglabāt.
-    * Pirms kļūst pieejama poga Rediģēt vaicājumu, vispirms jāsaglabā darba veidnes virsraksts.  
+## <a name="create-a-work-template-header"></a><span data-ttu-id="cba89-112">Izveidojiet darba veidnes virsrakstu</span><span class="sxs-lookup"><span data-stu-id="cba89-112">Create a work template header</span></span>
+1. <span data-ttu-id="cba89-113">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="cba89-113">Click New.</span></span>
+2. <span data-ttu-id="cba89-114">Ievadiet skaitli laukā Secības numurs.</span><span class="sxs-lookup"><span data-stu-id="cba89-114">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="cba89-115">Šī ir darba veidņu novērtēšanas secība.</span><span class="sxs-lookup"><span data-stu-id="cba89-115">This is the sequence in which the work templates are evaluated.</span></span> <span data-ttu-id="cba89-116">Ja nepieciešams, šo secību varat mainīt.</span><span class="sxs-lookup"><span data-stu-id="cba89-116">You can modify the sequence, if needed.</span></span>  
+3. <span data-ttu-id="cba89-117">Laukā Darba veidne ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="cba89-117">In the Work template field, type a value.</span></span>
+    * <span data-ttu-id="cba89-118">Tas ir šīs veidnes veidnes unikālais identifikators.</span><span class="sxs-lookup"><span data-stu-id="cba89-118">This is the unique identifier for this template.</span></span>  
+4. <span data-ttu-id="cba89-119">Laukā Darba veidnes apraksts ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="cba89-119">In the Work template description field, type a value.</span></span>
+    * <span data-ttu-id="cba89-120">Opcija Derīgs nebūs atzīmēta, kamēr nebūsiet aizpildījis visu veidnei nepieciešamo informāciju un noklikšķinājis uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="cba89-120">The Valid option will not be checked until you’ve completed all the information that's needed by the template and have then clicked Save.</span></span>  
+    * <span data-ttu-id="cba89-121">Darba pasūtījumu, kura veids ir Pirkšanas pasūtījums, nevar apstrādāt automātiski, tāpēc atstājiet opcijai Automātiski apstrādāt iestatījumu Nē.</span><span class="sxs-lookup"><span data-stu-id="cba89-121">A work order of type Purchase order cannot be automatically processed, so leave the  Automatically process option set to No.</span></span>  
+5. <span data-ttu-id="cba89-122">Laukā Darba kopas ID ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="cba89-122">In the Work pool ID field, type a value.</span></span>
+    * <span data-ttu-id="cba89-123">Darbu kopu ID ļauj organizēt darbu grupās.</span><span class="sxs-lookup"><span data-stu-id="cba89-123">Work pool IDs allow you to organize work into groups.</span></span> <span data-ttu-id="cba89-124">Šeit iestatītā vērtība būs noklusējuma vērtība visiem darbiem, kas izveidoti, lietojot šo veidni.</span><span class="sxs-lookup"><span data-stu-id="cba89-124">The value that you set here will be the default value for any work that’s created using this template.</span></span>  
+6. <span data-ttu-id="cba89-125">Laukā Darba prioritāte ievadiet skaitli "1".</span><span class="sxs-lookup"><span data-stu-id="cba89-125">In the Work priority field, enter '1'.</span></span>
+    * <span data-ttu-id="cba89-126">Tas norāda darba svarīgumu, un šeit iestatītā vērtība būs noklusējuma vērtība visiem darbiem, kas izveidoti, lietojot šo veidni.</span><span class="sxs-lookup"><span data-stu-id="cba89-126">This indicates the importance of the work, and the value that you set here will be the default for any work created using this template.</span></span>  
+7. <span data-ttu-id="cba89-127">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="cba89-127">Click Save.</span></span>
+    * <span data-ttu-id="cba89-128">Pirms kļūst pieejama poga Rediģēt vaicājumu, vispirms jāsaglabā darba veidnes virsraksts.</span><span class="sxs-lookup"><span data-stu-id="cba89-128">You must save the work template header before the Edit Query button becomes available.</span></span>  
 
-## <a name="set-up-the-query-for-the-work-template"></a>Darba veidnes vaicājuma iestatīšana
-1. Noklikšķiniet uz Rediģēt vaicājumu.
-    * Mēs noteiksim ierobežojumu, ka veidni var izmantot tikai noteiktā noliktavā.  
-2. Noklikšķiniet uz Pievienot.
-3. Sarakstā atzīmējiet atlasīto rindu.
-4. Laukā Lauks ierakstiet "noliktava".
-5. Laukā Kritēriji ierakstiet kādu vērtību.
-6. Noklikšķiniet uz OK.
-7. Noklikšķiniet uz Jā.
+## <a name="set-up-the-query-for-the-work-template"></a><span data-ttu-id="cba89-129">Darba veidnes vaicājuma iestatīšana</span><span class="sxs-lookup"><span data-stu-id="cba89-129">Set up the query for the work template</span></span>
+1. <span data-ttu-id="cba89-130">Noklikšķiniet uz Rediģēt vaicājumu.</span><span class="sxs-lookup"><span data-stu-id="cba89-130">Click Edit query.</span></span>
+    * <span data-ttu-id="cba89-131">Mēs noteiksim ierobežojumu, ka veidni var izmantot tikai noteiktā noliktavā.</span><span class="sxs-lookup"><span data-stu-id="cba89-131">We’ll set a limitation that the template can only be used within a specific warehouse.</span></span>  
+2. <span data-ttu-id="cba89-132">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="cba89-132">Click Add.</span></span>
+3. <span data-ttu-id="cba89-133">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="cba89-133">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="cba89-134">Laukā Lauks ierakstiet "noliktava".</span><span class="sxs-lookup"><span data-stu-id="cba89-134">In the Field field, type 'warehouse'.</span></span>
+5. <span data-ttu-id="cba89-135">Laukā Kritēriji ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="cba89-135">In the Criteria field, type a value.</span></span>
+6. <span data-ttu-id="cba89-136">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="cba89-136">Click OK.</span></span>
+7. <span data-ttu-id="cba89-137">Noklikšķiniet uz Jā.</span><span class="sxs-lookup"><span data-stu-id="cba89-137">Click Yes.</span></span>
 
-## <a name="set-work-template-details"></a>Detalizētas informācijas par darba veidni iestatīšana
-1. Noklikšķiniet uz Jauns.
-2. Laukā Darba tips atlasiet vienumu “Izdošana”.
-3. Laukā Darba klases ID ierakstiet "pirkšana".
-    * Šeit iestatītā darba klase būs noklusējuma klase visās darba rindās, kuru veids ir Izdošana un kuras izveidotas, lietojot šo veidni. Šo darba klasi nevar pārrakstīt no darba pasūtījuma rindām. Darba klases tiek izmantotas, lai virzītu un/vai ierobežotu darba pasūtījuma rindu veidu, ko noliktavas darbinieks var apstrādāt mobilajā ierīcē.  
-4. Noklikšķiniet uz Jauns.
-5. Laukā Darba tips atlasiet vienumu “Izvietošana”.
-6. Laukā Darba klases ID ierakstiet kādu vērtību.
-    * Izdošanas un izvietošanas instrukcijas ir kopa. Katrai izdošanas/izvietošanas kopai ir jābūt vienai un tai pašai darba klasei. Izmantojiet to pašu darba klasi, kuru norādījāt izdošanas instrukcijai.  
-7. Noklikšķiniet uz Saglabāt.
-    * Pievērsiet uzmanību, ka tagad ir atzīmēta izvēles rūtiņa Derīgs.  
+## <a name="set-work-template-details"></a><span data-ttu-id="cba89-138">Detalizētas informācijas par darba veidni iestatīšana</span><span class="sxs-lookup"><span data-stu-id="cba89-138">Set work template details</span></span>
+1. <span data-ttu-id="cba89-139">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="cba89-139">Click New.</span></span>
+2. <span data-ttu-id="cba89-140">Laukā Darba tips atlasiet vienumu “Izdošana”.</span><span class="sxs-lookup"><span data-stu-id="cba89-140">In the Work type field, select 'Pick'.</span></span>
+3. <span data-ttu-id="cba89-141">Laukā Darba klases ID ierakstiet "pirkšana".</span><span class="sxs-lookup"><span data-stu-id="cba89-141">In the Work class ID field, type 'purchase'.</span></span>
+    * <span data-ttu-id="cba89-142">Šeit iestatītā darba klase būs noklusējuma klase visās darba rindās, kuru veids ir Izdošana un kuras izveidotas, lietojot šo veidni.</span><span class="sxs-lookup"><span data-stu-id="cba89-142">The work class that you set here will be the default on all work lines of type Pick that are created using this template.</span></span> <span data-ttu-id="cba89-143">Šo darba klasi nevar pārrakstīt no darba pasūtījuma rindām.</span><span class="sxs-lookup"><span data-stu-id="cba89-143">The work class cannot be overridden from the work order lines.</span></span> <span data-ttu-id="cba89-144">Darba klases tiek izmantotas, lai virzītu un/vai ierobežotu darba pasūtījuma rindu veidu, ko noliktavas darbinieks var apstrādāt mobilajā ierīcē.</span><span class="sxs-lookup"><span data-stu-id="cba89-144">Work classes are used to direct and/or limit the type of work order lines a warehouse worker can process on a mobile device.</span></span>  
+4. <span data-ttu-id="cba89-145">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="cba89-145">Click New.</span></span>
+5. <span data-ttu-id="cba89-146">Laukā Darba tips atlasiet vienumu “Izvietošana”.</span><span class="sxs-lookup"><span data-stu-id="cba89-146">In the Work type field, select 'Put'.</span></span>
+6. <span data-ttu-id="cba89-147">Laukā Darba klases ID ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="cba89-147">In the Work class ID field, type a value.</span></span>
+    * <span data-ttu-id="cba89-148">Izdošanas un izvietošanas instrukcijas ir kopa.</span><span class="sxs-lookup"><span data-stu-id="cba89-148">The pick and put instructions are a set.</span></span> <span data-ttu-id="cba89-149">Katrai izdošanas/izvietošanas kopai ir jābūt vienai un tai pašai darba klasei.</span><span class="sxs-lookup"><span data-stu-id="cba89-149">Each pick/put set must have the same work class.</span></span> <span data-ttu-id="cba89-150">Izmantojiet to pašu darba klasi, kuru norādījāt izdošanas instrukcijai.</span><span class="sxs-lookup"><span data-stu-id="cba89-150">Use the same work class that you provided for the pick instruction.</span></span>  
+7. <span data-ttu-id="cba89-151">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="cba89-151">Click Save.</span></span>
+    * <span data-ttu-id="cba89-152">Pievērsiet uzmanību, ka tagad ir atzīmēta izvēles rūtiņa Derīgs.</span><span class="sxs-lookup"><span data-stu-id="cba89-152">Note that the Valid checkbox is now checked.</span></span>  
 
 

@@ -16,38 +16,38 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
-ms.openlocfilehash: c77173c5dd9f0513de5d794f7453715ceff550da
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 095855d552d228375635bdbaa9fca37c47a3b952
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/02/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a>PP lūgumu tipus un punktu skaitīšanas kritēriju izveide
+# <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a><span data-ttu-id="f1580-103">PP lūgumu tipus un punktu skaitīšanas kritēriju izveide</span><span class="sxs-lookup"><span data-stu-id="f1580-103">Create solicitation types and scoring criteria for RFQs</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā ceļvedī ir parādīts, kā izveidot lūguma tipu un saistīt to ar punktu skaitīšanas metodi. Tajā ir arī parādīts, kā lūguma tipu lietot piedāvājuma pieprasījumā (IP), kurš pēc tam iestata noklusējuma punktu skaitīšanas metodi. Šos uzdevumus parasti veic pirkšanas vadītājs. Šo procedūru varat lietot, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus. Pirms sākšanas jums ir jābūt pieejamai punktu skaitīšanas metodei.
+<span data-ttu-id="f1580-104">Šajā ceļvedī ir parādīts, kā izveidot lūguma tipu un saistīt to ar punktu skaitīšanas metodi.</span><span class="sxs-lookup"><span data-stu-id="f1580-104">This guide shows you how to create a solicitation type and associate this with a scoring method.</span></span> <span data-ttu-id="f1580-105">Tajā ir arī parādīts, kā lūguma tipu lietot piedāvājuma pieprasījumā (IP), kurš pēc tam iestata noklusējuma punktu skaitīšanas metodi.</span><span class="sxs-lookup"><span data-stu-id="f1580-105">It also shows how to use the solicitation type on a request for quotation (RFQ) which then sets the default scoring method.</span></span> <span data-ttu-id="f1580-106">Šos uzdevumus parasti veic pirkšanas vadītājs.</span><span class="sxs-lookup"><span data-stu-id="f1580-106">These tasks would typically be carried out by a purchasing manager.</span></span> <span data-ttu-id="f1580-107">Šo procedūru varat lietot, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.</span><span class="sxs-lookup"><span data-stu-id="f1580-107">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="f1580-108">Pirms sākšanas jums ir jābūt pieejamai punktu skaitīšanas metodei.</span><span class="sxs-lookup"><span data-stu-id="f1580-108">You need to have a scoring method available before you start.</span></span>
 
 
-## <a name="create-a-solicitation-type"></a>Lūguma veida izveide
-1. Pārejiet uz sadaļu Sagāde un avoti > Iestatīšana > Piedāvājuma pieprasījums > Lūguma tips.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Nosaukums ierakstiet kādu vērtību.
-4. Apraksta laukā ierakstiet vērtību.
-5. Laukā Punktu skaitīšanas metode atlasiet punktu skaitīšanas metodi, kuru vēlaties izmantot šim lūguma tipam.
-6. Noklikšķiniet uz Saglabāt.
-7. Aizvērt lapu.
+## <a name="create-a-solicitation-type"></a><span data-ttu-id="f1580-109">Lūguma veida izveide</span><span class="sxs-lookup"><span data-stu-id="f1580-109">Create a solicitation type</span></span>
+1. <span data-ttu-id="f1580-110">Pārejiet uz sadaļu Sagāde un avoti > Iestatīšana > Piedāvājuma pieprasījums > Lūguma tips.</span><span class="sxs-lookup"><span data-stu-id="f1580-110">Go to Procurement and sourcing > Setup > Request for quotation > Solicitation type.</span></span>
+2. <span data-ttu-id="f1580-111">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="f1580-111">Click New.</span></span>
+3. <span data-ttu-id="f1580-112">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="f1580-112">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="f1580-113">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="f1580-113">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="f1580-114">Laukā Punktu skaitīšanas metode atlasiet punktu skaitīšanas metodi, kuru vēlaties izmantot šim lūguma tipam.</span><span class="sxs-lookup"><span data-stu-id="f1580-114">In the Scoring method field, select the scoring method that you want to use for this solicitation type.</span></span>
+6. <span data-ttu-id="f1580-115">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="f1580-115">Click Save.</span></span>
+7. <span data-ttu-id="f1580-116">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="f1580-116">Close the page.</span></span>
 
-## <a name="use-the-solicitation-type"></a>Lietot lūguma tipu
-1. Dodieties uz Sagāde un avoti > Piedāvājumu pieprasījumi > Visi piedāvājumu pieprasījumi.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Lūguma tips atlasiet lūguma tipu, kuru tikko izveidojāt. 
-4. Noklikšķiniet uz OK.
-5. Noklikšķiniet uz Punktu skaitīšanas kritēriji.
-    * Rādītie punktu skaitīšanas kritēriji ir kritēriji no punktu skaitīšanas metodes, kuru esat saistījis ar šo lūguma tipu. Kritērijus šajā lapā varat pievienot vai dzēst. Varat arī pievienot jaunus kritērijus, kopējot tās no citām punktu skaitīšanas metodēm.  
-6. Noklikšķiniet uz Kopēt kritērijus.
-7. Laukā Punktu skaitīšanas metode ievadiet vai atlasiet kādu vērtību.
-8. Noklikšķiniet uz OK.
-9. Aizvērt lapu.
+## <a name="use-the-solicitation-type"></a><span data-ttu-id="f1580-117">Lietot lūguma tipu</span><span class="sxs-lookup"><span data-stu-id="f1580-117">Use the solicitation type</span></span>
+1. <span data-ttu-id="f1580-118">Dodieties uz Sagāde un avoti > Piedāvājumu pieprasījumi > Visi piedāvājumu pieprasījumi.</span><span class="sxs-lookup"><span data-stu-id="f1580-118">Go to Procurement and sourcing > Requests for quotations > All requests for quotations.</span></span>
+2. <span data-ttu-id="f1580-119">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="f1580-119">Click New.</span></span>
+3. <span data-ttu-id="f1580-120">Laukā Lūguma tips atlasiet lūguma tipu, kuru tikko izveidojāt.</span><span class="sxs-lookup"><span data-stu-id="f1580-120">In the Solicitation type field, select the solicitation type that you have just created.</span></span> 
+4. <span data-ttu-id="f1580-121">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="f1580-121">Click OK.</span></span>
+5. <span data-ttu-id="f1580-122">Noklikšķiniet uz Punktu skaitīšanas kritēriji.</span><span class="sxs-lookup"><span data-stu-id="f1580-122">Click Scoring criteria.</span></span>
+    * <span data-ttu-id="f1580-123">Rādītie punktu skaitīšanas kritēriji ir kritēriji no punktu skaitīšanas metodes, kuru esat saistījis ar šo lūguma tipu.</span><span class="sxs-lookup"><span data-stu-id="f1580-123">The scoring criteria that are shown are the ones from the scoring method that you associated with the solicitation type.</span></span> <span data-ttu-id="f1580-124">Kritērijus šajā lapā varat pievienot vai dzēst.</span><span class="sxs-lookup"><span data-stu-id="f1580-124">You can choose to add or delete criteria on this page.</span></span> <span data-ttu-id="f1580-125">Varat arī pievienot jaunus kritērijus, kopējot tās no citām punktu skaitīšanas metodēm.</span><span class="sxs-lookup"><span data-stu-id="f1580-125">It's also possible to add new criteria by copying them from other scoring methods.</span></span>  
+6. <span data-ttu-id="f1580-126">Noklikšķiniet uz Kopēt kritērijus.</span><span class="sxs-lookup"><span data-stu-id="f1580-126">Click Copy criteria.</span></span>
+7. <span data-ttu-id="f1580-127">Laukā Punktu skaitīšanas metode ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="f1580-127">In the Scoring method field, enter or select a value.</span></span>
+8. <span data-ttu-id="f1580-128">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="f1580-128">Click OK.</span></span>
+9. <span data-ttu-id="f1580-129">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="f1580-129">Close the page.</span></span>
 
 

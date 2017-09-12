@@ -16,35 +16,35 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 127875443da1d43783440083b11afd423f2a12fe
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 42f93e6d8fcf62babc3e3244bc1fe76d1efd9d13
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="record-a-vendor-invoice-in-the-invoice-journal"></a>Kreditora rēķina reģistrēšana rēķinu žurnālā
+# <a name="record-a-vendor-invoice-in-the-invoice-journal"></a><span data-ttu-id="b7360-103">Kreditora rēķina reģistrēšana rēķinu žurnālā</span><span class="sxs-lookup"><span data-stu-id="b7360-103">Record a vendor invoice in the invoice journal</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā uzdevuma ceļvedī ir parādīts, kā reģistrēt kreditoru rēķinus, kas nav saistīti ar pirkšanas pasūtījumiem. Šī rēķina tipa piemēri ietver izdevumus par piegādēm vai pakalpojumiem.  Šajā ierakstā tiek izmantots USMF demonstrācijas uzņēmums.
+<span data-ttu-id="b7360-104">Šajā uzdevuma ceļvedī ir parādīts, kā reģistrēt kreditoru rēķinus, kas nav saistīti ar pirkšanas pasūtījumiem.</span><span class="sxs-lookup"><span data-stu-id="b7360-104">This task guide will show how to record vendor invoices that are not associated with purchase orders.</span></span> <span data-ttu-id="b7360-105">Šī rēķina tipa piemēri ietver izdevumus par piegādēm vai pakalpojumiem.</span><span class="sxs-lookup"><span data-stu-id="b7360-105">Examples of this type of invoice include expenses for supplies or services.</span></span>  <span data-ttu-id="b7360-106">Šajā ierakstā tiek izmantots USMF demonstrācijas uzņēmums.</span><span class="sxs-lookup"><span data-stu-id="b7360-106">This recording uses the USMF demo company.</span></span>
 
-1. Pārejiet uz sadaļu Kreditori > Darbvietas > Kreditora rēķina ieraksts.
-2. Noklikšķiniet uz Jauns rēķinu žurnāls.
-3. Noklikšķiniet uz Jauns.
-4. Laukā Nosaukums ievadiet žurnāla nosaukumu vai noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-5. Apraksta laukā ierakstiet vērtību.
-6. Noklikšķiniet uz Rindas.
-    * Laukā Datums ievadiet grāmatošanas datumu, kas atjauninās vienumu Virsgrāmata.  
-7. Laukā Konts norādiet Kreditora konts.
-8. Laukā Rēķins ievadiet rēķina numuru.
-9. Laukā Apraksts ierakstiet kādu vērtību.
-10. Laukā Kredīts ievadiet kādu skaitli.
-11. Laukā Korespondējošais konts ievadiet konta numuru vai noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-    * PVN grupa pēc noklusējuma tiek ņemta no kreditora konta datiem.  
-    * Krājumu PVN grupa pēc noklusējuma tiek ņemta no galvenā konta, kurš norādīts laukā Korespondējošais konts.  
-    * Izpildes datums tiek aprēķināts, ņemot vērā vienumu Apmaksas nosacījumi.  
-    * Vērtība Termiņatlaide pēc noklusējuma tiek ņemta no datiem Kreditora konts.  
-12. Noklikšķiniet uz Grāmatot.
-13. Aizvērt lapu.
+1. <span data-ttu-id="b7360-107">Pārejiet uz sadaļu Kreditori > Darbvietas > Kreditora rēķina ieraksts.</span><span class="sxs-lookup"><span data-stu-id="b7360-107">Go to Accounts payable > Workspaces > Vendor invoice entry.</span></span>
+2. <span data-ttu-id="b7360-108">Noklikšķiniet uz Jauns rēķinu žurnāls.</span><span class="sxs-lookup"><span data-stu-id="b7360-108">Click New invoice journal.</span></span>
+3. <span data-ttu-id="b7360-109">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="b7360-109">Click New.</span></span>
+4. <span data-ttu-id="b7360-110">Laukā Nosaukums ievadiet žurnāla nosaukumu vai noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="b7360-110">In the Name field, enter the journal name or click the drop down button to open the lookup.</span></span>
+5. <span data-ttu-id="b7360-111">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="b7360-111">In the Description field, type a value.</span></span>
+6. <span data-ttu-id="b7360-112">Noklikšķiniet uz Rindas.</span><span class="sxs-lookup"><span data-stu-id="b7360-112">Click Lines.</span></span>
+    * <span data-ttu-id="b7360-113">Laukā Datums ievadiet grāmatošanas datumu, kas atjauninās vienumu Virsgrāmata.</span><span class="sxs-lookup"><span data-stu-id="b7360-113">In the Date field, enter the posting date that will update General Ledger.</span></span>  
+7. <span data-ttu-id="b7360-114">Laukā Konts norādiet Kreditora konts.</span><span class="sxs-lookup"><span data-stu-id="b7360-114">In the Account field, specify the Vendor account.</span></span>
+8. <span data-ttu-id="b7360-115">Laukā Rēķins ievadiet rēķina numuru.</span><span class="sxs-lookup"><span data-stu-id="b7360-115">In the Invoice field, enter the invoice number.</span></span>
+9. <span data-ttu-id="b7360-116">Laukā Apraksts ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="b7360-116">In the Description field, type a value.</span></span>
+10. <span data-ttu-id="b7360-117">Laukā Kredīts ievadiet kādu skaitli.</span><span class="sxs-lookup"><span data-stu-id="b7360-117">In the Credit field, enter a number.</span></span>
+11. <span data-ttu-id="b7360-118">Laukā Korespondējošais konts ievadiet konta numuru vai noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="b7360-118">In the Offset account field, enter the account number or click the drop down button to open the lookup</span></span>
+    * <span data-ttu-id="b7360-119">PVN grupa pēc noklusējuma tiek ņemta no kreditora konta datiem.</span><span class="sxs-lookup"><span data-stu-id="b7360-119">The Sales tax group will default from the vendor account.</span></span>  
+    * <span data-ttu-id="b7360-120">Krājumu PVN grupa pēc noklusējuma tiek ņemta no galvenā konta, kurš norādīts laukā Korespondējošais konts.</span><span class="sxs-lookup"><span data-stu-id="b7360-120">The Item sales tax group will default from the main account specified in the Offset account field.</span></span>  
+    * <span data-ttu-id="b7360-121">Izpildes datums tiek aprēķināts, ņemot vērā vienumu Apmaksas nosacījumi.</span><span class="sxs-lookup"><span data-stu-id="b7360-121">The Due date will be calculated based on the Terms of payment.</span></span>  
+    * <span data-ttu-id="b7360-122">Vērtība Termiņatlaide pēc noklusējuma tiek ņemta no datiem Kreditora konts.</span><span class="sxs-lookup"><span data-stu-id="b7360-122">The Cash discount will default from the Vendor account.</span></span>  
+12. <span data-ttu-id="b7360-123">Noklikšķiniet uz Grāmatot.</span><span class="sxs-lookup"><span data-stu-id="b7360-123">Click Post.</span></span>
+13. <span data-ttu-id="b7360-124">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="b7360-124">Close the page.</span></span>
 
 

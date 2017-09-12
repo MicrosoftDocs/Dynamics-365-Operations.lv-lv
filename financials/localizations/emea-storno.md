@@ -17,156 +17,156 @@ ms.author: v-semaz
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: cd234755bbe92e8f1c78a2dd6e7d05e5372c4692
+ms.sourcegitcommit: 97d374230cc6e833b9f585de000e1252f2a78b9d
+ms.openlocfilehash: e042435dacb9ab4c5390ee1fb758e1cc4aeb3b70
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/30/2017
 
 ---
 
-# <a name="storno-accounting"></a>Storno uzskaite
+# <a name="storno-accounting"></a><span data-ttu-id="b19b6-103">Storno uzskaite</span><span class="sxs-lookup"><span data-stu-id="b19b6-103">Storno accounting</span></span>
 
-Storno uzskaite ir prakse, kurā tiek izmantoti negatīvie skaitļi, lai apgrieztu sākotnējos žurnāla konta ierakstus.
+<span data-ttu-id="b19b6-104">Storno uzskaite ir prakse, kurā tiek izmantoti negatīvie skaitļi, lai apgrieztu sākotnējos žurnāla konta ierakstus.</span><span class="sxs-lookup"><span data-stu-id="b19b6-104">Storno accounting is the practice of using negative numbers to reverse original journal account entries.</span></span>
 
-*Storno uzskaite* ir prakse, kurā tiek izmantotas negatīvas debeta vai kredīta summas, lai apgrieztu sākotnējos žurnāla konta ierakstus. Tā kā grāmatveži parasti Storno ierakstus veic ar sarkanu tinti, šī uzskaites prakse ir pazīstama arī kā *Sarkanais storno*. Izmantojot Storno uzskaiti, varat atcelt dokumentu ar nepareizām summām, tomēr jums vienmēr ir jāievada pareizā dokumenta summa pēc atcelšanas.
+<span data-ttu-id="b19b6-105">*Storno uzskaite* ir prakse, kurā tiek izmantotas negatīvas debeta vai kredīta summas, lai apgrieztu sākotnējos žurnāla konta ierakstus.</span><span class="sxs-lookup"><span data-stu-id="b19b6-105">*Storno accounting* is a practice of using negative debit or credit amounts to reverse original journal account entries.</span></span> <span data-ttu-id="b19b6-106">Tā kā grāmatveži parasti Storno ierakstus veic ar sarkanu tinti, šī uzskaites prakse ir pazīstama arī kā *Sarkanais storno*.</span><span class="sxs-lookup"><span data-stu-id="b19b6-106">Because bookkeepers typically write Storno entries in red ink, this accounting practice is also known as *Red Storno*.</span></span> <span data-ttu-id="b19b6-107">Izmantojot Storno uzskaiti, varat atcelt dokumentu ar nepareizām summām, tomēr jums vienmēr ir jāievada pareizā dokumenta summa pēc atcelšanas.</span><span class="sxs-lookup"><span data-stu-id="b19b6-107">Using Storno accounting you can cancel a document with incorrect amounts, however you should always enter the correct document amount after the cancellation.</span></span>
 
-## <a name="example"></a>Paraugs
-Grāmatvedis grāmato kreditora rēķinu par summu 120 USD. Maksāšanas procesa laikā tiek atklāts, ka grāmatvedis kļūdaini ievadījis 120 USD, nevis 102 USD. Tagad grāmatvedim ir jāizveido Storno sākotnējam dokumentam un pēc tam jāizveido pareizais rēķins ar summu 102 USD. Papildinformāciju skatiet rakstā [Rēķins no kreditora](../accounts-payable/vendor-invoices-overview.md). Tālāk esošajā tabulā parādīts vispārējais Storno ieraksts.
+## <a name="example"></a><span data-ttu-id="b19b6-108">Paraugs</span><span class="sxs-lookup"><span data-stu-id="b19b6-108">Example</span></span>
+<span data-ttu-id="b19b6-109">Grāmatvedis grāmato kreditora rēķinu par summu 120 USD.</span><span class="sxs-lookup"><span data-stu-id="b19b6-109">A bookkeeper posts an invoice from a vendor for 120 USD.</span></span> <span data-ttu-id="b19b6-110">Maksāšanas procesa laikā tiek atklāts, ka grāmatvedis kļūdaini ievadījis 120 USD, nevis 102 USD.</span><span class="sxs-lookup"><span data-stu-id="b19b6-110">During the payment process, it's discovered that the bookkeeper mistakenly entered 120 USD instead of 102 USD.</span></span> <span data-ttu-id="b19b6-111">Tagad grāmatvedim ir jāizveido Storno sākotnējam dokumentam un pēc tam jāizveido pareizais rēķins ar summu 102 USD.</span><span class="sxs-lookup"><span data-stu-id="b19b6-111">Now, the bookkeeper needs to create Storno for the original document, and then create the correct invoice for 102 USD.</span></span> <span data-ttu-id="b19b6-112">Papildinformāciju skatiet rakstā [Rēķins no kreditora](../accounts-payable/vendor-invoices-overview.md).</span><span class="sxs-lookup"><span data-stu-id="b19b6-112">For more information, see [Invoice from Vendor](../accounts-payable/vendor-invoices-overview.md).</span></span> <span data-ttu-id="b19b6-113">Tālāk esošajā tabulā parādīts vispārējais Storno ieraksts.</span><span class="sxs-lookup"><span data-stu-id="b19b6-113">The following table shows the general entry for Storno.</span></span>
 
-| **Dokumenta ID** | **Konts** | **Debets** | **Kredīts** | **Komentārs**                  |
+| <span data-ttu-id="b19b6-114">**Dokumenta ID**</span><span class="sxs-lookup"><span data-stu-id="b19b6-114">**Document ID**</span></span> | <span data-ttu-id="b19b6-115">**Konts**</span><span class="sxs-lookup"><span data-stu-id="b19b6-115">**Account**</span></span> | <span data-ttu-id="b19b6-116">**Debets**</span><span class="sxs-lookup"><span data-stu-id="b19b6-116">**Debit**</span></span> | <span data-ttu-id="b19b6-117">**Kredīts**</span><span class="sxs-lookup"><span data-stu-id="b19b6-117">**Credit**</span></span> | <span data-ttu-id="b19b6-118">**Komentārs**</span><span class="sxs-lookup"><span data-stu-id="b19b6-118">**Comment**</span></span>                  |
 |-----------------|-------------|-----------|------------|------------------------------|
-| Rēķins0001     | Pirkš. konts   | 120       |            | Sākotnējais rēķins (nepareizs) |
-| Rēķins0001     | Kreditora konts  |           | 120        | Sākotnējais rēķins (nepareizs) |
+| <span data-ttu-id="b19b6-119">Rēķins0001</span><span class="sxs-lookup"><span data-stu-id="b19b6-119">Invoice0001</span></span>     | <span data-ttu-id="b19b6-120">Pirkš. konts</span><span class="sxs-lookup"><span data-stu-id="b19b6-120">Purch acc</span></span>   | <span data-ttu-id="b19b6-121">120</span><span class="sxs-lookup"><span data-stu-id="b19b6-121">120</span></span>       |            | <span data-ttu-id="b19b6-122">Sākotnējais rēķins (nepareizs)</span><span class="sxs-lookup"><span data-stu-id="b19b6-122">Original Invoice (incorrect)</span></span> |
+| <span data-ttu-id="b19b6-123">Rēķins0001</span><span class="sxs-lookup"><span data-stu-id="b19b6-123">Invoice0001</span></span>     | <span data-ttu-id="b19b6-124">Kreditora konts</span><span class="sxs-lookup"><span data-stu-id="b19b6-124">Vendor acc</span></span>  |           | <span data-ttu-id="b19b6-125">120</span><span class="sxs-lookup"><span data-stu-id="b19b6-125">120</span></span>        | <span data-ttu-id="b19b6-126">Sākotnējais rēķins (nepareizs)</span><span class="sxs-lookup"><span data-stu-id="b19b6-126">Original Invoice (incorrect)</span></span> |
 |                 |             |           |            |                              |
-| Storno0001      | Pirkš. konts   | -120     |            | Storno                       |
-| Storno0001      | Kreditora konts  |           | -120      | Storno                       |
+| <span data-ttu-id="b19b6-127">Storno0001</span><span class="sxs-lookup"><span data-stu-id="b19b6-127">Storno0001</span></span>      | <span data-ttu-id="b19b6-128">Pirkš. konts</span><span class="sxs-lookup"><span data-stu-id="b19b6-128">Purch acc</span></span>   | <span data-ttu-id="b19b6-129">-120</span><span class="sxs-lookup"><span data-stu-id="b19b6-129">-120</span></span>     |            | <span data-ttu-id="b19b6-130">Storno</span><span class="sxs-lookup"><span data-stu-id="b19b6-130">Storno</span></span>                       |
+| <span data-ttu-id="b19b6-131">Storno0001</span><span class="sxs-lookup"><span data-stu-id="b19b6-131">Storno0001</span></span>      | <span data-ttu-id="b19b6-132">Kreditora konts</span><span class="sxs-lookup"><span data-stu-id="b19b6-132">Vendor acc</span></span>  |           | <span data-ttu-id="b19b6-133">-120</span><span class="sxs-lookup"><span data-stu-id="b19b6-133">-120</span></span>      | <span data-ttu-id="b19b6-134">Storno</span><span class="sxs-lookup"><span data-stu-id="b19b6-134">Storno</span></span>                       |
 |                 |             |           |            |                              |
-| Rēķins0002     | Pirkš. konts   | 102       |            | Pareizais rēķins              |
-| Rēķins0002     | Kreditora konts  |           | 102        | Pareizais rēķins              |
+| <span data-ttu-id="b19b6-135">Rēķins0002</span><span class="sxs-lookup"><span data-stu-id="b19b6-135">Invoice0002</span></span>     | <span data-ttu-id="b19b6-136">Pirkš. konts</span><span class="sxs-lookup"><span data-stu-id="b19b6-136">Purch acc</span></span>   | <span data-ttu-id="b19b6-137">102</span><span class="sxs-lookup"><span data-stu-id="b19b6-137">102</span></span>       |            | <span data-ttu-id="b19b6-138">Pareizais rēķins</span><span class="sxs-lookup"><span data-stu-id="b19b6-138">Correct Invoice</span></span>              |
+| <span data-ttu-id="b19b6-139">Rēķins0002</span><span class="sxs-lookup"><span data-stu-id="b19b6-139">Invoice0002</span></span>     | <span data-ttu-id="b19b6-140">Kreditora konts</span><span class="sxs-lookup"><span data-stu-id="b19b6-140">Vendor acc</span></span>  |           | <span data-ttu-id="b19b6-141">102</span><span class="sxs-lookup"><span data-stu-id="b19b6-141">102</span></span>        | <span data-ttu-id="b19b6-142">Pareizais rēķins</span><span class="sxs-lookup"><span data-stu-id="b19b6-142">Correct Invoice</span></span>              |
 
-Šajā piemērā bilances pārskatā redzami tālāk norādītie dati.
+<span data-ttu-id="b19b6-143">Šajā piemērā bilances pārskatā redzami tālāk norādītie dati.</span><span class="sxs-lookup"><span data-stu-id="b19b6-143">In this example, the balance statement shows the following.</span></span>
 
-| Konts    | Debetkarte | Kredītkarte | Bilance |
+| <span data-ttu-id="b19b6-144">Konts</span><span class="sxs-lookup"><span data-stu-id="b19b6-144">Account</span></span>    | <span data-ttu-id="b19b6-145">Debetkarte</span><span class="sxs-lookup"><span data-stu-id="b19b6-145">Debit</span></span> | <span data-ttu-id="b19b6-146">Kredītkarte</span><span class="sxs-lookup"><span data-stu-id="b19b6-146">Credit</span></span> | <span data-ttu-id="b19b6-147">Bilance</span><span class="sxs-lookup"><span data-stu-id="b19b6-147">Balance</span></span> |
 |------------|-------|--------|---------|
-| Pirkš. konts  | 102   | 0      | 102     |
-| Kreditora konts | 0     | 102    | -102    |
+| <span data-ttu-id="b19b6-148">Pirkš. konts</span><span class="sxs-lookup"><span data-stu-id="b19b6-148">Purch acc</span></span>  | <span data-ttu-id="b19b6-149">102</span><span class="sxs-lookup"><span data-stu-id="b19b6-149">102</span></span>   | <span data-ttu-id="b19b6-150">0</span><span class="sxs-lookup"><span data-stu-id="b19b6-150">0</span></span>      | <span data-ttu-id="b19b6-151">102</span><span class="sxs-lookup"><span data-stu-id="b19b6-151">102</span></span>     |
+| <span data-ttu-id="b19b6-152">Kreditora konts</span><span class="sxs-lookup"><span data-stu-id="b19b6-152">Vendor acc</span></span> | <span data-ttu-id="b19b6-153">0</span><span class="sxs-lookup"><span data-stu-id="b19b6-153">0</span></span>     | <span data-ttu-id="b19b6-154">102</span><span class="sxs-lookup"><span data-stu-id="b19b6-154">102</span></span>    | <span data-ttu-id="b19b6-155">-102</span><span class="sxs-lookup"><span data-stu-id="b19b6-155">-102</span></span>    |
 
-## <a name="differences-between-storno-and-reverse-entries"></a>Atšķirības starp Storno un reversīvajiem ierakstiem
-Grāmatošanas ierakstus var labot divos veidos — ar reversīvajiem ierakstiem un Storno. Ja izmantojat reversīvo ierakstu, tiek izveidota sākotnējā vispārējā ieraksta kopija ar apgrieztiem debeta un kredīta kontiem un summas paliek ar to pašu zīmi. Ja izmantojat Storno, sistēma izveido sākotnējā vispārējā ieraksta kopiju, bet summas tiek reģistrētas ar negatīvu zīmi. Tālāk esošajā tabulā parādīts vispārējais Storno ieraksts.
+## <a name="differences-between-storno-and-reverse-entries"></a><span data-ttu-id="b19b6-156">Atšķirības starp Storno un reversīvajiem ierakstiem</span><span class="sxs-lookup"><span data-stu-id="b19b6-156">Differences between Storno and reverse entries</span></span>
+<span data-ttu-id="b19b6-157">Grāmatošanas ierakstus var labot divos veidos — ar reversīvajiem ierakstiem un Storno.</span><span class="sxs-lookup"><span data-stu-id="b19b6-157">There are two ways in which to correct posting entries – reverse and storno.</span></span> <span data-ttu-id="b19b6-158">Ja izmantojat reversīvo ierakstu, tiek izveidota sākotnējā vispārējā ieraksta kopija ar apgrieztiem debeta un kredīta kontiem un summas paliek ar to pašu zīmi.</span><span class="sxs-lookup"><span data-stu-id="b19b6-158">If you use a reverse entry, a copy of the original general entry is created with reverse debit and credit accounts, and the amounts remain with the same sign.</span></span> <span data-ttu-id="b19b6-159">Ja izmantojat Storno, sistēma izveido sākotnējā vispārējā ieraksta kopiju, bet summas tiek reģistrētas ar negatīvu zīmi.</span><span class="sxs-lookup"><span data-stu-id="b19b6-159">If you use Storno, the system creates a copy of the original general entry, but the amounts are recorded with a negative sign.</span></span> <span data-ttu-id="b19b6-160">Tālāk esošajā tabulā parādīts vispārējais Storno ieraksts.</span><span class="sxs-lookup"><span data-stu-id="b19b6-160">The following table shows the general entry for Storno.</span></span>
 
-| **Dokumenta ID** | **Konts** | **Debets** | **Kredīts** | **Komentārs**                  |
+| <span data-ttu-id="b19b6-161">**Dokumenta ID**</span><span class="sxs-lookup"><span data-stu-id="b19b6-161">**Document ID**</span></span> | <span data-ttu-id="b19b6-162">**Konts**</span><span class="sxs-lookup"><span data-stu-id="b19b6-162">**Account**</span></span> | <span data-ttu-id="b19b6-163">**Debets**</span><span class="sxs-lookup"><span data-stu-id="b19b6-163">**Debit**</span></span> | <span data-ttu-id="b19b6-164">**Kredīts**</span><span class="sxs-lookup"><span data-stu-id="b19b6-164">**Credit**</span></span> | <span data-ttu-id="b19b6-165">**Komentārs**</span><span class="sxs-lookup"><span data-stu-id="b19b6-165">**Comment**</span></span>                  |
 |-----------------|-------------|-----------|------------|------------------------------|
-| Rēķins0001     | Pirkš. konts   | 120       |            | Sākotnējais rēķins (nepareizs) |
-| Rēķins0001     | Kreditora konts  |           | 120        | Sākotnējais rēķins (nepareizs) |
+| <span data-ttu-id="b19b6-166">Rēķins0001</span><span class="sxs-lookup"><span data-stu-id="b19b6-166">Invoice0001</span></span>     | <span data-ttu-id="b19b6-167">Pirkš. konts</span><span class="sxs-lookup"><span data-stu-id="b19b6-167">Purch acc</span></span>   | <span data-ttu-id="b19b6-168">120</span><span class="sxs-lookup"><span data-stu-id="b19b6-168">120</span></span>       |            | <span data-ttu-id="b19b6-169">Sākotnējais rēķins (nepareizs)</span><span class="sxs-lookup"><span data-stu-id="b19b6-169">Original Invoice (incorrect)</span></span> |
+| <span data-ttu-id="b19b6-170">Rēķins0001</span><span class="sxs-lookup"><span data-stu-id="b19b6-170">Invoice0001</span></span>     | <span data-ttu-id="b19b6-171">Kreditora konts</span><span class="sxs-lookup"><span data-stu-id="b19b6-171">Vendor acc</span></span>  |           | <span data-ttu-id="b19b6-172">120</span><span class="sxs-lookup"><span data-stu-id="b19b6-172">120</span></span>        | <span data-ttu-id="b19b6-173">Sākotnējais rēķins (nepareizs)</span><span class="sxs-lookup"><span data-stu-id="b19b6-173">Original Invoice (incorrect)</span></span> |
 |                 |             |           |            |                              |
-| Reversīvais0001     | Pirkš. konts   |           | 120        | Apgriezt                      |
-| Reversīvais0001     | Kreditora konts  | 120       |            | Apgriezt                      |
+| <span data-ttu-id="b19b6-174">Reversīvais0001</span><span class="sxs-lookup"><span data-stu-id="b19b6-174">Reverse0001</span></span>     | <span data-ttu-id="b19b6-175">Pirkš. konts</span><span class="sxs-lookup"><span data-stu-id="b19b6-175">Purch acc</span></span>   |           | <span data-ttu-id="b19b6-176">120</span><span class="sxs-lookup"><span data-stu-id="b19b6-176">120</span></span>        | <span data-ttu-id="b19b6-177">Apgriezt</span><span class="sxs-lookup"><span data-stu-id="b19b6-177">Reverse</span></span>                      |
+| <span data-ttu-id="b19b6-178">Reversīvais0001</span><span class="sxs-lookup"><span data-stu-id="b19b6-178">Reverse0001</span></span>     | <span data-ttu-id="b19b6-179">Kreditora konts</span><span class="sxs-lookup"><span data-stu-id="b19b6-179">Vendor acc</span></span>  | <span data-ttu-id="b19b6-180">120</span><span class="sxs-lookup"><span data-stu-id="b19b6-180">120</span></span>       |            | <span data-ttu-id="b19b6-181">Apgriezt</span><span class="sxs-lookup"><span data-stu-id="b19b6-181">Reverse</span></span>                      |
 |                 |             |           |            |                              |
-| Rēķins0002     | Pirkš. konts   | 102       |            | Pareizais rēķins              |
-| Rēķins0002     | Kreditora konts  |           | 102        | Pareizais rēķins              |
+| <span data-ttu-id="b19b6-182">Rēķins0002</span><span class="sxs-lookup"><span data-stu-id="b19b6-182">Invoice0002</span></span>     | <span data-ttu-id="b19b6-183">Pirkš. konts</span><span class="sxs-lookup"><span data-stu-id="b19b6-183">Purch acc</span></span>   | <span data-ttu-id="b19b6-184">102</span><span class="sxs-lookup"><span data-stu-id="b19b6-184">102</span></span>       |            | <span data-ttu-id="b19b6-185">Pareizais rēķins</span><span class="sxs-lookup"><span data-stu-id="b19b6-185">Correct Invoice</span></span>              |
+| <span data-ttu-id="b19b6-186">Rēķins0002</span><span class="sxs-lookup"><span data-stu-id="b19b6-186">Invoice0002</span></span>     | <span data-ttu-id="b19b6-187">Kreditora konts</span><span class="sxs-lookup"><span data-stu-id="b19b6-187">Vendor acc</span></span>  |           | <span data-ttu-id="b19b6-188">102</span><span class="sxs-lookup"><span data-stu-id="b19b6-188">102</span></span>        | <span data-ttu-id="b19b6-189">Pareizais rēķins</span><span class="sxs-lookup"><span data-stu-id="b19b6-189">Correct Invoice</span></span>              |
 
-Šajā piemērā bilances pārskatā redzami tālāk norādītie dati.
+<span data-ttu-id="b19b6-190">Šajā piemērā bilances pārskatā redzami tālāk norādītie dati.</span><span class="sxs-lookup"><span data-stu-id="b19b6-190">In this example, the balance statement shows the following.</span></span>
 
-| Konts    | Debetkarte | Kredītkarte | Bilance |
+| <span data-ttu-id="b19b6-191">Konts</span><span class="sxs-lookup"><span data-stu-id="b19b6-191">Account</span></span>    | <span data-ttu-id="b19b6-192">Debetkarte</span><span class="sxs-lookup"><span data-stu-id="b19b6-192">Debit</span></span> | <span data-ttu-id="b19b6-193">Kredītkarte</span><span class="sxs-lookup"><span data-stu-id="b19b6-193">Credit</span></span> | <span data-ttu-id="b19b6-194">Bilance</span><span class="sxs-lookup"><span data-stu-id="b19b6-194">Balance</span></span> |
 |------------|-------|--------|---------|
-| Pirkš. konts  | 222   | 120    | 102     |
-| Kreditora konts | 120   | 222    | -102    |
+| <span data-ttu-id="b19b6-195">Pirkš. konts</span><span class="sxs-lookup"><span data-stu-id="b19b6-195">Purch acc</span></span>  | <span data-ttu-id="b19b6-196">222</span><span class="sxs-lookup"><span data-stu-id="b19b6-196">222</span></span>   | <span data-ttu-id="b19b6-197">120</span><span class="sxs-lookup"><span data-stu-id="b19b6-197">120</span></span>    | <span data-ttu-id="b19b6-198">102</span><span class="sxs-lookup"><span data-stu-id="b19b6-198">102</span></span>     |
+| <span data-ttu-id="b19b6-199">Kreditora konts</span><span class="sxs-lookup"><span data-stu-id="b19b6-199">Vendor acc</span></span> | <span data-ttu-id="b19b6-200">120</span><span class="sxs-lookup"><span data-stu-id="b19b6-200">120</span></span>   | <span data-ttu-id="b19b6-201">222</span><span class="sxs-lookup"><span data-stu-id="b19b6-201">222</span></span>    | <span data-ttu-id="b19b6-202">-102</span><span class="sxs-lookup"><span data-stu-id="b19b6-202">-102</span></span>    |
 
-Ņemiet vērā, ka bilances reversīvajiem ierakstiem un Storno ir vienādas. Pastāv atšķirība starp debeta apgrozījumu un kredīta apgrozījums, jo reversīvais ieraksts rada lieku debeta un kredīta apgrozījumu. Reversīvo ierakstu lieto valstīs/reģionos, kur apgrozījumu reti izmanto. Citās valstīs/reģionos izmanto Storno uzskaiti.
+<span data-ttu-id="b19b6-203">Ņemiet vērā, ka bilances reversīvajiem ierakstiem un Storno ir vienādas.</span><span class="sxs-lookup"><span data-stu-id="b19b6-203">Note that the balances are equal for the reverse and the storno.</span></span> <span data-ttu-id="b19b6-204">Pastāv atšķirība starp debeta apgrozījumu un kredīta apgrozījums, jo reversīvais ieraksts rada lieku debeta un kredīta apgrozījumu.</span><span class="sxs-lookup"><span data-stu-id="b19b6-204">There is a difference between debit turnover and credit turnover, because the reverse entry makes redundant debit and credit turnover.</span></span> <span data-ttu-id="b19b6-205">Reversīvo ierakstu lieto valstīs/reģionos, kur apgrozījumu reti izmanto.</span><span class="sxs-lookup"><span data-stu-id="b19b6-205">The reverse entry is used in countries/regions where turnover is rarely use.</span></span> <span data-ttu-id="b19b6-206">Citās valstīs/reģionos izmanto Storno uzskaiti.</span><span class="sxs-lookup"><span data-stu-id="b19b6-206">Other countries/regions use Storno accounting.</span></span>
 
-## <a name="partial-storno"></a>Daļējais Storno
-*Daļējais Storno* ir uzskaites prakse, kurā tiek izmantotas negatīvas debeta vai kredīta summas, lai apgrieztu daļu no sākotnējiem žurnāla konta ierakstiem. Dažās valstīs/reģionos ir atļauts izmantot daļējo Storno. Piemēram, grāmatvedis grāmato kreditora rēķinu par summu 120 USD. Maksāšanas procesa laikā tiek atklāts, ka grāmatvedis kļūdaini ievadījis nepareizu numuru sēriju. Sākotnējā rēķinā par summu 102 USD bija kļūda numuru sērijā. Izmantojot daļējo Storno, grāmatvedim ir jāizveido Storno par 18 USD. Tālāk esošajā tabulā parādīts vispārējais daļējā Storno ieraksts.
+## <a name="partial-storno"></a><span data-ttu-id="b19b6-207">Daļējais Storno</span><span class="sxs-lookup"><span data-stu-id="b19b6-207">Partial Storno</span></span>
+<span data-ttu-id="b19b6-208">*Daļējais Storno* ir uzskaites prakse, kurā tiek izmantotas negatīvas debeta vai kredīta summas, lai apgrieztu daļu no sākotnējiem žurnāla konta ierakstiem.</span><span class="sxs-lookup"><span data-stu-id="b19b6-208">*Partial Storno* is an accounting practice of using negative debit or credit amounts to reverse part of the original journal account entries.</span></span> <span data-ttu-id="b19b6-209">Dažās valstīs/reģionos ir atļauts izmantot daļējo Storno.</span><span class="sxs-lookup"><span data-stu-id="b19b6-209">Some countries/regions allow the use the partial Storno.</span></span> <span data-ttu-id="b19b6-210">Piemēram, grāmatvedis grāmato kreditora rēķinu par summu 120 USD.</span><span class="sxs-lookup"><span data-stu-id="b19b6-210">For example, a bookkeeper posts an invoice from a vendor for 120 USD.</span></span> <span data-ttu-id="b19b6-211">Maksāšanas procesa laikā tiek atklāts, ka grāmatvedis kļūdaini ievadījis nepareizu numuru sēriju.</span><span class="sxs-lookup"><span data-stu-id="b19b6-211">During the payment process, it's discovered that the bookkeeper mistakenly entered an incorrect number sequence.</span></span> <span data-ttu-id="b19b6-212">Sākotnējā rēķinā par summu 102 USD bija kļūda numuru sērijā.</span><span class="sxs-lookup"><span data-stu-id="b19b6-212">The original invoice for 102 USD had a mistake in the number sequence.</span></span> <span data-ttu-id="b19b6-213">Izmantojot daļējo Storno, grāmatvedim ir jāizveido Storno par 18 USD.</span><span class="sxs-lookup"><span data-stu-id="b19b6-213">Using partial Storno, the bookkeeper should create Storno for 18 USD.</span></span> <span data-ttu-id="b19b6-214">Tālāk esošajā tabulā parādīts vispārējais daļējā Storno ieraksts.</span><span class="sxs-lookup"><span data-stu-id="b19b6-214">The following table shows the general entry for partial Storno.</span></span>
 
-| **Dokumenta ID** | **Konts** | **Debets** | **Kredīts** | **Komentārs**                  |
+| <span data-ttu-id="b19b6-215">**Dokumenta ID**</span><span class="sxs-lookup"><span data-stu-id="b19b6-215">**Document ID**</span></span> | <span data-ttu-id="b19b6-216">**Konts**</span><span class="sxs-lookup"><span data-stu-id="b19b6-216">**Account**</span></span> | <span data-ttu-id="b19b6-217">**Debets**</span><span class="sxs-lookup"><span data-stu-id="b19b6-217">**Debit**</span></span> | <span data-ttu-id="b19b6-218">**Kredīts**</span><span class="sxs-lookup"><span data-stu-id="b19b6-218">**Credit**</span></span> | <span data-ttu-id="b19b6-219">**Komentārs**</span><span class="sxs-lookup"><span data-stu-id="b19b6-219">**Comment**</span></span>                  |
 |-----------------|-------------|-----------|------------|------------------------------|
-| Rēķins0001     | Pirkš. konts   | 120       |            | Sākotnējais rēķins (nepareizs) |
-| Rēķins0001     | Kreditora konts  |           | 120        | Sākotnējais rēķins (nepareizs) |
+| <span data-ttu-id="b19b6-220">Rēķins0001</span><span class="sxs-lookup"><span data-stu-id="b19b6-220">Invoice0001</span></span>     | <span data-ttu-id="b19b6-221">Pirkš. konts</span><span class="sxs-lookup"><span data-stu-id="b19b6-221">Purch acc</span></span>   | <span data-ttu-id="b19b6-222">120</span><span class="sxs-lookup"><span data-stu-id="b19b6-222">120</span></span>       |            | <span data-ttu-id="b19b6-223">Sākotnējais rēķins (nepareizs)</span><span class="sxs-lookup"><span data-stu-id="b19b6-223">Original Invoice (incorrect)</span></span> |
+| <span data-ttu-id="b19b6-224">Rēķins0001</span><span class="sxs-lookup"><span data-stu-id="b19b6-224">Invoice0001</span></span>     | <span data-ttu-id="b19b6-225">Kreditora konts</span><span class="sxs-lookup"><span data-stu-id="b19b6-225">Vendor acc</span></span>  |           | <span data-ttu-id="b19b6-226">120</span><span class="sxs-lookup"><span data-stu-id="b19b6-226">120</span></span>        | <span data-ttu-id="b19b6-227">Sākotnējais rēķins (nepareizs)</span><span class="sxs-lookup"><span data-stu-id="b19b6-227">Original Invoice (incorrect)</span></span> |
 |                 |             |           |            |                              |
-| Storno0001      | Pirkš. konts   | \-18      |            | Daļējais Storno               |
-| Storno0001      | Kreditora konts  |           | \-18       | Daļējais Storno               |
+| <span data-ttu-id="b19b6-228">Storno0001</span><span class="sxs-lookup"><span data-stu-id="b19b6-228">Storno0001</span></span>      | <span data-ttu-id="b19b6-229">Pirkš. konts</span><span class="sxs-lookup"><span data-stu-id="b19b6-229">Purch acc</span></span>   | <span data-ttu-id="b19b6-230">\-18</span><span class="sxs-lookup"><span data-stu-id="b19b6-230">\-18</span></span>      |            | <span data-ttu-id="b19b6-231">Daļējais Storno</span><span class="sxs-lookup"><span data-stu-id="b19b6-231">Partial Storno</span></span>               |
+| <span data-ttu-id="b19b6-232">Storno0001</span><span class="sxs-lookup"><span data-stu-id="b19b6-232">Storno0001</span></span>      | <span data-ttu-id="b19b6-233">Kreditora konts</span><span class="sxs-lookup"><span data-stu-id="b19b6-233">Vendor acc</span></span>  |           | <span data-ttu-id="b19b6-234">\-18</span><span class="sxs-lookup"><span data-stu-id="b19b6-234">\-18</span></span>       | <span data-ttu-id="b19b6-235">Daļējais Storno</span><span class="sxs-lookup"><span data-stu-id="b19b6-235">Partial Storno</span></span>               |
 
-Šajā piemērā bilances pārskatā redzami tālāk norādītie dati.
+<span data-ttu-id="b19b6-236">Šajā piemērā bilances pārskatā redzami tālāk norādītie dati.</span><span class="sxs-lookup"><span data-stu-id="b19b6-236">In this example, the balance statement shows the following.</span></span>
 
-| Konts    | Debetkarte | Kredītkarte | Bilance |
+| <span data-ttu-id="b19b6-237">Konts</span><span class="sxs-lookup"><span data-stu-id="b19b6-237">Account</span></span>    | <span data-ttu-id="b19b6-238">Debetkarte</span><span class="sxs-lookup"><span data-stu-id="b19b6-238">Debit</span></span> | <span data-ttu-id="b19b6-239">Kredītkarte</span><span class="sxs-lookup"><span data-stu-id="b19b6-239">Credit</span></span> | <span data-ttu-id="b19b6-240">Bilance</span><span class="sxs-lookup"><span data-stu-id="b19b6-240">Balance</span></span> |
 |------------|-------|--------|---------|
-| Pirkš. konts  | 102   | 0      | 102     |
-| Kreditora konts | 0     | 102    | -102    |
+| <span data-ttu-id="b19b6-241">Pirkš. konts</span><span class="sxs-lookup"><span data-stu-id="b19b6-241">Purch acc</span></span>  | <span data-ttu-id="b19b6-242">102</span><span class="sxs-lookup"><span data-stu-id="b19b6-242">102</span></span>   | <span data-ttu-id="b19b6-243">0</span><span class="sxs-lookup"><span data-stu-id="b19b6-243">0</span></span>      | <span data-ttu-id="b19b6-244">102</span><span class="sxs-lookup"><span data-stu-id="b19b6-244">102</span></span>     |
+| <span data-ttu-id="b19b6-245">Kreditora konts</span><span class="sxs-lookup"><span data-stu-id="b19b6-245">Vendor acc</span></span> | <span data-ttu-id="b19b6-246">0</span><span class="sxs-lookup"><span data-stu-id="b19b6-246">0</span></span>     | <span data-ttu-id="b19b6-247">102</span><span class="sxs-lookup"><span data-stu-id="b19b6-247">102</span></span>    | <span data-ttu-id="b19b6-248">-102</span><span class="sxs-lookup"><span data-stu-id="b19b6-248">-102</span></span>    |
 
-Daļējais Storno oriģināla formā var radīt problēmu. Ja pastāv atšķirība starp sākotnējā dokumenta datumu un Storno datumu, var būt sarežģīti iegūt pareizu valūtas summu. Tādēļ daļējais Storno ir atļauts tikai noteiktiem dokumentiem. Microsoft Dynamics 365 for Operations nodrošina daļējā Storno funkcionalitāti dokumentiem valstīs/reģionos, kur tas ir atļauts.
+<span data-ttu-id="b19b6-249">Daļējais Storno oriģināla formā var radīt problēmu.</span><span class="sxs-lookup"><span data-stu-id="b19b6-249">Partial Storno can create an issue on the Original Print form.</span></span> <span data-ttu-id="b19b6-250">Ja pastāv atšķirība starp sākotnējā dokumenta datumu un Storno datumu, var būt sarežģīti iegūt pareizu valūtas summu.</span><span class="sxs-lookup"><span data-stu-id="b19b6-250">If there is a difference between the date of the original document and the date of Storno, it can make it difficult to get an accurate currency amount.</span></span> <span data-ttu-id="b19b6-251">Tādēļ daļējais Storno ir atļauts tikai noteiktiem dokumentiem.</span><span class="sxs-lookup"><span data-stu-id="b19b6-251">As a result, partial Storno is only allowed for certain documents.</span></span> <span data-ttu-id="b19b6-252">Microsoft Dynamics 365 for Operations nodrošina daļējā Storno funkcionalitāti dokumentiem valstīs/reģionos, kur tas ir atļauts.</span><span class="sxs-lookup"><span data-stu-id="b19b6-252">Microsoft Dynamics 365 for Operations provides partial Storno functionality for documents and countries/regions where it is allowed.</span></span>
 
-## <a name="how-to-enter-storno-on-journal-lines"></a>Storno ievadīšana žurnāla rindās
-Lai veiktu Storno ierakstu, žurnāla rindā ievadiet debeta vai kredīta summu ar negatīvu zīmi. Grāmatošanas procesa laikā tiek iestatīts lauks **Labojums**. 
+## <a name="how-to-enter-storno-on-journal-lines"></a><span data-ttu-id="b19b6-253">Storno ievadīšana žurnāla rindās</span><span class="sxs-lookup"><span data-stu-id="b19b6-253">How to enter Storno on journal lines</span></span>
+<span data-ttu-id="b19b6-254">Lai veiktu Storno ierakstu, žurnāla rindā ievadiet debeta vai kredīta summu ar negatīvu zīmi.</span><span class="sxs-lookup"><span data-stu-id="b19b6-254">Enter the debit or credit amount with a negative sign on the journal line to make a Storno entry.</span></span> <span data-ttu-id="b19b6-255">Grāmatošanas procesa laikā tiek iestatīts lauks **Labojums**.</span><span class="sxs-lookup"><span data-stu-id="b19b6-255">The **Correction** field is set during the posting process.</span></span> 
 
-## <a name="how-storno-is-displayed"></a>Kā Storno tiek attēlots
-Dynamics 365 for Operations negatīvās žurnāla summas apstrādā īpašā veidā. Vispārējais žurnāla ieraksts, debitora transakcija, kreditora transakcija un citas transakcijas nodrošina Storno funkciju, kā parādīts tālāk.
+## <a name="how-storno-is-displayed"></a><span data-ttu-id="b19b6-256">Kā Storno tiek attēlots</span><span class="sxs-lookup"><span data-stu-id="b19b6-256">How Storno is displayed</span></span>
+<span data-ttu-id="b19b6-257">Dynamics 365 for Operations negatīvās žurnāla summas apstrādā īpašā veidā.</span><span class="sxs-lookup"><span data-stu-id="b19b6-257">Dynamics 365 for Operations handles negative journal amounts in a special way.</span></span> <span data-ttu-id="b19b6-258">Vispārējais žurnāla ieraksts, debitora transakcija, kreditora transakcija un citas transakcijas nodrošina Storno funkciju, kā parādīts tālāk.</span><span class="sxs-lookup"><span data-stu-id="b19b6-258">The general journal entry, customer transaction, vendor transaction, and other transactions provide a Storno function, as shown below.</span></span>
 
 <table>
 <thead>
 <tr class="row-1">
-<th class="column-1" rowspan="2">Lietotāja ievade žurnāla rindā</th>
-<th class="column-2" colspan="2">Saglabāšanas princips</th>
-<th class="column-4" colspan="2">Princips</th>
-<th class="column-6" colspan="3">Ietekme uz izraksta pārskatu</th>
+<th class="column-1" rowspan="2"><span data-ttu-id="b19b6-259">Lietotāja ievade žurnāla rindā</span><span class="sxs-lookup"><span data-stu-id="b19b6-259">User input at journal line</span></span></th>
+<th class="column-2" colspan="2"><span data-ttu-id="b19b6-260">Saglabāšanas princips</span><span class="sxs-lookup"><span data-stu-id="b19b6-260">Storage principle</span></span></th>
+<th class="column-4" colspan="2"><span data-ttu-id="b19b6-261">Princips</span><span class="sxs-lookup"><span data-stu-id="b19b6-261">Display principle</span></span></th>
+<th class="column-6" colspan="3"><span data-ttu-id="b19b6-262">Ietekme uz izraksta pārskatu</span><span class="sxs-lookup"><span data-stu-id="b19b6-262">Impact to the Statement report</span></span></th>
 </tr>
 <tr class="row-1">
-<th class="column-2">Labojuma lauks</th>
-<th class="column-3">Summas lauks</th>
-<th class="column-4">Summa darījuma valūtā</th>
-<th class="column-5">Summa</th>
-<th class="column-6">Debeta kolonna</th>
-<th class="column-7">Kredīta kolonna</th>
-<th class="column-8">Bilances kolonna</th>
+<th class="column-2"><span data-ttu-id="b19b6-263">Labojuma lauks</span><span class="sxs-lookup"><span data-stu-id="b19b6-263">Correction field</span></span></th>
+<th class="column-3"><span data-ttu-id="b19b6-264">Summas lauks</span><span class="sxs-lookup"><span data-stu-id="b19b6-264">Amount field</span></span></th>
+<th class="column-4"><span data-ttu-id="b19b6-265">Summa darījuma valūtā</span><span class="sxs-lookup"><span data-stu-id="b19b6-265">Amount in transaction currency</span></span></th>
+<th class="column-5"><span data-ttu-id="b19b6-266">Summa</span><span class="sxs-lookup"><span data-stu-id="b19b6-266">Amount</span></span></th>
+<th class="column-6"><span data-ttu-id="b19b6-267">Debeta kolonna</span><span class="sxs-lookup"><span data-stu-id="b19b6-267">Debit column</span></span></th>
+<th class="column-7"><span data-ttu-id="b19b6-268">Kredīta kolonna</span><span class="sxs-lookup"><span data-stu-id="b19b6-268">Credit column</span></span></th>
+<th class="column-8"><span data-ttu-id="b19b6-269">Bilances kolonna</span><span class="sxs-lookup"><span data-stu-id="b19b6-269">Balance column</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="row-2">
-<td class="column-1"> Debetkarte</td>
-<td class="column-2">Nav</td>
-<td class="column-3">&gt;0</td>
-<td class="column-4" align="right">Summa</td>
-<td class="column-5" align="right">Summa</td>
-<td class="column-6">Pieaug</td>
+<td class="column-1"> <span data-ttu-id="b19b6-270">Debetkarte</span><span class="sxs-lookup"><span data-stu-id="b19b6-270">Debit</span></span></td>
+<td class="column-2"><span data-ttu-id="b19b6-271">Nav</span><span class="sxs-lookup"><span data-stu-id="b19b6-271">No</span></span></td>
+<td class="column-3"><span data-ttu-id="b19b6-272">&gt;0</span><span class="sxs-lookup"><span data-stu-id="b19b6-272">&gt;0</span></span></td>
+<td class="column-4" align="right"><span data-ttu-id="b19b6-273">Summa</span><span class="sxs-lookup"><span data-stu-id="b19b6-273">Amount</span></span></td>
+<td class="column-5" align="right"><span data-ttu-id="b19b6-274">Summa</span><span class="sxs-lookup"><span data-stu-id="b19b6-274">Amount</span></span></td>
+<td class="column-6"><span data-ttu-id="b19b6-275">Pieaug</span><span class="sxs-lookup"><span data-stu-id="b19b6-275">Increases</span></span></td>
 <td class="column-7"></td>
-<td class="column-8">Pieaug</td>
+<td class="column-8"><span data-ttu-id="b19b6-276">Pieaug</span><span class="sxs-lookup"><span data-stu-id="b19b6-276">Increases</span></span></td>
 </tr>
 <tr class="row-3">
-<td class="column-1"> Kredītkarte</td>
-<td class="column-2">Nav</td>
-<td class="column-3">&lt;0</td>
-<td class="column-4" align="right">-Summa</td>
-<td class="column-5" align="right">Summa</td>
+<td class="column-1"> <span data-ttu-id="b19b6-277">Kredītkarte</span><span class="sxs-lookup"><span data-stu-id="b19b6-277">Credit</span></span></td>
+<td class="column-2"><span data-ttu-id="b19b6-278">Nav</span><span class="sxs-lookup"><span data-stu-id="b19b6-278">No</span></span></td>
+<td class="column-3"><span data-ttu-id="b19b6-279">&lt;0</span><span class="sxs-lookup"><span data-stu-id="b19b6-279">&lt;0</span></span></td>
+<td class="column-4" align="right"><span data-ttu-id="b19b6-280">-Summa</span><span class="sxs-lookup"><span data-stu-id="b19b6-280">-Amount</span></span></td>
+<td class="column-5" align="right"><span data-ttu-id="b19b6-281">Summa</span><span class="sxs-lookup"><span data-stu-id="b19b6-281">Amount</span></span></td>
 <td class="column-6"></td>
-<td class="column-7">Pieaug</td>
-<td class="column-8">Samazinās</td>
+<td class="column-7"><span data-ttu-id="b19b6-282">Pieaug</span><span class="sxs-lookup"><span data-stu-id="b19b6-282">Increases</span></span></td>
+<td class="column-8"><span data-ttu-id="b19b6-283">Samazinās</span><span class="sxs-lookup"><span data-stu-id="b19b6-283">Decreases</span></span></td>
 </tr>
 <tr class="row-4">
-<td class="column-1">-Debets</td>
-<td class="column-2">Jā</td>
-<td class="column-3">&gt;0</td>
-<td class="column-4" align="right">+Summa</td>
-<td class="column-5" align="right">-Summa</td>
-<td class="column-6">Samazinās</td>
+<td class="column-1"><span data-ttu-id="b19b6-284">-Debets</span><span class="sxs-lookup"><span data-stu-id="b19b6-284">-Debit</span></span></td>
+<td class="column-2"><span data-ttu-id="b19b6-285">Jā</span><span class="sxs-lookup"><span data-stu-id="b19b6-285">Yes</span></span></td>
+<td class="column-3"><span data-ttu-id="b19b6-286">&gt;0</span><span class="sxs-lookup"><span data-stu-id="b19b6-286">&gt;0</span></span></td>
+<td class="column-4" align="right"><span data-ttu-id="b19b6-287">+Summa</span><span class="sxs-lookup"><span data-stu-id="b19b6-287">+Amount</span></span></td>
+<td class="column-5" align="right"><span data-ttu-id="b19b6-288">-Summa</span><span class="sxs-lookup"><span data-stu-id="b19b6-288">-Amount</span></span></td>
+<td class="column-6"><span data-ttu-id="b19b6-289">Samazinās</span><span class="sxs-lookup"><span data-stu-id="b19b6-289">Decreases</span></span></td>
 <td class="column-7"></td>
-<td class="column-8">Pieaug</td>
+<td class="column-8"><span data-ttu-id="b19b6-290">Pieaug</span><span class="sxs-lookup"><span data-stu-id="b19b6-290">Increases</span></span></td>
 </tr>
 <tr class="row-5">
-<td class="column-1">-Kredīts</td>
-<td class="column-2">Jā</td>
-<td class="column-3">&lt;0</td>
-<td class="column-4" align="right">-Summa</td>
-<td class="column-5" align="right">-Summa</td>
+<td class="column-1"><span data-ttu-id="b19b6-291">-Kredīts</span><span class="sxs-lookup"><span data-stu-id="b19b6-291">-Credit</span></span></td>
+<td class="column-2"><span data-ttu-id="b19b6-292">Jā</span><span class="sxs-lookup"><span data-stu-id="b19b6-292">Yes</span></span></td>
+<td class="column-3"><span data-ttu-id="b19b6-293">&lt;0</span><span class="sxs-lookup"><span data-stu-id="b19b6-293">&lt;0</span></span></td>
+<td class="column-4" align="right"><span data-ttu-id="b19b6-294">-Summa</span><span class="sxs-lookup"><span data-stu-id="b19b6-294">-Amount</span></span></td>
+<td class="column-5" align="right"><span data-ttu-id="b19b6-295">-Summa</span><span class="sxs-lookup"><span data-stu-id="b19b6-295">-Amount</span></span></td>
 <td class="column-6"></td>
-<td class="column-7">Samazinās</td>
-<td class="column-8">Samazinās</td>
+<td class="column-7"><span data-ttu-id="b19b6-296">Samazinās</span><span class="sxs-lookup"><span data-stu-id="b19b6-296">Decreases</span></span></td>
+<td class="column-8"><span data-ttu-id="b19b6-297">Samazinās</span><span class="sxs-lookup"><span data-stu-id="b19b6-297">Decreases</span></span></td>
 </tr>
 </tbody>
 </table>
 
-Varat pielāgot Storno attēlojumu formās, režģos, kolonnās un laukos. Piemēram, varat izslēgt zīmju attēlojumu vai mainīt atkāpi negatīvajām summām. Varat izmantot arī lauku **Labojums** ar visiem rādīšanas iestatījumiem; ja lauks **Labojums** ir iestatīts uz Jā, tas ir Storno ieraksts.
+<span data-ttu-id="b19b6-298">Varat pielāgot Storno attēlojumu formās, režģos, kolonnās un laukos.</span><span class="sxs-lookup"><span data-stu-id="b19b6-298">You can customize the display of Storno in forms, grids, columns, and fields.</span></span> <span data-ttu-id="b19b6-299">Piemēram, varat izslēgt zīmju attēlojumu vai mainīt atkāpi negatīvajām summām.</span><span class="sxs-lookup"><span data-stu-id="b19b6-299">For example, you can turn off sign display or change padding for negative amounts.</span></span> <span data-ttu-id="b19b6-300">Varat izmantot arī lauku **Labojums** ar visiem rādīšanas iestatījumiem; ja lauks **Labojums** ir iestatīts uz Jā, tas ir Storno ieraksts.</span><span class="sxs-lookup"><span data-stu-id="b19b6-300">You can also use the **Correction** field with all display settings, if the **Correction** field has ‘Yes’, then it is a Storno entry.</span></span>
 
 ![Žurnāla ieraksta Storno summas](./media/journal-storno.png)
 
-## <a name="how-documents-create-storno"></a>Kā dokumenti izveido Storno
-Noteikti dokumenti izveido atcelšanas transakcijas. Piemēram, ārvalstu valūtas pārvērtēšanas virsgrāmatai, kreditoru un debitoru parādu dokumenti atceļ nerealizēto peļņu un zaudējumus. Papildinformāciju skatiet rakstā [Ārvalstu valūtas pārvērtēšana virsgrāmatai](../general-ledger/foreign-currency-revaluation-general-ledger.md) vai [Kreditori un debitoru parādi](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md). Pēc atcelšanas transakcijas izveides tiks izveidotas jaunas transakcijas ar nerealizēto peļņu un zaudējumiem. Atcelšanas transakcijas tiek izveidotas arī krājumiem. Papildinformāciju skatiet rakstā [Krājumu slēgšana](/dynamics365/unified-operations/supply-chain/cost-management/inventory-close). Ir dokumenti, kas ļauj atcelt iepriekš grāmatotu dokumentu. Piemēram, lietotājs var izveidot kredīta notu, lai atceltu iepriekš izveidotu rēķinu. Dokumentos tiek izmantoti konkrēti parametri, lai izveidotu reversīvās vai Storno transakcijas. Piemēram, ārvalstu valūtas pārvērtēšana izveido reversīvas vai Storno transakcijas, pamatojoties uz virsgrāmatas labojuma parametru. Debitora kredīta nota izveido reversīvas vai Storno transakcijas, pamatojoties uz debitoru parādu kredīta notas labojuma parametru.
+## <a name="how-documents-create-storno"></a><span data-ttu-id="b19b6-302">Kā dokumenti izveido Storno</span><span class="sxs-lookup"><span data-stu-id="b19b6-302">How documents create Storno</span></span>
+<span data-ttu-id="b19b6-303">Noteikti dokumenti izveido atcelšanas transakcijas.</span><span class="sxs-lookup"><span data-stu-id="b19b6-303">Certain documents create cancellation transactions.</span></span> <span data-ttu-id="b19b6-304">Piemēram, ārvalstu valūtas pārvērtēšanas virsgrāmatai, kreditoru un debitoru parādu dokumenti atceļ nerealizēto peļņu un zaudējumus.</span><span class="sxs-lookup"><span data-stu-id="b19b6-304">For example, the foreign currency revaluation for general ledger, accounts payable, and accounts receivable documents cancel unrealized gain and loss.</span></span> <span data-ttu-id="b19b6-305">Papildinformāciju skatiet rakstā [Ārvalstu valūtas pārvērtēšana virsgrāmatai](../general-ledger/foreign-currency-revaluation-general-ledger.md) vai [Kreditori un debitoru parādi](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md).</span><span class="sxs-lookup"><span data-stu-id="b19b6-305">For more details, see [Foreign currency revaluation for General Ledger](../general-ledger/foreign-currency-revaluation-general-ledger.md) or [Accounts payable and Accounts receivable](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md).</span></span> <span data-ttu-id="b19b6-306">Pēc atcelšanas transakcijas izveides tiks izveidotas jaunas transakcijas ar nerealizēto peļņu un zaudējumiem.</span><span class="sxs-lookup"><span data-stu-id="b19b6-306">After a cancellation transaction is created, new transactions will be created with unrealized gain and loss.</span></span> <span data-ttu-id="b19b6-307">Atcelšanas transakcijas tiek izveidotas arī krājumiem.</span><span class="sxs-lookup"><span data-stu-id="b19b6-307">Cancellation transactions are also created for inventory.</span></span> <span data-ttu-id="b19b6-308">Papildinformāciju skatiet rakstā [Krājumu slēgšana](/dynamics365/unified-operations/supply-chain/cost-management/inventory-close).</span><span class="sxs-lookup"><span data-stu-id="b19b6-308">For more information, see [Inventory close](/dynamics365/unified-operations/supply-chain/cost-management/inventory-close).</span></span> <span data-ttu-id="b19b6-309">Ir dokumenti, kas ļauj atcelt iepriekš grāmatotu dokumentu.</span><span class="sxs-lookup"><span data-stu-id="b19b6-309">There are documents that allow you to cancel the previously posted document.</span></span> <span data-ttu-id="b19b6-310">Piemēram, lietotājs var izveidot kredīta notu, lai atceltu iepriekš izveidotu rēķinu.</span><span class="sxs-lookup"><span data-stu-id="b19b6-310">For example, the User can create a Credit Note to cancel a previously created Invoice.</span></span> <span data-ttu-id="b19b6-311">Dokumentos tiek izmantoti konkrēti parametri, lai izveidotu reversīvās vai Storno transakcijas.</span><span class="sxs-lookup"><span data-stu-id="b19b6-311">Documents use specific parameters to create reverse or Storno transactions.</span></span> <span data-ttu-id="b19b6-312">Piemēram, ārvalstu valūtas pārvērtēšana izveido reversīvas vai Storno transakcijas, pamatojoties uz virsgrāmatas labojuma parametru.</span><span class="sxs-lookup"><span data-stu-id="b19b6-312">For example, the foreign currency revaluation creates reverse or Storno transactions based on the general ledger correction parameter.</span></span> <span data-ttu-id="b19b6-313">Debitora kredīta nota izveido reversīvas vai Storno transakcijas, pamatojoties uz debitoru parādu kredīta notas labojuma parametru.</span><span class="sxs-lookup"><span data-stu-id="b19b6-313">The customer credit note creates reverse or Storno transactions based on the accounts receivable credit note correction parameter.</span></span>
 
 

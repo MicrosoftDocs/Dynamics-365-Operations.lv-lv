@@ -15,56 +15,56 @@ ms.custom: 17491
 ms.assetid: 541e6012-4680-4684-8494-e9b5ca4684ee
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: acbab3c833c109576f1e1e26fefeee770a29aeaf
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 754cd81a4550318de7003d847fafb2bcc7414b32
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="configure-and-filter-workspaces"></a>Konfigurēt un filtrēt darbvietas
+# <a name="configure-and-filter-workspaces"></a><span data-ttu-id="80474-103">Konfigurēt un filtrēt darbvietas</span><span class="sxs-lookup"><span data-stu-id="80474-103">Configure and filter workspaces</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir sniegts pārskats par to, kā konfigurēt un filtrēt darbvietas.
+<span data-ttu-id="80474-104">Šajā rakstā ir sniegts pārskats par to, kā konfigurēt un filtrēt darbvietas.</span><span class="sxs-lookup"><span data-stu-id="80474-104">This article provides an overview about how to configure and filter workspaces.</span></span>
 
-<a name="configuring-a-workspace"></a>Darbvietas konfigurēšana
+<a name="configuring-a-workspace"></a><span data-ttu-id="80474-105">Darbvietas konfigurēšana</span><span class="sxs-lookup"><span data-stu-id="80474-105">Configuring a workspace</span></span>
 -----------------------
 
-Dažām darbvietām varat mainīt izskatu un darbību, atjauninot iestatījumus, kuri attiecas uz visu darbvietu. Ja darbvietu var konfigurēt, darbību rūtī ir iekļauta poga, kas jums norāda, ka uz tās ir jānoklikšķina, lai veiktu konfigurācijas izmaiņas. Piemēram, nākamajā attēlā pogas nosaukums ir **Konfigurēt manu darbvietu**. 
+<span data-ttu-id="80474-106">Dažām darbvietām varat mainīt izskatu un darbību, atjauninot iestatījumus, kuri attiecas uz visu darbvietu.</span><span class="sxs-lookup"><span data-stu-id="80474-106">You can change the appearance and behavior of some workspaces by updating settings that apply to the whole workspace.</span></span> <span data-ttu-id="80474-107">Ja darbvietu var konfigurēt, darbību rūtī ir iekļauta poga, kas jums norāda, ka uz tās ir jānoklikšķina, lai veiktu konfigurācijas izmaiņas.</span><span class="sxs-lookup"><span data-stu-id="80474-107">When a workspace can be configured, the Action Pane includes a button that instructs you to click it to make configuration changes.</span></span> <span data-ttu-id="80474-108">Piemēram, nākamajā attēlā pogas nosaukums ir **Konfigurēt manu darbvietu**.</span><span class="sxs-lookup"><span data-stu-id="80474-108">For example, in the following illustration, the button is named **Configure my workspace**.</span></span> 
 
-[![configure-and-filter-workspaces](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)   
+<span data-ttu-id="80474-109">[![configure-and-filter-workspaces](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="80474-109">[![configure-and-filter-workspaces](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)</span></span>   
 
-Kad noklikšķināt uz šīs pogas, tiek atvērts dialoglodziņš, kurā varat modificēt darbvietas iepriekš definētos iestatījumus. Konkrētie šajā dialoglodziņā redzamie iestatījumi ir atkarīgi no darbvietas, kā arī no konkrētajām darbvietā pieejamajām vadīklām un biznesa datiem. 
+<span data-ttu-id="80474-110">Kad noklikšķināt uz šīs pogas, tiek atvērts dialoglodziņš, kurā varat modificēt darbvietas iepriekš definētos iestatījumus.</span><span class="sxs-lookup"><span data-stu-id="80474-110">When you click the button, a dialog appears, where you can modify the predefined settings for the workspace.</span></span> <span data-ttu-id="80474-111">Konkrētie šajā dialoglodziņā redzamie iestatījumi ir atkarīgi no darbvietas, kā arī no konkrētajām darbvietā pieejamajām vadīklām un biznesa datiem.</span><span class="sxs-lookup"><span data-stu-id="80474-111">The specific settings that you see in this dialog vary by workspace, and depend on the specific controls and business data that are available in the workspace.</span></span> 
 
-[![configure-my-workspace](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)
+<span data-ttu-id="80474-112">[![configure-my-workspace](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)</span><span class="sxs-lookup"><span data-stu-id="80474-112">[![configure-my-workspace](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)</span></span>
 
-## <a name="filtering-a-workspace"></a>Darbvietas filtrēšana
-Daudzas darbvietas jums ļauj filtrēt tajās rādīto saturu. Pieejamās vadīklas jums var ļaut filtrēt visu darbvietā esošo saturu vai tikai saturu konkrētā darbvietas sadaļā. Darbvietās esošie filtri var būt uzmeklēšana, kombinētie lodziņi, brīvas formas teksta lauki un citu tipu vadīklas. Taču katram filtra tipam ir tāda pati ietekme, kā aprakstīts nākamajās sadaļās.
+## <a name="filtering-a-workspace"></a><span data-ttu-id="80474-113">Darbvietas filtrēšana</span><span class="sxs-lookup"><span data-stu-id="80474-113">Filtering a workspace</span></span>
+<span data-ttu-id="80474-114">Daudzas darbvietas jums ļauj filtrēt tajās rādīto saturu.</span><span class="sxs-lookup"><span data-stu-id="80474-114">Many workspaces let you filter the content that appears in them.</span></span> <span data-ttu-id="80474-115">Pieejamās vadīklas jums var ļaut filtrēt visu darbvietā esošo saturu vai tikai saturu konkrētā darbvietas sadaļā.</span><span class="sxs-lookup"><span data-stu-id="80474-115">The controls that are available might let you filter all the content in the workspace or only the content in a specific section of the workspace.</span></span> <span data-ttu-id="80474-116">Darbvietās esošie filtri var būt uzmeklēšana, kombinētie lodziņi, brīvas formas teksta lauki un citu tipu vadīklas.</span><span class="sxs-lookup"><span data-stu-id="80474-116">The filters on workspaces can be lookups, combo boxes, free-form text fields, or other types of controls.</span></span> <span data-ttu-id="80474-117">Taču katram filtra tipam ir tāda pati ietekme, kā aprakstīts nākamajās sadaļās.</span><span class="sxs-lookup"><span data-stu-id="80474-117">However, every type of filter has the same effects, as described in the following sections.</span></span>
 
-### <a name="workspace-wide-filters"></a>Darbvietas mēroga filtri
+### <a name="workspace-wide-filters"></a><span data-ttu-id="80474-118">Darbvietas mēroga filtri</span><span class="sxs-lookup"><span data-stu-id="80474-118">Workspace-wide filters</span></span>
 
-Izmantojot darbvietas mēroga filtru, varat filtrēt visu darbvietu. Darbvietas mēroga filtrs tiek rādīts darbvietas kreisajā augšējā stūrī. Kad nolaižamajā sarakstā atlasāt kādu noteiktu vērtību, darbvietas saturs tiek filtrēts, pamatojoties uz šo atlasi. 
+<span data-ttu-id="80474-119">Izmantojot darbvietas mēroga filtru, varat filtrēt visu darbvietu.</span><span class="sxs-lookup"><span data-stu-id="80474-119">You can filter the whole workspace by using a workspace-wide filter.</span></span> <span data-ttu-id="80474-120">Darbvietas mēroga filtrs tiek rādīts darbvietas kreisajā augšējā stūrī.</span><span class="sxs-lookup"><span data-stu-id="80474-120">A workspace-wide filter appears in the upper-left corner of the workspace.</span></span> <span data-ttu-id="80474-121">Kad nolaižamajā sarakstā atlasāt kādu noteiktu vērtību, darbvietas saturs tiek filtrēts, pamatojoties uz šo atlasi.</span><span class="sxs-lookup"><span data-stu-id="80474-121">When you select a specific value in the drop-down list, the contents of the workspace are filtered based on that selection.</span></span> 
 
-[![workspace-filter](./media/workspace-filter.png)](./media/workspace-filter.png) 
+<span data-ttu-id="80474-122">[![workspace-filter](./media/workspace-filter.png)](./media/workspace-filter.png)</span><span class="sxs-lookup"><span data-stu-id="80474-122">[![workspace-filter](./media/workspace-filter.png)](./media/workspace-filter.png)</span></span> 
 
-Kad noklikšķināt, lai šo filtru atvērtu, jums tiek sniegtas vairākas opcijas. 
+<span data-ttu-id="80474-123">Kad noklikšķināt, lai šo filtru atvērtu, jums tiek sniegtas vairākas opcijas.</span><span class="sxs-lookup"><span data-stu-id="80474-123">When you click to open the filter, you're presented with several options.</span></span> 
 
-[![workspace-filter-expanded](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png) 
+<span data-ttu-id="80474-124">[![workspace-filter-expanded](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png)</span><span class="sxs-lookup"><span data-stu-id="80474-124">[![workspace-filter-expanded](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png)</span></span> 
 
-Atlasiet kādu opciju, lai darbvietu filtrētu, pamatojoties uz šo opciju.
+<span data-ttu-id="80474-125">Atlasiet kādu opciju, lai darbvietu filtrētu, pamatojoties uz šo opciju.</span><span class="sxs-lookup"><span data-stu-id="80474-125">Select an option to filter the workspace based on that option.</span></span>
 
-### <a name="workspace-section-filters"></a>Darbvietas sadaļas filtri
+### <a name="workspace-section-filters"></a><span data-ttu-id="80474-126">Darbvietas sadaļas filtri</span><span class="sxs-lookup"><span data-stu-id="80474-126">Workspace section filters</span></span>
 
-Ja atsevišķām darbvietas sadaļām ir filtri, katru sadaļu varat filtrēt atsevišķi. Nākamajā attēlā filtrs (lauks, kas satur tekstu “Filtrs”) ir brīvas formas teksta filtra piemērs. 
+<span data-ttu-id="80474-127">Ja atsevišķām darbvietas sadaļām ir filtri, katru sadaļu varat filtrēt atsevišķi.</span><span class="sxs-lookup"><span data-stu-id="80474-127">If individual sections of the workspace have filters, you can filter each section separately.</span></span> <span data-ttu-id="80474-128">Nākamajā attēlā filtrs (lauks, kas satur tekstu “Filtrs”) ir brīvas formas teksta filtra piemērs.</span><span class="sxs-lookup"><span data-stu-id="80474-128">In the following illustration, the filter (the field that contains the text "Filter") is an example of a free-form text field filter.</span></span> 
 
-[![workspace-section-filters](./media/workspace-section-filters.png)](./media/workspace-section-filters.png) 
+<span data-ttu-id="80474-129">[![workspace-section-filters](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)</span><span class="sxs-lookup"><span data-stu-id="80474-129">[![workspace-section-filters](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)</span></span> 
 
-Tāpat kā ar darbvietas mēroga filtru, laukā atlasiet vai ievadiet kādu vērtību, lai filtrētu sadaļas saturu.
+<span data-ttu-id="80474-130">Tāpat kā ar darbvietas mēroga filtru, laukā atlasiet vai ievadiet kādu vērtību, lai filtrētu sadaļas saturu.</span><span class="sxs-lookup"><span data-stu-id="80474-130">As with a workspace-wide filter, select or enter a value in the field to filter the contents of the section.</span></span>
 
 
 

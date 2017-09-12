@@ -19,33 +19,33 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 89ddb0f246eb1d874ff0f2b5305f30355905c45e
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: fd6dc5173fd37f0257c98c1a41f3e6ce40b5b680
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="create-a-budget-from-transaction-accounts-and-total-accounts"></a>Budžeta formas transakciju kontu un kopsummas kontu izveide
+# <a name="create-a-budget-from-transaction-accounts-and-total-accounts"></a><span data-ttu-id="aa31b-104">Budžeta formas transakciju kontu un kopsummas kontu izveide</span><span class="sxs-lookup"><span data-stu-id="aa31b-104">Create a budget from transaction accounts and total accounts</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir sniegts pārskats par budžetu veidošanas procesu, pamatojoties uz kopsummu kontiem. Tajā ir arī paskaidrots, kā kopsummu kontiem ieslēgt budžeta kontroli, ja ir nepieciešama budžeta kontrole.
+<span data-ttu-id="aa31b-105">Šajā rakstā ir sniegts pārskats par budžetu veidošanas procesu, pamatojoties uz kopsummu kontiem.</span><span class="sxs-lookup"><span data-stu-id="aa31b-105">This article provides an overview of the process for creating budgets based on total accounts.</span></span> <span data-ttu-id="aa31b-106">Tajā ir arī paskaidrots, kā kopsummu kontiem ieslēgt budžeta kontroli, ja ir nepieciešama budžeta kontrole.</span><span class="sxs-lookup"><span data-stu-id="aa31b-106">It also explains how to turn on budget control for total accounts, if budget control is required.</span></span>
 
-Izmantojot budžeta plānu un budžeta reģistra ieraksta dokumentus, var budžetēt galvenos kontus, kam galvenā konta veids ir **Kopsummas**. Faktiskās izmaksas var grāmatot tikai transakciju galvenajos kontos. 
+<span data-ttu-id="aa31b-107">Izmantojot budžeta plānu un budžeta reģistra ieraksta dokumentus, var budžetēt galvenos kontus, kam galvenā konta veids ir **Kopsummas**.</span><span class="sxs-lookup"><span data-stu-id="aa31b-107">Both budget plan and budget register entry documents allow for budgeting on main accounts that have a main account type of **Total**.</span></span> <span data-ttu-id="aa31b-108">Faktiskās izmaksas var grāmatot tikai transakciju galvenajos kontos.</span><span class="sxs-lookup"><span data-stu-id="aa31b-108">Actuals can be posted only to transactional main accounts.</span></span> 
 
-Periodiskajam procesam **Budžeta plāna ģenerēšana no virsgrāmatas** cilnē **Avots** kā kritēriju var norādīt galvenā konta veidu **Kopsummas**. Šādā gadījumā visi kopsummu galvenie konti tiks iekļauti mērķa budžeta plānā un summa būs vienāda ar atlasīto galveno kontu kopsummu. 
+<span data-ttu-id="aa31b-109">Periodiskajam procesam **Budžeta plāna ģenerēšana no virsgrāmatas** cilnē **Avots** kā kritēriju var norādīt galvenā konta veidu **Kopsummas**.</span><span class="sxs-lookup"><span data-stu-id="aa31b-109">For the **Generate budget plan from General ledger** periodic process, on the **Source** tab, you can specify the **Total** main account type as a criterion.</span></span> <span data-ttu-id="aa31b-110">Šādā gadījumā visi kopsummu galvenie konti tiks iekļauti mērķa budžeta plānā un summa būs vienāda ar atlasīto galveno kontu kopsummu.</span><span class="sxs-lookup"><span data-stu-id="aa31b-110">In this case, each total main account will be included in the target budget plan, and the amount will equal the total amount of the range of selected main accounts.</span></span> 
 
-Varat aktivizēt budžeta kontroli galvenajiem kontiem ar veidu **Kopsummas**. Šī funkcionalitāte tiek atbalstīta, izmantojot budžeta grupas. Katram kopsummu galvenajam kontam budžets, kas jākontrolē attiecībā uz budžeta grupu, ir jāizveido lapā **Budžeta kontroles konfigurācija**. Jūsu norādītajos kritērijos ir jāietilpst kopsummu galvenajam kontam un kontu diapazonam. Lai paātrinātu budžeta grupu izveides procesu, varat izmantot budžeta kontroles grupu datu elementu. 
+<span data-ttu-id="aa31b-111">Varat aktivizēt budžeta kontroli galvenajiem kontiem ar veidu **Kopsummas**.</span><span class="sxs-lookup"><span data-stu-id="aa31b-111">You can activate budget control for main accounts of the **Total** type.</span></span> <span data-ttu-id="aa31b-112">Šī funkcionalitāte tiek atbalstīta, izmantojot budžeta grupas.</span><span class="sxs-lookup"><span data-stu-id="aa31b-112">This functionality is supported through the use of budget groups.</span></span> <span data-ttu-id="aa31b-113">Katram kopsummu galvenajam kontam budžets, kas jākontrolē attiecībā uz budžeta grupu, ir jāizveido lapā **Budžeta kontroles konfigurācija**.</span><span class="sxs-lookup"><span data-stu-id="aa31b-113">For each total main account, the budget that should be controlled for a budget group must be created on the **Budget control configuration **page.</span></span> <span data-ttu-id="aa31b-114">Jūsu norādītajos kritērijos ir jāietilpst kopsummu galvenajam kontam un kontu diapazonam.</span><span class="sxs-lookup"><span data-stu-id="aa31b-114">The criteria that you specify must include the total main account and the range of accounts.</span></span> <span data-ttu-id="aa31b-115">Lai paātrinātu budžeta grupu izveides procesu, varat izmantot budžeta kontroles grupu datu elementu.</span><span class="sxs-lookup"><span data-stu-id="aa31b-115">To speed up the process of creating budget groups, you can take advantage of the Budget control groups data entity.</span></span> 
 
-Ja budžets tiek izmantots pārskatā, piemēram, finanšu pārskatā, kopsummu konta budžeta summa sastāv no:
+<span data-ttu-id="aa31b-116">Ja budžets tiek izmantots pārskatā, piemēram, finanšu pārskatā, kopsummu konta budžeta summa sastāv no:</span><span class="sxs-lookup"><span data-stu-id="aa31b-116">When a budget is used in reporting, such as on a financial statement, the budget sum for the total account consists of the following amounts:</span></span>
 
--   budžetiem, kas izveidoti no katra transakcijas virsgrāmatas konta kopsummu intervālā;
--   budžeta kopsummas, kas ievadīta tieši kopsummas kontā.
+-   <span data-ttu-id="aa31b-117">budžetiem, kas izveidoti no katra transakcijas virsgrāmatas konta kopsummu intervālā;</span><span class="sxs-lookup"><span data-stu-id="aa31b-117">The budgets that are created from each transaction ledger account in the interval of the total account.</span></span>
+-   <span data-ttu-id="aa31b-118">budžeta kopsummas, kas ievadīta tieši kopsummas kontā.</span><span class="sxs-lookup"><span data-stu-id="aa31b-118">The budget amount that is entered directly on the total account.</span></span>
 
-Tas ļauj izveidot atsevišķus budžetus visnozīmīgākajiem transakciju kontiem kopsummu konta intervālā un pievienot atlikušo budžeta daudzumu kopsummas kontam.
+<span data-ttu-id="aa31b-119">Tas ļauj izveidot atsevišķus budžetus visnozīmīgākajiem transakciju kontiem kopsummu konta intervālā un pievienot atlikušo budžeta daudzumu kopsummas kontam.</span><span class="sxs-lookup"><span data-stu-id="aa31b-119">Therefore, you can create separate budgets for the most significant transaction accounts in the interval of the total account, and then add the available budget amount to the total account.</span></span>
 
 
 

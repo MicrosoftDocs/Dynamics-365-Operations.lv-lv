@@ -16,30 +16,30 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: da6b4c54e4c43efc0901c3c9686425d2de546039
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 6a4cb15bdfc89081e0dc9d1161670eddc412281d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="maintain-financial-dimension-default-templates"></a>Uzturēt finanšu dimensijas noklusējuma veidnes
+# <a name="maintain-financial-dimension-default-templates"></a><span data-ttu-id="d1bd8-103">Uzturēt finanšu dimensijas noklusējuma veidnes</span><span class="sxs-lookup"><span data-stu-id="d1bd8-103">Maintain financial dimension default templates</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā procedūrā parādīts, kā iestatīt finanšu dimensijas noklusējuma veidnes. Veidnes var izmantot, lai ātri sadalītu summas no pirmdokumentiem.
+<span data-ttu-id="d1bd8-104">Šajā procedūrā parādīts, kā iestatīt finanšu dimensijas noklusējuma veidnes.</span><span class="sxs-lookup"><span data-stu-id="d1bd8-104">This procedure shows how to set up financial dimension default templates.</span></span> <span data-ttu-id="d1bd8-105">Veidnes var izmantot, lai ātri sadalītu summas no pirmdokumentiem.</span><span class="sxs-lookup"><span data-stu-id="d1bd8-105">The templates can be used to quickly distribute amounts on source documents.</span></span>
 
-1. Pārejiet uz sadaļu Virsgrāmata > Kontu plāns > Dimensijas > Finanšu dimensijas noklusējuma veidnes.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Veidnes ID, ievadiet veidnes ID.
-4. Ievadiet procentuālo vērtību pirmās dimensijas vērtībām.
-5. Ievadiet finanšu dimensijas vērtības, kas atbilst ievadītajiem procentiem.
-6. Noklikšķiniet uz Pievienot.
-7. Ievadiet citus procentus nākamajām dimensiju vērtībām.
-    * Šajā piemērā ievadiet procentuālo vērtību, tāpēc jums vēl joprojām ir piešķirti mazāk nekā 100 %.  
-8. Ievadiet finanšu dimensijas vērtības, kas atbilst ievadītajiem procentiem.
-9. Noklikšķiniet uz Pievienot.
-10. Ievadiet citus procentus, kas padarīs kopējo procentuālo vērtību vienādu ar 100%.
-11. Ievadiet finanšu dimensijas vērtības, kas atbilst ievadītajiem procentiem.
-12. Noklikšķiniet uz Saglabāt.
+1. <span data-ttu-id="d1bd8-106">Pārejiet uz sadaļu Virsgrāmata > Kontu plāns > Dimensijas > Finanšu dimensijas noklusējuma veidnes.</span><span class="sxs-lookup"><span data-stu-id="d1bd8-106">Go to General ledger > Chart of accounts > Dimensions > Financial dimension default templates.</span></span>
+2. <span data-ttu-id="d1bd8-107">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="d1bd8-107">Click New.</span></span>
+3. <span data-ttu-id="d1bd8-108">Laukā Veidnes ID, ievadiet veidnes ID.</span><span class="sxs-lookup"><span data-stu-id="d1bd8-108">In the Template ID field, enter a Template ID..</span></span>
+4. <span data-ttu-id="d1bd8-109">Ievadiet procentuālo vērtību pirmās dimensijas vērtībām.</span><span class="sxs-lookup"><span data-stu-id="d1bd8-109">Enter the percentage for the first dimension values.</span></span>
+5. <span data-ttu-id="d1bd8-110">Ievadiet finanšu dimensijas vērtības, kas atbilst ievadītajiem procentiem.</span><span class="sxs-lookup"><span data-stu-id="d1bd8-110">Enter the financial dimension values that correspond to the percent entered.</span></span>
+6. <span data-ttu-id="d1bd8-111">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="d1bd8-111">Click Add.</span></span>
+7. <span data-ttu-id="d1bd8-112">Ievadiet citus procentus nākamajām dimensiju vērtībām.</span><span class="sxs-lookup"><span data-stu-id="d1bd8-112">Enter another percent for the next dimension values.</span></span>
+    * <span data-ttu-id="d1bd8-113">Šajā piemērā ievadiet procentuālo vērtību, tāpēc jums vēl joprojām ir piešķirti mazāk nekā 100 %.</span><span class="sxs-lookup"><span data-stu-id="d1bd8-113">For this example, enter a percentage so you still have less than 100% allocated.</span></span>  
+8. <span data-ttu-id="d1bd8-114">Ievadiet finanšu dimensijas vērtības, kas atbilst ievadītajiem procentiem.</span><span class="sxs-lookup"><span data-stu-id="d1bd8-114">Enter the financial dimension values that correspond to the percent entered.</span></span>
+9. <span data-ttu-id="d1bd8-115">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="d1bd8-115">Click Add.</span></span>
+10. <span data-ttu-id="d1bd8-116">Ievadiet citus procentus, kas padarīs kopējo procentuālo vērtību vienādu ar 100%.</span><span class="sxs-lookup"><span data-stu-id="d1bd8-116">Enter another percent, which will make the total percent equal to 100%.</span></span>
+11. <span data-ttu-id="d1bd8-117">Ievadiet finanšu dimensijas vērtības, kas atbilst ievadītajiem procentiem.</span><span class="sxs-lookup"><span data-stu-id="d1bd8-117">Enter the financial dimension values that correspond to the percent entered.</span></span>
+12. <span data-ttu-id="d1bd8-118">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="d1bd8-118">Click Save.</span></span>
 
 

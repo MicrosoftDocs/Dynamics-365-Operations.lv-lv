@@ -19,33 +19,33 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 37baac8d3160b95f75dd11197fc60060450c0680
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 5cb5881cdb9c769bfc4272da85bc1c886a36705b
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="analyze-store-performance"></a>Analizēt veikala veiktspēju
+# <a name="analyze-store-performance"></a><span data-ttu-id="ba63a-103">Analizēt veikala veiktspēju</span><span class="sxs-lookup"><span data-stu-id="ba63a-103">Analyze store performance</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-Šajā rakstā ir paskaidrots, kā var izmantot atmiņā saglabāto un reāllaika analīzi, lai piekļūtu, pārskatītu un gūtu informāciju par veikala veiktspēju, balstoties uz Microsoft Dynamics 365 for Retail datiem. 
+<span data-ttu-id="ba63a-104">Šajā rakstā ir paskaidrots, kā var izmantot atmiņā saglabāto un reāllaika analīzi, lai piekļūtu, pārskatītu un gūtu informāciju par veikala veiktspēju, balstoties uz Microsoft Dynamics 365 for Retail datiem.</span><span class="sxs-lookup"><span data-stu-id="ba63a-104">This article explains how you can use the in-memory and real-time analytics to access, explore, and gain insight about store performance, based on your Microsoft Dynamics 365 for Retail data.</span></span> 
 
-Izmantojot programmu Dynamics 365 for Retail, lietotāji var izpētīt veikala reāllaika veiktspēju dažādos organizācijas hierarhijas līmeņos atlasītajā periodā, atverot standarta pārskatu **Kanāla kopsavilkums** no jebkuras tālāk minētās atrašanās vietas.
+<span data-ttu-id="ba63a-105">Izmantojot programmu Dynamics 365 for Retail, lietotāji var izpētīt veikala reāllaika veiktspēju dažādos organizācijas hierarhijas līmeņos atlasītajā periodā, atverot standarta pārskatu **Kanāla kopsavilkums** no jebkuras tālāk minētās atrašanās vietas.</span><span class="sxs-lookup"><span data-stu-id="ba63a-105">As part of Dynamics 365 for Retail, users can study store performance in real time across different levels of the organization hierarchy over a selected period by opening the out-of-box **Channel summary** report from any of the following locations:</span></span>
 
--   Darbvieta **Mazumtirdzniecības veikala pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Kanāla kopsavilkuma pārskats**
--   Darbvieta **Mazumtirdzniecības veikala finanses** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala finanses** &gt; **Pārskati** &gt; **Kanāla kopsavilkuma pārskats**
--   Sadaļa **Pieprasījumi un pārskati** &gt; **Mazumtirdzniecība** &gt; **Pieprasījumi un pārskati** &gt; **Pārdošanas pārskati** &gt; **Kanāla kopsavilkuma pārskats**
+-   <span data-ttu-id="ba63a-106">Darbvieta **Mazumtirdzniecības veikala pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Kanāla kopsavilkuma pārskats**</span><span class="sxs-lookup"><span data-stu-id="ba63a-106">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel summary report**</span></span>
+-   <span data-ttu-id="ba63a-107">Darbvieta **Mazumtirdzniecības veikala finanses** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala finanses** &gt; **Pārskati** &gt; **Kanāla kopsavilkuma pārskats**</span><span class="sxs-lookup"><span data-stu-id="ba63a-107">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel summary report**</span></span>
+-   <span data-ttu-id="ba63a-108">Sadaļa **Pieprasījumi un pārskati** &gt; **Mazumtirdzniecība** &gt; **Pieprasījumi un pārskati** &gt; **Pārdošanas pārskati** &gt; **Kanāla kopsavilkuma pārskats**</span><span class="sxs-lookup"><span data-stu-id="ba63a-108">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel summary report**</span></span>
 
-Šis pārskats pēc veikala veiktspējas analīzes nodrošina tālāk norādīto apkopojumu momentuzņēmumu.
+<span data-ttu-id="ba63a-109">Šis pārskats pēc veikala veiktspējas analīzes nodrošina tālāk norādīto apkopojumu momentuzņēmumu.</span><span class="sxs-lookup"><span data-stu-id="ba63a-109">This report provides a snapshot of following summaries as part of store performance:</span></span>
 
--   Bruto pārdošanas kopsavilkums
--   Norēķinu veida kopsavilkums
--   Nodokļu kopsavilkums
--   Informācijas par cenas pārlabošanas notikumiem kopsavilkums
--   Informācijas par atlaidēm kopsavilkums
+-   <span data-ttu-id="ba63a-110">Bruto pārdošanas kopsavilkums</span><span class="sxs-lookup"><span data-stu-id="ba63a-110">Gross sales summary</span></span>
+-   <span data-ttu-id="ba63a-111">Norēķinu veida kopsavilkums</span><span class="sxs-lookup"><span data-stu-id="ba63a-111">Tender type summary</span></span>
+-   <span data-ttu-id="ba63a-112">Nodokļu kopsavilkums</span><span class="sxs-lookup"><span data-stu-id="ba63a-112">Tax summary</span></span>
+-   <span data-ttu-id="ba63a-113">Informācijas par cenas pārlabošanas notikumiem kopsavilkums</span><span class="sxs-lookup"><span data-stu-id="ba63a-113">Price overrides summary</span></span>
+-   <span data-ttu-id="ba63a-114">Informācijas par atlaidēm kopsavilkums</span><span class="sxs-lookup"><span data-stu-id="ba63a-114">Discounts summary</span></span>
 
 
 

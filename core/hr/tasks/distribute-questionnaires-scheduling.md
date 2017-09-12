@@ -16,76 +16,76 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: d11d9b46dc7e13926472e2eca5c23a97d4248377
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: d371873cbd16f050ca042f5c13d93781fe6fc732
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="distribute-questionnaires-using-scheduling"></a>Aptauju sadalīšana, izmantojot plānošanu
+# <a name="distribute-questionnaires-using-scheduling"></a><span data-ttu-id="61278-103">Aptauju sadalīšana, izmantojot plānošanu</span><span class="sxs-lookup"><span data-stu-id="61278-103">Distribute questionnaires using scheduling</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Izmantojot anketēšanas plānošanu, var plānot un sadalīt anketas vairākiem respondentiem. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
+<span data-ttu-id="61278-104">Izmantojot anketēšanas plānošanu, var plānot un sadalīt anketas vairākiem respondentiem.</span><span class="sxs-lookup"><span data-stu-id="61278-104">Questionnaire scheduling allows you to plan and distribute questionnaires to multiple respondents.</span></span> <span data-ttu-id="61278-105">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="61278-105">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-a-questionnaire-schedule"></a>Izveidot anketas grafiku
-1. Pārejiet uz sadaļu Anketa > Sadale > Anketēšanas grafiki.
-2. Noklikšķiniet uz Jauns.
-3. Ierakstiet vērtību laukā Plānošana.
-4. Apraksta laukā ierakstiet vērtību.
-    * Iestatiet grafika statusu Anonīms, ja atbildes ir jāreģistrē bez vārda un uzvārda saistīšanas ar atbildi.  
-    * Lai iespējotu anonīmus rezultātus, vispirms ir jāiestata personāla vadības parametrus.  
-5. Laukā Veids atlasiet plānošanas veidu.  Šajā piemērā tiks izmantots Apmierinātības tips.
-6. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-7. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-8. Laukā Datums ievadiet kādu datumu.
-9. Izvērsiet sadaļu E-pasta ziņojums darbinieku patstāvīgai izmantošanai.
-10. Ierakstiet vērtību laukā Tēma.
-    * Piemērs: Anketa pieejama  
-11. Teksta laukā ierakstiet e-pasta ziņojuma pamattekstu. Ņemiet vērā, ka mainīgais var tikt izmantots, lai aizstātu vērtības sistēmā.
-    * Piemērs: Cien. %P%! Lūdzu, piesakieties darbinieku pašapkalpes pakalpojumā, lai aizpildītu darbaspēka veselības novērtējuma anketu.  Contoso  
-12. Noklikšķiniet uz Saglabāt.
+## <a name="create-a-questionnaire-schedule"></a><span data-ttu-id="61278-106">Izveidot anketas grafiku</span><span class="sxs-lookup"><span data-stu-id="61278-106">Create a questionnaire schedule</span></span>
+1. <span data-ttu-id="61278-107">Pārejiet uz sadaļu Anketa > Sadale > Anketēšanas grafiki.</span><span class="sxs-lookup"><span data-stu-id="61278-107">Go to Questionnaire > Distribute > Questionnaire schedules.</span></span>
+2. <span data-ttu-id="61278-108">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="61278-108">Click New.</span></span>
+3. <span data-ttu-id="61278-109">Ierakstiet vērtību laukā Plānošana.</span><span class="sxs-lookup"><span data-stu-id="61278-109">In the Scheduling field, type a value.</span></span>
+4. <span data-ttu-id="61278-110">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="61278-110">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="61278-111">Iestatiet grafika statusu Anonīms, ja atbildes ir jāreģistrē bez vārda un uzvārda saistīšanas ar atbildi.</span><span class="sxs-lookup"><span data-stu-id="61278-111">Set the schedule to Anonymous if the responses should be recorded without names associated to the response.</span></span>  
+    * <span data-ttu-id="61278-112">Lai iespējotu anonīmus rezultātus, vispirms ir jāiestata personāla vadības parametrus.</span><span class="sxs-lookup"><span data-stu-id="61278-112">Allowing anonymous results must be set up in the HR parameters first.</span></span>  
+5. <span data-ttu-id="61278-113">Laukā Veids atlasiet plānošanas veidu.</span><span class="sxs-lookup"><span data-stu-id="61278-113">In the Type field, select the planning type.</span></span>  <span data-ttu-id="61278-114">Šajā piemērā tiks izmantots Apmierinātības tips.</span><span class="sxs-lookup"><span data-stu-id="61278-114">In this example we will use the Satisfaction type.</span></span>
+6. <span data-ttu-id="61278-115">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="61278-115">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="61278-116">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="61278-116">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="61278-117">Laukā Datums ievadiet kādu datumu.</span><span class="sxs-lookup"><span data-stu-id="61278-117">In the Date field, enter a date.</span></span>
+9. <span data-ttu-id="61278-118">Izvērsiet sadaļu E-pasta ziņojums darbinieku patstāvīgai izmantošanai.</span><span class="sxs-lookup"><span data-stu-id="61278-118">Expand the Email for employee self service section.</span></span>
+10. <span data-ttu-id="61278-119">Ierakstiet vērtību laukā Tēma.</span><span class="sxs-lookup"><span data-stu-id="61278-119">In the Subject field, type a value.</span></span>
+    * <span data-ttu-id="61278-120">Piemērs: Anketa pieejama</span><span class="sxs-lookup"><span data-stu-id="61278-120">Example: Questionnaire available</span></span>  
+11. <span data-ttu-id="61278-121">Teksta laukā ierakstiet e-pasta ziņojuma pamattekstu.</span><span class="sxs-lookup"><span data-stu-id="61278-121">In the Text field, type the body of your email message.</span></span> <span data-ttu-id="61278-122">Ņemiet vērā, ka mainīgais var tikt izmantots, lai aizstātu vērtības sistēmā.</span><span class="sxs-lookup"><span data-stu-id="61278-122">Note, the variable can be used to substitue values in the system.</span></span>
+    * <span data-ttu-id="61278-123">Piemērs: Cien. %P%! Lūdzu, piesakieties darbinieku pašapkalpes pakalpojumā, lai aizpildītu darbaspēka veselības novērtējuma anketu.</span><span class="sxs-lookup"><span data-stu-id="61278-123">Example:   Dear %P%,  Please log in to Employee Self Service to complete the Workforce Health questionnaire.</span></span>  <span data-ttu-id="61278-124">Contoso</span><span class="sxs-lookup"><span data-stu-id="61278-124">Contoso</span></span>  
+12. <span data-ttu-id="61278-125">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="61278-125">Click Save.</span></span>
 
-## <a name="use-the-setup-details-to-select-the-questionnaires-to-be-answered-as-well-as-any-queries-to-use-to-select-respondents"></a>Izmantojiet detalizētu informācija par Iestatīšanu, lai atlasītu anketu(as), kura(s) jāatbild, kā arī vaicājumus, kas ir jāizmanto respondentu atlasei.
-1. Noklikšķināt uz Detalizēta informācija par iestatīšanu.
-2. Sarakstā atlasiet vaicājumu, ko izmantot, lai veiktu anketas respondentu meklēšanu sistēmā.
-    * Piemērs: Darbinieki  
-3. Noklikšķiniet uz Skatīt vai mainīt vaicājumu, lai atlasītu konkrētas personas vai pielāgotu vaicājumu un atrastu personas, kas atbilst noteiktiem kritērijiem.
-    * Ņemiet vērā, ka visiem respondentiem ir jābūt arī sistēmas lietotājiem.  
-4. Sarakstā atzīmējiet rindu Personai
-5. Laukā Kritēriji ievadiet vai atlasiet kādu vērtību.
-    * Atlasiet Jūlija Funderburka  
-6. Sarakstā atlasiet Jūlija Funderburka
-7. Noklikšķiniet uz OK.
-8. Noklikšķiniet uz cilnes Anketas.
-9. Kokā izvērsiet 'mezglu anketas tipam Apmierinātības aptauja'.
-10. Kokā pārbaudiet 'Darbaspēka veselības novērtējums'.
-11. Noklikšķiniet uz OK.
-12. Noklikšķiniet uz Plānotā atbilžu sesija.
-    * Ņemiet vērā, ka plānotās atbilžu sesijas ir izveidotas katram atlasītajam vai anketētajam lietotājam.  
-13. Aizvērt lapu.
+## <a name="use-the-setup-details-to-select-the-questionnaires-to-be-answered-as-well-as-any-queries-to-use-to-select-respondents"></a><span data-ttu-id="61278-126">Izmantojiet detalizētu informācija par Iestatīšanu, lai atlasītu anketu(as), kura(s) jāatbild, kā arī vaicājumus, kas ir jāizmanto respondentu atlasei.</span><span class="sxs-lookup"><span data-stu-id="61278-126">Use the Setup details to select the questionnaire(s) to be answered as well as any queries to use to select respondents.</span></span>
+1. <span data-ttu-id="61278-127">Noklikšķināt uz Detalizēta informācija par iestatīšanu.</span><span class="sxs-lookup"><span data-stu-id="61278-127">Click Setup details.</span></span>
+2. <span data-ttu-id="61278-128">Sarakstā atlasiet vaicājumu, ko izmantot, lai veiktu anketas respondentu meklēšanu sistēmā.</span><span class="sxs-lookup"><span data-stu-id="61278-128">In the list, select a query to use to search the system for respondents for the questionnaire.</span></span>
+    * <span data-ttu-id="61278-129">Piemērs: Darbinieki</span><span class="sxs-lookup"><span data-stu-id="61278-129">Example: Workers</span></span>  
+3. <span data-ttu-id="61278-130">Noklikšķiniet uz Skatīt vai mainīt vaicājumu, lai atlasītu konkrētas personas vai pielāgotu vaicājumu un atrastu personas, kas atbilst noteiktiem kritērijiem.</span><span class="sxs-lookup"><span data-stu-id="61278-130">Click View or modify query to select specific people or adjust the query to find people who match specific criteria.</span></span>
+    * <span data-ttu-id="61278-131">Ņemiet vērā, ka visiem respondentiem ir jābūt arī sistēmas lietotājiem.</span><span class="sxs-lookup"><span data-stu-id="61278-131">Note that all respondents must also be users in the system.</span></span>  
+4. <span data-ttu-id="61278-132">Sarakstā atzīmējiet rindu Personai</span><span class="sxs-lookup"><span data-stu-id="61278-132">In the list, mark the row for Person</span></span>
+5. <span data-ttu-id="61278-133">Laukā Kritēriji ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="61278-133">In the Criteria field, enter or select a value.</span></span>
+    * <span data-ttu-id="61278-134">Atlasiet Jūlija Funderburka</span><span class="sxs-lookup"><span data-stu-id="61278-134">Select Julia Funderburk</span></span>  
+6. <span data-ttu-id="61278-135">Sarakstā atlasiet Jūlija Funderburka</span><span class="sxs-lookup"><span data-stu-id="61278-135">In the list, select Julia Funderburk</span></span>
+7. <span data-ttu-id="61278-136">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="61278-136">Click OK.</span></span>
+8. <span data-ttu-id="61278-137">Noklikšķiniet uz cilnes Anketas.</span><span class="sxs-lookup"><span data-stu-id="61278-137">Click the Questionnaires tab.</span></span>
+9. <span data-ttu-id="61278-138">Kokā izvērsiet 'mezglu anketas tipam Apmierinātības aptauja'.</span><span class="sxs-lookup"><span data-stu-id="61278-138">In the tree, expand 'the node for the questionnaire type Satisfaction Survey'.</span></span>
+10. <span data-ttu-id="61278-139">Kokā pārbaudiet 'Darbaspēka veselības novērtējums'.</span><span class="sxs-lookup"><span data-stu-id="61278-139">In the tree, check 'Workforce Health Assessment'.</span></span>
+11. <span data-ttu-id="61278-140">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="61278-140">Click OK.</span></span>
+12. <span data-ttu-id="61278-141">Noklikšķiniet uz Plānotā atbilžu sesija.</span><span class="sxs-lookup"><span data-stu-id="61278-141">Click Planned answer session.</span></span>
+    * <span data-ttu-id="61278-142">Ņemiet vērā, ka plānotās atbilžu sesijas ir izveidotas katram atlasītajam vai anketētajam lietotājam.</span><span class="sxs-lookup"><span data-stu-id="61278-142">Note that Planned answer sessions have been created for each selected/queried user.</span></span>  
+13. <span data-ttu-id="61278-143">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="61278-143">Close the page.</span></span>
 
-## <a name="start-the-questionnaire-schedule-in-order-to-make-the-questionnaire-available-for-respondents-to-complete"></a>Sāciet anketēšanas grafiku, lai respondents var piekļūt anketai un to aizpildīt.
-1. Noklikšķiniet uz Funkcijas.
-2. Noklikšķiniet uz Sākt.
-3. Noklikšķiniet uz OK.
+## <a name="start-the-questionnaire-schedule-in-order-to-make-the-questionnaire-available-for-respondents-to-complete"></a><span data-ttu-id="61278-144">Sāciet anketēšanas grafiku, lai respondents var piekļūt anketai un to aizpildīt.</span><span class="sxs-lookup"><span data-stu-id="61278-144">Start the questionnaire schedule in order to make the questionnaire available for respondents to complete.</span></span>
+1. <span data-ttu-id="61278-145">Noklikšķiniet uz Funkcijas.</span><span class="sxs-lookup"><span data-stu-id="61278-145">Click Functions.</span></span>
+2. <span data-ttu-id="61278-146">Noklikšķiniet uz Sākt.</span><span class="sxs-lookup"><span data-stu-id="61278-146">Click Start.</span></span>
+3. <span data-ttu-id="61278-147">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="61278-147">Click OK.</span></span>
 
-## <a name="send-the-email-to-inform-respondents-of-the-available-questionnaire"></a>Nosūtiet e-pasta ziņojumu, lai informētu respondentus par pieejamo anketu.
-1. Noklikšķiniet uz Funkcijas.
-2. Noklikšķiniet uz Sūtīt e-pasta ziņojumu.
-3. Noklikšķiniet uz Atcelt.
+## <a name="send-the-email-to-inform-respondents-of-the-available-questionnaire"></a><span data-ttu-id="61278-148">Nosūtiet e-pasta ziņojumu, lai informētu respondentus par pieejamo anketu.</span><span class="sxs-lookup"><span data-stu-id="61278-148">Send the email to inform respondents of the available questionnaire.</span></span>
+1. <span data-ttu-id="61278-149">Noklikšķiniet uz Funkcijas.</span><span class="sxs-lookup"><span data-stu-id="61278-149">Click Functions.</span></span>
+2. <span data-ttu-id="61278-150">Noklikšķiniet uz Sūtīt e-pasta ziņojumu.</span><span class="sxs-lookup"><span data-stu-id="61278-150">Click Send email.</span></span>
+3. <span data-ttu-id="61278-151">Noklikšķiniet uz Atcelt.</span><span class="sxs-lookup"><span data-stu-id="61278-151">Click Cancel.</span></span>
 
-## <a name="use-planned-answer-sessions-to-monitor-who-needs-to-complete-the-questionnaire"></a>Izmantojiet plānotās atbilžu sesijas, lai pārraudzītu, kam ir jāaizpilda anketa.
-1. Noklikšķiniet uz Plānotā atbilžu sesija.
-    * Dzēsiet visas atlikušās plānotās atbilžu sesijas, kad viss ir sagatavots plānotās sesijas pabeigšanai.  
-2. Noklikšķiniet uz Dzēst.
-3. Noklikšķiniet uz Jā.
-4. Aizvērt lapu.
+## <a name="use-planned-answer-sessions-to-monitor-who-needs-to-complete-the-questionnaire"></a><span data-ttu-id="61278-152">Izmantojiet plānotās atbilžu sesijas, lai pārraudzītu, kam ir jāaizpilda anketa.</span><span class="sxs-lookup"><span data-stu-id="61278-152">Use Planned answer sessions to monitor who needs to complete the questionnaire.</span></span>
+1. <span data-ttu-id="61278-153">Noklikšķiniet uz Plānotā atbilžu sesija.</span><span class="sxs-lookup"><span data-stu-id="61278-153">Click Planned answer session.</span></span>
+    * <span data-ttu-id="61278-154">Dzēsiet visas atlikušās plānotās atbilžu sesijas, kad viss ir sagatavots plānotās sesijas pabeigšanai.</span><span class="sxs-lookup"><span data-stu-id="61278-154">Delete any remaining planned answer session when you're ready to end the scheduled session.</span></span>  
+2. <span data-ttu-id="61278-155">Noklikšķiniet uz Dzēst.</span><span class="sxs-lookup"><span data-stu-id="61278-155">Click Delete.</span></span>
+3. <span data-ttu-id="61278-156">Noklikšķiniet uz Jā.</span><span class="sxs-lookup"><span data-stu-id="61278-156">Click Yes.</span></span>
+4. <span data-ttu-id="61278-157">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="61278-157">Close the page.</span></span>
 
-## <a name="end-the-schedule-when-all-respondents-have-completed-the-questionnaire-andor-all-remaining-planned-answer-sessions-have-been-deleted"></a>Kad visi respondenti ir aizpildījuši anketu, varat plānošanu beigt, un/vai visas atlikušās plānotās atbilžu sesijas ir dzēstas.
-1. Noklikšķiniet uz Funkcijas.
-2. Noklikšķiniet uz Beigt.
-3. Noklikšķiniet uz OK.
+## <a name="end-the-schedule-when-all-respondents-have-completed-the-questionnaire-andor-all-remaining-planned-answer-sessions-have-been-deleted"></a><span data-ttu-id="61278-158">Kad visi respondenti ir aizpildījuši anketu, varat plānošanu beigt, un/vai visas atlikušās plānotās atbilžu sesijas ir dzēstas.</span><span class="sxs-lookup"><span data-stu-id="61278-158">End the schedule when all respondents have completed the questionnaire and/or all remaining Planned answer sessions have been deleted.</span></span>
+1. <span data-ttu-id="61278-159">Noklikšķiniet uz Funkcijas.</span><span class="sxs-lookup"><span data-stu-id="61278-159">Click Functions.</span></span>
+2. <span data-ttu-id="61278-160">Noklikšķiniet uz Beigt.</span><span class="sxs-lookup"><span data-stu-id="61278-160">Click End.</span></span>
+3. <span data-ttu-id="61278-161">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="61278-161">Click OK.</span></span>
 
 

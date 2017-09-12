@@ -16,43 +16,43 @@ ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 361067c7aa82ac87a20eb8f1094639f53705ac25
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 5936196d4772c8fcfcc8a00767d17268f6609cde
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-new-users"></a>Jaunu lietotāju izveide
+# <a name="create-new-users"></a><span data-ttu-id="ab345-103">Jaunu lietotāju izveide</span><span class="sxs-lookup"><span data-stu-id="ab345-103">Create new users</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Lietotāji ir jūsu organizācijas iekšējie darbinieki vai ārējie debitori un kreditori, kuriem nepieciešama piekļuve sistēmai sava darba veikšanai. Sistēmas administratori var veikt šo procedūru, lai pievienotu lietotājus sistēmai. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. 
+<span data-ttu-id="ab345-104">Lietotāji ir jūsu organizācijas iekšējie darbinieki vai ārējie debitori un kreditori, kuriem nepieciešama piekļuve sistēmai sava darba veikšanai.</span><span class="sxs-lookup"><span data-stu-id="ab345-104">Users are internal employees of your organization, or external customers and vendors, who require access to the system to perform their jobs.</span></span> <span data-ttu-id="ab345-105">Sistēmas administratori var veikt šo procedūru, lai pievienotu lietotājus sistēmai.</span><span class="sxs-lookup"><span data-stu-id="ab345-105">System administrators can complete this procedure to add users to the system.</span></span> <span data-ttu-id="ab345-106">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="ab345-106">The demo data company used to create this procedure is USMF.</span></span> 
 
 
-## <a name="add-a-new-user"></a>Pievienot jaunu lietotāju
-1. Pārejiet uz sadaļu Sistēmas administrēšana > Lietotāji > Lietotāji.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Lietotāja ID ierakstiet vērtību.
-    * Ievadiet unikālu lietotāja identifikatoru. Jānorāda lietotāja ID.  
-4. Laukā Lietotāja nosaukums ierakstiet vērtību.
-    * Ievadiet lietotāja vārdu.  
-5. Laukā Domēns ierakstiet vērtību.
-    * Ievadiet lietotāja domēnu.  
-6. Laukā Aizstājvārds ierakstiet vērtību.
-    * Ievadiet lietotāja aizstājvārdu.  
-7. Laukā Uzņēmums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-8. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-9. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-    * Lietotāja uzņēmuma atlase  
-10. Noklikšķiniet uz Piešķirt lomas.
-11. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-12. Noklikšķiniet uz OK.
-13. Noklikšķiniet uz Saglabāt.
+## <a name="add-a-new-user"></a><span data-ttu-id="ab345-107">Pievienot jaunu lietotāju</span><span class="sxs-lookup"><span data-stu-id="ab345-107">Add a new user</span></span>
+1. <span data-ttu-id="ab345-108">Pārejiet uz sadaļu Sistēmas administrēšana > Lietotāji > Lietotāji.</span><span class="sxs-lookup"><span data-stu-id="ab345-108">Go to System administration > Users > Users.</span></span>
+2. <span data-ttu-id="ab345-109">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="ab345-109">Click New.</span></span>
+3. <span data-ttu-id="ab345-110">Laukā Lietotāja ID ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="ab345-110">In the User ID field, type a value.</span></span>
+    * <span data-ttu-id="ab345-111">Ievadiet unikālu lietotāja identifikatoru.</span><span class="sxs-lookup"><span data-stu-id="ab345-111">Enter a unique identifier for the user.</span></span> <span data-ttu-id="ab345-112">Jānorāda lietotāja ID.</span><span class="sxs-lookup"><span data-stu-id="ab345-112">A user ID is required.</span></span>  
+4. <span data-ttu-id="ab345-113">Laukā Lietotāja nosaukums ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="ab345-113">In the User name field, type a value.</span></span>
+    * <span data-ttu-id="ab345-114">Ievadiet lietotāja vārdu.</span><span class="sxs-lookup"><span data-stu-id="ab345-114">Enter the user's name.</span></span>  
+5. <span data-ttu-id="ab345-115">Laukā Domēns ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="ab345-115">In the Domain field, type a value.</span></span>
+    * <span data-ttu-id="ab345-116">Ievadiet lietotāja domēnu.</span><span class="sxs-lookup"><span data-stu-id="ab345-116">Enter the user's domain.</span></span>  
+6. <span data-ttu-id="ab345-117">Laukā Aizstājvārds ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="ab345-117">In the Alias field, type a value.</span></span>
+    * <span data-ttu-id="ab345-118">Ievadiet lietotāja aizstājvārdu.</span><span class="sxs-lookup"><span data-stu-id="ab345-118">Enter the user's alias.</span></span>  
+7. <span data-ttu-id="ab345-119">Laukā Uzņēmums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="ab345-119">In the Company field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="ab345-120">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="ab345-120">In the list, find and select the desired record.</span></span>
+9. <span data-ttu-id="ab345-121">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="ab345-121">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="ab345-122">Lietotāja uzņēmuma atlase</span><span class="sxs-lookup"><span data-stu-id="ab345-122">Select the user's company</span></span>  
+10. <span data-ttu-id="ab345-123">Noklikšķiniet uz Piešķirt lomas.</span><span class="sxs-lookup"><span data-stu-id="ab345-123">Click Assign roles.</span></span>
+11. <span data-ttu-id="ab345-124">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="ab345-124">In the list, find and select the desired record.</span></span>
+12. <span data-ttu-id="ab345-125">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="ab345-125">Click OK.</span></span>
+13. <span data-ttu-id="ab345-126">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="ab345-126">Click Save.</span></span>
 
-## <a name="import-users"></a>Importēt lietotājus
-1. Noklikšķiniet uz Importēt lietotājus.
-2. Sarakstā atzīmējiet atlasīto rindu.
-3. Noklikšķiniet uz Importēt lietotājus.
-4. Noklikšķiniet uz Aizvērt.
+## <a name="import-users"></a><span data-ttu-id="ab345-127">Importēt lietotājus</span><span class="sxs-lookup"><span data-stu-id="ab345-127">Import users</span></span>
+1. <span data-ttu-id="ab345-128">Noklikšķiniet uz Importēt lietotājus.</span><span class="sxs-lookup"><span data-stu-id="ab345-128">Click Import users.</span></span>
+2. <span data-ttu-id="ab345-129">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="ab345-129">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="ab345-130">Noklikšķiniet uz Importēt lietotājus.</span><span class="sxs-lookup"><span data-stu-id="ab345-130">Click Import users.</span></span>
+4. <span data-ttu-id="ab345-131">Noklikšķiniet uz Aizvērt.</span><span class="sxs-lookup"><span data-stu-id="ab345-131">Click Close.</span></span>
 
 

@@ -18,637 +18,637 @@ ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 84ee9110fa32a551133a6ab4b7c6feb9ea9c017a
-ms.openlocfilehash: 0b4d5285cc1aa44da566ec5d7fa7ebe568729fdf
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 04f47b838bb5ca0d22f36855c3a969d4c38430de
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="finance-and-operations-glossary"></a>Finance and Operations glosārijs
+# <a name="finance-and-operations-glossary"></a><span data-ttu-id="680b0-103">Finance and Operations glosārijs</span><span class="sxs-lookup"><span data-stu-id="680b0-103">Finance and Operations glossary</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Šajā glosārijā ir definēti galvenie produkta Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevuma termini un jēdzieni. 
+<span data-ttu-id="680b0-104">Šajā glosārijā ir definēti galvenie produkta Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevuma termini un jēdzieni.</span><span class="sxs-lookup"><span data-stu-id="680b0-104">This glossary defines key terms and concepts in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> 
 
-### <a name="a"></a>**A**
+### <a name="a"></a><span data-ttu-id="680b0-105">**A**</span><span class="sxs-lookup"><span data-stu-id="680b0-105">**A**</span></span>
 
-###### <a name="accounting-journal"></a>**uzskaites žurnāls**
+###### <a name="accounting-journal"></a><span data-ttu-id="680b0-106">**uzskaites žurnāls**</span><span class="sxs-lookup"><span data-stu-id="680b0-106">**accounting journal**</span></span>
 
-Žurnāls, kas tiek izmantots, lai uzskaites notikumu finanšu sekas reģistrētu uzskaites sistēmā.
+<span data-ttu-id="680b0-107">Žurnāls, kas tiek izmantots, lai uzskaites notikumu finanšu sekas reģistrētu uzskaites sistēmā.</span><span class="sxs-lookup"><span data-stu-id="680b0-107">A journal that is used to record the financial consequences of accounting events in an accounting system.</span></span>
 
-###### <a name="accounting-rule"></a>**uzskaites nosacījums**
+###### <a name="accounting-rule"></a><span data-ttu-id="680b0-108">**uzskaites nosacījums**</span><span class="sxs-lookup"><span data-stu-id="680b0-108">**accounting rule**</span></span>
 
-Nosacījums uzskaites sistēmā, kas kontrolē uzskaites notikumu finanšu seku principus, metodes un klasificēšanas, reģistrēšanas un paziņošanas procedūras.
+<span data-ttu-id="680b0-109">Nosacījums uzskaites sistēmā, kas kontrolē uzskaites notikumu finanšu seku principus, metodes un klasificēšanas, reģistrēšanas un paziņošanas procedūras.</span><span class="sxs-lookup"><span data-stu-id="680b0-109">A rule in an accounting system that controls the principles, methods, and procedures for classifying, recording, and reporting the financial consequences of accounting events.</span></span>
 
-###### <a name="ach-automated-clearing-house"></a>**ACH (Automatizēto norēķinu centrs)**
+###### <a name="ach-automated-clearing-house"></a><span data-ttu-id="680b0-110">**ACH (Automatizēto norēķinu centrs)**</span><span class="sxs-lookup"><span data-stu-id="680b0-110">**ACH (Automated Clearing House)**</span></span>
 
-Amerikas Savienotajās Valstīs pieejama elektroniska naudas līdzekļu pārsūtīšanas sistēma, kura sniedz iespēju naudas līdzekļus pārsūtīt starp saņēmēja un nosūtītāja bankas kontiem.
+<span data-ttu-id="680b0-111">Amerikas Savienotajās Valstīs pieejama elektroniska naudas līdzekļu pārsūtīšanas sistēma, kura sniedz iespēju naudas līdzekļus pārsūtīt starp saņēmēja un nosūtītāja bankas kontiem.</span><span class="sxs-lookup"><span data-stu-id="680b0-111">An electronic funds transfer system available in the United States that facilitates the transfer of funds between receiving party and originating party bank accounts.</span></span>
 
-###### <a name="actual-quantity"></a>**faktiskais daudzums**
+###### <a name="actual-quantity"></a><span data-ttu-id="680b0-112">**faktiskais daudzums**</span><span class="sxs-lookup"><span data-stu-id="680b0-112">**actual quantity**</span></span>
 
-Mērītais daudzums, kas tiek ieguldīts aktivitātē vai gūts no aktivitātes.
+<span data-ttu-id="680b0-113">Mērītais daudzums, kas tiek ieguldīts aktivitātē vai gūts no aktivitātes.</span><span class="sxs-lookup"><span data-stu-id="680b0-113">The measured quantity that is input into or output from an activity.</span></span>
 
-###### <a name="address-verification"></a>**adreses pārbaude**
+###### <a name="address-verification"></a><span data-ttu-id="680b0-114">**adreses pārbaude**</span><span class="sxs-lookup"><span data-stu-id="680b0-114">**address verification**</span></span>
 
-Kredītkaršu procesora sniegts pakalpojums, kas apstiprina, ka kartes īpašnieka norādītā rēķina adrese atbilst izsniedzējā bankā reģistrētajai informācijai.
+<span data-ttu-id="680b0-115">Kredītkaršu procesora sniegts pakalpojums, kas apstiprina, ka kartes īpašnieka norādītā rēķina adrese atbilst izsniedzējā bankā reģistrētajai informācijai.</span><span class="sxs-lookup"><span data-stu-id="680b0-115">The service that is provided by a credit card processor that validates that the billing address provided by a card holder matches the information on file with the issuing bank.</span></span>
 
-###### <a name="aging"></a>**vecumstruktūras**
+###### <a name="aging"></a><span data-ttu-id="680b0-116">**vecumstruktūras**</span><span class="sxs-lookup"><span data-stu-id="680b0-116">**aging**</span></span>
 
-Process laika periodu klasificēšanai pēc vecuma.
+<span data-ttu-id="680b0-117">Process laika periodu klasificēšanai pēc vecuma.</span><span class="sxs-lookup"><span data-stu-id="680b0-117">The process of classifying time periods by age.</span></span>
 
-###### <a name="aging-period"></a>**vecumstruktūras periods**
+###### <a name="aging-period"></a><span data-ttu-id="680b0-118">**vecumstruktūras periods**</span><span class="sxs-lookup"><span data-stu-id="680b0-118">**aging period**</span></span>
 
-Dienu skaits laika periodā, kāds tiek izmantots, lai paziņotu par debitora maksājuma bilances kavējumu.
+<span data-ttu-id="680b0-119">Dienu skaits laika periodā, kāds tiek izmantots, lai paziņotu par debitora maksājuma bilances kavējumu.</span><span class="sxs-lookup"><span data-stu-id="680b0-119">The number of days in a time period used to report an overdue customer payment balance.</span></span>
 
-### <a name="b"></a>**B**
+### <a name="b"></a><span data-ttu-id="680b0-120">**B**</span><span class="sxs-lookup"><span data-stu-id="680b0-120">**B**</span></span>
 
-###### <a name="balance-sheet"></a>**bilance**
+###### <a name="balance-sheet"></a><span data-ttu-id="680b0-121">**bilance**</span><span class="sxs-lookup"><span data-stu-id="680b0-121">**balance sheet**</span></span>
 
-Pārskats par organizācijas finansiālo stāvokli, kas paziņo par aktīvu, saistību un pamatkapitāla stāvokli norādītajā datumā.
+<span data-ttu-id="680b0-122">Pārskats par organizācijas finansiālo stāvokli, kas paziņo par aktīvu, saistību un pamatkapitāla stāvokli norādītajā datumā.</span><span class="sxs-lookup"><span data-stu-id="680b0-122">A statement of the financial position of an organization that reports the state of assets, liabilities, and equity on a specified date.</span></span>
 
-###### <a name="balance-sheet-account"></a>**bilances konts**
+###### <a name="balance-sheet-account"></a><span data-ttu-id="680b0-123">**bilances konts**</span><span class="sxs-lookup"><span data-stu-id="680b0-123">**balance sheet account**</span></span>
 
-Konts, kas apraksta bilancē ziņotās vērtības izmaiņas.
+<span data-ttu-id="680b0-124">Konts, kas apraksta bilancē ziņotās vērtības izmaiņas.</span><span class="sxs-lookup"><span data-stu-id="680b0-124">An account that describes the changes in value reported on a balance sheet.</span></span>
 
-###### <a name="bank-reconciliation"></a>**bankas darbību saskaņošana**
+###### <a name="bank-reconciliation"></a><span data-ttu-id="680b0-125">**bankas darbību saskaņošana**</span><span class="sxs-lookup"><span data-stu-id="680b0-125">**bank reconciliation**</span></span>
 
-Virsgrāmatas konta, kurš ir bankas konts, saskaņošanas procedūra, virsgrāmatas konta ierakstus salīdzinot ar bankas izraksta ierakstiem.
+<span data-ttu-id="680b0-126">Virsgrāmatas konta, kurš ir bankas konts, saskaņošanas procedūra, virsgrāmatas konta ierakstus salīdzinot ar bankas izraksta ierakstiem.</span><span class="sxs-lookup"><span data-stu-id="680b0-126">A practice of reconciling a ledger account that represents a bank account by matching ledger account entries to bank statement entries.</span></span>
 
-###### <a name="batch-attribute"></a>**partijas atribūts**
+###### <a name="batch-attribute"></a><span data-ttu-id="680b0-127">**partijas atribūts**</span><span class="sxs-lookup"><span data-stu-id="680b0-127">**batch attribute**</span></span>
 
-Ražošanas partijas vai pārsūtāmās partijas preces īpašība.
+<span data-ttu-id="680b0-128">Ražošanas partijas vai pārsūtāmās partijas preces īpašība.</span><span class="sxs-lookup"><span data-stu-id="680b0-128">A product attribute of a process batch or a transfer batch.</span></span>
 
-###### <a name="best-before-date"></a>**derīguma termiņa datums**
+###### <a name="best-before-date"></a><span data-ttu-id="680b0-129">**derīguma termiņa datums**</span><span class="sxs-lookup"><span data-stu-id="680b0-129">**best-before date**</span></span>
 
-Ieteicamais datums preces optimālās kvalitātes vai raksturlielumu iegūšanai.
+<span data-ttu-id="680b0-130">Ieteicamais datums preces optimālās kvalitātes vai raksturlielumu iegūšanai.</span><span class="sxs-lookup"><span data-stu-id="680b0-130">A recommended date for obtaining the optimum quality or characteristic of a product.</span></span>
 
-###### <a name="best-before-period"></a>**derīguma termiņa periods**
+###### <a name="best-before-period"></a><span data-ttu-id="680b0-131">**derīguma termiņa periods**</span><span class="sxs-lookup"><span data-stu-id="680b0-131">**best-before period**</span></span>
 
-Laika periods, kurā iegūt preces optimālo kvalitāti vai raksturlielumu.
+<span data-ttu-id="680b0-132">Laika periods, kurā iegūt preces optimālo kvalitāti vai raksturlielumu.</span><span class="sxs-lookup"><span data-stu-id="680b0-132">The time period in which to obtain the optimum quality or characteristic of a product.</span></span>
 
-###### <a name="bill-of-exchange"></a>**vekselis**
+###### <a name="bill-of-exchange"></a><span data-ttu-id="680b0-133">**vekselis**</span><span class="sxs-lookup"><span data-stu-id="680b0-133">**bill of exchange**</span></span>
 
-Pirmdokuments, kas dokumentē beznosacījuma pieprasījumu trešajai pusei pēc pieprasījuma samaksāt otrajai pusei.
+<span data-ttu-id="680b0-134">Pirmdokuments, kas dokumentē beznosacījuma pieprasījumu trešajai pusei pēc pieprasījuma samaksāt otrajai pusei.</span><span class="sxs-lookup"><span data-stu-id="680b0-134">A source document that documents an unconditional request for a third-party to pay a second party on demand.</span></span>
 
-###### <a name="blocking"></a>**aizturēšana**
+###### <a name="blocking"></a><span data-ttu-id="680b0-135">**aizturēšana**</span><span class="sxs-lookup"><span data-stu-id="680b0-135">**blocking**</span></span>
 
-Darbība, ar kuru dokumentu vai preci aiztur.
+<span data-ttu-id="680b0-136">Darbība, ar kuru dokumentu vai preci aiztur.</span><span class="sxs-lookup"><span data-stu-id="680b0-136">The action of placing a document or product on hold.</span></span>
 
-###### <a name="bom-bill-of-materials"></a>**MK (materiālu komplekts)**
+###### <a name="bom-bill-of-materials"></a><span data-ttu-id="680b0-137">**MK (materiālu komplekts)**</span><span class="sxs-lookup"><span data-stu-id="680b0-137">**BOM (bill of materials)**</span></span>
 
-Preču saraksts un daudzums, kas nepieciešams vienas preces ražošanai.
-###### <a name="budget-control"></a>**budžeta kontrole**
+<span data-ttu-id="680b0-138">Preču saraksts un daudzums, kas nepieciešams vienas preces ražošanai.</span><span class="sxs-lookup"><span data-stu-id="680b0-138">A list of products and their quantities that are required to produce one product.</span></span>
+###### <a name="budget-control"></a><span data-ttu-id="680b0-139">**budžeta kontrole**</span><span class="sxs-lookup"><span data-stu-id="680b0-139">**budget control**</span></span>
 
-Izdevumu autorizēšanas prakse tikai gadījumā, kad budžeta līdzekļus var rezervēt, lai izpildītu nākotnes maksājumu saistības.
+<span data-ttu-id="680b0-140">Izdevumu autorizēšanas prakse tikai gadījumā, kad budžeta līdzekļus var rezervēt, lai izpildītu nākotnes maksājumu saistības.</span><span class="sxs-lookup"><span data-stu-id="680b0-140">A practice of authorizing expenditure only when budget funds can be reserved to meet future payment commitments.</span></span>
 
-###### <a name="budget-control-dimension"></a>**budžeta kontroles dimensija**
+###### <a name="budget-control-dimension"></a><span data-ttu-id="680b0-141">**budžeta kontroles dimensija**</span><span class="sxs-lookup"><span data-stu-id="680b0-141">**budget control dimension**</span></span>
 
-Aktīvo finanšu dimensiju vērtību kombinācija, kuru lieto budžeta līdzekļu sadalīšanai, lai apmaksātu plānotās aktivitātes.
+<span data-ttu-id="680b0-142">Aktīvo finanšu dimensiju vērtību kombinācija, kuru lieto budžeta līdzekļu sadalīšanai, lai apmaksātu plānotās aktivitātes.</span><span class="sxs-lookup"><span data-stu-id="680b0-142">A combination of active financial dimensions values used to allocate budget funds to pay for planned activities.</span></span>
 
-###### <a name="budget-control-rule"></a>**budžeta kontroles nosacījumi**
+###### <a name="budget-control-rule"></a><span data-ttu-id="680b0-143">**budžeta kontroles nosacījumi**</span><span class="sxs-lookup"><span data-stu-id="680b0-143">**budget control rule**</span></span>
 
-Biznesa lēmuma kodēšana, lai pārbaudītu uzņemtos un faktiskos izdevumus, tos salīdzinot ar pieejamiem budžeta līdzekļiem, kuri tika sadalīti detalizētām un apkopotām aktivitātēm, ko definē derīgas budžeta kontroles dimensijas vērtību kombinācijas.
+<span data-ttu-id="680b0-144">Biznesa lēmuma kodēšana, lai pārbaudītu uzņemtos un faktiskos izdevumus, tos salīdzinot ar pieejamiem budžeta līdzekļiem, kuri tika sadalīti detalizētām un apkopotām aktivitātēm, ko definē derīgas budžeta kontroles dimensijas vērtību kombinācijas.</span><span class="sxs-lookup"><span data-stu-id="680b0-144">The encoding of a business decision to check committed and actual expenditure against available budget funds allocated for detailed or aggregate activities defined by valid budget control dimension value combinations.</span></span>
 
-###### <a name="budget-cycle-time-span"></a>**budžeta cikla laika posms**
+###### <a name="budget-cycle-time-span"></a><span data-ttu-id="680b0-145">**budžeta cikla laika posms**</span><span class="sxs-lookup"><span data-stu-id="680b0-145">**budget cycle time span**</span></span>
 
-Laika periods, kas norādīts kā finanšu kalendāra periodu skaits. Budžeta periods var atšķirties no uzskaites perioda.
+<span data-ttu-id="680b0-146">Laika periods, kas norādīts kā finanšu kalendāra periodu skaits.</span><span class="sxs-lookup"><span data-stu-id="680b0-146">A time period specified as a number of fiscal calendar periods.</span></span> <span data-ttu-id="680b0-147">Budžeta periods var atšķirties no uzskaites perioda.</span><span class="sxs-lookup"><span data-stu-id="680b0-147">The budget period can be different from the accounting period.</span></span>
 
-###### <a name="budget-group"></a>**budžeta grupa**
+###### <a name="budget-group"></a><span data-ttu-id="680b0-148">**budžeta grupa**</span><span class="sxs-lookup"><span data-stu-id="680b0-148">**budget group**</span></span>
 
-Finanšu dimensiju vērtību kopa budžeta dimensiju hierarhijā, ko izmanto, lai aprēķinātu apkopotus budžeta līdzekļus, kuri ir piešķirti pārākām finanšu dimensijas vērtībām, summējot budžeta līdzekļus, kuri ir piešķirti pakļautajām finanšu dimensijas vērtībām.
+<span data-ttu-id="680b0-149">Finanšu dimensiju vērtību kopa budžeta dimensiju hierarhijā, ko izmanto, lai aprēķinātu apkopotus budžeta līdzekļus, kuri ir piešķirti pārākām finanšu dimensijas vērtībām, summējot budžeta līdzekļus, kuri ir piešķirti pakļautajām finanšu dimensijas vērtībām.</span><span class="sxs-lookup"><span data-stu-id="680b0-149">A set of financial dimension values in a budget dimension hierarchy that is used to calculate aggregate budget funds allocated to superordinate financial dimension values by summing budget funds allocated to subordinate financial dimension values.</span></span>
 
-###### <a name="budget-model"></a>**budžeta modelis**
+###### <a name="budget-model"></a><span data-ttu-id="680b0-150">**budžeta modelis**</span><span class="sxs-lookup"><span data-stu-id="680b0-150">**budget model**</span></span>
 
-Plānošanas struktūra, kuru izmanto budžeta līdzekļu sadalīšanas un izdevumu plānošanai.
+<span data-ttu-id="680b0-151">Plānošanas struktūra, kuru izmanto budžeta līdzekļu sadalīšanas un izdevumu plānošanai.</span><span class="sxs-lookup"><span data-stu-id="680b0-151">A planning structure used to schedule budget fund allocations and expenditures.</span></span>
 
-###### <a name="bulk-item"></a>**lielapjoma krājums**
+###### <a name="bulk-item"></a><span data-ttu-id="680b0-152">**lielapjoma krājums**</span><span class="sxs-lookup"><span data-stu-id="680b0-152">**bulk item**</span></span>
 
-Formulas krājuma ievade preces piegādes aktivitātē.
+<span data-ttu-id="680b0-153">Formulas krājuma ievade preces piegādes aktivitātē.</span><span class="sxs-lookup"><span data-stu-id="680b0-153">A formula item input into a product delivery activity.</span></span>
 
-###### <a name="bundle"></a>**komplekts**
+###### <a name="bundle"></a><span data-ttu-id="680b0-154">**komplekts**</span><span class="sxs-lookup"><span data-stu-id="680b0-154">**bundle**</span></span>
 
-Vairāku preču kombinācija, ko paredzēts pārdot kā vienu vienību.
+<span data-ttu-id="680b0-155">Vairāku preču kombinācija, ko paredzēts pārdot kā vienu vienību.</span><span class="sxs-lookup"><span data-stu-id="680b0-155">The combination of a number of products for sale as one unit.</span></span>
 
-###### <a name="business-unit"></a>**biznesa vienība**
+###### <a name="business-unit"></a><span data-ttu-id="680b0-156">**biznesa vienība**</span><span class="sxs-lookup"><span data-stu-id="680b0-156">**business unit**</span></span>
 
-Pusautonoma pārvaldības struktūrvienība, kura tiek izveidota, lai izpildītu stratēģiskus biznesa mērķus.
+<span data-ttu-id="680b0-157">Pusautonoma pārvaldības struktūrvienība, kura tiek izveidota, lai izpildītu stratēģiskus biznesa mērķus.</span><span class="sxs-lookup"><span data-stu-id="680b0-157">A semi-autonomous operating unit that is created to meet strategic business objectives.</span></span>
 
-### <a name="c"></a>**C**
+### <a name="c"></a><span data-ttu-id="680b0-158">**C**</span><span class="sxs-lookup"><span data-stu-id="680b0-158">**C**</span></span>
 
-###### <a name="capacity-load"></a>**noslodzes grafiks**
+###### <a name="capacity-load"></a><span data-ttu-id="680b0-159">**noslodzes grafiks**</span><span class="sxs-lookup"><span data-stu-id="680b0-159">**capacity load**</span></span>
 
-Maksimālais ieplānotā darba daudzums, kādu resurss var veikt nepieciešamajā noslodzes līmenī.
+<span data-ttu-id="680b0-160">Maksimālais ieplānotā darba daudzums, kādu resurss var veikt nepieciešamajā noslodzes līmenī.</span><span class="sxs-lookup"><span data-stu-id="680b0-160">The maximum amount of scheduled work that a work center can perform at a required capacity level.</span></span>
 
-###### <a name="capacity-planning"></a>**noslodzes plānošana**
+###### <a name="capacity-planning"></a><span data-ttu-id="680b0-161">**noslodzes plānošana**</span><span class="sxs-lookup"><span data-stu-id="680b0-161">**capacity planning**</span></span>
 
-Procedūra, lai noteiktu resursa noslodzes prasības, kas atbilst nākotnes izvades pieprasījumam noteiktajos laika periodos.
+<span data-ttu-id="680b0-162">Procedūra, lai noteiktu resursa noslodzes prasības, kas atbilst nākotnes izvades pieprasījumam noteiktajos laika periodos.</span><span class="sxs-lookup"><span data-stu-id="680b0-162">A procedure for determining the resource capacity requirements that meet the demand of future output during specific time periods.</span></span>
 
-###### <a name="carry-forward-budget"></a>**pārnestais budžets**
+###### <a name="carry-forward-budget"></a><span data-ttu-id="680b0-163">**pārnestais budžets**</span><span class="sxs-lookup"><span data-stu-id="680b0-163">**carry-forward budget**</span></span>
 
-Budžets, kas tiek pārnests no viena finanšu gada uz nākamo un kas ir rezervēts atvērtiem pirkšanas pasūtījumiem jaunajā finanšu gadā.
+<span data-ttu-id="680b0-164">Budžets, kas tiek pārnests no viena finanšu gada uz nākamo un kas ir rezervēts atvērtiem pirkšanas pasūtījumiem jaunajā finanšu gadā.</span><span class="sxs-lookup"><span data-stu-id="680b0-164">The budget that is transferred from one fiscal year to the next and that is reserved for open purchase orders in the new fiscal year.</span></span>
 
-###### <a name="cash-generating-unit"></a>**naudu ienesošā vienība**
+###### <a name="cash-generating-unit"></a><span data-ttu-id="680b0-165">**naudu ienesošā vienība**</span><span class="sxs-lookup"><span data-stu-id="680b0-165">**cash-generating unit**</span></span>
 
-Mazākā klasificējamā aktīvu grupa, kas ienes naudu neatkarīgi no citiem aktīviem organizācijā. Šīs aktīvu grupas tiek izmantotas, lai izmērītu notiekošo vērtības samazināšanos.
+<span data-ttu-id="680b0-166">Mazākā klasificējamā aktīvu grupa, kas ienes naudu neatkarīgi no citiem aktīviem organizācijā.</span><span class="sxs-lookup"><span data-stu-id="680b0-166">The smallest group of classifiable assets that generates cash independently of other assets within an organization.</span></span> <span data-ttu-id="680b0-167">Šīs aktīvu grupas tiek izmantotas, lai izmērītu notiekošo vērtības samazināšanos.</span><span class="sxs-lookup"><span data-stu-id="680b0-167">These groups of assets are used to measure impairment losses that will be incurred.</span></span>
 
-###### <a name="catch-weight"></a>**pieļaujamais svars**
+###### <a name="catch-weight"></a><span data-ttu-id="680b0-168">**pieļaujamais svars**</span><span class="sxs-lookup"><span data-stu-id="680b0-168">**catch weight**</span></span>
 
-Pārdošanas krājuma vai krājuma vienības faktiskais vai nominālais svars.
+<span data-ttu-id="680b0-169">Pārdošanas krājuma vai krājuma vienības faktiskais vai nominālais svars.</span><span class="sxs-lookup"><span data-stu-id="680b0-169">The actual or nominal weight of a sales item or inventory item.</span></span>
 
-###### <a name="chart-of-accounts"></a>**kontu plāns**
+###### <a name="chart-of-accounts"></a><span data-ttu-id="680b0-170">**kontu plāns**</span><span class="sxs-lookup"><span data-stu-id="680b0-170">**chart of accounts**</span></span>
 
-Galveno kontu saraksts.
+<span data-ttu-id="680b0-171">Galveno kontu saraksts.</span><span class="sxs-lookup"><span data-stu-id="680b0-171">A list of main accounts.</span></span>
 
-###### <a name="cogs-cost-of-goods-sold"></a>**PPPI (pārdoto preču pašizmaksa)**
+###### <a name="cogs-cost-of-goods-sold"></a><span data-ttu-id="680b0-172">**PPPI (pārdoto preču pašizmaksa)**</span><span class="sxs-lookup"><span data-stu-id="680b0-172">**COGS (cost of goods sold)**</span></span>
 
-Uzskaites kategorija, kuru izmanto preču ražošanas un krājumu pārnešanas finanšu seku summēšanai.
+<span data-ttu-id="680b0-173">Uzskaites kategorija, kuru izmanto preču ražošanas un krājumu pārnešanas finanšu seku summēšanai.</span><span class="sxs-lookup"><span data-stu-id="680b0-173">An accounting category used to sum the financial consequences of manufacturing products and carrying inventory.</span></span>
 
-###### <a name="contractor"></a>**līgumdarbinieks**
+###### <a name="contractor"></a><span data-ttu-id="680b0-174">**līgumdarbinieks**</span><span class="sxs-lookup"><span data-stu-id="680b0-174">**contractor**</span></span>
 
-Loma, kuru uzņemas persona, kas piedalās līgumdarbinieka un darba devēja attiecībās ar juridisku personu.
+<span data-ttu-id="680b0-175">Loma, kuru uzņemas persona, kas piedalās līgumdarbinieka un darba devēja attiecībās ar juridisku personu.</span><span class="sxs-lookup"><span data-stu-id="680b0-175">A role assumed by a person who participates in a contractor-employer relationship with a legal entity.</span></span>
 
-###### <a name="co-product"></a>**līdzprodukts**
+###### <a name="co-product"></a><span data-ttu-id="680b0-176">**līdzprodukts**</span><span class="sxs-lookup"><span data-stu-id="680b0-176">**co-product**</span></span>
 
-Krājums, kas tiek ražots kopā ar citu krājumu.
+<span data-ttu-id="680b0-177">Krājums, kas tiek ražots kopā ar citu krājumu.</span><span class="sxs-lookup"><span data-stu-id="680b0-177">An item produced jointly with another item.</span></span>
 
-###### <a name="cost-center"></a>**izmaksu centrs**
+###### <a name="cost-center"></a><span data-ttu-id="680b0-178">**izmaksu centrs**</span><span class="sxs-lookup"><span data-stu-id="680b0-178">**cost center**</span></span>
 
-Pārvaldības struktūrvienība, kuras vadītāji atskaitās par budžetā ieplānotajiem un faktiskajiem izdevumiem.
+<span data-ttu-id="680b0-179">Pārvaldības struktūrvienība, kuras vadītāji atskaitās par budžetā ieplānotajiem un faktiskajiem izdevumiem.</span><span class="sxs-lookup"><span data-stu-id="680b0-179">An operating unit whose managers are accountable for budgeted and actual expenditures.</span></span>
 
-###### <a name="cost-variance"></a>**izmaksu novirze**
+###### <a name="cost-variance"></a><span data-ttu-id="680b0-180">**izmaksu novirze**</span><span class="sxs-lookup"><span data-stu-id="680b0-180">**cost variance**</span></span>
 
-Starpība starp paredzamām un faktiskām izmaksām.
+<span data-ttu-id="680b0-181">Starpība starp paredzamām un faktiskām izmaksām.</span><span class="sxs-lookup"><span data-stu-id="680b0-181">The difference between an expected cost and an actual cost.</span></span>
 
-###### <a name="costing"></a>**izmaksu aprēķināšana**
+###### <a name="costing"></a><span data-ttu-id="680b0-182">**izmaksu aprēķināšana**</span><span class="sxs-lookup"><span data-stu-id="680b0-182">**costing**</span></span>
 
-Organizācijas iegūto, saražoto vai piegādāto ekonomisko resursu izmaksu aprēķināšanas, piešķiršanas un sadalīšanas process.
+<span data-ttu-id="680b0-183">Organizācijas iegūto, saražoto vai piegādāto ekonomisko resursu izmaksu aprēķināšanas, piešķiršanas un sadalīšanas process.</span><span class="sxs-lookup"><span data-stu-id="680b0-183">The process of calculating, assigning, and allocating the cost of economic resources acquired, produced, or delivered by an organization.</span></span>
 
-###### <a name="ctp-capable-to-promise"></a>**CTP (pieejams solīšanai)**
+###### <a name="ctp-capable-to-promise"></a><span data-ttu-id="680b0-184">**CTP (pieejams solīšanai)**</span><span class="sxs-lookup"><span data-stu-id="680b0-184">**CTP (capable-to-promise)**</span></span>
 
-Preces izvades daļa no pieejamajiem operāciju resursiem un pieejamā ievades prece, kas nepieciešama specifisku klienta prasību izpildīšanai.
+<span data-ttu-id="680b0-185">Preces izvades daļa no pieejamajiem operāciju resursiem un pieejamā ievades prece, kas nepieciešama specifisku klienta prasību izpildīšanai.</span><span class="sxs-lookup"><span data-stu-id="680b0-185">The portion of product output from available operations resources and available input product required to fulfill a specific customer requirement.</span></span>
 
-###### <a name="currency-code"></a>**valūtas kods**
+###### <a name="currency-code"></a><span data-ttu-id="680b0-186">**valūtas kods**</span><span class="sxs-lookup"><span data-stu-id="680b0-186">**currency code**</span></span>
 
-Burtciparu identifikators, kas apzīmē valūtas vienību.
+<span data-ttu-id="680b0-187">Burtciparu identifikators, kas apzīmē valūtas vienību.</span><span class="sxs-lookup"><span data-stu-id="680b0-187">An alphanumeric identifier that represents a currency unit.</span></span>
 
-###### <a name="cycle-time"></a>**cikla laiks**
+###### <a name="cycle-time"></a><span data-ttu-id="680b0-188">**cikla laiks**</span><span class="sxs-lookup"><span data-stu-id="680b0-188">**cycle time**</span></span>
 
-Laiks, kas nepieciešams kādas aktivitātes izpildīšanai.
+<span data-ttu-id="680b0-189">Laiks, kas nepieciešams kādas aktivitātes izpildīšanai.</span><span class="sxs-lookup"><span data-stu-id="680b0-189">The time taken to complete an activity.</span></span>
 
-### <a name="d"></a>**D**
+### <a name="d"></a><span data-ttu-id="680b0-190">**D**</span><span class="sxs-lookup"><span data-stu-id="680b0-190">**D**</span></span>
 
-###### <a name="dashboard"></a>**informācijas panelis**
+###### <a name="dashboard"></a><span data-ttu-id="680b0-191">**informācijas panelis**</span><span class="sxs-lookup"><span data-stu-id="680b0-191">**dashboard**</span></span>
 
-Tipiskā sākumlapa risinājumā Finance and Operations. Informācijas panelī lietotāji redz sadaļu katrai darbvietai, attiecībā uz kuru šiem lietotājiem ir piekļuve. Katrā sadaļā tiek rādītas šūnas no kopsavilkuma sadaļām saistītajā darbvietā. Informācijas panelis sastāv no nosaukuma un sekcijām ar šūnām.
+<span data-ttu-id="680b0-192">Tipiskā sākumlapa risinājumā Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="680b0-192">The typical start page in Finance and Operations.</span></span> <span data-ttu-id="680b0-193">Informācijas panelī lietotāji redz sadaļu katrai darbvietai, attiecībā uz kuru šiem lietotājiem ir piekļuve.</span><span class="sxs-lookup"><span data-stu-id="680b0-193">On the dashboard, users see a section for each workspace that they have access to.</span></span> <span data-ttu-id="680b0-194">Katrā sadaļā tiek rādītas šūnas no kopsavilkuma sadaļām saistītajā darbvietā.</span><span class="sxs-lookup"><span data-stu-id="680b0-194">Each section displays the tiles from the summary sections in the related workspace.</span></span> <span data-ttu-id="680b0-195">Informācijas panelis sastāv no nosaukuma un sekcijām ar šūnām.</span><span class="sxs-lookup"><span data-stu-id="680b0-195">The dashboard consists of a name and sections with tiles.</span></span>
 
-###### <a name="data-entity"></a>**datu elements**
+###### <a name="data-entity"></a><span data-ttu-id="680b0-196">**datu elements**</span><span class="sxs-lookup"><span data-stu-id="680b0-196">**data entity**</span></span>
 
-Informācijas struktūra, kas atspoguļo elementa datu īpašības.
+<span data-ttu-id="680b0-197">Informācijas struktūra, kas atspoguļo elementa datu īpašības.</span><span class="sxs-lookup"><span data-stu-id="680b0-197">An information structure that represents the data characteristic of an entity.</span></span>
 
-###### <a name="delegate"></a>**pārstāvis**
+###### <a name="delegate"></a><span data-ttu-id="680b0-198">**pārstāvis**</span><span class="sxs-lookup"><span data-stu-id="680b0-198">**delegate**</span></span>
 
-Pārstāvis ir tips, kas atspoguļo atsauces uz metodēm ar noteikto parametru sarakstu un atgriešanas tipu.
+<span data-ttu-id="680b0-199">Pārstāvis ir tips, kas atspoguļo atsauces uz metodēm ar noteikto parametru sarakstu un atgriešanas tipu.</span><span class="sxs-lookup"><span data-stu-id="680b0-199">A delegate is a type that represents references to methods with a particular parameter list and return type.</span></span>
 
-###### <a name="delivery-note"></a>**piegādes pavadzīme**
+###### <a name="delivery-note"></a><span data-ttu-id="680b0-200">**piegādes pavadzīme**</span><span class="sxs-lookup"><span data-stu-id="680b0-200">**delivery note**</span></span>
 
-Biznesa dokuments, kas dokumentē preču piegādi divu pušu starpā.
+<span data-ttu-id="680b0-201">Biznesa dokuments, kas dokumentē preču piegādi divu pušu starpā.</span><span class="sxs-lookup"><span data-stu-id="680b0-201">A business document that documents the delivery of products between two parties.</span></span>
 
-###### <a name="demand-forecast"></a>**pieprasījuma apjoma prognoze**
+###### <a name="demand-forecast"></a><span data-ttu-id="680b0-202">**pieprasījuma apjoma prognoze**</span><span class="sxs-lookup"><span data-stu-id="680b0-202">**demand forecast**</span></span>
 
-Preces nākotnes pieprasījuma prognoze.
+<span data-ttu-id="680b0-203">Preces nākotnes pieprasījuma prognoze.</span><span class="sxs-lookup"><span data-stu-id="680b0-203">A prediction of future product demand.</span></span>
 
-###### <a name="demand-forecasting"></a>**pieprasījuma prognozēšana**
+###### <a name="demand-forecasting"></a><span data-ttu-id="680b0-204">**pieprasījuma prognozēšana**</span><span class="sxs-lookup"><span data-stu-id="680b0-204">**demand forecasting**</span></span>
 
-Biznesa process, kas novērtē pieprasījumu nākotnē un izveido pieprasījuma apjoma prognozes, pamatojoties uz vēsturiskiem transakciju datiem.
+<span data-ttu-id="680b0-205">Biznesa process, kas novērtē pieprasījumu nākotnē un izveido pieprasījuma apjoma prognozes, pamatojoties uz vēsturiskiem transakciju datiem.</span><span class="sxs-lookup"><span data-stu-id="680b0-205">A business process that estimates future demand and creates demand forecasts based on historical transaction data.</span></span>
 
-###### <a name="deployable-package"></a>**izvietojamā pakotne**
+###### <a name="deployable-package"></a><span data-ttu-id="680b0-206">**izvietojamā pakotne**</span><span class="sxs-lookup"><span data-stu-id="680b0-206">**deployable package**</span></span>
 
-Transportlīdzeklis, kas tiek lietots izvietošanai lietotāja pieņemšanas pārbaudē (User Acceptance Test — UAT) un ražošanas vidēs.
+<span data-ttu-id="680b0-207">Transportlīdzeklis, kas tiek lietots izvietošanai lietotāja pieņemšanas pārbaudē (User Acceptance Test — UAT) un ražošanas vidēs.</span><span class="sxs-lookup"><span data-stu-id="680b0-207">The vehicle used for deployment on User Acceptance Test (UAT) and production environments.</span></span>
 
-###### <a name="designer"></a>**veidotājs**
+###### <a name="designer"></a><span data-ttu-id="680b0-208">**veidotājs**</span><span class="sxs-lookup"><span data-stu-id="680b0-208">**designer**</span></span>
 
-Visual Studio rīks, ko izmanto, lai izveidotu, atjauninātu un pārbaudītu modeļa elementus.
+<span data-ttu-id="680b0-209">Visual Studio rīks, ko izmanto, lai izveidotu, atjauninātu un pārbaudītu modeļa elementus.</span><span class="sxs-lookup"><span data-stu-id="680b0-209">A Visual Studio tool that you used to create, update, and inspect your model elements.</span></span>
 
-###### <a name="dimension-based-product-configuration"></a>**uz dimensiju balstīta konfigurācija**
+###### <a name="dimension-based-product-configuration"></a><span data-ttu-id="680b0-210">**uz dimensiju balstīta konfigurācija**</span><span class="sxs-lookup"><span data-stu-id="680b0-210">**dimension-based product configuration**</span></span>
 
-Konfigurēšanas tehnoloģija, kas tiek izmantota, lai veidotu preču variantus, izvēloties vērtības preces dimensijām.
+<span data-ttu-id="680b0-211">Konfigurēšanas tehnoloģija, kas tiek izmantota, lai veidotu preču variantus, izvēloties vērtības preces dimensijām.</span><span class="sxs-lookup"><span data-stu-id="680b0-211">A configuration technology used to create product variants by selecting values for product dimensions.</span></span>
 
-###### <a name="distinct-product"></a>**atšķirīga prece**
+###### <a name="distinct-product"></a><span data-ttu-id="680b0-212">**atšķirīga prece**</span><span class="sxs-lookup"><span data-stu-id="680b0-212">**distinct product**</span></span>
 
-Unikāli identificējama prece.
+<span data-ttu-id="680b0-213">Unikāli identificējama prece.</span><span class="sxs-lookup"><span data-stu-id="680b0-213">A uniquely identifiable product.</span></span>
 
-###### <a name="document-management-system"></a>**dokumentu pārvaldības sistēma**
+###### <a name="document-management-system"></a><span data-ttu-id="680b0-214">**dokumentu pārvaldības sistēma**</span><span class="sxs-lookup"><span data-stu-id="680b0-214">**document management system**</span></span>
 
-Programmas pakalpojums organizācijas dokumentu glabāšanai un apstrādei.
+<span data-ttu-id="680b0-215">Programmas pakalpojums organizācijas dokumentu glabāšanai un apstrādei.</span><span class="sxs-lookup"><span data-stu-id="680b0-215">An application service for storing and handling an organization's documents.</span></span>
 
-###### <a name="duty"></a>**pienākums**
+###### <a name="duty"></a><span data-ttu-id="680b0-216">**pienākums**</span><span class="sxs-lookup"><span data-stu-id="680b0-216">**duty**</span></span>
 
-Programmas piekļuves privilēģiju kopa drošības modelī, kas lietotājam ir nepieciešama savu pienākumu veikšanai.
+<span data-ttu-id="680b0-217">Programmas piekļuves privilēģiju kopa drošības modelī, kas lietotājam ir nepieciešama savu pienākumu veikšanai.</span><span class="sxs-lookup"><span data-stu-id="680b0-217">In the security model, a set of application access privileges that are required for a user to carry out their responsibilities.</span></span>
 
-### <a name="e"></a>**E**
+### <a name="e"></a><span data-ttu-id="680b0-218">**E**</span><span class="sxs-lookup"><span data-stu-id="680b0-218">**E**</span></span>
 
-###### <a name="eft-electronic-funds-transfer"></a>**EFT (elektronisko līdzekļu pārskaitījums)**
+###### <a name="eft-electronic-funds-transfer"></a><span data-ttu-id="680b0-219">**EFT (elektronisko līdzekļu pārskaitījums)**</span><span class="sxs-lookup"><span data-stu-id="680b0-219">**EFT (electronic funds transfer)**</span></span>
 
-Tīkla sistēma naudas līdzekļu pārskaitīšanai no viena bankas konta uz citu.
+<span data-ttu-id="680b0-220">Tīkla sistēma naudas līdzekļu pārskaitīšanai no viena bankas konta uz citu.</span><span class="sxs-lookup"><span data-stu-id="680b0-220">A networked system for transferring funds from one bank account to another.</span></span>
 
-###### <a name="event"></a>**notikums**
+###### <a name="event"></a><span data-ttu-id="680b0-221">**notikums**</span><span class="sxs-lookup"><span data-stu-id="680b0-221">**event**</span></span>
 
-Notikums klasei vai objektam ļauj paziņot citām klasēm vai objektiem, ja notiek kaut kas interesants.
+<span data-ttu-id="680b0-222">Notikums klasei vai objektam ļauj paziņot citām klasēm vai objektiem, ja notiek kaut kas interesants.</span><span class="sxs-lookup"><span data-stu-id="680b0-222">An event lets a class or object to notify other classes or objects when something of interest occurs.</span></span>
 
-###### <a name="epe-every-product-every"></a>**EPE (Every Product Every)**
+###### <a name="epe-every-product-every"></a><span data-ttu-id="680b0-223">**EPE (Every Product Every)**</span><span class="sxs-lookup"><span data-stu-id="680b0-223">**EPE (Every Product Every)**</span></span>
 
-Racionāla koncepcija, kuru izmanto, lai izveidotu ražošanas ciklu, kas regulāri atkārtojas.
+<span data-ttu-id="680b0-224">Racionāla koncepcija, kuru izmanto, lai izveidotu ražošanas ciklu, kas regulāri atkārtojas.</span><span class="sxs-lookup"><span data-stu-id="680b0-224">A lean concept that is used to establish a regular repeating production cycle.</span></span>
 
-###### <a name="extension"></a>**paplašinājums**
+###### <a name="extension"></a><span data-ttu-id="680b0-225">**paplašinājums**</span><span class="sxs-lookup"><span data-stu-id="680b0-225">**extension**</span></span>
 
-Programmas pielāgošana, esošajam kodam pievienojot funkcionalitāti.
+<span data-ttu-id="680b0-226">Programmas pielāgošana, esošajam kodam pievienojot funkcionalitāti.</span><span class="sxs-lookup"><span data-stu-id="680b0-226">Customizing an application by adding functionality to existing code.</span></span>
 
-### <a name="f"></a>**F**
+### <a name="f"></a><span data-ttu-id="680b0-227">**F**</span><span class="sxs-lookup"><span data-stu-id="680b0-227">**F**</span></span>
 
-###### <a name="financial-dimension"></a>**finanšu dimensija**
+###### <a name="financial-dimension"></a><span data-ttu-id="680b0-228">**finanšu dimensija**</span><span class="sxs-lookup"><span data-stu-id="680b0-228">**financial dimension**</span></span>
 
-Finanšu datu klasifikators, kas tiek izveidots no pusēm, atrašanās vietām, precēm un aktivitātēm organizācijā un tiek izmantots vadības pārskatu sagatavošanai.
+<span data-ttu-id="680b0-229">Finanšu datu klasifikators, kas tiek izveidots no pusēm, atrašanās vietām, precēm un aktivitātēm organizācijā un tiek izmantots vadības pārskatu sagatavošanai.</span><span class="sxs-lookup"><span data-stu-id="680b0-229">A financial data classifier created from the parties, locations, products, and activities in an organization and used for management reporting.</span></span>
 
-###### <a name="financial-dimension-value"></a>**finanšu dimensijas vērtība**
+###### <a name="financial-dimension-value"></a><span data-ttu-id="680b0-230">**finanšu dimensijas vērtība**</span><span class="sxs-lookup"><span data-stu-id="680b0-230">**financial dimension value**</span></span>
 
-Finanšu dimensijas domēna datu elements.
+<span data-ttu-id="680b0-231">Finanšu dimensijas domēna datu elements.</span><span class="sxs-lookup"><span data-stu-id="680b0-231">A data element in the domain of a financial dimension.</span></span>
 
-###### <a name="financial-statement"></a>**finanšu pārskats**
+###### <a name="financial-statement"></a><span data-ttu-id="680b0-232">**finanšu pārskats**</span><span class="sxs-lookup"><span data-stu-id="680b0-232">**financial statement**</span></span>
 
-Pārskats, kas dokumentē organizācijas finansiālo informāciju un finansiālo stāvokli.
+<span data-ttu-id="680b0-233">Pārskats, kas dokumentē organizācijas finansiālo informāciju un finansiālo stāvokli.</span><span class="sxs-lookup"><span data-stu-id="680b0-233">A report that documents the financial information and financial position of an organization.</span></span>
 
-###### <a name="fixed-cost"></a>**fiksētās izmaksas**
+###### <a name="fixed-cost"></a><span data-ttu-id="680b0-234">**fiksētās izmaksas**</span><span class="sxs-lookup"><span data-stu-id="680b0-234">**fixed cost**</span></span>
 
-Izmaksas, kas nemainās ar izmaiņām precu piegādes caurlaidspējā vai izvadē.
+<span data-ttu-id="680b0-235">Izmaksas, kas nemainās ar izmaiņām precu piegādes caurlaidspējā vai izvadē.</span><span class="sxs-lookup"><span data-stu-id="680b0-235">A cost that does not vary with changes in product delivery throughput or output.</span></span>
 
-###### <a name="fixed-currency"></a>**fiksētā valūta**
+###### <a name="fixed-currency"></a><span data-ttu-id="680b0-236">**fiksētā valūta**</span><span class="sxs-lookup"><span data-stu-id="680b0-236">**fixed currency**</span></span>
 
-Valūta, kurai ir fiksēts valūtas kurss attiecībā pret citu valūtu.
+<span data-ttu-id="680b0-237">Valūta, kurai ir fiksēts valūtas kurss attiecībā pret citu valūtu.</span><span class="sxs-lookup"><span data-stu-id="680b0-237">A currency that has a fixed exchange rate in relation to another currency.</span></span>
 
-###### <a name="fixed-quantity-kanban"></a>**fiksēts daudzuma Kanban**
+###### <a name="fixed-quantity-kanban"></a><span data-ttu-id="680b0-238">**fiksēts daudzuma Kanban**</span><span class="sxs-lookup"><span data-stu-id="680b0-238">**fixed quantity kanban**</span></span>
 
-Kanban veids, kuru izmanto, kad Kanban nosacījumiem piešķirtais Kanban skaits ir konstants.
+<span data-ttu-id="680b0-239">Kanban veids, kuru izmanto, kad Kanban nosacījumiem piešķirtais Kanban skaits ir konstants.</span><span class="sxs-lookup"><span data-stu-id="680b0-239">A type of kanban that is used when the number of kanbans that are assigned to a kanban rule is constant.</span></span>
 
-###### <a name="formula"></a>**formula**
+###### <a name="formula"></a><span data-ttu-id="680b0-240">**formula**</span><span class="sxs-lookup"><span data-stu-id="680b0-240">**formula**</span></span>
 
-Skaitliskā attiecība starp ražošanas procesa ievadēm un ražošanas procesa ievadēm.
+<span data-ttu-id="680b0-241">Skaitliskā attiecība starp ražošanas procesa ievadēm un ražošanas procesa ievadēm.</span><span class="sxs-lookup"><span data-stu-id="680b0-241">A numeric relationship among production process inputs and production process outputs.</span></span>
 
-###### <a name="formula-item"></a>**formulas krājums**
+###### <a name="formula-item"></a><span data-ttu-id="680b0-242">**formulas krājums**</span><span class="sxs-lookup"><span data-stu-id="680b0-242">**formula item**</span></span>
 
-Formulas kontrolēta pakešveida apstrādes izvade.
+<span data-ttu-id="680b0-243">Formulas kontrolēta pakešveida apstrādes izvade.</span><span class="sxs-lookup"><span data-stu-id="680b0-243">An output of a batch process controlled by a formula.</span></span>
 
-### <a name="g"></a>**G**
+### <a name="g"></a><span data-ttu-id="680b0-244">**G**</span><span class="sxs-lookup"><span data-stu-id="680b0-244">**G**</span></span>
 
-###### <a name="general-budget-reservation"></a>**vispārīga budžeta rezervācija**
+###### <a name="general-budget-reservation"></a><span data-ttu-id="680b0-245">**vispārīga budžeta rezervācija**</span><span class="sxs-lookup"><span data-stu-id="680b0-245">**general budget reservation**</span></span>
 
-Dokuments, ko bieži izmanto publiskā sektora iestādes, lai atliktu vai atzīmētu budžetā paredzētos līdzekļus, šos līdzekļus padarot nepieejamus citiem nolūkiem.
+<span data-ttu-id="680b0-246">Dokuments, ko bieži izmanto publiskā sektora iestādes, lai atliktu vai atzīmētu budžetā paredzētos līdzekļus, šos līdzekļus padarot nepieejamus citiem nolūkiem.</span><span class="sxs-lookup"><span data-stu-id="680b0-246">A document that is often used by public sector entities to set aside or earmark budgeted funds so that those funds are not available for other purposes.</span></span>
 
-###### <a name="grace-period"></a>**pagarinājuma periods**
+###### <a name="grace-period"></a><span data-ttu-id="680b0-247">**pagarinājuma periods**</span><span class="sxs-lookup"><span data-stu-id="680b0-247">**grace period**</span></span>
 
-Laika periods ārpus norādītā datuma, kura laikā saistību var izpildīt bez soda naudas.
+<span data-ttu-id="680b0-248">Laika periods ārpus norādītā datuma, kura laikā saistību var izpildīt bez soda naudas.</span><span class="sxs-lookup"><span data-stu-id="680b0-248">The time period beyond a specified date during which an obligation can be fulfilled without penalty.</span></span>
 
-###### <a name="gst-goods-and-services-tax"></a>**GST (preču un pakalpojumu nodoklis)**
+###### <a name="gst-goods-and-services-tax"></a><span data-ttu-id="680b0-249">**GST (preču un pakalpojumu nodoklis)**</span><span class="sxs-lookup"><span data-stu-id="680b0-249">**GST (goods and services tax)**</span></span>
 
-Pievienotās vērtības nodoklis, ar kuru apliek dažās valstīs/reģionos.
+<span data-ttu-id="680b0-250">Pievienotās vērtības nodoklis, ar kuru apliek dažās valstīs/reģionos.</span><span class="sxs-lookup"><span data-stu-id="680b0-250">A value-added tax levied in some countries/regions.</span></span>
 
-### <a name="i"></a>**I**
+### <a name="i"></a><span data-ttu-id="680b0-251">**I**</span><span class="sxs-lookup"><span data-stu-id="680b0-251">**I**</span></span>
 
-###### <a name="intercompany"></a>**starpuzņēmumu**
+###### <a name="intercompany"></a><span data-ttu-id="680b0-252">**starpuzņēmumu**</span><span class="sxs-lookup"><span data-stu-id="680b0-252">**intercompany**</span></span>
 
-Notiek starp vai attiecas uz divām vai vairākām juridiskajām personām, kuras ir daļa no tās pašas organizācijas, kas konsolidē visu juridisko personu kontus.
+<span data-ttu-id="680b0-253">Notiek starp vai attiecas uz divām vai vairākām juridiskajām personām, kuras ir daļa no tās pašas organizācijas, kas konsolidē visu juridisko personu kontus.</span><span class="sxs-lookup"><span data-stu-id="680b0-253">Occurring between or relating two or more legal entities that are part the same organization that consolidates the accounts of all legal entities.</span></span>
 
-###### <a name="invoice-matching"></a>**rēķinu salīdzināšana**
+###### <a name="invoice-matching"></a><span data-ttu-id="680b0-254">**rēķinu salīdzināšana**</span><span class="sxs-lookup"><span data-stu-id="680b0-254">**invoice matching**</span></span>
 
-Kreditora rēķinu cenu un preču daudzumu salīdzināšana ar pirkšanas pasūtījumiem un produktu ieejas plūsmām.
+<span data-ttu-id="680b0-255">Kreditora rēķinu cenu un preču daudzumu salīdzināšana ar pirkšanas pasūtījumiem un produktu ieejas plūsmām.</span><span class="sxs-lookup"><span data-stu-id="680b0-255">A practice of matching vendor invoice prices and product quantities to purchase orders and product receipts.</span></span>
 
-###### <a name="item-allocation-key"></a>**krājumu sadalījuma princips**
+###### <a name="item-allocation-key"></a><span data-ttu-id="680b0-256">**krājumu sadalījuma princips**</span><span class="sxs-lookup"><span data-stu-id="680b0-256">**item allocation key**</span></span>
 
-Preču saimes grupējums, kuru izmanto prognožu un pieprasījumu plānošanai.
+<span data-ttu-id="680b0-257">Preču saimes grupējums, kuru izmanto prognožu un pieprasījumu plānošanai.</span><span class="sxs-lookup"><span data-stu-id="680b0-257">A product family grouping that is used for forecast and demand scheduling.</span></span>
 
-###### <a name="item-relation"></a>**krājumu saistība**
+###### <a name="item-relation"></a><span data-ttu-id="680b0-258">**krājumu saistība**</span><span class="sxs-lookup"><span data-stu-id="680b0-258">**item relation**</span></span>
 
-Atsauce uz krājumu sadalījuma grupu vai uz krājumu un tā preces dimensijām Kanban nosacījumos.
+<span data-ttu-id="680b0-259">Atsauce uz krājumu sadalījuma grupu vai uz krājumu un tā preces dimensijām Kanban nosacījumos.</span><span class="sxs-lookup"><span data-stu-id="680b0-259">A reference to the item allocation group or the item and its product dimensions in a kanban rule.</span></span>
 
-### <a name="k"></a>**K**
+### <a name="k"></a><span data-ttu-id="680b0-260">**K**</span><span class="sxs-lookup"><span data-stu-id="680b0-260">**K**</span></span>
 
-###### <a name="kanban"></a>**Kanban**
+###### <a name="kanban"></a><span data-ttu-id="680b0-261">**Kanban**</span><span class="sxs-lookup"><span data-stu-id="680b0-261">**kanban**</span></span>
 
-Signāls, kas paziņo par preces daudzuma prasību.
+<span data-ttu-id="680b0-262">Signāls, kas paziņo par preces daudzuma prasību.</span><span class="sxs-lookup"><span data-stu-id="680b0-262">A signal that communicates a requirement for a quantity of product.</span></span>
 
-###### <a name="kanban-flow"></a>**Kanban plūsma**
+###### <a name="kanban-flow"></a><span data-ttu-id="680b0-263">**Kanban plūsma**</span><span class="sxs-lookup"><span data-stu-id="680b0-263">**kanban flow**</span></span>
 
-Norāda aktivitāšu secību, kas tiek veiktas Kanban nosacījumiem izveidotajos Kanban.
+<span data-ttu-id="680b0-264">Norāda aktivitāšu secību, kas tiek veiktas Kanban nosacījumiem izveidotajos Kanban.</span><span class="sxs-lookup"><span data-stu-id="680b0-264">Defines the sequence of activities that are performed for kanbans that are created for a kanban rule.</span></span>
 
-###### <a name="kanban-job"></a>**Kanban darbs**
+###### <a name="kanban-job"></a><span data-ttu-id="680b0-265">**Kanban darbs**</span><span class="sxs-lookup"><span data-stu-id="680b0-265">**kanban job**</span></span>
 
-Procesa vai pārsūtīšanas aktivitāte ražošanas plūsmā, kuru izraisa Kanban.
+<span data-ttu-id="680b0-266">Procesa vai pārsūtīšanas aktivitāte ražošanas plūsmā, kuru izraisa Kanban.</span><span class="sxs-lookup"><span data-stu-id="680b0-266">A process or transfer activity in a production flow that is triggered by a Kanban.</span></span>
 
-###### <a name="kanban-job-consumption"></a>**Kanban darba patēriņš**
+###### <a name="kanban-job-consumption"></a><span data-ttu-id="680b0-267">**Kanban darba patēriņš**</span><span class="sxs-lookup"><span data-stu-id="680b0-267">**kanban job consumption**</span></span>
 
-Preces sastāvdaļu izņemšana no krājumiem, lai izpildītu Kanban ražošanas darbus.
+<span data-ttu-id="680b0-268">Preces sastāvdaļu izņemšana no krājumiem, lai izpildītu Kanban ražošanas darbus.</span><span class="sxs-lookup"><span data-stu-id="680b0-268">The withdrawal of product components from inventory in order to complete the kanban production jobs.</span></span>
 
-###### <a name="kanban-rule"></a>**Kanban nosacījumi**
+###### <a name="kanban-rule"></a><span data-ttu-id="680b0-269">**Kanban nosacījumi**</span><span class="sxs-lookup"><span data-stu-id="680b0-269">**kanban rule**</span></span>
 
-Nosacījumi lean manufacturing sistēmā, kas realizē materiālu plānošanas un papildināšanas nosacījumus, kontrolējot, kā ir koordinētas procesa un pārsūtīšanas aktivitātes ražošanas plūsmās.
+<span data-ttu-id="680b0-270">Nosacījumi lean manufacturing sistēmā, kas realizē materiālu plānošanas un papildināšanas nosacījumus, kontrolējot, kā ir koordinētas procesa un pārsūtīšanas aktivitātes ražošanas plūsmās.</span><span class="sxs-lookup"><span data-stu-id="680b0-270">A rule in a lean manufacturing system that realizes material planning and replenishment policies by controlling how process and transfer activities are coordinated in production flows.</span></span>
 
-### <a name="l"></a>**L**
+### <a name="l"></a><span data-ttu-id="680b0-271">**L**</span><span class="sxs-lookup"><span data-stu-id="680b0-271">**L**</span></span>
 
-###### <a name="lean-manufacturing"></a>**lean manufacturing**
+###### <a name="lean-manufacturing"></a><span data-ttu-id="680b0-272">**lean manufacturing**</span><span class="sxs-lookup"><span data-stu-id="680b0-272">**lean manufacturing**</span></span>
 
-Filozofija, kurā ražošanas darbības veicina racionālas ražošanas plūsmas un biznesa aktivitātes.
+<span data-ttu-id="680b0-273">Filozofija, kurā ražošanas darbības veicina racionālas ražošanas plūsmas un biznesa aktivitātes.</span><span class="sxs-lookup"><span data-stu-id="680b0-273">A philosophy in which manufacturing operations promote lean production flows and business activities.</span></span>
 
-###### <a name="lean-schedule-group"></a>**racionālās plānošanas grupa**
+###### <a name="lean-schedule-group"></a><span data-ttu-id="680b0-274">**racionālās plānošanas grupa**</span><span class="sxs-lookup"><span data-stu-id="680b0-274">**lean schedule group**</span></span>
 
-Veids, kādā apkopot krājumus ražošanai, piemēram, pamatojoties uz iestatījumu grupu, nosūtīšanas grupu vai transporta grupu.
+<span data-ttu-id="680b0-275">Veids, kādā apkopot krājumus ražošanai, piemēram, pamatojoties uz iestatījumu grupu, nosūtīšanas grupu vai transporta grupu.</span><span class="sxs-lookup"><span data-stu-id="680b0-275">A way in which to aggregate items for production, for example, based on a setup group, shipping group, or transport group.</span></span>
 
-###### <a name="ledger-account"></a>**virsgrāmatas konts**
+###### <a name="ledger-account"></a><span data-ttu-id="680b0-276">**virsgrāmatas konts**</span><span class="sxs-lookup"><span data-stu-id="680b0-276">**ledger account**</span></span>
 
-Klasifikators, kas ir izveidots no galvenā konta vērtības un citu kontu plānā uzskaitīto finanšu dimensiju vērtību kombinācijas un tiek izmantots ekonomiskās aktivitātes finanšu seku klasificēšanai.
+<span data-ttu-id="680b0-277">Klasifikators, kas ir izveidots no galvenā konta vērtības un citu kontu plānā uzskaitīto finanšu dimensiju vērtību kombinācijas un tiek izmantots ekonomiskās aktivitātes finanšu seku klasificēšanai.</span><span class="sxs-lookup"><span data-stu-id="680b0-277">A classifier created from the combination of main account value and other financial dimension values listed in a chart of accounts and used to classify the financial consequences of economic activity.</span></span>
 
-###### <a name="license-code"></a>**licences kods**
+###### <a name="license-code"></a><span data-ttu-id="680b0-278">**licences kods**</span><span class="sxs-lookup"><span data-stu-id="680b0-278">**license code**</span></span>
 
-Burtciparu atslēga, kas pusei sniedz tiesības izmantot programmatūru vai programmatūras komponentus saskaņā ar licences līguma noteikumiem un kas aktivizē un deaktivizē programmatūras moduļus, programmatūras iespējas un programmatūras funkcijas.
+<span data-ttu-id="680b0-279">Burtciparu atslēga, kas pusei sniedz tiesības izmantot programmatūru vai programmatūras komponentus saskaņā ar licences līguma noteikumiem un kas aktivizē un deaktivizē programmatūras moduļus, programmatūras iespējas un programmatūras funkcijas.</span><span class="sxs-lookup"><span data-stu-id="680b0-279">An alphanumeric key that grants a party the right to use software or software components as prescribed in the terms of the license agreement, and that activates and inactivates software modules, software capabilities, and software functions.</span></span>
 
-###### <a name="liquidity"></a>**likviditāte**
+###### <a name="liquidity"></a><span data-ttu-id="680b0-280">**likviditāte**</span><span class="sxs-lookup"><span data-stu-id="680b0-280">**liquidity**</span></span>
 
-Puses spēja izmantot apgrozāmos līdzekļus pašreizējo saistību nokārtošanai.
+<span data-ttu-id="680b0-281">Puses spēja izmantot apgrozāmos līdzekļus pašreizējo saistību nokārtošanai.</span><span class="sxs-lookup"><span data-stu-id="680b0-281">The ability of a party to use current assets to settle current liabilities.</span></span>
 
-### <a name="m"></a>**M**
+### <a name="m"></a><span data-ttu-id="680b0-282">**M**</span><span class="sxs-lookup"><span data-stu-id="680b0-282">**M**</span></span>
 
-###### <a name="master-scheduling"></a>**vispārējā plānošana**
+###### <a name="master-scheduling"></a><span data-ttu-id="680b0-283">**vispārējā plānošana**</span><span class="sxs-lookup"><span data-stu-id="680b0-283">**master scheduling**</span></span>
 
-Grafika ģenerēšanas process piedāvājuma un pieprasījuma saskaņošanai.
+<span data-ttu-id="680b0-284">Grafika ģenerēšanas process piedāvājuma un pieprasījuma saskaņošanai.</span><span class="sxs-lookup"><span data-stu-id="680b0-284">The process for generating a timetable for matching supply with demand.</span></span>
 
-###### <a name="model"></a>**modelis**
+###### <a name="model"></a><span data-ttu-id="680b0-285">**modelis**</span><span class="sxs-lookup"><span data-stu-id="680b0-285">**model**</span></span>
 
-Modelis ietver koda elementus un atsauču metadatus. Tas tiek izveidots un pārbaudīts programmā Visual Studio.
+<span data-ttu-id="680b0-286">Modelis ietver koda elementus un atsauču metadatus.</span><span class="sxs-lookup"><span data-stu-id="680b0-286">A model contains code elements and reference metadata.</span></span> <span data-ttu-id="680b0-287">Tas tiek izveidots un pārbaudīts programmā Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="680b0-287">It is created and inspected in Visual Studio.</span></span>
 
-###### <a name="model-element"></a>**modeļa elements**
+###### <a name="model-element"></a><span data-ttu-id="680b0-288">**modeļa elements**</span><span class="sxs-lookup"><span data-stu-id="680b0-288">**model element**</span></span>
 
-Modelis ir elementu (avota failu un metadatu) grupa, kas veido izplatāmo programmatūras risinājumu. Modelis ir noformēšanas laika jēdziens.
+<span data-ttu-id="680b0-289">Modelis ir elementu (avota failu un metadatu) grupa, kas veido izplatāmo programmatūras risinājumu.</span><span class="sxs-lookup"><span data-stu-id="680b0-289">A model is a group of elements (source files and metadata) that constitutes a distributable software solution.</span></span> <span data-ttu-id="680b0-290">Modelis ir noformēšanas laika jēdziens.</span><span class="sxs-lookup"><span data-stu-id="680b0-290">The model is a design-time concept.</span></span>
 
-### <a name="n"></a>**N**
+### <a name="n"></a><span data-ttu-id="680b0-291">**N**</span><span class="sxs-lookup"><span data-stu-id="680b0-291">**N**</span></span>
 
-###### <a name="nbv-net-book-value"></a>**AV (atlikusī vērtība)**
+###### <a name="nbv-net-book-value"></a><span data-ttu-id="680b0-292">**AV (atlikusī vērtība)**</span><span class="sxs-lookup"><span data-stu-id="680b0-292">**NBV (net book value)**</span></span>
 
-Pamatlīdzekļa vērtība, kuru aprēķina, no pamatlīdzekļa sākotnējās vērtības atskaitot uzkrāto nolietojumu.
+<span data-ttu-id="680b0-293">Pamatlīdzekļa vērtība, kuru aprēķina, no pamatlīdzekļa sākotnējās vērtības atskaitot uzkrāto nolietojumu.</span><span class="sxs-lookup"><span data-stu-id="680b0-293">The value of a fixed asset calculated as the difference between the original cost of the fixed asset minus its accumulated depreciations.</span></span>
 
-### <a name="o"></a>**O**
+### <a name="o"></a><span data-ttu-id="680b0-294">**O**</span><span class="sxs-lookup"><span data-stu-id="680b0-294">**O**</span></span>
 
-###### <a name="object-permission"></a>**objekta atļauja**
+###### <a name="object-permission"></a><span data-ttu-id="680b0-295">**objekta atļauja**</span><span class="sxs-lookup"><span data-stu-id="680b0-295">**object permission**</span></span>
 
-Atļautā izveidošanas, lasīšanas, atjaunināšanas, dzēšanas vai izpildīšanas operācija attiecībā uz nodrošināmo objektu.
+<span data-ttu-id="680b0-296">Atļautā izveidošanas, lasīšanas, atjaunināšanas, dzēšanas vai izpildīšanas operācija attiecībā uz nodrošināmo objektu.</span><span class="sxs-lookup"><span data-stu-id="680b0-296">A permitted create, read, update, delete, or execute operation on a securable object.</span></span>
 
-###### <a name="operating-unit"></a>**pārvaldības struktūrvienība**
+###### <a name="operating-unit"></a><span data-ttu-id="680b0-297">**pārvaldības struktūrvienība**</span><span class="sxs-lookup"><span data-stu-id="680b0-297">**operating unit**</span></span>
 
-Organizācija, kas ekonomisko resursu un darba procesu kontroli sadala starp cilvēkiem, kuriem ir pienākums maksimizēt nepietiekamu resursu izmantošanu, uzlabot procesus un atskaitīties par to veiktspēju.
+<span data-ttu-id="680b0-298">Organizācija, kas ekonomisko resursu un darba procesu kontroli sadala starp cilvēkiem, kuriem ir pienākums maksimizēt nepietiekamu resursu izmantošanu, uzlabot procesus un atskaitīties par to veiktspēju.</span><span class="sxs-lookup"><span data-stu-id="680b0-298">An organization that divides the control of economic resources and operational processes among people who have a duty to maximize the use of scarce resources, to improve processes, and to account for their performance.</span></span>
 
-###### <a name="output-product"></a>**ražošanas produkts**
+###### <a name="output-product"></a><span data-ttu-id="680b0-299">**ražošanas produkts**</span><span class="sxs-lookup"><span data-stu-id="680b0-299">**output product**</span></span>
 
-Fiziskā prece, kas rodas aktivitātes rezultātā.
+<span data-ttu-id="680b0-300">Fiziskā prece, kas rodas aktivitātes rezultātā.</span><span class="sxs-lookup"><span data-stu-id="680b0-300">The physical products that result from an activity.</span></span>
 
-###### <a name="overlayering"></a>**pārklāšanās**
+###### <a name="overlayering"></a><span data-ttu-id="680b0-301">**pārklāšanās**</span><span class="sxs-lookup"><span data-stu-id="680b0-301">**overlayering**</span></span>
 
-Pirmkoda pielāgošanas metode, nodrošinot jaunu pirmkodu, kas ignorē noklusējuma pirmkodu.
+<span data-ttu-id="680b0-302">Pirmkoda pielāgošanas metode, nodrošinot jaunu pirmkodu, kas ignorē noklusējuma pirmkodu.</span><span class="sxs-lookup"><span data-stu-id="680b0-302">A method of customizing source code by providing new source code that overrides the default source code.</span></span>
 
-### <a name="p"></a>**P**
+### <a name="p"></a><span data-ttu-id="680b0-303">**P**</span><span class="sxs-lookup"><span data-stu-id="680b0-303">**P**</span></span>
 
-###### <a name="package"></a>**pakotne**
+###### <a name="package"></a><span data-ttu-id="680b0-304">**pakotne**</span><span class="sxs-lookup"><span data-stu-id="680b0-304">**package**</span></span>
 
-Pakotne ir kompilējama un izvietojama viena vai vairāku modeļu vienība.
+<span data-ttu-id="680b0-305">Pakotne ir kompilējama un izvietojama viena vai vairāku modeļu vienība.</span><span class="sxs-lookup"><span data-stu-id="680b0-305">A package is a compilable and deployable unit of one or more models.</span></span>
 
-###### <a name="party"></a>**puse**
+###### <a name="party"></a><span data-ttu-id="680b0-306">**puse**</span><span class="sxs-lookup"><span data-stu-id="680b0-306">**party**</span></span>
 
-Persona vai organizācija, kas piedalās ekonomiskās aktivitātēs.
+<span data-ttu-id="680b0-307">Persona vai organizācija, kas piedalās ekonomiskās aktivitātēs.</span><span class="sxs-lookup"><span data-stu-id="680b0-307">A person or organization that participates in economic activities.</span></span>
 
-###### <a name="pegging"></a>**piesaiste**
+###### <a name="pegging"></a><span data-ttu-id="680b0-308">**piesaiste**</span><span class="sxs-lookup"><span data-stu-id="680b0-308">**pegging**</span></span>
 
-Process nepieciešamā krājuma daudzuma izsekošanai līdz tā avotam.
+<span data-ttu-id="680b0-309">Process nepieciešamā krājuma daudzuma izsekošanai līdz tā avotam.</span><span class="sxs-lookup"><span data-stu-id="680b0-309">The process of tracing the quantity of a required item to its source.</span></span>
 
-###### <a name="pegging-event"></a>**pieprasījuma notikums**
+###### <a name="pegging-event"></a><span data-ttu-id="680b0-310">**pieprasījuma notikums**</span><span class="sxs-lookup"><span data-stu-id="680b0-310">**pegging event**</span></span>
 
-Resursu plūsmas notikums, kas signalizē par preces pieprasījumu.
+<span data-ttu-id="680b0-311">Resursu plūsmas notikums, kas signalizē par preces pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="680b0-311">A resource flow event that signals the demand for a product.</span></span>
 
-###### <a name="planned-intercompany-demand"></a>**plānotais starpuzņēmumu pieprasījums**
+###### <a name="planned-intercompany-demand"></a><span data-ttu-id="680b0-312">**plānotais starpuzņēmumu pieprasījums**</span><span class="sxs-lookup"><span data-stu-id="680b0-312">**planned intercompany demand**</span></span>
 
-Prognozētais preces pieprasījums no juridiskās personas, kas uzņemas kreditora lomu. Plānotais pieprasījums tiek ģenerēts no plānotā preces pieprasījuma no lejupstraumes juridiskās personas.
+<span data-ttu-id="680b0-313">Prognozētais preces pieprasījums no juridiskās personas, kas uzņemas kreditora lomu.</span><span class="sxs-lookup"><span data-stu-id="680b0-313">Predicted demand for a product by a legal entity that assumes the role of a vendor.</span></span> <span data-ttu-id="680b0-314">Plānotais pieprasījums tiek ģenerēts no plānotā preces pieprasījuma no lejupstraumes juridiskās personas.</span><span class="sxs-lookup"><span data-stu-id="680b0-314">The planned demand is generated from planned demand for the product from a downstream legal entity.</span></span>
 
-###### <a name="post"></a>**grāmatot**
+###### <a name="post"></a><span data-ttu-id="680b0-315">**grāmatot**</span><span class="sxs-lookup"><span data-stu-id="680b0-315">**post**</span></span>
 
-Ekonomiskā notikuma naudas vērtību reģistrēt konkrētā kontā vai virsgrāmatas un pakārtoto žurnālu kontu ierakstus apkopot un pārklasificēt virsgrāmatas un pakārtotu virsgrāmatas kontu ierakstos.
+<span data-ttu-id="680b0-316">Ekonomiskā notikuma naudas vērtību reģistrēt konkrētā kontā vai virsgrāmatas un pakārtoto žurnālu kontu ierakstus apkopot un pārklasificēt virsgrāmatas un pakārtotu virsgrāmatas kontu ierakstos.</span><span class="sxs-lookup"><span data-stu-id="680b0-316">To record the monetary value of an economic event in a specific account, or to summarize and reclassify general and subsidiary journal account entries into general and subsidiary ledger account entries.</span></span>
 
-###### <a name="preparer"></a>**sagatavotājs**
+###### <a name="preparer"></a><span data-ttu-id="680b0-317">**sagatavotājs**</span><span class="sxs-lookup"><span data-stu-id="680b0-317">**preparer**</span></span>
 
-Persona, kas izveido pirmdokumentu, lai iniciētu ekonomisko resursu pieprasījumu.
+<span data-ttu-id="680b0-318">Persona, kas izveido pirmdokumentu, lai iniciētu ekonomisko resursu pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="680b0-318">The person who creates a source document to initiate a request for economic resources.</span></span>
 
-###### <a name="procurement-catalog"></a>**sagādes katalogs**
+###### <a name="procurement-catalog"></a><span data-ttu-id="680b0-319">**sagādes katalogs**</span><span class="sxs-lookup"><span data-stu-id="680b0-319">**procurement catalog**</span></span>
 
-Saraksts ar preču piedāvājumiem, kas ir grupēti pēc sagādes kategorijas. Sagādes katalogs tiek izmantots, lai pieprasītu preces organizācijas iekšējai lietošanai.
+<span data-ttu-id="680b0-320">Saraksts ar preču piedāvājumiem, kas ir grupēti pēc sagādes kategorijas.</span><span class="sxs-lookup"><span data-stu-id="680b0-320">A listing of product offerings that are grouped by procurement category.</span></span> <span data-ttu-id="680b0-321">Sagādes katalogs tiek izmantots, lai pieprasītu preces organizācijas iekšējai lietošanai.</span><span class="sxs-lookup"><span data-stu-id="680b0-321">A procurement catalog is used to request products for internal use by an organization.</span></span>
 
-###### <a name="product-dimension"></a>**preces dimensija**
+###### <a name="product-dimension"></a><span data-ttu-id="680b0-322">**preces dimensija**</span><span class="sxs-lookup"><span data-stu-id="680b0-322">**product dimension**</span></span>
 
-Izmēra, krāsas vai konfigurācijas preču īpašības, kas tiek izmantotas uz dimensiju balstītām produktu konfigurācijām.
+<span data-ttu-id="680b0-323">Izmēra, krāsas vai konfigurācijas preču īpašības, kas tiek izmantotas uz dimensiju balstītām produktu konfigurācijām.</span><span class="sxs-lookup"><span data-stu-id="680b0-323">The size, color, or configuration product attributes that are used for dimension-based product configuration.</span></span>
 
-###### <a name="product-family"></a>**preču saime**
+###### <a name="product-family"></a><span data-ttu-id="680b0-324">**preču saime**</span><span class="sxs-lookup"><span data-stu-id="680b0-324">**product family**</span></span>
 
-Unikāls krājumu, pakalpojumu vai tiesību grupējums, kas vai nu piedalās vienādās ražošanas vai piegādes aktivitātēs, vai tiek piedāvāts tajos pašos tirgus segmentos. Risinājumā Finance and Operations grupēšana tiek attēlota, izmantojot prognozētu sadalījuma principu.
+<span data-ttu-id="680b0-325">Unikāls krājumu, pakalpojumu vai tiesību grupējums, kas vai nu piedalās vienādās ražošanas vai piegādes aktivitātēs, vai tiek piedāvāts tajos pašos tirgus segmentos.</span><span class="sxs-lookup"><span data-stu-id="680b0-325">A unique grouping of items, services, or rights that either participates in the same production or delivery activities or that are offered to the same market segments.</span></span> <span data-ttu-id="680b0-326">Risinājumā Finance and Operations grupēšana tiek attēlota, izmantojot prognozētu sadalījuma principu.</span><span class="sxs-lookup"><span data-stu-id="680b0-326">In Finance and Operations, the grouping is represented by using a forecast allocation key.</span></span>
 
-###### <a name="product-master"></a>**preces šablons**
+###### <a name="product-master"></a><span data-ttu-id="680b0-327">**preces šablons**</span><span class="sxs-lookup"><span data-stu-id="680b0-327">**product master**</span></span>
 
-Standarta vai funkcionālais preces attēlojums, kas ir pamats preces variantu konfigurēšanai.
+<span data-ttu-id="680b0-328">Standarta vai funkcionālais preces attēlojums, kas ir pamats preces variantu konfigurēšanai.</span><span class="sxs-lookup"><span data-stu-id="680b0-328">A standard or functional product representation that is the basis for configuring product variants.</span></span>
 
-###### <a name="product-receipt"></a>**produktu ieejas plūsma**
+###### <a name="product-receipt"></a><span data-ttu-id="680b0-329">**produktu ieejas plūsma**</span><span class="sxs-lookup"><span data-stu-id="680b0-329">**product receipt**</span></span>
 
-Pirmdokuments, kas dokumentē pasūtīto preču saņemšanu, atgriezto preču saņemšanu vai realizācijai saņemto preču saņemšanu.
+<span data-ttu-id="680b0-330">Pirmdokuments, kas dokumentē pasūtīto preču saņemšanu, atgriezto preču saņemšanu vai realizācijai saņemto preču saņemšanu.</span><span class="sxs-lookup"><span data-stu-id="680b0-330">A source document that documents the receipt of products ordered, the receipt of products returned, or the receipt of products received on consignment.</span></span>
 
-###### <a name="product-variant"></a>**preces variants**
+###### <a name="product-variant"></a><span data-ttu-id="680b0-331">**preces variants**</span><span class="sxs-lookup"><span data-stu-id="680b0-331">**product variant**</span></span>
 
-Preces šablona konfigurācija.
+<span data-ttu-id="680b0-332">Preces šablona konfigurācija.</span><span class="sxs-lookup"><span data-stu-id="680b0-332">A configuration of a product master.</span></span>
 
-###### <a name="production-flow"></a>**ražošanas plūsma**
+###### <a name="production-flow"></a><span data-ttu-id="680b0-333">**ražošanas plūsma**</span><span class="sxs-lookup"><span data-stu-id="680b0-333">**production flow**</span></span>
 
-Ražošanas process, kas ir izveidots, izmantojot racionālos principus.
+<span data-ttu-id="680b0-334">Ražošanas process, kas ir izveidots, izmantojot racionālos principus.</span><span class="sxs-lookup"><span data-stu-id="680b0-334">A production process designed using Lean principles.</span></span>
 
-###### <a name="production-flow-model"></a>**ražošanas plūsmas modelis**
+###### <a name="production-flow-model"></a><span data-ttu-id="680b0-335">**ražošanas plūsmas modelis**</span><span class="sxs-lookup"><span data-stu-id="680b0-335">**production flow model**</span></span>
 
-Ražošanas noslodzes attēlojums, kuru nodrošina darba šūnu grupa ražošanas plūsmas procesā.
+<span data-ttu-id="680b0-336">Ražošanas noslodzes attēlojums, kuru nodrošina darba šūnu grupa ražošanas plūsmas procesā.</span><span class="sxs-lookup"><span data-stu-id="680b0-336">A representation of the production capacity provided by a group of work cells in a production flow process.</span></span>
 
-###### <a name="production-order"></a>**ražošanas pasūtījums**
+###### <a name="production-order"></a><span data-ttu-id="680b0-337">**ražošanas pasūtījums**</span><span class="sxs-lookup"><span data-stu-id="680b0-337">**production order**</span></span>
 
-Pirmdokuments, kas dokumentē prasības krājumu ražošanai, lai izpildītu pieprasījumu.
+<span data-ttu-id="680b0-338">Pirmdokuments, kas dokumentē prasības krājumu ražošanai, lai izpildītu pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="680b0-338">A source document that documents the requirements for producing items to meet a demand.</span></span>
 
-###### <a name="production-schedule"></a>**ražošanas grafiks**
+###### <a name="production-schedule"></a><span data-ttu-id="680b0-339">**ražošanas grafiks**</span><span class="sxs-lookup"><span data-stu-id="680b0-339">**production schedule**</span></span>
 
-Grafiks noteikta krājuma un krājumu daudzuma ražošanai noteiktā laika, izmantojot noteiktus cilvēku un darba resursus.
+<span data-ttu-id="680b0-340">Grafiks noteikta krājuma un krājumu daudzuma ražošanai noteiktā laika, izmantojot noteiktus cilvēku un darba resursus.</span><span class="sxs-lookup"><span data-stu-id="680b0-340">A schedule to produce a specific item and item quantity at a specific time and by specific human and operational resources.</span></span>
 
-###### <a name="prospect"></a>**paredzams klients**
+###### <a name="prospect"></a><span data-ttu-id="680b0-341">**paredzams klients**</span><span class="sxs-lookup"><span data-stu-id="680b0-341">**prospect**</span></span>
 
-Dalībnieks, kuram ir esošā vai potenciālā spēja juridiskai personai sniegt pakalpojumu vai iespējamu ekonomisko labumu nākotnē.
+<span data-ttu-id="680b0-342">Dalībnieks, kuram ir esošā vai potenciālā spēja juridiskai personai sniegt pakalpojumu vai iespējamu ekonomisko labumu nākotnē.</span><span class="sxs-lookup"><span data-stu-id="680b0-342">A participant that has the existing and potential ability to provide a service or probable future economic benefit to a legal entity.</span></span>
 
-###### <a name="purchase-agreement-policy"></a>**pirkšanas līguma ierobežojumi**
+###### <a name="purchase-agreement-policy"></a><span data-ttu-id="680b0-343">**pirkšanas līguma ierobežojumi**</span><span class="sxs-lookup"><span data-stu-id="680b0-343">**purchase agreement policy**</span></span>
 
-Ierobežojumi, kas puses pilnvaro mainīt pirkšanas līguma noteikumus.
+<span data-ttu-id="680b0-344">Ierobežojumi, kas puses pilnvaro mainīt pirkšanas līguma noteikumus.</span><span class="sxs-lookup"><span data-stu-id="680b0-344">A policy that authorizes parties to modify purchase agreement terms.</span></span>
 
-###### <a name="purchase-order-policy"></a>**pirkšanas pasūtījuma ierobežojumi**
+###### <a name="purchase-order-policy"></a><span data-ttu-id="680b0-345">**pirkšanas pasūtījuma ierobežojumi**</span><span class="sxs-lookup"><span data-stu-id="680b0-345">**purchase order policy**</span></span>
 
-Ierobežojumi, kas puses pilnvaro mainīt pirkšanas pasūtījuma noteikumus un kontrolēt pasūtījuma apstrādi.
+<span data-ttu-id="680b0-346">Ierobežojumi, kas puses pilnvaro mainīt pirkšanas pasūtījuma noteikumus un kontrolēt pasūtījuma apstrādi.</span><span class="sxs-lookup"><span data-stu-id="680b0-346">A policy that authorizes parties to modify purchase order terms and to control order processing.</span></span>
 
-###### <a name="purchase-quotation"></a>**pirkšanas piedāvājums**
+###### <a name="purchase-quotation"></a><span data-ttu-id="680b0-347">**pirkšanas piedāvājums**</span><span class="sxs-lookup"><span data-stu-id="680b0-347">**purchase quotation**</span></span>
 
-Pirmdokuments, kas dokumentē piedāvājumu iegādāties preču daudzumu par norādīto cenu un līdz norādītajam datumam, atbildot uz piedāvājuma pieprasījumu sagādes procesā.
+<span data-ttu-id="680b0-348">Pirmdokuments, kas dokumentē piedāvājumu iegādāties preču daudzumu par norādīto cenu un līdz norādītajam datumam, atbildot uz piedāvājuma pieprasījumu sagādes procesā.</span><span class="sxs-lookup"><span data-stu-id="680b0-348">A source document that documents an offer to purchase a quantity of product for a specified price and by a specified date in response to a request for quotation in a procurement process.</span></span>
 
-###### <a name="purchase-requisition"></a>**pirkšanas pieprasījums**
+###### <a name="purchase-requisition"></a><span data-ttu-id="680b0-349">**pirkšanas pieprasījums**</span><span class="sxs-lookup"><span data-stu-id="680b0-349">**purchase requisition**</span></span>
 
-Pirmdokuments, kas dokumentē preču pieprasījumus, lai tos varētu iesniegt pārskatīšanai un izmantot, lai pilnvarotu iegādi, kuru veiks pērkošā organizācija.
+<span data-ttu-id="680b0-350">Pirmdokuments, kas dokumentē preču pieprasījumus, lai tos varētu iesniegt pārskatīšanai un izmantot, lai pilnvarotu iegādi, kuru veiks pērkošā organizācija.</span><span class="sxs-lookup"><span data-stu-id="680b0-350">A source document that documents product requests so that they can be submitted for review and be used to authorize purchasing by a purchasing organization.</span></span>
 
-### <a name="q"></a>**Q**
+### <a name="q"></a><span data-ttu-id="680b0-351">**Q**</span><span class="sxs-lookup"><span data-stu-id="680b0-351">**Q**</span></span>
 
-###### <a name="quantity-variance"></a>**daudzuma novirze**
+###### <a name="quantity-variance"></a><span data-ttu-id="680b0-352">**daudzuma novirze**</span><span class="sxs-lookup"><span data-stu-id="680b0-352">**quantity variance**</span></span>
 
-Starpība starp pasūtīto preču daudzumu un saņemto preču daudzumu, kad saņemšana vairs nav gaidāma.
+<span data-ttu-id="680b0-353">Starpība starp pasūtīto preču daudzumu un saņemto preču daudzumu, kad saņemšana vairs nav gaidāma.</span><span class="sxs-lookup"><span data-stu-id="680b0-353">The difference between an ordered product quantity and a received product quantity when no more receipts are expected.</span></span>
 
-### <a name="r"></a>**R**
+### <a name="r"></a><span data-ttu-id="680b0-354">**R**</span><span class="sxs-lookup"><span data-stu-id="680b0-354">**R**</span></span>
 
-###### <a name="receipt-advice"></a>**paziņojums par saņemšanu**
+###### <a name="receipt-advice"></a><span data-ttu-id="680b0-355">**paziņojums par saņemšanu**</span><span class="sxs-lookup"><span data-stu-id="680b0-355">**receipt advice**</span></span>
 
-Biznesa dokuments, kas dokumentē preču kopsavilkumu, kuras pircējs saņem no piegādātāja.
+<span data-ttu-id="680b0-356">Biznesa dokuments, kas dokumentē preču kopsavilkumu, kuras pircējs saņem no piegādātāja.</span><span class="sxs-lookup"><span data-stu-id="680b0-356">A business document that documents a summary of the products a buyer receives from a vendor.</span></span>
 
-###### <a name="reconciliation"></a>**saskaņošana**
+###### <a name="reconciliation"></a><span data-ttu-id="680b0-357">**saskaņošana**</span><span class="sxs-lookup"><span data-stu-id="680b0-357">**reconciliation**</span></span>
 
-Divu vai vairāku kontu vai pārskatu koriģēšanas prakse, lai skaitļi saskanētu.
+<span data-ttu-id="680b0-358">Divu vai vairāku kontu vai pārskatu koriģēšanas prakse, lai skaitļi saskanētu.</span><span class="sxs-lookup"><span data-stu-id="680b0-358">A practice of adjusting two or more accounts or statements so that the figures agree.</span></span>
 
-###### <a name="reduction-key"></a>**samazināšanas princips**
+###### <a name="reduction-key"></a><span data-ttu-id="680b0-359">**samazināšanas princips**</span><span class="sxs-lookup"><span data-stu-id="680b0-359">**reduction key**</span></span>
 
-Metode, kuru izmanto, lai palielinātu vai samazinātu vispārējās plānošanas prasības, pamatojoties uz lietotāja definētām procentuālajām vērtībām, kuras tiek piemērotas noteiktos periodos.
+<span data-ttu-id="680b0-360">Metode, kuru izmanto, lai palielinātu vai samazinātu vispārējās plānošanas prasības, pamatojoties uz lietotāja definētām procentuālajām vērtībām, kuras tiek piemērotas noteiktos periodos.</span><span class="sxs-lookup"><span data-stu-id="680b0-360">A method that is used to increase or decrease forecast requirements in master planning, based on user defined percentages that are applied during specific periods.</span></span>
 
-###### <a name="register"></a>**reģistrs**
+###### <a name="register"></a><span data-ttu-id="680b0-361">**reģistrs**</span><span class="sxs-lookup"><span data-stu-id="680b0-361">**register**</span></span>
 
-Ieraksts, kas tiek izmantots resursu plūsmas notikumu darba, juridisko un finanšu seku reģistrēšanai uzskaites sistēmā.
+<span data-ttu-id="680b0-362">Ieraksts, kas tiek izmantots resursu plūsmas notikumu darba, juridisko un finanšu seku reģistrēšanai uzskaites sistēmā.</span><span class="sxs-lookup"><span data-stu-id="680b0-362">A record that is used to record the operational, legal, and financial consequences of resource flow events in an accounting system.</span></span>
 
-###### <a name="rfq-request-for-quotation"></a>**PP (piedāvājuma pieprasījums)**
+###### <a name="rfq-request-for-quotation"></a><span data-ttu-id="680b0-363">**PP (piedāvājuma pieprasījums)**</span><span class="sxs-lookup"><span data-stu-id="680b0-363">**RFQ (request for quotation)**</span></span>
 
-Pirmdokuments, kas dokumentē uzaicinājumu iesniegt piedāvājumu par preču daudzuma piegādi par norādīto cenu un līdz norādītajam datumam.
+<span data-ttu-id="680b0-364">Pirmdokuments, kas dokumentē uzaicinājumu iesniegt piedāvājumu par preču daudzuma piegādi par norādīto cenu un līdz norādītajam datumam.</span><span class="sxs-lookup"><span data-stu-id="680b0-364">A source document that documents an invitation to bid on supplying a quantity of product for a specified price and by a specified date.</span></span>
 
-###### <a name="requester"></a>**pieprasītājs**
+###### <a name="requester"></a><span data-ttu-id="680b0-365">**pieprasītājs**</span><span class="sxs-lookup"><span data-stu-id="680b0-365">**requester**</span></span>
 
-Persona, kas pieprasa ekonomiskos resursus.
+<span data-ttu-id="680b0-366">Persona, kas pieprasa ekonomiskos resursus.</span><span class="sxs-lookup"><span data-stu-id="680b0-366">The person who requests the economic resources.</span></span>
 
 
-### <a name="s"></a>**S**
+### <a name="s"></a><span data-ttu-id="680b0-367">**S**</span><span class="sxs-lookup"><span data-stu-id="680b0-367">**S**</span></span>
 
-###### <a name="sales-agreement"></a>**pārdošanas līgums**
+###### <a name="sales-agreement"></a><span data-ttu-id="680b0-368">**pārdošanas līgums**</span><span class="sxs-lookup"><span data-stu-id="680b0-368">**sales agreement**</span></span>
 
-Pirmdokuments, kas dokumentē līgumu starp divām vai vairākām pusēm, pamatojoties uz vienošanos, ka pārdodošā puse apņemas pārdot noteiktu preču daudzumu vai vērtību kādā laika periodā apmaiņā pret izdevīgām cenām un atlaidēm.
+<span data-ttu-id="680b0-369">Pirmdokuments, kas dokumentē līgumu starp divām vai vairākām pusēm, pamatojoties uz vienošanos, ka pārdodošā puse apņemas pārdot noteiktu preču daudzumu vai vērtību kādā laika periodā apmaiņā pret izdevīgām cenām un atlaidēm.</span><span class="sxs-lookup"><span data-stu-id="680b0-369">A source document that documents an agreement between two or more parties based on an understanding that a selling party will commit to selling a specific quantity or value of product over a period of time in exchange for favorable prices and discounts.</span></span>
 
-###### <a name="sales-agreement-policy"></a>**pārdošanas līguma ierobežojumi**
+###### <a name="sales-agreement-policy"></a><span data-ttu-id="680b0-370">**pārdošanas līguma ierobežojumi**</span><span class="sxs-lookup"><span data-stu-id="680b0-370">**sales agreement policy**</span></span>
 
-Ierobežojumi, kas puses pilnvaro mainīt pārdošanas līguma noteikumus.
+<span data-ttu-id="680b0-371">Ierobežojumi, kas puses pilnvaro mainīt pārdošanas līguma noteikumus.</span><span class="sxs-lookup"><span data-stu-id="680b0-371">A policy that authorizes parties to modify sales agreement terms.</span></span>
 
-###### <a name="sales-order-policy"></a>**pārdošanas pasūtījuma ierobežojumi**
+###### <a name="sales-order-policy"></a><span data-ttu-id="680b0-372">**pārdošanas pasūtījuma ierobežojumi**</span><span class="sxs-lookup"><span data-stu-id="680b0-372">**sales order policy**</span></span>
 
-Ierobežojumi, kas puses pilnvaro mainīt pārdošanas pasūtījuma noteikumus un kontrolēt pasūtījuma apstrādi un apmaksas procesus.
+<span data-ttu-id="680b0-373">Ierobežojumi, kas puses pilnvaro mainīt pārdošanas pasūtījuma noteikumus un kontrolēt pasūtījuma apstrādi un apmaksas procesus.</span><span class="sxs-lookup"><span data-stu-id="680b0-373">A policy that authorizes parties to modify sales order terms and to control order processing and payment processes.</span></span>
 
-###### <a name="sales-quotation"></a>**pārdošanas piedāvājums**
+###### <a name="sales-quotation"></a><span data-ttu-id="680b0-374">**pārdošanas piedāvājums**</span><span class="sxs-lookup"><span data-stu-id="680b0-374">**sales quotation**</span></span>
 
-Pirmdokuments, kas dokumentē piedāvājumu nodrošināt preču daudzumu par norādīto cenu un līdz norādītajam datumam, atbildot uz piedāvājuma pieprasījumu pārdošanas procesā.
+<span data-ttu-id="680b0-375">Pirmdokuments, kas dokumentē piedāvājumu nodrošināt preču daudzumu par norādīto cenu un līdz norādītajam datumam, atbildot uz piedāvājuma pieprasījumu pārdošanas procesā.</span><span class="sxs-lookup"><span data-stu-id="680b0-375">A source document that documents an offer to supply a quantity of product for a specified price and by a specified date in response to a request for quotation in a sales process.</span></span>
 
-###### <a name="security-role"></a>**drošības loma**
+###### <a name="security-role"></a><span data-ttu-id="680b0-376">**drošības loma**</span><span class="sxs-lookup"><span data-stu-id="680b0-376">**security role**</span></span>
 
-Noteikta programmas piekļuves privilēģiju kopa. Lietotājam piešķirtā drošības loma nosaka, kādus uzdevumus šis lietotājs var pildīt un kādas lietotāja interfeisa daļas šis lietotājs var skatīt. Lai piekļūtu sistēmai, visiem lietotājiem ir jāpiešķir vismaz viena drošības loma.
+<span data-ttu-id="680b0-377">Noteikta programmas piekļuves privilēģiju kopa.</span><span class="sxs-lookup"><span data-stu-id="680b0-377">A defined set of application access privileges.</span></span> <span data-ttu-id="680b0-378">Lietotājam piešķirtā drošības loma nosaka, kādus uzdevumus šis lietotājs var pildīt un kādas lietotāja interfeisa daļas šis lietotājs var skatīt.</span><span class="sxs-lookup"><span data-stu-id="680b0-378">The security role assigned to a user determines which tasks the user can perform and which parts of the user interface the user can view.</span></span> <span data-ttu-id="680b0-379">Lai piekļūtu sistēmai, visiem lietotājiem ir jāpiešķir vismaz viena drošības loma.</span><span class="sxs-lookup"><span data-stu-id="680b0-379">All users must be assigned at least one security role in order to access the system.</span></span>
 
-###### <a name="segregation-of-duties"></a>**pienākumu sadale**
+###### <a name="segregation-of-duties"></a><span data-ttu-id="680b0-380">**pienākumu sadale**</span><span class="sxs-lookup"><span data-stu-id="680b0-380">**segregation of duties**</span></span>
 
-Dizaina princips, kuru izmanto, lai samazinātu viltojuma, neatbilstību un kļūdu riskus, kas atdala ekonomisko transakciju finanšu sekās iesaistīto, to dokumentējošo vai reģistrējošo cilvēku pienākumus reģistrēt, pārbaudīt, autorizēt, uzraudzīt un periodiski pārskatīt aktīvus.
+<span data-ttu-id="680b0-381">Dizaina princips, kuru izmanto, lai samazinātu viltojuma, neatbilstību un kļūdu riskus, kas atdala ekonomisko transakciju finanšu sekās iesaistīto, to dokumentējošo vai reģistrējošo cilvēku pienākumus reģistrēt, pārbaudīt, autorizēt, uzraudzīt un periodiski pārskatīt aktīvus.</span><span class="sxs-lookup"><span data-stu-id="680b0-381">A design principle used to reduce the risk of fraud, irregularities, and errors that separates the recording, verification, authorization, custody of assets, and periodic review duties of people who participate in, document, or record the financial consequences of economic transactions.</span></span>
 
-###### <a name="sequencing"></a>**secība**
+###### <a name="sequencing"></a><span data-ttu-id="680b0-382">**secība**</span><span class="sxs-lookup"><span data-stu-id="680b0-382">**sequencing**</span></span>
 
-Secība, kādā ražošanas objektā tiek apstrādāti darbi vai veiktas darbības, lai sasniegtu mērķus.
+<span data-ttu-id="680b0-383">Secība, kādā ražošanas objektā tiek apstrādāti darbi vai veiktas darbības, lai sasniegtu mērķus.</span><span class="sxs-lookup"><span data-stu-id="680b0-383">The order in which jobs are processed or operations are performed at a manufacturing facility to achieve objectives.</span></span>
 
-###### <a name="shared-asset"></a>**koplietojamais līdzeklis**
+###### <a name="shared-asset"></a><span data-ttu-id="680b0-384">**koplietojamais līdzeklis**</span><span class="sxs-lookup"><span data-stu-id="680b0-384">**shared asset**</span></span>
 
-Līdzeklis, ko izmanto vairākas naudu ienesošās vienības (NIV). Piemērs ir izplatīšanas centrs, kas tiek izmantots krājumu uzglabāšanai pirms to transportēšanas uz dažādiem tirgiem, kuri koplieto vienu un to pašu izplatīšanas centru.
+<span data-ttu-id="680b0-385">Līdzeklis, ko izmanto vairākas naudu ienesošās vienības (NIV).</span><span class="sxs-lookup"><span data-stu-id="680b0-385">An asset that is used by more than one cash-generating unit (CGU).</span></span> <span data-ttu-id="680b0-386">Piemērs ir izplatīšanas centrs, kas tiek izmantots krājumu uzglabāšanai pirms to transportēšanas uz dažādiem tirgiem, kuri koplieto vienu un to pašu izplatīšanas centru.</span><span class="sxs-lookup"><span data-stu-id="680b0-386">An example is a distribution center that is used to store items before they are transported to different markets that share that same distribution center.</span></span>
 
-###### <a name="single-use-kanban"></a>**vienreizējās lietošanas Kanban**
+###### <a name="single-use-kanban"></a><span data-ttu-id="680b0-387">**vienreizējās lietošanas Kanban**</span><span class="sxs-lookup"><span data-stu-id="680b0-387">**single use kanban**</span></span>
 
-Kanban tips, ko izmanto ar fiksēta daudzuma Kanban nosacījumu, lai apmierinātu ārkārtīgi augstu pieprasījumu. Vienreizējās lietošanas Kanban neizraisa jaunu Kanban, kad tas tiek anulēts.
+<span data-ttu-id="680b0-388">Kanban tips, ko izmanto ar fiksēta daudzuma Kanban nosacījumu, lai apmierinātu ārkārtīgi augstu pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="680b0-388">A type of kanban that is used with a fixed quantity kanban rule to meet exceptionally high demand.</span></span> <span data-ttu-id="680b0-389">Vienreizējās lietošanas Kanban neizraisa jaunu Kanban, kad tas tiek anulēts.</span><span class="sxs-lookup"><span data-stu-id="680b0-389">A single use kanban does not trigger a new kanban when it is discarded.</span></span>
 
-###### <a name="smart-rounding"></a>**noapaļošana uz leju**
+###### <a name="smart-rounding"></a><span data-ttu-id="680b0-390">**noapaļošana uz leju**</span><span class="sxs-lookup"><span data-stu-id="680b0-390">**smart rounding**</span></span>
 
-Tirgzinības prakse cenu noteikšanai izmantot nepāra skaitļus, kuri ir nedaudz mazāki par tiem tuvāko noapaļoto skaitli.
+<span data-ttu-id="680b0-391">Tirgzinības prakse cenu noteikšanai izmantot nepāra skaitļus, kuri ir nedaudz mazāki par tiem tuvāko noapaļoto skaitli.</span><span class="sxs-lookup"><span data-stu-id="680b0-391">A marketing practice to use odd numbers that are marginally less than their nearest round number to set prices.</span></span>
 
-###### <a name="source-requirement"></a>**izcelsmes pieprasījums**
+###### <a name="source-requirement"></a><span data-ttu-id="680b0-392">**izcelsmes pieprasījums**</span><span class="sxs-lookup"><span data-stu-id="680b0-392">**source requirement**</span></span>
 
-Preces daudzums, kas ir dokumentēts pirmdokumenta rindā, kura izveido piesaistes prasību.
+<span data-ttu-id="680b0-393">Preces daudzums, kas ir dokumentēts pirmdokumenta rindā, kura izveido piesaistes prasību.</span><span class="sxs-lookup"><span data-stu-id="680b0-393">The product quantity documented on a source document line that creates a pegging requirement.</span></span>
 
-###### <a name="statistical-baseline-forecast"></a>**statistiskās bāzlīnijas prognoze**
+###### <a name="statistical-baseline-forecast"></a><span data-ttu-id="680b0-394">**statistiskās bāzlīnijas prognoze**</span><span class="sxs-lookup"><span data-stu-id="680b0-394">**statistical baseline forecast**</span></span>
 
-Prognoze par nākotnes pieprasījumu, kas tiek izveidota, vēsturiskajiem darbību datiem lietojot prognozēšanas algoritmu.
+<span data-ttu-id="680b0-395">Prognoze par nākotnes pieprasījumu, kas tiek izveidota, vēsturiskajiem darbību datiem lietojot prognozēšanas algoritmu.</span><span class="sxs-lookup"><span data-stu-id="680b0-395">An estimate of future demand that is created by applying a forecasting algorithm to historical transaction data.</span></span>
 
 
-### <a name="t"></a>**T**
+### <a name="t"></a><span data-ttu-id="680b0-396">**T**</span><span class="sxs-lookup"><span data-stu-id="680b0-396">**T**</span></span>
 
-###### <a name="takt-time"></a>**izgatavošanas laiks**
+###### <a name="takt-time"></a><span data-ttu-id="680b0-397">**izgatavošanas laiks**</span><span class="sxs-lookup"><span data-stu-id="680b0-397">**takt time**</span></span>
 
-Vienas preces vienības izgatavošanai nepieciešamais laiks.
+<span data-ttu-id="680b0-398">Vienas preces vienības izgatavošanai nepieciešamais laiks.</span><span class="sxs-lookup"><span data-stu-id="680b0-398">The time that it takes to produce one unit of a product.</span></span>
 
-###### <a name="task-guide"></a>**Uzdevuma ceļvedis**
+###### <a name="task-guide"></a><span data-ttu-id="680b0-399">**Uzdevuma ceļvedis**</span><span class="sxs-lookup"><span data-stu-id="680b0-399">**Task guide**</span></span>
 
-Kontrolēta, vadīta pieredze, izmantojot uzdevumu ieraksta darbības. Uzdevuma ceļvedis lietotāju vada caur ierakstītu piedzīvojumu. Izpildot uzdevuma ceļvedi, visa drošības, datu un programmas uzvedība ir tāda pati, kāda tā būtu, neizmantojot uzdevuma ceļvedi. Uzdevuma ceļvedis izmanto tādu pašu instrumentāciju kā uzdevuma reģistrētājs, lai uzzinātu, kad lietotājs ir pabeidzis paredzēto darbību, un varētu lietotājam piedāvāt nākamās ieraksta darbības izpildi.
+<span data-ttu-id="680b0-400">Kontrolēta, vadīta pieredze, izmantojot uzdevumu ieraksta darbības.</span><span class="sxs-lookup"><span data-stu-id="680b0-400">A controlled, guided experience through the steps in a Task recording.</span></span> <span data-ttu-id="680b0-401">Uzdevuma ceļvedis lietotāju vada caur ierakstītu piedzīvojumu.</span><span class="sxs-lookup"><span data-stu-id="680b0-401">A Task guide leads the user through the experience that was recorded.</span></span> <span data-ttu-id="680b0-402">Izpildot uzdevuma ceļvedi, visa drošības, datu un programmas uzvedība ir tāda pati, kāda tā būtu, neizmantojot uzdevuma ceļvedi.</span><span class="sxs-lookup"><span data-stu-id="680b0-402">All security, data, and application behaviors are the same when completing a Task guide as they are without the Task guide.</span></span> <span data-ttu-id="680b0-403">Uzdevuma ceļvedis izmanto tādu pašu instrumentāciju kā uzdevuma reģistrētājs, lai uzzinātu, kad lietotājs ir pabeidzis paredzēto darbību, un varētu lietotājam piedāvāt nākamās ieraksta darbības izpildi.</span><span class="sxs-lookup"><span data-stu-id="680b0-403">The Task guide uses the same instrumentation as Task recorder to know when a user has completed the intended step, so that it can prompt the user to take the next step in the recording.</span></span>
 
-###### <a name="task-recorder"></a>**Uzdevuma reģistrētājs**
+###### <a name="task-recorder"></a><span data-ttu-id="680b0-404">**Uzdevuma reģistrētājs**</span><span class="sxs-lookup"><span data-stu-id="680b0-404">**Task recorder**</span></span>
 
-Rīks, kurš jau ir instalēts risinājumā Finance and Operations. Ierakstīšanas laikā tas ieraksta visus notikumus, kurus lietotājs ievada Finance and Operations lietotāja interfeisā un kuri tiek izpildīti serverī — tostarp pievienotās vērtības, izmainītos iestatījumus, noņemtos datus utt.
+<span data-ttu-id="680b0-405">Rīks, kurš jau ir instalēts risinājumā Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="680b0-405">A tool that is pre-installed in Finance and Operations.</span></span> <span data-ttu-id="680b0-406">Ierakstīšanas laikā tas ieraksta visus notikumus, kurus lietotājs ievada Finance and Operations lietotāja interfeisā un kuri tiek izpildīti serverī — tostarp pievienotās vērtības, izmainītos iestatījumus, noņemtos datus utt.</span><span class="sxs-lookup"><span data-stu-id="680b0-406">When recording, it records all events that the user enters in the Finance and Operations user interface that get executed against the server—including values added, settings changed, data removed, etc.</span></span>
 
-###### <a name="task-recording"></a>**Uzdevuma ieraksts**
+###### <a name="task-recording"></a><span data-ttu-id="680b0-407">**Uzdevuma ieraksts**</span><span class="sxs-lookup"><span data-stu-id="680b0-407">**Task recording**</span></span>
 
-Fails, kas ietver darbības un anotācijas, kuras tiek uzņemtas, kad risinājumā Finance and Operations darbojas uzdevuma reģistrētājs.
+<span data-ttu-id="680b0-408">Fails, kas ietver darbības un anotācijas, kuras tiek uzņemtas, kad risinājumā Finance and Operations darbojas uzdevuma reģistrētājs.</span><span class="sxs-lookup"><span data-stu-id="680b0-408">A file that contains the actions and annotations that are captured when Task recorder is run in Finance and Operations.</span></span>
 
-###### <a name="three-way-matching-policy"></a>**trīsvirzienu atbilstības ierobežojumi**
+###### <a name="three-way-matching-policy"></a><span data-ttu-id="680b0-409">**trīsvirzienu atbilstības ierobežojumi**</span><span class="sxs-lookup"><span data-stu-id="680b0-409">**three-way matching policy**</span></span>
 
-Atbilstības ierobežojumi, kas pieprasa, lai viena vai vairāku kreditoru rēķinu cenas saskanētu ar viena vai vairāku pirkšanas pasūtījumu cenām, un kas pieprasa, lai viena vai vairāku kreditoru rēķinu daudzumi saskanētu ar vienas vai vairāku produktu ieejas plūsmu daudzumiem.
+<span data-ttu-id="680b0-410">Atbilstības ierobežojumi, kas pieprasa, lai viena vai vairāku kreditoru rēķinu cenas saskanētu ar viena vai vairāku pirkšanas pasūtījumu cenām, un kas pieprasa, lai viena vai vairāku kreditoru rēķinu daudzumi saskanētu ar vienas vai vairāku produktu ieejas plūsmu daudzumiem.</span><span class="sxs-lookup"><span data-stu-id="680b0-410">A matching policy that requires one or more vendor invoice prices to match with one or more purchase order prices and that requires one or more vendor invoice quantities to match with one or more product receipt quantities.</span></span>
 
-###### <a name="transfer-batch"></a>**pārsūtāmā partija**
+###### <a name="transfer-batch"></a><span data-ttu-id="680b0-411">**pārsūtāmā partija**</span><span class="sxs-lookup"><span data-stu-id="680b0-411">**transfer batch**</span></span>
 
-Viena vai vairāku krājumu daudzums, kuru nosūta vai var nosūtīt.
+<span data-ttu-id="680b0-412">Viena vai vairāku krājumu daudzums, kuru nosūta vai var nosūtīt.</span><span class="sxs-lookup"><span data-stu-id="680b0-412">The quantity of one or more items that is transferred or that can be transferred.</span></span>
 
-###### <a name="two-way-matching-policy"></a>**divvirzienu atbilstības ierobežojumi**
+###### <a name="two-way-matching-policy"></a><span data-ttu-id="680b0-413">**divvirzienu atbilstības ierobežojumi**</span><span class="sxs-lookup"><span data-stu-id="680b0-413">**two-way matching policy**</span></span>
 
-Atbilstības ierobežojumi, kas pieprasa, lai viena vai vairāku kreditoru rēķinu cenas saskanētu ar viena vai vairāku pirkšanas pasūtījumu cenām.
+<span data-ttu-id="680b0-414">Atbilstības ierobežojumi, kas pieprasa, lai viena vai vairāku kreditoru rēķinu cenas saskanētu ar viena vai vairāku pirkšanas pasūtījumu cenām.</span><span class="sxs-lookup"><span data-stu-id="680b0-414">A matching policy that requires one or more vendor invoice prices to match with one or more purchase order prices.</span></span>
 
-### <a name="v"></a>**V**
+### <a name="v"></a><span data-ttu-id="680b0-415">**V**</span><span class="sxs-lookup"><span data-stu-id="680b0-415">**V**</span></span>
 
-###### <a name="value-stream"></a>**vērtību plūsma**
+###### <a name="value-stream"></a><span data-ttu-id="680b0-416">**vērtību plūsma**</span><span class="sxs-lookup"><span data-stu-id="680b0-416">**value stream**</span></span>
 
-Pārvaldības struktūrvienība, kas kontrolē vienu vai vairākas ražošanas plūsmas.
+<span data-ttu-id="680b0-417">Pārvaldības struktūrvienība, kas kontrolē vienu vai vairākas ražošanas plūsmas.</span><span class="sxs-lookup"><span data-stu-id="680b0-417">An operating unit that controls one or more production flows.</span></span>
 
-###### <a name="variant-configuration-technology"></a>**variantu konfigurēšanas tehnoloģija**
+###### <a name="variant-configuration-technology"></a><span data-ttu-id="680b0-418">**variantu konfigurēšanas tehnoloģija**</span><span class="sxs-lookup"><span data-stu-id="680b0-418">**variant configuration technology**</span></span>
 
-Preces šablonu modelēšanas un preces variantu konfigurāciju meklēšanas metode.
+<span data-ttu-id="680b0-419">Preces šablonu modelēšanas un preces variantu konfigurāciju meklēšanas metode.</span><span class="sxs-lookup"><span data-stu-id="680b0-419">A method of modeling product masters and searching for product variant configurations.</span></span>
 
-###### <a name="vat-value-added-tax"></a>**PVN (pievienotās vērtības nodoklis)**
+###### <a name="vat-value-added-tax"></a><span data-ttu-id="680b0-420">**PVN (pievienotās vērtības nodoklis)**</span><span class="sxs-lookup"><span data-stu-id="680b0-420">**VAT (value-added tax)**</span></span>
 
-Nodoklis, ar kuru apliek preces katrā to ražošanas stadijā, pamatojoties uz attiecīgajā stadijā pievienoto vērtību.
+<span data-ttu-id="680b0-421">Nodoklis, ar kuru apliek preces katrā to ražošanas stadijā, pamatojoties uz attiecīgajā stadijā pievienoto vērtību.</span><span class="sxs-lookup"><span data-stu-id="680b0-421">A tax on products at each stage of their production based on the value added during that stage.</span></span>
 
-###### <a name="vendor-catalog"></a>**piegādātāju katalogs**
+###### <a name="vendor-catalog"></a><span data-ttu-id="680b0-422">**piegādātāju katalogs**</span><span class="sxs-lookup"><span data-stu-id="680b0-422">**vendor catalog**</span></span>
 
-Saraksts ar preču piedāvājumiem, kuri ir pieejami iegādei no piegādātāja.
+<span data-ttu-id="680b0-423">Saraksts ar preču piedāvājumiem, kuri ir pieejami iegādei no piegādātāja.</span><span class="sxs-lookup"><span data-stu-id="680b0-423">A listing of product offerings that are available for purchase from a vendor.</span></span>
 
-###### <a name="vendor-invoice"></a>**kreditora rēķins**
+###### <a name="vendor-invoice"></a><span data-ttu-id="680b0-424">**kreditora rēķins**</span><span class="sxs-lookup"><span data-stu-id="680b0-424">**vendor invoice**</span></span>
 
-Pirmdokuments, kas dokumentē kreditora maksājuma pieprasījumu. Kreditora rēķins var attiekties uz vienu vai vairākiem pirkšanas pasūtījumiem. Kad kreditora rēķins ir autorizēts, šim kreditoram var veikt maksājumu.
+<span data-ttu-id="680b0-425">Pirmdokuments, kas dokumentē kreditora maksājuma pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="680b0-425">A source document that documents a vendor payment request.</span></span> <span data-ttu-id="680b0-426">Kreditora rēķins var attiekties uz vienu vai vairākiem pirkšanas pasūtījumiem.</span><span class="sxs-lookup"><span data-stu-id="680b0-426">A vendor invoice can refer to one or more purchase orders.</span></span> <span data-ttu-id="680b0-427">Kad kreditora rēķins ir autorizēts, šim kreditoram var veikt maksājumu.</span><span class="sxs-lookup"><span data-stu-id="680b0-427">When the vendor invoice is authorized, a payment can be made to the vendor.</span></span>
 
-### <a name="w"></a>**W**
+### <a name="w"></a><span data-ttu-id="680b0-428">**W**</span><span class="sxs-lookup"><span data-stu-id="680b0-428">**W**</span></span>
 
-###### <a name="work-cell"></a>**darba šūna**
+###### <a name="work-cell"></a><span data-ttu-id="680b0-429">**darba šūna**</span><span class="sxs-lookup"><span data-stu-id="680b0-429">**work cell**</span></span>
 
-Resursu grupa, kas piedalās ražošanas plūsmas aktivitātē.
+<span data-ttu-id="680b0-430">Resursu grupa, kas piedalās ražošanas plūsmas aktivitātē.</span><span class="sxs-lookup"><span data-stu-id="680b0-430">A resource group that participates in a production flow activity.</span></span>
 
-###### <a name="worker"></a>**nodarbinātais**
+###### <a name="worker"></a><span data-ttu-id="680b0-431">**nodarbinātais**</span><span class="sxs-lookup"><span data-stu-id="680b0-431">**worker**</span></span>
 
-Persona, kura uzņemas darbinieka vai līgumdarbinieka lomu un kurai maksā par pakalpojumiem.
+<span data-ttu-id="680b0-432">Persona, kura uzņemas darbinieka vai līgumdarbinieka lomu un kurai maksā par pakalpojumiem.</span><span class="sxs-lookup"><span data-stu-id="680b0-432">A person who assumes the role of an employee or a contractor and is paid in exchange for services.</span></span>
 
-###### <a name="workspace"></a>**darbvieta**
+###### <a name="workspace"></a><span data-ttu-id="680b0-433">**darbvieta**</span><span class="sxs-lookup"><span data-stu-id="680b0-433">**workspace**</span></span>
 
-Lapa, kas sniedz apskatu par vienu vai vairākām lietotāja veiktajām aktivitātēm. Lai parādītu gaidošo darbu un saistītos datus no vairākiem avotiem, šī lapa izmanto šūnas, sarakstus un diagrammas, un lapā tiek rādīti ar šiem datiem saistītie bieži veiktie uzdevumi. Darbvietas kopsavilkuma sadaļā rādītas šūnas tiek rādītas arī informācijas paneļa saistītajā sadaļā.
+<span data-ttu-id="680b0-434">Lapa, kas sniedz apskatu par vienu vai vairākām lietotāja veiktajām aktivitātēm.</span><span class="sxs-lookup"><span data-stu-id="680b0-434">A page that provides an overview of one of the activities that the user performs.</span></span> <span data-ttu-id="680b0-435">Lai parādītu gaidošo darbu un saistītos datus no vairākiem avotiem, šī lapa izmanto šūnas, sarakstus un diagrammas, un lapā tiek rādīti ar šiem datiem saistītie bieži veiktie uzdevumi.</span><span class="sxs-lookup"><span data-stu-id="680b0-435">The page uses tiles, lists, and charts to display pending work and related data from multiple sources, and the page surfaces frequent tasks related to this data.</span></span> <span data-ttu-id="680b0-436">Darbvietas kopsavilkuma sadaļā rādītas šūnas tiek rādītas arī informācijas paneļa saistītajā sadaļā.</span><span class="sxs-lookup"><span data-stu-id="680b0-436">Tiles shown in the summary section of the workspace are also displayed in the related section in the dashboard.</span></span>
 

@@ -19,32 +19,32 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: d6c04b8a6a4208e187786be158ceb3c84e1bb408
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 679bafc81e7c3bd328dd3be3d8cabe7969077f93
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="assess-sales-performance-by-product"></a>Novērtēt veiktspēju pēc preces
+# <a name="assess-sales-performance-by-product"></a><span data-ttu-id="a91c4-103">Novērtēt veiktspēju pēc preces</span><span class="sxs-lookup"><span data-stu-id="a91c4-103">Assess sales performance by product</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-Izmantojot Microsoft Dynamics 365 for Retail, varat izpētīt labāko 10 preču rentabilitāti. 
+<span data-ttu-id="a91c4-104">Izmantojot Microsoft Dynamics 365 for Retail, varat izpētīt labāko 10 preču rentabilitāti.</span><span class="sxs-lookup"><span data-stu-id="a91c4-104">You can study profitability for the top 10 products using Microsoft Dynamics 365 for Retail.</span></span> 
 
-Izmantojot programmu Dynamics 365 for Retail, lietotāji var arī pētīt labāko preču (no 10 līdz 100) rentabilitāti dažādos organizācijas hierarhijas līmeņos, ņemot vērā vienu no tālāk norādītajiem kritērijiem.
+<span data-ttu-id="a91c4-105">Izmantojot programmu Dynamics 365 for Retail, lietotāji var arī pētīt labāko preču (no 10 līdz 100) rentabilitāti dažādos organizācijas hierarhijas līmeņos, ņemot vērā vienu no tālāk norādītajiem kritērijiem.</span><span class="sxs-lookup"><span data-stu-id="a91c4-105">As part of Dynamics 365 for Retail, users can also study profitability for the top products (10 to 100) across different levels of the organization hierarchy, based on one of the following criteria:</span></span>
 
--   Pārdošanas summa
--   Daudzums
--   Bruto peļņas norma
--   Uzcenojuma procenti
+-   <span data-ttu-id="a91c4-106">Pārdošanas summa</span><span class="sxs-lookup"><span data-stu-id="a91c4-106">Sales amount</span></span>
+-   <span data-ttu-id="a91c4-107">Daudzums</span><span class="sxs-lookup"><span data-stu-id="a91c4-107">Quantity</span></span>
+-   <span data-ttu-id="a91c4-108">Bruto peļņas norma</span><span class="sxs-lookup"><span data-stu-id="a91c4-108">Gross profit margin</span></span>
+-   <span data-ttu-id="a91c4-109">Uzcenojuma procenti</span><span class="sxs-lookup"><span data-stu-id="a91c4-109">Margin percentage</span></span>
 
-Lai veiktu šo izvērtēšanu, var izmantot standarta komplektācijā iekļauto pārskatu **Labākās preces**, kuru var atvērt, izmantojot vienu no tālāk norādītajiem ceļiem.
+<span data-ttu-id="a91c4-110">Lai veiktu šo izvērtēšanu, var izmantot standarta komplektācijā iekļauto pārskatu **Labākās preces**, kuru var atvērt, izmantojot vienu no tālāk norādītajiem ceļiem.</span><span class="sxs-lookup"><span data-stu-id="a91c4-110">For this assessment, you can use the out-of-box **Top products** report, which you can open from any of the following locations:</span></span>
 
--   Darbvieta **Mazumtirdzniecības veikala pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Labāko preču pārskats**
--   Darbvieta **Kategorijas un preču pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Labāko preču pārskats**
--   Sadaļa **Pieprasījumi un pārskati** &gt; **Mazumtirdzniecība** &gt; **Pieprasījumi un pārskati** &gt; **Pārdošanas pārskati** &gt; **Labāko preču pārskats**
+-   <span data-ttu-id="a91c4-111">Darbvieta **Mazumtirdzniecības veikala pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Labāko preču pārskats**</span><span class="sxs-lookup"><span data-stu-id="a91c4-111">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
+-   <span data-ttu-id="a91c4-112">Darbvieta **Kategorijas un preču pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Labāko preču pārskats**</span><span class="sxs-lookup"><span data-stu-id="a91c4-112">**Category and product management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
+-   <span data-ttu-id="a91c4-113">Sadaļa **Pieprasījumi un pārskati** &gt; **Mazumtirdzniecība** &gt; **Pieprasījumi un pārskati** &gt; **Pārdošanas pārskati** &gt; **Labāko preču pārskats**</span><span class="sxs-lookup"><span data-stu-id="a91c4-113">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Top products report**</span></span>
 
 
 

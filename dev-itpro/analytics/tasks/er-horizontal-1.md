@@ -16,136 +16,136 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 94898674f02de72111e131f563b33926dda8ac8e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: fdba6a68cd98b0ccbc4072f5c1124088ed9d814b
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="design-a-format-to-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-for-electronic-reporting-er"></a>Izveidot formātu horizontāli paplašināmu diapazonu izmantošanai, lai dinamiski pievienotu kolonnas programmas Excel pārskatos elektronisko pārskatu veidošanai (ER)
+# <a name="design-a-format-to-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-for-electronic-reporting-er"></a><span data-ttu-id="3e7bc-103">Izveidot formātu horizontāli paplašināmu diapazonu izmantošanai, lai dinamiski pievienotu kolonnas programmas Excel pārskatos elektronisko pārskatu veidošanai (ER)</span><span class="sxs-lookup"><span data-stu-id="3e7bc-103">Design a format to use horizontally-expandable ranges to dynamically add columns in Excel reports for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Tālāk norādītās darbības izskaidro, kā lietotājs, kam piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma, var konfigurēt elektroniskā pārskata (ER) formātu, lai izveidotu pārskatus kā OPENXML darblapas (Excel) failus, kuros var dinamiski izveidot nepieciešamās kolonnas kā horizontāli izvēršamas virknes. Šīs darbības var veikt jebkurā uzņēmumā.
+<span data-ttu-id="3e7bc-104">Tālāk norādītās darbības izskaidro, kā lietotājs, kam piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma, var konfigurēt elektroniskā pārskata (ER) formātu, lai izveidotu pārskatus kā OPENXML darblapas (Excel) failus, kuros var dinamiski izveidot nepieciešamās kolonnas kā horizontāli izvēršamas virknes.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to generate reports as OPENXML worksheets (Excel) files in which the required columns can be created dynamically as horizontally expandable ranges.</span></span> <span data-ttu-id="3e7bc-105">Šīs darbības var veikt jebkurā uzņēmumā.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-105">These steps can be performed in any company.</span></span>
 
-Lai veiktu šīs darbības, vispirms veiciet tālāk aprakstītās trīs norādes par uzdevumu: 
+<span data-ttu-id="3e7bc-106">Lai veiktu šīs darbības, vispirms veiciet tālāk aprakstītās trīs norādes par uzdevumu:</span><span class="sxs-lookup"><span data-stu-id="3e7bc-106">To complete these steps, you must first complete these three task guides:</span></span> 
 
-"ER Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu"
+<span data-ttu-id="3e7bc-107">"ER Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu"</span><span class="sxs-lookup"><span data-stu-id="3e7bc-107">“ER Create a configuration provider and mark it as active”</span></span>
 
-"ER Lietot finanšu dimensijas kā datu avotu (1. daļa. Noformēt datu modeli)"
+<span data-ttu-id="3e7bc-108">"ER Lietot finanšu dimensijas kā datu avotu (1. daļa. Noformēt datu modeli)"</span><span class="sxs-lookup"><span data-stu-id="3e7bc-108">“ER Use financial dimensions as a data source (Part 1: Design data model)”</span></span>
 
-"ER Lietot finanšu dimensijas kā datu avotu (2. daļa. Modeļa kartēšana)"
+<span data-ttu-id="3e7bc-109">"ER Lietot finanšu dimensijas kā datu avotu (2. daļa. Modeļa kartēšana)"</span><span class="sxs-lookup"><span data-stu-id="3e7bc-109">“ER Use financial dimensions as a data source (Part 2: Model mapping)”</span></span>
 
-Nepieciešams arī lejupielādēt un saglabāt veidnes lokālo kopiju kopā ar parauga pārskatu, kas pieejams šeit: http://msdynamics.blob.core.windows.net/media/2016/09/SampleFinDimWsReport.xlsx
+<span data-ttu-id="3e7bc-110">Nepieciešams arī lejupielādēt un saglabāt veidnes lokālo kopiju kopā ar parauga pārskatu, kas pieejams šeit: http://msdynamics.blob.core.windows.net/media/2016/09/SampleFinDimWsReport.xlsx</span><span class="sxs-lookup"><span data-stu-id="3e7bc-110">You must also download and save a local copy of the template with a sample report found here: http://msdynamics.blob.core.windows.net/media/2016/09/SampleFinDimWsReport.xlsx</span></span>
 
-Šī procedūra ir paredzēta līdzeklim, kas tika pievienots Dynamics 365 for Operations versijā 1611.
+<span data-ttu-id="3e7bc-111">Šī procedūra ir paredzēta līdzeklim, kas tika pievienots Dynamics 365 for Operations versijā 1611.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-111">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="create-a-new-report-configuration"></a>Izveidot jaunu pārskata konfigurāciju
-1. Dodieties uz Organizācijas administrēšana > Elektronisko atskaišu veidošana > Konfigurācijas.
-2. Koka struktūrā atlasiet 'Finanšu dimensiju parauga modelis'.
-3. Noklikšķiniet uz Izveidot konfigurāciju, lai atvērtu nolaižamo dialoglodziņu.
-4. Laukā Jauns ievadiet "Formāts pamatojoties uz datu modeli 'Finanšu dimensiju parauga modelis'.
-    * Izmantojiet iepriekš izveidoto modeli kā jaunā pārskata datu avotu.  
-5. Laukā Nosaukums ierakstiet 'Sample report with horizontally expandable ranges'.
-    * Izveidot pārskata paraugu ar horizontāli paplašināmiem diapazoniem  
-6. Laukā Nosaukums ierakstiet 'To make Excel output with dynamically adding columns'.
-    * Lai sagatavotu Excel izvadi ar dinamisku kolonnu pievienošanu  
-7. Laukā Datu modeļa definīcija atlasiet Ieraksts.
-8. Klikšķiniet Izveidot konfigurāciju.
+## <a name="create-a-new-report-configuration"></a><span data-ttu-id="3e7bc-112">Izveidot jaunu pārskata konfigurāciju</span><span class="sxs-lookup"><span data-stu-id="3e7bc-112">Create a new report configuration</span></span>
+1. <span data-ttu-id="3e7bc-113">Dodieties uz Organizācijas administrēšana > Elektronisko atskaišu veidošana > Konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-113">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+2. <span data-ttu-id="3e7bc-114">Koka struktūrā atlasiet 'Finanšu dimensiju parauga modelis'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-114">In the tree, select 'Financial dimensions sample model'.</span></span>
+3. <span data-ttu-id="3e7bc-115">Noklikšķiniet uz Izveidot konfigurāciju, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-115">Click Create configuration to open the drop dialog.</span></span>
+4. <span data-ttu-id="3e7bc-116">Laukā Jauns ievadiet "Formāts pamatojoties uz datu modeli 'Finanšu dimensiju parauga modelis'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-116">In the New field, enter 'Format based on data model Financial dimensions sample model'.</span></span>
+    * <span data-ttu-id="3e7bc-117">Izmantojiet iepriekš izveidoto modeli kā jaunā pārskata datu avotu.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-117">Use the model created in advance as the data source for your new report.</span></span>  
+5. <span data-ttu-id="3e7bc-118">Laukā Nosaukums ierakstiet 'Sample report with horizontally expandable ranges'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-118">In the Name field, type 'Sample report with horizontally expandable ranges'.</span></span>
+    * <span data-ttu-id="3e7bc-119">Izveidot pārskata paraugu ar horizontāli paplašināmiem diapazoniem</span><span class="sxs-lookup"><span data-stu-id="3e7bc-119">Sample report with horizontally expandable ranges</span></span>  
+6. <span data-ttu-id="3e7bc-120">Laukā Nosaukums ierakstiet 'To make Excel output with dynamically adding columns'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-120">In the Description field, type 'To make Excel output with dynamically adding columns'.</span></span>
+    * <span data-ttu-id="3e7bc-121">Lai sagatavotu Excel izvadi ar dinamisku kolonnu pievienošanu</span><span class="sxs-lookup"><span data-stu-id="3e7bc-121">To make Excel output with dynamically adding columns</span></span>  
+7. <span data-ttu-id="3e7bc-122">Laukā Datu modeļa definīcija atlasiet Ieraksts.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-122">In the Data model definition field, select Entry.</span></span>
+8. <span data-ttu-id="3e7bc-123">Klikšķiniet Izveidot konfigurāciju.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-123">Click Create configuration.</span></span>
 
-## <a name="design-the-report-format"></a>Izstrādāt pārskata formātu
-1. Noklikšķiniet uz Veidotājs.
-2. Ieslēdziet pārslēgšanas pogu ‘Show details’.
-3. Darbību rūtī noklikšķiniet uz Importēt.
-4. Noklikšķiniet uz Importēt no Excel.
-5. Noklikšķiniet uz Pielikumi.
-    * Importējiet pārskata veidni. Šajā nolūka izmantojiet lejupielādēto Excel failu.  
-6. Noklikšķiniet uz Jauns.
-7. Noklikšķiniet uz Fails.
-8. Aizvērt lapu.
-9. Ievadiet vai atlasiet kādu vērtību laukā Veidne.
-    * Atlasiet lejupielādējamo veidni.  
-10. Noklikšķiniet uz OK.
-    * Pievienot jaunu diapazonu, lai dinamiski izveidotu finanšu dimensiju Excel izvadi ar visu atlasīto kolonnu skaitu (lietotāja dialoglodziņa veidlapā). Visu kolonnu visās šūnās ir norādīts atsevišķs finanšu dimensijas nosaukums.  
-11. Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.
-12. Koka struktūrā atlasiet 'Excel\Range'.
-13. Laukā Excel diapazons ierakstiet 'DimNames'.
-    * DimNames  
-14. Laukā Replicēšanas virziens atlasiet 'Horizontal'.
-15. Noklikšķiniet uz Labi.
-16. Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal'.
-17. Noklikšķiniet uz Pārvietot uz augšu.
-18. Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Cell<DimNames>'.
-19. Noklikšķiniet uz Izgriezt.
-20. Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal'.
-21. Noklikšķiniet uz Ielīmēt.
-22. Koka struktūrā izvērsiet 'Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal'.
-23. Koka struktūrā izvērsiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical'.
-24. Koka struktūrā izvērsiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical'.
-25. Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical'.
-    * Pievienot jaunu diapazonu, lai dinamiski izveidotu finanšu dimensiju Excel izvadi ar visu atlasīto kolonnu skaitu (lietotāja dialoglodziņa veidlapā). Visu kolonnu visās šūnās ir norādīta atsevišķa finanšu dimensijas vērtība visām pārskata transakcijām.  
-26. Noklikšķiniet uz Pievienot diapazonu.
-27. Laukā Excel diapazons ierakstiet 'DimValues'.
-    * DimValues  
-28. Laukā Replicēšanas virziens atlasiet 'Horizontal'.
-29. Noklikšķiniet uz Labi.
-30. Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<DimValues>'.
-31. Noklikšķiniet uz Izgriezt.
-32. Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Range<DimValues>: Horizontal'.
-33. Noklikšķiniet uz Ielīmēt.
-34. Koka struktūrā izvērsiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Range<DimValues>: Horizontal'.
+## <a name="design-the-report-format"></a><span data-ttu-id="3e7bc-124">Izstrādāt pārskata formātu</span><span class="sxs-lookup"><span data-stu-id="3e7bc-124">Design the report format</span></span>
+1. <span data-ttu-id="3e7bc-125">Noklikšķiniet uz Veidotājs.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-125">Click Designer.</span></span>
+2. <span data-ttu-id="3e7bc-126">Ieslēdziet pārslēgšanas pogu ‘Show details’.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-126">Turn on the ‘Show details’ toggle button.</span></span>
+3. <span data-ttu-id="3e7bc-127">Darbību rūtī noklikšķiniet uz Importēt.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-127">On the Action Pane, click Import.</span></span>
+4. <span data-ttu-id="3e7bc-128">Noklikšķiniet uz Importēt no Excel.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-128">Click Import from Excel.</span></span>
+5. <span data-ttu-id="3e7bc-129">Noklikšķiniet uz Pielikumi.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-129">Click Attachments.</span></span>
+    * <span data-ttu-id="3e7bc-130">Importējiet pārskata veidni.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-130">Import the report’s template.</span></span> <span data-ttu-id="3e7bc-131">Šajā nolūka izmantojiet lejupielādēto Excel failu.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-131">Use Excel file that you downloaded for that.</span></span>  
+6. <span data-ttu-id="3e7bc-132">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-132">Click New.</span></span>
+7. <span data-ttu-id="3e7bc-133">Noklikšķiniet uz Fails.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-133">Click File.</span></span>
+8. <span data-ttu-id="3e7bc-134">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-134">Close the page.</span></span>
+9. <span data-ttu-id="3e7bc-135">Ievadiet vai atlasiet kādu vērtību laukā Veidne.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-135">In the Template field, enter or select a value.</span></span>
+    * <span data-ttu-id="3e7bc-136">Atlasiet lejupielādējamo veidni.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-136">Select the downloaded template.</span></span>  
+10. <span data-ttu-id="3e7bc-137">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-137">Click OK.</span></span>
+    * <span data-ttu-id="3e7bc-138">Pievienot jaunu diapazonu, lai dinamiski izveidotu finanšu dimensiju Excel izvadi ar visu atlasīto kolonnu skaitu (lietotāja dialoglodziņa veidlapā).</span><span class="sxs-lookup"><span data-stu-id="3e7bc-138">Add a new range to dynamically create Excel output with as many columns as you selected (in the user dialog form) for financial dimensions.</span></span> <span data-ttu-id="3e7bc-139">Visu kolonnu visās šūnās ir norādīts atsevišķs finanšu dimensijas nosaukums.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-139">Each cell for every column will represent a single financial dimension’s name.</span></span>  
+11. <span data-ttu-id="3e7bc-140">Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-140">Click Add to open the drop dialog.</span></span>
+12. <span data-ttu-id="3e7bc-141">Koka struktūrā atlasiet 'Excel\Range'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-141">In the tree, select 'Excel\Range'.</span></span>
+13. <span data-ttu-id="3e7bc-142">Laukā Excel diapazons ierakstiet 'DimNames'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-142">In the Excel range field, type 'DimNames'.</span></span>
+    * <span data-ttu-id="3e7bc-143">DimNames</span><span class="sxs-lookup"><span data-stu-id="3e7bc-143">DimNames</span></span>  
+14. <span data-ttu-id="3e7bc-144">Laukā Replicēšanas virziens atlasiet 'Horizontal'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-144">In the Replication direction field, select 'Horizontal'.</span></span>
+15. <span data-ttu-id="3e7bc-145">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-145">Click OK.</span></span>
+16. <span data-ttu-id="3e7bc-146">Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-146">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal'.</span></span>
+17. <span data-ttu-id="3e7bc-147">Noklikšķiniet uz Pārvietot uz augšu.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-147">Click Move up.</span></span>
+18. <span data-ttu-id="3e7bc-148">Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Cell<DimNames>'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-148">In the tree, select 'Excel = "SampleFinDimWsReport"\Cell<DimNames>'.</span></span>
+19. <span data-ttu-id="3e7bc-149">Noklikšķiniet uz Izgriezt.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-149">Click Cut.</span></span>
+20. <span data-ttu-id="3e7bc-150">Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-150">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal'.</span></span>
+21. <span data-ttu-id="3e7bc-151">Noklikšķiniet uz Ielīmēt.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-151">Click Paste.</span></span>
+22. <span data-ttu-id="3e7bc-152">Koka struktūrā izvērsiet 'Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-152">In the tree, expand 'Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal'.</span></span>
+23. <span data-ttu-id="3e7bc-153">Koka struktūrā izvērsiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-153">In the tree, expand 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical'.</span></span>
+24. <span data-ttu-id="3e7bc-154">Koka struktūrā izvērsiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-154">In the tree, expand 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical'.</span></span>
+25. <span data-ttu-id="3e7bc-155">Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-155">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical'.</span></span>
+    * <span data-ttu-id="3e7bc-156">Pievienot jaunu diapazonu, lai dinamiski izveidotu finanšu dimensiju Excel izvadi ar visu atlasīto kolonnu skaitu (lietotāja dialoglodziņa veidlapā).</span><span class="sxs-lookup"><span data-stu-id="3e7bc-156">Add a new range to dynamically create Excel output with as many columns as you selected (in the user dialog form) for financial dimensions.</span></span> <span data-ttu-id="3e7bc-157">Visu kolonnu visās šūnās ir norādīta atsevišķa finanšu dimensijas vērtība visām pārskata transakcijām.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-157">Each cell for every column will represent a single financial dimension’s value for each reporting transaction.</span></span>  
+26. <span data-ttu-id="3e7bc-158">Noklikšķiniet uz Pievienot diapazonu.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-158">Click Add Range.</span></span>
+27. <span data-ttu-id="3e7bc-159">Laukā Excel diapazons ierakstiet 'DimValues'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-159">In the Excel range field, type 'DimValues'.</span></span>
+    * <span data-ttu-id="3e7bc-160">DimValues</span><span class="sxs-lookup"><span data-stu-id="3e7bc-160">DimValues</span></span>  
+28. <span data-ttu-id="3e7bc-161">Laukā Replicēšanas virziens atlasiet 'Horizontal'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-161">In the Replication direction field, select 'Horizontal'.</span></span>
+29. <span data-ttu-id="3e7bc-162">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-162">Click OK.</span></span>
+30. <span data-ttu-id="3e7bc-163">Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<DimValues>'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-163">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<DimValues>'.</span></span>
+31. <span data-ttu-id="3e7bc-164">Noklikšķiniet uz Izgriezt.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-164">Click Cut.</span></span>
+32. <span data-ttu-id="3e7bc-165">Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Range<DimValues>: Horizontal'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-165">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Range<DimValues>: Horizontal'.</span></span>
+33. <span data-ttu-id="3e7bc-166">Noklikšķiniet uz Ielīmēt.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-166">Click Paste.</span></span>
+34. <span data-ttu-id="3e7bc-167">Koka struktūrā izvērsiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Range<DimValues>: Horizontal'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-167">In the tree, expand 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Range<DimValues>: Horizontal'.</span></span>
 
-## <a name="map-format-elements-to-data-sources"></a>Saistīt formātā elementus ar datu avotiem
-1. Noklikšķiniet uz cilnes Kartēšana.
-2. Kokā izvērsiet 'modelis: datu modelis Finanšu dimensiju parauga modelis'.
-3. Kokā izvērsiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Dimensiju iestatīšana: Ierakstu saraksts'.
-4. Kokā izvērsiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Dimensiju iestatīšana: Ierakstu saraksts\Darbība: Ierakstu saraksts'.
-5. Kokā izvērsiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Žurnāls: Ierakstu saraksts\Darbība: Ierakstu saraksts\Dimensiju dati: Ierakstu saraksts'.
-6. Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Range<DimValues>: Horizontal\Cell<DimValues>'.
-7. Kokā atlasiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Žurnāls: Ierakstu saraksts\Darbība: Ierakstu saraksts\Dimensiju dati: Ierakstu saraksts\Kods: Virkne'.
-8. Noklikšķiniet uz Saistīt.
-9. Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Range<DimValues>: Horizontal'.
-10. Kokā atlasiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Žurnāls: Ierakstu saraksts\Darbība: Ierakstu saraksts\Dimensiju dati: Ierakstu saraksts'.
-11. Noklikšķiniet uz Saistīt.
-12. Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<Credit>'.
-13. Koka atlasiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Dimensiju iestatīšana: Ierakstu saraksts\Kredīts: Reāls'.
-14. Noklikšķiniet uz Saistīt.
-15. Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<Debit>'.
-16. Koka atlasiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Dimensiju iestatīšana: Ierakstu saraksts\Debets: Reāls'.
-17. Noklikšķiniet uz Saistīt.
-18. Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<Currency>'.
-19. Koka atlasiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Dimensiju iestatīšana: Ierakstu saraksts\Valūta: Virkne'.
-20. Noklikšķiniet uz Saistīt.
-21. Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<TransDate>'.
-22. Koka atlasiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Dimensiju iestatīšana: Ierakstu saraksts\Datums: Datums'.
-23. Noklikšķiniet uz Saistīt.
-24. Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<TransVoucher>'.
-25. Koka atlasiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Dimensiju iestatīšana: Ierakstu saraksts\Dokuments: Virkne'.
-26. Noklikšķiniet uz Saistīt.
-27. Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<TransBatch>'.
-28. Kokā atlasiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Žurnāls: Ierakstu saraksts\Partija: Virkne'.
-29. Noklikšķiniet uz Saistīt.
-30. Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical'.
-31. Kokā atlasiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Dimensiju iestatīšana: Ierakstu saraksts\Darbība: Ierakstu saraksts'.
-32. Noklikšķiniet uz Saistīt.
-33. Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Cell<Batch>'.
-34. Kokā atlasiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Žurnāls: Ierakstu saraksts\Partija: Virkne'.
-35. Noklikšķiniet uz Saistīt.
-36. Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical'.
-37. Kokā atlasiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Žurnāls: Ierakstu saraksts'.
-38. Noklikšķiniet uz Saistīt.
-39. Koka struktūrā izvērsiet 'model: Data model Financial dimensions sample model\Dimensions setting: Record list'.
-40. Koka struktūrā atlasiet 'model: Data model Financial dimensions sample model\Dimensions setting: Record list\Code: String'.
-41. Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal\Cell<DimNames>'.
-42. Noklikšķiniet uz Saistīt.
-43. Koka struktūrā atlasiet 'model: Data model Financial dimensions sample model\Dimensions setting: Record list'.
-44. Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal'.
-45. Noklikšķiniet uz Saistīt.
-46. Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Cell<CompanyName>'.
-47. Kokā atlasiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Uzņēmums: Virkne'.
-48. Noklikšķiniet uz Saistīt.
-49. Noklikšķiniet uz Saglabāt.
-50. Aizvērt lapu.
+## <a name="map-format-elements-to-data-sources"></a><span data-ttu-id="3e7bc-168">Saistīt formātā elementus ar datu avotiem</span><span class="sxs-lookup"><span data-stu-id="3e7bc-168">Map format elements to data sources</span></span>
+1. <span data-ttu-id="3e7bc-169">Noklikšķiniet uz cilnes Kartēšana.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-169">Click the Mapping tab.</span></span>
+2. <span data-ttu-id="3e7bc-170">Kokā izvērsiet 'modelis: datu modelis Finanšu dimensiju parauga modelis'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-170">In the tree, expand 'model: Data model Financial dimensions sample model'.</span></span>
+3. <span data-ttu-id="3e7bc-171">Kokā izvērsiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Dimensiju iestatīšana: Ierakstu saraksts'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-171">In the tree, expand 'model: Data model Financial dimensions sample model\Journal: Record list'.</span></span>
+4. <span data-ttu-id="3e7bc-172">Kokā izvērsiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Dimensiju iestatīšana: Ierakstu saraksts\Darbība: Ierakstu saraksts'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-172">In the tree, expand 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list'.</span></span>
+5. <span data-ttu-id="3e7bc-173">Kokā izvērsiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Žurnāls: Ierakstu saraksts\Darbība: Ierakstu saraksts\Dimensiju dati: Ierakstu saraksts'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-173">In the tree, expand 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Dimensions data: Record list'.</span></span>
+6. <span data-ttu-id="3e7bc-174">Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Range<DimValues>: Horizontal\Cell<DimValues>'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-174">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Range<DimValues>: Horizontal\Cell<DimValues>'.</span></span>
+7. <span data-ttu-id="3e7bc-175">Kokā atlasiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Žurnāls: Ierakstu saraksts\Darbība: Ierakstu saraksts\Dimensiju dati: Ierakstu saraksts\Kods: Virkne'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-175">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Dimensions data: Record list\Code: String'.</span></span>
+8. <span data-ttu-id="3e7bc-176">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-176">Click Bind.</span></span>
+9. <span data-ttu-id="3e7bc-177">Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Range<DimValues>: Horizontal'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-177">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Range<DimValues>: Horizontal'.</span></span>
+10. <span data-ttu-id="3e7bc-178">Kokā atlasiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Žurnāls: Ierakstu saraksts\Darbība: Ierakstu saraksts\Dimensiju dati: Ierakstu saraksts'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-178">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Dimensions data: Record list'.</span></span>
+11. <span data-ttu-id="3e7bc-179">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-179">Click Bind.</span></span>
+12. <span data-ttu-id="3e7bc-180">Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<Credit>'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-180">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<Credit>'.</span></span>
+13. <span data-ttu-id="3e7bc-181">Koka atlasiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Dimensiju iestatīšana: Ierakstu saraksts\Kredīts: Reāls'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-181">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Credit: Real'.</span></span>
+14. <span data-ttu-id="3e7bc-182">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-182">Click Bind.</span></span>
+15. <span data-ttu-id="3e7bc-183">Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<Debit>'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-183">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<Debit>'.</span></span>
+16. <span data-ttu-id="3e7bc-184">Koka atlasiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Dimensiju iestatīšana: Ierakstu saraksts\Debets: Reāls'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-184">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Debit: Real'.</span></span>
+17. <span data-ttu-id="3e7bc-185">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-185">Click Bind.</span></span>
+18. <span data-ttu-id="3e7bc-186">Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<Currency>'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-186">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<Currency>'.</span></span>
+19. <span data-ttu-id="3e7bc-187">Koka atlasiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Dimensiju iestatīšana: Ierakstu saraksts\Valūta: Virkne'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-187">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Currency: String'.</span></span>
+20. <span data-ttu-id="3e7bc-188">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-188">Click Bind.</span></span>
+21. <span data-ttu-id="3e7bc-189">Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<TransDate>'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-189">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<TransDate>'.</span></span>
+22. <span data-ttu-id="3e7bc-190">Koka atlasiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Dimensiju iestatīšana: Ierakstu saraksts\Datums: Datums'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-190">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Date: Date'.</span></span>
+23. <span data-ttu-id="3e7bc-191">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-191">Click Bind.</span></span>
+24. <span data-ttu-id="3e7bc-192">Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<TransVoucher>'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-192">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<TransVoucher>'.</span></span>
+25. <span data-ttu-id="3e7bc-193">Koka atlasiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Dimensiju iestatīšana: Ierakstu saraksts\Dokuments: Virkne'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-193">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Voucher: String'.</span></span>
+26. <span data-ttu-id="3e7bc-194">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-194">Click Bind.</span></span>
+27. <span data-ttu-id="3e7bc-195">Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<TransBatch>'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-195">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<TransBatch>'.</span></span>
+28. <span data-ttu-id="3e7bc-196">Kokā atlasiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Žurnāls: Ierakstu saraksts\Partija: Virkne'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-196">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Batch: String'.</span></span>
+29. <span data-ttu-id="3e7bc-197">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-197">Click Bind.</span></span>
+30. <span data-ttu-id="3e7bc-198">Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-198">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical'.</span></span>
+31. <span data-ttu-id="3e7bc-199">Kokā atlasiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Dimensiju iestatīšana: Ierakstu saraksts\Darbība: Ierakstu saraksts'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-199">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list'.</span></span>
+32. <span data-ttu-id="3e7bc-200">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-200">Click Bind.</span></span>
+33. <span data-ttu-id="3e7bc-201">Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Cell<Batch>'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-201">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Cell<Batch>'.</span></span>
+34. <span data-ttu-id="3e7bc-202">Kokā atlasiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Žurnāls: Ierakstu saraksts\Partija: Virkne'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-202">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Batch: String'.</span></span>
+35. <span data-ttu-id="3e7bc-203">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-203">Click Bind.</span></span>
+36. <span data-ttu-id="3e7bc-204">Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-204">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical'.</span></span>
+37. <span data-ttu-id="3e7bc-205">Kokā atlasiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Žurnāls: Ierakstu saraksts'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-205">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list'.</span></span>
+38. <span data-ttu-id="3e7bc-206">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-206">Click Bind.</span></span>
+39. <span data-ttu-id="3e7bc-207">Koka struktūrā izvērsiet 'model: Data model Financial dimensions sample model\Dimensions setting: Record list'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-207">In the tree, expand 'model: Data model Financial dimensions sample model\Dimensions setting: Record list'.</span></span>
+40. <span data-ttu-id="3e7bc-208">Koka struktūrā atlasiet 'model: Data model Financial dimensions sample model\Dimensions setting: Record list\Code: String'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-208">In the tree, select 'model: Data model Financial dimensions sample model\Dimensions setting: Record list\Code: String'.</span></span>
+41. <span data-ttu-id="3e7bc-209">Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal\Cell<DimNames>'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-209">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal\Cell<DimNames>'.</span></span>
+42. <span data-ttu-id="3e7bc-210">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-210">Click Bind.</span></span>
+43. <span data-ttu-id="3e7bc-211">Koka struktūrā atlasiet 'model: Data model Financial dimensions sample model\Dimensions setting: Record list'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-211">In the tree, select 'model: Data model Financial dimensions sample model\Dimensions setting: Record list'.</span></span>
+44. <span data-ttu-id="3e7bc-212">Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-212">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal'.</span></span>
+45. <span data-ttu-id="3e7bc-213">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-213">Click Bind.</span></span>
+46. <span data-ttu-id="3e7bc-214">Koka struktūrā atlasiet 'Excel = "SampleFinDimWsReport"\Cell<CompanyName>'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-214">In the tree, select 'Excel = "SampleFinDimWsReport"\Cell<CompanyName>'.</span></span>
+47. <span data-ttu-id="3e7bc-215">Kokā atlasiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Uzņēmums: Virkne'.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-215">In the tree, select 'model: Data model Financial dimensions sample model\Company: String'.</span></span>
+48. <span data-ttu-id="3e7bc-216">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-216">Click Bind.</span></span>
+49. <span data-ttu-id="3e7bc-217">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-217">Click Save.</span></span>
+50. <span data-ttu-id="3e7bc-218">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="3e7bc-218">Close the page.</span></span>
 
 

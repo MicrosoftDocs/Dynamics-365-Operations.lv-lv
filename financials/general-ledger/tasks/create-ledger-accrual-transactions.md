@@ -16,36 +16,36 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 5a8d9fb805838be67424926ca0cd56577ae43cba
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 368614ff447ae9f5cb6e74274558b92a0873ec7a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-ledger-accrual-transactions"></a>Virsgrāmatas uzkrājumu darbību izveide
+# <a name="create-ledger-accrual-transactions"></a><span data-ttu-id="38160-103">Virsgrāmatas uzkrājumu darbību izveide</span><span class="sxs-lookup"><span data-stu-id="38160-103">Create ledger accrual transactions</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā uzdevuma ceļvedī aprakstīts, kā ģenerēt Virsgrāmatas uzkrāšanas transakcijas, kas balstītas uz uzkrāšanas shēmām.
+<span data-ttu-id="38160-104">Šajā uzdevuma ceļvedī aprakstīts, kā ģenerēt Virsgrāmatas uzkrāšanas transakcijas, kas balstītas uz uzkrāšanas shēmām.</span><span class="sxs-lookup"><span data-stu-id="38160-104">This task guide steps through generating ledger accrual transactions that are based on accrual schemes</span></span>
 
-1. Pārejiet uz sadaļu Virsgrāmata > Žurnāla ieraksti > Virsgrāmatas žurnāli.
-2. Sarakstā atrodiet un atlasiet vēlamo žurnālu vai izveidojiet to.
-3. Noklikšķiniet, lai sekotu saitei laukā Žurnāla iedaļas numurs.
-4. Sarakstā atzīmējiet atlasīto rindu.
-5. Laukā Konts norādiet vēlamās vērtības.
-    * Šajā piemērā mēs nosakām apdrošināšanas izdevumus. Tie kļūs par periodisko izdevumu summu.  
-6. Apraksta laukā ierakstiet vērtību.
-7. Laukā Debets ievadiet kādu skaitli.
-8. Laukā Korespondējošais konts norādiet vēlamās vērtības.
-9. Noklikšķiniet uz Funkcijas.
-10. Noklikšķiniet uz Virsgrāmatas uzkrājumi.
-11. Laukā Uzkrāšanas identifikācija noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-12. Sarakstā atrodiet un atlasiet uzkrāšanas shēmu, kuru vēlaties lietot.
-13. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-14. Laukā Sākuma datums ievadiet kādu datumu.
-15. Noklikšķiniet uz Transakcijas.
-16. Aizvērt lapu.
-17. Noklikšķiniet uz OK.
-18. Noklikšķiniet uz Grāmatot.
+1. <span data-ttu-id="38160-105">Pārejiet uz sadaļu Virsgrāmata > Žurnāla ieraksti > Virsgrāmatas žurnāli.</span><span class="sxs-lookup"><span data-stu-id="38160-105">Go to General ledger > Journal entries > General journals.</span></span>
+2. <span data-ttu-id="38160-106">Sarakstā atrodiet un atlasiet vēlamo žurnālu vai izveidojiet to.</span><span class="sxs-lookup"><span data-stu-id="38160-106">In the list, find and select the desired journal or create a new one.</span></span>
+3. <span data-ttu-id="38160-107">Noklikšķiniet, lai sekotu saitei laukā Žurnāla iedaļas numurs.</span><span class="sxs-lookup"><span data-stu-id="38160-107">Click to follow the link in the Journal batch number field.</span></span>
+4. <span data-ttu-id="38160-108">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="38160-108">In the list, mark the selected row.</span></span>
+5. <span data-ttu-id="38160-109">Laukā Konts norādiet vēlamās vērtības.</span><span class="sxs-lookup"><span data-stu-id="38160-109">In the Account field, specify the desired values.</span></span>
+    * <span data-ttu-id="38160-110">Šajā piemērā mēs nosakām apdrošināšanas izdevumus.</span><span class="sxs-lookup"><span data-stu-id="38160-110">In this example, we are defining the expense for the insurance.</span></span> <span data-ttu-id="38160-111">Tie kļūs par periodisko izdevumu summu.</span><span class="sxs-lookup"><span data-stu-id="38160-111">It will be come periodic expense amount.</span></span>  
+6. <span data-ttu-id="38160-112">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="38160-112">In the Description field, type a value.</span></span>
+7. <span data-ttu-id="38160-113">Laukā Debets ievadiet kādu skaitli.</span><span class="sxs-lookup"><span data-stu-id="38160-113">In the Debit field, enter a number.</span></span>
+8. <span data-ttu-id="38160-114">Laukā Korespondējošais konts norādiet vēlamās vērtības.</span><span class="sxs-lookup"><span data-stu-id="38160-114">In the Offset account field, specify the desired values.</span></span>
+9. <span data-ttu-id="38160-115">Noklikšķiniet uz Funkcijas.</span><span class="sxs-lookup"><span data-stu-id="38160-115">Click Functions.</span></span>
+10. <span data-ttu-id="38160-116">Noklikšķiniet uz Virsgrāmatas uzkrājumi.</span><span class="sxs-lookup"><span data-stu-id="38160-116">Click Ledger accruals.</span></span>
+11. <span data-ttu-id="38160-117">Laukā Uzkrāšanas identifikācija noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="38160-117">In the Accrual identification field, click the drop-down button to open the lookup.</span></span>
+12. <span data-ttu-id="38160-118">Sarakstā atrodiet un atlasiet uzkrāšanas shēmu, kuru vēlaties lietot.</span><span class="sxs-lookup"><span data-stu-id="38160-118">In the list, find and select the accural scheme you want to apply.</span></span>
+13. <span data-ttu-id="38160-119">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="38160-119">In the list, click the link in the selected row.</span></span>
+14. <span data-ttu-id="38160-120">Laukā Sākuma datums ievadiet kādu datumu.</span><span class="sxs-lookup"><span data-stu-id="38160-120">In the Start date field, enter a date.</span></span>
+15. <span data-ttu-id="38160-121">Noklikšķiniet uz Transakcijas.</span><span class="sxs-lookup"><span data-stu-id="38160-121">Click Transactions.</span></span>
+16. <span data-ttu-id="38160-122">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="38160-122">Close the page.</span></span>
+17. <span data-ttu-id="38160-123">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="38160-123">Click OK.</span></span>
+18. <span data-ttu-id="38160-124">Noklikšķiniet uz Grāmatot.</span><span class="sxs-lookup"><span data-stu-id="38160-124">Click Post.</span></span>
 
 

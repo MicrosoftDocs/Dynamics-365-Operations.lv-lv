@@ -16,33 +16,33 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 9ea412e4324542a570c1ab2c37824089a3dfec26
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e27dc0623f27ee21408d14aefb93ca13c40be672
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="hire-a-candidate-through-recruiting"></a>Kandidāta pieņemšana darbā, izmantojot personāla atlasi
+# <a name="hire-a-candidate-through-recruiting"></a><span data-ttu-id="cb393-103">Kandidāta pieņemšana darbā, izmantojot personāla atlasi</span><span class="sxs-lookup"><span data-stu-id="cb393-103">Hire a candidate through recruiting</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šī procedūra ļauj personāla atlases darbiniekam pieņemt darbā kandidātu, kurš iesniedzis pieteikumu, izmantojot noteiktu personāla atlases projektu. Kad nolīgstat kandidātu, izmantojot personāla atlases projektu, tiks izveidots jauns darbinieka ieraksts un kandidāta ieraksta statuss būs Nodarbināts. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Lai pabeigtu šo procedūru, pārejiet uz Personāla vadība > Personāla atlase > Pieteikumi > Pieteikumi 
+<span data-ttu-id="cb393-104">Šī procedūra ļauj personāla atlases darbiniekam pieņemt darbā kandidātu, kurš iesniedzis pieteikumu, izmantojot noteiktu personāla atlases projektu.</span><span class="sxs-lookup"><span data-stu-id="cb393-104">This procedure enables a recruiter to hire an applicant who submitted an application through a specific recruitment project.</span></span> <span data-ttu-id="cb393-105">Kad nolīgstat kandidātu, izmantojot personāla atlases projektu, tiks izveidots jauns darbinieka ieraksts un kandidāta ieraksta statuss būs Nodarbināts.</span><span class="sxs-lookup"><span data-stu-id="cb393-105">When you hire an applicant through a recruiting project, a new worker record will be created and the applicant’s record will have a status of Employed.</span></span> <span data-ttu-id="cb393-106">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="cb393-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="cb393-107">Lai pabeigtu šo procedūru, pārejiet uz Personāla vadība > Personāla atlase > Pieteikumi > Pieteikumi</span><span class="sxs-lookup"><span data-stu-id="cb393-107">To complete this procedure, navigate to Human resources > Recruitment > Applications >Applications</span></span> 
 
-1. Atlasiet ārējā kandidāta pieteikumu
-2. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-3. Noklikšķiniet uz Pieteikuma statuss.
-4. Noklikšķiniet uz Pieņemt darbā jaunu darbinieku.
-5. Laukā Nodarbinātības sākuma datums ievadiet datumu un laiku.
-6. Laukā Amats noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-7. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-8. Ievadiet datumu un laiku laukā Norīkojuma sākums.
-9. Noklikšķiniet uz Pieņemt darbā jaunu darbinieku.
-10. Izvērsiet nodarbinātības vēstures papildinformāciju.
-11. Izvērsiet pašreizējo amatu papildinformāciju.
-12. Izvērsiet nodarbinātības vēstures papildinformāciju.
-13. Izvērsiet pašreizējo amatu papildinformāciju.
-14. Izvērsiet vai sakļaujiet sadaļu Adreses.
-15. Izvērsiet vai sakļaujiet sadaļu Kontaktinformācija.
-16. Izvērsiet vai sakļaujiet sadaļu Personiskā informācija.
+1. <span data-ttu-id="cb393-108">Atlasiet ārējā kandidāta pieteikumu</span><span class="sxs-lookup"><span data-stu-id="cb393-108">Select an Application for an External applicant</span></span>
+2. <span data-ttu-id="cb393-109">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="cb393-109">In the list, click the link in the selected row.</span></span>
+3. <span data-ttu-id="cb393-110">Noklikšķiniet uz Pieteikuma statuss.</span><span class="sxs-lookup"><span data-stu-id="cb393-110">Click Application status.</span></span>
+4. <span data-ttu-id="cb393-111">Noklikšķiniet uz Pieņemt darbā jaunu darbinieku.</span><span class="sxs-lookup"><span data-stu-id="cb393-111">Click Hire new worker.</span></span>
+5. <span data-ttu-id="cb393-112">Laukā Nodarbinātības sākuma datums ievadiet datumu un laiku.</span><span class="sxs-lookup"><span data-stu-id="cb393-112">In the Employment start date field, enter a date and time.</span></span>
+6. <span data-ttu-id="cb393-113">Laukā Amats noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="cb393-113">In the Position field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="cb393-114">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="cb393-114">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="cb393-115">Ievadiet datumu un laiku laukā Norīkojuma sākums.</span><span class="sxs-lookup"><span data-stu-id="cb393-115">In the Assignment start field, enter a date and time.</span></span>
+9. <span data-ttu-id="cb393-116">Noklikšķiniet uz Pieņemt darbā jaunu darbinieku.</span><span class="sxs-lookup"><span data-stu-id="cb393-116">Click Hire new worker.</span></span>
+10. <span data-ttu-id="cb393-117">Izvērsiet nodarbinātības vēstures papildinformāciju.</span><span class="sxs-lookup"><span data-stu-id="cb393-117">Expand the Employment history FactBox.</span></span>
+11. <span data-ttu-id="cb393-118">Izvērsiet pašreizējo amatu papildinformāciju.</span><span class="sxs-lookup"><span data-stu-id="cb393-118">Expand the Current positions FactBox.</span></span>
+12. <span data-ttu-id="cb393-119">Izvērsiet nodarbinātības vēstures papildinformāciju.</span><span class="sxs-lookup"><span data-stu-id="cb393-119">Expand the Employment history FactBox.</span></span>
+13. <span data-ttu-id="cb393-120">Izvērsiet pašreizējo amatu papildinformāciju.</span><span class="sxs-lookup"><span data-stu-id="cb393-120">Expand the Current positions FactBox.</span></span>
+14. <span data-ttu-id="cb393-121">Izvērsiet vai sakļaujiet sadaļu Adreses.</span><span class="sxs-lookup"><span data-stu-id="cb393-121">Expand or collapse the Addresses section.</span></span>
+15. <span data-ttu-id="cb393-122">Izvērsiet vai sakļaujiet sadaļu Kontaktinformācija.</span><span class="sxs-lookup"><span data-stu-id="cb393-122">Expand or collapse the Contact information section.</span></span>
+16. <span data-ttu-id="cb393-123">Izvērsiet vai sakļaujiet sadaļu Personiskā informācija.</span><span class="sxs-lookup"><span data-stu-id="cb393-123">Expand or collapse the Personal information section.</span></span>
 
 

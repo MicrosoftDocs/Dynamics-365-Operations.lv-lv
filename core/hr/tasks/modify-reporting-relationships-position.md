@@ -16,31 +16,31 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: aa74bfe5540df7be37ac79dfd48c0c1c510c694d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 002fffc7e8c3186eedf9060d36d2b4a77749da98
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="modify-reporting-relationships-for-a-position"></a>Amata pārskatu attiecību modificēšana
+# <a name="modify-reporting-relationships-for-a-position"></a><span data-ttu-id="95632-103">Amata pārskatu attiecību modificēšana</span><span class="sxs-lookup"><span data-stu-id="95632-103">Modify reporting relationships for a position</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā procedūrā ir aprakstīts, kā mainīt darbinieka pakļautības attiecības. Pakļautības attiecības var izmantot dokumentu virzībai darbplūsmā. Procedūrā arī paskaidrots, kā darbinieku piešķirt papildu hierarhijām. Piemēram, darbinieks var projekta grupas loceklis ar neoficiālām pakļautības attiecībām ar projekta vadītāju. Amatam var definēt papildu pakļautības attiecības, lai izpildītu atšķirīgus projekta vai matricas scenārijus. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
+<span data-ttu-id="95632-104">Šajā procedūrā ir aprakstīts, kā mainīt darbinieka pakļautības attiecības.</span><span class="sxs-lookup"><span data-stu-id="95632-104">This procedure shows how to change the reporting relationship for an employee.</span></span> <span data-ttu-id="95632-105">Pakļautības attiecības var izmantot dokumentu virzībai darbplūsmā.</span><span class="sxs-lookup"><span data-stu-id="95632-105">The reporting relationship can be used for routing documents through workflow.</span></span> <span data-ttu-id="95632-106">Procedūrā arī paskaidrots, kā darbinieku piešķirt papildu hierarhijām.</span><span class="sxs-lookup"><span data-stu-id="95632-106">The procedure also shows how to assign the employee to additional hierarchies.</span></span> <span data-ttu-id="95632-107">Piemēram, darbinieks var projekta grupas loceklis ar neoficiālām pakļautības attiecībām ar projekta vadītāju.</span><span class="sxs-lookup"><span data-stu-id="95632-107">For example, an employee might be a part of a project team with an informal reporting relationship to a project supervisor.</span></span> <span data-ttu-id="95632-108">Amatam var definēt papildu pakļautības attiecības, lai izpildītu atšķirīgus projekta vai matricas scenārijus.</span><span class="sxs-lookup"><span data-stu-id="95632-108">Additional reporting relationships can be defined on the position to accommodate various project or matrix scenarios.</span></span> <span data-ttu-id="95632-109">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="95632-109">The demo data company used to create this procedure is USMF.</span></span>
 
-1. Pārejiet uz sadaļu Personāla vadība > Amati > Amati.
-2. Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus. Piemēram, filtrējiet pēc lauka Amats, izmantojot vērtību 000091.
-3. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-4. Izvērsiet sadaļu Pakļautās personas amats.
-5. Noklikšķiniet uz Jauns, lai atvērtu nolaižamo dialoglodziņu.
-6. Laukā Pakļautība ievadiet vai atlasiet vērtību.
-7. Noklikšķiniet uz Izveidot.
-8. Izvērsiet sadaļu Attiecības.
-9. Noklikšķiniet uz Pievienot.
-10. Atzīmējiet izvēles rūtiņu, kura atrodas pa kreisi no režģa.
-11. Laukā Hierarhijas nosaukums ievadiet vai atlasiet vērtību.
-    * Piemērs: Projekts  
-12. Laukā Pakļautās personas amats ievadiet vai atlasiet vērtību.  Piemērs: 000437
-13. Noklikšķiniet uz Saglabāt.
+1. <span data-ttu-id="95632-110">Pārejiet uz sadaļu Personāla vadība > Amati > Amati.</span><span class="sxs-lookup"><span data-stu-id="95632-110">Go to Human resources > Positions > Positions.</span></span>
+2. <span data-ttu-id="95632-111">Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus.</span><span class="sxs-lookup"><span data-stu-id="95632-111">Use the Quick Filter to find records.</span></span> <span data-ttu-id="95632-112">Piemēram, filtrējiet pēc lauka Amats, izmantojot vērtību 000091.</span><span class="sxs-lookup"><span data-stu-id="95632-112">For example, filter on the Position field with a value of '000091'.</span></span>
+3. <span data-ttu-id="95632-113">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="95632-113">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="95632-114">Izvērsiet sadaļu Pakļautās personas amats.</span><span class="sxs-lookup"><span data-stu-id="95632-114">Expand the Reports to position section.</span></span>
+5. <span data-ttu-id="95632-115">Noklikšķiniet uz Jauns, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="95632-115">Click New to open the drop dialog.</span></span>
+6. <span data-ttu-id="95632-116">Laukā Pakļautība ievadiet vai atlasiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="95632-116">In the Reports to field, enter or select a value.</span></span>
+7. <span data-ttu-id="95632-117">Noklikšķiniet uz Izveidot.</span><span class="sxs-lookup"><span data-stu-id="95632-117">Click Create.</span></span>
+8. <span data-ttu-id="95632-118">Izvērsiet sadaļu Attiecības.</span><span class="sxs-lookup"><span data-stu-id="95632-118">Expand the Relationships section.</span></span>
+9. <span data-ttu-id="95632-119">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="95632-119">Click Add.</span></span>
+10. <span data-ttu-id="95632-120">Atzīmējiet izvēles rūtiņu, kura atrodas pa kreisi no režģa.</span><span class="sxs-lookup"><span data-stu-id="95632-120">Select the check box on the left of the grid.</span></span>
+11. <span data-ttu-id="95632-121">Laukā Hierarhijas nosaukums ievadiet vai atlasiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="95632-121">In the Hierarchy name field, enter or select a value.</span></span>
+    * <span data-ttu-id="95632-122">Piemērs: Projekts</span><span class="sxs-lookup"><span data-stu-id="95632-122">Example: Project</span></span>  
+12. <span data-ttu-id="95632-123">Laukā Pakļautās personas amats ievadiet vai atlasiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="95632-123">In the Reports to position field, enter or select a value.</span></span>  <span data-ttu-id="95632-124">Piemērs: 000437</span><span class="sxs-lookup"><span data-stu-id="95632-124">Example:  000437</span></span>
+13. <span data-ttu-id="95632-125">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="95632-125">Click Save.</span></span>
 
 

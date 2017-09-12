@@ -19,125 +19,125 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: edd3d8ca760c1453ae7cf8d5ff2fdfdedbb022c4
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 83cfd2ef15ae3a02eba21bb31f3311e8f5e15b90
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="configure-expense-management"></a>Izdevumu pārvaldības konfigurēšana
+# <a name="configure-expense-management"></a><span data-ttu-id="1f9a6-104">Izdevumu pārvaldības konfigurēšana</span><span class="sxs-lookup"><span data-stu-id="1f9a6-104">Configure expense management</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir aprakstīti apsvērumi un lēmumi, kas jums ir jāpieņem plānošanas procesa laikā, pirms programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise konfigurējat izdevumu pārvaldību. Apgabalā Izdevumu pārvaldība tostarp varat glabāt informāciju par maksāšanas metodēm, ceļošanas pieprasījumiem, izdevumu atskaitēm un politikām. 
+<span data-ttu-id="1f9a6-105">Šajā rakstā ir aprakstīti apsvērumi un lēmumi, kas jums ir jāpieņem plānošanas procesa laikā, pirms programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise konfigurējat izdevumu pārvaldību.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-105">This article describes the considerations and the decisions that you must make during the planning process before you configure Expense management in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="1f9a6-106">Apgabalā Izdevumu pārvaldība tostarp varat glabāt informāciju par maksāšanas metodēm, ceļošanas pieprasījumiem, izdevumu atskaitēm un politikām.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-106">In the Expense management area, you can store information about payment methods, travel requisitions, expense reports, and policies, among other things.</span></span> 
 
-Tā kā daudzi lēmumi, ko pieņemat, kad plānojat savu izdevumu pārvaldības konfigurāciju, ir atkarīgi no jūsu organizācijas hierarhijas un finanšu struktūras, jums ir nepieciešams skatīt plānošanas dokumentus šiem apgabaliem.
+<span data-ttu-id="1f9a6-107">Tā kā daudzi lēmumi, ko pieņemat, kad plānojat savu izdevumu pārvaldības konfigurāciju, ir atkarīgi no jūsu organizācijas hierarhijas un finanšu struktūras, jums ir nepieciešams skatīt plānošanas dokumentus šiem apgabaliem.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-107">Because many of the decisions that you make when you plan your configuration for Expense management are based on your organization’s hierarchy and financial structure, you must refer to the planning documents for those areas.</span></span>
 
-## <a name="intercompany-expenses"></a>Starpuzņēmumu izdevumi
-Kad iespējojat starpuzņēmumu izdevumus, jūs juridiskajām personām un darbiniekiem ļaujat radīt izdevumus citas juridiskās personas vārdā vai iekasēt maksājumus no citas juridiskās personas jūsu organizācijas ietvaros. Piemēram, darbinieks juridiskajā personā A izpilda projektu juridiskai personai B. Ja ir aktivizēti starpuzņēmumu izdevumi, pēc tam šis darbinieks darba laika uzskaites tabulu var iesniegt juridiskajai personai B un saņemt samaksu. Ja jūsu organizācijai nav vairākas juridiskās personas, jums nav nepieciešams iespējot starpuzņēmumu izdevumus. **Lēmums:** Vai vēlaties iespējot starpuzņēmumu izdevumus?
+## <a name="intercompany-expenses"></a><span data-ttu-id="1f9a6-108">Starpuzņēmumu izdevumi</span><span class="sxs-lookup"><span data-stu-id="1f9a6-108">Intercompany expenses</span></span>
+<span data-ttu-id="1f9a6-109">Kad iespējojat starpuzņēmumu izdevumus, jūs juridiskajām personām un darbiniekiem ļaujat radīt izdevumus citas juridiskās personas vārdā vai iekasēt maksājumus no citas juridiskās personas jūsu organizācijas ietvaros.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-109">When you enable intercompany expenses, you allow legal entities and employees to incur expenses on behalf of, and collect payment from, another legal entity within your organization.</span></span> <span data-ttu-id="1f9a6-110">Piemēram, darbinieks juridiskajā personā A izpilda projektu juridiskai personai B. Ja ir aktivizēti starpuzņēmumu izdevumi, pēc tam šis darbinieks darba laika uzskaites tabulu var iesniegt juridiskajai personai B un saņemt samaksu. Ja jūsu organizācijai nav vairākas juridiskās personas, jums nav nepieciešams iespējot starpuzņēmumu izdevumus.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-110">For example, an employee in legal entity A completes a project for legal entity B. If intercompany expenses are enabled, the employee can then file a timesheet to, and be paid by, legal entity B. If your organization doesn’t have multiple legal entities, you won’t need to enable intercompany expenses.</span></span> <span data-ttu-id="1f9a6-111">**Lēmums:** Vai vēlaties iespējot starpuzņēmumu izdevumus?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-111">**Decision:** Do you want to enable intercompany expenses?</span></span>
 
-## <a name="financial-management"></a>Finanšu pārvaldība
-Izdevumu pārvaldība ir cieši integrēta jūsu organizācijas finanšu pārvaldībā. Liela daļa jūsu konfigurācijas attiecībā uz izdevumu pārvaldību būs pamatota ar lēmumiem, ko esat pieņēmis par savas organizācijas finansēm. Nākamajās sadaļās ir aprakstīti dažādie apgabali, kuriem ir nepieciešama plānošana un lēmumi, balstoties uz jūsu organizācijas finanšu lēmumiem un norādījumiem no vadības grupas.
+## <a name="financial-management"></a><span data-ttu-id="1f9a6-112">Finanšu pārvaldība</span><span class="sxs-lookup"><span data-stu-id="1f9a6-112">Financial management</span></span>
+<span data-ttu-id="1f9a6-113">Izdevumu pārvaldība ir cieši integrēta jūsu organizācijas finanšu pārvaldībā.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-113">Expense management is tightly integrated with the financial management of your organization.</span></span> <span data-ttu-id="1f9a6-114">Liela daļa jūsu konfigurācijas attiecībā uz izdevumu pārvaldību būs pamatota ar lēmumiem, ko esat pieņēmis par savas organizācijas finansēm.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-114">A lot of your configuration for Expense management will be based on the decisions that you’ve made about your organization’s finances.</span></span> <span data-ttu-id="1f9a6-115">Nākamajās sadaļās ir aprakstīti dažādie apgabali, kuriem ir nepieciešama plānošana un lēmumi, balstoties uz jūsu organizācijas finanšu lēmumiem un norādījumiem no vadības grupas.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-115">The following sections describe the different areas that require planning and decisions based on your organization’s financial decisions and guidance from your leadership team.</span></span>
 
-### <a name="per-diems"></a>Dienasnauda
+### <a name="per-diems"></a><span data-ttu-id="1f9a6-116">Dienasnauda</span><span class="sxs-lookup"><span data-stu-id="1f9a6-116">Per diems</span></span>
 
-Ir nepieciešams definēt darbinieku dienasnaudas, ko nodrošina jūsu organizācija. Tā kā dienasnaudas parasti tiek izmantotas, lai segtu tādus izdevumus kā maltītes, izmitināšana un citi gadījuma izdevumi, varat izveidot kārtulas attiecībā uz dienasnaudas piemaksām, jūsu organizācija piedāvā. Dienasnaudas likmes var būt balstītas uz komandējuma gada laiku, komandējuma vietu vai uz abiem. Kad definējat dienasnaudas kārtulu, varat norādīt, ka tiek ieturēts procentuāls daudzums no dienas naudas, ja darbinieks saņem brīvpusdienas vai bezmaksas pakalpojumus. Varat arī definēt dienasnaudas likmju pakāpes, lai iestatītu minimālo un maksimālo stundu skaitu, kādam dienasnaudas likmes var lietot attiecībā uz darbinieka komandējumu. **Lēmumi:**
+<span data-ttu-id="1f9a6-117">Ir nepieciešams definēt darbinieku dienasnaudas, ko nodrošina jūsu organizācija.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-117">You must define the employee per diems that your organization provides.</span></span> <span data-ttu-id="1f9a6-118">Tā kā dienasnaudas parasti tiek izmantotas, lai segtu tādus izdevumus kā maltītes, izmitināšana un citi gadījuma izdevumi, varat izveidot kārtulas attiecībā uz dienasnaudas piemaksām, jūsu organizācija piedāvā.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-118">Because per diems are typically used to cover expenses such as meals, lodging, and other incidental expenses, you can create rules for the per diem allowances that your organization offers.</span></span> <span data-ttu-id="1f9a6-119">Dienasnaudas likmes var būt balstītas uz komandējuma gada laiku, komandējuma vietu vai uz abiem.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-119">Per diem rates can be based on the time of year, the travel location, or both.</span></span> <span data-ttu-id="1f9a6-120">Kad definējat dienasnaudas kārtulu, varat norādīt, ka tiek ieturēts procentuāls daudzums no dienas naudas, ja darbinieks saņem brīvpusdienas vai bezmaksas pakalpojumus.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-120">When you define a per diem rule, you can specify that a percentage of the per diem rate will be withheld if a worker receives complimentary meals or services.</span></span> <span data-ttu-id="1f9a6-121">Varat arī definēt dienasnaudas likmju pakāpes, lai iestatītu minimālo un maksimālo stundu skaitu, kādam dienasnaudas likmes var lietot attiecībā uz darbinieka komandējumu.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-121">You can also define per diem rate tiers to set the minimum and maximum number of hours that the per diem rate can be applied to a worker’s travel.</span></span> <span data-ttu-id="1f9a6-122">**Lēmumi:**</span><span class="sxs-lookup"><span data-stu-id="1f9a6-122">**Decisions:**</span></span>
 
--   Noklusējuma dienasnaudas kārtulas pirmajai un pēdējai dienai:
-    -   Kāds ir minimālais stundu skaits, ko darbinieks var pieprasīt vienai dienai un joprojām saņemt dienasnaudu?
-    -   Vai tiek samazināta summa, kas tiek piedāvāta par ēdināšanu pirmajā un pēdējā dienā? Ja tā — kāds ir samazinājuma procentuālais daudzums?
-    -   Vai tiek samazināta summa, kas tiek piedāvāta par viesnīcas izdevumiem pirmajā un pēdējā dienā? Ja tā — kāds ir samazinājuma procentuālais daudzums?
-    -   Vai tiek samazināta summa, kas tiek piedāvāta par citiem izdevumiem pirmajā un pēdējā dienā? Ja tā — kāds ir samazinājuma procentuālais daudzums?
--   Noklusējuma dienasnaudas kārtulas:
-    -   Vai notiek procentuāla dienasnaudas piemaksas samazināšana par katru maltīti, ja, piemēram, maltītes ir bez maksas? Ja tā — kāds ir samazinājuma procentuālais daudzums par katru maltīti?
-    -   Vai ēdināšanas samazinājums tiek rēķinātas par dienu, pa braucienu vai par maltīšu skaitu dienā?
-    -   Vai dienasnaudas summas tiek noapaļots parastajā veidā vai uz augšu?
-    -   Vai dienasnaudas tiek rēķinātas 24 stundu periodam vai kalendārajai dienai?
--   No atrašanās vietas atkarīgās dienasnaudas kārtulas:
-    -   Vai dienasnaudas likmes atšķiras atkarībā no atrašanās vietas, un kādas atrašanās vietas ir iekļautas?
-    -   Ja dienasnaudas likme ir atkarīga no atrašanās vietas, kāda procentuālā summa katrai atrašanās vietai tiek nodrošināta attiecībā uz:
-        -   maltītēm
-        -   viesnīcu
-        -   citiem izdevumiem
+-   <span data-ttu-id="1f9a6-123">Noklusējuma dienasnaudas kārtulas pirmajai un pēdējai dienai:</span><span class="sxs-lookup"><span data-stu-id="1f9a6-123">Default per diem rules for the first and last days:</span></span>
+    -   <span data-ttu-id="1f9a6-124">Kāds ir minimālais stundu skaits, ko darbinieks var pieprasīt vienai dienai un joprojām saņemt dienasnaudu?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-124">What is the minimum number of hours that an employee can claim for a day and still receive a per diem?</span></span>
+    -   <span data-ttu-id="1f9a6-125">Vai tiek samazināta summa, kas tiek piedāvāta par ēdināšanu pirmajā un pēdējā dienā?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-125">Is there a reduction in the amount that is offered for meals for the first and last day?</span></span> <span data-ttu-id="1f9a6-126">Ja tā — kāds ir samazinājuma procentuālais daudzums?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-126">If so, what is the percentage of the reduction?</span></span>
+    -   <span data-ttu-id="1f9a6-127">Vai tiek samazināta summa, kas tiek piedāvāta par viesnīcas izdevumiem pirmajā un pēdējā dienā?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-127">Is there a reduction in the amount that is offered for a hotel for the first and last day?</span></span> <span data-ttu-id="1f9a6-128">Ja tā — kāds ir samazinājuma procentuālais daudzums?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-128">If so, what is the percentage of the reduction?</span></span>
+    -   <span data-ttu-id="1f9a6-129">Vai tiek samazināta summa, kas tiek piedāvāta par citiem izdevumiem pirmajā un pēdējā dienā?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-129">Is there a reduction in the amount that is offered for other expenses incurred on the first and last day?</span></span> <span data-ttu-id="1f9a6-130">Ja tā — kāds ir samazinājuma procentuālais daudzums?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-130">If so, what is the percentage of the reduction?</span></span>
+-   <span data-ttu-id="1f9a6-131">Noklusējuma dienasnaudas kārtulas:</span><span class="sxs-lookup"><span data-stu-id="1f9a6-131">Default per diem rules:</span></span>
+    -   <span data-ttu-id="1f9a6-132">Vai notiek procentuāla dienasnaudas piemaksas samazināšana par katru maltīti, ja, piemēram, maltītes ir bez maksas?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-132">Is there a percentage reduction in the per diem allowance for each meal if, for example, the meal is complimentary?</span></span> <span data-ttu-id="1f9a6-133">Ja tā — kāds ir samazinājuma procentuālais daudzums par katru maltīti?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-133">If so, what is the reduction percentage for each meal?</span></span>
+    -   <span data-ttu-id="1f9a6-134">Vai ēdināšanas samazinājums tiek rēķinātas par dienu, pa braucienu vai par maltīšu skaitu dienā?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-134">Is the meal reduction calculated per day, per trip, or by the number of meals per day?</span></span>
+    -   <span data-ttu-id="1f9a6-135">Vai dienasnaudas summas tiek noapaļots parastajā veidā vai uz augšu?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-135">Should per diem amounts be rounded normally or rounded up?</span></span>
+    -   <span data-ttu-id="1f9a6-136">Vai dienasnaudas tiek rēķinātas 24 stundu periodam vai kalendārajai dienai?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-136">Are per diems calculated on a 24-hour period or on a calendar day?</span></span>
+-   <span data-ttu-id="1f9a6-137">No atrašanās vietas atkarīgās dienasnaudas kārtulas:</span><span class="sxs-lookup"><span data-stu-id="1f9a6-137">Per diem rules based on location:</span></span>
+    -   <span data-ttu-id="1f9a6-138">Vai dienasnaudas likmes atšķiras atkarībā no atrašanās vietas, un kādas atrašanās vietas ir iekļautas?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-138">Do per diem rates vary based on location and what locations are included?</span></span>
+    -   <span data-ttu-id="1f9a6-139">Ja dienasnaudas likme ir atkarīga no atrašanās vietas, kāda procentuālā summa katrai atrašanās vietai tiek nodrošināta attiecībā uz:</span><span class="sxs-lookup"><span data-stu-id="1f9a6-139">If per diem rate do vary based on location, for each location, what percentage amount is provided for:</span></span>
+        -   <span data-ttu-id="1f9a6-140">maltītēm</span><span class="sxs-lookup"><span data-stu-id="1f9a6-140">meals</span></span>
+        -   <span data-ttu-id="1f9a6-141">viesnīcu</span><span class="sxs-lookup"><span data-stu-id="1f9a6-141">hotel</span></span>
+        -   <span data-ttu-id="1f9a6-142">citiem izdevumiem</span><span class="sxs-lookup"><span data-stu-id="1f9a6-142">other expenses</span></span>
 
-### <a name="expense-management-journals-and-accounts"></a>Izdevumu pārvaldības žurnāli un konti
+### <a name="expense-management-journals-and-accounts"></a><span data-ttu-id="1f9a6-143">Izdevumu pārvaldības žurnāli un konti</span><span class="sxs-lookup"><span data-stu-id="1f9a6-143">Expense management journals and accounts</span></span>
 
-Izdevumu pārvaldībai ir nepieciešams, lai jūs izmantotu vairākus žurnālus un kontus. Jums ir jāizlemj, piemēram, vai to pašu kontu izmantot naudas avansiem un kredītkaršu domstarpībām. **Lēmumi:**
+<span data-ttu-id="1f9a6-144">Izdevumu pārvaldībai ir nepieciešams, lai jūs izmantotu vairākus žurnālus un kontus.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-144">Expense management requires that you use multiple journals and accounts.</span></span> <span data-ttu-id="1f9a6-145">Jums ir jāizlemj, piemēram, vai to pašu kontu izmantot naudas avansiem un kredītkaršu domstarpībām.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-145">You must decide, for example, whether the same account is used for cash advances and credit card disputes.</span></span> <span data-ttu-id="1f9a6-146">**Lēmumi:**</span><span class="sxs-lookup"><span data-stu-id="1f9a6-146">**Decisions:**</span></span>
 
--   Kurā virsgrāmatas žurnālā tiek grāmatotas apstiprināto izdevumu atskaites?
--   Kurš konts tiek izmantots naudas avansiem?
--   Vai naudas avansi ir jāgrāmato nekavējoties?
+-   <span data-ttu-id="1f9a6-147">Kurā virsgrāmatas žurnālā tiek grāmatotas apstiprināto izdevumu atskaites?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-147">Which ledger journal are approved expense reports posted to?</span></span>
+-   <span data-ttu-id="1f9a6-148">Kurš konts tiek izmantots naudas avansiem?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-148">Which account is used for cash advances?</span></span>
+-   <span data-ttu-id="1f9a6-149">Vai naudas avansi ir jāgrāmato nekavējoties?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-149">Should cash advances be posted immediately?</span></span>
 
-### <a name="payment-methods"></a>Maksājuma metodes
+### <a name="payment-methods"></a><span data-ttu-id="1f9a6-150">Maksājuma metodes</span><span class="sxs-lookup"><span data-stu-id="1f9a6-150">Payment methods</span></span>
 
-Kad darbiniekiem ļaujat radīt izdevumus jūsu uzņēmuma vārdā, jums ir nepieciešams definēt maksājumu metodes, ko darbiniekiem ir atļauts lietot. Piemēram, darbiniekiem varat ļaut izmantot skaidru naudu vai korporatīvo kredītkarti. Tāpat darbiniekiem varat ļaut arī izmantot personiskās kredītkartes un pēc tam šiem darbiniekiem kompensēt izdevumus. Attiecībā uz katru maksājumu metodi, kuru atļaujat, jums ir jāpieņem tālāk norādītie lēmumi. **Lēmumi:**
+<span data-ttu-id="1f9a6-151">Kad darbiniekiem ļaujat radīt izdevumus jūsu uzņēmuma vārdā, jums ir nepieciešams definēt maksājumu metodes, ko darbiniekiem ir atļauts lietot.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-151">When you allow employees to incur expenses on behalf of your business, you must define the payment methods that employees are allowed to use.</span></span> <span data-ttu-id="1f9a6-152">Piemēram, darbiniekiem varat ļaut izmantot skaidru naudu vai korporatīvo kredītkarti.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-152">For example, you might allow employees to use cash or a corporate credit card.</span></span> <span data-ttu-id="1f9a6-153">Tāpat darbiniekiem varat ļaut arī izmantot personiskās kredītkartes un pēc tam šiem darbiniekiem kompensēt izdevumus.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-153">You might also allow employees to use personal credit cards, and then reimburse the employees.</span></span> <span data-ttu-id="1f9a6-154">Attiecībā uz katru maksājumu metodi, kuru atļaujat, jums ir jāpieņem tālāk norādītie lēmumi.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-154">You must make the following decisions for each payment method that you allow.</span></span> <span data-ttu-id="1f9a6-155">**Lēmumi:**</span><span class="sxs-lookup"><span data-stu-id="1f9a6-155">**Decisions:**</span></span>
 
--   Kādas maksāšanas metodes ir atļautas?
--   Kam pieder maksāšanas metodes izdevumi?
--   Vai pastāv korespondējošā konta tips? Ja tā — kas tas ir?
--   Ja pastāv korespondējošais konts — kas ir šis konts?
--   Ja maksāšanas metode ir kredītkarte, vai maksāšanas metode ir jāizmanto tikai ar importētajām transakcijām?
+-   <span data-ttu-id="1f9a6-156">Kādas maksāšanas metodes ir atļautas?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-156">What payment methods are allowed?</span></span>
+-   <span data-ttu-id="1f9a6-157">Kam pieder maksāšanas metodes izdevumi?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-157">Who owns the payment method expenses?</span></span>
+-   <span data-ttu-id="1f9a6-158">Vai pastāv korespondējošā konta tips?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-158">Is there an offset account type?</span></span> <span data-ttu-id="1f9a6-159">Ja tā — kas tas ir?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-159">If so, what is it?</span></span>
+-   <span data-ttu-id="1f9a6-160">Ja pastāv korespondējošais konts — kas ir šis konts?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-160">If there is an offset account, what is the account?</span></span>
+-   <span data-ttu-id="1f9a6-161">Ja maksāšanas metode ir kredītkarte, vai maksāšanas metode ir jāizmanto tikai ar importētajām transakcijām?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-161">If the payment method is a credit card, should the payment method be used only with imported transactions?</span></span>
 
-### <a name="expense-categories-and-shared-categories"></a>Izdevumu kategorijas un koplietojamās kategorijas
+### <a name="expense-categories-and-shared-categories"></a><span data-ttu-id="1f9a6-162">Izdevumu kategorijas un koplietojamās kategorijas</span><span class="sxs-lookup"><span data-stu-id="1f9a6-162">Expense categories and shared categories</span></span>
 
-Kad darbinieki izveido izdevumu atskaiti, katram viņu reģistrētajam izdevumam ir jābūt saistītam ar kādu izdevumu kategoriju. Izdevumu kategorijas tiek atvasinātas no koplietojamajām kategorijām, kuras var kopīgot dažādās juridiskajās personās jūsu organizācijas ietvaros. Atkarībā no tā, kā jūsu organizācija ir definēta, šīs kategorijas ir iespējams kopīgot arī modulī Projektu vadība un uzskaite. Pamatojoties uz jūsu organizācijas definīciju un norādījumiem no ieviešanas grupas, nosakiet, vai izdevumu pārvaldībā izmantotās kategorijas ir jālieto tikai izdevumos, vai tās ir nepieciešams koplietot starp moduli Projekts un Izdevumi. Ņemiet vērā, ka šīs kategorijas var koplietot starp moduļiem Projekts un Izdevumi vai Projekts un Ražošana, bet ne starp Izdevumi un Ražošana. Par katru izdevumu kategoriju jums ir jāpieņem tālāk norādītie lēmumi. **Lēmumi:**
+<span data-ttu-id="1f9a6-163">Kad darbinieki izveido izdevumu atskaiti, katram viņu reģistrētajam izdevumam ir jābūt saistītam ar kādu izdevumu kategoriju.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-163">When employees create an expense report, each expense that they record must be associated with an expense category.</span></span> <span data-ttu-id="1f9a6-164">Izdevumu kategorijas tiek atvasinātas no koplietojamajām kategorijām, kuras var kopīgot dažādās juridiskajās personās jūsu organizācijas ietvaros.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-164">Expense categories are derived from Shared categories that can be shared across the legal entities within your organization.</span></span> <span data-ttu-id="1f9a6-165">Atkarībā no tā, kā jūsu organizācija ir definēta, šīs kategorijas ir iespējams kopīgot arī modulī Projektu vadība un uzskaite.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-165">These categories can also be shared in Project management and accounting, depending on how your organization is defined.</span></span> <span data-ttu-id="1f9a6-166">Pamatojoties uz jūsu organizācijas definīciju un norādījumiem no ieviešanas grupas, nosakiet, vai izdevumu pārvaldībā izmantotās kategorijas ir jālieto tikai izdevumos, vai tās ir nepieciešams koplietot starp moduli Projekts un Izdevumi.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-166">Based on the definition of your organization and guidance from the implementation team, determine whether the categories used in expense management are to be used in only expense or if they should be shared between Project and Expense.</span></span> <span data-ttu-id="1f9a6-167">Ņemiet vērā, ka šīs kategorijas var koplietot starp moduļiem Projekts un Izdevumi vai Projekts un Ražošana, bet ne starp Izdevumi un Ražošana.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-167">Note that these categories can be shared between Project and Expense or Project and Production, but not between Expense and Production.</span></span> <span data-ttu-id="1f9a6-168">Par katru izdevumu kategoriju jums ir jāpieņem tālāk norādītie lēmumi.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-168">You must make the following decisions for each expense category.</span></span> <span data-ttu-id="1f9a6-169">**Lēmumi:**</span><span class="sxs-lookup"><span data-stu-id="1f9a6-169">**Decisions:**</span></span>
 
--   Kas ir izdevumu kategorija? Piemēram, lidojumi, viesnīcas vai nobrauktais attālums.
--   Vai šo izdevumu kategoriju var izmantot arī modulī Projektu vadība un uzskaite?
--   Kas ir izdevumu tips?
--   Kas ir noklusējuma maksāšanas metode izdevumu kategorijai?
--   Vai izdevumus šajā kategorijā ir nepieciešams uzskaitīt detalizēti?
--   Kas ir galvenais noklusējuma konts izdevumu kategorijai?
--   Kas ir noklusējuma krājumu pārdošanas nodokļu grupa izdevumu kategorijai?
--   Vai izdevumu kategorijai ir atļautas papildu maksāšanas metodes? Ja tā — kādas tās ir?
--   Vai šajā izdevumu kategorijā pastāv apakškategorijas? Ja tā:
-    -   Vai kādas apakškategorijas ir izslēgtas no nodokļu atgūšanas?
-    -   Kas ir apakškategoriju krājuma pārdošanas nodokļu grupa?
+-   <span data-ttu-id="1f9a6-170">Kas ir izdevumu kategorija?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-170">What is the expense category?</span></span> <span data-ttu-id="1f9a6-171">Piemēram, lidojumi, viesnīcas vai nobrauktais attālums.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-171">For example, flights, hotel, or mileage.</span></span>
+-   <span data-ttu-id="1f9a6-172">Vai šo izdevumu kategoriju var izmantot arī modulī Projektu vadība un uzskaite?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-172">Can this expense category also be used in Project management and accounting?</span></span>
+-   <span data-ttu-id="1f9a6-173">Kas ir izdevumu tips?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-173">What is the expense type?</span></span>
+-   <span data-ttu-id="1f9a6-174">Kas ir noklusējuma maksāšanas metode izdevumu kategorijai?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-174">What is the default payment method for the expense category?</span></span>
+-   <span data-ttu-id="1f9a6-175">Vai izdevumus šajā kategorijā ir nepieciešams uzskaitīt detalizēti?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-175">Are expenses in this category required to be itemized?</span></span>
+-   <span data-ttu-id="1f9a6-176">Kas ir galvenais noklusējuma konts izdevumu kategorijai?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-176">What is the main default account for the expense category?</span></span>
+-   <span data-ttu-id="1f9a6-177">Kas ir noklusējuma krājumu pārdošanas nodokļu grupa izdevumu kategorijai?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-177">What is the default item sales tax group for the expense category?</span></span>
+-   <span data-ttu-id="1f9a6-178">Vai izdevumu kategorijai ir atļautas papildu maksāšanas metodes?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-178">Are additional payment methods allowed for the expense category?</span></span> <span data-ttu-id="1f9a6-179">Ja tā — kādas tās ir?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-179">If so, what are they?</span></span>
+-   <span data-ttu-id="1f9a6-180">Vai šajā izdevumu kategorijā pastāv apakškategorijas?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-180">Are there subcategories within this expense category?</span></span> <span data-ttu-id="1f9a6-181">Ja tā:</span><span class="sxs-lookup"><span data-stu-id="1f9a6-181">If so:</span></span>
+    -   <span data-ttu-id="1f9a6-182">Vai kādas apakškategorijas ir izslēgtas no nodokļu atgūšanas?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-182">Are any of the subcategories excluded from tax recovery?</span></span>
+    -   <span data-ttu-id="1f9a6-183">Kas ir apakškategoriju krājuma pārdošanas nodokļu grupa?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-183">What is the item sales tax group of the subcategories?</span></span>
 
-    Ja šī izdevumu kategorija tiek izmantota arī modulī Projektu vadība un uzskaite, atbildiet uz atlikušajiem jautājumiem. Pretējā gadījumā šo sadaļu jūs esat pabeidzis.
--   Kuri izmaksu konti tiks izmantoti tālāk norādītajiem mērķiem?
-    -   Izmaksas
-    -   Algu sadalījums
-    -   NP-izmaksu vērtība
-    -   Izmaksas-krājumi
-    -   NP-izmaksu vērtība-krājumi
-    -   Uzkrātie zaudējumi
-    -   NP-uzkrātie zaudējumi
--   Kuri ieņēmumu konti tiks izmantoti tālāk norādītajiem mērķiem?
-    -   Rēķinos iekļautie ieņēmumi
-    -   Uzkrātie ieņēmumi-pārdošanas vērtība
-    -   NP-pārdošanas vērtība
-    -   Uzkrātie ieņēmumi-ražošana
-    -   NP-ražošana
-    -   Uzkrātie ieņēmumi-peļņa
-    -   NP-peļņa
-    -   Uzkrātie ieņēmumi-abonements
-    -   NP-abonements
+    <span data-ttu-id="1f9a6-184">Ja šī izdevumu kategorija tiek izmantota arī modulī Projektu vadība un uzskaite, atbildiet uz atlikušajiem jautājumiem.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-184">If this expense category is also used in Project management and accounting, answer the remaining questions.</span></span> <span data-ttu-id="1f9a6-185">Pretējā gadījumā šo sadaļu jūs esat pabeidzis.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-185">Otherwise, you are finished with this section.</span></span>
+-   <span data-ttu-id="1f9a6-186">Kuri izmaksu konti tiks izmantoti tālāk norādītajiem mērķiem?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-186">Which cost accounts will be used for the following?</span></span>
+    -   <span data-ttu-id="1f9a6-187">Izmaksas</span><span class="sxs-lookup"><span data-stu-id="1f9a6-187">Cost</span></span>
+    -   <span data-ttu-id="1f9a6-188">Algu sadalījums</span><span class="sxs-lookup"><span data-stu-id="1f9a6-188">Payroll allocation</span></span>
+    -   <span data-ttu-id="1f9a6-189">NP-izmaksu vērtība</span><span class="sxs-lookup"><span data-stu-id="1f9a6-189">WIP-cost value</span></span>
+    -   <span data-ttu-id="1f9a6-190">Izmaksas-krājumi</span><span class="sxs-lookup"><span data-stu-id="1f9a6-190">Cost-item</span></span>
+    -   <span data-ttu-id="1f9a6-191">NP-izmaksu vērtība-krājumi</span><span class="sxs-lookup"><span data-stu-id="1f9a6-191">WIP-cost value-item</span></span>
+    -   <span data-ttu-id="1f9a6-192">Uzkrātie zaudējumi</span><span class="sxs-lookup"><span data-stu-id="1f9a6-192">Accrued loss</span></span>
+    -   <span data-ttu-id="1f9a6-193">NP-uzkrātie zaudējumi</span><span class="sxs-lookup"><span data-stu-id="1f9a6-193">WIP-accrued loss</span></span>
+-   <span data-ttu-id="1f9a6-194">Kuri ieņēmumu konti tiks izmantoti tālāk norādītajiem mērķiem?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-194">Which revenue accounts will be used for the following?</span></span>
+    -   <span data-ttu-id="1f9a6-195">Rēķinos iekļautie ieņēmumi</span><span class="sxs-lookup"><span data-stu-id="1f9a6-195">Invoiced revenue</span></span>
+    -   <span data-ttu-id="1f9a6-196">Uzkrātie ieņēmumi-pārdošanas vērtība</span><span class="sxs-lookup"><span data-stu-id="1f9a6-196">Accrued revenue-sales value</span></span>
+    -   <span data-ttu-id="1f9a6-197">NP-pārdošanas vērtība</span><span class="sxs-lookup"><span data-stu-id="1f9a6-197">WIP-sales value</span></span>
+    -   <span data-ttu-id="1f9a6-198">Uzkrātie ieņēmumi-ražošana</span><span class="sxs-lookup"><span data-stu-id="1f9a6-198">Accrued revenue-production</span></span>
+    -   <span data-ttu-id="1f9a6-199">NP-ražošana</span><span class="sxs-lookup"><span data-stu-id="1f9a6-199">WIP-production</span></span>
+    -   <span data-ttu-id="1f9a6-200">Uzkrātie ieņēmumi-peļņa</span><span class="sxs-lookup"><span data-stu-id="1f9a6-200">Accrued revenue-profit</span></span>
+    -   <span data-ttu-id="1f9a6-201">NP-peļņa</span><span class="sxs-lookup"><span data-stu-id="1f9a6-201">WIP-profit</span></span>
+    -   <span data-ttu-id="1f9a6-202">Uzkrātie ieņēmumi-abonements</span><span class="sxs-lookup"><span data-stu-id="1f9a6-202">Accrued revenue-subscription</span></span>
+    -   <span data-ttu-id="1f9a6-203">NP-abonements</span><span class="sxs-lookup"><span data-stu-id="1f9a6-203">WIP-subscription</span></span>
 
  
 
-### <a name="taxes"></a>Nodokļi
+### <a name="taxes"></a><span data-ttu-id="1f9a6-204">Nodokļi</span><span class="sxs-lookup"><span data-stu-id="1f9a6-204">Taxes</span></span>
 
-Attiecībā uz nodokļiem, kas saistīti ar izdevumiem, jums ir jānosaka, kas tiek iekļauts vai iespējots izdevumu atskaitēs. **Lēmumi:**
+<span data-ttu-id="1f9a6-205">Attiecībā uz nodokļiem, kas saistīti ar izdevumiem, jums ir jānosaka, kas tiek iekļauts vai iespējots izdevumu atskaitēs.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-205">For expense-related taxes, you must determine what is included or enabled on expense reports.</span></span> <span data-ttu-id="1f9a6-206">**Lēmumi:**</span><span class="sxs-lookup"><span data-stu-id="1f9a6-206">**Decisions:**</span></span>
 
--   Vai pārdošanas nodoklis ir iekļauts izdevumu summās?
--   Vai izdevumiem ir jāiespējo nodokļu atgūšana?
+-   <span data-ttu-id="1f9a6-207">Vai pārdošanas nodoklis ir iekļauts izdevumu summās?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-207">Is sales tax included in the expense amounts?</span></span>
+-   <span data-ttu-id="1f9a6-208">Vai izdevumiem ir jāiespējo nodokļu atgūšana?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-208">Should tax recovery be enabled on expenses?</span></span>
 
-Ievērojiet — ja virsgrāmatas plānošanas laikā jūs nolēmāt lietot ASV pārdošanas nodokļa un importa nodokļa kārtulas, kas tiek izdarīts, lauka **Lietot pārdošanas nodokļa nodokļu kārtulas** vērtību pārslēdzot uz Jā, tad jūs nevarat nodokļa atgūšanu iespējot izdevumiem.
+<span data-ttu-id="1f9a6-209">Ievērojiet — ja virsgrāmatas plānošanas laikā jūs nolēmāt lietot ASV pārdošanas nodokļa un importa nodokļa kārtulas, kas tiek izdarīts, lauka **Lietot pārdošanas nodokļa nodokļu kārtulas** vērtību pārslēdzot uz Jā, tad jūs nevarat nodokļa atgūšanu iespējot izdevumiem.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-209">Note that if, during your planning of the general ledger, you have decided to apply U.S. sales tax and use tax rules, which is done by toggling the **Apply sales tax taxations rules** field to Yes, you can’t enable tax recovery on expenses.</span></span>
 
-## <a name="policies"></a>Lietošanas ierobežojumi
-Varat izveidot izdevumu atskaišu politikas tā, lai jūsu organizācija varētu ietaupīt laiku un naudu, kad darbinieki rada zaudējumus tās vārdā. Politikas nodrošina, ka darbinieki iekļaujas budžetā, sniedz visu prasīto informāciju un tērē naudu tikai pēc nepieciešamības. Attiecībā uz katru izdevumu atskaišu politiku un katru izdevumu atskaites apstiprināšanas politiku, ko izveidojat, jums ir jāpieņem tālāk norādītie lēmumi. **Lēmumi:**
+## <a name="policies"></a><span data-ttu-id="1f9a6-210">Lietošanas ierobežojumi</span><span class="sxs-lookup"><span data-stu-id="1f9a6-210">Policies</span></span>
+<span data-ttu-id="1f9a6-211">Varat izveidot izdevumu atskaišu politikas tā, lai jūsu organizācija varētu ietaupīt laiku un naudu, kad darbinieki rada zaudējumus tās vārdā.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-211">You can create expense report policies so that your organization can save time and money when employees incur expenses on its behalf.</span></span> <span data-ttu-id="1f9a6-212">Politikas nodrošina, ka darbinieki iekļaujas budžetā, sniedz visu prasīto informāciju un tērē naudu tikai pēc nepieciešamības.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-212">Policies ensure that employees stay within budget, provide all required information, and spend money only as necessary.</span></span> <span data-ttu-id="1f9a6-213">Attiecībā uz katru izdevumu atskaišu politiku un katru izdevumu atskaites apstiprināšanas politiku, ko izveidojat, jums ir jāpieņem tālāk norādītie lēmumi.</span><span class="sxs-lookup"><span data-stu-id="1f9a6-213">You must make the following decisions for each expense report policy and each expense report approval policy that you create.</span></span> <span data-ttu-id="1f9a6-214">**Lēmumi:**</span><span class="sxs-lookup"><span data-stu-id="1f9a6-214">**Decisions:**</span></span>
 
--   Kāds ir politikas nosaukums?
--   Kam šī izdevumu politika ir paredzēta?
--   Ja iepriekš izlēmāt iespējot starpuzņēmumu izdevumus — uz kuru uzņēmumu jūsu organizācijas ietvaros šī politika attiecas?
--   Kad šī politika stājas spēkā?
--   Kad beidzas šīs politikas darbība?
--   Kāda ir politikas kārtula?
--   Kāds ir politikas kārtulas iznākums?
+-   <span data-ttu-id="1f9a6-215">Kāds ir politikas nosaukums?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-215">What is the name of the policy?</span></span>
+-   <span data-ttu-id="1f9a6-216">Kam šī izdevumu politika ir paredzēta?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-216">What is the expense policy for?</span></span>
+-   <span data-ttu-id="1f9a6-217">Ja iepriekš izlēmāt iespējot starpuzņēmumu izdevumus — uz kuru uzņēmumu jūsu organizācijas ietvaros šī politika attiecas?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-217">If you previously decided to enable intercompany expenses, to which companies in your organization will this policy apply?</span></span>
+-   <span data-ttu-id="1f9a6-218">Kad šī politika stājas spēkā?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-218">When does the policy become effective?</span></span>
+-   <span data-ttu-id="1f9a6-219">Kad beidzas šīs politikas darbība?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-219">When does the policy expire?</span></span>
+-   <span data-ttu-id="1f9a6-220">Kāda ir politikas kārtula?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-220">What is the policy rule?</span></span>
+-   <span data-ttu-id="1f9a6-221">Kāds ir politikas kārtulas iznākums?</span><span class="sxs-lookup"><span data-stu-id="1f9a6-221">What is the outcome of the policy rule?</span></span>
 
 
 

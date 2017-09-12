@@ -19,285 +19,285 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 23541bb2d82b552cdc9e0ada4aa4ec473f498d0b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 49d5242168cd43e78dd4b0c63da363f91f680904
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="centralized-payments-for-accounts-payable"></a>Centralizētie maksājumi norēķiniem ar piegādātājiem
+# <a name="centralized-payments-for-accounts-payable"></a><span data-ttu-id="6dc02-105">Centralizētie maksājumi norēķiniem ar piegādātājiem</span><span class="sxs-lookup"><span data-stu-id="6dc02-105">Centralized payments for Accounts payable</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Organizācijas, kurās ir iekļautas vairākas juridiskās personas, var izveidot un pārvaldīt maksājumus, izmantojot vienu juridisko personu, kura apstrādā visus maksājumus. Tāpēc vieniem un tiem pašiem maksājumiem nav jāievada vairākās juridiskajās personās. Šajā rakstā ir sniegti piemēri, kas parāda, kā tiek veikta centralizēto maksājumu grāmatošana dažādās situācijās.
+<span data-ttu-id="6dc02-106">Organizācijas, kurās ir iekļautas vairākas juridiskās personas, var izveidot un pārvaldīt maksājumus, izmantojot vienu juridisko personu, kura apstrādā visus maksājumus.</span><span class="sxs-lookup"><span data-stu-id="6dc02-106">Organizations that include multiple legal entities can create and manage payments by using a single legal entity that handles all payments.</span></span> <span data-ttu-id="6dc02-107">Tāpēc vieniem un tiem pašiem maksājumiem nav jāievada vairākās juridiskajās personās.</span><span class="sxs-lookup"><span data-stu-id="6dc02-107">Therefore, the same payments don't have to be entered in multiple legal entities.</span></span> <span data-ttu-id="6dc02-108">Šajā rakstā ir sniegti piemēri, kas parāda, kā tiek veikta centralizēto maksājumu grāmatošana dažādās situācijās.</span><span class="sxs-lookup"><span data-stu-id="6dc02-108">This article provides examples that show how posting for centralized payments is handled in various scenarios.</span></span>
 
-Organizācijas, kurās ir iekļautas vairākas juridiskās personas, var izveidot un pārvaldīt maksājumus, izmantojot vienu juridisko personu, kas apstrādā visus maksājumus. Tāpēc vieniem un tiem pašiem maksājumiem nav jāievada vairākās juridiskajās personās. Turklāt organizācijas ietaupa laiku, jo maksāšanas process tiek racionalizēts.
+<span data-ttu-id="6dc02-109">Organizācijas, kurās ir iekļautas vairākas juridiskās personas, var izveidot un pārvaldīt maksājumus, izmantojot vienu juridisko personu, kas apstrādā visus maksājumus.</span><span class="sxs-lookup"><span data-stu-id="6dc02-109">Organizations that include multiple legal entities can create and manage payments by using a legal entity that handles all payments.</span></span> <span data-ttu-id="6dc02-110">Tāpēc vieniem un tiem pašiem maksājumiem nav jāievada vairākās juridiskajās personās.</span><span class="sxs-lookup"><span data-stu-id="6dc02-110">Therefore, the same payments don't have to be entered in multiple legal entities.</span></span> <span data-ttu-id="6dc02-111">Turklāt organizācijas ietaupa laiku, jo maksāšanas process tiek racionalizēts.</span><span class="sxs-lookup"><span data-stu-id="6dc02-111">Additionally, the organization saves time, because the payment process is streamlined.</span></span>
 
-Organizācijā ar centralizētiem maksājumiem ir daudz juridisku personu, un katra juridiskā persona pārvalda savu piegādātāju rēķinus. Maksājumi visām juridiskajām personām tiek iegūti no vienas juridiska personas, kas zināma kā maksājuma dokumentā norādītā juridiskā persona. Apmaksas segšanas laikā tiek veidotas piemērojamās izpildes termiņa un izpildes veicēja darbības. Varat norādīt, kura no organizācijas juridiskajām personām saņems realizēto peļņu vai realizēto zaudējumu transakcijas un kā tiks apstrādātas termiņatlaides, kas saistītas ar starpuzņēmumu maksājumiem. 
+<span data-ttu-id="6dc02-112">Organizācijā ar centralizētiem maksājumiem ir daudz juridisku personu, un katra juridiskā persona pārvalda savu piegādātāju rēķinus.</span><span class="sxs-lookup"><span data-stu-id="6dc02-112">In a centralized payments organization, there are many legal entities for operations, and each operating legal entity manages its own vendor invoices.</span></span> <span data-ttu-id="6dc02-113">Maksājumi visām juridiskajām personām tiek iegūti no vienas juridiska personas, kas zināma kā maksājuma dokumentā norādītā juridiskā persona.</span><span class="sxs-lookup"><span data-stu-id="6dc02-113">Payments for all the operating legal entities are generated from a single legal entity, which is known as the legal entity of the payment.</span></span> <span data-ttu-id="6dc02-114">Apmaksas segšanas laikā tiek veidotas piemērojamās izpildes termiņa un izpildes veicēja darbības.</span><span class="sxs-lookup"><span data-stu-id="6dc02-114">During the settlement process, the applicable due-to and due-from transactions are generated.</span></span> <span data-ttu-id="6dc02-115">Varat norādīt, kura no organizācijas juridiskajām personām saņems realizēto peļņu vai realizēto zaudējumu transakcijas un kā tiks apstrādātas termiņatlaides, kas saistītas ar starpuzņēmumu maksājumiem.</span><span class="sxs-lookup"><span data-stu-id="6dc02-115">You can specify which legal entity in the organization receives the realized gain or realized loss transactions, and how cash discount transactions that are related to a cross-company payment are handled.</span></span> 
 
-Turpmākie piemēri parāda, kā tiek veikta grāmatošana dažādās situācijās. Turpmākā konfigurācija attiecas uz visiem šiem piemēriem.
+<span data-ttu-id="6dc02-116">Turpmākie piemēri parāda, kā tiek veikta grāmatošana dažādās situācijās.</span><span class="sxs-lookup"><span data-stu-id="6dc02-116">The following examples illustrate how posting is handled in various scenarios.</span></span> <span data-ttu-id="6dc02-117">Turpmākā konfigurācija attiecas uz visiem šiem piemēriem.</span><span class="sxs-lookup"><span data-stu-id="6dc02-117">The following configuration is assumed for all these examples:</span></span>
 
--   Juridiskās personas ir Fabrikam, Fabrikam East un Fabrikam West. Maksājumi tiek veikti no Fabrikam.
--   Lauks **Grāmatot termiņatlaidi** lapā **Starpuzņēmumu uzskaite** ir iestatīts uz **Rēķinā norādītā juridiskā persona**.
--   Lauks **Grāmatot valūtas maiņas ieguvumus vai zaudējumus** lapā **Starpuzņēmumu uzskaite** ir iestatīts uz **Maksājumā norādītā juridiskā persona**.
--   Piegādātājs Fourth Coffee ir iestatīts kā katras juridiskās personas kreditors. Dažādu juridisko personu piegādātāji tiek uzskatīti par to pašu piegādātāju, ja viņi koplieto vienu un to pašu globālo adrešu grāmatas ID.
+-   <span data-ttu-id="6dc02-118">Juridiskās personas ir Fabrikam, Fabrikam East un Fabrikam West.</span><span class="sxs-lookup"><span data-stu-id="6dc02-118">The legal entities are Fabrikam, Fabrikam East, and Fabrikam West.</span></span> <span data-ttu-id="6dc02-119">Maksājumi tiek veikti no Fabrikam.</span><span class="sxs-lookup"><span data-stu-id="6dc02-119">Payments are made from Fabrikam.</span></span>
+-   <span data-ttu-id="6dc02-120">Lauks **Grāmatot termiņatlaidi** lapā **Starpuzņēmumu uzskaite** ir iestatīts uz **Rēķinā norādītā juridiskā persona**.</span><span class="sxs-lookup"><span data-stu-id="6dc02-120">The **Post cash discount** field on the **Intercompany accounting** page is set to **Legal entity of the invoice**.</span></span>
+-   <span data-ttu-id="6dc02-121">Lauks **Grāmatot valūtas maiņas ieguvumus vai zaudējumus** lapā **Starpuzņēmumu uzskaite** ir iestatīts uz **Maksājumā norādītā juridiskā persona**.</span><span class="sxs-lookup"><span data-stu-id="6dc02-121">The **Post currency exchange gain or loss** field on the **Intercompany accounting** page is set to **Legal entity of the payment**.</span></span>
+-   <span data-ttu-id="6dc02-122">Piegādātājs Fourth Coffee ir iestatīts kā katras juridiskās personas kreditors.</span><span class="sxs-lookup"><span data-stu-id="6dc02-122">The vendor Fourth Coffee is set up as a vendor in each legal entity.</span></span> <span data-ttu-id="6dc02-123">Dažādu juridisko personu piegādātāji tiek uzskatīti par to pašu piegādātāju, ja viņi koplieto vienu un to pašu globālo adrešu grāmatas ID.</span><span class="sxs-lookup"><span data-stu-id="6dc02-123">The vendors from the various legal entities are identified as the same vendor because they share the same global address book ID.</span></span>
 
-| Direktorija ID | Kreditora konts | Nosaukums          | Juridiska persona  |
+| <span data-ttu-id="6dc02-124">Direktorija ID</span><span class="sxs-lookup"><span data-stu-id="6dc02-124">Directory ID</span></span> | <span data-ttu-id="6dc02-125">Kreditora konts</span><span class="sxs-lookup"><span data-stu-id="6dc02-125">Vendor account</span></span> | <span data-ttu-id="6dc02-126">Nosaukums</span><span class="sxs-lookup"><span data-stu-id="6dc02-126">Name</span></span>          | <span data-ttu-id="6dc02-127">Juridiska persona</span><span class="sxs-lookup"><span data-stu-id="6dc02-127">Legal entity</span></span>  |
 |--------------|----------------|---------------|---------------|
-| 1050         | 3004           | Coffee ceturtdaļa | Fabrikam      |
-| 1050         | 100            | Coffee ceturtdaļa | Fabrikam East |
-| 1050         | 3004           | Coffee ceturtdaļa | Fabrikam West |
+| <span data-ttu-id="6dc02-128">1050</span><span class="sxs-lookup"><span data-stu-id="6dc02-128">1050</span></span>         | <span data-ttu-id="6dc02-129">3004</span><span class="sxs-lookup"><span data-stu-id="6dc02-129">3004</span></span>           | <span data-ttu-id="6dc02-130">Coffee ceturtdaļa</span><span class="sxs-lookup"><span data-stu-id="6dc02-130">Fourth Coffee</span></span> | <span data-ttu-id="6dc02-131">Fabrikam</span><span class="sxs-lookup"><span data-stu-id="6dc02-131">Fabrikam</span></span>      |
+| <span data-ttu-id="6dc02-132">1050</span><span class="sxs-lookup"><span data-stu-id="6dc02-132">1050</span></span>         | <span data-ttu-id="6dc02-133">100</span><span class="sxs-lookup"><span data-stu-id="6dc02-133">100</span></span>            | <span data-ttu-id="6dc02-134">Coffee ceturtdaļa</span><span class="sxs-lookup"><span data-stu-id="6dc02-134">Fourth Coffee</span></span> | <span data-ttu-id="6dc02-135">Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="6dc02-135">Fabrikam East</span></span> |
+| <span data-ttu-id="6dc02-136">1050</span><span class="sxs-lookup"><span data-stu-id="6dc02-136">1050</span></span>         | <span data-ttu-id="6dc02-137">3004</span><span class="sxs-lookup"><span data-stu-id="6dc02-137">3004</span></span>           | <span data-ttu-id="6dc02-138">Coffee ceturtdaļa</span><span class="sxs-lookup"><span data-stu-id="6dc02-138">Fourth Coffee</span></span> | <span data-ttu-id="6dc02-139">Fabrikam West</span><span class="sxs-lookup"><span data-stu-id="6dc02-139">Fabrikam West</span></span> |
 
-## <a name="example-1-vendor-payment-of-invoice-from-another-legal-entity"></a>1. piemērs: kreditora maksājums par rēķinu no citas juridiskās personas.
-Fabrikam East ir atvērts rēķins kreditora kontam 100, Fourth Coffee. Fabrikam ievada un grāmato maksājumu Fabrikam kreditora kontam 3004, Fourth Coffee. Maksājums ir nosegts ar atvērtu rēķinu.
+## <a name="example-1-vendor-payment-of-invoice-from-another-legal-entity"></a><span data-ttu-id="6dc02-140">1. piemērs: kreditora maksājums par rēķinu no citas juridiskās personas.</span><span class="sxs-lookup"><span data-stu-id="6dc02-140">Example 1: Vendor payment of invoice from another legal entity</span></span>
+<span data-ttu-id="6dc02-141">Fabrikam East ir atvērts rēķins kreditora kontam 100, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="6dc02-141">Fabrikam East has an open invoice for vendor account 100, Fourth Coffee.</span></span> <span data-ttu-id="6dc02-142">Fabrikam ievada un grāmato maksājumu Fabrikam kreditora kontam 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="6dc02-142">Fabrikam enters and posts a payment to Fabrikam vendor account 3004, Fourth Coffee.</span></span> <span data-ttu-id="6dc02-143">Maksājums ir nosegts ar atvērtu rēķinu.</span><span class="sxs-lookup"><span data-stu-id="6dc02-143">The payment is settled with the open invoice.</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-vendor-100"></a>Rēķins ir grāmatots Fabrikam East, kreditoram 100
+### <a name="invoice-is-posted-in-fabrikam-east-for-vendor-100"></a><span data-ttu-id="6dc02-144">Rēķins ir grāmatots Fabrikam East, kreditoram 100</span><span class="sxs-lookup"><span data-stu-id="6dc02-144">Invoice is posted in Fabrikam East for vendor 100</span></span>
 
-| Konts                          | Summa debetā | Summa kredītā |
+| <span data-ttu-id="6dc02-145">Konts</span><span class="sxs-lookup"><span data-stu-id="6dc02-145">Account</span></span>                          | <span data-ttu-id="6dc02-146">Summa debetā</span><span class="sxs-lookup"><span data-stu-id="6dc02-146">Debit amount</span></span> | <span data-ttu-id="6dc02-147">Summa kredītā</span><span class="sxs-lookup"><span data-stu-id="6dc02-147">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Izdevumi (Fabrikam East)          | 600,00       |               |
-| Parādi kreditoriem (Fabrikam East) |              | 600,00        |
+| <span data-ttu-id="6dc02-148">Izdevumi (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="6dc02-148">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="6dc02-149">600,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-149">600.00</span></span>       |               |
+| <span data-ttu-id="6dc02-150">Parādi kreditoriem (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="6dc02-150">Accounts payable (Fabrikam East)</span></span> |              | <span data-ttu-id="6dc02-151">600,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-151">600.00</span></span>        |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a>Maksājums tiek ģenerēts un grāmatots Fabrikam, Fabrikam kreditoram 3004
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a><span data-ttu-id="6dc02-152">Maksājums tiek ģenerēts un grāmatots Fabrikam, Fabrikam kreditoram 3004</span><span class="sxs-lookup"><span data-stu-id="6dc02-152">Payment is generated and posted in Fabrikam for vendor 3004</span></span>
 
-| Konts                     | Summa debetā | Summa kredītā |
+| <span data-ttu-id="6dc02-153">Konts</span><span class="sxs-lookup"><span data-stu-id="6dc02-153">Account</span></span>                     | <span data-ttu-id="6dc02-154">Summa debetā</span><span class="sxs-lookup"><span data-stu-id="6dc02-154">Debit amount</span></span> | <span data-ttu-id="6dc02-155">Summa kredītā</span><span class="sxs-lookup"><span data-stu-id="6dc02-155">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| Parādi kreditoriem (Fabrikam) | 600,00       |               |
-| Skaidra nauda (Fabrikam)             |              | 600,00        |
+| <span data-ttu-id="6dc02-156">Parādi kreditoriem (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="6dc02-156">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="6dc02-157">600,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-157">600.00</span></span>       |               |
+| <span data-ttu-id="6dc02-158">Skaidra nauda (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="6dc02-158">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="6dc02-159">600,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-159">600.00</span></span>        |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam maksājums tiek nosegts ar Fabrikam East rēķinu
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="6dc02-160">Fabrikam maksājums tiek nosegts ar Fabrikam East rēķinu</span><span class="sxs-lookup"><span data-stu-id="6dc02-160">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Fabrikam grāmatošana**
+<span data-ttu-id="6dc02-161">**Fabrikam grāmatošana**</span><span class="sxs-lookup"><span data-stu-id="6dc02-161">**Fabrikam posting**</span></span>
 
-| Konts                           | Summa debetā | Summa kredītā |
+| <span data-ttu-id="6dc02-162">Konts</span><span class="sxs-lookup"><span data-stu-id="6dc02-162">Account</span></span>                           | <span data-ttu-id="6dc02-163">Summa debetā</span><span class="sxs-lookup"><span data-stu-id="6dc02-163">Debit amount</span></span> | <span data-ttu-id="6dc02-164">Summa kredītā</span><span class="sxs-lookup"><span data-stu-id="6dc02-164">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Fabrikam East (Fabrikam) debitora parādi | 600,00       |               |
-| Parādi kreditoriem (Fabrikam)       |              | 600,00        |
+| <span data-ttu-id="6dc02-165">Fabrikam East (Fabrikam) debitora parādi</span><span class="sxs-lookup"><span data-stu-id="6dc02-165">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="6dc02-166">600,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-166">600.00</span></span>       |               |
+| <span data-ttu-id="6dc02-167">Parādi kreditoriem (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="6dc02-167">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="6dc02-168">600,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-168">600.00</span></span>        |
 
-**Fabrikam East grāmatošana**
+<span data-ttu-id="6dc02-169">**Fabrikam East grāmatošana**</span><span class="sxs-lookup"><span data-stu-id="6dc02-169">**Fabrikam East posting**</span></span>
 
-| Konts                          | Summa debetā | Summa kredītā |
+| <span data-ttu-id="6dc02-170">Konts</span><span class="sxs-lookup"><span data-stu-id="6dc02-170">Account</span></span>                          | <span data-ttu-id="6dc02-171">Summa debetā</span><span class="sxs-lookup"><span data-stu-id="6dc02-171">Debit amount</span></span> | <span data-ttu-id="6dc02-172">Summa kredītā</span><span class="sxs-lookup"><span data-stu-id="6dc02-172">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Parādi kreditoriem (Fabrikam East) | 600,00       |               |
-| Fabrikam (Fabrikam East) kreditora parādi  |              | 600,00        |
+| <span data-ttu-id="6dc02-173">Parādi kreditoriem (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="6dc02-173">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="6dc02-174">600,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-174">600.00</span></span>       |               |
+| <span data-ttu-id="6dc02-175">Fabrikam (Fabrikam East) kreditora parādi</span><span class="sxs-lookup"><span data-stu-id="6dc02-175">Due to Fabrikam (Fabrikam East)</span></span>  |              | <span data-ttu-id="6dc02-176">600,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-176">600.00</span></span>        |
 
-## <a name="example-2-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a>2. piemērs: kreditora maksājums par rēķinu no citas juridiskās personas ar termiņatlaidi.
-Fabrikam East ir atvērts rēķins kreditoram 100, Fourth Coffee. Rēķinam ir pieejama 20,00 termiņatlaide. Fabrikam ievada un grāmato 580,00 lielu maksājumu Fabrikam kreditoram 3004, Fourth Coffee. Maksājums tiek segts ar neapmaksātajiem Fabrikam East rēķiniem. Termiņatlaide tiek grāmatota rēķinā norādītajā juridiskajā personā — Fabrikam East.
+## <a name="example-2-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a><span data-ttu-id="6dc02-177">2. piemērs: kreditora maksājums par rēķinu no citas juridiskās personas ar termiņatlaidi.</span><span class="sxs-lookup"><span data-stu-id="6dc02-177">Example 2: Vendor payment of invoice from another legal entity with cash discount</span></span>
+<span data-ttu-id="6dc02-178">Fabrikam East ir atvērts rēķins kreditoram 100, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="6dc02-178">Fabrikam East has an open invoice for vendor 100, Fourth Coffee.</span></span> <span data-ttu-id="6dc02-179">Rēķinam ir pieejama 20,00 termiņatlaide.</span><span class="sxs-lookup"><span data-stu-id="6dc02-179">The invoice has a 20.00 cash discount available.</span></span> <span data-ttu-id="6dc02-180">Fabrikam ievada un grāmato 580,00 lielu maksājumu Fabrikam kreditoram 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="6dc02-180">Fabrikam enters and posts a payment of 580.00 for Fabrikam vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="6dc02-181">Maksājums tiek segts ar neapmaksātajiem Fabrikam East rēķiniem.</span><span class="sxs-lookup"><span data-stu-id="6dc02-181">The payment is settled with the open Fabrikam East invoices.</span></span> <span data-ttu-id="6dc02-182">Termiņatlaide tiek grāmatota rēķinā norādītajā juridiskajā personā — Fabrikam East.</span><span class="sxs-lookup"><span data-stu-id="6dc02-182">The cash discount is posted to the legal entity of the invoice, Fabrikam East.</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a>Rēķins tiek grāmatots Fabrikam East, Fabrikam East kreditoram 100
+### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a><span data-ttu-id="6dc02-183">Rēķins tiek grāmatots Fabrikam East, Fabrikam East kreditoram 100</span><span class="sxs-lookup"><span data-stu-id="6dc02-183">Invoice is posted in Fabrikam East for Fabrikam East vendor 100</span></span>
 
-| Konts                          | Summa debetā | Summa kredītā |
+| <span data-ttu-id="6dc02-184">Konts</span><span class="sxs-lookup"><span data-stu-id="6dc02-184">Account</span></span>                          | <span data-ttu-id="6dc02-185">Summa debetā</span><span class="sxs-lookup"><span data-stu-id="6dc02-185">Debit amount</span></span> | <span data-ttu-id="6dc02-186">Summa kredītā</span><span class="sxs-lookup"><span data-stu-id="6dc02-186">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Izdevumi (Fabrikam East)          | 600,00       |               |
-| Parādi kreditoriem (Fabrikam East) |              | 600,00        |
+| <span data-ttu-id="6dc02-187">Izdevumi (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="6dc02-187">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="6dc02-188">600,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-188">600.00</span></span>       |               |
+| <span data-ttu-id="6dc02-189">Parādi kreditoriem (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="6dc02-189">Accounts payable (Fabrikam East)</span></span> |              | <span data-ttu-id="6dc02-190">600,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-190">600.00</span></span>        |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a>Maksājums tiek ģenerēts un grāmatots Fabrikam, Fabrikam kreditoram 3004
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a><span data-ttu-id="6dc02-191">Maksājums tiek ģenerēts un grāmatots Fabrikam, Fabrikam kreditoram 3004</span><span class="sxs-lookup"><span data-stu-id="6dc02-191">Payment is generated and posted in Fabrikam for Fabrikam vendor 3004</span></span>
 
-| Konts                     | Summa debetā | Summa kredītā |
+| <span data-ttu-id="6dc02-192">Konts</span><span class="sxs-lookup"><span data-stu-id="6dc02-192">Account</span></span>                     | <span data-ttu-id="6dc02-193">Summa debetā</span><span class="sxs-lookup"><span data-stu-id="6dc02-193">Debit amount</span></span> | <span data-ttu-id="6dc02-194">Summa kredītā</span><span class="sxs-lookup"><span data-stu-id="6dc02-194">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| Parādi kreditoriem (Fabrikam) | 580,00       |               |
-| Skaidra nauda (Fabrikam)             |              | 580,00        |
+| <span data-ttu-id="6dc02-195">Parādi kreditoriem (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="6dc02-195">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="6dc02-196">580,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-196">580.00</span></span>       |               |
+| <span data-ttu-id="6dc02-197">Skaidra nauda (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="6dc02-197">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="6dc02-198">580,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-198">580.00</span></span>        |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam maksājums tiek nosegts ar Fabrikam East rēķinu
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="6dc02-199">Fabrikam maksājums tiek nosegts ar Fabrikam East rēķinu</span><span class="sxs-lookup"><span data-stu-id="6dc02-199">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Fabrikam grāmatošana**
+<span data-ttu-id="6dc02-200">**Fabrikam grāmatošana**</span><span class="sxs-lookup"><span data-stu-id="6dc02-200">**Fabrikam posting**</span></span>
 
-| Konts                           | Summa debetā | Summa kredītā |
+| <span data-ttu-id="6dc02-201">Konts</span><span class="sxs-lookup"><span data-stu-id="6dc02-201">Account</span></span>                           | <span data-ttu-id="6dc02-202">Summa debetā</span><span class="sxs-lookup"><span data-stu-id="6dc02-202">Debit amount</span></span> | <span data-ttu-id="6dc02-203">Summa kredītā</span><span class="sxs-lookup"><span data-stu-id="6dc02-203">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Fabrikam East (Fabrikam) debitora parādi | 580,00       |               |
-| Parādi kreditoriem (Fabrikam)       |              | 580,00        |
+| <span data-ttu-id="6dc02-204">Fabrikam East (Fabrikam) debitora parādi</span><span class="sxs-lookup"><span data-stu-id="6dc02-204">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="6dc02-205">580,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-205">580.00</span></span>       |               |
+| <span data-ttu-id="6dc02-206">Parādi kreditoriem (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="6dc02-206">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="6dc02-207">580,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-207">580.00</span></span>        |
 
-**Fabrikam East grāmatošana**
+<span data-ttu-id="6dc02-208">**Fabrikam East grāmatošana**</span><span class="sxs-lookup"><span data-stu-id="6dc02-208">**Fabrikam East posting**</span></span>
 
-| Konts                          | Summa debetā | Summa kredītā |
+| <span data-ttu-id="6dc02-209">Konts</span><span class="sxs-lookup"><span data-stu-id="6dc02-209">Account</span></span>                          | <span data-ttu-id="6dc02-210">Summa debetā</span><span class="sxs-lookup"><span data-stu-id="6dc02-210">Debit amount</span></span> | <span data-ttu-id="6dc02-211">Summa kredītā</span><span class="sxs-lookup"><span data-stu-id="6dc02-211">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Parādi kreditoriem (Fabrikam East) | 580,00       |               |
-| Fabrikam (Fabrikam East) kreditora parādi  |              | 580,00        |
-| Parādi kreditoriem (Fabrikam East) | 20,00        |               |
-| Termiņatlaide (Fabrikam East)    |              | 20,00         |
+| <span data-ttu-id="6dc02-212">Parādi kreditoriem (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="6dc02-212">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="6dc02-213">580,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-213">580.00</span></span>       |               |
+| <span data-ttu-id="6dc02-214">Fabrikam (Fabrikam East) kreditora parādi</span><span class="sxs-lookup"><span data-stu-id="6dc02-214">Due to Fabrikam (Fabrikam East)</span></span>  |              | <span data-ttu-id="6dc02-215">580,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-215">580.00</span></span>        |
+| <span data-ttu-id="6dc02-216">Parādi kreditoriem (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="6dc02-216">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="6dc02-217">20,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-217">20.00</span></span>        |               |
+| <span data-ttu-id="6dc02-218">Termiņatlaide (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="6dc02-218">Cash discount (Fabrikam East)</span></span>    |              | <span data-ttu-id="6dc02-219">20,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-219">20.00</span></span>         |
 
-## <a name="example-3-vendor-payment-of-invoice-from-another-legal-entity-with-realized-exchange-rate-loss"></a>3. piemērs: kreditora maksājums par rēķinu no citas juridiskās personas ar realizētu apmaiņas likmes zaudējumu.
-Fabrikam East ir atvērts rēķins kreditoram 100, Fourth Coffee. Fabrikam ievada un grāmato maksājumu Fabrikam kreditoram 3004, Fourth Coffee. Maksājums ir nosegts ar atvērtu Fabrikam East rēķinu. Segšanas procesa laikā ir ģenerēta valūtas maiņas zaudējumu darbība.
+## <a name="example-3-vendor-payment-of-invoice-from-another-legal-entity-with-realized-exchange-rate-loss"></a><span data-ttu-id="6dc02-220">3. piemērs: kreditora maksājums par rēķinu no citas juridiskās personas ar realizētu apmaiņas likmes zaudējumu.</span><span class="sxs-lookup"><span data-stu-id="6dc02-220">Example 3: Vendor payment of invoice from another legal entity with realized exchange rate loss</span></span>
+<span data-ttu-id="6dc02-221">Fabrikam East ir atvērts rēķins kreditoram 100, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="6dc02-221">Fabrikam East has an open invoice for vendor 100, Fourth Coffee.</span></span> <span data-ttu-id="6dc02-222">Fabrikam ievada un grāmato maksājumu Fabrikam kreditoram 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="6dc02-222">Fabrikam enters and posts a payment for Fabrikam vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="6dc02-223">Maksājums ir nosegts ar atvērtu Fabrikam East rēķinu.</span><span class="sxs-lookup"><span data-stu-id="6dc02-223">The payment is settled with the open Fabrikam East invoice.</span></span> <span data-ttu-id="6dc02-224">Segšanas procesa laikā ir ģenerēta valūtas maiņas zaudējumu darbība.</span><span class="sxs-lookup"><span data-stu-id="6dc02-224">A currency exchange loss transaction is generated during the settlement process.</span></span>
 
--   Maiņas kurss no Euro (EUR) uz ASV dolāriem (USD) pēc rēķina datuma: 1,2062
--   Maiņas kurss no EUR uz USD maksājuma datumā: 1,2277
+-   <span data-ttu-id="6dc02-225">Maiņas kurss no Euro (EUR) uz ASV dolāriem (USD) pēc rēķina datuma: 1,2062</span><span class="sxs-lookup"><span data-stu-id="6dc02-225">Exchange rate for euros (EUR) to U.S. dollars (USD) as of the invoice date: 1.2062</span></span>
+-   <span data-ttu-id="6dc02-226">Maiņas kurss no EUR uz USD maksājuma datumā: 1,2277</span><span class="sxs-lookup"><span data-stu-id="6dc02-226">Exchange rate for EUR to USD as of the payment date: 1.2277</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a>Rēķins tiek grāmatots Fabrikam East, Fabrikam East kreditoram 100
+### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a><span data-ttu-id="6dc02-227">Rēķins tiek grāmatots Fabrikam East, Fabrikam East kreditoram 100</span><span class="sxs-lookup"><span data-stu-id="6dc02-227">Invoice is posted in Fabrikam East for Fabrikam East vendor 100</span></span>
 
-| Konts                          | Summa debetā            | Summa kredītā           |
+| <span data-ttu-id="6dc02-228">Konts</span><span class="sxs-lookup"><span data-stu-id="6dc02-228">Account</span></span>                          | <span data-ttu-id="6dc02-229">Summa debetā</span><span class="sxs-lookup"><span data-stu-id="6dc02-229">Debit amount</span></span>            | <span data-ttu-id="6dc02-230">Summa kredītā</span><span class="sxs-lookup"><span data-stu-id="6dc02-230">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| Izdevumi (Fabrikam East)          | 600,00 EUR / 723,72 USD |                         |
-| Parādi kreditoriem (Fabrikam East) |                         | 600,00 EUR / 723,72 USD |
+| <span data-ttu-id="6dc02-231">Izdevumi (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="6dc02-231">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="6dc02-232">600,00 EUR / 723,72 USD</span><span class="sxs-lookup"><span data-stu-id="6dc02-232">600.00 EUR / 723.72 USD</span></span> |                         |
+| <span data-ttu-id="6dc02-233">Parādi kreditoriem (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="6dc02-233">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="6dc02-234">600,00 EUR / 723,72 USD</span><span class="sxs-lookup"><span data-stu-id="6dc02-234">600.00 EUR / 723.72 USD</span></span> |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a>Maksājums tiek ģenerēts un grāmatots Fabrikam, Fabrikam kreditoram 3004
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a><span data-ttu-id="6dc02-235">Maksājums tiek ģenerēts un grāmatots Fabrikam, Fabrikam kreditoram 3004</span><span class="sxs-lookup"><span data-stu-id="6dc02-235">Payment is generated and posted in Fabrikam for Fabrikam vendor 3004</span></span>
 
-| Konts                     | Summa debetā            | Summa kredītā           |
+| <span data-ttu-id="6dc02-236">Konts</span><span class="sxs-lookup"><span data-stu-id="6dc02-236">Account</span></span>                     | <span data-ttu-id="6dc02-237">Summa debetā</span><span class="sxs-lookup"><span data-stu-id="6dc02-237">Debit amount</span></span>            | <span data-ttu-id="6dc02-238">Summa kredītā</span><span class="sxs-lookup"><span data-stu-id="6dc02-238">Credit amount</span></span>           |
 |-----------------------------|-------------------------|-------------------------|
-| Parādi kreditoriem (Fabrikam) | 600,00 EUR / 736,62 USD |                         |
-| Skaidra nauda (Fabrikam)             |                         | 600,00 EUR / 736,62 USD |
+| <span data-ttu-id="6dc02-239">Parādi kreditoriem (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="6dc02-239">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="6dc02-240">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="6dc02-240">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="6dc02-241">Skaidra nauda (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="6dc02-241">Cash (Fabrikam)</span></span>             |                         | <span data-ttu-id="6dc02-242">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="6dc02-242">600.00 EUR / 736.62 USD</span></span> |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam maksājums tiek nosegts ar Fabrikam East rēķinu
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="6dc02-243">Fabrikam maksājums tiek nosegts ar Fabrikam East rēķinu</span><span class="sxs-lookup"><span data-stu-id="6dc02-243">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Fabrikam grāmatošana**
+<span data-ttu-id="6dc02-244">**Fabrikam grāmatošana**</span><span class="sxs-lookup"><span data-stu-id="6dc02-244">**Fabrikam posting**</span></span>
 
-| Konts                           | Summa debetā            | Summa kredītā           |
+| <span data-ttu-id="6dc02-245">Konts</span><span class="sxs-lookup"><span data-stu-id="6dc02-245">Account</span></span>                           | <span data-ttu-id="6dc02-246">Summa debetā</span><span class="sxs-lookup"><span data-stu-id="6dc02-246">Debit amount</span></span>            | <span data-ttu-id="6dc02-247">Summa kredītā</span><span class="sxs-lookup"><span data-stu-id="6dc02-247">Credit amount</span></span>           |
 |-----------------------------------|-------------------------|-------------------------|
-| Fabrikam East (Fabrikam) debitora parādi | 600,00 EUR / 736,62 USD |                         |
-| Parādi kreditoriem (Fabrikam)       |                         | 600,00 EUR / 736,62 USD |
-| Realizētie zaudējumi (Fabrikam)          | 0,00 EUR / 12,90 USD    |                         |
-| Fabrikam East (Fabrikam) debitora parādi |                         | 0,00 EUR / 12,90 USD    |
+| <span data-ttu-id="6dc02-248">Fabrikam East (Fabrikam) debitora parādi</span><span class="sxs-lookup"><span data-stu-id="6dc02-248">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="6dc02-249">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="6dc02-249">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="6dc02-250">Parādi kreditoriem (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="6dc02-250">Accounts payable (Fabrikam)</span></span>       |                         | <span data-ttu-id="6dc02-251">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="6dc02-251">600.00 EUR / 736.62 USD</span></span> |
+| <span data-ttu-id="6dc02-252">Realizētie zaudējumi (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="6dc02-252">Realized loss (Fabrikam)</span></span>          | <span data-ttu-id="6dc02-253">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="6dc02-253">0.00 EUR / 12.90 USD</span></span>    |                         |
+| <span data-ttu-id="6dc02-254">Fabrikam East (Fabrikam) debitora parādi</span><span class="sxs-lookup"><span data-stu-id="6dc02-254">Due from Fabrikam East (Fabrikam)</span></span> |                         | <span data-ttu-id="6dc02-255">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="6dc02-255">0.00 EUR / 12.90 USD</span></span>    |
 
-**Fabrikam East grāmatošana**
+<span data-ttu-id="6dc02-256">**Fabrikam East grāmatošana**</span><span class="sxs-lookup"><span data-stu-id="6dc02-256">**Fabrikam East posting**</span></span>
 
-| Konts                          | Summa debetā            | Summa kredītā           |
+| <span data-ttu-id="6dc02-257">Konts</span><span class="sxs-lookup"><span data-stu-id="6dc02-257">Account</span></span>                          | <span data-ttu-id="6dc02-258">Summa debetā</span><span class="sxs-lookup"><span data-stu-id="6dc02-258">Debit amount</span></span>            | <span data-ttu-id="6dc02-259">Summa kredītā</span><span class="sxs-lookup"><span data-stu-id="6dc02-259">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| Parādi kreditoriem (Fabrikam East) | 600,00 EUR / 736,62 USD |                         |
-| Fabrikam (Fabrikam East) kreditora parādi  |                         | 600,00 EUR / 736,62 USD |
-| Fabrikam (Fabrikam East) kreditora parādi  | 0,00 EUR / 12,90 USD    |                         |
-| Parādi kreditoriem (Fabrikam East) |                         | 0,00 EUR / 12,90 USD    |
+| <span data-ttu-id="6dc02-260">Parādi kreditoriem (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="6dc02-260">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="6dc02-261">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="6dc02-261">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="6dc02-262">Fabrikam (Fabrikam East) kreditora parādi</span><span class="sxs-lookup"><span data-stu-id="6dc02-262">Due to Fabrikam (Fabrikam East)</span></span>  |                         | <span data-ttu-id="6dc02-263">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="6dc02-263">600.00 EUR / 736.62 USD</span></span> |
+| <span data-ttu-id="6dc02-264">Fabrikam (Fabrikam East) kreditora parādi</span><span class="sxs-lookup"><span data-stu-id="6dc02-264">Due to Fabrikam (Fabrikam East)</span></span>  | <span data-ttu-id="6dc02-265">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="6dc02-265">0.00 EUR / 12.90 USD</span></span>    |                         |
+| <span data-ttu-id="6dc02-266">Parādi kreditoriem (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="6dc02-266">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="6dc02-267">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="6dc02-267">0.00 EUR / 12.90 USD</span></span>    |
 
-## <a name="example-4-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount-and-realized-exchange-rate-loss"></a>4. piemērs: kreditora maksājums par rēķinu no citas juridiskās personas ar termiņatlaidi un realizētiem maiņas likmes zaudējumiem.
-Fabrikam East ir atvērts rēķins kreditoram 100, Fourth Coffee. Šim rēķinam ir pieejama termiņatlaide, un ir izveidota pārdošanas nodokļa transakcija. Fabrikam grāmato maksājumu Fabrikam kreditoram 3004, Fourth Coffee. Maksājums ir nosegts ar atvērto Fabrikam East rēķinu. Segšanas procesa laikā ir ģenerēta valūtas maiņas zaudējumu darbība. Termiņatlaide ir iegrāmatota rēķinā norādītajai juridiskajai personai (Fabrikam East), un valūtas maiņas zaudējumi ir iegrāmatoti maksājuma dokumentā norādītajai juridiskajai personai (Fabrikam).
+## <a name="example-4-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount-and-realized-exchange-rate-loss"></a><span data-ttu-id="6dc02-268">4. piemērs: kreditora maksājums par rēķinu no citas juridiskās personas ar termiņatlaidi un realizētiem maiņas likmes zaudējumiem.</span><span class="sxs-lookup"><span data-stu-id="6dc02-268">Example 4: Vendor payment of invoice from another legal entity with cash discount and realized exchange rate loss</span></span>
+<span data-ttu-id="6dc02-269">Fabrikam East ir atvērts rēķins kreditoram 100, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="6dc02-269">Fabrikam East has an open invoice for vendor 100, Fourth Coffee.</span></span> <span data-ttu-id="6dc02-270">Šim rēķinam ir pieejama termiņatlaide, un ir izveidota pārdošanas nodokļa transakcija.</span><span class="sxs-lookup"><span data-stu-id="6dc02-270">The invoice has a cash discount available, and a sales tax transaction is generated.</span></span> <span data-ttu-id="6dc02-271">Fabrikam grāmato maksājumu Fabrikam kreditoram 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="6dc02-271">Fabrikam posts a payment for Fabrikam vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="6dc02-272">Maksājums ir nosegts ar atvērto Fabrikam East rēķinu.</span><span class="sxs-lookup"><span data-stu-id="6dc02-272">The payment is settled with the open Fabrikam East invoice.</span></span> <span data-ttu-id="6dc02-273">Segšanas procesa laikā ir ģenerēta valūtas maiņas zaudējumu darbība.</span><span class="sxs-lookup"><span data-stu-id="6dc02-273">A currency exchange loss transaction is generated during the settlement process.</span></span> <span data-ttu-id="6dc02-274">Termiņatlaide ir iegrāmatota rēķinā norādītajai juridiskajai personai (Fabrikam East), un valūtas maiņas zaudējumi ir iegrāmatoti maksājuma dokumentā norādītajai juridiskajai personai (Fabrikam).</span><span class="sxs-lookup"><span data-stu-id="6dc02-274">The cash discount is posted to the legal entity of the invoice (Fabrikam East), and the currency exchange loss is posted to the legal entity of the payment (Fabrikam).</span></span>
 
--   Maiņas kurss no EUR uz USD rēķina datumā: 1,2062
--   Maiņas kurss no EUR uz USD maksājuma datumā: 1,2277
+-   <span data-ttu-id="6dc02-275">Maiņas kurss no EUR uz USD rēķina datumā: 1,2062</span><span class="sxs-lookup"><span data-stu-id="6dc02-275">Exchange rate for EUR to USD as of the invoice date: 1.2062</span></span>
+-   <span data-ttu-id="6dc02-276">Maiņas kurss no EUR uz USD maksājuma datumā: 1,2277</span><span class="sxs-lookup"><span data-stu-id="6dc02-276">Exchange rate for EUR to USD as of the payment date: 1.2277</span></span>
 
-### <a name="invoice-is-posted-and-a-tax-transaction-is-generated-in-fabrikam-east-for-vendor-100"></a>Rēķins ir grāmatots un nodokļu darbība ir ģenerēta Fabrikam East, kreditoram 100
+### <a name="invoice-is-posted-and-a-tax-transaction-is-generated-in-fabrikam-east-for-vendor-100"></a><span data-ttu-id="6dc02-277">Rēķins ir grāmatots un nodokļu darbība ir ģenerēta Fabrikam East, kreditoram 100</span><span class="sxs-lookup"><span data-stu-id="6dc02-277">Invoice is posted and a tax transaction is generated in Fabrikam East for vendor 100</span></span>
 
-| Konts                          | Summa debetā            | Summa kredītā           |
+| <span data-ttu-id="6dc02-278">Konts</span><span class="sxs-lookup"><span data-stu-id="6dc02-278">Account</span></span>                          | <span data-ttu-id="6dc02-279">Summa debetā</span><span class="sxs-lookup"><span data-stu-id="6dc02-279">Debit amount</span></span>            | <span data-ttu-id="6dc02-280">Summa kredītā</span><span class="sxs-lookup"><span data-stu-id="6dc02-280">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| Izdevumi (Fabrikam East)          | 564,07 EUR / 680,38 USD |                         |
-| PVN (Fabrikam East)        | 35,93 EUR / 43,34 USD   |                         |
-| Parādi kreditoriem (Fabrikam East) |                         | 600,00 EUR / 723,72 USD |
+| <span data-ttu-id="6dc02-281">Izdevumi (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="6dc02-281">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="6dc02-282">564,07 EUR / 680,38 USD</span><span class="sxs-lookup"><span data-stu-id="6dc02-282">564.07 EUR / 680.38 USD</span></span> |                         |
+| <span data-ttu-id="6dc02-283">PVN (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="6dc02-283">Sales tax (Fabrikam East)</span></span>        | <span data-ttu-id="6dc02-284">35,93 EUR / 43,34 USD</span><span class="sxs-lookup"><span data-stu-id="6dc02-284">35.93 EUR / 43.34 USD</span></span>   |                         |
+| <span data-ttu-id="6dc02-285">Parādi kreditoriem (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="6dc02-285">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="6dc02-286">600,00 EUR / 723,72 USD</span><span class="sxs-lookup"><span data-stu-id="6dc02-286">600.00 EUR / 723.72 USD</span></span> |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a>Maksājums tiek ģenerēts un grāmatots Fabrikam, Fabrikam kreditoram 3004
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a><span data-ttu-id="6dc02-287">Maksājums tiek ģenerēts un grāmatots Fabrikam, Fabrikam kreditoram 3004</span><span class="sxs-lookup"><span data-stu-id="6dc02-287">Payment is generated and posted in Fabrikam for vendor 3004</span></span>
 
-| Konts                     | Summa debetā            | Summa kredītā           |
+| <span data-ttu-id="6dc02-288">Konts</span><span class="sxs-lookup"><span data-stu-id="6dc02-288">Account</span></span>                     | <span data-ttu-id="6dc02-289">Summa debetā</span><span class="sxs-lookup"><span data-stu-id="6dc02-289">Debit amount</span></span>            | <span data-ttu-id="6dc02-290">Summa kredītā</span><span class="sxs-lookup"><span data-stu-id="6dc02-290">Credit amount</span></span>           |
 |-----------------------------|-------------------------|-------------------------|
-| Parādi kreditoriem (Fabrikam) | 588,72 EUR / 722,77 USD |                         |
-| Skaidra nauda (Fabrikam East)        |                         | 588,72 EUR / 722,77 USD |
+| <span data-ttu-id="6dc02-291">Parādi kreditoriem (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="6dc02-291">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="6dc02-292">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="6dc02-292">588.72 EUR / 722.77 USD</span></span> |                         |
+| <span data-ttu-id="6dc02-293">Skaidra nauda (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="6dc02-293">Cash (Fabrikam East)</span></span>        |                         | <span data-ttu-id="6dc02-294">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="6dc02-294">588.72 EUR / 722.77 USD</span></span> |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam maksājums tiek nosegts ar Fabrikam East rēķinu
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="6dc02-295">Fabrikam maksājums tiek nosegts ar Fabrikam East rēķinu</span><span class="sxs-lookup"><span data-stu-id="6dc02-295">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Fabrikam grāmatošana**
+<span data-ttu-id="6dc02-296">**Fabrikam grāmatošana**</span><span class="sxs-lookup"><span data-stu-id="6dc02-296">**Fabrikam posting**</span></span>
 
-| Konts                           | Summa debetā            | Summa kredītā           |
+| <span data-ttu-id="6dc02-297">Konts</span><span class="sxs-lookup"><span data-stu-id="6dc02-297">Account</span></span>                           | <span data-ttu-id="6dc02-298">Summa debetā</span><span class="sxs-lookup"><span data-stu-id="6dc02-298">Debit amount</span></span>            | <span data-ttu-id="6dc02-299">Summa kredītā</span><span class="sxs-lookup"><span data-stu-id="6dc02-299">Credit amount</span></span>           |
 |-----------------------------------|-------------------------|-------------------------|
-| Fabrikam East (Fabrikam) debitora parādi | 588,72 EUR / 722,77 USD |                         |
-| Parādi kreditoriem (Fabrikam)       |                         | 588,72 EUR / 722,77 USD |
-| Realizētie zaudējumi (Fabrikam)          | 0,00 EUR / 12,66 USD    |                         |
-| Fabrikam East (Fabrikam) debitora parādi |                         | 0,00 EUR / 12,66 USD    |
+| <span data-ttu-id="6dc02-300">Fabrikam East (Fabrikam) debitora parādi</span><span class="sxs-lookup"><span data-stu-id="6dc02-300">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="6dc02-301">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="6dc02-301">588.72 EUR / 722.77 USD</span></span> |                         |
+| <span data-ttu-id="6dc02-302">Parādi kreditoriem (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="6dc02-302">Accounts payable (Fabrikam)</span></span>       |                         | <span data-ttu-id="6dc02-303">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="6dc02-303">588.72 EUR / 722.77 USD</span></span> |
+| <span data-ttu-id="6dc02-304">Realizētie zaudējumi (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="6dc02-304">Realized loss (Fabrikam)</span></span>          | <span data-ttu-id="6dc02-305">0,00 EUR / 12,66 USD</span><span class="sxs-lookup"><span data-stu-id="6dc02-305">0.00 EUR / 12.66 USD</span></span>    |                         |
+| <span data-ttu-id="6dc02-306">Fabrikam East (Fabrikam) debitora parādi</span><span class="sxs-lookup"><span data-stu-id="6dc02-306">Due from Fabrikam East (Fabrikam)</span></span> |                         | <span data-ttu-id="6dc02-307">0,00 EUR / 12,66 USD</span><span class="sxs-lookup"><span data-stu-id="6dc02-307">0.00 EUR / 12.66 USD</span></span>    |
 
-**Fabrikam East grāmatošana**
+<span data-ttu-id="6dc02-308">**Fabrikam East grāmatošana**</span><span class="sxs-lookup"><span data-stu-id="6dc02-308">**Fabrikam East posting**</span></span>
 
-| Konts                          | Summa debetā            | Summa kredītā           |
+| <span data-ttu-id="6dc02-309">Konts</span><span class="sxs-lookup"><span data-stu-id="6dc02-309">Account</span></span>                          | <span data-ttu-id="6dc02-310">Summa debetā</span><span class="sxs-lookup"><span data-stu-id="6dc02-310">Debit amount</span></span>            | <span data-ttu-id="6dc02-311">Summa kredītā</span><span class="sxs-lookup"><span data-stu-id="6dc02-311">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| Parādi kreditoriem (Fabrikam East) | 588,72 EUR / 722,77 USD |                         |
-| Fabrikam (Fabrikam East) kreditora parādi  |                         | 588,72 EUR / 722,77 USD |
-| Pienākas Fabrikam (Fabrikam East   | 0,00 EUR / 12,66 USD    |                         |
-| Parādi kreditoriem (Fabrikam East) |                         | 0,00 EUR / 12,66 USD    |
-| Parādi kreditoriem (Fabrikam East) | 11,28 EUR / 13,61 USD   |                         |
-| Termiņatlaide (Fabrikam East)    |                         | 11,28 EUR / 13,61 USD   |
+| <span data-ttu-id="6dc02-312">Parādi kreditoriem (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="6dc02-312">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="6dc02-313">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="6dc02-313">588.72 EUR / 722.77 USD</span></span> |                         |
+| <span data-ttu-id="6dc02-314">Fabrikam (Fabrikam East) kreditora parādi</span><span class="sxs-lookup"><span data-stu-id="6dc02-314">Due to Fabrikam (Fabrikam East)</span></span>  |                         | <span data-ttu-id="6dc02-315">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="6dc02-315">588.72 EUR / 722.77 USD</span></span> |
+| <span data-ttu-id="6dc02-316">Pienākas Fabrikam (Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="6dc02-316">Due to Fabrikam (Fabrikam East</span></span>   | <span data-ttu-id="6dc02-317">0,00 EUR / 12,66 USD</span><span class="sxs-lookup"><span data-stu-id="6dc02-317">0.00 EUR / 12.66 USD</span></span>    |                         |
+| <span data-ttu-id="6dc02-318">Parādi kreditoriem (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="6dc02-318">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="6dc02-319">0,00 EUR / 12,66 USD</span><span class="sxs-lookup"><span data-stu-id="6dc02-319">0.00 EUR / 12.66 USD</span></span>    |
+| <span data-ttu-id="6dc02-320">Parādi kreditoriem (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="6dc02-320">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="6dc02-321">11,28 EUR / 13,61 USD</span><span class="sxs-lookup"><span data-stu-id="6dc02-321">11.28 EUR / 13.61 USD</span></span>   |                         |
+| <span data-ttu-id="6dc02-322">Termiņatlaide (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="6dc02-322">Cash discount (Fabrikam East)</span></span>    |                         | <span data-ttu-id="6dc02-323">11,28 EUR / 13,61 USD</span><span class="sxs-lookup"><span data-stu-id="6dc02-323">11.28 EUR / 13.61 USD</span></span>   |
 
-## <a name="example-5-vendor-credit-note-with-primary-payment"></a>5. piemērs: kreditora kredīta nota ar primāro maksājumu
-Fabrikam ģenerē 75,00 lielu maksājumu kreditoram 3004, Fourth Coffee. Maksājums ir nosegts ar atvērtu rēķinu Fabrikam West kreditoram 3004 un atvērtu kredīta notu Fabrikam East kreditoram 100. Šis maksājums tiek atlasīts kā primārais maksājums lapā **Segt transakcijas**.
+## <a name="example-5-vendor-credit-note-with-primary-payment"></a><span data-ttu-id="6dc02-324">5. piemērs: kreditora kredīta nota ar primāro maksājumu</span><span class="sxs-lookup"><span data-stu-id="6dc02-324">Example 5: Vendor credit note with primary payment</span></span>
+<span data-ttu-id="6dc02-325">Fabrikam ģenerē 75,00 lielu maksājumu kreditoram 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="6dc02-325">Fabrikam generates a payment of 75.00 for vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="6dc02-326">Maksājums ir nosegts ar atvērtu rēķinu Fabrikam West kreditoram 3004 un atvērtu kredīta notu Fabrikam East kreditoram 100.</span><span class="sxs-lookup"><span data-stu-id="6dc02-326">The payment is settled with an open invoice for Fabrikam West vendor 3004 and an open credit note for Fabrikam East vendor 100.</span></span> <span data-ttu-id="6dc02-327">Šis maksājums tiek atlasīts kā primārais maksājums lapā **Segt transakcijas**.</span><span class="sxs-lookup"><span data-stu-id="6dc02-327">The payment is selected as the primary payment on the **Settle transactions** page.</span></span>
 
-### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>Rēķins ir grāmatots Fabrikam West kreditoram 3004
+### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a><span data-ttu-id="6dc02-328">Rēķins ir grāmatots Fabrikam West kreditoram 3004</span><span class="sxs-lookup"><span data-stu-id="6dc02-328">Invoice is posted to Fabrikam West for vendor 3004</span></span>
 
-| Konts                          | Summa debetā | Summa kredītā |
+| <span data-ttu-id="6dc02-329">Konts</span><span class="sxs-lookup"><span data-stu-id="6dc02-329">Account</span></span>                          | <span data-ttu-id="6dc02-330">Summa debetā</span><span class="sxs-lookup"><span data-stu-id="6dc02-330">Debit amount</span></span> | <span data-ttu-id="6dc02-331">Summa kredītā</span><span class="sxs-lookup"><span data-stu-id="6dc02-331">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Izdevumi (Fabrikam West)          | 100,00       |               |
-| Parādi kreditoriem (Fabrikam West) |              | 100,00        |
+| <span data-ttu-id="6dc02-332">Izdevumi (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="6dc02-332">Expense (Fabrikam West)</span></span>          | <span data-ttu-id="6dc02-333">100,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-333">100.00</span></span>       |               |
+| <span data-ttu-id="6dc02-334">Parādi kreditoriem (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="6dc02-334">Accounts payable (Fabrikam West)</span></span> |              | <span data-ttu-id="6dc02-335">100,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-335">100.00</span></span>        |
 
-### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a>Kredīta nota ir grāmatota Fabrikam East kreditoram 100
+### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a><span data-ttu-id="6dc02-336">Kredīta nota ir grāmatota Fabrikam East kreditoram 100</span><span class="sxs-lookup"><span data-stu-id="6dc02-336">Credit note is posted to Fabrikam East for vendor 100</span></span>
 
-| Konts                          | Summa debetā | Summa kredītā |
+| <span data-ttu-id="6dc02-337">Konts</span><span class="sxs-lookup"><span data-stu-id="6dc02-337">Account</span></span>                          | <span data-ttu-id="6dc02-338">Summa debetā</span><span class="sxs-lookup"><span data-stu-id="6dc02-338">Debit amount</span></span> | <span data-ttu-id="6dc02-339">Summa kredītā</span><span class="sxs-lookup"><span data-stu-id="6dc02-339">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Parādi kreditoriem (Fabrikam East) | 25,00        |               |
-| Pirkumu atgriešana (Fabrikam East) |              | 25,00         |
+| <span data-ttu-id="6dc02-340">Parādi kreditoriem (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="6dc02-340">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="6dc02-341">25,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-341">25.00</span></span>        |               |
+| <span data-ttu-id="6dc02-342">Pirkumu atgriešana (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="6dc02-342">Purchase returns (Fabrikam East)</span></span> |              | <span data-ttu-id="6dc02-343">25,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-343">25.00</span></span>         |
 
-### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a>Maksājums ir grāmatots Fabrikam kreditoram 3004
+### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a><span data-ttu-id="6dc02-344">Maksājums ir grāmatots Fabrikam kreditoram 3004</span><span class="sxs-lookup"><span data-stu-id="6dc02-344">Payment is posted to Fabrikam for vendor 3004</span></span>
 
-| Konts                     | Summa debetā | Summa kredītā |
+| <span data-ttu-id="6dc02-345">Konts</span><span class="sxs-lookup"><span data-stu-id="6dc02-345">Account</span></span>                     | <span data-ttu-id="6dc02-346">Summa debetā</span><span class="sxs-lookup"><span data-stu-id="6dc02-346">Debit amount</span></span> | <span data-ttu-id="6dc02-347">Summa kredītā</span><span class="sxs-lookup"><span data-stu-id="6dc02-347">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| Parādi kreditoriem (Fabrikam) | 75,00        |               |
-| Skaidra nauda (Fabrikam)             |              | 75,00         |
+| <span data-ttu-id="6dc02-348">Parādi kreditoriem (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="6dc02-348">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="6dc02-349">75,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-349">75.00</span></span>        |               |
+| <span data-ttu-id="6dc02-350">Skaidra nauda (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="6dc02-350">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="6dc02-351">75,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-351">75.00</span></span>         |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam maksājums ir nosegts ar Fabrikam West rēķinu un Fabrikam East kredīta notu
+### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a><span data-ttu-id="6dc02-352">Fabrikam maksājums ir nosegts ar Fabrikam West rēķinu un Fabrikam East kredīta notu</span><span class="sxs-lookup"><span data-stu-id="6dc02-352">Fabrikam payment is settled with Fabrikam West invoice and Fabrikam East credit note</span></span>
 
-**Fabrikam grāmatošana**
+<span data-ttu-id="6dc02-353">**Fabrikam grāmatošana**</span><span class="sxs-lookup"><span data-stu-id="6dc02-353">**Fabrikam posting**</span></span>
 
-| Konts                           | Summa debetā | Summa kredītā |
+| <span data-ttu-id="6dc02-354">Konts</span><span class="sxs-lookup"><span data-stu-id="6dc02-354">Account</span></span>                           | <span data-ttu-id="6dc02-355">Summa debetā</span><span class="sxs-lookup"><span data-stu-id="6dc02-355">Debit amount</span></span> | <span data-ttu-id="6dc02-356">Summa kredītā</span><span class="sxs-lookup"><span data-stu-id="6dc02-356">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Parādi kreditoriem (Fabrikam)       | 25,00        |               |
-| Fabrikam East (Fabrikam) kreditora parādi   |              | 25,00         |
-| Fabrikam West (Fabrikam) debitora parādi | 100,00       |               |
-| Parādi kreditoriem (Fabrikam)       |              | 100,00        |
+| <span data-ttu-id="6dc02-357">Parādi kreditoriem (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="6dc02-357">Accounts payable (Fabrikam)</span></span>       | <span data-ttu-id="6dc02-358">25,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-358">25.00</span></span>        |               |
+| <span data-ttu-id="6dc02-359">Fabrikam East (Fabrikam) kreditora parādi</span><span class="sxs-lookup"><span data-stu-id="6dc02-359">Due to Fabrikam East (Fabrikam)</span></span>   |              | <span data-ttu-id="6dc02-360">25,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-360">25.00</span></span>         |
+| <span data-ttu-id="6dc02-361">Fabrikam West (Fabrikam) debitora parādi</span><span class="sxs-lookup"><span data-stu-id="6dc02-361">Due from Fabrikam West (Fabrikam)</span></span> | <span data-ttu-id="6dc02-362">100,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-362">100.00</span></span>       |               |
+| <span data-ttu-id="6dc02-363">Parādi kreditoriem (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="6dc02-363">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="6dc02-364">100,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-364">100.00</span></span>        |
 
-**Fabrikam East grāmatošana**
+<span data-ttu-id="6dc02-365">**Fabrikam East grāmatošana**</span><span class="sxs-lookup"><span data-stu-id="6dc02-365">**Fabrikam East posting**</span></span>
 
-| Konts                           | Summa debetā | Summa kredītā |
+| <span data-ttu-id="6dc02-366">Konts</span><span class="sxs-lookup"><span data-stu-id="6dc02-366">Account</span></span>                           | <span data-ttu-id="6dc02-367">Summa debetā</span><span class="sxs-lookup"><span data-stu-id="6dc02-367">Debit amount</span></span> | <span data-ttu-id="6dc02-368">Summa kredītā</span><span class="sxs-lookup"><span data-stu-id="6dc02-368">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Fabrikam (Fabrikam East) debitora parādi | 25,00        |               |
-| Parādi kreditoriem (Fabrikam East)  |              | 25,00         |
+| <span data-ttu-id="6dc02-369">Fabrikam (Fabrikam East) debitora parādi</span><span class="sxs-lookup"><span data-stu-id="6dc02-369">Due from Fabrikam (Fabrikam East)</span></span> | <span data-ttu-id="6dc02-370">25,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-370">25.00</span></span>        |               |
+| <span data-ttu-id="6dc02-371">Parādi kreditoriem (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="6dc02-371">Accounts payable (Fabrikam East)</span></span>  |              | <span data-ttu-id="6dc02-372">25,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-372">25.00</span></span>         |
 
-**Fabrikam West grāmatošana**
+<span data-ttu-id="6dc02-373">**Fabrikam West grāmatošana**</span><span class="sxs-lookup"><span data-stu-id="6dc02-373">**Fabrikam West posting**</span></span>
 
-| Konts                          | Summa debetā | Summa kredītā |
+| <span data-ttu-id="6dc02-374">Konts</span><span class="sxs-lookup"><span data-stu-id="6dc02-374">Account</span></span>                          | <span data-ttu-id="6dc02-375">Summa debetā</span><span class="sxs-lookup"><span data-stu-id="6dc02-375">Debit amount</span></span> | <span data-ttu-id="6dc02-376">Summa kredītā</span><span class="sxs-lookup"><span data-stu-id="6dc02-376">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Parādi kreditoriem (Fabrikam West) | 100,00       |               |
-| Fabrikam (Fabrikam West) kreditora parādi  |              | 100,00        |
+| <span data-ttu-id="6dc02-377">Parādi kreditoriem (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="6dc02-377">Accounts payable (Fabrikam West)</span></span> | <span data-ttu-id="6dc02-378">100,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-378">100.00</span></span>       |               |
+| <span data-ttu-id="6dc02-379">Fabrikam (Fabrikam West) kreditora parādi</span><span class="sxs-lookup"><span data-stu-id="6dc02-379">Due to Fabrikam (Fabrikam West)</span></span>  |              | <span data-ttu-id="6dc02-380">100,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-380">100.00</span></span>        |
 
-## <a name="example-6-vendor-credit-note-without-primary-payment"></a>6. piemērs: kreditora kredīta nota bez primārā maksājuma
-Fabrikam ģenerē 75,00 lielu maksājumu kreditoram 3004, Fourth Coffee. Maksājums ir nosegts ar atvērtu rēķinu Fabrikam West kreditoram 3004 un atvērtu kredīta notu Fabrikam East kreditoram 100. Šis maksājums netiek atlasīts kā primārais maksājums lapā **Segt transakcijas**.
+## <a name="example-6-vendor-credit-note-without-primary-payment"></a><span data-ttu-id="6dc02-381">6. piemērs: kreditora kredīta nota bez primārā maksājuma</span><span class="sxs-lookup"><span data-stu-id="6dc02-381">Example 6: Vendor credit note without primary payment</span></span>
+<span data-ttu-id="6dc02-382">Fabrikam ģenerē 75,00 lielu maksājumu kreditoram 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="6dc02-382">Fabrikam generates a payment of 75.00 for vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="6dc02-383">Maksājums ir nosegts ar atvērtu rēķinu Fabrikam West kreditoram 3004 un atvērtu kredīta notu Fabrikam East kreditoram 100.</span><span class="sxs-lookup"><span data-stu-id="6dc02-383">The payment is settled with an open invoice for Fabrikam West vendor 3004 and an open credit note for Fabrikam East vendor 100.</span></span> <span data-ttu-id="6dc02-384">Šis maksājums netiek atlasīts kā primārais maksājums lapā **Segt transakcijas**.</span><span class="sxs-lookup"><span data-stu-id="6dc02-384">The payment isn't selected as the primary payment on the **Settle transactions** page.</span></span>
 
-### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>Rēķins ir grāmatots Fabrikam West kreditoram 3004
+### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a><span data-ttu-id="6dc02-385">Rēķins ir grāmatots Fabrikam West kreditoram 3004</span><span class="sxs-lookup"><span data-stu-id="6dc02-385">Invoice is posted to Fabrikam West for vendor 3004</span></span>
 
-| Konts                          | Summa debetā | Summa kredītā |
+| <span data-ttu-id="6dc02-386">Konts</span><span class="sxs-lookup"><span data-stu-id="6dc02-386">Account</span></span>                          | <span data-ttu-id="6dc02-387">Summa debetā</span><span class="sxs-lookup"><span data-stu-id="6dc02-387">Debit amount</span></span> | <span data-ttu-id="6dc02-388">Summa kredītā</span><span class="sxs-lookup"><span data-stu-id="6dc02-388">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Izdevumi (Fabrikam West)          | 100,00       |               |
-| Parādi kreditoriem (Fabrikam West) |              | 100,00        |
+| <span data-ttu-id="6dc02-389">Izdevumi (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="6dc02-389">Expense (Fabrikam West)</span></span>          | <span data-ttu-id="6dc02-390">100,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-390">100.00</span></span>       |               |
+| <span data-ttu-id="6dc02-391">Parādi kreditoriem (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="6dc02-391">Accounts payable (Fabrikam West)</span></span> |              | <span data-ttu-id="6dc02-392">100,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-392">100.00</span></span>        |
 
-### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a>Kredīta nota ir grāmatota Fabrikam East kreditoram 100
+### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a><span data-ttu-id="6dc02-393">Kredīta nota ir grāmatota Fabrikam East kreditoram 100</span><span class="sxs-lookup"><span data-stu-id="6dc02-393">Credit note is posted to Fabrikam East for vendor 100</span></span>
 
-| Konts                          | Summa debetā | Summa kredītā |
+| <span data-ttu-id="6dc02-394">Konts</span><span class="sxs-lookup"><span data-stu-id="6dc02-394">Account</span></span>                          | <span data-ttu-id="6dc02-395">Summa debetā</span><span class="sxs-lookup"><span data-stu-id="6dc02-395">Debit amount</span></span> | <span data-ttu-id="6dc02-396">Summa kredītā</span><span class="sxs-lookup"><span data-stu-id="6dc02-396">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Parādi kreditoriem (Fabrikam East) | 25,00        |               |
-| Pirkumu atgriešana (Fabrikam East) |              | 25,00         |
+| <span data-ttu-id="6dc02-397">Parādi kreditoriem (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="6dc02-397">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="6dc02-398">25,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-398">25.00</span></span>        |               |
+| <span data-ttu-id="6dc02-399">Pirkumu atgriešana (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="6dc02-399">Purchase returns (Fabrikam East)</span></span> |              | <span data-ttu-id="6dc02-400">25,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-400">25.00</span></span>         |
 
-### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a>Maksājums ir grāmatots Fabrikam kreditoram 3004
+### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a><span data-ttu-id="6dc02-401">Maksājums ir grāmatots Fabrikam kreditoram 3004</span><span class="sxs-lookup"><span data-stu-id="6dc02-401">Payment is posted to Fabrikam for vendor 3004</span></span>
 
-| Konts                     | Summa debetā | Summa kredītā |
+| <span data-ttu-id="6dc02-402">Konts</span><span class="sxs-lookup"><span data-stu-id="6dc02-402">Account</span></span>                     | <span data-ttu-id="6dc02-403">Summa debetā</span><span class="sxs-lookup"><span data-stu-id="6dc02-403">Debit amount</span></span> | <span data-ttu-id="6dc02-404">Summa kredītā</span><span class="sxs-lookup"><span data-stu-id="6dc02-404">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| Parādi kreditoriem (Fabrikam) | 75,00        |               |
-| Skaidra nauda (Fabrikam)             |              | 75,00         |
+| <span data-ttu-id="6dc02-405">Parādi kreditoriem (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="6dc02-405">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="6dc02-406">75,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-406">75.00</span></span>        |               |
+| <span data-ttu-id="6dc02-407">Skaidra nauda (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="6dc02-407">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="6dc02-408">75,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-408">75.00</span></span>         |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam maksājums ir nosegts ar Fabrikam West rēķinu un Fabrikam East kredīta notu
+### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a><span data-ttu-id="6dc02-409">Fabrikam maksājums ir nosegts ar Fabrikam West rēķinu un Fabrikam East kredīta notu</span><span class="sxs-lookup"><span data-stu-id="6dc02-409">Fabrikam payment is settled with Fabrikam West invoice and Fabrikam East credit note</span></span>
 
-**Fabrikam grāmatošana**
+<span data-ttu-id="6dc02-410">**Fabrikam grāmatošana**</span><span class="sxs-lookup"><span data-stu-id="6dc02-410">**Fabrikam posting**</span></span>
 
-| Konts                           | Summa debetā | Summa kredītā |
+| <span data-ttu-id="6dc02-411">Konts</span><span class="sxs-lookup"><span data-stu-id="6dc02-411">Account</span></span>                           | <span data-ttu-id="6dc02-412">Summa debetā</span><span class="sxs-lookup"><span data-stu-id="6dc02-412">Debit amount</span></span> | <span data-ttu-id="6dc02-413">Summa kredītā</span><span class="sxs-lookup"><span data-stu-id="6dc02-413">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Fabrikam West (Fabrikam) debitora parādi | 75,00        |               |
-| Parādi kreditoriem (Fabrikam)       |              | 75,00         |
+| <span data-ttu-id="6dc02-414">Fabrikam West (Fabrikam) debitora parādi</span><span class="sxs-lookup"><span data-stu-id="6dc02-414">Due from Fabrikam West (Fabrikam)</span></span> | <span data-ttu-id="6dc02-415">75,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-415">75.00</span></span>        |               |
+| <span data-ttu-id="6dc02-416">Parādi kreditoriem (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="6dc02-416">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="6dc02-417">75,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-417">75.00</span></span>         |
 
-**Fabrikam East grāmatošana**
+<span data-ttu-id="6dc02-418">**Fabrikam East grāmatošana**</span><span class="sxs-lookup"><span data-stu-id="6dc02-418">**Fabrikam East posting**</span></span>
 
-| Konts                                | Summa debetā | Summa kredītā |
+| <span data-ttu-id="6dc02-419">Konts</span><span class="sxs-lookup"><span data-stu-id="6dc02-419">Account</span></span>                                | <span data-ttu-id="6dc02-420">Summa debetā</span><span class="sxs-lookup"><span data-stu-id="6dc02-420">Debit amount</span></span> | <span data-ttu-id="6dc02-421">Summa kredītā</span><span class="sxs-lookup"><span data-stu-id="6dc02-421">Credit amount</span></span> |
 |----------------------------------------|--------------|---------------|
-| Pienākas no Fabrikam West (Fabrikam East) | 25,00        |               |
-| Parādi kreditoriem (Fabrikam East)       |              | 25,00         |
+| <span data-ttu-id="6dc02-422">Pienākas no Fabrikam West (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="6dc02-422">Due from Fabrikam West (Fabrikam East)</span></span> | <span data-ttu-id="6dc02-423">25,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-423">25.00</span></span>        |               |
+| <span data-ttu-id="6dc02-424">Parādi kreditoriem (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="6dc02-424">Accounts payable (Fabrikam East)</span></span>       |              | <span data-ttu-id="6dc02-425">25,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-425">25.00</span></span>         |
 
-**Fabrikam West grāmatošana**
+<span data-ttu-id="6dc02-426">**Fabrikam West grāmatošana**</span><span class="sxs-lookup"><span data-stu-id="6dc02-426">**Fabrikam West posting**</span></span>
 
-| Konts                              | Summa debetā | Summa kredītā |
+| <span data-ttu-id="6dc02-427">Konts</span><span class="sxs-lookup"><span data-stu-id="6dc02-427">Account</span></span>                              | <span data-ttu-id="6dc02-428">Summa debetā</span><span class="sxs-lookup"><span data-stu-id="6dc02-428">Debit amount</span></span> | <span data-ttu-id="6dc02-429">Summa kredītā</span><span class="sxs-lookup"><span data-stu-id="6dc02-429">Credit amount</span></span> |
 |--------------------------------------|--------------|---------------|
-| Parādi kreditoriem (Fabrikam West)     | 75,00        |               |
-| Fabrikam (Fabrikam West) kreditora parādi      |              | 75,00         |
-| Parādi kreditoriem (Fabrikam West)     | 25,00        |               |
-| Pienākas Fabrikam East (Fabrikam West) |              | 25,00         |
+| <span data-ttu-id="6dc02-430">Parādi kreditoriem (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="6dc02-430">Accounts payable (Fabrikam West)</span></span>     | <span data-ttu-id="6dc02-431">75,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-431">75.00</span></span>        |               |
+| <span data-ttu-id="6dc02-432">Fabrikam (Fabrikam West) kreditora parādi</span><span class="sxs-lookup"><span data-stu-id="6dc02-432">Due to Fabrikam (Fabrikam West)</span></span>      |              | <span data-ttu-id="6dc02-433">75,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-433">75.00</span></span>         |
+| <span data-ttu-id="6dc02-434">Parādi kreditoriem (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="6dc02-434">Accounts payable (Fabrikam West)</span></span>     | <span data-ttu-id="6dc02-435">25,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-435">25.00</span></span>        |               |
+| <span data-ttu-id="6dc02-436">Pienākas Fabrikam East (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="6dc02-436">Due to Fabrikam East (Fabrikam West)</span></span> |              | <span data-ttu-id="6dc02-437">25,00</span><span class="sxs-lookup"><span data-stu-id="6dc02-437">25.00</span></span>         |
 
 
 

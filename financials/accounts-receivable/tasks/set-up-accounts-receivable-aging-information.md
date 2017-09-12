@@ -16,49 +16,49 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: ed23bcfed4e256ecc16264a181161c7119cd9bb3
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 2e9f393acaa47d485a583b99ace459474f30be6a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-and-generate-accounts-receivable-aging-information"></a>Debitoru vecumstruktūras informācijas iestatīšana un ģenerēšana
+# <a name="set-up-and-generate-accounts-receivable-aging-information"></a><span data-ttu-id="3ca01-103">Debitoru vecumstruktūras informācijas iestatīšana un ģenerēšana</span><span class="sxs-lookup"><span data-stu-id="3ca01-103">Set up and generate accounts receivable aging information</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šis ceļvedis jums palīdzēs iestatīt vecumstruktūras perioda definīciju, novecot debitoru bilances un skatīt bilances sarakstā Vecas bilances un lapā Iekasēšanas. Šajā ierakstā tiek izmantots USMF demonstrācijas uzņēmums.
+<span data-ttu-id="3ca01-104">Šis ceļvedis jums palīdzēs iestatīt vecumstruktūras perioda definīciju, novecot debitoru bilances un skatīt bilances sarakstā Vecas bilances un lapā Iekasēšanas.</span><span class="sxs-lookup"><span data-stu-id="3ca01-104">This guide will help you set up an aging period definition, age customer balances, and view balances in the Aged balance list and the Collections page.</span></span> <span data-ttu-id="3ca01-105">Šajā ierakstā tiek izmantots USMF demonstrācijas uzņēmums.</span><span class="sxs-lookup"><span data-stu-id="3ca01-105">This recording uses the USMF demo company.</span></span>
 
 
-## <a name="create-an-aging-period-definition"></a>Izveidot vecumstruktūras perioda definīciju
-1. Pārejiet uz sadaļu Kredīts un iekasēšana > Iestatījumi > Vecumstruktūras perioda definīcijas.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Vecumstruktūras periods definīcija ierakstiet kādu vērtību.
-4. Laukā Apraksts ierakstiet kādu vērtību.
-5. Noklikšķiniet uz Pievienot zemāk, lai ievietotu jaunu vecumstruktūras periodu.
-6. Laukā Periods ievadiet aprakstu, ko rādīt vecumstruktūras atskaitēs.
-7. Laukā Vienība ievadiet kādu skaitli.
-8. Laukā Intervāls atlasiet kādu opciju.
-    * Virsgrāmatas periods saskaņo periodu ar jūsu virsgrāmatas kalendāru. Diena, nedēļa, mēnesis, ceturksnis un gadi definē intervāla lielumu pēc datuma tipa. Ar vērtību Neierobežots tiek atlasītas visas transakcijas pirms vai pēc iepriekšējā perioda, atkarībā no tā, vai tas ir pirmais vai pēdējais periods.  
-9. Laukā Vecumstruktūras indikators atlasiet kādu opciju.
-10. Atlasiet periodu režģa augšpusē. Atjaunināt aprakstu, lai aprakstītu visvecāko periodu vecumstruktūras perioda definīcijā
-11. Laukā Periods ievadiet jaunu vecumstruktūras perioda aprakstu.
-12. Aizvērt lapu.
+## <a name="create-an-aging-period-definition"></a><span data-ttu-id="3ca01-106">Izveidot vecumstruktūras perioda definīciju</span><span class="sxs-lookup"><span data-stu-id="3ca01-106">Create an aging period definition</span></span>
+1. <span data-ttu-id="3ca01-107">Pārejiet uz sadaļu Kredīts un iekasēšana > Iestatījumi > Vecumstruktūras perioda definīcijas.</span><span class="sxs-lookup"><span data-stu-id="3ca01-107">Go to Credit and collections > Setup > Aging period definitions.</span></span>
+2. <span data-ttu-id="3ca01-108">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="3ca01-108">Click New.</span></span>
+3. <span data-ttu-id="3ca01-109">Laukā Vecumstruktūras periods definīcija ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="3ca01-109">In the Aging period definition field, type a value.</span></span>
+4. <span data-ttu-id="3ca01-110">Laukā Apraksts ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="3ca01-110">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="3ca01-111">Noklikšķiniet uz Pievienot zemāk, lai ievietotu jaunu vecumstruktūras periodu.</span><span class="sxs-lookup"><span data-stu-id="3ca01-111">Click Add below to insert a new aging period.</span></span>
+6. <span data-ttu-id="3ca01-112">Laukā Periods ievadiet aprakstu, ko rādīt vecumstruktūras atskaitēs.</span><span class="sxs-lookup"><span data-stu-id="3ca01-112">In the Period field, enter the description to show on aging reports.</span></span>
+7. <span data-ttu-id="3ca01-113">Laukā Vienība ievadiet kādu skaitli.</span><span class="sxs-lookup"><span data-stu-id="3ca01-113">In the Unit field, enter a number.</span></span>
+8. <span data-ttu-id="3ca01-114">Laukā Intervāls atlasiet kādu opciju.</span><span class="sxs-lookup"><span data-stu-id="3ca01-114">In the Interval field, select an option.</span></span>
+    * <span data-ttu-id="3ca01-115">Virsgrāmatas periods saskaņo periodu ar jūsu virsgrāmatas kalendāru.</span><span class="sxs-lookup"><span data-stu-id="3ca01-115">Ledger period matches the period to your ledger calendar.</span></span> <span data-ttu-id="3ca01-116">Diena, nedēļa, mēnesis, ceturksnis un gadi definē intervāla lielumu pēc datuma tipa.</span><span class="sxs-lookup"><span data-stu-id="3ca01-116">Day, week, month, quarter and years define the size of the interval by date type.</span></span> <span data-ttu-id="3ca01-117">Ar vērtību Neierobežots tiek atlasītas visas transakcijas pirms vai pēc iepriekšējā perioda, atkarībā no tā, vai tas ir pirmais vai pēdējais periods.</span><span class="sxs-lookup"><span data-stu-id="3ca01-117">Unlimited selects all transactions before or after the previous period, depending on whether it is the first or last period.</span></span>  
+9. <span data-ttu-id="3ca01-118">Laukā Vecumstruktūras indikators atlasiet kādu opciju.</span><span class="sxs-lookup"><span data-stu-id="3ca01-118">In the Aging indicator field, select an option.</span></span>
+10. <span data-ttu-id="3ca01-119">Atlasiet periodu režģa augšpusē.</span><span class="sxs-lookup"><span data-stu-id="3ca01-119">Select the period at the top of the grid.</span></span> <span data-ttu-id="3ca01-120">Atjaunināt aprakstu, lai aprakstītu visvecāko periodu vecumstruktūras perioda definīcijā</span><span class="sxs-lookup"><span data-stu-id="3ca01-120">Update the description to describe the oldest period in the aging period definition</span></span>
+11. <span data-ttu-id="3ca01-121">Laukā Periods ievadiet jaunu vecumstruktūras perioda aprakstu.</span><span class="sxs-lookup"><span data-stu-id="3ca01-121">In the Period field, enter the new description of the aging period.</span></span>
+12. <span data-ttu-id="3ca01-122">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="3ca01-122">Close the page.</span></span>
 
-## <a name="age-the-balances"></a>Novecot bilances
-1. Pārejiet uz sadaļu Kredīts un iekasēšana > Periodiskie uzdevumi > Vecas debitoru bilances.
-2. Laukā Vecumstruktūras perioda definīcija atlasiet savu izveidoto vecumstruktūras perioda definīciju.
-    * Katrai vecumstruktūras perioda definīcijai jums var būt viens aktīvs momentuzņēmums.  
-    * Visi debitori tiek apstrādāti pēc noklusējuma. Šo atlasi varat izmantot, lai aprēķinātu vienu debitoru iekasēšanas pūlu.  
-    * Atlasiet datumu no transakcijas, kas tiks izmantots vecumstruktūrai.  
-    * Vecumstruktūrai atlasiet datumu “kopš”. Noklusējuma vērtība ir šodiena, bet, ja šo lauku maināt uz Atlasītais datums, varēsiet izvēlēties nepieciešamo datumu. Pakešapstrādei lietojiet Šodienas datums.  
-3. Izvērsiet sadaļu Uzņēmumu diapazons. Varat atlasīt uzņēmumus, kas tiks iekļauti momentuzņēmumā. Pašreizējais uzņēmums tiek atlasīts pēc noklusējuma.
-4. Noklikšķiniet uz Labi, lai apstrādātu šo momentuzņēmumu. Tas aizņems kādu laiku, tāpēc pagaidiet, līdz slīdnis izzūd, un pārbaudiet, vai ziņojumu centrā ir kāds ziņojums.
+## <a name="age-the-balances"></a><span data-ttu-id="3ca01-123">Novecot bilances</span><span class="sxs-lookup"><span data-stu-id="3ca01-123">Age the balances</span></span>
+1. <span data-ttu-id="3ca01-124">Pārejiet uz sadaļu Kredīts un iekasēšana > Periodiskie uzdevumi > Vecas debitoru bilances.</span><span class="sxs-lookup"><span data-stu-id="3ca01-124">Go to Credit and collections > Periodic tasks > Age customer balances.</span></span>
+2. <span data-ttu-id="3ca01-125">Laukā Vecumstruktūras perioda definīcija atlasiet savu izveidoto vecumstruktūras perioda definīciju.</span><span class="sxs-lookup"><span data-stu-id="3ca01-125">In the Aging period definition field, select the aging period definition that you created.</span></span>
+    * <span data-ttu-id="3ca01-126">Katrai vecumstruktūras perioda definīcijai jums var būt viens aktīvs momentuzņēmums.</span><span class="sxs-lookup"><span data-stu-id="3ca01-126">You can have one active snapshot for each aging period definition.</span></span>  
+    * <span data-ttu-id="3ca01-127">Visi debitori tiek apstrādāti pēc noklusējuma.</span><span class="sxs-lookup"><span data-stu-id="3ca01-127">All customers are processed by default.</span></span> <span data-ttu-id="3ca01-128">Šo atlasi varat izmantot, lai aprēķinātu vienu debitoru iekasēšanas pūlu.</span><span class="sxs-lookup"><span data-stu-id="3ca01-128">You can use this selection to calculate a single collections pool of customers.</span></span>  
+    * <span data-ttu-id="3ca01-129">Atlasiet datumu no transakcijas, kas tiks izmantots vecumstruktūrai.</span><span class="sxs-lookup"><span data-stu-id="3ca01-129">Select the date from the transaction that you will use for the aging.</span></span>  
+    * <span data-ttu-id="3ca01-130">Vecumstruktūrai atlasiet datumu “kopš”.</span><span class="sxs-lookup"><span data-stu-id="3ca01-130">Select an "as of" date for aging.</span></span> <span data-ttu-id="3ca01-131">Noklusējuma vērtība ir šodiena, bet, ja šo lauku maināt uz Atlasītais datums, varēsiet izvēlēties nepieciešamo datumu.</span><span class="sxs-lookup"><span data-stu-id="3ca01-131">The default is today but, if you change this field to Selected date, you will be able to pick the date that you want.</span></span> <span data-ttu-id="3ca01-132">Pakešapstrādei lietojiet Šodienas datums.</span><span class="sxs-lookup"><span data-stu-id="3ca01-132">For batch processing, use Today's date.</span></span>  
+3. <span data-ttu-id="3ca01-133">Izvērsiet sadaļu Uzņēmumu diapazons.</span><span class="sxs-lookup"><span data-stu-id="3ca01-133">Expand the Company range.</span></span> <span data-ttu-id="3ca01-134">Varat atlasīt uzņēmumus, kas tiks iekļauti momentuzņēmumā.</span><span class="sxs-lookup"><span data-stu-id="3ca01-134">You can select the companies that will be included in the snapshot.</span></span> <span data-ttu-id="3ca01-135">Pašreizējais uzņēmums tiek atlasīts pēc noklusējuma.</span><span class="sxs-lookup"><span data-stu-id="3ca01-135">The current company is selected by default.</span></span>
+4. <span data-ttu-id="3ca01-136">Noklikšķiniet uz Labi, lai apstrādātu šo momentuzņēmumu.</span><span class="sxs-lookup"><span data-stu-id="3ca01-136">Click Ok to process the snapshot.</span></span> <span data-ttu-id="3ca01-137">Tas aizņems kādu laiku, tāpēc pagaidiet, līdz slīdnis izzūd, un pārbaudiet, vai ziņojumu centrā ir kāds ziņojums.</span><span class="sxs-lookup"><span data-stu-id="3ca01-137">It will take some time so wait for the slider to disappear and check the message center for a message.</span></span>
 
-## <a name="view-the-balances-on-the-aged-balances-list-and-on-the-collection-page"></a>Skatīt bilances sarakstā Vecas bilances un lapā Iekasēšana
-1. Pārejiet uz sadaļu Kredīts un iekasēšana > Iekasēšana > Vecas bilances.
-    * Saraksta lapā tiek rādītas bilances šim debitoram. Vecumstruktūras ikona rāda vecumstruktūras periodu vecākajai transakcijai.  
-2. Atlasiet debitoru ar bilanci.
-3. Izvērsiet papildinformāciju Vecumstruktūra, lai skatītu vecās bilances.
-    * Vecumstruktūras perioda definīcija šai papildinformācijai tiek ņemta no parametros norādītās noklusējuma vecumstruktūras perioda definīcijas. Varat to mainīt, izmantojot izvēlni Iekasēt.  
+## <a name="view-the-balances-on-the-aged-balances-list-and-on-the-collection-page"></a><span data-ttu-id="3ca01-138">Skatīt bilances sarakstā Vecas bilances un lapā Iekasēšana</span><span class="sxs-lookup"><span data-stu-id="3ca01-138">View the balances on the Aged balances list and on the Collection page</span></span>
+1. <span data-ttu-id="3ca01-139">Pārejiet uz sadaļu Kredīts un iekasēšana > Iekasēšana > Vecas bilances.</span><span class="sxs-lookup"><span data-stu-id="3ca01-139">Go to Credit and collections > Collections > Aged balances.</span></span>
+    * <span data-ttu-id="3ca01-140">Saraksta lapā tiek rādītas bilances šim debitoram.</span><span class="sxs-lookup"><span data-stu-id="3ca01-140">The list page shows the balances for the customer.</span></span> <span data-ttu-id="3ca01-141">Vecumstruktūras ikona rāda vecumstruktūras periodu vecākajai transakcijai.</span><span class="sxs-lookup"><span data-stu-id="3ca01-141">The aging icon shows the aging period for the oldest transaction.</span></span>  
+2. <span data-ttu-id="3ca01-142">Atlasiet debitoru ar bilanci.</span><span class="sxs-lookup"><span data-stu-id="3ca01-142">Select a customer with a balance.</span></span>
+3. <span data-ttu-id="3ca01-143">Izvērsiet papildinformāciju Vecumstruktūra, lai skatītu vecās bilances.</span><span class="sxs-lookup"><span data-stu-id="3ca01-143">Expand the Aging fact box area to view the aged balances.</span></span>
+    * <span data-ttu-id="3ca01-144">Vecumstruktūras perioda definīcija šai papildinformācijai tiek ņemta no parametros norādītās noklusējuma vecumstruktūras perioda definīcijas.</span><span class="sxs-lookup"><span data-stu-id="3ca01-144">The aging period definition for the fact box is taken from the default aging period definition specified in the parameters.</span></span> <span data-ttu-id="3ca01-145">Varat to mainīt, izmantojot izvēlni Iekasēt.</span><span class="sxs-lookup"><span data-stu-id="3ca01-145">You can change it using the Collect menu.</span></span>  
 
 

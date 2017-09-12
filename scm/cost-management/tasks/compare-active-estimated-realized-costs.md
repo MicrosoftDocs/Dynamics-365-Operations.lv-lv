@@ -17,26 +17,26 @@ ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 9fe1577ec2557d61f051b503d8822a31478abf0e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1429229096e8aa06bab982f07d0281bbbd5f7861
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="compare-active-estimated-and-realized-costs-on-a-production-order"></a>Ražošanas pasūtījuma aktīvo, prognozēto un faktisko izmaksu salīdzināšana
+# <a name="compare-active-estimated-and-realized-costs-on-a-production-order"></a><span data-ttu-id="c9455-103">Ražošanas pasūtījuma aktīvo, prognozēto un faktisko izmaksu salīdzināšana</span><span class="sxs-lookup"><span data-stu-id="c9455-103">Compare active, estimated, and realized costs on a production order</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā procedūrā ir parādīts, kā ražošanas pasūtījumam skatīt augstas ražošanas novirzes iemeslus. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Šī procedūra ir paredzēta izmaksu kontrolierim.
+<span data-ttu-id="c9455-104">Šajā procedūrā ir parādīts, kā ražošanas pasūtījumam skatīt augstas ražošanas novirzes iemeslus.</span><span class="sxs-lookup"><span data-stu-id="c9455-104">This procedure shows how to view reasons for high production variance for a production order.</span></span> <span data-ttu-id="c9455-105">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="c9455-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="c9455-106">Šī procedūra ir paredzēta izmaksu kontrolierim.</span><span class="sxs-lookup"><span data-stu-id="c9455-106">This procedure is intended for the cost controller.</span></span>
 
-1. Noklikšķiniet uz Izmaksu administrēšana.
-2. Laukā Datums ievadiet vai atlasiet kādu vērtību.
-    * Šai procedūrai tiek izmantots 2012. finanšu gads. Varat iestatīt 2012. gada 1. janvāri kā sākuma datumu 2012. gada 31. decembri kā beigu datumu.  
-3. Noklikšķiniet uz cilnes Augstas ražošanas novirzes.
-4. Noklikšķiniet, lai sekotu saitei laukā Ražošana.
-    * Noklikšķiniet uz P000116, lai sekotu saitei laukā Ražošana.  
-5. Darbību rūtī noklikšķiniet uz Pārvaldīt izmaksas.
-6. Noklikšķiniet uz Skatīt izmaksu salīdzinājumu.
-7. Noklikšķiniet uz Aizvērt.
+1. <span data-ttu-id="c9455-107">Noklikšķiniet uz Izmaksu administrēšana.</span><span class="sxs-lookup"><span data-stu-id="c9455-107">Click Cost administration.</span></span>
+2. <span data-ttu-id="c9455-108">Laukā Datums ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c9455-108">In the Date field, enter or select a value.</span></span>
+    * <span data-ttu-id="c9455-109">Šai procedūrai tiek izmantots 2012. finanšu gads.</span><span class="sxs-lookup"><span data-stu-id="c9455-109">This procedure uses the fiscal year 2012.</span></span> <span data-ttu-id="c9455-110">Varat iestatīt 2012. gada 1. janvāri kā sākuma datumu 2012. gada 31. decembri kā beigu datumu.</span><span class="sxs-lookup"><span data-stu-id="c9455-110">You can set From date to January 1, 2012 and To date to December 31, 2012.</span></span>  
+3. <span data-ttu-id="c9455-111">Noklikšķiniet uz cilnes Augstas ražošanas novirzes.</span><span class="sxs-lookup"><span data-stu-id="c9455-111">Click the High production variances tab.</span></span>
+4. <span data-ttu-id="c9455-112">Noklikšķiniet, lai sekotu saitei laukā Ražošana.</span><span class="sxs-lookup"><span data-stu-id="c9455-112">Click to follow the link in the Production field.</span></span>
+    * <span data-ttu-id="c9455-113">Noklikšķiniet uz P000116, lai sekotu saitei laukā Ražošana.</span><span class="sxs-lookup"><span data-stu-id="c9455-113">Click P000116 to follow the link in the Production field.</span></span>  
+5. <span data-ttu-id="c9455-114">Darbību rūtī noklikšķiniet uz Pārvaldīt izmaksas.</span><span class="sxs-lookup"><span data-stu-id="c9455-114">On the Action Pane, click Manage costs.</span></span>
+6. <span data-ttu-id="c9455-115">Noklikšķiniet uz Skatīt izmaksu salīdzinājumu.</span><span class="sxs-lookup"><span data-stu-id="c9455-115">Click View cost comparison.</span></span>
+7. <span data-ttu-id="c9455-116">Noklikšķiniet uz Aizvērt.</span><span class="sxs-lookup"><span data-stu-id="c9455-116">Click Close.</span></span>
 
 

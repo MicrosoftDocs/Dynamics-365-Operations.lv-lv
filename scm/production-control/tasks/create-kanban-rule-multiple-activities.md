@@ -17,45 +17,45 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 5b4c6f919072dd6497b0eab548077f68fc46dbf5
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: d6d0c50da3124553124b65f6ba0e1c5ed35e8613
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-kanban-rule-for-multiple-activities"></a>Kanban kārtulas izveide vairākām aktivitātēm
+# <a name="create-a-kanban-rule-for-multiple-activities"></a><span data-ttu-id="e8c96-103">Kanban kārtulas izveide vairākām aktivitātēm</span><span class="sxs-lookup"><span data-stu-id="e8c96-103">Create a kanban rule for multiple activities</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā procedūrā ir parādīts, kā izveidot Kanban nosacījumu, kas ietver vairākas aktivitātes no ražošanas plūsmas. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USMF. Šis uzdevums ir paredzēts procesa inženierim vai vērtību plūsmas pārvaldniekam, kad viņi sagatavo jaunas vai modificētas preces ražošanu racionālā vidē.
+<span data-ttu-id="e8c96-104">Šajā procedūrā ir parādīts, kā izveidot Kanban nosacījumu, kas ietver vairākas aktivitātes no ražošanas plūsmas.</span><span class="sxs-lookup"><span data-stu-id="e8c96-104">This procedure shows how to create a kanban rule that includes multiple activities from a production flow.</span></span> <span data-ttu-id="e8c96-105">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="e8c96-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="e8c96-106">Šis uzdevums ir paredzēts procesa inženierim vai vērtību plūsmas pārvaldniekam, kad viņi sagatavo jaunas vai modificētas preces ražošanu racionālā vidē.</span><span class="sxs-lookup"><span data-stu-id="e8c96-106">This task is intended for the process engineer or the value stream manager, as they prepare production of a new or modified product in a lean environment.</span></span>
 
 
-## <a name="create-a-new-kanban-rule"></a>Izveidot jaunu Kanban nosacījumu
-1. Pārejiet uz sadaļu Preču informācijas pārvaldība > Lean manufacturing > Kanban nosacījumi.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Papildināšanas stratēģija atlasiet “Plānots”.
-4. Laukā Pirmā plāna aktivitāte ievadiet vai atlasiet kādu vērtību.
-    * Atlasiet vērtību SpeakerAssemblyAndPolish.  
-5. Atzīmējiet izvēles rūtiņu Vairākas aktivitātes.
-    * Mērķis ir Kanban nosacījumā iekļaut vairākas aktivitātes. Ceļu ražošanas plūsmā jūs izvēlaties, kad atlasāt pēdējo plāna aktivitāti.  
-6. Laukā Pēdējā plāna aktivitāte ievadiet vai atlasiet kādu vērtību.
-    * Atlasiet vērtību SpeakerTestAndPackaging. Pēc vērtības atlasīšanas automātiski tiek atvērta lapa. Atlasiet Kanban plūsmu SpeakerAssemblyAndPolish > SpeakerTestAndPackaging. Noklikšķiniet uz OK.  
-7. Izvērsiet sadaļu Detalizēti.
-8. Laukā Prece ievadiet vai atlasiet kādu vērtību.
-    * Atlasiet krājumu L0006.  
+## <a name="create-a-new-kanban-rule"></a><span data-ttu-id="e8c96-107">Izveidot jaunu Kanban nosacījumu</span><span class="sxs-lookup"><span data-stu-id="e8c96-107">Create a new kanban rule</span></span>
+1. <span data-ttu-id="e8c96-108">Pārejiet uz sadaļu Preču informācijas pārvaldība > Lean manufacturing > Kanban nosacījumi.</span><span class="sxs-lookup"><span data-stu-id="e8c96-108">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
+2. <span data-ttu-id="e8c96-109">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="e8c96-109">Click New.</span></span>
+3. <span data-ttu-id="e8c96-110">Laukā Papildināšanas stratēģija atlasiet “Plānots”.</span><span class="sxs-lookup"><span data-stu-id="e8c96-110">In the Replenishment strategy field, select 'Scheduled'.</span></span>
+4. <span data-ttu-id="e8c96-111">Laukā Pirmā plāna aktivitāte ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="e8c96-111">In the First plan activity field, enter or select a value.</span></span>
+    * <span data-ttu-id="e8c96-112">Atlasiet vērtību SpeakerAssemblyAndPolish.</span><span class="sxs-lookup"><span data-stu-id="e8c96-112">Select SpeakerAssemblyAndPolish.</span></span>  
+5. <span data-ttu-id="e8c96-113">Atzīmējiet izvēles rūtiņu Vairākas aktivitātes.</span><span class="sxs-lookup"><span data-stu-id="e8c96-113">Select the Multiple activities check box.</span></span>
+    * <span data-ttu-id="e8c96-114">Mērķis ir Kanban nosacījumā iekļaut vairākas aktivitātes.</span><span class="sxs-lookup"><span data-stu-id="e8c96-114">The purpose is to include more than one activity in the kanban rule.</span></span> <span data-ttu-id="e8c96-115">Ceļu ražošanas plūsmā jūs izvēlaties, kad atlasāt pēdējo plāna aktivitāti.</span><span class="sxs-lookup"><span data-stu-id="e8c96-115">You choose a path in the production flow when you select the last plan activity.</span></span>  
+6. <span data-ttu-id="e8c96-116">Laukā Pēdējā plāna aktivitāte ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="e8c96-116">In the Last plan activity field, enter or select a value.</span></span>
+    * <span data-ttu-id="e8c96-117">Atlasiet vērtību SpeakerTestAndPackaging.</span><span class="sxs-lookup"><span data-stu-id="e8c96-117">Select SpeakerTestAndPackaging.</span></span> <span data-ttu-id="e8c96-118">Pēc vērtības atlasīšanas automātiski tiek atvērta lapa.</span><span class="sxs-lookup"><span data-stu-id="e8c96-118">After you select the value, a page automatically opens.</span></span> <span data-ttu-id="e8c96-119">Atlasiet Kanban plūsmu SpeakerAssemblyAndPolish > SpeakerTestAndPackaging.</span><span class="sxs-lookup"><span data-stu-id="e8c96-119">Select the kanban flow SpeakerAssemblyAndPolish > SpeakerTestAndPackaging.</span></span> <span data-ttu-id="e8c96-120">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="e8c96-120">Click OK.</span></span>  
+7. <span data-ttu-id="e8c96-121">Izvērsiet sadaļu Detalizēti.</span><span class="sxs-lookup"><span data-stu-id="e8c96-121">Expand the Details section.</span></span>
+8. <span data-ttu-id="e8c96-122">Laukā Prece ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="e8c96-122">In the Product field, enter or select a value.</span></span>
+    * <span data-ttu-id="e8c96-123">Atlasiet krājumu L0006.</span><span class="sxs-lookup"><span data-stu-id="e8c96-123">Select Item L0006.</span></span>  
 
-## <a name="create-kanban-and-view-jobs"></a>Izveidot Kanban un skatīt darbus
-1. Izvērsiet sadaļu Vairāki Kanban.
-2. Noklikšķiniet uz Pievienot.
-3. Laukā Jaunu Kanban skaits ievadiet “1”.
-    * Šādi tiks izveidots viens Kanban.  
-4. Iestatiet vērtību 3 laikā Preču daudzums.
-    * Kanban apstrādās 3 preces.  
-5. Laukā Izpildes datums/laiks ievadiet datumu un laiku.
-    * Varat ievadīt Šodien.  
-6. Noklikšķiniet uz Izveidot.
-7. Noklikšķiniet uz Detaļas.
-    * Ievērojiet, ka šim Kanban ir divi procesa darbi no ražošanas plūsmas. Pirmais ir SpeakerAssemblyAndPolish, un otrais ir SpeakerTestAndPackaging.  
-    * Šis ir pēdējais solis!  
+## <a name="create-kanban-and-view-jobs"></a><span data-ttu-id="e8c96-124">Izveidot Kanban un skatīt darbus</span><span class="sxs-lookup"><span data-stu-id="e8c96-124">Create kanban and view jobs</span></span>
+1. <span data-ttu-id="e8c96-125">Izvērsiet sadaļu Vairāki Kanban.</span><span class="sxs-lookup"><span data-stu-id="e8c96-125">Expand the Kanbans section.</span></span>
+2. <span data-ttu-id="e8c96-126">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="e8c96-126">Click Add.</span></span>
+3. <span data-ttu-id="e8c96-127">Laukā Jaunu Kanban skaits ievadiet “1”.</span><span class="sxs-lookup"><span data-stu-id="e8c96-127">In the Number of new kanbans field, enter '1'.</span></span>
+    * <span data-ttu-id="e8c96-128">Šādi tiks izveidots viens Kanban.</span><span class="sxs-lookup"><span data-stu-id="e8c96-128">This will create one kanban.</span></span>  
+4. <span data-ttu-id="e8c96-129">Iestatiet vērtību 3 laikā Preču daudzums.</span><span class="sxs-lookup"><span data-stu-id="e8c96-129">Set Product quantity to '3'.</span></span>
+    * <span data-ttu-id="e8c96-130">Kanban apstrādās 3 preces.</span><span class="sxs-lookup"><span data-stu-id="e8c96-130">Kanban will process 3 products.</span></span>  
+5. <span data-ttu-id="e8c96-131">Laukā Izpildes datums/laiks ievadiet datumu un laiku.</span><span class="sxs-lookup"><span data-stu-id="e8c96-131">In the Due date/time field, enter a date and time.</span></span>
+    * <span data-ttu-id="e8c96-132">Varat ievadīt Šodien.</span><span class="sxs-lookup"><span data-stu-id="e8c96-132">You can enter Today.</span></span>  
+6. <span data-ttu-id="e8c96-133">Noklikšķiniet uz Izveidot.</span><span class="sxs-lookup"><span data-stu-id="e8c96-133">Click Create.</span></span>
+7. <span data-ttu-id="e8c96-134">Noklikšķiniet uz Detaļas.</span><span class="sxs-lookup"><span data-stu-id="e8c96-134">Click Details.</span></span>
+    * <span data-ttu-id="e8c96-135">Ievērojiet, ka šim Kanban ir divi procesa darbi no ražošanas plūsmas.</span><span class="sxs-lookup"><span data-stu-id="e8c96-135">Notice that the kanban has two process jobs from the production flow.</span></span> <span data-ttu-id="e8c96-136">Pirmais ir SpeakerAssemblyAndPolish, un otrais ir SpeakerTestAndPackaging.</span><span class="sxs-lookup"><span data-stu-id="e8c96-136">The first one is SpeakerAssemblyAndPolish, and the second one is SpeakerTestAndPackaging.</span></span>  
+    * <span data-ttu-id="e8c96-137">Šis ir pēdējais solis!</span><span class="sxs-lookup"><span data-stu-id="e8c96-137">This is the last step!</span></span>  
 
 

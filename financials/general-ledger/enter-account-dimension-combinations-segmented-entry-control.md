@@ -18,23 +18,23 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1535ef5c5eec1389272ce8fd2c2c183f532785b1
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 610b21069d9f13a511f8017d0069fda0371abf10
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Konta un dimensiju kombināciju ievade (segmentētu ierakstu kontrole)
+# <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a><span data-ttu-id="cb703-104">Konta un dimensiju kombināciju ievade (segmentētu ierakstu kontrole)</span><span class="sxs-lookup"><span data-stu-id="cb703-104">Enter account and dimension combinations (segmented entry control)</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir aprakstīts, kā ievadīt kontu un dimensiju kombinācijas vai virsgrāmatas kontus. Ierakstīšanas darbība bieži tiek saukta par segmentētu ierakstu kontroli.
+<span data-ttu-id="cb703-105">Šajā rakstā ir aprakstīts, kā ievadīt kontu un dimensiju kombinācijas vai virsgrāmatas kontus.</span><span class="sxs-lookup"><span data-stu-id="cb703-105">This article describes how to enter account and dimension combinations or ledger accounts.</span></span> <span data-ttu-id="cb703-106">Ierakstīšanas darbība bieži tiek saukta par segmentētu ierakstu kontroli.</span><span class="sxs-lookup"><span data-stu-id="cb703-106">The entry experience is often referred to as segmented entry control.</span></span>
 
-Lietotāji kontu un dimensiju kombinācijas ievada dažādās lapās, piemēram, lapās, kas paredzētas virsgrāmatas žurnāliem, budžeta plānošanai un grāmatošanas definīcijām. Derīgas kontu un dimensiju kombinācijas ir atkarīgas no konta struktūras, kas tiek piešķirta Virsgrāmatai un papildu kārtulām, kas piešķirtas kontu struktūram. Kad lietotāji ir ievadījuši kombināciju, viņi var manuāli ierakstīt vērtības vai izmantot bagātīgo uzmeklēšanas funkcionalitāti. Kad notiek ievadīšana laukā, varat sākt rakstīt, un tas meklēs vērtību un aprakstu. Piemēram, ja ierakstāt 180, tiks meklēta jebkāda vērtība, kas sākas ar šo numuru kombināciju. Varat arī ierakstīt Skaidra nauda, un tiks meklēta jebkāda vērtība, kuras apraksts sākas ar Skaidra nauda. Varat arī izmantot aizstājējzīmi, piemēram, \*Skaidra nauda vai \*180, lai meklētu, vai vērtībā vai aprakstā ir ietverti šie meklēšanas kritēriji. 
+<span data-ttu-id="cb703-107">Lietotāji kontu un dimensiju kombinācijas ievada dažādās lapās, piemēram, lapās, kas paredzētas virsgrāmatas žurnāliem, budžeta plānošanai un grāmatošanas definīcijām.</span><span class="sxs-lookup"><span data-stu-id="cb703-107">Users enter account and dimension combinations on various pages, such as pages for general journals, budgeting, and posting definitions.</span></span> <span data-ttu-id="cb703-108">Derīgas kontu un dimensiju kombinācijas ir atkarīgas no konta struktūras, kas tiek piešķirta Virsgrāmatai un papildu kārtulām, kas piešķirtas kontu struktūram.</span><span class="sxs-lookup"><span data-stu-id="cb703-108">The valid account and dimension combinations depend on the account structures that are assigned to the ledger and the advanced rules that are assigned to the account structures.</span></span> <span data-ttu-id="cb703-109">Kad lietotāji ir ievadījuši kombināciju, viņi var manuāli ierakstīt vērtības vai izmantot bagātīgo uzmeklēšanas funkcionalitāti.</span><span class="sxs-lookup"><span data-stu-id="cb703-109">When users enter a combination, they can either manually type the values or take advantage of a rich, lookup experience.</span></span> <span data-ttu-id="cb703-110">Kad notiek ievadīšana laukā, varat sākt rakstīt, un tas meklēs vērtību un aprakstu.</span><span class="sxs-lookup"><span data-stu-id="cb703-110">When you enter the field, you can start to type and it will search the value and the description.</span></span> <span data-ttu-id="cb703-111">Piemēram, ja ierakstāt 180, tiks meklēta jebkāda vērtība, kas sākas ar šo numuru kombināciju.</span><span class="sxs-lookup"><span data-stu-id="cb703-111">For example, if you type 180 it will search any value that begins with that number combination.</span></span> <span data-ttu-id="cb703-112">Varat arī ierakstīt Skaidra nauda, un tiks meklēta jebkāda vērtība, kuras apraksts sākas ar Skaidra nauda.</span><span class="sxs-lookup"><span data-stu-id="cb703-112">Or you may type Cash and it will search any value that has a description that begins with Cash.</span></span> <span data-ttu-id="cb703-113">Varat arī izmantot aizstājējzīmi, piemēram, \*Skaidra nauda vai \*180, lai meklētu, vai vērtībā vai aprakstā ir ietverti šie meklēšanas kritēriji.</span><span class="sxs-lookup"><span data-stu-id="cb703-113">You can also use a wildcard, such as \*Cash or \*180 to search if the value or description contain the search criteria.</span></span> 
 
-Tabulā ir aprakstīti īsinājumtaustiņi, ko var izmantot, ja pārlūkošanas logs nav atvērts.
+<span data-ttu-id="cb703-114">Tabulā ir aprakstīti īsinājumtaustiņi, ko var izmantot, ja pārlūkošanas logs nav atvērts.</span><span class="sxs-lookup"><span data-stu-id="cb703-114">The following table describes the keyboard shortcuts that can be used when the lookup is closed.</span></span>
 
 <table>
 <colgroup>
@@ -43,31 +43,31 @@ Tabulā ir aprakstīti īsinājumtaustiņi, ko var izmantot, ja pārlūkošanas 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Īsinājumtaustiņš</th>
-<th>Darbība</th>
+<th><span data-ttu-id="cb703-115">Īsinājumtaustiņš</span><span class="sxs-lookup"><span data-stu-id="cb703-115">Keyboard shortcut</span></span></th>
+<th><span data-ttu-id="cb703-116">Darbība</span><span class="sxs-lookup"><span data-stu-id="cb703-116">Action</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Alt+lejupvērstā bultiņa</td>
-<td>Atver pārlūkošanas logu. Ja nospiežat Alt+lejupvērstā bultiņa otro reizi, fokuss tiek pārvietots uz izlidošanas segmentiem.</td>
+<td><span data-ttu-id="cb703-117">Alt+lejupvērstā bultiņa</span><span class="sxs-lookup"><span data-stu-id="cb703-117">Alt+Down Arrow</span></span></td>
+<td><span data-ttu-id="cb703-118">Atver pārlūkošanas logu.</span><span class="sxs-lookup"><span data-stu-id="cb703-118">Open the lookup.</span></span> <span data-ttu-id="cb703-119">Ja nospiežat Alt+lejupvērstā bultiņa otro reizi, fokuss tiek pārvietots uz izlidošanas segmentiem.</span><span class="sxs-lookup"><span data-stu-id="cb703-119">If you press Alt+Down Arrow a second time, the focus moves to the segments in the flyout.</span></span></td>
 </tr>
 <tr class="even">
 <td><ul>
-<li>Enter un Shift + Enter</li>
-<li>Kontu plāna norobežotājs</li>
-<li>Kreisā un labā bultiņa</li>
+<li><span data-ttu-id="cb703-120">Enter un Shift + Enter</span><span class="sxs-lookup"><span data-stu-id="cb703-120">Enter and Shift+Enter</span></span></li>
+<li><span data-ttu-id="cb703-121">Kontu plāna norobežotājs</span><span class="sxs-lookup"><span data-stu-id="cb703-121">Chart of accounts delimiter</span></span></li>
+<li><span data-ttu-id="cb703-122">Kreisā un labā bultiņa</span><span class="sxs-lookup"><span data-stu-id="cb703-122">Right Arrow and Left Arrow</span></span></li>
 </ul></td>
-<td>Pārejiet uz nākamo vai iepriekšējo segmentu.</td>
+<td><span data-ttu-id="cb703-123">Pārejiet uz nākamo vai iepriekšējo segmentu.</span><span class="sxs-lookup"><span data-stu-id="cb703-123">Move to the next or previous segment.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Tabulēšanas taustiņš</td>
-<td>Režģī pārejiet uz nākamo lauku.</td>
+<td><span data-ttu-id="cb703-124">Tabulēšanas taustiņš</span><span class="sxs-lookup"><span data-stu-id="cb703-124">Tab</span></span></td>
+<td><span data-ttu-id="cb703-125">Režģī pārejiet uz nākamo lauku.</span><span class="sxs-lookup"><span data-stu-id="cb703-125">Move to the next field in the grid.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-Tabulā ir aprakstīti īsinājumtaustiņi, ko var izmantot, ja pārlūkošanas logs ir atvērts.
+<span data-ttu-id="cb703-126">Tabulā ir aprakstīti īsinājumtaustiņi, ko var izmantot, ja pārlūkošanas logs ir atvērts.</span><span class="sxs-lookup"><span data-stu-id="cb703-126">The following table describes the keyboard shortcuts that can be used when the lookup is open.</span></span>
 
 <table>
 <colgroup>
@@ -76,37 +76,37 @@ Tabulā ir aprakstīti īsinājumtaustiņi, ko var izmantot, ja pārlūkošanas 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Īsinājumtaustiņš</th>
-<th>Darbība</th>
+<th><span data-ttu-id="cb703-127">Īsinājumtaustiņš</span><span class="sxs-lookup"><span data-stu-id="cb703-127">Keyboard shortcut</span></span></th>
+<th><span data-ttu-id="cb703-128">Darbība</span><span class="sxs-lookup"><span data-stu-id="cb703-128">Action</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Esc</td>
-<td>Aizveriet pārlūkošanas logu.</td>
+<td><span data-ttu-id="cb703-129">Esc</span><span class="sxs-lookup"><span data-stu-id="cb703-129">Esc</span></span></td>
+<td><span data-ttu-id="cb703-130">Aizveriet pārlūkošanas logu.</span><span class="sxs-lookup"><span data-stu-id="cb703-130">Close the lookup.</span></span></td>
 </tr>
 <tr class="even">
 <td><ul>
-<li>Augšupvērstā bultiņa un lejupvērstā bultiņa</li>
-<li>Iepriekšējā lapa un nākamā lapa</li>
-<li>Home un End</li>
+<li><span data-ttu-id="cb703-131">Augšupvērstā bultiņa un lejupvērstā bultiņa</span><span class="sxs-lookup"><span data-stu-id="cb703-131">Up Arrow and Down Arrow</span></span></li>
+<li><span data-ttu-id="cb703-132">Iepriekšējā lapa un nākamā lapa</span><span class="sxs-lookup"><span data-stu-id="cb703-132">Page Up and Page Down</span></span></li>
+<li><span data-ttu-id="cb703-133">Home un End</span><span class="sxs-lookup"><span data-stu-id="cb703-133">Home and End</span></span></li>
 </ul></td>
-<td>Sarakstos pārejiet uz nākamo vai iepriekšējo vērtību, nākamo vai iepriekšējo vērtību grupu vai pirmo vai pēdējo pārlūkojamo elementu.</td>
+<td><span data-ttu-id="cb703-134">Sarakstos pārejiet uz nākamo vai iepriekšējo vērtību, nākamo vai iepriekšējo vērtību grupu vai pirmo vai pēdējo pārlūkojamo elementu.</span><span class="sxs-lookup"><span data-stu-id="cb703-134">Move to the previous or next value in the lists, to the previous or next group of values, or to the first or last element in the lookup.</span></span></td>
 </tr>
 <tr class="odd">
 <td><ul>
-<li>Kontu plāna norobežotājs</li>
-<li>Kreisā un labā bultiņa</li>
+<li><span data-ttu-id="cb703-135">Kontu plāna norobežotājs</span><span class="sxs-lookup"><span data-stu-id="cb703-135">Chart of accounts delimiter</span></span></li>
+<li><span data-ttu-id="cb703-136">Kreisā un labā bultiņa</span><span class="sxs-lookup"><span data-stu-id="cb703-136">Right Arrow and Left Arrow</span></span></li>
 </ul></td>
-<td>Pārejiet uz nākamo vai iepriekšējo segmentu.</td>
+<td><span data-ttu-id="cb703-137">Pārejiet uz nākamo vai iepriekšējo segmentu.</span><span class="sxs-lookup"><span data-stu-id="cb703-137">Move to the next or previous segment.</span></span></td>
 </tr>
 <tr class="even">
-<td>Tabulēšanas taustiņš</td>
-<td>Režģī pārejiet uz nākamo lauku.</td>
+<td><span data-ttu-id="cb703-138">Tabulēšanas taustiņš</span><span class="sxs-lookup"><span data-stu-id="cb703-138">Tab</span></span></td>
+<td><span data-ttu-id="cb703-139">Režģī pārejiet uz nākamo lauku.</span><span class="sxs-lookup"><span data-stu-id="cb703-139">Move to the next field in the grid.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Alt+W</td>
-<td>Pārslēdz starp <strong>Rādīt visu</strong> un <strong>Rādīt derīgo</strong>.</td>
+<td><span data-ttu-id="cb703-140">Alt+W</span><span class="sxs-lookup"><span data-stu-id="cb703-140">Alt+W</span></span></td>
+<td><span data-ttu-id="cb703-141">Pārslēdz starp <strong>Rādīt visu</strong> un <strong>Rādīt derīgo</strong>.</span><span class="sxs-lookup"><span data-stu-id="cb703-141">Switch between <strong>Show all</strong> and <strong>Show valid</strong>.</span></span></td>
 </tr>
 </tbody>
 </table>

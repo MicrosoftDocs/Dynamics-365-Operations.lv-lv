@@ -19,28 +19,28 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7255f2b7e49f56a731d0e3745b4752091013668b
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 09d80015298c3d0219b6ffb290dc456990536a62
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 
 ---
 
-# <a name="set-up-fraud-alerts"></a>Pārkāpumu brīdinājumu iestatīšana
+# <a name="set-up-fraud-alerts"></a><span data-ttu-id="18ab5-104">Pārkāpumu brīdinājumu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="18ab5-104">Set up fraud alerts</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-Šajā tēmā izskaidrots, kā iestatīt kārtulas, lai brīdinātu klientu apkalpošanas pārstāvjus par potenciāli krāpniecisku informāciju, kad tiek apstrādāti pasūtījumi. Var definēt īpašus izmantošanai paredzētus kodus, lai automātiski vai manuāli aizturētu aizdomīgus pasūtījumus. 
+<span data-ttu-id="18ab5-105">Šajā tēmā izskaidrots, kā iestatīt kārtulas, lai brīdinātu klientu apkalpošanas pārstāvjus par potenciāli krāpniecisku informāciju, kad tiek apstrādāti pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="18ab5-105">This topic explains how to set up rules to alert customer service representatives of potentially fraudulent information when orders are processed.</span></span> <span data-ttu-id="18ab5-106">Var definēt īpašus izmantošanai paredzētus kodus, lai automātiski vai manuāli aizturētu aizdomīgus pasūtījumus.</span><span class="sxs-lookup"><span data-stu-id="18ab5-106">You can define specific codes to use to automatically or manually put suspicious orders on hold.</span></span> 
 
-Pirms iestatāt un izmantojat pārkāpumu pārbaudes kārtulas, ir jāiespējo pārkāpumu pārbaude un jādefinē pamata pārkāpumu pārbaudes vērtības zvanu centra parametros. Ir divi pārkāpumu kārtulu tipi:
+<span data-ttu-id="18ab5-107">Pirms iestatāt un izmantojat pārkāpumu pārbaudes kārtulas, ir jāiespējo pārkāpumu pārbaude un jādefinē pamata pārkāpumu pārbaudes vērtības zvanu centra parametros.</span><span class="sxs-lookup"><span data-stu-id="18ab5-107">Before you set up and use fraud checking rules, you must enable fraud checking and define the basic fraud checking values in the call center parameters.</span></span> <span data-ttu-id="18ab5-108">Ir divi pārkāpumu kārtulu tipi:</span><span class="sxs-lookup"><span data-stu-id="18ab5-108">There are two types of fraud rules:</span></span>
 
--   **Statiskās kārtulas** izmanto noteiktu vērtību, piemēram, tālruņa numuru, kas ir melnajā sarakstā.
--   **Dinamiskās kārtulas** var veidot no mainīgajiem un nosacījumiem.
+-   <span data-ttu-id="18ab5-109">**Statiskās kārtulas** izmanto noteiktu vērtību, piemēram, tālruņa numuru, kas ir melnajā sarakstā.</span><span class="sxs-lookup"><span data-stu-id="18ab5-109">**Static rules** use a specific value, such as a phone number that has been blacklisted.</span></span>
+-   <span data-ttu-id="18ab5-110">**Dinamiskās kārtulas** var veidot no mainīgajiem un nosacījumiem.</span><span class="sxs-lookup"><span data-stu-id="18ab5-110">**Dynamic rules** can be composed from variables and conditions.</span></span>
 
-Pirms dinamiskās kārtulas izveidošanas ir jāizveido mainīgie un nosacījumi, kas definē, uz kurām personām kārtula attiecas un kad kārtula ir jāpiemēro. Piemēram, jūs vēlaties izveidot kārtulu, lai pieprasītu to, ka, debitoram Nr. 1202 izdarot pārdošanas pasūtījumu vismaz 1000,00 vērtībā, pārdošanas pasūtījums ir jāaiztur, līdz iespējams pārbaudīt debitora maksājumu. Šajā gadījumā mainīgie ir: debitors Nr. 1202 un pasūtījuma kopējā summa 1000,00. Nosacījums norāda, ka ja debitors Nr. 1202 veic pasūtījumu un kopējā pasūtījuma summa ir 1,000.00 vai lielāka, pārdošanas pasūtījums ir jāaiztur līdz debitora maksājumu būs iespējams pārbaudīt.
+<span data-ttu-id="18ab5-111">Pirms dinamiskās kārtulas izveidošanas ir jāizveido mainīgie un nosacījumi, kas definē, uz kurām personām kārtula attiecas un kad kārtula ir jāpiemēro.</span><span class="sxs-lookup"><span data-stu-id="18ab5-111">Before you create a dynamic rule, you must create the variables and conditions that define who the rule applies to and when the rule should be applied.</span></span> <span data-ttu-id="18ab5-112">Piemēram, jūs vēlaties izveidot kārtulu, lai pieprasītu to, ka, debitoram Nr. 1202 izdarot pārdošanas pasūtījumu vismaz 1000,00 vērtībā, pārdošanas pasūtījums ir jāaiztur, līdz iespējams pārbaudīt debitora maksājumu.</span><span class="sxs-lookup"><span data-stu-id="18ab5-112">For example, you want to create a rule to require that any sales order that customer 1202 places that is worth 1,000.00 or more be put on hold until the customer payment can be verified.</span></span> <span data-ttu-id="18ab5-113">Šajā gadījumā mainīgie ir: debitors Nr. 1202 un pasūtījuma kopējā summa 1000,00.</span><span class="sxs-lookup"><span data-stu-id="18ab5-113">In this case, the variables are customer 1202 and an order total of 1,000.00.</span></span> <span data-ttu-id="18ab5-114">Nosacījums norāda, ka ja debitors Nr. 1202 veic pasūtījumu un kopējā pasūtījuma summa ir 1,000.00 vai lielāka, pārdošanas pasūtījums ir jāaiztur līdz debitora maksājumu būs iespējams pārbaudīt.</span><span class="sxs-lookup"><span data-stu-id="18ab5-114">The condition specifies that if customer 1202 places an order, and the total amount of the order is equal to or more than 1,000.00, the sales order must be put on hold until the customer payment can be verified.</span></span>
 
 
 

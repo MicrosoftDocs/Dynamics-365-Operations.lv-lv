@@ -16,53 +16,53 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 8afbcf781e917f48136e06692234d49302b077fb
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: f2dab127a40a1a48b49077d4b2395f5b8c58116b
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-payment-slip-format-for-project-invoices"></a>Maksājuma kvīts formāta iestatīšana projekta rēķiniem
+# <a name="set-up-payment-slip-format-for-project-invoices"></a><span data-ttu-id="313da-103">Maksājuma kvīts formāta iestatīšana projekta rēķiniem</span><span class="sxs-lookup"><span data-stu-id="313da-103">Set up payment slip format for project invoices</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Uzņēmumi parasti pievieno rēķiniem izdrukātas maksājuma kvītis, lai palīdzētu debitoriem un sniegtu maksājuma atsauci grāmatošanas un norēķinu nolūkiem. Maksājuma kvīts papildus pārdošanas rēķiniem vai brīva teksta rēķiniem var izmantot projektu vai pakalpojumu rēķiniem, atgādinājuma vēstulēm, procentu paziņojumiem un konta pārskatiem. Lai apstrādātu maksājuma kvītis, vispirms jāiestata kreditora identifikācijas numurs un maksājuma kvīts pielikuma formāti.
+<span data-ttu-id="313da-104">Uzņēmumi parasti pievieno rēķiniem izdrukātas maksājuma kvītis, lai palīdzētu debitoriem un sniegtu maksājuma atsauci grāmatošanas un norēķinu nolūkiem.</span><span class="sxs-lookup"><span data-stu-id="313da-104">Businesses commonly attach printed payment slips to invoices to assist customers and provide a payment reference for posting and settlement.</span></span> <span data-ttu-id="313da-105">Maksājuma kvīts papildus pārdošanas rēķiniem vai brīva teksta rēķiniem var izmantot projektu vai pakalpojumu rēķiniem, atgādinājuma vēstulēm, procentu paziņojumiem un konta pārskatiem.</span><span class="sxs-lookup"><span data-stu-id="313da-105">The payment slip can be used for project or service invoices, collection letters, interest notes, and account statements, in addition to sales invoices and free text invoices.</span></span> <span data-ttu-id="313da-106">Lai apstrādātu maksājuma kvītis, vispirms jāiestata kreditora identifikācijas numurs un maksājuma kvīts pielikuma formāti.</span><span class="sxs-lookup"><span data-stu-id="313da-106">To process payment slips, first set up your creditor identification number and payment slip attachment formats.</span></span>
 
-Procedūrā tiek izmantoti demonstrācijas uzņēmuma “DEMF” dati. 
+<span data-ttu-id="313da-107">Procedūrā tiek izmantoti demonstrācijas uzņēmuma “DEMF” dati.</span><span class="sxs-lookup"><span data-stu-id="313da-107">This procedure uses the DEMF demo company.</span></span> 
 
-Šī funkcionalitāte ir pieejama juridiskām personām, kuru primārā adrese ir Dānijā.
+<span data-ttu-id="313da-108">Šī funkcionalitāte ir pieejama juridiskām personām, kuru primārā adrese ir Dānijā.</span><span class="sxs-lookup"><span data-stu-id="313da-108">This functionality is available for legal entities whose primary address is in Denmark.</span></span>
 
 
-## <a name="set-up-a-creditor-id-number"></a>Kreditora ID numura iestatīšana
-1. Pārejiet uz sadaļu Organizācijas administrēšana > Organizācijas > Juridiskās personas.
-2. Izvērsiet vai sakļaujiet sadaļu Bankas konta informācija.
-3. Noklikšķiniet uz Rediģēt.
-4. Laukā FI kreditora ID ierakstiet vērtību.
-5. Noklikšķiniet uz Saglabāt.
-6. Aizvērt lapu.
+## <a name="set-up-a-creditor-id-number"></a><span data-ttu-id="313da-109">Kreditora ID numura iestatīšana</span><span class="sxs-lookup"><span data-stu-id="313da-109">Set up a creditor ID number</span></span>
+1. <span data-ttu-id="313da-110">Pārejiet uz sadaļu Organizācijas administrēšana > Organizācijas > Juridiskās personas.</span><span class="sxs-lookup"><span data-stu-id="313da-110">Go to Organization administration > Organizations > Legal entities.</span></span>
+2. <span data-ttu-id="313da-111">Izvērsiet vai sakļaujiet sadaļu Bankas konta informācija.</span><span class="sxs-lookup"><span data-stu-id="313da-111">Expand or collapse the Bank account information section.</span></span>
+3. <span data-ttu-id="313da-112">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="313da-112">Click Edit.</span></span>
+4. <span data-ttu-id="313da-113">Laukā FI kreditora ID ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="313da-113">In the FI-Creditor ID field, type a value.</span></span>
+5. <span data-ttu-id="313da-114">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="313da-114">Click Save.</span></span>
+6. <span data-ttu-id="313da-115">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="313da-115">Close the page.</span></span>
 
-## <a name="set-up-a-payment-slip-format-for-invoices-notes-letters-and-statements"></a>Maksājuma kvīts formāta iestatīšana rēķiniem, pavadzīmēm, vēstulēm un pārskatiem
-1. Pārejiet uz sadaļu Debitori > Iestatījumi > Veidlapas > Veidlapu iestatīšana.
-2. Noklikšķiniet uz cilnes Rēķins.
-3. Laukā Saistīt maksājumu pielikumu debitora rēķinam atlasiet opciju.
-    * Nav — nedrukāt maksājuma kvīti. Izvēlieties šo opciju, ja maksājuma summa ir valūtā, kas nav dāņu krona (DKK).   FIK 751 — drukāt FIK 751 maksājuma kvīti, ja maksājuma summu un izpildes datumu plānojat maksājuma kvītī ierakstīt manuāli.   FIK 752 — drukājiet FIK 752 maksājuma kvīti, ja plānojat izmantot datora ģenerētu maksājuma kvīti, kurā jau iepriekš tika ierakstīta maksājuma summa un izpildes datums.  
-4. Noklikšķiniet uz Saglabāt.
-5. Noklikšķiniet uz cilnes Brīva teksta rēķins.
-6. Laukā Saistītā maksājuma pielikums brīvā teksta rēķinam atlasiet opciju.
-    * Nav — nedrukāt maksājuma kvīti. Izvēlieties šo opciju, ja maksājuma summa ir valūtā, kas nav dāņu krona (DKK).   FIK 751 — drukājiet FIK 751 maksājuma kvīti, ja plānojat manuāli ierakstīt maksājuma summu un izpildes datumu maksājuma kvītī.   FIK 752 — drukājiet FIK 752 maksājuma kvīti, ja plānojat izmantot datora ģenerētu maksājuma kvīti, kurā jau iepriekš tika ierakstīta maksājuma summa un izpildes datums.  
-7. Noklikšķiniet uz Saglabāt.
-8. Noklikšķiniet uz cilnes Procentu paziņojums.
-9. Laukā Saistīt maksājuma pielikumu procentu paziņojumam atlasiet opciju.
-    * Nav — nedrukāt maksājuma kvīti. Izvēlieties šo opciju, ja maksājuma summa ir valūtā, kas nav dāņu krona (DKK).   FIK 751 — drukājiet FIK 751 maksājuma kvīti, ja plānojat manuāli ierakstīt maksājuma summu un izpildes datumu maksājuma kvītī.   FIK 752 — drukājiet FIK 752 maksājuma kvīti, ja plānojat izmantot datora ģenerētu maksājuma kvīti, kurā jau iepriekš tika ierakstīta maksājuma summa un izpildes datums.  
-10. Noklikšķiniet uz Saglabāt.
-11. Noklikšķiniet uz cilnes Atgādinājuma vēstule.
-12. Laukā Saistīt maksājuma pielikumu ar atgādinājuma vēstuli atlasiet opciju.
-    * Nav — nedrukāt maksājuma kvīti. Izvēlieties šo opciju, ja maksājuma summa ir valūtā, kas nav dāņu krona (DKK).   FIK 751 — drukājiet FIK 751 maksājuma kvīti, ja plānojat manuāli ierakstīt maksājuma summu un izpildes datumu maksājuma kvītī.   FIK 752 — drukājiet FIK 752 maksājuma kvīti, ja plānojat izmantot datora ģenerētu maksājuma kvīti, kurā jau iepriekš tika ierakstīta maksājuma summa un izpildes datums.  
-13. Noklikšķiniet uz Saglabāt.
-14. Noklikšķiniet uz cilnes Konta pārskats.
-15. Laukā Starpkonta izrakstam pievienotais saistītais maksājums atlasiet opciju.
-    * Nav — nedrukāt maksājuma kvīti. Izvēlieties šo opciju, ja maksājuma summa ir valūtā, kas nav dāņu krona (DKK).   FIK 751 — drukājiet FIK 751 maksājuma kvīti, ja plānojat manuāli ierakstīt maksājuma summu un izpildes datumu maksājuma kvītī.   FIK 752 — drukājiet FIK 752 maksājuma kvīti, ja plānojat izmantot datora ģenerētu maksājuma kvīti, kurā jau iepriekš tika ierakstīta maksājuma summa un izpildes datums.  
-16. Noklikšķiniet uz Saglabāt.
-17. Aizvērt lapu.
+## <a name="set-up-a-payment-slip-format-for-invoices-notes-letters-and-statements"></a><span data-ttu-id="313da-116">Maksājuma kvīts formāta iestatīšana rēķiniem, pavadzīmēm, vēstulēm un pārskatiem</span><span class="sxs-lookup"><span data-stu-id="313da-116">Set up a payment slip format for invoices, notes, letters, and statements</span></span>
+1. <span data-ttu-id="313da-117">Pārejiet uz sadaļu Debitori > Iestatījumi > Veidlapas > Veidlapu iestatīšana.</span><span class="sxs-lookup"><span data-stu-id="313da-117">Go to Accounts receivable > Setup > Forms > Form setup.</span></span>
+2. <span data-ttu-id="313da-118">Noklikšķiniet uz cilnes Rēķins.</span><span class="sxs-lookup"><span data-stu-id="313da-118">Click the Invoice tab.</span></span>
+3. <span data-ttu-id="313da-119">Laukā Saistīt maksājumu pielikumu debitora rēķinam atlasiet opciju.</span><span class="sxs-lookup"><span data-stu-id="313da-119">In the Associated payment attachment on customer invoice field, select an option.</span></span>
+    * <span data-ttu-id="313da-120">Nav — nedrukāt maksājuma kvīti.</span><span class="sxs-lookup"><span data-stu-id="313da-120">None – Do not print a payment slip.</span></span> <span data-ttu-id="313da-121">Izvēlieties šo opciju, ja maksājuma summa ir valūtā, kas nav dāņu krona (DKK).</span><span class="sxs-lookup"><span data-stu-id="313da-121">Choose this option if the payment amount is in a currency other than Danish kroner (DKK).</span></span>   <span data-ttu-id="313da-122">FIK 751 — drukāt FIK 751 maksājuma kvīti, ja maksājuma summu un izpildes datumu plānojat maksājuma kvītī ierakstīt manuāli.</span><span class="sxs-lookup"><span data-stu-id="313da-122">FIK 751 – Print an FIK 751 payment slip if you intend to manually write the payment amount and due date on the payment slip.</span></span>   <span data-ttu-id="313da-123">FIK 752 — drukājiet FIK 752 maksājuma kvīti, ja plānojat izmantot datora ģenerētu maksājuma kvīti, kurā jau iepriekš tika ierakstīta maksājuma summa un izpildes datums.</span><span class="sxs-lookup"><span data-stu-id="313da-123">FIK 752 – Print an FIK 752 payment slip if you intend to use a computer-generated payment slip with a preprinted payment amount and due date.</span></span>  
+4. <span data-ttu-id="313da-124">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="313da-124">Click Save.</span></span>
+5. <span data-ttu-id="313da-125">Noklikšķiniet uz cilnes Brīva teksta rēķins.</span><span class="sxs-lookup"><span data-stu-id="313da-125">Click the Free text invoice tab.</span></span>
+6. <span data-ttu-id="313da-126">Laukā Saistītā maksājuma pielikums brīvā teksta rēķinam atlasiet opciju.</span><span class="sxs-lookup"><span data-stu-id="313da-126">In the Associated payment attachment on free text invoice field, select an option.</span></span>
+    * <span data-ttu-id="313da-127">Nav — nedrukāt maksājuma kvīti.</span><span class="sxs-lookup"><span data-stu-id="313da-127">None – Do not print a payment slip.</span></span> <span data-ttu-id="313da-128">Izvēlieties šo opciju, ja maksājuma summa ir valūtā, kas nav dāņu krona (DKK).</span><span class="sxs-lookup"><span data-stu-id="313da-128">Choose this option if the payment amount is in a currency other than Danish kroner (DKK).</span></span>   <span data-ttu-id="313da-129">FIK 751 — drukājiet FIK 751 maksājuma kvīti, ja plānojat manuāli ierakstīt maksājuma summu un izpildes datumu maksājuma kvītī.</span><span class="sxs-lookup"><span data-stu-id="313da-129">FIK 751 – Print an FIK 751 payment slip if you intend to write the payment amount and due date on the payment slip manually.</span></span>   <span data-ttu-id="313da-130">FIK 752 — drukājiet FIK 752 maksājuma kvīti, ja plānojat izmantot datora ģenerētu maksājuma kvīti, kurā jau iepriekš tika ierakstīta maksājuma summa un izpildes datums.</span><span class="sxs-lookup"><span data-stu-id="313da-130">FIK 752 – Print an FIK 752 payment slip if you intend to use a computer-generated payment slip with a preprinted payment amount and due date.</span></span>  
+7. <span data-ttu-id="313da-131">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="313da-131">Click Save.</span></span>
+8. <span data-ttu-id="313da-132">Noklikšķiniet uz cilnes Procentu paziņojums.</span><span class="sxs-lookup"><span data-stu-id="313da-132">Click the Interest note tab.</span></span>
+9. <span data-ttu-id="313da-133">Laukā Saistīt maksājuma pielikumu procentu paziņojumam atlasiet opciju.</span><span class="sxs-lookup"><span data-stu-id="313da-133">In the Associated payment attachment on interest note field, select an option.</span></span>
+    * <span data-ttu-id="313da-134">Nav — nedrukāt maksājuma kvīti.</span><span class="sxs-lookup"><span data-stu-id="313da-134">None – Do not print a payment slip.</span></span> <span data-ttu-id="313da-135">Izvēlieties šo opciju, ja maksājuma summa ir valūtā, kas nav dāņu krona (DKK).</span><span class="sxs-lookup"><span data-stu-id="313da-135">Choose this option if the payment amount is in a currency other than Danish kroner (DKK).</span></span>   <span data-ttu-id="313da-136">FIK 751 — drukājiet FIK 751 maksājuma kvīti, ja plānojat manuāli ierakstīt maksājuma summu un izpildes datumu maksājuma kvītī.</span><span class="sxs-lookup"><span data-stu-id="313da-136">FIK 751 – Print an FIK 751 payment slip if you intend to write the payment amount and due date on the payment slip manually.</span></span>   <span data-ttu-id="313da-137">FIK 752 — drukājiet FIK 752 maksājuma kvīti, ja plānojat izmantot datora ģenerētu maksājuma kvīti, kurā jau iepriekš tika ierakstīta maksājuma summa un izpildes datums.</span><span class="sxs-lookup"><span data-stu-id="313da-137">FIK 752 – Print an FIK 752 payment slip if you intend to use a computer-generated payment slip with a preprinted payment amount and due date.</span></span>  
+10. <span data-ttu-id="313da-138">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="313da-138">Click Save.</span></span>
+11. <span data-ttu-id="313da-139">Noklikšķiniet uz cilnes Atgādinājuma vēstule.</span><span class="sxs-lookup"><span data-stu-id="313da-139">Click the Collection letter tab.</span></span>
+12. <span data-ttu-id="313da-140">Laukā Saistīt maksājuma pielikumu ar atgādinājuma vēstuli atlasiet opciju.</span><span class="sxs-lookup"><span data-stu-id="313da-140">In the Associated payment attachment on collection letter field, select an option.</span></span>
+    * <span data-ttu-id="313da-141">Nav — nedrukāt maksājuma kvīti.</span><span class="sxs-lookup"><span data-stu-id="313da-141">None – Do not print a payment slip.</span></span> <span data-ttu-id="313da-142">Izvēlieties šo opciju, ja maksājuma summa ir valūtā, kas nav dāņu krona (DKK).</span><span class="sxs-lookup"><span data-stu-id="313da-142">Choose this option if the payment amount is in a currency other than Danish kroner (DKK).</span></span>   <span data-ttu-id="313da-143">FIK 751 — drukājiet FIK 751 maksājuma kvīti, ja plānojat manuāli ierakstīt maksājuma summu un izpildes datumu maksājuma kvītī.</span><span class="sxs-lookup"><span data-stu-id="313da-143">FIK 751 – Print an FIK 751 payment slip if you intend to write the payment amount and due date on the payment slip manually.</span></span>   <span data-ttu-id="313da-144">FIK 752 — drukājiet FIK 752 maksājuma kvīti, ja plānojat izmantot datora ģenerētu maksājuma kvīti, kurā jau iepriekš tika ierakstīta maksājuma summa un izpildes datums.</span><span class="sxs-lookup"><span data-stu-id="313da-144">FIK 752 – Print an FIK 752 payment slip if you intend to use a computer-generated payment slip with a preprinted payment amount and due date.</span></span>  
+13. <span data-ttu-id="313da-145">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="313da-145">Click Save.</span></span>
+14. <span data-ttu-id="313da-146">Noklikšķiniet uz cilnes Konta pārskats.</span><span class="sxs-lookup"><span data-stu-id="313da-146">Click the Account statement tab.</span></span>
+15. <span data-ttu-id="313da-147">Laukā Starpkonta izrakstam pievienotais saistītais maksājums atlasiet opciju.</span><span class="sxs-lookup"><span data-stu-id="313da-147">In the Associated payment attachment on account statement field, select an option.</span></span>
+    * <span data-ttu-id="313da-148">Nav — nedrukāt maksājuma kvīti.</span><span class="sxs-lookup"><span data-stu-id="313da-148">None – Do not print a payment slip.</span></span> <span data-ttu-id="313da-149">Izvēlieties šo opciju, ja maksājuma summa ir valūtā, kas nav dāņu krona (DKK).</span><span class="sxs-lookup"><span data-stu-id="313da-149">Choose this option if the payment amount is in a currency other than Danish kroner (DKK).</span></span>   <span data-ttu-id="313da-150">FIK 751 — drukājiet FIK 751 maksājuma kvīti, ja plānojat manuāli ierakstīt maksājuma summu un izpildes datumu maksājuma kvītī.</span><span class="sxs-lookup"><span data-stu-id="313da-150">FIK 751 – Print an FIK 751 payment slip if you intend to write the payment amount and due date on the payment slip manually.</span></span>   <span data-ttu-id="313da-151">FIK 752 — drukājiet FIK 752 maksājuma kvīti, ja plānojat izmantot datora ģenerētu maksājuma kvīti, kurā jau iepriekš tika ierakstīta maksājuma summa un izpildes datums.</span><span class="sxs-lookup"><span data-stu-id="313da-151">FIK 752 – Print an FIK 752 payment slip if you intend to use a computer-generated payment slip with a preprinted payment amount and due date.</span></span>  
+16. <span data-ttu-id="313da-152">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="313da-152">Click Save.</span></span>
+17. <span data-ttu-id="313da-153">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="313da-153">Close the page.</span></span>
 
 

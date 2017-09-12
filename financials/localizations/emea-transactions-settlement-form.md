@@ -18,34 +18,34 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e0d9da83c251185d990c0001373c30b9e393be45
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 00c7ae430cbcf92b211a3525ff8b41e042b033e4
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="view-transactions-on-settlement-for-eastern-europe"></a>Skatīt nosegšanas transakcijas Austrumeiropai
+# <a name="view-transactions-on-settlement-for-eastern-europe"></a><span data-ttu-id="83c3f-103">Skatīt nosegšanas transakcijas Austrumeiropai</span><span class="sxs-lookup"><span data-stu-id="83c3f-103">View transactions on settlement for Eastern Europe</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Šajā tēmā ir sniegta informācija par lapu Nosegšanas transakcijas debitoriem un kreditoriem.
+<span data-ttu-id="83c3f-104">Šajā tēmā ir sniegta informācija par lapu Nosegšanas transakcijas debitoriem un kreditoriem.</span><span class="sxs-lookup"><span data-stu-id="83c3f-104">This topic provides information about the Transactions on settlement page for customers and vendors.</span></span>
 
-Izmantojiet lapu **Nosegšanas transakcijas**, lai skatītu informāciju par kompleksām nosegšanas transakcijām kādam debitoram vai kreditoram. Šis līdzeklis ir pieejams tikai juridiskām personām, kuru primārā adrese ir Lietuvā, Latvijā, Igaunijā, Čehijā, Ungārijā vai Polijā. Lapa **Nosegšanas transakcijas** ir atrodama tālāk norādītajās vietās.
+<span data-ttu-id="83c3f-105">Izmantojiet lapu **Nosegšanas transakcijas**, lai skatītu informāciju par kompleksām nosegšanas transakcijām kādam debitoram vai kreditoram.</span><span class="sxs-lookup"><span data-stu-id="83c3f-105">Use the **Transactions on settlement** page to view information about complex settlement transactions for a customer or a vendor.</span></span> <span data-ttu-id="83c3f-106">Šis līdzeklis ir pieejams tikai juridiskām personām, kuru primārā adrese ir Lietuvā, Latvijā, Igaunijā, Čehijā, Ungārijā vai Polijā.</span><span class="sxs-lookup"><span data-stu-id="83c3f-106">This feature is available only for legal entities that have their primary address in Lithuania, Latvia, Estonia, Czech Republic, Hungary, or Poland.</span></span> <span data-ttu-id="83c3f-107">Lapa **Nosegšanas transakcijas** ir atrodama tālāk norādītajās vietās.</span><span class="sxs-lookup"><span data-stu-id="83c3f-107">You can find the **Transactions on settlement** page at the following locations:</span></span>
 
--   **Parādi kreditoriem** &gt; **Kreditori** &gt; **Visi kreditori**. Darbības rūts cilnē **Kreditors** noklikšķiniet uz **Transakcijas** &gt; **Transakcijas**. Lapā **Kreditoru transakcijas** atlasiet kādu transakciju un pēc tam noklikšķiniet uz **Nosegšanas transakcijas**.
--   **Debitoru parādi** &gt; **Debitori** &gt; **Visi debitori**. Darbības rūts cilnē **Debitors** noklikšķiniet uz **Transakcijas**. Lapā **Debitoru transakcijas** atlasiet kādu transakciju un pēc tam noklikšķiniet uz **Nosegšanas transakcijas**.
+-   <span data-ttu-id="83c3f-108">**Parādi kreditoriem** &gt; **Kreditori** &gt; **Visi kreditori**.</span><span class="sxs-lookup"><span data-stu-id="83c3f-108">**Accounts payable** &gt; **Vendors** &gt; **All vendors**.</span></span> <span data-ttu-id="83c3f-109">Darbības rūts cilnē **Kreditors** noklikšķiniet uz **Transakcijas** &gt; **Transakcijas**.</span><span class="sxs-lookup"><span data-stu-id="83c3f-109">On the Action Pane, on the **Vendor** tab, click **Transactions** &gt; **Transactions**.</span></span> <span data-ttu-id="83c3f-110">Lapā **Kreditoru transakcijas** atlasiet kādu transakciju un pēc tam noklikšķiniet uz **Nosegšanas transakcijas**.</span><span class="sxs-lookup"><span data-stu-id="83c3f-110">On the **Vendor transactions** page, select a transaction, and then click **Transactions on settlement**.</span></span>
+-   <span data-ttu-id="83c3f-111">**Debitoru parādi** &gt; **Debitori** &gt; **Visi debitori**.</span><span class="sxs-lookup"><span data-stu-id="83c3f-111">**Accounts receivable** &gt; **Customers** &gt; **All customers**.</span></span> <span data-ttu-id="83c3f-112">Darbības rūts cilnē **Debitors** noklikšķiniet uz **Transakcijas**.</span><span class="sxs-lookup"><span data-stu-id="83c3f-112">On the Action Pane, on the **Customer** tab, click **Transactions**.</span></span> <span data-ttu-id="83c3f-113">Lapā **Debitoru transakcijas** atlasiet kādu transakciju un pēc tam noklikšķiniet uz **Nosegšanas transakcijas**.</span><span class="sxs-lookup"><span data-stu-id="83c3f-113">On the **Customer transactions** page, select a transaction, and then click **Transactions on settlement**.</span></span>
 
-Ar nosegšanu saistītā informācija tiek tverta un to var parādīt lapā **Nosegšanas transakcijas** attiecībā uz transakcijām, kuras tika izveidotas tālāk uzskaitītajos scenārijos.
+<span data-ttu-id="83c3f-114">Ar nosegšanu saistītā informācija tiek tverta un to var parādīt lapā **Nosegšanas transakcijas** attiecībā uz transakcijām, kuras tika izveidotas tālāk uzskaitītajos scenārijos.</span><span class="sxs-lookup"><span data-stu-id="83c3f-114">Settlement-related information is captured and can be shown on the **Transactions on settlement** page for transactions that were created in the following scenarios:</span></span>
 
--   **Valūtas pārrēķins** — rēķina un maksājuma nosegšana ģenerē realizētu vai nerealizētu valūtas maiņas kursa starpību.
--   **Grāmatošanas metodes izmaiņas** — tiek nosegti divi ieraksti, piemēram, rēķins un kredītrēķins, kuriem ir dažādas grāmatošanas metodes.
--   Priekšapmaksa tiek pārveidota par maksājumu, vai maksājums tiek pārveidots par priekšapmaksu.
--   **Termiņatlaide** — rēķins tiek nosegts ar maksājumu, no kura ir atņemta atlaides summa.
--   **Sīknaudas starpība** — rēķins tiek nosegts ar maksājumu, kura summa nedaudz atšķiras no rēķina summas.
--   **Nosacījuma nodokļu grāmatošana** — rēķins tiek nosegts ar maksājumu, kuram tiek lietots nosacījuma nodoklis.
--   **Starpuzņēmumu nosegšana** — lai rēķinu nosegtu ar maksājumu no kādas organizācijas, tiek lietota starpuzņēmumu funkcionalitāte.
+-   <span data-ttu-id="83c3f-115">**Valūtas pārrēķins** — rēķina un maksājuma nosegšana ģenerē realizētu vai nerealizētu valūtas maiņas kursa starpību.</span><span class="sxs-lookup"><span data-stu-id="83c3f-115">**Exchange adjustment** – Settlement of an invoice and a payment generates a realized or unrealized exchange rate difference.</span></span>
+-   <span data-ttu-id="83c3f-116">**Grāmatošanas metodes izmaiņas** — tiek nosegti divi ieraksti, piemēram, rēķins un kredītrēķins, kuriem ir dažādas grāmatošanas metodes.</span><span class="sxs-lookup"><span data-stu-id="83c3f-116">**Posting profile change** – Two entries, such as an invoice and a credit memo, that have different posting profiles are settled.</span></span>
+-   <span data-ttu-id="83c3f-117">Priekšapmaksa tiek pārveidota par maksājumu, vai maksājums tiek pārveidots par priekšapmaksu.</span><span class="sxs-lookup"><span data-stu-id="83c3f-117">A prepayment is converted to a payment, or a payment is converted to a prepayment.</span></span>
+-   <span data-ttu-id="83c3f-118">**Termiņatlaide** — rēķins tiek nosegts ar maksājumu, no kura ir atņemta atlaides summa.</span><span class="sxs-lookup"><span data-stu-id="83c3f-118">**Cash discount** – An invoice is settled with a payment that a discount amount has been deducted from.</span></span>
+-   <span data-ttu-id="83c3f-119">**Sīknaudas starpība** — rēķins tiek nosegts ar maksājumu, kura summa nedaudz atšķiras no rēķina summas.</span><span class="sxs-lookup"><span data-stu-id="83c3f-119">**Penny difference** – An invoice is settled with a payment that has a slightly different amount than the invoice.</span></span>
+-   <span data-ttu-id="83c3f-120">**Nosacījuma nodokļu grāmatošana** — rēķins tiek nosegts ar maksājumu, kuram tiek lietots nosacījuma nodoklis.</span><span class="sxs-lookup"><span data-stu-id="83c3f-120">**Conditional tax posting** – An invoice is settled with a payment that conditional tax has been applied to.</span></span>
+-   <span data-ttu-id="83c3f-121">**Starpuzņēmumu nosegšana** — lai rēķinu nosegtu ar maksājumu no kādas organizācijas, tiek lietota starpuzņēmumu funkcionalitāte.</span><span class="sxs-lookup"><span data-stu-id="83c3f-121">**Cross-company settlement** – Intercompany functionality is used to settle an invoice with a payment from an organization.</span></span>
 
 
 

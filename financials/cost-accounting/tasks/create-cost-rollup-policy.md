@@ -16,56 +16,56 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 51fabc8fe17a45d104be5da806d7076bcf9c5dbb
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 42656cbf445fd3f79844884d7d35243c5b051a4a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-cost-rollup-policy"></a>Izmaksu apkopošanas politikas izveide
+# <a name="create-a-cost-rollup-policy"></a><span data-ttu-id="71629-103">Izmaksu apkopošanas politikas izveide</span><span class="sxs-lookup"><span data-stu-id="71629-103">Create a cost rollup policy</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šī procedūra parāda, kā izveidot izmaksu apkopošanas politiku un izveidot kārtulas politikai. Demonstrācijas dati, kas tiek izmantoti, lai izveidotu šo procedūru, ir USP2.
+<span data-ttu-id="71629-104">Šī procedūra parāda, kā izveidot izmaksu apkopošanas politiku un izveidot kārtulas politikai.</span><span class="sxs-lookup"><span data-stu-id="71629-104">This procedure shows how to create a cost rollup policy and create rules for the policy.</span></span> <span data-ttu-id="71629-105">Demonstrācijas dati, kas tiek izmantoti, lai izveidotu šo procedūru, ir USP2.</span><span class="sxs-lookup"><span data-stu-id="71629-105">The demo data used to create this procedure is USP2.</span></span>
 
 
-## <a name="create-a-policy"></a>Politikas izveide
-1. Dodieties uz Izmaksu uzskaite > Politikas > Izmaksu apkopojuma politikas.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Politikas nosaukums ierakstiet kādu vērtību.
-4. Apraksta laukā ierakstiet vērtību.
-5. Laukā Izmaksu objekta dimensiju hierarhija ievadiet vai atlasiet kādu vērtību.
-    * Atlasiet Izmaksu apkopojums CC.  
-6. Laukā Izmaksu elementa dimensiju hierarhija ievadiet vai atlasiet kādu vērtību.
-    * Atlasiet Izmaksu apkopojums CC.  
-7. Noklikšķiniet uz Saglabāt.
+## <a name="create-a-policy"></a><span data-ttu-id="71629-106">Politikas izveide</span><span class="sxs-lookup"><span data-stu-id="71629-106">Create a policy</span></span>
+1. <span data-ttu-id="71629-107">Dodieties uz Izmaksu uzskaite > Politikas > Izmaksu apkopojuma politikas.</span><span class="sxs-lookup"><span data-stu-id="71629-107">Go to Cost accounting > Policies > Cost rollup policies.</span></span>
+2. <span data-ttu-id="71629-108">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="71629-108">Click New.</span></span>
+3. <span data-ttu-id="71629-109">Laukā Politikas nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="71629-109">In the Policy name field, type a value.</span></span>
+4. <span data-ttu-id="71629-110">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="71629-110">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="71629-111">Laukā Izmaksu objekta dimensiju hierarhija ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="71629-111">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="71629-112">Atlasiet Izmaksu apkopojums CC.</span><span class="sxs-lookup"><span data-stu-id="71629-112">Select Cost rollup CC.</span></span>  
+6. <span data-ttu-id="71629-113">Laukā Izmaksu elementa dimensiju hierarhija ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="71629-113">In the Cost element dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="71629-114">Atlasiet Izmaksu apkopojums CC.</span><span class="sxs-lookup"><span data-stu-id="71629-114">Select Cost rollup CC.</span></span>  
+7. <span data-ttu-id="71629-115">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="71629-115">Click Save.</span></span>
 
-## <a name="create-rules-for-the-cost-rollup-policy"></a>Kārtulu izveide izmaksu apkopošanas politikai
-1. Noklikšķiniet uz Jauns.
-2. Sarakstā atzīmējiet atlasīto rindu.
-3. Laukā Izmaksu objekta dimensiju hierarhijas zars ievadiet vai atlasiet kādu vērtību.
-    * Atlasiet 007.  
-4. Laukā Izmaksu elementa dimensiju hierarhijas zars ievadiet vai atlasiet kādu vērtību.
-    * Atlasiet Izmaksu apkopojums CE.  
-5. Laukā Sekundārais izmaksu elements ievadiet vai atlasiet kādu vērtību.
-    * Šim piemēram kartējiet sekundāro izmaksu elementu CC-007 uz izmaksu centru.  
-6. Noklikšķiniet uz Jauns.
-7. Sarakstā atzīmējiet atlasīto rindu.
-8. Laukā Izmaksu objekta dimensiju hierarhijas zars ievadiet vai atlasiet kādu vērtību.
-    * Atlasiet 008.  
-9. Laukā Izmaksu elementa dimensiju hierarhijas zars ievadiet vai atlasiet kādu vērtību.
-    * Atlasiet Izmaksu apkopojums CE.  
-10. Laukā Sekundārais izmaksu elements ievadiet vai atlasiet kādu vērtību.
-    * Šim piemēram kartējiet sekundāro izmaksu elementu CC-008 uz izmaksu centru.  
-11. Noklikšķiniet uz Jauns.
-12. Sarakstā atzīmējiet atlasīto rindu.
-13. Laukā Izmaksu objekta dimensiju hierarhijas zars ievadiet vai atlasiet kādu vērtību.
-    * Atlasiet 009.  
-14. Laukā Izmaksu elementa dimensiju hierarhijas zars ievadiet vai atlasiet kādu vērtību.
-    * Atlasiet Izmaksu apkopojums CE.  
-15. Laukā Sekundārais izmaksu elements ievadiet vai atlasiet kādu vērtību.
-    * Šim piemēram kartējiet sekundāro izmaksu elementu CC-009 uz izmaksu centru.  
-    * Turpiniet, līdz visi izmaksu centri tiek kartēti uz to attiecīgajiem sekundārajiem izmaksu elementiem.  
-16. Noklikšķiniet uz Saglabāt.
+## <a name="create-rules-for-the-cost-rollup-policy"></a><span data-ttu-id="71629-116">Kārtulu izveide izmaksu apkopošanas politikai</span><span class="sxs-lookup"><span data-stu-id="71629-116">Create rules for the cost rollup policy</span></span>
+1. <span data-ttu-id="71629-117">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="71629-117">Click New.</span></span>
+2. <span data-ttu-id="71629-118">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="71629-118">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="71629-119">Laukā Izmaksu objekta dimensiju hierarhijas zars ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="71629-119">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="71629-120">Atlasiet 007.</span><span class="sxs-lookup"><span data-stu-id="71629-120">Select 007.</span></span>  
+4. <span data-ttu-id="71629-121">Laukā Izmaksu elementa dimensiju hierarhijas zars ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="71629-121">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="71629-122">Atlasiet Izmaksu apkopojums CE.</span><span class="sxs-lookup"><span data-stu-id="71629-122">Select Cost rollup CE.</span></span>  
+5. <span data-ttu-id="71629-123">Laukā Sekundārais izmaksu elements ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="71629-123">In the Secondary cost element field, enter or select a value.</span></span>
+    * <span data-ttu-id="71629-124">Šim piemēram kartējiet sekundāro izmaksu elementu CC-007 uz izmaksu centru.</span><span class="sxs-lookup"><span data-stu-id="71629-124">For this example, map the secondary cost element CC-007 to the cost center.</span></span>  
+6. <span data-ttu-id="71629-125">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="71629-125">Click New.</span></span>
+7. <span data-ttu-id="71629-126">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="71629-126">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="71629-127">Laukā Izmaksu objekta dimensiju hierarhijas zars ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="71629-127">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="71629-128">Atlasiet 008.</span><span class="sxs-lookup"><span data-stu-id="71629-128">Select 008.</span></span>  
+9. <span data-ttu-id="71629-129">Laukā Izmaksu elementa dimensiju hierarhijas zars ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="71629-129">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="71629-130">Atlasiet Izmaksu apkopojums CE.</span><span class="sxs-lookup"><span data-stu-id="71629-130">Select Cost rollup CE.</span></span>  
+10. <span data-ttu-id="71629-131">Laukā Sekundārais izmaksu elements ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="71629-131">In the Secondary cost element field, enter or select a value.</span></span>
+    * <span data-ttu-id="71629-132">Šim piemēram kartējiet sekundāro izmaksu elementu CC-008 uz izmaksu centru.</span><span class="sxs-lookup"><span data-stu-id="71629-132">For this example, map the secondary cost element CC-008 to the cost center.</span></span>  
+11. <span data-ttu-id="71629-133">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="71629-133">Click New.</span></span>
+12. <span data-ttu-id="71629-134">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="71629-134">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="71629-135">Laukā Izmaksu objekta dimensiju hierarhijas zars ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="71629-135">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="71629-136">Atlasiet 009.</span><span class="sxs-lookup"><span data-stu-id="71629-136">Select 009.</span></span>  
+14. <span data-ttu-id="71629-137">Laukā Izmaksu elementa dimensiju hierarhijas zars ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="71629-137">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="71629-138">Atlasiet Izmaksu apkopojums CE.</span><span class="sxs-lookup"><span data-stu-id="71629-138">Select Cost rollup CE.</span></span>  
+15. <span data-ttu-id="71629-139">Laukā Sekundārais izmaksu elements ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="71629-139">In the Secondary cost element field, enter or select a value.</span></span>
+    * <span data-ttu-id="71629-140">Šim piemēram kartējiet sekundāro izmaksu elementu CC-009 uz izmaksu centru.</span><span class="sxs-lookup"><span data-stu-id="71629-140">For this example, map the secondary cost element CC-009 to the cost center.</span></span>  
+    * <span data-ttu-id="71629-141">Turpiniet, līdz visi izmaksu centri tiek kartēti uz to attiecīgajiem sekundārajiem izmaksu elementiem.</span><span class="sxs-lookup"><span data-stu-id="71629-141">Continue until all cost centers are mapped to their corresponding secondary cost elements.</span></span>  
+16. <span data-ttu-id="71629-142">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="71629-142">Click Save.</span></span>
 
 

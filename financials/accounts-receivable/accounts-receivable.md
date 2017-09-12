@@ -15,24 +15,24 @@ ms.custom: 20671
 ms.assetid: 1040678e-ffcb-47fb-a1bc-626db8046504
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fe644d5e8f76da95d2738a5fa76eebfe47066fb7
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 066106db04ad34db1d0a07a41d57e167252d6459
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
-# <a name="accounts-receivable-home-page"></a>Moduļa “Debitoru parādi” sākumlapa
+# <a name="accounts-receivable-home-page"></a><span data-ttu-id="15831-103">Moduļa “Debitoru parādi” sākumlapa</span><span class="sxs-lookup"><span data-stu-id="15831-103">Accounts receivable home page</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Izmantojiet debitoru parādu moduli, lai izsekotu debitoru rēķinus un ienākošos maksājumus. 
+<span data-ttu-id="15831-104">Izmantojiet debitoru parādu moduli, lai izsekotu debitoru rēķinus un ienākošos maksājumus.</span><span class="sxs-lookup"><span data-stu-id="15831-104">Use Accounts receivable to track customer invoices and incoming payments.</span></span> 
 
-Jūs varat izveidot debitoru rēķinus, kuru pamatā ir pārdošanas pasūtījumi vai pavadzīmes. Turklāt varat ievadīt brīvā teksta rēķinus, kas nav saistīti ar pārdošanas pasūtījumiem. Jūs varat saņemt maksājumus, izmantojot vairākus dažādus maksājuma veidus. Tie ietver vekseļus, skaidru naudu, čekus, kredītkartes un elektroniskos maksājumus. Ja jūsu organizācijā ietilpst vairākas juridiskās personas, varat izmantot centralizētos maksājumus, lai reģistrētu maksājumus vienā juridiskajā personā pārējo juridisko personu vārdā.
+<span data-ttu-id="15831-105">Jūs varat izveidot debitoru rēķinus, kuru pamatā ir pārdošanas pasūtījumi vai pavadzīmes.</span><span class="sxs-lookup"><span data-stu-id="15831-105">You can create customer invoices that are based on sales orders or packing slips.</span></span> <span data-ttu-id="15831-106">Turklāt varat ievadīt brīvā teksta rēķinus, kas nav saistīti ar pārdošanas pasūtījumiem.</span><span class="sxs-lookup"><span data-stu-id="15831-106">You can also enter free text invoices that are not related to sales orders.</span></span> <span data-ttu-id="15831-107">Jūs varat saņemt maksājumus, izmantojot vairākus dažādus maksājuma veidus.</span><span class="sxs-lookup"><span data-stu-id="15831-107">You can receive payments by using several different payment types.</span></span> <span data-ttu-id="15831-108">Tie ietver vekseļus, skaidru naudu, čekus, kredītkartes un elektroniskos maksājumus.</span><span class="sxs-lookup"><span data-stu-id="15831-108">These include bills of exchange, cash, checks, credit cards, and electronic payments.</span></span> <span data-ttu-id="15831-109">Ja jūsu organizācijā ietilpst vairākas juridiskās personas, varat izmantot centralizētos maksājumus, lai reģistrētu maksājumus vienā juridiskajā personā pārējo juridisko personu vārdā.</span><span class="sxs-lookup"><span data-stu-id="15831-109">If your organization includes multiple legal entities, you can use centralized payments to record payments in a single legal entity on behalf of the other legal entities.</span></span>
 
 
 

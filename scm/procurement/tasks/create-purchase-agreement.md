@@ -16,72 +16,72 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 22a252d98da5415f50a1d6ffb28f57aae19b5d14
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 0d0cc6508071bea3f622bc21f06aa55d2b757b6f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-purchase-agreement"></a>Pirkšanas līguma izveide
+# <a name="create-a-purchase-agreement"></a><span data-ttu-id="48ac2-103">Pirkšanas līguma izveide</span><span class="sxs-lookup"><span data-stu-id="48ac2-103">Create a purchase agreement</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šī procedūra palīdz izveidot pirkšanas līgumu. Parasti to veic pirkšanas pārvaldnieks. Šo procedūru varat lietot, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus. Pirms sākt, jāiestata pirkšanas līgumu klasifikācijas. Kad esat izveidojis vienošanos, to var izmantot, veidojot PP, un šādi pirkšanas līguma nosacījumi tiks kopēti virsrakstā un jebkurās pasūtījuma rindās, kuras līgums ietekmē.
+<span data-ttu-id="48ac2-104">Šī procedūra palīdz izveidot pirkšanas līgumu.</span><span class="sxs-lookup"><span data-stu-id="48ac2-104">This procedure guides you through the creation of a purchase agreement.</span></span> <span data-ttu-id="48ac2-105">Parasti to veic pirkšanas pārvaldnieks.</span><span class="sxs-lookup"><span data-stu-id="48ac2-105">This would typically be done by a purchasing manager.</span></span> <span data-ttu-id="48ac2-106">Šo procedūru varat lietot, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.</span><span class="sxs-lookup"><span data-stu-id="48ac2-106">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="48ac2-107">Pirms sākt, jāiestata pirkšanas līgumu klasifikācijas.</span><span class="sxs-lookup"><span data-stu-id="48ac2-107">You need to have set up purchase agreement classifications before you start.</span></span> <span data-ttu-id="48ac2-108">Kad esat izveidojis vienošanos, to var izmantot, veidojot PP, un šādi pirkšanas līguma nosacījumi tiks kopēti virsrakstā un jebkurās pasūtījuma rindās, kuras līgums ietekmē.</span><span class="sxs-lookup"><span data-stu-id="48ac2-108">Once you've created an agreement you can use it when you create a PO, and this will copy the purchase agreement conditions to the header and to any lines in the order that are affected by the agreement.</span></span>
 
 
-## <a name="create-a-new-purchase-agreement"></a>Jauna pirkšanas līguma izveide
-1. Pārejiet uz sadaļu Sagāde un avoti > Pirkšanas līgumi > Pirkšanas līgumi.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Kreditora konts noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-4. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-5. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-6. Laukā Pirkšanas līgumu klasifikācija noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanas logu.
-7. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-8. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-9. Izvērsiet sadaļu Vispārīgi.
-10. Laukā Beigu datums ievadiet kādu datumu.
-    * Beigu datums būs noklusējuma datums visām saistību rindām un noteiks, cik ilgi katra saistība ir spēkā.  
-11. Laukā Dokumenta nosaukums ievadiet pirkuma līguma nosaukumu.
-    * Atstājiet lauku Noklusējuma saistības iestatītu Uz preču daudzumu attiecināmas saistības (vai mainiet, ja tā nav šādi iestatīta).  
-    * Noklusējuma saistību vērtība nosaka jūsu opcijas līguma rindās. Ja jums ir nepieciešams jauns saistību tips, veidojot līguma rindas, ir jāmaina noklusējuma saistības virsrakstā.  Pastāv 4 saistību tipi: Uz preču daudzumu attiecināmas saistības — attiecībā uz noteiktu preču daudzumu; Uz preču vērtību attiecināmas saistības — attiecībā uz konkrētu preces valūtas summu; Uz preces kategorijas vērtību attiecināmās saistības — attiecībā uz konkrētu valūtas summu sagādes kategorijā, kur summa var būt attiecināma uz kataloga krājumu vai krājumu, kas nav katalogā; Uz vērtību attiecināmās saistības — attiecībā uz konkrētu valūtas summu, kuru var izpildīt ar jebkuru preci vai jebkuru sagādes kategoriju.  
-12. Noklikšķiniet uz OK.
+## <a name="create-a-new-purchase-agreement"></a><span data-ttu-id="48ac2-109">Jauna pirkšanas līguma izveide</span><span class="sxs-lookup"><span data-stu-id="48ac2-109">Create a new purchase agreement</span></span>
+1. <span data-ttu-id="48ac2-110">Pārejiet uz sadaļu Sagāde un avoti > Pirkšanas līgumi > Pirkšanas līgumi.</span><span class="sxs-lookup"><span data-stu-id="48ac2-110">Go to Procurement and sourcing > Purchase agreements > Purchase agreements.</span></span>
+2. <span data-ttu-id="48ac2-111">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="48ac2-111">Click New.</span></span>
+3. <span data-ttu-id="48ac2-112">Laukā Kreditora konts noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="48ac2-112">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="48ac2-113">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="48ac2-113">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="48ac2-114">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="48ac2-114">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="48ac2-115">Laukā Pirkšanas līgumu klasifikācija noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanas logu.</span><span class="sxs-lookup"><span data-stu-id="48ac2-115">In the Purchase agreement classification field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="48ac2-116">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="48ac2-116">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="48ac2-117">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="48ac2-117">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="48ac2-118">Izvērsiet sadaļu Vispārīgi.</span><span class="sxs-lookup"><span data-stu-id="48ac2-118">Expand the General section.</span></span>
+10. <span data-ttu-id="48ac2-119">Laukā Beigu datums ievadiet kādu datumu.</span><span class="sxs-lookup"><span data-stu-id="48ac2-119">In the Expiration date field, enter a date.</span></span>
+    * <span data-ttu-id="48ac2-120">Beigu datums būs noklusējuma datums visām saistību rindām un noteiks, cik ilgi katra saistība ir spēkā.</span><span class="sxs-lookup"><span data-stu-id="48ac2-120">This expiration date will be the default for all commitment lines and will determine how long each specific commitment is valid.</span></span>  
+11. <span data-ttu-id="48ac2-121">Laukā Dokumenta nosaukums ievadiet pirkuma līguma nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="48ac2-121">In the Document title field, type a name for your purchase agreement.</span></span>
+    * <span data-ttu-id="48ac2-122">Atstājiet lauku Noklusējuma saistības iestatītu Uz preču daudzumu attiecināmas saistības (vai mainiet, ja tā nav šādi iestatīta).</span><span class="sxs-lookup"><span data-stu-id="48ac2-122">Leave the Default commitment field set to Product quantity commitment (or change it if it’s not set to this).</span></span>  
+    * <span data-ttu-id="48ac2-123">Noklusējuma saistību vērtība nosaka jūsu opcijas līguma rindās.</span><span class="sxs-lookup"><span data-stu-id="48ac2-123">The default commitment value determines your options on the agreement lines.</span></span> <span data-ttu-id="48ac2-124">Ja jums ir nepieciešams jauns saistību tips, veidojot līguma rindas, ir jāmaina noklusējuma saistības virsrakstā.</span><span class="sxs-lookup"><span data-stu-id="48ac2-124">If you need a new commitment type when you’re creating the agreement lines, you need to change the default commitment on the header.</span></span>  <span data-ttu-id="48ac2-125">Pastāv 4 saistību tipi: Uz preču daudzumu attiecināmas saistības — attiecībā uz noteiktu preču daudzumu; Uz preču vērtību attiecināmas saistības — attiecībā uz konkrētu preces valūtas summu; Uz preces kategorijas vērtību attiecināmās saistības — attiecībā uz konkrētu valūtas summu sagādes kategorijā, kur summa var būt attiecināma uz kataloga krājumu vai krājumu, kas nav katalogā; Uz vērtību attiecināmās saistības — attiecībā uz konkrētu valūtas summu, kuru var izpildīt ar jebkuru preci vai jebkuru sagādes kategoriju.</span><span class="sxs-lookup"><span data-stu-id="48ac2-125">There are 4 types of commitments: Product quantity commitment - for a specific quantity of a product; Product value commitment - for a specific currency amount of a product; Product category value commitment - for a specific currency amount in a procurement category where the amount can be for a catalog item or a non-catalog item; Value commitment - for a specific currency amount which can be fulfilled by any product or by any procurement category.</span></span>  
+12. <span data-ttu-id="48ac2-126">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="48ac2-126">Click OK.</span></span>
 
-## <a name="add-a-commitment"></a>Saistību pievienošana
-1. Noklikšķiniet uz Pievienot rindu.
-2. Sarakstā atzīmējiet atlasīto rindu.
-3. Laukā Krājuma kods noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-4. Atlasiet preci, kurai vēlaties pievienot saistības.
-5. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-6. Laukā Daudzums ievadiet skaitli.
-    * Tas ir kopējais daudzums, kuru vienojāties iegādāties no kreditora.  
-7. Laukā Vienības cena ievadiet kādu skaitli.
-8. Izvērsiet sadaļu Detalizēta informācija par rindu.
-9. Iestatiet opciju Sasniegts maksimums uz Jā.
-    * Opcija Sasniegts maksimums ierobežo saistību izmantošanu. Jūs varat iegādāties tikai līdz daudzumam, kas norādīts rindas laukā Daudzums.  
-10. Sakļaujiet sadaļu Detalizēta rindas informācija.
+## <a name="add-a-commitment"></a><span data-ttu-id="48ac2-127">Saistību pievienošana</span><span class="sxs-lookup"><span data-stu-id="48ac2-127">Add a commitment</span></span>
+1. <span data-ttu-id="48ac2-128">Noklikšķiniet uz Pievienot rindu.</span><span class="sxs-lookup"><span data-stu-id="48ac2-128">Click Add line.</span></span>
+2. <span data-ttu-id="48ac2-129">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="48ac2-129">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="48ac2-130">Laukā Krājuma kods noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="48ac2-130">In the Item number field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="48ac2-131">Atlasiet preci, kurai vēlaties pievienot saistības.</span><span class="sxs-lookup"><span data-stu-id="48ac2-131">Select the product you want to add a commitment for.</span></span>
+5. <span data-ttu-id="48ac2-132">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="48ac2-132">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="48ac2-133">Laukā Daudzums ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="48ac2-133">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="48ac2-134">Tas ir kopējais daudzums, kuru vienojāties iegādāties no kreditora.</span><span class="sxs-lookup"><span data-stu-id="48ac2-134">This is the total quantity that you have agreed to buy from your vendor.</span></span>  
+7. <span data-ttu-id="48ac2-135">Laukā Vienības cena ievadiet kādu skaitli.</span><span class="sxs-lookup"><span data-stu-id="48ac2-135">In the Unit price field, enter a number.</span></span>
+8. <span data-ttu-id="48ac2-136">Izvērsiet sadaļu Detalizēta informācija par rindu.</span><span class="sxs-lookup"><span data-stu-id="48ac2-136">Expand the Line details section.</span></span>
+9. <span data-ttu-id="48ac2-137">Iestatiet opciju Sasniegts maksimums uz Jā.</span><span class="sxs-lookup"><span data-stu-id="48ac2-137">Set the Max is enforced option to Yes.</span></span>
+    * <span data-ttu-id="48ac2-138">Opcija Sasniegts maksimums ierobežo saistību izmantošanu.</span><span class="sxs-lookup"><span data-stu-id="48ac2-138">The Max is enforced option limits the use of the commitment.</span></span> <span data-ttu-id="48ac2-139">Jūs varat iegādāties tikai līdz daudzumam, kas norādīts rindas laukā Daudzums.</span><span class="sxs-lookup"><span data-stu-id="48ac2-139">You can only purchase up to the quantity that's specified in the Quantity field for the line.</span></span>  
+10. <span data-ttu-id="48ac2-140">Sakļaujiet sadaļu Detalizēta rindas informācija.</span><span class="sxs-lookup"><span data-stu-id="48ac2-140">Collapse the Line details section.</span></span>
 
-## <a name="add-header-conditions"></a>Virsraksta nosacījumu pievienošana
-1. Darbību rūtī noklikšķiniet uz Opcijas.
-2. Noklikšķiniet uz Mainīt skatījumu.
-3. Noklikšķiniet uz Virsraksta skatījuma.
-4. Izvērsiet noteikumu sadaļu.
-5. Laukā Maksāšanas metode noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-    * Maksājuma nosacījumi no kreditora konta tiek šeit rādīti pēc noklusējuma.       
-6. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-7. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-8. Laukā Piegādes veids noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanas logu.
-9. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-10. Laukā Piegādes nosacījumi noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-11. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
+## <a name="add-header-conditions"></a><span data-ttu-id="48ac2-141">Virsraksta nosacījumu pievienošana</span><span class="sxs-lookup"><span data-stu-id="48ac2-141">Add header conditions</span></span>
+1. <span data-ttu-id="48ac2-142">Darbību rūtī noklikšķiniet uz Opcijas.</span><span class="sxs-lookup"><span data-stu-id="48ac2-142">On the Action Pane, click Options.</span></span>
+2. <span data-ttu-id="48ac2-143">Noklikšķiniet uz Mainīt skatījumu.</span><span class="sxs-lookup"><span data-stu-id="48ac2-143">Click Change view.</span></span>
+3. <span data-ttu-id="48ac2-144">Noklikšķiniet uz Virsraksta skatījuma.</span><span class="sxs-lookup"><span data-stu-id="48ac2-144">Click Header view.</span></span>
+4. <span data-ttu-id="48ac2-145">Izvērsiet noteikumu sadaļu.</span><span class="sxs-lookup"><span data-stu-id="48ac2-145">Expand the Terms section.</span></span>
+5. <span data-ttu-id="48ac2-146">Laukā Maksāšanas metode noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="48ac2-146">In the Method of payment field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="48ac2-147">Maksājuma nosacījumi no kreditora konta tiek šeit rādīti pēc noklusējuma.</span><span class="sxs-lookup"><span data-stu-id="48ac2-147">The payment terms from the vendor account are shown here by default.</span></span>       
+6. <span data-ttu-id="48ac2-148">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="48ac2-148">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="48ac2-149">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="48ac2-149">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="48ac2-150">Laukā Piegādes veids noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanas logu.</span><span class="sxs-lookup"><span data-stu-id="48ac2-150">In the Mode of delivery field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="48ac2-151">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="48ac2-151">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="48ac2-152">Laukā Piegādes nosacījumi noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="48ac2-152">In the Delivery terms field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="48ac2-153">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="48ac2-153">In the list, click the link in the selected row.</span></span>
 
-## <a name="confirm-and-activate-the-agreement"></a>Līguma apstiprināšana un aktivizēšana
-1. Darbību rūtī noklikšķiniet uz Pirkšanas līgums.
-2. Noklikšķiniet uz Apstiprinājums.
-    * Iestatiet opciju Atzīmēt līgumu kā efektīvu uz Jā.  
-3. Noklikšķiniet uz Labi.
-4. Darbību rūtī noklikšķiniet uz Pirkšanas līgums.
-5. Noklikšķiniet uz Pirkšanas līguma apstiprinājumi.
-    * Opcija Priekšskatījums/Drukāt ļauj ģenerēt dokumentu pirkšanas līgumam, ko pēc tam var izdrukāt vai nosūtīt kreditoram. Ja atjaunināt līgumu vēlāk un atkārtoti to apstiprināt, abas versijas tiks parādītas šeit.  
-6. Aizvērt lapu.
+## <a name="confirm-and-activate-the-agreement"></a><span data-ttu-id="48ac2-154">Līguma apstiprināšana un aktivizēšana</span><span class="sxs-lookup"><span data-stu-id="48ac2-154">Confirm and activate the agreement</span></span>
+1. <span data-ttu-id="48ac2-155">Darbību rūtī noklikšķiniet uz Pirkšanas līgums.</span><span class="sxs-lookup"><span data-stu-id="48ac2-155">On the Action Pane, click Purchase agreement.</span></span>
+2. <span data-ttu-id="48ac2-156">Noklikšķiniet uz Apstiprinājums.</span><span class="sxs-lookup"><span data-stu-id="48ac2-156">Click Confirmation.</span></span>
+    * <span data-ttu-id="48ac2-157">Iestatiet opciju Atzīmēt līgumu kā efektīvu uz Jā.</span><span class="sxs-lookup"><span data-stu-id="48ac2-157">Set the Mark agreement as effective option to Yes.</span></span>  
+3. <span data-ttu-id="48ac2-158">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="48ac2-158">Click OK.</span></span>
+4. <span data-ttu-id="48ac2-159">Darbību rūtī noklikšķiniet uz Pirkšanas līgums.</span><span class="sxs-lookup"><span data-stu-id="48ac2-159">On the Action Pane, click Purchase agreement.</span></span>
+5. <span data-ttu-id="48ac2-160">Noklikšķiniet uz Pirkšanas līguma apstiprinājumi.</span><span class="sxs-lookup"><span data-stu-id="48ac2-160">Click Purchase agreement confirmations.</span></span>
+    * <span data-ttu-id="48ac2-161">Opcija Priekšskatījums/Drukāt ļauj ģenerēt dokumentu pirkšanas līgumam, ko pēc tam var izdrukāt vai nosūtīt kreditoram.</span><span class="sxs-lookup"><span data-stu-id="48ac2-161">The Preview/Print option allows you to generate a document for the purchase agreement which you can then print or send to the vendor.</span></span> <span data-ttu-id="48ac2-162">Ja atjaunināt līgumu vēlāk un atkārtoti to apstiprināt, abas versijas tiks parādītas šeit.</span><span class="sxs-lookup"><span data-stu-id="48ac2-162">If you update the agreement later on and re-confirm it, both versions will be shown here.</span></span>  
+6. <span data-ttu-id="48ac2-163">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="48ac2-163">Close the page.</span></span>
 
 

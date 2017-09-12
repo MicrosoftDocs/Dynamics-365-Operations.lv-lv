@@ -25,222 +25,222 @@ ms.lasthandoff: 08/10/2017
 
 ---
 
-# <a name="expense-management-mobile-workspace"></a>Izmaksu pārvaldības mobilā darbvieta
+# <a name="expense-management-mobile-workspace"></a><span data-ttu-id="bd10e-105">Izmaksu pārvaldības mobilā darbvieta</span><span class="sxs-lookup"><span data-stu-id="bd10e-105">Expense management mobile workspace</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par mobilo darbvietu **Izmaksu pārvaldība**. Šajā darbvietā lietotāji var iegūt un augšupielādēt kvīti, ko vēlāk var pievienot izdevumu pārskatam. Lietotāji var arī ātri izveidot izdevumu rindu, izmantojot pievienotu kvīti, un izveidot un pārvaldīt savus izdevumu pārskatus. Turklāt apstiprinātāji var izmantot mobilo darbvietu **Izmaksu pārvaldība**, lai skatītu viņiem piešķirtos izdevumu pārskatus un apstiprinātu vai noraidītu šos izdevumu pārskatus.
+<span data-ttu-id="bd10e-106">Šajā tēmā ir sniegta informācija par mobilo darbvietu **Izmaksu pārvaldība**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-106">This topic provides information about the **Expense management** mobile workspace.</span></span> <span data-ttu-id="bd10e-107">Šajā darbvietā lietotāji var iegūt un augšupielādēt kvīti, ko vēlāk var pievienot izdevumu pārskatam.</span><span class="sxs-lookup"><span data-stu-id="bd10e-107">This workspace lets users capture and upload a receipt, so that they can attach it to an expense report later.</span></span> <span data-ttu-id="bd10e-108">Lietotāji var arī ātri izveidot izdevumu rindu, izmantojot pievienotu kvīti, un izveidot un pārvaldīt savus izdevumu pārskatus.</span><span class="sxs-lookup"><span data-stu-id="bd10e-108">Users can also quickly create an expense line by using an attached receipt, and create and manage their expense reports.</span></span> <span data-ttu-id="bd10e-109">Turklāt apstiprinātāji var izmantot mobilo darbvietu **Izmaksu pārvaldība**, lai skatītu viņiem piešķirtos izdevumu pārskatus un apstiprinātu vai noraidītu šos izdevumu pārskatus.</span><span class="sxs-lookup"><span data-stu-id="bd10e-109">Additionally, approvers can use the **Expense management** mobile workspace to view expense reports that are assigned to them, and either approve or reject those expense reports.</span></span>
 
 
-Šī mobilā darbvieta ir paredzēta lietošanai, izmantojot mobilo programmu Microsoft Dynamics 365 for Unified Operations.
+<span data-ttu-id="bd10e-110">Šī mobilā darbvieta ir paredzēta lietošanai, izmantojot mobilo programmu Microsoft Dynamics 365 for Unified Operations.</span><span class="sxs-lookup"><span data-stu-id="bd10e-110">This mobile workspace is intended to be used with the Microsoft Dynamics 365 for Unified Operations mobile app.</span></span>
 
 
-## <a name="overview"></a>Pārskats
+## <a name="overview"></a><span data-ttu-id="bd10e-111">Pārskats</span><span class="sxs-lookup"><span data-stu-id="bd10e-111">Overview</span></span>
 
-Daudzos uzņēmumos komandējuma vai lietišķo izdevumu pārskatam, ko darbinieks iesniedz atmaksāšanai, jāpievieno kvīts kopija. Mobilā darbvieta **Izdevumu pārvaldība** ļauj lietotājiem ātri izveidot jaunas izdevumu rindas mobilajā ierīcē, izmantojot pievienoto kvīts fotoattēlu. Lietotāji var arī tvert kvīts fotoattēlu un pēc tam to pievienot izdevumu pārskatam. Arī darbinieki var izveidot un pārvaldīt savus izdevumu pārskatus un pēc tam, izmantojot mobilo ierīci, iesniegt tos apstiprināšanai un atmaksāšanai.
+<span data-ttu-id="bd10e-112">Daudzos uzņēmumos komandējuma vai lietišķo izdevumu pārskatam, ko darbinieks iesniedz atmaksāšanai, jāpievieno kvīts kopija.</span><span class="sxs-lookup"><span data-stu-id="bd10e-112">Many organizations require that a copy of a receipt be attached to a travel-related or business-related expense report that an employee submits for reimbursement.</span></span> <span data-ttu-id="bd10e-113">Mobilā darbvieta **Izdevumu pārvaldība** ļauj lietotājiem ātri izveidot jaunas izdevumu rindas mobilajā ierīcē, izmantojot pievienoto kvīts fotoattēlu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-113">The **Expense management** mobile workspace lets users quickly create new expense lines on the mobile device of their choice by using an attached photo of a receipt.</span></span> <span data-ttu-id="bd10e-114">Lietotāji var arī tvert kvīts fotoattēlu un pēc tam to pievienot izdevumu pārskatam.</span><span class="sxs-lookup"><span data-stu-id="bd10e-114">Alternatively, users can capture a photo of a receipt and then attach it to an expense report later.</span></span> <span data-ttu-id="bd10e-115">Arī darbinieki var izveidot un pārvaldīt savus izdevumu pārskatus un pēc tam, izmantojot mobilo ierīci, iesniegt tos apstiprināšanai un atmaksāšanai.</span><span class="sxs-lookup"><span data-stu-id="bd10e-115">Employees can also create and manage their expense reports, and then submit them for approval and reimbursement by using their mobile device.</span></span>
 
 
-Mobilā darbvieta **Izmaksu pārvaldība** sniedz lietotājiem iespēju veikt tālāk norādītos uzdevumus.
+<span data-ttu-id="bd10e-116">Mobilā darbvieta **Izmaksu pārvaldība** sniedz lietotājiem iespēju veikt tālāk norādītos uzdevumus.</span><span class="sxs-lookup"><span data-stu-id="bd10e-116">Specifically, the **Expense management** mobile workspace lets users perform these tasks:</span></span>
 
-- Uzņemt kvīts fotoattēlu un augšupielādēt to programmas Microsoft Dynamics 365 for Finance and Operations Enterprise izdevumā. Šo fotoattēlu vēlāk varat pievienot izdevumu pārskatam.
-- Augšupielādēt failu kā uzņemtu kvīti. Šo failu vēlāk varat pievienot izdevumu pārskatam.
-- Izveidot jaunu izdevumu rindu, izmantojot pievienoto kvīti. Vēlāk varat pievienot rindas krājumu izdevumu pārskatam un iesniegt to apstiprināšanai un atmaksāšanai.
+- <span data-ttu-id="bd10e-117">Uzņemt kvīts fotoattēlu un augšupielādēt to programmas Microsoft Dynamics 365 for Finance and Operations Enterprise izdevumā.</span><span class="sxs-lookup"><span data-stu-id="bd10e-117">Take a photo of a receipt, and upload it to Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="bd10e-118">Šo fotoattēlu vēlāk varat pievienot izdevumu pārskatam.</span><span class="sxs-lookup"><span data-stu-id="bd10e-118">You can then attach that photo to an expense report later.</span></span>
+- <span data-ttu-id="bd10e-119">Augšupielādēt failu kā uzņemtu kvīti.</span><span class="sxs-lookup"><span data-stu-id="bd10e-119">Upload a file as a captured receipt.</span></span> <span data-ttu-id="bd10e-120">Šo failu vēlāk varat pievienot izdevumu pārskatam.</span><span class="sxs-lookup"><span data-stu-id="bd10e-120">You can then attach that file to an expense report later.</span></span>
+- <span data-ttu-id="bd10e-121">Izveidot jaunu izdevumu rindu, izmantojot pievienoto kvīti.</span><span class="sxs-lookup"><span data-stu-id="bd10e-121">Create a new expense line by using an attached receipt.</span></span> <span data-ttu-id="bd10e-122">Vēlāk varat pievienot rindas krājumu izdevumu pārskatam un iesniegt to apstiprināšanai un atmaksāšanai.</span><span class="sxs-lookup"><span data-stu-id="bd10e-122">You can then add the line item to an expense report later, and submit it for approval and reimbursement.</span></span>
 
-Ja izmantojat Microsoft Dynamics 365 for Finance and Operations Enterprise izdevuma 2017. gada jūlija atjauninājumu, varat izmantot arī tālāk norādītos līdzekļus.
+<span data-ttu-id="bd10e-123">Ja izmantojat Microsoft Dynamics 365 for Finance and Operations Enterprise izdevuma 2017. gada jūlija atjauninājumu, varat izmantot arī tālāk norādītos līdzekļus.</span><span class="sxs-lookup"><span data-stu-id="bd10e-123">If you're using Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update, you can also use these features:</span></span>
 
-- Izveidot jaunu izdevumu pārskatu.
-- Pievienot kredītkartes transakcijas un citus iepriekš izveidotus izdevumus izdevumu pārskatam.
-- Izveidot jaunus izdevumus izdevumu pārskatam.
-- Pievienot jebkuru izdevumu kvīti izdevumu pārskatam, uzņemot kvīts fotoattēlu vai augšupielādējot failu kā uzņemtu kvīti.
-- Atkarībā no uzņēmuma izdevumu politikas pievienot izdevumiem viesu sarakstu.
-- Atkarībā no uzņēmuma izdevumu politikas uzskaitīt izdevumus.
-- Iesniegt izdevumu pārskatu apstiprināšanai un atmaksāšanai.
-- Apstiprināt vai noraidīt izdevumu pārskatus, kas jums ir piešķirti kā apstiprinātājam.
+- <span data-ttu-id="bd10e-124">Izveidot jaunu izdevumu pārskatu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-124">Create a new expense report.</span></span>
+- <span data-ttu-id="bd10e-125">Pievienot kredītkartes transakcijas un citus iepriekš izveidotus izdevumus izdevumu pārskatam.</span><span class="sxs-lookup"><span data-stu-id="bd10e-125">Attach credit card transactions and other previously created expenses to an expense report.</span></span>
+- <span data-ttu-id="bd10e-126">Izveidot jaunus izdevumus izdevumu pārskatam.</span><span class="sxs-lookup"><span data-stu-id="bd10e-126">Create new expenses for an expense report.</span></span>
+- <span data-ttu-id="bd10e-127">Pievienot jebkuru izdevumu kvīti izdevumu pārskatam, uzņemot kvīts fotoattēlu vai augšupielādējot failu kā uzņemtu kvīti.</span><span class="sxs-lookup"><span data-stu-id="bd10e-127">Attach a receipt to any expense for an expense report, either by taking a photo of the receipt or by uploading a file as a captured receipt.</span></span>
+- <span data-ttu-id="bd10e-128">Atkarībā no uzņēmuma izdevumu politikas pievienot izdevumiem viesu sarakstu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-128">Depending on the company's expense policy, add the list of guests to an expense.</span></span>
+- <span data-ttu-id="bd10e-129">Atkarībā no uzņēmuma izdevumu politikas uzskaitīt izdevumus.</span><span class="sxs-lookup"><span data-stu-id="bd10e-129">Depending on the company's expense policy, itemize expenses.</span></span>
+- <span data-ttu-id="bd10e-130">Iesniegt izdevumu pārskatu apstiprināšanai un atmaksāšanai.</span><span class="sxs-lookup"><span data-stu-id="bd10e-130">Submit an expense report for approval and reimbursement.</span></span>
+- <span data-ttu-id="bd10e-131">Apstiprināt vai noraidīt izdevumu pārskatus, kas jums ir piešķirti kā apstiprinātājam.</span><span class="sxs-lookup"><span data-stu-id="bd10e-131">Approve or reject expense reports that you're an assigned approver for.</span></span>
 
-## <a name="prerequisites"></a>Priekšnosacījumi
-Priekšnosacījumi atšķiras atkarībā no jūsu organizācijai izvietotās Microsoft Dynamics 365 versijas.
+## <a name="prerequisites"></a><span data-ttu-id="bd10e-132">Priekšnosacījumi</span><span class="sxs-lookup"><span data-stu-id="bd10e-132">Prerequisites</span></span>
+<span data-ttu-id="bd10e-133">Priekšnosacījumi atšķiras atkarībā no jūsu organizācijai izvietotās Microsoft Dynamics 365 versijas.</span><span class="sxs-lookup"><span data-stu-id="bd10e-133">The prerequisites vary, based on the version of Microsoft Dynamics 365 that has been deployed for your organization.</span></span>
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Priekšnosacījumi, ja lietojat Microsoft Dynamics 365 for Finance and Operations izdevuma Enterprise 2017. gada jūlija atjauninājumu 
-Ja jūsu organizācijai ir izvietots Microsoft Dynamics 365 for Finance and Operations Enterprise izdevuma 2017. gada jūlija atjauninājums, sistēmas administratoram ir jāpublicē mobilā darbvieta **Izmaksu pārvaldība**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a><span data-ttu-id="bd10e-134">Priekšnosacījumi, ja lietojat Microsoft Dynamics 365 for Finance and Operations izdevuma Enterprise 2017. gada jūlija atjauninājumu</span><span class="sxs-lookup"><span data-stu-id="bd10e-134">Prerequisites if you use Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update</span></span> 
+<span data-ttu-id="bd10e-135">Ja jūsu organizācijai ir izvietots Microsoft Dynamics 365 for Finance and Operations Enterprise izdevuma 2017. gada jūlija atjauninājums, sistēmas administratoram ir jāpublicē mobilā darbvieta **Izmaksu pārvaldība**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-135">If Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update has been deployed for your organization, the system administrator must publish the **Expense management** mobile workspace.</span></span> <span data-ttu-id="bd10e-136">Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).</span><span class="sxs-lookup"><span data-stu-id="bd10e-136">For instructions, see [Publish a mobile workspace](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).</span></span>
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Priekšnosacījumi, ja lietojat Microsoft Dynamics 365 for Operations versiju 1611 ar 3. platformas atjauninājumu vai jaunāku tā versiju.
-Ja jūsu organizācija ir izvietota Microsoft Dynamics 365 for Operations versija 1611 ar 3. platformu atjauninājumu vai jaunāku tā versiju, sistēmas administratoram ir jāizpilda tālāk norādītie priekšnoteikumi. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="bd10e-137">Priekšnosacījumi, ja lietojat Microsoft Dynamics 365 for Operations versiju 1611 ar 3. platformas atjauninājumu vai jaunāku tā versiju.</span><span class="sxs-lookup"><span data-stu-id="bd10e-137">Prerequisites if you use Microsoft Dynamics 365 for Operations version 1611 with platform update 3 or later</span></span>
+<span data-ttu-id="bd10e-138">Ja jūsu organizācija ir izvietota Microsoft Dynamics 365 for Operations versija 1611 ar 3. platformu atjauninājumu vai jaunāku tā versiju, sistēmas administratoram ir jāizpilda tālāk norādītie priekšnoteikumi.</span><span class="sxs-lookup"><span data-stu-id="bd10e-138">If Microsoft Dynamics 365 for Operations version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
 
 <table>
 <thead>
 <tr class="header">
-<th>Priekšnoteikumi</th>
-<th>Loma</th>
-<th>apraksts</th>
+<th><span data-ttu-id="bd10e-139">Priekšnoteikumi</span><span class="sxs-lookup"><span data-stu-id="bd10e-139">Prerequisite</span></span></th>
+<th><span data-ttu-id="bd10e-140">Loma</span><span class="sxs-lookup"><span data-stu-id="bd10e-140">Role</span></span></th>
+<th><span data-ttu-id="bd10e-141">apraksts</span><span class="sxs-lookup"><span data-stu-id="bd10e-141">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Ieviesiet KB 4019015.</td>
-<td>Sistēmas administrators</td>
-<td>KB 4019015 ir X++ atjauninājums vai metadatu labojumfails, kas ietver mobilo darbvietu <strong>Izmaksu pārvaldība</strong>. Lai ieviestu KB 4019015, jūsu sistēmas administratoram ir jāizpilda tālāk minētās darbības.
+<td><span data-ttu-id="bd10e-142">Ieviesiet KB 4019015.</span><span class="sxs-lookup"><span data-stu-id="bd10e-142">Implement KB 4019015.</span></span></td>
+<td><span data-ttu-id="bd10e-143">Sistēmas administrators</span><span class="sxs-lookup"><span data-stu-id="bd10e-143">System administrator</span></span></td>
+<td><span data-ttu-id="bd10e-144">KB 4019015 ir X++ atjauninājums vai metadatu labojumfails, kas ietver mobilo darbvietu <strong>Izmaksu pārvaldība</strong>.</span><span class="sxs-lookup"><span data-stu-id="bd10e-144">KB 4019015 is an X++ update or metadata hotfix that contains the <strong>Expense management</strong> mobile workspace.</span></span> <span data-ttu-id="bd10e-145">Lai ieviestu KB 4019015, jūsu sistēmas administratoram ir jāizpilda tālāk minētās darbības.</span><span class="sxs-lookup"><span data-stu-id="bd10e-145">To implement KB 4019015, your system administrator must follow these steps.</span></span>
 <ol>
-<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Lejupielādējiet metadatu labojumfailu no pakalpojuma Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalējiet metadatu labojumfailu</a>.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Izveidojiet izvietojamu pakotni</a>, kas ietver modeļus <strong>ApplicationSuite</strong> un <strong>ExpenseMobile</strong>, un pēc tam izvietojamo pakotni augšupielādējiet pakalpojumā LCS.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Lietojiet izvietojamo pakotni</a>.</li>
+<li><span data-ttu-id="bd10e-146"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Lejupielādējiet metadatu labojumfailu no pakalpojuma Microsoft Dynamics Lifecycle Services (LCS)</a>.</span><span class="sxs-lookup"><span data-stu-id="bd10e-146"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Download the metadata hotfix from Microsoft Dynamics Lifecycle Services (LCS)</a>.</span></span></li>
+<li><span data-ttu-id="bd10e-147"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalējiet metadatu labojumfailu</a>.</span><span class="sxs-lookup"><span data-stu-id="bd10e-147"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Install the metadata hotfix</a>.</span></span></li>
+<li><span data-ttu-id="bd10e-148"><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Izveidojiet izvietojamu pakotni</a>, kas ietver modeļus <strong>ApplicationSuite</strong> un <strong>ExpenseMobile</strong>, un pēc tam izvietojamo pakotni augšupielādējiet pakalpojumā LCS.</span><span class="sxs-lookup"><span data-stu-id="bd10e-148"><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Create a deployable package</a> that contains the <strong>ApplicationSuite</strong> and <strong>ExpenseMobile</strong> models, and then upload the deployable package to LCS.</span></span></li>
+<li><span data-ttu-id="bd10e-149"><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Lietojiet izvietojamo pakotni</a>.</span><span class="sxs-lookup"><span data-stu-id="bd10e-149"><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Apply the deployable package</a>.</span></span></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Publicējiet mobilo darbvietu <strong>Izmaksu pārvaldība</strong>.</td>
-<td>Sistēmas administrators</td>
-<td>Skatiet tēmu <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Mobilās darbvietas publicēšana</a>.</td>
+<td><span data-ttu-id="bd10e-150">Publicējiet mobilo darbvietu <strong>Izmaksu pārvaldība</strong>.</span><span class="sxs-lookup"><span data-stu-id="bd10e-150">Publish the <strong>Expense management</strong> mobile workspace.</span></span></td>
+<td><span data-ttu-id="bd10e-151">Sistēmas administrators</span><span class="sxs-lookup"><span data-stu-id="bd10e-151">System administrator</span></span></td>
+<td><span data-ttu-id="bd10e-152">Skatiet tēmu <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Mobilās darbvietas publicēšana</a>.</span><span class="sxs-lookup"><span data-stu-id="bd10e-152">See <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Dynamics 365 for Operations mobilās programmas lejupielāde un instalēšana
-Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Operations.
+## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a><span data-ttu-id="bd10e-153">Dynamics 365 for Operations mobilās programmas lejupielāde un instalēšana</span><span class="sxs-lookup"><span data-stu-id="bd10e-153">Download and install the Dynamics 365 for Operations mobile app</span></span>
+<span data-ttu-id="bd10e-154">Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Operations.</span><span class="sxs-lookup"><span data-stu-id="bd10e-154">Download and install the Dynamics 365 for Unified Operations mobile app:</span></span>
 
-- [Android tālruņiem](https://go.microsoft.com/fwlink/?linkid=850662)
-- [Tālruņiem iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
+- [<span data-ttu-id="bd10e-155">Android tālruņiem</span><span class="sxs-lookup"><span data-stu-id="bd10e-155">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+- [<span data-ttu-id="bd10e-156">Tālruņiem iPhone</span><span class="sxs-lookup"><span data-stu-id="bd10e-156">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>Pierakstīšanās mobilajā programmā
-1. Palaidiet programmu savā mobilajā ierīcē.
-2. Ievadiet savu Dynamics 365 vietrādi URL.
-4. Pirmajā pierakstīšanās reizē tiek prasīts ievadīt lietotājvārdu un paroli. Ievadiet savus akreditācijas datus.
-5. Pēc pierakstīšanās tiek parādītas jūsu uzņēmumam pieejamās darbvietas. Ņemiet vērā, ka gadījumā, ja sistēmas administrators vēlāk publicēs jaunu darbvietu, jums būs jāatsvaidzina mobilo darbvietu saraksts.
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="bd10e-157">Pierakstīšanās mobilajā programmā</span><span class="sxs-lookup"><span data-stu-id="bd10e-157">Sign in to the mobile app</span></span>
+1. <span data-ttu-id="bd10e-158">Palaidiet programmu savā mobilajā ierīcē.</span><span class="sxs-lookup"><span data-stu-id="bd10e-158">Start the app on your mobile device.</span></span>
+2. <span data-ttu-id="bd10e-159">Ievadiet savu Dynamics 365 vietrādi URL.</span><span class="sxs-lookup"><span data-stu-id="bd10e-159">Enter your Dynamics 365 URL.</span></span>
+4. <span data-ttu-id="bd10e-160">Pirmajā pierakstīšanās reizē tiek prasīts ievadīt lietotājvārdu un paroli.</span><span class="sxs-lookup"><span data-stu-id="bd10e-160">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="bd10e-161">Ievadiet savus akreditācijas datus.</span><span class="sxs-lookup"><span data-stu-id="bd10e-161">Enter your credentials.</span></span>
+5. <span data-ttu-id="bd10e-162">Pēc pierakstīšanās tiek parādītas jūsu uzņēmumam pieejamās darbvietas.</span><span class="sxs-lookup"><span data-stu-id="bd10e-162">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="bd10e-163">Ņemiet vērā, ka gadījumā, ja sistēmas administrators vēlāk publicēs jaunu darbvietu, jums būs jāatsvaidzina mobilo darbvietu saraksts.</span><span class="sxs-lookup"><span data-stu-id="bd10e-163">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
 
-[![Velciet, lai atsvaidzinātu](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+<span data-ttu-id="bd10e-164">[![Velciet, lai atsvaidzinātu](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="bd10e-164">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
 
-## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Kvīts tveršana, izmantojot mobilo darbvietu Izdevumu pārvaldība
+## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="bd10e-165">Kvīts tveršana, izmantojot mobilo darbvietu Izdevumu pārvaldība</span><span class="sxs-lookup"><span data-stu-id="bd10e-165">Capture a receipt by using the Expense management mobile workspace</span></span>
 
-1. Mobilajā ierīcē atveriet darbvietu **Izdevumu pārvaldība**.
-2. Atlasiet **Tvert kvīti**.
-3. Atlasiet **Uzņemt fotoattēlu** vai **Izvēlēties attēlu**.
-4. Izpildiet kādu no norādītajām transakcijām.
+1. <span data-ttu-id="bd10e-166">Mobilajā ierīcē atveriet darbvietu **Izdevumu pārvaldība**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-166">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="bd10e-167">Atlasiet **Tvert kvīti**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-167">Select **Capture receipt**.</span></span>
+3. <span data-ttu-id="bd10e-168">Atlasiet **Uzņemt fotoattēlu** vai **Izvēlēties attēlu**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-168">Select **Take photo** or **Choose image**.</span></span>
+4. <span data-ttu-id="bd10e-169">Izpildiet kādu no norādītajām transakcijām.</span><span class="sxs-lookup"><span data-stu-id="bd10e-169">Follow one of these steps:</span></span>
 
-    - Ja atlasījāt **Uzņemt fotoattēlu**, rīkojieties kā aprakstīts tālāk.
+    - <span data-ttu-id="bd10e-170">Ja atlasījāt **Uzņemt fotoattēlu**, rīkojieties kā aprakstīts tālāk.</span><span class="sxs-lookup"><span data-stu-id="bd10e-170">If you selected **Take photo**, follow these steps:</span></span>
 
-        1. Kvīts fotoattēli jāuzņem, izmantojot mobilās ierīces kameru. Kad fotoattēls ir uzņemts, atlasiet **Labi**, lai to apstiprinātu.
-        2. Nav obligāti: ievadiet fotoattēlu nosaukumu un jebkādas piezīmes.
+        1. <span data-ttu-id="bd10e-171">Kvīts fotoattēli jāuzņem, izmantojot mobilās ierīces kameru.</span><span class="sxs-lookup"><span data-stu-id="bd10e-171">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="bd10e-172">Kad fotoattēls ir uzņemts, atlasiet **Labi**, lai to apstiprinātu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-172">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+        2. <span data-ttu-id="bd10e-173">Nav obligāti: ievadiet fotoattēlu nosaukumu un jebkādas piezīmes.</span><span class="sxs-lookup"><span data-stu-id="bd10e-173">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-    - Ja atlasījāt **Izvēlēties attēlu**, rīkojieties, kā aprakstīts tālāk.
+    - <span data-ttu-id="bd10e-174">Ja atlasījāt **Izvēlēties attēlu**, rīkojieties, kā aprakstīts tālāk.</span><span class="sxs-lookup"><span data-stu-id="bd10e-174">If you selected **Choose image**, follow these steps:</span></span>
 
-        1. Šajā sarakstā atlasiet attēlu.
-        2. Nav obligāti: ievadiet attēla nosaukumu un jebkādas piezīmes.
+        1. <span data-ttu-id="bd10e-175">Šajā sarakstā atlasiet attēlu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-175">Select an image in the list.</span></span>
+        2. <span data-ttu-id="bd10e-176">Nav obligāti: ievadiet attēla nosaukumu un jebkādas piezīmes.</span><span class="sxs-lookup"><span data-stu-id="bd10e-176">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-5. Atlasiet **Gatavs**.
+5. <span data-ttu-id="bd10e-177">Atlasiet **Gatavs**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-177">Select **Done**.</span></span>
 
-## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Ātra izdevumu ievadīšana, izmantojot mobilo darbvietu Izdevumu pārvaldība
-1. Mobilajā ierīcē atveriet darbvietu **Izdevumu pārvaldība**.
-2. Atlasiet **Ātra izdevumu ievade**.
-3. Atlasiet izdevumu kategoriju. Tiek parādīts to izdevumu kategoriju saraksts, kas ir ielādētas programmā lietošanai bezsaistes režīmā. Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ja vajadzīgā kategorija nav sarakstā, atlasiet **Meklēšana**, lai veiktu tiešsaistes meklēšanu. Meklējiet pēc izdevumu kategorijas vai pārslēdzieties uz meklēšanu pēc izdevumu veida.
-4. Ievadiet izdevuma darījuma datumu.
-5. Nav obligāti: ievadiet izdevumu komersanta nosaukumu.
-6. Ievadiet izdevumu summu.
-7. Atlasiet izdevumu valūtu. Tiek parādīts to valūtas kodu saraksts, kas ir ielādēti programmā lietošanai bezsaistes režīmā. Pēc noklusējuma tiek ielādēti 400 valūtu nosaukumi, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ja vajadzīgā valūta nav sarakstā, atlasiet **Meklēšana**, lai veiktu tiešsaistes meklēšanu. Meklējiet pēc valūtas vai pārslēdzieties uz meklēšanu pēc nosaukuma.
-8. Atlasiet **Uzņemt fotoattēlu** vai **Izvēlēties attēlu**.
-9. Izpildiet kādu no norādītajām transakcijām.
+## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="bd10e-178">Ātra izdevumu ievadīšana, izmantojot mobilo darbvietu Izdevumu pārvaldība</span><span class="sxs-lookup"><span data-stu-id="bd10e-178">Quickly enter expenses by using the Expense management mobile workspace</span></span>
+1. <span data-ttu-id="bd10e-179">Mobilajā ierīcē atveriet darbvietu **Izdevumu pārvaldība**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-179">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="bd10e-180">Atlasiet **Ātra izdevumu ievade**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-180">Select **Quick expense entry**.</span></span>
+3. <span data-ttu-id="bd10e-181">Atlasiet izdevumu kategoriju.</span><span class="sxs-lookup"><span data-stu-id="bd10e-181">Select the category for the expense.</span></span> <span data-ttu-id="bd10e-182">Tiek parādīts to izdevumu kategoriju saraksts, kas ir ielādētas programmā lietošanai bezsaistes režīmā.</span><span class="sxs-lookup"><span data-stu-id="bd10e-182">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="bd10e-183">Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt.</span><span class="sxs-lookup"><span data-stu-id="bd10e-183">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="bd10e-184">Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="bd10e-184">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="bd10e-185">Ja vajadzīgā kategorija nav sarakstā, atlasiet **Meklēšana**, lai veiktu tiešsaistes meklēšanu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-185">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="bd10e-186">Meklējiet pēc izdevumu kategorijas vai pārslēdzieties uz meklēšanu pēc izdevumu veida.</span><span class="sxs-lookup"><span data-stu-id="bd10e-186">Search by expense category, or switch to search by expense type.</span></span>
+4. <span data-ttu-id="bd10e-187">Ievadiet izdevuma darījuma datumu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-187">Enter the transaction date of the expense.</span></span>
+5. <span data-ttu-id="bd10e-188">Nav obligāti: ievadiet izdevumu komersanta nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-188">Optional: Enter the merchant for the expense.</span></span>
+6. <span data-ttu-id="bd10e-189">Ievadiet izdevumu summu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-189">Enter the amount of the expense.</span></span>
+7. <span data-ttu-id="bd10e-190">Atlasiet izdevumu valūtu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-190">Select the currency of the expense.</span></span> <span data-ttu-id="bd10e-191">Tiek parādīts to valūtas kodu saraksts, kas ir ielādēti programmā lietošanai bezsaistes režīmā.</span><span class="sxs-lookup"><span data-stu-id="bd10e-191">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="bd10e-192">Pēc noklusējuma tiek ielādēti 400 valūtu nosaukumi, taču izstrādātājs šo skaitu var mainīt.</span><span class="sxs-lookup"><span data-stu-id="bd10e-192">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="bd10e-193">Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="bd10e-193">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="bd10e-194">Ja vajadzīgā valūta nav sarakstā, atlasiet **Meklēšana**, lai veiktu tiešsaistes meklēšanu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-194">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="bd10e-195">Meklējiet pēc valūtas vai pārslēdzieties uz meklēšanu pēc nosaukuma.</span><span class="sxs-lookup"><span data-stu-id="bd10e-195">Search by currency, or switch to search by name.</span></span>
+8. <span data-ttu-id="bd10e-196">Atlasiet **Uzņemt fotoattēlu** vai **Izvēlēties attēlu**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-196">Select **Take photo** or **Choose image**.</span></span>
+9. <span data-ttu-id="bd10e-197">Izpildiet kādu no norādītajām transakcijām.</span><span class="sxs-lookup"><span data-stu-id="bd10e-197">Follow one of these steps:</span></span>
 
-    - Ja atlasījāt **Uzņemt fotoattēlu**, kvīts fotoattēli jāuzņem, izmantojot mobilās ierīces kameru. Kad fotoattēls ir uzņemts, atlasiet **Labi**, lai to apstiprinātu.
-    - Ja atlasījāt **Izvēlēties attēlu**, sarakstā atlasiet attēlu.
+    - <span data-ttu-id="bd10e-198">Ja atlasījāt **Uzņemt fotoattēlu**, kvīts fotoattēli jāuzņem, izmantojot mobilās ierīces kameru.</span><span class="sxs-lookup"><span data-stu-id="bd10e-198">If you selected **Take photo**, you're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="bd10e-199">Kad fotoattēls ir uzņemts, atlasiet **Labi**, lai to apstiprinātu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-199">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+    - <span data-ttu-id="bd10e-200">Ja atlasījāt **Izvēlēties attēlu**, sarakstā atlasiet attēlu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-200">If you selected **Choose image**, select an image in the list.</span></span>
 
-10. Atlasiet **Gatavs**.
+10. <span data-ttu-id="bd10e-201">Atlasiet **Gatavs**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-201">Select **Done**.</span></span>
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Izdevumu pārskata apstiprināšana, izmantojot mobilo darbvietu Izdevumu pārvaldība (ja izmantojat 2017. gada jūlija atjauninājumu)
-1. Mobilajā ierīcē atveriet darbvietu **Izdevumu pārvaldība**.
-2. Laukā **Izdevumu apstiprinājumi** parādīts jums apstiprināšanai piešķirto izdevumu pārskatu skaits. Šis skaits tiek atjaunināts aptuveni ik pēc 30 minūtēm. Atlasiet **Izdevumu apstiprinājumi**.
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="bd10e-202">Izdevumu pārskata apstiprināšana, izmantojot mobilo darbvietu Izdevumu pārvaldība (ja izmantojat 2017. gada jūlija atjauninājumu)</span><span class="sxs-lookup"><span data-stu-id="bd10e-202">Approve an expense report by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
+1. <span data-ttu-id="bd10e-203">Mobilajā ierīcē atveriet darbvietu **Izdevumu pārvaldība**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-203">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="bd10e-204">Laukā **Izdevumu apstiprinājumi** parādīts jums apstiprināšanai piešķirto izdevumu pārskatu skaits.</span><span class="sxs-lookup"><span data-stu-id="bd10e-204">**Expense approvals** shows the number of expense reports that are assigned to you for approval.</span></span> <span data-ttu-id="bd10e-205">Šis skaits tiek atjaunināts aptuveni ik pēc 30 minūtēm.</span><span class="sxs-lookup"><span data-stu-id="bd10e-205">The number is updated approximately every 30 minutes.</span></span> <span data-ttu-id="bd10e-206">Atlasiet **Izdevumu apstiprinājumi**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-206">Select **Expense approvals**.</span></span>
 
-    Tiek parādīts saraksts ar izdevumu pārskatiem, kas jums piešķirti apstiprināšanai.
+    <span data-ttu-id="bd10e-207">Tiek parādīts saraksts ar izdevumu pārskatiem, kas jums piešķirti apstiprināšanai.</span><span class="sxs-lookup"><span data-stu-id="bd10e-207">The list of expense reports that are assigned to you for approval is shown.</span></span>
     
-3. Atlasiet izdevumu pārskatu, lai skatītu izdevumu detalizēto informāciju.
-4. Atlasiet izdevumus, lai skatītu detalizētu informāciju par tiem. Izdevumiem parādītā informācija ietver jebkādu informāciju par kvīti, viesiem un specifikāciju.
-5. Lapā **Izdevumu pārskats** atlasiet izdevumu pārskata apstiprināšanu vai noraidīšanu.
-6. Ievadiet jebkādus komentārus apstiprināšanas darbībai.
-7. Atlasiet **Gatavs**.
+3. <span data-ttu-id="bd10e-208">Atlasiet izdevumu pārskatu, lai skatītu izdevumu detalizēto informāciju.</span><span class="sxs-lookup"><span data-stu-id="bd10e-208">Select an expense report to view the expense details for it.</span></span>
+4. <span data-ttu-id="bd10e-209">Atlasiet izdevumus, lai skatītu detalizētu informāciju par tiem.</span><span class="sxs-lookup"><span data-stu-id="bd10e-209">Select an expense to view the details for it.</span></span> <span data-ttu-id="bd10e-210">Izdevumiem parādītā informācija ietver jebkādu informāciju par kvīti, viesiem un specifikāciju.</span><span class="sxs-lookup"><span data-stu-id="bd10e-210">The information that is shown for an expense includes any receipt, guest, and itemization details.</span></span>
+5. <span data-ttu-id="bd10e-211">Lapā **Izdevumu pārskats** atlasiet izdevumu pārskata apstiprināšanu vai noraidīšanu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-211">Back on the **Expense report** page, select to approve or reject the expense report.</span></span>
+6. <span data-ttu-id="bd10e-212">Ievadiet jebkādus komentārus apstiprināšanas darbībai.</span><span class="sxs-lookup"><span data-stu-id="bd10e-212">Enter any comments for the approval action.</span></span>
+7. <span data-ttu-id="bd10e-213">Atlasiet **Gatavs**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-213">Select **Done**.</span></span>
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Jauna izdevumu pārskata izveide un tā iesniegšana apstiprināšanai, izmantojot mobilo darbvietu Izdevumu pārvaldība (ja izmantojat 2017. gada jūlija atjauninājumu)
-1. Mobilajā ierīcē atveriet darbvietu **Izdevumu pārvaldība**.
-2. Atlasiet **Izdevumu ieraksts**.
-3. Atlasiet **Jauns pārskats** vai sarakstā atlasiet esošu izdevumu pārskatu.
-4. Jauniem izdevumu pārskatiem ievadiet mērķi un jebkādu pieejamo papildinformāciju. Šī informācija atšķiras atkarībā no tā, kādā veidā izmaksu pārvaldība ir konfigurēta jūsu uzņēmumam.
-5. Atlasiet **Gatavs**.
-6. Lai izdevumu pārskatam pievienotu esošus izdevumus, piemēram, kredītkartes transakcijas, atlasiet **Pievienot**.
-7. Atlasiet vienu vai vairākus izdevumus sarakstā.
-8. Atlasiet **Gatavs**.
-9. Lai izdevumu pārskatam pievienotu jaunus izdevumus, atlasiet **Jauni izdevumi**.
-10. Atlasiet izdevumu kategoriju. Tiek parādīts to izdevumu kategoriju saraksts, kas ir ielādētas programmā lietošanai bezsaistes režīmā. Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ja vajadzīgā kategorija nav sarakstā, atlasiet **Meklēšana**, lai veiktu tiešsaistes meklēšanu. Meklējiet pēc izdevumu kategorijas vai pārslēdzieties uz meklēšanu pēc izdevumu veida.
-11. Nav obligāti: ievadiet izdevumu komersanta nosaukumu.
-12. Ievadiet izdevuma darījuma datumu.
-13. Ievadiet izdevumu summu.
-14. Atlasiet izdevumu valūtu. Tiek parādīts to valūtas kodu saraksts, kas ir ielādēti programmā lietošanai bezsaistes režīmā. Pēc noklusējuma tiek ielādēti 400 valūtu nosaukumi, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ja vajadzīgā valūta nav sarakstā, atlasiet **Meklēšana**, lai veiktu tiešsaistes meklēšanu. Meklējiet pēc valūtas vai pārslēdzieties uz meklēšanu pēc nosaukuma.
-15. Atlasiet **Gatavs**.
-16. Lai izdevumiem pievienotu papildinformāciju, atlasiet **Pievienot papildinformāciju**. Pieejamie lauki ir atkarīgi no izmaksu pārvaldības konfigurācijas jūsu uzņēmumā.
-17. Ja saskaņā ar uzņēmuma politiku izdevumiem ir nepieciešama kvīts, atlasiet **Kvītis** un pēc tam veiciet tālāk norādītās darbības.
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="bd10e-214">Jauna izdevumu pārskata izveide un tā iesniegšana apstiprināšanai, izmantojot mobilo darbvietu Izdevumu pārvaldība (ja izmantojat 2017. gada jūlija atjauninājumu)</span><span class="sxs-lookup"><span data-stu-id="bd10e-214">Create a new expense report and submit it for approval by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
+1. <span data-ttu-id="bd10e-215">Mobilajā ierīcē atveriet darbvietu **Izdevumu pārvaldība**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-215">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="bd10e-216">Atlasiet **Izdevumu ieraksts**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-216">Select **Expense entry**.</span></span>
+3. <span data-ttu-id="bd10e-217">Atlasiet **Jauns pārskats** vai sarakstā atlasiet esošu izdevumu pārskatu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-217">Select **New report**, or select an existing expense report in the list.</span></span>
+4. <span data-ttu-id="bd10e-218">Jauniem izdevumu pārskatiem ievadiet mērķi un jebkādu pieejamo papildinformāciju.</span><span class="sxs-lookup"><span data-stu-id="bd10e-218">For new expense reports, enter the purpose and any additional information that is available.</span></span> <span data-ttu-id="bd10e-219">Šī informācija atšķiras atkarībā no tā, kādā veidā izmaksu pārvaldība ir konfigurēta jūsu uzņēmumam.</span><span class="sxs-lookup"><span data-stu-id="bd10e-219">This information varies, depending on that way that expense management is configured for your company.</span></span>
+5. <span data-ttu-id="bd10e-220">Atlasiet **Gatavs**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-220">Select **Done**.</span></span>
+6. <span data-ttu-id="bd10e-221">Lai izdevumu pārskatam pievienotu esošus izdevumus, piemēram, kredītkartes transakcijas, atlasiet **Pievienot**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-221">To add existing expenses, such as credit card transactions, to the expense report, select **Attach**.</span></span>
+7. <span data-ttu-id="bd10e-222">Atlasiet vienu vai vairākus izdevumus sarakstā.</span><span class="sxs-lookup"><span data-stu-id="bd10e-222">Select one or more expenses in the list.</span></span>
+8. <span data-ttu-id="bd10e-223">Atlasiet **Gatavs**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-223">Select **Done**.</span></span>
+9. <span data-ttu-id="bd10e-224">Lai izdevumu pārskatam pievienotu jaunus izdevumus, atlasiet **Jauni izdevumi**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-224">To add a new expense to the expense report, select **New expense**.</span></span>
+10. <span data-ttu-id="bd10e-225">Atlasiet izdevumu kategoriju.</span><span class="sxs-lookup"><span data-stu-id="bd10e-225">Select the category for the expense.</span></span> <span data-ttu-id="bd10e-226">Tiek parādīts to izdevumu kategoriju saraksts, kas ir ielādētas programmā lietošanai bezsaistes režīmā.</span><span class="sxs-lookup"><span data-stu-id="bd10e-226">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="bd10e-227">Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt.</span><span class="sxs-lookup"><span data-stu-id="bd10e-227">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="bd10e-228">Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="bd10e-228">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="bd10e-229">Ja vajadzīgā kategorija nav sarakstā, atlasiet **Meklēšana**, lai veiktu tiešsaistes meklēšanu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-229">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="bd10e-230">Meklējiet pēc izdevumu kategorijas vai pārslēdzieties uz meklēšanu pēc izdevumu veida.</span><span class="sxs-lookup"><span data-stu-id="bd10e-230">Search by expense category, or switch to search by expense type.</span></span>
+11. <span data-ttu-id="bd10e-231">Nav obligāti: ievadiet izdevumu komersanta nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-231">Optional: Enter the merchant for the expense.</span></span>
+12. <span data-ttu-id="bd10e-232">Ievadiet izdevuma darījuma datumu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-232">Enter the transaction date of the expense.</span></span>
+13. <span data-ttu-id="bd10e-233">Ievadiet izdevumu summu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-233">Enter the amount of the expense.</span></span>
+14. <span data-ttu-id="bd10e-234">Atlasiet izdevumu valūtu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-234">Select the currency of the expense.</span></span> <span data-ttu-id="bd10e-235">Tiek parādīts to valūtas kodu saraksts, kas ir ielādēti programmā lietošanai bezsaistes režīmā.</span><span class="sxs-lookup"><span data-stu-id="bd10e-235">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="bd10e-236">Pēc noklusējuma tiek ielādēti 400 valūtu nosaukumi, taču izstrādātājs šo skaitu var mainīt.</span><span class="sxs-lookup"><span data-stu-id="bd10e-236">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="bd10e-237">Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="bd10e-237">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="bd10e-238">Ja vajadzīgā valūta nav sarakstā, atlasiet **Meklēšana**, lai veiktu tiešsaistes meklēšanu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-238">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="bd10e-239">Meklējiet pēc valūtas vai pārslēdzieties uz meklēšanu pēc nosaukuma.</span><span class="sxs-lookup"><span data-stu-id="bd10e-239">Search by currency, or switch to search by name.</span></span>
+15. <span data-ttu-id="bd10e-240">Atlasiet **Gatavs**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-240">Select **Done**.</span></span>
+16. <span data-ttu-id="bd10e-241">Lai izdevumiem pievienotu papildinformāciju, atlasiet **Pievienot papildinformāciju**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-241">To add more details to the expense, select **Add more details**.</span></span> <span data-ttu-id="bd10e-242">Pieejamie lauki ir atkarīgi no izmaksu pārvaldības konfigurācijas jūsu uzņēmumā.</span><span class="sxs-lookup"><span data-stu-id="bd10e-242">The fields that are available depend on the configuration of expense management for your company.</span></span>
+17. <span data-ttu-id="bd10e-243">Ja saskaņā ar uzņēmuma politiku izdevumiem ir nepieciešama kvīts, atlasiet **Kvītis** un pēc tam veiciet tālāk norādītās darbības.</span><span class="sxs-lookup"><span data-stu-id="bd10e-243">If company policy requires a receipt for the expense, select **Receipts**, and then follow these steps:</span></span>
 
-    1. Atlasiet **Tvert kvīti** vai **Pievienot kvīti**.
-    2. Izpildiet kādu no norādītajām transakcijām.
+    1. <span data-ttu-id="bd10e-244">Atlasiet **Tvert kvīti** vai **Pievienot kvīti**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-244">Select **Capture receipt** or **Attach receipt**.</span></span>
+    2. <span data-ttu-id="bd10e-245">Izpildiet kādu no norādītajām transakcijām.</span><span class="sxs-lookup"><span data-stu-id="bd10e-245">Follow one of these steps:</span></span>
 
-        - Ja atlasījāt **Tvert kvīti**, rīkojieties, kā aprakstīts tālāk.
+        - <span data-ttu-id="bd10e-246">Ja atlasījāt **Tvert kvīti**, rīkojieties, kā aprakstīts tālāk.</span><span class="sxs-lookup"><span data-stu-id="bd10e-246">If you selected **Capture receipt**, follow these steps:</span></span>
 
-            1. Atlasiet **Uzņemt fotoattēlu** vai **Izvēlēties attēlu**.
-            2. Izpildiet kādu no norādītajām transakcijām.
+            1. <span data-ttu-id="bd10e-247">Atlasiet **Uzņemt fotoattēlu** vai **Izvēlēties attēlu**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-247">Select **Take photo** or **Choose image**.</span></span>
+            2. <span data-ttu-id="bd10e-248">Izpildiet kādu no norādītajām transakcijām.</span><span class="sxs-lookup"><span data-stu-id="bd10e-248">Follow one of these steps:</span></span>
 
-                - Ja atlasījāt **Uzņemt fotoattēlu**, rīkojieties kā aprakstīts tālāk.
+                - <span data-ttu-id="bd10e-249">Ja atlasījāt **Uzņemt fotoattēlu**, rīkojieties kā aprakstīts tālāk.</span><span class="sxs-lookup"><span data-stu-id="bd10e-249">If you selected **Take photo**, follow these steps:</span></span>
 
-                    1. Kvīts fotoattēli jāuzņem, izmantojot mobilās ierīces kameru. Kad fotoattēls ir uzņemts, atlasiet **Labi**, lai to apstiprinātu.
-                    2. Nav obligāti: ievadiet fotoattēlu nosaukumu un jebkādas piezīmes.
+                    1. <span data-ttu-id="bd10e-250">Kvīts fotoattēli jāuzņem, izmantojot mobilās ierīces kameru.</span><span class="sxs-lookup"><span data-stu-id="bd10e-250">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="bd10e-251">Kad fotoattēls ir uzņemts, atlasiet **Labi**, lai to apstiprinātu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-251">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+                    2. <span data-ttu-id="bd10e-252">Nav obligāti: ievadiet fotoattēlu nosaukumu un jebkādas piezīmes.</span><span class="sxs-lookup"><span data-stu-id="bd10e-252">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-                - Ja atlasījāt **Izvēlēties attēlu**, rīkojieties, kā aprakstīts tālāk.
+                - <span data-ttu-id="bd10e-253">Ja atlasījāt **Izvēlēties attēlu**, rīkojieties, kā aprakstīts tālāk.</span><span class="sxs-lookup"><span data-stu-id="bd10e-253">If you selected **Choose image**, follow these steps:</span></span>
 
-                    1. Šajā sarakstā atlasiet attēlu.
-                    2. Nav obligāti: ievadiet attēla nosaukumu un jebkādas piezīmes.
+                    1. <span data-ttu-id="bd10e-254">Šajā sarakstā atlasiet attēlu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-254">Select an image in the list.</span></span>
+                    2. <span data-ttu-id="bd10e-255">Nav obligāti: ievadiet attēla nosaukumu un jebkādas piezīmes.</span><span class="sxs-lookup"><span data-stu-id="bd10e-255">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-            3.  Atlasiet **Gatavs**.
+            3.  <span data-ttu-id="bd10e-256">Atlasiet **Gatavs**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-256">Select **Done**.</span></span>
 
-        - Ja atlasījāt **Pievienot kvīti**, rīkojieties, kā aprakstīts tālāk.
+        - <span data-ttu-id="bd10e-257">Ja atlasījāt **Pievienot kvīti**, rīkojieties, kā aprakstīts tālāk.</span><span class="sxs-lookup"><span data-stu-id="bd10e-257">If you selected **Attach receipt**, follow these steps:</span></span>
 
-            1.  Atlasiet vienu vai vairākus attēlus sarakstā.
-            2.  Atlasiet **Gatavs**.
+            1.  <span data-ttu-id="bd10e-258">Atlasiet vienu vai vairākus attēlus sarakstā.</span><span class="sxs-lookup"><span data-stu-id="bd10e-258">Select one or more images in the list.</span></span>
+            2.  <span data-ttu-id="bd10e-259">Atlasiet **Gatavs**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-259">Select **Done**.</span></span>
 
-    3. Atlasiet pogu **Atpakaļ**, lai atgrieztos pie izdevumu detalizētās informācijas.
+    3. <span data-ttu-id="bd10e-260">Atlasiet pogu **Atpakaļ**, lai atgrieztos pie izdevumu detalizētās informācijas.</span><span class="sxs-lookup"><span data-stu-id="bd10e-260">Select the **Back** button to return to the expense details.</span></span>
 
-18. Ja saskaņā ar uzņēmuma politiku izdevumiem ir nepieciešami viesi, atlasiet **Viesi** un pēc tam veiciet tālāk norādītās darbības.
+18. <span data-ttu-id="bd10e-261">Ja saskaņā ar uzņēmuma politiku izdevumiem ir nepieciešami viesi, atlasiet **Viesi** un pēc tam veiciet tālāk norādītās darbības.</span><span class="sxs-lookup"><span data-stu-id="bd10e-261">If company policy requires guests for the expense, select **Guests**, and then follow these steps:</span></span>
 
-    1. Atlasiet **Viesis**, **Iepriekšējie viesi** vai **Kolēģi**.
-    2. Izpildiet kādu no norādītajām transakcijām.
+    1. <span data-ttu-id="bd10e-262">Atlasiet **Viesis**, **Iepriekšējie viesi** vai **Kolēģi**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-262">Select **Guest**, **Previous guests**, or **Coworkers**.</span></span>
+    2. <span data-ttu-id="bd10e-263">Izpildiet kādu no norādītajām transakcijām.</span><span class="sxs-lookup"><span data-stu-id="bd10e-263">Follow one of these steps:</span></span>
 
-        - Ja atlasījāt **Viesis**, rīkojieties, kā aprakstīts tālāk.
+        - <span data-ttu-id="bd10e-264">Ja atlasījāt **Viesis**, rīkojieties, kā aprakstīts tālāk.</span><span class="sxs-lookup"><span data-stu-id="bd10e-264">If you selected **Guest**, follow these steps:</span></span>
 
-            1. Ievadiet viesa vārdu.
-            2. Neobligāti: ievadiet viesa organizāciju un/vai valsti.
-            3. Neobligāti: ievadiet viesa amata nosaukumu.
-            4. Atlasiet **Gatavs**.
+            1. <span data-ttu-id="bd10e-265">Ievadiet viesa vārdu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-265">Enter the name of the guest.</span></span>
+            2. <span data-ttu-id="bd10e-266">Neobligāti: ievadiet viesa organizāciju un/vai valsti.</span><span class="sxs-lookup"><span data-stu-id="bd10e-266">Optional: Enter the organization and/or country of the guest.</span></span>
+            3. <span data-ttu-id="bd10e-267">Neobligāti: ievadiet viesa amata nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-267">Optional: Enter the title of the guest.</span></span>
+            4. <span data-ttu-id="bd10e-268">Atlasiet **Gatavs**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-268">Select **Done**.</span></span>
 
-        - Ja atlasījāt **Iepriekšējie viesi**, rīkojieties, kā aprakstīts tālāk.
+        - <span data-ttu-id="bd10e-269">Ja atlasījāt **Iepriekšējie viesi**, rīkojieties, kā aprakstīts tālāk.</span><span class="sxs-lookup"><span data-stu-id="bd10e-269">If you selected **Previous guests**, follow these steps:</span></span>
 
-            1. Atlasiet vienu vai vairākus iepriekšējos viesus sarakstā. Varat skatīt sarakstu ar iepriekšējiem viesiem, kuras esat pievienojis iepriekšējiem izdevumu pārskatiem, kas ir ielādēti programmā lietošanai bezsaistes režīmā. Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ja vajadzīgais iepriekšējais viesis nav sarakstā, atlasiet **Meklēšana**, lai veiktu tiešsaistes meklēšanu. Meklējiet pēc vārda vai pārslēdziet uz meklēšanu pēc organizācijas, valsts vai amata.
-            2. Atlasiet **Gatavs**.
+            1. <span data-ttu-id="bd10e-270">Atlasiet vienu vai vairākus iepriekšējos viesus sarakstā.</span><span class="sxs-lookup"><span data-stu-id="bd10e-270">Select one or more previous guests in the list.</span></span> <span data-ttu-id="bd10e-271">Varat skatīt sarakstu ar iepriekšējiem viesiem, kuras esat pievienojis iepriekšējiem izdevumu pārskatiem, kas ir ielādēti programmā lietošanai bezsaistes režīmā.</span><span class="sxs-lookup"><span data-stu-id="bd10e-271">You see a list of previous guests that you've added to previous expense reports that are loaded into your app for offline use.</span></span> <span data-ttu-id="bd10e-272">Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt.</span><span class="sxs-lookup"><span data-stu-id="bd10e-272">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="bd10e-273">Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="bd10e-273">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="bd10e-274">Ja vajadzīgais iepriekšējais viesis nav sarakstā, atlasiet **Meklēšana**, lai veiktu tiešsaistes meklēšanu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-274">If your previous guest isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="bd10e-275">Meklējiet pēc vārda vai pārslēdziet uz meklēšanu pēc organizācijas, valsts vai amata.</span><span class="sxs-lookup"><span data-stu-id="bd10e-275">Search by name, or switch to search by organization, country, or title.</span></span>
+            2. <span data-ttu-id="bd10e-276">Atlasiet **Gatavs**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-276">Select **Done**.</span></span>
 
-        - Ja atlasījāt **Kolēģi**, rīkojieties, kā aprakstīts tālāk.
+        - <span data-ttu-id="bd10e-277">Ja atlasījāt **Kolēģi**, rīkojieties, kā aprakstīts tālāk.</span><span class="sxs-lookup"><span data-stu-id="bd10e-277">If you selected **Coworkers**, follow these steps:</span></span>
 
-            1. Atlasiet vienu vai vairākus kolēģus sarakstā. Tiek parādīts saraksts ar kolēģiem, kas ir ielādēti programmā lietošanai bezsaistes režīmā. Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ja vajadzīgais kolēģis nav sarakstā, atlasiet **Meklēšana**, lai veiktu tiešsaistes meklēšanu. Meklējiet pēc vārda vai pārslēdziet uz meklēšanu pēc uzņēmuma vai amata.
-            2. Atlasiet **Gatavs**.
+            1. <span data-ttu-id="bd10e-278">Atlasiet vienu vai vairākus kolēģus sarakstā.</span><span class="sxs-lookup"><span data-stu-id="bd10e-278">Select one or more coworkers in the list.</span></span> <span data-ttu-id="bd10e-279">Tiek parādīts saraksts ar kolēģiem, kas ir ielādēti programmā lietošanai bezsaistes režīmā.</span><span class="sxs-lookup"><span data-stu-id="bd10e-279">You see a list of coworkers that are loaded into your app for offline use.</span></span> <span data-ttu-id="bd10e-280">Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt.</span><span class="sxs-lookup"><span data-stu-id="bd10e-280">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="bd10e-281">Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="bd10e-281">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="bd10e-282">Ja vajadzīgais kolēģis nav sarakstā, atlasiet **Meklēšana**, lai veiktu tiešsaistes meklēšanu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-282">If your coworker isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="bd10e-283">Meklējiet pēc vārda vai pārslēdziet uz meklēšanu pēc uzņēmuma vai amata.</span><span class="sxs-lookup"><span data-stu-id="bd10e-283">Search by name, or switch to search by company or title.</span></span>
+            2. <span data-ttu-id="bd10e-284">Atlasiet **Gatavs**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-284">Select **Done**.</span></span>
 
-    3. Atlasiet pogu **Atpakaļ**, lai atgrieztos pie izdevumu detalizētās informācijas.
+    3. <span data-ttu-id="bd10e-285">Atlasiet pogu **Atpakaļ**, lai atgrieztos pie izdevumu detalizētās informācijas.</span><span class="sxs-lookup"><span data-stu-id="bd10e-285">Select the **Back** button to return to the expense details.</span></span>
 
-19. Ja saskaņā ar uzņēmuma politiku izdevumi ir jāuzskaita, atlasiet **Uzskaitīt** un pēc tam veiciet tālāk norādītās darbības.
+19. <span data-ttu-id="bd10e-286">Ja saskaņā ar uzņēmuma politiku izdevumi ir jāuzskaita, atlasiet **Uzskaitīt** un pēc tam veiciet tālāk norādītās darbības.</span><span class="sxs-lookup"><span data-stu-id="bd10e-286">If company policy requires that the expense be itemized, select **Itemize**, and then follow these steps:</span></span>
 
-    1. Atlasiet pirmo datumu, kas jāuzskaita.
-    2. Atlasiet **Pievienot specifikāciju**.
-    3. Izvēlieties izdevumu specifikācijas apakškategoriju. Tiek parādīts saraksts ar izdevumu apakškategorijām, kas ir ielādētas programmā lietošanai bezsaistes režīmā. Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ja vajadzīgā apakškategorija nav sarakstā, atlasiet **Meklēšana**, lai veiktu tiešsaistes meklēšanu. Meklējiet pēc izdevumu apakškategorijas nosaukuma.
-    4. Ievadiet specifikācijas transakcijas summu.
-    5. Rediģējiet transakcijas datumu, ja tas ir nepieciešams.
-    6. Atlasiet **Gatavs**.
-    7. Atkārtojiet iepriekšējās darbības, līdz atlasītajam datumam ir pievienotas visas specifikācijas.
-    8. Papildu dienām varat atlasīt **Kopēt uz nākamo dienu**, lai specifikācijas kopētu uz nākamo dienu. Vai arī varat atlasīt uzskaites datumu un pēc tam pievienot specifikācijas, kā to darījāt pirmajam datumam.
-    9. Kad esat pabeidzis uzskaitīt izdevumus, atlasiet pogu **Atpakaļ**, lai atgrieztos pie izdevumu detalizētās informācijas.
+    1. <span data-ttu-id="bd10e-287">Atlasiet pirmo datumu, kas jāuzskaita.</span><span class="sxs-lookup"><span data-stu-id="bd10e-287">Select the first date to itemize.</span></span>
+    2. <span data-ttu-id="bd10e-288">Atlasiet **Pievienot specifikāciju**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-288">Select **Add itemization**.</span></span>
+    3. <span data-ttu-id="bd10e-289">Izvēlieties izdevumu specifikācijas apakškategoriju.</span><span class="sxs-lookup"><span data-stu-id="bd10e-289">Select the subcategory for the expense itemization.</span></span> <span data-ttu-id="bd10e-290">Tiek parādīts saraksts ar izdevumu apakškategorijām, kas ir ielādētas programmā lietošanai bezsaistes režīmā.</span><span class="sxs-lookup"><span data-stu-id="bd10e-290">You see a list of expense subcategories that are loaded into your app for offline use.</span></span> <span data-ttu-id="bd10e-291">Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt.</span><span class="sxs-lookup"><span data-stu-id="bd10e-291">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="bd10e-292">Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="bd10e-292">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="bd10e-293">Ja vajadzīgā apakškategorija nav sarakstā, atlasiet **Meklēšana**, lai veiktu tiešsaistes meklēšanu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-293">If your subcategory isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="bd10e-294">Meklējiet pēc izdevumu apakškategorijas nosaukuma.</span><span class="sxs-lookup"><span data-stu-id="bd10e-294">Search by expense subcategory name.</span></span>
+    4. <span data-ttu-id="bd10e-295">Ievadiet specifikācijas transakcijas summu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-295">Enter the transaction amount for the itemization.</span></span>
+    5. <span data-ttu-id="bd10e-296">Rediģējiet transakcijas datumu, ja tas ir nepieciešams.</span><span class="sxs-lookup"><span data-stu-id="bd10e-296">Edit the transaction date if it's required.</span></span>
+    6. <span data-ttu-id="bd10e-297">Atlasiet **Gatavs**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-297">Select **Done**.</span></span>
+    7. <span data-ttu-id="bd10e-298">Atkārtojiet iepriekšējās darbības, līdz atlasītajam datumam ir pievienotas visas specifikācijas.</span><span class="sxs-lookup"><span data-stu-id="bd10e-298">Repeat the preceding steps until you've finished adding all itemizations for the selected date.</span></span>
+    8. <span data-ttu-id="bd10e-299">Papildu dienām varat atlasīt **Kopēt uz nākamo dienu**, lai specifikācijas kopētu uz nākamo dienu.</span><span class="sxs-lookup"><span data-stu-id="bd10e-299">For additional days, you can select **Copy to next day** to copy the itemizations to the next day.</span></span> <span data-ttu-id="bd10e-300">Vai arī varat atlasīt uzskaites datumu un pēc tam pievienot specifikācijas, kā to darījāt pirmajam datumam.</span><span class="sxs-lookup"><span data-stu-id="bd10e-300">Alternatively, you can select the date to itemize and then add itemizations as you did for the first date.</span></span>
+    9. <span data-ttu-id="bd10e-301">Kad esat pabeidzis uzskaitīt izdevumus, atlasiet pogu **Atpakaļ**, lai atgrieztos pie izdevumu detalizētās informācijas.</span><span class="sxs-lookup"><span data-stu-id="bd10e-301">After you've finished itemizing the expense, select the **Back** button to return to the expense details.</span></span>
 
-20. Atlasiet pogu **Atpakaļ**, lai atgrieztos lapā **Izdevumu pārskats**.
-21. Atkārtojiet iepriekšējās darbības, līdz ir pievienoti visi izdevumi.
-22. Atlasiet **Iesniegt**.
-23. Ievadiet jebkādus komentārus apstiprinātājam.
-24. Atlasiet **Gatavs**.
+20. <span data-ttu-id="bd10e-302">Atlasiet pogu **Atpakaļ**, lai atgrieztos lapā **Izdevumu pārskats**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-302">Select the **Back** button to return to the **Expense report** page.</span></span>
+21. <span data-ttu-id="bd10e-303">Atkārtojiet iepriekšējās darbības, līdz ir pievienoti visi izdevumi.</span><span class="sxs-lookup"><span data-stu-id="bd10e-303">Repeat the preceding steps until you've finished adding all expenses.</span></span>
+22. <span data-ttu-id="bd10e-304">Atlasiet **Iesniegt**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-304">Select **Submit**.</span></span>
+23. <span data-ttu-id="bd10e-305">Ievadiet jebkādus komentārus apstiprinātājam.</span><span class="sxs-lookup"><span data-stu-id="bd10e-305">Enter any comments for the approver.</span></span>
+24. <span data-ttu-id="bd10e-306">Atlasiet **Gatavs**.</span><span class="sxs-lookup"><span data-stu-id="bd10e-306">Select **Done**.</span></span>
 

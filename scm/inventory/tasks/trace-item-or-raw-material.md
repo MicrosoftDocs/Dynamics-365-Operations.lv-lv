@@ -1,4 +1,4 @@
---- 
+---
 title: "Krājumu vai izejmateriālu izsekošana"
 description: "Šajā procedūra parādīts, kā lietot krājumu izsekošanu, lai identificētu, kur krājumi vai izejmateriāli ir izmantoti vai tiek izmantoti."
 author: pjacobse
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,42 +17,41 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: c4b093af672b2d4e1a2c91cd55470f9072d992c3
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: d7eb282ddf9597385d6660a3fc0ef73f403ab898
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
-# <a name="trace-an-item-or-raw-material"></a>Krājumu vai izejmateriālu izsekošana
+# <a name="trace-an-item-or-raw-material"></a><span data-ttu-id="09c01-103">Krājumu vai izejmateriālu izsekošana</span><span class="sxs-lookup"><span data-stu-id="09c01-103">Trace an item or raw material</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā procedūra parādīts, kā lietot krājumu izsekošanu, lai identificētu, kur krājumi vai izejmateriāli ir izmantoti vai tiek izmantoti. Izmantojot šo procedūru, varat identificēt krājumu, izsekot to atpakaļ līdz avotam un pēc tam izsekot uz priekšu līdz ražošanai un pabeigtās preces pārdošanai. Procesu var lietot, lai izpētītu ietekmētos klientus, skartos pārdošanas pasūtījumus un citus aspektus. Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma USP2 dati.
+<span data-ttu-id="09c01-104">Šajā procedūra parādīts, kā lietot krājumu izsekošanu, lai identificētu, kur krājumi vai izejmateriāli ir izmantoti vai tiek izmantoti.</span><span class="sxs-lookup"><span data-stu-id="09c01-104">This procedure demonstrates how to use item tracing to identify where items or raw materials have been used or are being used.</span></span> <span data-ttu-id="09c01-105">Izmantojot šo procedūru, varat identificēt krājumu, izsekot to atpakaļ līdz avotam un pēc tam izsekot uz priekšu līdz ražošanai un pabeigtās preces pārdošanai.</span><span class="sxs-lookup"><span data-stu-id="09c01-105">With this procedure, you can identify an item, trace it back to the source, and then trace forward through the production and sale of the finished product.</span></span> <span data-ttu-id="09c01-106">Procesu var lietot, lai izpētītu ietekmētos klientus, skartos pārdošanas pasūtījumus un citus aspektus.</span><span class="sxs-lookup"><span data-stu-id="09c01-106">The process can be used to investigate the customers impacted, the sales orders affected, and more.</span></span> <span data-ttu-id="09c01-107">Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma USP2 dati.</span><span class="sxs-lookup"><span data-stu-id="09c01-107">This procedure uses demo data company USP2.</span></span>
 
 
-## <a name="trace-an-item-backwards-using-a-known-batch-number"></a>Krājuma izsekošana atpakaļ, izmantojot zināmu partijas numuru
-1. Pārejiet uz sadaļu Krājumu pārvaldība > Pieprasījumi un pārskati > Izsekošanas dimensijas > Krājuma izsekošana.
-2. Laukā Krājuma kods atlasiet P9100.
-3. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-4. Laukā Uz priekšu vai atpakaļ atlasiet vienumu Atpakaļ.
-5. Laukā Partijas numurs atlasiet as-12-344-01.
-6. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-7. Noklikšķiniet uz OK.
+## <a name="trace-an-item-backwards-using-a-known-batch-number"></a><span data-ttu-id="09c01-108">Krājuma izsekošana atpakaļ, izmantojot zināmu partijas numuru</span><span class="sxs-lookup"><span data-stu-id="09c01-108">Trace an item backwards using a known batch number</span></span>
+1. <span data-ttu-id="09c01-109">Pārejiet uz sadaļu Krājumu pārvaldība > Pieprasījumi un pārskati > Izsekošanas dimensijas > Krājuma izsekošana.</span><span class="sxs-lookup"><span data-stu-id="09c01-109">Go to Inventory management > Inquiries and reports > Tracking dimensions > Item tracing.</span></span>
+2. <span data-ttu-id="09c01-110">Laukā Krājuma kods atlasiet P9100.</span><span class="sxs-lookup"><span data-stu-id="09c01-110">In the Item number field, select P9100.</span></span>
+3. <span data-ttu-id="09c01-111">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="09c01-111">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="09c01-112">Laukā Uz priekšu vai atpakaļ atlasiet vienumu Atpakaļ.</span><span class="sxs-lookup"><span data-stu-id="09c01-112">In the Forward or backward field, select 'Backward'.</span></span>
+5. <span data-ttu-id="09c01-113">Laukā Partijas numurs atlasiet as-12-344-01.</span><span class="sxs-lookup"><span data-stu-id="09c01-113">In the Batch number field, select as-12-344-01.</span></span>
+6. <span data-ttu-id="09c01-114">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="09c01-114">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="09c01-115">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="09c01-115">Click OK.</span></span>
 
-## <a name="identify-an-item-trace-it-forward-and-make-an-analysis"></a>Krājuma identificēšana, tā izsekošana uz priekšu un analīzes veikšana
-    * Koka struktūras augšējais zars atspoguļo atlasītā krājuma un partijas rīcībā esošo daudzumu. Jums ir jāizvērš koka struktūras zari, lai atrastu krājumu, kuram ir jāveic uz priekšu vērstā izsekošanu.   
-1. Koka struktūrā izvērsiet “tālāk aprakstītos zarus, un pēc tam atlasiet pēdējo zaru”.
-    * Izvērsiet: “P9100 / 1 / 10 / as-12-344-01 ● 2 muciņas ● 7,00 gal. \P9100 ● Izdots ● Pārdošanas pasūtījums 000072 ● 12/22/2015 ● -1 muciņa ● -4,00 gal. ● Vieta=1, Noliktava=10, Partijas numurs=as-12-344-01 \P9100 ● Ražošana B-000050 ● 12/9/2015● 7 muciņas ● 27,00 gal. ● Vieta=1,Noliktava=10,Partijas numurs=as-12-344-01 ● Līdzprodukti: P9101” un pēc tam atlasiet šo zaru.     
-2. Koka struktūrā izvērsiet “tālāk aprakstīto zaru un pēc tam atlasiet šo zaru”.
-    * Sākot no jūsu atlasīta zara izvērsiet “M9103 ● Ražošanas rinda B-000050 ● 12/9/2015  ● -160,00 mārc. ● Izmērs=70, Krāsa=Labi, Vieta=1, Noliktava=10, Partijas numurs=App01'” un pēc tam atlasiet šo zaru.  
-3. Noklikšķiniet uz vienuma Izsekošana no zara.
-4. Noklikšķiniet uz vienuma Uz priekšu.
-5. Darbību rūtī noklikšķiniet uz vienuma Izsekošana.
-    * Pastāv vairākas izsekošanas opcijas, kas sniedz informāciju par debitoriem, kurus ietekmē jūsu izsekotais krājums, kā arī ar šo krājumu saistītajiem pārdošanas pasūtījumiem, kas ir un vēl nav nosūtīti.   
-6. Noklikšķiniet uz vienuma Debitori.
-7. Aizvērt lapu.
-8. Darbību rūtī noklikšķiniet uz vienuma Izsekošana.
-9. Noklikšķiniet uz vienuma Nosūtītie pārdošanas pasūtījumi.
-10. Aizvērt lapu.
-
+## <a name="identify-an-item-trace-it-forward-and-make-an-analysis"></a><span data-ttu-id="09c01-116">Krājuma identificēšana, tā izsekošana uz priekšu un analīzes veikšana</span><span class="sxs-lookup"><span data-stu-id="09c01-116">Identify an item, trace it forward, and make an analysis</span></span>
+    * <span data-ttu-id="09c01-117">Koka struktūras augšējais zars atspoguļo atlasītā krājuma un partijas rīcībā esošo daudzumu.</span><span class="sxs-lookup"><span data-stu-id="09c01-117">The top node of the tree represents the on hand quantity of the selected item and batch.</span></span> <span data-ttu-id="09c01-118">Jums ir jāizvērš koka struktūras zari, lai atrastu krājumu, kuram ir jāveic uz priekšu vērstā izsekošanu.</span><span class="sxs-lookup"><span data-stu-id="09c01-118">You need to expand the nodes of the tree to find the item that the forward trace should be executed on.</span></span>   
+1. <span data-ttu-id="09c01-119">Koka struktūrā izvērsiet “tālāk aprakstītos zarus, un pēc tam atlasiet pēdējo zaru”.</span><span class="sxs-lookup"><span data-stu-id="09c01-119">In the tree, expand 'the nodes described below, and then select the last node'.</span></span>
+    * <span data-ttu-id="09c01-120">Izvērsiet: “P9100 / 1 / 10 / as-12-344-01 ● 2 muciņas ● 7,00 gal. \P9100 ● Izdots ● Pārdošanas pasūtījums 000072 ● 12/22/2015 ● -1 muciņa ● -4,00 gal. ● Vieta=1, Noliktava=10, Partijas numurs=as-12-344-01 \P9100 ● Ražošana B-000050 ● 12/9/2015● 7 muciņas ● 27,00 gal. ● Vieta=1,Noliktava=10,Partijas numurs=as-12-344-01 ● Līdzprodukti: P9101” un pēc tam atlasiet šo zaru.</span><span class="sxs-lookup"><span data-stu-id="09c01-120">Expand: 'P9100 / 1 / 10 / as-12-344-01 ● 2 keg ● 7.00 gal  \P9100 ● Picked ● Sales order 000072 ● 12/22/2015  ● -1 keg ● -4.00 gal ● Site=1, Warehouse=10, Batch number=as-12-344-01  \P9100 ● Production B-000050 ● 12/9/2015● 7 keg ● 27.00 gal ● Site=1,Warehouse=10,Batch number=as-12-344-01 ● Co-products: P9101' and then select that node.</span></span>     
+2. <span data-ttu-id="09c01-121">Koka struktūrā izvērsiet “tālāk aprakstīto zaru un pēc tam atlasiet šo zaru”.</span><span class="sxs-lookup"><span data-stu-id="09c01-121">In the tree, expand 'the node described below and then select that node'.</span></span>
+    * <span data-ttu-id="09c01-122">Sākot no jūsu atlasīta zara izvērsiet “M9103 ● Ražošanas rinda B-000050 ● 12/9/2015  ● -160,00 mārc. ● Izmērs=70, Krāsa=Labi, Vieta=1, Noliktava=10, Partijas numurs=App01'” un pēc tam atlasiet šo zaru.</span><span class="sxs-lookup"><span data-stu-id="09c01-122">Starting from the node that you’ve just selected,  expand 'M9103 ● Production line B-000050 ● 12/9/2015  ● -160.00 lb ● Size=70, Color=OK, Site=1, Warehouse=10, Batch number=App01' and then select that node.</span></span>  
+3. <span data-ttu-id="09c01-123">Noklikšķiniet uz vienuma Izsekošana no zara.</span><span class="sxs-lookup"><span data-stu-id="09c01-123">Click Trace from node.</span></span>
+4. <span data-ttu-id="09c01-124">Noklikšķiniet uz vienuma Uz priekšu.</span><span class="sxs-lookup"><span data-stu-id="09c01-124">Click Forward.</span></span>
+5. <span data-ttu-id="09c01-125">Darbību rūtī noklikšķiniet uz vienuma Izsekošana.</span><span class="sxs-lookup"><span data-stu-id="09c01-125">On the Action Pane, click Tracing.</span></span>
+    * <span data-ttu-id="09c01-126">Pastāv vairākas izsekošanas opcijas, kas sniedz informāciju par debitoriem, kurus ietekmē jūsu izsekotais krājums, kā arī ar šo krājumu saistītajiem pārdošanas pasūtījumiem, kas ir un vēl nav nosūtīti.</span><span class="sxs-lookup"><span data-stu-id="09c01-126">There are several tracing options which provide information about the customers impacted by the item that you’re tracing, and the sales orders related to the item which have and haven’t been shipped.</span></span>   
+6. <span data-ttu-id="09c01-127">Noklikšķiniet uz vienuma Debitori.</span><span class="sxs-lookup"><span data-stu-id="09c01-127">Click Customers.</span></span>
+7. <span data-ttu-id="09c01-128">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="09c01-128">Close the page.</span></span>
+8. <span data-ttu-id="09c01-129">Darbību rūtī noklikšķiniet uz vienuma Izsekošana.</span><span class="sxs-lookup"><span data-stu-id="09c01-129">On the Action Pane, click Tracing.</span></span>
+9. <span data-ttu-id="09c01-130">Noklikšķiniet uz vienuma Nosūtītie pārdošanas pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="09c01-130">Click Shipped sales orders.</span></span>
+10. <span data-ttu-id="09c01-131">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="09c01-131">Close the page.</span></span>
 

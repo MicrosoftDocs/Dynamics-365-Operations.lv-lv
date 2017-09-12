@@ -17,25 +17,25 @@ ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 373606cd83ef490a7d3108f9c0c1fee171842043
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 611d4c211d59d3077a54f92dea82a078145eb310
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="view-cost-entries-for-a-cost-object"></a>Izmaksu objekta izmaksu ierakstu skatīšana
+# <a name="view-cost-entries-for-a-cost-object"></a><span data-ttu-id="64d6e-103">Izmaksu objekta izmaksu ierakstu skatīšana</span><span class="sxs-lookup"><span data-stu-id="64d6e-103">View cost entries for a cost object</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā procedūrā ir parādīts, kā skatīt izmaksu ierakstus izmaksu objektam. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Šī procedūra ir paredzēta izmaksu kontrolierim.
+<span data-ttu-id="64d6e-104">Šajā procedūrā ir parādīts, kā skatīt izmaksu ierakstus izmaksu objektam.</span><span class="sxs-lookup"><span data-stu-id="64d6e-104">This procedure shows how to view cost entries for a cost object.</span></span> <span data-ttu-id="64d6e-105">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="64d6e-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="64d6e-106">Šī procedūra ir paredzēta izmaksu kontrolierim.</span><span class="sxs-lookup"><span data-stu-id="64d6e-106">This procedure is intended for the cost controller.</span></span>
 
-1. Noklikšķiniet uz Izmaksu administrēšana.
-2. Noklikšķiniet uz Izlaistās preces.
-3. Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus. Piemēram, filtrējiet pēc lauka Krājuma numurs, izmantojot vērtību "m0004".
-4. Darbību rūtī noklikšķiniet uz Pārvaldīt izmaksas.
-5. Noklikšķiniet uz Izmaksu objekti.
-6. Noklikšķiniet uz Izmaksu ieraksti.
-7. Izmantojiet ātro filtru, lai filtrētu pēc lauka Numurs ar vērtību "p000031".
-    * Ja izmaksu ieraksti ir tukši, vienumu No datuma iestatiet uz 2012. gada 31. janvāri un vienumu Līdz datumam iestatiet uz 2012. gada 31. decembri.  
+1. <span data-ttu-id="64d6e-107">Noklikšķiniet uz Izmaksu administrēšana.</span><span class="sxs-lookup"><span data-stu-id="64d6e-107">Click Cost administration.</span></span>
+2. <span data-ttu-id="64d6e-108">Noklikšķiniet uz Izlaistās preces.</span><span class="sxs-lookup"><span data-stu-id="64d6e-108">Click Released products.</span></span>
+3. <span data-ttu-id="64d6e-109">Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus.</span><span class="sxs-lookup"><span data-stu-id="64d6e-109">Use the Quick Filter to find records.</span></span> <span data-ttu-id="64d6e-110">Piemēram, filtrējiet pēc lauka Krājuma numurs, izmantojot vērtību "m0004".</span><span class="sxs-lookup"><span data-stu-id="64d6e-110">For example, filter on the Item number field with a value of 'm0004'.</span></span>
+4. <span data-ttu-id="64d6e-111">Darbību rūtī noklikšķiniet uz Pārvaldīt izmaksas.</span><span class="sxs-lookup"><span data-stu-id="64d6e-111">On the Action Pane, click Manage costs.</span></span>
+5. <span data-ttu-id="64d6e-112">Noklikšķiniet uz Izmaksu objekti.</span><span class="sxs-lookup"><span data-stu-id="64d6e-112">Click Cost objects.</span></span>
+6. <span data-ttu-id="64d6e-113">Noklikšķiniet uz Izmaksu ieraksti.</span><span class="sxs-lookup"><span data-stu-id="64d6e-113">Click Cost entries.</span></span>
+7. <span data-ttu-id="64d6e-114">Izmantojiet ātro filtru, lai filtrētu pēc lauka Numurs ar vērtību "p000031".</span><span class="sxs-lookup"><span data-stu-id="64d6e-114">Use the Quick Filter to filter on the Number field with a value of 'p000031'.</span></span>
+    * <span data-ttu-id="64d6e-115">Ja izmaksu ieraksti ir tukši, vienumu No datuma iestatiet uz 2012. gada 31. janvāri un vienumu Līdz datumam iestatiet uz 2012. gada 31. decembri.</span><span class="sxs-lookup"><span data-stu-id="64d6e-115">If cost entries are blank, set From date to January 31, 2012 and To date to December 31, 2012.</span></span>  
 
 

@@ -1,7 +1,7 @@
 ---
 title: "Karantīnas pasūtījumi"
 description: "Šajā rakstā ir aprakstīts, kā karantīnas pasūtījumi tiek izmantoti, lai bloķētu krājumus."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,66 +10,63 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventLocation, InventModelGroup, InventQuarantineOrder, InventQuarantineParmEnd, InventQuarantineParmReportFinished, InventQuarantineParmStartUp, InventTrans
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30021
 ms.assetid: d5047727-653c-49da-b489-6fd3fe50445e
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: ec3d54e8e08850cd81891e7058b2b787e08b0fb9
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: 17dde4a4e3380beb98eeb71c719fb898b40a94f7
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/12/2017
 
 ---
 
-# <a name="quarantine-orders"></a>Karantīnas pasūtījumi
+# <a name="quarantine-orders"></a><span data-ttu-id="5234b-103">Karantīnas pasūtījumi</span><span class="sxs-lookup"><span data-stu-id="5234b-103">Quarantine orders</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir aprakstīts, kā karantīnas pasūtījumi tiek izmantoti, lai bloķētu krājumus. 
+<span data-ttu-id="5234b-104">Šajā rakstā ir aprakstīts, kā karantīnas pasūtījumi tiek izmantoti, lai bloķētu krājumus.</span><span class="sxs-lookup"><span data-stu-id="5234b-104">This article describes how quarantine orders are used to block inventory.</span></span>
 
-Karantīnas pasūtījumus var izmantot, lai bloķētu krājumu. Piemēram, varat noteikt krājumu karantīnu kvalitātes kontroles iemeslu dēļ. Krājumi, kam ir noteikta karantīna, tiek pārsūtīti uz karantīnas noliktavu. **Piezīme.** Ja izmantojat papildu noliktavas pārvaldības procesus (modulī Noliktavas pārvaldība), karantīnas pasūtījumu apstrāde tiek izmantota tikai atgriešanas pārdošanas pasūtījumiem.
+<span data-ttu-id="5234b-105">Karantīnas pasūtījumus var izmantot, lai bloķētu krājumu.</span><span class="sxs-lookup"><span data-stu-id="5234b-105">Quarantine orders can be used to block inventory.</span></span> <span data-ttu-id="5234b-106">Piemēram, varat noteikt krājumu karantīnu kvalitātes kontroles iemeslu dēļ.</span><span class="sxs-lookup"><span data-stu-id="5234b-106">For example, you might want to quarantine items for quality control reasons.</span></span> <span data-ttu-id="5234b-107">Krājumi, kam ir noteikta karantīna, tiek pārsūtīti uz karantīnas noliktavu.</span><span class="sxs-lookup"><span data-stu-id="5234b-107">Inventory that has been quarantined is transferred to a quarantine warehouse.</span></span> <span data-ttu-id="5234b-108">**Piezīme.** Ja izmantojat papildu noliktavas pārvaldības procesus (modulī Noliktavas pārvaldība), karantīnas pasūtījumu apstrāde tiek izmantota tikai atgriešanas pārdošanas pasūtījumiem.</span><span class="sxs-lookup"><span data-stu-id="5234b-108">**Note:** If you're using advanced warehouse management processes (in Warehouse management), quarantine order processing is used only for return sales orders.</span></span>
 
-## <a name="quarantine-onhand-inventory-items"></a>Rīcībā esošo krājumu karantīna
-Kad novietojat krājumus karantīnā, varat izveidot karantīnas pasūtījumus manuāli vai arī iestatīt, lai sistēma ienākošās apstrādes laikā automātiski izveidotu karantīnas pasūtījumus. Lai automātiski izveidotu karantīnas pasūtījumus, atlasiet opciju **Karantīnas pārraudzība** lapas **Krājumu modeļu grupas** cilnē **Krājumu politikas**. Jums jānorāda arī noklusējuma karantīnas noliktava laukā **Karantīnas noliktava** saņemošajām noliktavām. Ja fiziski rīcībā esošie krājumi tiek reģistrēti, izmantojot pirkšanas pasūtījumu vai ražošanas pasūtījumu, karantīnā novietotie krājumi automātiski tiek pārvietoti uz karantīnas noliktavu programmā Microsoft Dynamics 365 for Finance and Operations. Šī kustība notiek tāpēc, ka karantīnas pasūtījuma statuss tiek mainīts uz **Sākts**. Kad jūs izveidojat karantīnas pasūtījumus manuāli, krājumu nav nepieciešams iestatīt karantīnas pārraudzībai saistītajā krājuma modeļa grupā. Šim procesam ir jānorāda rīcībā esošais krājums, kas jānovieto karantīnā, un karantīnas noliktava, kura jāizmanto. Lai palīdzētu plānot procesu, varat izmantot karantīnas pasūtījuma statusus.
+## <a name="quarantine-onhand-inventory-items"></a><span data-ttu-id="5234b-109">Rīcībā esošo krājumu karantīna</span><span class="sxs-lookup"><span data-stu-id="5234b-109">Quarantine onhand inventory items</span></span>
+<span data-ttu-id="5234b-110">Kad novietojat krājumus karantīnā, varat izveidot karantīnas pasūtījumus manuāli vai arī iestatīt, lai sistēma ienākošās apstrādes laikā automātiski izveidotu karantīnas pasūtījumus.</span><span class="sxs-lookup"><span data-stu-id="5234b-110">When you quarantine items, you can either create the quarantine orders manually or set up the system to create the quarantine orders automatically during inbound processing.</span></span> <span data-ttu-id="5234b-111">Lai automātiski izveidotu karantīnas pasūtījumus, atlasiet opciju **Karantīnas pārraudzība** lapas **Krājumu modeļu grupas** cilnē **Krājumu politikas**.</span><span class="sxs-lookup"><span data-stu-id="5234b-111">To create quarantine orders automatically, select the **Quarantine management** option on the **Inventory policies** tab on the **Item model groups** page.</span></span> <span data-ttu-id="5234b-112">Jums jānorāda arī noklusējuma karantīnas noliktava laukā **Karantīnas noliktava** saņemošajām noliktavām.</span><span class="sxs-lookup"><span data-stu-id="5234b-112">You must also specify a default quarantine warehouse in the **Quarantine warehouse** field for the receiving warehouses.</span></span> <span data-ttu-id="5234b-113">Ja fiziski rīcībā esošie krājumi tiek reģistrēti, izmantojot pirkšanas pasūtījumu vai ražošanas pasūtījumu, karantīnā novietotie krājumi automātiski tiek pārvietoti uz karantīnas noliktavu programmā Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="5234b-113">When the physically on-hand inventory is recorded in a purchase order or production order, quarantined items are automatically moved to a quarantine warehouse in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="5234b-114">Šī kustība notiek tāpēc, ka karantīnas pasūtījuma statuss tiek mainīts uz **Sākts**.</span><span class="sxs-lookup"><span data-stu-id="5234b-114">This movement occurs because the status of the quarantine order is changed to **Started**.</span></span> <span data-ttu-id="5234b-115">Kad jūs izveidojat karantīnas pasūtījumus manuāli, krājumu nav nepieciešams iestatīt karantīnas pārraudzībai saistītajā krājuma modeļa grupā.</span><span class="sxs-lookup"><span data-stu-id="5234b-115">When you create quarantine orders manually, the item doesn't have to be set up for quarantine management in the associated item model group.</span></span> <span data-ttu-id="5234b-116">Šim procesam ir jānorāda rīcībā esošais krājums, kas jānovieto karantīnā, un karantīnas noliktava, kura jāizmanto.</span><span class="sxs-lookup"><span data-stu-id="5234b-116">For this process, you must specify the on-hand inventory that should be quarantined and the quarantine warehouse that should be used.</span></span> <span data-ttu-id="5234b-117">Lai palīdzētu plānot procesu, varat izmantot karantīnas pasūtījuma statusus.</span><span class="sxs-lookup"><span data-stu-id="5234b-117">You can use the quarantine order statuses to help plan the process.</span></span>
 
-## <a name="quarantine-order-statuses"></a>Karantīnas pasūtījumu statusi
-Karantīnas pasūtījumiem var būt šāds statuss:
+## <a name="quarantine-order-statuses"></a><span data-ttu-id="5234b-118">Karantīnas pasūtījumu statusi</span><span class="sxs-lookup"><span data-stu-id="5234b-118">Quarantine order statuses</span></span>
+<span data-ttu-id="5234b-119">Karantīnas pasūtījumiem var būt šāds statuss:</span><span class="sxs-lookup"><span data-stu-id="5234b-119">Quarantine orders can have the following statuses:</span></span>
 
--   Izveidota
--   Uzsākts
--   Ziņots kā pabeigts
--   Pabeigts
+-   <span data-ttu-id="5234b-120">Izveidota</span><span class="sxs-lookup"><span data-stu-id="5234b-120">Created</span></span>
+-   <span data-ttu-id="5234b-121">Uzsākts</span><span class="sxs-lookup"><span data-stu-id="5234b-121">Started</span></span>
+-   <span data-ttu-id="5234b-122">Ziņots kā pabeigts</span><span class="sxs-lookup"><span data-stu-id="5234b-122">Reported as finished</span></span>
+-   <span data-ttu-id="5234b-123">Pabeigts</span><span class="sxs-lookup"><span data-stu-id="5234b-123">Ended</span></span>
 
-### <a name="created"></a>Izveidota
+### <a name="created"></a><span data-ttu-id="5234b-124">Izveidota</span><span class="sxs-lookup"><span data-stu-id="5234b-124">Created</span></span>
 
-Ja karantīnas pasūtījums ir izveidots manuāli, bet krājums vēl nav novietots karantīnas noliktavā, karantīnas pasūtījumam ir statuss **Izveidots**. Tiek ģenerētas divas krājumu transakcijas. Viena transakcija ir izejas plūsmas transakcija, kurai var būt statuss **Pasūtīts**, **Rezervēts fiziski** vai **Izdots**. Otrā transakcija ir ieejas plūsmas transakcija, kurai karantīnas noliktavā var būt statuss **Pasūtīts** vai **Reģistrēts**. Jūs varat rezervēt, izdot un reģistrēt krājumu atjauninājumus, izmantojot parastos procesus.
+<span data-ttu-id="5234b-125">Ja karantīnas pasūtījums ir izveidots manuāli, bet krājums vēl nav novietots karantīnas noliktavā, karantīnas pasūtījumam ir statuss **Izveidots**.</span><span class="sxs-lookup"><span data-stu-id="5234b-125">When a quarantine order has been created manually, but the item isn't yet in the quarantine warehouse, the quarantine order has a status of **Created**.</span></span> <span data-ttu-id="5234b-126">Tiek ģenerētas divas krājumu transakcijas.</span><span class="sxs-lookup"><span data-stu-id="5234b-126">Two inventory transactions are generated.</span></span> <span data-ttu-id="5234b-127">Viena transakcija ir izejas plūsmas transakcija, kurai var būt statuss **Pasūtīts**, **Rezervēts fiziski** vai **Izdots**.</span><span class="sxs-lookup"><span data-stu-id="5234b-127">One transaction is an issue transaction that can have a status of **On order**, **Reserved physical**, or **Picked**.</span></span> <span data-ttu-id="5234b-128">Otrā transakcija ir ieejas plūsmas transakcija, kurai karantīnas noliktavā var būt statuss **Pasūtīts** vai **Reģistrēts**.</span><span class="sxs-lookup"><span data-stu-id="5234b-128">The other transaction is a receipt transaction that can have a status of **Ordered** or **Registered** at the quarantine warehouse.</span></span> <span data-ttu-id="5234b-129">Jūs varat rezervēt, izdot un reģistrēt krājumu atjauninājumus, izmantojot parastos procesus.</span><span class="sxs-lookup"><span data-stu-id="5234b-129">You can reserve, pick, and register updates to the inventory by using the usual processes.</span></span>
 
-### <a name="started"></a>Uzsākts
+### <a name="started"></a><span data-ttu-id="5234b-130">Uzsākts</span><span class="sxs-lookup"><span data-stu-id="5234b-130">Started</span></span>
 
-Kad karantīnas pasūtījumam ir statuss **Sākts**, krājumi tiek pārsūtīti no parastās noliktavas uz karantīnas noliktavu, un tiek ģenerētas divas krājumu transakcijas. Vienai transakcijai ir statuss **Atskaitīts** un otrai transakcijai ir statuss **Saņemts**. Vienlaicīgi tiek arī izveidotas divas krājumu transakcijas, lai izpildītu atgriešanas pārsūtīšanu. Šīm transakcijām nav datuma. Vienai transakcijai ir statuss **Rezervēts fiziski** un otrai transakcijai ir statuss **Pasūtīts**.
+<span data-ttu-id="5234b-131">Kad karantīnas pasūtījumam ir statuss **Sākts**, krājumi tiek pārsūtīti no parastās noliktavas uz karantīnas noliktavu, un tiek ģenerētas divas krājumu transakcijas.</span><span class="sxs-lookup"><span data-stu-id="5234b-131">When a quarantine order has a status of **Started**, the inventory is transferred from the regular warehouse to the quarantine warehouse, and two inventory transactions are generated.</span></span> <span data-ttu-id="5234b-132">Vienai transakcijai ir statuss **Atskaitīts** un otrai transakcijai ir statuss **Saņemts**.</span><span class="sxs-lookup"><span data-stu-id="5234b-132">One transaction has a status of **Deducted**, and the other transaction has a status of **Received**.</span></span> <span data-ttu-id="5234b-133">Vienlaicīgi tiek arī izveidotas divas krājumu transakcijas, lai izpildītu atgriešanas pārsūtīšanu.</span><span class="sxs-lookup"><span data-stu-id="5234b-133">At the same time, two inventory transactions are created to handle the return transfer.</span></span> <span data-ttu-id="5234b-134">Šīm transakcijām nav datuma.</span><span class="sxs-lookup"><span data-stu-id="5234b-134">These transactions aren't dated.</span></span> <span data-ttu-id="5234b-135">Vienai transakcijai ir statuss **Rezervēts fiziski** un otrai transakcijai ir statuss **Pasūtīts**.</span><span class="sxs-lookup"><span data-stu-id="5234b-135">One transaction has a status of **Reserved physical**, and the other transaction has a status of **Ordered**.</span></span>
 
-### <a name="reported-as-finished"></a>Ziņots kā pabeigts
+### <a name="reported-as-finished"></a><span data-ttu-id="5234b-136">Ziņots kā pabeigts</span><span class="sxs-lookup"><span data-stu-id="5234b-136">Reported as finished</span></span>
 
-Noklikšķinot uz **Reģistrēt pabeigšanu**, sāktais karantīnas pasūtījums tiek reģistrēts kā pabeigts. Krājums tiek atbrīvots no karantīnas, bet vēl netiek pārvietots atpakaļ uz parasto noliktavu. Kustību atpakaļ uz parasto noliktavu var apstrādāt, izmantojot krājumu saņemšanas žurnālu, ko var inicializēt pabeigšanas reģistrēšanas laikā.
+<span data-ttu-id="5234b-137">Noklikšķinot uz **Reģistrēt pabeigšanu**, sāktais karantīnas pasūtījums tiek reģistrēts kā pabeigts.</span><span class="sxs-lookup"><span data-stu-id="5234b-137">By clicking **Report as finished**, you can report a started quarantine order as finished.</span></span> <span data-ttu-id="5234b-138">Krājums tiek atbrīvots no karantīnas, bet vēl netiek pārvietots atpakaļ uz parasto noliktavu.</span><span class="sxs-lookup"><span data-stu-id="5234b-138">The item is released from quarantine but isn't yet moved back to the regular warehouse.</span></span> <span data-ttu-id="5234b-139">Kustību atpakaļ uz parasto noliktavu var apstrādāt, izmantojot krājumu saņemšanas žurnālu, ko var inicializēt pabeigšanas reģistrēšanas laikā.</span><span class="sxs-lookup"><span data-stu-id="5234b-139">The movement back to the regular warehouse can be procesed via an Item arrival journal that can be initialized during the Report as finished process.</span></span>
 
-### <a name="ended"></a>Pabeigts
+### <a name="ended"></a><span data-ttu-id="5234b-140">Pabeigts</span><span class="sxs-lookup"><span data-stu-id="5234b-140">Ended</span></span>
 
-Kad karantīnas pasūtījums ir pabeigts, krājums tiek pārvietots no karantīnas noliktavas atpakaļ uz parasto noliktavu. Krājuma transakcijas statuss karantīnas noliktavā tiek iestatīts uz **Pārdots** un parastajā noliktavā — uz **Nopirkts**.
+<span data-ttu-id="5234b-141">Kad karantīnas pasūtījums ir pabeigts, krājums tiek pārvietots no karantīnas noliktavas atpakaļ uz parasto noliktavu.</span><span class="sxs-lookup"><span data-stu-id="5234b-141">When a quarantine order is ended, the item is moved from the quarantine warehouse back to the regular warehouse.</span></span> <span data-ttu-id="5234b-142">Krājuma transakcijas statuss karantīnas noliktavā tiek iestatīts uz **Pārdots** un parastajā noliktavā — uz **Nopirkts**.</span><span class="sxs-lookup"><span data-stu-id="5234b-142">The status of the item transaction is set to **Sold** at the quarantine warehouse and **Purchased** at the regular warehouse.</span></span>
 
-## <a name="quarantine-order-scrap"></a>Karantīnas pasūtījuma brāķis
-Karantīnas pasūtījuma procesa ietvaros ir iespējams norakstīt krājumu. Apstrādājot brāķi, krājuma statuss tiks iestatīts kā **Pārdots**, izmantojot izdošanas transakciju no karantīnas noliktavas.
+## <a name="quarantine-order-scrap"></a><span data-ttu-id="5234b-143">Karantīnas pasūtījuma brāķis</span><span class="sxs-lookup"><span data-stu-id="5234b-143">Quarantine order scrap</span></span>
+<span data-ttu-id="5234b-144">Karantīnas pasūtījuma procesa ietvaros ir iespējams norakstīt krājumu.</span><span class="sxs-lookup"><span data-stu-id="5234b-144">As part of the quarantine order process, you can scrap inventory.</span></span> <span data-ttu-id="5234b-145">Apstrādājot brāķi, krājuma statuss tiks iestatīts kā **Pārdots**, izmantojot izdošanas transakciju no karantīnas noliktavas.</span><span class="sxs-lookup"><span data-stu-id="5234b-145">When you process scrap, the status of the inventory will be set to **Sold** by an issue transaction from the quarantine warehouse.</span></span>
 
-<a name="see-also"></a>Skatiet arī
+<a name="see-also"></a><span data-ttu-id="5234b-146">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="5234b-146">See also</span></span>
 --------
 
-[Krājumu aizturēšana](inventory-blocking.md)
-
-
-
+[<span data-ttu-id="5234b-147">Krājumu aizturēšana</span><span class="sxs-lookup"><span data-stu-id="5234b-147">Inventory blocking</span></span>](inventory-blocking.md)
 

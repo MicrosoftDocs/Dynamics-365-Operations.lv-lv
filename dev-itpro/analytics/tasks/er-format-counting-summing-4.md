@@ -16,91 +16,91 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 90a0dc0fc32a448d859fbb0933ea6f12ea16668f
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 60a34e35a376635669b764457617cb997822bdcd
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="run-the-format-to-do-counting-and-summing-for-electronic-reporting-er"></a>Palaist formātu uzskaites un summēšanas veikšanai elektronisko pārskatu veidošanai (ER)
+# <a name="run-the-format-to-do-counting-and-summing-for-electronic-reporting-er"></a><span data-ttu-id="2924c-103">Palaist formātu uzskaites un summēšanas veikšanai elektronisko pārskatu veidošanai (ER)</span><span class="sxs-lookup"><span data-stu-id="2924c-103">Run the format to do counting and summing for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Tālāk aprakstītajos soļos ir izskaidrots, kā sistēmas lietotājs, kam ir piešķirta administratora vai elektroniskā pārskata izstrādātāja loma, var konfigurēt elektronisko pārskatu sagatavošanas (ER) formātu, lai veiktu uzskaiti un summēšanu, izmantojot jau izveidotās teksta izvades datus. Šīs darbības var veikt uzņēmumā DEMF.
+<span data-ttu-id="2924c-104">Tālāk aprakstītajos soļos ir izskaidrots, kā sistēmas lietotājs, kam ir piešķirta administratora vai elektroniskā pārskata izstrādātāja loma, var konfigurēt elektronisko pārskatu sagatavošanas (ER) formātu, lai veiktu uzskaiti un summēšanu, izmantojot jau izveidotās teksta izvades datus.</span><span class="sxs-lookup"><span data-stu-id="2924c-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to do counting and summing based on data of the already generated text output.</span></span> <span data-ttu-id="2924c-105">Šīs darbības var veikt uzņēmumā DEMF.</span><span class="sxs-lookup"><span data-stu-id="2924c-105">These steps can be performed in the DEMF company.</span></span>
 
-Lai veiktu šīs darbības, vispirms ir jāpabeidz procedūras “ER konfigurēt formātu, lai veiktu uzskaiti un summēšanu (3. daļa: Izmantot aprēķinus izvades sagatavošanai)” darbības.
+<span data-ttu-id="2924c-106">Lai veiktu šīs darbības, vispirms ir jāpabeidz procedūras “ER konfigurēt formātu, lai veiktu uzskaiti un summēšanu (3. daļa: Izmantot aprēķinus izvades sagatavošanai)” darbības.</span><span class="sxs-lookup"><span data-stu-id="2924c-106">To complete these steps, you must first complete the steps in the “ER Configure format to do counting and summing (Part 3: Use computations to make the output)” procedure.</span></span>
 
-Šī procedūra ir paredzēta līdzeklim, kas tika pievienots Dynamics 365 for Operations versijā 1611.
+<span data-ttu-id="2924c-107">Šī procedūra ir paredzēta līdzeklim, kas tika pievienots Dynamics 365 for Operations versijā 1611.</span><span class="sxs-lookup"><span data-stu-id="2924c-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="test-this-configuration-for-generation-of-the-intrastat-reports"></a>Pārbaudīt šo konfigurāciju attiecībā uz Intrastat pārskatu izveidošanu
-1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.
-2. Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.
-3. Kokā struktūrā izvērsiet 'Intrastat model'.
-4. Koka struktūrā izvērsiet 'Intrastat model\Intrastat (DE)'.
-5. Koka struktūrā atlasiet 'Intrastat model\Intrastat (DE)\Intrastat (DE) with counting & summing'.
-6. Darbību rūtī noklikšķiniet uz Konfigurācijas.
-7. Noklikšķiniet uz Lietotāja parametri.
-8. Laukā Palaist iestatījumus atlasiet Jā.
-9. Noklikšķiniet uz OK.
-10. Noklikšķiniet uz Rediģēt.
-11. Laukā Palaist melnrakstu atlasiet Jā.
-12. Noklikšķiniet uz Saglabāt.
-13. Dodieties uz Nodokļi > Iestatīšana > Ārējā tirdzniecība > Ārējās tirdzniecības parametri.
-14. Izvērsiet sadaļu Elektroniskie pārskati.
-15. Atlasiet konfigurāciju “Intrastat (DE) with counting & summing”.
-16. Atlasiet konfigurāciju “Intrastat (DE) with counting & summing”.
-17. Noklikšķiniet uz Saglabāt.
-18. Aizvērt lapu.
-19. Dodieties uz Nodokļi > Deklarācijas > Ārējā tirdzniecība > Intrastat.
-20. Noklikšķiniet uz Izvade.
-21. Noklikšķiniet uz Atskaite.
-    * Izpildiet Intrastat pārskata ģenerēšanas procesu.  
-22. Laukā No datuma iestatiet datumu 2000-01-01.
-    * Definējiet tāda pārskata perioda sākuma un beigu datumus, kas ietver esošos datumus transakciju veidlapā.  
-23. Laukā Līdz datumam iestatiet datumu uz 2022-12-31.
-    * Definējiet tāda pārskata perioda sākuma un beigu datumus, kas ietver esošos datumus transakciju veidlapā.  
-24. Laukā Virziens atlasiet opciju 'Arrivals'.
-25. Laukā Ģenerēt failu atlasiet Jā.
-26. Noklikšķiniet uz OK.
-    * Pārskatiet izveidoto izvades dokumentu ar kopsavilkuma rindām beigās.  
-27. Noklikšķiniet uz Jauns.
-28. Sarakstā atzīmējiet atlasīto rindu.
-29. Laukā Virziens atlasiet opciju 'Dispatches'.
-30. Laukā Krājuma kods ievadiet vai atlasiet kādu vērtību.
-31. Laukā Prece ievadiet vai atlasiet kādu vērtību.
-32. Iestatiet svara vērtību 10.
-33. Iestatiet vienuma Rēķina summa vērtību 10000.
-34. Iestatiet vienuma Statistiskā summa vērtību 10000.
-35. Noklikšķiniet uz Izvade.
-36. Noklikšķiniet uz Atskaite.
-37. Laukā Virziens atlasiet opciju 'Dispatches'.
-38. Noklikšķiniet uz OK.
-    * Pārskatiet izveidoto izvades dokumentu ar kopsavilkuma rindām beigās. Ņemiet vērā, ka tas ir izmainīts, salīdzinot ar pirmo izpildi.  
+## <a name="test-this-configuration-for-generation-of-the-intrastat-reports"></a><span data-ttu-id="2924c-108">Pārbaudīt šo konfigurāciju attiecībā uz Intrastat pārskatu izveidošanu</span><span class="sxs-lookup"><span data-stu-id="2924c-108">Test this configuration for generation of the Intrastat reports</span></span>
+1. <span data-ttu-id="2924c-109">Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.</span><span class="sxs-lookup"><span data-stu-id="2924c-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="2924c-110">Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="2924c-110">Click Reporting configurations.</span></span>
+3. <span data-ttu-id="2924c-111">Kokā struktūrā izvērsiet 'Intrastat model'.</span><span class="sxs-lookup"><span data-stu-id="2924c-111">In the tree, expand 'Intrastat model'.</span></span>
+4. <span data-ttu-id="2924c-112">Koka struktūrā izvērsiet 'Intrastat model\Intrastat (DE)'.</span><span class="sxs-lookup"><span data-stu-id="2924c-112">In the tree, expand 'Intrastat model\Intrastat (DE)'.</span></span>
+5. <span data-ttu-id="2924c-113">Koka struktūrā atlasiet 'Intrastat model\Intrastat (DE)\Intrastat (DE) with counting & summing'.</span><span class="sxs-lookup"><span data-stu-id="2924c-113">In the tree, select 'Intrastat model\Intrastat (DE)\Intrastat (DE) with counting & summing'.</span></span>
+6. <span data-ttu-id="2924c-114">Darbību rūtī noklikšķiniet uz Konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="2924c-114">On the Action Pane, click Configurations.</span></span>
+7. <span data-ttu-id="2924c-115">Noklikšķiniet uz Lietotāja parametri.</span><span class="sxs-lookup"><span data-stu-id="2924c-115">Click User parameters.</span></span>
+8. <span data-ttu-id="2924c-116">Laukā Palaist iestatījumus atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="2924c-116">Select Yes in the Run settings field.</span></span>
+9. <span data-ttu-id="2924c-117">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="2924c-117">Click OK.</span></span>
+10. <span data-ttu-id="2924c-118">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="2924c-118">Click Edit.</span></span>
+11. <span data-ttu-id="2924c-119">Laukā Palaist melnrakstu atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="2924c-119">Select Yes in the Run Draft field.</span></span>
+12. <span data-ttu-id="2924c-120">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="2924c-120">Click Save.</span></span>
+13. <span data-ttu-id="2924c-121">Dodieties uz Nodokļi > Iestatīšana > Ārējā tirdzniecība > Ārējās tirdzniecības parametri.</span><span class="sxs-lookup"><span data-stu-id="2924c-121">Go to Tax > Setup > Foreign trade > Foreign trade parameters.</span></span>
+14. <span data-ttu-id="2924c-122">Izvērsiet sadaļu Elektroniskie pārskati.</span><span class="sxs-lookup"><span data-stu-id="2924c-122">Expand the Electronic reporting section.</span></span>
+15. <span data-ttu-id="2924c-123">Atlasiet konfigurāciju “Intrastat (DE) with counting & summing”.</span><span class="sxs-lookup"><span data-stu-id="2924c-123">Select the “Intrastat (DE) with counting & summing” configuration.</span></span>
+16. <span data-ttu-id="2924c-124">Atlasiet konfigurāciju “Intrastat (DE) with counting & summing”.</span><span class="sxs-lookup"><span data-stu-id="2924c-124">Select the “Intrastat (DE) with counting & summing” configuration.</span></span>
+17. <span data-ttu-id="2924c-125">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="2924c-125">Click Save.</span></span>
+18. <span data-ttu-id="2924c-126">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="2924c-126">Close the page.</span></span>
+19. <span data-ttu-id="2924c-127">Dodieties uz Nodokļi > Deklarācijas > Ārējā tirdzniecība > Intrastat.</span><span class="sxs-lookup"><span data-stu-id="2924c-127">Go to Tax > Declarations > Foreign trade > Intrastat.</span></span>
+20. <span data-ttu-id="2924c-128">Noklikšķiniet uz Izvade.</span><span class="sxs-lookup"><span data-stu-id="2924c-128">Click Output.</span></span>
+21. <span data-ttu-id="2924c-129">Noklikšķiniet uz Atskaite.</span><span class="sxs-lookup"><span data-stu-id="2924c-129">Click Report.</span></span>
+    * <span data-ttu-id="2924c-130">Izpildiet Intrastat pārskata ģenerēšanas procesu.</span><span class="sxs-lookup"><span data-stu-id="2924c-130">Run the Intrastat report generation process.</span></span>  
+22. <span data-ttu-id="2924c-131">Laukā No datuma iestatiet datumu 2000-01-01.</span><span class="sxs-lookup"><span data-stu-id="2924c-131">In the From date field, set the date to '2000-01-01'.</span></span>
+    * <span data-ttu-id="2924c-132">Definējiet tāda pārskata perioda sākuma un beigu datumus, kas ietver esošos datumus transakciju veidlapā.</span><span class="sxs-lookup"><span data-stu-id="2924c-132">Define start and end dates for the reporting period that include the existing on the form transactions.</span></span>  
+23. <span data-ttu-id="2924c-133">Laukā Līdz datumam iestatiet datumu uz 2022-12-31.</span><span class="sxs-lookup"><span data-stu-id="2924c-133">In the To date field, set the date to '2022-12-31'.</span></span>
+    * <span data-ttu-id="2924c-134">Definējiet tāda pārskata perioda sākuma un beigu datumus, kas ietver esošos datumus transakciju veidlapā.</span><span class="sxs-lookup"><span data-stu-id="2924c-134">Define start and end dates for the reporting period that include the existing on the form transactions.</span></span>  
+24. <span data-ttu-id="2924c-135">Laukā Virziens atlasiet opciju 'Arrivals'.</span><span class="sxs-lookup"><span data-stu-id="2924c-135">In the Direction field, select 'Arrivals'.</span></span>
+25. <span data-ttu-id="2924c-136">Laukā Ģenerēt failu atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="2924c-136">Select Yes in the Generate file field.</span></span>
+26. <span data-ttu-id="2924c-137">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="2924c-137">Click OK.</span></span>
+    * <span data-ttu-id="2924c-138">Pārskatiet izveidoto izvades dokumentu ar kopsavilkuma rindām beigās.</span><span class="sxs-lookup"><span data-stu-id="2924c-138">Review the created output with the summary lines in the end.</span></span>  
+27. <span data-ttu-id="2924c-139">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="2924c-139">Click New.</span></span>
+28. <span data-ttu-id="2924c-140">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="2924c-140">In the list, mark the selected row.</span></span>
+29. <span data-ttu-id="2924c-141">Laukā Virziens atlasiet opciju 'Dispatches'.</span><span class="sxs-lookup"><span data-stu-id="2924c-141">In the Direction field, select 'Dispatches'.</span></span>
+30. <span data-ttu-id="2924c-142">Laukā Krājuma kods ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="2924c-142">In the Item number field, enter or select a value.</span></span>
+31. <span data-ttu-id="2924c-143">Laukā Prece ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="2924c-143">In the Commodity field, enter or select a value.</span></span>
+32. <span data-ttu-id="2924c-144">Iestatiet svara vērtību 10.</span><span class="sxs-lookup"><span data-stu-id="2924c-144">Set Weight to '10'.</span></span>
+33. <span data-ttu-id="2924c-145">Iestatiet vienuma Rēķina summa vērtību 10000.</span><span class="sxs-lookup"><span data-stu-id="2924c-145">Set Invoice amount to '10000'.</span></span>
+34. <span data-ttu-id="2924c-146">Iestatiet vienuma Statistiskā summa vērtību 10000.</span><span class="sxs-lookup"><span data-stu-id="2924c-146">Set Statistical amount to '10000'.</span></span>
+35. <span data-ttu-id="2924c-147">Noklikšķiniet uz Izvade.</span><span class="sxs-lookup"><span data-stu-id="2924c-147">Click Output.</span></span>
+36. <span data-ttu-id="2924c-148">Noklikšķiniet uz Atskaite.</span><span class="sxs-lookup"><span data-stu-id="2924c-148">Click Report.</span></span>
+37. <span data-ttu-id="2924c-149">Laukā Virziens atlasiet opciju 'Dispatches'.</span><span class="sxs-lookup"><span data-stu-id="2924c-149">In the Direction field, select 'Dispatches'.</span></span>
+38. <span data-ttu-id="2924c-150">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="2924c-150">Click OK.</span></span>
+    * <span data-ttu-id="2924c-151">Pārskatiet izveidoto izvades dokumentu ar kopsavilkuma rindām beigās.</span><span class="sxs-lookup"><span data-stu-id="2924c-151">Review the created output with the summary lines in the end.</span></span> <span data-ttu-id="2924c-152">Ņemiet vērā, ka tas ir izmainīts, salīdzinot ar pirmo izpildi.</span><span class="sxs-lookup"><span data-stu-id="2924c-152">Note that it has been changed in comparison to the first run.</span></span>  
 
-## <a name="run-this-configuration-in-debug-mode-to-review-the-collected-counting--summing-data"></a>Palaist šo konfigurāciju atkļūdošanas režīmā, lai pārskatītu apkopotos uzskaites & summēšanas datus
-1. Dodieties uz Organizācijas administrēšana > Elektronisko atskaišu veidošana > Konfigurācijas.
-2. Kokā struktūrā izvērsiet 'Intrastat model'.
-3. Koka struktūrā izvērsiet 'Intrastat model\Intrastat (DE)'.
-4. Koka struktūrā atlasiet 'Intrastat model\Intrastat (DE)\Intrastat (DE) with counting & summing'.
-5. Darbību rūtī noklikšķiniet uz Konfigurācijas.
-6. Noklikšķiniet uz Lietotāja parametri.
-7. Laukā Palaist atkļūdošanas režīmu atlasiet Jā.
-8. Noklikšķiniet uz OK.
-9. Aizvērt lapu.
-10. Dodieties uz Nodokļi > Deklarācijas > Ārējā tirdzniecība > Intrastat.
-11. Noklikšķiniet uz Izvade.
-12. Noklikšķiniet uz Atskaite.
-13. Noklikšķiniet uz OK.
-14. Aizvērt lapu.
-15. Dodieties uz Organizācijas administrēšana > Elektronisko atskaišu veidošana > Konfigurācijas.
-16. Kokā struktūrā izvērsiet 'Intrastat model'.
-17. Koka struktūrā izvērsiet 'Intrastat model\Intrastat (DE)'.
-18. Koka struktūrā atlasiet 'Intrastat model\Intrastat (DE)\Intrastat (DE) with counting & summing'.
-19. Noklikšķiniet uz Atkļūdošanas žurnāli.
-    * Ņemiet vērā, ka atlasītās konfigurācijas izpildes procesam ir izveidots atkļūdošanas žurnāla ieraksts.  
-20. Noklikšķiniet uz Pievienot.
-21. Noklikšķiniet uz Atvērt.
-    * Pārskatiet izveidoto XML failu, kas ietver uzskaites un summēšanas datus, kas tika apkopoti atlasītās konfigurācijas izpildes laikā.  
+## <a name="run-this-configuration-in-debug-mode-to-review-the-collected-counting--summing-data"></a><span data-ttu-id="2924c-153">Palaist šo konfigurāciju atkļūdošanas režīmā, lai pārskatītu apkopotos uzskaites & summēšanas datus</span><span class="sxs-lookup"><span data-stu-id="2924c-153">Run this configuration in debug mode to review the collected counting & summing data</span></span>
+1. <span data-ttu-id="2924c-154">Dodieties uz Organizācijas administrēšana > Elektronisko atskaišu veidošana > Konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="2924c-154">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+2. <span data-ttu-id="2924c-155">Kokā struktūrā izvērsiet 'Intrastat model'.</span><span class="sxs-lookup"><span data-stu-id="2924c-155">In the tree, expand 'Intrastat model'.</span></span>
+3. <span data-ttu-id="2924c-156">Koka struktūrā izvērsiet 'Intrastat model\Intrastat (DE)'.</span><span class="sxs-lookup"><span data-stu-id="2924c-156">In the tree, expand 'Intrastat model\Intrastat (DE)'.</span></span>
+4. <span data-ttu-id="2924c-157">Koka struktūrā atlasiet 'Intrastat model\Intrastat (DE)\Intrastat (DE) with counting & summing'.</span><span class="sxs-lookup"><span data-stu-id="2924c-157">In the tree, select 'Intrastat model\Intrastat (DE)\Intrastat (DE) with counting & summing'.</span></span>
+5. <span data-ttu-id="2924c-158">Darbību rūtī noklikšķiniet uz Konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="2924c-158">On the Action Pane, click Configurations.</span></span>
+6. <span data-ttu-id="2924c-159">Noklikšķiniet uz Lietotāja parametri.</span><span class="sxs-lookup"><span data-stu-id="2924c-159">Click User parameters.</span></span>
+7. <span data-ttu-id="2924c-160">Laukā Palaist atkļūdošanas režīmu atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="2924c-160">Select Yes in the Run in debug mode field.</span></span>
+8. <span data-ttu-id="2924c-161">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="2924c-161">Click OK.</span></span>
+9. <span data-ttu-id="2924c-162">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="2924c-162">Close the page.</span></span>
+10. <span data-ttu-id="2924c-163">Dodieties uz Nodokļi > Deklarācijas > Ārējā tirdzniecība > Intrastat.</span><span class="sxs-lookup"><span data-stu-id="2924c-163">Go to Tax > Declarations > Foreign trade > Intrastat.</span></span>
+11. <span data-ttu-id="2924c-164">Noklikšķiniet uz Izvade.</span><span class="sxs-lookup"><span data-stu-id="2924c-164">Click Output.</span></span>
+12. <span data-ttu-id="2924c-165">Noklikšķiniet uz Atskaite.</span><span class="sxs-lookup"><span data-stu-id="2924c-165">Click Report.</span></span>
+13. <span data-ttu-id="2924c-166">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="2924c-166">Click OK.</span></span>
+14. <span data-ttu-id="2924c-167">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="2924c-167">Close the page.</span></span>
+15. <span data-ttu-id="2924c-168">Dodieties uz Organizācijas administrēšana > Elektronisko atskaišu veidošana > Konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="2924c-168">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+16. <span data-ttu-id="2924c-169">Kokā struktūrā izvērsiet 'Intrastat model'.</span><span class="sxs-lookup"><span data-stu-id="2924c-169">In the tree, expand 'Intrastat model'.</span></span>
+17. <span data-ttu-id="2924c-170">Koka struktūrā izvērsiet 'Intrastat model\Intrastat (DE)'.</span><span class="sxs-lookup"><span data-stu-id="2924c-170">In the tree, expand 'Intrastat model\Intrastat (DE)'.</span></span>
+18. <span data-ttu-id="2924c-171">Koka struktūrā atlasiet 'Intrastat model\Intrastat (DE)\Intrastat (DE) with counting & summing'.</span><span class="sxs-lookup"><span data-stu-id="2924c-171">In the tree, select 'Intrastat model\Intrastat (DE)\Intrastat (DE) with counting & summing'.</span></span>
+19. <span data-ttu-id="2924c-172">Noklikšķiniet uz Atkļūdošanas žurnāli.</span><span class="sxs-lookup"><span data-stu-id="2924c-172">Click Debug logs.</span></span>
+    * <span data-ttu-id="2924c-173">Ņemiet vērā, ka atlasītās konfigurācijas izpildes procesam ir izveidots atkļūdošanas žurnāla ieraksts.</span><span class="sxs-lookup"><span data-stu-id="2924c-173">Note that a debug log record has been created for the execution process of the selected configuration.</span></span>  
+20. <span data-ttu-id="2924c-174">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="2924c-174">Click Attach.</span></span>
+21. <span data-ttu-id="2924c-175">Noklikšķiniet uz Atvērt.</span><span class="sxs-lookup"><span data-stu-id="2924c-175">Click Open.</span></span>
+    * <span data-ttu-id="2924c-176">Pārskatiet izveidoto XML failu, kas ietver uzskaites un summēšanas datus, kas tika apkopoti atlasītās konfigurācijas izpildes laikā.</span><span class="sxs-lookup"><span data-stu-id="2924c-176">Review the created XML file that contains counting and summing details that were collected during the execution of the selected configuration.</span></span>  
 
 
