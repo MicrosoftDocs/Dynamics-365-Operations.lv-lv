@@ -1,7 +1,7 @@
 --- 
 title: "Pārdošanas cenu atlases kritēriju izveide"
 description: "Šajā procedūrā parādīts kā izveidot pārdošanas cenas atlases kritēriju atribūtam atbilstošu pārdošanas cenu modeļiem."
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 10/13/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
