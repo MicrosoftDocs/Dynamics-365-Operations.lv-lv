@@ -27,7 +27,7 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-## <a name="access-rights-of-a-cost-object-controller"></a>Piekļuves tiesības izmaksu objekta kontrolierim
+# <a name="access-rights-of-a-cost-object-controller"></a>Piekļuves tiesības izmaksu objekta kontrolierim
 
 [!include[banner](../includes/banner.md)]
 
