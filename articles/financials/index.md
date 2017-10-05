@@ -17,30 +17,30 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 6b576be9986a0c0701792a87422a0865cd3f8e7a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/18/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
-# <a name="financial-management-home-page"></a><span data-ttu-id="6e04a-103">Finanšu pārvaldības sākumlapa</span><span class="sxs-lookup"><span data-stu-id="6e04a-103">Financial management home page</span></span>
+# <a name="financial-management-home-page"></a>Finanšu pārvaldības sākumlapa
 
 [!include[banner](includes/banner.md)]
 
-<span data-ttu-id="6e04a-104">Šajā tēmā ir sniegts saraksts ar palīdzības tēmām un citiem resursiem finanšu pārvaldības līdzekļiem programmā Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevumā.</span><span class="sxs-lookup"><span data-stu-id="6e04a-104">This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> 
+Šajā tēmā ir sniegts saraksts ar palīdzības tēmām un citiem resursiem finanšu pārvaldības līdzekļiem programmā Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevumā. 
 
-<span data-ttu-id="6e04a-105">Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.</span><span class="sxs-lookup"><span data-stu-id="6e04a-105">Select a feature area to learn more about it.</span></span>
-- [<span data-ttu-id="6e04a-106">Parādi kreditoriem</span><span class="sxs-lookup"><span data-stu-id="6e04a-106">Accounts payable</span></span>](accounts-payable\accounts-payable.md) 
-- [<span data-ttu-id="6e04a-107">Debitoru parādi</span><span class="sxs-lookup"><span data-stu-id="6e04a-107">Accounts receivable</span></span>](accounts-receivable\accounts-receivable.md) 
-- [<span data-ttu-id="6e04a-108">Kases un bankas vadība</span><span class="sxs-lookup"><span data-stu-id="6e04a-108">Cash and bank management</span></span>](cash-bank-management\cash-bank-management.md)
-- [<span data-ttu-id="6e04a-109">Izmaksu uzskaite</span><span class="sxs-lookup"><span data-stu-id="6e04a-109">Cost accounting</span></span>](cost-accounting\cost-accounting-home-page.md)
-- [<span data-ttu-id="6e04a-110">Pamatlīdzekļi</span><span class="sxs-lookup"><span data-stu-id="6e04a-110">Fixed assets</span></span>](fixed-assets\fixed-assets.md)
-- [<span data-ttu-id="6e04a-111">Virsgrāmata</span><span class="sxs-lookup"><span data-stu-id="6e04a-111">General ledger</span></span>](general-ledger\general-ledger.md) 
-- [<span data-ttu-id="6e04a-112">Projekta pārvaldība</span><span class="sxs-lookup"><span data-stu-id="6e04a-112">Project management</span></span>](project-management\overview-project-management-accounting.md)
-- [<span data-ttu-id="6e04a-113">Publiskais sektors</span><span class="sxs-lookup"><span data-stu-id="6e04a-113">Public sector</span></span>](public-sector\public-sector-functionality.md) 
-- [<span data-ttu-id="6e04a-114">Budžeta veidošana</span><span class="sxs-lookup"><span data-stu-id="6e04a-114">Budgeting</span></span>](budgeting\budgeting-overview.md) 
+Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
+- [Parādi kreditoriem](accounts-payable\accounts-payable.md) 
+- [Debitoru parādi](accounts-receivable\accounts-receivable.md) 
+- [Kases un bankas vadība](cash-bank-management\cash-bank-management.md)
+- [Izmaksu uzskaite](cost-accounting\cost-accounting-home-page.md)
+- [Pamatlīdzekļi](fixed-assets\fixed-assets.md)
+- [Virsgrāmata](general-ledger\general-ledger.md) 
+- [Projekta pārvaldība](project-management\overview-project-management-accounting.md)
+- [Publiskais sektors](public-sector\public-sector-functionality.md) 
+- [Budžeta veidošana](budgeting\budgeting-overview.md) 
 
 
 
