@@ -451,6 +451,7 @@
 ### [Sadalītie modeļi](dev-tools/model-split.md)
 ### [Pārstāvju izmantošana modeļu savstarpējo atkarību risināšanai](migration-upgrade/delegates-migration.md)
 
+
 ## Jaunināšana uz jaunāko atjauninājumu
 ### [Pāriešana uz jaunāko atjauninājumu](migration-upgrade/upgrade-latest-update.md)
 ### [Dzīves cikla politika](migration-upgrade/versions-update-policy.md)
@@ -511,6 +512,8 @@
 ## [Pielāgotu biznesa procesu augšupielāde](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
 ## [Pārraudzība un diagnostika ](lifecycle-services/monitoring-diagnostics.md)
 ## [Līdzekļu bibliotēka](lifecycle-services/asset-library.md)
+## [Microsoft Dynamics 365 — tulkošanas pakalpojuma pārskats](lifecycle-services/translation-service-overview.md)
+### [Microsoft Dynamics 365 — tulkošanas pakalpojuma lietotāja rokasgrāmata](lifecycle-services/use-translation-service.md)
 
 ## Dynamics AX 2012 Lifecycle Services līdzekļi
 ### Izvietošana
@@ -525,10 +528,10 @@
 #### [Dynamics AX 2012 R3 izvietojuma pārvaldīšana Azure vidē](lifecycle-services/ax-2012/manage-2012-r3-deployment-azure.md)
 #### [Uzņēmuma portāla serveru savienošana vienotā serveru fermā](lifecycle-services/ax-2012/join-enterprise-portal-servers-single-server-farm.md)
 #### [Ieejas punktu ierakstīšana Dynamics AX uzņēmuma portālā](lifecycle-services/ax-2012/record-entry-points-enterprise-portal.md)
-#### [Mazumtirdzniecības e-komercijas izstrādes/testēšanas vides izvietošana Azure vidē](lifecycle-services/ax-2012/deploy-retail-ecommerce-devtest-environment-azure.md)
-#### [Mazumtirdzniecības pamatfunkcionalitātes demonstrācijas vides izvietošana Azure vidē](lifecycle-services/ax-2012/deploy-retail-essentials-demo-environment-azure.md)
-#### [Mazumtirdzniecības pamatfunkcionalitātes izstrādes/testēšanas vides izvietošana Azure vidē](lifecycle-services/ax-2012/deploy-retail-essentials-devtest-environment-azure.md)
-#### [Mazumtirdzniecības mobilitātes izstrādes/testēšanas vides izvietošana Azure vidē](lifecycle-services/ax-2012/deploy-retail-mobility-devtest-environment-azure.md)
+#### [Retail e-komercijas izstrādes/testēšanas vides izvietošana Azure vidē](lifecycle-services/ax-2012/deploy-retail-ecommerce-devtest-environment-azure.md)
+#### [Retail pamatfunkcionalitātes demonstrācijas vides izvietošana Azure vidē](lifecycle-services/ax-2012/deploy-retail-essentials-demo-environment-azure.md)
+#### [Retail pamatfunkcionalitātes izstrādes/testēšanas vides izvietošana Azure vidē](lifecycle-services/ax-2012/deploy-retail-essentials-devtest-environment-azure.md)
+#### [Retail mobilitātes izstrādes/testēšanas vides izvietošana Azure vidē](lifecycle-services/ax-2012/deploy-retail-mobility-devtest-environment-azure.md)
 #### [Dynamics AX 2012 R3 izvietojuma problēmu novēršana Azure vidē](lifecycle-services/ax-2012/troubleshoot-2012-r3-deployment-azure.md)
 #### [Dynamics AX 2012 R3 atjauninājumi](lifecycle-services/ax-2012/update-2012-r3-lcs.md)
 ### [Datu importēšanas/eksportēšanas struktūras lietotāja rokasgrāmata](lifecycle-services/ax-2012/user-guide-dixf.md)
