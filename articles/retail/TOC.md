@@ -1,7 +1,10 @@
 # [Esiet sveicināti risinājumā Dynamics 365 for Retail](index.md)
 
+# Darba sākšana
+## [Jaunumi un izmaiņas](get-started/whats-new.md)
+
 # Maksājumi
-## [Maksāšanas metodes](payment-methods.md)
+## [Maksājumu metodes](payment-methods.md)
 ## [Kredītkartes iestatīšana, autorizācija un nolasīšana](../financials/accounts-receivable/credit-card-authorizations.md)
 ## [Maksājumu metožu konfigurēšana POS](cash-denominations.md)
 ## [Bieži uzdotie jautājumi par maksājumiem](dev-itpro/payments-retail.md)
@@ -29,17 +32,17 @@
 ## [Maksājumu opcijas](work-with-payments.md)
 
 # Kanāla iestatīšana un pārvaldība
-## [Inicializēt sākumdatus mazumtirdzniecības vidē](enable-configure-retail-functionality.md)
+## [Inicializēt sākumdatus Retail vidē](enable-configure-retail-functionality.md)
 ## [Definēt mazumtirdzniecības kanālus](define-maintain-retail-channels.md)
 ## [Tiešsaistes veikala apskats](online-stores.md)
 ## [Konfigurēt un instalēt Retail Hardware Station](retail-hardware-station-configuration-installation.md)
-## [Mazumtirdzniecības laiks un apmeklētība](retail-time-attendance.md)
+## [Retail laiks un apmeklētība](retail-time-attendance.md)
 
-# Modern Point of Sale (MPOS) un mākoņa POS
+# Modern Point of Sale (MPOS) un Cloud POS
 ## Aparatūras perifērijas ierīces
-### [Mazumtirdzniecības perifērijas ierīču apskats](retail-peripherals-overview.md)
+### [Retail perifērijas ierīču apskats](retail-peripherals-overview.md)
 ### [Microsoft pārbaudītas POS aparatūras perifērijas ierīces](microsoft-tested-pos-hardware-peripherals.md)
-### [Mazumtirdzniecības perifērijas ierīču simulators](dev-itpro/retail-peripheral-simulator.md)
+### [Retail perifērijas ierīču simulators](dev-itpro/retail-peripheral-simulator.md)
 ### [Definēt un uzturēt kanālu klientus, reģistrus un aparatūras stacijas](define-maintain-channel-clients-registers-hw-stations.md)
 ## Ekrāna izkārtojums
 ### [Konfigurēt POS ekrāna izkārtojumus](pos-screen-layouts.md)
@@ -59,8 +62,8 @@
 ### [Izsekot POS komisijas, izmantojot pārdošanas grupas](pos-sales-groups-track-commissions.md)
 ## Ierīces aktivizēšana
 ### [Konfigurēt un instalēt MPOS](retail-modern-pos-device-activation.md)
-### [Iestatīt paplašināto pieteikšanos mākoņa POS un MPOS](extended-logon.md)
-### [Pārvaldīt mazumtirdzniecības kontus un ierīces no galvenā biroja](set-up-activation-accounts-validate-devices-hq.md)
+### [Iestatīt paplašināto pieteikšanos Cloud POS un MPOS](extended-logon.md)
+### [Pārvaldīt Retail kontus un ierīces no galvenā biroja](set-up-activation-accounts-validate-devices-hq.md)
 ## Ieejas plūsmas
 ### [Iestatīt ieejas plūsmu veidnes](receipt-templates-printing.md) 
 ### [Sūtīt e-pasta kvītis no MPOS](email-receipts.md)
@@ -82,7 +85,7 @@
 
 # Preces un virzīšana tirgū
 ## [Preču informācijas pārskats](../supply-chain/pim/product-information.md)
-## [Mazumtirdzniecības hierarhijas](retail-hierarchies.md)
+## [Retail hierarhijas](retail-hierarchies.md)
 ## [Izveidot un pārvaldīt atribūtus](create-manage-attributes.md)
 ## [Iestatīt mazumtirdzniecības preces](set-up-retail-products.md)
 ## [Preces dimensijas](../supply-chain/pim/product-dimensions.md)
@@ -114,7 +117,7 @@
 ## [Organizēt darbaspēku, izmantojot nodaļas, darbus un amatus](../talent/departments-jobs-positions.md)
 ## [Darba komponentu iestatīšana](../talent/create-job.md)
 
-# Mazumtirdzniecības uzdevumi
+# Retail uzdevumi
 ## [Preces izveide](../supply-chain/pim/tasks/create-product.md)
 ## [Saistīto preču konfigurēšana](../supply-chain/pim/tasks/configure-linked-products.md)
 ## [Preces/preces šablona izlaišana juridiskajām personām](../supply-chain/pim/tasks/release-product-product-master-legal-entities.md)
@@ -129,7 +132,7 @@
 ## [ Mazumtirdzniecības veikala izraksta izveide, aprēķins un grāmatošana](tasks/create-calculate-post-statement-retail-store.md)
 ## [ Zvanu centra pasūtījumu izveide](tasks/create-call-center-orders.md)
 ## [ POS reģistru finanšu dimensiju izveide un dimensiju vērtību konfigurēšana reģistros](tasks/create-financial-dimensions-pos.md)
-## [ Mazumtirdzniecības kanālu finanšu dimensiju izveide un dimensiju vērtību konfigurēšana veikalos](tasks/create-financial-dimensions-retail-channels.md)
+## [ Retail kanālu finanšu dimensiju izveide un dimensiju vērtību konfigurēšana veikalos](tasks/create-financial-dimensions-retail-channels.md)
 ## [ Tiešsaistes kanālu izveide un kanāla atribūtu definēšana](tasks/create-online-channel-define-channel-attributes.md)
 ## [ POS atļauju grupu izveide](tasks/create-pos-permission-groups.md)
 ## [ POS vizuālā profila izveide ](tasks/create-pos-visual-profile-2016-02.md)
@@ -142,40 +145,41 @@
 ## [ Lojalitātes programmas shēmu definēšana](tasks/define-loyalty-schemes.md)
 ## [ Organizācijas struktūrvienību attiecību izstrāde](tasks/design-relationships-between-organizational-units.md)
 ## [ Klāsta pārvaldība ](tasks/manage-assortments-2016-11.md)
-## [ Mazumtirdzniecības izrakstu parametru konfigurācijas](tasks/parameter-configurations-retail-statements.md)
-## [ Mazumtirdzniecības izrakstu maksājumu konfigurācijas](tasks/payment-configurations-retail-statements.md)
+## [ Retail izrakstu parametru konfigurācijas](tasks/parameter-configurations-retail-statements.md)
+## [ Retail izrakstu maksājumu konfigurācijas](tasks/payment-configurations-retail-statements.md)
 ## [ Pašapkalpošanās veikšana, lai lejupielādētu aparatūras staciju](tasks/perform-self-service-download-hardware-station.md)
 ## [ Tiešsaistes pārdošanas un maksājumu grāmatošana](tasks/posting-online-sales-payments.md)
 ## [ Lojalitātes programmas atlīdzības punktu korekciju apstrāde](tasks/process-loyalty-reward-point-adjustments.md)
 ## [ Preču virzīšana no sadales centra uz veikalu, izmantojot sagādes sadali](tasks/push-products-distribution-center-store-buyers-push.md)
-## [ Mazumtirdzniecības cenu korekcijas](tasks/retail-price-adjustments.md)
+## [ Retail cenu korekcijas](tasks/retail-price-adjustments.md)
 ## [ Darba konfigurēšana un palaišana, lai aprēķinātu izrakstus](tasks/run-job-calculate-statements.md)
 ## [ Darba konfigurēšana un palaišana, lai grāmatotu izrakstus](tasks/run-job-post-statements.md)
 ## [ Ārpus zonu pārskatu ģenerēšana un palaišana](tasks/run-out-box-reports.md)
 ## [ Kārtulu un parametru iestatīšana pārkraušanai sadales centrā un sagādes sadalē](tasks/set-up-rules-parameters-cross-docking-buyers-push.md)
-## [ Mazumtirdzniecības izrakstu veikala konfigurācijas](tasks/store-configurations-retail-statements.md)
+## [ Retail izrakstu veikala konfigurācijas](tasks/store-configurations-retail-statements.md)
 ## [ Nepārtrauktības programmu lietošana](tasks/use-continuity-program.md)
 ## [ Nodarbinātā konfigurēšana](tasks/worker.md)
 
-# [Mazumtirdzniecības izstrāde un administrācija](dev-itpro/dev-retail-home-page.md)
+# [Retail izstrāde un administrācija](dev-itpro/dev-retail-home-page.md)
 
 ## Arhitektūra
-### [Microsoft Dynamics 365 for Finance and Operations Enterprise izdevuma komponenti mazumtirdzniecībai](retail-components.md)
-### [Mazumtirdzniecības servera arhitektūra](dev-itpro/retail-server-architecture.md)
-### [Mazumtirdzniecības kanālu saziņa](dev-itpro/define-retail-channel-communications-cdx.md)
+### [Microsoft Dynamics 365 for Finance and Operations Enterprise izdevuma komponenti — Retail](retail-components.md)
+### [Retail servera arhitektūra](dev-itpro/retail-server-architecture.md)
+### [Retail kanālu saziņa](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [MPOS arhitektūra](dev-itpro/retail-modern-pos-architecture.md)
-### [Mazumtirdzniecības tiešsaistes veikala publicēšanas arhitektūra](dev-itpro/retail-online-store-publishing-architecture.md)
-### [Power BI saturs Mazumtirdzniecības kanāla veiktspēja](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
+### [Retail tiešsaistes veikala publicēšanas arhitektūra](dev-itpro/retail-online-store-publishing-architecture.md)
+### [Power BI saturs Retail kanāla veiktspēja](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
 
 ## Izvietošana un labojumfaili
-### [Mazumtirdzniecības veikala mēroga vienību konfigurēšana un instalēšana](dev-itpro/retail-store-scale-unit-configuration-installation.md)
-#### [Pirms darba uzsākšanas ar mazumtirdzniecības veikala sistēmu](dev-itpro/retail-store-system-begin.md)
+### [Retail veikala mēroga vienību konfigurēšana un instalēšana](dev-itpro/retail-store-scale-unit-configuration-installation.md)
+#### [Pirms darba uzsākšanas ar Retail veikala sistēmu](dev-itpro/retail-store-system-begin.md)
 ### [Retail Modern POS konfigurēšana un instalēšana](retail-modern-pos-device-activation.md)
-#### [Pārvaldīt mazumtirdzniecības kontus un ierīces no galvenā biroja](set-up-activation-accounts-validate-devices-hq.md)
+#### [Pārvaldīt Retail kontus un ierīces no galvenā biroja](set-up-activation-accounts-validate-devices-hq.md)
 #### [Retail POS ierīces aktivizēšana](dev-itpro/retail-device-activation.md)
 #### [Drošība Retail Cloud POS](dev-itpro/secure-retail-cloud-pos.md)
 ### [Retail Hardware Station konfigurēšana un instalēšana](retail-hardware-station-configuration-installation.md)
-### [Mazumtirdzniecības komponentu notikumi diagnostikai un problēmu novēršanai](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
+### [Plaša Retail patstāvīgi izmantojamā pakalpojuma komponentu izvietošana](dev-itpro/retail-mass-deployment.md)
+### [Retail komponentu notikumi diagnostikai un problēmu novēršanai](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
 ### [Izvietojamas pakotnes pielietošana](../dev-itpro/deployment/apply-deployable-package-system.md)
 
 ## Jaunināšana un N-1 atbalsts
@@ -193,18 +197,18 @@
 #### [MPOS un Cloud POS trigera paplašināmība](dev-itpro/modern-pos-trigger-extensibility.md)
 #### [Pielāgotas kontroles pievienošana POS skatam](dev-itpro/pos-custom-control.md)
 #### [POS maksājumu paplašinājums](dev-itpro/pos-payment-extension.md)
-### [Mazumtirdzniecības funkcionalitātes programmas izveide](dev-itpro/create-retail-experience-app.md)
+### [Retail funkcionalitātes programmas izveide](dev-itpro/create-retail-experience-app.md)
 ### [Aparatūras stacijas apskats un paplašināmība](dev-itpro/hardware-station-extensibility.md)
 
-### Mazumtirdzniecības serveris
+### Retail serveris
 #### [Retail Server OData kontroliera paplašināšana](dev-itpro/extend-retail-server-odata-controller.md)
 #### [Tīmekļa API un OData kontrolieri](dev-itpro/odata-controllers-api.md)
-#### [Mazumtirdzniecības servera klienta un patērētāja API](dev-itpro/retail-server-customer-consumer-api.md)
+#### [Retail servera klienta un patērētāja API](dev-itpro/retail-server-customer-consumer-api.md)
 #### [Metadatu paplašināšana](dev-itpro/extend-metadata.md)
 #### [Commerce runtime paplašināšana, lai atbalstītu POS bezsaistes režīmu](dev-itpro/call-crt-service-offline.md)
 ### Commerce runtime
 #### [Commerce runtime apskats](dev-itpro/commerce-runtime-overview.md)
-#### [Commerce runtime un mazumtirdzniecības servera paplašināmība ](dev-itpro/commerce-runtime-extensibility.md)
+#### [Commerce runtime un Retail servera paplašināmība ](dev-itpro/commerce-runtime-extensibility.md)
 #### [Klienta prioritāšu datu pievienošana kanāla datu bāzei](dev-itpro/add-customer-preference-channel.md)
 #### [Rekvizītu pievienošana pārdošanas pasūtījumam](dev-itpro/add-properties-sales-order.md)
 #### [Commerce runtime paplašināmība un trigeri](dev-itpro/commerce-runtime-extensibility-trigger.md)
