@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: c46b222cb12d0432609c47f89afc522e02c41ab6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 04817d1f1851e43679995641e8b0ff99edaa83ad
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="create-a-format-configuration-for-electronic-reporting-er"></a>Izveidot formāta konfigurāciju elektronisko pārskatu veidošanai (ER)
@@ -91,7 +91,7 @@ Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elek
 34. Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors”.
 35. Noklikšķiniet uz Pievienot elementu.
 36. Laukā Nosaukums ierakstiet "Nosaukums".
-    * Vārds, uzvārds  
+    * Nosaukums  
 37. Noklikšķiniet uz OK.
 38. Noklikšķiniet uz Pievienot elementu.
 39. Laukā Nosaukums ierakstiet "Banka".
@@ -116,19 +116,19 @@ Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elek
 54. Noklikšķiniet uz Pievienot elementu.
 55. Laukā Nosaukums ierakstiet "Valūta".
     * Valūta  
-56. Noklikšķiniet uz OK.
+56. Noklikšķiniet uz Labi.
 57. Noklikšķiniet uz Pievienot elementu.
 58. Laukā Nosaukums ierakstiet "Apraksts".
-    * apraksts  
-59. Noklikšķiniet uz OK.
+    * Apraksts  
+59. Noklikšķiniet uz Labi.
 60. Noklikšķiniet uz Pievienot elementu.
 61. Laukā Nosaukums ierakstiet "TransDate".
     * Darbības datums  
-62. Noklikšķiniet uz OK.
+62. Noklikšķiniet uz Labi.
 63. Noklikšķiniet uz Pievienot elementu.
 64. Laukā Nosaukums ierakstiet "Summa".
     * Summa  
-65. Noklikšķiniet uz OK.
+65. Noklikšķiniet uz Labi.
 
 ## <a name="prepare-format-components-for-mapping-to-data-model-elements"></a>Formātā komponentu sagatavošana kartēšanai datu modeļa elementos
 1. Koka struktūrā atlasiet zaru “Xml\Ziņojums\ProcessingDate”.

@@ -1,7 +1,7 @@
 ---
 title: Izmaksu objekti
 description: "Šajā rakstā ir sniegta informācija par izmaksu objektiem un paskaidrots, kā tiek uzkrātas izmaksas un daudzumi. Izmaksu objekts ir elements, kam ir uzkrātas izmaksas un daudzumi. Izmaksu objekta elements var būt prece vai preces varianti, piemēram, stila un krāsas varianti."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: ec776b98-813a-490d-848f-468452d98fac
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
-ms.openlocfilehash: 823d3edd106925339607d01fbf5f1921b85ff244
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 2549ace837fcdfb9f927e6b486b6a94566bcbbd2
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -34,8 +34,7 @@ ms.lasthandoff: 06/13/2017
 
 Šajā rakstā ir sniegta informācija par izmaksu objektiem un paskaidrots, kā tiek uzkrātas izmaksas un daudzumi. Izmaksu objekts ir elements, kam ir uzkrātas izmaksas un daudzumi. Izmaksu objekta elements var būt prece vai preces varianti, piemēram, stila un krāsas varianti.  
 
-<a name="cost-objects"></a>Izmaksu objekti
-------------
+## <a name="cost-objects"></a>Izmaksu objekti
 
 Sarakstā **Izmaksu objekti** ir parādīts saraksts ar visiem izmaksu objektiem, kas ir reģistrēti precei. Izmaksu objektus nosaka dati no šādiem avotiem:
 
@@ -79,7 +78,7 @@ Sarakstā **Izmaksu objekti** ir parādīts saraksts ar visiem izmaksu objektiem
 
 [Izsekošanas dimensiju grupa](https://technet.microsoft.com/en-us/library/hh209465.aspx)
 
-[Jaunumi un izmaiņas](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed)
+[Jaunumi un izmaiņas](../../fin-and-ops/get-started/whats-new-changed.md)
 
 [Izmaksu ieraksti](cost-entries.md)
 

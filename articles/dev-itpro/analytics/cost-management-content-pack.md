@@ -16,13 +16,13 @@ ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 387b804cb20ffdc17ad74dac5d927ecbaf421bae
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: fb5c39a65ea59acda05b0828f84bfaea4ad75062
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -52,7 +52,7 @@ Microsoft Power BI saturs **Izmaksu pārvaldība** ir paredzēts krājumu grām
 Vienumam CostAggregatedCostStatementEntryEntity primārais datu avots ir tabula CostStatementCache. Šo tabulu pārvalda datu kopas kešatmiņas struktūra. Pēc noklusējuma šī tabula tiek atjaunināta ik pēc 24 stundām, bet datu kešatmiņas konfigurācijā varat iespējot manuālu atjaunināšanu. Pēc tam manuālu atjaunināšanu varat veikt darbvietā **Izmaksu pārvaldība** vai **Izmaksu analīze**. Pēc CostStatementCache atjaunināšanas jums ir jāatjaunina OData savienojums ar Power BI.com, lai šajā vietnē būtu redzami atjauninātie dati. Novirzes (pirkšanas, ražošanas) mēri šajā Power BI saturā attiecas tikai uz vienumiem, kuru vērtība ir noteikta ar standarta izmaksu krājumu metodi. Ražošanas novirze tiek aprēķināta kā aktīvo izmaksu un realizēto izmaksu starpība. Ražošanas novirze tiek aprēķināta, kad ražošanas pasūtījuma statuss ir **Pabeigts**. Papildinformāciju par ražošanas novirzes tipiem un katra tipa aprēķināšanu skatiet rakstā [Par noviržu analizēšanu pabeigtam ražošanas pasūtījumam](https://technet.microsoft.com/en-us/library/gg242850.aspx).
 
 ## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
-Power BI saturs **Izmaksu pārvaldība** ir pieejams no PowerBI.com. Papildinformāciju par to, kā izveidot savienojumu un ielādēt mūsu Microsoft Dynamics 365 for Finance and Operations datus, skatiet tēmā [Piekļuve Power BI saturam vietnē PowerBI.com](power-bi-home-page.md).
+Power BI saturs **Izmaksu pārvaldība** ir pieejams vietnē PowerBI.com. Papildinformāciju par to, kā pievienot un lejupielādēt jūsu Microsoft Dynamics 365 for Finance and Operations datus, skatiet rakstā [Piekļuve Power BI saturam vietnē PowerBI.com](power-bi-home-page.md).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI saturā iekļautā metrika
 Saturā ietilpst pārskatu lapu komplekts. Katra lapa sastāv no rādītāju kopas, kuri ir vizualizēti kā diagrammas, elementi un tabulas. Nākamajā tabulā ir sniegts apskats par vizualizācijām Power BI saturā **Izmaksu pārvaldība**.
@@ -86,7 +86,7 @@ Saturā ietilpst pārskatu lapu komplekts. Katra lapa sastāv no rādītāju kop
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
 Power BI satura pakotnes **Izmaksu pārvaldība** pārskatu lapu aizpildīšanai tiek izmantoti Dynamics 365 for Finance and Operations dati. Šie dati tiek attēloti kā apkopoti mērījumi, kuri pa posmiem tiek izveidoti elementu krātuvē, kas ir analīzes veikšanai optimizēta Microsoft SQL datu bāze. Papildinformāciju skatiet tēmā [Apskats par Power BI integrāciju elementu krātuvē](power-bi-integration-entity-store.md). Kā satura pamats tiek izmantoti tālāk norādītie galvenie apkopošanas mērījumi.
 
-| Elements            | Galvenais apkopošanas mērījums | Dynamics 365 for Finance and Operations datu avots | Lauks             | apraksts                       |
+| Elements            | Galvenais apkopošanas mērījums | Dynamics 365 for Finance and Operations datu avots | Lauks             | Apraksts                       |
 |-------------------|---------------------------|---------------------------------------------|-------------------|-----------------------------------|
 | Pārskatu ieraksti | Neto apgrozījums                | CostAggregatedCostStatementEntryEntity      | sum(\[Summa\])   | Summa uzskaites valūtā |
 | Pārskatu ieraksti | Neto izmaiņu daudzums       | CostAggregatedCostStatementEntryEntity      | sum(\[Daudzums\]) |                                   |

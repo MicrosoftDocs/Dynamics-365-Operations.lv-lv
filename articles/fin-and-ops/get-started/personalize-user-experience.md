@@ -19,10 +19,10 @@ ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: dbc80ff756a5286a98489f1f1403959d9b18ebe6
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -63,7 +63,7 @@ Tiešā personalizēšana ir personalizēšana, ko veicat ar tiešu mērķi main
 
 Šādā veidā jūs personalizējat elementu savā lapā, ja vēlaties vienkārši mainīt elementa etiķetes, paslēpt elementu, lai tas nebūtu redzams lapā (nekādi dati netiek mainīti, vienkārši netiek rādīta kāda informācija), iekļaut informāciju kopsavilkuma cilnes sadaļā (ja elements ir kopsavilkuma cilnē), izlaist lauku tabulēšanas laikā vai aizliegt datu mainīšanu, atzīmējot tos kā “Nerediģēt”. 
 
-Ja vēlaties pārvietot vai paslēpt elementus vai veikt vairākas izmaiņas, varat izmantot rīkjoslu Personalizēšana, kas pieejama elementu rekvizītu logā, izvēloties **Personalizēt šo formu**. Rīkjosla Personalizēšana ir pieejama arī formas darbību rūtī cilnes **Opcijas** grupā Personalizēt. Atlasiet **Personalizēt šo formu** un jūs redzēsiet rīkjoslu Personalizēšana. 
+Ja vēlaties pārvietot vai paslēpt elementus vai veikt vairākas izmaiņas, varat izmantot rīkjoslu Personalizēšana, kas pieejama elementu rekvizītu logā, izvēloties **Personalizēt šo formu**. Rīkjosla Personalizēšana ir pieejama arī formas darbību rūtī, cilnes **Opcijas** grupā Personalizēt. Atlasiet **Personalizēt šo formu**, un būs redzama rīkjosla Personalizēšana. 
 
 [![Rīkjosla Personalizēšana](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
 
@@ -90,7 +90,7 @@ Izvēlieties pogu **Aizvērt**, lai aizvērtu rīkjoslu un atgrieztu lapu ieprie
 Ar Personalizācijas rīkjoslu, saglabāšana notiek netieši. Jūsu personalizācijas stājas spēkā uzreiz pēc to veikšanas un nav nepieciešams noklikšķināt uz pogas **Saglabāt**. Dažos gadījumos, atlasot kādu no rīkiem, blakus kādam elementam tiek rādīta slēdzenes ikona. Tas nozīmē, ka, lai lapa darbotos pareizi, nevarat mainīt ar atlasīto rīku saistītos rekvizītus. Atverot rīkjoslu Personalizēšana, lapa kļūst neinteraktīva. Tajā nevar ievadīt datus vai izvērst vai sakļaut sadaļas.
 
 ## <a name="explicit-personalization-adding-a-tile-or-list-to-a-workspace"></a>Tiešā personalizēšana: elementa vai saraksta pievienošana darbvietai
-Dažās lapās ar sarakstiem darbību rūtī būs pieejams papildu personalizēšanas līdzeklis cilnes Opcijas grupā Personalizēt. Atlasiet **Pievienot darbvietai**, lai atvērtu nolaižamo sarakstu, kas sniedz iespēju parādīt informāciju pašreizējā sarakstā (filtrētu un kārtotu vai pēc noklusējuma) Darbvietā kā sarakstu vai kopsavilkuma elementu (ko var izmantot, lai rādītu krājumu skaitu sarakstā). 
+Dažās lapās ar sarakstiem būs pieejams papildu personalizēšanas līdzeklis — tas atrodas darbību rūtī, cilnes Opcijas grupā Personalizēt. Atlasiet **Pievienot darbvietai**, lai atvērtu nolaižamo sarakstu, kas sniedz iespēju parādīt informāciju darbvietas pašreizējā sarakstā (filtrētu un kārtotu vai pēc noklusējuma) kā sarakstu vai kā kopsavilkuma elementu (kuru var izmantot, lai rādītu krājumu skaitu sarakstā). 
 
 [![Pievienošana darbvietai](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png) 
 

@@ -16,11 +16,11 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland
 ms.author: epopov
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 948124526f5718d783b1ecd80462701610734f82
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 2b2bd1c8768426ebadef0922cf629e0b41921978
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -46,7 +46,7 @@ Polijas uzņēmumiem, kuri saņem priekšapmaksas, ir debitoram jāizveido priek
 ## <a name="set-up-accounts-receivable-for-advance-invoices"></a>Debitoru iestatīšana avansa rēķiniem
 Lapas **Debitoru moduļa parametri** cilnē **Atjaunināšana** norādiet tālāk norādītos parametrus.
 
-|Kopsavilkuma cilne|Parametrs|apraksts|
+|Kopsavilkuma cilne|Parametrs|Apraksts|
 |------|----------|------------|
 |Avansa rēķins  |Grāmatošanas metode|Atlasiet grāmatošanas metodi, ko izmantot avansa rēķina izrakstīšanai (Polijā). **Svarīgi!** Čehijas Republikā un Ungārijā avansa rēķini netiek apstrādāti atbilstoši grāmatvedības vai nodokļu dokumentiem un tie netiek grāmatoti Virsgrāmatā. Lai izvairītos no avansa rēķinu grāmatošanas Virsgrāmatā, šajās valstīs šis lauks jāatstāj tukšs.
 |
@@ -83,7 +83,7 @@ Katru avansa rēķinu vienlaicīgi var piesaistīt tikai vienam pārdošanas pas
 ## <a name="create-a-customer-advance-invoice-from-a-sales-order"></a>Debitoru avansa rēķina izveide no pārdošanas pasūtījuma
 Izveidojiet jaunu vai atlasiet esošu pārdošanas pasūtījumu. Noklikšķiniet uz **Rēķins** un pēc tam noklikšķiniet uz **Ģenerēt** &gt; **Avansa rēķins**. Lapā **Avansa rēķina izveide** iestatiet tālāk norādītos laukus.
 
-| Lauks                                           | apraksts                                                                                                                                                                                                                               |
+| Lauks                                           | Apraksts                                                                                                                                                                                                                               |
 |-------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Procenti                                         | Norādiet pārdošanas pasūtījuma priekšapmaksas procentuālo daļu.                                                                                                                                                                             |
 | Korespondējošais konts                                  | Atlasiet noklusējuma korespondējošo kontu, kas jāizmanto, izrakstot avansa rēķinus.                                                                                                                                                                         |
@@ -142,7 +142,7 @@ Katru avansa rēķinu vienlaicīgi var piesaistīt tikai vienam pirkšanas pasū
 ## <a name="create-a-vendor-advance-invoice-from-a-purchase-order"></a>Kreditora avansa rēķina izveide no pirkšanas pasūtījuma
 Izveidojiet jaunu vai atlasiet esošu pirkšanas pasūtījumu. Noklikšķiniet uz **Rēķins** un pēc tam noklikšķiniet uz **Ģenerēt** &gt; **Avansa rēķins**. Lapā **Avansa rēķina izveide** iestatiet tālāk norādītos laukus.
 
-| Lauks                                           | apraksts                                                                                                              |
+| Lauks                                           | Apraksts                                                                                                              |
 |-------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Procenti                                         | Norādiet pirkšanas pasūtījuma priekšapmaksas procentuālo daļu.                                                         |
 | Pirkšanas pasūtījuma izveidošana                                 | Atlasiet no šīm opcijām: Avansa rēķina summa tiks aprēķināta, pamatojoties uz krājumu pirkšanas pasūtījuma summu. |

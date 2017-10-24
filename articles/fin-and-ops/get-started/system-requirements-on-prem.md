@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
-ms.openlocfilehash: 721c5851cd399398a8dcec5ae110b97a4f17ae0a
+ms.sourcegitcommit: 25a6f326c57e84d6a7c356ac5407be7ed3095f83
+ms.openlocfilehash: 5edc6f0b2240e9dd2d3b72a13f35e96f016aa013
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 10/04/2017
 
 ---
 
@@ -87,7 +87,7 @@ Faktiskās aparatūras prasības atšķiras atkarībā no sistēmas konfigurāci
 - Vienlaicīgo lietotāju skaits
 
 ## <a name="minimum-infrastructure-requirements"></a>Minimālās infrastruktūras prasības
-Finance and Operations (lokālā versija) izmanto Service Fabric, lai viesotu AOS, partijas, datu pārvaldības, pārvaldības pārskatu sastādītāja un vides vadības moduļa pakalpojumus. Microsoft SQL Server pārskatu izveides pakalpojumi (SSRS) netiek viesoti Service Fabric klasterī.
+Finance and Operations (lokālā versija) izmanto Service Fabric, lai viesotu AOS, partijas, datu pārvaldības, pārvaldības pārskatu sastādītāja un vides vadības moduļa pakalpojumus. 
 
 Programma SQL Server ir jāiestata augstas pieejamības HADRON iestatījumā, kurā ir vismaz divi mezgli ražošanai.
 
@@ -225,6 +225,12 @@ Tālāk esošajā tabulā uzskaitītas SQL Server versijas, kas tiek atbalstīta
 |------------------------------------------------------------------|-------|
 | Microsoft SQL Server 2016 Standard Edition vai Enterprise Edition | SQL Server 2016 aparatūras prasības skatiet rakstā [Aparatūras un programmatūras prasības SQL Server 2016 instalēšanai](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server). |
 
+## <a name="software-requirements-for-application-object-server-aos"></a>Programmatūras prasības programmas objektu serverim (AOS) 
+- SQL Server integrācijas pakalpojumi (SSIS)
+
+## <a name="software-requirements-for-reporting-server-bi"></a>Programmatūras prasības pārskata serverim (BI)
+- SQL Server pārskatu izveides pakalpojumi (SSRS)
+
 ## <a name="software-requirements-for-client-computers"></a>Programmatūras prasības klienta datoriem
 Finance and Operations tīmekļa programma var darboties jebkurā ierīcē, kurā ir ar HTML 5.0 saderīga tīmekļa pārlūkprogramma. Tālāk norādītas noteiktas ierīču/pārlūkprogrammu kombinācijas, ko apstiprinājusi korporācija Microsoft.
 
@@ -244,7 +250,7 @@ Domēna kontrollerim ir jābūt Windows Server 2012 R2 vai jaunākai versijai 
 ## <a name="supported-microsoft-office-applications"></a>Atbalstītās Microsoft Office programmas
 Finance and Operations mākoņa un lokālajos izvietojumos tiek atbalstītas tālāk norādītās Microsoft Office programmas.
 
--   Lai palaistu Microsoft Excel un Microsoft Word pievienojumprogrammas, jābūt instalētai programmai Microsoft Office 2016 operētājsistēmai Windows vai Mac. Plašāku informāciju par versijas prasībām skatiet sadaļā [Office integrācijas problēmu novēršana](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting).
+-   Lai palaistu Microsoft Excel un Microsoft Word pievienojumprogrammas, jābūt instalētai programmai Microsoft Office 2016 operētājsistēmai Windows vai Mac. Plašāku informāciju par versijas prasībām skatiet sadaļā [Office integrācijas problēmu novēršana](../../dev-itpro/office-integration/office-integration-troubleshooting.md).
 -   Lai skatītu dokumentus, kas izveidoti, izmantojot funkcijas Eksportēt programmā Excel vai Eksportēt programmā Word, ir jābūt instalētai programmai Microsoft Office 2007 vai jaunākai versijai.
  
 ## <a name="hardware-and-software-requirements-for-retail-components"></a>Aparatūras un programmatūras prasības Retail komponentiem

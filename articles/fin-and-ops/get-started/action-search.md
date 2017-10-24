@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: cd024f2bc06fca9c21ea41fbed44efbc519cee94
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 9b9bb0acc6f0dc1722c916f133eed766ffdd4cc8
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -62,7 +61,7 @@ Lai pilnībā saprastu kādas pogas darbību programmatūrā Dynamics 365 for F
 -   Izvēlnes atdalītājs (ja šī poga ir iekļauta nosauktā grupā izvēlnes pogā)
 -   Grupa vai cilne lapā (piemēram, kopsavilkuma cilnes nosaukums)
 
-Piemēram, jūs ievadījāt **kop** **darbību meklēšanas** laukā un tagad izskatāt rezultātu sarakstu. Tiek izcelts pirmais ieraksts pogai ar nosaukumu **Kopsummas**. Tiek rādīts arī pogas ceļš **Pārdošanas pasūtījums** &gt; **Skatīt**. Šajā ceļā daļa **Pārdošanas pasūtījums** atbilst darbību rūts cilnei **Pārdošanas pasūtījums**, un ceļa daļa **Skatīt** atbilst šīs cilnes grupai **Skatīt**. Līdzīgi arī pogas **Beigu atlaide** ceļš (**Pārdot** &gt; **Aprēķināt**) jūs informē par to, ka šī poga atrodas darbību rūts cilnes **Pārdot** grupā **Aprēķināt**. Līdz ar to šī informācija jums palīdz saprast, tieši kura poga ar darbību meklēšanu tiks aktivizēta (ja atlasāt šo pogu meklēšanas sarakstā). 
+Piemēram, jūs ievadījāt **kop** **darbību meklēšanas** laukā un tagad izskatāt rezultātu sarakstu. Tiek izcelts pirmais ieraksts pogai ar nosaukumu **Kopsummas**. Tiek rādīts arī pogas ceļš **Pārdošanas pasūtījums** &gt; **Skatīt**. Ceļa daļa **Pārdošanas pasūtījums** atbilst darbību rūts cilnei **Pārdošanas pasūtījums**, un ceļa daļa **Skatīt** atbilst šīs cilnes grupai **Skatīt**. Līdzīgi arī pogas **Beigu atlaide** ceļš (**Pārdot** &gt; **Aprēķināt**) jums norāda, ka šī poga atrodas darbību rūts cilnes **Pārdot** grupā **Aprēķināt**. Līdz ar to šī informācija jums palīdz saprast, tieši kura poga ar darbību meklēšanu tiks aktivizēta (ja atlasāt šo pogu meklēšanas sarakstā). 
 
 [![action-search-field-with-data](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png) 
 

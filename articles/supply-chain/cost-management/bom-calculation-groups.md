@@ -1,7 +1,7 @@
 ---
 title: "MK aprēķinu grupas"
 description: "Šajā rakstā ir sniegta informācija par materiālu komplektu (MK) aprēķinu grupām un to iestatīšanu. Lai izpildītu MK aprēķinu, ir jāiestata aprēķinu grupas un tās jāpiešķir atsevišķiem krājumiem, vai jāiestata noklusējuma aprēķinu grupa. MK aprēķināšanas laikā aprēķinu iestatījumi no aprēķinu grupas tad tiek izmantoti kā noklusējuma vērtības lapā MK aprēķins."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: 63e1b7dc-c2c5-41b0-81ed-e3e02d1b39e0
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3372c22d6ed90e7669f1335fdd3366b8e167ad27
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: c91f7ac3ded942afd5e359b59cee2ff58256622f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -72,13 +72,21 @@ Izvēles rūtiņa **Pārtraukt izvēršanu** tiek izmantota, lai norādītu, kad
 
 ### <a name="warnings"></a>Brīdinājumi
 
-Kopsavilkuma cilnē **Brīdinājumi** jūs atlasāt opcijas visiem brīdinājumu ziņojumiem, kas lietotājiem ir jāsaņem, kad viņi izpilda MK aprēķinus. Piemēram, ja atzīmējat izvēles rūtiņu **Nav MK**, tad lietotājs saņem brīdinājumu, kad vienam no komponentiem vai pamatkrājumam, kam ir palaists MK aprēķins, nav atrasta aktīva MK versija. Ja atzīmējat izvēles rūtiņu **Nav maršruta**, lietotājs saņem brīdinājumu, ja netiek atrasta aktīva maršruta versija. Ja savos maršrutos un operācijās izmantojat resursus, varat likt sistēmai pārbaudīt šos resursus. Ja resurss aktīvajā maršrutā netiek atrasts katrā rindiņā, lietotājs saņem brīdinājumu. Varat arī verificēt un pārbaudīt patēriņu. Patēriņš ir daudzums noteiktā maršrutā. Parasti tas parāda laika daudzumu, kas ir nepieciešams, lai ražošanas procesam izpildītu konkrētu operāciju. Varat pārbaudīt, vai krājumam nav izmaksu cenas. Ja krājumam nav aktīvas izmaksu cenas, MK aprēķinam netiek pieskaitītas nekādas izmaksas. Varat arī pārbaudīt un verificēt izmaksu cenas vecumu. Piemēram, ievadiet **60**, lai norādītu, ka vienības izmaksu cena ir jāpārvērtē pēc 60 dienām. Ja tiek sasniegts šis ierobežojums, sistēma ģenerē brīdinājumu. Piemēram, izmaksu cena krājumam tika ievadīta šī gada janvārī. Ja tagad ir augusts, kas nozīmē, ka kopš izmaksu cenas ievadīšanas ir pagājušas vairāk nekā 60 dienas, tad MK aprēķina palaišanas laikā lietotājs saņem brīdinājumu. Varat ievadīt procentuālu daudzumu laukā **Minimālā seguma summa**. Šī vērtība norāda uz vietu, kurā nav izpildīta minimālā seguma summa. Ja seguma summa nav izpildīta konkrētam komponentam, tad lietotājs saņem brīdinājumu. Tādēļ šis lauks palīdz garantēt, ka jūs nenosakāt pārāk zemas izmaksas un papildu uzturēšanas izmaksas, kas varētu būt nepieciešamas jūsu krājumiem.
-Noklusējuma iestatījumi krājumu un noliktavas vadības parametros
---------------------------------------------------------------
+Kopsavilkuma cilnē **Brīdinājumi** jūs atlasāt opcijas visiem brīdinājumu ziņojumiem, kas lietotājiem ir jāsaņem, kad viņi izpilda MK aprēķinus. 
 
-Tā kā aprēķinu izpildīšanai ir nepieciešamas aprēķinu grupas, jums krājumu vadības parametros ir jāiestata noklusējuma aprēķinu grupa. Šis iestatījums uzņēmumiem ļauj izmantot standarta izmaksu grupu un peļņas iestatījumus visiem krājumiem. Ja noteiktam krājumam ir īpašas aprēķinu prasības, lietotājs šim krājumam var piešķirt citādu aprēķinu grupu. Parasti aprēķinu grupas varat iestatīt MK komponentu krājumiem, nevis MK krājumiem. Taču, kad tiek rādīti brīdinājumu ziņojumi, aprēķinu grupas var lietot. Krājumiem piešķirtajai aprēķinu grupai ir lielāka prioritāte nekā noklusējuma vērtībai, kas ir iestatīta krājumu vadības parametros. Noklusējuma parametru varat iestatīt sadaļā **Izmaksu pārvaldība** &gt; **Krājumu uzskaites politiku iestatīšana** &gt; **Parametri** &gt; **Krājumu uzskaite** &gt; **Aprēķinu grupa**. Iestatot noklusējuma konfigurācijas grupu, varat arī konfigurēt brīdinājumu nosacījumus, kas MK aprēķināšanas procesa laikā lietotājiem parāda uzvednes, ja atlasītie komponenti varētu izraisīt aprēķina kļūdas.
-Skatīt brīdinājuma ziņojums lapā Pabeigt
-------------------------------------------
+Piemēram, ja atzīmējat izvēles rūtiņu **Nav MK**, tad lietotājs saņem brīdinājumu, kad vienam no komponentiem vai pamatkrājumam, kam ir palaists MK aprēķins, nav atrasta aktīva MK versija. Ja atzīmējat izvēles rūtiņu **Nav maršruta**, lietotājs saņem brīdinājumu, ja netiek atrasta aktīva maršruta versija. Ja savos maršrutos un operācijās izmantojat resursus, varat likt sistēmai pārbaudīt šos resursus. Ja resurss aktīvajā maršrutā netiek atrasts katrā rindiņā, lietotājs saņem brīdinājumu. 
+
+Varat arī verificēt un pārbaudīt patēriņu. Patēriņš ir daudzums noteiktā maršrutā. Parasti tas parāda laika daudzumu, kas ir nepieciešams, lai ražošanas procesam izpildītu konkrētu operāciju. Varat pārbaudīt, vai krājumam nav izmaksu cenas. Ja krājumam nav aktīvas izmaksu cenas, MK aprēķinam netiek pieskaitītas nekādas izmaksas. 
+
+Varat arī pārbaudīt un verificēt izmaksu cenas vecumu. Piemēram, ievadiet **60**, lai norādītu, ka vienības izmaksu cena ir jāpārvērtē pēc 60 dienām. Ja tiek sasniegts šis ierobežojums, sistēma ģenerē brīdinājumu. Piemēram, izmaksu cena krājumam tika ievadīta šī gada janvārī. Ja tagad ir augusts, kas nozīmē, ka kopš izmaksu cenas ievadīšanas ir pagājušas vairāk nekā 60 dienas, tad MK aprēķina palaišanas laikā lietotājs saņem brīdinājumu. Varat ievadīt procentuālu daudzumu laukā **Minimālā seguma summa**. Šī vērtība norāda uz vietu, kurā nav izpildīta minimālā seguma summa. Ja seguma summa nav izpildīta konkrētam komponentam, tad lietotājs saņem brīdinājumu. Tādēļ šis lauks palīdz garantēt, ka jūs nenosakāt pārāk zemas izmaksas un papildu uzturēšanas izmaksas, kas varētu būt nepieciešamas jūsu krājumiem.
+
+### <a name="default-setup-in-inventory-and-warehouse-management-parameters"></a>Noklusējuma iestatījumi krājumu un noliktavas vadības parametros
+
+Tā kā aprēķinu izpildīšanai ir nepieciešamas aprēķinu grupas, jums krājumu vadības parametros ir jāiestata noklusējuma aprēķinu grupa. Šis iestatījums uzņēmumiem ļauj izmantot standarta izmaksu grupu un peļņas iestatījumus visiem krājumiem. Ja noteiktam krājumam ir īpašas aprēķinu prasības, lietotājs šim krājumam var piešķirt citādu aprēķinu grupu. Parasti aprēķinu grupas varat iestatīt MK komponentu krājumiem, nevis MK krājumiem. Taču, kad tiek rādīti brīdinājumu ziņojumi, aprēķinu grupas var lietot. Krājumiem piešķirtajai aprēķinu grupai ir lielāka prioritāte nekā noklusējuma vērtībai, kas ir iestatīta krājumu vadības parametros. 
+
+Noklusējuma parametru varat iestatīt sadaļā **Izmaksu pārvaldība** &gt; **Krājumu uzskaites politiku iestatīšana** &gt; **Parametri** &gt; **Krājumu uzskaite** &gt; **Aprēķinu grupa**. Iestatot noklusējuma konfigurācijas grupu, varat arī konfigurēt brīdinājumu nosacījumus, kas MK aprēķināšanas procesa laikā lietotājiem parāda uzvednes, ja atlasītie komponenti varētu izraisīt aprēķina kļūdas.
+
+### <a name="view-warning-messages-on-the-complete-page"></a>Skatīt brīdinājuma ziņojums lapā Pabeigt
 
 MK aprēķins ģenerē brīdinājuma ziņojumus. Varat skatīt brīdinājumus par atlasītu krājumu. Piemēram, sadaļā Pārdošana un mārketings izveidojiet jaunu pārdošanas pasūtījumu krājumam D0001. Pēc tam pārdošanas pasūtījuma rindā, izvēlnē **Atjaunināt rindu** noklikšķiniet uz **Aprēķināt, pamatojoties uz MK/formulu**, lai skatītu detalizētu informāciju par aprēķiniem un brīdinājumus. MK aprēķinu rezultātus varat skatīt arī lapā **Pabeigt**. Brīdinājumu ziņojumiem uz ražotiem krājumiem attiecas tikai divi brīdinājumu nosacījumi, bet uz visiem krājumiem attiecas četri brīdinājumu nosacījumi:
 -   Identificēt, kad ražotam krājumam nav aktīva MK.

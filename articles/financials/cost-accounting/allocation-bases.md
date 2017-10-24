@@ -19,11 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: YuyuScheller
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 74a3033ffbdba2efc6c5ecd6c55019898751a146
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 111ebf578e455408c5b6168e5a7af705f3624d78
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -54,7 +54,7 @@ Iepriekš definētie dimensijas elementu sadalījuma pamati tiek automātiski iz
 
 Virsgrāmatā kontu plāns ir definēts tālāk norādītajā veidā.
 
-| Kontu plāns | Galvenais konts | apraksts        | Galvenā konta tips |
+| Kontu plāns | Galvenais konts | Apraksts        | Galvenā konta tips |
 |------------------|--------------|--------------------|-------------------|
 | Koplietots           | 10001        | Algas           | Izdevumi           |
 | Koplietots           | 10002        | Darbinieku apdrošināšana | Izdevumi           |
@@ -63,14 +63,14 @@ Definējiet izmaksu elementa dimensiju un konfigurējiet datu savienotāju. Pēc
 
 **Izmaksu elementu dimensiju elementi**
 
-| Izmaksu elementa dimensijas nosaukums | Izmaksu elements |  apraksts       | tips    |
+| Izmaksu elementa dimensijas nosaukums | Izmaksu elements |  Apraksts       | Tips    |
 |-----------------------------|--------------|--------------------|---------|
 | Izmaksu elementi               | 10001        | Algas           | Primārs |
 | Izmaksu elementi               | 10002        | Darbinieku apdrošināšana | Primārs |
 
 **Iepriekš definēti dimensijas elementu sadalījuma pamati** 
 
-| Vārds, uzvārds  | apraksts        | Izmaksu elementa dimensija |
+| Nosaukums  | Apraksts        | Izmaksu elementa dimensija |
 |-------|--------------------|------------------------|
 | 10001 | Algas           | Izmaksu elementi          |
 | 10002 | Darbinieku apdrošināšana | Izmaksu elementi          |
@@ -80,7 +80,7 @@ Virsgrāmatā ir grāmatoti tālāk norādītie ieraksti.
 - Ieraksti, kas atbilst galvenajam kontam Algas, tiek iegūti no algu sistēmas un tiek grāmatoti izmaksu centros.
 - Darbinieku apdrošināšanas izdevumi tiek manuāli grāmatoti noklusējuma izmaksu centrā.
 
-| Uzskaites datums | Izmaksu centrs |  apraksts        | Galvenais konts |  apraksts       | Summa uzskaites valūtā |
+| Uzskaites datums | Izmaksu centrs |  Apraksts        | Galvenais konts |  Apraksts       | Summa uzskaites valūtā |
 |-----------------|-------------|---------------------|--------------|--------------------|-------------------------------|
 | 03.01.2017.      | CC001       | HR                  | 10001        | Algas           | 2000,00                      |
 | 03.01.2017.      | CC002       | FI                  | 10001        | Algas           | 5000,00                      |
@@ -91,7 +91,7 @@ Pēc Virsgrāmatas avota datu apstrādes modulī Izmaksu uzskaite tiek izveidoti
 
 **Izmaksu ieraksti**
 
-| Izmaksu objekts |  apraksts        | Izmaksu elements  |  apraksts       | Izmaksu izturēšanās   |Summa|Uzskaites datums|
+| Izmaksu objekts |  Apraksts        | Izmaksu elements  |  Apraksts       | Izmaksu izturēšanās   |Summa|Uzskaites datums|
 |-------------|---------------------|---------------|--------------------|-----------------|------|---------------|
 | CC001       | HR                  | 10001         | Algas           | Neklasificēts    |2000,00|  03.01.2017.    |
 | CC002       | FI                  | 10001         | Algas           | Neklasificēts    |5000,00|     03.01.2017.         |
@@ -110,7 +110,7 @@ Pēc Virsgrāmatas avota datu apstrādes modulī Izmaksu uzskaite tiek izveidoti
 
 Pēc tam, kad izmaksu elements Nr. 10001 (Algas) ir lietots kā sadalījuma pamats, tiek iegūti tālāk norādītie pieskaitāmo izmaksu aprēķina rezultāti.
 
-| Izmaksu objekts | apraksts | Lielums |   Sadalījuma koeficients         | Summa |
+| Izmaksu objekts | Apraksts | Lielums |   Sadalījuma koeficients         | Summa |
 |-------------|-------------|-----------|-----------------------------|--------|
 | CC001       | HR          | 2000     | (2000 ÷ 10 000) × 1000,00 | 200,00 |
 | CC002       | FI          | 5000     | (5000 ÷ 10 000) × 1000,00 | 500,00 |
@@ -124,13 +124,13 @@ Pēc tam, kad izmaksu elements Nr. 10001 (Algas) ir lietots kā sadalījuma pam
 
 **Izmaksu objekta bilances žurnāla ieraksti**
 
-| Uzskaites datums | Izmaksu objekts | apraksts         | Izmaksu elements | apraksts        | Izmaksu izturēšanās |  Summa  |
+| Uzskaites datums | Izmaksu objekts | Apraksts         | Izmaksu elements | Apraksts        | Izmaksu izturēšanās |  Summa  |
 |-----------------|-------------|---------------------|--------------|--------------------|---------------|----------|
 | 31.01.2017.      | CC099       | Noklusējuma izmaksu centrs | 10002        | Darbinieku apdrošināšana | Neklasificēts  | 1000,00 |
 
 **Izmaksu ieraksti**
 
-| Izmaksu objekts |  apraksts        | Izmaksu elements |    apraksts     | Izmaksu izturēšanās | Summa    | Uzskaites datums |
+| Izmaksu objekts |  Apraksts        | Izmaksu elements |    Apraksts     | Izmaksu izturēšanās | Summa    | Uzskaites datums |
 |-------------|---------------------|--------------|--------------------|---------------|-----------|-----------------|
 | CC099       | Noklusējuma izmaksu centrs | 10002        | Darbinieku apdrošināšana | Neklasificēts  | -1000,00 | 31.01.2017.      |
 | CC001       | HR                  | 10002        | Darbinieku apdrošināšana | Neklasificēts  | 200,00    | 31.01.2017.      |
@@ -143,7 +143,7 @@ Statistikas dimensiju elementus var izmantot kā sadalījuma pamatus, lai defin�
 
 **Statistikas dimensiju elementi**
 
-| Statistikas dimensijas nosaukums | Statistikas elements | apraksts               | Vienība |
+| Statistikas dimensijas nosaukums | Statistikas elements | Apraksts               | Vienība |
 |----------------------------|---------------------|---------------------------|------|
 | Statistikas elementi       | FTE                 | Pilnas slodzes darbinieki       | gab.   |
 | Statistikas elementi       | Elektrība         | Elektroenerģijas patēriņš   | kWh  |
@@ -152,7 +152,7 @@ Statistikas elementu dimensija
 
 **Iepriekš definēti dimensijas elementu sadalījuma pamati**
 
-| Vārds, uzvārds        | apraksts             | Statistikas elementa dimensija |
+| Nosaukums        | Apraksts             | Statistikas elementa dimensija |
 |-------------|-------------------------|-------------------------------|
 | FTE         | Pilnas slodzes darbinieki     | Statistikas elementi          |
 | Elektrība | Elektroenerģijas patēriņš | Statistikas elementi          |
@@ -162,7 +162,7 @@ Statistikas mēri var tikt iegūti no dažādiem avotiem.
 - Elektroenerģijas patēriņu var mērīt, izmantojot mērierīces, kas ir izstādītas dažādās vietās uzņēmuma teritorijā.
 - Statistikas mēri tiek glabāti tabulās. Piemēram, tabulā HcmEmployment ir ietverts visu darbinieku un attiecīgo izmaksu centru saraksts.
 
-| Vārds, uzvārds       | Izmaksu centrs |  apraksts  | Nodarbinātā veids |
+| Vārds, uzvārds       | Izmaksu centrs |  Apraksts  | Nodarbinātā veids |
 |------------|-------------|----|-------------|
 | A darbinieks | CC001       | HR | Darbinieks    |
 | B darbinieks | CC002       | FI | Darbinieks    |
@@ -182,7 +182,7 @@ Lai izgūtu statistikas mērus no sistēmas, ir nepieciešama statistikas mēru 
 
 **Statistikas mēru nodrošinātāju veidnes**
 
-| Vārds, uzvārds  | Funkcija | Avota tabula  | Summas lauks      | Datuma lauks     |
+| Nosaukums  | Funkcija | Avota tabula  | Summas lauks      | Datuma lauks     |
 |-------|----------|---------------|----------------|----------------|
 | FTE | Skaits    | HcmEmployment | Nav attiecināms | Nav attiecināms |
 
@@ -190,7 +190,7 @@ Pēc statistikas mēra avota datu apstrādes modulī Izmaksu uzskaite tiek izvei
 
 **Statistikas ieraksti**
 
-| Izmaksu objekts | apraksts      | Uzskaites datums | Statisko dimensiju elements | apraksts         | Lielums |
+| Izmaksu objekts | Apraksts      | Uzskaites datums | Statisko dimensiju elements | Apraksts         | Lielums |
 |-------------|------------------|-----------------|------------------------------|---------------------|-----------|
 | CC001       | HR               | 31.01.2017.      | FTE                        | Pilnas slodzes darbinieki | 1,00      |
 | CC002       | FI               | 31.01.2017.      | FTE                        | Pilnas slodzes darbinieki | 2,00      |
@@ -198,7 +198,7 @@ Pēc statistikas mēra avota datu apstrādes modulī Izmaksu uzskaite tiek izvei
 
 Tālāk esošajā piemērā ir parādīta izmaksu sadales kārtula, kurā kā sadalījuma pamats ir piešķirts iepriekš definētais dimensijas elementa sadalījuma pamats FTE.
 
-| Izmaksu objekts | apraksts  | Lielums | Sadalījuma koeficients |
+| Izmaksu objekts | Apraksts  | Lielums | Sadalījuma koeficients |
 |-------------|------|-----------|-------------------|
 | CC001       | HR   | 1,00      | (1/5) × Summa    |
 | CC002       | FI   | 2,00      | (2/5) × Summa    |
@@ -216,7 +216,7 @@ Pēc statistikas mēra avota datu apstrādes modulī Izmaksu uzskaite tiek izvei
 
 **Statistikas ieraksti**
 
-| Izmaksu objekts |    | Uzskaites datums | Statisko dimensiju elements |    apraksts          | Lielums |
+| Izmaksu objekts |    | Uzskaites datums | Statisko dimensiju elements |    Apraksts          | Lielums |
 |-------------|----|-----------------|------------------------------|-------------------------|-----------|
 | CC001       | HR | 31.01.2017.      | Elektrība                  | Elektroenerģijas patēriņš | 2,450.00  |
 | CC002       | FI | 31.01.2017.      | Elektrība                  | Elektroenerģijas patēriņš | 4,100.00  |
@@ -224,7 +224,7 @@ Pēc statistikas mēra avota datu apstrādes modulī Izmaksu uzskaite tiek izvei
 
 Tālāk esošajā piemērā ir parādīta izmaksu sadales kārtula, kurā kā sadalījuma pamats ir piešķirts iepriekš definētais dimensijas elementa sadalījuma pamats Elektrība.
 
-| Izmaksu objekts | apraksts  | Lielums | Sadalījuma koeficients          |
+| Izmaksu objekts | Apraksts  | Lielums | Sadalījuma koeficients          |
 |-------------|------|-----------|----------------------------|
 | CC001       | HR   | 2,450.00  | (2450 ÷ 21 550) × Summa  |
 | CC002       | FI   | 4,100.00  | (4100 ÷ 21 550) × Summa  |
@@ -247,7 +247,7 @@ Iepriekšēja sadaļā izveidotajā iepriekš definētajā dimensijas elementa s
 
 **Statistikas ieraksti**
 
-| Izmaksu objekts | apraksts  | Uzskaites datums | Statisko dimensiju elements | apraksts | Lielums |
+| Izmaksu objekts | Apraksts  | Uzskaites datums | Statisko dimensiju elements | Apraksts | Lielums |
 |-------------|------|-----------------|------------------------------|---------------------|-----------|
 | CC001       | HR   | 31.01.2017.      | FTE                        | Pilnas slodzes darbinieki | 1,00      |
 | CC002       | FI   | 31.01.2017.      | FTE                        | Pilnas slodzes darbinieki | 2,00      |
@@ -257,7 +257,7 @@ Izmaksas ir jāsadala starp izmaksu centriem, kas ir pakļauti organizācijas fi
 
 **Hierarhijas sadalījuma pamati**
 
-| Vārds, uzvārds                  | Sadalījuma pamats | Izmaksu objektu dimensiju hierarhija | Izmaksu objektu dimensiju hierarhijas mezgls |
+| Nosaukums                  | Sadalījuma pamats | Izmaksu objektu dimensiju hierarhija | Izmaksu objektu dimensiju hierarhijas mezgls |
 |-----------------------|-----------------|---------------------------------|--------------------------------------|
 | FTE skaits katram CFO | FTE           | Organizācija                    | CFO                                  |
 
@@ -265,14 +265,14 @@ Priekšskatījuma funkcija sniedz iespēju pārbaudīt hierarhijas sadalījuma p
 
 **Detalizēta informācija par sadalījuma pamatu**
 
-| Izmaksu objekts | apraksts  |  Lielums |
+| Izmaksu objekts | Apraksts  |  Lielums |
 |-------------|------|------------|
 | CC001       | HR   | 1,00       |
 | CC002       | FI   | 2,00       |
 
 Tālāk esošajā piemērā ir parādīta izmaksu sadales kārtula, kurā kā sadalījuma pamats ir piešķirts sadalījuma pamats FTE skaits katram CFO.
 
-| Izmaksu objekts | apraksts  | Lielums | Sadalījuma koeficients |
+| Izmaksu objekts | Apraksts  | Lielums | Sadalījuma koeficients |
 |-------------|------|-----------|-------------------|
 | CC001       | HR   | 1,00      | (1/3) × Summa    |
 | CC002       | FI   | 2,00      | (2/3) × Summa    |
@@ -317,7 +317,7 @@ Iepriekš definētais dimensijas elementa sadalījuma pamats Elektrība jau ir d
 
 **Statistikas ieraksti**
 
-| Izmaksu objekts | Vārds, uzvārds | Uzskaites datums | Statisko dimensiju elements | apraksts             | Lielums |
+| Izmaksu objekts | Nosaukums | Uzskaites datums | Statisko dimensiju elements | Apraksts             | Lielums |
 |-------------|------|-----------------|------------------------------|-------------------------|-----------|
 | CC001       | HR   | 31.01.2017.      | Elektrība                  | Elektroenerģijas patēriņš | 2,450.00  |
 | CC002       | FI   | 31.01.2017.      | Elektrība                  | Elektroenerģijas patēriņš | 4,100.00  |
@@ -330,7 +330,7 @@ Ja fiksētā maksa tagad ir vienmērīgi jāsadala starp izmaksu objektiem, kas 
 
 **Formulas sadalījuma pamats** 
 
-| Vārds, uzvārds              | Izmaksu elementa dimensija | Statiskā dimensija | Formula |
+| Nosaukums              | Izmaksu elementa dimensija | Statiskā dimensija | Formula |
 |-------------------|------------------------|-----------------------|---------|
 | Fiksētā maksa par elektroenerģiju |                        | Statistikas elementi  |         |
 
@@ -347,7 +347,7 @@ Pirms lauka **Formula** aizpildīšanas ir jānorāda aizstājvārds, kas ir jā
 
 **Formulas sadalījuma pamats**
 
-| Vārds, uzvārds              | Izmaksu elementa dimensija | Statiskā dimensija | Formula |
+| Nosaukums              | Izmaksu elementa dimensija | Statiskā dimensija | Formula |
 |-------------------|------------------------|-----------------------|---------|
 | Fiksētā maksa par elektroenerģiju |                        | Statistikas elementi  | a \> b  |
 
@@ -355,7 +355,7 @@ Priekšskatījuma funkcija sniedz iespēju pārbaudīt formulas sadalījuma pama
 
 **Detalizēta informācija par sadalījuma pamatu**
 
-| Izmaksu objekts | apraksts  | Formula           | Lielums |
+| Izmaksu objekts | Apraksts  | Formula           | Lielums |
 |-------------|------|-------------------|-----------|
 | CC001       | HR   | 2.450,00 \> 0,01  | 1,00      |
 | CC002       | FI   | 4.100,00 \> 0,01  | 1,00      |
@@ -365,7 +365,7 @@ Tālāk esošajā piemērā ir parādīta izmaksu sadales kārtula, kurā kā sa
 
 **Izmaksu objekta lieluma sadalījuma koeficients**
 
-| Izmaksu objekts | Vārds, uzvārds | Lielums |  Sadalījuma koeficients |
+| Izmaksu objekts | Nosaukums | Lielums |  Sadalījuma koeficients |
 |-------------|------|-----------|--------------------|
 | CC001       | HR   | 1,00      | (1/3) × Summa     |
 | CC002       | FI   | 1,00      | (1/3) × Summa     |
@@ -383,7 +383,7 @@ Tiek izveidots jauns formulas sadalījuma pamats Elektroenerģijas patēriņš.
 
 **Formulas sadalījuma pamats**
 
-| Vārds, uzvārds              | Izmaksu elementa dimensija | Statiskā dimensija | Formula |
+| Nosaukums              | Izmaksu elementa dimensija | Statiskā dimensija | Formula |
 |-------------------|------------------------|-----------------------|---------|
 | Elektroenerģijas patēriņš |                        | Statistikas elementi  |         |
 
@@ -400,7 +400,7 @@ Pirms lauka **Formula** aizpildīšanas ir jānorāda aizstājvārds, kas ir jā
 
 **Formulas sadalījuma pamats**
 
-| Vārds, uzvārds              | Izmaksu elementa dimensija | Statiskā dimensija | Formula                                                    |
+| Nosaukums              | Izmaksu elementa dimensija | Statiskā dimensija | Formula                                                    |
 |-------------------|------------------------|-----------------------|------------------------------------------------------------|
 | Fiksētā maksa par elektroenerģiju |                        | Statistikas elementi  | ((a \> b) × ((b × c) + (a – b) × d)) + ((a \<= b] × a × c) |
 
@@ -424,7 +424,7 @@ Tālāk ir sniegta detalizēta informācija par objekta CC003 (IT) formulu.
 
 Tālāk esošajā piemērā ir parādīta izmaksu sadales kārtula, kurā kā sadalījuma pamats ir piešķirts formulas sadalījuma pamats Fiksētā maksa par elektroenerģiju.
 
-| Izmaksu objekts |  apraksts  | Lielums | Sadalījuma koeficients                |
+| Izmaksu objekts |  Apraksts  | Lielums | Sadalījuma koeficients                |
 |-------------|----|-----------|----------------------------------|
 | CC001       | HR | 1,837.50  | (1837,50 ÷ 18 162,50) × Summa  |
 | CC002       | FI | 3,075.00  | (3075,00 ÷ 18 162,50) × Summa  |

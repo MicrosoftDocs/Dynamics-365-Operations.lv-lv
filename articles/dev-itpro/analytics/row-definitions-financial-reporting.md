@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
-ms.openlocfilehash: 6d4697af6f7467f25a461fae4e9320402f83b0e3
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 06a75889e62cbba6e47a8543cf663868df5ae2e3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 06/13/2017
 
 Rindas definīcija ir atskaites komponents jeb veidošanas bloks, kas norāda katras rindas saturu finanšu atskaitē. Rindas definīciju var kombinēt ar kolonnas definīcijām, atskaišu koka definīcijām un atskaites definīcijām, lai izveidotu veidošanas bloku grupu, kuru var izmantot vairāki uzņēmumi.
 
-<a name="create-a-row-definition"></a>Izveidojiet rindas definīciju
+<a name="create-a-row-definition"></a>Rindu definīcijas izveide
 -----------------------
 
 1.  Atskaišu veidotāja navigācijas rūtī noklikšķiniet uz **Rindas definīcijas**.
@@ -68,8 +68,8 @@ Dimensija ir datu un vērtību krustpunkts. Atskaišu veidotājā datus un vērt
 | Opcija                | Apraksts                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Dimensija             | Modelis, kas identificē dimensiju, kura jāpievieno rindas definīcijai. Šajā modelī ir ietverta viena zīme & un viena restītes zīme (\#) atbilstoši katrai dimensiju pozīcijai. Parasti visas (&) zīmes tiek izmantotas galvenā konta dimensijai, un visas numura zīmes tiek izmantotas citām dimensijām. |
-| Dimensijas diapazona sākums | Pirmā vērtība šai dimensijai, kuru pievienot rindas definīcijai.                                                                                                                                                                                                                 |
-| Dimensijas diapazona beigas   | Pēdējā vērtība šai dimensijai, kuru pievienot rindas definīcijai.                                                                                                                                                                                                                  |
+| Dimensiju diapazona sākums | Pirmā šīs dimensijas vērtība, kas jāpievieno rindas definīcijai.                                                                                                                                                                                                                 |
+| Dimensiju diapazona beigas   | Pēdējā vērtība šai dimensijai, kuru pievienot rindas definīcijai.                                                                                                                                                                                                                  |
 
 Lai rindas definīcijai pievienotu dimensijas, izpildiet šādas darbības.
 
@@ -121,8 +121,8 @@ Savai atskaitei varat veidot un modificēt fontu stilus. Pēc tam šos stilus va
 <td>Fonta stila izveide</td>
 <td><ol>
 <li>Pārskatu veidotāja izvēlnē <strong>Formāts</strong> noklikšķiniet uz <strong>Stili un formatējums</strong>.</li>
-<li>Dialoglodziņā <strong>Stili un formatējums</strong> noklikšķiniet uz <strong>Jauns</strong> un pēc tam ievadiet unikālu nosaukumu jaunajam stilam.</li>
-<li>Veiciet fontu atlasi un tad noklikšķiniet uz <strong>Labi</strong>.</li>
+<li>Dialoglodziņā <strong>Stili un formatējums</strong> noklikšķiniet uz <strong>Jauns</strong> un pēc tam ievadiet jaunā stila unikālu nosaukumu.</li>
+<li>Atlasiet fontu un noklikšķiniet uz <strong>Labi</strong>.</li>
 </ol></td>
 </tr>
 <tr class="even">
@@ -130,14 +130,14 @@ Savai atskaitei varat veidot un modificēt fontu stilus. Pēc tam šos stilus va
 <td><ol>
 <li>Pārskatu veidotāja izvēlnē <strong>Formāts</strong> noklikšķiniet uz <strong>Stili un formatējums</strong>.</li>
 <li>Dialoglodziņā <strong>Stili un formatējums</strong> atlasiet modificējamo stilu un pēc tam noklikšķiniet uz <strong>Modificēt</strong>.</li>
-<li>Veiciet fontu atlasi un tad noklikšķiniet uz <strong>Labi</strong>.</li>
+<li>Atlasiet fontu un noklikšķiniet uz <strong>Labi</strong>.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Fonta stila pielietošana</td>
 <td><ol>
 <li>Atskaišu veidotājā, definīcijā vai kolonnas definīcijā, vai galvenēs un kājenēs atlasiet vienu vai vairākas šūnas.</li>
-<li>Atlasiet fonta stilu rīkjoslas sarakstā <strong>Stils</strong>.</li>
+<li>Rīkjoslas sarakstā <strong>Stils</strong> atlasiet fonta stilu.</li>
 </ol></td>
 </tr>
 </tbody>
@@ -149,7 +149,7 @@ Rindas definīcijā norādītais formatējums ignorē visu formatējumu, kas ir 
 
 1.  Pārskatu veidotājā atveriet modificējamo rindas definīciju.
 2.  Atlasiet formatējamās šūnas. Lai atlasītu vairākas šūnas, atlasīšanas laikā turiet taustiņu Ctrl.
-3.  Noklikšķiniet uz piemērojamā formāta rīkjoslas pogas. Piemēram, lai izveidotu rindas atkāpi, atlasiet rindu un pēc tam rīkjoslā noklikšķiniet uz **Palielināt atkāpi** ![Palielināt atkāpi](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "Palielināt atkāpi").
+3.  Rīkjoslā noklikšķiniet uz nepieciešamā formāta pogas. Piemēram, lai izveidotu rindas atkāpi, atlasiet rindu un pēc tam rīkjoslā noklikšķiniet uz **Palielināt atkāpi** ![Palielināt atkāpi](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "Palielināt atkāpi").
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Kolonnu pielāgošana pārskatu veidošanas laikā
 
@@ -164,7 +164,7 @@ Lai atvieglotu iespēju apskatīt kolonnas, ar kurām strādājat rindas definī
 ### <a name="hide-columns-in-the-view-pane"></a>Kolonnu paslēpšana apskates rūtī
 
 1.  Pārskatu veidotājā atveriet modificējamo rindas definīciju.
-2.  Atlasiet kolonnu vai kolonnas, kuras vēlaties minimizēt.
+2.  Atlasiet vienu vai vairākas kolonnas, ko samazināt.
 3.  Veiciet klikšķi ar peles labo pogu un tad noklikšķiniet uz **Paslēpt**.
 
 ### <a name="show-all-hidden-columns-in-the-view-pane"></a>Visu paslēpto kolonnu rādīšana apskates rūtī

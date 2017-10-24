@@ -16,13 +16,13 @@ ms.custom: 12234
 ms.assetid: b878478c-0e04-4a1e-a037-6fdbb345a9a3
 ms.search.region: Global
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: c4aac72d9f7e975d4a270deb340f96ddcc9ca1fb
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 9a5464a483e1d7760c82041bf49a70a5a80a7dca
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -38,7 +38,7 @@ Transportēšanas pārvaldības programma aprēķina uzdevumus, piemēram, pārv
 ## <a name="what-engines-are-available"></a>Kādas programmas ir pieejamas?
 Tālāk esošajās tabulā ir norādītas transportēšanas pārvaldības programmas, kas ir pieejamas sistēmā Microsoft Dynamics 365 for Finance and Operations.
 
-| Transportēšanas pārvaldības programma | apraksts                                                                                                                                                                                                                                                                                                                 |
+| Transportēšanas pārvaldības programma | Apraksts                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Likmes noteikšanas programma**                  | Aprēķina likmes.                                                                                                                                                                                                                                                                                                           |
 | **Vispārīgā programma**               | Vienkāršas papildu programmas, ko izmanto citas programmas, kam nav nepieciešami dati no Microsoft Dynamics 365 for Finance and Operations, piemēram, norīkojumu programma. Norīkojumu programmas izmanto, lai samazinātu transportēšanas gala izmaksas noteiktiem pasūtījumiem un rindām, pamatojoties uz dimensijām, piemēram, apjomu un svaru. |
@@ -93,9 +93,9 @@ Dažādām transportēšanas pārvaldības programmām metadatus konfigurē atš
   **Likmes noteikšanas programmas metadatu piemērs** Transportēšanas pārvaldības programmā ir jānorāda sūtījuma izcelsmes adrese, galamērķa administratīvais apgabals un valsts/reģions un sākuma un beigu punkts. Izmantojot šīs prasības, metadati izskatīsies kā tālāk sniegtajā tabulā norādītie dati. Tabulā ir sniegta arī informācija par nepieciešamo datu veidu.
 -   Definējiet šo informāciju sadaļā **Transportēšanas pārvaldība** &gt; **Iestatīšana** lapā **Likmes bāzes veids**.
 
-| Sērija | Vārds, uzvārds                          | Lauka tips | Datu tips | Uzmeklēšanas tips    | Obligāts |
+| Sērija | Nosaukums                          | Lauka tips | Datu tips | Uzmeklēšanas tips    | Obligāts |
 |----------|-------------------------------|------------|-----------|----------------|-----------|
-| formāts 1. proc.        | Izcelsmes pasta indekss            | Piešķire | Virkne    | Pasta indekss    | Atlasīts  |
+| 1        | Izcelsmes pasta indekss            | Piešķire | Virkne    | Pasta indekss    | Atlasīts  |
 | 2        | Galamērķa administratīvais apgabals             | Piešķire | Virkne    | Valsts          |           |
 | 3        | Galamērķa sākuma pasta indekss | Piešķire | Virkne    | Pasta indekss    | Atlasīts  |
 | 4.        | Galamērķa beigu pasta indekss   | Piešķire | Virkne    | Pasta indekss    | Atlasīts  |

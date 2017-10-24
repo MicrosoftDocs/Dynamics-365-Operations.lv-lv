@@ -1,7 +1,7 @@
 ---
 title: "Ražošanas kontroles un projekta pārvaldības uzskaitē izmantojamās izmaksu kategorijas"
 description: "Dažus ražošanas darba veidus var saistīt ar projekta laika aprēķiniem un pārskatu sagatavošanu. Šajā rakstā ir sniegta informācija par izmaksu kategorijām, kas jānorāda šādiem ražošanas un projekta nolūkiem paredzētiem ražošanas darba veidiem."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: cfdd58a0-8afa-4a6f-a208-a76e2c162429
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 712406f1a47d3b0b6b8302cd7337a594a3818f95
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 1fcc7914f2bb283a746b5e10993f91f949818473
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -34,7 +34,9 @@ ms.lasthandoff: 05/25/2017
 
 Dažus ražošanas darba veidus var saistīt ar projekta laika aprēķiniem un pārskatu sagatavošanu. Šajā rakstā ir sniegta informācija par izmaksu kategorijām, kas jānorāda šādiem ražošanas un projekta nolūkiem paredzētiem ražošanas darba veidiem.
 
-Dažus ražošanas darba veidus var saistīt ar projekta laika aprēķiniem un pārskatu sagatavošanu. Šajā gadījumā izmaksu kategorija ir nepieciešama ražošanas un projekta mērķiem. Ja ražošanā un projektos tiek izmantota izmaksu kategorija, ir jānorāda ar projektu saistīta papildu informācija. Piemēram, ar projektiem saistītās stundu izmaksas var atšķirties no ar ražošanu saistītajām stundu izmaksām. Lai noteiktu izmaksu kategoriju, ko izmanto lapā Ražošanas kontrole un Projekta pārvaldības uzskaite, var izmantot lapu **Izmaksu kategorijas**. **Piezīme.** Izmaksu uzskaite ir pieejama lapā **Projektu kategorijas**, bet šī lapa nav saistīta ar šajā tēmā aprakstīto funkcionalitāti. Izmantojot projektos izmaksu kategoriju, lapā **Izmaksu kategorijas** ir pieejamas papildu cilnes, kurās ir redzama ar projektu saistīta papildu informācija. Šajā informācijā ir iekļauta izmaksu kategorijai piešķirtā kategoriju grupa, rindas rekvizīts un virsgrāmatas konti.
+Dažus ražošanas darba veidus var saistīt ar projekta laika aprēķiniem un pārskatu sagatavošanu. Šajā gadījumā izmaksu kategorija ir nepieciešama ražošanas un projekta mērķiem. Ja ražošanā un projektos tiek izmantota izmaksu kategorija, ir jānorāda ar projektu saistīta papildu informācija. Piemēram, ar projektiem saistītās stundu izmaksas var atšķirties no ar ražošanu saistītajām stundu izmaksām. Lai noteiktu izmaksu kategoriju, ko izmanto lapā Ražošanas kontrole un Projekta pārvaldības uzskaite, var izmantot lapu **Izmaksu kategorijas**. 
+
+**Piezīme.** Izmaksu uzskaite ir pieejama lapā **Projektu kategorijas**, bet šī lapa nav saistīta ar šajā tēmā aprakstīto funkcionalitāti. Izmantojot projektos izmaksu kategoriju, lapā **Izmaksu kategorijas** ir pieejamas papildu cilnes, kurās ir redzama ar projektu saistīta papildu informācija. Šajā informācijā ir iekļauta izmaksu kategorijai piešķirtā kategoriju grupa, rindas rekvizīts un virsgrāmatas konti.
 
 -   Izmaksu kategorija ir jāpiešķir kategoriju grupai, kas atbalsta transakcijas tipu **Stundas**.
 -   Rindas rekvizīts norāda noklusējuma informāciju par to, kā pārskatā iekļautās laika izmaksas var piešķirt projektam.
