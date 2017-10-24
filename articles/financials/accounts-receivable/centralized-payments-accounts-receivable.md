@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c5a09eedd1dd12b7f5343953b16f9f0b210213d7
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 6327d9cab1651d22cd411f718f6e3a2f8733e13e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -76,7 +76,7 @@ Fabrikam saņem maksājumu par 600,00 Fabrikam debitora kontam 4000, uzņēmumam
 | Debitoru parādi (Fabrikam)  | 600,00       |               |
 | Fabrikam East (Fabrikam) kreditora parādi |              | 600,00        |
 
-**Fabrikam East grāmatošana**
+**Fabrikam East grāmatojums**
 
 | Konts                             | Summa debetā | Summa kredītā |
 |-------------------------------------|--------------|---------------|
@@ -109,7 +109,7 @@ Fabrikam saņem maksājumu par 580,00 Fabrikam debitoram 4000, uzņēmumam North
 | Debitoru parādi (Fabrikam)  | 580,00       |               |
 | Fabrikam East (Fabrikam) kreditora parādi |              | 580,00        |
 
-**Fabrikam East grāmatošana**
+**Fabrikam East grāmatojums**
 
 | Konts                             | Summa debetā | Summa kredītā |
 |-------------------------------------|--------------|---------------|
@@ -149,7 +149,7 @@ Fabrikam saņem maksājumu par 600,00 EUR Fabrikam debitoram 4000 — uzņēmuma
 | Fabrikam East (Fabrikam) kreditora parādi | 0,00 EUR / 12,90 USD    |                         |
 | Realizētais pastiprinājums (Fabrikam)        |                         | 0,00 EUR / 12,90 USD    |
 
-**Fabrikam East grāmatošana**
+**Fabrikam East grāmatojums**
 
 | Konts                             | Summa debetā            | Summa kredītā           |
 |-------------------------------------|-------------------------|-------------------------|
@@ -190,7 +190,7 @@ Fabrikam grāmato maksājumu Fabrikam debitoram 4000, Northwind Traders, par nea
 | Fabrikam East (Fabrikam) kreditora parādi | 0,00 EUR / 13,46 USD    |                         |
 | Realizētais pastiprinājums (Fabrikam)        |                         | 0,00 EUR / 13,46 USD    |
 
-**Fabrikam East grāmatošana**
+**Fabrikam East grāmatojums**
 
 | Konts                             | Summa debetā            | Summa kredītā           |
 |-------------------------------------|-------------------------|-------------------------|
@@ -236,7 +236,7 @@ Fabrikam saņem maksājumu par 75,00 no debitora 4000, uzņēmuma Northwind Trad
 | Debitoru parādi (Fabrikam)    | 100,00       |               |
 | Jāmaksā Fabrikam West (Fabrikam)   |              | 100,00        |
 
-**Fabrikam East grāmatošana**
+**Fabrikam East grāmatojums**
 
 | Konts                             | Summa debetā | Summa kredītā |
 |-------------------------------------|--------------|---------------|
@@ -283,7 +283,7 @@ Fabrikam saņem maksājumu par 75,00 no debitora 4000, uzņēmuma Northwind Trad
 | Debitoru parādi (Fabrikam)  | 75,00        |               |
 | Jāmaksā Fabrikam West (Fabrikam) |              | 75,00         |
 
-**Fabrikam East grāmatošana**
+**Fabrikam East grāmatojums**
 
 | Konts                              | Summa debetā | Summa kredītā |
 |--------------------------------------|--------------|---------------|

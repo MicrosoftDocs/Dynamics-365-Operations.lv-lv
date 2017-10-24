@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 576418ce1c8b2019a55905558273106badadaa40
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: adf3dbf8b7ffa906c872a6b66d9cb43eb8e02805
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -40,7 +39,7 @@ Nodaļu var ietvert izmaksu centru grupā. Pozīcijas var piešķirt nodaļām. 
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nosaukums                | Ievadiet struktūrvienības nosaukumu.                                                                                                                                                                                  |
 | Nodaļas numurs   | Noklusējuma vērtība var tikt automātiski ģenerēta, ja numuru sērijas kods ir piešķirts atsaucei **Organizācijas numurs** lapā **Numuru sērijas**.                                                 |
-| Saīsināts nosaukums         | Ievadiet nosaukumu vai akronīmu, ko var izmantot nodaļas meklēšanai.                                                                                                                                            |
+| Meklēšanas nosaukums         | Ievadiet nosaukumu vai akronīmu, ko var izmantot nodaļas meklēšanai.                                                                                                                                            |
 | Atgādne                | Ievadiet papildinformāciju šeit.                                                                                                                                                                            |
 | Hierarhijā        | Atzīmētā izvēles rūtiņa nozīmē, ka nodaļa ir iekļauta nodaļu hierarhijā. Informāciju par to, kā pievienot nodaļu nodaļu hierarhijai, skatiet tālāk šajā rakstā. |
 | Universālās datu numerācijas sistēmas (DUNS) numurs         | DUNS nozīmē universālo datu numerācijas sistēmu. Tas ir deviņu ciparu numurs, ko piešķir Dun & Bradstreet.                                                                                                     |

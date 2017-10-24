@@ -16,13 +16,13 @@ ms.custom: 59131
 ms.assetid: 966a3f1d-c59c-4a84-acd4-5bb7e65144c8
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 86b527b72ef0c9af71e70fe280bcdfe3992a36b1
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 96090a3ae15294d98d6207c8eb4a1e58429ca9eb
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -33,20 +33,20 @@ ms.lasthandoff: 05/25/2017
 
 Šajā rakstā ir sniegta informācija par atskaišu definīcijām. Atskaites definīcija ir atskaites komponents (jeb veidošanas bloks), kas izmanto rindas definīciju, kolonnas definīciju un papildu atskaišu koka definīciju, lai izveidotu atskaiti. Atskaites definīcija arī sniedz opcijas un iestatījumus, kas noder atskaites pielāgošanai. 
 
-Atskaites definīcija ir atskaites komponents (jeb veidošanas bloks), kas izmanto rindas definīciju, kolonnas definīciju un papildu atskaišu koka definīciju, lai izveidotu atskaiti. Pārskata definīcija nodrošina arī opcijas un iestatījumus, ko varat izmantot, lai pielāgotu pārskatu. Pēc tam, kad jūs nosakiet rindu definīcijas un kolonnu definīcijas, tās nedrīkst kombinēt pārskata definīcijā. Šajā brīdī jūs definējat arī citus definīcijas aspektus, piemēram detalizācijas līmeni un pārskata datumu. Tad varat saglabāt un izveidot atskaiti. Finanšu atskaišu veidošana piedāvā šādus detalizētības līmeņus:
+Atskaites definīcija ir atskaites komponents (jeb veidošanas bloks), kas izmanto rindas definīciju, kolonnas definīciju un papildu atskaišu koka definīciju, lai izveidotu atskaiti. Pārskata definīcijā arī ir papildu opcijas un iestatījumi, kurus varat izmantot pārskata pielāgošanai. Pēc rindu un kolonnu definīciju izveides, tās ir jāapvieno pārskata definīcijā. Šajā brīdī jūs definējat arī citus definīcijas aspektus, piemēram detalizācijas līmeni un pārskata datumu. Tad varat saglabāt un izveidot atskaiti. Finanšu atskaišu veidošana piedāvā šādus detalizētības līmeņus:
 
 -   Finanšu
 -   Finanšu un konta
 -   Finanšu, konta un darbības
 
-Tomēr, atkarībā no tā, kā dati tiek saglabāti Microsoft Dynamics ERP sistēmā, darbības detaļas var nebūt pieejamas pārskatos.
+Taču atkarībā no tā, kā dati tiek glabāti Microsoft Dynamics ERP sistēmā, pārskatos var nebūt pieejama detalizēta darījuma informācija.
 
 ## <a name="create-a-report-definition"></a>Izveidojiet pārskata definīciju
 1.  Pārskatu veidotājā izvēlnē **Fails**, noklikšķiniet uz **Jauns**, un pēc tam atlasiet **Pārskata definīcija**.
 2.  Norādiet atbilstošu informāciju cilnēs **Pārskats**, **Izvade un sadale**, **Galvenes un kājenes** un **Iestatījumi**.
 
 ## <a name="contents-of-a-report-definition"></a>Pārskata definīcijas saturs
-Šajā tabulā ir aprakstītas pārskata definīcijas cilnes un tas, kā tiek izmantota informācija.
+Tālāk redzamajā tabulā ir aprakstītas pārskata definīcijas cilnes un informācijas izmantošanas veids.
 
 <table>
 <colgroup>
@@ -62,23 +62,23 @@ Tomēr, atkarībā no tā, kā dati tiek saglabāti Microsoft Dynamics ERP sist�
 <tbody>
 <tr class="odd">
 <td>Pārskats</td>
-<td>Izveidojiet pārskatu, konfigurējiet pārskatu vai modificējiet esošu pārskatu.</td>
+<td>Izveidojiet, konfigurējiet vai modificējiet pārskatu.</td>
 </tr>
 <tr class="even">
 <td>Izvade un sadale</td>
-<td>Mainiet izvades tipu un pārskata adresātu.</td>
+<td>Mainiet pārskata izvades veidu un atrašanās vietu.</td>
 </tr>
 <tr class="odd">
 <td>Galvenes un kājenes</td>
-<td>Definējiet un formatējiet galvenes un kājenes pārskatam. Piemēram, jūs varat pievienot tekstu vai attēlus galvenē vai kājenē. Finanšu atskaišu veidošana atbalsta .bmp, .jpg un .png failus attēliem. Jūs varat arī pievienot automātiskā teksta kodus, lai ievietotu citu informāciju, piemēram, uzņēmuma nosaukumu, pārskata nosaukumu vai lappuses numuru.</td>
+<td>Norādiet un formatējiet pārskata galvenes un kājenes. Piemēram, jūs varat pievienot tekstu vai attēlus galvenē vai kājenē. Finanšu atskaišu veidošana atbalsta .bmp, .jpg un .png failus attēliem. Jūs varat arī pievienot automātiskā teksta kodus, lai ievietotu citu informāciju, piemēram, uzņēmuma nosaukumu, pārskata nosaukumu vai lappuses numuru.</td>
 </tr>
 <tr class="even">
 <td>Iestatījumi</td>
-<td>Norādiet pārskata definīcijas iestatījumus, piemēram, šādus iestatījumus:
+<td>Norādiet pārskata definīcijas iestatījumu, piemēram:
 <ul>
-<li>Formatēšanas un noapaļošanas summas</li>
-<li>Detalizētu pārskatu formatēšana</li>
-<li>Pārskata veidošanas koka formatēšana</li>
+<li>Formatējums un noapaļošanas summas</li>
+<li>Formatēt detalizētos pārskatus</li>
+<li>Formatēt pārskatu kokus</li>
 <li>Ģenerēt izņēmumu pārskatu</li>
 <li>Norādīt valūtas konvertēšanu</li>
 <li>Apakšsumma un filtra konta detalizēta informācija</li>

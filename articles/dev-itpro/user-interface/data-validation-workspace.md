@@ -14,11 +14,11 @@ ms.search.scope:
 ms.assetid: 
 ms.search.region: Global
 ms.author: bking
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: e105c4b171979a03c20718c1fa9d558c921cd704
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 447fd87cb2f71147d7a9f6476f4ed9e12d75640a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -37,7 +37,7 @@ Vispirms darbvietas augšpusē ir jāatlasa datu validēšanas projekts. Pēc ta
 
 ### <a name="summary-tiles"></a>Kopsavilkuma elementi
 
-Elementi **Kopsavilkums** sniedz pārskatu par procesu, un indikatori palīdz sekot līdzi datu validēšanas procesam. Tiek rādīti visi procesa atlikušie uzdevumi, pabeigtie uzdevumi, uzdevumi, kuru izpilde vēl notiek, un nesāktie uzdevumi. Šī informācija tiek sniegta par visiem uzņēmumiem, kas ir ietverti atlasītajā datu validēšanas projektā.
+Elementi **Kopsavilkums** sniedz apskatu par procesu, un indikatori palīdz sekot līdzi datu validēšanas procesam. Tiek rādīti visi procesa atlikušie uzdevumi, pabeigtie uzdevumi, uzdevumi, kuru izpilde vēl notiek, un nesāktie uzdevumi. Šī informācija tiek sniegta par visiem uzņēmumiem, kas ir ietverti atlasītajā datu validēšanas projektā.
 
 ### <a name="tasks-and-status-section"></a>Uzdevumu un statusa sadaļā
 

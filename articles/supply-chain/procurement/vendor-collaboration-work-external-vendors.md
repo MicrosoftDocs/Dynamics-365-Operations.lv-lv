@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: cbd099403f48b502ca74bcb38ae12decedb8f2da
+ms.sourcegitcommit: 9036b7f9863871915f9ad39d76bf027ae4c2f4bf
+ms.openlocfilehash: aee8db8ddaeac135ed1f9d8b1b8a621609c6d358
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 10/05/2017
 
 ---
 
@@ -34,9 +34,9 @@ ms.lasthandoff: 07/27/2017
 
 Modulis **Kreditoru sadarbība** ir paredzēts kreditoriem, kuri neizmanto elektroniskās datu apmaiņas (EDI) integrāciju ar Microsoft Dynamics 365 for Finance and Operations. Tas kreditoriem ļauj strādāt ar pirkšanas pasūtījumu, rēķinu un sūtījuma krājumu informāciju. Šajā tēmā ir aprakstīts, kā jūs varat sadarboties ar ārējiem kreditoriem, kuri izmanto kreditoru sadarbības interfeisu, lai strādātu ar pirkšanas pasūtījumiem un sūtījumu krājumiem. Tajā ir arī aprakstīts, kā konkrētam kreditoram sniegt iespēju lietot kreditoru sadarbību un kā definēt informāciju, kuru redz visi kreditori, kad viņi atbild uz kādu pirkšanas pasūtījumu. Papildinformāciju par to, ko ārējie kreditori var darīt kreditoru sadarbības interfeisā, skatiet tēmā [Kreditoru sadarbība ar debitoriem](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
-Papildinformāciju par to, kā kreditori var lietot kreditoru sadarbības rēķinu izrakstīšanas procesus, skatiet tēmā [Kreditoru sadarbības rēķinu izrakstīšanas darbvieta](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). Informāciju par to, kā nodrošināt jauna kreditora sadarbības lietotājus, skatiet tēmā [Pārvaldīt kreditoru sadarbības lietotājus](manage-vendor-collaboration-users.md).
+Papildinformāciju par to, kā kreditori var lietot kreditoru sadarbības rēķinu izrakstīšanas procesus, skatiet tēmā [Kreditoru sadarbības rēķinu izrakstīšanas darbvieta](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Informāciju par to, kā nodrošināt jauna kreditora sadarbības lietotājus, skatiet tēmā [Pārvaldīt kreditoru sadarbības lietotājus](manage-vendor-collaboration-users.md).
 
-Papildinformāciju par to, kā kreditori var lietot kreditoru sadarbības rēķinu izrakstīšanas procesus, skatiet tēmā [Kreditoru sadarbības rēķinu izrakstīšanas darbvieta](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). 
+Papildinformāciju par to, kā kreditori var lietot kreditoru sadarbības rēķinu izrakstīšanas procesus, skatiet tēmā [Kreditoru sadarbības rēķinu izrakstīšanas darbvieta](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). 
 
 Informāciju par to, kā nodrošināt jauna kreditora sadarbības lietotājus, skatiet tēmā [Pārvaldīt kreditoru sadarbības lietotājus](manage-vendor-collaboration-users.md).
 
@@ -131,7 +131,7 @@ Lai mainītu pirkšanas pasūtījumu, uz kuru jau ir atbildēts, jums kreditoram
 
 ### <a name="cancelling-a-po"></a>Pirkšanas pasūtījumu atcelšana
 
-Kad atceļat kādu pirkšanas pasūtījumu, tā statuss tiek mainīts uz **Apstiprināts**. Jums ir jāsūta PP atpakaļ kreditoram, izmantojot kreditoru portālu, lai tas varētu apstiprināt vai noraidīt atcelšanu. Kad atcelšana ir apstiprināta, šis pirkšanas pasūtījums kreditora akceptēto pirkšanas pasūtījumu sarakstā tiek rādīts kā **Atcelts**.
+Kad atceļat kādu pirkšanas pasūtījumu, tā statuss tiek mainīts uz **Apstiprināts**. Šis pirkšanas pasūtījums jums ir jāsūta atpakaļ kreditoram, lai kreditors šo atcelšanu varētu apstiprināt vai noraidīt. Kad atcelšana ir apstiprināta, šis pirkšanas pasūtījums kreditora akceptēto pirkšanas pasūtījumu sarakstā tiek rādīts kā **Atcelts**.
 
 ### <a name="adding-attachments-to-a-po"></a>Pielikumu pievienošana pirkšanas pasūtījumam
 

@@ -1,7 +1,7 @@
 ---
 title: "Slīdošais vidējais"
 description: 
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 0018f5df3d0d2882c300b6458bfb8adfba84e2ad
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: afc8f4922810983a6582558f0577a05aa21cbdbb
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/25/2017
 Tālāk ir norādīti priekšnoteikumi, lai izmantotu slīdošās vidējās izmaksas kā izmaksu aprēķināšanas metodi.
 1.  Lapā **Krājumu modeļu grupas** iestatiet krājumu modeļu grupu, kam ir atlasīta lauka **Krājumu modelis** vērtība Slīdošais vidējais. **Piezīme.** Pēc noklusējuma, ja ir atlasīta opcija Slīdošais vidējais, tiek atlasīti arī lauki **Grāmatot fiziskos krājumus** un **Grāmatot finanšu krājumus**. 
 
-2.  Lapā **Grāmatošana** piešķiriet kontus **Cenas atšķirība slīdošajam vidējam** un **Izmaksu pārvērtēšana slīdošajam vidējam** cilnē **Krājumi**. Konts **Cenas atšķirība slīdošajam vidējam** tiek izmantots, ja izmaksas ir proporcionāli jāiekļauj izdevumos. To izraisa izmaksu atšķirības pirkšanas ieejas plūsmas dokumentā un pirkšanas rēķinā, kā arī atšķirības starp sākotnējo krājumu daudzumu un pašreizējo rīcībā esošo daudzumu. Izmantojiet kontu **Izmaksu pārvērtēšana slīdošajam vidējam**, ja vēlaties koriģēt preces slīdošās vidējās izmaksas, piešķirot jaunu vienības cenu.
+2.  Lapā **Grāmatošana** piešķiriet kontus kontiem **Cenas atšķirība slīdošajam vidējam** un **Izmaksu pārvērtēšana slīdošajam vidējam** cilnē **Krājumi**. Konts **Cenas atšķirība slīdošajam vidējam** tiek izmantots, ja izmaksas ir proporcionāli jāiekļauj izdevumos. To izraisa izmaksu atšķirības pirkšanas ieejas plūsmas dokumentā un pirkšanas rēķinā, kā arī atšķirības starp sākotnējo krājumu daudzumu un pašreizējo rīcībā esošo daudzumu. Izmantojiet kontu **Izmaksu pārvērtēšana slīdošajam vidējam**, ja vēlaties koriģēt preces slīdošās vidējās izmaksas, piešķirot jaunu vienības cenu.
 3.  Lapā **Izlaistās preces** piešķiriet precei slīdošā vidējā krājumu modeļu grupu. **Piezīme.** Krājumu slēgšanas process izraisa tika uzskaites perioda slēgšanu. Tā neietekmē preces, kam ir piešķirts slīdošā vidējā krājumu modeļu grupa.
 
 ## <a name="convert-to-the-moving-average-costing-method"></a>Konvertēšana uz slīdošā vidējā izmaksu aprēķināšanas metodi
@@ -102,7 +102,7 @@ Lapā **Krājumu darbības** ir redzams, ka izdevumos ir iekļauta summa 4,00, j
 | Darījuma laiks | Datums         | Darījuma veids           | Daudzums | Summa | Vidējās vienības izmaksas |
 |------------------|--------------|----------------------------|----------|--------|-------------------|
 |                  | 1. oktobris    | Sākuma bilance          | 0        | 0,00   | 0,00              |
-| 8. oktobris        | 28. septembris | Ieejas plūsma ar atpakaļejošu datumu          | formāts 1. proc.        | 16,00  | 16,00             |
+| 8. oktobris        | 28. septembris | Ieejas plūsma ar atpakaļejošu datumu          | 1        | 16,00  | 16,00             |
 | 3. oktobris        | 3. oktobris    | Pirkšanas ieejas plūsma           | 2        | 20,00  | 12,00             |
 | 5. oktobris        | 5. oktobris    | Pārdošanas pasūtījums                | -1       | -10,00 | 13,00             |
 | 7. oktobris        | 7. oktobris    | Pirkšanas rēķins           |          | 2,00   | 14,00             |

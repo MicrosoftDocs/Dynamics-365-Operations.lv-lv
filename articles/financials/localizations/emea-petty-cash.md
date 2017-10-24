@@ -17,12 +17,11 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7acabdec9133b4b4cc8fc8861ee097aa2a00e191
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 3ed41a57e40e8d90ebfd996f855a8dc8dc16de13
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -413,7 +412,7 @@ Lai izveidotu kases transakciju, izmantojot virsgrāmatas žurnālu, dodieties u
 </tbody>
 </table>
 
-Cilnē **Rēķins** varat norādīt grāmatošanas metodes atlasītajam kontam un korespondējošajam kontam. Ja reģistrētā transakcija ir priekšapmaksa, cilnē **Maksājums** atzīmējiet izvēles rūtiņu **Priekšapmaksa**. Lauku grupā **Pārstāvis** aizpildiet laukus tāpat, kā to izdarījāt orderu žurnāla rindās, lai izdrukātu pārskatā **Kase**. Lai pārbaudītu žurnālu ierakstus, darbību rūtī noklikšķiniet uz **Validēt**.
+Cilnē **Rēķins** varat norādīt grāmatošanas metodes atlasītajam kontam un korespondējošajam kontam. Ja reģistrētā transakcija ir priekšapmaksa, tad cilnē **Maksājums** atzīmējiet izvēles rūtiņu **Priekšapmaksa**. Lauku grupā **Pārstāvis** aizpildiet laukus tāpat, kā to izdarījāt orderu žurnāla rindās, lai izdrukātu pārskatā **Kase**. Lai pārbaudītu žurnālu ierakstus, darbību rūtī noklikšķiniet uz **Validēt**.
 
 ## <a name="cash-transaction-approval-and-posting"></a>Kases transakciju apstiprināšana un grāmatošana
 Kases transakcijām var lietot šādus statusus: **Nav**, **Ratificēts**, **Apstiprināts** un **Noraidīts**. Parametrs **Lietot ratifikācijas statusu** cilnes **Kase** kopsavilkuma cilnē **Apstiprinājums**, kurš atrodas sadaļā **Kases un bankas vadība** &gt; **Iestatīšana** &gt; **Kases un bankas vadības parametri**, jums ļauj aktivizēt divus papildu statusus: **Ratificēts** un **Noraidīts**. Ratifikācija ir piemērota, kad tiek izdoti kases dokumenti un kad kases ieņēmumus vai izdevumus koplieto divi darbinieki: grāmatvedis un kasieris. Funkcija **Atiestatīt statusu** maina pašreizējās transakcijas statusu. **Apstiprināts** kļūst par **Ratificēts**, un **Ratificēts** kļūst par **Nav**. Kases žurnāla ierakstus var rediģēt tikai tad, kad to statuss ir **Nav**. Kases transakcijas var noraidīt tikai tad, kad to transakcijas statuss ir **Ratificēts**. Noraidītie kases dokumenti ir iekļauti pārskatā **Kases dokumentu reģistrācijas žurnāls**, bet tie netiek atspoguļoti pārskatā **Kases grāmata**. Lai ratificētu kādu transakciju, atlasiet atbilstošo orderu žurnāla rindu un pēc tam noklikšķiniet uz **Dokumentu apstiprinājums** &gt; **Ratificēt**. Tiek ģenerēts kārtas numurs, pamatojoties uz norādīto numuru sēriju. Transakcijas statuss mainās uz **Ratificēts**, un jūs vairs nevarat rediģēt šo žurnāla rindu. Kases konta atlikums nemainās. Lai noraidītu kādu kases dokumentu, noklikšķiniet uz **Dokumentu apstiprinājums** &gt; **Noraidīt**. Šī opcija ir pieejama tikai dokumentiem, kuru statuss ir **Ratificēts**. Lai apstiprinātu kādu transakciju, atlasiet atbilstošo orderu žurnāla rindu un pēc tam noklikšķiniet uz **Dokumentu apstiprinājums** &gt; **Apstiprināt**. Statuss **Apstiprināts** norāda, ka kases līdzekļi ir saņemti vai iztērēti. Kases atlikums ir mainījies. Kases transakciju var grāmatot. Lai atceltu statusu **Apstiprināts** un atiestatītu uz statusu **Nav**, noklikšķiniet uz **Dokumentu apstiprinājums** &gt; **Atiestatīt statusu**. Grāmatot var tikai apstiprinātas kases transakcijas. Lai grāmatotu žurnālu, noklikšķiniet uz **Grāmatot** &gt; **Grāmatot**.

@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 2dffb2634701210852b4b146a762434cf6df07e3
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 9c0ae4ed27578301573bead17ff2175bb9042036
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -131,7 +130,7 @@ Jūs varat modificēt prognožu pozīcijas, lai piemērotu zināmas izmaiņas bu
 
 ### <a name="modifying-forecast-positions"></a>Prognožu pozīciju modificēšana
 
-Izmaiņas, kas veiktas budžeta pozīcijām, ir ierobežotas ar šīm prognožu pozīcijām. Izmaiņas neietekmē amatu ierakstus Personāla vadībā. Lielākā daļa izmaiņu ir ierobežotas arī ar rediģējamo prognozes pozīciju. Citiem vārdiem sakot, izmaiņas attiecas tikai uz budžeta plānošanas procesu un budžeta plāna scenāriju, kuri ir piešķirti. Izņēmumi ir izmaiņas laukos, ko pozīcija koplieto procesos un scenārijos. Šie lauki iekļauj laukus cilnē **Vispārējā** un cilnē **Finanšu dimensijas**. Kad šie lauki mainās, jaunās vērtības attiecas uz pozīciju visos budžeta plānošanas scenārijos. Tāpēc šie lauki ļauj ātri atjaunināt visas versijas.
+Izmaiņas, kas veiktas budžeta pozīcijām, ir ierobežotas ar šīm prognožu pozīcijām. Izmaiņas neietekmē amatu ierakstus Personāla vadībā. Lielākā daļa izmaiņu ir ierobežotas arī ar rediģējamo prognozes pozīciju. Citiem vārdiem sakot, izmaiņas attiecas tikai uz budžeta plānošanas procesu un budžeta plāna scenāriju, kuri ir piešķirti. Izņēmumi ir izmaiņas laukos, ko pozīcija koplieto procesos un scenārijos. Šie lauki ietver laukus cilnē **Vispārējā** un cilnē **Finanšu dimensijas**. Kad šie lauki mainās, jaunās vērtības attiecas uz pozīciju visos budžeta plānošanas scenārijos. Tāpēc šie lauki ļauj ātri atjaunināt visas versijas.
 
 #### <a name="budget-cost-elements"></a>Budžeta izmaksu elementi
 

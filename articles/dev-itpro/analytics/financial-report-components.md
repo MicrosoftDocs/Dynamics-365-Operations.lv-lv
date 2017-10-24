@@ -16,13 +16,13 @@ ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 5c09b1fc061f95cd78e9f18c2bdf846fdbfc7cf1
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 074a2f377c16d47e95343dae3ebec6cbba4d5050
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -40,7 +40,7 @@ Finanšu atskaišu veidotāja dizains tika veidots ar mērķi sadalīt informāc
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | Rindas definīcija            | Rindas definīcija atskaitē definē aprakstošās rindas (piemēram, algas vai pārdošana). Tajā ir uzskaitītas arī segmentu vērtības vai dimensijas, kas satur vērtības katram rindas vienumam un ietver rindu formātus un aprēķinus.                                                    | [Rindu definīcijas](row-definitions-financial-reporting.md)                       |
 | Kolonnas definīcija         | Kolonnas definīcija nosaka periodu, kas jāizmanto, kad dati tiek izgūti no finanšu dimensijām. Tas ietver arī kolonnu formatējumu un aprēķinus.                                                                                                                                 | [Kolonnu definīcijas](column-definitions-financial-reports.md)         |
-| Pārskata koka definīcija | Pārskata koka definīcija līdzinās organizācijas diagrammai. Tā satur atsevišķas pārskata vienības, kas pārstāv katru diagrammas lauku. Vienības var būt vai nu atsevišķas nodaļas no finanšu datiem vai augstāka līmeņa vienības, kas apkopo datus no citām pārskata vienībām. | [Pārskata koku definīcijas](financial-reporting-tree-definitions.md) |
+| Pārskatu koka definīcija | Pārskatu koka definīcija ir līdzīga uzņēmuma diagrammai. Tā satur atsevišķas pārskata vienības, kas pārstāv katru diagrammas lauku. Šīs vienības var būt konkrētas finanšu datu grupas vai augstāka līmeņa vienības, kurās ir apkopoti dati no citām pārskatu vienībām. | [Pārskata koku definīcijas](financial-reporting-tree-definitions.md) |
 | Pārskata definīcija         | Pārskata definīcija izmanto rindu definīciju, kolonnu definīciju un papildu pārskata koka definīciju, lai izveidotu pārskatu. Tā arī sniedz papildu opcijas un iestatījumus, ko varat izmantot atskaites pielāgošanai.                                                                    | [Pārskata definīcija](design-financial-report-definitions.md)                  |
 
 Ja jums nav pieredzes atskaišu veidošanā, jums var noderēt atskaišu vednis, lai ātri izveidotu atskaites definīciju, kuru vēlāk varat pielāgot. Ja jums ir pieredze atskaišu veidošanā un vēlaties izmantot plašākas atskaišu noformēšanas iespējas, varat kombinēt jaunus vai jau eksistējošus veidošanas blokus, lai izveidotu jaunu atskaites definīciju. Lai izveidotu kvalitatīvas atskaites, jums nav pilnībā jāizprot visas pieejamās atskaites definīcijas opcijas. Iepazīstoties ar pārskatu izveides procesu, varat izvērst savas pārskatu definīcijas, lai izmantotu papildu funkcijas. Kad esat izveidojis vienkāršu atskaiti, varat pielāgot atskaites definīciju un jebkuru no atskaites definīcijas veidošanas blokiem.
@@ -71,7 +71,7 @@ Veidošanas bloki ir rindu definīcijas, kolonnu definīcijas, pārskata koku de
 ### <a name="create-a-building-block-group"></a>Veidošanas bloku grupas izveide
 
 1.  Atskaišu veidotāja izvēlnē **Uzņēmums** noklikšķiniet uz **Veidošanas bloku grupas**.
-2.  Dialoglodziņā **Veidošanas bloku grupas** noklikšķiniet uz **Jauns**.
+2.  Dialoglodziņā **Veidošanas bloku grupas** noklikšķiniet uz vienuma **Jauna**.
 3.  Ievadiet unikālu veidošanas bloku grupas nosaukumu un aprakstu. Katrā laukā var būt ne vairāk par 256 rakstzīmēm. (Ieskaitot atstarpes.)
 4.  Noklikšķiniet uz **Labi**, lai izveidotu jauno veidošanas bloku grupu.
 
@@ -79,7 +79,7 @@ Veidošanas bloki ir rindu definīcijas, kolonnu definīcijas, pārskata koku de
 
 Kad esat izveidojis bloku grupu, tā ir jāpiešķir vismaz vienam uzņēmumam. Pēc tam varat izveidot atskaites, rindas, kolonnas un atskaišu koka definīcijas un saglabāt tās šajā veidošanas bloku grupā. Pirms sākat tālāk aprakstīto procedūru, ir jāaizver visi veidošanas bloki.
 1.  Pārskatu veidotājā, izvēlnē **Uzņēmums**, noklikšķiniet uz **Uzņēmumi**.
-2.  Dialoglodziņā **Uzņēmumi** atlasiet uzņēmumu, kuram piešķirt veidošanas bloku grupu.
+2.  Dialoglodziņā **Uzņēmumi** atlasiet uzņēmumu, kam piešķirt veidošanas bloku grupu.
 3.  Noklikšķiniet uz **Modificēt**.
 4.  Dialoglodziņa **Modificēt uzņēmumu** laukā **Veidošanas bloku grupa** atlasiet veidošanas bloku grupu, kuru vēlaties piešķirt uzņēmumam, vai noklikšķiniet uz vienuma **Jauns**, lai izveidotu jaunu veidošanas bloku grupu.
 5.  Noklikšķiniet uz **Labi**, lai piešķirtu veidošanas bloku grupu.
@@ -96,7 +96,7 @@ Kad veidošanas bloku grupa ir izveidota un tiek izmantota, varat skatīt visus 
 ### <a name="save-a-building-block-group-under-a-new-name"></a>Saglabāt veidošanas bloku grupu ar jaunu nosaukumu
 
 Jau esošu veidošanas bloku grupu varat saglabāt ar jaunu nosaukumu. Pēc tam jauno veidošanas bloku grupu varat modificēt, nemainot sākotnējo veidošanas bloku grupu.
-1.  Pārskatu veidotājā, izvēlnē **Uzņēmums**, noklikšķiniet uz **Veidošanas bloku grupas**.
+1.  Pārskatu veidotāja izvēlnē **Uzņēmums** noklikšķiniet uz vienuma **Veidošanas bloku grupas**.
 2.  Dialoglodziņā **Veidošanas bloku grupas** atlasiet veidošanas bloku grupu, kuru saglabāt ar jaunu nosaukumu.
 3.  Noklikšķiniet uz **Saglabāt kā**.
 4.  Ievadiet jaunu veidošanas bloku grupas nosaukumu un aprakstu.
@@ -104,12 +104,12 @@ Jau esošu veidošanas bloku grupu varat saglabāt ar jaunu nosaukumu. Pēc tam 
 
 ### <a name="export-a-building-block-group"></a>Veidošanas bloku grupas eksportēšana
 
-Varat eksportēt veidošanas bloku grupu vai konkrētus pārskatu veidošanas blokus no veidošanas bloku grupas. Varat izmantot eksportēto veidošanas bloku grupu kā rezerves veidošanas bloku grupu. Varat arī kopēt eksportētos datus no vienas veidošanas bloku grupas citā vai no vienas Finance and Operations instalācijas citā. Pārskatu veidotājā kopā ar veidošanas bloku grupu tiek ietverti arī ar atsauci izmantotie fontu stili un dimensiju kopas.
+Varat eksportēt veidošanas bloku grupu vai konkrētus pārskata veidošanas bloku grupā ietvertos veidošanas blokus. Eksportēto veidošanas bloku grupu var izmantot kā dublējumkopiju. Varat arī kopēt eksportētos datus no vienas veidošanas bloku grupas citā vai no vienas Finance and Operations instalācijas citā. Pārskatu veidotājā kopā ar veidošanas bloku grupu tiek ietverti arī ar atsauci izmantotie fontu stili un dimensiju kopas.
 1.  Pārskatu veidotājā, izvēlnē **Uzņēmums**, noklikšķiniet uz **Veidošanas bloku grupas**.
-2.  Dialoglodziņā **Veidošanas bloku grupas** atlasiet eksportējamo veidošanas bloku grupu un tad noklikšķiniet uz vienuma **Eksportēt**.
+2.  Dialoglodziņā **Veidošanas bloku grupas** atlasiet eksportējamo veidošanas bloku grupu un pēc tam noklikšķiniet uz **Eksportēt**.
 3.  Dialoglodziņā **Eksportēt** atlasiet eksportējamās pārskatu definīcijas.
     -   Lai eksportētu visas pārskatu definīcijas un saistītos veidošanas blokus, noklikšķiniet uz **Atlasīt visu**.
-    -   Lai eksportētu noteiktas atskaites, rindas, kolonnas, koku struktūras vai dimensiju kopas, noklikšķiniet uz atbilstošās cilnes un pēc tam atlasiet eksportējamos vienumus. Lai atlasītu vairākus cilnes vienumus, nospiediet un turiet taustiņu Ctrl. **Piezīme.** Kad atlasāt eksportējamās atskaites, tiek atlasītas arī saistītās rindas, kolonnas, koku struktūras un dimensiju kopas.
+    -   Lai eksportētu noteiktas atskaites, rindas, kolonnas, koku struktūras vai dimensiju kopas, noklikšķiniet uz atbilstošās cilnes un pēc tam atlasiet eksportējamos vienumus. Lai atlasītu vairākus cilnes vienumus, nospiediet un turiet taustiņu Ctrl. **Piezīme.** Kad eksportēšanai atlasāt pārskatus, tiek atlasītas arī saistītās rindas, kolonnas, koki un dimensiju kopas.
 
 4.  Kad esat beidzis eksportējamo vienumu atlasīšanu, noklikšķiniet uz **Eksportēt**.
 5.  Dialoglodziņā **Saglabāt kā** atlasiet atrašanās vietu, uz kuru eksportēt veidošanas bloku grupu.
@@ -120,8 +120,8 @@ Varat eksportēt veidošanas bloku grupu vai konkrētus pārskatu veidošanas bl
 
 Veidošanas bloku grupu varat importēt esošā veidošanas bloku grupā vai varat izveidot jaunu veidošanas bloku grupu šiem datiem. Visas importētās veidošanas bloku grupas saglabā savus oriģinālos fontu stilus un uzņēmuma atsauces, un iekļauj attiecīgās dimensiju kopas.
 1.  Pārskatu veidotājā, izvēlnē **Uzņēmums**, noklikšķiniet uz **Veidošanas bloku grupas**.
-2.  Dialoglodziņā **Veidošanas bloku grupas** atlasiet veidošanas bloku grupu, uz kuru importēt veidošanas bloku grupu, un tad noklikšķiniet uz vienuma **Importēt**.
-3.  Dialoglodziņā **Atvērt** atlasiet importējamo veidošanas bloku grupu un tad noklikšķiniet uz vienuma **Atvērt**.
+2.  Dialoglodziņā **Veidošanas bloku grupas** atlasiet veidošanas bloku, kurā importēt veidošanas bloku grupu, un pēc tam noklikšķiniet uz **Importēt**.
+3.  Dialoglodziņā **Atvērt** atlasiet importējamo veidošanas bloku grupu un pēc tam noklikšķiniet uz **Atvērt**.
 4.  Dialoglodziņā **Importēt** atlasiet importējamās pārskatu definīcijas.
     -   Lai importētu visas atskaites definīcijas un saistītos veidošanas blokus, noklikšķiniet uz **Atlasīt visu**.
     -   Lai importētu atsevišķus pārskatus, rindas, kolonnas, koku struktūras vai dimensiju kopas, atlasiet importējamos pārskatus, rindas, kolonnas, koku struktūras vai dimensiju kopas.
@@ -130,9 +130,9 @@ Veidošanas bloku grupu varat importēt esošā veidošanas bloku grupā vai var
 
 ### <a name="undo-a-checkout-of-a-building-block"></a>Veidošanas bloka izrakstīšanas atsaukšana
 
-Kad atverat kādu veidošanas bloku, citiem lietotājiem ir tikai lasīšanas piekļuve attiecībā uz šo veidošanas bloku. Reizēm lietotāji aizmirst aizvērt kādu veidošanas bloku vai izslēdz savu sistēmu, neaizverot šo veidošanas bloku. Tāpēc šis veidošanas bloks paliek izrakstīts, un citi lietotāji to nevar atvērt. Šajās situācijās finanšu atskaišu veidošanas administrators var izmantot dialoglodziņu **Izrakstītie vienumi**, lai atgrieztu veidošanas blokus, kurus lietotāji ir atstājuši izrakstītā statusā. **Piezīme.** Lai atgrieztu veidošanas blokus, izmantojot dialoglodziņu **Izrakstītie vienumi**, jums ir nepieciešama administratora loma.
+Kad atverat kādu veidošanas bloku, citiem lietotājiem ir tikai lasīšanas piekļuve attiecībā uz šo veidošanas bloku. Reizēm lietotāji aizmirst aizvērt kādu veidošanas bloku vai izslēdz savu sistēmu, neaizverot šo veidošanas bloku. Tāpēc šis veidošanas bloks paliek izrakstīts, un citi lietotāji to nevar atvērt. Šajās situācijās finanšu pārskatu veidošanas administrators var izmantot dialoglodziņu **Izrakstītie vienumi**, lai atgrieztu veidošanas blokus, kurus lietotāji ir atstājuši izrakstītā statusā. **Piezīme.** Lai atgrieztu veidošanas blokus, izmantojot dialoglodziņu **Izrakstītie vienumi**, jums ir nepieciešama administratora loma.
 1.  Pārskatu veidotāja izvēlnē **Rīki** noklikšķiniet uz vienuma **Izrakstītie vienumi**.
-2.  Dialoglodziņā **Izrakstītie vienumi** atlasiet **Rādīt vienumus no visiem lietotājiem**. Saraksts tiek atjaunināts, lai parādītu visus veidošanas blokus, kas ir izrakstīti, un lietotājus, kuri ir tos izrakstījuši.
+2.  Dialoglodziņā **Paņemtie krājumi** atlasiet **Rādīt krājumus no visiem lietotājiem**. Saraksts tiek atjaunināts un tiek parādīti visi paņemtie veidošanas bloki un to lietotāji.
 3.  Atlasiet veidošanas bloku un tad noklikšķiniet uz **Atsaukt izrakstīšanu**.
 4.  Noklikšķiniet uz **Jā**, lai atgrieztu veidošanas bloku.
 

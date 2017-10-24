@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 5de5e3aad0b7a5853653ae53326dac078ec94fea
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 0bbf8f979aeb8b861164e345f9e46bb396f370ce
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -42,7 +41,7 @@ Vispirms ir jāatlasa slēgšanas grafiks darbvietas augšpusē. Visi darbvietā
 
 ### <a name="summary-tiles"></a>Kopsavilkuma elementi
 
-**Kopsavilkuma** elementos ir sniegts pārskats par procesu un indikatori, kas palīdz izsekot slēgšanas procesa izpildi. Var redzēt nokavētos uzdevumus, šodien atlikušos uzdevumus, uzdevumus, kuru izpildes datums ir šodiena, bet tie ir bloķēti atkarību dēļ, kā arī visus pārējos procesa uzdevumus. Šī informācija ir paredzēta visiem uzņēmumiem, kas ir iekļauti atlasītajā slēgšanas grafikā.
+Elementos **Kopsavilkums** ir sniegts apskats par procesu un indikatori, kas palīdz sekot līdzi slēgšanas procesa izpildei. Varat redzēt nokavētos uzdevumus, šodien atlikušos uzdevumus, uzdevumus, kuru izpildes datums ir šodiena, bet kuri ir bloķēti atkarību dēļ, kā arī visus atlikušos procesa uzdevumus. Šī informācija ir paredzēta visiem uzņēmumiem, kas ir iekļauti atlasītajā slēgšanas grafikā.
 
 ### <a name="tasks-and-status-section"></a>Uzdevumu un statusa sadaļā
 
@@ -82,7 +81,7 @@ Uzdevumu jomas tiek izmantotas slēgšanas uzdevumu grupēšanai loģiskas īpa�
 
 ### <a name="calendars"></a>Kalendāri
 
-Finanšu slēgšanas kalendāri ir jāveido un jārediģē, izmantojot cilni Kalendāri.  Šajā cilnē varat definēt slēgšanas procesu darbdienas, un tā tiks izmantota slēgšanas uzdevumu plānošanai.  Izveidojiet jaunu kalendāru un norādiet darbdienas, kas jāizmanto uzdevuma plānošanai.  Kalendāru ieteicams izveidot ilgam periodam, piemēram, gadam vai vairākiem gadiem, jo pēc izveidošanas to var rediģēt.  Pēc kalendāra izveidošanas noklikšķiniet uz pogas Rediģēt, lai atjauninātu kalendāru noteiktām dienām, piemēram, svētku dienām.  Slēgšanas uzdevumi tiks ieplānoti dienās, kad vienumam Kontrole ir iestatīta vērtība Atvērts.  Ja slēgšanas uzdevumi nav jāplāno noteiktā dienā, šajā dienā vienumam Kontrole ir jāiestata vērtība Slēgts.
+Finanšu slēgšanas kalendāri ir jāveido un jārediģē, izmantojot cilni Kalendāri. Šajā cilnē varat definēt slēgšanas procesu darbdienas, un tā tiks izmantota slēgšanas uzdevumu plānošanai.  Izveidojiet jaunu kalendāru un norādiet darbdienas, kas jāizmanto uzdevuma plānošanai.  Kalendāru ieteicams izveidot ilgam periodam, piemēram, gadam vai vairākiem gadiem, jo pēc izveidošanas to var rediģēt.  Pēc kalendāra izveidošanas noklikšķiniet uz pogas Rediģēt, lai atjauninātu kalendāru noteiktām dienām, piemēram, svētku dienām.  Slēgšanas uzdevumi tiks ieplānoti dienās, kad vienumam Kontrole ir iestatīta vērtība Atvērts.  Ja slēgšanas uzdevumi nav jāplāno noteiktā dienā, šajā dienā vienumam Kontrole ir jāiestata vērtība Slēgts.
 
 ### <a name="templates"></a>Veidnes
 

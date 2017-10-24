@@ -15,13 +15,13 @@ ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
-ms.openlocfilehash: 4e0c984b95cd395e7ab23394b886782e55fac90f
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: de8167eeea1f4a4db764a7f6398533ec3b9f4306
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -57,12 +57,12 @@ Tālāk aprakstītie finanšu atskaišu veidošanas komponenti ļauj atskaites �
 <ul>
 <li>Saglabāt dimensiju kombinācijas un atkārtoti lietot dimensijas vairākās atskaitēs.</li>
 <li>Kontrolēt, kā dimensiju apraksti tiek formatēti un attēloti.</li>
-<li>Identificēt kontus vai dimensijas, kas nav ietverti pārskatu veidošanas blokos.</li>
-<li>Formatēt virsrakstus slīdošās prognozēs.</li>
+<li>pārskatu veidošanas blokos izlaisto kontu vai dimensiju noteikšana;</li>
+<li>galveņu formatēšana apkopojumu prognozēs</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Finanšu pārskata sadarbība</td>
+<td>Sadarbība finanšu pārskatos</td>
 <td>Šādas funkcijas palīdz pārvaldīt pārskatu ģenerēšanu un izplatīšanu.
 <ul>
 <li>Plānot atskaites, lai tās automātiski tiktu ģenerētas katru dienu, katru nedēļu, katru mēnesi vai katru gadu.</li>
