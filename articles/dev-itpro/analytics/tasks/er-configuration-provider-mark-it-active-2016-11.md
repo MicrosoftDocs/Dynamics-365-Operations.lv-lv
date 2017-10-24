@@ -16,33 +16,33 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: bdb3a3857a7293828a7766b6988c123a43e0673c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="create-a-configuration-providand-mark-it-as-active-for-electronic-reporting-er"></a><span data-ttu-id="d418d-103">Konfigurācijas nodrošinātāja izveide un atzīmēšana kā aktīvu elektronisko pārskatu veidošanai (ER)</span><span class="sxs-lookup"><span data-stu-id="d418d-103">Create a configuration providand mark it as active for electronic reporting (ER)</span></span>
+# <a name="create-a-configuration-providand-mark-it-as-active-for-electronic-reporting-er"></a><span data-ttu-id="976c3-103">Konfigurācijas nodrošinātāja izveide un atzīmēšana kā aktīvu elektronisko pārskatu veidošanai (ER)</span><span class="sxs-lookup"><span data-stu-id="976c3-103">Create a configuration providand mark it as active for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="d418d-104">Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var izveidot konfigurācijas nodrošinātāju Elektroniskajos pārskatos (ER).</span><span class="sxs-lookup"><span data-stu-id="d418d-104">The following steps explain how a user assigned to the System Administrator or Electronic Reporting Developer role can create a configuration provider for Electronic reporting (ER).</span></span> <span data-ttu-id="d418d-105">Katra ER konfigurācija atsauksies uz nodrošinātāju kā konfigurācijas autoru.</span><span class="sxs-lookup"><span data-stu-id="d418d-105">Each ER configuration will refer to the provider as the author of the configuration.</span></span> <span data-ttu-id="d418d-106">Šajā piemērā tiek izveidots konfigurēšanas pakalpojuma sniedzējs parauga uzņēmumam Litware, Inc. Šīs darbības var veikt jebkurā uzņēmumā, jo ER konfigurēšanas pakalpojuma sniedzēji ir kopīgi visiem uzņēmumiem.</span><span class="sxs-lookup"><span data-stu-id="d418d-106">In this example, you will create a configuration provider for sample company, Litware, Inc. These steps can be performed in any company as ER configuration providers are shared among all companies.</span></span>
+<span data-ttu-id="976c3-104">Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var izveidot konfigurācijas nodrošinātāju Elektroniskajos pārskatos (ER).</span><span class="sxs-lookup"><span data-stu-id="976c3-104">The following steps explain how a user assigned to the System Administrator or Electronic Reporting Developer role can create a configuration provider for Electronic reporting (ER).</span></span> <span data-ttu-id="976c3-105">Katra ER konfigurācija atsauksies uz nodrošinātāju kā konfigurācijas autoru.</span><span class="sxs-lookup"><span data-stu-id="976c3-105">Each ER configuration will refer to the provider as the author of the configuration.</span></span> <span data-ttu-id="976c3-106">Šajā piemērā tiek izveidots konfigurēšanas pakalpojuma sniedzējs parauga uzņēmumam Litware, Inc. Šīs darbības var veikt jebkurā uzņēmumā, jo ER konfigurēšanas pakalpojuma sniedzēji ir kopīgi visiem uzņēmumiem.</span><span class="sxs-lookup"><span data-stu-id="976c3-106">In this example, you will create a configuration provider for sample company, Litware, Inc. These steps can be performed in any company as ER configuration providers are shared among all companies.</span></span>
 
 
-## <a name="create-a-provider"></a><span data-ttu-id="d418d-107">Nodrošinātāja izveide</span><span class="sxs-lookup"><span data-stu-id="d418d-107">Create a provider</span></span>
-1. <span data-ttu-id="d418d-108">Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.</span><span class="sxs-lookup"><span data-stu-id="d418d-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-2. <span data-ttu-id="d418d-109">Noklikšķiniet uz Konfigurācijas nodrošinātāji.</span><span class="sxs-lookup"><span data-stu-id="d418d-109">Click Configuration providers.</span></span>
-3. <span data-ttu-id="d418d-110">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="d418d-110">Click New.</span></span>
-    * <span data-ttu-id="d418d-111">Nodrošinātāja ierakstam ir unikāls nosaukums un URL.</span><span class="sxs-lookup"><span data-stu-id="d418d-111">A provider record has a unique name and URL.</span></span> <span data-ttu-id="d418d-112">Pārskatiet šīs lapas saturu un izlaidiet šo procedūru, ja Litware, Inc. (http://www.litware.com) ieraksts jau pastāv.</span><span class="sxs-lookup"><span data-stu-id="d418d-112">Review the content of this page and skip this procedure if a record for Litware, Inc. (http://www.litware.com) already exists.</span></span>  
-4. <span data-ttu-id="d418d-113">Laukā Nosaukums ierakstiet Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="d418d-113">In the Name field, type 'Litware, Inc.'.</span></span>
-    * <span data-ttu-id="d418d-114">Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="d418d-114">Litware, Inc.</span></span>  
-5. <span data-ttu-id="d418d-115">Interneta adreses laukā ierakstiet 'http://www.litware.com'.</span><span class="sxs-lookup"><span data-stu-id="d418d-115">In the Internet address field, type 'http://www.litware.com'.</span></span>
-    * <span data-ttu-id="d418d-116">http://www.litware.com</span><span class="sxs-lookup"><span data-stu-id="d418d-116">http://www.litware.com</span></span>  
-6. <span data-ttu-id="d418d-117">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="d418d-117">Click Save.</span></span>
-7. <span data-ttu-id="d418d-118">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="d418d-118">Close the page.</span></span>
+## <a name="create-a-provider"></a><span data-ttu-id="976c3-107">Nodrošinātāja izveide</span><span class="sxs-lookup"><span data-stu-id="976c3-107">Create a provider</span></span>
+1. <span data-ttu-id="976c3-108">Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.</span><span class="sxs-lookup"><span data-stu-id="976c3-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="976c3-109">Noklikšķiniet uz Konfigurācijas nodrošinātāji.</span><span class="sxs-lookup"><span data-stu-id="976c3-109">Click Configuration providers.</span></span>
+3. <span data-ttu-id="976c3-110">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="976c3-110">Click New.</span></span>
+    * <span data-ttu-id="976c3-111">Nodrošinātāja ierakstam ir unikāls nosaukums un URL.</span><span class="sxs-lookup"><span data-stu-id="976c3-111">A provider record has a unique name and URL.</span></span> <span data-ttu-id="976c3-112">Pārskatiet šīs lapas saturu un izlaidiet šo procedūru, ja Litware, Inc. (http://www.litware.com) ieraksts jau pastāv.</span><span class="sxs-lookup"><span data-stu-id="976c3-112">Review the content of this page and skip this procedure if a record for Litware, Inc. (http://www.litware.com) already exists.</span></span>  
+4. <span data-ttu-id="976c3-113">Laukā Nosaukums ierakstiet Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="976c3-113">In the Name field, type 'Litware, Inc.'.</span></span>
+    * <span data-ttu-id="976c3-114">Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="976c3-114">Litware, Inc.</span></span>  
+5. <span data-ttu-id="976c3-115">Interneta adreses laukā ierakstiet 'http://www.litware.com'.</span><span class="sxs-lookup"><span data-stu-id="976c3-115">In the Internet address field, type 'http://www.litware.com'.</span></span>
+    * <span data-ttu-id="976c3-116">http://www.litware.com</span><span class="sxs-lookup"><span data-stu-id="976c3-116">http://www.litware.com</span></span>  
+6. <span data-ttu-id="976c3-117">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="976c3-117">Click Save.</span></span>
+7. <span data-ttu-id="976c3-118">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="976c3-118">Close the page.</span></span>
 
-## <a name="select-as-an-active-provider"></a><span data-ttu-id="d418d-119">Atlasiet kā aktīvu nodrošinātāju</span><span class="sxs-lookup"><span data-stu-id="d418d-119">Select as an active provider</span></span>
-1. <span data-ttu-id="d418d-120">Atlasiet pakalpojumu sniedzēju Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="d418d-120">Select the Litware, Inc. provider.</span></span>
-2. <span data-ttu-id="d418d-121">Noklikšķiniet uz Iestatīt aktīvu.</span><span class="sxs-lookup"><span data-stu-id="d418d-121">Click Set active.</span></span>
+## <a name="select-as-an-active-provider"></a><span data-ttu-id="976c3-119">Atlasiet kā aktīvu nodrošinātāju</span><span class="sxs-lookup"><span data-stu-id="976c3-119">Select as an active provider</span></span>
+1. <span data-ttu-id="976c3-120">Atlasiet pakalpojumu sniedzēju Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="976c3-120">Select the Litware, Inc. provider.</span></span>
+2. <span data-ttu-id="976c3-121">Noklikšķiniet uz Iestatīt aktīvu.</span><span class="sxs-lookup"><span data-stu-id="976c3-121">Click Set active.</span></span>
 
 

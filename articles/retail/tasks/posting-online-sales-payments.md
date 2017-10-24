@@ -17,29 +17,29 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: e8c3f861a53a3f5c2de29248523ff4efd5e1d072
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="post-online-sales-and-payments"></a><span data-ttu-id="a9efa-103"> Tiešsaistes pārdošanas un maksājumu grāmatošana</span><span class="sxs-lookup"><span data-stu-id="a9efa-103">Post online sales and payments</span></span>
+# <a name="post-online-sales-and-payments"></a><span data-ttu-id="501a7-103"> Tiešsaistes pārdošanas un maksājumu grāmatošana</span><span class="sxs-lookup"><span data-stu-id="501a7-103">Post online sales and payments</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="a9efa-104">Šajā procedūrā ir aprakstīts, kā konfigurēt un izpildīt periodisku pakešuzdevumu, lai izveidotu pārdošanas pasūtījumus un maksājumus tiešsaistes veikala transakcijām.</span><span class="sxs-lookup"><span data-stu-id="a9efa-104">This procedure walks through configuring and running a recurrent batch job to create sales orders and payments for online store transactions.</span></span> <span data-ttu-id="a9efa-105">Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.</span><span class="sxs-lookup"><span data-stu-id="a9efa-105">This procedure uses the USRT company in demo data.</span></span>
+<span data-ttu-id="501a7-104">Šajā procedūrā ir aprakstīts, kā konfigurēt un izpildīt periodisku pakešuzdevumu, lai izveidotu pārdošanas pasūtījumus un maksājumus tiešsaistes veikala transakcijām.</span><span class="sxs-lookup"><span data-stu-id="501a7-104">This procedure walks through configuring and running a recurrent batch job to create sales orders and payments for online store transactions.</span></span> <span data-ttu-id="501a7-105">Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.</span><span class="sxs-lookup"><span data-stu-id="501a7-105">This procedure uses the USRT company in demo data.</span></span>
 
-1. <span data-ttu-id="a9efa-106">Pārejiet uz sadaļu Visas darbvietas > Mazumtirdzniecības veikala finanses.</span><span class="sxs-lookup"><span data-stu-id="a9efa-106">Go to All workspaces > Retail store financials.</span></span>
-2. <span data-ttu-id="a9efa-107">Noklikšķiniet uz Sinhronizēt pasūtījumus.</span><span class="sxs-lookup"><span data-stu-id="a9efa-107">Click Synchronize orders.</span></span>
-3. <span data-ttu-id="a9efa-108">Laukā Organizācijas hierarhija atlasiet Mazumtirdzniecības veikali pēc reģiona.</span><span class="sxs-lookup"><span data-stu-id="a9efa-108">In the Organization hierarchy field, select 'Retail Stores by Region'.</span></span>
-    * <span data-ttu-id="a9efa-109">Atlasiet konkrētu tiešsaistes veikalu vai zaru, lai izveidotu pakešuzdevumu veikalu grupai.</span><span class="sxs-lookup"><span data-stu-id="a9efa-109">Select either a specific online store, or select a node if you want to create the batch job for a group of stores.</span></span>  
-    * <span data-ttu-id="a9efa-110">Noklikšķiniet uz bultiņas, lai pievienotu atlasi.</span><span class="sxs-lookup"><span data-stu-id="a9efa-110">Click the arrow to add your selection.</span></span>  
-4. <span data-ttu-id="a9efa-111">Noklikšķiniet uz cilnes Palaist fonā.</span><span class="sxs-lookup"><span data-stu-id="a9efa-111">Click the Run in the background tab.</span></span>
-5. <span data-ttu-id="a9efa-112">Atzīmējiet izvēles rūtiņu Pakešapstrāde vai noņemiet tās atzīmi.</span><span class="sxs-lookup"><span data-stu-id="a9efa-112">Check or uncheck the Batch processing checkbox.</span></span>
-6. <span data-ttu-id="a9efa-113">Noklikšķiniet uz Periodiskums.</span><span class="sxs-lookup"><span data-stu-id="a9efa-113">Click Recurrence.</span></span>
-7. <span data-ttu-id="a9efa-114">Atlasiet opciju Bez beigu datuma.</span><span class="sxs-lookup"><span data-stu-id="a9efa-114">Select the No end date option.</span></span>
-8. <span data-ttu-id="a9efa-115">Laukā Skaits ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="a9efa-115">In the Count field, enter a number.</span></span>
-9. <span data-ttu-id="a9efa-116">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="a9efa-116">Click OK.</span></span>
-10. <span data-ttu-id="a9efa-117">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="a9efa-117">Click OK.</span></span>
+1. <span data-ttu-id="501a7-106">Pārejiet uz sadaļu Visas darbvietas > Mazumtirdzniecības veikala finanses.</span><span class="sxs-lookup"><span data-stu-id="501a7-106">Go to All workspaces > Retail store financials.</span></span>
+2. <span data-ttu-id="501a7-107">Noklikšķiniet uz Sinhronizēt pasūtījumus.</span><span class="sxs-lookup"><span data-stu-id="501a7-107">Click Synchronize orders.</span></span>
+3. <span data-ttu-id="501a7-108">Laukā Organizācijas hierarhija atlasiet Mazumtirdzniecības veikali pēc reģiona.</span><span class="sxs-lookup"><span data-stu-id="501a7-108">In the Organization hierarchy field, select 'Retail Stores by Region'.</span></span>
+    * <span data-ttu-id="501a7-109">Atlasiet konkrētu tiešsaistes veikalu vai zaru, lai izveidotu pakešuzdevumu veikalu grupai.</span><span class="sxs-lookup"><span data-stu-id="501a7-109">Select either a specific online store, or select a node if you want to create the batch job for a group of stores.</span></span>  
+    * <span data-ttu-id="501a7-110">Noklikšķiniet uz bultiņas, lai pievienotu atlasi.</span><span class="sxs-lookup"><span data-stu-id="501a7-110">Click the arrow to add your selection.</span></span>  
+4. <span data-ttu-id="501a7-111">Noklikšķiniet uz cilnes Palaist fonā.</span><span class="sxs-lookup"><span data-stu-id="501a7-111">Click the Run in the background tab.</span></span>
+5. <span data-ttu-id="501a7-112">Atzīmējiet izvēles rūtiņu Pakešapstrāde vai noņemiet tās atzīmi.</span><span class="sxs-lookup"><span data-stu-id="501a7-112">Check or uncheck the Batch processing checkbox.</span></span>
+6. <span data-ttu-id="501a7-113">Noklikšķiniet uz Periodiskums.</span><span class="sxs-lookup"><span data-stu-id="501a7-113">Click Recurrence.</span></span>
+7. <span data-ttu-id="501a7-114">Atlasiet opciju Bez beigu datuma.</span><span class="sxs-lookup"><span data-stu-id="501a7-114">Select the No end date option.</span></span>
+8. <span data-ttu-id="501a7-115">Laukā Skaits ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="501a7-115">In the Count field, enter a number.</span></span>
+9. <span data-ttu-id="501a7-116">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="501a7-116">Click OK.</span></span>
+10. <span data-ttu-id="501a7-117">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="501a7-117">Click OK.</span></span>
 
 

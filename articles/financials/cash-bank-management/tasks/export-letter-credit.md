@@ -1,0 +1,142 @@
+--- 
+title: "Akreditīva eksportēšana"
+description: "Šajā procedūrā ir aprakstīts kredītvēstules eksportēšanas process."
+author: kweekley
+manager: AnnBe
+ms.date: 11/14/2016
+ms.topic: business-process
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+audience: Application User
+ms.reviewer: twheeloc
+ms.search.scope: Operations
+ms.search.region: Global
+ms.author: kweekley
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: AX 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
+ms.openlocfilehash: 0fa4b57825bcf81778d91ee01484511bb40f6bd7
+ms.contentlocale: lv-lv
+ms.lasthandoff: 09/29/2017
+
+---
+# <a name="export-a-letter-of-credit"></a><span data-ttu-id="977e1-103">Akreditīva eksportēšana</span><span class="sxs-lookup"><span data-stu-id="977e1-103">Export a letter of credit</span></span>
+
+[!include[task guide banner](../../includes/task-guide-banner.md)]
+
+<span data-ttu-id="977e1-104">Šajā procedūrā ir aprakstīts kredītvēstules eksportēšanas process.</span><span class="sxs-lookup"><span data-stu-id="977e1-104">This procedure walks through the process of the Export letter of credit.</span></span>
+
+<span data-ttu-id="977e1-105">Kredītvēstule ir līgums, ko izsniedz banka un kurā banka piekrīt veikt maksājumu pircēja vārdā, ja tiek izpildīti starp pircēju un pārdevēju noslēgtā līguma nosacījumi.</span><span class="sxs-lookup"><span data-stu-id="977e1-105">A letter of credit is an agreement that is issued by a bank, in which the bank agrees to ensure payment on behalf of the buyer, if the terms of the agreement between the buyer and seller are met.</span></span>
+
+
+
+<span data-ttu-id="977e1-106">Pirms šīs procedūras izpildiet procedūru Bankas iestāžu iestatīšana un metožu grāmatošana un Kredītvēstule_Bankas iestādes līguma izveide.</span><span class="sxs-lookup"><span data-stu-id="977e1-106">Run the 'Set up bank facilities and posting profiles' procedure and the 'Letter of Credit_Create a bank facility agreement' procedure prior to this procedure.</span></span> <span data-ttu-id="977e1-107">Lai sekmīgi izpildītu šo procedūru, jāatlasa demonstrācijas uzņēmums “USMF”.</span><span class="sxs-lookup"><span data-stu-id="977e1-107">The USMF demo company must be selected in order to run this procedure successfully.</span></span>
+
+
+
+
+## <a name="create-sales-order-for-export-letter-of-credit"></a><span data-ttu-id="977e1-108">Pārdošanas pasūtījuma izveide kredītvēstules eksportēšanai</span><span class="sxs-lookup"><span data-stu-id="977e1-108">Create Sales Order for Export letter of credit</span></span>
+1. <span data-ttu-id="977e1-109">Pārejiet uz sadaļu Debitori > Pasūtījumi > Visi pārdošanas pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="977e1-109">Go to Accounts receivable > Orders > All sales orders.</span></span>
+2. <span data-ttu-id="977e1-110">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="977e1-110">Click New.</span></span>
+3. <span data-ttu-id="977e1-111">Laukā Debitora konts noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="977e1-111">In the Customer account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="977e1-112">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="977e1-112">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="977e1-113">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="977e1-113">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="977e1-114">Izvērsiet vai sakļaujiet sadaļu Vispārīgi.</span><span class="sxs-lookup"><span data-stu-id="977e1-114">Expand or collapse the General section.</span></span>
+7. <span data-ttu-id="977e1-115">Laukā Vieta noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="977e1-115">In the Site field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="977e1-116">Atlasiet vietu, kur krājums ir jāuzkrāj.</span><span class="sxs-lookup"><span data-stu-id="977e1-116">Select the Site where the item to be issued is stocked.</span></span>  
+8. <span data-ttu-id="977e1-117">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="977e1-117">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="977e1-118">Laukā Noliktava noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="977e1-118">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="977e1-119">Atlasiet noliktavu, kur izsniedzamais krājums ir jāuzkrāj.</span><span class="sxs-lookup"><span data-stu-id="977e1-119">Select the Warehouse where item to be issued is stocked.</span></span>  
+10. <span data-ttu-id="977e1-120">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="977e1-120">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="977e1-121">Ņemiet vērā! Jābūt atlasītam laukam Bankas dokumenta tips un vērtībai Kredītvēstule.</span><span class="sxs-lookup"><span data-stu-id="977e1-121">Note: The Bank document type field should be selected with the value 'Letter of credit'.</span></span>  
+11. <span data-ttu-id="977e1-122">Laukā Bankas dokumenta veids atlasiet Kredītvēstule.</span><span class="sxs-lookup"><span data-stu-id="977e1-122">In the Bank document type field, select 'Letter of credit'.</span></span>
+12. <span data-ttu-id="977e1-123">Izvērsiet vai sakļaujiet sadaļu Piegāde.</span><span class="sxs-lookup"><span data-stu-id="977e1-123">Expand or collapse the Delivery section.</span></span>
+    * <span data-ttu-id="977e1-124">Atlasiet Piegādes datuma kontrole = Nav.</span><span class="sxs-lookup"><span data-stu-id="977e1-124">Select Delivery date control = None.</span></span>  
+13. <span data-ttu-id="977e1-125">Laukā Pieprasītais saņemšanas datums ievadiet datumu.</span><span class="sxs-lookup"><span data-stu-id="977e1-125">In the Requested receipt date field, enter a date.</span></span>
+14. <span data-ttu-id="977e1-126">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="977e1-126">Click OK.</span></span>
+15. <span data-ttu-id="977e1-127">Laukā Krājuma kods noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="977e1-127">In the Item number field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="977e1-128">Atlasiet vajadzīgo krājumu, jas ir jāizdod/jāpārdod.</span><span class="sxs-lookup"><span data-stu-id="977e1-128">Select the required item to be Issued/Sold.</span></span>  
+16. <span data-ttu-id="977e1-129">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="977e1-129">In the list, find and select the desired record.</span></span>
+17. <span data-ttu-id="977e1-130">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="977e1-130">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="977e1-131">Laukā Vienības cena ievadiet kādu skaitli.</span><span class="sxs-lookup"><span data-stu-id="977e1-131">In the Unit price field, enter a number.</span></span>
+19. <span data-ttu-id="977e1-132">Izvērsiet vai sakļaujiet sadaļu Detalizēta rindas informācija.</span><span class="sxs-lookup"><span data-stu-id="977e1-132">Expand or collapse the Line details section.</span></span>
+20. <span data-ttu-id="977e1-133">Noklikšķiniet uz cilnes Piegāde.</span><span class="sxs-lookup"><span data-stu-id="977e1-133">Click the Delivery tab.</span></span>
+21. <span data-ttu-id="977e1-134">Laukā Pieprasītais nosūtīšanas datums ievadiet datumu.</span><span class="sxs-lookup"><span data-stu-id="977e1-134">In the Requested ship date field, enter a date.</span></span>
+22. <span data-ttu-id="977e1-135">Laukā Apstiprinātais nosūtīšanas datums ievadiet datumu.</span><span class="sxs-lookup"><span data-stu-id="977e1-135">In the Confirmed ship date field, enter a date.</span></span>
+23. <span data-ttu-id="977e1-136">Darbību rūtī noklikšķiniet uz Pārvaldīt.</span><span class="sxs-lookup"><span data-stu-id="977e1-136">On the Action Pane, click Manage.</span></span>
+24. <span data-ttu-id="977e1-137">Noklikšķiniet uz Kredītvēstule.</span><span class="sxs-lookup"><span data-stu-id="977e1-137">Click Letter of credit.</span></span>
+25. <span data-ttu-id="977e1-138">Laukā Bankas dokumenta numurs ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="977e1-138">In the Bank document number field, type a value.</span></span>
+26. <span data-ttu-id="977e1-139">Laukā Beigu datums ievadiet datumu un laiku.</span><span class="sxs-lookup"><span data-stu-id="977e1-139">In the Expiration date field, enter a date and time.</span></span>
+27. <span data-ttu-id="977e1-140">Izvērsiet vai sakļaujiet sadaļu Detalizēta informācija par banku.</span><span class="sxs-lookup"><span data-stu-id="977e1-140">Expand or collapse the Bank details section.</span></span>
+28. <span data-ttu-id="977e1-141">Laukā Izdevēja banka noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanas logu.</span><span class="sxs-lookup"><span data-stu-id="977e1-141">In the Issuing bank field, click the drop-down button to open the lookup.</span></span>
+29. <span data-ttu-id="977e1-142">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="977e1-142">In the list, click the link in the selected row.</span></span>
+30. <span data-ttu-id="977e1-143">Laukā Konsultatīvā banka noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanas logu.</span><span class="sxs-lookup"><span data-stu-id="977e1-143">In the Advising bank field, click the drop-down button to open the lookup.</span></span>
+31. <span data-ttu-id="977e1-144">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="977e1-144">In the list, find and select the desired record.</span></span>
+32. <span data-ttu-id="977e1-145">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="977e1-145">In the list, click the link in the selected row.</span></span>
+33. <span data-ttu-id="977e1-146">Noklikšķiniet uz Iegūt pārdošanas pasūtījumu kravas.</span><span class="sxs-lookup"><span data-stu-id="977e1-146">Click Fetch sales order shipments.</span></span>
+34. <span data-ttu-id="977e1-147">Noklikšķiniet uz Izsniegt bankas dokumentu.</span><span class="sxs-lookup"><span data-stu-id="977e1-147">Click Issue bank document.</span></span>
+35. <span data-ttu-id="977e1-148">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="977e1-148">Close the page.</span></span>
+
+## <a name="post-packing-slip"></a><span data-ttu-id="977e1-149">Pavadzīmes grāmatošana</span><span class="sxs-lookup"><span data-stu-id="977e1-149">Post Packing slip</span></span>
+1. <span data-ttu-id="977e1-150">Darbību rūtī noklikšķiniet uz Izdot un iepakot.</span><span class="sxs-lookup"><span data-stu-id="977e1-150">On the Action Pane, click Pick and pack.</span></span>
+2. <span data-ttu-id="977e1-151">Noklikšķiniet uz Grāmatot pavadzīmi.</span><span class="sxs-lookup"><span data-stu-id="977e1-151">Click Post packing slip.</span></span>
+3. <span data-ttu-id="977e1-152">Izvērsiet vai sakļaujiet sadaļu Parametri.</span><span class="sxs-lookup"><span data-stu-id="977e1-152">Expand or collapse the Parameters section.</span></span>
+4. <span data-ttu-id="977e1-153">Laukā Daudzums atlasiet vērtību “Visi”.</span><span class="sxs-lookup"><span data-stu-id="977e1-153">In the Quantity field, select 'All'.</span></span>
+5. <span data-ttu-id="977e1-154">Izvērsiet vai sakļaujiet sadaļu Iestatīšana.</span><span class="sxs-lookup"><span data-stu-id="977e1-154">Expand or collapse the Setup section.</span></span>
+6. <span data-ttu-id="977e1-155">Laukā Pavadzīmes datums ievadiet datumu.</span><span class="sxs-lookup"><span data-stu-id="977e1-155">In the Packing slip date field, enter a date.</span></span>
+7. <span data-ttu-id="977e1-156">Atlasiet Sūtīšanas numurs.</span><span class="sxs-lookup"><span data-stu-id="977e1-156">Select the Shipment number.</span></span>
+8. <span data-ttu-id="977e1-157">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="977e1-157">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="977e1-158">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="977e1-158">Click OK.</span></span>
+10. <span data-ttu-id="977e1-159">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="977e1-159">Click OK.</span></span>
+
+## <a name="post-sales-invoice"></a><span data-ttu-id="977e1-160">Pārdošanas rēķina grāmatošana</span><span class="sxs-lookup"><span data-stu-id="977e1-160">Post sales invoice</span></span>
+1. <span data-ttu-id="977e1-161">Darbību rūtī noklikšķiniet uz Rēķins.</span><span class="sxs-lookup"><span data-stu-id="977e1-161">On the Action Pane, click Invoice.</span></span>
+2. <span data-ttu-id="977e1-162">Noklikšķiniet uz Rēķins.</span><span class="sxs-lookup"><span data-stu-id="977e1-162">Click Invoice.</span></span>
+3. <span data-ttu-id="977e1-163">Izvērsiet vai sakļaujiet sadaļu Pārskats.</span><span class="sxs-lookup"><span data-stu-id="977e1-163">Expand or collapse the Overview section.</span></span>
+4. <span data-ttu-id="977e1-164">Atlasiet Sūtīšanas numurs.</span><span class="sxs-lookup"><span data-stu-id="977e1-164">Select the Shipment number.</span></span>
+5. <span data-ttu-id="977e1-165">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="977e1-165">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="977e1-166">Izvērsiet vai sakļaujiet sadaļu Iestatīšana.</span><span class="sxs-lookup"><span data-stu-id="977e1-166">Expand or collapse the Setup section.</span></span>
+7. <span data-ttu-id="977e1-167">Laukā Rēķina datums ievadiet datumu.</span><span class="sxs-lookup"><span data-stu-id="977e1-167">In the Invoice date field, enter a date.</span></span>
+8. <span data-ttu-id="977e1-168">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="977e1-168">Click OK.</span></span>
+9. <span data-ttu-id="977e1-169">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="977e1-169">Click OK.</span></span>
+
+## <a name="shipment-document-submitted-status"></a><span data-ttu-id="977e1-170">Iesniegtā sūtījuma dokumenta statuss</span><span class="sxs-lookup"><span data-stu-id="977e1-170">Shipment document submitted status</span></span>
+1. <span data-ttu-id="977e1-171">Darbību rūtī noklikšķiniet uz Pārvaldīt.</span><span class="sxs-lookup"><span data-stu-id="977e1-171">On the Action Pane, click Manage.</span></span>
+2. <span data-ttu-id="977e1-172">Noklikšķiniet uz Kredītvēstule.</span><span class="sxs-lookup"><span data-stu-id="977e1-172">Click Letter of credit.</span></span>
+3. <span data-ttu-id="977e1-173">Izvērsiet vai sakļaujiet sadaļu Rindas.</span><span class="sxs-lookup"><span data-stu-id="977e1-173">Expand or collapse the Lines section.</span></span>
+    * <span data-ttu-id="977e1-174">Piezīme. Laukam Iesniegtais dokuments jāiestata Jā.</span><span class="sxs-lookup"><span data-stu-id="977e1-174">Note: The 'Document submitted' field should be set to 'Yes'.</span></span>  
+
+## <a name="verify-export-letter-of-credit"></a><span data-ttu-id="977e1-175">Kredītvēstules eksportēšanas pārbaude</span><span class="sxs-lookup"><span data-stu-id="977e1-175">Verify Export letter of credit</span></span>
+1. <span data-ttu-id="977e1-176">Dodieties uz Kases un bankas vadība > Akreditīvi > Eksporta akreditatīva un importa iekasēšana.</span><span class="sxs-lookup"><span data-stu-id="977e1-176">Go to Cash and bank management > Letters of credit > Export letter of credit and import collection.</span></span>
+2. <span data-ttu-id="977e1-177">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="977e1-177">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="977e1-178">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="977e1-178">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="977e1-179">Pārbaudiet, vai lauka Kredītvēstule vienuma Sūtījums statuss ir Iekļauts rēķinā.</span><span class="sxs-lookup"><span data-stu-id="977e1-179">Verify that the Export letter of credit has a Shipment status of 'Invoiced'.</span></span>  
+
+## <a name="customer-payment"></a><span data-ttu-id="977e1-180">Debitora maksājums</span><span class="sxs-lookup"><span data-stu-id="977e1-180">Customer payment</span></span>
+1. <span data-ttu-id="977e1-181">Pārejiet uz sadaļu Debitori > Maksājumi > Maksājumu žurnāls.</span><span class="sxs-lookup"><span data-stu-id="977e1-181">Go to Accounts receivable > Payments > Payment journal.</span></span>
+2. <span data-ttu-id="977e1-182">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="977e1-182">Click New.</span></span>
+3. <span data-ttu-id="977e1-183">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="977e1-183">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="977e1-184">Laukā Nosaukums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="977e1-184">In the Name field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="977e1-185">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="977e1-185">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="977e1-186">Noklikšķiniet uz Rindas.</span><span class="sxs-lookup"><span data-stu-id="977e1-186">Click Lines.</span></span>
+7. <span data-ttu-id="977e1-187">Laukā Datums ievadiet kādu datumu.</span><span class="sxs-lookup"><span data-stu-id="977e1-187">In the Date field, enter a date.</span></span>
+8. <span data-ttu-id="977e1-188">Laukā Konts norādiet vēlamās vērtības.</span><span class="sxs-lookup"><span data-stu-id="977e1-188">In the Account field, specify the desired values.</span></span>
+9. <span data-ttu-id="977e1-189">Noklikšķiniet uz Nosegšana.</span><span class="sxs-lookup"><span data-stu-id="977e1-189">Click Settlement.</span></span>
+10. <span data-ttu-id="977e1-190">Atzīmējiet izvēles rūtiņu, kura atrodas lauka Kopsummas galvenē.</span><span class="sxs-lookup"><span data-stu-id="977e1-190">Select the check box on the header of Totals.</span></span>
+    * <span data-ttu-id="977e1-191">Piezīme. Laukam Rādīt iestatiet Kredītvēstule.</span><span class="sxs-lookup"><span data-stu-id="977e1-191">Note: Set the Show field to 'Letter of credit'.</span></span>  
+11. <span data-ttu-id="977e1-192">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="977e1-192">In the list, find and select the desired record.</span></span>
+12. <span data-ttu-id="977e1-193">Atzīmējiet vai notīriet izvēles rūtiņu Atzīmēt.</span><span class="sxs-lookup"><span data-stu-id="977e1-193">Select or clear the Mark check box.</span></span>
+13. <span data-ttu-id="977e1-194">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="977e1-194">Click OK.</span></span>
+14. <span data-ttu-id="977e1-195">Noklikšķiniet uz cilnes Maksājums.</span><span class="sxs-lookup"><span data-stu-id="977e1-195">Click the Payment tab.</span></span>
+    * <span data-ttu-id="977e1-196">Bankas dokumenta numura un sūtījuma numura detalizētas informācijas pārbaude</span><span class="sxs-lookup"><span data-stu-id="977e1-196">Verify Bank document number and Shipment number details</span></span>  
+15. <span data-ttu-id="977e1-197">Noklikšķiniet uz Grāmatot.</span><span class="sxs-lookup"><span data-stu-id="977e1-197">Click Post.</span></span>
+
+## <a name="verify-export-letter-of-credit-after-payment"></a><span data-ttu-id="977e1-198">Kredītvēstules eksportēšanas pārbaude pēc maksājuma izpildes</span><span class="sxs-lookup"><span data-stu-id="977e1-198">Verify Export letter of credit after payment</span></span>
+1. <span data-ttu-id="977e1-199">Dodieties uz Kases un bankas vadība > Akreditīvi > Eksporta akreditatīva un importa iekasēšana.</span><span class="sxs-lookup"><span data-stu-id="977e1-199">Go to Cash and bank management > Letters of credit > Export letter of credit and import collection.</span></span>
+2. <span data-ttu-id="977e1-200">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="977e1-200">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="977e1-201">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="977e1-201">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="977e1-202">Pārbaudiet: Sūtījuma statuss = Maksājums saņemts un bilances summa = 0,00.</span><span class="sxs-lookup"><span data-stu-id="977e1-202">Verify Shipment status = Payment received and balance amount = 0.00.</span></span>  
+
+

@@ -17,29 +17,29 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 731a3ec06efa103ba663df83240c77dfe78bb7cd
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="parameter-configurations-for-retail-statements"></a><span data-ttu-id="7336f-103"> Mazumtirdzniecības izrakstu parametru konfigurācijas</span><span class="sxs-lookup"><span data-stu-id="7336f-103">Parameter configurations for Retail statements</span></span>
+# <a name="parameter-configurations-for-retail-statements"></a><span data-ttu-id="058e0-103"> Mazumtirdzniecības izrakstu parametru konfigurācijas</span><span class="sxs-lookup"><span data-stu-id="058e0-103">Parameter configurations for Retail statements</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="7336f-104">Šajā procedūra ir aprakstītas mazumtirdzniecības parametru konfigurācijas, kas ietekmē mazumtirdzniecības pārskatu izveides un grāmatošanas procesu.</span><span class="sxs-lookup"><span data-stu-id="7336f-104">This procedure demonstrates configurations for Retail parameters that affect how Retail statements get created and posted.</span></span> <span data-ttu-id="7336f-105">Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.</span><span class="sxs-lookup"><span data-stu-id="7336f-105">This procedure uses the USRT demo company.</span></span>
+<span data-ttu-id="058e0-104">Šajā procedūra ir aprakstītas mazumtirdzniecības parametru konfigurācijas, kas ietekmē mazumtirdzniecības pārskatu izveides un grāmatošanas procesu.</span><span class="sxs-lookup"><span data-stu-id="058e0-104">This procedure demonstrates configurations for Retail parameters that affect how Retail statements get created and posted.</span></span> <span data-ttu-id="058e0-105">Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.</span><span class="sxs-lookup"><span data-stu-id="058e0-105">This procedure uses the USRT demo company.</span></span>
 
-1. <span data-ttu-id="7336f-106">Pārejiet uz sadaļu Mazumtirdzniecība un komercija > Centrālā biroja iestatīšana > Parametri > Mazumtirdzniecības parametri.</span><span class="sxs-lookup"><span data-stu-id="7336f-106">Go to Retail and commerce > Headquarters setup  > Parameters > Retail parameters.</span></span>
-2. <span data-ttu-id="7336f-107">Noklikšķiniet uz cilnes Grāmatošana.</span><span class="sxs-lookup"><span data-stu-id="7336f-107">Click the Posting tab.</span></span>
-    * <span data-ttu-id="7336f-108">Atlasiet Jā, ja vēlaties grāmatot tikai periodiskās atlaižu summas.</span><span class="sxs-lookup"><span data-stu-id="7336f-108">Select "Yes" if you want to post the periodic discount amounts specifically.</span></span>  
-    * <span data-ttu-id="7336f-109">Atlasiet Standarta, lai izmantotu noklusējuma kontus, vai atlasiet Periodisks, ja vēlaties definēt, kuru kontu lietot katrai periodiskajai atlaidei.</span><span class="sxs-lookup"><span data-stu-id="7336f-109">Select "Standard" to use default accounts, or select "Periodic" if you want to define which account to use for each periodic discount.</span></span>  
-    * <span data-ttu-id="7336f-110">Atlasiet Kopsavilkums, ja krājuma rindas jāapkopo, kad vien tas ir iespējams.</span><span class="sxs-lookup"><span data-stu-id="7336f-110">Select "Summary" if inventory lines should get aggregated whenever possible.</span></span>  
-    * <span data-ttu-id="7336f-111">Atlasiet Jā, ja rēķini un maksājumi ir automātiski jāapmaksā kā daļa no pārskata grāmatošanas procesa.</span><span class="sxs-lookup"><span data-stu-id="7336f-111">Select "Yes" if Invoices and Payments should get automatically settled as part of the Statement posting process.</span></span>  
-    * <span data-ttu-id="7336f-112">Atlasiet Jā, ja seifa noguldījuma transakcijas ir jāapkopo.</span><span class="sxs-lookup"><span data-stu-id="7336f-112">Select "Yes" if Safe drop transactions should get aggregated.</span></span>  
-    * <span data-ttu-id="7336f-113">Atlasiet Jā, ja bankas noguldījuma transakcijas ir jāapkopo.</span><span class="sxs-lookup"><span data-stu-id="7336f-113">Select "Yes" if Bank drop transactions should get aggregated.</span></span>  
-    * <span data-ttu-id="7336f-114">Atlasiet Jā, lai lieslēgtu apkopojumu parskatu grāmatošanai.</span><span class="sxs-lookup"><span data-stu-id="7336f-114">Select "Yes" to turn aggregation on for Statement posting.</span></span>  
-    * <span data-ttu-id="7336f-115">Atlasiet Jā, lai izveidotu un apstrādātu pasūtījumus, vienlaicīgi grāmatojot pārskatus.</span><span class="sxs-lookup"><span data-stu-id="7336f-115">Select "Yes" to create and process orders in parallel when statements are posted.</span></span>  
-    * <span data-ttu-id="7336f-116">Ievadiet maksimālo apstrādājamo pasūtījumu skaitu katram pakešuzdevumā darbam.</span><span class="sxs-lookup"><span data-stu-id="7336f-116">Enter the maximum orders to be processed in each batch job task.</span></span>  
-3. <span data-ttu-id="7336f-117">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="7336f-117">Click Save.</span></span>
+1. <span data-ttu-id="058e0-106">Pārejiet uz sadaļu Mazumtirdzniecība un komercija > Centrālā biroja iestatīšana > Parametri > Mazumtirdzniecības parametri.</span><span class="sxs-lookup"><span data-stu-id="058e0-106">Go to Retail and commerce > Headquarters setup  > Parameters > Retail parameters.</span></span>
+2. <span data-ttu-id="058e0-107">Noklikšķiniet uz cilnes Grāmatošana.</span><span class="sxs-lookup"><span data-stu-id="058e0-107">Click the Posting tab.</span></span>
+    * <span data-ttu-id="058e0-108">Atlasiet Jā, ja vēlaties grāmatot tikai periodiskās atlaižu summas.</span><span class="sxs-lookup"><span data-stu-id="058e0-108">Select "Yes" if you want to post the periodic discount amounts specifically.</span></span>  
+    * <span data-ttu-id="058e0-109">Atlasiet Standarta, lai izmantotu noklusējuma kontus, vai atlasiet Periodisks, ja vēlaties definēt, kuru kontu lietot katrai periodiskajai atlaidei.</span><span class="sxs-lookup"><span data-stu-id="058e0-109">Select "Standard" to use default accounts, or select "Periodic" if you want to define which account to use for each periodic discount.</span></span>  
+    * <span data-ttu-id="058e0-110">Atlasiet Kopsavilkums, ja krājuma rindas jāapkopo, kad vien tas ir iespējams.</span><span class="sxs-lookup"><span data-stu-id="058e0-110">Select "Summary" if inventory lines should get aggregated whenever possible.</span></span>  
+    * <span data-ttu-id="058e0-111">Atlasiet Jā, ja rēķini un maksājumi ir automātiski jāapmaksā kā daļa no pārskata grāmatošanas procesa.</span><span class="sxs-lookup"><span data-stu-id="058e0-111">Select "Yes" if Invoices and Payments should get automatically settled as part of the Statement posting process.</span></span>  
+    * <span data-ttu-id="058e0-112">Atlasiet Jā, ja seifa noguldījuma transakcijas ir jāapkopo.</span><span class="sxs-lookup"><span data-stu-id="058e0-112">Select "Yes" if Safe drop transactions should get aggregated.</span></span>  
+    * <span data-ttu-id="058e0-113">Atlasiet Jā, ja bankas noguldījuma transakcijas ir jāapkopo.</span><span class="sxs-lookup"><span data-stu-id="058e0-113">Select "Yes" if Bank drop transactions should get aggregated.</span></span>  
+    * <span data-ttu-id="058e0-114">Atlasiet Jā, lai lieslēgtu apkopojumu parskatu grāmatošanai.</span><span class="sxs-lookup"><span data-stu-id="058e0-114">Select "Yes" to turn aggregation on for Statement posting.</span></span>  
+    * <span data-ttu-id="058e0-115">Atlasiet Jā, lai izveidotu un apstrādātu pasūtījumus, vienlaicīgi grāmatojot pārskatus.</span><span class="sxs-lookup"><span data-stu-id="058e0-115">Select "Yes" to create and process orders in parallel when statements are posted.</span></span>  
+    * <span data-ttu-id="058e0-116">Ievadiet maksimālo apstrādājamo pasūtījumu skaitu katram pakešuzdevumā darbam.</span><span class="sxs-lookup"><span data-stu-id="058e0-116">Enter the maximum orders to be processed in each batch job task.</span></span>  
+3. <span data-ttu-id="058e0-117">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="058e0-117">Click Save.</span></span>
 
 

@@ -1,0 +1,100 @@
+--- 
+title: "Pārdošanas komisijas kārtulu iestatīšana"
+description: "Šajā procedūrā parādīts, kā iestatīt un aktivizēt pārdošanas komisijas naudas aprēķināšanu un izsekošanu."
+author: omulvad
+manager: AnnBe
+ms.date: 11/10/2016
+ms.topic: business-process
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+audience: Application User
+ms.reviewer: kfend
+ms.search.scope: Operations
+ms.search.region: Global
+ms.author: omulvad
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: AX 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 8d81765884f741443d1c0f5b0cb8bc545945e1a1
+ms.contentlocale: lv-lv
+ms.lasthandoff: 09/29/2017
+
+---
+# <a name="set-up-sales-commission-rules"></a><span data-ttu-id="8497c-103">Pārdošanas komisijas kārtulu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="8497c-103">Set up sales commission rules</span></span>
+
+[!include[task guide banner](../../includes/task-guide-banner.md)]
+
+<span data-ttu-id="8497c-104">Šajā procedūrā parādīts, kā iestatīt un aktivizēt pārdošanas komisijas naudas aprēķināšanu un izsekošanu.</span><span class="sxs-lookup"><span data-stu-id="8497c-104">This procedure shows you how to set up and enable sales commission calculation and tracking.</span></span> <span data-ttu-id="8497c-105">Procedūrā parādīts, kā izveidot debitora un krājuma komisijas grupas un pēc tam, kā atlasīto debitoru un preci saistīt ar attiecīgo grupu.</span><span class="sxs-lookup"><span data-stu-id="8497c-105">The procedure shows how to create both customer and item commission groups, and then how to link a selected customer and product to the respective groups.</span></span> <span data-ttu-id="8497c-106">Pēc tam šīs grupas tiek lietotas komisijas aprēķina iestatīšanā, lai izveidotu debitora, krājuma un pārdošanas pārstāvja kombināciju, kam jāatbilst pārdošanas pasūtījumam, lai piešķirtu pārdevējiem tiesības uz komisiju.</span><span class="sxs-lookup"><span data-stu-id="8497c-106">Those groups are then used in the commission calculation setup to create a customer, item, and sales representatives combination that must be matched by the sales order to entitle the sales people to a commission.</span></span> <span data-ttu-id="8497c-107">Izveidot debitora un krājuma komisijas grupas nav obligāti, jo komisijas naudas aprēķinu var veikt arī atsevišķam debitoram un/vai krājumam.</span><span class="sxs-lookup"><span data-stu-id="8497c-107">Creating customer and item commission groups are optional, as the calculation of commission can also be done for an individual customer and/or item.</span></span> <span data-ttu-id="8497c-108">Šo procedūru varat izpildīt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.</span><span class="sxs-lookup"><span data-stu-id="8497c-108">You can run this procedure in demo data company USMF or on your own data.</span></span>
+
+
+## <a name="set-up-commission-groups-and-commission-rates"></a><span data-ttu-id="8497c-109">Komisijas grupu un komisiju likmju iestatīšana</span><span class="sxs-lookup"><span data-stu-id="8497c-109">Set up commission groups and commission rates</span></span>
+1. <span data-ttu-id="8497c-110">Pārejiet uz sadaļu Pārdošana un mārketings > Komisijas > Komisijas debitoru grupas.</span><span class="sxs-lookup"><span data-stu-id="8497c-110">Go to Sales and marketing > Commissions > Customer groups for commission.</span></span>
+2. <span data-ttu-id="8497c-111">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="8497c-111">Click New.</span></span>
+3. <span data-ttu-id="8497c-112">Laukā Grupa ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="8497c-112">In the Group field, type a value.</span></span>
+4. <span data-ttu-id="8497c-113">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="8497c-113">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="8497c-114">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="8497c-114">Click Save.</span></span>
+6. <span data-ttu-id="8497c-115">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="8497c-115">Close the page.</span></span>
+7. <span data-ttu-id="8497c-116">Pārejiet uz sadaļu Pārdošana un mārketings > Komisijas > Krājumu grupas.</span><span class="sxs-lookup"><span data-stu-id="8497c-116">Go to Sales and marketing > Commissions > Item groups.</span></span>
+8. <span data-ttu-id="8497c-117">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="8497c-117">Click New.</span></span>
+9. <span data-ttu-id="8497c-118">Laukā Grupa ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="8497c-118">In the Group field, type a value.</span></span>
+10. <span data-ttu-id="8497c-119">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="8497c-119">In the Name field, type a value.</span></span>
+11. <span data-ttu-id="8497c-120">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="8497c-120">Close the page.</span></span>
+12. <span data-ttu-id="8497c-121">Pārejiet uz sadaļu Pārdošana un mārketings > Komisijas > Pārdošanas grupas.</span><span class="sxs-lookup"><span data-stu-id="8497c-121">Go to Sales and marketing > Commissions > Sales groups.</span></span>
+    * <span data-ttu-id="8497c-122">Komisijas pārdošanas grupā norādīti darbinieki pārdošanas pārstāvja lomās, kas ir tiesīgi saņemt komisiju, kad debitors, kas saistīts ar attiecīgo pārdošanas grupu, pērk noteiktus krājumus.</span><span class="sxs-lookup"><span data-stu-id="8497c-122">A Commission sales group specifies the employees in sales representative roles who are eligible to receive a commission when a customer associated with the relevant sales group buys certain items.</span></span>  
+    * <span data-ttu-id="8497c-123">USMF demonstrācijas datu uzņēmumā ir pārdošanas grupa ar nosaukumu "Tirdzniecības pārstāvji ASV".</span><span class="sxs-lookup"><span data-stu-id="8497c-123">In the USMF demo data company, there is a sales group called "Sales reps US."</span></span>  
+13. <span data-ttu-id="8497c-124">Darbību rūtī noklikšķiniet uz Vispārīgi.</span><span class="sxs-lookup"><span data-stu-id="8497c-124">On the Action Pane, click General.</span></span>
+14. <span data-ttu-id="8497c-125">Noklikšķiniet uz Tirdzn. pārstāvis.</span><span class="sxs-lookup"><span data-stu-id="8497c-125">Click Sales rep..</span></span>
+    * <span data-ttu-id="8497c-126">Lapā Tirdzn. pārstāvis ir redzams to uzņēmuma pārdevēju saraksts, kuri ir saistīti ar konkrēto komisijas grupu.</span><span class="sxs-lookup"><span data-stu-id="8497c-126">The Sales rep. page displays a list of the company's sales people who are associated with a specific commission group.</span></span> <span data-ttu-id="8497c-127">Vairākus pārdošanas pārstāvjus var piešķirt vienai grupai un noteikt to attiecīgo daļu kopējā komisijā kā procentuālu vērtību.</span><span class="sxs-lookup"><span data-stu-id="8497c-127">You can assign multiple sales representatives to the same group and define their respective share of the total commission fee as a percentage value.</span></span> <span data-ttu-id="8497c-128">Visu darbinieku kopējā komisija nedrīkst pārsniegt 100.</span><span class="sxs-lookup"><span data-stu-id="8497c-128">The total commission share across all employees must not exceed 100.</span></span>  
+15. <span data-ttu-id="8497c-129">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="8497c-129">In the list, mark the selected row.</span></span>
+16. <span data-ttu-id="8497c-130">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="8497c-130">Click Edit.</span></span>
+17. <span data-ttu-id="8497c-131">Iestatiet Komisijas daļa uz "50".</span><span class="sxs-lookup"><span data-stu-id="8497c-131">Set Commission share to '50'.</span></span>
+18. <span data-ttu-id="8497c-132">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="8497c-132">Click New.</span></span>
+19. <span data-ttu-id="8497c-133">Laukā Nosaukums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="8497c-133">In the Name field, click the drop-down button to open the lookup.</span></span>
+20. <span data-ttu-id="8497c-134">Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus.</span><span class="sxs-lookup"><span data-stu-id="8497c-134">Use the Quick Filter to find records.</span></span> <span data-ttu-id="8497c-135">Piemēram, filtrējiet pēc lauka Nosaukums, izmantojot vērtību “Susan Burk”.</span><span class="sxs-lookup"><span data-stu-id="8497c-135">For example, filter on the Name field with a value of 'Susan Burk'.</span></span>
+21. <span data-ttu-id="8497c-136">Noklikšķiniet uz Atlasīt.</span><span class="sxs-lookup"><span data-stu-id="8497c-136">Click Select.</span></span>
+22. <span data-ttu-id="8497c-137">Iestatiet Komisijas daļa uz "50".</span><span class="sxs-lookup"><span data-stu-id="8497c-137">Set Commission share to '50'.</span></span>
+23. <span data-ttu-id="8497c-138">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="8497c-138">Click Save.</span></span>
+24. <span data-ttu-id="8497c-139">Pārejiet uz sadaļu Pārdošana un mārketings > Komisijas > Komisijas naudas aprēķins.</span><span class="sxs-lookup"><span data-stu-id="8497c-139">Go to Sales and marketing > Commissions > Commission calculation.</span></span>
+    * <span data-ttu-id="8497c-140">Laukā Komisijas naudas aprēķins jūs nosakāt komisijas likmi, kura darbiniekam ir jāsaņem par pārdošanas transakciju, ja tā satur iepriekš iestatīto debitora un preces kombināciju.</span><span class="sxs-lookup"><span data-stu-id="8497c-140">In the Commission calculation page you define the commission rate that the employee is to receive for a sales transaction when it contains the pre-set combination of customer and product.</span></span> <span data-ttu-id="8497c-141">Kā daļu no komisijas iestatīšanas jums jānorāda komisijas aprēķina pamats un vai tai vajadzētu iekļaut vai izslēgt atlaides.</span><span class="sxs-lookup"><span data-stu-id="8497c-141">As part of the commission rate setup, you must specify the commission calculation basis and whether it should include or exclude discounts.</span></span> <span data-ttu-id="8497c-142">Varat ievadīt arī derīguma termiņu, kura laikā komisijas likme ir aktīva.</span><span class="sxs-lookup"><span data-stu-id="8497c-142">You can also enter a validity period for when the commission rate is active.</span></span>  
+25. <span data-ttu-id="8497c-143">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="8497c-143">Click New.</span></span>
+26. <span data-ttu-id="8497c-144">Laukā Krājuma kods atlasiet Grupa.</span><span class="sxs-lookup"><span data-stu-id="8497c-144">In the Item code field, select 'Group'.</span></span>
+27. <span data-ttu-id="8497c-145">Laukā Krājumu saistība noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="8497c-145">In the Item relation field, click the drop-down button to open the lookup.</span></span>
+28. <span data-ttu-id="8497c-146">Sarakstā atrodiet un atlasiet grupu, kuru izveidojāt agrāk.</span><span class="sxs-lookup"><span data-stu-id="8497c-146">In the list, find and select the group that you created earlier.</span></span>
+29. <span data-ttu-id="8497c-147">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="8497c-147">In the list, click the link in the selected row.</span></span>
+30. <span data-ttu-id="8497c-148">Laukā Debitora kods atlasiet "Grupa".</span><span class="sxs-lookup"><span data-stu-id="8497c-148">In the Customer code field, select 'Group'.</span></span>
+31. <span data-ttu-id="8497c-149">Laukā Debitors/grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="8497c-149">In the Customer relation field, click the drop-down button to open the lookup.</span></span>
+32. <span data-ttu-id="8497c-150">Sarakstā atlasiet grupu, kuru iestatījāt agrāk.</span><span class="sxs-lookup"><span data-stu-id="8497c-150">In the list, select the group that you set up earlier.</span></span>
+33. <span data-ttu-id="8497c-151">Laukā Tirdzn. pārst./grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu. </span><span class="sxs-lookup"><span data-stu-id="8497c-151">In the Sales rep. relation field, click the drop-down button to open the lookup.</span></span>
+34. <span data-ttu-id="8497c-152">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="8497c-152">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="8497c-153">Paturiet opciju "Pirms rindas atlaides".</span><span class="sxs-lookup"><span data-stu-id="8497c-153">Keep the "Before line discount" option.</span></span>  
+    * <span data-ttu-id="8497c-154">Paturiet opciju "Ieņēmumi" kā komisijas vērtības aprēķina pamatu.</span><span class="sxs-lookup"><span data-stu-id="8497c-154">Keep the "Revenue" option as the basis for commission value calculation.</span></span>    
+35. <span data-ttu-id="8497c-155">Laukā Komisijas nauda procentos ievadiet kādu skaitli.</span><span class="sxs-lookup"><span data-stu-id="8497c-155">In the Commission percentage field, enter a number.</span></span>
+36. <span data-ttu-id="8497c-156">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="8497c-156">Click Save.</span></span>
+
+## <a name="setting-up-commission-posting"></a><span data-ttu-id="8497c-157">Komisijas naudas grāmatošanas iestatīšana</span><span class="sxs-lookup"><span data-stu-id="8497c-157">Setting up commission posting</span></span>
+1. <span data-ttu-id="8497c-158">Pārejiet uz sadaļu Pārdošana un mārketings > Komisijas > Komisijas naudas grāmatošana.</span><span class="sxs-lookup"><span data-stu-id="8497c-158">Go to Sales and marketing > Commissions > Commission posting.</span></span>
+    * <span data-ttu-id="8497c-159">Komisijas naudas ir jāmaksā darbiniekiem, un tāpēc tās jāiestata tā, lai nodrošinātu pareizu finanšu grāmatošanu atbilstošos Virsgrāmatas kontos.</span><span class="sxs-lookup"><span data-stu-id="8497c-159">Commission fees are payable to the employees and must therefore be set up to ensure correct financial posting to the appropriate accounts in the General ledger.</span></span> <span data-ttu-id="8497c-160">Tas tiek darīts lapā Komisijas grāmatošana.</span><span class="sxs-lookup"><span data-stu-id="8497c-160">This is done in the Commission posting page.</span></span> <span data-ttu-id="8497c-161">Pārskatiet iestatījumus, kas ir pieejami pašreizējam uzņēmumam.</span><span class="sxs-lookup"><span data-stu-id="8497c-161">Review the setup that is available for the current company.</span></span> <span data-ttu-id="8497c-162">Parasti komisijas summas tiek grāmatotas speciālā izdevumu kontā un tiek nosegtas ar speciālu kreditoru kontu.</span><span class="sxs-lookup"><span data-stu-id="8497c-162">Typically, the commission amounts are posted to a dedicated expense account and are offset to a dedicated payable account.</span></span> <span data-ttu-id="8497c-163">Ja jums nav komisijas grāmatošanas noteikumu iestatījumu, sistēmai neizdosies veikt rēķina izrakstīšanu pārdošanas pasūtījumam, kam piemērojama komisija.</span><span class="sxs-lookup"><span data-stu-id="8497c-163">If you don't have the commission posting rules set up, the system will fail to complete invoicing of a sales order which has eligible commissions.</span></span>  
+2. <span data-ttu-id="8497c-164">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="8497c-164">Close the page.</span></span>
+
+## <a name="assign-a-commission-group-to-a-customer-and-a-product"></a><span data-ttu-id="8497c-165">Komisijas grupas piešķiršana debitoram un precei</span><span class="sxs-lookup"><span data-stu-id="8497c-165">Assign a commission group to a customer and a product</span></span>
+1. <span data-ttu-id="8497c-166">Pārejiet uz sadaļu Pārdošana un mārketings > Debitori > Visi debitori.</span><span class="sxs-lookup"><span data-stu-id="8497c-166">Go to Sales and marketing > Customers > All customers.</span></span>
+2. <span data-ttu-id="8497c-167">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="8497c-167">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="8497c-168">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="8497c-168">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="8497c-169">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="8497c-169">Click Edit.</span></span>
+5. <span data-ttu-id="8497c-170">Izvērsiet sadaļu Pārdošanas pasūtījuma noklusējuma informācija.</span><span class="sxs-lookup"><span data-stu-id="8497c-170">Expand the Sales order defaults section.</span></span>
+6. <span data-ttu-id="8497c-171">Laukā Komisijas grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="8497c-171">In the Commission group field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="8497c-172">Sarakstā atlasiet grupu, kuru izveidojāt agrāk.</span><span class="sxs-lookup"><span data-stu-id="8497c-172">In the list, select the group that you created earlier.</span></span>
+8. <span data-ttu-id="8497c-173">Laukā Pārdošanas grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="8497c-173">In the Sales group field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="8497c-174">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="8497c-174">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="8497c-175">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="8497c-175">Click Save.</span></span>
+11. <span data-ttu-id="8497c-176">Pārejiet uz sadaļu Preču informācijas pārvaldība > Preces > Izlaistās preces.</span><span class="sxs-lookup"><span data-stu-id="8497c-176">Go to Product information management > Products > Released products.</span></span>
+12. <span data-ttu-id="8497c-177">Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus.</span><span class="sxs-lookup"><span data-stu-id="8497c-177">Use the Quick Filter to find records.</span></span> <span data-ttu-id="8497c-178">Piemēram, filtrējiet pēc lauka Krājuma numurs, izmantojot vērtību "T0020".</span><span class="sxs-lookup"><span data-stu-id="8497c-178">For example, filter on the Item number field with a value of 'T0020 '.</span></span>
+13. <span data-ttu-id="8497c-179">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="8497c-179">In the list, click the link in the selected row.</span></span>
+14. <span data-ttu-id="8497c-180">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="8497c-180">Click Edit.</span></span>
+15. <span data-ttu-id="8497c-181">Izvērsiet sadaļu Pārdot.</span><span class="sxs-lookup"><span data-stu-id="8497c-181">Expand the Sell section.</span></span>
+16. <span data-ttu-id="8497c-182">Laukā Komisijas grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="8497c-182">In the Commission group field, click the drop-down button to open the lookup.</span></span>
+17. <span data-ttu-id="8497c-183">Sarakstā atlasiet komisijas grupu, kuru izveidojāt agrāk.</span><span class="sxs-lookup"><span data-stu-id="8497c-183">In the list, select the commission group that you created earlier.</span></span>
+
+

@@ -17,49 +17,49 @@ ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: e35915d2300755249ecd54bf2e4939d3a8df4f61
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="design-the-relationships-between-organizational-units"></a><span data-ttu-id="a14e8-103"> Organizācijas struktūrvienību attiecību izstrāde</span><span class="sxs-lookup"><span data-stu-id="a14e8-103">Design the relationships between organizational units</span></span>
+# <a name="design-the-relationships-between-organizational-units"></a><span data-ttu-id="08572-103"> Organizācijas struktūrvienību attiecību izstrāde</span><span class="sxs-lookup"><span data-stu-id="08572-103">Design the relationships between organizational units</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="a14e8-104">Šajā procedūrā ir aprakstīts, kā noformēt attiecības starp organizācijas vienībām.</span><span class="sxs-lookup"><span data-stu-id="a14e8-104">This procedure walks through how to design the relationship between organizational units.</span></span> <span data-ttu-id="a14e8-105">Pirms definējat attiecības, ir jāizveido jauns organizācijas nolūks, vai varat izmantot jau esošo organizācijas nolūku.</span><span class="sxs-lookup"><span data-stu-id="a14e8-105">You must create a new organization purpose before defining the relationship, or you can use the existing organization purpose.</span></span> <span data-ttu-id="a14e8-106">Demonstrācijas datu uzņēmums, kas tiek izmantots šīs procedūras izpildei, ir USRT.</span><span class="sxs-lookup"><span data-stu-id="a14e8-106">The demo data company used to complete this procedure is USRT.</span></span> <span data-ttu-id="a14e8-107">Šis uzdevums ir paredzēts lietotajiem ar administratora lomu.</span><span class="sxs-lookup"><span data-stu-id="a14e8-107">This task is intended for the administrator role.</span></span>
+<span data-ttu-id="08572-104">Šajā procedūrā ir aprakstīts, kā noformēt attiecības starp organizācijas vienībām.</span><span class="sxs-lookup"><span data-stu-id="08572-104">This procedure walks through how to design the relationship between organizational units.</span></span> <span data-ttu-id="08572-105">Pirms definējat attiecības, ir jāizveido jauns organizācijas nolūks, vai varat izmantot jau esošo organizācijas nolūku.</span><span class="sxs-lookup"><span data-stu-id="08572-105">You must create a new organization purpose before defining the relationship, or you can use the existing organization purpose.</span></span> <span data-ttu-id="08572-106">Demonstrācijas datu uzņēmums, kas tiek izmantots šīs procedūras izpildei, ir USRT.</span><span class="sxs-lookup"><span data-stu-id="08572-106">The demo data company used to complete this procedure is USRT.</span></span> <span data-ttu-id="08572-107">Šis uzdevums ir paredzēts lietotajiem ar administratora lomu.</span><span class="sxs-lookup"><span data-stu-id="08572-107">This task is intended for the administrator role.</span></span>
 
-1. <span data-ttu-id="a14e8-108">Dodieties uz Organizācijas administrēšana > Organizācijas > Organizāciju hierarhijas.</span><span class="sxs-lookup"><span data-stu-id="a14e8-108">Go to Organization administration > Organizations > Organization hierarchies.</span></span>
-2. <span data-ttu-id="a14e8-109">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="a14e8-109">Click New.</span></span>
-3. <span data-ttu-id="a14e8-110">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a14e8-110">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="a14e8-111">Noklikšķiniet uz Piešķirt nolūku.</span><span class="sxs-lookup"><span data-stu-id="a14e8-111">Click Assign purpose.</span></span>
-5. <span data-ttu-id="a14e8-112">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="a14e8-112">In the list, find and select the desired record.</span></span>
-6. <span data-ttu-id="a14e8-113">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="a14e8-113">Click Add.</span></span>
-7. <span data-ttu-id="a14e8-114">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="a14e8-114">In the list, find and select the desired record.</span></span>
-8. <span data-ttu-id="a14e8-115">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="a14e8-115">Click OK.</span></span>
-    * <span data-ttu-id="a14e8-116">Varat atlasīt tādu skaitu organizācijas nolūku, cik nepieciešams jūsu organizācijai.</span><span class="sxs-lookup"><span data-stu-id="a14e8-116">You can select as many organization purposes as required for your organization.</span></span>  
-9. <span data-ttu-id="a14e8-117">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="a14e8-117">In the list, find and select the desired record.</span></span>
-10. <span data-ttu-id="a14e8-118">Noklikšķiniet uz Iestatīt kā noklusējumu.</span><span class="sxs-lookup"><span data-stu-id="a14e8-118">Click Set as default.</span></span>
-11. <span data-ttu-id="a14e8-119">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="a14e8-119">Close the page.</span></span>
-12. <span data-ttu-id="a14e8-120">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="a14e8-120">Click Save.</span></span>
-13. <span data-ttu-id="a14e8-121">Noklikšķiniet uz Skatīt.</span><span class="sxs-lookup"><span data-stu-id="a14e8-121">Click View.</span></span>
-14. <span data-ttu-id="a14e8-122">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="a14e8-122">Click Edit.</span></span>
-15. <span data-ttu-id="a14e8-123">Klikšķiniet Ievietot.</span><span class="sxs-lookup"><span data-stu-id="a14e8-123">Click Insert.</span></span>
-16. <span data-ttu-id="a14e8-124">Noklikšķiniet uz Biznesa vienība.</span><span class="sxs-lookup"><span data-stu-id="a14e8-124">Click Business unit.</span></span>
-17. <span data-ttu-id="a14e8-125">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="a14e8-125">In the list, find and select the desired record.</span></span>
-18. <span data-ttu-id="a14e8-126">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="a14e8-126">In the list, click the link in the selected row.</span></span>
-19. <span data-ttu-id="a14e8-127">Klikšķiniet Ievietot.</span><span class="sxs-lookup"><span data-stu-id="a14e8-127">Click Insert.</span></span>
-20. <span data-ttu-id="a14e8-128">Noklikšķiniet uz Mazumtirdzniecības kanāls.</span><span class="sxs-lookup"><span data-stu-id="a14e8-128">Click Retail channel.</span></span>
-21. <span data-ttu-id="a14e8-129">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="a14e8-129">In the list, find and select the desired record.</span></span>
-22. <span data-ttu-id="a14e8-130">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="a14e8-130">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="a14e8-131">Varat pievienot tik daudz organizācijas vienību, cik nepieciešams.</span><span class="sxs-lookup"><span data-stu-id="a14e8-131">You can add as many organization units as is required.</span></span>  
-23. <span data-ttu-id="a14e8-132">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="a14e8-132">Click Save.</span></span>
-24. <span data-ttu-id="a14e8-133">Noklikšķiniet uz Aizvērt.</span><span class="sxs-lookup"><span data-stu-id="a14e8-133">Click Close.</span></span>
-25. <span data-ttu-id="a14e8-134">Noklikšķiniet uz Publicēt, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="a14e8-134">Click Publish to open the drop dialog.</span></span>
-26. <span data-ttu-id="a14e8-135">Laukā Spēkā stāšanās datums ievadiet datumu un laiku.</span><span class="sxs-lookup"><span data-stu-id="a14e8-135">In the Effective date field, enter a date and time.</span></span>
-27. <span data-ttu-id="a14e8-136">Laukā Spēkā stāšanās datums ievadiet datumu un laiku.</span><span class="sxs-lookup"><span data-stu-id="a14e8-136">In the Effective date field, enter a date and time.</span></span>
-28. <span data-ttu-id="a14e8-137">Laukā Aprakstīt izmaiņas ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="a14e8-137">In the Describe changes field, type a value.</span></span>
-29. <span data-ttu-id="a14e8-138">Noklikšķiniet uz Publicēt.</span><span class="sxs-lookup"><span data-stu-id="a14e8-138">Click Publish.</span></span>
-30. <span data-ttu-id="a14e8-139">Noklikšķiniet uz Aizvērt.</span><span class="sxs-lookup"><span data-stu-id="a14e8-139">Click Close.</span></span>
+1. <span data-ttu-id="08572-108">Dodieties uz Organizācijas administrēšana > Organizācijas > Organizāciju hierarhijas.</span><span class="sxs-lookup"><span data-stu-id="08572-108">Go to Organization administration > Organizations > Organization hierarchies.</span></span>
+2. <span data-ttu-id="08572-109">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="08572-109">Click New.</span></span>
+3. <span data-ttu-id="08572-110">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="08572-110">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="08572-111">Noklikšķiniet uz Piešķirt nolūku.</span><span class="sxs-lookup"><span data-stu-id="08572-111">Click Assign purpose.</span></span>
+5. <span data-ttu-id="08572-112">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="08572-112">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="08572-113">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="08572-113">Click Add.</span></span>
+7. <span data-ttu-id="08572-114">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="08572-114">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="08572-115">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="08572-115">Click OK.</span></span>
+    * <span data-ttu-id="08572-116">Varat atlasīt tādu skaitu organizācijas nolūku, cik nepieciešams jūsu organizācijai.</span><span class="sxs-lookup"><span data-stu-id="08572-116">You can select as many organization purposes as required for your organization.</span></span>  
+9. <span data-ttu-id="08572-117">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="08572-117">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="08572-118">Noklikšķiniet uz Iestatīt kā noklusējumu.</span><span class="sxs-lookup"><span data-stu-id="08572-118">Click Set as default.</span></span>
+11. <span data-ttu-id="08572-119">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="08572-119">Close the page.</span></span>
+12. <span data-ttu-id="08572-120">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="08572-120">Click Save.</span></span>
+13. <span data-ttu-id="08572-121">Noklikšķiniet uz Skatīt.</span><span class="sxs-lookup"><span data-stu-id="08572-121">Click View.</span></span>
+14. <span data-ttu-id="08572-122">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="08572-122">Click Edit.</span></span>
+15. <span data-ttu-id="08572-123">Klikšķiniet Ievietot.</span><span class="sxs-lookup"><span data-stu-id="08572-123">Click Insert.</span></span>
+16. <span data-ttu-id="08572-124">Noklikšķiniet uz Biznesa vienība.</span><span class="sxs-lookup"><span data-stu-id="08572-124">Click Business unit.</span></span>
+17. <span data-ttu-id="08572-125">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="08572-125">In the list, find and select the desired record.</span></span>
+18. <span data-ttu-id="08572-126">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="08572-126">In the list, click the link in the selected row.</span></span>
+19. <span data-ttu-id="08572-127">Klikšķiniet Ievietot.</span><span class="sxs-lookup"><span data-stu-id="08572-127">Click Insert.</span></span>
+20. <span data-ttu-id="08572-128">Noklikšķiniet uz Mazumtirdzniecības kanāls.</span><span class="sxs-lookup"><span data-stu-id="08572-128">Click Retail channel.</span></span>
+21. <span data-ttu-id="08572-129">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="08572-129">In the list, find and select the desired record.</span></span>
+22. <span data-ttu-id="08572-130">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="08572-130">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="08572-131">Varat pievienot tik daudz organizācijas vienību, cik nepieciešams.</span><span class="sxs-lookup"><span data-stu-id="08572-131">You can add as many organization units as is required.</span></span>  
+23. <span data-ttu-id="08572-132">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="08572-132">Click Save.</span></span>
+24. <span data-ttu-id="08572-133">Noklikšķiniet uz Aizvērt.</span><span class="sxs-lookup"><span data-stu-id="08572-133">Click Close.</span></span>
+25. <span data-ttu-id="08572-134">Noklikšķiniet uz Publicēt, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="08572-134">Click Publish to open the drop dialog.</span></span>
+26. <span data-ttu-id="08572-135">Laukā Spēkā stāšanās datums ievadiet datumu un laiku.</span><span class="sxs-lookup"><span data-stu-id="08572-135">In the Effective date field, enter a date and time.</span></span>
+27. <span data-ttu-id="08572-136">Laukā Spēkā stāšanās datums ievadiet datumu un laiku.</span><span class="sxs-lookup"><span data-stu-id="08572-136">In the Effective date field, enter a date and time.</span></span>
+28. <span data-ttu-id="08572-137">Laukā Aprakstīt izmaiņas ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="08572-137">In the Describe changes field, type a value.</span></span>
+29. <span data-ttu-id="08572-138">Noklikšķiniet uz Publicēt.</span><span class="sxs-lookup"><span data-stu-id="08572-138">Click Publish.</span></span>
+30. <span data-ttu-id="08572-139">Noklikšķiniet uz Aizvērt.</span><span class="sxs-lookup"><span data-stu-id="08572-139">Click Close.</span></span>
 
 
