@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
-ms.openlocfilehash: 46eacb2a01c3bfcc7144c7d8c39ee0189fd72e16
+ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
+ms.openlocfilehash: 7fe11966b27eb0793a47835e05e465d809bf3407
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -42,7 +42,7 @@ Tīmekļa programmu var palaist jebkurā no tālāk uzskaitītajām tīmekļa p�
 Lai atrastu katras tīmekļa pārlūkprogrammas visjaunāko laidienu, dodieties uz programmatūras ražotāja vietni. 
 
 > [!NOTE]
-> -   Lai uzdevumu ierakstītājam atļautu ekrānuzņēmuma attēlu tveršanu un iekļaušanu ģenerētajos Microsoft Word dokumentos, jāinstalē Chrome paplašinājuma pirmsizlaides versija. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder).-->
+> -   Lai uzdevumu ierakstītājam atļautu ekrānuzņēmuma attēlu tveršanu un iekļaušanu ģenerētajos Microsoft Word dokumentos, jāinstalē Chrome paplašinājuma pirmsizlaides versija. <!---For instructions about how to install the extension, see [Screenshot Extension setup](../../dev-itpro/user-interface/task-recorder).-->
 > -   Darbplūsmas redaktors tiek startēts kā ClickOnce programma. ClickOnce programmas atbalsta tikai Microsoft Edge un Internet Explorer (atbalstītā Microsoft Windows versijā). Darbplūsmas redaktora ClickOnce programmai ir nepieciešama 64 bitu saderīga operētājsistēma.
 > -   Pārskatu noformētājs finanšu pārskatiem tiek startēts kā ClickOnce programma. Tam ir nepieciešama saderīga 64 bitu operētājsistēma. Ja lietojat pārlūkprogrammu Chrome, lai varētu lejupielādēt pārskatu veidošanas klientu, ir jāinstalē paplašinājums ClickOnce. Ja lietojat pārlūkprogrammu Chrome inkognito režīmā, pārliecinieties, ka paplašinājums ClickOnce ir arī iespējots inkognito režīmā.
 > -   Lai priekšskatītu PDF failus, ieteicams izmantot modernas pārlūkprogrammas, piemēram, Microsoft Edge (jaunāko publiski pieejamo versiju) operētājsistēmā Windows 10 vai Google Chrome (jaunāko publiski pieejamo versiju) operētājsistēmā Windows 10, Windows 8.1, Windows 8, Windows 7 vai Google Nexus 10 planšetdatoros.
@@ -70,7 +70,7 @@ Programmai Finance and Operations ir nepieciešama Microsoft .NET Framework vers
 ## <a name="supported-microsoft-office-applications"></a>Atbalstītās Microsoft Office programmas
 Finance and Operations mākoņa un lokālajos izvietojumos tiek atbalstītas tālāk norādītās Microsoft Office programmas.
 
--   Lai palaistu Microsoft Excel un Word pievienojumprogrammas, jābūt instalētai programmai Microsoft Office 2016 operētājsistēmai Windows vai Mac. Plašāku informāciju par versijas prasībām skatiet sadaļā [Office integrācijas problēmu novēršana](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting).
+-   Lai palaistu Microsoft Excel un Word pievienojumprogrammas, jābūt instalētai programmai Microsoft Office 2016 operētājsistēmai Windows vai Mac. Plašāku informāciju par versijas prasībām skatiet sadaļā [Office integrācijas problēmu novēršana](../../dev-itpro/office-integration/office-integration-troubleshooting.md).
 -   Lai skatītu dokumentus, kas izveidoti, izmantojot funkcijas Eksportēt programmā Excel vai Eksportēt programmā Word, ir jābūt instalētai programmai Microsoft Office 2007 vai jaunākai versijai.
 
 ## <a name="retail-modern-pos-requirements"></a>Retail Modern POS prasības
@@ -153,10 +153,10 @@ Datoram ir jāatbilst visām sistēmas prasībām tālāk minēto vienumu instal
 -   Vismaz 10 GB brīvās vietas (Kanāla datu bāzei var būt nepieciešams lielāks vietas daudzums.)
 
 ## <a name="requirements-for-development-on-local-vms"></a>Prasības izstrādei lokālās virtuālajās mašīnās
-Informāciju par prasībām attiecībā uz izstrādi vietējās virtuālajās mašīnās (VM) skatiet sadaļā [VM, kuras darbojas lokāli](../dev-tools/access-instances.md).
+Informāciju par prasībām attiecībā uz izstrādi vietējās virtuālajās mašīnās (VM) skatiet sadaļā [VM, kuras darbojas lokāli](../../dev-itpro/dev-tools/access-instances.md).
 
 
 ## <a name="see-also"></a>Skatiet arī
 
-[Iegūt Dynamics 365 for Finance and Operations izdevuma Enterprise iepazīšanās kopiju](/dynamics365/unified-operations/dev-itpro/dev-tools/get-evaluation-copy)
+[Iegūt Dynamics 365 for Finance and Operations izdevuma Enterprise iepazīšanās kopiju](../../dev-itpro/dev-tools/get-evaluation-copy.md)
 

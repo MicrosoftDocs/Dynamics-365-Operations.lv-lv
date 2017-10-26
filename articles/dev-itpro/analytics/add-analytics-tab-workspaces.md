@@ -13,14 +13,14 @@ ms.reviewer: robinr
 ms.search.scope: Operations, Platform, UnifiedOperations
 ms.search.region: Global
 ms.author: tjvass
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.intro: Platform update 8
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: e819aafbdf55fbc2a6dc996d275244de1e11d89b
+ms.sourcegitcommit: fc8102d945faf9ad533f57ec1a45b0e0dc344963
+ms.openlocfilehash: d36abbf7c08c56d84ed83dbec1bfa33f30b47ef5
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -47,10 +47,10 @@ Neatkarīgi no tā, vai paplašināt esošu programmas darbvietu vai ieviešat j
 4. Neobligāti: pievienojiet paplašinājumus, lai pielāgotu skatu.
 
 > [!NOTE]
-> Papildinformāciju par to, kā izveidot analītiskus pārskatus, skatiet rakstā [Darba sākšana ar Power BI Desktop](https://powerbi.microsoft.com/documentation/powerbi-desktop-getting-started/). Šī lapa ir lielisks informācijas avots, kas var palīdzēt jums izveidot pārliecinošus analītisko pārskatu risinājumus.
+> Papildinformāciju par to, kā izveidot analītiskus pārskatus, skatiet rakstā [Darba sākšana ar Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Šī lapa ir lielisks informācijas avots, kas var palīdzēt jums izveidot pārliecinošus analītisko pārskatu risinājumus.
 
 # <a name="add-a-pbix-file-as-a-resource"></a>.pbix faila kā resursa pievienošana
-Pirms sākat, izveidojiet vai iegūstiet Power BI pārskatu, ko iegulsit darbvietā. Papildinformāciju par to, kā izveidot analītiskus pārskatus, skatiet rakstā [Darba sākšana ar Power BI Desktop](https://powerbi.microsoft.com/documentation/powerbi-desktop-getting-started/).
+Pirms sākat, izveidojiet vai iegūstiet Power BI pārskatu, ko iegulsit darbvietā. Papildinformāciju par to, kā izveidot analītiskus pārskatus, skatiet rakstā [Darba sākšana ar Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
  
 Izpildiet tālāk norādītās darbības, lai pievienotu .pbix failu kā Visual Studio projekta artefaktu.
 
@@ -170,7 +170,7 @@ public static void initializeReportControl(
 
 ### <a name="parameters"></a>Parametri
 
-| Vārds, uzvārds | apraksts |
+| Nosaukums | Apraksts |
 |---|---|
 | resourceName | .pbix resoursa nosaukums. |
 | formGroupControl | Formu grupas vadīkla, kam jālieto Power BI pārskatu vadīkla. |

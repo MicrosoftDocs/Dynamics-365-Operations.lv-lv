@@ -19,10 +19,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: d549f38b9278eed222a1318c51962b248149c569
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 6dfb82acb5dafd365d878949b35d4fe6ff58793d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -78,7 +78,7 @@ Ražošanas ievades žurnāli darbojas kā krājumu saņemšanas žurnāli, bet 
 
 ### <a name="counting"></a>Uzskaite
 
-Inventarizācijas žurnāli jums ļauj labot pašreizējos rīcībā esošos krājumus, kas ir reģistrēti krājumiem vai krājumu grupām, un tad grāmatot faktisko fizisko skaitu, tādējādi varat veikt atšķirību saskaņošanai nepieciešamos pielāgojumus. Inventarizācijas politikas varat saistīt ar inventarizācijas grupām, lai palīdzētu grupēt krājumus, kuriem ir dažādas īpašības un šos krājumus varētu iekļaut inventarizācijas žurnālā. Piemēram, varat iestatīt inventarizācijas grupas, lai saskaitītu krājumus, kuriem ir specifisks biežums, vai lai saskaitītu krājumus, ja krājumu daudzums nokrītas līdz noteiktam līmenim. Informāciju par to, kā definēt inventarizācijas grupas, skatiet tēmā [Krājumu inventarizācijas procesu definēšana (uzdevuma ceļvedis)](/dynamics365/unified-operations/supply-chain/inventory/tasks/define-inventory-counting-processes).
+Inventarizācijas žurnāli jums ļauj labot pašreizējos rīcībā esošos krājumus, kas ir reģistrēti krājumiem vai krājumu grupām, un tad grāmatot faktisko fizisko skaitu, tādējādi varat veikt atšķirību saskaņošanai nepieciešamos pielāgojumus. Inventarizācijas politikas varat saistīt ar inventarizācijas grupām, lai palīdzētu grupēt krājumus, kuriem ir dažādas īpašības un šos krājumus varētu iekļaut inventarizācijas žurnālā. Piemēram, varat iestatīt inventarizācijas grupas, lai saskaitītu krājumus, kuriem ir specifisks biežums, vai lai saskaitītu krājumus, ja krājumu daudzums nokrītas līdz noteiktam līmenim. Informāciju par to, kā definēt inventarizācijas grupas, skatiet tēmā [Krājumu inventarizācijas procesu definēšana (uzdevuma ceļvedis)](tasks/define-inventory-counting-processes.md).
 
 ### <a name="tag-counting"></a>Etiķešu skaitīšana
 

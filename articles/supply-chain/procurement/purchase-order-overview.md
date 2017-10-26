@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: f76e431320414b508728cbe9fe20456f107cbe40
-ms.openlocfilehash: a5dd28e79cbd66e79311c0549c63ea844394ab14
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: c36795a071cc72721558bfa8984ecf1f47501c91
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/09/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -48,7 +48,7 @@ Tālāk norādītajos rakstos ir sniegts apskats par dažādajiem PP apstrādes 
 -   [Pirkšanas pasūtījuma izveidošana](purchase-order-creation.md)
 -   [Pirkšanas pasūtījumu apstiprināšana un ratificēšana](purchase-order-approval-confirmation.md)
 -   [Produktu ieejas plūsma pret pirkšanas pasūtījumiem](product-receipt-against-purchase-orders.md)
--   [Apskats par kreditoru rēķiniem](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
+-   [Apskats par kreditoru rēķiniem](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>Pirkšanas pasūtījumu tipi
 Ir pieejami trīs pirkšanas pasūtījumu veidi. Kad izveidojat pirkšanas pasūtījumu, ir jānorāda tā veids. Noklusējuma pasūtījuma tipu jauniem pasūtījumiem varat iestatīt lapā **Sagādes un avotu parametri**.
@@ -92,7 +92,7 @@ Lauks **Apstiprinājuma statuss** tiek izmantots, kad pirkšanas pasūtījumam t
 
 [Produktu ieejas plūsma pret pirkšanas pasūtījumiem](product-receipt-against-purchase-orders.md)
 
-[Apskats par kreditoru rēķiniem](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
+[Apskats par kreditoru rēķiniem](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 
 

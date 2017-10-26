@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: e2c956969626836fadb0a6cac6dbb1d57f169f28
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 64d915a5e039ba242f6d5ae5f43c8e09d6ca282e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -78,7 +77,7 @@ Nākamajā piemērā galvenā pārvalde prognozē sākotnējās budžetā bāzl�
 
 Lapā **Organizācijas hierarhija** varat norādīt organizācijas hierarhiju par budžeta plānošanas hierarhiju katrā budžeta plānošanas procesā. Budžeta plānošanas hierarhijai nav jāatbilst standarta organizācijas hierarhijai, kas tiek izmantota citiem mērķiem. Tā kā šī hierarhija tiek izmantota, lai apkopotu un izplatītu datus, varat izvēlēties atšķirīgu struktūru. Piemēra shēmā pārdošanas nodaļas pakļaujas galvenās pārvaldes līmenim, kurā ir budžeta un finanšu nodaļas. Šī struktūra, iespējams, atšķiras no struktūras, kas tiek izmantota, lai pārvaldītu operācijas pārdošanas nodaļās. Katram budžeta plānošanas procesam var piešķirt tikai vienu organizācijas hierarhiju. 
 
-Papildinformāciju skatiet rakstā [Organizācijas un organizāciju hierarhijas](/dynamics365/unified-operations/fin-and-ops/organization-administration/organizations-organizational-hierarchies).
+Papildinformāciju skatiet rakstā [Organizācijas un organizāciju hierarhijas](../../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md).
 
 ### <a name="user-security"></a>Lietotāja drošība
 

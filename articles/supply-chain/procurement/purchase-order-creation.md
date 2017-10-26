@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: fbf5337ac41ceae6e911c056db5226c8ed1cefb0
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 1cf09af8de2a312ce17cd88ccc4d8c5c2c051927
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -72,7 +72,7 @@ Reizēm var būt nepieciešamība sadalīt pasūtīto daudzumu, lai dažādas da
 Maksas var automātiski pievienot pirkšanas pasūtījuma rindām, ja šim kreditoram vai kreditoru maksu grupai un krājumam vai krājumu maksu grupai ir iestatītas automātiskās maksas. Taču parasti maksas tiek manuāli pievienotas pasūtījuma rindas līmenī. Lai pievienotu maksu, atveriet lapu **Uzturēt maksas**, izmantojot darbību **Uzturēt maksas** izvēlnē **Finanšu dati**, skatā **Rindas**. Priekšrocība maksu pievienošanai tieši pasūtījuma rindas līmenī ir tāda, ka šo maksu var piešķirt kā krājuma maksu. Lai iestatītu maksu kodus preces maksu uzskaitīšanas nolūkos, izmantojiet debeta opciju **Krājums**. Šāda tipa maksas no pirkšanas pasūtījuma virsraksta ir jāpiešķir rindām, un tikai pēc tam pasūtījumu var apstiprināt. Piemēram, jūs vēlaties piešķirt maksas, pamatojoties uz daudzumu katrā rindā. Maksu kategorija arī ietekmē veidu, kādā maksas tiek iekļautas uzskaitē. Piemēram, fiksētas maksas norāda fiksētu summu, bet procentu maksas tiek aprēķinātas kā procentuāls daudzums no neto summas pasūtījuma rindai. Pirkšanas pasūtījumus var piešķirt kravai, un krava var ietvert paredzamo izdevumu novērtējumu par transportēšanas maksu. Šos izdevumus no kravas varat piešķirt atpakaļ pirkšanas pasūtījuma rindām.
 
 ## <a name="purchase-order-actions"></a>Pirkšanas pasūtījuma darbības
-Kad pirkšanas pasūtījumam esat pievienojis virsrakstu un rindas, bieži vien ir nepieciešams izpildīt papildu darbības, pirms pasūtījums ir gatavs apstiprināšanai. Tā kā ir pieejams daudz iespēju, var būt noderīgi izmantot funkciju [Darbību meklēšana](/dynamics365/unified-operations/fin-and-ops/get-started/action-search), lai atrastu atbilstošo izvēlnes vienumu.  
+Kad pirkšanas pasūtījumam esat pievienojis virsrakstu un rindas, bieži vien ir nepieciešams izpildīt papildu darbības, pirms pasūtījums ir gatavs apstiprināšanai. Tā kā ir pieejams daudz iespēju, var būt noderīgi izmantot funkciju [Darbību meklēšana](../../fin-and-ops/get-started/action-search.md), lai atrastu atbilstošo izvēlnes vienumu.  
 
 Pasūtījumos preces varat konfigurēt tā, lai tām būtu papildu krājumi. Papildu krājumi ir preces, kas ir jāiegādājas kopā vai kuras var iegādāties kopā ar citām precēm. Papildu preces var pievienot bez maksas kā pavadošās preces, kā arī jums var būt iespēja izlemt, vai kādu preci pievienot pasūtījumam vai ne. Papildu krājumus varat pārskatīt pēc katras pievienotās pasūtījuma rindas. Taču droši vien jums būs ērtāk atbilstošos papildu krājumus pārskatīt un pievienot visām pasūtījuma rindām, izmantojot lapu **Papildu krājumi**, kuru varat atvērt no darbību rūts.  
 
@@ -96,7 +96,7 @@ Iespējams, pirkšanas pasūtījuma izpildi ir nepieciešams aizkavēt. Piemēra
 
 [Produktu ieejas plūsma pret pirkšanas pasūtījumiem](product-receipt-against-purchase-orders.md)
 
-[Apskats par kreditoru rēķiniem](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
+[Apskats par kreditoru rēķiniem](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 
 
