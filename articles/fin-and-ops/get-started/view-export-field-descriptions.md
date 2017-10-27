@@ -16,13 +16,13 @@ ms.custom: 11534
 ms.assetid: e2795f51-a8a7-4c74-bdb9-b1be93bdd358
 ms.search.region: Global
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 7898ff427ede4447a5798d4989ffd3088a776d9c
+ms.translationtype: HT
+ms.sourcegitcommit: 908f854e5ca50f4298110c08c87fefd9427b5cc9
+ms.openlocfilehash: 841c18630a59c3f5a7b51cd005962fa8a7f7163f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -37,7 +37,7 @@ Programmatūrā Microsoft Dynamics 365 for Finance and Operations tiek nodroši
 
 Ne visām lapām ir lauku apraksti. Mēs vēlamies sniegt aprakstus tikai sarežģītākajiem laukiem, nevis tiem, kuru lietojums ir acīmredzams. Tādēļ dažās lapās nav neviena lauka apraksta, dažās lapās ir daži apraksti, bet dažās no sarežģītākajām lapām, piemēram, daudzās parametru lapās, ir daudz aprakstu. 
 
-Ja jums ir piekļuve Finance and Operations izstrādes videi, varat pievienot jaunus lauku aprakstus un pielāgot esošos aprakstus. Piemēram, lauka aprakstam varat pievienot uzņēmumam specifisku informāciju. Papildinformāciju skatiet rakstā [Pielāgot lauka palīdzību](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help).
+Ja jums ir piekļuve Finance and Operations izstrādes videi, varat pievienot jaunus lauku aprakstus un pielāgot esošos aprakstus. Piemēram, lauka aprakstam varat pievienot uzņēmumam specifisku informāciju. Papildinformāciju skatiet rakstā [Pielāgot lauka palīdzību](../../dev-itpro/user-interface/customize-field-help.md).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Skatīt lauku aprakstus lietotāja interfeisā
 Lauku aprakstus varat apskatīt, virzot peles kursoru pār attiecīgo lauku. Ja apraksts nav pieejams, kad novietojat peles kursoru uz lauka, jūs redzat lauka nosaukumu. (Piezīme. Versijā Dynamics AX 7.0 (2016. gada februāris) lauku aprakstus var skatīt tikai lapā **Lauku apraksti**.) Tālāk esošajā attēlā ir parādīts lauka apraksts, kas ir redzams, kad novietojat peles kursoru uz lauka **Bloķēt krājumus inventarizācijas laikā**. 
@@ -101,7 +101,7 @@ Informāciju par dažādajiem veidiem, kā atrast lapas, skatiet agrākā šī r
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Pielāgot lauku palīdzību](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help)
+[Pielāgot lauku palīdzību](../../dev-itpro/user-interface/customize-field-help.md)
 
 
 

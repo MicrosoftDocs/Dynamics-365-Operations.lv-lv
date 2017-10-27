@@ -19,11 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: YuyuScheller
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: dcbab70d2057a2eb252538a51343fa8bae16873d
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: cef54fa8109ebce0f8a6ca67c93afc30ec8a6781
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -93,7 +93,7 @@ Izmaksu objekta dimensija atbilst viesiem izmaksu centriem organizācijā.
 
 Izmaksu objekta dimensiju, kas atbilst visiem izmaksu centriem, var iestatīt tālāk norādītajā veidā.
 
-| Izmaksu centri | apraksts |
+| Izmaksu centri | Apraksts |
 |--------------|-------------|
 | CC001        | HR          |
 | CC002        | Finansēt     |
@@ -109,7 +109,7 @@ Izmaksu elementa dimensija atbilst viesiem izmaksu elementiem organizācijā.
 
 Izmaksu elementa dimensiju, kas atbilst visiem izmaksu elementiem, var iestatīt tālāk norādītajā veidā.
 
-| Izmaksu elementi | apraksts |
+| Izmaksu elementi | Apraksts |
 |---------------|-------------|
 | 10001         | Elektrība |
 | 10010         | Tīrīšana    |
@@ -332,6 +332,6 @@ Piekļuves saraksta hierarhijas iestatījumi tiek izmantoti, lai kontrolētu to,
     - Programmatūras Microsoft Dynamics 365 for Finance and Operation izdevuma Enterprise klientā iegultās datu Power BI vizualizācijas
 
 > [!NOTE] 
-> - Lai piekļuves saraksta hierarhija varētu ietekmēt datus pakalpojumā Power BI, piekļuves saraksta hierarhija ir jāsavieno pārī ar rindas līmeņa drošību pakalpojumā Power BI. Papildinformāciju skatiet rakstā [Drošības iestatīšana satura pakotnei Izmaksu uzskaite](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).
+> - Lai piekļuves saraksta hierarhija varētu ietekmēt datus pakalpojumā Power BI, piekļuves saraksta hierarhija ir jāsavieno pārī ar rindas līmeņa drošību pakalpojumā Power BI. Papildinformāciju skatiet rakstā [Drošības iestatīšana satura pakotnei Izmaksu uzskaite](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - Piekļuves saraksta hierarhija nepalīdz aizsargāt datu eksportēšanu uz programmu Excel. Tāpēc pārskatu rīku drīkst izmantot tikai izmaksu grāmatveži un vadītāji, kuriem ir nepieciešama pilna piekļuve datu skatīšanai.
 

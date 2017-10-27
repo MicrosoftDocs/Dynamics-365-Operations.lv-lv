@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: ebcae0e323203a98a9b8ed1113db945fceaaa4af
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: e1c29f597b190bd36b6fc64b16913ecdd02daf75
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -68,7 +68,7 @@ Ja tiek izmantota šāda konfigurācija, saistītajai pakalpojuma precei tiek iz
 Ražošanas pasūtījumam var būt daudz operāciju, un katra operācija var būt piešķirta atšķirīgam kreditoram. Tāpēc pilnīgs ražošanas pasūtījums var aktivizēt vairākus pirkšanas pasūtījumus.
 
 ## <a name="subcontracting-of-production-flow-activities"></a>Ražošanas plūsmas aktivitāšu apakšlīgumu slēgšana
-Risinājums [lean manufacturing](lean-manufacturing-overview.md)modelē apakšuzņēmēja darbu kā pakalpojumu, kas ir saistīts ar [ražošanas plūsmas](/dynamics365/unified-operations/supply-chain/production-control/tasks/create-production-flow-version) (uzdevuma ceļveža tēma) aktivitāti. Tāpēc šī veida apakšlīgumu slēgšana tiek saukta arī par [no aktivitātēm atkarīgu apakšlīguma slēgšanu.](activity-based-subcontracting.md) Ir ieviests īpašs izmaksu grupas veids **Tiešie ārpakalpojumi**, un apakšuzņēmēju pakalpojumi nav ietverti gatavo preču MK. Ja lietojat metodi lean manufacturing, visas aktivitātes tiek definētas, izmantojot Kanban, kas var būt saistīts ar vienu vai vairākām ražošanas plūsmas aktivitātēm. Pagaidām šis skaidrojums līdzinās ražošanas pasūtījumu skaidrojumam. Taču atšķirībā no ražošanas pasūtījumiem, kurus pabeidzot, vienmēr ir jāiegūst gatava prece, varat izveidot Kanban, lai piegādātu daļēji pabeigtu preci. Nav nepieciešams ieviest jaunu preci un MK līmeni.  
+Risinājums [lean manufacturing](lean-manufacturing-overview.md)modelē apakšuzņēmēja darbu kā pakalpojumu, kas ir saistīts ar [ražošanas plūsmas](tasks/create-production-flow-version.md) (uzdevuma ceļveža tēma) aktivitāti. Tāpēc šī veida apakšlīgumu slēgšana tiek saukta arī par [no aktivitātēm atkarīgu apakšlīguma slēgšanu.](activity-based-subcontracting.md) Ir ieviests īpašs izmaksu grupas veids **Tiešie ārpakalpojumi**, un apakšuzņēmēju pakalpojumi nav ietverti gatavo preču MK. Ja lietojat metodi lean manufacturing, visas aktivitātes tiek definētas, izmantojot Kanban, kas var būt saistīts ar vienu vai vairākām ražošanas plūsmas aktivitātēm. Pagaidām šis skaidrojums līdzinās ražošanas pasūtījumu skaidrojumam. Taču atšķirībā no ražošanas pasūtījumiem, kurus pabeidzot, vienmēr ir jāiegūst gatava prece, varat izveidot Kanban, lai piegādātu daļēji pabeigtu preci. Nav nepieciešams ieviest jaunu preci un MK līmeni.  
 
 Kanban nosacījumi var būt ļoti dinamiski, tāpēc varat modelēt dažādus vienas preces piegādes variantus ražošanas plūsmā. Ja lietojat racionalizēto apakšlīgumu slēgšanu, materiālu plūsma un finanšu plūsma ir stingri atdalītas. Visu materiālu plūsma ir atainota, izmantojot Kanban aktivitātes. Pakalpojumu preču pirkšanas pasūtījumu un šo pakalpojumu ieejas plūsmu grāmatošanu var automatizēt, pamatojoties uz Kanban darbu statusu ražošanas plūsmā. Kanban darbus var sākt un pabeigt pat pirms pirkšanas pasūtījumu izveides. Apakšlīgumu slēgšanas dokumentus (pakalpojuma pirkšanas pasūtījumu un pirkšanas ieejas plūsmas dokumentu) var apkopot pēc perioda un pakalpojuma. Tādējādi var samazināt pirkšanas dokumentu un rindu skaitu pat ļoti bieži atkārtotu operāciju gadījumā, kad kreditori nodrošina apakšuzņēmēju pakalpojumus viengabala plūsmā.
 

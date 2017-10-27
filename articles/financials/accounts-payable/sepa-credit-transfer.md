@@ -16,13 +16,13 @@ ms.custom: 11124
 ms.assetid: 36b0f870-16d4-4bbb-8da5-e747e69b970d
 ms.search.region: Global
 ms.author: mrolecki
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: bc14ab554a298d09bb852e96503b4cd3f4b36d3c
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 49dfae79fe3914bcac9447d4fe3959128ff434ec
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 06/13/2017
 
 ## <a name="what-is-a-credit-transfer-message"></a>Kas ir kredīta pārskaitījuma ziņojums?
 Kredīta pārskaitījuma ziņojums ir pieprasījums, kuru iniciējošā puse (jūsu uzņēmums) nosūta, lai pārvietotu līdzekļus no sava konta kreditoram. Pastāv daudzi no valstij/reģionam specifiski un bankai specifiski kredīta pārskaitījuma ziņojumu īstenošanas veidi. Daži no tiem tiek izmantoti vienā valstī/reģionā, un daži kļūst par standartiem. Viens no vispāratzītiem globālajiem standartiem ir ISO 20022 un tā iniciēšanas ziņojumi, piemēram, kredīta pārskaitījums. Šajā ilustrācijā parādītas attiecības un segums noteiktiem kredīta pārskaitījuma ziņojumiem. 
-![Kredīta pārskaitījums](./media/credit-transfer.jpg) Kredīta pārskaitījuma ziņojumi\[/paraksts\] 
+![Kredīta pārskaitījums](./media/credit-transfer.jpg) Kredīta pārskaitījuma ziņojumi 
 
 ## <a name="what-are-iso-20022-and-sepa-payments"></a>Kas ir ISO 20022 un SEPA maksājumi?
 Vienoto eiro maksājumu zonu (Single Euro Payments Area — SEPA) ir izveidojusi Eiropas Komisija, un tā nosaka, ka visi elektroniskie maksājumi tiek uzskatīti par iekšzemes maksājumiem neatkarīgi no privātpersonas, uzņēmuma vai organizācijas un bankas atrašanās valsts/reģiona. Starp nacionālajiem maksājumiem un pārrobežu maksājumiem nav nekādas atšķirības. SEPA ietver 28 Eiropas Savienības (ES) dalībvalstis, kā arī Islandi, Lihtenšteinu, Norvēģiju, Šveici, Monako un Sanmarīno. SEPA palīdz veidot vienoto maksājumu transakciju tirgus Eiropas Ekonomikas zonā (EEZ). Visbeidzot, paredzams, ka SEPA samazinās maksājumu formātu skaitu, ar kuru ir jāstrādā bankām, uzņēmumiem un privātpersonām. Eiropas Komisija SEPA maksājumiem juridisko pamatu izveidoja ar Maksājumu pakalpojumu direktīvu (Payment Services Directive — PSD). Eiropas Maksājumu padome (European Payments Council — EPC) atbalsta SEPA ar šādām darbībām:
@@ -59,7 +59,7 @@ Kredīta pārsūtīšanas maksājuma formāts Eiropas valstīm tiek īstenots, i
 Vienmēr atveriet koplietojamo līdzekļu bibliotēku pakalpojumā Microsoft Dynamics Lifecycle Services (LCS) un skatiet jaunāko sarakstu, kurā ietverti pieejamie faili, kuru pamatlīdzekļa tips ir **GER konfigurācija**. Nākamajā sadaļā “Kas man ir jāiestata?” ir norādīta saite uz tēmu, kurā paskaidrots, kā izveidot LCS repozitoriju, lai pārskatītu pieejamās konfigurācijas un importētu atlasītās konfigurācijas.
 
 ## <a name="what-do-i-have-to-set-up"></a>Kas man ir jāiestata?
--   Lai varētu izveidot kredīta pārskaitījumu failus, jūsu ER konfigurācijās ir nepieciešams importēt vismaz vienu aktīvu kredīta pārskaitījuma konfigurāciju. Norādījumus skatiet sadaļā [Elektronisko atskaišu veidošanas konfigurāciju lejupielāde no Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+-   Lai varētu izveidot kredīta pārskaitījumu failus, jūsu ER konfigurācijās ir nepieciešams importēt vismaz vienu aktīvu kredīta pārskaitījuma konfigurāciju. Norādījumus skatiet sadaļā [Elektronisko atskaišu veidošanas konfigurāciju lejupielāde no Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 -   Kad konfigurējat kreditoru maksājuma metodes, atzīmējiet izvēles rūtiņu **Vispārīga elektronisko atskaišu veidošana** un atlasiet atbilstošo kredīta pārskaitījuma formātu (piemēram, **ISO 20022 kredīta pārskaitījums (AT)**) kā eksporta formāta konfigurāciju.
 -   Jums ir arī jāiestata juridiskās personas un bankas konta informācija programmatūrā Finance and Operations.
 -   Lai izveidotu derīgus kredīta pārsūtīšanas maksājumus, ir nepieciešami bankas kontu numuri, IBAN un dažreiz SWIFT kodi (BIC) vai citi identifikatori. Tādēļ jums tie ir jāiestata gan kreditora bankas kontam, gan bankas kontam tai organizācijai, kas pieprasa pārskaitījumu.

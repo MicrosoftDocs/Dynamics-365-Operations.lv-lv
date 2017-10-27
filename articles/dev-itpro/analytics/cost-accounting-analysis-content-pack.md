@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 1d19276331a4278f44ad14292ed434c49b74d727
+ms.translationtype: HT
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: f596f84463f46fc37b14b77bd335b9ed8a62eea9
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -39,7 +39,7 @@ Tā kā satura pakotne **Izmaksu uzskaites analīze** izceļ novirzes starp fakt
 
 Satura pakotne **Izmaksu uzskaites analīze** sniedz grāmatvežiem iespēju analizēt izmaksu plūsmu caur izmaksu objektiem visas organizācijas ietvaros. 
 
-Lai uzzinātu papildinformāciju par izmaksu uzskaiti, skatiet [izmaksu uzskaites sākumlapu](/dynamics365/unified-operations/financials/cost-accounting/cost-accounting-home-page). 
+Lai uzzinātu papildinformāciju par izmaksu uzskaiti, skatiet [izmaksu uzskaites sākumlapu](../../financials/cost-accounting/cost-accounting-home-page.md). 
 
 Izmaksu uzskaitē definējot piekļuves līmeņa drošību un to kombinējot ar rindas līmeņa drošību pakalpojumā Power BI, visiem izmaksu objektu īpašniekiem varat sniegt piekļuvi Power BI saturam **Izmaksu uzskaites analīze**. Pēc tam visi vizualizācijās esošie dati tiks filtrēti, pamatojoties uz piekļuves līmeni, kurš ir kontrolēts izmaksu uzskaitē. Lai uzzinātu papildinformāciju par piekļuves līmeņa drošību un rindas līmeņa drošību, skatiet rakstu [Iestatīt drošību Power BI saturam Izmaksu analīze](setup-security-cost-accounting-content-pack.md).
 
@@ -77,7 +77,7 @@ Power BI satura pakotnes **Izmaksu uzskaites analīze** pārskatu lapu aizpild�
 
 Kā satura pamats tiek izmantoti tālāk norādītie galvenie apkopošanas mērījumi.
 
-| Elements                  | Galvenais apkopošanas mērījums | Dynamics 365 datu avots      | Lauks     | apraksts                                        |
+| Elements                  | Galvenais apkopošanas mērījums | Dynamics 365 datu avots      | Lauks     | Apraksts                                        |
 |-------------------------|---------------------------|-----------------------------------|-----------|----------------------------------------------------|
 | Izmaksu uzskaites ieraksti | SUM(Summa)               | CAMDATAAggregatedCostEntry        | Summa    | Summa izmaksu uzskaites virsgrāmatas valūtā. |
 | Statistikas ieraksti     | SUM(Lielums)            | CAMDATAAggregatedStatisctialEntry | Lielums |                                                    |

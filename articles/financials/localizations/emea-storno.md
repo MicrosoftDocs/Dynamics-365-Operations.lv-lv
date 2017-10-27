@@ -17,10 +17,10 @@ ms.author: v-semaz
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: cd234755bbe92e8f1c78a2dd6e7d05e5372c4692
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: a0d5aa114564e000a2d2b2780996a14d5a41015e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -167,6 +167,6 @@ Varat pielāgot Storno attēlojumu formās, režģos, kolonnās un laukos. Piem�
 ![Žurnāla ieraksta Storno summas](./media/journal-storno.png)
 
 ## <a name="how-documents-create-storno"></a>Kā dokumenti izveido Storno
-Noteikti dokumenti izveido atcelšanas transakcijas. Piemēram, ārvalstu valūtas pārvērtēšanas virsgrāmatai, kreditoru un debitoru parādu dokumenti atceļ nerealizēto peļņu un zaudējumus. Papildinformāciju skatiet rakstā [Ārvalstu valūtas pārvērtēšana virsgrāmatai](../general-ledger/foreign-currency-revaluation-general-ledger.md) vai [Kreditori un debitoru parādi](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md). Pēc atcelšanas transakcijas izveides tiks izveidotas jaunas transakcijas ar nerealizēto peļņu un zaudējumiem. Atcelšanas transakcijas tiek izveidotas arī krājumiem. Papildinformāciju skatiet rakstā [Krājumu slēgšana](/dynamics365/unified-operations/supply-chain/cost-management/inventory-close). Ir dokumenti, kas ļauj atcelt iepriekš grāmatotu dokumentu. Piemēram, lietotājs var izveidot kredīta notu, lai atceltu iepriekš izveidotu rēķinu. Dokumentos tiek izmantoti konkrēti parametri, lai izveidotu reversīvās vai Storno transakcijas. Piemēram, ārvalstu valūtas pārvērtēšana izveido reversīvas vai Storno transakcijas, pamatojoties uz virsgrāmatas labojuma parametru. Debitora kredīta nota izveido reversīvas vai Storno transakcijas, pamatojoties uz debitoru parādu kredīta notas labojuma parametru.
+Noteikti dokumenti izveido atcelšanas transakcijas. Piemēram, ārvalstu valūtas pārvērtēšanas virsgrāmatai, kreditoru un debitoru parādu dokumenti atceļ nerealizēto peļņu un zaudējumus. Papildinformāciju skatiet rakstā [Ārvalstu valūtas pārvērtēšana virsgrāmatai](../general-ledger/foreign-currency-revaluation-general-ledger.md) vai [Kreditori un debitoru parādi](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md). Pēc atcelšanas transakcijas izveides tiks izveidotas jaunas transakcijas ar nerealizēto peļņu un zaudējumiem. Atcelšanas transakcijas tiek izveidotas arī krājumiem. Papildinformāciju skatiet rakstā [Krājumu slēgšana](../../supply-chain/cost-management/inventory-close.md). Ir dokumenti, kas ļauj atcelt iepriekš grāmatotu dokumentu. Piemēram, lietotājs var izveidot kredīta notu, lai atceltu iepriekš izveidotu rēķinu. Dokumentos tiek izmantoti konkrēti parametri, lai izveidotu reversīvās vai Storno transakcijas. Piemēram, ārvalstu valūtas pārvērtēšana izveido reversīvas vai Storno transakcijas, pamatojoties uz virsgrāmatas labojuma parametru. Debitora kredīta nota izveido reversīvas vai Storno transakcijas, pamatojoties uz debitoru parādu kredīta notas labojuma parametru.
 
 

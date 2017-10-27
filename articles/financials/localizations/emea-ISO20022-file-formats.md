@@ -16,10 +16,10 @@ ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 77a0d4c2a31128fb7d082238d443f297fd40664f
-ms.openlocfilehash: 90e21bb939bd96a3420decb5f9bc07c017c3e946
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: fcab30f03aebf7dbe76d5b3b64260f726f291fb8
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/31/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -76,7 +76,7 @@ Lai bankas ziņojumus importētu šādos ISO20022 formātos lapā **Kreditoru ma
 
     Tālāk ir sniegts piemērs ar daļu no kļūdas koda iestatījuma.
 
-    Kods | Vārds, uzvārds
+    Kods | Nosaukums
     -----|-----
     AC01 | IncorrectAccountNumber
     AC02 | InvalidDebtorAccountNumber
@@ -118,7 +118,7 @@ Importējot formāta konfigurāciju no LCS, tiek importēts viss konfigurācijas
  - **Pain.002** — šis formāts tiks izmantots kopā ar maksājumu modeļa kartējumu līdz galamērķim ISO20022, lai importētu failu pain.002 kreditoru maksājumu pārskaitījumu žurnālu
  - **Camt.054** — šis formāts tiks izmantots kopā ar maksājumu modeļa kartējumu līdz galamērķim ISO20022, lai importētu failu camt.054 kreditoru maksājumu pārskaitījumu žurnālu. Tāda pati formātu konfigurācija tiks izmantota debitoru maksājumu importēšanas funkcionalitātē, tomēr atšķirīgs kartējums tiks izmantots maksājumu modeļa kartējumā līdz galamērķa ISO20022 konfigurācijai.
 
-Plašāku informāciju par elektronisko pārskatu veidošanu skatiet šeit: [Elektronisko pārskatu veidošanas apskats](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
+Plašāku informāciju par elektronisko pārskatu veidošanu skatiet šeit: [Elektronisko pārskatu veidošanas apskats](../../dev-itpro/analytics/general-electronic-reporting.md).
 
 ## <a name="additional-resources"></a>Papildu resursi
 - [Kreditoru maksājumu izveide un eksportēšana, izmantojot maksājumu formātu ISO20022](./tasks/create-export-vendor-payments-iso20022-payment-format.md)

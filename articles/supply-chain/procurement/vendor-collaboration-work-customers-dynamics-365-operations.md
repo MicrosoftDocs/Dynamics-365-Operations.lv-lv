@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 41436dab710a5fee0fe0800dff1ebefefa841afc
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 6119f1c85b68e6ed5dce01a266c4e681dfc4cd30
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 06/13/2017
 
 Šajā tēmā ir aprakstīts, kā varat izmantot kreditoru sadarbību programmatūrā Finance and Operations, lai strādātu ar pirkšanas pasūtījumiem un uzraudzītu sūtījuma krājumus.
 
-Šajā tēmā ir aprakstīts, kā varat izmantot kreditoru sadarbību, lai strādātu ar debitoriem programmatūrā Microsoft Finance and Operations. Tā ietver informāciju par to, kā uzraudzīt pirkšanas pasūtījumus un reaģēt uz tiem un kā uzraudzīt sūtījuma krājumus. Kreditoru sadarbību ir iespējams izmantot arī darbam ar rēķiniem. Papildinformāciju skatiet rakstā [Kreditoru sadarbības rēķinu izrakstīšanas darbvieta](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
+Šajā tēmā ir aprakstīts, kā varat izmantot kreditoru sadarbību, lai strādātu ar debitoriem programmatūrā Microsoft Finance and Operations. Tā ietver informāciju par to, kā uzraudzīt pirkšanas pasūtījumus un reaģēt uz tiem un kā uzraudzīt sūtījuma krājumus. Kreditoru sadarbību ir iespējams izmantot arī darbam ar rēķiniem. Papildinformāciju skatiet rakstā [Kreditoru sadarbības rēķinu izrakstīšanas darbvieta](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 ## <a name="working-with-purchase-orders"></a>Darbs ar pirkšanas pasūtījumiem
 Darbvieta **Pirkšanas pasūtījuma akceptēšana** jums ļauj atbildēt uz pirkšanas pasūtījumiem, kas jums ir nosūtīti pārskatīšanai. Tā jums ļauj skatīt arī informāciju par pirkšanas pasūtījumiem, kas gaida rīcību no debitora, un pirkšanas pasūtījumiem, kas ir akceptēti, bet joprojām ir atvērti. Darbvietā **Pirkšanas pasūtījuma akceptēšana** pastāv trīs tālāk aprakstītie saraksti.

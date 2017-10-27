@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 529751c09b8f99f986cad23a633bea661929d558
-ms.openlocfilehash: d5e4857081134808b194d3248dd8739f83b57d6e
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: 297fe730a432e05e1ab490be4802c37f9402b0a7
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -116,14 +116,14 @@ Varat lejupielādēt un rediģēt Microsoft uzdevumu ierakstus, lai tos izmantot
 11. Izvēlieties, kā vēlaties saglabāt šo uzdevuma ierakstu.
 
 ## <a name="include-your-task-recordings-in-the-help-pane"></a>Savu uzdevumu ierakstu iekļaušana palīdzības rūtī
-Lai savus pielāgotos uzdevumu ierakstus parādītu palīdzības rūtī un tos varētu atskaņot kā uzdevumu ceļvežus vai skatīt kā tekstu, jums šie uzdevumu ieraksti ir jāsaglabā savā BPM bibliotēkā un pēc tam jāatjaunina savas palīdzības sistēmas parametri, lai tie norādītu uz BPM bibliotēku. Plašāku informāciju skatiet rakstā [Savienojuma izveide ar palīdzības sistēmu.](../get-started/help-connect.md)
+Lai savus pielāgotos uzdevumu ierakstus parādītu palīdzības rūtī un tos varētu atskaņot kā uzdevumu ceļvežus vai skatīt kā tekstu, jums šie uzdevumu ieraksti ir jāsaglabā savā BPM bibliotēkā un pēc tam jāatjaunina savas palīdzības sistēmas parametri, lai tie norādītu uz BPM bibliotēku. Plašāku informāciju skatiet rakstā [Savienojuma izveide ar palīdzības sistēmu.](../../fin-and-ops/get-started/help-connect.md)
 
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Palīdzības apskats](..\get-started\help-overview.md)
+[Palīdzības apskats](../../fin-and-ops/get-started/help-overview.md)
 
-[Pievienot palīdzību](..\get-started\help-connect.md)
+[Pievienot palīdzību](../../fin-and-ops/get-started/help-connect.md)
 
 [Uzdevumu ierakstītājs](task-recorder.md)
 

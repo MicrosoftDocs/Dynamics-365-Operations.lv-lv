@@ -15,18 +15,18 @@ ms.custom: 55651
 ms.assetid: 
 ms.search.region: Global
 ms.author: chwolf
-ms.search.validFrom: 2016-08-30T00:00:00.000Z
+ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 4a1cab8c126ad063a52827421d2ea1104d0c7287
+ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
+ms.openlocfilehash: 5be9b195754d6c8315342c83451128092f64a241
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
 # <a name="hardware-sizing-for-on-premises-environments"></a>Aparatūras lieluma maiņa lokālām vidēm
-Pirms sākat aparatūras un infrastruktūras lieluma maiņas procesu lokālai videi, iepazīstieties ar informāciju sadaļās [Sistēmas prasības](../get-started/system-requirements.md) un [Iestatīšanas un izvietošanas norādījumi](../deployment/setup-deploy-on-premises-environments.md), lai iegūtu padziļinātu izpratni par pamatā esošo infrastruktūru. 
+Pirms sākat aparatūras un infrastruktūras lieluma maiņas procesu lokālai videi, iepazīstieties ar informāciju sadaļās [Sistēmas prasības](system-requirements.md) un [Iestatīšanas un izvietošanas norādījumi](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md), lai iegūtu padziļinātu izpratni par pamatā esošo infrastruktūru. 
 
   **Piezīme.** Īpašu uzmanību pievērsiet labākajām praksēm sistēmas iestatīšanai, kas nodrošina optimālu darbību. 
 
@@ -89,7 +89,7 @@ Lai izprastu lieluma maiņas prasības, jums ir jāzina maksimālais apstrādāj
 Ieteicams SQL Server vienmēr izmantot ar klastera vai spoguļošanas iestatījumiem. Otrajam SQL mezglam ir jābūt tādam pašam kodolu skaitam kā primārajam mezglam. 
 
 ### <a name="active-directory-federation-services-ad-fs"></a>Active Directory federācijas pakalpojums (AD FS)
-Informāciju par AD FS lieluma maiņu skatiet rakstā [AD FS servera noslodzes dokumentācija](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
+Informāciju par AD FS lieluma maiņu skatiet rakstā [AD FS servera noslodzes dokumentācija](/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
 
 Instanču skaita plānošanai izvietojumā ir pieejama [lieluma maiņas izklājlapa](http://adfsdocs.blob.core.windows.net/adfs/ADFSCapacity2016.xlsx).
 

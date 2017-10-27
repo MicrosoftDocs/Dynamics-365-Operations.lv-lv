@@ -18,11 +18,11 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 007a7e8a34f3f5a2d0d18eb3955822a8fd8bdd0a
+ms.translationtype: HT
+ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
+ms.openlocfilehash: 9a1e3f08eeda93adeac4509edad244754770db65
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -126,7 +126,7 @@ Laukā **Teksts** ievadītais teksts tiek rādīts *virs* darbības teksta uzdev
 Laukā **Piezīmes** ievadītais teksts tiek rādīts *zem* darbības teksta uzdevuma reģistrētājā. Lai izlasītu piezīmes tekstu, lietotājam ir jāizvērš darbības teksts uznirstošajā logā. Šī atrašanās vieta ir piemērota papildinformācijai vai citai informācijai, kas lietotājam var noderēt lietotājam, taču nav nepieciešama, lai veiktu darbību.
 
 ## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Palīdzība programmās Retail Modern POS un Cloud POS
-Lai jūsu pielāgotie uzdevumu ieraksti tiktu rādīti programmu Retail Modern POS un Cloud POS rūtī Palīdzība teksta formātā, jums ir jāsaglabā ieraksti savā BPM bibliotēkā un pēc tam ir jāatjaunina palīdzības sistēmas parametri tā, lai tie norādītu uz jūsu BPM bibliotēku. Plašāku informāciju skatiet rakstā [Savienojuma izveidošana ar palīdzības sistēmu](/dynamics365/unified-operations/dev-itpro/get-started/help-connect). Retail Modern POS un Cloud POS palīdzības sistēma nodrošina reāllaika meklēšanu pakalpojumā LCS. Sistēma nodrošina meklēšanu visās BPM bibliotēkās, kas ir atlasītas Microsoft Dynamics 365 for Retail palīdzības sistēmas parametros, un atbilstošo rezultātu parādīšanu. Lai piekļūtu izvēlnei **Palīdzība**, noklikšķiniet uz pogas **Palīdzīga** (jautājuma zīme) ekrāna augšdaļā, meklēšanas lodziņā ievadiet procesa nosaukumu un nospiediet meklēšanas pogu. 
+Lai jūsu pielāgotie uzdevumu ieraksti tiktu rādīti programmu Retail Modern POS un Cloud POS rūtī Palīdzība teksta formātā, jums ir jāsaglabā ieraksti savā BPM bibliotēkā un pēc tam ir jāatjaunina palīdzības sistēmas parametri tā, lai tie norādītu uz jūsu BPM bibliotēku. Plašāku informāciju skatiet rakstā [Savienojuma izveidošana ar palīdzības sistēmu](../fin-and-ops/get-started/help-connect.md). Retail Modern POS un Cloud POS palīdzības sistēma nodrošina reāllaika meklēšanu pakalpojumā LCS. Sistēma nodrošina meklēšanu visās BPM bibliotēkās, kas ir atlasītas Microsoft Dynamics 365 for Retail palīdzības sistēmas parametros, un atbilstošo rezultātu parādīšanu. Lai piekļūtu izvēlnei **Palīdzība**, noklikšķiniet uz pogas **Palīdzīga** (jautājuma zīme) ekrāna augšdaļā, meklēšanas lodziņā ievadiet procesa nosaukumu un nospiediet meklēšanas pogu. 
 
 [![Poga Palīdzība](./media/help.jpg)](./media/help.jpg) 
 

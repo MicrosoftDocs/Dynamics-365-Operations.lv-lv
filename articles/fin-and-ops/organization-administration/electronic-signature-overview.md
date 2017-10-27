@@ -19,10 +19,10 @@ ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 9bc4dba3c31e82da2285ef5e339ace634fbd6fde
+ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
+ms.openlocfilehash: 069af29012f75aa1a15ba9df86fe1fc9e04eaf41
 ms.contentlocale: lv-lv
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -45,7 +45,7 @@ Vairākās regulētas nozarēs, piemēram, farmācijas, pārtikas un dzērienu u
 ## <a name="electronic-signatures-in-dynamics-365-for-finance-and-operations"></a>Elektroniskie paraksti programmatūrā Dynamics 365 for Finance and Operations
 Programmatūrā Dynamics 365 for Finance and Operations varat izmantot elektroniskos parakstus īpaši svarīgiem biznesa procesiem. Dažiem procesiem ir iebūvētas elektronisko parakstu iespējas. Varat arī izveidot pielāgotas parakstu prasības jebkurai datu bāzes tabulai un laukam. 
 
-Elektroniskajiem parakstiem ir iebūvēta ciparparaksta funkcionalitāte. Katram lietotājam, kas paraksta dokumentus, ir jāiegūst derīgs šifrēšanas sertifikāts. Kad dokuments ir parakstīts, tiek validēta ar šo sertifikātu saistītā privātā atslēga. Programmatūrā Dynamics 365 for Finance and Operations elektroniskā paraksta informācija tiek reģistrēta žurnālā, lai nodrošinātu auditācijas pierakstus. Lai iestatītu elektroniskos parakstus, skatiet rakstu [Iestatīt elektroniskos parakstus (uzdevuma ceļvedis)](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-electronic-signatures).
+Elektroniskajiem parakstiem ir iebūvēta ciparparaksta funkcionalitāte. Katram lietotājam, kas paraksta dokumentus, ir jāiegūst derīgs šifrēšanas sertifikāts. Kad dokuments ir parakstīts, tiek validēta ar šo sertifikātu saistītā privātā atslēga. Programmatūrā Dynamics 365 for Finance and Operations elektroniskā paraksta informācija tiek reģistrēta žurnālā, lai nodrošinātu auditācijas pierakstus. Lai iestatītu elektroniskos parakstus, skatiet rakstu [Iestatīt elektroniskos parakstus (uzdevuma ceļvedis)](tasks/set-up-electronic-signatures.md).
 
 ## <a name="users-who-require-access-to-electronic-signatures"></a>Lietotāji, kuriem ir nepieciešama piekļuve elektroniskajiem parakstiem
 Elektroniskajiem parakstiem drošības piekļuve parasti ir nepieciešama trīs veidu lietotājiem: elektronisko parakstu administratoriem, parakstītājiem un elektronisko parakstu auditoriem.

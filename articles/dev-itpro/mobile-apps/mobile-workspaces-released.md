@@ -16,10 +16,10 @@ ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 0574c8c1164ef54095135bd9b3f2a946320f8996
-ms.openlocfilehash: e6d45094e8722fa51e545076c204459c41fd9131
+ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
+ms.openlocfilehash: d1650d351b5f7d476cea0d404ad261cfc7294dcc
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/07/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -32,17 +32,17 @@ ms.lasthandoff: 08/07/2017
 > [!NOTE]
 > Iepriekš šīs mobilās programmas nosaukums bija *Microsoft Dynamics 365 for Finance and Operations*.
 
-| Mobilā darbvieta     | apraksts   | Pieejamība   |
+| Mobilā darbvieta     | Apraksts   | Pieejamība   |
 |----------------------|---------------|--------------|
 |[Uzņēmuma direktorijs](company-directory-mobile-workspace.md)| Sniedz iespēju skatīt informāciju par citiem organizācijas darbiniekiem un ar viņiem sazināties.| 2017. jūnijs |    
 |[Mana darba grupa](manager-self-service-mobile-workspace.md)| Varat skatīt savus tiešos pārskatus un paplašinātos darbiniekus, kā arī sūtīt uzslavas personām viņu pārskatu ķēdē.|2017. jūnijs |     
 |[Rēķinu apstiprināšana](invoice-approval-mobile-workspace.md)| Nodrošina sarakstu ar rēķiniem, kas jums ir piešķirti, izmantojot kreditora rēķina virsraksta darbplūsmas procesu.| 2017. jūnijs   |
-| [Izmaksu pārvaldība](/dynamics365/unified-operations/financials/expense-management/expense-management-mobile-workspace) | Varat iegūt un augšupielādēt kvīti, ko vēlāk var pievienot izdevumu pārskatam. Mobilā darbvieta arī sniedz iespēju ātri izveidot izdevumu rindu, izmantojot pievienoto kvīti. | 2017. aprīlis |
-| [Pirkšanas pasūtījuma apstiprināšana](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-mobile-workspace) | Skatiet pirkšanas pasūtījumus un reaģējiet uz tiem, piemēram, apstiprinot vai noraidot tos. | 2017. aprīlis |
-| [Projekta laika ieraksts](/dynamics365/unified-operations/financials/project-management/project-time-entry-mobile-workspace) | Varat ievadīt un saglabāt laiku attiecībā pret projektu, izmantojot mobilo ierīci. | 2017. marts |
-| [Izmaksu kontrolēšana](/dynamics365/unified-operations/financials/cost-accounting/cost-controlling-mobile-workspace)     | Izmaksu centru vadītāji var skatīt informāciju par izmaksu centra veiktspēju.                                                                                               |  2017. janvāris        |
-| [Rīcībā esošie krājumi](/dynamics365/unified-operations/supply-chain/inventory/inventory-on-hand-mobile-workspace)    | Gūstiet ieskatu par rezervētajiem un pieejamajiem krājumiem.                                                                                                    |   2017. janvāris       |
-| [Pārdošanas pasūtījumi](/dynamics365/unified-operations/supply-chain/sales-marketing/sales-orders-mobile-workspace)         | Skatiet aktuālāko informāciju par pārdošanas pasūtījumiem.                                                                                                                          |  2017. janvāris                  |
-| [Kreditoru sadarbība](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-mobile-workspace) | Sniedz ieskatu kreditoriem par pirkšanas pasūtījumiem, kas viņiem ir nosūtīti apstiprināšanai. Viņi var skatīt arī informāciju par jauniem un atjauninātiem pirkšanas pasūtījumiem un kontaktpersonām. |2017. janvāris    |
+| [Izmaksu pārvaldība](../../financials/expense-management/expense-management-mobile-workspace.md) | Varat iegūt un augšupielādēt kvīti, ko vēlāk var pievienot izdevumu pārskatam. Mobilā darbvieta arī sniedz iespēju ātri izveidot izdevumu rindu, izmantojot pievienoto kvīti. | 2017. aprīlis |
+| [Pirkšanas pasūtījuma apstiprināšana](../../supply-chain/procurement/purchase-order-mobile-workspace.md) | Skatiet pirkšanas pasūtījumus un reaģējiet uz tiem, piemēram, apstiprinot vai noraidot tos. | 2017. aprīlis |
+| [Projekta laika ieraksts](../../financials/project-management/project-time-entry-mobile-workspace.md) | Varat ievadīt un saglabāt laiku attiecībā pret projektu, izmantojot mobilo ierīci. | 2017. marts |
+| [Izmaksu kontrolēšana](../../financials/cost-accounting/cost-controlling-mobile-workspace.md)     | Izmaksu centru vadītāji var skatīt informāciju par izmaksu centra veiktspēju.                                                                                               |  2017. janvāris        |
+| [Rīcībā esošie krājumi](../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md)    | Gūstiet ieskatu par rezervētajiem un pieejamajiem krājumiem.                                                                                                    |   2017. janvāris       |
+| [Pārdošanas pasūtījumi](../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md)         | Skatiet aktuālāko informāciju par pārdošanas pasūtījumiem.                                                                                                                          |  2017. janvāris                  |
+| [Kreditoru sadarbība](../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md) | Sniedz ieskatu kreditoriem par pirkšanas pasūtījumiem, kas viņiem ir nosūtīti apstiprināšanai. Viņi var skatīt arī informāciju par jauniem un atjauninātiem pirkšanas pasūtījumiem un kontaktpersonām. |2017. janvāris    |
 
 

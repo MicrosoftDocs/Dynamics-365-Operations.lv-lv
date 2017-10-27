@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 0dc453ab56a2d381afa6e22d847f0b1eb7a16e7e
+ms.translationtype: HT
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: d1fbcefd80f1c48fafbbcb6315406856eaae68a0
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -50,7 +49,7 @@ ms.lasthandoff: 06/13/2017
 4.  Dodieties uz lapu **Finanšu pārskati**, kas atrodas Virsgrāmatas sadaļā **Pieprasījumi un pārskati**.
 5.  Atlasiet rindu pārskatam ar nosaukumu **VG dati — noklusējuma.**
 6.  Atlasiet **Rediģēt.** Piezīme. Jums tiks piedāvāts lejupielādēt viena klikšķa pārskata veidotāju un pieteikties. Lai pieteiktos, lietojiet savus akreditācijas datus.
-7.  Mainiet pamata gadu uz 2012. un izvēlieties **Ģenerēt**. Ģenerējot pārskatu no pārskata veidotāja, tas tiks atvērts jaunā pārlūkprogrammas cilnē. Pārskatu varat pārlūkot jaunajā pārlūkprpgrammas cilnē, vai arī pāriet uz sākotnējo pārlūkprogrammas cilni un atvērt pārskatu no tās, atlasot to no saraksta **Finanšu pārskati**.
+7.  Mainiet pamata gadu uz 2012. un izvēlieties **Ģenerēt**. Ģenerējot pārskatu no pārskata veidotāja, tas tiks atvērts jaunā pārlūkprogrammas cilnē. Pārskatu varat pārlūkot jaunajā pārlūkprogrammas cilnē, vai arī pāriet uz sākotnējo pārlūkprogrammas cilni un atvērt pārskatu no tās, atlasot to no saraksta **Finanšu pārskati**.
 8.  Atvērtajā pārskatā atlasiet vienu no summām, lai pārietu uz detalizētas parskata konta informācijas lapu.
 9.  Konta detalizētas informācijas lapā atlasiet kontu ar datiem un **pārejiet uz pārskata transakciju līmeni**. Pārskata transakciju līmenī var apskatīt rekvizītus (atribūtus), kas iekļauti šajā pārskata noformējumā. Atkarībā no transakcijas un konta var tikt parādīta tikai daļa atribūtu vai visi atribūti.
 10. Aizveriet pārskata transakciju līmeni.
@@ -183,8 +182,8 @@ ms.lasthandoff: 06/13/2017
 18. **Saglabājiet** veiktās izmaiņas un **ģenerējiet** pārskatu. Kad pārskata ģenerēšana tiek pabeigta un tas tiek atvērts, varat to pārskatīt.
 
 ## <a name="additional-resources"></a>Papildu resursi
-[Finanšu pārskati](/dynamics365/unified-operations/financials/general-ledger/financial-reporting-getting-started) 
-[Skatīt finanšu pārskatus](/dynamics365/unified-operations/financials/general-ledger/view-financial-reports) 
+[Finanšu pārskati](../../financials/general-ledger/financial-reporting-getting-started.md) 
+[Skatīt finanšu pārskatus](../../financials/general-ledger/view-financial-reports.md) 
 [Emuārs Dynamics finanšu pārskatus sastādīšana](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
