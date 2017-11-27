@@ -3,14 +3,14 @@ title: "Kases un bankas vadības sākumlapa"
 description: "Kases un bankas vadību varat izmantot, lai uzturētu juridiskās personas bankas kontus un ar šiem bankas kontiem saistītos finanšu instrumentus."
 author: twheeloc
 manager: AnnBe
-ms.date: 08/21/2017
+ms.date: 10/26/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 21941
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 82a2be9d6058a1c3394bb8269774772793333541
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 8b060d8ef5bd7e7358df666c5e17cc5d9aac944a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -90,9 +90,9 @@ Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek
 
 #### <a name="blogs"></a>Emuāri
 
-Viedokļi, ziņas un cita informācija par moduli Skaidras naudas un bankas pārvaldība un citiem risinājumiem ir pieejama [Microsoft Dynamics 365 emuārā] (https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
+Viedokļi, ziņas un cita informācija par moduli “Kases un bankas vadība” un citiem risinājumiem ir pieejama [Microsoft Dynamics 365 emuārā] (https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
-[Microsoft Dynamics AX produktu darba grupas emuārā](https://blogs.msdn.microsoft.com/dax/) ir daudz rakstu par moduli Skaidras naudas un bankas pārvaldība. Lai gan daži no šiem rakstiem tika rakstīti iepriekšējai moduļa Skaidras naudas un bankas pārvaldība versijai, joprojām ir spēkā tie paši jēdzieni, un arī procedūras pašreizējā versijā ir līdzīgas.
+[Microsoft Dynamics AX produktu darba grupas emuārā](https://blogs.msdn.microsoft.com/dax/) ir daudz ziņu par moduli Kases un bankas vadība. Lai gan dažas no šīm ziņām tika rakstītas par moduļa “Kases un bankas vadība” iepriekšējo versiju, joprojām ir spēkā tie paši jēdzieni, un arī procedūras pašreizējā versijā ir līdzīgas.
 
 [Microsoft Dynamics Operations partneru kopienas emuārā](https://community.dynamics.com/partner/b/operationspartnercommunityblog) Microsoft Dynamics partneriem tiek sniegts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā MBS Operations.
 

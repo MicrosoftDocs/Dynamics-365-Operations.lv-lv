@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
-ms.openlocfilehash: 358f5bf6194f5dd3f1639425e6633aa1a855bdc1
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 449643cc34e67388210e0b4e9d04d615d2420610
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](includes/banner.md)]
 
-Risinājums Microsoft Dynamics 365 for Talent racionalizē daudzus ikdienas lietvedības uzdevumus un automatizē vairākus ar jūsu organizācijas personālu saistītus procesus. Šajos procesos ietilpst darbinieku ieturējumu un atvieglojumu administrēšana, apmācība, darba izpildes novērtējumi un izmaiņu pārvaldība. Personāla vadības darbiniekiem tā nodrošina arī struktūru uzraudzības jomu pārvaldīšanai.
+Microsoft Dynamics 365 for Talent racionalizē daudzus ikdienas lietvedības uzdevumus un automatizē vairākus ar organizācijas personālu saistītus procesus. Šajos procesos ietilpst darbinieku saglabāšana, atvieglojumu administrēšana, apmācība, darba izpildes novērtējumi un izmaiņu pārvaldība. Personāla vadības darbiniekiem tā nodrošina arī struktūru uzraudzības jomu pārvaldīšanai.
 
 Risinājumu Talent varat izmantot tālāk uzskaitīto uzdevumu izpildīšanai.
 
@@ -43,7 +43,7 @@ Risinājumu Talent varat izmantot tālāk uzskaitīto uzdevumu izpildīšanai.
 + Iestatiet, nodrošiniet un analizējiet apmācību kursus, kuri ietver darba kārtības, sesijas un izsekošanu.
 
 > [!NOTE] 
-> Risinājums Dynamics 365 for Talent ir cieši saistīta ar personāla vadību Dynamics 365 for Finance and Operations, Enterprise izdevumā. Šī funkcionalitāte var būt pieejama abos produktos. Tādējādi tēmās, kas galvenokārt ir saistītas ar personāla vadību, produkta nosaukums būs Dynamics 365 for Finance and Operations, Enterprise izdevums; tēmās, kas galvenokārt ir saistītas ar Talent, produkta nosaukums būs Dynamics 365 for Talent. Tēmas, kas sarakstītas vienam produktam, var attiekties uz to pašu funkcionalitāti saistītā produktā.
+> Risinājums Dynamics 365 for Talent ir cieši saistīta ar personāla vadību Dynamics 365 for Finance and Operations, Enterprise Edition. Šī funkcionalitāte var būt pieejama abos produktos. Tādējādi tēmās, kas galvenokārt ir saistītas ar personāla vadību, produkta nosaukums būs Dynamics 365 for Finance and Operations, Enterprise Edition; tēmās, kas galvenokārt ir saistītas ar Talent, produkta nosaukums būs Dynamics 365 for Talent. Tēmas, kas sarakstītas vienam produktam, var attiekties uz to pašu funkcionalitāti saistītā produktā.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>Izstrādājiet personāla vadības stratēģiju
 ---------------------------------------------------------
