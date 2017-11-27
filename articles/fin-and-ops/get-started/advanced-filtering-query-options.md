@@ -26,14 +26,14 @@ ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="advanced-filtering-and-query-syntax"></a><span data-ttu-id="0b14f-103">Papildu filtrēšanas un vaicājumu sintakse</span><span class="sxs-lookup"><span data-stu-id="0b14f-103">Advanced filtering and query syntax</span></span>
+# <a name="advanced-filtering-and-query-syntax"></a><span data-ttu-id="991b3-103">Papildu filtrēšanas un vaicājumu sintakse</span><span class="sxs-lookup"><span data-stu-id="991b3-103">Advanced filtering and query syntax</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-<span data-ttu-id="0b14f-104">Šajā rakstā aprakstītas filtrēšanas un vaicājumu opcijas, kas ir pieejamas, izmantojot “atbilstību” operatoru dialoglodziņā Detalizētā filtrēšana/kārtošana.</span><span class="sxs-lookup"><span data-stu-id="0b14f-104">This article describes the filtering and query options that are available when you use the "matches" operator in the Advanced filter/sort dialog.</span></span>
+<span data-ttu-id="991b3-104">Šajā rakstā aprakstītas filtrēšanas un vaicājumu opcijas, kas ir pieejamas, izmantojot “atbilstību” operatoru dialoglodziņā Detalizētā filtrēšana/kārtošana.</span><span class="sxs-lookup"><span data-stu-id="991b3-104">This article describes the filtering and query options that are available when you use the "matches" operator in the Advanced filter/sort dialog.</span></span>
 
-<a name="advanced-query-syntax"></a><span data-ttu-id="0b14f-105">Papildu vaicājumu sintakse</span><span class="sxs-lookup"><span data-stu-id="0b14f-105">Advanced query syntax</span></span>
+<a name="advanced-query-syntax"></a><span data-ttu-id="991b3-105">Papildu vaicājumu sintakse</span><span class="sxs-lookup"><span data-stu-id="991b3-105">Advanced query syntax</span></span>
 ---------------------
 
 <table>
@@ -45,116 +45,116 @@ ms.lasthandoff: 11/03/2017
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0b14f-106">Sintakse</span><span class="sxs-lookup"><span data-stu-id="0b14f-106">Syntax</span></span></th>
-<th><span data-ttu-id="0b14f-107">Simbolu apraksts</span><span class="sxs-lookup"><span data-stu-id="0b14f-107">Character description</span></span></th>
-<th><span data-ttu-id="0b14f-108">Apraksts</span><span class="sxs-lookup"><span data-stu-id="0b14f-108">Description</span></span></th>
-<th><span data-ttu-id="0b14f-109">Piemērs</span><span class="sxs-lookup"><span data-stu-id="0b14f-109">Example</span></span></th>
+<th><span data-ttu-id="991b3-106">Sintakse</span><span class="sxs-lookup"><span data-stu-id="991b3-106">Syntax</span></span></th>
+<th><span data-ttu-id="991b3-107">Simbolu apraksts</span><span class="sxs-lookup"><span data-stu-id="991b3-107">Character description</span></span></th>
+<th><span data-ttu-id="991b3-108">Apraksts</span><span class="sxs-lookup"><span data-stu-id="991b3-108">Description</span></span></th>
+<th><span data-ttu-id="991b3-109">Piemērs</span><span class="sxs-lookup"><span data-stu-id="991b3-109">Example</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="0b14f-110"><em>vērtība</em></span><span class="sxs-lookup"><span data-stu-id="0b14f-110"><em>value</em></span></span></td>
-<td><span data-ttu-id="0b14f-111">Vienāds ar ievadīto vērtību.</span><span class="sxs-lookup"><span data-stu-id="0b14f-111">Equal to the value that is entered</span></span></td>
-<td><span data-ttu-id="0b14f-112">Ierakstiet meklējamo vērtību.</span><span class="sxs-lookup"><span data-stu-id="0b14f-112">Type the value to find.</span></span></td>
-<td><span data-ttu-id="0b14f-113"><strong>Smits</strong> atrod &quot;Smits&quot;.</span><span class="sxs-lookup"><span data-stu-id="0b14f-113"><strong>Smith</strong> finds &quot;Smith&quot;.</span></span></td>
+<td><span data-ttu-id="991b3-110"><em>vērtība</em></span><span class="sxs-lookup"><span data-stu-id="991b3-110"><em>value</em></span></span></td>
+<td><span data-ttu-id="991b3-111">Vienāds ar ievadīto vērtību.</span><span class="sxs-lookup"><span data-stu-id="991b3-111">Equal to the value that is entered</span></span></td>
+<td><span data-ttu-id="991b3-112">Ierakstiet meklējamo vērtību.</span><span class="sxs-lookup"><span data-stu-id="991b3-112">Type the value to find.</span></span></td>
+<td><span data-ttu-id="991b3-113"><strong>Smits</strong> atrod &quot;Smits&quot;.</span><span class="sxs-lookup"><span data-stu-id="991b3-113"><strong>Smith</strong> finds &quot;Smith&quot;.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="0b14f-114">!<em>vērtība</em> (izsaukuma zīme)</span><span class="sxs-lookup"><span data-stu-id="0b14f-114">!<em>value</em> (exclamation point)</span></span></td>
-<td><span data-ttu-id="0b14f-115">Nav vienāds ar ievadīto vērtību.</span><span class="sxs-lookup"><span data-stu-id="0b14f-115">Not equal to the value that is entered</span></span></td>
-<td><span data-ttu-id="0b14f-116">Ierakstiet izsaukuma zīmi un tad vērtību, kas jāizslēdz.</span><span class="sxs-lookup"><span data-stu-id="0b14f-116">Type an exclamation point and then the value to exclude.</span></span></td>
-<td><span data-ttu-id="0b14f-117"><strong>!Smits</strong> atrod visas vērtības, izņemot vērtību &quot;Smits&quot;.</span><span class="sxs-lookup"><span data-stu-id="0b14f-117"><strong>!Smith</strong> finds all values except &quot;Smith&quot;.</span></span></td>
+<td><span data-ttu-id="991b3-114">!<em>vērtība</em> (izsaukuma zīme)</span><span class="sxs-lookup"><span data-stu-id="991b3-114">!<em>value</em> (exclamation point)</span></span></td>
+<td><span data-ttu-id="991b3-115">Nav vienāds ar ievadīto vērtību.</span><span class="sxs-lookup"><span data-stu-id="991b3-115">Not equal to the value that is entered</span></span></td>
+<td><span data-ttu-id="991b3-116">Ierakstiet izsaukuma zīmi un tad vērtību, kas jāizslēdz.</span><span class="sxs-lookup"><span data-stu-id="991b3-116">Type an exclamation point and then the value to exclude.</span></span></td>
+<td><span data-ttu-id="991b3-117"><strong>!Smits</strong> atrod visas vērtības, izņemot vērtību &quot;Smits&quot;.</span><span class="sxs-lookup"><span data-stu-id="991b3-117"><strong>!Smith</strong> finds all values except &quot;Smith&quot;.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="0b14f-118"><em>vērtība no</em>..<em>vērtība līdz</em> (divpunkte)</span><span class="sxs-lookup"><span data-stu-id="0b14f-118"><em>from-value</em>..<em>to-value</em> (double period)</span></span></td>
-<td><span data-ttu-id="0b14f-119">Starp divām vērtībām, kas atdalītas ar divpunkti</span><span class="sxs-lookup"><span data-stu-id="0b14f-119">Between the two values that are separated by double periods</span></span></td>
-<td><span data-ttu-id="0b14f-120">Ierakstiet, no kuras vērtības, pēc tam divus punktus un līdz kurai vērtībai.</span><span class="sxs-lookup"><span data-stu-id="0b14f-120">Type the from-value, then two periods, and then the to-value.</span></span></td>
-<td><span data-ttu-id="0b14f-121"><strong>1..10</strong> atrod visas vērtības no 1 līdz 10.</span><span class="sxs-lookup"><span data-stu-id="0b14f-121"><strong>1..10</strong> finds all values from 1 through 10.</span></span> <span data-ttu-id="0b14f-122">Tomēr virknes laukā <strong>A..C</strong> atrod visas vērtības, kas sākas ar &quot;A&quot; un &quot;B&quot;, un vērtības, kas ir pilnīgi vienādas ar &quot;C&quot;.</span><span class="sxs-lookup"><span data-stu-id="0b14f-122">However, in a string field, <strong>A..C</strong> finds all values that start with &quot;A&quot; and &quot;B&quot;, and values that are exactly equal to &quot;C&quot;.</span></span> <span data-ttu-id="0b14f-123">Piemēram, šis vaicājums neatradīs &quot;Ca&quot;.</span><span class="sxs-lookup"><span data-stu-id="0b14f-123">For example, this query won't find &quot;Ca&quot;.</span></span> <span data-ttu-id="0b14f-124">Lai atrastu visas vērtības no &quot;A*&quot; līdz &quot;C*&quot;, ierakstiet <strong>A..D</strong>.</span><span class="sxs-lookup"><span data-stu-id="0b14f-124">To find all values from &quot;A*&quot; through &quot;C*&quot;, type <strong>A..D</strong>.</span></span></td>
+<td><span data-ttu-id="991b3-118"><em>vērtība no</em>..<em>vērtība līdz</em> (divpunkte)</span><span class="sxs-lookup"><span data-stu-id="991b3-118"><em>from-value</em>..<em>to-value</em> (double period)</span></span></td>
+<td><span data-ttu-id="991b3-119">Starp divām vērtībām, kas atdalītas ar divpunkti</span><span class="sxs-lookup"><span data-stu-id="991b3-119">Between the two values that are separated by double periods</span></span></td>
+<td><span data-ttu-id="991b3-120">Ierakstiet, no kuras vērtības, pēc tam divus punktus un līdz kurai vērtībai.</span><span class="sxs-lookup"><span data-stu-id="991b3-120">Type the from-value, then two periods, and then the to-value.</span></span></td>
+<td><span data-ttu-id="991b3-121"><strong>1..10</strong> atrod visas vērtības no 1 līdz 10.</span><span class="sxs-lookup"><span data-stu-id="991b3-121"><strong>1..10</strong> finds all values from 1 through 10.</span></span> <span data-ttu-id="991b3-122">Tomēr virknes laukā <strong>A..C</strong> atrod visas vērtības, kas sākas ar &quot;A&quot; un &quot;B&quot;, un vērtības, kas ir pilnīgi vienādas ar &quot;C&quot;.</span><span class="sxs-lookup"><span data-stu-id="991b3-122">However, in a string field, <strong>A..C</strong> finds all values that start with &quot;A&quot; and &quot;B&quot;, and values that are exactly equal to &quot;C&quot;.</span></span> <span data-ttu-id="991b3-123">Piemēram, šis vaicājums neatradīs &quot;Ca&quot;.</span><span class="sxs-lookup"><span data-stu-id="991b3-123">For example, this query won't find &quot;Ca&quot;.</span></span> <span data-ttu-id="991b3-124">Lai atrastu visas vērtības no &quot;A*&quot; līdz &quot;C*&quot;, ierakstiet <strong>A..D</strong>.</span><span class="sxs-lookup"><span data-stu-id="991b3-124">To find all values from &quot;A*&quot; through &quot;C*&quot;, type <strong>A..D</strong>.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="0b14f-125">..<em>vērtība</em> (divpunkte)</span><span class="sxs-lookup"><span data-stu-id="0b14f-125">..<em>value</em> (double period)</span></span></td>
-<td><span data-ttu-id="0b14f-126">Mazāks vai vienāds ar ievadīto vērtību.</span><span class="sxs-lookup"><span data-stu-id="0b14f-126">Less than or equal to the value that is entered</span></span></td>
-<td><span data-ttu-id="0b14f-127">Ierakstiet divus punktus un pēc tam vērtību.</span><span class="sxs-lookup"><span data-stu-id="0b14f-127">Type two periods and then the value.</span></span></td>
-<td><span data-ttu-id="0b14f-128"><strong>..1000</strong> atrod visus skaitļus, kas ir mazāki par vai vienādi ar 1000, piemēram, &quot;100&quot;, &quot;999,95&quot; un &quot;1000&quot;.</span><span class="sxs-lookup"><span data-stu-id="0b14f-128"><strong>..1000</strong> finds any number that is less than or equal to 1000, such as &quot;100&quot;, &quot;999.95&quot;, and &quot;1,000&quot;.</span></span></td>
+<td><span data-ttu-id="991b3-125">..<em>vērtība</em> (divpunkte)</span><span class="sxs-lookup"><span data-stu-id="991b3-125">..<em>value</em> (double period)</span></span></td>
+<td><span data-ttu-id="991b3-126">Mazāks vai vienāds ar ievadīto vērtību.</span><span class="sxs-lookup"><span data-stu-id="991b3-126">Less than or equal to the value that is entered</span></span></td>
+<td><span data-ttu-id="991b3-127">Ierakstiet divus punktus un pēc tam vērtību.</span><span class="sxs-lookup"><span data-stu-id="991b3-127">Type two periods and then the value.</span></span></td>
+<td><span data-ttu-id="991b3-128"><strong>..1000</strong> atrod visus skaitļus, kas ir mazāki par vai vienādi ar 1000, piemēram, &quot;100&quot;, &quot;999,95&quot; un &quot;1000&quot;.</span><span class="sxs-lookup"><span data-stu-id="991b3-128"><strong>..1000</strong> finds any number that is less than or equal to 1000, such as &quot;100&quot;, &quot;999.95&quot;, and &quot;1,000&quot;.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="0b14f-129"><em>vērtība</em>..</span><span class="sxs-lookup"><span data-stu-id="0b14f-129"><em>value</em>..</span></span> <span data-ttu-id="0b14f-130">(divpunkte)</span><span class="sxs-lookup"><span data-stu-id="0b14f-130">(double period)</span></span></td>
-<td><span data-ttu-id="0b14f-131">Lielāks vai vienāds ar ievadīto vērtību.</span><span class="sxs-lookup"><span data-stu-id="0b14f-131">Greater than or equal to the value that is entered</span></span></td>
-<td><span data-ttu-id="0b14f-132">Ierakstiet vērtību un tad divus punktu.</span><span class="sxs-lookup"><span data-stu-id="0b14f-132">Type the value and then two periods.</span></span></td>
-<td><span data-ttu-id="0b14f-133"><strong>1000..</strong></span><span class="sxs-lookup"><span data-stu-id="0b14f-133"><strong>1000..</strong></span></span> <span data-ttu-id="0b14f-134">atrod visus skaitļus, kas ir lielāki par vai vienādi ar 1000, piemēram, &quot;1000&quot;, &quot;1000,01&quot; un &quot;1 000 000&quot;.</span><span class="sxs-lookup"><span data-stu-id="0b14f-134">finds any number that is greater than or equal to 1000, such as &quot;1,000&quot;, &quot;1,000.01&quot;, and &quot;1,000,000&quot;.</span></span></td>
+<td><span data-ttu-id="991b3-129"><em>vērtība</em>..</span><span class="sxs-lookup"><span data-stu-id="991b3-129"><em>value</em>..</span></span> <span data-ttu-id="991b3-130">(divpunkte)</span><span class="sxs-lookup"><span data-stu-id="991b3-130">(double period)</span></span></td>
+<td><span data-ttu-id="991b3-131">Lielāks vai vienāds ar ievadīto vērtību.</span><span class="sxs-lookup"><span data-stu-id="991b3-131">Greater than or equal to the value that is entered</span></span></td>
+<td><span data-ttu-id="991b3-132">Ierakstiet vērtību un tad divus punktu.</span><span class="sxs-lookup"><span data-stu-id="991b3-132">Type the value and then two periods.</span></span></td>
+<td><span data-ttu-id="991b3-133"><strong>1000..</strong></span><span class="sxs-lookup"><span data-stu-id="991b3-133"><strong>1000..</strong></span></span> <span data-ttu-id="991b3-134">atrod visus skaitļus, kas ir lielāki par vai vienādi ar 1000, piemēram, &quot;1000&quot;, &quot;1000,01&quot; un &quot;1 000 000&quot;.</span><span class="sxs-lookup"><span data-stu-id="991b3-134">finds any number that is greater than or equal to 1000, such as &quot;1,000&quot;, &quot;1,000.01&quot;, and &quot;1,000,000&quot;.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="0b14f-135">&gt;<em>vērtība</em> (zīme “lielāks par”)</span><span class="sxs-lookup"><span data-stu-id="0b14f-135">&gt;<em>value</em> (greater than sign)</span></span></td>
-<td><span data-ttu-id="0b14f-136">Lielāka par ievadīto vērtību.</span><span class="sxs-lookup"><span data-stu-id="0b14f-136">Greater than the value that is entered</span></span></td>
-<td><span data-ttu-id="0b14f-137">Ierakstiet zīmi “lielāks par” (<strong>&gt;</strong>) un pēc tam vērtību.</span><span class="sxs-lookup"><span data-stu-id="0b14f-137">Type a greater than sign (<strong>&gt;</strong>) and then the value.</span></span></td>
-<td><span data-ttu-id="0b14f-138"><strong>&gt;1000</strong> atrod visus skaitļus, kas ir lielāki par 1000, piemēram, &quot;1000,01&quot;, &quot;20 000&quot; un &quot;1 000 000&quot;.</span><span class="sxs-lookup"><span data-stu-id="0b14f-138"><strong>&gt;1000</strong> finds any number that is greater than 1000, such as &quot;1000.01&quot;, &quot;20,000&quot;, and &quot;1,000,000&quot;.</span></span></td>
+<td><span data-ttu-id="991b3-135">&gt;<em>vērtība</em> (zīme “lielāks par”)</span><span class="sxs-lookup"><span data-stu-id="991b3-135">&gt;<em>value</em> (greater than sign)</span></span></td>
+<td><span data-ttu-id="991b3-136">Lielāka par ievadīto vērtību.</span><span class="sxs-lookup"><span data-stu-id="991b3-136">Greater than the value that is entered</span></span></td>
+<td><span data-ttu-id="991b3-137">Ierakstiet zīmi “lielāks par” (<strong>&gt;</strong>) un pēc tam vērtību.</span><span class="sxs-lookup"><span data-stu-id="991b3-137">Type a greater than sign (<strong>&gt;</strong>) and then the value.</span></span></td>
+<td><span data-ttu-id="991b3-138"><strong>&gt;1000</strong> atrod visus skaitļus, kas ir lielāki par 1000, piemēram, &quot;1000,01&quot;, &quot;20 000&quot; un &quot;1 000 000&quot;.</span><span class="sxs-lookup"><span data-stu-id="991b3-138"><strong>&gt;1000</strong> finds any number that is greater than 1000, such as &quot;1000.01&quot;, &quot;20,000&quot;, and &quot;1,000,000&quot;.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="0b14f-139">&lt;<em>vērtība</em> (zīme “mazāks par”)</span><span class="sxs-lookup"><span data-stu-id="0b14f-139">&lt;<em>value</em> (less than sign)</span></span></td>
-<td><span data-ttu-id="0b14f-140">Mazāka par ievadīto vērtību.</span><span class="sxs-lookup"><span data-stu-id="0b14f-140">Less than the value that is entered</span></span></td>
-<td><span data-ttu-id="0b14f-141">Ierakstiet zīmi “mazāks par” (<strong>&lt;</strong>) un pēc tam vērtību.</span><span class="sxs-lookup"><span data-stu-id="0b14f-141">Type a less than sign (<strong>&lt;</strong>) and then the value.</span></span></td>
-<td><span data-ttu-id="0b14f-142"><strong>&lt;1000</strong> atrod visus skaitļus, kas ir mazāki 1000, piemēram, &quot;999,99&quot;, &quot;1&quot; un &quot;-200&quot;.</span><span class="sxs-lookup"><span data-stu-id="0b14f-142"><strong>&lt;1000</strong> finds any number that is less than 1000, such as &quot;999.99&quot;, &quot;1&quot;, and &quot;-200&quot;.</span></span></td>
+<td><span data-ttu-id="991b3-139">&lt;<em>vērtība</em> (zīme “mazāks par”)</span><span class="sxs-lookup"><span data-stu-id="991b3-139">&lt;<em>value</em> (less than sign)</span></span></td>
+<td><span data-ttu-id="991b3-140">Mazāka par ievadīto vērtību.</span><span class="sxs-lookup"><span data-stu-id="991b3-140">Less than the value that is entered</span></span></td>
+<td><span data-ttu-id="991b3-141">Ierakstiet zīmi “mazāks par” (<strong>&lt;</strong>) un pēc tam vērtību.</span><span class="sxs-lookup"><span data-stu-id="991b3-141">Type a less than sign (<strong>&lt;</strong>) and then the value.</span></span></td>
+<td><span data-ttu-id="991b3-142"><strong>&lt;1000</strong> atrod visus skaitļus, kas ir mazāki 1000, piemēram, &quot;999,99&quot;, &quot;1&quot; un &quot;-200&quot;.</span><span class="sxs-lookup"><span data-stu-id="991b3-142"><strong>&lt;1000</strong> finds any number that is less than 1000, such as &quot;999.99&quot;, &quot;1&quot;, and &quot;-200&quot;.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="0b14f-143"><em>vērtība</em>* (zvaigznīte)</span><span class="sxs-lookup"><span data-stu-id="0b14f-143"><em>value</em>* (asterisk)</span></span></td>
-<td><span data-ttu-id="0b14f-144">Sākot no ievadītas vērtības.</span><span class="sxs-lookup"><span data-stu-id="0b14f-144">Starting from the value that is entered</span></span></td>
-<td><span data-ttu-id="0b14f-145">Ierakstiet sākuma vērtību un pēc tam zvaigznīti (<strong>*</strong>).</span><span class="sxs-lookup"><span data-stu-id="0b14f-145">Type the starting value and then an asterisk (<strong>*</strong>).</span></span></td>
-<td><span data-ttu-id="0b14f-146"><strong>S*</strong> atrod jebkuru virkni, kas sākas ar &quot;S&quot;, piemēram, &quot;Stokholma&quot;, &quot;Sidneja&quot; un &quot;Sanfrancisko&quot;.</span><span class="sxs-lookup"><span data-stu-id="0b14f-146"><strong>S*</strong> finds any string that starts with &quot;S&quot;, such as &quot;Stockholm&quot;, &quot;Sydney&quot;, and &quot;San Francisco&quot;.</span></span></td>
+<td><span data-ttu-id="991b3-143"><em>vērtība</em>* (zvaigznīte)</span><span class="sxs-lookup"><span data-stu-id="991b3-143"><em>value</em>* (asterisk)</span></span></td>
+<td><span data-ttu-id="991b3-144">Sākot no ievadītas vērtības.</span><span class="sxs-lookup"><span data-stu-id="991b3-144">Starting from the value that is entered</span></span></td>
+<td><span data-ttu-id="991b3-145">Ierakstiet sākuma vērtību un pēc tam zvaigznīti (<strong>*</strong>).</span><span class="sxs-lookup"><span data-stu-id="991b3-145">Type the starting value and then an asterisk (<strong>*</strong>).</span></span></td>
+<td><span data-ttu-id="991b3-146"><strong>S*</strong> atrod jebkuru virkni, kas sākas ar &quot;S&quot;, piemēram, &quot;Stokholma&quot;, &quot;Sidneja&quot; un &quot;Sanfrancisko&quot;.</span><span class="sxs-lookup"><span data-stu-id="991b3-146"><strong>S*</strong> finds any string that starts with &quot;S&quot;, such as &quot;Stockholm&quot;, &quot;Sydney&quot;, and &quot;San Francisco&quot;.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="0b14f-147">*<em>vērtība</em> (zvaigznīte)</span><span class="sxs-lookup"><span data-stu-id="0b14f-147">*<em>value</em> (asterisk)</span></span></td>
-<td><span data-ttu-id="0b14f-148">Beidzas ar ievadīto vērtību.</span><span class="sxs-lookup"><span data-stu-id="0b14f-148">Ending with the value that is entered</span></span></td>
-<td><span data-ttu-id="0b14f-149">Ierakstiet zvaigznīti un pēc tam beidzamo vērtību.</span><span class="sxs-lookup"><span data-stu-id="0b14f-149">Type an asterisk and then the ending value.</span></span></td>
-<td><span data-ttu-id="0b14f-150"><strong>*austrumi</strong> atrod jebkuru virkni, kas beidzas ar &quot;austrumi&quot;, piemēram, &quot;ziemeļaustrumi&quot; un &quot;dienvidaustrumi&quot;.</span><span class="sxs-lookup"><span data-stu-id="0b14f-150"><strong>*east</strong> finds any string that ends with &quot;east&quot;, such as &quot;Northeast&quot; and &quot;Southeast&quot;.</span></span></td>
+<td><span data-ttu-id="991b3-147">*<em>vērtība</em> (zvaigznīte)</span><span class="sxs-lookup"><span data-stu-id="991b3-147">*<em>value</em> (asterisk)</span></span></td>
+<td><span data-ttu-id="991b3-148">Beidzas ar ievadīto vērtību.</span><span class="sxs-lookup"><span data-stu-id="991b3-148">Ending with the value that is entered</span></span></td>
+<td><span data-ttu-id="991b3-149">Ierakstiet zvaigznīti un pēc tam beidzamo vērtību.</span><span class="sxs-lookup"><span data-stu-id="991b3-149">Type an asterisk and then the ending value.</span></span></td>
+<td><span data-ttu-id="991b3-150"><strong>*austrumi</strong> atrod jebkuru virkni, kas beidzas ar &quot;austrumi&quot;, piemēram, &quot;ziemeļaustrumi&quot; un &quot;dienvidaustrumi&quot;.</span><span class="sxs-lookup"><span data-stu-id="991b3-150"><strong>*east</strong> finds any string that ends with &quot;east&quot;, such as &quot;Northeast&quot; and &quot;Southeast&quot;.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="0b14f-151">*<em>vērtība</em>* (zvaigznīte)</span><span class="sxs-lookup"><span data-stu-id="0b14f-151">*<em>value</em>* (asterisk)</span></span></td>
-<td><span data-ttu-id="0b14f-152">Satur ievadīto vērtību.</span><span class="sxs-lookup"><span data-stu-id="0b14f-152">Containing the value that is entered</span></span></td>
-<td><span data-ttu-id="0b14f-153">Ierakstiet zvaigznīti, pēc tam vērtību un vēl vienu zvaigznīti.</span><span class="sxs-lookup"><span data-stu-id="0b14f-153">Type an asterisk, then a value, and then another asterisk.</span></span></td>
-<td><span data-ttu-id="0b14f-154"><strong>*au*</strong> atrod jebkādu virkni, kas ietver &quot;au&quot;, piemēram, &quot;ziemeļaustrumi&quot; un &quot;dienvidaustrumi&quot;.</span><span class="sxs-lookup"><span data-stu-id="0b14f-154"><strong>*th*</strong> finds any string that contains &quot;th&quot;, such as &quot;Northeast&quot; and &quot;Southeast&quot;.</span></span></td>
+<td><span data-ttu-id="991b3-151">*<em>vērtība</em>* (zvaigznīte)</span><span class="sxs-lookup"><span data-stu-id="991b3-151">*<em>value</em>* (asterisk)</span></span></td>
+<td><span data-ttu-id="991b3-152">Satur ievadīto vērtību.</span><span class="sxs-lookup"><span data-stu-id="991b3-152">Containing the value that is entered</span></span></td>
+<td><span data-ttu-id="991b3-153">Ierakstiet zvaigznīti, pēc tam vērtību un vēl vienu zvaigznīti.</span><span class="sxs-lookup"><span data-stu-id="991b3-153">Type an asterisk, then a value, and then another asterisk.</span></span></td>
+<td><span data-ttu-id="991b3-154"><strong>*au*</strong> atrod jebkādu virkni, kas ietver &quot;au&quot;, piemēram, &quot;ziemeļaustrumi&quot; un &quot;dienvidaustrumi&quot;.</span><span class="sxs-lookup"><span data-stu-id="991b3-154"><strong>*th*</strong> finds any string that contains &quot;th&quot;, such as &quot;Northeast&quot; and &quot;Southeast&quot;.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="0b14f-155">?</span><span class="sxs-lookup"><span data-stu-id="0b14f-155">?</span></span> <span data-ttu-id="0b14f-156">(jautājuma zīme)</span><span class="sxs-lookup"><span data-stu-id="0b14f-156">(question mark)</span></span></td>
-<td><span data-ttu-id="0b14f-157">Satur vienu vai vairākas nezināmas zīmes.</span><span class="sxs-lookup"><span data-stu-id="0b14f-157">Having one or more unknown characters</span></span></td>
-<td><span data-ttu-id="0b14f-158">Ierakstiet jautājuma zīmi nezināmās zīmes vietā vērtībā.</span><span class="sxs-lookup"><span data-stu-id="0b14f-158">Type a question mark at the position of the unknown character in the value.</span></span></td>
-<td><span data-ttu-id="0b14f-159"><strong>Sm?ts</strong> atrod &quot;Smits&quot; un &quot;Smats&quot;.</span><span class="sxs-lookup"><span data-stu-id="0b14f-159"><strong>Sm?th</strong> finds &quot;Smith&quot; and &quot;Smyth&quot;.</span></span></td>
+<td><span data-ttu-id="991b3-155">?</span><span class="sxs-lookup"><span data-stu-id="991b3-155">?</span></span> <span data-ttu-id="991b3-156">(jautājuma zīme)</span><span class="sxs-lookup"><span data-stu-id="991b3-156">(question mark)</span></span></td>
+<td><span data-ttu-id="991b3-157">Satur vienu vai vairākas nezināmas zīmes.</span><span class="sxs-lookup"><span data-stu-id="991b3-157">Having one or more unknown characters</span></span></td>
+<td><span data-ttu-id="991b3-158">Ierakstiet jautājuma zīmi nezināmās zīmes vietā vērtībā.</span><span class="sxs-lookup"><span data-stu-id="991b3-158">Type a question mark at the position of the unknown character in the value.</span></span></td>
+<td><span data-ttu-id="991b3-159"><strong>Sm?ts</strong> atrod &quot;Smits&quot; un &quot;Smats&quot;.</span><span class="sxs-lookup"><span data-stu-id="991b3-159"><strong>Sm?th</strong> finds &quot;Smith&quot; and &quot;Smyth&quot;.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="0b14f-160"><em>vērtība</em>,<em>vērtība</em> (komats)</span><span class="sxs-lookup"><span data-stu-id="0b14f-160"><em>value</em>,<em>value</em> (comma)</span></span></td>
-<td><span data-ttu-id="0b14f-161">Atbilst vērtībām, kas atdalītas ar komatiem.</span><span class="sxs-lookup"><span data-stu-id="0b14f-161">Matching the values that are separated by commas</span></span></td>
-<td><span data-ttu-id="0b14f-162">Ierakstiet visus kritērijus un atdaliet tās ar komatiem.</span><span class="sxs-lookup"><span data-stu-id="0b14f-162">Type all your criteria, and separate them by using commas.</span></span></td>
-<td><span data-ttu-id="0b14f-163"><strong>A, D, F, G</strong> atrod &quot;A&quot;, &quot;D&quot;, &quot;F&quot; un &quot;G&quot;.</span><span class="sxs-lookup"><span data-stu-id="0b14f-163"><strong>A, D, F, G</strong> finds exactly &quot;A&quot;, &quot;D&quot;, &quot;F&quot;, and &quot;G&quot;.</span></span> <span data-ttu-id="0b14f-164"><strong>10, 20, 30, 100</strong> atrod &quot;10, 20, 30, 100&quot;.</span><span class="sxs-lookup"><span data-stu-id="0b14f-164"><strong>10, 20, 30, 100</strong> finds exactly &quot;10, 20, 30, 100&quot;.</span></span></td>
+<td><span data-ttu-id="991b3-160"><em>vērtība</em>,<em>vērtība</em> (komats)</span><span class="sxs-lookup"><span data-stu-id="991b3-160"><em>value</em>,<em>value</em> (comma)</span></span></td>
+<td><span data-ttu-id="991b3-161">Atbilst vērtībām, kas atdalītas ar komatiem.</span><span class="sxs-lookup"><span data-stu-id="991b3-161">Matching the values that are separated by commas</span></span></td>
+<td><span data-ttu-id="991b3-162">Ierakstiet visus kritērijus un atdaliet tās ar komatiem.</span><span class="sxs-lookup"><span data-stu-id="991b3-162">Type all your criteria, and separate them by using commas.</span></span></td>
+<td><span data-ttu-id="991b3-163"><strong>A, D, F, G</strong> atrod &quot;A&quot;, &quot;D&quot;, &quot;F&quot; un &quot;G&quot;.</span><span class="sxs-lookup"><span data-stu-id="991b3-163"><strong>A, D, F, G</strong> finds exactly &quot;A&quot;, &quot;D&quot;, &quot;F&quot;, and &quot;G&quot;.</span></span> <span data-ttu-id="991b3-164"><strong>10, 20, 30, 100</strong> atrod &quot;10, 20, 30, 100&quot;.</span><span class="sxs-lookup"><span data-stu-id="991b3-164"><strong>10, 20, 30, 100</strong> finds exactly &quot;10, 20, 30, 100&quot;.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="0b14f-165">(<span class="code">SQL priekšraksts</span>) (SQL priekšraksts iekavās)</span><span class="sxs-lookup"><span data-stu-id="0b14f-165">(<span class="code">SQL statement</span>) (SQL statement between parentheses)</span></span></td>
-<td><span data-ttu-id="0b14f-166">Atbilst definētajam vaicājumam.</span><span class="sxs-lookup"><span data-stu-id="0b14f-166">Matching a defined query</span></span></td>
-<td><span data-ttu-id="0b14f-167">Ierakstiet vaicājumu kā SQL priekšraksts apaļās iekavās.</span><span class="sxs-lookup"><span data-stu-id="0b14f-167">Type a query as an SQL statement between parentheses.</span></span></td>
-<td><span data-ttu-id="0b14f-168"><strong><span class="code">(datu avots.Lauka nosaukums != &quot;A&quot;)</span></strong></span><span class="sxs-lookup"><span data-stu-id="0b14f-168"><strong><span class="code">(data source.Fieldname != &quot;A&quot;)</span></strong></span></span></td>
+<td><span data-ttu-id="991b3-165">(<span class="code">SQL priekšraksts</span>) (SQL priekšraksts iekavās)</span><span class="sxs-lookup"><span data-stu-id="991b3-165">(<span class="code">SQL statement</span>) (SQL statement between parentheses)</span></span></td>
+<td><span data-ttu-id="991b3-166">Atbilst definētajam vaicājumam.</span><span class="sxs-lookup"><span data-stu-id="991b3-166">Matching a defined query</span></span></td>
+<td><span data-ttu-id="991b3-167">Ierakstiet vaicājumu kā SQL priekšraksts apaļās iekavās.</span><span class="sxs-lookup"><span data-stu-id="991b3-167">Type a query as an SQL statement between parentheses.</span></span></td>
+<td><span data-ttu-id="991b3-168"><strong><span class="code">(datu avots.Lauka nosaukums != &quot;A&quot;)</span></strong></span><span class="sxs-lookup"><span data-stu-id="991b3-168"><strong><span class="code">(data source.Fieldname != &quot;A&quot;)</span></strong></span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="0b14f-169">O</span><span class="sxs-lookup"><span data-stu-id="0b14f-169">T</span></span></td>
-<td><span data-ttu-id="0b14f-170">Šodienas datums</span><span class="sxs-lookup"><span data-stu-id="0b14f-170">Today's date</span></span></td>
-<td><span data-ttu-id="0b14f-171"><strong>T</strong> veida.</span><span class="sxs-lookup"><span data-stu-id="0b14f-171">Type <strong>T</strong>.</span></span></td>
-<td><span data-ttu-id="0b14f-172"><strong>T</strong> atbilst šodienas datumam.</span><span class="sxs-lookup"><span data-stu-id="0b14f-172"><strong>T</strong> matches today's date.</span></span></td>
+<td><span data-ttu-id="991b3-169">O</span><span class="sxs-lookup"><span data-stu-id="991b3-169">T</span></span></td>
+<td><span data-ttu-id="991b3-170">Šodienas datums</span><span class="sxs-lookup"><span data-stu-id="991b3-170">Today's date</span></span></td>
+<td><span data-ttu-id="991b3-171"><strong>T</strong> veida.</span><span class="sxs-lookup"><span data-stu-id="991b3-171">Type <strong>T</strong>.</span></span></td>
+<td><span data-ttu-id="991b3-172"><strong>T</strong> atbilst šodienas datumam.</span><span class="sxs-lookup"><span data-stu-id="991b3-172"><strong>T</strong> matches today's date.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="0b14f-173">(methodName(parameters)) (<strong>SysQueryRangeUtil</strong> metode iekavās)</span><span class="sxs-lookup"><span data-stu-id="0b14f-173">(methodName(parameters)) (<strong>SysQueryRangeUtil</strong> method between parentheses)</span></span></td>
-<td><span data-ttu-id="0b14f-174">Atbilstība metodes <strong>SysQueryRangeUtil</strong> parametru norādītajai vērtībai vai vērtību diapazonam</span><span class="sxs-lookup"><span data-stu-id="0b14f-174">Matching the value or range of values that are specified by the parameters of the <strong>SysQueryRangeUtil</strong> method</span></span></td>
-<td><span data-ttu-id="0b14f-175">Ierakstiet metodi <strong>SysQueryRangeUtil</strong>, kurai ir parametri, kas norāda vērtību vai vērtību diapazonu.</span><span class="sxs-lookup"><span data-stu-id="0b14f-175">Type a <strong>SysQueryRangeUtil</strong> method that has parameters that specify the value or range of values.</span></span></td>
+<td><span data-ttu-id="991b3-173">(methodName(parameters)) (<strong>SysQueryRangeUtil</strong> metode iekavās)</span><span class="sxs-lookup"><span data-stu-id="991b3-173">(methodName(parameters)) (<strong>SysQueryRangeUtil</strong> method between parentheses)</span></span></td>
+<td><span data-ttu-id="991b3-174">Atbilstība metodes <strong>SysQueryRangeUtil</strong> parametru norādītajai vērtībai vai vērtību diapazonam</span><span class="sxs-lookup"><span data-stu-id="991b3-174">Matching the value or range of values that are specified by the parameters of the <strong>SysQueryRangeUtil</strong> method</span></span></td>
+<td><span data-ttu-id="991b3-175">Ierakstiet metodi <strong>SysQueryRangeUtil</strong>, kurai ir parametri, kas norāda vērtību vai vērtību diapazonu.</span><span class="sxs-lookup"><span data-stu-id="991b3-175">Type a <strong>SysQueryRangeUtil</strong> method that has parameters that specify the value or range of values.</span></span></td>
 <td><ol>
-<li><span data-ttu-id="0b14f-176">Noklikšķiniet uz <strong>Debitoru parādi</strong> &gt; <strong>Rēķini</strong> &gt; <strong>Atvērtie debitoru rēķini</strong>.</span><span class="sxs-lookup"><span data-stu-id="0b14f-176">Click <strong>Accounts receivable</strong> &gt; <strong>Invoices</strong> &gt; <strong>Open customer invoices</strong>.</span></span></li>
-<li><span data-ttu-id="0b14f-177">Nospiediet taustiņu kombināciju Ctrl+Shift+F3, lai atvērtu lapu <strong>Uzziņas</strong>.</span><span class="sxs-lookup"><span data-stu-id="0b14f-177">Press Ctrl+Shift+F3 to open the <strong>Inquiry</strong> page.</span></span></li>
-<li><span data-ttu-id="0b14f-178">Cilnē <strong>Diapazons</strong> noklikšķiniet uz <strong>Pievienot</strong>.</span><span class="sxs-lookup"><span data-stu-id="0b14f-178">On the <strong>Range</strong> tab, click <strong>Add</strong>.</span></span></li>
-<li><span data-ttu-id="0b14f-179">Laukā <strong>Tabula</strong> atlasiet <strong>Neapmaksātās debitora darbības</strong>.</span><span class="sxs-lookup"><span data-stu-id="0b14f-179">In the <strong>Table</strong> field, select <strong>Open customer transactions</strong>.</span></span></li>
-<li><span data-ttu-id="0b14f-180">Laukā <strong>Lauks</strong> atlasiet <strong>Izpildes datums</strong>.</span><span class="sxs-lookup"><span data-stu-id="0b14f-180">In the <strong>Field</strong> field, select <strong>Due date</strong>.</span></span></li>
-<li><span data-ttu-id="0b14f-181">Laukā <strong>Kritēriji</strong> ievadiet <strong>(yearRange(-2,0))</strong>.</span><span class="sxs-lookup"><span data-stu-id="0b14f-181">In the <strong>Criteria</strong> field, enter <strong>(yearRange(-2,0))</strong>.</span></span></li>
-<li><span data-ttu-id="0b14f-182">Noklikšķiniet uz <strong>OK</strong>.</span><span class="sxs-lookup"><span data-stu-id="0b14f-182">Click <strong>OK</strong>.</span></span> <span data-ttu-id="0b14f-183">Saraksta lapa tiek atjaunināta, un tajā ir uzskaitīti kritērijiem atbilstoši ievadītie rēķini.</span><span class="sxs-lookup"><span data-stu-id="0b14f-183">The list page is updated and lists the invoices that match the criterion that you entered.</span></span> <span data-ttu-id="0b14f-184">Šajā piemērā ir uzskaitīti rēķini, kas bija jāmaksā iepriekšējo divu gadu laikā.</span><span class="sxs-lookup"><span data-stu-id="0b14f-184">For this example, invoices that were due in the previous two years are listed.</span></span></li>
+<li><span data-ttu-id="991b3-176">Noklikšķiniet uz <strong>Debitoru parādi</strong> &gt; <strong>Rēķini</strong> &gt; <strong>Atvērtie debitoru rēķini</strong>.</span><span class="sxs-lookup"><span data-stu-id="991b3-176">Click <strong>Accounts receivable</strong> &gt; <strong>Invoices</strong> &gt; <strong>Open customer invoices</strong>.</span></span></li>
+<li><span data-ttu-id="991b3-177">Nospiediet taustiņu kombināciju Ctrl+Shift+F3, lai atvērtu lapu <strong>Uzziņas</strong>.</span><span class="sxs-lookup"><span data-stu-id="991b3-177">Press Ctrl+Shift+F3 to open the <strong>Inquiry</strong> page.</span></span></li>
+<li><span data-ttu-id="991b3-178">Cilnē <strong>Diapazons</strong> noklikšķiniet uz <strong>Pievienot</strong>.</span><span class="sxs-lookup"><span data-stu-id="991b3-178">On the <strong>Range</strong> tab, click <strong>Add</strong>.</span></span></li>
+<li><span data-ttu-id="991b3-179">Laukā <strong>Tabula</strong> atlasiet <strong>Neapmaksātās debitora darbības</strong>.</span><span class="sxs-lookup"><span data-stu-id="991b3-179">In the <strong>Table</strong> field, select <strong>Open customer transactions</strong>.</span></span></li>
+<li><span data-ttu-id="991b3-180">Laukā <strong>Lauks</strong> atlasiet <strong>Izpildes datums</strong>.</span><span class="sxs-lookup"><span data-stu-id="991b3-180">In the <strong>Field</strong> field, select <strong>Due date</strong>.</span></span></li>
+<li><span data-ttu-id="991b3-181">Laukā <strong>Kritēriji</strong> ievadiet <strong>(yearRange(-2,0))</strong>.</span><span class="sxs-lookup"><span data-stu-id="991b3-181">In the <strong>Criteria</strong> field, enter <strong>(yearRange(-2,0))</strong>.</span></span></li>
+<li><span data-ttu-id="991b3-182">Noklikšķiniet uz <strong>OK</strong>.</span><span class="sxs-lookup"><span data-stu-id="991b3-182">Click <strong>OK</strong>.</span></span> <span data-ttu-id="991b3-183">Saraksta lapa tiek atjaunināta, un tajā ir uzskaitīti kritērijiem atbilstoši ievadītie rēķini.</span><span class="sxs-lookup"><span data-stu-id="991b3-183">The list page is updated and lists the invoices that match the criterion that you entered.</span></span> <span data-ttu-id="991b3-184">Šajā piemērā ir uzskaitīti rēķini, kas bija jāmaksā iepriekšējo divu gadu laikā.</span><span class="sxs-lookup"><span data-stu-id="991b3-184">For this example, invoices that were due in the previous two years are listed.</span></span></li>
 </ol>
-<span data-ttu-id="0b14f-185">Papildinformāciju, kā arī vairākus piemērus par <strong>SysQueryRangeUtil</strong> datuma metodēm skatiet tabulā nākamajā sadaļā.</span><span class="sxs-lookup"><span data-stu-id="0b14f-185">See the table in the next section for additional details about <strong>SysQueryRangeUtil</strong> date methods, and several examples.</span></span></td>
+<span data-ttu-id="991b3-185">Papildinformāciju, kā arī vairākus piemērus par <strong>SysQueryRangeUtil</strong> datuma metodēm skatiet tabulā nākamajā sadaļā.</span><span class="sxs-lookup"><span data-stu-id="991b3-185">See the table in the next section for additional details about <strong>SysQueryRangeUtil</strong> date methods, and several examples.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="advanced-date-queries-that-use-sysqueryrangeutil-methods"></a><span data-ttu-id="0b14f-186">Papildu datumu vaicājumi, kas lieto SysQueryRangeUtil metodes</span><span class="sxs-lookup"><span data-stu-id="0b14f-186">Advanced date queries that use SysQueryRangeUtil methods</span></span>
+## <a name="advanced-date-queries-that-use-sysqueryrangeutil-methods"></a><span data-ttu-id="991b3-186">Papildu datumu vaicājumi, kas lieto SysQueryRangeUtil metodes</span><span class="sxs-lookup"><span data-stu-id="991b3-186">Advanced date queries that use SysQueryRangeUtil methods</span></span>
 <table>
 <colgroup>
 <col width="33%" />
@@ -163,71 +163,71 @@ ms.lasthandoff: 11/03/2017
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0b14f-187">Metode</span><span class="sxs-lookup"><span data-stu-id="0b14f-187">Method</span></span></th>
-<th><span data-ttu-id="0b14f-188">Apraksts</span><span class="sxs-lookup"><span data-stu-id="0b14f-188">Description</span></span></th>
-<th><span data-ttu-id="0b14f-189">Piemērs</span><span class="sxs-lookup"><span data-stu-id="0b14f-189">Example</span></span></th>
+<th><span data-ttu-id="991b3-187">Metode</span><span class="sxs-lookup"><span data-stu-id="991b3-187">Method</span></span></th>
+<th><span data-ttu-id="991b3-188">Apraksts</span><span class="sxs-lookup"><span data-stu-id="991b3-188">Description</span></span></th>
+<th><span data-ttu-id="991b3-189">Piemērs</span><span class="sxs-lookup"><span data-stu-id="991b3-189">Example</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="0b14f-190">Diena (_relativeDays=0)</span><span class="sxs-lookup"><span data-stu-id="0b14f-190">Day (_relativeDays=0)</span></span></td>
-<td><span data-ttu-id="0b14f-191">Atrodiet datumu, kas atbilst sesijas datumam.</span><span class="sxs-lookup"><span data-stu-id="0b14f-191">Find a date relative to the session date.</span></span> <span data-ttu-id="0b14f-192">Pozitīvās vērtības norāda turpmākos datumus, bet negatīvas vērtības norāda iepriekšējos datumus.</span><span class="sxs-lookup"><span data-stu-id="0b14f-192">Positive values indicate future dates, and negative values indicate past dates.</span></span></td>
+<td><span data-ttu-id="991b3-190">Diena (_relativeDays=0)</span><span class="sxs-lookup"><span data-stu-id="991b3-190">Day (_relativeDays=0)</span></span></td>
+<td><span data-ttu-id="991b3-191">Atrodiet datumu, kas atbilst sesijas datumam.</span><span class="sxs-lookup"><span data-stu-id="991b3-191">Find a date relative to the session date.</span></span> <span data-ttu-id="991b3-192">Pozitīvās vērtības norāda turpmākos datumus, bet negatīvas vērtības norāda iepriekšējos datumus.</span><span class="sxs-lookup"><span data-stu-id="991b3-192">Positive values indicate future dates, and negative values indicate past dates.</span></span></td>
 <td><ul>
-<li><span data-ttu-id="0b14f-193"><strong>Rīt</strong> — ievadiet <strong>(Day(1))</strong>.</span><span class="sxs-lookup"><span data-stu-id="0b14f-193"><strong>Tomorrow</strong> – Enter <strong>(Day(1))</strong>.</span></span></li>
-<li><span data-ttu-id="0b14f-194"><strong>Šodien</strong> — ievadiet <strong>(Day(0))</strong>.</span><span class="sxs-lookup"><span data-stu-id="0b14f-194"><strong>Today</strong> – Enter <strong>(Day(0))</strong>.</span></span></li>
-<li><span data-ttu-id="0b14f-195"><strong>Vakar</strong> — ievadiet <strong>(Day(-1))</strong>.</span><span class="sxs-lookup"><span data-stu-id="0b14f-195"><strong>Yesterday</strong> – Enter <strong>(Day(-1))</strong>.</span></span></li>
+<li><span data-ttu-id="991b3-193"><strong>Rīt</strong> — ievadiet <strong>(Day(1))</strong>.</span><span class="sxs-lookup"><span data-stu-id="991b3-193"><strong>Tomorrow</strong> – Enter <strong>(Day(1))</strong>.</span></span></li>
+<li><span data-ttu-id="991b3-194"><strong>Šodien</strong> — ievadiet <strong>(Day(0))</strong>.</span><span class="sxs-lookup"><span data-stu-id="991b3-194"><strong>Today</strong> – Enter <strong>(Day(0))</strong>.</span></span></li>
+<li><span data-ttu-id="991b3-195"><strong>Vakar</strong> — ievadiet <strong>(Day(-1))</strong>.</span><span class="sxs-lookup"><span data-stu-id="991b3-195"><strong>Yesterday</strong> – Enter <strong>(Day(-1))</strong>.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="0b14f-196">DayRange (_relativeDaysFrom=0, _relativeDaysTo=0)</span><span class="sxs-lookup"><span data-stu-id="0b14f-196">DayRange (_relativeDaysFrom=0, _relativeDaysTo=0)</span></span></td>
-<td><span data-ttu-id="0b14f-197">Atrodiet datumu diapazonu, kas atbilst sesijas datumam.</span><span class="sxs-lookup"><span data-stu-id="0b14f-197">Find a range of dates relative to the session date.</span></span> <span data-ttu-id="0b14f-198">Pozitīvās vērtības norāda turpmākos datumus, bet negatīvas vērtības norāda iepriekšējos datumus.</span><span class="sxs-lookup"><span data-stu-id="0b14f-198">Positive values indicate future dates, and negative values indicate past dates.</span></span></td>
+<td><span data-ttu-id="991b3-196">DayRange (_relativeDaysFrom=0, _relativeDaysTo=0)</span><span class="sxs-lookup"><span data-stu-id="991b3-196">DayRange (_relativeDaysFrom=0, _relativeDaysTo=0)</span></span></td>
+<td><span data-ttu-id="991b3-197">Atrodiet datumu diapazonu, kas atbilst sesijas datumam.</span><span class="sxs-lookup"><span data-stu-id="991b3-197">Find a range of dates relative to the session date.</span></span> <span data-ttu-id="991b3-198">Pozitīvās vērtības norāda turpmākos datumus, bet negatīvas vērtības norāda iepriekšējos datumus.</span><span class="sxs-lookup"><span data-stu-id="991b3-198">Positive values indicate future dates, and negative values indicate past dates.</span></span></td>
 <td><ul>
-<li><span data-ttu-id="0b14f-199"><strong>Pēdējās 30 dienas</strong> — ievadiet <strong>(DayRange(-30,0))</strong>.</span><span class="sxs-lookup"><span data-stu-id="0b14f-199"><strong>Last 30 days</strong> – Enter <strong>(DayRange(-30,0))</strong>.</span></span></li>
-<li><span data-ttu-id="0b14f-200"><strong>Iepriekšējās 30 dienas un nākamās 30 dienas</strong> — ievadiet <strong>(DayRange(-30,30))</strong>.</span><span class="sxs-lookup"><span data-stu-id="0b14f-200"><strong>Previous 30 days and next 30 days</strong> – Enter <strong>(DayRange(-30,30))</strong>.</span></span></li>
+<li><span data-ttu-id="991b3-199"><strong>Pēdējās 30 dienas</strong> — ievadiet <strong>(DayRange(-30,0))</strong>.</span><span class="sxs-lookup"><span data-stu-id="991b3-199"><strong>Last 30 days</strong> – Enter <strong>(DayRange(-30,0))</strong>.</span></span></li>
+<li><span data-ttu-id="991b3-200"><strong>Iepriekšējās 30 dienas un nākamās 30 dienas</strong> — ievadiet <strong>(DayRange(-30,30))</strong>.</span><span class="sxs-lookup"><span data-stu-id="991b3-200"><strong>Previous 30 days and next 30 days</strong> – Enter <strong>(DayRange(-30,30))</strong>.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="0b14f-201">GreaterThanDate (_relativeDays=0) GreaterThanUtcDate (_relativeDays=0)</span><span class="sxs-lookup"><span data-stu-id="0b14f-201">GreaterThanDate (_relativeDays=0) GreaterThanUtcDate (_relativeDays=0)</span></span></td>
-<td><span data-ttu-id="0b14f-202">Atrast visus datumus pēc norādītā atbilstošā datuma.</span><span class="sxs-lookup"><span data-stu-id="0b14f-202">Find all dates after the specified relative date.</span></span></td>
+<td><span data-ttu-id="991b3-201">GreaterThanDate (_relativeDays=0) GreaterThanUtcDate (_relativeDays=0)</span><span class="sxs-lookup"><span data-stu-id="991b3-201">GreaterThanDate (_relativeDays=0) GreaterThanUtcDate (_relativeDays=0)</span></span></td>
+<td><span data-ttu-id="991b3-202">Atrast visus datumus pēc norādītā atbilstošā datuma.</span><span class="sxs-lookup"><span data-stu-id="991b3-202">Find all dates after the specified relative date.</span></span></td>
 <td><ul>
-<li><span data-ttu-id="0b14f-203"><strong>Vairāk nekā 30 dienas no šodienas</strong> — ievadiet <strong>(GreaterThanDate(30))</strong>.</span><span class="sxs-lookup"><span data-stu-id="0b14f-203"><strong>More than 30 days from now</strong> – Enter <strong>(GreaterThanDate(30))</strong>.</span></span></li>
+<li><span data-ttu-id="991b3-203"><strong>Vairāk nekā 30 dienas no šodienas</strong> — ievadiet <strong>(GreaterThanDate(30))</strong>.</span><span class="sxs-lookup"><span data-stu-id="991b3-203"><strong>More than 30 days from now</strong> – Enter <strong>(GreaterThanDate(30))</strong>.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="0b14f-204">GreaterThanUtcNow ()</span><span class="sxs-lookup"><span data-stu-id="0b14f-204">GreaterThanUtcNow ()</span></span></td>
-<td><span data-ttu-id="0b14f-205">Atrodiet visus datumu/laika ierakstus pēc pašreizējā laika.</span><span class="sxs-lookup"><span data-stu-id="0b14f-205">Find all date/time entries after the current time.</span></span></td>
+<td><span data-ttu-id="991b3-204">GreaterThanUtcNow ()</span><span class="sxs-lookup"><span data-stu-id="991b3-204">GreaterThanUtcNow ()</span></span></td>
+<td><span data-ttu-id="991b3-205">Atrodiet visus datumu/laika ierakstus pēc pašreizējā laika.</span><span class="sxs-lookup"><span data-stu-id="991b3-205">Find all date/time entries after the current time.</span></span></td>
 <td><ul>
-<li><span data-ttu-id="0b14f-206"><strong>Visi turpmākie datumi/laiki</strong> — ievadiet <strong>(GreaterThanUtcNow())</strong>.</span><span class="sxs-lookup"><span data-stu-id="0b14f-206"><strong>All future date/times</strong> – Enter <strong>(GreaterThanUtcNow())</strong>.</span></span></li>
+<li><span data-ttu-id="991b3-206"><strong>Visi turpmākie datumi/laiki</strong> — ievadiet <strong>(GreaterThanUtcNow())</strong>.</span><span class="sxs-lookup"><span data-stu-id="991b3-206"><strong>All future date/times</strong> – Enter <strong>(GreaterThanUtcNow())</strong>.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="0b14f-207">LessThanDate (_relativeDays=0) LessThanUtcDate (_relativeDays=0)</span><span class="sxs-lookup"><span data-stu-id="0b14f-207">LessThanDate (_relativeDays=0) LessThanUtcDate (_relativeDays=0)</span></span></td>
-<td><span data-ttu-id="0b14f-208">Atrodiet visus datumus pirms norādītā atbilstošā datuma.</span><span class="sxs-lookup"><span data-stu-id="0b14f-208">Find all dates before the specified relative date.</span></span></td>
+<td><span data-ttu-id="991b3-207">LessThanDate (_relativeDays=0) LessThanUtcDate (_relativeDays=0)</span><span class="sxs-lookup"><span data-stu-id="991b3-207">LessThanDate (_relativeDays=0) LessThanUtcDate (_relativeDays=0)</span></span></td>
+<td><span data-ttu-id="991b3-208">Atrodiet visus datumus pirms norādītā atbilstošā datuma.</span><span class="sxs-lookup"><span data-stu-id="991b3-208">Find all dates before the specified relative date.</span></span></td>
 <td><ul>
-<li><span data-ttu-id="0b14f-209"><strong>Mazāk nekā septiņas dienas no šodienas</strong> — ievadiet <strong>(LessThanDate(7))</strong>.</span><span class="sxs-lookup"><span data-stu-id="0b14f-209"><strong>Less than seven days from now</strong> – Enter <strong>(LessThanDate(7))</strong>.</span></span></li>
+<li><span data-ttu-id="991b3-209"><strong>Mazāk nekā septiņas dienas no šodienas</strong> — ievadiet <strong>(LessThanDate(7))</strong>.</span><span class="sxs-lookup"><span data-stu-id="991b3-209"><strong>Less than seven days from now</strong> – Enter <strong>(LessThanDate(7))</strong>.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="0b14f-210">LessThanUtcNow ()</span><span class="sxs-lookup"><span data-stu-id="0b14f-210">LessThanUtcNow ()</span></span></td>
-<td><span data-ttu-id="0b14f-211">Atrodiet visus datumu/laika ierakstus pirms pašreizējā laika.</span><span class="sxs-lookup"><span data-stu-id="0b14f-211">Find all date/time entries before the current time.</span></span></td>
+<td><span data-ttu-id="991b3-210">LessThanUtcNow ()</span><span class="sxs-lookup"><span data-stu-id="991b3-210">LessThanUtcNow ()</span></span></td>
+<td><span data-ttu-id="991b3-211">Atrodiet visus datumu/laika ierakstus pirms pašreizējā laika.</span><span class="sxs-lookup"><span data-stu-id="991b3-211">Find all date/time entries before the current time.</span></span></td>
 <td><ul>
-<li><span data-ttu-id="0b14f-212"><strong>Vis iepriekšējie datumi/laiki</strong> — ievadiet <strong>(LessThanUtcNow())</strong>.</span><span class="sxs-lookup"><span data-stu-id="0b14f-212"><strong>All past date/times</strong> – Enter <strong>(LessThanUtcNow())</strong>.</span></span></li>
+<li><span data-ttu-id="991b3-212"><strong>Vis iepriekšējie datumi/laiki</strong> — ievadiet <strong>(LessThanUtcNow())</strong>.</span><span class="sxs-lookup"><span data-stu-id="991b3-212"><strong>All past date/times</strong> – Enter <strong>(LessThanUtcNow())</strong>.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="0b14f-213">MonthRange (_relativeFrom=0, _relativeTo=0)</span><span class="sxs-lookup"><span data-stu-id="0b14f-213">MonthRange (_relativeFrom=0, _relativeTo=0)</span></span></td>
-<td><span data-ttu-id="0b14f-214">Atrodiet pašreizējo mēnesi datumu diapazonā, kurā norādīti mēneši.</span><span class="sxs-lookup"><span data-stu-id="0b14f-214">Find a range of dates, based on months relative to the current month.</span></span></td>
+<td><span data-ttu-id="991b3-213">MonthRange (_relativeFrom=0, _relativeTo=0)</span><span class="sxs-lookup"><span data-stu-id="991b3-213">MonthRange (_relativeFrom=0, _relativeTo=0)</span></span></td>
+<td><span data-ttu-id="991b3-214">Atrodiet pašreizējo mēnesi datumu diapazonā, kurā norādīti mēneši.</span><span class="sxs-lookup"><span data-stu-id="991b3-214">Find a range of dates, based on months relative to the current month.</span></span></td>
 <td><ul>
-<li><span data-ttu-id="0b14f-215"><strong>Iepriekšējie divi mēneši</strong> — ievadiet <strong>(MonthRange(-2,0))</strong>.</span><span class="sxs-lookup"><span data-stu-id="0b14f-215"><strong>Previous two months</strong> – Enter <strong>(MonthRange(-2,0))</strong>.</span></span></li>
-<li><span data-ttu-id="0b14f-216"><strong>Nākamie trīs mēneši</strong> — ievadiet <strong>(MonthRange(0,3))</strong>.</span><span class="sxs-lookup"><span data-stu-id="0b14f-216"><strong>Next three months</strong> – Enter <strong>(MonthRange(0,3))</strong>.</span></span></li>
+<li><span data-ttu-id="991b3-215"><strong>Iepriekšējie divi mēneši</strong> — ievadiet <strong>(MonthRange(-2,0))</strong>.</span><span class="sxs-lookup"><span data-stu-id="991b3-215"><strong>Previous two months</strong> – Enter <strong>(MonthRange(-2,0))</strong>.</span></span></li>
+<li><span data-ttu-id="991b3-216"><strong>Nākamie trīs mēneši</strong> — ievadiet <strong>(MonthRange(0,3))</strong>.</span><span class="sxs-lookup"><span data-stu-id="991b3-216"><strong>Next three months</strong> – Enter <strong>(MonthRange(0,3))</strong>.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="0b14f-217">YearRange (_relativeFrom=0, _relativeTo=0)</span><span class="sxs-lookup"><span data-stu-id="0b14f-217">YearRange (_relativeFrom=0, _relativeTo=0)</span></span></td>
-<td><span data-ttu-id="0b14f-218">Atrodiet pašreizējo gadu datumu diapazonā, kurā norādīti gadi.</span><span class="sxs-lookup"><span data-stu-id="0b14f-218">Find a range of dates, based on years relative to the current year.</span></span></td>
+<td><span data-ttu-id="991b3-217">YearRange (_relativeFrom=0, _relativeTo=0)</span><span class="sxs-lookup"><span data-stu-id="991b3-217">YearRange (_relativeFrom=0, _relativeTo=0)</span></span></td>
+<td><span data-ttu-id="991b3-218">Atrodiet pašreizējo gadu datumu diapazonā, kurā norādīti gadi.</span><span class="sxs-lookup"><span data-stu-id="991b3-218">Find a range of dates, based on years relative to the current year.</span></span></td>
 <td><ul>
-<li><span data-ttu-id="0b14f-219"><strong>Nākamais gads</strong> — ievadiet <strong>(YearRange(0, 1))</strong>.</span><span class="sxs-lookup"><span data-stu-id="0b14f-219"><strong>Next year</strong> – Enter <strong>(YearRange(0, 1))</strong>.</span></span></li>
-<li><span data-ttu-id="0b14f-220"><strong>Iepriekšējais gads</strong> — ievadiet <strong>(YearRange(-1,0))</strong>.</span><span class="sxs-lookup"><span data-stu-id="0b14f-220"><strong>Previous year</strong> – Enter <strong>(YearRange(-1,0))</strong>.</span></span></li>
+<li><span data-ttu-id="991b3-219"><strong>Nākamais gads</strong> — ievadiet <strong>(YearRange(0, 1))</strong>.</span><span class="sxs-lookup"><span data-stu-id="991b3-219"><strong>Next year</strong> – Enter <strong>(YearRange(0, 1))</strong>.</span></span></li>
+<li><span data-ttu-id="991b3-220"><strong>Iepriekšējais gads</strong> — ievadiet <strong>(YearRange(-1,0))</strong>.</span><span class="sxs-lookup"><span data-stu-id="991b3-220"><strong>Previous year</strong> – Enter <strong>(YearRange(-1,0))</strong>.</span></span></li>
 </ul></td>
 </tr>
 </tbody>
