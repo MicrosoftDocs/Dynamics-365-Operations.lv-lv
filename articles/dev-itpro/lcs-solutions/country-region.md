@@ -3,24 +3,24 @@ title: "Lokalizācijas un normatīvie līdzekļi"
 description: "Šajā tēmā ir sniegts saraksts ar resursiem, kas jums var noderēt, lai uzzinātu papildinformāciju par valstij/reģionam specifisko funkcionalitāti."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/30/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
-ms.openlocfilehash: fd01d40d3e74503e3e310132882306ed8c23ad1d
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 25c8c6c9bbccf07ce94a909824ecc8096081cd2c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -64,7 +64,7 @@ Elektronisko pārskatu veidošanas (Electronic reporting — ER) rīks jums ļa
 -   [Elektroniskās pārskatu veidošanas adresāti](../analytics/electronic-reporting-destinations.md)
 -   [Lejupielādēt elektronisko pārskatu veidošanas konfigurāciju no Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
 -   [Elektronisko pārskatu veidošanas konfigurāciju importēšana](../analytics/electronic-reporting-import-ger-configurations.md)
--   [Konfigurēt elektroniskos pārskatus, lai ievilktu datus pakalpojumā Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Konfigurēt elektroniskos pārskatus, lai atgādātu datus pakalpojumā Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
 -   [Elektronisko dokumentu ģenerēšana un pieteikumu datu atjaunināšana, izmantojot elektronisko pārskatu veidošanas rīku](../analytics/generate-electronic-documents-update-application-data.md)
 
 ## <a name="task-guides"></a>Uzdevumu ceļveži
