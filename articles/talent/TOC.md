@@ -1,12 +1,11 @@
 # [Laipni lūdzam programmā Dynamics 365 for Talent!](index.md)
 
-# Darba sākšana
+# [Darba sākšana](talent-get-started.md)
 ## [Sistēmas prasības un atjaunināšanas politika](talent-versions-update-policy.md)
 
-# Personāla vadības stratēģijas izstrāde
-## [Organizēt darbaspēku, izmantojot nodaļas, darbus un amatus](departments-jobs-positions.md)
-## [Iestatīt darba komponentus](create-job.md)
-## [Izveidot nodaļu un saistīt to ar nodaļu hierarhiju](create-department-add-department-hierarchy.md)
+# [Personāla vadības stratēģijas izstrāde](departments-jobs-positions.md)
+## [Darba komponentu iestatīšana](create-job.md)
+## [Nodaļas izveide un tās saistīšana ar nodaļu hierarhiju](create-department-add-department-hierarchy.md)
 ## [Iestatīt HR parametrus dažādām juridiskajām personām](set-up-hr-parameters-across-legal-entities.md)
 ## [Iestatīt uzņēmumam raksturīgus HR parametrus](set-up-company-specific-hr-parameters.md)
 ## [Bieži uzdotie jautājumi par personāla darbībām](personnel-actions-faq.md)
@@ -25,18 +24,16 @@
 
 # Veicināt darbinieku attīstību un apmācīt darbiniekus
 ## [Veiktspējas pārvaldības apskats](performance-management-overview.md)
-## [Darbaspēka prasmes padarīt atbilstošas biznesa vajadzībām](skills.md)
-## [Iestatīt apmācību kursus](courses.md)
+## [Darbaspēka prasmju saskaņošana ar biznesa vajadzībām](skills.md)
+## [Apmācību kursu iestatīšana](courses.md)
 
-# Izveidot un uzturēt atvieglojumus
-## [Pārvaldīt atvieglojumu programmu](manage-benefit-program.md)
-## [Atvieglojumu piemērojamības ierobežojumi](benefit-eligibility-policies.md)
-## [Pārvaldīt darbiniekiem aizdotus krājumus](loan-items.md)
+# [Atvieglojumu izveide un uzturēšana](manage-benefit-program.md)
+# [Atvieglojumu piemērojamības ierobežojumi](benefit-eligibility-policies.md)
+## [Nodarbinātajiem aizdotu krājumu pārvaldīšana](loan-items.md)
 
-# Vākt informāciju, izmantojot anketas
-## [Anketas](questionnaires.md)
-## [Projektēt anketu](design-questionnaires.md)
-## [Izplatīt un aizpildīt anketu](distribute-questionnaires.md)
+# [Informācijas vākšana, izmantojot anketas](questionnaires.md)
+## [Anketas plānošana](design-questionnaires.md)
+## [Aptaujas izplatīšana un aizpildīšana](distribute-questionnaires.md)
 ## [Novērtēt anketas rezultātus](evaluate-questionnaire-results.md)
 
 # Darbavietas drošība un atbilstība (ASV)

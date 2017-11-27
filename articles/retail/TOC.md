@@ -2,9 +2,14 @@
 
 # Darba sākšana
 ## [Jaunumi un izmaiņas](get-started/whats-new.md)
+## [Pirms Dynamics 365 for Retail iegādes](get-started/before-you-buy.md)
+## [Reģistrācija priekšskatījuma abonementam](../dev-itpro/dev-tools/sign-up-preview-subscription.md)
+## [Demonstrācijas vides izvietošana](../dev-itpro/deployment/deploy-demo-environment.md)
+## [Izvietošanas iespējas](dev-itpro/choose-deployment.md)
+
 
 # Maksājumi
-## [Maksājumu metodes](payment-methods.md)
+## [Maksāšanas metodes](payment-methods.md)
 ## [Kredītkartes iestatīšana, autorizācija un nolasīšana](../financials/accounts-receivable/credit-card-authorizations.md)
 ## [Maksājumu metožu konfigurēšana POS](cash-denominations.md)
 ## [Bieži uzdotie jautājumi par maksājumiem](dev-itpro/payments-retail.md)
@@ -38,7 +43,9 @@
 ## [Konfigurēt un instalēt Retail Hardware Station](retail-hardware-station-configuration-installation.md)
 ## [Retail laiks un apmeklētība](retail-time-attendance.md)
 
-# Modern Point of Sale (MPOS) un Cloud POS
+# Modern Point of Sale (MPOS) un Cloud POS
+## [POS operācijas](POS-operations.md)
+## [Demonstrācijas datu ekrāna izkārtojumi programmā MPOS/CPOS](demo-data.md)
 ## Aparatūras perifērijas ierīces
 ### [Retail perifērijas ierīču apskats](retail-peripherals-overview.md)
 ### [Microsoft pārbaudītas POS aparatūras perifērijas ierīces](microsoft-tested-pos-hardware-peripherals.md)
@@ -59,10 +66,11 @@
 ### [Debitoru pasūtījumu apskats](customer-orders-overview.md)
 ### [Hibrīda debitoru pasūtījumi](hybrid-customer-orders.md)
 ## Pārdošanas asistenti
-### [Izsekot POS komisijas, izmantojot pārdošanas grupas](pos-sales-groups-track-commissions.md)
+### [POS komisijas maksu izsekošana, izmantojot pārdošanas grupas](pos-sales-groups-track-commissions.md)
+## [Pasūtījuma nosūtīšana no cita veikala](charge-send.md)
 ## Ierīces aktivizēšana
-### [Konfigurēt un instalēt MPOS](retail-modern-pos-device-activation.md)
-### [Iestatīt paplašināto pieteikšanos Cloud POS un MPOS](extended-logon.md)
+### [MPOS konfigurēšana un instalēšana](retail-modern-pos-device-activation.md)
+### [Paplašinātās pieteikšanās iestatīšana programmā Cloud POS un MPOS](extended-logon.md)
 ### [Pārvaldīt Retail kontus un ierīces no galvenā biroja](set-up-activation-accounts-validate-devices-hq.md)
 ## Ieejas plūsmas
 ### [Iestatīt ieejas plūsmu veidnes](receipt-templates-printing.md) 
@@ -163,18 +171,18 @@
 # [Retail izstrāde un administrācija](dev-itpro/dev-retail-home-page.md)
 
 ## Arhitektūra
-### [Microsoft Dynamics 365 for Finance and Operations Enterprise izdevuma komponenti — Retail](retail-components.md)
+### [Microsoft Dynamics 365 for Finance and Operations Enterprise Edition komponenti — Retail](retail-components.md)
 ### [Retail servera arhitektūra](dev-itpro/retail-server-architecture.md)
 ### [Retail kanālu saziņa](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [MPOS arhitektūra](dev-itpro/retail-modern-pos-architecture.md)
 ### [Retail tiešsaistes veikala publicēšanas arhitektūra](dev-itpro/retail-online-store-publishing-architecture.md)
-### [Power BI saturs Retail kanāla veiktspēja](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
+### [Power BI saturs “Retail Channel Performance”](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
 
 ## Izvietošana un labojumfaili
-### [Retail veikala mēroga vienību konfigurēšana un instalēšana](dev-itpro/retail-store-scale-unit-configuration-installation.md)
-#### [Pirms darba uzsākšanas ar Retail veikala sistēmu](dev-itpro/retail-store-system-begin.md)
+### [Retail Store Scale Unit pārskats](dev-itpro/retail-store-system-begin.md)
+#### [Retail Store Scale Unit konfigurēšana un instalēšana](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [Retail Modern POS konfigurēšana un instalēšana](retail-modern-pos-device-activation.md)
-#### [Pārvaldīt Retail kontus un ierīces no galvenā biroja](set-up-activation-accounts-validate-devices-hq.md)
+#### [Retail kontu un ierīču pārvaldība no galvenā biroja](set-up-activation-accounts-validate-devices-hq.md)
 #### [Retail POS ierīces aktivizēšana](dev-itpro/retail-device-activation.md)
 #### [Drošība Retail Cloud POS](dev-itpro/secure-retail-cloud-pos.md)
 ### [Retail Hardware Station konfigurēšana un instalēšana](retail-hardware-station-configuration-installation.md)
@@ -187,17 +195,19 @@
 ### [N-1 komponentu instalēšana](dev-itpro/n-1-installation-configuration.md)
 
 ## Vides konfigurēšana
+### [Saišu pievienošana uz organizācijas juridiskajiem nosacījumiem un paziņojumu par konfidencialitāti](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
 ### [Bing karšu pārvaldība](dev-itpro/manage-bing-maps.md)
 
 ## Paplašināmība
 ### Pārdošanas punkts
-#### [Retail POS ekrāna izkārtojums](pos-screen-layouts.md)
+#### [Retail POS ekrāna izkārtojumi](pos-screen-layouts.md)
 ##### [POS izkārtojuma veidotāja instalēšana](install-pos-layout-designer.md)
 #### [MPOS konfigurēšana bezsaistes režīmam](dev-itpro/retail-modern-pos-offline.md)
 #### [MPOS un Cloud POS trigera paplašināmība](dev-itpro/modern-pos-trigger-extensibility.md)
-#### [Pielāgotas kontroles pievienošana POS skatam](dev-itpro/pos-custom-control.md)
+#### [Pielāgotas vadīklas pievienošana POS skatam](dev-itpro/pos-custom-control.md)
 #### [POS maksājumu paplašinājums](dev-itpro/pos-payment-extension.md)
-### [Retail funkcionalitātes programmas izveide](dev-itpro/create-retail-experience-app.md)
+#### [Ārējo dāvanu karšu atbalsts](dev-itpro/gift-card.md)
+### [Retail Experience programmas izveide](dev-itpro/create-retail-experience-app.md)
 ### [Aparatūras stacijas apskats un paplašināmība](dev-itpro/hardware-station-extensibility.md)
 
 ### Retail serveris
@@ -230,10 +240,16 @@
 ### [Retail SDK paplašināmības paraugi](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
 ### [Kases sistēmas Zviedrijai](localizations/emea-swe-cash-registers.md)
 ### [Paraugs Retail POS integrācijai ar vadības ierīcēm Zviedrijai](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
+### [Kases sistēmas Norvēģijai](localizations/emea-nor-cash-registers.md)
+### [Izvietošanas vadlīnijas kases sistēmām Norvēģijai](localizations/emea-nor-loc-deployment-guidelines.md)
 ### [Retail SDK iepakojums](dev-itpro/retail-sdk/retail-sdk-packaging.md)
 ### [Retail SDK paraugi ](dev-itpro/retail-sdk/retail-sdk-samples.md)
 ### [Kanāla datu bāzes (DB) paplašinājumi](dev-itpro/channel-db-extensions.md)
 ### [CDX paplašināmība](dev-itpro/cdx-extensibility.md)
+### [Pasūtījuma atribūti](dev-itpro/order-attributes.md)
+### [Debitora atribūti](dev-itpro/customer-attributes.md)
+### [Retail Typescript un C# starpniekserveris](dev-itpro/typescript-proxy-retail-pos.md)
 
-## Commerce runtime
+
+## Commerce Runtime
 ### [Lojalitātes paplašinājums](dev-itpro/retail-sdk/loyalty-extension-sample.md)

@@ -1,6 +1,6 @@
 ---
 title: "Finanšu pārvaldības sākumlapa"
-description: "Šajā tēmā ir sniegts saraksts ar palīdzības tēmām un citiem resursiem finanšu pārvaldības līdzekļiem programmā Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevumā."
+description: "Šajā tēmā ir sniegts saraksts ar palīdzības tēmām un citiem resursiem finanšu pārvaldības līdzekļiem programmā Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -25,22 +25,22 @@ ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="financial-management-home-page"></a>Finanšu pārvaldības sākumlapa
+# <a name="financial-management-home-page"></a><span data-ttu-id="b5dba-103">Finanšu pārvaldības sākumlapa</span><span class="sxs-lookup"><span data-stu-id="b5dba-103">Financial management home page</span></span>
 
 [!include[banner](includes/banner.md)]
 
-Šajā tēmā ir sniegts saraksts ar palīdzības tēmām un citiem resursiem finanšu pārvaldības līdzekļiem programmā Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevumā. 
+<span data-ttu-id="b5dba-104">Šajā tēmā ir sniegts saraksts ar palīdzības tēmām un citiem resursiem finanšu pārvaldības līdzekļiem programmā Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="b5dba-104">This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> 
 
-Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
-- [Parādi kreditoriem](accounts-payable\accounts-payable.md) 
-- [Debitoru parādi](accounts-receivable\accounts-receivable.md) 
-- [Kases un bankas vadība](cash-bank-management\cash-bank-management.md)
-- [Izmaksu uzskaite](cost-accounting\cost-accounting-home-page.md)
-- [Pamatlīdzekļi](fixed-assets\fixed-assets.md)
-- [Virsgrāmata](general-ledger\general-ledger.md) 
-- [Projekta pārvaldība](project-management\overview-project-management-accounting.md)
-- [Publiskais sektors](public-sector\public-sector-functionality.md) 
-- [Budžeta veidošana](budgeting\budgeting-overview.md) 
+<span data-ttu-id="b5dba-105">Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.</span><span class="sxs-lookup"><span data-stu-id="b5dba-105">Select a feature area to learn more about it.</span></span>
+- [<span data-ttu-id="b5dba-106">Parādi kreditoriem</span><span class="sxs-lookup"><span data-stu-id="b5dba-106">Accounts payable</span></span>](accounts-payable\accounts-payable.md) 
+- [<span data-ttu-id="b5dba-107">Debitoru parādi</span><span class="sxs-lookup"><span data-stu-id="b5dba-107">Accounts receivable</span></span>](accounts-receivable\accounts-receivable.md) 
+- [<span data-ttu-id="b5dba-108">Kases un bankas vadība</span><span class="sxs-lookup"><span data-stu-id="b5dba-108">Cash and bank management</span></span>](cash-bank-management\cash-bank-management.md)
+- [<span data-ttu-id="b5dba-109">Izmaksu uzskaite</span><span class="sxs-lookup"><span data-stu-id="b5dba-109">Cost accounting</span></span>](cost-accounting\cost-accounting-home-page.md)
+- [<span data-ttu-id="b5dba-110">Pamatlīdzekļi</span><span class="sxs-lookup"><span data-stu-id="b5dba-110">Fixed assets</span></span>](fixed-assets\fixed-assets.md)
+- [<span data-ttu-id="b5dba-111">Virsgrāmata</span><span class="sxs-lookup"><span data-stu-id="b5dba-111">General ledger</span></span>](general-ledger\general-ledger.md) 
+- [<span data-ttu-id="b5dba-112">Projekta pārvaldība</span><span class="sxs-lookup"><span data-stu-id="b5dba-112">Project management</span></span>](project-management\overview-project-management-accounting.md)
+- [<span data-ttu-id="b5dba-113">Publiskais sektors</span><span class="sxs-lookup"><span data-stu-id="b5dba-113">Public sector</span></span>](public-sector\public-sector-functionality.md) 
+- [<span data-ttu-id="b5dba-114">Budžeta veidošana</span><span class="sxs-lookup"><span data-stu-id="b5dba-114">Budgeting</span></span>](budgeting\budgeting-overview.md) 
 
 
 
