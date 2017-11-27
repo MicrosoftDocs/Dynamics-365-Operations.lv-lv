@@ -1,9 +1,9 @@
 ---
 title: "Pārskats par ražošanas procesu"
-description: "Šajā rakstā ir sniegts pārskats par ražošanas procesu. Tajā ir aprakstīti dažādie ražošanas pasūtījumu, partijas pasūtījumu un Kanban darbu stāvokļi no pasūtījuma izveides līdz finanšu perioda slēgšanai."
+description: "Šajā tēmā ir sniegts pārskats par ražošanas procesiem. Tajā ir aprakstīti dažādie ražošanas pasūtījumu, partijas pasūtījumu un Kanban darbu stāvokļi no pasūtījuma izveides līdz finanšu perioda slēgšanai."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 19832
 ms.assetid: 0e83c7ea-feba-4ed6-8717-8b48a3b8804a
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e50e64057d19d0e1fbf5645c2abc31fbd19ea43a
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 779b27574a9d6d7e7aa6b71f468ba3cff8d4085a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir sniegts pārskats par ražošanas procesu. Tajā ir aprakstīti dažādie ražošanas pasūtījumu, partijas pasūtījumu un Kanban darbu stāvokļi no pasūtījuma izveides līdz finanšu perioda slēgšanai. 
+Šajā tēmā ir sniegts pārskats par ražošanas procesiem. Tajā ir aprakstīti dažādie ražošanas pasūtījumu, partijas pasūtījumu un Kanban darbu stāvokļi no pasūtījuma izveides līdz finanšu perioda slēgšanai. 
 
 Preču ražošanas process dažreiz tiek saukts arī par ražošanas dzīves ciklu, un tā ietvaros tiek veiktas konkrētas darbības, kas ir nepieciešamas, lai pabeigtu krājuma ražošanu. Dzīves cikls sākas ar ražošanas pasūtījuma, partijas pasūtījuma vai Kanban izveidi. Tas beidzas ar pabeigtu saražoto krājumu, ko var nodot debitoram vai citai ražošanas fāzei. Lai pabeigtu visu procesu, katrai dzīves cikla darbībai ir nepieciešama atšķirīga informācija. Pēc katras darbības pabeigšanas ražošanas pasūtījumā, partijas pasūtījumā vai Kanban tiek atspoguļotas ražošanas statusa izmaiņas. Dažāda veida precēm ir nepieciešami dažādi ražošanas procesi.  
 
@@ -56,7 +56,7 @@ Lai atlasītu ražošanas principu, kas ir vislabāk piemērots konkrētai prece
 -   **Ražot krājumiem** — šis ir standarta ražošanas princips, kura ietvaros preces tiek ražotas krājumiem, pamatojoties uz prognozi vai minimālo krājumu papildinājumu (pēdējais parasti tiek aprēķināts, pamatojoties uz prognozi vai vēsturisko patēriņu).
 -   **Ražot pēc pasūtījuma** — standarta preces tiek ražotas pēc pasūtījuma vai pabeigtas pēc pasūtījuma. Lai gan preces var saražot iepriekš, izmantojot principu Ražot krājumiem, pārdošanas pasūtījums vai pārsūtīšanas pasūtījums aktivizē dārgas vērtības ķēdes darbības vai variantu izgatavošanas darbības.
 -   **Konfigurēt pēc pasūtījuma** — vērtības ķēdes beigu operācijas tiek veiktas pēc pasūtījuma tāpat kā principam Ražot pēc pasūtījuma. Faktiskais saražotais preces variants nav iepriekš definēts, bet tiek izgatavots pasūtījuma ievades laikā, pamatojoties uz pārdotās preces konfigurācijas modeli. Principam Konfigurēt pēc pasūtījuma ir nepieciešama noteikta līmeņa procesa unificēšana attiecīgajai preču līnijai.
--   **Izstrādāt pēc pasūtījuma** — principa Izstrādāt pēc pasūtījuma procesi parasti ir saistīti ar projektu un parasti sākas ar izstrādes fāzi. Izstrādes fāzes laikā tiek izstrādātas un aprakstītas faktiskās preces, kas ir nepieciešamas, lai izpildītu pasūtījumu. Pēc tam var izveidot ražošanas pasūtījumus, partijas pasūtījumus vai Kanban, lai saražotu preces.
+-   **Izstrādāt pēc pasūtījuma** — principa Izstrādāt pēc pasūtījuma procesi parasti ir saistīti ar projektu un parasti sākas ar izstrādes fāzi. Izstrādes fāzes laikā tiek izstrādātas un aprakstītas faktiskās preces, kas ir nepieciešamas, lai izpildītu pasūtījumu. Pēc tam var izveidot ražošanas pasūtījumus, partijas pasūtījumus vai Kanban, lai saražotu preces.
 
 ## <a name="overview-of-the-production-life-cycle"></a>Ražošanas dzīves cikla pārskats
 Tālāk norādītās ražošanas dzīves cikla darbības var tikt veiktas visiem jauktas ražošanas pasūtījumu veidiem. Taču dažas no tām netiek norādītas ar īpašu pasūtījuma statusu.

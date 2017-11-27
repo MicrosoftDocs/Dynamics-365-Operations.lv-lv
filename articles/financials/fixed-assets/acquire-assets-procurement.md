@@ -1,9 +1,9 @@
 ---
-title: "Līdzekļu iegādāšanās, izmantojot iepirkuma procesu"
-description: "Šajā rakstā aprakstīts, ka var iestatīt saistību starp laukiem Pamatlīdzekļi un Kreditori, lai no pirkšanas pasūtījumiem vai kreditora rēķiniem automātiski izveidotu pamatlīdzekļus vai automātiski iegrāmatotu pamatlīdzekļu iegādes vai iegādes pielāgošanas transakcijas."
+title: "Iegūt līdzekļus, izmantojot sagādi"
+description: "Šajā tēmā ir aprakstīts, kā iestatīt lauku Pamatlīdzekļi un Kreditori integrāciju, lai automātiski izveidotu pamatlīdzekļus no pirkšanas pasūtījumiem vai kreditora rēķiniem vai automātiski grāmatotu pamatlīdzekļu iegādes un iegādes korekcijas transakcijas."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: AssetParameters
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 3481
 ms.assetid: d4e73a3f-633b-48b2-b8db-7a4a59a4d7ec
 ms.search.region: Global
@@ -19,19 +19,19 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 84e7e6eb17e5741a2984c570786a495864ffbc74
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 1e9b1dc6297f33ea25ca498895740596ebd020b8
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="acquire-assets-through-procurement"></a>Līdzekļu iegādāšanās, izmantojot iepirkuma procesu
+# <a name="acquire-assets-through-procurement"></a>Iegūt līdzekļus, izmantojot sagādi
 
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā aprakstīts, ka var iestatīt saistību starp laukiem Pamatlīdzekļi un Kreditori, lai no pirkšanas pasūtījumiem vai kreditora rēķiniem automātiski izveidotu pamatlīdzekļus vai automātiski iegrāmatotu pamatlīdzekļu iegādes vai iegādes pielāgošanas transakcijas.
+Šajā tēmā ir aprakstīts, kā iestatīt lauku Pamatlīdzekļi un Kreditori integrāciju, lai automātiski izveidotu pamatlīdzekļus no pirkšanas pasūtījumiem vai kreditora rēķiniem vai automātiski grāmatotu pamatlīdzekļu iegādes un iegādes korekcijas transakcijas.
 
  Pamatlīdzekļu un kreditoru saistīšanai ir pieejamas tālāk aprakstītās metodes, un visiem pamatlīdzekļiem ir jāizmanto vienāda metode.
 -   Pirms pamatlīdzekļa numura pievienošanas pirkšanas pasūtījuma vai kreditora rēķina rindā ir manuāli jāizveido pamatlīdzekļa ieraksts. Iegrāmatojot kreditora rēķinu, automātiski tiek iegrāmatota pamatlīdzekļa iegādes transakcija. Šī metode ir pēc noklusējuma.

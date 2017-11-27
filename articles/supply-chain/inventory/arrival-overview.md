@@ -3,7 +3,7 @@ title: "Saņemšanas darbību apskats"
 description: "Šajā tēmā ir sniegta informācija par līdzekli Saņemšanas pārskats. Lapa Saņemšanas pārskats ir šī līdzekļa daļa, un tā sniedz pārskatu par visiem krājumiem, kurus paredzēts saņemt kā ienākošos krājumus."
 author: perlynne
 manager: AnnBe
-ms.date: 04/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d9ebc0ea12de0c97718b565b77d99c3a1fcd6f21
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 9c174dc7bf61ffab0d20c7685a29007e0b6e2e7e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -104,7 +104,7 @@ Semijs var apskatīt šādu informāciju:
 
 ### <a name="update-journals"></a>Žurnālu atjaunināšana
 
-Lai reģistrētu vienu vai vairākas pasūtījuma rindas, kuras paredzēts apstrādāt, Semijs var atlasīt rindas pārskata režģī vai rindas režģī un pēc tam noklikšķināt uz **Žurnāli** &gt; **Rādīt saņemšanas no ieejas plūsmām**. Tiek parādīti krājumu saņemšanas virsraksti, kas atbilst rindām. Lai atjauninātu pirkšanas pasūtījuma produktu ieejas plūsmu reģistrētos krājumus, Semijs var piekļūt krājumu saņemšanas žurnāla virsrakstiem, kas ir gatavi atjaunināšanai. Lai piekļūtu šiem krājumu saņemšanas žurnāla virsrakstiem, viņš noklikšķina uz **Žurnāli** &gt; **Produktu ieejas plūsmas gatavie žurnāli**. Tiek parādītas visas virsraksta rindas, kas ir gatavas produktu ieejas plūsmas atjaunināšanai noteiktajā noliktavu diapazonā. (Parādītās virsraksta rindas nav saistītas ar dienu intervālu).
+Lai reģistrētu vienu vai vairākas pasūtījuma rindas, kuras paredzēts apstrādāt, Semijs var atlasīt rindas pārskata režģī vai rindas režģī un pēc tam noklikšķināt uz **Žurnāli** &gt; **Rādīt saņemšanas no ieejas plūsmām**. Tiek parādīti krājumu saņemšanas virsraksti, kas atbilst rindām. Lai atjauninātu reģistrēto krājumu pirkšanas pasūtījuma produktu ieejas plūsmu, Semijs var piekļūt krājumu saņemšanas žurnāla virsrakstiem, kas ir gatavi atjaunināšanai. Lai piekļūtu šiem krājumu saņemšanas žurnāla virsrakstiem, viņš noklikšķina uz **Žurnāli** &gt; **Produktu ieejas plūsmas gatavie žurnāli**. Tiek parādītas visas virsraksta rindas, kas ir gatavas produktu ieejas plūsmas atjaunināšanai noteiktajā noliktavu diapazonā. (Parādītās virsraksta rindas nav saistītas ar dienu intervālu).
 
 ### <a name="start-an-arrival-registration"></a>Saņemšanas reģistrācijas sākšana
 

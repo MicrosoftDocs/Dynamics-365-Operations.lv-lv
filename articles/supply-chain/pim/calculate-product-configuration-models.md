@@ -1,9 +1,9 @@
 ---
 title: "Bieži uzdotie jautājumi par preču konfigurācijas modeļu aprēķiniem"
-description: "Šajā rakstā ir aprakstīti preču konfigurācijas modeļu aprēķini un skaidrots, kā aprēķinus lietot kopā ar ierobežojumiem."
+description: "Šajā tēmā ir aprakstīti preču konfigurācijas modeļu aprēķini un ir paskaidrots, kā šos aprēķinus lietot kopā ar ierobežojumiem."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fea4e139d32c780769bafe08d603b828d366550c
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 0763e5a02e7a14b6ef369103aa25e435559abe19
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir aprakstīti preču konfigurācijas modeļu aprēķini un skaidrots, kā aprēķinus lietot kopā ar ierobežojumiem.
+Šajā tēmā ir aprakstīti preču konfigurācijas modeļu aprēķini un ir paskaidrots, kā šos aprēķinus lietot kopā ar ierobežojumiem.
 
 Aprēķinus var izmantot aritmētisko vai loģisko operāciju veikšanai. Tie papildina izteiksmju ierobežojumus preču konfigurācijas modeļos. Aprēķinus var definēt lapā **Detalizēta informācija par ierobežojumam atbilstošu preces konfigurācijas modeli** un pēc tam izveidot izteiksmes aprēķiniem izteiksmju redaktorā. Papildu informāciju skatiet sadaļā Aprēķinu izveide.
 
@@ -75,7 +75,7 @@ Aprēķini tiek veikti, kad visiem ievades atribūtiem ir norādīta vērtība.
 ## <a name="can-i-overwrite-the-value-that-is-calculated-for-the-target-attribute"></a>Vai varu pārrakstīt mērķa atribūtam aprēķināto vērtību?
 Jūs varat pārrakstīt mērķa atribūtam aprēķināto vērtību, izņemot gadījumus, kad mērķa atribūts ir iestatīts kā slēpts vai tikai lasāms.
 
-## <a name="how-do-i-set-a-target-attribute-as-hidden-or-readonly"></a>Kā mērķa atribūtu var iestatīt kā slēptu vai tikai lasāmu?
+## <a name="how-do-i-set-a-target-attribute-as-hidden-or-read-only"></a>Kā mērķa atribūtu var iestatīt kā slēptu vai tikai lasāmu?
 Lai atribūtu iestatītu kā slēptu vai tikai lasāmu, izpildiet tālāk aprakstītās darbības.
 
 1.  Noklikšķiniet uz **Preču informācijas pārvaldība** &gt; **Vispārīgi** &gt; **Preču konfigurācijas modeļi**.

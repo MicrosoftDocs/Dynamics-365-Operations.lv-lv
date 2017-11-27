@@ -1,9 +1,9 @@
 ---
 title: "Kopējo izmaksu sadalījuma metode"
-description: "Šajā rakstā ir sniegtas norādes par to, kā izmantot kopējo izmaksu sadalījumu (TCA). Kopējo izmaksu sadalījums (Total cost allocation — TCA) ir tādu izmaksu aprēķināšanas metode, kas jāsadala starp partijas pasūtījuma galvenās formulas krājumu un formulā noteiktajiem līdzproduktiem."
+description: "Šajā tēmā ir sniegti norādījumi par to, kā lietot kopējo izmaksu sadalījumu (TCA). Kopējo izmaksu sadalījums (Total cost allocation — TCA) ir tādu izmaksu aprēķināšanas metode, kas jāsadala starp partijas pasūtījuma galvenās formulas krājumu un formulā noteiktajiem līdzproduktiem."
 author: AndersGirke
 manager: AnnBe
-ms.date: 04/20/2017
+ms.date: 10/24/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMConsistOf, PmfFormulaCoBy
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 83852
 ms.assetid: 7c14c3e5-9476-4a79-a210-e77fc91cc7fc
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b070aaeecacdee7af08d8136dc4232449b8f988b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 4f3d75411e8c99365f1aba8214c78e93b4741871
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir sniegtas norādes par to, kā izmantot kopējo izmaksu sadalījumu (TCA). Kopējo izmaksu sadalījums (Total cost allocation — TCA) ir tādu izmaksu aprēķināšanas metode, kas jāsadala starp partijas pasūtījuma galvenās formulas krājumu un formulā noteiktajiem līdzproduktiem.
+Šajā tēmā ir sniegti norādījumi par to, kā lietot kopējo izmaksu sadalījumu (TCA). Kopējo izmaksu sadalījums (Total cost allocation — TCA) ir tādu izmaksu aprēķināšanas metode, kas jāsadala starp partijas pasūtījuma galvenās formulas krājumu un formulā noteiktajiem līdzproduktiem.
 
 Kopējo izmaksu sadalījums (Total cost allocation — TCA) ir tādu izmaksu aprēķināšanas metode, kas jāsadala starp partijas pasūtījuma galvenās formulas krājumu un formulā noteiktajiem līdzproduktiem. Šī ir dinamiska metode. To izmantojot, tiek aprēķinātas izmaksas kā svērtā vidējā vērtība starp daudzumiem, kas formulas krājumā un līdzproduktiem reģistrēti kā pabeigti. Ja TCA metode tiek izmantota, nav jāpārskata katra partijas pasūtījuma izmaksu sadalījums. Ja TCA metode netiek izmantota, formulas aprēķinā tiek izmantota esošā funkcionalitāte.
 
@@ -42,7 +42,7 @@ Tālāk ir sniegti daži norādījumi par TCA metodes izmantošanu līdzproduktu
 -   Ja tiek iestatīta formulas versijas slīdņa **Kopējo izmaksu sadalījums** opcija **Jā**, līdzproduktiem ir jānorāda izmaksu cena, kas ir lielāka par 0 (nulli). Vērtību formulai, kas nav saistīta ar vietu, var izgūt no tās pašas vietas vai no pirmās vietas aktīvo izmaksu versijas. Šis nosacījums tiek pārbaudīts, apstiprinot formulu.
 
     -   Jums nav nepieciešams manuāli ievadīt izmaksu sadalījuma procentus līdzproduktiem. Tā vietā sistēma izmaksu sadalījuma procentus izveido automātiski kā līdzproduktu aktīvo izmaksu cenu vidējo vērtību. 
-    -   Jums nav nepieciešams ievadīt standarta izmaksas nestandarta izmaksu krājumiem, kas ir līdzprodukti. Sistēma ir divu veidu izmaksu novērtēšanas versijas: standarta izmaksas un plānotās izmaksas 
+    -   Jums nav nepieciešams ievadīt standarta izmaksas nestandarta izmaksu krājumiem, kas ir līdzprodukti. Sistēma ir pieejamas divu veidu izmaksu aprēķināšanas versijas: standarta izmaksas un plānotās izmaksas 
     -   Ja krājums netiek novērtēts pēc standarta izmaksu novērtēšanas metodes, ieteicams izmantot aktīvu izmaksu cenu plānoto izmaksu versijā. Šī cena tiek izmantota izmaksu novērtēšanai, piemēram, MK aprēķinos, ražošanas izmaksu novērtēšanā un regresa cenām krājumu novērtēšanas procesā. 
 
 -   Ja tiek iestatīta formulas versijas slīdņa **Kopējo izmaksu sadalījums** opcija **Jā** un tālāk minētie nosacījumi ir patiesi, izmaksu sadalījuma metode ir **TCA** un izmaksu sadalījuma procentuālā vērtība nemainās.

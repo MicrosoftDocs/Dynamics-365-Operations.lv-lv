@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Operations, Core
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 53edebb31b969c13b566d03afe3d58718543bf23
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 4475695b1a00213ab7e3b5060fd38cc71883d2bd
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -37,7 +37,7 @@ Forma sastāv no sastāvdaļām un daudzumiem, kas ir nepieciešami, lai iegūtu
 ## <a name="formulas-and-formula-lines"></a>Formulas un formulas rindas
 Formula sastāv no vienas vai vairākām formulas rindām, kas identificē sastāvdaļas jeb krājumus, kuri veido formulu. Formulas rinda var ietvert materiālu komplektu (MK) krājumus, formulas krājumus, pieļaujamā svara krājumus, iegādātos krājumus, līdzproduktus vai blakusproduktus. Tā kā daudzi krājumi tiek izmantoti vairākās precēs, vienu krājumu var izmantot vairākās formulās.
 
-Formula ir, piemēram, formula cepumiem ar šokolādes gabaliņiem. Šajā formulā kā sastāvdaļas tiek izmantotas vairākas rindas, piemēram, milti, cukurs, olas, sviests un šokolādes gabaliņi. Formula cepumiem ar šokolādes gabaliņiem ietver sastāvdaļas, kuras, visticamāk, tiek izmantotas arī citās formulās. Kamēr gatavojat cepumus ar šokolādes gabaliņiem, iespējams, rodas pārpalikumi, piemēram, drupatas, vai daži no cepumiem var piedegt vai izcepties nepietiekami. Atkarībā no ražošanas operācijām šos krājumus var iestatīt kā līdzproduktus vai blakusproduktus.
+Formula ir, piemēram, formula cepumiem ar šokolādes gabaliņiem. Šajā formulā kā sastāvdaļas tiek izmantotas vairākas rindas, piemēram, milti, cukurs, olas, sviests un šokolādes gabaliņi. Formula cepumiem ar šokolādes gabaliņiem ietver sastāvdaļas, kuras, visticamāk, tiek izmantotas arī citās formulās. Gatavojot cepumus ar šokolādes gabaliņiem, var rasties pārpalikumi, piemēram, drupatas, vai daži no cepumiem var piedegt vai nepietiekami izcepties. Atkarībā no ražošanas operācijām šos krājumus var iestatīt kā līdzproduktus vai blakusproduktus.
 
 Veidojot formulas rindu, ir jāizmanto rindas tips, lai norādītu, kā sistēmai šī rinda ir jāapstrādā, kad palaižat vispārējo plānošanu un veidojat partijas pasūtījumus. Katrs rindas tips sniedz atšķirīgu rezultātu. Nākamajā tabulā ir aprakstīti rindu tipi, ko varat atlasīt. 
 

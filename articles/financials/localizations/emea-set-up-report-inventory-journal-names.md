@@ -11,18 +11,17 @@ ms.technology:
 ms.search.form: InventJournalName
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 265144
 ms.search.region: Estonia, Hungary, Latvia, Lithuania, Poland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: f76e431320414b508728cbe9fe20456f107cbe40
-ms.openlocfilehash: 699bcd5c5cbd1183df29713aae790a6f89a5db97
+ms.translationtype: HT
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: ca43a81ab3e1dfcfec6a69369121265c54dae9a8
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/09/2017
-
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -33,7 +32,7 @@ ms.lasthandoff: 06/09/2017
 
 Kad lietojat konfigurējamus krājumu pārskatus, kuru pamatā ir elektronisko pārskatu veidošana, ir nepieciešams iestatīt attiecības starp konkrētu pārskatu un žurnāla tipu.
 
-Lai iestatītu attiecības starp konkrētu pārskatu un kādu žurnāla tipu, lapā **Krājumu žurnālu nosaukumi** (**Krājumu vadība** &gt; **Iestatīšana** &gt; **Žurnālu nosaukumi** &gt; **Krājumi**) ievadiet šī pārskata nosaukumu. **Piezīme.** Lai iestatītu atbalstītās konfigurācijas, lejupielādējiet nepieciešamās elektronisko pārskatu konfigurācijas. Papildinformāciju skatiet rakstā [Lejupielādēt elektronisko pārskatu konfigurācijas no Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs). Nākamajā tabulā ir uzskaitīti krājumu pārskatu piemēri ar Eiropā atbalstītām konfigurācijām.
+Lai iestatītu attiecības starp konkrētu pārskatu un kādu žurnāla tipu, lapā **Krājumu žurnālu nosaukumi** (**Krājumu vadība** &gt; **Iestatīšana** &gt; **Žurnālu nosaukumi** &gt; **Krājumi**) ievadiet šī pārskata nosaukumu. **Piezīme.** Lai iestatītu atbalstītās konfigurācijas, lejupielādējiet nepieciešamās elektronisko pārskatu konfigurācijas. Papildinformāciju skatiet rakstā [Lejupielādēt elektronisko pārskatu konfigurācijas no Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md). Nākamajā tabulā ir uzskaitīti krājumu pārskatu piemēri ar Eiropā atbalstītām konfigurācijām.
 |                    |                                     |                  |                                         |
 |--------------------|-------------------------------------|------------------|-----------------------------------------|
 | **Valsts/reģions**        | **Pārskata apraksts**              | **Žurnāla tips** | **Formāta kartēšanas nosaukums**                 |

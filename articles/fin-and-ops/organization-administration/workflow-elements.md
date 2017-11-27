@@ -1,27 +1,27 @@
 ---
 title: "Darbplūsmas elementi"
-description: "Šajā raksta aprakstīti dažādi elementi, kas veido darbplūsmu."
+description: "Šajā tēmā ir aprakstīti dažādie elementi, kas veido darbplūsmu."
 author: sericks007
 manager: AnnBe
-ms.date: 08/23/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 56441
 ms.assetid: de740262-6ffd-42b9-a325-540eae5cec94
 ms.search.region: Global
-ms.author: tjvass
+ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 255777651a45b899850fc870c9da288f65df702c
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: 15cac09a97305c1b467cbb97da2d4b8a864ccbc7
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā raksta aprakstīti dažādi elementi, kas veido darbplūsmu.
+Šajā tēmā ir aprakstīti dažādie elementi, kas veido darbplūsmu.
 
 Darbplūsma sastāv no elementiem. Turpmākajās sadaļās ir aprakstīts katrs elementa veids.
 
@@ -59,7 +59,7 @@ Darbplūsma sastāv no elementiem. Turpmākajās sadaļās ir aprakstīts katrs 
 -   Pieprasīt dokumenta izmaiņas.
 -   Piešķirt dokumentu apstiprināšanai citam lietotājam.
 
-## <a name="lineitem-workflow-elements"></a>Dokumenta rindas darbplūsmas elementi
+## <a name="line-item-workflow-elements"></a>Dokumenta rindas darbplūsmas elementi
 Var izveidot darbplūsmu dokumentu vai dokumenta rindu apstrādei. Pieņemsim, ka esat izveidojis darba laika uzskaites tabulas apstiprinājuma darbplūsmu. (Šī darbplūsma tiks saukta par *dokumenta darbplūsmu*.) Varat pievienot šai dokumenta darbplūsmai *rindas vienuma darbplūsmas* elementu. Izpildot rindas vienuma elementu, apstrādei tiek nodots katras dokumenta rindas vienums. Iespējams, vēlaties, lai visu rindu vienumu apstrādei tiktu izmantota viena dokumenta rindu darbplūsma, vai arī, iespējams, vēlaties, lai katra rindas vienuma apstrādei tiktu izmantota atšķirīga dokumenta rindas darbplūsma. Iedomājieties, ka darbinieks ir iesniedzis darba laika uzskaites tabulu, kas līdzinās tālāk esošajā attēlā redzamajai.
 
 ![Darbplūsma ar rindas elementiem](./media/workflow_lineitemworkflow.gif) 
@@ -70,7 +70,7 @@ Var izveidot darbplūsmu dokumentu vai dokumenta rindu apstrādei. Pieņemsim, k
 -   **2. dokumenta rindas darbplūsma** — šī darbplūsma tiek izmantota to rindas vienumu apstrādei, kuru projekta ID ir 2222.
 -   **3. dokumenta rindas darbplūsma** — šī darbplūsma tiek izmantota to rindas vienumu apstrādei, kuru projekta ID ir 3333.
 
-## <a name="flowcontrol-elements"></a>Plūsmas kontroles elementi
+## <a name="flow-control-elements"></a>Plūsmas kontroles elementi
 Tālāk norādītie elementi ļauj izveidot darbplūsmas ar alternatīviem atzariem vai atzariem, kas tiek izpildītie vienlaikus.
 
 ### <a name="manual-decision"></a>Manuāls lēmums

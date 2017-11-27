@@ -1,16 +1,16 @@
 ---
-title: "SEPA tiešā debeta mandāta iestatīšana"
-description: 
+title: "SEPA tiešā debeta pilnvarojuma iestatīšana"
+description: "Vienotās eiro maksājumu zonas (Single Euro Payment Area — SEPA) tiešais debets kreditoram ļauj iekasēt līdzekļus no debitora bankas konta ar nosacījumu, ka debitors kreditoram ir piešķīris parakstītu mandātu."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 59491
 ms.assetid: 653a135f-c515-4ae3-9da2-82b5e1f103b5
 ms.search.region: Global
@@ -18,18 +18,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8b50c2d585c7e0bcd8dc15aa70446cd7346ad33c
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 5b9afeb24692010ca5de33156f372d86f167161e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="set-up-sepa-direct-debit-mandate"></a>SEPA tiešā debeta mandāta iestatīšana
+# <a name="set-up-sepa-direct-debit-mandate"></a>SEPA tiešā debeta pilnvarojuma iestatīšana
 
 [!include[banner](../includes/banner.md)]
-
-
 
 
 Vienotās eiro maksājumu zonas (Single Euro Payment Area — SEPA) tiešais debets kreditoram ļauj iekasēt līdzekļus no debitora bankas konta ar nosacījumu, ka debitors kreditoram ir piešķīris parakstītu mandātu. Debitora parakstītais mandāts pilnvaro kreditoru iekasēt maksājumu un klienta bankai sniedz norādījumus par iekasējamās summas izmaksāšanu. Šī tēma ir sakārtota, lai parādītu SEPA tiešā debeta mandātu iestatīšanas procesu.

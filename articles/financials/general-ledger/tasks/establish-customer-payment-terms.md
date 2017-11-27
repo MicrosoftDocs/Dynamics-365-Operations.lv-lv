@@ -3,7 +3,7 @@ title: "Debitoru maksājumu nosacījumu izveide"
 description: "Šī procedūra definē termiņatlaides un apmaksas datuma iestatījumus."
 author: aprilolson
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 10/26/2016
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4e0e43962bea3ff1c3adafa73da4ce3862963a51
+ms.sourcegitcommit: ef3cad6538d9efbd1c1881f4b7d771382d9b1ba8
+ms.openlocfilehash: 04b45508047d26ef7c08ede5862be75835783ef5
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/26/2017
 
 ---
 # <a name="establish-customer-payment-terms"></a>Debitoru maksājumu nosacījumu izveide
@@ -57,7 +57,7 @@ ms.lasthandoff: 09/29/2017
 19. Laukā Termiņatlaide ievadiet ID.
 20. Ievadiet aprakstu laukā Apraksts.
 21. Ja ir pieejama pa pakāpēm sadalīta termiņatlaide, atlasiet nākamo atlaižu kodu, kas ir attiecināms pēc šīs jaunās termiņatlaides.
-22. Ievadiet dienu skaitu, kas tiek aprēķināts termiņatlaides datumu.
+22. Ievadiet dienu skaitu, ko izmanto, lai aprēķinātu termiņatlaides datumu.
     * Ja ir atlasīts neto princips, termiņatlaides datuma aprēķināšanai rēķina datumam tiks pieskaitīts noteikts dienu skaits.  
 23. Ievadiet termiņatlaides procentuālo daļu.
 24. Ievadiet galveno kontu, kurā jāgrāmato debitoru rēķinu termiņatlaide.

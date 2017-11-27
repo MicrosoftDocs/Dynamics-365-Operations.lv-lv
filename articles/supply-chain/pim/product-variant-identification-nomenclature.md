@@ -1,9 +1,9 @@
 ---
 title: "Preces variantu numuru no nosaukumu nomenklatūra"
-description: "Šajā tēmā ir aprakstīts, kā iestatīt preču numuru nomenklatūru, lai aizstātu fiksēto formātu [preces šablona numurs-konfigurācija-izmērs-krāsa-stils]. Jaunajai nomenklatūrai ir mērķim pielāgots formāts, kurā ir ietverts preces šablona numurs, aktīvās preces dimensijas un jūsu izvēles teksta atdalītāji. Varat arī izveidot preču nosaukumu nomenklatūru. Varat arī izveidot nomenklatūru, lai norādītu konfigurācijas, kas ir izveidotas, izmantojot ierobežojumiem atbilstošo preču konfiguratoru. Šajās nomenklatūrās var būt jūsu izvēlētie atribūti."
+description: "Šajā tēmā ir aprakstīts, kā iestatīt preču numuru nomenklatūru, lai aizstātu fiksēto formātu [preces šablona numurs-konfigurācija-izmērs-krāsa-stils]."
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 05/10/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 4ebebc1d287908dbe8ac7557c34fc6693c88bfae
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 067e14d8a0ab9cb5b703c1d2596dab3e20487336
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -68,7 +68,7 @@ Tiek ražoti trīs izmēru (S, M, L), četru krāsu (sarkans, zaļš, zils, dzel
 
 Šādā gadījumā sarkana, maza, polo stila t-krekla preces varianta numurs ir TS1234-sarkans-mazs-polo
 
-## <a name="nomenclature-of-constraintbased-configurations"></a>Ierobežojumiem atbilstošu konfigurāciju nomenklatūra
+## <a name="nomenclature-of-constraint-based-configurations"></a>Ierobežojumiem atbilstošu konfigurāciju nomenklatūra
 Ierobežojumiem atbilstošu konfigurāciju gadījumā varat izvedot īpašu nomenklatūru, kas ir paredzēta konfigurācijas preces dimensijai. Lapā **Preču nomenklatūra** varat atlasīt tālāk norādīto segmentus.
 
 -   Numuru sērijas vērtība
@@ -92,7 +92,7 @@ Jūs izveidojat konfigurāciju nomenklatūru ar tālāk norādītajiem segmentie
 
 Šādā gadījumā koka materiāla, kura garums ir 78, konfigurācijas ID ir WoodAAA78.
 
-## <a name="nomenclature-of-dimensionbased-configurations"></a>Dimensijām atbilstošu konfigurāciju nomenklatūra
+## <a name="nomenclature-of-dimension-based-configurations"></a>Dimensijām atbilstošu konfigurāciju nomenklatūra
 Dimensijām atbilstošu konfigurāciju gadījumā varat izvedot īpašu nomenklatūru, kas ir paredzēta konfigurācijas preces dimensijai. Lapā **Preču nomenklatūra** varat atlasīt tālāk norādīto segmentus.
 
 -   Numuru sērijas vērtība

@@ -3,7 +3,7 @@ title: "Rēķinu salīdzināšana un starpuzņēmumu pirkšanas pasūtījumi"
 description: "Pērkošo juridisko personu, kas ir iesaistīta starpuzņēmumu tirdzniecības transakcijā, var iestatīt kreditoru rēķinu salīdzināšanas lietošanai. Tādā gadījumā, lai varētu grāmatot starpuzņēmumu kreditoru rēķinus, ir jābūt ievērotām gan starpuzņēmumu tirdzniecības, gan kreditoru rēķinu salīdzināšanas grāmatošanas prasībām."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/20/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 3101
 ms.assetid: 9c7c2e44-45f8-4325-b6de-a09fe790f9cf
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: affdffd5e73958788ed2a5a4959eea71024140ab
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 3d0eb5c19c07313f4d4c0bac1b9c48375446afd9
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -52,7 +52,7 @@ Starpuzņēmumu kreditoru rēķina un starpuzņēmumu debitora rēķina neto sum
 2.  Pārdošanas fabrikā reģistrējiet, ka krājumi ir saņemti, un iegrāmatojiet pavadzīmi. ICSO888 statuss nomainās uz Piegādāts. ICPO222 statuss nomainās uz Saņemts.
 3.  Pārdošanas fabrikā izpildiet rēķina atjaunināšanu attiecībā uz ICSO888. Vienības cena ir 0,45 un tiek atjauninātas 100 vienības.
 4.  Pirkuma fabrikā izveidojiet rēķins attiecībā uz ICPO222. Neto cenu no 45,00 jūs nejauši maināt uz 54,00. Tiek parādīta ikona, lai norādītu, ka cena pārsniedz atļauto 2 procentu cenas toleranci.
-5.  Lapā Rēķinu salīdzināšanas detalizēta informācija atlasiet opciju, lai apstiprinātu grāmatojumu ar salīdzināšanas neatbilstībām. Lapā Kreditora rēķins noklikšķiniet uz Labi. Ja kreditora rēķins nebūtu starpuzņēmumu kreditoru rēķins, tad grāmatošana būtu sekmīga. Taču, tā kā jūs strādājat ar starpuzņēmumu kreditoru rēķinu, grāmatošana ir nesekmīga. Starpuzņēmumu tirdzniecībai starpuzņēmumu pārdošanas pasūtījuma rēķinu kopsummai ir jābūt vienādai ar rēķinu kopsummām atbilstošajā starpuzņēmumu pirkšanas pasūtījumā. Lai atrisinātu šo problēmu, labojiet neto cenu rēķinā, šo neto cenu mainot atpakaļ uz noklusējuma summu 45,00.
+5.  Lapā Rēķinu salīdzināšanas detalizēta informācija atlasiet opciju, lai apstiprinātu grāmatojumu ar salīdzināšanas neatbilstībām. Lapā Kreditora rēķins noklikšķiniet uz Labi. Ja kreditora rēķins nebūtu starpuzņēmumu kreditora rēķins, grāmatošana būtu veiksmīga. Taču, tā kā jūs strādājat ar starpuzņēmumu kreditoru rēķinu, grāmatošana ir nesekmīga. Starpuzņēmumu tirdzniecībai starpuzņēmumu pārdošanas pasūtījuma rēķinu kopsummai ir jābūt vienādai ar rēķinu kopsummām atbilstošajā starpuzņēmumu pirkšanas pasūtījumā. Lai atrisinātu šo problēmu, labojiet neto cenu rēķinā, šo neto cenu mainot atpakaļ uz noklusējuma summu 45,00.
 
 ## <a name="example-quantity-matching-with-intercompany-trade"></a> Piemērs. Daudzuma salīdzināšana ar starpuzņēmumu tirdzniecību
 Starpuzņēmumu pirkšanas pasūtījuma un starpuzņēmumu pārdošanas pasūtījuma daudzumiem ir jābūt vienādiem. Šīs prasības prioritāte ir augstāka par jebkuriem piemērojamajiem rēķinu salīdzināšanas apstiprinājumiem. Šajā piemērā tiek izmantoti šādi papildu iestatījumi attiecībā uz starpuzņēmumu tirdzniecību:

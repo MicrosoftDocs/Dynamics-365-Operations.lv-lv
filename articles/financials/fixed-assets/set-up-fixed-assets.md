@@ -3,14 +3,14 @@ title: "Pamatlīdzekļu iestatīšana"
 description: "Šajā tēmā ir sniegts pārskats par modeļa Pamatlīdzekļi iestatīšanu."
 author: twheeloc
 manager: AnnBe
-ms.date: 08/02/2017
+ms.date: 10/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 13771
 ms.assetid: 8be64197-fea1-4a34-8af2-d939919c28b1
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d16c9ca5740c27528d74800957f9b47984c135cd
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 7a578c5198feb8481a77180e3ed95077296f4638
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -56,12 +56,12 @@ Plašāku informāciju skatiet šeit: [Iestatīt grāmatas](tasks/set-up-value-m
 ## <a name="fixed-asset-posting-profiles"></a>Pamatlīdzekļu grāmatošanas metodes
 Kad esat iestatījis grāmatas, varat izveidot grāmatošanas metodi. Grāmatošanas metodei ir jābūt definētai pēc grāmatas, bet to var definēt arī detalizētākā līmenī. Piemēram, grāmatošanas metodi varat definēt grāmatas un pamatlīdzekļu grupas kombinācijai vai pat atsevišķai pamatlīdzekļu grāmatai. Pēc noklusējuma definētie virsgrāmatas konti tiek lietoti jūsu pamatlīdzekļu transakcijām.
 
-Jums ir nepieciešams definēt virsgrāmatas kontus, kas tiek izmantoti norakstīšanas procesu laikā — gan norakstīšanas pārdošanām, gan brāķiem. Norakstīšanas laikā iepriekš iegrāmatotās pamatlīdzekļu transakcijas tiek anulētas no sākotnējiem kontiem un neto summas tiek pārvietotas uz atbilstošo kontu peļņai un zaudējumiem no līdzekļu norakstīšanas. Lai palīdzētu nodrošināt, ka transakcijas tiek anulētas pareizi, jums ir jāiestata konti katram transakcijas tipam, kas tiek izmantots jūsu uzņēmumā. Par galveno kontu ir jānorāda sākotnējais konts, kuru attiecīgajai grāmatošanas metodei iestatījāt šim transakcijas tipam, un par korespondējošo kontu ir jānorāda jūsu peļņas un zaudējumu konts norakstīšanai. Izņēmums ir atlikusī vērtība. Šajā gadījumā gan galvenais konts, gan korespondējošais konts ir jāiestata uz peļņas un zaudējumu kontu norakstīšanai. Plašāku informāciju skatiet šeit: [Pamatlīdzekļa grāmatošanas profilu iestatīšana](tasks/set-up-fixed-asset-posting-profiles.md)
+Jums ir nepieciešams definēt virsgrāmatas kontus, kas tiek izmantoti norakstīšanas procesu laikā — gan norakstīšanas pārdošanām, gan brāķiem. Norakstīšanas laikā iepriekš iegrāmatotās pamatlīdzekļu transakcijas tiek anulētas no sākotnējiem kontiem un neto summas tiek pārvietotas uz atbilstošo kontu peļņai un zaudējumiem no līdzekļu norakstīšanas. Lai palīdzētu nodrošināt, ka transakcijas tiek anulētas pareizi, jums ir jāiestata konti katram transakcijas tipam, kas tiek izmantots jūsu uzņēmumā. Par galveno kontu ir jānorāda sākotnējais konts, kuru attiecīgajai grāmatošanas metodei iestatījāt šim transakcijas tipam, un par korespondējošo kontu ir jānorāda jūsu peļņas un zaudējumu konts norakstīšanai. Izņēmums ir atlikusī vērtība. Šajā gadījumā gan galvenais konts, gan korespondējošais konts ir jāiestata uz peļņas un zaudējumu kontu norakstīšanai. Papildinformāciju skatiet tēmā [Pamatlīdzekļa grāmatošanas profilu iestatīšana](tasks/set-up-fixed-asset-posting-profiles.md)
 
 ## <a name="fixed-asset-groups"></a>Pamatlīdzekļu grupas
 Pamatlīdzekļu grupa ir vienīgais obligātais lauks, kad veidojat pamatlīdzekli. Šī lauka vērtība līdzeklim nosaka vairāku informatīvo lauku noklusējuma vērtību. Grāmatas tiek iestatītas tā, lai katram līdzeklim grupā būtu piešķirta noklusējuma grāmata. Pēc tam grāmatām varat iestatīt atribūtus, kas ir raksturīgas kādai līdzekļu grupai, piemēram, Lietošanas ilgums un Nolietojuma aprēķināšanas metode.
 
-Varat arī definēt speciālā nolietojuma atskaitījumus vai papildnolietojumu konkrētai pamatlīdzekļu grupas un grāmatas kombinācijai. Speciālā nolietojuma atskaitījumiem ir jāpiešķir prioritāte, lai norādītu secību, kādā atskaitījumi tiek aprēķināti, kad grāmatai ir piešķirti vairāki atskaitījumi. Plašāku informāciju skatiet šeit: [Iestatīt pamatlīdzekļu grupas](tasks/set-up-fixed-asset-groups.md)
+Varat arī definēt speciālā nolietojuma atskaitījumus vai papildnolietojumu konkrētai pamatlīdzekļu grupas un grāmatas kombinācijai. Speciālā nolietojuma atskaitījumiem ir jāpiešķir prioritāte, lai norādītu secību, kādā atskaitījumi tiek aprēķināti, kad grāmatai ir piešķirti vairāki atskaitījumi. Papildinformāciju skatiet tēmā [Pamatlīdzekļu grupu iestatīšana](tasks/set-up-fixed-asset-groups.md)
 
 ## <a name="fixed-asset-parameters"></a>Pamatlīdzekļu parametri
 Pēdējā šīs procedūras darbība ir atjaunināt pamatlīdzekļu parametrus.
@@ -76,6 +76,6 @@ Varat konfigurēt iemesla kodus, lai tie tiktu pieprasīti pamatlīdzekļu izmai
 
 Visbeidzot cilnē Numuru sērijas jūs definējat pamatlīdzekļu numuru sērijas. Pamatlīdzekļu numuru sēriju var pārrakstīt ar pamatlīdzekļu grupu numuru sēriju, ja tāda ir norādīta.
 
-Plašāku informāciju skatiet rakstā [Pamatlīdzekļu izveide](tasks/create-fixed-asset.md).
+Papildinformāciju skatiet tēmā [Pamatlīdzekļa izveide](tasks/create-fixed-asset.md).
 
 

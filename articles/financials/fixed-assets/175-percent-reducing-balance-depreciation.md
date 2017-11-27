@@ -1,9 +1,9 @@
 ---
-title: "175 procentu degresīvā nolietojuma aprēķināšanas metode"
-description: "Šajā rakstā ir sniegts pārskats par 175 procentu degresīvās nolietojuma aprēķināšanas metodi."
+title: "175 procentu degresīvā nolietojuma aprēķināšanas metode"
+description: "Šajā tēmā ir sniegts pārskats par 175 procentu degresīvā nolietojuma aprēķināšanas metodi."
 author: saraschi2
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/30/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 13911
 ms.assetid: cc5d001f-bcfe-4602-9ec1-9e265e9fd188
 ms.search.region: Global
@@ -19,19 +19,19 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 318e111f784157666c2853bcd6d5b3af2c9ffdc5
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: a61e743898e3e65c0012a7aeb9837e55e9143d01
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="175-percent-reducing-balance-depreciation"></a>175 procentu degresīvā nolietojuma aprēķināšanas metode
+# <a name="175-percent-reducing-balance-depreciation"></a>175 procentu degresīvā nolietojuma aprēķināšanas metode
 
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir sniegts pārskats par 175 procentu degresīvās nolietojuma aprēķināšanas metodi.
+Šajā tēmā ir sniegts pārskats par 175 procentu degresīvā nolietojuma aprēķināšanas metodi.
 
 Ja iestatāt pamatlīdzekļa nolietojuma tabulu un atlasāt lauka **Metode** vērtību **175% atlikumu bilance** lapā **Nolietojuma tabulas**, pamatlīdzekļiem, kam ir piešķirta šī nolietojuma tabula, tiek izmantota vienāda nolietojuma procentu likme katrā nolietojuma periodā. 
 
@@ -58,7 +58,7 @@ Ja kā nolietojuma aprēķināšanas gadu atlasāt opciju **Kalendārs**, tad la
 
 ### <a name="fiscal"></a>Finanšu
 
-Ja atlasāt lauka **Nolietojuma aprēķina gads** vērtību **Finanšu**, tad 175% regresīvā nolietojuma bilance tiek aprēķināta, pamatojoties uz finanšu gadu finanšu kalendāram, kas ir norādīts šai grāmatai, vai finanšu kalendāram, kas ir atlasīts lapā **Virsgrāmata**. Finanšu kalendāri tiek iestatīti lapā **Finanšu kalendāri**. Papildinformāciju skatiet rakstā [Finanšu kalendāri, finanšu gadi un periodi.](..\budgeting\fiscal-calendars-fiscal-years-periods.md).
+Ja atlasāt lauka **Nolietojuma aprēķina gads** vērtību **Finanšu**, tad 175% regresīvā nolietojuma bilance tiek aprēķināta, pamatojoties uz finanšu gadu finanšu kalendāram, kas ir norādīts šai grāmatai, vai finanšu kalendāram, kas ir atlasīts lapā **Virsgrāmata**. Finanšu kalendāri tiek iestatīti lapā **Finanšu kalendāri**. Papildinformāciju skatiet rakstā [Finanšu kalendāri, finanšu gadi un periodi](..\budgeting\fiscal-calendars-fiscal-years-periods.md).
 
 Piemēram, finanšu gadam no 1. jūlija līdz 30. jūnijam nolietojuma aprēķins sākas 1. jūlijā. Finanšu gads var būt garāks vai īsāks par 12 mēnešiem. Nolietojums tiek automātiski pielāgots katram periodam, un nākamā finanšu gada garumu nosaka periodu iestatījumi lapā **Finanšu kalendāri**. 
 

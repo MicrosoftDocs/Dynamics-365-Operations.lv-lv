@@ -1,9 +1,9 @@
 --- 
 title: "Darbinieka reģistrēšana mainīgās atlīdzības plānā"
-description: "Atlīdzības un atvieglojumu vadītājs var reģistrēt darbiniekus mainīgās atlīdzības plānos, lai aprēķinātu skaidras un bezskaidras naudas piemaksas darbiniekiem."
+description: "Atlīdzību un atvieglojumu vadītājs var reģistrēt darbiniekus mainīgās atlīdzības plānos, lai aprēķinātu skaidras un bezskaidras naudas piemaksas darbiniekiem."
 author: kherr75
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,17 +16,17 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: eb162e22276fc19cf11999380d551b29ba6a6d45
+ms.sourcegitcommit: 63a02a64ff28531bae950f1b61d9167eaa0b0373
+ms.openlocfilehash: ebb92d5ce05f2891d25fb38f6200a10f02bcc948
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/01/2017
 
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>Darbinieka reģistrēšana mainīgās atlīdzības plānā
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Atlīdzības un atvieglojumu vadītājs var reģistrēt darbiniekus mainīgās atlīdzības plānos, lai aprēķinātu skaidras un bezskaidras naudas piemaksas darbiniekiem. Šajā procedūrā tiek pieņemts, ka mainīgās atlīdzības plāns ir izveidots, laukā Iespējot reģistrācijas iestatot vērtību Jā, un ka mainīgās atlīdzības plānam ir izveidoti piemērotības nosacījumi. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Lai sāktu šo procedūru, pārejiet uz sadaļu Personāla vadība > Darbinieki > Darbinieki > Kompensācija > Reģistrācija mainīgam plānam.
+Atlīdzību un atvieglojumu vadītājs var reģistrēt darbiniekus mainīgās atlīdzības plānos, lai aprēķinātu skaidras un bezskaidras naudas piemaksas darbiniekiem. Šajā procedūrā tiek pieņemts, ka mainīgās atlīdzības plāns ir izveidots, laukā Iespējot reģistrācijas iestatot vērtību Jā, un ka mainīgās atlīdzības plānam ir izveidoti piemērotības nosacījumi. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Lai sāktu šo procedūru, pārejiet uz sadaļu Personāla vadība > Darbinieki > Darbinieki > Kompensācija > Reģistrācija mainīgam plānam.
 
 1. Noklikšķiniet uz Jauns.
 2. Laukā Plāns noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.

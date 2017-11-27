@@ -3,24 +3,24 @@ title: "Personāla vadība"
 description: "Personāla vadība racionalizē daudzus ikdienas lietvedības uzdevumus un automatizē vairākus ar jūsu organizācijas personālu saistītus procesus. Personāla vadības darbiniekiem tā nodrošina arī struktūru uzraudzības jomu pārvaldīšanai. Šajās jomās ietilpst darbinieku pieņemšana darbā, kā arī ieturējumu un atvieglojumu administrēšana, apmācība, darba izpildes novērtējumi un izmaiņu pārvaldība."
 author: rschloma
 manager: AnnBe
-ms.date: 07/06/2017
+ms.date: 11/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Operations, Core
 ms.custom: 20931
 ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
-ms.openlocfilehash: e074426f4b863e692b91ce1ebf3b428435dadd94
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 217eef722383cf0ad9dfdfbe5ca2973eb1337fe1
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -66,7 +66,7 @@ Pēc personāla pieņemšanas darbā varat iestatīt plānus, lai efektīvi un t
 
 ## <a name="develop-and-train-employees"></a>Veicināt darbinieku attīstību un apmācīt darbiniekus
 
-Lai saviem darbiniekiem palīdzētu sasniegt viņu karjeras mērķus, vienlaicīgi nodrošinot svarīgās uzņēmuma vajadzības, varat iestatīt mērķus, izveidot darba izpildes novērtējumus un sekot līdzi atsauksmēm. Lai darbiniekiem palīdzētu attīstīt nepieciešamās prasmes, varat arī iestatīt instruktorus, kursu tipus, kursus, kursu aprakstus, darba kārtības, izsekošanu un sesijas, pirms kursam piešķirat kādu instruktoru vai kādu reģistrējat kursam. Instruktoriem jau ir jāpastāv kā darbiniekiem, kandidātiem vai kontaktpersonām.
+Lai palīdzētu darbiniekiem sasniegt viņu karjeras mērķus, vienlaikus izpildot svarīgās uzņēmuma vajadzības, varat iestatīt mērķus, izveidot veiktspējas pārskatus un izsekot atsauksmes. Lai palīdzētu darbiniekiem attīstīt viņu prasmes, varat arī iestatīt instruktorus, kursu veidus, kursus, kursu aprakstus, darba kārtības, izsekošanu un sesijas, pirms kursam piešķirat instruktoru vai kādu reģistrējat kursam. Instruktoriem jau ir jāpastāv kā darbiniekiem, kandidātiem vai kontaktpersonām.
 
 -   [Veiktspējas pārvaldība](../../talent/performance-management-overview.md)
 -   [Darbaspēka prasmes padarīt atbilstošas biznesa vajadzībām](../../talent/skills.md)

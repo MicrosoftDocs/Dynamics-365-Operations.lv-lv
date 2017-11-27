@@ -1,17 +1,17 @@
 ---
 title: "Finanšu pārskata komponenti"
 description: "Šajā rakstā ir izklāstīts, kā finanšu atskaišu veidošanā tiek izmantoti atskaišu definīciju komponenti jeb veidošanas bloki. Šajos veidošanas blokos ir iekļautas rindas definīcijas, kolonnas definīcijas un atskaišu koka definīcijas. Rakstā ir paskaidrots, kā organizēt un bloķēt veidošanas blokus un kā strādāt ar veidošanas bloku grupām."
-author: ShylaThompson
+author: aolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 074a2f377c16d47e95343dae3ebec6cbba4d5050
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 7b283b8550bd7e5eff969d45c761d0a54d93a33e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,13 +31,13 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir izklāstīts, kā finanšu atskaišu veidošanā tiek izmantoti atskaišu definīciju komponenti jeb veidošanas bloki. Šajos veidošanas blokos ir iekļautas rindas definīcijas, kolonnas definīcijas un atskaišu koka definīcijas. Rakstā ir paskaidrots, kā organizēt un bloķēt veidošanas blokus un kā strādāt ar veidošanas bloku grupām. 
+Šajā rakstā ir izklāstīts, kā finanšu atskaišu veidošanā tiek izmantoti atskaišu definīciju komponenti jeb veidošanas bloki. Šajos veidošanas blokos ir iekļautas rindas definīcijas, kolonnas definīcijas un atskaišu koka definīcijas. Šajā rakstā ir paskaidrots, kā sakārtot un bloķēt veidošanas blokus. 
 
-Finanšu atskaišu veidotāja dizains tika veidots ar mērķi sadalīt informāciju vismazākajos komponentos jeb veidošanas blokos, lai šos komponentus varētu pēc nepieciešamības jaukt un kombinēt. Tādēļ jūsu atskaišu formatējums atrodas atsevišķi no jūsu finanšu datiem un atskaites noformējumu varat mainīt, nemainot finanšu datus savā Microsoft Dynamics ERP sistēmā. Izmantojot šo veidošanas bloku pieeju, ir iespējams kombinēt tekstu, summas un aprēķinus, lai veidotu jums nepieciešamās atskaites. Turklāt šī elastība atbalsta radošu pieeju, atvieglojot darbību apskatīšanu dažādos veidos. Atsevišķie atskaites definīcijas veidošanas bloki ir līdzīgi trīsdimensiju izklājlapai, bet tie sniedz vairāk iespēju. Atskaites definīcija norāda rindas definīciju, kolonnas definīciju un papildu atskaišu koka definīciju, kas ir jāizmanto šai atskaitei. Tas iekļauj arī informāciju par to, kur glabāt ģenerēto atskaiti un kā to formatēt. Labākos atkārtotas lietošanas un kopīgošanas nolūkos varat izveidot veidošanas bloku grupu, kas ir pastāvošo atskaites definīciju, rindas definīciju, kolonnas definīciju, atskaišu koka definīciju un dimensiju kopu kolekcija, kura ir saistīta ar uzņēmumu.
+Finanšu atskaišu veidotāja dizains tika veidots ar mērķi sadalīt informāciju vismazākajos komponentos jeb veidošanas blokos, lai šos komponentus varētu pēc nepieciešamības jaukt un kombinēt. Tādēļ jūsu atskaišu formatējums atrodas atsevišķi no jūsu finanšu datiem un atskaites noformējumu varat mainīt, nemainot finanšu datus savā Microsoft Dynamics ERP sistēmā. Izmantojot šo veidošanas bloku pieeju, ir iespējams kombinēt tekstu, summas un aprēķinus, lai veidotu jums nepieciešamās atskaites. Turklāt šī elastība atbalsta radošu pieeju, atvieglojot darbību apskatīšanu dažādos veidos. Atsevišķie atskaites definīcijas veidošanas bloki ir līdzīgi trīsdimensiju izklājlapai, bet tie sniedz vairāk iespēju. Atskaites definīcija norāda rindas definīciju, kolonnas definīciju un papildu atskaišu koka definīciju, kas ir jāizmanto šai atskaitei. Tas iekļauj arī informāciju par to, kur glabāt ģenerēto atskaiti un kā to formatēt. 
 
-## <a name="building-blocks-of-a-report"></a>Pārskatu veidošanas bloki
-| Veidošanas bloks            | Apraksts                                                                                                                                                                                                                                                                              | Plašāka informācija                                                                                                 |
-|---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+## <a name="building-blocks-of-a-report"></a>Pārskata veidošanas bloki
+| Veidošanas bloks            | apraksts                     | Plašāka informācija                                    |
+|---------------------------|---------------------------------|---------------------------------------------------------|
 | Rindas definīcija            | Rindas definīcija atskaitē definē aprakstošās rindas (piemēram, algas vai pārdošana). Tajā ir uzskaitītas arī segmentu vērtības vai dimensijas, kas satur vērtības katram rindas vienumam un ietver rindu formātus un aprēķinus.                                                    | [Rindu definīcijas](row-definitions-financial-reporting.md)                       |
 | Kolonnas definīcija         | Kolonnas definīcija nosaka periodu, kas jāizmanto, kad dati tiek izgūti no finanšu dimensijām. Tas ietver arī kolonnu formatējumu un aprēķinus.                                                                                                                                 | [Kolonnu definīcijas](column-definitions-financial-reports.md)         |
 | Pārskatu koka definīcija | Pārskatu koka definīcija ir līdzīga uzņēmuma diagrammai. Tā satur atsevišķas pārskata vienības, kas pārstāv katru diagrammas lauku. Šīs vienības var būt konkrētas finanšu datu grupas vai augstāka līmeņa vienības, kurās ir apkopoti dati no citām pārskatu vienībām. | [Pārskata koku definīcijas](financial-reporting-tree-definitions.md) |
@@ -67,44 +67,20 @@ Lai atbloķētu kādu bloķētu veidošanas bloku, atveriet šo veidošanas blok
 
 ## <a name="building-block-groups"></a>Veidošanas bloku grupas
 
-Veidošanas bloki ir rindu definīcijas, kolonnu definīcijas, pārskata koku definīcijas un pārskatu definīcijas, kuras izveidojat pārskatam. Veidošanas bloku grupas ir definīciju un dimensiju kopu kolekcijas, kas ir saistītas ar uzņēmumu. Veidošanas bloku grupas var atbilst noteiktam uzņēmumam, vai vairāki uzņēmumi var koplietot vienu un to pašu veidošanas bloku kopu. Ja kādiem no jūsu uzņēmumiem ir citi kontu plāni, katram uzņēmumam varat izvēlēties izmantot atšķirīgu veidošanas bloku grupu. Varat arī nosaukt visus atsevišķos veidošanas blokus tā, lai to nosaukumi atspoguļotu, kuram uzņēmumam tie atbilst.
-### <a name="create-a-building-block-group"></a>Veidošanas bloku grupas izveide
+Veidošanas bloki ir rindu definīcijas, kolonnu definīcijas, pārskata koku definīcijas un pārskatu definīcijas, kuras izveidojat pārskatam. Veidošanas bloku grupas ir definīciju un dimensiju kopu kolekcijas. 
 
-1.  Atskaišu veidotāja izvēlnē **Uzņēmums** noklikšķiniet uz **Veidošanas bloku grupas**.
-2.  Dialoglodziņā **Veidošanas bloku grupas** noklikšķiniet uz vienuma **Jauna**.
-3.  Ievadiet unikālu veidošanas bloku grupas nosaukumu un aprakstu. Katrā laukā var būt ne vairāk par 256 rakstzīmēm. (Ieskaitot atstarpes.)
-4.  Noklikšķiniet uz **Labi**, lai izveidotu jauno veidošanas bloku grupu.
 
-### <a name="assign-a-building-block-group"></a>Veidošanas bloku grupas piesaiste
+### <a name="view-a-building-block-group"></a>Veidošanas bloku grupas skatīšana
 
-Kad esat izveidojis bloku grupu, tā ir jāpiešķir vismaz vienam uzņēmumam. Pēc tam varat izveidot atskaites, rindas, kolonnas un atskaišu koka definīcijas un saglabāt tās šajā veidošanas bloku grupā. Pirms sākat tālāk aprakstīto procedūru, ir jāaizver visi veidošanas bloki.
-1.  Pārskatu veidotājā, izvēlnē **Uzņēmums**, noklikšķiniet uz **Uzņēmumi**.
-2.  Dialoglodziņā **Uzņēmumi** atlasiet uzņēmumu, kam piešķirt veidošanas bloku grupu.
-3.  Noklikšķiniet uz **Modificēt**.
-4.  Dialoglodziņa **Modificēt uzņēmumu** laukā **Veidošanas bloku grupa** atlasiet veidošanas bloku grupu, kuru vēlaties piešķirt uzņēmumam, vai noklikšķiniet uz vienuma **Jauns**, lai izveidotu jaunu veidošanas bloku grupu.
-5.  Noklikšķiniet uz **Labi**, lai piešķirtu veidošanas bloku grupu.
-6.  Noklikšķiniet uz **Aizvērt**, lai aizvērtu dialoglodziņu **Uzņēmumi**. Atlasītā veidošanas bloku grupa tagad ir piešķirta uzņēmumam. Tagad visas jaunās rindas definīcijas, kolonnas un citas definīcijas, kas tika izveidotas, būs daļa no veidošanas bloku grupas, kura ir piešķirta šim uzņēmumam. Varat arī importēt .tdbx failu vai pārskatu no citas sistēmas.
-
-### <a name="view-a-building-block-group"></a>Veidošanas bloku grupas apskatīšana
-
-Kad veidošanas bloku grupa ir izveidota un tiek izmantota, varat skatīt visus tai piešķirtos veidošanas blokus. Veidošanas bloku grupu varat arī eksportēt vai importēt, kā arī veidošanas bloku grupām varat veikt papildu uzturēšanu.
-1.  Pārskatu veidotājā, izvēlnē **Uzņēmums**, noklikšķiniet uz **Veidošanas bloku grupas**.
+Varat skatīt visus veidošanas blokus, kas ir piešķirti veidošanas bloku grupai. Varat arī eksportēt vai importēt veidošanas bloku grupu.
+1.  Pārskatu veidotāja izvēlnē **Uzņēmums** noklikšķiniet uz vienuma **Veidošanas bloku grupas**.
 2.  Dialoglodziņā **Veidošanas bloku grupas** atlasiet apskatāmo veidošanas bloku.
 3.  Noklikšķiniet uz **Skatīt**, lai atvērtu dialoglodziņu **Skatīt veidošanas bloku grupu**, kurā varat skatīt veidošanas bloku grupas saturu.
 4.  Noklikšķiniet uz **Aizvērt**, lai aizvērtu dialoglodziņus.
 
-### <a name="save-a-building-block-group-under-a-new-name"></a>Saglabāt veidošanas bloku grupu ar jaunu nosaukumu
-
-Jau esošu veidošanas bloku grupu varat saglabāt ar jaunu nosaukumu. Pēc tam jauno veidošanas bloku grupu varat modificēt, nemainot sākotnējo veidošanas bloku grupu.
-1.  Pārskatu veidotāja izvēlnē **Uzņēmums** noklikšķiniet uz vienuma **Veidošanas bloku grupas**.
-2.  Dialoglodziņā **Veidošanas bloku grupas** atlasiet veidošanas bloku grupu, kuru saglabāt ar jaunu nosaukumu.
-3.  Noklikšķiniet uz **Saglabāt kā**.
-4.  Ievadiet jaunu veidošanas bloku grupas nosaukumu un aprakstu.
-5.  Noklikšķiniet uz **OK**. Jaunā veidošanas bloku grupa tiek attēlota dialoglodziņā **Veidošanas bloku grupas**.
-
 ### <a name="export-a-building-block-group"></a>Veidošanas bloku grupas eksportēšana
 
-Varat eksportēt veidošanas bloku grupu vai konkrētus pārskata veidošanas bloku grupā ietvertos veidošanas blokus. Eksportēto veidošanas bloku grupu var izmantot kā dublējumkopiju. Varat arī kopēt eksportētos datus no vienas veidošanas bloku grupas citā vai no vienas Finance and Operations instalācijas citā. Pārskatu veidotājā kopā ar veidošanas bloku grupu tiek ietverti arī ar atsauci izmantotie fontu stili un dimensiju kopas.
+Varat eksportēt veidošanas bloku grupu vai konkrētus pārskata veidošanas bloku grupā ietvertos veidošanas blokus. Eksportēto veidošanas bloku grupu var izmantot kā dublējumkopiju. Varat arī kopēt eksportētos datus no vienas Finance and Operations instalācijas uz citu. Pārskatu veidotājā kopā ar veidošanas bloku grupu tiek ietverti arī ar atsauci izmantotie fontu stili un dimensiju kopas.
 1.  Pārskatu veidotājā, izvēlnē **Uzņēmums**, noklikšķiniet uz **Veidošanas bloku grupas**.
 2.  Dialoglodziņā **Veidošanas bloku grupas** atlasiet eksportējamo veidošanas bloku grupu un pēc tam noklikšķiniet uz **Eksportēt**.
 3.  Dialoglodziņā **Eksportēt** atlasiet eksportējamās pārskatu definīcijas.
@@ -118,7 +94,7 @@ Varat eksportēt veidošanas bloku grupu vai konkrētus pārskata veidošanas bl
 
 ### <a name="import-a-building-block-group"></a>Veidošanas bloku grupas importēšana
 
-Veidošanas bloku grupu varat importēt esošā veidošanas bloku grupā vai varat izveidot jaunu veidošanas bloku grupu šiem datiem. Visas importētās veidošanas bloku grupas saglabā savus oriģinālos fontu stilus un uzņēmuma atsauces, un iekļauj attiecīgās dimensiju kopas.
+Varat importēt veidošanas bloku grupu esošā veidošanas bloku grupā. Visas importētās veidošanas bloku grupas saglabā savus oriģinālos fontu stilus un uzņēmuma atsauces, un iekļauj attiecīgās dimensiju kopas.
 1.  Pārskatu veidotājā, izvēlnē **Uzņēmums**, noklikšķiniet uz **Veidošanas bloku grupas**.
 2.  Dialoglodziņā **Veidošanas bloku grupas** atlasiet veidošanas bloku, kurā importēt veidošanas bloku grupu, un pēc tam noklikšķiniet uz **Importēt**.
 3.  Dialoglodziņā **Atvērt** atlasiet importējamo veidošanas bloku grupu un pēc tam noklikšķiniet uz **Atvērt**.

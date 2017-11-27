@@ -1,9 +1,9 @@
 ---
 title: "Zvanu centra funkcionalitāte"
-description: "Šajā rakstā ir sniegts pārskats par zvanu centra pārdošanas funkcionalitāti programmatūrā Microsoft Dynamics 365 for Retail."
+description: "Šajā tēmā ir sniegts pārskats par zvanu centra pārdošanas funkcionalitāti programmā Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 00d24e9933d087f150ec5270da94ad911423824d
+ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
+ms.openlocfilehash: 75dc09ffc84ef8ec48f50ea410974c99aabc212e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -40,7 +40,7 @@ Programmatūra Dynamics 365 for Retail atbalsta zvanu centru izmantošanu kā m
 
 Iespējojot šos līdzekļus zvanu centra iestatījumos, lapā **Pārdošanas pasūtījums** tie ir pieejami lietotājiem, kuri ir saistīti ar šo zvanu centru. Lielākai daļai no šiem līdzekļiem pirms to izmantošanas nepieciešami papildu iestatījumi. Pirms lietotāji var izveidot zvanu centra pasūtījumus, jums šie lietotāji ir jāpievieno zvanu centram kā zvanu centra lietotājus. Šis solis iespējo zvanu centra kanālam raksturīgu konfigurāciju un funkcionalitāti. Daži funkcionalitātes piemēri, kas kļūst pieejami:
 
--   Vadītā pārdošana piedāvā konfigurācijas opcijas skriptiem un preču attēliem pārdošanai pa tālruni, lai palīdzētu un vadītu pārdošanas darbiniekus, kamēr viņi pieņem pasūtījumus.
+-   Līdzeklis Vadītā pārdošana nodrošina pa tālruni veiktās pārdošanas scenāriju un preču attēlu konfigurēšanas iespējas, lai palīdzētu pārdevējiem pieņemt pasūtījumus un vadītu šo procesu.
 -   Pasūtījumi nevar būt pabeigti, kamēr pārdošanas darbinieki nav ieguvuši vismaz vienu maksājuma metodi.
 -   Papildu pārdošanas un šķērspārdošanas noteikumus var konfigurēt, lai atgādinātu pārdošanas darbiniekiem veicināt konkrētu produktu klientam.
 -   Pārdošanas darbinieki var tvert kataloga avota kodu, no kura debitors veic pasūtījumu.

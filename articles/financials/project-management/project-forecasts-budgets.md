@@ -1,9 +1,9 @@
 ---
 title: "Projektu prognozes un budžeti"
-description: 
+description: "Microsoft Dynamics 365 for Finance and Operations nodrošina projektu prognozes un projektu budžetus, kas sniedz iespēju pārvaldīt un kontrolēt projektus."
 author: KimANelson
 manager: AnnBe
-ms.date: 09/14/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ForecastModel, ProjYearEndProcess
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 23501
 ms.assetid: 4e6d1384-19a2-4232-b3f3-d2590c218bd7
 ms.search.region: Global
@@ -19,18 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 32dd89d92a496d6601d1983dbc3c8e7e579ee0b3
+ms.sourcegitcommit: 31abc719a8df7507e74b3bf6823306ba52261bc3
+ms.openlocfilehash: ebb3574b3f5c40b5512c0352c83520558f63879a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
 # <a name="project-forecasts-and-budgets"></a>Projektu prognozes un budžeti
 
 [!include[banner](../includes/banner.md)]
-
-
 
 
 Microsoft Dynamics 365 for Finance and Operations izdevums Enterprise nodrošina divus veidus, kā pārvaldīt un kontrolēt jūsu projektus: izmantojot projektu prognozes un projekta budžetus. 
@@ -41,16 +39,16 @@ Gan projektu prognozes, gan projektu budžeti izmanto prognožu modeļus, lai ai
 
 Katrai metodei ir savas priekšrocības. Pirms izvēlaties kādu metodi savai organizācijai, apsveriet tālāk aprakstītos punktus.
 
-|                           |                                                                                                                                                                                                                                                         |                                                                                                                                                                         |
-|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                           | **Projekta prognozēšana**                                                                                                                                                                                                                                 | **Projekta budžeta veidošana**                                                                                                                                                   |
+|                           |                                          |                                                    |
+|---------------------------|------------------------------------------|----------------------------------------------------|
+|                           | **Projekta prognozēšana**                  | **Projekta budžeta veidošana**                              |
 | **Periodu sadalījums**     | Transakcijas nevar skaidri sadalīt pa finanšu periodu. Tā vietā prognoze un prognozes kontrole ir balstītas uz projekta ciklu. Tā kā prognozes ir balstītas uz noteiktu datumu, periods ir jāsecina no šī datuma. | Transakcijas varat sadalīt pa visu projektu vai kādu finanšu periodu. Ja sadalāt pa periodu, neizmantotās summas varat pārnest uz priekšu, uz nākamo finanšu periodu. |
 | **Transakciju skatīšana**  | Transakcijas varat skatīt prognozes formās, kur transakcijas ir redzamas visam uzņēmumam un visiem projektiem, neatkarīgi no hierarhijas. Lai koncentrētos uz noteiktu projektu, šos datus ir nepieciešams filtrēt.                                       | Budžeta transakcijas varat skatīt viena projekta hierarhijai. Tāpēc varat skatīt detalizētu informāciju par transakcijām kādam pamatprojektam vai tā apakšprojektiem.                 |
-| **Transakciju mainīgie** | Kad ievadāt prognozes transakcijas, varat lietot katru atribūtu, kas pastāv faktiskai transakcijai. Tādējādi prognozē var izmantot lielāku detalizētību. Piemēram, varat ievadīt detalizētu informāciju par daudzumiem, darbiniekiem, krājumiem vai rindas rekvizītiem.         | Kad ievadāt detalizētu informāciju par budžetu, varat izmantot tikai summas, kategorijas un aktivitātes.                                                                                    |
-| **Drošība**              | Prognozēšana ir balstīta uz transakcijām, ko ievadāt prognozes formās, un tā neietver nekādu procesa kontroles mehānismu. Jebkurš darbinieks, kuram ir atļaujas attiecībā uz prognozes formu, var pārskatīt informāciju bez apstiprinājuma.                                        | Budžeta veidošana izmanto darbplūsmas sistēmu, kas ļauj izmantot izmaiņu pārvaldību un jums ļauj saglabāt pārskatījumu vēsturi.                                                       |
-| **Ieraksta tipi**           | Prognozes transakciju ieraksti ir balstīti uz vienību skaitu, bet ne uz izmaksām un pārdošanas vienību cenām.                                                                                                                                                       | Budžeta informācija ir balstīta uz summām, kas ir sadalītas starp izmaksām un ienākumiem.                                                                                        |
-| **Prognozes modeļi**       | Tā kā katrai prognozei ir jābūt saistītai ar kādu modeli, varat izveidot vairākus prognožu modeļus un iestatīt arī apakšmodeļus.                                                                                                                               | Projekta budžeta veidošana ierobežo prognozes modeļus, kas tiek izmantoti budžeta veidošanai. Mazāks prognožu modeļu skaits var noderēt, lai palielinātu projekciju konsekvenci.                           |
-| **Izmaksu patēriņi**         | Varat tikai atļaut vai neatļaut tādu transakciju ievadīšanu, kas izraisa izmaksu patēriņu.                                                                                                                                                                | Projekta budžeta veidošana lietotājiem sniedz papildu kontroles iespējas. Varat atļaut brīdinājumus un pārtēriņus.                                                                   |
+| **Transakciju mainīgie** | Kad ievadāt prognozes transakcijas, varat lietot katru atribūtu, kas pastāv faktiskai transakcijai. Tādējādi prognozē var izmantot lielāku detalizētību. Piemēram, varat ievadīt detalizētu informāciju par daudzumiem, darbiniekiem, krājumiem vai rindas rekvizītiem.         | Kad ievadāt detalizētu informāciju par budžetu, varat izmantot tikai summas, kategorijas un aktivitātes.                    |
+| **Drošība**              | Prognozēšana ir balstīta uz transakcijām, ko ievadāt prognozes formās, un tā neietver nekādu procesa kontroles mehānismu. Jebkurš darbinieks, kuram ir atļaujas attiecībā uz prognozes formu, var pārskatīt informāciju bez apstiprinājuma.                                        | Budžeta veidošana izmanto darbplūsmas sistēmu, kas ļauj izmantot izmaiņu pārvaldību un jums ļauj saglabāt pārskatījumu vēsturi.         |
+| **Ieraksta tipi**           | Prognozes transakciju ieraksti ir balstīti uz vienību skaitu, bet ne uz izmaksām un pārdošanas vienību cenām.  | Budžeta informācija ir balstīta uz summām, kas ir sadalītas starp izmaksām un ienākumiem.                                          |
+| **Prognozes modeļi**       | Tā kā katrai prognozei ir jābūt saistītai ar kādu modeli, varat izveidot vairākus prognožu modeļus un iestatīt arī apakšmodeļus.           | Projekta budžeta veidošana ierobežo prognozes modeļus, kas tiek izmantoti budžeta veidošanai. Mazāks prognožu modeļu skaits var noderēt, lai palielinātu projekciju konsekvenci.                           |
+| **Izmaksu patēriņi**         | Varat tikai atļaut vai neatļaut tādu transakciju ievadīšanu, kas izraisa izmaksu patēriņu.   | Projekta budžeta veidošana lietotājiem sniedz papildu kontroles iespējas. Varat atļaut brīdinājumus un pārtēriņus.                    |
 | **Kontrole**               | Budžeta kontrole tiek veikta, izmantojot prognozes samazināšanu. Faktiskās summas tiek atņemtas no prognozes transakciju bilancēm bez jebkādiem auditācijas pierakstiem. Šādi var būt grūtāk izsekot, kur notika faktiskās transakcijas.                   | Projekta budžeta kontrolē faktiskās summas tiek atņemtas no summām atlikušajā budžetā. Šādi tiek nodrošināti skaidrāki auditācijas pieraksti.                                   |
 
 ## <a name="project-forecasts"></a>Projektu prognozes
@@ -66,7 +64,7 @@ Prognozes modeļi kā projektu kontroles mehānismu var izmantot prognozes samaz
 
 Projekta prognozes varat pārskatīt, kopēt, dzēst vai pārsūtīt uz virsgrāmatas budžetu. Taču nav procesa kontroles. Jebkurš darbinieks, kuram ir atļauja attiecībā uz prognozes formu, var veikt izmaiņas bez pārskatīšanas.
 
--   **Pārskatīt** — varat pārskatīt prognozes transakciju tajās pašās veidlapās, kurās tika veikti sākotnējie ieraksti.
+-   **Pārskatīt** — prognozes transakciju varat pārskatīt tajās pašās formās, kurās tika veikti sākotnējie ieraksti.
 -   **Kopēt vai dzēst** — kad kopējat prognozes transakcijas, viena prognozes modeļa transakcijas jūs kopējat uz citu prognozes modeli. Dzēšot prognozi, prognozes transakcijas tiek dzēstas no prognozes modeļa. Lai ierobežotu prognozes transakcijas, kuras tiek kopētas vai dzēstas, atlasiet noteiktus transakciju veidus un datumus. Šādi varat kopēt vai dzēst tikai noteiktas prognozes daļas.
 -   **Pārsūtīt** — kad projekta prognozi pārsūtāt uz virsgrāmatas budžetu, jūs prognozes modeļa prognozes transakcijas pārsūtāt uz virsgrāmatas budžetu. Varat pārrakstīt jebkuras iepriekš pārsūtītās transakcijas virsgrāmatas budžetā, uz kuru pārsūtāt savu projekta prognozi.
 

@@ -1,9 +1,9 @@
 ---
 title: "Priekšapmaksas rēķini salīdzinājumā ar priekšapmaksu"
-description: "Šajā rakstā ir aprakstītas un salīdzinātas divas metodes, kuras organizācijas var izmantot, veicot avansa maksājumus (priekšapmaksas). Izmantojot vienu metodi, ir jāizveido priekšapmaksas rēķins, kas saistīts ar pirkšanas pasūtījumu. Izmantojot otru metodi, ir jāizveido priekšapmaksas žurnāla dokumenti, vispirms izveidojot žurnāla ierakstus un atzīmējot tos kā priekšapmaksas žurnāla dokumentus."
+description: "Šajā tēmā ir aprakstītas un salīdzinātas divas metodes, ko organizācijas var izmantot avansa maksājumu (priekšapmaksas) veikšanai. Izmantojot vienu metodi, ir jāizveido priekšapmaksas rēķins, kas saistīts ar pirkšanas pasūtījumu. Izmantojot otru metodi, ir jāizveido priekšapmaksas žurnāla dokumenti, vispirms izveidojot žurnāla ierakstus un atzīmējot tos kā priekšapmaksas žurnāla dokumentus."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LedgerJournalTransVendPaym, PurchTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 15871
 ms.assetid: a0bb5220-73d4-48ae-84d0-46a171c224fa
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e6bf67fb17363f7b61e782ed6d8e7b6310433ffd
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c1f30e375b759641875ed6a5a7d2f77132715c57
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir aprakstītas un salīdzinātas divas metodes, kuras organizācijas var izmantot, veicot avansa maksājumus (priekšapmaksas). Izmantojot vienu metodi, ir jāizveido priekšapmaksas rēķins, kas saistīts ar pirkšanas pasūtījumu. Izmantojot otru metodi, ir jāizveido priekšapmaksas žurnāla dokumenti, vispirms izveidojot žurnāla ierakstus un atzīmējot tos kā priekšapmaksas žurnāla dokumentus.
+Šajā tēmā ir aprakstītas un salīdzinātas divas metodes, ko organizācijas var izmantot avansa maksājumu (priekšapmaksas) veikšanai. Izmantojot vienu metodi, ir jāizveido priekšapmaksas rēķins, kas saistīts ar pirkšanas pasūtījumu. Izmantojot otru metodi, ir jāizveido priekšapmaksas žurnāla dokumenti, vispirms izveidojot žurnāla ierakstus un atzīmējot tos kā priekšapmaksas žurnāla dokumentus.
 
 Organizācijas var pieprasīt priekšapmaksu (avansa maksājumus), kas jāmaksā piegādātājiem par precēm vai pakalpojumiem, pirms šīs preces vai pakalpojumi ir izpildīti. Pastāv divas piegādātāju priekšapmaksas izsniegšanas metodes. Lai mazinātu risku, varat izsekot priekšapmaksu, definējot priekšapmaksu pirkšanas pasūtījumā. Lai izmantotu šo metodi, ir jāizveido priekšapmaksas rēķins, kas saistīts ar pirkšanas pasūtījumu. Šī metode tiek dēvēta par priekšapmaksas rēķinu izrakstīšanu. Organizācijas, kuras nevēlas precīzi izsekot priekšapmaksu vai nesaņem priekšapmaksas rēķinu no saviem piegādātājiem, var izmantot priekšapmaksas žurnāla dokumentus, nevis priekšapmaksas rēķinu izrakstīšanas metodi. Varat izveidot priekšapmaksas žurnāla dokumentus, izveidojot žurnāla ierakstus un atzīmējot tos kā priekšapmaksas žurnāla dokumentus. Izmantojot šo metodi, nevar izsekot to, kura pirkšanas pasūtījuma priekšapmaksa piegādātājam tiek veikta. Tomēr varat atzīmēt iegrāmatoto priekšapmaksu nosegšanai, salīdzinot to ar pirkšanas pasūtījumu.
 
@@ -56,7 +56,7 @@ Grāmatvedības prakse daudzās valstīs un reģionos pieprasa, ka priekšapmaks
 7.  Kad piegādātājs piegādā preces vai pakalpojumus, reģistrējiet rēķinu. Ja 6. darbībā veicāt priekšapmaksu atbilstoši pirkšanas pasūtījumam vai pārdošanas pasūtījumam, priekšapmaksa tiek automātiski veikta atbilstoši izveidotajam rēķinam. Ja priekšapmaksa nav veikta atbilstoši pirkšanas pasūtījumam vai pārdošanas pasūtījumam, varat veikt to manuāli atbilstoši rēķinam, klientu vai piegādātāju lapā, lietojot opciju **Transakciju noslēgšana**. Priekšapmaksas summa tad tiek atsaukta no īslaicīgā piegādātāju/klientu virsgrāmatas konta. Turklāt, ja tika aprēķināti nodokļi, tie tiks atcelti, jo rēķinā ir faktiskie nodokļi.
 
 ## <a name="overview-of-the-prepayment-invoicing-process"></a>Priekšapmaksas rēķinu izrakstīšanas procesa pārskats
-Priekšapmaksas rēķini ir parastā uzņēmumu darbības prakse. Piegādātājs izsniedz priekšapmaksas rēķinus, lai pieprasītu depozītu par pirkumu pirms pirkšanas pasūtījums izpildes Dažiem piegādātājiem, piemēram, var būt nepieciešama priekšapmaksa par muitas precēm vai pakalpojumiem. Ja piegādātājs izsniedz rēķinu, kam nepieciešama priekšapmaksa, varat izmantot priekšapmaksas rēķinu izrakstīšanas līdzekli. Priekšapmaksas vērtību var definēt pirkšanas pasūtījumā; priekšapmaksas rēķins ir ierakstīts un apmaksāts, un pēc tam priekšapmaksas rēķins tiek lietots galīgajā rēķinā. Lai izveidotu priekšmaksājumu, izpildiet tālāk aprakstītās darbības.
+Priekšapmaksas rēķini ir parastā uzņēmumu darbības prakse. Piegādātājs izsniedz priekšapmaksas rēķinus, lai pieprasītu depozītu par pirkumu pirms pirkšanas pasūtījums izpildes Dažiem piegādātājiem, piemēram, var būt nepieciešama priekšapmaksa par muitas precēm vai pakalpojumiem. Ja kreditors izraksta rēķinu, kam ir nepieciešama priekšapmaksa, varat izmantot priekšapmaksas rēķinu izrakstīšanas līdzekli. Priekšapmaksas vērtību var definēt pirkšanas pasūtījumā; priekšapmaksas rēķins ir ierakstīts un apmaksāts, un pēc tam priekšapmaksas rēķins tiek lietots galīgajā rēķinā. Lai izveidotu priekšmaksājumu, izpildiet tālāk aprakstītās darbības.
 
 1.  Pirkšanas aģents izveido, apstiprina un pēc tam iesniedz pirkšanas pasūtījumu, kam piegādātājs ir pieprasījis priekšapmaksu. Priekšapmaksas vērtība pirkšanas pasūtījumā tiek definēta kā līguma daļa.
 2.  Piegādātājs iesniedz priekšapmaksas rēķinu.

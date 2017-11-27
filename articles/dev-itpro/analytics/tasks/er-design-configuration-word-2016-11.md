@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d602e07548d22bcdee3f375c3c327c0e8963c3b4
+ms.sourcegitcommit: 7f80dc8411d38d051b01d77e35635a920d8803a6
+ms.openlocfilehash: 300cf6ed1a5a7098e71b812d682c1b51c2cf786c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="design-a-configuration-for-generating-reports-in-microsoft-word-format-for-electronic-reporting-er"></a>Noformēt konfigurāciju pārskatu ģenerēšanai Microsoft Word formātā elektronisko pārskatu veidošanai (ER)
@@ -30,9 +30,9 @@ Nākamajās darbībās ir paskaidrots, kā lietotājs, kam piešķirta loma Sist
 
 Lai veiktu šīs darbības, jums vispirms ir jāizpilda uzdevuma ceļvedī “Izveidot ER konfigurāciju pārskatu ģenerēšanai formātā OPENXML” norādītās darbības. Turklāt jums ir nepieciešams šim pašam pārskatam jau iepriekš lejupielādēt un lokāli saglabāt šādas veidnes:
 
-http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReport.docx
+[Maksājumu pārskata veidne](https://go.microsoft.com/fwlink/?linkid=862266)
 
-http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReportBounded.docx
+[Maksājumu pārskata saistītā veidne](https://go.microsoft.com/fwlink/?linkid=862266)
 
 Šī procedūra ir paredzēta līdzeklim, kas tika pievienots Microsoft Dynamics 365 for Operations versijā 1611.
 
@@ -49,7 +49,7 @@ http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReportBou
 ## <a name="replace-the-excel-template-with-the-word-template"></a>Excel veidni nomainīt pret Word veidni
     * Pašlaik Excel dokuments tiek izmantots kā veidne, lai ģenerētu izvadi formātā OPENXML. Mēs šo pārskata veidni importēsim formātā Word.  
 1. Noklikšķiniet uz Pielikumi.
-    * Esošo Excel veidni aizstājiet ar iepriekš lejupielādēto Word veidni SampleVendPaymDocReport.docx. Ņemiet vērā, ka šī veidne satur tikai dokumenta izkārtojumu, kuru vēlamies ģenerēt kā ER izvadi.  
+    * Aizstājiet esošo Excel veidni ar iepriekš lejupielādēto Word veidni Maksājumu pārskata veidne. Ņemiet vērā, ka šī veidne satur tikai dokumenta izkārtojumu, kuru vēlamies ģenerēt kā ER izvadi.  
 2. Noklikšķiniet uz Dzēst.
 3. Noklikšķiniet uz Jā.
 4. Noklikšķiniet uz Jauns.

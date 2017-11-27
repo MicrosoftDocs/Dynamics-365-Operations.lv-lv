@@ -3,7 +3,7 @@ title: "Aizraujošas pievienošanas pieredzes izveidošana"
 description: "Ja pievienošana tiek darīta labi, tā jaunajiem darbiniekiem palīdz sajusties piederīgiem savai jaunajai organizācijai."
 author: tbisaacs
 manager: 
-ms.date: 05/04/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Talent
@@ -14,10 +14,10 @@ ms.search.region: Global
 ms.author: tbisaacs
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0baea020763465fcfd1b3718ff2e60de6b335143
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: c62ad20a1e3aa3bae71b07b6f5aecb5908a90a65
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -67,7 +67,7 @@ Attiecībām ir galvenā loma ātrai nupat nolīgto darbinieku ievadīšanai dar
 
 ## <a name="provide-training"></a>Apmācību nodrošināšana
 
-Nodrošiniet nupat nolīgtajiem darbiniekiem pārliecību un rīkus, kas viņiem ir nepieciešami sekmīgam darbam. Tas sākas ar viņu pienākumu skaidru definēšanu un norādīšanu, kas no viņiem tiek gaidīts. Pēc tam izveidojiet apmācību plānu, kas koncentrējas uz prasmēm, kas viņiem nepieciešamas, lai izpildītu no viņiem gaidīto. Nekoncentrējieties tikai uz apmācību, kas balstīta uz atbilstību.
+Nodrošiniet nupat nolīgtajiem darbiniekiem pārliecību un rīkus, kas viņiem ir nepieciešami sekmīgam darbam. Vispirms skaidri definējiet viņu pienākumus un norādiet, kā šie pienākumi ir jāizpilda. Pēc tam izveidojiet apmācību plānu, kas koncentrējas uz prasmēm, kas viņiem nepieciešamas, lai izpildītu no viņiem gaidīto. Nekoncentrējieties tikai uz apmācību, kas balstīta uz atbilstību.
 
 ## <a name="set-clear-milestones"></a>Skaidru atskaites punktu noteikšana
 

@@ -3,7 +3,7 @@ title: "Kreditoru maksājumu pārskats"
 description: "Šis uzdevumu ceļvedis palīdzēs izprast dažādas metodes, ko izmanto, lai izveidotu kreditoru maksājumus, ieskaitot to, kā izmantot maksājuma priekšlikumu vai manuāli ievadīt vienreizēju maksājumu."
 author: kweekley
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 10/30/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 020d147744df24b2065e66e5fc68ed5d5479127b
+ms.sourcegitcommit: cafd499e849570cae7b7f58bf2d487a7ac0093e6
+ms.openlocfilehash: e9a94231f755ff23bb442d62e90daff8f2d1f4fb
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/30/2017
 
 ---
 # <a name="vendor-payment-overview"></a>Kreditoru maksājumu pārskats
@@ -55,7 +55,7 @@ ms.lasthandoff: 09/29/2017
 18. Ieskenējiet savus maksājumus un pārliecinieties, vai maksāšanas metode ir norādīta visiem maksājumiem. 
     * Ja ģenerējat tādus maksājumus, kā čeka drukāšana vai elektroniskā maksājuma izveide, jānosaka maksāšanas metode. Maksāšanas tips arī noteiks noklusējuma bankas kontu, no kura tiks veikts maksājums.  
 19. Noklikšķiniet uz Jauns, lai izveidotu vienreizēju maksājumu.
-    * Vienreizējs maksājums var tikt pievienots maksājumu žurnālam jebkurā laikā pirms grāmatošanas. To var izdarīt, noklikšķinot uz pogas Jauns un pievienojot maksājuma informāciju manuāli, nevis pēc tam, izmantojot maksājuma priekšlikumu.  
+    * Vienreizējs maksājums var tikt pievienots maksājumu žurnālam jebkurā laikā pirms grāmatošanas. To var izdarīt, noklikšķinot uz pogas Jauns un manuāli pievienojot maksājuma informāciju, nevis izmantojot maksājuma priekšlikumu.  
 20. Atlasiet kreditoru, kuram tiks veikts maksājums.
 21. Ja pastāv rēķins apmaksai, atlasiet Transakciju nosegšana, lai atlasītu apmaksājamo rēķinu.
     * Ja tā ir priekšapmaksa, šī darbība nav obligāta. Maksājumu var izveidot, neatlasot rēķinu.  
@@ -68,11 +68,11 @@ ms.lasthandoff: 09/29/2017
 26. Noklikšķiniet uz Jā.
 27. Izvēlieties Ģenerēt maksājumu, lai drukātu čekus vai izveidotu elektroniskā maksājuma failu.
 28. Atlasiet maksājuma metodi, kuru vēlaties izveidot.
-    * Maksājumu žurnāls var saturēt gan čekus, gan elektroniskos maksājumus, bet vienlaikus var izveidot tikai vienu maksājuma veidu.  
+    * Maksājumu žurnāls var saturēt gan čeku maksājumus, gan elektroniskos maksājumus, taču vienlaikus var izveidot tikai viena veida maksājumu.  
 29. Atlasiet bankas kontu, no kura ģenerēt maksājumus.
 30. Noklikšķiniet uz OK.
     * Maksājumi tiks izveidoti tikai maksājumiem, kas atbilst atlasītajai Maksājuma metodei un Bankas kontam.  
-31. Ja ģenerējat čekus, izvēlieties Dokuments, lai nodrošinātu pareizu drukas adresātu čekiem.
+31. Ja veidojat čeku maksājumus, izvēlieties Dokuments, lai nodrošinātu, ka čekiem tiek izmantots pareizais drukas galamērķis.
 32. Noklikšķiniet uz OK.
 33. Noklikšķiniet uz Labi, lai izveidotu maksājumus.
 34. Noklikšķiniet uz Grāmatot, ja visi maksājumi ir apstiprināti un ģenerēti. 

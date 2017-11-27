@@ -3,7 +3,7 @@ title: "Ražošanas apakšuzņēmēja darba pārvaldība"
 description: "Šajā tēmā ir aprakstīts, kā programmatūrā Microsoft Dynamics 365 for Finance and Operations tiek pārvaldītas apakšuzņēmēja operācijas. Tas nozīmē, ka tajā ir paskaidrots, kā kreditors pārvalda resursam piešķirtās ražošanas operācijas."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 268174
 ms.assetid: fe47c498-4f48-42a2-a0cf-5436c19ab3ea
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: e1c29f597b190bd36b6fc64b16913ecdd02daf75
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 26feea4d86cf8b976f41342c8543594593c4b135
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/29/2017
 
 Šajā tēmā ir aprakstīts, kā programmatūrā Microsoft Dynamics 365 for Finance and Operations tiek pārvaldītas apakšuzņēmēja operācijas. Tas nozīmē, ka tajā ir paskaidrots, kā kreditors pārvalda resursam piešķirtās ražošanas operācijas.
 
-[Ražošanas procesu](production-process-overview.md) ietvaros darbu var veikt kreditoriem piederoši vai kreditoru administrēti resursi. Parasti kreditora resursi tiek izmantoti, lai apmierinātu periodiski radīto papildu pieprasījumu, kas pārsniedz uzņēmuma resursu ražīgumu. Kreditors, iespējams, var piedāvāt arī īpašas [resursu iespējas](resource-capabilities.md)vai resursus par zemāku cenu.  
+[Ražošanas procesu](production-process-overview.md) ietvaros darbu var veikt kreditoriem piederoši vai kreditoru administrēti resursi. Parasti kreditora resursi tiek izmantoti, lai apmierinātu periodiski radīto papildu pieprasījumu, kas pārsniedz uzņēmuma resursu ražīgumu. Kreditors, iespējams, var piedāvāt arī īpašas [resursu iespējas](resource-capabilities.md) vai resursus par zemāku cenu.  
 
 Atkarībā no kreditora resursiem, kas tiek izmantoti ražošanas procesā, [maršrutam](routes-operations.md) bieži ir papildu loģistikas prasības, jo materiāli un daļēji pabeigtās preces vispirms ir jātransportē uz kreditora apstrādes vietu. Pēc tam apakšuzņēmēja operācijas rezultāts ir jātransportē uz nākamajai operācijai piešķirto atrašanās vietu vai gatavo preču noliktavu.  
 
@@ -68,7 +68,7 @@ Ja tiek izmantota šāda konfigurācija, saistītajai pakalpojuma precei tiek iz
 Ražošanas pasūtījumam var būt daudz operāciju, un katra operācija var būt piešķirta atšķirīgam kreditoram. Tāpēc pilnīgs ražošanas pasūtījums var aktivizēt vairākus pirkšanas pasūtījumus.
 
 ## <a name="subcontracting-of-production-flow-activities"></a>Ražošanas plūsmas aktivitāšu apakšlīgumu slēgšana
-Risinājums [lean manufacturing](lean-manufacturing-overview.md)modelē apakšuzņēmēja darbu kā pakalpojumu, kas ir saistīts ar [ražošanas plūsmas](tasks/create-production-flow-version.md) (uzdevuma ceļveža tēma) aktivitāti. Tāpēc šī veida apakšlīgumu slēgšana tiek saukta arī par [no aktivitātēm atkarīgu apakšlīguma slēgšanu.](activity-based-subcontracting.md) Ir ieviests īpašs izmaksu grupas veids **Tiešie ārpakalpojumi**, un apakšuzņēmēju pakalpojumi nav ietverti gatavo preču MK. Ja lietojat metodi lean manufacturing, visas aktivitātes tiek definētas, izmantojot Kanban, kas var būt saistīts ar vienu vai vairākām ražošanas plūsmas aktivitātēm. Pagaidām šis skaidrojums līdzinās ražošanas pasūtījumu skaidrojumam. Taču atšķirībā no ražošanas pasūtījumiem, kurus pabeidzot, vienmēr ir jāiegūst gatava prece, varat izveidot Kanban, lai piegādātu daļēji pabeigtu preci. Nav nepieciešams ieviest jaunu preci un MK līmeni.  
+Risinājums [lean manufacturing](lean-manufacturing-overview.md) modelē apakšuzņēmēja darbu kā pakalpojumu, kas ir saistīts ar [ražošanas plūsmas](tasks/create-production-flow-version.md) (uzdevuma ceļveža tēma) aktivitāti. Tāpēc šī veida apakšlīgumu slēgšana tiek saukta arī par [no aktivitātēm atkarīgu apakšlīguma slēgšanu.](activity-based-subcontracting.md) Ir ieviests īpašs izmaksu grupas veids **Tiešie ārpakalpojumi**, un apakšuzņēmēju pakalpojumi nav ietverti gatavo preču MK. Ja lietojat metodi lean manufacturing, visas aktivitātes tiek definētas, izmantojot Kanban, kas var būt saistīts ar vienu vai vairākām ražošanas plūsmas aktivitātēm. Pagaidām šis skaidrojums līdzinās ražošanas pasūtījumu skaidrojumam. Taču atšķirībā no ražošanas pasūtījumiem, kurus pabeidzot, vienmēr ir jāiegūst gatava prece, varat izveidot Kanban, lai piegādātu daļēji pabeigtu preci. Nav nepieciešams ieviest jaunu preci un MK līmeni.  
 
 Kanban nosacījumi var būt ļoti dinamiski, tāpēc varat modelēt dažādus vienas preces piegādes variantus ražošanas plūsmā. Ja lietojat racionalizēto apakšlīgumu slēgšanu, materiālu plūsma un finanšu plūsma ir stingri atdalītas. Visu materiālu plūsma ir atainota, izmantojot Kanban aktivitātes. Pakalpojumu preču pirkšanas pasūtījumu un šo pakalpojumu ieejas plūsmu grāmatošanu var automatizēt, pamatojoties uz Kanban darbu statusu ražošanas plūsmā. Kanban darbus var sākt un pabeigt pat pirms pirkšanas pasūtījumu izveides. Apakšlīgumu slēgšanas dokumentus (pakalpojuma pirkšanas pasūtījumu un pirkšanas ieejas plūsmas dokumentu) var apkopot pēc perioda un pakalpojuma. Tādējādi var samazināt pirkšanas dokumentu un rindu skaitu pat ļoti bieži atkārtotu operāciju gadījumā, kad kreditori nodrošina apakšuzņēmēju pakalpojumus viengabala plūsmā.
 

@@ -3,7 +3,7 @@ title: "Aptauju sadalīšana, izmantojot plānošanu"
 description: "Izmantojot anketēšanas plānošanu, var plānot un sadalīt anketas vairākiem respondentiem."
 author: kherr75
 manager: AnnBe
-ms.date: 11/15/2016
+ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d371873cbd16f050ca042f5c13d93781fe6fc732
+ms.sourcegitcommit: 63a02a64ff28531bae950f1b61d9167eaa0b0373
+ms.openlocfilehash: 8dd7365a18f371694f21a19efca76bd3e29ed641
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/01/2017
 
 ---
 # <a name="distribute-questionnaires-using-scheduling"></a>Aptauju sadalīšana, izmantojot plānošanu
@@ -43,7 +43,7 @@ Izmantojot anketēšanas plānošanu, var plānot un sadalīt anketas vairākiem
 9. Izvērsiet sadaļu E-pasta ziņojums darbinieku patstāvīgai izmantošanai.
 10. Ierakstiet vērtību laukā Tēma.
     * Piemērs: Anketa pieejama  
-11. Teksta laukā ierakstiet e-pasta ziņojuma pamattekstu. Ņemiet vērā, ka mainīgais var tikt izmantots, lai aizstātu vērtības sistēmā.
+11. Teksta laukā ierakstiet e-pasta ziņojuma pamattekstu. Ņemiet vērā, ka sistēmā vērtības var aizstāt ar mainīgo.
     * Piemērs: Cien. %P%! Lūdzu, piesakieties darbinieku pašapkalpes pakalpojumā, lai aizpildītu darbaspēka veselības novērtējuma anketu.  Contoso  
 12. Noklikšķiniet uz Saglabāt.
 

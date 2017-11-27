@@ -1,9 +1,9 @@
 ---
 title: "Vidējā svērtā uz datumu"
-description: 
+description: "Svērtais vidējais datums ir krājumu modelis, kas balstīts uz svērto vidējo principu, kur izsniegšanas no krājumiem tiek vērtētas pie vidējās krājumu vērtības, kas inventarizācijā saņemta katrai atsevišķai dienai krājumu slēgšanas periodā."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
+ms.search.scope: Core, Operations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 95cc937a97596e4f6ce28636fb30b86e9b328220
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: a258c7d6314546262a3f9d07d06da5cad797d99b
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -33,8 +33,9 @@ ms.lasthandoff: 09/29/2017
 
 [!include[retail name](../includes/retail-name.md)]
 
+Svērtais vidējais uz datumu ir krājumu modelis, kura pamatā ir svērtā vidējā princips. Izmantojot svērtā vidējā principu, krājumu izejas plūsmas tiek novērtētas atbilstoši krājumu ieejas plūsmu vidējai vērtībai katrā atsevišķā dienā krājumu slēgšanas perioda laikā. 
 
-Svērtais vidējais uz datumu ir krājumu modelis, kura pamatā ir svērtā vidējā princips. Izmantojot svērtā vidējā principu, krājumu izejas plūsmas tiek novērtētas atbilstoši krājumu ieejas plūsmu vidējai vērtībai katrā atsevišķā dienā krājumu slēgšanas perioda laikā. Veicot krājumu slēgšanu, izmantojot svērto vidējo uz datumu, visas dienas ieejas plūsmas tiek segtas ar virtuālu izejas plūsmu. Šī virtuālā izejas plūsma satur kopējo ieejas plūsmas daudzumu un vērtību šajā dienā. Virtuālajai izejas plūsmai ir atbilstoša virtuālā ieejas plūsma, ar ko tiks segta izejas plūsma. Tāpēc visām izejas plūsmām ir vienādas vidējās izmaksas. Virtuālo izejas plūsmu un virtuālo ieejas plūsmu var uzskatīt par virtuālu pārsūtīšanu, ko sauc par *svērtā vidējā krājumu slēgšanas pārsūtīšanu*. 
+Veicot krājumu slēgšanu, izmantojot svērto vidējo uz datumu, visas dienas ieejas plūsmas tiek segtas ar virtuālu izejas plūsmu. Šī virtuālā izejas plūsma satur kopējo ieejas plūsmas daudzumu un vērtību šajā dienā. Virtuālajai izejas plūsmai ir atbilstoša virtuālā ieejas plūsma, ar ko tiks segta izejas plūsma. Tāpēc visām izejas plūsmām ir vienādas vidējās izmaksas. Virtuālo izejas plūsmu un virtuālo ieejas plūsmu var uzskatīt par virtuālu pārsūtīšanu, ko sauc par *svērtā vidējā krājumu slēgšanas pārsūtīšanu*. 
 
 Ja konkrētajā datumā vai pirms tā ir bijusi tikai viena ieejas plūsma, vidējā vērtība nav jāaprēķina. Tā kā visas izejas plūsmas tiek segtas ar šo ieejas plūsmu, virtuālā pārsūtīšana netiek izveidota. Tāpat, ja konkrētajā datumā ir bijušas tikai izejas plūsmas un nav bijusi neviena ieejas plūsma, no kā var aprēķināt vidējo vērtību, virtuālā pārsūtīšana netiek izveidota. Ja izmantojat svērto vidējo uz datumu, varat iezīmēt krājumu transakcijas, lai noteikta krājumu ieejas plūsma tiktu segta ar noteiktu izejas plūsmu. Šādā gadījumā netiek izmantota svērtā vidējā uz datumu kārtula. Ja izmantojat svērtā vidējā datuma krājumu modeli, ieteicama ikmēneša krājumu slēgšana. 
 

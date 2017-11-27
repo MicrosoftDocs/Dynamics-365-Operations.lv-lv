@@ -1,7 +1,7 @@
 ---
 title: "BOM aprēķini"
 description: "Izmaksu apkopojums un pārdošanas cenas aprēķini tiek saukti par materiālu komplektu (MK) aprēķiniem, un tos sāk lapā Aprēķini. Šajā tēmā ir sniegta informācija par MK aprēķiniem."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice, SalesQuotationTable, SalesTable, SMAServiceOrderTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 273763
 ms.assetid: c6fa3348-eafa-4847-9132-e65c5f55cbf4
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: b1bcf11a8f6fc4921e8659fe1d00c093e3ad5b74
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: ad00a3b5e41892aaa705fd8eafa52cc199e1d806
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -87,7 +87,7 @@ Izmantojot izmaksu un uzcenojumu pieeju, aprēķinātā krājuma pārdošanas ce
 -   **MK aprēķins krājumam un noteiktā izmaksu novērtēšanas versija** — MK aprēķins ģenerē gaidošu pārdošanas cenas ierakstu izmaksu novērtēšanas versijas ietvaros. Šis pārdošanas cenas ieraksts nodrošina sākumpunktu aprēķinu informācijas apskatei (piemēram, lapā **Aprēķināt krājuma izmaksas**). Galvenokārt pārdošanas cenas ieraksts darbojas kā atsauces informācija un tas netiek izmantots kā pārdošanas cenas pamats pārdošanas pasūtījumos.
 -   **Noteikta pasūtījuma MK aprēķins** — lapas **MK aprēķins** variācija tiek izmantota saistībā ar pārdošanas pasūtījuma, pārdošanas piedāvājuma vai pakalpojuma pasūtījuma rindas elementu. Izmaksu novērtēšanas versijas ietvaros noteikta pasūtījuma MK aprēķins neģenerē ierakstu. Tā vietā tiek izveidots aprēķina ieraksts, kas parādās lapā **MK aprēķina rezultāti**. Šis aprēķina ieraksts nodrošina sākumpunktu aprēķinu informācijas apskatei (piemēram, lapā **Aprēķināt krājuma izmaksas**). Informāciju par izvēlēto aprēķina ierakstu var pārsūtīt uz sākotnējo rindas elementu. Piemēram, aprēķināto pārdošanas cenu var pārsūtīt uz pārdošanas pasūtījuma rindas elementu.
 
-## <a name="orderspecific-bom-calculations"></a>Noteikta pasūtījuma MK aprēķini
+## <a name="order-specific-bom-calculations"></a>Noteikta pasūtījuma MK aprēķini
 Pasūtījuma MK aprēķina pamatā ir ražota krājuma MK aprēķins. Noteikta pasūtījuma MK aprēķins tiek veikts pārdošanas pasūtījuma, pārdošanas piedāvājuma vai pakalpojuma pasūtījuma rindas elementa kontekstā. Noteikta pasūtījuma MK aprēķins ģenerē aprēķina ierakstu, kas parādās lapā **MK aprēķinu rezultāti**. Aprēķina ierakstā ir iekļauts aprēķinātais svars, aprēķināšanas izmaksas, kuru pamatā ir aktīvie izmaksu ieraksti, un aprēķinātā pārdošanas cena. Aprēķina ierakstu, kuru ģenerē katrs noteikta pasūtījuma MK aprēķins attiecīgajam krājumam lapā **MK aprēķina rezultāti**, unikāli identificē aprēķina numurs. Aprēķina ieraksta rezultāti pēc izvēles var tikt pārsūtīti uz rindas elementu, kas ir to pamatā. Noteikta pasūtījuma MK aprēķins atšķiras no ražota krājuma MK aprēķina divos veidos:
 
 -   Noteikta pasūtījuma MK aprēķina rezultātā izmaksas versijā nerodas krājuma izmaksu ieraksts. Tādējādi MK aprēķina politika netiek piemērota, kad tiek izveidots krājumu izmaksu ieraksts vai kad izmaksu ieraksts tiek pārrakstīts.

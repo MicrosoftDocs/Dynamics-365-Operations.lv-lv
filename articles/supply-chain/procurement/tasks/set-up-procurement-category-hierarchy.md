@@ -3,7 +3,7 @@ title: "Sagādes kategoriju hierarhijas iestatīšana"
 description: "Šajā procedūrā parādīts, kā izveidot jaunus zarus sagādes kategoriju hierarhijā un kā konfigurēt sagādes kategoriju izmantošanai sagādes procesā."
 author: mkirknel
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 11/06/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b9897b1184e8159b20a45d4cedbba56baef31a3c
+ms.sourcegitcommit: 6ad5c8552a6989e9093d0b1325754bc0f6d19372
+ms.openlocfilehash: 4541d029c9c3be3ee42332e5d8ff183dd503f13e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Sagādes kategoriju hierarhijas iestatīšana
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/29/2017
 
 
 ## <a name="add-a-new-procurement-category"></a>Jaunas sagādes kategorijas pievienošana
-1. Pārejiet uz sadaļu Sagāde un avoti > .. > Sagādes kategorijas.
+1. Pārejiet uz Sagāde un avoti > Sagādes kategorijas.
 2. Noklikšķiniet uz Rediģēt kategoriju hierarhiju.
     * Pašreizējā sagādes kategoriju hierarhija tiek parādīta lapas kreisajā pusē. Jūs gatavojaties modificēt hierarhiju.  
 3. Noklikšķiniet uz Jauns kategorijas zars.
@@ -42,7 +42,7 @@ ms.lasthandoff: 09/29/2017
 7. Noklikšķiniet uz Saglabāt.
 
 ## <a name="add-products-to-your-new-procurement-category"></a>Preču pievienošana jaunajai sagādes kategorijai
-1. Pārejiet uz sadaļu Sagāde un avoti > .. > Sagādes kategorijas.
+1. Pārejiet uz Sagāde un avoti > Sagādes kategorijas.
     * Atlasiet zaru, ko tikko pievienojāt. Ja veicāt šo procedūru kā uzdevuma ceļvedi, lai atlasītu zaru, iespējams, būs jāatbloķē šis uzdevuma ceļvedis.  
 2. Pārslēdziet sadaļas Preces paplašinājumu.
 3. Noklikšķiniet uz Pievienot, lai saistītu preces ar sagādes kategoriju.

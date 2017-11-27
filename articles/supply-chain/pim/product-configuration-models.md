@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c222f0d17be6eea0f776f5460c793b82d8b3e0ab
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 6b896c28f475a8f827a1db1b6dd684b6ec64e872
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -138,7 +138,7 @@ Cilnē <strong>Vispārīgi</strong>, lapā <strong>Detalizēta informācija par 
 </tr>
 <tr class="odd">
 <td>Lietotāju prasības</td>
-<td>Lietotāju prasības norāda abstrakciju starp lietotāju prasībām, specifiskiem komponentiem un atribūtiem. Lietotāja prasību nevar kartēt uz krājumu. Piemēram, klients vēlas iegādāties mājas kinoteātra sistēmu. Tirdzniecības pārstāvis var jautāt par tās telpas lielumu, kur klients plāno uzstādīt sistēmu, lai noteiktu, cik vati ir nepieciešami. Šajā piemērā telpas lielums var būt lietotāja prasība, kas palīdz noteikt atbilstošo atribūta vērtību kādam noteiktam komponentam. Lietotāju prasības varat paslēpt, lai konfigurācijas sesijas laikā tās netiktu rādītas lietotājam. Atribūti, apakškomponenti un lietotāju prasības, kas saistītas ar lietotāju prasību, arī ir paslēptas. Jūs varat rakstīt nosacījumu, lai kontrolētu, vai lietotāju prasību var paslēpt. Nosacījums ir jāraksta, izmantojot optimizācijas modelēšanas valodas (Optimization Modeling Language — OML) sintaksi.</td>
+<td>Lietotāju prasības norāda abstrakciju starp lietotāju prasībām, specifiskiem komponentiem un atribūtiem. Lietotāja prasību nevar kartēt uz krājumu. Piemēram, klients vēlas iegādāties mājas kinoteātra sistēmu. Tirdzniecības pārstāvis var jautāt par tās telpas lielumu, kur klients plāno uzstādīt sistēmu, lai noteiktu, cik vati ir nepieciešami. Šajā piemērā telpas lielums var būt lietotāja prasība, kas palīdz noteikt atbilstošo atribūta vērtību konkrētam komponentam. Varat paslēpt lietotāja prasības, lai tās netiktu rādītas lietotājam konfigurācijas sesijas laikā. Atribūti, apakškomponenti un lietotāju prasības, kas saistītas ar lietotāju prasību, arī ir paslēptas. Jūs varat rakstīt nosacījumu, lai kontrolētu, vai lietotāju prasību var paslēpt. Nosacījums ir jāraksta, izmantojot optimizācijas modelēšanas valodas (Optimization Modeling Language — OML) sintaksi.</td>
 </tr>
 <tr class="even">
 <td>MK rindas</td>

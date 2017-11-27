@@ -1,9 +1,9 @@
 ---
 title: "Jaukta režīma plānošana — atsevišķu avotu, procesa avotu un racionālo avotu apvienošana"
-description: "Šajā rakstā ir sniegta informācija par jaukta režīma plānošanu. Jaukta režīma plānošanā savu piegādes ķēdi varat modelēt, pamatojoties uz materiālu plūsmu. Microsoft Dynamics 365 for Finance and Operations nodrošina materiālu plūsmu atbilstību jūsu modeļiem neatkarīgi no atlasītās piegādes politikas (Kanban, ražošanas pasūtījumi, pirkšanas pasūtījumi, partijas pasūtījumi vai pārsūtīšanas pasūtījumi)."
+description: "Šajā tēmā ir sniegta informācija par jaukta režīma plānošanu."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: EcoResStorageDimensionGroup, InventItemOrderSetup, ReqItemTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 52931
 ms.assetid: 2e8b5fd1-cee9-45da-a3ae-6961fb020b89
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 09ced68ffe8ff300a04beb65fdf8527e63456f04
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: bb8fa816d48ee808b92a5bf80c2c39c51f33a195
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir sniegta informācija par jaukta režīma plānošanu. Jaukta režīma plānošanā savu piegādes ķēdi varat modelēt, pamatojoties uz materiālu plūsmu. Microsoft Dynamics 365 for Finance and Operations nodrošina materiālu plūsmu atbilstību jūsu modeļiem neatkarīgi no atlasītās piegādes politikas (Kanban, ražošanas pasūtījumi, pirkšanas pasūtījumi, partijas pasūtījumi vai pārsūtīšanas pasūtījumi). 
+Šajā tēmā ir sniegta informācija par jaukta režīma plānošanu. Jaukta režīma plānošanā savu piegādes ķēdi varat modelēt, pamatojoties uz materiālu plūsmu. Microsoft Dynamics 365 for Finance and Operations nodrošina materiālu plūsmu atbilstību jūsu modeļiem neatkarīgi no atlasītās piegādes politikas (Kanban, ražošanas pasūtījumi, pirkšanas pasūtījumi, partijas pasūtījumi vai pārsūtīšanas pasūtījumi). 
 
 Varat atlasīt vispārējo stratēģiju preces piegādei, neatkarīgi no preces struktūras.  
 
@@ -59,7 +59,7 @@ Parasti Kanban netiek izveidoti nākotnes datumiem, jo Kanban ir īss dzīves ci
 
 Tāda pati loģika pastāv visiem citiem piedāvājuma politiku tipiem. Tāpēc ilgtermiņa materiālu plānošanas pamatā ir tāda pati loģika, kura gaidāma faktisko pasūtījumu gadījumā, pēc tam, kad ražošana un piegāde ir apstiprināta.
 
-## <a name="materials-allocation-crosssupply-policy--resource-consumption-on-boms"></a>Materiālu sadalījuma šķērspiedāvājumu politika — resursu patēriņš uz MK
+## <a name="materials-allocation-cross-supply-policy--resource-consumption-on-boms"></a>Materiālu sadalījuma šķērspiedāvājumu politika — resursu patēriņš uz MK
 Resursu patēriņš ir svarīga funkcionalitāte. Resursu patēriņš ļauj materiālu izdošanas noliktavai būt atlasītai dinamiski, pamatojoties uz piedāvājumu politiku (pasūtījuma tipu), un arī atvieglo pamatdatu uzturēšanu.  
 
 Resursu patēriņš pieprasa, lai noliktava, no kuras tiek izdoti materiāli, tiktu piešķirta, pamatojoties uz to, kādā veidā prece tiek piedāvāta. Citiem vārdiem sakot, izpildes laikā sistēma atrod resursus, kas ir jāizmanto ražošanā. Pamatojoties uz šiem resursiem, sistēma atrod izdošanas noliktavu.  

@@ -1,9 +1,9 @@
 ---
 title: "Mazumtirdzniecības kanālu definēšana un uzturēšana"
-description: "Šajā rakstā ir sniegts pārskats par to, kā iestatīt fiziskos veikalus, kas programmatūrā Microsoft Dynamics 365 for Retail tiek saukti par mazumtirdzniecības veikaliem. Rakstā ir ietverta informācija par uzdevumiem, kas jums ir jāizpilda gan pirms, gan pēc mazumtirdzniecības veikala iestatīšanas."
+description: "Šajā tēmā ir sniegts pārskats par to, kā iestatīt fiziskos veikalus, kas programmā Microsoft Dynamics 365 for Retail tiek saukti par mazumtirdzniecības veikaliem. Rakstā ir ietverta informācija par uzdevumiem, kas jums ir jāizpilda gan pirms, gan pēc mazumtirdzniecības veikala iestatīšanas."
 author: mugunthanm
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,10 +20,10 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 700b8868a68be7f0172202d737b4f1ae9813ecf3
+ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
+ms.openlocfilehash: b6dd6d929d771e0b1fc2604b90a2a1522447e168
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](includes/banner.md)]
 
 
-Šajā rakstā ir sniegts pārskats par to, kā iestatīt fiziskos veikalus, kas programmatūrā Microsoft Dynamics 365 for Retail tiek saukti par mazumtirdzniecības veikaliem. Rakstā ir ietverta informācija par uzdevumiem, kas jums ir jāizpilda gan pirms, gan pēc mazumtirdzniecības veikala iestatīšanas.
+Šajā tēmā ir sniegts pārskats par to, kā iestatīt fiziskos veikalus, kas programmā Microsoft Dynamics 365 for Retail tiek saukti par mazumtirdzniecības veikaliem. Rakstā ir ietverta informācija par uzdevumiem, kas jums ir jāizpilda gan pirms, gan pēc mazumtirdzniecības veikala iestatīšanas.
 
 Dynamics 365 for Retail atbalsta vairākus mazumtirdzniecības kanālus, piemēram, tiešsaistes veikalus, zvanu centrus un fiziskus veikalus. Fizisks veikals tiek saukts par mazumtirdzniecības veikalu. Katram mazumtirdzniecības veikalam var būt savas maksāšanas metodes, cenu grupas, pārdošanas punktu (POS) kases, ienākumu un izdevumu konti, kā arī personāls. Pirms izveidojat mazumtirdzniecības veikalu, jums tam ir jāiestata visi šie elementi. Pēc mazumtirdzniecības veikala izveidošanas jums ir jāpiešķir preces, kuras vēlaties tajā izmantot. Veikalam var arī piešķirt darbiniekus, kases sistēmas un debitorus. Visbeidzot, pievienojiet jaunu veikalu organizācijas hierarhijai.
 

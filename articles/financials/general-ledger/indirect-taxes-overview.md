@@ -1,9 +1,9 @@
 ---
-title: "Pārdošanas nodokļa apskats"
-description: "Šajā rakstā ir sniegts pārskats par pārdošanas nodokļa sistēmu. Tajā ir paskaidroti pārdošanas nodokļa iestatīšanas elementi un to mijiedarbība."
+title: PVN apskats
+description: "Šajā tēmā ir sniegts pārskats par PVN sistēmu. Tajā ir paskaidroti pārdošanas nodokļa iestatīšanas elementi un to mijiedarbība."
 author: twheeloc
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
+ms.search.scope: Core, Operations, Retail
 ms.custom: 13111
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
@@ -19,21 +19,21 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f4838dade6b2694a11f4b9775fe53560b1332f18
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 1eb30ccbaa51bf794c7b3ea2be3fe749fb8ff88d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="sales-tax-overview"></a>Pārdošanas nodokļa apskats
+# <a name="sales-tax-overview"></a>PVN apskats
 
 [!include[banner](../includes/banner.md)]
 
 [!include[retail name](../includes/retail-name.md)]
 
 
-Šajā rakstā ir sniegts pārskats par pārdošanas nodokļa sistēmu. Tajā ir paskaidroti pārdošanas nodokļa iestatīšanas elementi un to mijiedarbība.
+Šajā tēmā ir sniegts pārskats par PVN sistēmu. Tajā ir paskaidroti pārdošanas nodokļa iestatīšanas elementi un to mijiedarbība.
 
 <a name="overview"></a>Pārskats
 --------
@@ -59,7 +59,7 @@ Nākamajā tabulā ir aprakstīti nodokļa iestatīšanas elementi un to secība
 | Iestatīšanas darbība                                                  | Vai darbība ir obligāta/neobligāta un tās apraksts                                                                                                                                                                                                                                                                                         |
 |-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Izveidojiet galvenos kontus.                                           | Obligāta. Pirms pārdošanas nodokļa funkcionalitātes iestatīšanas ir jāizveido galvenie konti, ko uzņēmums lieto nodokļu samaksai un to ierakstīšanai.                                                                                                                                                                             |
-| Iestatiet Virsgrāmatas grāmatošanas grupas pievienotās vērtības nodoklim.                     | Obligāta. Virsgrāmatas grāmatošanas grupas definē galvenos kontus pārdošanas nodokļu reģistrēšanai un maksāšanai.   Plašaku informāciju skatiet šeit: [Virsgrāmatas PVN grāmatošanas grupu iestatīšana](tasks/set-up-ledger-posting-groups-sales-tax.md).                                                                                 |
+| Iestatiet Virsgrāmatas grāmatošanas grupas pievienotās vērtības nodoklim.                     | Obligāta. Virsgrāmatas grāmatošanas grupas definē galvenos kontus pārdošanas nodokļu reģistrēšanai un maksāšanai.   Papildinformāciju skatiet tēmā [Virsgrāmatas PVN grāmatošanas grupu iestatīšana](tasks/set-up-ledger-posting-groups-sales-tax.md).                                                                                 |
 | Iestatiet pārdošanas nodokļa iestādes.                                   | Obligāta. Pārdošanas nodokļa iestādes ir iestādes, kurām šis nodoklis ir jāziņo un jāmaksā.    Plašāku informāciju skatiet šeit: [PVN iestāžu iestatīšana](tasks/set-up-sales-tax-authorities.md).                                                                                                                                          |
 | Iestatiet pārdošanas nodokļa apmaksas periodus.                            | Obligāta. Pārdošanas nodokļa apmaksas periodi satur informāciju par to, kad un cik bieži ir jāatskaitās par pārdošanas nodokli un tas ir jāmaksā. Tie ir saistīti ar pārdošanas nodokļa iestādi.                                                                                                                                                       |
 | Iestatiet pārdošanas nodokļu atskaišu kodus.                               | Neobligāta. Pārdošanas nodokļa atskaišu kodus var piešķirt pārdošanas nodokļa kodiem, lai ziņotu summas vairākiem pārdošanas nodokļa kodiem saskaņā ar vienu pārdošanas nodokļa atskaišu kodu. Plašāku informāciju skatiet šeit: [Iestatīt PVN pārskatu kodus](tasks/set-up-sales-tax-reporting-codes.md).                                         |

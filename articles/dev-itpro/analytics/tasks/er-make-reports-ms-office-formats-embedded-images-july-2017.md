@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 93a40f36e38ef5ea393cf429ad9244b56504bbfc
+ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
+ms.openlocfilehash: f610fe4b7f265c4fc38db89938d5c208b4f7661a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="make-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er--part-1"></a>Veidot pārskatus Microsoft Office formātos ar iegultiem attēliem elektronisko pārskatu veidošanai (ER) (1. daļa) 
@@ -40,7 +40,7 @@ Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elek
     * Palaidiet formātu testēšanas nolūkā.  
 6. Laukā Maksājumu čeka formāts atlasiet Jā.
 7. Noklikšķiniet uz OK.
-    * Pārskatiet izveidoto izvadi. Ņemiet vērā, ka pārskatā ir iekļauts gan uzņēmuma logotips, gan pilnvarotās personas paraksts. Paraksta attēls tiek ņemts no čeka izkārtojuma ieraksta lauka ar datu tipu "Konteiners", kas ir saistīts ar atlasīto bankas kontu.  
+    * Pārskatiet izveidoto izvadi. Ņemiet vērā, ka pārskatā ir iekļauts gan uzņēmuma logotips, gan pilnvarotās personas paraksts. Paraksta attēls tiek ņemts no tā čeka izkārtojuma ieraksta lauka ar datu tipu Konteiners, kas ir saistīts ar atlasīto bankas kontu.  
 8. Izvērsiet sadaļu Kopijas.
 9. Noklikšķiniet uz Rediģēt.
 10. Laukā Ūdenszīme ievadiet “Drukāt ūdenszīmi kā Anulēts”.
@@ -62,7 +62,7 @@ Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elek
 1. Aizvērt lapu.
 2. Aizvērt lapu.
 3. Dodieties uz Organizācijas administrēšana > Elektronisko atskaišu veidošana > Konfigurācijas.
-4. Koka struktūrā atlasiet “Čeku modelis”.
+4. Koka struktūrā atlasiet Čeku modelis.
 5. Noklikšķiniet uz Veidotājs.
 6. Noklikšķiniet uz Kartēšanas modelis datu avotam.
 7. Noklikšķiniet uz Veidotājs.

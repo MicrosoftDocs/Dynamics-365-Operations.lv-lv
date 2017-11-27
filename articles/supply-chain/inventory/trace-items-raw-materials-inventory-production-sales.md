@@ -3,7 +3,7 @@ title: "Krājumu un izejmateriālu izsekošana krājumos, ražošanā un pārdo�
 description: "Šajā tēmā ir aprakstīts, kā jūs varat izmantot krājuma izsekošanu, lai identificētu, kur krājumi vai izejmateriāli ir izmantoti, tiek izmantoti vai tiks izmantoti ražošanas un pārdošanas procesos."
 author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 30191
 ms.assetid: fdd0939a-855c-430f-a684-94f3baea1df4
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 08492c709c1b6cd2af0188ee48fb15ca0d4bd81e
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 2dd3709ae55e32ec2e5258ced2764c4eb218a4c4
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -138,7 +138,7 @@ Kopsavilkuma lapās pieejamo informāciju var eksportēt programmā Microsoft Ex
 Izsekošanas datos ir iekļauta informācija par kvalitātes pasūtījumiem un neatbilstībām, kas saistītas ar krājumu vai izejmateriālu. Lai skatītu kopsavilkumu par kvalitātes pārbaudes pasūtījumiem un neatbilstībām, darbību rūtī noklikšķinot uz **Kvalitātes pasūtījumi** vai **Neatbilstības**. **Piezīme.** Destruktīvi kvalitātes pasūtījumi izsekošanas datos var būt redzami vairāk nekā vienu reizi. Izveidojot dokumentam, piemēram, pirkšanas pasūtījumam, destruktīvu kvalitātes pasūtījumu, tas tiek parādīts katrai dokumenta transakcijai.
 
 ## <a name="are-there-any-reporting-capabilities-that-are-related-to-item-tracing"></a>Vai pastāv ar krājumu izsekošanu saistītas reģistrēšanas iespējas?
-Var izveidot pārskatu **Nosūtīts debitoriem**, lai noskaidrotu nosūtīto krājuma vai izejmateriāla daudzumu un debitorus, kuriem tie ir nosūtīti. Tāda pieprasījuma gadījumā, kas saistīts ar atbilstības novērtēšanu, var izveidot visiem debitoriem paredzētu pārskatu. Tāda pieprasījuma gadījumā, kas saistīts ar debitora pakalpojumu, var izveidot atlasītajam debitoram paredzētu pārskatu. Ja prece bija izejmateriāls, kas tika izmantots ražošanā krājuma izveidošanai, pabeigtais krājums arī tiek iekļauts. **Piezīme.** Ja tiek izmantoti līdzekļi pārdošanas pasūtījumu dzēšanai vai arhivēšanai, pārskata rezultātos ir iekļauti arī izdzēsti vai arhivēti pārdošanas pasūtījumi.
+Var izveidot pārskatu **Nosūtīts debitoriem**, lai noskaidrotu nosūtīto krājuma vai izejmateriāla daudzumu un debitorus, kuriem tie ir nosūtīti. Ja pieprasījums ir saistīts ar atbilstību, varat izveidot visiem debitoriem paredzētu pārskatu. Tāda pieprasījuma gadījumā, kas saistīts ar debitora pakalpojumu, var izveidot atlasītajam debitoram paredzētu pārskatu. Ja prece bija izejmateriāls, kas tika izmantots ražošanā krājuma izveidošanai, pabeigtais krājums arī tiek iekļauts. **Piezīme.** Ja tiek izmantoti līdzekļi pārdošanas pasūtījumu dzēšanai vai arhivēšanai, pārskata rezultātos ir iekļauti arī izdzēsti vai arhivēti pārdošanas pasūtījumi.
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>Vai es varu izsekot līdzproduktus un blakusproduktus?
 Izsekot var arī līdzproduktus, bet nevar izsekot blakusprodukts, jo parasti tiem netiek piešķirtas izsekošanas dimensijas. Krājuma izsekošanas gadījumā izsekošanas dati iekļauj visus saistītos līdzproduktus. Detalizētajā informācijā līmenis, kas satur līdzproduktu, ietver vārdu "līdzprodukts". Skatīt var arī detalizētu informāciju par līdzproduktu, atlasot līmeni izsekošanas datos un pēc tam noklikšķinot uz kopsavilkuma cilnes **Ražošana**.

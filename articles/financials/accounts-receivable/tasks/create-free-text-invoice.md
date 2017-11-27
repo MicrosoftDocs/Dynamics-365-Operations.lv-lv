@@ -3,7 +3,7 @@ title: "Brīva teksta rēķina izveidošana"
 description: "Šajā uzdevuma ceļvedī ir parādīts, kā izveidot brīva teksta rēķinu."
 author: mikefalkner
 manager: AnnBe
-ms.date: 10/23/2016
+ms.date: 10/26/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 33324a9b95026600bcc6facb9c22a04fd2e323c8
+ms.sourcegitcommit: ef3cad6538d9efbd1c1881f4b7d771382d9b1ba8
+ms.openlocfilehash: 87e293008fd748aa0dcc6b3caa94a4889bed35de
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/26/2017
 
 ---
 # <a name="create-a-free-text-invoice"></a>Brīva teksta rēķina izveidošana
@@ -42,7 +42,7 @@ ms.lasthandoff: 09/29/2017
 7. Noklikšķiniet uz cilnes Finanšu dimensiju rinda.
     * Šīs dimensijas ir tikai atlasītajai rindai.    
     * PVN grupa tiek aizpildīta no debitora datiem. Ja debitoram nav PVN grupas, tad tiek izmantota PVN grupa no galvenā konta.  
-    * Krājumu PVN grupa tiek aizpildīta no galvenā konta datiem. Ja galvenajam kontam nav krājuma PVN grupas, tad tiek izmantota virsgrāmatas PVN parametros norādītā krājuma PVN grupa.    
+    * Krājumu PVN grupa tiek aizpildīta no galvenā konta datiem. Ja galvenajam kontam nav krājuma PVN grupas, tiek izmantota Virsgrāmatas PVN parametru sadaļā norādītā krājuma PVN grupa.    
 8. Laukā Daudzums ievadiet skaitli.
     * Daudzums ir neobligāts.  
 9. Laukā Vienības cena ievadiet kādu skaitli.

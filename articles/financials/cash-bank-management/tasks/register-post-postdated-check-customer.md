@@ -3,7 +3,7 @@ title: "Ar iepriekšēju datumu datētu čeku reģistrēšana un grāmatošana d
 description: "Var reģistrēt detalizētu informāciju par iegrāmatoto no klienta saņemto čeku."
 author: kweekley
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 10/26/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,17 +16,17 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1610036815349f625a67d5dd67260114d42fff97
+ms.sourcegitcommit: 621ad64c06a6cebff90e888ac89bba922052cf35
+ms.openlocfilehash: f75dea40d0cc77c851569608f18229339ed30af9
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/26/2017
 
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>Ar iepriekšēju datumu datētu čeku reģistrēšana un grāmatošana debitoram
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Var reģistrēt detalizētu informāciju par iegrāmatoto no klienta saņemto čeku. Var arī grāmatot ar iepriekšēju datumu datēto čeku un ģenerētu finanšu transakcijas.   Pirms no debitora saņemtā čeka reģistrēšanas un grāmatošanas var veikt šādus uzdevumus: • iestatīt ar iepriekšējo datumu datētos čekus lapā Kases un bankas pārvaldība; • iestatīt ar iepriekšējo datumu datēto čeku apmaksas metodi. Šīs procedūras izpildei nepieciešama loma Kasieris. Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati.
+Var reģistrēt detalizētu informāciju par iegrāmatoto no klienta saņemto čeku. Var arī grāmatot ar iepriekšēju datumu datēto čeku un ģenerētu finanšu transakcijas.   Pirms no debitora saņemt ar iepriekšēju datumu datēta čeka reģistrēšanas un grāmatošanas veiciet tālāk norādītos uzdevumus. • Iestatiet ar iepriekšējo datumu datētos čekus lapā Kases un bankas pārvaldība. • Iestatīt ar iepriekšējo datumu datēto čeku maksāšanas metodi. Šīs procedūras izpildei ir nepieciešama loma Kasieris. Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati.
 
 1. Pārejiet uz sadaļu Debitori > Maksājumi > Maksājumu žurnāls.
 2. Noklikšķiniet uz Jauns.

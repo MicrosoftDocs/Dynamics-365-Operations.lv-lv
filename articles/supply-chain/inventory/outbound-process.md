@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WMSOrder, WMSShipment, MCRPickingWorkbench, WMSPickingRegistration, CustomFilterGroup
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 9c09a7bd314bb9005eb0b6c69d7cccad1c30cfdb
-ms.openlocfilehash: 7b395cab2184f8f9f3f50a7a595c6ed782645323
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 1b8b17b719713097d77a117cca53eff6886ff1c7
 ms.contentlocale: lv-lv
-ms.lasthandoff: 10/04/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -63,7 +63,7 @@ Dodieties uz **Krājumu vadība** \> **Iestatījumi** \> **Krājumu un noliktava
 
 [![Opcija Beigt izdošanas krājumu pasūtījumu](./media//end-output-inventory-order.png)](./media//end-output-inventory-order.png)
 
-Reizēm krājumos dažas preces nevar izdot kā daļu no izdošanas saraksta procesa. Šāda situācija var rasties, piemēram, ja noliktavas darbinieks samazina izdošanas rindās esošo daudzumu un apstrādā izdošanas sarakstu. Ja opcija **Beigt izdošanas krājumu pasūtījumu** ir iestatīta uz **Jā**, tad atlikušais neizdotais daudzums tiek ziņots atpakaļ pasūtījuma līmenī. Ja šī opcija ir iestatīta uz **Nē**, tad atlikušais neizdotais daudzums tiek paturēts kā atvērts izdošanas pasūtījuma daudzums. Tādā gadījumā daudzums paliek pārvietots uz noliktavu, un tas ir jāpievieno jaunam izdošanas sarakstam kā daļa no funkcionalitātes **Atvērt izdošanas pasūtījumus**.
+Ja noliktavas darbinieks samazina izdošanas sarakstā ietvertos daudzumus, no sūtījuma tiek noņemti attiecīgie krājumu pasūtījumā ietvertie daudzumi. Ja noteiktā brīdī tiek atjaunināts izdošanas saraksts un ir iestata opcijas **Beigt krājumu izdošanas pasūtījumu** vērtība **Jā**, atlikušie daudzumi tiek ietverti atpakaļ pasūtījumā. Ja ir iestatīta opcijas **Beigt krājumu izdošanas pasūtījumu** vērtība **Nē**, atlikušie daudzumi tiek saglabāti kā atvērta izdošanas pasūtījuma daudzums un tie ir jāpievieno jaunam izdošanas sarakstam, izmantojot funkcionalitāti **Atvērt izdošanas pasūtījumus**. 
 
 [![Komanda Atvērt izdošanas pasūtījumus izvēlnē Funkcijas](./media/open-output-order.png)](./media/open-output-order.png)
 

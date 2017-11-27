@@ -1,9 +1,8 @@
 ---
 title: "Pārskats par mazumtirdzniecības perifērajām ierīcēm"
-description: "Šajā tēmā ir paskaidrotas koncepcijas, kas ir saistītas ar mazumtirdzniecības perifērajām ierīcēm. Tajā ir aprakstīti dažādie veidi, kā perifērijas ierīces var pievienot pārdošanas punktam (POS), un komponenti, kas nodrošina savienojuma ar POS pārvaldību."
-author: rubencdelgado
+description: "Šajā tēmā ir paskaidrotas koncepcijas, kas ir saistītas ar mazumtirdzniecības perifērajām ierīcēm."
 manager: AnnBe
-ms.date: 06/19/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -18,14 +17,14 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e886411421fda17bb67f8ecedc1f7f3420e1fa72
+ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
+ms.openlocfilehash: 347100651302bb97806783d00559f2396d031fcc
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
-# <a name="retail-peripherals-overview"></a>Pārskats par mazumtirdzniecības perifērajām ierīcēm
+# <a name="retail-peripherals-overview"></a>Retail perifērijas ierīču apskats
 
 [!include[banner](includes/banner.md)]
 
@@ -575,7 +574,7 @@ Atbilstoši pašreizējiem drošības standartiem ražošanas vidē ir jālieto 
 ## <a name="peripheral-simulator"></a>Perifērijas simulators
 Informāciju skatiet tēmā [Mazumtirdzniecības perifēro ierīču simulators](dev-itpro/retail-peripheral-simulator.md).
 
-## <a name="microsofttested-peripheral-devices"></a>Korporācijas Microsoft pārbaudītas perifērās ierīces
+## <a name="microsoft-tested-peripheral-devices"></a>Korporācijas Microsoft pārbaudītas perifērijas ierīces
 ### <a name="ipc-built-in-hardware-station"></a>IPC (iebūvētā) aparatūras stacija
 
 Tālāk norādītās perifērās ierīces ir pārbaudītas, izmantojot IPC aparatūras staciju, kas ir iebūvēta programmā Modern POS operētājsistēmai Windows.

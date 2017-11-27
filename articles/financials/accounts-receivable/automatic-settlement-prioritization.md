@@ -1,9 +1,9 @@
 ---
 title: "Automātiska nosegšana un prioritāšu noteikšana"
-description: "Šajā rakstā ir sniegta informācija par to, kā tiek segtas transakcijas, atlasot vienumu Automātiska nosegšana lapā Kreditoru parametri. Šeit ir arī izskaidrots, kā automātisko nosegšanu var izmantot kopā ar maksājuma prioritātes statusu."
+description: "Šajā tēmā ir aprakstīts, kā tiek segtas transakcijas, ja lapā Kreditoru parametri atlasāt vienumu Automātiska nosegšana. Šeit ir arī izskaidrots, kā automātisko nosegšanu var izmantot kopā ar maksājuma prioritātes statusu."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 14531
 ms.assetid: e7837cf6-ec69-44b4-8d47-eba38d5c7b1f
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7a0f87aca78f1263f1f6ce65e2629b91312716cb
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: fc091e401f84ce2ac425897ad6cbd92fd7399736
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir sniegta informācija par to, kā tiek segtas transakcijas, atlasot vienumu Automātiska nosegšana lapā Kreditoru parametri. Šeit ir arī izskaidrots, kā automātisko nosegšanu var izmantot kopā ar maksājuma prioritātes statusu.
+Šajā tēmā ir aprakstīts, kā tiek segtas transakcijas, ja lapā Kreditoru parametri atlasāt vienumu Automātiska nosegšana. Šeit ir arī izskaidrots, kā automātisko nosegšanu var izmantot kopā ar maksājuma prioritātes statusu.
 
 Jums ir divas iespējas, apmaksājot maksājumus ar rēķiniem un citām transakcijām. Varat manuāli atlasīt sedzamās transakcijas, vai arī programmatūrā Microsoft Dynamics 365 for Finance and Operations šīs transakcijas var tikt atlasītas automātiski, izmantojot automātiskās segšanas funkcionalitāti. Varat arī pielāgot automātiskās segšanas apstrādi, izmantojot opciju **Noteikt segšanai prioritāti**. Visas šīs opcijas ir daļa no segšanas parametriem, kas ir definēti lapā **Debitoru parādu parametri**. Veida, kā transakcijas tiek automātiski nosegtas, var atšķirties atkarībā no metodes, ko izmantojat automātiskajai nosegšanai. Pieejamas šādas metodes.
 
@@ -50,7 +50,7 @@ Turpmākajās sadaļās ir aprakstīts, kā transakcijas tiek nosegtas katrai me
 | Rēķins 3     | 15.oktobris  | 500,00 | 2% 14/neto 30        | 29.oktobris         |                                                                                                                                                                                               |
 | Procentu paziņojums | 15.oktobris  | 7,00   |                     |                    | Šis procentu paziņojums ir par 1. un 2. rēķinu. Summa tiek aprēķināta kā 2 procenti no summām, kuru apmaksa ir nokavēta par 30 dienām vai vairāk. Piemēram, 0,02 × (100,00 + 250,00) = 7,00. |
 
-## <a name="userdefined-settlement-priority"></a>Lietotāja definētas nosegšanas prioritātes
+## <a name="user-defined-settlement-priority"></a>Lietotāja definētas nosegšanas prioritātes
 Ja norādāt opcijas **Izmantot prioritāti automātiskai segšanai** iestatījumu **Jā** lapā **Debitoru parādu parametri**, tad, atlasot transakcijas automātiskai segšanai, tiek izmantota lapā **Norēķinu prioritāte** definētā segšanas prioritāte. Šajā piemērā ir definēta tālāk norādītā segšanas prioritāte.
 
 1.  Darījuma veids

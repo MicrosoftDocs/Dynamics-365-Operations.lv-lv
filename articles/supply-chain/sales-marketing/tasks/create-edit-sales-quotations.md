@@ -3,7 +3,7 @@ title: "Pārdošanas piedāvājumu izveide un labošana"
 description: "Šajā procedūrā ir parādīts, kā izveidot un atjaunināt pārdošanas piedāvājumu."
 author: omulvad
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f56b495131836689395a2124d5a834579e1646b7
+ms.sourcegitcommit: 8e7d2198b4976a6f60f05690d7b6f11f3da55e28
+ms.openlocfilehash: 7ffa4fe8d87db5b3f8293ec9dbc042496d09d6e3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="create-and-edit-sales-quotations"></a>Pārdošanas piedāvājumu izveide un labošana
@@ -50,7 +50,7 @@ ms.lasthandoff: 09/29/2017
 15. Uzklikšķiniet uz Pārdošanas piedāvājuma rinda.
 16. Klikšķiniet uz Cenas.
     * Lapā Izpildīt cenu simulāciju varat eksperimentēt ar piedāvājuma prognozēto ieņēmumu vai ienesīguma pielāgošanu, balstoties uz vēlamo vienības cenu, atlaides summu, atlaidi procentos, kopējo summu, uzcenojumu vai seguma summas normu.   Kad esat apmierināts ar mērķa rādītājiem, piemērojiet priekšlikumu piedāvājuma rindai, un tās ar cenu saistītie lauki tiks attiecīgi atjaunināti.  
-    * Jūs var veidot tik daudz cenu simulācijas, cik vēlaties. Noklikšķinot uz Jauns, lapā tiek kopēti cenu nosacījumi no pašreizējās piedāvājuma rindas. Jūs varat pārveidot vērtības visos ar cenu saistītajos laukos uz mērķvērtībām. Izmaiņas vienā no laukiem izraisīs pārrēķinu visos pārējos laukos. Lai sistēma aprēķinātu seguma summu un seguma summas normu, ir jābūt zināmām preces vienības izmaksām. Lietojiet cilni Simulētās cenas, lai iegūtu detalizētu skatījumu par sākotnējām cenām, ierosinātajām izmaiņām un to ietekmi uz piedāvājumu kopsummām.   Parasti, ja simulācija, ar kuru tiek noteikta jauna summa, tiek izmantota piedāvājuma rindā, sistēma pārrēķina un ievada jaunu vērtību laukā Vienības cena. Ja simulācija ir balstīta uz jaunu seguma summu vai jaunu seguma summas normu, tiek atjaunināts tikai lauks Neto summa un lauks Vienības cena ir tukšs. Abos gadījumos visas atlaides, kas bija piedāvājuma rindā pirms simulācijas, tiks dzēstas.  
+    * Varat izveidot tik daudz cenu simulāciju, cik vēlaties. Noklikšķinot uz Jauns, lapā tiek kopēti cenu nosacījumi no pašreizējās piedāvājuma rindas. Jūs varat pārveidot vērtības visos ar cenu saistītajos laukos uz mērķvērtībām. Izmaiņas vienā no laukiem izraisīs pārrēķinu visos pārējos laukos. Lai sistēma aprēķinātu seguma summu un seguma summas normu, ir jābūt zināmām preces vienības izmaksām. Lietojiet cilni Simulētās cenas, lai iegūtu detalizētu skatījumu par sākotnējām cenām, ierosinātajām izmaiņām un to ietekmi uz piedāvājumu kopsummām.   Parasti, ja simulācija, ar kuru tiek noteikta jauna summa, tiek izmantota piedāvājuma rindā, sistēma pārrēķina un ievada jaunu vērtību laukā Vienības cena. Ja simulācija ir balstīta uz jaunu seguma summu vai jaunu seguma summas normu, tiek atjaunināts tikai lauks Neto summa un lauks Vienības cena ir tukšs. Abos gadījumos visas atlaides, kas bija piedāvājuma rindā pirms simulācijas, tiks dzēstas.  
 17. Aizvērt lapu.
 18. Darbību rūtī noklikšķiniet uz Piedāvājums.
 19. Noklikšķiniet uz Sūtīt piedāvājumu.

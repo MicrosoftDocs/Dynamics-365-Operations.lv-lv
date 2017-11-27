@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 01bb8999e5d9c0e16f133a621ebfe1d102565f2f
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 2986d218318951b7e46cb5dfafcbd17f2d513755
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -34,9 +34,9 @@ ms.lasthandoff: 09/29/2017
 Šajā tēmā ir sniegta vispārīga informācija finanšu atskaites ģenerēšanu. 
 
 Lai izveidotu pārskatu, atveriet pārskata definīciju un pēc tam rīkjoslā noklikšķiniet pogu Ģenerēt. Tiks atvērts logs Pārskata rindas statuss, un norādīs jūsu pārskata atrašanās vietu rindā. Pēc noklusējuma ģenerētais pārskats tiks atvērts pakalpojumā Tīmekļa skatītājs.
-| ![Piezīme](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Piezīme")**Piezīme**        |
-|------------------------------------------------------------------------------------------------|
-| Atskaites varat ģenerēt tikai mapēs un atrašanās vietās, kurām jums ir piekļuves tiesības. |
+
+> [!NOTE]
+> Atskaites varat ģenerēt tikai mapēs un atrašanās vietās, kurām jums ir piekļuves tiesības.
 
 Šī tabula sniedz pārskatu ģenerēšanai pieejamo opciju apskatu.
 
@@ -51,9 +51,10 @@ Kad veidojat atskaiti, tiek izmantotas opcijas, kuras jūs norādījāt cilnēs 
 Daudziem uzņēmumiem ir pamata kopas ar pārskatiem, kas tiek palaisti iepriekš ieplānotos intervālos, lai saskaņotu ar biznesa procesiem. Jūs var ieplānot regulāru pārskatu izveidi, piemēram, katru dienu, katru nedēļu, katru mēnesi vai reizi gadā. Tādā veidā var palaist vienu pārskatu vai vairāku pārskatu grupu, tostarp, ietverot vairākus uzņēmumus. Savi akreditācijas dati ir jāievada visiem norādītajiem uzņēmumiem, piemēram, pārskatu koka definīcijā norādītajiem uzņēmumiem. Ja akreditācijas dati nav derīgi, pārskats parādīs tikai informāciju, kurai jums ir piekļuves tiesības, piemēram, uzņēmums, ko esat reģistrējuši. Vispirms izlasiet izvades informāciju no pārskata grupas, un pēc tam no atsevišķiem pārskatiem.
 
 Kad pārskata grafiki tiek izveidoti un saglabāti, tie tiek parādīti navigācijas rūtī sadaļā Pārskatu grafiki. Lai kārtotu pārskatus, varat izveidot mapes. Ja viens grafikā ietvertais pārskats netiek palaists, visi citi šajā grafikā ietvertie pārskati tiks palaisti.
-| ![Svarīgi](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Svarīgi")**Svarīgi**                                                                                                           |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Lai izveidotu, modificētu un dzēstu pārskatu grafikus, lietotājam jābūt izstrādātāja vai administratora lomai. Izpildot pārskatu, kura akreditācijas dati tika izmantoti, lai izveidotu grafiku, tiek izmantoti arī lai izveidotu pārskatu. |
+
+> [!IMPORTANT]
+> Lai izveidotu, modificētu un dzēstu pārskatu grafikus, lietotājam jābūt izstrādātāja vai administratora lomai. Izpildot pārskatu, kura akreditācijas dati tika izmantoti, lai izveidotu grafiku, tiek izmantoti arī lai izveidotu pārskatu.
+
 
 ### <a name="create-a-report-schedule"></a>Izveidot pārskata grafiku
 
@@ -100,14 +101,15 @@ Lai turpinātu, noklikšķiniet uz pogas Atļaujas dialoglodziņā Pārskatu pl�
 Jūs varat meklēt finanšu kontus un dimensijas, kas, iespējams, nav norādītas visās rindu definīcijās, pārskata koka definīcijās un pārskatu definīcijas veidošanas bloka grupā. Tas ir noderīgi, ja izveidojat vai atjaunināt vairākus kontu vai veidošanas blokus īsā laika periodā, un vēlaties pārbaudīt, vai visa jaunā informācija tiek iekļauta jūsu pārskatos.
 
 Trūkstošie konti tiek noteikti, izmantojot mazāko un lielāko vērtību no rindas definīcijas vai atskaites koka definīcijas, un pēc tam parāda sarakstu ar kontiem, kas nav rindas definīcijas vai atskaites koka definīcijā, bet kas atrodas finanšu datos. Ja trūkstošā konta vērtība ir lielāka vai mazāka par rindas definīcijā norādītajām vērtībām, šis konts netiek rādīts trūkstošo kontu sarakstā.
-| ![Padoms](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Padoms")**Padoms**                                             |
-|----------------------------------------------------------------------------------------------------------------------------------|
-| Lai pārbaudītu datu pareizību, šo procesu ir ieteicams veikt ikreiz pirms mēneša pārskatu izveides, kā arī jaunu veidošanas bloku izveides laikā. |
+
+> [!TIP]
+> Lai pārbaudītu datu pareizību, šo procesu ir ieteicams veikt ikreiz pirms mēneša pārskatu izveides, kā arī jaunu veidošanas bloku izveides laikā.
 
 Pārskatos, kuros ir vērtību diapazoni, ir mazāka trūkstošu kontu varbūtība. Ja iespējams, izmantojiet diapazonus veidošanas blokos, lai iekļautu jaunus kontus, kad tie tiek izveidoti. Ja jebkura pārskata definīcijā kā uzņēmums ir iestatīts @ANY, varat pieteikties noteiktā uzņēmumā un izpildīt trūkstošo kontu analīzi šim uzņēmumam.
-| ![Piezīme](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Piezīme")**Piezīme**                                                                                           |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ja tika pievienots jauns uzņēmums, jums šis jaunais uzņēmums ir jāpievieno atskaišu kokiem jebkurā esošā atskaitē, citādi šis uzņēmums netiks iekļauts trūkstošo kontu analīzē. |
+
+> [!NOTE]
+> Ja tika pievienots jauns uzņēmums, jums šis jaunais uzņēmums ir jāpievieno atskaišu kokiem jebkurā esošā atskaitē, citādi šis uzņēmums netiks iekļauts trūkstošo kontu analīzē.
+
 
 ### <a name="run-missing-account-analysis"></a>Palaist trūkstošo kontu analīzes līdzekli
 
@@ -117,11 +119,11 @@ Pārskatos, kuros ir vērtību diapazoni, ir mazāka trūkstošu kontu varbūtī
 4.  Laukā Grupēt pēc atlasiet rezultātu kārtošanas opciju. Rezultātus var kārtot pēc izmantotā veidošanas bloka, kā arī pēc dimensijas un vērtību kopas.
 5.  Pārskatiet parādāmos rezultātus. Atlasot vienumu augšējā rūtī, apakšējā rūtī tiek rādīta papildu informācija par izņēmumu. Šajā informācijā ir ietverti dati par saistītajām dimensijām, vērtībām un pārskatiem.
 6.  Lai atvērtu iesaistīto vienumu, noklikšķiniet uz saistīto ikonu, kas tiek parādīts saraksta rūtī vai ar peles labo pogu noklikšķiniet uz vienuma, un atlasiet Atvērt. Lai atlasītu vairākus vienumus, turiet nospiestu taustiņu Ctrl, atlasot vienumus apakšējā rūtī.
-7.  Ja jebkuri vienumi, veidošanas bloki vai pārskati tiek atgriezti, jo tie nav jāiekļauj analīzē, noklikšķiniet ar peles labo pogu uz vienuma, un atlasiet Izslēgt, vai atlasiet izvēles rūtiņu Izslēgt blakus vienumam, lai noņemtu to no saraksta. Neiekļautie vienumu netiek iekļauti sarakstā, kad tas tiek atsvaidzināts. Lai atlasītu vairākus vienumus, turiet nospiestu taustiņu Ctrl, un apakšējā rūtī atlasiet vienumus. Lai skatītu visus vienumus, ieskaitot rezultātus, kas iepriekš tika atlasīti neiekļaušanai analīzē, atlasiet izvēles rūtiņu Parādīt izslēgtos veidošanas blokus un vērtības, un pēc tam noklikšķiniet uz Atsvaidzināt.
-8.  Noklikšķiniet uz Atsvaidzināt, lai atsvaidzinātu izņēmumus, ko norādījāt. Noklikšķiniet uz Jā, lai pilnībā atsvaidzinātu visus rezultātus, vai noklikšķiniet uz Nē, lai veiktu risināmo vienumu daļēju atsvaidzināšanu.
-    | ![Piezīme](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Piezīme")**Piezīme**                    |
-    |------------------------------------------------------------------------------------------------------------|
-    | Forma tiek automātiski atsvaidzināta atvēršanas brīdī, ja vien tā netika atvērta pēdējo 15 minūšu laika. |
+7.  Ja jebkuri vienumi, veidošanas bloki vai pārskati tiek atgriezti, jo tie nav jāiekļauj analīzē, noklikšķiniet ar peles labo pogu uz vienuma, un atlasiet Izslēgt, vai atlasiet izvēles rūtiņu Izslēgt blakus vienumam, lai noņemtu to no saraksta. Neiekļautie vienumu netiek iekļauti sarakstā, kad tas tiek atsvaidzināts. Lai atlasītu vairākus vienumus, nospiediet un turiet taustiņu Ctrl, kamēr atlasāt vienumus apakšējā rūtī. Lai skatītu visus vienumus, tostarp rezultātus, ko iepriekš neiekļāvāt analīzē, atzīmējiet izvēles rūtiņu Rādīt neiekļautos veidošanas blokus un vērtības un pēc tam noklikšķiniet uz Atsvaidzināt.
+8.  Noklikšķiniet uz Atsvaidzināt, lai atsvaidzinātu izņēmumus, ko norādījāt. Noklikšķiniet uz Jā, lai atsvaidzinātu visus rezultātus (pilnīgā atsvaidzināšana), vai noklikšķiniet uz Nē, lai atsvaidzinātu norādītos vienumus (daļējā atsvaidzināšana).
+
+    > [!NOTE]
+    > Forma tiek automātiski atsvaidzināta atvēršanas brīdī, ja vien tā netika atvērta pēdējo 15 minūšu laika.
 
 9.  Kad šīs problēmas ir novērstas, noklikšķiniet uz Labi, lai aizvērtu dialoglodziņu.
 

@@ -3,7 +3,7 @@ title: "Modificēt un palaist formātu dokumentu pārvaldības failu lietošanai
 description: "Tālāk aprakstītie soļi izskaidro, kā lietotājs, kam piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma, var konfigurēt elektroniskā pārskata (ER) formātu, lai izmantotu dokumentu pārvaldības failus (pielikumi) ER izvadē."
 author: NickSelin
 manager: AnnBe
-ms.date: 10/31/2016
+ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 76915a7294e078d76ed3ca9c41755e12b0791f3c
+ms.sourcegitcommit: 5d4f57ae2a309d9e15c1afe60c3e91d7d7eb3870
+ms.openlocfilehash: e145c4c7a1f3fd88481ad32d0af05511437e21dc
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="modify-and-run-format-to-use-document-management-files-in-format-outputs-for-electronic-reporting-er"></a>Modificēt un palaist formātu dokumentu pārvaldības failu lietošanai formāta izvades datos elektronisko pārskatu veidošanai (ER)
@@ -94,6 +94,6 @@ Lai veiktu šīs darbības, vispirms pabeidziet darbības procedūrā "ER izmant
     * 000148  
 6. Noklikšķiniet uz OK.
 7. Noklikšķiniet uz OK.
-    * Pārskatiet ģenerēto izvadi. Ņemiet vērā, ka papildus rēķina ziņojumam XML formātā, viens fails tika izveidots katram pielikumam. Pielikumu faili tiek aizpildīti ar arhivētu izvadi binārā formātā.  
+    * Pārskatiet ģenerēto izvadi. Ņemiet vērā, ka papildus rēķina ziņojumam XML formātā katram pielikumam ir izveidots atsevišķs fails. Pielikumu faili tiek aizpildīti ar arhivētu izvadi binārā formātā.  
 
 
