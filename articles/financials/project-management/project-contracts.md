@@ -1,9 +1,9 @@
 ---
-title: "Projektu līgumi"
-description: "Šajā rakstā aprakstīti projektu līgumi, ko var izveidot dažādu veidu projektiem un finansējuma avotiem, kā arī sniegti to piemēri, un aprakstīts, kā var pārvaldīt līgumus un izrakstīt projekta rēķinus debitoriem programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise."
+title: "Projekta līgumi"
+description: "Šajā tēmā ir sniegti piemēri projektu līgumiem, ko varat izveidot dažādu veidu projektiem un finansējuma avotiem, un ir aprakstīts, kā varat pārvaldīt līgumus un izrakstīt rēķinus projekta debitoriem programmā Microsoft Dynamics 365 for Finance and Operations Enterprise Edition."
 author: KimANelson
 manager: AnnBe
-ms.date: 09/14/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0d7d3b64b0d6a662246074b12e3a3fe105dfae47
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: c8328bd2d93bbe763e629248edc1b7b4576005ae
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā aprakstīti projektu līgumi, ko var izveidot dažādu veidu projektiem un finansējuma avotiem, kā arī sniegti to piemēri, un aprakstīts, kā var pārvaldīt līgumus un izrakstīt projekta rēķinus debitoriem programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise.
+Šajā rakstā ir sniegti piemēri projektu līgumiem, ko varat izveidot dažādu veidu projektiem un finansējuma avotiem, un ir aprakstīts, kā varat pārvaldīt līgumus un izrakstīt rēķinus projekta debitoriem programmā Microsoft Dynamics 365 for Finance and Operations Enterprise Edition.
 
 Projekta tips, ko izveidojat projekta līgumam, nosaka metodi, kas tiek izmantota projekta debitoru rēķinu izrakstīšanai. Varat mainīt projekta līgumu un saistīto projektu, bet projekta tipu nevar mainīt. 
 
@@ -224,7 +224,7 @@ Nākamajā tabulā šis scenārijs ir izpētīts detalizētāk.
 </tr>
 <tr class="odd">
 <td>2. transakcija</td>
-<td><strong>Transakcijas summa:</strong> 5000,00<strong>Finansējums:</strong> transakcija tiek apmaksāta saskaņā ar visiem trim nosacījumiem.<strong>1. nosacījums</strong>
+<td><strong>Transakcijas summa:</strong> 5000,00<strong>Finansējums:</strong> transakcija tiek apmaksāta saskaņā ar visiem trim nosacījumiem. <strong>1. nosacījums</strong>
 <ul>
 <li>2. finansējuma avots: 450,00</li>
 <li>3. finansējuma avots: 450,00</li>

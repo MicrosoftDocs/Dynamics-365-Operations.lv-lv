@@ -1,9 +1,9 @@
 --- 
 title: "Algas/atlīdzības organizācijas un plānu izstrāde"
-description: "Šajā uzdevuma ceļvedī ir aprakstīts fiksētas atlīdzības plāna izveidošanas process un procedūra, kā darbiniekiem ļaut reģistrēties šādā plānā, izmantojot piemērotības kārtulas."
+description: "Šajā uzdevuma ceļvedī ir aprakstīts, kā izveidot fiksētas atlīdzības plānu un iespējot darbinieku reģistrāciju šim plānam, izmantojot piemērotības kārtulas."
 author: kherr75
 manager: AnnBe
-ms.date: 06/10/2016
+ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,17 +16,17 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3cb6b9d8ee6a3d70731c89d26352eb3869ce3d11
+ms.sourcegitcommit: 63a02a64ff28531bae950f1b61d9167eaa0b0373
+ms.openlocfilehash: 7fd32467cfbc8c30b398659d16b268f183b6b3d3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/01/2017
 
 ---
 # <a name="develop-salarycompensation-structure-and-plans"></a>Algas/atlīdzības organizācijas un plānu izstrāde
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā uzdevuma ceļvedī ir aprakstīts fiksētas atlīdzības plāna izveidošanas process un procedūra, kā darbiniekiem ļaut reģistrēties šādā plānā, izmantojot piemērotības kārtulas. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USMF, un uzdevums ir paredzēts lietotājiem ar lomu Atlīdzību un atvieglojumu vadītājs.
+Šajā uzdevuma ceļvedī ir aprakstīts, kā izveidot fiksētas atlīdzības plānu un iespējot darbinieku reģistrāciju šim plānam, izmantojot piemērotības kārtulas. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USMF, un uzdevums ir paredzēts lietotājiem ar lomu Atlīdzību un atvieglojumu vadītājs.
 
 
 ## <a name="create-fixed-compensation-plan"></a>Izveidot fiksētas atlīdzības plānu

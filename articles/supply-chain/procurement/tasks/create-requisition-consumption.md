@@ -16,10 +16,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 07fe007005fcbbac1beecadb14dbd752376a0bd4
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 55ef4b1757a6f3c28c8575412d66488fda8608a5
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="create-a-requisition-for-consumption"></a>Patēriņa pieprasījuma izveide
@@ -46,12 +46,12 @@ ms.lasthandoff: 09/29/2017
 
 ## <a name="add-a-line-to-the-requisition"></a>Rindas pievienošana pieprasījumam
 1. Noklikšķiniet uz Pievienot rindu.
-    * Ir divi veidi, kā pievienot rindas pirkšanas pieprasījumam. Ja preces numurs jau ir zināms vai arī ir zināms, ka tiek pieprasīta prece, kas nav preču katalogā, tad var pievienot rindu tieši, izmantojot opciju Pievienot rindu. Cits veids ir izmantot "Pievienot preces", kur varat izmantot meklēšanu un filtrēšanu, lai atrastu vienumus preču katalogā.    
+    * Ir divi veidi, kā pievienot rindas pirkšanas pieprasījumam. Ja jūs jau zināt preces numuru vai jau zināt, ka jūs pieprasāt preci, kas nav preču katalogā, tad varat pievienot rindu tieši ar "Pievienot rindu". Cits veids ir izmantot "Pievienot preces", kur varat izmantot meklēšanu un filtrēšanu, lai atrastu vienumus preču katalogā.    
 2. Noklikšķiniet uz tikko izveidotās rindas.
     * Pieprasītājs ir darbinieks, kas ir pieprasījis šo pieprasījumu.   
     * Pēc noklusējuma persona, kas sagatavo pieprasījumu, ir darbinieks, kurš ir to pieprasījis. Jums ir jābūt atļaujai sagatavot pieprasījuma rindu cita darbinieka vārdā. Ja jums ir šādas atļaujas, tad šajā uzmeklēšanā parādīsies citi darbinieki.  
 3. Laukā Krājuma kods ierakstiet kādu vērtību.
-    * Krājumus, kas ir pieejami izvēlei, ierobežo kategorijas piekļuves ierobežojumi un pērkošas juridiskās personas sagādes katalogs.    
+    * Krājumus, kas ir pieejami izvēlei, ierobežo kategorijas piekļuves ierobežojumi un pērkošas juridiskās personas sagādes katalogs.   
 4. Laukā Daudzums ievadiet skaitli.
 
 ## <a name="add-more-products-to-the-requisition"></a>Vairāku preču pievienošana pieprasījumam

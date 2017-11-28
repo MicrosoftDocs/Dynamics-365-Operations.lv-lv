@@ -3,7 +3,7 @@ title: "Konteinerizēšanas iestatīšana"
 description: "Šajā procedūrā ir aprakstīts, kā automatizēt kravu konteinerizēšanu sadaļā Noliktavas vadība."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/07/2016
+ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: aeb7d956560c513c08d5e20dcf20989b49137a52
+ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
+ms.openlocfilehash: c5faf926071dec5d2ddc1c9e921a98ecd0754917
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="set-up-containerization"></a>Konteinerizēšanas iestatīšana
@@ -83,7 +83,7 @@ ms.lasthandoff: 09/29/2017
 ## <a name="set-up-a-container-group"></a>Konteineru grupas iestatīšana
 1. Dodieties uz Noliktavas vadība > Iestatīšana > Konteineri > Konteineru grupas.
 2. Noklikšķiniet uz Jauns.
-    * Varat iestatīt konteineru tipu loģiskās grupas. Katrai grupai varat norādīt secību, kādā konteineri ir jāiepako, kā arī konteineru aizpildes procentus. Programma izmanto krājuma lieluma dimensijas, lai noteiktu, vai šis krājums ietilpst konteinerā. Tiek izmantots konteiners, kas ir vistuvāk krājuma izmēru dimensijām. Ja vienā grupā ir vairāki konteineru tipi, ieteicams izveidot secību pēc lieluma, lai lielākais konteiners būtu pirmais, šīs secības 1. numurs, un vismazākais konteiners būtu pēdējais.    
+    * Varat iestatīt konteineru tipu loģiskās grupas. Katrai grupai jūs varat norādīt secību, kādā konteineri tiek iepakoti, kā arī katra konteinera aizpildes vērtību procentos. Krājuma izmēru dimensijas tiek izmantotas, lai noteiktu, vai krājumu varēs ievietot konteinerā. Tiek izmantots konteiners, kas ir vistuvāk krājuma izmēru dimensijām. Ja vienā grupā ir vairāki konteineru tipi, ieteicams izveidot secību pēc lieluma, lai lielākais konteiners būtu pirmais, šīs secības 1. numurs, un vismazākais konteiners būtu pēdējais.    
 3. Laukā Konteinera grupas ID, ievadiet vērtību.
 4. Apraksta laukā ierakstiet vērtību.
 5. Klikšķiniet Jauns.
@@ -108,7 +108,7 @@ ms.lasthandoff: 09/29/2017
 6. Laukā Kopuma darbības kods, ierakstiet vērtību.
 7. Atzīmējiet izvēles rūtiņu Atļaut izdošanu sadali.
 8. Noklikšķiniet uz Saglabāt.
-9. Noklikšķiniet uz Konteineru kombinēti ierobežojumi.
+9. Noklikšķiniet uz Konteineru kombinēšanas ierobežojumi.
     * Kombinēšanas loģikas pārtraukumpunkti ļauj iestatīt noteikumus iepakošanas sadalījuma rindām konteineros. Piemēram, ja pievienojat lauku Krājuma numurs, kad krājumi tiek piešķirti konteineriem, jauns konteineris tiks izveidots, parādoties jaunam krājuma kodam. Tas novērsīs darbiniekus no iepakojuma sadalījuma rindām diviem dažādiem klientiem vienā konteinerā.  
 10. Noklikšķiniet uz Jauns.
 11. Laukā Tabula, atlasiet opciju.

@@ -3,7 +3,7 @@ title: "Pamatlīdzekļu pārklasificēšana"
 description: "Lai pārklasificētu pamatlīdzekli, tas ir jāpārsūta uz jaunu pamatlīdzekļu grupu vai tam ir jāpiešķir jauns pamatlīdzekļa numurs tajā pašā grupā."
 author: saraschi2
 manager: AnnBe
-ms.date: 06/26/2017
+ms.date: 10/30/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: fda4d71b050edde2752536985b18ebcad203d078
+ms.sourcegitcommit: cafd499e849570cae7b7f58bf2d487a7ac0093e6
+ms.openlocfilehash: 6bce294329c7ec6dc436c3d3baf6597e0283c9bd
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/30/2017
 
 ---
 # <a name="reclassify-fixed-assets"></a>Pamatlīdzekļu pārklasificēšana
@@ -37,7 +37,7 @@ Kad pamatlīdzeklis ir pārklasificētas:
 • Esošās pamatlīdzekļa transakcijas sākotnējam pamatlīdzeklim tiek atceltas un pārģenerētas jaunajam pamatlīdzeklim.
 
 1. Dodieties uz Pamatlīdzekļi > Periodiskie uzdevumi > Pārklasificēšana.
-2. Laukā Pamatlīdzekļu grupa atlasiet grupu, kuru vēlaties pārklasificēt.
+2. Laukā Pamatlīdzekļu grupa atlasiet grupu, ko vēlaties pārklasificēt.
 3. Laukā Pamatlīdzekļa numurs atlasiet, kuru pamatlīdzekli pārklasificēt.
 4. Laukā Jauna pamatlīdzekļu grupa atlasiet grupu, uz kuru pārsūtīt šo pamatlīdzekli.
     * Ja jaunā pamatlīdzekļu grupa ir pievienota kādai numuru sērijai, tad lauks Jauns pamatlīdzekļa numurs tiek atjaunināts ar numuru no jaunās pamatlīdzekļu grupas numuru sērijas. Pretējā gadījumā lauks Jauns pamatlīdzekļa numurs tiek atjaunināts ar numuru no numuru sērijas, kas ir iestatīta lapā Pamatlīdzekļu parametri. Ja lapā Pamatlīdzekļu parametri nav iestatīta numuru sērija, ievadiet kādu numuru laukā Jauns pamatlīdzekļa numurs.  

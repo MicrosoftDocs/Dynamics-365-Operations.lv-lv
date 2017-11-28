@@ -3,7 +3,7 @@ title: "Novietojuma direktīvas iestatīšana pirkšanas pasūtījuma atlikšana
 description: "Šajā procedūrā parādīts, kā iestatīt vienkāršu novietojuma direktīvu."
 author: BibiSp
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 45e1e54c807597d4d5ff7370748012cbf28c1c6b
+ms.sourcegitcommit: 4bb4af7cb7aff101a8b9e6162823515f63b12886
+ms.openlocfilehash: 98ce3ad38dddda33be5466490fcd39d81251679c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Novietojuma direktīvas iestatīšana pirkšanas pasūtījuma atlikšanai
@@ -61,7 +61,7 @@ ms.lasthandoff: 09/29/2017
 4. Laukā Mērvienība ierakstiet vērtību.
     * Vienības, kurā izteiktas vērtības No daudzuma un Līdz daudzumam. Ja atstājat šo lauku tukšu, tiek izmantota krājuma vienība no krājuma.  
 5. Laukā Novietot daudzumu atlasiet opciju.
-    * Nav vai Numura zīmes daudzums: daudzums, kas reģistrēts katrā numura zīmē. Izmantotais daudzums: viss reģistrētais daudzums. Atlikušais daudzums: daudzums, kas vēl jāreģistrē no pirkšanas pasūtījuma rindas. Paredzētais daudzums: kopējais daudzums, kas norādīts pirkšanas pasūtījuma rindā.  
+    * Nav vai Numura zīmes daudzums: daudzums, kas reģistrēts katrai numura zīmei. Izmantotais daudzums: viss reģistrētais daudzums. Atlikušais daudzums: daudzums, kas vēl jāreģistrē no pirkšanas pasūtījuma rindas. Paredzētais daudzums: kopējais daudzums, kas norādīts pirkšanas pasūtījuma rindā.  
 6. Atzīmējiet izvēles rūtiņu Ierobežot atbilstoši vienībai vai noņemiet tās atzīmi.
     * Ja atlasāt šo opciju un norādāt vienību lapā Ierobežot atbilstoši vienībai, novietojumā varēs tikt novietoti tikai krājumi ar šo mērvienību. Piemēram, ja mērvienība ir PL (paletes), šajā novietojumā var novietot tikai krājumus paletēs.  
 7. Atzīmējiet izvēles rūtiņu Atļaut sadalījumu vai noņemiet tās atzīmi.

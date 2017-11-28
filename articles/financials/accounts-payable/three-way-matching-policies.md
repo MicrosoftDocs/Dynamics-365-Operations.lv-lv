@@ -1,9 +1,9 @@
 ---
 title: "Trīsvirzienu atbilstības ierobežojumi"
-description: "Šajā rakstā ir sniegti trīsvirzienu atbilstības piemēri."
+description: "Šajā tēmā ir sniegti trīsvirzienu atbilstības piemēri."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: bc53df6b994c0d2e490e8823a53478f2ad04e163
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: da3099a07e3084bf49d03e0f4d421aebe9b39940
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir sniegti trīsvirzienu atbilstības piemēri.
+Šajā tēmā ir sniegti trīsvirzienu atbilstības piemēri.
 
 <a name="example-three-way-matching-for-items"></a>Piemērs: krājumu trīsvirzienu atbilstība
 -------------------------------------
@@ -65,7 +65,7 @@ Fabrikam vada vairākas juridiskās personas un nodarbina darbiniekus visā pasa
 1.  Samijs, Fabrikam saņemšanas nodaļas darbinieks, saņem visas no Contoso nosūtītās mašīnas. Viņš ievada daudzumu 5 produktu ieejas plūsmas dokumentā. Tā kā pirkšanas pasūtījums ir pilnībā saņemts, pirkšanas pasūtījuma statuss tiek mainīts uz Saņemts.
 2.  Eiprila, Fabrikam kreditoru nodaļas koordinatore, ievada un pārbauda uzņēmuma Contoso iesniegto rēķinu. Viņa pārbauda tālāk norādīto informāciju.
     -   Krājumiem, kuriem ir nepieciešama trīsvirzienu atbilstība, rēķina rindā norādītais daudzums atbilst saņemtajam daudzumam. Saņemtais daudzums ir norādīts produktu ieejas plūsmas dokumentā, kas tiek salīdzināts ar rēķinu.
-    -   Krājumiem, kuriem ir nepieciešama divvirzienu vai trīsvirzienu atbilstība, rēķina rindās norādītās cenas atbilst Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise definētajām pielaidēm. Tas attiecas uz tālāk norādītajiem cenu salīdzināšanas tipiem.
+    -   Krājumiem, kuriem ir nepieciešama divvirzienu vai trīsvirzienu atbilstība, rēķina rindās norādītās cenas atbilst programmā Microsoft Dynamics 365 for Finance and Operations Enterprise Edition definētajām pielaidēm. Tas attiecas uz tālāk norādītajiem cenu salīdzināšanas tipiem.
         -   Vienības neto cenu salīdzināšana — rēķina rindā norādītā vienības neto cena atbilst pirkšanas pasūtījuma rindā norādītajai vienības neto cenai saskaņā ar pielaides procentuālo vērtību. Šajā piemērā izmantotā vienības neto cenas pielaide ir +8%.
         -   Cenu kopsummu salīdzināšana — rēķina rindā norādītā neto summa atbilst pirkšanas pasūtījuma rindā norādītajai neto summai saskaņā ar pielaides procentuālo vērtību, summu vai procentuālo vērtību un summu. Šajā piemērā izmantotā cenu kopsummu salīdzināšanas pielaide ir +15%.
 

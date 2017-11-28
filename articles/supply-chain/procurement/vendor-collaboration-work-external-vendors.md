@@ -3,14 +3,14 @@ title: "Kreditoru sadarbība ar ārējiem kreditoriem"
 description: "Šajā tēmā ir aprakstīts, kā iepirkuma aģenti var sadarboties ar ārējiem kreditoriem, lai apmainītos ar informāciju par pirkšanas pasūtījumiem un sūtījuma krājumiem."
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 9036b7f9863871915f9ad39d76bf027ae4c2f4bf
-ms.openlocfilehash: aee8db8ddaeac135ed1f9d8b1b8a621609c6d358
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: abff906bcdf31c91ce696afbcd651a1d7a87ea8a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 10/05/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -33,6 +33,8 @@ ms.lasthandoff: 10/05/2017
 Šajā tēmā ir aprakstīts, kā iepirkuma aģenti var sadarboties ar ārējiem kreditoriem, lai apmainītos ar informāciju par pirkšanas pasūtījumiem un sūtījuma krājumiem.
 
 Modulis **Kreditoru sadarbība** ir paredzēts kreditoriem, kuri neizmanto elektroniskās datu apmaiņas (EDI) integrāciju ar Microsoft Dynamics 365 for Finance and Operations. Tas kreditoriem ļauj strādāt ar pirkšanas pasūtījumu, rēķinu un sūtījuma krājumu informāciju. Šajā tēmā ir aprakstīts, kā jūs varat sadarboties ar ārējiem kreditoriem, kuri izmanto kreditoru sadarbības interfeisu, lai strādātu ar pirkšanas pasūtījumiem un sūtījumu krājumiem. Tajā ir arī aprakstīts, kā konkrētam kreditoram sniegt iespēju lietot kreditoru sadarbību un kā definēt informāciju, kuru redz visi kreditori, kad viņi atbild uz kādu pirkšanas pasūtījumu. Papildinformāciju par to, ko ārējie kreditori var darīt kreditoru sadarbības interfeisā, skatiet tēmā [Kreditoru sadarbība ar debitoriem](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+
+Šajā tēmā sniegtā informācija par kreditoru sadarbību attiecas tikai uz pašreizējo Dynamics 365 for Finance and Operations versiju. Microsoft Dynamics AX 2016. gada februāra un 2016. gada maija versijā sadarbībai ar kreditoriem ir jāizmanto modulis Kreditoru portāls. Informāciju par moduli Kreditoru portāls skatiet tēmā [Sadarbība ar kreditoriem, izmantojot moduli Kreditoru portāls](collaborate-vendors-vendor-portal.md).
 
 Papildinformāciju par to, kā kreditori var lietot kreditoru sadarbības rēķinu izrakstīšanas procesus, skatiet tēmā [Kreditoru sadarbības rēķinu izrakstīšanas darbvieta](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Informāciju par to, kā nodrošināt jauna kreditora sadarbības lietotājus, skatiet tēmā [Pārvaldīt kreditoru sadarbības lietotājus](manage-vendor-collaboration-users.md).
 
@@ -161,7 +163,7 @@ Atbildē varat skatīt iepriekš minētos rindas statusus, kas norāda, kādu ti
 
 Pirkšanas pasūtījumu var atjaunināt, noklikšķinot uz darbības **Apstrādāt PP atjauninājumu** atbildē vai atsevišķi katrā attiecīgajā rindā. Indikators **Vai PP atjauninājums ir apstrādāts?** virsrakstā un rindās ļauj redzēt, vai sistēma ir apstrādājusi virsrakstu vai rindas, lai pirkšanas pasūtījumu atjauninātu ar jebkurām iespējamajām izmaiņām no atbildes. Procesu **Apstrādāt PP atjauninājumu** var palaist tikai vienreiz katram virsrakstam vai rindai.
 
-Pirkšanas pasūtījumā nevar atjaunināt visas ieteiktās izmaiņas. Pirkšanas pasūtījumā automātiski var veikt tikai atjauninājumus virsrakstā, kā arī datumu un daudzumu atjauninājumus rindās. Lai veiktu citas izmaiņas, jums ir manuāli jāatjaunina pirkšanas pasūtījums. Šajā gadījumā indikators **Vai PP atjauninājums ir apstrādāts?** rāda **Manuāls atjauninājums**. Piemērs manuāli apstrādājamām izmaiņām ir situācija, kurā kreditors iesaka sadalīt rindu grafikā.
+Pirkšanas pasūtījumā nevar atjaunināt visas ieteiktās izmaiņas. Pirkšanas pasūtījumā automātiski var veikt tikai atjauninājumus virsrakstā, kā arī datumu un daudzumu atjauninājumus rindās. Lai veiktu citas izmaiņas, jums ir manuāli jāatjaunina pirkšanas pasūtījums. Šajā gadījumā indikators **Vai PP atjauninājums ir apstrādāts?** rāda **Manuāls atjauninājums**. Manuāli apstrādājama izmaiņa ir, piemēram, kreditora ieteikums sadalīt rindu grafikā.
 
 Rindai ar statusu **Pieņemts** būs apstiprināts piegādes datums, kas pirkšanas pasūtījumā tiks atjaunināts, kad izpildīsit procesu **Apstrādāt PP atjauninājumu**. Piezīmes un pielikumi netiks automātiski pārsūtīti uz pašreizējo pirkšanas pasūtījumu. Ņemiet vērā, ka, atjauninot pašreizējo pirkšanas pasūtījumu, izmantojot darbību **Apstrādāt PP atjauninājumu**, tirdzniecības līgumi netiks atkārtoti novērtēti pirkšanas pasūtījuma rindās.
 

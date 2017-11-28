@@ -3,7 +3,7 @@ title: " Lojalitātes programmas shēmu definēšana"
 description: "Šajā procedūrā ir aprakstīts, kā definēt lojalitātes programmas shēmu."
 author: jashanno
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 23c8876b1983d6bc20b68f24fa7cd5b042cfd488
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: 1fc193e113961705f18488a4341652b3576fb275
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -50,7 +50,7 @@ ms.lasthandoff: 09/29/2017
 13. Laukā Atlīdzības punktu ID noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanas logu.
 14. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
 15. Laukā Atlīdzības punkti ievadiet skaitli.
-    * Summas veida atlīdzības punktu gadījumā nopelnītās summas tiks reģistrētas kā decimāldaļas. Piemēram, saskaņā ar atlīdzības punktu saņemšanas kārtulu par katru iztērēto 1 Kanādas dolāru tiek iegūts 1 atlīdzības punkts. Ja debitors iztērēs 1,25 Kanādas dolārus, tad debitors nopelnīs 1,25 atlīdzības punktus. Daudzuma veida atlīdzības punktu gadījumā nopelnītās summas tiks reģistrētas kā vesels skaitlis. Piemēram, saskaņā ar atlīdzības punktu saņemšanas kārtulu par katru iztērēto 1 Kanādas dolāru tiek iegūts 1 atlīdzības punkts. Ja debitors iztērēs 1,25 Kanādas dolārus, tad debitors nopelnīs 1,0 atlīdzības punktu.  
+    * Summas veida atlīdzības punktu gadījumā nopelnītās summas tiks reģistrētas kā decimāldaļas. Piemēram, ja saskaņā ar atlīdzības punktu saņemšanas kārtulu par katru 1 iztērēto Kanādas dolāru tiek iegūts 1 atlīdzības punkts un debitors iztērē 1,25 Kanādas dolārus, tad debitors nopelna 1,25 atlīdzības punktus. Daudzuma veida atlīdzības punktu gadījumā nopelnītās summas tiks reģistrētas kā vesels skaitlis. Piemēram, ja saskaņā ar atlīdzības punktu saņemšanas kārtulu par katru 1 iztērēto Kanādas dolāru tiek iegūts 1 atlīdzības punkts un debitors iztērē 1,25 Kanādas dolārus, tad debitors nopelna 1,0 atlīdzības punktus.  
 16. Noklikšķiniet uz Saglabāt.
 17. Noklikšķiniet uz Pievienot rindu.
     * Izpirkšanas kārtulas tiek izmantotas, ja tiek lietota lojalitātes programmas maksāšanas metode.  

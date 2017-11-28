@@ -3,7 +3,7 @@ title: "Pēctecības plāna izstrāde"
 description: "Kad jūsu organizācija palielinās un apsverat pēctecības plānošanu, iespējams, būs jāatrod persona, kurai ir līdzīgas prasmes kā kādai citai."
 author: kherr75
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,17 +16,17 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b1caaf5f52282a8daae62602dcc5ef86b901e338
+ms.sourcegitcommit: 63a02a64ff28531bae950f1b61d9167eaa0b0373
+ms.openlocfilehash: 2ca5f541abe4f85187aaefdbb03ca84e4f314b3c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/01/2017
 
 ---
 # <a name="develop-a-succession-plan"></a>Pēctecības plāna izstrāde
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Kad jūsu organizācija palielinās un apsverat pēctecības plānošanu, iespējams, būs jāatrod persona, kurai ir līdzīgas prasmes kā kādai citai.  Prasmju kartēšana sniedz iespēju analizēt esošos darbiniekus un kandidātus, lai noteiktu, vai šīs personas atbilst vērtīgu darbinieku prasmju kopai. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
+Kad jūsu organizācija palielinās un apsverat pēctecības plānošanu, iespējams, būs jāatrod persona, kurai ir līdzīgas prasmes kā kādai citai.  Prasmju kartēšana jums ļauj analizēt esošos darbiniekus un kandidātus, lai redzētu, ja šīs personas atbilst vērtīgu darbinieku prasmju kopai. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 
 1. Pārejiet uz sadaļu Personāla vadība > Zināšanas > Prasmju analīze > Prasmju kartēšanas profili.
 2. Noklikšķiniet uz Jauns.
@@ -36,8 +36,8 @@ Kad jūsu organizācija palielinās un apsverat pēctecības plānošanu, iespē
 6. Noklikšķiniet uz Iegūt profilu.
 7. Noklikšķiniet uz Persona.
 8. Laukā Persona ierakstiet kādu vārdu vai atlasiet no nolaižamā saraksta.  Piemērs: Kesija Hiksa.
-9. Noklikšķiniet uz Labi.
-10. Izvērsiet sertifikātu kopsavilkuma cilni, lai apskatītu vai rediģētu prasmju kartējumā iekļautos sertifikātus.
+9. Noklikšķiniet uz OK.
+10. Izvērsiet sertifikātu kopsavilkuma cilni, lai skatītu vai rediģētu prasmju kartējumā iekļautos sertifikātus.
 11. Izvērsiet kopsavilkuma cilni Prasmes, lai apskatītu vai rediģētu iekļaujamās prasmes.
 12. Sarakstā atzīmējiet pirmo rindu.  Piemērs: Grāmatvedība
 13. Noklikšķiniet uz izvēles rūtiņas Neobligāts.

@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fbe32e248727912073631f1dfb8ee0a49cbf0a5e
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 7563c749d0d2b5747f1b7886def82ba7191499b1
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -36,9 +36,8 @@ Konfigurējiet debitoru parādus un kredītu un iekasēšanu, lai izsekotu rēķ
 Varat iestatīt debitoru grupas, debitorus, grāmatošanas metodes, dažādas apmaksas opcijas, procentu paziņojumus, atgādinājuma vēstules, komisijas, parametrus saistībā ar debitoriem, maksām, piegādēm un mērķiem, kā arī vekseļus un cita veida informāciju par debitoriem un kredītu un iekasēšanu.
 Nākamajā tabulā ir uzskaitītas lapas, kas atbalsta moduļu Debitori un Kredīts un iekasēšana konfigurēšanu un uzturēšanu. Tabulas ieraksti ir sakārtoti pēc uzdevumiem un pēc tam alfabētiskā secībā pēc lapu nosaukumiem.
 
-| ![Piezīme](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Piezīme")**Piezīme**          |
-|--------------------------------------------------------------------------------------------------|
-| Dažām lapām nākamajā tabulā ir nepieciešama informācija vai parametru iestatījumi, lai uz tām navigētu. |
+> [!NOTE]
+> Uz dažām no tālāk norādītajā tabulā ietvertajām lapām nevar pāriet, ja citās lapās nav ievadīti dati vai parametru iestatījumi.
 
 | Uzdevums                                                 | Lapas nosaukums                            | Lietojums                                                                                                                                                                                                                                                                             |
 |------------------------------------------------------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

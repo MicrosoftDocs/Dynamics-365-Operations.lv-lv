@@ -19,14 +19,14 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 80bd5978ffe137e48da3f5eac6c75ad0f5e2f06a
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: e0a22e07f5a0e5bc30c8ad9dc87c5a506d62847d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# Mērvienību un uzkrājumu politikas
+# <a name="unit-of-measure-and-stocking-policies"></a>Mērvienību un uzkrājumu politikas
 
 [!include[banner](../includes/banner.md)]
 
@@ -35,19 +35,19 @@ ms.lasthandoff: 09/29/2017
 
 Vienību secību grupas nosaka to vienību secību, ko var izmantot noliktavas operācijās. Tās tiek izveidotas lapā **Vienību secību grupas**. Šī secība rāda dažādo vienību attiecības. Pieņemsim, ka jūs uzglabājat paletes, uz kurām ir kastes, kurās ir atsevišķas krājumu vienības. Šādā gadījumā ir jānodrošina trīs dažādas vienības un slāņu loģiskā secība. Vienību sēriju grupas ļauj definēt noliktavas vienību grupēšanas ierobežojumus un noklusējuma vienības, kas ir jāizmanto dažādos noliktavas procesos. Šis raksts attiecas gan uz papildu noliktavas risinājumiem, kas ir pieejamai modulī Noliktavas pārvaldība, gan uz vienkāršākiem noliktavas risinājumu, kas ir pieejami modulī Krājumu vadība.
 
-## Izlaisto preču vienību secību grupas
+## <a name="unit-sequence-groups-for-released-products"></a>Izlaisto preču vienību secību grupas
 Ja vēlaties izmantot izlaistās preces noliktavas darba procesos, tām ir jāpiešķir vienību secību grupa. Ja apstiprināt preci, kas ir saistīta ar noliktavas dimensiju grupu, un šai noliktavas dimensiju grupai ir norādīts opcijas **Izmantot noliktavas vadības procesus** iestatījums **Jā**, jūs saņemat kļūdas ziņojumu, ja precei nav definēts vienību secību grupas ID. Ja izmantotajā vienību secību grupā ir vairākas rindas (un tāpēc vairākas vienības), ir jāiestata vienību konvertēšana starp šīm vienībām. Šos iestatījumus varat veikt lapā **Mērvienību pārveidošana**. Mazākajai vienībai ar izlaisto preci saistītajā secību grupā ir jāatbilst krājumu vienībai, kas ir definēta atbilstošajai precei. Krājumu vienība ir vienība, kas tiek izmantota rīcībā esošo krājumu pamata aprēķiniem. Varat arī iestatīt preces šablonu preču variantu mērvienību konvertēšanu, izmantojot opciju **Iespējot mērvienību konvertēšanu**.
 
-## Numura zīmju grupēšana
+## <a name="license-plate-grouping"></a>Numura zīmju grupēšana
 Varat norādīt, vai ieejas plūsmas, kas ir mazākas vai lielākas par noteiktu vienību, ir jāgrupē vienā noliktavas vienībā vai ir jāsadala pa atsevišķām noliktavas vienībām. Lai iestatītu šo darbību, izmantojiet opciju **Numura zīmju grupēšana** lapas **Vienību secību grupas** cilnē **Rindas informācija**. Ja vēlaties izmantot noliktavas vienību grupēšanu, apstrādājot darbu mobilajā ierīcē, ir izvēlnes vienumā **Mobilā ierīce** ir jāatlasa opcija **Numura zīmju grupēšana**. Pieņemsim, ka jūs izmantojat mobilo ierīci, lai reģistrētu krājumu, kas ir saistīts ar vienību sēriju grupu ar divām rindām. Pirmā rinda atbilst gabaliem, un tai ir norādīta opcijas **Numura zīmju grupēšana** vērtība **Jā**. Otrā rinda atbilst paletes vienībai, un tai ir norādīta opcijas **Numura zīmju grupēšana** vērtība **Nē**. Šādā gadījumā sistēma var automātiski vadīt sadalīšanu pa 100 gabaliem un attiecīgu noliktavas vienību izveidi.
 
-## Cikla inventarizācijas vienības
+## <a name="units-for-cycle-counting"></a>Cikla inventarizācijas vienības
 Lai definētu, kuras vienības ir jāizmanto cikla inventarizācijas procesā, atlasiet opciju **Izmantot vienību cikla inventarizācijai** lapā **Vienību secību grupas**. Šādā secību grupā varat atlasīt maksimāli četras vienības. Ja atlasāt vairāk par četrām vienībām, papildu vienības netiek rādītas mobilajā ierīcē.
 
-## Mobilās ierīces saņemšanas procesa noklusējuma vienības
+## <a name="default-units-for-mobile-device-receiving-processes"></a>Mobilās ierīces saņemšanas procesa noklusējuma vienības
 Lai iestatītu noklusējuma vienības, kas ir jāizmanto saņemšanas procesiem mobilajās ierīcēs, iespējojiet opcijas **Noklusējuma vienība pirkšanai un pārsūtīšanai** un **Noklusējuma vienība ražošanai** lapā **Vienību secību grupas**. Piemēram, varat norādīt, ka sistēmā pēc noklusējuma ir jāizmanto palešu daudzums, ja pirkšanas pasūtījuma rīcībā esošie krājumi tiek saņemti, izmantojot mobilo ierīci, taču kā noliktavas vienība ir jāizmanto gabali. Lai nodrošinātu katras paletes gabalu skaita konvertāciju, ir jādefinē vienību konvertācija, piemēram, 100 gab. = 1 pal.
 
-## Pasūtījuma noklusējuma iestatījumi
+## <a name="default-order-settings"></a>Pasūtījuma noklusējuma iestatījumi
 Izlaisto preču izveides procesa ietvaros ir jāatlasa pirkšanas, pārdošanas un krājumu noklusējuma vienības, lai varētu apstrādāt dažādos pasūtījumus. Varat iestatīt noklusējuma vienības un daudzumus dažādajiem pirmdokumentiem, izmantojot lapas **Pasūtījuma noklusējuma iestatījumi** un **Atrašanās vietai raksturīgie pasūtījuma iestatījumi**. Šīm lapām varat piekļūt lapā **Izlaistās preces**.
 
 

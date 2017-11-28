@@ -1,9 +1,9 @@
 ---
 title: "Pirkšanas pieprasījuma apskats"
-description: "Šajā rakstā aprakstīta pirkšanas pieprasījuma darbplūsma un dažādi statusi, kas var iekļaut pirkšanas pieprasījumu."
+description: "Šajā tēmā ir aprakstīta pirkšanas pieprasījuma darbplūsma un iespējamie pirkšanas pieprasījuma statusi."
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 2174
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 6fb8bbc7340650341618f3a9613f4234ef1e9c04
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: b96a89bcabdaa3e3a3be3786dda15f9725f5a50d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā aprakstīta pirkšanas pieprasījuma darbplūsma un dažādi statusi, kas var iekļaut pirkšanas pieprasījumu.
+Šajā tēmā ir aprakstīta pirkšanas pieprasījuma darbplūsma un iespējamie pirkšanas pieprasījuma statusi.
 
 Atkarībā no jūsu uzņēmuma iestatījumiem, var izveidot organizācijā izmantoto preču pirkšanas pieprasījumus. Pirkšanas pieprasījums ir iekšējs dokuments, kas pilnvaro iepirkumu departamentu pirkt krājumus vai pakalpojumus.  
 
@@ -70,7 +70,7 @@ Pirkšanas pieprasījuma vispārējo statusu nosaka pirkšanas pieprasījuma rin
 <tr class="odd">
 <td>Melnraksts</td>
 <td>Melnraksts</td>
-<td>Pirkšanas pieprasījums un tā rinda ir izveidota, bet tie nav iesniegti pārskatīšanai. Pirkšanas pieprasījums un tā rindas ar statusu <strong>Uzmetums</strong> var mainīt. Pirkšanas pieprasījuma vai pirkšanas pieprasījuma rindas statuss ir <strong>Uzmetums</strong> arī tad, ja tas ir atsaukts, bet nav vēlreiz iesniegts pārskatīšanai.<strong>Piezīme:</strong> pirkšanas pieprasījumu var iesniegt vai atsaukt dokumentu līmenī. Taču iesniegt vai atsaukt var atsevišķu pirkšanas pieprasījuma rindu.</td>
+<td>Pirkšanas pieprasījums un tā rinda ir izveidota, bet tie nav iesniegti pārskatīšanai. Pirkšanas pieprasījumus un pirkšanas pieprasījuma rindas, kuru statuss ir <strong>Melnraksts</strong>, var modificēt. Pirkšanas pieprasījuma vai pirkšanas pieprasījuma rindas statuss ir <strong>Melnraksts</strong> arī tad, ja pieprasījums vai rinda ir atsaukta, taču nav atkārtoti iesniegta pārskatīšanai. <strong>Piezīme.</strong> Pirkšanas pieprasījumu var iesniegt vai atsaukt dokumenta līmenī. Taču iesniegt vai atsaukt var atsevišķu pirkšanas pieprasījuma rindu.</td>
 </tr>
 <tr class="even">
 <td>Tiek pārskatīts</td>
@@ -111,7 +111,7 @@ Ja noraidīta pirkšanas pieprasījuma rinda tiek iesniegta vēlreiz, pārskatī
 <tr class="odd">
 <td>Atcelts</td>
 <td>Atcelts</td>
-<td>Pirkšanas pieprasījums un visas pirkšanas pieprasījuma rindas ir anulētas.<strong>Piezīme.</strong> Ja pirkšanas pieprasījuma rindā minētā prece vairs nav vajadzīga un pirkšanas pieprasījuma rinda ir apstiprināta, tā ir jāanulē. Anulēt var tikai apstiprinātas pirkšanas pieprasījuma rindas. Ja kāda pirkšanas pieprasījuma rinda vēl tiek pārskatīta, pirkšanas pieprasījuma statuss ir <strong>Notiek pārskatīšana</strong>. Šajā gadījumā pirkšanas pieprasījumu var atsaukt un dzēst attiecīgo pirkšanas pieprasījuma rindu.</td>
+<td>Pirkšanas pieprasījums un visas pirkšanas pieprasījuma rindas ir atcelti. <strong>Piezīme.</strong> Ja pirkšanas pieprasījuma rindā norādītais krājums vairs nav nepieciešams un pirkšanas pieprasījuma rinda jau ir apstiprināta, tā ir jāatceļ. Anulēt var tikai apstiprinātas pirkšanas pieprasījuma rindas. Ja kāda pirkšanas pieprasījuma rinda vēl tiek pārskatīta, pirkšanas pieprasījuma statuss ir <strong>Notiek pārskatīšana</strong>. Šajā gadījumā pirkšanas pieprasījumu var atsaukt un dzēst attiecīgo pirkšanas pieprasījuma rindu.</td>
 </tr>
 <tr class="even">
 <td>Slēgts</td>

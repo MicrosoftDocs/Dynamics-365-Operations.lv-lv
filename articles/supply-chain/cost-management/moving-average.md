@@ -1,9 +1,9 @@
 ---
-title: "Slīdošais vidējais"
-description: 
+title: "Pārvieto vidējo vērtību"
+description: "Slīdošā vidējā metode ir pastāvīgo izmaksu aprēķināšanas metode, kuras pamatā ir vidējā vērtība un kuras ietvaros krājumu izdošanas izmaksas nemainās, kad mainās pirkšanas izmaksas. Starpība tiek kapitalizēta, pamatojoties uz proporcionālu aprēķinu. Atlikusī summa tiek iekļauta izdevumos."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 65531
 ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
 ms.search.region: Global
@@ -20,19 +20,23 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: afc8f4922810983a6582558f0577a05aa21cbdbb
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c1f8a8cf4a58177d423709f245760a5ba9ca7e4e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="moving-average"></a>Slīdošais vidējais
+# <a name="moving-average"></a>Pārvieto vidējo vērtību
 
 [!include[banner](../includes/banner.md)]
 
+Slīdošā vidējā metode ir pastāvīgo izmaksu aprēķināšanas metode, kuras pamatā ir vidējā vērtība un kuras ietvaros krājumu izdošanas izmaksas nemainās, kad mainās pirkšanas izmaksas. Starpība tiek kapitalizēta, pamatojoties uz proporcionālu aprēķinu. Atlikusī summa tiek iekļauta izdevumos. 
+
+Ja lietojat slīdošā vidējā metodi, netiek atbalstīta krājumu nosegšana un krājumu iezīmēšana. Krājumu slēgšana neietekmē preces, kam kā krājumu modeļu grupa ir iestatīta slīdošā vidējā metode, un neizraisa nekādu segšanas darbību ģenerēšanu starp transakcijām.
 
 Tālāk ir norādīti priekšnoteikumi, lai izmantotu slīdošās vidējās izmaksas kā izmaksu aprēķināšanas metodi.
+
 1.  Lapā **Krājumu modeļu grupas** iestatiet krājumu modeļu grupu, kam ir atlasīta lauka **Krājumu modelis** vērtība Slīdošais vidējais. **Piezīme.** Pēc noklusējuma, ja ir atlasīta opcija Slīdošais vidējais, tiek atlasīti arī lauki **Grāmatot fiziskos krājumus** un **Grāmatot finanšu krājumus**. 
 
 2.  Lapā **Grāmatošana** piešķiriet kontus kontiem **Cenas atšķirība slīdošajam vidējam** un **Izmaksu pārvērtēšana slīdošajam vidējam** cilnē **Krājumi**. Konts **Cenas atšķirība slīdošajam vidējam** tiek izmantots, ja izmaksas ir proporcionāli jāiekļauj izdevumos. To izraisa izmaksu atšķirības pirkšanas ieejas plūsmas dokumentā un pirkšanas rēķinā, kā arī atšķirības starp sākotnējo krājumu daudzumu un pašreizējo rīcībā esošo daudzumu. Izmantojiet kontu **Izmaksu pārvērtēšana slīdošajam vidējam**, ja vēlaties koriģēt preces slīdošās vidējās izmaksas, piešķirot jaunu vienības cenu.
@@ -83,7 +87,7 @@ Ja ir nepieciešams koriģēt preces slīdošās vidējās izmaksas, var veikt k
 Lapā **Dokumenta segšanas darbības** varat redzēt, ka kontā Izmaksu pārvērtēšana slīdošajam vidējam ir grāmatota korekcija 4,00.
 
 ## <a name="moving-average-with-production"></a>Slīdošā vidējā izmantošana ražošanā
-Slīdošo vidējo var izmantot saražotajiem krājumiem. Ja plānojat izmantot slīdošo vidējo ražošanas vidē, ir jāatlasa slīdnis **Lietot novērtēto izmaksu cenu** lapā **Ražošanas kontroles parametri**. Tas nozīmē, ka faktiskās MK aprēķina izmaksu cenas vietā tiek izmantota novērtēšanas laikā aprēķinātā izmaksu cena.
+Slīdošo vidējo var izmantot saražotajiem krājumiem. Ja plānojat izmantot slīdošā vidējā metodi ražošanas vidē, ir jāatlasa slīdnis **Lietot novērtēto izmaksu cenu** lapā **Ražošanas kontroles parametri**. Tas nozīmē, ka faktiskās MK aprēķina izmaksu cenas vietā tiek izmantota novērtēšanas laikā aprēķinātā izmaksu cena.
 
 ## <a name="moving-average-with-a-backdated-transaction"></a>Slīdošā vidējā izmantošana transakcijās ar atpakaļejošu datumu
 Transakcijām ar atpakaļejošu datumu tiek piešķirtas pašreizējas slīdošās vidējās izmaksas, un tiek atjaunināti preces fiziskie krājumi, taču netiek ietekmētas preces vidējās slīdošās izmaksas. Šajā slīdošā vidējā izmantošanas piemērā tiek grāmatota vidējās slīdošās vērtības preces transakcija ar atpakaļejošu datumu.

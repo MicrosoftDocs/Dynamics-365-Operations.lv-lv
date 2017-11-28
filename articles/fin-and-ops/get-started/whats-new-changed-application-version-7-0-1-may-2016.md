@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Operations
 ms.custom: 91213
 ms.assetid: f0bbc78f-87fc-40e9-b46a-6655893f69be
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f3853169b7452e307a36579facea0cf0ab83ca47
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: b8e4f306d2ee20323229b478c93c1c7eeaba50be
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -70,7 +70,7 @@ ms.lasthandoff: 09/29/2017
 | Norādiet, ka ražošanas izlaides novietojums nav atkarīgs no numura zīmes.                                                                                                                                                                                                                                                                                                               | Tagad varat norādīt, ka preces izvades novietojums nav atkarīgs no numura zīmes. Piemēram, šis līdzeklis noder, kad augšupstraumes ražošanas pasūtījums par krājumiem kā pabeigtiem ziņo tieši uz novietojumu, kas darbojas kā ražošanas ievades novietojums kādam lejupstraumes ražošanas pasūtījumam.                                                                                                                                                     |
 | Atbalstiet MK, kuros ir ietverti krājumi ar tā paša krājuma atšķirīgām preces dimensijām.                                                                                                                                                                                                                                                                                                     | Ja ražošanā lietojat vienu vai vairākas preces dimensijas, var rasties situācijas, kad vēlaties ražot kādu krājumu, balstoties uz citu tā paša krājuma variantu. Papildinformāciju skatiet [šajā emuārā](https://blogs.msdn.microsoft.com/axmfg/2015/12/22/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item/).                                                                  |
 | Ražošanas pasūtījumi ar cikliskajām struktūrām to MK pirmajā līmenī tiek izslēgtas no MK līmeņa aprēķina materiālo resursu plānošanai.                                                                                                                                                                                                                                     | Nav iespējams piešķirt pareizus MK līmeņus preču variantiem tādos ražošanas pasūtījumos, kas MK hierarhijā izraisa cikliskumu.                                                                                                                                                                                                                                                                                                  |
-| Aprēķināt atsevišķus MK līmeņus materiālu resursu plānošanai un izmaksu aprēķinam. • Materiālu resursu plānošanas MK līmeņi tiek aprēķināti jaunajā tabulā **ReqItemLevel**. Pabeigtie ražošanas pasūtījumi šajā aprēķinā netiek ņemti vērā. • Ražošanas izmaksu aprēķināšanai MK līmeņi tiek aprēķināti tabulā **InventTable**. Pabeigtie ražošanas pasūtījumi tiek iekļauti šajā aprēķinā. | • Izpildot materiālo resursu plānošanu, piemēram, vispārējās plānošanas plāna grafika izveidošanu un izvēršanu, ir nepieciešams pārrēķināt tikai tos MK līmeņus, kas tika izmantoti materiālo resursu plānošanai. Citiem vārdiem sakot, nav nepieciešams aprēķināt ražošanas izmaksu aprēķināšanai izmantotos MK līmeņus. • Izpildot izmaksu aprēķināšanas operācijas, piemēram, krājumu slēgšanu, ir nepieciešams pārrēķināt tikai MK līmeņus, kas tika izmantoti ražošanas izmaksu aprēķinā. |
+| Aprēķināt atsevišķus MK līmeņus materiālu resursu plānošanai un izmaksu aprēķinam. • Materiālu resursu plānošanas MK līmeņi tiek aprēķināti jaunajā tabulā **ReqItemLevel**. Pabeigtie ražošanas pasūtījumi šajā aprēķinā netiek ņemti vērā. • Ražošanas izmaksu aprēķināšanai MK līmeņi tiek aprēķināti tabulā **InventTable**. Pabeigtie ražošanas pasūtījumi tiek iekļauti šajā aprēķinā. | • Izpildot materiālo resursu plānošanu, piemēram, vispārējās plānošanas plāna grafika izveidošanu un izvēršanu, ir nepieciešams pārrēķināt tikai tos MK līmeņus, kas tika izmantoti materiālo resursu plānošanai. Citiem vārdiem sakot, nav nepieciešams aprēķināt ražošanas izmaksu aprēķināšanai izmantotos MK līmeņus. • Izpildot izmaksu aprēķināšanas operācijas, piemēram, krājumu slēgšanu, ir jāpārrēķina tikai tie MK līmeņi, kas ir izmantoti ražošanas izmaksu aprēķinam. |
 
  
 

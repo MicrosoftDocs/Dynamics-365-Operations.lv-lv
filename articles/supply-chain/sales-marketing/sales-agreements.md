@@ -1,9 +1,9 @@
 ---
 title: "Pārdošanas līgumi"
-description: "Šajā rakstā ir sniegta informācija par pārdošanas līgumiem. Pārdošanas līgums ir līgums, ar kuru debitors piekrīt laika gaitā iegādāties noteiktu daudzumu preču vai iegādāties preces par noteiktu summu apmaiņā pret īpašām cenām un atlaidēm."
+description: "Šajā tēmā ir sniegta informācija par pārdošanas līgumiem. Pārdošanas līgums ir līgums, ar kuru debitors piekrīt laika gaitā iegādāties noteiktu daudzumu preču vai iegādāties preces par noteiktu summu apmaiņā pret īpašām cenām un atlaidēm."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesAgreementListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 9554
 ms.assetid: c5d55c8d-99f2-44f9-a897-5b0dee85fc81
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 15e3f872e4ded027734ee73081ba7af68be5107d
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 21e9c53f39b0f4def0052bf7f04c77279bfc610b
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir sniegta informācija par pārdošanas līgumiem. Pārdošanas līgums ir līgums, ar kuru debitors piekrīt laika gaitā iegādāties noteiktu daudzumu preču vai iegādāties preces par noteiktu summu apmaiņā pret īpašām cenām un atlaidēm.
+Šajā tēmā ir sniegta informācija par pārdošanas līgumiem. Pārdošanas līgums ir līgums, ar kuru debitors piekrīt laika gaitā iegādāties noteiktu daudzumu preču vai iegādāties preces par noteiktu summu apmaiņā pret īpašām cenām un atlaidēm.
 
 Pārdošanas līgums ir vienošanās, kas nosaka, ka laika gaitā klientam jāiegādājas preces noteiktā daudzumā vai par konkrētu summu apmaiņā pret īpašām cenām, īpašām atlaidēm un citiem īpašiem nosacījumiem, piemēram, maksājuma un piegādes nosacījumiem. Pārdošanas līguma cenām un atlaidēm ir prioritāte pār jebkādām cenām un atlaidēm, kas ir norādītas jebkuros jau pastāvošajos tirdzniecības līgumos.  
 
@@ -88,7 +88,7 @@ Ja neapstiprināt pārdošanas līgumu, joprojām to varat izmantot, lai izveido
 Varat priekšskatīt vai drukāt visus apstiprinājumu pārskatījumus. Pēc tam pārskatījumus varat koplietot ar debitoru, lai saņemtu apstiprinājumu.
 
 ## <a name="applying-sales-agreements-during-the-ordering-process"></a>Pārdošanas līgumu lietošana pasūtīšanas procesā
-Ja pārdošanas pasūtījumi netiek nodoti izpildei tieši pārdošanas līgumiem, pārdošanas līgumu joprojām var piesaistīt pasūtījumam pasūtījuma izveides procesa laikā. Veidojot jaunu pārdošanas pasūtījumu un atlasot pārdošanas līgumu, pasūtījuma virsrakstā lieto līguma nosacījumus, piemēram, maksājuma nosacījumus, piegādes nosacījumus un piegādes adresi, un tiek izveidota saite starp līgumu un pasūtījumu. Pēc tam, kad ir iespējams atlasīt preces un kategorijas, pasūtījuma rindās, kas norādītas pārdošanas līgumā, tiek iekopētas cenas un atlaides no attiecīgā līguma. Vienā pārdošanas pasūtījumā var iekļaut gan rindas, kas nav saistītas ar pārdošanas līgumu, gan rindas, kas ir saistītas ar pārdošanas līgumu.
+Ja pārdošanas pasūtījumi netiek tieši nodoti izpildei saistībā ar pārdošanas līgumu, pārdošanas līgumu joprojām var piesaistīt pasūtījumam pasūtījuma izveides procesa laikā. Veidojot jaunu pārdošanas pasūtījumu un atlasot pārdošanas līgumu, pasūtījuma virsrakstā lieto līguma nosacījumus, piemēram, maksājuma nosacījumus, piegādes nosacījumus un piegādes adresi, un tiek izveidota saite starp līgumu un pasūtījumu. Pēc tam, kad ir iespējams atlasīt preces un kategorijas, pasūtījuma rindās, kas norādītas pārdošanas līgumā, tiek iekopētas cenas un atlaides no attiecīgā līguma. Vienā pārdošanas pasūtījumā var iekļaut gan rindas, kas nav saistītas ar pārdošanas līgumu, gan rindas, kas ir saistītas ar pārdošanas līgumu.
 
 ## <a name="modifying-sales-orders-that-are-linked-to-sales-agreements"></a>Ar pārdošanas līgumiem saistītu pārdošanas pasūtījumu modificēšana
 Ja esat izveidojis (izsniedzis) pārdošanas pasūtījumu atbilstoši pārdošanas līgumam, dažus laukus šajās pārdošanas pasūtījumu rindās var modificēt tikai tad, ja noņemsit saiti uz saistītajām pārdošanas līguma rindām. Šajā tabulā ir uzskaitīti daži no šiem laukiem.

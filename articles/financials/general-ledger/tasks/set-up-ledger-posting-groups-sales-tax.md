@@ -3,7 +3,7 @@ title: "Virsgrāmatas PVN grāmatošanas grupu iestatīšana"
 description: "PVN tiek aprēķināts un iegrāmatots galvenajos kontos, kas ir norādīti Virsgrāmatas grāmatošanas grupās."
 author: twheeloc
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 10/26/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 10386719e925e53e26c7e547b29a72873a4d000d
+ms.sourcegitcommit: ef3cad6538d9efbd1c1881f4b7d771382d9b1ba8
+ms.openlocfilehash: e50fc2b6b8f4cd91e9a5593297fff2e9a6ef5525
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/26/2017
 
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Virsgrāmatas PVN grāmatošanas grupu iestatīšana
@@ -36,7 +36,7 @@ PVN tiek aprēķināts un iegrāmatots galvenajos kontos, kas ir norādīti Virs
     * PVN tiek iekasēts nodokļu iestādes vietā, ja pārdodat ar nodokli apliekamas preces un pakalpojumus.  
 6. Laukā Saņemtais PVN atlasiet galveno kontu ienākošajiem nodokļiem, kas ir saņemti no nodokļu iestādes.
     * Kreditori iekasē nodokli nodokļu iestādes vārdā, ja pērkat ar nodokli apliekamas preces un pakalpojumus. Šis lauks nav pieejams, ja lapā Virsgrāmatas parametri ir atlasīta opcija Lietot PVN nodokļu nosacījumus. Tā vietā PVN, kas tiek maksāts kreditoriem, tiek debetēts tajā pašā kontā, kurā pirkums.   
-7. Laukā Importa nodokļa izdevumi atlasiet galveno kontu, lai grāmatotu ieturamos importa nodokļus, kurus kreditori nav paziņojuši vai snieguši nodokļu iestādei kā daļu no ES atgriezeniskā GST/HST.
+7. Laukā Importa nodokļa izdevumi atlasiet galveno kontu, lai grāmatotu ieturamos importa nodokļus, kurus kreditori nav pieteikuši vai paziņojuši nodokļu iestādei ES apgrieztā GST/HST programmas ietvaros.
     * Transakcijā izmantotajam PVN grupas PVN kodam jāatlasa opcija Importa nodoklis.  Šis lauks nav pieejams, ja lapā Virsgrāmatas parametri ir atlasīta opcija Lietot PVN nodokļu nosacījumus.   
 8. Laukā Maksājamais importa nodoklis atlasiet galveno kontu, kurā grāmatot ienākošos importa nodokļus, kas ir jāmaksā nodokļu iestādēm.
     * Lai iegrāmatotu importa nodokli, ir jāatlasa opcija Importa nodoklis PVN grupas PVN kodā. Ja opcija Lietot PVN nodokļu kārtulas ir atlasīta Virsgrāmatas parametros, nobīde tiek grāmatota transakcijas izdevumu kontā.   

@@ -3,7 +3,7 @@ title: "Programmas Microsoft Dynamics 365 for Finance and Operations &#8211; War
 description: "Šajā tēmā ir aprakstīts, kā instalēt un konfigurēt programmu Microsoft Dynamics 365 for Finance and Operations – Warehousing"
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
 ms.reviewer: bis
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 267694
 ms.assetid: d95d43b2-13ff-4189-a71a-3a1fb57d55ed
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 31e77b27d4bf95c997817b3a053b33119562adf8
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 4b3d068ddbf6f0b28c97618f5fa10fa486f3af51
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -43,7 +43,7 @@ Programma ir pieejama operētājsistēmās Android un Windows. Lai varētu lieto
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Android                     | 4.4, 5.0, 6.0                                                                                                                                                               |
 | Windows (UWP)               | Windows 10 (visas versijas)                                                                                                                                                   |
-| Finance and Operations | Microsoft Finance and Operations versija 1611 <br>- vai - <br>Microsoft Dynamics Dynamics AX versija 7.0/7.0.1 un Microsoft Dynamics AX platformas atjauninājums 2 ar labojumfailu KB 3210014 |
+| Finance and Operations | Microsoft Finance and Operations versija 1611 <br>- vai - <br>Microsoft Dynamics AX versija 7.0/7.0.1 un Microsoft Dynamics AX 2. platformas atjauninājums ar labojumfailu KB 3210014 |
 
 ## <a name="get-the-app"></a>Iegūt programmu
 -   Windows (UWP): [Finance and Operations - Warehousing Windows veikalā](https://www.microsoft.com/store/apps/9p1bffd5tstm)
@@ -52,7 +52,7 @@ Programma ir pieejama operētājsistēmās Android un Windows. Lai varētu lieto
     - [Finance and Operations - Warehousing veikalā Zebra App Gallery](https://appgallery.zebra.com/showcase/apps/146?type=showcase)
 
 ## <a name="create-a-web-service-application-in-active-directory"></a>Tīmekļa pakalpojuma lietojumprogrammas izveide pakalpojumā Active Directory
-Lai programma varētu mijiedarboties ar noteiktu Finance and Operations serveri, pakalpojumā Azure Active Directory ir jāreģistrē tīmekļa pakalpojuma programma Finance and Operations nomniekam. Drošības apsvērumu dēļ ir ieteicams izveidot tīmekļa pakalpojuma lietojumprogrammu katrai izmantotajai ierīcei. Lai izveidotu tīmekļa pakalpojuma lietojumprogrammu pakalpojumā Azure Active Directory (Azure AD), veiciet tālāk norādītās darbības.
+Lai programma varētu mijiedarboties ar noteiktu Finance and Operations serveri, pakalpojumā Azure Active Directory programmas Finance and Operations nomniekam ir jāreģistrē tīmekļa pakalpojuma programma. Drošības apsvērumu dēļ ir ieteicams izveidot tīmekļa pakalpojuma lietojumprogrammu katrai izmantotajai ierīcei. Lai izveidotu tīmekļa pakalpojuma lietojumprogrammu pakalpojumā Azure Active Directory (Azure AD), veiciet tālāk norādītās darbības.
 
 1.  Tīmekļa pārlūkprogrammā atveriet vietni <https://manage.windowsazure.com>.
 2.  Ievadiet tā lietotāja vārdu un paroli, kurš var piekļūt Azure abonementam.

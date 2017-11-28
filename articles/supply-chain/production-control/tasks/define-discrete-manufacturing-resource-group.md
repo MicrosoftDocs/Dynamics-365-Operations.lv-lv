@@ -3,7 +3,7 @@ title: "Atsevišķu ražošanas resursu grupu definēšana"
 description: "Resursu grupa ir operācijas resursu kopa, kas parasti atbilst darba šūnu fiziskajai organizācijai, kuras ražotnē ir norādītas ar dzeltenām līnijām."
 author: sorenva
 manager: AnnBe
-ms.date: 02/12/2016
+ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,17 +17,17 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c2423fe91d1531a326080e3a584195ea864f2e3e
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: bd9aaf49ab34c21f7c1cb02873d0ad5141b2e5e6
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="define-discrete-manufacturing-resource-group"></a>Atsevišķu ražošanas resursu grupu definēšana
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Resursu grupa ir operācijas resursu kopa, kas parasti atbilst darba šūnu fiziskajai organizācijai, kuras ražotnē ir norādītas ar dzeltenām līnijām. Šajā procedūrā ir parādīts, kā definēt resurss grupu izmantošanai atsevišķā ražošanā. Šo procedūru varat izmēģināt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.
+Resursu grupa ir operācijas resursu kopa, kas parasti atbilst darba šūnu fiziskajai organizācijai, kuras ražotnē ir norādītas ar dzeltenām līnijām. Šajā procedūrā ir parādīts, kā definēt resursu grupu izmantošanai atsevišķā ražošanā. Šo procedūru varat izmēģināt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.
 
 1. Dodieties uz Resursu grupas.
 2. Noklikšķiniet uz Jauns.

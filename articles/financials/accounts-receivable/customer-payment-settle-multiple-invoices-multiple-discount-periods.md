@@ -1,9 +1,9 @@
 ---
-title: "Lietot debitora maksājumu, lai segtu vairākus rēķinus ar vairākiem atlaižu periodiem"
-description: "Šajā rakstā ir izskaidrots, kā vairāki rēķini tiek apmaksāti, ja katram rēķinam var piemērot termiņatlaidi. Šajā rakstā aprakstītajā scenārijā galvenā uzmanība pievērsta termiņatlaidēm, kas tiek piemērotas atkarībā no maksājuma veikšanas laika."
+title: "Lietot viena debitora maksājumu, lai nosegtu vairākus rēķinus ar vairākiem atlaižu periodiem"
+description: "Šajā tēmā ir aprakstīts, kā tiek apmaksāti vairāki rēķini, ja katram rēķinam var lietot termiņatlaidi. Šajā rakstā aprakstītajā scenārijā galvenā uzmanība pievērsta termiņatlaidēm, kas tiek piemērotas atkarībā no maksājuma veikšanas laika."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 14511
 ms.assetid: 3e42ccb5-b9d7-4a70-8db9-4206d10fd433
 ms.search.region: Global
@@ -19,19 +19,19 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5b6f3da6885d5e156ec1fde0609b1b35aa77b6c0
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 92a981cbf9803e8adce1efc26a3fcfcb998540da
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Lietot debitora maksājumu, lai segtu vairākus rēķinus ar vairākiem atlaižu periodiem
+# <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Lietot viena debitora maksājumu, lai nosegtu vairākus rēķinus ar vairākiem atlaižu periodiem
 
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir izskaidrots, kā vairāki rēķini tiek apmaksāti, ja katram rēķinam var piemērot termiņatlaidi. Šajā rakstā aprakstītajā scenārijā galvenā uzmanība pievērsta termiņatlaidēm, kas tiek piemērotas atkarībā no maksājuma veikšanas laika.
+Šajā tēmā ir aprakstīts, kā tiek apmaksāti vairāki rēķini, ja katram rēķinam var lietot termiņatlaidi. Šajā rakstā aprakstītajā scenārijā galvenā uzmanība pievērsta termiņatlaidēm, kas tiek piemērotas atkarībā no maksājuma veikšanas laika.
 
 Fabrikam pārdod preces debitoram 4032. Fabrikam piedāvā termiņatlaidi 1 procenta apmērā, ja rēķins tiek apmaksāts 14 dienu laikā. Fabrikam piedāvā arī termiņatlaides daļējiem maksājumiem. Nosegšanas parametri atrodas lapā **Debitoru moduļa parametri**.
 

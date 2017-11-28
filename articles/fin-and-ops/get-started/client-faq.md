@@ -3,14 +3,14 @@ title: "Bieži uzdodiet jautājumi par Finance and Operations klientu"
 description: "Šajā rakstā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem par Microsoft Dynamics 365 for Finance and Operations klientu."
 author: jasongre
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 12334
 ms.assetid: a9a57f0e-a67c-46b1-83c9-5d6350fb3b86
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 55d4fa4629d203aa888fe6400126a872d2eee000
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 658d5a1a031f2292dbd445fa7fb345be01c61947
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -43,7 +43,7 @@ Jūsu pārlūkprogrammas drošības iestatījumi var liegt simbolu pareizu ielā
 ## <a name="i-miss-the-ribbon-from-dynamics-ax-2012-can-i-keep-action-pane-tabs-open-all-the-time"></a>Es labprāt izmantotu lenti, kāda bija pieejama programmā Dynamics AX 2012. Vai darbību rūšu cilnes ir iespējams turēt atvērtas visu laiku?
 Mēs plānojam drīzumā ieviest šo līdzekli. Tad lietotājiem būs iespēja izvēlēties, ka darbību rūtīs cilnes ir atvērtas visu laiku. Pretējā gadījumā, ja cilnes netiek izmantotas, tās tiek sakļautas, lai iegūtu vairāk ekrāna vietas lapai.
 
-## <a name="why-do-i-sometimes-see-different-shortcut-menus-when-i-rightclick"></a>Kāpēc dažreiz tiek rādītas citādas īsinājumizvēlnes, kad noklikšķinu ar peles labo pogu?
+## <a name="why-do-i-sometimes-see-different-shortcut-menus-when-i-right-click"></a>Kāpēc, kad noklikšķinu ar peles labo pogu, dažreiz tiek parādītas dažādas īsinājumizvēlnes?
 Ja noklikšķināt ar peles labo pogu uz rediģējama lauka (vai ja ir atlasīts teksts), tiek parādīta pārlūkprogrammas īsinājumizvēlne. Šī izvēlne sniedz pieeju komandām **Izgriezt**, **Kopēt** un **Ielīmēt**. Šīs komandas nevar iegult Dynamics 365 for Finance and Operations īsinājumizvēlnēs, jo drošības apsvērumu dēļ pārlūkprogrammas liedz programmisku piekļuvi sistēmas starpliktuvei.
 
 Ja ar peles labo pogu noklikšķināt uz lauka apzīmējuma vai tikai lasāmas vadīklas vērtības, tiek parādīta Dynamics 365 for Finance and Operations īsinājumizvēlne.

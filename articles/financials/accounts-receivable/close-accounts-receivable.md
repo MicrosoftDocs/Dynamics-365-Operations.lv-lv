@@ -1,16 +1,16 @@
 ---
-title: "Debitoru aizvēršana"
-description: 
+title: "Slēgt moduli Debitoru parādi"
+description: "Šajā tēmā ir norādītas lapas, kas atbalsta debitoru parādu slēgšanas biznesa procesu."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 59372
 ms.assetid: c18d83e5-4adb-422a-91be-82a665d8288b
 ms.search.region: Global
@@ -18,14 +18,14 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2b2e827df0c679855af9624f8a2fb36cb23f359a
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 8532b778c89c972a833ac9ffe28243f15f01426c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="close-accounts-receivable"></a>Debitoru aizvēršana
+# <a name="close-accounts-receivable"></a>Slēgt moduli Debitoru parādi
 
 [!include[banner](../includes/banner.md)]
 
@@ -43,7 +43,7 @@ Aizvērt Virsgrāmatas periodus
 
 | Lapas nosaukums                            | Lietojums                                                                                      |
 |--------------------------------------|--------------------------------------------------------------------------------------------|
-|Pakešuzdevums                             | Skatiet vai izveidojiet pakešuzdevumus. Iespējams, pakešuzdevumi nav pabeigti, un jūs vēlaties pārliecinieties, ka visi grāmatojumi ir pabeigti.                                                                                                               |
+|Pakešuzdevums                             | Skatiet vai izveidojiet pakešuzdevumus. Iespējams, ka pakešuzdevumi nav pabeigti, un jūs vēlaties pārliecinieties, ka visi grāmatojumi ir pabeigti.                                                                                                               |
 |Apstiprināt pārdošanas pasūtījumu                   | Labot pārdošanas pasūtījumus.                                                                       |
 |Ārvalstu valūtas pārvērtēšana          | Izveidojiet darbības, kas atjaunina debitoru atvērto darbību vērtību ārvalstu valūtās.                                                                                                                         |
 | Žurnāls                              | Iegrāmatojiet rēķinus, maksājumus un parādzīmes.                                             |

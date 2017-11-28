@@ -3,7 +3,7 @@ title: "Iepakojuma materiāli un papildmaksas"
 description: "Iepakojuma materiālu papildmaksas pārstrādes uzņēmumam tiek maksātas zināmos laika intervālos. Apmaksa tiek veikta par smaguma mērvienību katram iepakojuma vienības sastāvā esošajam materiālam. Iepakojuma materiālu papildmaksas tiek aprēķinātas un iekļautas atskaitēs, bet netiek grāmatotas virsgrāmatas transakcijas, jo papildmaksas netiek uzskatītas par valsts iestādei maksājamiem nodokļiem."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventPackagingGroup, InventPackagingMaterialCode, InventPackagingMaterialFee, InventPackagingMaterialTrans, InventPackagingMaterialTransPurch, InventPackagingUnit
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 2194
 ms.assetid: 040b65dc-43c9-4256-b69f-b2d6e736fbe9
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5d7cd7b3d60e9c265a766695b53d8d27ee2a8d0a
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: b131cdfa2f0e3b6a8f116464323d49eaa4584634
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -56,7 +56,7 @@ Kad veidojat pārdošanas pasūtījuma rindu, sistēma pārbauda, vai šim krāj
 ## <a name="packing-units-on-purchase-order-lines"></a>Iepakojuma vienības pirkšanas pasūtījuma rindās
 Sistēma neveido iepakojuma materiālu transakcijas pirkšanas pasūtījuma rindai. Rēķinā iekļautajām pirkšanas pasūtījuma rindām jūs manuāli izveidojat transakcijas lapā **Iepakojuma materiālu transakcijas**.
 
-## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>Debitora iepakojuma materiālu papildmaksas licenču numuru iestatīšana
+## <a name="set-up-customer-packaging-material-fee-license-numbers"></a>Debitora iepakojuma materiāla maksas licenču numuru iestatīšana
 Ja debitori maksā iepakojuma materiālu maksas, tad lapā **Debitori** norādiet debitora iepakojuma materiālu maksu licenču numurus. Kad licences numurs debitoram piešķirts, iepakojuma materiāla maksas tiek aprēķinātas automātiski, iekļaujot rēķinā pārdošanas pasūtījumus. Pēc rēķina izrakstīšanas lapā **Iepakojuma materiālu transakcijas** tiek notīrīta izvēles rūtiņas **Aprēķināt maksu** atzīme, jo jums nav jāaprēķina un jādrukā atskaite. Iepakojuma materiālu svaru varat drukāt rēķinā un informēt debitorus, ka viņi maksā šīs maksas. 
 
 Ja jūsu uzņēmums maksā iepakojuma materiālu maksas, nenorādiet debitora licenču numurus. Pēc rēķina izrakstīšanas lapā **Iepakojuma materiālu transakcijas** ir atzīmēta izvēles rūtiņa **Aprēķināt maksu**. Tas norāda, ka maksas tiek aprēķinātas, kad tiek veidota atskaite. Šo svaru varat drukāt rēķinā un norādīt, ka jūsu uzņēmums maksā šīs maksas.

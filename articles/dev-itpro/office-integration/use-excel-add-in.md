@@ -3,7 +3,7 @@ title: Lietot Excel pievienojumprogrammu
 description: "Šajā tēmā ir paskaidrots, kā elementa datus atvērt programmā Microsoft Excel un pēc tam šos datus apskatīt, atjaunināt un rediģēt, izmantojot Microsoft Dynamics Office pievienojumprogrammu programmai Excel."
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/06/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 06fc9f8dda83fddea9ae331bb82c8874b15d76b9
+ms.sourcegitcommit: 9b1f25f3630ad5126edd20c5508b83a9811a65f8
+ms.openlocfilehash: dd986d8f82c42c4e229e6e60bdfe8d15a273e149
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/07/2017
 
 ---
 
@@ -29,75 +29,97 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](../includes/banner.md)]
 
-
 Šajā tēmā ir paskaidrots, kā elementa datus atvērt programmā Microsoft Excel un pēc tam šos datus apskatīt, atjaunināt un rediģēt, izmantojot Microsoft Dynamics Office pievienojumprogrammu programmai Excel. Lai atvērtu elementa datus, varat sākt no programmas Excel vai Microsoft Dynamics 365 for Finance and Operations Enterprise izdevuma.
 
-Atverot elementa datus programmā Microsoft Excel, šos datus varat ātri un vienkārši apskatīt un rediģēt, izmantojot Microsoft Dynamics Office pievienojumprogrammu programmai Excel. Šai pievienojumprogrammai ir nepieciešama programma Microsoft Excel 2016. **Piezīme.** Ja jūsu Microsoft Azure Active Directory (Azure AD) nomnieks ir konfigurēts Active Directory federācijas pakalpojumu (AD FS) lietošanai, jums ir jānodrošina, ka ir lietots 2016. gada maija atjauninājums, lai Excel pievienojumprogramma jūs varētu pierakstīt pareizi.
+Atverot elementa datus programmā Excel, varat ātri un vienkārši apskatīt un rediģēt šos datus, izmantojot Excel pievienojumprogrammu. Šai pievienojumprogrammai ir nepieciešama programma Microsoft Excel 2016.
 
-## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-finance-and-operations"></a>Elementa datu atvēršana programmā Excel, sākot no Dynamics 365 for Finance and Operations
-1.  Kādā programmatūras Microsoft Dynamics 365 for Finance and Operations lapā noklikšķiniet uz **Atvērt, izmantojot Microsoft Office**. Ja saknes datu avots (tabula) šai lapai ir tāda pati kā saknes datu avots jebkuriem elementiem, šai lapai tiek ģenerētas noklusējuma opcijas **Atvērt programmā Excel**. Opcijas **Atvērt programmā Excel** ir atrodamas bieži izmantotajās lapās, piemēram, **Visi kreditori** un **Visi debitori**.
-2.  Noklikšķiniet uz kādas opcijas **Atvērt programmā Excel**, un atveriet ģenerēto darbgrāmatu. Šajā darbgrāmatā ir saistību informācija par attiecīgo elementu, rādītājs uz jūsu vidi un rādītājs uz Excel pievienojumprogrammu.
-3.  Programmā Excel noklikšķiniet uz **Iespējot rediģēšanu**, lai iespējotu Excel pievienojumprogrammas palaišanu. Excel pievienojumprogramma darbojas rūtī, kas atrodas Excel loga labajā pusē.
-4.  Ja Excel pievienojumprogrammu palaižat pirmo reizi, noklikšķiniet uz **Uzticēties šai pievienojumprogrammai**.
-5.  Ja tiek prasīts pierakstīties, noklikšķiniet uz **Pierakstīties** un pēc tam pierakstieties, izmantojot tos pašus akreditācijas datus, ko izmantojāt, lai pierakstītos programmatūrā Dynamics 365 for Finance and Operations. Excel pievienojumprogramma lieto iepriekšējās pierakstīšanās kontekstu no Internet Explorer un jūs pieraksta automātiski, ja iespējams. Tādēļ pārbaudiet lietotājvārdu Excel pievienojumprogrammas labajā augšējā stūrī.
+> [!NOTE]
+> Ja jūsu Microsoft Azure Active Directory (Azure AD) nomnieks ir konfigurēts Active Directory federācijas pakalpojumu (AD FS) lietošanai, pārliecinieties, ka ir instalēts 2016. gada maija Office atjauninājums, lai Excel pievienojumprogramma varētu nodrošināt pareizu jūsu pierakstīšanu.
+
+## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Elementa datu atvēršana programmā Excel, sākot darbu programmā Finance and Operations
+1. Kādā programmas Finance and Operations lapā atlasiet **Atvērt, izmantojot Microsoft Office**.
+
+    Ja saknes datu avots (tabula) šai lapai ir tāda pati kā saknes datu avots jebkuriem elementiem, šai lapai tiek ģenerētas noklusējuma opcijas **Atvērt programmā Excel**. Opcijas **Atvērt programmā Excel** ir atrodamas bieži izmantotajās lapās, piemēram, **Visi kreditori** un **Visi debitori**.
+ 
+2. Atlasiet opciju **Atvērt programmā Excel** un atveriet ģenerēto darbgrāmatu. Šajā darbgrāmatā ir saistību informācija par attiecīgo elementu, rādītājs uz jūsu vidi un rādītājs uz Excel pievienojumprogrammu.
+3. Programmā Excel atlasiet **Iespējot rediģēšanu**, lai iespējotu Excel pievienojumprogrammas palaišanu. Excel pievienojumprogramma darbojas rūtī, kas atrodas Excel loga labajā pusē.
+4. Ja pirmo reizi palaižat Excel pievienojumprogrammu, atlasiet **Uzticēties šai pievienojumprogrammai**.
+5. Ja tiek prasīts pierakstīties, atlasiet **Pierakstīties** un pēc tam pierakstieties, izmantojot tos pašus akreditācijas datus, ko izmantojāt, lai pierakstītos programmā Finance and Operations. Excel pievienojumprogramma lieto iepriekšējās pierakstīšanās kontekstu no Internet Explorer un jūs pieraksta automātiski, ja iespējams. Tādēļ pārbaudiet lietotājvārdu Excel pievienojumprogrammas labajā augšējā stūrī.
 
 Excel pievienojumprogramma automātiski nolasa datus par jūsu atlasīto elementu. Ņemiet vērā, ka darbgrāmatā nav nekādu datu, līdz Excel pievienojums tos ielasa.
 
 ## <a name="open-entity-data-in-excel-when-you-start-from-excel"></a>Atvērt elementa datus programmā Excel, kas sākat no Excel
-1.  Programmā Excel, cilnē **Iespraust**, grupā **Pievienojumprogrammas** noklikšķiniet uz **Veikals**, lai atvērtu Office veikalu.
-2.  Office veikalā meklējiet pēc atslēgvārda “Dynamics” un noklikšķiniet uz **Pievienot** blakus vienumam **Microsoft Dynamics Office pievienojumprogramma** (Excel pievienojumprogramma).
-3.  Ja Excel pievienojumprogrammu palaižat pirmo reizi, noklikšķiniet uz **Uzticēties šai pievienojumprogrammai**, lai šai Excel pievienojumprogrammai ļautu darboties. Excel pievienojumprogramma darbojas rūtī, kas atrodas Excel loga labajā pusē.
-4.  Noklikšķiniet uz **Pievienot servera informāciju**, lai atvērtu rūti **Opcijas**.
-5.  Nokopējiet pārlūkprogrammas vietrādi URL no savas mērķa Dynamics 365 for Finance and Operations instances, ielīmējiet to laukā **Servera URL** un pēc tam izdzēsiet visu aiz resursdatora nosaukuma. Rezultātā iegūtajam vietrādim URL vajadzētu būt tikai resursdatora nosaukumam.
-Piemēram, ja vietrādis URL ir https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage, tad izdzēsiet visu, izņemot **https://xxx.dynamics.com**.
-6.  Noklikšķiniet uz **Labi** un pēc tam noklikšķiniet uz **Jā**, lai apstiprinātu veiktās izmaiņas. Excel pievienojumprogramma restartējas un ielādē metadatus. Tagad ir pieejama poga **Dizains**. Ja Excel pievienojumprogrammai ir poga **Ielādēt sīkprogrammas**, visticamāk, jūs neesat pierakstījies kā pareizais lietotājs. Papildinformāciju skatiet šīs tēmas sadaļas “Problēmu novēršana” punktā “Tiek rādīta poga Ielādēt sīkprogrammas”.
-7.  Noklikšķiniet uz **Dizains**. Excel pievienojumprogramma izgūst elementa metadatus.
-8.  Noklikšķiniet uz **Pievienot tabulu**. Tiek parādīts elementu saraksts. Elementi ir uzskaitīti formātā “Nosaukums - Etiķete”.
-9.  Sarakstā atlasiet kādu elementu, piemēram, **Debitors - Debitori**, un pēc tam noklikšķiniet uz **Tālāk**.
-10. Lai kādu lauku no saraksta **Pieejamie lauki** pievienotu sarakstam **Atlasītie lauki**, noklikšķiniet uz attiecīgā lauka un pēc tam noklikšķiniet uz **Pievienot**. Vai arī veiciet dubultklikšķi uz attiecīgā lauka.
-11. Kad esat beidzis pievienot laukus sarakstam **Atlasītie lauki**, pārliecinieties, ka kursors atrodas pareizajā darblapas vietā (piemēram, šūnā A1), un pēc tam noklikšķiniet uz **Gatavs**. Pēc tam noklikšķiniet uz **Gatavs**, lai aizvērtu veidotāju.
-12. Noklikšķiniet uz **Atsvaidzināt**, lai ievilktu kādu datu kopu.
+1. Programmas Excel cilnes **Ievietošana** grupā **Pievienojumprogrammas** atlasiet **Veikals**, lai atvērtu pakalpojumu Office veikals.
+2. Pakalpojumā Office veikals meklējiet pēc atslēgvārda **Dynamics** un pēc tam atlasiet vienumu **Pievienot**, kas atrodas blakus vienumam **Microsoft Dynamics Office pievienojumprogramma** (Excel pievienojumprogramma).
+3. Ja pirmo reizi palaižat Excel pievienojumprogrammu, atlasiet **Uzticēties šai pievienojumprogrammai**, lai iespējotu Excel pievienojumprogrammas palaišanu. Excel pievienojumprogramma darbojas rūtī, kas atrodas Excel loga labajā pusē.
+4. Atlasiet **Pievienot servera informāciju**, lai atvērtu rūti **Opcijas**.
+5. Pārlūkprogrammā nokopējiet mērķa Finance and Operations instances URL, ielīmējiet to laukā **Servera URL** un pēc tam izdzēsiet visus simbolus, kas seko resursdatora nosaukumam. Iegūtajam URL ir jāsatur tikai resursdatora nosaukums.
+
+    Piemēram, ja URL ir `https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage`, dzēsiet visu, izņemot `https://xxx.dynamics.com`.
+
+6. Atlasiet **Labi** un pēc tam atlasiet **Jā**, lai apstiprinātu izmaiņas. Excel pievienojumprogramma tiek restartēta, un tajā tiek ielādēti metadati.
+
+    Tagad ir pieejama poga **Dizains**. Ja Excel pievienojumprogrammai ir poga **Ielādēt sīkprogrammas**, visticamāk, jūs neesat pierakstījies kā pareizais lietotājs. Papildinformāciju skatiet šīs tēmas sadaļas [Problēmu novēršana](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in#troubleshooting) apakšsadaļā “Tiek rādīta poga Ielādēt sīkprogrammas”.
+
+7. Atlasiet **Noformējums**. Excel pievienojumprogramma izgūst elementa metadatus.
+8. Atlasiet **Pievienot tabulu**. Tiek parādīts elementu saraksts. Elementi ir uzskaitīti formātā “Nosaukums - Etiķete”.
+9. Sarakstā atlasiet kādu elementu, piemēram, **Debitors — debitori**, un pēc tam atlasiet **Tālāk**.
+10. Lai kādu lauku no saraksta **Pieejamie lauki** pievienotu sarakstam **Atlasītie lauki**, atlasiet attiecīgo lauku un pēc tam atlasiet **Pievienot**. Vai arī veiciet dubultklikšķi uz lauka sarakstā **Pieejamie lauki**.
+11. Kad esat pabeidzis pievienot laukus sarakstam **Atlasītie lauki**, pārliecinieties, ka kursors atrodas pareizajā darblapas vietā (piemēram, A1 šūnā), un pēc tam atlasiet **Gatavs**. Pēc tam atlasiet **Gatavs**, lai aizvērtu noformētāju.
+12. Atlasiet **Atsvaidzināt**, lai ievilktu datu kopu.
 
 ## <a name="view-and-update-entity-data-in-excel"></a>Skatīt un atjaunināt elementa datus programmā Excel
-Kad Excel pievienojumprogramma elementa datus ielasa darbgrāmatā, šos datus jebkurā laikā varat atjaunināt, Excel pievienojumprogrammā noklikšķinot uz **Atsvaidzināt**.
+Kad Excel pievienojumprogramma ir ielasījusi elementa datus darbgrāmatā, varat jebkurā brīdī atjaunināt šos datus, Excel pievienojumprogrammā atlasot **Atsvaidzināt**.
 
 ## <a name="edit-entity-data-in-excel"></a>Rediģēt elementa datus programmā Excel
-Elementa datus pēc nepieciešamības varat mainīt un pēc tam tos publicēt atpakaļ, Excel pievienojumprogrammā noklikšķinot uz **Publicēt**. Lai rediģētu kādu ierakstu, darblapā atlasiet kādu šūnu un pēc tam mainiet šīs šūnas vērtību. Lai pievienotu jaunu ierakstu, izpildiet tālāk aprakstītās darbības.
+Varat pēc nepieciešamības mainīt elementa datus un pēc tam tos publicēt atpakaļ, Excel pievienojumprogrammā atlasot **Publicēt**. Lai rediģētu kādu ierakstu, darblapā atlasiet kādu šūnu un pēc tam mainiet šīs šūnas vērtību. Lai pievienotu jaunu ierakstu, izpildiet tālāk aprakstītās darbības.
 
--   Noklikšķiniet jebkurā datu avotu tabulas vietā un pēc tam Excel pievienojumprogrammā noklikšķiniet uz **Jauns**.
--   Noklikšķiniet uz pēdējās rindas datu avotu tabulā un pēc tam spiediet tabulēšanas taustiņu, līdz kursors izkļūst no pēdējas kolonnas šajā rindā un tiek izveidota jauna rinda.
--   Noklikšķiniet uz rindas, kas atrodas tieši zem datu avotu tabulas, un sāciet šūnā ievadīt datus. Kad fokusu pārslēdzat ārpus šīs šūnas, tabula izplešas, lai iekļautu jauno rindu.
--   Lai iegūtu virsraksta ierakstu lauku saistības, noklikšķiniet uz kāda no laukiem un pēc tam Excel pievienojumprogrammā noklikšķiniet uz **Jauns**.
+- Noklikšķiniet jebkurā datu avotu tabulas vietā un pēc tam Excel pievienojumprogrammā atlasiet **Jauns**.
+- Noklikšķiniet jebkurā vietā pēdējā datu avotu tabulas rindā un pēc tam nospiediet tabulēšanas taustiņu, līdz kursors tiek pārvietots ārā no pēdējās kolonnas šajā rindā un tiek izveidota jauna rinda.
+- Noklikšķiniet jebkurā vietā rindā, kas atrodas tieši zem datu avotu tabulas, un sāciet datu ievadi šūnā. Kad fokusu pārslēdzat ārpus šīs šūnas, tabula izplešas, lai iekļautu jauno rindu.
+- Lai izveidotu galvenes ierakstu lauku saistības, atlasiet kādu no laukiem un pēc tam Excel pievienojumprogrammā atlasiet **Jauns**.
 
 Ņemiet vērā, ka jaunu ierakstu var izveidot tikai tad, ja visi galvenie un obligātie lauki darblapā ir saistīti vai ja noklusējuma vērtības tika aizpildītas, izmantojot filtra nosacījumu.
+
 Lai dzēstu kādu ierakstu, izpildiet tālāk aprakstītās darbības.
 
--   Ar peles labo pogu noklikšķiniet uz rindas numura blakus darblapas rindai, kuru vēlaties dzēst, un pēc tam noklikšķiniet uz **Dzēst**.
--   Ar peles labo pogu noklikšķiniet darblapas rindā, kuru vēlaties dzēst, un pēc tam noklikšķiniet uz **Dzēst** &gt; **Tabulas rindas**.
-Ja datu avoti ir pievienoti kā saistīti, tad virsraksts tiek publicēts pirms rindām. Ja pastāv atkarības starp citiem datu avotiem, iespējams, ir jāmaina noklusējuma publicēšanas secība. Lai mainītu publicēšanas secību, Excel pievienojumprogrammā noklikšķiniet uz pogas **Opcijas** (zobrata simbols). Pēc tam kopsavilkuma cilnē **Datu savienotājs** noklikšķiniet uz **Konfigurēt publicēšanas secību**.
+- Ar peles labo pogu noklikšķiniet uz rindas numura blakus dzēšamajai darblapas rindai un pēc tam atlasiet **Dzēst**.
+- Ar peles labo pogu noklikšķiniet jebkurā vietā dzēšamajā darbplūsmas rindā un pēc tam atlasiet **Dzēst** &gt; **Tabulas rindas**.
+
+Ja datu avoti ir pievienoti kā saistīti datu avoti, galvene tiek publicēta pirms rindām. Ja pastāv atkarības starp citiem datu avotiem, iespējams, ir jāmaina noklusējuma publicēšanas secība. Lai mainītu publicēšanas secību, Excel pievienojumprogrammā atlasiet pogu **Opcijas** (zobrata simbolu) un pēc tam kopsavilkuma cilnē **Datu savienotājs** atlasiet **Konfigurēt publicēšanas secību**.
 
 ## <a name="add-or-remove-columns"></a>Pievienot vai noņemt kolonnas
 Varat izmantot veidotāju, lai regulētu kolonnas, kuras darblapai ir pievienotas automātiski.
 
-1.  Palaidiet Excel pievienojumprogrammas datu avota veidotāju, noklikšķinot uz pogas **Opcijas** (zobrata simbols) un pēc tam atzīmējot izvēles rūtiņu **Iespējot dizainu**.
-2.  Excel pievienojumprogrammā noklikšķiniet uz **Dizains**. Ir uzskaitīti visi datu avoti.
-3.  Blakus datu avotam noklikšķiniet uz pogas **Rediģēt** (zīmuļa simbols).
-4.  Pēc nepieciešamības pielāgojiet sarakstu **Atlasītie lauki** tālāk aprakstītajā veidā.
-    -   Lai kādu lauku no saraksta **Pieejamie lauki** pievienotu sarakstam **Atlasītie lauki**, noklikšķiniet uz attiecīgā lauka un pēc tam noklikšķiniet uz **Pievienot**. Vai arī veiciet dubultklikšķi uz attiecīgā lauka.
-    -   Lai no saraksta **Atlasītie lauki** noņemtu kādu lauku, noklikšķiniet uz šī lauka un pēc tam noklikšķiniet uz **Noņemt**. Vai arī veiciet dubultklikšķi uz attiecīgā lauka.
-    -   Lai mainītu lauku secību, noklikšķiniet uz lauka sarakstā **Atlasītie lauki**, noklikšķiniet uz kāda lauka un pēc tam klikšķiniet uz **Uz augšu** vai **Uz leju**.
+> [!NOTE]
+> Ja Excel pievienojumprogrammā zem pogas **Filtrs** netiek parādīta poga **Noformējums**, ir jāiespējo datu avota noformētājs. Atlasiet pogu **Opcijas** (zobrata ikonu) un pēc tam atzīmējiet izvēles rūtiņu **Iespējot noformējumu**.
 
-5. Lai datu avotam stātos spēkā veiktās izmaiņas, noklikšķiniet uz **Atjaunināt**. Pēc tam noklikšķiniet uz **Gatavs**, lai aizvērtu veidotāju. 
-6. Ja pievienojāt kādu lauku (kolonnu), noklikšķiniet uz **Atsvaidzināt**, lai ievilktu atjauninātu datu pogu.
+1. Excel pievienojumprogrammā atlasiet **Noformējums**. Ir uzskaitīti visi datu avoti.
+2. Atlasiet pogu **Rediģēt** (zīmuļa simbolu) blakus datu avotam.
+3. Sarakstā **Atlasītie lauki** pēc nepieciešamības pielāgojiet lauku sarakstu.
+
+    - Lai kādu lauku no saraksta **Pieejamie lauki** pievienotu sarakstam **Atlasītie lauki**, atlasiet attiecīgo lauku un pēc tam atlasiet **Pievienot**. Vai arī veiciet dubultklikšķi uz lauka sarakstā **Pieejamie lauki**.
+    - Lai noņemtu lauku no saraksta **Atlasītie lauki**, atlasiet lauku un pēc tam atlasiet **Noņemt**. Vai arī veiciet dubultklikšķi uz attiecīgā lauka.
+    - Lai mainītu laiku secību sarakstā **Atlasītie lauki**, atlasiet lauku un pēc tam atlasiet **Uz augšu** vai **Uz leju**.
+
+4. Lai lietotu veiktās izmaiņas datu avotam, atlasiet **Atjaunināt**. Pēc tam atlasiet **Gatavs**, lai aizvērtu noformētāju.
+5. Ja pievienojāt lauku (kolonnu), atlasiet **Atsvaidzināt**, lai ievilktu atjauninātu datu kopu.
+
+## <a name="copy-environment-data"></a>Kopēt vides datus
+No vienas vides darblapā ielasītos datus var kopēt uz citu vidi. Taču jūs nevarat vienkārši mainīt savienojuma URL, jo darblapas datu kešatmiņā dati joprojām tiks apstrādāti kā esoši dati. Tā vietā ir jāizmanto funkcionalitāte Kopēt vides datus, lai publicētu datus jaunā vidē kā jaunus datus.
+
+1. Atlasiet pogu **Opcijas** (zobrata simbolu) un pēc tam kopsavilkuma cilnē **Datu savienotājs** atlasiet **Kopēt vides datus**.
+2. Ievadiet jaunās vides servera URL.
+3. Atlasiet **Labi** un pēc tam atlasiet **Jā**, lai apstiprinātu darbību. Excel pievienojumprogramma tiek restartēta, un tajā tiek izveidots savienojums ar jauno vidi. Visi darbgrāmatā esošie dati tiek apstrādāti kā jauni dati.
+
+    Pēc Excel pievienojumprogrammas restartēšanas tiek parādīts ziņojuma lodziņš ar informāciju, ka darbgrāmata ir pārslēgta vides kopēšanas režīmā.
+
+4. Lai kopētu datus uz jauno vidi kā jaunus datus, atlasiet **Publicēt**. Lai atceltu vides kopēšanas operāciju un pārskatītu jaunajā vidē esošos datus, atlasiet **Atsvaidzināt**.
 
 ## <a name="troubleshooting"></a>Problēmu novēršana
 Noteiktas problēmas var atrisināt ar dažām vienkāršām darbībām.
 
--   **Tiek rādīta poga Ielādēt sīkprogrammas.** Ja pēc pierakstīšanās Excel pievienojumprogrammai ir poga **Ielādēt sīkprogrammas**, visticamāk, jūs neesat pierakstījies kā pareizais lietotājs. Lai atrisinātu šo problēmu, pārbaudiet, vai Excel pievienojumprogrammas labajā augšējā stūrī tiek rādīts pareizais lietotājvārds. Ja tiek rādīts nepareizs lietotājvārds, noklikšķiniet uz tā, izrakstieties un pēc tam pierakstieties atpakaļ.
--   **Jūs saņemat ziņojumu “Aizliegts”.** Ja saņemat ziņojumu “Aizliegts”, kamēr Excel pievienojumprogramma ielādē metadatus, tad kontam, kurš ir pierakstījies Excel pievienojumprogrammā, nav atļauju lietot attiecīgo pakalpojumu, instanci vai datu bāzi. Lai atrisinātu šo problēmu, pārbaudiet, vai Excel pievienojumprogrammas labajā augšējā stūrī tiek rādīts pareizais lietotājvārds. Ja tiek rādīts nepareizs lietotājvārds, noklikšķiniet uz tā, izrakstieties un pēc tam pierakstieties atpakaļ.
--   **Pār programmu Excel tiek rādīta tukša tīmekļa lapa.** Ja pierakstīšanās procesa laikā tiek atvērta tukša tīmekļa lapa, tad kontam ir nepieciešams AD FS, bet Excel versija, kurā darbojas pievienojumprogramma, nav pietiekami jauna, lai ielādētu pierakstīšanās dialoglodziņu. Lai atrisinātu šo problēmu, atjauniniet izmantoto Excel versiju. Lai atjauninātu Excel versiju, kad esat uzņēmumā, kurš atrodas atliktajā kanālā, izmantojiet [Office izvietošanas rīku](https://technet.microsoft.com/library/jj219422.aspx), lai [no atliktā kanāla pārietu uz pašreizējo kanālu](https://technet.microsoft.com/library/mt455210.aspx).
-
-
-
-
+- **Tiek rādīta poga Ielādēt sīkprogrammas** — ja pēc pierakstīšanās Excel pievienojumprogrammai tiek rādīta poga **Ielādēt sīkprogrammas**, visticamāk, esat pierakstījies, izmantojot nepareizu lietotāja kontu. Lai atrisinātu šo problēmu, pārbaudiet, vai Excel pievienojumprogrammas labajā augšējā stūrī tiek rādīts pareizais lietotājvārds. Ja tiek rādīts nepareizs lietotājvārds, atlasiet to, izrakstieties un pēc tam atkal pierakstieties.
+- **Saņemat ziņojumu “Aizliegts”** — ja laikā, kad Excel pievienojumprogrammā notiek metadatu ielāde, saņemat ziņojumu “Aizliegts”, tad kontam, kas ir izmantots, lai pierakstītos Excel pievienojumprogrammā, nav atļaujas lietot attiecīgo pakalpojumu, instanci vai datu bāzi. Lai atrisinātu šo problēmu, pārbaudiet, vai Excel pievienojumprogrammas labajā augšējā stūrī tiek rādīts pareizais lietotājvārds. Ja tiek rādīts nepareizs lietotājvārds, atlasiet to, izrakstieties un pēc tam atkal pierakstieties.
+- **Virs programmas Excel tiek rādīta tukša tīmekļa lapa** — ja pierakstīšanās procesa laikā tiek atvērta tukša tīmekļa lapa, tad kontam ir nepieciešams AD FS, bet Excel versija, kurā darbojas Excel pievienojumprogramma, ir pārāk veca, lai ielādētu pierakstīšanās dialoglodziņu. Lai atrisinātu šo problēmu, atjauniniet izmantoto Excel versiju. Lai atjauninātu Excel versiju, kad esat uzņēmumā, kurš atrodas atliktajā kanālā, izmantojiet [Office izvietošanas rīku](https://technet.microsoft.com/library/jj219422.aspx), lai [no atliktā kanāla pārietu uz pašreizējo kanālu](https://technet.microsoft.com/library/mt455210.aspx).
 

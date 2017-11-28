@@ -1,16 +1,16 @@
 ---
-title: "Pārskats par palīdzības sistēmu"
-description: "Šajā rakstā ir sniegts apskats par Microsoft Dynamics 365 for Finance and Operations palīdzības sistēmas komponentiem. Tajā ir arī paskaidrots, kā savai organizācijai varat sniegt pielāgotu dokumentāciju un apmācību."
+title: "Palīdzības apskats"
+description: "Šajā tēmā ir sniegts pārskats par programmas Microsoft Dynamics 365 for Finance and Operations palīdzības sistēmas komponentiem. Tajā ir arī paskaidrots, kā savai organizācijai varat sniegt pielāgotu dokumentāciju un apmācību."
 author: margoc
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 10/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
@@ -18,18 +18,18 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
-ms.openlocfilehash: 2df27a23d31ecde99bb31b4f8a19295c331cae09
+ms.sourcegitcommit: d2063cd0ae592357d57fb3c787450c604fb9be58
+ms.openlocfilehash: 549d059e549ba470eb299753fd7b87920e6dd43d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/11/2017
 
 ---
 
-# <a name="help-overview"></a>Pārskats par palīdzības sistēmu
+# <a name="help-system-overview"></a>Palīdzības sistēmas apskats
 
 [!include[banner](../includes/banner.md)]
 
-Šajā rakstā ir sniegts apskats par Microsoft Dynamics 365 for Finance and Operations palīdzības sistēmas komponentiem. Tajā ir arī paskaidrots, kā savai organizācijai varat sniegt pielāgotu dokumentāciju un apmācību. 
+Šajā tēmā ir sniegts pārskats par programmas Microsoft Dynamics 365 for Finance and Operations palīdzības sistēmas komponentiem. Tajā ir arī paskaidrots, kā savai organizācijai varat sniegt pielāgotu dokumentāciju un apmācību. 
 
 > [!NOTE] 
 > Šie produkti ir cieši saistīti: Dynamics 365 for Finance and Operations, izdevums Enterprise; Dynamics 365 for Retail; un Dynamics 365 for Talent. Visos 3 produktos var būt pieejama tā pati funkcionalitāte. Tādēļ tēmās, kas galvenokārt ir saistītas ar programmatūru Retail, produkta nosaukums ir Dynamics 365 for Retail; tēmās, kas galvenokārt ir saistītas ar programmatūru Talent, produkta nosaukums ir Dynamics 365 for Talent; un tēmās, kas ir saistītas ar galveno produktu, produkta nosaukums ir Dynamics 365 for Finance and Operations. Tēmas, kas sarakstītas vienam produktam, var attiekties uz to pašu funkcionalitāti saistītā produktā.
@@ -69,16 +69,17 @@ Mēs saņemam daudz jautājumu par to, kā meklēt mūsu saturu. Ja sākat mekl�
 
 Varat arī atrast mūsu saturu, izmantojot jebkuru meklēšanas programmu. Lai iegūtu vislabākos rezultātus, ieteicams izmantoto meklēšanu vietnē, piemēram, site:docs.microsoft.com dynamics 365 “meklējamais vārds vai frāze”.  
 
-![Meklēšana vietnē](./media/site-search-1.png)
-
-![Meklēšanas vietnē rezultāti](./media/site-search-results-2.png)
-
 ### <a name="the-docsmicrosoftcom-table-of-contents"></a>Vietnes docs.microsoft.com satura rādītājs
-Visiem produktiem dokumentācijas vietnē ir kopīgs satura rādītājs, tādēļ klienti var redzēt viņu atvērtās lapas saturu. Tas jums arī ļauj izmantot vadīklu Filtrs, lai atrastu meklētās tēmas.
+Programmām Finance and Operations, Retail un Talent dokumentācijas vietnē ir kopīgs satura rādītājs, kas sniedz klientiem iespēju skatīt attiecīgās tēmas kontekstu. Tas arī sniedz iespēju izmantot virs satura rādītāja esošo vadīklu Filtrs, lai atrastu jums vajadzīgā tēmu.
 
-### <a name="how-can-i-contribute"></a>Kā es varu palīdzēt? 
+### <a name="follow-a-topic"></a>Sekošana tēmai
+Lai sekotu tēmai, noklikšķiniet uz pogas +Sekot, kas atrodas zem komentāru lodziņa. Lai varētu sekot tēmai, ir jāpiesakās. Papildinformāciju skatiet sadaļā [Komentāra pievienošana](#leave-us-a-comment).  
 
-Pievienojiet komentāru. 
+### <a name="give-feedback"></a>Atsauksmju sniegšana 
+Mēs labprāt saņemam klientu atsauksmes. Varat pievieno komentāru vai ieteikt mūsu sniegtā satura izmaiņas, izmantojot pakalpojumu GitHub.
+
+##### <a name="leave-us-a-comment"></a>Komentāra pievienošana 
+Ja vēlaties sniegt atsauksmes vai uzdot jautājumu par tēmu, pievienojiet komentāru lapas apakšdaļā.  
 
 1. Noklikšķiniet uz **Komentāri**, lai pārietu uz komentāru sadaļu lapas apakšdaļā.
 
@@ -96,6 +97,19 @@ Vai
 Labajā pusē ievadiet e-pasta adresi un jaunu paroli, lai izveidotu jaunu kontu izmantošanai šajā vietnē. 
 
 ![Pierakstīšanās opcijas](./media/signin-options.png)
+
+
+##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Izmaiņu ieteikšana vai satura iesniegšana, izmantojot pakalpojumu GitHub
+Lai varētu ieteikt izmaiņas, ir vajadzīgs GitHub konts un ir jāparaksta līdzstrādnieka licences līgums.  Kad iesniegsiet atgādāšanas pieprasījumu, mēs izskatīsim jūsu ieteiktās izmaiņas. Mēs tās iekšēji pārrunāsim, ja tas būs nepieciešams, un pēc tam jums atbildēsim.  
+
+Lai sāktu, noklikšķiniet uz pogas **Rediģēt** (zīmuļa ikonas) attiecīgajā tēmā vai apmeklējiet mūsu repozitoriju vietnē https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public. 
+
+Papildinformāciju skatiet mūsu līdzstrādnieku rokasgrāmatā: https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md. 
+
+
+> [!NOTE]
+> Pašlaik varat līdzdarboties tikai mūsu angļu valodas repozitoriju satura veidošanā.  
+> Mēs nepieņemam pakalpojumā GitHub iesniegtus paziņojumus par problēmām — satura ieteikumu iesniegšanai noteikti izmantojiet atgādāšanas pieprasījumu. Atsauksmes par produktiem un līdzekļiem ir ieteicams iesniegt, izmantojot portālu Dynamics 365 Ideas: https://ideas.dynamics.com/ideas/. 
 
 
 ## <a name="task-guides"></a>Uzdevumu ceļveži
@@ -164,7 +178,7 @@ Kad sistēmas administrators ir izpildījis šīs darbības, varat atvērt rūti
 
 ### <a name="where-are-the-translated-task-guides"></a>Kur ir pieejami tulkotie uzdevumu ceļveži?
 
-Tulkotie uzdevumu ceļveži tiek izlaisti bibliotēkās, kuru nosaukumā ir vārdi “visas valodas”. Lai programmatūrā Finance and Operations redzētu lokalizēto uzdevumu ceļvežu palīdzību, pārliecinieties, ka ir izveidots savienojums ar atbilstošo bibliotēku. Uzdevuma ceļveža rādīšanas valodu katram lietotājam var norādīt, izmantojot valodas iestatījumus sadaļā **Opcijas** &gt; **Preferences**. 
+Tulkotie uzdevumu ceļveži tiek izlaisti bibliotēkās, kuru nosaukumā ir vārdi “visas valodas”. Lai programmā Finance and Operations skatītu lokalizēto uzdevumu ceļvežu palīdzību, pārliecinieties, ka ir izveidots savienojums ar atbilstošo bibliotēku. Uzdevuma ceļveža rādīšanas valodu katram lietotājam var norādīt, izmantojot valodas iestatījumus sadaļā **Opcijas** &gt; **Preferences**. 
 -   Ja kāds uzdevumu ceļvedis ir iztulkots, kad atverat šo uzdevumu ceļvedi, viss šī uzdevuma ceļveža teksts tiek rādīts jūsu izvēlētajā valodā.
 -   Ja kāds uzdevumu ceļvedis vēl nav iztulkots, kad to atverat, jūsu izvēlētajā valodā tiek rādīta tikai daļa teksta (vadīklu teksts).
 
@@ -196,9 +210,4 @@ Tulkotie uzdevumu ceļveži tiek izlaisti bibliotēkās, kuru nosaukumā ir vār
 [Jauni vai atjaunināti uzdevumu ceļveži (2016. gada augusts)](new-updated-task-guides-available-august-2016.md)
 [Jauni vai atjaunināti uzdevumu ceļveži (2016. gada maijs)](new-updated-task-guides-available-may-2016.md)
 [Jauni uzdevumu ceļveži (2016. gada februāris)](new-task-guides-available-february-2016.md)
-
-
-
-
-
 

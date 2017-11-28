@@ -3,14 +3,14 @@ title: "Novecojušie līdzekļi"
 description: "Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt."
 author: sericks007
 manager: AnnBe
-ms.date: 07/10/2017
+ms.date: 10/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations, Platform, UnifiedOperations
+ms.search.scope: Operations
 ms.custom: 21821
 ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 6
 ms.translationtype: HT
-ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
-ms.openlocfilehash: 3ebe8f2869b93050d320456ff457c0b5692c5eae
+ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
+ms.openlocfilehash: ee051bbf50a6124fe1700a244b36b5f9c599e714
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -382,7 +382,7 @@ Federālā nodokļa izraksts ICMS nodokļiem
 
 |                              |                                                                                                                       |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| **Novecošanas pamatojums**       | Noteiktos Brazīlijas štatos šis izraksts vairs nav piemērojams.                                                     |
+| **Novecošanas pamatojums**       | Šis izraksts vairs nav lietojams noteiktos Brazīlijas štatos.                                                     |
 | **Vai aizstāts ar citu līdzekli?** | Nē. Lietotāji var izmantot vispārīgo elektronisko atskaišu veidošanas rīku, lai konfigurētu šo izrakstu, ja konkrētās situācijās tas ir nepieciešams. |
 | **Ietekmētie moduļi**             | Finanšu grāmatas                                                                                                          |
 
@@ -392,7 +392,7 @@ Federālā nodokļa izraksts ICMS nodokļiem
 
 |                              |                                                                             |
 |------------------------------|-----------------------------------------------------------------------------|
-| **Novecošanas pamatojums**       | Šī nejaušību metode vairs nav piemērojama visos Brazīlijas štatos |
+| **Novecošanas pamatojums**       | Šī nejaušību metode vairs nav lietojama visos Brazīlijas štatos |
 | **Vai aizstāts ar citu līdzekli?** | Nē                                                                          |
 | **Ietekmētie moduļi**             | Debitoru parādi                                                         |
 
@@ -801,7 +801,7 @@ Virtuālo datu failu līdzeklis vairs netiek atbalstīts programmā Dynamics AX.
 <td><b>Novecošanas pamatojums</b></td>
 <td><ul>
 <li>Pirms datu šķirošanas tabulās ir jāiestata virtuālie datu faili. Virtuālo datu failu modernizēšana esošajā implementācijā ir ļoti sarežģīta.</li>
-<li>Tā kā pašreizējā Dynamics AX versijā ir bijis tik daudz datu normēšanas, ir kļuvis sarežģīti zināt, ko nepieciešams pievienot tabulu kolekcijām. Piemēram, ir grūti zināt, kuras tabulas kopīgot. Tāpat ir nepieciešams pievienot arī visas tabulas, uz kurām pastāv atsauces no virtuālajā datu failā esošajām tabulām. Tabulu normalizēšanas dēļ pat vienkāršiem pamatdatiem, kas ir izklāti vairākās tabulās, ir jābūt daļai no virtuālā datu faila. Jebkāda šeit pieļauta kļūda izraisīs funkcionālas problēmas.</li>
+<li>Tā kā pašreizējā Dynamics AX versijā ir bijis tik daudz datu normēšanas, ir kļuvis sarežģīti zināt, ko nepieciešams pievienot tabulu kolekcijām. Piemēram, ir grūti zināt, kuras tabulas kopīgot. Ir jāpievieno arī visas tabulas, uz kurām ir atsauces virtuālajā datu failā ietvertajās tabulās. Tabulu normalizēšanas dēļ pat vienkāršiem pamatdatiem, kas ir izklāti vairākās tabulās, ir jābūt daļai no virtuālā datu faila. Jebkāda šeit pieļauta kļūda izraisīs funkcionālas problēmas.</li>
 <li>Kad tabula ir daļa no virtuāla datu faila, tā zaudē informāciju par datu izcelsmi, un tiek reģistrēts tikai virtuālais datu fails.</li>
 </ul></td>
 </tr>

@@ -1,9 +1,9 @@
 ---
 title: "Pamatlīdzekļu nolietojums"
-description: "Šajā rakstā ir sniegts pamatlīdzekļu nolietojuma aprēķināšanas pārskats."
+description: "Šajā tēmā ir sniegts pārskats par pamatlīdzekļu nolietojumu."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/30/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: AssetBonus, AssetBookTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 3121
 ms.assetid: 98ff891f-e0e2-4184-b618-28107a50851f
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 536acd6b2c9f046c2459aec27a1e3b1b56fd5cc9
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: e362d80f5c4a33ad604c717333777e7c5fdef489
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir sniegts pamatlīdzekļu nolietojuma aprēķināšanas pārskats.
+Šajā tēmā ir sniegts pārskats par pamatlīdzekļu nolietojumu.
 
 Nolietojums ir periodiska darbība, kas parasti samazina pamatlīdzekļa vērtību bilancē un tiek maksāta kā izdevumi peļņas un zaudējumu kontā. Tāpēc galvenais konts parasti tiek izmantots, lai kreditētu periodisko nolietojumu bilancē. Korespondējošais konts ir konts kontu plāna peļņas un zaudējumu daļā.
 
@@ -55,7 +55,7 @@ Katrai grāmatai ir kalendārs, ko izmanto, aprēķinot pamatlīdzekļu nolietoj
 
 Varat izveidot koplietojamu kalendāru, izmantojot sadaļas Virsgrāmata lapu **Finanšu kalendāri**.
 
-Papildinformāciju skatiet tēmā [Nolietojuma metodes un konvencijas](depreciation-methods-conventions.md).
+Papildinformāciju skatiet rakstā [Nolietojuma metodes un konvencijas](depreciation-methods-conventions.md).
 
 
 

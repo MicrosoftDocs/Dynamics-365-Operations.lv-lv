@@ -3,7 +3,7 @@ title: Operations resursi
 description: "Operācijas resursi izpilda projekta vai ražošanas procesa aktivitātes. Tie var būt dažādu veidu, ar dažādām iespējām."
 author: sorenva
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WrkCtrCapability
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 61943
 ms.assetid: a3847f07-fca4-4140-a26f-d83c6ac68dde
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7a333c4d9c0e614c513bf3e1a02b943b186fb1e5
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c4018632e5e20470948ee59e4bb2a1cab905d829
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -63,7 +63,7 @@ Operācijas resursi tiek piešķirti darbībām, ieplānojot projektu vai ražo�
 
 -   **Noslodze** — norādiet operācijas resursu noslodzi stundā attiecībā uz noslodzes mērvienību.
 -   **Paketes noslodze** — norādiet maksimālo gabalu daudzumu, ko operācijas resursi var vienlaikus apstrādāt.
--   **Efektivitātes procenti** — norādiet efektivitāti, kādu sagaidāt no šiem operācijas resursiem. Efektivitātes procenti pielāgo darbību veikšanas resursu caurlaidi un ietekmē resursiem rezervēto laiku. Tiek atbilstoši pielāgoti arī darbību veikšanas, kurās izmantoti darbību veikšanas resursi, izpildes laiki. Aprēķināšanai tiek izmantota šāda formula: plānošanas laiks = laiks × 100 ÷ efektivitātes procenti. Šajā formulā *Laiks* ietver gan izpildes laiku, gan iestatīšanas laiku.
+-   **Efektivitātes procenti** — norādiet efektivitāti, kādu sagaidāt no šiem operācijas resursiem. Efektivitātes procenti pielāgo darbību veikšanas resursu caurlaidi un ietekmē resursiem rezervēto laiku. Tiek atbilstoši pielāgoti arī darbību veikšanas, kurās izmantoti darbību veikšanas resursi, izpildes laiki. Aprēķinam tiek izmantota šāda formula: plānošanas laiks = laiks × 100 ÷ efektivitātes procenti. *Laiks* ir izpildes laika un iestatīšanas laika summa.
 -   **Operāciju plānošanas procenti** — norādiet maksimālo noslodzes procentuālo daudzumu tam operācijas resursam, kuru vēlaties izmantot operāciju plānošanā. Lai, plānojot darbu, ļautu pielāgot noslodzi, šī procentuālā vērtība jāiestata mazāk par 100 procentiem.
 -   **Ierobežota noslodze** — iestatiet šo opciju kā **Jā**, ja operācijas resurss ir jāplāno, pamatojoties uz faktiski pieejamo noslodzi, un ja ir jāņem vērā esošās noslodzes rezervācijas. Ja šī opcija ir iestatīta uz **Nē**, tad tiek pieņemts, ka operācijas resursam ir neierobežotā noslodze un resursam var tikt pārsniegta rezervācija.
 -   **Ierobežoti rekvizīti** — iestatiet šo opciju kā **Jā**, ja operācijas resurss jāplāno, pamatojoties uz faktisko noslodzi, kas ir pieejama, ņemot vērā nepieciešamos darba laika plānošanas rekvizītus.

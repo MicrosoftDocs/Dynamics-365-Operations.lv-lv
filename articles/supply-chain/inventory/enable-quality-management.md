@@ -1,9 +1,9 @@
 ---
 title: "Kvalitātes pārvaldības apskats"
-description: "Šajā rakstā ir aprakstīts, kā programmatūrā Microsoft Dynamics 365 for Finance and Operations varat lietot kvalitātes pārvaldību, lai savā piegādes ķēdē uzlabotu produktu kvalitāti."
+description: "Šajā tēmā ir aprakstīts, kā programmā Microsoft Dynamics 365 for Finance and Operations varat izmantot kvalitātes pārvaldību, lai uzlabotu produktu kvalitāti savā piegādes ķēdē."
 author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 28ef47e2dc1f9c7e1c0b262c58332dcfea1f7495
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c8961d1c62167192fcf32d17c2941b8813ea0629
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir aprakstīts, kā programmatūrā Microsoft Dynamics 365 for Finance and Operations varat lietot kvalitātes pārvaldību, lai savā piegādes ķēdē uzlabotu produktu kvalitāti.
+Šajā tēmā ir aprakstīts, kā programmā Microsoft Dynamics 365 for Finance and Operations varat izmantot kvalitātes pārvaldību, lai uzlabotu produktu kvalitāti savā piegādes ķēdē.
 
 Kvalitātes pārvaldība jums var palīdzēt pārvaldīt apgrozījumu laikus, kad strādājat ar nekondīcijas precēm, neatkarīgi no to izcelsmes vietas. Tā kā diagnostikas tipi ir saistīti ar korekciju ziņošanu, Microsoft Dynamics 365 for Finance and Operations var plānot uzdevumus, lai izlabotu problēmas un novērstu to atkārtošanos.
 
@@ -321,7 +321,7 @@ Nākamajā tabulā ir plašāka informācija par to, kā kvalitātes pārbaudes 
 <li>Pieņemamais kvalitātes līmenis (AQL)</li>
 <li>Iztveršanas plāns</li>
 </ul>
-Jums ir nepieciešams definēt kvalitātes saistību katrai biznesa procesa variācijai, kurai ir nepieciešama automātiska kvalitātes pārbaudes pasūtījumu ģenerēšana. Piemēram, kvalitātes pārbaudes pasūtījumu var ģenerēt biznesa procesos, kas paredzēti pirkšanas pasūtījumiem, karantīnas pasūtījumiem, pārdošanas pasūtījumiem un ražošanas pasūtījumiem.</td>
+Ir jādefinē kvalitātes piesaiste katrai biznesa procesā ietvertajai variācijai, kam ir automātiski jāveido kvalitātes pārbaudes pasūtījumi. Piemēram, kvalitātes pārbaudes pasūtījumu var ģenerēt biznesa procesos, kas paredzēti pirkšanas pasūtījumiem, karantīnas pasūtījumiem, pārdošanas pasūtījumiem un ražošanas pasūtījumiem.</td>
 </tr>
 <tr class="even">
 <td>Testi</td>

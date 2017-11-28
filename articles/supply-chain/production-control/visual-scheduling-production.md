@@ -3,7 +3,7 @@ title: "Ganta diagrammas izmantošana darba plānošanā"
 description: "Ražošanas plānotāji var kontrolēt un optimizēt ražošanas plānus, izmantojot Ganta diagrammas."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 08/23/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: cc7543305ac634dfed3779bb83806ee4fd97d7fa
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 5a4b0450cc76c8d9307b9b21b78a170afcc298e4
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -39,7 +39,7 @@ Ganta diagramma ir vizuāls plānoto darbību attēlojums noteiktā laika interv
 -   Darbi no plānotajiem ražošanas pasūtījumiem.
 -   Darbam ieplānotās projekta darbības ar tipu Stundu prognozes.
 
-Ganta diagrammu var atvērt divos dažādos veidos — skatā **Pasūtījumu skats** vai **Resursu skats**[.](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true)Skatā **Pasūtījumu skats** darbības ir grupētas ražošanas pasūtījumos. Tas var noderēt, piemēram, ja vēlaties uzturēt pārskatu par visiem darbiem, kas pieder tiem pašiem pasūtījumiem. Skatā **Resursu skats** visi darbi tiek grupēti atsevišķos resursos. Šis skats var būt noderīgs, optimizējot plānu resursu līmenī, piemēram, iekārtu vai iekārtu grupas līmenī. Ganta diagrammās tālāk esošajos attēlos ir attēlots **Pasūtījumu skats** un **Resursu skats** ar tālāk uzskaitītajiem galvenajiem elementiem.
+Gantt diagrammu var atvērti divos dažādos skatos: **Pasūtījumu skats** un **Resursu skats**[](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true). Skatā **Pasūtījumu skats** darbības tiek grupētas atbilstoši ražošanas pasūtījumiem. Tas var noderēt, piemēram, ja vēlaties uzturēt pārskatu par visiem darbiem, kas pieder tiem pašiem pasūtījumiem. Skatā **Resursu skats** visi darbi tiek grupēti atsevišķos resursos. Šis skats var būt noderīgs, optimizējot plānu resursu līmenī, piemēram, iekārtu vai iekārtu grupas līmenī. Ganta diagrammās tālāk esošajos attēlos ir attēlots **Pasūtījumu skats** un **Resursu skats** ar tālāk uzskaitītajiem galvenajiem elementiem.
 
 1.  Ganta diagrammas darbība
 2.  Materiālu iztrūkuma ikona
@@ -151,10 +151,12 @@ Ganta diagrammu var atvērt no tālāk norādītajām lapām.
 | **Resurss**                                                                                 | Lapā **Resurss** Ganta diagrammu varat atvērt no izvēlnes vienuma **Ganta diagramma**. Pēc atlasīšanas diagrammā tiks ielādēti visi atlasītajā laika intervālā resursam ieplānotie darbi.                                                                                                                                                                                                                                                                                                   |
 | **Resursu grupa**                                                                           | Lapā **Resursu grupa** Ganta diagrammu varat atvērt no izvēlnes vienuma **Ganta diagramma**. Pēc atlasīšanas tiks parādīti visi resursu grupas resursiem ieplānotie darbi atlasītajā laika intervālā.                                                                                                                                                                                                                                                                                    |
 | **Ganta diagrammas**                                                                             | Lapā **Ganta diagrammas** varat konfigurēt Ganta diagrammas pa resursiem un resursu grupām. Piemēram, ja vēlaties kontrolēt ražošanas darbības noteiktām resursu vai resursu grupu kopām, lapā **Ganta diagrammas** varat izveidot atsevišķas to konfigurācijas. Pēc tam Ganta diagrammu var atvērt no katras konfigurācijas.                                                                                                                                                    |
-| **Stundu prognozes** (projekts)                                                                 | Resursiem var ieplānot tipa **Stundu prognozes** projekta darbības. Izvēlnes **Plānošana** lapā **Stundu prognoze** Ganta diagrammu varat atvērt pasūtījumā, lai skatītu darbam ieplānotās projekta darbības ar tipu stundu prognoze.                                                                                                                                                                                                                                                             |
+| **Stundu prognozes** (projekts)                                                                 | Resursiem var ieplānot tipa **Stundu prognozes** projekta darbības. Lapā **Stundu prognoze** esošajā izvēlnē **Plānošana** varat atvērt Gantt diagrammu par kādu pasūtījumu, lai skatītu darbam ieplānotās stundu prognozes tipa projekta darbības.                                                                                                                                                                                                                                                             |
 | **Veicamais darbs** (saraksts darbvietā **Ražošanas pārvaldība**)                      | Darbvietā **Veicamo darbu saraksts ražošanas vadībā** tiek rādīti darbi no ražošanas un partijas pasūtījumiem, kas notiek atlasītajos darbvietas resursos. Izvēlnes vienumā **Ganta diagramma** varat atvērt Ganta diagrammu, un visi sarakstā atlasītie darbi tiks ielādēti diagrammā.                                                                                                                                                                                |
 | **Izlaišanai paredzētie ražošanas pasūtījumi** (pieejama darbvietā **Ražošanas pārvaldība**) | Lapa Izlaišanai paredzētie ražošanas pasūtījumi tiek atvērta no darbvietas **Ražošanas pārvaldība**. Šajā lapā tiek rādīti plānotie ražošanas un partijas pasūtījumi, kas gaida izlaišanu. Šajā lapā Ganta diagrammu varat atvērt atlasītajiem ražošanas pasūtījumiem.                                                                                                                                                                                                                                                        |
 ## <a name="see-also"></a>Skatiet arī  
 [Vizuāla plānošana ar Ganta diagrammu ražošanas un partijas pasūtījumiem (video)](https://youtu.be/BtbuShkGj4I)
+
+[Ražošanas vizuālā plānošana (demonstrācijas skripts)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)
 
 

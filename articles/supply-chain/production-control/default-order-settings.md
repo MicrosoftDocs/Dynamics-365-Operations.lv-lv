@@ -3,7 +3,7 @@ title: "Noklusējuma pasūtījuma iestatījumi dimensijām un preču variantiem"
 description: "Pasūtījuma noklusējuma iestatījumi definē vietu un noliktavu, kur krājumi tiks iegūti vai glabāti, minimālos, maksimālos, vairākkārtējos un standarta daudzumus, kas tiks izmantoti tirdzniecībai vai krājumu pārvaldībai, izpildes laikus, apturēšanas karodziņus un pasūtījumu solīšanas metodes."
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9954d3daeacd55ce951b5d0e9c4fe1b96feb96c2
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 5e67be5687388d399e2f702d8070cd960cbe7939
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/29/2017
 [!include[retail name](../includes/retail-name.md)]
 
 
-Izmantojot pasūtījuma noklusējuma iestatījumus programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterpise, tiek definēta vieta un noliktava, kur krājumi tiks iegūti vai glabāti, minimālie, maksimālie, vairākkārtējie un standarta daudzumi, kas tiks izmantoti tirdzniecībai vai krājumu pārvaldībai, izpildes laiki, apturēšanas karodziņš un pasūtījumu solīšanas metode. Pasūtījuma noklusējuma iestatījumi tiek izmantoti, veidojot pirkšanas pasūtījumus, pārdošanas pasūtījumus, pārsūtīšanas pasūtījumus, krājumu žurnālus un veicot vispārējo plānošanu plānoto pasūtījumu ģenerēšanai. Pasūtījuma noklusējuma iestatījumi var būt atkarīgi no preces, atkarīgi no vietas, atkarīgi no preces varianta vai atkarīgi no preces dimensijas.
+Pasūtījuma noklusējuma iestatījumi programmā Microsoft Dynamics 365 for Finance and Operations Enterpise Edition nosaka vietu un noliktavu, no kurienes krājumi tiks iegūti vai kur tie tiks glabāti, minimālo, maksimālo, vairākkārtējo un standarta daudzumu, kas tiks izmantots tirdzniecībai vai krājumu pārvaldībai, izpildes laiku, apturēšanas karodziņu un pasūtījuma solīšanas metodi. Pasūtījuma noklusējuma iestatījumi tiek izmantoti, veidojot pirkšanas pasūtījumus, pārdošanas pasūtījumus, pārsūtīšanas pasūtījumus, krājumu žurnālus un veicot vispārējo plānošanu plānoto pasūtījumu ģenerēšanai. Pasūtījuma noklusējuma iestatījumi var būt atkarīgi no preces, atkarīgi no vietas, atkarīgi no preces varianta vai atkarīgi no preces dimensijas.
 
 Pasūtījuma noklusējuma iestatījumus varat definēt lapā **Pasūtījuma noklusējuma iestatījumi**. Lai atvērtu šo lapu, dodieties uz **Preču informācijas pārvaldība** &gt; **Preces** &gt; **Izlaistās preces** &gt; **atlasiet kādu izlaisto preci** &gt; darbību rūtī **Plāns** vai **Pārvaldīt krājumus** &gt; **Pasūtījuma iestatījumi** &gt; **Pasūtījuma noklusējuma iestatījumi**.
 
@@ -80,16 +80,16 @@ Transakcijas izveides laikā, rindā ir jānorāda pilnā izlaistās preces defi
 
 Ne visi pasūtījuma noklusējuma iestatījumu parametri tiek lietoti, kad veidojat pasūtījumu vai žurnāla rindas. Daudzumi un izpildes laiki pēc noklusējuma tiek rādīti tikai tad, ja piemērojams. Piemēram, veicot aprēķinus žurnāla rindā, izveidojot rindu, pēc noklusējuma tiek rādīta tikai vieta un noliktava. Skaidrs, ka netiek veikta nekāda daudzuma noklusējuma iestatīšana vai pārbaudes par vairākkārtējiem un minimālajiem daudzumiem, kad veidojot rindu vai grāmatojat žurnālu. 
 
-Veidojot pasūtījumu vai žurnāla rindu, sistēma vienmēr mēģina atrast noklusējuma vietu un noliktavu. Ne vienmēr vieta pēc noklusējuma tiek rādīta no pasūtījuma iestatījumiem. Piemēram, kad veidojat pārdošanas pasūtījumu vai pirkšanas pasūtījumu, pasūtījuma rindās automātiski tiek lietota vieta no pasūtījuma virsraksta. Veidojot MK rindu, tiek lietota vieta no MK virsraksta. Kad vieta ir noteikta, tā tiek izmantota, lai atrastu visus no vietas atkarīgos pasūtījuma iestatījumus, kurus pēc tam var izmantot kā noliktavas noklusējumu. 
+Kad tiek izveidota pasūtījuma vai žurnāla rinda, sistēmā vienmēr tiek mēģināts atrast noklusējuma vietu un noliktavu. Ne vienmēr vieta pēc noklusējuma tiek rādīta no pasūtījuma iestatījumiem. Piemēram, kad veidojat pārdošanas pasūtījumu vai pirkšanas pasūtījumu, pasūtījuma rindās automātiski tiek lietota vieta no pasūtījuma virsraksta. Veidojot MK rindu, tiek lietota vieta no MK virsraksta. Kad vieta ir noteikta, tā tiek izmantota, lai atrastu visus no vietas atkarīgos pasūtījuma iestatījumus, kurus pēc tam var izmantot kā noliktavas noklusējumu. 
 
-Pasūtījuma noklusējuma tipu, pirkšanu un krājumu izpildes laikus var pārlabot ar krājumu seguma kārtulām lapā **Krājumu segums**. Lai gan pasūtījuma noklusējuma iestatījumi neļauj nodalīt ražošanas un pārsūtīšanas izpildes laiku, krājumu seguma kārtulas to atļauj. Taču krājuma seguma iestatījumus MRP izmantos tikai, lai veidotu plānotu ražošanu un plānotus pārsūtīšanas pasūtījumus, un šie iestatījumi netiks lietoti, kad ražošanas un pārsūtīšanas pasūtījumus veidojat manuāli. 
+Lapā **Krājumu segums** norādītās krājuma seguma kārtulas var izraisīt noklusējuma pasūtījuma tipa, pirkšanas un krājuma izpildes laika pārlabošanu. Lai gan pasūtījuma noklusējuma iestatījumi neļauj nodalīt ražošanas un pārsūtīšanas izpildes laiku, krājumu seguma kārtulas to atļauj. Taču krājuma seguma iestatījumus MRP izmantos tikai, lai veidotu plānotu ražošanu un plānotus pārsūtīšanas pasūtījumus, un šie iestatījumi netiks lietoti, kad ražošanas un pārsūtīšanas pasūtījumus veidojat manuāli. 
 
 ## <a name="default-order-settings-rules"></a>Pasūtījuma noklusējuma iestatījumu kārtulas
 Varat definēt vispārējus pasūtījuma noklusējuma iestatījumus un neierobežotu skaitu pasūtījuma noklusējuma iestatījumu kārtulu, kuras attiecas tikai uz konkrētiem nosacījumiem, piemēram, uz kādu vietu vai konkrētu preces dimensiju, vai preces dimensiju kombināciju. Nevar definēt no noliktavas atkarīgus pasūtījumu iestatījumus.
 
 ### <a name="rank-in-default-order-settings"></a>Pasūtījuma noklusējuma iestatījumu rangs
 
-Pasūtījuma noklusējuma iestatījumu kārtulām ir rangi. Jo augstāks rangs, jo svarīgāka kārtula — tas nozīmē, ka tai būs augstāka prioritāte un tā tiks izmantota pirms kārtulām ar zemāku rangu. Vispārējiem pasūtījuma noklusējuma iestatījumiem rangs ir nulle, un to nevar modificēt. Tikai vienai kārtulai rangs var būt nulle. Kārtulām var būt vienāds rangs, bet ar nosacījumu, ka tās attiecas uz dažādām dimensijām. Tas ir noderīgi no vietas atkarīgu pasūtījuma iestatījumu modelēšanai. Kad tiek izveidota jauna pasūtījuma noklusējuma iestatījumu kārtula, tad pasūtījuma vērtību vērtības, apturēšanas karodziņi un citi vienumi tiek pārmantoti no kārtulas ar nulles rangu, bet šīs vērtības var pārrakstīt.
+Pasūtījuma noklusējuma iestatījumu kārtulām ir rangi. Jo augstāks rangs, jo svarīgāka kārtula — tas nozīmē, ka tai būs augstāka prioritāte un tā tiks izmantota pirms kārtulām ar zemāku rangu. Vispārējiem pasūtījuma noklusējuma iestatījumiem rangs ir nulle, un to nevar modificēt. Tikai vienai kārtulai rangs var būt nulle. Kārtulām var būt vienāds rangs, bet ar nosacījumu, ka tās attiecas uz dažādām dimensijām. Tas ir noderīgi no vietas atkarīgu pasūtījuma iestatījumu modelēšanai. Kad tiek izveidota jauna noklusējuma pasūtījuma iestatījumu kārtula, pasūtījuma vērtību, apturēšanas karodziņa un citu vienumu vērtības tiek pārmantotas no kārtulas ar nulles rangu, taču šīs vērtības var pārlabot.
 
 ### <a name="default-order-settings-for-released-products"></a>Pasūtījuma noklusējuma iestatījumi izlaistām precēm
 

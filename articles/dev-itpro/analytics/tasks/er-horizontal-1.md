@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 0cd1de95630d0f7c40c3b9948015892623a93686
+ms.sourcegitcommit: 1ccf3b2d81066fce80fe14428fab24020ab85496
+ms.openlocfilehash: b921b5ff51f951112031fe8b1bc2faa90cf29a28
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="design-a-format-to-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-for-electronic-reporting-er"></a>Izveidot formātu horizontāli paplašināmu diapazonu izmantošanai, lai dinamiski pievienotu kolonnas programmas Excel pārskatos elektronisko pārskatu veidošanai (ER)
@@ -36,7 +36,8 @@ Lai veiktu šīs darbības, vispirms veiciet tālāk aprakstītās trīs norāde
 
 "ER Lietot finanšu dimensijas kā datu avotu (2. daļa. Modeļa kartēšana)"
 
-Nepieciešams arī lejupielādēt un saglabāt veidnes lokālo kopiju kopā ar parauga pārskatu, kas pieejams šeit: http://msdynamics.blob.core.windows.net/media/2016/09/SampleFinDimWsReport.xlsx
+Ir nepieciešams arī lejupielādēt un saglabāt pārskata paraugu saturošās veidnes lokālu kopiju, apmeklējot vietni [https://go.microsoft.com/fwlink/?linkid=862266](https://go.microsoft.com/fwlink/?linkid=862266). 
+
 
 Šī procedūra ir paredzēta līdzeklim, kas tika pievienots Dynamics 365 for Operations versijā 1611.
 

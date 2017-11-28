@@ -1,9 +1,9 @@
 ---
 title: "Laika un apmeklētības reģistrācija"
-description: "Laika reģistrācijas darbinieki var ievadīt dažādus laika reģistrācijas veidus, piemēram, ierašanās laiku, aiziešanas laiku, netiešu aktivitāšu un kavējumu reģistrāciju. Šajā rakstā sniegta informācija par reģistrācijas veidiem, to aprēķināšanu, apstiprināšanu un darbplūsmas izmantošanu, lai pievienotu struktūru un automātisko apstiprināšanu darba laika uzskaites tabulu apstiprināšanas procesam."
+description: "Laika reģistrācijas darbinieki var ievadīt dažādus laika reģistrācijas veidus, piemēram, ierašanās laiku, aiziešanas laiku, netiešu aktivitāšu un kavējumu reģistrāciju. Šajā tēmā ir aprakstīta reģistrācija, tās aprēķināšana, apstiprināšana un darbplūsmas izmantošana, lai pievienotu struktūru un automātisko apstiprināšanu darba laika uzskaites tabulu apstiprināšanas procesam."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: HcmWorker, JmgCalcApprovePickDialog, JmgGroupApprove, JmgGroupCalc, JmgGroupSigningTable, JmgRegistration, JmgTimeCalcParmeters, WorkflowTableListPageRnr
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 53351
 ms.assetid: 885b0cdf-53d7-4cb4-92fe-da1b9e32b39f
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 83603b1f8d20c18b7f10cd7224d491b558ee1b8b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 29040d0c96183898672bc405364ec59707bff53a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Laika reģistrācijas darbinieki var ievadīt dažādus laika reģistrācijas veidus, piemēram, ierašanās laiku, aiziešanas laiku, netiešu aktivitāšu un kavējumu reģistrāciju. Šajā rakstā sniegta informācija par reģistrācijas veidiem, to aprēķināšanu, apstiprināšanu un darbplūsmas izmantošanu, lai pievienotu struktūru un automātisko apstiprināšanu darba laika uzskaites tabulu apstiprināšanas procesam. 
+Laika reģistrācijas darbinieki var ievadīt dažādus laika reģistrācijas veidus, piemēram, ierašanās laiku, aiziešanas laiku, netiešu aktivitāšu un kavējumu reģistrāciju. Šajā tēmā ir aprakstīta reģistrācija, tās aprēķināšana, apstiprināšana un darbplūsmas izmantošana, lai pievienotu struktūru un automātisko apstiprināšanu darba laika uzskaites tabulu apstiprināšanas procesam. 
 
 <a name="registrations"></a>Reģistrācijas
 -------------
@@ -66,7 +66,7 @@ Pēc iestatīšanas darbinieku datus var ievadīt dažādu veidu reģistrācijā
 -   Netiešās aktivitātes, kas ir ārpus ražošanas cikla, un kuras darbinieks var veikt dienas laikā. Šo darbību piemēri ietver sapulces vai darbvietas uzkopšanu.
 -   Virsstundas, ko var reģistrēt kā papildstundas, brīvā režīma laiku vai virsstundas.
 
-## <a name="adding-clockout-registrations"></a>Aiziešanas no darba reģistrācijas pievienošana
+## <a name="adding-clock-out-registrations"></a>Aiziešanas no darba reģistrācijas pievienošana
 Ja darbinieks aizmirst reģistrēt aiziešanu no darba darbdienas beigās, trūkstošo reģistrāciju var pievienot izpildot pakešuzdevumu. Sistēma salīdzinās ierašanās un aiziešanas reģistrācijas laiku saskaņā ar saistīto darbinieka profilu un automātiski ievietos trūkstošo aiziešanas no darba reģistrāciju atbilstoši profila beigu laikam. Ierašanās un aiziešanas no darba reģistrācija ir ļoti svarīga nākamajam reģistrāciju laika aprēķinam un apstiprināšanai pirms reģistrāciju pārsūtīšanas uz algu daļu.
 
 ## <a name="calculating-registrations"></a>Reģistrāciju aprēķināšana
