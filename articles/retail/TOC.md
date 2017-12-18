@@ -180,11 +180,11 @@
 
 ## Izvietošana un labojumfaili
 ### [Retail Store Scale Unit pārskats](dev-itpro/retail-store-system-begin.md)
-#### [Retail Store Scale Unit konfigurēšana un instalēšana](dev-itpro/retail-store-scale-unit-configuration-installation.md)
+### [Retail Store Scale Unit konfigurēšana un instalēšana](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [Retail Modern POS konfigurēšana un instalēšana](retail-modern-pos-device-activation.md)
-#### [Retail kontu un ierīču pārvaldība no galvenā biroja](set-up-activation-accounts-validate-devices-hq.md)
-#### [Retail POS ierīces aktivizēšana](dev-itpro/retail-device-activation.md)
-#### [Drošība Retail Cloud POS](dev-itpro/secure-retail-cloud-pos.md)
+### [Retail kontu un ierīču pārvaldība no galvenā biroja](set-up-activation-accounts-validate-devices-hq.md)
+### [Retail POS ierīces aktivizēšana](dev-itpro/retail-device-activation.md)
+### [Drošība Retail Cloud POS](dev-itpro/secure-retail-cloud-pos.md)
 ### [Retail Hardware Station konfigurēšana un instalēšana](retail-hardware-station-configuration-installation.md)
 ### [Plaša Retail patstāvīgi izmantojamā pakalpojuma komponentu izvietošana](dev-itpro/retail-mass-deployment.md)
 ### [Retail komponentu notikumi diagnostikai un problēmu novēršanai](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
@@ -194,48 +194,52 @@
 ### [Jaunināšanas un N-1 atbalsta apskats](dev-itpro/overview-upgrade-n-minus1.md)
 ### [N-1 komponentu instalēšana](dev-itpro/n-1-installation-configuration.md)
 
+## Ieviešanas vadlīnijas
+### [Ierīces pārvaldības ieviešanas vadlīnijas](implementation-considerations-devices.md)
+
 ## Vides konfigurēšana
-### [Saišu pievienošana uz organizācijas juridiskajiem nosacījumiem un paziņojumu par konfidencialitāti](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
+### [Saišu pievienošana organizācijas juridiskajiem nosacījumiem un paziņojumam par konfidencialitāti](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
 ### [Bing karšu pārvaldība](dev-itpro/manage-bing-maps.md)
 
-## Paplašināmība
-### Pārdošanas punkts
-#### [Retail POS ekrāna izkārtojumi](pos-screen-layouts.md)
-##### [POS izkārtojuma veidotāja instalēšana](install-pos-layout-designer.md)
-#### [MPOS konfigurēšana bezsaistes režīmam](dev-itpro/retail-modern-pos-offline.md)
-#### [MPOS un Cloud POS trigera paplašināmība](dev-itpro/modern-pos-trigger-extensibility.md)
-#### [Pielāgotas vadīklas pievienošana POS skatam](dev-itpro/pos-custom-control.md)
-#### [POS maksājumu paplašinājums](dev-itpro/pos-payment-extension.md)
-#### [Ārējo dāvanu karšu atbalsts](dev-itpro/gift-card.md)
+## Pārdošanas punktu paplašināmība
+### [Retail POS ekrāna izkārtojumi](pos-screen-layouts.md)
+### [POS izkārtojuma veidotāja instalēšana](install-pos-layout-designer.md)
+### [MPOS konfigurēšana bezsaistes režīmam](dev-itpro/retail-modern-pos-offline.md)
+### [MPOS un Cloud POS trigera paplašināmība](dev-itpro/modern-pos-trigger-extensibility.md)
+### [Pielāgotas vadīklas pievienošana POS skatam](dev-itpro/pos-custom-control.md)
+### [POS maksājumu paplašinājums](dev-itpro/pos-payment-extension.md)
+### [Ārējo dāvanu karšu atbalsts](dev-itpro/gift-card.md)
 ### [Retail Experience programmas izveide](dev-itpro/create-retail-experience-app.md)
 ### [Aparatūras stacijas apskats un paplašināmība](dev-itpro/hardware-station-extensibility.md)
 
-### Retail serveris
-#### [Retail Server OData kontroliera paplašināšana](dev-itpro/extend-retail-server-odata-controller.md)
-#### [Tīmekļa API un OData kontrolieri](dev-itpro/odata-controllers-api.md)
-#### [Retail servera klienta un patērētāja API](dev-itpro/retail-server-customer-consumer-api.md)
-#### [Metadatu paplašināšana](dev-itpro/extend-metadata.md)
-#### [Commerce runtime paplašināšana, lai atbalstītu POS bezsaistes režīmu](dev-itpro/call-crt-service-offline.md)
-### Commerce runtime
-#### [Commerce runtime apskats](dev-itpro/commerce-runtime-overview.md)
-#### [Commerce runtime un Retail servera paplašināmība ](dev-itpro/commerce-runtime-extensibility.md)
-#### [Klienta prioritāšu datu pievienošana kanāla datu bāzei](dev-itpro/add-customer-preference-channel.md)
-#### [Rekvizītu pievienošana pārdošanas pasūtījumam](dev-itpro/add-properties-sales-order.md)
-#### [Commerce runtime paplašināmība un trigeri](dev-itpro/commerce-runtime-extensibility-trigger.md)
-#### [Trigera piemērs: darījuma aizturēšana](dev-itpro/trigger-example-blocking-transaction.md)
-#### [Trigera piemērs: atgriešanas politika](dev-itpro/trigger-example-return-policy.md)
-### e-komercija
-#### [Tiešsaistes veikala konfigurēšana](dev-itpro/configure-online-store.md)
-#### [Autentifikācijas nodrošinātāju konfigurēšana](dev-itpro/configure-authentication-providers.md)
-#### [E-komercijas platforma](dev-itpro/ecommerce-platform.md)
-#### [E-komercijas platformas SDK](dev-itpro/ecommerce-platform-sdk.md)
-### Maksājumu savienotājs
-#### [Maksājumu savienotāja un maksājumu ierīces ieviešana (tehniskais dokuments)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
-#### [Maksājumu savienotāja izvietošana](dev-itpro/deploy-payment-connector.md)
-#### [Windows instalētāja izveide maksājumu savienotājam](dev-itpro/create-windows-installer-payment-connector.md)
+## Retail Server paplašināmība
+### [Retail Server OData kontroliera paplašināšana](dev-itpro/extend-retail-server-odata-controller.md)
+### [Tīmekļa API un OData kontrolieri](dev-itpro/odata-controllers-api.md)
+### [Retail servera klienta un patērētāja API](dev-itpro/retail-server-customer-consumer-api.md)
+### [Metadatu paplašināšana](dev-itpro/extend-metadata.md)
+### [Commerce runtime paplašināšana, lai atbalstītu POS bezsaistes režīmu](dev-itpro/call-crt-service-offline.md)
 
-## Retail SDK
-### [Retail SDK apskats](dev-itpro/retail-sdk/retail-sdk-overview.md)
+## Commerce runtime paplašināmība
+### [Commerce runtime apskats](dev-itpro/commerce-runtime-overview.md)
+### [Commerce runtime un Retail Server paplašināmība ](dev-itpro/commerce-runtime-extensibility.md)
+### [Klienta prioritāšu datu pievienošana kanāla datu bāzei](dev-itpro/add-customer-preference-channel.md)
+### [Rekvizītu pievienošana pārdošanas pasūtījumam](dev-itpro/add-properties-sales-order.md)
+### [Commerce runtime paplašināmība un trigeri](dev-itpro/commerce-runtime-extensibility-trigger.md)
+### [Trigera piemērs: darījuma aizturēšana](dev-itpro/trigger-example-blocking-transaction.md)
+### [Trigera piemērs: atgriešanas politika](dev-itpro/trigger-example-return-policy.md)
+
+## e-Commerce paplašināmība
+### [Tiešsaistes veikala konfigurēšana](dev-itpro/configure-online-store.md)
+### [Autentifikācijas nodrošinātāju konfigurēšana](dev-itpro/configure-authentication-providers.md)
+### [E-komercijas platforma](dev-itpro/ecommerce-platform.md)
+### [E-komercijas platformas SDK](dev-itpro/ecommerce-platform-sdk.md)
+
+## Maksājumu savienotāja paplašināmība
+### [Maksājumu savienotāja un maksājumu ierīces ieviešana (tehniskais dokuments)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
+### [Maksājumu savienotāja izvietošana](dev-itpro/deploy-payment-connector.md)
+### [Windows instalētāja izveide maksājumu savienotājam](dev-itpro/create-windows-installer-payment-connector.md)
+
+## [Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
 ### [Retail SDK integrēšana pastāvīgajā sistēmu būvēšanā](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
 ### [Retail SDK paplašināmības paraugi](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
 ### [Kases sistēmas Zviedrijai](localizations/emea-swe-cash-registers.md)
@@ -248,8 +252,14 @@
 ### [CDX paplašināmība](dev-itpro/cdx-extensibility.md)
 ### [Pasūtījuma atribūti](dev-itpro/order-attributes.md)
 ### [Debitora atribūti](dev-itpro/customer-attributes.md)
-### [Retail Typescript un C# starpniekserveris](dev-itpro/typescript-proxy-retail-pos.md)
+### [Retail mašīnraksts un C# starpniekserveris](dev-itpro/typescript-proxy-retail-pos.md)
+### [Retail POS paraugu palaišana](dev-itpro/pos-run-samples.md)
+### [Paplašināt esošos POS skatus un pievienot programmām pielāgotas kolonnas un joslu pogas](dev-itpro/pos-view-extension.md)
+### [Pievienot pielāgotas vadīklas Retail Modern POS transakciju lapām](dev-itpro/pos-custom-transaction.md)
+### [Pievienot pielāgotas kolonnas POS transakciju režģim](dev-itpro/pos-custom-transaction-column.md)
+### [Izsaukt POS API vai operāciju no POS paplašinājuma](dev-itpro/pos-api-extension.md)
+### [Paplašināt esošos POS skatus un pievienot programmām pielāgotas kolonnas un joslu pogas](dev-itpro/pos-view-extension.md)
+### [Retail Modern POS trigeri un drukāšana](dev-itpro/pos-trigger-printing.md)
 
-
-## Commerce Runtime
+## Commerce runtime
 ### [Lojalitātes paplašinājums](dev-itpro/retail-sdk/loyalty-extension-sample.md)

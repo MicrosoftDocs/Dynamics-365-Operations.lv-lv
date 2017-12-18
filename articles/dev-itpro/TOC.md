@@ -124,6 +124,7 @@
 #### [Apakšklases reģistrēšana rūpnīcas metodēm](extensibility/register-subclass-factory-methods.md)
 #### [Atbildēšana ar EventHandlerResult](extensibility/respond-event-handler-result.md)
 #### [Klases RunBase paplašināšana](extensibility/extend-runbase-class.md).
+#### [Lietot pārstāvjus, lai pielāgotu lietojumprogrammas startēšanu](extensibility/startup-customizations.md)
 #### [Tabulā esoša lauka modificēšana](extensibility/modify-existing-field.md)
 #### [Jauna lauka pievienošana esošai tabulai](extensibility/add-field-extension.md)
 #### [Indeksa pievienošana esošai tabulai](extensibility/add-index.md)
@@ -505,10 +506,12 @@
 ### [Lokālas vides iestatīšana un izvietošana](deployment/setup-deploy-on-premises-environments.md)
 ### [Pielāgotu modeļu izstrāde un izvietošana lokālām vidēm](deployment/develop-deploy-custom-models-on-premises.md)
 ### [Atjauninājumu lietošana lokālam izvietojumam](deployment/apply-updates-on-premises.md)
+### [Atkārtoti izvietot lokālo izvietojumu](deployment/redeploy-on-prem.md)
+### [Dynamics 365 for Finance and Operations Enterprise edition lokālo problēmu novēršana](deployment/troubleshoot-on-prem.md)
 
 ## Pielāgota koda izvietošana
 ### [Izvietojamas pakotnes izveide](deployment/create-apply-deployable-package.md)
-### [Izvietojamas pakotnes pielietošana](deployment/apply-deployable-package-system.md)
+### [Lietot atjauninājumus mākoņa videi](deployment/apply-deployable-package-system.md)
 ### [Izvietojamas pakotnes instalēšana](deployment/install-deployable-package.md)
 ### [Pakotnes lietojumprogrammas problēmu novēršana](deployment/deployable-package-troubleshooting.md)
 
@@ -544,11 +547,13 @@
 ## Jaunināšana uz jaunāko atjauninājumu
 ### [Pāriešana uz jaunāko atjauninājumu](migration-upgrade/upgrade-latest-update.md)
 ### [Dzīves cikla politika](migration-upgrade/versions-update-policy.md)
-### [Jaunināšana uz jaunāko platformas atjauninājumu](migration-upgrade/upgrade-latest-platform-update.md)
+### [Lietot jaunāko platformas atjauninājumu savā vidē](migration-upgrade/upgrade-latest-platform-update.md)
 ### [Dynamics platformas jaunināšana uz 2016. gada augusta izlaidi](migration-upgrade/update-platform-each-release.md)
 ### [Smilškastes vides jaunināšana](migration-upgrade/upgrade-sandbox-environment.md)
 ### [Datu jaunināšana izstrādes vai demonstrācijas vidēs](migration-upgrade/upgrade-data-to-latest-update.md)
 ### [Izstrādes rīku atjaunināšana](dev-tools/update-development-tools.md)
+### [Atjauninājumu lietošana lokālam izvietojumam](deployment/apply-updates-on-premises.md)
+### [Atkārtoti izvietot lokālo izvietojumu](deployment/redeploy-on-prem.md)
 
 ## Labojumfaili un apkalpošana
 ### [Labojumfailu lejupielāde no Lifecycle Services](migration-upgrade/download-hotfix-lcs.md)
@@ -566,6 +571,7 @@
 ## [Datu koplietošana uzņēmumos](sysadmin/cross-company-data-sharing.md)
 ## [Uzturēšanas režīms](sysadmin/maintenance-mode.md)
 ## [Iepriekš konfigurēti sistēmas konti](sysadmin/pre-configured-system-accounts.md)
+## [Eksportēt B2B lietotājus uz Azure AD](sysadmin/implement-b2b.md)
 ## [Uz lomām balstīta drošība](sysadmin/role-based-security.md)
 ### [Drošības arhitektūra](sysadmin/security-architecture.md)
 ### [Drošības pārskati](sysadmin/security-reports.md)
