@@ -10,6 +10,7 @@
 ##### [Sistēmas prasības mākoņa izvietojumiem](get-started/system-requirements.md)
 ##### [Lokāla izvietošana](../dev-itpro/deployment/on-premises-deployment-landing-page.md)
 ##### [Sistēmas prasības lokālajiem izvietojumiem](get-started/system-requirements-on-prem.md)
+##### [Noliktavas lokālajiem izvietojumiem](../dev-itpro/deployment/warehousing-for-on-premise-deployments.md)
 
 #### Finance and Operations iegāde
 ##### [Microsoft FastTrack for Dynamics 365](get-started/fasttrack-dynamics-365-overview.md)
@@ -20,8 +21,9 @@
 #### [Atliktie AX 2012 līdzekļi](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [Līdzekļi, kas nav ieviesti lokālos izvietojumos](get-started/features-not-implemented-on-prem.md)
 #### [Dzīves cikla politika](../dev-itpro/migration-upgrade/versions-update-policy.md)
-#### [Platformas atjauninājums update 11 (2017. gada oktobris)](get-started/whats-new-platform-update-11.md)
-#### [Platformas atjauninājums update 10 (2017. gada augusts)](get-started/whats-new-platform-update-10.md)
+#### [Platform update 12 (2017. gada novembris)](get-started/whats-new-platform-update-12.md)
+#### [Platform update 11 (2017. gada oktobris)](get-started/whats-new-platform-update-11.md)
+#### [Platform update 10 (2017. gada augusts)](get-started/whats-new-platform-update-10.md)
 #### [Finance and Operations Enterprise edition (2017. gada jūlijs)](get-started/whats-new-application-July-2017-update.md)
 #### [Platformas 9. atjauninājums (2017. gada jūlijs)](get-started/whats-new-platform-update-9.md)
 #### [Platformas 8. atjauninājums (2017. gada jūnijs)](get-started/whats-new-platform-update-8.md)
@@ -42,6 +44,7 @@
 ##### [2016. gada februāra uzdevumu ceļveži](get-started/new-task-guides-available-february-2016.md)
 
 ### Lietotāja interfeisa izpēte
+#### [Pieejamības līdzekļi](get-started/accessibility-features.md)
 #### [Klienta UI bieži uzdotie jautājumi](get-started/client-faq.md)
 #### [Darbību meklēšana](get-started/action-search.md)
 #### [Papildu filtrēšanas un vaicājumu sintakse](get-started/advanced-filtering-query-options.md)
@@ -56,7 +59,7 @@
 #### [Lietotāja izvēlētās laika joslas iestatīšana](organization-administration/tasks/set-users-preferred-time-zone.md)
 #### [Saprast pakalpojumu Lifecycle Services](../dev-itpro/lifecycle-services/lcs-works-lcs.md)
 
-### Palīdzības un atbalsta saņemšana
+### Lasīt un atvērt dokumentāciju
 #### [Palīdzības apskats](get-started/help-overview.md)
 #### [Pievienot palīdzību](get-started/help-connect.md)
 #### [Skatīt un eksportēt lauku aprakstus](get-started/view-export-field-descriptions.md)
@@ -152,17 +155,21 @@
 
 #### [Datu integrācija, izmantojot pakalpojumu Common Data Service](../dev-itpro/data-entities/data-integration-cds.md) 
 ##### [Potenciālā klienta konfigurēšana uz skaidru naudu](../supply-chain/sales-marketing/prospect-to-cash.md)
-###### [Preču sinhronizēšana no programmas Finance and Operations uz precēm programmā Sales](../supply-chain/sales-marketing/products-template-mapping.md)
-###### [Kontu sinhronizēšana no programmas Sales uz klientiem programmā Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping.md)
-###### [Kontaktpersonu sinhronizēšana no programmas Sales uz kontaktpersonām vai klientiem programmā Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping.md)
-###### [Pārdošanas piedāvājumu virsrakstu un rindu sinhronizēšana no programmas Sales uz programmu Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
-###### [Pārdošanas pasūtījumu virsrakstu un rindu sinhronizēšana no programmas Finance and Operations uz programmu Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
-###### [Pārdošanas rēķinu virsrakstu un rindu sinhronizēšana no programmas Finance and Operations uz programmu Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
-###### [Programmā Sales ietverto kontu tieša sinhronizēšana ar debitoriem programmā Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
-###### [Programmā Finance and Operations ietverto preču tieša sinhronizēšana ar precēm programmā Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
-###### [Programmā Sales ietverto kontaktpersonu tieša sinhronizēšana ar kontaktpersonām vai debitoriem programmā Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-###### [Programmā Finance and Operations ietverto pārdošanas pasūtījumu galveņu un rindu tieša sinhronizēšana ar programmu Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
-###### [Programmā Finance and Operations ietverto pārdošanas rēķinu galveņu un rindu tieša sinhronizēšana ar programmu Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [Kontu uzturēšana programmā Sales un to tieša sinhronizēšana ar programmu Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
+###### [Preču uzturēšana programmā Finance and Operations un to tieša sinhronizēšana ar programmu Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
+###### [Kontaktpersonu uzturēšana programmā Sales un to tieša sinhronizēšana ar kontaktpersonām vai debitoriem programmā Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
+###### [Pārdošanas piedāvājuma tieša sinhronizēšana no programmas Sales uz programmu Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+###### [Pārdošanas pasūtījumu tieša sinhronizēšana no programmas Finance and Operations uz programmu Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+###### [Pārdošanas pasūtījumu tieša sinhronizēšana no programmas Finance and Operations uz programmu Sales un otrādi](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+###### [Pārdošanas rēķina tieša sinhronizēšana no programmas Finance and Operations uz programmu Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [Kreditoru uzturēšana programmā Sales un to sinhronizēšana ar programmu Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping.md)
+###### [Kontaktpersonu uzturēšana programmā Sales un to sinhronizēšana ar programmu Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping.md)
+###### [Preču uzturēšana programmā Finance and Operations un to tieša sinhronizēšana ar programmu Sales](../supply-chain/sales-marketing/products-template-mapping.md)
+###### [Pārdošanas piedāvājumu izveidošana programmā Sales un to sinhronizēšana ar Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
+###### [Pārdošanas pasūtījumu izveidošana programmā Finance and Operations un to sinhronizēšana ar programmu Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
+###### [Pārdošanas rēķinu izveidošana programmā Finance and Operations un to sinhronizēšana ar programmu Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
+
+
 
 #### [Ārējo tīmekļa pakalpojumu patērēšana](../dev-itpro/data-entities/consume-external-web-service.md)
 
@@ -894,6 +901,7 @@
 ##### [Melnā saraksta pārskats](../financials/localizations/emea-ita-black-list-report.md)
 ##### [Kompetences datums](../financials/localizations/emea-ita-competence-date.md)
 ##### [Pamatlīdzekļu nolietojums](../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
+##### [Modello 770](../financials/localizations/emea-ita-modello770.md)
 ##### [Pavadzīmes datuma pārbaude rēķinos](../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
 ##### [PVN grāmatas](../financials/localizations/emea-ita-fiscal-books.md)
 ##### [Sadalīt maksājumus valsts administrācijai izsniegtiem rēķiniem](../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
@@ -1347,7 +1355,29 @@
 ### [Pašreizējās vidējās izmaksu cenas izsekošana pēc krājumu dimensijas](../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md)
 
 
-## Vispārējā plānošana
+## [Vispārējā plānošana](../supply-chain/master-planning/master-planning-home-page.md)
+### [Vispārējais plāns](../supply-chain/master-planning/master-plans.md)
+#### [Vajadzības iestatījumi](../supply-chain/master-planning/coverage-settings.md)
+#### [Krājumu seguma kārtulu definēšana (uzdevuma ceļvedis)](../supply-chain/master-planning/tasks/define-coverage-rules-items.md)
+#### [Ierobežota plāna ģenerēšana (uzdevuma ceļvedis)](../supply-chain/master-planning/tasks/constrained-plan.md)
+#### [Materiālu plāna izveide līdzproduktiem (uzdevuma ceļvedis)](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
+#### [Plānoto pasūtījumu uzturēšana](../supply-chain/master-planning/maintain-planned-orders.md)
+#### [Apstrādāt aizkaves](../supply-chain/master-planning/delays.md)
+#### [Izsekot izvēršanu](../supply-chain/master-planning/trace-explosion.md)
+#### [Darbību ziņojumi](../supply-chain/master-planning/action-messages.md)
+#### [Vispārējās plānošanas izpildes pārraudzība (uzdevuma ceļvedis)](../supply-chain/master-planning/tasks/monitor-master-planning-run.md)
+#### [Grafika izveide vietai (uzdevuma ceļvedis)](../supply-chain/master-planning/tasks/create-schedule-site.md)
+#### [Plāna izveide vietai (uzdevuma ceļvedis)](../supply-chain/master-planning/tasks/create-plan-site.md)
+#### [Vispārējie plāni un vairākvietu funkcionalitāte](../supply-chain/master-planning/master-plan-multisite-functionality.md)
+##### [Plāns vietas segumam, obligātā noliktava](../supply-chain/master-planning/master-plan-site-coverage-warehouse-mandatory.md)
+##### [Plāns vietas segumam, noliktava nav obligāta](../supply-chain/master-planning/master-plan-site-coverage-warehouse-not-mandatory.md)
+##### [Plāns vietas un noliktavas segumam, noliktava ir obligāta](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+##### [Plāns vietas un noliktavas segumam, noliktava nav obligāta](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+##### [Noteikt MK versiju](../supply-chain/master-planning/master-plan-bom-version-determined.md)
+##### [MK versijas izvēršana](../supply-chain/master-planning/master-plan-explosion-bom-version.md)
+#### [Starpuzņēmumu plāna izveide (uzdevuma ceļvedis)](../supply-chain/master-planning/tasks/create-intercompany-plan.md)
+#### [Izejošo plānoto starpuzņēmumu pieprasījuma skatīšana (uzdevuma ceļvedis)](../supply-chain/master-planning/tasks/view-outbound-planned-intercompany-demand.md)
+#### [Sadarbība ar iekšējās piegādes ķēdes debitoriem (uzdevuma ceļvedis)](../supply-chain/master-planning/tasks/collaborate-internal-supply-chain-customers.md)
 ### [Pieprasījuma prognozēšana](../supply-chain/master-planning/introduction-demand-forecasting.md)
 #### [Iestatīt pieprasījuma apjoma prognozi](../supply-chain/master-planning/demand-forecasting-setup.md)
 #### [Importējiet vēsturiskos datus pieprasījuma apjoma prognozēm](../supply-chain/master-planning/import-historical-data.md)
@@ -1359,29 +1389,6 @@
 #### [Samazināšanas principi](../supply-chain/master-planning/reduction-keys.md)
 #### [Bāzlīnijas prognozes izveide (uzdevuma ceļvedis)](../supply-chain/master-planning/tasks/create-baseline-forecast.md)
 #### [Pieprasījuma apjoma prognozes manuāla modificēšana (uzdevuma ceļvedis)](../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md)
-
-### [Vispārējais plāns](../supply-chain/master-planning/master-plans.md)
-#### [Vajadzības iestatījumi](../supply-chain/master-planning/coverage-settings.md)
-#### [Plānoto pasūtījumu uzturēšana](../supply-chain/master-planning/maintain-planned-orders.md)
-#### [Aizkaves](../supply-chain/master-planning/delays.md)
-#### [Darbību ziņojumi](../supply-chain/master-planning/action-messages.md)
-#### [Izsekot izvēršanu](../supply-chain/master-planning/trace-explosion.md)
-#### [Vispārējie plāni un vairākvietu funkcionalitāte](../supply-chain/master-planning/master-plan-multisite-functionality.md)
-##### [Plāns vietas segumam, obligātā noliktava](../supply-chain/master-planning/master-plan-site-coverage-warehouse-mandatory.md)
-##### [Plāns vietas segumam, noliktava nav obligāta](../supply-chain/master-planning/master-plan-site-coverage-warehouse-not-mandatory.md)
-##### [Plāns vietas un noliktavas segumam, noliktava ir obligāta](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md)
-##### [Plāns vietas un noliktavas segumam, noliktava nav obligāta](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
-##### [Noteikt MK versiju](../supply-chain/master-planning/master-plan-bom-version-determined.md)
-##### [MK versijas izvēršana](../supply-chain/master-planning/master-plan-explosion-bom-version.md)
-#### [Vispārējās plānošanas izpildes pārraudzība (uzdevuma ceļvedis)](../supply-chain/master-planning/tasks/monitor-master-planning-run.md)
-#### [Krājumu seguma kārtulu definēšana (uzdevuma ceļvedis)](../supply-chain/master-planning/tasks/define-coverage-rules-items.md)
-#### [Plāna izveide vietai (uzdevuma ceļvedis)](../supply-chain/master-planning/tasks/create-plan-site.md)
-#### [Grafika izveide vietai (uzdevuma ceļvedis)](../supply-chain/master-planning/tasks/create-schedule-site.md)
-#### [Ierobežota plāna ģenerēšana (uzdevuma ceļvedis)](../supply-chain/master-planning/tasks/constrained-plan.md)
-#### [Starpuzņēmumu plāna izveide (uzdevuma ceļvedis)](../supply-chain/master-planning/tasks/create-intercompany-plan.md)
-#### [Materiālu plāna izveide līdzproduktiem (uzdevuma ceļvedis)](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
-#### [Izejošo plānoto starpuzņēmumu pieprasījuma skatīšana (uzdevuma ceļvedis)](../supply-chain/master-planning/tasks/view-outbound-planned-intercompany-demand.md)
-#### [Sadarbība ar iekšējās piegādes ķēdes debitoriem (uzdevuma ceļvedis)](../supply-chain/master-planning/tasks/collaborate-internal-supply-chain-customers.md)
 
 
 ## [Mobilā programma](../dev-itpro/mobile-apps/Mobile-app-home-page.md)
@@ -1853,7 +1860,7 @@
 #### [Pirkšanas pasūtījumu darba veidnes iestatīšana](../supply-chain/warehousing/tasks/set-up-work-template-purchase-orders.md)
 #### [Kravu un sūtījumu plānošana, izmantojot noslodzes plānošanas rīku](../supply-chain/warehousing/tasks/use-load-planning-workbench-plan-loads-shipments.md)
 
-# [Izstrāde un administrēšana](../dev-itpro/toc.md)
+# [Finance and Operations izstrāde un administrēšana](../dev-itpro/toc.md)
 
 # [Dynamics 365 for Retail](../retail/toc.md)
 

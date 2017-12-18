@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0ca879fc4b0a43cd3af1e45c78a48f1c942a9a6a
+ms.sourcegitcommit: 98008b494f675209949afd961e3cd06dfdc9ec9a
+ms.openlocfilehash: 81a5d21233f12e7c26f0cce6a6c05fefde2ca7dd
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -42,7 +42,7 @@ Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
 - [Izmaksu uzskaite](../financials/cost-accounting/cost-accounting-home-page.md)
 - [Izmaksu pārvaldība](cost-management/costing-sheets.md)  
 - [Krājumu pārvaldība](inventory/inventory-home-page.md)
-- [Vispārējā plānošana](master-planning/introduction-demand-forecasting.md)
+- [Vispārējā plānošana](master-planning/master-planning-home-page.md)
 - [Sagāde un avoti](procurement/procurement-sourcing-overview.md)
 - [Preču informācijas pārvaldība](pim/product-information.md)
 - [Ražošanas kontrole](production-control/production-process-overview.md)
