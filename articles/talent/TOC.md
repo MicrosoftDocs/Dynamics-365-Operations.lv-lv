@@ -2,6 +2,8 @@
 
 # [Darba sākšana](talent-get-started.md)
 ## [Sistēmas prasības un atjaunināšanas politika](talent-versions-update-policy.md)
+## [Microsoft Dynamics 365 for Talent nodrošinājums](provisioning-talent.md)
+## [Paplašināt programmas Talent funkcionalitāti](extend-talent-functionality.md)
 
 # [Personāla vadības stratēģijas izstrāde](departments-jobs-positions.md)
 ## [Darba komponentu iestatīšana](create-job.md)
