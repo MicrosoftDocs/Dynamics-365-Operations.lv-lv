@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1ffe0480c1607925093bf823d75289d87995a17f
+ms.sourcegitcommit: 408854737847590841814ed74209618bbf22ec23
+ms.openlocfilehash: 7c99869b70d8b564da859ce2b19ccfff927141b2
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/27/2017
 
 ---
 
@@ -49,9 +49,9 @@ Informāciju par jaunināšanu uz pēdējo versiju skatiet sadaļā [Jaunināša
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nodot izpildei</th>
+<th>Laidiens</th>
 <th>Versija</th>
-<th>Procesa numurs</th>
+<th>Būvējuma numurs</th>
 <th>Pieejamība</th>
 <th>Papildinformācija</th>
 </tr>
@@ -103,9 +103,9 @@ Informāciju par jaunināšanu uz pēdējo versiju skatiet sadaļā [Jaunināša
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nodot izpildei</th>
+<th>Laidiens</th>
 <th>Versija</th>
-<th>Procesa numurs</th>
+<th>Būvējuma numurs</th>
 <th>Pieejamība</th>
 <th>Papildinformācija</th>
 </tr>
@@ -113,14 +113,20 @@ Informāciju par jaunināšanu uz pēdējo versiju skatiet sadaļā [Jaunināša
 <tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevums</td>
-<td>Platformas update 11</td>
+<td>Platformas update 12</td>
+<td>7.0.4709</td>
+<td>2017. gada novembris</td>
+<td><a href="whats-new-platform-update-12.md">Jaunumi un izmaiņas Dynamics 365 for Finance and Operations, Enterprise Edition 12. platformas atjauninājumā (2017. gada novembris)</a></td>
+<tbody><tr class="odd">
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevums</td>
+<td>11. platformas atjauninājums</td>
 <td>7.0.4679.35176</td>
 <td>2017. oktobris</td>
 <td><a href="whats-new-platform-update-11.md">Jaunumi un izmaiņas Dynamics 365 for Finance and Operations Enterprise Edition 11. platformas atjauninājumā (2017. gada oktobris)</a></td>
 <tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevums</td>
-<td>Platformas update 10</td>
+<td>10. platformas atjauninājums</td>
 <td>7.0.4641.16233</td>
 <td>2017. gada augusts</td>
 <td><a href="whats-new-platform-update-10.md">Jaunumi un izmaiņas Dynamics 365 for Finance and Operations, Enterprise Edition platformas 10. atjauninājumā (2017. augusts)</a></td>

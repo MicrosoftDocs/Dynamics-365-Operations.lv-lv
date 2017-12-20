@@ -3,7 +3,7 @@ title: "Power BI saturs"
 description: "Šajā tēmā ir uzskaitīts pieejamais Power BI saturs un norādīti resursi, kur varat uzzināt vairāk par to."
 author: sericks007
 manager: AnnBe
-ms.date: 08/07/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ffae237693ebf0b0feedf7c60230590d95eed3d4
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: ae19b4afa9e36800988b790398e46d8861ba432d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -31,8 +31,8 @@ ms.lasthandoff: 11/03/2017
 
 Šajā tēmā ir uzskaitīts pieejamais Microsoft Power BI saturs un norādīti resursi, kur varat uzzināt vairāk par to.
 
-## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Power BI saturs programmatūrai 365 for Finance and Operations, Enterprise Edition (2017. gada jūlijs)
-Ja izmantojat programmatūru Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (2017. gada jūlijs), tad ir pieejams tālāk norādītais Power BI saturs.
+## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Power BI saturs programmatūrai Dynamics 365 for Finance and Operations, Enterprise Edition
+Ja izmantojat programmatūru Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, tad ir pieejams tālāk norādītais Power BI saturs.
 
 - [Power BI saturs Faktiski pret budžetu](ledger-budgets-power-bi.md)
 - [Power BI satura priekšrocības](benefits-power-bi.md)

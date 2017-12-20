@@ -3,7 +3,7 @@ title: "Īsinājumtaustiņi"
 description: "Programmā Dynamics 365 for Finance and Operations, Enterprise Edition tiek izmantoti tālāk norādītie īsinājumtaustiņi."
 author: jasongre
 manager: AnnBe
-ms.date: 09/12/2017
+ms.date: 10/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 39ffbe81c0cc9ecb3f91f791442bfd27231a0516
+ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
+ms.openlocfilehash: 8e87721af34e1527d1d8eb254f0443e37d137730
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/20/2017
 
 ---
 
@@ -34,10 +34,14 @@ Programmā Dynamics 365 for Finance and Operations, Enterprise Edition tiek izma
 
 **Piezīme.** Šeit aprakstītie īsinājumtaustiņi attiecas uz ASV tastatūras izkārtojumu. Citos tastatūras izkārtojumos taustiņi var precīzi neatbilst taustiņiem ASV tastatūras izkārtojumā.
 
+## <a name="finding-a-shorcut"></a>Saīsnes atrašana
+Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lietotāji var noskaidrot tieši no lietotāja interfeisa. Vienkārši noklikšķiniet uz vadīklas ar peles labo pogu un atlasiet **Skatīt saīsnes**. Šādi tiek atvērts dialoglodziņš, kurā ir redzamas saīsnes, ko var izmantot, pamatojoties uz atrašanās vietu lapā. 
+
+
 ## <a name="action-shortcuts"></a>Darbību saīsnes
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
-| **Lai izpildītu šo darbību**                                    | **Nospiediet**                        |
+| **Darbība**                                    | **Nospiediet**                        |
 | Atvērt darbību meklēšanu                                | Ctrl+’ vai Alt+Q                  |
 | Pāriet uz standarta darbību rūti                  | Alt+M,A vai Ctrl+F6               |
 | Atvērt cilni darbību rūtī vai izvēlnē           | Enter vai atstarpes taustiņš vai Alt+bultiņa uz leju |
@@ -48,13 +52,14 @@ Programmā Dynamics 365 for Finance and Operations, Enterprise Edition tiek izma
 | Izpildīt noklusējuma pogas funkciju formā/dialoglodziņā   | Alt+Enter                        |
 | Noklikšķināt uz pogas vai elementa                            | Enter vai atstarpes taustiņš                   |
 | Skaita elementa informācijas atsvaidzināšana         | Alt+bultiņa uz augšu                     |
+| Skatīt pašlaik pieejamās saīsnes                | Alt+Shift+K                      |                              
 
 ## <a name="date-picker-shortcuts"></a>Datuma atlasītāja saīsnes
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
-| **Lai izpildītu šo darbību**                        | **Nospiediet**                                 |
+| **Darbība**                        | **Nospiediet**                                 |
 | Atvērt datuma atlasītāju                  | Alt+bultiņa uz leju                            |
-| Pārslēgt datumus datumu atlasītājā | Ctrl+bulttaustiņi                               |
+| Pārslēgt datumus datumu atlasītājā | Ctrl+bulttaustiņi                           |
 | Pāriet uz nākamo/iepriekšējo mēnesi       | Page Down/Page Up                       |
 | Pāriet uz nākamo/iepriekšējo gadu        | Ctrl+Shift+Page Down/Ctrl+Shift+Page Up |
 | Pārvietot uz šodienu                         | Ctrl + Home                                 |
@@ -65,6 +70,7 @@ Programmā Dynamics 365 for Finance and Operations, Enterprise Edition tiek izma
 ## <a name="factbox-shortcuts"></a>Papildinformācijas rūts saīsnes
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
+| **Darbība**                                                                  | **Nospiediet**                                 |
 | Atvērt papildinformācijas rūti (vai aktivizēt papildinformācijas rūti, ja tās jau ir atvērta) | Alt+M,B vai Ctrl+F2                        |
 | Aizvērt papildinformācijas rūti (kad papildinformācijas rūts ir aktivizēta)                         | Esc                                       |
 | Pāriet uz nākamo/iepriekšējo papildinformācijas rūti (kad papildinformācijas rūts ir aktivizēta)              | Alt+Shift+bultiņa uz leju/Alt+Shift+bultiņa uz augšu |

@@ -3,7 +3,7 @@ title: "Reģistrācijas ID"
 description: "Šajā tēmā ir sniegta informācija par reģistrācijas ID iestatīšanu un lietošanu."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e85e1ef9bb27e3644264c898feb3a484c5b3ec3f
+ms.sourcegitcommit: 3d3ad89f80c3e3f42e117109f4a76232795b7d64
+ms.openlocfilehash: e908d4ec41263ed4230ea5e70fa08db793abedc6
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/28/2017
 
 ---
 
@@ -98,6 +98,12 @@ Tālāk esošajā tabulā ir norādīti programmatūrā Dynamics 365 for Financ
 | OGRN                                                          | Krievijas Federācija| OGRN (tiesību aktos noteiktais veids OGRN programmatūrā AX 2012 R3) |
 | SNILS                                                         | Krievijas Federācija| SNILS (tiesību aktos noteiktais veids SNILS programmatūrā AX 2012 R3)|
 | CIFTS                                                         | Krievijas Federācija| CIFTS (tiesību aktos noteiktais veids CIFTS programmatūrā AX 2012 R3)|
+| Pase                                                      | Spānija             | Pase|
+| Oficiāls identifikācijas dokuments                              | Spānija             | Oficiāls identifikācijas dokuments|
+| Dzīvesvietas sertifikāts                                         | Spānija             | Dzīvesvietas sertifikāts|
+| Cits identifikācijas dokuments                                 | Spānija             | Cits identifikācijas dokuments|
+| Nav saskaitīts                                                  | Spānija             | Nav pieejams versijā AX 2012 R3|
+
 
 Papildinformāciju par reģistrācijas ID apstrādāšanu, tostarp nepieciešamajiem priekšnosacījumiem, skatiet tālāk norādītajos uzdevumu ierakstos, kas paredzēti PVN ID pakalpojumā Lifecycle Services (LCS).
 

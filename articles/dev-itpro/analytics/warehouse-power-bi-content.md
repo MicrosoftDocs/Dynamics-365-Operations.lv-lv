@@ -3,7 +3,7 @@ title: "Power BI saturs Noliktavas veiktspēja"
 description: "Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI saturā Noliktavas veiktspēja. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem."
 author: Mirzaab
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d30a14e78e35c94b9f8945d2fcc973f921698953
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: ea53e2bcd01cd06ccdd836ead1671b54aa9e9750
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -42,7 +42,7 @@ Noliktavas pārvaldnieki Power BI saturu **Noliktavas veiktspēja** var izmanto
 -   **Novietojuma krājumu precizitāte** — krājumu precizitāte ir svarīga noliktavas iekšējā biznesa informācija (BI). Ir ļoti svarīgi noteikt, cik precīzi notiek jūsu inventarizācija kopumā. Taču tāpat ir svarīgi noteikt, cik precīzi jūs glabājat krājumus pareizajos novietojumos, kā arī ir svarīgi izcelt neatbilstība datus, lai krājumiem varētu atrast labākas pozīcijas vai noteiktiem krājumiem uzsākt kopēju inventarizāciju. (Pašlaik kā labojumfails tiek piegādāta jaunā, uz krājumiem balstītā inventarizācijas funkcionalitāte.) Ja šo Power BI saturu izmantojat, lai noteiktu rīcībā esošo krājumu datu pareizību katram novietojumam, savos veikalos varat arī konstatēt zādzības. Varat arī noteikt, vai kādos novietojumos ir rīcībā esošie daudzumi, kas atšķiras no uzņēmuma resursu plānošanas (enterprise resource planning — ERP) datiem. Šie novietojumi varētu būt pārāk lieli, vai inventarizācija tajos varētu būt neiespējama. Alternatīvi kādas fiziskās pozicionēšanas varētu darboties slikti, tādēļ atsevišķa tipa krājumus varētu būt sarežģīti sinhronizēt ar rīcībā esošo krājumu datiem.
 
 ## <a name="accessing-the-power-bi-content-pack"></a>Piekļuve Power BI satura pakotnei
-Ja izmantojat Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (2017. gada jūlijs), tad Power BI saturs **Noliktavas veiktspēja** tiek rādīts lapā **Noliktavas veiktspēja** (**Noliktavas vadība** > **Pieprasījumi un pārskati** > **Noliktavas veiktspējas analīze** > **Noliktavas veiktspēja**). 
+Power BI satura pakotne **Noliktavas veiktspēja** tiek rādīta lapā **Noliktavas veiktspēja** (**Noliktavas pārvaldība** > **Pieprasījumi un pārskati** > **Noliktavas veiktspējas analīze** > **Noliktavas veiktspēja**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI saturā iekļautā metrika
 Power BI saturs **Noliktavas veiktspēja** ietver pārskatu. Šis pārskats sastāv no rādītāju kopas, kuri ir vizualizēti kā diagrammas, elementi un tabulas. Nākamajā tabulā ir sniegts apskats par vizualizācijām Power BI saturā **Noliktavas veiktspēja**.

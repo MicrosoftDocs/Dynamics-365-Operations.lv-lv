@@ -1,16 +1,16 @@
 ---
 title: "Ģenerēt finanšu pārskatu"
 description: "Šajā tēmā ir sniegta vispārīga informācija finanšu atskaites ģenerēšanu."
-author: ShylaThompson
+author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 68843
 ms.assetid: 271df6f4-12b7-4b3e-b2d7-36ea98ef1871
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
-ms.openlocfilehash: 2986d218318951b7e46cb5dfafcbd17f2d513755
+ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
+ms.openlocfilehash: 95669d83fdf69a6d55dd7ee1e4e33a67108e0371
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -40,15 +40,31 @@ Lai izveidotu pārskatu, atveriet pārskata definīciju un pēc tam rīkjoslā n
 
 Šī tabula sniedz pārskatu ģenerēšanai pieejamo opciju apskatu.
 
-| Opcija                                                                                | Plašāka informācija |
-|---------------------------------------------------------------------------------------|----------------------|
-| Iestatiet grafiku, lai automātiski izveidotu pārskatu vai pārskatu grupu              |                      |
-| Pārbaudīt trūkstošus kontus vai datus pārskatā, un apstipriniet pārskata precizitāti |                      |
+| Opcija                                                                                | 
+|---------------------------------------------------------------------------------------|
+| Iestatiet grafiku, lai automātiski izveidotu pārskatu vai pārskatu grupu              |   
+| Pārbaudīt trūkstošus kontus vai datus pārskatā, un apstipriniet pārskata precizitāti |   
 
 Kad veidojat atskaiti, tiek izmantotas opcijas, kuras jūs norādījāt cilnēs Atskaites definīcija . Cilnē Izvade un sadale varat norādīt atskaišu bibliotēkas atrašanās vietu, kas sniedz vieglu veidu, kā šo atskaiti kopīgot.
 
-## <a name="schedule-report-generation"></a> Pārskatu izveides plānošana
-Daudziem uzņēmumiem ir pamata kopas ar pārskatiem, kas tiek palaisti iepriekš ieplānotos intervālos, lai saskaņotu ar biznesa procesiem. Jūs var ieplānot regulāru pārskatu izveidi, piemēram, katru dienu, katru nedēļu, katru mēnesi vai reizi gadā. Tādā veidā var palaist vienu pārskatu vai vairāku pārskatu grupu, tostarp, ietverot vairākus uzņēmumus. Savi akreditācijas dati ir jāievada visiem norādītajiem uzņēmumiem, piemēram, pārskatu koka definīcijā norādītajiem uzņēmumiem. Ja akreditācijas dati nav derīgi, pārskats parādīs tikai informāciju, kurai jums ir piekļuves tiesības, piemēram, uzņēmums, ko esat reģistrējuši. Vispirms izlasiet izvades informāciju no pārskata grupas, un pēc tam no atsevišķiem pārskatiem.
+## <a name="generate-a-financial-report"></a>Ģenerēt finanšu pārskatu
+
+Lai ģenerētu finanšu pārskatu, izmantojot Microsoft Dynamics 365 for Finance and Operations, dodieties uz **Virsgrāmata** > **Pieprasījumi un pārskati** > **Finanšu pārskati**. 
+ - Atlasiet pārskatu, ko vēlaties ģenerēt, un noklikšķiniet uz **Ģenerēt**. 
+ - Aizpildiet lauku **Pārskata datums** un noklikšķiniet uz **Labi**.
+ 
+ Pēc pārskata ģenerēšanas šo pārskatu varēs skatīt sadaļā **Pārskati**.
+ Varat izvēlēties šo pārskatu **Skatīt** vai **Dzēst**.
+ 
+ 
+Lai ģenerētu pārskatu, izmantojot līdzekli **Pārskatu veidotājs**, atveriet pārskata definīciju un pēc tam rīkjoslā noklikšķiniet uz pogas Ģenerēt. Tiks atvērts logs Pārskata rindas statuss, un norādīs jūsu pārskata atrašanās vietu rindā. Pēc noklusējuma ģenerētais pārskats tiks atvērts pakalpojumā Tīmekļa skatītājs.
+
+> [!NOTE]
+> Atskaites varat ģenerēt tikai mapēs un atrašanās vietās, kurām jums ir piekļuves tiesības.
+
+
+## <a name="schedule-report-generation"></a>Pārskatu ģenerēšanas ieplānošana
+Daudziem uzņēmumiem ir izveidota pamata pārskatu kopa, kas tiek palaisti ieplānotajos intervālos atbilstošo uzņēmuma darbības procesiem. Jūs var ieplānot regulāru pārskatu izveidi, piemēram, katru dienu, katru nedēļu, katru mēnesi vai reizi gadā. Tādā veidā var palaist vienu pārskatu vai vairāku pārskatu grupu, tostarp, ietverot vairākus uzņēmumus. Savi akreditācijas dati ir jāievada visiem norādītajiem uzņēmumiem, piemēram, pārskatu koka definīcijā norādītajiem uzņēmumiem. Ja akreditācijas dati nav derīgi, pārskats parādīs tikai informāciju, kurai jums ir piekļuves tiesības, piemēram, uzņēmums, ko esat reģistrējuši. Vispirms izlasiet izvades informāciju no pārskata grupas, un pēc tam no atsevišķiem pārskatiem.
 
 Kad pārskata grafiki tiek izveidoti un saglabāti, tie tiek parādīti navigācijas rūtī sadaļā Pārskatu grafiki. Lai kārtotu pārskatus, varat izveidot mapes. Ja viens grafikā ietvertais pārskats netiek palaists, visi citi šajā grafikā ietvertie pārskati tiks palaisti.
 

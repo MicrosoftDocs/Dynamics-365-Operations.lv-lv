@@ -3,7 +3,7 @@ title: "Power BI saturs Finanšu veiktspēja"
 description: "Šajā tēmā ir aprakstīts Power BI saturs Finanšu veiktspēja. Tajā ir aprakstīts informācijas panelis un ietvertie pārskati, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem."
 author: kweekley
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f111698315cd42c0c1c0d470b94688b548375bee
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 3638f5acf6a05ec419dc4308e861d95f0d7b2cea
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -38,7 +38,7 @@ Power BI saturam **Finanšu veiktspēja** varat piekļūt no Microsoft Dynamics
 ### <a name="available-from-lcs"></a>Pieejams no LCS
 No LCS pieejamajam Power BI saturam **Finanšu veiktspēja** tiek atbalstītas tālāk norādītās versijas.
 
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (2017. gada jūlijs)
+- Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition versijas
 - Microsoft Dynamics 365 for Operations versija 1611 
 
 Power BI saturs ir atrodams LCS koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt satura pakotni un ieviest to savā organizācijā, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md). Power BI satura pakotnes implementēšanas demonstrāciju skatiet tēmā [Power BI saturs pakalpojumā Dynamics Lifecycle Services no Microsoft un jūsu partneriem](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
