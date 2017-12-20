@@ -1,131 +1,540 @@
 ---
-title: "Finanšu pārskata data mart atiestatīšana pēc datu bāzes atjaunošanas"
-description: "Šajā tēmā ir aprakstīts, kā atiestatīt finanšu pārskatu data mart pēc Microsoft Dynamics 365 for Finance and Operations datu bāzes atjaunošanas."
-author: ShylaThompson
+title: "Finanšu pārskatu datuves atiestatīšana"
+description: "Šajā tēmā ir aprakstīts, kā atiestatīt finanšu pārskatu datuvi."
+author: aolson
 manager: AnnBe
-ms.date: 08/15/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 261824
 ms.search.region: Global
-ms.author: kweekley
+ms.author: aloson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6e3f78fb2f6528449d2a411225cd0e14ca33443e
+ms.sourcegitcommit: 0786d3377b914791106ef30455d676e5ab2ae03d
+ms.openlocfilehash: c708fa18b8676d8ff57c26b3176a36d86df29387
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/07/2017
 
 ---
 
-# <a name="reset-the-financial-reporting-data-mart-after-restoring-a-database"></a><span data-ttu-id="88385-103">Finanšu pārskata data mart atiestatīšana pēc datu bāzes atjaunošanas</span><span class="sxs-lookup"><span data-stu-id="88385-103">Reset the financial reporting data mart after restoring a database</span></span>
+# <a name="reset-the-financial-reporting-data-mart"></a><span data-ttu-id="f75cc-103">Finanšu pārskatu datuves atiestatīšana</span><span class="sxs-lookup"><span data-stu-id="f75cc-103">Reset the Financial reporting data mart</span></span>
 
 [!include[banner](../includes/banner.md)]
 
+<span data-ttu-id="f75cc-104">Šajā tēmā ir izskaidrots, kā atiestatīt finanšu pārskatu datuvi tālāk norādītajās versijās.</span><span class="sxs-lookup"><span data-stu-id="f75cc-104">This topic explains how to reset the Financial reporting data mart for the following versions:</span></span>
 
-<span data-ttu-id="88385-104">Šajā tēmā ir aprakstīts, kā atiestatīt finanšu pārskatu data mart pēc Microsoft Dynamics 365 for Finance and Operations datu bāzes atjaunošanas.</span><span class="sxs-lookup"><span data-stu-id="88385-104">This topic describes how to reset the financial reporting data mart after restoring a Microsoft Dynamics 365 for Finance and Operations database.</span></span>
+- <span data-ttu-id="f75cc-105">Microsoft Dynamics 365 for Finance and Operations Finanšu pārskati, laidiens 7.2.6.0 un jaunāks</span><span class="sxs-lookup"><span data-stu-id="f75cc-105">Microsoft Dynamics 365 for Finance and Operations Financial reporting release 7.2.6.0 and later</span></span>
+- <span data-ttu-id="f75cc-106">Microsoft Dynamics 365 for Finance and Operations Finanšu pārskati, laidiens 7.0.10000.4 un jaunāks</span><span class="sxs-lookup"><span data-stu-id="f75cc-106">Microsoft Dynamics 365 for Finance and Operations Financial reporting release 7.0.10000.4 and later</span></span>
+- <span data-ttu-id="f75cc-107">Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (lokālā)</span><span class="sxs-lookup"><span data-stu-id="f75cc-107">Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (on-premises)</span></span>
 
-<span data-ttu-id="88385-105">Ja atjaunojat Finance and Operations datu bāzi no dublējuma vai kopējat datu bāzi no citas vides, ir jāizpilda šajā tēmā norādītās darbības, lai nodrošinātu, ka finanšu pārskata data mart ir pareizi, izmantojot atjaunoto Finance and Operations datu bāzi.</span><span class="sxs-lookup"><span data-stu-id="88385-105">If you ever restore your Finance and Operations database from a backup or copy the database from another environment, you must follow the steps in this topic to ensure that the financial reporting data mart is correctly using the restored Finance and Operations database.</span></span> 
-> [!Note] 
-> <span data-ttu-id="88385-106">Šī procesa darbības tiek atbalstītas Dynamics 365 for Operations 2016. gada maija laidienā (programmas būvējums 7.0.1265.23014 un finanšu pārskatu būvējums 7.0.10000.4) un jaunākos laidienos.</span><span class="sxs-lookup"><span data-stu-id="88385-106">The steps in this process are supported for Dynamics 365 for Operation May 2016 release (App build 7.0.1265.23014 and financial reporting build 7.0.10000.4) and newer releases.</span></span> <span data-ttu-id="88385-107">Ja lietojat vecāku Dynamics 365 for Finance and Operations laidienu, sazinieties ar mūsu atbalsta dienestu, lai saņemtu palīdzību.</span><span class="sxs-lookup"><span data-stu-id="88385-107">If you have an earlier release of Finance and Operations, contact our Support team for assistance.</span></span>
+<span data-ttu-id="f75cc-108">Lai saņemtu Finance and Operations Finanšu pārskati laidienu 7.2.6.0, varat lejupielādēt KB 4052514 no <https://support.microsoft.com/en-us/help/4052514>.</span><span class="sxs-lookup"><span data-stu-id="f75cc-108">To get Finance and Operations Financial reporting release 7.2.6.0, you can download KB 4052514 from <https://support.microsoft.com/en-us/help/4052514>.</span></span>
 
-## <a name="export-report-definitions"></a><span data-ttu-id="88385-108">Pārskatu definīciju eksportēšana</span><span class="sxs-lookup"><span data-stu-id="88385-108">Export report definitions</span></span>
-<span data-ttu-id="88385-109">Vispirms eksportējiet pārskatu dizainus no pārskatu veidotāja, veicot tālāk norādītās darbības.</span><span class="sxs-lookup"><span data-stu-id="88385-109">First, export the report designs located in the Report Designer, using the following steps:</span></span>
+## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-financial-reporting-release-7260-and-later"></a><span data-ttu-id="f75cc-109">Finanšu pārskatu datuves atiestatīšana Finance and Operations Finanšu pārskati laidienam 7.2.6.0 un jaunākam</span><span class="sxs-lookup"><span data-stu-id="f75cc-109">Reset the Financial reporting data mart for Finance and Operations Financial reporting release 7.2.6.0 and later</span></span>
 
-1.  <span data-ttu-id="88385-110">Pārskatu veidotājā pārejiet uz sadaļu **Uzņēmums** &gt; **Veidošanas bloku grupas**.</span><span class="sxs-lookup"><span data-stu-id="88385-110">In the Report Designer, go to **Company** &gt; **Building Block Groups**.</span></span>
-2.  <span data-ttu-id="88385-111">Atlasiet eksportējamo veidošanas bloku grupu un noklikšķiniet uz **Eksportēt**.</span><span class="sxs-lookup"><span data-stu-id="88385-111">Select the building block group to export, and click **Export**.</span></span> 
+### <a name="reset-the-financial-reporting-data-mart-from-report-designer"></a><span data-ttu-id="f75cc-110">Finanšu pārskatu datuves atiestatīšana no pārskatu veidotāja</span><span class="sxs-lookup"><span data-stu-id="f75cc-110">Reset the Financial reporting data mart from Report designer</span></span>
 
-    > [!Note] 
-    > <span data-ttu-id="88385-112">Programmatūrā Dynamics 365 for Finance and Operations tiek atbalstīta tikai viena veidošanas bloku grupa **Noklusējuma**.</span><span class="sxs-lookup"><span data-stu-id="88385-112">For Finance and Operations, only one building block group is supported, **Default**.</span></span>
-    
-3.  <span data-ttu-id="88385-113">Atlasiet eksportējamās pārskatu definīcijas, veicot tālāk norādītās darbības.</span><span class="sxs-lookup"><span data-stu-id="88385-113">Select the report definitions to export:</span></span>
-    -   <span data-ttu-id="88385-114">Lai eksportētu visas pārskatu definīcijas un saistītos veidošanas blokus, noklikšķiniet uz **Atlasīt visu**.</span><span class="sxs-lookup"><span data-stu-id="88385-114">To export all your report definitions and the associated building blocks, click **Select All**.</span></span>
-    -   <span data-ttu-id="88385-115">Lai eksportētu noteiktas atskaites, rindas, kolonnas, koku struktūras vai dimensiju kopas, noklikšķiniet uz atbilstošās cilnes un pēc tam atlasiet eksportējamos vienumus.</span><span class="sxs-lookup"><span data-stu-id="88385-115">To export specific reports, rows, columns, trees, or dimension sets, click the appropriate tab, and then select the items to export.</span></span> <span data-ttu-id="88385-116">Lai cilnē atlasītu vairākus vienumus, nospiediet un turiet taustiņu Ctrl. Kad eksportēšanai atlasāt pārskatus, tiek atlasītas arī saistītās rindas, kolonnas, koki un dimensiju kopas.</span><span class="sxs-lookup"><span data-stu-id="88385-116">Press and hold the Ctrl key to select multiple items in a tab. When you select reports to export, the associated rows, columns, trees, and dimension sets are selected.</span></span>
-
-4.  <span data-ttu-id="88385-117">Noklikšķiniet uz **Eksportēt**.</span><span class="sxs-lookup"><span data-stu-id="88385-117">Click **Export**.</span></span>
-5.  <span data-ttu-id="88385-118">Ievadiet faila nosaukumu un atlasiet drošu atrašanās vietu, kur vēlaties saglabāt eksportētās pārskatu definīcijas.</span><span class="sxs-lookup"><span data-stu-id="88385-118">Enter a file name and select a secure location where you want to save the exported report definitions.</span></span>
-6.  <span data-ttu-id="88385-119">Noklikšķiniet uz **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="88385-119">Click **Save**.</span></span>
-
-<span data-ttu-id="88385-120">Failu var kopēt vai augšupielādēt drošā atrašanās vietā, lai vēlāk to varētu importēt citā vidē.</span><span class="sxs-lookup"><span data-stu-id="88385-120">The file can be copied or uploaded to a secure location, allowing it to be imported into a different environment at another time.</span></span> <span data-ttu-id="88385-121">Informācija par Microsoft Azure krātuves konta lietošanu ir pieejama tēmā [Datu pārsūtīšana, izmantojot komandrindas utilītu AzCopy](/azure/storage/storage-use-azcopy).</span><span class="sxs-lookup"><span data-stu-id="88385-121">Information about using a Microsoft Azure storage account can be found in [Transfer data with the AzCopy Command-Line Utility](/azure/storage/storage-use-azcopy).</span></span> 
 > [!NOTE]
-> <span data-ttu-id="88385-122">Microsoft krātuves kontu nenodrošina Dynamics 365 for Finance and Operations līguma ietvaros.</span><span class="sxs-lookup"><span data-stu-id="88385-122">Microsoft doesn’t provide a storage account as part of your Finance and Operations agreement.</span></span> <span data-ttu-id="88385-123">Jums ir jāiegādājas krātuves konts vai jāizmanto atsevišķa Azure abonementa krātuves konts.</span><span class="sxs-lookup"><span data-stu-id="88385-123">You must either purchase a storage account or use a storage account from a separate Azure subscription.</span></span> 
+> <span data-ttu-id="f75cc-111">Šajā procedūrā ietvertās darbības tiek atbalstītas Finance and Operations Finanšu pārskati laidienā 7.2.6.0 un jaunākos.</span><span class="sxs-lookup"><span data-stu-id="f75cc-111">The steps in this process are supported for Finance and Operations Financial reporting release 7.2.6.0 and later.</span></span> <span data-ttu-id="f75cc-112">Ja jums ir agrāks laidiens, sazinieties ar atbalsta darba grupu, lai saņemtu palīdzību.</span><span class="sxs-lookup"><span data-stu-id="f75cc-112">If you have an earlier release, contact the Support team for assistance.</span></span>
+
+<span data-ttu-id="f75cc-113">Noteiktos scenārijos jums var būt nepieciešams atiestatīt finanšu pārskatu datuvi.</span><span class="sxs-lookup"><span data-stu-id="f75cc-113">In specific scenarios, you might have to reset the data mart for Financial reporting.</span></span> <span data-ttu-id="f75cc-114">Šo uzdevumu varat veikt pārskatu veidotāja klientā.</span><span class="sxs-lookup"><span data-stu-id="f75cc-114">You can complete this task in the Report designer client.</span></span> <span data-ttu-id="f75cc-115">Tālāk ir aprakstīti daži scenāriji, kuros varētu rasties nepieciešamība atiestatīt datuvi.</span><span class="sxs-lookup"><span data-stu-id="f75cc-115">Here are some scenarios where you might have to reset the data mart:</span></span>
+
+- <span data-ttu-id="f75cc-116">Finance and Operations datu bāze tika atjaunota, bet datuve netika atjaunota.</span><span class="sxs-lookup"><span data-stu-id="f75cc-116">The Finance and Operations database was restored, but the data mart database wasn't restored.</span></span>
+- <span data-ttu-id="f75cc-117">Kādam periodam tiek rādīti nepareizi dati.</span><span class="sxs-lookup"><span data-stu-id="f75cc-117">You see incorrect data for a period.</span></span>
+- <span data-ttu-id="f75cc-118">Atbalsta dienests jūs instruē, ka traucējummeklēšanas procedūras ietvaros ir nepieciešams atiestatīt datuvi.</span><span class="sxs-lookup"><span data-stu-id="f75cc-118">Support instructs you to reset the data mart as part of a troubleshooting step.</span></span>
+
+<span data-ttu-id="f75cc-119">Datuves atiestatīšanu vajadzētu veikt tikai laikā, kad datu bāzes apstrādes apjoms ir mazs.</span><span class="sxs-lookup"><span data-stu-id="f75cc-119">The data mart reset should be done only during times when the amount of processing on the database is small.</span></span> <span data-ttu-id="f75cc-120">Atiestatīšanas procesa laika finanšu pārskati nav pieejami.</span><span class="sxs-lookup"><span data-stu-id="f75cc-120">Financial reporting will be unavailable during the reset process.</span></span>
+
+#### <a name="reset-the-data-mart"></a><span data-ttu-id="f75cc-121">Datuves atiestatīšana</span><span class="sxs-lookup"><span data-stu-id="f75cc-121">Reset the data mart</span></span>
+
+<span data-ttu-id="f75cc-122">Lai atiestatītu datuvi, pārskatu veidotāja izvēlnē **Rīki** atlasiet **Atiestatīt datuvi**.</span><span class="sxs-lookup"><span data-stu-id="f75cc-122">To reset the data mart, in Report designer, on the **Tools** menu, select **Reset Data Mart**.</span></span> <span data-ttu-id="f75cc-123">Tiek parādīts dialoglodziņš ar divām sadaļām: **Statistika** un **Atiestatīt**.</span><span class="sxs-lookup"><span data-stu-id="f75cc-123">The dialog box that appears has two sections: **Statistics** and **Reset**.</span></span>
+
+<span data-ttu-id="f75cc-124">[![Datuves atiestatīšanas dialoglodziņš](./media/Statistics.png)](./media/Statistics.png)</span><span class="sxs-lookup"><span data-stu-id="f75cc-124">[![Reset Data Mart dialog box](./media/Statistics.png)](./media/Statistics.png)</span></span>
+
+##### <a name="integration-attempts"></a><span data-ttu-id="f75cc-125">Integrācijas mēģinājumi</span><span class="sxs-lookup"><span data-stu-id="f75cc-125">Integration attempts</span></span>
+
+<span data-ttu-id="f75cc-126">Režģī **Integrācijas mēģinājumi** tiek rādīts, cik reižu sistēma ir mēģinājusi integrēt transakcijas.</span><span class="sxs-lookup"><span data-stu-id="f75cc-126">The **Integration attempts** grid shows how many times the system has tried to integrate transactions.</span></span> <span data-ttu-id="f75cc-127">Ja pirmie daži mēģinājumi ir nesekmīgi, sistēma datu integrēšanu turpina mēģināt vairākas dienas.</span><span class="sxs-lookup"><span data-stu-id="f75cc-127">The system continues to try to integrate data over a period of days if the first few attempts aren't successful.</span></span> <span data-ttu-id="f75cc-128">Varat zināt, ka datuvi ir nepieciešams atiestatīt, ja šo mēģinājumu skaits ir 8 vai vairāk, kā arī, ja ir daudz dimensiju kombināciju vai transakciju ierakstu.</span><span class="sxs-lookup"><span data-stu-id="f75cc-128">You will know that the data mart must be reset is if the number of attempts is 8 or more, and if there are many Dimension combination or Transaction records.</span></span> <span data-ttu-id="f75cc-129">Šādā gadījumā par datiem netiek ziņots.</span><span class="sxs-lookup"><span data-stu-id="f75cc-129">In this situation, the data won't be reported on.</span></span>
+
+##### <a name="data-status"></a><span data-ttu-id="f75cc-130">Datu statuss</span><span class="sxs-lookup"><span data-stu-id="f75cc-130">Data status</span></span>
+
+<span data-ttu-id="f75cc-131">Režģī **Datu statuss** ir sniegts momentuzņēmums par transakcijām, valūtas maiņas kursiem un dimensiju vērtībām datuvē.</span><span class="sxs-lookup"><span data-stu-id="f75cc-131">The **Data status** grid provides a snapshot of the transactions, exchange rates, and dimension values in the data mart.</span></span> <span data-ttu-id="f75cc-132">Liels daudzums novecojušu ierakstu norāda, ka ierakstiem ir notikuši daudzi atjauninājumi.</span><span class="sxs-lookup"><span data-stu-id="f75cc-132">A large number of stale records indicates that numerous updates to the records have occurred.</span></span> <span data-ttu-id="f75cc-133">Šāda situācija var palēnināt pārskatu ģenerēšanas laikus.</span><span class="sxs-lookup"><span data-stu-id="f75cc-133">This situation might cause slower report generation times.</span></span>
+
+##### <a name="misaligned-main-account-categories"></a><span data-ttu-id="f75cc-134">Nesalāgotas galvenā konta kategorijas</span><span class="sxs-lookup"><span data-stu-id="f75cc-134">Misaligned main account categories</span></span>
+
+<span data-ttu-id="f75cc-135">Ja izmantojat laidienu, kas ir agrāks par Microsoft Dynamics 365 for Finance and Operations Finanšu pārskati laidienu 7.2.1, datuvi var būt nepieciešams atiestatīt, ja pārdēvējat kontus vai pārvietojat kontus starp dažādām kategorijām.</span><span class="sxs-lookup"><span data-stu-id="f75cc-135">If you're using a release that is earlier than Microsoft Dynamics 365 for Finance and Operations Financial reporting release 7.2.1, you might have to reset the data mart if you rename accounts and move accounts between account categories.</span></span> <span data-ttu-id="f75cc-136">Šīs darbības var izraisīt nepareizu galvenā konta kategoriju salāgošanu.</span><span class="sxs-lookup"><span data-stu-id="f75cc-136">These actions can cause main account categories to become misaligned.</span></span> <span data-ttu-id="f75cc-137">Laukā **Nesalāgotas galvenā konta kategorijas** tiek rādīts, vai ir radusies šī problēma.</span><span class="sxs-lookup"><span data-stu-id="f75cc-137">The **Misaligned main account categories** field shows whether you're experiencing that issue.</span></span>
+
+### <a name="reset-the-data-mart-in-finance-and-operations-financial-reporting-release-7260"></a><span data-ttu-id="f75cc-138">Datuves atiestatīšana Finance and Operations Finanšu pārskati laidienā 7.2.6.0</span><span class="sxs-lookup"><span data-stu-id="f75cc-138">Reset the data mart in Finance and Operations Financial reporting release 7.2.6.0</span></span>
+
+<span data-ttu-id="f75cc-139">Lai datuvi atiestatītu Finance and Operations Finanšu pārskati laidienā 7.2.6.0 un agrākos laidienos, dialoglodziņā **Atiestatīt datuvi** atzīmējiet izvēles rūtiņu **Atiestatīt datuvi** un pēc tam noklikšķiniet uz **Labi**.</span><span class="sxs-lookup"><span data-stu-id="f75cc-139">To reset the data mart in Finance and Operations Financial reporting release 7.2.6.0 and earlier, in the **Reset Data Mart** dialog box, select the **Reset data mart** check box, and then select **OK**.</span></span> <span data-ttu-id="f75cc-140">Datuves atiestatīšanu vajadzētu veikt tikai laikā, kad nav ieplānots darbs.</span><span class="sxs-lookup"><span data-stu-id="f75cc-140">You should reset the data mart only during scheduled downtime.</span></span>
+
+<span data-ttu-id="f75cc-141">[![Datuves atiestatīšanas izvēles rūtiņa](./media/Reset-72.jpg)](./media/Reset-72.jpg)</span><span class="sxs-lookup"><span data-stu-id="f75cc-141">[![Reset data mart check box](./media/Reset-72.jpg)](./media/Reset-72.jpg)</span></span>
+
+### <a name="reset-the-data-mart-and-select-a-reason-in-microsoft-dynamics-365-for-finance-and-operations-financial-reporting-release-730"></a><span data-ttu-id="f75cc-142">Datuves atiestatīšana un iemesla atlasīšana Microsoft Dynamics 365 for Finance and Operations Finanšu pārskati laidienā 7.3.0</span><span class="sxs-lookup"><span data-stu-id="f75cc-142">Reset the data mart and select a reason in Microsoft Dynamics 365 for Finance and Operations Financial reporting release 7.3.0</span></span>
+
+<span data-ttu-id="f75cc-143">Ja konstatējat, ka ir nepieciešams atiestatīt datuvi, atzīmējiet izvēles rūtiņu **Atiestatīt datuvi** un pēc tam laukā **Iemesls** atlasiet iemeslu.</span><span class="sxs-lookup"><span data-stu-id="f75cc-143">If you determine that a data mart reset is required, select the **Reset data mart** check box, and then select a reason in the **Reason** field.</span></span> <span data-ttu-id="f75cc-144">Ir pieejamas tālāk minētās opcijas.</span><span class="sxs-lookup"><span data-stu-id="f75cc-144">The following options are available:</span></span>
+
+- <span data-ttu-id="f75cc-145">**Trūkstoši vai nepareizi dati** — pamatojoties uz statistisko informāciju, esat konstatējis, ka trūkst datu.</span><span class="sxs-lookup"><span data-stu-id="f75cc-145">**Missing or incorrect data** – Based on the statistics, you've determined that data might be missing.</span></span> <span data-ttu-id="f75cc-146">Pirms turpināšanas ieteicams sadarboties ar atbalsta dienestu, lai noteiktu cēloni.</span><span class="sxs-lookup"><span data-stu-id="f75cc-146">Before you continue, we recommend that you work with Support to determine the root cause.</span></span>
+- <span data-ttu-id="f75cc-147">**Atjaunot datu bāzi** — Finance and Operations datu bāze tika atjaunota, bet datuve netika atjaunota.</span><span class="sxs-lookup"><span data-stu-id="f75cc-147">**Restore database** – The Finance and Operations database was restored, but the database for the Financial reporting data mart wasn't restored.</span></span>
+- <span data-ttu-id="f75cc-148">**Cits** — datuvi atiestatāt cita iemesla dēļ.</span><span class="sxs-lookup"><span data-stu-id="f75cc-148">**Other** – You're resetting the data mart for another reason.</span></span> <span data-ttu-id="f75cc-149">Ja raizējaties, ka varētu pastāvēt kāda problēma, sazinieties ar atbalsta dienestu, lai to noskaidrotu.</span><span class="sxs-lookup"><span data-stu-id="f75cc-149">If you're concerned that there is an issue, contact Support to identify it.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="f75cc-150">Pirms šo darbību veikšanas pārliecinieties, vai visiem esošajiem uzdevumiem ir pabeigta integrēšana.</span><span class="sxs-lookup"><span data-stu-id="f75cc-150">Verify that all existing tasks have finished integrating before you complete the steps.</span></span> <span data-ttu-id="f75cc-151">Integrācijas statusu varat apskatīt, atlasot **Rīki** &gt; **Integrācijas statuss**.</span><span class="sxs-lookup"><span data-stu-id="f75cc-151">You can view the status of the integration by selecting **Tools** &gt; **Integration status**.</span></span>
+
+#### <a name="clear-users-and-companies"></a><span data-ttu-id="f75cc-152">Notīrīt lietotājus un uzņēmumus</span><span class="sxs-lookup"><span data-stu-id="f75cc-152">Clear users and companies</span></span>
+
+<span data-ttu-id="f75cc-153">Atzīmējiet izvēles rūtiņu **Notīrīt lietotājus un uzņēmumus**, ja atjaunojāt savu datu bāzi, bet pēc tam veicāt kādas izmaiņas lietotājiem vai uzņēmumiem.</span><span class="sxs-lookup"><span data-stu-id="f75cc-153">Select the **Clear users and companies** check box if you restored your database, but you then made changes to users or companies.</span></span> <span data-ttu-id="f75cc-154">Vajadzībai atzīmēt šo izvēles rūtiņu vajadzētu rasties reti.</span><span class="sxs-lookup"><span data-stu-id="f75cc-154">You should rarely have to select this check box.</span></span>
+
+<span data-ttu-id="f75cc-155">Kad esat gatavs sākt atiestatīšanas procesu, atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="f75cc-155">When you're ready to start the reset process, select **OK**.</span></span> <span data-ttu-id="f75cc-156">Tiek parādīta uzvedne ar lūgumu apstiprināt, ka esat gatavs procesa sākšanai.</span><span class="sxs-lookup"><span data-stu-id="f75cc-156">You're prompted to confirm that you're ready to start the process.</span></span> <span data-ttu-id="f75cc-157">Ņemiet vērā, ka atiestatīšanas laikā finanšu pārskati nav pieejami un pēc tam notiek sākotnējo datu integrēšana.</span><span class="sxs-lookup"><span data-stu-id="f75cc-157">Note that Financial reporting won't be available during the reset and the initial data integration that occurs afterward.</span></span>
+
+<span data-ttu-id="f75cc-158">Ja vēlaties pārskatīt integrācijas statusu, atlasiet **Rīki** &gt; **Integrācijas statuss**, lai apskatītu pēdējo reizi, kad tika veikta integrēšana, un tās statusu.</span><span class="sxs-lookup"><span data-stu-id="f75cc-158">If you want to review the status of the integration, select **Tools** &gt; **Integration status** to see the last time that the integration was run and the status.</span></span>
+
+<span data-ttu-id="f75cc-159">[![Integrācijas statusa skatīšana](./media/Integration.png)](./media/Integration.png)</span><span class="sxs-lookup"><span data-stu-id="f75cc-159">[![View the status of the integration](./media/Integration.png)](./media/Integration.png)</span></span>
+
+## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-financial-reporting-release-70100004-and-later"></a><span data-ttu-id="f75cc-160">Finanšu pārskatu datuves atiestatīšana Finance and Operations Finanšu pārskati laidienam 7.0.10000.4 un jaunākam</span><span class="sxs-lookup"><span data-stu-id="f75cc-160">Reset the Financial reporting data mart for Finance and Operations Financial reporting release 7.0.10000.4 and later</span></span>
+
+<span data-ttu-id="f75cc-161">Ja savu Finance and Operations datu bāzi kaut kad atjaunojat no dublējuma vai kopējat datu bāzi no citas vides, ir jāizpilda šajā sadaļā norādītās darbības, lai palīdzētu nodrošināt, ka finanšu pārskatu datuve pareizi izmanto atjaunoto Finance and Operations datu bāzi.</span><span class="sxs-lookup"><span data-stu-id="f75cc-161">If you ever restore your Finance and Operations database from a backup or copy the database from another environment, you must follow the steps in this section to help guarantee that the Financial reporting data mart correctly uses the restored Finance and Operations database.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="f75cc-162">Šajā procedūrā ietvertās darbības tiek atbalstītas Microsoft Dynamics AX programmas versijai 7.0.1 (2016. gada maijs) (programmas būvējums 7.0.1265.23014 un finanšu pārskatu būvējums 7.0.10000.4) un vēlākai.</span><span class="sxs-lookup"><span data-stu-id="f75cc-162">The steps in this process are supported for Microsoft Dynamics AX application version 7.0.1 (May 2016) (application build 7.0.1265.23014 and Financial reporting build 7.0.10000.4) and later.</span></span> <span data-ttu-id="f75cc-163">Ja lietojat vecāku Finance and Operations versiju, sazinieties ar atbalsta dienestu, lai saņemtu palīdzību.</span><span class="sxs-lookup"><span data-stu-id="f75cc-163">If you have an earlier version of Finance and Operations, contact Support for assistance.</span></span>
+
+### <a name="export-report-definitions"></a><span data-ttu-id="f75cc-164">Pārskatu definīciju eksportēšana</span><span class="sxs-lookup"><span data-stu-id="f75cc-164">Export report definitions</span></span>
+
+<span data-ttu-id="f75cc-165">Vispirms izpildiet darbības pārskatu dizainu eksportēšanai no pārskatu veidotāja.</span><span class="sxs-lookup"><span data-stu-id="f75cc-165">First, follow these steps to export the report designs from Report designer.</span></span>
+
+1. <span data-ttu-id="f75cc-166">Pārskatu veidotājā atlasiet **Uzņēmums** &gt; **Veidošanas bloku grupas**.</span><span class="sxs-lookup"><span data-stu-id="f75cc-166">In Report designer, select **Company** &gt; **Building Block Groups**.</span></span>
+2. <span data-ttu-id="f75cc-167">Atlasiet eksportējamo veidošanas bloku grupu un pēc tam atlasiet **Eksportēt**.</span><span class="sxs-lookup"><span data-stu-id="f75cc-167">Select the building block group to export, and then select **Export**.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="f75cc-168">Programmatūrā Dynamics 365 for Finance and Operations tiek atbalstīta tikai viena veidošanas bloku grupa **Noklusējuma**.</span><span class="sxs-lookup"><span data-stu-id="f75cc-168">For Finance and Operations, only one building block group is supported, **Default**.</span></span>
+
+3. <span data-ttu-id="f75cc-169">Atlasiet eksportējamās pārskatu definīcijas, veicot tālāk norādītās darbības.</span><span class="sxs-lookup"><span data-stu-id="f75cc-169">Select the report definitions to export:</span></span>
+
+    - <span data-ttu-id="f75cc-170">Lai eksportētu visas pārskatu definīcijas un saistītos veidošanas blokus, atlasiet **Atlasīt visu**.</span><span class="sxs-lookup"><span data-stu-id="f75cc-170">To export all your report definitions and the associated building blocks, select **Select All**.</span></span>
+    - <span data-ttu-id="f75cc-171">Lai eksportētu noteiktus pārskatus, rindas, kolonnas, koku struktūras vai dimensiju kopas, atlasiet atbilstošo cilni un pēc tam atlasiet eksportējamos vienumus.</span><span class="sxs-lookup"><span data-stu-id="f75cc-171">To export specific reports, rows, columns, trees, or dimension sets, select the appropriate tab, and then select the items to export.</span></span> <span data-ttu-id="f75cc-172">Lai cilnē atlasītu vairākus vienumus, nospiediet un turiet taustiņu Ctrl. Kad eksportēšanai atlasāt pārskatus, tiek atlasītas arī saistītās rindas, kolonnas, koki un dimensiju kopas.</span><span class="sxs-lookup"><span data-stu-id="f75cc-172">Press and hold the Ctrl key to select multiple items on a tab. When you select reports to export, the associated rows, columns, trees, and dimension sets are selected.</span></span>
+
+4. <span data-ttu-id="f75cc-173">Atlasiet **Eksportēt**.</span><span class="sxs-lookup"><span data-stu-id="f75cc-173">Select **Export**.</span></span>
+5. <span data-ttu-id="f75cc-174">Ievadiet faila nosaukumu un atlasiet drošu atrašanās vietu, kur vēlaties saglabāt eksportētās pārskatu definīcijas.</span><span class="sxs-lookup"><span data-stu-id="f75cc-174">Enter a file name, and select a secure location where you want to save the exported report definitions.</span></span>
+6. <span data-ttu-id="f75cc-175">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="f75cc-175">Select **Save**.</span></span>
+
+<span data-ttu-id="f75cc-176">Failu varat kopēt vai augšupielādēt drošā atrašanās vietā.</span><span class="sxs-lookup"><span data-stu-id="f75cc-176">You can copy or upload the file to a secure location.</span></span> <span data-ttu-id="f75cc-177">Šādi failu vēlāk var importēt citā vidē.</span><span class="sxs-lookup"><span data-stu-id="f75cc-177">In this way, the file can be imported into a different environment later.</span></span> <span data-ttu-id="f75cc-178">Informācija par Microsoft Azure krātuves konta lietošanu skatiet šeit [Datu pārsūtīšana, izmantojot komandrindas utilītu AzCopy](/azure/storage/storage-use-azcopy).</span><span class="sxs-lookup"><span data-stu-id="f75cc-178">For information about how to use a Microsoft Azure storage account, see [Transfer data with the AzCopy Command-Line Utility](/azure/storage/storage-use-azcopy).</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="f75cc-179">Krātuves kontu Microsoft nenodrošina Dynamics 365 for Finance and Operations līguma ietvaros.</span><span class="sxs-lookup"><span data-stu-id="f75cc-179">Microsoft doesn't provide a storage account as part of your Finance and Operations agreement.</span></span> <span data-ttu-id="f75cc-180">Jums ir jāiegādājas krātuves konts vai jāizmanto atsevišķa Azure abonementa krātuves konts.</span><span class="sxs-lookup"><span data-stu-id="f75cc-180">You must either purchase a storage account or use a storage account from a separate Azure subscription.</span></span>
+
 > [!WARNING]
-> <span data-ttu-id="88385-124">Ņemiet vērā D diska darbību Azure virtuālajās mašīnās.</span><span class="sxs-lookup"><span data-stu-id="88385-124">Be aware of the behavior of the D drive on Azure Virtual Machines.</span></span> <span data-ttu-id="88385-125">Ilgstoši neglabājiet tajā eksportētās veidošanas bloku grupas.</span><span class="sxs-lookup"><span data-stu-id="88385-125">Do not keep your exported building block groups here permanently.</span></span> <span data-ttu-id="88385-126">Papildinformāciju par pagaidu diskiem skatiet tēmā [Izpratne par pagaidu disku Windows Azure virtuālajās mašīnās](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).</span><span class="sxs-lookup"><span data-stu-id="88385-126">For more information about temporary drives, see [Understanding the temporary drive on Windows Azure Virtual Machines](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).</span></span>
+> <span data-ttu-id="f75cc-181">Ņemiet vērā D diska uzvedību Azure virtuālajās mašīnās (VM).</span><span class="sxs-lookup"><span data-stu-id="f75cc-181">Be aware of the behavior of drive D on Azure virtual machines (VMs).</span></span> <span data-ttu-id="f75cc-182">Eksportētās veidošanas bloku grupas nedrīkst ilgstoši glabāt D diskā. Papildinformāciju par pagaidu diskiem skatiet šeit: [Izpratne par pagaidu disku Windows Azure virtuālajās mašīnās](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).</span><span class="sxs-lookup"><span data-stu-id="f75cc-182">Don't permanently store your exported building block groups on drive D. For more information about temporary drives, see [Understanding the temporary drive on Windows Azure Virtual Machines](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).</span></span>
 
-## <a name="stop-services"></a><span data-ttu-id="88385-127">Pakalpojumu apturēšana</span><span class="sxs-lookup"><span data-stu-id="88385-127">Stop services</span></span>
-<span data-ttu-id="88385-128">Izmantojiet attālo darbvirsmu, lai izveidotu savienojumu ar visiem vidē ietvertajiem datoriem un apturētu tālāk norādītos Windows pakalpojumus, izmantojot failu services.msc.</span><span class="sxs-lookup"><span data-stu-id="88385-128">Use Remote Desktop to connect to all the computers in the environment and stop the following Windows services by using services.msc:</span></span>
+### <a name="stop-services"></a><span data-ttu-id="f75cc-183">Pakalpojumu apturēšana</span><span class="sxs-lookup"><span data-stu-id="f75cc-183">Stop services</span></span>
 
--   <span data-ttu-id="88385-129">Globālā tīmekļa publicēšanas pakalpojums (visos AOS datoros)</span><span class="sxs-lookup"><span data-stu-id="88385-129">World wide web publishing service (on all AOS computers)</span></span>
--   <span data-ttu-id="88385-130">Microsoft Dynamics 365 for Finance and Operations lielapjoma pārvaldības pakalpojums (tikai tajos AOS datoros, kas nav privāti)</span><span class="sxs-lookup"><span data-stu-id="88385-130">Microsoft Dynamics 365 for Finance and Operations Batch Management Service (on non-private AOS computers only)</span></span>
--   <span data-ttu-id="88385-131">Management Reporter 2012 apstrādes pakalpojums (tikai BI datoros)</span><span class="sxs-lookup"><span data-stu-id="88385-131">Management Reporter 2012 Process Service (on BI computers only)</span></span>
+<span data-ttu-id="f75cc-184">Tālāk norādītajos Microsoft Windows pakalpojumus būs atvērti savienojumi ar Finance and Operations datu bāzi.</span><span class="sxs-lookup"><span data-stu-id="f75cc-184">The following Microsoft Windows services will have open connections to the Finance and Operations database.</span></span> <span data-ttu-id="f75cc-185">Tādēļ ir jālieto Microsoft attālā darbvirsma, lai izveidotu savienojumu ar visiem datoriem šajā vidē, un pēc tam ir jāizmanto fails services.msc, lai apturētu šos pakalpojumus.</span><span class="sxs-lookup"><span data-stu-id="f75cc-185">Therefore, you must use Microsoft Remote Desktop to connect to all the computers in the environment and then use services.msc to stop these services.</span></span>
 
-<span data-ttu-id="88385-132">Šiem pakalpojumiem ir atvērti savienojumi ar Dynamics 365 for Finance and Operations datu bāzi.</span><span class="sxs-lookup"><span data-stu-id="88385-132">These services will have open connections to the Finance and Operations database.</span></span>
+- <span data-ttu-id="f75cc-186">Globālā tīmekļa publicēšanas pakalpojums (visos Application Object Servers [AOS] datoros)</span><span class="sxs-lookup"><span data-stu-id="f75cc-186">World wide web publishing service (on all Application Object Servers [AOS] computers)</span></span>
+- <span data-ttu-id="f75cc-187">Microsoft Dynamics 365 for Finance and Operations lielapjoma pārvaldības pakalpojums (tikai tajos AOS datoros, kas nav privāti)</span><span class="sxs-lookup"><span data-stu-id="f75cc-187">Microsoft Dynamics 365 for Finance and Operations Batch Management Service (on non-private AOS computers only)</span></span>
+- <span data-ttu-id="f75cc-188">Management Reporter 2012 Process Service (tikai biznesa informācijas [BI] datoros)</span><span class="sxs-lookup"><span data-stu-id="f75cc-188">Management Reporter 2012 Process Service (on Business intelligence [BI] computers only)</span></span>
 
-## <a name="reset"></a><span data-ttu-id="88385-133">Atcelt izmaiņas</span><span class="sxs-lookup"><span data-stu-id="88385-133">Reset</span></span>
-### <a name="locate-and-download-the-latest-minorversiondataupgradezip-package"></a><span data-ttu-id="88385-134">Atrodiet un lejupielādējiet jaunāko MinorVersionDataUpgrade.zip pakotni</span><span class="sxs-lookup"><span data-stu-id="88385-134">Locate and download the latest MinorVersionDataUpgrade.zip package</span></span>
+### <a name="reset"></a><span data-ttu-id="f75cc-189">Atiestatīt</span><span class="sxs-lookup"><span data-stu-id="f75cc-189">Reset</span></span>
 
-<span data-ttu-id="88385-135">Atrodiet jaunāko MinorVersionDataUpgrade.zip pakotni, izmantojot norādījumus, kas ir sniegti tēmā [Lejupielādēt jaunāko izvietojamo datu jaunināšanas pakotni](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-packages).</span><span class="sxs-lookup"><span data-stu-id="88385-135">Locate the latest MinorVersionDataUpgrade.zip package using the directions found in [Download the latest data upgrade deployable package](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-packages).</span></span> <span data-ttu-id="88385-136">Norādījumos ir paskaidrots, kā noteikt un lejupielādēt pareizo datu jaunināšanas pakotnes versiju.</span><span class="sxs-lookup"><span data-stu-id="88385-136">The directions explain how to locate and download the correct version of the data upgrade package.</span></span> <span data-ttu-id="88385-137">Jauninājums nav nepieciešams, lai lejupielādētu MinorVersionDataUpgrade.zip pakotni.</span><span class="sxs-lookup"><span data-stu-id="88385-137">An upgrade is not required to download the MinorVersionDataUpgrade.zip package.</span></span> <span data-ttu-id="88385-138">Ir tikai jāizpilda sadaļā "Lejupielādēt jaunāko izvietojamo datu jaunināšanas pakotni" norādītās darbības, neveicot nekādas citas rakstā norādītās darbības MinorVersionDataUpgrade.zip pakotnes kopijas izgūšanai.</span><span class="sxs-lookup"><span data-stu-id="88385-138">You only need to complete the steps in the “Download the latest data upgrade deployable package” section without performing any of the other steps in the article to retrieve a copy of the MinorVersionDataUpgrade.zip package.</span></span>
+#### <a name="download-the-latest-minorversiondataupgradezip-package"></a><span data-ttu-id="f75cc-190">Visjaunākās MinorVersionDataUpgrade.zip pakotnes lejupielādēšana</span><span class="sxs-lookup"><span data-stu-id="f75cc-190">Download the latest MinorVersionDataUpgrade.zip package</span></span>
 
-### <a name="execute-scripts-against-finance-and-operations-database"></a><span data-ttu-id="88385-139">Skripta izpilde ar Dynamics 365 for Finance and Operations datu bāzi</span><span class="sxs-lookup"><span data-stu-id="88385-139">Execute scripts against Finance and Operations database</span></span>
+<span data-ttu-id="f75cc-191">Lejupielādējiet visjaunāko MinorVersionDataUpgrade.zip pakotni.</span><span class="sxs-lookup"><span data-stu-id="f75cc-191">Download the latest MinorVersionDataUpgrade.zip package.</span></span> <span data-ttu-id="f75cc-192">Norādījumus par to, kā atrast un lejupielādēt pareizo datu jaunināšanas pakotnes versiju, skatiet šeit: [Visjaunākās izvietojamās datu jaunināšanas pakotnes lejupielādēšana](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-packages).</span><span class="sxs-lookup"><span data-stu-id="f75cc-192">For instructions about how to find and download the correct version of the data upgrade package, see the[Download the latest data upgrade deployable package](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-packages).</span></span> <span data-ttu-id="f75cc-193">Lai lejupielādētu MinorVersionDataUpgrade.zip pakotni, nav nepieciešams jauninājums.</span><span class="sxs-lookup"><span data-stu-id="f75cc-193">An upgrade isn't required in order to download the MinorVersionDataUpgrade.zip package.</span></span> <span data-ttu-id="f75cc-194">Tādēļ jums ir tikai jāizpilda darbības attiecīgās tēmas sadaļā “Visjaunākās izvietojamās datu jaunināšanas pakotnes lejupielādēšana”.</span><span class="sxs-lookup"><span data-stu-id="f75cc-194">Therefore, you just have follow the steps in the "Download the latest data upgrade deployable package" section of that topic.</span></span> <span data-ttu-id="f75cc-195">Visas pārējās tēmā aprakstītās darbības varat izlaist.</span><span class="sxs-lookup"><span data-stu-id="f75cc-195">You can skip all the other steps in the topic.</span></span>
 
-<span data-ttu-id="88385-140">Izpildiet tālāk norādītos skriptus ar Dynamics 365 for Finance and Operations datu bāzi (nevis ar finanšu pārskatu datu bāzi).</span><span class="sxs-lookup"><span data-stu-id="88385-140">Run the following scripts against the Finance and Operations database (not against the financial reporting database).</span></span>
+#### <a name="run-scripts-against-the-finance-and-operations-database"></a><span data-ttu-id="f75cc-196">Skriptu palaišana ar Finance and Operations datu bāzi</span><span class="sxs-lookup"><span data-stu-id="f75cc-196">Run scripts against the Finance and Operations database</span></span>
 
--   <span data-ttu-id="88385-141">DataUpgrade.zip\\AosService\\Scripts\\ConfigureAxReportingIntegration.sql</span><span class="sxs-lookup"><span data-stu-id="88385-141">DataUpgrade.zip\\AosService\\Scripts\\ConfigureAxReportingIntegration.sql</span></span>
--   <span data-ttu-id="88385-142">DataUpgrade.zip\\AosService\\Scripts\\GrantAzViewChangeTracking.sql</span><span class="sxs-lookup"><span data-stu-id="88385-142">DataUpgrade.zip\\AosService\\Scripts\\GrantAzViewChangeTracking.sql</span></span>
+<span data-ttu-id="f75cc-197">Palaidiet tālāk norādītos skriptus ar Finance and Operations datu bāzi (nevis ar finanšu pārskatu datu bāzi).</span><span class="sxs-lookup"><span data-stu-id="f75cc-197">Run the following scripts against the Finance and Operations database (not against the Financial reporting database):</span></span>
 
-<span data-ttu-id="88385-143">Šie skripti nodrošina to, ka lietotāju, lomu un izmaiņu izsekošanas iestatījumi ir pareizi.</span><span class="sxs-lookup"><span data-stu-id="88385-143">These scripts ensure that the users, roles, and change tracking settings are correct.</span></span>
+- <span data-ttu-id="f75cc-198">DataUpgrade.zip\\AosService\\Scripts\\ConfigureAxReportingIntegration.sql</span><span class="sxs-lookup"><span data-stu-id="f75cc-198">DataUpgrade.zip\\AosService\\Scripts\\ConfigureAxReportingIntegration.sql</span></span>
+- <span data-ttu-id="f75cc-199">DataUpgrade.zip\\AosService\\Scripts\\GrantAzViewChangeTracking.sql</span><span class="sxs-lookup"><span data-stu-id="f75cc-199">DataUpgrade.zip\\AosService\\Scripts\\GrantAzViewChangeTracking.sql</span></span>
 
-### <a name="execute-powershell-command-to-reset-database"></a><span data-ttu-id="88385-144">PowerShell komandas izpilde, lai atiestatītu datu bāzi</span><span class="sxs-lookup"><span data-stu-id="88385-144">Execute PowerShell command to reset database</span></span>
+<span data-ttu-id="f75cc-200">Šie skripti palīdz nodrošināt, ka lietotāju, lomu un izmaiņu izsekošanas iestatījumi ir pareizi.</span><span class="sxs-lookup"><span data-stu-id="f75cc-200">These scripts help guarantee that the users, roles, and change tracking settings are correct.</span></span>
 
-<span data-ttu-id="88385-145">Lai atiestatītu integrāciju starp Finance and Operations un finanšu pārskatiem, AOS datorā, platformā PowerShell kā administrators izpildiet tālāk norādītās komandas.</span><span class="sxs-lookup"><span data-stu-id="88385-145">On the AOS computer, execute the following commands in PowerShell as an Administrator to reset the integration between Finance and Operations and financial reporting:</span></span>
+#### <a name="run-a-windows-powershell-command-to-reset-the-database"></a><span data-ttu-id="f75cc-201">Windows PowerShell komandas palaišana datu bāzes atiestatīšanai</span><span class="sxs-lookup"><span data-stu-id="f75cc-201">Run a Windows PowerShell command to reset the database</span></span>
+
+<span data-ttu-id="f75cc-202">AOS datorā palaidiet Microsoft Windows PowerShell kā lietotājs ar administratora tiesībām un palaidiet tālāk norādītās komandas, lai atiestatītu integrāciju starp Finance and Operations un finanšu pārskatiem.</span><span class="sxs-lookup"><span data-stu-id="f75cc-202">On the AOS computer, start Microsoft Windows PowerShell as an administrator, and run the following commands to reset the integration between Finance and Operations and Financial reporting.</span></span>
 
 ```
 F:
 cd F:\MRApplicationService\MRInstallDirectory
 Import-Module .\Server\MRDeploy\MRDeploy.psd1
-Reset-DatamartIntegration -Reason OTHER -ReasonDetail “<my reason for resetting>”
-
+Reset-DatamartIntegration -Reason OTHER -ReasonDetail "<reason for resetting>"
 ```
+
+<span data-ttu-id="f75cc-203">Tālāk ir sniegts paskaidrojums par komandā **Reset-DatamartIntegration** ietvertajiem parametriem.</span><span class="sxs-lookup"><span data-stu-id="f75cc-203">Here is an explanation of the parameters in the **Reset-DatamartIntegration** command:</span></span>
+
+- <span data-ttu-id="f75cc-204">Parametra **-Reason** derīgās vērtības ir **SERVICING**, **BADDATA** un **OTHER**.</span><span class="sxs-lookup"><span data-stu-id="f75cc-204">The valid values for **-Reason** are **SERVICING**, **BADDATA**, and **OTHER**.</span></span>
+- <span data-ttu-id="f75cc-205">Parametra **-ReasonDetail** vērtība ir brīvs teksts.</span><span class="sxs-lookup"><span data-stu-id="f75cc-205">The **-ReasonDetail** parameter is free text.</span></span>
+- <span data-ttu-id="f75cc-206">Iemesla un iemesla informācijas vērtības tiek reģistrētas telemetrijas/vides pārraudzībā.</span><span class="sxs-lookup"><span data-stu-id="f75cc-206">The reason and reason detail will be recorded in telemetry/environment monitoring.</span></span>
+
 > [!NOTE]
-> <span data-ttu-id="88385-146">Pēc šo komandu izpildīšanas tiks prasīts ievadīt “Y”, lai apstiprinātu.</span><span class="sxs-lookup"><span data-stu-id="88385-146">After executing the commands, you will be asked to enter “Y” to confirm.</span></span>
+> <span data-ttu-id="f75cc-207">Pēc šo komandu palaišanas jums tiks lūgts ievadīt **Y**, lai apstiprinātu, ka vēlaties atiestatīt datu bāzi.</span><span class="sxs-lookup"><span data-stu-id="f75cc-207">After you run the commands, you will be asked to enter **Y** to confirm that you want to reset the database.</span></span>
 
-<span data-ttu-id="88385-147">Tālāk ir sniegts parametru paskaidrojums.</span><span class="sxs-lookup"><span data-stu-id="88385-147">Explanation of parameters:</span></span>
+#### <a name="restart-services"></a><span data-ttu-id="f75cc-208">Pakalpojumu restartēšana</span><span class="sxs-lookup"><span data-stu-id="f75cc-208">Restart services</span></span>
 
--   <span data-ttu-id="88385-148">Parametra -Reason derīgās vērtības ir: SERVICING, BADDATA, OTHER.</span><span class="sxs-lookup"><span data-stu-id="88385-148">The valid values for -Reason are: SERVICING, BADDATA, OTHER.</span></span>
--   <span data-ttu-id="88385-149">Parametra -ReasonDetail vērtība ir brīvs teksts.</span><span class="sxs-lookup"><span data-stu-id="88385-149">The -ReasonDetail parameter is free text.</span></span>
--   <span data-ttu-id="88385-150">Parametru Reason un ReasonDetail vērtības tiek reģistrētas telemetrijas/vides pārraudzības žurnālā.</span><span class="sxs-lookup"><span data-stu-id="88385-150">The reason and reasonDetail will be recorded in telemetry/environment monitoring.</span></span>
+<span data-ttu-id="f75cc-209">Izmantojiet failu services.msc, lai atkal startētu pakalpojumus, ko iepriekš apturējāt.</span><span class="sxs-lookup"><span data-stu-id="f75cc-209">Use services.msc to restart the services that you stopped earlier:</span></span>
 
-## <a name="start-services"></a><span data-ttu-id="88385-151">Pakalpojumu startēšana</span><span class="sxs-lookup"><span data-stu-id="88385-151">Start services</span></span>
-<span data-ttu-id="88385-152">Izmantojiet failu services.msc, lai atkal startētu pakalpojumus, ko iepriekš apturējāt.</span><span class="sxs-lookup"><span data-stu-id="88385-152">Use services.msc to restart the services that you stopped earlier:</span></span>
+- <span data-ttu-id="f75cc-210">Globālā tīmekļa publicēšanas pakalpojums (visos AOS datoros)</span><span class="sxs-lookup"><span data-stu-id="f75cc-210">World wide web publishing service (on all AOS computers)</span></span>
+- <span data-ttu-id="f75cc-211">Microsoft Dynamics 365 for Finance and Operations lielapjoma pārvaldības pakalpojums (tikai tajos AOS datoros, kas nav privāti)</span><span class="sxs-lookup"><span data-stu-id="f75cc-211">Microsoft Dynamics 365 for Finance and Operations Batch Management Service (on non-private AOS computers only)</span></span>
+- <span data-ttu-id="f75cc-212">Management Reporter 2012 apstrādes pakalpojums (tikai BI datoros)</span><span class="sxs-lookup"><span data-stu-id="f75cc-212">Management Reporter 2012 Process Service (on BI computers only)</span></span>
 
--   <span data-ttu-id="88385-153">Globālā tīmekļa publicēšanas pakalpojums (visos AOS datoros)</span><span class="sxs-lookup"><span data-stu-id="88385-153">World wide web publishing service (on all AOS computers)</span></span>
--   <span data-ttu-id="88385-154">Microsoft Dynamics 365 for Finance and Operations lielapjoma pārvaldības pakalpojums (tikai tajos AOS datoros, kas nav privāti)</span><span class="sxs-lookup"><span data-stu-id="88385-154">Microsoft Dynamics 365 for Finance and Operations Batch Management Service (on non-private AOS computers only)</span></span>
--   <span data-ttu-id="88385-155">Management Reporter 2012 apstrādes pakalpojums (tikai BI datoros)</span><span class="sxs-lookup"><span data-stu-id="88385-155">Management Reporter 2012 Process Service (on BI computers only)</span></span>
+#### <a name="import-report-definitions"></a><span data-ttu-id="f75cc-213">Pārskatu definīciju importēšana</span><span class="sxs-lookup"><span data-stu-id="f75cc-213">Import report definitions</span></span>
 
-## <a name="import-report-definitions"></a><span data-ttu-id="88385-156">Pārskatu definīciju importēšana</span><span class="sxs-lookup"><span data-stu-id="88385-156">Import report definitions</span></span>
-<span data-ttu-id="88385-157">Importējiet pārskatu dizainus no pārskatu veidotāja, izmantojot eksportēšanas laikā izveidoto failu.</span><span class="sxs-lookup"><span data-stu-id="88385-157">Import your report designs from the Report Designer, using the file created during the export:</span></span>
+<span data-ttu-id="f75cc-214">Importējiet savus pārskatu dizainus no pārskatu veidotāja, izmantojot eksportēšanas laikā izveidoto failu.</span><span class="sxs-lookup"><span data-stu-id="f75cc-214">Import your report designs from Report designer by using the file that was created during the export.</span></span>
 
-1.  <span data-ttu-id="88385-158">Pārskatu veidotājā pārejiet uz sadaļu **Uzņēmums** &gt; **Veidošanas bloku grupas**.</span><span class="sxs-lookup"><span data-stu-id="88385-158">In the Report Designer, go to **Company** &gt; **Building Block Groups**.</span></span>
-2.  <span data-ttu-id="88385-159">Atlasiet eksportējamo veidošanas bloku grupu un noklikšķiniet uz **Eksportēt**.</span><span class="sxs-lookup"><span data-stu-id="88385-159">Select the building block group to export, and click **Export**.</span></span> 
+1. <span data-ttu-id="f75cc-215">Pārskatu veidotājā atlasiet **Uzņēmums** &gt; **Veidošanas bloku grupas**.</span><span class="sxs-lookup"><span data-stu-id="f75cc-215">In Report designer, select **Company** &gt; **Building Block Groups**.</span></span>
+2. <span data-ttu-id="f75cc-216">Atlasiet eksportējamo veidošanas bloku grupu un pēc tam atlasiet **Eksportēt**.</span><span class="sxs-lookup"><span data-stu-id="f75cc-216">Select the building block group to export, and then select **Export**.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="88385-160">Programmatūrā Dynamics 365 for Finance and Operations tiek atbalstīta tikai viena veidošanas bloku grupa **Noklusējuma**.</span><span class="sxs-lookup"><span data-stu-id="88385-160">For Finance and Operations, only one building block group is supported, **Default**.</span></span>
-    
-3.  <span data-ttu-id="88385-161">Atlasiet veidošanas bloku **Noklusējuma** un noklikšķiniet uz **Importēt**.</span><span class="sxs-lookup"><span data-stu-id="88385-161">Select the **Default** building block and click **Import**.</span></span>
-4.  <span data-ttu-id="88385-162">Atlasiet failu, kurā ir ietvertas eksportētās pārskatu definīcijas, un noklikšķiniet uz **Atvērt**.</span><span class="sxs-lookup"><span data-stu-id="88385-162">Select the file containing the exported report definitions and click **Open**.</span></span>
-5.  <span data-ttu-id="88385-163">Dialoglodziņā Importēt atlasiet importējamās pārskatu definīcijas.</span><span class="sxs-lookup"><span data-stu-id="88385-163">In the Import dialog box, select the report definitions to import:</span></span>
-    -   <span data-ttu-id="88385-164">Lai importētu visas atskaites definīcijas un saistītos veidošanas blokus, noklikšķiniet uz **Atlasīt visu**.</span><span class="sxs-lookup"><span data-stu-id="88385-164">To import all the report definitions and the supporting building blocks, click **Select All**.</span></span>
-    -   <span data-ttu-id="88385-165">Lai importētu atsevišķus pārskatus, rindas, kolonnas, koku struktūras vai dimensiju kopas, atlasiet importējamos pārskatus, rindas, kolonnas, koku struktūras vai dimensiju kopas.</span><span class="sxs-lookup"><span data-stu-id="88385-165">To import specific reports, rows, columns, trees, or dimension sets, select the reports, rows, columns, trees, or dimension sets to import.</span></span>
+    > <span data-ttu-id="f75cc-217">Programmatūrā Dynamics 365 for Finance and Operations tiek atbalstīta tikai viena veidošanas bloku grupa **Noklusējuma**.</span><span class="sxs-lookup"><span data-stu-id="f75cc-217">For Finance and Operations, only one building block group is supported, **Default**.</span></span>
 
-6.  <span data-ttu-id="88385-166">Noklikšķiniet uz **Importēt**.</span><span class="sxs-lookup"><span data-stu-id="88385-166">Click **Import**.</span></span>
+3. <span data-ttu-id="f75cc-218">Atlasiet veidošanas bloku **Noklusējums** un pēc tam atlasiet **Importēt**.</span><span class="sxs-lookup"><span data-stu-id="f75cc-218">Select the **Default** building block, and then select **Import**.</span></span>
+4. <span data-ttu-id="f75cc-219">Atlasiet failu, kurā ir eksportētās pārskatu definīcijas, un pēc tam atlasiet **Atvērt**.</span><span class="sxs-lookup"><span data-stu-id="f75cc-219">Select the file that contains the exported report definitions, and then select **Open**.</span></span>
+5. <span data-ttu-id="f75cc-220">Dialoglodziņā **Importēšana** atlasiet importējamās pārskata definīcijas.</span><span class="sxs-lookup"><span data-stu-id="f75cc-220">In the **Import** dialog box, select the report definitions to import:</span></span>
 
+    - <span data-ttu-id="f75cc-221">Lai importētu visas pārskatu definīcijas un saistītos veidošanas blokus, atlasiet **Atlasīt visu**.</span><span class="sxs-lookup"><span data-stu-id="f75cc-221">To import all the report definitions and the associated building blocks, select **Select All**.</span></span>
+    - <span data-ttu-id="f75cc-222">Lai importētu noteiktus pārskatus, rindas, kolonnas, kokus vai dimensiju kopas, atlasiet importējamos vienumus.</span><span class="sxs-lookup"><span data-stu-id="f75cc-222">To import specific reports, rows, columns, trees, or dimension sets, select the reports, rows, columns, trees, or dimension sets to import.</span></span>
 
+6. <span data-ttu-id="f75cc-223">Atlasiet **Importēt**.</span><span class="sxs-lookup"><span data-stu-id="f75cc-223">Select **Import**.</span></span>
 
+## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-on-premises"></a><span data-ttu-id="f75cc-224">Finanšu pārskatu datuves atiestatīšana programmai Finance and Operations (lokālā)</span><span class="sxs-lookup"><span data-stu-id="f75cc-224">Reset the Financial reporting data mart for Finance and Operations (on-premises)</span></span>
 
+1. <span data-ttu-id="f75cc-225">Līdziet visiem lietotājiem iziet no Finance and Operations pārskatu veidotāja un finanšu pārskatu apgabala.</span><span class="sxs-lookup"><span data-stu-id="f75cc-225">Instruct all users to exit Report designer and the Financial reporting area of Finance and Operations.</span></span>
+2. <span data-ttu-id="f75cc-226">Palaidiet tālāk norādīto skriptu ar finanšu pārskatu datu bāzi (MRDB).</span><span class="sxs-lookup"><span data-stu-id="f75cc-226">Run the following script against the Financial reporting database (MRDB).</span></span>
+
+    ```
+    DECLARE @triggerIds table(id uniqueidentifier, taskTypeId uniqueidentifier)
+    INSERT INTO @triggerIds SELECT tr.[Id], tt.[Id]
+    FROM [Scheduling].[Task] t with(nolock)
+    JOIN [Scheduling].[Trigger] tr ON t.[TriggerId] = tr.[Id]
+    JOIN [Scheduling].[TaskState] ts ON ts.[TaskId] = t.[Id]
+    LEFT JOIN [Scheduling].[TaskCategory] tc ON tc.[Id] = t.[CategoryId]
+    JOIN [Scheduling].[TaskType] tt ON t.[TypeId] = tt.[Id]
+    WHERE tt.[Id] IN ('D81C1197-D486-4FB7-AF8C-078C110893A0', '55D3F71A-2618-4EAE-9AA6-D48767B974D8') -- 'Maintenance Task', 'Map Task'
+    PRINT 'Disable integration tasks'
+    UPDATE [Scheduling].[Trigger] SET IsEnabled = 0 WHERE [Id] in (SELECT id FROM @triggerIds)
+    ```
+
+3. <span data-ttu-id="f75cc-227">Apcērtiet vai izdzēsiet visus ierakstus no tabulas FINANCIALREPORTS programmas Finance and Operations datu bāzē (AXDB).</span><span class="sxs-lookup"><span data-stu-id="f75cc-227">Truncate or delete all records from the FINANCIALREPORTS table in the Finance and Operations database (AXDB).</span></span>
+4. <span data-ttu-id="f75cc-228">Apcērtiet vai izdzēsiet visus ierakstus no tabulas FINANCIALREPORTVERSION, ja šāda tabula pastāv programmas Finance and Operations datu bāzē.</span><span class="sxs-lookup"><span data-stu-id="f75cc-228">Truncate or delete all records from the FINANCIALREPORTVERSION table, if this table exists in the Finance and Operations database.</span></span> <span data-ttu-id="f75cc-229">Ja šī tabula nepastāv programmas Finance and Operations datu bāzē, izlaidiet šo soli.</span><span class="sxs-lookup"><span data-stu-id="f75cc-229">If the table doesn't exist in the Finance and Operations database, skip this step.</span></span>
+5. <span data-ttu-id="f75cc-230">Palaidiet skriptu **ResetDatamart.sql** ar finanšu pārskatu datu bāzi.</span><span class="sxs-lookup"><span data-stu-id="f75cc-230">Run the **ResetDatamart.sql** script against the Financial reporting database.</span></span> <span data-ttu-id="f75cc-231">Šis skripts atspējo datuves integrēšanu, izdzēš visus datuves datus un pēc tam no jauna iespējo datuves integrēšanu.</span><span class="sxs-lookup"><span data-stu-id="f75cc-231">This script disables the data mart integration, deletes all the data mart data, and then reenables the data mart integration.</span></span>
+
+    ```
+    DECLARE @triggerIds table(id uniqueidentifier, taskTypeId uniqueidentifier)
+    INSERT INTO @triggerIds SELECT tr.[Id], tt.[Id]
+    FROM [Scheduling].[Task] t with(nolock)
+    JOIN [Scheduling].[Trigger] tr ON t.[TriggerId] = tr.[Id]
+    JOIN [Scheduling].[TaskState] ts ON ts.[TaskId] = t.[Id]
+    LEFT JOIN [Scheduling].[TaskCategory] tc ON tc.[Id] = t.[CategoryId]
+    JOIN [Scheduling].[TaskType] tt ON t.[TypeId] = tt.[Id]
+    WHERE tt.[Id] IN ('D81C1197-D486-4FB7-AF8C-078C110893A0', '55D3F71A-2618-4EAE-9AA6-D48767B974D8') -- 'Maintenance Task', 'Map Task'
+    PRINT 'Disable integration tasks'
+    UPDATE [Scheduling].[Trigger] SET IsEnabled = 0 WHERE [Id] in (SELECT id FROM @triggerIds)
+    ------------------------------
+    PRINT 'Drop archive tables'
+    ------------------------------
+    DECLARE @tableId nvarchar(max)
+    DECLARE dropCursor CURSOR LOCAL FAST_FORWARD FOR
+    SELECT Id FROM [Datamart].Archive
+    OPEN dropCursor
+    FETCH NEXT FROM dropCursor INTO @tableId
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        IF EXISTS (SELECT 1 FROM INFORMATION_SCHEMA.TABLES t WHERE t.TABLE_NAME = 'FactStaging' + @tableId and t.TABLE_SCHEMA = 'Datamart')
+        EXEC('DROP TABLE [Datamart].FactStaging' + @tableId)
+        IF EXISTS (SELECT 1 FROM INFORMATION_SCHEMA.TABLES t WHERE t.TABLE_NAME = 'DimensionCombinationStaging' + @tableId and t.TABLE_SCHEMA = 'Datamart')
+        EXEC('DROP TABLE [Datamart].DimensionCombinationStaging' + @tableId)
+        FETCH NEXT FROM dropCursor INTO @tableId
+    END
+    CLOSE dropCursor
+    DEALLOCATE dropCursor
+    IF EXISTS (SELECT 1 FROM INFORMATION_SCHEMA.TABLES t WHERE t.TABLE_NAME = 'DimensionCombinationProcessing' and t.TABLE_SCHEMA = 'Datamart')
+        EXEC('DROP TABLE [Datamart].DimensionCombinationProcessing')
+    ------------------------------
+    PRINT 'Begin Truncating tables'
+    ------------------------------
+    DECLARE @tablename nvarchar(200)
+    DECLARE @schemaname nvarchar(200)
+    DECLARE clear_tables CURSOR
+        FOR SELECT TABLE_NAME, TABLE_SCHEMA FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'Datamart' AND TABLE_TYPE='BASE TABLE'
+    PRINT 'remove check constraints'
+    OPEN clear_tables
+    FETCH NEXT FROM clear_tables INTO @tablename, @schemaname
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        IF @tablename <> 'VersionHistory'
+        BEGIN
+        EXEC('ALTER TABLE [' + @schemaname + '].[' + @tablename + '] NOCHECK CONSTRAINT ALL')
+        END
+        FETCH NEXT FROM clear_tables INTO @tablename, @schemaname
+    END
+    CLOSE clear_tables
+    ------------------------------
+    PRINT 'delete data from tables and rebuild indexes'
+    ------------------------------
+    OPEN clear_tables
+    FETCH NEXT FROM clear_tables INTO @tablename, @schemaname
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        IF @tablename <> 'VersionHistory'
+        BEGIN
+            IF(EXISTS (select TOP 1 1 from sys.foreign_keys where referenced_object_id = OBJECT_ID(@schemaname + '.' + @tablename)) OR
+            EXISTS(SELECT TOP 1 1 FROM sys.sql_expression_dependencies sed
+            INNER JOIN sys.objects o ON sed.referencing_id = o.[object_id]
+            WHERE o.[type] = 'V' 
+            AND referenced_schema_name = @schemaname
+            AND referenced_entity_name = @tablename))
+            BEGIN
+            PRINT 'deleting from ' + @tablename
+            EXEC('DELETE FROM [' + @schemaname + '].[' + @tablename + ']')
+            END
+            ELSE
+            BEGIN
+            PRINT 'truncating from ' + @tablename
+            EXEC('TRUNCATE TABLE [' + @schemaname + '].[' + @tablename + ']')
+            END
+        END
+        EXEC('ALTER INDEX ALL ON [' + @schemaname + '].[' + @tablename + '] REBUILD')
+        FETCH NEXT FROM clear_tables INTO @tablename, @schemaname
+    END
+    CLOSE clear_tables
+    ------------------------------
+    PRINT 'reenable check constraints'
+    ------------------------------
+    OPEN clear_tables
+    FETCH NEXT FROM clear_tables INTO @tablename, @schemaname
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        IF @tablename <> 'VersionHistory'
+        BEGIN
+        EXEC('ALTER TABLE [' + @schemaname + '].[' + @tablename +'] WITH CHECK CHECK CONSTRAINT ALL')
+        END
+        FETCH NEXT FROM clear_tables INTO @tablename, @schemaname
+    END
+    CLOSE clear_tables
+    DEALLOCATE clear_tables
+    ------------------------------
+    PRINT 'Complete Truncating tables'
+    ------------------------------
+    ------------------------------
+    PRINT 'Remove indexes from DimensionCombination'
+    ------------------------------
+    DECLARE @indexname nvarchar(200)
+    DECLARE drop_indexes CURSOR
+    FOR SELECT Name FROM sys.indexes WHERE object_id = OBJECT_ID('[Datamart].[DimensionCombination]') AND is_primary_key = 0
+    OPEN drop_indexes
+    FETCH NEXT FROM drop_indexes INTO @indexname
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        EXEC('DROP INDEX [' + @indexname + '] on [Datamart].[DimensionCombination]')
+        FETCH NEXT FROM drop_indexes INTO @indexname
+    END
+    CLOSE drop_indexes
+    DEALLOCATE drop_indexes
+    ------------------------------
+    PRINT 'Drop Columns on DimensionCombination'
+    ------------------------------
+    DECLARE @objectname nvarchar(200)
+    DECLARE drop_objects CURSOR
+    FOR SELECT Name FROM sys.columns WHERE object_id = OBJECT_ID('[Datamart].[DimensionCombination]')
+    OPEN drop_objects
+    FETCH NEXT FROM drop_objects INTO @objectname
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        IF @objectname NOT IN ('Id', 'Description', 'SourceKey', 'OrganizationId', 'InactiveDimensions')
+        BEGIN
+        EXEC('ALTER TABLE [Datamart].[DimensionCombination] DROP COLUMN ' + @objectname)
+        END
+        FETCH NEXT FROM drop_objects INTO @objectname
+    END
+    CLOSE drop_objects
+    DEALLOCATE drop_objects
+    ------------------------------
+    PRINT 'Drop Columns on DimensionCombinationResolving'
+    ------------------------------
+    DECLARE drop_objects CURSOR
+    FOR SELECT Name FROM sys.columns WHERE object_id = OBJECT_ID('[Datamart].[DimensionCombinationResolving]')
+    OPEN drop_objects
+    FETCH NEXT FROM drop_objects INTO @objectname
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        IF @objectname NOT IN ('Id', 'Description', 'SourceKey', 'OrganizationId')
+        BEGIN
+        EXEC('ALTER TABLE [Datamart].[DimensionCombinationResolving] DROP COLUMN ' + @objectname)
+        END
+        FETCH NEXT FROM drop_objects INTO @objectname
+    END
+    CLOSE drop_objects
+    DEALLOCATE drop_objects
+    ------------------------------
+    PRINT 'Drop Columns on DimensionCombinationStaging'
+    ------------------------------
+    DECLARE drop_objects CURSOR
+    FOR SELECT Name FROM sys.columns WHERE object_id = OBJECT_ID('[Datamart].[DimensionCombinationStaging]')
+    OPEN drop_objects
+    FETCH NEXT FROM drop_objects INTO @objectname
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        IF @objectname NOT IN ('Id', 'OrganizationId', 'Description', 'SourceKey', 'OrganizationKey', 'FreshnessDate')
+        BEGIN
+        EXEC('ALTER TABLE [Datamart].[DimensionCombinationStaging] DROP COLUMN ' + @objectname)
+        END
+        FETCH NEXT FROM drop_objects INTO @objectname
+    END
+    CLOSE drop_objects
+    DEALLOCATE drop_objects
+    ------------------------------
+    PRINT 'Drop Columns on DimensionCombinationUnreferenced'
+    ------------------------------
+    DECLARE drop_objects CURSOR
+    FOR SELECT Name FROM sys.columns WHERE object_id = OBJECT_ID('[Datamart].[DimensionCombinationUnreferenced]')
+    OPEN drop_objects
+    FETCH NEXT FROM drop_objects INTO @objectname
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        IF @objectname NOT IN ('Id', 'Description', 'SourceKey', 'OrganizationId')
+        BEGIN
+        EXEC('ALTER TABLE [Datamart].[DimensionCombinationUnreferenced] DROP COLUMN ' + @objectname)
+        END
+        FETCH NEXT FROM drop_objects INTO @objectname
+    END
+    CLOSE drop_objects
+    DEALLOCATE drop_objects
+    ------------------------------
+    PRINT 'Drop Columns on DimensionValueAttributeValue'
+    ------------------------------
+    DECLARE drop_objects CURSOR
+    FOR SELECT Name FROM sys.columns WHERE object_id = OBJECT_ID('[Datamart].[DimensionValueAttributeValue]')
+    OPEN drop_objects
+    FETCH NEXT FROM drop_objects INTO @objectname
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        IF @objectname NOT IN ('DimensionValueId')
+        BEGIN
+        EXEC('ALTER TABLE [Datamart].[DimensionValueAttributeValue] DROP COLUMN ' + @objectname)
+        END
+        FETCH NEXT FROM drop_objects INTO @objectname
+    END
+    CLOSE drop_objects
+    DEALLOCATE drop_objects
+    ------------------------------
+    PRINT 'Drop Columns on FactAttributeValue'
+    ------------------------------
+    DECLARE drop_objects CURSOR
+    FOR SELECT Name FROM sys.columns WHERE object_id = OBJECT_ID('[Datamart].[FactAttributeValue]')
+    OPEN drop_objects
+    FETCH NEXT FROM drop_objects INTO @objectname
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        IF @objectname NOT IN ('FactId')
+        BEGIN
+        EXEC('ALTER TABLE [Datamart].[FactAttributeValue] DROP COLUMN ' + @objectname)
+        END
+        FETCH NEXT FROM drop_objects INTO @objectname
+    END
+    CLOSE drop_objects
+    DEALLOCATE drop_objects
+    ------------------------------
+    PRINT 'Remove constraints from TranslatedPeriodBalance'
+    ------------------------------
+    DECLARE @name nvarchar(200)
+    DECLARE drop_constraints CURSOR
+    FOR SELECT Name FROM sys.default_constraints WHERE parent_object_id = OBJECT_ID('[Datamart].[TranslatedPeriodBalance]')
+    OPEN drop_constraints
+    FETCH NEXT FROM drop_constraints INTO @name
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        EXEC('ALTER TABLE [Datamart].[TranslatedPeriodBalance] DROP CONSTRAINT [' + @name + ']')
+        FETCH NEXT FROM drop_constraints INTO @name
+    END
+    CLOSE drop_constraints
+    DEALLOCATE drop_constraints
+    ------------------------------
+    PRINT 'Drop Columns on TranslatedPeriodBalance'
+    ------------------------------
+    DECLARE drop_objects CURSOR
+    FOR SELECT Name FROM sys.columns WHERE object_id = OBJECT_ID('[Datamart].[TranslatedPeriodBalance]')
+    OPEN drop_objects
+    FETCH NEXT FROM drop_objects INTO @objectname
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        IF @objectname NOT IN ('PeriodId', 'DimensionsId', 'ScenarioId', 'FactType', 'PostingLayerId')
+        BEGIN
+        EXEC('ALTER TABLE [Datamart].[TranslatedPeriodBalance] DROP COLUMN ' + @objectname)
+        END
+        FETCH NEXT FROM drop_objects INTO @objectname
+    END
+    CLOSE drop_objects
+    DEALLOCATE drop_objects
+    ------------------------------
+    PRINT 'Remove constraints from TranslatedPeriodBalanceChanges'
+    ------------------------------
+    DECLARE drop_constraints CURSOR
+    FOR SELECT Name FROM sys.default_constraints WHERE parent_object_id = OBJECT_ID('[Datamart].[TranslatedPeriodBalanceChanges]')
+    OPEN drop_constraints
+    FETCH NEXT FROM drop_constraints INTO @name
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        EXEC('ALTER TABLE [Datamart].[TranslatedPeriodBalanceChanges] DROP CONSTRAINT [' + @name + ']')
+        FETCH NEXT FROM drop_constraints INTO @name
+    END
+    CLOSE drop_constraints
+    DEALLOCATE drop_constraints
+    ------------------------------
+    PRINT 'Drop Columns on TranslatedPeriodBalanceChanges'
+    ------------------------------
+    DECLARE drop_objects CURSOR
+    FOR SELECT Name FROM sys.columns WHERE object_id = OBJECT_ID('[Datamart].[TranslatedPeriodBalanceChanges]')
+    OPEN drop_objects
+    FETCH NEXT FROM drop_objects INTO @objectname
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        IF @objectname NOT IN ('PeriodId', 'DimensionsId', 'ScenarioId', 'FactType', 'PostingLayerId')
+        BEGIN
+        EXEC('ALTER TABLE [Datamart].[TranslatedPeriodBalanceChanges] DROP COLUMN ' + @objectname)
+        END
+        FETCH NEXT FROM drop_objects INTO @objectname
+    END
+    CLOSE drop_objects
+    DEALLOCATE drop_objects
+    -- Rebuild dropped indexes that are dynamic
+    EXEC [Datamart].ConfigureIndexesAndConstraints
+    ------------------------------------------
+    ------------------------------------------
+    PRINT 'Reset the map tokens'
+    UPDATE [Connector].[Map] SET InitalLoad = 0, ReaderToken=NULL, LastQuerySuccess='1900-01-01' WHERE MapId IN (SELECT t.[Id]
+    FROM [Scheduling].[Task] t with(nolock)
+    JOIN [Scheduling].[Trigger] tr ON t.[TriggerId] = tr.[Id]
+    JOIN [Scheduling].[TaskState] ts ON ts.[TaskId] = t.[Id]
+    LEFT JOIN [Scheduling].[TaskCategory] tc ON tc.[Id] = t.[CategoryId]
+    JOIN [Scheduling].[TaskType] tt ON t.[TypeId] = tt.[Id]
+    WHERE tt.[Id] = '55D3F71A-2618-4EAE-9AA6-D48767B974D8')
+    PRINT 'Reset the tasks'
+    UPDATE [Scheduling].[TaskState] SET StateType = 0, Progress = 0.0, LastRunTime = NULL, NextRunTime = NULL WHERE TaskId IN (SELECT ts.[TaskId]
+    FROM [Scheduling].[Task] t with(nolock)
+    JOIN [Scheduling].[Trigger] tr ON t.[TriggerId] = tr.[Id]
+    JOIN [Scheduling].[TaskState] ts ON ts.[TaskId] = t.[Id]
+    LEFT JOIN [Scheduling].[TaskCategory] tc ON tc.[Id] = t.[CategoryId]
+    JOIN [Scheduling].[TaskType] tt ON t.[TypeId] = tt.[Id]
+    WHERE tt.[Id] IN ('D81C1197-D486-4FB7-AF8C-078C110893A0', '55D3F71A-2618-4EAE-9AA6-D48767B974D8'))
+    PRINT 'Enable integration tasks, RunImmediately'
+    UPDATE [Scheduling].[Trigger] SET IsEnabled = 1, RunImmediately = 1, StartBoundary = '1900-01-01' 
+    WHERE Id in (SELECT [id] from @triggerIds WHERE taskTypeId = '55D3F71A-2618-4EAE-9AA6-D48767B974D8')
+    PRINT 'Enable the Maintenance Task'
+    UPDATE [Scheduling].[Trigger] SET IsEnabled = 1, RunImmediately = 0, StartBoundary = GETDATE() WHERE Id in
+    (SELECT [id] from @triggerIds WHERE taskTypeId = 'D81C1197-D486-4FB7-AF8C-078C110893A0')
+    ------------------------------------------
+    ------------------------------------------
+    ```
+
+6. <span data-ttu-id="f75cc-232">Pēc atiestatīšanas varat manuāli pārbaudīt datu pārlādēšanu, finanšu pārskatu datu bāzei izpildot tālāk norādīto vaicājumu.</span><span class="sxs-lookup"><span data-stu-id="f75cc-232">After the reset, you can manually verify the data reload by running the following query against the Financial reporting database.</span></span>
+
+    ```
+    select ReaderObjectName, WriterObjectName, LastRunTime, StateType from Connector.MapsWithDetail with (nolock)
+    ```
+
+    <span data-ttu-id="f75cc-233">Pārliecinieties, vai visām rindām ir vērtība **LastRunTime** un vai vienums **StateType** ir iestatīts uz **5**.</span><span class="sxs-lookup"><span data-stu-id="f75cc-233">Confirm that all rows have a **LastRunTime** value, and that **StateType** is set to **5**.</span></span> <span data-ttu-id="f75cc-234">Vienuma **StateType** vērtība **5** norāda, ka dati tika sekmīgi pārlādēti.</span><span class="sxs-lookup"><span data-stu-id="f75cc-234">A **StateType** value of **5** indicates that the data was successfully reloaded.</span></span> <span data-ttu-id="f75cc-235">Vērtība **7** norāda uz kļūmes stāvokli.</span><span class="sxs-lookup"><span data-stu-id="f75cc-235">A value of **7** indicates a faulted state.</span></span> <span data-ttu-id="f75cc-236">Reizēm organizācijas hierarhijas kartei šāds stāvoklis ir pēc pirmās izpildīšanas reizes.</span><span class="sxs-lookup"><span data-stu-id="f75cc-236">Sometimes, the Organization Hierarchy map has this state the first time that it runs.</span></span> <span data-ttu-id="f75cc-237">Taču kļūmes stāvoklim vajadzētu atrisināties automātiski.</span><span class="sxs-lookup"><span data-stu-id="f75cc-237">However, the faulted state but should be automatically resolved.</span></span>
 

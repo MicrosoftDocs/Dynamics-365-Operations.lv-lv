@@ -1,0 +1,93 @@
+---
+title: "Pieejamības līdzekļi"
+description: "Šajā tēmā ir aprakstīta funkcionalitāte, kas ir izveidota ar mērķi palīdzēt lietotājiem ar īpašām vajadzībām. Piemēram, pastāv līdzekļi personām, kas izmanto redzes palīgtehnoloģijas, piemēram, Windows diktors."
+author: TLeforMicrosoft
+manager: AnnBe
+ms.date: 11/16/2017
+ms.topic: article
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+audience: Application User
+ms.search.scope: Operations
+ms.search.region: Global
+ms.author: tlefor
+ms.search.validFrom: 2017-12-31
+ms.dyn365.ops.version: 7.3
+ms.translationtype: HT
+ms.sourcegitcommit: 158caf6c05515069b58121a72df1b7fe16bae236
+ms.openlocfilehash: bd71d2dee7ff7984f2088a64e9943b2541c88451
+ms.contentlocale: lv-lv
+ms.lasthandoff: 11/16/2017
+
+---
+
+# <a name="accessibility-features"></a><span data-ttu-id="a5b3d-104">Pieejamības līdzekļi</span><span class="sxs-lookup"><span data-stu-id="a5b3d-104">Accessibility features</span></span>
+
+<span data-ttu-id="a5b3d-105">Šajā tēmā ir aprakstīta funkcionalitāte, kas ir izveidota ar mērķi palīdzēt lietotājiem ar īpašām vajadzībām.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-105">This topic describes the functionality that is designed to help users who have various disabilities.</span></span> <span data-ttu-id="a5b3d-106">Piemēram, pastāv līdzekļi personām, kas izmanto redzes palīgtehnoloģijas, piemēram, Microsoft Windows diktors.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-106">For example, there are features for people who use sight-assistive technologies such as Microsoft Windows Narrator.</span></span>
+
+## <a name="windows-narrator-and-keyboard-only-access"></a><span data-ttu-id="a5b3d-107">Windows diktors un piekļuve tikai ar tastatūru</span><span class="sxs-lookup"><span data-stu-id="a5b3d-107">Windows Narrator and keyboard-only access</span></span>
+
+<span data-ttu-id="a5b3d-108">Katram laukam un vadīklai ir etiķete un piemērojamo saīšņu apraksts.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-108">Every field and control has a label and a description of applicable shortcuts.</span></span> <span data-ttu-id="a5b3d-109">Ekrāna lasītājs var nolasīt šo etiķeti un aprakstu.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-109">A screen reader can read the label and description.</span></span>
+
+## <a name="shortcuts-for-the-most-frequently-performed-actions"></a><span data-ttu-id="a5b3d-110">Visbiežāk veikto darbību saīsnes</span><span class="sxs-lookup"><span data-stu-id="a5b3d-110">Shortcuts for the most frequently performed actions</span></span>
+
+<span data-ttu-id="a5b3d-111">Vairumam lietotāju sistēmas ikdienas lietošana ietver daudz datu ievadīšanas un mijiedarbības ar tastatūru.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-111">For most users, everyday system use involves lots of data entry and keyboard interaction.</span></span> <span data-ttu-id="a5b3d-112">Lai uzlabotu lietotāja pieredzi, esam izveidojuši saīsnes, kas jums palīdz “lēkāt” pa ekrānu, un saīsnes specializētām darbībām.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-112">To enhance the user experience, we have created shortcuts to help you "jump" around the screen and shortcuts for specialized actions.</span></span> <span data-ttu-id="a5b3d-113">Papildinformāciju skatiet šeit: [Īsinājumtaustiņi](shortcut-keys.md).</span><span class="sxs-lookup"><span data-stu-id="a5b3d-113">For more information, see [Keyboard shortcuts](shortcut-keys.md).</span></span>
+
+## <a name="navigation-search"></a><span data-ttu-id="a5b3d-114">Navigācijas meklēšana</span><span class="sxs-lookup"><span data-stu-id="a5b3d-114">Navigation search</span></span>
+
+<span data-ttu-id="a5b3d-115">Visas lapas, kurām var piekļūt, izmantojot navigācijas rūts izvēlni, galējo kreiso rūti, ir pieejamas arī no lodziņa **Meklēt**.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-115">Any page that is accessed by using the Navigation pane menu, the left-most pane, is also available from the **Search** box.</span></span> <span data-ttu-id="a5b3d-116">Nospiediet taustiņu kombināciju Alt+G, lai fokusu pārvietotu uz lodziņu **Meklēt**, un pēc tam ierakstiet lapas nosaukumu vai aprakstu.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-116">Press Alt+G to move focus to the **Search** box, and then type the name or description of the page.</span></span>
+
+![Meklēšanas lodziņā ierakstīts “bankas konts”](media/6d08b0be32808221023e2aa92d69fd70.png)
+
+<span data-ttu-id="a5b3d-118">Papildinformāciju skatiet šeit: [Navigācijas meklēšana](navigation-search.md).</span><span class="sxs-lookup"><span data-stu-id="a5b3d-118">For more information, see [Navigation search](navigation-search.md).</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="a5b3d-119">Tiešā veidā varat pārvietoties tikai uz augšējā līmeņa lapām.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-119">You can navigate directly to top-level pages only.</span></span> <span data-ttu-id="a5b3d-120">Sekundārās lapas paļaujas uz informāciju vai kontekstu no to vecākelementa lapas.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-120">Secondary pages rely on information or context from their parent page.</span></span>
+
+## <a name="action-search-for-keyboard-only-users-or-for-heads-down-data-entry"></a><span data-ttu-id="a5b3d-121">Darbību meklēšana tikai tastatūras lietotājiem vai datu ievadei bez pārbaudīšanas</span><span class="sxs-lookup"><span data-stu-id="a5b3d-121">Action search for keyboard-only users or for heads-down data entry</span></span>
+
+<span data-ttu-id="a5b3d-122">Katrai lapā nodrošinātajai darbībai var piekļūt no tastatūras, izmantojot ciļņu secību.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-122">Every action that is provided on a page can be accessed from a keyboard, via the tab sequence.</span></span> <span data-ttu-id="a5b3d-123">Informācija par ciļņu secību ir sniegta tālāk šajā tēmā.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-123">Information about the tab sequence is provided later in this topic.</span></span> <span data-ttu-id="a5b3d-124">Lai darbības izpildītu tiešāk, varat lietot darbību meklēšanas funkcionalitāti.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-124">To run actions more directly, you can use the action search functionality.</span></span>
+
+### <a name="example"></a><span data-ttu-id="a5b3d-125">Piemērs</span><span class="sxs-lookup"><span data-stu-id="a5b3d-125">Example</span></span>
+
+<span data-ttu-id="a5b3d-126">Vēlaties palaist darbību **E-pasta paziņojumu žurnāls**, kas ir redzama darbību rūts cilnes **Pārdošanas pasūtījums** grupā **E-pasta paziņojums**.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-126">You want to run the **Email notification log** action that appears in the **Email notification** group on the **Sales order** tab on the Action Pane.</span></span>
+
+![Darbība E-pasta paziņojumu žurnāls darbību rūtī](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg)
+
+<span data-ttu-id="a5b3d-128">Viena iespēja ir izmantot tastatūru.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-128">One option is to use your keyboard.</span></span> <span data-ttu-id="a5b3d-129">Nospiediet taustiņu kombināciju Ctrl+F6, lai fokusu pārvietotu uz darbību rūti, un pēc tam atkārtoti spiediet taustiņu Tab, lai pārvietotos pa cilnēm un darbībām, līdz fokuss ir vērsts uz darbību **E-pasta paziņojumu žurnāls**.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-129">Press Ctrl+F6 to move focus to the Action Pane, and then press Tab repeatedly to move through all the tabs and actions, until the **Email notification log** action has focus.</span></span>
+
+<span data-ttu-id="a5b3d-130">Taču šo darbību varat palaist arī tiešāka veidā.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-130">However, you can also run the action more directly.</span></span> <span data-ttu-id="a5b3d-131">No jebkuras vietas lapā nospiediet taustiņu kombināciju Ctrl+apostrofs ('), lai parādītu meklēšanas lodziņu darbībām.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-131">From anywhere on the page, press Ctrl+Apostrophe (') to show the search box for actions.</span></span>
+
+![Meklēšanas lodziņš darbībām](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg)
+
+<span data-ttu-id="a5b3d-133">Meklēšanas lodziņā ierakstiet vārdus, kas apraksta attiecīgo darbību.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-133">In the search box, type words that describe the action.</span></span> <span data-ttu-id="a5b3d-134">Darbība jums kļūst pieejama, un varat to palaist tiešā veidā.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-134">The action is made available to you, and you can run it directly.</span></span> <span data-ttu-id="a5b3d-135">Piemēram, ierakstot **e-pasts**, **paziņ** (daļēju vārdu) vai **žurnāls**, varat “pārlēkt” uz funkcionalitāti E-pasta paziņojumu žurnāls.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-135">For example, by typing **email**, **notific** (a partial word), or **log**, you can "jump" to the Email notification log functionality.</span></span>
+
+![Meklēšanas lodziņā ierakstīts “E-pasts”](media/image4.png) ![Meklēšanas lodziņā ierakstīts “Paziņ”](media/image5.png) ![Meklēšanas lodziņā ierakstīts “žurnāls”](media/image6.png)
+
+<span data-ttu-id="a5b3d-139">Kad esat beidzis, varat vēlreiz nospiediet taustiņu kombināciju Ctrl+apostrofs, lai fokusu pārslēgtu atpakaļ uz lauku, ar kuru strādājat pirms darbību meklēšanas palaišanas.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-139">When you've finished, you can press Ctrl+Apostrophe again to return focus to the field that you were working with before you ran the action search.</span></span>
+
+<span data-ttu-id="a5b3d-140">Papildinformāciju skatiet šeit: [Darbību meklēšana](action-search.md).</span><span class="sxs-lookup"><span data-stu-id="a5b3d-140">For more information, see [Action search](action-search.md).</span></span>
+
+## <a name="tab-sequence"></a><span data-ttu-id="a5b3d-141">Ciļņu secība</span><span class="sxs-lookup"><span data-stu-id="a5b3d-141">Tab sequence</span></span>
+
+<span data-ttu-id="a5b3d-142">Sistēmas ikdienas lietošanā tipisko uzdevumu izpildei nav nepieciešami visi lauki.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-142">In everyday system use, not every field is required in order to perform typical tasks.</span></span> <span data-ttu-id="a5b3d-143">Tāpēc ciļņu secība pēc noklusējuma ir “optimizēta”.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-143">Therefore, by default, the tab sequence is "optimized."</span></span> <span data-ttu-id="a5b3d-144">Ciļņu aiztures ir iestatītas tikai tiem laukiem, kas ir svarīgi tipiskajiem scenārijiem.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-144">Tab stops are set only on those fields that are essential for typical scenarios.</span></span>
+
+<span data-ttu-id="a5b3d-145">Taču pastāv iespēja, ka daži lauki, kurus bieži izmantojat uzdevumu veikšanai, nav ietverti ciļņu noklusējuma secībā.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-145">However, you might find that some fields that you often use to perform tasks aren't included in the default tab sequence.</span></span> <span data-ttu-id="a5b3d-146">Tādā gadījumā, ja lietojat līdzekli Windows diktors, varat izmantot Windows diktora tastatūras darbības, lai šiem laukiem piekļūtu un izpētītu to saturu.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-146">In this case, if you use Windows Narrator, you can use Windows Narrator's keyboard actions to access those fields and inspect their content.</span></span> <span data-ttu-id="a5b3d-147">Alternatīvi varat ieslēgt opciju **Uzlabota ciļņu secība** lapā **Opcijas**.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-147">Alternatively, you can turn on the **Enhanced tab sequence** option on the **Options** page.</span></span> <span data-ttu-id="a5b3d-148">Šī opcija ciļņu secībā ietver visus rediģējamos un tikai lasāmos laukus.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-148">This option makes all editable and read-only fields part of the tab sequence.</span></span> <span data-ttu-id="a5b3d-149">Pēc tam varat izmantot lapas personalizēšanu, lai izveidotu pielāgotu ciļņu secību un izlaistu laukus, kas jums nav nepieciešami kā daļa no ciļņu secības.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-149">You can then use page personalization to create a custom tab sequence and omit fields that don't have to be part of the tab sequence.</span></span> <span data-ttu-id="a5b3d-150">Papildinformāciju par personalizēšanu skatiet šeit: [Lietotāja pieredzes personalizēšana](personalize-user-experience.md).</span><span class="sxs-lookup"><span data-stu-id="a5b3d-150">For more information about personalization, see [Personalize the user experience](personalize-user-experience.md).</span></span>
+
+![Opcija Uzlabota ciļņu secība](media/8c0f12bbb3f26032997ef0ba95d89b6a.png)
+
+## <a name="form-patterns"></a><span data-ttu-id="a5b3d-152">Formu modeļi</span><span class="sxs-lookup"><span data-stu-id="a5b3d-152">Form patterns</span></span>
+
+<span data-ttu-id="a5b3d-153">Gandrīz 90 procenti no produkta lapām ir balstītas uz nelielas modeļu kopas.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-153">Almost 90 percent of the pages in the product are based on a small set of patterns.</span></span> <span data-ttu-id="a5b3d-154">Šie modeļi tiek saukti par *formu modeļiem*.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-154">These patterns are referred to as *form patterns*.</span></span> <span data-ttu-id="a5b3d-155">Katrs formas modelis tiek izmantots, lai nodrošinātu attiecīgajā lapā visbiežāk veiktās darbības.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-155">Each form pattern is used to provide the actions that are most often performed on the page.</span></span> <span data-ttu-id="a5b3d-156">Formas modelis palīdz garantēt atpazīstamību un izpratnes vienkāršību, jo bieži izmantotās darbības un dati dažādās lapās vienmēr atrodas tajās pašās vietās.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-156">A form pattern helps guarantee familiarity and ease of understanding, because frequently used actions and data are always presented in the same location on different pages.</span></span> <span data-ttu-id="a5b3d-157">Tā kā formu modeļu skaits ir neliels, lietotāji var viegli apgūt sistēmu neatkarīgi no tajā esošo lapu skaita, un pēc formu modeļu atpazīšanas lietotāji sistēmu var pārliecinoši izmantot.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-157">Because of the small number of form patterns, users can easily learn the system, regardless of the number of pages in it, and can confidently use it after they recognize the form patterns.</span></span>
+
+<span data-ttu-id="a5b3d-158">Papildinformāciju par formu modeļiem skatiet šeit: [Formu stili un modeļi](../../dev-itpro/user-interface/form-styles-patterns.md).</span><span class="sxs-lookup"><span data-stu-id="a5b3d-158">To learn more about form patterns, see [Form styles and patterns](../../dev-itpro/user-interface/form-styles-patterns.md).</span></span>
+
+## <a name="responsive-layout"></a><span data-ttu-id="a5b3d-159">Interaktīvs izkārtojums</span><span class="sxs-lookup"><span data-stu-id="a5b3d-159">Responsive layout</span></span>
+
+<span data-ttu-id="a5b3d-160">Produkti ir izstrādāti tā, lai tie darbotos dažādās ierīcēs un ar dažādiem formu faktoriem — no vismazākajiem ekrāniem līdz vislielākajiem ekrāniem ar visaugstāko izšķirtspēju.</span><span class="sxs-lookup"><span data-stu-id="a5b3d-160">The product is designed to work on various devices and form factors, from the smallest screens to large screens that have the highest resolution.</span></span> <span data-ttu-id="a5b3d-161">Mūsu interaktīvā izkārtojuma programma ļauj lietotājiem tuvināt līdz 200 procentu palielinājuma līmenim (vai dažos gadījumos vairāk par 200 procentiem).</span><span class="sxs-lookup"><span data-stu-id="a5b3d-161">Our responsive layout engine lets users zoom in to a magnification level of 200 percent (or, in some scenarios, more than 200 percent).</span></span>
+
+## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a><span data-ttu-id="a5b3d-162">Norādījumi par to, kā palīdzēt izstrādātājiem un klientiem savos pielāgojumos iekļaut pieejamu domāšanu</span><span class="sxs-lookup"><span data-stu-id="a5b3d-162">Guidance to help developers and customers incorporate accessible thinking in their customizations</span></span>
+
+<span data-ttu-id="a5b3d-163">Papildinformāciju par Microsoft labākajām praksēm attiecībā uz pieejamības iespējošanu skatiet šeit: [Pieejamība formās, produktos un vadīklās](../../dev-itpro/user-interface/enable-accessibility.md).</span><span class="sxs-lookup"><span data-stu-id="a5b3d-163">To learn more about Microsoft best practices for enabling accessibility, see [Accessibility in forms, products, and controls](../../dev-itpro/user-interface/enable-accessibility.md).</span></span>
+
