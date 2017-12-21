@@ -18,10 +18,10 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: dd66ced17dbb63280a30ea9154e5176321da94ee
+ms.sourcegitcommit: 7ce3c0397986ba2281aae7b71d579f3fe5f488ae
+ms.openlocfilehash: 415e23190c6d7d12e824a42dec3916a4c3f5bc92
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/21/2017
 
 ---
 
@@ -57,8 +57,9 @@ ms.lasthandoff: 11/03/2017
 
 ### <a name="sales-tax-authorities-for-vat-reporting"></a><span data-ttu-id="ab32e-135">PVN iestādes PVN pārskatiem</span><span class="sxs-lookup"><span data-stu-id="ab32e-135">Sales tax authorities for VAT reporting</span></span>
 
-<!---For general information about setting up a sales tax authority, see [Set up sales tax authorities](general-ledger/tasks/set-up-sales-tax-authorities). -->
 <span data-ttu-id="ab32e-136">Lai varētu iestatīt PVN pārskatu kodus, ir jāatlasa attiecīgajai PVN iestādei atbilstošais pārskata izkārtojums.</span><span class="sxs-lookup"><span data-stu-id="ab32e-136">Before you can set up sales tax reporting codes, you must select the correct report layout for the sales tax authority.</span></span> <span data-ttu-id="ab32e-137">Lapā **PVN iestādes**, sadaļā **Vispārīgi** atlasiet vienumu **Pārskata izkārtojums**.</span><span class="sxs-lookup"><span data-stu-id="ab32e-137">On the **Sales tax authorities** page, in the **General** section, select a **Report layout**.</span></span> <span data-ttu-id="ab32e-138">Šis izkārtojums tiek izmantots, kad iestatāt PVN pārskatu kodus.</span><span class="sxs-lookup"><span data-stu-id="ab32e-138">This layout will be used when you set up sales tax reporting codes.</span></span>
+
+<!---For general information about setting up a sales tax authority, see [Set up sales tax authorities](../general-ledger/tasks/set-up-sales-tax-authorities.md). -->
 
 ### <a name="sales-tax-reporting-codes"></a><span data-ttu-id="ab32e-139">PVN pārskatu kodi</span><span class="sxs-lookup"><span data-stu-id="ab32e-139">Sales tax reporting codes</span></span>
 
