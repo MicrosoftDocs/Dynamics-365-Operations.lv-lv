@@ -3,7 +3,7 @@ title: "Finanšu perioda slēgšanas darbvieta"
 description: "Šajā rakstā ir sniegts pārskats par finanšu perioda slēgšanas darbvietu un saistīto konfigurāciju."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b5dbefc953c0f1608b6f5b5676850a0e9aba36cc
+ms.sourcegitcommit: 6a03274da9b81bf71b32a62f4ebba2a374688ae5
+ms.openlocfilehash: 8b6c14d41cac13e7c1fb5a580759514d46d776ee
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/29/2017
 
 ---
 
@@ -91,7 +91,8 @@ Veidnē uzdevumu var piešķirt vienam vai vairākiem uzņēmumiem, uz kuriem š
 
 Izvēlnes vienums **Uzdevuma saite** ir saistīts ar uzdevuma darbu, un to var izmantot, lai no uzdevuma saites darbvietā pārietu tieši uz saistīto lapu. Piemēram, slēgšanas uzdevumu, ko paredzēts izpildīt valūtas pārvērtēšanas procesam kreditoriem, var saistīt ar attiecīgo lapu **Ārvalstu valūtas pārvērtēšana** sistēmā Microsoft Dynamics 365 for Finance and Operations, izdevumā Enterprise. Varat arī saistīt ar ārējo vietrādi URL. 
 
-> [!Ieteikums] Lai finanšu perioda slēgšanas uzdevumam piesaistītu noteiktu pārvaldības pārskata sastādītāja pārskatu, var izmantot pārskata URL. Lai piekļūtu pārskata vietrādim URL, pārskatu veidotājā atveriet šo pārskatu un pēc tam noklikšķiniet uz **Fails** &gt; **Skatīt pārskatu**, lai pārskatu atvērtu tīmekļa pārlūkprogrammā. Pēc tam varat kopēt URL no pārlūkprogrammas adreses joslas un ielīmēt to laukā **Uzdevuma saites** **URL**. 
+> [!TIP]
+> Lai finanšu perioda slēgšanas uzdevumam piesaistītu noteiktu pārvaldības pārskata sastādītāja pārskatu, varat izmantot pārskata URL. Lai piekļūtu pārskata vietrādim URL, pārskatu veidotājā atveriet šo pārskatu un pēc tam noklikšķiniet uz **Fails** &gt; **Skatīt pārskatu**, lai pārskatu atvērtu tīmekļa pārlūkprogrammā. Pēc tam varat kopēt URL no pārlūkprogrammas adreses joslas un ielīmēt to laukā **Uzdevuma saites** **URL**. 
 
 Veidnē varat definēt uzdevumu atkarības. Ja uzdevums ir iestatīts tā, lai būtu atkarīgs no viena vai vairākiem uzdevumiem, šo uzdevumu nevar atzīmēt kā pabeigtu, kamēr nav pabeigtas visas tā atkarības. 
 

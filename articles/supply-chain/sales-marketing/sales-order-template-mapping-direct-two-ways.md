@@ -1,6 +1,6 @@
 ---
 title: "Pārdošanas pasūtījumu tieša sinhronizēšana programmās Sales un Finance and Operations"
-description: "Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti pārdošanas pasūtījumu galveņu divvirzienu sinhronizēšanai programmās Microsoft Dynamics 365 for Sales un Microsoft Dynamics 365 for Finance and Operations Enterprise Edition."
+description: "Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti pārdošanas pasūtījumu sinhronizēšanai tieši starp Microsoft Dynamics 365 for Sales un Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/31/2017
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.intro: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 568c33a63efdc58a179dadcb617634dcf533fd4b
-ms.openlocfilehash: c31d65328250539fbe172f220272eec9d8b59bbf
+ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
+ms.openlocfilehash: 9aa8c78f5aea5a818d517c2baa9051750b132fc6
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/20/2017
 
 ---
 
@@ -31,13 +31,13 @@ ms.lasthandoff: 11/13/2017
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti pārdošanas pasūtījumu galveņu divvirzienu sinhronizēšanai programmās Microsoft Dynamics 365 for Sales un Microsoft Dynamics 365 for Finance and Operations Enterprise Edition.
+Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti pārdošanas pasūtījumu sinhronizēšanai tieši starp Microsoft Dynamics 365 for Sales un Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
 ## <a name="templates-and-tasks"></a>Veidnes un uzdevumi
 
 Lai piekļūtu pieejamajām veidnēm, atveriet [PowerApps administrēšanas centru](https://preview.admin.powerapps.com/dataintegration). Atlasiet **Projekti** un pēc tam augšējā labajā stūrī atlasiet **Jauns projekts**, lai atlasītu publiskās veidnes.
 
-Pārdošanas pasūtījumu galveņu un rindu divvirzienu sinhronizēšanai programmās Sales un Finance and Operations tiek izmantotas tālāk norādītās veidnes un pamata uzdevumi.
+Tālāk norādītās veidnes un pamata uzdevumi tiek izmantoti pārdošanas pasūtījumu tiešai sinhronizēšanai starp Sales un Finance and Operations.
 
 - **Veidņu nosaukumi līdzeklī Datu integrācija** 
 

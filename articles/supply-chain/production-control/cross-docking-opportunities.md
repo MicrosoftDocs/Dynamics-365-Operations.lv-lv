@@ -18,10 +18,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ef58898a6822224e44873afdd7c55800215c37a0
+ms.sourcegitcommit: ff0d19a2d712ccb17762803e2fe4ab2ed5aa024e
+ms.openlocfilehash: bd5f055ef816f050ed99390c455a613d46dd6323
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/06/2017
 
 ---
 
@@ -74,7 +74,7 @@ Pašlaik pārkraušanu sadales centrā var konfigurēt tikai darba pasūtījumu 
 ### <a name="cross-docking-policy-name-transfer-order"></a>Politikas pārkraušanai sadales centrā nosaukums: Pārsūtīšanas pasūtījums
 
 -   Sērijas numurs: 10
--   Darba pasūtījuma veids: Pārsūtīt izejas plūsmu
+ -   Darba pasūtījuma veids: Pārsūtīt izejas plūsmu
 -   Pārkraušanas sadales centrā pieprasījumam ir nepieciešama vieta: Aplams
 -   Stratēģija pārkraušanai sadales centrā: Datums un laiks
 
@@ -102,10 +102,9 @@ Pēc preces pabeigšanas reģistrēšanas ražošanas līnijā prece tiek pārvi
 6.  Izveidojiet pārsūtīšanas pasūtījumu. Izveidojiet krājuma Nr. L0101 pārsūtīšanas pasūtījumu. Daudzums = 20.
 7.  Nododiet pārsūtīšanas pasūtījumu izpildei, izmantojot kravu plānošanas rīku. Cilnē **Nosūtīt** atlasiet kravu plānošanas rīka izvēlnes vienumu un kravas rindas izvēlne **Nodot izpildei** atlasiet opciju **Pārvietot uz noliktavu**. Tagad pārsūtīšanas pasūtījumam ir atvērta veida **Pārsūtīt izejas plūsmu** kopuma rinda.
 8.  Izveidojiet ražošanas pasūtījumu. Pārejiet uz saraksta lapu **Ražošanas pasūtījums** un izveidojiet preces L0101 ražošanas pasūtījumu. Daudzums = 20. Novērtējiet ražošanas pasūtījumu un sāciet tā izpildi. Ņemiet vērā, ka lauka **Grāmatot izdošanas sarakstu tagad** vērtība ir **Nē**.
-9.  Reģistrējiet pabeigšanu, izmantojot mobilo ierīci. Pārejiet uz mobilo ierīču portālu un atlasiet izvēlnes vienumu **Reģistrēt pabeigšanu un izvietot**. Tagad reģistrējiet preces L0101 pabeigšanu, izmantojot rokas ierīci. Ņemiet vērā, ka izvietošanas novietojums ir **BAYDOOR**. Šis novietojums ir iegūts no darba pasūtījuma veida **Izvietot** novietojuma direktīvas **Pārsūtīt izejas plūsmu**. Pievērsiet uzmanību arī tam, ka ir izveidots un pabeigts veida **Pārsūtīt izejas plūsmu** darbs. Pārejiet uz detalizētu informāciju par pārsūtīšanas pasūtījuma darbu, lai pārbaudītu darba izpildi.
-10. Tagad mēģiniet sākt vēl 20 gabalu ražošanu ražošanas pasūtījumā un pēc tam mēģiniet reģistrēt 20 gabalu pabeigšanu, izmantojot rokas ierīci. Šoreiz kā izvietošanas novietojums tiek piedāvāts novietojums **LP-001**. Šis novietojums ir iegūts no novietojuma direktīvas **Pabeigto preču izvietošana**. Šī novietojuma direktīva tiek izmantota, jo nepastāv neviena iespēja pārkraušanai sadales centrā. Preces LP-001 pārsūtīšanas pasūtījums tika pilnībā izpildīts, veicot pirmo pārkraušanas sadales centrā aktivitāti.
-
-Tika izveidots un apstrādāts veida **Pabeigto preču izvietošana** darbs.
+9.  Reģistrējiet pabeigšanu, izmantojot mobilo ierīci. Pārejiet uz mobilo ierīču portālu un atlasiet izvēlnes vienumu **Reģistrēt pabeigšanu un izvietot**. Tagad reģistrējiet preces L0101 pabeigšanu, izmantojot rokas ierīci. Daudzums = 10. Ņemiet vērā, ka izvietošanas novietojums ir **BAYDOOR**. Šis novietojums ir iegūts no darba pasūtījuma veida **Izvietot** novietojuma direktīvas **Pārsūtīt izejas plūsmu**. Pievērsiet uzmanību arī tam, ka ir izveidots un pabeigts veida **Pārsūtīt izejas plūsmu** darbs. Pārejiet uz detalizētu informāciju par pārsūtīšanas pasūtījuma darbu, lai pārbaudītu darba izpildi.
+10. Tagad ziņojiet par papildu 10 gabaliem no mobilās ierīces. Ņemiet vērā, ka izvietošanas novietojums atkal ir **BAYDOOR**. Pievērsiet uzmanību arī tam, ka šiem 10 gabaliem ir izveidots jauns darbs ar veidu **Pārsūtīt izejas plūsmu**.
+11. Tagad mēģiniet sākt vēl 20 gabalu ražošanu ražošanas pasūtījumā un pēc tam mēģiniet reģistrēt 20 gabalu pabeigšanu, izmantojot rokas ierīci. Šoreiz kā izvietošanas novietojums tiek piedāvāts novietojums **LP-001**. Šis novietojums ir iegūts no novietojuma direktīvas **Pabeigto preču izvietošana**. Šī novietojuma direktīva tiek izmantota, jo nepastāv neviena iespēja pārkraušanai sadales centrā. Preces LP-001 pārsūtīšanas pasūtījums tika pilnībā izpildīts, veicot divas pārkraušanas sadales centrā aktivitātes 9. un 10. darbībā. Ņemiet vērā, ka tika izveidots un apstrādāts darbs ar veidu **Pabeigto preču izvietošana**.
 
 #### <a name="scenario-2---cross-docking-from-production-to-transfer-orders-with-an-appointment-schedule"></a>2. gadījums — pārkraušana sadales centrā no ražošanas uz pārsūtīšanas pasūtījumiem, izmantojot norīkojumu grafiku
 
@@ -123,7 +122,7 @@ Pēc preces pabeigšanas reģistrēšanas ražošanas līnijā prece tiek pārvi
 
 ### <a name="additional-information"></a>Papildinformācija
 
--   Pārkraušana sadales centrā tiek atbalstīta gan ar partijas, gan ar sērijas numuru kontrolētiem krājumiem, kam partijas un sērijas numura dimensijas ir definētas virs un zem novietojuma rezervācijas hierarhijā.
+-   Pārkraušana sadales centrā tiek atbalstīta gan ar partijas, gan ar sērijas numuru kontrolētiem krājumiem, kam partijas un sērijas numura dimensijas ir definētas virs un zem novietojuma rezervācijas hierarhijā. 
 
 
 

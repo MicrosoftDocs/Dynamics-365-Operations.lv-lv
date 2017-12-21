@@ -3,7 +3,7 @@ title: Lietot Excel pievienojumprogrammu
 description: "Šajā tēmā ir paskaidrots, kā elementa datus atvērt programmā Microsoft Excel un pēc tam šos datus apskatīt, atjaunināt un rediģēt, izmantojot Microsoft Dynamics Office pievienojumprogrammu programmai Excel."
 author: ChrisGarty
 manager: AnnBe
-ms.date: 11/06/2017
+ms.date: 11/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b1f25f3630ad5126edd20c5508b83a9811a65f8
-ms.openlocfilehash: dd986d8f82c42c4e229e6e60bdfe8d15a273e149
+ms.sourcegitcommit: bf2607596993d01abaf5e8a66f14f8c091791d4a
+ms.openlocfilehash: b4151ca929d0dbe073c1a8444cf63a90ac74e20c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/27/2017
 
 ---
 
@@ -104,17 +104,6 @@ Varat izmantot veidotāju, lai regulētu kolonnas, kuras darblapai ir pievienota
 
 4. Lai lietotu veiktās izmaiņas datu avotam, atlasiet **Atjaunināt**. Pēc tam atlasiet **Gatavs**, lai aizvērtu noformētāju.
 5. Ja pievienojāt lauku (kolonnu), atlasiet **Atsvaidzināt**, lai ievilktu atjauninātu datu kopu.
-
-## <a name="copy-environment-data"></a>Kopēt vides datus
-No vienas vides darblapā ielasītos datus var kopēt uz citu vidi. Taču jūs nevarat vienkārši mainīt savienojuma URL, jo darblapas datu kešatmiņā dati joprojām tiks apstrādāti kā esoši dati. Tā vietā ir jāizmanto funkcionalitāte Kopēt vides datus, lai publicētu datus jaunā vidē kā jaunus datus.
-
-1. Atlasiet pogu **Opcijas** (zobrata simbolu) un pēc tam kopsavilkuma cilnē **Datu savienotājs** atlasiet **Kopēt vides datus**.
-2. Ievadiet jaunās vides servera URL.
-3. Atlasiet **Labi** un pēc tam atlasiet **Jā**, lai apstiprinātu darbību. Excel pievienojumprogramma tiek restartēta, un tajā tiek izveidots savienojums ar jauno vidi. Visi darbgrāmatā esošie dati tiek apstrādāti kā jauni dati.
-
-    Pēc Excel pievienojumprogrammas restartēšanas tiek parādīts ziņojuma lodziņš ar informāciju, ka darbgrāmata ir pārslēgta vides kopēšanas režīmā.
-
-4. Lai kopētu datus uz jauno vidi kā jaunus datus, atlasiet **Publicēt**. Lai atceltu vides kopēšanas operāciju un pārskatītu jaunajā vidē esošos datus, atlasiet **Atsvaidzināt**.
 
 ## <a name="troubleshooting"></a>Problēmu novēršana
 Noteiktas problēmas var atrisināt ar dažām vienkāršām darbībām.

@@ -3,7 +3,7 @@ title: "Power BI satura pakotne Prakses pārvaldnieks"
 description: "Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē Prakses pārvaldnieks. Tajā ir paskaidrots, kā piekļūt pārskatiem, kas ir iekļauti saturā, un ir sniegta informācija par satura izveidei izmantoto datu modeli un elementiem."
 author: KimANelson
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3462ef1bbde9a98ac6a7bc9a5c54e58ff98559c8
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 836997f9f5b146ff48252c3f06153791ec1aabed
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -39,7 +39,7 @@ Power BI **Prakses pārvaldnieks** saturā ir ietvertas piecas pārskata lapas:
 Visas satura pakotnē ietvertās summas ir norādītas sistēmas valūtā. Sistēmas valūtu varat iestatīt lapā **Sistēmas parametri**.
 
 ## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
-Ja izmantojat programmatūru Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (2017. gada jūlijs), tad Power BI saturs **Prakses pārvaldnieks** tiek rādīts darbvietā **Projekta pārvaldība**.
+Power BI satura pakotne **Prakses pārvaldnieks** tiek rādīta darbvietā **Projektu pārvaldība**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie pārskati
 

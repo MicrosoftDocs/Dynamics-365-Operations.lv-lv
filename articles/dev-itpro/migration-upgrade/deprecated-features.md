@@ -3,7 +3,7 @@ title: "Novecojušie līdzekļi"
 description: "Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt."
 author: sericks007
 manager: AnnBe
-ms.date: 10/23/2017
+ms.date: 11/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 6
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: ee051bbf50a6124fe1700a244b36b5f9c599e714
+ms.sourcegitcommit: 408854737847590841814ed74209618bbf22ec23
+ms.openlocfilehash: b0eb041ee1a4309b010e510e1f7428d6c930e4a0
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 11/27/2017
 
 ---
 
@@ -490,9 +490,9 @@ Datu nodalījumi nodrošina loģisku datu nošķiršanu Microsoft Dynamics AX da
 
 |   |   |
 |---|---|
-| **Novecošanas pamatojums**       | Datu nodalījumi tika ieviesti versijā Microsoft Dynamics AX 2012 R2, lai varētu izmantot datu izolēšanu. Tipiskā scenārijā uzņēmumam ir filiāles, un datiem no vienas filiāles nevajadzētu būt redzamiem citai filiālei, lai gan abas filiāles pārvalda tā pati IT nodaļa. Taču bija nepieciešami papildu skripti un pārvaldība visā programmā, lai izveidotu jaunus nodalījumus un aizpildītu tos ar datiem, kā arī lai veiktu nodalījuma datu dublējumus. Mākonī, kur mums ir piekļuve platformas kā pakalpojuma (PaaS) datu bāzu pakalpojumiem (Microsoft Azure SQL datu bāzei), daudz efektīvāk ir datu bāzi lietot kā izolācijas konteineru, nevis veikt izolēšanu programmā. Neatkarīgi no tā, vai datu nodalījumu izmantošana ir nepieciešama filiālēm, vairākiem nomniekiem vai tikai mērogam, mēs uzskatām, ka ar scenārijiem daudz labāk var strādāt, izmantojot vairākas datu bāzes vai vairākas Dynamics AX instances. |
-| **Vai aizstāts ar citu līdzekli?** | Datu nodalījumi tiks aizstāti, izmantojot atbalstu vairākām datu bāzēm vai Dynamics AX instancēm turpmākos laidienos.    |
-| **Ietekmētie moduļi**             | Visus  |
+| **Novecošanas pamatojums**       | Datu nodalījumi tika ieviesti versijā Microsoft Dynamics AX 2012 R2, lai varētu izmantot datu izolēšanu. Tipiskā scenārijā uzņēmumam ir filiāles, un datiem no vienas filiāles nevajadzētu būt redzamiem citai filiālei, lai gan abas filiāles pārvalda tā pati IT nodaļa. Taču bija nepieciešami papildu skripti un pārvaldība visā programmā, lai izveidotu jaunus nodalījumus un aizpildītu tos ar datiem, kā arī lai veiktu nodalījuma datu dublējumus. Mākonī, kur mums ir piekļuve platformas kā pakalpojuma (PaaS) datu bāzu pakalpojumiem (Microsoft Azure SQL datu bāzei), daudz efektīvāk ir datu bāzi lietot kā izolācijas konteineru, nevis veikt izolēšanu programmā. Neatkarīgi no tā, vai datu nodalījumu izmantošana ir nepieciešama filiālēm, vairākiem nomniekiem vai tikai mērogam, mēs uzskatām, ka ar scenārijiem daudz labāk var strādāt, izmantojot vairākas Finance and Operations instances. |
+| **Vai aizstāts ar citu līdzekli?** | Debitoriem, kas izmanto datu nodalījumus, ir jāizmanto vairākas Finance and Operations instances, ja datu bāzes līmeņu atdalīšana ir būtisks jautājums.    |
+| **Ietekmētie moduļi**             | Visi  |
 
 ### <a name="database-and-file-share-storage-for-attachments"></a>Datu bāzes un failu koplietošanas krātuve pielikumiem
 Microsoft Dynamics AX 2012 ļāva izmantot krātuvi pielikumiem datu bāzē un failu koplietojumos. Abas šīs opcijas vairs netiek atbalstītas.
@@ -501,7 +501,7 @@ Microsoft Dynamics AX 2012 ļāva izmantot krātuvi pielikumiem datu bāzē un 
 |------------------------------|----------------------------------------|
 | **Novecošanas pamatojums**       | Failu koplietošanas krātuve vairs netiek atbalstīta, jo mākoņvides nevar sazināties ar lokālajiem failu koplietojumiem. Datu bāzes krātuve ir novecojusi, un tās vietā tiek izmantota Azure Blob krātuve. Azure Blob krātuve ir ekvivalents krātuvei datu bāzē, jo dokumentiem var piekļūt, tikai izmantojot Dynamics 365 for Finance and Operations klienta formas. Tas nodrošina papildu priekšrocību — šī krātuve neietekmē negatīvi datu bāzes darbību. Blob krātuve ir noklusējuma krātuves mehānisms dokumentu pārvaldībai, un tā darbojas uzreiz. |
 | **Vai ir aizstāts ar citu līdzekli?** | Datu bāzes krātuve ir novecojusi, un tās vietā tiek izmantota Azure Blob krātuve.       |
-| **Ietekmētie moduļi**             | Visus                   |
+| **Ietekmētie moduļi**             | Visi                   |
 
 ### <a name="delimitation"></a>Norobežošana
 
@@ -517,7 +517,7 @@ Microsoft Dynamics AX 2012 ļāva izmantot krātuvi pielikumiem datu bāzē un 
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | **Novecošanas pamatojums**       | Dynamics AX klienta lietošana ir pārveidota tā, lai uzlabotu izmantojamību dažādās platformās un ierīcēs.                      |
 | **Vai aizstāts ar citu līdzekli?** | Jaunais tīmekļa klients ir balstīts uz darbvirsmas formas metadatiem un programmēšanas modeli, kas ir modificēti tā, lai nodrošinātu bagātīgu tīmekļa platformu. |
-| **Ietekmētie moduļi**             | Visus                                                                                                                                    |
+| **Ietekmētie moduļi**             | Visi                                                                                                                                    |
 
 ### <a name="direct-database-connection"></a>Tiešs datu bāzes savienojums
 
@@ -535,7 +535,7 @@ Programmā Dynamics AX 2012 R3 Retail Modern POS var izveidot tiešu savienojumu
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Novecošanas pamatojums**       | Tagad tiek izmantota vispārīgā funkcionalitāte, nevis lokalizētā funkcionalitāte.                                                                                                                                                                 |
 | **Vai aizstāts ar citu līdzekli?** | Jā, šī funkcionalitāte ir aizstāta ar detalizētas bankas darbību saskaņošanas funkcionalitāti. |
-| **Ietekmētie moduļi**             | Visus                                                                                                                                                                                                                                   |
+| **Ietekmētie moduļi**             | Visi                                                                                                                                                                                                                                   |
 
 ### <a name="ebilanz-xbrl-for-germany"></a>eBilanz (XBRL Vācijai)
 
@@ -587,7 +587,7 @@ Pārbaudes ģenerēšanu nevar veikt, izmantojot paketi, bet lietotājs to jopro
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Novecošanas pamatojums**       | Šis formāts Vācijā vairs nav lietojams, jo tas ir aizstāts ar vienotās eiro maksājumu zonas (Single Euro Payments Area — SEPA) funkcionalitāti.                                                                                                                                                                 |
 | **Vai aizstāts ar citu līdzekli?** | Jā, šī funkcionalitāte ir aizstāta ar SEPA maksājumu eksportēšanas un detalizētās bankas darbību saskaņošanas funkcionalitāti kontu pārskatu importēšanai. |
-| **Ietekmētie moduļi**             | Visus                                                                                                                                                                                                                                                                                            |
+| **Ietekmētie moduļi**             | Visi                                                                                                                                                                                                                                                                                            |
 
 ### <a name="german-dtazv-payment-format"></a>Vācijas DTAZV maksājumu formāts
 
@@ -603,7 +603,7 @@ Pārbaudes ģenerēšanu nevar veikt, izmantojot paketi, bet lietotājs to jopro
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Novecošanas pamatojums**       | Tagad tiek izmantota vispārīgā funkcionalitāte, nevis lokalizētā funkcionalitāte.                                                                                                                                                                 |
 | **Vai aizstāts ar citu līdzekli?** | Jā, šī funkcionalitāte ir aizstāta ar detalizētas bankas darbību saskaņošanas funkcionalitāti. |
-| **Ietekmētie moduļi**             | Visus                                                                                                                                                                                                                                   |
+| **Ietekmētie moduļi**             | Visi                                                                                                                                                                                                                                   |
 
 ### <a name="german-xml-eu-sales-list"></a>Vācijas XML ES pārdošanas saraksts
 
@@ -716,7 +716,7 @@ Preču konfigurators tika izmantots, lai dinamiski konfigurētu krājumus no pā
 |                              |                                                                               |
 |------------------------------|-------------------------------------------------------------------------------|
 | **Novecošanas pamatojums**       | Dynamics AX pašreizējā versija neatbalsta etiķešu izmaiņu veikšanu izpildlaikā. |
-| **Vai ir aizstāts ar citu līdzekli?** | Nav                                                                            |
+| **Vai ir aizstāts ar citu līdzekli?** | Nē                                                                            |
 | **Ietekmētie moduļi**             | Preču informācijas pārvaldība                                                |
 
 ### <a name="retail-server-connectivity-using-http"></a>Retail Server savienojamība, izmantojot HTTP

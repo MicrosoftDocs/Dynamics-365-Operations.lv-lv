@@ -3,7 +3,7 @@ title: "Kreditoru sadarbības mobilā darbvieta"
 description: "Šajā tēmā ir sniegta informācija par mobilo darbvietu Kreditoru sadarbība. Šī darbvieta palīdz kreditoriem pastāvīgi būt informētiem par pirkšanas pasūtījumiem, kas viņiem ir nosūtīti apstiprināšanai. Viņi var skatīt arī informāciju par jauniem un atjauninātiem pirkšanas pasūtījumiem un kontaktpersonām."
 author: mkirknel
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 850a5dceb9ea084d9964094c0e2ba5325025fb5e
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 6028f6007cf2fd3f21c2e6cf3f5fac85c6e0da0a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -60,8 +60,8 @@ Mobilā darbvieta **Kreditoru sadarbība** kreditoram ļauj veikt tālāk norād
 ## <a name="prerequisites"></a>Priekšnosacījumi
 Priekšnosacījumi atšķiras atkarībā no jūsu organizācijai izvietotās Microsoft Dynamics 365 versijas.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Priekšnosacījumi, ja lietojat Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (2017. gada jūlijs) 
-Ja jūsu organizācijai ir izvietota programmatūra Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (2017. gada jūlijs), tad sistēmas administratoram ir jāpublicē mobilā darbvieta **Kreditoru sadarbība**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Priekšnosacījumi, ja lietojat Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 
+Ja jūsu organizācijai ir izvietota programmatūra Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, tad sistēmas administratoram ir jāpublicē mobilā darbvieta **Kreditoru sadarbība**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Priekšnosacījumi, ja lietojat Microsoft Dynamics 365 for Operations versiju 1611 ar 3. platformas atjauninājumu vai jaunāku tā versiju.
 Ja jūsu organizācija ir izvietota Microsoft Dynamics 365 for Operations versija 1611 ar 3. platformu atjauninājumu vai jaunāku tā versiju, sistēmas administratoram ir jāizpilda tālāk norādītie priekšnoteikumi. 
@@ -156,7 +156,7 @@ Lapā **Tiek gaidīta debitora darbība** varat atrast pirkšanas pasūtījumus,
 Kad atlasāt pirkšanas pasūtījumu, par atbildi tiek parādīta papildu informācija. Varat redzēt rindas informāciju un atbildi par katru rindu. Rindas statuss norāda, kura no tālāk uzskaitītajām atbildēm tika sniegta.
 
 -   Pieņemts
--   Noraidījis
+-   Noraidīts
 -   Apstiprināts ar izmaiņām
 -   Aizstāts/Aizstājējs
 -   Sadalīts grafikā/Grafika rinda

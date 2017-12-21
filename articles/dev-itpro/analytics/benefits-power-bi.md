@@ -3,7 +3,7 @@ title: "Power BI satura pakotne Atvieglojumi"
 description: "Šajā tēmā ir aprakstīta Power BI satura pakotne Atvieglojumi. Tajā ir paskaidrots, kā piekļūt ietvertajiem pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem."
 author: jcart1106
 manager: AnnBe
-ms.date: 05/24/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 21f7f77148728a6e7584af76ec053250f52bc73c
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 25111ac7ae07e04bc81ac23a348464bcbe1393af
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 ## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
 Power BI satura pakotne **Atvieglojumi** tiek rādīta darbvietā **Atvieglojumu pārvaldība**, ja izmantojat kādu no tālāk norādītajiem produktiem.
 
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (2017. gada jūlijs)
+- Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevums
 - Microsoft Dynamics 365 for Talent
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie pārskati

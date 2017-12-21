@@ -1,9 +1,9 @@
 ---
 title: "No potenciālā klienta līdz skaidrai naudai"
-description: "Šajā tēmā ir sniegts apskats par risinājumu No potenciālā klienta līdz skaidrai naudai programmās Dynamics 365 for Finance and Operations, Enterprise Edition un Dynamics 365 for Sales."
+description: "Šajā tēmā ir sniegts apskats par risinājumu No potenciālā klienta līdz skaidrai naudai programmās Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, un Microsoft Dynamics 365 for Sales."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 11/17/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,78 +20,91 @@ ms.author: crytt
 ms.dyn365.ops.intro: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 674d2e1f2c5cdbccf43618a9083ca01abed0735a
-ms.openlocfilehash: 2accf77c5241adff7ad1648737dde451153fde46
+ms.sourcegitcommit: 788e64476094e84eb4d438890776306c05b20582
+ms.openlocfilehash: 762699cf68ec8a9df5db20d7dd33bc9248f0a36e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 12/11/2017
 
 ---
 
-# <a name="prospect-to-cash"></a>No potenciālā klienta līdz skaidrai naudai  
+# <a name="prospect-to-cash"></a>No potenciālā klienta līdz skaidrai naudai
 
 [!include[banner](../includes/banner.md)]
 
-Risinājumā No potenciālā klienta līdz skaidrai naudai tiek izmantota [Datu integrācija](/common-data-service/entity-reference/dynamics-365-integration), lai sinhronizētu datus starp Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition un Dynamics 365 for Sales instancēm, izmantojot Common Data Service (CDS). Līdzeklī Datu integrācija pieejamās risinājuma No potenciālā klienta līdz skaidrai naudai veidnes ļauj izmantot kontu, kontaktpersonu, preču, pārdošanas piedāvājumu, pārdošanas pasūtījumu un pārdošanas rēķinu datu plūsmu starp Finance and Operations un Sales. Kamēr notiek datu plūsma starp Finance and Operations un Sales, programmā Sales varat veikt pārdošanas un mārketinga aktivitātes, savukārt programmā Finance and Operations varat veikt pasūtījuma izpildi ar krājumu vadību. 
+Risinājums No potenciālā klienta līdz skaidrai naudai nodrošina tiešu sinhronizēšanu starp programmām Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, un Microsoft Dynamics 365 for Sales. Risinājuma No potenciālā klienta līdz skaidrai naudai veidnes, kas ir pieejamas ar līdzekli Datu integrācija, nodrošina ar kontiem, kontaktpersonām, precēm, pārdošanas piedāvājumiem, pārdošanas pasūtījumiem un pārdošanas rēķiniem saistīto datu plūsmu starp programmām Finance and Operations un Sales. Kamēr notiek datu plūsma starp Finance and Operations un Sales, programmā Sales varat veikt pārdošanas un mārketinga aktivitātes, un varat tikt galā ar pasūtījuma izpildi, izmantojot krājumu vadību programmā Finance and Operations.
 
-Šis risinājums nodrošina integrāciju tālāk norādītajās jomās. 
+Pašreizējā versijā risinājums No potenciālā klienta līdz skaidrai naudai nodrošina tālāk aprakstītos tiešās sinhronizācijas tipus.
 
--   [Kontu uzturēšana programmā Sales un to sinhronizēšana ar Finance and Operations](accounts-template-mapping.md)
--   [Kontaktpersonu uzturēšana programmā Sales un to sinhronizēšana ar Finance and Operations](contacts-template-mapping.md)
--   [Preču uzturēšana programmā Finance and Operations un to sinhronizēšana ar Sales](products-template-mapping.md)
--   [Pārdošanas piedāvājumu izveidošana programmā Sales un to sinhronizēšana ar Finance and Operations](sales-quotation-template-mapping.md)
--   [Pārdošanas pasūtījumu izveidošana programmā Finance and Operations un to sinhronizēšana ar Sales](sales-order-template-mapping.md)
--   [Pārdošanas rēķinu izveidošana programmā Finance and Operations un to sinhronizēšana ar Sales](sales-invoice-template-mapping.md)
+- [Kontu uzturēšana programmā Sales un to tieša sinhronizēšana ar programmu Finance and Operations](accounts-template-mapping-direct.md)
+- [Preču uzturēšana programmā Finance and Operations un to tieša sinhronizēšana ar programmu Sales](products-template-mapping-direct.md)
+- [Kontaktpersonu uzturēšana programmā Sales un to tieša sinhronizēšana ar kontaktpersonām vai debitoriem programmā Finance and Operations](contacts-template-mapping-direct.md)
+- [Pārdošanas piedāvājumu tiešā sinhronizēšana no Sales uz Finance and Operations](sales-quotation-template-mapping-sales-fin.md)
+- [Pārdošanas pasūtījumu tiešā sinhronizēšana no Finance and Operations uz Sales](sales-order-template-mapping-direct.md)
+- [Pārdošanas pasūtījumu tieša sinhronizēšana programmās Sales un Finance and Operations](sales-order-template-mapping-direct-two-ways.md)
+- [Pārdošanas rēķinu tiešā sinhronizēšana no Finance and Operations uz Sales](sales-invoice-template-mapping-direct.md)
 
-Šis risinājums nodrošina tiešu sinhronizēšanu tālāk norādītajos gadījumos.
+Agrākās versijās risinājums No potenciālā klienta līdz skaidrai naudai nodrošina tālāk aprakstītos netiešās sinhronizācijas tipus.
 
--   [Kontu uzturēšana programmā Sales un to tieša sinhronizēšana ar programmu Finance and Operations](accounts-template-mapping-direct.md)
--   [Preču uzturēšana programmā Finance and Operations un to tieša sinhronizēšana ar programmu Sales](products-template-mapping-direct.md)
--   [Kontaktpersonu uzturēšana programmā Sales un to tieša sinhronizēšana ar kontaktpersonām vai debitoriem programmā Finance and Operations](contacts-template-mapping-direct.md)
--   [Programmā Sales ietverto pārdošanas piedāvājumu galveņu un rindu tieša sinhronizēšana ar programmu Finance and Operations](sales-quotation-template-mapping-sales-fin.md)
--   [Pārdošanas pasūtījumu izveide programmā Finance and Operations un to tieša sinhronizēšana ar programmu Sales](sales-order-template-mapping-direct.md)
--  [Pārdošanas pasūtījumu galveņu un rindu tieša sinhronizēšana programmās Sales un Finance and Operations](sales-order-template-mapping-between-sales-fin.md)
--   [Pārdošanas pasūtījumu tieša sinhronizēšana programmās Sales un Finance and Operations](sales-order-template-mapping-direct-two-ways.md)
--   [Pārdošanas rēķinu izveide programmā Finance and Operations un to tieša sinhronizēšana ar programmu Sales](sales-invoice-template-mapping-direct.md)
+- [Kontu uzturēšana programmā Sales un to sinhronizēšana ar Finance and Operations](accounts-template-mapping.md)
+- [Kontaktpersonu uzturēšana programmā Sales un to sinhronizēšana ar Finance and Operations](contacts-template-mapping.md)
+- [Preču uzturēšana programmā Finance and Operations un to sinhronizēšana ar Sales](products-template-mapping.md)
+- [Pārdošanas piedāvājumu izveidošana programmā Sales un to sinhronizēšana ar Finance and Operations](sales-quotation-template-mapping.md)
+- [Pārdošanas pasūtījumu izveidošana programmā Finance and Operations un to sinhronizēšana ar Sales](sales-order-template-mapping.md)
+- [Pārdošanas rēķinu izveidošana programmā Finance and Operations un to sinhronizēšana ar Sales](sales-invoice-template-mapping.md)
+
+## <a name="system-requirements-for-finance-and-operations"></a>Sistēmas prasības programmai Finance and Operations
+
+Lai lietotu risinājumu No potenciālā klienta līdz skaidrai naudai, ir jābūt instalētiem tālāk uzskaitītajiem komponentiem.
+
+### <a name="july-2017"></a>2017. gada jūlijs 
+
+- Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (2017. jūlijs) ar platformas 8. atjauninājumu (programmas būvējums 7.2.11792.56024 ar platformas būvējumu 7.0.4565.16212)
+- Tālāk norādītie labojumfaili programmai Finance and Operations.
+
+    - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** — šis labojumfails ļauj veikt pārdošanas pasūtījumu sinhronizēšanu no Sales uz Finance and Operations, izmantojot līdzekli Datu integrācija. Tas nodrošina arī vairākus citus uzlabojumus.
+    - **[KB4036524](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036524&bugId=3847504&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2)** — šis labojumfails ļauj veikt pārdošanas pasūtījumu rindu sinhronizēšanu no Finance and Operations uz Sales, izmantojot līdzekli Datu integrācija.
+    - **[KB4036461](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036461&bugId=3847029&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2)** — šis labojumfails ļauj veikt pārdošanas pasūtījumu sinhronizēšanu no Finance and Operations uz Sales, izmantojot līdzekli Datu integrācija.
+
+    > [!NOTE]
+    > Ir nepieciešams instalēt tikai labojumfailu KB4045570, jo tā instalācijā ir ietvertas izmaiņas no citiem Microsoft Zināšanu bāzes (Knowledge Base — KB) rakstiem.
+
+### <a name="november-2016-version-1611"></a>2016. gada novembris (versija 1611)
+
+- Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (2016. gada novembris) ar 8. platformas atjauninājumu vai jaunāku
+
+- Tālāk norādītie labojumfaili programmai Finance and Operations.
+
+    - **[KB4051266](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4051266&bugId=3863566&qc=ee80faaa7bc6c77b368d5eaf456c9c08e0b9fba5903a7b6fd8c13756c3a4b757)** — ļauj veikt pārdošanas pasūtījumu sinhronizēšanu no Microsoft Dynamics 365 for Finance and Operations uz Sales, izmantojot datu integrētāju 
+    - **[KB4037542](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4037542&bugId=3848253&qc=8323b93c15280172c5ab4159e0256e37104ced1729462c91ab2f7d00cb8d419c)** — ļauj veikt pārdošanas pasūtījumu virsrakstu un rindu sinhronizēšanu no Microsoft Dynamics 365 for Finance and Operations uz Sales, izmantojot datu integrētāju
+    - **[KB4033093](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4033093&bugId=3824604&qc=bd7e15e1fb56066b3a82ce48b691cf1ffbc934a7473fa888545b2211a8d416c5)** — ir nepieciešams atbalsts risinājuma No potenciālā klienta līdz skaidrai naudai integrācijai datu elementos
+    
+    > [!NOTE]
+    > Pēc labojumfailu instalēšanas jums ir nepieciešams aktivizēt tālāk norādīto pakešuzdevumu no formas SalesPopulateProspectToCash. Šī forma ir slēpta, jo jums tā ir nepieciešama tikai vienreiz. Lai tai piekļūtu, piesakoties vidē, savai pārlūkprogrammas adresei pievienojiet šādu virkni: &mi=action:SalesPopulateProspectToCash Piem., https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash Formā, kas tiek atvērta, noklikšķiniet uz Labi.
+    Šādi tabulās “SalesLine”, “SalesQuotationLine” un “CustInvoiceTrans” jauns lauks “LineCreationSequnceNumber” tiek aizpildīts ar unikālām vērtībām un tiek atsvaidzināts preču saraksts. Šī procedūra ir nepieciešama, lai P2C integrācija darbotos versijā 7.1
 
 
-## <a name="system-requirements-for-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Sistēmas prasības programmai Dynamics 365 for Finance and Operations, Enterprise Edition
+## <a name="system-requirements-for-sales"></a>Sistēmas prasības programmai Sales
 
-Lai izmantotu risinājumu No potenciālā klienta līdz skaidrai naudai, ir nepieciešams instalēt tālāk uzskaitītos elementus.
+Lai lietotu risinājumu No potenciālā klienta līdz skaidrai naudai, ir jābūt instalētiem tālāk uzskaitītajiem komponentiem.
 
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (2017. jūlijs) ar platformas 8. atjauninājumu (programma 7.2.11792.56024 ar platformu 7.0.4565.16212)
+- Microsoft Dynamics 365 for Sales versija 1612 (8.2.1.207) (DB 8.2.1.207) tiešsaistes
+- Risinājums No potenciālā klienta līdz skaidrai naudai programmai Microsoft Dynamics 365 for Sales, versija 1.15.0.0 (v15) 
 
-- Dynamics 365 for Finance and Operations Enterprise Edition labojumfaili (2017. gada jūlijs).
-        
-    -  [KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160) — šis labojumfails nodrošina atbalstu programmā Sales ietverto pārdošanas pasūtījumu sinhronizēšanai ar programmu Finance and Operations, izmantojot līdzekli Datu integrācija, kā arī vairākus citus uzlabojumus.
-
-    -  [KB4036524](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036524&bugId=3847504&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2) — šis labojumfails ļauj veikt pārdošanas pasūtījuma rindas sinhronizēšanu ar līdzekli Datu integrācija no programmas Finance and Operations uz programmu Sales.
-        
-    -  [KB4036461](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036461&bugId=3847029&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2) — šis labojumfails ļauj veikt pārdošanas pasūtījuma sinhronizēšanu ar līdzekli Datu integrācija no programmas Finance and Operations uz programmu Sales.
-
-**Piezīme**. Ir jāinstalē tikai labojumfails KB4045570, jo instalācijā ir ietvertas citos labojumfailos iekļautās izmaiņas.
- 
-## <a name="system-requirements-for-dynamics-365-for-sales"></a>Sistēmas prasības programmai Dynamics 365 for Sales
-
-Lai izmantotu risinājumu No potenciālā klienta līdz skaidrai naudai, ir nepieciešams instalēt tālāk uzskaitītos elementus.
-
-- Dynamics 365 for Sales tiešsaistes versija 1612 (8.2.1.207) (DB 8.2.1.207).
-- Risinājums No potenciālā klienta līdz skaidrai naudai programmai Dynamics 365 for Sales, versija 1.14.0.0 (v14) vai jaunāka.
+   > [!NOTE]
+   >
+   > Veidnes ar versiju 1.0.0.0 un 1.0.0.1 tiek atbalstītas risinājumā No potenciālā klienta līdz skaidrai naudai programmai Microsoft Dynamics 365 for Sales, versija 1.14.1.0
+   >
+   > Veidnes ar versiju 2.0.0.0 un 2.1.0.0 tiek atbalstītas risinājumā No potenciālā klienta līdz skaidrai naudai programmai Microsoft Dynamics 365 for Sales, versija 1.15.0.0
 
 ### <a name="install-the-prospect-to-cash-solution-for-sales"></a>Instalēt risinājumu No potenciālā klienta līdz skaidrai naudai programmai Sales
 
-- Lejupielādējiet [Risinājuma No potenciālā klienta līdz skaidrai naudai programmai Dynamics 365 for Sales pakotnes zip failu](https://mbs.microsoft.com/customersource/Global/365Enterprise/downloads/product-releases/MD365FNOPENTProspectToCash) vietnē CustomerSource.
+1. Lejupielādējiet [Risinājuma No potenciālā klienta līdz skaidrai naudai programmai Dynamics 365 for Sales pakotnes zip failu](https://mbs.microsoft.com/customersource/Global/365Enterprise/downloads/product-releases/MD365FNOPENTProspectToCash) no vietnes CustomerSource.
+2. Pārliecinieties, vai .zip fails ir atbloķēts. Pretējā gadījumā, kad mēģināt instalēt risinājuma pakotni, tiek parādīts šāds kļūdas ziņojums: “Importēšanas pakotnes nav atrastas.” Lai atbloķētu zip failu, noklikšķiniet uz tā ar peles labo pogu un atlasiet **Rekvizīti**. Pēc tam atlasiet **Atbloķēt**.
+3. Izgūstiet no zip arhīva un palaidiet failu **PackageDeployer.exe**.
+4. Tālāk aprakstītajā veidā instalējiet risinājumu No potenciālā klienta līdz skaidrai naudai savā Sales instancē.
 
-- Pārliecinieties, vai zip fails ir atbloķēts, lai risinājuma pakotnes instalēšanas laikā jums nerādītu kļūdas ziņojumu “Importēšanas pakotnes nav atrastas”. Lai failu atbloķētu, izpildiet tālāk aprakstītos norādījumus.
-
-    -  Noklikšķiniet uz zip faila ar peles labo pogu.
-    -  Atlasiet **Rekvizīti** un pēc tam atlasiet **Atbloķēt**. 
-
-- Izgūstiet no ZIP arhīva un palaidiet failu PackageDeployer.exe.
-
-- Instalējiet risinājumu No potenciālā klienta līdz skaidrai naudai savai Sales instancei.
-
-    - Atlasiet izvietošanas tipu **Office 365**.
-    - Atlasiet **Rādīt papildu**.
-    - Lai veiktu ātru instalēšanu, atlasiet kādu vērtību vienumam **Reģions**. Ja atlasāt **Nezinu**, tad sistēma meklē visus reģionus un instalēšanai var būt nepieciešams ilgāks laiks.
-    - Ievadiet vērtības laukiem **Lietotājvārds** un **Parole** lietotājam–administratoram, kuram ir lietotāja tiesības veikt instalēšanu.
+    1. Kā izvietojuma tipu atlasiet **Office 365**.
+    2. Atlasiet **Rādīt papildu**.
+    3. Lai veiktu ātru instalēšanu, atlasiet kādu reģionu. Ja atlasāt **Nezinu**, sistēma meklē visus reģionus un instalēšana aizņem vairāk laika.
+    4. Ievadiet lietotājvārdu un paroli lietotājam ar administratora tiesībām, kuram ir tiesības veikt instalēšanu.
 

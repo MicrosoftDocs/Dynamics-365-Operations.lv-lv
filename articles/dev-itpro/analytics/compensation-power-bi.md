@@ -3,7 +3,7 @@ title: "Power BI satura pakotne Atlīdzība"
 description: "Šajā tēmā ir aprakstīta Power BI satura pakotne Atlīdzība. Tajā ir paskaidrots, kā piekļūt pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem."
 author: jcart1106
 manager: AnnBe
-ms.date: 05/24/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f97b1323e739196ae58369a3d66de6a65df94f83
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 7143a2750d284080609c884ce15bc2b2e8943394
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 ## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
 Power BI satura pakotne **Atlīdzība** tiek rādīta darbvietā **Kompensāciju pārvaldība**, ja izmantojat kādu no tālāk norādītajiem produktiem.
 
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (2017. gada jūlijs)
+- Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevums
 - Microsoft Dynamics 365 for Talent
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie pārskati

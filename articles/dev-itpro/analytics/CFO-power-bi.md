@@ -3,7 +3,7 @@ title: "Power BI satura pakotne CFO pārskats"
 description: "Šajā tēmā ir aprakstīta Power BI satura pakotne CFO pārskats."
 author: kweekley
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e08277850d36804e3d4508b87547d2c819e2faf3
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: fcc93daf96f65cd340d6be766c6ef83a74d62cc5
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
 
-Ja lietojat programmatūru Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (2017. gada jūlijs), tad Power BI satura pakotnes **CFO apskats** pārskati tiek rādīti darbvietā **CFO apskats**.
+Pārskati no Power BI satura pakotnes **CFO pārskats** tiek rādīti darbvietā **CFO pārskats**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie pārskati
 Power BI satura pakotnē **CFO pārskats** ir apkopoti pārskati no dažādām citām Power BI satura pakotnēm, kā arī noteiktas faktiskās un budžeta bilances no Virsgrāmatas. Tāpēc šī Power BI satura pakotne sniedz finanšu direktoram (chief financial officer — CFO) pārskatu par organizāciju.

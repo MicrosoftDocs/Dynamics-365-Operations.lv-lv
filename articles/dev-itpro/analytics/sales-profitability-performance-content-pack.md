@@ -3,7 +3,7 @@ title: "Power BI saturs Pārdošanas un ienesīguma veiktspēja"
 description: "Šajā tēmā ir aprakstīts, kas ir iekļauts pārdošanas un ienesīguma veiktspējas Power BI saturā. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3692b9be0fb93e0e2de743775a54bb9c9dbf5809
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: c065eb2f19bbbd553e070f06c29f73114e3efad5
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -49,7 +49,7 @@ Ienesīgumu var analizēt tālāk minētajos veidos.
 -   Debitora ienesīgums (pēc ieņēmumu un peļņas normas attiecības)
 
 ## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
-Ja izmantojat programmatūru Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (2017. gada jūlijs), tad Power BI saturs **Pārdošanas un ienesīguma veiktspēja** tiek rādīts lapā **Pārdošanas un ienesīguma veiktspēja** (**Pārdošana un mārketings** > **Pieprasījumi un pārskati** > **Pārdošanas veiktspējas analīze** > **Pārdošanas un ienesīguma veiktspēja**). 
+Power BI satura pakotne **Pārdošanas un ienesīguma veiktspēja** tiek rādīta lapā **Pārdošanas un ienesīguma veiktspēja** (**Pārdošana un mārketings** > **Pieprasījumi un pārskati** > **Pārdošanas apjoma analīze** > **Pārdošanas un ienesīguma veiktspēja**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI saturā iekļautā metrika
 **Pārdošanas un ienesīguma veiktspējas** Power BI satura pakotnē ir iekļauts pārskats, kas sastāv no rādītāju kopas. Šie rādītāji tiek vizualizēti kā diagrammas, elementi un tabulas. Tālāk esošajā tabulā ir sniegts apskats par satura rādītāju vizualizēšanu.
