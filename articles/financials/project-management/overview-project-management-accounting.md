@@ -3,7 +3,7 @@ title: "Projektu vadība un uzskaite"
 description: "Projekta vadības un uzskaites funkcionalitāti var izmantot vairākās nozarēs, lai sniegtu pakalpojumus, ražotu preces vai sasniegtu rezultātu."
 author: KimANelson
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 01/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
