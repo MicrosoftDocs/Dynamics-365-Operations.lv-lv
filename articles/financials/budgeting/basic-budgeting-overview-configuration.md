@@ -3,7 +3,7 @@ title: "Budžeta veidošanas apskats"
 description: "Gandrīz ikvienam uzņēmumam, kas izmanto programmatūras Microsoft Dynamics 365 for Finance and Operations izdevuma Enterprise funkcionalitāti Finanšu dati, ir jāspēj izveidot budžeta un faktisko izmaksu salīdzinājuma pārskatus. Šajā rakstā ir paskaidrota minimālā konfigurācija, kas ir nepieciešama, lai programmatūras Dynamics 365 for Finance and Operations izdevumā Enterprise izveidotu budžetus vai tos ielādētu no kādas trešās puses programmas."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Budžeta kontroles apskats"
 description: "Šajā rakstā ir aprakstīta budžeta kontrole un sniegta informācija, kas jums palīdzēs konfigurēt budžeta kontroli programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise, lai jūs varētu pārvaldīt finanšu resursus."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
