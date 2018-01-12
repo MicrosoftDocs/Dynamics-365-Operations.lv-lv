@@ -3,7 +3,7 @@ title: "Noklusējuma korespondējošie konti kreditoru rēķinu žurnāliem un r
 description: "Šajā tēmā sniegtā informācija palīdzēs jums izlemt, vai rēķinu žurnāliem ir jāpiešķir noklusējuma konti."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
