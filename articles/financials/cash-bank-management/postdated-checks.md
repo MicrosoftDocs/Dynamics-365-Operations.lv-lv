@@ -3,7 +3,7 @@ title: "Ar iepriekšēju datumu datēti čeki"
 description: "Šajā rakstā ir sniegta informācija par programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise nodrošināto ar iepriekšēju datumu datētu čeku atbalstu. Ar iepriekšēju datumu datēti čeki ir čeki, kas tiek izsniegti, lai veiktu vai saņemtu maksājumus nākotnes datumā. Tāpēc šādu čeku nevar iekasēt pirms norādītā datuma."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

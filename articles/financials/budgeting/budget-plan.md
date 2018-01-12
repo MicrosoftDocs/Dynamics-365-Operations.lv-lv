@@ -3,7 +3,7 @@ title: "Budžeta plānošana"
 description: "Šī uzdevuma mērķis ir jūs iepazīstināt ar funkcionalitātes atjauninājumiem Microsoft Dynamics 365 for Finance and Operations izdevuma Enterprise apgabalā Budžeta plānošana. Šī uzdevuma nolūks ir ilustrēt budžeta plānošanas moduļa ātras konfigurēšanas piemēru un demonstrēt, kā var paveikt budžeta plānošanu, izmantojot šo konfigurāciju.  Šajā uzdevumā galvenā uzmanība ir pievērsta tālāk uzskaitītajiem biznesa procesiem vai uzdevumiem. -    - Organizācijas hierarhijas izveidošana budžeta plānošanai un lietotāju drošības konfigurēšanai   - Budžeta plāna scenāriju, budžeta plāna kolonnu, izkārtojumu un Excel veidņu definēšana   - Budžeta plānošanas procesa izveidošana un aktivizēšana   - Budžeta plāna dokumenta izveidošana, izgūstot faktiskos datus no virsgrāmatas   - Sadalījumu izmantošana, lai koriģētu budžeta plāna dokumenta datus   - Budžeta plāna dokumenta datu rediģēšana programmā Excel"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

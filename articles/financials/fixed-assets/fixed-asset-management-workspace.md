@@ -3,7 +3,7 @@ title: "Pamatlīdzekļu pārvaldības darbvieta"
 description: "Šajā tēmā ir sniegta informācija par darbvietu Pamatlīdzekļu pārvaldība. Šajā darbvietā tiek radīta informācija, kas attiecas uz sistēmā ievadītajiem pamatlīdzekļiem. Tā ietver kopsavilkuma skatu un analīzes skatu."
 author: saraschi
 manager: AnnBe
-ms.date: 10/27/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Bankas pārvaldības darbvieta"
 description: "Šajā tēmā ir sniegta informācija par darbvietu Banku vadība. Šajā darbvietā tiek rādīta informācija, kas ir saistīta ar uzņēmuma bankas kontiem, un tajā ir ietverts skats Kopsavilkums un lapa Analīze. Skatā Kopsavilkums tiek rādīti kopsavilkuma elementi, bankas konta informācija, bilances diagramma un saistītā informācija. Lapā Analīze tiek izmantotas Microsoft Power BI iespējas, lai parādītu ar bankas kontu bilancēm saistītas vizualizācijas."
 author: saraschi2
 manager: AnnBe
-ms.date: 01/18/2018
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

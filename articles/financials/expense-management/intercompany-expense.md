@@ -3,7 +3,7 @@ title: "Starpuzņēmumu izdevumi"
 description: "Nodarbinātais, kura darba devējs ir viena organizācijas juridiskā persona, varētu veikt darbu citā juridiskajā personā, kas ietilpst tajā pašā organizācijā. Šādā gadījumā varat izmantot starpuzņēmumu izdevumu līdzekli, lai šī nodarbinātā izdevumus piešķirtu tai juridiskajai personai, kurai darbs tika veikts."
 author: saraschi2
 manager: AnnBe
-ms.date: 09/19/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
