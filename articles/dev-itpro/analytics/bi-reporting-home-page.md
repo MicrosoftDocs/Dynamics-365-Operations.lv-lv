@@ -3,7 +3,7 @@ title: "Informācija"
 description: "Šajā tēmā norādīti resursi, kurus varat izmantot, lai uzzinātu vairāk par biznesa informācijas un pārskatu veidošanas rīkiem, kas pieejami programmā Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: sericks007
 manager: AnnBe
-ms.date: 09/07/2017
+ms.date: 12/18/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 335d38e0fb5e47136b87bac5bfa9d2fd2923def6
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 2477062ad324f91ff07f1c79cfccd4389b37badf
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -48,7 +48,6 @@ Lietotāji var mijiedarboties ar datiem, lapā noklikšķinot uz vizuālajiem l�
  - [Iegultais Power BI darbvietās](embed-power-bi-workspaces.md)
  - [Power BI Embedded integrācija](power-bi-embedded-integration.md)
  - [Analīzes pievienošana darbvietām, izmantojot Power BI Embedded](add-analytics-tab-workspaces.md)
- - [Analītisku pieteikumu publicēšana pakalpojumā Power BI](publish-apps-powerbi.md)
  - [Analītisku darbvietu un pārskatu nodrošināšana, izmantojot Power BI Embedded](secure-analytical-workspaces.md)
  - [Power BI saturs programmai Finance and Operations](power-bi-home-page.md)
 
@@ -59,7 +58,7 @@ Pārskatu izveides risinājumus bieži izmanto, lai iegūtu un apspriestu inform
 
 Lai uzzinātu vairāk, skatiet tālāk norādītās tēmas.
 
-- [Dokumentu atskaišu veidošanas pakalpojumu pārskats](document-reporting-services.md)
+- [Document Reporting Services apskats](document-reporting-services.md)
 - [Drukāšana Dynamics 365 for Finance and Operations programmās](print-documents.md)
 - [Instalēt dokumentu maršrutēšanas aģentu, lai iespējotu tīkla printera ierīces](install-document-routing-agent.md)
 
@@ -88,11 +87,8 @@ Lai uzzinātu vairāk, skatiet tālāk norādītās tēmas.
 ## <a name="technical-reference-reports"></a>Tehniskās atsauces pārskati
 Tālāk esošajos pārskatos ir sniegta atsauces informācija par objektiem programmā Finance and Operations.
 
-- [Apkopoto datu elementu pārskats](aggregate-data-entities-report.md)
-- [Apkopošanas mērījumu pārskats](aggregate-measurements-report.md)
 - [Datu elementu pārskats](../data-entities/data-entities-report.md)
-- [Izpildes pamatrādītāju (KPI) pārskats](key-performance-indicators-report.md)
 - [Pārskats par licenču kodiem un konfigurācijas atslēgām](../sysadmin/license-codes-configuration-keys-report.md)
-- [SQL Server atskaišu izveides pakalpojumu pārskatu pārskats](SSRS-report.md)
+- [SQL Server Reporting Services pārskatu pārskats](SSRS-report.md)
 - [Darbplūsmu tipu pārskats](../../fin-and-ops/organization-administration/workflow-types-report.md)
 
