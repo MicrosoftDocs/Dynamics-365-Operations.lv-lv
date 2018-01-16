@@ -17,25 +17,26 @@
 ##### [Finance and Operations (lokālās versijas) iegāde](get-started/purchase-on-premises.md)
 
 ### [Jaunumi un izmaiņas](get-started/whats-new-changed.md)
-#### [Novecojušie līdzekļi](../dev-itpro/migration-upgrade/deprecated-features.md)
+#### [Noņemtie vai novecojušie līdzekļi](../dev-itpro/migration-upgrade/deprecated-features.md)
 #### [Atliktie AX 2012 līdzekļi](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [Līdzekļi, kas nav ieviesti lokālos izvietojumos](get-started/features-not-implemented-on-prem.md)
-#### [Dzīves cikla politika](../dev-itpro/migration-upgrade/versions-update-policy.md)
-#### [Platform update 12 (2017. gada novembris)](get-started/whats-new-platform-update-12.md)
-#### [Platform update 11 (2017. gada oktobris)](get-started/whats-new-platform-update-11.md)
-#### [Platform update 10 (2017. gada augusts)](get-started/whats-new-platform-update-10.md)
+#### [Laidieni un dzīves cikla politika](../dev-itpro/migration-upgrade/versions-update-policy.md)
+#### [Finance and Operations, Enterprise Edition 7.3](get-started/whats-new-application-7.3-update.md)
+#### [Platform atjauninājumu 12 (2017. gada novembris)](get-started/whats-new-platform-update-12.md)
+#### [Platform atjauninājumu 11 (2017. gada oktobris)](get-started/whats-new-platform-update-11.md)
+#### [Platform atjauninājumu 10 (2017. gada augusts)](get-started/whats-new-platform-update-10.md)
 #### [Finance and Operations Enterprise edition (2017. gada jūlijs)](get-started/whats-new-application-July-2017-update.md)
-#### [Platformas 9. atjauninājums (2017. gada jūlijs)](get-started/whats-new-platform-update-9.md)
-#### [Platformas 8. atjauninājums (2017. gada jūnijs)](get-started/whats-new-platform-update-8.md)
-#### [Platformas 7. atjauninājums (2017. gada maijs)](get-started/whats-new-platform-update-7.md)
-#### [Platformas 6. atjauninājums (2017. gada aprīlis)](get-started/whats-new-platform-update-6.md)
-#### [Platformas 5. atjauninājums (2017. gada marts)](get-started/whats-new-platform-update-5.md)
-#### [Platformas 4. atjauninājums (2017. gada februāris)](get-started/whats-new-platform-update-4.md)
+#### [Platform atjauninājumu 9 (2017. gada jūlijs)](get-started/whats-new-platform-update-9.md)
+#### [Platform atjauninājumu 8 (2017. gada jūnijs)](get-started/whats-new-platform-update-8.md)
+#### [Platform atjauninājumu 7 (2017. gada maijs)](get-started/whats-new-platform-update-7.md)
+#### [Platform atjauninājumu 6 (2017. gada aprīlis)](get-started/whats-new-platform-update-6.md)
+#### [Platform atjauninājumu 5 (2017. gada marts)](get-started/whats-new-platform-update-5.md)
+#### [Platform atjauninājumu 4 (2017. gada februāris)](get-started/whats-new-platform-update-4.md)
 #### [Operāciju versija 1611 (2016. gada novembris)](get-started/whats-new-dynamics-365-operations-1611.md)
-#### [Platformas 3. atjauninājums (2016. gada novembris)](get-started/whats-new-platform-update-3.md)
-#### [Platformas 2. atjauninājums (2016. gada augusts)](get-started/whats-new-platform-update-2.md) 
+#### [Platform atjauninājumu 3 (2016. gada novembris)](get-started/whats-new-platform-update-3.md)
+#### [Platform atjauninājumu 2 (2016. gada augusts)](get-started/whats-new-platform-update-2.md) 
 #### [Dynamics AX lietojumprogrammas versija 7.0.1 (2016. gada maijs)](get-started/whats-new-changed-application-version-7-0-1-may-2016.md)
-#### [Platformas 1. atjauninājums (2016. gada maijs)](get-started/whats-new-changed-platform-version-7-1-may-2016.md)
+#### [Platform atjauninājumu 1 (2016. gada maijs)](get-started/whats-new-changed-platform-version-7-1-may-2016.md)
 #### [Dynamics AX 7.0 (2016. gada februāris)](get-started/whats-new-changed-7-0-february-2016.md)
 #### Atjauninātie uzdevumu ceļveži
 ##### [2016. gada novembra uzdevumu ceļveži](get-started/new-task-guides-november-2016.md)
@@ -141,7 +142,7 @@
 #### [Datu pārvaldības pakotnes API](../dev-itpro/data-entities/data-management-api.md)
 #### [Pakalpojumu galapunkti](../dev-itpro/data-entities/services-home-page.md)
 ##### [Pakalpojumu autentifikācijas traucējumnovēršana](../dev-itpro/data-entities/troubleshoot-service-authentication.md)
-#### [OData](../dev-itpro//data-entities/odata.md)
+#### [OData](../dev-itpro/data-entities/odata.md)
 #### [Pielāgoti pakalpojumi](../dev-itpro/data-entities/custom-services.md)
 #### [Atkārtotas integrācijas](../dev-itpro/data-entities/recurring-integrations.md)
 
@@ -179,9 +180,10 @@
 ### [Datu elementi](../dev-itpro/data-entities/data-entities.md)
 
 #### [Konfigurācijas datu projekti](../dev-itpro/data-entities/configuration-data-projects.md)
-#### [Konfigurācijas datu pakotnes](../dev-itpro/data-entities/configuration-data-packages.md)
 #### [Konfigurācijas datu kopēšana starp uzņēmumiem](../dev-itpro/data-entities/copy-configuration.md)
+##### [Konfigurācijas datu pakotnes (tikai 2017. gada jūlija laidiens)](../dev-itpro/data-entities/configuration-data-packages.md)
 #### [Konfigurācijas datu veidnes](../dev-itpro/data-entities/configuration-data-templates.md)
+
 #### [Elementa izmaiņu izsekošana](../dev-itpro/data-entities/entity-change-track.md)
 
 ### Standarta datu elementi
@@ -417,7 +419,7 @@
 #### Kases un banku pārvaldības uzdevumi
 ##### [Bankas iestādes līguma izveide akreditīvam](../financials/cash-bank-management/tasks/create-bank-facility-agreement-letter-credit.md)
 ##### [Bankas iestādes līguma izveide garantijas vēstulei](../financials/cash-bank-management/tasks/create-bank-facility-agreement-letter-guarantee.md)
-##### [Debitoru maksājumu pārskats](../financials/cash-bank-management/tasks/customer-payment-overview.md)
+##### [Debitoru maksājumu apskats](../financials/cash-bank-management/tasks/customer-payment-overview.md)
 ##### [Akreditīva eksportēšana](../financials/cash-bank-management/tasks/export-letter-credit.md)
 ##### [Akreditīva importēšana](../financials/cash-bank-management/tasks/import-letter-credit.md)
 ##### [Garantijas vēstules darījums](../financials/cash-bank-management/tasks/letter-guarantee-transaction.md)
@@ -428,7 +430,7 @@
 ##### [Bankas iestāžu iestatīšana un garantijas vēstuļu grāmatošanas profili](../financials/cash-bank-management/tasks/set-up-bank-facilities-posting-profiles.md)
 ##### [Bankas iestāžu iestatīšana un kredītvēstuļu grāmatošanas profili](../financials/cash-bank-management/tasks/set-up-bank-facilities-posting-profiles-letter-credit.md)
 ##### [Ar iepriekšēju datumu datētu čeku iestatīšana](../financials/cash-bank-management/tasks/set-up-postdated-checks.md)
-##### [Kreditoru maksājumu pārskats](../financials/cash-bank-management/tasks/vendor-payment-overview.md)
+##### [Kreditoru maksājumu apskats](../financials/cash-bank-management/tasks/vendor-payment-overview.md)
 
 #### Detalizēta bankas darbību saskaņošana
 ##### [Detalizētu bankas darbību saskaņošanas iestatīšanas uzdevumi](../financials/cash-bank-management/configure-advanced-bank-reconciliation.md)
@@ -531,7 +533,7 @@
 #### [Finanšu dimensijas](../financials/general-ledger/financial-dimensions.md)
 #### [Kontu struktūras](../financials/general-ledger/Default-dimensions.md)
 #### [Kontu struktūru izveide (uzdevuma ceļvedis)](../financials/general-ledger/tasks/create-account-structures.md)
-#### [Budžeta veidošanas apskats ](../financials/budgeting/basic-budgeting-overview-configuration.md)
+#### [Budžeta veidošanas apskats](../financials/budgeting/basic-budgeting-overview-configuration.md)
 #### [Dimensiju izveide un dimensijas elementu importēšana](../financials/cost-accounting/cost-dimension.md) 
 #### [Izmaksu elementu dimensijas](../financials/cost-accounting/cost-elements.md)
 #### [Izmaksu elementu izveide (uzdevuma ceļvedis)](../financials/cost-accounting/tasks/create-cost-elements.md)
@@ -646,6 +648,11 @@
 ##### [Iestatīt negatīvus debetus kredītus ](../financials/localizations/apac-chn-negative-debits-credits.md)
 ##### [Lietotāja darbību žurnāls pēc Ķīnas darba kārtulas](../financials/localizations/tasks/user-operation-log-china-working-rule.md)
 ##### [Bieži uzdotie jautājumi par PVN debitoru rēķiniem](../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md)
+
+#### Indija
+##### [Nodokļu programmas apskats](../financials/general-ledger/tax-engine.md)
+##### [Nodokļu programmas integrācija](../financials/general-ledger/tax-engine-integration.md)
+##### [Nodokļu programmas paplašināšana](../financials/general-ledger/extend-tax-engine-configurations.md)
 
 #### Japāna
 ##### [Pamatlīdzekļu iegāde un valdības dotācijas subsīdiju pieprasīšana](../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md)
@@ -1189,7 +1196,7 @@
 ### [Power BI saturs](../dev-itpro/analytics/power-bi-home-page.md)
 #### [Faktiski pret budžetu](../dev-itpro/analytics/ledger-budgets-power-bi.md)
 #### [Atvieglojumi](../dev-itpro/analytics/benefits-power-bi.md)
-#### [Skaidras naudas pārskats](../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
+#### [Skaidras naudas apskats](../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
 #### [CFO apskats](../dev-itpro/analytics/CFO-power-bi.md)
 #### [Atlīdzība](../dev-itpro/analytics/compensation-power-bi.md)
 #### [Atlīdzības un atvieglojumi](../dev-itpro/analytics/compensation-and-benefits-analysis-power-bi-content-pack.md)
@@ -1213,21 +1220,22 @@
 #### [Noliktavas veiktspēja](../dev-itpro/analytics/warehouse-power-bi-content.md)
 #### [Darbaspēka rādītāji](../dev-itpro/analytics/workforce-analysis-power-bi-content-pack.md)
 
-### Dokumentu atskaišu veidošana un drukāšana
-#### [Dokumentu atskaišu veidošanas pakalpojumu pārskats](../dev-itpro/analytics/document-reporting-services.md)
+### Dokumentu pārskatu veidošana un drukāšana
+#### [Document Reporting Services apskats](../dev-itpro/analytics/document-reporting-services.md)
+#### [Tīkla printera ierīču instalēšana lokālajās vidēs](../dev-itpro/analytics/install-network-printer-onprem.md)
 #### [SSRS konfigurēšana lokālam izvietojumam](../dev-itpro/analytics/configure-ssrs-on-premises.md)
 #### [Drukāšana](../dev-itpro/analytics/print-documents.md)
-##### [Instalēt dokumentu maršrutēšanas aģentu, lai iespējotu tīkla printera ierīces](../dev-itpro/analytics/install-document-routing-agent.md)
+##### [Dokumentu maršrutēšanas aģenta instalēšana, lai iespējotu tīkla printera ierīces](../dev-itpro/analytics/install-document-routing-agent.md)
 ##### [Dokumentu veidošanas, publicēšanas un drukāšanas iespējas lokālos izvietojumos](../dev-itpro/analytics/printing-capabilities-on-premises.md)
 ##### [Palaist dokumentu maršrutēšanas aģentu kā Windows pakalpojumu](../dev-itpro/analytics/run-document-routing-agent-as-windows-service.md)
 #### [Palīdzība ilglaicīgu atskaišu taimautu novēršanā](../dev-itpro/analytics/prevent-long-running-reports-timing-out.md)
-#### [SQL servera pārskatu pakalpojumu pārskatu saraksts](../dev-itpro/analytics/SSRS-report.md)
+#### [SQL Server Reporting Services pārskatu saraksts](../dev-itpro/analytics/SSRS-report.md)
 #### [Pārskata risinājumu izveide](../dev-itpro/analytics/create-nextgen-reporting-solutions.md)
 #### [Instalēt pārskatu noformējuma veidnes](../dev-itpro/analytics/install-modern-report-design-templates.md)
 #### [Programmas komplekta pārskatu pielāgošana, izmantojot paplašinājumus](../dev-itpro/analytics/customize-app-suite-reports-with-extensions.md)
 #### [Programmu komplekta pārskatu datu kopu izvēršana](../dev-itpro/analytics/expand-app-suite-report-data-sets.md)
 #### [Pārskata izvēlnes elementu paplašināšana](../dev-itpro/analytics/extend-report-menu-items.md)
-#### [Biznesa dokumentu pielāgots dizains ](../dev-itpro/analytics/custom-designs-business-docs.md)
+#### [Biznesa dokumentu pielāgots dizains](../dev-itpro/analytics/custom-designs-business-docs.md)
 
 
 ### [Elektroniskie pārskati](../dev-itpro/analytics/general-electronic-reporting.md)
@@ -1274,7 +1282,7 @@
 ##### [Izveidot formātu horizontāli paplašināmu diapazonu izmantošanai, lai dinamiski pievienotu kolonnas programmas Excel pārskatos elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-horizontal-1.md)
 ##### [Palaist formātu, kas izmanto horizontāli paplašināmus diapazonus, lai dinamiski pievienotu kolonnas programmas Excel pārskatos elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-horizontal-2.md)
 ##### [Importēt konfigurāciju no Lifecycle Services elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md)
-##### [Pārskatu veidošana Microsoft Office formātos ar iegultiem attēliem elektronisko pārskatu veidošanai (Part 1.md)](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md)
+##### [Pārskatu veidošana Microsoft Office formātos ar iegultiem attēliem elektronisko pārskatu veidošanai (Part 1.md) ](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md)
 ##### [Pārskatīt konfigurācijas, lai veidotu pārskatus Microsoft Office formātos ar iegultiem attēliem elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md)
 ##### [Ģenerēt pārskatus Microsoft Office formātos ar iegultiem attēliem elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md)
 ##### [Pārvaldīt modeļa kartēšanas konfigurācijas elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md)
@@ -1284,36 +1292,34 @@
 ##### [Izveidot nepieciešamās konfigurācijas datu importēšanai no ārējā faila elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-required-configurations-import-data.md)
 ##### [Atlasīt datu modeļa definīciju, veidojot formātu elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md)
 ##### [Jaunināt savu formātu, pieņemot šī formāta jaunu bāzes versiju elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-upgrade-format.md)
-##### [Augšupielādēt konfigurācijas informāciju no Lifecycle Services elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md)
+##### [Konfigurācijas informācijas augšupielādēšana pakalpojumā Lifecycle Services elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md)
+##### [Elektronisko pārskatu veidošanas struktūras API izmaiņas programmas 7.3. atjauninājumam](../dev-itpro/analytics/er-apis-app73.md)
 
-### Analītikas rīki un vizualizācijas
+### Iegultie analītiskie risinājumi
+#### [Iegultais Power BI darbvietās](../dev-itpro/analytics/embed-power-bi-workspaces.md)
+#### [Power BI Embedded integrācija](../dev-itpro/analytics/power-bi-embedded-integration.md)
+
+### Personalizēšanas opcijas ar PowerBI.com
+#### [Power BI integrācija](../dev-itpro/analytics/power-bi-integration.md)
+#### [Power BI pārskatu piespraušana darbvietām](../dev-itpro/analytics/pin-power-bi-reports.md)
+
+### Risinājumu izveidošanas un paplašināšanas rīki
 #### [Analītika, apkopošanas mērījumi un KPI modelēšana](../dev-itpro/analytics/analytics.md)
+#### [Analītisku pārskatu izveide, izmantojot programmu Power BI Desktop](../dev-itpro/analytics/author-distribute-power-bi-reports.md)
 #### [Modelēšana un apkopotie dati](../dev-itpro/analytics/model-aggregate-data.md)
 #### [Finanšu dimensiju pievienošana apkopošanas mērījumiem](../dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md)
-#### [Konteksta BI pievienošana formām](../dev-itpro/analytics/add-contextual-bi-forms.md)
-#### [Apkopošanas mērījumu pārskats](../dev-itpro/analytics/aggregate-measurements-report.md)
-#### [Apkopoto datu elementu pārskats](../dev-itpro/analytics/aggregate-data-entities-report.md)
-#### [Izpildes pamatrādītāja (KPI.md) pārskats](../dev-itpro/analytics/key-performance-indicators-report.md)
-#### [Power BI integrācija](../dev-itpro/analytics/power-bi-integration.md)
-#### [Piekļūšana Power BI saturam](../dev-itpro/analytics/power-bi-content-microsoft-partners.md)
-#### [Power BI pārskata un informācijas paneļa veidošana](../dev-itpro/analytics/create-powerbi-report-dashboard.md)
-#### [Power BI pārskata izveide, izmantojot programmas Finance and Operations datus](../dev-itpro/analytics/create-powerbi-report-data.md)
-#### [Power BI integrācijas konfigurēšana darbvietām](../dev-itpro/analytics/configure-power-bi-integration.md)
-#### [Power BI Embedded integrācija](../dev-itpro/analytics/power-bi-embedded-integration.md)
-#### [Iegultais Power BI darbvietās](../dev-itpro/analytics/embed-power-bi-workspaces.md)
 #### [Analīzes pievienošana darbvietām, izmantojot Power BI Embedded](../dev-itpro/analytics/add-analytics-tab-workspaces.md)
 #### [Analītisku darbvietu un pārskatu nodrošināšana, izmantojot Power BI Embedded](../dev-itpro/analytics/secure-analytical-workspaces.md)
-#### [Power BI pievienošana darbvietām](../dev-itpro/analytics/add-bi-workspaces.md)
-#### [Power BI pārskatu piespraušana darbvietām](../dev-itpro/analytics/pin-power-bi-reports.md)
+
+### Prasmīgu lietotāju pārvaldības rīki
 #### [Power BI integrācija ar elementu krātuvi](../dev-itpro/analytics/power-bi-integration-entity-store.md)
+#### [Power BI integrācijas konfigurēšana darbvietām](../dev-itpro/analytics/configure-power-bi-integration.md)
 #### [Savas datu bāzes izmantošana](../dev-itpro/analytics/export-entities-to-your-own-database.md)
-#### [Analītisku pārskatu izveide, izmantojot programmu Power BI Desktop](../dev-itpro/analytics/author-distribute-power-bi-reports.md)
-#### [Analītisku pieteikumu publicēšana pakalpojumā Power BI](../dev-itpro/analytics/publish-apps-powerbi.md)
 
 
 ## [Krājumu pārvaldība](../supply-chain/inventory/inventory-home-page.md)
-### [Saņemšanas pārskats](../supply-chain/inventory/arrival-overview.md)
-### [Krājumu saņemšanas pārskata profila iestatīšana (uzdevuma ceļvedis)](../supply-chain/inventory/tasks/set-up-item-arrival-overview-profile.md)
+### [Saņemšanas apskats](../supply-chain/inventory/arrival-overview.md)
+### [Krājumu saņemšanas apskata profila iestatīšana (uzdevuma ceļvedis)](../supply-chain/inventory/tasks/set-up-item-arrival-overview-profile.md)
 ### [Kvalitātes pārvaldības process](../supply-chain/inventory/quality-management-processes.md)
 ### [Iespējot kvalitātes pārvaldību](../supply-chain/inventory/enable-quality-management.md)
 ### [Neatbilstības pārvaldība](../supply-chain/inventory/enable-nonconformance-management.md)
@@ -1362,8 +1368,9 @@
 #### [Ierobežota plāna ģenerēšana (uzdevuma ceļvedis)](../supply-chain/master-planning/tasks/constrained-plan.md)
 #### [Materiālu plāna izveide līdzproduktiem (uzdevuma ceļvedis)](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
 #### [Plānoto pasūtījumu uzturēšana](../supply-chain/master-planning/maintain-planned-orders.md)
-#### [Apstrādāt aizkaves](../supply-chain/master-planning/delays.md)
-#### [Izsekot izvēršanu](../supply-chain/master-planning/trace-explosion.md)
+#### [Drošības rezerves apstrāde](../supply-chain/master-planning/safety-stock-replenishment.md)
+#### [Aizkavju apstrāde](../supply-chain/master-planning/delays.md)
+#### [Izvēršanas izsekošana](../supply-chain/master-planning/trace-explosion.md)
 #### [Darbību ziņojumi](../supply-chain/master-planning/action-messages.md)
 #### [Vispārējās plānošanas izpildes pārraudzība (uzdevuma ceļvedis)](../supply-chain/master-planning/tasks/monitor-master-planning-run.md)
 #### [Grafika izveide vietai (uzdevuma ceļvedis)](../supply-chain/master-planning/tasks/create-schedule-site.md)
@@ -1436,8 +1443,10 @@
 #### [Kreditoru grāmatošanas metodes](../financials/accounts-payable/vendor-posting-profiles.md)
 ### Kreditoru pārvaldība un sadarbība
 #### [Iestatīt un uzturēt kreditoru sadarbību](../supply-chain/procurement/set-up-maintain-vendor-collaboration.md)
-#### [Pārvaldīt kreditoru sadarbības lietotājus](../supply-chain/procurement/manage-vendor-collaboration-users.md)
-#### [Iestatīt kreditoru kontus](../supply-chain/procurement/set-up-vendor-accounts.md)
+#### [Kreditoru sadarbības lietotāju pārvaldīšana](../supply-chain/procurement/manage-vendor-collaboration-users.md)
+#### [Kreditoru kontu iestatīšana](../supply-chain/procurement/set-up-vendor-accounts.md)
+#### [Piegādātāja pieprasījuma konfigurācijas](../supply-chain/procurement/vendor-request-configurations.md)
+#### [Piegādātāja pievienošana](../supply-chain/procurement/vendor-onboarding.md)
 #### [Kreditoru sadarbība ar ārējiem kreditoriem](../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
 #### [Kreditoru sadarbība ar debitoriem](../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
 #### [Iestatīt ārējo katalogus elektroniskai atzīmēšanas sagādei](../supply-chain/procurement/set-up-external-catalog-for-punchout.md)
@@ -1528,7 +1537,7 @@
 
 
 ## [Ražošana](../supply-chain/production-control/production-process-overview.md)
-### [Pārskats par ražošanas procesu](../supply-chain/production-control/production-process-overview.md)
+### [Apskats par ražošanas procesu](../supply-chain/production-control/production-process-overview.md)
 ### [Jaukta režīma plānošana: kombinēt atsevišķu avotus, procesa avotus un racionālos avotus](../supply-chain/production-control/mixed-mode-plan.md)
 ### [Pārvaldīt apakšlīgumu slēgšanas darbu ražošanā](../supply-chain/production-control/manage-subcontract-work-production.md)
 ### Atsevišķā ražošana
@@ -1548,9 +1557,11 @@
 ##### [Ganta diagrammas izmantošana darba plānošanā](../supply-chain/production-control/visual-scheduling-production.md)
 ##### [Operāciju plānošanas opcijas](../supply-chain/production-control/operation-scheduling-options.md)
 #### Ražošanas darbu pārvaldība
-##### [Veidot ražošanas pasūtījumus](../supply-chain/production-control/create-production-orders.md)
-##### [Izlaist ražošanas pasūtījumus](../supply-chain/production-control/release-production-orders.md)
-##### [Atcelt ražošanas pasūtījuma statusu](../supply-chain/production-control/reverse-production-order-status.md)
+##### [Ražošanas pasūtījumu izveidošana](../supply-chain/production-control/create-production-orders.md)
+##### [Ražošanas pasūtījumu izlaišana](../supply-chain/production-control/release-production-orders.md)
+##### [Materiālu izņēmumu redzamība](../supply-chain/production-control/improved-visibility-into-material-exceptions.md)
+##### [MK un formulu rindu izlaišana nosūtīšanai uz noliktavu](../supply-chain/production-control/releasing-bom-and-formula-lines-to-warehouse.md)
+#####[Ražošanas pasūtījuma statusa atcelšana](../supply-chain/production-control/reverse-production-order-status.md)
 ##### [Materiālu patēriņa reģistrēšana, izmantojot mobilo ierīci](../supply-chain/production-control/register-material-consumption-hand-held-device.md)
 ##### [Izejmateriālu patēriņa kontrole, izmantojot tīrīšanas principus](../supply-chain/production-control/flushing-principles.md) 
 ##### [Pārkraušana sadales centrā no ražošanas pasūtījumiem uz izejošajiem sadales centriem](../supply-chain/production-control/cross-docking-opportunities.md)
@@ -1561,7 +1572,7 @@
 ##### [Ražošanas izpildes reģistrācija](../supply-chain/production-control/registration-manufacturing-execution.md)
 ##### [Ražošanas atsauksmes](../supply-chain/production-control/production-feedback.md)
 ##### [Laika un apmeklētības reģistrācija](../supply-chain/production-control/time-attendance-registrations.md)
-##### [Prombūtnes reģistrācija sadaļā Laiks un apmeklētība](..//supply-chain/production-control/absence-registration-in-time-and-attendance.md)
+##### [Prombūtnes reģistrācija sadaļā Laiks un apmeklētība](../supply-chain/production-control/absence-registration-in-time-and-attendance.md)
 #### Ražošanas finanšu līdzekļu pārvaldība
 ##### [Piešķirt laiku darbu komplektā iekļautiem darbiem](../supply-chain/production-control/allocate-time-jobs-job-bundle.md)
 ##### [Aprēķināt materiālu patēriņu](../supply-chain/production-control/consumption.md)
@@ -1686,6 +1697,7 @@
 #### [Preces šablona izveide (uzdevuma ceļvedis)](../supply-chain/pim/tasks/create-product-master.md)
 #### [Iepriekš definētu preces variantu izveide (uzdevuma ceļvedis)](../supply-chain/pim/tasks/create-predefined-product-variants.md)
 #### [Izlaistās preces izveide vienam uzņēmumam (uzdevuma ceļvedis)](../supply-chain/pim/tasks/create-released-product-single-company.md)
+#### [Preces dzīves cikla stāvoklis](../supply-chain/pim/product-lifecycle.md)
 #### [Preces svītrkoda izveide (uzdevuma ceļvedis)](../supply-chain/pim/tasks/create-bar-code-product.md)
 #### [GTIN koda ievadīšana precei (uzdevuma ceļvedis)](../supply-chain/pim/tasks/enter-gtin-code-product.md)
 #### [Preces partijas atribūtu izveide (uzdevuma ceļvedis)](../supply-chain/pim/tasks/create-batch-attributes-product.md)
@@ -1800,8 +1812,9 @@
 ### [Transportēšanas ierobežojumu iestatīšana krājumam](../supply-chain/transportation/tasks/set-up-transportation-constraints-item.md)
 
 ## [Noliktavas pārvaldība](../supply-chain/warehousing/warehouse-management-overview.md)
-### [Noliktavas konfigurācija](../supply-chain/warehousing/warehouse-configuration.md) 
-#### [Kontroles darbu, izmantojot darbu veidnes un novietojuma direktīvas](../supply-chain/warehousing/control-warehouse-location-directives.md)
+### [Noliktavas konfigurācija](../supply-chain/warehousing/warehouse-configuration.md)
+#### [Noliktavas iestatīšana, izmantojot noliktavas konfigurācijas veidni](../supply-chain/inventory/warehouse-template.md)
+#### [Darba kontrolēšana, izmantojot darbu veidnes un novietojuma direktīvas](../supply-chain/warehousing/control-warehouse-location-directives.md)
 #### [Mērvienību un uzkrājumu politikas](../supply-chain/warehousing/unit-measure-stocking-policies.md)
 #### [Noliktavas Power BI saturs](../dev-itpro/analytics/warehouse-power-bi-content.md)
 #### [Sistēmas grupēšana atvērtā darbu sarakstā](../supply-chain/warehousing/system-group-on-open-work-list.md)
