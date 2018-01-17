@@ -1,6 +1,6 @@
 ---
 title: "Kreditoru sadarbība ar ārējiem kreditoriem"
-description: "Šajā tēmā ir aprakstīts, kā iepirkuma aģenti var sadarboties ar ārējiem kreditoriem, lai apmainītos ar informāciju par pirkšanas pasūtījumiem un sūtījuma krājumiem."
+description: "Šajā tēmā ir paskaidrots, kā iepirkuma aģenti var sadarboties ar ārējiem kreditoriem, lai apmainītos ar informāciju par pirkšanas pasūtījumiem un sūtījuma krājumiem."
 author: mkirknel
 manager: AnnBe
 ms.date: 11/02/2017
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: abff906bcdf31c91ce696afbcd651a1d7a87ea8a
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: b56cf58f78e5b3ed9bdd0d88f85d31123ec63451
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -29,194 +29,234 @@ ms.lasthandoff: 11/03/2017
 
 [!include[banner](../includes/banner.md)]
 
+Modulis **Kreditoru sadarbība** ir paredzēts kreditoriem, kuri neizmanto elektroniskās datu apmaiņas (EDI) integrāciju ar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Tā ļauj kreditoriem strādāt ar pirkšanas pasūtījumiem (purchase order — PO), rēķiniem, sūtījuma krājumu informāciju un piedāvājumu pieprasījumiem (requests for quotation — RFQ), kā arī ļauj kreditoriem piekļūt daļām no saviem kreditora pamatdatiem. Šajā tēmā ir paskaidrots, kā jūs varat sadarboties ar ārējiem kreditoriem, kuri izmanto kreditoru sadarbības interfeisu, lai strādātu ar pirkšanas pasūtījumiem, piedāvājumu pieprasījumiem un sūtījumu krājumiem. Tajā ir arī paskaidrots, kā konkrētam kreditoram sniegt iespēju lietot kreditoru sadarbību un kā definēt informāciju, kuru redz visi kreditori, kad viņi atbild uz kādu pirkšanas pasūtījumu.
 
-Šajā tēmā ir aprakstīts, kā iepirkuma aģenti var sadarboties ar ārējiem kreditoriem, lai apmainītos ar informāciju par pirkšanas pasūtījumiem un sūtījuma krājumiem.
+Papildinformāciju par to, ko ārējie kreditori var darīt kreditoru sadarbības interfeisā, skatiet tēmā [Kreditoru sadarbība ar debitoriem](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
-Modulis **Kreditoru sadarbība** ir paredzēts kreditoriem, kuri neizmanto elektroniskās datu apmaiņas (EDI) integrāciju ar Microsoft Dynamics 365 for Finance and Operations. Tas kreditoriem ļauj strādāt ar pirkšanas pasūtījumu, rēķinu un sūtījuma krājumu informāciju. Šajā tēmā ir aprakstīts, kā jūs varat sadarboties ar ārējiem kreditoriem, kuri izmanto kreditoru sadarbības interfeisu, lai strādātu ar pirkšanas pasūtījumiem un sūtījumu krājumiem. Tajā ir arī aprakstīts, kā konkrētam kreditoram sniegt iespēju lietot kreditoru sadarbību un kā definēt informāciju, kuru redz visi kreditori, kad viņi atbild uz kādu pirkšanas pasūtījumu. Papildinformāciju par to, ko ārējie kreditori var darīt kreditoru sadarbības interfeisā, skatiet tēmā [Kreditoru sadarbība ar debitoriem](vendor-collaboration-work-customers-dynamics-365-operations.md).  
-
-Šajā tēmā sniegtā informācija par kreditoru sadarbību attiecas tikai uz pašreizējo Dynamics 365 for Finance and Operations versiju. Microsoft Dynamics AX 2016. gada februāra un 2016. gada maija versijā sadarbībai ar kreditoriem ir jāizmanto modulis Kreditoru portāls. Informāciju par moduli Kreditoru portāls skatiet tēmā [Sadarbība ar kreditoriem, izmantojot moduli Kreditoru portāls](collaborate-vendors-vendor-portal.md).
+> [!NOTE]
+> Šajā tēmā sniegtā informācija par kreditoru sadarbību attiecas tikai uz pašreizējo Finance and Operations versiju. Programmā Microsoft Dynamics AX 7.0 (2016. gada februāris) un Microsoft Dynamics AX programmas versijā 7.0.1 (2016. gada maijs) jūs ar kreditoriem sadarbojaties, izmantojot moduli **Kreditoru portāls**. Informāciju par moduli **Kreditoru portāls** skatiet šeit: [Sadarbība ar kreditoriem, izmantojot moduli Kreditoru portāls](collaborate-vendors-vendor-portal.md).
 
 Papildinformāciju par to, kā kreditori var lietot kreditoru sadarbības rēķinu izrakstīšanas procesus, skatiet tēmā [Kreditoru sadarbības rēķinu izrakstīšanas darbvieta](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Informāciju par to, kā nodrošināt jauna kreditora sadarbības lietotājus, skatiet tēmā [Pārvaldīt kreditoru sadarbības lietotājus](manage-vendor-collaboration-users.md).
 
-Papildinformāciju par to, kā kreditori var lietot kreditoru sadarbības rēķinu izrakstīšanas procesus, skatiet tēmā [Kreditoru sadarbības rēķinu izrakstīšanas darbvieta](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). 
+## <a name="defining-the-information-that-is-shown-to-vendors-when-they-respond-to-pos"></a>Tās informācijas definēšana, kas tiek rādīta kreditoriem, kad viņi atbild uz pirkšanas pasūtījumiem
 
-Informāciju par to, kā nodrošināt jauna kreditora sadarbības lietotājus, skatiet tēmā [Pārvaldīt kreditoru sadarbības lietotājus](manage-vendor-collaboration-users.md).
+Kad kreditori atbild uz kādu viņiem nosūtīto pirkšanas pasūtījumu, šie kreditori redz vienu no trim ziņojuma lodziņiem, kur viņiem ir jāapstiprina tas, ka viņi vēlas pieņemt šo pirkšanas pasūtījumu, noraidīt to vai pieņemt to ar izmaiņām. Tā kā informācija, kas šajā brīdī ir jārāda kreditoram, var būt specifiska jūsu uzņēmumam, varat norādīt, kādu tekstu rādīt katrā no apstiprinājuma ziņojumiem. Piemēram, šis teksts var kreditoru informēt par nākamajām procesa darbībām vai arī par noteikumiem un nosacījumiem.
 
-## <a name="define-the-information-that-is-shown-to-vendors-when-they-respond-to-pos"></a>Tās informācijas definēšana, kas tiek rādīta kreditoriem, kad viņi atbild uz pirkšanas pasūtījumiem
-Kad kreditori atbild uz kādu viņiem nosūtīto pirkšanas pasūtījumu, viņi redz ziņojuma lodziņu, kurā viņiem ir jāapstiprina tas, ka viņi vēlas pieņemt pirkšanas pasūtījumu, noraidīt to vai pieņemt to ar izmaiņām. Tā kā informācija, kas šajā brīdī ir jārāda kreditoram, var būt specifiska jūsu uzņēmumam, varat norādīt, kādu tekstu rādīt katrā no trīs apstiprinājuma ziņojumiem. Piemēram, šis teksts var kreditoru informēt par nākamajām procesa darbībām vai arī par noteikumiem un nosacījumiem.  
+Lai definētu tekstu, kas tiek rādīts pirkšanas pasūtījuma atbildē, izpildiet tālāk aprakstītās darbības.
 
-Lai definētu tekstu, kas tiek rādīts pirkšanas pasūtījuma atbildē, rīkojieties tālāk aprakstītajā veidā.
+1. Lapā **Informācija kreditoriem, kas atbild uz pirkšanas pasūtījumiem** atlasiet atbildes veidu un pēc tam atlasiet **Rediģēt**.
+2. Lodziņā **Informācijas ziņojums** ievadiet informāciju, kas ziņojuma lodziņā ir jārāda kreditoriem.
 
-1.  Atveriet lapu **Informācija kreditoriem, kas atbild uz PP**.
-2.  Atlasiet vienu no atbildes tipiem.
-3.  Noklikšķiniet uz **Rediģēt**.
-4.  Lodziņā **Informācijas ziņojums** ievadiet informāciju, kuru vēlaties rādīt kreditoriem.
+Ja nepieciešams pievienot ziņojumus vairākās valodās, izveidojiet atsevišķus ziņojumus un norādiet katram no tiem atbilstošo valodas kodu. Katram kreditoram rādītais ziņojums būs tajā valodā, kādu šis kreditors izmanto.
 
-Ja nepieciešams pievienot ziņojumus vairākās valodās, izveidojiet atsevišķus ziņojumus un norādiet katram no tiem atbilstošos valodu kodus. Kreditoram rādītais ziņojums būs tajā valodā, ko šis kreditors izmanto.
+## <a name="setting-the-vendor-collaboration-options-for-a-specific-vendor"></a>Kreditoru sadarbības opciju iestatīšana konkrētam kreditoram
 
-## <a name="set-the-vendor-collaboration-options-for-a-specific-vendor"></a>Iestatīt kreditoru sadarbības opcijas konkrētam kreditoram
-Kreditoru sadarbības vispārīgos iestatījumus programmatūrā Finance and Operations konfigurē administrators. Piemēram, administrators nosaka, kuras drošības lomas ir pieejamas visiem kreditoriem, ar kuriem sadarbojaties. Pastāv arī tālāk aprakstītie iestatījumi, kas dažādiem kreditoru kontiem var atšķirties, un šie iestatījumi ir jāiestata jums.
--   Iespējojiet kreditoru sadarbību.
--   Izlemiet, vai vēlaties, lai kreditors redzētu informāciju par cenu.
+Administrators programmā Finance and Operations konfigurē vispārīgos iestatījumus kreditoru sadarbībai, piemēram, drošības lomas, kas ir pieejamas visiem kreditoriem, ar kuriem jūs sadarbojaties. Taču pastāv arī iestatījumi, kas dažādiem kreditoru kontiem var atšķirties. Šos iestatījumus konfigurējat jūs.
 
-### <a name="enable-vendor-collaboration"></a>Iespējot kreditoru sadarbību
+- Iespējojiet kreditoru sadarbību.
+- Norādiet, vai kreditoram vajadzētu redzēt cenu informāciju.
 
-Lai ārējam kreditoram varētu izveidot lietotāju kontus, jums šis kreditora konts ir jākonfigurē, lai kreditoram ļautu lietot kreditoru sadarbību. Lai to izdarītu, lapas **Kreditori** cilnē **Vispārīgi** lauku **Sadarbības aktivizēšana** iestatiet kā aktīvu. Varat izvēlēties no divām tālāk aprakstītajām opcijām.
+### <a name="enabling-vendor-collaboration"></a>Kreditoru sadarbības iespējošana
 
--   **Aktīvs (PP tiek akceptēts automātiski)**— kad kreditors pirkšanas pasūtījumus pieņem bez izmaiņām, šie pirkšanas pasūtījumi tiek akceptēti automātiski.
--   **Aktīvs (PP netiek akceptēts automātiski)**— kad kreditors ir pieņēmis pirkšanas pasūtījumus, jūsu organizācijai šie pirkšanas pasūtījumi ir jāakceptē manuāli.
+Lai ārējam kreditoram varētu izveidot lietotāju kontus, jums šis kreditora konts ir jākonfigurē, lai attiecīgais kreditors varētu izmantot kreditoru sadarbību. Lapas **Kreditori** cilnē **Vispārīgi** iestatiet lauku **Sadarbības aktivizēšana**. Ir pieejamas tālāk minētās opcijas.
 
-### <a name="decide-whether-you-want-the-vendor-to-see-price-information"></a>Izlemt, vai vēlaties, lai kreditors redzētu informāciju par cenu
+- **Aktīvs (pirkšanas pasūtījums tiek akceptēts automātiski)** — ja kreditors pirkšanas pasūtījumus pieņem bez izmaiņām, šie pirkšanas pasūtījumi tiek akceptēti automātiski.
+- **Aktīvs (pirkšanas pasūtījums netiek akceptēts automātiski)** — kad kreditors ir pieņēmis pirkšanas pasūtījumus, jūsu organizācijai šie pirkšanas pasūtījumi ir jāakceptē manuāli.
 
-Ja sadarbības saskarnē vēlaties kopīgot informāciju par cenu, piemēram, vienības cenu, atlaides un maksas, tad kreditora kontā opcijai **Pirkšanas pasūtījumu cenas/summa** ir jānorāda vērtība **Jā**. Šī opcija ir pieejama cilnē **Pirkšanas pasūtījuma noklusējuma informācija**.
+### <a name="specifying-whether-the-vendor-should-see-price-information"></a>Norādīšana, vai kreditoram vajadzētu redzēt cenu informāciju
 
-## <a name="work-with-pos-when-using-vendor-collaboration"></a>Darbs ar pirkšanas pasūtījumiem, izmantojot kreditoru sadarbību
-### <a name="sending-a-po-to-the-vendor"></a>Pirkšanas pasūtījuma sūtīšana kreditoram
+Lai kopīgotu cenas informāciju saistībā ar pirkšanas pasūtījumiem, izmantojot kreditoru sadarbības interfeisu, opcija **Pirkšanas pasūtījuma cenas/summa** cilnē **Pirkšanas pasūtījuma noklusējuma informācija** attiecīgā kreditora kontam ir jāiestata uz **Jā**. Šī cenu informācija ietver vienības cenas, atlaides un izmaksas.
 
-Pirkšanas pasūtījumi tiek sagatavoti programmatūrā Finance and Operations. Kad pirkšanas pasūtījuma statuss ir **Apstiprināts**, jūs to sūtat kreditoram, izmantojot darbību **Sūtīt apstiprināšanai** lapā **Pirkšanas pasūtījums**. Pirkšanas pasūtījuma statuss mainās uz **Tiek pārskatīts ārēji**. Pēc pirkšanas pasūtījuma nosūtīšanas kreditors to var redzēt kreditoru sadarbības interfeisa lapā **Pārskatāmie pirkšanas pasūtījumi**. Kreditors pasūtījumu var pieņemt, noraidīt to vai ierosināt tā izmaiņas. Kreditors var arī pievienot komentārus, lai darītu zināmu informāciju, piemēram, PO izmaiņas. Ja vēlaties pievērst kreditora uzmanību jaunam PP, var izmantot arī drukas pārvaldības sistēmu, lai nosūtītu PP pa e-pastu.
+## <a name="working-with-pos-when-vendor-collaboration-is-used"></a>Darbs ar pirkšanas pasūtījumiem, ja tiek izmantota kreditoru sadarbība
 
-### <a name="confirmation-and-acceptance-of-the-po-by-the-vendor"></a>Kreditora veikta pirkšanas pasūtījuma apstiprināšana un pieņemšana
+### <a name="sending-a-po-to-a-vendor"></a>Pirkšanas pasūtījuma sūtīšana kreditoram
 
-Kad kreditors ir pieņēmis kādu pirkšanas pasūtījumu, šis pirkšanas pasūtījums var tikt akceptēts automātiski, vai var būt nepieciešams to akceptēt manuāli. Tas ir atkarīgs no tā, vai lauks **Kreditora aktivizēšana** ir iestatīts uz **Aktīvs (PP tiek automātiski apstiprināts)** vai uz **Aktīvs (PP netiek automātiski apstiprināts)** šim kreditoram.  
+Pirkšanas pasūtījumi tiek sagatavoti programmatūrā Finance and Operations. Kad pirkšanas pasūtījuma statuss ir **Apstiprināts**, jūs to sūtat kreditoram, atlasot darbību **Sūtīt akceptēšanai** lapā **Pirkšanas pasūtījums**. Pēc tam pirkšanas pasūtījuma statuss mainās uz **Tiek pārskatīts ārēji**. Pēc pirkšanas pasūtījuma nosūtīšanas kreditors to var redzēt kreditoru sadarbības interfeisa lapā **Pārskatāmie pirkšanas pasūtījumi**. Kreditors pirkšanas pasūtījumu var pieņemt, noraidīt to vai ierosināt tā izmaiņas. Kreditors var arī pievienot komentārus, lai darītu zināmu informāciju, piemēram, PO izmaiņas. Ja vēlaties pievērst kreditora uzmanību jaunam pirkšanas pasūtījumam, var izmantot arī drukas pārvaldības sistēmu, lai pirkšanas pasūtījumu nosūtītu pa e-pastu.
 
-Nākamajā tabulā ir parādīta tipiska informācijas apmaiņa, atkarībā no tā, kā kreditors atbild, kad apstiprināšanai nosūtat pirkšanas pasūtījumu.
+### <a name="confirmation-and-acceptance-of-a-po-by-a-vendor"></a>Kreditora veikta pirkšanas pasūtījuma akceptēšana un pieņemšana
+
+Kad kreditors pieņem kādu pirkšanas pasūtījumu, šo pirkšanas pasūtījumu var akceptēt automātiski vai to var būt nepieciešams akceptēt manuāli. Šī uzvedība ir atkarīga no tā, vai šim kreditoram lauks **Sadarbības aktivizēšana** ir iestatīts uz **Aktīvs (pirkšanas pasūtījums tiek automātiski akceptēts)** vai uz **Aktīvs (pirkšanas pasūtījums netiek automātiski akceptēts)**.
+
+Nākamajā tabulā ir parādīta tipiska informācijas apmaiņa atkarībā no kreditora atbildes, kad akceptēšanai nosūtāt pirkšanas pasūtījumu.
 
 <table>
 <colgroup>
 <col width="50%" />
 <col width="50%" />
 </colgroup>
+<thead>
+<tr>
+<th>Kreditora atbilde</th>
+<th>Rezultāts</th>
+</tr>
+</thead>
 <tbody>
-<tr class="odd">
-<td><strong>Kreditora atbilde</strong></td>
-<td><strong>Rezultāts</strong></td>
-</tr>
 <tr class="even">
-<td>Kreditors <strong>pieņem</strong> pasūtījumu. Programmatūra Finance and Operations ir konfigurēta automātiski apstiprināt pirkšanas pasūtījumus, kad kreditors tos pieņem.</td>
+<td>Kreditors <strong>pieņem</strong> pasūtījumu, un programmatūra Finance and Operations ir konfigurēta tā, lai automātiski akceptētu šī kreditora pieņemtos pirkšanas pasūtījumus.</td>
+<td>Pasūtījuma statuss tiek atjaunināts uz <strong>Akceptēts</strong>. Ja kaut kādu iemeslu dēļ šo pasūtījumu atjaunināt, kreditora atbilde joprojām tiek ierakstīta kā <strong>Pieņemts</strong>, bet pirkšanas pasūtījuma statuss joprojām ir <strong>Tiek pārskatīts ārēji</strong>. 
 
-<td>Pasūtījuma statuss tiek atjaunināts uz <strong>Akceptēts</strong>. Ja kaut kas liedz šo pasūtījumu atjaunināt, tad kreditora atbilde joprojām tiek ierakstīta kā <strong>Pieņemts</strong>, bet pirkšanas pasūtījuma statuss joprojām ir <strong>Tiek pārskatīts ārēji</strong>. 
-
-Kreditoram nosūtītais pirkšanas pasūtījums ar statusu **Tiek pārskatīts ārēji** tiek atjaunināts ar apstiprinātajiem piegādes datumiem rindās. Šis atjauninājums iniciē jaunu versiju, kas tiks automātiski atjaunināta uz statusu **Apstiprināts**. Kad pirkšanas pasūtījums būs apstiprināts, tas tiks rādīts kreditora sadarbības interfeisā.</td>
+Kreditoram nosūtītais pirkšanas pasūtījums, kura statuss ir <strong>Tiek pārskatīts ārēji</strong>, tiek atjaunināts ar akceptētajiem piegādes datumiem rindās. Šis atjauninājums iniciē jaunu versiju, kas tiek automātiski iestatīta uz statusu <strong>Akceptēts</strong>. Kad pirkšanas pasūtījums ir akceptēts, tas tiek rādīts kreditoru sadarbības interfeisā.</td>
 </tr>
 <tr class="odd">
-<td>Kreditors <strong>pieņem</strong> pasūtījumu. Programmatūra Finance and Operations nav konfigurēta automātiski apstiprināt pirkšanas pasūtījumus, kad kreditors tos pieņem.</td>
+<td>Kreditors <strong>pieņem</strong> pasūtījumu, bet programmatūra Finance and Operations nav konfigurēta tā, lai automātiski akceptētu šī kreditora pieņemtos pirkšanas pasūtījumus.</td>
 <td>Kreditora atbilde tiek ierakstīta kā <strong>Pieņemts</strong>, bet pirkšanas pasūtījuma statuss joprojām ir <strong>Tiek pārskatīts ārēji</strong>.
 
-Kreditoram nosūtītais pirkšanas pasūtījums ar statusu **Tiek pārskatīts ārēji** tiek atjaunināts ar apstiprinātajiem piegādes datumiem rindās. Šis atjauninājums iniciē jaunu versiju, kas tiks iestatīta uz statusu **Tiek pārskatīts ārēji**. Pēc tam varēsit manuāli apstiprināt pirkšanas pasūtījumu.</td>
-
+Kreditoram nosūtītais pirkšanas pasūtījums, kura statuss ir <strong>Tiek pārskatīts ārēji</strong>, tiek atjaunināts ar akceptētajiem piegādes datumiem rindās. Šis atjauninājums iniciē jaunu versiju, kas tiek automātiski iestatīta uz statusu <strong>Tiek pārskatīts ārēji</strong>. Pēc tam šo pirkšanas pasūtījumu varat akceptēt manuāli.</td>
 </tr>
 <tr class="even">
 <td>Kreditors <strong>noraida</strong> pasūtījumu.</td>
 <td>Kreditora atbilde tiek ierakstīta kā <strong>Noraidīts</strong>, un PP joprojām paliek statuss <strong>Tiek pārskatīts ārēji</strong>. Noraidījums tiek saņemts kopā ar kreditora piezīmi.</td>
 </tr>
 <tr class="odd">
-<td>Kreditors <strong>pieņem pasūtījumu ar izmaiņām</strong>. Izmaiņas tiek ierosinātas rindas līmenī. Iespējams pieņemt vai noraidīt atsevišķas rindas. Tostarp ir iespējamas citas tālāk uzskaitītās izmaiņas.
+<td>Kreditors <strong>pieņem</strong> pasūtījumu <strong>ar izmaiņām</strong>. Izmaiņas tiek ierosinātas rindas līmenī. Kreditors var pieņemt vai noraidīt atsevišķas rindas. Tālāk ir paradītas vēl dažas izmaiņas, ko kreditors var ierosināt.
 <ul>
-<li>Datumu vai daudzumu maiņa.</li>
-<li>Rindu sadalīšana dažādiem piegādes datumiem vai daudzumiem.</li>
-<li>Kāda krājuma aizstāšana.</li>
+<li>Mainīt datumus vai daudzumus.</li>
+<li>Sadalīt rindas dažādiem piegādes datumiem vai daudzumiem.</li>
+<li>Aizstāt kādu krājumu.</li>
 </ul>
-Kreditors nevar mainīt preces informāciju un maksas. Ierosinājumus par to izmaiņām var veikt, izmantojot piezīmes.</td>
-<td>Kreditora atbilde tiek ierakstīta kā <strong>Pieņemts ar izmaiņām</strong>, un pirkšanas pasūtījuma statuss joprojām ir <strong>Tiek pārskatīts ārēji</strong>. Statusi norāda, kādu tipu izmaiņas iesaka kreditors. Lai iegūtu informāciju par izmaiņu automātisko patēriņu, skatiet tālāk esošo sadaļu par to, kā atjaunināt pirkšanas pasūtījumu, kad kreditors iesaka izmaiņas. </td>
+Kreditors nevar mainīt preces informāciju un maksas. Taču kreditors var ierosināt šādu izmaiņu veikšanu, izmantojot piezīmes.</td>
+<td>Kreditora atbilde tiek ierakstīta kā <strong>Pieņemts ar izmaiņām</strong>, un pirkšanas pasūtījuma statuss joprojām ir <strong>Tiek pārskatīts ārēji</strong>. Statusi norāda, kāda veida izmaiņas kreditors ir ierosinājis. Lai iegūtu informāciju par izmaiņu automātisko patēriņu, skatiet sadaļu “Pirkšanas pasūtījuma atjaunināšana, kad kreditors iesaka izmaiņas” tālāk šajā tēmā. </td>
 </tr>
 </tbody>
 </table>
 
-Varat izmantot darbvietu **Pirkšanas pasūtījuma** **sagatavošana**, lai uzraudzītu, uz kuriem pirkšanas pasūtījumiem kreditors ir atbildējis. Šajā darbvietā ietilpst divi tālāk norādītie saraksti, kuros ir pirkšanas pasūtījumi ar statusu **Tiek pārskatīts ārēji**.
+Varat izmantot darbvietu **Pirkšanas pasūtījuma sagatavošana**, lai uzraudzītu, uz kuriem pirkšanas pasūtījumiem kreditors ir atbildējis. Šajā darbvietā ietilpst divi tālāk norādītie saraksti, kuros ir pirkšanas pasūtījumi ar statusu **Tiek pārskatīts ārēji**.
 
--   Tiek pārskatīts ārēji, ir jāveic darbība.
--   Tiek pārskatīts ārēji, gaida kreditora atbildi.
+- Ārējā pārskatīšanā ir jāveic darbība
+- Ārējā pārskatīšanā, gaida kreditora atbildi
 
 ### <a name="changing-a-po"></a>Pirkšanas pasūtījuma maiņa
 
-Lai mainītu pirkšanas pasūtījumu, uz kuru jau ir atbildēts, jums kreditoram ir jānosūta jauna pirkšanas pasūtījuma versija. Jaunam PP ir versijas sufikss, lai norādītu, ka tas ir iepriekš nosūtīta PP mainīta versija. Lapā **Pirkšanas pasūtījuma kreditora apstiprinājumu vēsture** jūs un jūsu kreditori var izsekot katra pasūtījuma vēsturei. Iepriekš apstiprinātā pirkšanas pasūtījuma versija saglabājas apstiprināto PP sarakstā, līdz tiek apstiprināts jaunais PP.
+Lai mainītu pirkšanas pasūtījumu, uz kuru kreditors jau ir atbildējis, jums šim kreditoram ir jānosūta jauna pirkšanas pasūtījuma versija. Jaunajam pirkšanas pasūtījumam ir versijas sufikss, lai norādītu, ka tas ir iepriekš nosūtīta pirkšanas pasūtījuma mainīta versija. Lapā **Pirkšanas pasūtījuma kreditora apstiprinājumu vēsture** jūs un jūsu kreditori var izsekot katra pasūtījuma vēsturei. Iepriekš apstiprinātā pirkšanas pasūtījuma versija saglabājas apstiprināto PP sarakstā, līdz tiek apstiprināts jaunais PP.
 
-### <a name="cancelling-a-po"></a>Pirkšanas pasūtījumu atcelšana
+### <a name="canceling-a-po"></a>Pirkšanas pasūtījumu atcelšana
 
-Kad atceļat kādu pirkšanas pasūtījumu, tā statuss tiek mainīts uz **Apstiprināts**. Šis pirkšanas pasūtījums jums ir jāsūta atpakaļ kreditoram, lai kreditors šo atcelšanu varētu apstiprināt vai noraidīt. Kad atcelšana ir apstiprināta, šis pirkšanas pasūtījums kreditora akceptēto pirkšanas pasūtījumu sarakstā tiek rādīts kā **Atcelts**.
+Kad atceļat kādu pirkšanas pasūtījumu, tā statuss tiek mainīts uz **Apstiprināts**. Šis pirkšanas pasūtījums jums ir jāsūta atpakaļ kreditoram, lai kreditors šo atcelšanu varētu apstiprināt vai noraidīt. Pēc tam, kad atcelšana ir apstiprināta, PP parādās apstiprināto PP kreditora sarakstā kā **Atcelts**.
 
 ### <a name="adding-attachments-to-a-po"></a>Pielikumu pievienošana pirkšanas pasūtījumam
 
 Pirkšanas pasūtījumam varat pievienot pielikumus, piemēram, failus, attēlus un piezīmes, izmantojot dokumentu pārvaldības sistēmu. Tipa **Ārējs** pielikumi ir redzami kreditoram, kad sūtat pirkšanas pasūtījumu.
 
-## <a name="update-the-po-when-a-vendor-suggests-changes"></a>Pirkšanas pasūtījuma atjaunināšana, kad kreditors iesaka izmaiņas
-Ja kreditors ir atbildējis uz pirkšanas pasūtījumu un ieteicis izmaiņas, nākamā darbība ir atbildes apstrāde.
-Darbvietas **Pirkšanas pasūtījumu sagatavošanas darbvieta** sarakstā Tiek pārskatīts ārēji, ir jāveic darbība varat identificēt pirkšanas pasūtījumu, uz kuru kreditors atbildēja kā pieņemtu ar izmaiņām. Sarakstā Tiek pārskatīts ārēji, ir jāveic darbība varat arī pāriet uz kreditora atbildi. Atbildē kreditors var mainīt tālāk norādīto informāciju virsrakstā.
+## <a name="updating-a-po-when-a-vendor-suggests-changes"></a>Pirkšanas pasūtījuma atjaunināšana, kad kreditors iesaka izmaiņas
+
+Ja kreditors ir atbildējis uz kādu pirkšanas pasūtījumu un ieteicis izmaiņas, nākamā darbība ir atbildes apstrāde.
+
+Darbvietas **Pirkšanas pasūtījumu sagatavošana** sarakstā **Tiek pārskatīts ārēji, ir jāveic darbība** varat identificēt pirkšanas pasūtījumus, kurus kreditors ir pieņēmis ar izmaiņām. No šī saraksta varat arī pāriet uz kreditora atbildi.
+
+Atbildē kreditors var mainīt tālāk norādīto informāciju virsrakstā.
  
--   Kreditora dokumenta atsauce
--   Piegādes veids
--   Piegādes nosacījumi
--   Apstiprinātais piegādes datums
+- Kreditora dokumenta atsauce
+- Piegādes veids
+- Piegādes nosacījumi
+- Apstiprinātais piegādes datums
 
-Kreditors var arī pievienot piezīmi vai pielikumu
+Kreditors var arī pievienot piezīmi vai pielikumu.
 
-Rindās kreditors var mainīt daudzumu un piegādes datumus, pievienot piezīmes un pielikumus, noraidīt rindu, aizstāt rindu ar citu preci, kas ir ievadīta kā teksts, un sadalīt rindu vairākās piegādēs. Atkarībā no tā, kuras izmaiņas ir ieteicis kreditors, rindas statusam būs dažādas tālāk norādītās vērtības.
+Rindās kreditors var mainīt daudzumu un piegādes datumus, pievienot piezīmes un pielikumus, noraidīt rindu, aizstāt rindu ar citu preci, kas ir ievadīta kā teksts, un sadalīt rindu vairākās piegādēs. Rindas statuss ir atkarīgs no tālāk norādītajām kreditora ierosinātajām izmaiņām.
     
--   **Pieņemts ar izmaiņām**
--   **Noraidīts**
--   **Aizstāts** Šajā gadījumā tiks pievienota papildu rinda ar statusu **Aizstājējs**.
--   **Apstiprināts** Sadalīts grafikā Šajā gadījumā tiks pievienotas papildu rindas ar statusu **Grafika rindas**.
+- **Apstiprināts ar izmaiņām**
+- **Noraidīts**
+- **Aizstāts** — šajā gadījumā tiek pievienota papildu rinda ar statusu **Aizstājējs**.
+- **Akceptēts**
+- **Sadalīts grafikā** — šajā gadījumā tiek pievienotas papildu rindas ar statusu **Grafika rindas**.
 
 Ja rinda ir bez izmaiņām, rindas statuss ir **Pieņemts**.
 
-Atbildē varat skatīt iepriekš minētos rindas statusus, kas norāda, kādu tipu izmaiņas ir veicis kreditors. Turklāt visi mainītie lauki tiek rādīti treknrakstā, lai palīdzētu jums identificēt izmaiņas.
+Atbildē rindas statusi jums norāda, kāda veida izmaiņas kreditors ir veicis. Turklāt visi mainītie lauki tiek rādīti treknrakstā, lai palīdzētu jums identificēt izmaiņas.
 
-Pirkšanas pasūtījumu var atjaunināt, noklikšķinot uz darbības **Apstrādāt PP atjauninājumu** atbildē vai atsevišķi katrā attiecīgajā rindā. Indikators **Vai PP atjauninājums ir apstrādāts?** virsrakstā un rindās ļauj redzēt, vai sistēma ir apstrādājusi virsrakstu vai rindas, lai pirkšanas pasūtījumu atjauninātu ar jebkurām iespējamajām izmaiņām no atbildes. Procesu **Apstrādāt PP atjauninājumu** var palaist tikai vienreiz katram virsrakstam vai rindai.
+Pirkšanas pasūtījumu varat atjaunināt, atbildē vai atsevišķi katrā attiecīgajā rindā atlasot **Apstrādāt pirkšanas pasūtījuma atjauninājumu**. Virsraksta un rindu lauks **Vai pirkšanas pasūtījuma atjauninājums ir apstrādāts?** norāda, vai sistēma ir apstrādājusi virsrakstu vai rindas, lai pirkšanas pasūtījumu atjauninātu ar izmaiņām no atbildes. Darbību **Apstrādāt pirkšanas pasūtījuma atjauninājumu** katram virsrakstam vai rindai varat palaist tikai vienreiz.
 
-Pirkšanas pasūtījumā nevar atjaunināt visas ieteiktās izmaiņas. Pirkšanas pasūtījumā automātiski var veikt tikai atjauninājumus virsrakstā, kā arī datumu un daudzumu atjauninājumus rindās. Lai veiktu citas izmaiņas, jums ir manuāli jāatjaunina pirkšanas pasūtījums. Šajā gadījumā indikators **Vai PP atjauninājums ir apstrādāts?** rāda **Manuāls atjauninājums**. Manuāli apstrādājama izmaiņa ir, piemēram, kreditora ieteikums sadalīt rindu grafikā.
+Pirkšanas pasūtījumā nevar atjaunināt visas ieteiktās izmaiņas. Pirkšanas pasūtījumā automātiski var veikt tikai atjauninājumus virsrakstā, kā arī datumu un daudzumu atjauninājumus rindās. Lai veiktu citas izmaiņas, jums ir manuāli jāatjaunina pirkšanas pasūtījums. Šajā gadījumā lauka **Vai pirkšanas pasūtījuma atjauninājums ir apstrādāts?** vērtība ir **Manuāls atjauninājums**. Piemēram, ja kreditors ierosina sadalīt kādu rindu grafikā, šīs izmaiņas ir jāveic manuāli.
 
-Rindai ar statusu **Pieņemts** būs apstiprināts piegādes datums, kas pirkšanas pasūtījumā tiks atjaunināts, kad izpildīsit procesu **Apstrādāt PP atjauninājumu**. Piezīmes un pielikumi netiks automātiski pārsūtīti uz pašreizējo pirkšanas pasūtījumu. Ņemiet vērā, ka, atjauninot pašreizējo pirkšanas pasūtījumu, izmantojot darbību **Apstrādāt PP atjauninājumu**, tirdzniecības līgumi netiks atkārtoti novērtēti pirkšanas pasūtījuma rindās.
-
+Visām rindām, kuru statuss ir **Pieņemts**, būs akceptēts piegādes datums. Kad palaižat darbību **Apstrādāt pirkšanas pasūtījuma atjauninājumu**, šis datums tiek atjaunināts uz pirkšanas pasūtījumu. Piezīmes un pielikumi netiek automātiski pārsūtīti uz pašreizējo pirkšanas pasūtījumu. Turklāt tirdzniecības līgumi netiek atkārtoti novērtēti pirkšanas pasūtījuma rindās, kad pašreizējo pirkšanas pasūtījumu atjaunināt, izmantojot darbību **Apstrādāt pirkšanas pasūtījuma atjauninājumu**.
 
 ## <a name="po-statuses-and-versions"></a>Pirkšanas pasūtījumu statusi un versijas
-Šajā sadaļā ir aprakstīti dažādie statusi, kas var būt pirkšanas pasūtījumam līdz tā apstiprināšanas brīdim. Tajā ir arī aprakstīts, kurā brīdī jaunās pirkšanas pasūtījuma versijas ir pieejamas kreditoram. Process atšķiras atkarībā no tā, vai pirkšanas pasūtījumiem izmantojat izmaiņu pārvaldību. 
+
+Šajā sadaļā ir aprakstīti dažādie statusi, kādi pirkšanas pasūtījumam var būt līdz tā akceptēšanas brīdim. Tajā ir arī aprakstīts, kad jaunās pirkšanas pasūtījuma versijas kļūst pieejamas kreditoram. Process atšķiras atkarībā no tā, vai pirkšanas pasūtījumiem izmantojat izmaiņu pārvaldību. 
 
 ### <a name="versions-and-statuses-if-you-dont-use-change-management"></a>Versijas un statusi, ja nelietojat izmaiņu pārvaldību
 
 Tālāk redzamajā tabulā ir parādīts statusa un versijas izmaiņu piemērs, kādas var notikt PP.
 
-|                                                                          |                                                                                                                                                              |
-|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Darbība**                                                               | **Statuss un versija**                                                                                                                                       |
-| Pirkšanas pasūtījuma sākotnējā versija tiek izveidota programmatūrā Finance and Operations. | Statuss ir **Apstiprināts**.                                                                                                                                  |
-| PP tiek nosūtīts kreditoram.                                            | Versija tiek reģistrēta kreditoru sadarbības interfeisā, un statuss tiek mainīts uz **Tiek pārskatīts ārēji**.                                          |
-| Kreditors nosūta atbildi **Pieņemts ar izmaiņām**.                  | Statuss joprojām ir **Tiek pārskatīts ārēji**.                                                                                                                  |
-| Jūs veicat izmaiņas pēc kreditora pieprasījuma.                  | Statuss tiek mainīts uz **Apstiprināts**.                                                                                                                        |
-| Jūs PP jauno versiju nosūtāt kreditoram.                        | Jauna versija tiek reģistrēta kreditoru sadarbības interfeisā, un statuss tiek mainīts uz **Tiek pārskatīts ārēji**.                                      |
-| Kreditors pieņem PP jauno versiju.                            | Statuss joprojām ir **Tiek pārskatīts ārēji**, ja vien kreditora konts nav konfigurēts pirkšanas pasūtījumu automātiski iestatīt uz **Akceptēts**, kad kreditors to pieņem. |
+| Darbība | Statuss un versija |
+|--------|--------------------|
+| Pirkšanas pasūtījuma sākotnējā versija tiek izveidota programmatūrā Finance and Operations. | Statuss ir **Apstiprināts**. |
+| PP tiek nosūtīts kreditoram. | Versija tiek reģistrēta kreditoru sadarbības interfeisā, un statuss tiek mainīts uz **Tiek pārskatīts ārēji**. |
+| Kreditors nosūta atbildi **Pieņemts ar izmaiņām**. | Statuss joprojām ir **Tiek pārskatīts ārēji**. |
+| Jūs veicat kreditora pieprasītās izmaiņas. | Statuss tiek mainīts uz **Apstiprināts**. |
+| Jūs PP jauno versiju nosūtāt kreditoram. | Jauna versija tiek reģistrēta kreditoru sadarbības interfeisā, un statuss tiek mainīts uz **Tiek pārskatīts ārēji**. |
+| Kreditors pieņem PP jauno versiju. | Statuss joprojām ir **Tiek pārskatīts ārēji**, ja vien kreditora konts nav konfigurēts pirkšanas pasūtījumiem automātiski iestatīt statusu **Akceptēts**, kad kreditors tos pieņem. |
 
+Kreditoriem nav jāakceptē pirkšanas pasūtījums, izmantojot kreditoru sadarbības interfeisu. Viņi var arī nosūtīt e-pasta ziņojumu vai informēt par pirkšanas pasūtījuma pieņemšanu, izmantojot citus kanālus. Pēc tam pasūtījumu varat akceptēt manuāli programmatūrā Finance and Operations. Šajā gadījumā jūs saņemat brīdinājumu par pasūtījuma akceptēšanu arī tad, ja nav saņemta atbilde no kreditora. Pēc tam šāds pirkšanas pasūtījums tiek rādīts akceptēšanas vēsturē kā atvērts akceptēts pasūtījums, kuram nav atbilžu. Šajā brīdī kreditoram vairs nav iespējas akceptēt vai noraidīt šo pirkšanas pasūtījumu.
 
-Kreditoriem nav jāapstiprina pirkšanas pasūtījums, izmantojot kreditoru sadarbības interfeisu. Tie var arī nosūtīt e-pasta ziņojumu vai informēt par PP pieņemšanu, izmantojot citus kanālus. Pēc tam pasūtījumu varat apstiprināt manuāli programmatūrā Finance and Operations. Šajā gadījumā saņemsit brīdinājumu par pasūtījuma apstiprināšanu arī tad, ja nebūs saņemta atbilde no kreditora. Pēc tam PP tiek parādīts apstiprināšanas vēsturē kā atvērts akceptēts pasūtījums, kuram nav atbilžu. Kreditoram vairs nav iespējas apstiprināt vai noraidīt šo PP.  
-
-
->[!NOTE]
->Pirkšanas pasūtījuma versija, kas ir pieejama citiem Dynamics 365 for Finance and Operations procesiem, vienmēr ir jaunākā versija, pat ja šī versija vēl nav reģistrēta kreditoru sadarbības interfeisā.
+> [!NOTE]
+> Pirkšanas pasūtījuma versija, kas ir pieejama citiem Finance and Operations procesiem, vienmēr ir visjaunākā versija, pat ja šī versija vēl nav reģistrēta kreditoru sadarbības interfeisā.
 
 ### <a name="versions-and-statuses-if-you-use-change-management"></a>Versijas un statusi, ja lietojat izmaiņu pārvaldību
 
-Ja pirkšanas pasūtījumiem ir iespējota izmaiņu pārvaldība, tad pirkšanas pasūtījumiem tiek veikta apstiprināšanas darbplūsma, lai sasniegtu statusu **Apstiprināts**. Šis process kreditoram nav redzams.  
+Ja pirkšanas pasūtījumiem ir iespējota izmaiņu pārvaldība, pirkšanas pasūtījumiem tiek veikta apstiprināšanas darbplūsma, lai sasniegtu statusu **Apstiprināts**. Šis process nav redzams kreditoram.
 
-Tālāk redzamajā tabulā ir parādīts statusa un versijas izmaiņu piemērs, kādas var notikt PP, kad ir aktivizēta izmaiņu pārvaldība. Versija tiek reģistrēta, kad PP tiek apstiprināts, nevis kad PP tiek nosūtīts kreditoram vai akceptēts.
+Tālāk redzamajā tabulā ir parādīts statusa un versijas izmaiņu piemērs, kādas var notikt PP, kad ir aktivizēta izmaiņu pārvaldība. Versija tiek reģistrēta, kad pirkšanas pasūtījums tiek apstiprināts, nevis kad pirkšanas pasūtījums tiek nosūtīts kreditoram vai akceptēts.
 
-|                                                                          |                                                                                                                                                              |
-|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Darbība**                                                               | **Statuss un versija**                                                                                                                                       |
-| Pirkšanas pasūtījuma sākotnējā versija tiek izveidota programmatūrā Finance and Operations.      | Statuss ir **Melnraksts**.  |
-| PP tiek iesniegts apstiprināšanas procesam. (Apstiprināšanas process ir iekšējs process, kurā kreditors nav iesaistīts.)                                                           | Statuss tiek mainīts no **Melnraksts** uz **Tiek pārskatīts** un uz **Apstiprinājums**, ja PP netiek noraidīts apstiprināšanas procesa laikā. Apstiprināts PP tiek reģistrēts kā versija.           | 
-| PP tiek nosūtīts kreditoram                                                            | Šī versija tiek reģistrēta kreditoru sadarbības interfeisā, un statuss tiek mainīts uz **Tiek pārskatīts ārēji**.      |
-| Jūs veicat dažas kreditora pieprasītās izmaiņas manuāli vai izmantojot darbību atbildē, lai atjauninātu pirkšanas pasūtījumu.                                                            | Statuss tiek mainīts atpakaļ uz **Melnraksts**.     |
-|PP tiek atkārtoti iesniegts apstiprināšanas procesam.                                                |  Statuss tiek mainīts no **Melnraksts** uz **Tiek pārskatīts** un uz **Apstiprinājums**, ja PP netiek noraidīts apstiprināšanas procesa laikā. Ja vēlaties, sistēmu var konfigurēt tā, lai noteiktu lauku izmaiņām nebūtu nepieciešams atkārtots apstiprinājums. Šajā gadījumā statuss vispirms tiek mainīts uz **Melnraksts** un pēc tam tiek automātiski atjaunināts uz **Apstiprināts**. Apstiprinātais PP tiek reģistrēts kā jauna versija.                                         |
-|Jūs PP jauno versiju nosūtāt kreditoram.                                                |  Jaunā versija tiek reģistrēta kreditoru sadarbības interfeisā, un statuss tiek mainīts uz **Tiek pārskatīts ārēji**.                                         |
-|Kreditors apstiprina PP jauno versiju.                                                |  Statuss tiek mainīts uz **Akceptēts** automātiski vai saņemot atbildi no kreditora un pēc tam akceptējot PP. |
+| Darbība | Statuss un versija |
+|--------|--------------------|
+| Pirkšanas pasūtījuma sākotnējā versija tiek izveidota programmatūrā Finance and Operations. | Statuss ir **Melnraksts**. |
+| PP tiek iesniegts apstiprināšanas procesam. (Apstiprināšanas process ir iekšējs process, kurā kreditors nav iesaistīts.) | Statuss tiek mainīts no **Melnraksts** uz **Tiek pārskatīts** un uz **Apstiprinājums**, ja PP nav noraidīts apstiprināšanas procesa laikā. Apstiprināts PP tiek reģistrēts kā versija. | 
+| PP tiek nosūtīts kreditoram. | Šī versija tiek reģistrēta kreditoru sadarbības interfeisā, un statuss tiek mainīts uz **Tiek pārskatīts ārēji**. |
+| Jūs veicat dažas kreditora ierosinātās izmaiņas — manuāli vai izmantojot darbību **Apstrādāt pirkšanas pasūtījuma atjauninājumu** atbildē —, lai atjauninātu pirkšanas pasūtījumu. | Statuss tiek mainīts atpakaļ uz **Melnraksts**. |
+| PP tiek atkārtoti iesniegts apstiprināšanas procesam. | Statuss tiek mainīts no **Melnraksts** uz **Tiek pārskatīts** un uz **Apstiprinājums**, ja PP nav noraidīts apstiprināšanas procesa laikā. Vai arī sistēmu var konfigurēt, lai noteiktu lauku izmaiņām nebūtu nepieciešams atkārtots apstiprinājums. Šajā gadījumā statuss vispirms tiek mainīts uz **Melnraksts** un pēc tam tiek automātiski atjaunināts uz **Apstiprināts**. Apstiprinātais PP tiek reģistrēts kā jauna versija. |
+| Jūs PP jauno versiju nosūtāt kreditoram. | Jaunā versija tiek reģistrēta kreditoru sadarbības interfeisā, un statuss tiek mainīts uz **Tiek pārskatīts ārēji**. |
+| Kreditors apstiprina PP jauno versiju. | Statuss tiek mainīts uz **Akceptēts** automātiski vai saņemot atbildi no kreditora un pēc tam akceptējot PP. |
 
-## <a name="share-information-about-consignment-inventory"></a>Kopīgot informāciju par sūtījuma krājumiem
-Ja izmantojat sūtījuma krājumus, tad kreditori var izmantot kreditoru sadarbības interfeisu, lai skatītu informāciju tālāk norādītajās lapās.
+## <a name="sharing-information-about-consignment-inventory"></a>Informācijas kopīgošana par sūtījuma krājumiem
 
--   **Pirkšanas pasūtījumi, kuros tiek patērēti sūtījuma krājumi** — pirkšanas pasūtījumi par sūtījuma krājumiem tiek ģenerēti, kad krājumu īpašumtiesības mainās no kreditora uz jūsu uzņēmumu. Tajā pašā laikā tiek grāmatota preču ieejas plūsma. Šie sūtījuma pirkšanas pasūtījumi tiek rādīti tikai lapā **Pirkšanas pasūtījumi, kuros tiek patērēti sūtījuma krājumi**. Tie nav iekļauti moduļa **Kreditoru sadarbība** lapā **Visi akceptētie pirkšanas pasūtījumi**.
--   **No sūtījuma krājumiem saņemtās preces** — šajā lapā ir uzskaitītas visas transakcijas, kur preces īpašumtiesības no kreditora tiek nodotas jūsu uzņēmumam. Kreditori var izmantot šo informāciju, lai debitoram izrakstītu rēķinu.
--   **Rīcībā esošie sūtījuma krājumi** — šajā lapā tiek rādīti kreditoram piederošie rīcībā esošie sūtījuma krājumi, kas ir saņemti jūsu noliktavā.
+Ja izmantojat sūtījuma krājumus, kreditori var izmantot kreditoru sadarbības interfeisu, lai skatītu informāciju tālāk norādītajās lapās.
 
+- **Pirkšanas pasūtījumi, kuros tiek patērēti sūtījuma krājumi** — pirkšanas pasūtījumi par sūtījuma krājumiem tiek ģenerēti, kad krājumu īpašumtiesības no kreditora tiek mainītas uz jūsu uzņēmumu. Tajā pašā laikā tiek grāmatota preču ieejas plūsma. Šie sūtījuma pirkšanas pasūtījumi tiek rādīti tikai lapā **Pirkšanas pasūtījumi, kuros tiek patērēti sūtījuma krājumi**. Tie netiek iekļauti moduļa **Kreditoru sadarbība** lapā **Visi akceptētie pirkšanas pasūtījumi**.
+- **No sūtījuma krājumiem saņemtās preces** — šajā lapā ir uzskaitītas visas transakcijas, kur preču īpašumtiesības no kreditora tiek nodotas jūsu uzņēmumam. Kreditori var izmantot šo informāciju, lai debitoram izrakstītu rēķinu.
+- **Rīcībā esošie sūtījuma krājumi** — šajā lapā tiek rādīti kreditoram piederošie rīcībā esošie sūtījuma krājumi, kas ir saņemti jūsu noliktavā.
 
+## <a name="working-with-rfqs-when-you-use-vendor-collaboration"></a>Darbs ar piedāvājumu pieprasījumiem, ja izmantojat kreditoru sadarbību
 
+Šajā sadaļā ir aprakstītas mijiedarbības starp debitoriem un kreditoriem piedāvājumu pieprasījumu procesa laikā. Tajā ir arī paskaidrots veids, kāda kreditoriem tiek nodota informācija. Pamata apskatu par atbalstu piedāvājuma pieprasījuma procesam skatiet šeit: [Piedāvājumu pieprasījumi (RFQ)](request-quotations.md).
 
+### <a name="alternates-attachments-amendments-and-returns"></a>Alternatīvas, pielikumi, grozījumi un atgriešanas
+
+- **Alternatīvas** — piedāvājuma pieprasījuma gadījuma virsrakstā varat norādīt alternatīvas, kādas ir atļautas katalogā neesošo krājumu rindām. Ja alternatīvas ir iespējotas, kreditori var pievienot alternatīvu rindu katrai pieprasītajai rindai.
+- **Pielikumi** — pielikumus piedāvājuma pieprasījuma gadījumam var pievienot gan virsraksta līmenī, gan rindas līmenī. Pielikumus var klasificēt kā iekšējos vai ārējos. Iekšējos pielikumus var skatīt tikai debitora pusē, bet ārējos pielikumus pēc to nosūtīšanas kreditori var apskatīt.
+
+    Kreditori savai atbildei uz piedāvājumu var arī pievienot pielikumus. Šos pielikumus var skatīt debitora pusē, kad kreditors ir iesniedzis atbildi uz piedāvājumu. Kreditoru pievienotie pielikumi vienmēr tiek klasificēti kā ārēji. Lai piekļūtu pielikumam, kuru kreditors ir iesniedzis kopā ar piedāvājumu, atlasiet **Piedāvājuma pielikumi** vai **Piedāvājuma rindas pielikumi**.
+    
+    Lai atvērtu pielikumus, kas tika nosūtīti kopā ar piedāvājuma pieprasījuma gadījumu, izmantojiet dokumentu apstrādes papīra saspraudes simbolu uz atbildes.
+
+- **Grozījumi** — kad grozījums ir finalizēts, esošās piedāvājuma atbildes tiek noņemtas, lai tās varētu aizstāt ar atjauninātajām vērtībām. Tādu informāciju kā rindas cena un daudzums no iepriekšējām piedāvājuma atbildēm var apskatīt, izmantojot žurnālus par piedāvājuma pieprasījuma gadījumu.
+
+    Lai uzsāktu grozījuma apstrādi, lapas **Sagādes un avotu parametri** kopsavilkuma cilnē **Piedāvājumu pieprasījumi** opciju **Bloķēt piedāvājumu pieprasījumus pēc to nosūtīšanas** iestatiet uz **Jā**. (Šī opcija ir iestatīta, un publiskā sektora konfigurācijai tā ir obligāta.)
+
+- **Atgriešanas** — ja kreditors ir iesniedzis kādu piedāvājumu, bet šim piedāvājuma pieprasījuma gadījumam ir nepieciešama papildinformācija vai informācijas modificēšana, debitors šo piedāvājumu var atgriezt kreditoram. Dati no iepriekš iesniegtā piedāvājuma tiek paturēti, un kreditors var veikt pieprasītās modifikācijas, nesākot piedāvājuma izteikšanas procesu no jauna.
+
+## <a name="public-sector-extensions"></a>Publiskā sektora paplašinājumi
+
+Publiskā sektora paplašinātā funkcionalitāte ļauj piedāvājuma pieprasījuma gadījumu nosūtīt kreditoriem un publicēt. Kad publicējat kādu piedāvājuma pieprasījumu, ikviens, kas šo informāciju pieprasa, var skatīt darbu, kas atbilst vairumam publiskā sektora noteikumu. Viss pieejamais darbs tiek atspoguļots saraksta lapā **Atvērtie publicētie piedāvājumu pieprasījumi**, un atceltos, gaidošos vai piešķirtos piedāvājumu pieprasījumus var skatīt saraksta lapā **Slēgtie publicētie piedāvājumu pieprasījumi**. Šos dokumentus var skatīt arī vietnē ārpus programmatūras Finance and Operations, izmantojot integrāciju ar tālāk norādītajiem datu elementiem.
+
+- Publicētie piedāvājumu pieprasījumi
+- Publicētā piedāvājuma pieprasījumu rinda
+- Publicētie piedāvājuma pieprasījumu virsrakstu pielikumi
+
+Šie elementi pieejamos un slēgtos darbus ļauj skatīt personām, kuras nav nodrošināti lietotāji programmatūrā Finance and Operations, bet kurām ir anonīma piekļuve ārējai vietnei. Turklāt lietotājam, kurš iestata parametrus piedāvājuma pieprasījuma procesam, paplašinātā funkcionalitāte sadaļā **Sūtīt un publicēt** ļauj definēt e-pasta ziņojuma veidni. Kad sagādes speciālists ir izveidojis piedāvājuma pieprasījuma gadījumu, šim speciālistam ir jāatlasa e-pasta ziņojuma veidne, lai kreditoriem sūtītu nepieciešamo informāciju saistībā ar šo piedāvājuma pieprasījuma gadījumu. 
+
+Lietotājs, kurš iestata piedāvājuma pieprasījuma procesa parametrus, var izveidot vairākas e-pasta ziņojumu veidnes. Šajās e-pasta ziņojumu veidnēs var būt gan statisks teksts, gan tālāk norādītie aizstāšanas marķieri. E-pasta ziņojuma veidošanas laikā šie marķieri tiks aizstāti ar konteksta vērtībām.
+
+- %RFQCase%
+- %RFQCaseName%
+- %bidType%
+- %inviteOnly%
+- %expiryDateTime%
+- %requester%
+- %requestingDepartment%
+- %accountnum%
+- %todaysdate%
+- %createddate%
+
+Ja ir neieciešams kāds grozījums, un tas tiek nosūtīts pēc piedāvājuma pieprasījuma nosūtīšanas, šis piedāvājuma pieprasījums tiek atkārtoti nosūtīts visiem uzaicinātajiem kreditoriem. Publicētais dokuments tiek arī atjaunināts lapā **Atvērtie publicētie piedāvājumu pieprasījumi**.
 

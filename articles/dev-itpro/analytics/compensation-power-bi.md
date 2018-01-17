@@ -3,7 +3,7 @@ title: "Power BI satura pakotne Atlīdzība"
 description: "Šajā tēmā ir aprakstīta Power BI satura pakotne Atlīdzība. Tajā ir paskaidrots, kā piekļūt pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem."
 author: jcart1106
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 7143a2750d284080609c884ce15bc2b2e8943394
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 01841a2da44bfeebc8f8656229c406bd350cb6e5
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -47,13 +47,6 @@ Power BI satura pakotnē **Atlīdzība** iekļautajos pārskatos ir ietvertas g
 
 Šajos pārskatos esošās diagrammas un elementus varat filtrēt, un diagrammas un elementus varat piespraust informācijas panelim. Plašāku informāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet rakstā [Izveidot un konfigurēt informācijas paneli](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
-## <a name="extending-the-power-bi-content"></a>Power BI satura paplašināšana
-Ja lietojat programmatūras Microsoft Dynamics 365 for Operations versiju 1611 vai programmatūru Finance and Operations, Enterprise Edition (2017. gada jūlijs), tad Power BI satura pakotne **Atlīdzība** ir atrodama LIC koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt satura pakotni un ieviest to savā organizācijā, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md). Power BI satura pakotnes implementēšanas demonstrāciju skatiet tēmā [Power BI saturs pakalpojumā Dynamics Lifecycle Services no Microsoft un jūsu partneriem](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
-
-Noteikti lejupielādējiet Power BI satura pakotni **Atlīdzība**, kas ir paredzēta jūsu Microsoft Dynamics 365 versijai.
-
->[!NOTE]
->Pakalpojumā Lifecycle Services pieejamie .pbix formāta faili ir paredzēti tikai programmatūrai Dynamics 365 for Finance and Operations.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
 Power BI satura pakotnē **Atlīdzība** ietverto pārskatu aizpildīšanai tiek izmantoti tālāk norādītie dati. Tālāk esošajā tabulā ir norādīti elementi, kas ir izmantoti satura izveidei.
@@ -81,5 +74,5 @@ Power BI satura pakotnē **Atlīdzība** ietverto pārskatu aizpildīšanai tie
 | Darbinieka amats           | Nosaukums un darba stāža datums                                                                                   | Pašreizējais darbinieks, Darbinieks, ar kuru ir pārtrauktas darba attiecības, Darbinieka tendence |
 | Darbinieka tendence           | Nodarbinātie laika gaitā, skaits, uzņēmums un amats                                                        | Uzņēmums, Atlīdzība, Ģeogrāfiskā vieta, Darbinieka vārds, Pārskati par, Kalendāra nobīde, Datums, Darbinieka amats, Demogrāfiskie dati, Nodarbinātība, Darbs, Atvieglojumi |
 
-Šie elementi tika izmantoti, lai datu modelī izveidotu aprēķinātus mērus. Pēc tam šie aprēķinātie mēri tiek lietoti, lai aprēķinātu galvenos veiktspējas rādītājus (key performance indicators — KPI) un satura pakotnē ietverto pārskatu datus. Ja vēlaties pārskatos vai informācijas panelī ietvert papildu aprēķinus, varat lejupielādēt .pbix formāta failu no pakalpojuma LCS un izmainīt to. Šis fails ir noklusējuma datu modelis, kas tika izmantots satura pakotnes izveidei. Kad esat pabeidzis izmaiņu veikšanu, varat izveidot organizācijas satura pakotni un informācijas paneli, kas satur jūsu pievienoto informāciju.
+
 

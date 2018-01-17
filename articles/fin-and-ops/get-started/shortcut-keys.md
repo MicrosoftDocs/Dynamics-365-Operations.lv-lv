@@ -3,7 +3,7 @@ title: "Īsinājumtaustiņi"
 description: "Programmā Dynamics 365 for Finance and Operations, Enterprise Edition tiek izmantoti tālāk norādītie īsinājumtaustiņi."
 author: jasongre
 manager: AnnBe
-ms.date: 10/10/2017
+ms.date: 12/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
-ms.openlocfilehash: 8e87721af34e1527d1d8eb254f0443e37d137730
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: 8bf0f44583d183d992547c773f2cf7a8ac1db5fc
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -34,7 +34,7 @@ Programmā Dynamics 365 for Finance and Operations, Enterprise Edition tiek izma
 
 **Piezīme.** Šeit aprakstītie īsinājumtaustiņi attiecas uz ASV tastatūras izkārtojumu. Citos tastatūras izkārtojumos taustiņi var precīzi neatbilst taustiņiem ASV tastatūras izkārtojumā.
 
-## <a name="finding-a-shorcut"></a>Saīsnes atrašana
+## <a name="finding-a-shortcut"></a>Saīsnes atrašana
 Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lietotāji var noskaidrot tieši no lietotāja interfeisa. Vienkārši noklikšķiniet uz vadīklas ar peles labo pogu un atlasiet **Skatīt saīsnes**. Šādi tiek atvērts dialoglodziņš, kurā ir redzamas saīsnes, ko var izmantot, pamatojoties uz atrašanās vietu lapā. 
 
 
@@ -81,7 +81,7 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 ## <a name="filtering-shortcuts"></a>Filtrēšanas saīsnes
 |                                    |                          |
 |------------------------------------|--------------------------|
-| **Lai izpildītu šo darbību**                     | **Nospiediet**                |
+| **Darbība**                     | **Nospiediet**                |
 | Atvērt pašreizējās kolonnas režģa filtrēšanas sadaļu                        | Ctrl+G                   |
 | Aizvērt pašreizējās kolonnas režģa filtrēšanas sadaļu                       | Esc                      |
 | Atvērt filtra rūti (vai aktivizēt filtra rūti vai galveno veidlapu, ja filtra rūts jau ir atvērta) | Alt+M,F vai Ctrl+F3       |
@@ -91,9 +91,9 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 ## <a name="form-shortcuts"></a>Veidlapas saīsnes
 |                                                     |                   |
 |-----------------------------------------------------|-------------------|
-| **Lai izpildītu šo darbību**                                      | **Nospiediet**         |
+| **Darbība**                                      | **Nospiediet**         |
 | Izveidot jaunu ierakstu                                 | Alt+N             |
-| Ieraksta dzēšana                                     | Alt+Del vai Alt+F9 |
+| Dzēst ierakstu                                     | Alt+Del vai Alt+F9 |
 | Saglabāt ierakstu                                         | Alt+S vai Ctrl+S   |
 | Atsaukt (atjaunot)                                    | Ctrl+Shift+F5     |
 | Atsvaidzināt datus                                        | Shift+F5          |
@@ -143,11 +143,14 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 | Pārvietoties uz pirmo ierakstu                                                                                               | Ctrl + Home                       |
 | Pārvietoties uz pēdējo ierakstu                                                                                                | Ctrl + End                        |
 | Režģī izpildīt noklusējuma darbību<br><br>**Piezīme.** Šī saīsne ir iespējota, kad ir fokusēta šūna, kurā ir hipersaite, un visās attiecīgās kolonnas šūnās ir hipersaites.                 | Enter                           |
+| Pārslēgt fokusu no atlasītās rindas uz virsraksta rindu vai otrādi                                                               | Alt+Shift+H                     |
+| Pašreizējo kolonnu padarīt lielāku/mazāku (kamēr fokuss ir virsraksta rindā)                                                  | Bultiņa pa labi/bultiņa pa kreisi        |
+| Atvērt režģa filtrēšanu pašreizējai kolonnai (kamēr fokuss ir virsraksta rindā)                                              | Enter                           |
 
 ## <a name="input-control-shortcuts"></a>Ievades kontroles saīsnes
 |                                                                              |                               |
 |------------------------------------------------------------------------------|-------------------------------|
-| **Lai izpildītu šo darbību**                                                               | **Nospiediet**                     |
+| **Darbība**                                                               | **Nospiediet**                     |
 | Atvērt hipersaiti                                                           | Ctrl+Enter                    |
 | Ievadīt sesijas datumu datuma laukā                                       | D+Tab                         |
 | Ievadīt pašreizējo datumu datuma laukā                                       | T+Tab                         |

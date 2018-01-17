@@ -3,23 +3,23 @@ title: "Power BI satura pakotne Naudas pārskats"
 description: "Šajā tēmā ir aprakstīta Power BI satura pakotne Naudas pārskats. Tajā ir paskaidrots, kā piekļūt pārskatiem, kas ir iekļauti saturā, un ir sniegta informācija par satura izveidei izmantoto datu modeli un elementiem."
 author: saraschi2
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations
+ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 8a3d12b3b0f71ea8b84b1618d9bb6bbc416e3b1d
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 5d02a009ca988f91a212e467d4f9784248bbae76
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -53,10 +53,6 @@ Tālāk esošajā tabulā ir sniegta detalizēta informācija par rādītājiem,
 | Prognoze noteiktā valūtā                     | <ul><li>Prognozētās bilances noteiktā valūtā</li><li>Ikdienas kopsavilkums noteiktā valūtā</li><li>Detalizēta informācija prognozi</li></ul> |
 | Bankas bilances                         | <ul><li>Kopējā bankas bilance sistēmas valūtā</li><li>Bilance pēc juridiskās personas</li><li>Šodienas faktiskās un prognozētās bilances salīdzinājums bankas konta valūtā</li><li>Bilance pēc bankas konta</li><li>Bilance pēc valūtas</li></ul> |
 
-## <a name="extending-the-power-bi-content"></a>Power BI satura paplašināšana
-Izmantojot pakalpojumā Lifecycle Services (LCS) pieejamās satura pakotnes, varat nodrošināt lieliskus analīzes datus personām, kuras nepiesakās programmatūrā Dynamics 365. Šīs satura pakotnes var izmainīt, tajās ietverot citus pārskatus vai vizualizācijas, un pēc tam publicēt jūsu Power BI.com nomniekā analīzes veikšanai. 
-
-Power BI satura pakotne **Naudas pārskats** ir pieejama LCS koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt satura pakotni un ieviest to savā organizācijā, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](../../dev-itpro/analytics/power-bi-content-microsoft-partners.md). Power BI satura pakotnes implementēšanas demonstrāciju skatiet tēmā [Power BI saturs pakalpojumā Dynamics Lifecycle Services no Microsoft un jūsu partneriem](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
 
@@ -72,6 +68,5 @@ Tālāk esošajā tabulā ir norādīti elementi, kas ir izmantoti Power BI sat
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | Kopsavilkums par skaidras naudas ieejas un izejas plūsmām un bilanci sistēmas valūtā visiem uzņēmumiem |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | Kopsavilkums par transakcijas neto summu un bilanci noteiktās valūtās, izmantojot transakcijas valūtu |
 
-Šie elementi tika izmantoti, lai datu modelī izveidotu aprēķinātus mērus. Pēc tam šie aprēķinātie mēri tiek lietoti, lai aprēķinātu diagrammas un pārskatus, kas tiek izmantoti Power BI satura pakotnē **Naudas pārskats**. Lai pārskatos vai informācijas panelī ietvertu papildu aprēķinus, varat lejupielādēt Power BI failu no pakalpojuma LCS un izmainīt to. Šis fails ir noklusējuma datu modelis, kas tika izmantots satura pakotnes izveidei. Kad esat pabeidzis izmaiņu veikšanu, varat izveidot organizācijas satura pakotni un informācijas paneļus, kas satur jūsu pievienoto informāciju.
 
 

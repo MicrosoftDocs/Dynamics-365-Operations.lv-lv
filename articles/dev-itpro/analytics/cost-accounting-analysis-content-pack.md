@@ -3,7 +3,7 @@ title: "Power BI saturs Izmaksu uzskaites analīze"
 description: "Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI saturā Izmaksu uzskaites analīze. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4d2966954ccb9df03227edab1fe7c471ddd20f32
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 2d0fb4de84838f1778625d977bdd2ceeaac61f8c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -44,7 +44,7 @@ Lai uzzinātu papildinformāciju par izmaksu uzskaiti, skatiet [izmaksu uzskaite
 Izmaksu uzskaitē definējot piekļuves līmeņa drošību un to kombinējot ar rindas līmeņa drošību pakalpojumā Power BI, visiem izmaksu objektu īpašniekiem varat sniegt piekļuvi Power BI saturam **Izmaksu uzskaites analīze**. Pēc tam visi vizualizācijās esošie dati tiks filtrēti, pamatojoties uz piekļuves līmeni, kurš ir kontrolēts izmaksu uzskaitē. Lai uzzinātu papildinformāciju par piekļuves līmeņa drošību un rindas līmeņa drošību, skatiet rakstu [Iestatīt drošību Power BI saturam Izmaksu analīze](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
-Power BI saturs **Izmaksu uzskaites analīze** ir atrodama Microsoft Dynamics Lifecycle Services (LCS) koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt satura pakotni un ieviest to savā organizācijā, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md). Power BI satura pakotnes implementēšanas demonstrāciju skatiet tēmā [Power BI saturs pakalpojumā Dynamics Lifecycle Services no Microsoft un jūsu partneriem](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
+Power BI saturs **Izmaksu uzskaites analīze** ir atrodama Microsoft Dynamics Lifecycle Services (LCS) koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt satura pakotni un ieviest to savā organizācijā, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/). Power BI satura pakotnes implementēšanas demonstrāciju skatiet tēmā [Power BI saturs pakalpojumā Dynamics Lifecycle Services no Microsoft un jūsu partneriem](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
 
 Noteikti lejupielādējiet satura pakotni **Izmaksu uzskaites analīze**, kas ir paredzēta jūsu Microsoft Dynamics 365 versijai.
 

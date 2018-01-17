@@ -3,7 +3,7 @@ title: "Power BI saturs Pārdošanas un ienesīguma veiktspēja"
 description: "Šajā tēmā ir aprakstīts, kas ir iekļauts pārdošanas un ienesīguma veiktspējas Power BI saturā. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: c065eb2f19bbbd553e070f06c29f73114e3efad5
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 55699cb41c712b49954f9ad6b03c2e7813a3a98a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -76,15 +76,6 @@ Power BI satura pakotne **Pārdošanas un ienesīguma veiktspēja** tiek rādī
 
 \* Šī gada un pagājušā gada ieņēmumi un palielinājums pēc pārdošanas kategorijas.
 
-## <a name="extending-the-power-bi-content"></a>Power BI satura paplašināšana
-Izmantojot pakalpojumā Microsoft Dynamics Lifecycle Services (LCS) pieejamās satura pakotnes, varat nodrošināt lielisku analīzes funkcionalitāti personām, kuras nepierakstās programmatūrā Microsoft Dynamics 365. Varat izmainīt šīs satura pakotnes, tajās ietverot citus pārskatus vai vizualizācijas, un pēc tam publicēt tās savā Power BI.com nomniekā analīzes veikšanai.
-
-**Pārdošanas un ienesīguma veiktspējas** Power BI saturs ir pieejama LCS koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt satura pakotni un ieviest to savā organizācijā, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md). Power BI satura pakotnes implementēšanas demonstrāciju skatiet tēmā [Power BI saturs pakalpojumā Dynamics Lifecycle Services no Microsoft un jūsu partneriem](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
-
-Noteikti lejupielādējiet **pārdošanas un ienesīguma veiktspējas** saturu, kas attiecas uz izmantoto Dynamics 365 versiju.
-
-> [!NOTE]
-> Ja izmantojat Microsoft Dynamics 365 for Operations versiju 1611, šī Power BI satura izmantošanas priekšnosacījums ir KB 4011327. Ja esat pierakstījies LCS, tad KB varat piekļūt šeit: https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
 **Pārdošanas un ienesīguma veiktspējas** Power BI satura pārskata aizpildīšanai tiek izmantoti tālāk norādītie dati. Šie dati tiek attēloti kā apkopoti mērījumi, kas tiek sagatavoti elementu krātuvē. Elementu krātuve ir analīzei optimizēta Microsoft SQL Server datu bāze. Papildinformāciju skatiet tēmā [Apskats par Power BI integrāciju elementu krātuvē](power-bi-integration-entity-store.md). 

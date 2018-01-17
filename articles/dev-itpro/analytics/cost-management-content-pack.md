@@ -1,9 +1,9 @@
 ---
 title: "Power BI saturs Izmaksu pārvaldība"
-description: "Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI saturā Izmaksu pārvaldība. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem."
+description: "Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI saturā Izmaksu pārvaldība."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f509852f15b9518d0a01be1f89d4f07c76caf341
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: e0f9042b2647a484a70670d1d29e8036401b39f1
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI saturā Izmaksu pārvaldība. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
+Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI saturā Izmaksu pārvaldība. 
 
 # <a name="overview"></a>Pārskats
 
@@ -51,8 +51,6 @@ Microsoft Power BI saturs **Izmaksu pārvaldība** ir paredzēts krājumu grām
 
 Vienumam CostAggregatedCostStatementEntryEntity primārais datu avots ir tabula CostStatementCache. Šo tabulu pārvalda datu kopas kešatmiņas struktūra. Pēc noklusējuma šī tabula tiek atjaunināta ik pēc 24 stundām, bet datu kešatmiņas konfigurācijā varat iespējot manuālu atjaunināšanu. Pēc tam manuālu atjaunināšanu varat veikt darbvietā **Izmaksu pārvaldība** vai **Izmaksu analīze**. Pēc CostStatementCache atjaunināšanas jums ir jāatjaunina OData savienojums ar Power BI.com, lai šajā vietnē būtu redzami atjauninātie dati. Novirzes (pirkšanas, ražošanas) mēri šajā Power BI saturā attiecas tikai uz vienumiem, kuru vērtība ir noteikta ar standarta izmaksu krājumu metodi. Ražošanas novirze tiek aprēķināta kā aktīvo izmaksu un realizēto izmaksu starpība. Ražošanas novirze tiek aprēķināta, kad ražošanas pasūtījuma statuss ir **Pabeigts**. Papildinformāciju par ražošanas novirzes tipiem un katra tipa aprēķināšanu skatiet rakstā [Par noviržu analizēšanu pabeigtam ražošanas pasūtījumam](https://technet.microsoft.com/en-us/library/gg242850.aspx).
 
-## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
-Power BI saturs **Izmaksu pārvaldība** ir pieejams vietnē PowerBI.com. Papildinformāciju par to, kā pievienot un lejupielādēt jūsu Microsoft Dynamics 365 for Finance and Operations datus, skatiet rakstā [Piekļuve Power BI saturam vietnē PowerBI.com](power-bi-home-page.md).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI saturā iekļautā metrika
 Saturā ietilpst pārskatu lapu komplekts. Katra lapa sastāv no rādītāju kopas, kuri ir vizualizēti kā diagrammas, elementi un tabulas. Nākamajā tabulā ir sniegts apskats par vizualizācijām Power BI saturā **Izmaksu pārvaldība**.
@@ -136,13 +134,6 @@ Tālāk norādītās galvenās dimensijas tiek lietotas kā filtri, lai apkopoš
 | Virsgrāmatas          | Valūta, Nosaukums, Apraksts                  |
 | Atrašanās vietas            | ID, nosaukums, Valsts, Pilsēta                      |
 
-## <a name="additional-resources"></a>Papildu resursi
-Šeit norādītas dažas noderīgas saites, kas ir saistītas ar elementiem un Power BI satura izveidi:
-
--   [Datu elementi](..\data-entities\data-entities.md)
--   [Organizācijas satura pakotnes izveide](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Datu modelēšana, izmantojot Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Power BI elementu pievienošana darbvietām](configure-power-bi-integration.md)
 
 
 

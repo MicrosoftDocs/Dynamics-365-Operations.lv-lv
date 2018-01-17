@@ -1,9 +1,9 @@
 ---
 title: "Power BI saturs Apmācība"
-description: "Šajā tēmā ir aprakstīts Power BI saturs Apmācība. Tajā ir paskaidrots, kā piekļūt pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem."
+description: "Šajā tēmā ir aprakstīts Power BI saturs Apmācība."
 author: jcart1106
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: bb4a2d6d725f79fe3f095a37b8a37d47339a7966
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: e5a78812aabaa5c835fe23787a9cbb57d1a7770e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -27,11 +27,7 @@ ms.lasthandoff: 12/01/2017
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts Microsoft Power BI saturs **Apmācība**. Tajā ir paskaidrots, kā piekļūt šim saturam, un ir izskaidrots satura izstrādei izmantotais datu modelis un elementi.
-
-## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
-
-Power BI satura pakotne **Mācības** ir pieejams Microsoft Dynamics Lifecycle Services (LCS) koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt satura pakotni un ieviest to savā organizācijā, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md). Power BI satura pakotnes implementēšanas demonstrāciju skatiet tēmā [Power BI saturs pakalpojumā Dynamics Lifecycle Services no Microsoft un jūsu partneriem](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
+Šajā tēmā ir aprakstīts Microsoft Power BI saturs **Apmācība**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie pārskati
 
@@ -69,5 +65,5 @@ Power BI saturā **Apmācība** ietverto pārskatu aizpildīšanai tiek izmanto
 | Darbinieka vārds    | Vārds, uzvārds un pilnais vārds                             | Kursa dalībnieki |
 | Darbinieka amats   | Nosaukums un darba stāža datums                                         | Kursa dalībnieki |
 
-Šie elementi tika izmantoti, lai datu modelī izveidotu aprēķinātus mērus. Pēc tam šie aprēķinātie mēri tiek lietoti, lai aprēķinātu galvenos veiktspējas rādītājus (key performance indicators — KPI) un satura pakotnē ietverto pārskatu datus. Ja vēlaties pārskatos vai informācijas panelī ietvert papildu aprēķinus, varat lejupielādēt .pbix formāta failu no pakalpojuma LCS un izmainīt to. Šis fails ir noklusējuma datu modelis, kas tika izmantots satura pakotnes izveidei. Kad esat pabeidzis izmaiņu veikšanu, varat izveidot organizācijas satura pakotni un informācijas paneli, kas satur jūsu pievienoto informāciju.
+
 

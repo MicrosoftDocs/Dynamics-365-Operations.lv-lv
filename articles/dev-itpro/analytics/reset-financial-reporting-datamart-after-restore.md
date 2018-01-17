@@ -3,7 +3,7 @@ title: "Finanšu pārskatu datuves atiestatīšana"
 description: "Šajā tēmā ir aprakstīts, kā atiestatīt finanšu pārskatu datuvi."
 author: aolson
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: aloson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 0786d3377b914791106ef30455d676e5ab2ae03d
-ms.openlocfilehash: c708fa18b8676d8ff57c26b3176a36d86df29387
+ms.sourcegitcommit: 5b956dcc5a4a93033396ae0ffcf8b7aeba2cf3f2
+ms.openlocfilehash: a07e8b5bae2c4f71e9212cd2f8080d2481769818
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/07/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 12/07/2017
 - Microsoft Dynamics 365 for Finance and Operations Finanšu pārskati, laidiens 7.0.10000.4 un jaunāks
 - Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (lokālā)
 
-Lai saņemtu Finance and Operations Finanšu pārskati laidienu 7.2.6.0, varat lejupielādēt KB 4052514 no <https://support.microsoft.com/en-us/help/4052514>.
+Lai saņemtu Finance and Operations Finanšu pārskati laidienu 7.2.6.0, varat lejupielādēt KB 4052514 no <https://fix.lcs.dynamics.com/Issue/Resolved?kb=4052514>.
 
 ## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-financial-reporting-release-7260-and-later"></a>Finanšu pārskatu datuves atiestatīšana Finance and Operations Finanšu pārskati laidienam 7.2.6.0 un jaunākam
 
@@ -55,7 +55,7 @@ Datuves atiestatīšanu vajadzētu veikt tikai laikā, kad datu bāzes apstrāde
 
 Lai atiestatītu datuvi, pārskatu veidotāja izvēlnē **Rīki** atlasiet **Atiestatīt datuvi**. Tiek parādīts dialoglodziņš ar divām sadaļām: **Statistika** un **Atiestatīt**.
 
-[![Datuves atiestatīšanas dialoglodziņš](./media/Statistics.png)](./media/Statistics.png)
+[![Datuves atiestatīšanas dialoglodziņš](./media/Reset-72.jpg)](./media/Reset-72.jpg)
 
 ##### <a name="integration-attempts"></a>Integrācijas mēģinājumi
 
@@ -83,8 +83,10 @@ Ja konstatējat, ka ir nepieciešams atiestatīt datuvi, atzīmējiet izvēles r
 - **Atjaunot datu bāzi** — Finance and Operations datu bāze tika atjaunota, bet datuve netika atjaunota.
 - **Cits** — datuvi atiestatāt cita iemesla dēļ. Ja raizējaties, ka varētu pastāvēt kāda problēma, sazinieties ar atbalsta dienestu, lai to noskaidrotu.
 
+[![Atiestatīt data mart](./media/Integration.png)](./media/Integration.png)
+
 > [!NOTE]
-> Pirms šo darbību veikšanas pārliecinieties, vai visiem esošajiem uzdevumiem ir pabeigta integrēšana. Integrācijas statusu varat apskatīt, atlasot **Rīki** &gt; **Integrācijas statuss**.
+> Pirms sākat atiestatīšanu, ir jāpārbauda, vai visiem datuves atiestatīšanas uzdevumiem ir pabeigta sākotnējā ielāde. To varat pārbaudīt, meklējot vērtību kolonnā “Pēdējais izpildlaiks”, atlasot **Rīki** &gt; **Integrācijas statuss**.
 
 #### <a name="clear-users-and-companies"></a>Notīrīt lietotājus un uzņēmumus
 
@@ -94,7 +96,10 @@ Kad esat gatavs sākt atiestatīšanas procesu, atlasiet **Labi**. Tiek parādī
 
 Ja vēlaties pārskatīt integrācijas statusu, atlasiet **Rīki** &gt; **Integrācijas statuss**, lai apskatītu pēdējo reizi, kad tika veikta integrēšana, un tās statusu.
 
-[![Integrācijas statusa skatīšana](./media/Integration.png)](./media/Integration.png)
+[![Integrācijas statusa skatīšana](./media/New-integration.PNG)](./media/New-integration.PNG)
+
+> [!NOTE]
+> Atiestatīšana ir pabeigta, kad visos kartējumos tiek rādīts statuss RanToCompletion un logā “Integrācijas statuss“” kreisajā apakšējā stūrī ir rakstīts “Integrēšana pabeigta”.
 
 ## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-financial-reporting-release-70100004-and-later"></a>Finanšu pārskatu datuves atiestatīšana Finance and Operations Finanšu pārskati laidienam 7.0.10000.4 un jaunākam
 
@@ -142,7 +147,9 @@ Tālāk norādītajos Microsoft Windows pakalpojumus būs atvērti savienojumi a
 
 #### <a name="download-the-latest-minorversiondataupgradezip-package"></a>Visjaunākās MinorVersionDataUpgrade.zip pakotnes lejupielādēšana
 
-Lejupielādējiet visjaunāko MinorVersionDataUpgrade.zip pakotni. Norādījumus par to, kā atrast un lejupielādēt pareizo datu jaunināšanas pakotnes versiju, skatiet šeit: [Visjaunākās izvietojamās datu jaunināšanas pakotnes lejupielādēšana](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-packages). Lai lejupielādētu MinorVersionDataUpgrade.zip pakotni, nav nepieciešams jauninājums. Tādēļ jums ir tikai jāizpilda darbības attiecīgās tēmas sadaļā “Visjaunākās izvietojamās datu jaunināšanas pakotnes lejupielādēšana”. Visas pārējās tēmā aprakstītās darbības varat izlaist.
+Lejupielādējiet visjaunāko MinorVersionDataUpgrade.zip pakotni. Norādījumus par to, kā atrast un lejupielādēt pareizo datu jaunināšanas pakotnes versiju, skatiet šeit: [Visjaunākās izvietojamās datu jaunināšanas pakotnes lejupielādēšana](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-package). 
+
+Lai lejupielādētu MinorVersionDataUpgrade.zip pakotni, nav nepieciešams jauninājums. Tādēļ jums ir tikai jāizpilda darbības attiecīgās tēmas sadaļā “Visjaunākās izvietojamās datu jaunināšanas pakotnes lejupielādēšana”. Visas pārējās tēmā aprakstītās darbības varat izlaist.
 
 #### <a name="run-scripts-against-the-finance-and-operations-database"></a>Skriptu palaišana ar Finance and Operations datu bāzi
 

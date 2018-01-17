@@ -1,9 +1,9 @@
 ---
 title: "Power BI satura pakotne Organizācijas apmācība"
-description: "Šajā tēmā ir aprakstīta Finance and Operations Power BI satura pakotne Organizācijas apmācība. Tajā ir paskaidrots, kā piekļūt satura pakotnei, un ir izskaidrots satura pakotnes izstrādei izmantotais datu modelis un elementi."
+description: "Šajā tēmā ir aprakstīta Finance and Operations Power BI satura pakotne Organizācijas apmācība."
 author: jcart1106
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 18d7fa3580a9debf617ebeb042670f7f1be8fad6
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 1e26785b658815fcc5026d73e4d8cfe39bd246c3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -30,12 +30,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā tēmā ir aprakstīta Finance and Operations Power BI satura pakotne Organizācijas apmācība. Tajā ir paskaidrots, kā piekļūt satura pakotnei, un ir izskaidrots satura pakotnes izstrādei izmantotais datu modelis un elementi.
-
-<a name="accessing-the-content-pack"></a>Piekļuve satura pakotnei
---------------------------
-
-Satura pakotne Organizācijas apmācība ir pieejama Microsoft Dynamics Lifecycle Services (LCS) koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt šo satura pakotni un izveidot tās savienojumu ar Microsoft Dynamics 365 for Finance and Operations datiem, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md).
+Šajā tēmā ir aprakstīta Finance and Operations Power BI satura pakotne Organizācijas apmācība. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Satura pakotnē iekļautie pārskati
 Kad ir izveidots satura pakotnes savienojums ar jūsu Finance and Operations datiem, pārskatos tiek rādīti jūsu organizācijas dati. Ja iepriekš neesat lietojis Microsoft Power BI, papildinformāciju par to varat uzzināt lapā [Vadītā apmācība par Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Satura pakotnē iekļautajos pārskatos ir gan diagrammas, gan tabulas, kas satur papildinformāciju. Tabulā ir sniegts pārskatu apraksts.
@@ -65,16 +60,6 @@ Satura pakotnes Organizācijas apmācība pārskatu aizpildīšanai tiek izmanto
 | Training\_Position        | Pozīcija, amats un pilnas slodzes ekvivalents (FTE)                  | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
 | Training\_WorkerName      | Vārds, uzvārds un pilnais vārds                             | Training\_CourseAttendees                                                                                                                                                                          |
 | Training\_WorkerTitle     | Nosaukums un darba stāža datums                                         | Training\_CourseAttendees                                                                                                                                                                          |
-
-Šie elementi tika izmantoti, lai datu modelī izveidotu aprēķinātus mērus. Pēc tam šie aprēķinātie mēri tiek lietoti, lai aprēķinātu galvenos veiktspējas rādītājus (key performance indicators — KPI) un pārskatus, kas tiek izmantoti satura pakotnē. Ja vēlaties pārskatos vai informācijas panelī ietvert papildu aprēķinus, varat no LCS lejupielādēt un modificēt failu Training.pbix. Šis fails ir noklusējuma datu modelis, kas tika izmantots satura pakotnes izveidošanai. Kad esat pabeidzis izmaiņu veikšanu, varat izveidot organizācijas satura pakotni un informācijas paneli, kas satur jūsu pievienoto informāciju.
-
-## <a name="additional-resources"></a>Papildu resursi
-Šeit norādītas dažas noderīgas saites, kas ir saistītas ar elementiem un Power BI satura izveidi:
-
--   [Datu elementi](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/)
--   [Organizācijas satura pakotnes izveide](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Datu modelēšana, izmantojot Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Power BI elementu pievienošana darbvietām](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/07/06/pinning-power-bi-reports-to-dynamics-ax-client/)
 
 
 
