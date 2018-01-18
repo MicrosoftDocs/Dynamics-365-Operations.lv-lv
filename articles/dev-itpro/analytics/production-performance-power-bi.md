@@ -3,7 +3,7 @@ title: "Ražošanas veiktspējas Power BI saturs"
 description: "Šajā tēmā ir aprakstīts, kas ir iekļauts ražošanas veiktspējas Power BI saturā. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem."
 author: AndersGirke
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -16,10 +16,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 898a1a513850024fd0164955bdd204ee4b08c632
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 592514e9ef8b0ec1e3bacda0f26d5991da88449e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -59,15 +59,6 @@ Zemāk norādītajā tabulā ir sniegts pārskats par vizualizācijām, kas ir i
 | Brāķa tendences pēc resursa                  | Brāķa proporcija (miljonās daļas) pēc apstrādātā daudzuma | |
 | Darba pasūtījuma cenas ražošanas novirzes | <ul><li>Ražošanas novirzes pēc datuma un izmaksu grupas veida</li><li>Ražošanas novirzes pēc vietas un izmaksu grupas veida</li><li>Pirmās 10 preces ar nelabvēlīgu ražošanas novirzi</li><li>Pirmās 10 preces ar nelabvēlīgu ražošanas novirzi pēc resursa</li></ul> | <ul><li>Realizētās izmaksas</li><li>Ražošanas novirze</li><li>Ražošanas novirze, %</li></ul> |
 
-## <a name="extending-the-power-bi-content"></a>Power BI satura paplašināšana
-Izmantojot pakalpojumā Microsoft Dynamics Lifecycle Services (LCS) pieejamās satura pakotnes, varat nodrošināt lielisku analīzes funkcionalitāti personām, kuras nepierakstās programmatūrā Microsoft Dynamics 365. Varat izmainīt šīs satura pakotnes, tajās ietverot citus pārskatus vai vizualizācijas, un pēc tam publicēt tās savā Power BI.com nomniekā analīzes veikšanai.
-
-**Ražošanas veiktspējas** Power BI saturs ir pieejams LCS koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt satura pakotni un ieviest to savā organizācijā, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md). Power BI satura pakotnes implementēšanas demonstrāciju skatiet tēmā [Power BI saturs pakalpojumā Dynamics Lifecycle Services no Microsoft un jūsu partneriem](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
-
-Noteikti lejupielādējiet **ražošanas veiktspējas** saturu, kas attiecas uz izmantoto Dynamics 365 versiju.
-
-> [!NOTE]
-> Ja izmantojat Microsoft Dynamics 365 for Operations versiju 1611, šī Power BI satura izmantošanas priekšnosacījums ir KB 4011327. Ja esat pierakstījies LCS, tad KB varat piekļūt šeit: https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
 
@@ -139,12 +130,5 @@ Sekojošajā tabulā ir norādītās galvenās dimensijas, kas tiek izmantotas k
 | Resursi                 | Resursa ID, resursa nosaukums, resursa veids un resursu grupa |
 | Preces                  | Preces numurs, preces nosaukums, krājuma ID un krājumu grupa         |
 
-## <a name="additional-resources"></a>Papildu resursi
 
-Šeit norādītas dažas noderīgas saites, kas ir saistītas ar elementiem un Power BI satura izveidi:
-
-- [Datu elementi](../data-entities/data-entities.md)
-- [Organizācijas satura pakotnes izveide](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
-- [Datu modelēšana, izmantojot Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
-- [Power BI elementu pievienošana darbvietām](configure-power-bi-integration.md)
 

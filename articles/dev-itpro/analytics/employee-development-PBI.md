@@ -1,9 +1,9 @@
 ---
 title: "Power BI saturs Darbinieku attīstība"
-description: "Šajā tēmā ir aprakstīts Power BI saturs Darbinieku attīstība. Tajā ir paskaidrots, kā piekļūt pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem."
+description: "Šajā tēmā ir aprakstīts Power BI saturs Darbinieku attīstība."
 author: jcart1106
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: f8ba7a968a1a5b376bac52106671607247f061d9
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 99ae772f3a7fe9ad274a46398a577ad96f18e251
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -27,11 +27,7 @@ ms.lasthandoff: 12/01/2017
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts Microsoft Power BI saturs **Darbinieku attīstība**. Tajā ir paskaidrots, kā piekļūt pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
-
-## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
-
-Satura pakotne **Darbinieku attīstība** ir atrodama Microsoft Dynamics Lifecycle Services (LCS) koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt šo satura pakotni un saistīt to ar saviem datiem, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md).
+Šajā tēmā ir aprakstīts Microsoft Power BI saturs **Darbinieku attīstība**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie pārskati
 Power BI satura pakotnē **Darbinieku attīstība** ietvertajos pārskatos ir gan diagrammas, gan tabulas, kas satur papildinformāciju. Tabulā ir sniegts pārskatu apraksts.
@@ -74,5 +70,4 @@ Power BI satura pakotnē **Darbinieku attīstība** ietvertajos pārskatos ir g
 | Veiktspēja              | Vērtējums, apraksts un vērtēšanas modelis                                                                      | Pašreizējais darbinieks, Pašreizējā pozīcija, Darbinieka tendence, Darbam vēlamās prasmes, Iepriekšējās pozīcijas piešķire, Pozīcijas tendence, Darbinieks, ar kuru ir pārtrauktas darba attiecības |
 |  Prasme                   | Prasme, prasmes tips un vērtējums                                                                              | Darbinieku prasmju analīze, Darbam vēlamās prasmes |                                                                                                                        
 
-Šie elementi tika izmantoti, lai datu modelī izveidotu aprēķinātus mērus. Pēc tam šie aprēķinātie mēri tiek lietoti, lai aprēķinātu galvenos veiktspējas rādītājus (key performance indicators — KPI) un pārskatus, kas tiek izmantoti Power BI saturā. Ja vēlaties pārskatos vai informācijas panelī ietvert papildu aprēķinus, varat lejupielādēt .pbix formāta failu no pakalpojuma LCS un izmainīt to. Šis fails ir noklusējuma datu modelis, kas tika izmantots Power BI satura izveidošanai. Kad esat pabeidzis izmaiņu veikšanu, varat izveidot organizācijas satura pakotni un informācijas paneli, kas satur jūsu pievienoto informāciju.
 

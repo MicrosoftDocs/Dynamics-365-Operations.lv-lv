@@ -3,7 +3,7 @@ title: "Power BI saturs"
 description: "Šajā tēmā ir uzskaitīts pieejamais Power BI saturs un norādīti resursi, kur varat uzzināt vairāk par to."
 author: sericks007
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: ae19b4afa9e36800988b790398e46d8861ba432d
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 0969f9f30e50a36b667765fbe375e6c14d3412da
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -39,10 +39,10 @@ Ja izmantojat programmatūru Microsoft Dynamics 365 for Finance and Operations, 
 - [Naudas pārskata Power BI saturs](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
 - [CFO pārskata Power BI saturs](CFO-power-bi.md)
 - [Atlīdzības Power BI saturs](compensation-power-bi.md)
-- [Izmaksu uzskaites analīzes Power BI saturs*](cost-accounting-analysis-content-pack.md) 
+- [Izmaksu uzskaites analīzes Power BI saturs](cost-accounting-analysis-content-pack.md) 
 - [Kredīta un iekasēšanas Power BI saturs](../../financials/accounts-receivable/credit-collections-power-bi.md)
 - [Darbinieku attīstības Power BI saturs](employee-development-PBI.md) 
-- [Finanšu veiktspējas Power BI saturs*](financial-performance-power-bi-content-pack.md)
+- [Power BI saturs Finanšu veiktspēja](financial-performance-power-bi-content-pack.md)
 - [Pamatlīdzekļu Power BI saturs](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
 - [Apmācību Power BI saturs](learning-power-bi.md)
 - [Prakses pārvaldnieka Power BI saturs](practice-manager-power-bi.md)
@@ -53,16 +53,6 @@ Ja izmantojat programmatūru Microsoft Dynamics 365 for Finance and Operations, 
 - [Kreditoru maksājumu Power BI saturs](../../financials/accounts-payable/Vendor-payments-workspace.md)
 - [Power BI saturs Noliktavas veiktspēja](warehouse-power-bi-content.md)
 - [Power BI saturs Darbaspēka rādītāji](workforce-analysis-power-bi-content-pack.md)  
-
-### <a name="accessing-the-content"></a>Piekļuve saturam
-
-#### <a name="embedded-content"></a>Iegultais saturs
-Izņemot saturu, kas ir atzīmēts ar zvaigznīti (\*), viss pārējais saturs iepriekšējā sarakstā ir iegults programmā. Lai uzzinātu vairāk par to, kur var skatīt Power BI saturu, noklikšķiniet uz iepriekš norādītajām saitēm.
-
-Lai skatītu datus Power BI pārskatos, noteikti atsvaidziniet elementu krātuvi. Papildinformāciju skatiet raksta [Pārskats par Power BI integrāciju, izmantojot elementu krātuvi](power-bi-integration-entity-store.md) sadaļā *Elementu krātuves atjaunināšana*.
-
-#### <a name="files-available-in-lifecycle-services"></a>Faili, kas pieejami Lifecycle Services
-Šis Power BI saturs ir pieejams Microsoft Dynamics Lifecycle Services (LCS) koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt saturu un saistīt to ar saviem datiem, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md). Power BI satura pakotnes implementēšanas demonstrāciju skatiet tēmā [Power BI saturs pakalpojumā Dynamics Lifecycle Services no Microsoft un jūsu partneriem](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
 
 ## <a name="power-bi-content-for-dynamics-365-for-operations-version-1611"></a>Power BI saturs programmatūras Dynamics 365 for Operations versijai 1611
 Ja izmantojat Microsoft Dynamics 365 for Operations versiju 1611, ir pieejams tālāk norādītais Power BI saturs.
@@ -81,9 +71,6 @@ Ja izmantojat Microsoft Dynamics 365 for Operations versiju 1611, ir pieejams 
 - [Power BI saturs Noliktavas veiktspēja](warehouse-power-bi-content.md)
 - [Power BI saturs Darbaspēka rādītāji](workforce-analysis-power-bi-content-pack.md)  
 
-### <a name="accessing-the-content"></a>Piekļuve saturam
-Šis Power BI saturs ir pieejams (LCS) koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt saturu un saistīt to ar saviem datiem, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md). Power BI satura pakotnes implementēšanas demonstrāciju skatiet tēmā [Power BI saturs pakalpojumā Dynamics Lifecycle Services no Microsoft un jūsu partneriem](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
-
 ## <a name="power-bi-content-for-microsoft-dynamics-ax"></a>Power BI saturs programmatūrai Microsoft Dynamics AX
 Ja izmantojat Microsoft Dynamics AX 7.0 vai Microsoft Dynamics AX 7.0.1, ir pieejams tālāk norādītais Power BI saturs.
 
@@ -91,15 +78,5 @@ Ja izmantojat Microsoft Dynamics AX 7.0 vai Microsoft Dynamics AX 7.0.1, ir pie
 - [Power BI saturs Finanšu veiktspēja](financial-performance-power-bi-content-pack.md)
 - [Mazumtirdzniecības kanāla veiktspējas Power BI saturs](retail-channel-performance-dashboard-power-bi-data.md) 
 
-### <a name="accessing-the-content"></a>Piekļuve saturam
-Šis Power BI saturs ir pieejams tīmekļa vietnē PowerBI.com.
 
-1. Pierakstieties vietnē [PowerBI.com](https://www.powerbi.com/).
-2. Noklikšķiniet uz **Iegūt datus**.
-3. Lodziņā **Pakalpojumi** noklikšķiniet uz **Iegūt**.
-4. Atlasiet vajadzīgo satura pakotni un pēc tam noklikšķiniet uz **Iegūt**.
-5. Ievadiet savas Dynamics AX vides vietrādi URL. URL formātam ir jābūt šādam: **https://&lt;YourAOSTenant&gt;.cloudax.dynamics.com**. Noklikšķiniet uz **Tālāk**.
-6. Atlasiet autentifikācijas metodi **oAuth2** un pēc tam noklikšķiniet uz **Pierakstīties**.
-7. Kad tiek parādīta attiecīga uzvedne, piesakieties ar Microsoft Office 365 kontu, kam ir atļauja piekļūt jūsu Microsoft Dynamics AX videi.
-8. Pēc pierakstīšanās tiek automātiski sākts importēšanas process. Kad importēšana ir pabeigta, navigācijas rūtī tiek parādīti satura pakotnē ietvertie rezultāti. Atlasiet pārskatu, lai skatītu importētos datus.
 

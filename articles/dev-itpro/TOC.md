@@ -2,6 +2,7 @@
 # [Sistēmas prasības mākoņa izvietojumiem](../fin-and-ops/get-started/system-requirements.md)
 # [Sistēmas prasības lokālajiem izvietojumiem](../fin-and-ops/get-started/system-requirements-on-prem.md)
 # [Demonstrācijas dati](../fin-and-ops/get-started/demo-data.md)
+## [Demonstrācijas datu ģenerēšana ar pakotnēm](data-entities/generate-demo-data-packages.md)
 
 
 # [Izstrāde un pielāgošana, izmantojot Visual Studio](dev-tools/developer-home-page.md)
@@ -358,10 +359,11 @@
 ## Datu integrācijas API
 ### [Datu pārvaldības pakotnes API](data-entities/data-management-api.md)
 ### [Pakalpojumu galapunkti](data-entities/services-home-page.md)
-#### [Pakalpojumu autentifikācijas traucējumnovēršana](data-entities/troubleshoot-service-authentication.md)
+#### [Pakalpojumu autentifikācijas problēmu novēršana](data-entities/troubleshoot-service-authentication.md)
 ### [OData](data-entities/odata.md)
 ### [Pielāgoti pakalpojumi](data-entities/custom-services.md)
 ### [Atkārtotas integrācijas](data-entities/recurring-integrations.md)
+### [Trešās puses pakalpojumu testēšana utilītu izmantošana ar pakalpojumiem](data-entities/third-party-service-test.md)
 
 ## Izstrāde integrācijai
 ### [Datu integrācija, izmantojot datu elementus](data-entities/data-management-integration-data-entity.md)
@@ -396,6 +398,7 @@
 ### [Konfigurācijas datu pakotnes](data-entities/configuration-data-packages.md)
 ### [Konfigurācijas datu kopēšana starp uzņēmumiem](data-entities/copy-configuration.md)
 ### [Konfigurācijas datu veidnes](data-entities/configuration-data-templates.md)
+### [Datu veidnes ar vairākām darblapām](data-entities/excel-template-multiple.md)
 ### [Elementa izmaiņu izsekošana](data-entities/entity-change-track.md)
 
 ## Standarta datu elementi
@@ -497,17 +500,20 @@
 
 ## Mākoņa izvietošana
 ### [Azure resursu pārvaldnieka pievienošana](deployment/arm-onboarding.md)
-### [Azure ExpressRoute un Dynamics 365 for Finance and Operations Enterprise Edition](deployment/expressroute.md)
+### [Azure ExpressRoute un Dynamics 365 for Finance and Operations, Enterprise Edition](deployment/expressroute.md)
 
 ## [Lokāla izvietošana](deployment/on-premises-deployment-landing-page.md)
-### [Lokālās versijas pārskats](deployment/on-premises-overview.md)
+### [Lokālās versijas apskats](deployment/on-premises-overview.md)
+### [Jūsu lokālā izvietojuma plānošana](deployment/plan-onprem-deployment.md)
 ### [Aparatūras lielums](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 ### [Lokāla projekta izveide](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Lokālas vides iestatīšana un izvietošana](deployment/setup-deploy-on-premises-environments.md)
 ### [Pielāgotu modeļu izstrāde un izvietošana lokālām vidēm](deployment/develop-deploy-custom-models-on-premises.md)
 ### [Atjauninājumu lietošana lokālam izvietojumam](deployment/apply-updates-on-premises.md)
-### [Atkārtoti izvietot lokālo izvietojumu](deployment/redeploy-on-prem.md)
-### [Dynamics 365 for Finance and Operations Enterprise edition lokālo problēmu novēršana](deployment/troubleshoot-on-prem.md)
+### [Lokālā izvietojuma atkārtota izvietošana](deployment/redeploy-on-prem.md)
+### [Lokālā aģenta atjaunināšana](lifecycle-services/update-local-agent.md)
+### [Vides pārkonfigurēšana](lifecycle-services/reconfigure-environment.md)
+### [Dynamics 365 for Finance and Operations, Enterprise Edition lokālo problēmu novēršana](deployment/troubleshoot-on-prem.md)
 
 ## Pielāgota koda izvietošana
 ### [Izvietojamas pakotnes izveide](deployment/create-apply-deployable-package.md)
@@ -610,7 +616,7 @@
 ## [Pārraudzība un diagnostika ](lifecycle-services/monitoring-diagnostics.md)
 ## [Lietotāja pieteikšanās gadījumu izsekošana](lifecycle-services/user-logins.md)
 ## [Līdzekļu bibliotēka](lifecycle-services/asset-library.md)
-## [Microsoft Dynamics 365 — tulkošanas pakalpojuma pārskats](lifecycle-services/translation-service-overview.md)
+## [Microsoft Dynamics 365 — tulkošanas pakalpojuma apskats](lifecycle-services/translation-service-overview.md)
 ### [Microsoft Dynamics 365 — tulkošanas pakalpojuma lietotāja rokasgrāmata](lifecycle-services/use-translation-service.md)
 
 ## Dynamics AX 2012 Lifecycle Services līdzekļi
@@ -675,7 +681,7 @@
 #### [Veiktspējas procesu mērījumu programmatūras izstrādes rīkkopa](lifecycle-services/ax-2012/performance-benchmark-software-development-toolkit-sdk-2012.md)
 #### [Drošības jaunināšanas padomnieka rīks](lifecycle-services/ax-2012/security-upgrade-advisor-tool-user-guide.md)
 #### [Inteliģentā datu pārvaldības struktūra (IDMF)](lifecycle-services/ax-2012/microsoft-idmf.md)
-##### [Pārskats](lifecycle-services/ax-2012/overview-idmf.md)
+##### [Apskats](lifecycle-services/ax-2012/overview-idmf.md)
 ##### [Instalēšanas rokasgrāmata](lifecycle-services/ax-2012/installation-guide-idmf.md)
 ##### [Konfigurācija](lifecycle-services/ax-2012/configuration-functionality-idmf-workspace.md)
 ##### [Analīze](lifecycle-services/ax-2012/analysis-functionality-idmf-workspace.md)

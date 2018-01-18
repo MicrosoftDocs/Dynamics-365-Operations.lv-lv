@@ -1,9 +1,9 @@
 ---
 title: "Power BI saturs Finanšu veiktspēja"
-description: "Šajā tēmā ir aprakstīts Power BI saturs Finanšu veiktspēja. Tajā ir aprakstīts informācijas panelis un ietvertie pārskati, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem."
+description: "Šajā tēmā ir aprakstīts Power BI saturs Finanšu veiktspēja."
 author: kweekley
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 3638f5acf6a05ec419dc4308e861d95f0d7b2cea
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 83ea868e7612f30afa1b99f374878f4ba415113f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -30,21 +30,6 @@ ms.lasthandoff: 12/01/2017
 [!include[banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīts Microsoft Power BI saturs **Finanšu veiktspēja**. Tajā ir aprakstīts informācijas panelis un ietvertie pārskati, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
-
-## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
-
-Power BI saturam **Finanšu veiktspēja** varat piekļūt no Microsoft Dynamics Lifecycle Services (LCS) un no vietnes PowerBI.com.
-
-### <a name="available-from-lcs"></a>Pieejams no LCS
-No LCS pieejamajam Power BI saturam **Finanšu veiktspēja** tiek atbalstītas tālāk norādītās versijas.
-
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition versijas
-- Microsoft Dynamics 365 for Operations versija 1611 
-
-Power BI saturs ir atrodams LCS koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt satura pakotni un ieviest to savā organizācijā, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md). Power BI satura pakotnes implementēšanas demonstrāciju skatiet tēmā [Power BI saturs pakalpojumā Dynamics Lifecycle Services no Microsoft un jūsu partneriem](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
-
-### <a name="available-from-powerbicom"></a>Pieejams no PowerBI.com
-Vietnē PowerBI.com pieejamajam Power BI saturam **Finanšu veiktspēja** tiek atbalstīta Microsoft Dynamics AX versija 7.0 un 7.0.1. Plašāku informāciju par to, kā pievienot un ielādēt savus Dynamics AX datus, skatiet rakstā [Piekļūt Power BI saturam no PowerBI.com](power-bi-home-page.md).
 
 ## <a name="main-account-setup"></a>Galvenā konta iestatīšana
 Tā kā organizācijas vēlas, lai saistību un ieņēmumu summas pārskatos tiktu rādītas kā pozitīvas summas, galveno kontu iestatīšana ir svarīga. Lai šie galvenie konti tiktu rādīti kā pozitīvas summas, galvenā konta tips ir jāiestata uz **Saistība** vai **Ieņēmumi**. Kad tiek izmantoti šie kontu tipi, pārskatu veidošana, izmantojot Power BI, apgriež zīmes un šīs summas rāda kā pozitīvas.
@@ -101,5 +86,5 @@ Power BI satura **Finanšu veiktspēja** pamatā tika izmantoti tālāk norād�
 - Virsgrāmatas
 - ChartofAccounts
 
-Šie elementi tika izmantoti, lai datu modelī izveidotu aprēķinātus mērus. Šie aprēķinātie mēri tiek lietoti, lai aprēķinātu galvenos veiktspējas rādītājus (key performance indicators — KPI) un pārskatus, kas tiek izmantoti saturā. Pēc noklusējuma saturs apkopo datus par pēdējiem trīs gadiem un vienu turpmāko gadu. Lai pārskatos un informācijas panelī iekļautu papildu aprēķinus, varat modificēt [Microsoft Excel darbgrāmatu](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Šī darbgrāmata ir noklusējuma datu modelis, kas tika izmantots satura izveidošanai. Pēc tam, kad esat pabeidzis savu izmaiņu veikšanu, varat izveidot organizācijas satura pakotni un informācijas paneli, kas satur informāciju, kuru pievienojāt.
+Šie elementi tika izmantoti, lai datu modelī izveidotu aprēķinātus mērus. Šie aprēķinātie mēri tiek lietoti, lai aprēķinātu galvenos veiktspējas rādītājus (key performance indicators — KPI) un pārskatus, kas tiek izmantoti saturā. Pēc noklusējuma saturs apkopo datus par pēdējiem trīs gadiem un vienu turpmāko gadu. Lai pārskatos un informācijas panelī iekļautu papildu aprēķinus, varat modificēt [Microsoft Excel darbgrāmatu](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Šī darbgrāmata ir noklusējuma datu modelis, kas tika izmantots satura izveidošanai. 
 

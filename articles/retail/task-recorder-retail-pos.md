@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
 ms.technology: 
+ms.search.form: RetailTerminalTable, SystemParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -19,10 +20,10 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a527136f77b65ef5a43576291e38cb168dbbd322
+ms.sourcegitcommit: e66208ccceb4c248c2704bb7358d77447e032205
+ms.openlocfilehash: 43360ea18ccc0fc4622f6da70ff10f2aca8b56c8
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -98,10 +99,10 @@ Lai atsāktu reģistrēšanas sesiju pēc tās pārtraukšanas noklikšķiniet u
 
 ### <a name="capture-screenshots"></a>Veikt ekrānuzņēmumus
 
-Uzdevuma reģistrētājs var nodrošināt Retail Modern POS lietotāj interfeisa ekrānuzņēmumu veikšanu biznesa procesa reģistrēšanas laikā. Uzdevumu reģistrētājā ekrānuzņēmumi tiek izmantoti tad, ja lejupielādējat ierakstu Word dokumenta formātā. Lai ieslēgtu ekrānuzņēmumu veikšanas līdzekli, iestatiet opcijas **Veikt ekrānuzņēmumu** vērtību **Jā**. 
+Uzdevuma reģistrētājs var nodrošināt Retail Modern POS lietotāj interfeisa ekrānuzņēmumu veikšanu biznesa procesa reģistrēšanas laikā. Lai ieslēgtu ekrānuzņēmumu veikšanas līdzekli, opcijai **Veikt ekrānuzņēmumu** iestatiet vērtību **Jā** un pēc tam uzņemiet ierakstu. Kad ierakstīšana ir pabeigta, noklikšķiniet uz **Apturēt** un lejupielādējiet Word dokumentu. Dokumentā būs ietvertas darbības ar attiecīgajiem ekrānuzņēmumiem.
 
 #### <a name="note"></a>Piezīme
-> Funkcija Veikt ekrānuzņēmumu netiek atbalstīta programmā Cloud POS.
+> Ekrānuzņēmumu veikšanas funkcionalitāte netiek atbalstīta programmā Modern POS.
 
 ### <a name="start-task-and-end-task"></a>Uzdevuma sākšana un beigšana
 

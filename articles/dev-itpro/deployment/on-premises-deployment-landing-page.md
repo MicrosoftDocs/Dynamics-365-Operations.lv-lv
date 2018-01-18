@@ -3,7 +3,7 @@ title: "Lokālais izvietojums"
 description: "Šajā tēmā ir sniegta informācija un saites uz saturu par lokālajiem izvietojumiem."
 author: kfend
 manager: AnnBe
-ms.date: 06/24/2017
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 855967a9aacd4881315c5d5fefa06b909cd4cb59
-ms.openlocfilehash: 69151ed1c0a0a06e72bbdc8b33eb2fc68e9cc8eb
+ms.sourcegitcommit: 346f5b7a5fbbe2c41aaa54e0b36fe0c46baec0af
+ms.openlocfilehash: 697f5a43124aace645e0cc8c6df98a4f986ab852
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 12/20/2017
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>Lokālā izvietojuma mērķlapa
@@ -32,6 +32,7 @@ Varat izvietot Microsoft Dynamics 365 for Finance and Operations Enterprise izd
 
 ## <a name="get-started"></a>Sākt darbu
 - [Dynamics 365 for Finance and Operations Enterprise izdevuma (lokāls) apskats](on-premises-overview.md)
+- [Plānošana lokālajam izvietojumam](plan-onprem-deployment.md)
 - [Sistēmas prasības lokālajiem izvietojumiem](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [Aparatūras lieluma maiņa lokālām vidēm](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Tiešsaistes pakalpojuma un lokālas programmatūras dzīves cikla politika](../migration-upgrade/versions-update-policy.md)
@@ -40,7 +41,8 @@ Varat izvietot Microsoft Dynamics 365 for Finance and Operations Enterprise izd
 
 ## <a name="onboard"></a>Pievienošana
 - [Lokāla projekta izveide pakalpojumā Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [Lokālu vižu iestatīšana un izvietošana](setup-deploy-on-premises-environments.md)
+- [Lokālas vides iestatīšana un izvietošana](setup-deploy-on-premises-environments.md)
+- [Tīkla printeru ierīču instalēšana lokālajās vidēs](../analytics/install-network-printer-onprem.md)
 - [SQL Server pārskatu izveides pakalpojumu konfigurēšana lokālam izvietojumam](../analytics/configure-ssrs-on-premises.md)
 - [Pielāgotu modeļu izstrāde un izvietošana lokālām vidēm](develop-deploy-custom-models-on-premises.md)
 
@@ -51,9 +53,10 @@ Varat izvietot Microsoft Dynamics 365 for Finance and Operations Enterprise izd
 - [Tehniskā atbalsta iestatīšana](../lifecycle-services/support-experience.md)
 - [Klienta interneta savienojuma problēmu novēršana](../user-interface/client-disconnected.md)
 - [Atjauninājumu lietošana lokālam izvietojumam](apply-updates-on-premises.md)
-- [Lokāla izvietojuma atkārtota izvietošana](redeploy-on-prem.md)
+- [Atkārtoti izvietot lokālo izvietojumu](redeploy-on-prem.md)
 
 ## <a name="other-resources"></a>Citi resursi
+- [Dynamics 365 for Finance and Operations Enterprise edition lokālo problēmu novēršana](troubleshoot-on-prem.md)
 - [Līdzekļi, kas nav ieviesti lokālos izvietojumos](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Novecojušie līdzekļi](../migration-upgrade/deprecated-features.md)
 - [Programmatūras dzīves cikla politika un laidienu saraksts](../migration-upgrade/versions-update-policy.md)

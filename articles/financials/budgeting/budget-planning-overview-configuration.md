@@ -3,11 +3,12 @@ title: "Budžeta plānošanas pārskats"
 description: "Šajā rakstā tiek iepazīstināts ar budžeta plānošanu, un tajā ir ietverta informācija, kas jums palīdz konfigurēt budžeta plānošanu un iestatīt budžeta plānošanas procesus."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

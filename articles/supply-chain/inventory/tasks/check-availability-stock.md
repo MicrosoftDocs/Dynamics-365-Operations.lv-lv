@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -23,14 +23,14 @@ ms.contentlocale: lv-lv
 ms.lasthandoff: 09/29/2017
 
 ---
-# Krājumu pieejamības pārbaude
+# <a name="check-the-availability-of-stock"></a>Krājumu pieejamības pārbaude
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā pārbaudīt rīcībā esošos un fiziski rīcībā esošos krājumus noteiktam krājuma kodam. Aprakstīts arī tas, kā iegūt piegādes informāciju, kas saistīta ar krājumu. Fiziskie rīcībā esošie krājumi ir rīcībā esoši krājumi, kas ir pieejami, tas ir, tie ir nopirkti, saņemti un reģistrēti. Rīcībā esošie krājumi ietver pieejamos rīcībā esošos krājumus, kā arī krājumus, kas ir pasūtīti un tiek gaidīti, bet vēl nav saņemti vai nav reģistrēti. Šo procedūru var izmēģināt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus. Ja izmantojat USMF varat izmantot piemēra vērtības, kas parādītas. Šos uzdevumus parasti veic noliktavas darbinieks.
 
 
-## Krājuma rīcībā esošo krājumu pārbaude
+## <a name="check-on-hand-inventory-for-an-item"></a>Krājuma rīcībā esošo krājumu pārbaude
 1. Dodieties uz Krājumu vadība > Uzziņas un atskaites > Rīcībā esošie krājumi.
 2. Izvēlieties krājuma koda rindu.
     * Lai izpildītu vaicājumu rīcībā esošiem krājumiem pēc krājuma koda, atlasiet rindu, kur tabulai ir iestatīti rīcībā esošie krājumi un laukā ir iestatīts krājuma kods.  
@@ -49,7 +49,7 @@ ms.lasthandoff: 09/29/2017
 11. Aizvērt lapu.
 12. Aizvērt lapu.
 
-## Fizisko rīcībā esošo krājumu pārbaude
+## <a name="check-physical-on-hand-inventory"></a>Fizisko rīcībā esošo krājumu pārbaude
 1. Dodieties uz Noliktavas vadība > Uzziņas un atskaites > Fiziski rīcībā esošie krājumi.
 2. Laukā Krājuma kods ierakstiet kādu vērtību.
     * Laukus Vieta un Noliktava var izmantot krājumu sarakstu filtrēšanai.  
@@ -59,7 +59,7 @@ ms.lasthandoff: 09/29/2017
 5. Noklikšķiniet uz OK.
 6. Aizvērt lapu.
 
-## Rīcībā esošo krājumu pārbaude pēc atrašanās vietas
+## <a name="check-on-hand-inventory-by-location"></a>Rīcībā esošo krājumu pārbaude pēc atrašanās vietas
 1. Dodieties uz Noliktavas vadība > Uzziņas un atskaites > Rīcībā esošie krājumi pēc novietojuma.
 2. Laukā Noliktava ierakstiet kādu vērtību.
     * Ja jūs izmantojat USMF demonstrācijas datus uzņēmuma, varat izmantot '51'.  

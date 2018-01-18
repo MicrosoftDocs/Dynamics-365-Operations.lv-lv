@@ -8,18 +8,19 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations. Core
+ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 536ebae3ec44954aba314a966c9b0d2dabef45d1
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 694a8bfd4601b48a80872662fa7a16bf15d6e65c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -61,13 +62,6 @@ Satura pakotnē **CustCollectionsBICrossCompany** ir ietverts pārskats, kas sas
 | Atgādinājuma vēstules         | <ul><li>Atgādinājuma koda summas</li><li>Detalizēta informācija iekasēšanas koda summu</li><li>Atgādinājuma vēstules summa pēc uzņēmuma</li><li>Atgādinājuma vēstules summa pēc debitoru grupas</li><li>Atgādinājuma vēstules summa pēc reģiona</li></ul> |
 
 Diagrammas un elementus attiecībā uz visiem šiem pārskatiem var filtrēt un piespraust pie informācijas paneļa. Plašāku informāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet sadaļā [Informācijas paneļa izveide un konfigurēšana](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Varat arī izmantot pamata datu eksportēšanas funkciju, lai eksportētu vizualizācijā apkopotos pamata datus.
-
-## <a name="extending-the-power-bi-content"></a>Power BI satura paplašināšana
-Izmantojot pakalpojumā Microsoft Dynamics Lifecycle Services (LCS) pieejamās satura pakotnes, varat nodrošināt lielisku analīzes funkcionalitāti personām, kuras nepierakstās programmatūrā Dynamics 365 for Finance and Operations. Varat izmainīt šīs satura pakotnes, tajās ietverot citus pārskatus vai vizualizācijas, un pēc tam publicēt tās savā Power BI.com nomniekā analīzes veikšanai.
-
-Power BI satura pakotne **Kredītu un iekasēšanas pārvaldība** ir pieejama LCS koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt satura pakotni un ieviest to savā organizācijā, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](../../dev-itpro/analytics/power-bi-content-microsoft-partners.md). Power BI satura pakotnes implementēšanas demonstrāciju skatiet tēmā [Power BI saturs pakalpojumā Dynamics Lifecycle Services no Microsoft un jūsu partneriem](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
-
-Noteikti lejupielādējiet Power BI satura pakotni **Kredītu un iekasēšanas pārvaldība**, kas ir paredzēta jūsu Dynamics 365 for Finance and Operations versijai.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
 

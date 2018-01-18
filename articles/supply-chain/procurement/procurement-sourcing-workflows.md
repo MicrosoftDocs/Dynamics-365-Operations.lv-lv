@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3bf244786e308ebcaee27a16fae378f41086f963
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: ce9bc42751cf0f537a0ddb5069aca7c9779a6bb1
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -38,16 +38,17 @@ Darbplūsma attēlo biznesa procesu. Izmantojot darbplūsmu, tiek noteikta dokum
 -   **Procesa pārskatāmība** — varat sekot līdzi noteiktas darbplūsmas instances statusa, vēsturiskajiem un veiktspējas rādītājiem. Tādējādi varat noteikt, vai ir jāveic darbplūsmas izmaiņas, lai uzlabotu efektivitāti.
 -   **Centralizēts darbu saraksts** — lietotāji var skatīt centralizētu darbu sarakstu, lai skatītu darbplūsmas uzdevumus un apstiprinājumus, kas viņiem ir piešķirti visās darbplūsmās, kurās viņi piedalās. Šī funkcija ir pieejama lapā Darba vienumi.
 
-## <a name="the-types-of-workflows-that-you-can-create"></a> Izveidojamo darbplūsmu veidi
+## <a name="the-types-of-workflows-that-you-can-create"></a>Izveidojamo darbplūsmu veidi
 Sagādei un avotiem ir pieejami šādi darbplūsmu veidi.
 
 |                                  |                                                               |
 |----------------------------------|---------------------------------------------------------------|
 | **Tips**                         | **Šī tipa lietošanas nolūks**                                          |
-| Pirkšanas pieprasījuma pārskats      | Izveidojiet pārskatīšanas darbplūsmas pirkšanas pieprasījumiem.            |
-| Pirkšanas pieprasījuma rindas pārskats | Izveidojiet pārskatīšanas darbplūsmas pirkšanas rindas pieprasījumiem.       |
+| Pirkšanas pieprasījuma pārskats      | Izveidot pārskatīšanas un apstiprināšanas darbplūsmas pirkšanas pieprasījumiem.            |
+| Pirkšanas pieprasījuma rindas pārskats | Izveidot pārskatīšanas un apstiprināšanas darbplūsmas pirkšanas pieprasījumu rindām.       |
 | Pirkšanas pasūtījuma darbplūsma          | Izveidojiet pārskatīšanas un apstiprināšanas darbplūsmas pirkšanas pasūtījumiem.     |
 | Pirkšanas pasūtījuma rindas darbplūsma     | Izveidojiet pārskatīšanas un apstiprināšanas darbplūsmas pirkšanas rindas pasūtījumiem. |
+| Kreditoru pievienošanas pieteikumu darbplūsma  | Izveidot pārskatīšanas un apstiprināšanas darbplūsmas jaunu piegādātāju pievienošanai, izmantojot piegādātāju pieprasījumus. |
 
 ## <a name="creating-a-workflow"></a>Darbplūsmas izveide
 Lai izveidotu darbplūsmu, pārejiet uz sadaļu Sagāde un avoti &gt; Iestatījumi &gt; Sagādes un avotu darbplūsmas un izveidojiet jaunu darbplūsmu, atlasot izveidojamās darbplūsmas veidu.  
@@ -75,6 +76,6 @@ Apstiprināšanas darbību varat piešķirt šādām dalībnieku grupām.
 
 [Pirkšanas pieprasījuma darbplūsma](purchase-requisitions-workflow.md)
 
-
+[Kreditoru pievienošana](vendor-onboarding.md)
 
 

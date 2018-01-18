@@ -3,11 +3,12 @@ title: "Bankas izraksta faila importēšanas problēmu novēršana"
 description: "Ir svarīgi, lai no bankas saņemtais bankas izraksta fails atbilstu programmatūrā Microsoft Dynamics 365 for Finance and Operations, izdevumā Enterprise atbalstītajam izkārtojumam. Stingro bankas izrakstu standartu dēļ lielākā daļa integrāciju darbosies pareizi. Tomēr dažreiz izraksta failu nevar importēt vai ir nepareizi rezultāti. Parasti šīs problēmas izraisa nelielas atšķirības bankas izraksta failā. Šajā rakstā ir paskaidrots, kā novērst šīs atšķirības un atrisināt problēmas."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BankStatementFormat
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

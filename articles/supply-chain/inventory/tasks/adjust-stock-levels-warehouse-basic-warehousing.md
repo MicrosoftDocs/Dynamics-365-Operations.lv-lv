@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -23,14 +23,14 @@ ms.contentlocale: lv-lv
 ms.lasthandoff: 09/29/2017
 
 ---
-# Krājumu līmeņu korekcija noliktavā (pamata noliktava)
+# <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a>Krājumu līmeņu korekcija noliktavā (pamata noliktava)
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts krājumu korekcijas žurnāla izveides un grāmatošanas process, lai koriģētu noteiktu preču krājumu līmeņus noliktavā. Pirms procesa sākšanas ir jābūt izveidotam krājumu žurnāla nosaukumam krājumu korekcijām. Šo procedūru var izmēģināt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus. Šos uzdevumus parasti veic noliktavas darbinieks.
 
 
-## Krājumu korekcijas žurnāla izveide
+## <a name="create-an-inventory-adjustment-journal"></a>Krājumu korekcijas žurnāla izveide
 1. Dodieties uz Krājumu vadība > Žurnāla ieraksti > Krājumi > Krājumu korekcija.
 2. Noklikšķiniet uz Jauns.
 3. Laukā Nosaukums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
@@ -38,7 +38,7 @@ ms.lasthandoff: 09/29/2017
     * Daži citi lauki tiks aizpildīti, pamatojoties uz atlasītajiem krājumu korekcijas žurnāla nosaukuma iestatījumiem.  
 5. Noklikšķiniet uz OK.
 
-## Žurnāla rindu izveide
+## <a name="create-journal-lines"></a>Žurnāla rindu izveide
 1. Noklikšķiniet uz Jauns.
 2. Sarakstā atzīmējiet krājuma koda lauku.
 3. Laukā Krājuma kods atlasiet krājumu. Ja izmantojat demonstrācijas datu uzņēmumu USMF atlasiet "D0001".
@@ -50,7 +50,7 @@ ms.lasthandoff: 09/29/2017
 8. Laukā Daudzums ievadiet skaitli.
     * Izmaksu cenas laukā norādītas krājumu saņemšanas izmaksas uz vienību. Ja krājuma kodam izmaksa nav norādīta vai vēlaties to mainīt manuāli, tad tas ir jādara šeit.  
 
-## Krājumu korekcijas žurnāla apstiprināšana un grāmatošana
+## <a name="validate-and-post-the-inventory-adjustment-journal"></a>Krājumu korekcijas žurnāla apstiprināšana un grāmatošana
 1. Noklikšķiniet uz Pārbaudīt.
 2. Noklikšķiniet uz OK.
 3. Noklikšķiniet uz Grāmatot.

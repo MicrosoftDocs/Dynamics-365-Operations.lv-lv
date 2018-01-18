@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: SysHelpSetup
 audience: Application User, IT Pro
-ms.reviewer: robinr
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 25391
 ms.assetid: 59bf39f8-1464-441e-8b23-9a856c73471b
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b744a895bbd494212c4c388362dd7290207af938
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: ed3f8260cace494170bf1d4db80c3bcb9a1a086e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 Šajā tēmā ir paskaidrots, kas ir uzdevumu reģistrētājs un uzdevumu ceļveži, kā izveidot uzdevumu ierakstus un kā pielāgot Microsoft uzdevumu ceļvežus un iekļaut tos palīdzībā.
 
 > [!IMPORTANT]
-> Nevar izveidot pielāgotus uzdevumu ceļvežus programmatūrai Dynamics 365 for Talent. Talent palīdzības sistēmai tiek automātiski izveidots savienojums ar preces uzdevumu ceļvežiem. 
+> Varat ierakstīt savus uzdevumu ceļvežus programmatūrai Dynamics 365 for Talent, bet pašlaik tos nevar saglabāt Biznesa procesu modelētāja (BPM) bibliotēkā vai atvērt no palīdzības rūts. Varat tos saglabāt lokāli vai kaut kur tīklā, un pēc tam tos atvērt un vēlreiz atskaņot, izmantojot līdzekli Uzdevumu ierakstītājs. 
 
 <a name="learn-about-task-recorder"></a>Uzdevumu ierakstītāja iepazīšana
 -------------------------
@@ -42,7 +42,7 @@ Uzdevuma reģistrētājs ir rīks, ko varat lietot, lai reģistrētu darbības, 
 
 -   **Uzdevumu ierakstus var atskaņot kā uzdevumu ceļvežus.** Uzdevumu ceļveži ir neatņemama palīdzības funkcionalitātes sastāvdaļa. Uzdevuma ceļvedis ir kontrolēts, strukturēts, interaktīvs līdzeklis, kas palīdz veikt biznesa procesa darbības. Lietotājs tiek instruēts izpildīt katru darbību, izmantojot uznirstošas uzvednes (jeb “burbuļus”), kas kā animācija tiek parādītas lietotāja interfeisā un norāda uz UI elementiem, ar kuriem lietotājam ir nepieciešams mijiedarboties. “Burbulis” arī sniedz informāciju par to, kā mijiedarboties ar attiecīgo elementu, piemēram, “Noklikšķiniet šeit” vai “Ievadiet vērtību šajā laukā”. Uzdevuma ceļvedis darbojas ar lietotāja pašreizējo datu kopu, un ievadītie dati tiek saglabāti lietotāja vidē.
 -   **Uzdevumu ierakstus var rādīt kā procedurālas darbības palīdzības rūtī.** Lai meklētu un parādītu uzdevumu ierakstus, varat izmantot palīdzības rūti. Jūs varat piekļūt palīdzības rūtij, noklikšķinot uz **?** ikonas augšējā navigācijas joslā, vai arī varat izmantot īsinājumtaustiņu kombināciju **Ctrl+Shift+?**. Palīdzības rūtī varat lasīt uzdevumu ieraksta darbības, vai varat izvēlēties ierakstu atskaņot kā uzdevuma ceļvedi, lai tas jūs vadītu pa UI.
--   **Uzdevumu ierakstus var saglabāt uz BPM.** Savu uzdevuma ierakstu varat saglabāt kādā Biznesa procesu modelētāja (BPM) bibliotēkas hierarhijas rindā pakalpojumos Lifecycle Services (LCS). No ieraksta tiks ģenerēts darbību saraksts un biznesa procesu plūsmas diagramma. Uzdevumu ierakstus, kas ir saglabāti BPM bibliotēkā, var rādīt kā palīdzības saturu.
+-   **Uzdevumu ierakstus var saglabāt uz BPM.** Savu uzdevuma ierakstu varat saglabāt kādā (BPM) bibliotēkas hierarhijas rindā pakalpojumā Lifecycle Services (LCS). No ieraksta tiks ģenerēts darbību saraksts un biznesa procesu plūsmas diagramma. Uzdevumu ierakstus, kas ir saglabāti BPM bibliotēkā, var rādīt kā palīdzības saturu.
 -   **Uzdevumu ierakstus var saglabāt kā Word dokumentus.** Tādējādi varat ērti veidot drukājamus apmācību ceļvežus.
 
 Varat izveidot pats savus uzdevumu ierakstus, atskaņot Microsoft nodrošinātos uzdevumu ierakstus vai modificēt Microsoft nodrošinātos uzdevumu ierakstus, lai atspoguļotu jūsu konfigurāciju. Plašāku informāciju par uzdevuma reģistrētāju skatiet rakstā [Uzdevuma reģistrētājs](task-recorder.md).

@@ -18,10 +18,10 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: dd66ced17dbb63280a30ea9154e5176321da94ee
+ms.sourcegitcommit: 7ce3c0397986ba2281aae7b71d579f3fe5f488ae
+ms.openlocfilehash: 415e23190c6d7d12e824a42dec3916a4c3f5bc92
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/21/2017
 
 ---
 
@@ -57,8 +57,9 @@ Lai ģenerētu PVN pārskatu, ir jāiestata tālāk aprakstītie priekšnoteikum
 
 ### <a name="sales-tax-authorities-for-vat-reporting"></a>PVN iestādes PVN pārskatiem
 
-<!---For general information about setting up a sales tax authority, see [Set up sales tax authorities](general-ledger/tasks/set-up-sales-tax-authorities). -->
 Lai varētu iestatīt PVN pārskatu kodus, ir jāatlasa attiecīgajai PVN iestādei atbilstošais pārskata izkārtojums. Lapā **PVN iestādes**, sadaļā **Vispārīgi** atlasiet vienumu **Pārskata izkārtojums**. Šis izkārtojums tiek izmantots, kad iestatāt PVN pārskatu kodus.
+
+<!---For general information about setting up a sales tax authority, see [Set up sales tax authorities](../general-ledger/tasks/set-up-sales-tax-authorities.md). -->
 
 ### <a name="sales-tax-reporting-codes"></a>PVN pārskatu kodi
 

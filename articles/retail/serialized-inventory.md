@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-ax-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
@@ -17,10 +17,10 @@ ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9eb962e903ac9ee359134cae35ebd399e23cc4e1
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: 83c2ce79f5bef058f55af0ecf498b207efc0507a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -41,4 +41,5 @@ Pamatojoties uz iestatījumiem programmā Retail Headquarters, preces var klasif
     
 - **Klientu pasūtījumu veikšanai sērijas numuri nav nepieciešami** — klientu pasūtījumus var veikt vienā veikalā un izpildīt no cita veikala. Kasierim, kurš veic klienta pasūtījumu, sērijas numurs nav jānorāda. Sērijas numurs tiks norādīts izdošanas vai savākšanas darbības laikā. Taču sērijas numurs ir jānorāda visiem rindu krājumiem, kuriem ir atlasīts piegādes tips **Iznest**. Pretējā gadījumā transakciju nevar pabeigt.    
 - **Serializētās preces transakcijas ekrānā nav apkopotas** — lapas **Funkcionalitātes profils** lauku grupas **Terminālis** iestatījums **Apkopot preces** jums ļauj transakcijas ekrānā apkopot vienādās neserializētās preces. Ja vienādās preces tiek apkopotas, transakciju režģī tās ir vienkāršāk redzamas. Taču, tā kā sērijas numuri parasti ir unikāli un pārdevējiem sērijas numuri ir jāievada tikai tad, kad notiek norēķināšanās, iestatījums **Apkopot preces** neattiecas uz serizalizētajām precēm. Tāpēc, ja ir atlasīts iestatījums **Apkopot preces**, serializētās preces transakcijas ekrānā netiks apkopotas.
+- **Spēja meklēt žurnālus pēc sērijas numura** — tagad žurnālus var papildus meklēt pēc sērijas numuriem. Lai to izdarītu, atveriet operāciju “Žurnāli” un programmas joslā nospiediet pogu “Detalizētā meklēšana”. Izmantojot pogu “Pievienot filtru”, filtru var lietot arī sērijas numuru meklēšanai.
 

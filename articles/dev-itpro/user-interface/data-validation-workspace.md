@@ -3,11 +3,12 @@ title: "Datu pārbaudes darbvieta"
 description: "Darbvieta Datu validēšanas kontrolsaraksts sniedz iespēju sekot datu validēšanas procesam vairākos uzņēmumos un jomās un saistībā ar vairākām personām. Kontrolsarakstu var izmantot jaunas implementēšanas laikā, pēc jaunināšanas vai pēc migrācijas."
 author: bking
 manager: AnnBe
-ms.date: 05/11/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: DataValidationWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

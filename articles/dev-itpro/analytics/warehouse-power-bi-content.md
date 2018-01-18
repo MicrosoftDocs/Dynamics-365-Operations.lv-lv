@@ -3,11 +3,12 @@ title: "Power BI saturs Noliktavas veiktspēja"
 description: "Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI saturā Noliktavas veiktspēja. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem."
 author: Mirzaab
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: WHSWarehousePerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -15,13 +16,13 @@ ms.custom: 272953
 ms.assetid: 4e4d4323-78cf-4ffa-8d5a-05e856c33db6
 ms.search.region: Global
 ms.author: mirzaab
-ms.dyn365.ops.intro: Version 1611
+ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: ea53e2bcd01cd06ccdd836ead1671b54aa9e9750
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: e5a900000286b5f076c377f7b1a9a260cc40621a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -76,15 +77,6 @@ Power BI saturs **Noliktavas veiktspēja** ietver pārskatu. Šis pārskats sas
 | Nosūtīšanas veiktspēja        | Nosūtīts pēc preces                       | Pirms norunātā laika, laikā vai pēc norunātā laika nosūtītais procentuālais daudzums pēc krājuma vai krājumu grupas.                                                                                                                                                                                                                                                                                                                                   |
 | Nosūtīšanas veiktspēja        | Nosūtīts pēc debitora                      | Pirms norunātā laika, laikā vai pēc norunātā laika nosūtītais procentuālais daudzums pēc debitora vai debitoru grupas.                                                                                                                                                                                                                                                                                                                           |
 | Nosūtīšanas veiktspēja        | Nosūtīts pēc vietas/noliktavas              | Pirms norunātā laika, laikā vai pēc norunātā laika nosūtītais procentuālais daudzums pēc vietas vai noliktavas.                                                                                                                                                                                                                                                                                                                                    |
-## <a name="extending-the-power-bi-content"></a>Power BI satura paplašināšana
-Izmantojot pakalpojumā Microsoft Dynamics Lifecycle Services (LCS) pieejamās satura pakotnes, varat nodrošināt lielisku analīzes funkcionalitāti personām, kuras nepierakstās programmatūrā Microsoft Dynamics 365. Varat izmainīt šīs satura pakotnes, tajās ietverot citus pārskatus vai vizualizācijas, un pēc tam publicēt tās savā Power BI.com nomniekā analīzes veikšanai. 
-
-Power BI saturs **Noliktavas veiktspēja** ir pieejams LCS koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt satura pakotni un ieviest to savā organizācijā, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](power-bi-content-microsoft-partners.md). Power BI satura pakotnes implementēšanas demonstrāciju skatiet tēmā [Power BI saturs pakalpojumā Dynamics Lifecycle Services no Microsoft un jūsu partneriem](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
-
-Noteikti lejupielādējiet saturu **Noliktavas veiktspēja**, kas attiecas uz izmantoto Dynamics 365 versiju.
-
-> [!NOTE]
-> Ja izmantojat Microsoft Dynamics 365 for Operations versiju 1611, šī Power BI satura izmantošanas priekšnosacījums ir KB 4011327. Ja esat pierakstījies LCS, tad KB varat piekļūt šeit: https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="understanding-the-data-model-and-calculations"></a>Datu modeļa un aprēķinu izprašana
 Power BI satura **Noliktavas veiktspēja** pārskatu lapu aizpildīšanai tiek lietoti tālāk minētie dati. Šie dati tiek attēloti kā apkopoti mērījumi, kas tiek sagatavoti elementu krātuvē. Elementu krātuve ir analīzei optimizēta Microsoft SQL Server datu bāze. Papildinformāciju skatiet tēmā [Apskats par Power BI integrāciju elementu krātuvē](power-bi-integration-entity-store.md). 
