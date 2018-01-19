@@ -10,7 +10,8 @@ ms.service: dynamics-365-retail
 ms.technology: 
 ms.search.form: RetailTillLayout
 audience: Application user
-ms.search.scope: Operations, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
@@ -19,10 +20,10 @@ ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 61a1eeba0e44a2600157f2e5c3f2de042c786d91
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 747c0cfa36e1220342307ae665e69e02eabd3cce
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -96,13 +97,13 @@ ms.lasthandoff: 01/17/2018
 
 | <span data-ttu-id="a6513-173">Izkārtojuma veids</span><span class="sxs-lookup"><span data-stu-id="a6513-173">Layout type</span></span> | <span data-ttu-id="a6513-174">Novēršana</span><span class="sxs-lookup"><span data-stu-id="a6513-174">Resolution</span></span> | <span data-ttu-id="a6513-175">Proporcijas</span><span class="sxs-lookup"><span data-stu-id="a6513-175">Aspect ratio</span></span> | <span data-ttu-id="a6513-176">Mērķa displejs</span><span class="sxs-lookup"><span data-stu-id="a6513-176">Target display</span></span>          |
 |-------------|------------|--------------|-------------------------|
-| <span data-ttu-id="a6513-177">Sablīvēt\\*</span><span class="sxs-lookup"><span data-stu-id="a6513-177">Compact\\*</span></span>   | <span data-ttu-id="a6513-178">480 × 853</span><span class="sxs-lookup"><span data-stu-id="a6513-178">480 × 853</span></span>  | <span data-ttu-id="a6513-179">16:9</span><span class="sxs-lookup"><span data-stu-id="a6513-179">16:9</span></span>         | <span data-ttu-id="a6513-180">Tālruņi</span><span class="sxs-lookup"><span data-stu-id="a6513-180">Phones</span></span>                  |
+| <span data-ttu-id="a6513-177">Sablīvēt\*</span><span class="sxs-lookup"><span data-stu-id="a6513-177">Compact\*</span></span>   | <span data-ttu-id="a6513-178">480 × 853</span><span class="sxs-lookup"><span data-stu-id="a6513-178">480 × 853</span></span>  | <span data-ttu-id="a6513-179">16:9</span><span class="sxs-lookup"><span data-stu-id="a6513-179">16:9</span></span>         | <span data-ttu-id="a6513-180">Tālruņi</span><span class="sxs-lookup"><span data-stu-id="a6513-180">Phones</span></span>                  |
 | <span data-ttu-id="a6513-181">Pilns</span><span class="sxs-lookup"><span data-stu-id="a6513-181">Full</span></span>        | <span data-ttu-id="a6513-182">1024 × 768</span><span class="sxs-lookup"><span data-stu-id="a6513-182">1024 × 768</span></span> | <span data-ttu-id="a6513-183">4:3</span><span class="sxs-lookup"><span data-stu-id="a6513-183">4:3</span></span>          | <span data-ttu-id="a6513-184">Planšetdatori</span><span class="sxs-lookup"><span data-stu-id="a6513-184">Tablets</span></span>                 |
-| <span data-ttu-id="a6513-185">Pilns\\*</span><span class="sxs-lookup"><span data-stu-id="a6513-185">Full\\*</span></span>      | <span data-ttu-id="a6513-186">1280 × 720</span><span class="sxs-lookup"><span data-stu-id="a6513-186">1280 × 720</span></span> | <span data-ttu-id="a6513-187">16:9</span><span class="sxs-lookup"><span data-stu-id="a6513-187">16:9</span></span>         | <span data-ttu-id="a6513-188">Planšetdatori</span><span class="sxs-lookup"><span data-stu-id="a6513-188">Tablets</span></span>                 |
+| <span data-ttu-id="a6513-185">Pilns\*</span><span class="sxs-lookup"><span data-stu-id="a6513-185">Full\*</span></span>      | <span data-ttu-id="a6513-186">1280 × 720</span><span class="sxs-lookup"><span data-stu-id="a6513-186">1280 × 720</span></span> | <span data-ttu-id="a6513-187">16:9</span><span class="sxs-lookup"><span data-stu-id="a6513-187">16:9</span></span>         | <span data-ttu-id="a6513-188">Planšetdatori</span><span class="sxs-lookup"><span data-stu-id="a6513-188">Tablets</span></span>                 |
 | <span data-ttu-id="a6513-189">Pilns</span><span class="sxs-lookup"><span data-stu-id="a6513-189">Full</span></span>        | <span data-ttu-id="a6513-190">1366 × 768</span><span class="sxs-lookup"><span data-stu-id="a6513-190">1366 × 768</span></span> | <span data-ttu-id="a6513-191">16:9</span><span class="sxs-lookup"><span data-stu-id="a6513-191">16:9</span></span>         | <span data-ttu-id="a6513-192">Planšetdatori ar lieliem ekrāniem</span><span class="sxs-lookup"><span data-stu-id="a6513-192">Tablets, larger screens</span></span> |
 | <span data-ttu-id="a6513-193">Pilns</span><span class="sxs-lookup"><span data-stu-id="a6513-193">Full</span></span>        | <span data-ttu-id="a6513-194">1440 × 960</span><span class="sxs-lookup"><span data-stu-id="a6513-194">1440 × 960</span></span> | <span data-ttu-id="a6513-195">3:2</span><span class="sxs-lookup"><span data-stu-id="a6513-195">3:2</span></span>          | <span data-ttu-id="a6513-196">Planšetdatori ar lieliem ekrāniem</span><span class="sxs-lookup"><span data-stu-id="a6513-196">Tablets, larger screens</span></span> |
 
-<span data-ttu-id="a6513-197">\\* Šie papildu izkārtojumu lielumi ir pieejami tikai Adventure Works un Fabrikam izkārtojumiem.</span><span class="sxs-lookup"><span data-stu-id="a6513-197">\\* These additional layout sizes are available only in Adventure Works and Fabrikam layouts.</span></span>
+<span data-ttu-id="a6513-197">\* Šie papildu izkārtojumu lielumi ir pieejami tikai Adventure Works un Fabrikam izkārtojumiem.</span><span class="sxs-lookup"><span data-stu-id="a6513-197">\* These additional layout sizes are available only in Adventure Works and Fabrikam layouts.</span></span>
 
 
 >[!TIP]

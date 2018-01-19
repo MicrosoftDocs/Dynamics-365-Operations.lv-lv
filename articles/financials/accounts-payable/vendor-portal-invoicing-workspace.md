@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ff1818d927f7ab9212c4d5d9109c426be5e0e152
-ms.openlocfilehash: 0d11e4fecc4c42636be63c1ce622f0b2f8e58f2c
+ms.sourcegitcommit: 17a7d9c40d07524378a671397fed566b9bd3af6b
+ms.openlocfilehash: af284d31714df7fe87d49b311c951f9df818fa22
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -47,10 +48,12 @@ ms.lasthandoff: 11/29/2017
 -   <span data-ttu-id="36794-113">Apmaksātie rēķini ir rēķini, kas ir pilnībā apmaksāti programmatūrā Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="36794-113">Paid invoices are those that have been fully paid in Finance and Operations.</span></span>
 
 <span data-ttu-id="36794-114">Noklikšķinot uz elementa tiks atvērts lapas **Rēķinu saraksts** filtrētais skatījums.</span><span class="sxs-lookup"><span data-stu-id="36794-114">Clicking on a tile will open a filtered view of the **Invoices list** page.</span></span>
+
 ### <a name="tabular-lists"></a><span data-ttu-id="36794-115">Tabulveida saraksti</span><span class="sxs-lookup"><span data-stu-id="36794-115">Tabular lists</span></span>
 
 <span data-ttu-id="36794-116">Sadaļā **Tabulveida saraksti** rēķinu izrakstīšanas stāvoklis tiek sadalīts līdzīgi kā kopsavilkuma elementi: Melnraksti un Iesniegti, neapstiprināti saraksti.</span><span class="sxs-lookup"><span data-stu-id="36794-116">In the **Tabular lists** section, the status of the invoicing is broken down in similar ways as the summary tiles: Draft and Submitted, not approved lists.</span></span> <span data-ttu-id="36794-117">Esot stāvoklī Melnraksts, rēķinu nevar iesniegt darbplūsmai vai dzēst.</span><span class="sxs-lookup"><span data-stu-id="36794-117">While in the Draft state, an invoice can be submitted to workflow or deleted.</span></span> <span data-ttu-id="36794-118">Rēķinu meklēšanai var izmantot pēdējo tabulveida sarakstu.</span><span class="sxs-lookup"><span data-stu-id="36794-118">The last tabular list is an option to find invoices.</span></span> <span data-ttu-id="36794-119">Lai ātrāk iegūtu rezultātus, varat iestatīt dažādus filtrus.</span><span class="sxs-lookup"><span data-stu-id="36794-119">You can filter as you search, to allow for faster searches.</span></span>
-<span data-ttu-id="36794-120">Visu kreditora rēķinu saraksta lapa</span><span class="sxs-lookup"><span data-stu-id="36794-120">All vendor invoices list page</span></span>
+
+<a name="all-vendor-invoices-list-page"></a><span data-ttu-id="36794-120">Visu kreditora rēķinu saraksta lapa</span><span class="sxs-lookup"><span data-stu-id="36794-120">All vendor invoices list page</span></span>
 -----------------------------
 
 <span data-ttu-id="36794-121">Visus grāmatotos un negrāmatotos kreditora rēķinus varat skatīt saraksta lapā **Kreditora sadarbības rēķini**.</span><span class="sxs-lookup"><span data-stu-id="36794-121">You can view all posted and unposted vendor invoices on the **Vendor collaboration invoices** list page.</span></span> <span data-ttu-id="36794-122">Šo saraksta lapu varat izmantot, lai skatītu rēķinu maksājuma statusu.</span><span class="sxs-lookup"><span data-stu-id="36794-122">You can use this list page to view the payment status of the invoices.</span></span> <span data-ttu-id="36794-123">Maksājumu statusi ir Negrāmatots, Neapmaksāts, Daļēji apmaksāts un Pilnībā apmaksāts.</span><span class="sxs-lookup"><span data-stu-id="36794-123">The payment statuses include Unposted, Unpaid, Partially paid, and Fully paid.</span></span>

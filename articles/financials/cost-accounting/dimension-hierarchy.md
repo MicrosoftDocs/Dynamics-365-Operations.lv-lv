@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: d55e9a520b1f895d130f24834626429e19b4b939
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: ee931a46524a8f0f79f53b8371765118caf5f1f8
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -255,10 +255,10 @@ ms.lasthandoff: 01/17/2018
 |---------------------------------------|--------------------------------------|------------------|--------------|------------|----------|
 | <span data-ttu-id="b2d9d-340">Fiksētas izmaksas</span><span class="sxs-lookup"><span data-stu-id="b2d9d-340">Fixed cost</span></span>                            | <span data-ttu-id="b2d9d-341">Organizācija</span><span class="sxs-lookup"><span data-stu-id="b2d9d-341">Organization</span></span>                         | <span data-ttu-id="b2d9d-342">100,00</span><span class="sxs-lookup"><span data-stu-id="b2d9d-342">100.00</span></span>           | <span data-ttu-id="b2d9d-343">0,00</span><span class="sxs-lookup"><span data-stu-id="b2d9d-343">0.00</span></span>         | <span data-ttu-id="b2d9d-344">01.01.2017.</span><span class="sxs-lookup"><span data-stu-id="b2d9d-344">1/1/2017</span></span>   | <span data-ttu-id="b2d9d-345">Nekad</span><span class="sxs-lookup"><span data-stu-id="b2d9d-345">Never</span></span>    |
 | <span data-ttu-id="b2d9d-346">10001</span><span class="sxs-lookup"><span data-stu-id="b2d9d-346">10001</span></span>                                 | <span data-ttu-id="b2d9d-347">Organizācija</span><span class="sxs-lookup"><span data-stu-id="b2d9d-347">Organization</span></span>                         | <span data-ttu-id="b2d9d-348">0,00</span><span class="sxs-lookup"><span data-stu-id="b2d9d-348">0.00</span></span>             | <span data-ttu-id="b2d9d-349">150,00</span><span class="sxs-lookup"><span data-stu-id="b2d9d-349">150.00</span></span>       | <span data-ttu-id="b2d9d-350">01.01.2017.</span><span class="sxs-lookup"><span data-stu-id="b2d9d-350">1/1/2017</span></span>   | <span data-ttu-id="b2d9d-351">Nekad</span><span class="sxs-lookup"><span data-stu-id="b2d9d-351">Never</span></span>    |
-| <span data-ttu-id="b2d9d-352">10001 (\\*)</span><span class="sxs-lookup"><span data-stu-id="b2d9d-352">10001 (\\*)</span></span>                             | <span data-ttu-id="b2d9d-353">Finansēt</span><span class="sxs-lookup"><span data-stu-id="b2d9d-353">Finance</span></span>                              |                  | <span data-ttu-id="b2d9d-354">50,00</span><span class="sxs-lookup"><span data-stu-id="b2d9d-354">50.00</span></span>        | <span data-ttu-id="b2d9d-355">01.01.2017.</span><span class="sxs-lookup"><span data-stu-id="b2d9d-355">1/1/2017</span></span>   | <span data-ttu-id="b2d9d-356">Nekad</span><span class="sxs-lookup"><span data-stu-id="b2d9d-356">Never</span></span>    |
+| <span data-ttu-id="b2d9d-352">10001 (\*)</span><span class="sxs-lookup"><span data-stu-id="b2d9d-352">10001 (\*)</span></span>                             | <span data-ttu-id="b2d9d-353">Finansēt</span><span class="sxs-lookup"><span data-stu-id="b2d9d-353">Finance</span></span>                              |                  | <span data-ttu-id="b2d9d-354">50,00</span><span class="sxs-lookup"><span data-stu-id="b2d9d-354">50.00</span></span>        | <span data-ttu-id="b2d9d-355">01.01.2017.</span><span class="sxs-lookup"><span data-stu-id="b2d9d-355">1/1/2017</span></span>   | <span data-ttu-id="b2d9d-356">Nekad</span><span class="sxs-lookup"><span data-stu-id="b2d9d-356">Never</span></span>    |
 | <span data-ttu-id="b2d9d-357">Izmaksu izturēšanās vai Mainīgās izmaksas (\*\*)</span><span class="sxs-lookup"><span data-stu-id="b2d9d-357">Cost behavior or Variable cost (\*\*)</span></span>   | <span data-ttu-id="b2d9d-358">Organizācija</span><span class="sxs-lookup"><span data-stu-id="b2d9d-358">Organization</span></span>                         | <span data-ttu-id="b2d9d-359">0,00</span><span class="sxs-lookup"><span data-stu-id="b2d9d-359">0.00</span></span>             | <span data-ttu-id="b2d9d-360">0,00</span><span class="sxs-lookup"><span data-stu-id="b2d9d-360">0.00</span></span>         | <span data-ttu-id="b2d9d-361">01.01.2017.</span><span class="sxs-lookup"><span data-stu-id="b2d9d-361">1/1/2017</span></span>   | <span data-ttu-id="b2d9d-362">Nekad</span><span class="sxs-lookup"><span data-stu-id="b2d9d-362">Never</span></span>    |
 
-<span data-ttu-id="b2d9d-363">\\* Mainīgo izmaksu mezgls nav nepieciešams.</span><span class="sxs-lookup"><span data-stu-id="b2d9d-363">\\* The variable cost node isn't required.</span></span> <span data-ttu-id="b2d9d-364">Ja izmaksas nav klasificētas kā fiksētas izmaksas, tām ir jābūt mainīgajām izmaksām.</span><span class="sxs-lookup"><span data-stu-id="b2d9d-364">If a cost isn't classified as a fixed cost, it must be a variable cost.</span></span>
+<span data-ttu-id="b2d9d-363">\* Mainīgo izmaksu mezgls nav nepieciešams.</span><span class="sxs-lookup"><span data-stu-id="b2d9d-363">\* The variable cost node isn't required.</span></span> <span data-ttu-id="b2d9d-364">Ja izmaksas nav klasificētas kā fiksētas izmaksas, tām ir jābūt mainīgajām izmaksām.</span><span class="sxs-lookup"><span data-stu-id="b2d9d-364">If a cost isn't classified as a fixed cost, it must be a variable cost.</span></span>
 
 <span data-ttu-id="b2d9d-365">\*\* Tiek izveidota detalizēta kārtula, apvienojot izmaksu elementu 10001 un visus izmaksu objektu elementus, kas ir apkopoti hierarhijas līmenī Finanses (CC002, CC003, CC007).</span><span class="sxs-lookup"><span data-stu-id="b2d9d-365">\*\* A detailed rule is created for the combination of cost element member 10001 and all cost object members that are aggregated under the Finance hierarchy level (CC002, CC003, CC007).</span></span>
 
