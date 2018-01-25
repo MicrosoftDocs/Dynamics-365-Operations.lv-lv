@@ -43,7 +43,7 @@ Var sadalīt vai piešķirt naudas summas vienam vai vairākiem kontiem vai kont
 
 [![Biznesa process](./media/GL-process.PNG)](./media/GL-process.PNG)
 
-# <a name="sales-tax"></a>PVN
+## <a name="sales-tax"></a>PVN
 Katrs uzņēmums vāc un maksā nodokļus dažādām nodokļu iestādēm. Noteikumi un likmes ir atkarīgi no valsts/reģiona, novada, administratīvā apgabala un pilsētas.
 Turklāt kārtulas ir regulāri jāatjaunina, kad nodokļu iestādes maina savas prasības. Pārdošanas nodokļa kodi satur pamatinformāciju par to, cik daudz iekasējat un maksājat šīm iestādēm. Iestatot pārdošanas nodokļa kodus, jūs definējat summas vai procentus, kas ir jāiekasē. Varat arī definēt dažādas metodes, ar kurām šīs summas vai procenti tiek piešķirti transakciju summām. Šīs sadaļas tēmās ir sniegta informācija par to, kā iestatīt pārdošanas nodokļa kodus attiecībā uz metodēm un likmēm, ko pieprasa nodokļu iestādes.
 
@@ -52,13 +52,13 @@ Turklāt kārtulas ir regulāri jāatjaunina, kad nodokļu iestādes maina savas
  - [PVN maksājumi un noapaļošanas kārtulas](round-sales-tax-payments.md)
 
 
-### <a name="additional-resources"></a>Papildu resursi
+## <a name="additional-resources"></a>Papildu resursi
 
-#### <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā
+### <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā
 
 Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek izstrādāti, dodieties uz [Microsoft Dynamics 365 rīcības plānu](https://roadmap.dynamics.com/). 
 
-#### <a name="blogs"></a>Emuāri
+### <a name="blogs"></a>Emuāri
 
 Viedokļi, ziņas un cita informācija par moduli Kreditori un citiem risinājumiem ir pieejama [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
@@ -66,10 +66,10 @@ Daudzi raksti par virsgrāmatu ir publicēti [Microsoft Dynamics AX produktu da
 
 [Microsoft Dynamics Operations partneru kopienas emuārā](https://community.dynamics.com/partner/b/operationspartnercommunityblog) Microsoft Dynamics partneriem tiek sniegts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā MBS Operations.
 
-#### <a name="task-guides"></a>Uzdevumu ceļveži
+### <a name="task-guides"></a>Uzdevumu ceļveži
 Papildu palīdzībai programmā Finance and Operations ir pieejami uzdevumu ceļveži. Lai piekļūtu uzdevumu ceļvežiem, jebkurā lapā noklikšķiniet uz pogas Palīdzība.
 
-#### <a name="videos"></a>Videoklipi
+### <a name="videos"></a>Videoklipi
 
 Skatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 

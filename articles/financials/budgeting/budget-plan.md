@@ -53,10 +53,9 @@ Budžeta sagatavošanai Jūlija izmanto šādu Excel veidni:
 
 [![Excel veidne](./media/screenshot2-1024x352.png)](./media/screenshot2.png)
 
-<a name="exercise-1-configuration"></a>1. vingrinājums. Konfigurācija
-=========================
+## <a name="exercise-1-configuration"></a>1. vingrinājums. Konfigurācija
 
-## <a name="task-1-create-organizational-hierarchy"></a>**1. uzdevums. Organizācijas hierarhijas izveide**
+### <a name="task-1-create-organizational-hierarchy"></a>**1. uzdevums. Organizācijas hierarhijas izveide**
 Viss budžeta izstrādes process notiek finanšu daļā, tādēļ Jūlijai ir jāizveido ļoti vienkārša organizācijas hierarhija — kas sastāv tikai no finanšu daļas. 1.1. Pārejiet uz sadaļu Organizācijas hierarhijas (Organizācijas administrēšana &gt; Organizācijas &gt; Organizācijas hierarhijas) un noklikšķiniet uz pogas Jauns
 
 ![Organizācijas hierarhija](./media/screenshot3.png) 
@@ -85,7 +84,7 @@ Viss budžeta izstrādes process notiek finanšu daļā, tādēļ Jūlijai ir j�
 
 [![Spēkā stāšanās datums](./media/screenshot9.png)](./media/screenshot9.png)
 
-## <a name="task-2-configure-user-security"></a>2. uzdevums. Lietotāja drošības konfigurēšana
+### <a name="task-2-configure-user-security"></a>2. uzdevums. Lietotāja drošības konfigurēšana
 Budžeta plānošanas procesā izmanto īpašas drošības politikas, lai konfigurētu piekļuvi budžeta plāna datiem. Jūlijai sev ir jāpiešķir piekļuve finanšu budžeta plāniem. 
 
 2.1. Pārslēdzieties uz DEMF juridiskās personas kontekstu. 
@@ -109,7 +108,7 @@ Budžeta plānošanas procesā izmanto īpašas drošības politikas, lai konfig
 
 [![Piešķirt piekļuvi](./media/screenshot14.png)](./media/screenshot14.png)
 
-## <a name="task-3-create-scenarios"></a>3. uzdevums. Scenāriju izveide
+### <a name="task-3-create-scenarios"></a>3. uzdevums. Scenāriju izveide
 3.1. Pārejiet uz Budžeta veidošana&gt;Iestatīšana &gt; Budžeta plānošana &gt; Budžeta plānošanas konfigurācija. Lapā Scenāriji pārskatiet scenārijus, ko izmantosim tālāk šajā uzdevumā: Iepriekšējā gada faktiskās izmaksas un Budžeta. 
 
 *Piezīme. Ja nepieciešams, šajā uzdevumā var izveidot un izmantot jaunus scenārijus.* 
@@ -118,7 +117,7 @@ Budžeta plānošanas procesā izmanto īpašas drošības politikas, lai konfig
 
 *Piezīme. Jūlija neizmanto oficiālu apstiprināšanas procesu budžeta sagatavošanai, tādēļ šajā uzdevumā izlaidīsim iestatīšanas darbību vienumam Darbplūsmas, Stadijas un Darbplūsmas stadijas un izmantosim esošos iestatījumus vienumam Automātiski apstiprināt darbplūsmu. Informāciju par šīs darbplūsmas konfigurāciju skatiet pielikumā.*
 
-## <a name="task-4-create-budget-plan-columns"></a>4. uzdevums. Budžeta plāna kolonnu izveide
+### <a name="task-4-create-budget-plan-columns"></a>4. uzdevums. Budžeta plāna kolonnu izveide
 Budžeta plāna kolonnas ir atkarīgas no naudas vai daudzuma kolonnām, kuras var izmantot budžeta plāna dokumenta izkārtojumā. Mūsu piemērā ir jāizveido kolonna scenārijam Iepriekšējā gada faktiskās izmaksas un 12 kolonnas katram mēnesim budžeta gadā. Kolonnas var izveidot vai nu vienkārši noklikšķinot uz pogas Pievienot un ievadot vērtības, vai arī, izmantojot vienumu Datu elements. Šajā uzdevumā vērtību ierakstītīšanai mēs izmantosim vienumu Datu elements. 
 
 4.1. Pārejiet uz Budžeta veidošana&gt;Iestatīšana &gt; Budžeta plānošana &gt; Budžeta plānošanas konfigurācija un atveriet lapu Kolonnas. Formas augšējā labajā stūrī noklikšķiniet uz Office pogas un atlasiet vienumu Kolonnas (bez filtra) 
@@ -151,7 +150,7 @@ Budžeta plāna kolonnas ir atkarīgas no naudas vai daudzuma kolonnām, kuras v
 
 [![Atsvaidzināšana](./media/screenshot23.png)](./media/screenshot23.png)
 
-## <a name="task-5-create-budget-plan-document-layouts-and-templates"></a>5. uzdevums. Budžeta plāna dokumenta izkārtojumu un veidņu izveide
+### <a name="task-5-create-budget-plan-document-layouts-and-templates"></a>5. uzdevums. Budžeta plāna dokumenta izkārtojumu un veidņu izveide
 Izkārtojums definē, kā izskatīsies budžeta plāna dokumenta rindu režģis, kad lietotājs atver budžeta plāna dokumentu. Budžeta plāna dokumentu izkārtojumu var arī pārslēgt, lai datus aplūkotu no dažādiem aspektiem. Tā kā budžeta plāna dokumentam lietojamās kolonnas ir definētas, Jūlijai ir jāizveido budžeta plāna dokumenta izkārtojums, kas izskatīsies līdzīgi Excel tabulai, ko viņa izmanto, lai izveidotu budžeta datus (skatiet šī uzdevuma sadaļu Scenārija pārskats) 
 
 5.1. Pārejiet uz Budžeta veidošana&gt;Iestatīšana &gt; Budžeta plānošana &gt; Budžeta plānošanas konfigurācija un atveriet lapu Izkārtojumi. Izveidojiet jaunu izkārtojumu ikmēneša budžeta ierakstam.
@@ -171,7 +170,7 @@ Pamatojoties uz budžeta plāna izkārtojuma definīciju, varam izveidot Excel v
 
 5.3. &lt; Neobligāta darbība&gt; Modificējiet Excel veidni, lai tā izskatās lietotājam draudzīgāka — pievienojiet kopsummu formulas, galvenes laukus, formatējumu utt. Saglabājiet izmaiņas un augšupielādējiet failu budžeta plāna izkārtojumā, noklikšķinot uz Izkārtojums &gt; Augšupielādēt [![Augšupielādēt](./media/screenshot26.png)](./media/screenshot26.png)
 
-## <a name="task-6-create-a-budget-planning-process"></a>6. uzdevums. Budžeta plānošanas procesa izveide
+### <a name="task-6-create-a-budget-planning-process"></a>6. uzdevums. Budžeta plānošanas procesa izveide
 Jūlijai ir jāizveido un jāaktivizē jauns budžeta plānošanas process, apvienojot iepriekš minētos visus iestatījumus, lai sāktu ievadīt budžeta plānus. Budžeta plānošanas procesā definē, kādas budžeta organizācijas, darbplūsma, izkārtojumi un veidnes tiks lietotas budžeta plānu izveidē. 
 
 6.1. Pārejiet uz Budžeta veidošana &gt; Iestatīšana &gt; Budžeta plānošana &gt; Budžeta plānošanas process un izveidojiet jaunu ierakstu.
@@ -192,10 +191,9 @@ Jūlijai ir jāizveido un jāaktivizē jauns budžeta plānošanas process, apvi
 
 [![Aktivizēt](./media/screenshot28.png)](./media/screenshot28.png)
 
-<a name="exercise-2-process-simulation"></a>2. uzdevums. Procesa simulācija
-==============================
+## <a name="exercise-2-process-simulation"></a>2. uzdevums. Procesa simulācija
 
-## <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a>7. uzdevums. Ģenerējiet budžeta plāna sākotnējos datus no Virsgrāmatas.
+### <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a>7. uzdevums. Ģenerējiet budžeta plāna sākotnējos datus no Virsgrāmatas.
 7.1. Pārejiet uz Budžeta veidošana &gt; Periodisks &gt; Budžeta plāna ģenerēšana no virsgrāmatas. Aizpildiet periodiskā procesa parametrus un noklikšķiniet uz pogas Ģenerēt. 
 
 [![Ģenerēt](./media/screenshot29.png)](./media/screenshot29.png) 
@@ -208,7 +206,7 @@ Jūlijai ir jāizveido un jāaktivizē jauns budžeta plānošanas process, apvi
 
 [![Budžeta plāna displejs](./media/screenshot31.png)](./media/screenshot31.png)
 
-## <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a>8. uzdevums. Pašreizējā gada budžeta izveide, pamatojoties uz iepriekšējā gada faktiskajām summām
+### <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a>8. uzdevums. Pašreizējā gada budžeta izveide, pamatojoties uz iepriekšējā gada faktiskajām summām
 Budžeta plānā var izmantot sadalījuma metodes, lai viegli kopētu budžeta plānu informāciju no viena scenārija citā/izplatīt tos dažādos periodos/sadalītu pa dimensijām. Mēs izmantosim sadalījumus, lai izveidotu pašreizējā gada budžetu no iepriekšējā gada faktiskajam summām. 
 
 8.1. Atlasiet visas rindas budžeta plāna dokumentu režģī un noklikšķiniet uz pogas Piešķirt budžetu 
@@ -223,7 +221,7 @@ Iepriekšējā gada faktiskās summas tiks kopētas uz pašreizējā gada budže
 
 [![Pārdošanas līkne](./media/screenshot34.png)](./media/screenshot34.png)
 
-## <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a>9. uzdevums. Budžeta plāna dokumenta koriģēšana, izmantojot programmu Excel, un dokumenta pabeigšana
+### <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a>9. uzdevums. Budžeta plāna dokumenta koriģēšana, izmantojot programmu Excel, un dokumenta pabeigšana
 9.1. Noklikšķiniet uz pogas Darblapa, lai dokumenta saturu atvērtu programmā Excel
 
 [![Excel](./media/screenshot35.png)](./media/screenshot35.png)
@@ -238,8 +236,7 @@ Iepriekšējā gada faktiskās summas tiks kopētas uz pašreizējā gada budže
 
 Kad darbplūsma ir pabeigta, budžeta plāna dokumenta stadija mainās uz Apstiprināts. [![Apstiprināts](./media/screenshot38.png)](./media/screenshot38.png)
 
-<a name="appendix"></a>Pielikums
-========
+## <a name="appendix"></a>Pielikums
 
 ### <a name="auto-approve-workflow-configuration"></a>Darbplūsmas konfigurācijas automātiska apstiprināšana
 

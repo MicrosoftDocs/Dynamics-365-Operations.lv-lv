@@ -98,7 +98,7 @@ Tālāk aprakstītie finanšu atskaišu veidošanas komponenti ļauj atskaites �
 </tbody>
 </table>
 
-#<a name="see-also"></a>Skatiet arī
+## <a name="see-also"></a>Skatiet arī
 [Ģenerēt finanšu pārskatu](generate-financial-report.md)
 
 

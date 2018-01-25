@@ -112,7 +112,7 @@ Kad atverat kādu veidošanas bloku, citiem lietotājiem ir tikai lasīšanas pi
 3.  Atlasiet veidošanas bloku un tad noklikšķiniet uz **Atsaukt izrakstīšanu**.
 4.  Noklikšķiniet uz **Jā**, lai atgrieztu veidošanas bloku.
 
-# <a name="see-also"></a>Skatiet arī
+## <a name="see-also"></a>Skatiet arī
 
 [Finanšu pārskati](financial-reporting-intro.md)
 
