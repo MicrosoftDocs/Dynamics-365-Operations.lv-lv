@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 09266e28c0fec4200e1644049e4a7f2880ebdcc4
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: b28d3abb31fe2b54bd207b3dbdd26b26edb31695
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -53,10 +53,9 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="274ea-128">[![Excel veidne](./media/screenshot2-1024x352.png)](./media/screenshot2.png)</span><span class="sxs-lookup"><span data-stu-id="274ea-128">[![Excel template](./media/screenshot2-1024x352.png)](./media/screenshot2.png)</span></span>
 
-<a name="exercise-1-configuration"></a><span data-ttu-id="274ea-129">1. vingrinājums. Konfigurācija</span><span class="sxs-lookup"><span data-stu-id="274ea-129">Exercise 1: Configuration</span></span>
-=========================
+## <a name="exercise-1-configuration"></a><span data-ttu-id="274ea-129">1. vingrinājums. Konfigurācija</span><span class="sxs-lookup"><span data-stu-id="274ea-129">Exercise 1: Configuration</span></span>
 
-## <a name="task-1-create-organizational-hierarchy"></a><span data-ttu-id="274ea-130">**1. uzdevums. Organizācijas hierarhijas izveide**</span><span class="sxs-lookup"><span data-stu-id="274ea-130">**Task 1: Create organizational hierarchy**</span></span>
+### <a name="task-1-create-organizational-hierarchy"></a><span data-ttu-id="274ea-130">**1. uzdevums. Organizācijas hierarhijas izveide**</span><span class="sxs-lookup"><span data-stu-id="274ea-130">**Task 1: Create organizational hierarchy**</span></span>
 <span data-ttu-id="274ea-131">Viss budžeta izstrādes process notiek finanšu daļā, tādēļ Jūlijai ir jāizveido ļoti vienkārša organizācijas hierarhija — kas sastāv tikai no finanšu daļas.</span><span class="sxs-lookup"><span data-stu-id="274ea-131">As all the budgeting process happens in the Finance department, therefore Julia needs to create a very simple organizational hierarchy – consisting of Finance department only.</span></span> <span data-ttu-id="274ea-132">1.1.</span><span class="sxs-lookup"><span data-stu-id="274ea-132">1.1.</span></span> <span data-ttu-id="274ea-133">Pārejiet uz sadaļu Organizācijas hierarhijas (Organizācijas administrēšana &gt; Organizācijas &gt; Organizācijas hierarhijas) un noklikšķiniet uz pogas Jauns</span><span class="sxs-lookup"><span data-stu-id="274ea-133">Navigate to Organization hierarchies (Organization administration &gt; Organizations &gt; Organization hierarchies) and click New button</span></span>
 
 ![Organizācijas hierarhija](./media/screenshot3.png) 
@@ -85,7 +84,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="274ea-155">[![Spēkā stāšanās datums](./media/screenshot9.png)](./media/screenshot9.png)</span><span class="sxs-lookup"><span data-stu-id="274ea-155">[![Effective date](./media/screenshot9.png)](./media/screenshot9.png)</span></span>
 
-## <a name="task-2-configure-user-security"></a><span data-ttu-id="274ea-156">2. uzdevums. Lietotāja drošības konfigurēšana</span><span class="sxs-lookup"><span data-stu-id="274ea-156">Task 2: Configure user security</span></span>
+### <a name="task-2-configure-user-security"></a><span data-ttu-id="274ea-156">2. uzdevums. Lietotāja drošības konfigurēšana</span><span class="sxs-lookup"><span data-stu-id="274ea-156">Task 2: Configure user security</span></span>
 <span data-ttu-id="274ea-157">Budžeta plānošanas procesā izmanto īpašas drošības politikas, lai konfigurētu piekļuvi budžeta plāna datiem.</span><span class="sxs-lookup"><span data-stu-id="274ea-157">Budget planning uses special security policies to configure access to budget plans data.</span></span> <span data-ttu-id="274ea-158">Jūlijai sev ir jāpiešķir piekļuve finanšu budžeta plāniem.</span><span class="sxs-lookup"><span data-stu-id="274ea-158">Julia needs to give access to Finance budget plans for herself.</span></span> 
 
 <span data-ttu-id="274ea-159">2.1.</span><span class="sxs-lookup"><span data-stu-id="274ea-159">2.1.</span></span> <span data-ttu-id="274ea-160">Pārslēdzieties uz DEMF juridiskās personas kontekstu.</span><span class="sxs-lookup"><span data-stu-id="274ea-160">Switch to DEMF legal entity context.</span></span> 
@@ -109,7 +108,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="274ea-178">[![Piešķirt piekļuvi](./media/screenshot14.png)](./media/screenshot14.png)</span><span class="sxs-lookup"><span data-stu-id="274ea-178">[![Grant access](./media/screenshot14.png)](./media/screenshot14.png)</span></span>
 
-## <a name="task-3-create-scenarios"></a><span data-ttu-id="274ea-179">3. uzdevums. Scenāriju izveide</span><span class="sxs-lookup"><span data-stu-id="274ea-179">Task 3: Create scenarios</span></span>
+### <a name="task-3-create-scenarios"></a><span data-ttu-id="274ea-179">3. uzdevums. Scenāriju izveide</span><span class="sxs-lookup"><span data-stu-id="274ea-179">Task 3: Create scenarios</span></span>
 <span data-ttu-id="274ea-180">3.1.</span><span class="sxs-lookup"><span data-stu-id="274ea-180">3.1.</span></span> <span data-ttu-id="274ea-181">Pārejiet uz Budžeta veidošana&gt;Iestatīšana &gt; Budžeta plānošana &gt; Budžeta plānošanas konfigurācija.</span><span class="sxs-lookup"><span data-stu-id="274ea-181">Navigate to Budgeting&gt;Setup &gt; Budget planning &gt; Budget planning configuration.</span></span> <span data-ttu-id="274ea-182">Lapā Scenāriji pārskatiet scenārijus, ko izmantosim tālāk šajā uzdevumā: Iepriekšējā gada faktiskās izmaksas un Budžeta.</span><span class="sxs-lookup"><span data-stu-id="274ea-182">In the Scenarios page note the scenarios we are going to use further in this lab: Previous year actuals and Budgeted.</span></span> 
 
 <span data-ttu-id="274ea-183">*Piezīme. Ja nepieciešams, šajā uzdevumā var izveidot un izmantot jaunus scenārijus.*</span><span class="sxs-lookup"><span data-stu-id="274ea-183">*Note: You can create new scenarios for this exercise if desired and use those instead.*</span></span> 
@@ -118,7 +117,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="274ea-185">*Piezīme. Jūlija neizmanto oficiālu apstiprināšanas procesu budžeta sagatavošanai, tādēļ šajā uzdevumā izlaidīsim iestatīšanas darbību vienumam Darbplūsmas, Stadijas un Darbplūsmas stadijas un izmantosim esošos iestatījumus vienumam Automātiski apstiprināt darbplūsmu. Informāciju par šīs darbplūsmas konfigurāciju skatiet pielikumā.*</span><span class="sxs-lookup"><span data-stu-id="274ea-185">*Note: as Julia is not using formal approval process for budget preparation, we will skip Workflows, Stages and Workflow stages setup in this lab and will use existing setup for Auto – approve workflow. See appendix for this workflow configuration.*</span></span>
 
-## <a name="task-4-create-budget-plan-columns"></a><span data-ttu-id="274ea-186">4. uzdevums. Budžeta plāna kolonnu izveide</span><span class="sxs-lookup"><span data-stu-id="274ea-186">Task 4: Create budget plan columns</span></span>
+### <a name="task-4-create-budget-plan-columns"></a><span data-ttu-id="274ea-186">4. uzdevums. Budžeta plāna kolonnu izveide</span><span class="sxs-lookup"><span data-stu-id="274ea-186">Task 4: Create budget plan columns</span></span>
 <span data-ttu-id="274ea-187">Budžeta plāna kolonnas ir atkarīgas no naudas vai daudzuma kolonnām, kuras var izmantot budžeta plāna dokumenta izkārtojumā.</span><span class="sxs-lookup"><span data-stu-id="274ea-187">Budget plan columns are either Monetary or quantity based columns that can be used in budget plan document layout.</span></span> <span data-ttu-id="274ea-188">Mūsu piemērā ir jāizveido kolonna scenārijam Iepriekšējā gada faktiskās izmaksas un 12 kolonnas katram mēnesim budžeta gadā.</span><span class="sxs-lookup"><span data-stu-id="274ea-188">In our example we need to create a column for Previous year actuals and 12 columns to represent each month in a budgeted year.</span></span> <span data-ttu-id="274ea-189">Kolonnas var izveidot vai nu vienkārši noklikšķinot uz pogas Pievienot un ievadot vērtības, vai arī, izmantojot vienumu Datu elements.</span><span class="sxs-lookup"><span data-stu-id="274ea-189">Columns can be created either by simply clicking Add button and filling in the values, or with a help of Data entity.</span></span> <span data-ttu-id="274ea-190">Šajā uzdevumā vērtību ierakstītīšanai mēs izmantosim vienumu Datu elements.</span><span class="sxs-lookup"><span data-stu-id="274ea-190">In this lab we will use Data entity to fill in the values.</span></span> 
 
 <span data-ttu-id="274ea-191">4.1.</span><span class="sxs-lookup"><span data-stu-id="274ea-191">4.1.</span></span> <span data-ttu-id="274ea-192">Pārejiet uz Budžeta veidošana&gt;Iestatīšana &gt; Budžeta plānošana &gt; Budžeta plānošanas konfigurācija un atveriet lapu Kolonnas.</span><span class="sxs-lookup"><span data-stu-id="274ea-192">In Budgeting&gt;Setup &gt; Budget planning &gt; Budget planning configuration open Columns page.</span></span> <span data-ttu-id="274ea-193">Formas augšējā labajā stūrī noklikšķiniet uz Office pogas un atlasiet vienumu Kolonnas (bez filtra)</span><span class="sxs-lookup"><span data-stu-id="274ea-193">Click Office button on the top right corner of the form and pick Columns (unfiltered)</span></span> 
@@ -151,7 +150,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="274ea-219">[![Atsvaidzināšana](./media/screenshot23.png)](./media/screenshot23.png)</span><span class="sxs-lookup"><span data-stu-id="274ea-219">[![Refresh](./media/screenshot23.png)](./media/screenshot23.png)</span></span>
 
-## <a name="task-5-create-budget-plan-document-layouts-and-templates"></a><span data-ttu-id="274ea-220">5. uzdevums. Budžeta plāna dokumenta izkārtojumu un veidņu izveide</span><span class="sxs-lookup"><span data-stu-id="274ea-220">Task 5: Create budget plan document layouts and templates</span></span>
+### <a name="task-5-create-budget-plan-document-layouts-and-templates"></a><span data-ttu-id="274ea-220">5. uzdevums. Budžeta plāna dokumenta izkārtojumu un veidņu izveide</span><span class="sxs-lookup"><span data-stu-id="274ea-220">Task 5: Create budget plan document layouts and templates</span></span>
 <span data-ttu-id="274ea-221">Izkārtojums definē, kā izskatīsies budžeta plāna dokumenta rindu režģis, kad lietotājs atver budžeta plāna dokumentu.</span><span class="sxs-lookup"><span data-stu-id="274ea-221">Layout defines how budget plan document lines grid is going to look like when user opens budget plan document.</span></span> <span data-ttu-id="274ea-222">Budžeta plāna dokumentu izkārtojumu var arī pārslēgt, lai datus aplūkotu no dažādiem aspektiem.</span><span class="sxs-lookup"><span data-stu-id="274ea-222">It is also possible to switch the layout for budget plan document to see the same data in different angles.</span></span> <span data-ttu-id="274ea-223">Tā kā budžeta plāna dokumentam lietojamās kolonnas ir definētas, Jūlijai ir jāizveido budžeta plāna dokumenta izkārtojums, kas izskatīsies līdzīgi Excel tabulai, ko viņa izmanto, lai izveidotu budžeta datus (skatiet šī uzdevuma sadaļu Scenārija pārskats)</span><span class="sxs-lookup"><span data-stu-id="274ea-223">Now, as she’s got columns defined to be used with our budget plan document, Julia needs to create a budget plan document layout, that would look similar to the Excel table she uses to create budget data (see section Scenario overview in this lab)</span></span> 
 
 <span data-ttu-id="274ea-224">5.1.</span><span class="sxs-lookup"><span data-stu-id="274ea-224">5.1.</span></span> <span data-ttu-id="274ea-225">Pārejiet uz Budžeta veidošana&gt;Iestatīšana &gt; Budžeta plānošana &gt; Budžeta plānošanas konfigurācija un atveriet lapu Izkārtojumi.</span><span class="sxs-lookup"><span data-stu-id="274ea-225">In Budgeting&gt;Setup &gt; Budget planning &gt; Budget planning configuration open Layouts page.</span></span> <span data-ttu-id="274ea-226">Izveidojiet jaunu izkārtojumu ikmēneša budžeta ierakstam.</span><span class="sxs-lookup"><span data-stu-id="274ea-226">Create a new layout for Monthly budget entry:</span></span>
@@ -172,7 +171,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="274ea-240">5.3.</span><span class="sxs-lookup"><span data-stu-id="274ea-240">5.3.</span></span> <span data-ttu-id="274ea-241">&lt; Neobligāta darbība&gt; Modificējiet Excel veidni, lai tā izskatās lietotājam draudzīgāka — pievienojiet kopsummu formulas, galvenes laukus, formatējumu utt. Saglabājiet izmaiņas un augšupielādējiet failu budžeta plāna izkārtojumā, noklikšķinot uz Izkārtojums &gt; Augšupielādēt [![Augšupielādēt](./media/screenshot26.png)](./media/screenshot26.png)</span><span class="sxs-lookup"><span data-stu-id="274ea-241">&lt; Optional step&gt; Modify Excel template to make it look more user friendly – add total formulas, header fields, formatting, etc. Save the changes and upload the file to budget plan layout by clicking Layout &gt; Upload [![Upload](./media/screenshot26.png)](./media/screenshot26.png)</span></span>
 
-## <a name="task-6-create-a-budget-planning-process"></a><span data-ttu-id="274ea-242">6. uzdevums. Budžeta plānošanas procesa izveide</span><span class="sxs-lookup"><span data-stu-id="274ea-242">Task 6: Create a budget planning process</span></span>
+### <a name="task-6-create-a-budget-planning-process"></a><span data-ttu-id="274ea-242">6. uzdevums. Budžeta plānošanas procesa izveide</span><span class="sxs-lookup"><span data-stu-id="274ea-242">Task 6: Create a budget planning process</span></span>
 <span data-ttu-id="274ea-243">Jūlijai ir jāizveido un jāaktivizē jauns budžeta plānošanas process, apvienojot iepriekš minētos visus iestatījumus, lai sāktu ievadīt budžeta plānus.</span><span class="sxs-lookup"><span data-stu-id="274ea-243">Julia needs to create and activate a new budget planning process combining all the setup above to start entering budget plans.</span></span> <span data-ttu-id="274ea-244">Budžeta plānošanas procesā definē, kādas budžeta organizācijas, darbplūsma, izkārtojumi un veidnes tiks lietotas budžeta plānu izveidē.</span><span class="sxs-lookup"><span data-stu-id="274ea-244">Budget planning process defines what budgeting organizations, workflow, layouts and templates will be used for creating budget plans.</span></span> 
 
 <span data-ttu-id="274ea-245">6.1.</span><span class="sxs-lookup"><span data-stu-id="274ea-245">6.1.</span></span> <span data-ttu-id="274ea-246">Pārejiet uz Budžeta veidošana &gt; Iestatīšana &gt; Budžeta plānošana &gt; Budžeta plānošanas process un izveidojiet jaunu ierakstu.</span><span class="sxs-lookup"><span data-stu-id="274ea-246">Navigate to Budgeting &gt; Setup &gt; Budget planning &gt; Budget planning process and create a new record.</span></span>
@@ -193,10 +192,9 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="274ea-258">[![Aktivizēt](./media/screenshot28.png)](./media/screenshot28.png)</span><span class="sxs-lookup"><span data-stu-id="274ea-258">[![Activate](./media/screenshot28.png)](./media/screenshot28.png)</span></span>
 
-<a name="exercise-2-process-simulation"></a><span data-ttu-id="274ea-259">2. uzdevums. Procesa simulācija</span><span class="sxs-lookup"><span data-stu-id="274ea-259">Exercise 2: Process simulation</span></span>
-==============================
+## <a name="exercise-2-process-simulation"></a><span data-ttu-id="274ea-259">2. uzdevums. Procesa simulācija</span><span class="sxs-lookup"><span data-stu-id="274ea-259">Exercise 2: Process simulation</span></span>
 
-## <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a><span data-ttu-id="274ea-260">7. uzdevums. Ģenerējiet budžeta plāna sākotnējos datus no Virsgrāmatas.</span><span class="sxs-lookup"><span data-stu-id="274ea-260">Task 7: Generate initial data for budget plan from General ledger</span></span>
+### <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a><span data-ttu-id="274ea-260">7. uzdevums. Ģenerējiet budžeta plāna sākotnējos datus no Virsgrāmatas.</span><span class="sxs-lookup"><span data-stu-id="274ea-260">Task 7: Generate initial data for budget plan from General ledger</span></span>
 <span data-ttu-id="274ea-261">7.1.</span><span class="sxs-lookup"><span data-stu-id="274ea-261">7.1.</span></span> <span data-ttu-id="274ea-262">Pārejiet uz Budžeta veidošana &gt; Periodisks &gt; Budžeta plāna ģenerēšana no virsgrāmatas.</span><span class="sxs-lookup"><span data-stu-id="274ea-262">Navigate to Budgeting &gt; Periodic &gt; Generate budget plan from General ledger.</span></span> <span data-ttu-id="274ea-263">Aizpildiet periodiskā procesa parametrus un noklikšķiniet uz pogas Ģenerēt.</span><span class="sxs-lookup"><span data-stu-id="274ea-263">Fill in the periodic process parameters and click button Generate.</span></span> 
 
 <span data-ttu-id="274ea-264">[![Ģenerēt](./media/screenshot29.png)](./media/screenshot29.png)</span><span class="sxs-lookup"><span data-stu-id="274ea-264">[![Generate](./media/screenshot29.png)](./media/screenshot29.png)</span></span> 
@@ -209,7 +207,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="274ea-271">[![Budžeta plāna displejs](./media/screenshot31.png)](./media/screenshot31.png)</span><span class="sxs-lookup"><span data-stu-id="274ea-271">[![Budget plan display](./media/screenshot31.png)](./media/screenshot31.png)</span></span>
 
-## <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a><span data-ttu-id="274ea-272">8. uzdevums. Pašreizējā gada budžeta izveide, pamatojoties uz iepriekšējā gada faktiskajām summām</span><span class="sxs-lookup"><span data-stu-id="274ea-272">Task 8: Create current year budget based on previous year actuals</span></span>
+### <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a><span data-ttu-id="274ea-272">8. uzdevums. Pašreizējā gada budžeta izveide, pamatojoties uz iepriekšējā gada faktiskajām summām</span><span class="sxs-lookup"><span data-stu-id="274ea-272">Task 8: Create current year budget based on previous year actuals</span></span>
 <span data-ttu-id="274ea-273">Budžeta plānā var izmantot sadalījuma metodes, lai viegli kopētu budžeta plānu informāciju no viena scenārija citā/izplatīt tos dažādos periodos/sadalītu pa dimensijām.</span><span class="sxs-lookup"><span data-stu-id="274ea-273">Allocation methods can be used in budget plan to easily copy information for budget plans from one scenario to another/ spread them across periods/ allocate to dimensions.</span></span> <span data-ttu-id="274ea-274">Mēs izmantosim sadalījumus, lai izveidotu pašreizējā gada budžetu no iepriekšējā gada faktiskajam summām.</span><span class="sxs-lookup"><span data-stu-id="274ea-274">We will use allocations to create current year budget from previous year actuals.</span></span> 
 
 <span data-ttu-id="274ea-275">8.1.</span><span class="sxs-lookup"><span data-stu-id="274ea-275">8.1.</span></span> <span data-ttu-id="274ea-276">Atlasiet visas rindas budžeta plāna dokumentu režģī un noklikšķiniet uz pogas Piešķirt budžetu</span><span class="sxs-lookup"><span data-stu-id="274ea-276">Pick all lines in the budget plan document grid and click button allocate budget</span></span> 
@@ -224,7 +222,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="274ea-282">[![Pārdošanas līkne](./media/screenshot34.png)](./media/screenshot34.png)</span><span class="sxs-lookup"><span data-stu-id="274ea-282">[![Sales curve](./media/screenshot34.png)](./media/screenshot34.png)</span></span>
 
-## <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a><span data-ttu-id="274ea-283">9. uzdevums. Budžeta plāna dokumenta koriģēšana, izmantojot programmu Excel, un dokumenta pabeigšana</span><span class="sxs-lookup"><span data-stu-id="274ea-283">Task 9: Adjust budget plan document using Excel and finalize the document</span></span>
+### <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a><span data-ttu-id="274ea-283">9. uzdevums. Budžeta plāna dokumenta koriģēšana, izmantojot programmu Excel, un dokumenta pabeigšana</span><span class="sxs-lookup"><span data-stu-id="274ea-283">Task 9: Adjust budget plan document using Excel and finalize the document</span></span>
 <span data-ttu-id="274ea-284">9.1.</span><span class="sxs-lookup"><span data-stu-id="274ea-284">9.1.</span></span> <span data-ttu-id="274ea-285">Noklikšķiniet uz pogas Darblapa, lai dokumenta saturu atvērtu programmā Excel</span><span class="sxs-lookup"><span data-stu-id="274ea-285">Click Button worksheet to open document contents in Excel</span></span>
 
 <span data-ttu-id="274ea-286">[![Excel](./media/screenshot35.png)](./media/screenshot35.png)</span><span class="sxs-lookup"><span data-stu-id="274ea-286">[![Excel](./media/screenshot35.png)](./media/screenshot35.png)</span></span>
@@ -239,8 +237,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="274ea-294">Kad darbplūsma ir pabeigta, budžeta plāna dokumenta stadija mainās uz Apstiprināts.</span><span class="sxs-lookup"><span data-stu-id="274ea-294">Once workflow completes, budget plan document stage changes to Approved.</span></span> <span data-ttu-id="274ea-295">[![Apstiprināts](./media/screenshot38.png)](./media/screenshot38.png)</span><span class="sxs-lookup"><span data-stu-id="274ea-295">[![Approved](./media/screenshot38.png)](./media/screenshot38.png)</span></span>
 
-<a name="appendix"></a><span data-ttu-id="274ea-296">Pielikums</span><span class="sxs-lookup"><span data-stu-id="274ea-296">Appendix</span></span>
-========
+## <a name="appendix"></a><span data-ttu-id="274ea-296">Pielikums</span><span class="sxs-lookup"><span data-stu-id="274ea-296">Appendix</span></span>
 
 ### <a name="auto-approve-workflow-configuration"></a><span data-ttu-id="274ea-297">Darbplūsmas konfigurācijas automātiska apstiprināšana</span><span class="sxs-lookup"><span data-stu-id="274ea-297">Auto-Approve workflow configuration</span></span>
 

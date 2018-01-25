@@ -20,10 +20,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 7547ff6dcea546100a11f20e8e8f7f7fcab82cee
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: d369b760047a18c82dd89f3452d94b9c62ba8841
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -34,8 +34,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="b6ff7-104">Šajā tēmā ir aprakstītas jums pieejamās opcijas paplašinātās pieteikšanās iestatīšanai attiecībā uz mākoņa POS un Retail Modern POS (MPOS).</span><span class="sxs-lookup"><span data-stu-id="b6ff7-104">This topic covers your options for setting up extended logon for Cloud POS and Retail Modern POS (MPOS).</span></span>
 
-<a name="setting-up-extended-logon"></a><span data-ttu-id="b6ff7-105">Paplašinātās pieteikšanās iestatīšana</span><span class="sxs-lookup"><span data-stu-id="b6ff7-105">Setting up extended logon</span></span>
-=========================
+## <a name="setting-up-extended-logon"></a><span data-ttu-id="b6ff7-105">Paplašinātās pieteikšanās iestatīšana</span><span class="sxs-lookup"><span data-stu-id="b6ff7-105">Setting up extended logon</span></span>
 
 <span data-ttu-id="b6ff7-106">Svītrkoda masku iestatījumi i pieejami sadaļā **Mazumtirdzniecība** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS profili** &gt; **Funkcionalitātes profili**.</span><span class="sxs-lookup"><span data-stu-id="b6ff7-106">You can find the setup for bar code masks at **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Functionality profiles**.</span></span> <span data-ttu-id="b6ff7-107">Kopsavilkuma cilnē **Funkcijas** ir iekļautas tālāk norādītās opcijas, kas ir saistītas ar paplašināto pieteikšanos.</span><span class="sxs-lookup"><span data-stu-id="b6ff7-107">The **Functions** FastTab includes the following options that are related to extended logon.</span></span>
 
@@ -55,23 +54,19 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="b6ff7-116">Ja ir iespējota opcija **Personāla pieteikšanās ar karti jāpapildina ar paroli**, kad personāls piesakās, izmantojot karti, tiek atlasīts tikai tas darbinieks, kam ir piešķirtas paplašinātās pieteikšanās tiesības, kas tiek apliecinātas.</span><span class="sxs-lookup"><span data-stu-id="b6ff7-116">When the **Staff card logon requires password** option is enabled, the staff card logon selects only the worker who is assigned to the extended logon that is presented.</span></span> <span data-ttu-id="b6ff7-117">Ja šī opcija ir iespējota, darbiniekiem tomēr jāievada parole.</span><span class="sxs-lookup"><span data-stu-id="b6ff7-117">Workers must still enter their password when this option is enabled.</span></span>
 
-<a name="assigning-an-extended-logon"></a><span data-ttu-id="b6ff7-118">Paplašinātās pieteikšanās tiesību piešķiršana</span><span class="sxs-lookup"><span data-stu-id="b6ff7-118">Assigning an extended logon</span></span>
-===========================
+## <a name="assigning-an-extended-logon"></a><span data-ttu-id="b6ff7-118">Paplašinātās pieteikšanās tiesību piešķiršana</span><span class="sxs-lookup"><span data-stu-id="b6ff7-118">Assigning an extended logon</span></span>
 
 <span data-ttu-id="b6ff7-119">Pēc noklusējuma paplašinātās pieteikšanās tiesības strādniekiem var piešķirt tikai vadītāji.</span><span class="sxs-lookup"><span data-stu-id="b6ff7-119">By default, only managers can assign extended logon to workers.</span></span> <span data-ttu-id="b6ff7-120">Lai piešķirtu paplašināto pieteikšanos, pārdošanas punktā (POS) dodieties uz **Paplašinātā pieteikšanās**.</span><span class="sxs-lookup"><span data-stu-id="b6ff7-120">To assign extended logon, go to **Extended log on** in POS.</span></span> <span data-ttu-id="b6ff7-121">Pēc tam meklējiet nodarbināto, meklēšanas laukā ievadot viņa vai viņas operatora ID.</span><span class="sxs-lookup"><span data-stu-id="b6ff7-121">Then search for a worker by entering his or her operator ID in the search field.</span></span> <span data-ttu-id="b6ff7-122">Atlasiet strādnieka vārdu un pēc tam noklikšķiniet uz **Piešķirt**.</span><span class="sxs-lookup"><span data-stu-id="b6ff7-122">Select the worker, and then click **Assign**.</span></span> <span data-ttu-id="b6ff7-123">Nākamajā lapā nolasiet vai skenējiet paplašinātās pieteikšanās karti, lai piešķirtu to strādniekam.</span><span class="sxs-lookup"><span data-stu-id="b6ff7-123">On the next page, swipe or scan the extended logon to assign to the worker.</span></span> <span data-ttu-id="b6ff7-124">Ja kartes nolasīšana vai skenēšana ir sekmīga, aktivizēta tiek poga **Labi**.</span><span class="sxs-lookup"><span data-stu-id="b6ff7-124">If the swipe or scan is successfully read, the **OK** button becomes available.</span></span> <span data-ttu-id="b6ff7-125">Noklikšķiniet uz **Labi**, lai saglabātu darbinieka paplašinātās pieteikšanās tiesības.</span><span class="sxs-lookup"><span data-stu-id="b6ff7-125">Click **OK** to save the extended logon for that worker.</span></span>
 
-<a name="deleting-an-extended-logon"></a><span data-ttu-id="b6ff7-126">Paplašinātās pieteikšanās tiesību dzēšana</span><span class="sxs-lookup"><span data-stu-id="b6ff7-126">Deleting an extended logon</span></span>
-==========================
+## <a name="deleting-an-extended-logon"></a><span data-ttu-id="b6ff7-126">Paplašinātās pieteikšanās tiesību dzēšana</span><span class="sxs-lookup"><span data-stu-id="b6ff7-126">Deleting an extended logon</span></span>
 
 <span data-ttu-id="b6ff7-127">Lai dzēstu darbiniekam piešķirtās paplašinātās pieteikšanās tiesības, izmantojiet darbību **Paplašinātā pieteikšanās** un meklējiet darbinieku.</span><span class="sxs-lookup"><span data-stu-id="b6ff7-127">To delete the extended logon that is assigned to a worker, search for the worker by using the **Extended log on** operation.</span></span> <span data-ttu-id="b6ff7-128">Atlasiet darbinieka vārdu un pēc tam noklikšķiniet uz **Noņemt piešķirtās tiesības**.</span><span class="sxs-lookup"><span data-stu-id="b6ff7-128">Select the worker, and then click **Unassign**.</span></span> <span data-ttu-id="b6ff7-129">Visi ar šo lietotāju saistītie paplašinātās pieteikšanās akreditācijas dati tiek noņemti.</span><span class="sxs-lookup"><span data-stu-id="b6ff7-129">All extended logon credentials that are associated with that worker are removed.</span></span>
 
-<a name="extending-extended-logon"></a><span data-ttu-id="b6ff7-130">Paplašinātās pieteikšanās tiesību paplašināšana</span><span class="sxs-lookup"><span data-stu-id="b6ff7-130">Extending extended logon</span></span>
-========================
+## <a name="extending-extended-logon"></a><span data-ttu-id="b6ff7-130">Paplašinātās pieteikšanās tiesību paplašināšana</span><span class="sxs-lookup"><span data-stu-id="b6ff7-130">Extending extended logon</span></span>
 
 <span data-ttu-id="b6ff7-131">Pieteikšanās pakalpojumu var paplašināt, lai atbalstītu papildu paplašinātās pieteikšanās ierīces, piemēra, plaukstas skenerus.</span><span class="sxs-lookup"><span data-stu-id="b6ff7-131">The logon service can be extended to support additional extended logon devices, such as palm scanners.</span></span> <span data-ttu-id="b6ff7-132">Lai iegūtu papildinformāciju, skatiet POS dokumentāciju par paplašināšanas iespējām.</span><span class="sxs-lookup"><span data-stu-id="b6ff7-132">For more information, see the POS extensibility documentation.</span></span>
 
-<a name="using-extended-logon"></a><span data-ttu-id="b6ff7-133">Paplašinātās pieteikšanās tiesību izmantošana</span><span class="sxs-lookup"><span data-stu-id="b6ff7-133">Using extended logon</span></span>
-====================
+## <a name="using-extended-logon"></a><span data-ttu-id="b6ff7-133">Paplašinātās pieteikšanās tiesību izmantošana</span><span class="sxs-lookup"><span data-stu-id="b6ff7-133">Using extended logon</span></span>
 
 <span data-ttu-id="b6ff7-134">Ja paplašinātā pieteikšanās opcija ir konfigurēta un darbiniekam ir piešķirts svītrkods un magnētiskā karte, darbiniekam ir tikai jānolasa vai jānoskenē karte, kamēr ir atvērta POS pieteikšanās lapa.</span><span class="sxs-lookup"><span data-stu-id="b6ff7-134">When extended logon is configured, and a worker has been assigned a bar code or magnetic stripe, the worker just has to swipe or scan his or her card while the POS logon page is displayed.</span></span> <span data-ttu-id="b6ff7-135">Ja pirms pieteikšanās turpināšanas ir jāievada arī parole, darbiniekam tiek parādīta uzvedne ievadīt savu parole.</span><span class="sxs-lookup"><span data-stu-id="b6ff7-135">If a password is also required before logon can proceed, the worker is prompted to enter his or her password.</span></span>
 

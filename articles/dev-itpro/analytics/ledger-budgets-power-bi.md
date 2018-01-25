@@ -17,10 +17,10 @@ ms.author: ryansand
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: a351418583ee29ad57bd2586121bb92d24635fb8
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: 13f7cfa8776436ed2c73fc588948ce88fee93326
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -31,14 +31,14 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="22827-105">Šajā tēmā ir aprakstīts Microsoft Power BI saturs **Faktiski pret budžetu**.</span><span class="sxs-lookup"><span data-stu-id="22827-105">This topic describes the **Actual vs budget** Microsoft Power BI content.</span></span> <span data-ttu-id="22827-106">Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.</span><span class="sxs-lookup"><span data-stu-id="22827-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span> 
 
-# <a name="overview"></a><span data-ttu-id="22827-107">Pārskats</span><span class="sxs-lookup"><span data-stu-id="22827-107">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="22827-107">Pārskats</span><span class="sxs-lookup"><span data-stu-id="22827-107">Overview</span></span>
 
 <span data-ttu-id="22827-108">Power BI saturs **Faktiski pret budžetu** tika izveidots personām, kas savā organizācijā atbild par faktiskās izpildes uzraudzīšanu salīdzinājumā ar budžetā paredzēto izpildi.</span><span class="sxs-lookup"><span data-stu-id="22827-108">The **Actual vs budget** Power BI content was created for individuals who are responsible for monitoring actual versus budget performance in their organization.</span></span> <span data-ttu-id="22827-109">Power BI saturs **Faktiski pret budžetu** nodrošina ieskatu jūsu budžeta novirzēs.</span><span class="sxs-lookup"><span data-stu-id="22827-109">The **Actual vs budget** Power BI content provides visibility into your budget variances.</span></span> <span data-ttu-id="22827-110">Lai gūtu lielāku izpratni par noviržu iemeslu, budžetu pašreizējam gadam var analizēt pēc konta kategorijas, budžeta koda, galvenā konta, galvenā konta aprakstiem vai finanšu perioda.</span><span class="sxs-lookup"><span data-stu-id="22827-110">You can analyze budget for the current year by account category, budget code, main account, main account descriptions, or fiscal period to get a better understanding of the cause of any variances.</span></span> 
 
-# <a name="accessing-the-power-bi-content"></a><span data-ttu-id="22827-111">Piekļūšana Power BI saturam</span><span class="sxs-lookup"><span data-stu-id="22827-111">Accessing the Power BI content</span></span>
+## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="22827-111">Piekļūšana Power BI saturam</span><span class="sxs-lookup"><span data-stu-id="22827-111">Accessing the Power BI content</span></span>
 <span data-ttu-id="22827-112">Pārskati no Power BI satura pakotnes **Faktiski pret budžetu** tiek rādīti darbvietās **Virsgrāmatas budžeti un prognozes** un **CFO**.</span><span class="sxs-lookup"><span data-stu-id="22827-112">Reports from the **Actual vs budget** Power BI content are shown in the **Ledger budget and forecasts** and **CFO** workspaces.</span></span>
 
-# <a name="reports-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="22827-113">Power BI satura pakotnē iekļautie pārskati</span><span class="sxs-lookup"><span data-stu-id="22827-113">Reports that are included in the Power BI content</span></span>
+## <a name="reports-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="22827-113">Power BI satura pakotnē iekļautie pārskati</span><span class="sxs-lookup"><span data-stu-id="22827-113">Reports that are included in the Power BI content</span></span>
 <span data-ttu-id="22827-114">Nākamajā tabulā ir sniegta detalizēta informācija par rādītājiem, kas ir atrodami katrā Power BI satura **Faktiski pret budžetu** pārskata lapā.</span><span class="sxs-lookup"><span data-stu-id="22827-114">The following table provides details about the metrics that are found on each report page in the **Actual vs budget** Power BI content.</span></span>
 
 | <span data-ttu-id="22827-115">Pārskats</span><span class="sxs-lookup"><span data-stu-id="22827-115">Report</span></span>                      | <span data-ttu-id="22827-116">Metrika</span><span class="sxs-lookup"><span data-stu-id="22827-116">Metrics</span></span> |
@@ -50,7 +50,7 @@ ms.lasthandoff: 01/17/2018
 | <span data-ttu-id="22827-129">Neto ieņēmumi</span><span class="sxs-lookup"><span data-stu-id="22827-129">Net income</span></span>                  | <ul><li><span data-ttu-id="22827-130">Neto ieņēmumi šajā gadā</span><span class="sxs-lookup"><span data-stu-id="22827-130">Net income this year</span></span></li><li><span data-ttu-id="22827-131">Neto ieņēmumu mērķis, pamatojoties uz budžetu</span><span class="sxs-lookup"><span data-stu-id="22827-131">Goal for net income based on budget</span></span> </li><ul> |
 
 
-# <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="22827-132">Datu modeļa un elementu izprašana</span><span class="sxs-lookup"><span data-stu-id="22827-132">Understanding the data model and entities</span></span>
+## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="22827-132">Datu modeļa un elementu izprašana</span><span class="sxs-lookup"><span data-stu-id="22827-132">Understanding the data model and entities</span></span>
 
 | <span data-ttu-id="22827-133">Elements</span><span class="sxs-lookup"><span data-stu-id="22827-133">Entity</span></span>                    | <span data-ttu-id="22827-134">Saturs</span><span class="sxs-lookup"><span data-stu-id="22827-134">Contents</span></span> |
 |---------------------------|----------|
