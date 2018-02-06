@@ -69,4 +69,3 @@ ms.lasthandoff: 09/29/2017
 6. Laukā Ražošanas vienība var iestatīt noklusējuma filtru darbiniekam. Tas nodrošinās, ka, darbiniekam piesakoties ierīcē, tiek rādīti tikai ražošanas darbi atlasītajai ražošanas vienībai.
 7. Aizvērt lapu.
 
-

@@ -1,4 +1,4 @@
---- 
+---
 title: "Algas procesa iespējošana laikam un apmeklētībai"
 description: "Šajā procedūrā ir parādīts, kā iespējot algu procesu attiecībā uz laiku un apmeklētību."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -68,5 +68,4 @@ ms.lasthandoff: 09/29/2017
 6. Izvērsiet sadaļu Laika reģistrācija.
 7. Noklikšķiniet uz Rediģēt.
 8. Laukā Apmaksas līgums ievadiet vai atlasiet kādu vērtību.
-
 

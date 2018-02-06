@@ -1,4 +1,4 @@
---- 
+---
 title: "Ražošanas pasūtījuma izveide"
 description: "Šajā procedūrā ir parādīts, kā izveidot ražošanas pasūtījumu."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -69,5 +69,4 @@ ms.lasthandoff: 09/29/2017
     * Mainot apstrādes laiku, tiek ietekmēts ražošanas pasūtījuma prognozētais maršruta patēriņš un izmaksas.  
 6. Noklikšķiniet uz Saglabāt.
 7. Aizvērt lapu.
-
 

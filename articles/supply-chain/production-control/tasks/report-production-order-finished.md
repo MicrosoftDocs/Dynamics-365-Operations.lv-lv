@@ -1,4 +1,4 @@
---- 
+---
 title: "Ziņojums par ražošanas pasūtījuma pabeigšanu"
 description: "Šajā procedūrā parādīts, kā ziņot ražošanas pasūtījumu kā pabeigtu."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -50,5 +50,4 @@ ms.lasthandoff: 09/29/2017
 3. Sarakstā atzīmējiet atlasīto rindu.
 4. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
     * Pabeigtās ražošanas žurnāls ir grāmatots. Ja vēlaties veikt korekcijas žurnālā, varat manuāli izveidot jaunu žurnālu, kurā varat veikt izmaiņas.  
-
 

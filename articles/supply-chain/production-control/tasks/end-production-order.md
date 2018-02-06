@@ -1,4 +1,4 @@
---- 
+---
 title: "Ražošanas pasūtījuma pārtraukšana"
 description: "Šajā procedūrā ir parādīts, kā pabeigt ražošanas pasūtījumu."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -46,5 +46,4 @@ ms.lasthandoff: 09/29/2017
 1. Darbību rūtī noklikšķiniet uz Pārvaldīt izmaksas.
 2. Noklikšķiniet uz Skatīt izmaksu salīdzinājumu.
     * Pēc ražošanas pasūtījuma pabeigšanas var salīdzināt novērtēto izmaksu cenu ar realizēto izmaksu cenu, lai iegūtu pārskatu par ražošanas novirzēm.  
-
 
