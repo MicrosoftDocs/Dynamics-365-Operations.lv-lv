@@ -1,7 +1,7 @@
 ---
 title: "Nepieļaut atlaižu piemērošanu mazumtirdzniecības produktiem"
 description: "Ir dažādi iemesli, kāpēc mazumtirgotāji varētu vēlēties nepieļaut atlaižu piemērošanu dažiem produktiem veicināšanas pasākumu vai pārdošanas ietvaros POS terminālī."
-author: jeffbl
+author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

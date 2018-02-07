@@ -1,7 +1,7 @@
 ---
 title: "Finanšu pārskata komponenti"
 description: "Šajā rakstā ir izklāstīts, kā finanšu atskaišu veidošanā tiek izmantoti atskaišu definīciju komponenti jeb veidošanas bloki. Šajos veidošanas blokos ir iekļautas rindas definīcijas, kolonnas definīcijas un atskaišu koka definīcijas. Rakstā ir paskaidrots, kā organizēt un bloķēt veidošanas blokus un kā strādāt ar veidošanas bloku grupām."
-author: aolson
+author: aprilolson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
