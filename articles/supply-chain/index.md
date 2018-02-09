@@ -3,7 +3,7 @@ title: "Piegādes ķēdes pārvaldības sākumlapa"
 description: "Šajā tēmā ir sniegts saraksts ar palīdzības tēmām un citiem resursiem, kas attiecas uz piegādes ķēdes pārvaldības līdzekļiem programmā Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 01/10/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 98008b494f675209949afd961e3cd06dfdc9ec9a
-ms.openlocfilehash: 81a5d21233f12e7c26f0cce6a6c05fefde2ca7dd
+ms.sourcegitcommit: 6c193a3a9deba215d4374ccffc3bf2d854fbd0f2
+ms.openlocfilehash: 9314a129b85cf6cb2d2ca379eafc142ce234d535
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/22/2018
 
 ---
 
@@ -52,9 +52,12 @@ Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
 
 ## <a name="videos"></a>Videoklipi
 
-### <a name="get-started"></a>Darba sākšana  
+Šie īsie videoklipi sniedz informāciju par jaunajiem līdzekļiem, kas iekļauti programmā Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (2017. gada decembris).
 
-Šie īsie videoklipi palīdzēs jums sākt darbu ar jaunajiem līdzekļiem, kas iekļauti programmā Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (2017. gada jūlijs).
+-  [Integrēšana no potenciālā klienta uz skaidru naudu](https://youtu.be/AVV9x5x-XCg) 
+-  [Optimizācijas padomnieks](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+
+Šie īsie videoklipi sniedz informāciju par jaunajiem līdzekļiem, kas iekļauti programmā Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (2017. gada jūlijs).
 
 -  [Darba sākšana risinājumā Izmaksu uzskaite](https://youtu.be/1pUDtJQZ8FU)
 -  [Izmaksu kontroles mobilā darbvieta](https://youtu.be/imsuTg8rUVk)
@@ -62,8 +65,7 @@ Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
 -  [Pirkšanas pasūtījumu apstiprināšana mobilajā ierīcē](https://youtu.be/gZ-gOlJe7H8)
 -  [Vizuāla plānošana ar Ganta diagrammu ražošanas un partijas pasūtījumiem](https://youtu.be/BtbuShkGj4I)
 
-### <a name="tech-conference-recordings"></a>Tehnoloģiju konferences ieraksti
-Vairumā šo ierakstu tiek apspriesta iepriekšējās Finance and Operations versijas funkcionalitāte, bet šie paši jēdzieni joprojām attiecas uz pašreizējo versiju, kā arī procedūras pašreizējā versijā ir līdzīgas. 
+Šajos tehnoloģiju konferences ierakstos tiek apspriesta iepriekšējās Finance and Operations versijas funkcionalitāte, bet šie paši jēdzieni joprojām attiecas uz pašreizējo versiju, un procedūras pašreizējā versijā ir līdzīgas. 
 
 -  <a href="https://youtu.be/zotrj3SbCl4">Preču konfigurators risinājumā Microsoft Dynamics AX</a>
 -  <a href="https://youtu.be/7v8BPmEs9Dg">Vispārēja plānošana — padomi un metodes problēmu novēršanai</a>

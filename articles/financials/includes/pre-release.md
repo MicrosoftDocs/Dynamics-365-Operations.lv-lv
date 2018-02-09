@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Šis līdzeklis ir ietverts noteiktas mērķauditorijas laidienā un ir pieejams tikai tiem lietotājiem, kas piedalās pastāvīgas automātiskās grāmatošanas priekšrocības programmā (CAAP). Šis līdzeklis tiks iekļauts citā gaidāmā vispārējas pieejamības laidienā. Plašāku informāciju par pamata laidieniem un laidieniem ar noteiktu mērķauditoriju skatiet sadaļā [Pamata un noteiktas mērķauditorijas platformu laidieni](../../fin-and-ops/get-started/public-preview-releases.md).
