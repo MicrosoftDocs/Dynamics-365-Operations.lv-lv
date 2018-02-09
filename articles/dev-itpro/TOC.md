@@ -114,8 +114,9 @@
 #### [Pielāgošana: pārklāšanās un paplašinājumi](extensibility/customization-overlayering-extensions.md)
 ### Jaunumi
 #### [Paplašināmības izmaiņas, 2017. gada jūlijs](extensibility/changes-july-2017.md)
+#### [Paplašināmības izmaiņas risinājumā Dynamics 365 for Finance and Operations, Enterprise Edition 7.3](extensibility/extensibility-changes-73.md)
 ### Pamati
-#### [Nevajadzīgi pielāgojumi](extensibility/intrusive-customizations.md)
+#### [Traucējoši pielāgojumi](extensibility/intrusive-customizations.md)
 #### [Klašu paplašinājumi](extensibility/class-extensions.md)
 #### [Klases paplašinājums: Metodes aplikšana un Komandas ķēde](extensibility/method-wrapping-coc.md)
 #### [Vadlīniju nosaukumu veidošana](extensibility/naming-guidelines-extensions.md)
@@ -138,12 +139,17 @@
 #### [Veidlapas kontroles rekvizītu modificēšana](extensibility/modify-control-properties.md)
 #### [Etiķetes maiņa](extensibility/change-label.md)
 #### [Numuru sērijas diapazona paplašināšana](extensibility/extend-number-sequence-scope.md)
+#### [Jaunas krājuma dimensijas pievienošana](extensibility/inventory-dimensions.md)
+#### [Izmaiņas cenu un atlaižu paplašināmībā](extensibility/pricing-app73.md)
+#### [Tabulu karšu paplašinājums](extensibility/map-extensions.md)
+#### [Tādu tabulu karšu paplašināšana, kas tiek lietotas kā interfeisi](extensibility/maps-as-interfaces.md)
+#### [Versiju izveidē lietoto tabulu karšu paplašināšana](extensibility/maps-with-versioning.md)
 
 
 
 
 ## Veiktspēja
-### [Darbību izsekošana, izmantojot Trace Parser](perf-test/trace-trace-tutorial.md)
+### [Darbību izsekošana, izmantojot rīku Trace Parser](perf-test/trace-trace-tutorial.md)
 ### [PerfSDK un vairāku lietotāju testēšana, izmantojot Visual Studio Team Services](perf-test/perfsdk-tutorial.md)
 ### [Problēmu diagnostika un veiktspējas problēmu analīze, izmantojot Trace Parser](perf-test/trace-parser.md)
 ### [Veiktspējas taimeris](perf-test/performance-timer.md)
@@ -522,20 +528,20 @@
 ### [Pakotnes lietojumprogrammas problēmu novēršana](deployment/deployable-package-troubleshooting.md)
 
 # [Jaunināšana un migrācija](migration-upgrade/upgrade-home-page.md)
-## [Jaunināšana no AX 2012 uz Dynamics 365 for Finance and Operations](migration-upgrade/upgrade-overview-2012.md)
-### [Analīze — jauninājumu analizētāja rīka izmantošana jaunināšanas plānošanai](migration-upgrade/upgrade-analyzer-tool.md)
-### [Analīze — koda jaunināšanas pakalpojuma izmantošana, lai noteiktu koda jaunināšanas radīto slodzi](migration-upgrade/analyze-code-upgrade.md)
-### [Analīze — smilškastes vides izvietošana](migration-upgrade/analysis-sandbox.md)
-### [Jaunināšana — datu jaunināšana izstrādes vidē](migration-upgrade/data-upgrade-2012.md)
-### [Jaunināšana — AX 2012 datu jauninājumu uzdevumi](migration-upgrade/prepare-data-upgrade.md)
-### [Jaunināšana — datu jaunināšana smilškastes vidē](migration-upgrade/upgrade-data-sandbox.md)
-### [Pārbaude — pārslēgšanas testēšana](migration-upgrade/upgrade-cutover-testing.md)
-### [Pārbaude — pēc jaunināšanas veicamie uzdevumi](migration-upgrade/app-validation-process.md)
-### [Pārbaude — funkcionālā testēšana](migration-upgrade/upgrade-functional-validation.md)
-### [Pārbaude — sagatavošanās publicēšanai](migration-upgrade/upgrade-go-live-prep.md)
+## [Jaunināšana no AX 2012 uz Dynamics 365 for Finance and Operations](migration-upgrade/upgrade-overview-2012.md)
+### [AX 2012 jaunināšana — plānošana, izmantojot jauninājumu analizētāja rīku](migration-upgrade/upgrade-analyzer-tool.md)
+### [AX 2012 jaunināšana — slodzes noteikšana, izmantojot koda jaunināšanas pakalpojumu](migration-upgrade/analyze-code-upgrade.md)
+### [AX 2012 jaunināšana — smilškastes vides izvietošana](migration-upgrade/analysis-sandbox.md)
+### [AX 2012 jaunināšana — datu jaunināšana izstrādes vidē](migration-upgrade/data-upgrade-2012.md)
+### [AX 2012 jaunināšana — AX 2012 datu jaunināšanas uzdevumi](migration-upgrade/prepare-data-upgrade.md)
+### [AX 2012 jaunināšana — datu jaunināšana smilškastes vidē](migration-upgrade/upgrade-data-sandbox.md)
+### [AX 2012 jaunināšana — pārslēgšanas testēšana](migration-upgrade/upgrade-cutover-testing.md)
+### [AX 2012 jaunināšana — pēc jaunināšanas veicamie uzdevumi](migration-upgrade/app-validation-process.md)
+### [AX 2012 jaunināšana — funkcionālās pārbaudes izturēšana](migration-upgrade/upgrade-functional-validation.md)
+### [AX 2012 jaunināšana — sagatavošanās publicēšanai](migration-upgrade/upgrade-go-live-prep.md)
 
 
-### Izmaiņas pēc jaunināšanas no AX 2012
+### Izmaiņas, kas ietekmē jaunināšanu no AX 2012
 #### [Vienots dokumentu un valūtas pārvērtēšanas jauninājums ](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
 #### [Projekta resursu plānošanas datu modelis](migration-upgrade/data-model-changes-resource-management.md)
 #### [Darbplūsmu apakšsistēmas izmaiņas](migration-upgrade/workflow-subsystem.md)
@@ -590,6 +596,8 @@
 ## [Pakešapstrāde](sysadmin/batch-processing-overview.md)
 ### [Pakešapstrādes servera apskats](sysadmin/batch-server-overview.md)
 ### [Pakešuzdevuma izveide](sysadmin/tasks/create-batch-job.md)
+
+## [Kārtulu izveide optimizācijas padomniekam](sysadmin/optimization-advisor.md)
 
 # Lifecycle Services
 ## [Lifecycle Services apskats](lifecycle-services/lcs.md)
