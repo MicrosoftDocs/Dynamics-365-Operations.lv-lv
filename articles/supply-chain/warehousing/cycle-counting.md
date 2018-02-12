@@ -137,7 +137,7 @@ Ja ar darba lietotāja ID saistītajai opcijai **Ir cikla inventarizācijas vad�
 
 Jūs varat pielāgot inventarizācijas laikā aprēķinātās vērtības starpības un pēc tam akceptēt inventarizācijas laikā aprēķināto vērtību lapā **Izskatīšanu gaidošā cikla inventarizācija**. Jūs varat pārbaudīt koriģēto krājuma daudzuma skaitu lapā **Rīcībā esošie krājumi pēc novietojuma**. Inventarizācijas laikā aprēķinātā vērtība tiek noraidīta, ja starpību nevar apstiprināt.
 
-# <a name="see-also"></a>Skatiet arī
+## <a name="see-also"></a>Skatiet arī
 [Konfigurēt mobilās ierīces darbam noliktavā](configure-mobile-devices-warehouse.md)
 
 

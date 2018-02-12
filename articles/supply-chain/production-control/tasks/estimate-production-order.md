@@ -1,4 +1,4 @@
---- 
+---
 title: "Ražošanas pasūtījuma novērtējums"
 description: "Šo procedūru var izpildīt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savu datu kopu."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -42,5 +42,4 @@ ms.lasthandoff: 09/29/2017
 1. Darbību rūtī noklikšķiniet uz Pārvaldīt izmaksas.
 2. Noklikšķiniet uz Skatīt detalizētu informāciju par aprēķinu.
     * Šajā lapā parādīts izmaksu sadalījums. Piemēram, pirmajā rindā var apskatīt pabeigtās preces vienības kopējo izmaksu cenu. Sekojošās rindās ir izmaksas atbilstoši materiālu komplektam, ražošanas maršrutam un netiešām izmaksām.  
-
 

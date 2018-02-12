@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application user, IT Pro
 ms.reviewer: robinr
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
@@ -30,14 +30,14 @@ ms.lasthandoff: 11/06/2017
 > [!NOTE]
 > Šis līdzeklis tiek atbalstīts programmā Dynamics 365 for Finance and Operations (versija 7.2 un jaunākas versijas).
 
-# <a name="introduction"></a>Ievads
+## <a name="introduction"></a>Ievads
 Šajā tēmā ir parādīts, kā iegult Microsoft Power BI pārskatu darbvietas cilnē **Analīze**. Šeit sniegtā piemēra ietvaros paplašināsim darbvietu **Rezervēšanas pārvaldība** autoparka pārvaldības programmā, lai cilnē **Analīze** iegultu analītisku darbvietu.
 
-# <a name="prerequisites"></a>Priekšnosacījumi
+## <a name="prerequisites"></a>Priekšnosacījumi
 + Piekļuve izstrādātāju videi, kas darbina platformas 8. atjauninājumu vai jaunāku atjauninājumu.
 + Analītisks pārskats (.pbix fails), kas tika izveidots, izmantojot programmu Microsoft Power BI Desktop, un kam ir no elementu krātuves datu bāzes iegūts datu modelis.
 
-# <a name="overview"></a>Pārskats
+## <a name="overview"></a>Pārskats
 Neatkarīgi no tā, vai paplašināt esošu programmas darbvietu vai ieviešat jaunu darbvietu, varat izmantot iegultos analītiskos skatus, lai nodrošinātu visaptverošus un interaktīvus biznesa datu skatus. Analītiskās darbvietas cilnes pievienošanas procesā ir četras darbības.
 
 1. Pievienojiet .pbix failu kā Dynamics 365 resursu.
@@ -48,7 +48,7 @@ Neatkarīgi no tā, vai paplašināt esošu programmas darbvietu vai ieviešat j
 > [!NOTE]
 > Papildinformāciju par to, kā izveidot analītiskus pārskatus, skatiet rakstā [Darba sākšana ar Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Šī lapa ir lielisks informācijas avots, kas var palīdzēt jums izveidot pārliecinošus analītisko pārskatu risinājumus.
 
-# <a name="add-a-pbix-file-as-a-resource"></a>.pbix faila kā resursa pievienošana
+## <a name="add-a-pbix-file-as-a-resource"></a>.pbix faila kā resursa pievienošana
 Pirms sākat, izveidojiet vai iegūstiet Power BI pārskatu, ko iegulsit darbvietā. Papildinformāciju par to, kā izveidot analītiskus pārskatus, skatiet rakstā [Darba sākšana ar Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
  
 Izpildiet tālāk norādītās darbības, lai pievienotu .pbix failu kā Visual Studio projekta artefaktu.
@@ -66,7 +66,7 @@ Izpildiet tālāk norādītās darbības, lai pievienotu .pbix failu kā Visual 
   
 Tagad, kad esat pievienojis .pbix failu kā Dynamics 365 resursu, varat iegult pārskatus darbvietās un pievienot tiešās saites, izmantojot izvēlnes elementus.
 
-# <a name="add-a-tab-control-to-an-application-workspace"></a>Cilnes vadīklas pievienošana programmas darbvietai
+## <a name="add-a-tab-control-to-an-application-workspace"></a>Cilnes vadīklas pievienošana programmas darbvietai
 Šajā piemērā paplašināsim darbvietu **Rezervēšanas pārvaldība** autoparka pārvaldības modelī, pievienojot cilni **Analīze** formas **FMClerkWorkspace** definīcijai.
  
 Tālāk esošajā attēlā parādīts, kā forma **FMClerkWorkspace** izskatās Microsoft Visual Studio noformētājā.
@@ -105,7 +105,7 @@ Tagad, kad esat pievienojis formu vadīklas, kas tiks izmantotas darbvietas pār
  
 Esat pabeidzis programmas formas definīcijas paplašināšanas uzdevumu. Papildinformāciju par to, kā izmantot paplašinājumus pielāgojumu veikšanai, skatiet rakstā [Pielāgošana: pārklāšanās un paplašinājumi](../extensibility/customization-overlayering-extensions.md).
 
-# <a name="add-x-business-logic-to-embed-a-viewer-control"></a>X++ biznesa loģikas pievienošana skatītāja vadīklas iegulšanai
+## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>X++ biznesa loģikas pievienošana skatītāja vadīklas iegulšanai
 Izpildiet tālāk norādītās darbības, lai pievienotu biznesa loģiku, kas inicializē pārskatu skatītāja vadīklu, kas ir iegulta darbvietā **Rezervēšanas pārvaldība**.
 
 1. Atveriet formu noformētāju **FMClerkWorkspace**, lai paplašinātu noformējuma definīciju.
@@ -151,12 +151,12 @@ Esat pabeidzis uzdevumu ar biznesa loģikas pievienošanu, kas inicializē iegul
 > [!NOTE]
 > Esošajam darbības skatam varat piekļūt, izmantojot darbvietas cilnes zem lapas virsraksta.
 
-# <a name="reference"></a>Atsauce
+## <a name="reference"></a>Atsauce
 
-## <a name="pbireporthelperinitializereportcontrol-method"></a>PBIReportHelper.initializeReportControl metode
+### <a name="pbireporthelperinitializereportcontrol-method"></a>PBIReportHelper.initializeReportControl metode
 Šajā sadaļā sniegta informācija par palīga klasi, kas tiek izmantota, lai Power BI pārskatu (.pbix resursu) iegultu formu grupas vadīklā.
 
-### <a name="syntax"></a>Sintakse
+#### <a name="syntax"></a>Sintakse
 ```
 public static void initializeReportControl(
      str                 _resourceName,
@@ -167,7 +167,7 @@ public static void initializeReportControl(
      List                _defaultFilters = new List(Types::Class))
 ```
 
-### <a name="parameters"></a>Parametri
+#### <a name="parameters"></a>Parametri
 
 | Nosaukums | Apraksts |
 |---|---|

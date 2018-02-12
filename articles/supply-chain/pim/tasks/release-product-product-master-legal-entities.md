@@ -1,7 +1,7 @@
 --- 
 title: "Preces/preces šablona izlaišana juridiskajām personām"
 description: "Šajā procedūrā parādīts, kā izlaist preci vai preces šablonu vienai vai vairākām juridiskām personām."
-author: josaw1
+author: BibiSp
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process

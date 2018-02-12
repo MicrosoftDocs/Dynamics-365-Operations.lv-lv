@@ -1,4 +1,4 @@
---- 
+---
 title: "Ražošanas pasūtījuma sākšana"
 description: "Šajā procedūrā parādīts, ka sākt ražošanas pasūtījumu ražotnē."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -70,5 +70,4 @@ ms.lasthandoff: 09/29/2017
 7. Noklikšķiniet uz Grāmatot.
 8. Noklikšķiniet uz OK.
     * Maršruta karšu žurnālā tiek reģistrēts uz atsevišķām operācijām patērētais laiks. Var ziņot arī par labu vai kļūdainu daudzumu.  
-
 

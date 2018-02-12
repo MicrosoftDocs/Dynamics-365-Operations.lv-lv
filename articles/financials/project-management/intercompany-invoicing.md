@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -59,9 +60,9 @@ Mērķis ir padarīt starpuzņēmumu projektu transakciju izmaksu kontroles, ie�
 
 1.  Iestatiet FRSI kā debitoru juridiskajā personā USSI un iestatiet USSI kā kreditoru juridiskajā personā FRSI. Šī uzdevuma izpildīšanai pastāv trīs ievades punkti.
     | Solis | Ieejas punkts                                                                       | Apraksts   |
-    |------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | A    | Juridiskās personas USSI sadaļā noklikšķiniet uz **Debitoru parādi** &gt; **Debitori** &gt; **Visi debitori**. | Izveidojiet jaunu debitora ierakstu juridiskajai personai FRSI un atlasiet debitoru grupu.                                                                                                                                                                                                                           |
-    | B    | Juridiskās personas FRSI sadaļā noklikšķiniet uz **Parādi kreditoriem** &gt; **Kreditori** &gt; **Visi kreditori**.        | Izveidot jaunu kreditora ierakstu juridiskajai personai USSI un atlasiet kreditoru grupu.                                                                                                                                                                                                                               |
+    |------|-----------------------------------------------------------------------------------|------------------|
+    | A    | Juridiskās personas USSI sadaļā noklikšķiniet uz **Debitoru parādi** &gt; **Debitori** &gt; **Visi debitori**. | Izveidojiet jaunu debitora ierakstu juridiskajai personai FRSI un atlasiet debitoru grupu.                                                                                  |
+    | B    | Juridiskās personas FRSI sadaļā noklikšķiniet uz **Parādi kreditoriem** &gt; **Kreditori** &gt; **Visi kreditori**.        | Izveidot jaunu kreditora ierakstu juridiskajai personai USSI un atlasiet kreditoru grupu.                                                                                    |
     | C    | Juridiskajā personā FRSI atveriet tikko izveidoto kreditora ierakstu.                            | Sadaļas Darbību rūts cilnē **Vispārīgi**, grupā **Iestatīt** noklikšķiniet uz **Starpuzņēmumu**. Lapas **Starpuzņēmumu** cilnē **Darījumu attiecības** slīdni **Aktīvs** iestatiet uz **Jā**. Laukā **Debitora uzņēmums** atlasiet darbībā A izveidoto debitora ierakstu. |
 
 2.  Noklikšķiniet uz **Projektu vadība un uzskaite** &gt; **Iestatījumi** &gt; **Projektu vadības un uzskaites parametri** un pēc tam noklikšķiniet uz cilnes **Starpuzņēmumu**. Veids, kādā iestatāt parametrus, ir atkarīgs no tā, vai jūs esat piesaistīšanas juridiskā persona vai patapināšanas juridiskā persona.

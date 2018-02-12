@@ -1,6 +1,7 @@
 ---
 title: "Pārskats par mazumtirdzniecības perifērajām ierīcēm"
 description: "Šajā tēmā ir paskaidrotas koncepcijas, kas ir saistītas ar mazumtirdzniecības perifērajām ierīcēm."
+author: rubencdelgado
 manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: article

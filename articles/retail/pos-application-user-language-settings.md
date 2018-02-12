@@ -34,9 +34,7 @@ ms.lasthandoff: 11/03/2017
 
 Šajā tēmā ir aprakstīts, kā mainīt valodas iestatījumus programmās Retail Modern POS (MPOS) un Cloud POS.
 
-<a name="overview"></a>Pārskats
-========
-
+## <a name="overview"></a>Pārskats
 Programmas Retail Modern POS (MPOS) un Cloud POS atbalsta vides, kurās veikala un lietotāja iestatījumos var atšķirties valodas iestatījumi un tulkojumi. Piemēram, veikals var atrasties reģionā, kur vairums debitoru runā angļu valodā, taču daži nodarbinātie vēlas izmantot lietojumprogrammu ar tulkojumiem franču valodā.
 
 ## <a name="data-language"></a>Datu valoda

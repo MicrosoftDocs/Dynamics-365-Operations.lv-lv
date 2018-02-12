@@ -8,6 +8,7 @@ ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3d3ad89f80c3e3f42e117109f4a76232795b7d64
-ms.openlocfilehash: 9322b970eea9ab5ac01ae8461285b4dbcc1624a3
+ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
+ms.openlocfilehash: 1cb4305b3ef425ec19ae63c8186bffef212b9890
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/23/2018
 
 ---
 
@@ -162,7 +163,7 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 - [Labot rēķina ID pārdošanas pasūtījumos](../../financials/localizations/emea-edit-invoice-id-sales-orders.md)
 - [ES ierakstu sertifikāti](../../financials/localizations/emea-entry-certificates.md)
 - [ES pārdošanas saraksta pārskats](../../financials/localizations/emea-eu-sales-list.md)
-- [Valūtas kursa korekcijas](../../financials/localizations/emea-exchange-rate-adjustments.md)
+- [Valūtas maiņas kursa korekcijas](../../financials/localizations/emea-exchange-rate-adjustments.md)
 - [Maksāšanas metožu failu formāti](../../financials/localizations/emea-select-file-formats-for-the-method-of-payments.md)
 - [Pamatlīdzekļu norakstīšana Igaunijai un Lietuvai](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
 - [Importēt ISO20022 failus](../../financials/localizations/emea-ISO20022-file-formats.md)
@@ -275,12 +276,14 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 
 ### <a name="norway"></a>Norvēģija
 
--   [Neto importa formāts](../../financials/localizations/emea-nor-nets-import-format.md)
+-   [Kases sistēmas Norvēģijai](../../retail/localizations/emea-nor-cash-registers.md)
+-   [Izvietošanas vadlīnijas kases sistēmām Norvēģijai](../../retail/localizations/emea-nor-loc-deployment-guidelines.md)
+-   [Importēšanas formāts Nets](../../financials/localizations/emea-nor-nets-import-format.md)
 -   [PVN deklarācija](../../financials/localizations/emea-nor-sales-tax-payment-report.md)
 
 ### <a name="poland"></a>Polija
 
--   [Aprēķināt rindu atlaides no vienības cenas](../../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md)
+-   [Rindu atlaižu aprēķināšana no vienības cenas](../../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md)
 -   [Labojumu piezīmes](../../financials/localizations/emea-pol-correction-notes.md)
 -   [Dublēt pārdošanas rēķinu numerāciju](../../financials/localizations/emea-pol-sales-invoice-duplicates-numbering.md)
 -   [Pamatlīdzekļu nolietojums](../../financials/localizations/emea-pol-fixed-assets-depreciation.md)

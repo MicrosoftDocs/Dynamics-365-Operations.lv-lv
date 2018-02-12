@@ -1,4 +1,4 @@
---- 
+---
 title: "Ražošanas pasūtījuma plānošana"
 description: "Šajā procedūrā parādīts kā plānot ražošanas pasūtījumu."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -53,5 +53,4 @@ ms.lasthandoff: 09/29/2017
     * Noslodzes grafika lapā tiek rādīta noslodze, kas tika rezervēta, izmantojot darbu plānu, kopējais stundu skaits, kas pašlaik ir rezervēts resursam, un stundu skaits, kas paliek pieejams darbu plānošanai resursam.  
 6. Aizvērt lapu.
 7. Aizvērt lapu.
-
 

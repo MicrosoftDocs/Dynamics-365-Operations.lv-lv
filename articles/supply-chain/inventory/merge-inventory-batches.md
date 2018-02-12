@@ -1,7 +1,7 @@
 ---
 title: "Sapludināt krājumu partijas"
 description: "Šajā rakstā ir sniegta informācija par to kā, konsolidēt divu vai vairāku krājumu partijas sapludinātā partijā."
-author: perlynne
+author: pjacobse
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

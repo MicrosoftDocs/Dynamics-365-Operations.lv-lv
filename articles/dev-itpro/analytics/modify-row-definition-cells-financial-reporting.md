@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 Šajā rakstā ir paskaidrota informācija, kas ir nepieciešama katrai šūnai finanšu atskaites rindas definīcijā, un paskaidrots, kā šo informāciju ievadīt. 
 
-# <a name="specify-a-row-code-in-a-row-definition"></a>Rindas koda norādīšana rindas definīcijā
+## <a name="specify-a-row-code-in-a-row-definition"></a>Rindas koda norādīšana rindas definīcijā
 
 Rindas definīcijā numuri vai etiķetes šūnā **Rindas kods** identificē rindas definīcijas katru rindu. Rindas kodu var norādīt, lai izveidotu atsauci uz datiem aprēķinos vai kopsummās.
 
@@ -506,8 +506,7 @@ Dimensiju vērtību kopa ir dimensiju vērtību grupa, kurai piešķirts nosauku
 4.  Atlasiet dzēšamo kopu un tad noklikšķiniet uz **Dzēst**. Noklikšķiniet uz **Jā**, lai neatgriezeniski izdzēstu šo dimensijas vērtību kopu.
 
 
-<a name="see-also"></a>Skatiet arī
---------
+## <a name="see-also"></a>Skatiet arī
 
 [Finanšu pārskati](financial-reporting-intro.md)
 

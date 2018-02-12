@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -47,10 +48,12 @@ Elementi **Kopsavilkums** sniedz pārskatu par atlasītā kreditora rēķiniem. 
 -   Apmaksātie rēķini ir rēķini, kas ir pilnībā apmaksāti programmatūrā Finance and Operations.
 
 Noklikšķinot uz elementa tiks atvērts lapas **Rēķinu saraksts** filtrētais skatījums.
+
 ### <a name="tabular-lists"></a>Tabulveida saraksti
 
 Sadaļā **Tabulveida saraksti** rēķinu izrakstīšanas stāvoklis tiek sadalīts līdzīgi kā kopsavilkuma elementi: Melnraksti un Iesniegti, neapstiprināti saraksti. Esot stāvoklī Melnraksts, rēķinu nevar iesniegt darbplūsmai vai dzēst. Rēķinu meklēšanai var izmantot pēdējo tabulveida sarakstu. Lai ātrāk iegūtu rezultātus, varat iestatīt dažādus filtrus.
-Visu kreditora rēķinu saraksta lapa
+
+<a name="all-vendor-invoices-list-page"></a>Visu kreditora rēķinu saraksta lapa
 -----------------------------
 
 Visus grāmatotos un negrāmatotos kreditora rēķinus varat skatīt saraksta lapā **Kreditora sadarbības rēķini**. Šo saraksta lapu varat izmantot, lai skatītu rēķinu maksājuma statusu. Maksājumu statusi ir Negrāmatots, Neapmaksāts, Daļēji apmaksāts un Pilnībā apmaksāts.
