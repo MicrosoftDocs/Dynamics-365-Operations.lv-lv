@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustParameters, VendParameters
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -24,6 +25,8 @@ ms.lasthandoff: 09/29/2017
 ---
 
 # <a name="invoice-processing"></a>Rēķina apstrāde
+
+[!include[banner](../includes/banner.md)]
 
 Šajā tēmā ir īsi aprakstīti daži valstij specifiskie scenāriji, piemēram, Eiropas Kopienas iekšējais pievienotās vērtības nodoklis (PVN) un atliktais nodoklis. Rēķinu izrakstīšanas procesu ietekmē dažās Eiropas valstīs pastāvošās juridiskās prasības. Šajā tēmā ir sniegta arī informācija par to, kā šīm valstīm tiek apstrādāti debitoru un kreditoru rēķini. 
 <table>
