@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4b3d068ddbf6f0b28c97618f5fa10fa486f3af51
+ms.sourcegitcommit: 5737d9c52727077d34c6f5553c9788bf07032914
+ms.openlocfilehash: 0521f0b443efb761e7d3f63182728dd836dbf8a0
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/15/2018
 
 ---
 
@@ -31,6 +31,9 @@ ms.lasthandoff: 11/03/2017
 
 [!include[banner](../includes/banner.md)]
 
+
+> [!NOTE]
+> Šajā tēmā aprakstīts, kā noliktavas konfigurēt mākoņa izvietojumiem. Ja meklējat informāciju par to, kā noliktavas konfigurēt lokālajiem izvietojumiem, skatiet rakstu [Noliktavas lokālajiem izvietojumiem](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/deployment/warehousing-for-on-premise-deployments).
 
 Šajā tēmā ir aprakstīts, kā instalēt un konfigurēt programmu Microsoft Dynamics 365 for Finance and Operations – Warehousing
 
@@ -43,32 +46,29 @@ Programma ir pieejama operētājsistēmās Android un Windows. Lai varētu lieto
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Android                     | 4.4, 5.0, 6.0                                                                                                                                                               |
 | Windows (UWP)               | Windows 10 (visas versijas)                                                                                                                                                   |
-| Finance and Operations | Microsoft Finance and Operations versija 1611 <br>- vai - <br>Microsoft Dynamics AX versija 7.0/7.0.1 un Microsoft Dynamics AX 2. platformas atjauninājums ar labojumfailu KB 3210014 |
+| Finance and Operations | Microsoft Dynamics 365 for Operations, versija 1611 <br>- vai - <br>Microsoft Dynamics AX versija 7.0/7.0.1 un Microsoft Dynamics AX 2. platformas atjauninājums ar labojumfailu KB 3210014 |
 
 ## <a name="get-the-app"></a>Iegūt programmu
--   Windows (UWP): [Finance and Operations - Warehousing Windows veikalā](https://www.microsoft.com/store/apps/9p1bffd5tstm)
--   Android:
+-   Windows (UWP)
+     - [Finance and Operations — noliktavas pakalpojumā Windows Store](https://www.microsoft.com/store/apps/9p1bffd5tstm)
+-   Android
     - [Finance and Operations - Warehousing Google Play veikalā](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
     - [Finance and Operations - Warehousing veikalā Zebra App Gallery](https://appgallery.zebra.com/showcase/apps/146?type=showcase)
 
-## <a name="create-a-web-service-application-in-active-directory"></a>Tīmekļa pakalpojuma lietojumprogrammas izveide pakalpojumā Active Directory
+## <a name="create-a-web-service-application-in-azure-active-directory"></a>Tīmekļa pakalpojuma programmas izveide pakalpojumā Azure Active Directory
 Lai programma varētu mijiedarboties ar noteiktu Finance and Operations serveri, pakalpojumā Azure Active Directory programmas Finance and Operations nomniekam ir jāreģistrē tīmekļa pakalpojuma programma. Drošības apsvērumu dēļ ir ieteicams izveidot tīmekļa pakalpojuma lietojumprogrammu katrai izmantotajai ierīcei. Lai izveidotu tīmekļa pakalpojuma lietojumprogrammu pakalpojumā Azure Active Directory (Azure AD), veiciet tālāk norādītās darbības.
 
-1.  Tīmekļa pārlūkprogrammā atveriet vietni <https://manage.windowsazure.com>.
+1.  Tīmekļa pārlūkprogrammā atveriet vietni <https://portal.azure.com>.
 2.  Ievadiet tā lietotāja vārdu un paroli, kurš var piekļūt Azure abonementam.
-3.  Azure portāla kreisajā navigācijas rūtī noklikšķiniet uz **Active Directory**.[](./media/wh-01-active-directory-example.png)[![wh-01-active-directory-example](./media/wh-01-active-directory-example.png)](./media/wh-01-active-directory-example.png)
-4.  Režģī atlasiet Active Directory instanci, kas tiek izmantota programmatūrā Finance and Operations.
-5.  Augšējā rīkjoslā noklikšķiniet uz **Lietojumprogrammas**. [![wh-02-active-directory-applications](./media/wh-02-active-directory-applications-1024x197.png)](./media/wh-02-active-directory-applications.png)
-6.  Apakšējā rūtī noklikšķiniet uz **Pievienot**. Tiek palaists vednis **Lietojumprogrammas pievienošana**.
-7.  Ievadiet lietojumprogrammas nosaukumu un atlasiet **Tīmekļa lietojumprogramma un/vai tīmekļa API**. [![wh-03-active-directory-add-application](./media/wh-03-active-directory-add-application.png)](./media/wh-03-active-directory-add-application.png)
-8.  Ievadiet reģistrēšanās vietrādi URL, kurš ir jūsu tīmekļa programmas vietrādis URL. Šis URL ir tāds pats kā jūsu izvietošanas URL, bet beigās tiek pievienots oauth. Ievadiet programmas ID URI — šī vērtība ir obligāta, bet autentificēšanai tā nav nepieciešama. Pārliecinieties, lai šis programmas ID URI ir viltus URI, piemēram, https://contosooperations/wmapp, jo jūsu izvietojuma vietrāža URL lietošana var izraisīt pierakstīšanās problēmas citās AAD programmās, piemēram, Excel pievienojumprogrammā. [![WH-04-AD-add-properties3](./media/WH-04-AD-add-properties3.png)](./media/WH-04-AD-add-properties3.png)
-9.  Dodieties uz cilni **Konfigurēt**. [![wh-05-ad-configure-app](./media/wh-05-ad-configure-app.png)](./media/wh-05-ad-configure-app.png)
-10. Ritiniet uz leju līdz sadaļai **Atļaujas citām lietojumprogrammām**. Noklikšķiniet uz **Pievienot lietojumprogrammu**. [![wh-06-ad-app-add-permissions](./media/wh-06-ad-app-add-permissions.png)](./media/wh-06-ad-app-add-permissions.png)
-11. Sarakstā atlasiet **Microsoft Dynamics ERP**. Noklikšķiniet uz atzīmes pogas **Pabeigt** lapas labajā stūrī. [![wh-07-ad-select-permissions](./media/wh-07-ad-select-permissions.png)](./media/wh-07-ad-select-permissions.png)
-12. Sarakstā **Deleģēt atļaujas** atzīmējiet visas izvēles rūtiņas. Noklikšķiniet uz **Saglabāt**. [![wh-08-ad-delegate-permissions](./media/wh-08-ad-delegate-permissions.png)](./media/wh-08-ad-delegate-permissions.png)
-13. Pievērsiet uzmanību tālāk norādītajai informācijai.
-    -   **Klienta ID** — ritinot lapu uz augšu, ir redzams lauks **Klienta ID**.
-    -   **Atslēga** — sadaļā **Atslēgas** izveidojiet atslēgu, atlasot ilgumu, un kopējiet atslēgu. Vēlāk atslēga tiks saukta par **klienta noslēpumu**.
+3.  Azure portāla kreisajā navigācijas rūtī noklikšķiniet uz **Azure Active Directory**.[](./media/WMA-01-active-directory-example.png)[![WMA-01-active-directory-example](./media/WMA-01-active-directory-example.png )](./media/WMA-01-active-directory-example.png)
+4.  Nodrošiniet, ka Active Directory instance atbilst instancei, kas izmantota programmā Finance and Operations.
+5.  Sarakstā noklikšķiniet uz **Programmu reģistrācijas**. [![WMA-02-active-directory-app-registrations](./media/WMA-02-active-directory-app-registrations.png)](./media/WMA-02-active-directory-app-registrations.png)
+6.  Augšējā rūtī noklikšķiniet uz **Jauna programmas reģistrācija**. Tiek palaists vednis **Lietojumprogrammas pievienošana**.
+7.  Ievadiet programmas nosaukumu un atlasiet vienumu **Tīmekļa lietojumprogramma/tīmekļa API**. Ievadiet reģistrēšanās vietrādi URL, kurš ir jūsu tīmekļa programmas vietrādis URL. Šis URL ir tāds pats kā jūsu izvietošanas URL, bet beigās tiek pievienots oauth. Noklikšķiniet uz **Izveidot**. [![WMA-03-active-directory-add-application](./media/WMA-03-active-directory-add-application.png)](./media/WMA-03-active-directory-add-application.png)
+8.  Sarakstā atlasiet jauno programmu. [![WMA-04-active-directory-configure-app](./media/WMA-04-active-directory-configure-app.png)](./media/WMA-04-active-directory-configure-app.png)
+9.  Iegaumējiet **Programmas ID**, jo tas būs vēlāk nepieciešams. **Programmas ID** vēlāk tiks dēvēts par **Klienta ID**.
+10. Rūtī **Iestatījumi** noklikšķiniet uz **Atslēgas**. Izveidojiet atslēgu, sadaļā **Paroles** ievadot atslēgas aprakstu un ilgumu. 
+11. Noklikšķiniet uz **Saglabāt** un nokopējiet atslēgu. Vēlāk atslēga tiks saukta par **klienta noslēpumu**. [![WMA-05-active-directory-create-key](./media/WMA-05-active-directory-create-key.png)](./media/WMA-05-active-directory-create-key.png)
 
 ## <a name="create-and-configure-a-user-account-in-finance-and-operations"></a>Izveidot un konfigurēt lietotāja kontu programmatūrā Finance and Operations
 Lai programmatūrā Finance and Operations varētu izmantot jūsu Azure AD programmu, ir jāveic tālāk norādītās konfigurēšanas darbības.
@@ -90,8 +90,8 @@ Ierīcē instalētā programma ir jākonfigurē savienojuma izveidei ar Finance 
 1.  Programmā pārejiet uz sadaļu **Savienojuma iestatījumi**.
 2.  Noņemiet atzīmi no lauka **Demonstrācijas režīms**. <br>[![wh-11-app-connection-settings-demo-mode](./media/wh-11-app-connection-settings-demo-mode-169x300.png)](./media/wh-11-app-connection-settings-demo-mode.png)
 3.  Ievadiet sekojošo informāciju: 
-    + **Azure Active Directory klienta ID** — klienta ID tiek iegūts, veicot 13. darbību sadaļā “Izveidot tīmekļa pakalpojuma programmu pakalpojumā Active Directory”. 
-    + **Azure Active Directory klienta noslēpums** — klienta noslēpums tiek iegūts, veicot 13. darbību sadaļā “Izveidot tīmekļa pakalpojuma programmu pakalpojumā Active Directory”. 
+    + **Azure Active Directory klienta ID** — klienta ID tiek iegūts, veicot 9. darbību sadaļā “Izveidot tīmekļa pakalpojuma programmu pakalpojumā Active Directory”. 
+    + **Azure Active Directory klienta noslēpums** — klienta noslēpums tiek iegūts, veicot 11. darbību sadaļā “Izveidot tīmekļa pakalpojuma programmu pakalpojumā Active Directory”. 
     + **Azure Active Directory resurss** — Azure AD direktorija resurss atbilst Finance and Operations saknes URL. **Piezīme**. Šī lauka vērtības beigās nedrīkst ievadīt uz priekšu vērstās slīpsvītras rakstzīmi (/). 
     + **Azure Active Directory nomnieks** — Azure AD direktorija nomnieks, kas tiek izmantots ar Finance and Operations serveri: https://login.windows.net/jūsu-AD-nomnieka-ID. Piemēram: https://login.windows.net/contosooperations.onmicrosoft.com.
     <br>**Piezīme**. Šī lauka vērtības beigās nedrīkst ievadīt uz priekšu vērstās slīpsvītras rakstzīmi (/). 
@@ -102,15 +102,11 @@ Ierīcē instalētā programma ir jākonfigurē savienojuma izveidei ar Finance 
 Ja ierīce ir nozaudēta vai apdraudēta, ir jāliedz šīs ierīces piekļuve programmatūrai Finance and Operations. Tālāk ir norādītas ieteicamā piekļuves liegšanas procesa darbības.
 
 1.  Programmatūrā Finance and Operations pārejiet uz sadaļu **Sistēmas administrēšana** &gt; **Iestatīšana** &gt; **Azure Active Directory programmas**.
-2.  Dzēsiet rindu, kas atbilst ierīcei, kuras piekļuvi vēlaties liegt. Pierakstiet šīs ierīces parametra **Klienta ID** vērtību.
-3.  Pierakstieties Azure klasiskajā portālā: <https://manage.windowsazure.com>.
-4.  Noklikšķiniet uz ikonas **Active Directory** kreisās puses izvēlnē un pēc tam noklikšķiniet uz vajadzīgā direktorija.
-5.  Augšējā izvēlnē noklikšķiniet uz **Lietojumprogrammas** un pēc tam noklikšķiniet uz lietojumprogrammas, ko vēlaties konfigurēt. Tiek parādīta lapa **Īsā pamācība**, kurā ir pieejama vienotās pieteikšanās un cita konfigurācijas informācija.
-6.  Noklikšķiniet uz cilnes **Konfigurēšana**, ritiniet uz leju un pārliecinieties, ka lietojumprogrammas parametra **Klienta ID** vērtība ir vienāda ar vērtību, ko pierakstījāt, veicot 2. darbību šajā sadaļā.
-7.  Noklikšķiniet uz komandjoslas pogas **Dzēst**.
+2.  Dzēsiet rindu, kas atbilst ierīcei, kuras piekļuvi vēlaties liegt. Iegaumējiet noņemtajai ierīcei izmantoto **Klienta ID**, jo tas būs vēlāk nepieciešams.
+3.  Pierakstieties Azure portālā vietnē <https://portal.azure.com>.
+4.  Kreisajā izvēlnē noklikšķiniet uz ikonas **Active Directory** un pārliecinieties, vai atrodaties pareizajā direktorijā.
+5.  Sarakstā noklikšķiniet uz **Programmu reģistrācijas** un pēc tam noklikšķiniet uz programmas, ko vēlaties konfigurēt. Tiks parādīta lapa **Iestatījumi** ar konfigurācijas informāciju.
+6.  Nodrošiniet, lai programmas **Klienta ID** atbilstu šīs sadaļas 2. darbībā izmantotajam.
+7.  Augšējā rūtī noklikšķiniet uz pogas **Dzēst**.
 8.  Apstiprinājuma ziņojumā noklikšķiniet uz **Jā**.
-
-
-
-
 

@@ -1,9 +1,9 @@
 --- 
-title: "Veidot pārskatus Microsoft Office formātos ar iegultiem attēliem elektronisko pārskatu veidošanai (ER) (1. daļa)"
-description: "Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektronisko atskaišu izstrādātājs var izveidot elektronisko atskaišu veidošanas (Electronic Reporting — ER) konfigurācijas, lai veidotu elektroniskos dokumentus ar iegultiem attēliem MS Office formātos (Excel un Word)."
+title: "Veidojiet konfigurācijas, lai ģenerētu pārskatus Microsoft Office formātos ar iegultiem attēliem elektronisko pārskatu (ER — Electronic Reporting) veidošanai (1. daļa)"
+description: "Šajā tēmā aprakstītās darbības sniedz informāciju par to, kā veidot elektronisko pārskatu (ER) konfigurācijas, kas Microsoft Office formātos (Excel un Word) ģenerē elektroniskus dokumentus, kuri satur iegultus attēlus."
 author: NickSelin
 manager: AnnBe
-ms.date: 06/13/2017
+ms.date: 01/23/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,108 +16,79 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: f610fe4b7f265c4fc38db89938d5c208b4f7661a
+ms.sourcegitcommit: 9cb9343028acacc387370e1cdd2202b84919185e
+ms.openlocfilehash: 844d8de1d5a1958457eaab1d434bef015f92e33c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 01/23/2018
 
 ---
-# <a name="make-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er--part-1"></a>Veidot pārskatus Microsoft Office formātos ar iegultiem attēliem elektronisko pārskatu veidošanai (ER) (1. daļa) 
+# <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er-part-1"></a>Veidojiet konfigurācijas, lai ģenerētu pārskatus Microsoft Office formātos ar iegultiem attēliem elektronisko pārskatu (ER — Electronic Reporting) veidošanai (1. daļa) 
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektronisko atskaišu izstrādātājs var izveidot elektronisko atskaišu veidošanas (Electronic Reporting — ER) konfigurācijas, lai veidotu elektroniskos dokumentus ar iegultiem attēliem MS Office formātos (Excel un Word).
+Lai izpildītu šīs procedūras darbības, vispirms izpildiet procedūru ER konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu. Šajā procedūrā izskaidrots, kā veidot elektronisko pārskatu (ER) konfigurācijas, lai ģenerētu Microsoft Excel vai Word dokumentu, kas satur iegultus attēlus. Šajā procedūrā izveidosit nepieciešamās ER konfigurācijas parauga uzņēmumam Litware, Inc. Šīs darbības var izpildīt, izmantojot USMF datu kopu. Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma. Pirms sākat, lejupielādējiet un saglabājiet failus, kas uzskaitīti palīdzības tēmā [Attēlu un formu iegulšana biznesa dokumentos, kuri tiek ģenerēti, izmantojot elektronisko pārskatu veidošanas rīku](../electronic-reporting-embed-images-shapes.md). Šie faili ir: Model for cheques.xml, Cheques printing format.xml, Company logo.png, Signature image.png, Signature image 2.png un Cheque template Word.docx.
 
-Šajā piemērā jūs izmantosit parauga uzņēmumam “Litware, Inc.” izveidotās ER konfigurācijas.  Lai veiktu šīs darbības, vispirms jāveic darbības, kas aprakstītas uzdevuma ceļvedī “ER: veikt pārskatus MS Office formātos ar iegultiem attēliem (2. daļa: pārskatīt konfigurācijas)”. Šīs darbības var veikt uzņēmumā USMF.
+## <a name="verify-prerequisites"></a>pārbaudiet priekšnoteikumus;  
+ 1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.  
+ 2. Pārliecinieties, vai konfigurācijas nodrošinātājs parauga uzņēmumam “Litware, Inc.” ir pieejams un ir atzīmēts kā aktīvs. Ja neredzat šo konfigurācijas nodrošinātāju, izpildiet darbības, kas aprakstītas procedūrā Konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu.   
+ 3. Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.  
+ 
+## <a name="add-a-new-er-model-configuration"></a>Pievienot jaunu ER modeļa konfigurāciju  
+ 1. Tā vietā, lai izveidotu jaunu modeli, varat ielādēt ER modeļa konfigurācijas failu (Model for cheques.xml), kuru saglabājāt iepriekš. Šis fails satur parauga datu modeli maksājumu čekiem un datu modeļa kartējumu uz programmas Dynamics 365 for Operations datu komponentiem.   
+ 2. Kopsavilkuma cilnē Versijas noklikšķiniet uz Mainīt.   
+ 3. Noklikšķiniet uz Ielādēt no XML faila.  
+ 4. Noklikšķiniet uz Pārlūkot un pēc tam atlasiet Model for cheques.xml.   
+ 5. Noklikšķiniet uz OK.  
+ 6. Ielādētais modelis tiks izmantots kā datu avots informācijai, lai ģenerētu dokumentus, kuros ir attēli, programmā Excel un Word.  
 
+## <a name="add-a-new-er-format-configuration"></a>Jaunas ER formāta konfigurācijas pievienošana  
+ 1. Tā vietā, lai izveidotu jaunu formātu, varat ielādēt ER formāta konfigurācijas failu (Cheques printing format.xml), kuru saglabājāt iepriekš. Šis fails satur formāta parauga izkārtojumu, lai izdrukātu čekus, izmantojot iepriekš izdrukātu formu un šī formāta kartējumu uz datu modeli “Čeku modelis”.   
+ 2. Noklikšķiniet uz Mainīt.  
+ 3. Noklikšķiniet uz Ielādēt no XML faila.  
+ 4. Noklikšķiniet uz Pārlūkot un atlasiet failu Cheques printing format.xml.   
+ 5. Noklikšķiniet uz OK.  
+ 6. Koka struktūrā izvērsiet “Čeku modelis”.  
+ 7. Kokā atlasiet 'Model for cheques\Cheques printing format'.  
+ 8. Ielādētais formāts tiks izmantots, lai ģenerētu dokumentus, kuros ir attēli, programmā Excel un Word.   
 
-## <a name="run-format-with-initial-model-mapping"></a>Formāta palaišana ar sākotnējo modeļa kartējumu
-1. Dodieties uz Kases un bankas vadība > Banku konti > Banku konti.
-2. Izmantojiet ātro filtru, lai filtrētu pēc lauka Bankas konts vērtības USMF OPER.
-3. Darbību rūtī noklikšķiniet uz Iestatīt.
-4. Noklikšķiniet uz Pārbaudīt.
-5. Noklikšķiniet uz Drukāt paraugu.
-    * Palaidiet formātu testēšanas nolūkā.  
-6. Laukā Maksājumu čeka formāts atlasiet Jā.
-7. Noklikšķiniet uz OK.
-    * Pārskatiet izveidoto izvadi. Ņemiet vērā, ka pārskatā ir iekļauts gan uzņēmuma logotips, gan pilnvarotās personas paraksts. Paraksta attēls tiek ņemts no tā čeka izkārtojuma ieraksta lauka ar datu tipu Konteiners, kas ir saistīts ar atlasīto bankas kontu.  
-8. Izvērsiet sadaļu Kopijas.
-9. Noklikšķiniet uz Rediģēt.
-10. Laukā Ūdenszīme ievadiet “Drukāt ūdenszīmi kā Anulēts”.
-    * Mainiet ūdenszīmes izkārtojuma iestatījumu, lai parādītu ūdenszīmes tekstu, ģenerējot dokumentu Excel formas elementā.  
-11. Noklikšķiniet uz Drukāt paraugu.
-12. Noklikšķiniet uz OK.
-    * Pārskatiet izveidoto izvadi. Ņemiet vērā, ka ūdenszīme izveidotajā pārskatā tiek rādīta atbilstoši atlasītajai opcijai.  
-13. Aizvērt lapu.
-14. Darbību rūtī noklikšķiniet uz Pārvaldīt maksājumus.
-15. Noklikšķiniet uz Čeki.
-16. Noklikšķiniet uz Rādīt filtrus.
-17. Lietojiet šādus filtrus: laukā “Čeka numurs” ievadiet filtra vērtību “381”,“385”,“389”, izmantojot filtra operatoru “ir viens no”.
-18. Sarakstā atzīmējiet visas rindas.
-19. Noklikšķiniet uz Drukāt čeka kopiju.
-    * Palaidiet formātu, lai atkārtoti drukātu atlasītos čekus.  
-    * Pārskatiet izveidoto izvadi. Ņemiet vērā, ka atlasītie čeki ir izdrukāti atkārtoti. Uzņēmuma logotips un etiķetes netiek drukātas, jo tās jau ir redzamas iepriekš izdrukātajā veidlapā.  
+## <a name="configure-er-user-parameters"></a>ER lietotāju parametru konfigurēšana  
+ 1. Darbību rūtī noklikšķiniet uz Konfigurācijas.  
+ 2. Noklikšķiniet uz Lietotāja parametri.  
+ 3. Laukā Palaist iestatījumus atlasiet Jā.  
+  Ieslēdziet karodziņu “Palaist melnrakstu”, lai startētu atlasītā formāta melnraksta versiju, nevis pabeigto.  
+ 4. Noklikšķiniet uz OK.  
 
-## <a name="modify-the-mapping-of-the-imported-data-model"></a>Importētā datu modeļa kartējuma modificēšana
-1. Aizvērt lapu.
-2. Aizvērt lapu.
-3. Dodieties uz Organizācijas administrēšana > Elektronisko atskaišu veidošana > Konfigurācijas.
-4. Koka struktūrā atlasiet Čeku modelis.
-5. Noklikšķiniet uz Veidotājs.
-6. Noklikšķiniet uz Kartēšanas modelis datu avotam.
-7. Noklikšķiniet uz Veidotājs.
-    * Mēs mainīsim datu modeļa paraksta vienuma saistījumu, lai iegūtu paraksta attēlu no faila, kas pievienots čeku izkārtojuma ierakstam, kurš ir saistīts ar atlasīto bankas kontu.  
-8. Izslēdziet opciju Rādīt detalizēti.
-9. Kokā izvērsiet elementu “izkārtojums”.
-10. Kokā izvērsiet 'layout\signature'.
-11. Kokā atlasiet 'layout\signature\image = chequesaccount.'<Relations'.BankChequeLayout.Signature1Bmp'.
-12. Kokā izvērsiet sadaļu “chequesaccount”.
-13. Kokā izvērsiet 'chequesaccount\<Relations'.
-14. Kokā izvērsiet 'chequesaccount\<Relations\BankChequeLayout'.
-15. Kokā izvērsiet 'chequesaccount\<Relations\BankChequeLayout\<Relations'.
-16. Kokā izvērsiet 'chequesaccount\<Relations\BankChequeLayout\<Relations\<Documents'.
-17. Kokā atlasiet 'chequesaccount\<Relations\BankChequeLayout\<Relations\<Documents\getFileContentAsContainer()'.
-18. Noklikšķiniet uz Saistīt.
-19. Noklikšķiniet uz Saglabāt.
-20. Aizvērt lapu.
-21. Aizvērt lapu.
-22. Aizvērt lapu.
-23. Aizvērt lapu.
-
-## <a name="run-format-using-the-adjusted-model-mapping"></a>Formāta palaišana, izmantojot pielāgoto modeļa kartējumu
-1. Dodieties uz Kases un bankas vadība > Banku konti > Banku konti.
-2. Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus. Piemēram, filtrējiet pēc lauka Bankas konts vērtības “USMF OPER”.
-3. Darbību rūtī noklikšķiniet uz Iestatīt.
-4. Noklikšķiniet uz Pārbaudīt.
-5. Noklikšķiniet uz Drukāt paraugu.
-6. Noklikšķiniet uz OK.
-    * Pārskatiet izveidoto izvadi. Ņemiet vērā, ka attēls no dokumentu pārvaldības pielikuma tiek izmantots kā pilnvarotas personas paraksts.  
-
-## <a name="use-ms-word-document-as-a-template-in-the-imported-format"></a>Izmantot MS Word dokumentu kā veidni importētajā formātā
-1. Aizvērt lapu.
-2. Aizvērt lapu.
-3. Dodieties uz Organizācijas administrēšana > Elektronisko atskaišu veidošana > Konfigurācijas.
-4. Koka struktūrā izvērsiet “Čeku modelis”.
-5. Kokā atlasiet 'Model for cheques\Cheques printing format'.
-6. Noklikšķiniet uz Veidotājs.
-7. Noklikšķiniet uz Pielikumi.
-8. Noklikšķiniet uz Dzēst.
-9. Noklikšķiniet uz Jā.
-10. Noklikšķiniet uz Jauns.
-11. Noklikšķiniet uz Fails.
-    * Noklikšķiniet uz Pārlūkot un atlasiet iepriekš lejupielādēto failu “Čeku veidne Word.docx”.  
-12. Aizvērt lapu.
-13. Ievadiet vai atlasiet kādu vērtību laukā Veidne.
-14. Noklikšķiniet uz Saglabāt.
-15. Aizvērt lapu.
-16. Noklikšķiniet uz Rediģēt.
-17. Laukā Palaist melnrakstu atlasiet Jā.
-18. Aizvērt lapu.
-19. Dodieties uz Kases un bankas vadība > Banku konti > Banku konti.
-20. Izmantojiet ātro filtru, lai filtrētu pēc lauka Bankas konts vērtības USMF OPER.
-21. Noklikšķiniet uz Pārbaudīt.
-22. Noklikšķiniet uz Drukāt paraugu.
-23. Noklikšķiniet uz OK.
-    * Pārskatiet izveidoto izvadi. Ņemiet vērā, ka izvade ir izveidota kā MS Word dokuments ar iegultiem attēliem, kuros redzams uzņēmuma logotips, pilnvarotas personas paraksts un atlasītais ūdenszīmes teksts.  
-
+## <a name="configure-cash--bank-management-parameters"></a>Kases un bankas vadības parametru konfigurēšana  
+ 1. Dodieties uz Kases un bankas vadība > Banku konti > Banku konti.  
+ 2. Izmantojiet ātro filtru, lai filtrētu pēc lauka Bankas konts vērtības USMF OPER.  
+ 3. Darbību rūtī noklikšķiniet uz Iestatīt.  
+ 4. Noklikšķiniet uz Pārbaudīt.  
+ 5. Izvērsiet sadaļu Iestatīšana.  
+ 6. Noklikšķiniet uz Rediģēt.  
+ 7. Laukā Uzņēmuma logotips atlasiet Jā.  
+ 8. Noklikšķiniet uz Uzņēmuma logotips.  
+ 9. Noklikšķiniet uz Mainīt.  
+ 10. Noklikšķiniet uz Pārlūkot un atlasiet iepriekš lejupielādēto failu Company logo.png.   
+ 11. Noklikšķiniet uz Saglabāt.  
+ 12. Aizvērt lapu.  
+ 13. Izvērsiet sadaļu Paraksts.  
+ 14. Laukā Drukāt pirmo parakstu atlasiet Jā.  
+ 15. Noklikšķiniet uz Mainīt.  
+ 16. Noklikšķiniet uz Pārlūkot un atlasiet iepriekš lejupielādēto failu Signature image.png.   
+ 17. Izvērsiet sadaļu Kopijas.  
+ 18. Laukā Ūdenszīme atlasiet opciju.  
+ 19. Laukā Vispārīgs elektroniskās eksportēšanas formāts atlasiet Jā.  
+ 20. Atlasiet konfigurāciju “Čeku drukāšanas forma”.  
+ 21. Tagad atlasītais ER formāts tiks izmantots čeku drukāšanai.  
+ 22. Noklikšķiniet uz Pievienot.  
+ 23. Noklikšķiniet uz Jauns.  
+ 24. Noklikšķiniet uz Fails.  
+ 25. Noklikšķiniet uz Pārlūkot un atlasiet iepriekš lejupielādēto failu Signature image 2.png.   
+ 26. Aizvērt lapu.  
+ 27. Aizvērt lapu.  
+ 28. Aizvērt lapu.  
+ 29. Pārejiet uz sadaļu Kases un bankas pārvaldība > Iestatījumi > Kases un bankas pārvaldības parametri.  
+ 30. Laukā Atļaut darījuma pārbaudes izveidi neaktīviem bankas kontiem atlasiet Jā.  
+ 31. Noklikšķiniet uz Saglabāt.  
+ 32. Aizvērt lapu.  
 

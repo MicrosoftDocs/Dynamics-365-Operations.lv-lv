@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,10 +18,10 @@ ms.author: epopov
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2ec0af71e199075c885fa2f46de6c68397392704
+ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
+ms.openlocfilehash: 3c284b8c67121b39837bef827dea6f24da2a0f4b
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/23/2018
 
 ---
 
@@ -44,7 +45,7 @@ Izmantojot avansa rēķina funkcionalitāti, varat izpildīt tālāk noradītos 
 Polijas uzņēmumiem, kuri saņem priekšapmaksas, ir debitoram jāizveido priekšapmaksas rēķins. Šāds avansa rēķins tiek grāmatots Virsgrāmatā un ir obligāts dokuments PVN vajadzībām. Par nodokli, kas tiek aprēķināts avansa rēķinā, jāziņo nodokļu iestādei. Ja tiek veikta preču gala pārdošana, pārdošanas rēķinā ir jānorāda avansa rēķins. Pārdošanas kopsummā ir jāietver priekšapmaksas summas. Ja pārdošanas rēķins tiek grāmatots, nosegtais avansa rēķins tiek atsaukts. Sākotnējā avansa rēķins tiks nosegts ar avansa rēķina atsaukšanu.
 
 ## <a name="set-up-accounts-receivable-for-advance-invoices"></a>Debitoru iestatīšana avansa rēķiniem
-Lapas **Debitoru moduļa parametri** cilnē **Atjaunināšana** norādiet tālāk norādītos parametrus.
+Lapas **Debitoru parādu parametri** cilnē **Atjauninājumi** norādiet tālāk norādītos parametrus.
 
 |Kopsavilkuma cilne|Parametrs|Apraksts|
 |------|----------|------------|

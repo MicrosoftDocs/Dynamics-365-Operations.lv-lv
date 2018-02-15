@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6ffb97b53f522cfe8ccd8e89df854cbc557e4f1f
-ms.openlocfilehash: fadc373b2c1c06987f22d4d9c20a9ab07b0c85d5
+ms.sourcegitcommit: a53c1997f74ebe572b17cc3090d2e236b6fe78f6
+ms.openlocfilehash: 8a84cfe9b73f0c72f3cb0c3843749754c6b3d538
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 01/31/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a>Microsoft Dynamics 365 for Talent nodrošināšana
@@ -60,6 +60,9 @@ Kad esat izveidojis LCS projektu, pakalpojumu Talent varat nodrošināt kādā v
 > Ja vēl neesat izpildījis gala prasības, projektā varat izvietot Talent testa instanci. Pēc tam šo instanci varat lietot sava risinājuma testēšanai līdz brīdim, kad izrakstāties. Ja testēšanai lietojat savu jauno vidi, šī procedūra ir jāatkārto, lai izveidotu ražošanas vidi.
 
 ## <a name="create-a-new-powerapps-environment-if-required"></a>Jaunas PowerApps vides izveidošana (ja nepieciešams)
+
+Talent integrācija ar PowerApps vidēm izstrādāta, lai nodrošinātu datu integrācijas un paplašinājumu plūsmas, papildus Talent datiem izmantojot PowerApps rīkus. Tādēļ, izvēloties produktam Talent izmantojamo vidi, ir svarīgi izprast PowerApps vides mērķi. Papildinformāciju par PowerApps vidēm, tostarp vides tvērumu, piekļuvi videi, kā arī vides izveidi un izvēli skatiet tēmā [Paziņojums par PowerApps vidēm](https://powerapps.microsoft.com/en-us/blog/powerapps-environments/).  Lai gan katrs nomnieks ir automātiski nodrošināts noklusējuma PowerApps vidē, tā var nebūt labākā vide, ko izmantot Talent izvietojumam. Šīs darbības laikā ir jāapsver datu integrācijas un testēšanas stratēģijas, tādēļ ieteicams apsvērt dažādās implikācijas jūsu videi, jo vēlāk to nevarēs viegli mainīt.
+
 1. Pakalpojumā LCS atlasiet **Pārvaldīt vides**. Tiek atvērts [PowerApps administrēšanas centrs](https://preview.admin.powerapps.com/environments), kur varat skatīt esošās vides un izveidot jaunas vides.
 2. Atlasiet pogu (**+**) **Jauna vide**.
 3. Ievadiet unikālu vides nosaukumu un atlasiet vietu, kur to izvietot.
@@ -74,9 +77,20 @@ Kad esat izveidojis LCS projektu, pakalpojumu Talent varat nodrošināt kādā v
     > [!IMPORTANT]
     > Ja iepriekš esat izveidojis CD datu bāzi un ievadījis tajā kādus jūsu uzņēmuma ražošanas datus, ņemiet vērā, ka ar šīm darbībām tiek noņemti **visi** atlasītajā datu bāzē esošie dati, pat jūsu uzņēmuma ražošanas dati.
 
-    1. Pierakstieties programmās [PowerApps](https://preview.web.powerapps.com/home) un dodieties uz vidi, ko izveidojāt 2. darbībā.
-    2. Atlasiet **Elementi**. Lapas labajā pusē atlasiet daudzpunktes (**...**) pogu un pēc tam atlasiet **Notīrīt visus datus**.
-    3. Atlasiet **Dzēst datus**, lai apstiprinātu, ka vēlaties šos datus noņemt. Ar šo darbību tiek noņemti visi demonstrācijas dati, kas CDS ir ietverti pēc noklusējuma. Tiek noņemti arī visi citi dati, kas ir ievadīti atlasītajā datu bāzē.
-
+    1. Pierakstieties pakalpojumā [PowerApps](https://preview.web.powerapps.com/home) un lapas labajā pusē esošajā nolaižamajā sarakstā atlasiet 2. darbībā izveidoto vidi.
+    2. Kreisajā navigācijas rūtī izvērsiet vienumu **Common Data Service** un izvēlieties vienumu **Elementi**.
+    3. Lapas labajā pusē atlasiet daudzpunktes (**...**) pogu un pēc tam atlasiet **Notīrīt visus datus**.
+    4. Atlasiet **Dzēst datus**, lai apstiprinātu, ka vēlaties šos datus noņemt. Ar šo darbību tiek noņemti visi demonstrācijas dati, kas CDS ir ietverti pēc noklusējuma. Tiek noņemti arī visi citi dati, kas ir ievadīti atlasītajā datu bāzē.
+    
 Tagad varat lietot savu jauno vidi.
+
+## <a name="granting-access-to-the-environment"></a>Piekļuves piešķiršana videi
+Globālajam administratoram, kurš izveidoja vidi, piekļuve būs pēc noklusējuma, taču citiem programmas lietotājiem piekļuve ir jāpiešķir. To var izdarīt, [pievienojot lietotājus](../dev-itpro/sysadmin/tasks/create-new-users.md) un [piešķirot viņiem atbilstošās lomas](../dev-itpro/sysadmin/tasks/assign-users-security-roles.md) pamata personāla vadības vidē. Papildus tam šie lietotāji ir arī jāpievieno PowerApps videi, lai viņi varētu piekļūt Attract un Onboard programmām.  Emuāra ieraksts [Iepazīstināšana ar PowerApps administrēšanas centru](https://powerapps.microsoft.com/en-us/blog/introducing-admin-center-for-powerapps/) var jums palīdzēt veikt tālāk aprakstītās darbības.
+
+> 1.    Globālajam administratoram, kas izvietoja Talent vidi, ir jāpāriet uz [PowerApps administrēšanas centru](https://preview.admin.powerapps.com/environments).   
+> 2.    Atlasiet attiecīgo(-ās) vidi(-es).
+> 3.    Cilnē Drošība pievienojiet vajadzīgos lietotājus lomai Vides veidotājs.
+
+Ņemiet vērā, ka šī pēdējā darbība, kurā lietotāji tiek pievienoti PowerApps videi, ir īslaicīga. Mēs vēlāk pievienosim funkcionalitāti, kas to izpildīs automātiski, kad lietotājs tiks pievienots pamata personāla vadības vidē.
+
 

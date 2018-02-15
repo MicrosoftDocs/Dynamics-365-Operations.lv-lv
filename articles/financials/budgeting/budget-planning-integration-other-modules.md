@@ -3,11 +3,12 @@ title: "Budžeta plānošanas integrācija ar citiem moduļiem"
 description: "Budžeta plānus var ģenerēt no vairākiem atšķirīgiem resursiem. Periodiskā procesa pamatelementi ir vienādi visiem resursiem."
 author: twheeloc
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BudgetPlanGenerate
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7663453ddf87bcb43d2f19ebec3c9bda90eda884
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: f50e58d63a9db4d6a8b5390174e2c7b87970717d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 
@@ -51,7 +52,7 @@ Periodiskā procesa pamatelementi ir vienādi visiem procesiem. Cilnes ļauj def
 
 Katram ražošanas procesam ir pieejamas trīs darbības:
 
--   Ar darbību **Izveidot jaunu budžeta plānu** tiek izveidots jauns plāns, kuram ir sadaļā **Mērķis** atlasītie atribūti. Šiem atribūtiem nav jābūt unikāliem. Tāpēc diviem plāniem var būt vienāds nosaukums un citas vērtības.
+-   **Izveidot jaunu budžeta plānu** izveido jaunu plānu, kuram ir atribūti, kas atlasīti sadaļā **Mērķis**. Šiem atribūtiem nav jābūt unikāliem. Tāpēc diviem plāniem var būt vienāds nosaukums un citas vērtības.
 -   **Aizstāt esošo budžeta plāna scenāriju** dzēš visus datus mērķa budžeta plānā atlasītajā budžeta plāna scenārijā un izveido jaunas rindas, kas lieto atlasītos avota datus.
 -   **Atjaunināt esošo budžeta plāna scenāriju un pievienot jaunus datus** atjaunina esošās rindas mērķa plānā, kas atbilst avota rindām, un pievieno jaunas rindas jauniem datiem. Atbilstības pamatā ir Virsgrāmatas konts, datums, budžeta klase un dažādi citi lauki. Piemēram, ģenerējot budžeta plānus no prognozes pozīcijām, pozīcijas numurs ir svarīgs lauks. Visas rindas, kurām ir pozīcijas numurs, kas atbilst avota pozīcijas numuram, tiek aizstātas ar jaunām rindām no avota.
 
@@ -110,7 +111,7 @@ Lauka **Budžeta klase** nav, jo budžeta klasi (**Izdevumus** vai **Ieņēmumus
 
 Projekta budžetus var izmantot kā avotu, atlasot budžeta modeli, kas ietver projekta budžeta summas. Atcerieties, ka projektu budžeti izveido projekta budžeta ierakstus, kad tie tiek apstiprināti.
 
-Lai atlasītu tikai budžeta plāna rindu izmaksas vai ieņēmumus, izmantojiet filtru, lai atlasītu **Budžeta labojumi: Summas tips = Izmaksas**. Lai atlasītu tikai viena tipa prognozes, izmantojiet filtru, lai atlasītu **Budžeta labojumi: Transakcijas tips = *xxx***. 
+Lai atlasītu tikai budžeta plāna rindu izmaksas vai ieņēmumus, izmantojiet filtru, lai atlasītu **Budžeta labojumi: Summas tips = Izmaksas**. Lai atlasītu tikai viena tipa prognozes, izmantojiet filtru un atlasiet **Budžeta labojumi: transakcijas tips = *xxx***. 
 
 Tikai vienu budžeta modeli var izmantot, lai ģenerētu budžeta plāna scenāriju. Ja veicat procesu vienam budžeta modelim, un pēc tam veicat atjauninājumu un mēģināt norādīt citu modeli, pirmais modelis tiks pārrakstīts, ja lieto vienu un to pašu projektu un Virsgrāmatas konus. Lai ģenerētu budžeta plāna scenāriju no vairāk nekā viena budžeta modeļa, ģenerējiet citos budžeta plāna scenārijos un izmantojiet sadalījuma opcijas, lai tās pievienotu kopā citā scenārijā. 
 
