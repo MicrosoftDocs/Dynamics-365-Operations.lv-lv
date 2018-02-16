@@ -6,19 +6,22 @@ manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
+ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
-ms.search.scope: 
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
+ms.search.industry: retail
 ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 346f5b7a5fbbe2c41aaa54e0b36fe0c46baec0af
-ms.openlocfilehash: bb4d8fae432eca7fe9163dcb0763fff5c8d465f0
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 2fa843aee8927a1cb4f642c31d6f5683098d3c74
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -49,9 +52,9 @@ Veikala līmenī ir pieejams konfigurācijas iestatījums, kurš nosaka, vai pas
 
 Veikalam piešķirtās pasūtījuma rindas pēc noklusējuma ir atzīmētas kā **Pieņemts**. Tas nozīmē, ka tiek uzskatīts, ka šīs rindas tiks izpildītas no piešķirtā veikala un ka tām netiks veikta tālāka piešķiršana. Noteiktos gadījumos mazumtirgotāji var vēlēties pirms pasūtījumu izpildes šos pasūtījumus pieņemt manuāli. Piemēram, ja veikalā trūkst darbinieku un tas nespēj izpildīt pasūtījumus, veikala vadītājs apstrādei pieņems tikai tik daudz pasūtījumu, cik pēc viņa domām konkrētajā dienā ir iespējams pienācīgi apstrādāt. Līdz pasūtījuma pieņemšanai vadība tam var mainīt piešķiri, šo pasūtījumu piešķirot citam veikalam. Šādi pasūtījuma pieņemšana nodrošina arī veidu, kā norādīt, ka veikals pasūtījumu ir apstiprinājis un ka tas tiks izpildīts. 
 
-Pasūtījumu rindas, kas ir paredzētas izdošanai veikalā, vienmēr ir atzīmētas kā **Gaida**, un pieņemšana uz tām neattiecas.
+Pasūtījumu rindas, kas ir paredzētas izdošanai veikalā, ir atzīmētas kā **Gaida**, un pieņemšana uz tām neattiecas.
 
-Lai pasūtījumu rindām ieslēgtu manuālu pieņemšanu, dodieties uz **Retail** > **Kanāli** > **Mazumtirdzniecības veikali** > **Visi mazumtirdzniecības veikali**. Atlasiet veikalu un noklikšķiniet uz veikala ID, lai skatītu detalizētu informāciju par šo veikalu. Noklikšķiniet uz **Rediģēt**. Kopsavilkuma cilnē **Vispārīgi** atrodiet apakšvirsrakstu **Pasūtījuma izpilde** un vienumam **Manuāla pieņemšana** vērtību **Nē** mainiet uz **Jā**. 
+Lai pasūtījumu rindām ieslēgtu manuālu pieņemšanu, atveriet sadaļas **Retail** > **Kanāli** > **Mazumtirdzniecības veikali** > **Visi mazumtirdzniecības veikali**. Atlasiet veikalu un noklikšķiniet uz veikala ID, lai skatītu detalizētu informāciju par šo veikalu. Noklikšķiniet uz **Rediģēt**. Kopsavilkuma cilnē **Vispārīgi** atrodiet apakšvirsrakstu **Pasūtījuma izpilde** un vienumam **Manuāla pieņemšana** vērtību **Nē** mainiet uz **Jā**. 
 
 ### <a name="enable-reject-order-line-capability"></a>Iespējot pasūtījuma rindas noraidīšanas iespēju
 
@@ -114,7 +117,7 @@ Pasūtījumu statuss pēc noklusējuma ir **Pieņemts**. Pasūtījumu rindu sara
 
 **Iepakot** — iepakošanas opcija atbalsta divas darbības: ar darbību **Drukāt pavadzīmi** atlasītajām rindām tiek drukāta pavadzīme, un ar darbību **Atzīmēt kā iepakotu** rindas tiek atzīmētas kā iepakotas un rindas tiek atzīmētas kā piegādātas iekšējās uzskaites daļā. Vienlaikus var iepakot tikai tādas pasūtījumu rindas, kas pieder vienam un tam pašam pasūtījumam un kam ir vienāds piegādes veids. Pavadzīmju formātu kontrolēšana veido daļu no ieejas plūsmas formātu kontroles. Papildinformāciju par to, kā iestatīt ieejas plūsmas formātus, skatiet šeit: [Ieejas plūsmas veidnes un drukāšana](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/receipt-templates-printing).
 
-**Nosūtīt** — nosūtīšanas darbība atlasītās rindas iekšējās uzskaites daļā atzīmē kā **Piegādāts**. Kad rinda ir pilnībā nosūtīta, tā vairs netiek rādīta veikala izpildes skatā.
+**Nosūtīt** — nosūtīšanas darbība atlasītās rindas iekšējās uzskaites daļā atzīmē kā **Piegādāts**. Kad rinda ir pilnībā nosūtīta, tā vairs netiek rādīta pasūtījuma izpildes skatā.
 
 **Izdošana** — izdošanas darbība attiecīgās rindas pievieno izdošanai paredzētās transakcijas skatam. Ja pasūtījumā ir citas rindas, kas pašlaik netiek izdotas, tās tiek pievienotas transakciju skatam ar daudzumu nulle. Kad rinda ir pilnībā izdota, tā vairs netiek rādīta pasūtījuma izpildes skatā. 
 

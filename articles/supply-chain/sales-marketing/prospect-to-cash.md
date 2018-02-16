@@ -3,12 +3,12 @@ title: "No potenciālā klienta līdz skaidrai naudai"
 description: "Šajā tēmā ir sniegts apskats par risinājumu No potenciālā klienta līdz skaidrai naudai programmās Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, un Microsoft Dynamics 365 for Sales."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 12/20/2017
+ms.date: 02/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: 
+ms.search.form: CustTable, SalesTable, EcoResProductListPage
 audience: Application User, IT Pro
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -17,13 +17,13 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: 
 ms.author: crytt
-ms.dyn365.ops.intro: July 2017 update
+ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: f169b0ee20a7ca0c8d05c8bdcf2c04d411722f01
-ms.openlocfilehash: ff166f89d13acbc3aefcbdb39f485881c81cb42c
+ms.sourcegitcommit: 602873e8af976c57f27ce53b76391516351755e3
+ms.openlocfilehash: 29d33d3ecf97c15fed0247d172ff6fb3bbdaa018
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -31,17 +31,21 @@ ms.lasthandoff: 12/21/2017
 
 [!include[banner](../includes/banner.md)]
 
-Risinājums “No potenciālā klienta līdz skaidrai naudai” nodrošina tiešu sinhronizēšanu starp programmu Dynamics 365 for Finance and Operations, Enterprise Edition, un programmu Dynamics 365 for Sales. Risinājuma No potenciālā klienta līdz skaidrai naudai veidnes, kas ir pieejamas ar līdzekli Datu integrācija, nodrošina ar kontiem, kontaktpersonām, precēm, pārdošanas piedāvājumiem, pārdošanas pasūtījumiem un pārdošanas rēķiniem saistīto datu plūsmu starp programmām Finance and Operations un Sales. Kamēr notiek datu plūsma starp Finance and Operations un Sales, programmā Sales varat veikt pārdošanas un mārketinga aktivitātes, un varat tikt galā ar pasūtījuma izpildi, izmantojot krājumu vadību programmā Finance and Operations.
+Risinājums “No potenciālā klienta līdz skaidrai naudai” nodrošina tiešu sinhronizēšanu starp programmu Dynamics 365 for Finance and Operations, Enterprise Edition, un programmu Dynamics 365 for Sales. Risinājuma No potenciālā klienta līdz skaidrai naudai veidnes, kas ir pieejamas ar līdzekli Datu integrācija, nodrošina ar kontiem, kontaktpersonām, precēm, pārdošanas piedāvājumiem, pārdošanas pasūtījumiem un pārdošanas rēķiniem saistīto datu plūsmu starp programmām Finance and Operations un Sales. Kamēr notiek datu plūsma starp Finance and Operations un Sales, programmā Sales varat veikt pārdošanas un mārketinga aktivitātes, un varat tikt galā ar pasūtījuma izpildi, izmantojot krājumu vadību programmā Finance and Operations. 
+
+Lai iegūtu papildinformāciju par integrāciju No potenciālā klienta līdz skaidrai naudai, noskatieties īso YouTube video:
+
+> [!Video https://www.youtube.com/embed/AVV9x5x-XCg]
 
 Pašreizējā versijā risinājums No potenciālā klienta līdz skaidrai naudai nodrošina tālāk aprakstītos tiešās sinhronizācijas tipus.
 
 - [Kontu uzturēšana programmā Sales un to tieša sinhronizēšana ar programmu Finance and Operations](accounts-template-mapping-direct.md)
 - [Preču uzturēšana programmā Finance and Operations un to tieša sinhronizēšana ar programmu Sales](products-template-mapping-direct.md)
 - [Kontaktpersonu uzturēšana programmā Sales un to tieša sinhronizēšana ar kontaktpersonām vai debitoriem programmā Finance and Operations](contacts-template-mapping-direct.md)
-- [Pārdošanas piedāvājuma tieša sinhronizēšana no programmas Sales uz programmu Finance and Operations](sales-quotation-template-mapping-sales-fin.md)
+- [Programmā Sales ietverto pārdošanas piedāvājumu tieša sinhronizēšana ar programmu Finance and Operations (veidne, kas gaida izlaišanu)](sales-quotation-template-mapping-sales-fin.md)
 - [Pārdošanas pasūtījumu tieša sinhronizēšana no programmas Finance and Operations uz programmu Sales](sales-order-template-mapping-direct.md)
-- [Pārdošanas pasūtījumu tieša sinhronizēšana no programmas Finance and Operations uz programmu Sales un otrādi](sales-order-template-mapping-direct-two-ways.md)
-- [Pārdošanas rēķinu tiešā sinhronizēšana no Finance and Operations uz Sales](sales-invoice-template-mapping-direct.md)
+- [Pārdošanas pasūtījumu tieša sinhronizēšana no programmas Sales uz programmu Finance and Operations un otrādi (veidne, kas gaida izlaišanu)](sales-order-template-mapping-direct-two-ways.md)
+- [Pārdošanas rēķina tieša sinhronizēšana no programmas Finance and Operations uz programmu Sales](sales-invoice-template-mapping-direct.md)
 
 Agrākās versijās risinājums No potenciālā klienta līdz skaidrai naudai nodrošina tālāk aprakstītos netiešās sinhronizācijas tipus.
 
@@ -50,15 +54,19 @@ Agrākās versijās risinājums No potenciālā klienta līdz skaidrai naudai no
 - [Preču uzturēšana programmā Finance and Operations un to tieša sinhronizēšana ar programmu Sales](products-template-mapping.md)
 - [Pārdošanas piedāvājumu izveidošana programmā Sales un to sinhronizēšana ar Finance and Operations](sales-quotation-template-mapping.md)
 - [Pārdošanas pasūtījumu izveidošana programmā Finance and Operations un to sinhronizēšana ar programmu Sales](sales-order-template-mapping.md)
-- [Pārdošanas rēķinu izveidošana programmā Finance and Operations un to sinhronizēšana ar Sales](sales-invoice-template-mapping.md)
+- [Pārdošanas rēķinu izveidošana programmā Finance and Operations un to sinhronizēšana ar programmu Sales](sales-invoice-template-mapping.md)
 
 ## <a name="system-requirements-for-finance-and-operations"></a>Sistēmas prasības programmai Finance and Operations
 
-Lai lietotu risinājumu No potenciālā klienta līdz skaidrai naudai, ir jābūt instalētiem tālāk uzskaitītajiem komponentiem.
+Integrācija No potenciālā klienta līdz skaidrai naudai tiek atbalstīta tālāk norādītajās versijās.
+
+### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3 (2017. gada decembris)
+
+- Dynamics 365 for Finance and Operations Enterprise Edition (2017. gada decembris) — programmas būvējums 7.3.11971.56116 ar 12. platformas atjauninājumu (7.0.4709.41129)
 
 ### <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Dynamics 365 for Finance and Operations, Enterprise Edition (2017. gada jūlijs)
 
-- Dynamics 365 for Finance and Operations, Enterprise Edition (2017. jūlijs) ar platformas 8. atjauninājumu (programmas būvējums 7.2.11792.56024 ar platformas būvējumu 7.0.4565.16212)
+- Dynamics 365 for Finance and Operations Enterprise Edition (2017. jūlijs) — ar 8. platformas atjauninājumu (programmas būvējums 7.2.11792.56024 ar platformas būvējumu 7.0.4565.16212)
 - Ir nepieciešami tālāk minētie labojumfaili.
 
     - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** — šis labojumfails ļauj veikt pārdošanas pasūtījumu sinhronizēšanu no Sales uz Finance and Operations, izmantojot līdzekli Datu integrācija. Tas nodrošina arī vairākus citus uzlabojumus.
@@ -68,7 +76,7 @@ Lai lietotu risinājumu No potenciālā klienta līdz skaidrai naudai, ir jābū
     > [!NOTE]
     > Ir nepieciešams instalēt tikai labojumfailu KB4045570, jo tā instalācijā ir ietvertas citos labojumfailos ietvertās izmaiņas. 
 
-### <a name="dynamics-365-for-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 for Finance and Operations, versija 1611 (2016. gada novembris) 
+### <a name="dynamics-365-for-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 for Finance and Operations, versija 1611 (2016. gada novembris)
 
 - Dynamics 365 for Finance and Operations, versija 1611 (2016. gada novembris) ar platformas 8. atjauninājumu vai jaunāku
 
@@ -106,4 +114,6 @@ Lai lietotu risinājumu No potenciālā klienta līdz skaidrai naudai, ir jābū
     2. Atlasiet **Rādīt papildu**.
     3. Lai veiktu ātru instalēšanu, atlasiet kādu reģionu. Ja atlasāt **Nezinu**, sistēma meklē visus reģionus un instalēšana aizņem vairāk laika.
     4. Ievadiet lietotājvārdu un paroli lietotājam ar administratora tiesībām, kuram ir tiesības veikt instalēšanu.
+
+
 

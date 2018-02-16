@@ -3,11 +3,12 @@ title: "Debitoru maksājumi daļējai summai"
 description: "Reizēm debitori veic maksājumu, kas ir mazāks par rēķinā norādīto summu. Šajā rakstā ir aprakstītas dažādās opcijas, ko darīt šādās situācijās. Jums pieejamās opcijas ir atkarīgas no jūsu biznesa prasībām un konfigurācijas."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 01/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustPaymEntry
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c2ba17b97bf7a00ff111e72314e98f5af7aaed80
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: 6b7494a05392cbee70e6d5883bae0295e8b55ac9
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 
@@ -41,7 +42,7 @@ Klienti varētu veikt daļēju maksājumu, vienkārši tāpēc, ka nav pieejams 
 Varat piedāvāt debitoriem termiņatlaidi, apmaksājot rēķinu pirms apmaksas datuma. Piemēram, jūs ievadiet rēķinu par summu 100,00, kas norāda 2 procentu termiņatlaidi, ja rēķins tiks samaksāts 10 dienu laikā. Apmaksas datuma termiņš ir 30 dienas. Ja saņemat maksājumu 98,00 10 dienu laikā, ievadiet maksājumu par summu 98,00. Pēc tam, kad rēķins ir atzīmēts nosegšanai, termiņatlaide tiek piemērota automātiski.
 
 ## <a name="partial-payments-with-cash-discounts"></a>Daļēji maksājumi ar termiņatlaidēm
-Kad klienti veic daļēju maksājumu, iespējams, tie plāno veikt papildu daļēju maksājumu, lai pilnībā segtu rēķinu. Lai daļējam maksājumam izmantotu termiņatlaidi, lapā **Debitoru moduļa parametri** opcijai **Aprēķināt termiņatlaides daļējiem maksājumiem** ir jāiestata vērtība **Jā**. 
+Kad klienti veic daļēju maksājumu, iespējams, tie plāno veikt papildu daļēju maksājumu, lai pilnībā segtu rēķinu. Lai daļējam maksājumam izmantotu termiņatlaidi, jums jāiestata opciju **Aprēķināt termiņatlaides daļējiem maksājumiem** uz **Jā**, lapā **Debitoru moduļa parametri**. 
 
 Piemēram, varat piedāvāt 2 procentu termiņatlaidi, ja rēķins tiek apmaksāts 10 dienu laikā pēc tā izrakstīšanas. Rēķins ir iegrāmatots par summu 100,00. Ja saņemat maksājumu 49,00 10 dienu laikā, ievadiet maksājumu žurnālā kredītu par summu 49,00. Kad iestatāt daļēju maksājumu lapā **Darbību segšana**, **1,00** parādās laukā **Ņemamā termiņatlaides summa**. Atlaides summa tiek grāmatota uz termiņatlaides kontu. 
 
