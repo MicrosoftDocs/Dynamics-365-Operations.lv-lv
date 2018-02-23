@@ -54,10 +54,6 @@ Norādiet virsgrāmatas kontus, kas tiek lietoti, lai grāmatotu transakcijas, k
 Ja vēlaties, lai visu debitoru transakcijām būtu vienāda grāmatošanas metode, iestatiet tikai vienu grāmatošanas metodi, kurai laukā Konta kods ir vērtība Visi. Lai iestatītu savu grāmatošanas metodi, norādiet šādas vērtības:
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Lauks</th>
