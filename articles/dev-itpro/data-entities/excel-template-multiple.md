@@ -27,6 +27,8 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="excel-templates-with-multiple-worksheets"></a>Excel veidnes ar vairākām darblapām
 
+[!include[banner](../includes/banner.md)]
+
 Datu pārvaldība programmā Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, datu elementiem atbalsta uz Microsoft Excel balstītas veidnes. Šajās veidnēs var būt viena vai vairākas darblapas. Veidnes ar vairākām darblapām bieži tiek izmantotas, kad ir vēlams datus pārvaldīt vienā failā un to importēt vairākos datu elementos. Kā piemēru varētu minēt vietas un noliktavas.
 
 ## <a name="upload-a-file-once-and-map-it-to-all-entities"></a>Faila augšupielādēšana vienu reizi un kartēšana uz visiem elementiem
