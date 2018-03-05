@@ -17,13 +17,15 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 8140b452e8f9c7b94b4466a57100a1559cf0919e
+ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
+ms.openlocfilehash: 34dc8d762db4a4802e52188ebda298db234ee376
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/05/2018
 
 ---
 # <a name="vendor-invoice-automation"></a><span data-ttu-id="42a42-103">Kreditoru rēķinu izrakstīšanas automatizācija</span><span class="sxs-lookup"><span data-stu-id="42a42-103">Vendor invoice automation</span></span>
+
+[!include[banner](../includes/banner.md)]
 
 <span data-ttu-id="42a42-104">Šajā tēmā ir paskaidrots, kādi līdzekļi ir pieejami kreditoru rēķinu (arī to rēķinu, kam ir pielikumi) automatizācijai visā procesa garumā.</span><span class="sxs-lookup"><span data-stu-id="42a42-104">This topic explains the features that are available for end-to-end automation of vendor invoices, even invoices that include attachments.</span></span>
 

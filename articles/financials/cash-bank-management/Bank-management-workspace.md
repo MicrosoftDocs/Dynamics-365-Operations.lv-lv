@@ -17,13 +17,15 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 421dc85a3f8ccd490993412c12f8766f46d3242a
+ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
+ms.openlocfilehash: 3c38807e9ed3b2ced37ada35b72e388c125bd654
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/05/2018
 
 ---
 # <a name="bank-management-workspace"></a><span data-ttu-id="d3737-106">Bankas pārvaldības darbvieta</span><span class="sxs-lookup"><span data-stu-id="d3737-106">Bank management workspace</span></span>
+
+[!include[banner](../includes/banner.md)]
 
 <span data-ttu-id="d3737-107">Darbvietā **Banku vadība** tiek rādīta informācija, kas ir saistīta ar uzņēmuma bankas kontiem.</span><span class="sxs-lookup"><span data-stu-id="d3737-107">The **Bank management** workspace shows information that is related to company bank accounts.</span></span> <span data-ttu-id="d3737-108">Darbvietā ir ietverts skats **Kopsavilkums** un lapa **Analīze**.</span><span class="sxs-lookup"><span data-stu-id="d3737-108">This workspace includes a **Summary** view and an **Analytics** page.</span></span> <span data-ttu-id="d3737-109">Skatā **Kopsavilkums** tiek rādīti kopsavilkuma elementi, bankas konta informācija, bilances diagramma un saistītā informācija.</span><span class="sxs-lookup"><span data-stu-id="d3737-109">The **Summary** view shows summary tiles, bank account information, a balance chart, and related information.</span></span> <span data-ttu-id="d3737-110">Lapā **Analīze** tiek izmantotas Microsoft Power BI iespējas, lai parādītu ar bankas kontu bilancēm saistītas vizualizācijas.</span><span class="sxs-lookup"><span data-stu-id="d3737-110">The **Analytics** page uses the capabilities of Microsoft Power BI to show visuals that are related to bank account balances.</span></span>
 
