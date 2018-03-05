@@ -27,6 +27,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="websearchax-retired"></a>Lapas WebSearchAX noņemšana
 
+[!include[banner](../includes/banner.md)]
+
 Mums bija jānoņem lapa WebSearchAX. Mēs iesakām tās vietā izmantot meklēšanu vietnē jūsu iecienītākajā meklētājprogrammā.  Piemēram: 
 
 site:technet.microsoft.com dynamics ax 2012 “meklējamais vārds”
