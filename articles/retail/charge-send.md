@@ -28,6 +28,8 @@ ms.lasthandoff: 10/10/2017
 
 # <a name="ship-an-order-from-a-different-store"></a>Pasūtījuma nosūtīšana no cita veikala
 
+[!include[banner](includes/banner.md)]
+
 Izmantojot programmas Dynamics 365 for Retail līdzekli Maksas nosūtīšana, vienā veikalā veiktos debitoru pasūtījumus var nosūtīt no cita veikala. Debitoru pasūtījumiem pārdošanas punkta (POS) klientā tiek atbalstītas vairākas izpildes opcijas. Tālāk ir norādīti daži izpildes opciju piemēri.
 -   Izdot tajā pašā veikalā citā datumā.
 -   Izdot citā veikalā tajā pašā vai citā datumā.

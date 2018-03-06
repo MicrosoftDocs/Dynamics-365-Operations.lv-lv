@@ -29,6 +29,8 @@ ms.lasthandoff: 10/17/2017
 
 # <a name="demo-data-screen-layouts-in-mposcpos"></a>Demonstrācijas datu ekrāna izkārtojumi programmā MPOS/CPOS
 
+[!include[banner](includes/banner.md)]
+
 Šajā tēmā ir sniegta informācija par programmā Microsoft Dynamics 365 for Retail ietvertajiem pārdošanas punkta (POS) funkciju demonstrācijas datu ekrāna izkārtojumiem.
 
 ## <a name="overview"></a>Pārskats
