@@ -16,14 +16,17 @@ ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1019b0f60673e158de1257ba7f5efe77e3a4aaa5
+ms.sourcegitcommit: 6ce0b7b35264c05555d8b3a18e70484202a289d6
+ms.openlocfilehash: 64a9381224ebe9dfeac8a3fab0211937a8df733c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/07/2018
 
 ---
 
 # <a name="reverse-charge-vat"></a><span data-ttu-id="37cb0-103">Apgrieztais PVN</span><span class="sxs-lookup"><span data-stu-id="37cb0-103">Reverse charge VAT</span></span>
+
+[!include[banner](../includes/banner.md)]
+
 <span data-ttu-id="37cb0-104">Sājā tēmā ir vispārīgi aprakstīts, kā iestatīt apgriezto pievienotās vērtības nodokli (PVN) Eiropas valstīs.</span><span class="sxs-lookup"><span data-stu-id="37cb0-104">This topic describes a generic approach for setting up the reverse charge value-added tax (VAT) for European countries.</span></span>
 
 <span data-ttu-id="37cb0-105">Apgrieztā maksāšana ir nodokļu maksāšanas metode, kuras ietvaros atbildība par PVN uzskaiti un ziņošanu tiek pārnesta no pārdevēja uz preču un/vai pakalpojumu pircēju.</span><span class="sxs-lookup"><span data-stu-id="37cb0-105">Reverse Charge is a tax schema that moves the responsibility for the accounting and reporting of VAT from the seller to the buyer of goods and/or services.</span></span> <span data-ttu-id="37cb0-106">Tādējādi preču un/vai pakalpojumu saņēmēji savā PVN deklarācijā ziņo gan par pārdošanas PVN (kā pārdevējs) un pirkšanas PVN (kā pircējs).</span><span class="sxs-lookup"><span data-stu-id="37cb0-106">Therefore, recipients of goods and/or services report both the output VAT (in the role of a seller) and the input VAT (in the role of a purchaser) in their VAT statement.</span></span>
