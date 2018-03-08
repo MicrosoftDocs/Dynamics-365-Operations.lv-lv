@@ -20,14 +20,17 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: f9ea6190823a5af951538e0da2760f05896ee993
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: ddceadb797af98f85670df72a335b2714fe2f01e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/08/2018
 
 ---
 
 # <a name="retail-statements"></a><span data-ttu-id="1fa1d-103">Mazumtirdzniecības pārskati</span><span class="sxs-lookup"><span data-stu-id="1fa1d-103">Retail statements</span></span>
+
+[!include[banner](includes/banner.md)]
+
 <span data-ttu-id="1fa1d-104">Programmā Microsoft Dynamics 365 for Retail pārskatu grāmatošanas procesu izmanto, lai uzskaitītu transakcijas, kas notiek pārdošanas punktā Cloud Point of Sale (POS) vai Modern POS (MPOS).</span><span class="sxs-lookup"><span data-stu-id="1fa1d-104">In Microsoft Dynamics 365 for Retail, the statement posting process is used to account for the transactions that occur in Cloud point of sale (POS) or Modern POS (MPOS).</span></span> <span data-ttu-id="1fa1d-105">Pārskatu grāmatošanas process izmanto sadales grafiku, lai POS transakciju kopu ievilktu Headquarters (HQ) klientā.</span><span class="sxs-lookup"><span data-stu-id="1fa1d-105">The statement posting process uses the distribution schedule to pull a set of POS transactions into the headquarters (HQ) client.</span></span> <span data-ttu-id="1fa1d-106">Parametrus, kas ir definēti lapās **Mazumtirdzniecības parametri** un **Veikali**, izmanto, lai atlasītu atsevišķos pārskatos ievilktās transakcijas.</span><span class="sxs-lookup"><span data-stu-id="1fa1d-106">The parameters that are defined on the **Retail parameters** and **Stores** pages are used to select the transactions that are pulled into individual statements.</span></span>  
 
 <span data-ttu-id="1fa1d-107">Tālāk esošajā attēlā parādīts pārskatu grāmatošanas process.</span><span class="sxs-lookup"><span data-stu-id="1fa1d-107">The following illustration shows the statement posting process.</span></span> <span data-ttu-id="1fa1d-108">Šajā procesā POS reģistrētās transakcijas tiek pārsūtītas uz klientu, izmantojot mazumtirdzniecības plānotāju.</span><span class="sxs-lookup"><span data-stu-id="1fa1d-108">In this process, transactions that are recorded in the POS are transmitted to the client by using the Retail scheduler.</span></span> <span data-ttu-id="1fa1d-109">Kad klients ir saņēmis transakcijas, varat izveidot, aprēķināt un grāmatot veikala transakciju pārskatu.</span><span class="sxs-lookup"><span data-stu-id="1fa1d-109">After the client receives the transactions, you can create, calculate, and post the transaction statement for the store.</span></span> 

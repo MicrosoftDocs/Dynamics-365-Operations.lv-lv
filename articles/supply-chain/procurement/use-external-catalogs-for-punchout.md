@@ -19,14 +19,17 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 24a17d3734e39815684098f694a77e96cdbc1cfe
-ms.openlocfilehash: f755c1e46d5111282bfffdf751fe98beaa081a51
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 76d0c911bdddbc5a34644dc96ec13dd8fd53a338
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/08/2018
 
 ---
 
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a><span data-ttu-id="83cb2-103">Izmantot ārējos katalogus elektroniskai atzīmēšanas sagādei</span><span class="sxs-lookup"><span data-stu-id="83cb2-103">Use external catalogs for PunchOut eProcurement</span></span>
+
+[!include[banner](../includes/banner.md)]
+
 <span data-ttu-id="83cb2-104">Izmantojot ārējos katalogus elektroniskai atzīmēšanas sagādei, jums nav jāuztur informācija par kreditoru precēm savos pamatdatos.</span><span class="sxs-lookup"><span data-stu-id="83cb2-104">By using external catalogs for PunchOut e-procurement, you don't have to maintain information about your vendors' products in your own master data.</span></span> <span data-ttu-id="83cb2-105">Tā vietā iepirkumu grozs kreditora vietnē tiek pārveidots pieprasījuma rindās, kurās ir pareizā preces informācija.</span><span class="sxs-lookup"><span data-stu-id="83cb2-105">Instead, the shopping cart on a vendor's website is converted to requisition lines that have the correct product information.</span></span> 
 
 <span data-ttu-id="83cb2-106">Ieteicams neuzturēt aprakstus un cenas kreditoru precēm savos preces pamatdatos.</span><span class="sxs-lookup"><span data-stu-id="83cb2-106">You should avoid maintaining the descriptions and prices of your vendors’ products in your own product master data.</span></span> <span data-ttu-id="83cb2-107">Tā vietā izmantojiet ārējos katalogus elektroniskai atzīmēšanas sagādei.</span><span class="sxs-lookup"><span data-stu-id="83cb2-107">Instead, use external catalogs for PunchOut e-procurement.</span></span> <span data-ttu-id="83cb2-108">Kad darbinieki izveido pieprasījumus, viņi var pāriet uz kreditora ārējā kataloga vietni (t.i., viņi atstāj jūsu sistēmu un dodas uz kreditora vietni).</span><span class="sxs-lookup"><span data-stu-id="83cb2-108">Then, when employees create requisitions, they can “punch out” to a vendor’s external catalog site (in other words, they leave your system and go to the vendor’s site).</span></span> <span data-ttu-id="83cb2-109">Preces, kas tiek pievienotas iepirkumu grozam kreditora vietnē, var pārveidot pieprasījuma rindās.</span><span class="sxs-lookup"><span data-stu-id="83cb2-109">The products that are added to the shopping cart on the vendor’s website can then be converted to requisition lines.</span></span> <span data-ttu-id="83cb2-110">Tādējādi jūs iegūstat pareizo preces informāciju: preces ID, nosaukumu, cenu un citu informāciju.</span><span class="sxs-lookup"><span data-stu-id="83cb2-110">Therefore, you get the correct product information: product ID, name, price, and so on.</span></span>

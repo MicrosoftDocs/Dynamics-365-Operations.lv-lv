@@ -18,15 +18,17 @@ ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 02c863bc507cacb3829bed474b37d32ff599bf1b
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: ccff6533257379c0305f7414dd36e17d1c323c21
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/08/2018
 
 ---
 
 
 # <a name="set-up-order-fulfillment-for-stores"></a><span data-ttu-id="5af37-103">Pasūtījuma izpildes iestatīšana veikaliem</span><span class="sxs-lookup"><span data-stu-id="5af37-103">Set up order fulfillment for stores</span></span>
+
+[!include[banner](includes/banner.md)]
 
 ## <a name="overview"></a><span data-ttu-id="5af37-104">Apskats</span><span class="sxs-lookup"><span data-stu-id="5af37-104">Overview</span></span>
 <span data-ttu-id="5af37-105">Daudzi mazumtirgotāji vēlas optimizēt pasūtījumu izpildi, ļaujot veikaliem izpildīt pasūtījumus.</span><span class="sxs-lookup"><span data-stu-id="5af37-105">Many retailers would like to optimize order fulfillment by enabling stores to fill orders.</span></span> <span data-ttu-id="5af37-106">Pasūtījumu izpildīšana veikala līmenī var palīdzēt atvieglot krājumu pārsniegšanas scenārijus noteiktam veikalam, vai šāda izpildīšana var būt nepieciešama no loģistikas viedokļa gadījumos, kad veikalam ir papildu jauda vai tas atrodas tuvākā nosūtīšanas attālumā līdz debitoram.</span><span class="sxs-lookup"><span data-stu-id="5af37-106">Order fulfillment at the store level can help to ease overstock scenarios for a specific store, or may be needed from a logistical standpoint in cases where a store has extra capacity or is located within closer shipping distance to the customer.</span></span> <span data-ttu-id="5af37-107">Lai risinātu šo vajadzību, pārdošanas punktā ir pieejama vienotās pasūtījumu izpildes operācija.</span><span class="sxs-lookup"><span data-stu-id="5af37-107">To address this need, a unified order fulfillment operation is available at the point of sale.</span></span>
