@@ -25,6 +25,9 @@ ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="generate-affordable-care-act-reports"></a>Pieejamās aprūpes akta pārskatu ģenerēšana
+
+[!include[banner](includes/banner.md)]
+
 Ir pieejama funkcionalitāte, kura palīdz darba devējiem, kam ir nepieciešams sekot līdzi formās 1095-B un 1095-C ziņotajai informācijai, ievērojot pieejamās aprūpes akta (Affordable Care Act — ACA) prasības daļā **Darba devēja mandāts**. Ņemiet vērā, ka šī funkcionalitāte ir iespējota tikai juridiskajām personām Amerikas Savienotajās Valstīs.
 
 ## <a name="getting-started"></a>Darba sākšana

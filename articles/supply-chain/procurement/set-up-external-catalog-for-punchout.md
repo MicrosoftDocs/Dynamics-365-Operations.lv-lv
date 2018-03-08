@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Iestatīt ārējo katalogus elektroniskai atzīmēšanas sagādei
 
+[!include[banner](../includes/banner.md)]
+
 Izmantojot ārējo katalogu, var nodrošināt, lai preces un cenas informācija, kas vēlāk tiek apstrādāta Dynamics 365 for Finance and Operations izdevuma Enterprise 2017. jūlija laidienā, būtu precīza un aktuāla. Pieprasījumu pēc tam var apstiprināt un pārveidot par pirkuma pasūtījumu un pasūtījumu var izvietot kreditoram.
 
 Kad tiek iestatīts ārējais katalogs un darbinieks gatavo pieprasījumu, būs pieejama opcija novirzīt uz ārējo vietu, ārējo katalogu un atgriezt iepirkumu grozā, kad tika izveidota ārējā vietā. Šis paziņojums ir balstīts uz cXML protokolu un tas ir jāiestata starp pirkšanas sistēmām un pārdošanas organizāciju.

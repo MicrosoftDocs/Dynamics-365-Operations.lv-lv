@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="migrate-products-and-warehouse-management-from-ax-2012-to-finance-and-operations"></a>Preču un noliktavas vadības migrēšana no AX 2012 uz Finance and Operations
 
+[!include[banner](../includes/banner.md)]
+
 Šajā tēmā sniegts pārskats par preču un noliktavu pārvaldības migrācijas opcijām Microsoft Dynamics 365 for Finance and Operations Enterprise izdevumā.
 
 <a name="introduction"></a>Ievads

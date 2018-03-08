@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="questionnaires"></a>Anketas
 
+[!include[banner](includes/banner.md)]
+
 Šajā tēmā ir sniegta vispārīga informācija par anketām, ka arī saites plašākas informācijas iegūšanai. Anketa ir jautājumu kopa, kas tiek izmantota, lai iegūtu informāciju dažādiem nolūkiem. Varat izstrādāt, izveidot, izplatīt un aizpildīt anketas un pēc tam analizēt rezultātus. 
 
 Izmantojot dažādus programmatūrā Microsoft Dynamics 365 Finance and Operations izdevumā Enterprise pieejamos līdzekļus, varat pielāgot anketu atbilstoši savām īpašajām prasībām. Tālāk ir sniegti daži piemēri par veidiem, kā varat izmantot anketas.
