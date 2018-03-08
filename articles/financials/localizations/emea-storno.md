@@ -26,6 +26,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="storno-accounting"></a>Storno uzskaite
 
+[!include[banner](../includes/banner.md)]
+
 Storno uzskaite ir prakse, kurā tiek izmantoti negatīvie skaitļi, lai apgrieztu sākotnējos žurnāla konta ierakstus.
 
 *Storno uzskaite* ir prakse, kurā tiek izmantotas negatīvas debeta vai kredīta summas, lai apgrieztu sākotnējos žurnāla konta ierakstus. Tā kā grāmatveži parasti Storno ierakstus veic ar sarkanu tinti, šī uzskaites prakse ir pazīstama arī kā *Sarkanais storno*. Izmantojot Storno uzskaiti, varat atcelt dokumentu ar nepareizām summām, tomēr jums vienmēr ir jāievada pareizā dokumenta summa pēc atcelšanas.

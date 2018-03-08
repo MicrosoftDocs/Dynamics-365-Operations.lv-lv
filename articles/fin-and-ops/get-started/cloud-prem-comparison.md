@@ -27,6 +27,8 @@ ms.lasthandoff: 12/01/2017
 
 # <a name="cloud-and-on-premises-feature-comparison"></a>Mākoņa un lokālās versijas līdzekļu salīdzinājums
 
+[!include[banner](../includes/banner.md)]
+
 Šajā tēmā ir parādīts, vai katrs līdzeklis ir pieejams šajos produktos:
 
 + Dynamics 365 for Finance and Operations, Enterprise Edition (mākoņa)

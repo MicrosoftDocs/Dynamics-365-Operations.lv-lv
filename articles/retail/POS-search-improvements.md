@@ -28,6 +28,8 @@ ms.lasthandoff: 01/19/2018
 
 # <a name="overview-of-product-and-customer-search-in-point-of-sale"></a>Apskats par preču un debitoru meklēšanu pārdošanas punktā
 
+[!include[banner](includes/banner.md)]
+
 Modern pārdošanas punkts (MPOS) un Mākoņa pārdošanas punkts (CPOS) nodrošina ērtu meklēšanas funkcionalitāti, kas veikala darbiniekiem ļauj ātri atrast preces un debitorus. Meklēšanas josla vienmēr atrodas MPOS un CPOS augšpusē, lai darbinieki varētu ātri atrast preces un debitorus.
 
 Darbinieki preces var meklēt preču klāstos un katalogos, kas ir saistīti ar pašreizējo veikalu, kā arī preču klāstos un katalogos, kas ir saistīti ar jebkuru citu attiecīgā uzņēmuma veikalu. Tāpēc kasieri var pārdot un atgriezt preces, kas neietilpst veikala preču klāstā. Līdzīgi arī darbinieki var meklēt debitorus, kas ir saistīti ar pašreizējo veikalu vai jebkuru citu attiecīgā uzņēmuma veikalu. Turklāt darbinieki var meklēt debitorus, kas ir saistīti ar citu uzņēmumu pamata organizācijā.

@@ -26,6 +26,9 @@ ms.lasthandoff: 01/19/2018
 ---
 
 # <a name="configuration-keys-and-data-entities"></a>Konfigurācijas atslēgas un datu elementi
+
+[!include[banner](../includes/banner.md)]
+
 Pirms izmantojat datu elementus datu importēšanai vai eksportēšanai, vispirms ieteicams noteikt konfigurācijas atslēgu ietekmi uz tiem datu elementiem, ko plānojat lietot. 
 
 Lai uzzinātu vairāk par konfigurācijas atslēgām programmā Finance and Operations, skatiet rakstu [Pārskats par licenču kodiem un konfigurācijas atslēgām](../sysadmin/license-codes-configuration-keys-report.md).

@@ -26,6 +26,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="personnel-actions-faq"></a>Personāla darbības [Bieži uzdotie jautājumi]
+
+[!include[banner](includes/banner.md)]
+
 Šajā tēmā ir atbildes uz jautājumiem, kas varētu rasties, ja jūsu organizācija izmanto personāla darbības. Personāla darbības ir papildu darbības, kas jāizpilda, kad veicat noteiktus uzdevumus saistībā ar personālu. Personāla darbības varētu būt nepieciešamas, piemēram, uzdevumiem, kad veidojat jaunus amatus, modificējat pastāvošo amatu vērtības, pieņemat darbā jaunus darbiniekus, pārsūtāt darbiniekus, maināt darbinieka atlīdzību, maināt amatu piešķires vai pārtraucat darba attiecības ar darbiniekiem.
 
 **Piezīme.** Personāla darbības ir pieejamas tikai tad, ja lapas **Personāla vadības kopīgie parametri** cilnē **Personāla darbības** laukam **Iespējot nodarbinātā darbības** un laukam **Iespējot pozīcijas darbības** ir iestatīta vērtība **Jā**. 

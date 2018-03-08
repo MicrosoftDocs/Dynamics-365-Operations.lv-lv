@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="design-a-questionnaire"></a>Anketas plānošana
 
+[!include[banner](includes/banner.md)]
+
 Šajā tēmā ir aprakstīts anketas izveidošanas process. Pirmā darbība anketas plānošana. Kad plānojat anketu, jūs ne tikai rakstāt jautājumus un atbildes, bet arī izveidojat struktūru, kas atbildes ļauj ierakstīt uz sakārtot. 
 
 Rūpīgi plānota anketa var palīdzēt paaugstināt iegūto datu kvalitāti. Veicot rūpīgu plānošanu, anketai varat labāk atlasīt atbilstošajā laikā atbilstošās opcijas. Nākamie punkti jums var palīdzēt plānot efektīvu anketu:

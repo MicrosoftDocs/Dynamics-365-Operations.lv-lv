@@ -62,7 +62,7 @@ Tālākajās darbībās aprakstīts process pielāgota lauka izveidei un šī la
 10.   Lai atzīmētos laukus ievietotu atlasītajā formas reģionā, noklikšķiniet uz **Ievietot**. 
 11.   **Neobligāti:** iespējojiet personalizēšanas rīkjoslā režīmu **Pārvietot**, lai jaunos laukus pārvietotu uz vajadzīgo vietu atlasītajā reģionā. Papildinformāciju par to, kā izmantot dažādās personalizēšanas iespējas, lai formu optimāli pielāgotu personīgajam lietojumam, skatiet tēmā [Lietotāja pieredzes personalizēšana](personalize-user-experience.md).  
 
-### <a name="sharing-custom-fields-with-other-users"></a>Pielāgoto lauku koplietošana ar citiem lietotājiem
+## <a name="sharing-custom-fields-with-other-users"></a>Pielāgoto lauku koplietošana ar citiem lietotājiem
 Kad esat izveidojis pielāgotu laiku un sniedzis to formā, iespējams, šo atjaunināto lapas skatu, kurā ietverts jaunais lauks, vēlaties nodrošināt citiem sistēmas lietotājiem. To var izdarīt divos dažādos veidos, izmantojot produkta personalizēšanas iespējas.
 
 -   Ieteicamais veids ir caur sistēmas administratoru, kurš personalizāciju var aizgādāt visiem lietotajiem vai lietotāju apakškopai. Papildinformāciju skatiet tēmā [Lietotāja pieredzes personalizēšana](personalize-user-experience.md). 

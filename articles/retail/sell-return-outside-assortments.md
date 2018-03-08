@@ -27,6 +27,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="sell-and-return-products-outside-of-an-assortment"></a>Preču preču klāstā neesošu preču pārdošana un atgriešana
+
+[!include[banner](includes/banner.md)]
+
 Visbiežākais scenārijs visiem mazumtirgotājiem ir preču pārdošana saviem klientiem vai atgriezto preču pieņemšana no tiem, pat ja konkrētās preces nav pieejamas veikalā (citiem vārdiem sakot, preces nav veikala sortimentā).
 Tālāk uzskaitīti daži tipiski scenāriji.
 

@@ -25,6 +25,9 @@ ms.lasthandoff: 09/29/2017
 ---
 
 # <a name="expense-management-parameters"></a>Izmaksu pārvaldības parametri
+
+[!include[banner](../includes/banner.md)]
+
 -----------------------------
 
 Šie parametri kontrolē vispārīgo darbvietas Izdevumu pārvaldība darbību.
