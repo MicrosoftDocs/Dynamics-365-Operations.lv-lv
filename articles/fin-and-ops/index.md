@@ -3,7 +3,7 @@ title: "Microsoft Dynamics 365 for Finance and Operations Enterprise Edition do
 description: "Microsoft Dynamics 365 for Finance and Operations Enterprise Edition dokumentācija."
 author: margoc
 manager: AnnBe
-ms.date: 11/13/2017
+ms.date: 03/02/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: bb258999e072dc280bccfe64fb0dbd41d6577a0e
-ms.openlocfilehash: dbcbd7f7b0c23545eec74de538f1d7ec96ac98b6
+ms.sourcegitcommit: 7142c6bcb6e98929afdb8bb982a17efc7223ab12
+ms.openlocfilehash: 0d12082a2b10ae8e83217c5451627239e6ec640b
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 
@@ -43,12 +43,16 @@ Liela daļa šī satura attiecas arī uz saistītajiem produktiem: Microsoft Dyn
 <h3><a href="get-started/before-you-buy.md">Pirms iegādes</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Reģistrācija priekšskatījuma abonementam</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Izvietošanas opcijas izvēle</a></p>
-  <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
-  <p><a href="get-started/purchase-on-premises.md">Finance and Operations (lokālās versijas) iegāde</a></p>
+ <p><a href="get-started/purchase-on-premises.md">Finance and Operations (lokālas versijas) iegāde</a></p>
 
+<h3><a href="imp-lifecycle/implementation-lifecycle.md">Ieviešanas dzīves cikls</a></h3>
+<p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack programmai Dynamics 365</a></p>
+<p><a href="imp-lifecycle/onboard.md">Projekta pievienošana</a></p>
+<p><a href="imp-lifecycle/prepare-go-live.md">Sagatavošana palaišanai</a></p>
+  
 <h3><a href="../financials/index.md">Finanšu pārvaldība</a></h3>
-<p><a href="../financials/accounts-payable/accounts-payable.md">Kreditoru parādi</a></p>
-<p><a href="../financials/accounts-receivable/accounts-receivable.md">Debitoru parādi</a></p>
+<p><a href="../financials/accounts-payable/accounts-payable.md">Kreditori</a></p>
+<p><a href="../financials/accounts-receivable/accounts-receivable.md">Debitori</a></p>
 <p><a href="../financials/budgeting/budgeting-overview.md">Budžeta veidošana</a></p>
 <p><a href="../financials/cash-bank-management/cash-bank-management.md">Skaidras naudas un bankas pārvaldība</a></p>
 <p><a href="../financials/general-ledger/audit-policy-rules.md">Atbilstība</a></p>
@@ -98,8 +102,9 @@ Liela daļa šī satura attiecas arī uz saistītajiem produktiem: Microsoft Dyn
 <p><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">Mobilā platforma</a></p>
 <p><a href="get-started/demo-data.md">Demonstrācijas dati</a></p>
 
-<h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">Administrācija</h3>
-<p><a href="../dev-itpro/deployment/choose-deployment-type.md">Izvietošana</a></p>
+<h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">Administrēšana</h3>
+<p><a href="../dev-itpro/deployment/cloud-deployment-overview.md">Mākoņa izvietošana</a></p>
+<p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">Lokāla izvietošana</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Jaunināšana</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">Apkalpošana</a></p>
 <p><a href="../dev-itpro/data-entities/data-entities.md">Datu pārvaldības struktūra</a></p>
