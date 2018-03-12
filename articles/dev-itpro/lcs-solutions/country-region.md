@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
-ms.openlocfilehash: 1cb4305b3ef425ec19ae63c8186bffef212b9890
+ms.sourcegitcommit: 1f76359878d162e93d8f8b7c11be529c43c94455
+ms.openlocfilehash: c1c180432e014c69b43612693790a1cac6e54c34
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/08/2018
 
 ---
 
@@ -127,7 +127,7 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 -   [Materiālu komplektu salīdzinājums](../../financials/localizations/apac-chn-bom-comparison.md)
 -   [Ķīnas dokumenti](../../financials/localizations/apac-chn-vouchers.md)
 -   [Konfigurēt nodokļu integrāciju](../../financials/localizations/apac-chn-tax-integration.md)
-    -   [Bieži uzdotie jautājumi par PVN debitoru rēķiniem](../../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md)
+    -   [Bieži uzdotie jautājumi par PVN debitoru rēķinos](../../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md)
     -   [Nolietojuma metodes, pamatlīdzekļi ](../../financials/localizations/apac-chn-depreciation-methods-fixed-assets.md)
 -   [Importēt datu elementu Ķīnas zelta nodokļi](../../financials/localizations/apac-chn-import-golden-tax-data-entity.md)
 -   [Mēneša vidējo izmaksu modelis](../../financials/localizations/apac-chn-monthly-average-cost-model.md)
@@ -215,13 +215,28 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 ### <a name="hungary"></a>Ungārija
 
 -   [Pamatlīdzekļu nolietojuma metodes](../../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)    
--   [Pārvietot pamatlīdzekli uz krājumu](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
+-   [Pamatlīdzekļa pārvietošana uz krājumu](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
 -   [Lētie pamatlīdzekļi](../../financials/localizations/emea-hun-low-cost-fixed-assets.md)
+
+### <a name="india"></a>Indija
+
+- [Pamatlīdzekļi](../../financials/localizations/apac-ind-fixed-assets.md)
+    - [Kapitāla līdzekļu pārsūtīšana uz pamatlīdzekļiem](../../financials/localizations/tasks/apac-ind-transfer-capital-items.md)
+    - [Dienu kalendāra pievienošana pamatlīdzekļu grāmatai](../../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md)
+    - [Parametru iestatīšana nolietojuma aprēķināšanai](../../financials/localizations/tasks/apac-ind-set-up-depreciation.md)
+    - [Līdzekļu grupas nolietojuma iestatīšana nolietojuma grāmatās](../../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md)
+    - [Krājumu modeļu grupas izveide kapitāla krājumiem](../../financials/localizations/tasks/apac-ind-create-inventory-model-group.md)
+    - [Indijas pamatlīdzekļu maiņas nolietojuma aprēķins](../../financials/localizations/tasks/apac-ind-shift-depreciation-rates.md)
+    - [Maiņas tipa un nozares definēšana grāmatās un pievienošana pamatlīdzekļiem](../../financials/localizations/tasks/apac-ind-books-shift-industry-types.md)
+- [Nodokļu programmas pārskats](../../financials/general-ledger/tax-engine.md)
+    - [Nodokļu programmas integrācija](../../financials/general-ledger/tax-engine-integration.md)
+    - [Bieži uzdotie jautājumi par nodokļu sliekšņiem](../../financials/localizations/apac-ind-tax-thresholds.md)
+    - [Nodokļu programmas paplašināšana](../../financials/general-ledger/extend-tax-engine-configurations.md)
 
 ### <a name="italy"></a>Itālija
 
 -   [Itālijas melnā saraksta pārskats](../../financials/localizations/emea-ita-black-list-report.md)
--   [PVN deklarācijas informācija](../../financials/localizations/emea-ita-vat-statements-details.md)
+-   [PVN deklarāciju informācija](../../financials/localizations/emea-ita-vat-statements-details.md)
 -   [Transakciju kompetences datums](../../financials/localizations/emea-ita-competence-date.md)
 -   [Pamatlīdzekļu manuālais nolietojums](../../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
 -   [Modello 770](../../financials/localizations/emea-ita-modello770.md)

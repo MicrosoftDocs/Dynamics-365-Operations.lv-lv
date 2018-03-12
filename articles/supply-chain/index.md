@@ -1,9 +1,9 @@
 ---
 title: "Piegādes ķēdes pārvaldības sākumlapa"
-description: "Šajā tēmā ir sniegts saraksts ar palīdzības tēmām un citiem resursiem, kas attiecas uz piegādes ķēdes pārvaldības līdzekļiem programmā Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "Šajā lapā ir sniegts saraksts ar palīdzības tēmām un citiem resursiem, kas attiecas uz piegādes ķēdes pārvaldības līdzekļiem programmā Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 02/15/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6c193a3a9deba215d4374ccffc3bf2d854fbd0f2
-ms.openlocfilehash: 9314a129b85cf6cb2d2ca379eafc142ce234d535
+ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
+ms.openlocfilehash: bf3192a5189a3b18ad28f3c5cb0dd6d402824ed5
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/22/2018
+ms.lasthandoff: 02/21/2018
 
 ---
 
@@ -40,7 +40,7 @@ Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek
 Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
 
 - [Izmaksu uzskaite](../financials/cost-accounting/cost-accounting-home-page.md)
-- [Izmaksu pārvaldība](cost-management/costing-sheets.md)  
+- [Izmaksu pārvaldība](cost-management/cost-management-home-page.md)  
 - [Krājumu pārvaldība](inventory/inventory-home-page.md)
 - [Vispārējā plānošana](master-planning/master-planning-home-page.md)
 - [Sagāde un avoti](procurement/procurement-sourcing-overview.md)
@@ -56,6 +56,7 @@ Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
 
 -  [Integrēšana no potenciālā klienta uz skaidru naudu](https://youtu.be/AVV9x5x-XCg) 
 -  [Optimizācijas padomnieks](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+-  [Noliktavas veidnes izmantošana, lai kopētu konfigurāciju](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
 Šie īsie videoklipi sniedz informāciju par jaunajiem līdzekļiem, kas iekļauti programmā Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (2017. gada jūlijs).
 
@@ -67,17 +68,36 @@ Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
 
 Šajos tehnoloģiju konferences ierakstos tiek apspriesta iepriekšējās Finance and Operations versijas funkcionalitāte, bet šie paši jēdzieni joprojām attiecas uz pašreizējo versiju, un procedūras pašreizējā versijā ir līdzīgas. 
 
--  <a href="https://youtu.be/zotrj3SbCl4">Preču konfigurators risinājumā Microsoft Dynamics AX</a>
--  <a href="https://youtu.be/7v8BPmEs9Dg">Vispārēja plānošana — padomi un metodes problēmu novēršanai</a>
--  <a href="https://youtu.be/RLXybx20B5o">Palīdzība, ja MRP darbojas lēni.</a>
--  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">Ienākošo IPPN apstrāde risinājumā Noliktavas pārvaldība</a> 
--  <a href="https://www.youtube.com/watch?v=--_didmZKHo&t=10s">Visefektīvākā noliktavas vadības sistēma</a>
--  <a href="https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s">Uzlabota R3 Noliktavas pārvaldība — ienākošā apstrāde un min./maks. papildināšana</a>
--  <a href="https://youtu.be/Og0gLlVp7jA">Uzlabota R3 noliktavas vadība — izejošā apstrāde un pieprasījuma papildināšana ikdienā</a>
--  <a href="https://youtu.be/5w1MngVchBA">Etiķetes jaunajā Microsoft Dynamics AX 2012 R3 noliktavas vadībā</a>
--  <a href="https://www.youtube.com/embed/QUxXUrN-7n4">Dynamics AX 2012 R3: uzlabota noliktavas vadība — ražošanas process ikdienā</a>
--  <a href="https://youtu.be/y1jrd3A_k70">Apakšlīgumu slēgšanas operācijas un ražošanas aktivitātes</a>
--  <a href="https://youtu.be/jgmTgJIgEFQ">Transportēšanas pārvaldība (TMS) jaunajā risinājumā Microsoft Dynamics AX</a>
+**Izmaksu pārvaldība**
+
+-  [Izmaksu pārvaldības pārskats](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
+
+**Vispārējā plānošana**
+
+-  [Pieprasījuma prognozēšanas funkcionalitātes paplašināšana](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+-  [Vispārēja plānošana — padomi un metodes problēmu novēršanai](https://youtu.be/7v8BPmEs9Dg)
+-  [Palīdzība, ja MRP darbojas lēni](https://youtu.be/RLXybx20B5o)
+
+**Preču informācijas pārvaldība**
+
+-  [Preču konfigurators risinājumā Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
+
+**Noliktavas pārvaldība** 
+
+-  [Ienākošo IPPN apstrāde noliktavas pārvaldības sistēmā](https://mix.office.com/watch/wpf78tr7rjuh)  
+-  [Efektīvākā noliktavas pārvaldības sistēmas lietošana](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
+-  [Uzlabota R3 noliktavas pārvaldība — ienākošā apstrāde un min./maks. papildināšana](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
+-  [Uzlabota R3 noliktavas pārvaldība — izejošā apstrāde un pieprasījuma papildināšana ikdienā](https://youtu.be/Og0gLlVp7jA)
+-  [Etiķetes jaunajā Microsoft Dynamics AX 2012 R3 noliktavas pārvaldības sistēmā](https://youtu.be/5w1MngVchBA)
+-  [Dynamics AX 2012 R3: uzlabota noliktavas pārvaldības sistēma — ražošanas process ikdienā](https://www.youtube.com/embed/QUxXUrN-7n4)
+
+**Ražošanas kontrole**
+
+-  [Apakšlīgumu slēgšanas operācijas un ražošanas aktivitātes](https://youtu.be/y1jrd3A_k70)
+
+**Transportēšanas pārvaldība**
+
+-  [Transportēšanas pārvaldība (TMS) jaunajā Microsoft Dynamics AX versijā](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>Emuāri
 Daudzi raksti par ražošanu un piegādes ķēdes pārvaldību ir atrodami <a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX ražošanas pētniecības un attīstības darba grupas emuārā</a> un <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Piegādes ķēdes pārvaldības programmā Dynamics AX pētniecības un attīstības darba grupas emuārā</a>. Vairumā šo rakstu aplūkota iepriekšējā Finance and Operations versija, bet šie paši jēdzieni joprojām attiecas uz pašreizējo versiju, kā arī procedūras pašreizējā versijā ir līdzīgas. 

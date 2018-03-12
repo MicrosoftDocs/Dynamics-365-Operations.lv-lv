@@ -26,6 +26,8 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a>SQL Server pārskatu izveides pakalpojumu konfigurēšana lokālam izvietojumam
 
+[!include[banner](../includes/banner.md)]
+
 Izmantojiet šajā tēmā aprakstītās darbības, lai SQL Server pārskatu izveides pakalpojumus (SSRS) konfigurētu savam Microsoft Dynamics 365 for Finance and Operations Enterprise izdevuma (lokālās versijas) izvietojumam.
 
 1. Atveriet programmu Pārskatu izveides pakalpojumu konfigurācijas pārvaldnieks.

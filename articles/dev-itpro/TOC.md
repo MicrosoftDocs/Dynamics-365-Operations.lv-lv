@@ -7,11 +7,11 @@
 
 # [Izstrāde un pielāgošana, izmantojot Visual Studio](dev-tools/developer-home-page.md)
 ## [Programmas steks un servera arhitektūra](dev-tools/application-stack-server-architecture.md)
-## [Iegūt iepazīšanās kopiju](dev-tools/get-evaluation-copy.md)
+## [Iepazīšanās kopijas ieguve](dev-tools/get-evaluation-copy.md)
 ## [Reģistrācija abonementam](dev-tools/sign-up-preview-subscription.md)
-## [Piekļūšana instancēm](dev-tools/access-instances.md)
+## [Izstrādes vides izvietošana un piekļuve tai](dev-tools/access-instances.md)
 ## [Izstrādes sistēmas prasības](dev-tools/development-system-requirements.md)
-## Autoparka pārvaldības lietojumprogrammas paraugs
+## Autoparka pārvaldības programmas paraugs
 ### [Autoparka pārvaldības lietojumprogrammas paraugs](dev-tools/fleet-management-sample.md)
 ### [Autoparka pārvaldības lietojumprogrammas parauga apskats](dev-tools/introduction-fleet-management-sample.md)
 ## Visual Studio rīki
@@ -32,7 +32,7 @@
 ### [Projekti Dynamics 365 for Finance and Operations Enterprise Edition](dev-tools/projects.md)
 ### [Visual Studio rīku pievienojumprogrammas](dev-tools/developer-tools-add-ins.md)
 ### [Modeļu pielāgošanas atslēgšana un funkcionalitātes atzīšana par novecojušu](dev-tools/lock-models.md)
-### [Visual Studio izstrādāšanas rīku atjaunināšana](dev-tools/update-development-tools.md)
+### [Visual Studio izstrādes rīku atjaunināšana](dev-tools/update-development-tools.md)
 ## X++ programmēšanas valoda
 ### [X++ un atkļūdošanas līdzekļi ](dev-tools/new-x-debugger-features.md)
 ### [X++ atkļūdošana, izmantojot ražošanas datu bāzes kopiju](dev-tools/debug-x-issue-against-copy-of-production.md)
@@ -355,12 +355,12 @@
 #### [PartDesign tips](mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartdesign.md)
 #### [PartMetadata tips](mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata.md)
 #### [Row tips](mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow.md)
-#### [Value tips](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md)
-#### [ValueDesign tips](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md)
-#### [ValueMetadata tips](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md)
+#### [Tips Value](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md)
+#### [Tips ValueDesign](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md)
+#### [Tips ValueMetadata](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md)
 
 # Datu integrācija
-## [Integrācijas shēmas](data-entities/integration-overview.md)
+## [Datu integrācijas (importa/eksporta) stratēģijas izvēle](data-entities/integration-overview.md)
 
 ## Datu integrācijas API
 ### [Datu pārvaldības pakotnes API](data-entities/data-management-api.md)
@@ -381,12 +381,12 @@
 
 ### [Datu integrācija, izmantojot pakalpojumu Common Data Service](data-entities/data-integration-cds.md) 
 #### [Potenciālā klienta konfigurēšana uz skaidru naudu](../supply-chain/sales-marketing/prospect-to-cash.md)
-##### [Preču sinhronizēšana no programmas Finance and Operations uz precēm programmā Sales](../supply-chain/sales-marketing/products-template-mapping.md)
-##### [Kontu sinhronizēšana no programmas Sales uz klientiem programmā Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping.md)
-##### [Kontaktpersonu sinhronizēšana no programmas Sales uz kontaktpersonām vai klientiem programmā Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping.md)
-##### [Pārdošanas piedāvājumu virsrakstu un rindu sinhronizēšana no programmas Sales uz programmu Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
-##### [Pārdošanas pasūtījumu virsrakstu un rindu sinhronizēšana no programmas Finance and Operations uz programmu Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
-##### [Pārdošanas rēķinu virsrakstu un rindu sinhronizēšana no programmas Finance and Operations uz programmu Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
+##### [Preču sinhronizēšana no programmas Finance and Operations uz precēm programmā Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
+##### [Kontu sinhronizēšana no programmas Sales uz klientiem programmā Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
+##### [Kontaktpersonu sinhronizēšana no programmas Sales uz kontaktpersonām vai klientiem programmā Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
+##### [Pārdošanas piedāvājumu virsrakstu un rindu sinhronizēšana no programmas Sales uz programmu Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+##### [Pārdošanas pasūtījumu virsrakstu un rindu sinhronizēšana no programmas Finance and Operations uz programmu Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+##### [Pārdošanas rēķinu virsrakstu un rindu sinhronizēšana no programmas Finance and Operations uz programmu Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 ##### [Programmā Sales ietverto kontu tieša sinhronizēšana ar debitoriem programmā Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ##### [Programmā Finance and Operations ietverto preču tieša sinhronizēšana ar precēm programmā Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ##### [Programmā Sales ietverto kontaktpersonu tieša sinhronizēšana ar kontaktpersonām vai debitoriem programmā Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
@@ -452,6 +452,8 @@
 
 ## [Savas datu bāzes izmantošana](analytics/export-entities-to-your-own-database.md)
 
+## [Resursi, ko izmanto reaģēšanai uz VDAR datu pieprasījumu](gdpr/gdpr-home-page.md)
+
 # [Pastāvīgas piegādes sākumlapa](dev-tools/continuous-delivery-home-page.md)
 ## [Bieži uzdotie jautājumi par izstrādi un pastāvīgu piegādi](dev-tools/continuous-delivery-faq.md)
 ## [Testa iepakojumu izslēgšana no būvējuma izvades](dev-tools/exclude-test-packages.md)
@@ -514,20 +516,21 @@
 ### [Aparatūras lielums](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 ### [Lokāla projekta izveide](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Lokālas vides iestatīšana un izvietošana](deployment/setup-deploy-on-premises-environments.md)
-### [Pielāgotu modeļu izstrāde un izvietošana lokālām vidēm](deployment/develop-deploy-custom-models-on-premises.md)
-### [Atjauninājumu lietošana lokālam izvietojumam](deployment/apply-updates-on-premises.md)
-### [Lokālā izvietojuma atkārtota izvietošana](deployment/redeploy-on-prem.md)
+### [Pielāgotu modeļu izstrāde un izvietošana lokālās vidēs](deployment/develop-deploy-custom-models-on-premises.md)
+### [Apgrieztā starpniekservera konfigurēšana lokālā vidē](deployment/onprem-reverseproxy.md)
+### [Atjauninājumu lietošana lokālā izvietojumā](deployment/apply-updates-on-premises.md)
+### [Lokāla izvietojuma atkārtota izvietošana](deployment/redeploy-on-prem.md)
 ### [Lokālā aģenta atjaunināšana](lifecycle-services/update-local-agent.md)
 ### [Vides pārkonfigurēšana](lifecycle-services/reconfigure-environment.md)
 ### [Dynamics 365 for Finance and Operations, Enterprise Edition lokālo problēmu novēršana](deployment/troubleshoot-on-prem.md)
 
 ## Pielāgota koda izvietošana
 ### [Izvietojamas pakotnes izveide](deployment/create-apply-deployable-package.md)
-### [Lietot atjauninājumus mākoņa videi](deployment/apply-deployable-package-system.md)
+### [Atjauninājumu lietošana mākoņa vidē](deployment/apply-deployable-package-system.md)
 ### [Izvietojamas pakotnes instalēšana](deployment/install-deployable-package.md)
-### [Pakotnes lietojumprogrammas problēmu novēršana](deployment/deployable-package-troubleshooting.md)
+### [Pakotnes programmas problēmu novēršana](deployment/deployable-package-troubleshooting.md)
 
-# [Jaunināšana un migrācija](migration-upgrade/upgrade-home-page.md)
+# [Jauninājumi, atjauninājumi un labojumfaili](migration-upgrade/upgrade-home-page.md)
 ## [Jaunināšana no AX 2012 uz Dynamics 365 for Finance and Operations](migration-upgrade/upgrade-overview-2012.md)
 ### [AX 2012 jaunināšana — plānošana, izmantojot jauninājumu analizētāja rīku](migration-upgrade/upgrade-analyzer-tool.md)
 ### [AX 2012 jaunināšana — slodzes noteikšana, izmantojot koda jaunināšanas pakalpojumu](migration-upgrade/analyze-code-upgrade.md)
@@ -555,22 +558,25 @@
 ### [Sadalītie modeļi](dev-tools/model-split.md)
 ### [Pārstāvju izmantošana modeļu savstarpējo atkarību risināšanai](migration-upgrade/delegates-migration.md)
 
-
-## Jaunināšana uz jaunāko atjauninājumu
-### [Pāriešana uz jaunāko atjauninājumu](migration-upgrade/upgrade-latest-update.md)
+## Jaunināšana uz jaunāko atjauninājumu (mākonis)
+### [Process pāriešanai uz jaunāko atjauninājumu](migration-upgrade/upgrade-latest-update.md)
 ### [Dzīves cikla politika](migration-upgrade/versions-update-policy.md)
-### [Lietot jaunāko platformas atjauninājumu savā vidē](migration-upgrade/upgrade-latest-platform-update.md)
+### [Lietot jaunāko platformas atjauninājumu vidē](migration-upgrade/upgrade-latest-platform-update.md)
 ### [Dynamics platformas jaunināšana uz 2016. gada augusta izlaidi](migration-upgrade/update-platform-each-release.md)
 ### [Smilškastes vides jaunināšana](migration-upgrade/upgrade-sandbox-environment.md)
-### [Datu jaunināšana izstrādes vai demonstrācijas vidēs](migration-upgrade/upgrade-data-to-latest-update.md)
+### [Datu jaunināšana izstrādes vai demonstrācijas vidē](migration-upgrade/upgrade-data-to-latest-update.md)
 ### [Izstrādes rīku atjaunināšana](dev-tools/update-development-tools.md)
-### [Atjauninājumu lietošana lokālam izvietojumam](deployment/apply-updates-on-premises.md)
-### [Atkārtoti izvietot lokālo izvietojumu](deployment/redeploy-on-prem.md)
 
-## Labojumfaili un apkalpošana
+## Jaunināšana uz jaunāko atjauninājumu (lokāla versija)
+### [Atjauninājumu lietošana lokālā izvietojumā](deployment/apply-updates-on-premises.md)
+### [Lokāla izvietojuma atkārtota izvietošana](deployment/redeploy-on-prem.md)
+
+## Labojumfaili
 ### [Labojumfailu lejupielāde no Lifecycle Services](migration-upgrade/download-hotfix-lcs.md)
+### [Atjauninājumu lietošana mākoņa vidē](deployment/apply-deployable-package-system.md)
 ### [Metadatu labojumfaila instalēšana](migration-upgrade/install-metadata-hotfix-package.md)
-### [Pārskatu izveides pakalpojumu labošana vienotā vidē](migration-upgrade/patch-reporting-service-environment.md)
+### [Pārskatu izveides pakalpojumu labošana vidē ar vienu resursdatoru](migration-upgrade/patch-reporting-service-environment.md)
+### [Visual Studio izstrādes rīku atjaunināšana](dev-tools/update-development-tools.md)
 
 ## Nolietojums
 ### [Novecojušie API](migration-upgrade/deprecated-apis.md)
