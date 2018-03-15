@@ -23,17 +23,17 @@ ms.contentlocale: lv-lv
 ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="perform-self-service-to-download-hardware-station"></a><span data-ttu-id="152f5-103"> Pašapkalpošanās veikšana, lai lejupielādētu aparatūras staciju</span><span class="sxs-lookup"><span data-stu-id="152f5-103">Perform self-service to download hardware station</span></span>
+# <a name="perform-self-service-to-download-hardware-station"></a><span data-ttu-id="af601-103"> Pašapkalpošanās veikšana, lai lejupielādētu aparatūras staciju</span><span class="sxs-lookup"><span data-stu-id="af601-103">Perform self-service to download hardware station</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="152f5-104">Šajā procedūrā ir aprakstīts, kā lejupielādēt iepriekš definētu aparatūras staciju.</span><span class="sxs-lookup"><span data-stu-id="152f5-104">This procedure walks through how to download a pre-defined hardware station.</span></span> <span data-ttu-id="152f5-105">Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.</span><span class="sxs-lookup"><span data-stu-id="152f5-105">The demo data company used for this procedure is USRT.</span></span> <span data-ttu-id="152f5-106">Pirms šī uzdevuma izpildes jābūt izveidotam jaunam aparatūras stacijas profilam un aparatūras stacijai.</span><span class="sxs-lookup"><span data-stu-id="152f5-106">You must have created a new hardware station profile and hardware station before starting this task.</span></span>
+<span data-ttu-id="af601-104">Šajā procedūrā ir aprakstīts, kā lejupielādēt iepriekš definētu aparatūras staciju.</span><span class="sxs-lookup"><span data-stu-id="af601-104">This procedure walks through how to download a pre-defined hardware station.</span></span> <span data-ttu-id="af601-105">Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.</span><span class="sxs-lookup"><span data-stu-id="af601-105">The demo data company used for this procedure is USRT.</span></span> <span data-ttu-id="af601-106">Pirms šī uzdevuma izpildes jābūt izveidotam jaunam aparatūras stacijas profilam un aparatūras stacijai.</span><span class="sxs-lookup"><span data-stu-id="af601-106">You must have created a new hardware station profile and hardware station before starting this task.</span></span>
 
-1. <span data-ttu-id="152f5-107">Dodieties uz Mazumtirdzniecība un komercija > Kanāli > Visi mazumtirdzniecības veikali.</span><span class="sxs-lookup"><span data-stu-id="152f5-107">Go to Retail and commerce > Channels > All retail stores.</span></span>
-2. <span data-ttu-id="152f5-108">Sarakstā atlasiet veikalu Houston.</span><span class="sxs-lookup"><span data-stu-id="152f5-108">In the list, select the Houston store.</span></span>
-3. <span data-ttu-id="152f5-109">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="152f5-109">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="152f5-110">Pārslēdziet sadaļas Aparatūras stacijas paplašinājumu.</span><span class="sxs-lookup"><span data-stu-id="152f5-110">Toggle the expansion of the Hardware stations section.</span></span>
-5. <span data-ttu-id="152f5-111">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="152f5-111">In the list, find and select the desired record.</span></span>
-6. <span data-ttu-id="152f5-112">Noklikšķiniet uz Lejupielādēt.</span><span class="sxs-lookup"><span data-stu-id="152f5-112">Click Download.</span></span>
+1. <span data-ttu-id="af601-107">Dodieties uz Mazumtirdzniecība un komercija > Kanāli > Visi mazumtirdzniecības veikali.</span><span class="sxs-lookup"><span data-stu-id="af601-107">Go to Retail and commerce > Channels > All retail stores.</span></span>
+2. <span data-ttu-id="af601-108">Sarakstā atlasiet veikalu Houston.</span><span class="sxs-lookup"><span data-stu-id="af601-108">In the list, select the Houston store.</span></span>
+3. <span data-ttu-id="af601-109">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="af601-109">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="af601-110">Pārslēdziet sadaļas Aparatūras stacijas paplašinājumu.</span><span class="sxs-lookup"><span data-stu-id="af601-110">Toggle the expansion of the Hardware stations section.</span></span>
+5. <span data-ttu-id="af601-111">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="af601-111">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="af601-112">Noklikšķiniet uz Lejupielādēt.</span><span class="sxs-lookup"><span data-stu-id="af601-112">Click Download.</span></span>
 
 
