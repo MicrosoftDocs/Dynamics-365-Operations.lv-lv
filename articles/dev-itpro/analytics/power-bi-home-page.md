@@ -3,7 +3,7 @@ title: "Power BI saturs"
 description: "Šajā tēmā ir uzskaitīts pieejamais Power BI saturs un norādīti resursi, kur varat uzzināt vairāk par to."
 author: sericks007
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 02/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: b0a7adb684850a0f0b914ea89ce3af1636b3084c
-ms.openlocfilehash: 0969f9f30e50a36b667765fbe375e6c14d3412da
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: d5b1bb5f25710b7d4feea55414d68d5390c87308
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 02/23/2018
 
 ---
 
@@ -42,6 +42,7 @@ Ja izmantojat programmatūru Microsoft Dynamics 365 for Finance and Operations, 
 - [Izmaksu uzskaites analīzes Power BI saturs](cost-accounting-analysis-content-pack.md) 
 - [Kredīta un iekasēšanas Power BI saturs](../../financials/accounts-receivable/credit-collections-power-bi.md)
 - [Darbinieku attīstības Power BI saturs](employee-development-PBI.md) 
+- [Power BI saturs Finanšu ieskati](financial-insights.md)
 - [Power BI saturs Finanšu veiktspēja](financial-performance-power-bi-content-pack.md)
 - [Pamatlīdzekļu Power BI saturs](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
 - [Apmācību Power BI saturs](learning-power-bi.md)
@@ -73,6 +74,9 @@ Ja izmantojat Microsoft Dynamics 365 for Operations versiju 1611, ir pieejams 
 
 ## <a name="power-bi-content-for-microsoft-dynamics-ax"></a>Power BI saturs programmatūrai Microsoft Dynamics AX
 Ja izmantojat Microsoft Dynamics AX 7.0 vai Microsoft Dynamics AX 7.0.1, ir pieejams tālāk norādītais Power BI saturs.
+
+> [!Note]
+> [Piezīme] Šīs satura pakotnes ir novecojušas, kā dokumentēts tēmā [Vietnē PowerBI.com publicētās Power BI satura pakotnes](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
 
 - [Power BI satura pakotne Izmaksu pārvaldība](cost-management-content-pack.md)    
 - [Power BI saturs Finanšu veiktspēja](financial-performance-power-bi-content-pack.md)

@@ -3,7 +3,7 @@ title: "Novecojušie līdzekļi"
 description: "Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt."
 author: sericks007
 manager: AnnBe
-ms.date: 11/28/2017
+ms.date: 02/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: addd8c62ba034b47d8abbec29fa8682deb9698b1
+ms.sourcegitcommit: 16bdf2176869e5822ddf8732c829b65f1e60632c
+ms.openlocfilehash: 03b79816ffea649cf226408ed4660c3419103a7a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -40,6 +40,17 @@ ms.lasthandoff: 12/14/2017
 > Sākot ar Dynamics 365 for Finance and Operations, Enterprise Edition 2017. gada jūlija laidienu ar platformas 8. atjauninājumu, katram noņemtajam vai novecojušajam līdzeklim ir norādīti izvietojumu veidi. Visi iepriekšējie šajā tēmā minētie laidieni atbalstīja tikai izvietojumus mākonī.
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 ar platformas 12. atjauninājumu
+
+### <a name="personalized-product-recommendations"></a>Personalizēti preču ieteikumi 
+Sākot ar 2018. gada 15. februāri, mazumtirgotāji vairs nevarēs rādīt personalizētus preču ieteikumus pārdošanas punkta (POS) ierīcē. Plašāku informāciju skatiet tēmā [Personalizēti preču ieteikumi](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Mēs noņemam preču ieteikumu pakalpojuma pašreizējo versiju, jo pārveidojam šo līdzekli, pievienojot tam uzlabotu algoritmu un jaunākas uz mazumtirdzniecību orientētas iespējas.  |
+| **Vai aizstāts ar citu līdzekli?**   | Nr.p.k. Tomēr 2018. gada vasaras sākumā mēs plānojam atjaunot so līdzekli, lai izmantotu jaunu ieteikumu pakalpojumu.   |
+| **Ietekmētie produkta apgabali**         | Personalizēti preču ieteikumi pārdošanas punktā.                                                    |
+| **Izvietošanas iespēja**              | Visus                                                                                      |
+| **Statuss**                         |Noņemts kopš 2018. gada 15. februāra. Tas attiecas uz klientiem, kuru ierīcēs darbojas Dynamics 365 for Operations 1611 vai jaunāka versija.  |
 
 ### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a>Elektronisko pārskatu veidošanas (ER) funkciju saraksta paplašinājums
 Vairs netiek atbalstīta iespēja ieviest pielāgotas funkcijas, ko izmantot ER izteiksmju veidotājā (papildinformāciju skatiet šeit: [Elektronisko pārskatu veidošanas funkciju saraksta paplašināšana](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)). Līdz ar ER programmēšanas interfeisa (API) izmaiņu ieviešanu tas API, kurš bija paredzēts iebūvētu funkciju izsaukšanai no ER izteiksmju veidotāja, ir kļuvis iekšējs, un to vairs nevar paplašināt.
@@ -132,6 +143,19 @@ Lietotāji to var lejupielādēt no valsts portāla.
 | **Izvietošanas iespēja**                       | Visi moduļi                                                                    |
 | **Statuss**                                  | Novecojis: šim līdzeklim nav noteikts noņemšanas datums.  |    
 
+
+## <a name="dynamics-365-for-retail-72"></a>Dynamics 365 for Retail 7.2
+
+### <a name="personalized-product-recommendations"></a>Personalizēti preču ieteikumi 
+Sākot ar 2018. gada 15. februāri, mazumtirgotāji vairs nevarēs rādīt personalizētus preču ieteikumus pārdošanas punkta (POS) ierīcē. Plašāku informāciju skatiet tēmā [Personalizēti preču ieteikumi](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Mēs noņemam preču ieteikumu pakalpojuma pašreizējo versiju, jo pārveidojam šo līdzekli, pievienojot tam uzlabotu algoritmu un jaunākas uz mazumtirdzniecību orientētas iespējas.  |
+| **Vai aizstāts ar citu līdzekli?**   | Nr.p.k. Tomēr 2018. gada vasaras sākumā mēs plānojam atjaunot so līdzekli, lai izmantotu jaunu ieteikumu pakalpojumu.   |
+| **Ietekmētie produkta apgabali**         | Personalizēti preču ieteikumi pārdošanas punktā.                                                    |
+| **Izvietošanas iespēja**              | Visus                                                                                      |
+| **Statuss**                         |Noņemts kopš 2018. gada 15. februāra. Tas attiecas uz klientiem, kuru ierīcēs darbojas Dynamics 365 for Retail 7.2 vai jaunāka versija. |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Dynamics 365 for Finance and Operations, Enterprise Edition 2017. gada jūlija izdevums ar platformas 8. atjauninājumu

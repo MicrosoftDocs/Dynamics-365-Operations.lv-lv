@@ -18,10 +18,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7bcc8464d34c35423e86c963c6b493fc09db4472
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: fc0e71e2ffc2adbaed598f788141b651fbcc616a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -56,12 +56,12 @@ Tīkla prasības
 
 ## <a name="supported-microsoft-office-applications"></a>Atbalstītās Microsoft Office programmas
 
-*   Lai palaistu Microsoft Excel un Word pievienojumprogrammas, jābūt instalētai programmai Microsoft Office 2016 operētājsistēmai Windows vai Mac. Plašāku informāciju par versijas prasībām skatiet sadaļā [Office integrācijas problēmu novēršana] (../dev-itpro/office-integration/office-integration-troubleshooting.md "Office integrācijas problēmu novēršana").
+*   Lai palaistu Microsoft Excel un Word pievienojumprogrammas, jābūt instalētai programmai Microsoft Office 2016 operētājsistēmai Windows vai Mac. Plašāku informāciju par versijas prasībām skatiet tēmā [Office integrācijas problēmu novēršana] (../dev-itpro/office-integration/office-integration-troubleshooting.md "Office integrācijas problēmu novēršana").
 *   Lai skatītu dokumentus, kas izveidoti, izmantojot funkcijas Eksportēt programmā Excel vai Eksportēt programmā Word, ir jābūt instalētai programmai Microsoft Office 2007 vai jaunākai versijai.
 
 ## <a name="update-policy"></a>Atjaunināšanas politika
 
 Microsoft Dynamics 365 for Talent tiek apkalpots kā mākoņa piedāvājums. Dynamics 365 for Talent atjauninājumus pastāvīgi un automātiski piemēro Microsoft.
 
-Atjauninājumi tiek izlaisti ar regulāru kadenci un tiek ieviesti visās vidēs.  Dynamics 365 for Talent atbalsts tiek nodrošināts saskaņā ar [Microsoft Support Lifecycle politika] (https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle"), kas nodrošina pastāvīgas un prognozējamas vadlīnijas produkta atbalsta pieejamībai.
+Atjauninājumi tiek izlaisti ar regulāru kadenci un tiek ieviesti visās vidēs.  Dynamics 365 for Talent atbalsts tiek nodrošināts saskaņā ar [Microsoft Support Lifecycle politiku] (https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle"), kas nodrošina pastāvīgas un prognozējamas vadlīnijas produkta atbalsta pieejamībai.
 

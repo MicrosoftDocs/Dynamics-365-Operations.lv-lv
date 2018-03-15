@@ -3,7 +3,7 @@ title: "Finanšu ieskati"
 description: "Darbvieta Finanšu ieskati izmanto pakalpojumu Microsoft Power BI, lai apkopotu finanšu izpildes pamatrādītājus (KPI), diagrammas un finanšu pārskatus."
 author: kweekley
 manager: AnnBe
-ms.date: 01/09/2018
+ms.date: 02/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
-ms.openlocfilehash: 3da5344ec6edec0af28aa21d45af962307231e67
+ms.sourcegitcommit: d527df21e791978b41527c01c2e6b68b393861ac
+ms.openlocfilehash: 90dc6214f1eb31440a3ec78a58c6a07394245cd2
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/28/2018
 
 ---
 
@@ -102,10 +102,15 @@ Pašlaik datus iegultajos Power BI pārskatos nevar ierobežot uz juridiskajām
 | Skatīt starpuzņēmumu finanšu ieskatus   | •   Risinājumā Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3 šis pienākums nav piešķirts lomai. • Nākamajā laidienā šis pienākums tiks piešķirts lomai Finanšu direktors. | •    Šis pienākums nodrošina piekļuvi darbvietas CFO apskats izvēlnes vienumam. •    Pēc noklusējuma aktīvais uzņēmums tiek izmantots kā filtrs. Tomēr varat pievienot visas juridiskās personas neatkarīgi no tā, vai lietotājam ir piekļuve citām juridiskajām personām.             |
 
 
-## <a name="how-financial-statements-work"></a>Kā darbojas finanšu pārskati
+## <a name="financial-reporting-vs-finanical-insights"></a>Darbvietu “Finanšu pārskati” un “Finanšu ieskati” salīdzinājums
 Lai gan darbvietā **Finanšu ieskati** ir ietverti finanšu pārskati, tā neaizstāj finanšu pārskatus programmā Finance and Operations. Noklusējuma finanšu pārskati darbvietā **Finanšu ieskati** ir ierobežoti, un tajā nav ietverti visu veidu finanšu pārskati. Finanšu pārskati joprojām ir galvenais rīks normatīvu finanšu pārskatu noformēšanai, izveidei un ģenerēšanai.
 
-Papildus oriģinālās darbvietas **CFO apskats** vizuālajiem datiem tagad ir pieejami jauni KPI, diagrammas un finanšu pārskati. Ir pieejami tālāk norādītie finanšu pārskati.
+Tālāk esošajā salīdzinājuma diagrammā tiks parādītas atšķirības starp šīm divām opcijām.
+
+|                                         | **Finanšu pārskati**                            | **Finanšu ieskati**             | |-----------------------------------------|----------------------------------------------------|---------- -------------------------| | **Noklusējuma pārskatu rediģēšana**                | Jā                                                | Nē                                 | | **Jaunu pārskatu izveide**                  | Jā                                                | Nē                                 | | **Pārskatu drukāšana**                       | Jā                                                | Nē                                 | | **Eksportēšana uz programmu Excel**                     | Jā          | Ierobežoti Eksportē neapstrādātos datus uz programmu Excel, nav formatēts pārskats       | | **Atbalsts pārskatu veidošanas hierarhijai/organizācijas hierarhijai**   | Jā                               | Nē                                 | | **Pārskats par apakšgrāmatu datiem**       | Jā Ierobežoti Tikai kreditoram un debitoram    | Jā Kreditors, debitors, kreditoru/debitoru grupas, kreditoru/debitoru adreses u.c.  | | **Pārskata valūta**      | Jā Uzskaites valūta un pārvēršana pārskata valūtā       | Jā Tikai uzskaites valūta      | | **Drošība**                | Jā Atbilstoši Finance and Operations un pārskatu koka drošībai | Ierobežoti Skatiet pārskatus par visiem uzņēmumiem (neatkarīgi no Finance and Operations drošības) vai tikai aktīvo uzņēmumu | | **Atbalsts atšķirīgiem kontu plāniem un finanšu gadiem** | Jā                   | Nē                   | | **Pārskats par ārējiem datiem**                              | Nē                   | Nē                                   | | **Atbalsta konsolidācijas**                               | Jā                          | Ierobežoti Var izveidot pārskatu par vairākiem uzņēmumiem, taču izmanto tikai uzskaites valūtu                                     |
+
+
+Papildus lietotāja interfeisam oriģinālajā darbvietā **CFO apskats**, tagad ir pieejami jauni KPI, diagrammas un finanšu pārskati. Ir pieejami tālāk norādītie finanšu pārskati.
 
 •   Apgrozījuma bilance
 

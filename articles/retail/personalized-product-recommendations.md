@@ -3,7 +3,7 @@ title: "Personalizētu preču ieteikumu apskats"
 description: "Šajā tēmā ir sniegta informācija par Dynamics 365 for Retail preču ieteikumiem, kas var tikt rādīti pārdošanas punkta (POS) ierīcē."
 author: ashishmsft
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 02/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
-ms.openlocfilehash: 942d6225a46b108ea39d3b8e4376b644c128ae6d
+ms.sourcegitcommit: 16bdf2176869e5822ddf8732c829b65f1e60632c
+ms.openlocfilehash: ce91f675082a34bd5a1e88be7a7af6884dc47add
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/14/2017
 
 
 > [!NOTE]
-> Šis līdzeklis pašlaik ir pieejams tikai smilškastes un ražošanas (augstas pieejamības) izvietojumu topoloģijām. 
+> Mēs noņemam preču ieteikumu pakalpojuma pašreizējo versiju, jo pārveidojam šo līdzekli, pievienojot tam uzlabotu algoritmu un jaunākas uz mazumtirdzniecību orientētas iespējas. Papildinformāciju skatiet šeit: [Noņemtie vai novecojušie līdzekļi](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features). 
 
 Izmantojot programmatūru Dynamics 365 for Retail, pārdošanas punkta (POS) ierīcē var tikt rādīti preču ieteikumi. Ieteikumi ir krājumi, kas debitoru varētu interesēt, pamatojoties uz debitora pirkumu vēsturi, krājumiem debitora vēlmju sarakstā, kā arī krājumiem, ko citi debitori ir nopirkuši tiešsaistes un fiziskajos veikalos. Ja mazumtirgotājam ir plašs katalogs, ieteikumi palīdz debitoram atklāt preces. Preču ieteikumi nodrošina, ka debitoram tiek piedāvātas viņa interesēm un iepirkumu vēsturei atbilstošas preces, un tādējādi var palīdzēt mazumtirgotājiem veikt papildu pārdošanu un šķērspārdošanu un uzlabot klientu lojalitātes saglabāšanas rādītājus. Programmatūrā Dynamics 365 for Retail preču ieteikumi tiek nodrošināti, izmantojot pakalpojumu Cognitive Services un Microsoft Azure algoritmisko mācīšanos.
 

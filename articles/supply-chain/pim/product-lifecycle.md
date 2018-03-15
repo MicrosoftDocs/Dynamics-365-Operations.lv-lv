@@ -20,10 +20,10 @@ ms.author: conradv
 ms.dyn365.ops.version: 7.3
 ms.search.validFrom: 2017-12-31
 ms.translationtype: HT
-ms.sourcegitcommit: 33130a4061f22335aeeffa69c478b693604393a9
-ms.openlocfilehash: a57f306ba02c5758c39c4bd29d9a4fa0d7efbcd3
+ms.sourcegitcommit: 236b0253f20330f09f07dbcfa19257350fb5d37f
+ms.openlocfilehash: 8ef72de3f226a3270ac0145a20e4da7dfe64f4ba
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/08/2018
 
 ---
 
@@ -109,10 +109,10 @@ Lai atlasītu un atjauninātu izlaistās preces un preču variantus, izmantojiet
 
 ## <a name="related-topics"></a>Saistītās tēmas
 
--  Jauna preces dzīves cikla stāvokļa izveidošana
--  Jauna noklusējuma preces dzīves cikla stāvokļa izveidošana
--  Preces dzīves cikla stāvokļa piešķiršana izlaistam preces šablonam
--  Preces dzīves cikla stāvokļa piešķiršana izlaistai precei
--  Novecojušu preču variantu atrašana un preces dzīves cikla stāvokļa piešķiršana
--  Preces dzīves cikla stāvokļa izveidošana, lai izslēgtu preces no vispārējās plānošanas
+-  [Jauna preces dzīves cikla stāvokļa izveidošana (uzdevuma ceļvedis)](tasks/new-product-lifecycle-state.md)
+-  [Noklusējuma preces dzīves cikla stāvokļa izveidošana (uzdevuma ceļvedis)](tasks/default-product-lifecycle-state.md)
+-  [Preces dzīves cikla stāvokļa piešķiršana izlaistam preces šablonam (uzdevuma ceļvedis)](tasks/product-lifecycle-state-released-product-master.md)
+-  [Preces dzīves cikla stāvokļa piešķiršana izlaistajai precei (uzdevuma ceļvedis)](tasks/product-lifecycle-state-released-product.md)
+-  [Novecojušu preces variantu atrašana un preces dzīves cikla stāvokļa piešķiršana (uzdevuma ceļvedis)](tasks/obsolete-product-variants.md)
+-  [Preces dzīves cikla stāvokļa izveidošana, lai izslēgtu preces no vispārējās plānošanas (uzdevuma ceļvedis)](tasks/exclude-products-master-planning.md)
 

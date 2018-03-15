@@ -18,14 +18,16 @@ ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 6aec3532a36a2c1e67ee0c189e45a352ad7670f6
+ms.sourcegitcommit: a1e539c283800035327196520f6438904c94126d
+ms.openlocfilehash: 0affc07293c886c4c65f99259eb19f1998f277f6
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/04/2018
 
 ---
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>MK un formulas rindu izlaišana nosūtīšanai uz noliktavu
+
+[!include[banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā izejmateriālus materiālu komplektu (MK) rindām un formulas rindām izlaist nosūtīšanai uz noliktavu. Kad MK vai formulas rindu izlaižat nosūtīšanai uz noliktavu, sistēma vispirms nosaka, vai attiecīgais materiāls ražotnē jau ir pieejams ražošanas ievades novietojumā, kur šis materiāls tiks patērēts ražošanas procesam.
 
@@ -40,6 +42,9 @@ MK un formulas rindu izlaišanai izmantotā metode tiek kontrolēta ar parametru
 
 - **Izlaist MK un formulas rindas kā daļu no ražošanas vai partijas pasūtījuma izlaišanas** — ar šo metodi MK un formulas rindas ražošanas vai partijas pasūtījumam tiek izlaistas kā daļa no pasūtījuma izlaišanas procesa. Ražošanas vai partijas pasūtījuma izlaišanas laikā parasti ražošanas darbi tiek izlaisti nodošanai ražotnes darbiniekiem un tiek drukāta ražošanas dokumentācija. Šī procesa laikā pasūtījuma statuss tiek arī mainīts uz **Izlaists**.
 - **Izlaist MK un formulas rindas ar pakešuzdevumu vai kā manuālu mijiedarbību** — izmantojot šo metodi, MK un formulas rindas var izlaist vienīgi ar pakešuzdevumu **Automātiska MK un formulas rindu izlaišana** vai kā manuālu mijiedarbību. Lai MK un formulas rindas izlaistu manuāli, ražošanas pasūtījuma saraksta lapas vai ražošanas pasūtījuma informācijas lapas darbību rūtī atlasiet **Izlaist pārvietošanai uz noliktavu**.
+
+Īsu demonstrāciju par to, kā izlaist MK un formulas rindas nosūtīšanai uz ražošanu, izmantojot pakešuzdevumu, noskatieties šo īso YouTube video:
+[!Video https://www.youtube.com/embed/8urAJn50dQ8]
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>MK un formulas rindu izlaišana, izmantojot pakešuzdevumu
 
@@ -79,6 +84,9 @@ Lai kontrolētu operācijas, uz kurām ir jāizlaiž materiāls, izmantojiet lap
 Nākamajā attēlā ir parādīts ražošanas pasūtījums, kurā ir divas operācijas — 10 un 20. Ja šajā piemērā ierobežojat izlaišanu uz operāciju 10, tiek izlaists tikai materiāls M9203.
 
 ![Piemērs par materiāla izlaišanu katram operācijas numuram](media/two-operations.PNG)
+
+Īsu demonstrāciju par to, kā izlaist materiālu proporcionāli pabeigto preču daudzumam, varat skatīties šajā YouTube videoklipā:
+[!Video https://www.youtube.com/embed/Rm3ojAz6Zu0]
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>Materiāla izlaišana proporcionāli pabeigto preču daudzumam
 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustPaymMode, CustBankAccounts, VendPaymMode, VendBankAccounts
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,16 +17,17 @@ ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 599440449f1e8c8dcc3762ce9f6da7a37beb358f
+ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
+ms.openlocfilehash: 1492e4d8220a3d515145d97ef8dad048727d97c8
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/14/2018
 
 ---
 
 # <a name="import-iso20022-files"></a>Importēt ISO20022 failus
 
-## <a name="overview"></a>Pārskats
+[!include[banner](../includes/banner.md)]
+
 Varat importēt maksājumu failus, kas ir tālāk norādītajos formātos.
 
  - **ISO20022 camt.054 kredīta izziņa** – importējiet ienākošos maksājumus no šī formāta faila debitoru maksājumu žurnālā.
@@ -40,7 +42,7 @@ Lai bankas paziņojumus camt.054.001.002 formātā varētu importēt debitoru ma
 4. Lapā **Bankas konti** iestatiet juridiskās personas bankas kontus, ievadot šādu informāciju: IBAN vai bankas konta numurs un SWIFT kods vai reģistrācijas numurs, valūta un adrese.
 
     > [!NOTE]
-    > Ja plānojat izmantot opciju Detalizēta bankas darbību saskaņošana, kopsavilkuma cilnē **Saskaņošana** opciju **Detalizēta bankas darbību saskaņošana** iestatiet uz **Jā**. Ja plānojat saskaņot negrāmatotos importētos maksājumus, opciju **Lietot bankas izrakstus kā elektronisko maksājumu apstiprinājumu** iestatiet uz **Jā**.
+        > Ja plānojat izmantot opciju Detalizēta bankas darbību saskaņošana, kopsavilkuma cilnē **Saskaņošana** opciju **Detalizēta bankas darbību saskaņošana** iestatiet uz **Jā**. Ja plānojat saskaņot negrāmatotos importētos maksājumus, opciju **Lietot bankas izrakstus kā elektronisko maksājumu apstiprinājumu** iestatiet uz **Jā**.
 
 5. Neobligāti: lapā **Transakciju kodu kartēšana** iestatiet kartēšanu starp bankas transakciju kodiem failā un bankas transakciju tipiem.
 6. Ja fails satur transakciju maksas, ko vēlaties grāmatot kopā ar ienākošo maksājumu, izveidojiet komisijas maksu lapā **Debitoru komisijas maksas**. Pēc tam lapā **Maksāšanas metodes** saistiet komisijas maksu ar bankas kontu komisijas maksu iestatījumos.
@@ -53,9 +55,7 @@ Lai bankas paziņojumus camt.054.001.002 formātā varētu importēt debitoru ma
 ## <a name="import-the-camt054-credit-advice-file-into-the-customer-payment-journal"></a>camt.054 kredīta izziņas faila importēšana debitoru maksājumu žurnālā
 1. Lapā **Debitoru maksājumu žurnāla rindas** noklikšķiniet uz **Funkcijas** > **Importēt maksājumus**.
 2. Atlasiet maksāšanas metodi, kam ir ISO20022 camt.054 formātam nepieciešamie iestatījumi.
-3. Norādiet nepieciešamos parametrus un faila ceļu un pēc tam noklikšķiniet uz **Labi**.
-
-Fails tiek importēts.
+3. Norādiet nepieciešamos parametrus un faila ceļu un pēc tam noklikšķiniet uz **Labi**. Fails tiek importēts.
 
 ## <a name="prerequisites-for-importing-files-in-the-pain002-status-return-and-camt054-debit-advice-formats-into-the-ap-payment-transfer-journal"></a>Priekšnosacījumi failu importēšanai pain.002 atgrieztā statusa un camt.054 debeta izziņas formātos kreditoru maksājumu pārsūtījumu žurnālā
 Lai bankas ziņojumus importētu šādos ISO20022 formātos lapā **Kreditoru maksājumu pārsūtīšana**: pain.002.001.003 atgrieztā statusa ziņojumi un camt.054.001.002 debeta izziņa, ir jāizpilda tālāk norādītie priekšnosacījumi.
