@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 5737d9c52727077d34c6f5553c9788bf07032914
-ms.openlocfilehash: 0521f0b443efb761e7d3f63182728dd836dbf8a0
+ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
+ms.openlocfilehash: 0f83735ec42e945c5e0abf8d72b83936e076e60e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 02/27/2018
 
 ---
 
@@ -33,7 +33,9 @@ ms.lasthandoff: 01/15/2018
 
 
 > [!NOTE]
-> Šajā tēmā aprakstīts, kā noliktavas konfigurēt mākoņa izvietojumiem. Ja meklējat informāciju par to, kā noliktavas konfigurēt lokālajiem izvietojumiem, skatiet rakstu [Noliktavas lokālajiem izvietojumiem](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/deployment/warehousing-for-on-premise-deployments).
+
+> Šajā tēmā aprakstīts, kā noliktavas konfigurēt mākoņa izvietojumiem. Ja meklējat informāciju par to, kā noliktavas konfigurēt lokālajiem izvietojumiem, skatiet rakstu [Noliktavas lokālajiem izvietojumiem](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+
 
 Šajā tēmā ir aprakstīts, kā instalēt un konfigurēt programmu Microsoft Dynamics 365 for Finance and Operations – Warehousing
 
@@ -44,7 +46,7 @@ Programma ir pieejama operētājsistēmās Android un Windows. Lai varētu lieto
 
 | Platforma                    | Versija                                                                                                                                                                     |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Android                     | 4.4, 5.0, 6.0                                                                                                                                                               |
+| Android                     | 4.4, 5.0, 6.0, 7.0, 8.0                                                                                                                                                     |
 | Windows (UWP)               | Windows 10 (visas versijas)                                                                                                                                                   |
 | Finance and Operations | Microsoft Dynamics 365 for Operations, versija 1611 <br>- vai - <br>Microsoft Dynamics AX versija 7.0/7.0.1 un Microsoft Dynamics AX 2. platformas atjauninājums ar labojumfailu KB 3210014 |
 
@@ -58,7 +60,7 @@ Programma ir pieejama operētājsistēmās Android un Windows. Lai varētu lieto
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a>Tīmekļa pakalpojuma programmas izveide pakalpojumā Azure Active Directory
 Lai programma varētu mijiedarboties ar noteiktu Finance and Operations serveri, pakalpojumā Azure Active Directory programmas Finance and Operations nomniekam ir jāreģistrē tīmekļa pakalpojuma programma. Drošības apsvērumu dēļ ir ieteicams izveidot tīmekļa pakalpojuma lietojumprogrammu katrai izmantotajai ierīcei. Lai izveidotu tīmekļa pakalpojuma lietojumprogrammu pakalpojumā Azure Active Directory (Azure AD), veiciet tālāk norādītās darbības.
 
-1.  Tīmekļa pārlūkprogrammā atveriet vietni <https://portal.azure.com>.
+1.  Tīmekļa pārlūkā dodieties uz vietni <https://portal.azure.com>.
 2.  Ievadiet tā lietotāja vārdu un paroli, kurš var piekļūt Azure abonementam.
 3.  Azure portāla kreisajā navigācijas rūtī noklikšķiniet uz **Azure Active Directory**.[](./media/WMA-01-active-directory-example.png)[![WMA-01-active-directory-example](./media/WMA-01-active-directory-example.png )](./media/WMA-01-active-directory-example.png)
 4.  Nodrošiniet, ka Active Directory instance atbilst instancei, kas izmantota programmā Finance and Operations.
@@ -93,7 +95,7 @@ Ierīcē instalētā programma ir jākonfigurē savienojuma izveidei ar Finance 
     + **Azure Active Directory klienta ID** — klienta ID tiek iegūts, veicot 9. darbību sadaļā “Izveidot tīmekļa pakalpojuma programmu pakalpojumā Active Directory”. 
     + **Azure Active Directory klienta noslēpums** — klienta noslēpums tiek iegūts, veicot 11. darbību sadaļā “Izveidot tīmekļa pakalpojuma programmu pakalpojumā Active Directory”. 
     + **Azure Active Directory resurss** — Azure AD direktorija resurss atbilst Finance and Operations saknes URL. **Piezīme**. Šī lauka vērtības beigās nedrīkst ievadīt uz priekšu vērstās slīpsvītras rakstzīmi (/). 
-    + **Azure Active Directory nomnieks** — Azure AD direktorija nomnieks, kas tiek izmantots ar Finance and Operations serveri: https://login.windows.net/jūsu-AD-nomnieka-ID. Piemēram: https://login.windows.net/contosooperations.onmicrosoft.com.
+    + **Azure Active Directory nomnieks** — Azure AD direktorija nomnieks, kas tiek izmantots ar Finance and Operations serveri: `https://login.windows.net/your-AD-tenant-ID`. Piemēram: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
     <br>**Piezīme**. Šī lauka vērtības beigās nedrīkst ievadīt uz priekšu vērstās slīpsvītras rakstzīmi (/). 
     + **Uzņēmums** — ievadiet to juridisko personu programmatūrā Finance and Operations, ar programmai ir jāizveido savienojums. <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
 4.  Atlasiet pogu **Atpakaļ** lietojumprogrammas apakšējā kreisajā stūrī. Tagad programmā tiek izveidots savienojums ar Finance and Operations serveri un parādīts noliktavas darbinieka pieteikšanās ekrāns. <br>[![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)

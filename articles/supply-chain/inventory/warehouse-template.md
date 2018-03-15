@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 87ade03ec2ba78c4d7f5832bfa6dc1b7eabd8d94
+ms.sourcegitcommit: a05fec7b79003d5b98470d85644d70bd1dbac285
+ms.openlocfilehash: 9e0c61505a8af864d7ff38655e7e896c4f6ccb65
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 02/06/2018
 
 ---
 
@@ -93,6 +93,11 @@ Varat lejupielādēt zip failu šai datu pakotnei. Šajā failā ir visi dati at
 5. Atlasiet **Importēt**. Skatā **Paplašināts** varat lietot opciju **Filtrēt**, lai ātri iegūtu pārskatu par problēmām, kas varētu rasties importēšanas laikā.
 
 Žurnālā **Skatīt izpildi** ir sniegta detalizēta informācija par katru importēto datu elementu. Varat izmantot sagatavošanas posmu datu skatu, lai ātri nokļūtu pie mērķa datiem. Šādi varat redzēt, kā importētie dati izskatās saistītajās programmas lapās. Kad lietojat noklusējuma datu veidnes, importēšanas secība katram datu elementam darbojas iepriekš definētā veidā, lai palīdzētu nodrošināt, ka visi atkarīgie dati tiek importēti vispirms. Ja daļu no projekta veido pielāgotie datu elementi, jums ir jāpārliecinās, vai ir definēta pareizā secība. Papildinformāciju skatiet šeit: [Konfigurācijas datu veidnes](../../dev-itpro/data-entities/configuration-data-templates.md).
+
+Lai uzzinātu vairāk par to, kā izmantot noliktavas veidni noliktavu konfigurācijas kopēšanai no viena uzņēmuma uz jaunu uzņēmumu vienas instances ietvaros, noskatieties šo 3 minūšu video pakalpojumā YouTube.
+
+> [!Video https://www.youtube.com/embed/K2WIfFlqJYs]
+
 
 ## <a name="related-topic"></a>Saistītā tēma
 

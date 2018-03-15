@@ -3,7 +3,7 @@ title: "Kārtulu izveide optimizācijas padomniekam"
 description: "Šajā tēmā ir aprakstīts, kā pievienot jaunas kārtulas darbvietai Optimizācijas padomnieks."
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 01/23/2018
+ms.date: 02/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: yuyus
-ms.search.scope: Core (Operations, Core)
+ms.search.scope: Operations, Core
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 9cb9343028acacc387370e1cdd2202b84919185e
-ms.openlocfilehash: 88739298405343a36ae5bc11f51c666c414e7157
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: e64d4fc1a7425d38d728b11e503d3e7289312495
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -170,6 +170,9 @@ Atkarībā no kārtulas specifikas, iespējams, var veikt automātisku darbību,
 
 Metode **securityMenuItem** atgriež darbību izvēlnes vienuma nosaukumu tā, lai kārtula būtu redzama tikai tiem lietotājiem, kuri var piekļūt darbību izvēlnes vienumam. Drošības apsvērumu dēļ noteiktas kārtulas un iespējas var būt noteiktas kā pieejamas tikai autorizētiem lietotājiem. Piemērā iespēju var skatīt tikai lietotāji, kuri var piekļūt vienumam **PurchRFQCaseTitleAction**. Ņemiet vērā, ka šis darbību izvēlnes vienums tika izveidots šim piemēram un tika pievienots kā ieejas punkts **PurchRFQCaseTableMaintain** drošības privilēģijai. 
 
+> [!NOTE]
+> Drošības apsvērumu dēļ, lai izvēlnes vienums dabotos pareizi, tam ir jābūt darbības izvēlnes vienumam. Citi izvēlnes vienumu tipi, piemēram, **Displeja izvēlnes vienumi**, nedarbosies pareizi.
+
 ```
 public MenuName securityMenuItem() 
 { 
@@ -192,6 +195,65 @@ class ScanNewRulesJob
 ```
 
 Kārtula tiks parādīta formā **Diagnostikas apstiprināšanas kārtula**, kas pieejama, atverot sadaļas **Sistēmas administrēšana** > **Periodiskie uzdevumi** > **Uzturēt diagnostikas apstiprināšanas kārtulu**. Lai tā tiktu novērtēta, atveriet sadaļas **Sistēmas administrēšana** > **Periodiskie uzdevumi** > **Ieplānot diagnostikas apstiprināšanas kārtulu** un atlasiet kārtulas biežumu, piemēram, **Katru dienu**. Noklikšķiniet uz **Labi**. Lai skatītu jauno iespēju, atveriet sadaļas **Sistēmas administrēšana** > **Optimizācijas padomnieks**. 
+
+Tālāk esošais piemērs ir koda fragments ar kārtulas karkasu, tostarp visām nepieciešamajām metodēm un atribūtiem. Tas palīdz jums sākt rakstīt jaunas kārtulas. Piemērā izmantotās etiķetes un darbības izvēlnes vienumi ir paredzēti tikai demonstrācijas nolūkiem.
+
+```
+[DiagnosticsRuleAttribute]
+public final class SkeletonSelfHealingRule extends SelfHealingRule implements IDiagnosticsRule
+{
+    [DiagnosticsRuleSubscription(DiagnosticsArea::SCM,
+                                 "@SkeletonRuleLabels:SkeletonRuleTitle", // Label with the title of the rule
+                                 DiagnosticsRunFrequency::Monthly,
+                                 "@SkeletonRuleLabels:SkeletonRuleDescription")] // Label with a description of the rule
+    public str opportunityTitle()
+    {
+        // Return a label with the title of the opportunity
+        return "@SkeletonRuleLabels:SkeletonOpportunityTitle";
+    }
+
+    public str opportunityDetails(SelfHealingOpportunity _opportunity)
+    {
+        str details = "";
+
+        // Use _opportunity.data to provide details on the opportunity
+
+        return details;
+    }
+
+    protected List evaluate()
+    {
+        List results = new List(Types::Record);
+
+        // Write here the core logic of the rule
+
+        // When creating an opportunity, use:
+        //     * this.getOpportunityForCompany() for company specific opportunities
+        //     * this.getOpportunityAcrossCompanies() for cross-company opportunities
+
+        return results;
+    }
+
+    public boolean providesHealingAction()
+    {
+        return true;
+    }
+
+    protected void performAction(SelfHealingOpportunity _opportunity)
+    {
+        // Place here the code that performs the healing action
+
+        // To open a form, use the following:
+        // new MenuFunction(menuItemDisplayStr(SkeletonRuleDisplayMenuItem), MenuItemType::Display).run();
+    }
+
+    public MenuName securityMenuItem()
+    {
+        return menuItemActionStr(SkeletonRuleActionMenuItem);
+    }
+
+}
+```
 
 Lai iegūtu papildu informāciju, noskatieties īsu YouTube video:
 

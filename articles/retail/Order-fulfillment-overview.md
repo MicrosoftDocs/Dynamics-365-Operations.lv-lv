@@ -18,14 +18,16 @@ ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: ec6cb212766dd90fa9db7719a2119419ecb935c7
-ms.openlocfilehash: e0aa0e576f88fd497472aa4141704a66d51605c3
+ms.sourcegitcommit: 997b6843fb729ed204e4e8ec5369c5a380efc25e
+ms.openlocfilehash: fb36f6ce81c5e781e3c98132f18ecbd84d0d4089
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/12/2018
 
 ---
 
 # <a name="store-order-fulfillment"></a>Veikala pasūtījumu izpilde
+
+[!include[banner](includes/banner.md)]
 
 Daudzi mazumtirgotāji vēlas optimizēt pasūtījumu izpildi, ļaujot veikaliem izpildīt pasūtījumus. Pasūtījumu izpildīšana veikala līmenī var palīdzēt atvieglot krājumu pārsniegšanas scenārijus noteiktam veikalam, vai šāda izpildīšana var būt nepieciešama no loģistikas viedokļa gadījumos, kad veikalam ir papildu jauda vai tas atrodas tuvākā nosūtīšanas attālumā līdz debitoram. Lai risinātu šo vajadzību, pārdošanas punktā ir pieejama vienotās pasūtījumu izpildes operācija.
 
@@ -56,7 +58,7 @@ Rindas var atlasīt, darbību rūtī izmantojot funkciju **Atlasīt**. Kad funkc
 
 ## <a name="line-details"></a>Rindas informācija
 
-Rindas informāciju var parādīt, izmantojot rindas informācijas uznirstošo izvēlni. Ja tiek izmantota šī izvēlne, tiek nodrošinātas divas cilnes, lai parādītu papildinformāciju par atlasīto rindu. Pirmajā cilnē **Rindas informācija** tiek rāda detalizēta informācija par pašu rindu, piemēram, pasūtītais un atlikušais daudzums. Tiek sniegta papildinformācija, tostarp izdotais, iepakotais un rēķinā iekļautais daudzums, kā arī piegādes veids un piegādes adrese. Cilnē **Pasūtījuma informācija** ir sniegta pasūtījuma virsraksta informācija, tostarp debitors, debitora ID, pasūtījuma numurs, pasūtījuma kopsumma un bilance.
+Rindas informāciju var parādīt, izmantojot rindas informācijas uznirstošo izvēlni. Ja tiek izmantota šī izvēlne, tiek nodrošinātas trīs cilnes, lai parādītu papildinformāciju par atlasīto rindu. Pirmajā cilnē **Rindas informācija** tiek rāda detalizēta informācija par pašu rindu, piemēram, pasūtītais un atlikušais daudzums. Tiek sniegta papildinformācija, tostarp izdotais, iepakotais un rēķinā iekļautais daudzums, kā arī piegādes veids un piegādes adrese. Cilnē **Pasūtījuma informācija** ir sniegta pasūtījuma virsraksta informācija, tostarp debitors, debitora ID, pasūtījuma numurs, pasūtījuma kopsumma un bilance. Cilnē **Krājumi** tiek rādīta informācija par atlasīto rindu: fiziski pieejamie krājumi, rezervētie krājumi un pasūtītie krājumi.
 
 Ja ir atlasītas vairākas rindas, pasūtījuma rindas informācijas uznirstošā izvēlne norāda tikai to, ka ir atlasītas vairākas rindas. Lai parādītu detalizētu informāciju par atsevišķu rindu, noņemiet rindu atzīmes, līdz atliek tikai viena rinda. 
 
@@ -210,7 +212,7 @@ Pasūtījumu rindām pārdošanas punktā ir vairāki statusi, kas atspoguļo pa
 
 Pasūtījumu izpilde pārdošanas punktā ietver filtrēšanu, lai palīdzētu lietotājam ērti atrast nepieciešamo. Filtrus var mainīt, izmantojot darbību rūti, kas atrodas ekrāna **Pārdošanas punkts** apakšā. Pēc noklusējuma tiek lietots filtrs **Piegādes veids**, pamatojoties uz veidu, kā attiecīgā operācija ir iestatīta. Ja operācija ir iestatīta ar parametru **Visi pasūtījumi**, šis filtrs tiek lietots, kad piekļūstat pasūtījumu izpildei. Tas pats attiecas uz parametriem **Izdot veikalā** un **Nosūtīt no veikala**. Tālāk ir uzskaitīti citi filtri, kurus var lietot pasūtījumu izpildes skatīšanai.
 
-  - Debitora numurs
+  - Klienta numurs
   - Debitora nosaukums
   - Debitora e-pasts
   - Pasūtījuma numurs

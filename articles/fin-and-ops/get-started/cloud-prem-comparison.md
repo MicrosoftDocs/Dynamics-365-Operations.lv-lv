@@ -3,7 +3,7 @@ title: "Mākoņa un lokālās versijas līdzekļu salīdzinājums"
 description: "Šajā tēmā ir parādīts, kādi līdzekļi tiek atbalstīti mākoņa un lokālajā versijā."
 author: robinarh
 manager: AnnBe
-ms.date: 11/29/2017
+ms.date: 03/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: cfd3b475b113fdab4ceeb3e636fea6c9134ab982
-ms.openlocfilehash: 32cc0c01a096cd678c605f57e0cccfe42d0479aa
+ms.sourcegitcommit: 4ffdc5dd54f8a069676f62c8b43f2892764dc046
+ms.openlocfilehash: 88640007ec54ed0c566e163e3dd701faeebc50ce
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 
@@ -48,9 +48,10 @@ Nākamajās tabulās ir uzskaitīti produktu apgabali. Mākoņa un lokālās ver
 | Izmaksu pārvaldība| | Jā | Jā |
 | | Izmaksu pārvaldības satura pakotne pakalpojumam Power BI | Jā | Nē |
 | Datu pārvaldība un integrācija| | Jā | Jā |
-| | Konfigurācijas vadīts paplašinājums| Jā | Nē |
-| | Eksportēt datus uz jūsu pašu datu noliktavu| Jā | Nē |
-| | Iespējot inkrementālo atjauninājumu eksportēšanu uz datu elementu | Jā | Nē |
+| | Konfigurācijas vadīts paplašinājums| Jā | Nav |
+| | Eksportēt datus uz jūsu pašu datu noliktavu| Jā | Jā |
+| | Iespējot inkrementālo atjauninājumu eksportēšanu uz datu elementu | Jā | Nav |
+| | Atkārtotas integrācijas                 |Jā | Nav|
 | Dokumentu vadība| | Jā| Jā |
 | Finanšu pārvaldība|  | Jā | Jā |
 | Palīdzība| | Jā | Nē |

@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 602873e8af976c57f27ce53b76391516351755e3
-ms.openlocfilehash: 29d33d3ecf97c15fed0247d172ff6fb3bbdaa018
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: 62f328c5a6bf5343c97de0b7d907bbcfe2fcde4d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/23/2018
 
 ---
 
@@ -46,15 +46,6 @@ Pašreizējā versijā risinājums No potenciālā klienta līdz skaidrai naudai
 - [Pārdošanas pasūtījumu tieša sinhronizēšana no programmas Finance and Operations uz programmu Sales](sales-order-template-mapping-direct.md)
 - [Pārdošanas pasūtījumu tieša sinhronizēšana no programmas Sales uz programmu Finance and Operations un otrādi (veidne, kas gaida izlaišanu)](sales-order-template-mapping-direct-two-ways.md)
 - [Pārdošanas rēķina tieša sinhronizēšana no programmas Finance and Operations uz programmu Sales](sales-invoice-template-mapping-direct.md)
-
-Agrākās versijās risinājums No potenciālā klienta līdz skaidrai naudai nodrošina tālāk aprakstītos netiešās sinhronizācijas tipus.
-
-- [Kontu uzturēšana programmā Sales un to sinhronizēšana ar Finance and Operations](accounts-template-mapping.md)
-- [Kontaktpersonu uzturēšana programmā Sales un to sinhronizēšana ar programmu Finance and Operations](contacts-template-mapping.md)
-- [Preču uzturēšana programmā Finance and Operations un to tieša sinhronizēšana ar programmu Sales](products-template-mapping.md)
-- [Pārdošanas piedāvājumu izveidošana programmā Sales un to sinhronizēšana ar Finance and Operations](sales-quotation-template-mapping.md)
-- [Pārdošanas pasūtījumu izveidošana programmā Finance and Operations un to sinhronizēšana ar programmu Sales](sales-order-template-mapping.md)
-- [Pārdošanas rēķinu izveidošana programmā Finance and Operations un to sinhronizēšana ar programmu Sales](sales-invoice-template-mapping.md)
 
 ## <a name="system-requirements-for-finance-and-operations"></a>Sistēmas prasības programmai Finance and Operations
 
@@ -87,7 +78,7 @@ Integrācija No potenciālā klienta līdz skaidrai naudai tiek atbalstīta tāl
     - **[KB4033093](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4033093&bugId=3824604&qc=bd7e15e1fb56066b3a82ce48b691cf1ffbc934a7473fa888545b2211a8d416c5)** — ir nepieciešams atbalsts risinājuma “No potenciālā klienta līdz skaidrai naudai” integrēšanai datu elementos.
     
     > [!NOTE]
-    > Pēc labojumfailu instalēšanas jums ir nepieciešams aktivizēt tālāk norādīto pakešuzdevumu no formas **SalesPopulateProspectToCash**. Šī forma ir slēpta, jo jums tā ir nepieciešama tikai vienreiz. Lai piekļūtu šai formai, piesakieties vidē un savā pārlūkprogrammas adresē pievienojiet šādu vietrādi URL: &mi=action:SalesPopulateProspectToCash, piemēram, https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash. Kad forma tiek atvērta, noklikšķiniet uz Labi. Šādi tiek aizpildīts jauns lauks **LineCreationSequnceNumber** tabulās **SalesLine**, **SalesQuotationLine** un **CustInvoiceTrans**, izmantojot unikālas vērtības, un tiek atsvaidzināts preču saraksts. Lai darbotos risinājuma “No potenciālā klienta līdz skaidrai naudai” integrēšana, šī procedūra ir jāizpilda obligāti.
+    > Pēc labojumfailu instalēšanas jums ir nepieciešams aktivizēt tālāk norādīto pakešuzdevumu no formas **SalesPopulateProspectToCash**. Šī forma ir slēpta, jo jums tā ir nepieciešama tikai vienreiz. Lai piekļūtu šai formai, piesakieties vidē un savā pārlūkprogrammas adresē pievienojiet šādu vietrādi URL: &mi=action:SalesPopulateProspectToCash, piemēram, `https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash`. Kad forma tiek atvērta, noklikšķiniet uz Labi. Šādi tiek aizpildīts jauns lauks **LineCreationSequnceNumber** tabulās **SalesLine**, **SalesQuotationLine** un **CustInvoiceTrans**, izmantojot unikālas vērtības, un tiek atsvaidzināts preču saraksts. Lai darbotos risinājuma “No potenciālā klienta līdz skaidrai naudai” integrēšana, šī procedūra ir jāizpilda obligāti.
 
 
 ## <a name="system-requirements-for-sales"></a>Sistēmas prasības programmai Sales
@@ -96,12 +87,6 @@ Lai lietotu risinājumu No potenciālā klienta līdz skaidrai naudai, ir jābū
 
 - Dynamics 365 for Sales versija 1612 (8.2.1.207) (DB 8.2.1.207), tiešsaistes versija
 - Risinājums “No potenciālā klienta līdz skaidrai naudai” programmai Dynamics 365 for Sales, versija 1.15.0.0 (v15) 
-
-   > [!NOTE]
-   >
-   > Veidnes ar versiju 1.0.0.0 un 1.0.0.1 tiek atbalstītas risinājumā “No potenciālā klienta līdz skaidrai naudai” programmai Dynamics 365 for Sales, versija 1.14.1.0
-   >
-   > Veidnes ar versiju 2.0.0.0 un 2.1.0.0 tiek atbalstītas risinājumā “No potenciālā klienta līdz skaidrai naudai” programmai Dynamics 365 for Sales, versija 1.15.0.0
 
 ### <a name="install-the-prospect-to-cash-solution-for-sales"></a>Instalēt risinājumu No potenciālā klienta līdz skaidrai naudai programmai Sales
 
