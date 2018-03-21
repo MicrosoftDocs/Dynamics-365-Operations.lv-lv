@@ -21,7 +21,8 @@
 #### [Atliktie AX 2012 līdzekļi](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [Līdzekļi, kas nav ieviesti lokālos izvietojumos](get-started/features-not-implemented-on-prem.md)
 #### [Laidieni un dzīves cikla politika](../dev-itpro/migration-upgrade/versions-update-policy.md)
-#### [13. platformas atjauninājums (2018. gada janvāris)](get-started/whats-new-platform-update-13.md)
+#### [Lokāli izvietojumi (2018. gada marts)](get-started/whats-new-LBD-PU12-App72.md)
+#### [Atjauninājums “Platform update 13” (2018. gada janvāris)](get-started/whats-new-platform-update-13.md)
 #### [Finance and Operations, Enterprise Edition 7.3](get-started/whats-new-application-7.3-update.md)
 #### [12. platformas atjauninājums (2017. gada novembris)](get-started/whats-new-platform-update-12.md)
 #### [Platform atjauninājumu 11 (2017. gada oktobris)](get-started/whats-new-platform-update-11.md)
@@ -134,7 +135,7 @@
 ### [Izmaksu pārvaldības satura pakotnes skatīšana pakalpojumā Power BI](../dev-itpro/analytics/cost-management-content-pack.md)
 
 ## Datu integrācija
-### [Integrācijas shēmas](../dev-itpro/data-entities/integration-overview.md)
+### [Datu integrācijas (importa/eksporta) stratēģijas izvēle](../dev-itpro/data-entities/integration-overview.md)
 
 ### Datu integrācijas API
 #### [Datu pārvaldības pakotnes API](../dev-itpro/data-entities/data-management-api.md)
@@ -157,10 +158,9 @@
 ###### [Kontu uzturēšana programmā Sales un to tieša sinhronizēšana ar programmu Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ###### [Preču uzturēšana programmā Finance and Operations un to tieša sinhronizēšana ar programmu Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ###### [Kontaktpersonu uzturēšana programmā Sales un to tieša sinhronizēšana ar kontaktpersonām vai debitoriem programmā Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-###### [Pārdošanas piedāvājuma tieša sinhronizēšana no programmas Sales uz programmu Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
-###### [Pārdošanas pasūtījumu tieša sinhronizēšana no programmas Finance and Operations uz programmu Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
-###### [Pārdošanas pasūtījumu tieša sinhronizēšana no programmas Finance and Operations uz programmu Sales un otrādi](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
-###### [Pārdošanas rēķina tieša sinhronizēšana no programmas Finance and Operations uz programmu Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [Pārdošanas piedāvājumu uzturēšana programmā Sales un to tieša sinhronizēšana ar programmu Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+###### [Pārdošanas pasūtījumu uzturēšana programmā Finance and Operations un to tieša sinhronizēšana ar programmu Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+###### [Pārdošanas rēķinu uzturēšana programmā Finance and Operations un to tieša sinhronizēšana ar programmu Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 
 
 #### [Ārējo tīmekļa pakalpojumu patērēšana](../dev-itpro/data-entities/consume-external-web-service.md)
@@ -472,8 +472,14 @@
 #### [Kredītkaršu transakciju importēšana un uzturēšana](../financials/expense-management/import-credit-card.md)
 #### [Sadales izdevumu pārskatā](../financials/expense-management/expense-report-distributions.md)
 #### [Starpuzņēmumu izdevumi](../financials/expense-management/intercompany-expense.md)
-#### [Izdevumu ierobežojumi](../financials/expense-management/travel-expense-policies.md)
-
+#### [Izdevumu politikas](../financials/expense-management/travel-expense-policies.md)
+#### [Skatīt izdevumu pārskatu](../financials/expense-management/view-expense-report.md)
+#### [Grāmatot izdevumu pārskatu](../financials/expense-management/post-expense.md)
+#### [Izdevumu pārskati un vairāki apstiprinātāji](../financials/expense-management/expense-report-multiple-approvers.md)
+#### [PVN atgūšana, izmantojot izdevumu pārvaldību](../financials/expense-management/VAT-expense-report.md)
+#### [Dienasnaudas noteikumi](../financials/expense-management/per-diem.md)
+#### [Komandējuma pieprasījumi](../financials/expense-management/travel-req.md)
+#### [Personiskie izdevumi un izdevumu pārskats](../financials/expense-management/personal-expenses.md)
 
 ### [Budžeta veidošana](../financials/budgeting/budgeting-overview.md)
 #### [Budžeta plānošanas apskats ](../financials/budgeting/budget-planning-overview-configuration.md)
@@ -631,6 +637,8 @@
 ##### [Nodokļu programmas integrācija](../financials/general-ledger/tax-engine-integration.md)
 ##### [Bieži uzdotie jautājumi par nodokļu sliekšņiem](../financials/localizations/apac-ind-tax-thresholds.md)
 ##### [Nodokļu programmas paplašināšana](../financials/general-ledger/extend-tax-engine-configurations.md)
+##### [GST integrācija kases sistēmām](../retail/localizations/apac-ind-cash-registers.md)
+##### [Izvietošanas vadlīnijas kases sistēmām](../retail/localizations/apac-ind-loc-deployment-guidelines.md)
 
 #### Japāna
 ##### [Pamatlīdzekļa iegāde un valdības dotācijas subsīdiju pieprasīšana](../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md)
@@ -910,7 +918,10 @@
 ##### [Debitoru un kreditoru maksājumu formāti](../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md)
 ##### [Debitora maksājums, pamatojoties uz maksājuma ID](../financials/localizations/tasks/no-00002-customer-payment-based-payment-id.md)
 ##### [Importēšanas formāts Nets](../financials/localizations/emea-nor-nets-import-format.md)
-##### [PVN deklarācija](../financials/localizations/emea-nor-sales-tax-payment-report.md) 
+##### [PVN deklarācija](../financials/localizations/emea-nor-sales-tax-payment-report.md)
+##### [Kases sistēmas](../retail/localizations/emea-nor-cash-registers.md)
+##### [Izvietošanas vadlīnijas kases sistēmām](../retail/localizations/emea-nor-loc-deployment-guidelines.md)
+
 #### Polija
 ##### [Aprēķināt rindu atlaides no vienības cenas](../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md)
 ##### [Labojumu piezīmes](../financials/localizations/emea-pol-correction-notes.md)
@@ -937,6 +948,7 @@
 ##### [Īpašie ieraksti un sākuma lapas](../financials/localizations/emea-esp-opening-sheets-spain.md)
 #### Zviedrija
 ##### [Importa maksājumu formāti](../financials/localizations/emea-swe-payment-formats-import.md)
+##### [Kases sistēmas](../retail/localizations/emea-swe-cash-registers.md)
 #### Šveice
 ##### [Importēt debitoru maksājumus ESR](../financials/localizations/emea-che-esr-customer-payments-import.md)
 #### Apvienotā Karaliste
@@ -1644,6 +1656,7 @@
 ##### [Operāciju resursi](../supply-chain/production-control/operations-resources.md)
 ##### [Resursu iespējas](../supply-chain/production-control/resource-capabilities.md)
 ##### [Partijas atribūti](../supply-chain/production-control/batch-attributes.md)
+##### [Partijas līdzsvarošana](../supply-chain/production-control/batch-balancing.md)
 ##### [Formulas kopēšana (uzdevumu ceļveži)](../supply-chain/production-control/tasks/copy-formula.md)
 ##### [Formulas izveide, kopējot no esošas formulas (uzdevuma ceļvedis)](../supply-chain/production-control/tasks/create-formula-copying-existing-formula.md)
 ##### [Līdzproduktu kopēšana no esošas formulas versijas (uzdevuma ceļvedis)](../supply-chain/production-control/tasks/copy-co-products-existing-formula-version.md)
@@ -1808,6 +1821,7 @@
 #### [Mērvienību un uzkrājumu politikas](../supply-chain/warehousing/unit-measure-stocking-policies.md)
 #### [Noliktavas Power BI saturs](../dev-itpro/analytics/warehouse-power-bi-content.md)
 #### [Sistēmas grupēšana atvērtā darbu sarakstā](../supply-chain/warehousing/system-group-on-open-work-list.md)
+#### [Svītrkodu skenēšana, izmantojot kameru programmā Dynamics 365 for Finance and Operations](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
 #### [Svītrkodu atbalsts mobilajās ierīcēs](../supply-chain/warehousing/mobile-barcode-support.md)
 ### [Noliktavas darba politikas](../supply-chain/warehousing/warehouse-work-policies.md)
 #### [Krājumu kustība noliktavas pārvaldībā, ja ar tiem ir saistīts darbs](../supply-chain/warehousing/move-inventory-associated-work.md)
@@ -1818,6 +1832,7 @@
 #### [Jauktas noliktavas vienības saņemšana](../supply-chain/warehousing/mixed-license-plate-receiving.md)
 #### [Vecāko partiju rādīšanas noliktavā konfigurēšana, izmantojot mobilo ierīci](../supply-chain/warehousing/display-older-batches-within-warehouses.md)
 #### [Vecākās partijas izdošana ar mobilo ierīci](../supply-chain/warehousing/pick-oldest-batch.md)
+#### [Svītrkodu skenēšana, izmantojot kameru programmā Dynamics 365 for Finance and Operations](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
 #### [Vienības izdošanas apstiprinājums](../supply-chain/warehousing/piece-picking-confirmation.md)
 #### [Preces apstiprināšana klastera izdošanai](../supply-chain/warehousing/cluster-picking-item-confirmation.md)
 #### [Daļēji rezervētu pārsūtīšanas pasūtījumu partijas izlaišana](../supply-chain/warehousing/batch-release-of-partially-reserved-transfer-orders.md)
