@@ -39,6 +39,7 @@
 # Kanāla iestatīšana un pārvaldība
 ## [Inicializēt sākumdatus Retail vidē](enable-configure-retail-functionality.md)
 ## [Definēt mazumtirdzniecības kanālus](define-maintain-retail-channels.md)
+## [Preču klāsta pārvaldība](assortments.md)
 ## [Tiešsaistes veikala apskats](online-stores.md)
 ## [Konfigurēt un instalēt Retail Hardware Station](retail-hardware-station-configuration-installation.md)
 ## [Retail laiks un apmeklētība](retail-time-attendance.md)
@@ -55,6 +56,7 @@
 ## Ekrāna izkārtojums
 ### [Konfigurēt POS ekrāna izkārtojumus](pos-screen-layouts.md)
 ### [Instalēt Retail POS izkārtojuma veidotāju](install-pos-layout-designer.md)
+### [Izvēlēties paziņojumu iestatījumus](Notifications-POS.md)
 ### [POS programma un lietotāja valodas iestatījumi](pos-application-user-language-settings.md)
 ### [Iestatīt MPOS attēlus](set-up-manage-images-retail-mpos.md)
 ## [Informācijas kodu apskats](info-codes-retail.md) 
@@ -99,10 +101,11 @@
 
 # Preces un virzīšana tirgū
 ## [Preču informācijas apskats](../supply-chain/pim/product-information.md)
-## [Retail hierarhijas](retail-hierarchies.md)
+## [Mazumtirdzniecības hierarhijas](retail-hierarchies.md)
+## [Atribūtu un atribūtu grupu apskats](attribute-attributegroups-lifecycle.md)
 ## [Izveidot un pārvaldīt atribūtus](create-manage-attributes.md)
 ## [Iestatīt mazumtirdzniecības preces](set-up-retail-products.md)
-## [Preces dimensijas](../supply-chain/pim/product-dimensions.md)
+## [Preču dimensijas](../supply-chain/pim/product-dimensions.md)
 ## [Iestatīt svītrkodus](set-up-bar-codes.md)
 ## [Svītrkodu masku iestatīšana](set-up-bar-code-masks.md)
 ## [Iestatīt preču klāstus](set-up-assortments.md)
@@ -130,6 +133,16 @@
 # Personāla vadība
 ## [Organizēt darbaspēku, izmantojot nodaļas, darbus un amatus](../talent/departments-jobs-positions.md)
 ## [Darba komponentu iestatīšana](../talent/create-job.md)
+
+# Lokalizācijas un normatīvie līdzekļi
+## Indija
+### [GST integrācija kases sistēmām Indijai](localizations/apac-ind-cash-registers.md)
+### [Izvietošanas vadlīnijas kases sistēmām Indijai](localizations/apac-ind-loc-deployment-guidelines.md)
+## Norvēģija
+### [Kases sistēmas Norvēģijai](localizations/emea-nor-cash-registers.md)
+### [Izvietošanas vadlīnijas kases sistēmām Norvēģijai](localizations/emea-nor-loc-deployment-guidelines.md)
+## Zviedrija
+### [Kases sistēmas Zviedrijai](localizations/emea-swe-cash-registers.md)
 
 # Retail uzdevumi
 ## [Preces izveide](../supply-chain/pim/tasks/create-product.md)
@@ -249,10 +262,6 @@
 ## [Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
 ### [Retail SDK integrēšana pastāvīgajā sistēmu būvēšanā](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
 ### [Retail SDK paplašināmības paraugi](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
-### [Kases sistēmas Zviedrijai](localizations/emea-swe-cash-registers.md)
-### [Paraugs Retail POS integrācijai ar vadības ierīcēm Zviedrijai](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
-### [Kases sistēmas Norvēģijai](localizations/emea-nor-cash-registers.md)
-### [Izvietošanas vadlīnijas kases sistēmām Norvēģijai](localizations/emea-nor-loc-deployment-guidelines.md)
 ### [Retail SDK iepakojums](dev-itpro/retail-sdk/retail-sdk-packaging.md)
 ### [Retail SDK paraugi ](dev-itpro/retail-sdk/retail-sdk-samples.md)
 ### [Kanāla datu bāzes (DB) paplašinājumi](dev-itpro/channel-db-extensions.md)
