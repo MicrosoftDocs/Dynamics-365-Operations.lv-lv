@@ -1,9 +1,9 @@
 ---
-title: "Paziņojumu rādīšanas secība programmā Point of Sale"
-description: "Šajā tēmā ir aprakstīts, kā programmā Point of Sale iespējot paziņojumu rādīšanu noteiktā secībā, un aprakstīta paziņojumu struktūra, kuru var paplašināt arī uz citām operācijām."
+title: "Pasūtījumu paziņojumu parādīšana pārdošanas punktā"
+description: "Šajā tēmā ir aprakstīts, kā pārdošanas punktā iespējot pasūtījumu paziņojumu rādīšanu, un aprakstīta paziņojumu struktūra Izstrādātāji šos paziņojumus varēs pārveidot par operācijām (papildus pasūtījumu izpildes operācijām)."
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 03/13/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -18,49 +18,58 @@ ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: a1206aea3f78246951581c1dc6338e39a0942ea2
+ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
+ms.openlocfilehash: a55af4c26d74cc392d3c53aacb66e0a8bc97abf2
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/13/2018
 
 ---
 
-# <a name="display-notifications-in-point-of-sale"></a>Paziņojumu rādīšana programmā Point of Sale
+# <a name="show-order-notifications-in-the-point-of-sale"></a>Pasūtījumu paziņojumu parādīšana pārdošanas punktā
 
 [!include[banner](includes/banner.md)]
 
-Mūsdienu modernajā mazumtirdzniecības vidē veikala darbiniekiem tiek piešķirti dažādi uzdevumi, piemēram, palīdzēšana klientiem, transakciju ievadīšana, krājumu uzskaites veikšana un pasūtījumu pieņemšana veikalā. Klients Point of Sale (POS) darbiniekiem sniedz iespējas izpildīt šos uzdevumus un vēl daudz ko citu, un to visu var paveikt no vienas programmas. Tā kā dienas laikā ir jāizpilda dažādi uzdevumi, veikala darbinieki, iespējams, ir jāinformē par lietām, kurām šiem darbiniekiem būtu jāpievērš uzmanība. Paziņojumu struktūra programmā POS atrisina šo problēmu, ļaujot mazumtirgotājiem konfigurēt paziņojumus atkarībā no lomām. Izmantojot Dynamics 365 for Retail programmas 5. atjauninājumu, šos paziņojumus var konfigurēt tikai POS operācijām.
+Modernajā mazumtirdzniecības vidē veikala darbiniekiem tiek piešķirti dažādi uzdevumi, piemēram, palīdzēšana klientiem, transakciju ievadīšana, krājumu uzskaites veikšana un pasūtījumu pieņemšana veikalā. Pārdošanas punkta (POS) klients nodrošina vienu programmu, kur veikala darbinieki vat izpildīt visus šos un vēl daudzus citus uzdevumus. Tā kā dienas laikā ir jāizpilda dažādi uzdevumi, veikala darbinieki, iespējams, ir jāinformē par lietām, kurām šiem darbiniekiem būtu jāpievērš uzmanība. Paziņojumu struktūra programmā POS atrisina šo problēmu, ļaujot mazumtirgotājiem konfigurēt paziņojumus atkarībā no lomām. Izmantojot Microsoft Dynamics 365 for Retail programmas 5. atjauninājumu, šos paziņojumus var konfigurēt tikai POS operācijām.
 
-Pašlaik sistēma nodrošina iespēju rādīt paziņojumus par pasūtījumu izpildes operācijām, taču paziņojumu struktūra ir izveidota tā, lai to varētu paplašināt, tādēļ nākotnē izstrādātāji varēs uzrakstīt paziņojumu apdarinātāju jebkādām operācijām un rādīt šos paziņojumus programmā POS.  
+Pašlaik sistēma var parādīt paziņojumus tikai par pasūtījuma izpildes operācijām. Tomēr struktūra ir veidota paplašināma, tādēļ izstrādātāji galu galā varēs rakstīt paziņojumu apdarinātāju jebkādai operācijai un parādīt paziņojumus par šīm operācijām POS.
 
 ## <a name="enable-notifications-for-order-fulfillment-operations"></a>Paziņojumu iespējošana pasūtījumu izpildes operācijām
 
-Lai iespējotu paziņojumus par pasūtījumu izpildes operācijām, skatiet tālāk aprakstītās darbības.
+Lai iespējotu paziņojumus par pasūtījumu izpildes operācijām, izpildiet tālāk aprakstītās darbības.
 
- - Dodieties uz lapu **Operācijas** (**Retail** > **Kanāla iestatīšana** > **POS iestatīšana** > **POS** > **Operācijas**).
- - Atrodiet attiecīgo pasūtījuma izpildes operāciju un atzīmējiet šīs operācijas izvēles rūtiņu **Iespējot paziņojumus**. Šādi paziņojumu struktūrai tiek norādīts klausīties apdarinātāju saistībā ar šo pasūtījuma izpildes operāciju. Ja apdarinātājs ir ieviests, šie paziņojumi tiek rādīti programmā POS, pretējā gadījumā paziņojumi par šo operāciju netiek rādīti.
-- Dodieties uz POS atļaujām, kas ir saistītas ar darbiniekiem, un kopsavilkuma cilnē **Paziņojumi** pievienojiet pasūtījuma izpildes operāciju, kurai vienums “Rādīšanas secība” ir iestatīts uz 1. Ja ir konfigurēti vairāki paziņojumi, šī rādīšanas secība tiek izmantota paziņojumu sakārtošanai no augšas uz leju, sākot no 1 pašā augšā. Var pievienot tikai tādas operācijas, kurām ir atzīmēta izvēles rūtiņa **Iespējot paziņojumus**. Turklāt šie paziņojumi tiks rādīti tikai par šeit pievienotajām operācijām un tikai tiem darbiniekiem, kuriem šīs operācijas ir pievienotas atbilstošajās POS atļaujās. 
+1. Pārejiet uz sadaļu **Mazumtirdzniecība** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS** &gt; **Operācijas**.
+2. Meklējiet operāciju **Pasūtījuma izpilde** un atzīmējiet tās izvēles rūtiņu **Iespējot paziņojumus**, lai norādītu, ka paziņojumu struktūrai jāņem vērā šīs operācijas apdarinātājs. Ja apdarinātājs ir ieviests, šīs operācijas paziņojumi tiks rādīti POS.
+3. Dodieties uz **Mazumtirdzniecība** &gt; **Darbinieki** &gt; **Nodarbinātie** &gt; cilnē Mazumtirdzniecība atveriet POS atļaujas, kas saistītas ar nodarbināto. Izvērsiet kopsavilkuma cilni **Paziņojumi**, pievienojiet operāciju **Pasūtījuma izpilde** un iestatiet laukam **Rādīt pasūtījumu** vērtību **1**. Ja ir konfigurēti vairāki paziņojumi, šis lauks tiek izmantots, lai kārtotu paziņojumus. Paziņojumi, kuriem ir zemākā vērtība **Rādīt pasūtījumu** tiek rādīti pirms paziņojumiem, kam ir lielāka vērtība. Paziņojumi, kam **Rādīt pasūtījumu** vērtība ir **1**, tiek rādīti augšā.
+
+    Paziņojumi tiek rādīti tikai operācijām, kas tiek pievienotas kopsavilkuma cilnē **Paziņojumi**, un operācijas var pievienot tikai tad, ja šīm operācijām ir atzīmēta izvēles rūtiņa **Iespējot paziņojumus** lapā **POS operācijas**. Turklāt paziņojumi par šo operāciju tiek rādīti darbiniekiem tikai tad, ja operācija tiek pievienota šo darbinieku POS atļaujām.
+
+    > [!NOTE]
+    > Paziņojumus var ignorēt lietotāja līmenī. Atveriet darbinieka ierakstu, atlasiet **POS atļaujas** un pēc tam rediģējiet lietotāja paziņojumu abonementu.
+
+4. Doties uz **Mazumtirdzniecība** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS profili** &gt; **Funkcionalitātes profili**. Laukā **Paziņošanas intervāls** norādiet, cik bieži paziņojumi jārāda. Dažiem paziņojumiem sistēmai POS ir jāveic reāllaika izsaukums grāmatvedības programmai. Šie zvani patērē grāmatvedības programmai nepieciešamo datora noslodzi. Tādēļ, iestatot paziņošanas intervālu, jāņem vērā gan uzņēmuma prasības, gan reāllaika izsaukumu grāmatvedības programmai ietekme. Vērtība **0** (nulle) izslēdz paziņojumus.
+5. Dodieties uz **Mazumtirdzniecība** &gt; **Mazumtirdzniecības IT** &gt; **Sadales grafiks**. Atlasiet grafiku **1060** (**Personāls**), lai sinhronizētu paziņojumu abonementa iestatījumus, un pēc tam atlasiet **Izpildīt tūlīt**. Tālāk sinhronizējiet atļaujas intervālu, atlasot **1070** (**Kanāla konfigurācija**), un pēc tam atlasiet **Izpildīt tūlīt**.
+
+## <a name="view-notifications-in-the-pos"></a>Paziņojumu skatīšana programmā POS
+
+Pēc visu darbību pabeigšanas darbinieki varēs skatīt paziņojumus programmā POS. Lai skatītu paziņojumus, POS augšējā labajā stūrī nospiediet uz paziņojuma ikonas. Tiek parādīts paziņojumu centrs un paziņojumi par pasūtījuma izpildes operāciju. Paziņojumu centrā rāda tālāk norādītās grupas, kas ietilpst pasūtījuma izpildes operācijā.
+
+- **Izdot veikalā** — ar šo grupu tiek rādīts tādu pasūtījumu skaits, kuru piegādes metode ir **Izdošana** un kuriem izdošana ir plānota no pašreizējā veikala. Varat nospiest uz grupas numura, lai atvērtu lapu **Pasūtījuma izpilde**. Šajā gadījumā lapa tiek filtrēta tā, lai rādītu tikai aktīvos pasūtījumus, kas tika iestatīti izdošanai no pašreizējā veikala.
+- **Nosūtīt no veikala** — ar šo grupu tiek rādīts tādu pasūtījumu skaits, kuru piegādes metode ir **Nosūtīšana** un kuriem nosūtīšana ir plānota no pašreizējā veikala. Varat nospiest uz grupas numura, lai atvērtu lapu **Pasūtījuma izpilde**. Šajā gadījumā lapa tiek filtrēta tā, lai rādītu tikai aktīvos pasūtījumus, kas tika iestatīti nosūtīšanai no pašreizējā veikala.
+
+Kad veikalam izpildei tiek piešķirti jauni pasūtījumi, paziņojumu ikona mainās, lai rādītu jaunos paziņojumus, un tiek atjaunināts atbilstošo grupu skaits. Pat ja grupas tiek atsvaidzinātas ar regulāri, POS lietotāji var manuāli atsvaidzināt grupas jebkurā laikā, atlasot pogu **Atsvaidzināt** blakus grupas nosaukumam. Visbeidzot, ja grupai ir jauns krājums, ko pašreizējais darbinieks nav skatījis, grupai parāda sprādziena simbols, kas norāda par jaunu saturu.
+
+## <a name="enable-live-content-on-pos-buttons"></a>Reāllaika satura iespējošana uz POS pogas
+
+Tagad uz POS pogas var parādīt skaitu, lai darbinieki varētu viegli noteikt, kādiem uzdevumiem nekavējoties jāpievērš uzmanība. Lai šo skaitu parādītu uz POS pogas, jāveic paziņojumu iestatīšana, kā aprakstīts iepriekš šajā tēmā (t.i., jāiespējo paziņojumi operācijai, jāiestata paziņošanas intervāls un jāatjaunina POS darbinieka atļauju grupa). Turklāt ir jāatver pogas režģa veidotājs, jāapskata pogas rekvizīti un jāatzīmē izvēles rūtiņa **Iespējot reāllaika saturu**. Laukā **Satura pielāgošana** varat atlasīt, vai skaits tiek rādīts pogas augšējā labajā stūrī (**Augšējā labajā stūrī**) vai vidū (**Vidū**).
 
 > [!NOTE]
-> Paziņojumus var pārrakstīt lietotāja līmenī, dodoties uz darbinieka ierakstu, atlasot **POS atļaujas** un pēc tam rediģējot attiecīgā lietotāja paziņojumu abonementu.
+> Reāllaika saturu operācijām var iespējot tikai tad, ja tām ir atzīmēta izvēles rūtiņa **Iespējot paziņojumus** lapā **POS operācijas**, kā aprakstīts iepriekš šajā tēmā.
 
- - Dodieties uz lapu **Funkcionalitātes profils** (**Retail** > **Kanāla iestatīšana** > **POS iestatīšana** > **POS profili** > **Funkcionalitātes profili**). Atjauniniet rekvizītu **Paziņošanas intervāls**, lai iestatītu minūtēs izteiktu intervālu, pēc kāda paziņojumi ir jāizņem. Ieteicams šo vērtību iestatīt uz 10 minūtēm, lai izvairītos no liekas saziņas ar galveno biroju. Paziņošanas intervālu iestatot uz “0”, paziņojumi tiek izslēgti.  
+Tālāk attēlā ir parādīts reāllaika satura iestatījumi pogas režģa veidotājā.
 
- - Dodieties uz **Retail** > **Mazumtirdzniecības IT** > **Sadales grafiks**. Atlasiet grafiku “1060-Personāls”, lai sinhronizētu abonēšanas iestatījumus, un pēc tam noklikšķiniet uz **Izpildīt tūlīt**. Pēc tam sinhronizējiet atļaujas intervālu, atlasot “1070-Kanāla konfigurācija”, un pēc tam noklikšķiniet uz **Izpildīt tūlīt**. 
+![Reāllaika satura iestatījumi pogas režģa veidotājā](./media/ButtonGridDesigner.png "Reāllaika satura iestatījumi pogas režģa veidotājā")
 
-## <a name="view-notifications-in-pos"></a>Paziņojumu skatīšana programmā POS
+Tālāk attēlā ir parādīts rezultāts, atlasot dažāda izmēra pogu **Augšējā labajā stūrī** vai **Vidū** laukā **Satura pielāgošana**.
 
-Pēc iepriekš aprakstīto darbību izpildīšanas darbinieki, kuram ir iestatīti paziņojumi, šos paziņojumus var skatīt programmā POS. Lai skatītu šos paziņojumus, noklikšķiniet uz paziņojuma ikonas POS virsrakstjoslā. Šādi tiek parādīts paziņojumu centrs ar paziņojumiem par pasūtījuma izpildes operāciju. Paziņojumu centrā būtu jārāda tālāk noradītās grupas, kas ietilpst pasūtījuma izpildes operācijā. 
-
-- **Gaidošie pasūtījumi** — šajā grupā tiek rādīts to pasūtījumu skaits, kuriem ir gaidošs stāvoklis, piemēram, pasūtījumi, kas ir jāpieņem kādam POS darbiniekam, kuram ir veikala izpildes nepieciešanās atļaujas. Noklikšķinot uz grupas skaita, tiek atvērta lapa **Pasūtījuma izpilde**, kura ir filtrēta tā, lai rādītu tikai gaidošos pasūtījumus, kas veikalam ir piešķirti izpildīšanai. Ja veikalam pasūtījumi tiek pieņemti automātiski, šai grupai skaits ir nulle.
-
-- **Izdot veikalā** — ar šo grupu tiek rādīts tādu pasūtījumu skaits, kuru piegādes metode ir **Izdošana** un kuriem izdošana ir plānota no pašreizējā veikala. Noklikšķinot uz grupas skaita, tiek atvērta lapa **Pasūtījuma izpilde**, kura ir filtrēta tā, lai rādītu aktīvos pasūtījumus, kas ir iestatīti izdošanai no pašreizējā veikala.
-
-- **Nosūtīt no veikala** — ar šo grupu tiek rādīts tādu pasūtījumu skaits, kuru piegādes metode ir **Nosūtīšana** un kuriem nosūtīšana ir plānota no pašreizējā veikala. Noklikšķinot uz grupas skaita, tiek atvērta lapa **Pasūtījuma izpilde**, kura ir filtrēta tā, lai rādītu aktīvos pasūtījumus, kas ir iestatīti nosūtīšanai no pašreizējā veikala.
-
-Kad veikalam izpildei tiek piešķirti jauni pasūtījumi, paziņojumu ikona mainās, lai rādītu jaunos paziņojumus, un tiek atjaunināts atbilstošo grupu skaits. Lietotājs var arī noklikšķināt uz atsvaidzināšanas ikonas blakus operācijas nosaukumam, lai nekavējoties atjauninātu grupu skaitu. Skaits tiek atjaunināts arī ik pēc iepriekš definētā intervāla. Kad kādai grupai rodas jauns vienums, kuru pašreizējais darbinieks vēl nav redzējis, tiek rādīta sprāgšanas ikona, tā norādot, ka šai grupai ir jauns vienums. Paziņojumos noklikšķinot uz elementiem, tiek atvērta konkrētā operācija, kurai šis paziņojums ir konfigurēts. Iepriekš aprakstītajos scenārijos noklikšķinot uz paziņojumiem, tiek atvērta lapa **Pasūtījuma izpilde** un nodoti atbilstošie parametri: gaidošie pasūtījumi, izdošana veikalā un nosūtīšana no veikala. 
-
-> [!NOTE]
-> Gaidošo pasūtījumu paziņojumi tiks iespējoti turpmākā programmas Dynamics 365 for Retail atjauninājumā. 
-
+![Reāllaika saturs uz POS pogas](./media/ButtonsWithLiveContent.png "Reāllaika saturs uz POS pogas")
 

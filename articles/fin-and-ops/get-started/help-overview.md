@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 221ce80cb7520f372f38859aa392b1d559448c81
+ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
+ms.openlocfilehash: 9c68cd0e1c214e22b8831e4f4a0c5d545387f982
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 
 ---
 
@@ -52,7 +52,7 @@ Palīdzības tēmām un uzdevumu ceļvežiem varat piekļūt no jūsu izmantotā
 Šajā tēmā ir aprakstīta palīdzības sistēma un paskaidrots, kā varat izveidot pielāgotu dokumentāciju un apmācības resursus savai organizācijai.
 
 > [!IMPORTANT]
-> Cilne **Uzdevumu ceļveži** pašlaik nav pieejama versijā Microsoft Dynamics 365 for Talent un Microsoft Dynamics 365 for Retail. Mēs pašlaik strādājam pie tā, šo funkcionalitāti iespējotu nākamajos laidienos. Uzdevumu ceļveži versijas Talent funkcionalitātē Darba sākšana joprojām ir pieejami pamata funkcionalitātes segšanai. Palīdzība saistībā ar procedūrām ir pieejama arī vietnē docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md) gan versijai Retail, gan versijai Talent.
+> Cilne **Uzdevumu ceļveži** pašlaik nav pieejama versijā Microsoft Dynamics 365 for Talent un Microsoft Dynamics 365 for Retail. Mēs pašlaik strādājam pie tā, šo funkcionalitāti iespējotu nākamajos laidienos. Uzdevumu ceļveži versijas Talent funkcionalitātē Darba sākšana joprojām ir pieejami pamata funkcionalitātes segšanai. Palīdzība saistībā ar procedūrām ir pieejama arī vietnē docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) gan versijai Retail, gan versijai Talent.
 
 ## <a name="help-on-docsmicrosoftcom"></a>Palīdzība vietnē docs.microsoft.com
 
@@ -115,7 +115,7 @@ Papildinformāciju skatiet mūsu līdzstrādnieku rokasgrāmatā: https://github
 
 > [!NOTE]
 > Pašlaik varat līdzdarboties tikai mūsu angļu valodas repozitoriju satura veidošanā.  
-> Mēs nepieņemam pakalpojumā GitHub iesniegtus paziņojumus par problēmām — satura ieteikumu iesniegšanai noteikti izmantojiet atgādāšanas pieprasījumu. Atsauksmes par produktiem un līdzekļiem ir ieteicams iesniegt, izmantojot portālu Dynamics 365 Ideas: https://ideas.dynamics.com/ideas/. 
+> Mēs nepieņemam pakalpojumā GitHub iesniegtus paziņojumus par problēmām — satura ieteikumu iesniegšanai noteikti izmantojiet atgādāšanas pieprasījumu. Atsauksmes par produktiem un līdzekļiem ir ieteicams iesniegt, izmantojot portālu Dynamics 365 Ideas: https://experience.dynamics.com/ideas/. 
 
 
 ## <a name="task-guides"></a>Uzdevumu ceļveži

@@ -3,7 +3,7 @@ title: "Lokālais izvietojums"
 description: "Šajā tēmā ir sniegta informācija un saites uz saturu par lokālajiem izvietojumiem."
 author: kfend
 manager: AnnBe
-ms.date: 03/05/2018
+ms.date: 03/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,13 +18,13 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 797058bdbbdb63a08eb35034ffe3c913307f38df
-ms.openlocfilehash: 12b8a6e8f28501bce76d5a1d58b39e4711b75330
+ms.sourcegitcommit: 0d551818c8d352af96f6e64613cfbbc4aec5bf5b
+ms.openlocfilehash: e35769e45b1017eef2ee5a5b6c2baa35ae13d90c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/06/2018
+ms.lasthandoff: 03/15/2018
 
 ---
-# <a name="on-premises-deployment-landing-page"></a>Lokālā izvietojuma mērķlapa
+# <a name="on-premises-deployment-home-page"></a>Lokālā izvietojuma sākumlapa
 
 [!include[banner](../includes/banner.md)]
 
@@ -36,14 +36,14 @@ Varat izvietot Microsoft Dynamics 365 for Finance and Operations Enterprise izd
 - [Plānošana lokālajam izvietojumam](plan-onprem-deployment.md)
 - [Sistēmas prasības lokālajiem izvietojumiem](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [Aparatūras lieluma maiņa lokālām vidēm](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
-- [Tiešsaistes pakalpojuma un lokālas programmatūras dzīves cikla politika](../migration-upgrade/versions-update-policy.md)
 - [Dynamics 365 for Finance and Operations Enterprise izdevuma (lokāls) iegāde](../../fin-and-ops/get-started/purchase-on-premises.md)
 - [Mākoņa un lokālās versijas līdzekļu salīdzinājums](../../fin-and-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>Pievienošana
 - [Lokāla projekta izveide pakalpojumā Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [Lokālas vides iestatīšana un izvietošana](setup-deploy-on-premises-environments.md)
-- [Tīkla printeru ierīču instalēšana lokālajās vidēs](../analytics/install-network-printer-onprem.md)
+- [Lokālas vides iestatīšana un izvietošana (Platform update 12)](setup-deploy-on-premises-pu12.md)
+- [Lokālas vides iestatīšana un izvietošana (Platform update 8 un 11)](setup-deploy-on-premises-pu8-pu11.md)
+- [Tīkla printera ierīču instalēšana lokālajās vidēs](../analytics/install-network-printer-onprem.md)
 - [SQL Server pārskatu izveides pakalpojumu konfigurēšana lokālam izvietojumam](../analytics/configure-ssrs-on-premises.md)
 - [Pielāgotu modeļu izstrāde un izvietošana lokālām vidēm](develop-deploy-custom-models-on-premises.md)
 
