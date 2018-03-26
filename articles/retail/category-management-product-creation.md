@@ -1,47 +1,63 @@
 ---
-title: "Preču kategoriju pārvaldība un veidošana"
-description: "Šajā tēmā ir aprakstīti mazumtirdzniecības preču kategoriju pārvaldības funkcionalitātei veiktie uzlabojumi. Šie uzlabojumi preču pārvaldniekiem ļauj izmantot korelāciju starp mazumtirdzniecības preču hierarhiju un izlaisto preču detalizēto informāciju."
+title: "Preču kategorijas pārvaldība"
+description: "Šajā tēmā ir aprakstīts, kā preču pārvaldnieki var izmantot Retail preču kategorijas, lai pārvaldītu attiecības starp Retail preču hierarhiju un izlaisto preču detalizētu informāciju."
 author: ashishmsft
 manager: AnnBe
-ms.date: 09/01/2017
+ms.date: 10/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
 ms.technology: 
-ms.search.form: RetailCategoryAndProductWorkspace, RetailCategory
+ms.search.form: 
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.search.region: Global
-ms.search.industry: retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
+ms.custom: 
+ms.assetid: c7ed2ba5-87c6-4d99-9728-2a83e6d95ca9
+ms.search.region: global
+ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
-ms.dyn365.ops.version: 
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 74a8fa863736177bcf8cb4b3d90911c78122252b
+ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
+ms.openlocfilehash: 4b7ef962b777a31e1da238a8ec1be9a42ec5bb5f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/13/2018
 
 ---
 
-# <a name="product-category-management-and-creation"></a>Preču kategoriju pārvaldība un veidošana
+
+# <a name="enhanced-product-and-category-management"></a>Uzlabota preču un kategorijas pārvaldība
 
 [!include[banner](./includes/banner.md)]
 
-Mazumtirdzniecības preču kategoriju pārvaldības funkcionalitātei veiktie uzlabojumi preču pārvaldniekiem ļauj izmantot korelāciju starp mazumtirdzniecības preču hierarhiju un izlaisto preču detalizēto informāciju. Lai skatītu šos uzlabojumus, darbvietā **Kategorija un preču pārvaldība** atlasiet **Mazumtirdzniecības preču hierarhija**, tādējādi atverot lapu **Jauna mazumtirdzniecības preču kategorijas struktūra**. 
+Šajā tēmā ir aprakstīts uzlabotais veids, kā risinājumā Dynamics 365 for Retail pārvaldīt Retail preču kategorijas un preces. Šie uzlabojumi preču pārvaldniekiem ļauj skatīt preces rekvizītu pamata struktūru starp Retail preču hierarhiju un izlaisto preču detalizēto informāciju.
 
-Iepriekšējos laidienos preču rekvizīti bija iedalīti pamata preču rekvizītos un mazumtirdzniecības preču rekvizītos, pamatojoties uz to piemērojamību. Mazumtirdzniecības preču rekvizīti bija *globāli*. Citiem vārdiem sakot — katram attiecīgajam preces rekvizītam viena un tā pati vērtība tiek koplietota visās juridiskajās personās. Pamata preču rekvizīti bija *atkarīgi no juridiskajās personas*. Citiem vārdiem sakot — attiecīgais preču rekvizīts dažādās juridiskajās personās varēja atšķirties, pamatojoties uz atsevišķajām biznesa prasībām.
+Lai uzzinātu vairāk par Retail preču kategoriju pārvaldību, dodieties uz **Mazumtirdzniecības preču hierarhija** no darbvietas **Kategorijas un preču pārvaldība** un skatiet lapu **Mazumtirdzniecības preču kategorija** uzlaboto struktūru.
 
-Līdz ar šo uzlabojumu ieviešanu preču rekvizītiem mazumtirdzniecības preču kategorijā mēs turpinām laukus atdalīt, pamatojoties uz to piemērojamību grupas ietvaros, tādējādi atspoguļojot izlaisto preču detalizētās informācijas formas struktūru.
+![Darbvieta Kategorijas un preču pārvaldība](media/LaunchRetailProductHierarchy.png)
 
-Varat pārslēgties starp juridiskajai personai specifisku rekvizītu pārvaldīšanas visās juridiskajās juridiskās personās, uz varat tos pārvaldīt konkrētai juridiskajai personai. Pēc nepieciešamības vienkārši atlasiet **Skatīt/rediģēt visām juridiskajām personām** vai **Skatīt/rediģēt konkrētai juridiskajai personai**.
+Iepriekšējās versijās preču rekvizīti bija iedalīti **Pamata preces rekvizīti** un **Mazumtirdzniecības preces rekvizīti**, pamatojoties uz to piemērojamību. **Mazumtirdzniecības preču rekvizīti** ir *globāli* atkarībā no piemērojamības jomas, kas nozīmē, ka konkrēta **mazumtirdzniecības preces rekvizīta** vērtība tika koplietota visām juridiskajām personām. **Pamata preces rekvizīti** tiek lietoti tikai konkrētai *juridiskajai personai*. Citiem vārdiem sakot — attiecīgā **Pamata preces rekvizīta** vērtība dažādām juridiskajām personām var atšķirties, pamatojoties uz atsevišķajām biznesa prasībām.
 
-Turklāt preču pārvaldnieki var definēt noklusējuma vērtības attiecībā uz preču rekvizītu papildu kopu atsevišķas kategorijas līmenī. Šīs rekvizītu vērtības prece pārmanto, ņemot vērā to saistību ar kategoriju, kāda pastāv preces izveides laikā.
+Uzlabotajā Retail preču kategorijas struktūrā preču rekvizīti tiek loģiski sadalīti, pamatojoties uz to piemērojamību grupas ietvaros, tādējādi atspoguļojot izlaisto preču detalizētās informācijas formas struktūru.
 
-## <a name="select-properties-to-update-products-from-the-retail-product-category-form"></a>Atlasīt rekvizītus, lai atjauninātu preces no mazumtirdzniecības preču kategorijas formas
+![Lauku grupēšana, pamatojoties uz to piemērojamības jomu](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
 
-Lai atlasītu, kuri atjauninātie preču rekvizīti ir jāvirza uz saistītajām precēm, varat izmantot loģiskos grupēšanas rekvizītus.
+Varat pārslēgties starp juridiskajai personai specifisku rekvizītu pārvaldīšanas visās juridiskajās juridiskās personās, uz varat tos pārvaldīt konkrētai juridiskajai personai. Lai to izdarītu, atlasiet **Skatīt/rediģēt visām juridiskajām personām** vai **Skatīt/rediģēt konkrētai juridiskajai personai**.
+
+![Skata pārslēgšana starp privātpersonu un visām juridiskajām personām](media/ToggleBackToEditForSpecificLegalEntity.PNG)
+
+![Skata pārslēgšana starp privātpersonu un visām juridiskajām personām](media/ToggleToEditForAllLegalEntities.PNG)  
+
+Salīdzinājumā ar iepriekšējām versijām jaunajā Retail preču kategorijas struktūrā preču pārvaldnieks var definēt arī noklusējuma vērtības papildu preču rekvizītu kopai atsevišķu kategoriju līmenī. Preces izveides laikā prece pārmanto šī noklusējuma preču rekvizīta vērtības, ņemot vērā to saistību ar atsevišķu kategoriju no Retail preču hierarhijas. Šos pārmantotos preču rekvizītus katrai precei var modificēt, lai tie atbilstu konkrētajām biznesa prasībām.
+
+## <a name="select-properties-to-update-products-from-the-retail-product-category-form"></a>Atlasīt rekvizītus, lai atjauninātu preces no mazumtirdzniecības preču kategorijas formas 
+ 
+Šo jauno uzlaboto preču rekvizītu struktūru var izmantot, lai atlasītu, kuri atjauninātie preču rekvizīti ir jāpārceļ pie saistītajām precēm. 
+
+![Jaunais uzlabotais atjaunināto preču skats](media/NewUpdateProductsEnhancedView.PNG) 
 
 Preču pārvaldnieki šos pārmantotos preču rekvizītus katrai precei var modificēt, lai tie atbilstu konkrētajām biznesa prasībām.
+
 

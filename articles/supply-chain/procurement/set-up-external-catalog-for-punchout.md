@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a20bb97e451ac59ba23c7f767b5feb336278dcd1
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 2c37f0253454a23d90904dd6b000b955146ad121
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/08/2018
 
 ---
 
@@ -71,15 +71,15 @@ Zemāk varat atrast visu to etiķešu aprakstus, kas ir iekļautas veidnē.
 
 | Lauks | Apraksts | 
 |---------|---------|
-|< Virsraksts >< No >< Akreditācijas datu domēns=”” >|Pircēja uzņēmuma domēns.|
-|< Virsraksts >< No >< Akreditācijas dati>< Identitāte >< /Identity > | Pircēja uzņēmuma identitāte.|
-|< Virsraksts >< Adresāts >< Akreditācijas datu domēns=”” > | Kreditora uzņēmuma domēns.|
-|< Virsraksts >< Adresāts >< Akreditācijas dati>< Identitāte >< /Identity> | Kreditora uzņēmuma identitāte.|
-|< Virsraksts >< Sūtītājs >< Akreditācijas datu domēns=”” > | Pircēja uzņēmuma domēns.|
-|< Virsraksts >< Sūtītājs >< Akreditācijas dati >< Identitāte >< /Identity> | Pircēja uzņēmuma identitāte.|
-|< Virsraksts >< Sūtītājs ><Akreditācijas dati >< SharedSecret >< /SharedSecret >|Pircēja uzņēmuma koplietojamais noslēpums.|
+|< Header >< From >< Credential domain=”” >|Pircēja uzņēmuma domēns.|
+|< Header >< From >< Credential>< Identity >< /Identity > | Pircēja uzņēmuma identitāte.|
+|< Header >< To >< Credential domain=”” > | Kreditora uzņēmuma domēns.|
+|< Header >< To >< Credential>< Identity >< /Identity> | Kreditora uzņēmuma identitāte.|
+|< Header >< Sender >< Credential domain=”” > | Pircēja uzņēmuma domēns.|
+|< Header >< Sender >< Credential >< Identity >< /Identity> | Pircēja uzņēmuma identitāte.|
+|< Header >< Sender >< Credential >< SharedSecret >< /SharedSecret >|Pircēja uzņēmuma koplietojamais noslēpums.|
 |< Pieprasījuma režīms deploymentMode=”” >|Pārbaudes vai ražošanas izvietošana.|
-|< Pieprasījums >< PunchOutSetupRequest >< SupplierSetup >< URL >< /URL>|Kreditora atzīmēšanas galapunkta URL.|
+|< Request >< PunchOutSetupRequest >< SupplierSetup >< URL >< /URL>|Kreditora atzīmēšanas galapunkta URL.|
 
 ### <a name="extrinsic-elements"></a>Ārēji elementi
 
@@ -92,15 +92,15 @@ Ar iepriekšēju datumu grāmatots ziņojums tiek saņemts no kreditora, kad lie
 
 | No kreditora saņemts ziņojums | Kopēts Finance and Operations pieprasījuma rindā|
 |------------------------------|----------------------------------------------------------|
-|< Krājumu daudzums=”” > |Daudzums|
+|< ItemIn quantity=”” > |Daudzums|
 |< ItemIn>< ItemID >< SupplierPartID >< /SupplierPartID >|Ārējā krājuma ID|
-|< ItemDetail>< UnitPrice >< Naudas valūta=”” >| Valūta|
+|< ItemDetail>< UnitPrice >< Money currency=”” >| Valūta|
 |< ItemDetail >< UnitPrice >< Nauda >< /Money >| Vienības cena|
 |< ItemDetail >< Apraksta ShortName=”” >|Preces nosaukums|
 |< ItemDetail >< Apraksts >< /Description >|Iekļauts krājuma aprakstā; preces nosaukums, ja ShortName vērtība nav norādīta.|
 |< ItemDetail >< UnitOfMeasure >< /UnitOfMeasure >|Vienība|
 |< ItemDetail >< Klasifikācija >< /Classification >|Iekļauts rēķina aprakstā|
-|< ItemDetail >< Klasifikācijas domēns=”” >|Iekļauts rēķina aprakstā|
+|< ItemDetail >< Classification domain=”” >|Iekļauts rēķina aprakstā|
 
 ## <a name="delete-an-external-catalog"></a>Dzēš ārējo katalogu
 Dzēsiet ārējo katalogu ar lapas darbību Dzēst.
