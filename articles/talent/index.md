@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 199a8961f782816c71e47f9e76e097c069fbf686
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: db8b2e87ad020dac16ec74f2fea62e445c38e116
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -43,7 +43,7 @@ Risinājumu Talent varat izmantot tālāk uzskaitīto uzdevumu izpildīšanai.
 + Iestatiet, nodrošiniet un analizējiet apmācību kursus, kuri ietver darba kārtības, sesijas un izsekošanu.
 
 > [!NOTE] 
-> Risinājums Dynamics 365 for Talent ir cieši saistīta ar personāla vadību Dynamics 365 for Finance and Operations, Enterprise Edition. Šī funkcionalitāte var būt pieejama abos produktos. Tādējādi tēmās, kas galvenokārt ir saistītas ar personāla vadību, produkta nosaukums būs Dynamics 365 for Finance and Operations, Enterprise Edition; tēmās, kas galvenokārt ir saistītas ar Talent, produkta nosaukums būs Dynamics 365 for Talent. Tēmas, kas sarakstītas vienam produktam, var attiekties uz to pašu funkcionalitāti saistītā produktā.
+> Risinājums Dynamics 365 for Talent ir cieši saistīts ar personāla vadību Dynamics 365 for Finance and Operations. Šī funkcionalitāte var būt pieejama abos produktos. Tādējādi tēmās, kas galvenokārt ir saistītas ar personāla vadību, produkta nosaukums būs Dynamics 365 for Finance and Operations; tēmās, kas galvenokārt ir saistītas ar personālu, produkta nosaukums būs Dynamics 365 for Talent. Tēmas, kas sarakstītas vienam produktam, var attiekties uz to pašu funkcionalitāti saistītā produktā.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>Izstrādājiet personāla vadības stratēģiju
 ---------------------------------------------------------

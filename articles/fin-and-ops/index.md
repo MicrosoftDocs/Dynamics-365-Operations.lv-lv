@@ -1,6 +1,6 @@
 ---
-title: "Microsoft Dynamics 365 for Finance and Operations Enterprise Edition dokumentācija"
-description: "Microsoft Dynamics 365 for Finance and Operations Enterprise Edition dokumentācija."
+title: "Microsoft Dynamics 365 for Finance and Operations dokumentācija"
+description: "Microsoft Dynamics 365 for Finance and Operations dokumentācija."
 author: margoc
 manager: AnnBe
 ms.date: 03/02/2018
@@ -17,17 +17,17 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7142c6bcb6e98929afdb8bb982a17efc7223ab12
-ms.openlocfilehash: 0d12082a2b10ae8e83217c5451627239e6ec640b
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: d1307729945494ee78c0ca6089b384d666fe5f20
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
 # <a name="introduction-to-microsoft-dynamics-365-for-finance-and-operations"></a>Iepazīstināšana ar Microsoft Dynamics 365 for Finance and Operations
 [!include[banner](includes/banner.md)]
 
-Uzziniet, kā programmu Microsoft Dynamics 365 for Finance and Operations Enterprise Edition izmantot sava uzņēmuma labā, izmantojot tālāk norādītos resursus, lai atrastu lietotājiem, izstrādātājiem un IT speciālistiem paredzētu lielisku saturu. 
+Uzziniet, kā programmu Microsoft Dynamics 365 for Finance and Operations izmantot sava uzņēmuma labā, izmantojot tālāk norādītos resursus, lai atrastu lietotājiem, izstrādātājiem un IT speciālistiem paredzētu lielisku saturu. 
 
 Liela daļa šī satura attiecas arī uz saistītajiem produktiem: Microsoft Dynamics 365 for Retail un Microsoft Dynamics 365 for Talent. 
 

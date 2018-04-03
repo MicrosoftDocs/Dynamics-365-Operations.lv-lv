@@ -1,6 +1,6 @@
 ---
 title: "Piegādes ķēdes pārvaldības sākumlapa"
-description: "Šajā lapā ir sniegts saraksts ar palīdzības tēmām un citiem resursiem, kas attiecas uz piegādes ķēdes pārvaldības līdzekļiem programmā Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "Šajā lapā ir sniegts saraksts ar palīdzības tēmām un citiem resursiem, kas attiecas uz piegādes ķēdes pārvaldības līdzekļiem programmā Microsoft Dynamics 365 for Finance and Operations."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 02/15/2018
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
-ms.openlocfilehash: bf3192a5189a3b18ad28f3c5cb0dd6d402824ed5
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 9e3551580cc03ebf62ec42283c5a9a885d8c8d8f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 02/21/2018
 
 [!include[banner](includes/banner.md)]
 
-Šajā tēmā ir sniegts saraksts ar palīdzības tēmām un citiem resursiem, kas attiecas uz piegādes ķēdes pārvaldības līdzekļiem programmā Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
+Šajā tēmā ir sniegts saraksts ar palīdzības tēmām un citiem resursiem, kas attiecas uz piegādes ķēdes pārvaldības līdzekļiem programmā Microsoft Dynamics 365 for Finance and Operations. 
 
 ## <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā
 Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek izstrādāti, dodieties uz lapu <a href="https://roadmap.dynamics.com/">Dynamics 365 rīcības plāns</a>. 
@@ -106,7 +106,7 @@ Daudzi raksti par ražošanu un piegādes ķēdes pārvaldību ir atrodami <a hr
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Izmaksu uzskaites praktiskie uzdevumi</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean manufacturing: pieejams iegādei un Kanban darbu plānošana</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">MK aprēķināšana, izmantojot izmaksu aprēķina lapu</a>
--  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Microsoft Dynamics 365 for Finance and Operations Enterprise Edition sekmētā mobilitāte noliktavā</a>
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Microsoft Dynamics 365 for Finance and Operations sekmētā mobilitāte noliktavā</a>
 
 ## <a name="elearning-courses"></a>Elektronisko mācību kursi
 Informāciju par Microsoft Dynamics 365 for Finance and Operations apmācību skatiet <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Microsoft Dynamics mācību portālā</a>. (ir nepieciešams CustomerSource konts) 

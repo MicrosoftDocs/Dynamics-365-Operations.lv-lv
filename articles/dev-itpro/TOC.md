@@ -1,7 +1,7 @@
 # [Dynamics 365 for Finance and Operations izstrāde un administrēšana](index.md)
-# [Sistēmas prasības mākoņa izvietojumiem](../fin-and-ops/get-started/system-requirements.md)
-# [Sistēmas prasības lokālajiem izvietojumiem](../fin-and-ops/get-started/system-requirements-on-prem.md)
-# [Demonstrācijas dati](../fin-and-ops/get-started/demo-data.md)
+# [Sistēmas prasības mākoņa izvietojumiem](../fin-and-ops/get-started/system-requirements.md?toc=/dev-itpro/toc.json)
+# [Sistēmas prasības lokālajiem izvietojumiem](../fin-and-ops/get-started/system-requirements-on-prem.md?toc=/dev-itpro/toc.json)
+# [Demonstrācijas dati](../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json)
 ## [Demonstrācijas datu ģenerēšana ar pakotnēm](data-entities/generate-demo-data-packages.md)
 
 
@@ -29,7 +29,7 @@
 ### [Modeļa eksports un imports](dev-tools/models-export-import.md)
 ### [Metadatu meklēšana rīkā Visual Studio](dev-tools/metadata-search-visual-studio.md)
 ### [Modeļi](dev-tools/models.md)
-### [Projekti Dynamics 365 for Finance and Operations Enterprise Edition](dev-tools/projects.md)
+### [Dynamics 365 for Finance and Operations projekti](dev-tools/projects.md)
 ### [Visual Studio rīku pievienojumprogrammas](dev-tools/developer-tools-add-ins.md)
 ### [Modeļu pielāgošanas atslēgšana un funkcionalitātes atzīšana par novecojušu](dev-tools/lock-models.md)
 ### [Visual Studio izstrādes rīku atjaunināšana](dev-tools/update-development-tools.md)
@@ -114,7 +114,7 @@
 #### [Pielāgošana: pārklāšanās un paplašinājumi](extensibility/customization-overlayering-extensions.md)
 ### Jaunumi
 #### [Paplašināmības izmaiņas, 2017. gada jūlijs](extensibility/changes-july-2017.md)
-#### [Paplašināmības izmaiņas risinājumā Dynamics 365 for Finance and Operations, Enterprise Edition 7.3](extensibility/extensibility-changes-73.md)
+#### [Paplašināmības izmaiņas, versija 7.3](extensibility/extensibility-changes-73.md)
 ### Pamati
 #### [Traucējoši pielāgojumi](extensibility/intrusive-customizations.md)
 #### [Klašu paplašinājumi](extensibility/class-extensions.md)
@@ -168,8 +168,8 @@
 ### [Navigācijas izveide](user-interface/build-navigation.md)
 ### [Darbvietas izveide](user-interface/build-workspace.md)
 ## Veidlapas
-### [Navigācija Dynamics 365 for Finance and Operations Enterprise Edition](user-interface/page-navigation.md)
-### [Izkārtojums Dynamics 365 for Finance and Operations Enterprise Edition](user-interface/page-layout.md)
+### [Dynamics 365 for Finance and Operations navigācija](user-interface/page-navigation.md)
+### [Dynamics 365 for Finance and Operations izkārtojums](user-interface/page-layout.md)
 ### [Simbolu fonts](user-interface/symbol-font.md)
 ### [Testa veidlapas ar pielāgotiem modeļiem](user-interface/testing-forms-custom-patterns.md)
 ### [Dziļo saišu izveide un izmantošana](user-interface/create-deep-links.md)
@@ -489,12 +489,12 @@
 
 ## Mākoņa izvietošana
 ### [Azure resursu pārvaldnieka pievienošana](deployment/arm-onboarding.md)
-### [Azure ExpressRoute un Dynamics 365 for Finance and Operations, Enterprise Edition](deployment/expressroute.md)
+### [Azure ExpressRoute un Dynamics 365 for Finance and Operations](deployment/expressroute.md)
 
 ## [Lokāla izvietošana](deployment/on-premises-deployment-landing-page.md)
 ### [Lokālās versijas apskats](deployment/on-premises-overview.md)
 ### [Jūsu lokālā izvietojuma plānošana](deployment/plan-onprem-deployment.md)
-### [Aparatūras lielums](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
+### [Aparatūras lielums](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json)
 ### [Lokāla projekta izveide](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Lokālas vides iestatīšana un izvietošana](deployment/setup-deploy-on-premises-environments.md)
 #### [Lokālas vides izvietošana, izmantojot atjauninājumu Platform update 12](deployment/setup-deploy-on-premises-pu12.md)
@@ -507,7 +507,7 @@
 ### [Lokālā aģenta atjaunināšana](lifecycle-services/update-local-agent.md)
 ### [Vides pārkonfigurēšana](lifecycle-services/reconfigure-environment.md)
 ### [Klienta interneta savienojums](user-interface/client-disconnected.md)
-### [Dynamics 365 for Finance and Operations, Enterprise Edition lokālo problēmu novēršana](deployment/troubleshoot-on-prem.md)
+### [Dynamics 365 for Finance and Operations lokālo problēmu novēršana](deployment/troubleshoot-on-prem.md)
 
 ## Pielāgota koda izvietošana
 ### [Izvietojamas pakotnes izveide](deployment/create-apply-deployable-package.md)
@@ -527,7 +527,7 @@
 ### [AX 2012 jaunināšana — pēc jaunināšanas veicamie uzdevumi](migration-upgrade/app-validation-process.md)
 ### [AX 2012 jaunināšana — funkcionālās pārbaudes izturēšana](migration-upgrade/upgrade-functional-validation.md)
 ### [AX 2012 jaunināšana — sagatavošanās publicēšanai](migration-upgrade/upgrade-go-live-prep.md)
-
+### [AX 2012 jauninājums — publicēšana](migration-upgrade/2012-upgrade-cutover.md)
 
 ### Izmaiņas, kas ietekmē jaunināšanu no AX 2012
 #### [Vienots dokumentu un valūtas pārvērtēšanas jauninājums ](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
@@ -588,7 +588,9 @@
 ### [Pakešapstrādes servera apskats](sysadmin/batch-server-overview.md)
 ### [Pakešuzdevuma izveide](sysadmin/tasks/create-batch-job.md)
 
-## [Kārtulu izveide optimizācijas padomniekam](sysadmin/optimization-advisor.md)
+##  [Optimizācijas padomnieka pārskats](sysadmin/optimization-advisor-overview.md)
+### [Kārtulu izveide optimizācijas padomniekam](sysadmin/create-rules-optimization-advisor.md)
+
 
 # Lifecycle Services
 ## [Lifecycle Services apskats](lifecycle-services/lcs.md)
@@ -701,10 +703,10 @@
 ## [Pieprasījums atsvaidzināt smilškastes datu bāzi](database/database-refresh.md)
 
 # Atbalsts
-## [Saņemt atbalstu saistībā ar pakalpojumu Dynamics 365 for Finance and Operations, Enterprise Edition un pakalpojumu Lifecycle Services](lifecycle-services/lcs-support.md)
+## [Saņemt atbalstu saistībā ar pakalpojumu Dynamics 365 for Finance and Operations un pakalpojumu Lifecycle Services](lifecycle-services/lcs-support.md)
 ## [Premier atbalsta biļetes reģistrēšana](lifecycle-services/premier-support.md)
 ## [Pieprasījuma iesniegšana Dynamics Service tehniskajai grupai](lifecycle-services/submit-request-dynamics-service-engineering-team.md)
-## [Tehniskā atbalsta uzstādīšana Dynamics 365 for Finance and Operations Enterprise Edition](lifecycle-services/support-experience.md) 
+## [Tehniskā atbalsta uzstādīšana Dynamics 365 for Finance and Operations](lifecycle-services/support-experience.md) 
 ## [BUJ par plānoto uzturēšanas periodu](lifecycle-services/planned-maintenance-window-faq.md) 
 ## [Mākoņu darbība un apkalpošana](lifecycle-services/cloud-operations-servicing.md)
 ## [Finance and Operations atbalsta pieredzes pārvaldība](lifecycle-services/cloud-powered-support-lcs.md)
