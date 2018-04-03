@@ -3,8 +3,8 @@
 # Darba sākšana
 ## [Jaunumi un izmaiņas](get-started/whats-new.md)
 ## [Pirms Dynamics 365 for Retail iegādes](get-started/before-you-buy.md)
-## [Reģistrācija priekšskatījuma abonementam](../dev-itpro/dev-tools/sign-up-preview-subscription.md)
-## [Demonstrācijas vides izvietošana](../dev-itpro/deployment/deploy-demo-environment.md)
+## [Reģistrācija priekšskatījuma abonementam](../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json)
+## [Demonstrācijas vides izvietošana](../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json)
 ## [Izvietošanas iespējas](dev-itpro/choose-deployment.md)
 
 
@@ -44,10 +44,11 @@
 ## [Konfigurēt un instalēt Retail Hardware Station](retail-hardware-station-configuration-installation.md)
 ## [Retail laiks un apmeklētība](retail-time-attendance.md)
 
-# Modern Point of Sale (MPOS) un Cloud POS
+# Modern Point of Sale (MPOS) un Cloud POS
 ## [Izvēle starp Modern POS un Cloud POS](MPOS-or-CPOS.md)
-## [POS operācijas](POS-operations.md)
+## [POS operācijas tiešsaistē un bezsaistē](pos-operations.md)
 ## [Demonstrācijas datu ekrāna izkārtojumi programmā MPOS/CPOS](demo-data.md)
+## [Apskats par preču un debitoru meklēšanu pārdošanas punktā](POS-search-improvements.md)
 ## Aparatūras perifērijas ierīces
 ### [Retail perifērijas ierīču apskats](retail-peripherals-overview.md)
 ### [Microsoft pārbaudītas POS aparatūras perifērijas ierīces](microsoft-tested-pos-hardware-peripherals.md)
@@ -60,6 +61,7 @@
 ### [POS programma un lietotāja valodas iestatījumi](pos-application-user-language-settings.md)
 ### [Iestatīt MPOS attēlus](set-up-manage-images-retail-mpos.md)
 ## [Informācijas kodu apskats](info-codes-retail.md) 
+## [POS uzlabojumi serializētām precēm](serialized-inventory.md)
 ## Preču ieteikumi
 ### [Personalizētu preču ieteikumu apskats](personalized-product-recommendations.md)
 ### [Pievienot ieteikumu kontroli POS ierīcē](add-recommendations-control-pos-screen.md)
@@ -97,6 +99,7 @@
 ## [Cenu korekcijas un atlaides](price-adjustments-discounts.md)
 ## [Noteikt optimālo kombināciju atlaidēm, kas pārklājas](optimal-combination-overlapping-discounts.md)
 ## [Definēt kanālam raksturīgās atlaides](define-channel-specific-discounts.md)
+## [Nepieļaut atlaižu piemērošanu mazumtirdzniecības produktiem](prevent-discounts.md)
 ## [Izveidot mazumtirdzniecības pārdošanas kuponus](retail-coupons.md)
 
 # Preces un virzīšana tirgū
@@ -105,6 +108,7 @@
 ## [Atribūtu un atribūtu grupu apskats](attribute-attributegroups-lifecycle.md)
 ## [Izveidot un pārvaldīt atribūtus](create-manage-attributes.md)
 ## [Iestatīt mazumtirdzniecības preces](set-up-retail-products.md)
+## [Uzlabota preču un kategorijas pārvaldība](category-management-product-creation.md)
 ## [Preču dimensijas](../supply-chain/pim/product-dimensions.md)
 ## [Iestatīt svītrkodus](set-up-bar-codes.md)
 ## [Svītrkodu masku iestatīšana](set-up-bar-code-masks.md)
@@ -190,13 +194,14 @@
 # [Retail izstrāde un administrācija](dev-itpro/dev-retail-home-page.md)
 
 ## Arhitektūra
-### [Microsoft Dynamics 365 for Finance and Operations Enterprise Edition komponenti — Retail](retail-components.md)
+### [Microsoft Dynamics 365 for Finance and Operations komponenti — Retail](retail-components.md)
 ### [Retail servera arhitektūra](dev-itpro/retail-server-architecture.md)
 ### [Retail kanālu saziņa](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [MPOS arhitektūra](dev-itpro/retail-modern-pos-architecture.md)
 ### [Retail tiešsaistes veikala publicēšanas arhitektūra](dev-itpro/retail-online-store-publishing-architecture.md)
-### [Retail Channel Performance Power BI saturs](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
+### [Retail Channel Performance Power BI saturs](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/retail/toc.json)
 ### [Maksājumu programmu datu drošības standartu (PA-DSS) sertifikācija](dev-itpro/PA-DSS-Certification.md)
+### [Pieejamās Retail iespējas lokālos izvietojumos](retail-onprem.md)
 
 ## Izvietošana un labojumfaili
 ### [Retail Store Scale Unit pārskats](dev-itpro/retail-store-system-begin.md)
@@ -208,7 +213,7 @@
 ### [Retail Hardware Station konfigurēšana un instalēšana](retail-hardware-station-configuration-installation.md)
 ### [Plaša Retail patstāvīgi izmantojamā pakalpojuma komponentu izvietošana](dev-itpro/retail-mass-deployment.md)
 ### [Retail komponentu notikumi diagnostikai un problēmu novēršanai](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
-### [Izvietojamas pakotnes pielietošana](../dev-itpro/deployment/apply-deployable-package-system.md)
+### [Izvietojamas pakotnes pielietošana](../dev-itpro/deployment/apply-deployable-package-system.md?toc=/retail/toc.json)
 
 ## Jaunināšana un N-1 atbalsts
 ### [Jaunināšanas un N-1 atbalsta apskats](dev-itpro/overview-upgrade-n-minus1.md)
@@ -218,7 +223,7 @@
 ### [Ierīces pārvaldības ieviešanas vadlīnijas](implementation-considerations-devices.md)
 
 ## Vides konfigurēšana
-### [Saišu pievienošana organizācijas juridiskajiem nosacījumiem un paziņojumam par konfidencialitāti](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
+### [Saišu pievienošana organizācijas juridiskajiem nosacījumiem un paziņojumam par konfidencialitāti](../dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/retail/toc.json)
 ### [Bing karšu pārvaldība](dev-itpro/manage-bing-maps.md)
 
 ## Pārdošanas punktu paplašināmība

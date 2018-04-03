@@ -3,6 +3,8 @@
 # [Darba sākšana](talent-get-started.md)
 ## [Sistēmas prasības un atjaunināšanas politika](talent-versions-update-policy.md)
 ## [Microsoft Dynamics 365 for Talent nodrošinājums](provisioning-talent.md)
+## [Talent vides noņemšana](remove-test-environment.md)
+## [Microsoft Dynamics 365 for Talent moduļu programmu nodrošinājums](modular-app-tech-faq.md)
 ## [Paplašināt programmas Talent funkcionalitāti](extend-talent-functionality.md)
 
 # [Personāla vadības stratēģijas izstrāde](departments-jobs-positions.md)
@@ -39,5 +41,5 @@
 ## [Novērtēt anketas rezultātus](evaluate-questionnaire-results.md)
 
 # Darbavietas drošība un atbilstība (ASV)
-## [Formas I-9 nodarbinātības pārbaude](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
-## [Ievērot ADA](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md)
+## [Formas I-9 nodarbinātības pārbaude](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json)
+## [Ievērot ADA](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json)
