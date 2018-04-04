@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 40d54a9a2920e87caba62c92b5ca6465fa68e3d4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 164932ac3bc701696f5c0b08c5e2d585d9a8ba6a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 03/08/2018
 Microsoft Dynamics 365 for Retail ir vispārīgs mazumtirdzniecības risinājums, kas nodrošina unificētu komerciju visos kanālos. Tas aptver pārdošanu, mobilitāti, informāciju un produktivitāti, lai palīdzētu mazumtirgotājiem sasniegt vairāk, izmantojot mākoņpakalpojumus un mobilās iespējas. Retail nodrošina vispusīgu atbalstu, veicot dažādus biznesa procesus, piemēram, tirgū virzīšanas vai krājumu un kanālu pārvaldības iespējas. Turklāt tas nodrošina visaptverošu klientu pieredzi visās saskares vietās.
 
 > [!NOTE] 
-> Risinājums Dynamics 365 for Retail ir cieši saistīts ar Dynamics 365 for Finance and Operations, Enterprise Edition un Dynamics 365 for Talent. Šī funkcionalitāte var būt pieejama visos trīs produktos. Tādēļ tēmās, kas galvenokārt ir saistītas ar programmatūru Retail, produkta nosaukums ir Microsoft Dynamics 365 for Retail; tēmās, kas galvenokārt ir saistītas ar pamatproduktu (Finance and Operations), produkta nosaukums ir Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition; tēmās, kas galvenokārt ir saistītas ar cilvēkresursiem, produkta nosaukums ir Dynamics 365 for Talent. 
+> Risinājums Dynamics 365 for Retail ir cieši saistīts ar Dynamics 365 for Finance and Operations un Dynamics 365 for Talent. Šī funkcionalitāte var būt pieejama visos trīs produktos. Tādēļ tēmās, kas galvenokārt ir saistītas ar programmatūru Retail, produkta nosaukums ir Microsoft Dynamics 365 for Retail; tēmās, kas galvenokārt ir saistītas ar pamatproduktu (Finance and Operations), produkta nosaukums ir Microsoft Dynamics 365 for Finance and Operations; tēmās, kas galvenokārt ir saistītas ar cilvēkresursiem, produkta nosaukums ir Dynamics 365 for Talent. 
 
 Kreisajā rūtī atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
 
