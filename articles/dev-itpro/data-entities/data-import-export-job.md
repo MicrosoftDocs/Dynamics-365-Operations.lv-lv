@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e444168f249e798fa68b9b082556aa8e5e7d8113
-ms.openlocfilehash: 0e1c5120bf8558b955b66e059a8be8bbec2c2ce1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: bd26ac6fd8376fd42467c7a3d2ecd2ec035a4479
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 02/13/2018
 
 [!include[banner](../includes/banner.md)]
 
-Lai izveidotu un pārvaldītu datu importēšanas un eksportēšanas darbus programmatūrā Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, ir jālieto darbvieta **Datu pārvaldība**. Pēc noklusējuma datu importēšanas un eksportēšanas process izveido sagatavošanas tabulu katram elementam mērķa datu bāzē. Sagatavošanas tabulas pirms jums ļauj datus pārbaudīt, iztīrīt vai konvertēt, pirms tos pārvietojat.
+Lai izveidotu un pārvaldītu datu importēšanas un eksportēšanas darbus programmā Microsoft Dynamics 365 for Finance and Operations, ir jālieto darbvieta **Datu pārvaldība**. Pēc noklusējuma datu importēšanas un eksportēšanas process izveido sagatavošanas tabulu katram elementam mērķa datu bāzē. Sagatavošanas tabulas pirms jums ļauj datus pārbaudīt, iztīrīt vai konvertēt, pirms tos pārvietojat.
 
 > [!NOTE]
 > Šajā tēmā tiek pieņemts, ka pārzināt [datu elementus](data-entities.md).
@@ -66,7 +66,7 @@ Importēšanas vai eksportēšanas darbiem varat pievienot konkrētus elementus 
 ### <a name="set-the-data-format-for-the-job"></a>Darba datu formāta iestatīšana
 Kad atlasāt kādu elementu, ir jāatlasa formāts tiem datiem, kas tiks eksportēti vai importēti. Formātus jūs definējat, izmantojot elementu **Datu avotu iestatīšana**. Daudzas organizācijas sāk ar formātiem, kas demonstrācijas datu kopā ir ietverti pēc noklusējuma. Tālāk ir dažu šo formātu saraksts.
 
-- AX (datiem, kas ir jāimportē vai jāeksportē tajā pašā formātā, kāds tiek izmantots programmatūrai Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition)
+- AX (datiem, kas ir jāimportē vai jāeksportē tādā pašā formātā, kāds tiek izmantots programmā Microsoft Dynamics 365 for Finance and Operations)
 - ColonSeparated
 - CSV
 - Excel

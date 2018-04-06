@@ -1,6 +1,6 @@
 ---
 title: "Organizācijas administrēšanas sākumlapa"
-description: "Šajā tēmā ir norādīti resursi, kas jums palīdzēs savā organizācijā izmantot programmatūru Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "Šajā tēmā ir norādīti resursi, kas jums palīdzēs izmantot programmatūru Microsoft Dynamics 365 for Finance and Operations savā organizācijā."
 author: sericks007
 manager: AnnBe
 ms.date: 08/18/2017
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f1cff2388b02ff6dfd52a39b7f3ea90f10807096
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a2c1d846527eac4db0a043c7f1c51da0e73bd796
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā tēmā ir norādīts saturs, kas prasmīgiem lietotājiem un administratoriem palīdzēs konfigurēt programmatūru Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Šis saturs viņiem palīdzēs sistēmu konfigurēt tā, lai jūsu organizācijai un komercdarbībai tā darbotos efektīvi un bez traucējumiem.
+Šajā tēmā ir norādīts saturs, kas prasmīgiem lietotājiem un administratoriem palīdzēs konfigurēt programmatūru Microsoft Dynamics 365 for Finance and Operations. Šis saturs viņiem palīdzēs sistēmu konfigurēt tā, lai jūsu organizācijai un komercdarbībai tā darbotos efektīvi un bez traucējumiem.
 
 Liela daļa no šeit uzskaitītā satura attiecas uz līdzekļiem modulī **Organizācijas administrēšana**. Taču ir pāris uzdevumu, piemēram, ieraksta veidņu izveidošana un lietošana, ko var veikt jebkurā modulī, lai palīdzētu jūsu organizācijai darboties efektīvāk. 
 

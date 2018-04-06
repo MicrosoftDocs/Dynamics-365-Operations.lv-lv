@@ -1,6 +1,6 @@
 ---
 title: "Kreditoru konfigurēšana"
-description: "Šajā rakstā ir aprakstītas lapas, ko izmantojat, lai programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise iestatītu moduļa Parādi kreditoriem pamata un papildu funkcionalitāti. Tajā ir aprakstītas arī iestatīšanas darbības, kas ir jāizpilda, pirms sākat iestatīt moduli Parādi kreditoriem."
+description: "Šajā rakstā ir aprakstītas lapas, kuras izmantojat, lai programmatūrā Microsoft Dynamics 365 for Finance and Operations iestatītu pamata un papildu funkcionalitāti modulim Parādi kreditoriem. Tajā ir aprakstītas arī iestatīšanas darbības, kas ir jāizpilda, pirms sākat iestatīt moduli Parādi kreditoriem."
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/08/2017
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2d01a85dad2582a6ab796b03616ef283e40e040b
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 60313da23fdbd5a06b71c7c91a236165f8f189de
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir aprakstītas lapas, ko izmantojat, lai programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise iestatītu moduļa Parādi kreditoriem pamata un papildu funkcionalitāti. Tajā ir aprakstītas arī iestatīšanas darbības, kas ir jāizpilda, pirms sākat iestatīt moduli Parādi kreditoriem.
+Šajā rakstā ir aprakstītas lapas, kuras izmantojat, lai programmatūrā Microsoft Dynamics 365 for Finance and Operations iestatītu pamata un papildu funkcionalitāti modulim Parādi kreditoriem. Tajā ir aprakstītas arī iestatīšanas darbības, kas ir jāizpilda, pirms sākat iestatīt moduli Parādi kreditoriem.
 
 <a name="prerequisites-for-accounts-payable-setup"></a>Priekšnosacījumi moduļa Kreditori iestatīšanai
 ----------------------------------------

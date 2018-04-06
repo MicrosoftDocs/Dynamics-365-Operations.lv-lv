@@ -1,6 +1,6 @@
 ---
 title: "Izdevumu politiku definēšana"
-description: "Varat definēt izdevumu politikas, kuras jūsu darbiniekiem ir jāievēro, kad viņi izdevumu pārskatus un komandējumu pieprasījumus ievada un iesniedz programmatūrā Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "Varat definēt izdevumu politikas, kas ir jāievēro jūsu darbiniekiem, kad viņi ievada un iesniedz izdevumu pārskatus un komandējumu pieprasījumus programmatūrā Microsoft Dynamics 365 for Finance and Operations."
 author: saraschi2
 manager: AnnBe
 ms.date: 02/23/2018
@@ -17,14 +17,14 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: b52fe81015a324bde07f387b42b834b79dc7c2da
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3b2a28fe6acf03e52c292048a797ce997f58bcce
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
-# <a name="expense-policies"></a>Izdevumu politikas
+# <a name="expense-policies"></a>Izdevumu ierobežojumi
 
 [!include[banner](../includes/banner.md)]
 

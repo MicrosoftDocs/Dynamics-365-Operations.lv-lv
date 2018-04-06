@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 233d91138b11905d971be90154da54e61bbe2919
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b84778bd67e8c5bad6e8858d2af71f46e0dfe145
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -39,7 +39,7 @@ ms.lasthandoff: 12/01/2017
 
 Šī mobilā programma jūsu organizācijai sniedz iespējas savus uzņēmējdarbības procesus padarīt pieejamus mobilajās ierīcēs. Kad IT administrators jūsu organizācijai ir iespējojis mobilās darbvietas, lietotāji var pierakstīties programmā un nekavējoties sākt biznesa procesu izpildi no savām mobilajām ierīcēm. Šī mobilā programma ietver tālāk norādītos līdzekļus, kas var palīdzēt uzlabot produktivitāti.
 
-- Lietotāji var skatīt biznesa datus, tos rediģēt un rīkoties ar šiem datiem, pat ja šo lietotāju tīkla savienojamība darbojas ar pārtraukumiem vai ja viņu mobilās ierīces ir pilnīgi bezsaistē. Kad ierīce atkārtoti izveido savienojumu ar tīklu, bezsaistes datu operācijas automātiski tiek sinhronizētas ar Dynamics 365 for Finance and Operations izdevumu Enterprise vai ar Microsoft Dynamics 365 for Finance and Operations.
+- Lietotāji var skatīt biznesa datus, tos rediģēt un rīkoties ar šiem datiem, pat ja šo lietotāju tīkla savienojamība darbojas ar pārtraukumiem vai ja viņu mobilās ierīces ir pilnīgi bezsaistē. Kad ierīce no jauna izveido savienojumu ar tīklu, bezsaistes datu operācijas tiek automātiski sinhronizētas ar Dynamics 365 for Finance and Operations.
 - IT administratori vai izstrādātāji var veidot un publicēt mobilās darbvietas, kas ir īpaši izstrādātas viņu organizācijai. Šī programmu izmanto jūsu jau esošos koda līdzekļus. Tāpēc jums nav nepieciešamības atkārtoti ieviest savas validēšanas procedūras, biznesa loģiku vai drošības konfigurāciju.
 - IT administratori vai izstrādātāji mobilās darbvietas var ērti projektēt, izmantojot norādīšanas un klikšķināšanas darbvietas veidotāju, kas ir iekļauts tīmekļa klientā.
 - IT administratori vai izstrādātāji pēc izvēles varat optimizēt darbvietas bezsaistes iespējas, izmantojot biznesa loģikas paplašināšanas struktūru. Tā kā datu apstrāde turpinās arī laikā, kamēr ierīce ir bezsaistē, jūsu mobilie scenāriji joprojām ir bagātīgi un plūstoši, pat ja ierīcēm nav pastāvīga savienojuma ar tīklu.
@@ -90,7 +90,7 @@ Nākamajā tabulā ir ietvertas saites uz resursiem, kas jums var palīdzēt iev
 <tr class="even">
 <td>2.</td>
 <td>Sistēmas administrators</td>
-<td><strong>Ja izmantojat Microsoft Dynamics 365 for Finance and Operations versiju 1611:</strong> lejupielādējiet un instalējiet zināšanu bāzes rakstus, kuri iespējo Microsoft nodrošinātās mobilās darbvietas.</td>
+<td><strong>Ja izmantojat Microsoft Dynamics 365 for Operations versiju 1611:</strong> lejupielādējiet un instalējiet zināšanu bāzes rakstus, kuri iespējo Microsoft nodrošinātās mobilās darbvietas.</td>
 <td>Papildinformāciju skatiet tālāk norādītajās tēmās.
 <ul>
 

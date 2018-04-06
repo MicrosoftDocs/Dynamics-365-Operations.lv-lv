@@ -18,10 +18,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad76f286d16b149affa110aef75874a52b66798f
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 34dac634e09a8daa8a22b9f1efbc18ca44444e21
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -54,7 +54,7 @@ Izmantojiet lapu **Iestatīt rēķina izrakstīšanas izpildes termiņa aprēķi
 Varat iestatīt arī datumu kontroles parametrus, lai nodrošinātu, ka debitoru rēķini un kredīta notas debitoru transakcijām tiek ģenerēti noteiktā periodā pēc piegādes veikšanas. Šie parametri ir pieejami lapas **Debitoru moduļa parametri** apgabalā **Rēķinu datumu kontrole**.
 
 ## <a name="example"></a>Paraugs
-Lai programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise iestatītu ES iekšējo sūtījumu rēķina izrakstīšanas izpildes termiņu aprēķināšanu pēc sūtījuma piegādāšanas nākamā mēneša piecpadsmitajā dienā, izveidojiet datumu intervāla kodu un aprēķina kārtulu ar tālāk norādītajiem iestatījumiem.
+Lai programmā Microsoft Dynamics 365 for Finance and Operations iestatītu, ka sūtījumiem ES robežās rēķina izrakstīšanas izpildes termiņi tiek aprēķināti tā mēneša piecpadsmitajā dienā, kas ir pēc sūtījuma piegādāšanas, izveidojiet datumu intervāla kodu un aprēķina kārtulu ar tālāk sniegtajiem iestatījumiem.
 
 ### <a name="date-interval-code"></a>Datumu intervāla kods
 

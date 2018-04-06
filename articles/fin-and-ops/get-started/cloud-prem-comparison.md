@@ -18,10 +18,10 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: 4ffdc5dd54f8a069676f62c8b43f2892764dc046
-ms.openlocfilehash: 88640007ec54ed0c566e163e3dd701faeebc50ce
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: cd267f6e5623bd83bfbd21a49a72dd216259167a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,8 +31,8 @@ ms.lasthandoff: 03/05/2018
 
 Šajā tēmā ir parādīts, vai katrs līdzeklis ir pieejams šajos produktos:
 
-+ Dynamics 365 for Finance and Operations, Enterprise Edition (mākoņa)
-+ Dynamics 365 for Finance and Operations, Enterprise Edition (lokālā)
++ Dynamics 365 for Finance and Operations kalendārs (mākonis)
++ Microsoft Dynamics 365 for Finance and Operations (lokāla izvietošana)
 
 Nākamajās tabulās ir uzskaitīti produktu apgabali. Mākoņa un lokālās versijas atbalsts ir norādīts līdzeklim kopumā. Ja konkrēti līdzekļi atšķiras no apgabala kopumā, tad līdzekļi ir uzskaitīti atsevišķā kolonnas Līdzeklis rindā.
 

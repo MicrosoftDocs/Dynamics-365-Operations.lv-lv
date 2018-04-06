@@ -1,6 +1,6 @@
 ---
 title: "Programmā Finance and Operations ietverto pārdošanas rēķinu galveņu un rindu tieša sinhronizēšana ar programmu Sales"
-description: "Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Finance and Operations Enterprise Edition ietverto pārdošanas rēķinu galveņu tiešai sinhronizēšanai ar programmu Microsoft Dynamics 365 for Sales."
+description: "Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Finance and Operations pieejamo pārdošanas rēķinu galveņu un rindu tiešai sinhronizēšanai ar programmu Microsoft Dynamics 365 for sales."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/26/2017
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
-ms.openlocfilehash: 347509a9556f15e7d880508e36516f04bc6964b7
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: afbf4a24b737cf7221bac4b688b8801b1bcd839c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 03/13/2018
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Finance and Operations Enterprise Edition ietverto pārdošanas rēķinu galveņu tiešai sinhronizēšanai ar programmu Microsoft Dynamics 365 for Sales.
+Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Finance and Operations pieejamo pārdošanas rēķinu galveņu un rindu tiešai sinhronizēšanai ar programmu Microsoft Dynamics 365 for sales.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Datu plūsma risinājumā No potenciālā klienta līdz skaidrai naudai
 

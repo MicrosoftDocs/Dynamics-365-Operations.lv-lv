@@ -3,7 +3,7 @@ title: "Maiņu un naudas kastes pārvaldība"
 description: "Šajā rakstā ir paskaidrots, kā iestatīt un izmantot abus mazumtirdzniecības pārdošanas punkta (POS) maiņu tipus — koplietoto un savrupo. Koplietotās maiņas var izmantot vairāki lietotāji vairākās vietās, bet savrupās maiņas vienlaicīgi var izmantot tikai viens darbinieks."
 author: rubencdelgado
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,10 +20,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b8e12f3f4c2f8f5a596c8994f2a4571d8a907062
+ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
+ms.openlocfilehash: c1483d3240d266845cea7789b70c038cb98fdfcc
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -99,7 +99,60 @@ Koplietotā maiņa tiek izmantota vidē, kur vairāki kasieri strādā pie viena
 9.  Izmantojiet operāciju **Norēķinu uzskaite**, lai deklarētu kopējo naudas summu no visām koplietotajā maiņā iekļautajām naudas kastēm.
 10. Izmantojiet operāciju **Slēgt maiņu**, lai slēgtu koplietoto maiņu.
 
+## <a name="shift-operations"></a>Maiņas darbības
+Var veikt dažādas darbības, lai mainītu maiņas stāvokli vai palielinātu vai samazinātu naudas kastē esošo naudas summu. Tālāk esošajā sadaļā ir aprakstītas šīs maiņas darbības programmās Dynamics 365 for Retail Modern POS un Cloud POS.
 
+**Atvērt maiņu**
 
+POS ir prasība, ka lietotājam ir jābūt aktīvai, atvērtai maiņai, lai viņš varētu veikt jebkādas darbības, kas var izraisīt finanšu transakciju, piemēram, pārdošanu, atgriešanu vai debitora pasūtījumu.  
 
+Piesakoties POS, sistēma vispirms pārbauda, vai lietotajam ir aktīva maiņa pašreizējā kases sistēmā. Ja tā nav, lietotājs var izvēlēties atvērt jaunu maiņu, turpināt esošu maiņu vai turpināt pieteikties naudas kastes neizmantošanas režīmā atkarībā no sistēmas konfigurācijas un lietotāja atļaujām.
+
+**Deklarēt sākuma summu**
+
+Šī darbība bieži vien ir pirmā, kas tiek veikta tikko atvērtā maiņā. Lietotāji norāda maiņas sākuma skaidras naudas summu naudas kastē. Tas ir svarīgi, jo šī summa tiek ņemta vērā, veicot pārpalikuma/iztrūkuma aprēķinu maiņas slēgšanas laikā.
+
+**mainīgā ievade;**
+
+Mainīgās ievades ir ar pārdošanu nesaistītas transakcijas, kas tiek veiktas aktīvas maiņas laikā un palielina naudas kastē esošo summu. Izplatīts mainīgās ievades piemērs ir papildu sīknaudas ievietošana naudas kastē, kad trūkst sīknaudas.
+
+**Norēķinu noņemšana**
+
+Norēķinu noņemšanas ir ar pārdošanu nesaistītas transakcijas, kas tiek veiktas aktīvas maiņas laikā, lai samazinātu naudas kastē esošo summu. Tās visbiežāk tiek lietotas kopā ar mainīgo ievadi citā maiņā. Piemēram, 1. kases sistēmā trūkst sīknaudas, tāpēc 2. kases sistēmas lietotājs veic norēķinu noņemšanu, lai samazinātu naudas kastē esošo summu. Pēc tam 1. kases sistēmas lietotājs veic mainīgo ievadi, lai palielinātu summu savā naudas kastē.
+
+**Maiņas pārtraukšana**
+
+Lietotāji var pārtraukt savu aktīvo maiņu, lai atbrīvotu pašreizējo kases sistēmu citam lietotājam vai pārvietotu savu maiņu uz citu kases sistēmu (tas bieži tiek saukts par darbu ar mainīgu kases aparātu). 
+
+Pēc maiņas pārtraukšanas nevar veikt nekādas jaunas transakcijas vai izmaiņas, līdz maiņa tiek atsākta.
+
+**Atsākt maiņu**
+
+Šī darbība sniedz lietotājam iespēju atsākt iepriekš apturētu maiņu kases sistēmā, kurā vēl nav aktīvas maiņas.
+
+**Norēķinu uzskaite**
+
+Norēķinu uzskaite ir darbība, ko lietotājs veic, lai norādītu pašlaik naudas kastē esošo naudas kopsummu, un tā visbiežāk tiek veikta pirms maiņas slēgšanas. Tā ir vērtība, kas tiek salīdzināta ar paredzēto summu maiņas beigās, lai aprēķinātu pārpalikuma/iztrūkuma summu.
+
+**Noguldījums seifā**
+
+Noguldījumus seifā var veikt jebkurā brīdī aktīvas maiņas laikā. Veicot šo darbību, nauda tiek izņemta no naudas kastes un pārvietota uz drošāku vietu, piemēram, uz seifu dibenistabā. Kopējā reģistrētā seifā noguldītā summa tiek ietverta maiņas kopsummā, taču nav jāietver norēķinu uzskaitē.
+
+**Noguldījums bankā**
+
+Tāpat kā noguldījumi seifā, arī noguldījumi bankā tiek veikti aktīvu maiņu laikā. Veicot šo darbību, no maiņas summas tiek noņemta nauda, lai to sagatavotu noguldīšanai bankā.
+
+**Diskrēti slēgt maiņu**
+
+Diskrēti slēgta maiņa ir maiņa, kas vairs nav aktīva, taču nav pilnībā slēgta. Diskrēti slēgtās maiņas nevar atsākt kā apturētu maiņu, taču vēlāk vai citā kases sistēmā var veikt tādas darbības kā sākuma summu uzskaite un norēķinu uzskaite.
+
+Diskrēti slēgtās maiņas bieži tiek izmantotas, lai atbrīvotu kases sistēmu jaunam lietotājam vai maiņai, iepriekš neveicot šīs maiņas pilnīgu uzskaiti, saskaņošanu un slēgšanu. 
+
+**Maiņas slēgšana**
+
+Veicot šo darbību, tiek aprēķinātas maiņas kopsummas un pārpalikuma/iztrūkuma summas un pēc tam tiek pabeigta aktīva vai diskrēti slēgta maiņa. Slēgtās maiņas nevar atsākt vai izmainīt.  
+
+**Pārvaldīt maiņas**
+
+Šī darbība sniedz lietotājiem iespēju skatīt visas veikala aktīvās, apturētās un diskrēti slēgtās maiņas. Atkarībā no atļaujām lietotāji var veikt beigu slēgšanas darbības, piemēram, diskrēti slēgto maiņu norēķinu uzskaiti un maiņu slēgšanu. Šī darbība sniedz lietotājiem iesēju arī skatīt un dzēst nederīgās maiņas retos gadījumos, kad pēc bezsaistes un tiešsaistes režīmu pārslēgšanas maiņas stāvoklis ir kļuvis nederīgs. Šajās nederīgajās maiņās nav ietverta nekāda finanšu informācija vai transakciju dati, kas ir nepieciešami saskaņošanai. 
 

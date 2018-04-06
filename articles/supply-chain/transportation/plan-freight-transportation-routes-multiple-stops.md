@@ -19,10 +19,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fea84bc0f40a1a25ce0cc252b6bb58fad2a2a501
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 16255e812773ed35c0e34ec26a8a689ea09632bd
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā raksta ir izklāstīti dažādie elementi, ko izmantojat, lai plānotu transportēšanas maršrutus programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise.
+Šajā raksta ir izklāstīti dažādie elementi, ko izmantojat, lai plānotu transportēšanas maršrutus programmatūrā Microsoft Dynamics 365 for Finance and Operations.
 
 Kompleksiem transportēšanas maršrutiem, kuros ir vairākas pieturvietas, varat izmantot maršrutu plānus un maršrutu ceļvežus. Ja viens un tas pats maršruts tiks izmantots regulāri, varat iestatīt plānotu maršrutu.
 

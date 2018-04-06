@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fa494ab9c3b3f0540ec042f952344c15796845e6
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a0530a569978bafffcdcc63c8d502b9bfa645bc5
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ Plānojot un iestatot kontu plānu, ir jāņem vērā, kā dažādi komponenti d
 
 ## <a name="chart-of-accounts-and-financial-dimension-components"></a>Kontu plāns un finanšu dimensiju komponenti
 
-Microsoft Dynamics 365 for Finance and Operations Enterprise edition ir bagātināta, uz kārtulām balstīta sistēma definēšanai galvenos kontu un finanšu dimensiju vērtību definēšanai derīgās kombinācijās. Šī sadaļa sniegts īss katra komponenta funkcionalitātes apraksts un skaidrots, kur tas atrodams.
+Microsoft Dynamics 365 for Finance and Operations ir bagāta ar kārtulām saistīta sistēma galveno kontu un finanšu dimensiju vērtību derīgu kombināciju definēšanai. Šī sadaļa sniegts īss katra komponenta funkcionalitātes apraksts un skaidrots, kur tas atrodams.
 
 ### <a name="account-structures"></a>Kontu struktūras
 

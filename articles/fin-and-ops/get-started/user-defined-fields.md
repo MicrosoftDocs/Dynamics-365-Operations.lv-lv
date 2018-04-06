@@ -3,7 +3,7 @@ title: "Pielāgoti lauki"
 description: "Šajā tēmā parādīts, kā Microsoft Dynamics 365 for Finance and Operations noteiktiem lietotājiem ļauj izveidot pielāgotus laukus un pielāgot programmu sava uzņēmuma vajadzībām."
 author: jasongre
 manager: AnnBe
-ms.date: 01/19/2018
+ms.date: 03/20/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -14,13 +14,13 @@ ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2017-12-31
+ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: ad59346f88b7a5984e16418e2aade7ccaedf180b
-ms.openlocfilehash: 142c66c189d6401cfb3db128e45fea6c071e99bf
+ms.sourcegitcommit: 454368ab5a467002ebf973db97fd98e31885dfe0
+ms.openlocfilehash: 4420eeb249a4d1bdac203e32d017dcebbddf95c3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 03/23/2018
 
 ---
 
@@ -30,7 +30,9 @@ ms.lasthandoff: 02/28/2018
 
 [!include[banner](../includes/pre-release.md)] 
 
-Lai gan Microsoft Dynamics 365 for Finance and Operations Enterprise Edition nodrošina lietošanai gatavu plašu lauku kopu dažādu veidu biznesa procesu pārvaldībai, dažkārt uzņēmumā ir nepieciešams sistēmā izsekot papildu informāciju. Tādēļ programmā Finance and Operations varat izveidot pielāgotus laukus un programmu pielāgot sava uzņēmuma vajadzībām (ja jums ir nepieciešamās atļaujas, lai piekļūtu šim līdzeklim).
+Lai gan Microsoft Dynamics 365 for Finance and Operations nodrošina plašu lietošanai gatavu lauku kopu dažādu veidu biznesa procesu pārvaldībai, dažkārt uzņēmumam ir nepieciešams sistēmā izsekot papildu informāciju. Tādēļ programmā Finance and Operations varat izveidot pielāgotus laukus un programmu pielāgot sava uzņēmuma vajadzībām (ja jums ir nepieciešamās atļaujas, lai piekļūtu šim līdzeklim). 
+
+Pielāgotu lauku pievienošanas iespēja ir pieejama 13. platformas atjauninājumā un jaunākās tā versijās.
 
 Šajā video parādīts, cik viegli ir lapai pievienot pielāgotu lauku.
 

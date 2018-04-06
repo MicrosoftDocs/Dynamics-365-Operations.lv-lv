@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 42ab7beb8a269cd37fd9100385bd302e4945c1e0
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b86363004b8702d1a654f2a1da49bba82fc8ff2a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -46,7 +46,7 @@ Piedāvājuma pieprasījumu varat izveidot no plānotiem pasūtījumiem, pirkša
 
 Pēc piedāvājuma pieprasījuma gadījuma sagatavošanas un kreditoru pievienošanas šim piedāvājuma pieprasījuma gadījumam atlasiet **Sūtīt**. Tiek ģenerēts piedāvājuma pieprasījuma žurnāls katram kreditoram, kuram nosūtījāt šo piedāvājuma pieprasījumu. Varat konfigurēt sūtīšanas darbības drukas pārvaldības iestatījumus tā, lai drukātu katra kreditora pārskatu arhivēšanas nolūkos vai sūtītu pārskatu uz katra kreditora e-pasta adresi. Turklāt katra kreditora piedāvājuma pieprasījuma žurnālu varat izmantot, lai ģenerētu pārskatu, ko vēlāk varat nosūtīt vai atkārtoti nosūtīt šim kreditoram. Var arī konfigurēt sūtīšanas darbību tā, lai tā ģenerētu atbildes lapu, ko kreditors var aizpildīt.
 
-Šajā tēmā ir apskatīta procedūra piedāvājumu pieprasījumu apstrādāšanai, kad netiek izmantota kreditora sadarbība. Ja jūsu sistēma ir iestatīta kreditoru sadarbībai, kreditori var ievadīt piedāvājumus tieši programmā Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Papildinformāciju skatiet šeit: [Kreditoru sadarbība ar debitoriem](vendor-collaboration-work-customers-dynamics-365-operations.md).
+Šajā tēmā ir apskatīta procedūra piedāvājumu pieprasījumu apstrādāšanai, kad netiek izmantota kreditora sadarbība. Ja jūsu sistēma ir iestatīta kreditoru sadarbībai, kreditori var tiešā veidā ievadīt piedāvājumus programmatūrā Microsoft Dynamics 365 for Finance and Operations. Papildinformāciju skatiet šeit: [Kreditoru sadarbība ar debitoriem](vendor-collaboration-work-customers-dynamics-365-operations.md).
  
 Ja pēc piedāvājuma pieprasījuma nosūtīšanas ir nepieciešams veikt tā grozījumus, pēc grozījumu pabeigšanas šo piedāvājuma pieprasījumu varat nosūtīt kreditoriem vēlreiz, izmantojot abas grozījumu darbības: Izveidot un Finalizēt.
 

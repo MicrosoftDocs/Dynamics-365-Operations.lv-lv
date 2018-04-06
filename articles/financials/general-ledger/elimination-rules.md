@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 818572a8d1f790aaa7c6e4befc1d2222a1c35c50
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 882b8f21be94b8cbb0c162c965ffc129b47d7edf
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -132,7 +132,7 @@ Jūsu juridiska persona — juridiska persona A — pārdod logrīkus citai juri
 Visas šīs transakcijas ir starpuzņēmumu transakcijas, kuras tiek grāmatotas abu pušu kontos. Turklāt šajās transakcijās var tikt iekļautas uzcenojuma un nocenošanas summas, kad starpuzņēmumu pārdošanas summa nav vienāda ar preču vērtību.
 
 ## <a name="set-up-elimination-rules"></a>Korekcijas noteikumu iestatīšana
-Iestatot korekciju kārtulas programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise, ir ieteicams izveidot korekciju veikšanai paredzētu finanšu dimensiju. Vairums klientu tai piešķir nosaukumu Darījumu partneris vai tamlīdzīgu. Ja izlemjat kādu finanšu dimensiju nelietot, jums noteikti ir nepieciešami galvenie konti, kas ir raksturīgi tikai starpuzņēmumu transakcijām. 
+Iestatot korekciju kārtulas programmā Microsoft Dynamics 365 for Finance and Operations, ir ieteicams izveidot korekciju veikšanai paredzētu finanšu dimensiju. Vairums klientu tai piešķir nosaukumu Darījumu partneris vai tamlīdzīgu. Ja izlemjat kādu finanšu dimensiju nelietot, jums noteikti ir nepieciešami galvenie konti, kas ir raksturīgi tikai starpuzņēmumu transakcijām. 
 
 Korekciju iestatījumi atrodamas moduļa Konsolidācijas apgabalā Iestatīšana. Kad esat ievadījis kārtulas aprakstu, ir jāizvēlas uzņēmums, uz kuru šis korekciju žurnāls tiks grāmatots. Tam ir jābūt uzņēmumam, kuram juridiskās personas iestatījumos ir atlasīta opcija **Lietot finanšu korekciju procesā**. 
 

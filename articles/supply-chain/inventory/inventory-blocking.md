@@ -1,6 +1,6 @@
 ---
 title: "Krājumu aizturēšana"
-description: "Šajā rakstā ir sniegts apskats par krājuma bloķēšanu, kas ir daļa no kvalitātes pārbaudes procesa programmatūrā Microsoft Dynamics 365 for Finance and Operations, izdevumā Enterprise. Krājuma bloķēšanu var izmantot, lai nepieļautu krājumu apstrādi vai patēriņu."
+description: "Šajā rakstā ir sniegts apskats par krājuma bloķēšanu, kas ir daļa no kvalitātes pārbaudes procesa programmā Microsoft Dynamics 365 for Finance and Operations. Krājuma bloķēšanu var izmantot, lai nepieļautu krājumu apstrādi vai patēriņu."
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: eb8040531ec0c2b9c13fc927e5330772ad11ee1d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 0567cdad6f9f27097f534381655e5b468884bed8
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir sniegts apskats par krājuma bloķēšanu, kas ir daļa no kvalitātes pārbaudes procesa programmatūrā Microsoft Dynamics 365 for Finance and Operations, izdevumā Enterprise. Krājuma bloķēšanu var izmantot, lai nepieļautu krājumu apstrādi vai patēriņu.
+Šajā rakstā ir sniegts apskats par krājuma bloķēšanu, kas ir daļa no kvalitātes pārbaudes procesa programmā Microsoft Dynamics 365 for Finance and Operations. Krājuma bloķēšanu var izmantot, lai nepieļautu krājumu apstrādi vai patēriņu.
 
 Varat bloķēt krājumu vienības tālāk norādītajos veidos.
 -   Manuāli
@@ -64,7 +64,7 @@ Varat norādīt, kuri krājumu statusi ir aizturēšanas statusi, izmantojot par
 <a name="see-also"></a>Skatiet arī
 --------
 
-[Krājuma bloķēšanas izveide un uzturēšana (uzdevuma ceļvedis)](tasks/create-maintain-inventory-blocking.md
+[Izveidot un uzturēt krājuma bloķēšanu](tasks/create-maintain-inventory-blocking.md)
 
 [Kvalitātes pārvaldības procesi](quality-management-processes.md)
 

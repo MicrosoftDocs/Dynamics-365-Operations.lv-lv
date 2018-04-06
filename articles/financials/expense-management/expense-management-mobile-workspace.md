@@ -18,10 +18,10 @@ ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: bbbe37330e16a079b817dfe04f4a47f046263e88
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 6f6add07a2426b1846cbeb9dee149a63f66f779e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -42,11 +42,11 @@ Daudzos uzņēmumos komandējuma vai lietišķo izdevumu pārskatam, ko darbinie
 
 Mobilā darbvieta **Izmaksu pārvaldība** sniedz lietotājiem iespēju veikt tālāk norādītos uzdevumus.
 
-- Uzņemt kvīts fotoattēlu un augšupielādēt to programmas Microsoft Dynamics 365 for Finance and Operations Enterprise izdevumā. Šo fotoattēlu vēlāk varat pievienot izdevumu pārskatam.
+- Uzņemt kvīts fotoattēlu un augšupielādēt to programmā Microsoft Dynamics 365 for Finance and Operations. Šo fotoattēlu vēlāk varat pievienot izdevumu pārskatam.
 - Augšupielādēt failu kā uzņemtu kvīti. Šo failu vēlāk varat pievienot izdevumu pārskatam.
 - Izveidot jaunu izdevumu rindu, izmantojot pievienoto kvīti. Vēlāk varat pievienot rindas krājumu izdevumu pārskatam un iesniegt to apstiprināšanai un atmaksāšanai.
 
-Ja izmantojat programmatūru Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, tad varat izmantot arī tālāk norādītos līdzekļus.
+Ja izmantojat programmu Microsoft Dynamics 365 for Finance and Operations, tad varat izmantot arī tālāk norādītās funkcijas.
 
 - Izveidot jaunu izdevumu pārskatu.
 - Pievienot kredītkartes transakcijas un citus iepriekš izveidotus izdevumus izdevumu pārskatam.
@@ -60,8 +60,8 @@ Ja izmantojat programmatūru Microsoft Dynamics 365 for Finance and Operations, 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 Priekšnosacījumi atšķiras atkarībā no jūsu organizācijai izvietotās Microsoft Dynamics 365 versijas.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Priekšnosacījumi, ja lietojat Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 
-Ja jūsu organizācijai ir izvietota programmatūra Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, tad sistēmas administratoram ir jāpublicē mobilā darbvieta **Izmaksu pārvaldība**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Programmas Microsoft Dynamics 365 for Finance and Operations izmantošanas priekšnoteikumi 
+Ja jūsu organizācijai ir izvietota programma Microsoft Dynamics 365 for Finance and Operations, tad sistēmas administratoram ir jāpublicē mobilā darbvieta **Izmaksu pārvaldība**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Priekšnosacījumi, ja lietojat Microsoft Dynamics 365 for Operations versiju 1611 ar 3. platformas atjauninājumu vai jaunāku tā versiju.
 Ja jūsu organizācija ir izvietota Microsoft Dynamics 365 for Operations versija 1611 ar 3. platformu atjauninājumu vai jaunāku tā versiju, sistēmas administratoram ir jāizpilda tālāk norādītie priekšnoteikumi. 

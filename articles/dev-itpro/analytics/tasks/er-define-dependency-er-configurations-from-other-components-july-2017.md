@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7de5fbcaa9f287752e3ae4834eb48d622d263579
-ms.openlocfilehash: 890f035a291dbec936594ceeabc5de284d160ad4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a1ccd440353e986d296de370506fb1951331e2cf
 ms.contentlocale: lv-lv
-ms.lasthandoff: 10/25/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="define-the-dependency-of-configurations-from-other-components-for-electronic-reporting-er"></a>Konfigurāciju atkarības no citiem komponentiem definēšana elektronisko pārskatu veidošanai (ER)
@@ -28,7 +28,7 @@ ms.lasthandoff: 10/25/2017
 
 Lai veiktu šīs darbības, vispirms jāveic darbības uzdevuma ceļvedī "ER: pārvaldīt modeļa kartēšanas konfigurācijas", un jums ir nepieciešama piekļuve pakalpojumam Microsoft Dynamics Lifecycle Services (LCS).
 
-Šajā procedūrā ir parādīts, kā izstrādāt elektronisko pārskatu veidošanas (ER) konfigurāciju un norādīt tās atkarību no citiem programmatūras komponentiem, lai varētu nodrošināt, ka konfigurācija ir pareizi lejupielādēta konkrētai Microsoft Dynamics 365 for Finance and Operations Enterprise edition versijai. Šajā piemērā jūs izveidosiet nepieciešamās ER konfigurācijas parauga uzņēmumam Litware, Inc. 
+Šajā procedūrā ir aprakstīts, kā izstrādāt elektronisko pārskatu veidošanas (ER) konfigurāciju un norādīt tās saistību ar citiem programmatūras komponentiem, lai varētu nodrošināt, ka konfigurācija ir pareizi lejupielādēta konkrētai Microsoft Dynamics 365 for Finance and Operations versijai. Šajā piemērā jūs izveidosiet nepieciešamās ER konfigurācijas parauga uzņēmumam Litware, Inc. 
 
 Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma. Darbības var veikt jebkurā uzņēmumā, jo ER konfigurācijas tiek koplietotas visos uzņēmumos. 
 

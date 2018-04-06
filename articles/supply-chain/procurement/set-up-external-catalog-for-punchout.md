@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 2c37f0253454a23d90904dd6b000b955146ad121
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2892feff0ab8845515543af1a71d8f9642113726
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/08/2018
 
 [!include[banner](../includes/banner.md)]
 
-Izmantojot ārējo katalogu, var nodrošināt, lai preces un cenas informācija, kas vēlāk tiek apstrādāta Dynamics 365 for Finance and Operations izdevuma Enterprise 2017. jūlija laidienā, būtu precīza un aktuāla. Pieprasījumu pēc tam var apstiprināt un pārveidot par pirkuma pasūtījumu un pasūtījumu var izvietot kreditoram.
+Izmantojot ārējo katalogu, varat nodrošināt, ka vēlāk programmatūras Dynamics 365 for Finance and Operations 2017. jūlija laidienā apstrādātā informācija par preci un cenu ir pareiza un aktuāla. Pieprasījumu pēc tam var apstiprināt un pārveidot par pirkuma pasūtījumu un pasūtījumu var izvietot kreditoram.
 
 Kad tiek iestatīts ārējais katalogs un darbinieks gatavo pieprasījumu, būs pieejama opcija novirzīt uz ārējo vietu, ārējo katalogu un atgriezt iepirkumu grozā, kad tika izveidota ārējā vietā. Šis paziņojums ir balstīts uz cXML protokolu un tas ir jāiestata starp pirkšanas sistēmām un pārdošanas organizāciju.
 
@@ -85,7 +85,7 @@ Zemāk varat atrast visu to etiķešu aprakstus, kas ir iekļautas veidnē.
 
 Ārējs elements ir papildinformācija, piemēram, lietotājvārds, kas tiek balstīta uz lietotāju, kas atzīmē aiziešanu. Ārējs elements tiek iestatīts, ja tiek atzīmēta aiziešana, un to var nosūtīt iestatīšanas pieprasījuma ziņojumā.
 Kreditoram varētu būt prasība saņemšanai ārēju elementu iestatīšanas pieprasījumā. Šajā gadījumā ārējo elementu pievienojiet ārēju elementu sarakstam lapas **Ārējais katalogs** sadaļā **Ziņojuma formāts**. Norādiet ārējā elementa nosaukumu, ko kreditors var atpazīt un kartēt vērtībā. Vērtību opcijas: Lietotājvārds, Lietotāja e-pasts vai Nejauša vērtība.
-Plašāku informāciju par cXML protokolu skatiet vietnē http://cxml.org/
+Papildinformāciju par cXML protokolu skatiet šeit: http://cxml.org/
 
 ## <a name="post-back-message"></a>Ar iepriekšēju datumu grāmatots ziņojums
 Ar iepriekšēju datumu grāmatots ziņojums tiek saņemts no kreditora, kad lietotājs atzīmē aiziešanu no ārējās vietnes un atgriežas programmatūrā Finance and Operations. Ar iepriekšēju datumu grāmatotus ziņojumus nevar konfigurēt. Ziņojumi ir balstīti uz cXML protokola definīciju. Tālāk ir norādīta informācija, kas var būt daļa no ar iepriekšēju datumu grāmatota ziņojuma, kurš tiek saņemts pieprasījuma rindā.

@@ -1,6 +1,6 @@
 ---
 title: "Iestatīt detalizētās bankas darbību saskaņošanas importa procesu"
-description: "Detalizētā bankas darbību saskaņošanas līdzeklis sniedz jums iespēju importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise. Šajā rakstā ir paskaidrots, kā iestatīt importēšanas funkcionalitāti saviem bankas izrakstiem."
+description: "Līdzeklis Detalizēta bankas darbību saskaņošana sniedz iespēju importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmatūrā Microsoft Dynamics 365 for Finance and Operations Šajā rakstā ir paskaidrots, kā iestatīt importēšanas funkcionalitāti saviem bankas izrakstiem."
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4d7bb0fc5abedcce973632434a5cc174449cdc22
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 7292767f48e94f01c50e12ab02a4483c53046ae9
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Detalizētā bankas darbību saskaņošanas līdzeklis sniedz jums iespēju importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise. Šajā rakstā ir paskaidrots, kā iestatīt importēšanas funkcionalitāti saviem bankas izrakstiem. 
+Līdzeklis Detalizēta bankas darbību saskaņošana sniedz iespēju importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmatūrā Microsoft Dynamics 365 for Finance and Operations Šajā rakstā ir paskaidrots, kā iestatīt importēšanas funkcionalitāti saviem bankas izrakstiem. 
 
 Bankas izraksta importēšanas iestatījumi ir dažādi, un tie ir atkarīgi no jūsu elektroniskā bankas izraksta formāta. Finance and Operations atbalsta trīs bankas izraksta formātus: ISO20022, MT940 un BAI2.
 
@@ -49,7 +49,7 @@ Visiem trim formātiem jums ir nepieciešami faili, kas elektronisko bankas izra
 | BankStmtImport\_SampleBankCompositeEntity\_xml          | SampleBankCompositeEntity.xml        |
 
 ## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Bankas izrakstu formātu un tehnisko izkārtojumu paraugi
-Tālāk ir sniegti detalizētās bankas darbību saskaņošanas importa faila tehnisko izkārtojumu definīciju paraugi un trīs saistītie bankas izrakstu parauga faili: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+Tālāk ir sniegti detalizētās bankas darbību saskaņošanas importētā faila tehnisko izkārtojumu definīciju paraugi un trīs saistītie bankas izrakstu parauga faili: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
 
 | Tehniskā izkārtojuma definīcija                             | Bankas izraksta parauga fails          |
 |---------------------------------------------------------|--------------------------------------|

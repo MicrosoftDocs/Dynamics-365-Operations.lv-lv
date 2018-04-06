@@ -1,6 +1,6 @@
 ---
 title: "Pirms iegādes"
-description: "Detalizēti norādījumi, ko izmantot, kad apsverat Dynamics 365 for Finance and Operations Enterprise izdevuma iegādi."
+description: "Detalizēti norādījumi, ko izmantot, kad apsverat Dynamics 365 for Finance and Operations iegādi."
 author: kfend
 manager: AnnBe
 ms.date: 07/10/2017
@@ -17,10 +17,10 @@ ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
 ms.translationtype: HT
-ms.sourcegitcommit: 98740e5b992283b924adab34f291b9c1f2703457
-ms.openlocfilehash: d6c4e475925cdc94be614822ffb242eb7ac8cfa7
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 160313ac375feb875982bfdbbd850db7f2d8be35
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -28,13 +28,13 @@ ms.lasthandoff: 01/31/2018
 
 [!include[banner](../includes/banner.md)]
 
-Vai esat jauns Dynamics 365 for Finance and Operations Enterprise izdevuma lietotājs? Esam izveidojuši detalizētus norādījumus, kas noderēs neatkarīgi no tā, vai joprojām izvērtējat programmu Finance and Operations vai arī esat gatavs veikt pirkumu.
+Vai lietojat programmu Dynamics 365 for Finance and Operations pirmo reizi? Esam izveidojuši detalizētus norādījumus, kas noderēs neatkarīgi no tā, vai joprojām izvērtējat programmu Finance and Operations vai arī esat gatavs veikt pirkumu.
 
 ## <a name="step-one--try-out-finance-and-operations-free-for-30-days"></a>Pirmā darbība: izmēģiniet Finance and Operations bez maksas 30 dienas
 Varat izmēģināt Dynamics 365 for Finance and Operations 30 dienas, veicot vienkāršu reģistrēšanos ar e-pastu. Finance and Operations izmēģinājumversijā ir iekļauti darba sākšanas uzdevumu ceļveži, kuros sniegti detalizēti norādījumi, kas ļauj jums darbībā redzēt noteiktus scenārijus. Šis produkts ir pieejams izpētes un izpildes scenārijiem, taču to nevar pielāgot. Lai produkta lietošana būtu vienkāršāka un saprotamāka, ir iekļauti demonstrācijas dati. Kad līdz izmēģinājumversijas termiņa beigām būs atlikušas 3 dienas, par to tiks nosūtīts atgādinājuma e-pasta ziņojums. Detalizēta informācija pieejama vietnē [www.microsoft.com/en-us/dynamics365/operations](https://www.microsoft.com/en-us/dynamics365/operations).
 
 ## <a name="step-two-choose-a-deployment-option"></a>Otrā darbība: izvēlieties izvietošanas opciju
-Tagad Microsoft Dynamics 365 for Finance and Operations Enterprise izdevumu var izvietot mākonī vai lokāli. Mākoņa izvietojumi piedāvā ERP pakalpojumu, ko pilnībā pārvalda Microsoft, savukārt lokālie izvietojumi tiek izvietoti lokāli debitora datu centrā.
+Tagad programmu Microsoft Dynamics 365 for Finance and Operations var izvietot mākonī vai lokāli. Mākoņa izvietojumi piedāvā ERP pakalpojumu, ko pilnībā pārvalda Microsoft, savukārt lokālie izvietojumi tiek izvietoti lokāli debitora datu centrā.
 
 Lokālo versiju izvēloties kā izvietošanas opciju, ir jāņem vērā tālāk norādītie apsvērumi.
 - Normatīvās un atbilstības vajadzības, kas nav pieejamas [mākoņa sertifikācijās](https://explore.dynamics.com/operations/microsoft-dynamics-365-for-operations-certification-priorities)
@@ -43,7 +43,7 @@ Lokālo versiju izvēloties kā izvietošanas opciju, ir jāņem vērā tālāk 
 - [Minimālās infrastruktūras prasības](system-requirements-on-prem.md#minimum-infrastructure-requirements)
 
 > [!IMPORTANT]
-> Lokālie Microsoft Dynamics 365 for Finance and Operations Enterprise Edition izvietojumi netiek atbalstīti nevienā publiskā mākoņa infrastruktūrā, tostarp Azure. 
+> Lokālie programmas Microsoft Dynamics 365 for Finance and Operations izvietojumi netiek atbalstīti nevienā publiskā mākoņa infrastruktūrā, tostarp Azure. 
 
 Papildinformāciju skatiet tēmā [Izvietošanas opcijas](../../dev-itpro/deployment/choose-deployment-type.md).
 
@@ -70,7 +70,7 @@ Lielapjoma licencēšanas ietvaros programma Finance and Operations ir pieejama,
 Microsoft mākoņrisinājumu nodrošinātājs var cieši sadarboties ar jums, lai saprastu jūsu uzņēmuma vai organizācijas vajadzības. [Izmantojiet portālu Microsoft partneru centrs, lai atrastu savām vajadzībām atbilstošu partneri](https://partnercenter.microsoft.com/en-us/partner/home). 
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Iegāde pie Dynamics partnera (lokālā versija)
-Lai iegādātos Finance and Operations lokālo versiju, jums ir jāsadarbojas ar partneri. Papildinformāciju skatiet rakstā [Dynamics 365 for Finance and Operations Enterprise izdevuma (lokālās versijas) iegāde](purchase-on-premises.md)
+Lai iegādātos Finance and Operations lokālo versiju, jums ir jāsadarbojas ar partneri. Papildinformāciju skatiet rakstā [Dynamics 365 for Finance and Operations (lokālās versijas) iegāde](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>Atbalsta opcijas izvēle
 Microsoft nodrošina elastīgu un nozarē vadošu atbalstu, pakalpojumus un resursus, kas lietotājiem ļauj ātri risināt tehniskas problēmas un gūt maksimālu peļņu no Dynamics 365 ieguldījuma. Izvēlieties plānu, kas vislabāk atbilst jūsu uzņēmuma vajadzībām. 

@@ -1,6 +1,6 @@
 ---
 title: "Programmā Sales ietverto kontaktpersonu tieša sinhronizēšana ar kontaktpersonām vai debitoriem programmā Finance and Operations"
-description: "Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Sales ietverto kontaktpersonu (Kontaktpersonas) un kontaktpersonu (Debitori) elementu sinhronizēšanai ar programmu Microsoft Dynamics 365 for Finance and Operations Enterprise Edition."
+description: "Šajā tēmā aplūkotas veidnes un pamata uzdevumi, kas tiek izmantoti elementa Kontaktpersona (kontaktpersonas) un Kontaktpersona (debitori) sinhronizēšanai no programmas Microsoft Dynamics 365 for Sales ar programmu Microsoft Dynamics 365 for Finance and Operations."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2017
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
-ms.openlocfilehash: 6269b73dfca46d455784046199463d3f86e653ae
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 021a43c78cec83b23aff5dcc40db1a4be81aefc3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 03/13/2018
 > [!NOTE]
 > Lai varētu lietot risinājumu No potenciāla klienta līdz skaidrai naudai, vispirms iepazīstiet līdzekli [Dynamics 365 datu integrācija](/common-data-service/entity-reference/dynamics-365-integration).
 
-Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Sales ietverto kontaktpersonu (Kontaktpersonas) un kontaktpersonu (Debitori) elementu tiešai sinhronizēšanai ar programmu Microsoft Dynamics 365 for Finance and Operations Enterprise Edition.
+Šajā tēmā aplūkotas veidnes un pamata uzdevumi, kas tiek izmantoti elementa Kontaktpersona (kontaktpersonas) un Kontaktpersona (debitori) sinhronizēšanai tieši no programmas Microsoft Dynamics 365 for Sales ar programmu Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Datu plūsma risinājumā No potenciālā klienta līdz skaidrai naudai
 

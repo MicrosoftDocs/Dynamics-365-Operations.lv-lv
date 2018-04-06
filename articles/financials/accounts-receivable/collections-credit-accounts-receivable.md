@@ -1,6 +1,6 @@
 ---
 title: "Debitoru parādu kredīts un iekasēšana"
-description: "Debitoru parādu iekasēšanas informācija tiek centralizēti pārvaldīta vienā skatā, izmantojot Microsoft Dynamics 365 for Finance and Operations izdevuma Enterprise lapu Iekasēšana. Kreditēšanas un iekasēšanas transakciju vadītāji šo centrālo skatu var izmantot, lai pārvaldītu iekasēšanas transakcijas. Iekasēšanas aģenti var uzsākt iekasēšanas procesu, izmantojot debitoru sarakstus, kas tiek ģenerēti, izmantojot iepriekš definētus iekasēšanas kritērijus, vai lapu Debitori."
+description: "Debitoru parādu iekasēšanas informācija tiek pārvaldīta vienā centrālajā skatā, izmantojot programmas Microsoft Dynamics 365 for Finance and Operations lapu Iekasēšana. Kredīta un iekasēšanas vadītāji šo centrālo skatu var izmantot, lai pārvaldītu iekasēšanu. Iekasēšanas aģenti var uzsākt iekasēšanas procesu, izmantojot debitoru sarakstus, kas tiek ģenerēti, izmantojot iepriekš definētus iekasēšanas kritērijus, vai lapu Debitori."
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a071d3151fbcc9e29bd138b096b34b88bc405a4f
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 23fc1a160cf25255a1677ca0e501c374746b6e34
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 

@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6a03274da9b81bf71b32a62f4ebba2a374688ae5
-ms.openlocfilehash: 8b6c14d41cac13e7c1fb5a580759514d46d776ee
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b999fd3c26304b81f24389a83faf73e1658c39b3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -89,7 +89,7 @@ Finanšu slēgšanas veidni varat izmantot, lai definētu visus uzdevumus, kas i
 
 Veidnē uzdevumu var piešķirt vienam vai vairākiem uzņēmumiem, uz kuriem šis uzdevums attiecas. Ja katrā uzņēmumā šī darba izpildei tiek piešķirta cita persona, var būt noderīgi vienam darbam izveidot vairākus uzdevumus. Izveidojiet vienu uzdevumu katram uzņēmumam. 
 
-Izvēlnes vienums **Uzdevuma saite** ir saistīts ar uzdevuma darbu, un to var izmantot, lai no uzdevuma saites darbvietā pārietu tieši uz saistīto lapu. Piemēram, slēgšanas uzdevumu, ko paredzēts izpildīt valūtas pārvērtēšanas procesam kreditoriem, var saistīt ar attiecīgo lapu **Ārvalstu valūtas pārvērtēšana** sistēmā Microsoft Dynamics 365 for Finance and Operations, izdevumā Enterprise. Varat arī saistīt ar ārējo vietrādi URL. 
+Izvēlnes vienums **Uzdevuma saite** ir saistīts ar uzdevuma darbu, un to var izmantot, lai no uzdevuma saites darbvietā pārietu tieši uz saistīto lapu. Piemēram, lai palaistu valūtas pārvērtēšanas procesu kreditoriem, slēgšanas uzdevumu var saistīt ar attiecīgo lapu **Ārvalstu valūtas pārvērtēšana** programmā Microsoft Dynamics 365 for Finance and Operations. Varat arī saistīt ar ārējo vietrādi URL. 
 
 > [!TIP]
 > Lai finanšu perioda slēgšanas uzdevumam piesaistītu noteiktu pārvaldības pārskata sastādītāja pārskatu, varat izmantot pārskata URL. Lai piekļūtu pārskata vietrādim URL, pārskatu veidotājā atveriet šo pārskatu un pēc tam noklikšķiniet uz **Fails** &gt; **Skatīt pārskatu**, lai pārskatu atvērtu tīmekļa pārlūkprogrammā. Pēc tam varat kopēt URL no pārlūkprogrammas adreses joslas un ielīmēt to laukā **Uzdevuma saites** **URL**. 

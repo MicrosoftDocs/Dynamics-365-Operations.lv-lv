@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d24679a380ec824fe08c56aacb4bc348ff40440a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3d9c2192bac8477e9c9376aab3e3b561da777569
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="upload-a-configuration-into-lifecycle-services-for-electronic-reporting-er"></a>Augšupielādēt konfigurācijas informāciju no Lifecycle Services elektronisko pārskatu veidošanai (ER)
@@ -92,6 +92,6 @@ Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elek
 10. Noklikšķiniet uz Atvērt.
     * Atlasiet LCS repozitoriju un atveriet to.  
     * Ņemiet vērā, ka atlasītā konfigurācija tiek rādīta kā atlasītā LCS projekta līdzeklis.  
-    * Atveriet LCS, izmantojot vietni https://lcs.dynamics.com. Atveriet projektu, kas iepriekš tika izmantots repozitorija reģistrēšanai, atveriet šī projekta sadaļu “Līdzekļu bibliotēka” un izvērst līdzekļa tipa “GER konfigurācija” saturu —būs pieejama augšupielādētā ER konfigurācija. Ņemiet vērā, ka augšupielādēto LCS konfigurāciju var importēt citā Microsoft Dynamics 365 for Finance and Operations Enterprise edition instancē, ja nodrošinātājiem ir piekļuve šim LCS projektam.  
+    * Atveriet LCS, izmantojot vietni https://lcs.dynamics.com. Atveriet iepriekš repozitorija reģistrēšanai izmantoto projektu, atveriet šī projekta sadaļu “Līdzekļu bibliotēka” un izvērsiet līdzekļa tipa “GER konfigurācija” saturu; šeit ir pieejama augšupielādētā ER konfigurācija. Ņemiet vērā, ka augšupielādēto LCS konfigurāciju var importēt citā programmas Microsoft Dynamics 365 for Finance and Operations instancē, ja nodrošinātājiem ir piekļuve šim LCS projektam.  
 
 

@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4dbcfd31030db8e40f89f86a76cdc666ac433749
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2d31a5dfd16a4404e19c6c9693dacecff6f2f064
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 
 Šajā tēmā ir sniegta informācija par projekta resursu sadalījumu.
 
-Viens no izaicinājumiem, ar ko projektu vadītāji un resursu pārvaldnieki saskaras projekta plānošanas posma laikā, ir resursu sadalījums, kura ietvaros viņiem ir jānosaka un jārezervē darbam projektā vajadzīgais resurss. Programmatūrā Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition projektu resursu sadalījuma iespējas jums ļauj definēt lomas, kas tiek uzskatītas par pagaidu resursiem, kurus var rezervēt noteiktai piesaistei vai piesaistes daļai. Šāds resursu sadalījuma veids ļauj projektu vadītājiem un resursu pārvaldniekiem veikt šādus uzdevumus:
+Viens no izaicinājumiem, ar ko projektu vadītāji un resursu pārvaldnieki saskaras projekta plānošanas posma laikā, ir resursu sadalījums, kura ietvaros viņiem ir jānosaka un jārezervē darbam projektā vajadzīgais resurss. Programmatūrā Microsoft Dynamics 365 for Finance and Operations projektu resursu sadalījuma iespējas sniedz iespēju definēt lomas, kas tiek uzskatītas kā pagaidu resursi, kurus var rezervēt noteiktai iesaistei vai iesaistes daļai. Šāds resursu sadalījuma veids ļauj projektu vadītājiem un resursu pārvaldniekiem veikt šādus uzdevumus:
 
 - Definēt lomu, kurai ir nepieciešamās kompetences, lai varētu vienkārši noteikt resursu atbilstību.
 - Izmantot lomas, lai definētu sākotnējo iesaistes grafiku, pamatojoties uz rezervētajiem resursiem.

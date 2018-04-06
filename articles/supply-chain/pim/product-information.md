@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: ef108fb7be65b91c531db750018f00f7fdd67da1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 72dbc5d383352d4d6444d07495fdef00137b1c7f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -58,7 +58,7 @@ Preces galvenokārt nosaka pēc preces numura, nosaukuma un apraksta. Lai apraks
 
 ## <a name="distribution-export-and-import-of-product-data"></a>Preces datu izplatīšana, imports un eksports
 
-Preces definīciju var izveidot programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise. Tas var arī importēt no šādām sistēmām: preces dzīves cikla pārvaldība (PLM), preču datu pārvaldība (PDM) vai preces informācijas pārvaldība (PIM). Ja tiek izmantotas vairākas Finance and Operations instances, viena instance parasti tiek izmantota kā visu pārējo instanču preču datu šablons. Šo pieeju atbalsta liela datu elementu kopa, kas ļauj eksportēt un importēt preču definīcijas datus no vienas instances uz citu.
+Preces definīciju var izveidot programmatūrā Microsoft Dynamics 365 for Finance and Operations. Tas var arī importēt no šādām sistēmām: preces dzīves cikla pārvaldība (PLM), preču datu pārvaldība (PDM) vai preces informācijas pārvaldība (PIM). Ja tiek izmantotas vairākas Finance and Operations instances, viena instance parasti tiek izmantota kā visu pārējo instanču preču datu šablons. Šo pieeju atbalsta liela datu elementu kopa, kas ļauj eksportēt un importēt preču definīcijas datus no vienas instances uz citu.
 
 Lai atbalstītu preces datu izplatīšanu vairākās instancēs, Finance and Operations ļauj izmantot pakalpojumu Common Data Service. Preču definīcijas var eksportēt no Finance and Operations instances pakalpojumā Common Data Service. Preču definīcijas pēc tam var izmantot, lai nodrošinātu citas biznesa programmas, piemēram, Microsoft Dynamics 365 for Sales, ar preces datiem.
 

@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: b0a1dba5afbd7beba45149340f637223f6ecedcf
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 631fa7bae808856efb8b95700fd2a85e6d5f8725
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="design-expressions-to-call-application-class-methods-er"></a>Izteiksmju noformēšana programmas klases metožu izsaukšanai (ER)
@@ -28,13 +28,13 @@ ms.lasthandoff: 02/07/2018
 
 Šajos norādījumos sniegta informācija par to, kā atkārtoti izmantot esošo programmas loģiku elektronisko pārskatu veidošanas (ER) konfigurācijās, izsaucot nepieciešamās programmas klašu metodes ER izteiksmēs. Izsaukšanas klašu argumentu vērtības var definēt dinamiski izpildlaikā: piemēram, pamatojoties uz informāciju parsēšanas dokumentā, lai nodrošinātu tās pareizību. Šajā rokasgrāmatā jūs izveidosiet nepieciešamās ER konfigurācijas parauga uzņēmumam “Litware, Inc.”. Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma. 
 
-Šīs darbības var veikt, izmantojot jebkuru datu kopu. Ir arī jālejupielādē un lokāli jāsaglabā šāds fails: (https://go.microsoft.com/fwlink/?linkid=862266): SampleIncomingMessage.txt.
+Šīs darbības var veikt, izmantojot jebkuru datu kopu. Ir jāveic arī tālāk norādītā faila lokāla lejupielāde un saglabāšana: (https://go.microsoft.com/fwlink/?linkid=862266): SampleIncomingMessage.txt.
 
 Lai izpildītu tālāk norādītās darbības, vispirms ir jāizpilda darbības, kas aprakstītas procedūrā “ER Konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu”.
 
 1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.
     * Pārliecinieties, ka konfigurācijas nodrošinātājs parauga uzņēmumam “Litware, Inc.” ir pieejams un ir atzīmēts kā aktīvs. Ja neredzat šo konfigurācijas nodrošinātāju, jums vispirms ir jāizpilda darbības, kas aprakstītas procedūrā “Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu”.   
-    * Pieņemsim, ka veidojat procesu ienākošo bankas izrakstu parsēšanai pieteikumu datu atjaunināšanai. Jūs saņemsit ienākošos bankas izrakstus kā TXT failus, kas satur IBAN kodus. Bankas izrakstu importēšanas procesa ietvaros ir nepieciešams pārbaudīt šos IBAN kodus, izmantojot loģiku, kas jau ir pieejama programmā Dynamics 365 for Finance and Operations, Enterprise edition.   
+    * Pieņemsim, ka veidojat procesu ienākošo bankas izrakstu parsēšanai pieteikumu datu atjaunināšanai. Jūs saņemsit ienākošos bankas izrakstus kā TXT failus, kas satur IBAN kodus. Bankas izrakstu importēšanas procesa ietvaros ir jāpārbauda šos IBAN kodus, izmantojot loģiku, kas jau ir pieejama programmā Dynamics 365 for Finance and Operations.   
 
 ## <a name="import-a-new-er-model-configuration"></a>Importēt jaunu ER modeļa konfigurāciju
 1. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.

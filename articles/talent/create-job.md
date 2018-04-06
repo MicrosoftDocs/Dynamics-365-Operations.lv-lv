@@ -19,10 +19,10 @@ ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 962b3084c5340813d1697cab680621350510d4b9
+ms.sourcegitcommit: 812db9f1d319e4d16f83700a7153a0a3b318963e
+ms.openlocfilehash: aaa8bdedc31ee03e96a0f7a5e78f25f888913e71
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/23/2018
 
 ---
 
@@ -91,6 +91,6 @@ Darba uzdevumi tiek uzturēti lapā **Darba uzdevumi**. Lapā **Darba uzdevumi**
 ## <a name="areas-of-responsibility"></a>Atbildības jomas
 Atbildības jomas ir jāizmanto, lai norādītu darba lomas, procesus un preces, par ko ir atbildīgs darbinieks, kurš ieņem šo amatu. Piemēram, darbam ar nosaukumu “Grāmatvedis” viena atbildības joma varētu būt “Finanšu pārskatu izveide par preci A”. Atbildības jomas ir jāuztur, izmantojot lapu **Atbildības jomas**, kuru varat atrast, izmantojot funkciju Meklēt. Lapā **Atbildības jomas** ievadiet atbildības nosaukumu un aprakstu. Laukā **Piezīme** varat pievienot papildinformāciju, ja vēlaties. Konkrētam darbam piezīmes var atjaunināt, nemainot šeit ievadītās piezīmes.
 
-
-
+## <a name="steps-for-creating-a-job"></a>Norādījumi par darba izveidi
+Sīku jaunas darba izveides procedūras aprakstu skatiet tēmā [Jaunu darbu definēšana](../fin-and-ops/hr/tasks/define-new-jobs.md). 
 

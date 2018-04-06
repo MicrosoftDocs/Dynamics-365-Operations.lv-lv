@@ -1,6 +1,6 @@
 --- 
 title: "Izveidot nepieciešamās konfigurācijas datu importēšanai no ārējā faila elektronisko pārskatu veidošanai (ER)"
-description: "Šajā rakstā skaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var noformēt elektronisko pārskatu veidošanas (Electronic reporting — ER) konfigurācijas, lai importētu datus Dynamics 365 for Finance and Operations Enterprise edition no ārēja faila."
+description: "Nākamajās darbībās ir izskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var noformēt elektronisko pārskatu veidošanas (Electronic reporting — ER) konfigurācijas, lai importētu datus programmā Dynamics 365 for Finance and Operations no ārēja faila."
 author: NickSelin
 manager: AnnBe
 ms.date: 02/22/2017
@@ -16,26 +16,26 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c0d9636fe8a8d5230859da8fe557fe11a9513ba0
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 999c6da306ff713521ce3bb5750bd7e65dc5daaf
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="create-required-configurations-to-import-data-from-an-external-file-for-electronic-reporting-er"></a>Izveidot nepieciešamās konfigurācijas datu importēšanai no ārējā faila elektronisko pārskatu veidošanai (ER)
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā rakstā skaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var noformēt elektronisko pārskatu veidošanas (Electronic reporting — ER) konfigurācijas, lai importētu datus Dynamics 365 for Finance and Operations Enterprise edition no ārēja faila. Šajā piemērā jūs izveidosiet nepieciešamās ER konfigurācijas konfigurācijas parauga uzņēmumam Litware, Inc. Lai izpildītu šīs darbības, vispirms ir jāizpilda uzdevuma ceļvedī “ER Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu” aprakstītās darbības. Šīs darbības var veikt, izmantojot USMF datu kopu. Ir nepieciešams arī lejupielādēt un lokāli saglabāt tālāk norādītos failus no tēmas Elektronisko atskaišu veidošanas pārskats (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
+Nākamajās darbībās ir izskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var noformēt elektronisko pārskatu veidošanas (Electronic reporting — ER) konfigurācijas, lai importētu datus programmā Dynamics 365 for Finance and Operations no ārēja faila. Šajā piemērā jūs izveidosiet nepieciešamās ER konfigurācijas konfigurācijas parauga uzņēmumam Litware, Inc. Lai izpildītu šīs darbības, vispirms ir jāizpilda uzdevuma ceļvedī “ER Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu” aprakstītās darbības. Šīs darbības var veikt, izmantojot USMF datu kopu. Ir nepieciešams arī lejupielādēt un lokāli saglabāt failus, kuri norādīti tālāk tēmā Elektronisko atskaišu veidošanas pārskats (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
 
-    * ER biznesa lietotājiem sniedz iespēju konfigurēt procesu, kādā ārējo datu faili tiek importēti Dynamics 365 for Finance and Operations Enterprise edition tabulās .XML vai .TXT formātā. Vispirms ir jāizveido abstrakts datu modelis un ER datu modeļa konfigurācija, kas pārstāv importējamos datus. Pēc tam ir jādefinē importējamā faila struktūra un metode, ko izmantosiet, lai datus no faila pārnestu uz abstrakto datu modeli. Abstraktajam datu modelim ir jāizveido ER formāta konfigurācija, kas kartē uz izveidoto datu modeli. Pēc tam datu modeļa konfigurācija ir jāpaplašina ar kartējumu, kas apraksta veidu, kādā importētie dati tiek saglabāti kā abstrakta datu modeļa dati un kā tie tiek lietoti, lai atjauninātu tabulas sistēmā Dynamics 365 for Finance and Operations Enterprise edition.  ER datu modeļa konfigurācijai ir jāpievieno jauns modeļa kartējums, kas apraksta datu modeļa saistījumu ar programmas galamērķiem.  
-    * Nākamajā scenārijā ir parādītas ER datu importēšanas iespējas. Tas ietver kreditoru transakcijas, kas tiek izsekotas ārēji un pēc tam importētas Dynamics 365 for Finance and Operations Enterprise edition, lai vēlāk tās iekļautu kreditora nodokļa 1099 nosegšanas pārskatos.   
+    * ER biznesa lietotājiem sniedz iespēju konfigurēt procesu, kādā ārējo datu faili tiek importēti programmas Dynamics 365 for Finance and Operations tabulās .XML vai .TXT formātā. Vispirms ir jāizveido abstrakts datu modelis un ER datu modeļa konfigurācija, kas pārstāv importējamos datus. Pēc tam ir jādefinē importējamā faila struktūra un metode, ko izmantosiet, lai datus no faila pārnestu uz abstrakto datu modeli. Abstraktajam datu modelim ir jāizveido ER formāta konfigurācija, kas kartē uz izveidoto datu modeli. Pēc tam datu modeļa konfigurācija ir jāpaplašina ar kartējumu, kas apraksta veidu, kādā importētie dati tiek saglabāti abstrakta datu modeļa datu veidā un kā tie tiek lietoti, lai atjauninātu tabulas programmā Dynamics 365 for Finance and Operations.  ER datu modeļa konfigurācijai ir jāpievieno jauns modeļa kartējums, kas apraksta datu modeļa saistījumu ar programmas galamērķiem.  
+    * Nākamajā scenārijā ir parādītas ER datu importēšanas iespējas. Tas ietver kreditoru transakcijas, kas tiek izsekotas ārēji un pēc tam importētas programmā Dynamics 365 for Finance and Operations, lai vēlāk tās iekļautu kreditora nodokļa 1099 nosegšanas pārskatos.   
 
 ## <a name="add-a-new-er-model-configuration"></a>Pievienot jaunu ER modeļa konfigurāciju
 1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.
     * Pārliecinieties, vai konfigurācijas nodrošinātājs parauga uzņēmumam Litware, Inc. ir pieejams un atzīmēts kā aktīvs. Ja neredzat šo konfigurācijas nodrošinātāju, jums vispirms ir jāizpilda darbības, kas aprakstītas procedūrā “Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu”.   
 2. Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.
-    * Tā vietā, lai veidotu jaunu modeli, kas atbalsta datu importēšanu, varat ielādēt iepriekš lejupielādēto failu 1099model.xml. Šajā failā ir kreditoru transakciju pielāgotais datu modelis. Šis datu modelis ir kartēts uz Dynamics 365 for Finance and Operations Enterprise edition datu komponentiem, kas atrodas AOT datu elementā.   
+    * Tā vietā, lai veidotu jaunu modeli, kas atbalsta datu importēšanu, varat ielādēt iepriekš lejupielādēto failu 1099model.xml. Šajā failā ir kreditoru transakciju pielāgotais datu modelis. Šis datu modelis tiek kartēts programmas Dynamics 365 for Finance and Operations datu komponentos, kas atrodas AOT datu elementā.   
 3. Noklikšķiniet uz Mainīt.
 4. Noklikšķiniet uz Ielādēt no XML faila.
     * Noklikšķiniet uz Pārlūkot un dodieties uz iepriekš lejupielādēto failu 1099model.xml.  
@@ -44,7 +44,7 @@ ms.lasthandoff: 09/29/2017
 
 ## <a name="review-data-model-settings"></a>Pārskatīt datu modeļa iestatījumus
 1. Noklikšķiniet uz Veidotājs.
-    * Šis modelis ir izveidots, lai pārstāvētu kreditora transakcijas no biznesa skatu punkta, un tas neietilpst Dynamics 365 for Finance and Operations Enterprise edition implementācijā.   
+    * Šis modelis ir izveidots, lai parādītu kreditora transakcijas no biznesa skatu punkta, un tas nav iekļauts ieviešanai programmā Dynamics 365 for Finance and Operations.   
 2. Kokā struktūrā izvērsiet zaru “1099-MISC”.
 3. Koka struktūrā atlasiet zaru “1099-MISC\Transakcijas”.
 4. Koka struktūrā izvērsiet zaru “1099-MISC\Transakcijas”.
@@ -106,7 +106,7 @@ ms.lasthandoff: 09/29/2017
 1. Koka struktūrā atlasiet zaru “1099 Maksājumu modelis”.
 2. Noklikšķiniet uz Veidotājs.
 3. Noklikšķiniet uz Kartēšanas modelis datu avotam.
-    * Kartējums 1099 manuālai transakciju importēšanai ir definēts ar virziena tipu Uz galamērķi. Tas nozīmē, ka tas ir ievadīts, lai atbalstītu datu importēšanu, un ietver kārtulu iestatījumu, kas definē, kā tiek importētais ārējais fails, un pastāv kā abstrakta datu modeļa dati, kas tiek lietoti, lai atjauninātu tabulas sistēmā Dynamics 365 for Finance and Operations Enterprise edition.  
+    * Kartējums 1099 manuālai transakciju importēšanai ir definēts ar virziena tipu Uz galamērķi. Tas nozīmē, ka tas ir ievadīts, lai atbalstītu datu importēšanu, un tas ietver kārtulu iestatīšanu, kas definē, kā importētais ārējais fails un dati, kuri pastāv kā abstrakta modeļa dati, tiek izmantoti, lai atjauninātu tabulas programmā Dynamics 365 for Finance and Operations.  
 4. Noklikšķiniet uz Veidotājs.
 5. Koka struktūrā izvērsiet zaru “modelis: Datu modelis 1099 Maksājumu modelis“.
 6. Koka struktūrā izvērsiet zaru “modelis: Datu modelis 1099 Maksājumu modelis\Transakcijas: Ierakstu saraksts”.
@@ -120,7 +120,7 @@ ms.lasthandoff: 09/29/2017
 12. Koka struktūrā atlasiet zaru “tax1099trans: Tabula 'VendSettlementTax1099' ieraksti = model.Validated”.
 13. Noklikšķiniet uz Rediģēt mērķi.
     * Šis ER galamērķis tika pievienots, lai norādītu, kā importētie dati atjauninās programmas tabulas. Šajā gadījumā ir atlasīta datu tabula VendSettlementTax1099. Tā kā ir atlasīta ieraksta darbība Ievietot, tad importētas transakcijas tiks ievietotas tabulā VendSettlementTax1099. Ņemiet vērā, ka vienā modeļa kartējumā var būt vairāki galamērķi. Tas nozīmē, ka importētie dati var tikt lietoti, lai atjauninātu vairākas programmas tabulas vienlaicīgi. Kā ER galamērķus var lietot tabulas, skatus un datu elementus.   
-    * Ja kartējums tiks izsaukts no kāda punkta sistēmā Dynamics 365 for Finance and Operations Enterprise edition (piemēram, no pogas vai izvēlnes vienuma), kurš ir īpaši veidots šādai darbībai, tad ER galamērķis ir jāatzīmē kā integrācijas punkts. Šajā piemērā tas ir punkts ERTableDestination#VendSettlementTax1099.  
+    * Ja kartējumu ir paredzēts izsaukt no šai darbībai īpaši izveidota punkta programmā Dynamics 365 for Finance and Operations (piemēram, izmantojot pogu vai izvēlnes vienumu), tad ER galamērķis ir jāatzīmē kā integrācijas punkts. Šajā piemērā tas ir punkts ERTableDestination#VendSettlementTax1099.  
 14. Noklikšķiniet uz Atcelt.
 15. Noklikšķiniet uz Rādīt visus.
 16. Noklikšķiniet uz Rādīt tikai kartētos.
@@ -176,15 +176,15 @@ ms.lasthandoff: 09/29/2017
 18. Aizvērt lapu.
 19. Aizvērt lapu.
 20. Noklikšķiniet uz Rediģēt.
-    * Ja instalējāt labojumfailu “KB 4012871 GER modeļu kartējumu atbalsts atdalītās konfigurācijās ar iespēju norādīt atšķirīgus priekšnosacījumus to izvietošanai dažādās Dynamics 365 for Finance and Operations Enterprise edition versijās” (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), tad ievadītajai formāta konfigurācijai izpildiet nākamo darbību “Ieslēgt karodziņu “Noklusējums modeļu kartēšanai””. Pretējā gadījumā izlaidiet nākamo darbību.  
+    * Ja ir instalēts labojumfails “KB 4012871 GER modeļu kartējumu atbalsts atdalītās konfigurācijās ar iespēju norādīt atšķirīgus priekšnosacījumu veidus to izvietošanai dažādās programmas Dynamics 365 for Finance and Operations versijās” ” (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), izpildiet ievadītajai formāta konfigurācijai nākamo darbību “Ieslēgt karodziņu “Noklusējums modeļu kartēšanai””. Pretējā gadījumā izlaidiet nākamo darbību.  
 21. Modeļa kartējuma noklusējums atlasiet vērtību Jā.
 22. Koka struktūrā atlasiet zaru “1099 Maksājumu modelis”.
 23. Noklikšķiniet uz Veidotājs.
 24. Noklikšķiniet uz Kartēšanas modelis datu avotam.
 25. Noklikšķiniet uz Palaist.
-    * Ja instalējāt labojumfailu “KB 4012871 GER modeļu kartējumu atbalsts atdalītās konfigurācijās ar iespēju norādīt atšķirīgus priekšnosacījumus to izvietošanai dažādās Dynamics 365 for Finance and Operations Enterprise edition versijās” (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), tad atlasiet ieteicamo modeļu kartējumu uzmeklēšanas laukā. Ja labojumfails vēl nav instalēts, pārejiet uz nākamo darbību, jo kartējums jau ir atlasīts ar noklusējuma formāta konfigurācijas definīciju.  
+    * Ja ir instalēts labojumfails “KB 4012871 GER modeļu kartējumu atbalsts atdalītās konfigurācijās ar iespēju norādīt atšķirīgus priekšnosacījumus to izvietošanai dažādās programmas Dynamics 365 for Finance and Operations versijās” (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), atlasiet ieteicamo modeļu kartējumu uzmeklēšanas laukā. Ja labojumfails vēl nav instalēts, pārejiet uz nākamo darbību, jo kartējums jau ir atlasīts ar noklusējuma formāta konfigurācijas definīciju.  
     * Ja labojumfails KB 4012871 nav instalēts, tad ņemiet vēra, ka dialoglodziņā ir iekļauts papildu modeļu kartējuma jautājums, kurš tiek izmantots, lai parsētu importējamo failu. Pēc tam dati tiek pārnesti no dialoglodziņa uz datu modeli. Pašlaik varat izvēlēties, kurš formāta kartējums ir jāizmanto atkarībā no importējamā faila tipa.  
-    * Ja šo modeļu kartējumu plānojat izsaukt no kāda punkta sistēmā Dynamics 365 for Finance and Operations Enterprise edition, kurš ir īpaši izveidots šai darbībai, tad ER galamērķis un formātu kartējums ir jāatzīmē kā daļa no integrācijas.  
+    * Ja šo modeļu kartējumu plānojat izsaukt no īpaši šai darbībai izveidota punkta programmā Dynamics 365 for Finance and Operations, tad ER galamērķis un formātu kartējums ir jāatzīmē kā daļa no integrācijas.  
 26. Noklikšķiniet uz Atcelt.
 27. Aizvērt lapu.
 28. Aizvērt lapu.
