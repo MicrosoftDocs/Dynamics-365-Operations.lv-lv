@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0069246a60f1db6297df45fa57cd52d90cdb4ab5
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 89a13ad5a1d3cb7f93a469d33530ec99b39160da
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 Transakciju segšanas veids un laiks var būt sarežģītas tēmas, tāpēc jums ir svarīgi saprast un pareizi definēt parametrus, lai tie atbilstu jūsu biznesa prasībām. Šajā rakstā ir aprakstīti parametri, kas tiek izmantoti segšanai gan modulim Parādi kreditoriem, gan modulim Debitoru parādi. 
 
-Tālāk norādītie parametri ietekmē to, kā programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise tiek apstrādātas segšanas. Segšana ir rēķina nosegšanas process saistībā ar maksājumu vai kredīta notu. Šie parametri atrodas lapas **Debitoru moduļa parametri** un **Kreditoru moduļa parametri** apgabalā **Segšana**.
+Tālāk norādītie parametri ietekmē to, kā programmā Microsoft Dynamics 365 for Finance and Operations tiek apstrādāta darbību segšana. Segšana ir rēķina nosegšanas process saistībā ar maksājumu vai kredīta notu. Šie parametri atrodas lapas **Debitoru moduļa parametri** un **Kreditoru moduļa parametri** apgabalā **Segšana**.
 
 -   **Automātiska segšana** — iestatiet šai opcijai **Jā**, ja transakcija ir jāsedz automātiski attiecībā pret citām atvērtajām transakcijām, kad tā tiek grāmatota. Ja šai opcijai tiek iestatīts **Nē**, lietotāji var manuāli nosegt transakcijas, kad tie ievada maksājumus, vai arī vēlāk, izmantojot lapu **Transakciju nosegšana**.
 -   **Termiņatlaižu administrēšana** — norādiet, kā [termiņatlaide tiek apstrādāta, ja rēķins ir pārmaksāts](cash-discount-handling-overpayments.md). Pārmaksas gadījumā termiņatlaidi var samazināt, to var apstrādāt kā starpību vai atstāt kreditora vai debitora kontā.

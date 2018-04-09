@@ -1,6 +1,6 @@
 ---
 title: "Viens dokumenta ar vairākiem debitora vai kreditora ierakstiem"
-description: "Šajā tēmā ir sniegts pārskats par to, kas notiek, grāmatojot vienu dokumentu ar vairākiem debitora vai kreditora ierakstiem. Šī funkcionalitāte tiks pārtraukta Microsoft Dynamics 365 for Finance and Operations izdevuma Enterprise turpmākajās versijās, kā rezultātā, nav ieteicams izmantot šo grāmatošanas metodi sakarā ar uzskaites ietekmi uz norēķinu apstrādi."
+description: "Šajā tēmā ir sniegts pārskats par to, kas notiek, grāmatojot vienu dokumentu ar vairākiem debitora vai kreditora ierakstiem. Šī funkcionalitāte nebūs pieejama turpmākajās Microsoft Dynamics 365 for Finence and Operations versijās, tāpēc nav ieteicams izmantot šo grāmatošanas metodi, jo uzskaite ietekmē norēķinu apstrādi."
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
@@ -18,10 +18,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b5ba160d42a808c0243a0bb589190a65ea23eba3
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 4c499e31fb42a69dff6ac41faac0c78f7f4d1876
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā tēmā ir sniegts pārskats par to, kas notiek, grāmatojot vienu dokumentu ar vairākiem debitora vai kreditora ierakstiem. Šī funkcionalitāte tiks pārtraukta Microsoft Dynamics 365 for Finance and Operations izdevuma Enterprise turpmākajās versijās, kā rezultātā, nav ieteicams izmantot šo grāmatošanas metodi sakarā ar uzskaites ietekmi uz norēķinu apstrādi. 
+Šajā tēmā ir sniegts pārskats par to, kas notiek, grāmatojot vienu dokumentu ar vairākiem debitora vai kreditora ierakstiem. Šī funkcionalitāte nebūs pieejama turpmākajās Microsoft Dynamics 365 for Finence and Operations versijās, tāpēc nav ieteicams izmantot šo grāmatošanas metodi, jo uzskaite ietekmē norēķinu apstrādi. 
 
 Daži visbiežāk sastopamie piemēri, kur viens dokuments tiek izmantots vairākiem debitoriem vai kreditoriem, ir bilances pārskaitījumi starp debitoriem, un tīkla bilances starp debitoriem un kreditoriem tajā pašā organizācijā. 
 

@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 24a17d3734e39815684098f694a77e96cdbc1cfe
-ms.openlocfilehash: 2d879ee5a23e3263c9dce52f4732a2be74e60f8e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 76c2b078b583a1f8f2235eef15dbba514e57b0f8
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/07/2018
 
 [!include[banner](../includes/banner.md)]
 
-Modulis **Kreditoru sadarbība** ir paredzēts kreditoriem, kuri neizmanto elektroniskās datu apmaiņas (EDI) integrāciju ar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Tā ļauj kreditoriem strādāt ar pirkšanas pasūtījumiem (purchase order — PO), rēķiniem, sūtījuma krājumu informāciju un piedāvājumu pieprasījumiem (requests for quotation — RFQ), kā arī ļauj kreditoriem piekļūt daļām no saviem kreditora pamatdatiem. Šajā tēmā ir paskaidrots, kā jūs varat sadarboties ar ārējiem kreditoriem, kuri izmanto kreditoru sadarbības interfeisu, lai strādātu ar pirkšanas pasūtījumiem, piedāvājumu pieprasījumiem un sūtījumu krājumiem. Tajā ir arī paskaidrots, kā konkrētam kreditoram sniegt iespēju lietot kreditoru sadarbību un kā definēt informāciju, kuru redz visi kreditori, kad viņi atbild uz kādu pirkšanas pasūtījumu.
+Modulis **Kreditoru sadarbība** ir paredzēts kreditoriem, kuri neizmanto elektroniskās datu apmaiņas (electronic data interchange — EDI) integrāciju ar Microsoft Dynamics 365 for Finance and Operations. Tā ļauj kreditoriem strādāt ar pirkšanas pasūtījumiem (purchase order — PO), rēķiniem, sūtījuma krājumu informāciju un piedāvājumu pieprasījumiem (requests for quotation — RFQ), kā arī ļauj kreditoriem piekļūt daļām no saviem kreditora pamatdatiem. Šajā tēmā ir paskaidrots, kā jūs varat sadarboties ar ārējiem kreditoriem, kuri izmanto kreditoru sadarbības interfeisu, lai strādātu ar pirkšanas pasūtījumiem, piedāvājumu pieprasījumiem un sūtījumu krājumiem. Tajā ir arī paskaidrots, kā konkrētam kreditoram sniegt iespēju lietot kreditoru sadarbību un kā definēt informāciju, kuru redz visi kreditori, kad viņi atbild uz kādu pirkšanas pasūtījumu.
 
 Papildinformāciju par to, ko ārējie kreditori var darīt kreditoru sadarbības interfeisā, skatiet tēmā [Kreditoru sadarbība ar debitoriem](vendor-collaboration-work-customers-dynamics-365-operations.md).
 

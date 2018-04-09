@@ -1,6 +1,6 @@
 --- 
 title: "Piešķirt lietotājus drošības lomām"
-description: "Lai piekļūtu Microsoft Dynamics 365 for Finance and Operations Enterprise edition, lietotājiem jābūt piešķirtai drošības lomai."
+description: "Lai piekļūtu programmai Microsoft Dynamics 365 for Finance and Operations, lietotājiem jābūt piešķirtai drošības lomai."
 author: maertenm
 manager: AnnBe
 ms.date: 06/07/2016
@@ -16,17 +16,17 @@ ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 551048af26f46d334c562d1968963aed262a5e03
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: da96ec8357ea209fd958e32ab438b13e668735df
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
-# <a name="assign-users-to-security-roles"></a>Piešķirt lietotājus drošības lomām
+# <a name="assign-users-to-security-roles"></a>Drošības lomu piešķiršana lietotājiem
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Lai piekļūtu Microsoft Dynamics 365 for Finance and Operations Enterprise edition, lietotājiem jābūt piešķirtai drošības lomai. Šī procedūra skaidro kā sistēmas administratori var automātiski piešķirt lietotājiem lomas, pamatojoties uz biznesa datiem. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
+Lai piekļūtu programmai Microsoft Dynamics 365 for Finance and Operations, lietotājiem jābūt piešķirtai drošības lomai. Šī procedūra skaidro kā sistēmas administratori var automātiski piešķirt lietotājiem lomas, pamatojoties uz biznesa datiem. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 
 
 ## <a name="automatically-assign-users-to-roles"></a>Automātiski piešķirt lietotājus lomām

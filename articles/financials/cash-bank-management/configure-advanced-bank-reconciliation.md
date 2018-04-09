@@ -1,6 +1,6 @@
 ---
 title: "Detalizētas bankas darbību saskaņošanas iestatīšanas process"
-description: "Detalizētā bankas darbību saskaņošana sniedz jums iespēju importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise.  Šajā rakstā ir paskaidrota saskaņošanas procesu iestatīšana."
+description: "Detalizētā bankas darbību saskaņošana ļauj importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmā Microsoft Dynamics 365 for Finance and Operations.  Šajā rakstā ir paskaidrota saskaņošanas procesu iestatīšana."
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: aec219f545e880407b9a7d62b2dda4a607ac6bdd
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: f77a9c927232c95558ba78037f6a6e9f77e202c2
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Detalizētā bankas darbību saskaņošana sniedz jums iespēju importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise.  Šajā rakstā ir paskaidrota saskaņošanas procesu iestatīšana.  
+Detalizētā bankas darbību saskaņošana ļauj importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmā Microsoft Dynamics 365 for Finance and Operations.  Šajā rakstā ir paskaidrota saskaņošanas procesu iestatīšana.  
 
 Pirms detalizētās bankas darbību saskaņošanas funkcionalitātes lietošanas ir jāizpilda vairāki sagatavošanās darbi. Papildinformāciju par bankas izrakstu importa iestatīšanu skatiet rakstā [Iestatīt bankas izraksta importēšanas procesu](set-up-advanced-bank-reconciliation-import-process.md).  Tālāk ir aprakstītas prasības saskaņošanas procesa iestatīšanai.
 

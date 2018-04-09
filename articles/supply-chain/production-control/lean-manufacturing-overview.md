@@ -20,10 +20,10 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2964083ec6cb8792e3c67722c68b038939933cbc
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 99030966587a2784f61cecbfc7f9985f75f6d779
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir sniegts apskats un apraksts par Lean manufacturing līdzekļiem sistēmā Microsoft Dynamics 365 for Finance and Operations, izdevumā Enterprise.
+Šajā rakstā ir sniegts pārskats par Lean manufacturing līdzekļiem programmā Microsoft Dynamics 365 for Finance and Operations un to apraksts.
 
 Lean manufacturing sniedz rīkus, ko varat izmantot, lai modelētu racionālas operācijas. Šie rīki atbalsta un veicina tālāk norādītās koncepcijas un biznesa aktivitātes.
 -   Izveidojiet Lean manufacturing pamatu, ražošanas un loģistikas procesus modelējot kā ražošanas plūsmas.

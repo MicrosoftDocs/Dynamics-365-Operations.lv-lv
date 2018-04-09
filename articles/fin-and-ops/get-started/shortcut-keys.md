@@ -1,6 +1,6 @@
 ---
 title: "Īsinājumtaustiņi"
-description: "Programmā Dynamics 365 for Finance and Operations, Enterprise Edition tiek izmantoti tālāk norādītie īsinājumtaustiņi."
+description: "Tālāk norādītie īsinājumtaustiņi darbojas visā programmatūrā Dynamics 365 for Finance and Operations."
 author: jasongre
 manager: AnnBe
 ms.date: 12/12/2017
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 8bf0f44583d183d992547c773f2cf7a8ac1db5fc
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 12/14/2017
 [!include[banner](../includes/banner.md)]
 
 
-Programmā Dynamics 365 for Finance and Operations, Enterprise Edition tiek izmantoti tālāk norādītie īsinājumtaustiņi. 
+Tālāk norādītie īsinājumtaustiņi darbojas visā programmatūrā Dynamics 365 for Finance and Operations. 
 
 **Piezīme.** Šeit aprakstītie īsinājumtaustiņi attiecas uz ASV tastatūras izkārtojumu. Citos tastatūras izkārtojumos taustiņi var precīzi neatbilst taustiņiem ASV tastatūras izkārtojumā.
 
@@ -74,7 +74,7 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 | Atvērt papildinformācijas rūti (vai aktivizēt papildinformācijas rūti, ja tās jau ir atvērta) | Alt+M,B vai Ctrl+F2                        |
 | Aizvērt papildinformācijas rūti (kad papildinformācijas rūts ir aktivizēta)                         | Esc                                       |
 | Pāriet uz nākamo/iepriekšējo papildinformācijas rūti (kad papildinformācijas rūts ir aktivizēta)              | Alt+Shift+bultiņa uz leju/Alt+Shift+bultiņa uz augšu |
-| Pāriet uz papildinformācijas lodziņu Nr. &lt;n&gt; (kad ir aktivizēta papildinformācijas rūts)                | Alt+&lt;n&gt; (&lt;n&gt; = 1–9)           |
+| Pāriet uz papildinformācijas rūti Nr. &lt;n&gt; (kad papildinformācijas rūts ir aktivizēta)                | Alt+&lt;n&gt; (&lt;n&gt; = 1–9)           |
 | Izvērst papildinformācijas rūti (kad papildinformācijas rūts ir aktivizēta)                             | Atstarpes taustiņš vai Enter                            |
 | Sakļaut pašreizējo papildinformācijas rūti                                                    | Alt+0                                     |
 
@@ -115,11 +115,11 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 | **Lai izpildītu šo darbību**                                      | **Nospiediet**                                    |
 | Pāriet uz nākamo/iepriekšējo lauku                     | Tab/Shift+Tab                              |
 | Pāriet uz nākamo/iepriekšējo cilni                       | Alt+Shift+bultiņa pa labi/Alt+Shift+bultiņa pa kreisi |
-| Pāriet uz cilni Nr. &lt;n&gt;                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1–9)        |
+| Pāriet uz cilni Nr. &lt;n&gt;                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1–9)        |
 | Pāriet uz nākamo/iepriekšējo kopsavilkuma cilni                   | Alt+Shift+bultiņa uz leju/Alt+Shift+bultiņa uz augšu    |
-| Pāriet uz kopsavilkuma cilni Nr. &lt;n&gt;                     | Alt+&lt;n&gt; (&lt;n&gt; = 1–9)              |
+| Pāriet uz kopsavilkuma cilni Nr. &lt;n&gt;                     | Alt+&lt;n&gt; (&lt;n&gt; = 1–9)              |
 | Pāriet uz nākamo/iepriekšējo paneli (vertikālo cilni)      | Alt+Shift+bultiņa pa labi/Alt+Shift+bultiņa pa kreisi |
-| Pāriet uz &lt;n&gt;-to paneli (vertikālo cilni)        | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1–9)        |
+| Pāriet uz &lt;n&gt;-to paneli (vertikālo cilni)        | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1–9)        |
 | Izvērst kopsavilkuma cilni (kad kopsavilkuma cilne ir aktivizēta) | Atstarpes taustiņš vai Enter                               |
 | Sakļaut pašreizējo kopsavilkuma cilni                        | Alt+0                                        |
 | Aktivizēt režģa skatu                                 | Ctrl+Shift+G                                 |

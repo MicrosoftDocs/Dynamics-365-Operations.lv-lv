@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: db9e66a67f20ca24de3a020c1871cdda0cf2f9be
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: cfc68c1d0810cbc296b35c09176dde2c948a50d0
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="upgrade-your-format-by-adopting-of-new-base-version-of-that-format-for-electronic-reporting-er"></a>Jaunināt savu formātu, pieņemot šī formāta jaunu bāzes versiju elektronisko pārskatu veidošanai (ER)
@@ -107,7 +107,7 @@ Proseware, Inc. saņēma BACS (UK fiktīvs) konfigurācijas versiju 1.1, kurā i
     * Ņemiet vērā, ka izveidotā konfigurācija tiek saglabāta kā pabeigta versija 1.1.1. Tas nozīmē, ka tā ir 1. versija pielāgotajam formātam BAKS (UK fiktīvs pielāgots), kura ir balstīta uz formāta BAKS (UK fiktīvs) 1. versiju, kas ir balstīta uz datu modeļa Maksājumi (vienkāršots modelis) 1. versiju.  
 
 ## <a name="test-the-customized-format-to-generate-payment-files"></a>Pārbaudiet pielāgoto formātu, lai ģenerētu maksājuma failus
-Paralēlā Dynamics 365 for Finance and Operations Enterprise izdevuma sesijā izpildiet procedūrā “Lietot izveidoto formātu, lai ģenerētu elektroniskos dokumentus maksājumiem” norādītās darbības. Atlasiet BAKS (UK fiktīvs pielāgots) formātu elektronisko maksājumu metodes parametros. Pārliecinieties, ka izveidotais maksājuma fails satur nesen ieviesto XML mezglu ar IBAN kodu, saskaņā ar reģionālajām prasībām.  
+Paralēlā programmas Dynamics 365 for Finance and Operations sesijā izpildiet procedūrā “Lietot izveidoto formātu, lai ģenerētu elektroniskos dokumentus maksājumiem” norādītās darbības. Atlasiet BAKS (UK fiktīvs pielāgots) formātu elektronisko maksājumu metodes parametros. Pārliecinieties, ka izveidotais maksājuma fails satur nesen ieviesto XML mezglu ar IBAN kodu, saskaņā ar reģionālajām prasībām.  
 
 ## <a name="update-the-existing-country-specific-configuration"></a>Atjauniniet esošo valstij specifisko konfigurāciju
 Uzņēmumam Litware, Inc. jāveic BACS (UK fiktīvs) konfigurācijas jaunināšana un jāievieš jaunās valstij raksturīgās prasības attiecībā uz elektroniskā dokumenta formāta pārvaldību. Vēlāk, tas tiks ietverts jaunā šīs konfigurācijas versijā, kas tiks piedāvāta pakalpojuma abonentiem, ieskaitot Proseware, Inc.  
@@ -203,6 +203,6 @@ Proseware, Inc. tiek informēts, ka ir pieejama jauna BACS (UK fiktīvs) konfigu
     * Ņemiet vērā, ka izveidotās konfigurācija ir saglabāta kā pabeigta versija 1.2.2: bāzes BAKS (UK fiktīvs pielāgots) formāta versija 2, kas balstās uz bāzes BAKS (UK fiktīvs) formāta 2 versiju, kas balstās uz maksājumu (vienkāršots modelis) datu modeļa versiju 1.  
 
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>Pārbaudiet pielāgoto formātu, lai ģenerētu maksājuma failus
-Paralēlā Dynamics 365 for Finance and Operations Enterprise izdevuma sesijā izpildiet procedūrā “Lietot izveidoto formātu, lai ģenerētu elektroniskos dokumentus maksājumiem” norādītās darbības. Atlasiet izveidoto BAKS (UK fiktīvs pielāgots) formātu elektronisko maksājumu metodes parametros. Pārliecinieties, vai izveidotais maksājuma fails satur Proseware, Inc. nesen ieviesto XML mezglu ar IBAN konta kodu, saskaņā ar reģionālajām prasībām. Failam arī jāsatur Litware, Inc. nesen ieviestais XML mezgls SWIFT bankas koda uzrādīšanai saskaņā ar valsts prasībām.  
+Paralēlā programmas Dynamics 365 for Finance and Operations sesijā izpildiet procedūrā “Lietot izveidoto formātu, lai ģenerētu elektroniskos dokumentus maksājumiem” norādītās darbības. Atlasiet izveidoto BAKS (UK fiktīvs pielāgots) formātu elektronisko maksājumu metodes parametros. Pārliecinieties, vai izveidotais maksājuma fails satur Proseware, Inc. nesen ieviesto XML mezglu ar IBAN konta kodu, saskaņā ar reģionālajām prasībām. Failam arī jāsatur Litware, Inc. nesen ieviestais XML mezgls SWIFT bankas koda uzrādīšanai saskaņā ar valsts prasībām.  
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Finanšu pārskati"
-description: "Šajā tēmā ir aprakstīts, kur programmatūrā Microsoft Dynamics 365 for Finance and Operations, izdevumā Enterprise var piekļūt finanšu pārskatiem un kā lietot finanšu pārskatu iespējas. Tajā ir ietverts nodrošināto noklusējuma finanšu pārskatu apraksts."
+description: "Šajā tēmā ir aprakstīts, kur programmā Microsoft Dynamics 365 for Finance and Operations var piekļūt finanšu pārskatiem un kā lietot finanšu pārskatu iespējas. Tajā ir ietverts nodrošināto noklusējuma finanšu pārskatu apraksts."
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e73f2bd29a6d715863f04bdad03fe9c279ebe0b1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 5de1f5b40af076173dd0b38c6f6110f83c04528a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā tēmā ir aprakstīts, kur programmatūrā Microsoft Dynamics 365 for Finance and Operations, izdevumā Enterprise var piekļūt finanšu pārskatiem un kā lietot finanšu pārskatu iespējas. Tajā ir ietverts nodrošināto noklusējuma finanšu pārskatu apraksts.
+Šajā tēmā ir aprakstīts, kur programmā Microsoft Dynamics 365 for Finance and Operations var piekļūt finanšu pārskatiem un kā lietot finanšu pārskatu iespējas. Tajā ir ietverts nodrošināto noklusējuma finanšu pārskatu apraksts.
 
 <a name="accessing-financial-reporting"></a>Piekļuve finanšu atskaišu veidošanai
 -----------------------------

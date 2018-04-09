@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
-ms.openlocfilehash: 9c68cd0e1c214e22b8831e4f4a0c5d545387f982
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 5adf73c1316f701b3b5e9b9a22fa5743ba1cc419
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,10 +33,10 @@ ms.lasthandoff: 03/09/2018
 Šajā tēmā ir sniegts pārskats par programmas Microsoft Dynamics 365 for Finance and Operations palīdzības sistēmas komponentiem. Tajā ir arī paskaidrots, kā savai organizācijai varat sniegt pielāgotu dokumentāciju un apmācību. 
 
 > [!NOTE] 
-> Šie produkti ir cieši saistīti: Dynamics 365 for Finance and Operations, izdevums Enterprise; Dynamics 365 for Retail; un Dynamics 365 for Talent. Visos 3 produktos var būt pieejama tā pati funkcionalitāte. Tādēļ tēmās, kas galvenokārt ir saistītas ar programmatūru Retail, produkta nosaukums ir Dynamics 365 for Retail; tēmās, kas galvenokārt ir saistītas ar programmatūru Talent, produkta nosaukums ir Dynamics 365 for Talent; un tēmās, kas ir saistītas ar galveno produktu, produkta nosaukums ir Dynamics 365 for Finance and Operations. Tēmas, kas sarakstītas vienam produktam, var attiekties uz to pašu funkcionalitāti saistītā produktā.
+> Šie produkti ir cieši saistīti: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail un Dynamics 365 for Talent. Visos 3 produktos var būt pieejama tā pati funkcionalitāte. Tādēļ tēmās, kas galvenokārt ir saistītas ar programmatūru Retail, produkta nosaukums ir Dynamics 365 for Retail; tēmās, kas galvenokārt ir saistītas ar programmatūru Talent, produkta nosaukums ir Dynamics 365 for Talent; un tēmās, kas ir saistītas ar galveno produktu, produkta nosaukums ir Dynamics 365 for Finance and Operations. Tēmas, kas sarakstītas vienam produktam, var attiekties uz to pašu funkcionalitāti saistītā produktā.
 
 Palīdzības sistēmu koplieto šādi produkti:
-- Dynamics 365 for Finance and Operations, Enterprise izdevums
+- Dynamics 365 for Finance and Operations
 - Dynamics 365 for Retail
 - Dynamics 365 for Talent
 
@@ -108,9 +108,9 @@ Labajā pusē ievadiet e-pasta adresi un jaunu paroli, lai izveidotu jaunu kontu
 ##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Izmaiņu ieteikšana vai satura iesniegšana, izmantojot pakalpojumu GitHub
 Lai varētu ieteikt izmaiņas, ir vajadzīgs GitHub konts un ir jāparaksta līdzstrādnieka licences līgums.  Kad iesniegsiet atgādāšanas pieprasījumu, mēs izskatīsim jūsu ieteiktās izmaiņas. Mēs tās iekšēji pārrunāsim, ja tas būs nepieciešams, un pēc tam jums atbildēsim.  
 
-Lai sāktu, noklikšķiniet uz pogas **Rediģēt** (zīmuļa ikonas) attiecīgajā tēmā vai apmeklējiet mūsu repozitoriju vietnē https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public. 
+Lai sāktu darbu, tēmā noklikšķiniet uz pogas **Rediģēt** (zīmulis) vai doties uz mūsu repozitoriju šeit: https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public. 
 
-Papildinformāciju skatiet mūsu līdzstrādnieku rokasgrāmatā: https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md. 
+Lai iegūtu sīkāku informāciju, skatiet mūsu līdzstrādnieku rokasgrāmatu šeit: https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md. 
 
 
 > [!NOTE]

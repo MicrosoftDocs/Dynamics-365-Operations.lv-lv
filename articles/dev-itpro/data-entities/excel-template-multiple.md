@@ -1,6 +1,6 @@
 ---
 title: "Datu importēšana no Excel datu elementu veidnēm ar vairākām darblapām"
-description: "Šajā tēmā ir aprakstīts, kā importēt datus, izmantojot Excel datu elementu veidnes, programmā Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "Šajā tēmā ir aprakstīts, kā importēt datus programmā Microsoft Dynamics 365 for Finance and Operations, izmantojot Excel datu elementu veidnes."
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
@@ -18,10 +18,10 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
-ms.openlocfilehash: b314a649829dd14a525923802e19b847dc5a115e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2aefea9373df20bd3e99026e30aed096dcea9814
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 02/27/2018
 
 [!include[banner](../includes/banner.md)]
 
-Datu pārvaldība programmā Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, datu elementiem atbalsta uz Microsoft Excel balstītas veidnes. Šajās veidnēs var būt viena vai vairākas darblapas. Veidnes ar vairākām darblapām bieži tiek izmantotas, kad ir vēlams datus pārvaldīt vienā failā un to importēt vairākos datu elementos. Kā piemēru varētu minēt vietas un noliktavas.
+Datu pārvaldība programmā Microsoft Dynamics 365 for Finance and Operations atbalsta ar programmu Microsoft Excel saistītas datu elementu veidnes. Šajās veidnēs var būt viena vai vairākas darblapas. Veidnes ar vairākām darblapām bieži tiek izmantotas, kad ir vēlams datus pārvaldīt vienā failā un to importēt vairākos datu elementos. Kā piemēru varētu minēt vietas un noliktavas.
 
 ## <a name="upload-a-file-once-and-map-it-to-all-entities"></a>Faila augšupielādēšana vienu reizi un kartēšana uz visiem elementiem
 Apskatīsim piemēru, kur vienā Excel failā ir darblapas ar nosaukumu **Vietas** un **Noliktavas**. Lai iestatītu datu importēšanas projektu, jūs pievienotu pirmo datu elementu, **Vietas**, un pēc tam augšupielādētu šo failu. Kā šim elementam izmantojamo darblapu varat atlasīt **Vietas**.

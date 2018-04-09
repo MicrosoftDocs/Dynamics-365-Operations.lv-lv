@@ -1,6 +1,6 @@
 ---
 title: "Ar iepriekšēju datumu datēti čeki"
-description: "Šajā rakstā ir sniegta informācija par programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise nodrošināto ar iepriekšēju datumu datētu čeku atbalstu. Ar iepriekšēju datumu datēti čeki ir čeki, kas tiek izsniegti, lai veiktu vai saņemtu maksājumus nākotnes datumā. Tāpēc šādu čeku nevar iekasēt pirms norādītā datuma."
+description: "Šajā rakstā ir sniegta informācija par programmatūrā Microsoft Dynamics 365 for Finence and Operations nodrošināto ar iepriekšēju datumu datētu čeku atbalstu. Ar iepriekšēju datumu datēti čeki ir čeki, kas tiek izsniegti, lai veiktu vai saņemtu maksājumus nākotnes datumā. Tāpēc šādu čeku nevar iekasēt pirms norādītā datuma."
 author: twheeloc
 manager: AnnBe
 ms.date: 01/12/2018
@@ -19,10 +19,10 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: afa181830fb822c85dedbc8009fec903d1b98479
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 8fd721dc3166dcd981b749c673d3c625b4e5ae36
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir sniegta informācija par programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise nodrošināto ar iepriekšēju datumu datētu čeku atbalstu. Ar iepriekšēju datumu datēti čeki ir čeki, kas tiek izsniegti, lai veiktu vai saņemtu maksājumus nākotnes datumā. Tāpēc šādu čeku nevar iekasēt pirms norādītā datuma.
+Šajā rakstā ir sniegta informācija par programmatūrā Microsoft Dynamics 365 for Finence and Operations nodrošināto ar iepriekšēju datumu datētu čeku atbalstu. Ar iepriekšēju datumu datēti čeki ir čeki, kas tiek izsniegti, lai veiktu vai saņemtu maksājumus nākotnes datumā. Tāpēc šādu čeku nevar iekasēt pirms norādītā datuma.
 
 Microsoft Dynamics 365 for Finance and Operations atbalsta pilnu ar iepriekšēju datumu datētu čeku pārvaldības ciklu gan modulī Debitoru parādi, gan modulī Parādi kreditoriem, kā tas ir redzams tālāk esošajā tabulā.
 <table>

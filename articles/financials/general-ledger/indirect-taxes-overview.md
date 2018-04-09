@@ -19,10 +19,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1eb30ccbaa51bf794c7b3ea2be3fe749fb8ff88d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 02d28aef2316d7cfe5ad4eb45272dc1a22c96789
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -74,7 +74,7 @@ Katrā transakcijā (pārdošanas/pirkšanas dokumentu rindās, žurnālos un ci
 Katrā transakcijā aprēķināto pārdošanas nodokli varat uzmeklēt, atverot lapu **Pārdošanas nodokļa transakcija**. Varat uzmeklēt pārdošanas nodokli dokumenta rindai vai visam dokumentam. Noteiktiem dokumentiem (piemēram, kreditora rēķinam un virsgrāmatas žurnāliem) varat pielāgot aprēķināto pārdošanas nodokli, ja sākotnējā dokumentā tiek rādītas summas ar novirzēm.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>Pārdošanas nodokļa apmaksa un atskaišu veidošana
-Pārdošanas nodoklis regulāri (reizi mēnesī, reizi ceturksnī un citos intervālos) ir jāziņo un jāmaksā nodokļu iestādēm. Microsoft Dynamics 365 for Finance and Operations, izdevums Enterprise nodrošina funkcijas, kas sniedz iespēju segt nodokļu kontus par to intervālu un nobīdīt bilances tam nodokļa apmaksas kontam, kas ir norādīts virsgrāmatas grāmatošanas grupās. Šīm funkcijām var piekļūt lapā **Nosegt un grāmatot PVN**. Ir jānorāda PVN segšanas periods, par kuru ir jāsedz PVN. 
+Pārdošanas nodoklis regulāri (reizi mēnesī, reizi ceturksnī un citos intervālos) ir jāziņo un jāmaksā nodokļu iestādēm. Microsoft Dynamics 365 for Finance and Operations nodrošina funkcijas, kas sniedz iespēju segt nodokļu kontus par konkrēto periodu un nobīdīt bilances uz to nodokļa apmaksas kontu, kas ir norādīts Virsgrāmatas grāmatošanas grupās. Šīm funkcijām var piekļūt lapā **Nosegt un grāmatot PVN**. Ir jānorāda PVN segšanas periods, par kuru ir jāsedz PVN. 
 
 Kad pārdošanas nodoklis ir samaksāts, bilance pārdošanas nodokļa apmaksas kontā vajadzētu būt saskaņotai pret bankas kontu. Ja pārdošanas nodokļa iestāde, kas ir norādīta pārdošanas nodokļa apmaksas periodam, ir saistīta ar kreditora kontu, tad pārdošanas nodokļa bilance tiek grāmatota kā atvērts kreditora rēķins, un to var iekļaut regulāra maksājuma priekšlikumā.
 

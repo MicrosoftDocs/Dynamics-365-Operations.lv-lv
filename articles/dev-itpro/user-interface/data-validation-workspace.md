@@ -16,10 +16,10 @@ ms.assetid:
 ms.search.region: Global
 ms.author: bking
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: daded9d8ef48456cbd3f97a7bae5fa75885ce9d1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: bbf4da5a33876973a376a0580fd553e15bd6febc
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -47,7 +47,7 @@ Sadaļā **Uzdevumi un statuss** dažādos veidos tiek rādīts kopējā datu va
 Pēdējā cilne ir paredzēta detalizētajam uzdevumu sarakstam. Šajā sarakstā ir ietverti visi uzdevumi.
 Uzdevumu sarakstu varat filtrēt vairākos veidos. Noklikšķiniet uz **Rediģēt uzdevumu**, lai mainītu uzdevuma statusu vai piešķirtu uzdevumu. Noklikšķiniet uz **Pielikumi**, lai skatītu uzdevuma pielikumus.
 
-Uzdevuma nosaukums ir hipersaite uz Microsoft Dynamics 365 for Finance and Operations izdevuma Enterprise lapu, kas lietotājam ir jāapmeklē, lai pabeigtu darbu. Šo hipersaiti var iestatīt, izmantojot lauku **Izvēlnes vienuma nosaukums**, kad izveidojat vai rediģējat uzdevumu veidlapā **Konfigurēt datu validēšanas projektu**.
+Uzdevuma nosaukums ir hipersaite uz programmas Microsoft Dynamics 365 for Finance and Operations lapu, kas lietotājam ir jāapmeklē, lai pabeigtu darbu. Šo hipersaiti var iestatīt, izmantojot lauku **Izvēlnes vienuma nosaukums**, kad izveidojat vai rediģējat uzdevumu veidlapā **Konfigurēt datu validēšanas projektu**.
 
 Uzdevumam varat pievienot failus, piezīmes, attēlus un vietrāžus URL, izmantojot darbību **Pielikumi**. Piemēram, varat uzdevumam pievienot izdrukātu pārskata failu. Ja pastāv pielikums, uzdevumam tiek parādīta ikona kolonnā **Pielikums**.
 

@@ -1,6 +1,6 @@
 ---
 title: "Budžeta plānošana"
-description: "Šī uzdevuma mērķis ir jūs iepazīstināt ar funkcionalitātes atjauninājumiem Microsoft Dynamics 365 for Finance and Operations izdevuma Enterprise apgabalā Budžeta plānošana. Šī uzdevuma nolūks ir ilustrēt budžeta plānošanas moduļa ātras konfigurēšanas piemēru un demonstrēt, kā var paveikt budžeta plānošanu, izmantojot šo konfigurāciju.  Šajā uzdevumā galvenā uzmanība ir pievērsta tālāk uzskaitītajiem biznesa procesiem vai uzdevumiem. -    - Organizācijas hierarhijas izveidošana budžeta plānošanai un lietotāju drošības konfigurēšanai   - Budžeta plāna scenāriju, budžeta plāna kolonnu, izkārtojumu un Excel veidņu definēšana   - Budžeta plānošanas procesa izveidošana un aktivizēšana   - Budžeta plāna dokumenta izveidošana, izgūstot faktiskos datus no virsgrāmatas   - Sadalījumu izmantošana, lai koriģētu budžeta plāna dokumenta datus   - Budžeta plāna dokumenta datu rediģēšana programmā Excel"
+description: "Šī uzdevuma mērķis ir sniegt vadītu ieskatu par Microsoft Dynamics 365 for Finance and Operations funkcionalitātes atjauninājumus apgabalā Budžeta plānošana. Šī uzdevuma nolūks ir ilustrēt budžeta plānošanas moduļa ātras konfigurēšanas piemēru un demonstrēt, kā var paveikt budžeta plānošanu, izmantojot šo konfigurāciju.  Šajā uzdevumā galvenā uzmanība ir pievērsta tālāk uzskaitītajiem biznesa procesiem vai uzdevumiem. -    - Organizācijas hierarhijas izveidošana budžeta plānošanai un lietotāju drošības konfigurēšanai   - Budžeta plāna scenāriju, budžeta plāna kolonnu, izkārtojumu un Excel veidņu definēšana   - Budžeta plānošanas procesa izveidošana un aktivizēšana   - Budžeta plāna dokumenta izveidošana, izgūstot faktiskos datus no virsgrāmatas   - Sadalījumu izmantošana, lai koriģētu budžeta plāna dokumenta datus   - Budžeta plāna dokumenta datu rediģēšana programmā Excel"
 author: twheeloc
 manager: AnnBe
 ms.date: 01/12/2018
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c6440591f847cbbb6be352270e3629a49d71598e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 59781da7681ece1c0c013f59e0d1a5d7efc51c3a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šī uzdevuma mērķis ir jūs iepazīstināt ar funkcionalitātes atjauninājumiem Microsoft Dynamics 365 for Finance and Operations izdevuma Enterprise apgabalā Budžeta plānošana. Šī uzdevuma nolūks ir ilustrēt budžeta plānošanas moduļa ātras konfigurēšanas piemēru un demonstrēt, kā var paveikt budžeta plānošanu, izmantojot šo konfigurāciju.  Šajā uzdevumā galvenā uzmanība ir pievērsta tālāk uzskaitītajiem biznesa procesiem vai uzdevumiem. -    - Organizācijas hierarhijas izveidošana budžeta plānošanai un lietotāju drošības konfigurēšanai   - Budžeta plāna scenāriju, budžeta plāna kolonnu, izkārtojumu un Excel veidņu definēšana   - Budžeta plānošanas procesa izveidošana un aktivizēšana   - Budžeta plāna dokumenta izveidošana, izgūstot faktiskos datus no virsgrāmatas   - Sadalījumu izmantošana, lai koriģētu budžeta plāna dokumenta datus   - Budžeta plāna dokumenta datu rediģēšana programmā Excel 
+Šī uzdevuma mērķis ir sniegt vadītu ieskatu par Microsoft Dynamics 365 for Finance and Operations funkcionalitātes atjauninājumus apgabalā Budžeta plānošana. Šī uzdevuma nolūks ir ilustrēt budžeta plānošanas moduļa ātras konfigurēšanas piemēru un demonstrēt, kā var paveikt budžeta plānošanu, izmantojot šo konfigurāciju.  Šajā uzdevumā galvenā uzmanība ir pievērsta tālāk uzskaitītajiem biznesa procesiem vai uzdevumiem. -    - Organizācijas hierarhijas izveidošana budžeta plānošanai un lietotāju drošības konfigurēšanai   - Budžeta plāna scenāriju, budžeta plāna kolonnu, izkārtojumu un Excel veidņu definēšana   - Budžeta plānošanas procesa izveidošana un aktivizēšana   - Budžeta plāna dokumenta izveidošana, izgūstot faktiskos datus no virsgrāmatas   - Sadalījumu izmantošana, lai koriģētu budžeta plāna dokumenta datus   - Budžeta plāna dokumenta datu rediģēšana programmā Excel 
 
 <a name="prerequisites"></a>Priekšnosacījumi 
 ------------------

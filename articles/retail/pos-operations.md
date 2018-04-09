@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 82c2fab72923cfec135e207dfe194fda7d16e8e9
+ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
+ms.openlocfilehash: d8cf283321b81c377498cd449b098f8fac1fe01f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -42,7 +42,9 @@ Tālāk norādītajās kolonnās ir norādītas vietas, kur var izsaukt operāci
 - **Transakciju ekrāns** — operācijas var izsaukt, izmantojot POS pogu režģus, kas ir konfigurēti POS transakciju ekrānā.
 - **Sveiciena ekrāns** — operācijas var izsaukt, izmantojot POS pogu režģus, kas ir konfigurēti POS sveiciena ekrānā.
 
-| ID | Operācija | Apraksts | Pogu režģis | Transakciju ekrāns | Sveiciena ekrāns | Pieejama bezsaistē | Lokalizācijai raksturīga |
+Piezīme. Tālāk norādītās darbības attiecas uz Dynamics 365 for Retail jaunāko versiju. Dažas darbības var atšķirties vai nebūt pieejamas iepriekšējās versijās.
+
+| ID | Operācija | apraksts | Pogu režģis | Transakciju ekrāns | Sveiciena ekrāns | Pieejama bezsaistē | Lokalizācijai raksturīga |
 |----|-----------|-------------|-------------|--------------------|----------------|-------------------|-----------------|
 | 707 | Aktivizēt ierīci | Aktivizēt pašreizējo ierīci, atļaujot autentificētam lietotājam ievadīt savienojuma informāciju un piešķirt ierīces un kases sistēmas ID. | Nē | Nē | Nē | Nē | Nē |
 | 134 | Pievienot piederību | Pievienojiet darījumam iepriekš atlasītu piederību. Atlasiet piederību lapā **Pogas rekvizīti**. | Jā | Jā | Nē | Jā | Nē |
@@ -104,7 +106,8 @@ Tālāk norādītajās kolonnās ir norādītas vietas, kur var izsaukt operāci
 | 301 | Rindas atlaide procentos | Ievadiet darījumā izmantotās dokumenta rindas atlaidi procentos. Šī operācija tiek lietota tikai precēm, kam var lietot atlaidi, un tikai ar noteiktiem atlaides ierobežojumiem. | Jā | Jā | Nē | Jā | Nē |
 | 703 | Bloķēt reģistru | Bloķēt pašreizējo kases sistēmu, lai to nevarētu izmantot, taču neizrakstīt pašreizējo lietotāju. | Nē | Nē | Nē | Jā | Nē |
 | 701 | Atteikties | Izrakstīt pašreizējo lietotāju no kases sistēmas. | Jā | Jā | Jā | Jā | Nē |
-| 521 | Lojalitātes programmu karšu punktu bilance | Parādīt norādītās lojalitātes programmas kartes punktu bilanci. | Jā | Jā | Nē | Nē | Nē |
+| 521 | Lojalitātes programmu karšu punktu bilance | Parādīt norādītās lojalitātes programmas kartes punktu bilanci. | Jā | Jā | Nav | Nav | Nav |
+| 918 | Pārvaldīt maiņas | Parādīt aktīvo, pārtraukto un diskrēti slēgto maiņu sarakstu. | Jā | Jā | Jā | Nav | Nav |
 | 914 | Minimizēt POS logu | Šī operācija netiek atbalstīta. | Nav attiecināms | Nav attiecināms | Nav attiecināms | Nav attiecināms | Nē |
 | 1000 | Atvērt naudas kasti | Veikt operāciju bez pārdošanas un atvērt pašlaik atlasīto naudas kasti. | Jā | Jā | Jā | Jā | Nē |
 | 928 | Pasūtījuma izpilde | Šī operācija ļauj lietotājiem izdot, iepakot, nosūtīt un atsaukt veikalā izdotos pasūtījumus. | Jā | Jā | Jā | Nē | Nē |
@@ -161,8 +164,7 @@ Tālāk norādītajās kolonnās ir norādītas vietas, kur var izsaukt operāci
 | 105 | Iestatīt daudzumu | Mainiet darījuma dokumenta rindas daudzumu. | Jā | Jā | Nē | Jā | Nē |
 | 638 | Iestatīt rindas pārdošanas pārstāvi | Šī operācija sniedz lietotājam iespēju atlasīt vienu no derīgajām komisijas pārdošanas grupām (pārdošanas pārst.) pašlaik atlasītajai rindai. | Jā | Jā | Nē | Jā | Nē |
 | 630 | Nosūtīt visas preces | Iestatīt visiem rindu vienumiem izpildes režīmu **Nosūtīšana**. | Jā | Jā | Nē | Jā\* | Nē |
-| 629 | Nosūtīt atlasītās preces | Iestatīt atlasītajām rindām izpildes režīmu **Nosūtīšana**. | Jā | Jā | Nē | Jā\* | Nē |
-| 918 | Rādīt neskaidri slēgtās maiņas | Parādīt visu diskrēti slēgto maiņu sarakstu. | Jā | Jā | Jā | Nē | Nē |
+| 629 | Nosūtīt atlasītās preces | Iestatīt atlasītajām rindām izpildes režīmu **Nosūtīšana**. | Jā | Jā | Nav | Jā\* | Nav |
 | 115 | Rādīt žurnālu | Parādīt veikala žurnālu. Varat skatīt transakcijas, atkārtoti izdrukāt kvītis un dāvanu kvītis un atsaukt transakcijas atgriešanai. | Jā | Jā | Jā | Jā\*\* | Nē |
 | 802 | Krājumu uzskaite | Šī operācija sniedz lietotājam iespēju izveidot vai izmainīt fizisko krājumu vai cikla inventarizācijas uzskaites žurnālus. | Jā | Jā | Jā | Nē | Nē |
 | 401 | Apakšizvēlne | Šī operācija nodrošina lietotāja novirzīšanu uz citu saistīto pogu režģi. | Jā | Jā | Jā | Jā | Nē |

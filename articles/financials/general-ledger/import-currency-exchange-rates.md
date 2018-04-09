@@ -19,10 +19,10 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 270e0de2d58550e517417076b49a5a8bdc62bc64
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: df07066371cb7d9c69976c9714b6d2fe456a0308
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,7 +36,7 @@ Ja juridiskā persona ir saņēmusi rēķinus ārvalstu valūtās, ārvalstu val
 Tālāk esošajās sadaļās ir aprakstīta informācijas plūsma, kas tiek izmantota ārvalstu valūtu maiņas kursu importēšanas iestatīšanai un apstrādei.
 
 ## <a name="configure-an-exchange-rate-provider"></a>Maiņas kursu nodrošinātāja konfigurēšana
-Lai varētu importēt maiņas kursus, vispirms ir jāiestata informācija, kas ir nepieciešama maiņas kursu nodrošinātājiem. Izmantojiet lapu **Konfigurēt maiņas kursu nodrošinātājus**, lai atlasītu maiņas kursu nodrošinātājus. Daži maiņas kursu nodrošinātāji ir ietverti Microsoft Dynamics 365 for Finance and Operations, izdevuma Enterprise demonstrācijas datu kopā. Tālāk esošajā tabulā ir sniegts lapā pieejamo vadīklu apraksts.
+Lai varētu importēt maiņas kursus, vispirms ir jāiestata informācija, kas ir nepieciešama maiņas kursu nodrošinātājiem. Izmantojiet lapu **Konfigurēt maiņas kursu nodrošinātājus**, lai atlasītu maiņas kursu nodrošinātājus. Daži maiņas kursu nodrošinātāji ir ietverti Microsoft Dynamics 365 for Finance and Operations demonstrācijas datu kopā. Tālāk esošajā tabulā ir sniegts lapā pieejamo vadīklu apraksts.
 
 |           |                                                                                                                                                                                                                             |
 |-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

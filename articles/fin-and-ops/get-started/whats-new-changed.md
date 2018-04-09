@@ -3,7 +3,7 @@ title: "Jaunumi un izmaiņas"
 description: "Šajā lapā ir norādes uz tēmām, kas var palīdzēt jums uzzināt par jaunajiem līdzekļiem Microsoft Dynamics 365 for Finance and Operations jaunākajās versijās."
 author: josaw1
 manager: AnnBe
-ms.date: 03/21/2018
+ms.date: 03/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: ff73fdb3e6ce97e01838228c45795ca64e888add
-ms.openlocfilehash: e00dece6a6f917028379d879ec81a5c7ab210253
+ms.sourcegitcommit: 47de452c2072b6a29d7e2d34eb73b472be669a6c
+ms.openlocfilehash: eb6132b6d535deb13a4cd1343d04967893a2cfe9
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/25/2018
 
 ---
 
@@ -120,10 +120,10 @@ Informāciju par jaunināšanu uz pēdējo versiju skatiet sadaļā [Jaunināša
 <tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevums</td>
-<td>Platformas update 13</td>
-<td>7.0.4764</td>
-<td>2018. gada janvāris. (Šis ir noteiktas mērķauditorijas laidiens, kas ir pieejams tikai tiem lietotājiem, kas piedalās pastāvīgas automātiskās grāmatošanas priekšrocības programmā (CAAP).)</td>
-<td><a href="whats-new-platform-update-13.md">Jaunumi un izmaiņas Dynamics 365 for Finance and Operations Enterprise Edition platformas 13. atjauninājumā (2018. janvāris)</a></td><tbody>
+<td>Platformas update 15</td>
+<td>7.0.4839</td>
+<td>2018. gada marts (Šis ir atlasītās versijas laidiens, kas ir pieejams tikai tiem lietotājiem, kas ir izvēlējušies piedalīties pastāvīgas automātiskās atjaunināšanas priekšrocības programmā (Continuous Auto-update Advantage Program — CAAP).)</td>
+<td><a href="whats-new-platform-update-15.md">Jaunumi un izmaiņas Dynamics 365 for Finance and Operations Enterprise Edition 15. platformas atjauninājumā (2018. gada marts)</a></td><tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevums</td>
 <td>Platformas update 12</td>

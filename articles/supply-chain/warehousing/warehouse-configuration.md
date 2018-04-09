@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 156cd33a0216514a70229b4e23fc86c0c68cd940
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 9c2f8fd846181c404492ff32907a3396beb90685
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 11/03/2017
 **Piezīme.** Šis raksts attiecas uz moduļa **Noliktavas vadība** (uzlabotās noliktavas) līdzekļiem. Tas neattiecas uz noliktavas līdzekļiem modulī **Krājumu vadība**.
 
 ## <a name="warehouse-layout"></a>Noliktavas izkārtojums
-Noliktavu pārvaldības sistēma programmatūrā Microsoft Dynamics 365 for Finance and Operations (Enterprise izdevumā) sniedz elastīgas iespējas, kā definēt savas noliktavas izkārtojumu tā, lai tas atbilstu mainīgajām vajadzībām un jūs varētu nodrošināt optimālu noliktavas efektivitāti.
+Noliktavu vadības sistēma programmatūrā Microsoft Dynamics 365 for Finance and Operations nodrošina pielāgojamus veidus, kā definēt noliktavas izkārtojumu atbilstoši mainīgajām vajadzībām, lai varētu sasniegt optimālu noliktavas efektivitāti.
 
 -   Optimālai preču izvietošanai varat izveidot augstas prioritātes un zemas prioritātes glabāšanas zonas.
 -   Noliktavas varat sadalīt zonās, lai pielāgotos dažādām glabāšanas vajadzībām, piemēram, temperatūras prasībām vai dažādiem krājumu apgrozījuma ātrumiem.

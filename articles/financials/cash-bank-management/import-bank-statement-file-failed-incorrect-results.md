@@ -1,6 +1,6 @@
 ---
 title: "Bankas izraksta faila importēšanas problēmu novēršana"
-description: "Ir svarīgi, lai no bankas saņemtais bankas izraksta fails atbilstu programmatūrā Microsoft Dynamics 365 for Finance and Operations, izdevumā Enterprise atbalstītajam izkārtojumam. Stingro bankas izrakstu standartu dēļ lielākā daļa integrāciju darbosies pareizi. Tomēr dažreiz izraksta failu nevar importēt vai ir nepareizi rezultāti. Parasti šīs problēmas izraisa nelielas atšķirības bankas izraksta failā. Šajā rakstā ir paskaidrots, kā novērst šīs atšķirības un atrisināt problēmas."
+description: "Ir svarīgi, lai no bankas saņemtais bankas izraksta fails atbilst programmā Microsoft Dynamics 365 for Finance and Operations atbalstītajam izkārtojumam. Stingro bankas izrakstu standartu dēļ lielākā daļa integrāciju darbosies pareizi. Tomēr dažreiz izraksta failu nevar importēt vai ir nepareizi rezultāti. Parasti šīs problēmas izraisa nelielas atšķirības bankas izraksta failā. Šajā rakstā ir paskaidrots, kā novērst šīs atšķirības un atrisināt problēmas."
 author: twheeloc
 manager: AnnBe
 ms.date: 01/11/2018
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4feb77bf0031494dfd456c23c632a264c96f0e43
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c408f30c783d58766ab93b13c589079c3ef375de
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Ir svarīgi, lai no bankas saņemtais bankas izraksta fails atbilstu programmatūrā Microsoft Dynamics 365 for Finance and Operations, izdevumā Enterprise atbalstītajam izkārtojumam. Stingro bankas izrakstu standartu dēļ lielākā daļa integrāciju darbosies pareizi. Tomēr dažreiz izraksta failu nevar importēt vai ir nepareizi rezultāti. Parasti šīs problēmas izraisa nelielas atšķirības bankas izraksta failā. Šajā rakstā ir paskaidrots, kā novērst šīs atšķirības un atrisināt problēmas.
+Ir svarīgi, lai no bankas saņemtais bankas izraksta fails atbilst programmā Microsoft Dynamics 365 for Finance and Operations atbalstītajam izkārtojumam. Stingro bankas izrakstu standartu dēļ lielākā daļa integrāciju darbosies pareizi. Tomēr dažreiz izraksta failu nevar importēt vai ir nepareizi rezultāti. Parasti šīs problēmas izraisa nelielas atšķirības bankas izraksta failā. Šajā rakstā ir paskaidrots, kā novērst šīs atšķirības un atrisināt problēmas.
 
 <a name="what-is-the-error"></a>Kāda kļūda radusies?
 ------------------
@@ -64,7 +64,7 @@ BAI2 un MT940 faili ir teksta faili, un tiem nepieciešama korekcija, lai iespē
 
 ### <a name="debug-the-xslt"></a>XSLT atkļūdošana
 
-Sīkāku informāciju skatiet šeit: <https://msdn.microsoft.com/en-us/library/ms255605.aspx>.
+Lai iegūtu papildus informāciju, skatiet <https://msdn.microsoft.com/en-us/library/ms255605.aspx>.
 
 1.  Startējiet Microsoft Visual Studio.
 2.  Izveidojiet konsoles pieteikumu.
@@ -92,7 +92,7 @@ Dažreiz debets var tikt importēts kā kredīts un kredīts var tikt importēts
 -   MT940XML-to-Reconcilation.xslt GetCreditDebitIndicator veidne
 
 ## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Bankas izrakstu formātu un tehnisko izkārtojumu paraugi
-Šajā tabulā ir minēti detalizētās bankas darbību saskaņošanas importa failu tehnisko izkārtojumu definīciju paraugi un trīs saistītie bankas izrakstu parauga faili. Failu un tehnisko izkārtojumu paraugus varat lejupielādēt šeit: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+Šajā tabulā ir minēti detalizētās bankas darbību saskaņošanas importa failu tehnisko izkārtojumu definīciju paraugi un trīs saistītie bankas izrakstu parauga faili. Piemēra failus un tehniskos izkārtojumus var lejupielādēt šeit: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
 
 
 | Tehniskā izkārtojuma definīcija                             | Bankas izraksta parauga fails          |

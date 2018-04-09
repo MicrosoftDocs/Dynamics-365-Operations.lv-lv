@@ -1,6 +1,6 @@
 ---
-title: "Power BI satura pakotne Darbinieku zināšanas un attīstība"
-description: "Šajā tēmā ir aprakstīts Power BI saturs Finance and Operations – Darbinieku zināšanas un attīstība."
+title: "Power BI saturs Darbinieku zināšanas un attīstība"
+description: "Šajā tēmā ir aprakstīts Power BI saturs Finance and Operations — darbinieku zināšanas un attīstība."
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -18,19 +18,19 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 99fa6e396989e6e204d84cc776f627c7c4baf1d1
+ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
+ms.openlocfilehash: 0769596c5ebaed1f5698d596d66d6f0334d5fcc2
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 03/23/2018
 
 ---
 
-# <a name="employee-competencies-and-development-power-bi-content"></a>Power BI satura pakotne Darbinieku zināšanas un attīstība
+# <a name="employee-competencies-and-development-power-bi-content"></a>Power BI saturs Darbinieku zināšanas un attīstība
 
 [!include[banner](../includes/banner.md)]
 
 
-Šajā tēmā ir aprakstīts Power BI saturs Finance and Operations – Darbinieku zināšanas un attīstība. 
+Šajā tēmā ir aprakstīts Power BI saturs Finance and Operations — darbinieku zināšanas un attīstība. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Satura pakotnē iekļautie pārskati
 Pēc tam, kad ir izveidots satura pakotnes savienojums ar jūsu Dynamics 365 for Finance and Operations datiem, pārskatos tiek rādīti jūsu organizācijas dati. Ja iepriekš neesat lietojis Microsoft Power BI, papildinformāciju par to varat uzzināt lapā [Vadītā apmācība par Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Satura pakotnē iekļautajos pārskatos ir gan diagrammas, gan tabulas, kas satur papildinformāciju. Tabulā ir sniegts pārskatu apraksts.

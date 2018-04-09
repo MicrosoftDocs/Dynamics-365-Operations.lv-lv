@@ -1,6 +1,6 @@
 ---
 title: "Budžeta kontroles apskats"
-description: "Šajā rakstā ir aprakstīta budžeta kontrole un sniegta informācija, kas jums palīdzēs konfigurēt budžeta kontroli programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise, lai jūs varētu pārvaldīt finanšu resursus."
+description: "Šajā raksta ir sniegta informācija par budžeta kontroli un informācija, kas jums palīdzēs konfigurēt budžeta kontroli programmā Microsoft Dynamics 365 for Finance and Operations, lai varētu pārvaldīt finanšu resursus."
 author: twheeloc
 manager: AnnBe
 ms.date: 01/11/2018
@@ -19,19 +19,19 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 98b5620b343a87426aab13997d1f2e5f7dc30d50
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: e77760d6729b8faf3099590c60ea7673cfcb18ec
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
-# <a name="budget-control-overview"></a>Budžeta kontroles apskats
+# <a name="budget-control-overview"></a>Budžeta kontroles apskats 
 
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir aprakstīta budžeta kontrole un sniegta informācija, kas jums palīdzēs konfigurēt budžeta kontroli programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise, lai jūs varētu pārvaldīt finanšu resursus.
+Šajā raksta ir sniegta informācija par budžeta kontroli un informācija, kas jums palīdzēs konfigurēt budžeta kontroli programmā Microsoft Dynamics 365 for Finance and Operations, lai varētu pārvaldīt finanšu resursus.
 
 <a name="overview"></a>Pārskats
 --------

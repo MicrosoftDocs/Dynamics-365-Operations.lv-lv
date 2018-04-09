@@ -1,6 +1,6 @@
 ---
 title: Nolietojuma metodes un konvencijas
-description: "Šajā rakstā ir sniegts pārskats par programmatūras Microsoft Dynamics 365 for Finance and Operations versijā Enterprise atbalstītajām nolietojuma konvencijām un metodēm."
+description: "Šajā rakstā ir sniegts pārskats par nolietojuma aprēķināšanas nosacījumiem un metodēm, ko atbalsta programma Microsoft Dynamics 365 for Finance and Operations."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/25/2017
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 69e0decd3ffbdf1f64fa4fbfe070927990f880ad
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: eb38de1e7e39cb66d15bfe344f6f5fcd5d4fccd7
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā ir sniegts pārskats par programmatūras Microsoft Dynamics 365 for Finance and Operations versijā Enterprise atbalstītajām nolietojuma konvencijām un metodēm.
+Šajā rakstā ir sniegts pārskats par nolietojuma aprēķināšanas nosacījumiem un metodēm, ko atbalsta programma Microsoft Dynamics 365 for Finance and Operations.
 
 Var atlasīt dažādas nolietojuma metodes un konvencijas. Šo metožu nolūks ir sadalīt pamatlīdzekļa nolietojuma vērtību pa finanšu periodiem. Pamatlīdzekļa nolietojuma vērtība ir iegādes cenas un lūžņu vērtības (ja tāda ir) starpība. 
 

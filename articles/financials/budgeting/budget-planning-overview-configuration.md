@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d904a2fe9411da1fd1a4e5810f7dcea782f1c2f7
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: e874d7353e0d9561ca55f313bfb5209299298169
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -38,7 +38,7 @@ ms.lasthandoff: 11/03/2017
 
 Budžeta plānošana tiek veikta, kad sagatavojat budžetus, kurus ieviesīs organizācija. Organizācija var konfigurēt budžeta plānošanu un pēc tam iestatīt budžeta plānošanas procesus atbilstoši savai politikai, procedūrām un budžeta sagatavošanas prasībām. 
 
-Kad sapratīsiet koncepcijas un terminoloģiju, kas tiek izmantotas programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise, varēsiet vieglāk ieviest budžeta plānošanu savā organizācijā.
+Gūstot izpratni par koncepcijām un terminoloģiju, kas tiek izmantotas Microsoft Dynamics 365 for Finance and Operations vidē, būs vieglāk īstenot savas organizācijas budžeta plānošanu.
 
 ### <a name="key-terms"></a>Galvenie termini
 

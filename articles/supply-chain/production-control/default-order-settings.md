@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
-ms.openlocfilehash: 5e67be5687388d399e2f702d8070cd960cbe7939
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: d0e8d1ac8b775f9c728d6bfa6ba219dd889bf8a2
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 11/03/2017
 [!include[retail name](../includes/retail-name.md)]
 
 
-Pasūtījuma noklusējuma iestatījumi programmā Microsoft Dynamics 365 for Finance and Operations Enterpise Edition nosaka vietu un noliktavu, no kurienes krājumi tiks iegūti vai kur tie tiks glabāti, minimālo, maksimālo, vairākkārtējo un standarta daudzumu, kas tiks izmantots tirdzniecībai vai krājumu pārvaldībai, izpildes laiku, apturēšanas karodziņu un pasūtījuma solīšanas metodi. Pasūtījuma noklusējuma iestatījumi tiek izmantoti, veidojot pirkšanas pasūtījumus, pārdošanas pasūtījumus, pārsūtīšanas pasūtījumus, krājumu žurnālus un veicot vispārējo plānošanu plānoto pasūtījumu ģenerēšanai. Pasūtījuma noklusējuma iestatījumi var būt atkarīgi no preces, atkarīgi no vietas, atkarīgi no preces varianta vai atkarīgi no preces dimensijas.
+Pasūtījuma noklusējuma iestatījumi programmā Microsoft Dynamics 365 for Finance and Operations nosaka vietu un noliktavu, no kuras krājumi tiek iegūti vai kur tie tiek glabāti, minimālo, maksimālo, vairākkārtējo un standarta daudzumu, kas tiek izmantots tirdzniecībai vai krājumu pārvaldībai, izpildes laiku, apturēšanas karodziņu un pasūtījuma solīšanas metodi. Pasūtījuma noklusējuma iestatījumi tiek izmantoti, veidojot pirkšanas pasūtījumus, pārdošanas pasūtījumus, pārsūtīšanas pasūtījumus, krājumu žurnālus un veicot vispārējo plānošanu plānoto pasūtījumu ģenerēšanai. Pasūtījuma noklusējuma iestatījumi var būt atkarīgi no preces, atkarīgi no vietas, atkarīgi no preces varianta vai atkarīgi no preces dimensijas.
 
 Pasūtījuma noklusējuma iestatījumus varat definēt lapā **Pasūtījuma noklusējuma iestatījumi**. Lai atvērtu šo lapu, dodieties uz **Preču informācijas pārvaldība** &gt; **Preces** &gt; **Izlaistās preces** &gt; **atlasiet kādu izlaisto preci** &gt; darbību rūtī **Plāns** vai **Pārvaldīt krājumus** &gt; **Pasūtījuma iestatījumi** &gt; **Pasūtījuma noklusējuma iestatījumi**.
 

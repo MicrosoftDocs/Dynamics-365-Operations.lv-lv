@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
-ms.openlocfilehash: 6a2c51d9ffe288dad2db43ecd0a4c8f717c6379a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3c4720795313180ba7ad784ea39484d6ffb9ac2f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -38,7 +38,7 @@ Projekts darbību grupa, kas ir izstrādāta, lai sniegtu pakalpojumu, ražotu p
 ## <a name="projects-across-industries"></a>Projekti dažādās nozarēs
 Projektu vadības un uzskaites funkcionalitāti var izmantot vairākās nozarēm, kā parādīts šajā attēlā. [![Projekti dažādās nozarēs](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-Zvanu centrā tādu darbību kopu aprakstīšanai, kas nepieciešamas, lai atrisinātu zvanu, var izmantot biļeti. Konsultāciju uzņēmumi, piemēram, vadības vai tehnisko konsultāciju organizācijas vai reklāmas aģentūras, savas darbības sauc par projektiem. Mārketinga nozarē veicamo darbu kopa ir kampaņa Uz projektiem balstītas ražošanas nozarēs ražošanas pasūtījums saista dažādus darbus, kuri jāveic, lai saražotu pabeigtas preces. Neatkarīgi no lietotā nosaukuma šie projekti ietver resursus, grafikus un izmaksas, un projektu vadības un uzskaites funkcijas programmatūrā Microsoft Dynamics 365 for Finance and Operations, izdevumā Enterprise var palīdzēt plānot, izpildīt un analizēt šos projektus.
+Zvanu centrā tādu darbību kopu aprakstīšanai, kas nepieciešamas, lai atrisinātu zvanu, var izmantot biļeti. Konsultāciju uzņēmumi, piemēram, vadības vai tehnisko konsultāciju organizācijas vai reklāmas aģentūras, savas darbības sauc par projektiem. Mārketinga nozarē veicamo darbu kopa ir kampaņa Uz projektiem balstītas ražošanas nozarēs ražošanas pasūtījums saista dažādus darbus, kuri jāveic, lai saražotu pabeigtas preces. Neatkarīgi no lietotā nosaukuma šie projekti ietver resursus, grafikus un izmaksas, un projektu vadības un uzskaites funkcionalitāte programmatūrā Microsoft Dynamics 365 for Finance and Operations var palīdzēt planot, izpildīt un analizēt šos projektus.
 
 ## <a name="project-phases"></a>Projekta fāzes
 Lai gan šī procesa plūsma ir paredzēta ārējiem projektiem vai projektiem, kas tiek veikti vienam vai vairākiem debitoriem, funkcionalitāte attiecas arī uz iekšējiem izmaksu projektiem. 

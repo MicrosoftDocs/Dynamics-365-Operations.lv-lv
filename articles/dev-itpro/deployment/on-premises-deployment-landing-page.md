@@ -18,25 +18,25 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 0d551818c8d352af96f6e64613cfbbc4aec5bf5b
-ms.openlocfilehash: e35769e45b1017eef2ee5a5b6c2baa35ae13d90c
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: fa43f6683d43dfb62e8dc2c194ff2b82fe629fe3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="on-premises-deployment-home-page"></a>Lokālā izvietojuma sākumlapa
 
 [!include[banner](../includes/banner.md)]
 
-Varat izvietot Microsoft Dynamics 365 for Finance and Operations Enterprise izdevumu (lokālo versiju). Izvēloties lokālās izvietošanas veidu, sistēmas prasības, aparatūras lieluma maiņa un funkcionalitāte atšķiras no mākoņa izvietošanas. Šajā tēmā ir sniegtas saites uz saturu, kurā ietverta informācija par lokālajiem izvietojumiem.
+Izvērsiet programmu Microsoft Dynamics 365 for Finance and Operations (lokāla izvietošana). Izvēloties lokālās izvietošanas veidu, sistēmas prasības, aparatūras lieluma maiņa un funkcionalitāte atšķiras no mākoņa izvietošanas. Šajā tēmā ir sniegtas saites uz saturu, kurā ietverta informācija par lokālajiem izvietojumiem.
 
 ## <a name="get-started"></a>Sākt darbu
 - [Jaunumi un izmaiņas programmas Dynamics 365 for Finance and Operations Enterprise edition 7.2 lokālajos izvietojumos ar platformas atjauninājumu 12 (2018. gada marts)](../../fin-and-ops/get-started/whats-new-LBD-PU12-App72.md)
-- [Dynamics 365 for Finance and Operations Enterprise izdevuma (lokāls) apskats](on-premises-overview.md)
-- [Plānošana lokālajam izvietojumam](plan-onprem-deployment.md)
+- [Programmas Microsoft Dynamics 365 for Finance and Operations (lokāla izvietošana) pārskats](on-premises-overview.md)
+- [Jūsu lokālā izvietojuma plānošana](plan-onprem-deployment.md)
 - [Sistēmas prasības lokālajiem izvietojumiem](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [Aparatūras lieluma maiņa lokālām vidēm](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
-- [Dynamics 365 for Finance and Operations Enterprise izdevuma (lokāls) iegāde](../../fin-and-ops/get-started/purchase-on-premises.md)
+- [Dynamics 365 for Finance and Operations (lokāla izvietošana) iegāde](../../fin-and-ops/get-started/purchase-on-premises.md)
 - [Mākoņa un lokālās versijas līdzekļu salīdzinājums](../../fin-and-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>Pievienošana
@@ -58,7 +58,7 @@ Varat izvietot Microsoft Dynamics 365 for Finance and Operations Enterprise izd
 - [Atkārtoti izvietot lokālo izvietojumu](redeploy-on-prem.md)
 
 ## <a name="other-resources"></a>Citi resursi
-- [Dynamics 365 for Finance and Operations Enterprise edition lokālo problēmu novēršana](troubleshoot-on-prem.md)
+- [Dynamics 365 for Finance and Operations lokālas izvietošanas problēmu novēršana](troubleshoot-on-prem.md)
 - [Līdzekļi, kas nav ieviesti lokālos izvietojumos](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Novecojušie līdzekļi](../migration-upgrade/deprecated-features.md)
 - [Programmatūras dzīves cikla politika un laidienu saraksts](../migration-upgrade/versions-update-policy.md)

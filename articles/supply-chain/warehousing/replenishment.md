@@ -20,10 +20,10 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d933910faa726ea279a3371f6c8a3eca9bc9dfee
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 1b6086f7769086a9cdbb61c03882ea21d908ab4a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -56,7 +56,7 @@ Pieprasījuma papildināšana tiek atbalstīta pārdošanas pasūtījumiem, pār
 ## <a name="minmax-replenishment"></a>Minimālā/maksimālā papildināšana
 Minimālajā/maksimālajā papildināšanā krājumi tiek papildināti tā, lai to daudzums būtu starp iestatīto minimālo un maksimālo ierobežojumu. Parasti šis process notiek vienu reizi katru dienu, lai palīdzētu garantēt, ka visi izdošanas novietojumi ir piepildīti līdz maksimālajam līmenim, pirms sākas izdošana. 
 
-Minimālās un maksimālās summas tiek iestatītas papildināšanas veidnē. Daudzi citi iestatījumi šajā veidnē līdzināties iestatījumiem veidnēs, kas tiek izmantotas kopuma pieprasījuma papildināšanai. Šajā veidnē ir jābūt vienai rindai katram krājumam un novietojumam. Kad papildināšanu izpildāt, izmantojot pakešuzdevumu, Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition izvērtē, vai ir nepieciešama papildināšana, izmantojot secību, kādā ir sakārtotas rindas. 
+Minimālās un maksimālās summas tiek iestatītas papildināšanas veidnē. Daudzi citi iestatījumi šajā veidnē līdzināties iestatījumiem veidnēs, kas tiek izmantotas kopuma pieprasījuma papildināšanai. Šajā veidnē ir jābūt vienai rindai katram krājumam un novietojumam. Kad veicat papildināšanu, izmantojot pakešuzdevumu, programmatūrā Microsoft Dynamics 365 for Finance and Operations tiek izvērtēts tas, vai papildināšana ir nepieciešama, izmantojot secību, kādā ir sakārtotas rindas. 
 
 Ņemiet vērā, ka minimālās/maksimālās papildināšanas stratēģija nevar papildināt tukšu novietojumu, izņemot gadījumus, kad šis novietojums ir iestatīts kā krājuma fiksētais novietojums. Ja papildināmais novietojums nav fiksētais novietojums, tad sistēma nevar noteikt, kuri krājumi ir jāpapildina. Tādēļ pirms papildināšanas ir nepieciešams vismaz kaut kāds rīcībā esošais daudzums.
 

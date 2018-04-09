@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: d527df21e791978b41527c01c2e6b68b393861ac
-ms.openlocfilehash: 90dc6214f1eb31440a3ec78a58c6a07394245cd2
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 33a8bc78006ae9e7d5ca905a98886fd7af706604
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 02/28/2018
 
 [!include[banner](../includes/banner.md)]
 
-Darbvieta **Finanšu ieskati** izmanto pakalpojumu Microsoft Power BI, lai apkopotu finanšu izpildes pamatrādītājus (KPI), diagrammas un finanšu pārskatus. Pakalpojums Power BI ir iegults risinājumā Microsoft Dynamics 365 for Finance and Operations Enterprise Edition.
+Darbvieta **Finanšu ieskati** izmanto pakalpojumu Microsoft Power BI, lai apkopotu finanšu izpildes pamatrādītājus (KPI), diagrammas un finanšu pārskatus. Pakalpojums Power BI ir iegults programmā Microsoft Dynamics 365 Finance and Operations.
 Darbvieta **Finanšu ieskati** ir paredzēta analītisku pārskatu veidošanai. Personas visā organizācijā var skatīt, pētīt, izprast un rīkoties. 
 
 **Finanšu ieskati** apvieno virsgrāmatas un apakšgrāmatu datus, lai nodrošinātu visaptverošāku informāciju par organizācijas finanšu veselību.
@@ -287,7 +287,7 @@ Joprojām tiks uzlabotas jaunās darbvietas un finanšu pārskati, kas izmanto p
  - Iespēja definēt pārskatu hierarhijas, lai varētu definēt galvenā konta hierarhijas vai organizācijas hierarhiju, ko izmantot finanšu pārskatos veidošanai, filtrēšanai un drošībai.                                                                    
  - Drukāšanas atbalsts
 
-Par jaunajiem līdzekļiem informācija tiks sniegta rīcības plāna vietnē, tiklīdz tiks sākts darbs: https://roadmap.dynamics.com/.
+Par jaunajām funkcijām informācija tiks sniegta rīcības plāna vietnē, tiklīdz tiks sākts darbs: https://roadmap.dynamics.com/.
 
 ## <a name="additional-resources-for-power-bi"></a>Power BI papildu resursi
 

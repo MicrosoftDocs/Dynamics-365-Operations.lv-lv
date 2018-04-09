@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1212a46cc937b9ccc6ebfa9cc4b89b931f144130
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c7de1d7e57a2a32c339bc576f929958b9de91fcc
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 Šajā rakstā tiek iepazīstināts ar projektu piedāvājumu jēdzienu; projektu piedāvājumus varat izmantot, lai kā pirmo projekta fāzes darbību sniegtu debitoram pievilcīgu piedāvājumu. Projekta piedāvājumā var būt ietverti piedāvātie krājumi un pakalpojumi, vispārēja kontaktinformācija, īpaši tirdzniecības līgumi un atlaides, kā arī iespējamie nodokļi un piemaksas. 
 
-Spēja pārraudzīt, pārskatīt un kontrolēt projektu piedāvājumu un pasūtījumu konveijeru ir nozīmīga daļa no projektu pārvaldības. Šo uzdevumu veikšanā var palīdzēt dažādi Microsoft Dynamics 365 for Finance and Operations izdevuma Enterprise rīki. Piemēram, pareizas atsauces datu definīcijas (piedāvājuma tipi, piedāvājuma izcelsme, prognoze un iespējamība) jums palīdz analizēt konveijeru. Šos rīkus varat izmantot, lai iedalītu kategorijās iemeslus, kuru dēļ projekta piedāvājums tika uzvarēts vai zaudēts, kā arī lai noteiktu piedāvājuma iespējamo vērtību. 
+Spēja pārraudzīt, pārskatīt un kontrolēt projektu piedāvājumu un pasūtījumu konveijeru ir nozīmīga daļa no projektu pārvaldības. Šo uzdevumu veikšanu var atvieglot dažādi programmatūrā Microsoft Dynamics 365 for Finance and Operations ietvertie rīki. Piemēram, pareizas atsauces datu definīcijas (piedāvājuma tipi, piedāvājuma izcelsme, prognoze un iespējamība) jums palīdz analizēt konveijeru. Šos rīkus varat izmantot, lai iedalītu kategorijās iemeslus, kuru dēļ projekta piedāvājums tika uzvarēts vai zaudēts, kā arī lai noteiktu piedāvājuma iespējamo vērtību. 
 
 Projekta piedāvājumā varat ietvert pakalpojumus, vispārīgu kontaktinformāciju, īpašus tirdzniecības līgumus un atlaides, kā arī projektam prognozētos nodokļus un piemaksas. Varat arī projektam atlasīt aktivitātes vai uzdevumus, un izveidot uzdevumu un apakšuzdevumu hierarhiju. Katrai aktivitātei varat ievadīt detalizētu informāciju par šīs aktivitātes hronometrāžu un ilgumu, un par prasmēm un pieredzi, kas darbiniekiem ir nepieciešamas, lai šo aktivitāti varētu veikt. 
 

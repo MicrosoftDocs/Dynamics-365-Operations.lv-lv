@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: ed3f8260cace494170bf1d4db80c3bcb9a1a086e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 9550faec1bbbdc233631e149c09b8e4faf25f5ff
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -85,7 +85,7 @@ Gan veidojot jaunu uzdevumu ierakstu, gan sava ieraksta pamatā izmantojot Micro
 
 [![screen4](./media/screen4.png)](./media/screen4.png)
 
--   **Informācijas darbība**. Šāda tipa anotācijas tiek izveidotas, ar peles labo pogu noklikšķinot uz vadīklas vai jebkurā vietā formā &lt; **Uzdevumu reģistrētājs** &lt; **Pievienot informācijas darbību. **Informācijas darbības tiek parādītas kā numurētas darbības jebkurā vietā, kur tās ievietojat, pat ja UI netika ierakstīta nekāda darbība. Varat pievienot formas līmeņa informācijas darbību vai ar vadīklu saistītu informācijas darbību. Ja informācijas darbība ir saistīta ar kādu formu, uzdevumu ceļveža atskaņošanas laikā uzdevumu ceļveža “burbulis” kļūst redzams kaut kur šajā formā, bez rādītāja. Ja informācijas darbība ir saistīta ar kādu vadīklu, uzdevuma ceļveža atskaņošanas laikā uzdevuma ceļveža “burbulis” norāda uz attiecīgo vadīklu. Palīdzības rūtī informācijas darbības anotācija tiek radīta kā numurēta darbība ar jebkādu jūsu ievadīto tekstu. Izmantojiet informācijas darbības, lai sagatavotu lietotāju nākamajām darbībām, aprakstītu darbības, kas ir jāveic ārpus programmas Microsoft Dynamics 365 for Finance and Operations Enterprise Edition, vai ietvertu atsauci uz citiem ierakstiem (lai gan anotācijās nevar izveidot hipersaites).
+-   **Informācijas darbība**. Šāda tipa anotācijas tiek izveidotas, ar peles labo pogu noklikšķinot uz vadīklas vai jebkurā vietā formā &lt; **Uzdevumu reģistrētājs** &lt; **Pievienot informācijas darbību. **Informācijas darbības tiek parādītas kā numurētas darbības jebkurā vietā, kur tās ievietojat, pat ja UI netika ierakstīta nekāda darbība. Varat pievienot formas līmeņa informācijas darbību vai ar vadīklu saistītu informācijas darbību. Ja informācijas darbība ir saistīta ar kādu formu, uzdevumu ceļveža atskaņošanas laikā uzdevumu ceļveža “burbulis” kļūst redzams kaut kur šajā formā, bez rādītāja. Ja informācijas darbība ir saistīta ar kādu vadīklu, uzdevuma ceļveža atskaņošanas laikā uzdevuma ceļveža “burbulis” norāda uz attiecīgo vadīklu. Palīdzības rūtī informācijas darbības anotācija tiek radīta kā numurēta darbība ar jebkādu jūsu ievadīto tekstu. Izmantojiet informēšanas darbības, lai sagatavotu lietotāju nākamajām darbībām, aprakstītu darbības, kas ir jāveic ārpus programmatūras Microsoft Dynamics 365 for Finance and Operations, vai ietvertu atsauci uz citiem ierakstiem (lai gan anotācijās nevar izveidot hipersaites).
 
 **Nosakiet, cik ilgu ierakstu veidot**
 

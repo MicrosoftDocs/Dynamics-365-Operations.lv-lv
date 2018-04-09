@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fa11f1775017dd9bada61340b4bed70ea66a4137
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a44b3d2ee6e47e71103c7be04b731d4faa79c448
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -96,7 +96,7 @@ Ieņēmumu izmaksu elements, kas atlasīts atlīdzības grupā, tiek lietots, ka
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Prognozes pozīciju izveide esošajiem amatiem
 
-Lai nodrošinātu visprecīzāko budžeta plānošanu, varat izveidot prognozes pozīcijas, izmantojot informāciju no esošām pozīcijām programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise neatkarīgi no tā, vai pozīcija pašlaik ir aizņemta vai brīva. 
+Lai nodrošinātu visprecīzāko budžeta plānošanu, varat izveidot prognozes pozīcijas, izmantojot informāciju no programmatūrā Microsoft Dynamics 365 for Finance and Operations esošajiem amatiem neatkarīgi no tā, vai amats pašlaik ir aizņemts vai brīvs. 
 
 Funkcija **Pievienot esošos amatus** parāda visus organizācijas amatus. Iestatot **No** datumu, varat mainīt amatu sarakstu, lai tajā ir amati, kas pastāvējusi kādā datumā agrāk vai parasti nākotnē (piemēram, nākamā budžeta cikla sākumu). Atlasiet budžeta plānošanas procesu un budžeta plāna scenāriju, atlasiet amatus sarakstā un pēc tam noklikšķiniet uz **Labi**, lai izveidotu prognozes pozīcijas atlasītajiem amatiem. Ievērojiet, ka var izveidot tikai vienu prognozes pozīciju katram esošajam amatam budžeta plānošanas procesā un scenārijā. Tomēr, varat izveidot papildu versijas, piešķirot citus budžeta plāna scenārijus. 
 

@@ -17,10 +17,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 34dc8d762db4a4802e52188ebda298db234ee376
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 551f3d5fc52fac725fcc9fedc37dc1c85fac5a26
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="vendor-invoice-automation"></a>Kreditoru rēķinu izrakstīšanas automatizācija
@@ -29,7 +29,7 @@ ms.lasthandoff: 03/05/2018
 
 Šajā tēmā ir paskaidrots, kādi līdzekļi ir pieejami kreditoru rēķinu (arī to rēķinu, kam ir pielikumi) automatizācijai visā procesa garumā.
 
-Organizācijas, kast vēlas uzlabot savus kreditoru procesus, rēķinu apstrādi bieži norāda kā vienu no galvenajiem procesiem, kura efektivitāti ir nepieciešams palielināt. Daudzos gadījumos šīs organizācijas papīra rēķinu apstrādi uztic trešās puses optiskās rakstzīmju pazīšanas (OCR) pakalpojumu sniedzējam. Viņi saņem ar mašīnu lasāmus rēķina metadatus kopā ar skenētu katra rēķina attēlu. Automatizācijas nolūkos tiek izveidots “pēdējās jūdzes” risinājums, lai iespējotu šo artefaktu patēriņu rēķinu apstrādes sistēmā. Microsoft Dynamics 365 for Finance and Operations Enterprise izdevums tagad komplektācijā nodrošina šo “pēdējās jūdzes” automatizāciju ar rēķinu automatizācijas risinājuma palīdzību.
+Organizācijas, kast vēlas uzlabot savus kreditoru procesus, rēķinu apstrādi bieži norāda kā vienu no galvenajiem procesiem, kura efektivitāti ir nepieciešams palielināt. Daudzos gadījumos šīs organizācijas papīra rēķinu apstrādi uztic trešās puses optiskās rakstzīmju pazīšanas (OCR) pakalpojumu sniedzējam. Viņi saņem ar mašīnu lasāmus rēķina metadatus kopā ar skenētu katra rēķina attēlu. Automatizācijas nolūkos tiek izveidots “pēdējās jūdzes” risinājums, lai iespējotu šo artefaktu patēriņu rēķinu apstrādes sistēmā. Tagad programmatūra Microsoft Dynamics 365 for Finance and Operations jau sākotnēji nodrošina šī pēdējā soļa automatizāciju, izmantojot rēķinu automatizācijas risinājumu.
 
 ## <a name="solution-context"></a>Risinājuma konteksts
 

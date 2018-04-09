@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 97f70bf2f122ee06900a1a9b930d29aab5ce4b25
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 211ced007e7729265621a05c2162a228eb0023c2
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šajā rakstā aprakstīts, kā izmantot programmatūru Microsoft Dynamics 365 for Finance and Operations, izdevumu Enterprise, lai palīdzētu kontrolēt un pārraudzīt darbu, ko darbinieki veic jūsu noliktavās.
+Šajā rakstā aprakstīts, kā izmantot programmu Microsoft Dynamics 365 for Finance and Operations, lai palīdzētu kontrolēt un pārraudzīt darbu, ko darbinieki veic jūsu noliktavās.
 
 Ja jūs izmantojat funkcionalitāti Noliktavas pārvaldībā, visas noliktavas darbinieka operācijas tiek sauktas par *darbu*. Tāds darbs kā rīcībā esošo krājumu izdošana, pārvietošana un uzskaite tiek reģistrēts, izmantojot mobilās ierīces. Pirms noliktavas darbinieks var veikt darbu, viņam ir jābūt saistītam ar darbinieku Personāla vadībā. Ar katru **Darbinieka** kontu var būt saistīti vairāki noliktavas darba lietotāji. Šie darba lietotāji var strādāt dažādās noliktavās un tiem var būt dažādi piekļuves līmeņi dažādām mobilās ierīces izvēlnēm. Noliktavas darba lietotājus var uzskatīt par vairākām pieteikšanām atlasītajam darbiniekam. Katram darba lietotājam ir noklusētā noliktava, un noteiktas darbplūsmas tiek atklātas caur izvēlnes elementiem, kas ir pieejami šī darba lietotājam. 
 

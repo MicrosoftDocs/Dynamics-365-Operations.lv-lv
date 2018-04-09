@@ -1,6 +1,6 @@
 ---
 title: "Izdevumu darbplūsma"
-description: "Šajā tēmā ir skaidrots, kā programmatūrā Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition varat izmantot darbplūsmu sistēmu, lai modulī Izdevumu pārvaldība iestatītu pārskatīšanas procesu izdevumu pārskatiem."
+description: "Šajā tēmā ir izskaidrots, kā programmā Microsoft Dynamics 365 for Finance and Operations var izmantot darbplūsmu sistēmu, lai modulī Izdevumu pārvaldība iestatītu izdevumu pārskatu pārskatīšanas procesu."
 author: saraschi2
 manager: AnnBe
 ms.date: 09/13/2017
@@ -19,10 +19,10 @@ ms.search.validFrom:
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d60d2f462a1fd27d4655e68aab7f96fb28a34b77
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 6ee607f723659a5b6ecd655ba4fdfca35a4c582d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/03/2017
 
 [!include[banner](../includes/banner.md)]
 
-Programmatūrā Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition varat izmantot darbplūsmu sistēmu, lai modulī Izdevumu pārvaldība iestatītu pārskatīšanas procesu izdevumu pārskatiem. Varat iestatīt darbplūsmu, kas izmanto tālāk norādītos kritērijus, lai noteiktu, kurš apstiprina izdevumu pārskatus.
+Programmā Microsoft Dynamics 365 for Finance and Operations var izmantot darbplūsmu sistēmu, lai modulī Izdevumu pārvaldība iestatītu izdevumu pārskatu pārskatīšanas procesu. Varat iestatīt darbplūsmu, kas izmanto tālāk norādītos kritērijus, lai noteiktu, kurš apstiprina izdevumu pārskatus.
 
 - Darbinieku pārskatu veidošanas hierarhija un sākotnēji definētu apstiprinājumu ierobežojumi
 - Vairāku līmeņu apstiprinājums, kas atbalsta pagaidu apstiprinātājus un galīgo apstiprinātāju

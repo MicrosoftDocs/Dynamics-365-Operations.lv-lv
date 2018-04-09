@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 274a5e696bfde4f5e27bc186fadbab69f5fc655d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3e9f00fdc32feda0a62f71a92e503a677dce35cc
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -35,7 +35,7 @@ Izmantojiet lapu **Finanšu dimensijas**, lai izveidotu finanšu dimensijas, ko 
 
 Kad esat izveidojis finanšu dimensijas, izmantojiet lapu **Finanšu dimensiju vērtības**, lai katrai finanšu dimensijai piešķirtu papildu rekvizītus. 
 
-Finanšu dimensijas varat izmantot, lai attēlotu juridiskās personas. Programmatūrā Microsoft Dynamics 365 for Finance and Operations, izdevumā Enterprise nav nepieciešams izveidot juridiskās personas. Taču finanšu dimensijas nav paredzētas tam, lai risinātu juridisko personu operāciju vai biznesa prasības. Programmatūras Finance and Operations starpvienību uzskaites funkcionalitāte ir paredzēta darbam tikai ar katras transakcijas ietvaros izveidotajiem uzskaites ierakstiem. 
+Finanšu dimensijas varat izmantot, lai attēlotu juridiskās personas. Programmā Microsoft Dynamics 365 for Finance and Operations nav jāizveido juridiskās personas. Taču finanšu dimensijas nav paredzētas tam, lai risinātu juridisko personu operāciju vai biznesa prasības. Programmatūras Finance and Operations starpvienību uzskaites funkcionalitāte ir paredzēta darbam tikai ar katras transakcijas ietvaros izveidotajiem uzskaites ierakstiem. 
 
 Pirms finanšu dimensijas iestatāt kā juridiskas personas, nosakiet, vai šie iestatījumi ir piemēroti jūsu organizācijai, novērtējot savas uzņēmējdarbības procesus tālāk norādītajās jomās.
 

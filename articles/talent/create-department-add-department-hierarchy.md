@@ -19,10 +19,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: cea3ecd66a57780c9ef1b3a3c21f1e5273faa0ef
+ms.sourcegitcommit: 812db9f1d319e4d16f83700a7153a0a3b318963e
+ms.openlocfilehash: 3fc30669bf7a16616484bf7115cb121ce463840f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/23/2018
 
 ---
 
@@ -56,7 +56,6 @@ Lai pievienotu nodaļu nodaļu hierarhijai, rīkojieties šādi.
 5.  Saglabājiet izmaiņas. Jūs saņemsiet ziņojumu, ka ir izveidota hierarhijas melnraksta versija.
 6.  Kad esat pabeidzis, hierarhijas veidotājā noklikšķiniet uz **Publicēt**. Varat ievadīt spēkā stāšanās datumu, kas norāda, kad šī hierarhija ir jāpublicē. Piemēram, lai pievienotu jaunu nodaļu nākamā kalendārā gada sākumā, iestatiet spēkā stāšanās datumu uz jaunā kalendāra gada 1. janvāri. Hierarhijas izmaiņas stāsies spēkā šajā datumā.
 
-
-
-
+## <a name="steps-for-creating-a-department"></a>Norādījumi par nodaļas izveidi
+Sīku jaunas nodaļas izveides procedūras aprakstu skatiet tēmā [Jaunu nodaļu definēšana](../fin-and-ops/hr/tasks/define-new-departments.md). 
 

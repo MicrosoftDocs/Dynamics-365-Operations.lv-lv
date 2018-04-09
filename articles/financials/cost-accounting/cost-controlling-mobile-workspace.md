@@ -18,10 +18,10 @@ ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 5b57bf268ac9e91c98a0b8709061e695ebf482c6
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 39578744654215795f43fec8dcc70c264b66fb0b
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -78,8 +78,8 @@ Mobilajā darbvietā **Izmaksu kontrolēšana** ir pieejamas tālāk norādītā
 ## <a name="prerequisites"></a>Priekšnosacījumi
 Priekšnosacījumi atšķiras atkarībā no jūsu organizācijai izvietotās Microsoft Dynamics 365 versijas.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Priekšnosacījumi, ja lietojat Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition
-Ja jūsu organizācijai ir izvietota programmatūra Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, tad sistēmas administratoram ir jāpublicē mobilā darbvieta **Izmaksu kontrolēšana**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Programmas Microsoft Dynamics 365 for Finance and Operations izmantošanas priekšnoteikumi
+Ja jūsu organizācijai ir izvietota programma Microsoft Dynamics 365 for Finance and Operations, tad sistēmas administratoram ir jāpublicē mobilā darbvieta **Izmaksu kontrolēšana**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Priekšnosacījumi, ja lietojat Microsoft Dynamics 365 for Operations versiju 1611 ar 3. platformas atjauninājumu vai jaunāku tā versiju.
 Ja jūsu organizācija ir izvietota Microsoft Dynamics 365 for Operations versija 1611 ar 3. platformu atjauninājumu vai jaunāku tā versiju, sistēmas administratoram ir jāizpilda tālāk norādītie priekšnoteikumi.

@@ -19,10 +19,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 84d5f60cdce4cd667c408d17d9892d7079947f58
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: fc7194e7f95a6a99587a6f7e8ab8a30957bbbd90
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 03/08/2018
 
 Šajā tēmā ir sniegta vispārīga informācija par anketām, ka arī saites plašākas informācijas iegūšanai. Anketa ir jautājumu kopa, kas tiek izmantota, lai iegūtu informāciju dažādiem nolūkiem. Varat izstrādāt, izveidot, izplatīt un aizpildīt anketas un pēc tam analizēt rezultātus. 
 
-Izmantojot dažādus programmatūrā Microsoft Dynamics 365 Finance and Operations izdevumā Enterprise pieejamos līdzekļus, varat pielāgot anketu atbilstoši savām īpašajām prasībām. Tālāk ir sniegti daži piemēri par veidiem, kā varat izmantot anketas.
+Izmantojot dažādus programmatūrā Microsoft Dynamics 365 for Finance and Operations pieejamos līdzekļus, varat pielāgot anketu atbilstoši savām īpašajām prasībām. Tālāk ir sniegti daži piemēri par veidiem, kā varat izmantot anketas.
 
 -   pārbaudītu darbinieku un kandidātu profesionālās iemaņas;
 -   Novērtēt, vai kursu dalībnieki apguva kursa materiālu.

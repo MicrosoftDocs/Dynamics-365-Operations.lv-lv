@@ -19,10 +19,10 @@ ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: c54f6f12e47ae0a185a7918517c7fd601f457fa4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 735a25d625774892ff71d4799932f15c258dfbfa
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -59,8 +59,8 @@ Mobilā darbvieta nodrošina tālāk norādītos līdzekļus.
 ## <a name="prerequisites"></a>Priekšnosacījumi
 Priekšnosacījumi atšķiras atkarībā no jūsu organizācijai izvietotās Microsoft Dynamics 365 versijas.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Priekšnosacījumi, ja lietojat Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 
-Ja jūsu organizācijai ir izvietota programmatūra Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, tad sistēmas administratoram ir jāpublicē mobilā darbvieta **Rīcībā esošie krājumi**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Programmas Microsoft Dynamics 365 for Finance and Operations izmantošanas priekšnoteikumi 
+Ja jūsu organizācijai ir izvietota programma Microsoft Dynamics 365 for Finance and Operations, tad sistēmas administratoram ir jāpublicē mobilā darbvieta **Rīcībā esošie krājumi**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Priekšnosacījumi, ja lietojat Microsoft Dynamics 365 for Operations versiju 1611 ar 3. platformas atjauninājumu vai jaunāku tā versiju.
 Ja jūsu organizācija ir izvietota Microsoft Dynamics 365 for Operations versija 1611 ar 3. platformu atjauninājumu vai jaunāku tā versiju, sistēmas administratoram ir jāizpilda tālāk norādītie priekšnoteikumi. 

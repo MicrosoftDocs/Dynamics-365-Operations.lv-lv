@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2c0a00b6a1956f1f22a50951308c434c3f0eefc4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: baefad4efd51661c236459493b7f02747593bbab
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -73,7 +73,7 @@ Tālāk ir daži parastu statistisko dimensijas elementu piemēri.
 
 ## <a name="statistical-measure-provider-template"></a>Statistisko mērījumu nodrošinātāja veidne
 
-Statistiskos mērījumus var iegūt no dažāda veida avotiem. Microsoft Dynamics 365 for Finance and Operations izdevums Enterprise ir lielisks statistisko līdzekļu ieguves avots. Statistisko mērvienību nodrošinātāja veidni var izmantot, lai viegli konfigurētu statistiskos mērījumus, kurus vēlaties izgūt.
+Statistiskos mērījumus var iegūt no dažāda veida avotiem. Microsoft Dynamics 365 for Finance and Operations ir lielisks statistisko mēru ieguves avots. Statistisko mērvienību nodrošinātāja veidni var izmantot, lai viegli konfigurētu statistiskos mērījumus, kurus vēlaties izgūt.
 
 Statistisko mērījumu nodrošinātāja veidnes definīcija ir vispārīga, un to var atkārtoti izmantot vairākiem statistiskajiem dimensijas elementiem.
 
@@ -132,13 +132,13 @@ Lai iegūtu statistiskos mērījumus analīzē Izmaksu uzskaite, ir jānosaka st
 > [!NOTE]
 > Šajā piemērā mēs izveidosim relāciju tikai **faktiskajai versijai**.
 
-Lai izveidot relāciju, dodieties uz **Izmaksu uzskaites virsgrāmata** \> **Faktiskā versija** \> **Pārvaldība** \> **Statistiskie mēri**. Šajā scenārijā atlasiet datu savienotāju **Dynamics 365 for Finance and Operations, Enterprise izdevums — statistiskie mēri**, jo vēlaties izgūt datus no programmatūras Finance and Operations.
+Lai izveidot relāciju, dodieties uz **Izmaksu uzskaites virsgrāmata** \> **Faktiskā versija** \> **Pārvaldība** \> **Statistiskie mēri**. Šajā scenārijā atlasiet datu savienotāju **Dynamics 365 for Finance and Operations — statistiskie mēri**, jo vēlaties izgūt datus no programmatūras Finance and Operations.
 
 **Datu avots**
 
 | Nosaukums        | Datu savienotājs                                                                     | Statisko dimensiju elements |
 |-------------|------------------------------------------------------------------------------------|------------------------------|
-| FTEs D365FO | Dynamics 365 for Finance and Operations, Enterprise izdevums — statistiskie mēri | FTE                         |
+| FTEs D365FO | Dynamics 365 for Finance and Operations — statistiskie mēri | FTE                         |
 
 **Datu nodrošinātāja konfigurācija**
 
@@ -220,13 +220,13 @@ Lai iegūtu statistiskos mērījumus analīzē Izmaksu uzskaite, ir jānosaka st
 > [!NOTE]
 > Šajā piemērā mēs izveidosim relāciju tikai **faktiskajai versijai**.
 
-Lai izveidot relāciju, dodieties uz **Izmaksu uzskaites virsgrāmata** \> **Faktiskā versija** \> **Pārvaldība** \> **Statistiskie mēri**. Šajā scenārijā atlasiet datu savienotāju **Dynamics 365 for Finance and Operations, Enterprise izdevums — statistiskie mēri**, jo vēlaties izgūt datus no programmatūras Finance and Operations.
+Lai izveidot relāciju, dodieties uz **Izmaksu uzskaites virsgrāmata** \> **Faktiskā versija** \> **Pārvaldība** \> **Statistiskie mēri**. Šajā scenārijā atlasiet datu savienotāju **Dynamics 365 for Finance and Operations — statistiskie mēri**, jo vēlaties izgūt datus no programmatūras Finance and Operations.
 
 **Datu avots**
 
 | Nosaukums           | Datu savienotājs                                                                     | Statisko dimensiju elements |
 |----------------|------------------------------------------------------------------------------------|------------------------------|
-| Pakotne CC D365FO | Dynamics 365 for Finance and Operations, Enterprise izdevums — statistiskie mēri | Pakotnes kopija                      |
+| Pakotne CC D365FO | Dynamics 365 for Finance and Operations — statistiskie mēri | Pakotnes kopija                      |
 
 Sistēma atpazīst, ka ProdRouteTrans ir tabula, kur katrs ieraksts pieder atsevišķai juridiskai personai. Tāpēc jums būs jāizvēlas juridiskā persona, no kuras jāimportē darbības.
 

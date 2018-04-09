@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 31abc719a8df7507e74b3bf6823306ba52261bc3
-ms.openlocfilehash: ebb3574b3f5c40b5512c0352c83520558f63879a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: e31a013d6bf33b92b02bd9645a19380ba07f4a05
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/10/2017
 [!include[banner](../includes/banner.md)]
 
 
-Microsoft Dynamics 365 for Finance and Operations izdevums Enterprise nodrošina divus veidus, kā pārvaldīt un kontrolēt jūsu projektus: izmantojot projektu prognozes un projekta budžetus. 
+Microsoft Dynamics 365 for Finance and Operations nodrošina divus veidus, kā pārvaldīt un kontrolēt projektus: projektu prognozes un projektu budžetus. 
 
 Lietojiet projektu prognozēšanu, ja jūsu organizācijai ir operatīva perspektīva un ja tas koncentrējas uz ieņēmumiem un izmaksām, kas ir atvasināti no noteiktām transakcijām. Izmantojiet projektu budžetu veidošanu, ja jūsu organizācija vairāk koncentrējas uz finanšu summām. 
 

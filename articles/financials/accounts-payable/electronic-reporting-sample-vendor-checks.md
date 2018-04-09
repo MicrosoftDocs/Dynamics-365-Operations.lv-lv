@@ -17,10 +17,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c9abea228cdaae84ca2b9aada9f36bbe79c1dc6b
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 6702ac241c41cc99d96bc46a515837235b3ae651
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ Varat izmantot elektronisko pārskatu (ER) veidošanas rīku, lai formatētu kr
 
 Vienmēr apmeklējiet koplietojamo līdzekļu bibliotēku pakalpojumā Microsoft Dynamics Lifecycle Services (LCS) un skatiet jaunāko pieejamo pamatlīdzekļa tipa **GER konfigurācija** failu sarakstu. Nākamajā sadaļā “Kas man ir jāiestata?” ir ietverta saite uz tēmu, kurā ir paskaidrots, kā izveidot LCS repozitoriju, lai varētu pārskatīt pieejamās konfigurācijas un importēt atlasītās konfigurācijas.
 
-Programmatūras Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise ir ietverts čeka parauga formāts, kurā čeks atrodas augšpusē un tam seko divas pārskaitījuma sadaļas. Tajā ir ietverts arī čeka parauga formāts, kurā čeks atrodas pa vidu starp divām pārskaitījuma sadaļām. Šie čeku paraugu formāti atbilst Deluxe uzņēmējdarbības čeku formātiem.
+Programmā Microsoft Dynamics 365 for Finance and Operations ir ietverts čeka parauga formāts, kurā čeks atrodas augšpusē un pēc tam ir divas pārskaitījuma sadaļas. Tajā ir ietverts arī čeka parauga formāts, kurā čeks atrodas pa vidu starp divām pārskaitījuma sadaļām. Šie čeku paraugu formāti atbilst Deluxe uzņēmējdarbības čeku formātiem.
 
 ## <a name="what-do-i-have-to-set-up"></a>Kas man ir jāiestata?
 
