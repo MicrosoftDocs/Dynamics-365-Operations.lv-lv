@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="use-a-record-template-to-create-a-new-record"></a>Ieraksta veidnes izmantošana, lai izveidotu jaunu ierakstu
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir parādīts, kā izmantot iepriekš definētu ieraksta veidni, lai izveidotu jaunu ierakstu. Lai izpildītu šo procedūru, jums vispirms ir jāizpilda procedūra “Izveidot ierakstu veidni, lai atvieglotu datu ievadi”.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 11/08/2017
 ---
 # <a name="rename-or-modify-a-project-stage"></a>Projekta stadijas pārdēvēšana vai izmainīšana
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Projektu statusi var kalpot kā ceļvedis projekta dzīves ciklā. Projektu stadijas, ko vēlaties ietvert projektā, varat definēt lapas Projektu vadības un uzskaites parametri apgabalā Projekta posms. Programmā Dynamics 365 for Finance and Operations ir pieejamas piecas dažādas projekta stadijas un trīs lietotāja definētas stadijas. Varat atjaunināt tās projekta stadijas nosaukumu, ko izmantojat projekta izpildes izsekošanai. Varat arī norādīt lietotāja definēto statusu nosaukumus. Šajā uzdevuma aprakstā ir paskaidrots, kā pārdēvēt vai izmainīt projekta stadiju, un tajā tiek izmantota USSI datu kopa.
 

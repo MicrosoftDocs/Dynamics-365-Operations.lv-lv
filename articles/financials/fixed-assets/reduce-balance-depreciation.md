@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reduce-balance-depreciation"></a>Degresīvā nolietojuma aprēķināšanas metode
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegts pārskats par degresīvās nolietojuma aprēķināšanas metodi.
 
@@ -80,7 +79,7 @@ Izmantojot degresīvās nolietojuma aprēķināšanas metodi, 30 procenti no nol
 | 2. gads | (7000 – 1000) \* 30% = 1800            | (7000 -1800) = 5200                |
 | 3. gads | (5200 – 1000) \* 30% = 1260            | (5200 - 1260) = 3940               |
 
- 
+
 -
 
 

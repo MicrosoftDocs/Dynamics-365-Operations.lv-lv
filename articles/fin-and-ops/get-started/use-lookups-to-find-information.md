@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="use-lookups-to-find-information"></a>Lietot uzmeklēšanu, lai atrastu informāciju
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Programmatūrā Microsoft Dynamics 365 for Finance and Operations daudziem laukiem ir pārlūki, kas var palīdzēt jums viegli atrast pareizo vai vajadzīgo vērtību. Uzmeklēšanai ir pievienoti vairāki uzlabojumi, vadīklas padarot ērtāk lietojamas un lietotāju darbu — vēl produktīvāku. Šajā tēmā jūs uzzināsiet par šiem jaunajiem uzmeklēšanas līdzekļiem un saņemsiet noderīgus padomus par optimālu uzmeklēšanas lietojumu sistēmā.  
 

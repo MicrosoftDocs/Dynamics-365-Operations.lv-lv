@@ -28,7 +28,7 @@ ms.lasthandoff: 02/27/2018
 
 # <a name="generate-electronic-documents-and-update-application-data-using-the-electronic-reporting-tool"></a>Ģenerēt elektroniskos dokumentus un atjaunināt programmas datus, izmantojot elektronisko pārskatu veidošanas rīku
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Varat veidot elektronisko pārskatu (Electronic Reporting — ER) formātus, ko programmā Finance and Operations var izmantot izejošo elektronisko dokumentu ģenerēšanai. Varat arī izstrādāt ER formātus, kas parsē ienākošos elektroniskos dokumentus un izmanto šajos dokumentos ietverto saturu, lai atjauninātu programmas datus. 
 

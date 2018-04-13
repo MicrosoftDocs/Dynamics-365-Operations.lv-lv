@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-an-addition-to-a-fixed-asset"></a>Pamatlīdzekļu papildinājuma ievadīšana
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā pievienot esoša pamatlīdzekļa papildinājumu. Pamatlīdzekļu papildinājumu mērķis ir izsekot krājumu papildinājumus, apkopi vai līdzekļa uzlabošanu, un tiem ir tikai informatīvs raksturs. Jebkuras pamatlīdzekļa vērtības vai lietošanas ilguma izmaiņas ir jāveic atsevišķi.   
 

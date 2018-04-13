@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="online-store-overview"></a>Tiešsaistes veikala apskats
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Šajā rakstā ir sniegta informācija par mazumtirdzniecības tiešsaistes veikaliem un par to iestatīšanu programmā Microsoft Dynamics 365 for Retail.
 

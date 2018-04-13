@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-journal-entries-and-transactions"></a>Žurnāla ierakstu un transakciju skatīšana
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir paskaidroti dažādie veidi, kādā varat skatīt žurnālu ierakstus un transakcijas. 
 
@@ -55,7 +54,7 @@ Papildus finanšu pārskatiem varat izmantot tālāk aprakstītos Virsgrāmatas 
 -   **Darbības izcelsme** — šajā transakcijas pārskatā tiek rādīts konts pēc žurnāla, transakcijas, uzskaites un pārskata valūtas. Tajā tiek rādītas arī visas tā žurnāla rindas, kas tika izmantots kā korespondējošais konts.
 
 
-##<a name="see-also"></a>Skatiet arī
+## <a name="see-also"></a>Skatiet arī
 - [Virsgrāmatas konta bilances](general-ledger-account-balances.md) 
 - [Uzskaites avota pārlūks](..\accounts-payable\accounting-source-explorer.md)
 - [Finanšu pārskati](financial-reporting-getting-started.md)

@@ -28,8 +28,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="procurement-and-sourcing-overview"></a>Sagādes un avotu apskats
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegts pārskats par funkcionalitāti, kas ir pieejama Sagādes un plānošanas modulī.
 
@@ -39,7 +38,7 @@ Sagāde un avoti aptver visas darbības no preces un pakalpojumus nepieciešamī
 *Pieprasījumi* var rādīt nepieciešamību pēc precēm vai pakalpojumiem, piemēram, ja darbiniekam ir nepieciešama kāda prece. *Preču katalogus* var iestatīt, lai organizētu pieejamo preču atlasi vai katalogā vēl nepieejamo preču pieprasījumu veikšanu, kas ļauj pirkšanas struktūrvienībai apsvērt, kā preces var piegādāt.  
 
 *Tēriņu limitus* var izmantot, lai ierobežotu pieprasījuma izdevumus, un *pirkšanas darbplūsma* pievieno iespēju prasīt apstiprinājumu pirms pasūtīšanas. Ir iespējams arī norādīt budžeta līdzekļu sadalījumu, ja tas ir nepieciešams.  
-  
+
 Sagādes nodaļa identificē nepieciešamo preču un pakalpojumu piegādātājus un tas var iekļaut *piedāvājuma pieprasījumu* nosūtīšanu vairākiem iespējamiem piegādātājiem. Ir iespējams koplietot pieprasītās preces specifikācijas un potenciālie kreditori var tos skatīt, lai redzētu, vai viņi var piegādāt preces, kas tām atbilst. Kreditori atgriež savus piedāvājumus, kurus pēc tam pārskata sagādes nodaļa pirms tā atlasa piegādātāju, no kura vēlas iegādāties preces.  
 
 Pirkšanas pasūtījums iekļauj opciju izsūtīt *pirkšanas pieprasījumu* kreditoram kā alternatīvu plašākam piedāvājuma pieprasījuma procesam. Pirkšanas pieprasījumu var izmantot, lai palīdzētu izveidot noteikumus, piemēram, cenas, atlaides un pasūtījuma piegādes datumu. Ja kreditori ir iestatīti portāla **Kreditors** lietošanai, tad pirkšanas pieprasījuma funkcionalitāte ir atspējota. Tā vietā pasūtījums ir koplietots **Kreditoru** portālā, un, kad tiek nosūtīts *apstiprinājuma pieprasījums*, kreditors var tieši apstiprināt šo pasūtījumu.  

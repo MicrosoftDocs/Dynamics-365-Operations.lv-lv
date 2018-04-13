@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="choose-between-modern-pos-and-cloud-pos"></a>Izvēle starp Modern POS un Cloud POS
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Šajā tēma ieviesējiem tiek sniegta papildu fona informācija, padomi un norādījumi par faktoriem, kas ir jāņem vērā, izvietojot programmatūru Microsoft Dynamics 365 for Retail. Pārskatot un izvietošanas procesā ievērojot šis norādījumus, ieviesēji var izvairīties no problēmām, kuras varētu ietekmēt lietotāju apmierinātību vai veiktspēju.
 
@@ -92,8 +92,8 @@ Plānojot POS implementēšanu savos mazumtirdzniecības veikalos, ir jāapsver 
 
     Izņemot gadījumus, kad attiecīgās ierīces savienojamība ir ļoti uzticama un noturīga, vai gadījumus, kad mazumtirgotājam ir pieļaujama zināma dīkstāve, iesakām vienu no tālāk norādītajām opcijām.
 
-    - Izmantojiet MPOS operētājsistēmā Windows un iespējojiet bezsaistes režīmu.
-    - Izvietojiet lokālu RSSU.
+  - Izmantojiet MPOS operētājsistēmā Windows un iespējojiet bezsaistes režīmu.
+  - Izvietojiet lokālu RSSU.
 
     Abas šīs opcijas nav savstarpēji izslēdzošas. Lai iegūtu visuzticamāko topoloģiju, mazumtirgotāji var izvietot lokālu RSSU, mazinot atkarību no interneta savienojamības vai Azure pieejamības, un viņi var izvietot arī POS reģistrus, kur ir iespējots bezsaistes režīms, ja rodas problēma ar lokālo serveri vai tīklu.
 

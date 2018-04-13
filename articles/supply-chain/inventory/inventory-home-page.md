@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-management"></a>Krājumu vadība 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Varat izmantot moduli Krājumu vadība, lai veiktu tālāk norādītos uzdevumus.
 

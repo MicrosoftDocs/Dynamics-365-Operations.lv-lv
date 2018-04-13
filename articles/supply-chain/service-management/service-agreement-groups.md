@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="service-agreement-groups"></a>Pakalpojumu līgumu grupas 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Pakalpojumu līgumu grupas is noderīgas pakalpojumu līgumu kārtošanai un filtrēšanai. Lietojiet pakalpojumu līgumu grupas, lai sagrupētu pakalpojumu līgumus, piemēram, pēc uzņēmuma lieluma, ģeogrāfiskās atrašanās vietas, vai rūpniecības veida. Līdzīgi varat lietot līgumu grupas, lai grupētu pakalpojumu līgums pēc debitoriem piedāvātā pakalpojuma līmeņa.
 

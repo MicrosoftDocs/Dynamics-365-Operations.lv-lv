@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="exchange-rate-adjustments"></a>Maiņas kursa korekcijas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par maiņas kursa korekciju juridiskām personām Igaunijā, Ungārijā, Čehijas Republikā, Latvijā, Lietuvā, Polijā un Krievijā.
 
@@ -53,18 +52,21 @@ Tālāk ir parādīti šajā piemērā izmantotie maiņas kursi no Kanādas dol�
 -   2013. gada 3. janvāris: 420,0000
 
 ### <a name="invoice"></a>Rēķins
+
 | Datums                             | Debets/kredīts | Summas               | Virsgrāmatas (VG) konts    | Darbības veids             | Grāmatošanas tips       | Kredītkarte | Labojums |
 |----------------------------------|--------------|-----------------------|--------------------------------|------------------------------|--------------------|--------|------------|
 | 1-Dec-12                         | Debetkarte        | 10 000 CAD/40 000 USD | debitoru parādi                             | Rēķins                      | Debitora bilance   |        |            |
 | 1-Dec-12                         | Kredītkarte       | 10 000 CAD/40 000 USD | Korespondējošais                         | Rēķins                      | Virsgrāmatas žurnāls     | X      |
 
 ### <a name="payment"></a>Maksājums
+
 | Datums                             | Debets/kredīts | Summas               | Virsgrāmatas (VG) konts    | Darbības veids             | Grāmatošanas tips       | Kredītkarte | Labojums |
 |----------------------------------|--------------|-----------------------|--------------------------------|------------------------------|--------------------|--------|------------|
 | 3-Jan-13                         | Debetkarte        | 10 000 CAD/42 000 USD | Korespondējošais                         | Maksājums                      | Virsgrāmatas žurnāls     |        |            |
 | 3-Jan-13                         | Kredītkarte       | 10 000 CAD/42 000 USD | debitoru parādi                             | Maksājums                      | Debitora bilance   | X      |            |
 
 ### <a name="settlement"></a>Segšana
+
 | Datums                             | Debets/kredīts | Summas               | Virsgrāmatas (VG) konts    | Darbības veids             | Grāmatošanas tips       | Kredītkarte | Labojums |
 |----------------------------------|--------------|-----------------------|--------------------------------|------------------------------|--------------------|--------|------------|
 |2013. gada 3. janvāris (maksājuma datums) | Debetkarte        | 0 CAD/2000 USD       | debitoru parādi                             | Debitors                     | Peļņa no maiņas kursa |        |            |
@@ -80,7 +82,7 @@ Saistībā ar šo pārvērtēšanu piemēru ievērojiet, ka 2013. gada 3. janv
 | 31-Dec-12           | Kredītkarte       | 0 CAD/5000 USD       | Nerealizētā valūtas korekcijas peļņa | Ārvalstu valūtas pārvērtēšana | Peļņa no maiņas kursa | X      |            |
 | 3-Jan-13            | Debetkarte        | 0 CAD/5000 USD       | debitoru parādi                             | Ārvalstu valūtas pārvērtēšana | Peļņa no maiņas kursa |        | X          |
  3-Jan-13            | Kredītkarte       | 0 CAD/5000 USD       | Nerealizētā valūtas korekcijas peļņa | Ārvalstu valūtas pārvērtēšana | Peļņa no maiņas kursa | X      | X          |
- 
+
 
 ### <a name="revaluation-invoice-date-method-date--january-1-2013"></a>Pārvērtēšana (rēķina datuma metode, datums = 2013. gada 1. janvāris)
 Saistībā ar šo pārvērtēšanu ievērojiet, ka 2013. gada 1. janvāra ieraksts tieši anulē 2013. gada 3. janvāra ierakstu. Pat Virsgrāmatas kontus un grāmatošanas tipi ir vienādi. Turklāt ievērojiet, ka tika iestatīts karodziņš **Labojums**.

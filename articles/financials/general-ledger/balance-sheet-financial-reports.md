@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="balance-sheet-financial-reports"></a>Bilances finanšu pārskati
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir aprakstīti noklusējuma pārskati bilancēm. Tajā ir aprakstīti arī ar šiem pārskatiem saistītie veidošanas bloki. 
 
@@ -71,7 +70,7 @@ Kolonnu definīcijas satur dažādu veidu kolonnas, lai sniegtu dažāda līmeņ
     -   **DESC** — apraksts no rindas definīcijas.
     -   **FD** — finanšu dati par šo gadu līdz šim brīdim.
 
- 
+
 
 <a name="see-also"></a>Skatiet arī
 --------

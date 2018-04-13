@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-application-inbox-records"></a>Pieteikumu iesūtnes ierakstu apstiprināšana
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā pārskatīt pieteikumus, kas saņemti no darbinieku pašapkalpošanās lapām. Papildus pieteikumu pārskatīšanai varat apstiprināt pieteikumu jūsu atlasītajos iesūtnes ierakstos. Pieteikuma iesūtnes ieraksti atspoguļo darba pieteikumus, kas uzņēmumam iesniegti izskatīšanai. Pēc ieraksta apstiprināšanas, personai, kas iesniegusi pieteikumu, tiks izveidots kandidāta ieraksts. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 

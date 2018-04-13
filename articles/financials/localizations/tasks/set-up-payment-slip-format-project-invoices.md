@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-payment-slip-format-for-project-invoices"></a>Maksājuma kvīts formāta iestatīšana projekta rēķiniem
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Uzņēmumi parasti pievieno rēķiniem izdrukātas maksājuma kvītis, lai palīdzētu debitoriem un sniegtu maksājuma atsauci grāmatošanas un norēķinu nolūkiem. Maksājuma kvīts papildus pārdošanas rēķiniem vai brīva teksta rēķiniem var izmantot projektu vai pakalpojumu rēķiniem, atgādinājuma vēstulēm, procentu paziņojumiem un konta pārskatiem. Lai apstrādātu maksājuma kvītis, vispirms jāiestata kreditora identifikācijas numurs un maksājuma kvīts pielikuma formāti.
 

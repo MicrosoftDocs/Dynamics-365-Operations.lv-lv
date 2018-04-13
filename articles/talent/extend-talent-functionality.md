@@ -26,7 +26,7 @@ ms.lasthandoff: 03/08/2018
 ---
 # <a name="extend-the-functionality-of-microsoft-dynamics-365-for-talent"></a>Microsoft Dynamics 365 for Talent funkcionalitātes paplašināšana
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Ja esat izveidojis kādas Microsoft PowerApps programmas, šīs programmas varat palaist no saitēm programmatūrā Microsoft Dynamics 365 for Talent. Lai iestatītu piekļuvi savām programmām, ir jāiestata noteikta informācija sadaļā Talent, kas atrodas konfigurācijas lapā, kuru varat atvērt no darbvietas **Sistēmas administrēšana**.
 
@@ -38,10 +38,10 @@ Lai Talent lapas konfigurētu PowerApps programmu palaišanai, izmantojiet lapu 
 > - Katras PowerApps programmas aprakstošs nosaukums vai identifikators.
 > - Unikāls identifikators (GUID) katrai programmai, kuru pievienojat lapai Talent. Šis programmas ID ir pieejams PowerApps vietnē [powerapps.com](http://powerapps.com/). 
 > - Lapa, no kuras lietotāji var atvērt kādu programmu vai pārskatu. Ne visas Talent lapas atbalsta iegultās PowerApps programmas un Power BI pārskatus. 
-
- > [!NOTE]
- >  Ievadiet lapas iekšējo nosaukumu, nevis parādāmo nosaukumu, kurš ir redzams lapas augšdaļā. Lai atrastu iekšējo nosaukumu, atveriet lapu, kuras iekšējais nosaukums jums ir nepieciešams, un ar peles labo pogu noklikšķiniet jebkurā šīs lapas vietā. Kad tiek atvērta izvēlne, virziet peles rādītāju virs vienuma **Formas informācija**. Iekšējais formas nosaukums izvēlnē tiek rādīts blakus vienumam **Formas informācija**.
- 
+> 
+> [!NOTE]
+>  Ievadiet lapas iekšējo nosaukumu, nevis parādāmo nosaukumu, kurš ir redzams lapas augšdaļā. Lai atrastu iekšējo nosaukumu, atveriet lapu, kuras iekšējais nosaukums jums ir nepieciešams, un ar peles labo pogu noklikšķiniet jebkurā šīs lapas vietā. Kad tiek atvērta izvēlne, virziet peles rādītāju virs vienuma **Formas informācija**. Iekšējais formas nosaukums izvēlnē tiek rādīts blakus vienumam **Formas informācija**.
+> 
 > - Norādiet formas vadīklu, no kuras programma var izgūt konteksta datus. Piemēram, programma varētu izmantot datus par kādu nodarbināto. Ja laukā **Konteksts** ievadāt lapu **Nodarbinātais**, startējot programmu, tiek atvērta lapa **Nodarbinātais**. Ieraksts laukā **Konteksts** nav obligāts. 
 > - Iestatiet lielumu dialoglodziņam, kurā darbosies PowerApps programmas. Dialoglodziņa rūtiņas ir norādītas kā “mazs” vai “liels”, lai optimizētu lietotāja interfeisu, kad jūsu programma attiecīgi darbojas tālruni vai lielākā ierīcē. 
 

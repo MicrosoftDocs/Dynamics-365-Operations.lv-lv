@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="configure-accounts-payable"></a>Kreditoru konfigurēšana
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir aprakstītas lapas, kuras izmantojat, lai programmatūrā Microsoft Dynamics 365 for Finance and Operations iestatītu pamata un papildu funkcionalitāti modulim Parādi kreditoriem. Tajā ir aprakstītas arī iestatīšanas darbības, kas ir jāizpilda, pirms sākat iestatīt moduli Parādi kreditoriem.
 

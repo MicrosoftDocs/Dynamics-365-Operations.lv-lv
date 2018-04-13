@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-withholding-tax"></a>Ieturētā nodokļa iestatīšana
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ieturētais nodoklis ir nodoklis, kas tiek piemērots kreditoram, kuri neveido PVN darījumus. Ieturētais nodoklis, kas tiek aprēķināts kreditora maksājumiem, ir pasīvs. Tāpēc ieturētā nodokļa grāmatošanai ir derīgi tikai bilances konti vai pasīvu konti. Šis uzdevuma ceļvedis parāda, kā iestatīt ieturēto nodokli.
 

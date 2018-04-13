@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="questionnaires"></a>Anketas
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Šajā tēmā ir sniegta vispārīga informācija par anketām, ka arī saites plašākas informācijas iegūšanai. Anketa ir jautājumu kopa, kas tiek izmantota, lai iegūtu informāciju dažādiem nolūkiem. Varat izstrādāt, izveidot, izplatīt un aizpildīt anketas un pēc tam analizēt rezultātus. 
 

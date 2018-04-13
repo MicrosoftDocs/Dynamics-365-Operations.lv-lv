@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Viens dokumenta ar vairākiem debitora vai kreditora ierakstiem
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegts pārskats par to, kas notiek, grāmatojot vienu dokumentu ar vairākiem debitora vai kreditora ierakstiem. Šī funkcionalitāte nebūs pieejama turpmākajās Microsoft Dynamics 365 for Finence and Operations versijās, tāpēc nav ieteicams izmantot šo grāmatošanas metodi, jo uzskaite ietekmē norēķinu apstrādi. 
 
@@ -251,7 +250,7 @@ Lai novērstu nevēlamas problēmas ar turpmāku nosegšanu šai darbībai, vien
 | 001         | Debitors         | US-008      |                 |           |  75,00     | Virsgrāmata          | 999999---          |
 | 002         | Kreditors           | 1001        |                 |  75,00    |            | Virsgrāmata          | 999999---          |
 
- 
+
 
 
 

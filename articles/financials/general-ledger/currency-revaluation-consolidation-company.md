@@ -28,10 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="currency-revaluation-in-a-consolidation-company"></a>Valūtas pārvērtēšana konsolidācijas uzņēmumā
 
-[!include[banner](../includes/banner.md)]
-
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Veicot datu konsolidāciju no vienas norēķinu valūtas uz citu, joprojām jāpalaiž valūtas pārvērtēšana, ja ir izmaiņas valūtas maiņas kursos, lai jūsu konta bilances tiktu pareizi pārvērtētas. Sākotnēji konsolidējot datus, izmantojiet cilni **Valūtas pārrēķināšana**, lai atlasītu sākotnējos maiņas kursus, pārrēķināšanai konsolidācijas procesa laikā. Pēc jaunā valūtas maiņas kursa ievadīšanas (piemēram, nākamajā mēnesī), nepieciešams pārvērtēt kontu bilances. Nerealizētā peļņa vai zaudējumi pēc tam tiek attiecīgi atjaunināta, pamatojoties uz jauno valūtas maiņas kursu un datumu. Šajā piemērā tiek parādīti uzskaites ieraksti, kas tiek izveidoti procesa laikā.
 
@@ -52,6 +49,7 @@ Veicot datu konsolidāciju no vienas norēķinu valūtas uz citu, joprojām jāp
 | 11.10.2015 | 130100 – Debitoru parādi | USD      | -500   |
 
 ## <a name="exchange-rates"></a>Valūtu maiņas kursi
+
 | No valūtas | Uz valūtu | Sākuma datums | Valūtas kurss |
 |---------------|-------------|------------|---------------|
 | EUR           | USD         | 01.10.2015  | 200           |

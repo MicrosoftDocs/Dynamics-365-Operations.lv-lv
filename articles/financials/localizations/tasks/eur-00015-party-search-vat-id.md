@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="party-search-using-vat-id"></a>Pušu meklēšana pēc PVN ID
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir parādīts, kā pabeigt puses meklēšanu, izmantojot reģistrācijas ID. Lai varētu veikt šo procedūru, jums ir jāiestata PVN ID un jāievada PVN ID kreditoriem, debitoriem vai juridiskajām personām.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="cost-accounting-terminology"></a>Izmaksu uzskaites terminoloģija
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā tiek definēti galvenie termini, kas tiek izmantoti Izmaksu uzskaitē.
 
@@ -150,14 +149,14 @@ Formulas sadalījuma pamati sniedz iespēju definēt uzlabotas formulas, lai ieg
 |  + |  Saskaitīšana |
 |  – |  Atņemšana |
 | *  | Reizināšana  |
-    
+
 Parastie IF priekšraksti netiek atbalstīti. Taču varat izveidot priekšrakstus un pārbaudīt, vai tie ir patiesi.
 
 |  **Izraksta validēšana** | **Rezultāts**  |
 |---|---|
 |  a > b| Patiess  |
 |  a > b |  Aplams |
-    
+
 **Pieskaitāmās izmaksas**
 
 Pieskaitāmās izmaksas attiecas uz esošajiem saimnieciskās darbības izdevumiem. Tās ir izmaksas, kuras nevar tieši saistīt ar konkrētu biznesa aktivitāti. Šeit norādītas dažas pieskaitāmās izmaksas:

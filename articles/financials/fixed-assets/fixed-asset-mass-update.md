@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-mass-update"></a>Pamatlīdzekļu atjaunināšana masveidā
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Ja lietojat grāmatas, varat mainīt vienā grāmatā ietverto līdzekļu grupu nolietojuma aprēķināšanas metodes.
 

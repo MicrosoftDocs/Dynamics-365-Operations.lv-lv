@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-released-product-for-a-single-company"></a>Izlaistās preces izveide vienam uzņēmumam
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā izveidot vienu izlaisto preci vienas juridiskās vienības kontekstā. Pēc izlaistās preces izveides tā uzreiz ir pieejama tikai šajā vienībā. Šo procedūru var izmēģināt demonstrācijas datu uzņēmumā USMF. Šo uzdevumu parasti veic preces noformētājs.
 

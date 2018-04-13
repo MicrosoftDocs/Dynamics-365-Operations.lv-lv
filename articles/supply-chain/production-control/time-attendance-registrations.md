@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="time-and-attendance-registration"></a>Laika un apmeklētības reģistrācija
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Laika reģistrācijas darbinieki var ievadīt dažādus laika reģistrācijas veidus, piemēram, ierašanās laiku, aiziešanas laiku, netiešu aktivitāšu un kavējumu reģistrāciju. Šajā tēmā ir aprakstīta reģistrācija, tās aprēķināšana, apstiprināšana un darbplūsmas izmantošana, lai pievienotu struktūru un automātisko apstiprināšanu darba laika uzskaites tabulu apstiprināšanas procesam. 
 
@@ -95,7 +94,7 @@ Ir iespējama iestatīt darbplūsmas apstiprināšanas procesu, kas automātiski
 | Kopējais laika un apmeklētības dienu daudzums            | Darbplūsma var validēt reģistrācijas atbilstoši paredzamajam dienas darba stundu skaitam. |                                                                                                                                                                                                                                                       |
 | Laika un apmeklētības žurnāla reģistrācija. | Darbplūsma validē katru reģistrācijas tipu atbilstoši reģistrācijas datumam.                           | Laiks un apmeklētība • Ierašanās • Aiziešana • Kavējumi • Pārtraukums • Pārslēgšanās kods • Projekts • Projekta aktivitāte • Netiešās aktivitātes ražošanas darbi • Gaidīšana pirms • Iestatīšana • Process • Pārklāšanās • Transportēšana • Gaidīšana pēc • Sākt palīdzību • Apturēt palīdzību |
 
- 
+
 
 ## <a name="transferring-approved-registrations"></a>Apstiprināto reģistrāciju pārsūtīšana
 Pēc reģistrāciju apstiprināšanas tās var pārsūtīt uz periodisko algas darbu. Pārsūtītā reģistrācija tiek grāmatota aktivitātē vai darbā, kas tas saistīts ar, piemēram, ražošanas pasūtījumu vai projektu. Pamatojoties uz reģistrācijām, katram darbiniekam tiek ģenerētas algas transakcijas.  

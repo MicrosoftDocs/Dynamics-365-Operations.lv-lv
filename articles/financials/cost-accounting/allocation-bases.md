@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="allocation-bases"></a>Sadalījuma pamati 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Sadalījuma pamati tiek izmantoti pieskaitāmu izmaksu sadalei modulī Izmaksu uzskaite. Sadalījuma pamats var būt daudzums, piemēram, izmantotās mašīnstundas, patērētās kilovatstundas (kWh) vai aizņemtā platība. Sadalījuma pamati galvenokārt tiek izmantoti pieskaitāmo izmaksu piešķiršanai saražotajam krājumam. Piemēram, IT nodaļa sadala savus izdevumus atbilstoši katrā nodaļā lietoto datoru skaitam.
 
@@ -424,9 +424,11 @@ Tālāk ir sniegta detalizēta informācija par objekta CC003 (IT) formulu.
 
 Tālāk esošajā piemērā ir parādīta izmaksu sadales kārtula, kurā kā sadalījuma pamats ir piešķirts formulas sadalījuma pamats Fiksētā maksa par elektroenerģiju.
 
-| Izmaksu objekts |  Apraksts  | Lielums | Sadalījuma koeficients                |
-|-------------|----|-----------|----------------------------------|
-| CC001       | HR | 1,837.50  | (1837,50 ÷ 18 162,50) × Summa  |
-| CC002       | FI | 3,075.00  | (3075,00 ÷ 18 162,50) × Summa  |
-| CC003       | KrP | 13,250.00 | (13 250,00 ÷ 18 162,50) × Summa |
+
+| Izmaksu objekts | Apraksts | Lielums |        Sadalījuma koeficients         |
+|-------------|-------------|-----------|----------------------------------|
+|    CC001    |     HR      | 1,837.50  | (1837,50 ÷ 18 162,50) × Summa  |
+|    CC002    |     FI      | 3,075.00  | (3075,00 ÷ 18 162,50) × Summa  |
+|    CC003    |     KrP      | 13,250.00 | (13 250,00 ÷ 18 162,50) × Summa |
+
 

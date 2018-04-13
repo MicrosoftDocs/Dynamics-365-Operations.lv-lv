@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-planning-data-allocation"></a>Budžeta plānošanas datu sadalījums
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir aprakstītas dažādās sadalījuma metodes, kas ir pieejamas programmatūrā Microsoft Dynamics 365 for Finance and Operations, kā arī to lietošanas veids.  
 

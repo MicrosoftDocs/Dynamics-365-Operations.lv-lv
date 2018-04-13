@@ -27,7 +27,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="show-order-notifications-in-the-point-of-sale"></a>Pasūtījumu paziņojumu parādīšana pārdošanas punktā
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Modernajā mazumtirdzniecības vidē veikala darbiniekiem tiek piešķirti dažādi uzdevumi, piemēram, palīdzēšana klientiem, transakciju ievadīšana, krājumu uzskaites veikšana un pasūtījumu pieņemšana veikalā. Pārdošanas punkta (POS) klients nodrošina vienu programmu, kur veikala darbinieki vat izpildīt visus šos un vēl daudzus citus uzdevumus. Tā kā dienas laikā ir jāizpilda dažādi uzdevumi, veikala darbinieki, iespējams, ir jāinformē par lietām, kurām šiem darbiniekiem būtu jāpievērš uzmanība. Paziņojumu struktūra programmā POS atrisina šo problēmu, ļaujot mazumtirgotājiem konfigurēt paziņojumus atkarībā no lomām. Izmantojot Microsoft Dynamics 365 for Retail programmas 5. atjauninājumu, šos paziņojumus var konfigurēt tikai POS operācijām.
 

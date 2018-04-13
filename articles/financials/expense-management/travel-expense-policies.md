@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-policies"></a>Izdevumu ierobežojumi
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Varat definēt politikas, kuras jūsu darbiniekiem ir jāievēro, kad viņi ievada un iesniedz izdevumu pārskatus un komandējumu pieprasījumus.         
 Izdevumu politikas ieviešana var palīdzēt efektīgi pārvaldīt izdevumus.         
@@ -39,14 +39,14 @@ kad definējat politiku.
 Varat definēt trīs tipu politikas.         
         
 - Brīdinājums — ļauj darbiniekam iesniegt izdevumu pārskatu vai komandējuma pieprasījumu, bet izdevumi tiks atzīmēti visiem apstiprinātājiem un        
-vēlākai ziņošanai.        
+  vēlākai ziņošanai.        
 
 - Kļūda — pirms izdevumu pārskata vai komandējuma pieprasījuma iesniegšanas liek darbiniekam pārskatīt izdevumus, lai tie atbilstu politikai.       
  
- - Pamatojums — pirms izdevumu pārskata vai komandējuma pieprasījuma iesniegšanas darbiniekam vai vadītājam liek ievadīt politikas summas pārsniegšanas pamatojumu.        
+  - Pamatojums — pirms izdevumu pārskata vai komandējuma pieprasījuma iesniegšanas darbiniekam vai vadītājam liek ievadīt politikas summas pārsniegšanas pamatojumu.        
  
- Varat iestatīt arī datumu diapazonu, kuram šīs izdevumu politikas ir spēkā. Piemēram, maksa par lidojumiem starp Dāniju      
- un Ņujorku var būt dārgāka populārākajā brīvdienu ceļojumu sezonā. Varat definēt lidojuma izdevumu kārtulu, kas ierobežo      
- maksu lidojumiem uz Ņujorku ierobežojumu DKK 5000, un varat norādīt, ka šī kārtula ir spēkā no 15. marta līdz      
- 15. septembrim.
+  Varat iestatīt arī datumu diapazonu, kuram šīs izdevumu politikas ir spēkā. Piemēram, maksa par lidojumiem starp Dāniju      
+  un Ņujorku var būt dārgāka populārākajā brīvdienu ceļojumu sezonā. Varat definēt lidojuma izdevumu kārtulu, kas ierobežo      
+  maksu lidojumiem uz Ņujorku ierobežojumu DKK 5000, un varat norādīt, ka šī kārtula ir spēkā no 15. marta līdz      
+  15. septembrim.
 

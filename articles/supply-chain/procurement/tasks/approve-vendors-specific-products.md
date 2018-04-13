@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-vendors-for-specific-products"></a>Kreditoru apstiprināšana konkrētām precēm
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šī procedūra parāda, kā apstiprināt kreditorus īpašām precēm. Tas ļauj kontrolēt, kurus kreditorus var izmantot, kad preces tiek pievienots pirkšanas pasūtījumam. Šo procedūru varat lietot, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus. Šo uzdevumu parasti veic pirkšanas vadītājs.
 

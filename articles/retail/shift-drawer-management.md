@@ -29,8 +29,7 @@ ms.lasthandoff: 03/22/2018
 
 # <a name="shift-and-cash-drawer-management"></a>Maiņu un naudas kastes pārvaldība
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Šajā rakstā ir paskaidrots, kā iestatīt un izmantot abus mazumtirdzniecības pārdošanas punkta (POS) maiņu tipus — koplietoto un savrupo. Koplietotās maiņas var izmantot vairāki lietotāji vairākās vietās, bet savrupās maiņas vienlaicīgi var izmantot tikai viens darbinieks.
 

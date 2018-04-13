@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-injury-and-illness-information"></a>Iestatīt savainojumu un slimību informāciju
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Darba devējiem ir jāzina, kad darbinieki tiek ievainoti vai saslimst, notiekot nelaimes gadījumam darbavietā. Lietojiet ievainojumu un slimību lapu, lai iestatītu informāciju, kas sekmē ziņošanai par traumām vai saslimšanu darba vietā. Varat iestatīt dažādus traumu un saslimšanu veidus, tostarp ārstēšanās, izmaksu un rezultātu veidus. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 

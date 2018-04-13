@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-accessorial-assignments"></a>Papildobjekta piešķires iestatīšana
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā iestatīt papildobjekta piešķiri. To parasti veic transportēšanas koordinators. Pirms šī ceļveža izmantošanas nepieciešams izpildīt ceļvedi Pārkraušanas punkta papildobjekta maksas un pārkraušanas šablonu iestatīšana.
 

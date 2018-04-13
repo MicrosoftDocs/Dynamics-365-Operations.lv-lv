@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-request-for-quotation"></a>Piedāvājuma pieprasījuma izveide
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir parādīts, kā izveidot piedāvājuma pieprasījumu. Parasti to veic pirkšanas aģents. Šo procedūru varat lietot, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus. Pirms sākšanas ir jāiestata lūguma tipi. Kad esat pabeidzis šo uzdevumu un esat izveidojis un nosūtījis kādu PP, varat ievadīt atbildes katram kreditoram, salīdzināt tās un piešķirt līgumu.
 

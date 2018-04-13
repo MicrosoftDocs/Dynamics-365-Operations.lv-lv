@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-order-cost-analysis"></a>Ražošanas pasūtījuma izmaksu analīze
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta informācija par izmaksu analizēšanu, ko var veikt par pabeigtiem un pašreizējiem ražošanas pasūtījumiem. Izmantojot lapu Cenu aprēķināšana vai novērtētās un Novērtētās un faktiski grāmatotās izmaksas, analizēt var novērtētās un faktiskās izmaksas. Var skatīt informācija par katra komponenta krājuma, maršruta operācijas un netiešo izmaksu novērtētajām un faktiskajām izmaksām (un daudzumu).
 

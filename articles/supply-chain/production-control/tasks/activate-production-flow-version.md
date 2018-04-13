@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="activate-a-production-flow-version"></a>Ražošanas plūsmas versijas aktivizēšana
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Lai varētu izveidot Kanban darbus un varētu apstrādāt darbības kādai ražošanas plūsmas versijai, ir nepieciešams aktivizēt šo versiju. Saskaņā ar pieņemto praksi aktivizējiet šo versiju pirms tās spēkā stāšanās datuma un laika beigām. Šī izpildītu šo uzdevumu, jums ir nepieciešama ražošanas plūsmas versija, kuras statuss ir Melnraksts, lai aktivizētu šo versiju. 
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="150-percent-reducing-balance-depreciation"></a>150 procentu degresīvā nolietojuma aprēķināšanas metode
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegts pārskats par 150 procentu degresīvās nolietojuma aprēķināšanas metodi.
 
@@ -68,6 +67,7 @@ Ja kā nolietojuma aprēķināšanas gadu atlasāt opciju **Finanšu**, tad lauk
 -   **Finanšu periods** — grāmato finanšu gadam aprēķinātā nolietojuma kopsummu. Šī summa tiek uzkrāta finanšu periodos, kas ir definēti lapā **Finanšu kalendāri**.
 
 ## <a name="example-of-150-reducing-balance-depreciation"></a>150% atlikumu bilances piemērs
+
 |                                |        |
 |--------------------------------|--------|
 | Iegādes vērtība               | 11 000 |

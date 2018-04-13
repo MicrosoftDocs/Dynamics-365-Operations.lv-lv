@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="before-you-buy"></a>Pirms iegādes 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Vai lietojat programmu Dynamics 365 for Finance and Operations pirmo reizi? Esam izveidojuši detalizētus norādījumus, kas noderēs neatkarīgi no tā, vai joprojām izvērtējat programmu Finance and Operations vai arī esat gatavs veikt pirkumu.
 

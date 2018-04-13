@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="loan-items-to-a-worker"></a>Patapinātie krājumi nodarbinātajam
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā patapināt darbiniekam priekšmetu un reģistrēt faktu, ka darbinieks atgriež priekšmetu. Darbinieki var pieprasīt patapinājuma priekšmetu, izmantojot savas Darbinieku pašapkalpošanās lapas. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 

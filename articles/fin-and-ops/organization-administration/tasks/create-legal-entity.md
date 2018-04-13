@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-legal-entity"></a>Izveidot juridisko personu
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Juridiskā persona ir organizācija, kas tiek identificēta ar reģistrāciju juridiskā iestādē. Juridiskās personas var noslēgt līgumus, un tām ir nepieciešams sagatavot pārskatus, ziņojot par savu transakciju. Šajā procedūrā ir paskaidrots, kā izveidot juridisku personu. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 

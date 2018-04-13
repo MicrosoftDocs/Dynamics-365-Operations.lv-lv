@@ -29,8 +29,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="personalized-product-recommendations-overview"></a>Personalizētu preču ieteikumu apskats
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 > [!NOTE]
 > Mēs noņemam preču ieteikumu pakalpojuma pašreizējo versiju, jo pārveidojam šo līdzekli, pievienojot tam uzlabotu algoritmu un jaunākas uz mazumtirdzniecību orientētas iespējas. Papildinformāciju skatiet šeit: [Noņemtie vai novecojušie līdzekļi](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features). Pārejiet uz lapas apakšdaļu, ja jums ir radušās problēmas ar jau iespējotiem preces ieteikumiem jūsu vidē. 
@@ -86,9 +85,9 @@ Ja aktivizējat opciju **Iespējot ieteikumus** un palaižat konfigurācijas dar
 -   Modeļa akreditācijas dati un ID tiek padarīti pieejami CRT, lai varētu izpildīt tiešsaistes preču ieteikumu izsaukumus no programmām Cloud POS un MPOS.
 
 > ## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>Problēmu novēršana, ja preču ieteikumi jau ir iespējoti 
->- Pārejiet uz **Mazumtirdzniecības rekvizīti** > **Algoritmiskā mācīšanās** > **Atspējot preču ieteikumus** un palaidiet darbu **Globālais konfigurācijas darbs [1110]**. Ja nevarat atrast cilni **Algoritmiskā mācīšanās**, lūdzu, sazinieties ar Dynamics atbalsta dienestu. 
-
->- Ja darbību ekrānam pievienojāt vadīklu **Ieteikumus pārvaldība**, izmantojot **Ekrāna izkārtojuma dizainers**, lūdzu, noņemiet arī to. 
+> - Pārejiet uz **Mazumtirdzniecības rekvizīti** > **Algoritmiskā mācīšanās** > **Atspējot preču ieteikumus** un palaidiet darbu **Globālais konfigurācijas darbs [1110]**. Ja nevarat atrast cilni **Algoritmiskā mācīšanās**, lūdzu, sazinieties ar Dynamics atbalsta dienestu. 
+> 
+> - Ja darbību ekrānam pievienojāt vadīklu **Ieteikumus pārvaldība**, izmantojot **Ekrāna izkārtojuma dizainers**, lūdzu, noņemiet arī to. 
 
 
 

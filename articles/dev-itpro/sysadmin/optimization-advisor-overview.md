@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="optimization-advisor-overview"></a>Optimizācijas padomnieka pārskats
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā jūs varat izmantot optimizācijas padomnieku, lai palīdzētu nodrošināt optimālu Microsoft Dynamics 365 for Finance and Operations konfigurāciju.
 

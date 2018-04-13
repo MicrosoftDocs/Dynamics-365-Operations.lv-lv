@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reserve-inventory-quantities"></a>Rezervēt krājumu daudzumus
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstītas dažādās opcijas, kas ir pieejamas krājumu rezervēšanai.
 
@@ -50,6 +49,7 @@ Krājumu rezervēšana politikas tiek iestatītas lapā **Krājumu modeļu grupa
 ### <a name="policies-on-the-item-model-groups-page"></a>Politikas lapā Krājumu modeļu grupas
 
 Sadaļā **Krājumu politikas** ir iekļautas tālāk norādītās rezervēšanas politikas.
+
 |                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Rezervēšanas politika**  | **Apraksts**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -63,6 +63,7 @@ Sadaļā **Krājumu politikas** ir iekļautas tālāk norādītās rezervēšana
 #### <a name="example-for-fifo-date-controlled-and-backward-from-ship-date"></a>Opciju No datuma atkarīgs FIFO un Pirms nosūtīšanas datuma lietojuma piemērs
 
 Šajā piemērā krājumam numur A rīcībā esošie krājumi pastāv trīs dažādiem partijas numuriem.
+
 | Krājums | Paketes numurs | Daudzums | Datums             |
 |-------------|--------------|----------|------------------|
 | A           | 1000         | 5.        | 2016. gada 2. februāris |

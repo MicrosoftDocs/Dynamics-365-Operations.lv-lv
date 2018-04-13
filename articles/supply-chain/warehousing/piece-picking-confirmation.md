@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="piece-picking-confirmation"></a>Vienības izdošanas apstiprinājums
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Vienības izdošana ļauj apstiprināt katru krājuma vienību, izmantojot izdošanas vai inventarizācijas darbu mobilajā ierīcē. Attiecībā uz izdodamo vienību varat pārbaudīt apstrādājamo darba daudzumu vai izdodamo daudzumu, kas norādīts darbā. Attiecībā uz inventarizācijas darbu varat skenēt krājumu, kas tiek uzskaitīts, un izsekot kopsummu.
 
@@ -46,8 +46,10 @@ Vienības izdošana darbojas visos inventarizācijas darbos un jebkura veida dar
 
 Tālāk minētās opcijas ir pieejamas atlasei, ja darbs ir izdošanas vai inventarizācijas darbs.
 
-| Opcija        | Apraksts   | 
-| ------------- | ------------- |
-| Vienības izdošanas apstiprinājums   | Izdošanai un inventarizācijai pieejamie darba veidi. Preču apstiprināšana tiek automātiski atlasīta. Ļauj apstiprināt katru krājuma vienību no mobilās ierīces. | 
-| Maksimālais vienību skaits     | Darbs, kas pieejams izdošanai, ja vienības izdošanas apstiprināšana ir iespējota. Iestata vienību skaita ierobežojumu, kas ir jāapstiprina. |  
+
+|           Opcija           |                                                                            Apraksts                                                                            |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Vienības izdošanas apstiprinājums | Izdošanai un inventarizācijai pieejamie darba veidi. Preču apstiprināšana tiek automātiski atlasīta. Ļauj apstiprināt katru krājuma vienību no mobilās ierīces. |
+|  Maksimālais vienību skaits  |                   Darbs, kas pieejams izdošanai, ja vienības izdošanas apstiprināšana ir iespējota. Iestata vienību skaita ierobežojumu, kas ir jāapstiprina.                   |
+
 

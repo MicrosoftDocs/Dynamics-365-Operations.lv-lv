@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bank-facility-agreement-for-the-letter-of-guarantee"></a>Bankas iestādes līguma izveide garantijas vēstulei
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šis uzdevums izveido bankas iestādes līgumu, lai apstrādātu garantijas vēstuli. Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF. 
 

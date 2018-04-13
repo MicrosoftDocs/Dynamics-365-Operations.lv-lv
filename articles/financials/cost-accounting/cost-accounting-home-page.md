@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-accounting-home-page"></a>Izmaksu uzskaites sākumlapa
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="learning-map"></a>Mācību karte 
 
@@ -37,6 +37,7 @@ Nākamajā mācību kartē ir parādītas galvenās koncepcijas un uzdevumi, kur
 [![Izmaksu uzskaites mācību karte](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)
 
 ## <a name="quick-links"></a>Tiešās saites
+
 |      |   |
 |------|---|
 |  [Bāzes elementu konfigurēšana (elektroniskās mācības)](https://mbspartner.microsoft.com/Home) (nepieciešams CustomerSource konts)  |[Izveidot dimensijas](cost-elements.md)  |

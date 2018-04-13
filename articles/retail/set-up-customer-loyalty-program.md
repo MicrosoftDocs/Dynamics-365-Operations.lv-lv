@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-a-customer-loyalty-program"></a>Klientu lojalitātes programmas iestatīšana
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Šajā rakstā aprakstīts, kā iestatīt lojalitātes programmas komponentes. Lojalitātes programmas var palīdzēt paaugstināt debitoru lojalitāti, atlīdzinot debitoriem par preču pirkšanu jūsu mazumtirdzniecības veikalos. Programmā Microsoft Dynamics 365 for Retail varat iestatīt vienkāršās vai kompleksās lojalitātes programmas, kas tiek piemērotas jūsu juridiskajām personām jebkurā mazumtirdzniecības kanālā.
 

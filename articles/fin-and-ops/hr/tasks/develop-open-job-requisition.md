@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="develop-and-open-a-job-requisition"></a>Darba pieprasījuma izstrāde un atvēršana
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Personāla atlases projekti palīdz pārvaldīt personāla atlases procesu. Katram personāla atlases projektam varat iestatīt informāciju, piemēram, darbu, kuram tiek veikta šī personāla atlase, personāla atlases darbinieka vārdu, projekta statusu un nodaļu, kurā šis darbs atradīsies. Pēc personāla atlases projekta izveidošanas varat šim projektam rakstīt darba sludinājumu, publicēt reklāmu darbinieku pašapkalpošanās lapās, saistīt nodarbinātības pieteikumus ar projektu un izsekot šī projekta aktivitātes. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Lai sāktu procedūru, dodieties uz Personāla vadība > Personāla atlase > Personāla atlases projekti > Personāla atlases projekti
 

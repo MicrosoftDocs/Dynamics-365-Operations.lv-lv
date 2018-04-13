@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="configuration-keys-and-data-entities"></a>Konfigurācijas atslēgas un datu elementi
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Pirms izmantojat datu elementus datu importēšanai vai eksportēšanai, vispirms ieteicams noteikt konfigurācijas atslēgu ietekmi uz tiem datu elementiem, ko plānojat lietot. 
 

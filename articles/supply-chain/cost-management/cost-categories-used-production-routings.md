@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-categories-used-in-production-routing"></a>Ražošanas maršrutēšanā izmantotās izmaksu kategorijas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šis raksts sniedz informāciju par izmaksu kategorijām, kas attiecas uz ražošanas vidēm, kurās izmanto maršrutēšanu.
 

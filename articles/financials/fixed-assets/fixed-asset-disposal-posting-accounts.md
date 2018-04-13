@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-disposal-posting-accounts"></a>Pamatlīdzekļu norakstīšanas grāmatošanas konti
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā iestatīt līdzekļu norakstīšanas Virsgrāmatas grāmatošanas kontus.
 

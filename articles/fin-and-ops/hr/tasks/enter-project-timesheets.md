@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="enter-project-timesheets"></a>Projekta grafiku ievade
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Veicot šo procedūru, varat izveidot darba laika uzskaites tabulu, izmantojot tukšu darba laika uzskaites tabulas veidlapu. Jaunajā darba laika uzskaites tabulā var izmantot informāciju no iepriekšējās darba laika uzskaites tabulas, saglabātajām rindām vai projekta un aktivitāšu piešķirēm lapā Mana izlase. Pēc noklusējuma saraksta lapā Visas darba laika uzskaites tabulas tiek rādītas visas jūsu darba laika uzskaites tabulas pašreizējam periodam. Varat izmantot lapas Mani grafiki sadaļas Rādīt lauku nolaižamo sarakstu, lai darba laika uzskaites tabulu sarakstu filtrētu pēc laika perioda vai projekta, vai arī lai skatītu darba laika uzskaites tabulas, kas tika izveidotas citu darbinieku vārdā. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USSI. Lai sāktu šo procedūru, dodieties uz Projektu vadība un uzskaite > Darba laika uzskaites tabulas > Mani grafiki.
 

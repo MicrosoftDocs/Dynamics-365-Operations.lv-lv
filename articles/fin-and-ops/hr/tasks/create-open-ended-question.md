@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-an-open-ended-question"></a>Atvērta jautājuma izveide
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Atvērtos jautājumos respondenti var sniegt savu atbildi. Varat kontrolēt, vai šī atbilde ir skaitlis, decimāldaļa, datums, komentārs un tā tālāk. Šajā procedūrā parādīts, kā izveidot noteikta tipa jautājumu — atvērtu jautājumu. Lai sāktu šo procedūru, pārejiet uz sadaļu Anketa > Dizains > Jautājumi. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 

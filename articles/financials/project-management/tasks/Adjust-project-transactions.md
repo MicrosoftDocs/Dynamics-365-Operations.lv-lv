@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="adjust-project-transactions"></a>Koriģējiet projekta darbības
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā uzdevumu ceļvedī ir paskaidrots, kā koriģēt projektā ietvertu transakciju. Varat koriģēt projekta transakcijas pa vienai vai atlasīt vairākas transakcijas visu projekta transakciju sarakstā. Šo uzdevumu parasti veic projekta vadītājs. Šajā uzdevuma ceļvedī tiek izmantota USSI datu kopa.
 

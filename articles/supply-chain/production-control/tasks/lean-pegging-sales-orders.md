@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="lean-pegging-from-sales-orders"></a>Racionālā piesaiste no pārdošanas pasūtījumiem
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā aprakstīts piesaistes koka validācijas process no pārdošanas rindas, kur krājums tiek ražots ar Kanban. Pēc piesaistes koka validācijas, visu Kanban darbu statuss ir Plānots. Tas ir noderīgi saistībā ar tādiem pasūtījumiem, kur pasūtījuma ņēmējam ir jānodrošina, ka ražošanu var sākt nekavējoties. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Šī procedūra ir paredzēta papildu pasūtījuma ņēmējam, kas strādā aizdevumu pakalpojumu uzņēmumā.
 

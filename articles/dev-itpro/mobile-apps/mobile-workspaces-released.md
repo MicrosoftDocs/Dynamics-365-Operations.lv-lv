@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mobile-workspaces"></a>Mobilās darbvietas
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir uzskaitītas mobilās darbvietas, kuras ir pieejamas lietošanai Dynamics 365 for Unified Operations mobilajā programmā.
 

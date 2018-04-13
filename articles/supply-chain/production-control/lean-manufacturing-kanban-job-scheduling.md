@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Kanban darbu plānošana metodei lean manufacturing
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta informācija par vizuālo kontroli pār kanban darbu plānošanu un dažādajiem veidiem, kā plānot kanban darbus.  
 

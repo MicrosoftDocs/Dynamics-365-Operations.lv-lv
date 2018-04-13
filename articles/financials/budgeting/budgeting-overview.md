@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budgeting-home-page"></a>Budžeta veidošanas sākumlapa
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegts apskats par budžeta veidošanas funkcionalitātes sastāvdaļām, budžeta veidošanas rīkiem, kā arī atskaišu veidošanas iespējām risinājumā Finance and Operations. 
 

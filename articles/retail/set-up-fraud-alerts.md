@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-fraud-alerts"></a>Iestatīt pārkāpumu brīdinājumus
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā iestatīt kritērijus un kārtulas, lai aizturētu potenciāli krāpnieciskus pārdošanas pasūtījumus turpmākai pārskatīšanai. Pārkāpuma pārskatīšanas funkcionalitāte tiek izmantota, lai noteiktu pārdošanas pasūtījumā ietvertās informācijas derīgumu. Ja, pamatojoties uz organizācijas pārkāpuma kritērijiem un kārtulām, pārdošanas pasūtījumā ietvertā informācija tiek atzīta par apšaubāmu, pasūtījumu var aizturēt turpmākai pārskatīšanai, ko veic administrators.
 

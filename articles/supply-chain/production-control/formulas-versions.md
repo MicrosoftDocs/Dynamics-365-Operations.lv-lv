@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="formulas-and-formula-versions"></a>Formulas un formulu versijas
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Formula procesa ražošanā nosaka konkrētu procesu materiālus, sastāvdaļas un rezultātus. Kopā ar atbilstošo maršrutu formula nosaka visu procesa ražošanas procesu. Formulas tiek izmantotas, lai procesa ražošanā plānotu un ražotu preces.
 

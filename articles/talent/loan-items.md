@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-items-lent-to-workers"></a>Darbiniekiem aizdotu krājumu pārvaldīšana
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Patapinājuma priekšmeti ir ieraksti, kas vadītājiem palīdz izsekot fiziskos priekšmetus, kurus jūsu uzņēmums patapina saviem darbiniekiem. 
 
@@ -51,7 +50,7 @@ Vadītāji var skatīt patapinājuma priekšmetus savām tiešajām atskaitēm. 
 
 Ja priekšmets ir bojāts vai netiek atdots laikā, ievadiet fiktīvu atdošanas ierakstu. Pēc tam dzēsiet priekšmetu vai paturiet to apskatā un mainiet aprakstu, lai norādītu, ka priekšmets nav pieejams.
 
- 
+
 <a name="see-also"></a>Skatiet arī
 --------
 

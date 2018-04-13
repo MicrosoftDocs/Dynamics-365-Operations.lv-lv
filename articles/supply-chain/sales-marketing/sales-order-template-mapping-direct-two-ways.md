@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>Pārdošanas pasūtījumu tieša sinhronizēšana programmās Sales un Finance and Operations
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Sales esošo pārdošanas pasūtījumu tiešai sinhronizēšanai ar programmu Microsoft Dynamics 365 for Finance and Operations.
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="import-iso20022-files"></a>Importēt ISO20022 failus
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Varat importēt maksājumu failus, kas ir tālāk norādītajos formātos.
 
@@ -41,8 +41,8 @@ Lai bankas paziņojumus camt.054.001.002 formātā varētu importēt debitoru ma
 3. Lapā **Debitora bankas konts** iestatiet debitora bankas konta ierakstu, ievadot šādu informāciju: IBAN vai bankas konta numurs un SWIFT kods vai reģistrācijas numurs.
 4. Lapā **Bankas konti** iestatiet juridiskās personas bankas kontus, ievadot šādu informāciju: IBAN vai bankas konta numurs un SWIFT kods vai reģistrācijas numurs, valūta un adrese.
 
-    > [!NOTE]
-        > Ja plānojat izmantot opciju Detalizēta bankas darbību saskaņošana, kopsavilkuma cilnē **Saskaņošana** opciju **Detalizēta bankas darbību saskaņošana** iestatiet uz **Jā**. Ja plānojat saskaņot negrāmatotos importētos maksājumus, opciju **Lietot bankas izrakstus kā elektronisko maksājumu apstiprinājumu** iestatiet uz **Jā**.
+   > [!NOTE]
+   > Ja plānojat izmantot opciju Detalizēta bankas darbību saskaņošana, kopsavilkuma cilnē **Saskaņošana** opciju **Detalizēta bankas darbību saskaņošana** iestatiet uz **Jā**. Ja plānojat saskaņot negrāmatotos importētos maksājumus, opciju **Lietot bankas izrakstus kā elektronisko maksājumu apstiprinājumu** iestatiet uz **Jā**.
 
 5. Neobligāti: lapā **Transakciju kodu kartēšana** iestatiet kartēšanu starp bankas transakciju kodiem failā un bankas transakciju tipiem.
 6. Ja fails satur transakciju maksas, ko vēlaties grāmatot kopā ar ienākošo maksājumu, izveidojiet komisijas maksu lapā **Debitoru komisijas maksas**. Pēc tam lapā **Maksāšanas metodes** saistiet komisijas maksu ar bankas kontu komisijas maksu iestatījumos.

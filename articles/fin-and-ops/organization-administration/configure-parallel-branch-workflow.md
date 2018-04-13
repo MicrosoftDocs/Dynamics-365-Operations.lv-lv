@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-parallel-branch-in-a-workflow"></a>Konfigurēt paralēlu zaru darbplūsmā
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Lai konfigurētu paralēlu zaru, darbplūsmas redaktorā izpildiet tālāk aprakstītās procedūras.
 

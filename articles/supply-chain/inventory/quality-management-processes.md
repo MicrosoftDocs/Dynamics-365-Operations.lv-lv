@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="quality-management-processes"></a>Kvalitātes pārvaldības procesi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta informācija par kvalitātes pārvaldības procesu nekondīcijas precēm. Tajā ir aprakstīts, kā varat lietot kvalitātes kontroles funkcionalitāti, kā noteikt un uzturēt neatbilstības un kā rīkoties ar labojumiem.
 

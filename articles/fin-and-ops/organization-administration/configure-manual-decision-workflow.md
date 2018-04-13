@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-manual-decision-in-a-workflow"></a>Konfigurēt manuālu lēmumu darbplūsmā
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā konfigurēt manuāla lēmuma rekvizītus.
 
@@ -252,73 +251,74 @@ Veiciet šīs darbības, lai norādītu personu, kurai jāpiešķir manuālais l
 ## <a name="specify-what-happens-when-a-decision-is-overdue"></a>Norādiet, kas notiek, ja lēmums nokavēts
 Ja lietotājs nepieņem lēmumu atvēlētajā laikā, lēmums ir nokavēts. Lēmumu, kas ir nokavēts, var eskalēt vai automātiski piešķirt citam lietotājam. Veiciet šīs darbības, lai eskalētu lēmumu, ja tas ir nokavēts.
 
-1.  Kreisajā rūtī noklikšķiniet uz **Eskalācija**.
-2.  Atzīmējiet izvēles rūtiņu **Izmantot eskalācijas ceļu**, lai izveidotu eskalācijas ceļu. Sistēma automātiski piešķirs lēmumu lietotājiem, kuri ir norādīti eskalācijas ceļā. Piemēram, šajā tabulā ir attēlots eskalācijas ceļš.
-    | Secība | Eskalācijas ceļš            |
-    |----------|----------------------------|
-    | 1.        | Piešķirt: Lindai           |
-    | 2.        | Piešķirt: Zanei            |
-    | 3.        | Gala darbība: \[1. izvēle\] |
+1. Kreisajā rūtī noklikšķiniet uz **Eskalācija**.
+2. Atzīmējiet izvēles rūtiņu **Izmantot eskalācijas ceļu**, lai izveidotu eskalācijas ceļu. Sistēma automātiski piešķirs lēmumu lietotājiem, kuri ir norādīti eskalācijas ceļā. Piemēram, šajā tabulā ir attēlots eskalācijas ceļš.
 
-    Šajā piemērā sistēma piešķir nokavēto lēmumu Lindai. Ja Linda nepieņem lēmumu atvēlētajā laikā, sistēma piešķir lēmumu Zanei. Ja Zane nepieņem lēmumu atvēlētajā laikā, sistēma kā lēmumu atlasa vienumu **\[1. izvēle\]**.
-3.  Lai pievienotu lietotāju eskalācijas ceļam, noklikšķiniet uz **Pievienot eskalāciju**. Atlasiet vienu no tālāk redzamajā tabulā minētajām opcijām un pēc tam veiciet papildu darbības attiecīgajai opcijai, pirms pārejat uz 4. darbību.
-    <table>
-    <colgroup>
-    <col width="33%" />
-    <col width="33%" />
-    <col width="33%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Opcija</th>
-    <th>Lietotāji, kuriem tiek eskalēts lēmums</th>
-    <th>Papildu transakcijas</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Hierarhija</td>
-    <td>Lietotāji īpašā organizācijas hierarhijā</td>
-    <td><ol>
-    <li>Pēc tam, kad ir atlasīts vienums <strong>Hierarhija</strong>, cilnes <strong>Hierarhijas atlase</strong> sarakstā <strong>Hierarhijas tips</strong> atlasiet hierarhijas tipu, uz kuru eskalēt lēmumu.</li>
-    <li>Sistēmai no hierarhijas ir jāizgūst lietotāju vārdu diapazons. Šie vārdi norāda, kuriem lietotājiem var eskalēt lēmumu. Veiciet šīs darbības, lai norādītu sistēmas izgūto lietotāju vārdu diapazona sākumu un beigas: <ol>
-    <li>Lai norādītu sākumu, atlasiet kādu personu sarakstā <strong>Sākt no</strong>.</li>
-    <li>Lai norādītu beigas, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>. Pēc tam ievadiet nosacījumu, kas nosaka, kurā vietā hierarhijā sistēma pārtrauc vārdu izgūšanu.</li>
-    </ol></li>
-    <li>Cilnē <strong>Hierarhijas opcijas</strong> norādiet attiecīgajā diapazonā esošos lietotājus, kuriem jāveic lēmuma eskalācija: <ul>
-    <li><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — lēmums tiek eskalēts visiem diapazonā esošajiem lietotājiem.</li>
-    <li><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — lēmums tiek eskalēts tikai pēdējam lietotājam diapazonā.</li>
-    <li><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — lēmums netiek eskalēts diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam. Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</li>
-    </ul></li>
-    </ol></td>
-    </tr>
-    <tr class="even">
-    <td>Darbplūsmas lietotājs</td>
-    <td>Lietotāji pašreizējā darbplūsmā</td>
-    <td><ul>
-    <li>Pēc tam, kad ir atlasīts vienums <strong>Darbplūsmas lietotājs</strong>, cilnes <strong>Darbplūsmas lietotājs</strong> sarakstā <strong>Darbplūsmas lietotājs</strong> atlasiet lietotāju, kas piedalās attiecīgajā darbplūsmā.</li>
-    </ul></td>
-    </tr>
-    <tr class="odd">
-    <td>Lietotājs</td>
-    <td>Noteikti Dynamics 365 for Finance and Operations lietotāji</td>
-    <td><ol>
-    <li>Pēc tam, kad ir atlasīts vienums <strong>Lietotājs</strong>, noklikšķiniet uz cilnes <strong>Lietotājs</strong>.</li>
-    <li>Sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Finance and Operations lietotāji. Atlasiet lietotājus, kuriem eskalēt lēmumu, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
-    </ol></td>
-    </tr>
-    </tbody>
-    </table>
+   | Secība | Eskalācijas ceļš            |
+   |----------|----------------------------|
+   | 1.        | Piešķirt: Lindai           |
+   | 2.        | Piešķirt: Zanei            |
+   | 3.        | Gala darbība: \[1. izvēle\] |
 
-4.  Cilnes **Laika limits** laukā **Ilgums** norādiet, cik ilgs laiks ir dots lietotājam, lai pieņemtu lēmumu. Izvēlieties vienu no šīm opcijām:
-    -   **Stundas** — ievadiet stundu skaitu, kuru laikā lietotājam ir jāpieņem lēmums. Pēc tam atlasiet kalendāru, ko izmanto jūsu organizācija, un ievadiet informāciju par jūsu organizācijas darba nedēļu.
-    -   **Dienas** — ievadiet dienu skaitu, kuru laikā lietotājam ir jāpieņem lēmums. Pēc tam atlasiet kalendāru, ko izmanto jūsu organizācija, un ievadiet informāciju par jūsu organizācijas darba nedēļu.
-    -   **Nedēļas** — ievadiet nedēļu skaitu, kuru laikā lietotājam ir jāpieņem lēmums.
-    -   **Mēneši** — izvēlieties dienu un nedēļu, līdz kurai lietotājam ir jāpieņem lēmums. Piemēram, iespējams, vēlēsities, lai lietotājs pieņemtu lēmumu līdz mēneša trešās nedēļas piektdienai.
-    -   **Gadi** — izvēlieties dienu, nedēļu un mēnesi līdz kuram lietotājam ir jāpieņem lēmums. Piemēram, iespējams, vēlēsities, lai lietotājs pieņemtu lēmumu līdz decembra trešās nedēļas piektdienai.
+   Šajā piemērā sistēma piešķir nokavēto lēmumu Lindai. Ja Linda nepieņem lēmumu atvēlētajā laikā, sistēma piešķir lēmumu Zanei. Ja Zane nepieņem lēmumu atvēlētajā laikā, sistēma kā lēmumu atlasa vienumu **\[1. izvēle\]**.
+3. Lai pievienotu lietotāju eskalācijas ceļam, noklikšķiniet uz **Pievienot eskalāciju**. Atlasiet vienu no tālāk redzamajā tabulā minētajām opcijām un pēc tam veiciet papildu darbības attiecīgajai opcijai, pirms pārejat uz 4. darbību.
+   <table>
+   <colgroup>
+   <col width="33%" />
+   <col width="33%" />
+   <col width="33%" />
+   </colgroup>
+   <thead>
+   <tr class="header">
+   <th>Opcija</th>
+   <th>Lietotāji, kuriem tiek eskalēts lēmums</th>
+   <th>Papildu transakcijas</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr class="odd">
+   <td>Hierarhija</td>
+   <td>Lietotāji īpašā organizācijas hierarhijā</td>
+   <td><ol>
+   <li>Pēc tam, kad ir atlasīts vienums <strong>Hierarhija</strong>, cilnes <strong>Hierarhijas atlase</strong> sarakstā <strong>Hierarhijas tips</strong> atlasiet hierarhijas tipu, uz kuru eskalēt lēmumu.</li>
+   <li>Sistēmai no hierarhijas ir jāizgūst lietotāju vārdu diapazons. Šie vārdi norāda, kuriem lietotājiem var eskalēt lēmumu. Veiciet šīs darbības, lai norādītu sistēmas izgūto lietotāju vārdu diapazona sākumu un beigas: <ol>
+   <li>Lai norādītu sākumu, atlasiet kādu personu sarakstā <strong>Sākt no</strong>.</li>
+   <li>Lai norādītu beigas, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>. Pēc tam ievadiet nosacījumu, kas nosaka, kurā vietā hierarhijā sistēma pārtrauc vārdu izgūšanu.</li>
+   </ol></li>
+   <li>Cilnē <strong>Hierarhijas opcijas</strong> norādiet attiecīgajā diapazonā esošos lietotājus, kuriem jāveic lēmuma eskalācija: <ul>
+   <li><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — lēmums tiek eskalēts visiem diapazonā esošajiem lietotājiem.</li>
+   <li><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — lēmums tiek eskalēts tikai pēdējam lietotājam diapazonā.</li>
+   <li><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — lēmums netiek eskalēts diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam. Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</li>
+   </ul></li>
+   </ol></td>
+   </tr>
+   <tr class="even">
+   <td>Darbplūsmas lietotājs</td>
+   <td>Lietotāji pašreizējā darbplūsmā</td>
+   <td><ul>
+   <li>Pēc tam, kad ir atlasīts vienums <strong>Darbplūsmas lietotājs</strong>, cilnes <strong>Darbplūsmas lietotājs</strong> sarakstā <strong>Darbplūsmas lietotājs</strong> atlasiet lietotāju, kas piedalās attiecīgajā darbplūsmā.</li>
+   </ul></td>
+   </tr>
+   <tr class="odd">
+   <td>Lietotājs</td>
+   <td>Noteikti Dynamics 365 for Finance and Operations lietotāji</td>
+   <td><ol>
+   <li>Pēc tam, kad ir atlasīts vienums <strong>Lietotājs</strong>, noklikšķiniet uz cilnes <strong>Lietotājs</strong>.</li>
+   <li>Sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Dynamics 365 for Finance and Operations lietotāji. Atlasiet lietotājus, kuriem eskalēt lēmumu, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
+   </ol></td>
+   </tr>
+   </tbody>
+   </table>
 
-5.  Atkārtojiet 3.–4. darbību katram lietotājam, kurš jāpievieno eskalācijas ceļam. Jūs varat mainīt lietotāju secību.
-6.  Ja eskalācijas ceļā norādītie lietotāji nepieņem lēmumu atvēlētajā laikā, sistēma pieņem lēmumu. Lai norādītu opciju, ko sistēma izvēlas, atlasiet rindu **Darbība** un pēc tam cilnē **Beigu darbība** atlasiet opciju.
+4. Cilnes **Laika limits** laukā **Ilgums** norādiet, cik ilgs laiks ir dots lietotājam, lai pieņemtu lēmumu. Izvēlieties vienu no šīm opcijām:
+   -   **Stundas** — ievadiet stundu skaitu, kuru laikā lietotājam ir jāpieņem lēmums. Pēc tam atlasiet kalendāru, ko izmanto jūsu organizācija, un ievadiet informāciju par jūsu organizācijas darba nedēļu.
+   -   **Dienas** — ievadiet dienu skaitu, kuru laikā lietotājam ir jāpieņem lēmums. Pēc tam atlasiet kalendāru, ko izmanto jūsu organizācija, un ievadiet informāciju par jūsu organizācijas darba nedēļu.
+   -   **Nedēļas** — ievadiet nedēļu skaitu, kuru laikā lietotājam ir jāpieņem lēmums.
+   -   **Mēneši** — izvēlieties dienu un nedēļu, līdz kurai lietotājam ir jāpieņem lēmums. Piemēram, iespējams, vēlēsities, lai lietotājs pieņemtu lēmumu līdz mēneša trešās nedēļas piektdienai.
+   -   **Gadi** — izvēlieties dienu, nedēļu un mēnesi līdz kuram lietotājam ir jāpieņem lēmums. Piemēram, iespējams, vēlēsities, lai lietotājs pieņemtu lēmumu līdz decembra trešās nedēļas piektdienai.
+
+5. Atkārtojiet 3.–4. darbību katram lietotājam, kurš jāpievieno eskalācijas ceļam. Jūs varat mainīt lietotāju secību.
+6. Ja eskalācijas ceļā norādītie lietotāji nepieņem lēmumu atvēlētajā laikā, sistēma pieņem lēmumu. Lai norādītu opciju, ko sistēma izvēlas, atlasiet rindu **Darbība** un pēc tam cilnē **Beigu darbība** atlasiet opciju.
 
 ## <a name="set-a-time-limit"></a>Laika robežas iestatīšana
 Veiciet šīs darbības, ja lēmums ir jāpieņem noteiktā laikā. **Piezīme.** Šajā procedūrā izvēlētās opcijas tiks lietotas neatkarīgi no opcijām, kas atlasītas lapas apgabalos **Piešķire** un **Eskalācija**.

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="electronic-signature-overview"></a>Elektronisko parakstu apskats
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegts pārskats par elektroniskajiem parakstiem un ir aprakstīts, kā tos var izmantot programmatūrā Microsoft Dynamics 365 for Finance and Operations.
 

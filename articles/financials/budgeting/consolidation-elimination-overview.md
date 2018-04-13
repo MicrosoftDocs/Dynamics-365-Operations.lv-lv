@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="consolidation-and-elimination-overview"></a>Konsolidēšanas un koriģēšanas pārskats
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta vispārīga informācija par konsolidēšanas un koriģēšanas procesu. Tajā ir atbildes uz dažiem bieži uzdotiem jautājumiem.
 

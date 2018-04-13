@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Novietojuma direktīvas iestatīšana pirkšanas pasūtījuma atlikšanai
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā iestatīt vienkāršu novietojuma direktīvu. Parādītajā piemērā tiek izveidota novietojuma direktīva, ko jāizmanto, lai noteiktu vietu, kur ievietot krājumus, kuri ir saņemti pirkšanas pasūtījuma ietvaros. Šo uzdevumu ceļvedi var izpildīt, izmantojot minētos datus, izmantojot demonstrācijas datu uzņēmumu USMF. Priekšnosacījumi: ir jāizveido atgriešanas metodes kods. Šajā procedūrā mēs lietojam atgriešanas metodes kodu, ko sauc Mainīt etiķetes. Ja veidojat novietojuma direktīvu savos datos, jums jāiestata savai noliktavai un krājumiem papildu noliktavas pārvaldība.  Šī procedūra ir paredzēta noliktavas pārvaldniekam.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="ledger-journal-types"></a>Virsgrāmatas žurnālu tipi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir aprakstīti žurnālu tipi, ko var iestatīt finanšu žurnāliem. Izmantojiet lapu **Žurnālu nosaukumi**, lai iestatītu žurnālus, ko varat izmantot visā programmā Microsoft Dynamics 365 for Finance and Operations.
 

@@ -23,14 +23,14 @@ ms.contentlocale: lv-lv
 ms.lasthandoff: 09/29/2017
 
 ---
-# Kanban kārtulas izveide, izmantojot minimālo krājumu notikumu
+# <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a>Kanban kārtulas izveide, izmantojot minimālo krājumu notikumu
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šī procedūra koncentrējas uz iestatīšanu, kas ir nepieciešama, lai izveidotu Kanban nosacījumu, izmantojot minimālo krājumu notikumu, tādējādi nodrošinot, ka konkrētā novietojumā vienmēr ir pieejama konkrēta prece. Kanban nosacījums tiek izveidots, lai materiālu pārsūtītu uz novietojumu, kad krājumu līmenis kļūst mazāks nekā 200 gab. Palaižot pieprasījuma notikuma apstrādi, tiek izveidoti nepieciešamie Kanban. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USMF. Šis uzdevums ir paredzēts procesa inženierim vai vērtību plūsmas pārvaldniekam, kad viņi sagatavo jaunas vai modificētas preces ražošanu racionālā vidē.
 
 
-## Izveidot jaunu Kanban nosacījumu
+## <a name="create-a-new-kanban-rule"></a>Izveidot jaunu Kanban nosacījumu
 1. Pārejiet uz sadaļu Preču informācijas pārvaldība > Lean manufacturing > Kanban nosacījumi.
 2. Noklikšķiniet uz Jauns.
 3. Laukā Veids, atlasiet 'Atvilkums'.
@@ -46,7 +46,7 @@ ms.lasthandoff: 09/29/2017
 9. Laukā Krājumu papildināšanas notikums “Partija”.
     * Ar šo tiek izveidoti Kanban materiālu vajadzību izpildīšanai saistītajā novietojumā, kamēr notiek Pieprasījuma notikuma apstrāde.  
 
-## Iestatīt krājumam minimālo daudzumu
+## <a name="set-the-minimum-quantity-for-the-item"></a>Iestatīt krājumam minimālo daudzumu
 1. Noklikšķiniet, lai sekotu saitei laukā Prece.
 2. Noklikšķiniet, lai sekotu saitei laukā Krājuma kods.
 3. Izvērsiet preces attēla papildinformāciju.
@@ -58,7 +58,7 @@ ms.lasthandoff: 09/29/2017
     * Iestatiet Noliktava uz 12.  
 9. Vērtību Minimums iestatiet uz “200”.
 
-## Palaist pakešveida notikuma izveidošanas darbu
+## <a name="run-the-batch-event-creation-job"></a>Palaist pakešveida notikuma izveidošanas darbu
 1. Doties uz Ražošanas kontrole > Periodiskie uzdevumi > Kanban darbu pakešveida apstrāde > Pieprasījuma notikuma apstrāde.
 2. Noklikšķiniet uz OK.
 3. Pārejiet uz sadaļu Preču informācijas pārvaldība > Lean manufacturing > Kanban nosacījumi.

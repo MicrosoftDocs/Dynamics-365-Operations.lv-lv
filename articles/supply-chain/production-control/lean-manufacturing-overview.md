@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="lean-manufacturing-overview"></a>Lean manufacturing apskats
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegts pārskats par Lean manufacturing līdzekļiem programmā Microsoft Dynamics 365 for Finance and Operations un to apraksts.
 
@@ -40,6 +39,7 @@ Lean manufacturing sniedz rīkus, ko varat izmantot, lai modelētu racionālas o
 -   Pārraugiet un uzturiet Kanban darbus.
 
 Lean manufacturing arhitektūra sistēmā Finance and Operations sastāv no ražošanas plūsmām, aktivitātēm un Kanban nosacījumiem. Šīs struktūras ir pilnīgi integrētas Finance and Operations procesos. Lean manufacturing varat izmantot jaukta režīma ražošanas vidē, kurā ir apvienotas dažādas piegādes, ražošanas un avotu izmantošanas stratēģijas. Šīs stratēģijas iekļauj ražošanas pasūtījumus, partiju pasūtījumus apstrādes rūpniecības nozarēm, pirkšanas pasūtījumus un pārsūtīšanas pasūtījumus.
+
 | **Svarīgi**                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Sistēmu Finance and Operations varat izmantot, lai atbalstītu Lean manufacturing ieviešanu Kanban darbos. Taču sekmīga racionālo principu ieviešana ir atkarīga no jūsu izmantotajiem iekšējiem biznesa procesiem, kā arī no faktiskajiem ražošanas apstākļiem un vides. |

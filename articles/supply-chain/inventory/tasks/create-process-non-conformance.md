@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-process-a-conformance"></a>Atbilstības izveide un apstrāde
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Izmantojiet šo procedūru, lai veiktu neatbilstības pārvaldību, pamatojoties uz esošo kvalitātes pārbaudes pasūtījumu. Šo ierakstu var palaist USMF demonstrācijas uzņēmumā un var izmantot ieteiktās vērtības. Parasti šo procedūru veic kvalitātes darbinieks.  Kā priekšnosacījumu, palaidiet uzdevuma ierakstu "Pārbaudīt preču kvalitāti". Lai apstrādātu neatbilstības apstiprinājumu, lietotājam, kurš palaiž uzdevumu ierakstu, lapā Lietotāji jābūt piešķirtai vērtībai "Nosaukums". Lai lietotu dokumentu piezīmes, lietotājam jābūt aktivizētai Dokumentu apstrāde lietotāja opcijās.
 

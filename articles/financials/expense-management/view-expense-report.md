@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="view-an-expense-report"></a>Skatīt izdevumu pārskatu
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Izpildot vaicājumu, lai skatītu transakcijas Virsgrāmatā vai darbplūsmā Sagāde un avoti, vaicājums var atgriezt pārāk daudz informācijas. Tāpēc ieteicams sašaurināt meklēšanu. Lai iegūtu informāciju, kas jums ir nepieciešama, varat rādīt transakciju detalizēti, lai skatītu izdevumu pārskatu, kurā tā ir iekļauta.
 

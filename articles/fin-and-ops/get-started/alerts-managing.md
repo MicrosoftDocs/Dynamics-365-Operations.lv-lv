@@ -24,9 +24,9 @@ ms.lasthandoff: 03/23/2018
 ---
 
 # <a name="batch-processing-for-alerts"></a>Brīdinājumu pakešveida apstrāde
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[banner](../includes/pre-release.md)] 
+[!INCLUDE [banner](../includes/pre-release.md)]
 
 Brīdinājumus apstrādā, izmantojot pakešveida apstrādes funkcionalitāti programmā Microsoft Dynamics 365 for Finance and Operations. Lai brīdinājumus varētu nosūtīt, ir jāiestata pakešveida apstrāde.
 

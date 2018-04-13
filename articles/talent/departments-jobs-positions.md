@@ -28,10 +28,9 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>Organizēt darbaspēku, izmantojot nodaļas, darbus un amatus
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
-[!include[retail name](includes/retail-name.md)]
-
+[!INCLUDE [retail name](includes/retail-name.md)]
 
 Nodaļas, amati un pozīcijas ir organizācijas elementi, kas tiek uzturēti personāla vadības procesā. Šajā tēmā ir sniegta konceptuāla informācija par šiem elementiem. 
 
@@ -48,7 +47,7 @@ Tālāk sniegtais piemērs tiek izmantots, lai paskaidrotu šajā tēmā aprakst
 |**Personāla vadība**|PV vadītājs (rietumu reģions)|PV vadītājs|
 |**Personāla vadība**|PV vadītājs (centrālais reģions)|PV vadītājs|
 
- 
+
  <a name="departments"></a>Nodaļas
 ------------
 

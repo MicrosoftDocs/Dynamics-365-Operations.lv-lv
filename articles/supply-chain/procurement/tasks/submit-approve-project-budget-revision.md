@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="submit-and-approve-project-budget-revisions"></a>Projekta budžeta pārskatīšanas iesniegšana un apstiprināšana
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir sniegta informāciju par projekta budžeta pārskatīšanu. Projekta budžetu varat pārskatīt tik reizes, cik vien nepieciešams, bet gadījumā, ja budžets ir pārskatīts vairākas reizes, nevar redzēt atsevišķu pārskatījumu summu. 
 

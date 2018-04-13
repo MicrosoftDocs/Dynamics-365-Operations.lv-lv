@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="product-related-translations-faq"></a>Bieži uzdotie jautājumi par tulkojumiem, kas saistīti ar precēm
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā aprakstīts, kā pārvaldīt preču tulkojumus, preču dimensiju vērtības un preču īpašības. 
 
@@ -95,8 +94,7 @@ Ja klients vēlas iegādāties vairākus mazus, sarkanus t-kreklus, tad t-krekla
 <tbody>
 <tr class="odd">
 <td>Lai iestatītu klienta vēlamo valodu, rīkojieties šādi:
-<ol>  
-<li>Noklikšķiniet uz <strong>Pārdošana un mārketings</strong> &gt; <strong>Vispārīgi</strong> &gt; <strong>Debitori</strong> &gt; <strong>Visi</strong> <strong>debitori</strong>.</li>
+<ol><br/><li>Noklikšķiniet uz <strong>Pārdošana un mārketings</strong> &gt; <strong>Vispārīgi</strong> &gt; <strong>Debitori</strong> &gt; <strong>Visi</strong> <strong>debitori</strong>.</li>
 <li>Veiciet dubultklikšķi uz debitora, lai atvērtu lapu <strong>Debitori</strong>. Cilnes <strong>Vispārīgi</strong> laukā <strong>Valoda</strong> atlasiet <strong>valodu</strong>.</li>
 </ol></td>
 </tr>

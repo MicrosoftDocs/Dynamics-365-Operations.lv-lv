@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-and-manage-attributes"></a>Izveidot un pārvaldīt atribūtus
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Šajā rakstā ir aprakstīti programmatūrā Microsoft Dynamics 365 for Retail pieejamie atribūti. Atribūti ļauj aprakstīt preci un tās raksturīgās iezīmes, izmantojot lietotāja definētos laukus.
 
@@ -58,7 +57,7 @@ Atribūti ļauj aprakstīt preci un tās raksturīgās iezīmes, izmantojot liet
 
 ## <a name="attribute-type"></a>Atribūta tips
   [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 
-  
+
 Atribūti ir balstīti uz atribūtu tipiem. Atribūta veidi norāda datu veidu, ko var ievadīt noteiktam atribūtam. Pašlaik programmatūra Microsoft Dynamics 365 for Retail atbalsta tālāk norādītos atribūtu tipus.
 
 -   **Valūta** – šī atribūta veids atbalsta valūtas vērtības. Tas var būt saistīts (var atbalstīt vērtību diapazonu), vai tas var palikt atklāts.

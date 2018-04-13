@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="standard-cost-conversion-overview"></a>Standarta izmaksu pārveidošanas apskats
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegts procesa pārskats, kas palīdz iestatīt un palaist standarta izmaksu pārveidošanas procesu. Norādītās darbības ir jāveic pēc tam, kad ir pilnībā izpildīti standarta izmaksu pārveidošanas priekšnoteikumi. 
 

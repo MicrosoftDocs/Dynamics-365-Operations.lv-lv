@@ -29,8 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="set-up-rfm-analysis"></a>RFM analīzes iestatīšana
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Šajā tēmā skaidrots, kā iestatīt nesenības, biežuma un naudas (RFM) analīzi jūsu debitoriem.
 
@@ -60,25 +59,25 @@ Ja jūsu organizācija vērtējumam izmanto apkopotos skaitļus, individuāli v�
     - Ja katrai RFM rezultāta sadaļai ir jāietver vienāds debitoru skaits, atzīmējiet izvēles rūtiņu **Vienmērīga sadale**. 
     - Atzīmējiet izvēles rūtiņu **Saskaitīt rezultātus**, lai sasummētu visus trīs rezultātus. Šādi debitoram tiktu piešķirts RFM rezultāts, piemēram, 13, nevis 535. 
     - Atzīmējiet izvēles rūtiņu **Saglabāt vēsturi**, lai pieprasītu sistēmai saglabāt debitoru statistiskos datus un šos datus varētu izmantot RFM rezultāta aprēķināšanai.
-  
+
 5.  Kopsavilkuma cilnē **Nesenība** izpildiet tālāk aprakstītos norādījumus. 
     - Laukā **Nodaļas** ievadiet nodaļu vai grupu skaitu, kas tiks izmantots debitoru nesenības rezultāta aprēķināšanai. Piemēram, ja jums ir 100 debitori, sadalījums 5 nodaļās, ka katram rezultātam ir 20 debitori. Tiem 20 debitoriem, kuri pirkumus veica pēdējie, nesenības rezultāts ir 5. Nākamajiem 20 debitoriem nesenības rezultāts ir 4 un tā tālāk. Ja jums ir 50 debitori, 10 debitoriem nesenības rezultāts ir 5, un 10 debitoriem nesenības rezultāts ir 4 un tā tālāk. 
     - Laukā **Prioritāte** atlasiet, cik lielu svaru vēlaties piešķirt nesenības parametram salīdzinājumā ar pārējiem parametriem, aprēķinot debitora RFM rezultātu. Piemēram, varat piešķirt lielāku nozīmi nesenības rezultātam nekā naudas rezultātam. 
     - Laukā **Reizinātājs** ievadiet vērtību, ar kuru reizināt nesenības rezultātu. Ja neievadāt vērtību, rezultāts netiks reizināts. 
     - Lauka **Periods** atlasiet laika periodu, pēc kura tiek aprēķināts nesenības rezultāts. Piemēram, pa nedēļām vai mēnešiem.
-   
+
 6.  Kopsavilkuma cilnē **Biežums** izpildiet tālāk aprakstītos norādījumus. 
     - Laukā **Nodaļas** ievadiet nodaļu vai grupu skaitu, kas tiks izmantots debitoru biežuma rezultāta aprēķināšanai. 
     - Laukā **Prioritāte** atlasiet, cik lielu svaru vēlaties piešķirt biežuma parametram salīdzinājuma ar pārējiem parametriem, aprēķinot debitora RFM rezultātu. 
     - Laukā **Reizinātājs** ievadiet vērtību, ar kuru reizināt biežuma rezultātu. Ja neievadāt vērtību, rezultāts netiks reizināts.
-   
+
 7.  Kopsavilkuma cilnē **Monetārs** izpildiet tālāk aprakstītos norādījumus. 
     - Laukā **Nodaļas** ievadiet nodaļu vai grupu skaitu, kas tiks izmantots debitoru monetārā rezultāta aprēķināšanai. 
     - Laukā **Prioritāte** atlasiet, cik lielu svaru vēlaties piešķirt monetārajam parametram salīdzinājuma ar pārējiem parametriem, aprēķinot debitora RFM rezultātu. 
     - Laukā **Reizinātājs** ievadiet vērtību, ar kuru reizināt monetāro rezultātu. Ja neievadāt vērtību, rezultāts netiks reizināts. 
     - Laukā **Bruto/neto** izvēlieties, vai, aprēķinot debitora monetāro rezultātu, ir jāizmanto rēķinā norādītā bruto vai neto summa. 
     - Ja debitora atgriešanas summas ir jāatņem no debitora rēķina kopējā aprēķina, atzīmējiet izvēles rūtiņu **Atņemt atgriešanas vērtību**. 
- 
+
 ## <a name="view-a-customers-rfm-score"></a>Debitora RFM rādītāja skatīšana
 Lai skatītu klienta RFM rādītāju, izmantojiet tālāk aprakstīto procedūru. 
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-formula-by-copying-from-an-existing-formula"></a>Formulas izveide, kopējot no esošas formulas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ar šo procedūru tiek parādīts, kā ātri izveidot jaunu formulu, kopējot no esošas formulas. Lai izveidotu šo procedūru, varat izmantot demonstrācijas datu uzņēmumus USMF, USP2 vai USPI.
 

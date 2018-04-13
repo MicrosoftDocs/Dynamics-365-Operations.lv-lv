@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="income-statement-financial-report"></a>Peļņas vai zaudējumu aprēķina finanšu pārskats
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir aprakstīts peļņas vai zaudējumu aprēķina noklusējuma pārskats. Tajā ir aprakstīti arī ar šo pārskatu saistītie veidošanas bloki. 
 
@@ -60,7 +59,7 @@ Kolonnu definīcijas satur dažādu veidu kolonnas, lai sniegtu dažāda līmeņ
     -   **FD** — finanšu dati par pašreizējo periodu.
     -   **FD** — finanšu dati par šo gadu.
 
- 
+
 
 <a name="see-also"></a>Skatiet arī
 --------

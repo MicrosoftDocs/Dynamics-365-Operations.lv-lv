@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="electronic-reporting-overview"></a>Elektronisko pārskatu veidošanas apskats
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegts elektronisko atskaišu veidošanas (ER) rīka apskats. Tajā ir ietverta informācija par galvenajiem jēdzieniem, ER atbalstītajiem scenārijiem, kā arī saraksts ar formātiem, kas ir izstrādāti un izlaisti kā daļa no šī risinājuma.
 
@@ -287,6 +286,7 @@ ER jums ļauj izveidot (atvasināt) jaunu komponentu no komponenta pašreizējā
 ER jums ļauj atvasinātā komponenta pašreizējā melnraksta versijā automātiski pieņemt pamata komponenta jaunākajā versijā veiktās izmaiņas. Šis process tiek saukts par *pārbāzēšanu*. Piemēram, no LCS importētā formāta jaunākajā versijā ieviestās jaunās normatīvās izmaiņas var automātiski sapludināt elektroniskā dokumenta šī formāta pielāgotajā versijā. Visas izmaiņas, kuras nevar sapludināt automātiski, tiek uzskatītas par konfliktiem. Šie konflikti tiek parādīti manuālai atrisināšanai atbilstošā komponenta veidotāja rīkā. Lai iepazītos ar detalizētu informāciju par šo scenāriju, atskaņojiet uzdevuma ceļvedi **ER formāta jaunināšana, ieviešot šī formāta jauno bāzes versiju** (daļa no biznesa procesa **7.5.5.3. Izmainīta IT pakalpojumu/risinājumu komponenta iegāde/izstrāde (10683)**).
 
 ## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-and-operations-solution"></a>Finance and Operations risinājumā ietverto ER konfigurāciju saraksts
+
 | Domēnam specifiskās datu modeļu konfigurācijas: virsraksts | Domēns                | No datu modeļa atkarīgās formāta konfigurācijas: virsraksts | Apraksts                                                        |
 |--------------------------------------------------|-----------------------|---------------------------------------------------|--------------------------------------------------------------------|
 | Audita faila modelis                                 | Finanšu audits       |                                                   |                                                                    |

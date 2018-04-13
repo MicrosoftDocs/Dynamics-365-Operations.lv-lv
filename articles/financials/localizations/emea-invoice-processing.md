@@ -26,7 +26,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="invoice-processing"></a>Rēķina apstrāde
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir īsi aprakstīti daži valstij specifiskie scenāriji, piemēram, Eiropas Kopienas iekšējais pievienotās vērtības nodoklis (PVN) un atliktais nodoklis. Rēķinu izrakstīšanas procesu ietekmē dažās Eiropas valstīs pastāvošās juridiskās prasības. Šajā tēmā ir sniegta arī informācija par to, kā šīm valstīm tiek apstrādāti debitoru un kreditoru rēķini. 
 <table>

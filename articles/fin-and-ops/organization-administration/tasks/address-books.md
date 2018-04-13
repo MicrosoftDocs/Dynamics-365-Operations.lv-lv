@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-address-books"></a>Adrešu grāmatu konfigurēšana
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Izmantojiet šo procedūru un lēmumus, kurus esat pieņēmis, plānojot globālās adrešu grāmatas konfigurāciju un papildu adrešu grāmatas tēmu, lai iestatītu papildu adrešu grāmatas savai organizācijai.
 

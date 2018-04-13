@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="report-progress-on-a-mobile-job-device"></a>Pārskata sniegšana par attīstību mobilajā darba ierīcē
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir parādīts, kā sākt darbu un ziņot par norisi ražošanas darbam darba ierīces reģistrācijas formā.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="175-percent-reducing-balance-depreciation"></a>175 procentu degresīvā nolietojuma aprēķināšanas metode
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegts pārskats par 175 procentu degresīvā nolietojuma aprēķināšanas metodi.
 
@@ -68,6 +67,7 @@ Ja kā nolietojuma aprēķināšanas gadu atlasāt opciju **Finanšu**, tad lauk
 -   **Finanšu periods** — aprēķina finanšu gadam aprēķināto nolietojuma kopsummu. Šī summa tiek uzkrāta finanšu periodos, kas ir definēti lapā **Finanšu kalendāri**.
 
 ## <a name="example-of-175-reducing-balance-depreciation"></a>Atlikuma samazinošā nolietojuma par 175% piemērs
+
 |                                |        |
 |--------------------------------|--------|
 | Iegādes vērtība               | 11 000 |

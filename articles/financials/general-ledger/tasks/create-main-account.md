@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-main-account"></a>Galvenā konta izveide
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā uzdevuma ceļvedī aprakstīts, kā pievienot galveno kontu esošajam kontu plānam. Šajā ierakstā tiek izmantots USMF demonstrācijas uzņēmums.  
 

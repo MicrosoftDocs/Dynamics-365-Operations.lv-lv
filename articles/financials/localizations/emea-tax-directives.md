@@ -25,7 +25,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="tax-directives-for-europe"></a>Nodokļu direktīvas Eiropai
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ES direktīvā ir noteikumi, kas visām Dalībvalstīm ir jāievēro attiecība uz rēķinu noteikumiem un rēķinu veidošanas laika iekļaujamo informāciju. ES direktīvā ir uzskaitīta informācija, kas piegādātājiem ir jāsniedz saviem klientiem, kuri atrodas ES. Rēķinā var būt, piemēram, ietverta atsauce, kas apraksta juridisko pamatojumu PVN nulles likmei vai atbrīvojumam no nodokļu maksāšanas. Ja rēķins koriģē agrāk izsniegtu rēķinu, piemēram, kredīta notu, ir jāiekļauj viennozīmīga atsauce uz sākotnējo rēķinu.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="set-up-sales-commission-rules"></a>Pārdošanas komisijas kārtulu iestatīšana
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā iestatīt un aktivizēt pārdošanas komisijas naudas aprēķināšanu un izsekošanu. Procedūrā parādīts, kā izveidot debitora un krājuma komisijas grupas un pēc tam, kā atlasīto debitoru un preci saistīt ar attiecīgo grupu. Pēc tam šīs grupas tiek lietotas komisijas aprēķina iestatīšanā, lai izveidotu debitora, krājuma un pārdošanas pārstāvja kombināciju, kam jāatbilst pārdošanas pasūtījumam, lai piešķirtu pārdevējiem tiesības uz komisiju. Izveidot debitora un krājuma komisijas grupas nav obligāti, jo komisijas naudas aprēķinu var veikt arī atsevišķam debitoram un/vai krājumam. Šo procedūru varat izpildīt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.
 

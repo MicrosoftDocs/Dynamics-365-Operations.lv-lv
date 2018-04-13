@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>Izmaksu kontroles darbvietas parametru konfigurēšana
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Izmantojiet šo procedūru, lai konfigurētu izmaksu kontroles darbvietu, lai dažādu līmeņu vadītāji organizācijā var gūt ieskatu par to izmaksu objektiem, piemēram, izmaksu centriem un preču grupām. USP2 demonstrācijas uzņēmums tika izmantots, lai izveidotu šo ierakstu.
 

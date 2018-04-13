@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budgeting-overview"></a>Budžeta veidošanas apskats 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Gandrīz visiem uzņēmumiem, kuri izmanto programmas Microsoft Dynamics 365 for Finance and Operations funkcionalitāti Finanšu dati, ir jāspēj izveidot pārskatus par budžetā paredzētajām vērtībām, salīdzinot tās ar faktiskajām vērtībām. Šajā rakstā ir paskaidrota minimālā konfigurācija, kas ir nepieciešama, lai programmatūrā Dynamics 365 for Finance and Operations izveidotu budžetus vai tos ielādētu no kādas trešās puses programmas.
 

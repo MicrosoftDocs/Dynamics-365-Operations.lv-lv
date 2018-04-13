@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="import-iso20022-credit-transfer-configuration"></a>ISO20022 pārvietošanai kredītā konfigurācijas importēšana
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šī procedūra parāda, kā importēt kreditora maksājuma elektronisko pārskatu veidošanas konfigurāciju. Vācijas ISO 20022 kredīta pārskaitījuma formāts tiek izmantots kā piemērs. Šo procedūru var izmantot citiem pieejamajiem elektronisko pārskatu veidošanas formātiem. 
 

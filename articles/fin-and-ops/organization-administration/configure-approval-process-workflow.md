@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-approval-process-in-a-workflow"></a>Konfigurēt apstiprināšanas procesu darbplūsmā
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Izmantojiet tālāk aprakstīto procedūru, lai konfigurētu apstiprināšanas procesa rekvizītus.
 
@@ -136,6 +135,7 @@ Varat apzīmēt pēdējo apstiprinātāju scenārijiem, kuros apstiprinātājs i
 
 ## <a name="set-a-time-limit"></a>Laika robežas iestatīšana
 Veiciet šīs darbības, ja apstiprināšanas process ir jāpabeidz noteiktā laikā.
+
 | **Piezīme**                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Šajās darbībās izvēlētās opcijas tiks lietotas neatkarīgi no opcijām, kas atlasītas katra apstiprināšanas soļa apgabalā **Piešķire** un **Eskalācija**. |

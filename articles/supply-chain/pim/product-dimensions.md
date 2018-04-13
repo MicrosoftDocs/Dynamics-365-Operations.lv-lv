@@ -29,10 +29,9 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="product-dimensions"></a>Preces dimensijas
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[Retail name](../includes/retail-name.md)]
-
+[!INCLUDE [Retail name](../includes/retail-name.md)]
 
 Pastāv četras preču dimensijas: Krāsa, Konfigurācija, Izmērs un Stils. Preču dimensijas var apvienot dimensiju grupās, un dimensiju grupas var piešķirt preču šabloniem. Preču dimensiju kombinācijas nosaka, kā tiek definēti preču varianti.
 
@@ -51,6 +50,7 @@ Tādu preču dimensiju kā Izmērs, Krāsa un Stils vērtības var izveidot lap�
 -   Noklikšķiniet uz **Preču informācijas pārvaldība** &gt; **Izlaistās preces**. Atlasiet preces šablonu. **Darbību rūtī** noklikšķiniet uz**Prece**. Grupā **Preces šablons** noklikšķiniet uz **Preces dimensijas**.
 
 Krājumam izveidojamo variantu skaitu ierobežo iespējamo preču dimensiju kombināciju skaits.
+
 | **Padoms**                                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ja izmantojat preci, piemēram, pasūtījuma rindā, izvēlieties preču dimensijas, lai norādītu preces variantu, ar ko vēlaties strādāt. |

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-workflow"></a>Izdevumu darbplūsma
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Programmā Microsoft Dynamics 365 for Finance and Operations var izmantot darbplūsmu sistēmu, lai modulī Izdevumu pārvaldība iestatītu izdevumu pārskatu pārskatīšanas procesu. Varat iestatīt darbplūsmu, kas izmanto tālāk norādītos kritērijus, lai noteiktu, kurš apstiprina izdevumu pārskatus.
 

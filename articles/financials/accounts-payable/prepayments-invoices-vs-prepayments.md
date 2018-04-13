@@ -28,14 +28,14 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="prepayment-invoices-vs-prepayments"></a>Priekšapmaksas rēķini salīdzinājumā ar priekšapmaksu
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstītas un salīdzinātas divas metodes, ko organizācijas var izmantot avansa maksājumu (priekšapmaksas) veikšanai. Izmantojot vienu metodi, ir jāizveido priekšapmaksas rēķins, kas saistīts ar pirkšanas pasūtījumu. Izmantojot otru metodi, ir jāizveido priekšapmaksas žurnāla dokumenti, vispirms izveidojot žurnāla ierakstus un atzīmējot tos kā priekšapmaksas žurnāla dokumentus.
 
 Organizācijas var pieprasīt priekšapmaksu (avansa maksājumus), kas jāmaksā piegādātājiem par precēm vai pakalpojumiem, pirms šīs preces vai pakalpojumi ir izpildīti. Pastāv divas piegādātāju priekšapmaksas izsniegšanas metodes. Lai mazinātu risku, varat izsekot priekšapmaksu, definējot priekšapmaksu pirkšanas pasūtījumā. Lai izmantotu šo metodi, ir jāizveido priekšapmaksas rēķins, kas saistīts ar pirkšanas pasūtījumu. Šī metode tiek dēvēta par priekšapmaksas rēķinu izrakstīšanu. Organizācijas, kuras nevēlas precīzi izsekot priekšapmaksu vai nesaņem priekšapmaksas rēķinu no saviem piegādātājiem, var izmantot priekšapmaksas žurnāla dokumentus, nevis priekšapmaksas rēķinu izrakstīšanas metodi. Varat izveidot priekšapmaksas žurnāla dokumentus, izveidojot žurnāla ierakstus un atzīmējot tos kā priekšapmaksas žurnāla dokumentus. Izmantojot šo metodi, nevar izsekot to, kura pirkšanas pasūtījuma priekšapmaksa piegādātājam tiek veikta. Tomēr varat atzīmēt iegrāmatoto priekšapmaksu nosegšanai, salīdzinot to ar pirkšanas pasūtījumu.
 
 ## <a name="when-to-use-prepayment-invoicing-vs-prepayments"></a>Priekšapmaksas rēķinu un priekšapmaksas izmantošanas salīdzinājums
+
 | Priekšapmaksas rēķinu izrakstīšana                                                                | Priekšapmaksas                                                              |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | Nosakiet priekšapmaksas vērtību pirkšanas pasūtījumā.                                    | Pirkšanas pasūtījumā nav noteikta neviena priekšapmaksas vērtība.                    |

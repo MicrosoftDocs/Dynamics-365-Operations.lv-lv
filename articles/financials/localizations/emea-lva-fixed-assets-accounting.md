@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-assets-accounting-for-tax-purposes"></a> Pamatlīdzekļu uzskaite nodokļu aprēķinam
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par nodokļu nolietojuma funkcionalitāti Latvijai, tostarp nodokļu nolietojuma iestatīšanu, ka arī nodokļu nolietojuma pārskata aprēķināšanu un drukāšanu. 
 > [!NOTE]

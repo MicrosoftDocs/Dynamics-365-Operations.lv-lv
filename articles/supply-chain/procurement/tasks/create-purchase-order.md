@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order"></a>Pirkšanas pasūtījuma izveide
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir parādīts, kā manuāli izveidot pirkšanas pasūtījumu. Raksturīgāka ir pirkšanas pasūtījumu izveide automātiski, vispārējas plānošanas, tiešās piegādes un citu procesu rezultātā. Pirkuma pasūtījumu parasti veic iepirkuma aģenti. Šeit parādītajā piemērā var izmantot USMF demonstrācijas datu uzņēmumā, izmantojot vērtības, kas tiek piedāvātas dažādu posmu piezīmēs.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="create-a-free-text-invoice"></a>Brīva teksta rēķina izveidošana
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā uzdevuma ceļvedī ir parādīts, kā izveidot brīva teksta rēķinu. Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.
 

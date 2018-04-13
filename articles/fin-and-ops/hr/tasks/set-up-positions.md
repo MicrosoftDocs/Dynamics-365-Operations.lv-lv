@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-positions"></a>Amatu iestatīšana
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Amats ir nozīmīgs organizācijas hierarhijas zemāko līmeņu elements. Pozīcija ir atsevišķa darba instance. Piemēram, amats “Pārdošanas daļas vadītājs (austrumu reģions)” ir tikai viens no amatiem, kas ir saistīti ar darbu “Pārdošanas daļas vadītājs”. Amats pastāv nodaļā, un ar to var būt saistīts tikai viens darbinieks. Šajā uzdevumā mēs izklāstīsim darbības, kas ir jāizpilda, lai izveidotu amatu. Šī procedūra ir paredzēta personāla vadības speciālistam.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settlement-overview-for-centralized-payments"></a>Centralizētu maksājumu nosegšanas pārskats
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Organizācijas, kurās ir iekļautas vairākas juridiskās personas, var izveidot un pārvaldīt maksājumus, izmantojot vienu juridisko personu, kas apstrādā visus maksājumus. Tādējādi tiek izslēgta nepieciešamība ievadīt vienas un tās pašas darbības vairākās juridiskajās personās un taupīts laiks, racionalizējot centralizētu maksājumu priekšlikuma procesu, segšanas procesu, neapmaksātu darbību rediģēšanu un slēgtu darbību rediģēšanu. 
 

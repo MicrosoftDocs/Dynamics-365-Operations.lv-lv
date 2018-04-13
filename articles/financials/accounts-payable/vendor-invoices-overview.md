@@ -28,8 +28,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="vendor-invoices-overview"></a>Pārskats par kreditora rēķiniem
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta vispārīga informācija par kreditoru rēķiniem. Kreditoru rēķini ir maksājuma pieprasījumi par saņemtajām precēm un pakalpojumiem. Kreditoru rēķini var būt rēķini par notiekošiem pakalpojumiem, vai to pamatā var būt pirkšanas pasūtījumi par noteiktiem krājumiem un pakalpojumiem. 
 
@@ -87,11 +86,11 @@ Papildinformāciju skatiet šeit:
  - [Kreditoru rēķinu ierobežojumu iestatīšana](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
 
  - [Rēķinu datu ievade kreditoru modulī, izmantojot kreditora rēķinu](tasks/key-invoice-data-ap-system-vendor-invoice.md)
- 
+
  - [Rēķinu datu ievade kreditoru modulī, izmantojot apstiprināšanas žurnālu](tasks/key-invoice-data-into-ap-system-approval-journal.md)
-  
+
  - [Rēķinu datu ievade kreditoru sistēmā, izmantojot rēķinu kopu](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
- 
+
  - [Kreditora rēķina reģistrēšana rēķinu žurnālā](tasks/record-vendor-invoice-invoice-journal.md)
 
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="upgrade-budget-planning"></a>Jaunināt budžeta plānošanu
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Attiecībā uz budžeta plānošanu starp versiju Microsoft Dynamics AX 2012 un versiju Microsoft Dynamics 365 for Finance and Operations pastāv būtiskas atšķirības. Daži līdzekļi netika jaunināti, tādēļ tiem ir nepieciešama pārkonfigurēšana. Šajā tēmā ir skaidrots, kas ir jāpārkonfigurē, kā arī ir aprakstīti jaunie līdzekļi, kas ir jāņem vērā pēc jaunināšanas.  
 
@@ -70,26 +69,27 @@ Lai palīdzētu noteikt veidu, kā konfigurēt jaunināto sistēmu, nākamajā p
 
 ### <a name="define-columns-and-layouts"></a>Definēt kolonnas un izkārtojumus
 
-1.  Lapā **Budžeta plānošanas konfigurācija** noklikšķiniet uz cilnes **Kolonnas**. Jaunināšanas gaitā tiek automātiski izveidotas jaunas kolonnas, pamatojoties uz jūsu budžeta plāna rindām. Tagad kolonnas izmanto dinamiskus datumus, kur laiks un gads tiek nobīdīti no finanšu gada, kurš ir definēts budžeta plānošanas procesā. **Piezīme.** Atjaunināšanas laikā veiktspējas uzlabošanas nolūkos tiek pieņemts, ka visi budžeta cikli pārstāv kalendāros gadus, nav finanšu gadus. Ja izmantojat finanšu gadu, jums ir jāveic labojumi, lai kolonnas pareizi kartētu uz to finanšu gadiem. Piemēram, versijā AX 2012 pastāvēja tālāk norādītie elementi.
-    -   Budžeta plāna scenāriji: Faktiskās vērtības, Bāzlīnija, Budžeta pieprasījums, Apstiprinātais budžets
-    -   Budžeta plāna rindas visiem scenārijiem 2017. gadā un faktiskajām vērtībām gan 2017., gan 2016. gadam
+1. Lapā **Budžeta plānošanas konfigurācija** noklikšķiniet uz cilnes **Kolonnas**. Jaunināšanas gaitā tiek automātiski izveidotas jaunas kolonnas, pamatojoties uz jūsu budžeta plāna rindām. Tagad kolonnas izmanto dinamiskus datumus, kur laiks un gads tiek nobīdīti no finanšu gada, kurš ir definēts budžeta plānošanas procesā. **Piezīme.** Atjaunināšanas laikā veiktspējas uzlabošanas nolūkos tiek pieņemts, ka visi budžeta cikli pārstāv kalendāros gadus, nav finanšu gadus. Ja izmantojat finanšu gadu, jums ir jāveic labojumi, lai kolonnas pareizi kartētu uz to finanšu gadiem. Piemēram, versijā AX 2012 pastāvēja tālāk norādītie elementi.
+   -   Budžeta plāna scenāriji: Faktiskās vērtības, Bāzlīnija, Budžeta pieprasījums, Apstiprinātais budžets
+   -   Budžeta plāna rindas visiem scenārijiem 2017. gadā un faktiskajām vērtībām gan 2017., gan 2016. gadam
 
-    Versijā Dynamics 365 for Finance and Operations tiks izveidotas tālāk norādītās kolonnas.
-    | Kolonnas nosaukums    | Budžeta plāna scenārijs | Kolonnas laika periods | Gada nobīde |
-    |----------------|----------------------|--------------------|-------------|
-    | Jan 1. scenārijs | Faktiskās vērtības              | 1                  | 0           |
-    | Jan 2. scenārijs | Bāzlīnija             | 1                  | 0           |
-    | Jan 3. scenārijs | Budžeta pieprasījums       | 1                  | 0           |
-    | Jan 4. scenārijs | Apstiprinātais budžets      | 1                  | 0           |
-    | Jan 5. scenārijs | Faktiskās vērtības              | 1.                  | -1          |
-    | Feb 1. scenārijs | Faktiskās vērtības              | 1                  | 0           |
-    | ...            | ...                  | ...                | ...         |
+   Versijā Dynamics 365 for Finance and Operations tiks izveidotas tālāk norādītās kolonnas.
 
-    Šajā piemērā kolonna ar nosaukumu **Jan 1. scenārijs** tiek izveidota visjaunākajiem atrastajiem budžeta plāna transakciju datiem, kur janvārī pastāv transakcijas. Līdzīga kolonna tiek izveidota katram scenārijam, kuram ir dati. Kad kolonnas pastāv visiem periodiem attiecīgajā gadā, tiek izveidotas kolonnas iepriekšējiem gadiem.
-2.  Kolonnu nosaukumus un aprakstus, kā arī citu informāciju, varat mainīt gan manuāli klientā, gan izpildot lielapjoma atjauninājumus, izmantojot Excel pievienojumprogrammu, kas norāda uz budžeta plāna kolonnu datu elementu. Visi filtri, kas iepriekš bija iestatīti matricas laukiem, tagad ir iestatīti kolonnu ietvaros.
-3.  Izveidojiet jaunu budžeta izkārtojumu. Izkārtojums norāda uz vairākām kolonnām, lai definētu programmā Excel un klientā redzamo skatu. Vispirms izkārtojums pieprasa norādīt virsgrāmatas dimensiju kopu, lai noteiktu, kuras finanšu dimensijas var ievadīt. Kad dimensiju kopa ir norādīta, noklikšķiniet uz **Apraksti**, lai atlasītu izkārtojumā iekļaujamos dimensiju aprakstus.
-4.  Kopsavilkuma cilnē **Izkārtojuma elementi** noklikšķiniet uz **Pievienot**, lai pievienotu metadatus katrai rindai, piemēram, valūtas rindai, komentāru rindai vai budžeta klases rindai, kas nosaka ieņēmumus pret izdevumiem. Pēc tam pievienojiet kolonnas laika periodam un scenārijus, kas attiecas uz šo budžeta ciklu un stadiju. Šīs izmaiņas varat veikt manuāli klientā, vai izmantojot Excel pievienojumprogrammu, kas norāda uz budžeta plāna izkārtojuma elementu datu elementu.
-5.  Katram izkārtojuma elementam atlasiet, vai kolonnai ir jābūt rediģējamai un vai kolonna šim izkārtojumam ir jārāda arī Excel darbgrāmatā. **Piezīme.** Attiecībā uz mūsu vēsturiskajiem plāniem jūs varētu vēlēties izmantot izkārtojumu, kurā ir redzamas 12 ikmēneša kolonnas jebkuriem attiecīgā procesa budžeta plāna scenārijiem.
+   | Kolonnas nosaukums    | Budžeta plāna scenārijs | Kolonnas laika periods | Gada nobīde |
+   |----------------|----------------------|--------------------|-------------|
+   | Jan 1. scenārijs | Faktiskās vērtības              | 1                  | 0           |
+   | Jan 2. scenārijs | Bāzlīnija             | 1                  | 0           |
+   | Jan 3. scenārijs | Budžeta pieprasījums       | 1                  | 0           |
+   | Jan 4. scenārijs | Apstiprinātais budžets      | 1                  | 0           |
+   | Jan 5. scenārijs | Faktiskās vērtības              | 1.                  | -1          |
+   | Feb 1. scenārijs | Faktiskās vērtības              | 1                  | 0           |
+   | ...            | ...                  | ...                | ...         |
+
+   Šajā piemērā kolonna ar nosaukumu **Jan 1. scenārijs** tiek izveidota visjaunākajiem atrastajiem budžeta plāna transakciju datiem, kur janvārī pastāv transakcijas. Līdzīga kolonna tiek izveidota katram scenārijam, kuram ir dati. Kad kolonnas pastāv visiem periodiem attiecīgajā gadā, tiek izveidotas kolonnas iepriekšējiem gadiem.
+2. Kolonnu nosaukumus un aprakstus, kā arī citu informāciju, varat mainīt gan manuāli klientā, gan izpildot lielapjoma atjauninājumus, izmantojot Excel pievienojumprogrammu, kas norāda uz budžeta plāna kolonnu datu elementu. Visi filtri, kas iepriekš bija iestatīti matricas laukiem, tagad ir iestatīti kolonnu ietvaros.
+3. Izveidojiet jaunu budžeta izkārtojumu. Izkārtojums norāda uz vairākām kolonnām, lai definētu programmā Excel un klientā redzamo skatu. Vispirms izkārtojums pieprasa norādīt virsgrāmatas dimensiju kopu, lai noteiktu, kuras finanšu dimensijas var ievadīt. Kad dimensiju kopa ir norādīta, noklikšķiniet uz **Apraksti**, lai atlasītu izkārtojumā iekļaujamos dimensiju aprakstus.
+4. Kopsavilkuma cilnē **Izkārtojuma elementi** noklikšķiniet uz **Pievienot**, lai pievienotu metadatus katrai rindai, piemēram, valūtas rindai, komentāru rindai vai budžeta klases rindai, kas nosaka ieņēmumus pret izdevumiem. Pēc tam pievienojiet kolonnas laika periodam un scenārijus, kas attiecas uz šo budžeta ciklu un stadiju. Šīs izmaiņas varat veikt manuāli klientā, vai izmantojot Excel pievienojumprogrammu, kas norāda uz budžeta plāna izkārtojuma elementu datu elementu.
+5. Katram izkārtojuma elementam atlasiet, vai kolonnai ir jābūt rediģējamai un vai kolonna šim izkārtojumam ir jārāda arī Excel darbgrāmatā. **Piezīme.** Attiecībā uz mūsu vēsturiskajiem plāniem jūs varētu vēlēties izmantot izkārtojumu, kurā ir redzamas 12 ikmēneša kolonnas jebkuriem attiecīgā procesa budžeta plāna scenārijiem.
 
 ### <a name="update-budget-planning-processes-to-use-the-appropriate-layout-for-each-budget-stage"></a>Atjaunināt budžeta plānošanas procesus, lai katrai budžeta stadijai lietotu atbilstošo izkārtojumu
 

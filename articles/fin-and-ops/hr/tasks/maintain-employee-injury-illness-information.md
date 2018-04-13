@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Darbinieku savainojumu un slimību informācijas uzturēšana
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ieteicams vispirms izpildīt uzdevuma ceļvedi Traumas un slimības iestatīšana, jo šeit tiek izmantota daļa iestatīšanas informācijas. 
 

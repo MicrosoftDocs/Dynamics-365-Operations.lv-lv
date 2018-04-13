@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-goal"></a>Mērķa izveide
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Jūs varat izveidot mērķus, pievienot aktivitātes mērķiem, izsekot mērījumiem un saistīt mērķus ar pārskatu. Šī procedūra tika izveidota, izmantojot demonstrācijas uzņēmuma USMF datus. Šī procedūra ir paredzēta līdzeklim, kas tika pievienots Dynamics 365 for Operations versijā 1611.
 

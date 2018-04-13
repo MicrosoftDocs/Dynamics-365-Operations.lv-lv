@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-loyalty-reward-points"></a> Lojalitātes programmas atlīdzības punktu definēšana
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā definēt lojalitātes programmas atlīdzības punktus. Pirms iestatāt lojalitātes programmu, jāiestata lojalitātes programmas atlīdzības punkti. Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.
 

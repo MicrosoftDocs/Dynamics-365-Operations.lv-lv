@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>PVN aprēķina metodes laukā Izcelsme
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Šajā rakstā ir aprakstītas lauka Izcelsme opcijas PVN kodu lapā un kā PVN tiek aprēķināts atkarībā no atlasītās PVN koda opcijas.
 
@@ -53,11 +52,12 @@ Nodokļu iestāde krājumu ir aplikusi ar speciāliem nodokļiem. Šo nodokļu s
 -   PVN = 25%, izmantojot aprēķina metodi Procenti no bruto summas
 
 Ja neto summa ir 10,00, tad 1. NODOKLIS ir 1,00 (10,00 x 10%) un 2. nodoklis ir 2,00 (10,00 x 20%). Tālāk ir norādītas summas. Bruto summa: neto summa + 1. NODOKĻA summa + 2. NODOKĻA summa (10,00 + 1,00 + 2,00) = 13,00 PVN: 13,00 x 25% = 3,25 NODOKĻI un PVN kopā: 1,00 + 2,00 + 3,25 = 6,25 Kopsumma: 10,00 + 6,25 = 16,25
+
 | **Piezīme.**                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Transakcijai var izmantoti tikai vienu nodokļa kodu, kam ir iestatīta lauka Izcelsme vērtība Procenti no bruto summas. Ja transakcijai ir norādīti vairāki šādi nodokļu kodi, tiek parādīts kļūdas ziņojums par to, ka nevar aprēķināt PVN. |
 
- 
+
 <a name="percentage-of-sales-tax"></a>PVN %
 -----------------------
 
@@ -70,6 +70,7 @@ Tiek izmantoti tālāk norādītie PVN kodi.
 -   PVN = 25%, izmantojot metodi Procenti no bruto summas
 
 Neto summa: 10,00 1. NODOKLIS: 10,00 x 10% = 1,00 2. NODOKLIS: 1,00 x 20% = 0,20 Bruto summa: 10,00 + 1,00 + 0,20 = 11,20 PVN: 11,20 x 25% = 2,80 NODOKĻI un PVN kopā: 1,00+ 0,20 + 2,80 = 4,00 Kopsumma: 10,00 + 4,00 = 14,00
+
 | **Piezīme.**                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nevar veikt daudzlīmeņu nodokļa aprēķinu, pamatojoties uz nodokli. Nevar aprēķināt nodokli, pamatojoties uz nodokli, kas jau ir aprēķināts, pamatojoties uz citu nodokli. Transakcijai var veikt vairākus vienlīmeņa nodokļa koda aprēķinus, pamatojoties uz nodokli. |
@@ -79,6 +80,7 @@ Ja atlasāt lauka Izcelsme vērtību Sumam uz vienu vienību, PVN tiek aprēķin
 ### <a name="example"></a>Paraugs
 
 PVN kods ir iestatīts kā: USD 1,20 uz vienu vienību = kasti Pārdošanas rēķina rindā ir reģistrēta 25 krājuma kastu pārdošana PVN ir aprēķināts kā: 25 x1,20 =30,00
+
 | **Piezīme.**                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ja transakcija ir ievadīta, izmantojot citu vienību, nevis PVN kodam norādīto vienību, tā tiek automātiski konvertēta, pamatojoties uz vienību konvertācijām, kas ir iestatītas lapā Mērvienību pārveidošana. |

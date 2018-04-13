@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="letters-of-credit-and-import-collections"></a>Kredītvēstules un importa inkaso
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta vispārīga informācija par akreditīviem un importa inkaso. Abu tipu bankas dokumenti bieži tiek lietoti pārrobežu preču pirkšanai un pārdošanai.
 

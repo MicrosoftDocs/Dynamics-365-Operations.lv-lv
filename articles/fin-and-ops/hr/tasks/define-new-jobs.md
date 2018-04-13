@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-new-jobs"></a>Jaunu darbu definēšana
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šis uzdevums koncentrējas uz jauna darba izveidi. Tas tiks paveikts, izmantojot manuālu ievadīšanu un funkcionalitāti kopēšanai no veidnes. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USMF. Šis uzdevums ir paredzēts personāla vadības speciālistam.
 

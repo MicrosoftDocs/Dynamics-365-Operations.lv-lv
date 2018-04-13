@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="fixed-assets-home-page"></a>Pamatlīdzekļu sākumlapa
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Pamatlīdzekļi ir vērtību krājumi, piemēram, ēkas, transportlīdzekļi, zeme un aprīkojums, kas pieder privātpersonai vai organizācijai. 
 

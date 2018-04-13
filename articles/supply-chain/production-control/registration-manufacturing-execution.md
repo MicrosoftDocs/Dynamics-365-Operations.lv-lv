@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="registration-for-manufacturing-execution"></a>Ražošanas izpildes reģistrācija
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstītas galvenās koncepcijas un termini, kas ir jāsaprot, lai varētu konfigurēt un lietot ražošanas izpildi 
 

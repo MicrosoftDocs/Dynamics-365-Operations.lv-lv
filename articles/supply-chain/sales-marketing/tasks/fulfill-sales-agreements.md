@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="fulfill-sales-agreements"></a>Pārdošanas līgumu nosacījumu izpilde
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir parādīts, kā izpildīt pārdošanas līgumu, piesaistot tam pārdošanas pasūtījumus. Šo procedūru varat izpildīt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus. Pirms uzsākt darbu ar šo ceļvedi, pārliecinieties, ka jums ir spēkā esošs pārdošanas līgums, kura tips ir "Uz preču vērtību attiecināmas saistības". Vai arī varat palaist uzdevuma ceļvedi ar nosaukumu "Pārdošanas līgumu izveide".  
 

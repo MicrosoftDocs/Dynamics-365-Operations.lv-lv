@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="hire-an-existing-employee-through-recruiting"></a>Esoša darbinieka pieņemšana darbā, izmantojot personāla atlasi
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Dažreiz brīvos amatus var aizpildīt kandidāti, kas jau ir jūsu organizācijas darbinieki. Šajā procedūrā parādīts, kā veikt darbā pieņemšanas procesu esošajam darbiniekam. Šajā procedūrā personāla atlases projekts jau ir iestatīts, un pašreizējais darbinieks jau ir iesniedzis pieteikumu personāla atlases projektam. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 

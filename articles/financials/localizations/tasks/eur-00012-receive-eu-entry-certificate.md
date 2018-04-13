@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="receive-an-eu-entry-certificate"></a>ES ieraksta sertifikāta saņemšana
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir izklāstīts, kā reģistrēt ES ieraksta sertifikātu, ko izsniedza trešā puse un kurš saņemts no jūsu debitora.
 

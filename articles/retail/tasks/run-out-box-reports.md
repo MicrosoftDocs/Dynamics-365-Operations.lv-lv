@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="generate-and-run-out-of-box-reports"></a> Ārpus zonu pārskatu ģenerēšana un palaišana
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Izmantojiet šo uzdevumu ceļvedi, lai palaistu ārpus zonu pārskatus galvenajā pārvaldē no dažādām darbvietām un vaicājumiem, un pārdošanas pārskatiem, kas atrodas sadaļā Mazumtirdzniecība un komercija.
 

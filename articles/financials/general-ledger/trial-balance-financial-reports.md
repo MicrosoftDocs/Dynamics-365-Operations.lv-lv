@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="trial-balance-financial-reports"></a>Apgrozījuma bilances finanšu pārskati
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir aprakstīti noklusējuma pārskati apgrozījuma bilancēm. Tajā ir aprakstīti arī ar šiem pārskatiem saistītie veidošanas bloki un veids, kā šos pārskatus varat modificēt, lai tie atbilstu jūsu biznesa prasībām. 
 
@@ -99,7 +98,7 @@ Katrā apgrozījuma bilances pārskatā izmantota cita kolonnas definīcija. Š�
     -   **FD** — finanšu dati, kas satur tikai debetu pagājušajam gadam.
     -   **FD** — finanšu dati, kas satur tikai kredītu pagājušajam gadam.
 
- 
+
 
 <a name="see-also"></a>Skatiet arī
 --------

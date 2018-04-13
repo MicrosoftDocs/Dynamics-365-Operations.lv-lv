@@ -28,8 +28,7 @@ ms.lasthandoff: 12/01/2017
 
 # <a name="generate-a-financial-report"></a>Ģenerēt finanšu pārskatu
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta vispārīga informācija finanšu atskaites ģenerēšanu. 
 
@@ -50,13 +49,13 @@ Kad veidojat atskaiti, tiek izmantotas opcijas, kuras jūs norādījāt cilnēs 
 ## <a name="generate-a-financial-report"></a>Ģenerēt finanšu pārskatu
 
 Lai ģenerētu finanšu pārskatu, izmantojot Microsoft Dynamics 365 for Finance and Operations, dodieties uz **Virsgrāmata** > **Pieprasījumi un pārskati** > **Finanšu pārskati**. 
- - Atlasiet pārskatu, ko vēlaties ģenerēt, un noklikšķiniet uz **Ģenerēt**. 
- - Aizpildiet lauku **Pārskata datums** un noklikšķiniet uz **Labi**.
- 
- Pēc pārskata ģenerēšanas šo pārskatu varēs skatīt sadaļā **Pārskati**.
- Varat izvēlēties šo pārskatu **Skatīt** vai **Dzēst**.
- 
- 
+- Atlasiet pārskatu, ko vēlaties ģenerēt, un noklikšķiniet uz **Ģenerēt**. 
+- Aizpildiet lauku **Pārskata datums** un noklikšķiniet uz **Labi**.
+
+  Pēc pārskata ģenerēšanas šo pārskatu varēs skatīt sadaļā **Pārskati**.
+  Varat izvēlēties šo pārskatu **Skatīt** vai **Dzēst**.
+
+
 Lai ģenerētu pārskatu, izmantojot līdzekli **Pārskatu veidotājs**, atveriet pārskata definīciju un pēc tam rīkjoslā noklikšķiniet uz pogas Ģenerēt. Tiks atvērts logs Pārskata rindas statuss, un norādīs jūsu pārskata atrašanās vietu rindā. Pēc noklusējuma ģenerētais pārskats tiks atvērts pakalpojumā Tīmekļa skatītājs.
 
 > [!NOTE]
@@ -159,7 +158,7 @@ Kad palaižat trūkstošo kontu analīzi, ir pieejami tālāk norādītie īsin�
 | Atvērt atlasītā pārskata definīciju  | Ctrl+R                     |
 | Atvērt atlasītās rindas definīciju     | Ctrl+O                     |
 
- 
+
 <a name="see-also"></a>Skatiet arī
 --------
 

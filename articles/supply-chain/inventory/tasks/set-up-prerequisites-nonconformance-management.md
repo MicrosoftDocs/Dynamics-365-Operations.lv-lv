@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-prerequisites-for-management"></a>Pārvaldības priekšnosacījumu iestatīšana
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Izmantojiet šo procedūru, lai iespējotu neatbilstības pārvaldības procesus. Neatbilstība apraksta procedūru vai vienību, kam ir problēmas ar kvalitāti, kur aprakstošajā informācijā ietverts problēmas cēlonis un tips. Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati. Parasti šo procedūru veic kvalitātes pārvaldītājs.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-mass-hire-project"></a>Masveida darbā pieņemšanas projekta izveide
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā aprakstīts process masveida darbā pieņemšanas projekta iestatīšanai. Personāla atlases darbinieks var izmantot masveida darbā pieņemšanas projektus, lai viegli izveidotu vairākus amatus un šajos amatos pieņemtu darbā vairākus darbiniekus. Lai sāktu šo procedūru, pārejiet uz sadaļu Personāla vadība > Personāla atlase > Masveida darbā pieņemšanas projekti. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-assortments"></a>Iestatīt preču klāstus
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Šajā rakstā ir aprakstīts, kas ir preču klāsts, un ir paskaidrots, kā iestatīt preču klāstus programmā Microsoft Dynamics 365 for Retail.
 

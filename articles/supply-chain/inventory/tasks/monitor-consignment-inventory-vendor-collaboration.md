@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="monitor-consignment-inventory-using-vendor-collaboration"></a>Sūtījuma krājumu pārraudzība, izmantojot kreditoru sadarbību
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir parādīts kā izmantot kreditoru sadarbību, lai skatītu informāciju par preces rezerves līmeni, kas tika novietots sūtījumā ar debitoru. Jūs varat arī pārraudzīt rezerves patēriņu, kad debitors uzņemas atbildību par krājumu. Šo procedūru varat lietot ar demonstrācijas datu uzņēmumu USMF. Šī procedūra ir paredzēta līdzeklim, kas tika pievienots Dynamics 365 for Operations versijā 1611.
 

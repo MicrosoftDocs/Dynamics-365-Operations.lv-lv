@@ -27,14 +27,14 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="tax-on-natural-resources-report"></a>Dabas resursu nodokļa pārskats
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā iestatīt un ģenerēt pārskatu Dabas resursu nodoklis (DRN).
 
 Uzņēmumiem Latvijā ir periodiski jāiesniedz pārskats **Dabas resursu nodoklis** (**DRN**). Šī funkcionalitāte attiecas tikai uz juridiskajām personām Latvijā. Nodoklis ir jāaprēķina arī par importētajām vai pašu ražotajām precēm, kuras tiek lietotas iekšēji. Visbeidzot — dabas resursu nodoklis ir jāaprēķina par pārskata perioda laikā pārdoto iepakoto preču iepakojuma materiāliem.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
+
 | Priekšnosacījums                                                   | Papildinformācija                                                                                                                                                                                                                                                                                                                                                                                            |
 |----------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Iestatiet nodokļu iestādi.                                        |    |
@@ -115,33 +115,34 @@ Lai varētu ģenerēt pārskatu **Dabas resursu nodoklis**, ir jāiestata rindas
 ## <a name="generate-the-natural-resources-tax-report"></a>Ģenerēt dabas resursu nodokļa pārskatu
 Dabas resursu nodokļi tiek rēķināti krājumu žurnālu transakciju laikā un gadījumos, kad Latvijas debitoriem tiek izveidoti pārdošanas vai projektu rēķini, ja transakcijās ir iesaistīti krājumi, uz kuriem attiecas dabas resursu nodoklis. Šajā sadaļā ir aprakstīts, kā iegūt sarakstu ar dabas resursu nodokļa transakcijām, kas ir saistītas ar iepakojuma materiāliem, un kā izdrukāt dabas resursu nodokļa deklarāciju.
 
-1.  Noklikšķiniet uz **Nodokļi** &gt; **Deklarācijas** &gt; **PVN** &gt; **Dabas resursu nodoklis**.
-2.  Noklikšķiniet uz **Izveidot** &gt; **Izveidot dabas resursu nodokļa rindas iepakojumam**.
-3.  Ievadiet attiecīgā pārskatu perioda ceturksni un gadu.
-4.  Noklikšķiniet uz **Labi**, lai pārsūtītu informāciju, kura tiks izmantota, lai ģenerētu pārskatu par iepakojuma materiāliem šajā pārskata periodā.
-5.  Noklikšķiniet uz **Izveidot** &gt; **Izveidot dabas resursu nodokļa rindas krājumiem**.
-6.  Ievadiet attiecīgā pārskatu perioda ceturksni un gadu.
-7.  Noklikšķiniet uz **Labi**, lai pārsūtītu informāciju, kura tiks izmantota, lai ģenerētu pārskatu par bīstamu materiālu nodokli.
-8.  Kad dabas resursu nodokļa rindas ir izveidotas, katrā rindā informāciju varat manuāli pievienot vai modificēt.
-    | Lauks                      | Apraksts                                                                                                                                                                                                                              |
-    |----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Dokuments                    | Dokumenta numurs Virsgrāmatā.                                                                                                                                                                                                        |
-    | Datums                       | Dabas resursu nodokļa transakcijas datums.                                                                                                                                                                                       |
-    | Rēķins                    | Rēķina identifikators.                                                                                                                                                                                                           |
-    | Transakcijas tips           | Dabas resursu nodokļa transakcijas tips. Pieejamās opcijas ir **Bīstamu krājumu nodoklis** un **Iepakojuma materiālu nodoklis**.                                                                                                |
-    | Dabas resursu nodokļu grupa | Dabas resursu nodokļu grupa. Šis lauks nav pieejams, ja laukā **Transakcijas tips** ir atlasīta vērtība **Iepakojuma materiālu nodoklis**.                                                                                         |
-    | PVN grupa            | Pārdošanas vai pirkšanas transakcijas laikā aprēķinātajiem dabas resursu nodokļiem izveidotā PVN grupa. Šis lauks nav pieejams, ja laukā **Transakcijas tips** ir atlasīta vērtība **Iepakojuma materiālu nodoklis**. |
-    | PVN kods             | Kods, kas identificē PVN.                                                                                                                                                                                                  |
-    | Nodokļa bāzes summa            | Sākotnējā summa, no kuras tiek rēķināts PVN. Šis lauks nav pieejams, ja laukā **Transakcijas tips** ir atlasīta vērtība **Iepakojuma materiālu nodoklis**.                                                                   |
-    | PVN summa                 | Aprēķinātā PVN summa.                                                                                                                                                                                                         |
-    | MK rinda                   | Atzīmējiet šo opciju, ja transakcija ir MK (materuālu komplekta) rinda.                                                                                                                                                                 |
-    | Atsauce                  | Modulis, kas ģenerē šo transakciju.                                                                                                                                                                                               |
-    | Numurs                     | Numurs, piemēram, pasūtījuma numurs, projekta numurs vai ražošanas numurs.                                                                                                                                                                  |
-    | Atsauces tabulas ID         | Transakcijas avota tabula.                                                                                                                                                                                                    |
-    | Atsauce                  | Avota atsauces lauks citā tabulā.                                                                                                                                                                                         |
+1. Noklikšķiniet uz **Nodokļi** &gt; **Deklarācijas** &gt; **PVN** &gt; **Dabas resursu nodoklis**.
+2. Noklikšķiniet uz **Izveidot** &gt; **Izveidot dabas resursu nodokļa rindas iepakojumam**.
+3. Ievadiet attiecīgā pārskatu perioda ceturksni un gadu.
+4. Noklikšķiniet uz **Labi**, lai pārsūtītu informāciju, kura tiks izmantota, lai ģenerētu pārskatu par iepakojuma materiāliem šajā pārskata periodā.
+5. Noklikšķiniet uz **Izveidot** &gt; **Izveidot dabas resursu nodokļa rindas krājumiem**.
+6. Ievadiet attiecīgā pārskatu perioda ceturksni un gadu.
+7. Noklikšķiniet uz **Labi**, lai pārsūtītu informāciju, kura tiks izmantota, lai ģenerētu pārskatu par bīstamu materiālu nodokli.
+8. Kad dabas resursu nodokļa rindas ir izveidotas, katrā rindā informāciju varat manuāli pievienot vai modificēt.
 
-    **Piezīme.** Lauku grupā **Iepakojuma materiāli** lauki ir pieejami tikai tad, ja laukā **Transakcijas tips** ir atlasīta opcija **Iepakojuma materiālu nodoklis**.
-9.  Noklikšķiniet uz **Datu validēšana**, lai validētu dabas resursu nodokļa transakciju rindas.
+   | Lauks                      | Apraksts                                                                                                                                                                                                                              |
+   |----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   | Dokuments                    | Dokumenta numurs Virsgrāmatā.                                                                                                                                                                                                        |
+   | Datums                       | Dabas resursu nodokļa transakcijas datums.                                                                                                                                                                                       |
+   | Rēķins                    | Rēķina identifikators.                                                                                                                                                                                                           |
+   | Transakcijas tips           | Dabas resursu nodokļa transakcijas tips. Pieejamās opcijas ir **Bīstamu krājumu nodoklis** un **Iepakojuma materiālu nodoklis**.                                                                                                |
+   | Dabas resursu nodokļu grupa | Dabas resursu nodokļu grupa. Šis lauks nav pieejams, ja laukā **Transakcijas tips** ir atlasīta vērtība **Iepakojuma materiālu nodoklis**.                                                                                         |
+   | PVN grupa            | Pārdošanas vai pirkšanas transakcijas laikā aprēķinātajiem dabas resursu nodokļiem izveidotā PVN grupa. Šis lauks nav pieejams, ja laukā **Transakcijas tips** ir atlasīta vērtība **Iepakojuma materiālu nodoklis**. |
+   | PVN kods             | Kods, kas identificē PVN.                                                                                                                                                                                                  |
+   | Nodokļa bāzes summa            | Sākotnējā summa, no kuras tiek rēķināts PVN. Šis lauks nav pieejams, ja laukā **Transakcijas tips** ir atlasīta vērtība **Iepakojuma materiālu nodoklis**.                                                                   |
+   | PVN summa                 | Aprēķinātā PVN summa.                                                                                                                                                                                                         |
+   | MK rinda                   | Atzīmējiet šo opciju, ja transakcija ir MK (materuālu komplekta) rinda.                                                                                                                                                                 |
+   | Atsauce                  | Modulis, kas ģenerē šo transakciju.                                                                                                                                                                                               |
+   | Numurs                     | Numurs, piemēram, pasūtījuma numurs, projekta numurs vai ražošanas numurs.                                                                                                                                                                  |
+   | Atsauces tabulas ID         | Transakcijas avota tabula.                                                                                                                                                                                                    |
+   | Atsauce                  | Avota atsauces lauks citā tabulā.                                                                                                                                                                                         |
+
+   **Piezīme.** Lauku grupā **Iepakojuma materiāli** lauki ir pieejami tikai tad, ja laukā **Transakcijas tips** ir atlasīta opcija **Iepakojuma materiālu nodoklis**.
+9. Noklikšķiniet uz **Datu validēšana**, lai validētu dabas resursu nodokļa transakciju rindas.
 10. Izlabojiet visas kļūdas, rindas rediģējot manuāli.
 11. Noklikšķiniet uz **Drukāt**.
 12. Ievadiet pārskata gadu.

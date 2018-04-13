@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchase-order-overview"></a>Pirkšanas pasūtījuma apskats
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Šajā rakstā ir sniegta vispārīga informācija par pirkšanas pasūtījumiem (PP) un saites uz papildu rakstiem, kas ir saistīti ar dažādajiem PP apstrādes posmiem.
 

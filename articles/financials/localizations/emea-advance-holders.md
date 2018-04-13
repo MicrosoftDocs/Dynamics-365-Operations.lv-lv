@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="advance-holders"></a>Avansa turētāji
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Uzziniet par avansa turētāju funkcionalitāti programmā Microsoft Dynamics 365 for Finance and Operations.
 
@@ -48,11 +47,13 @@ Lai izveidotu avansa turētāju grupu, izmantojiet lapu **Avansa turētāju grup
 ### <a name="employee-posting-profile"></a>Darbinieku grāmatošanas metode
 
 Lai izveidotu metodi avansa turētāju transakcijām, izmantojiet lapu **Darbinieku grāmatošanas metodes**. Darbinieka grāmatošanas metodei varat norādīt tālāk aprakstīto informāciju.
-|Lauks |Apraksts|
-|------|-----------|
-|Grāmatošanas metode|Ievadiet grāmatošanas metodes identifikācijas kodu avansa turētājam.|
-|Apraksts|Ievadiet īsu grāmatošanas metodes aprakstu.|
-|Derīgs|Grāmatošanas metodes iestatīšanas nolūkos grupēšanas līmenim atlasiet kādu no tālāk norādītajām opcijām. 
+
+|      Lauks      |                                            Apraksts                                            |
+|-----------------|---------------------------------------------------------------------------------------------------|
+| Grāmatošanas metode |               Ievadiet grāmatošanas metodes identifikācijas kodu avansa turētājam.               |
+|   Apraksts   |                         Ievadiet īsu grāmatošanas metodes aprakstu.                         |
+|    Derīgs    | Grāmatošanas metodes iestatīšanas nolūkos grupēšanas līmenim atlasiet kādu no tālāk norādītajām opcijām. |
+
 **Tabula** — šī opcija tiek izmantota, lai iestatītu grāmatošanas profilu vienam avansa turētājam. Laukā Atsauce ir jānorāda avansa turētāja kods.
 **Grupa** — šī opcija tiek izmantota, lai iestatītu grāmatošanas profilu avansa turētāju grupai. Laukā Atsauce ir jānorāda grupas kods.
 **Visi** — šī opcija tiek izmantota, lai iestatītu grāmatošanas metodi visiem avansa turētājiem.| |Atsauce|Atlasiet avansa turētāja kodu, ja laukā Derīgs ir atlasīta vērtība Tabula, vai atlasiet avansa turētāju grupu, ja laukā Derīgs ir atlasīta vērtība Grupa.| |Summu konts|Atlasiet summu kontu transakciju grāmatošanai.|
@@ -62,6 +63,7 @@ Lai izveidotu metodi avansa turētāju transakcijām, izmantojiet lapu **Darbini
 ### <a name="account-payable-parameters"></a>Kreditoru moduļa parametri
 
 Lai atainotu avansa turētāju transakcijas, lapas **Kreditoru moduļa parametri** sadaļā **Avansa turētāji** ir jāiestata tālāk aprakstītie priekšnosacījumi.
+
 |                                                |                   |
 |------------------------------------------------|-------------------|
 |  **Lauks**                                     | **Apraksts**                                                                                                                                                                  |
@@ -80,6 +82,7 @@ Lai pareizi reģistrētu un grāmatotu pirkšanas pasūtījumu, izmantojot avans
 ### <a name="create-an-advance-holder-creation"></a>Izveidot avansa turētāja izveidi
 
 Lai varētu izveidot avansa turētāju, nodarbinātajiem jau ir jābūt iestatītiem. Papildinformāciju skatiet rakstā [Ievadīt darbinieka informāciju (uzdevuma ceļvedis).](../../fin-and-ops/hr/tasks/enter-worker-information.md) Lai nodarbināto iestatītu kā avansa turētāju, izmantojiet lapu **Avansa turētāji**. Atlasiet nodarbināto, ko lietot kā avansa turētāju, noklikšķiniet uz **Rediģēt** un pēc tam opciju **Avansa turētājs** iestatiet uz **Patiess**. Ir jāaizpilda arī tālāk norādītie lauki.
+
 |                |                                                                                             |
 |----------------|---------------------------------------------------------------------------------------------|
 | **Lauks**      | **Apraksts**                                                                             |

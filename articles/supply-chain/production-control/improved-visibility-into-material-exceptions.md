@@ -26,7 +26,7 @@ ms.lasthandoff: 03/08/2018
 ---
 # <a name="visibility-into-material-exceptions"></a>Redzamība materiālu izņēmumos
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Darbvietā **Ražošanas pārvaldība** labāku redzamību par izņēmumiem attiecībā uz izejmateriāliem ražošanas pasūtījumos un partijas pasūtījumos jums nodrošina trīs elementi.
 

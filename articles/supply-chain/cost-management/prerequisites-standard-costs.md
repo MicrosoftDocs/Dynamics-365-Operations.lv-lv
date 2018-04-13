@@ -29,8 +29,7 @@ ms.lasthandoff: 01/17/2018
 
 # <a name="prerequisites-for-standard-costs"></a>Standarta izmaksu priekšnoteikumi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā aprakstītas pamata darbības standarta izmaksu lietošanai. Turpmākās darbības ir atkarīgas no uzņēmuma operācijām. Piemēram, darbības atšķiras neražošanas videi, ražošanas videi, kurā netiek izmantota maršrutēšana, un ražošanas videi, kurā tiek izmantota maršrutēšana. 
 

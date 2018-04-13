@@ -27,7 +27,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="personnel-actions-faq"></a>Personāla darbības [Bieži uzdotie jautājumi]
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Šajā tēmā ir atbildes uz jautājumiem, kas varētu rasties, ja jūsu organizācija izmanto personāla darbības. Personāla darbības ir papildu darbības, kas jāizpilda, kad veicat noteiktus uzdevumus saistībā ar personālu. Personāla darbības varētu būt nepieciešamas, piemēram, uzdevumiem, kad veidojat jaunus amatus, modificējat pastāvošo amatu vērtības, pieņemat darbā jaunus darbiniekus, pārsūtāt darbiniekus, maināt darbinieka atlīdzību, maināt amatu piešķires vai pārtraucat darba attiecības ar darbiniekiem.
 
@@ -64,9 +64,9 @@ Atveriet jebkuras personāla darbību sarakstu lapas un atlasiet kādu personāl
 Ja personāla darbības pieprasījumu neizdodas izpildīt, veiciet tālāk aprakstītās darbības, lai atrisinātu šo kļūdu un iesniegtu pieprasījumu vēlreiz.
 
 > 1. Sadaļā **Darbību rūts** noklikšķiniet uz pogas **Kļūdas teksts**, lai apskatītu ziņojuma tekstu, kur šī problēma ir aprakstīta.
-
+> 
 > 2. Sadaļā **Darbību rūts** noklikšķiniet uz **Aktivizēt no jauna**, lai ielādētu visjaunāko informāciju un personāla darbības statusu atkal iestatītu kā **Melnraksts**.
-
+> 
 > 3. Novērsiet kļūdu un pēc tam noklikšķiniet uz **Pabeigt** vai **Iesniegt**.
 
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a>Kas notiek ar personāla darbību, kas izmanto darbplūsmu, kad galīgais apstiprinājums tiek pabeigts?

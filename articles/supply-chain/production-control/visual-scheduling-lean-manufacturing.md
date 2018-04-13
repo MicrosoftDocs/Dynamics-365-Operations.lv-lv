@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Vizuāla plānošana ražošanai lean manufacturing
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par Kanban plānošanas paneli, kuru ražošanas plānotājs var izmantot, lai kontrolētu un optimizētu ražošanas plānu Kanban darbiem.
 

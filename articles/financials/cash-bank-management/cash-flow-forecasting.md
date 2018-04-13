@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="cash-flow-forecasting"></a>Naudas plūsmas prognozēšana
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Varat izmantot naudas plūsmas prognozēšanas rīkus gaidāmās naudas plūsmas un valūtas prasību analīzei, lai varētu noteikt uzņēmuma gaidāmās skaidras naudas vajadzības. Lai iegūtu naudas plūsmas prognozi, ir jāizpilda tālāk norādītie uzdevumi.
 

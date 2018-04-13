@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-transportation-constraints-for-an-item"></a>Transportēšanas ierobežojumu iestatīšana krājumam
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šī procedūra izveidos transportēšanas ierobežojumu, lai neļautu atlasītajam krājumam tikt transportētam caur atlasīto centrmezglu. Šo uzdevumu parasti veic transportēšanas koordinators. Šo procedūru varat lietot, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>Kandidāta un pieteikuma datu manuāla ievade
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā manuāli uzturēt informāciju par kandidātiem un viņu pieteikumiem.   Varat ievadīt un uzturēt kandidātu personisko informāciju, interviju datumus un laikus, atsauksmes, zināšanas un naktsmītnes pieprasījumus. Varat arī atjaunināt kandidātu darba pieteikumu statusu un izveidot vēstules vai e-pasta ziņojumus, lai sazinātos ar kandidātiem. Kad izveidojat kandidāta ierakstu, globālajā adrešu grāmatā tiek izveidots šī kandidāta personas ieraksts.       Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 
