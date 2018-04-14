@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f44099c2ce30d917838733af072721dd79148d27
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 750853de01213187b4df273087c53321abe25d5d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-groups"></a><span data-ttu-id="d145f-104">Izmaksu grupas</span><span class="sxs-lookup"><span data-stu-id="d145f-104">Cost groups</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d145f-105">Izmaksu grupas sniedz pamatu izmaksu seguma segmentēšanai un analīzei ražotā krājuma aprēķinātajā izmaksā, kā, piemēram, materiālu, darba un papildus atbalsta izmaksu segumus.</span><span class="sxs-lookup"><span data-stu-id="d145f-105">Cost groups provide the basis for segmenting and analyzing cost contributions in a manufactured item’s calculated cost, such as the cost contributions for material, labor, and overhead.</span></span> <span data-ttu-id="d145f-106">Izmaksu grupu segmentācijai ir vairāki sinonīmi, kā, piemēram, izmaksu sadalīšana, izmaksu dekompozīcija vai izmaksu klasifikācija.</span><span class="sxs-lookup"><span data-stu-id="d145f-106">Cost group segmentation has several synonyms within manufacturing environments, such as cost breakdown, cost decomposition, or cost classification.</span></span> 
 

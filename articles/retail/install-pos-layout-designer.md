@@ -20,17 +20,16 @@ ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 9c7830941ea5fcb270b83807cf718421c02d5776
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: cbd4680219969af0ce4e0f0d65dee50a0de0088e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="install-the-retail-pos-layout-designer"></a><span data-ttu-id="3cf37-103">Instalēt Retail POS izkārtojuma veidotāju</span><span class="sxs-lookup"><span data-stu-id="3cf37-103">Install the Retail POS Layout designer</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="3cf37-104">Viena klikšķa veidotāju varat izmantot, lai veikaliem, reģistriem, kasieriem un vadītājiem veidotu dažādus pārdošanas punktu Retail Modern POS (MPOS) un mākoņa POS izkārtojumus gan ainavorientācijas, gan portretorientācijas režīmā.</span><span class="sxs-lookup"><span data-stu-id="3cf37-104">You can use the one-click designer to design different Retail Modern POS (MPOS) and Cloud POS layouts, in either Landscape mode or Portrait mode, for stores, registers, cashiers, and managers.</span></span>
 

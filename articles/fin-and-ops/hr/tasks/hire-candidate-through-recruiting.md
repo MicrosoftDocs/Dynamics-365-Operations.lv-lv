@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e27dc0623f27ee21408d14aefb93ca13c40be672
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: beed4c261b887ce545d431bbd9a413bd1745bc0c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="hire-a-candidate-through-recruiting"></a><span data-ttu-id="44dca-103">Kandidāta pieņemšana darbā, izmantojot personāla atlasi</span><span class="sxs-lookup"><span data-stu-id="44dca-103">Hire a candidate through recruiting</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="44dca-104">Šī procedūra ļauj personāla atlases darbiniekam pieņemt darbā kandidātu, kurš iesniedzis pieteikumu, izmantojot noteiktu personāla atlases projektu.</span><span class="sxs-lookup"><span data-stu-id="44dca-104">This procedure enables a recruiter to hire an applicant who submitted an application through a specific recruitment project.</span></span> <span data-ttu-id="44dca-105">Kad nolīgstat kandidātu, izmantojot personāla atlases projektu, tiks izveidots jauns darbinieka ieraksts un kandidāta ieraksta statuss būs Nodarbināts.</span><span class="sxs-lookup"><span data-stu-id="44dca-105">When you hire an applicant through a recruiting project, a new worker record will be created and the applicant’s record will have a status of Employed.</span></span> <span data-ttu-id="44dca-106">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="44dca-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="44dca-107">Lai pabeigtu šo procedūru, pārejiet uz Personāla vadība > Personāla atlase > Pieteikumi > Pieteikumi</span><span class="sxs-lookup"><span data-stu-id="44dca-107">To complete this procedure, navigate to Human resources > Recruitment > Applications >Applications</span></span> 
 

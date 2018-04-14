@@ -19,17 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 94eb82936da2a51a25105b26723088fb7dee9ae5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 81df0a21e208a5fbfd1f0e006b9c4736be29126f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="post-with-derived-books"></a><span data-ttu-id="680e5-103">Grāmatošana, izmantojot atvasinātās grāmatas</span><span class="sxs-lookup"><span data-stu-id="680e5-103">Post with derived books</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="680e5-104">Šajā rakstā ir aprakstīts, kā izmantot atvasinātās grāmatas.</span><span class="sxs-lookup"><span data-stu-id="680e5-104">This article describes how to use derived books.</span></span>
 

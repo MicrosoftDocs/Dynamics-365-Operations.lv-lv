@@ -18,17 +18,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: dd3867cb1c101c8f25e776942a987f06aa0c7d0e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8c904e95043977a32cb5e72c4c189d09c1548734
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="fixed-assets-location-change-tracking-for-latvia"></a><span data-ttu-id="e4451-103">Sekošana līdzi pamatlīdzekļu novietojuma maiņām Latvijai</span><span class="sxs-lookup"><span data-stu-id="e4451-103">Fixed assets location change tracking for Latvia</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="e4451-104">Šajā tēmā ir sniegta informācija par izmaiņu izsekošanas funkcionalitāti attiecībā uz pamatlīdzekļu novietojuma laukiem juridiskajām personām, kuru primārā adrese atrodas Latvijā.</span><span class="sxs-lookup"><span data-stu-id="e4451-104">This topic provides information about the change tracking functionality for fixed asset location fields for legal entities with a primary address in Latvia.</span></span>
 

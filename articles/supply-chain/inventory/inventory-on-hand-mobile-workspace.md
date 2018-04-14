@@ -19,16 +19,16 @@ ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 735a25d625774892ff71d4799932f15c258dfbfa
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ec695084e90bdc4730f56baf675503d764faa2ac
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="inventory-on-hand-mobile-workspace"></a><span data-ttu-id="03ac1-104">Mobilā darbvieta Rīcībā esošie krājumi</span><span class="sxs-lookup"><span data-stu-id="03ac1-104">Inventory on-hand mobile workspace</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="03ac1-105">Šajā tēmā ir sniegta informācija par mobilo darbvietu **Rīcībā esošie krājumi**.</span><span class="sxs-lookup"><span data-stu-id="03ac1-105">This topic provides information about the **Inventory on-hand** mobile workspace.</span></span> <span data-ttu-id="03ac1-106">Šī darbvieta jums palīdz jebkurā vietā un laikā gūt ieskatu par rezervēto un pieejamo krājumu daudzumu.</span><span class="sxs-lookup"><span data-stu-id="03ac1-106">This workspace helps you gain insights into reserved and available inventory anytime and anywhere.</span></span>
 

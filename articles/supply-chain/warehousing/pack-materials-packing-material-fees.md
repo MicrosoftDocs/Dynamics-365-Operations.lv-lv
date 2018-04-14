@@ -20,17 +20,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b131cdfa2f0e3b6a8f116464323d49eaa4584634
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 46178d9da5464d8cb74b1d52142d6ad08a293349
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="packing-materials-and-fees"></a><span data-ttu-id="801e8-105">Iepakojuma materiāli un papildmaksas</span><span class="sxs-lookup"><span data-stu-id="801e8-105">Packing materials and fees</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="801e8-106">Iepakojuma materiālu papildmaksas pārstrādes uzņēmumam tiek maksātas zināmos laika intervālos.</span><span class="sxs-lookup"><span data-stu-id="801e8-106">Packing material fees are paid to a recycling company at certain intervals.</span></span> <span data-ttu-id="801e8-107">Apmaksa tiek veikta par smaguma mērvienību katram iepakojuma vienības sastāvā esošajam materiālam.</span><span class="sxs-lookup"><span data-stu-id="801e8-107">An amount is paid, per unit of weight, for each material that a packing unit consists of.</span></span> <span data-ttu-id="801e8-108">Iepakojuma materiālu papildmaksas tiek aprēķinātas un iekļautas atskaitēs, bet netiek grāmatotas virsgrāmatas transakcijas, jo papildmaksas netiek uzskatītas par valsts iestādei maksājamiem nodokļiem.</span><span class="sxs-lookup"><span data-stu-id="801e8-108">Packing material fees are calculated and reported, but no ledger transactions are posted because the fees are not regarded as taxes to be paid to an authority.</span></span>
 
@@ -63,7 +62,7 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="print-packaging-material-weights-on-invoices"></a><span data-ttu-id="801e8-147">Iepakojuma materiāla svaru drukāšana rēķinos</span><span class="sxs-lookup"><span data-stu-id="801e8-147">Print packaging material weights on invoices</span></span>
 <span data-ttu-id="801e8-148">Iepakojuma materiālu svaru varat drukāt rēķinā un norādīt, kurš maksā iepakojuma materiāla maksu.</span><span class="sxs-lookup"><span data-stu-id="801e8-148">You can print the packaging material weights on the invoice, and indicate who pays the packaging material fees.</span></span> <span data-ttu-id="801e8-149">Svars tiek summēts pēc iepakojuma koda.</span><span class="sxs-lookup"><span data-stu-id="801e8-149">The weights are summarized by packaging code.</span></span>
- 
+
 
 
 

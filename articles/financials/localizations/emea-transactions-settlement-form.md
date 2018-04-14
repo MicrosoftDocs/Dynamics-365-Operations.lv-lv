@@ -18,17 +18,16 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5ac75d1900a428777374dcc9d7eea10ce4d15b1e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e2972d06346533659dfc26ac243dc57ec5e0f6fb
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="view-transactions-on-settlement-for-eastern-europe"></a><span data-ttu-id="1d6b7-103">Skatīt nosegšanas transakcijas Austrumeiropai</span><span class="sxs-lookup"><span data-stu-id="1d6b7-103">View transactions on settlement for Eastern Europe</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="1d6b7-104">Šajā tēmā ir sniegta informācija par lapu Nosegšanas transakcijas debitoriem un kreditoriem.</span><span class="sxs-lookup"><span data-stu-id="1d6b7-104">This topic provides information about the Transactions on settlement page for customers and vendors.</span></span>
 

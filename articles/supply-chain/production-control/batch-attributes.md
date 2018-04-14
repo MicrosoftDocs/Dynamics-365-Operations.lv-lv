@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6c18b007a72686b1ede69b750e930d72e86f0aba
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 56691376b639e20751b24e25343d8c71c631ad66
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="batch-attributes"></a><span data-ttu-id="0c979-105">Partijas atribūti</span><span class="sxs-lookup"><span data-stu-id="0c979-105">Batch attributes</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="0c979-106">Šajā tēmā ir sniegta informācija par partijas atribūtiem.</span><span class="sxs-lookup"><span data-stu-id="0c979-106">This topic provides information about batch attributes.</span></span> <span data-ttu-id="0c979-107">Partijas atribūti ir krājumu partijās ietverto izejvielu un saražoto preču raksturlielumi.</span><span class="sxs-lookup"><span data-stu-id="0c979-107">Batch attributes are characteristics of raw materials and finished products that make up inventory batches.</span></span> <span data-ttu-id="0c979-108">Tēmā ir arī paskaidrots, kā piešķirt partijas atribūtus un kā tos izmantot meklēšanai, rezervējot partijas.</span><span class="sxs-lookup"><span data-stu-id="0c979-108">The topic also explains how to assign batch attributes, and how you can search on them when you reserve batches.</span></span>
 

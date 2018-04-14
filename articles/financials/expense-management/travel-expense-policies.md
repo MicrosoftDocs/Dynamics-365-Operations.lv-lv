@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3b2a28fe6acf03e52c292048a797ce997f58bcce
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 73e4fc7c1d0273c51be57d9c3ab04dbfbd839327
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="expense-policies"></a><span data-ttu-id="0c845-103">Izdevumu ierobežojumi</span><span class="sxs-lookup"><span data-stu-id="0c845-103">Expense policies</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="0c845-104">Varat definēt politikas, kuras jūsu darbiniekiem ir jāievēro, kad viņi ievada un iesniedz izdevumu pārskatus un komandējumu pieprasījumus.</span><span class="sxs-lookup"><span data-stu-id="0c845-104">You can define policies that your workers must follow when entering and submitting expense reports and travel requisitions.</span></span>         
 <span data-ttu-id="0c845-105">Izdevumu politikas ieviešana var palīdzēt efektīgi pārvaldīt izdevumus.</span><span class="sxs-lookup"><span data-stu-id="0c845-105">Implementing expense policies can help you manage expenses effectively.</span></span>         
@@ -39,14 +39,14 @@ ms.lasthandoff: 03/26/2018
 <span data-ttu-id="0c845-111">Varat definēt trīs tipu politikas.</span><span class="sxs-lookup"><span data-stu-id="0c845-111">You can define three types of policies:</span></span>         
         
 - <span data-ttu-id="0c845-112">Brīdinājums — ļauj darbiniekam iesniegt izdevumu pārskatu vai komandējuma pieprasījumu, bet izdevumi tiks atzīmēti visiem apstiprinātājiem un</span><span class="sxs-lookup"><span data-stu-id="0c845-112">Warning – Allows the worker to submit an expense report or travel requisition but the expense will be marked for all approvers and</span></span>        
-<span data-ttu-id="0c845-113">vēlākai ziņošanai.</span><span class="sxs-lookup"><span data-stu-id="0c845-113">for later reporting.</span></span>        
+  <span data-ttu-id="0c845-113">vēlākai ziņošanai.</span><span class="sxs-lookup"><span data-stu-id="0c845-113">for later reporting.</span></span>        
 
 - <span data-ttu-id="0c845-114">Kļūda — pirms izdevumu pārskata vai komandējuma pieprasījuma iesniegšanas liek darbiniekam pārskatīt izdevumus, lai tie atbilstu politikai.</span><span class="sxs-lookup"><span data-stu-id="0c845-114">Error – Requires the worker to revise the expense to comply with the policy before submitting the expense report or travel requisition.</span></span>       
  
- - <span data-ttu-id="0c845-115">Pamatojums — pirms izdevumu pārskata vai komandējuma pieprasījuma iesniegšanas darbiniekam vai vadītājam liek ievadīt politikas summas pārsniegšanas pamatojumu.</span><span class="sxs-lookup"><span data-stu-id="0c845-115">Justification – Requires the worker or a manager to enter a justification for exceeding the policy amount before submitting the expense report or travel requisition.</span></span>        
+  - <span data-ttu-id="0c845-115">Pamatojums — pirms izdevumu pārskata vai komandējuma pieprasījuma iesniegšanas darbiniekam vai vadītājam liek ievadīt politikas summas pārsniegšanas pamatojumu.</span><span class="sxs-lookup"><span data-stu-id="0c845-115">Justification – Requires the worker or a manager to enter a justification for exceeding the policy amount before submitting the expense report or travel requisition.</span></span>        
  
- <span data-ttu-id="0c845-116">Varat iestatīt arī datumu diapazonu, kuram šīs izdevumu politikas ir spēkā.</span><span class="sxs-lookup"><span data-stu-id="0c845-116">You can also set up a date range for which expense policies are in effect.</span></span> <span data-ttu-id="0c845-117">Piemēram, maksa par lidojumiem starp Dāniju</span><span class="sxs-lookup"><span data-stu-id="0c845-117">For example, airline fares for flights between Denmark</span></span>      
- <span data-ttu-id="0c845-118">un Ņujorku var būt dārgāka populārākajā brīvdienu ceļojumu sezonā.</span><span class="sxs-lookup"><span data-stu-id="0c845-118">and New York City can be expensive during the peak holiday travel season.</span></span> <span data-ttu-id="0c845-119">Varat definēt lidojuma izdevumu kārtulu, kas ierobežo</span><span class="sxs-lookup"><span data-stu-id="0c845-119">You can define a flight expense rule that restricts the</span></span>      
- <span data-ttu-id="0c845-120">maksu lidojumiem uz Ņujorku ierobežojumu DKK 5000, un varat norādīt, ka šī kārtula ir spēkā no 15. marta līdz</span><span class="sxs-lookup"><span data-stu-id="0c845-120">cost of flights to New York City to a limit of DKK 5000, and you can specify that this rule be in effect between March 15 and</span></span>      
- <span data-ttu-id="0c845-121">15. septembrim.</span><span class="sxs-lookup"><span data-stu-id="0c845-121">September 15.</span></span>
+  <span data-ttu-id="0c845-116">Varat iestatīt arī datumu diapazonu, kuram šīs izdevumu politikas ir spēkā.</span><span class="sxs-lookup"><span data-stu-id="0c845-116">You can also set up a date range for which expense policies are in effect.</span></span> <span data-ttu-id="0c845-117">Piemēram, maksa par lidojumiem starp Dāniju</span><span class="sxs-lookup"><span data-stu-id="0c845-117">For example, airline fares for flights between Denmark</span></span>      
+  <span data-ttu-id="0c845-118">un Ņujorku var būt dārgāka populārākajā brīvdienu ceļojumu sezonā.</span><span class="sxs-lookup"><span data-stu-id="0c845-118">and New York City can be expensive during the peak holiday travel season.</span></span> <span data-ttu-id="0c845-119">Varat definēt lidojuma izdevumu kārtulu, kas ierobežo</span><span class="sxs-lookup"><span data-stu-id="0c845-119">You can define a flight expense rule that restricts the</span></span>      
+  <span data-ttu-id="0c845-120">maksu lidojumiem uz Ņujorku ierobežojumu DKK 5000, un varat norādīt, ka šī kārtula ir spēkā no 15. marta līdz</span><span class="sxs-lookup"><span data-stu-id="0c845-120">cost of flights to New York City to a limit of DKK 5000, and you can specify that this rule be in effect between March 15 and</span></span>      
+  <span data-ttu-id="0c845-121">15. septembrim.</span><span class="sxs-lookup"><span data-stu-id="0c845-121">September 15.</span></span>
 

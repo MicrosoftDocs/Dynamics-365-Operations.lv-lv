@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2a46173a3566a56a21add9d42c111d456b1ae7c1
-ms.openlocfilehash: 517bc1b9de9b2512f42e4f32b4a19e517e349e8e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5447787ea0f6b0c83e43fa5f0a4e18db9361f04c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-service-agreements"></a><span data-ttu-id="213af-103">Pakalpojumu līgumu izveide</span><span class="sxs-lookup"><span data-stu-id="213af-103">Create service agreements</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="213af-104">Šajā tēmā ir aprakstīts, kā lietot līdzekļus moduļos Pakalpojumu pārvaldība un Projektu pārvaldība un uzskaite, lai izveidotu pakalpojumu līgumus.</span><span class="sxs-lookup"><span data-stu-id="213af-104">This topic describes how to use features in the Service management and the Project management and accounting modules to create service agreements.</span></span>
 

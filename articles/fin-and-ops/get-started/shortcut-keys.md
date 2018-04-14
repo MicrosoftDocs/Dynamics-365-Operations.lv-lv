@@ -18,17 +18,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 445c639dc56a5d240f4e35353276ef893f2137da
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="keyboard-shortcuts"></a><span data-ttu-id="b30ae-103">Īsinājumtaustiņi</span><span class="sxs-lookup"><span data-stu-id="b30ae-103">Keyboard shortcuts</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="b30ae-104">Tālāk norādītie īsinājumtaustiņi darbojas visā programmatūrā Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="b30ae-104">The following keyboard shortcuts apply across Dynamics 365 for Finance and Operations.</span></span> 
 
@@ -39,6 +38,7 @@ ms.lasthandoff: 03/26/2018
 
 
 ## <a name="action-shortcuts"></a><span data-ttu-id="b30ae-111">Darbību saīsnes</span><span class="sxs-lookup"><span data-stu-id="b30ae-111">Action shortcuts</span></span>
+
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
 | <span data-ttu-id="b30ae-112">**Darbība**</span><span class="sxs-lookup"><span data-stu-id="b30ae-112">**To do this**</span></span>                                    | <span data-ttu-id="b30ae-113">**Nospiediet**</span><span class="sxs-lookup"><span data-stu-id="b30ae-113">**Press**</span></span>                        |
@@ -55,6 +55,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="b30ae-134">Skatīt pašlaik pieejamās saīsnes</span><span class="sxs-lookup"><span data-stu-id="b30ae-134">View currently available shortcuts</span></span>                | <span data-ttu-id="b30ae-135">Alt+Shift+K</span><span class="sxs-lookup"><span data-stu-id="b30ae-135">Alt+Shift+K</span></span>                      |                              
 
 ## <a name="date-picker-shortcuts"></a><span data-ttu-id="b30ae-136">Datuma atlasītāja saīsnes</span><span class="sxs-lookup"><span data-stu-id="b30ae-136">Date picker shortcuts</span></span>
+
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | <span data-ttu-id="b30ae-137">**Darbība**</span><span class="sxs-lookup"><span data-stu-id="b30ae-137">**To do this**</span></span>                        | <span data-ttu-id="b30ae-138">**Nospiediet**</span><span class="sxs-lookup"><span data-stu-id="b30ae-138">**Press**</span></span>                                 |
@@ -68,6 +69,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="b30ae-153">Izvēlēties Nekad (vai maksimālo datumu)</span><span class="sxs-lookup"><span data-stu-id="b30ae-153">Pick Never (or the max date)</span></span>          | <span data-ttu-id="b30ae-154">N</span><span class="sxs-lookup"><span data-stu-id="b30ae-154">N</span></span>                                         |
 
 ## <a name="factbox-shortcuts"></a><span data-ttu-id="b30ae-155">Papildinformācijas rūts saīsnes</span><span class="sxs-lookup"><span data-stu-id="b30ae-155">FactBox shortcuts</span></span>
+
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
 | <span data-ttu-id="b30ae-156">**Darbība**</span><span class="sxs-lookup"><span data-stu-id="b30ae-156">**To do this**</span></span>                                                                  | <span data-ttu-id="b30ae-157">**Nospiediet**</span><span class="sxs-lookup"><span data-stu-id="b30ae-157">**Press**</span></span>                                 |
@@ -79,6 +81,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="b30ae-168">Sakļaut pašreizējo papildinformācijas rūti</span><span class="sxs-lookup"><span data-stu-id="b30ae-168">Collapse the current FactBox</span></span>                                                    | <span data-ttu-id="b30ae-169">Alt+0</span><span class="sxs-lookup"><span data-stu-id="b30ae-169">Alt+0</span></span>                                     |
 
 ## <a name="filtering-shortcuts"></a><span data-ttu-id="b30ae-170">Filtrēšanas saīsnes</span><span class="sxs-lookup"><span data-stu-id="b30ae-170">Filtering shortcuts</span></span>
+
 |                                    |                          |
 |------------------------------------|--------------------------|
 | <span data-ttu-id="b30ae-171">**Darbība**</span><span class="sxs-lookup"><span data-stu-id="b30ae-171">**To do this**</span></span>                     | <span data-ttu-id="b30ae-172">**Nospiediet**</span><span class="sxs-lookup"><span data-stu-id="b30ae-172">**Press**</span></span>                |
@@ -89,6 +92,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="b30ae-181">Atvērt papildu filtrēšanas/kārtošanas sadaļu</span><span class="sxs-lookup"><span data-stu-id="b30ae-181">Open advanced filtering/sort</span></span>                                      | <span data-ttu-id="b30ae-182">Ctrl+Shift+F3</span><span class="sxs-lookup"><span data-stu-id="b30ae-182">Ctrl+Shift+F3</span></span>            | 
 
 ## <a name="form-shortcuts"></a><span data-ttu-id="b30ae-183">Veidlapas saīsnes</span><span class="sxs-lookup"><span data-stu-id="b30ae-183">Form shortcuts</span></span>
+
 |                                                     |                   |
 |-----------------------------------------------------|-------------------|
 | <span data-ttu-id="b30ae-184">**Darbība**</span><span class="sxs-lookup"><span data-stu-id="b30ae-184">**To do this**</span></span>                                      | <span data-ttu-id="b30ae-185">**Nospiediet**</span><span class="sxs-lookup"><span data-stu-id="b30ae-185">**Press**</span></span>         |
@@ -110,6 +114,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="b30ae-216">Aizvērt veidlapu, atmetot visas nesaglabātās izmaiņas</span><span class="sxs-lookup"><span data-stu-id="b30ae-216">Close the form discarding any unsaved changes</span></span>       | <span data-ttu-id="b30ae-217">Alt+Shift+Q</span><span class="sxs-lookup"><span data-stu-id="b30ae-217">Alt+Shift+Q</span></span>       |
 
 ## <a name="form-navigation-shortcuts"></a><span data-ttu-id="b30ae-218">Veidlapas navigācijas saīsnes</span><span class="sxs-lookup"><span data-stu-id="b30ae-218">Form navigation shortcuts</span></span>
+
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
 | <span data-ttu-id="b30ae-219">**Lai izpildītu šo darbību**</span><span class="sxs-lookup"><span data-stu-id="b30ae-219">**To do this**</span></span>                                      | <span data-ttu-id="b30ae-220">**Nospiediet**</span><span class="sxs-lookup"><span data-stu-id="b30ae-220">**Press**</span></span>                                    |
@@ -128,6 +133,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="b30ae-245">Pārslēgties uz rindu skatu</span><span class="sxs-lookup"><span data-stu-id="b30ae-245">Switch to lines view</span></span>                                | <span data-ttu-id="b30ae-246">Ctrl+Shift+L</span><span class="sxs-lookup"><span data-stu-id="b30ae-246">Ctrl+Shift+L</span></span>                                 |
 
 ## <a name="grid-shortcuts"></a><span data-ttu-id="b30ae-247">Režģa saīsnes</span><span class="sxs-lookup"><span data-stu-id="b30ae-247">Grid shortcuts</span></span>
+
 |                                                                                                                        |                                 |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
 | <span data-ttu-id="b30ae-248">**Lai izpildītu šo darbību**</span><span class="sxs-lookup"><span data-stu-id="b30ae-248">**To do this**</span></span>                                                                                                         | <span data-ttu-id="b30ae-249">**Nospiediet**</span><span class="sxs-lookup"><span data-stu-id="b30ae-249">**Press**</span></span>                       |
@@ -148,6 +154,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="b30ae-283">Atvērt režģa filtrēšanu pašreizējai kolonnai (kamēr fokuss ir virsraksta rindā)</span><span class="sxs-lookup"><span data-stu-id="b30ae-283">Open grid filtering for the current column (with focus in the header row)</span></span>                                              | <span data-ttu-id="b30ae-284">Enter</span><span class="sxs-lookup"><span data-stu-id="b30ae-284">Enter</span></span>                           |
 
 ## <a name="input-control-shortcuts"></a><span data-ttu-id="b30ae-285">Ievades kontroles saīsnes</span><span class="sxs-lookup"><span data-stu-id="b30ae-285">Input control shortcuts</span></span>
+
 |                                                                              |                               |
 |------------------------------------------------------------------------------|-------------------------------|
 | <span data-ttu-id="b30ae-286">**Darbība**</span><span class="sxs-lookup"><span data-stu-id="b30ae-286">**To do this**</span></span>                                                               | <span data-ttu-id="b30ae-287">**Nospiediet**</span><span class="sxs-lookup"><span data-stu-id="b30ae-287">**Press**</span></span>                     |
@@ -163,6 +170,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="b30ae-306">Pārslēgt fokusu starp teksta apgabalu un rīkjoslu HTML redaktora vadīklā</span><span class="sxs-lookup"><span data-stu-id="b30ae-306">Switch focus between the text area and the toolbar in an HTML editor control</span></span> | <span data-ttu-id="b30ae-307">F6</span><span class="sxs-lookup"><span data-stu-id="b30ae-307">F6</span></span>                            |
 
 ## <a name="messaging-shortcuts"></a><span data-ttu-id="b30ae-308">Ziņojumapmaiņas saīsnes</span><span class="sxs-lookup"><span data-stu-id="b30ae-308">Messaging shortcuts</span></span>
+
 |                          |               |
 |--------------------------|---------------|
 | <span data-ttu-id="b30ae-309">**Lai izpildītu šo darbību**</span><span class="sxs-lookup"><span data-stu-id="b30ae-309">**To do this**</span></span>           | <span data-ttu-id="b30ae-310">**Nospiediet**</span><span class="sxs-lookup"><span data-stu-id="b30ae-310">**Press**</span></span>     |
@@ -170,6 +178,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="b30ae-313">Pāriet uz ziņojuma joslu</span><span class="sxs-lookup"><span data-stu-id="b30ae-313">Go to the Message Bar</span></span>    | <span data-ttu-id="b30ae-314">Ctrl+F7</span><span class="sxs-lookup"><span data-stu-id="b30ae-314">Ctrl+F7</span></span>       |
 
 ## <a name="navigation-shortcuts"></a><span data-ttu-id="b30ae-315">Navigācijas saīsnes</span><span class="sxs-lookup"><span data-stu-id="b30ae-315">Navigation shortcuts</span></span>
+
 |                                                                               |                            |
 |-------------------------------------------------------------------------------|----------------------------|
 | <span data-ttu-id="b30ae-316">**Lai izpildītu šo darbību**</span><span class="sxs-lookup"><span data-stu-id="b30ae-316">**To do this**</span></span>                                                                | <span data-ttu-id="b30ae-317">**Nospiediet**</span><span class="sxs-lookup"><span data-stu-id="b30ae-317">**Press**</span></span>                  |
@@ -191,6 +200,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="b30ae-348">Pāriet uz papildinformācijas rūti (šī darbība var ietvert tās atvēršanu)</span><span class="sxs-lookup"><span data-stu-id="b30ae-348">Move to the FactBox pane (which may include opening it)</span></span>                       | <span data-ttu-id="b30ae-349">Alt+M,B vai Ctrl+F2</span><span class="sxs-lookup"><span data-stu-id="b30ae-349">Alt+M,B or Ctrl+F2</span></span>         |
 
 ## <a name="personalization-shortcuts"></a><span data-ttu-id="b30ae-350">Personalizēšanas saīsnes</span><span class="sxs-lookup"><span data-stu-id="b30ae-350">Personalization shortcuts</span></span>
+
 |                                                                                                                        |                                     |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | <span data-ttu-id="b30ae-351">**Lai izpildītu šo darbību**</span><span class="sxs-lookup"><span data-stu-id="b30ae-351">**To do this**</span></span>                                                                                                         | <span data-ttu-id="b30ae-352">**Nospiediet**</span><span class="sxs-lookup"><span data-stu-id="b30ae-352">**Press**</span></span>                           |
@@ -219,6 +229,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="b30ae-397">Iziet no personalizēšanas režīma (atrodoties personalizēšanas režīmā)</span><span class="sxs-lookup"><span data-stu-id="b30ae-397">Exit personalization mode (when in personalization mode)</span></span>                                                               | <span data-ttu-id="b30ae-398">Esc</span><span class="sxs-lookup"><span data-stu-id="b30ae-398">Esc</span></span>                                 |
 
 ## <a name="segmented-entry-shortcuts"></a><span data-ttu-id="b30ae-399">Segmentētā ieraksta saīsnes</span><span class="sxs-lookup"><span data-stu-id="b30ae-399">Segmented entry shortcuts</span></span>
+
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
 | <span data-ttu-id="b30ae-400">**Lai izpildītu šo darbību**</span><span class="sxs-lookup"><span data-stu-id="b30ae-400">**To do this**</span></span>                                                                                                          | <span data-ttu-id="b30ae-401">**Nospiediet**</span><span class="sxs-lookup"><span data-stu-id="b30ae-401">**Press**</span></span>                        |

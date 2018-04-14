@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: fe0be9164a285ce3884d1f35e99bdad80eb8b581
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1a32b49e7589113d518ef17a39eecc4c518b362d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="allocation-bases"></a><span data-ttu-id="8fac7-104">Sadalījuma pamati</span><span class="sxs-lookup"><span data-stu-id="8fac7-104">Allocation bases</span></span> 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="8fac7-105">Sadalījuma pamati tiek izmantoti pieskaitāmu izmaksu sadalei modulī Izmaksu uzskaite.</span><span class="sxs-lookup"><span data-stu-id="8fac7-105">An allocation base is the basis on which Cost accounting allocates overhead costs.</span></span> <span data-ttu-id="8fac7-106">Sadalījuma pamats var būt daudzums, piemēram, izmantotās mašīnstundas, patērētās kilovatstundas (kWh) vai aizņemtā platība.</span><span class="sxs-lookup"><span data-stu-id="8fac7-106">An allocation base can be a quantity, such as machine hours that are used, kilowatt hours (kWh) that are consumed, or square footage that is occupied.</span></span> <span data-ttu-id="8fac7-107">Sadalījuma pamati galvenokārt tiek izmantoti pieskaitāmo izmaksu piešķiršanai saražotajam krājumam.</span><span class="sxs-lookup"><span data-stu-id="8fac7-107">Allocation bases are mostly used to assign overhead costs to inventory that is produced.</span></span> <span data-ttu-id="8fac7-108">Piemēram, IT nodaļa sadala savus izdevumus atbilstoši katrā nodaļā lietoto datoru skaitam.</span><span class="sxs-lookup"><span data-stu-id="8fac7-108">For example, an IT department allocates its expenses according to the number of computers that each department uses.</span></span>
 
@@ -424,9 +424,11 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="8fac7-775">Tālāk esošajā piemērā ir parādīta izmaksu sadales kārtula, kurā kā sadalījuma pamats ir piešķirts formulas sadalījuma pamats Fiksētā maksa par elektroenerģiju.</span><span class="sxs-lookup"><span data-stu-id="8fac7-775">Here is an example of a cost distribution rule if the Electricity fixed formula allocation base is assigned as the allocation base in it.</span></span>
 
-| <span data-ttu-id="8fac7-776">Izmaksu objekts</span><span class="sxs-lookup"><span data-stu-id="8fac7-776">Cost object</span></span> |  <span data-ttu-id="8fac7-777">Apraksts</span><span class="sxs-lookup"><span data-stu-id="8fac7-777">Description</span></span>  | <span data-ttu-id="8fac7-778">Lielums</span><span class="sxs-lookup"><span data-stu-id="8fac7-778">Magnitude</span></span> | <span data-ttu-id="8fac7-779">Sadalījuma koeficients</span><span class="sxs-lookup"><span data-stu-id="8fac7-779">Allocation factor</span></span>                |
-|-------------|----|-----------|----------------------------------|
-| <span data-ttu-id="8fac7-780">CC001</span><span class="sxs-lookup"><span data-stu-id="8fac7-780">CC001</span></span>       | <span data-ttu-id="8fac7-781">HR</span><span class="sxs-lookup"><span data-stu-id="8fac7-781">HR</span></span> | <span data-ttu-id="8fac7-782">1,837.50</span><span class="sxs-lookup"><span data-stu-id="8fac7-782">1,837.50</span></span>  | <span data-ttu-id="8fac7-783">(1837,50 ÷ 18 162,50) × Summa</span><span class="sxs-lookup"><span data-stu-id="8fac7-783">(1,837.50 ÷ 18,162.50) × Amount</span></span>  |
-| <span data-ttu-id="8fac7-784">CC002</span><span class="sxs-lookup"><span data-stu-id="8fac7-784">CC002</span></span>       | <span data-ttu-id="8fac7-785">FI</span><span class="sxs-lookup"><span data-stu-id="8fac7-785">FI</span></span> | <span data-ttu-id="8fac7-786">3,075.00</span><span class="sxs-lookup"><span data-stu-id="8fac7-786">3,075.00</span></span>  | <span data-ttu-id="8fac7-787">(3075,00 ÷ 18 162,50) × Summa</span><span class="sxs-lookup"><span data-stu-id="8fac7-787">(3,075.00 ÷ 18,162.50) × Amount</span></span>  |
-| <span data-ttu-id="8fac7-788">CC003</span><span class="sxs-lookup"><span data-stu-id="8fac7-788">CC003</span></span>       | <span data-ttu-id="8fac7-789">KrP</span><span class="sxs-lookup"><span data-stu-id="8fac7-789">IT</span></span> | <span data-ttu-id="8fac7-790">13,250.00</span><span class="sxs-lookup"><span data-stu-id="8fac7-790">13,250.00</span></span> | <span data-ttu-id="8fac7-791">(13 250,00 ÷ 18 162,50) × Summa</span><span class="sxs-lookup"><span data-stu-id="8fac7-791">(13,250.00 ÷ 18,162.50) × Amount</span></span> |
+
+| <span data-ttu-id="8fac7-776">Izmaksu objekts</span><span class="sxs-lookup"><span data-stu-id="8fac7-776">Cost object</span></span> | <span data-ttu-id="8fac7-777">Apraksts</span><span class="sxs-lookup"><span data-stu-id="8fac7-777">Description</span></span> | <span data-ttu-id="8fac7-778">Lielums</span><span class="sxs-lookup"><span data-stu-id="8fac7-778">Magnitude</span></span> |        <span data-ttu-id="8fac7-779">Sadalījuma koeficients</span><span class="sxs-lookup"><span data-stu-id="8fac7-779">Allocation factor</span></span>         |
+|-------------|-------------|-----------|----------------------------------|
+|    <span data-ttu-id="8fac7-780">CC001</span><span class="sxs-lookup"><span data-stu-id="8fac7-780">CC001</span></span>    |     <span data-ttu-id="8fac7-781">HR</span><span class="sxs-lookup"><span data-stu-id="8fac7-781">HR</span></span>      | <span data-ttu-id="8fac7-782">1,837.50</span><span class="sxs-lookup"><span data-stu-id="8fac7-782">1,837.50</span></span>  | <span data-ttu-id="8fac7-783">(1837,50 ÷ 18 162,50) × Summa</span><span class="sxs-lookup"><span data-stu-id="8fac7-783">(1,837.50 ÷ 18,162.50) × Amount</span></span>  |
+|    <span data-ttu-id="8fac7-784">CC002</span><span class="sxs-lookup"><span data-stu-id="8fac7-784">CC002</span></span>    |     <span data-ttu-id="8fac7-785">FI</span><span class="sxs-lookup"><span data-stu-id="8fac7-785">FI</span></span>      | <span data-ttu-id="8fac7-786">3,075.00</span><span class="sxs-lookup"><span data-stu-id="8fac7-786">3,075.00</span></span>  | <span data-ttu-id="8fac7-787">(3075,00 ÷ 18 162,50) × Summa</span><span class="sxs-lookup"><span data-stu-id="8fac7-787">(3,075.00 ÷ 18,162.50) × Amount</span></span>  |
+|    <span data-ttu-id="8fac7-788">CC003</span><span class="sxs-lookup"><span data-stu-id="8fac7-788">CC003</span></span>    |     <span data-ttu-id="8fac7-789">KrP</span><span class="sxs-lookup"><span data-stu-id="8fac7-789">IT</span></span>      | <span data-ttu-id="8fac7-790">13,250.00</span><span class="sxs-lookup"><span data-stu-id="8fac7-790">13,250.00</span></span> | <span data-ttu-id="8fac7-791">(13 250,00 ÷ 18 162,50) × Summa</span><span class="sxs-lookup"><span data-stu-id="8fac7-791">(13,250.00 ÷ 18,162.50) × Amount</span></span> |
+
 

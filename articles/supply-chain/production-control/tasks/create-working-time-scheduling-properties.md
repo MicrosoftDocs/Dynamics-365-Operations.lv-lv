@@ -17,15 +17,15 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: eef5844ade45b0c7fdd38624d842c1a96efcd639
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 87828c5ea2ccd804675f2fbcf7aafef1bf422503
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-working-time-scheduling-properties"></a><span data-ttu-id="9519f-103">Darba laika plānošanas rekvizītu izveide</span><span class="sxs-lookup"><span data-stu-id="9519f-103">Create working time scheduling properties</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9519f-104">Darba laika plānošanas rekvizīti tiek izmantoti, lai kategorizētu darba laika intervālus un definētu iestatījumus, kas operatoriem ir jāņem vērā.</span><span class="sxs-lookup"><span data-stu-id="9519f-104">Working time scheduling properties are used to categorize working time intervals and define the settings that operators must take into account.</span></span> <span data-ttu-id="9519f-105">Šajā procedūrā ir parādīts, kā definēt darba laika plānošana rekvizītu un saistītās rekvizītu vērtības.</span><span class="sxs-lookup"><span data-stu-id="9519f-105">This procedure shows how to define a working time scheduling property and associated property values.</span></span> <span data-ttu-id="9519f-106">Šo procedūru var izmēģināt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.</span><span class="sxs-lookup"><span data-stu-id="9519f-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
 

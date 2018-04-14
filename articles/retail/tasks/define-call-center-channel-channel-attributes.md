@@ -16,15 +16,15 @@ ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 1418f04d8fb4d05756ac7a5f4b92a1950037be1d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: bfccbaab5b4d0b4d84d1bf344521b22b7a5e6efc
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-call-center-channel-and-channel-attributes"></a><span data-ttu-id="f81e9-103"> Zvanu centra kanālu un kanāla atribūtu definēšana</span><span class="sxs-lookup"><span data-stu-id="f81e9-103">Define call center channel and channel attributes</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f81e9-104">Šajā procedūrā ir aprakstīts, kā izveidot jaunu mazumtirdzniecības kanālu un definēt kanāla atribūtus.</span><span class="sxs-lookup"><span data-stu-id="f81e9-104">This procedure walks through creating a new retail channel and defining channel attributes.</span></span> <span data-ttu-id="f81e9-105">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USRT.</span><span class="sxs-lookup"><span data-stu-id="f81e9-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="f81e9-106">Šī procedūra ir paredzēta lomai Mazumtirdzniecības IT.</span><span class="sxs-lookup"><span data-stu-id="f81e9-106">This procedure is intended for the Retail IT role.</span></span>
 

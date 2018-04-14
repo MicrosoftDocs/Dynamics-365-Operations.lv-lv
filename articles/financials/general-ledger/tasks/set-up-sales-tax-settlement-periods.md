@@ -16,15 +16,15 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: ab7d3a00a327f42a9f70c954d9b64a360a7f9163
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6de8dbd33a02183ee8bafca720c3738e8eac44e8
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a><span data-ttu-id="c3e4c-103">Iestatīt PVN apmaksas periodus</span><span class="sxs-lookup"><span data-stu-id="c3e4c-103">Set up sales tax settlement periods</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c3e4c-104">PVN nomaksas periodi satur informāciju par periodu intervāliem, par kuriem jāsniedz atskaites un par kuriem tie jānomaksā.</span><span class="sxs-lookup"><span data-stu-id="c3e4c-104">Sales tax settlement periods contain information about the period intervals for which sales tax needs to be reported and paid.</span></span> <span data-ttu-id="c3e4c-105">Nomaksas procesu iespējams palaist maksājumu periodam, noteiktam datumu intervālam.</span><span class="sxs-lookup"><span data-stu-id="c3e4c-105">A settlement process can be run for a settlement period for a specific date interval.</span></span> <span data-ttu-id="c3e4c-106">Tiks segti visi nodokļu kodi, kas saistīti ar apmaksas periodu.</span><span class="sxs-lookup"><span data-stu-id="c3e4c-106">All tax codes associated with the settlement period will be settled.</span></span> <span data-ttu-id="c3e4c-107">Atkarībā no saistītās PVN iestādes iestatījumiem, nodokļu parāds tiek grāmatots vai nu kreditoram vai Virsgrāmatas kontā.</span><span class="sxs-lookup"><span data-stu-id="c3e4c-107">Depending on the set up of the related Sales tax authority, the tax liability is posted either to a vendor or a General ledger account.</span></span>
 

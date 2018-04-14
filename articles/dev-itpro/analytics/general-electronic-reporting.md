@@ -19,17 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ea9550b7209064a2842d7e5efe55e9e51c23b9f8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: eeea5f6f9860bf109bb3063c5a2cc0517192e95d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="electronic-reporting-overview"></a><span data-ttu-id="8ce71-104">Elektronisko pārskatu veidošanas apskats</span><span class="sxs-lookup"><span data-stu-id="8ce71-104">Electronic reporting overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="8ce71-105">Šajā tēmā ir sniegts elektronisko atskaišu veidošanas (ER) rīka apskats.</span><span class="sxs-lookup"><span data-stu-id="8ce71-105">This topic provides an overview of the Electronic reporting (ER) tool.</span></span> <span data-ttu-id="8ce71-106">Tajā ir ietverta informācija par galvenajiem jēdzieniem, ER atbalstītajiem scenārijiem, kā arī saraksts ar formātiem, kas ir izstrādāti un izlaisti kā daļa no šī risinājuma.</span><span class="sxs-lookup"><span data-stu-id="8ce71-106">It includes information about key concepts, the scenarios that ER supports, and a list of formats that have been designed and released as part of the solution.</span></span>
 
@@ -287,6 +286,7 @@ ms.lasthandoff: 11/03/2017
 <span data-ttu-id="8ce71-344">ER jums ļauj atvasinātā komponenta pašreizējā melnraksta versijā automātiski pieņemt pamata komponenta jaunākajā versijā veiktās izmaiņas.</span><span class="sxs-lookup"><span data-stu-id="8ce71-344">ER lets you automatically adopt changes of the latest version of the base component in the current draft version of the derived component.</span></span> <span data-ttu-id="8ce71-345">Šis process tiek saukts par *pārbāzēšanu*.</span><span class="sxs-lookup"><span data-stu-id="8ce71-345">This process is known as *rebasing*.</span></span> <span data-ttu-id="8ce71-346">Piemēram, no LCS importētā formāta jaunākajā versijā ieviestās jaunās normatīvās izmaiņas var automātiski sapludināt elektroniskā dokumenta šī formāta pielāgotajā versijā.</span><span class="sxs-lookup"><span data-stu-id="8ce71-346">For example, a new regulatory change that has been introduced in the latest version of the format that was imported from LCS can be automatically merged into the customized version of this format of the electronic document.</span></span> <span data-ttu-id="8ce71-347">Visas izmaiņas, kuras nevar sapludināt automātiski, tiek uzskatītas par konfliktiem.</span><span class="sxs-lookup"><span data-stu-id="8ce71-347">Any changes that can’t be merged automatically are considered conflicts.</span></span> <span data-ttu-id="8ce71-348">Šie konflikti tiek parādīti manuālai atrisināšanai atbilstošā komponenta veidotāja rīkā.</span><span class="sxs-lookup"><span data-stu-id="8ce71-348">These conflicts are presented for manual resolution in the designer tool for the appropriate component.</span></span> <span data-ttu-id="8ce71-349">Lai iepazītos ar detalizētu informāciju par šo scenāriju, atskaņojiet uzdevuma ceļvedi **ER formāta jaunināšana, ieviešot šī formāta jauno bāzes versiju** (daļa no biznesa procesa **7.5.5.3. Izmainīta IT pakalpojumu/risinājumu komponenta iegāde/izstrāde (10683)**).</span><span class="sxs-lookup"><span data-stu-id="8ce71-349">To become familiar with the details of this scenario, play the **ER Upgrade format by adoption of new base version of that format** task guide (part of the **7.5.5.3 Acquire/Develop changed IT service/solution component (10683)** business process).</span></span>
 
 ## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-and-operations-solution"></a><span data-ttu-id="8ce71-350">Finance and Operations risinājumā ietverto ER konfigurāciju saraksts</span><span class="sxs-lookup"><span data-stu-id="8ce71-350">List of ER configurations that are delivered in the Finance and Operations solution</span></span>
+
 | <span data-ttu-id="8ce71-351">Domēnam specifiskās datu modeļu konfigurācijas: virsraksts</span><span class="sxs-lookup"><span data-stu-id="8ce71-351">Domain-specific data model configurations: Title</span></span> | <span data-ttu-id="8ce71-352">Domēns</span><span class="sxs-lookup"><span data-stu-id="8ce71-352">Domain</span></span>                | <span data-ttu-id="8ce71-353">No datu modeļa atkarīgās formāta konfigurācijas: virsraksts</span><span class="sxs-lookup"><span data-stu-id="8ce71-353">Data model–dependent format configurations: Title</span></span> | <span data-ttu-id="8ce71-354">Apraksts</span><span class="sxs-lookup"><span data-stu-id="8ce71-354">Description</span></span>                                                        |
 |--------------------------------------------------|-----------------------|---------------------------------------------------|--------------------------------------------------------------------|
 | <span data-ttu-id="8ce71-355">Audita faila modelis</span><span class="sxs-lookup"><span data-stu-id="8ce71-355">Audit file model</span></span>                                 | <span data-ttu-id="8ce71-356">Finanšu audits</span><span class="sxs-lookup"><span data-stu-id="8ce71-356">Financial audit</span></span>       |                                                   |                                                                    |

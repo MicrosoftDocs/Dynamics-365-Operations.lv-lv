@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 01c9dcebe82544624c6dd0feb3672d1c5bdfe2d1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2d1a05ffe39c208748a316bd711d9442f1ed875a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="reimburse-customers"></a><span data-ttu-id="40026-104">Kompensācijas debitoriem</span><span class="sxs-lookup"><span data-stu-id="40026-104">Reimburse customers</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="40026-105">Šajā rakstā ir skaidrots, kā debitoru grupai izveidot atlīdzināšanas transakcijas.</span><span class="sxs-lookup"><span data-stu-id="40026-105">This article explains how to create reimbursement transactions for a group of customers.</span></span> <span data-ttu-id="40026-106">Ja debitoram ir kredīta bilance, varat atlīdzināt debitoram bilances summu.</span><span class="sxs-lookup"><span data-stu-id="40026-106">If a customer has a credit balance, you can reimburse the customer for the amount of the balance.</span></span> 
 

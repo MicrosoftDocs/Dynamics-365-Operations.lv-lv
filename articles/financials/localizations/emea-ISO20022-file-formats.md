@@ -17,16 +17,16 @@ ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f55e8fbc4d13f84686298cb8dbcebb4baf134cf3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f094a5420e34a13ac654b01fb145728c7e9cca1c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="import-iso20022-files"></a><span data-ttu-id="7dfbc-103">Importēt ISO20022 failus</span><span class="sxs-lookup"><span data-stu-id="7dfbc-103">Import ISO20022 files</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="7dfbc-104">Varat importēt maksājumu failus, kas ir tālāk norādītajos formātos.</span><span class="sxs-lookup"><span data-stu-id="7dfbc-104">You can import payment files that have the following formats:</span></span>
 
@@ -41,8 +41,8 @@ ms.lasthandoff: 03/26/2018
 3. <span data-ttu-id="7dfbc-113">Lapā **Debitora bankas konts** iestatiet debitora bankas konta ierakstu, ievadot šādu informāciju: IBAN vai bankas konta numurs un SWIFT kods vai reģistrācijas numurs.</span><span class="sxs-lookup"><span data-stu-id="7dfbc-113">On the **Customer bank account** page, set up a customer bank account record by entering the following information: IBAN or bank account number, and SWIFT code or routing number.</span></span>
 4. <span data-ttu-id="7dfbc-114">Lapā **Bankas konti** iestatiet juridiskās personas bankas kontus, ievadot šādu informāciju: IBAN vai bankas konta numurs un SWIFT kods vai reģistrācijas numurs, valūta un adrese.</span><span class="sxs-lookup"><span data-stu-id="7dfbc-114">On the **Bank accounts** page, set up legal entity bank accounts by entering the following information: IBAN or bank account number, SWIFT code or routing number, currency, and address.</span></span>
 
-    > [!NOTE]
-        > <span data-ttu-id="7dfbc-115">Ja plānojat izmantot opciju Detalizēta bankas darbību saskaņošana, kopsavilkuma cilnē **Saskaņošana** opciju **Detalizēta bankas darbību saskaņošana** iestatiet uz **Jā**.</span><span class="sxs-lookup"><span data-stu-id="7dfbc-115">If you plan to use Advanced bank reconciliation, on the **Reconciliation** FastTab, set the **Advanced bank reconciliation** option to **Yes**.</span></span> <span data-ttu-id="7dfbc-116">Ja plānojat saskaņot negrāmatotos importētos maksājumus, opciju **Lietot bankas izrakstus kā elektronisko maksājumu apstiprinājumu** iestatiet uz **Jā**.</span><span class="sxs-lookup"><span data-stu-id="7dfbc-116">If you plan to reconcile unposted imported payments, set the **Use bank statements as confirmation of electronic payments** option to **Yes**.</span></span>
+   > [!NOTE]
+   > <span data-ttu-id="7dfbc-115">Ja plānojat izmantot opciju Detalizēta bankas darbību saskaņošana, kopsavilkuma cilnē **Saskaņošana** opciju **Detalizēta bankas darbību saskaņošana** iestatiet uz **Jā**.</span><span class="sxs-lookup"><span data-stu-id="7dfbc-115">If you plan to use Advanced bank reconciliation, on the **Reconciliation** FastTab, set the **Advanced bank reconciliation** option to **Yes**.</span></span> <span data-ttu-id="7dfbc-116">Ja plānojat saskaņot negrāmatotos importētos maksājumus, opciju **Lietot bankas izrakstus kā elektronisko maksājumu apstiprinājumu** iestatiet uz **Jā**.</span><span class="sxs-lookup"><span data-stu-id="7dfbc-116">If you plan to reconcile unposted imported payments, set the **Use bank statements as confirmation of electronic payments** option to **Yes**.</span></span>
 
 5. <span data-ttu-id="7dfbc-117">Neobligāti: lapā **Transakciju kodu kartēšana** iestatiet kartēšanu starp bankas transakciju kodiem failā un bankas transakciju tipiem.</span><span class="sxs-lookup"><span data-stu-id="7dfbc-117">Optional: On the **Transaction code mapping** page, set up the mapping between bank transaction codes in the file and bank transaction types.</span></span>
 6. <span data-ttu-id="7dfbc-118">Ja fails satur transakciju maksas, ko vēlaties grāmatot kopā ar ienākošo maksājumu, izveidojiet komisijas maksu lapā **Debitoru komisijas maksas**.</span><span class="sxs-lookup"><span data-stu-id="7dfbc-118">If the file contains transaction charges that you want to post together with the incoming payment, create a payment fee on the **Customer payment fee** page.</span></span> <span data-ttu-id="7dfbc-119">Pēc tam lapā **Maksāšanas metodes** saistiet komisijas maksu ar bankas kontu komisijas maksu iestatījumos.</span><span class="sxs-lookup"><span data-stu-id="7dfbc-119">Then, on the **Methods of payment** page, associate the payment fee with the bank account in the payment fee setup.</span></span>

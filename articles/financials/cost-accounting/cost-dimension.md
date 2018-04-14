@@ -19,16 +19,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6c193a3a9deba215d4374ccffc3bf2d854fbd0f2
-ms.openlocfilehash: 759ac68e3508a714334ae8294204c6bcd9cd62b3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2acb1f1bddb725edf47440b1860eed612edaf17f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/22/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-dimensions-and-import-dimension-members"></a><span data-ttu-id="9c02a-103">Dimensiju izveide un dimensijas elementu importēšana</span><span class="sxs-lookup"><span data-stu-id="9c02a-103">Create dimensions and import dimension members</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="9c02a-104">Izmaksu uzskaite ir neatkarīgs modulis, kura darbības nolūkos ir nepieciešami dati no citiem moduļiem.</span><span class="sxs-lookup"><span data-stu-id="9c02a-104">Cost accounting is an independent module that requires data from other modules.</span></span> <span data-ttu-id="9c02a-105">Šie dati ir iedalīti tālāk norādītajās kategorijās.</span><span class="sxs-lookup"><span data-stu-id="9c02a-105">This data is categorized into the following:</span></span>
 

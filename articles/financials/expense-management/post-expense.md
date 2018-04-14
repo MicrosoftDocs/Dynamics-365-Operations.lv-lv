@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: cc3aae061038202ec4f314654d9149c31e2575bb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4c0975cf36d87125b8184a7be8a6a8696eef2d3e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="post-an-expense-report"></a><span data-ttu-id="a16d0-103">Grāmatot izdevumu pārskatu</span><span class="sxs-lookup"><span data-stu-id="a16d0-103">Post an expense report</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a16d0-104">Pēc izmaksu pārskata apstiprināšanas un pārsūtīšanas uz galveno žurnālu, to ir iespējams iegrāmatot galvenajā virsgrāmatā.</span><span class="sxs-lookup"><span data-stu-id="a16d0-104">After an expense report has been approved and transferred to the general journal, it can be posted to the general ledger.</span></span> <span data-ttu-id="a16d0-105">Grāmatojot izdevumu pārskatu, tiek identificēti izdevumi, kas ir piemēroti pievienotās vērtības nodokļa (PVN) atgūšanai.</span><span class="sxs-lookup"><span data-stu-id="a16d0-105">When you post an expense report, expenses that are eligible for recovery of value-added tax (VAT) are identified.</span></span> <span data-ttu-id="a16d0-106">PVN maksājumu pārbaudes un atgūšanas uzdevums tiek piešķirts darbiniekam, kurš ir atbildīgs par izdevumu pārskata pārbaudi.</span><span class="sxs-lookup"><span data-stu-id="a16d0-106">The task of verifying and recovering VAT payments is assigned to the employee who is responsible for verifying the expense report.</span></span>
 

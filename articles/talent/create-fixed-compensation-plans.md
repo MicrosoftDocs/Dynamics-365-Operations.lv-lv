@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 0af9dd6c399032597b863f0fa15c58d3e094ba5b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c5d13024ba15744f81406c4c8f5d5d33de658d63
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-fixed-compensation-plans"></a><span data-ttu-id="567cf-104">Fiksētas atlīdzības plāna izveide</span><span class="sxs-lookup"><span data-stu-id="567cf-104">Create fixed compensation plans</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="567cf-105">Fiksēta atlīdzība attiecas uz darbinieka regulāro bruto algu vai darba samaksu.</span><span class="sxs-lookup"><span data-stu-id="567cf-105">Fixed compensation refers to an employee's regular gross salary or wages.</span></span> <span data-ttu-id="567cf-106">Šajā tēmā ir aprakstīti komponenti, kas ir jāiestata, lai varētu izveidot fiksētas atlīdzības plānu un reģistrēt darbiniekus.</span><span class="sxs-lookup"><span data-stu-id="567cf-106">This topic describes the components that must be set up before you can create a fixed compensation plan and enroll employees.</span></span>
 

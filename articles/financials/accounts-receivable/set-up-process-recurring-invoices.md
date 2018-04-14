@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5c5fbe1791161b8d06cd1539b1717ba8690a8e05
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 21efce9bb38aa5fc93d51bf34c1fe41e89513552
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-and-process-recurring-invoices"></a><span data-ttu-id="f7eb9-104">Periodisko rēķinu iestatīšana un apstrāde</span><span class="sxs-lookup"><span data-stu-id="f7eb9-104">Set up and process recurring invoices</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f7eb9-105">Šajā rakstā ir paskaidrots, kā iestatīt un apstrādāt periodiskos rēķinus.</span><span class="sxs-lookup"><span data-stu-id="f7eb9-105">This article explains how to set up and process recurring invoices.</span></span> <span data-ttu-id="f7eb9-106">Periodiskos rēķinus varat izmantot, ja debitoriem regulāri ir jāizraksta rēķini par tādu pašu summu.</span><span class="sxs-lookup"><span data-stu-id="f7eb9-106">You can use recurring invoices if you must invoice customers for the same amount on a regular basis.</span></span>
 

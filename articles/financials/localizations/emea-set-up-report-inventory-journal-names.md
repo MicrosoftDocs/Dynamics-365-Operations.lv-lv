@@ -18,21 +18,21 @@ ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ca43a81ab3e1dfcfec6a69369121265c54dae9a8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c293934675ac491792b55ddd81e38ae2cfe79266
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="inventory-journal-reports"></a><span data-ttu-id="95b32-103">Krājumu žurnāla pārskati</span><span class="sxs-lookup"><span data-stu-id="95b32-103">Inventory journal reports</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="95b32-104">Kad lietojat konfigurējamus krājumu pārskatus, kuru pamatā ir elektronisko pārskatu veidošana, ir nepieciešams iestatīt attiecības starp konkrētu pārskatu un žurnāla tipu.</span><span class="sxs-lookup"><span data-stu-id="95b32-104">When you use configurable inventory reports based on electronic reporting, you need to set up a relationship between a specific report and a journal type.</span></span>
 
 <span data-ttu-id="95b32-105">Lai iestatītu attiecības starp konkrētu pārskatu un kādu žurnāla tipu, lapā **Krājumu žurnālu nosaukumi** (**Krājumu vadība** &gt; **Iestatīšana** &gt; **Žurnālu nosaukumi** &gt; **Krājumi**) ievadiet šī pārskata nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="95b32-105">To set up a relationship between a specific report and a journal type, on the **Inventory journal names** page (**Inventory management** &gt; **Setup** &gt; **Journal names** &gt; **Inventory**), enter a name for the report.</span></span> <span data-ttu-id="95b32-106">**Piezīme.** Lai iestatītu atbalstītās konfigurācijas, lejupielādējiet nepieciešamās elektronisko pārskatu konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="95b32-106">**Note:** To set up supported configurations, download the required electronic reporting configurations.</span></span> <span data-ttu-id="95b32-107">Papildinformāciju skatiet rakstā [Lejupielādēt elektronisko pārskatu konfigurācijas no Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).</span><span class="sxs-lookup"><span data-stu-id="95b32-107">For more information, see [Download Electronic reporting configurations from Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).</span></span> <span data-ttu-id="95b32-108">Nākamajā tabulā ir uzskaitīti krājumu pārskatu piemēri ar Eiropā atbalstītām konfigurācijām.</span><span class="sxs-lookup"><span data-stu-id="95b32-108">Examples of inventory reports with supported configurations in Europe are listed in the following table.</span></span>
+
 |                    |                                     |                  |                                         |
 |--------------------|-------------------------------------|------------------|-----------------------------------------|
 | <span data-ttu-id="95b32-109">**Valsts/reģions**</span><span class="sxs-lookup"><span data-stu-id="95b32-109">**Country**</span></span>        | <span data-ttu-id="95b32-110">**Pārskata apraksts**</span><span class="sxs-lookup"><span data-stu-id="95b32-110">**Report description**</span></span>              | <span data-ttu-id="95b32-111">**Žurnāla tips**</span><span class="sxs-lookup"><span data-stu-id="95b32-111">**Journal type**</span></span> | <span data-ttu-id="95b32-112">**Formāta kartēšanas nosaukums**</span><span class="sxs-lookup"><span data-stu-id="95b32-112">**Format mapping name**</span></span>                 |

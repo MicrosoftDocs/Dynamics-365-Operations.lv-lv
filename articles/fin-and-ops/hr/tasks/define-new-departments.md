@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: b867d787e38ebc4dd543e2615e3c121bdc13269a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ccd1714d5ac594e04eea65d997fe198bdae32a86
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-new-departments"></a><span data-ttu-id="b0c8a-103">Jaunu nodaļu definēšana</span><span class="sxs-lookup"><span data-stu-id="b0c8a-103">Define new departments</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b0c8a-104">Nodaļas ir pārvaldības struktūrvienības, kas pārstāv uzņēmuma darbības jomu, piemēram, pārdošanu vai uzskaiti.</span><span class="sxs-lookup"><span data-stu-id="b0c8a-104">Departments are operating units that represent a functional area of a business, such as sales or accounting.</span></span> <span data-ttu-id="b0c8a-105">Daudziem uzņēmumiem ir organizacionālā hierarhija, kur ir parādītas dažādas uzņēmuma nodaļas.</span><span class="sxs-lookup"><span data-stu-id="b0c8a-105">Many companies have organizational hierarchies that display the various departments within a business.</span></span> <span data-ttu-id="b0c8a-106">Šajā procedūrā parādīts, kā izveidot nodaļas un pievienot tās uzņēmuma nodaļu hierarhijai.</span><span class="sxs-lookup"><span data-stu-id="b0c8a-106">This procedure walks through the process of creating departments, and adding those departments to an organizations departmental hierarchy.</span></span> <span data-ttu-id="b0c8a-107">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="b0c8a-107">The demo data company used to create this procedure is USMF.</span></span>
 

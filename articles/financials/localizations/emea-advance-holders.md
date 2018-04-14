@@ -18,17 +18,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 84471351555d90c5a297d613abf334a26e896e40
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 647bbbc8555e0aa00b2779d87e63cb4dd31edf96
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="advance-holders"></a><span data-ttu-id="889bb-103">Avansa turētāji</span><span class="sxs-lookup"><span data-stu-id="889bb-103">Advance holders</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="889bb-104">Uzziniet par avansa turētāju funkcionalitāti programmā Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="889bb-104">Learn about advance holder functionality in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 
@@ -48,11 +47,13 @@ ms.lasthandoff: 03/26/2018
 ### <a name="employee-posting-profile"></a><span data-ttu-id="889bb-121">Darbinieku grāmatošanas metode</span><span class="sxs-lookup"><span data-stu-id="889bb-121">Employee posting profile</span></span>
 
 <span data-ttu-id="889bb-122">Lai izveidotu metodi avansa turētāju transakcijām, izmantojiet lapu **Darbinieku grāmatošanas metodes**.</span><span class="sxs-lookup"><span data-stu-id="889bb-122">Use the **Employee posting profiles** page to create a profile for advance holder transactions.</span></span> <span data-ttu-id="889bb-123">Darbinieka grāmatošanas metodei varat norādīt tālāk aprakstīto informāciju.</span><span class="sxs-lookup"><span data-stu-id="889bb-123">You can specify the following information for the employee posting profile.</span></span>
-|<span data-ttu-id="889bb-124">Lauks</span><span class="sxs-lookup"><span data-stu-id="889bb-124">Field</span></span> |<span data-ttu-id="889bb-125">Apraksts</span><span class="sxs-lookup"><span data-stu-id="889bb-125">Description</span></span>|
-|------|-----------|
-|<span data-ttu-id="889bb-126">Grāmatošanas metode</span><span class="sxs-lookup"><span data-stu-id="889bb-126">Posting profile</span></span>|<span data-ttu-id="889bb-127">Ievadiet grāmatošanas metodes identifikācijas kodu avansa turētājam.</span><span class="sxs-lookup"><span data-stu-id="889bb-127">Enter the posting profile identification code for the advance holder.</span></span>|
-|<span data-ttu-id="889bb-128">Apraksts</span><span class="sxs-lookup"><span data-stu-id="889bb-128">Description</span></span>|<span data-ttu-id="889bb-129">Ievadiet īsu grāmatošanas metodes aprakstu.</span><span class="sxs-lookup"><span data-stu-id="889bb-129">Enter a brief description of the posting profile.</span></span>|
-|<span data-ttu-id="889bb-130">Derīgs</span><span class="sxs-lookup"><span data-stu-id="889bb-130">Valid for</span></span>|<span data-ttu-id="889bb-131">Grāmatošanas metodes iestatīšanas nolūkos grupēšanas līmenim atlasiet kādu no tālāk norādītajām opcijām.</span><span class="sxs-lookup"><span data-stu-id="889bb-131">Select one of the following options for the level of grouping for setting up the posting profile:</span></span> 
+
+|      <span data-ttu-id="889bb-124">Lauks</span><span class="sxs-lookup"><span data-stu-id="889bb-124">Field</span></span>      |                                            <span data-ttu-id="889bb-125">Apraksts</span><span class="sxs-lookup"><span data-stu-id="889bb-125">Description</span></span>                                            |
+|-----------------|---------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="889bb-126">Grāmatošanas metode</span><span class="sxs-lookup"><span data-stu-id="889bb-126">Posting profile</span></span> |               <span data-ttu-id="889bb-127">Ievadiet grāmatošanas metodes identifikācijas kodu avansa turētājam.</span><span class="sxs-lookup"><span data-stu-id="889bb-127">Enter the posting profile identification code for the advance holder.</span></span>               |
+|   <span data-ttu-id="889bb-128">Apraksts</span><span class="sxs-lookup"><span data-stu-id="889bb-128">Description</span></span>   |                         <span data-ttu-id="889bb-129">Ievadiet īsu grāmatošanas metodes aprakstu.</span><span class="sxs-lookup"><span data-stu-id="889bb-129">Enter a brief description of the posting profile.</span></span>                         |
+|    <span data-ttu-id="889bb-130">Derīgs</span><span class="sxs-lookup"><span data-stu-id="889bb-130">Valid for</span></span>    | <span data-ttu-id="889bb-131">Grāmatošanas metodes iestatīšanas nolūkos grupēšanas līmenim atlasiet kādu no tālāk norādītajām opcijām.</span><span class="sxs-lookup"><span data-stu-id="889bb-131">Select one of the following options for the level of grouping for setting up the posting profile:</span></span> |
+
 <span data-ttu-id="889bb-132">**Tabula** — šī opcija tiek izmantota, lai iestatītu grāmatošanas profilu vienam avansa turētājam.</span><span class="sxs-lookup"><span data-stu-id="889bb-132">**Table** – This option is used to set up the posting profile for one advance holder.</span></span> <span data-ttu-id="889bb-133">Laukā Atsauce ir jānorāda avansa turētāja kods.</span><span class="sxs-lookup"><span data-stu-id="889bb-133">You must indicate the advance holder code in the Reference field.</span></span>
 <span data-ttu-id="889bb-134">**Grupa** — šī opcija tiek izmantota, lai iestatītu grāmatošanas profilu avansa turētāju grupai.</span><span class="sxs-lookup"><span data-stu-id="889bb-134">**Group** – This option is used to set up the posting profile for a group of advance holders.</span></span> <span data-ttu-id="889bb-135">Laukā Atsauce ir jānorāda grupas kods.</span><span class="sxs-lookup"><span data-stu-id="889bb-135">You must indicate the group code in the Reference field.</span></span>
 <span data-ttu-id="889bb-136">**Visi** — šī opcija tiek izmantota, lai iestatītu grāmatošanas metodi visiem avansa turētājiem.| |Atsauce|Atlasiet avansa turētāja kodu, ja laukā Derīgs ir atlasīta vērtība Tabula, vai atlasiet avansa turētāju grupu, ja laukā Derīgs ir atlasīta vērtība Grupa.| |Summu konts|Atlasiet summu kontu transakciju grāmatošanai.|</span><span class="sxs-lookup"><span data-stu-id="889bb-136">**All** – This option is used to set up the posting profile for all advance holders.| |Reference|Select the advance holder code if Table is selected in the Valid for field, or select the advance holder group if Group is selected in the Valid for field.| |Summary account|Select the summary account for posting the transactions.|</span></span>
@@ -62,6 +63,7 @@ ms.lasthandoff: 03/26/2018
 ### <a name="account-payable-parameters"></a><span data-ttu-id="889bb-137">Kreditoru moduļa parametri</span><span class="sxs-lookup"><span data-stu-id="889bb-137">Account payable parameters</span></span>
 
 <span data-ttu-id="889bb-138">Lai atainotu avansa turētāju transakcijas, lapas **Kreditoru moduļa parametri** sadaļā **Avansa turētāji** ir jāiestata tālāk aprakstītie priekšnosacījumi.</span><span class="sxs-lookup"><span data-stu-id="889bb-138">To reflect advance holder’s transactions you must set up the following on the **Account payable parameters** page in the **Advance holders** section.</span></span>
+
 |                                                |                   |
 |------------------------------------------------|-------------------|
 |  <span data-ttu-id="889bb-139">**Lauks**</span><span class="sxs-lookup"><span data-stu-id="889bb-139">**Field**</span></span>                                     | <span data-ttu-id="889bb-140">**Apraksts**</span><span class="sxs-lookup"><span data-stu-id="889bb-140">**Description**</span></span>                                                                                                                                                                  |
@@ -80,6 +82,7 @@ ms.lasthandoff: 03/26/2018
 ### <a name="create-an-advance-holder-creation"></a><span data-ttu-id="889bb-160">Izveidot avansa turētāja izveidi</span><span class="sxs-lookup"><span data-stu-id="889bb-160">Create an advance holder creation</span></span>
 
 <span data-ttu-id="889bb-161">Lai varētu izveidot avansa turētāju, nodarbinātajiem jau ir jābūt iestatītiem.</span><span class="sxs-lookup"><span data-stu-id="889bb-161">Before you can create an advance holder, you must have already set up workers.</span></span> <span data-ttu-id="889bb-162">Papildinformāciju skatiet rakstā [Ievadīt darbinieka informāciju (uzdevuma ceļvedis).](../../fin-and-ops/hr/tasks/enter-worker-information.md)</span><span class="sxs-lookup"><span data-stu-id="889bb-162">For more information, see [Enter worker information (Task guide).](../../fin-and-ops/hr/tasks/enter-worker-information.md)</span></span> <span data-ttu-id="889bb-163">Lai nodarbināto iestatītu kā avansa turētāju, izmantojiet lapu **Avansa turētāji**.</span><span class="sxs-lookup"><span data-stu-id="889bb-163">Use the **Advance holders** page to set up a worker as an advance holder.</span></span> <span data-ttu-id="889bb-164">Atlasiet nodarbināto, ko lietot kā avansa turētāju, noklikšķiniet uz **Rediģēt** un pēc tam opciju **Avansa turētājs** iestatiet uz **Patiess**.</span><span class="sxs-lookup"><span data-stu-id="889bb-164">Select the worker to use as an advance holder, click **Edit**, and then set the **Advance holder** option to **True**.</span></span> <span data-ttu-id="889bb-165">Ir jāaizpilda arī tālāk norādītie lauki.</span><span class="sxs-lookup"><span data-stu-id="889bb-165">You must also complete the following fields.</span></span>
+
 |                |                                                                                             |
 |----------------|---------------------------------------------------------------------------------------------|
 | <span data-ttu-id="889bb-166">**Lauks**</span><span class="sxs-lookup"><span data-stu-id="889bb-166">**Field**</span></span>      | <span data-ttu-id="889bb-167">**Apraksts**</span><span class="sxs-lookup"><span data-stu-id="889bb-167">**Description**</span></span>                                                                             |

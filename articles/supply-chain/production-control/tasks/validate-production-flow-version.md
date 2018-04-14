@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7fb52291f15bfe9063b2a9d4a572dcdc44286402
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6e76afac726e9b9fbfda39ec23f8be35aded60a9
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="validate-a-production-flow-and-version"></a><span data-ttu-id="08566-103">Ražošanas plūsmas un versijas pārbaude</span><span class="sxs-lookup"><span data-stu-id="08566-103">Validate a production flow and version</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="08566-104">Šajā procedūrā tiek parādīts, kā izveidot lean manufacturing jaunu ražošanas plūsmu un pirmo versiju.</span><span class="sxs-lookup"><span data-stu-id="08566-104">This procedure shows how to create a new production flow and a first version for lean manufacturing.</span></span> <span data-ttu-id="08566-105">Priekšnosacījumi: ir jādefinē lean manufacturing ražošanas uzdevuma parametrus un klases laika mērvienības.</span><span class="sxs-lookup"><span data-stu-id="08566-105">Prerequisites: The production parameters for Lean manufacturing and the units of measure for class time must be defined.</span></span> <span data-ttu-id="08566-106">Jums arī ir nepieciešams definēt Vērtību plūsmu un Ražošanas uzdevumu grupu.</span><span class="sxs-lookup"><span data-stu-id="08566-106">You need to define a Value stream and a Production group.</span></span> <span data-ttu-id="08566-107">Skatiet tehniskos dokumentus par Lean manufacturing, lai iepazītos ar ražošanas plūsmu un aktivitāšu koncepciju.</span><span class="sxs-lookup"><span data-stu-id="08566-107">Refer to the white papers on Lean manufacturing to familiarize yourself with the concepts of production flows and activities.</span></span> <span data-ttu-id="08566-108">Šī procedūra attiecas uz juridisko personu USMF demonstrācijas datos.</span><span class="sxs-lookup"><span data-stu-id="08566-108">This procedure refers to the legal entity USMF in demo data.</span></span> <span data-ttu-id="08566-109">Tomēr, pieņemot, ka juridiskā persona ir konfigurēta lean manufacturing, var izmantot citas juridiskas personas.</span><span class="sxs-lookup"><span data-stu-id="08566-109">However, assuming that the legal entity is configured for Lean manufacturing, other legal entities can be used.</span></span>
 

@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 737784bd9bd87a72227978cb61e99d2b317088af
-ms.openlocfilehash: 1670cd41d3c4c17fcc91556cd56d18cc112668ed
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d7d66f8b498f7a55446b80245561b292cadfa9b4
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="determine-the-bom-version"></a><span data-ttu-id="b5db7-103">MK versijas noteikšana</span><span class="sxs-lookup"><span data-stu-id="b5db7-103">Determine the BOM version</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="b5db7-104">Ja krājuma noklusējuma pasūtījuma veids ir Ražošana, tad pieprasījuma izvēršanas laikā plānošanas programmā tiek atrasta derīga MK versija, pamatojoties uz atrašanās vietu.</span><span class="sxs-lookup"><span data-stu-id="b5db7-104">During a demand explosion, if an item has a default order type of Production, the planning engine finds a valid BOM version based on the site.</span></span> 
 

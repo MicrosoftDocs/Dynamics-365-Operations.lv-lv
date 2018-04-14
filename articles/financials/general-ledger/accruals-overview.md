@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 47336a19899b1fad0e63265173fd7fd02fc74ec3
-ms.openlocfilehash: 4fa27cbfe6129aa78b5e05de704894da173d853b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0b4d8e7eb268857ce753415a24e600b8006eb5e3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="accruals-overview"></a><span data-ttu-id="a3ab0-103">Uzkrājumu pārskats</span><span class="sxs-lookup"><span data-stu-id="a3ab0-103">Accruals overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a3ab0-104">Šajā rakstā ir aprakstīti uzkrājumi un sniegta informācija par to, kā tos iestatīt un izveidot transakcijas.</span><span class="sxs-lookup"><span data-stu-id="a3ab0-104">This article describes accruals, and provides information about how to set them up and create transactions.</span></span>
 

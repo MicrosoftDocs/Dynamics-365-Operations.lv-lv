@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 47336a19899b1fad0e63265173fd7fd02fc74ec3
-ms.openlocfilehash: 0f87e82655ac9fa83ee116d0698b38804cfbf55c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8634b8f2c41b530fcd06f253358145fdc9389d2d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="general-ledger-account-balances"></a><span data-ttu-id="c865c-104">Virsgrāmatas konta bilances</span><span class="sxs-lookup"><span data-stu-id="c865c-104">General ledger account balances</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="c865c-105">Šajā rakstā ir paskaidroti divi veidi, kā skatīt Virsgrāmatas kontu bilances, izmantojot lapu Apgrozījuma bilances saraksts un finanšu atskaites.</span><span class="sxs-lookup"><span data-stu-id="c865c-105">This article explains two ways to view general ledger account balances -  the Trial balance list page and financial reports.</span></span> <span data-ttu-id="c865c-106">Tajā ir arī aprakstīts, kā atjaunināt dimensiju kopu bilances.</span><span class="sxs-lookup"><span data-stu-id="c865c-106">It also discusses how to update dimension set balances.</span></span>
 

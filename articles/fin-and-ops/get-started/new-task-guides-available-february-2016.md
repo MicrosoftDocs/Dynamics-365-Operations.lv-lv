@@ -18,17 +18,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 33cd67bda4d4b868b00cb1c0a062de03d3aa6273
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: caa07418cb834c7f004c4fb95d5ea1c0e3a28f56
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="new-task-guides-february-2016"></a><span data-ttu-id="d840f-104">Jauni uzdevumu ceļveži (2016. gada februāris)</span><span class="sxs-lookup"><span data-stu-id="d840f-104">New task guides (February 2016)</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d840f-105">Šajā tēmā ir norādīti uzdevumu ceļveži, kas tika izlaisti Microsoft BMP bibliotēkās 2016. gada februārī.</span><span class="sxs-lookup"><span data-stu-id="d840f-105">This topic lists the Task guides that were released to the Microsoft BPM libraries as of February 2016.</span></span>  <span data-ttu-id="d840f-106">Publicēto bibliotēku klāstā ietilpst (2016. gada februāra) APQC vienotā bibliotēka programmatūrai Microsoft Dynamics AX un (2016. gada februāra) Darba sākšana.</span><span class="sxs-lookup"><span data-stu-id="d840f-106">The libraries that were published include the (February 2016) APQC Unified Library for Microsoft Dynamics AX and (February 2016) Getting started.</span></span>
 
@@ -50,8 +49,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="d840f-124">Iestatīt kreditoru rēķinu salīdzināšanas pārbaudi</span><span class="sxs-lookup"><span data-stu-id="d840f-124">Set up Accounts payable invoice matching validation</span></span>       | <span data-ttu-id="d840f-125">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-125">Global</span></span>             |
 | <span data-ttu-id="d840f-126">Iestatīt kreditoru rēķinu ierobežojumus</span><span class="sxs-lookup"><span data-stu-id="d840f-126">Set up vendor invoice policies</span></span>                            | <span data-ttu-id="d840f-127">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-127">Global</span></span>             |
 
- 
 
+ 
 ### <a name="accounts-receivable"></a><span data-ttu-id="d840f-128">Debitoru parādi</span><span class="sxs-lookup"><span data-stu-id="d840f-128">Accounts receivable</span></span>
 
 |                                                             |                    |
@@ -71,8 +70,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="d840f-153">Iekasēšanas informācijas pārskatīšana</span><span class="sxs-lookup"><span data-stu-id="d840f-153">Review collections information</span></span>                              | <span data-ttu-id="d840f-154">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-154">Global</span></span>             |
 | <span data-ttu-id="d840f-155">Debitoru vecumstruktūras informācijas iestatīšana un ģenerēšana</span><span class="sxs-lookup"><span data-stu-id="d840f-155">Set up and generate accounts receivable aging information</span></span>   | <span data-ttu-id="d840f-156">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-156">Global</span></span>             |
 
- 
 
+ 
 ### <a name="cash-and-bank-management"></a><span data-ttu-id="d840f-157">Kases un bankas vadība</span><span class="sxs-lookup"><span data-stu-id="d840f-157">Cash and bank management</span></span>
 
 |                                                                      |                    |
@@ -99,8 +98,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="d840f-196">Nomaksāt ar iepriekšēju datumu datētu čeku no debitora</span><span class="sxs-lookup"><span data-stu-id="d840f-196">Settle a postdated check from a customer</span></span>                             | <span data-ttu-id="d840f-197">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-197">Global</span></span>             |
 | <span data-ttu-id="d840f-198">Kreditora maksājumu pārskats</span><span class="sxs-lookup"><span data-stu-id="d840f-198">Vendor payment overview</span></span>                                              | <span data-ttu-id="d840f-199">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-199">Global</span></span>             |
 
- 
 
+ 
 ### <a name="compliance"></a><span data-ttu-id="d840f-200">Atbilstība</span><span class="sxs-lookup"><span data-stu-id="d840f-200">Compliance</span></span>
 
 |                                            |                    |
@@ -108,8 +107,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="d840f-201">**BPM rinda**</span><span class="sxs-lookup"><span data-stu-id="d840f-201">**BPM Line**</span></span>                               | <span data-ttu-id="d840f-202">**Valsts/reģions**</span><span class="sxs-lookup"><span data-stu-id="d840f-202">**Country/Region**</span></span> |
 | <span data-ttu-id="d840f-203">Definēt pirmdokumentu audita politikas</span><span class="sxs-lookup"><span data-stu-id="d840f-203">Define audit policies for source documents</span></span> | <span data-ttu-id="d840f-204">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-204">Global</span></span>             |
 
- 
 
+ 
 ### <a name="cost-management"></a><span data-ttu-id="d840f-205">Izmaksu pārvaldība</span><span class="sxs-lookup"><span data-stu-id="d840f-205">Cost management</span></span>
 
 |                                                                     |                    |
@@ -121,8 +120,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="d840f-214">Pašreizējā WIP statusa skatīšana ražošanas pasūtījumā</span><span class="sxs-lookup"><span data-stu-id="d840f-214">View current WIP status on a production order</span></span>                       | <span data-ttu-id="d840f-215">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-215">Global</span></span>             |
 | <span data-ttu-id="d840f-216">Inventarizācijas akta un KPI skatīšana pēc izmaksu objekta</span><span class="sxs-lookup"><span data-stu-id="d840f-216">View inventory statement and KPI by cost object</span></span>                     | <span data-ttu-id="d840f-217">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-217">Global</span></span>             |
 
- 
 
+ 
 ### <a name="countryregion-functionality"></a><span data-ttu-id="d840f-218">Valsts/reģiona funkcionalitāte</span><span class="sxs-lookup"><span data-stu-id="d840f-218">Country/Region functionality</span></span>
 
 |                                                                                                        |                                 |
@@ -263,8 +262,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="d840f-485">GB-00009 Izveidot kredīta notu par seguma atlaidi</span><span class="sxs-lookup"><span data-stu-id="d840f-485">GB-00009 Create a credit note on the settlement discount</span></span>                                               | <span data-ttu-id="d840f-486">Apvienotā Karaliste</span><span class="sxs-lookup"><span data-stu-id="d840f-486">United Kingdom</span></span>                  |
 | <span data-ttu-id="d840f-487">GB-00009 Iestatīt kredīta notas parametrus par savlaicīga maksājuma atlaidi</span><span class="sxs-lookup"><span data-stu-id="d840f-487">GB-00009 Setup parameters for credit note on prompt payment discount</span></span>                                   | <span data-ttu-id="d840f-488">Apvienotā Karaliste</span><span class="sxs-lookup"><span data-stu-id="d840f-488">United Kingdom</span></span>                  |
 
- 
 
+ 
 ### <a name="develop-vision-and-strategy"></a><span data-ttu-id="d840f-489">Vīzijas un stratēģijas izstrāde</span><span class="sxs-lookup"><span data-stu-id="d840f-489">Develop Vision and Strategy</span></span>
 
 |                                                                                          |                    |
@@ -276,8 +275,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="d840f-498">Norādīt jautājumu par atkarīgu no iepriekšējā jautājuma atbildes (nosacījuma jautājumi)</span><span class="sxs-lookup"><span data-stu-id="d840f-498">Make a question dependent on the answer of the previous question (Conditional questions)</span></span> | <span data-ttu-id="d840f-499">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-499">Global</span></span>             |
 | <span data-ttu-id="d840f-500">Anketas novērtēšana, pamatojoties uz procentiem</span><span class="sxs-lookup"><span data-stu-id="d840f-500">Score a questionnaire based on Percent</span></span>                                                   | <span data-ttu-id="d840f-501">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-501">Global</span></span>             |
 
- 
 
+ 
 ### <a name="electronic-reporting"></a><span data-ttu-id="d840f-502">Elektroniskie pārskati</span><span class="sxs-lookup"><span data-stu-id="d840f-502">Electronic reporting</span></span>
 
 |                                                 |                    |
@@ -289,8 +288,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="d840f-511">ER datu modeļa kartēšana ar izvēlētajiem datu avotiem</span><span class="sxs-lookup"><span data-stu-id="d840f-511">ER Map data model to selected data sources</span></span>      | <span data-ttu-id="d840f-512">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-512">Global</span></span>             |
 | <span data-ttu-id="d840f-513">ER pakalpojumu sniedzēja atlasīšana</span><span class="sxs-lookup"><span data-stu-id="d840f-513">ER Select service provider</span></span>                      | <span data-ttu-id="d840f-514">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-514">Global</span></span>             |
 
- 
 
+ 
 ### <a name="expense-management"></a><span data-ttu-id="d840f-515">Izdevumu pārvaldība</span><span class="sxs-lookup"><span data-stu-id="d840f-515">Expense management</span></span>
 
 |                              |                    |
@@ -298,8 +297,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="d840f-516">**BPM rinda**</span><span class="sxs-lookup"><span data-stu-id="d840f-516">**BPM Line**</span></span>                 | <span data-ttu-id="d840f-517">**Valsts/reģions**</span><span class="sxs-lookup"><span data-stu-id="d840f-517">**Country/Region**</span></span> |
 | <span data-ttu-id="d840f-518">Izdevumu pārvaldības konfigurēšana</span><span class="sxs-lookup"><span data-stu-id="d840f-518">Configure expense management</span></span> | <span data-ttu-id="d840f-519">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-519">Global</span></span>             |
 
- 
 
+ 
 ### <a name="fixed-assets"></a><span data-ttu-id="d840f-520">Pamatlīdzekļi</span><span class="sxs-lookup"><span data-stu-id="d840f-520">Fixed assets</span></span>
 
 |                                                           |                    |
@@ -321,8 +320,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="d840f-549">Pamatlīdzekļa sadalīšana</span><span class="sxs-lookup"><span data-stu-id="d840f-549">Split a fixed asset</span></span>                                       | <span data-ttu-id="d840f-550">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-550">Global</span></span>             |
 | <span data-ttu-id="d840f-551">Pamatlīdzekļa pārsūtīšana</span><span class="sxs-lookup"><span data-stu-id="d840f-551">Transfer a fixed asset</span></span>                                    | <span data-ttu-id="d840f-552">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-552">Global</span></span>             |
 
- 
 
+ 
 ### <a name="general-ledger"></a><span data-ttu-id="d840f-553">Virsgrāmata</span><span class="sxs-lookup"><span data-stu-id="d840f-553">General ledger</span></span>
 
 |                                                                   |                    |
@@ -354,8 +353,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="d840f-602">Žurnāla ierakstu vai transakciju skatīšana</span><span class="sxs-lookup"><span data-stu-id="d840f-602">View journal entries or transactions</span></span>                              | <span data-ttu-id="d840f-603">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-603">Global</span></span>             |
 | <span data-ttu-id="d840f-604">Saistītā starpuzņēmuma dokumenta skatīšana no žurnāla</span><span class="sxs-lookup"><span data-stu-id="d840f-604">View related intercompany voucher from journal</span></span>                    | <span data-ttu-id="d840f-605">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-605">Global</span></span>             |
 
- 
 
+ 
 ### <a name="human-capital-management"></a><span data-ttu-id="d840f-606">Cilvēkkapitāla pārvaldība</span><span class="sxs-lookup"><span data-stu-id="d840f-606">Human capital management</span></span>
 
 |                                                                  |                    |
@@ -398,8 +397,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="d840f-677">Atvieglojumu piemērojamības ierobežojumu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="d840f-677">Setting benefit eligibility policies</span></span>                             | <span data-ttu-id="d840f-678">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-678">Global</span></span>             |
 | <span data-ttu-id="d840f-679">i9 dokumentu veidu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="d840f-679">Setting up i9 document types</span></span>                                     | <span data-ttu-id="d840f-680">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-680">Global</span></span>             |
 
- 
 
+ 
 ### <a name="inventory-management"></a><span data-ttu-id="d840f-681">Krājumu vadība</span><span class="sxs-lookup"><span data-stu-id="d840f-681">Inventory management</span></span>
 
 |                                                                                   |                    |
@@ -422,8 +421,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="d840f-712">Izsekojiet krājumu vai izejmateriālu</span><span class="sxs-lookup"><span data-stu-id="d840f-712">Trace an item or raw material</span></span>                                                     | <span data-ttu-id="d840f-713">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-713">Global</span></span>             |
 | <span data-ttu-id="d840f-714">Fizisko krājumu pārsūtīšana noliktavā</span><span class="sxs-lookup"><span data-stu-id="d840f-714">Transfer physical inventory within the warehouse</span></span>                                  | <span data-ttu-id="d840f-715">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-715">Global</span></span>             |
 
- 
 
+ 
 ### <a name="manufacturing"></a><span data-ttu-id="d840f-716">Ražošana</span><span class="sxs-lookup"><span data-stu-id="d840f-716">Manufacturing</span></span>
 
 |                                                               |                    |
@@ -474,8 +473,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="d840f-803">Pārsūtīt materiālu ar Kanban darbiem</span><span class="sxs-lookup"><span data-stu-id="d840f-803">Transfer material with Kanban jobs</span></span>                            | <span data-ttu-id="d840f-804">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-804">Global</span></span>             |
 | <span data-ttu-id="d840f-805">Ražošanas plūsmas un versijas validācija</span><span class="sxs-lookup"><span data-stu-id="d840f-805">Validate production flow and version</span></span>                          | <span data-ttu-id="d840f-806">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-806">Global</span></span>             |
 
- 
 
+ 
 ### <a name="master-planning"></a><span data-ttu-id="d840f-807">Vispārējā plānošana</span><span class="sxs-lookup"><span data-stu-id="d840f-807">Master planning</span></span>
 
 |                                                   |                    |
@@ -487,8 +486,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="d840f-816">Kritiski svarīgo materiālu un piegādātāja noslodzes noteikšana</span><span class="sxs-lookup"><span data-stu-id="d840f-816">Identify critical materials and supplier capacity</span></span> | <span data-ttu-id="d840f-817">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-817">Global</span></span>             |
 | <span data-ttu-id="d840f-818">Pieprasījuma prognozes manuāla modificēšana</span><span class="sxs-lookup"><span data-stu-id="d840f-818">Modify a demand forecast manually</span></span>                 | <span data-ttu-id="d840f-819">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-819">Global</span></span>             |
 
- 
 
+ 
 ### <a name="organization-administration"></a><span data-ttu-id="d840f-820">Organizācijas administrēšana</span><span class="sxs-lookup"><span data-stu-id="d840f-820">Organization administration</span></span>
 
 |                                           |                    |
@@ -501,8 +500,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="d840f-831">Elektronisko parakstu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="d840f-831">Set up electronic signatures</span></span>              | <span data-ttu-id="d840f-832">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-832">Global</span></span>             |
 | <span data-ttu-id="d840f-833">Numuru sēriju iestatīšana, izmantojot vedni</span><span class="sxs-lookup"><span data-stu-id="d840f-833">Set up number sequences by using a wizard</span></span> | <span data-ttu-id="d840f-834">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-834">Global</span></span>             |
 
- 
 
+ 
 ### <a name="planning"></a><span data-ttu-id="d840f-835">Plānošana</span><span class="sxs-lookup"><span data-stu-id="d840f-835">Planning</span></span>
 
 |                        |                    |
@@ -510,8 +509,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="d840f-836">**BPM rinda**</span><span class="sxs-lookup"><span data-stu-id="d840f-836">**BPM Line**</span></span>           | <span data-ttu-id="d840f-837">**Valsts/reģions**</span><span class="sxs-lookup"><span data-stu-id="d840f-837">**Country/Region**</span></span> |
 | <span data-ttu-id="d840f-838">Pieejamības noteikšana</span><span class="sxs-lookup"><span data-stu-id="d840f-838">Determine availability</span></span> | <span data-ttu-id="d840f-839">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-839">Global</span></span>             |
 
- 
 
+ 
 ### <a name="procurement-and-sourcing"></a><span data-ttu-id="d840f-840">Sagāde un avoti</span><span class="sxs-lookup"><span data-stu-id="d840f-840">Procurement and sourcing</span></span>
 
 |                                                                  |                    |
@@ -525,8 +524,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="d840f-853">Kreditoru meklēšana</span><span class="sxs-lookup"><span data-stu-id="d840f-853">Search for vendors</span></span>                                               | <span data-ttu-id="d840f-854">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-854">Global</span></span>             |
 | <span data-ttu-id="d840f-855">Sagādes kategoriju hierarhijas iestatīšana</span><span class="sxs-lookup"><span data-stu-id="d840f-855">Set up a procurement category hierarchy</span></span>                          | <span data-ttu-id="d840f-856">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-856">Global</span></span>             |
 
- 
 
+ 
 ### <a name="product-information-and-configuration"></a><span data-ttu-id="d840f-857">Preces informācija un konfigurācija</span><span class="sxs-lookup"><span data-stu-id="d840f-857">Product information and configuration</span></span>
 
 |                                                       |                    |
@@ -551,8 +550,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="d840f-892">Uz dimensijām balstītas preces šablona izlaide</span><span class="sxs-lookup"><span data-stu-id="d840f-892">Release a ..\financial-dimensions\dimension-based product master</span></span>              | <span data-ttu-id="d840f-893">Globāls</span><span class="sxs-lookup"><span data-stu-id="d840f-893">Global</span></span>             |
 | <span data-ttu-id="d840f-894">Datu pārsūtīšana par preču modeļiem</span><span class="sxs-lookup"><span data-stu-id="d840f-894">Transfer data for product models</span></span>                      | <span data-ttu-id="d840f-895">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-895">Global</span></span>             |
 
- 
 
+ 
 ### <a name="public-sector"></a><span data-ttu-id="d840f-896">Publiskais sektors</span><span class="sxs-lookup"><span data-stu-id="d840f-896">Public sector</span></span>
 
 |                                                                                         |                    |
@@ -577,8 +576,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="d840f-931">Iestatīt līdzekļus publiskajam sektoram</span><span class="sxs-lookup"><span data-stu-id="d840f-931">Set up a fund for Public sector</span></span>                                                         | <span data-ttu-id="d840f-932">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-932">Global</span></span>             |
 | <span data-ttu-id="d840f-933">Pirkšanas līgumu klasifikācijas iestatīšana sabiedriskajā sektorā</span><span class="sxs-lookup"><span data-stu-id="d840f-933">Set up purchase agreement classifications for Public Sector</span></span>                             | <span data-ttu-id="d840f-934">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-934">Global</span></span>             |
 
- 
 
+ 
 ### <a name="retail-and-commerce"></a><span data-ttu-id="d840f-935">Mazumtirdzniecība un komercija</span><span class="sxs-lookup"><span data-stu-id="d840f-935">Retail and commerce</span></span>
 
 |                                                                                           |                    |
@@ -619,8 +618,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="d840f-1002">Mazumtirdzniecības cenu korekcijas</span><span class="sxs-lookup"><span data-stu-id="d840f-1002">Retail price adjustments</span></span>                                                                  | <span data-ttu-id="d840f-1003">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-1003">Global</span></span>             |
 | <span data-ttu-id="d840f-1004">Mazumtirdzniecības izrakstu konfigurācijas uzglabāšana</span><span class="sxs-lookup"><span data-stu-id="d840f-1004">Store configurations for Retail statements</span></span>                                                | <span data-ttu-id="d840f-1005">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-1005">Global</span></span>             |
 
- 
 
+ 
 ### <a name="sales"></a><span data-ttu-id="d840f-1006">Pārdošana</span><span class="sxs-lookup"><span data-stu-id="d840f-1006">Sales</span></span>
 
 |                                            |                    |
@@ -642,8 +641,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="d840f-1035">Pasūtījumu sūtīšana kā tiešās piegādes</span><span class="sxs-lookup"><span data-stu-id="d840f-1035">Ship orders as direct deliveries</span></span>           | <span data-ttu-id="d840f-1036">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-1036">Global</span></span>             |
 | <span data-ttu-id="d840f-1037">Pārdošanas pasūtījumu sūtīšana bez noliktavas</span><span class="sxs-lookup"><span data-stu-id="d840f-1037">Ship sales orders without warehousing</span></span>      | <span data-ttu-id="d840f-1038">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-1038">Global</span></span>             |
 
- 
 
+ 
 ### <a name="sales-tax"></a><span data-ttu-id="d840f-1039">PVN</span><span class="sxs-lookup"><span data-stu-id="d840f-1039">Sales tax</span></span>
 
 |                                                    |                    |
@@ -661,8 +660,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="d840f-1060">Ieturētā nodokļa iestatīšana</span><span class="sxs-lookup"><span data-stu-id="d840f-1060">Set up withholding tax</span></span>                             | <span data-ttu-id="d840f-1061">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-1061">Global</span></span>             |
 | <span data-ttu-id="d840f-1062">Skatīt grāmatotās PVN darbības</span><span class="sxs-lookup"><span data-stu-id="d840f-1062">View posted sales tax transactions</span></span>                 | <span data-ttu-id="d840f-1063">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-1063">Global</span></span>             |
 
- 
 
+ 
 ### <a name="security"></a><span data-ttu-id="d840f-1064">Drošība</span><span class="sxs-lookup"><span data-stu-id="d840f-1064">Security</span></span>
 
 |                                                         |                    |
@@ -672,8 +671,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="d840f-1069">Pienākumu sadales konfliktu identificēšana un atrisināšana</span><span class="sxs-lookup"><span data-stu-id="d840f-1069">Identify and resolve conflicts in segregation of duties</span></span> | <span data-ttu-id="d840f-1070">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-1070">Global</span></span>             |
 | <span data-ttu-id="d840f-1071">Pienākumu sadales iestatīšana</span><span class="sxs-lookup"><span data-stu-id="d840f-1071">Set up segregation of duties</span></span>                            | <span data-ttu-id="d840f-1072">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-1072">Global</span></span>             |
 
- 
 
+ 
 ### <a name="warehouse-and-transportation"></a><span data-ttu-id="d840f-1073">Noliktava un transportēšana</span><span class="sxs-lookup"><span data-stu-id="d840f-1073">Warehouse and transportation</span></span>
 
 |                                                                                   |                    |
@@ -697,9 +696,10 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="d840f-1106">Piegādes</span><span class="sxs-lookup"><span data-stu-id="d840f-1106">Set up shipping carriers</span></span>                                                          | <span data-ttu-id="d840f-1107">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-1107">Global</span></span>             |
 | <span data-ttu-id="d840f-1108">Noslodzes plānošanas rīka izmantošana, lai plānotu kravas un sūtījumus</span><span class="sxs-lookup"><span data-stu-id="d840f-1108">Use the Load Planning Workbench to plan loads and shipments</span></span>                       | <span data-ttu-id="d840f-1109">Globālais</span><span class="sxs-lookup"><span data-stu-id="d840f-1109">Global</span></span>             |
 
- 
 
+ 
 ## <a name="task-guides-in-the-february-2016-getting-started-library"></a><span data-ttu-id="d840f-1110">Uzdevumu ceļveži (2016. gada februāra) darba sākšanas bibliotēkā</span><span class="sxs-lookup"><span data-stu-id="d840f-1110">Task guides in the (February 2016) Getting started library</span></span>
+
 |                                                    |                    |
 |----------------------------------------------------|--------------------|
 | <span data-ttu-id="d840f-1111">**BPM rinda**</span><span class="sxs-lookup"><span data-stu-id="d840f-1111">**BPM Line**</span></span>                                       | <span data-ttu-id="d840f-1112">**Valsts/reģions**</span><span class="sxs-lookup"><span data-stu-id="d840f-1112">**Country/Region**</span></span> |

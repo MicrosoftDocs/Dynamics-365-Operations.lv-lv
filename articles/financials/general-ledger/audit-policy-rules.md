@@ -19,17 +19,16 @@ ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 04217e162090720d2a48c96aa9356cea2dbfa230
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 273beb0acef51059b40f9842062ed4dbba770160
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="audit-policy-rules"></a><span data-ttu-id="5ef47-106">Audita ierobežojuma nosacījumi</span><span class="sxs-lookup"><span data-stu-id="5ef47-106">Audit policy rules</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="5ef47-107">Audita politiku var izmantot, lai novērtētu izdevumu pārskatus, kreditoru rēķinus un pirkšanas pasūtījumus, lai pārliecinātos, ka tie atbilst izveidotajiem politikas nosacījumiem.</span><span class="sxs-lookup"><span data-stu-id="5ef47-107">You can use audit policies to evaluate expense reports, vendor invoices, and purchase orders to make sure that they comply with policy rules that you create.</span></span> <span data-ttu-id="5ef47-108">Visi ar audita politiku saistītie nosacījumi tiek izpildīti pakešuzdevuma režīmā saskaņā ar norādīto grafiku.</span><span class="sxs-lookup"><span data-stu-id="5ef47-108">All of the rules that are associated with an audit policy are run in batch mode, according to a schedule that you specify.</span></span>  <span data-ttu-id="5ef47-109">Katras politikas nosacījums ir politikas nosacījumu veida instance.</span><span class="sxs-lookup"><span data-stu-id="5ef47-109">Each policy rule is an instance of a policy rule type.</span></span> <span data-ttu-id="5ef47-110">Katram politikas nosacījumu veidam vienlaikus var būt aktīvs tikai viens politikas nosacījums.</span><span class="sxs-lookup"><span data-stu-id="5ef47-110">For each policy rule type, only one policy rule can be active at a time.</span></span> 
 

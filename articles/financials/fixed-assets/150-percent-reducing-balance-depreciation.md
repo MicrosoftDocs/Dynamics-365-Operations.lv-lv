@@ -19,17 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b35b8ea652ccb06c45b8091cc7f57e849e1a5915
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 931c12278853d87e6fddbb166b56c6079d40b142
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="150-percent-reducing-balance-depreciation"></a><span data-ttu-id="a2775-103">150 procentu degresīvā nolietojuma aprēķināšanas metode</span><span class="sxs-lookup"><span data-stu-id="a2775-103">150 percent reducing balance depreciation</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a2775-104">Šajā rakstā ir sniegts pārskats par 150 procentu degresīvās nolietojuma aprēķināšanas metodi.</span><span class="sxs-lookup"><span data-stu-id="a2775-104">This article gives an overview of the 150 percent reducing balance method of depreciation.</span></span>
 
@@ -68,6 +67,7 @@ ms.lasthandoff: 11/03/2017
 -   <span data-ttu-id="a2775-135">**Finanšu periods** — grāmato finanšu gadam aprēķinātā nolietojuma kopsummu.</span><span class="sxs-lookup"><span data-stu-id="a2775-135">**Fiscal period** posts the total amount of the depreciation that is calculated for the fiscal year.</span></span> <span data-ttu-id="a2775-136">Šī summa tiek uzkrāta finanšu periodos, kas ir definēti lapā **Finanšu kalendāri**.</span><span class="sxs-lookup"><span data-stu-id="a2775-136">This amount is accrued into the fiscal periods that are defined on the **Fiscal calendars** page.</span></span>
 
 ## <a name="example-of-150-reducing-balance-depreciation"></a><span data-ttu-id="a2775-137">150% atlikumu bilances piemērs</span><span class="sxs-lookup"><span data-stu-id="a2775-137">Example of 150% reducing balance depreciation</span></span>
+
 |                                |        |
 |--------------------------------|--------|
 | <span data-ttu-id="a2775-138">Iegādes vērtība</span><span class="sxs-lookup"><span data-stu-id="a2775-138">Acquisition cost</span></span>               | <span data-ttu-id="a2775-139">11 000</span><span class="sxs-lookup"><span data-stu-id="a2775-139">11,000</span></span> |

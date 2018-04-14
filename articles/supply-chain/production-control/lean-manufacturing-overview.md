@@ -20,17 +20,16 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 99030966587a2784f61cecbfc7f9985f75f6d779
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0feb75e728517d24602025e3ceb12cb6ab1840f4
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="lean-manufacturing-overview"></a><span data-ttu-id="30180-103">Lean manufacturing apskats</span><span class="sxs-lookup"><span data-stu-id="30180-103">Lean manufacturing overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="30180-104">Šajā rakstā ir sniegts pārskats par Lean manufacturing līdzekļiem programmā Microsoft Dynamics 365 for Finance and Operations un to apraksts.</span><span class="sxs-lookup"><span data-stu-id="30180-104">This article provides an overview and description of the lean manufacturing features in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 
@@ -40,6 +39,7 @@ ms.lasthandoff: 03/26/2018
 -   <span data-ttu-id="30180-109">Pārraugiet un uzturiet Kanban darbus.</span><span class="sxs-lookup"><span data-stu-id="30180-109">Monitor and maintain kanban jobs.</span></span>
 
 <span data-ttu-id="30180-110">Lean manufacturing arhitektūra sistēmā Finance and Operations sastāv no ražošanas plūsmām, aktivitātēm un Kanban nosacījumiem.</span><span class="sxs-lookup"><span data-stu-id="30180-110">The lean manufacturing architecture in Finance and Operations consists of production flows, activities, and kanban rules.</span></span> <span data-ttu-id="30180-111">Šīs struktūras ir pilnīgi integrētas Finance and Operations procesos.</span><span class="sxs-lookup"><span data-stu-id="30180-111">These structures are fully integrated with Finance and Operations processes.</span></span> <span data-ttu-id="30180-112">Lean manufacturing varat izmantot jaukta režīma ražošanas vidē, kurā ir apvienotas dažādas piegādes, ražošanas un avotu izmantošanas stratēģijas.</span><span class="sxs-lookup"><span data-stu-id="30180-112">You can use lean manufacturing in a mixed-mode manufacturing environment that combines various supply, production, and sourcing strategies.</span></span> <span data-ttu-id="30180-113">Šīs stratēģijas iekļauj ražošanas pasūtījumus, partiju pasūtījumus apstrādes rūpniecības nozarēm, pirkšanas pasūtījumus un pārsūtīšanas pasūtījumus.</span><span class="sxs-lookup"><span data-stu-id="30180-113">These strategies include production orders, batch orders for process industries, purchase orders, and transfer orders.</span></span>
+
 | <span data-ttu-id="30180-114">**Svarīgi**</span><span class="sxs-lookup"><span data-stu-id="30180-114">**Important**</span></span>                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="30180-115">Sistēmu Finance and Operations varat izmantot, lai atbalstītu Lean manufacturing ieviešanu Kanban darbos.</span><span class="sxs-lookup"><span data-stu-id="30180-115">You can use Finance and Operations to support the implementation of lean manufacturing with kanbans.</span></span> <span data-ttu-id="30180-116">Taču sekmīga racionālo principu ieviešana ir atkarīga no jūsu izmantotajiem iekšējiem biznesa procesiem, kā arī no faktiskajiem ražošanas apstākļiem un vides.</span><span class="sxs-lookup"><span data-stu-id="30180-116">However, a successful implementation of lean principles depends on the internal business processes that you use, and the actual production conditions and environment.</span></span> |

@@ -18,17 +18,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4c499e31fb42a69dff6ac41faac0c78f7f4d1876
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7348706006dd5baec207ed8ef1d208b032a8e16a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a><span data-ttu-id="aea9a-104">Viens dokumenta ar vairākiem debitora vai kreditora ierakstiem</span><span class="sxs-lookup"><span data-stu-id="aea9a-104">Single voucher with multiple customer or vendor records</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="aea9a-105">Šajā tēmā ir sniegts pārskats par to, kas notiek, grāmatojot vienu dokumentu ar vairākiem debitora vai kreditora ierakstiem.</span><span class="sxs-lookup"><span data-stu-id="aea9a-105">This topic provides an overview of what happens when you post a single voucher with multiple customer or vendor records.</span></span> <span data-ttu-id="aea9a-106">Šī funkcionalitāte nebūs pieejama turpmākajās Microsoft Dynamics 365 for Finence and Operations versijās, tāpēc nav ieteicams izmantot šo grāmatošanas metodi, jo uzskaite ietekmē norēķinu apstrādi.</span><span class="sxs-lookup"><span data-stu-id="aea9a-106">This functionality will be discontinued in future versions of Microsoft Dynamics 365 for Finance and Operations, as a result, we do not recommend using this method of posting because of the accounting impact to settlement processing.</span></span> 
 
@@ -251,7 +250,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="aea9a-616">001</span><span class="sxs-lookup"><span data-stu-id="aea9a-616">001</span></span>         | <span data-ttu-id="aea9a-617">Debitors</span><span class="sxs-lookup"><span data-stu-id="aea9a-617">Customer</span></span>         | <span data-ttu-id="aea9a-618">US-008</span><span class="sxs-lookup"><span data-stu-id="aea9a-618">US-008</span></span>      |                 |           |  <span data-ttu-id="aea9a-619">75,00</span><span class="sxs-lookup"><span data-stu-id="aea9a-619">75.00</span></span>     | <span data-ttu-id="aea9a-620">Virsgrāmata</span><span class="sxs-lookup"><span data-stu-id="aea9a-620">Ledger</span></span>          | <span data-ttu-id="aea9a-621">999999---</span><span class="sxs-lookup"><span data-stu-id="aea9a-621">999999---</span></span>          |
 | <span data-ttu-id="aea9a-622">002</span><span class="sxs-lookup"><span data-stu-id="aea9a-622">002</span></span>         | <span data-ttu-id="aea9a-623">Kreditors</span><span class="sxs-lookup"><span data-stu-id="aea9a-623">Vendor</span></span>           | <span data-ttu-id="aea9a-624">1001</span><span class="sxs-lookup"><span data-stu-id="aea9a-624">1001</span></span>        |                 |  <span data-ttu-id="aea9a-625">75,00</span><span class="sxs-lookup"><span data-stu-id="aea9a-625">75.00</span></span>    |            | <span data-ttu-id="aea9a-626">Virsgrāmata</span><span class="sxs-lookup"><span data-stu-id="aea9a-626">Ledger</span></span>          | <span data-ttu-id="aea9a-627">999999---</span><span class="sxs-lookup"><span data-stu-id="aea9a-627">999999---</span></span>          |
 
- 
+
 
 
 

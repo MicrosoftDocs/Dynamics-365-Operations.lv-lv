@@ -18,15 +18,15 @@ ms.author: rschloma
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: b64a97897a1ea75eb2a9681bc9357433a570dd74
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 45383a32afe53f4005e329382ddc0fe511799477
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="attract-overview"></a><span data-ttu-id="42ef1-104">Attract pārskats</span><span class="sxs-lookup"><span data-stu-id="42ef1-104">Attract overview</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="42ef1-105">Programma Attract nodrošina iespējas jauno talantu nolīgšanas procesa pārvaldīšanai.</span><span class="sxs-lookup"><span data-stu-id="42ef1-105">Attract provides capabilities to manage the process of hiring new talent.</span></span> <span data-ttu-id="42ef1-106">Kandidātus var pievienot atvērtiem darbiem un pārcelt no viena posma uz citu, līdz piedāvājums tiek pagarināts vai pieteikums tiek noraidīts.</span><span class="sxs-lookup"><span data-stu-id="42ef1-106">Candidates can be added to open jobs and advanced from stage to stage until an offer is extended or the application is rejected.</span></span> <span data-ttu-id="42ef1-107">Katrā posmā kandidāti virzās caur tādām aktivitātēm kā izvērtēšanas zvani, novērtējumi vai interviju plānošana.</span><span class="sxs-lookup"><span data-stu-id="42ef1-107">In each stage, candidates move through activities like screening calls, assessments, or the scheduling of interviews.</span></span> <span data-ttu-id="42ef1-108">Pēc pieteikšanās kandidāti saņem e-pasta ziņojumu ar aicinājumu pierakstīties programmā Attract, kur viņi var sekot līdzi darba statusam, savam pieteikumam, un atbildēt uz visiem viņiem piešķirtajiem uzdevumiem.</span><span class="sxs-lookup"><span data-stu-id="42ef1-108">After they apply, candidates get an email inviting them to sign in to Attract, where they can follow the status of the job, their application, and respond to any tasks that are assigned to them.</span></span>
 

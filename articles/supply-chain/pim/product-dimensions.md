@@ -20,19 +20,18 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 9cb4bded4b8d841c6d164e6b8ded2cb3fb4d0978
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9ba0c5d44d58faac47b6a44265431a48c49874df
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="product-dimensions"></a><span data-ttu-id="9af3e-105">Preces dimensijas</span><span class="sxs-lookup"><span data-stu-id="9af3e-105">Product dimensions</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[Retail name](../includes/retail-name.md)]
-
+[!INCLUDE [Retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="9af3e-106">Pastāv četras preču dimensijas: Krāsa, Konfigurācija, Izmērs un Stils.</span><span class="sxs-lookup"><span data-stu-id="9af3e-106">There are four product dimensions -  Color, Configuration, Size and Style.</span></span> <span data-ttu-id="9af3e-107">Preču dimensijas var apvienot dimensiju grupās, un dimensiju grupas var piešķirt preču šabloniem.</span><span class="sxs-lookup"><span data-stu-id="9af3e-107">You combine product dimensions in dimension groups and assign dimension groups to product masters.</span></span> <span data-ttu-id="9af3e-108">Preču dimensiju kombinācijas nosaka, kā tiek definēti preču varianti.</span><span class="sxs-lookup"><span data-stu-id="9af3e-108">The combinations of product dimensions determine how product variants are defined.</span></span>
 
@@ -51,6 +50,7 @@ ms.lasthandoff: 02/07/2018
 -   <span data-ttu-id="9af3e-129">Noklikšķiniet uz **Preču informācijas pārvaldība** &gt; **Izlaistās preces**.</span><span class="sxs-lookup"><span data-stu-id="9af3e-129">Click **Product information management** &gt; **Released products**.</span></span> <span data-ttu-id="9af3e-130">Atlasiet preces šablonu.</span><span class="sxs-lookup"><span data-stu-id="9af3e-130">Select a product master.</span></span> <span data-ttu-id="9af3e-131">**Darbību rūtī** noklikšķiniet uz**Prece**.</span><span class="sxs-lookup"><span data-stu-id="9af3e-131">On the **Action Pane**, click **Product**.</span></span> <span data-ttu-id="9af3e-132">Grupā **Preces šablons** noklikšķiniet uz **Preces dimensijas**.</span><span class="sxs-lookup"><span data-stu-id="9af3e-132">In the **Product master** group, click **Product dimensions**.</span></span>
 
 <span data-ttu-id="9af3e-133">Krājumam izveidojamo variantu skaitu ierobežo iespējamo preču dimensiju kombināciju skaits.</span><span class="sxs-lookup"><span data-stu-id="9af3e-133">The number of variants that you can create for an item is limited by the number of possible product dimension combinations.</span></span>
+
 | <span data-ttu-id="9af3e-134">**Padoms**</span><span class="sxs-lookup"><span data-stu-id="9af3e-134">**Tip**</span></span>                                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="9af3e-135">Ja izmantojat preci, piemēram, pasūtījuma rindā, izvēlieties preču dimensijas, lai norādītu preces variantu, ar ko vēlaties strādāt.</span><span class="sxs-lookup"><span data-stu-id="9af3e-135">When you use a product on, for example, an order line, you select the product dimensions to identify the product variant that you want to work with.</span></span> |

@@ -17,15 +17,15 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
-ms.openlocfilehash: c5faf926071dec5d2ddc1c9e921a98ecd0754917
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 734034776e1adb42ee5f131e91b6fd7d28f811ab
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-containerization"></a><span data-ttu-id="42ebc-103">Konteinerizēšanas iestatīšana</span><span class="sxs-lookup"><span data-stu-id="42ebc-103">Set up containerization</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="42ebc-104">Šajā procedūrā ir aprakstīts, kā automatizēt kravu konteinerizēšanu sadaļā Noliktavas vadība.</span><span class="sxs-lookup"><span data-stu-id="42ebc-104">This procedure describes how to automate the containerization of loads in Warehouse management.</span></span> <span data-ttu-id="42ebc-105">Automatizētā konteinerizēšanas izveido konteinerus un izdošanas darbu kravām, kad kopums ir apstrādāts un darba rindas var sadalīt daudzumos, kas atbilst konteineriem.</span><span class="sxs-lookup"><span data-stu-id="42ebc-105">Automated containerization creates containers and the picking work for shipments when a wave is processed and work lines can be split into quantities that fit the containers.</span></span> <span data-ttu-id="42ebc-106">Tas palīdz noliktavas darbiniekiem izdot krājumus tieši uz izvēlēto konteineru.</span><span class="sxs-lookup"><span data-stu-id="42ebc-106">This helps warehouse workers to pick the items directly into the chosen container.</span></span> <span data-ttu-id="42ebc-107">Salīdzinot ar manuālo iepakošanas procesu, uzdevumus, piemēram, konteinera izveide, krājumu piešķiršana vai konteineru slēgšana automatizē sistēma.</span><span class="sxs-lookup"><span data-stu-id="42ebc-107">Compared to the manual packing process, tasks such as creating containers, assigning items, and closing containers are automated by the system.</span></span> <span data-ttu-id="42ebc-108">Šī procedūra izmanto USMF demonstrācijas uzņēmumu, un to veic noliktavas pārvaldnieks.</span><span class="sxs-lookup"><span data-stu-id="42ebc-108">This procedure uses the USMF demo company and is performed by a Warehouse manager.</span></span>
 

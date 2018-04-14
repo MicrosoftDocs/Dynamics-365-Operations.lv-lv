@@ -18,16 +18,16 @@ ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
-ms.openlocfilehash: a55af4c26d74cc392d3c53aacb66e0a8bc97abf2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 483bb63f9fe9d88c8d5f3a6c46b372f344f90cdd
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="show-order-notifications-in-the-point-of-sale"></a><span data-ttu-id="6bc89-104">Pasūtījumu paziņojumu parādīšana pārdošanas punktā</span><span class="sxs-lookup"><span data-stu-id="6bc89-104">Show order notifications in the point of sale</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="6bc89-105">Modernajā mazumtirdzniecības vidē veikala darbiniekiem tiek piešķirti dažādi uzdevumi, piemēram, palīdzēšana klientiem, transakciju ievadīšana, krājumu uzskaites veikšana un pasūtījumu pieņemšana veikalā.</span><span class="sxs-lookup"><span data-stu-id="6bc89-105">In the modern retail environment, store associates are assigned various tasks, such as helping customers, entering transactions, doing stock counts, and receiving orders in the store.</span></span> <span data-ttu-id="6bc89-106">Pārdošanas punkta (POS) klients nodrošina vienu programmu, kur veikala darbinieki vat izpildīt visus šos un vēl daudzus citus uzdevumus.</span><span class="sxs-lookup"><span data-stu-id="6bc89-106">The point of sale (POS) client provides a single application where associates can perform all these tasks and many others.</span></span> <span data-ttu-id="6bc89-107">Tā kā dienas laikā ir jāizpilda dažādi uzdevumi, veikala darbinieki, iespējams, ir jāinformē par lietām, kurām šiem darbiniekiem būtu jāpievērš uzmanība.</span><span class="sxs-lookup"><span data-stu-id="6bc89-107">Because various tasks must be performed during the day, associates might have to be notified when something requires their attention.</span></span> <span data-ttu-id="6bc89-108">Paziņojumu struktūra programmā POS atrisina šo problēmu, ļaujot mazumtirgotājiem konfigurēt paziņojumus atkarībā no lomām.</span><span class="sxs-lookup"><span data-stu-id="6bc89-108">The notification framework in the POS helps by letting retailers configure role-based notifications.</span></span> <span data-ttu-id="6bc89-109">Izmantojot Microsoft Dynamics 365 for Retail programmas 5. atjauninājumu, šos paziņojumus var konfigurēt tikai POS operācijām.</span><span class="sxs-lookup"><span data-stu-id="6bc89-109">In Microsoft Dynamics 365 for Retail with application update 5, these notifications can be configured only for POS operations.</span></span>
 

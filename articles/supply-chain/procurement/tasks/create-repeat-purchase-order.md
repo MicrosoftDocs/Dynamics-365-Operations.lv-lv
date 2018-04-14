@@ -16,15 +16,15 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 257582d889ff55753f9bdbd234f0540503d20f27
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b7f93d991730872c0d50a23d27236be5a057f75b
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-repeat-purchase-order"></a><span data-ttu-id="07fed-103">Atkārtota pirkšanas pasūtījuma izveide</span><span class="sxs-lookup"><span data-stu-id="07fed-103">Create a repeat purchase order</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="07fed-104">Šajā procedūrā ir parādīts, kā izveidot atkārtotu pirkšanas pasūtījumu (PP), rindas no iepriekšēja pirkšanas pasūtījuma dokumenta kopējot uz jaunu PP vai uz esošu PP.</span><span class="sxs-lookup"><span data-stu-id="07fed-104">This procedure shows you how to create a repeat purchase order (PO) by copying lines from an earlier purchase order document to a new PO or to an existing PO.</span></span> <span data-ttu-id="07fed-105">Atkārtotu pasūtījumu izveidošanai pastāv divas metodes.</span><span class="sxs-lookup"><span data-stu-id="07fed-105">There are two methods for creating repeat orders.</span></span> <span data-ttu-id="07fed-106">Varat izmantot darbības, kas no darbību rūts ir pieejamas dokumenta līmenī, vai varat izmantot rindas detaļu darbības.</span><span class="sxs-lookup"><span data-stu-id="07fed-106">You can use the actions available at the document level from the Action Pane, or you can use the line detail actions.</span></span> <span data-ttu-id="07fed-107">Dokumenta līmeņa darbības galvenokārt ir paredzētas jaunu pirkšanas pasūtījumu izveidošanai, pievienojot rindas un virsraksta informāciju no cita pasūtījuma, kamēr rindas detaļu darbība galvenokārt ir paredzēta rindu pievienošanai jau esošam pasūtījumam.</span><span class="sxs-lookup"><span data-stu-id="07fed-107">The document level actions are mainly intended for creating a new purchase order by adding lines and header information from another order, while the line details action is mainly for adding lines to an existing order.</span></span> <span data-ttu-id="07fed-108">Šajā ceļvedī rādīto piemēru var izmantot demonstrācijas datus uzņēmumā USMF.</span><span class="sxs-lookup"><span data-stu-id="07fed-108">The example shown in this guide can be used in the USMF demo data company.</span></span> <span data-ttu-id="07fed-109">Šo uzdevumu parasti veic pirkšanas aģents.</span><span class="sxs-lookup"><span data-stu-id="07fed-109">This task would typically be carried out by a purchasing agent.</span></span>
 

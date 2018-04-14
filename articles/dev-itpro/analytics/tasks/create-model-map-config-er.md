@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: f7206126bfa6150078f1bfb4f7e07c1cf2819ce0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a6bfea86ee0d299c634783d869e4828bcf3a9d38
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-model-mapping-configuration-er"></a><span data-ttu-id="a6cf5-103">Modeļa kartējuma konfigurācijas izveide (ER)</span><span class="sxs-lookup"><span data-stu-id="a6cf5-103">Create a model mapping configuration (ER)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a6cf5-104">Izmantojiet šo procedūru, lai izveidotu jaunu elektronisko pārskatu veidošanas (ER) modeļa kartējuma konfigurāciju un izmantotu iebūvētās ER funkcijas, lai nodrošinātu apkopoto aprēķinu efektivitāti.</span><span class="sxs-lookup"><span data-stu-id="a6cf5-104">Use this procedure to design a new Electronic reporting (ER) model mapping configuration and use built-in ER functions for efficient aggregate calculations.</span></span> <span data-ttu-id="a6cf5-105">Šajā procedūrā izveidosit konfigurāciju parauga uzņēmumam Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="a6cf5-105">In this procedure, you will create a configuration for sample company, Litware, Inc.</span></span> 
 

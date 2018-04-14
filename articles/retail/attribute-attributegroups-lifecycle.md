@@ -19,16 +19,16 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 53af4335146be6c163a6d84b60155e1a741c0be4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ad524e8d585da2140f3cdae17e3a1a2832ada3f0
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="attributes-attribute-groups-and-their-associations-with-various-retail-entities-in-finance-and-operations"></a><span data-ttu-id="6269c-102">Atribūti, atribūtu grupas un to saistības ar dažādiem Retail elementiem programmatūrā Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="6269c-102">Attributes, attribute groups, and their associations with various Retail entities in Finance and Operations</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="6269c-103">*Atribūti* nodrošina veidu, kā tālāk aprakstīt preci un tās raksturīgās iezīmes, izmantojot lietotāja definētos laukus (piemēram, **Atmiņas lielums**, **Cietā diska apjoms**, **Ir saderīgs ar Energy Star** un tā tālāk).</span><span class="sxs-lookup"><span data-stu-id="6269c-103">*Attributes* provide a way to further describe a product and its characteristics through user-defined fields (such as **Memory size**, **Hard disk capacity**, **Is Energy star compliant**, and so on).</span></span> <span data-ttu-id="6269c-104">Programmā Microsoft Dynamics 365 for Finance and Operations atribūtus var saistīt ar dažādām mazumtirdzniecības personām, piemēram, preču kategorijām un mazumtirdzniecības kanāliem, un tiem var iestatīt noklusējuma vērtības.</span><span class="sxs-lookup"><span data-stu-id="6269c-104">In Microsoft Dynamics 365 for Finance and Operations, attributes can be associated with various Retail entities, such as product categories and retail channels, and default values can be set for them.</span></span> <span data-ttu-id="6269c-105">Ja preces ir saistītas ar preču kategorijām vai mazumtirdzniecības kanāliem, tās pārmanto atribūtus un noklusējuma vērtības.</span><span class="sxs-lookup"><span data-stu-id="6269c-105">Products then inherit the attributes and the default values when they are associated with the product categories or retail channels.</span></span> <span data-ttu-id="6269c-106">Noklusējuma vērtības var būt ignorētas individuālas preces līmenī, mazumtirdzniecības kanāla līmenī vai mazumtirdzniecības katalogā.</span><span class="sxs-lookup"><span data-stu-id="6269c-106">The default values can be overridden at the individual product level, at the retail channel level, or in a retail catalog.</span></span>
  
@@ -227,13 +227,13 @@ ms.lasthandoff: 03/26/2018
 5. <span data-ttu-id="6269c-307">Kopsavilkuma cilnē **Preces** atlasiet vajadzīgo preci un pēc tam atlasiet **Atribūti** virs preču režģa.</span><span class="sxs-lookup"><span data-stu-id="6269c-307">On the **Products** FastTab, select the required product, and then select **Attributes** above the product grid.</span></span>
 6. <span data-ttu-id="6269c-308">Tālāk minētajās kopsavilkuma cilnēs atjauniniet nepieciešamo atribūtu vērtības.</span><span class="sxs-lookup"><span data-stu-id="6269c-308">On the following FastTabs, update the values of the required attributes:</span></span>
 
-    - <span data-ttu-id="6269c-309">Koplietotie preces plašsaziņas līdzekļi</span><span class="sxs-lookup"><span data-stu-id="6269c-309">Shared product media</span></span>
-    - <span data-ttu-id="6269c-310">Koplietotās preces īpašības</span><span class="sxs-lookup"><span data-stu-id="6269c-310">Shared product attributes</span></span>
-    - <span data-ttu-id="6269c-311">Kanāla plašsaziņas līdzekļi</span><span class="sxs-lookup"><span data-stu-id="6269c-311">Channel media</span></span>
-    - <span data-ttu-id="6269c-312">Kanāla preces īpašības</span><span class="sxs-lookup"><span data-stu-id="6269c-312">Channel product attributes</span></span>
+   - <span data-ttu-id="6269c-309">Koplietotie preces plašsaziņas līdzekļi</span><span class="sxs-lookup"><span data-stu-id="6269c-309">Shared product media</span></span>
+   - <span data-ttu-id="6269c-310">Koplietotās preces īpašības</span><span class="sxs-lookup"><span data-stu-id="6269c-310">Shared product attributes</span></span>
+   - <span data-ttu-id="6269c-311">Kanāla plašsaziņas līdzekļi</span><span class="sxs-lookup"><span data-stu-id="6269c-311">Channel media</span></span>
+   - <span data-ttu-id="6269c-312">Kanāla preces īpašības</span><span class="sxs-lookup"><span data-stu-id="6269c-312">Channel product attributes</span></span>
 
-    > [!NOTE]
-    > <span data-ttu-id="6269c-313">Ja Finance and Operations tiek izveidots koplietots preces datu nesējs un koplietotas preces īpašības, tie tiek lietoti visām mazumtirdzniecības precēm.</span><span class="sxs-lookup"><span data-stu-id="6269c-313">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
+     > [!NOTE]
+     > <span data-ttu-id="6269c-313">Ja Finance and Operations tiek izveidots koplietots preces datu nesējs un koplietotas preces īpašības, tie tiek lietoti visām mazumtirdzniecības precēm.</span><span class="sxs-lookup"><span data-stu-id="6269c-313">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
 
 ![Kataloga preču īpašību grupas](media/CatalogProdAttrValues.png)
 
@@ -249,11 +249,11 @@ ms.lasthandoff: 03/26/2018
 
 5. <span data-ttu-id="6269c-321">Tālāk minētajās kopsavilkuma cilnēs atjauniniet nepieciešamo atribūtu vērtības.</span><span class="sxs-lookup"><span data-stu-id="6269c-321">On the following FastTabs, update the values of the required attributes:</span></span>
 
-    - <span data-ttu-id="6269c-322">Koplietotie preces plašsaziņas līdzekļi</span><span class="sxs-lookup"><span data-stu-id="6269c-322">Shared product media</span></span>
-    - <span data-ttu-id="6269c-323">Koplietotās preces īpašības</span><span class="sxs-lookup"><span data-stu-id="6269c-323">Shared product attributes</span></span>
-    - <span data-ttu-id="6269c-324">Kanāla plašsaziņas līdzekļi</span><span class="sxs-lookup"><span data-stu-id="6269c-324">Channel media</span></span>
-    - <span data-ttu-id="6269c-325">Kanāla preces īpašības</span><span class="sxs-lookup"><span data-stu-id="6269c-325">Channel product attributes</span></span>
+   - <span data-ttu-id="6269c-322">Koplietotie preces plašsaziņas līdzekļi</span><span class="sxs-lookup"><span data-stu-id="6269c-322">Shared product media</span></span>
+   - <span data-ttu-id="6269c-323">Koplietotās preces īpašības</span><span class="sxs-lookup"><span data-stu-id="6269c-323">Shared product attributes</span></span>
+   - <span data-ttu-id="6269c-324">Kanāla plašsaziņas līdzekļi</span><span class="sxs-lookup"><span data-stu-id="6269c-324">Channel media</span></span>
+   - <span data-ttu-id="6269c-325">Kanāla preces īpašības</span><span class="sxs-lookup"><span data-stu-id="6269c-325">Channel product attributes</span></span>
 
-    > [!NOTE]
-    > <span data-ttu-id="6269c-326">Ja Finance and Operations tiek izveidots koplietots preces datu nesējs un koplietotas preces īpašības, tie tiek lietoti visām mazumtirdzniecības precēm.</span><span class="sxs-lookup"><span data-stu-id="6269c-326">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
+     > [!NOTE]
+     > <span data-ttu-id="6269c-326">Ja Finance and Operations tiek izveidots koplietots preces datu nesējs un koplietotas preces īpašības, tie tiek lietoti visām mazumtirdzniecības precēm.</span><span class="sxs-lookup"><span data-stu-id="6269c-326">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
 

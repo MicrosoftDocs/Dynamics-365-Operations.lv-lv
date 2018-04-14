@@ -20,17 +20,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: e7c815cc5b660b505cb06560efc3e7501645c350
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ec804559d6514b4443bd295ec9d9b8b192f45ec0
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-rfm-analysis"></a><span data-ttu-id="d30fd-103">RFM analīzes iestatīšana</span><span class="sxs-lookup"><span data-stu-id="d30fd-103">Set up RFM analysis</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="d30fd-104">Šajā tēmā skaidrots, kā iestatīt nesenības, biežuma un naudas (RFM) analīzi jūsu debitoriem.</span><span class="sxs-lookup"><span data-stu-id="d30fd-104">This topic explains how to set up a Recency, Frequency, and Monetary (RFM) analysis of your customers.</span></span>
 
@@ -60,25 +59,25 @@ ms.lasthandoff: 01/17/2018
     - <span data-ttu-id="d30fd-126">Ja katrai RFM rezultāta sadaļai ir jāietver vienāds debitoru skaits, atzīmējiet izvēles rūtiņu **Vienmērīga sadale**.</span><span class="sxs-lookup"><span data-stu-id="d30fd-126">If each section of the RFM score must contain an equal count of customers, select the **Even distribution** check box.</span></span> 
     - <span data-ttu-id="d30fd-127">Atzīmējiet izvēles rūtiņu **Saskaitīt rezultātus**, lai sasummētu visus trīs rezultātus.</span><span class="sxs-lookup"><span data-stu-id="d30fd-127">Select the **Add scores** check box to aggregate the three scores.</span></span> <span data-ttu-id="d30fd-128">Šādi debitoram tiktu piešķirts RFM rezultāts, piemēram, 13, nevis 535.</span><span class="sxs-lookup"><span data-stu-id="d30fd-128">For example, this would give a customer an RFM score of 13 instead of 535.</span></span> 
     - <span data-ttu-id="d30fd-129">Atzīmējiet izvēles rūtiņu **Saglabāt vēsturi**, lai pieprasītu sistēmai saglabāt debitoru statistiskos datus un šos datus varētu izmantot RFM rezultāta aprēķināšanai.</span><span class="sxs-lookup"><span data-stu-id="d30fd-129">Select the **Save history** check box to require the system to save the statistical data for customers so that the data can be used to calculate the RFM score.</span></span>
-  
+
 5.  <span data-ttu-id="d30fd-130">Kopsavilkuma cilnē **Nesenība** izpildiet tālāk aprakstītos norādījumus.</span><span class="sxs-lookup"><span data-stu-id="d30fd-130">On the **Recency** FastTab, do the following:</span></span> 
     - <span data-ttu-id="d30fd-131">Laukā **Nodaļas** ievadiet nodaļu vai grupu skaitu, kas tiks izmantots debitoru nesenības rezultāta aprēķināšanai.</span><span class="sxs-lookup"><span data-stu-id="d30fd-131">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the recency score for customers.</span></span> <span data-ttu-id="d30fd-132">Piemēram, ja jums ir 100 debitori, sadalījums 5 nodaļās, ka katram rezultātam ir 20 debitori.</span><span class="sxs-lookup"><span data-stu-id="d30fd-132">For example, if you have 100 customers, a division of 5 means that there are 20 customers for each score.</span></span> <span data-ttu-id="d30fd-133">Tiem 20 debitoriem, kuri pirkumus veica pēdējie, nesenības rezultāts ir 5.</span><span class="sxs-lookup"><span data-stu-id="d30fd-133">The 20 customers who have made purchases most recently have a recency score of 5.</span></span> <span data-ttu-id="d30fd-134">Nākamajiem 20 debitoriem nesenības rezultāts ir 4 un tā tālāk.</span><span class="sxs-lookup"><span data-stu-id="d30fd-134">The next 20 customers have a recency score of 4, and so on.</span></span> <span data-ttu-id="d30fd-135">Ja jums ir 50 debitori, 10 debitoriem nesenības rezultāts ir 5, un 10 debitoriem nesenības rezultāts ir 4 un tā tālāk.</span><span class="sxs-lookup"><span data-stu-id="d30fd-135">If you have 50 customers, 10 customers have a recency score of 5, 10 have a recency score of 4, and so on.</span></span> 
     - <span data-ttu-id="d30fd-136">Laukā **Prioritāte** atlasiet, cik lielu svaru vēlaties piešķirt nesenības parametram salīdzinājumā ar pārējiem parametriem, aprēķinot debitora RFM rezultātu.</span><span class="sxs-lookup"><span data-stu-id="d30fd-136">In the **Priority** field, select how much weight to give the recency parameter in relation to the other parameters when the RFM score is calculated for a customer.</span></span> <span data-ttu-id="d30fd-137">Piemēram, varat piešķirt lielāku nozīmi nesenības rezultātam nekā naudas rezultātam.</span><span class="sxs-lookup"><span data-stu-id="d30fd-137">For example, you might place more value on the recency score than the monetary score.</span></span> 
     - <span data-ttu-id="d30fd-138">Laukā **Reizinātājs** ievadiet vērtību, ar kuru reizināt nesenības rezultātu.</span><span class="sxs-lookup"><span data-stu-id="d30fd-138">In the **Multiplier** field, enter the value by which to multiply the recency score.</span></span> <span data-ttu-id="d30fd-139">Ja neievadāt vērtību, rezultāts netiks reizināts.</span><span class="sxs-lookup"><span data-stu-id="d30fd-139">If you do not enter a value, the score will not be multiplied.</span></span> 
     - <span data-ttu-id="d30fd-140">Lauka **Periods** atlasiet laika periodu, pēc kura tiek aprēķināts nesenības rezultāts.</span><span class="sxs-lookup"><span data-stu-id="d30fd-140">In the **Period** field, select the time period by which the recency score is calculated.</span></span> <span data-ttu-id="d30fd-141">Piemēram, pa nedēļām vai mēnešiem.</span><span class="sxs-lookup"><span data-stu-id="d30fd-141">For example, by week or by month.</span></span>
-   
+
 6.  <span data-ttu-id="d30fd-142">Kopsavilkuma cilnē **Biežums** izpildiet tālāk aprakstītos norādījumus.</span><span class="sxs-lookup"><span data-stu-id="d30fd-142">On the **Frequency** FastTab, do the following:</span></span> 
     - <span data-ttu-id="d30fd-143">Laukā **Nodaļas** ievadiet nodaļu vai grupu skaitu, kas tiks izmantots debitoru biežuma rezultāta aprēķināšanai.</span><span class="sxs-lookup"><span data-stu-id="d30fd-143">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the frequency score for customers.</span></span> 
     - <span data-ttu-id="d30fd-144">Laukā **Prioritāte** atlasiet, cik lielu svaru vēlaties piešķirt biežuma parametram salīdzinājuma ar pārējiem parametriem, aprēķinot debitora RFM rezultātu.</span><span class="sxs-lookup"><span data-stu-id="d30fd-144">In the **Priority** field, select how much weight to give the frequency parameter in relation to the others when the RFM score is calculated for a customer.</span></span> 
     - <span data-ttu-id="d30fd-145">Laukā **Reizinātājs** ievadiet vērtību, ar kuru reizināt biežuma rezultātu.</span><span class="sxs-lookup"><span data-stu-id="d30fd-145">In the **Multiplier** field, enter the value by which to multiply the frequency score.</span></span> <span data-ttu-id="d30fd-146">Ja neievadāt vērtību, rezultāts netiks reizināts.</span><span class="sxs-lookup"><span data-stu-id="d30fd-146">If you do not enter a value, the score will not be multiplied.</span></span>
-   
+
 7.  <span data-ttu-id="d30fd-147">Kopsavilkuma cilnē **Monetārs** izpildiet tālāk aprakstītos norādījumus.</span><span class="sxs-lookup"><span data-stu-id="d30fd-147">On the **Monetary** FastTab, do the following:</span></span> 
     - <span data-ttu-id="d30fd-148">Laukā **Nodaļas** ievadiet nodaļu vai grupu skaitu, kas tiks izmantots debitoru monetārā rezultāta aprēķināšanai.</span><span class="sxs-lookup"><span data-stu-id="d30fd-148">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the monetary score for customers.</span></span> 
     - <span data-ttu-id="d30fd-149">Laukā **Prioritāte** atlasiet, cik lielu svaru vēlaties piešķirt monetārajam parametram salīdzinājuma ar pārējiem parametriem, aprēķinot debitora RFM rezultātu.</span><span class="sxs-lookup"><span data-stu-id="d30fd-149">In the **Priority** field, select how much weight to give the monetary parameter in relation to the others when the RFM score is calculated for a customer.</span></span> 
     - <span data-ttu-id="d30fd-150">Laukā **Reizinātājs** ievadiet vērtību, ar kuru reizināt monetāro rezultātu.</span><span class="sxs-lookup"><span data-stu-id="d30fd-150">In the **Multiplier** field, enter the value by which to multiply the monetary score.</span></span> <span data-ttu-id="d30fd-151">Ja neievadāt vērtību, rezultāts netiks reizināts.</span><span class="sxs-lookup"><span data-stu-id="d30fd-151">If you do not enter a value, the score will not be multiplied.</span></span> 
     - <span data-ttu-id="d30fd-152">Laukā **Bruto/neto** izvēlieties, vai, aprēķinot debitora monetāro rezultātu, ir jāizmanto rēķinā norādītā bruto vai neto summa.</span><span class="sxs-lookup"><span data-stu-id="d30fd-152">In the **Gross/net** field, select whether the customer’s monetary score should be calculated by using the gross or net invoice amount.</span></span> 
     - <span data-ttu-id="d30fd-153">Ja debitora atgriešanas summas ir jāatņem no debitora rēķina kopējā aprēķina, atzīmējiet izvēles rūtiņu **Atņemt atgriešanas vērtību**.</span><span class="sxs-lookup"><span data-stu-id="d30fd-153">If a customer’s return amounts should be subtracted from the customer’s total invoice calculation, select the **Subtract returns** check box.</span></span> 
- 
+
 ## <a name="view-a-customers-rfm-score"></a><span data-ttu-id="d30fd-154">Debitora RFM rādītāja skatīšana</span><span class="sxs-lookup"><span data-stu-id="d30fd-154">View a customer’s RFM score</span></span>
 <span data-ttu-id="d30fd-155">Lai skatītu klienta RFM rādītāju, izmantojiet tālāk aprakstīto procedūru.</span><span class="sxs-lookup"><span data-stu-id="d30fd-155">Use this procedure to view a customer’s RFM score.</span></span> 
 

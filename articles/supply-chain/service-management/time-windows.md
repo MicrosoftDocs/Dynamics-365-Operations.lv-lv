@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 4ea10e4c0fbfd21538bba16d2b01deb3e4b3a10d
-ms.openlocfilehash: b7268870aa9065e4e52d936e819107094bad3663
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9b215e1645c0f0f60437dc363530e2af3d262c4e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/20/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="time-windows"></a><span data-ttu-id="fd0b2-103">Laika logi</span><span class="sxs-lookup"><span data-stu-id="fd0b2-103">Time windows</span></span>  
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="fd0b2-104">Laika logus varat izmantot, lai optimizētu pakalpojuma pasūtījumu rindu plānošanas.</span><span class="sxs-lookup"><span data-stu-id="fd0b2-104">You can use time windows to optimize the scheduling of service order lines.</span></span> <span data-ttu-id="fd0b2-105">Sistēmu var iestatīt tā, lai tajā automātiski tiktu izveidoti pakalpojumu pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="fd0b2-105">You can set up the system so that it automatically creates service orders.</span></span> <span data-ttu-id="fd0b2-106">Pamatojoties uz laika loga norādītajiem kritērijiem, vēlamo skaitu pakalpojumu pasūtījumu rindu varat savienot ar vēlamo skaitu pakalpojumu pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="fd0b2-106">Based on the criteria specified by a time window, you can connect as many service order lines as possible to as few service orders as possible.</span></span>
 

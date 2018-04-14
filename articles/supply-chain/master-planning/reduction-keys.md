@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 506ca3aac7ad271ca7472f3b74627e94d97a74ee
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6ca65d3c12abd64bef23954b45f73af1bf62f9f3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="reduction-keys"></a><span data-ttu-id="dc3ec-105">Samazināšanas principi</span><span class="sxs-lookup"><span data-stu-id="dc3ec-105">Reduction keys</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="dc3ec-106">Šajā rakstā ir sniegti piemēri, kas izskaidro, kā iestatīt samazināšanas principu.</span><span class="sxs-lookup"><span data-stu-id="dc3ec-106">This articles provides examples that show how to set up a reduction key.</span></span> <span data-ttu-id="dc3ec-107">Šeit iekļauta informācija par dažādiem samazināšanas principa iestatījumiem un to visu rezultātiem.</span><span class="sxs-lookup"><span data-stu-id="dc3ec-107">It includes information about the various reduction key settings and the results of each.</span></span> <span data-ttu-id="dc3ec-108">Samazināšanas principu var izmantot, lai noteiktu, kā samazināt budžeta vajadzības.</span><span class="sxs-lookup"><span data-stu-id="dc3ec-108">You can use a reduction key to define how to reduce forecast requirements.</span></span>
 
@@ -39,17 +38,19 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="dc3ec-110">Šis piemērs parāda, kā samazināšanas princips samazina pieprasījuma apjoma prognozes prasības atbilstoši samazināšanas principa noteiktajiem procentiem un laika periodiem.</span><span class="sxs-lookup"><span data-stu-id="dc3ec-110">This example shows how a reduction key reduces demand forecast requirements according to the percentages and periods that are defined by the reduction key.</span></span>
 
-1.  <span data-ttu-id="dc3ec-111">Lapā **Samazināšanas principi** iestatiet šādas rindas.</span><span class="sxs-lookup"><span data-stu-id="dc3ec-111">On the **Reduction keys** page, set up the following lines.</span></span>
-    | <span data-ttu-id="dc3ec-112">Izdodamais atlikums</span><span class="sxs-lookup"><span data-stu-id="dc3ec-112">Change</span></span> | <span data-ttu-id="dc3ec-113">Vienība</span><span class="sxs-lookup"><span data-stu-id="dc3ec-113">Unit</span></span>  | <span data-ttu-id="dc3ec-114">Procenti</span><span class="sxs-lookup"><span data-stu-id="dc3ec-114">Percent</span></span> |
-    |--------|-------|---------|
-    | <span data-ttu-id="dc3ec-115">1</span><span class="sxs-lookup"><span data-stu-id="dc3ec-115">1</span></span>      | <span data-ttu-id="dc3ec-116">Mēnesis</span><span class="sxs-lookup"><span data-stu-id="dc3ec-116">Month</span></span> | <span data-ttu-id="dc3ec-117">100</span><span class="sxs-lookup"><span data-stu-id="dc3ec-117">100</span></span>     |
-    | <span data-ttu-id="dc3ec-118">2</span><span class="sxs-lookup"><span data-stu-id="dc3ec-118">2</span></span>      | <span data-ttu-id="dc3ec-119">Mēnesis</span><span class="sxs-lookup"><span data-stu-id="dc3ec-119">Month</span></span> | <span data-ttu-id="dc3ec-120">75</span><span class="sxs-lookup"><span data-stu-id="dc3ec-120">75</span></span>      |
-    | <span data-ttu-id="dc3ec-121">3</span><span class="sxs-lookup"><span data-stu-id="dc3ec-121">3</span></span>      | <span data-ttu-id="dc3ec-122">Mēnesis</span><span class="sxs-lookup"><span data-stu-id="dc3ec-122">Month</span></span> | <span data-ttu-id="dc3ec-123">50</span><span class="sxs-lookup"><span data-stu-id="dc3ec-123">50</span></span>      |
-    | <span data-ttu-id="dc3ec-124">4.</span><span class="sxs-lookup"><span data-stu-id="dc3ec-124">4</span></span>      | <span data-ttu-id="dc3ec-125">Mēnesis</span><span class="sxs-lookup"><span data-stu-id="dc3ec-125">Month</span></span> | <span data-ttu-id="dc3ec-126">25</span><span class="sxs-lookup"><span data-stu-id="dc3ec-126">25</span></span>      |
+1. <span data-ttu-id="dc3ec-111">Lapā **Samazināšanas principi** iestatiet šādas rindas.</span><span class="sxs-lookup"><span data-stu-id="dc3ec-111">On the **Reduction keys** page, set up the following lines.</span></span>
 
-2.  <span data-ttu-id="dc3ec-127">Piesaistiet samazināšanas principu krājuma vajadzību grupai.</span><span class="sxs-lookup"><span data-stu-id="dc3ec-127">Link the reduction key to the item's coverage group.</span></span>
-3.  <span data-ttu-id="dc3ec-128">Lapas **Vispārējie plāni** laukā **Samazināšanas princips** atlasiet **Procenti — samazināšanas princips**.</span><span class="sxs-lookup"><span data-stu-id="dc3ec-128">On the **Master plans** page, in the **Reduction principle** field, select **Percent - reduction key**.</span></span>
-4.  <span data-ttu-id="dc3ec-129">Izveidojiet pieprasījuma apjoma prognozi 1000 gabaliem mēnesī.</span><span class="sxs-lookup"><span data-stu-id="dc3ec-129">Create a demand forecast of 1,000 pieces per month.</span></span>
+   | <span data-ttu-id="dc3ec-112">Izdodamais atlikums</span><span class="sxs-lookup"><span data-stu-id="dc3ec-112">Change</span></span> | <span data-ttu-id="dc3ec-113">Vienība</span><span class="sxs-lookup"><span data-stu-id="dc3ec-113">Unit</span></span>  | <span data-ttu-id="dc3ec-114">Procenti</span><span class="sxs-lookup"><span data-stu-id="dc3ec-114">Percent</span></span> |
+   |--------|-------|---------|
+   |   <span data-ttu-id="dc3ec-115">1</span><span class="sxs-lookup"><span data-stu-id="dc3ec-115">1</span></span>    | <span data-ttu-id="dc3ec-116">Mēnesis</span><span class="sxs-lookup"><span data-stu-id="dc3ec-116">Month</span></span> |   <span data-ttu-id="dc3ec-117">100</span><span class="sxs-lookup"><span data-stu-id="dc3ec-117">100</span></span>   |
+   |   <span data-ttu-id="dc3ec-118">2</span><span class="sxs-lookup"><span data-stu-id="dc3ec-118">2</span></span>    | <span data-ttu-id="dc3ec-119">Mēnesis</span><span class="sxs-lookup"><span data-stu-id="dc3ec-119">Month</span></span> |   <span data-ttu-id="dc3ec-120">75</span><span class="sxs-lookup"><span data-stu-id="dc3ec-120">75</span></span>    |
+   |   <span data-ttu-id="dc3ec-121">3</span><span class="sxs-lookup"><span data-stu-id="dc3ec-121">3</span></span>    | <span data-ttu-id="dc3ec-122">Mēnesis</span><span class="sxs-lookup"><span data-stu-id="dc3ec-122">Month</span></span> |   <span data-ttu-id="dc3ec-123">50</span><span class="sxs-lookup"><span data-stu-id="dc3ec-123">50</span></span>    |
+   |   <span data-ttu-id="dc3ec-124">4.</span><span class="sxs-lookup"><span data-stu-id="dc3ec-124">4</span></span>    | <span data-ttu-id="dc3ec-125">Mēnesis</span><span class="sxs-lookup"><span data-stu-id="dc3ec-125">Month</span></span> |   <span data-ttu-id="dc3ec-126">25</span><span class="sxs-lookup"><span data-stu-id="dc3ec-126">25</span></span>    |
+
+
+2. <span data-ttu-id="dc3ec-127">Piesaistiet samazināšanas principu krājuma vajadzību grupai.</span><span class="sxs-lookup"><span data-stu-id="dc3ec-127">Link the reduction key to the item's coverage group.</span></span>
+3. <span data-ttu-id="dc3ec-128">Lapas **Vispārējie plāni** laukā **Samazināšanas princips** atlasiet **Procenti — samazināšanas princips**.</span><span class="sxs-lookup"><span data-stu-id="dc3ec-128">On the **Master plans** page, in the **Reduction principle** field, select **Percent - reduction key**.</span></span>
+4. <span data-ttu-id="dc3ec-129">Izveidojiet pieprasījuma apjoma prognozi 1000 gabaliem mēnesī.</span><span class="sxs-lookup"><span data-stu-id="dc3ec-129">Create a demand forecast of 1,000 pieces per month.</span></span>
 
 <span data-ttu-id="dc3ec-130">Sākot budžeta plānošanu 1. janvārī, pieprasījuma apjoma prognozes vajadzības tiek patērētas atbilstoši procentiem, ko iestatāt lapā **Samazināšanas principi**.</span><span class="sxs-lookup"><span data-stu-id="dc3ec-130">If you run forecast scheduling on January 1, the demand forecast requirements are consumed according to the percentages that you set up on the **Reduction keys** page.</span></span> <span data-ttu-id="dc3ec-131">Uz vispārējo plānu tiek pārsūtīti šādi vajadzību daudzumi.</span><span class="sxs-lookup"><span data-stu-id="dc3ec-131">The following requirement quantities are transferred to the master plan.</span></span>
 
@@ -88,20 +89,21 @@ ms.lasthandoff: 11/03/2017
 ## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a><span data-ttu-id="dc3ec-171">3. piemērs:. Transakciju dinamiskā perioda prognozes samazināšanas princips</span><span class="sxs-lookup"><span data-stu-id="dc3ec-171">Example 3: Transactions  dynamic period forecast reduction principle</span></span>
 <span data-ttu-id="dc3ec-172">Vairāmā gadījumu sistēmas ir iestatītas tā, lai darbības samazina pieprasījuma apjoma prognozi noteiktos prognozes periodos: nedēļās, mēnešus utt.</span><span class="sxs-lookup"><span data-stu-id="dc3ec-172">In most cases, systems are set up so that transactions reduce demand forecast within specific forecast periods: weeks, months, and so on.</span></span> <span data-ttu-id="dc3ec-173">Šie periodi ir definēti samazināšanas principā.</span><span class="sxs-lookup"><span data-stu-id="dc3ec-173">These periods are defined in the reduction key.</span></span> <span data-ttu-id="dc3ec-174">Tomēr laiks starp divām pieprasījuma apjoma prognozes rindām var arī *nozīmēt* periodu.</span><span class="sxs-lookup"><span data-stu-id="dc3ec-174">However, the time between two demand forecast lines can also *imply* a period.</span></span>
 
-1.  <span data-ttu-id="dc3ec-175">Izveidojiet pieprasījuma apjoma prognozi šādiem datumiem un daudzumiem.</span><span class="sxs-lookup"><span data-stu-id="dc3ec-175">Create a demand forecast for the following dates and quantities.</span></span>
-    | <span data-ttu-id="dc3ec-176">Datums</span><span class="sxs-lookup"><span data-stu-id="dc3ec-176">Date</span></span>       | <span data-ttu-id="dc3ec-177">Pieprasījuma apjoma prognoze</span><span class="sxs-lookup"><span data-stu-id="dc3ec-177">Demand forecast</span></span> |
-    |------------|-----------------|
-    | <span data-ttu-id="dc3ec-178">1. janvāris</span><span class="sxs-lookup"><span data-stu-id="dc3ec-178">January 1</span></span>  | <span data-ttu-id="dc3ec-179">1000</span><span class="sxs-lookup"><span data-stu-id="dc3ec-179">1,000</span></span>           |
-    | <span data-ttu-id="dc3ec-180">5. janvāris</span><span class="sxs-lookup"><span data-stu-id="dc3ec-180">January 5</span></span>  | <span data-ttu-id="dc3ec-181">500</span><span class="sxs-lookup"><span data-stu-id="dc3ec-181">500</span></span>             |
-    | <span data-ttu-id="dc3ec-182">12. janvāris</span><span class="sxs-lookup"><span data-stu-id="dc3ec-182">January 12</span></span> | <span data-ttu-id="dc3ec-183">1000</span><span class="sxs-lookup"><span data-stu-id="dc3ec-183">1,000</span></span>           |
+1. <span data-ttu-id="dc3ec-175">Izveidojiet pieprasījuma apjoma prognozi šādiem datumiem un daudzumiem.</span><span class="sxs-lookup"><span data-stu-id="dc3ec-175">Create a demand forecast for the following dates and quantities.</span></span>
 
-    <span data-ttu-id="dc3ec-184">Šajā prognozē nav skaidri izteikta perioda starp prognozes datumiem: starp pirmo un otro datumu ir četru dienu ilgs posms, un starp otro un trešo datumu ir septiņu ilgs dienu posms.</span><span class="sxs-lookup"><span data-stu-id="dc3ec-184">In this forecast, there isn't a clear period between the forecast dates: between the first and second dates there is a four-day span, and between the second and third dates there is a seven-day span.</span></span> <span data-ttu-id="dc3ec-185">Šie dažādie posmi ir dinamiskais periods.</span><span class="sxs-lookup"><span data-stu-id="dc3ec-185">These various spans are the dynamic periods.</span></span>
-2.  <span data-ttu-id="dc3ec-186">Izveidojiet pārdošanas pasūtījuma rindas, kā norādīts tālāk.</span><span class="sxs-lookup"><span data-stu-id="dc3ec-186">Create sales order lines as follows.</span></span>
-    | <span data-ttu-id="dc3ec-187">Datums</span><span class="sxs-lookup"><span data-stu-id="dc3ec-187">Date</span></span>                             | <span data-ttu-id="dc3ec-188">Pārdošanas pasūtījumu daudzums</span><span class="sxs-lookup"><span data-stu-id="dc3ec-188">Sales order quantity</span></span> |
-    |----------------------------------|----------------------|
-    | <span data-ttu-id="dc3ec-189">Iepriekšējā gada 15. decembris</span><span class="sxs-lookup"><span data-stu-id="dc3ec-189">December 15 in the previous year</span></span> | <span data-ttu-id="dc3ec-190">500</span><span class="sxs-lookup"><span data-stu-id="dc3ec-190">500</span></span>                  |
-    | <span data-ttu-id="dc3ec-191">3. janvāris</span><span class="sxs-lookup"><span data-stu-id="dc3ec-191">January 3</span></span>                        | <span data-ttu-id="dc3ec-192">100</span><span class="sxs-lookup"><span data-stu-id="dc3ec-192">100</span></span>                  |
-    | <span data-ttu-id="dc3ec-193">10. janvāris</span><span class="sxs-lookup"><span data-stu-id="dc3ec-193">January 10</span></span>                       | <span data-ttu-id="dc3ec-194">200</span><span class="sxs-lookup"><span data-stu-id="dc3ec-194">200</span></span>                  |
+   | <span data-ttu-id="dc3ec-176">Datums</span><span class="sxs-lookup"><span data-stu-id="dc3ec-176">Date</span></span>       | <span data-ttu-id="dc3ec-177">Pieprasījuma apjoma prognoze</span><span class="sxs-lookup"><span data-stu-id="dc3ec-177">Demand forecast</span></span> |
+   |------------|-----------------|
+   | <span data-ttu-id="dc3ec-178">1. janvāris</span><span class="sxs-lookup"><span data-stu-id="dc3ec-178">January 1</span></span>  | <span data-ttu-id="dc3ec-179">1000</span><span class="sxs-lookup"><span data-stu-id="dc3ec-179">1,000</span></span>           |
+   | <span data-ttu-id="dc3ec-180">5. janvāris</span><span class="sxs-lookup"><span data-stu-id="dc3ec-180">January 5</span></span>  | <span data-ttu-id="dc3ec-181">500</span><span class="sxs-lookup"><span data-stu-id="dc3ec-181">500</span></span>             |
+   | <span data-ttu-id="dc3ec-182">12. janvāris</span><span class="sxs-lookup"><span data-stu-id="dc3ec-182">January 12</span></span> | <span data-ttu-id="dc3ec-183">1000</span><span class="sxs-lookup"><span data-stu-id="dc3ec-183">1,000</span></span>           |
+
+   <span data-ttu-id="dc3ec-184">Šajā prognozē nav skaidri izteikta perioda starp prognozes datumiem: starp pirmo un otro datumu ir četru dienu ilgs posms, un starp otro un trešo datumu ir septiņu ilgs dienu posms.</span><span class="sxs-lookup"><span data-stu-id="dc3ec-184">In this forecast, there isn't a clear period between the forecast dates: between the first and second dates there is a four-day span, and between the second and third dates there is a seven-day span.</span></span> <span data-ttu-id="dc3ec-185">Šie dažādie posmi ir dinamiskais periods.</span><span class="sxs-lookup"><span data-stu-id="dc3ec-185">These various spans are the dynamic periods.</span></span>
+2. <span data-ttu-id="dc3ec-186">Izveidojiet pārdošanas pasūtījuma rindas, kā norādīts tālāk.</span><span class="sxs-lookup"><span data-stu-id="dc3ec-186">Create sales order lines as follows.</span></span>
+   | <span data-ttu-id="dc3ec-187">Datums</span><span class="sxs-lookup"><span data-stu-id="dc3ec-187">Date</span></span>                             | <span data-ttu-id="dc3ec-188">Pārdošanas pasūtījumu daudzums</span><span class="sxs-lookup"><span data-stu-id="dc3ec-188">Sales order quantity</span></span> |
+   |----------------------------------|----------------------|
+   | <span data-ttu-id="dc3ec-189">Iepriekšējā gada 15. decembris</span><span class="sxs-lookup"><span data-stu-id="dc3ec-189">December 15 in the previous year</span></span> | <span data-ttu-id="dc3ec-190">500</span><span class="sxs-lookup"><span data-stu-id="dc3ec-190">500</span></span>                  |
+   | <span data-ttu-id="dc3ec-191">3. janvāris</span><span class="sxs-lookup"><span data-stu-id="dc3ec-191">January 3</span></span>                        | <span data-ttu-id="dc3ec-192">100</span><span class="sxs-lookup"><span data-stu-id="dc3ec-192">100</span></span>                  |
+   | <span data-ttu-id="dc3ec-193">10. janvāris</span><span class="sxs-lookup"><span data-stu-id="dc3ec-193">January 10</span></span>                       | <span data-ttu-id="dc3ec-194">200</span><span class="sxs-lookup"><span data-stu-id="dc3ec-194">200</span></span>                  |
 
 <span data-ttu-id="dc3ec-195">Prognoze tiks samazināta šādi.</span><span class="sxs-lookup"><span data-stu-id="dc3ec-195">The forecast will be reduced as follows:</span></span>
 

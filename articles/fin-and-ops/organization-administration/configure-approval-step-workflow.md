@@ -18,17 +18,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d2fc157b54401463bbabf1e3f6d5dddc6bda9631
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c142534e9e5b5f154f478889d13540dc3d47ad18
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-an-approval-step-in-a-workflow"></a><span data-ttu-id="840dd-103">Konfigurēt apstiprināšanas darbību darbplūsmā</span><span class="sxs-lookup"><span data-stu-id="840dd-103">Configure an approval step in a workflow</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="840dd-104">Šajā tēmā ir paskaidrots, kā konfigurēt apstiprināšanas darbības rekvizītus.</span><span class="sxs-lookup"><span data-stu-id="840dd-104">This topic explains how to configure the properties of an approval step.</span></span>
 
@@ -145,9 +144,9 @@ ms.lasthandoff: 11/03/2017
     <span data-ttu-id="840dd-192">Ja lietotājs neveic darbības ar dokumentu atvēlētajā laikā, dokuments ir nokavēts.</span><span class="sxs-lookup"><span data-stu-id="840dd-192">If the user doesn't take action on the document in the allotted time, the document is overdue.</span></span> <span data-ttu-id="840dd-193">Nokavēts dokuments tiek eskalēts, pamatojoties uz opcijām, kas ir atlasītas lapas apgabalā **Eskalācija**.</span><span class="sxs-lookup"><span data-stu-id="840dd-193">A document that is overdue is escalated, based on the options that you select in the **Escalation** area of the page.</span></span>
 4.  <span data-ttu-id="840dd-194">Ja apstiprināšanas darbība ir piešķirta vairākiem lietotājiem vai lietotāju grupai, cilnē **Pabeigšanas ierobežojums** atlasiet vienu no šīm opcijām:</span><span class="sxs-lookup"><span data-stu-id="840dd-194">If you assigned the approval step to multiple users or a group of users, on the **Completion policy** tab, select one of the following options:</span></span>
     -   <span data-ttu-id="840dd-195">**Viens apstiprinātājs** — ar dokumentu veicamo darbību nosaka pirmā persona, kas atbild.</span><span class="sxs-lookup"><span data-stu-id="840dd-195">**Single approver** – The action that is applied to the document is determined by the first person who responds.</span></span> <span data-ttu-id="840dd-196">Piemēram, Sems iesniedzis izdevumu pārskatu par USD 15 000.</span><span class="sxs-lookup"><span data-stu-id="840dd-196">For example, Sam has submitted an expense report for USD 15,000.</span></span> <span data-ttu-id="840dd-197">Izdevumu pārskats pašlaik ir piešķirts Sjū, Džo un Bilam.</span><span class="sxs-lookup"><span data-stu-id="840dd-197">The expense report is currently assigned to Sue, Jo, and Bill.</span></span> <span data-ttu-id="840dd-198">Ja Sjū ir pirmā uz dokumentu atbildējusī persona, dokumentam tiek veikta viņas izpildītā darbība.</span><span class="sxs-lookup"><span data-stu-id="840dd-198">If Sue is the first person who responds to the document, the action that she takes is applied to the document.</span></span> <span data-ttu-id="840dd-199">Ja Sjū noraida dokumentu, tas tiek noraidīts un nosūtīts atpakaļ Semam.</span><span class="sxs-lookup"><span data-stu-id="840dd-199">If Sue rejects the document, it's rejected and sent back to Sam.</span></span> <span data-ttu-id="840dd-200">Ja Sjū apstiprina šo dokumentu, tas tiek nosūtīts Annai apstiprināšanai.</span><span class="sxs-lookup"><span data-stu-id="840dd-200">If Sue approves the document, it's sent to Ann for approval.</span></span> 
-    
+
     ![Darbplūsma, kurai ir apstiprināšanas process](./media/workflow_multipleusersinstep.gif)
-    
+
     -   <span data-ttu-id="840dd-202">**Apstiprinātāju vairākums** — ar dokumentu veicamā darbība tiek noteikta, kad atbild apstiprinātāju vairākums.</span><span class="sxs-lookup"><span data-stu-id="840dd-202">**Majority of approvers** – The action that is applied to the document is determined when most of the approvers respond.</span></span> <span data-ttu-id="840dd-203">Piemēram, Sems iesniedzis izdevumu pārskatu par USD 15 000.</span><span class="sxs-lookup"><span data-stu-id="840dd-203">For example, Sam has submitted an expense report for USD 15,000.</span></span> <span data-ttu-id="840dd-204">Izdevumu pārskats pašlaik ir piešķirts Sjū, Džo un Bilam.</span><span class="sxs-lookup"><span data-stu-id="840dd-204">The expense report is currently assigned to Sue, Jo, and Bill.</span></span> <span data-ttu-id="840dd-205">Ja Sjū un Džo ir pirmie divi apstiprinātāji, kas atbild, viņu izpildītā darbība nosaka ar dokumentu veicamo darbību.</span><span class="sxs-lookup"><span data-stu-id="840dd-205">If Sue and Jo are the first two approvers who respond, the action that they take is applied to the document.</span></span>
         -   <span data-ttu-id="840dd-206">Ja Sjū apstiprina dokumentu, bet Džo to noraida, dokuments tiek noraidīts un atgriežas pie Sema.</span><span class="sxs-lookup"><span data-stu-id="840dd-206">If Sue approves the document, but Jo rejects it, the document is rejected and sent back to Sam.</span></span>
         -   <span data-ttu-id="840dd-207">Ja gan Sjū, gan Džo apstiprina dokumentu, tas nonāk apstiprināšanai pie Annas.</span><span class="sxs-lookup"><span data-stu-id="840dd-207">If both Sue and Jo approve the document, it's sent to Ann for approval.</span></span>

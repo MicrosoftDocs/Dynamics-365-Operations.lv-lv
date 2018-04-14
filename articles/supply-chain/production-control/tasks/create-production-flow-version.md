@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8903e618a35e66742b5c2ebcb5b6f0da3853fcaf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0e2e99bc1132f50bca4e6c21abccdc685658a178
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-production-flow-version"></a><span data-ttu-id="0ab7a-103">Ražošanas plūsmas versijas izveide</span><span class="sxs-lookup"><span data-stu-id="0ab7a-103">Create a production flow version</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0ab7a-104">Šī procedūra ir vērsta uz to, lai izveidotu jaunu ražošanas plūsmas versiju.</span><span class="sxs-lookup"><span data-stu-id="0ab7a-104">This procedure focuses on creating a new production flow version.</span></span> <span data-ttu-id="0ab7a-105">Lai veiktu šo procedūru, ir jādefinē lean manufacturing ražošanas uzdevuma parametrus un klases laika mērvienības.</span><span class="sxs-lookup"><span data-stu-id="0ab7a-105">For this procedure, the production parameters for lean manufacturing and the units of measurement for class time must be defined.</span></span> <span data-ttu-id="0ab7a-106">Jums arī ir nepieciešams definēt vērtību plūsmu un ražošanas uzdevumu grupu.</span><span class="sxs-lookup"><span data-stu-id="0ab7a-106">You also need to define a value stream and a production group.</span></span> <span data-ttu-id="0ab7a-107">Lai uzzinātu vairāk par lean manufacturing ražošanas plūsmām un darbībām, skatiet tehniskos dokumentus par Lean manufacturing programmā Microsoft Dynamics AX.</span><span class="sxs-lookup"><span data-stu-id="0ab7a-107">To learn more about production flows and activities in lean manufacturing, see the white papers on Lean manufacturing for Microsoft Dynamics AX.</span></span> <span data-ttu-id="0ab7a-108">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="0ab7a-108">The demo data company used to create this procedure is USMF.</span></span>
 

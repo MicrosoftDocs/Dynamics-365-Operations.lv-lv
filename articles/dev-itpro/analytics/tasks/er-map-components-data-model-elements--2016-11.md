@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1c81a1268a56164e0d4465359a0f9ec425ee7c31
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d8b32b32a2cc8f7ac36e6c27ab17e550b5e3bd17
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="map-components-of-the-created-format-to-data-model-elements-for-electronic-reporting-er"></a><span data-ttu-id="c30ab-103">Izveidotā formāta komponentus kartēt uz datu modeļa elementiem elektronisko pārskatu veidošanai (ER)</span><span class="sxs-lookup"><span data-stu-id="c30ab-103">Map components of the created format to data model elements for electronic reporting (ER)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c30ab-104">Nākamajā procedūrā ir parādīts, kā lietotājs ar lomu Sistēmas administrators vai lomu Elektroniskā pārskata izstrādātājs datu modeļa elementus var kartēt uz izveidotās elektronisko pārskatu veidošanas (Electronic reporting — ER) konfigurācijas komponentiem, kas nosaka elektroniskā dokumenta formātu maksājumu biznesa jomai.</span><span class="sxs-lookup"><span data-stu-id="c30ab-104">The following procedure shows how a user in either the System administrator or Electronic reporting developer role can map data model elements to components of the created Electronic reporting (ER) configuration, which defines an electronic document format for the payments business domain.</span></span> <span data-ttu-id="c30ab-105">Šis formāts vēlāk tiks lietots, lai ģenerētu elektroniskos dokumentus maksājumu apstrādei.</span><span class="sxs-lookup"><span data-stu-id="c30ab-105">This format will be used later to generate electronic documents for processing payments.</span></span> <span data-ttu-id="c30ab-106">Šajā piemērā jūs izveidosiet formāta konfigurāciju parauga uzņēmumam “Litware, Inc.”.</span><span class="sxs-lookup"><span data-stu-id="c30ab-106">In this example, you will create a format configuration for the sample company, ‘Litware, Inc.’.</span></span> <span data-ttu-id="c30ab-107">Šīs darbības var veikt jebkurā uzņēmumā, jo ER konfigurācijas tiek koplietotas visos uzņēmumos.</span><span class="sxs-lookup"><span data-stu-id="c30ab-107">These steps can be performed in any company as ER configurations are shared for all companies.</span></span> <span data-ttu-id="c30ab-108">Lai izpildītu šīs darbības, vispirms ir jāizpilda uzdevuma ceļvedī “Izveidot formāta konfigurāciju” aprakstītās darbības.</span><span class="sxs-lookup"><span data-stu-id="c30ab-108">To complete these steps, you must first complete the steps in the “Create a format configuration” task guide.</span></span>
 

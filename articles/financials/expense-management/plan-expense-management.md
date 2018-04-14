@@ -19,17 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c87909d9eb3a4d717e0c40289353da0267a51f60
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: aa7c7bfaf4301904e1b7ae242efaf8b660fb076a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-expense-management"></a><span data-ttu-id="b5e84-103">Izdevumu pārvaldības konfigurēšana</span><span class="sxs-lookup"><span data-stu-id="b5e84-103">Configure expense management</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="b5e84-104">Šajā tēmā ir aprakstīti apsvērumi un lēmumi, kas jums ir jāpieņem plānošanas procesa laikā pirms izdevumu pārvaldības konfigurēšanas programmatūras Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="b5e84-104">This topic describes the considerations and the decisions that you must make during the planning process before you configure Expense management in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="b5e84-105">Modulī Izdevumu pārvaldība jūs tostarp varat glabāt informāciju par maksāšanas metodēm, komandējumu pieprasījumiem, izdevumu pārskatiem, politikām un citiem faktoriem.</span><span class="sxs-lookup"><span data-stu-id="b5e84-105">In Expense management, you can store information about payment methods, travel requisitions, expense reports, policies, and so on.</span></span>
 

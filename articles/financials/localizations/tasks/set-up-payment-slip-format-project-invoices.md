@@ -16,15 +16,15 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 9700571110a1b488e250dd8ee7b8c5c8f15cbc01
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: cb78cbe1b2511039badc85bc596b8d77646f723f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-payment-slip-format-for-project-invoices"></a><span data-ttu-id="9c97f-103">Maksājuma kvīts formāta iestatīšana projekta rēķiniem</span><span class="sxs-lookup"><span data-stu-id="9c97f-103">Set up payment slip format for project invoices</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9c97f-104">Uzņēmumi parasti pievieno rēķiniem izdrukātas maksājuma kvītis, lai palīdzētu debitoriem un sniegtu maksājuma atsauci grāmatošanas un norēķinu nolūkiem.</span><span class="sxs-lookup"><span data-stu-id="9c97f-104">Businesses commonly attach printed payment slips to invoices to assist customers and provide a payment reference for posting and settlement.</span></span> <span data-ttu-id="9c97f-105">Maksājuma kvīts papildus pārdošanas rēķiniem vai brīva teksta rēķiniem var izmantot projektu vai pakalpojumu rēķiniem, atgādinājuma vēstulēm, procentu paziņojumiem un konta pārskatiem.</span><span class="sxs-lookup"><span data-stu-id="9c97f-105">The payment slip can be used for project or service invoices, collection letters, interest notes, and account statements, in addition to sales invoices and free text invoices.</span></span> <span data-ttu-id="9c97f-106">Lai apstrādātu maksājuma kvītis, vispirms jāiestata kreditora identifikācijas numurs un maksājuma kvīts pielikuma formāti.</span><span class="sxs-lookup"><span data-stu-id="9c97f-106">To process payment slips, first set up your creditor identification number and payment slip attachment formats.</span></span>
 

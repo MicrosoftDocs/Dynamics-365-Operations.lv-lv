@@ -18,17 +18,16 @@ ms.author: shielas
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: cf2200057053f5a6d4754d37111ebe34849bb99d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ab84dd4e5ad87c2f3176265f81b0395cfb744315
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="use-workflows-to-manage-employee-information"></a><span data-ttu-id="919b2-104">Darbplūsmu izmantošana darbinieku informācijas pārvaldībai</span><span class="sxs-lookup"><span data-stu-id="919b2-104">Use workflows to manage employee information</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="919b2-105">Šajā tēmā ir aprakstīts, kā varat izmanto personāla vadības darbplūsmu iespējas, lai pārvaldītu darbinieku informāciju.</span><span class="sxs-lookup"><span data-stu-id="919b2-105">This topic explains how you can use the workflow capability for Human resources to manage employee information.</span></span> <span data-ttu-id="919b2-106">Piemēram, varat saistīt darbplūsmu ar pozīciju un konfigurēt apstiprināšanas darbplūsmu, kas tiek sākta, kad darbinieki maina savu ierakstu.</span><span class="sxs-lookup"><span data-stu-id="919b2-106">For example, you can associate a workflow with a position and configure an approval workflow that is started when employees change their record.</span></span>
 

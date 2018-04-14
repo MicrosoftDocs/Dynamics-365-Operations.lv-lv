@@ -20,18 +20,18 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 577204b49355a470769237eb46ad74e7f319a55e
-ms.openlocfilehash: 061555a228d1d40f2a2d864e72f39dc27155d1bd
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5034ecf6b6d8c27b2b22ce0a36c5ff5df3205e15
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="register-serial-numbers-in-the-sales-process"></a><span data-ttu-id="be8fd-104">Sērijas numuru reģistrēšana pārdošanas procesā</span><span class="sxs-lookup"><span data-stu-id="be8fd-104">Register serial numbers in the sales process</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="be8fd-105">Šajā tēmā ir paskaidrots, kā pārdošanas procesa laikā varat reģistrēt sērijas numurus iepakojuma pavadzīmēs vai rēķinos.</span><span class="sxs-lookup"><span data-stu-id="be8fd-105">This topic explains how you can register serial numbers on packing slips or invoices during the sales process.</span></span> <span data-ttu-id="be8fd-106">Šo darbību var izmantot, ja uzņēmums vēlas reģistrēt sērijas numurus pakalpojumu un garantijas nodrošināšanas nolūkos, bet nevēlas saglabāt krājumu sērijas numurus no saņemšanas līdz izsniegšanas brīdim.</span><span class="sxs-lookup"><span data-stu-id="be8fd-106">This functionality is useful if a company wants to capture serial numbers for service and warranty purposes, but doesn't have to maintain serial numbers in inventory from receipt to issue.</span></span>
 

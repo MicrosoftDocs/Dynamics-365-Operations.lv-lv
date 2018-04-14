@@ -19,16 +19,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 62194012cfbe101d19e9de3254afb004da79a562
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 06416e3cec2915071f13acf485d21482da2eef21
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a><span data-ttu-id="66f2b-103">Pārkraušana sadales centrā no ražošanas pasūtījumiem uz izejošajiem sadales centriem</span><span class="sxs-lookup"><span data-stu-id="66f2b-103">Cross-docking from production orders to outbound docks</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="66f2b-104">Šajā tēmā ir aprakstīts, kā pārvaldīt materiāla pārkraušanu sadales centrā, kad ražošanas līnijā tiek reģistrēta materiāla pabeigšana un tas tiek pārvietots uz izejošās plūsmas transportēšanas sadales centru.</span><span class="sxs-lookup"><span data-stu-id="66f2b-104">This topic describes how to manage the process of cross-docking material that is being reported as finished from a production line to an outbound transportation dock.</span></span>
 
@@ -76,10 +76,10 @@ ms.lasthandoff: 03/08/2018
 
 ### <a name="cross-docking-policy-name-transfer-order"></a><span data-ttu-id="66f2b-135">Politikas pārkraušanai sadales centrā nosaukums: Pārsūtīšanas pasūtījums</span><span class="sxs-lookup"><span data-stu-id="66f2b-135">Cross-docking policy name: Transfer order</span></span>
 
--   <span data-ttu-id="66f2b-136">Sērijas numurs: 10</span><span class="sxs-lookup"><span data-stu-id="66f2b-136">Sequence number: 10</span></span>
- -   <span data-ttu-id="66f2b-137">Darba pasūtījuma veids: Pārsūtīt izejas plūsmu</span><span class="sxs-lookup"><span data-stu-id="66f2b-137">Work order type: Transfer issue</span></span>
--   <span data-ttu-id="66f2b-138">Pārkraušanas sadales centrā pieprasījumam ir nepieciešama vieta: Aplams</span><span class="sxs-lookup"><span data-stu-id="66f2b-138">Cross docking demand requires location: False</span></span>
--   <span data-ttu-id="66f2b-139">Stratēģija pārkraušanai sadales centrā: Datums un laiks</span><span class="sxs-lookup"><span data-stu-id="66f2b-139">Cross docking strategy: Date and time</span></span>
+- <span data-ttu-id="66f2b-136">Sērijas numurs: 10</span><span class="sxs-lookup"><span data-stu-id="66f2b-136">Sequence number: 10</span></span>
+  -   <span data-ttu-id="66f2b-137">Darba pasūtījuma veids: Pārsūtīt izejas plūsmu</span><span class="sxs-lookup"><span data-stu-id="66f2b-137">Work order type: Transfer issue</span></span>
+- <span data-ttu-id="66f2b-138">Pārkraušanas sadales centrā pieprasījumam ir nepieciešama vieta: Aplams</span><span class="sxs-lookup"><span data-stu-id="66f2b-138">Cross docking demand requires location: False</span></span>
+- <span data-ttu-id="66f2b-139">Stratēģija pārkraušanai sadales centrā: Datums un laiks</span><span class="sxs-lookup"><span data-stu-id="66f2b-139">Cross docking strategy: Date and time</span></span>
 
 ### <a name="sequence-number"></a><span data-ttu-id="66f2b-140">Sērijas numurs</span><span class="sxs-lookup"><span data-stu-id="66f2b-140">Sequence number</span></span>
 

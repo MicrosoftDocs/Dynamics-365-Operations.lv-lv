@@ -19,17 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 211ced007e7729265621a05c2162a228eb0023c2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 62eb0de9b47d755e460c10a6335083b5958b75ed
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="manage-warehouse-workers"></a><span data-ttu-id="59691-103">Pārvaldīt noliktavu darbiniekus</span><span class="sxs-lookup"><span data-stu-id="59691-103">Manage warehouse workers</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="59691-104">Šajā rakstā aprakstīts, kā izmantot programmu Microsoft Dynamics 365 for Finance and Operations, lai palīdzētu kontrolēt un pārraudzīt darbu, ko darbinieki veic jūsu noliktavās.</span><span class="sxs-lookup"><span data-stu-id="59691-104">This article describes how you can use Microsoft Dynamics 365 for Finance and Operations to help control and monitor the work that's carried out by employees in your warehouses.</span></span>
 

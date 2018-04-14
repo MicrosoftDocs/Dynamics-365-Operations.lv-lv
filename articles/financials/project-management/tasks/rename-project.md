@@ -17,15 +17,15 @@ ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: c9b2c03f87bc4d43e6795aa2e1ac378637fe11ce
-ms.openlocfilehash: c3fbaa70ee2ae581e87031e5586b500098793c25
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 41db5fa77c020c0929868593fec16223676e5e31
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="rename-or-modify-a-project-stage"></a><span data-ttu-id="3085c-103">Projekta stadijas pārdēvēšana vai izmainīšana</span><span class="sxs-lookup"><span data-stu-id="3085c-103">Rename or modify a project stage</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3085c-104">Projektu statusi var kalpot kā ceļvedis projekta dzīves ciklā.</span><span class="sxs-lookup"><span data-stu-id="3085c-104">Project stages can serve as a guide to the project life cycle.</span></span> <span data-ttu-id="3085c-105">Projektu stadijas, ko vēlaties ietvert projektā, varat definēt lapas Projektu vadības un uzskaites parametri apgabalā Projekta posms.</span><span class="sxs-lookup"><span data-stu-id="3085c-105">You can define the project stages that you want to include in your projects in the Project stage area in the Project management and accounting parameters page.</span></span> <span data-ttu-id="3085c-106">Programmā Dynamics 365 for Finance and Operations ir pieejamas piecas dažādas projekta stadijas un trīs lietotāja definētas stadijas.</span><span class="sxs-lookup"><span data-stu-id="3085c-106">Dynamics 365 for Finance and Operations provides five predefined project stages and three user-defined stages.</span></span> <span data-ttu-id="3085c-107">Varat atjaunināt tās projekta stadijas nosaukumu, ko izmantojat projekta izpildes izsekošanai.</span><span class="sxs-lookup"><span data-stu-id="3085c-107">You can update the name of a project stage that you are using to track the progress of projects.</span></span> <span data-ttu-id="3085c-108">Varat arī norādīt lietotāja definēto statusu nosaukumus.</span><span class="sxs-lookup"><span data-stu-id="3085c-108">You can also provide names for user-defined status names.</span></span> <span data-ttu-id="3085c-109">Šajā uzdevuma aprakstā ir paskaidrots, kā pārdēvēt vai izmainīt projekta stadiju, un tajā tiek izmantota USSI datu kopa.</span><span class="sxs-lookup"><span data-stu-id="3085c-109">This task shows how to rename or modify a project stage and uses the USSI data set.</span></span>
 

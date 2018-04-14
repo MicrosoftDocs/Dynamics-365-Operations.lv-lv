@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6fabeb31720a60bf97d08dabf8ed87ac6af7cbf7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 788b9697cc9a55a35460200baab49eb4b1934f21
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-an-expiry-date-for-a-production-flow-version"></a><span data-ttu-id="eccd8-103">Derīguma termiņa definēšana ražošanas plūsmas versijai</span><span class="sxs-lookup"><span data-stu-id="eccd8-103">Define an expiry date for a production flow version</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="eccd8-104">Lai beigtu ražošanas plūsmas versijas derīgumu un apstrādi noteiktā datumā, vai, lai plānotu aktīvas versijas nomaiņu uz jaunu versiju, jūs varat iestatīt versijas beigu datumu.</span><span class="sxs-lookup"><span data-stu-id="eccd8-104">To end the validity and the processing of a production flow version on a given date, or to plan replacement of an active version with a new version, you have to set an expiry date on the version.</span></span> <span data-ttu-id="eccd8-105">Nav nepieciešams deaktivizēt versiju.</span><span class="sxs-lookup"><span data-stu-id="eccd8-105">It is not necessary to deactivate the version.</span></span>
 

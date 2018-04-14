@@ -19,16 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4a3445417d5ae88e2ff3676962a82921a7ab475d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d412c60f22347a38e38ca5f2c5515bd132814f25
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="microsoft-project-client-integration"></a><span data-ttu-id="f0e1e-104">Microsoft Project klienta integrācija</span><span class="sxs-lookup"><span data-stu-id="f0e1e-104">Microsoft Project client integration</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f0e1e-105">Projekta grafika plānošana un uzturēšana var būt sarežģīta, tādēļ projektu vadītājiem jāizmanto rīki, kas palīdz pārvaldīt šo uzdevumu.</span><span class="sxs-lookup"><span data-stu-id="f0e1e-105">Planning and maintaining a project schedule can be complex, so project managers need to use tools that help them manage this task.</span></span> <span data-ttu-id="f0e1e-106">Integrācija ar Microsoft Project klientu nodrošina atbalstu projekta darba sadalījuma struktūras atvēršanai un pārvaldībai.</span><span class="sxs-lookup"><span data-stu-id="f0e1e-106">Integration with Microsoft Project Client provides support to open and manage a project work breakdown structure.</span></span> <span data-ttu-id="f0e1e-107">Projektu vadītājs var publicēt visas izmaiņas Finance and Operations projekta darba sadalījuma struktūrā.</span><span class="sxs-lookup"><span data-stu-id="f0e1e-107">The project manager can publish any changes back to the Finance and Operations project work breakdown structure.</span></span>
 

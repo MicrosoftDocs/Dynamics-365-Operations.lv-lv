@@ -17,15 +17,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 55d359232da5f3087b1e6baed182a20da09aeff7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2bcc83c0a422ed1480f2ed41460fd710bc51ff3d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="revert-kanban-job-status"></a><span data-ttu-id="1b14b-103">Atjaunot Kanban darba statusu</span><span class="sxs-lookup"><span data-stu-id="1b14b-103">Revert kanban job status</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1b14b-104">Šajā procedūrā aprakstīts nepareiza Kanban darba statusa atgriešanas process.</span><span class="sxs-lookup"><span data-stu-id="1b14b-104">This procedure focuses on reverting an incorrect kanban job status.</span></span> <span data-ttu-id="1b14b-105">Tas ir noderīgi, ja datoru ievades operators kļūdas dēļ atjaunina nepareizu darbu vai iestata nepareizu statusu.</span><span class="sxs-lookup"><span data-stu-id="1b14b-105">This is useful in case the machine operator updates the wrong job, or sets the wrong status by mistake.</span></span> <span data-ttu-id="1b14b-106">Šajā procedūrā Kanban darbs kļūdas pēc tika reģistrēts kā sagatavots, un tā statuss tiek atgriezts.</span><span class="sxs-lookup"><span data-stu-id="1b14b-106">In this procedure, a kanban job is registered as prepared by mistake, and the status is reverted.</span></span> <span data-ttu-id="1b14b-107">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="1b14b-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="1b14b-108">Šī procedūra ir paredzēta veikala vadītājam vai datu ievades operatoram, kurš strādā Lean manufacturing uzņēmumā.</span><span class="sxs-lookup"><span data-stu-id="1b14b-108">This procedure is intended for the shop supervisor or machine operator working in a lean manufacturing company.</span></span>
 

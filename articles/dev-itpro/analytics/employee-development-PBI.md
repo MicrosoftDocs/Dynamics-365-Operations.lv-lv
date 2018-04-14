@@ -16,16 +16,16 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 4cf60021b96ab492c5d0b2535a117cb33ab13524
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a451a3e936916c6bec750ddfbc2bf71fadb7c222
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="employee-development-power-bi-content"></a><span data-ttu-id="79f2f-103">Power BI saturs Darbinieku attīstība</span><span class="sxs-lookup"><span data-stu-id="79f2f-103">Employee development Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="79f2f-104">Šajā tēmā ir aprakstīts Microsoft Power BI saturs **Darbinieku attīstība**.</span><span class="sxs-lookup"><span data-stu-id="79f2f-104">This topic describes the **Employee development** Microsoft Power BI content.</span></span>
 
@@ -45,6 +45,7 @@ ms.lasthandoff: 01/31/2018
 <span data-ttu-id="79f2f-124">Šajos pārskatos esošās diagrammas un elementus varat filtrēt, un diagrammas un elementus varat piespraust informācijas panelim.</span><span class="sxs-lookup"><span data-stu-id="79f2f-124">You can filter the charts and tiles on these reports, and pin the charts and tiles to the dashboard.</span></span> <span data-ttu-id="79f2f-125">Plašāku informāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet rakstā [Izveidot un konfigurēt informācijas paneli](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).</span><span class="sxs-lookup"><span data-stu-id="79f2f-125">For more information about how to filter and pin in Power BI, see [Create and Configure A Dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).</span></span>
 
 ## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="79f2f-126">Datu modeļa un elementu izprašana</span><span class="sxs-lookup"><span data-stu-id="79f2f-126">Understanding the data model and entities</span></span>
+
 | <span data-ttu-id="79f2f-127">Elements</span><span class="sxs-lookup"><span data-stu-id="79f2f-127">Entity</span></span>                   | <span data-ttu-id="79f2f-128">Saturs</span><span class="sxs-lookup"><span data-stu-id="79f2f-128">Contents</span></span>                                                                                                   | <span data-ttu-id="79f2f-129">Attiecības ar citiem elementiem</span><span class="sxs-lookup"><span data-stu-id="79f2f-129">Relationships with other entities</span></span> |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | <span data-ttu-id="79f2f-130">Kalendāra nobīde</span><span class="sxs-lookup"><span data-stu-id="79f2f-130">Calendar Offset</span></span>          | <span data-ttu-id="79f2f-131">Kalendārs nobīdās, lai sadalītu pārskatus</span><span class="sxs-lookup"><span data-stu-id="79f2f-131">Calendar offsets to slice reports</span></span>                                                                          | <span data-ttu-id="79f2f-132">Iepriekšējās pozīcijas piešķire, Pozīcijas tendence, Darbinieka tendence, Darbinieks, ar ko patrauktas darba attiecības</span><span class="sxs-lookup"><span data-stu-id="79f2f-132">Past Position Assignment, Position Trend, Employee Trend, Terminated Employee</span></span> 

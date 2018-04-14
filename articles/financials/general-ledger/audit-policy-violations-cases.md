@@ -19,17 +19,16 @@ ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2376a1d6e86eba9f5021cc08dcfaea52f131a3d7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c44beba51538184c062b53d643bda98de3d752b4
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="audit-policy-violations-and-cases"></a><span data-ttu-id="9dcb4-104">Audita ierobežojuma nosacījumu pārkāpumi un gadījumi</span><span class="sxs-lookup"><span data-stu-id="9dcb4-104">Audit policy violations and cases</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="9dcb4-105">Rakstā ir paskaidrots, kā no audita ierobežojumu nosacījumu pārkāpumiem tiek ģenerēti audita gadījumi.</span><span class="sxs-lookup"><span data-stu-id="9dcb4-105">The article explains how audit cases are generated from violations of audit policy rules.</span></span> <span data-ttu-id="9dcb4-106">Tajā ir iekļauta arī informācija par dažādiem veidiem, kā audita ierobežojumi izmanto dokumentu atlases datumu diapazonu.</span><span class="sxs-lookup"><span data-stu-id="9dcb4-106">It also includes information about the various ways that audit policies use the document selection date range.</span></span>
 

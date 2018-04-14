@@ -16,15 +16,15 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4e2808e57dc8d137fac892d48e99d7687ff1bf81
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 15253a9c96af67eb405b9ce42c5a328c8aec7ecc
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a><span data-ttu-id="98e01-103">Iestatīt atsevišķas numuru sērijas</span><span class="sxs-lookup"><span data-stu-id="98e01-103">Set up number sequences on an individual basis</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="98e01-104">Numuru sērijas tiek izmantotas, lai ģenerētu lasāmus, unikālus pamatdatu ierakstu identifikatorus un darījumu ierakstus, kam tie ir nepieciešami.</span><span class="sxs-lookup"><span data-stu-id="98e01-104">Number sequences are used to generate readable, unique identifiers for master data records and transaction records that require them.</span></span> <span data-ttu-id="98e01-105">Pamatdati vai darījumu ieraksts, kam nepieciešams identifikators, tiek saukts par atsauci.</span><span class="sxs-lookup"><span data-stu-id="98e01-105">A master data or transaction record that requires an identifier is referred to as a reference.</span></span> <span data-ttu-id="98e01-106">Pirms atsaucei varat izveidot jaunus ierakstus, ir jāiestata numuru sērija un tā jāsaista ar atsauci.</span><span class="sxs-lookup"><span data-stu-id="98e01-106">Before you can create new records for a reference, you must set up a number sequence and associate it with the reference.</span></span> <span data-ttu-id="98e01-107">Varat iestatīt visas nepieciešamās numuru sērijas vienlaicīgi, izmantojot vedni Numuru sēriju iestatīšana, vai arī varat izveidot vai modificēt atsevišķas numuru sērijas, izmantojot lapu Numuru sērijas.</span><span class="sxs-lookup"><span data-stu-id="98e01-107">You can set up all required number sequences at the same time by using the Set up number sequences wizard, or you can create or modify individual number sequences by using the Number sequences page.</span></span>
 

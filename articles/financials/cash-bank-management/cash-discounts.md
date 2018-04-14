@@ -19,17 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9960af8c4961a42e7e829077da40bcbbf3bc71c2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 52e6003dfddc398c19055405bf936195febe0737
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cash-discounts"></a><span data-ttu-id="771ce-104">Termiņatlaides</span><span class="sxs-lookup"><span data-stu-id="771ce-104">Cash discounts</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="771ce-105">Termiņatlaides tiek iestatītas un koplietotas moduļiem Parādi kreditoriem un Debitoru parādi.</span><span class="sxs-lookup"><span data-stu-id="771ce-105">Cash discounts are setup and shared for Accounts payable and Accounts receivable.</span></span>  <span data-ttu-id="771ce-106">Pieejamo termiņatlaidi var definēt debitora rēķinā vai kreditora rēķinā, un tā tiek izmantota, ja rēķins tiek apmaksāts termiņatlaides datumu diapazonā.</span><span class="sxs-lookup"><span data-stu-id="771ce-106">The cash discount available can be defined on the customer invoice or vendor invoice, and will be taken if the invoice is paid within the cash discount date.</span></span> 
 
@@ -65,6 +64,7 @@ ms.lasthandoff: 11/03/2017
 -   <span data-ttu-id="771ce-135">1. marts = 80</span><span class="sxs-lookup"><span data-stu-id="771ce-135">March 1 = 80</span></span>
 
 <span data-ttu-id="771ce-136">Rēķins par 1000 USD ar termiņatlaides nosacījumiem 20D2% tiek grāmatots 15. februārī.</span><span class="sxs-lookup"><span data-stu-id="771ce-136">An invoice for 1000 USD with cash discount terms of 20D2% is posted on February 15.</span></span> <span data-ttu-id="771ce-137">Rēķina summa uzskaites valūtā ir 1100 EUR.</span><span class="sxs-lookup"><span data-stu-id="771ce-137">The accounting currency amount of the invoice is 1100 EUR.</span></span> <span data-ttu-id="771ce-138">Maksājums par 980 USD šim rēķinam tiek nosegts 1. martā.</span><span class="sxs-lookup"><span data-stu-id="771ce-138">A payment for 980 USD is settled with the invoice on March 1.</span></span> <span data-ttu-id="771ce-139">Termiņatlaides summa ir 20 USD.</span><span class="sxs-lookup"><span data-stu-id="771ce-139">The cash discount amount is 20 USD.</span></span> <span data-ttu-id="771ce-140">Maksājuma summa uzskaites valūtā ir 784 EUR.</span><span class="sxs-lookup"><span data-stu-id="771ce-140">The accounting currency amount of the payment is 784 EUR.</span></span> <span data-ttu-id="771ce-141">Termiņatlaides uzskaites valūtas summa tiek aprēķināta, izmantojot valūtas maiņas kursu no 1. marta: 20 \* 80 / 100 = 16 EUR.</span><span class="sxs-lookup"><span data-stu-id="771ce-141">The accounting currency amount of the cash discount is calculated by using the exchange rate as of March 1: 20 \* 80 / 100 = 16 EUR.</span></span>
+
 | <span data-ttu-id="771ce-142">**Piezīme**</span><span class="sxs-lookup"><span data-stu-id="771ce-142">**Note**</span></span>                                                                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="771ce-143">Ja lapā Debitoru moduļa parametri vai Kreditoru moduļa parametri ir atlasīta opcija Aprēķināt termiņatlaides daļējiem maksājumiem, tiek izmantots valūtas maiņas kurss, kas ir spēkā katra daļējā maksājuma datumā.</span><span class="sxs-lookup"><span data-stu-id="771ce-143">If the Calculate cash discounts for partial payments option is selected in the Accounts receivable parameters or Accounts payable parameters pages, the exchange rate that is in effect on the date of each partial payment is used.</span></span> |

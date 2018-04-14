@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 956edeac33f8531ecebef64301f2318333000429
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 13add634e275a0156c2c0f87d1fec80385d62fea
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-delivery-schedule"></a><span data-ttu-id="fc9f7-103">Piegādes grafika izveide</span><span class="sxs-lookup"><span data-stu-id="fc9f7-103">Create a delivery schedule</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="fc9f7-104">Šajā procedūrā ir parādīts, kā pārdošanas pasūtījumam izveidot piegādes grafiku.</span><span class="sxs-lookup"><span data-stu-id="fc9f7-104">This procedure demonstrates how to create a delivery schedule for a sales order.</span></span> <span data-ttu-id="fc9f7-105">Piegādes grafiks tiek izmantots, kad pasūtījumā vai piedāvājumā minēto daudzumu ir pieprasīts piegādāt vairākos sūtījumos.</span><span class="sxs-lookup"><span data-stu-id="fc9f7-105">A delivery schedule is used when a quantity on an order or a quotation is requested to be delivered in multiple shipments.</span></span> <span data-ttu-id="fc9f7-106">Šo procedūru varat izpildīt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.</span><span class="sxs-lookup"><span data-stu-id="fc9f7-106">You can run this procedure in demo data company USMF or on your own data.</span></span>
 

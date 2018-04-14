@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 6084ddb1c5b8fae9111ea1459f6e94b14930bfc5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9ec77585e259bc759b422b97f4f3b10271a02b02
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sales-and-profitability-performance-power-bi-content"></a><span data-ttu-id="a2513-104">Power BI saturs Pārdošanas un ienesīguma veiktspēja</span><span class="sxs-lookup"><span data-stu-id="a2513-104">Sales and profitability performance Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a2513-105">Šajā tēmā ir aprakstīts, kas ir iekļauts **pārdošanas un ienesīguma veiktspējas** Microsoft Power BI saturā.</span><span class="sxs-lookup"><span data-stu-id="a2513-105">This topic describes what is included in the **Sales and profitability performance** Microsoft Power BI content.</span></span> <span data-ttu-id="a2513-106">Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.</span><span class="sxs-lookup"><span data-stu-id="a2513-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 01/17/2018
 | <span data-ttu-id="a2513-140">Ieņēmumi pēc preces</span><span class="sxs-lookup"><span data-stu-id="a2513-140">Revenue by product</span></span>     | <span data-ttu-id="a2513-141">Ieņēmumi un bruto peļņa pēc pārdošanas kategorijas</span><span class="sxs-lookup"><span data-stu-id="a2513-141">Revenue & gross profit by sales category</span></span>   | <span data-ttu-id="a2513-142">\# preču kopskaits</span><span class="sxs-lookup"><span data-stu-id="a2513-142">Total \# of products</span></span>                                    |
 |                        | <span data-ttu-id="a2513-143">Pirmās 10 preces pēc ieņēmumiem</span><span class="sxs-lookup"><span data-stu-id="a2513-143">Top 10 products by revenue</span></span>                 | <span data-ttu-id="a2513-144">Aktīvo preču kopskaits un procenti no visu preču kopskaita</span><span class="sxs-lookup"><span data-stu-id="a2513-144">Total number of active products and percentage of total</span></span> |
 |                        | <span data-ttu-id="a2513-145">Ieņēmumu kopsumma pēc pārdošanas kategorijas</span><span class="sxs-lookup"><span data-stu-id="a2513-145">Total revenue by sales category</span></span>            | <span data-ttu-id="a2513-146">To preču skaits, kas veido 80% ieņēmumu</span><span class="sxs-lookup"><span data-stu-id="a2513-146">Number of products accounting for 80% revenue</span></span>           |
-| <span data-ttu-id="a2513-147">Ieņēmumi pēc perioda\\*</span><span class="sxs-lookup"><span data-stu-id="a2513-147">Revenue by period\\*</span></span>    | <span data-ttu-id="a2513-148">Ieņēmumi pēc mēneša</span><span class="sxs-lookup"><span data-stu-id="a2513-148">Revenue by month</span></span>                           | <span data-ttu-id="a2513-149">Ieņēmumu palielinājums pa gadiem</span><span class="sxs-lookup"><span data-stu-id="a2513-149">YOY revenue growth</span></span>                                      |
+| <span data-ttu-id="a2513-147">Ieņēmumi pēc perioda\*</span><span class="sxs-lookup"><span data-stu-id="a2513-147">Revenue by period\*</span></span>    | <span data-ttu-id="a2513-148">Ieņēmumi pēc mēneša</span><span class="sxs-lookup"><span data-stu-id="a2513-148">Revenue by month</span></span>                           | <span data-ttu-id="a2513-149">Ieņēmumu palielinājums pa gadiem</span><span class="sxs-lookup"><span data-stu-id="a2513-149">YOY revenue growth</span></span>                                      |
 |                        | <span data-ttu-id="a2513-150">Iepriekšējā perioda ieņēmumu novirze pa gadiem</span><span class="sxs-lookup"><span data-stu-id="a2513-150">Trailing revenue variance, YOY</span></span>             | <span data-ttu-id="a2513-151">Ieņēmumu palielinājums pa gadiem (%)</span><span class="sxs-lookup"><span data-stu-id="a2513-151">YOY revenue growth %</span></span>                                    |
 |                        | <span data-ttu-id="a2513-152">Pārdošanas kopsummas novirze pēc debitora reģiona</span><span class="sxs-lookup"><span data-stu-id="a2513-152">Total sales variance by customer region</span></span>    |                                                         |
 | <span data-ttu-id="a2513-153">Ieņēmumi pēc atrašanās vietas</span><span class="sxs-lookup"><span data-stu-id="a2513-153">Revenue by location</span></span>    | <span data-ttu-id="a2513-154">Pārdošanas ieņēmumi pēc pilsētas</span><span class="sxs-lookup"><span data-stu-id="a2513-154">Sales revenue by city</span></span>                      |                                                         |
@@ -75,7 +75,7 @@ ms.lasthandoff: 01/17/2018
 |                        | <span data-ttu-id="a2513-162">Pirmie 15 debitori pēc peļņas normas</span><span class="sxs-lookup"><span data-stu-id="a2513-162">Top 15 customers by gross margin</span></span>           |                                                         |
 |                        | <span data-ttu-id="a2513-163">Mēneša bruto peļņa pa gadiem</span><span class="sxs-lookup"><span data-stu-id="a2513-163">Gross profit by month, YOY</span></span>                 |                                                         |
 
-<span data-ttu-id="a2513-164">\\* Šī gada un pagājušā gada ieņēmumi un palielinājums pēc pārdošanas kategorijas.</span><span class="sxs-lookup"><span data-stu-id="a2513-164">\\* Revenue this and last year, and growth by sales category.</span></span>
+<span data-ttu-id="a2513-164">\* Šī gada un pagājušā gada ieņēmumi un palielinājums pēc pārdošanas kategorijas.</span><span class="sxs-lookup"><span data-stu-id="a2513-164">\* Revenue this and last year, and growth by sales category.</span></span>
 
 
 ## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="a2513-165">Datu modeļa un elementu izprašana</span><span class="sxs-lookup"><span data-stu-id="a2513-165">Understanding the data model and entities</span></span>

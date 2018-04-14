@@ -17,15 +17,15 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 2bfb5095c1db2a5ab9fb528d08d979ec850543fc
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e106e79674b47b918c79f734e809d19994a94350
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="process-loyalty-reward-point-adjustments"></a><span data-ttu-id="2dcbf-103"> Lojalitātes programmas atlīdzības punktu korekciju apstrāde</span><span class="sxs-lookup"><span data-stu-id="2dcbf-103">Process loyalty reward point adjustments</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="2dcbf-104">Šajā procedūra parādīts, kā atrast informāciju par lojalitātes programmas karti un koriģēt lojalitātes programmas atlīdzības punktus.</span><span class="sxs-lookup"><span data-stu-id="2dcbf-104">This procedure demonstrates how to look up loyalty card information and adjust loyalty reward points.</span></span> <span data-ttu-id="2dcbf-105">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USRT.</span><span class="sxs-lookup"><span data-stu-id="2dcbf-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="2dcbf-106">Šis uzdevums ir paredzēts lomai Mazumtirdzniecības operāciju pārvaldnieks vai Klientu apkalpošanas vadītājs.</span><span class="sxs-lookup"><span data-stu-id="2dcbf-106">This task is intended for the Retail operations manager role or a Customer service manager role.</span></span>
 

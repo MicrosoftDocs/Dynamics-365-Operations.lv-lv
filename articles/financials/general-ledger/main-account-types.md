@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 47336a19899b1fad0e63265173fd7fd02fc74ec3
-ms.openlocfilehash: 9ac698708b629f35b2ee3d9f021da69119f2f50d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: cba8d8483323c591deb6de5530cc809781707fbf
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="main-account-types"></a><span data-ttu-id="3048e-103">Galveno kontu veidi</span><span class="sxs-lookup"><span data-stu-id="3048e-103">Main account types</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="3048e-104">Galvenā konta veidi nosaka, kā galvenais konts tiek izmantots kontu plānā.</span><span class="sxs-lookup"><span data-stu-id="3048e-104">The main account types determine how a main account is used in the chart of accounts.</span></span>
 

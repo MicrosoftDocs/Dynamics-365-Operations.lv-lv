@@ -16,15 +16,15 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 820c18eaa8d94b67c9d246c818ea13f3bdceeb39
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d98f039628e35ef950f8fc869ab5c117cc46c051
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="generate-an-eu-sales-list-report"></a><span data-ttu-id="49192-103">ES pārdošanas saraksta pārskata ģenerēšana</span><span class="sxs-lookup"><span data-stu-id="49192-103">Generate an EU sales list report</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="49192-104">Šajā procedūrā tiek izklāstīta ES pārdošanas saraksta pārskata izveide.</span><span class="sxs-lookup"><span data-stu-id="49192-104">This procedure walks you through generating the EU sales list report.</span></span> <span data-ttu-id="49192-105">Tā ietver EK iekšējo tirdzniecības transakciju pārsūtīšanu uz ES pārdošanas sarakstu un pārskata izveidi.</span><span class="sxs-lookup"><span data-stu-id="49192-105">This includes transferring intra-community trade transactions to the EU sales list and running the report.</span></span> <span data-ttu-id="49192-106">Šī procedūra ietver arī EK iekšējo tirdzniecības transakciju izveidi demonstrācijas nolūkiem.</span><span class="sxs-lookup"><span data-stu-id="49192-106">This  procedure also includes creating an intra-community trade transaction for demo purposes.</span></span> <span data-ttu-id="49192-107">Lai iegūtu plašāku informāciju par ES pārdošanas saraksta pārskatu, tai skaitā nepieciešamajiem priekšnoteikumiem, skatiet Dynamics 365 for Finance and Operations palīdzību.</span><span class="sxs-lookup"><span data-stu-id="49192-107">For more information about EU Sales list reporting, including required prerequisites, refer to the Dynamics 365 for Finance and Operations Help.</span></span>
 

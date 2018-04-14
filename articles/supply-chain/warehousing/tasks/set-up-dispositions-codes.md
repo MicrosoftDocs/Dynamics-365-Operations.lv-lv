@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c004543188656dfd53d7539717cd6e93d0b9f47a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e12a2ac565bb8a8383044bd76a97f01e0434c739
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-dispositions-codes"></a><span data-ttu-id="c7ef0-103">Izvietojuma kodu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="c7ef0-103">Set up dispositions codes</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c7ef0-104">Šī procedūra fokusējas uz atgriešanas metodes koda iestatīšanu, ko var izmantot mobilā ierīcē atgriezto pasūtījumu saņemšanas procesam.</span><span class="sxs-lookup"><span data-stu-id="c7ef0-104">This procedure focuses on the setup of a disposition code that can be used on a mobile device for the return order receiving process.</span></span> <span data-ttu-id="c7ef0-105">Atgriešanas metodes kodi ir noteikumu kopums, kas tiek izmantots, kad tiek saņemti krājumi.</span><span class="sxs-lookup"><span data-stu-id="c7ef0-105">Disposition codes are a collection of rules that can be used when items are received.</span></span> <span data-ttu-id="c7ef0-106">Piemēram, kad darba lietotājs izmanto mobilo ierīci, lai saņemtu krājumus, kas tika bojāti, lietotājam jānoskenē bojāto krājumu atgriešanas metodes kods.</span><span class="sxs-lookup"><span data-stu-id="c7ef0-106">For example, when a work user uses a mobile device to receive items that were damaged, the user must scan a disposition code for damaged items.</span></span> <span data-ttu-id="c7ef0-107">Saņemto preču krājumu statusu, darba veidni un novietojuma direktīvu var noteikt pēc skenēta atgriešanas metodes koda.</span><span class="sxs-lookup"><span data-stu-id="c7ef0-107">The inventory status of the goods received, the work template, and the location directive can be determined from the scanned disposition code.</span></span> <span data-ttu-id="c7ef0-108">Pirkšanas pasūtījuma saņemšanas procesam un ražošanas pasūtījuma pārskatam kā pabeigtam procesam atgriešanas metodes koda izmantošana nav obligāta.</span><span class="sxs-lookup"><span data-stu-id="c7ef0-108">For the purchase order receiving process and the production order report as finished process, the use of a disposition code is optional.</span></span> <span data-ttu-id="c7ef0-109">Pārdošanas pasūtījuma atgriešanas saņemšanas procesam, ja krājumi ir reģistrēti, izmantojot mobilo ierīci, atgriešanas metodes koda izmantošana ir obligāta.</span><span class="sxs-lookup"><span data-stu-id="c7ef0-109">For the sales order return receiving process, if the items are registered using a mobile device, the use of disposition code is mandatory.</span></span>  <span data-ttu-id="c7ef0-110">Šajā ceļvedī tiek izmantoti demonstrācijas uzņēmuma USMF dati.</span><span class="sxs-lookup"><span data-stu-id="c7ef0-110">This guide was created using the demo data company USMF.</span></span> <span data-ttu-id="c7ef0-111">Šī procedūra ir paredzēta noliktavas pārvaldniekam.</span><span class="sxs-lookup"><span data-stu-id="c7ef0-111">This procedure is intended for the warehouse manager.</span></span> 
 

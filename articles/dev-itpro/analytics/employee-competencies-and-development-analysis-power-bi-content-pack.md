@@ -18,17 +18,16 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
-ms.openlocfilehash: 0769596c5ebaed1f5698d596d66d6f0334d5fcc2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2e1125acbf165f917900742b8aed164fedc437bf
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="employee-competencies-and-development-power-bi-content"></a><span data-ttu-id="e5e56-103">Power BI saturs Darbinieku zināšanas un attīstība</span><span class="sxs-lookup"><span data-stu-id="e5e56-103">Employee competencies and development Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="e5e56-104">Šajā tēmā ir aprakstīts Power BI saturs Finance and Operations — darbinieku zināšanas un attīstība.</span><span class="sxs-lookup"><span data-stu-id="e5e56-104">This topic describes the Finance and Operations - Employee competencies and development Power BI content.</span></span> 
 

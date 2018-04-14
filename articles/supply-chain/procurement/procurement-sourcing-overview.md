@@ -19,17 +19,16 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: 91881ca3999b4937d20161b8beab8e80c2675eb6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7c738d888b7177a26b28438c820ce18312947318
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="procurement-and-sourcing-overview"></a><span data-ttu-id="a4459-103">Sagādes un avotu apskats</span><span class="sxs-lookup"><span data-stu-id="a4459-103">Procurement and sourcing overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a4459-104">Šajā rakstā ir sniegts pārskats par funkcionalitāti, kas ir pieejama Sagādes un plānošanas modulī.</span><span class="sxs-lookup"><span data-stu-id="a4459-104">This article gives an overview of the functionality that's available in the Procurement and sourcing module.</span></span>
 
@@ -39,7 +38,7 @@ ms.lasthandoff: 02/08/2018
 <span data-ttu-id="a4459-108">*Pieprasījumi* var rādīt nepieciešamību pēc precēm vai pakalpojumiem, piemēram, ja darbiniekam ir nepieciešama kāda prece.</span><span class="sxs-lookup"><span data-stu-id="a4459-108">The need for products or services may arise from *requisitions*, for example, when an employee requires a product.</span></span> <span data-ttu-id="a4459-109">*Preču katalogus* var iestatīt, lai organizētu pieejamo preču atlasi vai katalogā vēl nepieejamo preču pieprasījumu veikšanu, kas ļauj pirkšanas struktūrvienībai apsvērt, kā preces var piegādāt.</span><span class="sxs-lookup"><span data-stu-id="a4459-109">*Product catalogs* can be set up to guide the selection of available products to select from, or requests can be made for products that are not yet made available in a catalog, allowing the purchasing department to consider how the product can be supplied.</span></span>  
 
 <span data-ttu-id="a4459-110">*Tēriņu limitus* var izmantot, lai ierobežotu pieprasījuma izdevumus, un *pirkšanas darbplūsma* pievieno iespēju prasīt apstiprinājumu pirms pasūtīšanas.</span><span class="sxs-lookup"><span data-stu-id="a4459-110">*Spending limits* can be used to constrain requisition spending, and the *purchasing workflow* adds the option of requiring approval before ordering happen.</span></span> <span data-ttu-id="a4459-111">Ir iespējams arī norādīt budžeta līdzekļu sadalījumu, ja tas ir nepieciešams.</span><span class="sxs-lookup"><span data-stu-id="a4459-111">It's also possible to specify budget fund allocation, if required.</span></span>  
-  
+
 <span data-ttu-id="a4459-112">Sagādes nodaļa identificē nepieciešamo preču un pakalpojumu piegādātājus un tas var iekļaut *piedāvājuma pieprasījumu* nosūtīšanu vairākiem iespējamiem piegādātājiem.</span><span class="sxs-lookup"><span data-stu-id="a4459-112">The procurement department identifies suppliers for required products and services, and this can involve a *request for quotation* being sent out to multiple potential suppliers.</span></span> <span data-ttu-id="a4459-113">Ir iespējams koplietot pieprasītās preces specifikācijas un potenciālie kreditori var tos skatīt, lai redzētu, vai viņi var piegādāt preces, kas tām atbilst.</span><span class="sxs-lookup"><span data-stu-id="a4459-113">It's possible to share the specifications of the product that's being requested and potential vendors can view these to see if they can deliver a product that conforms with them.</span></span> <span data-ttu-id="a4459-114">Kreditori atgriež savus piedāvājumus, kurus pēc tam pārskata sagādes nodaļa pirms tā atlasa piegādātāju, no kura vēlas iegādāties preces.</span><span class="sxs-lookup"><span data-stu-id="a4459-114">Vendors return their bids which are then reviewed by the procurement department before they select the supplier that they want to procure from.</span></span>  
 
 <span data-ttu-id="a4459-115">Pirkšanas pasūtījums iekļauj opciju izsūtīt *pirkšanas pieprasījumu* kreditoram kā alternatīvu plašākam piedāvājuma pieprasījuma procesam.</span><span class="sxs-lookup"><span data-stu-id="a4459-115">Purchase orders include an option to send out a *purchase inquiry* to the vendor as an alternative to a more comprehensive request for quotation process.</span></span> <span data-ttu-id="a4459-116">Pirkšanas pieprasījumu var izmantot, lai palīdzētu izveidot noteikumus, piemēram, cenas, atlaides un pasūtījuma piegādes datumu.</span><span class="sxs-lookup"><span data-stu-id="a4459-116">The purchase inquiry can be used to help establish terms like prices, discounts, and delivery date for the order.</span></span> <span data-ttu-id="a4459-117">Ja kreditori ir iestatīti portāla **Kreditors** lietošanai, tad pirkšanas pieprasījuma funkcionalitāte ir atspējota.</span><span class="sxs-lookup"><span data-stu-id="a4459-117">If vendors are set up to use the **Vendor** portal, purchase inquiry functionality is disabled.</span></span> <span data-ttu-id="a4459-118">Tā vietā pasūtījums ir koplietots **Kreditoru** portālā, un, kad tiek nosūtīts *apstiprinājuma pieprasījums*, kreditors var tieši apstiprināt šo pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="a4459-118">Instead the order is shared on the **Vendor** portal, and when a *confirmation request* is sent the vendor can directly confirm the order.</span></span>  

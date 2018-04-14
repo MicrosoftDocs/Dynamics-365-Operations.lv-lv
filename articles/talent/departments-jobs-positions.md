@@ -19,19 +19,18 @@ ms.author: dkrame
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 5799db0354e0e2bb766284ef2d87e8da9a956958
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6a2730fc8436d40db511216a3f4aa6e1a9317945
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="organize-your-workforce-using-departments-jobs-and-positions"></a><span data-ttu-id="3c81f-104">Organizēt darbaspēku, izmantojot nodaļas, darbus un amatus</span><span class="sxs-lookup"><span data-stu-id="3c81f-104">Organize your workforce using departments, jobs, and positions</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
-[!include[retail name](includes/retail-name.md)]
-
+[!INCLUDE [retail name](includes/retail-name.md)]
 
 <span data-ttu-id="3c81f-105">Nodaļas, amati un pozīcijas ir organizācijas elementi, kas tiek uzturēti personāla vadības procesā.</span><span class="sxs-lookup"><span data-stu-id="3c81f-105">Departments, jobs, and positions are organizational elements that are maintained within Human resources.</span></span> <span data-ttu-id="3c81f-106">Šajā tēmā ir sniegta konceptuāla informācija par šiem elementiem.</span><span class="sxs-lookup"><span data-stu-id="3c81f-106">This topic describes conceptual information about these elements.</span></span> 
 
@@ -48,7 +47,7 @@ ms.lasthandoff: 02/07/2018
 |<span data-ttu-id="3c81f-129">**Personāla vadība**</span><span class="sxs-lookup"><span data-stu-id="3c81f-129">**Human resources**</span></span>|<span data-ttu-id="3c81f-130">PV vadītājs (rietumu reģions)</span><span class="sxs-lookup"><span data-stu-id="3c81f-130">HR manager (West)</span></span>|<span data-ttu-id="3c81f-131">PV vadītājs</span><span class="sxs-lookup"><span data-stu-id="3c81f-131">HR manager</span></span>|
 |<span data-ttu-id="3c81f-132">**Personāla vadība**</span><span class="sxs-lookup"><span data-stu-id="3c81f-132">**Human resources**</span></span>|<span data-ttu-id="3c81f-133">PV vadītājs (centrālais reģions)</span><span class="sxs-lookup"><span data-stu-id="3c81f-133">HR manager (Central)</span></span>|<span data-ttu-id="3c81f-134">PV vadītājs</span><span class="sxs-lookup"><span data-stu-id="3c81f-134">HR manager</span></span>|
 
- 
+
  <a name="departments"></a><span data-ttu-id="3c81f-135">Nodaļas</span><span class="sxs-lookup"><span data-stu-id="3c81f-135">Departments</span></span>
 ------------
 

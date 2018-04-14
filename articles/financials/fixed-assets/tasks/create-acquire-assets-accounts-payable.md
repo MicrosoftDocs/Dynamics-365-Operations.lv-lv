@@ -16,15 +16,15 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9149378047fc22efbd401b7af86df07c1403e4f5
-ms.openlocfilehash: cfe920b2ef493ab3ae36a9557001086ed99c3e4e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ae6f2358cb8e7d1f093f9fcbf60b0957e9e6a629
 ms.contentlocale: lv-lv
-ms.lasthandoff: 10/05/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-and-acquire-assets-from-accounts-payable"></a><span data-ttu-id="4fb6d-103">Līdzekļu izveide un iegūšana modulī Kreditori</span><span class="sxs-lookup"><span data-stu-id="4fb6d-103">Create and acquire assets from accounts payable</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4fb6d-104">Šis uzdevuma ceļvedis apraksta pamatlīdzekļa izveidi un iegādi, izmantojot pirkšanas procesu.</span><span class="sxs-lookup"><span data-stu-id="4fb6d-104">This task guide will walk through creation and acquisition of a fixed asset with the purchasing process.</span></span> <span data-ttu-id="4fb6d-105">Tas izmanto grāmatveža un kreditoriem maksājamo rēķinu darbinieka lomas, kā arī demonstrācijas uzņēmumu USMF.</span><span class="sxs-lookup"><span data-stu-id="4fb6d-105">It uses the Accountant and Accounts payable clerks and the demo company USMF.</span></span>
 

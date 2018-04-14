@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1ec2f4a407c705fb37681f5593d0f7ea31f4cf0f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3c493ab60952e60e6816ebdc3decb1ebe670806f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-accounting-terminology"></a><span data-ttu-id="16765-103">Izmaksu uzskaites terminoloģija</span><span class="sxs-lookup"><span data-stu-id="16765-103">Cost accounting terminology</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="16765-104">Šajā tēmā tiek definēti galvenie termini, kas tiek izmantoti Izmaksu uzskaitē.</span><span class="sxs-lookup"><span data-stu-id="16765-104">This topic defines the key terms that are used in Cost accounting.</span></span>
 
@@ -150,14 +149,14 @@ ms.lasthandoff: 03/26/2018
 |  + |  <span data-ttu-id="16765-241">Saskaitīšana</span><span class="sxs-lookup"><span data-stu-id="16765-241">Addition</span></span> |
 |  <span data-ttu-id="16765-242">–</span><span class="sxs-lookup"><span data-stu-id="16765-242">–</span></span> |  <span data-ttu-id="16765-243">Atņemšana</span><span class="sxs-lookup"><span data-stu-id="16765-243">Subtraction</span></span> |
 | *  | <span data-ttu-id="16765-244">Reizināšana</span><span class="sxs-lookup"><span data-stu-id="16765-244">Multiplication</span></span>  |
-    
+
 <span data-ttu-id="16765-245">Parastie IF priekšraksti netiek atbalstīti.</span><span class="sxs-lookup"><span data-stu-id="16765-245">Traditional IF statements are not supported.</span></span> <span data-ttu-id="16765-246">Taču varat izveidot priekšrakstus un pārbaudīt, vai tie ir patiesi.</span><span class="sxs-lookup"><span data-stu-id="16765-246">However, you can create statements and validate whether they are true.</span></span>
 
 |  <span data-ttu-id="16765-247">**Izraksta validēšana**</span><span class="sxs-lookup"><span data-stu-id="16765-247">**Statement  Validation**</span></span> | <span data-ttu-id="16765-248">**Rezultāts**</span><span class="sxs-lookup"><span data-stu-id="16765-248">**Result**</span></span>  |
 |---|---|
 |  <span data-ttu-id="16765-249">a > b</span><span class="sxs-lookup"><span data-stu-id="16765-249">a > b</span></span>| <span data-ttu-id="16765-250">Patiess</span><span class="sxs-lookup"><span data-stu-id="16765-250">True</span></span>  |
 |  <span data-ttu-id="16765-251">a > b</span><span class="sxs-lookup"><span data-stu-id="16765-251">a > b</span></span> |  <span data-ttu-id="16765-252">Aplams</span><span class="sxs-lookup"><span data-stu-id="16765-252">False</span></span> |
-    
+
 <span data-ttu-id="16765-253">**Pieskaitāmās izmaksas**</span><span class="sxs-lookup"><span data-stu-id="16765-253">**Overhead cost**</span></span>
 
 <span data-ttu-id="16765-254">Pieskaitāmās izmaksas attiecas uz esošajiem saimnieciskās darbības izdevumiem.</span><span class="sxs-lookup"><span data-stu-id="16765-254">Overhead costs refer to the ongoing expenses of operating a business.</span></span> <span data-ttu-id="16765-255">Tās ir izmaksas, kuras nevar tieši saistīt ar konkrētu biznesa aktivitāti.</span><span class="sxs-lookup"><span data-stu-id="16765-255">They are the costs that can’t be linked directly to specific business activities.</span></span> <span data-ttu-id="16765-256">Šeit norādītas dažas pieskaitāmās izmaksas:</span><span class="sxs-lookup"><span data-stu-id="16765-256">Here are some examples of overhead costs:</span></span>

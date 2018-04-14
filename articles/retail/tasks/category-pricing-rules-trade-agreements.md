@@ -17,15 +17,15 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 133ca34a0e85454dc40d4e1d36fbe8278019c7e4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ee5c9ef3dcfa45ce515427cbabc8a2b8de9a9fa7
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a><span data-ttu-id="c31de-103"> Kategorijas cenu noteikšanas kārtulas, lai izveidotu tirdzniecības līgumus</span><span class="sxs-lookup"><span data-stu-id="c31de-103">Category pricing rules to create trade agreements</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c31de-104">Šajā procedūra ir aprakstīts, kā izveidot pārdošanas cenas tirdzniecības līgumus, izmantojot kategorijas cenu noteikšanas kārtulu.</span><span class="sxs-lookup"><span data-stu-id="c31de-104">This procedure demonstrates how to create sales price trade agreements using a category pricing rule.</span></span> <span data-ttu-id="c31de-105">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USRT.</span><span class="sxs-lookup"><span data-stu-id="c31de-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="c31de-106">Šis uzdevums ir paredzēts lomai Mazumtirdzniecības preču pārvaldnieks.</span><span class="sxs-lookup"><span data-stu-id="c31de-106">This task is intended for the Retail merchandising manager role.</span></span>
 

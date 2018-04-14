@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: 81707760e3ee3bc212706fb0857ed087455b0a9a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8a01506d94a12642cae1c8331f473afb76bcf2b6
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-goal"></a><span data-ttu-id="671a7-103">Mērķa izveide</span><span class="sxs-lookup"><span data-stu-id="671a7-103">Create a goal</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="671a7-104">Jūs varat izveidot mērķus, pievienot aktivitātes mērķiem, izsekot mērījumiem un saistīt mērķus ar pārskatu.</span><span class="sxs-lookup"><span data-stu-id="671a7-104">You can create goals, add activities to goals, track measurements, and link the goals to a review.</span></span> <span data-ttu-id="671a7-105">Šī procedūra tika izveidota, izmantojot demonstrācijas uzņēmuma USMF datus.</span><span class="sxs-lookup"><span data-stu-id="671a7-105">This procedure was created using the USMF demo data company.</span></span> <span data-ttu-id="671a7-106">Šī procedūra ir paredzēta līdzeklim, kas tika pievienots Dynamics 365 for Operations versijā 1611.</span><span class="sxs-lookup"><span data-stu-id="671a7-106">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 

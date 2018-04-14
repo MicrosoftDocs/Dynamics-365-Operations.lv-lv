@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 97426901164382587293574bfd84d90217476329
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fb718cd37a67947416bd03603cd9f3c0224638d7
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="release-a-dimension-based-product-master"></a><span data-ttu-id="cdf21-103">Uz dimensijas balstītas preces šablona izlaišana</span><span class="sxs-lookup"><span data-stu-id="cdf21-103">Release a dimension-based product master</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="cdf21-104">Šajā procedūrā tiek parādīts, kā izlaist preces šablonu, kurš tiks izmantots konfigurācijām atbilstoši dimensijām.</span><span class="sxs-lookup"><span data-stu-id="cdf21-104">This procedure shows how to release a product master, which will be used for the dimension-based configurations.</span></span> <span data-ttu-id="cdf21-105">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="cdf21-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="cdf21-106">Tas ir priekšnoteikums, ka esat izveidojis preces šablonu ar konfigurācijas atbilstoši dimensijām tehnoloģiju.</span><span class="sxs-lookup"><span data-stu-id="cdf21-106">It is a prerequisite that you have created a product master with the dimension-based configuration technology.</span></span> <span data-ttu-id="cdf21-107">Šī ir otrā procedūra no astoņām, kurā ir skaidrots, kā veidot kombinācijas konfigurācijai atbilstoši dimensijām.</span><span class="sxs-lookup"><span data-stu-id="cdf21-107">This is the second procedure out of eight which explains how to build combinations for dimension-based configuration.</span></span>
 

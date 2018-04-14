@@ -19,19 +19,16 @@ ms.author: hminzner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 06490f14ed01c3061b20a0e6977746e9fd2a6ffa
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2330939ddd7ccf4555cf1eff1e264c51f779c4eb
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="currency-revaluation-in-a-consolidation-company"></a><span data-ttu-id="0bd39-103">Valūtas pārvērtēšana konsolidācijas uzņēmumā</span><span class="sxs-lookup"><span data-stu-id="0bd39-103">Currency revaluation in a consolidation company</span></span>
 
-[!include[banner](../includes/banner.md)]
-
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="0bd39-104">Veicot datu konsolidāciju no vienas norēķinu valūtas uz citu, joprojām jāpalaiž valūtas pārvērtēšana, ja ir izmaiņas valūtas maiņas kursos, lai jūsu konta bilances tiktu pareizi pārvērtētas.</span><span class="sxs-lookup"><span data-stu-id="0bd39-104">When you consolidate data from one accounting currency to another, you must still run currency revaluation if there is a change in exchange rates, so that your account balances  are correctly revalued.</span></span> <span data-ttu-id="0bd39-105">Sākotnēji konsolidējot datus, izmantojiet cilni **Valūtas pārrēķināšana**, lai atlasītu sākotnējos maiņas kursus, pārrēķināšanai konsolidācijas procesa laikā.</span><span class="sxs-lookup"><span data-stu-id="0bd39-105">When you originally consolidate the data, use the **Currency translation** tab to select the initial exchange rates to for translation during the consolidation process.</span></span> <span data-ttu-id="0bd39-106">Pēc jaunā valūtas maiņas kursa ievadīšanas (piemēram, nākamajā mēnesī), nepieciešams pārvērtēt kontu bilances.</span><span class="sxs-lookup"><span data-stu-id="0bd39-106">After a new exchange rate is entered (for example, in the next month), you must revalue the account balances.</span></span> <span data-ttu-id="0bd39-107">Nerealizētā peļņa vai zaudējumi pēc tam tiek attiecīgi atjaunināta, pamatojoties uz jauno valūtas maiņas kursu un datumu.</span><span class="sxs-lookup"><span data-stu-id="0bd39-107">The unrealized gains or losses are then updated accordingly, based on the new exchange rate and date.</span></span> <span data-ttu-id="0bd39-108">Šajā piemērā tiek parādīti uzskaites ieraksti, kas tiek izveidoti procesa laikā.</span><span class="sxs-lookup"><span data-stu-id="0bd39-108">The following example illustrates the accounting entries that are created during the process.</span></span>
 
@@ -52,6 +49,7 @@ ms.lasthandoff: 01/17/2018
 | <span data-ttu-id="0bd39-126">11.10.2015</span><span class="sxs-lookup"><span data-stu-id="0bd39-126">10/11/2015</span></span> | <span data-ttu-id="0bd39-127">130100 – Debitoru parādi</span><span class="sxs-lookup"><span data-stu-id="0bd39-127">130100 – Accounts Receivable</span></span> | <span data-ttu-id="0bd39-128">USD</span><span class="sxs-lookup"><span data-stu-id="0bd39-128">USD</span></span>      | <span data-ttu-id="0bd39-129">-500</span><span class="sxs-lookup"><span data-stu-id="0bd39-129">-500</span></span>   |
 
 ## <a name="exchange-rates"></a><span data-ttu-id="0bd39-130">Valūtu maiņas kursi</span><span class="sxs-lookup"><span data-stu-id="0bd39-130">Exchange rates</span></span>
+
 | <span data-ttu-id="0bd39-131">No valūtas</span><span class="sxs-lookup"><span data-stu-id="0bd39-131">From currency</span></span> | <span data-ttu-id="0bd39-132">Uz valūtu</span><span class="sxs-lookup"><span data-stu-id="0bd39-132">To currency</span></span> | <span data-ttu-id="0bd39-133">Sākuma datums</span><span class="sxs-lookup"><span data-stu-id="0bd39-133">Start date</span></span> | <span data-ttu-id="0bd39-134">Valūtas kurss</span><span class="sxs-lookup"><span data-stu-id="0bd39-134">Exchange rate</span></span> |
 |---------------|-------------|------------|---------------|
 | <span data-ttu-id="0bd39-135">EUR</span><span class="sxs-lookup"><span data-stu-id="0bd39-135">EUR</span></span>           | <span data-ttu-id="0bd39-136">USD</span><span class="sxs-lookup"><span data-stu-id="0bd39-136">USD</span></span>         | <span data-ttu-id="0bd39-137">01.10.2015</span><span class="sxs-lookup"><span data-stu-id="0bd39-137">10/1/2015</span></span>  | <span data-ttu-id="0bd39-138">200</span><span class="sxs-lookup"><span data-stu-id="0bd39-138">200</span></span>           |

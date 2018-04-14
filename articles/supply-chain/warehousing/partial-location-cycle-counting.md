@@ -20,17 +20,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0e0f9d81f4d5943a89d8ac87776e05acb32cb8d9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0e72df11e8fc4a43d74a6fe596a223266ddf5b09
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="partial-location-cycle-counting"></a><span data-ttu-id="b8999-104">Daļēja novietojuma cikla inventarizācija</span><span class="sxs-lookup"><span data-stu-id="b8999-104">Partial location cycle counting</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="b8999-105">Cikla inventarizācijas plāni vada faktiskās inventarizācijas operācijas.</span><span class="sxs-lookup"><span data-stu-id="b8999-105">Cycle count plans guide the actual counting operations.</span></span> <span data-ttu-id="b8999-106">Varat pieprasīt, ka tiek uzskaitītas tikai noteiktas preces un preču varianti, nevis lai visi rīcībā esošie krājumi kādā novietojumā.</span><span class="sxs-lookup"><span data-stu-id="b8999-106">You can request that only specific products and product variants be counted instead of all on-hand inventory in a location.</span></span>
 

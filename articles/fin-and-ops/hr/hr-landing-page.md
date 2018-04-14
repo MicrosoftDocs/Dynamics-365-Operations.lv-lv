@@ -17,16 +17,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 4ded4aee8f7cb15960bcecd30ec30b812b086d92
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 437e6e0cd3052083bb1094f42bb741d491b27242
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="welcome-to-human-resources"></a><span data-ttu-id="05be5-105">Laipni lūdzam personāla vadībā</span><span class="sxs-lookup"><span data-stu-id="05be5-105">Welcome to human resources</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="05be5-106">Personāla vadība racionalizē daudzus ikdienas lietvedības uzdevumus un automatizē vairākus ar jūsu organizācijas personālu saistītus procesus.</span><span class="sxs-lookup"><span data-stu-id="05be5-106">Human resources streamlines many routine recordkeeping tasks and automates a number of processes related to staffing your organization.</span></span> <span data-ttu-id="05be5-107">Personāla vadības darbiniekiem tā nodrošina arī struktūru uzraudzības jomu pārvaldīšanai.</span><span class="sxs-lookup"><span data-stu-id="05be5-107">It also provides a framework for human resources staff to manage areas of oversight.</span></span> <span data-ttu-id="05be5-108">Šajās jomās ietilpst darbinieku pieņemšana darbā, kā arī ieturējumu un atvieglojumu administrēšana, apmācība, darba izpildes novērtējumi un izmaiņu pārvaldība.</span><span class="sxs-lookup"><span data-stu-id="05be5-108">These areas include employee recruitment and retention, benefits administration, training, performance reviews, and change management.</span></span>
 
