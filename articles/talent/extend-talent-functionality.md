@@ -3,7 +3,7 @@ title: "Microsoft Dynamics 365 for Talent funkcionalitātes paplašināšana"
 description: "Ja esat izveidojis kādas Microsoft PowerApps programmas, šīs programmas varat palaist no saitēm programmatūrā Microsoft Dynamics 365 for Talent."
 author: rschloma
 manager: AnnBe
-ms.date: 11/28/2017
+ms.date: 03/21/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -35,15 +35,16 @@ Lai Talent lapas konfigurētu PowerApps programmu palaišanai, izmantojiet lapu 
 
 Šajā lapā tiek ievadīta vai iestatīta tālāk norādītā informācija. 
 
-> - Katras PowerApps programmas aprakstošs nosaukums vai identifikators.
-> - Unikāls identifikators (GUID) katrai programmai, kuru pievienojat lapai Talent. Šis programmas ID ir pieejams PowerApps vietnē [powerapps.com](http://powerapps.com/). 
-> - Lapa, no kuras lietotāji var atvērt kādu programmu vai pārskatu. Ne visas Talent lapas atbalsta iegultās PowerApps programmas un Power BI pārskatus. 
-> 
-> [!NOTE]
->  Ievadiet lapas iekšējo nosaukumu, nevis parādāmo nosaukumu, kurš ir redzams lapas augšdaļā. Lai atrastu iekšējo nosaukumu, atveriet lapu, kuras iekšējais nosaukums jums ir nepieciešams, un ar peles labo pogu noklikšķiniet jebkurā šīs lapas vietā. Kad tiek atvērta izvēlne, virziet peles rādītāju virs vienuma **Formas informācija**. Iekšējais formas nosaukums izvēlnē tiek rādīts blakus vienumam **Formas informācija**.
-> 
-> - Norādiet formas vadīklu, no kuras programma var izgūt konteksta datus. Piemēram, programma varētu izmantot datus par kādu nodarbināto. Ja laukā **Konteksts** ievadāt lapu **Nodarbinātais**, startējot programmu, tiek atvērta lapa **Nodarbinātais**. Ieraksts laukā **Konteksts** nav obligāts. 
-> - Iestatiet lielumu dialoglodziņam, kurā darbosies PowerApps programmas. Dialoglodziņa rūtiņas ir norādītas kā “mazs” vai “liels”, lai optimizētu lietotāja interfeisu, kad jūsu programma attiecīgi darbojas tālruni vai lielākā ierīcē. 
+ -  Katras PowerApps programmas aprakstošs nosaukums vai identifikators.
+ -  Unikāls identifikators (GUID) katrai programmai, kuru pievienojat lapai Talent. Šis programmas ID ir pieejams PowerApps vietnē [powerapps.com](http://powerapps.com/). 
+ -  Lapa, no kuras lietotāji var atvērt kādu programmu vai pārskatu. Ne visas Talent lapas atbalsta iegultās PowerApps programmas un Power BI pārskatus. 
+
+ > [!NOTE]
+ >  Ievadiet lapas iekšējo nosaukumu, nevis parādāmo nosaukumu, kurš ir redzams lapas augšdaļā. Lai atrastu iekšējo nosaukumu, atveriet lapu, kuras iekšējais nosaukums jums ir nepieciešams, un ar peles labo pogu noklikšķiniet jebkurā šīs lapas vietā. Kad tiek atvērta izvēlne, virziet peles rādītāju virs vienuma **Formas informācija**. Iekšējais formas nosaukums izvēlnē tiek rādīts blakus vienumam **Formas informācija**.
+ 
+-   Norādiet formas vadīklu, no kuras programma var izgūt konteksta datus. Piemēram, programma varētu izmantot datus par kādu nodarbināto. Ja laukā **Konteksts** ievadāt lapu **Nodarbinātais**, startējot programmu, tiek atvērta lapa **Nodarbinātais**. Ieraksts laukā **Konteksts** nav obligāts. 
+-   Iestatiet lielumu dialoglodziņam, kurā darbosies PowerApps programmas. Dialoglodziņa rūtiņas ir norādītas kā “mazs” vai “liels”, lai optimizētu lietotāja interfeisu, kad jūsu programma attiecīgi darbojas tālruni vai lielākā ierīcē. 
+
 
 Varat arī norādīt, kurām juridiskajām personām programma būs pieejama, vai varat to padarīt pieejamu visām savām juridiskajām personām. Pēc noklusējuma jūsu PowerApps programmas ir pieejamas visām juridiskajām personām.
 
