@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a8c2d097626fad905741c35ffa8c13336f8735b9
+ms.sourcegitcommit: 3662bb1a20fbdd3769b94247ac071a7cfd7e04f1
+ms.openlocfilehash: 94c07d18de06a75ad86d69d7c06a78e446f0b506
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 04/20/2018
 
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a><span data-ttu-id="22623-103">Darba sākšana programmā Microsoft Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="22623-103">Getting started with Microsoft Dynamics 365 for Talent</span></span>
@@ -33,7 +33,7 @@ ms.lasthandoff: 04/13/2018
 > [!NOTE] 
 > <span data-ttu-id="22623-107">Šie produkti ir cieši saistīti: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail un Dynamics 365 for Talent.</span><span class="sxs-lookup"><span data-stu-id="22623-107">The following products are closely related: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail; and Dynamics 365 for Talent.</span></span> <span data-ttu-id="22623-108">Visos 3 produktos var būt pieejama tā pati funkcionalitāte.</span><span class="sxs-lookup"><span data-stu-id="22623-108">The same functionality may appear in all 3 products.</span></span> <span data-ttu-id="22623-109">Tādēļ tēmās, kas galvenokārt ir saistītas ar programmatūru Retail, produkta nosaukums ir Dynamics 365 for Retail; tēmās, kas galvenokārt ir saistītas ar programmatūru Talent, produkta nosaukums ir Dynamics 365 for Talent; un tēmās, kas ir saistītas ar galveno produktu, produkta nosaukums ir Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="22623-109">As a result, in topics that are primarily related to Retail, the product name will be Dynamics 365 for Retail; in topics that are primarily related to Talent, the product name will be Dynamics 365 for Talent; and in topics that are related to the core product, the product name will be Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="22623-110">Tēmas, kas sarakstītas vienam produktam, var attiekties uz to pašu funkcionalitāti saistītā produktā.</span><span class="sxs-lookup"><span data-stu-id="22623-110">Topics that are written for one product may apply to the same functionality in a related product.</span></span>
 
-### <a name="personalizing-talent"></a><span data-ttu-id="22623-111">Programmas Talent personalizēšana</span><span class="sxs-lookup"><span data-stu-id="22623-111">Personalizing Talent</span></span> 
+## <a name="personalizing-talent"></a><span data-ttu-id="22623-111">Programmas Talent personalizēšana</span><span class="sxs-lookup"><span data-stu-id="22623-111">Personalizing Talent</span></span> 
 <span data-ttu-id="22623-112">Tālāk norādītajās tēmās ir paskaidrots, kā iestatīt daudzus Dynamics 365 for Talent līdzekļus, kas palīdz ātrāk veikt vajadzīgo darbu.</span><span class="sxs-lookup"><span data-stu-id="22623-112">The following topics show how to set up many features in Dynamics 365 for Talent that make it easier for you to get your work done in a timely manner.</span></span> 
 
 -   <span data-ttu-id="22623-113">[Lietotāja iespēju personalizēšana](../fin-and-ops/get-started/personalize-user-experience.md) — šajā tēmā ir paskaidroti dažādie veidi, kā varat personalizēt programmu Talent un pielāgot produkta daļas atbilstoši savām vēlmēm.</span><span class="sxs-lookup"><span data-stu-id="22623-113">[Personalize the user experience](../fin-and-ops/get-started/personalize-user-experience.md) - This topic explains the different ways in which you can personalize Talent and adapt parts of the product to more closely suite your preferences.</span></span>
@@ -44,7 +44,7 @@ ms.lasthandoff: 04/13/2018
 
 -   <span data-ttu-id="22623-117">[Īsinājumtaustiņi](../fin-and-ops/get-started/shortcut-keys.md) — šajā tēmā ir norādīti ASV tastatūras izkārtojuma īsinājumtaustiņi.</span><span class="sxs-lookup"><span data-stu-id="22623-117">[Keyboard shortcuts](../fin-and-ops/get-started/shortcut-keys.md) - This topic lists keyboard shortcuts for the United States keyboard layout.</span></span> 
 
-### <a name="accessing-information"></a><span data-ttu-id="22623-118">Piekļuve informācijai</span><span class="sxs-lookup"><span data-stu-id="22623-118">Accessing information</span></span>
+## <a name="accessing-information"></a><span data-ttu-id="22623-118">Piekļuve informācijai</span><span class="sxs-lookup"><span data-stu-id="22623-118">Accessing information</span></span>
 <span data-ttu-id="22623-119">Tālāk norādītajās tēmās ir paskaidrots, kā izmantot uzmeklēšanu un meklēšanas un filtrēšanas līdzekļus, lai ātri atrastu informāciju.</span><span class="sxs-lookup"><span data-stu-id="22623-119">The following topics explain how to use lookups, and the search and filtering features, to find information quickly.</span></span> 
 
 -   <span data-ttu-id="22623-120">[Uzmeklēšanas izmantošana informācijas atrašanai](../fin-and-ops/get-started/use-lookups-to-find-information.md) — šajā tēmā ir paskaidrots, kā uzmeklēšana var palīdzēt ātri atrast vajadzīgo vai vēlamo vērtību.</span><span class="sxs-lookup"><span data-stu-id="22623-120">[Use lookups to find information](../fin-and-ops/get-started/use-lookups-to-find-information.md) - This topic shows how lookups can help you quickly find the correct or desired value.</span></span> <span data-ttu-id="22623-121">Šajā tēmā ir aprakstīts, kā darbojas uzmeklēšana, kā arī ir ietverti ieteikumi, kas palīdzēs to optimāli izmantot.</span><span class="sxs-lookup"><span data-stu-id="22623-121">The topic describes how lookups work and includes tips to help you optimize your use of them.</span></span>
