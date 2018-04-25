@@ -3,7 +3,7 @@ title: "Lokalizācijas un normatīvie līdzekļi"
 description: "Šajā tēmā ir sniegts saraksts ar resursiem, kas jums var noderēt, lai uzzinātu papildinformāciju par valstij/reģionam specifisko funkcionalitāti."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 04/12/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,17 +18,16 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1f76359878d162e93d8f8b7c11be529c43c94455
-ms.openlocfilehash: c1c180432e014c69b43612693790a1cac6e54c34
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 389efbe1853264c1503737b55dd7767fdcb966ca
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="localization-and-regulatory-features"></a>Lokalizācijas un normatīvie līdzekļi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Produktā Microsoft Dynamics 365 for Finance and Operations ir ietverta funkcionalitāte tām valstīm/reģioniem, kas minētas [starptautiskajā produktu pieejamības ceļvedī](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Šī funkcionalitāte tiek iespējota, pamatojoties uz aktīvās juridiskās personas primāro adresi. 
 
@@ -51,13 +50,13 @@ Tālāk norādītajos resursos ir sniegta informācija par plānotajiem un jauna
 
 ### <a name="communication-and-alerts"></a>Saziņa un brīdinājumi
 -   [Normatīvā uzraudzība un informēšana par normatīvajiem jaunumiem](regulatory-watch-communication.md)
--   [Informēt korporāciju Microsoft par valsts/reģiona normatīvu brīdinājumiem un sekot līdzi normatīvo līdzekļu statusam](submit-localization-alerts.md)
+-   [Informēt korporāciju Microsoft par valsts/reģiona tiesību aktu brīdinājumiem un sekot līdzi normatīvo līdzekļu statusam](submit-localization-alerts.md)
 
-### <a name="dynamics-365-roadmap"></a>Dynamics 365 rīcības plāns
-[Dynamics 365 rīcības plāns](https://roadmap.dynamics.com/) nodrošina momentuzņēmumu par to, pie kā mēs strādājam. Izmantojiet šo rīcības plānu, lai uzzinātu, kas jau ir vispārīgi pieejams un kas vēl atrodas izstrādes stadijā. Visi datumi un līdzekļi, kas atrodas izstrādes stadijā, ir provizoriski, pamatojoties uz pašreizējām prognozēm, un var tikt mainīti bez iepriekšēja brīdinājuma.
+### <a name="dynamics-365-release-notes"></a>Dynamics 365 laidiena piezīmes
+[Dynamics 365 laidiena piezīmes (lejupielādēt PDF failu)](https://aka.ms/businessappsreleasenotes) apraksta jaunas un uzlabotas iespējas Dynamics 365 biznesa programmās un programmu platformās. 
 
 ## <a name="electronic-reporting"></a>Elektroniskie pārskati
-Elektronisko pārskatu veidošanas (Electronic reporting — ER) rīks jums ļauj konfigurēt elektronisko dokumentu formātus saskaņā ar dažādu valstu/reģionu likumu prasībām. ER jums ļauj šos formātus pārvaldīt to lietošanas cikla laikā. Papildinformāciju skatiet kādā no tālāk norādītajām tēmām.
+Elektronisko pārskatu (ER) veidošanas rīks ļauj konfigurēt elektronisko dokumentu formātus saskaņā ar dažādu valstu/reģionu likumu prasībām. ER jums ļauj šos formātus pārvaldīt to lietošanas cikla laikā. Papildinformāciju skatiet kādā no tālāk norādītajām tēmām.
 -   [Elektronisko pārskatu veidošanas apskats](../analytics/general-electronic-reporting.md)
 -   [Pārvaldīt elektronisko pārskatu veidošanas konfigurācijas dzīves ciklu](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
 -   [Izveidot elektronisko pārskatu veidošanas konfigurāciju](../analytics/electronic-reporting-configuration.md)
@@ -66,7 +65,7 @@ Elektronisko pārskatu veidošanas (Electronic reporting — ER) rīks jums ļa
 -   [Lejupielādēt elektronisko pārskatu veidošanas konfigurāciju no Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
 -   [Elektronisko pārskatu veidošanas konfigurāciju importēšana](../analytics/electronic-reporting-import-ger-configurations.md)
 -   [Konfigurēt elektroniskos pārskatus, lai atgādātu datus pakalpojumā Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [Elektronisko dokumentu ģenerēšana un pieteikumu datu atjaunināšana, izmantojot elektronisko pārskatu veidošanas rīku](../analytics/generate-electronic-documents-update-application-data.md)
+-   [Elektronisko dokumentu izveide un programmu datu atjaunināšana, izmantojot elektronisko pārskatu veidošanas rīku](../analytics/generate-electronic-documents-update-application-data.md)
 
 ## <a name="task-guides"></a>Uzdevumu ceļveži
 Uzdevumu ceļveži ir pieejami produktu palīdzības rūtī, un tajos ir iekļauti norādījumi saistībā ar svarīgākajiem biznesa procesiem. Varat atvērt uzdevuma ceļvedi, lai uzzinātu par biznesa procesa darbībām, vai arī varat to atskaņot, lai skatītu informāciju par biznesa procesu un datu ievadi.
@@ -79,31 +78,15 @@ Papildinformāciju skatiet sadaļā [Uzdevumu ceļveži](../../fin-and-ops/get-s
 ## <a name="countryregion-specific-help-topics"></a>Valstij/reģionam specifiskās palīdzības tēmas
 Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 
-### <a name="australia"></a>Austrālija
-
--   [Bankas failu formāti](../../financials/localizations/apac-aus-method-of-payment-pay-vendors-banks.md)
--   [Saimnieciskās darbības pārskats ](../../financials/localizations/apac-aus-business-activity-statement.md)
--   [Pamatlīdzekļu nolietojuma aprēķina metode](../../financials/localizations/apac-aus-low-value-pool-depreciation.md)
-
-### <a name="austria"></a>Austrija
-
-- [Pusgada nolietojums](../../financials/localizations/emea-aut-half-year-depreciation.md)
-- [Iepakojuma materiālu papildmaksas](../../financials/localizations/emea-aut-packing-material-fee-calculation.md)
-- [Pirkšanas nodokļi](../../financials/localizations/emea-aut-purchase-duties.md)
-- [PVN deklarācija](../../financials/localizations/emea-aut-vat-statement-details.md)
-
-### <a name="belgium"></a>Beļģija
-
--   [CODA bankas izraksts](../../financials/localizations/emea-bel-coda-bank-statement-import.md)
--   [Intervat nodokļu deklarācija](../../financials/localizations/emea-bel-intervat-tax-declaration.md)
--   [PRODCOM pārskata iestatīšana](../../financials/localizations/emea-bel-prodcom-report.md)
--   [Saskaņošanas pārskati](../../financials/localizations/emea-bel-reconciliation-reports.md)
+### <a name="australiafinancialslocalizationsaustraliamd"></a>[Austrālija](../../financials/localizations/australia.md)
+### <a name="austriafinancialslocalizationsaustriamd"></a>[Austrija](../../financials/localizations/austria.md)
+### <a name="belgiumfinancialslocalizationsbelgiummd"></a>[Beļģija](../../financials/localizations/belgium.md)
 
 ### <a name="brazil"></a>Brazīlija
 
 -   [CIAP pamatlīdzeklis](../../financials/localizations/latam-bra-ciap-fixed-asset.md)
 -   [Finanšu grāmatu konfigurēšana](../../financials/localizations/latam-bra-configure-fiscal-books.md)
--   [Eksporta un importa darījumi virsgrāmatas konsolidēšanai Brazīlijai](../../financials/localizations/latam-bra-general-ledger-consolidation-transactions.md)
+-   [Eksporta un importa darījumi virsgrāmatas konsolidēšanai Brazīlijā](../../financials/localizations/latam-bra-general-ledger-consolidation-transactions.md)
 -   [Finanšu grāmatas](../../financials/localizations/latam-bra-fiscal-books.md)
 -   [Finanšu dokumentu teksta vietturi](../../financials/localizations/latam-bra-fiscal-document-text-placeholders.md)
 -   [Finanšu dokumenti](../../financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework.md)
@@ -132,25 +115,12 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 -   [Importēt datu elementu Ķīnas zelta nodokļi](../../financials/localizations/apac-chn-import-golden-tax-data-entity.md)
 -   [Mēneša vidējo izmaksu modelis](../../financials/localizations/apac-chn-monthly-average-cost-model.md)
 -   [Grāmatot krājumu galvenos kontus pēc vietas](../../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md)
--   [Rādīt debeta un kredīta summas virsgrāmatas kontiem](../../financials/localizations/apac-chn-negative-debits-credits.md)
+-   [Virsgrāmatas kontu debeta un kredīta summu rādīšana](../../financials/localizations/apac-chn-negative-debits-credits.md)
 
-### <a name="the-czech-republic"></a>Čehija
-
--   [Termiņatlaide kredīta notā](../../financials/localizations/emea-cze-credit-note-cash-discount.md)
--   [Nolietojuma noapaļošana](../../financials/localizations/emea-cze-depreciation-rounding.md)
--   [Pamatlīdzekļu norakstīšanas pusgada nolietojums Čehijai](../../financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal.md)
--   [Nolietojuma atlikšana (holidays.md)](../../financials/localizations/emea-cze-depreciation-suspension-holidays.md)
--   [Pamatlīdzekļu nolietojuma metodes Čehijai](../../financials/localizations/emea-cze-fixed-assets-depreciation.md)
--   [Grāmatot pamatlīdzekļa pirmsiegādi](../../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md)
--   [PVN deklarācija Čehijai](../../financials/localizations/emea-cze-vat-statement-details.md)
--   [PVN pārskats ](../../financials/localizations/emea-cze-intra-community-vat-transactions.md)
--   [Sadalīt periodus periodiskajos žurnālos](../../financials/localizations/emea-create-post-periodic-journals.md)
--   [Iestatīt parakstītājus drukātajām formām](../../financials/localizations/emea-set-up-signers-for-printing-forms.md)
--   [Atjaunināt veidu, kā summas tiek rādītas pārskatos un dokumentos](../../financials/localizations/emea-amount-printing-forms.md)
+### <a name="the-czech-republicfinancialslocalizationsczech-republicmd"></a>[Čehija](../../financials/localizations/czech-republic.md)
 
 ### <a name="estonia"></a>Igaunija
-
--   [PVN deklarācijas informācija Igaunijai](../../financials/localizations/emea-est-vat-statement-details.md)
+-   [PVN deklarācijas informācija Igaunijā](../../financials/localizations/emea-est-vat-statement-details.md)
 -   [Pamatlīdzekļu norakstīšana](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
 
 ### <a name="europe"></a>Eiropa
@@ -165,7 +135,7 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 - [ES pārdošanas saraksta pārskats](../../financials/localizations/emea-eu-sales-list.md)
 - [Valūtas maiņas kursa korekcijas](../../financials/localizations/emea-exchange-rate-adjustments.md)
 - [Maksāšanas metožu failu formāti](../../financials/localizations/emea-select-file-formats-for-the-method-of-payments.md)
-- [Pamatlīdzekļu norakstīšana Igaunijai un Lietuvai](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
+- [Pamatlīdzekļu norakstīšana Igaunijā un Lietuvā](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
 - [Importēt ISO20022 failus](../../financials/localizations/emea-ISO20022-file-formats.md)
 - [Intrastat](../../financials/localizations/emea-intrastat.md)
 - [Krājumu žurnāla pārskati](../../financials/localizations/emea-set-up-report-inventory-journal-names.md)
@@ -215,7 +185,7 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 ### <a name="hungary"></a>Ungārija
 
 -   [Pamatlīdzekļu nolietojuma metodes](../../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)    
--   [Pamatlīdzekļa pārvietošana uz krājumu](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
+-   [Pamatlīdzekļa pārvietošana uz krājumiem](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
 -   [Lētie pamatlīdzekļi](../../financials/localizations/emea-hun-low-cost-fixed-assets.md)
 
 ### <a name="india"></a>Indija
@@ -280,7 +250,7 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 -   [Korekcijas inflācijas deklarācijas pārskats](../../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md)
 -   [ISR deklarācijas pārskats](../../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md)
 -   [Elektroniskie rēķini (CFDI)](../../financials/localizations/latam-mex-CFDI-electronic-invoices.md)
-   
+
 ### <a name="malaysia"></a>Malaizija
 
 -   [Preču un pakalpojumu nodoklis (GST)](../../financials/localizations/apac-mys-gst.md)
@@ -291,7 +261,7 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 
 ### <a name="norway"></a>Norvēģija
 
--   [Kases sistēmas Norvēģijai](../../retail/localizations/emea-nor-cash-registers.md)
+-   [Kases sistēmas Norvēģijā](../../retail/localizations/emea-nor-cash-registers.md)
 -   [Izvietošanas vadlīnijas kases sistēmām Norvēģijai](../../retail/localizations/emea-nor-loc-deployment-guidelines.md)
 -   [Importēšanas formāts Nets](../../financials/localizations/emea-nor-nets-import-format.md)
 -   [PVN deklarācija](../../financials/localizations/emea-nor-sales-tax-payment-report.md)
@@ -333,7 +303,7 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 ### <a name="sweden"></a>Zviedrija
 
 -   [Importa maksājumu formāts Zviedrijai](../../financials/localizations/emea-swe-payment-formats-import.md)
--   [Kases sistēmas Zviedrijai](../../retail/localizations/emea-swe-cash-registers.md)
+-   [Kases sistēmas Zviedrijā](../../retail/localizations/emea-swe-cash-registers.md)
 
 ### <a name="switzerland"></a>Šveice
 
