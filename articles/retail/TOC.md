@@ -29,10 +29,10 @@
 # Zvanu centrs
 ## [Zvanu centra apskats](call-center-functionality.md)
 ## [Zvanu centra katalogi](call-center-catalogs.md)
-## [Izveidot zvanu centra katalogu](create-call-center-catalogs.md)
-## [Iestatīt pārkāpumu brīdinājumus](set-up-fraud-alerts.md)
-## [Iestatīt pasūtījumu apstrādes opcijas](set-up-order-processing-options.md)
-## [Iestatīt nepārtrauktības programmu zvanu centram](set-up-continuity-program.md)
+## [Zvanu centra kataloga izveidošana](create-call-center-catalogs.md)
+## [Pārkāpumu brīdinājumu iestatīšana](set-up-fraud-alerts.md)
+## [Zvanu centra iestatīšana](set-up-order-processing-options.md)
+## [Nepārtrauktības programmas iestatīšana zvanu centram](set-up-continuity-program.md)
 ## [Pasūtījumu aizturēšana](work-with-order-holds.md)
 ## [Maksājumu opcijas](work-with-payments.md)
 
@@ -49,6 +49,7 @@
 ## [POS operācijas tiešsaistē un bezsaistē](pos-operations.md)
 ## [Demonstrācijas datu ekrāna izkārtojumi programmā MPOS/CPOS](demo-data.md)
 ## [Apskats par preču un debitoru meklēšanu pārdošanas punktā](POS-search-improvements.md)
+## [​Krājumu uzmeklēšana pārdošanas punktā](product-variants-POS.md)
 ## Aparatūras perifērijas ierīces
 ### [Retail perifērijas ierīču apskats](retail-peripherals-overview.md)
 ### [Microsoft pārbaudītas POS aparatūras perifērijas ierīces](microsoft-tested-pos-hardware-peripherals.md)
@@ -92,22 +93,23 @@
 ## [Analizēt pārdošanas tendences un modeļus](analyze-sales-trends-patterns.md)
 ## [Novērtēt veiktspēju pēc preces](sales-performance-products.md)
 ## [Novērtēt debitoru un preču ienesīgumu](assess-customer-product-profitability.md)
-## [Analizēt veikala veiktspēju](store-performance-information.md)
-## [Iestatīt RFM analīzi](set-up-rfm-analysis.md)
+## [Veikala veiktspējas analīze](store-performance-information.md)
+## [RFM analīzes iestatīšana](set-up-rfm-analysis.md)
 
 # Atlaides un cenu korekcijas
+## [Retail pārdošanas cenu pārvaldība](price-management.md)
 ## [Cenu korekcijas un atlaides](price-adjustments-discounts.md)
-## [Noteikt optimālo kombināciju atlaidēm, kas pārklājas](optimal-combination-overlapping-discounts.md)
+## [Optimālās kombinācijas noteikšana atlaidēm, kas pārklājas](optimal-combination-overlapping-discounts.md)
 ## [Definēt kanālam raksturīgās atlaides](define-channel-specific-discounts.md)
-## [Nepieļaut atlaižu piemērošanu mazumtirdzniecības produktiem](prevent-discounts.md)
-## [Izveidot mazumtirdzniecības pārdošanas kuponus](retail-coupons.md)
+## [Nepieļaut atlaižu piemērošanu Retail produktiem](prevent-discounts.md)
+## [Izveidot Retail pārdošanas kuponus](retail-coupons.md)
 
 # Preces un virzīšana tirgū
 ## [Preču informācijas apskats](../supply-chain/pim/product-information.md)
-## [Mazumtirdzniecības hierarhijas](retail-hierarchies.md)
+## [Retail hierarhijas](retail-hierarchies.md)
 ## [Atribūtu un atribūtu grupu apskats](attribute-attributegroups-lifecycle.md)
 ## [Izveidot un pārvaldīt atribūtus](create-manage-attributes.md)
-## [Iestatīt mazumtirdzniecības preces](set-up-retail-products.md)
+## [Iestatīt Retail preces](set-up-retail-products.md)
 ## [Uzlabota preču un kategorijas pārvaldība](category-management-product-creation.md)
 ## [Preču dimensijas](../supply-chain/pim/product-dimensions.md)
 ## [Iestatīt svītrkodus](set-up-bar-codes.md)
@@ -138,15 +140,19 @@
 ## [Organizēt darbaspēku, izmantojot nodaļas, darbus un amatus](../talent/departments-jobs-positions.md)
 ## [Darba komponentu iestatīšana](../talent/create-job.md)
 
-# Lokalizācijas un normatīvie līdzekļi
+# ​Lokalizācijas un normatīvie līdzekļi
+## Francija
+### [Kases sistēmas Francijā](localizations/emea-fra-cash-registers.md)
+### [Izvietošanas vadlīnijas par kases sistēmām Francijā](localizations/emea-fra-deployment.md)
 ## Indija
-### [GST integrācija kases sistēmām Indijai](localizations/apac-ind-cash-registers.md)
-### [Izvietošanas vadlīnijas kases sistēmām Indijai](localizations/apac-ind-loc-deployment-guidelines.md)
+### [GST integrācija kases sistēmām](localizations/apac-ind-cash-registers.md)
+### [Izvietošanas vadlīnijas par kases sistēmām Indijā](localizations/apac-ind-loc-deployment-guidelines.md)
 ## Norvēģija
-### [Kases sistēmas Norvēģijai](localizations/emea-nor-cash-registers.md)
-### [Izvietošanas vadlīnijas kases sistēmām Norvēģijai](localizations/emea-nor-loc-deployment-guidelines.md)
+### [Kases sistēmas Norvēģijā](localizations/emea-nor-cash-registers.md)
+### [Izvietošanas vadlīnijas par kases sistēmām Norvēģijā](localizations/emea-nor-loc-deployment-guidelines.md)
 ## Zviedrija
-### [Kases sistēmas Zviedrijai](localizations/emea-swe-cash-registers.md)
+### [Kases sistēmas Zviedrijā](localizations/emea-swe-cash-registers.md)
+### [Paraugs Retail POS integrācijai ar vadības ierīcēm](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
 
 # Retail uzdevumi
 ## [Preces izveide](../supply-chain/pim/tasks/create-product.md)
@@ -260,6 +266,7 @@
 ### [E-komercijas platformas SDK](dev-itpro/ecommerce-platform-sdk.md)
 
 ## Maksājumu savienotāja paplašināmība
+### [Maksājumu integrācija ar maksājumu termināli](dev-itpro/end-to-end-payment-extension.md)
 ### [Maksājumu savienotāja un maksājumu ierīces ieviešana (tehniskais dokuments)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
 ### [Maksājumu savienotāja izvietošana](dev-itpro/deploy-payment-connector.md)
 ### [Windows instalētāja izveide maksājumu savienotājam](dev-itpro/create-windows-installer-payment-connector.md)
@@ -269,9 +276,10 @@
 ### [Retail SDK paplašināmības paraugi](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
 ### [Retail SDK iepakojums](dev-itpro/retail-sdk/retail-sdk-packaging.md)
 ### [Retail SDK paraugi ](dev-itpro/retail-sdk/retail-sdk-samples.md)
+#### [Paplašinājuma punkti pavadzīmēm](dev-itpro/extensions-shipping-carrier-integration.md)
 ### [Kanāla datu bāzes (DB) paplašinājumi](dev-itpro/channel-db-extensions.md)
 ### [CDX paplašināmība](dev-itpro/cdx-extensibility.md)
-### [Pasūtījuma atribūti](dev-itpro/order-attributes.md)
+### [Pasūtījumu atribūti](dev-itpro/order-attributes.md)
 ### [Debitora atribūti](dev-itpro/customer-attributes.md)
 ### [Retail mašīnraksts un C# starpniekserveris](dev-itpro/typescript-proxy-retail-pos.md)
 ### [Retail POS paraugu palaišana](dev-itpro/pos-run-samples.md)

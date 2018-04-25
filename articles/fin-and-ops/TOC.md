@@ -1,3 +1,4 @@
+
 # [Dynamics 365 for Finance and Operations](index.md)
 
 ## Darba sākšana
@@ -17,13 +18,15 @@
 ##### [Finance and Operations (lokālas versijas) iegāde](get-started/purchase-on-premises.md)
 
 ### [Jaunumi un izmaiņas](get-started/whats-new-changed.md)
+#### [Programmatūras dzīves cikla politika un mākoņa laidieni](../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json)
+#### [Programmatūras dzīves cikla politika un lokāli laidieni](../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json)
 #### [Noņemtie vai novecojušie līdzekļi](../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json)
-#### [Atliktie AX 2012 līdzekļi](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
+#### [AX 2012 līdzekļi, kas tika atlikti](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [Līdzekļi, kas nav ieviesti lokālos izvietojumos](get-started/features-not-implemented-on-prem.md)
-#### [Atjauninājums Platform update 15 (2018. gada marts)](get-started/whats-new-platform-update-15.md)
-#### [Laidieni un dzīves cikla politika](../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json)
-#### [Lokāli izvietojumi (2018. gada marts)](get-started/whats-new-LBD-PU12-App72.md)
-#### [Finance and Operations, Enterprise Edition 7.3](get-started/whats-new-application-7.3-update.md)
+#### [Finance and Operations 8.0 (2018. gada aprīlis)](get-started/whats-new-changed-8-0-April-2018.md)
+#### [Platformas 15. atjauninājums (2018. gada marts)](get-started/whats-new-platform-update-15.md)
+#### [Versijas 7.2 lokāls izvietojums ar platformas 12. atjauninājumu (2018. gada marts)](get-started/whats-new-LBD-PU12-App72.md)
+#### [Finance and Operations, Enterprise edition 7.3](get-started/whats-new-application-7.3-update.md)
 #### [Atjauninājums Platform update 12 (2017. gada novembris)](get-started/whats-new-platform-update-12.md)
 #### [Atjauninājums Platform update 11 (2017. gada oktobris)](get-started/whats-new-platform-update-11.md)
 #### [Atjauninājums Platform update 10 (2017. gada augusts)](get-started/whats-new-platform-update-10.md)
@@ -162,6 +165,10 @@
 ###### [Programmā Finance and Operations ietverto pārdošanas piedāvājumu galveņu un rindu tieša sinhronizēšana no programmas Sales](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
 ###### [Pārdošanas pasūtījumu tieša sinhronizēšana no programmas Finance and Operations uz programmu Sales un otrādi](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
 ###### [Programmā Finance and Operations ietverto pārdošanas rēķinu galveņu un rindu tieša sinhronizēšana ar programmu Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+##### [Integrācijas konfigurēšana ar Field Service](../supply-chain/sales-marketing/field-service.md)
+###### [Programmā Finance and Operations ietverto preču sinhronizēšana ar precēm programmā Field Service](../supply-chain/sales-marketing/field-service-product.md)
+###### [Programmā Field Service ietverto darba pasūtījumu sinhronizēšana ar pārdošanas pasūtījumiem programmā Finance and Operations](../supply-chain/sales-marketing/field-service-work-order.md)
+###### [Programmā Field Service ietverto līgumu rēķinu sinhronizēšana ar brīva teksta rēķiniem programmā Finance and Operations](../supply-chain/sales-marketing/field-service-invoice.md)
 
 
 #### [Ārējo tīmekļa pakalpojumu patērēšana](../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json)
@@ -198,6 +205,8 @@
 #### [Drošība un datu elementi](../dev-itpro/data-entities/security-data-entities.md?toc=/fin-and-ops/toc.json)
 
 ### [Savas datu bāzes izmantošana](../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json)
+
+### [Datu uzdevumu automatizācija](../dev-itpro/data-entities/data-task-automation.md)
 
 ## [Finanšu pārvaldība](../financials/index.md)
 
@@ -753,8 +762,9 @@
 #### [Valūtas maiņas kursa korekcijas](../financials/localizations/emea-exchange-rate-adjustments.md)
 #### [Maksāšanas metožu failu formāti](../financials/localizations/emea-select-file-formats-for-the-method-of-payments.md)
 #### [Finanšu pakalpojumu (ESR) integrācija](../financials/localizations/emea-fiscal-service-integration.md)
-#### [Pamatlīdzekļu norakstīšana Igaunijai un Lietuvai](../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
-#### [Pārsūtīšanas dokumenta ģenerēšana iekšējai krājumu pārsūtīšanai](../financials/localizations/tasks/transfer-document-internal-inventory-transfer.md)
+#### [Pamatlīdzekļu norakstīšana Igaunijā un Lietuvā](../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
+#### [Ārvalstu valūtas pārvērtēšana](../financials/localizations/emea-foreign-currency-revaluation.md)
+#### [Pārsūtīšanas dokumentu ģenerēšana iekšējo krājumu pārsūtīšanai](../financials/localizations/tasks/transfer-document-internal-inventory-transfer.md)
 #### [ES Intrastat deklarācijas ģenerēšana](../financials/localizations/tasks/eur-00002-eu-intrastat-declaration.md)
 #### [ES pārdošanas saraksta pārskata ģenerēšana](../financials/localizations/tasks/eur-00011-eu-sales-list-report.md)
 
@@ -809,13 +819,7 @@
 
 #### [Austrija](../financials/localizations/austria.md)
 
-#### Beļģija
-##### [CODA bankas izraksts](../financials/localizations/emea-bel-coda-bank-statement-import.md)
-##### [Darījumu izveide un pārsūtīšana uz BLWI](../financials/localizations/tasks/be-00011-create-transfer-blwi.md)
-##### [Intervat nodokļu deklarācija](../financials/localizations/emea-bel-intervat-tax-declaration.md)
-##### [PRODCOM pārskata iestatīšana](../financials/localizations/emea-bel-prodcom-report.md)
-##### [Saskaņošanas pārskati](../financials/localizations/emea-bel-reconciliation-reports.md)
-##### [Maksājumu bilances pārskatu iestatīšana](../financials/localizations/tasks/be-00011-set-up-payment-balance-reporting.md)
+#### [Beļģija](../financials/localizations/belgium.md)
 
 #### [Čehija](../financials/localizations/czech-republic.md)
 
@@ -829,10 +833,11 @@
 ##### [Projekta rēķina grāmatošana ar maksājuma kvīti](../financials/localizations/tasks/post-project-invoice-payment-slip.md)
 ##### [Pārdošanas rēķina grāmatošana ar maksājuma kvīti](../financials/localizations/tasks/post-sales-invoice-payment-slip.md)
 ##### [Klientu kontu iestatīšana OIOUBL elektronisko rēķinu izrakstīšanai](../financials/localizations/tasks/set-up-customer-accounts-oioubl-electronic-invoicing.md)
-##### [OIOBL elektronisko rēķinu izrakstīšanas iestatīšana](../financials/localizations/tasks/set-up-oioubl-electronic-invoicing.md)
+##### [OIOUBL elektronisko rēķinu izrakstīšanas iestatīšana](../financials/localizations/tasks/set-up-oioubl-electronic-invoicing.md)
 ##### [Maksājumu kvīts formāta iestatīšana](../financials/localizations/tasks/set-up-payment-slip-format.md)
 
 #### Igaunija
+##### [Personas informācijas pieprasījumi](../financials/localizations/emea-est-personal-info.md)
 ##### [PVN deklarācija](../financials/localizations/emea-est-vat-statement-details.md)
 
 #### Francija
@@ -857,8 +862,11 @@
 ##### [Noraidīto atkārtoti izrakstīto vekseļu žurnāla grāmatošana](../financials/localizations/tasks/fr-00004-post-re-draw-bill-exchange-journal.md)
 ##### [Drukāt vienreizējās izmaksas atgūšanas tekstu debitora rēķinā](../financials/localizations/emea-fra-print-lump-sum-recovery-text.md)
 ##### [RB/SL nolietojums](../financials/localizations/emea-fra-rbsl-depreciation.md)
-##### [Maksāšanas veidu izveidošana](../financials/localizations/tasks/fr-00004-setup-method-payment.md)
+##### [Maksāšanas metodes iestatīšana](../financials/localizations/tasks/fr-00004-setup-method-payment.md)
 ##### [Debitora maksāšanas metodes atjaunināšana](../financials/localizations/tasks/fr-00004-update-method-payment-customer.md)
+##### Retail
+###### [Kases sistēmas](../retail/localizations/emea-fra-cash-registers.md)
+###### [Izvietošanas vadlīnijas kases sistēmām](../retail/localizations/emea-fra-deployment.md)
 
 #### Vācija
 ##### [Papildu iegādes nolietojums](../financials/localizations/emea-deu-additional-acquisition-depreciation.md)
@@ -876,7 +884,8 @@
 ##### [Valūtas maiņas kursa aprēķins](../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md)
 ##### [Pamatlīdzekļu nolietojuma metodes](../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)
 ##### [Lētie pamatlīdzekļi](../financials/localizations/emea-hun-low-cost-fixed-assets.md)
-##### [Pamatlīdzekļa pārvietošana uz krājumu](../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
+##### [Pamatlīdzekļa pārvietošana uz krājumiem](../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
+##### [Nodokļu atmaksas dokumenti](../financials/localizations/emea-hun-tax-reimbursement-docs.md)
 
 #### Islande
 ##### [Kreditora konta izveide un rēķina deklarācijas kategorijas pievienošana](../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md)
@@ -889,10 +898,11 @@
 ##### [Melnā saraksta pārskats](../financials/localizations/emea-ita-black-list-report.md)
 ##### [Kompetences datums](../financials/localizations/emea-ita-competence-date.md)
 ##### [Pamatlīdzekļu nolietojums](../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
-##### [Modello 770](../financials/localizations/emea-ita-modello770.md)
+##### [Modello 770](../financials/localizations/emea-ita-modello770.md)
 ##### [Pavadzīmes datuma pārbaude rēķinos](../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
+##### [Pavadzīmes grāmatošana un drukāšana ar transportēšanas piegādes informāciju](../financials/localizations/emea-ita-packing-slip.md)
 ##### [PVN grāmatas](../financials/localizations/emea-ita-fiscal-books.md)
-##### [Sadalīt maksājumus valsts administrācijai izsniegtiem rēķiniem](../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
+##### [Maksājuma sadale valsts administrācijai izsniegtos rēķinos](../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
 ##### [Ieturētais nodoklis](../financials/localizations/emea-ita-withholding-tax.md)
 
 #### Latvija
@@ -945,6 +955,7 @@
 ##### [Pārdošanas un pirkšanas cikli](../financials/localizations/emea-esp-sales-purchase-cycle.md)
 ##### [Īpašie ieraksti un sākuma lapas](../financials/localizations/emea-esp-opening-sheets-spain.md)
 #### Zviedrija
+##### [Finanšu informācijas eksportēšana auditoriem Zviedrijā](../financials/localizations/emea-swe-sie-standard-report.md)
 ##### [Importa maksājumu formāti](../financials/localizations/emea-swe-payment-formats-import.md)
 ##### [Kases sistēmas](../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json)
 #### Šveice
@@ -1219,7 +1230,8 @@
 #### [SSRS konfigurēšana lokālam izvietojumam](../dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/fin-and-ops/toc.json)
 #### [Drukāšana](../dev-itpro/analytics/print-documents.md?toc=/fin-and-ops/toc.json)
 ##### [Dokumentu maršrutēšanas aģenta instalēšana, lai iespējotu tīkla printera ierīces](../dev-itpro/analytics/install-document-routing-agent.md?toc=/fin-and-ops/toc.json)
-##### [Tīkla printera ierīču instalēšana lokālajās vidēs](../dev-itpro/analytics/install-network-printer-onprem.md?toc=/fin-and-ops/toc.json)
+##### [Dokumentu maršrutēšanas aģenta atjaunināšana](../dev-itpro/analytics/upgrade-document-routing-agent.md)
+##### [Tīkla printera ierīču instalēšana lokālās vidēs](../dev-itpro/analytics/install-network-printer-onprem.md?toc=/fin-and-ops/toc.json)
 ##### [Dokumentu veidošanas, publicēšanas un drukāšanas iespējas lokālos izvietojumos](../dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/fin-and-ops/toc.json)
 ##### [Palaist dokumentu maršrutēšanas aģentu kā Windows pakalpojumu](../dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/fin-and-ops/toc.json)
 #### [Palīdzība ilglaicīgu atskaišu taimautu novēršanā](../dev-itpro/analytics/prevent-long-running-reports-timing-out.md?toc=/fin-and-ops/toc.json)
@@ -1234,6 +1246,7 @@
 
 ### [Elektroniskie pārskati](../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json)
 #### [Elektronisko pārskatu struktūras konfigurēšana](../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json)
+#### [Konfigurācijas izveide](../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json)
 ##### [Konfigurācijas nodrošinātāja izveide un atzīmēšana ar aktīvu statusu elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json)
 ##### [Domēnam specifiska datu modeļa izveide elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json)
 ##### [Modeļa kartējuma definēšana un datu avotu atlase elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json)
@@ -1247,49 +1260,47 @@
 #### [Adresāti](../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json)
 ##### [Mērķu konfigurēšana elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json)
 #### [Konfigurācijas izveide pārskatu ģenerēšanai Microsoft Word formātā elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json)
-#### [Konfigurācijas izveide pārskatu ģenerēšanai OpenXML formātā elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json)
-#### [Formāta modificēšana, atkārtoti lietojot Microsoft Excel veidni elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-modify-format-by-reapplying-microsoft-excel-template-july-2017.md?toc=/fin-and-ops/toc.json)
+#### [Konfigurācijas noformēšana pārskatu izveidei OpenXML formātā elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json)
 #### [Elektronisko pārskatu veidošanas formāta mainīšana, atkārtoti pielietojot Microsoft Excel veidni](../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json)
 #### [Datu modeļa definīcijas atlase, veidojot formātu elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json)
-##### [Konfigurāciju atkarības no citiem komponentiem definēšana elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json)
-##### [Datu modeļa izveide tā, lai finanšu dimensijas tiktu izmantotas kā datu avots elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json)
-##### [Kartēt modeļus finanšu dimensiju kā datu avota lietošanai elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json)
-##### [Noformēt pārskatu finanšu dimensiju kā datu avota lietošanai elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json)
-##### [Tāda pārskata izpilde, kurā finanšu dimensijas tiek izmantotas kā datu avots elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json)
-##### [Skaitīšanas un summēšanas formāta izveide elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json)
-##### [Uzskaites un summēšanas aprēķinu konfigurēšana elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json)
-##### [Izmantot aprēķinus uzskaites un summēšanas izvades datu izveidei elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json)
-##### [Formāta izpilde, lai veiktu skaitīšanu un summēšanu elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json)
-##### [Formāta izveide, lai elektronisko pārskatu veidošanai Excel pārskatos dinamiski pievienotu kolonnas, izmantojot horizontāli paplašināmus diapazonus](../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json)
-##### [Tāda formāta izpilde, kurā Excel pārskatos elektronisko pārskatu veidošanai tiek dinamiski pievienotas kolonnas, izmantojot horizontāli paplašināmus diapazonus](../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json)
-##### [Datu modeļa sagatavošana dokumentu pārvaldības failu lietošanai formāta izvades datos elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json)
-##### [Paplašināt datu modeli dokumentu pārvaldības failu lietošanai formāta izvades datos elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json)
-##### [Izveidot formātu dokumentu pārvaldības failu lietošanai formāta izvades datos elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json)
-##### [Palaist formātu dokumentu pārvaldības failu lietošanai formāta izvades datos elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json)
-##### [Formāta modificēšana un izpilde, lai lietotu dokumentu pārvaldības failus formāta izvades datos elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json)
-##### [Konfigurāciju izveide, lai ģenerētu pārskatus Microsoft Office formātos ar iegultiem attēliem elektronisko pārskatu veidošanai (ER) (1. daļa) ](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json)
-##### [Konfigurāciju pārskatīšana, lai veidotu pārskatus Microsoft Office formātos ar iegultiem attēliem elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json)
-##### [Pārskatu ģenerēšana Microsoft Office formātos ar iegultiem attēliem elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json)
-#### [Elektronisko dokumentu ģenerēšana un programmu datu atjaunināšana, izmantojot elektronisko pārskatu veidošanas rīku](../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json)
-##### [Konfigurāciju importēšana, lai ģenerētu dokumentus, izmantojot pieteikumu datu atjaunināšanu elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json)
-##### [Ģenerēt dokumentus, izmantojot pieteikumu datu atjaunināšanu elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json)
-##### [Modificēt modeli un kartējumu, lai ģenerētu dokumentus, izmantojot pieteikumu datu atjaunināšanu elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json)
-##### [Modificēt formātu, lai ģenerētu dokumentus, izmantojot pieteikumu datu atjaunināšanu elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json)
-##### [Ģenerēt dokumentus, izmantojot pieteikumu datu atjaunināšanu elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json)
-#### [Attēlu un formu iegulšana biznesa dokumentos, kuri tiek ģenerēti, izmantojot elektronisko pārskatu veidošanas rīku](../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json)
-#### [Konfigurācijas augšupielāde portālā Lifecycle Services elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json)
+#### [Konfigurāciju atkarības no citiem komponentiem definēšana elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json)
+##### [Datu modeļa noformēšana, lai finanšu dimensijas izmantotu kā datu avotu](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json)
+##### [Modeļu kartēšana, lai finanšu dimensijas izmantotu kā datu avotu](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json)
+##### [Pārskata noformēšana, lai finanšu dimensijas izmantotu kā datu avotu](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json)
+##### [Tā pārskata darbināšana, kurā finanšu dimensijas ir izmantotas kā datu avots](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json)
+##### [Inventarizācijas un summēšanas formāta izveide](../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json)
+##### [Inventarizācijas un summēšanas aprēķinu konfigurēšana](../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json)
+##### [IAprēķinu izmantošana, lai izveidotu inventarizācijas un summēšanas izvades datus elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json)
+##### [Formāta darbināšana, lai veiktu inventarizāciju un summēšanu](../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json)
+##### [Formāta noformēšana, lai Excel pārskatos dinamiski pievienotu kolonnas, izmantojot horizontāli paplašināmus diapazonus](../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json)
+##### [Tā formāta darbināšana, kurā ir izmantoti horizontāli paplašināmi diapazoni, lai Excel pārskatos dinamiski pievienotu kolonnas](../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json)
+##### [Datu modeļa sagatavošana, lai dokumentu pārvaldības failus lietotu formāta izvades datos](../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json)
+##### [Datu modeļa paplašināšana, lai dokumentu pārvaldības failus lietotu formāta izvades datos](../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json)
+##### [Formāta izveide, lai dokumentu pārvaldības failus lietotu formāta izvades datos](../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json)
+##### [Formāta darbināšana, lai dokumentu pārvaldības failus lietotu formāta izvades datos](../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json)
+##### [Formāta modificēšana un darbināšana, lai dokumentu pārvaldības failus lietotu formāta izvades datos](../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json)
+##### [Konfigurāciju noformēšana, lai veidotu pārskatus Microsoft Office formātos ar iegultajiem attēliem](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json)
+##### [Konfigurāciju pārskatīšana, lai veidotu pārskatus Microsoft Office formātos ar iegultajiem attēliem](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json)
+##### [Pārskatu izveide Microsoft Office formātos ar iegultajiem attēliem](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json)
+#### [Elektronisko dokumentu izveide un programmu datu atjaunināšana, izmantojot elektronisko pārskatu veidošanas rīku](../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json)
+##### [Konfigurāciju importēšana, lai izveidotu dokumentus ar programmas datiem](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json)
+##### [Konfigurāciju noformēšana, lai izveidotu dokumentus ar programmas datiem](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json)
+##### [Modeļa modificēšana un kartēšana, lai izveidotu dokumentus ar programmas datiem](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json)
+##### [Formāta modificēšana, lai izveidotu dokumentus ar programmas datiem](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json)
+##### [Dokumentu izveide ar programmas datiem](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json)
+#### [Attēlu un formu iegulšana biznesa dokumentos, kuri tiek izveidoti, izmantojot elektronisko pārskatu veidošanas rīku](../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json)
+#### [Konfigurācijas dzīves cikla pārvaldība](../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json)
+##### [Konfigurācijas augšupielāde portālā Lifecycle Services elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json)
 ##### [Konfigurācijas importēšana no portāla Lifecycle Services elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json)
-#### [Pārvaldīt konfigurācijas dzīves ciklu](../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json)
-#### [Konfigurācijas izveide](../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json)
-#### [Konfigurāciju lejupielāde no portāla Lifecycle Services](../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json)
-#### [Elektronisko pārskatu veidošanas funkciju paplašināšana](../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json)
-##### [Modeļu kartēšanas konfigurāciju pārvaldība elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json)
+##### [Konfigurāciju lejupielāde no portāla Lifecycle Services](../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json)
+##### [Elektronisko pārskatu veidošanas konfigurāciju importēšana](../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json)
+#### [Modeļu kartēšanas konfigurāciju pārvaldība elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json)
 ##### [Nepieciešamo konfigurāciju izveide datu importēšanai no ārēja faila elektronisko pārskatu veidošanai](../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json)
-#### [Elektronisko pārskatu veidošanas konfigurāciju importēšana](../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json)
-#### [Ienākošo dokumentu parsēšana, lai atjauninātu lietojumprogrammas datus](../dev-itpro/analytics/parse-incoming-electronic-documents.md?toc=/fin-and-ops/toc.json)
+#### [Ienākošo dokumentu parsēšana, lai atjauninātu programmas datus](../dev-itpro/analytics/parse-incoming-electronic-documents.md?toc=/fin-and-ops/toc.json)
 #### [Ienākošo dokumentu parsēšana CSV formātā](../dev-itpro/analytics/parse-incoming-electronic-documents-csv-format.md?toc=/fin-and-ops/toc.json)
+##### [Elektronisko pārskatu veidošanas funkciju paplašināšana](../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json)
+##### [Elektronisko pārskatu veidošanas struktūras API izmaiņas programmas 7.3. atjauninājumam](../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json)
 
-##### [Elektronisko pārskatu veidošanas struktūras API izmaiņas programmai Application update 7.3](../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json)
 
 ### Iegultie analītiskie risinājumi
 #### [Iegultais Power BI darbvietās](../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/fin-and-ops/toc.json)
@@ -1451,8 +1462,9 @@
 #### [Piegādātāja pievienošana](../supply-chain/procurement/vendor-onboarding.md)
 #### [Kreditoru sadarbība ar ārējiem kreditoriem](../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
 #### [Kreditoru sadarbība ar debitoriem](../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
-#### [Iestatīt ārējo katalogus elektroniskai atzīmēšanas sagādei](../supply-chain/procurement/set-up-external-catalog-for-punchout.md)
-#### [Izmantot ārējos katalogus elektroniskai atzīmēšanas sagādei](../supply-chain/procurement/use-external-catalogs-for-punchout.md)
+#### [Piegādātāju katalogu importēšana](../supply-chain/procurement/vendor-catalogs-import.md)
+#### [Ārējā kataloga iestatīšana PunchOut e-sagādei](../supply-chain/procurement/set-up-external-catalog-for-punchout.md)
+#### [Ārējo katalogu izmantošana PunchOut e-sagādei](../supply-chain/procurement/use-external-catalogs-for-punchout.md)
 #### [Kreditoru sadarbības mobilā darbvieta](../supply-chain/procurement/vendor-collaboration-mobile-workspace.md)
 
 ### Sagādes un avotu uzdevumi
@@ -1598,17 +1610,19 @@
 ##### [Materiālu aizstāšana ražošanā](../supply-chain/production-control/substitute-items-bom-lines.md)
 ##### [Ražošanas izpildes reģistrācija](../supply-chain/production-control/registration-manufacturing-execution.md)
 ##### [Ražošanas atsauksmes](../supply-chain/production-control/production-feedback.md)
-##### [Laika un apmeklētības reģistrācija](../supply-chain/production-control/time-attendance-registrations.md)
-##### [Prombūtnes reģistrācija sadaļā Laiks un apmeklētība](../supply-chain/production-control/absence-registration-in-time-and-attendance.md)
 ##### [Algas procesa iespējošana laikam un apmeklētībai](../supply-chain/production-control/tasks/payroll-process-time-attendance.md)
 ##### [Nodarbinātā konfigurēšana, izmantojot mobilo darba ierīci](../supply-chain/production-control/tasks/worker-mobile-job-device.md)
 #### Ražošanas finanšu līdzekļu pārvaldība
 ##### [Laika piešķiršana darbu komplektā iekļautiem darbiem](../supply-chain/production-control/allocate-time-jobs-job-bundle.md)
-##### [Aprēķināt materiālu patēriņu](../supply-chain/production-control/consumption.md)
+##### [Materiālu patēriņa aprēķins](../supply-chain/production-control/consumption.md)
 ##### [Ražošanas grāmatošana](../supply-chain/cost-management/production-posting.md)
+#### [Reģistrācija sadaļā Laiks un apmeklētība](../supply-chain/production-control/time-attendance-registrations.md)
+##### [Apmaksa atbilstoši reģistrācijām](../supply-chain/production-control/pay-based-on-registrations.md)
+##### [Prombūtnes reģistrācija sadaļā Laiks un apmeklētība](../supply-chain/production-control/absence-registration-in-time-and-attendance.md)
+##### [Brīvā režīma grupas](../supply-chain/production-control/time-attendance-flex-groups.md)
 
-### Lean manufacturing 
-#### [Lean manufacturing apskats](../supply-chain/production-control/lean-manufacturing-overview.md)
+### LEAN ražošanas process 
+#### [LEAN ražošanas procesa apskats](../supply-chain/production-control/lean-manufacturing-overview.md)
 #### [No aktivitātēm atkarīgu apakšlīgumu slēgšana](../supply-chain/production-control/activity-based-subcontracting.md)
 
 #### Ražošanas pamatdatu uzturēšana
@@ -1685,7 +1699,7 @@
 ##### [Laika un apmeklētības reģistrācija](../supply-chain/production-control/time-attendance-registrations.md) 
 #### Ražošanas finanšu līdzekļu pārvaldība
 ##### [Laika piešķiršana darbu komplektā iekļautiem darbiem](../supply-chain/production-control/allocate-time-jobs-job-bundle.md)
-##### [Aprēķināt materiālu patēriņu](../supply-chain/production-control/consumption.md)
+##### [Materiālu patēriņa aprēķins](../supply-chain/production-control/consumption.md)
 ##### [Ražošanas grāmatošana](../supply-chain/cost-management/production-posting.md)
 
 ## [Preču informācijas pārvaldība](../supply-chain/pim/product-information.md)
@@ -1834,20 +1848,22 @@
 #### [Svītrkodu atbalsts mobilajās ierīcēs](../supply-chain/warehousing/mobile-barcode-support.md)
 ### [Noliktavas darba politikas](../supply-chain/warehousing/warehouse-work-policies.md)
 #### [Krājumu kustība noliktavas pārvaldībā, ja ar tiem ir saistīts darbs](../supply-chain/warehousing/move-inventory-associated-work.md)
-#### [Pārvaldīt noliktavu darbiniekus](../supply-chain/warehousing/manage-warehouse-workers.md)
+#### [Noliktavu darbinieku pārvaldība](../supply-chain/warehousing/manage-warehouse-workers.md)
 ### Izdošana un iepakošana
+#### [Klastera izdošanas iestatīšana](../supply-chain/warehousing/set-up-cluster-picking.md)
 #### [Partijas un numura zīmes apstiprināšana](../supply-chain/warehousing/batch-and-license-plate-confirmation.md)
 #### [Mobilās ierīces izvēlnes vienuma izveide, lai saņemtu numura zīmes konsolidāciju](../supply-chain/warehousing/tasks/create-mobile-device-license-plate-consolidation.md)
 #### [Jauktas noliktavas vienības saņemšana](../supply-chain/warehousing/mixed-license-plate-receiving.md)
 #### [Vecāko partiju rādīšanas noliktavā konfigurēšana, izmantojot mobilo ierīci](../supply-chain/warehousing/display-older-batches-within-warehouses.md)
 #### [Vecākās partijas izdošana ar mobilo ierīci](../supply-chain/warehousing/pick-oldest-batch.md)
-#### [Svītrkodu skenēšana, izmantojot kameru programmā Dynamics 365 for Finance and Operations](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
+#### [Svītrkodu skenēšana, izmantojot kameru programmā Dynamics 365 for Finance and Operations](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
 #### [Vienības izdošanas apstiprinājums](../supply-chain/warehousing/piece-picking-confirmation.md)
-#### [Preces apstiprināšana klastera izdošanai](../supply-chain/warehousing/cluster-picking-item-confirmation.md)
+#### [Daļēja transporta kravas nosūtīšana](../supply-chain/warehousing/partial-shipping-of-transport-loads.md)
 #### [Daļēji rezervētu pārsūtīšanas pasūtījumu partijas izlaišana](../supply-chain/warehousing/batch-release-of-partially-reserved-transfer-orders.md)
 #### [Iepakojuma materiāli un maksas](../supply-chain/warehousing/pack-materials-packing-material-fees.md)
 ### Krājumu inventarizācija
-#### [Krājuma bloķēšana](../supply-chain/inventory/inventory-blocking.md)
+#### [Krājumu inventarizācijas iemeslu kodi](../supply-chain/warehousing/reason-codes-for-counting-journals.md)
+#### [Krājumu bloķēšana](../supply-chain/inventory/inventory-blocking.md)
 #### [Cikla inventarizācija](../supply-chain/warehousing/cycle-counting.md)
 #### [Cikla inventarizācijas definēšana ](../supply-chain/warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md)
 #### [Daļēja novietojuma cikla inventarizācija](../supply-chain/warehousing/partial-location-cycle-counting.md)
@@ -1857,8 +1873,9 @@
 #### [Krājumu statuss](../supply-chain/inventory/inventory-statuses.md)
 #### [Krājumu etiķešu inventarizācija](../supply-chain/inventory/inventory-tag-counting.md)
 ### [Papildināšana](../supply-chain/warehousing/replenishment.md)
+#### [Tūlītēja papildināšana](../supply-chain/warehousing/immediate-replenishment.md)
 #### [Papildināšana ar atvilkumu Kanban](../supply-chain/warehousing/material-replenishment-withdrawal-kanban.md)
-### [Instalēt un konfigurēt noliktavas programmu ](../supply-chain/warehousing/install-configure-warehousing-app.md)
+### [Noliktavas programmas instalēšana un konfigurēšana ](../supply-chain/warehousing/install-configure-warehousing-app.md)
 #### [Konfigurēt lauku nosaukumus noliktavas programmā](../supply-chain/warehousing/configure-app-field-names-priorities-warehouse.md)
 #### [Iestatīt mobilās ierīces darbam noliktavā](../supply-chain/warehousing/configure-mobile-devices-warehouse.md)
 #### [Mobilās ierīces izvēlnes vienuma iestatīšana pirkšanas pasūtījuma darba pabeigšanai](../supply-chain/warehousing/tasks/set-up-mobile-device-menu.md)

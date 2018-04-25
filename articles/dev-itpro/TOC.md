@@ -114,7 +114,8 @@
 #### [Pielāgošana: pārklāšanās un paplašinājumi](extensibility/customization-overlayering-extensions.md)
 ### Jaunumi
 #### [Paplašināmības izmaiņas, 2017. gada jūlijs](extensibility/changes-july-2017.md)
-#### [Paplašināmības izmaiņas, versija 7.3](extensibility/extensibility-changes-73.md)
+#### [Paplašināmības izmaiņas, versija 7.3](extensibility/extensibility-changes-73.md)
+#### [Paplašināmības izmaiņas, versija 8.0](extensibility/changes-80.md)
 ### Pamati
 #### [Traucējoši pielāgojumi](extensibility/intrusive-customizations.md)
 #### [Klašu paplašinājumi](extensibility/class-extensions.md)
@@ -382,17 +383,18 @@
 
 ### [Datu integrācija, izmantojot pakalpojumu Common Data Service](data-entities/data-integration-cds.md) 
 #### [Potenciālā klienta konfigurēšana uz skaidru naudu](../supply-chain/sales-marketing/prospect-to-cash.md)
-##### [Preču sinhronizēšana no programmas Finance and Operations uz precēm programmā Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
-##### [Kontu sinhronizēšana no programmas Sales uz klientiem programmā Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
-##### [Kontaktpersonu sinhronizēšana no programmas Sales uz kontaktpersonām vai klientiem programmā Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-##### [Pārdošanas piedāvājumu virsrakstu un rindu sinhronizēšana no programmas Sales uz programmu Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
-##### [Pārdošanas pasūtījumu virsrakstu un rindu sinhronizēšana no programmas Finance and Operations uz programmu Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
-##### [Pārdošanas rēķinu virsrakstu un rindu sinhronizēšana no programmas Finance and Operations uz programmu Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 ##### [Programmā Sales ietverto kontu tieša sinhronizēšana ar debitoriem programmā Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ##### [Programmā Finance and Operations ietverto preču tieša sinhronizēšana ar precēm programmā Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ##### [Programmā Sales ietverto kontaktpersonu tieša sinhronizēšana ar kontaktpersonām vai debitoriem programmā Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-##### [Programmā Finance and Operations ietverto pārdošanas pasūtījumu galveņu un rindu tieša sinhronizēšana ar programmu Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+##### [Programmā Finance and Operations ietverto pārdošanas piedāvājumu galveņu un rindu tieša sinhronizēšana no programmas Sales](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+##### [Pārdošanas pasūtījumu tieša sinhronizēšana no programmas Finance and Operations uz programmu Sales un otrādi](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
 ##### [Programmā Finance and Operations ietverto pārdošanas rēķinu galveņu un rindu tieša sinhronizēšana ar programmu Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+#### [Integrācijas konfigurēšana ar Field Service](../supply-chain/sales-marketing/field-service.md)
+##### [Programmā Finance and Operations ietverto preču sinhronizēšana ar precēm programmā Field Service](../supply-chain/sales-marketing/field-service-product.md)
+##### [Programmā Field Service ietverto darba pasūtījumu sinhronizēšana ar pārdošanas pasūtījumiem programmā Finance and Operations](../supply-chain/sales-marketing/field-service-work-order.md)
+##### [Programmā Field Service ietverto līgumu rēķinu sinhronizēšana ar brīva teksta rēķiniem programmā Finance and Operations](../supply-chain/sales-marketing/field-service-invoice.md)
+
+
 
 ### [Ārējo tīmekļa pakalpojumu patērēšana](data-entities/consume-external-web-service.md)
 
@@ -407,7 +409,9 @@
 ### [Konfigurācijas datu veidnes](data-entities/configuration-data-templates.md)
 ### [Datu veidnes ar vairākām darblapām](data-entities/excel-template-multiple.md)
 ### [Elementa izmaiņu izsekošana](data-entities/entity-change-track.md)
+
 ### [Informācijas par standarta datu elementiem meklēšana](data-entities/data-entities-report.md)
+
 
 ## [Datu importēšanas un eksportēšanas darbi](data-entities/data-import-export-job.md)
 
@@ -427,13 +431,18 @@
 
 ## [Savas datu bāzes izmantošana](analytics/export-entities-to-your-own-database.md)
 
-## [Resursi, ko izmanto reaģēšanai uz VDAR datu pieprasījumu](gdpr/gdpr-home-page.md)
-### [Ceļvedis regulā VDAR risinājumam Microsoft Dynamics 365 for Finance and Operations](gdpr/gdpr-auditing-sensitive-data.md)
-### [Izmantot personu meklēšanas pārskatu](gdpr/gdpr-person-search-report.md)
-### [Paplašināt personu meklēšanas pārskatu](gdpr/gdpr-extend-person-search-report.md)
+
+## [Datu uzdevumu automatizācija](data-entities/data-task-automation.md)
+
+## [Resursi atbildes sniegšanai uz VDAR datu pieprasījumu](gdpr/gdpr-home-page.md)
+### [Microsoft Dynamics 365 for Finance and Operations VDAR ceļvedis](gdpr/gdpr-auditing-sensitive-data.md)
+### [Līdzekļu klasifikācijas](gdpr/gdpr-asset-classification-values.md)
+### [Personu meklēšanas pārskata izmantošana](gdpr/gdpr-person-search-report.md)
+### [Personu meklēšanas pārskata paplašināšana](gdpr/gdpr-extend-person-search-report.md)
 ### [Pārvaldīt piekļuvi sensitīviem datiem](gdpr/gdpr-auditing-sensitive-data.md)
 ### [Atbildēt uz personas datu pieprasījumu, izmantojot programmu Talent](gdpr/respond-dsr-request-talent.md)
 ### [Atbildēt uz personas datu pieprasījumu, izmantojot Microsoft Dynamics AX 2012](gdpr/gdpr-ax2012.md)
+
 
 # [Pastāvīgas piegādes sākumlapa](dev-tools/continuous-delivery-home-page.md)
 ## [Bieži uzdotie jautājumi par izstrādi un pastāvīgu piegādi](dev-tools/continuous-delivery-faq.md)
@@ -527,10 +536,11 @@
 ### [AX 2012 jaunināšana — pēc jaunināšanas veicamie uzdevumi](migration-upgrade/app-validation-process.md)
 ### [AX 2012 jaunināšana — funkcionālās pārbaudes izturēšana](migration-upgrade/upgrade-functional-validation.md)
 ### [AX 2012 jaunināšana — sagatavošanās publicēšanai](migration-upgrade/upgrade-go-live-prep.md)
-### [AX 2012 jauninājums — publicēšana](migration-upgrade/2012-upgrade-cutover.md)
+### [AX 2012 jauninājums — publicēšana](migration-upgrade/2012-upgrade-cutover.md)
 
-### Izmaiņas, kas ietekmē jaunināšanu no AX 2012
-#### [Vienots dokumentu un valūtas pārvērtēšanas jauninājums ](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
+### Izmaiņas pēc jaunināšanas no AX 2012
+#### [Kontu plāna norobežotājam ir jābūt unikālam](migration-upgrade/chart-accounts-delimiter-unique.md)
+#### [Vienots dokumentu un valūtas pārvērtēšanas jauninājums](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
 #### [Projekta resursu plānošanas datu modelis](migration-upgrade/data-model-changes-resource-management.md)
 #### [Darbplūsmu apakšsistēmas izmaiņas](migration-upgrade/workflow-subsystem.md)
 #### [Kāpēc kubu vietā sākām izmantot apkopotos modeļus](migration-upgrade/in-memory-real-time-aggregate-models.md)
@@ -568,7 +578,8 @@
 ### [Novecojušie līdzekļi](migration-upgrade/deprecated-features.md)
 
 # [Sistēmas administrēšana](sysadmin/system-administration-home-page.md)
-## [Platformas ikmēneša atjauninājumu BUJ](sysadmin/faq-platform-monthly-updates.md)
+## [Bieži uzdotie jautājumi par platformas ikmēneša atjauninājumiem](sysadmin/faq-platform-monthly-updates.md)
+## [Bieži uzdotie jautājumi par virtuālajām mašīnām, kas neļauj administratora piekļuvi](sysadmin/VMs-no-admin-access.md)
 ## [Saišu pievienošana organizācijas juridiskajiem nosacījumiem un paziņojumam par konfidencialitāti](sysadmin/legal-terms-privacy-statement.md)
 ## [Pārskats par licenču kodiem un konfigurācijas atslēgām](sysadmin/license-codes-configuration-keys-report.md)
 ## [Datu koplietošana uzņēmumos](sysadmin/cross-company-data-sharing.md)
@@ -612,6 +623,7 @@
 ## [Uzdevumu izpilde BPM bibliotēkā](lifecycle-services/complete-tasks-bpm.md)
 ## [Aktivitātes diagrammu izmantošana](lifecycle-services/using-activity-diagrams.md)
 ## [BPM bibliotēkas sinhronizēšana ar Visual Studio Team Services (VSTS)](lifecycle-services/synchronize-bpm-vsts.md)
+## [Pieņemšanas testu komplekta izveide, izmantojot uzdevumu ceļvežus un BPM](lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md)
 ## [Biznesa procesu modelētāja blokshēmas](lifecycle-services/flowcharts-business-process-modeler.md)
 ## [Pielāgotu biznesa procesu augšupielāde](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
 ## [Pārraudzība un diagnostika ](lifecycle-services/monitoring-diagnostics.md)
@@ -620,6 +632,8 @@
 ## [Līdzekļu bibliotēka](lifecycle-services/asset-library.md)
 ## [Microsoft Dynamics 365 — tulkošanas pakalpojuma apskats](lifecycle-services/translation-service-overview.md)
 ### [Microsoft Dynamics 365 — tulkošanas pakalpojuma lietotāja rokasgrāmata](lifecycle-services/use-translation-service.md)
+### [Microsoft Dynamics 365 tulkošanas pakalpojums — dokumentācijas faila tulkojums](lifecycle-services/use-translation-service-ua.md)
+### [Microsoft Dynamics 365 tulkošanas pakalpojums — tulkošanas atmiņa](lifecycle-services/use-translation-service-tm.md)
 
 ## Dynamics AX 2012 Lifecycle Services līdzekļi
 ### Izvietošana
