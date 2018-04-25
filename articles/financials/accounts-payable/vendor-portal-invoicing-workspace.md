@@ -52,16 +52,12 @@ Noklikšķinot uz elementa tiks atvērts lapas **Rēķinu saraksts** filtrētais
 
 Sadaļā **Tabulveida saraksti** rēķinu izrakstīšanas stāvoklis tiek sadalīts līdzīgi kā kopsavilkuma elementi: Melnraksti un Iesniegti, neapstiprināti saraksti. Esot stāvoklī Melnraksts, rēķinu nevar iesniegt darbplūsmai vai dzēst. Rēķinu meklēšanai var izmantot pēdējo tabulveida sarakstu. Lai ātrāk iegūtu rezultātus, varat iestatīt dažādus filtrus.
 
-<a name="all-vendor-invoices-list-page"></a>Visu kreditora rēķinu saraksta lapa
------------------------------
+### <a name="all-vendor-invoices-list-page"></a>Visu kreditora rēķinu saraksta lapa
 
 Visus grāmatotos un negrāmatotos kreditora rēķinus varat skatīt saraksta lapā **Kreditora sadarbības rēķini**. Šo saraksta lapu varat izmantot, lai skatītu rēķinu maksājuma statusu. Maksājumu statusi ir Negrāmatots, Neapmaksāts, Daļēji apmaksāts un Pilnībā apmaksāts.
 Jauna kreditora rēķina izveide no pirkšanas pasūtījuma
---------------------------------------------
 
 Jūs varat izveidot jaunu kreditora rēķinu, atlasot darbību **Jauns** **Kreditora sadarbības rēķinu izveides** darbvietā. Kreditoram jāsniedz pirkšanas pasūtījuma numurs un rēķina numurs. Pēc noklusējuma visas kreditora pirkšanas pasūtījuma rindas tiek iekļautas rēķinā. Daudzuma un izmaksu informāciju var rediģēt pirms kreditora rēķina iesniegšanas darbplūsmai. Pirms rēķina iesniegšanas jūs varat pievienot failus, piezīmes, attēlus un URL vietrāžus.
-
-
 
 Papildinformāciju skatiet šeit: [Kreditoru sadarbība ar ārējiem kreditoriem](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
 
