@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="intercompany-accounting-setup"></a>Starpuzņēmumu uzskaites iestatīšana
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā iestatīt starpuzņēmumu uzskaiti, lai varētu izmantot starpuzņēmumu žurnālus Virsgrāmatas sadalījumiem un finanšu žurnāliem, piemēram, ikdienas žurnāliem, kreditoru rēķinu žurnāliem un maksājumu žurnāliem.
 

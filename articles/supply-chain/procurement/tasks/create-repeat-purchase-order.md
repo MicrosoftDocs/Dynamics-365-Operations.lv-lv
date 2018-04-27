@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-repeat-purchase-order"></a>Atkārtota pirkšanas pasūtījuma izveide
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir parādīts, kā izveidot atkārtotu pirkšanas pasūtījumu (PP), rindas no iepriekšēja pirkšanas pasūtījuma dokumenta kopējot uz jaunu PP vai uz esošu PP. Atkārtotu pasūtījumu izveidošanai pastāv divas metodes. Varat izmantot darbības, kas no darbību rūts ir pieejamas dokumenta līmenī, vai varat izmantot rindas detaļu darbības. Dokumenta līmeņa darbības galvenokārt ir paredzētas jaunu pirkšanas pasūtījumu izveidošanai, pievienojot rindas un virsraksta informāciju no cita pasūtījuma, kamēr rindas detaļu darbība galvenokārt ir paredzēta rindu pievienošanai jau esošam pasūtījumam. Šajā ceļvedī rādīto piemēru var izmantot demonstrācijas datus uzņēmumā USMF. Šo uzdevumu parasti veic pirkšanas aģents.
 

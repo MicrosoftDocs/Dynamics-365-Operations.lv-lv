@@ -29,8 +29,7 @@ ms.lasthandoff: 02/13/2018
 
 # <a name="master-planning-home-page"></a>Vispārējās plānošanas sākumlapa
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Būtībā Vispārējā plānošana ļauj uzņēmumiem noteikt un ieplānot nākotnes nepieciešamības pēc izejmateriāliem un jaudas, lai sasniegtu uzņēmuma mērķus. Vispārējā plānošana novērtē tālāk norādītos faktorus. 
 
@@ -58,6 +57,7 @@ Nākamajā mācību kartē ir parādītas galvenās koncepcijas un uzdevumi, kur
 [![Vispārējās plānošanas mācību karte](./media/master-planning-learning-map.png)](./media/master-planning-learning-map.png)
 
 ## <a name="quick-links"></a>Tiešās saites
+
 |      |   |
 |------|---|
 |        [Vispārējie plāni](master-plans.md)       |     [Ierobežotā plāna ģenerēšana](./tasks/constrained-plan.md)  |

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="accounting-distributions"></a>Uzskaites sadales
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta informācija par uzskaites sadalēm un aprakstītas opcijas, kas ir pieejamas to apstrādāšanai. Uzskaites sadales tiek izmantotas, lai pirmdokumenta naudas summas sadalītu konkrētos virsgrāmatas kontos. 
 

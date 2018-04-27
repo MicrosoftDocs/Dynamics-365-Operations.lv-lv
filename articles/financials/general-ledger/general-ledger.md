@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="general-ledger"></a>Virsgrāmata 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Izmantojiet Virsgrāmatu, lai definētu un pārvaldītu juridiskās personas finanšu ierakstus. Virsgrāmata ir debeta un kredīta ierakstu reģistrs. Šie ieraksti tiek klasificēti, izmantojot kontus, kas uzskaitīti kontu plānā. 
 

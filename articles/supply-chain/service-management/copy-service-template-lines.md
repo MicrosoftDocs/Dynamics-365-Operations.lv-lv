@@ -28,7 +28,7 @@ ms.lasthandoff: 02/27/2018
 
 # <a name="copy-service-templates-lines"></a>Kopēt pakalpojumu veidņu rindas 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Veidnes informāciju var pārkopēt gan uz pakalpojuma līgumu, gan uz pakalpojuma pasūtījumu.
 

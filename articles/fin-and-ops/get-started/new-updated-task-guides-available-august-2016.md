@@ -27,8 +27,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="new-or-updated-task-guides-august-2016"></a>Jauni vai atjaunināti uzdevumu ceļveži (2016. gada augusts)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas ir izlaisti Microsoft APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics AX (2016. gada augusta visu valodu laidienā). Netika izlaista neviena jauna darba sākšanas bibliotēka.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Statisko dimensiju elementu un statistisko mēru nodrošinātāju veidnes
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Statistiskās dimensijas un tās elementus izmanto, lai izmaksu uzskaitē reģistrētu un kontrolētu ierakstus beznaudas vērtībām. Statistiskās dimensijas elementus var izmantot divējādi:
 

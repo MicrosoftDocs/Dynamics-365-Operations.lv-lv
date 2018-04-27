@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Iestatīt detalizētās bankas darbību saskaņošanas importa procesu
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Līdzeklis Detalizēta bankas darbību saskaņošana sniedz iespēju importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmatūrā Microsoft Dynamics 365 for Finance and Operations Šajā rakstā ir paskaidrots, kā iestatīt importēšanas funkcionalitāti saviem bankas izrakstiem. 
 
@@ -57,7 +56,7 @@ Tālāk ir sniegti detalizētās bankas darbību saskaņošanas importētā fail
 | DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
 | DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
 
- 
+
 
 ## <a name="set-up-the-import-of-iso20022-bank-statements"></a>Iestatīt ISO20022 bankas izrakstu importu
 Vispirms ir jādefinē bankas izraksta formāta apstrādes grupa ISO20022 bankas izrakstiem, izmantojot datu elementa struktūru.

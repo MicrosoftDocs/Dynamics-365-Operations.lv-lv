@@ -19,23 +19,23 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 47de452c2072b6a29d7e2d34eb73b472be669a6c
-ms.openlocfilehash: eb6132b6d535deb13a4cd1343d04967893a2cfe9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0936ae3b8d07ef221345bda272170e1482f37cbf
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/25/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="whats-new-or-changed"></a>Jaunumi un izmaiņas
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā lapā ir norādes uz tēmām, kas var palīdzēt jums uzzināt par jaunajiem līdzekļiem Microsoft Dynamics 365 for Finance and Operations Enterprise izdevuma jaunākajās versijās.
 
 Informāciju par jaunināšanu uz pēdējo versiju skatiet sadaļā [Jaunināšana uz pēdējo atjauninājumu](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
 
-[!include[release notes](../includes/release-notes.md)]
+[!INCLUDE [release notes](../includes/release-notes.md)]
 
 ## <a name="application-releases"></a>Programmas laidieni
 
@@ -49,11 +49,11 @@ Informāciju par jaunināšanu uz pēdējo versiju skatiet sadaļā [Jaunināša
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nodot izpildei</th>
+<th>Laidiens</th>
 <th>Versija</th>
 <th>Procesa numurs</th>
 <th>Pieejamība</th>
-<th>Papildinformācija</th>
+<th>Skatīt papildinformāciju</th>
 </tr>
 </thead>
 <tbody>
@@ -61,6 +61,13 @@ Informāciju par jaunināšanu uz pēdējo versiju skatiet sadaļā [Jaunināša
 
 </tr>
 <tr class="even">
+<tr class="even">
+<td>Programma Microsoft Dynamics 365 for Finance and Operations</td>
+<td>8.0</td>
+<td>8.0.30</td>
+<td>2018. aprīlis</td>
+  <td><a href="whats-new-changed-8-0-April-2018.md">Jaunumi un izmaiņas programmatūrā Dynamics 365 for Finance and Operations, versijā 8.0 (2018. gada aprīlis)</a></td>
+</tr>
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevums</td>
 <td>7.3</td>
 <td>7.3.11971.56116</td>
@@ -120,90 +127,90 @@ Informāciju par jaunināšanu uz pēdējo versiju skatiet sadaļā [Jaunināša
 <tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevums</td>
-<td>Platformas update 15</td>
+<td>Platformas 15. atjauninājums</td>
 <td>7.0.4839</td>
-<td>2018. gada marts (Šis ir atlasītās versijas laidiens, kas ir pieejams tikai tiem lietotājiem, kas ir izvēlējušies piedalīties pastāvīgas automātiskās atjaunināšanas priekšrocības programmā (Continuous Auto-update Advantage Program — CAAP).)</td>
+<td>2018. gada marts (Šis ir atlasītās versijas laidiens, kas ir pieejams tikai tiem lietotājiem, kas ir izvēlējušies piedalīties pastāvīgas automātiskās atjaunināšanas priekšrocības programmā (Continuous Auto-update Advantage Program — CAAP). Dynamics 365 for Finance and Operations versijai 8.0 ir pieejams arī Platformas 15. atjauninājums.)</td>
 <td><a href="whats-new-platform-update-15.md">Jaunumi un izmaiņas Dynamics 365 for Finance and Operations Enterprise Edition 15. platformas atjauninājumā (2018. gada marts)</a></td><tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevums</td>
-<td>Platformas update 12</td>
+<td>Platformas 12. atjauninājums</td>
 <td>7.0.4709</td>
 <td>2017. gada novembris</td>
-<td><a href="whats-new-platform-update-12.md">Jaunumi un izmaiņas Dynamics 365 for Finance and Operations, Enterprise Edition 12. platformas atjauninājumā (2017. gada novembris)</a></td>
+<td><a href="whats-new-platform-update-12.md">Jaunumi un izmaiņas Dynamics 365 for Finance and Operations, Enterprise Edition Platformas 12. atjauninājumā (2017. gada novembris)</a></td>
 <tbody><tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevums</td>
-<td>11. platformas atjauninājums</td>
+<td>Platformas 11. atjauninājums</td>
 <td>7.0.4679.35176</td>
 <td>2017. oktobris</td>
-<td><a href="whats-new-platform-update-11.md">Jaunumi un izmaiņas Dynamics 365 for Finance and Operations Enterprise Edition 11. platformas atjauninājumā (2017. gada oktobris)</a></td>
+<td><a href="whats-new-platform-update-11.md">Jaunumi un izmaiņas Dynamics 365 for Finance and Operations Enterprise Edition Platformas 11. atjauninājumā (2017. gada oktobris)</a></td>
 <tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevums</td>
-<td>10. platformas atjauninājums</td>
+<td>Platformas 10. atjauninājums</td>
 <td>7.0.4641.16233</td>
 <td>2017. gada augusts</td>
 <td><a href="whats-new-platform-update-10.md">Jaunumi un izmaiņas Dynamics 365 for Finance and Operations, Enterprise Edition platformas 10. atjauninājumā (2017. augusts)</a></td>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevums</td>
-<td>9. platformas atjauninājums</td>
+<td>Platformas 9. atjauninājums</td>
 <td>7.0.4612.35162</td>
 <td>2017. jūlijs</td>
 <td><a href="whats-new-platform-update-9.md">Jaunumi un izmaiņas Dynamics 365 for Finance and Operations Enterprise izdevuma platformas 9. atjauninājumā (2017. jūlijs)</a></td>
 </tr><tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevums</td>
-<td>8. platformas atjauninājums</td>
+<td>Platformas 8. atjauninājums</td>
 <td>7.0.4565.16212</td>
 <td>2017. jūnijs</td>
 <td><a href="whats-new-platform-update-8.md">Jaunumi un izmaiņas Dynamics 365 for Finance and Operations Enterprise izdevuma platformas 8. atjauninājumā (2017. jūnijs)</a></td>
 </tr>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Operations</td>
-<td>7. platformas atjauninājums</td>
+<td>Platformas 7. atjauninājums</td>
 <td>7.0.4542.16189</td>
 <td>2017. maijs</td>
-<td><a href="whats-new-platform-update-7.md">Jaunumi un izmaiņas Dynamics 365 for Operations 7. platformas atjauninājumā (2017. gada maija laidienā)</a></td>
+<td><a href="whats-new-platform-update-7.md">Jaunumi un izmaiņas Dynamics 365 for Operations platformas 7. atjauninājumā (2017. gada maija laidienā)</a></td>
 </tr>
 <tr class="odd">
 <td>Dynamics 365 for Operations</td>
-<td>6. platformas atjauninājums</td>
+<td>Platformas 6. atjauninājums</td>
 <td>7.0.4509.16180</td>
 <td>2017. aprīlis</td>
-<td><a href="whats-new-platform-update-6.md">Jaunumi un izmaiņas Dynamics 365 for Operations 6. platformas atjauninājumā (2017. gada aprīlis)</a></td>
+<td><a href="whats-new-platform-update-6.md">Jaunumi un izmaiņas Dynamics 365 for Operations platformas 6. atjauninājumā (2017. gada aprīlis)</a></td>
 </tr>
 <tr class="odd">
 <td>Dynamics 365 for Operations</td>
-<td>5. platformas atjauninājums</td>
+<td>Platformas 5. atjauninājums</td>
 <td>7.0.4475.16165</td>
 <td>2017. marts</td>
-<td><a href="whats-new-platform-update-5.md">Jaunumi un izmaiņas Dynamics 365 for Operations 5. platformas atjauninājumā (2017. gada marts)</a></td>
+<td><a href="whats-new-platform-update-5.md">Jaunumi un izmaiņas Dynamics 365 for Operations platformas 5. atjauninājumā (2017. gada marts)</a></td>
 </tr>
 <tr class="odd">
 <td>Dynamics 365 for Operations</td>
-<td>4. platformas atjauninājums</td>
+<td>Platformas 4. atjauninājums</td>
 <td>7.0.4425.16161</td>
 <td>2017. februāris</td>
-<td><a href="whats-new-platform-update-4.md">Jaunumi un izmaiņas Dynamics 365 for Operations 4. platformas atjauninājumā (2017. gada februāris)</a></td>
+<td><a href="whats-new-platform-update-4.md">Jaunumi un izmaiņas Dynamics 365 for Operations platformas 4. atjauninājumā (2017. gada februāris)</a></td>
 </tr>
 <tr class="odd">
 <td>Dynamics 365 for Operations</td>
-<td>3. platformas atjauninājums</td>
+<td>Platformas 3. atjauninājums</td>
 <td>7.0.4307.16141</td>
 <td>2016. gada novembris</td>
-<td><a href="whats-new-platform-update-3.md">Jaunumi un izmaiņas Dynamics 365 for Operations 3. platformas atjauninājumā (2016. gada novembris)</a></td>
+<td><a href="whats-new-platform-update-3.md">Jaunumi un izmaiņas Dynamics 365 for Operations Platformas 3. atjauninājumā (2016. gada novembris)</a></td>
 </tr>
 <tr class="even">
 <td>Microsoft Dynamics AX</td>
-<td>2. platformas atjauninājums</td>
+<td>Platformas 2. atjauninājums</td>
 <td>7.0.4230.16130</td>
 <td>2016. gada augusts</td>
-<td><a href="whats-new-platform-update-2.md">Jaunumi un izmaiņas Dynamics AX 2. platformas atjauninājumā (2016. gada augusts)</a></td>
+<td><a href="whats-new-platform-update-2.md">Jaunumi un izmaiņas Dynamics AX platformas 2. atjauninājumā (2016. gada augusts)</a></td>
 </tr>
 <tr class="odd">
 <td>Microsoft Dynamics AX</td>
-<td>1. platformas atjauninājums</td>
+<td>Platformas 1. atjauninājums</td>
 <td>7.0.4127.16103</td>
 <td>2016. maijs</td>
-<td><a href="whats-new-changed-platform-version-7-1-may-2016.md">Jaunumi un izmaiņas Dynamics AX 1. platformas atjauninājumā (2016. gada maijs)</a></td>
+<td><a href="whats-new-changed-platform-version-7-1-may-2016.md">Jaunumi un izmaiņas Dynamics AX platformas 1. atjauninājumā (2016. gada maijs)</a></td>
 </tr>
 <tr class="odd">
 <td>Microsoft Dynamics AX</td>

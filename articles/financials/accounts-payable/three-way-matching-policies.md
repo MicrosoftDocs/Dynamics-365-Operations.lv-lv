@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="three-way-matching-policies"></a>Trīsvirzienu atbilstības ierobežojumi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegti trīsvirzienu atbilstības piemēri.
 

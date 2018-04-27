@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="resource-capabilities"></a>Resursu iespējas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta informācija par resursu iespējām. Iespēja ir operācijas resursa pieejamība konkrētas aktivitātes izpildīšanai. Rakstā ir izskaidrots, kā iespējas un saistītās koncepcijas, piemēram, prasmes līmenis un prioritāte, tiek izmantotas, lai atlasītu attiecīgos darbības resursus.
 

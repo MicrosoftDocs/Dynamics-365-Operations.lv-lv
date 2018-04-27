@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-pos-permission-groups"></a> POS atļauju grupu izveide
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir paskaidrots, kā izveidot POS atļauju grupu. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USRT. Šis uzdevums ir paredzēts mazumtirdzniecības operāciju pārvaldnieka lomai.
 

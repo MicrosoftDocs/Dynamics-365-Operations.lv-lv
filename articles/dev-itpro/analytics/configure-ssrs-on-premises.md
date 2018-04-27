@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a>SQL Server pārskatu izveides pakalpojumu konfigurēšana lokālam izvietojumam
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Izmantojiet šajā tēmā aprakstītās darbības, lai SQL Server pārskatu izveides pakalpojumus (SSRS) konfigurētu konkrētajai programmas Microsoft Dynamics 365 for Finance and Operations (lokāla versija) izvietošanai.
 
@@ -52,13 +52,13 @@ Izmantojiet šajā tēmā aprakstītās darbības, lai SQL Server pārskatu izv
 
     [![Cilne Tīmekļa portāla URL](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)
     
-  Pēc portāla konfigurēšanas cilne **Tīmekļa portāls** atbildīs tālāk esošajā attēlā redzamajai.
+   Pēc portāla konfigurēšanas cilne **Tīmekļa portāls** atbildīs tālāk esošajā attēlā redzamajai.
     [![Cilne Tīmekļa portāls](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)
     
 8. Noklikšķiniet uz pārskatu URL, lai skatītu SQL Server pārskatu izveides pakalpojumu tīmekļa portālu. 
-9.  Kad esat portālā, izveidojiet jaunu mapi ar nosaukumu **Dynamics**.
+9. Kad esat portālā, izveidojiet jaunu mapi ar nosaukumu **Dynamics**.
 
-    [![Mape Dynamics](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)
+   [![Mape Dynamics](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)
     
 10. Programmā **Pārskatu izveides pakalpojumu konfigurācijas pārvaldnieks** noklikšķiniet uz cilnes **E-pasta iestatījumi** un pārbaudiet, vai iestatījumi atbilst tālāk esošajā attēlā redzamajiem.
 
@@ -68,15 +68,15 @@ Izmantojiet šajā tēmā aprakstītās darbības, lai SQL Server pārskatu izv
 
     [![Cilne Izpildes konts](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)
     
-  Nemainiet cilnes **Šifrēšanas atslēgas** noklusējuma iestatījumus. [![cilne šifrēšanas atslēgas](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)
+    Nemainiet cilnes **Šifrēšanas atslēgas** noklusējuma iestatījumus. [![cilne šifrēšanas atslēgas](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)
     
 12. Noklikšķiniet uz cilnes **Abonēšanas iestatījumi** un pārbaudiet, vai iestatījumi atbilst tālāk esošajā attēlā redzamajiem.
 
     [![Cilne Abonēšanas iestatījumi](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)
     
-  Nemainiet cilnes **Paplašināma izvietošana** noklusējuma iestatījumus. [![cilne paplašināma izvietošana](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
+    Nemainiet cilnes **Paplašināma izvietošana** noklusējuma iestatījumus. [![cilne paplašināma izvietošana](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
     
-  Nemainiet cilnes **Power BI integrācija** noklusējuma iestatījumus. [![cilne power bi integrācija](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png) 
+    Nemainiet cilnes **Power BI integrācija** noklusējuma iestatījumus. [![cilne power bi integrācija](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png) 
     
 13. Noklikšķiniet uz **Iziet**, lai aizvērtu programmu **Pārskatu izveides pakalpojumu konfigurācijas pārvaldnieks**.
 

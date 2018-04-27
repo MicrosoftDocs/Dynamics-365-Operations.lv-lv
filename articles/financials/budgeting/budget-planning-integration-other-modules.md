@@ -19,16 +19,18 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: f50e58d63a9db4d6a8b5390174e2c7b87970717d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6db51f9fa180f0b8ce203fd2812c562b0201afa8
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="budget-planning-integration-with-other-modules"></a>Budžeta plānošanas integrācija ar citiem moduļiem
 
-[!include[banner](../includes/banner.md)] Budžeta plānus var ģenerēt no vairākiem atšķirīgiem resursiem. Periodiskā procesa pamatelementi ir vienādi visiem resursiem. 
+[!INCLUDE [banner](../includes/banner.md)]
+
+ Budžeta plānus var ģenerēt no vairākiem atšķirīgiem resursiem. Periodiskā procesa pamatelementi ir vienādi visiem resursiem. 
 
 
 
@@ -66,7 +68,7 @@ Opcija **Vēsturiskais** cilnē **Mērķis** ļauj jums izmantot datumus no datu
 
 Lauks **Apkopot kopsummu pēc** lapas augšdaļā arī nosaka izmantoto datumu. Šajā laukā aprēķina kopsummas, un pēc izvēles iestata spēkā stāšanās datumu uz finanšu gadu vai finanšu perioda pirmo dienu. 
 
-Daudzi no laukiem cilnē **Mērķis** kļūst rediģējami vai tikai lasāmi atkarībā no atlasītās darbības. Pārejot no jauna budžeta plāna izveides uz esošā plāna atjaunināšanu, lauks **Budžeta plāna nosaukums** kļūst nepieejams, un kļūst pieejami lauki, kas ir saistīti ar esošā plāna atlasi. Cilnē **Mērķis** un cilnē **Avots** nekad nav pieejams lauks **Virsgrāmata**, jo šī vērtība tiek noteikta ar atlasīto budžeta plānošanas procesu. 
+Daudzi no laukiem cilnē <strong>Mērķis</strong> kļūst rediģējami vai tikai lasāmi atkarībā no atlasītās darbības. Pārejot no jauna budžeta plāna izveides uz esošā plāna atjaunināšanu, lauks <strong>Budžeta plāna nosaukums</strong> kļūst nepieejams, un kļūst pieejami lauki, kas ir saistīti ar esošā plāna atlasi. Cilnē <strong>Mērķis</strong> un cilnē <strong>Avots **lauks **Virsgrāmata</strong> nekad nav pieejams, jo vērtība tiek noteikta pēc atlasītā budžeta plānošanas procesa. 
 
 Lauks **Budžeta klase** var iestatīt budžeta plāna rindas kā izdevumu transakcijas vai ieņēmumu transakcijas. Parasti, ieņēmumu transakcijas ir kredīti Virsgrāmatas kontā un tādējādi saglabātas kā negatīvas summas. Parasti šīs transakcijas parādās arī kā negatīvas summas budžeta plānā. Tomēr, pievienojot budžeta klasi kā lauku plāna izkārtojumā, varat iespējot opciju, lai ieņēmumi tiktu rādīti kā pozitīvas summas.
 
@@ -111,7 +113,7 @@ Lauka **Budžeta klase** nav, jo budžeta klasi (**Izdevumus** vai **Ieņēmumus
 
 Projekta budžetus var izmantot kā avotu, atlasot budžeta modeli, kas ietver projekta budžeta summas. Atcerieties, ka projektu budžeti izveido projekta budžeta ierakstus, kad tie tiek apstiprināti.
 
-Lai atlasītu tikai budžeta plāna rindu izmaksas vai ieņēmumus, izmantojiet filtru, lai atlasītu **Budžeta labojumi: Summas tips = Izmaksas**. Lai atlasītu tikai viena tipa prognozes, izmantojiet filtru un atlasiet **Budžeta labojumi: transakcijas tips = *xxx***. 
+Lai atlasītu tikai budžeta plāna rindu izmaksas vai ieņēmumus, izmantojiet filtru, lai atlasītu <strong>Budžeta labojumi: Summas tips = Izmaksas</strong>. Lai atlasītu tikai viena tipa prognozes, izmantojiet filtru, lai atlasītu <strong>Budžeta labojumi: Transakcijas tips = *xxx</strong>*. 
 
 Tikai vienu budžeta modeli var izmantot, lai ģenerētu budžeta plāna scenāriju. Ja veicat procesu vienam budžeta modelim, un pēc tam veicat atjauninājumu un mēģināt norādīt citu modeli, pirmais modelis tiks pārrakstīts, ja lieto vienu un to pašu projektu un Virsgrāmatas konus. Lai ģenerētu budžeta plāna scenāriju no vairāk nekā viena budžeta modeļa, ģenerējiet citos budžeta plāna scenārijos un izmantojiet sadalījuma opcijas, lai tās pievienotu kopā citā scenārijā. 
 

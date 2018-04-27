@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="dimension-hierarchy"></a>Dimensiju hierarhija
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par dimensiju hierarhijām. Izmantojot dimensiju hierarhiju, varat definēt pārskatu struktūru, izmaksu ierobežojumus un drošības iestatījumus modulī Izmaksu uzskaite.  
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="main-account-types"></a>Galveno kontu veidi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Galvenā konta veidi nosaka, kā galvenais konts tiek izmantots kontu plānā.
 

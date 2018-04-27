@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchasing-policies"></a>Pirkšanas ierobežojumi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta informācija par pirkšanas ierobežojumiem. Pirkšanas ierobežojumi ir nosacījumu kopums, kas kontrolē pieprasījumu procesu. Pirkšanas ierobežojumi palīdz sagādes administratoriem ieviest sagādes stratēģiju, izveidojot politikas struktūru, kas ir saskaņota ar organizācijas stratēģiskajām pirkšanas prasībām.
 

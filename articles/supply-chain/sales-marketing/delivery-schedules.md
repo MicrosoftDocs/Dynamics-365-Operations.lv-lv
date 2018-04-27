@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="delivery-schedules"></a>Piegādes grafiki
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Piegādes grafiki ļauj izsekot pasūtījuma rindu daudzumam, ja vienam pārdošanas pasūtījumam, pārdošanas piedāvājumam vai pirkšanas pasūtījumam tiek izmantotas vairākas piegādes.
 

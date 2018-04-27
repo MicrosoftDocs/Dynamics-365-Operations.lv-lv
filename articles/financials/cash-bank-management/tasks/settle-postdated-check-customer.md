@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="settle-a-postdated-check-from-a-customer"></a>Ar iepriekšēju datumu datētu čeku no debitora apmaksa
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ar iepriekšēju datumu datētu čeku var nosegt pēc tam, kad banka to ir dzēsusi. Šī finanšu transakcija dzēš arī pagaidu konta transakciju ar iepriekšēju datumu datētajam čekam. 
 

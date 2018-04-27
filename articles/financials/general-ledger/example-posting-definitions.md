@@ -19,17 +19,16 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1bbd9230219f11407bc7afbd59670c6287b77c02
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 10015952773ce0ae6ab36912df636919b572704d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="posting-definition-examples"></a>Grāmatošanas definīciju piemēri
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegti piemēri, kuros ir redzams, ka grāmatošanas definīcijas tiek lietotas pirkšanas pasūtījumu apgrūtinājumiem un budžeta asignējumiem.
 
@@ -53,11 +52,11 @@ Visām pirkšanas pasūtījumu apgrūtinājumu dokumentu transakcijām ir jābū
 
 ### <a name="posting-definition--match-criteria"></a>Grāmatošanas definīcija — atbilstības kritēriji
 
-| Konta struktūra       | Saskaņot konta numuru | Prioritāte |
+| Konta struktūra       | Saskaņot konta numuru | Prioritāte  |
 |-------------------------|----------------------|----------|
-| Konta struktūra — P/Z | \*                   | 1.        |
+| Konta struktūra — P/Z | \*                   | 1        |
 
-*Tukša lauka **Saskaņot konta numuru** vērtība nozīmē, ka visi atbilstošie konti definētajā kontu struktūrā ir ietverti atbilstības noteikšanas kārtulā.
+<em>Tukša lauka **Saskaņot konta numuru</em>* vērtība nozīmē, ka visi atbilstošie konti definētajā kontu struktūrā ir ietverti atbilstības noteikšanas kārtulā.
 
 ### <a name="posting-definition--generated-entries"></a>Grāmatošanas definīcija — ģenerētie ieraksti
 
@@ -94,11 +93,11 @@ Kad ir iespējoti budžeta asignējumi un grāmatošanas definīcijas, budžeta 
 
 ### <a name="posting-definition--match-criteria"></a>Grāmatošanas definīcija — atbilstības kritēriji
 
-| Konta struktūra       | Saskaņot konta numuru | Prioritāte |
+| Konta struktūra       | Saskaņot konta numuru | Prioritāte  |
 |-------------------------|----------------------|----------|
-| Konta struktūra — P/Z | \*                   | 1.        |
+| Konta struktūra — P/Z | \*                   | 1        |
 
-*Tukša lauka **Saskaņot konta numuru** vērtība nozīmē, ka visi atbilstošie konti definētajā kontu struktūrā ir ietverti atbilstības noteikšanas kārtulā.
+<em>Tukša lauka **Saskaņot konta numuru</em>* vērtība nozīmē, ka visi atbilstošie konti definētajā kontu struktūrā ir ietverti atbilstības noteikšanas kārtulā.
 
 ### <a name="posting-definition--generated-entries"></a>Grāmatošanas definīcija — ģenerētie ieraksti
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-cost-control-units"></a>Izmaksu vadības ierīču definēšana
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir parādīts, kā definēt izmaksu kontroles vienības izmaksu uzskaites virsgrāmatā. Atlasiet izmaksu objekta dimensiju, kurai vēlaties kontrolēt izmaksas virsgrāmatā. Izmaksu objekta dimensijas elementi tiek pārveidoti izmaksu vadības vienību izmaksu objektos. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USP2.
 

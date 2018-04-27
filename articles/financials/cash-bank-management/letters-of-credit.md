@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="letters-of-credit"></a>Akreditīvi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Akreditīvi ir bankas dokumenti, kas parasti tiek lietoti pārrobežu preču pirkšanai un pārdošanai. 
 

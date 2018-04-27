@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="plan-your-organizational-hierarchy"></a>Organizācijas hierarhijas plānošana
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Pirms organizāciju un organizācijas hierarhiju iestatīšanas programmatūrā Microsoft Dynamics 365 for Finance and Operations noteikti plānojiet sava uzņēmuma modelēšanas veidu. Organizācijas modelis būtiski ietekmē Finance and Operations ieviešanu un biznesa procesus. 
 
@@ -158,7 +157,7 @@ Ja pastāv atšķirības starp likumiem un uzskaites praksēm valstīs/reģionos
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a>Ja organizācija ir modelēta kā pārvaldības struktūrvienība 
 Ja likumi un uzskaites prakses valstīs/reģionos, kur atrodas jūsu organizācijas, ir vienādas, varat izmantot vienu gada beigu procedūru kopu. Tas nozīmē, ka varat modelēt organizācijas ka pārvaldības struktūrvienības. Visām pārvaldības struktūrvienībām ir jāizmanto vienu un tā pati gada beigu slēgšanas procedūra. 
-   
+
 ### <a name="number-sequences"></a>Numuru sērijas
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Ja organizācija ir modelēta kā juridiska persona
 Numuru rindas dažām atsaucēm var iestatīt pēc juridiskās personas. Dažas numuru rindas var koplietot. 

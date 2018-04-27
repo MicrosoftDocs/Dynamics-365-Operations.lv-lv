@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="posting-definitions"></a>Grāmatošanas definīcijas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta informācija par grāmatošanas definīcijām un veidu, kā tās definēt un saistīt. Lai uzskaites ierakstos klasificētu galvenos kontus un finanšu dimensijas, atbalstītajiem grāmatošanas veidiem un dokumentiem var izmantot grāmatošanas definīcijas nevis grāmatošanas metodes.
 

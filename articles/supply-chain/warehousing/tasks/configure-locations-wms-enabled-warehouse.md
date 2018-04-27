@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Vietu konfigurēšana noliktavā ar iespējotu NPS
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā ceļvedī parādīts, kā konfigurēt novietojuma iestatīšanu jaunai noliktavai ar iespējotu NPS (noliktavai, kas izmanto papildu noliktavas pārvaldības procesus). Procesu parasti veic noliktavas pārvaldnieks. Šo ceļvedi varat izpildīt, izmantojot demonstrācijas datu uzņēmumu USMF vai savus datus. Priekšnosacījums: jābūt konfigurētai vismaz vienai vietai.
 

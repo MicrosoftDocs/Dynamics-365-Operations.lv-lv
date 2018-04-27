@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Pirkšanas pasūtījuma izveide ar piegādes grafiku
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir parādīts, kā izveidot piegādes grafiku pirkšanas pasūtījumam. Piegādes grafiks tiek izmantots, kad pasūtījumā vai žurnālā minēto daudzumu ir pieprasīts piegādāt vairākos sūtījumos. Šajā ceļvedī rādīto piemēru var izmantot demonstrācijas datus uzņēmumā USMF. Parasti šo procedūru veic pirkšanas aģents.
 

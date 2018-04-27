@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-control-overview"></a>Budžeta kontroles apskats 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā raksta ir sniegta informācija par budžeta kontroli un informācija, kas jums palīdzēs konfigurēt budžeta kontroli programmā Microsoft Dynamics 365 for Finance and Operations, lai varētu pārvaldīt finanšu resursus.
 

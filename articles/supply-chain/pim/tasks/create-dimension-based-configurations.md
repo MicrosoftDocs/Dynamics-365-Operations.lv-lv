@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-dimension-based-configurations"></a>Konfigurāciju izveide atbilstoši dimensijām
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir parādīts, kā definēt konfigurāciju uz dimensiju balstītai precei. Šī ir pēdējā procedūra šajā sērijā, kurā ir skaidrots, kā veidot kombinācijas konfigurācijai atbilstoši dimensijām. Šīs procedūras izpilde ir atkarīga no datiem, kurus izveidojāt iepriekšējos septiņos ierakstos. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-return-order"></a>Pirkšanas atgriešanas pasūtījuma izveide
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir parādīts, kā izveidot pirkuma atgriešanas pasūtījumu, izmantojot darbību Kredīta nota, lai rindas no kreditora rēķina dokumenta kopētu jaunā PP. Tajā ir arī parādīts, kā apstiprināt pasūtījumu un apstrādāt preču sūtījumu atpakaļ kreditoram. Šajā procedūrā rādīto piemēru var izmantot demonstrācijas datus uzņēmumā USMF. Šo uzdevumu parasti veic pirkšanas aģents.
 

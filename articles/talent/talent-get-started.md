@@ -26,14 +26,14 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a>Darba sākšana programmā Microsoft Dynamics 365 for Talent
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Programmā Microsoft Dynamics 365 for Talent var viegli izmainīt lietotāja interfeisu un iestatīt opcijas, kas padara programmatūru intuitīvāku un piemērotāku jūsu vajadzībām. Šajā tēmā ir ietvertas saites uz tēmām, kurās ir sniegta informācija par to, kā pielāgot lietotāja interfeisu savām vēlmēm. Tēmā ir ietvertas arī saites uz informāciju, kas var palīdzēt jums efektīvi un precīzi atrast informāciju sistēmā. 
 
 > [!NOTE] 
 > Šie produkti ir cieši saistīti: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail un Dynamics 365 for Talent. Visos 3 produktos var būt pieejama tā pati funkcionalitāte. Tādēļ tēmās, kas galvenokārt ir saistītas ar programmatūru Retail, produkta nosaukums ir Dynamics 365 for Retail; tēmās, kas galvenokārt ir saistītas ar programmatūru Talent, produkta nosaukums ir Dynamics 365 for Talent; un tēmās, kas ir saistītas ar galveno produktu, produkta nosaukums ir Dynamics 365 for Finance and Operations. Tēmas, kas sarakstītas vienam produktam, var attiekties uz to pašu funkcionalitāti saistītā produktā.
 
-### <a name="personalizing-talent"></a>Programmas Talent personalizēšana 
+## <a name="personalizing-talent"></a>Programmas Talent personalizēšana 
 Tālāk norādītajās tēmās ir paskaidrots, kā iestatīt daudzus Dynamics 365 for Talent līdzekļus, kas palīdz ātrāk veikt vajadzīgo darbu. 
 
 -   [Lietotāja iespēju personalizēšana](../fin-and-ops/get-started/personalize-user-experience.md) — šajā tēmā ir paskaidroti dažādie veidi, kā varat personalizēt programmu Talent un pielāgot produkta daļas atbilstoši savām vēlmēm.
@@ -44,7 +44,7 @@ Tālāk norādītajās tēmās ir paskaidrots, kā iestatīt daudzus Dynamics 3
 
 -   [Īsinājumtaustiņi](../fin-and-ops/get-started/shortcut-keys.md) — šajā tēmā ir norādīti ASV tastatūras izkārtojuma īsinājumtaustiņi. 
 
-### <a name="accessing-information"></a>Piekļuve informācijai
+## <a name="accessing-information"></a>Piekļuve informācijai
 Tālāk norādītajās tēmās ir paskaidrots, kā izmantot uzmeklēšanu un meklēšanas un filtrēšanas līdzekļus, lai ātri atrastu informāciju. 
 
 -   [Uzmeklēšanas izmantošana informācijas atrašanai](../fin-and-ops/get-started/use-lookups-to-find-information.md) — šajā tēmā ir paskaidrots, kā uzmeklēšana var palīdzēt ātri atrast vajadzīgo vai vēlamo vērtību. Šajā tēmā ir aprakstīts, kā darbojas uzmeklēšana, kā arī ir ietverti ieteikumi, kas palīdzēs to optimāli izmantot.

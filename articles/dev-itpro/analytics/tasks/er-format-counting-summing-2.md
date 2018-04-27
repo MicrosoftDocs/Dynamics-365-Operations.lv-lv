@@ -1,5 +1,5 @@
 --- 
-title: "Konfigurēt aprēķinus uzskaites un summēšanas veikšanai elektronisko pārskatu veidošanai (ER)"
+title: "Inventarizācijas un summēšanas aprēķinu konfigurēšana"
 description: "Tālāk aprakstītajos soļos ir izskaidrots, kā sistēmas lietotājs, kam ir piešķirta administratora vai elektroniskā pārskata izstrādātāja loma, var konfigurēt elektronisko pārskatu sagatavošanas (ER) formātu, lai veiktu uzskaiti un summēšanu, izmantojot jau izveidotās teksta izvades datus."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f7b9035d8e7baf3c7ecb063b104b9a567be60840
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d41ce101c0b038627e2baf6b5eac2410095af7ce
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="configure-computations-to-do-counting-and-summing-for-electronic-reporting-er"></a>Konfigurēt aprēķinus uzskaites un summēšanas veikšanai elektronisko pārskatu veidošanai (ER)
+# <a name="configure-computations-to-do-counting-and-summing"></a>Inventarizācijas un summēšanas aprēķinu konfigurēšana
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Tālāk aprakstītajos soļos ir izskaidrots, kā sistēmas lietotājs, kam ir piešķirta administratora vai elektroniskā pārskata izstrādātāja loma, var konfigurēt elektronisko pārskatu sagatavošanas (ER) formātu, lai veiktu uzskaiti un summēšanu, izmantojot jau izveidotās teksta izvades datus. Šīs darbības var veikt jebkurā uzņēmumā.
 

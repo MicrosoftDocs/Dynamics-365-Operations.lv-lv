@@ -17,15 +17,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 7265e119a8b59399db1fa35373a7b6aba52ba8e0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 325cf12345afcf531181f65a41d0e5262798c14f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="onboard-vendors"></a>Kreditoru pievienošana
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
+
 ---
 
 Programmatūrā Microsoft Dynamics 365 for Finance and Operations var pievienot un reģistrēt jaunus kreditorus, pamatojoties uz informāciju, kas ir saņemta no šī kreditora pārstāvja.
@@ -164,13 +165,15 @@ Potenciālā piegādātāja reģistrācijas pieprasījuma dažādie statusi snie
 
 Potenciālā piegādātāja reģistrācijas pieprasījumam izmantojot darbību **Dzēst**, varat iztīrīt un noņemt izveidotās ierakstu ķēdes un varat deaktivizēt lietotāja kontu. Darbības **Dzēst** rezultāts ir atkarīgs no potenciālā piegādātāja reģistrācijas pieprasījuma statusa, kā parādīts nākamajā tabulā.
 
-| Statuss                   | Statusa apraksts | Darbības Dzēst rezultāts |
-|--------------------------|--------------------|-----------------------------------|
-| Jauns                      | Ar pieprasījumu nav veiktas nekādas darbības. | Potenciālā piegādātāja reģistrācijas pieprasījums ir izdzēsts. |
-| Lietotājs pieprasīja           | Kad atlasāt **Uzaicināt lietotāju**, statuss mainās uz **Lietotājs pieprasīja**, tiek izveidots potenciālā lietotāja pieprasījums, un tas tiek iesniegts lietotāja reģistrācijas darbplūsmā. | Potenciālā piegādātāja reģistrācijas pieprasījumu ar šādu statusu nevar izdzēst, jo lietotāja pieprasījuma darbplūsma nav beigusies. |
-| Lietotājs uzaicināja             | Lietotāja pieprasījuma darbplūsma ir apstiprināta, un lietotājs ir izveidots. | Tiek izveidots pieprasījums deaktivizēt lietotāju, un potenciālā piegādātāja reģistrācijas pieprasījums tiek izdzēsts. |
-| Notiek reģistrēšana | Jaunais lietotājs ir pierakstījies un ir palaidis kreditora reģistrācijas vedni. | Tiek izveidots pieprasījums deaktivizēt lietotāju, un tiek izdzēsts potenciālā piegādātāja reģistrācijas pieprasījums un kreditora reģistrācijas vednī ievadītie dati. |
-| Piegādātāja pieprasījums ir izveidots   | Kreditora reģistrācijas vednis ir pabeigts. | Tiek izveidots pieprasījums deaktivizēt lietotāju, un tiek izdzēsts potenciālā piegādātāja reģistrācijas pieprasījums, kreditora reģistrācijas vednī ievadītie dati un piegādātāja pieprasījums.<blockquote>[!NOTE]<br>Darbību **Dzēst** nevar lietot, kad piegādātāja pieprasījumam darbplūsmā notiek pārskatīšanas process.</blockquote> |
-| Apstiprināts                 | Piegādātāja pieprasījums ir apstiprināts. | Tiek izdzēsts potenciālā piegādātāja reģistrācijas pieprasījums, kreditora reģistrācijas vednī ievadītie dati un piegādātāja pieprasījums. |
-| Noraidīts                 | Piegādātāja pieprasījums ir noraidīts. | Tiek izdzēsts potenciālā piegādātāja reģistrācijas pieprasījums, kreditora reģistrācijas vednī ievadītie dati un piegādātāja pieprasījums. |
+
+|          Statuss          |                                                                                     Statusa apraksts                                                                                      |                                                                                                                                                            Darbības Dzēst rezultāts                                                                                                                                                             |
+|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|           Jauns            |                                                                         Ar pieprasījumu nav veiktas nekādas darbības.                                                                          |                                                                                                                                              Potenciālā piegādātāja reģistrācijas pieprasījums ir izdzēsts.                                                                                                                                               |
+|      Lietotājs pieprasīja      | Kad atlasāt <strong>Uzaicināt lietotāju</strong>, statuss mainās uz <strong>Lietotājs pieprasīja</strong>, tiek izveidots potenciālā lietotāja pieprasījums, un tas tiek iesniegts lietotāja reģistrācijas darbplūsmā. |                                                                                                          Potenciālā piegādātāja reģistrācijas pieprasījumu ar šādu statusu nevar izdzēst, jo lietotāja pieprasījuma darbplūsma nav beigusies.                                                                                                          |
+|       Lietotājs uzaicināja       |                                                               Lietotāja pieprasījuma darbplūsma ir apstiprināta, un lietotājs ir izveidots.                                                               |                                                                                                                      Tiek izveidots pieprasījums deaktivizēt lietotāju, un potenciālā piegādātāja reģistrācijas pieprasījums tiek izdzēsts.                                                                                                                      |
+| Notiek reģistrēšana |                                                         Jaunais lietotājs ir pierakstījies un ir palaidis kreditora reģistrācijas vedni.                                                          |                                                                                     Tiek izveidots pieprasījums deaktivizēt lietotāju, un tiek izdzēsts potenciālā piegādātāja reģistrācijas pieprasījums un kreditora reģistrācijas vednī ievadītie dati.                                                                                      |
+|  Piegādātāja pieprasījums ir izveidots  |                                                                     Kreditora reģistrācijas vednis ir pabeigts.                                                                      | Tiek izveidots pieprasījums deaktivizēt lietotāju, un tiek izdzēsts potenciālā piegādātāja reģistrācijas pieprasījums, kreditora reģistrācijas vednī ievadītie dati un piegādātāja pieprasījums.<blockquote>[!NOTE]<br>Darbību <strong>Dzēst</strong> nevar lietot, kad piegādātāja pieprasījumam darbplūsmā notiek pārskatīšanas process.</blockquote> |
+|         Apstiprināts         |                                                                               Piegādātāja pieprasījums ir apstiprināts.                                                                               |                                                                                                   Tiek izdzēsts potenciālā piegādātāja reģistrācijas pieprasījums, kreditora reģistrācijas vednī ievadītie dati un piegādātāja pieprasījums.                                                                                                    |
+|         Noraidīts         |                                                                               Piegādātāja pieprasījums ir noraidīts.                                                                               |                                                                                                   Tiek izdzēsts potenciālā piegādātāja reģistrācijas pieprasījums, kreditora reģistrācijas vednī ievadītie dati un piegādātāja pieprasījums.                                                                                                    |
+
 

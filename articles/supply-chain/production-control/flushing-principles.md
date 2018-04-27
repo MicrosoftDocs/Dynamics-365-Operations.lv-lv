@@ -28,7 +28,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a>Izejmateriālu patēriņa kontrolēšana, izmantojot tīrīšanas principus
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Norakstīšanas principi atspoguļo dažādas patēriņa stratēģijas ražošanas procesos izmantojiem izejmateriāliem. Patēriņš ir process, kas materiālu atskaita no rīcībā esošajiem krājumiem un iestata patērēto materiālu vērtību uz **Nepabeigtais darbs** (NP) ražošanas pasūtījumiem un partijas pasūtījumiem. Izejmateriālus parasti patērē no vietas, kura ir konfigurēta procesam, kas patērē materiālu. Šī vieta ir pazīstama kā ražošanas ievades vieta.
 

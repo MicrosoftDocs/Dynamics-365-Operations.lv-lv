@@ -27,7 +27,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>MK un formulas rindu izlaišana nosūtīšanai uz noliktavu
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā izejmateriālus materiālu komplektu (MK) rindām un formulas rindām izlaist nosūtīšanai uz noliktavu. Kad MK vai formulas rindu izlaižat nosūtīšanai uz noliktavu, sistēma vispirms nosaka, vai attiecīgais materiāls ražotnē jau ir pieejams ražošanas ievades novietojumā, kur šis materiāls tiks patērēts ražošanas procesam.
 
@@ -44,7 +44,7 @@ MK un formulas rindu izlaišanai izmantotā metode tiek kontrolēta ar parametru
 - **Izlaist MK un formulas rindas ar pakešuzdevumu vai kā manuālu mijiedarbību** — izmantojot šo metodi, MK un formulas rindas var izlaist vienīgi ar pakešuzdevumu **Automātiska MK un formulas rindu izlaišana** vai kā manuālu mijiedarbību. Lai MK un formulas rindas izlaistu manuāli, ražošanas pasūtījuma saraksta lapas vai ražošanas pasūtījuma informācijas lapas darbību rūtī atlasiet **Izlaist pārvietošanai uz noliktavu**.
 
 Īsu demonstrāciju par to, kā izlaist MK un formulas rindas nosūtīšanai uz ražošanu, izmantojot pakešuzdevumu, noskatieties šo īso YouTube video:
-[!Video https://www.youtube.com/embed/8urAJn50dQ8]
+[!Video <https://www.youtube.com/embed/8urAJn50dQ8>]
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>MK un formulas rindu izlaišana, izmantojot pakešuzdevumu
 
@@ -86,7 +86,7 @@ Nākamajā attēlā ir parādīts ražošanas pasūtījums, kurā ir divas oper�
 ![Piemērs par materiāla izlaišanu katram operācijas numuram](media/two-operations.PNG)
 
 Īsu demonstrāciju par to, kā izlaist materiālu proporcionāli pabeigto preču daudzumam, varat skatīties šajā YouTube videoklipā:
-[!Video https://www.youtube.com/embed/Rm3ojAz6Zu0]
+[!Video <https://www.youtube.com/embed/Rm3ojAz6Zu0>]
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>Materiāla izlaišana proporcionāli pabeigto preču daudzumam
 

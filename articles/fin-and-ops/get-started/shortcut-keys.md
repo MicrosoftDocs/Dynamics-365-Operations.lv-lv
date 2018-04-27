@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="keyboard-shortcuts"></a>Īsinājumtaustiņi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Tālāk norādītie īsinājumtaustiņi darbojas visā programmatūrā Dynamics 365 for Finance and Operations. 
 
@@ -39,6 +38,7 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 
 
 ## <a name="action-shortcuts"></a>Darbību saīsnes
+
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
 | **Darbība**                                    | **Nospiediet**                        |
@@ -55,6 +55,7 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 | Skatīt pašlaik pieejamās saīsnes                | Alt+Shift+K                      |                              
 
 ## <a name="date-picker-shortcuts"></a>Datuma atlasītāja saīsnes
+
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | **Darbība**                        | **Nospiediet**                                 |
@@ -68,6 +69,7 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 | Izvēlēties Nekad (vai maksimālo datumu)          | N                                         |
 
 ## <a name="factbox-shortcuts"></a>Papildinformācijas rūts saīsnes
+
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
 | **Darbība**                                                                  | **Nospiediet**                                 |
@@ -79,6 +81,7 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 | Sakļaut pašreizējo papildinformācijas rūti                                                    | Alt+0                                     |
 
 ## <a name="filtering-shortcuts"></a>Filtrēšanas saīsnes
+
 |                                    |                          |
 |------------------------------------|--------------------------|
 | **Darbība**                     | **Nospiediet**                |
@@ -89,6 +92,7 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 | Atvērt papildu filtrēšanas/kārtošanas sadaļu                                      | Ctrl+Shift+F3            | 
 
 ## <a name="form-shortcuts"></a>Veidlapas saīsnes
+
 |                                                     |                   |
 |-----------------------------------------------------|-------------------|
 | **Darbība**                                      | **Nospiediet**         |
@@ -110,6 +114,7 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 | Aizvērt veidlapu, atmetot visas nesaglabātās izmaiņas       | Alt+Shift+Q       |
 
 ## <a name="form-navigation-shortcuts"></a>Veidlapas navigācijas saīsnes
+
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
 | **Lai izpildītu šo darbību**                                      | **Nospiediet**                                    |
@@ -128,6 +133,7 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 | Pārslēgties uz rindu skatu                                | Ctrl+Shift+L                                 |
 
 ## <a name="grid-shortcuts"></a>Režģa saīsnes
+
 |                                                                                                                        |                                 |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
 | **Lai izpildītu šo darbību**                                                                                                         | **Nospiediet**                       |
@@ -148,6 +154,7 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 | Atvērt režģa filtrēšanu pašreizējai kolonnai (kamēr fokuss ir virsraksta rindā)                                              | Enter                           |
 
 ## <a name="input-control-shortcuts"></a>Ievades kontroles saīsnes
+
 |                                                                              |                               |
 |------------------------------------------------------------------------------|-------------------------------|
 | **Darbība**                                                               | **Nospiediet**                     |
@@ -163,6 +170,7 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 | Pārslēgt fokusu starp teksta apgabalu un rīkjoslu HTML redaktora vadīklā | F6                            |
 
 ## <a name="messaging-shortcuts"></a>Ziņojumapmaiņas saīsnes
+
 |                          |               |
 |--------------------------|---------------|
 | **Lai izpildītu šo darbību**           | **Nospiediet**     |
@@ -170,6 +178,7 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 | Pāriet uz ziņojuma joslu    | Ctrl+F7       |
 
 ## <a name="navigation-shortcuts"></a>Navigācijas saīsnes
+
 |                                                                               |                            |
 |-------------------------------------------------------------------------------|----------------------------|
 | **Lai izpildītu šo darbību**                                                                | **Nospiediet**                  |
@@ -191,6 +200,7 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 | Pāriet uz papildinformācijas rūti (šī darbība var ietvert tās atvēršanu)                       | Alt+M,B vai Ctrl+F2         |
 
 ## <a name="personalization-shortcuts"></a>Personalizēšanas saīsnes
+
 |                                                                                                                        |                                     |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | **Lai izpildītu šo darbību**                                                                                                         | **Nospiediet**                           |
@@ -219,6 +229,7 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 | Iziet no personalizēšanas režīma (atrodoties personalizēšanas režīmā)                                                               | Esc                                 |
 
 ## <a name="segmented-entry-shortcuts"></a>Segmentētā ieraksta saīsnes
+
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
 | **Lai izpildītu šo darbību**                                                                                                          | **Nospiediet**                        |

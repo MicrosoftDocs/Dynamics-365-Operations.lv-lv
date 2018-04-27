@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="process-loyalty-reward-point-adjustments"></a> Lojalitātes programmas atlīdzības punktu korekciju apstrāde
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Šajā procedūra parādīts, kā atrast informāciju par lojalitātes programmas karti un koriģēt lojalitātes programmas atlīdzības punktus. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USRT. Šis uzdevums ir paredzēts lomai Mazumtirdzniecības operāciju pārvaldnieks vai Klientu apkalpošanas vadītājs.
 

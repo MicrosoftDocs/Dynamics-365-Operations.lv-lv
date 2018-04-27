@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="set-up-rules-and-parameters-for-cross-docking-and-buyers-push"></a> Kārtulu un parametru iestatīšana pārkraušanai sadales centrā un sagādes sadalē
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Šī procedūra parāda, kā izveidot papildināšanas kārtulas. Papildināšanas kārtulas var lietot, lai kontrolētu to, kā preces tiek sadalītas veikalos, izmantojot pārkraušanu sadales centrā un sagādes sadali. Papildināšanas kārtulas var iestatīt veikaliem vai veikalu grupām. Katrā kārtulas rindā definētā svara vērtība kontrolēs to, kā preču daudzumi tiks sadalīti starp veikaliem, ja pārkraušanai sadales centrā vai sagādes sadalēm kā sadales metode tiks izmantotas papildināšanas kārtulas. Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.
 

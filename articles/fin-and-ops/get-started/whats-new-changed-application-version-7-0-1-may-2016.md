@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Jaunumi un izmaiņas Dynamics AX programmas versijā 7.0.1 (2016. gada maijs)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir aprakstītas funkcijas, kas Microsoft Dynamics AX programmas versijā 7.0.1 ir jaunas vai ir mainītas. Šī versija tika izlaista 2016. gada maijā, un tās būvējuma numurs ir 7.0.1265.23014.
 
@@ -44,12 +43,14 @@ ms.lasthandoff: 11/03/2017
 | Konfigurējiet ER galamērķus, lai formāta izvades rezultāts būtu vērsts uz konkrētu galamērķi: failu, e-pasta ziņojumu vai arhīvu (Microsoft SharePoint mapes vai Microsoft Azure krātuve). | Iepriekš, kad izpildījāt ER konfigurēšanu, tika parādīts ziņojuma lodziņš, kas lietotājam pieprasīja kaut ko darīt, lai failu saglabātu vai atvērtu. Tagad varat jau iepriekš konfigurēt adresātu katrai formāta konfigurācijai un katram izvades komponentam (mapei vai failam) atsevišķi. Lietotāji, kuriem ir atbilstošas piekļuves tiesības, mērķa iestatījumus var modificēt arī izpildlaikā. |
 
 ## <a name="pos--microsoft-dynamics-ax-retail"></a>POS — Microsoft Dynamics AX Retail
+
 |                                |                                                                                                                                                                                         |
 |--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Ko iespējams izdarīt?**           | **Kāpēc tas ir svarīgi?**                                                                                                                                                              |
 | Izmantojiet pārlūku Google Chrome. | Mākoņa POS mazumtirgotāji tagad var palaist no pārlūka Chrome un var baudīt visu funkcionalitāti, kas ir pieejami Microsoft Edge un Internet Explorer mākoņa POS versijā. |
 
 ## <a name="financial-reporting"></a>Finanšu pārskati
+
 |                                                                     |                                                                                                                                                                                                                                                                                                                    |
 |---------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Ko iespējams izdarīt?**                                                | **Kāpēc tas ir svarīgi?**                                                                                                                                                                                                                                                                                         |
@@ -57,12 +58,14 @@ ms.lasthandoff: 11/03/2017
 | Vairs nevarat atlasīt atskaišu veidotāja opcijas, kas nav derīgas. | Vairākas atskaišu veidotāja opcijas, kas tika izmantotas tirgū pieejamajās Management Reporter versijās, netiek izmantotas šajā Dynamics AX versijā. Šīs opcijas bija saistītas ar finanšu pārskatu izstrādi, izvadi un saistīšanu. Šīs opcijas ir noņemtas no finanšu pārskatu veidotāja, lai nepieļautu lietotāja kļūdas. |
 
 ## <a name="financial-management"></a>Finanšu pārvaldība
+
 |                                                            |                                                                  |
 |------------------------------------------------------------|------------------------------------------------------------------|
 | **Ko iespējams izdarīt?**                                       | **Kāpēc tas ir svarīgi?**                                       |
 | Ģenerējiet pozitīvo maksājumu failus kreditoriem veicamajiem maksājumiem. | Pozitīvā maksājuma failus var ģenerēt, lai palīdzētu novērst krāpšanos ar čekiem. |
 
 ## <a name="warehouse-and-production"></a>Noliktava un ražošana
+
 |                                                                                                                                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Ko iespējams izdarīt?**                                                                                                                                                                                                                                                                                                                                                                    | **Kāpēc tas ir svarīgi?**                                                                                                                                                                                                                                                                                                                                                                                                              |
@@ -72,7 +75,7 @@ ms.lasthandoff: 11/03/2017
 | Ražošanas pasūtījumi ar cikliskajām struktūrām to MK pirmajā līmenī tiek izslēgtas no MK līmeņa aprēķina materiālo resursu plānošanai.                                                                                                                                                                                                                                     | Nav iespējams piešķirt pareizus MK līmeņus preču variantiem tādos ražošanas pasūtījumos, kas MK hierarhijā izraisa cikliskumu.                                                                                                                                                                                                                                                                                                  |
 | Aprēķināt atsevišķus MK līmeņus materiālu resursu plānošanai un izmaksu aprēķinam. • Materiālu resursu plānošanas MK līmeņi tiek aprēķināti jaunajā tabulā **ReqItemLevel**. Pabeigtie ražošanas pasūtījumi šajā aprēķinā netiek ņemti vērā. • Ražošanas izmaksu aprēķināšanai MK līmeņi tiek aprēķināti tabulā **InventTable**. Pabeigtie ražošanas pasūtījumi tiek iekļauti šajā aprēķinā. | • Izpildot materiālo resursu plānošanu, piemēram, vispārējās plānošanas plāna grafika izveidošanu un izvēršanu, ir nepieciešams pārrēķināt tikai tos MK līmeņus, kas tika izmantoti materiālo resursu plānošanai. Citiem vārdiem sakot, nav nepieciešams aprēķināt ražošanas izmaksu aprēķināšanai izmantotos MK līmeņus. • Izpildot izmaksu aprēķināšanas operācijas, piemēram, krājumu slēgšanu, ir jāpārrēķina tikai tie MK līmeņi, kas ir izmantoti ražošanas izmaksu aprēķinam. |
 
- 
+
 
 <a name="see-also"></a>Skatiet arī
 --------

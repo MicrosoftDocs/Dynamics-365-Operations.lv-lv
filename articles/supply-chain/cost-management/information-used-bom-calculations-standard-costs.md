@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="information-used-in-bom-calculations-with-standard-costs"></a>Informācija, kas tiek izmantota MK aprēķinos ar standarta izmaksām
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Lai aprēķinātu saražotā krājuma standarta izmaksas, materiālu komplektu (MK) aprēķini izmanto vairāku avotu datus. Avoti ietver informāciju par krājumiem, komplektu maršrutēšanu, netiešo izmaksu aprēķina formulas un aprēķina versiju.
 

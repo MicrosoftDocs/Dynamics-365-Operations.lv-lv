@@ -23,7 +23,7 @@ ms.lasthandoff: 03/12/2018
 ---
 
 # <a name="assortment-management"></a>Preču klāsta pārvaldība
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>Pārskats
 Risinājumā Microsoft Dynamics 365 for Retail ir pieejams *preču klāsts*, kas ļauj pārvaldīt preču pieejamību atšķirīgos kanālos. Preču klāsti norāda, kuras preces ir pieejamas noteiktos veikalos un noteiktā periodā.

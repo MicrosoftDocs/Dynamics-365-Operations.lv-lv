@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="use-tracing-for-explosion"></a>Izsekošanas izmantošana izvēršanai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir paskaidrots, kā varat izmantot izsekošanu, lai izpētītu pasūtījuma izvērsuma iznākuma cēloņus.
 

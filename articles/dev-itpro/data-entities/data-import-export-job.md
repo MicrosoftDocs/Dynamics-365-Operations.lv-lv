@@ -16,16 +16,16 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: bd26ac6fd8376fd42467c7a3d2ecd2ec035a4479
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fc47f6cd9cfe4a850e0959bf89da086ca82f3b69
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="data-import-and-export-jobs"></a>Datu importēšanas un eksportēšanas darbi
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Lai izveidotu un pārvaldītu datu importēšanas un eksportēšanas darbus programmā Microsoft Dynamics 365 for Finance and Operations, ir jālieto darbvieta **Datu pārvaldība**. Pēc noklusējuma datu importēšanas un eksportēšanas process izveido sagatavošanas tabulu katram elementam mērķa datu bāzē. Sagatavošanas tabulas pirms jums ļauj datus pārbaudīt, iztīrīt vai konvertēt, pirms tos pārvietojat.
 
@@ -64,13 +64,15 @@ Iesakām jums veltīt laiku tam, lai savam importēšanas vai eksportēšanas da
 Importēšanas vai eksportēšanas darbiem varat pievienot konkrētus elementus vai atlasīt izmantojamo veidni. Veidnes darbu aizpilda ar elementu sarakstu. Opcija **Lietot veidni** ir pieejama pēc tam, kad darbam piešķirat nosaukumu un šo darbu saglabājat.
 
 ### <a name="set-the-data-format-for-the-job"></a>Darba datu formāta iestatīšana
-Kad atlasāt kādu elementu, ir jāatlasa formāts tiem datiem, kas tiks eksportēti vai importēti. Formātus jūs definējat, izmantojot elementu **Datu avotu iestatīšana**. Daudzas organizācijas sāk ar formātiem, kas demonstrācijas datu kopā ir ietverti pēc noklusējuma. Tālāk ir dažu šo formātu saraksts.
+Kad atlasāt kādu elementu, ir jāatlasa formāts tiem datiem, kas tiks eksportēti vai importēti. Formātus jūs definējat, izmantojot elementu **Datu avotu iestatīšana**. Avota datu formāts sastāv no atribūtiem **Tips**, **Faila formāts**, **Rindas norobežotājs** un **Kolonnas norobežotājs**. Pastāv arī citi atribūti, bet minētie ir vissvarīgākie. Sekojošajā tabulā ir minētas derīgās kombinācijas.
 
-- AX (datiem, kas ir jāimportē vai jāeksportē tādā pašā formātā, kāds tiek izmantots programmā Microsoft Dynamics 365 for Finance and Operations)
-- ColonSeparated
-- CSV
-- Excel
-- Pakotne
+| **Faila formāts**        | **Rindas/kolonnas norobežotājs**                   | **XML stils**             |
+|------------------------|--------------------------------------------|---------------------------|
+| Excel                  | Excel                                      | \-NA-                     |
+| XML                    | \-NA-                                      | XML-elements XML-atribūts |
+| Norobežots, fiksēts platums | Komats, semikols, tabulēšanas rakstzīme, vertikālā josla, kols | \-NA-                     |
+
+
 
 ### <a name="sequence-the-entities"></a>Elementu secības norādīšana
 Datu veidnē vai importēšanas un eksportēšanas darbos elementus var izkārtot noteiktā secībā. Kad palaižat darbu, kurā ir vairāki datu elementi, jums ir pārliecinās, vai šie datu elementi ir sakārtoti pareizā secībā. Elementu secību jūs galvenokārt norādāt tā, lai varētu ievērot visas funkcionālās atkarības starp elementiem. Ja elementiem nav funkcionālo atkarību, tad tos var ieplānot paralēlai importēšanai vai eksportēšanai.

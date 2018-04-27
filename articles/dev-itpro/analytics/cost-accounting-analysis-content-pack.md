@@ -27,7 +27,7 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="cost-accounting-analysis-power-bi-content"></a>Power BI saturs Izmaksu uzskaites analīze
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kas ir iekļauts Microsoft Power BI satura pakotnē **Izmaksu uzskaites analīze**. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 
@@ -111,18 +111,20 @@ Nākamajā tabulā ir parādīts, kā galvenie apkopošanas mērījumi tiek izma
 
 Tālāk norādītās galvenās dimensijas tiek lietotas kā filtri, lai apkopošanas mērījumus sadalītu, iegūstot lielāku granularitāti un sniedzot dziļākus analītiskos ieskatus.
 
-| Elements                             | Atribūtu piemēri                                                                                               |
+
+|               Elements               |                                                Atribūtu piemēri                                                |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| Izmaksu uzskaites virsgrāmatas            | Izmaksu uzskaites virsgrāmata                                                                                               |
-| Izmaksu vadības ierīces                 | Izmaksu vadības ierīces nosaukums                                                                                               |
-| Izmaksu elementu dimensijas            | Izmaksu elementa dimensijas nosaukums, izmaksu elementa dimensijas elementa nosaukums, izmaksu elementa dimensijas elementa apraksts          |
-| Izmaksu objekta dimensijas             | Izmaksu objekta dimensijas nosaukums, izmaksu objekta dimensijas elementa nosaukums, izmaksu objekta dimensijas elementa apraksts              |
-| Statiskās dimensijas             | Statistiskās dimensijas nosaukums, statistiskās dimensijas elementa nosaukums, statistiskās dimensijas elementa apraksts              |
-| Izmaksu objektu dimensiju hierarhijas  | Izmaksu objekta dimensiju hierarhijas nosaukums, izmaksu objekta dimensiju hierarhijas līmenis, izmaksu objekta dimensiju hierarhiju koks    |
+|      Izmaksu uzskaites virsgrāmatas       |                                                Izmaksu uzskaites virsgrāmata                                                |
+|         Izmaksu vadības ierīces         |                                                Izmaksu vadības ierīces nosaukums                                                |
+|      Izmaksu elementu dimensijas       |     Izmaksu elementa dimensijas nosaukums, izmaksu elementa dimensijas elementa nosaukums, izmaksu elementa dimensijas elementa apraksts      |
+|       Izmaksu objekta dimensijas       |       Izmaksu objekta dimensijas nosaukums, izmaksu objekta dimensijas elementa nosaukums, izmaksu objekta dimensijas elementa apraksts        |
+|       Statiskās dimensijas       |       Statistiskās dimensijas nosaukums, statistiskās dimensijas elementa nosaukums, statistiskās dimensijas elementa apraksts        |
+| Izmaksu objektu dimensiju hierarhijas  |  Izmaksu objekta dimensiju hierarhijas nosaukums, izmaksu objekta dimensiju hierarhijas līmenis, izmaksu objekta dimensiju hierarhiju koks   |
 | Izmaksu elementu dimensiju hierarhijas | Izmaksu elementa dimensiju hierarhijas nosaukums, izmaksu elementa dimensiju hierarhijas līmenis, izmaksu elementa dimensiju hierarhiju koks |
-| Statistisko dimensiju hierarhijas  | Statistisko dimensiju hierarhijas nosaukums, statistisko dimensiju hierarhijas līmenis, statistisko dimensiju hierarhiju koks    |
-| Transakcijas versijas               | Versijas nosaukums                                                                                                         |
-| Finanšu kalendāri                   | Kalendārs, Kalendāra apraksts                                                                                       |
-| Finanšu gadi                       | Kalendārais gads                                                                                                        |
-| Finanšu periodi                     | Kalendārā gada periods                                                                                                 |
+| Statistisko dimensiju hierarhijas  |  Statistisko dimensiju hierarhijas nosaukums, statistisko dimensiju hierarhijas līmenis, statistisko dimensiju hierarhiju koks   |
+|        Transakcijas versijas        |                                                     Versijas nosaukums                                                     |
+|          Finanšu kalendāri          |                                            Kalendārs, Kalendāra apraksts                                            |
+|            Finanšu gadi            |                                                    Kalendārais gads                                                     |
+|           Finanšu periodi           |                                                 Kalendārā gada periods                                                 |
+
 

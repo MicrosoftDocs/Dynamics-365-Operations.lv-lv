@@ -27,8 +27,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="use-workflows-to-manage-employee-information"></a>Darbplūsmu izmantošana darbinieku informācijas pārvaldībai
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā varat izmanto personāla vadības darbplūsmu iespējas, lai pārvaldītu darbinieku informāciju. Piemēram, varat saistīt darbplūsmu ar pozīciju un konfigurēt apstiprināšanas darbplūsmu, kas tiek sākta, kad darbinieki maina savu ierakstu.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="backflush-costing"></a>Atgriezeniska izmaksu aprēķināšana
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā tiek ieviests atgriezeniskas izmaksu aprēķināšanas jēdziens, kas tiek izmantots ražošanai Lean manufacturing. 
 

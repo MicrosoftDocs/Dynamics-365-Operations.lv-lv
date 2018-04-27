@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e232ba1f5803f6dee148f23098563c99c1622cdf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9b898a5ab5ad2837ef1d9ef8ebf88aaa05f56b3a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Pievienošana veiktspējas žurnālam un uzslavas nosūtīšana
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Veiktspējas žurnāls satur informāciju, kas attiecas uz to, kā jūs sasniedzāt jūsu mērķus, vai kā jūs veicāt aktivitātes perioda laikā. Jūs varat arī slavēt kolēģa darbības no žurnāla. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Šī procedūra ir paredzēta līdzeklim, kas tika pievienots Dynamics 365 for Operations versijā 1611.
 
@@ -42,7 +42,7 @@ Veiktspējas žurnāls satur informāciju, kas attiecas uz to, kā jūs sasniedz
 9. Laukā Atslēgvārdi ievadiet vērtību.
 10. Noklikšķiniet uz Pievienot ārējo saiti.
 11. Laukā Apraksts ierakstiet 'Envision'.
-12. Interneta pārlūka adreses laukā ierakstiet 'https://www.microsoft.com/en/envision/default'.
+12. Laukā Interneta adrese ierakstiet “<https://www.microsoft.com/en/envision/default>”.
 13. Noklikšķiniet uz uzraksta zem pogas Saglabāt, ar nosaukumu “Veiktspējas žurnāls”, lai atgrieztos režģī.
     * Jūs varat pievienot atlasīto žurnālu vai žurnālus mērķim, lai tas tiek parādīts, atverot mērķi. Saite tiks pievienota kopsavilkuma cilnei Saites. Ja žurnālu pievienojat mērķim un pēc tam mērķi pievienojat pārskatam, tad žurnāls tiks automātiski rādīts pārskatā.  
     * Jūs varat pievienot atlasīto žurnālu vai žurnālus pārskatam, lai tas tiek parādīts, atverot pārskatu.    Saite tiks pievienota kopsavilkuma cilnei Saites.  

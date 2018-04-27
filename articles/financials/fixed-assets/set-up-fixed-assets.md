@@ -28,7 +28,7 @@ ms.lasthandoff: 01/17/2018
 
 # <a name="set-up-fixed-assets"></a>Iestatīt pamatlīdzekļus
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegts apskats par moduļa **Pamatlīdzekļi** iestatīšanu.
 

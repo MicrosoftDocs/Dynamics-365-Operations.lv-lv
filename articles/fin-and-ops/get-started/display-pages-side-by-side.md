@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="display-pages-side-by-side-using-the-open-in-new-window-icon"></a>Parādīt lapas līdzās, izmantojot ikonu Atvērt jaunā logā
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir paskaidrots, kā parādīt lapas līdzās programmatūrā Microsoft Dynamics 365 for Finance and Operations.
 

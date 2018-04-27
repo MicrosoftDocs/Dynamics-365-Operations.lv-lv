@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="post-an-expense-report"></a>Grāmatot izdevumu pārskatu
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Pēc izmaksu pārskata apstiprināšanas un pārsūtīšanas uz galveno žurnālu, to ir iespējams iegrāmatot galvenajā virsgrāmatā. Grāmatojot izdevumu pārskatu, tiek identificēti izdevumi, kas ir piemēroti pievienotās vērtības nodokļa (PVN) atgūšanai. PVN maksājumu pārbaudes un atgūšanas uzdevums tiek piešķirts darbiniekam, kurš ir atbildīgs par izdevumu pārskata pārbaudi.
 

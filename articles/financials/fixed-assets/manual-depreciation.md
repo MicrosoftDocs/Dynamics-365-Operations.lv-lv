@@ -19,17 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d7a672b80a0da7ab05acf5b5efe041f0f89c0042
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5081b3ff940167f305a6e17f97e246e5f8000185
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="manual-depreciation"></a>Manuāls nolietojuma aprēķins
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegts pārskats par manuālo nolietojuma metodi.
 
@@ -67,7 +66,7 @@ Ja laukā**Perioda biežums** atlasāt vērtību **Reizi mēnesī**, jūs iestat
 | Janvāris  | (11 000 – 1000)× 10% = 1000 |
 | Februāris | (11 000 – 1000) × 50% = 5000 |
 
-Ja atlasāt **lauka **Perioda biežums**** vērtību **Reizi pusgadā**, tiek iestatīti divi manuālā grafika intervāli. Nākamajā tabulā ir parādītas nolietojuma summas šiem diviem intervāliem.
+Ja atlasāt lauka <strong>Perioda biežums</strong> vērtību *<strong><em>Reizi pusgadā</em>* </strong>, tiek iestatīti divi manuālā grafika intervāli. Nākamajā tabulā ir parādītas nolietojuma summas šiem diviem intervāliem.
 
 | Intervāls    | Nolietojuma summa            |
 |-------------|--------------------------------|

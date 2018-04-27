@@ -28,8 +28,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="manage-vendor-collaboration-users"></a>Pārvaldīt kreditoru sadarbības lietotājus
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā varat pieprasīt jaunu kreditoru sadarbības lietotāju nodrošināšanu un kā pievienot jaunas kreditoru sadarbības kontaktpersonas. 
 
@@ -61,11 +60,11 @@ Kad tiek iesniegts pieprasījums, tas tiek pievienots sarakstam **Kreditoru sada
 
 Lai varētu pieprasīt, ka tiek nodrošināts jauns lietotājs, šī persona ir jāiestata kā kontaktpersona vienam vai vairākiem kreditoru kontiem. Lai izveidotu jauna kreditoru sadarbības lietotāja pieprasījumu, rīkojieties tālāk aprakstītajā veidā.
 
-1.  Lapā **Visas kontaktpersonas** noklikšķiniet uz **Nodrošināt piegādātāja lietotāju**.
-2.  Ievadiet šī lietotāja e-pasta adresi. Šo adresi lietotājs izmantos, lai pieteiktos programmatūrā Finance and Operations. Ja šī e-pasta adrese pieder kādam domēnam, kurš ir reģistrēts kā nomnieks pakalpojumā Microsoft Azure, tad šai e-pasta adresei ir nepieciešams pastāvošs Azure Active Directory (AAD) konts, lai nodrošināšanas process tiktu izpildīts sekmīgi. Ja e-pasta adrese nepieder domēnam, kurš ir reģistrēts pakalpojumā Microsoft Azure, tad ADD konts tiks izveidots kā daļa no nodrošināšanas procesa un jaunais lietotājs saņems uzaicinājuma pasta ziņojumu. Patērētāju e-pasta adreses ar tādiem domēniem kā @hotmail.com, @gmail.com vai @comcast.net nevar izmantot, lai reģistrētu Finance and Operations lietotāju.
-3.  Opciju **Kreditoru sadarbības piekļuve ir atļauta** iestatiet uz **Jā** visām juridiskajām personām, kurām šim lietotājam ir nepieciešama piekļuve.
-4.  Sadaļā **Piešķirt lietotāju lomas** atzīmējiet izvēles rūtiņu **Piešķirt** tām drošības lomām, kuras jaunajam lietotājam ir nepieciešamas.
-5.  Noklikšķiniet uz **Iesniegt**.
+1. Lapā **Visas kontaktpersonas** noklikšķiniet uz **Nodrošināt piegādātāja lietotāju**.
+2. Ievadiet šī lietotāja e-pasta adresi. Šo adresi lietotājs izmantos, lai pieteiktos programmatūrā Finance and Operations. Ja šī e-pasta adrese pieder kādam domēnam, kurš ir reģistrēts kā nomnieks pakalpojumā Microsoft Azure, tad šai e-pasta adresei ir nepieciešams pastāvošs Azure Active Directory (AAD) konts, lai nodrošināšanas process tiktu izpildīts sekmīgi. Ja e-pasta adrese nepieder domēnam, kurš ir reģistrēts pakalpojumā Microsoft Azure, tad ADD konts tiks izveidots kā daļa no nodrošināšanas procesa un jaunais lietotājs saņems uzaicinājuma pasta ziņojumu. Patērētāju e-pasta adreses ar tādiem domēniem kā @hotmail.com, @gmail.com vai @comcast.net nevar izmantot, lai reģistrētu Finance and Operations lietotāju.
+3. Opciju **Kreditoru sadarbības piekļuve ir atļauta** iestatiet uz **Jā** visām juridiskajām personām, kurām šim lietotājam ir nepieciešama piekļuve.
+4. Sadaļā **Piešķirt lietotāju lomas** atzīmējiet izvēles rūtiņu **Piešķirt** tām drošības lomām, kuras jaunajam lietotājam ir nepieciešamas.
+5. Noklikšķiniet uz **Iesniegt**.
 
 Kad tiek iesniegts kreditora lietotāja pieprasījums, atlasītajam kreditora kontam tiek iestatīta lauka **Debitoru sadarbības piekļuve ir atļauta** vērtība **Jā** un tiek sākta lietotāja pieprasījuma darbplūsma. Kā daļa no šīs darbplūsmas programmatūrā Finance and Operations tiek izveidots jauns lietotājs un tiek piešķirtas drošības lomas. Turklāt tiek aktivizēts Azure B2B pakalpojums, kas iniciē mijiedarbību ar Azure portālu un jaunu vai pastāvošu AAD kontu saista ar Finance and Operations lietotāja kontu. Plašāku informāciju skatiet [Par sadarbību risinājumā Azure AD B2B](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 

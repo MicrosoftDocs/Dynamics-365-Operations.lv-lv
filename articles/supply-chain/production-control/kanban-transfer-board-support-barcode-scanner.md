@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Svītrkoda skeneru atbalsts Kanban pārsūtīšanas panelī
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Kanban pārsūtīšanas panelis nodrošina skenera ievadi, izmantojot logrīka svītrkoda skeneri, lai atlasītu, sāktu, pabeigtu un iztukšotu Kanban darbu.
 
@@ -38,6 +37,7 @@ Kanban pārsūtīšanas panelis nodrošina skenera ievadi, izmantojot logrīka s
 ------------------
 
 Kopsavilkuma cilnē **Skenera reģistrācija** varat atlasīt reģistrācijas režīmu, kas nosaka to, kāda darbība tiek veikta, skenējot Kanban kartes numuru vai manuāli ievadot numuru laukā Kanban kartes numurs.
+
 | Iestatīt reģistrācijas režīmu | Apraksts                                                                                     |
 |-----------------------|-------------------------------------------------------------------------------------------------|
 | Sākums                 | Kanban pārsūtīšanas darbs tiek reģistrēts kā notiekošs.                                                 |

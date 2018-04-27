@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="organization-administration-home-page"></a>Organizācijas administrēšanas sākumlapa
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir norādīts saturs, kas prasmīgiem lietotājiem un administratoriem palīdzēs konfigurēt programmatūru Microsoft Dynamics 365 for Finance and Operations. Šis saturs viņiem palīdzēs sistēmu konfigurēt tā, lai jūsu organizācijai un komercdarbībai tā darbotos efektīvi un bez traucējumiem.
 

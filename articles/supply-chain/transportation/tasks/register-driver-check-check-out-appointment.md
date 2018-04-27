@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a>Autovadītāja reģistrēšanās norīkojuma izpildei un reģistrēšanās pēc norīkojuma izpildes
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir parādīts, kā reģistrēt autovadītāja reģistrēšanos norīkojuma izpildei un pēc norīkojuma pabeigšanas. To parasti veic transportēšanas koordinators. Šo procedūru varat lietot ar demonstrācijas datu uzņēmumu USMF. Pirms darba sākšanas, kravai jābūt iestatītam norīkojumam. Lai izveidotu norīkojumu, jūs varat palaist procedūru “Iestatīt kravas norīkojumu” kā priekšnoteikumu.
 

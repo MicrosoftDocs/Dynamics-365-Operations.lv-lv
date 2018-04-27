@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchase-requisition-workflow"></a>Pirkšanas pieprasījuma darbplūsma
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā darbplūsmas procesā pārskatīšanas procesa gaitā tiek pārvietoti pirkšanas pieprasījumi no sākotnēja statusa Melnraksts līdz galīgajam statusam Apstiprināts. Kad pirkšanas pieprasījums ir iesniegts pārskatīšanai, tiek uzsākts darbplūsmas process. Kad pirkšanas pieprasījums ir apstiprināts, pirkšanas pasūtījumu var ģenerēt pirkšanas pieprasījuma rindām un iesniegt kreditoram pasūtījuma izpildīšanai.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="handling-cash-discounts-for-overpayments"></a>Termiņatlaižu apstrāde pārmaksām
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegti scenāriji, kas parāda, kā tiek apstrādāts maksājums, kad debitors izmanto termiņatlaidi, bet arī pārmaksā. 
 

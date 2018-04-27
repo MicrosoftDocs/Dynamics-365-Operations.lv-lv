@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="200-percent-reducing-balance-depreciation"></a>200 procentu atlikuma bilances aprēķināšanas metode
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegts pārskats par 200 procentu degresīvās nolietojuma aprēķināšanas metodi.
 
@@ -70,6 +69,7 @@ Ja ir atlasīta nolietojuma aprēķināšanas gada opcija **Finanšu**, laukā *
 -   **Finanšu periods** — grāmato finanšu gadam aprēķinātā nolietojuma kopsummu. Šī summa tiek uzkrāta finanšu periodos, kas ir definēti lapā **Finanšu kalendāri**.
 
 ## <a name="example-of-200-reducing-balance-depreciation"></a>200%  atlikumu bilances piemērs
+
 |                                |        |
 |--------------------------------|--------|
 | Iegādes vērtība               | 11 000 |

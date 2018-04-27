@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-planning-templates-for-excel"></a>Budžeta plānošanas veidnes programmai Excel
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, ka izveidot Microsoft Excel veidnes, kuras var izmantot ar budžeta plāniem.
 
@@ -42,11 +41,11 @@ Budžeta plāna dokumentus var skatīt un rediģēt, izmantojot vienu vai vairā
 1. Atveriet sadaļu **Budžeta plānu saraksts** (**Budžeta veidošana** &gt; **Budžeta plāni**). 
 2. Noklikšķiniet uz **Jauns**, lai izveidotu jaunu budžeta plāna dokumentu. 
 
-  [![Budžeta plānu saraksts](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+   [![Budžeta plānu saraksts](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
 3. Izmantojiet rindas opciju **Pievienot**, lai pievienotu rindas. Noklikšķiniet uz **Izkārtojumi**, lai skatītu budžeta plāna dokumenta izkārtojuma konfigurāciju. 
 
-  [![Budžeta plānu pievienošana](./media/bpt2-1024x274.png)](./media/bpt2.png) 
+   [![Budžeta plānu pievienošana](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
 Izkārtojuma konfigurāciju varat pārskatīt un pēc nepieciešamības koriģēt. 
 1. Dodieties uz **Veidne** &gt; **Ģenerēt**, lai izveidotu Excel failu šim izkārtojumam. 

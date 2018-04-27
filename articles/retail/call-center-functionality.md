@@ -29,8 +29,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="call-center-functionality"></a>Zvanu centra funkcionalitāte
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Šajā rakstā ir sniegts pārskats par zvanu centra pārdošanas funkcionalitāti programmatūrā Microsoft Dynamics 365 for Retail.
 

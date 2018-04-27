@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="procurement-catalogs"></a>Sagādes katalogi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir detalizēti aprakstīts, kā iepirkumu speciālisti var iestatīt un uzturēt sagādes katalogus. Sagādes katalogos ir noteikti krājumi un pakalpojumi, ko uzņēmuma darbinieki var pasūtīt iekšējai lietošanai.
 

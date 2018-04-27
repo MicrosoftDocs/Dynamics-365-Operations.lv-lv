@@ -19,17 +19,16 @@ ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7e05361bf865e44ba6073198fba94d7102b1ed19
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9b4e792cae66e38546b3bdfdfbd59a2e36d891c2
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-coupons-for-retail-sales"></a>Izveidot mazumtirdzniecības pārdošanas kuponus
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 ## <a name="overview-of-coupons"></a>Pārskats par kuponiem
 
@@ -46,9 +45,12 @@ Lai izveidotu kuponu, atlaide un kupons ir jāizveido atsevišķi. Pēc tam tie 
 
 ### <a name="limited-use-coupons"></a>Kuponi ar izmantošanas ierobežojumiem
 
-Kuponiem var konfigurēt izmantošanas ierobežojumus. Lietojuma ierobežojumu var noteikt katram debitoram vai kanālam, vai arī kā globālu ierobežojumu. Šis ierobežojums tiek izmantots, kad kods vai svītrkods tiek ievadīts vai skenēts POS sistēmā vai kad tiek izveidots pārdošanas pasūtījums. Kupons tiek reģistrēts kā izmantots, kad tiek pabeigts pasūtījums, ar kuru kupons ir saistīts.
+Kuponiem var konfigurēt izmantošanas ierobežojumus. Lietojuma ierobežojumu var noteikt katram debitoram vai kanālam, vai arī kā globālu ierobežojumu. Šis ierobežojums tiek izmantots, kad kods vai svītrkods tiek ievadīts vai skenēts POS sistēmā vai kad tiek izveidots pārdošanas pasūtījums.
 
 Kupona ierobežojums tiek īstenots pēc kupona koda. Piemēram, vienreizēju kuponu, kam ir divi kupona kodi, var izmantot divas reizes: vienu reiz katram kupona kodam. Katru kupona kodu var neatkarīgi iestatīt kā aktīvu.
+
+> [!NOTE]
+> Kad kupona kods ir sasniedzis lietojuma ierobežojumu, sistēma šī kupona koda statusu automātiski *nemaina* uz “Izlietots”. Taču sistēma neļauj turpināt tāda kupona koda lietošanu, kas ir sasniedzis savu lietojuma ierobežojumu. Ja kupona koda statuss ir manuāli iestatīts uz kaut citu, kas nav “Aktīvs”, šo kupona kodu nevar izmantot nevienā kanālā.
 
 ## <a name="managing-coupons"></a>Kuponu pārvaldība
 
@@ -68,8 +70,8 @@ Lai iestatītu kuponu, ir jāiestata kupona svītrkods un divas kupona numuru s�
     > [!NOTE]
     > Abu numuru sēriju laukam **Sfēra** jāiestata vērtība **Uzņēmums**. Vairumā gadījumu jums automātiski jāģenerē abi sērijas numuri.
 
-5.  Lapas **Mazumtirdzniecības koplietojamie parametri** cilnē **Svītrkodi** izvēlieties iepriekš izveidoto svītrkodu.
-6.  Lapas **Mazumtirdzniecības parametri** cilnē **Numuru sērijas** atlasiet numuru sērijas, ko izveidojāt kupona numuram un kupona koda identifikatoram.
+5.  Lapas **Mazumtirdzniecības parametri** cilnē **Svītrkodi** atlasiet iepriekš izveidoto svītrkodu.
+6.  Lapas **Mazumtirdzniecības koplietojamie parametri** cilnē **Numuru sērijas** atlasiet numuru sērijas, ko izveidojāt kupona numuram un kupona koda identifikatoram.
 7.  Tagad varat atvērt lapu **Kuponi** un izveidot jaunus kuponus.
 
 ## <a name="the-effect-of-partial-updates-on-coupons"></a>Daļēju atjauninājumu ietekme uz kuponiem

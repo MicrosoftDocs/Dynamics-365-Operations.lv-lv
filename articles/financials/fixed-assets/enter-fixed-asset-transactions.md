@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-transaction-options"></a>Pamatlīdzekļu transakciju opcijas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir aprakstītas dažādās metodes, kas ir pieejamas pamatlīdzekļu transakciju izveidošanai.
 

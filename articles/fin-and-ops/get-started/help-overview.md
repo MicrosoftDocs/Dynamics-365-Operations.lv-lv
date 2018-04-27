@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="help-system-overview"></a>Palīdzības sistēmas apskats
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegts pārskats par programmas Microsoft Dynamics 365 for Finance and Operations palīdzības sistēmas komponentiem. Tajā ir arī paskaidrots, kā savai organizācijai varat sniegt pielāgotu dokumentāciju un apmācību. 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="supply-chain-management-home-page"></a>Piegādes ķēdes pārvaldības sākumlapa
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Šajā tēmā ir sniegts saraksts ar palīdzības tēmām un citiem resursiem, kas attiecas uz piegādes ķēdes pārvaldības līdzekļiem programmā Microsoft Dynamics 365 for Finance and Operations. 
 

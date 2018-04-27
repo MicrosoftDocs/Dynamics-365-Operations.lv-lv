@@ -27,7 +27,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="process-compensation"></a>Atlīdzības apstrāde
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Atlīdzības apstrāde dod iespēju aprēķināt jaunas bāzes atlīdzības summas jūsu darbiniekiem, pamatojoties uz kapitāla korekcijām, nopelnu palielinājuma mērķiem un veiktspēju. Šajā tēmā ir sniegta informācija par fiksētās atlīdzības sistēmu atlīdzības apstrādes pamata plūsmu, neņemot vērā darbinieka sniegumu.
 

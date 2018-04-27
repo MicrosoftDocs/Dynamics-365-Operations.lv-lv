@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="welcome-to-microsoft-dynamics-365-for-talent"></a>Esiet sveicināti risinājumā Microsoft Dynamics 365 for Talent!
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 for Talent racionalizē daudzus ikdienas lietvedības uzdevumus un automatizē vairākus ar organizācijas personālu saistītus procesus. Šajos procesos ietilpst darbinieku saglabāšana, atvieglojumu administrēšana, apmācība, darba izpildes novērtējumi un izmaiņu pārvaldība. Personāla vadības darbiniekiem tā nodrošina arī struktūru uzraudzības jomu pārvaldīšanai.
 

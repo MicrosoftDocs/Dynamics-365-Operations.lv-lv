@@ -18,16 +18,16 @@ ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: bfbc0fdfcff809a7d22362961b9778355ed7317b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 83fcf1d0432d5afa71d6f9d7d22cea5a583777bf
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="vendor-collaboration-mobile-workspace"></a>Kreditoru sadarbības mobilā darbvieta
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par mobilo darbvietu **Kreditoru sadarbība**. Šī darbvieta palīdz kreditoriem pastāvīgi būt informētiem par pirkšanas pasūtījumiem, kas viņiem ir nosūtīti apstiprināšanai. Viņi var skatīt arī informāciju par jauniem un atjauninātiem pirkšanas pasūtījumiem un kontaktpersonām.
 
@@ -63,8 +63,8 @@ Priekšnosacījumi atšķiras atkarībā no jūsu organizācijai izvietotās Mic
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Programmas Microsoft Dynamics 365 for Finance and Operations izmantošanas priekšnoteikumi 
 Ja jūsu organizācijai ir izvietota programmatūra Microsoft Dynamics 365 for Finance and Operations, sistēmas administratoram ir jāpublicē mobilā darbvieta **Kreditoru sadarbība**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Priekšnosacījumi, ja lietojat Microsoft Dynamics 365 for Operations versiju 1611 ar 3. platformas atjauninājumu vai jaunāku tā versiju.
-Ja jūsu organizācija ir izvietota Microsoft Dynamics 365 for Operations versija 1611 ar 3. platformu atjauninājumu vai jaunāku tā versiju, sistēmas administratoram ir jāizpilda tālāk norādītie priekšnoteikumi. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Priekšnosacījumi, ja lietojat Microsoft Dynamics 365 for Operations versiju 1611 ar Platformas 3. atjauninājumu vai jaunāku tā versiju.
+Ja jūsu organizācija ir izvietota Microsoft Dynamics 365 for Operations versija 1611 ar Platformas 3. atjauninājumu vai jaunāku tā versiju, sistēmas administratoram ir jāizpilda tālāk norādītie priekšnoteikumi. 
 
 <table>
 <thead>
@@ -76,9 +76,9 @@ Ja jūsu organizācija ir izvietota Microsoft Dynamics 365 for Operations versi
 </thead>
 <tbody>
 <tr class="odd">
-<td>Ja izmantojat 3. platformas atjauninājumu, ir jāievieš KB 3216943.</td>
+<td>Ja izmantojat Platformas 3. atjauninājumu, ir jāievieš KB 3216943.</td>
 <td>Sistēmas administrators</td>
-<td>KB 3216943 ir binārais atjauninājums, kas ir nepieciešams, ja izmantojat 3. platformas atjauninājumu. Lai ieviestu šo KB, sistēmas administratoram ir jāizpilda tālāk minētās darbības.
+<td>KB 3216943 ir binārais atjauninājums, kas ir nepieciešams, ja izmantojat Platformas 3. atjauninājumu. Lai ieviestu šo KB, sistēmas administratoram ir jāizpilda tālāk minētās darbības.
 <ol>
 <li>Lejupielādējiet KB 3216943 no pakalpojuma Microsoft Dynamics Lifecycle Services (LCS).</li>
 <li>Instalējiet bināro atjauninājumu, kas ir nodrošināts kā izvietojama pakotne. Informāciju par to, kā lietot izvietojamu pakotni, skatiet sadaļā <a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Lietot izvietojamu pakotni</a>.</li>

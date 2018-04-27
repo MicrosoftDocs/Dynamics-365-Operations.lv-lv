@@ -18,16 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 33a8bc78006ae9e7d5ca905a98886fd7af706604
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6679215a664ddf938a204196b00f3bc28bf65f8f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="financial-insights"></a>Finanšu ieskati
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Darbvieta **Finanšu ieskati** izmanto pakalpojumu Microsoft Power BI, lai apkopotu finanšu izpildes pamatrādītājus (KPI), diagrammas un finanšu pārskatus. Pakalpojums Power BI ir iegults programmā Microsoft Dynamics 365 Finance and Operations.
 Darbvieta **Finanšu ieskati** ir paredzēta analītisku pārskatu veidošanai. Personas visā organizācijā var skatīt, pētīt, izprast un rīkoties. 
@@ -107,8 +107,20 @@ Lai gan darbvietā **Finanšu ieskati** ir ietverti finanšu pārskati, tā neai
 
 Tālāk esošajā salīdzinājuma diagrammā tiks parādītas atšķirības starp šīm divām opcijām.
 
-|                                         | **Finanšu pārskati**                            | **Finanšu ieskati**             | |-----------------------------------------|----------------------------------------------------|---------- -------------------------| | **Noklusējuma pārskatu rediģēšana**                | Jā                                                | Nē                                 | | **Jaunu pārskatu izveide**                  | Jā                                                | Nē                                 | | **Pārskatu drukāšana**                       | Jā                                                | Nē                                 | | **Eksportēšana uz programmu Excel**                     | Jā          | Ierobežoti Eksportē neapstrādātos datus uz programmu Excel, nav formatēts pārskats       | | **Atbalsts pārskatu veidošanas hierarhijai/organizācijas hierarhijai**   | Jā                               | Nē                                 | | **Pārskats par apakšgrāmatu datiem**       | Jā Ierobežoti Tikai kreditoram un debitoram    | Jā Kreditors, debitors, kreditoru/debitoru grupas, kreditoru/debitoru adreses u.c.  | | **Pārskata valūta**      | Jā Uzskaites valūta un pārvēršana pārskata valūtā       | Jā Tikai uzskaites valūta      | | **Drošība**                | Jā Atbilstoši Finance and Operations un pārskatu koka drošībai | Ierobežoti Skatiet pārskatus par visiem uzņēmumiem (neatkarīgi no Finance and Operations drošības) vai tikai aktīvo uzņēmumu | | **Atbalsts atšķirīgiem kontu plāniem un finanšu gadiem** | Jā                   | Nē                   | | **Pārskats par ārējiem datiem**                              | Nē                   | Nē                                   | | **Atbalsta konsolidācijas**                               | Jā                          | Ierobežoti Var izveidot pārskatu par vairākiem uzņēmumiem, taču izmanto tikai uzskaites valūtu                                     |
 
+|                                                                       |               <strong>Finanšu pārskati</strong>                |                                      <strong>Finanšu ieskati</strong>                                      |
+|-----------------------------------------------------------------------|-------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+|                 <strong>Rediģēt noklusējuma pārskatus</strong>                 |                                Jā                                |                                                      Nav                                                       |
+|                  <strong>Izveidot jaunus pārskatus</strong>                  |                                Jā                                |                                                      Nav                                                       |
+|                    <strong>Drukāt pārskatus</strong>                     |                                Jā                                |                                                      Nav                                                       |
+|                   <strong>Eksportēt programmā Excel</strong>                    |                                Jā                                |                           Ierobežoti Eksportē neapstrādātos datus uz programmu Excel, nav formatēts pārskats                           |
+|  <strong>Atbalsts pārskatu veidošanas hierarhijai/organizācijas hierarhijai</strong>  |                                Jā                                |                                                      Nav                                                       |
+|               <strong>Pārskats par apakšgrāmatu datiem</strong>               |               Jā Ierobežoti Tikai kreditoram un debitoram                |                 Jā Kreditors, debitors, kreditoru/debitoru grupas, kreditoru/debitoru adreses u. c.                 |
+|                  <strong>Pārskata valūta</strong>                  |    Jā Uzskaites valūta un pārvēršana pārskata valūtā    |                                          Nē Tikai uzskaites valūta                                          |
+|                       <strong>Drošība</strong>                       | Jā Atbilstoši Finance and Operations un pārskatu koka drošībai | Ierobežoti Skatiet pārskatus par visiem uzņēmumiem (neatkarīgi no Finance and Operations drošības) vai tikai aktīvo uzņēmumu |
+| <strong>Atbalsts atšķirīgiem kontu plāniem un finanšu gadiem</strong> |                                Jā                                |                                                      Nav                                                       |
+|               <strong>Pārskats par ārējiem datiem</strong>                |                                Nav                                 |                                                      Nav                                                       |
+|                <strong>Atbalsta konsolidācijas</strong>                |                                Jā                                |                   Ierobežoti Var izveidot pārskatu par vairākiem uzņēmumiem, taču izmanto tikai uzskaites valūtu                   |
 
 Papildus lietotāja interfeisam oriģinālajā darbvietā **CFO apskats**, tagad ir pieejami jauni KPI, diagrammas un finanšu pārskati. Ir pieejami tālāk norādītie finanšu pārskati.
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="pos-improvements-for-serialized-products"></a>POS uzlabojumi serializētām precēm
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 ## <a name="overview"></a>Pārskats 
 Pamatojoties uz iestatījumiem programmā Retail Headquarters, preces var klasificēt kā serializētas vai neserializētas. Ja preces ir serializētas, tad katram krājumam var piešķirt unikālu numuru, kas palīdz sekot līdzi garantijām, izsekot krājumus un apstiprināt īpašumtiesības. Lai gan spēja serializētām precēm piešķirt sērijas numurus pastāvēja jau mūsu Modern/Mākoņa pārdošanas punktā (Point of Sale — POS), ir pievienoti daži uzlabojumi, lai palīdzētu kasieriem ietaupītu laiku un strādāt produktīvāk.  

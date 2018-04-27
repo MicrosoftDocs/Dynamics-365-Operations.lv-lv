@@ -29,10 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="lifo-date-with-physical-value-and-marking"></a>LIFO uz datums ar fizisko vērtību un iezīmēšanu
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Pēdējie iekšā, pirmie ārā uz datumu (LIFO uz datumu) ir krājumu modelis, kura pamatā ir LIFO princips. Izdotais krājums nosedz pirmo saņemto krājumu, ņemot vērā krājumu darbības veikšanas fizisko datumu. Izmantojot vienumu LIFO datums, ja pirms izdošanas nav nevienas saņemšanas, izdošana nosedz jebkuru saņemšu, kas rodas pēc izdošanas datuma. Vairākas izdošanas vienā un tajā pašā datumā ir jānosedz secībā – pēdējā izdošana, pēdējā saņemšana. 
 
@@ -66,16 +65,16 @@ Tālāk redzamajā ilustrācija ir parāda ietekme, ko rada LIFO uz datumu krāj
 
 **Diagrammas atslēga**
 
--   Krājuma darbības ir atzīmētas ar vertikālām bultām.
--   Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
--   Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
--   Virs (vai zem) katras vertikālas bultas ir norādīta krājumu transakcijas vērtība šādā formātā: Quantity@Unitprice.
--   Krājuma darbības vērtība iekavās norāda, ka krājuma darbība tika iegrāmatota krājumā fiziski.
--   Krājuma darbības vērtība iekavās norāda, ka krājuma darbība netika iegrāmatota krājumā finansiāli.
--   Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
--   Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
--   Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti *Krājuma slēgšana*.
--   Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
+- Krājuma darbības ir atzīmētas ar vertikālām bultām.
+- Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
+- Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
+- Virs (vai zem) katras vertikālas bultas ir norādīta krājumu transakcijas vērtība šādā formātā: Quantity@Unitprice.
+- Krājuma darbības vērtība iekavās norāda, ka krājuma darbība tika iegrāmatota krājumā fiziski.
+- Krājuma darbības vērtība iekavās norāda, ka krājuma darbība netika iegrāmatota krājumā finansiāli.
+- Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
+- Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
+- Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti *Krājuma slēgšana*.
+- Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
 
 ## <a name="lifo-date-with-the-include-physical-value-option"></a>LIFO datums ar opciju Fizisko vērtību iekļaušana
 Varat atzīmēt krājuma izvēles rūtiņu **Iekļaut fizisko vērtību** lapā **Krājumu modeļu grupas**. Šādā gadījumā sistēmā faktiskās vidējās izmaksu cenas aprēķināšanai tiek izmantotas gan fiziskās, gan finansiālās ieejas plūsmas transakcijas. Kur nepieciešams, sistēma veic korekcijas arī fiziski apstrādātajām izdošanas darbībām. Ja ir noņemta atzīme no izvēles rūtiņas **Iekļaut fizisko vērtību**, tad, veicot krājumu slēgšanu ar LIFO uz datumu krājumu modeli, tiek veikta tikai finansiāli atjaunināto transakciju segšana. 
@@ -101,16 +100,16 @@ Tālāk redzamajā ilustrācija ir parāda ietekme, ko rada LIFO krājumu modeļ
 
 **Diagrammas atslēga**
 
--   Krājuma darbības ir atzīmētas ar vertikālām bultām.
--   Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
--   Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
--   Virs (vai zem) katras vertikālas bultas ir norādīta krājumu transakcijas vērtība šādā formātā: Quantity@Unitprice.
--   Krājuma darbības vērtība iekavās norāda, ka krājuma darbība tika iegrāmatota krājumā fiziski.
--   Krājuma darbības vērtība iekavās norāda, ka krājuma darbība netika iegrāmatota krājumā finansiāli.
--   Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
--   Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
--   Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti *Krājuma slēgšana*.
--   Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
+- Krājuma darbības ir atzīmētas ar vertikālām bultām.
+- Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
+- Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
+- Virs (vai zem) katras vertikālas bultas ir norādīta krājumu transakcijas vērtība šādā formātā: Quantity@Unitprice.
+- Krājuma darbības vērtība iekavās norāda, ka krājuma darbība tika iegrāmatota krājumā fiziski.
+- Krājuma darbības vērtība iekavās norāda, ka krājuma darbība netika iegrāmatota krājumā finansiāli.
+- Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
+- Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
+- Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti *Krājuma slēgšana*.
+- Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
 
 ## <a name="lifo-date-with-marking"></a>LIFO datums ar atzīmi
 Atzīmēšana ir process, kas sniedz iespēju izdošanas transakciju saistīt jeb atzīmēt ar ieejas plūsmas transakciju. Atzīmēšana var parādīties gan pirms, gan pēc darbības grāmatošanas. Kā arī varat lietot iezīmēšanu, ja vēlaties pārbaudīt precīzas krājuma izmaksas pēc darbības iegrāmatošanas vai pēc krājumu slēgšanas. 
@@ -147,16 +146,16 @@ Tālāk redzamajā ilustrācija ir parāda ietekme, ko rada LIFO krājumu modeļ
 
 **Diagrammas atslēga**
 
--   Krājuma darbības ir atzīmētas ar vertikālām bultām.
--   Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
--   Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
--   Virs (vai zem) katras vertikālas bultas ir norādīta krājumu transakcijas vērtība šādā formātā: Quantity@Unitprice.
--   Krājuma darbības vērtība iekavās norāda, ka krājuma darbība tika iegrāmatota krājumā fiziski.
--   Krājuma darbības vērtība iekavās norāda, ka krājuma darbība netika iegrāmatota krājumā finansiāli.
--   Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
--   Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
--   Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti *Krājuma slēgšana*.
--   Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
+- Krājuma darbības ir atzīmētas ar vertikālām bultām.
+- Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
+- Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
+- Virs (vai zem) katras vertikālas bultas ir norādīta krājumu transakcijas vērtība šādā formātā: Quantity@Unitprice.
+- Krājuma darbības vērtība iekavās norāda, ka krājuma darbība tika iegrāmatota krājumā fiziski.
+- Krājuma darbības vērtība iekavās norāda, ka krājuma darbība netika iegrāmatota krājumā finansiāli.
+- Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
+- Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
+- Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti *Krājuma slēgšana*.
+- Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
 
 
 

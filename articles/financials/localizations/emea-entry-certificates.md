@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="eu-entry-certificates"></a>ES ievešanas sertifikāti
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta informācija par Eiropas Savienības (ES) ierakstu sertifikātiem.
 

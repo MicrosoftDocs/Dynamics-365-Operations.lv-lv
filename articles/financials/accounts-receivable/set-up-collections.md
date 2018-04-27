@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-credit-and-collections"></a>Kredīta un iekasēšanas iestatīšana
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir paskaidrots, kā iestatīt iekasēšanas funkcionalitāti.
 
@@ -97,9 +96,9 @@ Ja tirdzniecības pārstāvis nav norādīts, tiek izmantots debitora organizāc
 Lai iegūtu papildu informāciju, skatiet šādas tēmas:
 
  - [Atgādinājuma vēstules secības izveide](tasks/create-collection-letter-sequence.md)
- 
+
  - [Atgādinājuma vēstuļu apstrāde](tasks/process-collection-letters.md)
- 
+
  - [Iekasēšanas informācijas pārskatīšana](tasks/review-collections-information.md)
 
 

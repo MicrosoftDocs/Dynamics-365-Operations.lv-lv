@@ -28,8 +28,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="set-up-training-courses"></a>Iestatīt apmācību kursus
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Personāla vadības administratori un vadītāji var izmantot šos kursu līdzekļus, lai uzturētu informāciju par darbiniekiem piedāvāto apmācību.
 
@@ -81,15 +80,15 @@ Tālāk esošajā tabulā uzskaitīti trīs kursu iestatījumu veidi. Iestatīju
 
 ## <a name="course-tasks"></a>Kursu uzdevumi
 Katram kursam var izpildīt šādus uzdevumus.
--   Reģistrēt dalībniekus
--   Norādīt reģistrācijas termiņu
--   Definēt minimālo un maksimālo dalībnieku skaitu
--   Piešķirt kursa atrašanās vietu un mācību telpu
--   Kursu dalībniekiem ieteikt viesnīcas
--   Veidot kursa aprakstu, ko pēc tam varat reklamēt darbinieku pašapkalpošanās pakalpojumā
+- Reģistrēt dalībniekus
+- Norādīt reģistrācijas termiņu
+- Definēt minimālo un maksimālo dalībnieku skaitu
+- Piešķirt kursa atrašanās vietu un mācību telpu
+- Kursu dalībniekiem ieteikt viesnīcas
+- Veidot kursa aprakstu, ko pēc tam varat reklamēt darbinieku pašapkalpošanās pakalpojumā
 
   >**Piezīme.** Kursu varat dzēst tikai tad, ja tam neviens nav reģistrējies. 
-    
+
 ## <a name="course-statuses"></a>Kursu statusi
 Tālāk esošajā tabulā uzskaitīti iespējamie kursu statusi un darbības, kuras varat pabeigt, kad kursam ir specifisks statuss.
 

@@ -19,17 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b5472d69f6d0bb7a60fb417a0d1bdc3fbc6a5e18
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 813d13738171969b48d16a5ed52f2b04a8beaeef
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="transportation-management-engines"></a>Transportēšanas pārvaldības programmas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Transportēšanas pārvaldības programmas definē loģiku, ko izmanto, lai izveidotu un apstrādātu transportēšanas likmes transportēšanas pārvaldības procesā. 
 
@@ -47,7 +46,7 @@ Tālāk esošajās tabulā ir norādītas transportēšanas pārvaldības progra
 | **Zonas noteikšanas programma**                  | Aprēķina zonu, pamatojoties uz pašreizējo adresi, un aprēķina zonu skaitu, kas jāšķērso, lai transportētu no adreses A uz adresi B.                                                                                                                                                                    |
 | **Kravas pavadzīmes veids**            | Standartizē kravas rēķina un kravas pavadzīmes rindas. Izmantot automātiskai kravas pavadzīmes salīdzināšanai.                                                                                                                                                                                                                |
 
- 
+
 <a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Kuras programmas ir jākonfigurē, lai sūtījumam izveidotu likmes?
 ---------------------------------------------------
 
@@ -60,13 +59,13 @@ Lai transportēšanas pārvaldības programma darbotos noteiktā veidā, tai ir 
 -   Vienkārši konfigurācijas dati.
 
 Vairumā gadījumu, lai konfigurētu inicializēšanas datus, varat noklikšķināt uz transportēšanas pārvaldības programmas iestatīšanas veidlapā esošās pogas **Parametri**. **Tādas likmes noteikšanas programmas konfigurēšana, kurā ir atsauce uz attāluma noteikšanas programmu** Tālāk sniegtajā piemērā ir aprakstīta iestatīšana, kas ir nepieciešama likmes noteikšanas programmai, kuras pamatā ir .NET programmas tips Microsoft.Dynamics.Ax.Tms.Bll.MileageRateEngine un kurā ir atsauce uz attāluma noteikšanas programmu.
-| Parametrs             | Apraksts                                                                                                                                                                                                                                                                                                                                                                      |
-|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *RateBaseAssigner*    | .NET veids, kas izskaidro likmes bāzes piešķires datus konkrētai shēmai. Parametra vērtības sintakse sastāv no diviem segmentiem, kas ir atdalīti ar vertikālo joslu (|). Pirmajā segmentā ir norādīts montāžas nosaukums, kas definē piešķīrēja veidu. Otrajā segmentā ir definēts pilnībā kvalificēta piešķīrēja veida nosaukums. Tiek ietverta arī veida nosaukumvieta. |
-| *MileageEngineCode*   | Attāluma noteikšanas programmas kods, kas identificē attāluma noteikšanas programmas ierakstu Microsoft Dynamics 365 for Finance and Operations datu bāzē.                                                                                                                                                                                                                                                             |
-| *ApportionmentEngine* | Vispārīgās programmas kods, kas identificē norīkojuma programmas ierakstu Microsoft Dynamics 365 for Finance and Operations bāzē.                                                                                                                                                                                                                                                              |
 
- 
+|          Parametrs           |                                                                                  Apraksts                                                                                  |
+|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  <em>RateBaseAssigner</em>   | .NET veids, kas izskaidro likmes bāzes piešķires datus konkrētai shēmai. Parametra vērtības sintakse sastāv no diviem segmentiem, kas ir atdalīti ar vertikālo joslu ( |
+|  <em>MileageEngineCode</em>  |                       Attāluma noteikšanas programmas kods, kas identificē attāluma noteikšanas programmas ierakstu Microsoft Dynamics 365 for Finance and Operations datu bāzē.                        |
+| <em>ApportionmentEngine</em> |                        Vispārīgās programmas kods, kas identificē norīkojuma programmas ierakstu Microsoft Dynamics 365 for Finance and Operations bāzē.                        |
+
 <a name="how-is-metadata-used-in-transportation-management-engines"></a>Kā transportēšanas pārvaldības programmas izmanto metadatus?
 ----------------------------------------------------------
 
@@ -77,6 +76,7 @@ Dati, kas tiek izmantoti, aprēķinot likmes sistēmā Microsoft Dynamics 365 fo
 
 ## <a name="do-all-engine-configurations-require-metadata"></a>Vai visām programmas konfigurācijām ir nepieciešami metadati?
 Nē, transportēšanas pārvaldības programmām, kas tiek izmantotas likmju aprēķiniem nepieciešamo datu izgūšanai no ārējām sistēmām, metadati nav nepieciešami. Likmju datus šīm programmām var izgūt no ārējām transportēšanas pārvadātāju sistēmām, parasti izmantojot tīmekļa pakalpojumu. Piemēram, varat izmantot attāluma noteikšanas programmu, kas tieši izgūst datus no pakalpojuma Bing kartes, tādēļ metadati šai programmai nav nepieciešami.
+
 | **Piezīme.**                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Transportēšanas pārvaldības programmas, kas tiek nodrošinātas kopā ar Finance and Operations, izmanto datus, kas tiek izgūti lietojumprogrammas. Programmas, kas veido savienojumu ar ārējām sistēmām, nav ietvertas sistēmas Operations komplektācijā. Taču programmu paplašināšanas modelis ļauj izveidot paplašinājumus, izmantojot programmatūru Microsoft Dynamics 365 for Finance and Operations Visual Studio Tools. |

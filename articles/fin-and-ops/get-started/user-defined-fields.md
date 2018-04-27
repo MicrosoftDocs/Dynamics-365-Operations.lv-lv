@@ -26,9 +26,9 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="custom-fields"></a>Pielāgoti lauki
 
-[!include[banner](../includes/banner.md)] 
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[banner](../includes/pre-release.md)] 
+[!INCLUDE [banner](../includes/pre-release.md)]
 
 Lai gan Microsoft Dynamics 365 for Finance and Operations nodrošina plašu lietošanai gatavu lauku kopu dažādu veidu biznesa procesu pārvaldībai, dažkārt uzņēmumam ir nepieciešams sistēmā izsekot papildu informāciju. Tādēļ programmā Finance and Operations varat izveidot pielāgotus laukus un programmu pielāgot sava uzņēmuma vajadzībām (ja jums ir nepieciešamās atļaujas, lai piekļūtu šim līdzeklim). 
 

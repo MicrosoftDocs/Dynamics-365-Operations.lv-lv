@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-contracts"></a>Projekta līgumi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegti piemēri projektu līgumiem, ko varat izveidot dažādu veidu projektiem un finansējuma avotiem, un ir aprakstīts, kā varat pārvaldīt līgumus un izrakstīt rēķinus projektu debitoriem programmatūrā Microsoft Dynamics 365 for Finance and Operations.
 

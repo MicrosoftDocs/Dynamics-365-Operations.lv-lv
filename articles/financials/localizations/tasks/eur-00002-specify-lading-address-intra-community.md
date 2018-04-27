@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="specify-a-lading-address-for-an-intra-community-transaction"></a>EK iekšējās transakcijas iekraušanas adreses norādīšana
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts kā norādīt iekraušanas adresi EK tirdzniecības darbībai. Piemēram, Vācijas uzņēmums pasūta krājumus no kreditora ar vācu uzņēmuma adresi. Šim kreditoram ir noliktava Itālijā, un krājumi tiek piegādāti no turienes. Pārskats par šo piegādi jāsaglabā Intrastat. Tāda pati situācija ir derīga debitora atgrieztajiem krājumiem.
 Šī procedūra attiecas uz visām Eiropas valstīm/reģioniem. Šis uzdevums ir izveidots, izmantojot demonstrācijas uzņēmuma DEMF datus, norādot Vāciju kā primārās adreses valsti. Lai varētu veikt šo procedūru, ir jākonfigurē Intrastat pārskatu veidošana. Šī procedūra ir paredzēta grāmatvežiem. Šī procedūra ir paredzēta līdzeklim, kas tika pievienots Dynamics 365 for Operations versijā 1611.

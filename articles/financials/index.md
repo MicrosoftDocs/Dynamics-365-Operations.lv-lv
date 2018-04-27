@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-management-home-page"></a>Finanšu pārvaldības sākumlapa
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Šajā tēmā ir sniegts saraksts ar palīdzības tēmām un citiem resursiem finanšu pārvaldības līdzekļiem programmā Microsoft Dynamics 365 for Finance and Operations. 
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mass-hire-projects"></a>Masveida darbā pieņemšanas projekti
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Masveida darbā pieņemšanas projekti ļauj personāla vadības speciālistiem izveidot vairākus amatus un efektīvi pieņemt uz šiem amatiem darbā darbiniekus.
 
@@ -94,7 +93,7 @@ Lai mainītu masveida pieņemšanas darbā projekta statusu, lapā **Masveida pi
 </tbody>
 </table>
 
- 
+
 
 
 

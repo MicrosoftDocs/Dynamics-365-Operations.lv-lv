@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="attributes-attribute-groups-and-their-associations-with-various-retail-entities-in-finance-and-operations"></a>Atribūti, atribūtu grupas un to saistības ar dažādiem Retail elementiem programmatūrā Finance and Operations
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 *Atribūti* nodrošina veidu, kā tālāk aprakstīt preci un tās raksturīgās iezīmes, izmantojot lietotāja definētos laukus (piemēram, **Atmiņas lielums**, **Cietā diska apjoms**, **Ir saderīgs ar Energy Star** un tā tālāk). Programmā Microsoft Dynamics 365 for Finance and Operations atribūtus var saistīt ar dažādām mazumtirdzniecības personām, piemēram, preču kategorijām un mazumtirdzniecības kanāliem, un tiem var iestatīt noklusējuma vērtības. Ja preces ir saistītas ar preču kategorijām vai mazumtirdzniecības kanāliem, tās pārmanto atribūtus un noklusējuma vērtības. Noklusējuma vērtības var būt ignorētas individuālas preces līmenī, mazumtirdzniecības kanāla līmenī vai mazumtirdzniecības katalogā.
  
@@ -227,13 +227,13 @@ Preču līmenī var ignorēt atsevišķu preču atribūtu noklusējuma vērtība
 5. Kopsavilkuma cilnē **Preces** atlasiet vajadzīgo preci un pēc tam atlasiet **Atribūti** virs preču režģa.
 6. Tālāk minētajās kopsavilkuma cilnēs atjauniniet nepieciešamo atribūtu vērtības.
 
-    - Koplietotie preces plašsaziņas līdzekļi
-    - Koplietotās preces īpašības
-    - Kanāla plašsaziņas līdzekļi
-    - Kanāla preces īpašības
+   - Koplietotie preces plašsaziņas līdzekļi
+   - Koplietotās preces īpašības
+   - Kanāla plašsaziņas līdzekļi
+   - Kanāla preces īpašības
 
-    > [!NOTE]
-    > Ja Finance and Operations tiek izveidots koplietots preces datu nesējs un koplietotas preces īpašības, tie tiek lietoti visām mazumtirdzniecības precēm.
+     > [!NOTE]
+     > Ja Finance and Operations tiek izveidots koplietots preces datu nesējs un koplietotas preces īpašības, tie tiek lietoti visām mazumtirdzniecības precēm.
 
 ![Kataloga preču īpašību grupas](media/CatalogProdAttrValues.png)
 
@@ -249,11 +249,11 @@ Preču līmenī var ignorēt atsevišķu preču atribūtu noklusējuma vērtība
 
 5. Tālāk minētajās kopsavilkuma cilnēs atjauniniet nepieciešamo atribūtu vērtības.
 
-    - Koplietotie preces plašsaziņas līdzekļi
-    - Koplietotās preces īpašības
-    - Kanāla plašsaziņas līdzekļi
-    - Kanāla preces īpašības
+   - Koplietotie preces plašsaziņas līdzekļi
+   - Koplietotās preces īpašības
+   - Kanāla plašsaziņas līdzekļi
+   - Kanāla preces īpašības
 
-    > [!NOTE]
-    > Ja Finance and Operations tiek izveidots koplietots preces datu nesējs un koplietotas preces īpašības, tie tiek lietoti visām mazumtirdzniecības precēm.
+     > [!NOTE]
+     > Ja Finance and Operations tiek izveidots koplietots preces datu nesējs un koplietotas preces īpašības, tie tiek lietoti visām mazumtirdzniecības precēm.
 

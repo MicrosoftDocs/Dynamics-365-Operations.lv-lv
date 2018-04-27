@@ -25,7 +25,7 @@ ms.lasthandoff: 02/13/2018
 
 ---
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 # <a name="product-confirmation-for-cluster-picking"></a>Preces apstiprināšana klastera izdošanai
 Klastera izdošanas sniedz iespēju vienlaikus izdot vairāku pasūtījumu krājumus. Ja tiek lietota klasteru izdošana, ir svarīgi veikt krājumu apstiprināšanu, lai pārbaudītu klasteriem pievienotos krājumus. Varat pārbaudīt klastera izdošanā ietvertos krājumus klastera izdošanas procesa laikā.
@@ -37,7 +37,8 @@ Krājumu pārbaude klastera izdošanai notiek tādā pašā veidā kā krājumu 
 1.  Mobilās ierīces izvēlnes vienumā atveriet darba apstiprināšanas iestatīšanas veidlapu: **Noliktavas vadība** > **Noliktavas vadība** > **Iestatīšana** > **Mobilā ierīce** > **Mobilās ierīces izvēlnes vienumi**
 2.  Mobilās ierīces izvēlnes vienumā atveriet sadaļu **Darba apstiprinājuma iestatīšana**.
 
-| Opcija        | Apraksts   | 
-| ------------- | ------------- |
-|Preces apstiprināšana | Sniedz iespēju mobilajā ierīcē pārbaudīt katru krājumu vienību, veicot skenēšanu.|
+|        Opcija        |                                    Apraksts                                    |
+|----------------------|-----------------------------------------------------------------------------------|
+| Preces apstiprināšana | Sniedz iespēju mobilajā ierīcē pārbaudīt katru krājumu vienību, veicot skenēšanu. |
+
 

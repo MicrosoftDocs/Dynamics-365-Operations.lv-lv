@@ -16,16 +16,16 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 77dd52848819f11a0a03eb70eebbdacdad2d1852
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0b27c5c0ed2cd380819c5208c57fa2a3de1d5aaa
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="company-directory-mobile-workspace"></a>Mobilā darbvieta Uzņēmuma direktorijs
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par mobilo darbvietu **Uzņēmuma direktorijs**. Šī darbvieta sniedz lietotājiem iespēju skatīt informāciju par citiem organizācijas darbiniekiem un ar viņiem sazināties.
 
@@ -58,7 +58,7 @@ Lai varētu izmantot šo mobilo darbvietu, vispirms ir jāizpilda tālāk norād
 </ul>
 </td>
 <td>Sistēmas administrators</td>
-<td>Ja organizācijā vēl nav izvietota programmatūra Dynamics 365 for Finance and Operations, skatiet tēmu <a href="../deployment/deploy-demo-environment.md">Demonstrācijas vides izvietošana</a>. Ja organizācijā vēl nav izvietota programmatūra Dynamics 365 for Talent, sistēmas administrators var piekļūt izmēģinājumversijai <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent tīmekļa lapā</a>.
+<td>Ja organizācijā vēl nav izvietots risinājums Finance and Operations, skatiet tēmu <a href="../deployment/deploy-demo-environment.md">Demonstrācijas vides izvietošana</a>. Ja organizācijā vēl nav izvietots risinājums Talent, sistēmas administrators var piekļūt izmēģinājumversijai <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent tīmekļa lapā</a>.
 </td>
 </tr>
 <tr class="even">

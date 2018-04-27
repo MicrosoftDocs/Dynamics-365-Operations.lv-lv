@@ -27,7 +27,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="hardware-sizing-for-on-premises-environments"></a>Aparatūras lieluma maiņa lokālām vidēm
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Pirms sākat aparatūras un infrastruktūras lieluma maiņas procesu lokālai videi, iepazīstieties ar informāciju sadaļās [Sistēmas prasības](system-requirements.md) un [Iestatīšanas un izvietošanas norādījumi](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md), lai iegūtu padziļinātu izpratni par pamatā esošo infrastruktūru. 
 

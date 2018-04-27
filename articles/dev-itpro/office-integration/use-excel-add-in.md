@@ -3,7 +3,7 @@ title: Lietot Excel pievienojumprogrammu
 description: "Šajā tēmā ir paskaidrots, kā elementa datus atvērt programmā Microsoft Excel un pēc tam šos datus apskatīt, atjaunināt un rediģēt, izmantojot Microsoft Dynamics Office pievienojumprogrammu programmai Excel."
 author: ChrisGarty
 manager: AnnBe
-ms.date: 11/30/2017
+ms.date: 04/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,16 +18,16 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f3ed06dbbce21ac093107953d3a72d8ab086af2a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e0e3e86820e0857b320d832c3bf3c94757667919
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="use-the-excel-add-in"></a>Lietot Excel pievienojumprogrammu
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā elementa datus atvērt programmā Microsoft Excel un pēc tam šos datus apskatīt, atjaunināt un rediģēt, izmantojot Microsoft Dynamics Office pievienojumprogrammu programmai Excel. Lai atvērtu elementa datus, varat sākt programmā Excel vai programmatūrā Microsoft Dynamics 365 for Finance and Operations.
 
@@ -35,6 +35,11 @@ Atverot elementa datus programmā Excel, varat ātri un vienkārši apskatīt un
 
 > [!NOTE]
 > Ja jūsu Microsoft Azure Active Directory (Azure AD) nomnieks ir konfigurēts Active Directory federācijas pakalpojumu (AD FS) lietošanai, pārliecinieties, ka ir instalēts 2016. gada maija Office atjauninājums, lai Excel pievienojumprogramma varētu nodrošināt pareizu jūsu pierakstīšanu.
+
+Lai iegūtu plašāku informāciju par Excel pievienojumprogrammas lietošanu, noskatieties īso video [Excel veidnes izveidošana virsrakstu un rindu modeļiem programmatūrā Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
+
+> [!Video https://www.youtube.com/embed/RTicLb-6dbI]
+
 
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Elementa datu atvēršana programmā Excel, sākot darbu programmā Finance and Operations
 1. Kādā programmas Finance and Operations lapā atlasiet **Atvērt, izmantojot Microsoft Office**.
@@ -77,7 +82,7 @@ Varat pēc nepieciešamības mainīt elementa datus un pēc tam tos publicēt at
 - Noklikšķiniet jebkurā datu avotu tabulas vietā un pēc tam Excel pievienojumprogrammā atlasiet **Jauns**.
 - Noklikšķiniet jebkurā vietā pēdējā datu avotu tabulas rindā un pēc tam nospiediet tabulēšanas taustiņu, līdz kursors tiek pārvietots ārā no pēdējās kolonnas šajā rindā un tiek izveidota jauna rinda.
 - Noklikšķiniet jebkurā vietā rindā, kas atrodas tieši zem datu avotu tabulas, un sāciet datu ievadi šūnā. Kad fokusu pārslēdzat ārpus šīs šūnas, tabula izplešas, lai iekļautu jauno rindu.
-- Lai izveidotu galvenes ierakstu lauku saistības, atlasiet kādu no laukiem un pēc tam Excel pievienojumprogrammā atlasiet **Jauns**.
+- Lai izveidotu virsraksta ierakstu lauku saistības, atlasiet kādu no laukiem un pēc tam Excel pievienojumprogrammā atlasiet **Jauns**.
 
 Ņemiet vērā, ka jaunu ierakstu var izveidot tikai tad, ja visi galvenie un obligātie lauki darblapā ir saistīti vai ja noklusējuma vērtības tika aizpildītas, izmantojot filtra nosacījumu.
 
@@ -86,7 +91,7 @@ Lai dzēstu kādu ierakstu, izpildiet tālāk aprakstītās darbības.
 - Ar peles labo pogu noklikšķiniet uz rindas numura blakus dzēšamajai darblapas rindai un pēc tam atlasiet **Dzēst**.
 - Ar peles labo pogu noklikšķiniet jebkurā vietā dzēšamajā darbplūsmas rindā un pēc tam atlasiet **Dzēst** &gt; **Tabulas rindas**.
 
-Ja datu avoti ir pievienoti kā saistīti datu avoti, galvene tiek publicēta pirms rindām. Ja pastāv atkarības starp citiem datu avotiem, iespējams, ir jāmaina noklusējuma publicēšanas secība. Lai mainītu publicēšanas secību, Excel pievienojumprogrammā atlasiet pogu **Opcijas** (zobrata simbolu) un pēc tam kopsavilkuma cilnē **Datu savienotājs** atlasiet **Konfigurēt publicēšanas secību**.
+Ja datu avoti ir pievienoti kā saistīti datu avoti, virsraksts tiek publicēts pirms rindām. Ja pastāv atkarības starp citiem datu avotiem, iespējams, ir jāmaina noklusējuma publicēšanas secība. Lai mainītu publicēšanas secību, Excel pievienojumprogrammā atlasiet pogu **Opcijas** (zobrata simbolu) un pēc tam kopsavilkuma cilnē **Datu savienotājs** atlasiet **Konfigurēt publicēšanas secību**.
 
 ## <a name="add-or-remove-columns"></a>Pievienot vai noņemt kolonnas
 Varat izmantot veidotāju, lai regulētu kolonnas, kuras darblapai ir pievienotas automātiski.

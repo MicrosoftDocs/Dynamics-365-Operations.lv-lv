@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="arrival-overview"></a>Saņemšanas darbību apskats
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par līdzekli Saņemšanas pārskats. Lapa Saņemšanas pārskats ir šī līdzekļa daļa, un tā sniedz pārskatu par visiem krājumiem, kurus paredzēts saņemt kā ienākošos krājumus.
 

@@ -18,17 +18,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9ecc38597123b74c8368ed41d843826d826f90f8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4467987c4bb25ec7c44550c9e941298e459bbf22
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="petty-cash-for-eastern-europe"></a>Mazie kases posteņi Austrumeiropai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par mazo kases posteņu funkcionalitāti, kas lietotājiem Igaunijā, Lietuvā, Čehijā, Ungārijā, Latvijā, Polijā un Krievijā ļauj sistēmā atainot kases operācijas.
 
@@ -103,7 +102,7 @@ Lai kādam kases kontam iestatītu kases bilances kontroles kārtulas, atlasiet 
 <ul>
 <li><strong>Pieņemt</strong> — limits var tikt pārsniegts.</li>
 <li><strong>Brīdinājums</strong> — limits var tikt pārsniegts, bet lietotājam tiek parādīts brīdinājuma ziņojums. Kases dokuments tiek ratificēts vai apstiprināts.</li>
-<li><strong>Kļūda</strong> — limits nevar tikt pārsniegts. Lietotājs saņem kļūdas ziņojumu un kases dokuments netiek ratificēts vai apstiprināts.</li>
+<li><strong>Kļūda</strong> — limits nevar tikt pārsniegts. Lietotājs saņem kļūdas ziņojumu, un kases dokuments netiek ratificēts vai apstiprināts.</li>
 </ul>
 Papildinformāciju par kases dokumentu apstiprināšanas procesu skatiet tālāk šīs tēmas sadaļā &quot;Kases transakciju apstiprināšana un grāmatošana&quot;.</td>
 </tr>
@@ -445,7 +444,7 @@ Tālāk norādītos uzdevumus var izpildīt šeit: **Kases un bankas vadība** &
 <td>Pārbaudiet atlikumu atlasītajam kases kontam noteiktajā datumā un parādiet rezultātu informatīvā ziņojumā. Atlikuma aprēķina var skaitīt tikai apstiprinātās transakcijas. Netiek ņemtas vērā transakcijas, kuras ir atzīmētas kā <strong>Algām</strong>.</td>
 </tr>
 <tr class="even">
-<td>Kases atlikuma pārrēķins</td>
+<td>Skaidras naudas atlikuma pārrēķins</td>
 <td>Izmantojiet šo uzdevumu, lai pārliecinātos, ka virsgrāmatas bilances kases kontiem atbilst kases atlikumam.</td>
 </tr>
 <tr class="odd">
@@ -469,6 +468,7 @@ Nosegtā summa tiek rādīta laukā <strong>Nosegts valūtā</strong>, lapā <st
 </table>
 
 ## <a name="inquiries-and-reports"></a>Pieprasījumi un pārskati
+
 | Pieprasījums vai pārskats                             | Apraksts                                                                                                                                                                                                                     |
 |-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kases transakciju skats                        | Orderu žurnāla rindai darbību rūtī izmantojiet pogu **Pieprasījumi**, lai skatītu virsgrāmatas transakcijas, kases atlikumu un citu informāciju                                                                                  |

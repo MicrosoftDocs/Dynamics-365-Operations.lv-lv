@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="install-the-retail-pos-layout-designer"></a>Instalēt Retail POS izkārtojuma veidotāju
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Viena klikšķa veidotāju varat izmantot, lai veikaliem, reģistriem, kasieriem un vadītājiem veidotu dažādus pārdošanas punktu Retail Modern POS (MPOS) un mākoņa POS izkārtojumus gan ainavorientācijas, gan portretorientācijas režīmā.
 

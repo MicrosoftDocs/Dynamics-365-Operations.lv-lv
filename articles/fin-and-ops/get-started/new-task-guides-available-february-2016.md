@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="new-task-guides-february-2016"></a>Jauni uzdevumu ceļveži (2016. gada februāris)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir norādīti uzdevumu ceļveži, kas tika izlaisti Microsoft BMP bibliotēkās 2016. gada februārī.  Publicēto bibliotēku klāstā ietilpst (2016. gada februāra) APQC vienotā bibliotēka programmatūrai Microsoft Dynamics AX un (2016. gada februāra) Darba sākšana.
 
@@ -50,8 +49,8 @@ ms.lasthandoff: 11/03/2017
 | Iestatīt kreditoru rēķinu salīdzināšanas pārbaudi       | Globālais             |
 | Iestatīt kreditoru rēķinu ierobežojumus                            | Globālais             |
 
- 
 
+ 
 ### <a name="accounts-receivable"></a>Debitoru parādi
 
 |                                                             |                    |
@@ -71,8 +70,8 @@ ms.lasthandoff: 11/03/2017
 | Iekasēšanas informācijas pārskatīšana                              | Globālais             |
 | Debitoru vecumstruktūras informācijas iestatīšana un ģenerēšana   | Globālais             |
 
- 
 
+ 
 ### <a name="cash-and-bank-management"></a>Kases un bankas vadība
 
 |                                                                      |                    |
@@ -99,8 +98,8 @@ ms.lasthandoff: 11/03/2017
 | Nomaksāt ar iepriekšēju datumu datētu čeku no debitora                             | Globālais             |
 | Kreditora maksājumu pārskats                                              | Globālais             |
 
- 
 
+ 
 ### <a name="compliance"></a>Atbilstība
 
 |                                            |                    |
@@ -108,8 +107,8 @@ ms.lasthandoff: 11/03/2017
 | **BPM rinda**                               | **Valsts/reģions** |
 | Definēt pirmdokumentu audita politikas | Globālais             |
 
- 
 
+ 
 ### <a name="cost-management"></a>Izmaksu pārvaldība
 
 |                                                                     |                    |
@@ -121,8 +120,8 @@ ms.lasthandoff: 11/03/2017
 | Pašreizējā WIP statusa skatīšana ražošanas pasūtījumā                       | Globālais             |
 | Inventarizācijas akta un KPI skatīšana pēc izmaksu objekta                     | Globālais             |
 
- 
 
+ 
 ### <a name="countryregion-functionality"></a>Valsts/reģiona funkcionalitāte
 
 |                                                                                                        |                                 |
@@ -263,8 +262,8 @@ ms.lasthandoff: 11/03/2017
 | GB-00009 Izveidot kredīta notu par seguma atlaidi                                               | Apvienotā Karaliste                  |
 | GB-00009 Iestatīt kredīta notas parametrus par savlaicīga maksājuma atlaidi                                   | Apvienotā Karaliste                  |
 
- 
 
+ 
 ### <a name="develop-vision-and-strategy"></a>Vīzijas un stratēģijas izstrāde
 
 |                                                                                          |                    |
@@ -276,8 +275,8 @@ ms.lasthandoff: 11/03/2017
 | Norādīt jautājumu par atkarīgu no iepriekšējā jautājuma atbildes (nosacījuma jautājumi) | Globālais             |
 | Anketas novērtēšana, pamatojoties uz procentiem                                                   | Globālais             |
 
- 
 
+ 
 ### <a name="electronic-reporting"></a>Elektroniskie pārskati
 
 |                                                 |                    |
@@ -289,8 +288,8 @@ ms.lasthandoff: 11/03/2017
 | ER datu modeļa kartēšana ar izvēlētajiem datu avotiem      | Globālais             |
 | ER pakalpojumu sniedzēja atlasīšana                      | Globālais             |
 
- 
 
+ 
 ### <a name="expense-management"></a>Izdevumu pārvaldība
 
 |                              |                    |
@@ -298,8 +297,8 @@ ms.lasthandoff: 11/03/2017
 | **BPM rinda**                 | **Valsts/reģions** |
 | Izdevumu pārvaldības konfigurēšana | Globālais             |
 
- 
 
+ 
 ### <a name="fixed-assets"></a>Pamatlīdzekļi
 
 |                                                           |                    |
@@ -321,8 +320,8 @@ ms.lasthandoff: 11/03/2017
 | Pamatlīdzekļa sadalīšana                                       | Globālais             |
 | Pamatlīdzekļa pārsūtīšana                                    | Globālais             |
 
- 
 
+ 
 ### <a name="general-ledger"></a>Virsgrāmata
 
 |                                                                   |                    |
@@ -354,8 +353,8 @@ ms.lasthandoff: 11/03/2017
 | Žurnāla ierakstu vai transakciju skatīšana                              | Globālais             |
 | Saistītā starpuzņēmuma dokumenta skatīšana no žurnāla                    | Globālais             |
 
- 
 
+ 
 ### <a name="human-capital-management"></a>Cilvēkkapitāla pārvaldība
 
 |                                                                  |                    |
@@ -398,8 +397,8 @@ ms.lasthandoff: 11/03/2017
 | Atvieglojumu piemērojamības ierobežojumu iestatīšana                             | Globālais             |
 | i9 dokumentu veidu iestatīšana                                     | Globālais             |
 
- 
 
+ 
 ### <a name="inventory-management"></a>Krājumu vadība
 
 |                                                                                   |                    |
@@ -422,8 +421,8 @@ ms.lasthandoff: 11/03/2017
 | Izsekojiet krājumu vai izejmateriālu                                                     | Globālais             |
 | Fizisko krājumu pārsūtīšana noliktavā                                  | Globālais             |
 
- 
 
+ 
 ### <a name="manufacturing"></a>Ražošana
 
 |                                                               |                    |
@@ -474,8 +473,8 @@ ms.lasthandoff: 11/03/2017
 | Pārsūtīt materiālu ar Kanban darbiem                            | Globālais             |
 | Ražošanas plūsmas un versijas validācija                          | Globālais             |
 
- 
 
+ 
 ### <a name="master-planning"></a>Vispārējā plānošana
 
 |                                                   |                    |
@@ -487,8 +486,8 @@ ms.lasthandoff: 11/03/2017
 | Kritiski svarīgo materiālu un piegādātāja noslodzes noteikšana | Globālais             |
 | Pieprasījuma prognozes manuāla modificēšana                 | Globālais             |
 
- 
 
+ 
 ### <a name="organization-administration"></a>Organizācijas administrēšana
 
 |                                           |                    |
@@ -501,8 +500,8 @@ ms.lasthandoff: 11/03/2017
 | Elektronisko parakstu iestatīšana              | Globālais             |
 | Numuru sēriju iestatīšana, izmantojot vedni | Globālais             |
 
- 
 
+ 
 ### <a name="planning"></a>Plānošana
 
 |                        |                    |
@@ -510,8 +509,8 @@ ms.lasthandoff: 11/03/2017
 | **BPM rinda**           | **Valsts/reģions** |
 | Pieejamības noteikšana | Globālais             |
 
- 
 
+ 
 ### <a name="procurement-and-sourcing"></a>Sagāde un avoti
 
 |                                                                  |                    |
@@ -525,8 +524,8 @@ ms.lasthandoff: 11/03/2017
 | Kreditoru meklēšana                                               | Globālais             |
 | Sagādes kategoriju hierarhijas iestatīšana                          | Globālais             |
 
- 
 
+ 
 ### <a name="product-information-and-configuration"></a>Preces informācija un konfigurācija
 
 |                                                       |                    |
@@ -551,8 +550,8 @@ ms.lasthandoff: 11/03/2017
 | Uz dimensijām balstītas preces šablona izlaide              | Globāls             |
 | Datu pārsūtīšana par preču modeļiem                      | Globālais             |
 
- 
 
+ 
 ### <a name="public-sector"></a>Publiskais sektors
 
 |                                                                                         |                    |
@@ -577,8 +576,8 @@ ms.lasthandoff: 11/03/2017
 | Iestatīt līdzekļus publiskajam sektoram                                                         | Globālais             |
 | Pirkšanas līgumu klasifikācijas iestatīšana sabiedriskajā sektorā                             | Globālais             |
 
- 
 
+ 
 ### <a name="retail-and-commerce"></a>Mazumtirdzniecība un komercija
 
 |                                                                                           |                    |
@@ -619,8 +618,8 @@ ms.lasthandoff: 11/03/2017
 | Mazumtirdzniecības cenu korekcijas                                                                  | Globālais             |
 | Mazumtirdzniecības izrakstu konfigurācijas uzglabāšana                                                | Globālais             |
 
- 
 
+ 
 ### <a name="sales"></a>Pārdošana
 
 |                                            |                    |
@@ -642,8 +641,8 @@ ms.lasthandoff: 11/03/2017
 | Pasūtījumu sūtīšana kā tiešās piegādes           | Globālais             |
 | Pārdošanas pasūtījumu sūtīšana bez noliktavas      | Globālais             |
 
- 
 
+ 
 ### <a name="sales-tax"></a>PVN
 
 |                                                    |                    |
@@ -661,8 +660,8 @@ ms.lasthandoff: 11/03/2017
 | Ieturētā nodokļa iestatīšana                             | Globālais             |
 | Skatīt grāmatotās PVN darbības                 | Globālais             |
 
- 
 
+ 
 ### <a name="security"></a>Drošība
 
 |                                                         |                    |
@@ -672,8 +671,8 @@ ms.lasthandoff: 11/03/2017
 | Pienākumu sadales konfliktu identificēšana un atrisināšana | Globālais             |
 | Pienākumu sadales iestatīšana                            | Globālais             |
 
- 
 
+ 
 ### <a name="warehouse-and-transportation"></a>Noliktava un transportēšana
 
 |                                                                                   |                    |
@@ -697,9 +696,10 @@ ms.lasthandoff: 11/03/2017
 | Piegādes                                                          | Globālais             |
 | Noslodzes plānošanas rīka izmantošana, lai plānotu kravas un sūtījumus                       | Globālais             |
 
- 
 
+ 
 ## <a name="task-guides-in-the-february-2016-getting-started-library"></a>Uzdevumu ceļveži (2016. gada februāra) darba sākšanas bibliotēkā
+
 |                                                    |                    |
 |----------------------------------------------------|--------------------|
 | **BPM rinda**                                       | **Valsts/reģions** |

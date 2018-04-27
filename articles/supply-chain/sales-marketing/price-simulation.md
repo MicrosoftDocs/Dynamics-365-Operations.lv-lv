@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="price-simulation"></a>Cenas simulācija
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta informācija par cenu simulāciju piedāvājumiem. Cenu simulācija jums piedāvājuma procesa laikā palīdz novērtēt ieturējumu ietekmi uz turpmāku pārdošanas cenu, pirms piekrītat lietot noteiktu cenu.
 

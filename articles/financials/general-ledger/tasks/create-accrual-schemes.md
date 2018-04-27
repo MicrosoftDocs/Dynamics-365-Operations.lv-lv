@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-accrual-schemes"></a>Uzkrāšanas shēmu izveide
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā uzdevumu ceļvedī aprakstīts, kā radīt uzkrāšanas shēmu. Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.
 

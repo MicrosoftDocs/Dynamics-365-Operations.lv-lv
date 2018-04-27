@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-the-date-for-the-session"></a>Sesijas datuma maiņa
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Pašreizējais datums pēc noklusējuma tiek izmantots, kad ievadāt un grāmatojat žurnāla ierakstus vai pirmdokumentus. Varat mainīt datumu, kas tiek izmantots jūsu pašreizējai sesijai. Izmantojiet šo funkciju, lai piešķirtu atpakaļejošus datumus žurnāla ierakstiem vai pirmdokumentiem, ja nepieciešams.
 

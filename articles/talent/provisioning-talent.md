@@ -18,15 +18,15 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ba1a3a78d59f3aec91473ba9bb20bda4804ec92e
-ms.openlocfilehash: 0a43f5ff0987ede9f0cb80e5b4854f78e19e329b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b4b54e97bdebc158adc3bc6d57a6661cd536f5fb
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a>Microsoft Dynamics 365 for Talent nodrošināšana
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Šajā tēmā ir izklāstīta jaunas ražošanas vides nodrošināšana pakalpojumam Microsoft Dynamics 365 for Talent. Šajā tēmā tiek pieņemts, ka pakalpojumu Talent iegādājāties, izmantojot mākoņrisinājumu nodrošinātāja (Cloud Solution Provider — CSP) vai uzņēmuma arhitektūras (Enterprise Architecture — AE) līgumu. Ja jums ir Microsoft Dynamics 365 licence, kur jau ir ietverts Talent pakalpojumu plāns, bet nevarat izpildīt šajā tēmā aprakstītās darbības, sazinieties ar atbalsta dienestu.
 
@@ -79,12 +79,12 @@ Izvēloties PowerApps vidi, kurā izvietot programmatūru Talent, ņemiet vērā
  
     **CDS 2.0 vides** Programmatūra CDS 2.0 kļūs publiski pieejama 2018. gada 21. martā, taču programmatūra Talent pašlaik neatbalsta CDS 2.0. Lai gan PowerApps administrēšanas centrā varat skatīt un izveidot CDS 2.0 datu bāzes, tās nevar izmantot programmatūrā Talent. Iespēja Talent izvietojumos izmantot CDS 2.0 vides būs pieejama vēlāk.
    
- > [!Note]
- > Lai administrēšanas portālā atšķirtu CDS 1.0 un CDS 2.0 vides, atlasiet vidi un skatiet sadaļu **Informācija**. Visām CDS 2.0 vidēm informācijas sadaļā ietverts ir paziņojums “Šos iestatījumus nevar pārvaldīt Dynamics 365 administrēšanas centrā” un norāde uz instances versiju, kā arī nav cilnes Datu bāze. 
+   > [!Note]
+   > Lai administrēšanas portālā atšķirtu CDS 1.0 un CDS 2.0 vides, atlasiet vidi un skatiet sadaļu **Informācija**. Visām CDS 2.0 vidēm informācijas sadaļā ietverts ir paziņojums “Šos iestatījumus nevar pārvaldīt Dynamics 365 administrēšanas centrā” un norāde uz instances versiju, kā arī nav cilnes Datu bāze. 
  
    **Noklusējuma PowerApps vides** Lai gan katram nomniekam tiek automātiski nodrošināta noklusējuma PowerApps vide, tās nav ieteicams izmantot programmatūrā Talent, jo visi nomnieku lietotāji var piekļūt PowerApps videi un nejauši sabojāt ražošanas datus, izmēģinot vai iepazīstot PowerApps vai Flow integrāciju.
    
-   **Izmēģinājuma vides** Ir izveidotas vides ar līdzīgu nosaukumu kā “TestDrive — alias@domain”, kurām ir 60 dienu izmēģinājuma periods, pēc kura beigām beidzas vides derīgums un tā tiek automātiski noņemta.
+   <strong>Izmēģinājuma vides</strong> Ir izveidotas vides ar līdzīgu nosaukumu kā “TestDrive — alias@domain”, kurām ir 60 dienu izmēģinājuma periods, pēc kura beigām beidzas vides derīgums un tā tiek automātiski noņemta.
    
    **Neatbalstītie reģioni** Pašlaik Talent tiek atbalstīts tikai šādos reģionos: ASV, Eiropa vai Austrālija.
   
@@ -115,7 +115,7 @@ Izpildiet tālāk sniegtos norādījumus, lai palaistu skriptu.
    ```.\ProvisionCDSEnvironment -EnvironmentName MyNewEnvironment -Location YourLocation```
 
     
-   **EnvironmentName** ir jāaizstāj ar jūsu vides nosaukumu. Šis nosaukums tiek rādīts LCS, un lietotāji to redz, kad izvēlas izmantojamo Talent vidi. 
+   **MyNewEnvironment** ir jāaizstāj ar jūsu vides nosaukumu. Šis nosaukums tiek rādīts LCS, un lietotāji to redz, kad izvēlas izmantojamo Talent vidi. 
 
    **YourLocation** ir jāaizstāj ar vienu no reģioniem, kur tiek atbalstīta programmatūra Talent: unitedsates, europe, australia. 
 

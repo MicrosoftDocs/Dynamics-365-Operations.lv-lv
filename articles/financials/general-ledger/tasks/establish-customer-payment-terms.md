@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="establish-customer-payment-terms"></a>Debitoru maksājumu nosacījumu izveide
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šī procedūra definē termiņatlaides un apmaksas datuma iestatījumus. Šis uzdevuma ceļvedis izmanto USMF demonstrācijas uzņēmumu.
 

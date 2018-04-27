@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="define-channel-specific-discounts"></a>Kanālam raksturīgo atlaižu definēšana
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Bieži vien mazumtirgotāji dažādos kanālos iestata dažādas atlaides. Šajā tēmā ir pārskatītas koncepcijas, kas jums ir jāzina, lai izveidotu atlaidi noteiktam kanālam. 
 
@@ -61,7 +60,7 @@ Nākamajā piemērā ir parādīti kanāla atlaižu iestatīšanas procedūrā i
 4.  Kad ir izveidota jaunā atlaide **Back-to-School**, jums ir jānoklikšķina uz vienuma **Cenu grupas**, kas atrodas lapas **Atlaide** augšpusē. Tiek atvērta lapa **Atlaides cenu grupas**. Pēc tam noklikšķiniet uz **Jauns** un atlasiet cenu grupu **Houston-PG**.
 5.  Tagad šo atlaidi varat iespējot un sākt to izmantot kanālā.
 
- 
+
 
 <a name="see-also"></a>Skatiet arī
 --------

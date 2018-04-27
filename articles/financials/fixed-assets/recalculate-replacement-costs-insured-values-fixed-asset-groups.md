@@ -27,8 +27,7 @@ ms.lasthandoff: 01/12/2018
 
 # <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Pamatlīdzekļu grupu aizstāšanas izmaksu un apdrošinātās vērtību pārrēķināšana
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir paskaidrots, kā atjaunināt pamatlīdzekļu atjaunošanas izmaksas un apdrošinātās vērtības.
 

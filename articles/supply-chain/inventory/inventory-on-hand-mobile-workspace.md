@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="inventory-on-hand-mobile-workspace"></a>Mobilā darbvieta Rīcībā esošie krājumi
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par mobilo darbvietu **Rīcībā esošie krājumi**. Šī darbvieta jums palīdz jebkurā vietā un laikā gūt ieskatu par rezervēto un pieejamo krājumu daudzumu.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-consolidation-groups-and-additional-consolidation-accounts"></a>Konsolidācijas grupu un papildu konsolidācijas kontu izveide
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā tiek parādīts, kā izveidot konsolidācijas kontu grupu un pēc tam pievienot kontus grupai. Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma USMF dati.
 

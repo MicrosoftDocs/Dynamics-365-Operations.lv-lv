@@ -28,7 +28,7 @@ ms.lasthandoff: 02/20/2018
 
 # <a name="create-time-windows"></a>Laika loga izveide   
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Laika logus varat izmantot, lai optimizētu pakalpojuma pasūtījumu rindu plānošanas.
 

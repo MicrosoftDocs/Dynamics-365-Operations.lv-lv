@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="analyze-sales-trends-and-patterns"></a>Analizēt pārdošanas tendences un modeļus
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Programmatūrā Microsoft Dynamics 365 for Retail varat reāllaikā pētīt pārdošanas tendences un modeļus.
 

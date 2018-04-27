@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Pasūtījumu sūtīšana kā tiešās piegādes
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir parādīts, kā pārdošanas pasūtījumam izveidot tiešu piegādi. Izmantojiet tiešo piegādi, ja vēlaties nosūtīt preces debitoram tieši no kreditora, nevis vispirms nosūtīt tās uz savu noliktavu. Šo procedūru varat izpildīt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus. Lai sekmīgi pabeigtu otro apakšuzdevumu "Tiešo piegāžu izveidošana, izmantojot rīku", pārliecinieties, ka krājumam, ko izvēlaties pārdošanas pasūtījumā, ir norādīts noklusējuma kreditors Izlaisto preču šablona kopsavilkuma cilnē Pirkšana.
 

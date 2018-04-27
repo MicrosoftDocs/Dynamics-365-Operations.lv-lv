@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mobile-bar-code-support"></a>Atbalsts svītrkoda nolasīšanai mobilajā ierīcē
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Android ir atvērtā pirmkoda projekts, tāpēc jebkurš noliktavas svītrkodu skeneru aparatūras ražotājs var izgatavot ierīci, kurā darbojas operētājsistēma Android. Ierīce ir saderīga ar Android tikai tad, ja tajā var palaist programmas, kas ir paredzētas Android izpildes videi.
 Taču aparatūras nodrošinātājs var izmainīt un izveidot pārklājumus Android versijai, kas tiek darbināta attiecīgajā aparatūrā. Microsoft nevar garantēt, ka operētājsistēmai Android paredzēta svītrkodu skenēšanas mobilā programma ir saderīga ar ražotāja svītrkodu skenēšanas aparatūru un tajā darbināto Android versiju, kā arī nevar uzņemties atbildību par šādas saderības nodrošināšanu. 

@@ -25,7 +25,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="accessibility-features"></a>Pieejamības līdzekļi
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīta funkcionalitāte, kas ir izveidota ar mērķi palīdzēt lietotājiem ar īpašām vajadzībām izmantot programmas Dynamics 365 for Finance and Operations, Dynamics 365 for Retail un Dynamics 365 for Talent. Piemēram, pastāv līdzekļi personām, kas izmanto redzes palīgtehnoloģijas, piemēram, Microsoft Windows diktors.
 

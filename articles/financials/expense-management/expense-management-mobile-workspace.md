@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-management-mobile-workspace"></a>Izmaksu pārvaldības mobilā darbvieta
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par mobilo darbvietu **Izmaksu pārvaldība**. Šajā darbvietā lietotāji var iegūt un augšupielādēt kvīti, ko vēlāk var pievienot izdevumu pārskatam. Lietotāji var arī ātri izveidot izdevumu rindu, izmantojot pievienotu kvīti, un izveidot un pārvaldīt savus izdevumu pārskatus. Turklāt apstiprinātāji var izmantot mobilo darbvietu **Izmaksu pārvaldība**, lai skatītu viņiem piešķirtos izdevumu pārskatus un apstiprinātu vai noraidītu šos izdevumu pārskatus.
 

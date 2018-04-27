@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="import-and-maintain-credit-card-transactions"></a>Kredītkaršu transakciju importēšana un uzturēšana
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Ar izdevumiem saistītās kredītkaršu transakcijas var iestatīt tā, lai tās regulāri tiktu importētas automātiski. Ja vēlaties, šīs transakcijas var importēt arī manuāli, kad tās ir nepieciešamas. Kredītkaršu transakcijas tiek importētas caur datu elementu Kredītkaršu transakcijas.
 

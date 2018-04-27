@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a>Nolietojuma profilu iestatīšana un izveide
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Nolietojuma metodes nosaka līdzekļu nolietojuma tipu un biežumu.   Šajā ierakstā izmantots USMF demonstrācijas uzņēmums un grāmatveža loma.
 

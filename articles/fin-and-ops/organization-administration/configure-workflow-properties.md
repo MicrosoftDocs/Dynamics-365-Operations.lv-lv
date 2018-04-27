@@ -27,8 +27,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="configure-workflow-properties"></a>Konfigurēt darbplūsmas rekvizītus
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā konfigurēt dažādus darbplūsmas rekvizītus.
 

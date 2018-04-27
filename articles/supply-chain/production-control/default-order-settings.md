@@ -29,10 +29,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Noklusējuma pasūtījumu iestatījumi dimensijām un preču variantiem
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Pasūtījuma noklusējuma iestatījumi programmā Microsoft Dynamics 365 for Finance and Operations nosaka vietu un noliktavu, no kuras krājumi tiek iegūti vai kur tie tiek glabāti, minimālo, maksimālo, vairākkārtējo un standarta daudzumu, kas tiek izmantots tirdzniecībai vai krājumu pārvaldībai, izpildes laiku, apturēšanas karodziņu un pasūtījuma solīšanas metodi. Pasūtījuma noklusējuma iestatījumi tiek izmantoti, veidojot pirkšanas pasūtījumus, pārdošanas pasūtījumus, pārsūtīšanas pasūtījumus, krājumu žurnālus un veicot vispārējo plānošanu plānoto pasūtījumu ģenerēšanai. Pasūtījuma noklusējuma iestatījumi var būt atkarīgi no preces, atkarīgi no vietas, atkarīgi no preces varianta vai atkarīgi no preces dimensijas.
 

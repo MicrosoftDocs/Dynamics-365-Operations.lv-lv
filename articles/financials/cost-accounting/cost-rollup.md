@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Izmaksu apkopojuma politika un pieskaitāmo izmaksu aprēķināšana 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Izmaksu uzskaite sniedz iespēju gūt ieskatu par to, kā izmaksu plūsma ir saistīta ar organizācijas nodrošinātajām precēm un pakalpojumiem. Lai nodrošinātu izmaksu pārskatāmību, ir svarīgi sadalīt izmaksas pa izmaksu objektiem, pamatojoties uz atbilstošu sadalījuma pamatu. Pēc noklusējuma tiek nodrošināts primāro izmaksu elementa sadalījums, kas ir vajadzīgs dažos gadījumos, taču rada maz vērā ņemamu seku.
 

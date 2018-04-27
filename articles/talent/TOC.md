@@ -3,7 +3,7 @@
 # [Darba sākšana](talent-get-started.md)
 ## [Sistēmas prasības un atjaunināšanas politika](talent-versions-update-policy.md)
 ## [Microsoft Dynamics 365 for Talent nodrošinājums](provisioning-talent.md)
-## [Talent vides noņemšana](remove-test-environment.md)
+## [Talent vides noņemšana](remove-talent-environment.md)
 ## [Microsoft Dynamics 365 for Talent moduļu programmu nodrošinājums](modular-app-tech-faq.md)
 ## [Paplašināt programmas Talent funkcionalitāti](extend-talent-functionality.md)
 
@@ -13,8 +13,9 @@
 ## [Iestatīt HR parametrus dažādām juridiskajām personām](set-up-hr-parameters-across-legal-entities.md)
 ## [Iestatīt uzņēmumam raksturīgus HR parametrus](set-up-company-specific-hr-parameters.md)
 ## [Bieži uzdotie jautājumi par personāla darbībām](personnel-actions-faq.md)
+## [Biznesa procesu formalizēšana](formalize-business-processes.md)
 ## [Izmantot darbplūsmu, lai pārvaldītu informāciju par darbiniekiem](workflow-manage-employee-information.md)
-## [Atvaļinājuma un kavējuma pārskats](leave-absence-overview.md)
+## [Atvaļinājumu un kavējumu pārskats](leave-absence-overview.md)
 
 # Organizācijas personāla komplektēšana
 ## [Attract pārskats](attract-overview.md) 

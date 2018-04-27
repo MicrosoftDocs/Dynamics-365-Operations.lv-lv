@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a> Kategorijas cenu noteikšanas kārtulas, lai izveidotu tirdzniecības līgumus
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Šajā procedūra ir aprakstīts, kā izveidot pārdošanas cenas tirdzniecības līgumus, izmantojot kategorijas cenu noteikšanas kārtulu. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USRT. Šis uzdevums ir paredzēts lomai Mazumtirdzniecības preču pārvaldnieks.
 

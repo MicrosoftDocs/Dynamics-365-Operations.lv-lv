@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="general-ledger-account-balances"></a>Virsgrāmatas konta bilances
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir paskaidroti divi veidi, kā skatīt Virsgrāmatas kontu bilances, izmantojot lapu Apgrozījuma bilances saraksts un finanšu atskaites. Tajā ir arī aprakstīts, kā atjaunināt dimensiju kopu bilances.
 

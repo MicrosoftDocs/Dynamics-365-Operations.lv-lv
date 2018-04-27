@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="inventory-blocking"></a>Krājumu aizturēšana
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegts apskats par krājuma bloķēšanu, kas ir daļa no kvalitātes pārbaudes procesa programmā Microsoft Dynamics 365 for Finance and Operations. Krājuma bloķēšanu var izmantot, lai nepieļautu krājumu apstrādi vai patēriņu.
 

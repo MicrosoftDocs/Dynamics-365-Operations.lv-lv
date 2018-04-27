@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="replenishment-with-withdrawal-kanbans"></a>Papildināšana ar atvilkumu Kanban
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā atvilkumu Kanban darbi tiek izmantoti ražošanas aktivitāšu materiālu papildināšanai.
 

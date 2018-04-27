@@ -27,8 +27,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="performance-management-overview"></a>Veiktspējas pārvaldības apskats
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Veiktspējas pārvaldības process darbiniekiem ļauj dokumentēt savu veiktspēju un apspriest to ar savu vadītāju. Savukārt vadītāji pēc tam darbiniekiem var sniegt atsauksmes un ieteikumus.  
 

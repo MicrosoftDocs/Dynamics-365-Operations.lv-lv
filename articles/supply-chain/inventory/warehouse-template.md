@@ -29,7 +29,7 @@ ms.lasthandoff: 02/06/2018
 
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Noliktavas iestatīšana, izmantojot noliktavas konfigurācijas veidni
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā iestatīt noliktavu, izmantojot noliktavas konfigurācijas veidni. Varat izmantot vairākas iepriekš definētas konfigurācijas veidnes. Papildinformāciju par šo veidņu lietošanu skatiet šeit: [Konfigurācijas datu veidnes](../../dev-itpro/data-entities/configuration-data-templates.md).
 

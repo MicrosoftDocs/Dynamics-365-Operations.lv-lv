@@ -24,7 +24,7 @@ ms.lasthandoff: 11/20/2017
 ---
 # <a name="create-a-requisition-for-consumption"></a>Patēriņa pieprasījuma izveide
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir aprakstīts pieprasījuma izveides process. Tajā parādīti dažādi veidi, kā meklēt preces sagādes katalogā un kā pievienot preci, kas nav katalogā. Pirms sākt šo procedūru, jums ir jāiestata pirkšanas ierobežojumus uz Patēriņš kā pieprasījumu noklusējuma tipu. Šo procedūru var izmēģināt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus. Šo procedūru var veikt tikai no lietotāja profila, kas ir iestatīts kā darbinieks.  Šo uzdevumu parasti veic darbinieks. Darbinieka pieņemšanas darbā drošības loma ļaus veikt uzdevumus, vai, ja jūs izmantojat USMF, varat pieteikties kā Alicia.
 

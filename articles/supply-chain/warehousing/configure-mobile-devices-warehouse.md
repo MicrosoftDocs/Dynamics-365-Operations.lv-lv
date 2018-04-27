@@ -19,17 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f711ef739e8b885f2f09586f34775e826b619c82
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e0033461e7cd2601993c006aba2ec7c8f6ac0c89
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Iestatīt mobilās ierīces darbam noliktavā
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir aprakstīts, kā konfigurēt izvēlnes vienumus, kurus noliktavas darbinieki izmanto, veicot darbu mobilajā ierīcē.
 
@@ -175,7 +174,7 @@ Varat iestatīt izvēlnes vienumu, kas izveido darbu citam darbiniekam pēc tam,
 </tr>
 <tr>
 <td>Numura zīmes ielāde</td>
-<td>Izmantojiet šo opciju, kad iestatāt noliktavu pirmo reizi. Skenējiet visas noliktavas vienības visos noliktavas novietojumos. Novietojumiem ir jābūt atkarīgiem no noliktavas vienības. šo opciju nevar izmantot, ja krājumu rezervēšanas hierarhijā vienums <strong>Sērijas numurs</strong> vai <strong>Partijas numurs</strong> ir novietots virs vienuma <strong>Novietojums</strong>.</td>
+<td>Izmantojiet šo opciju, kad iestatāt noliktavu pirmo reizi. Skenējiet visas noliktavas vienības visos noliktavas novietojumos. Novietojumiem ir jābūt atkarīgiem no noliktavas vienības. Šo opciju nevar izmantot, ja krājumu rezervēšanas hierarhijā vienums <strong>Sērijas numurs</strong> vai <strong>Partijas numurs</strong> ir novietots virs vienuma <strong>Novietojums</strong>.</td>
 </tr>
 <tr>
 <td>Cikla inventarizācija</td>
@@ -204,12 +203,12 @@ Varat iestatīt ne tikai noliktavas darbu izveides izvēlnes vienumus, bet arī 
 <thead>
 <tr class="header">
 <th>Opcija</th>
-<th>Apraksts</th>
+<th>apraksts</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Nav</td>
+<td>Neviens</td>
 <td>Šī noklusējuma vērtība neizraisa darba apstrādi.</td>
 </tr>
 <tr class="even">

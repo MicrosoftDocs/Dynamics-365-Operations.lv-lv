@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="accounts-receivable-home-page"></a>Moduļa “Debitoru parādi” sākumlapa
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Izmantojiet debitoru parādu moduli, lai izsekotu debitoru rēķinus un ienākošos maksājumus. 
 

@@ -3,12 +3,12 @@ title: "Izmaksu uzskaites sākumlapa"
 description: "Šajā tēmā ir sniegts saraksts ar palīdzības tēmām un citiem resursiem, kas ir pieejami izmaksu uzskaitei."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 08/20/2017
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration
+ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration, CAMCostAccountingLedgerAdminWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-accounting-home-page"></a>Izmaksu uzskaites sākumlapa
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="learning-map"></a>Mācību karte 
 
@@ -37,6 +37,7 @@ Nākamajā mācību kartē ir parādītas galvenās koncepcijas un uzdevumi, kur
 [![Izmaksu uzskaites mācību karte](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)
 
 ## <a name="quick-links"></a>Tiešās saites
+
 |      |   |
 |------|---|
 |  [Bāzes elementu konfigurēšana (elektroniskās mācības)](https://mbspartner.microsoft.com/Home) (nepieciešams CustomerSource konts)  |[Izveidot dimensijas](cost-elements.md)  |

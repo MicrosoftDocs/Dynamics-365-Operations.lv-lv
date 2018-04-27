@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="service-subscriptions"></a>Pakalpojumu abonementi
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Abonementi ir balstīti uz laika un materiālu projektu. Varat izveidot abonementus no projekta **Pakalpojumu abonementi** lapā vai, izmantojot pakalpojuma abonēšanas grupu.
 

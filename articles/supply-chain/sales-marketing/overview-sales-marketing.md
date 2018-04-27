@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="sales-and-marketing"></a>Pārdošana un mārketings
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Moduli Pārdošana un mārketings varat izmantot, lai iegūtu, uzglabātu un izmantotu dažādu tipu datus pārdošanas plūsmā. Šie dati ietver sākotnējo pārdošanas iniciatīvu, turpmāko darbību un papildu pārdošanu.
 

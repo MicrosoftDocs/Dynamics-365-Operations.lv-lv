@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-call-center-channel-and-channel-attributes"></a> Zvanu centra kanālu un kanāla atribūtu definēšana
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir aprakstīts, kā izveidot jaunu mazumtirdzniecības kanālu un definēt kanāla atribūtus. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USRT. Šī procedūra ir paredzēta lomai Mazumtirdzniecības IT.
 

@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: dd34fb71f7a5d31a075c6475c2fe6627193d891f
-ms.openlocfilehash: 6bb405937288b46f49420a1735c32b5b7c16248e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3131173e10ff7eefeaca18285054ce2312d7ab57
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="modify-row-definition-cells"></a>Rindu definīciju šūnu modificēšana
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir paskaidrota informācija, kas ir nepieciešama katrai šūnai finanšu atskaites rindas definīcijā, un paskaidrots, kā šo informāciju ievadīt. 
 
@@ -104,26 +103,26 @@ Apraksta šūna sniedz aprakstu par pārskata rindā esošajiem finanšu datiem,
 2.  Veiciet dubultklikšķi uz **Formāta kods** šūnas.
 3.  Sarakstā atlasiet formāta kodu. Tālāk sniegtajā tabulā ir aprakstīti formātu kodi un to darbības.
 
-| **Formāta kods**               | **Formāta koda interpretācija** | **Darbība**                                                                                                                                                                                                     |
-|-------------------------------|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| (nav)                        |                                       | Notīra šūnu **Formāta kods**.                                                                                                                                                                               |
-| KOP                           | Kopsumma                                 |  Identificē rindu, kas izmanto matemātiskās operācijas kolonnā **Saistītās Formulas/Rindas/Vienības**. Kopsummās tiek lietoti vienkārši operatori, piemēram, **+** vai **-**.                                                     |
-| CAL                           | Aprēķins                           | Identificē rindu, kas izmanto matemātiskās operācijas kolonnā **Saistītās Formulas/Rindas/Vienības**. Aprēķinos tiek lietoti sarežģīti operatori, piemēram, **+**, **-**, **\***, **/** un priekšraksti **IF/THEN/ELSE**. |
-| DES                           | Apraksts                           | Identificē pārskatā virsraksta rindas vai tukšu rindu.                                                                                                                                                        |
-| LFT RGT CEN                   | Pa kreisi Pa labi Pa vidu                     |  Izlīdzina rindas apraksta tekstu pārskata lapā neatkarīgi no teksta izvietojuma kolonnas definīcijā.                                                                                              |
-| MBR                           | Pamata rindas maiņa                       | Norāda rindu, kas kolonnu aprēķiniem iestata pamata rindu.                                                                                                                                               |
-| KOLONNA                        | Kolonnu pārtraukumi                          | Sāk jaunu pārskata kolonnu.                                                                                                                                                                             |
-| PAGE                          | Lappuses pārtraukums                            | Sāk jaunu pārskata lapu.                                                                                                                                                                               |
-| \---                          | Vienkāršs pasvītrojums                      | Izvieto vienu līniju zem visām pārskata summas kolonnām.                                                                                                                                                     |
-|  ===                          | Dubults pasvītrojums                      | Izvieto divas līnijas zem visām pārskata summas kolonnām.                                                                                                                                                     |
-| LĪNIJA1                         | Šaura līnija                             | Pāri lapai uzvelk vienkāršu šauru līniju.                                                                                                                                                                      |
-| LĪNIJA2                         | Bieza līnija                            | Pāri lapai uzvelk vienkāršu biezu līniju.                                                                                                                                                                     |
-| LĪNIJA3                         | Punktēta līnija                           | Pāri lapai uzvelk vienkāršu punktētu līniju.                                                                                                                                                                    |
-| LĪNIJA4                         | Bieza līnija un šaura līnija              | Pāri lapai uzvelk dubultu līniju. Augšējā līnija ir bieza, un apakšējā līnija ir šaura.                                                                                                                       |
-| LĪNIJA5                         | Šaura līnija un bieza līnija              | Pāri lapai uzvelk dubultu līniju. Augšējā līnija ir šaura, un apakšējā līnija ir bieza.                                                                                                                       |
-| BXB BXC                       | Ierāmēta rinda                             | Zīmē rāmi ap pārskata rindām, kas sākas ar **BXB** rindu un beidzas ar **BXC** rindu.                                                                                                               |
-| PIEZ                           | Piezīme                                | Norāda rindu, kas ir komentāru rinda un kas nav jādrukā pārskatā. Piemēram, piezīmju rinda var skaidrot jūsu formatēšanas metodes.                                                            |
-| SORT ASORT SORTDESC ASORTDESC | Kārtot                                  | Kārto izdevumus vai ienākumus, kārto faktiskās vai budžeta novirzes pārskatu pēc lielākās novirzes vai kārto rindu aprakstus pēc alfabēta.                                                                   |
+| <strong>Formāta kods</strong>  | <strong>Formāta koda interpretācija</strong> |                                                                                                                             <strong>Darbība</strong>                                                                                                                              |
+|-------------------------------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|            (nav)             |                                                    |                                                                                                                  Dzēš šūnu <strong>Formāta kods</strong>.                                                                                                                   |
+|              KOP              |                       Kopsumma                        |                                         Identificē rindu, kas izmanto matemātiskās operācijas kolonnā <strong>Saistītās Formulas/Rindas/Vienības</strong>. Kopsummās tiek lietoti vienkārši operatori, piemēram, <strong>+</strong> vai <strong>-</strong>.                                         |
+|              CAL              |                    Aprēķins                     | Norāda rindu, kas izmanto matemātiskos operatorus kolonnā <strong>Saistītās formulas/rindas/vienības</strong>. Aprēķini ietver kompleksus operatorus, piemēram, <strong>+</strong>, <strong>-</strong>, <strong>\</strong><em>, **/</em><em> un priekšrakstus **IF/THEN/ELSE</em>*. |
+|              APR              |                    apraksts                     |                                                                                                             Identificē pārskatā virsraksta rindas vai tukšu rindu.                                                                                                              |
+|          LFT RGT CEN          |                 Pa kreisi Pa labi Pa vidu                  |                                                                                 Izlīdzina rindas apraksta tekstu pārskata lapā neatkarīgi no teksta izvietojuma kolonnas definīcijā.                                                                                 |
+|              MBR              |                  Pamata rindas maiņa                   |                                                                                                         Norāda rindu, kas kolonnu aprēķiniem iestata pamata rindu.                                                                                                         |
+|            KOLONNA             |                    Kolonnu pārtraukumi                    |                                                                                                                        Sāk jaunu pārskata kolonnu.                                                                                                                        |
+|             PAGE              |                     Lappuses pārtraukums                     |                                                                                                                         Sāk jaunu pārskata lapu.                                                                                                                         |
+|             \---              |                  Vienkāršs pasvītrojums                  |                                                                                                            Izvieto vienu līniju zem visām pārskata summas kolonnām.                                                                                                            |
+|              ===              |                  Dubults pasvītrojums                  |                                                                                                            Izvieto divas līnijas zem visām pārskata summas kolonnām.                                                                                                            |
+|             LĪNIJA1             |                     Šaura līnija                      |                                                                                                                    Pāri lapai uzvelk vienkāršu šauru līniju.                                                                                                                     |
+|             LĪNIJA2             |                     Bieza līnija                     |                                                                                                                    Pāri lapai uzvelk vienkāršu biezu līniju.                                                                                                                    |
+|             LĪNIJA3             |                    Punktēta līnija                     |                                                                                                                   Pāri lapai uzvelk vienkāršu punktētu līniju.                                                                                                                    |
+|             LĪNIJA4             |              Bieza līnija un šaura līnija              |                                                                                             Pāri lapai uzvelk dubultu līniju. Augšējā līnija ir bieza, un apakšējā līnija ir šaura.                                                                                             |
+|             LĪNIJA5             |              Šaura līnija un bieza līnija              |                                                                                             Pāri lapai uzvelk dubultu līniju. Augšējā līnija ir šaura, un apakšējā līnija ir bieza.                                                                                             |
+|            BXB BXC            |                     Ierāmēta rinda                      |                                                                            Pievieno rāmi ap pārskata rindām, kas sākas ar rindu <strong>SL</strong> un beidzas ar rindu <strong>PL</strong>.                                                                            |
+|              PIEZ              |                       Piezīme                       |                                                               Norāda rindu, kas ir komentāru rinda un kas nav jādrukā pārskatā. Piemēram, piezīmju rinda var skaidrot jūsu formatēšanas metodes.                                                                |
+| SORT ASORT SORTDESC ASORTDESC |                        Kārtot                        |                                                                   Kārto izdevumus vai ienākumus, kārto faktiskās vai budžeta novirzes pārskatu pēc lielākās novirzes vai kārto rindu aprakstus pēc alfabēta.                                                                   |
 
 ## <a name="specify-related-formulasrowsunits"></a>Saistītās formulas/rindas/vienības norādīšana
 Šūnai **Saistītās formulas/Rindas/Vienības** ir vairāki pielietojumi. Atkarībā no rindas tipa šūna **Saistītās formulas/Rindas/Vienības** var veikt vienu no šādām funkcijām:
@@ -211,12 +210,12 @@ Izmantojot kārtošanas kodus, var kārtot kontus un vērtības, kārtot faktisk
 
 ### <a name="select-a-sorting-code"></a>Kārtošanas koda atlasīšana
 
-1.  Pārskatu veidotājā noklikšķiniet uz **Rindu definīcijas** un atveriet modificējamo rindas definīciju.
-2.  Veiciet dubultklikšķi uz šūnas **Formāta kods** un atlasiet kārtošanas kodu.
-3.  Šūnā **Saistītās formulas/Rindas/Vienības** norādiet kārtojamo rindu kodu diapazonu. Lai norādītu diapazonu, ievadiet pirmās rindas kodu, kolu (:) un pēc tam pēdējās rindas kodu. Piemēram, ievadiet **160:490** lai norādītu, ka diapazons ir no 160. rindas līdz 490. rindai.
-4.  Šūnā **Kolonnu ierobežojums** ievadiet tās pārskata kolonnas burtu, kas jāizmanto kārtošanai. 
-> [!Note] 
-> Kārtošanas aprēķinā iekļaujiet tikai summu rindas.
+1. Pārskatu veidotājā noklikšķiniet uz **Rindu definīcijas** un atveriet modificējamo rindas definīciju.
+2. Veiciet dubultklikšķi uz šūnas **Formāta kods** un atlasiet kārtošanas kodu.
+3. Šūnā **Saistītās formulas/Rindas/Vienības** norādiet kārtojamo rindu kodu diapazonu. Lai norādītu diapazonu, ievadiet pirmās rindas kodu, kolu (:) un pēc tam pēdējās rindas kodu. Piemēram, ievadiet **160:490** lai norādītu, ka diapazons ir no 160. rindas līdz 490. rindai.
+4. Šūnā **Kolonnu ierobežojums** ievadiet tās pārskata kolonnas burtu, kas jāizmanto kārtošanai. 
+   > [!Note] 
+   > Kārtošanas aprēķinā iekļaujiet tikai summu rindas.
 
 ### <a name="examples-of-ascending-and-descending-column-values"></a>Augošu un dilstošu kolonnu vērtību piemēri
 
@@ -258,41 +257,41 @@ Tālāk sniegtā piemēra ietvaros pārskata D kolonnas 160.–490. rindas vē
 
 Valūtas formatēšana attiecas naudas līdzekļu daudzumu un ietver valūtas simbolu. Ir pieejamas tālāk minētās opcijas.
 
--   **Valūtas simbols** — valūtas simbols, kas ir ietverams pārskatā. Šī vērtība ignorē uzņēmuma informācijas **Reģionālās opcijas** iestatījumu.
--   **Negatīvi skaitļi** — negatīvie skaitļi var būt atzīmēti ar mīnusa zīmi (-), tie var parādīties iekavās vai tie var būt atzīmēti ar trīsstūri (∆).
--   **Decimāldaļas vietas** — ciparu skaits, ko rādīt pēc komata.
--   **Nulles vērtības ignorēšanas teksts** — teksts, kas jāiekļauj pārskatā, ja summa ir 0 (nulle). Šis teksts tiek rādīts apgabala **Paraugs** pēdējā rindā. 
-> [!Note] 
-> Ja nulles vērtībām vai neesošai perioda aktivitātei drukāšana tiek atcelta, tad šis teksts tiek atcelts.
+- **Valūtas simbols** — valūtas simbols, kas ir ietverams pārskatā. Šī vērtība ignorē uzņēmuma informācijas **Reģionālās opcijas** iestatījumu.
+- **Negatīvi skaitļi** — negatīvie skaitļi var būt atzīmēti ar mīnusa zīmi (-), tie var parādīties iekavās vai tie var būt atzīmēti ar trīsstūri (∆).
+- **Decimāldaļas vietas** — ciparu skaits, ko rādīt pēc komata.
+- **Nulles vērtības ignorēšanas teksts** — teksts, kas jāiekļauj pārskatā, ja summa ir 0 (nulle). Šis teksts tiek rādīts apgabala **Paraugs** pēdējā rindā. 
+  > [!Note] 
+  > Ja nulles vērtībām vai neesošai perioda aktivitātei drukāšana tiek atcelta, tad šis teksts tiek atcelts.
 
 ### <a name="numeric-formatting"></a>Skaitliskā formatēšana
 
 Skaitlisko formatēšanu var lietot jebkādā summā, un formatēšana neietver valūtas simbolu. Ir pieejamas tālāk minētās opcijas.
 
--   **Negatīvi skaitļi** — negatīvie skaitļi var būt atzīmēti ar mīnusa zīmi (-), tie var parādīties iekavās vai tie var būt atzīmēti ar trīsstūri (∆).
--   **Decimāldaļas vietas** — ciparu skaits, ko rādīt pēc komata.
--   **Nulles vērtības ignorēšanas teksts** — teksts, kas jāiekļauj pārskatā, ja summa ir 0 (nulle). Šis teksts tiek rādīts apgabala **Paraugs** pēdējā rindā. 
-> [!Note] 
-> Ja nulles vērtībām vai neesošai perioda aktivitātei drukāšana tiek atcelta, tad šis teksts tiek atcelts.
+- **Negatīvi skaitļi** — negatīvie skaitļi var būt atzīmēti ar mīnusa zīmi (-), tie var parādīties iekavās vai tie var būt atzīmēti ar trīsstūri (∆).
+- **Decimāldaļas vietas** — ciparu skaits, ko rādīt pēc komata.
+- **Nulles vērtības ignorēšanas teksts** — teksts, kas jāiekļauj pārskatā, ja summa ir 0 (nulle). Šis teksts tiek rādīts apgabala **Paraugs** pēdējā rindā. 
+  > [!Note] 
+  > Ja nulles vērtībām vai neesošai perioda aktivitātei drukāšana tiek atcelta, tad šis teksts tiek atcelts.
 
 ### <a name="percentage-formatting"></a>Procentuālā formatēšana
 
 Procentuālā formatēšana ietver procenta simbolu (%). Ir pieejamas tālāk minētās opcijas.
 
--   **Negatīvi skaitļi** — negatīvie skaitļi var būt atzīmēti ar mīnusa zīmi (-), tie var parādīties iekavās vai tie var būt atzīmēti ar trīsstūri (∆).
--   **Decimāldaļas vietas** — ciparu skaits, ko parādīt pēc komata.
--   **Nulles vērtības ignorēšanas teksts** — teksts, kas jāiekļauj pārskatā, ja summa ir 0 (nulle). Šis teksts tiek rādīts apgabala **Paraugs** pēdējā rindā. 
-> [!Note] 
-> Ja nulles vērtībām vai neesošai perioda aktivitātei drukāšana tiek atcelta, tad šis teksts tiek atcelts.
+- **Negatīvi skaitļi** — negatīvie skaitļi var būt atzīmēti ar mīnusa zīmi (-), tie var parādīties iekavās vai tie var būt atzīmēti ar trīsstūri (∆).
+- **Decimāldaļas vietas** — ciparu skaits, ko parādīt pēc komata.
+- **Nulles vērtības ignorēšanas teksts** — teksts, kas jāiekļauj pārskatā, ja summa ir 0 (nulle). Šis teksts tiek rādīts apgabala **Paraugs** pēdējā rindā. 
+  > [!Note] 
+  > Ja nulles vērtībām vai neesošai perioda aktivitātei drukāšana tiek atcelta, tad šis teksts tiek atcelts.
 
 ### <a name="custom-formatting"></a>Pielāgotā formatēšana
 
 Izmantojiet pielāgotu formatēšanas kategoriju, lai izveidotu pielāgoto formātu, kas aizstās esošo. Ir pieejamas tālāk minētās opcijas.
 
--   **Tips** — pielāgotais formāts.
--   **Nulles vērtības ignorēšanas teksts** — teksts, kas jāiekļauj pārskatā, ja summa ir 0 (nulle). Šis teksts tiek rādīts apgabala **Paraugs** pēdējā rindā. 
-> [!Note] 
-> Ja nulles vērtībām vai neesošai perioda aktivitātei drukāšana tiek atcelta, tad šis teksts tiek atcelts.
+- **Tips** — pielāgotais formāts.
+- **Nulles vērtības ignorēšanas teksts** — teksts, kas jāiekļauj pārskatā, ja summa ir 0 (nulle). Šis teksts tiek rādīts apgabala **Paraugs** pēdējā rindā. 
+  > [!Note] 
+  > Ja nulles vērtībām vai neesošai perioda aktivitātei drukāšana tiek atcelta, tad šis teksts tiek atcelts.
 
 Tipam jāattēlo pozitīvā vērtība un pēc tam arī negatīvā vērtība. Parasti tiek ievadīts līdzīgs formāts, kas atšķir pozitīvās un negatīvās vērtības. Piemēram, lai norādītu, ka gan pozitīvām, gan negatīvām vērtībām ir divi cipari aiz komata, bet negatīvas vērtības tiek rādītas iekavās, ievadiet **0.00;(0.00)**. Tabulā tālāk ir redzami pielāgotie formāti, ko varat izmantot, lai pārvaldītu vērtību formātu. Visi piemēri sākas ar vērtību 1234,56.
 
@@ -387,7 +386,7 @@ Pēc noklusējuma atskaišu veidotājs nedrukā rindas, kurās finanšu datos na
 3.  Lai saglabātu izmaiņas, izvēlnē **Fails** noklikšķiniet uz **Saglabāt**.
 
 ## <a name="use-wildcard-characters-and-ranges-in-a-row-definition"></a>Aizstājējzīmju un diapazonu izmantošana rindas definīcijā
-Kad dialoglodziņā **Dimensijas** ievadāt galvenā segmenta vērtību, varat ievadīt aizstājējzīmi (? vai \*) jebkurā segmenta pozīcijā. Pārskatu noformētājs izgūst visas definēto pozīciju vērtības, neņemot vērā aizstājējzīmes. Piemēram, rindas definīcija satur tikai fizisko segmentu vērtības un fiziskajiem segmentiem ir četras rakstzīmes. Ievadot **6???** kādā rindā, pārskatu noformētājam tiek dota komanda ietvert visus kontus, kuriem ir galvenā segmenta vērtība, kas sākas ar 6. Ja ievadāt **6\***, tiek atgriezti tādi paši rezultāti, taču tajos ir ietvertas arī dažāda garuma vērtības, piemēram, **60** un **600000**. Atskaišu veidotājs katru aizstājējzīmi (?) aizstāj ar pilnu iespējamo vērtību klāstu, kas ietver burtus un īpašās rakstzīmes. Piemēram, diapazonā no **12?0** līdz **12?4**, aizstājējzīme virknē **12?0** tiek aizstāta ar zemāko rakstzīmju kopas vērtību un aizstājējzīme virknē **12?4** tiek aizstāta ar augstāko rakstzīmju kopas vērtību. 
+Kad dialoglodziņā <strong>Dimensijas</strong> ievadāt galvenā segmenta vērtību, varat ievadīt aizstājējzīmi (? vai \*) jebkurā segmenta pozīcijā. Pārskatu noformētājs izgūst visas definēto pozīciju vērtības, neņemot vērā aizstājējzīmes. Piemēram, rindas definīcija satur tikai fizisko segmentu vērtības un fiziskajiem segmentiem ir četras rakstzīmes. Ievadot <strong>6???</strong> kādā rindā, pārskatu noformētājam tiek dota komanda ietvert visus kontus, kuriem ir galvenā segmenta vērtība, kas sākas ar 6. Ja ievadāt <strong>6\</strong><em>, tiek atgriezti tādi paši rezultāti, taču tajos ir ietvertas arī dažāda garuma vērtības, piemēram, **60</em>* un <strong>600000</strong>. Atskaišu veidotājs katru aizstājējzīmi (?) aizstāj ar pilnu iespējamo vērtību klāstu, kas ietver burtus un īpašās rakstzīmes. Piemēram, diapazonā no <strong>12?0</strong> līdz <strong>12?4</strong>, aizstājējzīme virknē <strong>12?0</strong> tiek aizstāta ar zemāko rakstzīmju kopas vērtību un aizstājējzīme virknē <strong>12?4</strong> tiek aizstāta ar augstāko rakstzīmju kopas vērtību. 
 > [!Note] 
 > Ir jāizvairās no aizstājējzīmju izmantošanas diapazona sākuma un beigu kontos. Ja izmantojat aizstājējzīmes, norādot sākuma kontu vai beigu kontu, vaicājuma rezultāti var būt neparedzēti.
 
@@ -466,15 +465,15 @@ Dimensiju vērtību kopa ir dimensiju vērtību grupa, kurai piešķirts nosauku
 
 ### <a name="update-a-set-of-dimension-values"></a>Dimensiju vērtību kopas atjaunināšana
 
-1.  Pārskatu veidotājā atveriet modificējamo rindas, kolonnas vai pārskatu koka definīciju.
-2.  Izvēlnē **Rediģēt** noklikšķiniet uz **Pārvaldīt dimensiju vērtību kopas**.
-3.  Dialoglodziņa **Pārvaldīt dimensiju vērtību kopas** laukā **Dimensija** atlasiet dimensijas tipu.
-4.  Sarakstā atlasiet atjaunināmo dimensiju vērtību kopu un tad noklikšķiniet uz **Modificēt**.
-5.  Dialoglodziņā **Modificēt** modificējiet formulu vērtības, kuras vēlaties iekļaut kopā. 
-> [!Note] 
-> Ja pievienojat jaunus kontus vai dimensijas, noteikti modificējiet pastāvošo dimensiju vērtību kopu, lai ieviestu šīs izmaiņas.
-6.  Veiciet dubultklikšķi uz šūnas un atlasiet atbilstošo operatoru, **No** kontu un **Līdz** kontu.
-7.  Noklikšķiniet uz **Labi**, lai aizvērtu dialoglodziņu **Modificēt** un saglabātu izmaiņas.
+1. Pārskatu veidotājā atveriet modificējamo rindas, kolonnas vai pārskatu koka definīciju.
+2. Izvēlnē **Rediģēt** noklikšķiniet uz **Pārvaldīt dimensiju vērtību kopas**.
+3. Dialoglodziņa **Pārvaldīt dimensiju vērtību kopas** laukā **Dimensija** atlasiet dimensijas tipu.
+4. Sarakstā atlasiet atjaunināmo dimensiju vērtību kopu un tad noklikšķiniet uz **Modificēt**.
+5. Dialoglodziņā **Modificēt** modificējiet formulu vērtības, kuras vēlaties iekļaut kopā. 
+   > [!Note] 
+   > Ja pievienojat jaunus kontus vai dimensijas, noteikti modificējiet pastāvošo dimensiju vērtību kopu, lai ieviestu šīs izmaiņas.
+6. Veiciet dubultklikšķi uz šūnas un atlasiet atbilstošo operatoru, **No** kontu un **Līdz** kontu.
+7. Noklikšķiniet uz **Labi**, lai aizvērtu dialoglodziņu **Modificēt** un saglabātu izmaiņas.
 
 ### <a name="copy-a-dimension-set"></a>Dimensiju kopas kopēšana
 

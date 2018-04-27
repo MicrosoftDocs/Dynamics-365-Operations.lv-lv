@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="create-required-configurations-to-import-data-from-an-external-file-for-electronic-reporting-er"></a>Izveidot nepieciešamās konfigurācijas datu importēšanai no ārējā faila elektronisko pārskatu veidošanai (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Nākamajās darbībās ir izskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var noformēt elektronisko pārskatu veidošanas (Electronic reporting — ER) konfigurācijas, lai importētu datus programmā Dynamics 365 for Finance and Operations no ārēja faila. Šajā piemērā jūs izveidosiet nepieciešamās ER konfigurācijas konfigurācijas parauga uzņēmumam Litware, Inc. Lai izpildītu šīs darbības, vispirms ir jāizpilda uzdevuma ceļvedī “ER Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu” aprakstītās darbības. Šīs darbības var veikt, izmantojot USMF datu kopu. Ir nepieciešams arī lejupielādēt un lokāli saglabāt failus, kuri norādīti tālāk tēmā Elektronisko atskaišu veidošanas pārskats (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
 

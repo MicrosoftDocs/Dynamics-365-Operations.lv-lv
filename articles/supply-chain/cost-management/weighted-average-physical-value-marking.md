@@ -20,18 +20,18 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 69876a9d1daec4e6980728527c784a5404239cc2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ec7f1ef643d864a2729642d78d19fc43d5f6a7fb
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="weighted-average-with-physical-value-and-marking"></a>Vidējā svērtā ar fizisko vērtību un iezīmēšanu
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Svērtais vidējais ir krājumu modelis, kas balstīts uz svērto vidējo principu, kur krājumu izejas plūsmas tiek novērtētas ar vienību vidējo vērtību, kas tiek saņemtas krājumā krājumu noslēgšanas periodā, pluss jebkādi rīcībā esošie krājumi no iepriekšējā perioda.
 
@@ -74,16 +74,16 @@ Tālāk esošajā diagrammā ir atspoguļota šī transakciju sērija, kā arī 
 ![WeightedAverage DS bez fizisko vērtību iekļaušanas](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Diagrammas apzīmējumi**
--   Krājuma darbības ir atzīmētas ar vertikālām bultām.
--   Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
--   Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
--   Virs (vai zem) katras vertikālas bultas ir norādīta krājumu transakcijas vērtība šādā formātā: Quantity@Unitprice.
--   Krājuma darbības vērtība iekavās norāda, ka krājuma darbība tika iegrāmatota krājumā fiziski.
--   Krājuma darbības vērtība bez iekavām norāda, ka krājuma darbība tika iegrāmatota krājumā finansiāli.
--   Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
--   Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
--   Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti Krājuma slēgšana.
--   Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
+- Krājuma darbības ir atzīmētas ar vertikālām bultām.
+- Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
+- Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
+- Virs (vai zem) katras vertikālas bultas ir norādīta krājumu transakcijas vērtība šādā formātā: Quantity@Unitprice.
+- Krājuma darbības vērtība iekavās norāda, ka krājuma darbība tika iegrāmatota krājumā fiziski.
+- Krājuma darbības vērtība bez iekavām norāda, ka krājuma darbība tika iegrāmatota krājumā finansiāli.
+- Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
+- Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
+- Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti Krājuma slēgšana.
+- Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
 
 ## <a name="weighted-average-summarized-settlement-without-the-include-physical-value-option"></a>Svērtā vidējā apkopotā segšana bez opcijas Iekļaut fizisko vērtību
 Svērtā vidējā metodei tiek izmantots segšanas princips, ka visas ieejas plūsmas slēgšanas periodā tiek apkopotas vienā transakcijā, kas tiek saukta par svērtā vidējā krājumu slēgšanu. Visas ieejas plūsmas periodam tiks segtas attiecībā pret jauni izveidoto krājumu pārsūtīšanas darbības izejas plūsmu. Visas izejas plūsmas periodam tiks segtas attiecībā pret jauno krājumu pārsūtīšanas darbības ieejas plūsmu. Ja rīcībā esošie krājumi ir pozitīvi pēc krājumu slēgšanas, rīcībā esošo krājumu un krājumu vērtības tiek summētas jaunā krājuma pārsūtīšanas darbībā (saņemšana). Ja rīcībā esošie krājumi ir negatīvi pēc krājumu slēgšanas, rīcībā esošie krājumi un krājuma vērtība veido atsevišķu nepilni segto krājumu summu. Turpmāk redzamajā scenārijā ir iegrāmatotas vairākas finansiāli atjaunotas ieejas plūsmas un viena izejas plūsma. 
@@ -108,18 +108,18 @@ Tālāk esošajā diagrammā ir atspoguļota šī transakciju sērija, kā arī 
 ![Vidējā svērtā apkopotā apmaksa ar fizisko vērtību iekļaušanu](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Diagrammas apzīmējumi**
--   Krājuma darbības ir atzīmētas ar vertikālām bultām.
--   Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
--   Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
--   Virs (vai zem) katras vertikālas bultas ir norādīta krājumu transakcijas vērtība šādā formātā: Quantity@Unitprice.
--   Krājuma darbības vērtība iekavās norāda, ka krājuma darbība tika iegrāmatota krājumā fiziski.
--   Krājuma darbības vērtība bez iekavām norāda, ka krājuma darbība tika iegrāmatota krājumā finansiāli.
--   Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
--   Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
--   Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti Krājuma slēgšana.
--   Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
--   Sarkanas bultas attēlo saņemšanas darbības, kuras ir segtas ar sistēmas veidotajām izdošanas darbībām.
--   Zaļas bultas attēlo korespondējošās sistēmas veidoto saņemšanas darbību, ar kuru tika segtas iegrāmatotas izdošanas darbība
+- Krājuma darbības ir atzīmētas ar vertikālām bultām.
+- Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
+- Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
+- Virs (vai zem) katras vertikālas bultas ir norādīta krājumu transakcijas vērtība šādā formātā: Quantity@Unitprice.
+- Krājuma darbības vērtība iekavās norāda, ka krājuma darbība tika iegrāmatota krājumā fiziski.
+- Krājuma darbības vērtība bez iekavām norāda, ka krājuma darbība tika iegrāmatota krājumā finansiāli.
+- Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
+- Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
+- Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti Krājuma slēgšana.
+- Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
+- Sarkanas bultas attēlo saņemšanas darbības, kuras ir segtas ar sistēmas veidotajām izdošanas darbībām.
+- Zaļas bultas attēlo korespondējošās sistēmas veidoto saņemšanas darbību, ar kuru tika segtas iegrāmatotas izdošanas darbība
 
 ## <a name="weighted-average-direct-settlement-with-the-include-physical-value-option"></a>Svērtā vidējā tiešā segšana bez opcijas Iekļaut fizisko vērtību
 Parametrs Iekļaut fizisko vērtību ar svērtā vidējā krājumu modeli darbojas atšķirīgi nekā iepriekšējās produkta versijās. Veidlapā Krājumu modeļu grupa atzīmējiet krājumam izvēles rūtiņu Iekļaut fizisko vērtību. Pēc tam sistēmā novērtēto izmaksu cenas vai pašreizējās vidējās vērtības aprēķināšanai tiek izmantotas fiziski atjauninātās ieejas plūsmas. Izejas plūsmas tiks iegrāmatotas, balstoties uz paredzēto izmaksu cenu periodā. Krājumu slēgšanas laikā finansiāli atjauninātās ieejas plūsmas tiks ņemtas vērā tikai svērtā vidējā aprēķinā. Ja lietojat svērtā vidējā krājuma modeli, ieteicam veikt krājumu slēgšanu katru mēnesi. Šajā svērtā vidējā tiešās segšanas izmantošanas piemērā krājumu modeļu grupai ir atzīmēta opcija Iekļaut fizisko vērtību. 
@@ -137,16 +137,16 @@ Tālāk esošajā diagrammā ir atspoguļota šī transakciju sērija, kā arī 
 ![Vidējā svērtā tiešā apmaksa ar fizisko vērtību iekļaušanu](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
 
 **Diagrammas apzīmējumi**
--   Krājuma darbības ir atzīmētas ar vertikālām bultām.
--   Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
--   Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
--   Virs (vai zem) katras vertikālas bultas ir norādīta krājumu transakcijas vērtība šādā formātā: Quantity@Unitprice.
--   Krājuma darbības vērtība iekavās norāda, ka krājuma darbība tika iegrāmatota krājumā fiziski.
--   Krājuma darbības vērtība bez iekavām norāda, ka krājuma darbība tika iegrāmatota krājumā finansiāli.
--   Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
--   Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
--   Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti Krājuma slēgšana.
--   Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
+- Krājuma darbības ir atzīmētas ar vertikālām bultām.
+- Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
+- Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
+- Virs (vai zem) katras vertikālas bultas ir norādīta krājumu transakcijas vērtība šādā formātā: Quantity@Unitprice.
+- Krājuma darbības vērtība iekavās norāda, ka krājuma darbība tika iegrāmatota krājumā fiziski.
+- Krājuma darbības vērtība bez iekavām norāda, ka krājuma darbība tika iegrāmatota krājumā finansiāli.
+- Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
+- Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
+- Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti Krājuma slēgšana.
+- Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
 
 ## <a name="weighted-average-summarized-settlement-with-the-include-physical-value-option"></a>Svērtā vidējā apkopotā segšana ar opciju Iekļaut fizisko vērtību
 Parametrs Iekļaut fizisko vērtību ar svērto vidējo darbojas atšķirīgi nekā iepriekšējās versijās. Lapā Krājumu modeļu grupa atzīmējiet krājumam izvēles rūtiņu Iekļaut fizisko vērtību. Pēc tam sistēmā novērtēto izmaksu cenas vai pašreizējās vidējās vērtības aprēķinā tiek izmantotas fiziski atjauninātās ieejas plūsmas. Izejas plūsmas tiks iegrāmatotas, balstoties uz paredzēto izmaksu cenu periodā. Krājumu noslēgšanas laikā finansiāli atjaunotās ieejas plūsmas būs tikai ņemtas vērā svērtā vidējā aprēķinā. Ja lietojat svērtā vidējā krājuma modeli, ieteicam veikt krājumu slēgšanu katru mēnesi. Šajā svērtā vidējā apkopotās segšanas piemērā krājumu modeļa grupa tiek atzīmēta, lai ietvertu fizisko vērtību. 
@@ -170,18 +170,18 @@ Tālāk esošajā diagrammā ir atspoguļota šī transakciju sērija, kā arī 
 ![WeightedAverage SS ar fizisko vērtību iekļaušanu](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
 
 **Diagrammas apzīmējumi**
--   Krājuma darbības ir atzīmētas ar vertikālām bultām.
--   Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
--   Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
--   Virs (vai zem) katras vertikālas bultas ir norādīta krājumu transakcijas vērtība šādā formātā: Quantity@Unitprice.
--   Krājuma darbības vērtība iekavās norāda, ka krājuma darbība tika iegrāmatota krājumā fiziski.
--   Krājuma darbības vērtība bez iekavām norāda, ka krājuma darbība tika iegrāmatota krājumā finansiāli.
--   Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
--   Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, 1a. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
--   Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti Krājuma slēgšana.
--   Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
--   Sarkanas bultas attēlo saņemšanas darbības, kuras ir segtas ar sistēmas veidotajām izdošanas darbībām.
--   Zaļas bultas attēlo korespondējošās sistēmas veidoto saņemšanas darbību, ar kuru tika segtas iegrāmatotas izdošanas darbība
+- Krājuma darbības ir atzīmētas ar vertikālām bultām.
+- Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
+- Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
+- Virs (vai zem) katras vertikālas bultas ir norādīta krājumu transakcijas vērtība šādā formātā: Quantity@Unitprice.
+- Krājuma darbības vērtība iekavās norāda, ka krājuma darbība tika iegrāmatota krājumā fiziski.
+- Krājuma darbības vērtība bez iekavām norāda, ka krājuma darbība tika iegrāmatota krājumā finansiāli.
+- Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
+- Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, 1a. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
+- Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti Krājuma slēgšana.
+- Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
+- Sarkanas bultas attēlo saņemšanas darbības, kuras ir segtas ar sistēmas veidotajām izdošanas darbībām.
+- Zaļas bultas attēlo korespondējošās sistēmas veidoto saņemšanas darbību, ar kuru tika segtas iegrāmatotas izdošanas darbība
 
 ## <a name="weighted-average-with-marking"></a>Svērtais vidējais ar iezīmējumu
 Atzīmēšana ir process, kas sniedz iespēju izdošanas transakciju saistīt jeb atzīmēt ar ieejas plūsmas transakciju. Atzīmēšana var parādīties gan pirms, gan pēc darbības grāmatošanas. Kā arī varat lietot iezīmēšanu, ja vēlaties pārbaudīt precīzas krājuma izmaksas pēc darbības iegrāmatošanas vai pēc krājumu slēgšanas. 
@@ -218,16 +218,16 @@ Turpmāk redzamajā diagrammā ir atspoguļota darbību sērija ar ietekmēm, iz
 ![Vidējais svērtais ar apzīmējumu](./media/weightedaveragewithmarking.gif) 
 
 **Diagrammas apzīmējumi**
--   Krājuma darbības ir atzīmētas ar vertikālām bultām.
--   Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
--   Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
--   Virs (vai zem) katras vertikālas bultas ir norādīta krājumu transakcijas vērtība šādā formātā: Quantity@Unitprice.
--   Krājuma darbības vērtība iekavās norāda, ka krājuma darbība tika iegrāmatota krājumā fiziski.
--   Krājuma darbības vērtība bez iekavām norāda, ka krājuma darbība tika iegrāmatota krājumā finansiāli.
--   Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
--   Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
--   Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti Krājuma slēgšana.
--   Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
+- Krājuma darbības ir atzīmētas ar vertikālām bultām.
+- Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
+- Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
+- Virs (vai zem) katras vertikālas bultas ir norādīta krājuma transakcijas vērtība, lietojot formātu Daudzums@"Unitprice".
+- Krājuma darbības vērtība iekavās norāda, ka krājuma darbība tika iegrāmatota krājumā fiziski.
+- Krājuma darbības vērtība bez iekavām norāda, ka krājuma darbība tika iegrāmatota krājumā finansiāli.
+- Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
+- Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
+- Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti Krājuma slēgšana.
+- Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
 
 
 

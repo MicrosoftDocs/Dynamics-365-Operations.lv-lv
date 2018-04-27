@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-control-overview"></a>Pārskats par darbvietu Izmaksu kontrole 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Darbvieta **Izmaksu kontrole** ir vieta, kur vadītāji, kuri ir atbildīgi par izmaksu objekta vai izmaksu objektu kopas kontroli vienas vai vairāku dimensiju (piemēram, izmaksu centru un produktu grupu) ietvaros, var centralizēti piekļūt pārskatiem. Šajā darbvietā ietvertos pārskatus pilnībā pārvalda izmaksu grāmatveži, tāpēc var nodrošināt pārskatiem izmantoto datu un izkārtojumu saskaņošanu visā organizācijā.
 

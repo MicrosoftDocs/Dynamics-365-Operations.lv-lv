@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-screen-layouts-for-pos"></a>Konfigurēt POS ekrāna izkārtojumus
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par Microsoft Dynamics 365 —Retail pārdošanas punkta (POS) ekrāna izkārtojumu.
 

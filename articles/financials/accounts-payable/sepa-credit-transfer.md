@@ -19,17 +19,16 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3b6ded5e5accbbdba708c8b31119429e72bd58f5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1aa70dea3b0e7056afbdba96f4475c3e7e71f57c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sepa-credit-transfer-overview"></a>SEPA kredīta pārskaitījuma apskats
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta vispārīga informācija par ISO 20022 kredīta pārskaitījumiem, kas ietver vienotās eiro maksājumu zonas (SEPA) kredīta pārskaitījumus un citus elektroniskos maksājumus kreditoriem. SEPA kredīta pārskaitījums ir noteikta tipa maksājums (eiro valūtā), ko viens uzņēmums vai privātpersona veic citam uzņēmumam vai privātpersonai. Tēmā ir arī paskaidrots, kā iestatīt un pārsūtīt SEPA kredīta pārskaitījuma maksājuma failu.
 

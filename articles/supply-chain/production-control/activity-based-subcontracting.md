@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="activity-based-subcontracting"></a>No aktivitātēm atkarīgu apakšlīgumu slēgšana
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir detalizēti aprakstīts, kā lean manufacturing ražošanas plūsmā izmantot apakšlīgumā paredzētas aktivitātes.
 

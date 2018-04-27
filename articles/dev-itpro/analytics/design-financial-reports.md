@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-and-design-financial-reports"></a>Skatīt un izveidot finanšu pārskatus
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegti vingrinājumi, kas palīdzēs jums apgūt finanšu pārskatu skatīšanu un veidošanu programmatūrā Microsoft Dynamics 365 for Finance and Operations. Finanšu pārskatu veidošanas ietvaros tiek izmantota programmatūras Dynamics 365 for Finance and Operations pārskatu skatīšanas funkcionalitāte un no viena klikšķa pārskatu veidotājs, kas sniedz iespēju izveidot un rediģēt finanšu pārskatus.  
 

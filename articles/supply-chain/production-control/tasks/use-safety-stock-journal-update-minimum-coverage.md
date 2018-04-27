@@ -23,21 +23,21 @@ ms.contentlocale: lv-lv
 ms.lasthandoff: 09/29/2017
 
 ---
-# Drošības krājumu žurnāla lietošana, lai atjauninātu minimālo segumu
+# <a name="use-the-safety-stock-journal-to-update-minimum-coverage"></a>Drošības krājumu žurnāla lietošana, lai atjauninātu minimālo segumu
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir parādīts, kā aprēķināt minimālā seguma priekšlikumus, pamatojoties uz vēsturiskām transakcijām, un pēc tam atjaunināt krājumu segumu, izmantojot priekšlikumus. Tas tiek darīts, izmantojot drošības krājumu žurnālu. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USMF. Šis uzdevums ir paredzēts ražošanas plānotājam, lai palīdzētu uzturēt minimālo segumu.
 
 
-## Izveidot jaunu drošības krājumu žurnāla nosaukumu
+## <a name="create-a-new-safety-stock-journal-name"></a>Izveidot jaunu drošības krājumu žurnāla nosaukumu
 1. Dodieties uz Drošības krājumu žurnālu nosaukumiem.
 2. Noklikšķiniet uz Jauns.
 3. Laukā Nosaukums ierakstiet “Materiāls”.
 4. Laukā Apraksts ierakstiet “Materiāls”.
 5. Aizvērt lapu.
 
-## Izveidot drošības krājumu žurnālu
+## <a name="create-a-safety-stock-journal"></a>Izveidot drošības krājumu žurnālu
 1. Dodieties uz Drošības krājumu aprēķins.
 2. Noklikšķiniet uz Jauns.
 3. Laukā Nosaukums ievadiet vai atlasiet kādu vērtību.
@@ -50,7 +50,7 @@ ms.lasthandoff: 09/29/2017
 7. Noklikšķiniet uz OK.
     * Šādi tiks izveidotas rindas tām dimensijām, kurām ir krājumu transakcijas.  
 
-## Aprēķināt priekšlikumu
+## <a name="calculate-proposal"></a>Aprēķināt priekšlikumu
 1. Noklikšķiniet uz Aprēķināt priekšlikumu.
 2. Atlasiet opciju Izmantot vidējo izejas plūsmu izpildes laikā.
 3. Vienumu Reizināšanas koeficients iestatiet uz “10”.
@@ -58,7 +58,7 @@ ms.lasthandoff: 09/29/2017
 4. Noklikšķiniet uz OK.
     * Ritiniet uz leju, lai atrastu M0002 un M0003. Skatiet kolonnu Aprēķinātais minimālais daudzums.   
 
-## Atjaunināt minimālo daudzumu
+## <a name="update-minimum-quantity"></a>Atjaunināt minimālo daudzumu
 1. Laukā Jaunais minimālais daudzums ievadiet kādu skaitli.
     * Atjauniniet vērtību Jaunais minimālais daudzums, lai tā atbilstu vienuma Aprēķinātais minimālais daudzums vērtībai. Ja Aprēķinātais minimums ir nulle, varat ievadīt vēlamo nākotnes vērtību. Piemēram, šajā laukā varat ievadīt vērtību Aprēķinātais minimālais daudzums tādam M0002, kam ir noliktava 12.  
 2. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
@@ -66,7 +66,7 @@ ms.lasthandoff: 09/29/2017
 3. Laukā Jaunais minimālais daudzums ievadiet kādu skaitli.
     * Atjauniniet vērtību Jaunais minimālais daudzums, lai tā atbilstu vienuma Aprēķinātais minimālais daudzums vērtībai. Ja Aprēķinātais minimums ir nulle, varat ievadīt vēlamo nākotnes vērtību.  
 
-## Grāmatot jauno minimālo daudzumu un validēt rezultātu
+## <a name="post-the-new-minimum-quantity-and-validate-the-result"></a>Grāmatot jauno minimālo daudzumu un validēt rezultātu
 1. Noklikšķiniet uz Grāmatot.
 2. Noklikšķiniet uz OK.
 3. Noklikšķiniet, lai sekotu saitei laukā Krājuma kods.

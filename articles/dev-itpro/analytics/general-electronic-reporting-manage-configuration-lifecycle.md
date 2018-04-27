@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-the-electronic-reporting-configuration-lifecycle"></a>Pārvaldīt elektronisko pārskatu veidošanas konfigurācijas dzīves ciklu
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā pārvaldīt Microsoft Dynamics 365 for Finance and Operations risinājuma elektronisko pārskatu (ER) konfigurāciju dzīves ciklu.
 

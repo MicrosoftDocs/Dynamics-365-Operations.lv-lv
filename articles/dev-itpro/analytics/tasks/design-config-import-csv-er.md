@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="design-a-configuration-to-import-data-from-an-external-file-in-csv-format-er"></a>Konfigurācijas noformēšana datu importēšanai no ārējā faila CSV formātā (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Izmantojiet šo procedūru, lai noformētu elektronisko pārskatu veidošanas (ER) konfigurācijas datu importēšanai programmā Dynamics 365 for Finance and Operations no ārējā faila CSV formātā. Šīs procedūras ietvaros jūs izveidosiet nepieciešamās ER konfigurācijas parauga uzņēmumam “Litware, Inc.”. Lai izpildītu šīs darbības, vispirms ir jāizpilda procedūra “ER Konfigurācijas nodrošinātāja izveide un atzīmēšana ar aktīvu statusu”. 
 

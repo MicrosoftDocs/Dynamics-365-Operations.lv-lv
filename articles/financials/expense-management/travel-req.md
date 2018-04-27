@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="travel-requisitions"></a>Komandējumu pieprasījumi
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 *Komandējuma pieprasījums* ir pirmdokuments, kur norāda izdevumus, kas radīsies komandējuma laikā. Komandējuma pieprasījumu iesniedz pārskatīšanai un pēc tam to var izmantot, lai autorizētu izdevumus.
 

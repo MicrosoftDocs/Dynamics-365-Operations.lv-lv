@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="manage-warehouse-workers"></a>Pārvaldīt noliktavu darbiniekus
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā aprakstīts, kā izmantot programmu Microsoft Dynamics 365 for Finance and Operations, lai palīdzētu kontrolēt un pārraudzīt darbu, ko darbinieki veic jūsu noliktavās.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-fixed-asset"></a>Pamatlīdzekļa izveide
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šis uzdevuma ceļvedis izmanto USMF demonstrācijas uzņēmumu.  Tajā tiks izveidots jauns pamatlīdzeklis, izmantojot Pamatlīdzekļu saraksta lapu.
 

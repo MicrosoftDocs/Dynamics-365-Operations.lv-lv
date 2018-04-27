@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-and-associate-a-device"></a> Ierīces izveide un sasaiste
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir aprakstīts, kā izveidot jaunu ierīci un piesaistīt to reģistram. Tiek pieņemts, ka reģistrs ir jau izveidots.  Šajā uzdevumā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati. Šis uzdevums ir paredzēts lomai Administrators, IT speciālists, Mazumtirdzniecības IT un Veikala vadītājs.
 

@@ -1,9 +1,9 @@
 ---
-title: "Pasūtījumu apstrādes opciju iestatīšana"
-description: "Šajā tēmā ir sniegta informācija par to, kā apstrādāt pasūtījumus zvanu centriem, izmantojot Microsoft Dynamics 365 for Retail."
+title: "Zvanu centra kanāla iestatīšana"
+description: "Šajā tēmā ir sniegta informācija par to, kā apstrādāt pasūtījumus zvanu centriem, izmantojot programmatūru Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,33 +20,64 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 144bee2102b8d1901d1b4964f6c92501c1cd573d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0d64a27aa8aed10c210ca3c2956dce67f8d634b8
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
-# <a name="set-up-order-processing-options"></a>Iestatīt pasūtījumu apstrādes opcijas
+# <a name="set-up-a-call-center-channel"></a>Zvanu centra kanāla iestatīšana
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
+Programmatūrā Microsoft Dynamics 365 for Retail uzņēmums var definēt vairākus zvanu centra kanālus. Zvanu centra kanāli tiek konfigurēti sadaļā **Retail** \> **Kanāli** \> **Zvanu centri** \> **Visi zvanu centri**, un tie tiek noteikti juridiskajai iestādei.
 
-Šajā tēmā ir sniegta informācija par to, kā apstrādāt pasūtījumus zvanu centriem, izmantojot Microsoft Dynamics 365 for Retail. 
+Kad ir izveidots jauns zvanu centra kanāls, tam tiek sistemātiski piešķirts pārvaldības struktūrvienības numurs. Tā kā zvanu centri tiek izveidoti kā pārvaldības struktūrvienības, zvanu centra kanālu lietotāji var piesaistīt dažādiem Retail līdzekļiem, piemēram, preču klāstiem, katalogiem un konkrētiem piegādes veidiem.
 
-Retail atbalsta vairākus mazumtirdzniecības kanālus, piemēram, tiešsaistes veikalus, veikalus ēkās un zvanu centrus. Zvanu centros darbinieki pa tālruni no debitoriem saņem pasūtījumus un izveido pārdošanas pasūtījumus. Šajā tēmā ir aprakstīts, kā izveidot zvanu centru un konfigurēt zvanu centra opcijas. Katram zvanu centram var būt savi lietotāji, maksājuma metodes, cenu grupas, finanšu dimensijas un piegādes veidi. Šīs opcijas var konfigurēt zvanu centra izveides brīdī. **Svarīgi:** pirms zvanu centra darbplūsmas var izmantot, kad lietotājs izveido pārdošanas pasūtījumus, lietotājam jābūt piešķirtam zvanu centram kā zvanu centra lietotājam. Varat izmantot lapu **Zvanu centrs**, lai iespējotu vai atspējotu līdzekļu grupas, kas ir unikālas zvanu centriem. Var iespējot tālāk minētās līdzekļu grupas.
+Zvanu centra kanālam var konfigurēt noklusējuma noliktavu. Kad šajā kanālā tiek veidoti pārdošanas pasūtījumi, noklusējuma noliktava tiek automātiski ievadīta pārdošanas pasūtījuma virsrakstā, ja vien šim pārdošanas pasūtījumam atlasītajam debitoram nav definēta cita noliktava. Tādā gadījumā pēc noklusējuma tiek ievadīta šī debitora noliktava.
 
--   **Pasūtījuma veikšana** – šajā grupā iekļauti līdzekļi, kas attiecas uz maksājumiem un pasūtījuma pabeigšanu lapā **Pārdošanas pasūtījums**.
--   **Vadītā pārdošana** – šajā grupā ir iekļauti līdzekļi, kas saistīti ar pirmkodiem, skriptiem un kataloga pieprasījumiem.
+Lai izmantotu zvanu centra līdzekļus, lietotājiem ir jābūt saistītiem ar zvanu centra kanālu. Visi pārdošanas pasūtījumi, ko lietotājs izveido programmatūrā Retail, tiek automātiski saistīti ar šī lietotāja zvanu centra kanālu. Pašlaik viens lietotājs nevar būt vienlaikus saistīts ar vairākiem zvanu centra kanāliem.
 
-Iespējojot šos līdzekļus zvanu centra iestatījumos, lapā **Pārdošanas pasūtījums** tie ir pieejami lietotājiem, kuri ir saistīti ar šo zvanu centru. Lielākai daļai no šiem līdzekļiem pirms to izmantošanas nepieciešami papildu iestatījumi. Attēli un skripti ir iespējoti kā daļa no vadīto pārdošanas iestatījumu noteiktam zvanu centram. Aktivizējot šo līdzekli, skripti un preču attēli tiek parādīti papildinformācijas rūtī lapā **Pārdošanas pasūtījums**. Tiek rādīts noklusējuma attēls, kas ir iestatīts precei. Skriptus var konfigurēt krājumam, katalogam, debitoram vai krājumam kataloga kontekstā. Zvanu centra pasūtījumi var rādīt papildu detaļas par to, kā tika iegūta noteiktas pasūtījuma rindas cena. Piemēram, pasūtījumos tiek rādīts, kuras atlaides tika lietotas. Šo funkciju aktivizē šeit: **Debitoru parādi** &gt; **Iestatīšana** &gt; **Debitoru moduļa parametri** &gt; **Cenas** &gt; **Cenu detaļas**. Jūs varat piekļūt lapai **Cenu detaļas** no nolaižamā saraksta **Pārdošanas pasūtījuma rinda**. Pasūtījuma notikumu izsekošanu var izmantot audita nolūkiem, lai pārskatītu darbības, kas ar pasūtījumu tiek veiktas tā dzīves cikla laikā vai arī lai izsekotu noteikta lietotāja darbības. Piemēram, varat reģistrēt darbību ikreiz, kad lietotājs izveido pārdošanas pasūtījumu, aiztur pasūtījumu, ignorē maksu vai atjaunina pasūtījuma rindu. Varat iestatīt pasūtījuma notikumus, lai izsekotu darbības, ko noteiktā laika periodā veic noteikti lietotāji, lietotāju grupas vai visi lietotāji. Varat skatīt dokumentā veiktās darbības, konkrētā dokumenta darbību rūtī atverot lapu **Pasūtījuma notikumi**. Jūs varat konfigurēt pasūtījuma notikumus šeit: **Pārdošana un mārketings** &gt; **Iestatīšana** &gt; **Notikumi** &gt; **Pasūtījuma notikumi**. Kad debitora pasūtījumu nevar nosūtīt laikā, uzņēmums var automātiski debitoram nosūtīt paziņojuma e-pasta ziņojumus, lai informētu par pasūtījuma statusu un sniegtu debitoram iespēju atcelt pasūtījumu. Ja aizkave pārsniedz norādīto slieksni, pasūtījumu var atcelt automātiski. Noteiktos laika intervālos var nosūtīt līdz trīs e-pasta ziņojumiem:
+Zvanu centra kanālam var konfigurēt arī e-pasta paziņojumu profilu. Profils nosaka e-pasta veidņu kopu, kas tiek izmantota, sūtot e-pasta ziņojumu debitoriem, kuri veic pasūtījumus, izmantojot attiecīgo zvanu centra kanālu. E-pasta trigerus var konfigurēt attiecībā pret sistēmas notikumiem, piemēram, pasūtījuma iesniegšanu vai pasūtījuma nosūtīšanu.
 
-1.  **Pirmais atcelšanas paziņojums** — debitors var atcelt pasūtījumu.
-2.  **Otrais atcelšanas paziņojums** — debitors var atcelt pasūtījumu.
-3.  **Pēdējais atcelšanas paziņojums** — sistēma atceļ pasūtījumu un debitors tiek informēts par atcelšanu.
+Lai pārdošanu varētu pareizi apstrādāt, izmantojot zvanu centra kanālu, šim kanālam ir nepieciešams definēt pareizas [maksāšanas metodes](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/work-with-payments) un piegādes veidus.
 
-Automātisko paziņojumu un atcelšanas procesā var neiekļaut atsevišķus debitorus un preces. Uzcenojuma brīdinājums tiek parādīts, pievienojot krājumu pasūtījumam. Brīdinājums satur svarīgu informāciju par krājumu, tostarp cenas uzcenojumu un krājuma ienesīgumu. Šo informāciju var izmantot, lai izlemtu, vai cenas ignorēšana ir atbilstoša, kad krājums tiek pievienots pārdošanas pasūtījumam. Piemēram, varat iestatīt tirdzniecības uzcenojumu robežvērtības, lai norādītu, ka 40 vai vairāk procentu robeža virs noteiktās maksas ir pieņemama krājumam un 20–39 procentu robeža virs maksas nav pieņemama. Šajā gadījumā katrs krājums, kuram ir robeža no 20 līdz 39 procentiem, izraisa brīdinājumu. Krājumam, kura robeža ir mazāka par 20 procentiem virs maksas, nevar pārdot, un krājuma cenu nevar koriģēt. Jūs varat konfigurēt uzcenojuma brīdinājumus šeit: **Debitoru parādi** &gt; **Iestatīšana** &gt; **Debitoru moduļa parametri** &gt; **Uzcenojuma brīdinājumi**. Kad iestatāt PVN piešķires, pamatojoties uz noklusējuma kārtulām, varat noteikt adreses elementu atbilstības prioritātes. Piemēram, varat norādīt, ka PVN grupas atbilstībai pēc pasta indeksa ir augstāka prioritāte nekā PVN grupas atbilstībai pēc apgabala. Ievadot jaunus debitoru adrešu ierakstus, tiem automātiski tiek piešķirta PVN grupa, pamatojoties uz debitora adreses atbilstības noklusējuma kārtulām un definētajām atbilstības prioritātēm. Jūs varat konfigurēt šo funkcionalitāti lapā **Virsgrāmatas parametri**.
+Zvanu centra kanāla līmenī varat definēt citas noklusējuma vērtības, kas ir saistītas ar finanšu dimensijām, kuras tiks saistītas ar šī kanāla izveidotajiem pasūtījumiem.
 
+## <a name="options-for-order-processing-behavior"></a>Pasūtījumu apstrādes uzvedības opcijas
 
+Trīs iestatījumiem zvanu centra konfigurācijā ir būtiska ietekme uz līdzekļiem un funkcijām, kuras ir pieejamas pret attiecīgo zvanu centru izveidotajiem pārdošanas pasūtījumiem. Šie iestatījumi ir: **Iespējot pasūtījuma pabeigšanu**, **Iespējot tiešo pārdošanu** un **Iespējot pasūtījuma cenu kontroli**.
 
+### <a name="enable-order-completion"></a>Iespējot pasūtījuma pabeigšanu
+
+Iestatījumam **Iespējot pasūtījuma pabeigšanu** zvanu centra kanālā ir būtiska ietekme uz attiecīgajam kanālam ievadīto pārdošanas pasūtījumu apstrādes plūsmu. Ja šis iestatījums ir ieslēgts, visiem pārdošanas pasūtījumiem ir jāizpilda apstiprināšanas kārtulu kopa, un tikai pēc tam tos var apstiprināt. Šīs kārtulas varat palaist, atlasot pogu **Pabeigt**, kas ir pievienota darbību rūtij šī pārdošanas pasūtījuma lapā. Visiem pārdošanas pasūtījumiem, kas tiek izveidoti, kad iestatījums **Iespējot pasūtījuma pabeigšanu** ir ieslēgts, ir jāizpilda pasūtījuma pabeigšanas process. Šis process liek izmantot maksājuma tveršanu un maksājuma validēšanas loģiku. Papildus maksājuma realizēšanai pasūtījuma iesniegšanas process var izsaukt [krāpniecības pārbaudes](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/set-up-fraud-alerts), kuras sistēmā varat konfigurēt. Pasūtījumi, kas neiztur maksājumu vai krāpniecības validācijas, tiek aizturēti, un tos nevar nodot tālākai apstrādāšanai (piemēram, izdošanai vai nosūtīšanai), kamēr nav atrisināta problēma, kas šo aizturēšanu izraisīja.
+
+Kad zvanu centra kanālam ir ieslēgts iestatījums **Iespējot pasūtījuma pabeigšanu**, ja pārdošanas pasūtījumā tiek ievadīti rindu vienumi un kanāla lietotājs mēģina aizvērt pārdošanas pasūtījuma formu vai aiziet no tās, pirms tam neatlasot vienumu **Pabeigt**, sistēma liek izmantot pasūtījuma pabeigšanas procesu, atverot pārdošanas pasūtījuma kopsavilkuma lapu un pieprasot, lai lietotājs šo pasūtījumu iesniedz pareizi. Ja pasūtījumu nevar pareizi iesniegt kopā ar maksājumu, lietotājs var izmantot funkcionalitāti [pasūtījuma aizturēšanas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/work-with-order-holds), lai šo pasūtījumu aizturētu. Ja lietotājs mēģina pasūtījumu atcelt, lietotājam tas ir pareizi jāatceļ, izmantojot funkciju Atcelt vai funkciju Dzēst — atkarībā no lietotāja drošības atļautās funkcijas.
+
+Ja zvanu centra kanālam ir ieslēgts iestatījums **Iespējot pasūtījuma pabeigšanu**, šim pasūtījumam tiek izsekots lauks **Maksājuma statuss**. Sistēma aprēķina vērtību **Maksājuma statuss**, kad pārdošanas pasūtījums ir iesniegts. Tikai pasūtījumiem, kuriem ir apstiprināts maksājuma statuss, ir atļauts pārvietoties sistēmā papildu pasūtījuma apstrādes darbību veikšanai, piemēram, izdošanai un nosūtīšanai. Ja maksājumi tiek noraidīti, detalizētajā informācijā par pārdošanas pasūtījuma statusu tiek iespējots karodziņš **neapstrādāt**; šādi pasūtījums tiek aizturēts, līdz maksājuma problēma ir atrisināta.
+
+Turklāt, ja ir ieslēgts iestatījums **Iespējot pasūtījuma pabeigšanu**, kad lietotāji izveido pārdošanas pasūtījumus un ir atvēruši rindas vienuma ievadīšanas režīmu, galvenajā pārdošanas pasūtījuma virsrakstā ir pieejams lauks **Avots**. Lauks **Avots** tiek izmantots, lai tvertu [kataloga pirmkodu](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/call-center-catalogs) tiešā mārketinga pārdošanas scenārijā. Pēc tam šis kods var vadīt īpašas cenas un reklāmas akcijas.
+
+Pat tad, ja iestatījums **Iespējot pasūtījuma pabeigšanu** ir izslēgts, lietotāji pārdošanas pasūtījumam joprojām var lietot pirmkodu. Taču viņiem vispirms ir jāatver pārdošanas pasūtījuma virsraksta detalizētā informācija, lai piekļūtu laukam **Avots**. Citiem vārdiem sakot, ir jāveic daži papildu klikšķi. Tāda pati uzvedība attiecas uz tādiem līdzekļiem kā nosūtīšanas pabeigšana un paātrinātās izpildes pasūtījumi. Šie līdzekļi ir pieejami visiem pasūtījumiem, kas ir izveidoti šajā zvanu centrā. Taču, kad ir ieslēgts iestatījums **Iespējot pasūtījuma pabeigšanu**, lietotāji var redzēt šo līdzekļu konfigurāciju pārdošanas virsrakstā, kamēr ir ieslēgts rindas ieraksta skats. Viņiem nav nepieciešams detalizēti meklēt pārdošanas pasūtījuma virsraksta informācijā, lai atrastu atbilstošos iestatījumus un laukus.
+
+### <a name="enable-direct-selling"></a>Iespējot tiešo pārdošanu
+
+Ja zvanu centra kanālam ir ieslēgts iestatījums **Iespējot tiešo pārdošanu**, lietotāji var izmantot programmatūras Retail papildu pārdošanas un šķērspārdošanas līdzekļus. Tādā gadījumā pasūtījuma izveides laikā tiek parādīti uznirstošie logi un tiek ieteiktas citas preces, kuras zvanu centra lietotājs var piedāvāt debitoram. Ieteiktās preces ir atkarīgas no preces, kuru tikko pasūtīja pārdošanas pasūtījuma rindā. Pašlaik papildu pārdošanas un šķērspārdošanas ieteikumi ir konfigurēti krājuma līmenī precēm vai katalogiem. Ja zvanu centra kanālam iestatījums **Iespējot tiešo pārdošanu** ir izslēgts, pasūtījuma izveides laikā uznirstošie logi netiek parādīti pat tad, ja pasūtītajam krājumam ir definēta derīga papildu pārdošana vai šķērspārdošana.
+
+Kad iestatījums **Iespējot tiešo pārdošanu** ir ieslēgts, ir ieslēgti arī pārdošanas pasūtījuma ievades lapas skripti un attēlu līdzekļi. Tādā gadījumā pasūtījuma izveides laikā informācijas panelis ir pieejams lapas labajā pusē. Šis panelis var rādīt skriptus, kas ir saistīti ar vispārējo pasūtījuma izveides procesu, kataloga pirmkodu, kas tika lietots, vai skriptiem, kas ir saistīti ar pasūtītajiem krājumiem. Turklāt attēlu panelī var tikt rādīts preces attēls krājumiem, kuri tiek pasūtīti, ja attiecīgajam vienumam preču iestatījumos ir definēts attēls.
+
+### <a name="enable-order-price-control"></a>Iespējot pasūtījuma cenu kontroli
+
+Kad ir ieslēgts iestatījums **Iespējot pasūtījuma cenu kontroli**, pasūtījuma izveides laikā krājuma pārdošanas cenu var mainīt tikai autorizēti lietotāji. Šīs izmaiņas nedrīkst pārsniegt noteiktās tolerances. Savukārt lietotājiem, kuriem nav atbilstošu atļauju, ir jāiesniedz pieprasījums mainīt cenu. Pēc tam šis pieprasījuma tiek apstrādāts, izmantojot sistēmas pārskatīšanas un apstiprināšanas darbplūsmas.
+
+## <a name="channel-users"></a>Kanāla lietotāji
+
+Kad definējat zvanu centra kanālu, jums ir jāsaista kanāla lietotāji ar šo zvanu centru. Pretējā gadījumā sistēma šo zvanu centru nevar lietot. Kad lietotāji pierakstās programmatūrā Retail un ievada pārdošanas pasūtījumus vai atgriešanas pasūtījumus kādā lapā, kas ir saistīta ar pasūtījuma izveidi, viņu lietotāja ID tiek validēti attiecībā pret zvanu centra kanāla konfigurāciju. Ja lietotājs ir saistīts ar noteiktu zvanu centra kanālu, tad šī lietotāja izveidotie pasūtījumi pārmanto attiecīgā kanāla iezīmes un noklusējuma vērtības.
+
+Pārdošanas pasūtījuma virsrakstā karodziņš **Pārdošana mazumtirdzniecībā** pēc noklusējuma tiek ieslēgts visiem pasūtījumiem, ko izveido zvanu centra lietotāji. Pēc tam pasūtījumos var izmantot sistēmas mazumtirdzniecībai noteiktos cenu un veicināšanas līdzekļus.
+
+Lietotāji, kas nav saistīti ar kādu zvanu centra kanālu, izmanto programmatūras Microsoft Dynamics 365 for Finance and Operations standarta pasūtījuma izveides līdzekļus. Pasūtījumi, ko šie lietotāji ievada, izmantojot pārdošanas pasūtījuma izveides formu, netiek sistemātiski identificēti kā Retail pasūtījumi. Turklāt šie lietotāju ievadītie pasūtījumi netiek pakļauti nekādām pasūtījumu pabeigšanas apstrādes kārtulām, mazumtirdzniecības cenu noteikšanas loģikai vai citām pasūtījumu validācijām, kuras var definēt zvanu centra kanāla konfigurācijā vai zvanu centra sistēmas parametros.
+
+Kad esat beidzis konfigurēt zvanu centra kanālu un definēt kanāla lietotājus, lai palīdzētu garantēt vēlamo sistēmas uzvedību, pārliecinieties, vai ir definēti visi nepieciešamie zvanu centra parametri sadaļā **Retail** \> **Kanāla iestatīšana** \> **Zvanu centra iestatīšana** \> **Zvanu centra parametri**. Pārliecinieties, vai ir norādītas arī saistītās numuru sērijas.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="workforce-metrics-power-bi-content"></a>Power BI saturs Darbaspēka rādītāji
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīts Microsoft Power BI saturs **Darbaspēka rādītāji**. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 

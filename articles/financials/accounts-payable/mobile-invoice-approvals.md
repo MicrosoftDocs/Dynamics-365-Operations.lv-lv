@@ -18,17 +18,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 98e32298d1c8285437adf3df9820a71e7a0d7f6c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a44e5d04edf327da2b3ba4676c8b823291801abe
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="mobile-invoice-approvals"></a>Mobilie rēķinu apstiprinājumi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Programmā Microsoft Dynamics 365 for Finance and Operations ietvertās mobilās iespējas sniedz biznesa lietotājam iespēju izstrādāt mobilos risinājumus. Sarežģītu scenāriju gadījumā izstrādātāji var arī paplašināt iespējas atbilstoši savām vēlmēm. Visefektīvākais veids, kā apgūt dažas no jaunajām mobilajām ierīcēm paredzētajām koncepcijām, ir jaunu scenāriju procesa izpilde. Šajā tēmā ir aprakstīta praktiska pieeja mobilo scenāriju izstrādei, kā lietojuma gadījumu apskatot kreditoru rēķinu apstiprināšanu mobilajās ierīcēs. Šajā tēmā sniegtā informācija palīdzēs jums izstrādāt arī citus scenāriju variantus, un to var lietot arī citiem scenārijiem, kas nav saistīti ar kreditoru rēķiniem.
 
@@ -127,7 +126,7 @@ Vienmēr, kad strādājat ar mobilo programmu veidotāju, noteikti publicējiet 
 ### <a name="create-the-workspace"></a>Darbvietas izveide
 
 1.  Pārlūkprogrammā atveriet programmatūru Finance and Operations un pierakstieties.
-2.  Pēc pierakstīšanās pievienojiet URL tekstu **&mode=mobile**, kā tas ir redzams šajā piemērā, un atsvaidziniet lapu: https://&lt;jūsuurl&gt;/?cmp=usmf&mi=DefaultDashboard**&mode=mobile**.
+2.  Pēc pierakstīšanās pievienojiet URL tekstu **&mode=mobile**, kā tas ir redzams šajā piemērā, un atsvaidziniet lapu: https://&lt;jūsuurl&gt;/?cmp=usmf&mi=DefaultDashboard **&mode=mobile**.
 3.  Noklikšķiniet uz pogas **Iestatījumi** (zobrats) lapas augšējā labajā stūrī un pēc tam noklikšķiniet uz **Mobilā programma**. Tiek parādīts mobilo programmu veidotājs, tāpat kā tiek parādīts uzdevuma reģistrētājs.
 4.  Noklikšķiniet uz **Pievienot**, lai izveidotu jaunu darbvietu. Šī piemēra ietvaros piešķiriet darbvietai nosaukumu **Mani apstiprinājumi**.
 5.  Ievadiet aprakstu.
@@ -173,23 +172,23 @@ Pirmā mobilā lapa, kas ir jāizstrādā, ir lietotājam pārskatīšanai pieš
 
 Lai izstrādātu rēķina detalizētas informācijas lapu mobilajām ierīcēm, izmantojiet Finance and Operations lapu **VendMobileInvoiceHeaderDetails**. Ņemiet vērā, ka atkarībā no rēķinu skaita jūsu sistēmā šajā lapā tiek rādīti vecākie rēķini (rēķini, kas tika izveidoti pirmie). Lai atrastu konkrētu rēķinu, varat izmantot kreisajā pusē esošo filtru. Taču šī piemēra ietvaros nav nepieciešams konkrēts rēķins. Ir nepieciešami dažu rēķinu dati, lai varētu izstrādāt mobilo lapu. [![Lapa Darbplūsma](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
-1.  Finance and Operations vietrādī URL izvēlnes vienuma nosaukumu aizstājiet ar **VendMobileInvoiceHeaderDetails**, lai atvērtu formu
-2.  Atveriet mobilo programmu veidotāju, izmantojot pogu **Iestatījumi** (zobrats).
-3.  Noklikšķiniet uz pogas **Rediģēt**, lai darbvietā ieslēgtu rediģēšanas režīmu.
-4.  Atlasiet lapu **Mani kreditoru rēķini**, ko iepriekš izveidojāt, un pēc tam noklikšķiniet uz **Rediģēt**.
-5.  Cilnē **Lauki** noklikšķiniet uz kolonnas galvenes **Režģis**.
-6.  Noklikšķiniet uz **Rekvizīti** &gt; **Pievienot lapu**. **Piezīme.** Kad noklikšķināt uz galvenes **Režģis** un pievienojat lapu, tiek automātiski izveidotas attiecības ar detalizētas informācijas lapu.
-7.  Ievadiet lapas nosaukumu, piemēram, **Rēķina detalizēta informācija**, un aprakstu, piemēram, **Skatīt rēķina galvenes un rindu detalizētu informāciju**.
-8.  Noklikšķiniet uz **Atlasīt laukus**. Ņemiet vērā, ka pievienošanas secība atbilst secībai, kādā laiki tiek rādīti lietotājam. Vienīgais veids, kā mainīt laiku secību, ir atkārtoti atlasīt visus laukus. 
-9.  Pievienojiet tālāk norādītos laukus no galvenes, pamatojoties uz šī scenārija prasībām.
-    - Kreditora nosaukums
-    - Rēķina kopsumma
-    - Rēķina konts
-    - Rēķina numurs
-    - Rēķina datums
-    - Rēķina apraksts
-    - Izpildes termiņš
-    - Rēķina valūta
+1. Finance and Operations vietrādī URL izvēlnes vienuma nosaukumu aizstājiet ar **VendMobileInvoiceHeaderDetails**, lai atvērtu formu
+2. Atveriet mobilo programmu veidotāju, izmantojot pogu **Iestatījumi** (zobrats).
+3. Noklikšķiniet uz pogas **Rediģēt**, lai darbvietā ieslēgtu rediģēšanas režīmu.
+4. Atlasiet lapu <strong>Mani kreditoru rēķini**, ko iepriekš izveidojāt, un pēc tam noklikšķiniet uz **Rediģēt</strong>.
+5. Cilnē **Lauki** noklikšķiniet uz kolonnas galvenes **Režģis**.
+6. Noklikšķiniet uz **Rekvizīti** &gt; **Pievienot lapu**. **Piezīme.** Kad noklikšķināt uz galvenes **Režģis** un pievienojat lapu, tiek automātiski izveidotas attiecības ar detalizētas informācijas lapu.
+7. Ievadiet lapas nosaukumu, piemēram, **Rēķina detalizēta informācija**, un aprakstu, piemēram, **Skatīt rēķina galvenes un rindu detalizētu informāciju**.
+8. Noklikšķiniet uz **Atlasīt laukus**. Ņemiet vērā, ka pievienošanas secība atbilst secībai, kādā laiki tiek rādīti lietotājam. Vienīgais veids, kā mainīt laiku secību, ir atkārtoti atlasīt visus laukus. 
+9. Pievienojiet tālāk norādītos laukus no galvenes, pamatojoties uz šī scenārija prasībām.
+   - Kreditora nosaukums
+   - Rēķina kopsumma
+   - Rēķina konts
+   - Rēķina numurs
+   - Rēķina datums
+   - Rēķina apraksts
+   - Izpildes termiņš
+   - Rēķina valūta
 
 10. Pievienojiet tālāk norādītos laukus no lapas rindu režģa.
     - Sagādes kategorija
@@ -199,7 +198,7 @@ Lai izstrādātu rēķina detalizētas informācijas lapu mobilajām ierīcēm, 
     - 1099. summa
 
 11. Kad ir pievienoti visi divu iepriekšējo darbību aprakstā norādītie lauki, noklikšķiniet uz **Gatavs**. Lapai ir jālīdzinās tālāk esošajam attēlam.
-[![Lapa pēc lauku pievienošanas](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+    [![Lapa pēc lauku pievienošanas](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 12. Noklikšķiniet uz **Gatavs**, lai izslēgtu rediģēšanas režīmu.
 13. Noklikšķiniet uz **Atpakaļ** un pēc tam uz **Gatavs**, lai aizvērtu darbvietu.
 14. Noklikšķiniet uz **Publicēt darbvietu**, lai saglabātu darbu.
@@ -296,14 +295,14 @@ Lai pievienotu darbplūsmas darbības, izmantojiet Finance and Operations lapu *
 
 ### <a name="vendor-invoice-attachments"></a>Kreditoru rēķinu pielikumi
 
-1.  Noklikšķiniet uz pogas **Iestatījumi** (zobrats) lapas augšējā labajā stūrī un pēc tam noklikšķiniet uz **Mobilā programma**.
-2.  Noklikšķiniet uz pogas **Rediģēt**, lai darbvietā ieslēgtu rediģēšanas režīmu.
-3.  Atlasiet lapu **Rēķina detalizēta informācija**, ko iepriekš izveidojāt, un pēc tam noklikšķiniet uz **Rediģēt**.
-4.  Iestatiet opcijas **Dokumentu vadība** vērtību **Ja**, kā tas ir redzams tālāk. **Piezīme.** Ja nav nepieciešams rādīt pielikumus mobilajā ierīcē, varat atstāt šīs opcijas vērtību **Nē**, kas ir noklusējuma iestatījums.
-![Dokumentu vadība](./media/docmanagement-216x300.png)
-6.  Noklikšķiniet uz **Gatavs**, lai izslēgtu rediģēšanas režīmu.
-7.  Noklikšķiniet uz **Atpakaļ** un pēc tam uz **Gatavs**, lai aizvērtu darbvietu.
-8.  Noklikšķiniet uz **Publicēt darbvietu**, lai saglabātu darbu.
+1. Noklikšķiniet uz pogas **Iestatījumi** (zobrats) lapas augšējā labajā stūrī un pēc tam noklikšķiniet uz **Mobilā programma**.
+2. Noklikšķiniet uz pogas **Rediģēt**, lai darbvietā ieslēgtu rediģēšanas režīmu.
+3. Atlasiet lapu <strong>Rēķina detalizēta informācija**, ko iepriekš izveidojāt, un pēc tam noklikšķiniet uz **Rediģēt</strong>.
+4. Iestatiet opcijas **Dokumentu vadība** vērtību **Ja**, kā tas ir redzams tālāk. **Piezīme.** Ja nav nepieciešams rādīt pielikumus mobilajā ierīcē, varat atstāt šīs opcijas vērtību **Nē**, kas ir noklusējuma iestatījums.
+   ![Dokumentu vadība](./media/docmanagement-216x300.png)
+5. Noklikšķiniet uz **Gatavs**, lai izslēgtu rediģēšanas režīmu.
+6. Noklikšķiniet uz **Atpakaļ** un pēc tam uz **Gatavs**, lai aizvērtu darbvietu.
+7. Noklikšķiniet uz **Publicēt darbvietu**, lai saglabātu darbu.
 
 ### <a name="vendor-invoice-line-distributions"></a>Kreditora rēķina rindas sadales
 

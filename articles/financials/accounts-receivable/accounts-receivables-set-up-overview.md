@@ -28,8 +28,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Moduļu Debitori un Kredīts un iekasēšana konfigurēšana
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Konfigurējiet debitoru parādus un kredītu un iekasēšanu, lai izsekotu rēķiniem un no debitoriem ienākošajiem maksājumiem.
 
@@ -107,7 +106,7 @@ Nākamajā tabulā ir uzskaitītas lapas, kas atbalsta moduļu Debitori un Kred�
 |                                                      | NSF informācija.                     | Iestatiet NSF informāciju bankas kontam, kas tiks izmantots, kad maksājums lapā Iekasēšana ir atzīmēts kā NSF transakcija.                                                                                                                                              |
 |                                                      | Pārdevēja informācija              | Iestatiet e-pasta adresi pārdevējiem. Šīs adreses būs redzamas lapā Iekasēšana, un tās varēsiet izmantot, lai no šīs lapas sūtītu pārdevējam e-pasta ziņojumus.                                                                                                                |
 
- 
+
 Plašāku informāciju skatiet rakstā [Kredīts un iekasēšana modulī Debitori](collections-credit-accounts-receivable.md).
 
 

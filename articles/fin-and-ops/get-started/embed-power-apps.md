@@ -3,7 +3,7 @@ title: "Pakalpojuma PowerApps iegulšana"
 description: "Šajā tēmā ir sniegta informācija par to, kā iegult pakalpojumu PowerApps Finance and Operations klientā, lai atbalstītu produkta funkcionalitāti."
 author: jasongre
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 04/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -16,20 +16,24 @@ ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
 ms.translationtype: HT
-ms.sourcegitcommit: 454368ab5a467002ebf973db97fd98e31885dfe0
-ms.openlocfilehash: 0fd0b1e5f94e39455b3c0799c89eea5a59444ad7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 07224faabcf2b183d4c8da0ba4588c33ec140d03
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="embed-powerapps"></a>Pakalpojuma PowerApps iegulšana
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[banner](../includes/pre-release.md)] 
+[!INCLUDE [banner](../includes/pre-release.md)]
 
-Platformas atjauninājuma versija 14, Microsoft Dynamics 365 for Finance and Operations atbalsta integrāciju ar Microsoft PowerApps, izstrādātājiem un ar tehniku nesaistītiem lietotājiem paredzētu pakalpojumu pielāgotu biznesa programmu mobilajām ierīcēm, planšetdatoriem un tīmekļa vietnēm izveidei bez kodu rakstīšanas. Jūsu izstrādāto pakalpojumu PowerApps jūsu organizācija vai plašāka ekosistēma pēc tam var iegult Finance and Operations klientā produkta funkcionalitātes atbalstam. Piemēram, jūs varat izveidot pakalpojumu PowerApp, lai papildinātu programmu Finance and Operations ar informāciju, kas izgūta no citas sistēmas.  
+Platformas atjauninājuma versija 14, Microsoft Dynamics 365 for Finance and Operations atbalsta integrāciju ar Microsoft PowerApps, izstrādātājiem un ar tehniku nesaistītiem lietotājiem paredzētu pakalpojumu pielāgotu biznesa programmu mobilajām ierīcēm, planšetdatoriem un tīmekļa vietnēm izveidei bez kodu rakstīšanas. Jūsu izstrādāto pakalpojumu PowerApps jūsu organizācija vai plašāka ekosistēma pēc tam var iegult Finance and Operations klientā produkta funkcionalitātes atbalstam. Piemēram, jūs varat izveidot pakalpojumu PowerApp, lai papildinātu programmu Finance and Operations ar informāciju, kas izgūta no citas sistēmas. 
+
+Lai uzzinātu vairāk par pakalpojuma PowerApps iegulšanu, noskatieties īso video [Kā iegult pakalpojumu PowerApps programmā Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=x3qyA1bH-NY).
+
+> [!Video https://www.youtube.com/embed/x3qyA1bH-NY]
 
 ## <a name="adding-an-embedded-powerapp-to-a-page"></a>Iegultā pakalpojuma PowerApp pievienošana lapai
 ### <a name="overview"></a>Pārskats

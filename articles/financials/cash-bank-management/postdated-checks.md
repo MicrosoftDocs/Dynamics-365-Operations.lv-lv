@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="postdated-checks"></a>Ar iepriekšēju datumu datēti čeki
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta informācija par programmatūrā Microsoft Dynamics 365 for Finence and Operations nodrošināto ar iepriekšēju datumu datētu čeku atbalstu. Ar iepriekšēju datumu datēti čeki ir čeki, kas tiek izsniegti, lai veiktu vai saņemtu maksājumus nākotnes datumā. Tāpēc šādu čeku nevar iekasēt pirms norādītā datuma.
 
@@ -76,14 +75,14 @@ Ja jūsu sākotnējais kreditoram izsniegtais vai no debitora saņemtais čeks i
 <td>Varat atcelt ar iepriekšēju datumu datētu čeku tālāk norādītajās situācijās. - Banka ir atgriezusi čeku.
 - Čeks ir lietots nepareizam rēķinam.
 - Čeks ir apmaksāts skaidrā naudā.
-</td>
-</tr>
-<tr class="even">
-<td>Apturiet ar iepriekšēju datumu datēta čeka maksājumu.</td>
-<td>Kreditoram izsniegtam ar iepriekšēju datumu datētam čekam maksājumu varat apturēt tādu iemeslu dēļ kā nepietiekami naudas līdzekļi, ar kreditoru noslēgtā līguma izmaiņas, kreditors piegādā preces ar defektiem vai kreditoram preces tiek atgrieztas. Varat apturēt tikai tādu čeku maksājumu, kam nav veikts klīrings.</td>
-</tr>
-</tbody>
-</table>
+  </td>
+  </tr>
+  <tr class="even">
+  <td>Apturiet ar iepriekšēju datumu datēta čeka maksājumu.</td>
+  <td>Kreditoram izsniegtam ar iepriekšēju datumu datētam čekam maksājumu varat apturēt tādu iemeslu dēļ kā nepietiekami naudas līdzekļi, ar kreditoru noslēgtā līguma izmaiņas, kreditors piegādā preces ar defektiem vai kreditoram preces tiek atgrieztas. Varat apturēt tikai tādu čeku maksājumu, kam nav veikts klīrings.</td>
+  </tr>
+  </tbody>
+  </table>
 
 
 

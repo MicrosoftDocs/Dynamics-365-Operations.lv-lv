@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e9e66d3c6309c195e076fd86c31aa0adade97394
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3a5b9f98b371dbad9b6b0538e0d9975dc5ed701c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="align-workforce-skills-with-business-needs"></a>Salāgojiet darbaspēka prasmes ar biznesa vajadzībām
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Varat izsekot prasmes, kas piemīt darbiniekiem, kandidātiem vai kontaktpersonām vai kuriem tādām vajadzētu būt darbinieku, kandidātu vai kontaktpersonu lomas efektīvai izpildei. Varat arī norādīt prasmes, kas ir nepieciešamas konkrētam darbam.
 
@@ -55,8 +54,8 @@ Varat izveidot prasmju kartēšanas meklēšanu, lai atrastu darbinieku, kandid�
 
 Prasmju kartēšanas profili ļauj atrast pašreizējos darbiniekus vai kandidātus ar kvalifikāciju, kas tieši atbilst uzņēmuma vajadzībām.  Piemēram, varat izveidot prasmju kartēšanas profilu jūsu organizācijas vakancei. Izveidojot profilu konkrētam darbam un kopējot prasmes, izglītību un sertifikātus no šī darba profilā, var ātri atrast darbiniekus, kandidātus un kontaktpersonas, kas atbilst vienam vai vairākiem profilā ievadītiem kritērijiem, un skatīt sarakstu ar kandidātiem, kuru prasmes visprecīzāk atbilst nepieciešamajam darbam.
 
->**Piezīme.** Prasmju kartēšanas rezultātu sarakstā var tikt parādīti vai prasmju profilā var tikt iekļauti tikai darbinieki, kandidāti un kontaktpersonas, kas ir izvēlēti iekļaušanai prasmju kartēšanas meklējumos. Lai prasmju kartēšanas rezultātos iekļautu darbinieku, kandidātu vai kontaktpersonu, iestatiet opciju **Iekļaut prasmju kartēšanā** uz Jā šādās lapās.
-
+> **Piezīme.** Prasmju kartēšanas rezultātu sarakstā var tikt parādīti vai prasmju profilā var tikt iekļauti tikai darbinieki, kandidāti un kontaktpersonas, kas ir izvēlēti iekļaušanai prasmju kartēšanas meklējumos. Lai prasmju kartēšanas rezultātos iekļautu darbinieku, kandidātu vai kontaktpersonu, iestatiet opciju **Iekļaut prasmju kartēšanā** uz Jā šādās lapās.
+> 
 > + Darbinieks
 > + Darbinieks
 > + Kandidāts

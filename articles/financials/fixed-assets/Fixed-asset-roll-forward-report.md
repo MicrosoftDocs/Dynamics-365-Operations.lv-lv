@@ -19,15 +19,15 @@ ms.author: saraschi
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 7a81697a8e90fb6b0695a02db0868f5708fdbddf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 16f7c199fb4c9905c465e5d4596d3eaa90104b83
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Pamatlīdzekļu atjaunošanas pārskats
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Pārskats **Pamatlīdzekļu atjaunošana** viegli lasāmā Microsoft Excel formātā nodrošina detalizētus pamatlīdzekļu datus, kas jums nepieciešami perioda slēgšanai, finanšu pārskatiem un nodokļu pārskatiem. Šajā pārskatā ietvertas pamatlīdzekļu sākuma un beigu bilances kopā ar perioda novērtēšanas kustībām un visiem perioda laikā notikušajiem jaunu līdzekļu iegādes un izslēgšanas gadījumiem. Dati tiek sniegti par atsevišķiem pamatlīdzekļiem, un tiek arī apkopotas pamatlīdzekļu grupu un juridisko personu vērtības.
 
@@ -41,28 +41,30 @@ Pārskatā **Pamatlīdzekļu atjaunošana** izmantota elektronisko pārskatu (E
 
 Tālāk esošajā tabulā ir aprakstīti pārskatā pieejamie lauki.
 
-| Lauks                                       | apraksts |
-|---------------------------------------------|-------------|
-| Bilance: sākuma                           | Pamatlīdzekļa atlikusī vērtība kopš pārskatā norādītā “no” datuma. |
-| Bilance: slēguma                           | Pamatlīdzekļa atlikusī vērtība kopš pārskatā norādītā “līdz” datuma. |
-| Iegāde: sākuma vērtība                 | Visu veidu **Iegāde** un **Iegādes korekcija** transakciju summa līdz pārskatā norādītajam “no” datumam. |
-| Iegāde: iegādes periodā           | Visu veidu **Iegāde** un **Iegādes korekcija** to transakciju summa, kas tika iegrāmatotas pārskata datumu diapazonā. |
-| Iegāde: izslēgšana periodā              | Visu to iegādes atsaukumu summa, kas tika iegrāmatoti un kam bija izslēgšanas transakcija pārskata datumu diapazonā. |
-| Iegāde: beigu vērtība                 | Visu veidu **Iegāde** un **Iegādes korekcija** transakciju summa līdz pārskatā norādītajam “līdz” datumam. |
-| Nolietojums: sākuma vērtība                | Visu veidu **Nolietojums**, **Nolietojuma korekcija**, **Speciālā nolietojuma atļautais daudzums** un **Ārkārtas nolietojums** transakciju summa līdz pārskatā norādītajam “no” datumam. |
-| Nolietojums: nolietojumi periodā         | Visu veidu **Nolietojums**, **Nolietojuma korekcija** un **Ārkārtas nolietojums** to transakciju summa, kas tika iegrāmatotas pārskata datumu diapazonā. |
-| Nolietojums: speciālie nolietojumi periodā | Visu tipa **Speciālā nolietojuma atļautais daudzums** to transakciju summa, kas tika iegrāmatotas pārskata datumu diapazonā. |
-| Nolietojums: izslēgšana periodā             | Visu to nolietojumu atsaukumu summa, kas tika iegrāmatoti un kam bija izslēgšanas transakcija pārskata datumu diapazonā. |
-| Nolietojums: beigu vērtība                | Visu veidu **Nolietojums**, **Nolietojuma korekcija**, **Speciālā nolietojuma atļautais daudzums** un **Ārkārtas nolietojums** transakciju summa līdz pārskatā norādītajam “līdz” datumam. |
-| Vērtības palielināšana/vērtības samazināšana: sākuma vērtība        | Visu veidu **Vērtības palielināšana**, **Vērtības samazināšana** un **Pārvērtēšana** transakciju summa līdz pārskatā norādītajam “no” datumam. |
-| Vērtības palielināšana/vērtības samazināšana: vērtības palielinājumi periodā     | Visu tipa **Vērtības palielināšana** to transakciju summa, kas tika iegrāmatotas pārskata datumu diapazonā. |
-| Vērtības palielināšana/vērtības samazināšana: vērtības samazinājumi periodā   | Visu tipa **Vērtības samazināšana** to transakciju summa, kas tika iegrāmatotas pārskata datumu diapazonā. |
-| Vērtības palielināšana/vērtības samazināšana: pārvērtējumi periodā  | Visu tipa **Pārvērtēšana** to transakciju summa, kas tika iegrāmatotas pārskata datumu diapazonā. |
-| Vērtības palielināšana/vērtības samazināšana: izslēgšana periodā     | Visu to vērtības palielinājumu, vērtības samazinājumu un pārvērtējumu atsaukumu summa, kas tika iegrāmatoti un kam bija izslēgšanas transakcija pārskata datumu diapazonā. |
-| Vērtības palielināšana/vērtības samazināšana: beigu vērtība        | Visu veidu **Vērtības palielināšana**, **Vērtības samazināšana** un **Pārvērtēšana** transakciju summa līdz pārskatā norādītajam “līdz” datumam. |
-| Izslēgšana: izslēgšanas datums                    | Pamatlīdzekļu grāmatas izslēgšanas datums. |
-| Izslēgšana: atlikusī vērtība, veicot izslēgšanu       | Pamatlīdzekļu grāmatas atlikusī vērtība izslēgšanas laikā |
-| Izslēgšana: pārdošanas vērtība                       | Pārdošanas vērtība pamatlīdzekļu grāmatai ar izslēgšanas-pārdošanas transakciju. |
-| Izslēgšana: lūžņu vērtība                      | Lūžņu vērtība pamatlīdzekļu grāmatai ar izslēgšanas-lūžņu transakciju. |
-| Izslēgšana: peļņa/zaudējumi                      | Peļņas vai zaudējumu vērtība, kas pamatlīdzekļu grāmatai aprēķināta kā daļa no izslēgšanas transakcijas. |
+
+|                    Lauks                    |                                                                                                                                apraksts                                                                                                                                |
+|---------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|              Bilance: sākuma              |                                                                                           Pamatlīdzekļa atlikusī vērtība kopš pārskatā norādītā “no” datuma.                                                                                           |
+|              Bilance: slēguma              |                                                                                            Pamatlīdzekļa atlikusī vērtība kopš pārskatā norādītā “līdz” datuma.                                                                                            |
+|         Iegāde: sākuma vērtība         |                                                 Visu veidu <strong>Iegāde</strong> un <strong>Iegādes korekcija</strong> transakciju summa līdz pārskatā norādītajam “no” datumam.                                                  |
+|      Iegāde: iegādes periodā      |                                                 Visu veidu <strong>Iegāde</strong> un <strong>Iegādes korekcija</strong> to transakciju summa, kas tika iegrāmatotas pārskata datumu diapazonā.                                                  |
+|       Iegāde: izslēgšana periodā        |                                                                        Visu to iegādes atsaukumu summa, kas tika iegrāmatoti un kam bija izslēgšanas transakcija pārskata datumu diapazonā.                                                                        |
+|         Iegāde: beigu vērtība         |                                                  Visu veidu <strong>Iegāde</strong> un <strong>Iegādes korekcija</strong> transakciju summa līdz pārskatā norādītajam “līdz” datumam.                                                   |
+|        Nolietojums: sākuma vērtība         | Visu veidu <strong>Nolietojums</strong>, <strong>Nolietojuma korekcija</strong>, <strong>Speciālā nolietojuma atļautais daudzums</strong> un <strong>Ārkārtas nolietojums</strong> transakciju summa līdz pārskatā norādītajam “no” datumam. |
+|     Nolietojums: nolietojumi periodā     |                         Visu veidu <strong>Nolietojums</strong>, <strong>Nolietojuma korekcija</strong> un <strong>Ārkārtas nolietojums</strong> to transakciju summa, kas tika iegrāmatotas pārskata datumu diapazonā.                          |
+| Nolietojums: speciālie nolietojumi periodā |                                                              Visu tipa <strong>Speciālā nolietojuma atļautais daudzums</strong> to transakciju summa, kas tika iegrāmatotas pārskata datumu diapazonā.                                                               |
+|       Nolietojums: izslēgšana periodā       |                                                                       Visu to nolietojumu atsaukumu summa, kas tika iegrāmatoti un kam bija izslēgšanas transakcija pārskata datumu diapazonā.                                                                        |
+|        Nolietojums: beigu vērtība         |  Visu veidu <strong>Nolietojums</strong>, <strong>Nolietojuma korekcija</strong>, <strong>Speciālā nolietojuma atļautais daudzums</strong> un <strong>Ārkārtas nolietojums</strong> transakciju summa līdz pārskatā norādītajam “līdz” datumam.  |
+|    Vērtības palielināšana/vērtības samazināšana: sākuma vērtība     |                              Visu veidu <strong>Vērtības palielināšana</strong>, <strong>Vērtības samazināšana</strong> un <strong>Pārvērtēšana</strong> transakciju summa līdz pārskatā norādītajam “no” datumam.                               |
+|   Vērtības palielināšana/vērtības samazināšana: vērtības palielinājumi periodā   |                                                                    Visu tipa <strong>Vērtības palielināšana</strong> to transakciju summa, kas tika iegrāmatotas pārskata datumu diapazonā.                                                                    |
+|  Vērtības palielināšana/vērtības samazināšana: vērtības samazinājumi periodā  |                                                                   Visu tipa <strong>Vērtības samazināšana</strong> to transakciju summa, kas tika iegrāmatotas pārskata datumu diapazonā.                                                                   |
+| Vērtības palielināšana/vērtības samazināšana: pārvērtējumi periodā  |                                                                        Visu tipa <strong>Pārvērtēšana</strong> to transakciju summa, kas tika iegrāmatotas pārskata datumu diapazonā.                                                                        |
+|   Vērtības palielināšana/vērtības samazināšana: izslēgšana periodā   |                                                           Visu to vērtības palielinājumu, vērtības samazinājumu un pārvērtējumu atsaukumu summa, kas tika iegrāmatoti un kam bija izslēgšanas transakcija pārskata datumu diapazonā.                                                           |
+|    Vērtības palielināšana/vērtības samazināšana: beigu vērtība     |                               Visu veidu <strong>Vērtības palielināšana</strong>, <strong>Vērtības samazināšana</strong> un <strong>Pārvērtēšana</strong> transakciju summa līdz pārskatā norādītajam “līdz” datumam.                                |
+|          Izslēgšana: izslēgšanas datums           |                                                                                                                Pamatlīdzekļu grāmatas izslēgšanas datums.                                                                                                                |
+|    Izslēgšana: atlikusī vērtība, veicot izslēgšanu    |                                                                                                    Pamatlīdzekļu grāmatas atlikusī vērtība izslēgšanas laikā                                                                                                    |
+|            Izslēgšana: pārdošanas vērtība            |                                                                                               Pārdošanas vērtība pamatlīdzekļu grāmatai ar izslēgšanas-pārdošanas transakciju.                                                                                                |
+|           Izslēgšana: lūžņu vērtība            |                                                                                               Lūžņu vērtība pamatlīdzekļu grāmatai ar izslēgšanas-lūžņu transakciju.                                                                                               |
+|           Izslēgšana: peļņa/zaudējumi            |                                                                                 Peļņas vai zaudējumu vērtība, kas pamatlīdzekļu grāmatai aprēķināta kā daļa no izslēgšanas transakcijas.                                                                                 |
+
 

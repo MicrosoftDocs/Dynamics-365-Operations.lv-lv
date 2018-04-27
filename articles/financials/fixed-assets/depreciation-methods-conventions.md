@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="depreciation-methods-and-conventions"></a>Nolietojuma metodes un konvencijas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegts pārskats par nolietojuma aprēķināšanas nosacījumiem un metodēm, ko atbalsta programma Microsoft Dynamics 365 for Finance and Operations.
 
@@ -62,7 +61,7 @@ Varat atlasīt kādu no tālāk norādītajām nolietojuma metodēm.
 -   150% atlikumu bilance
 -   125% atlikumu bilance
 
- 
+
 
 
 

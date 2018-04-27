@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-the-banner-or-logo"></a>Reklāmkaroga vai logotipa maiņa
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā uzskaitītas darbības, kuras sistēmas administratori var izmantot, lai atjauninātu reklāmkarogu vai logotipa attēlu, kas tiek rādīts juridiskai personai. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 

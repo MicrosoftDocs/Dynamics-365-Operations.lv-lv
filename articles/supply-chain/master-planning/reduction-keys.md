@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reduction-keys"></a>Samazināšanas principi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegti piemēri, kas izskaidro, kā iestatīt samazināšanas principu. Šeit iekļauta informācija par dažādiem samazināšanas principa iestatījumiem un to visu rezultātiem. Samazināšanas principu var izmantot, lai noteiktu, kā samazināt budžeta vajadzības.
 
@@ -39,17 +38,19 @@ ms.lasthandoff: 11/03/2017
 
 Šis piemērs parāda, kā samazināšanas princips samazina pieprasījuma apjoma prognozes prasības atbilstoši samazināšanas principa noteiktajiem procentiem un laika periodiem.
 
-1.  Lapā **Samazināšanas principi** iestatiet šādas rindas.
-    | Izdodamais atlikums | Vienība  | Procenti |
-    |--------|-------|---------|
-    | 1      | Mēnesis | 100     |
-    | 2      | Mēnesis | 75      |
-    | 3      | Mēnesis | 50      |
-    | 4.      | Mēnesis | 25      |
+1. Lapā **Samazināšanas principi** iestatiet šādas rindas.
 
-2.  Piesaistiet samazināšanas principu krājuma vajadzību grupai.
-3.  Lapas **Vispārējie plāni** laukā **Samazināšanas princips** atlasiet **Procenti — samazināšanas princips**.
-4.  Izveidojiet pieprasījuma apjoma prognozi 1000 gabaliem mēnesī.
+   | Izdodamais atlikums | Vienība  | Procenti |
+   |--------|-------|---------|
+   |   1    | Mēnesis |   100   |
+   |   2    | Mēnesis |   75    |
+   |   3    | Mēnesis |   50    |
+   |   4.    | Mēnesis |   25    |
+
+
+2. Piesaistiet samazināšanas principu krājuma vajadzību grupai.
+3. Lapas **Vispārējie plāni** laukā **Samazināšanas princips** atlasiet **Procenti — samazināšanas princips**.
+4. Izveidojiet pieprasījuma apjoma prognozi 1000 gabaliem mēnesī.
 
 Sākot budžeta plānošanu 1. janvārī, pieprasījuma apjoma prognozes vajadzības tiek patērētas atbilstoši procentiem, ko iestatāt lapā **Samazināšanas principi**. Uz vispārējo plānu tiek pārsūtīti šādi vajadzību daudzumi.
 
@@ -88,20 +89,21 @@ Ja izmantojat to pašu pieprasījuma apjoma prognozi 1000 gabaliem mēnesī, uz 
 ## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>3. piemērs:. Transakciju dinamiskā perioda prognozes samazināšanas princips
 Vairāmā gadījumu sistēmas ir iestatītas tā, lai darbības samazina pieprasījuma apjoma prognozi noteiktos prognozes periodos: nedēļās, mēnešus utt. Šie periodi ir definēti samazināšanas principā. Tomēr laiks starp divām pieprasījuma apjoma prognozes rindām var arī *nozīmēt* periodu.
 
-1.  Izveidojiet pieprasījuma apjoma prognozi šādiem datumiem un daudzumiem.
-    | Datums       | Pieprasījuma apjoma prognoze |
-    |------------|-----------------|
-    | 1. janvāris  | 1000           |
-    | 5. janvāris  | 500             |
-    | 12. janvāris | 1000           |
+1. Izveidojiet pieprasījuma apjoma prognozi šādiem datumiem un daudzumiem.
 
-    Šajā prognozē nav skaidri izteikta perioda starp prognozes datumiem: starp pirmo un otro datumu ir četru dienu ilgs posms, un starp otro un trešo datumu ir septiņu ilgs dienu posms. Šie dažādie posmi ir dinamiskais periods.
-2.  Izveidojiet pārdošanas pasūtījuma rindas, kā norādīts tālāk.
-    | Datums                             | Pārdošanas pasūtījumu daudzums |
-    |----------------------------------|----------------------|
-    | Iepriekšējā gada 15. decembris | 500                  |
-    | 3. janvāris                        | 100                  |
-    | 10. janvāris                       | 200                  |
+   | Datums       | Pieprasījuma apjoma prognoze |
+   |------------|-----------------|
+   | 1. janvāris  | 1000           |
+   | 5. janvāris  | 500             |
+   | 12. janvāris | 1000           |
+
+   Šajā prognozē nav skaidri izteikta perioda starp prognozes datumiem: starp pirmo un otro datumu ir četru dienu ilgs posms, un starp otro un trešo datumu ir septiņu ilgs dienu posms. Šie dažādie posmi ir dinamiskais periods.
+2. Izveidojiet pārdošanas pasūtījuma rindas, kā norādīts tālāk.
+   | Datums                             | Pārdošanas pasūtījumu daudzums |
+   |----------------------------------|----------------------|
+   | Iepriekšējā gada 15. decembris | 500                  |
+   | 3. janvāris                        | 100                  |
+   | 10. janvāris                       | 200                  |
 
 Prognoze tiks samazināta šādi.
 

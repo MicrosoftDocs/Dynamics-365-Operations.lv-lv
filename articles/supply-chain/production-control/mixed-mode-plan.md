@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Jaukta režīma plānošana — atsevišķu avotu, procesa avotu un racionālo avotu apvienošana
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par jaukta režīma plānošanu. Jaukta režīma plānošanā savu piegādes ķēdi varat modelēt, pamatojoties uz materiālu plūsmu. Microsoft Dynamics 365 for Finance and Operations nodrošina materiālu plūsmu atbilstību jūsu modeļiem neatkarīgi no atlasītās piegādes politikas (Kanban, ražošanas pasūtījumi, pirkšanas pasūtījumi, partijas pasūtījumi vai pārsūtīšanas pasūtījumi). 
 

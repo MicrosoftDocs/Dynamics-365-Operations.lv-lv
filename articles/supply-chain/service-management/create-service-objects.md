@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="create-service-objects"></a>Pakalpojumu objektu izveide  
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
    
 Pakalpojumu objekti ir klienta līdzekļi un preces, kurām jūs varat veikt pakalpojumu. 
 

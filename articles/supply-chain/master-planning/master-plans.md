@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="master-plans"></a>Vispārējie plāni
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Izmantojiet dažādus vispārējos plānus, lai atbalstītu uzņēmuma ikdienas darba operācijas, simulētu dažādas plānošanas stratēģijas, ko vēlaties pārraudzīt, un īstenotu uzņēmuma politiku, piemēram, attiecībā uz iekšējo veiktspēju vai debitoru apmierinātību. 
 

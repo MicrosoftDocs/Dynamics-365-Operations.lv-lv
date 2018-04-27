@@ -19,17 +19,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 6772c1d7906db27333206ea2ecd5a0585c3eb939
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0ddc9d43f62df937a6fb18e15c718c37442bb9b4
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="product-configuration-models-overview"></a>Pārskats par preču konfigurācijas modeļiem
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir definēti termini un koncepcijas, kas ir saistīti ar preču konfigurācijas modeļiem. Preču konfigurācijas modeļi sniedz iespēju veidot iekšējo preču struktūru, ko var izmantot, lai konfigurētu daudzus vienas preces variantus.
 
@@ -59,7 +58,7 @@ Preču konfigurācijas modeļi tiek veidoti, lai pārstāvētu vispārīgu preč
 <ul>
 <li><strong>Obligāts</strong> — konfigurējot preci, šim atribūtam ir jāiestata kāda vērtība.</li>
 <li><strong>Tikai lasāms</strong> — šī atribūta vērtība tiek rādīta konfigurācijas sesijas laikā, bet to nevar mainīt.</li>
-<li><strong>Slēpts</strong> — šī atribūta vērtība ir iekļauta ierobežojumos un nosacījumos, bet netiek rādīta konfigurācijas sesijas laikā.</li>
+<li><strong>Slēpts</strong> — šī atribūta vērtība ir ietverta ierobežojumos un nosacījumos, bet netiek rādīta konfigurācijas sesijas laikā.</li>
 </ul>
 Varat norādīt arī atribūtu nosacījumu. Ja nosacījums tiek izpildīts, obligātajam atribūtam ir jāievada vērtība. Nosacījumi ir izteiksmes, kas jāievēro tajos atribūtos, MK rindās un maršruta operācijās, kas tiks iekļautas preču konfigurācijas modelī. Jebkurš atribūts, uz kuru ir izveidota atsauce nosacījumā, kļūst obligāts. Iesakām cilnē <strong>Atribūti</strong> atribūtus atlasīt kā obligātus. Tas var atvieglot obligāto atribūtu identificēšanu. Atribūtu vērtības ir atkārtoti izmantojamo konfigurāciju svarīga daļa. Sistēma izmanto atribūtu vērtības, lai noteiktu, vai pastāv konfigurācija, kas atbilst lietotāja veiktajai atlasei konfigurācijas sesijas laikā.</td>
 </tr>
@@ -142,7 +141,7 @@ Cilnē <strong>Vispārīgi</strong>, lapā <strong>Detalizēta informācija par 
 </tr>
 <tr class="even">
 <td>MK rindas</td>
-<td>MK rindas norāda komponentu atsevišķus materiālus preču konfigurācijas modelī. Lapā <strong>Detalizēta informācija par MK rindu</strong> visi krājumi ir pieejami atlasei. MK rindai var pievienot nosacījumu, lai MK rindas, kas atlasītas atšķirīgas preces variantam, varētu mainīties, pamatojoties uz lietotāja veikto atlasi, iestatot preces konfigurācijas modeli. Nosacījumi ir izteiksmes, kas jāievēro tajos atribūtos, MK rindās un maršruta operācijās, kas tiks iekļautas preču konfigurācijas modelī. Lapā <strong>Detalizēta informācija par MK rindu</strong> varat atlasīt atšķirīgu vērtību. Alternatīvi varat kartēt uz kādu atribūtu, kuram ir atlasīta vērtība, iestatot preces konfigurācijas modeli.</td>
+<td>MK rindas norāda komponentu atsevišķus materiālus preču konfigurācijas modelī. Lapā <strong>Detalizēta informācija par MK rindu</strong> visi krājumi ir pieejami atlasei. MK rindai var pievienot nosacījumu, lai MK rindas, kas ir atlasītas atšķirīgas preces variantam, varētu mainīties, pamatojoties uz lietotāja veikto atlasi, iestatot preces konfigurācijas modeli. Nosacījumi ir izteiksmes, kas jāievēro tajos atribūtos, MK rindās un maršruta operācijās, kas tiks iekļautas preču konfigurācijas modelī. Lapā <strong>Detalizēta informācija par MK rindu</strong> varat atlasīt atšķirīgu vērtību. Alternatīvi varat kartēt uz kādu atribūtu, kuram ir atlasīta vērtība, iestatot preces konfigurācijas modeli.</td>
 </tr>
 <tr class="odd">
 <td>Maršruta operācijas</td>

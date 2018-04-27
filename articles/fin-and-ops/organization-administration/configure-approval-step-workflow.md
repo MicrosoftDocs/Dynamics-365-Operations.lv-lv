@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-approval-step-in-a-workflow"></a>Konfigurēt apstiprināšanas darbību darbplūsmā
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā konfigurēt apstiprināšanas darbības rekvizītus.
 
@@ -145,9 +144,9 @@ Veiciet šīs darbības, lai norādītu personu, kurai jāpiešķir apstiprinā�
     Ja lietotājs neveic darbības ar dokumentu atvēlētajā laikā, dokuments ir nokavēts. Nokavēts dokuments tiek eskalēts, pamatojoties uz opcijām, kas ir atlasītas lapas apgabalā **Eskalācija**.
 4.  Ja apstiprināšanas darbība ir piešķirta vairākiem lietotājiem vai lietotāju grupai, cilnē **Pabeigšanas ierobežojums** atlasiet vienu no šīm opcijām:
     -   **Viens apstiprinātājs** — ar dokumentu veicamo darbību nosaka pirmā persona, kas atbild. Piemēram, Sems iesniedzis izdevumu pārskatu par USD 15 000. Izdevumu pārskats pašlaik ir piešķirts Sjū, Džo un Bilam. Ja Sjū ir pirmā uz dokumentu atbildējusī persona, dokumentam tiek veikta viņas izpildītā darbība. Ja Sjū noraida dokumentu, tas tiek noraidīts un nosūtīts atpakaļ Semam. Ja Sjū apstiprina šo dokumentu, tas tiek nosūtīts Annai apstiprināšanai. 
-    
+
     ![Darbplūsma, kurai ir apstiprināšanas process](./media/workflow_multipleusersinstep.gif)
-    
+
     -   **Apstiprinātāju vairākums** — ar dokumentu veicamā darbība tiek noteikta, kad atbild apstiprinātāju vairākums. Piemēram, Sems iesniedzis izdevumu pārskatu par USD 15 000. Izdevumu pārskats pašlaik ir piešķirts Sjū, Džo un Bilam. Ja Sjū un Džo ir pirmie divi apstiprinātāji, kas atbild, viņu izpildītā darbība nosaka ar dokumentu veicamo darbību.
         -   Ja Sjū apstiprina dokumentu, bet Džo to noraida, dokuments tiek noraidīts un atgriežas pie Sema.
         -   Ja gan Sjū, gan Džo apstiprina dokumentu, tas nonāk apstiprināšanai pie Annas.

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a> Mazumtirdzniecības veikala izraksta izveide, aprēķins un grāmatošana
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir aprakstītas manuālās veikala izraksta izveides, aprēķināšanas un grāmatošanas darbības. Ir aprakstīti arī pakešuzdevumi, ko var konfigurēt vieniem tiem pašiem uzdevumiem. Pakešuzdevumu konfigurēšanas un izpildes darbības ir aprakstītas citās tēmās. Lai izpildītu šo procedūru, jābūt transakcijām, kas tika izveidotas POS un pēc tam atgādātas sistēmā Dynamics AX. Šajā ierakstā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati. Šo procedūru var skatīt Microsoft Dynamics AX. Lūdzu, ņemiet vērā, ka Dynamics AX tagad tiek dēvēts par Microsoft Dynamics 365 for Operations.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="release-a-dimension-based-product-master"></a>Uz dimensijas balstītas preces šablona izlaišana
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā tiek parādīts, kā izlaist preces šablonu, kurš tiks izmantots konfigurācijām atbilstoši dimensijām. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Tas ir priekšnoteikums, ka esat izveidojis preces šablonu ar konfigurācijas atbilstoši dimensijām tehnoloģiju. Šī ir otrā procedūra no astoņām, kurā ir skaidrots, kā veidot kombinācijas konfigurācijai atbilstoši dimensijām.
 

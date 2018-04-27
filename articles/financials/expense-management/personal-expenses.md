@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="personal-expenses-on-an-expense-report"></a>Personiskie izdevumi un izdevumu pārskats
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Komandējumu laikā var būt reizes, kad darbinieks izmanto uzņēmuma kredītkarti savu personīgo tēriņu segšanai. Ja uzņēmumā nav noteikta kārtība saistībā ar personīgajiem tēriņiem, tad izdevumu pārskatu apstiprināšanas process var aizkavēties pēc darbinieka detalizētas izdevumu atskaites iesniegšanas. 
 

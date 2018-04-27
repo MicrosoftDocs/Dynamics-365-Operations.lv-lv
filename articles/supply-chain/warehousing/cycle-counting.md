@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cycle-counting"></a>Cikla inventarizācija
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā aprakstīts, kā var izmantot cikla inventarizāciju ar noliktavas risinājumu, kas ir pieejams modulī Noliktavas pārvaldība. Šis raksts neattiecas uz noliktavas risinājumu, kas ir pieejams modulī Krājumu vadība.
 

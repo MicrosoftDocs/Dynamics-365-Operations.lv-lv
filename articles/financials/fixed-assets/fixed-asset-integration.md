@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-assets-integration"></a>Pamatlīdzekļu integrācija
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Pamatlīdzekļus var integrēt ar Virsgrāmatu, krājumu vadību, debitoriem un kreditoriem. Varat arī uzstādīt, lai pamatlīdzekļi integrētos ar pirkšanas pasūtījumiem.
 

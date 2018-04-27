@@ -25,8 +25,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="data-validation-workspace"></a>Datu pārbaudes darbvieta
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegts pārskats par darbvietu **Datu validēšanas kontrolsaraksts** un saistīto konfigurāciju.
 

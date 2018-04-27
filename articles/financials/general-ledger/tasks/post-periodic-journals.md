@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="post-periodic-journals"></a>Periodu žurnālu grāmatošana
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Periodiskos žurnālus reizēm sauc par cikliski atkārtotajiem žurnāliem, jo summa, teksts un cita informācija tiek atkārtoti katru reizi, kad šis periodiskais žurnāls tiek izgūts. Kad veidojat periodisko žurnālu, norādiet atkārtošanās perioda intervālu, piemēram, dienas vai mēnešus. Šajā uzdevuma ceļvedī tiks izveidots periodisks žurnāls ar atkārtošanos katru mēnesi.
 

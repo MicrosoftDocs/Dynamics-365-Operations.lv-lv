@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-the-gtin-code-for-a-product"></a>GTIN koda ievade precei
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 GTIN kodus piešķir GS1 uzņēmums. Šajā piemērā jums būs jāievada kods preces numuram M0001 demonstrācijas datu uzņēmumā USMF.
 

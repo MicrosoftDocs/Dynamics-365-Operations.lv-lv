@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Daļēja debitora maksājuma nosegšana pirms atlaižu piemērošanas datuma ar gala maksājumu pēc atlaižu piemērošanas datuma
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir aprakstīta debitoru rēķinu segšanas maksājumu ietekme. Scenārija aprakstā galvenā uzmanība pievērsta izmaiņām, kas rodas apakšgrāmatā, nevis virsgrāmatā.
 

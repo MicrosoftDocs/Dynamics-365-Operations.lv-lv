@@ -3,12 +3,12 @@ title: "Izmaksu pārvaldības sākumlapa"
 description: "Izmantojot izmaksu pārvaldību, varat veikt izejmateriālu, daļēji pabeigto preču, nepabeigto preču, pabeigto preču un nepabeigtās ražošanas līdzekļu novērtēšanu un uzskaiti."
 author: AndersGirke
 manager: AnnBe
-ms.date: 02/14/2017
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: 
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -29,7 +29,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="cost-management-home-page"></a>Izmaksu pārvaldības sākumlapa
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Izmantojot [izmaksu pārvaldību (video)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be), varat veikt izejmateriālu, daļēji pabeigto preču, nepabeigto preču, pabeigto preču un nepabeigtās ražošanas līdzekļu novērtēšanu un uzskaiti. Šī process ietvaros tiek definēta un pārvaldīta [krājumu uzskaite](cost-object.md) un [ražošanas uzskaite](bom-calculations.md), kā arī veidoti pārskati šīm uzskaitēm.
 

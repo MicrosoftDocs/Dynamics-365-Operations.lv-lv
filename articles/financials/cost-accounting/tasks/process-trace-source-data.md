@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="process-and-trace-source-data"></a>Avota datu apstrāde un izsekošana
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Visu datu apstrādi nodrošina darbi. Katra darba un datu nodrošinātāja dokumentam tiek izveidots žurnāls par to, ka process tika palaists un ka ieraksti pašreizējā darbā tika apstrādāti. Izmantojiet šo procedūru, lai iestatītu datu avotu un pēc tam izsekotu noteikta izmaksu ieraksta izcelsmi. Šajā ierakstā tiek izmantots USP2 demonstrācijas datu uzņēmums USP2. Pirms varat pabeigt šo uzdevumu, atskaņojiet šādus uzdevuma ceļvežus: "Izmaksu uzskaites virsgrāmatas izveide", "Izmaksu vadības ierīču definēšana" un "Izmaksu uzskaites virsgrāmatas datu avota pārvaldība".
 

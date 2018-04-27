@@ -18,17 +18,16 @@ ms.author: epopov
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
-ms.openlocfilehash: 3c284b8c67121b39837bef827dea6f24da2a0f4b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 97be3eee9ebb99af33e3153fe7726ed5b086b03c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="advance-invoices-for-eastern-europe"></a>Avansa rēķini Austrumeiropas valstīm
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Avansa rēķins ir dokuments, ko var izveidot debitoram vai kreditoram. Tajā norāda pārdošanas pasūtījuma priekšapmaksas summu. Šajā tēmā ir sniegta informācija par avansa rēķiniem Austrumeiropas valstīm.
 
@@ -47,19 +46,20 @@ Polijas uzņēmumiem, kuri saņem priekšapmaksas, ir debitoram jāizveido priek
 ## <a name="set-up-accounts-receivable-for-advance-invoices"></a>Debitoru iestatīšana avansa rēķiniem
 Lapas **Debitoru parādu parametri** cilnē **Atjauninājumi** norādiet tālāk norādītos parametrus.
 
-|Kopsavilkuma cilne|Parametrs|Apraksts|
-|------|----------|------------|
-|Avansa rēķins  |Grāmatošanas metode|Atlasiet grāmatošanas metodi, ko izmantot avansa rēķina izrakstīšanai (Polijā). **Svarīgi!** Čehijas Republikā un Ungārijā avansa rēķini netiek apstrādāti atbilstoši grāmatvedības vai nodokļu dokumentiem un tie netiek grāmatoti Virsgrāmatā. Lai izvairītos no avansa rēķinu grāmatošanas Virsgrāmatā, šajās valstīs šis lauks jāatstāj tukšs.
-|
-|Avansa rēķins  |Izslēgts|konta iestatīšana        |Atlasiet noklusējuma korespondējošo kontu, kas jāizmanto, izrakstot avansa rēķinus.|
-|Avansa rēķins  |PVN grupa        |Atlasiet PVN grupu, kas tiks izmantota, aprēķinot avansa rēķina PVN.|
-|Avansa rēķins  |Atgriešana labojuma veidā |Atzīmējiet šo izvēles rūtiņu, ja avansa rēķina atgriešana jāuzskata par labojumu.|
-|Avansa rēķins  |Atgriešana uz rēķina datumu|Atzīmējiet šo izvēles rūtiņu, lai atsauktu priekšapmaksu datumā, kad rēķins tika grāmatots.|
-|Maksājums          |Priekšapmaksas ar vairākiem datumiem|Atlasiet vienu no šīm opcijām: **Apstiprināt**, **Brīdinājums** vai **Kļūda**.|
-|Maksājums          |Datuma neatbilstība          |Atlasiet vienu no šīm opcijām: **Apstiprināt**, **Brīdinājums** vai **Kļūda**.|
-|Maksājums          |Summas neatbilstība        |Atlasiet vienu no šīm opcijām: **Apstiprināt**, **Brīdinājums** vai **Kļūda**.|
-|Maksājums          |Saistīšana ar grāmatoto avansa rēķinu|Atlasiet vienu no šīm opcijām: **Apstiprināt**, **Brīdinājums** vai **Kļūda**.|
-|Maksājums          |(CZE), (POL) Priekšapmaksas apstrāde|Atlasiet **Detalizēti**.|
+
+|     Kopsavilkuma cilne     |             Parametrs             |                                                                                                                                                                                           Apraksts                                                                                                                                                                                           |
+|-----------------|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Avansa rēķins |          Grāmatošanas metode          | Atlasiet grāmatošanas metodi, ko izmantot avansa rēķina izrakstīšanai (Polijā). <strong>Svarīgi!</strong> Čehijas Republikā un Ungārijā avansa rēķini netiek apstrādāti atbilstoši grāmatvedības vai nodokļu dokumentiem un tie netiek grāmatoti Virsgrāmatā. Lai izvairītos no avansa rēķinu grāmatošanas Virsgrāmatā, šajās valstīs šis lauks jāatstāj tukšs. |
+|                 |                                   |                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Avansa rēķins |                Izslēgts                |                                                                                                                                                                                           konta iestatīšana                                                                                                                                                                                           |
+| Avansa rēķins |          PVN grupa          |                                                                                                                                                      Atlasiet PVN grupu, kas tiks izmantota, aprēķinot avansa rēķina PVN.                                                                                                                                                      |
+| Avansa rēķins |      Atgriešana labojuma veidā       |                                                                                                                                                 Atzīmējiet šo izvēles rūtiņu, ja avansa rēķina atgriešana jāuzskata par labojumu.                                                                                                                                                  |
+| Avansa rēķins |      Atgriešana uz rēķina datumu      |                                                                                                                                                     Atzīmējiet šo izvēles rūtiņu, lai atsauktu priekšapmaksu datumā, kad rēķins tika grāmatots.                                                                                                                                                     |
+|     Maksājums     |     Priekšapmaksas ar vairākiem datumiem     |                                                                                                                                        Atlasiet vienu no šīm opcijām: <strong>Apstiprināt</strong>, <strong>Brīdinājums</strong> vai <strong>Kļūda</strong>.                                                                                                                                         |
+|     Maksājums     |           Datuma neatbilstība           |                                                                                                                                        Atlasiet vienu no šīm opcijām: <strong>Apstiprināt</strong>, <strong>Brīdinājums</strong> vai <strong>Kļūda</strong>.                                                                                                                                         |
+|     Maksājums     |          Summas neatbilstība          |                                                                                                                                        Atlasiet vienu no šīm opcijām: <strong>Apstiprināt</strong>, <strong>Brīdinājums</strong> vai <strong>Kļūda</strong>.                                                                                                                                         |
+|     Maksājums     | Saistīšana ar grāmatoto avansa rēķinu |                                                                                                                                        Atlasiet vienu no šīm opcijām: <strong>Apstiprināt</strong>, <strong>Brīdinājums</strong> vai <strong>Kļūda</strong>.                                                                                                                                         |
+|     Maksājums     | (CZE), (POL) Priekšapmaksas apstrāde  |                                                                                                                                                                                Atlasiet <strong>Detalizēti</strong>.                                                                                                                                                                                |
 
 Cilnē **Numuru sērijas** iestatiet numuru sērijas šādām atsaucēm:
 

@@ -16,16 +16,16 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: ee95c3d79f7f401c767b9bc8415b21369c14478b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d8cd3a6b3cbfa1219f0ebcf9d4d2132197167220
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analīzes pievienošana darbvietām, izmantojot Power BI Embedded
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
 > Šis līdzeklis tiek atbalstīts programmā Dynamics 365 for Finance and Operations (versija 7.2 un jaunākas versijas).
@@ -50,7 +50,7 @@ Neatkarīgi no tā, vai paplašināt esošu programmas darbvietu vai ieviešat j
 
 ## <a name="add-a-pbix-file-as-a-resource"></a>.pbix faila kā resursa pievienošana
 Pirms sākat, izveidojiet vai iegūstiet Power BI pārskatu, ko iegulsit darbvietā. Papildinformāciju par to, kā izveidot analītiskus pārskatus, skatiet rakstā [Darba sākšana ar Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
- 
+
 Izpildiet tālāk norādītās darbības, lai pievienotu .pbix failu kā Visual Studio projekta artefaktu.
 
 1. Izveidojiet jaunu projektu atbilstošajā modelī.
@@ -63,12 +63,12 @@ Izpildiet tālāk norādītās darbības, lai pievienotu .pbix failu kā Visual 
 5. Atrodiet .pbix failu, kas satur analītiskā pārskata definīciju, un pēc tam noklikšķiniet uz **Atvērt**.
 
     ![Dialoglodziņš Atlasīt resursa failu](media/analytical-workspace-select-resource.png)
-  
+
 Tagad, kad esat pievienojis .pbix failu kā Dynamics 365 resursu, varat iegult pārskatus darbvietās un pievienot tiešās saites, izmantojot izvēlnes elementus.
 
 ## <a name="add-a-tab-control-to-an-application-workspace"></a>Cilnes vadīklas pievienošana programmas darbvietai
 Šajā piemērā paplašināsim darbvietu **Rezervēšanas pārvaldība** autoparka pārvaldības modelī, pievienojot cilni **Analīze** formas **FMClerkWorkspace** definīcijai.
- 
+
 Tālāk esošajā attēlā parādīts, kā forma **FMClerkWorkspace** izskatās Microsoft Visual Studio noformētājā.
 
 ![Forma FMClerkWorkspace pirms izmaiņām](media/analytical-workspace-definition-before.png)
@@ -93,16 +93,16 @@ Veiciet tālāk norādītās darbības, lai paplašinātu formas definīciju dar
 16. Noklikšķiniet ar peles labo pogu un atlasiet vienumu **Noņemt modeli**.
 17. Vēlreiz noklikšķiniet ar peles labo pogu un atlasiet **Pievienot modeli** > **Darbvieta ar cilnēm**.
 18. Veiciet būvējumu, lai pārbaudītu veiktās izmaiņas.
- 
+
 Tālāk esošajā attēlā parādīts, kā noformējums izskatās pēc šo izmaiņu lietošanas.
 
 ![FMClerkWorkspace pēc izmaiņām](media/analytical-workspace-definition-after.png)
 
 Tagad, kad esat pievienojis formu vadīklas, kas tiks izmantotas darbvietas pārskata iegulšanai, jums ir jādefinē vecākobjekta vadīklas lielums tā, lai varētu izvietot izkārtojumu. Pēc noklusējuma pārskatā būs redzama gan lapa **Filtru rūts**, gan lapa **Cilne**. Tomēr šo vadīklu redzamību var mainīt pēc nepieciešamības pārskata mērķa patērētājam.
- 
+
 > [!NOTE]
 > Iegultajām darbvietām ieteicams izmantot paplašinājumus, lai konsekvences nolūkā paslēptu gan lapu **Filtru rūts**, gan lapu **Cilne**.
- 
+
 Esat pabeidzis programmas formas definīcijas paplašināšanas uzdevumu. Papildinformāciju par to, kā izmantot paplašinājumus pielāgojumu veikšanai, skatiet rakstā [Pielāgošana: pārklāšanās un paplašinājumi](../extensibility/customization-overlayering-extensions.md).
 
 ## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>X++ biznesa loģikas pievienošana skatītāja vadīklas iegulšanai
@@ -169,12 +169,13 @@ public static void initializeReportControl(
 
 #### <a name="parameters"></a>Parametri
 
-| Nosaukums | Apraksts |
-|---|---|
-| resourceName | .pbix resoursa nosaukums. |
-| formGroupControl | Formu grupas vadīkla, kam jālieto Power BI pārskatu vadīkla. |
-| defaultPageName | Noklusējuma lapas nosaukums. |
-| showFilterPane | Būla vērtība, kas norāda, vai filtra rūts jārāda (**Patiess**) vai jāpaslēpj (**Aplams**). |
-| showNavPane | Būla vērtība, kas norāda, vai navigācijas rūts jārāda (**Patiess**) vai jāpaslēpj (**Aplams**). |
-| defaultFilters | Noklusējuma filtri Power BI pārskatam. |
+|       Nosaukums       |                                                              Apraksts                                                               |
+|------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+|   resourceName   |                                                    .pbix resoursa nosaukums.                                                     |
+| formGroupControl |                                    Formu grupas vadīkla, kam jālieto Power BI pārskatu vadīkla.                                     |
+| defaultPageName  |                                                         Noklusējuma lapas nosaukums.                                                         |
+|  showFilterPane  |   Būla vērtība, kas norāda, vai filtra rūts jārāda (<strong>Patiess</strong>) vai jāpaslēpj (<strong>Aplams</strong>).   |
+|   showNavPane    | Būla vērtība, kas norāda, vai navigācijas rūts jārāda (<strong>Patiess</strong>) vai jāpaslēpj (<strong>Aplams</strong>). |
+|  defaultFilters  |                                              Noklusējuma filtri Power BI pārskatam.                                              |
+
 

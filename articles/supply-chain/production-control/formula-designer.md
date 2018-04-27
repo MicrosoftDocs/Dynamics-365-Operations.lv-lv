@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: d9b61e545067db592545d5fbce7b4315c51a8bf8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a4cfd017fe10bbda6eda0e3a9a045e0832b08753
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="formula-designer"></a>Formulas veidotājs
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā izmantot formulas veidotāju, lai analizētu un uzturētu formulas koka skatā.
 
@@ -88,7 +88,7 @@ Formulai un maršrutam lietotais filtrs tiek rādīts formulu veidotāja virsrak
 </tr>
 <tr class="odd">
 <td>No daudzuma</td>
-<td>Filtrējiet versijas, atlasot noteiktu daudzumu “no”. Ja iestatāt kādu vērtību, var tikt atlasītas citādas formulu un maršrutu versijas.</td>
+<td>Filtrējiet versijas, atlasot noteiktu daudzumu &quot;no&quot;. Ja iestatāt kādu vērtību, var tikt atlasītas citādas formulu un maršrutu versijas.</td>
 </tr>
 <tr class="even">
 <td>Rādīt tikai derīgās</td>
@@ -116,8 +116,10 @@ Lai modificētu formulu rindas vai formulas, izmantojiet funkcijas **MK rindas**
 ## <a name="configuring-the-tree-view"></a>Koka skata konfigurēšana
 Noklikšķiniet uz **Iestatīšana**, lai pielāgotu formulu veidotāja koka skatā rādīto informāciju.
 
-| Lauku grupa | Apraksts |
-|-------------|-------------|
-| MK         | Izmantojiet izvēles rūtiņas, lai atlasītu kritērijus, kas tiek parādīti koka struktūrā. Formulu veidotājs abu ciļņu apakšdaļā rāda atlasītos kritērijus. |
-| Maršruts       | Izmantojiet izvēles rūtiņas, lai atlasītu kritērijus, kas tiek parādīti maršrutiem. |
+
+| Lauku grupa |                                                                          Apraksts                                                                          |
+|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     MK     | Izmantojiet izvēles rūtiņas, lai atlasītu kritērijus, kas tiek parādīti koka struktūrā. Formulu veidotājs abu ciļņu apakšdaļā rāda atlasītos kritērijus. |
+|    Maršruts    |                                           Izmantojiet izvēles rūtiņas, lai atlasītu kritērijus, kas tiek parādīti maršrutiem.                                           |
+
 

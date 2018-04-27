@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="order-entry-deadlines"></a>Pasūtījumu izveides termiņi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta informācija par pasūtījuma izveides termiņiem. Pasūtījuma izveides termiņš ir pēdējais laiks, kas nosaka, vai debitora pasūtījums tiek apstrādāts (un izpildīts) tā, it kā tas būtu jāsaņem šodien vai nākamajā dienā.
 

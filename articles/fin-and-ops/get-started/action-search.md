@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="action-search"></a>Darbību meklēšana
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir aprakstīta darbību meklēšanas funkcionalitāte programmā Microsoft Dynamics 365 for Finance and Operations. Darbību meklēšana jums palīdz lapā atrast un izpildīt darbības.
 

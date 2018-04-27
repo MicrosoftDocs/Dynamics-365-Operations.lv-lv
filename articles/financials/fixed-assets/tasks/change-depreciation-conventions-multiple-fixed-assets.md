@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-depreciation-conventions-for-multiple-fixed-assets"></a>Nolietojuma konvenciju maiņa vairākiem pamatlīdzekļiem
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šis uzdevums atjaunina nolietojuma nosacījumus noteiktai pamatlīdzekļu grupai. Šis uzdevuma ceļvedis izmanto USMF demonstrācijas uzņēmumu.
 

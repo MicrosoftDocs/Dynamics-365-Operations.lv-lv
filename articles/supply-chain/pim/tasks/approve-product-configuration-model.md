@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-a-product-configuration-model"></a>Preces konfigurācijas modeļa apstiprināšana
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šīs procedūras veikšanai ir nepieciešams, lai būtu pieejams vismaz preces konfigurācijas modelis. Šajā procedūrā tiek izmantots augstas kvalitātes skaļruņu modelis demonstrācijas datu uzņēmumā USMF. Ņemiet vērā, ka šis modelis jau ir apstiprināts, bet procedūrā ir aprakstīts viss process.
 

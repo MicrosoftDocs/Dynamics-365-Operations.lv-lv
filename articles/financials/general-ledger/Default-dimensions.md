@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-dimensions-and-posting"></a>Finanšu dimensijas un grāmatošana 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Plānojot un iestatot kontu plānu, ir jāņem vērā, kā dažādi komponenti darbosies kopā, kad grāmatosit dokumentu vai žurnālu. Šie komponenti ir konta struktūras, papildu noteikumi un līdzsvarošanas un fiksētās dimensijas. Šajā tēmā izskaidrots katrs komponents un kā tie darbojas kopā.
 

@@ -28,12 +28,12 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="publish-journal-lines-and-documents-from-excel"></a>Žurnālu rindu un dokumentu publicēšana programmā Excel
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā ievadīt un publicēt Virsgrāmatas žurnālu rindas programmā Microsoft Excel. Tajā ir ietverta informācija par dažādajām veidnēm, ko varat izmantot atkarībā no ievadītās transakcijas veida.
 
 Lietotāji var ievadīt un publicēt finanšu žurnālu rindas programmā Microsoft Excel. Pēc tam, kad lietotājs ir izveidojis žurnālu, izmantojot pogu **Atvērt rindas programmā Excel**, var skatīt pieejamās veidnes. Veidnes ir izstrādātas noteiktiem scenārijiem, taču žurnālā netiek atbalstītas visas konta veidu kombinācijas. Tālāk esošajā tabulā ir redzamas pieejamās veidnes un to atbalstītie kontu veidi.
+
 |                          |                                                                                                                         |                                                                                         |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | **Veidne**             | **Atbalstītie kontu veidi**                                                                                             | **Piekļuve veidnei**                                                          |

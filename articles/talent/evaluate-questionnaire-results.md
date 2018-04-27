@@ -28,7 +28,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Anketas rezultātu skatīšana un novērtēšana
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Šajā tēmā ir skaidrots, kā varat skatīt un novērtēt respondentu aizpildīto anketu rezultātus. 
 

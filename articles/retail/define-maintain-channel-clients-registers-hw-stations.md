@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="define-and-maintain-channel-clients-registers-and-hardware-stations"></a>Definēt un uzturēt kanālu klientus, reģistrus un aparatūras stacijas
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Šajā tēmā ir izklāstīts, kā perifērijas ierīces savienot ar jūsu Retail POS.
 

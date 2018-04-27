@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="inspect-the-quality-of-goods"></a>Preču kvalitātes pārbaude
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā apstrādāt kvalitātes pārbaudes pasūtījumu. Šo ceļvedi varat izpildīt demonstrācijas datu uzņēmumā USMF. Pirms sākat šo piemēra procedūru, jums ir jāapstiprina pirkšanas pasūtījums 000016 un jāiegrāmato produktu ieejas plūsma. Šādi automātiski tiks izveidots kvalitātes pārbaudes pasūtījums. Kvalitātes pārbaudes parasti veic kvalitātes darbinieks.
 

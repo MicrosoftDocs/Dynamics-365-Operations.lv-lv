@@ -19,17 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6426f208a51ffbf72c6faa8cb281aba2984052d7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0164d64b8c37c19a3b8b13970dbda5927073eca8
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="view-and-export-field-descriptions"></a>Lauku aprakstu skatīšana un eksportēšana
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir paskaidrots, ka skatīt lauku aprakstus un kā lietot lapu Lauku apraksti, lai eksportētu aprakstus.
 
@@ -77,7 +76,7 @@ Pastāv vairāki veidi, kā meklēt lapu laukā **Atlasīt lapu**. Daudzos gadī
     -   Ja ir vairākas precīzas atbilstības, netiek rādīts neviens apraksts. Jums ir jāatver nolaižamais saraksts un jāatlasa nepieciešamā lapa.
     -   Ja ierakstītais nosaukums ir daļa no citas lapas nosaukuma, tiek rādīti apraksti jūsu lapai. Taču, ja atverat nolaižamo sarakstu, varat redzēt papildu lapas, kas ietver šo nosaukumu.
 
-Piemēram, nekādi apraksti netiek rādīti, kad laukā ****Atlasīt lapu**** ierakstāt **Inventarizācija**. Jūs atverat nolaižamo sarakstu un redzat, ka pastāv divas lapas, kuru nosaukums ir **Inventarizācija**, un vairākas lapas, kuru nosaukumā ir ietverts vārds “Inventarizācija”. Ja atlasāt lapu, kuras AOT nosaukums ir **InventJournalCount**, tiek rādīti lauku nosaukumi šai lapai. Taču, ja atkal atverat nolaižamo sarakstu, jūs redzat, ka sarakstā tagad ir visas lapas, kurām kā daļa no to AOT lapas nosaukuma ir “InventJournalCount”.
+Piemēram, nekādi apraksti netiek rādīti, kad laukā *<strong><em>Atlasīt lapu</em></strong>* ierakstāt <strong>Inventarizācija</strong>. Jūs atverat nolaižamo sarakstu un redzat, ka pastāv divas lapas, kuru nosaukums ir <strong>Inventarizācija</strong>, un vairākas lapas, kuru nosaukumā ir ietverts vārds “Inventarizācija”. Ja atlasāt lapu, kuras AOT nosaukums ir <strong>InventJournalCount</strong>, tiek rādīti lauku nosaukumi šai lapai. Taču, ja atkal atverat nolaižamo sarakstu, jūs redzat, ka sarakstā tagad ir visas lapas, kurām kā daļa no to AOT lapas nosaukuma ir “InventJournalCount”.
 
 ## <a name="troubleshooting"></a>Problēmu novēršana
 Šajā sadaļā ir sniegta informācija, lai jums palīdzētu novērst problēmas, kas varētu rasties, izmantojot lauku aprakstus.

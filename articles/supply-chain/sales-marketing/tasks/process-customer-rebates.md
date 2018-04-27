@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="generate-and-process-customer-rebates"></a>Debitora atlaižu ģenerēšana un apstrāde
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā apstrādāt debitora atlaides no prasību ģenerēšanas līdz brīdim, kad tās tiek nodotas kā uzkrājumi Debitoru parādos. Šeit ir izklāstīts konkrēts piemērs, kurā izskaidrots, kā dažādi nosacījumi atlaides rindās ietekmē gala summas, kas tiks kreditētas debitoram. Pirms iziet ceļvedi, jums jāizmanto USMF demonstrācijas datu uzņēmums un jāveic šādus uzdevumus. (1) Dodieties uz lapu Debitoru moduļa parametri un izvērst cilni Cenas un pēc tam cilni Detalizēta informācija par cenu un pārbaudiet, vai opcija Iespējot detalizētu informāciju par cenu ir iestatīta uz Jā. (2) Dodieties uz lapu Atlaižu līgumi un atlasiet debitora atlaides līgumu: USMF-000001. Ja lauks Darbplūsmas apstiprinājuma statuss nav iestatīts uz Apstiprināts, darbību rūtī jānoklikšķina uz Apstiprināšana, lai to apstiprinātu.
 
