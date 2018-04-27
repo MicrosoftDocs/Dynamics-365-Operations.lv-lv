@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4ced76315bb4667f84be532a703e7e9b134b829b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6d11e772cfbcd8ab7a0d4a08ccd71049723f9e32
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-variable-compensation-plans"></a>Mainīgās atlīdzības plānu izveide
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Mainīgā atlīdzība veido darbinieka nestandarta algu, piemēram, prēmijas vai samaksu uzņēmuma akcijās. Šajā rakstā ir aprakstīti komponenti, kas ir jāiestata, lai varētu izmantot mainīgo atlīdzību un darbinieku reģistrēt mainīgās atlīdzības plānā.
 
@@ -78,12 +77,12 @@ Kad esat gatavi reģistrēt darbiniekus mainīgās atlīdzības plānam, vispirm
 
 **Piezīme.** Piemērotības kārtulas tiek lietotas, lai noteiktu piemērotību gan fiksētas, gan mainīgās atlīdzības plānam. Piemērotības kārtulās tiek izmantota lauka Darbs, Amats un Darbinieks vērtība, kā arī darbinieku ieraksti, lai noteiktu, vai darbinieks ir piemērots atlīdzības plānam.
 
--   Lapā **Darbs**:
-    -   lauka **Darbs** vērtība;
-    -   lauka **Funkcija** un **Darba veids** vērtība cilnē **Darbu klasifikācija**;
-    -   lauka **Līmenis** vērtība cilnē **Atlīdzība**;
--   lapā **Amati**: lauka **Nodaļa** un **Atlīdzības reģions** vērtība;
--   Lapā **Darbinieki**: informācija par arodbiedrībām, kas darbiniekam ir piesaistītas lapā **Personīgā informācija** &gt; **Arodbiedrības** cilnē ****Nodarbinātais****
+- Lapā **Darbs**:
+  -   lauka **Darbs** vērtība;
+  -   lauka **Funkcija** un **Darba veids** vērtība cilnē **Darbu klasifikācija**;
+  -   lauka **Līmenis** vērtība cilnē **Atlīdzība**;
+- lapā **Amati**: lauka **Nodaļa** un **Atlīdzības reģions** vērtība;
+- lapā <strong>Darbinieki</strong>: informācija par darbinieku arodbiedrībām, kas darbiniekam ir piesaistītas lapā <strong>Personīgā informācija</strong> &gt; <strong>Arodbiedrības</strong> cilnē *<strong><em>Darbinieks</em></strong>*.
 
 ### <a name="enable-enrollment-for-the-variable-compensation-plan"></a>Reģistrācijas mainīgās atlīdzības plānam iespējošana
 

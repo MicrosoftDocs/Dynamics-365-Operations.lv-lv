@@ -1,5 +1,5 @@
 --- 
-title: "Veidojiet konfigurācijas, lai ģenerētu pārskatus Microsoft Office formātos ar iegultiem attēliem elektronisko pārskatu (ER — Electronic Reporting) veidošanai (1. daļa)"
+title: "Konfigurāciju noformēšana, lai veidotu pārskatus Microsoft Office formātos ar iegultajiem attēliem"
 description: "Šajā tēmā aprakstītās darbības sniedz informāciju par to, kā veidot elektronisko pārskatu (ER) konfigurācijas, kas Microsoft Office formātos (Excel un Word) ģenerē elektroniskus dokumentus, kuri satur iegultus attēlus."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9cb9343028acacc387370e1cdd2202b84919185e
-ms.openlocfilehash: 844d8de1d5a1958457eaab1d434bef015f92e33c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5e3ba5c76df3dcc5042074a565d102ceaeeadfb0
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er-part-1"></a>Veidojiet konfigurācijas, lai ģenerētu pārskatus Microsoft Office formātos ar iegultiem attēliem elektronisko pārskatu (ER — Electronic Reporting) veidošanai (1. daļa) 
+# <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images"></a>Konfigurāciju noformēšana, lai veidotu pārskatus Microsoft Office formātos ar iegultajiem attēliem
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Lai izpildītu šīs procedūras darbības, vispirms izpildiet procedūru ER konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu. Šajā procedūrā izskaidrots, kā veidot elektronisko pārskatu (ER) konfigurācijas, lai ģenerētu Microsoft Excel vai Word dokumentu, kas satur iegultus attēlus. Šajā procedūrā izveidosit nepieciešamās ER konfigurācijas parauga uzņēmumam Litware, Inc. Šīs darbības var izpildīt, izmantojot USMF datu kopu. Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma. Pirms sākat, lejupielādējiet un saglabājiet failus, kas uzskaitīti palīdzības tēmā [Attēlu un formu iegulšana biznesa dokumentos, kuri tiek ģenerēti, izmantojot elektronisko pārskatu veidošanas rīku](../electronic-reporting-embed-images-shapes.md). Šie faili ir: Model for cheques.xml, Cheques printing format.xml, Company logo.png, Signature image.png, Signature image 2.png un Cheque template Word.docx.
 

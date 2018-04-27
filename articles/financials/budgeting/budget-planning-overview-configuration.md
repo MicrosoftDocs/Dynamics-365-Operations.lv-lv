@@ -19,17 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e874d7353e0d9561ca55f313bfb5209299298169
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b008e70c7d834c6aacad7aef4987e60b12ed8a6d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="budget-planning-overview"></a>Budžeta plānošanas pārskats
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā tiek iepazīstināts ar budžeta plānošanu, un tajā ir ietverta informācija, kas jums palīdz konfigurēt budžeta plānošanu un iestatīt budžeta plānošanas procesus.
 
@@ -116,18 +115,18 @@ Budžeta plānošanā varat sadalīt budžeta plāna rindu summas vai daudzumus 
 
 Sadalījuma grafiki automātiski sadala budžeta plāna rindas darbplūsmas apstrādes laikā. Varat veikt sadalījumu, izmantojot kādu no metodēm sarakstā **Sadalījuma metode**.
 
--   **Sadalīt pa periodiem** — lai budžeta plāna rindas no avota budžeta plāna scenārija sadalītu mērķa scenārija periodos, izmantojiet periodu sadalījuma principu. **Piezīme.** Lai varētu sadalīt dažādos periodos, lapā ****Perioda sadalījuma kategorijas**** ir jāiestata periodu sadalījuma principi.
--   **Sadalīšana dimensijās** — budžeta plāna rindas tiek sadalītas no avota budžeta plāna scenārija visās mērķa scenārija finanšu dimensijās. **Piezīme.** Lai varētu sadalīt dimensijās, lapā ****Budžeta sadalījuma noteikumi**** ir jāiestata budžeta sadalījuma noteikumi.
--   **Apkopot** — budžeta plāna rindas tiek apkopotas no avota budžeta plāna scenārija saistītajos budžeta plānos uz mērķa scenāriju pamata budžeta plānā.
--   **Sadalīt** — budžeta plāna rindas ir sadalītas no avota budžeta plāna scenārija pamata budžeta plānā uz mērķa scenāriju saistītajos budžeta plānos.
--   **Izmantot Virsgrāmatas sadalījuma kārtulas** — budžeta plāna rindas tiek sadalītas no avota budžeta plāna scenārija uz mērķa scenāriju saskaņā ar atlasīto Virsgrāmatas sadalījuma kārtulu.
--   **Kopēt no budžeta plāna** — varat atlasīt citu budžeta plānu, kas tiks izmantots par sadalījuma avotu.
+- <strong>Sadalīt pa periodiem</strong> — lai budžeta plāna rindas no avota budžeta plāna scenārija sadalītu mērķa scenārija periodos, izmantojiet periodu sadalījuma principu. <strong>Piezīme.</strong> Lai varētu sadalīt dažādos periodos, lapā *<strong><em>Perioda sadalījuma kategorijas</em></strong>* ir jāiestata periodu sadalījuma principi.
+- <strong>Sadalīšana dimensijās</strong> — budžeta plāna rindas tiek sadalītas no avota budžeta plāna scenārija visās mērķa scenārija finanšu dimensijās. <strong>Piezīme.</strong> Lai varētu sadalīt dimensijās, lapā *<strong><em>Budžeta sadalījuma noteikumi</em></strong>* ir jāiestata budžeta sadalījuma noteikumi.
+- **Apkopot** — budžeta plāna rindas tiek apkopotas no avota budžeta plāna scenārija saistītajos budžeta plānos uz mērķa scenāriju pamata budžeta plānā.
+- **Sadalīt** — budžeta plāna rindas ir sadalītas no avota budžeta plāna scenārija pamata budžeta plānā uz mērķa scenāriju saistītajos budžeta plānos.
+- **Izmantot Virsgrāmatas sadalījuma kārtulas** — budžeta plāna rindas tiek sadalītas no avota budžeta plāna scenārija uz mērķa scenāriju saskaņā ar atlasīto Virsgrāmatas sadalījuma kārtulu.
+- **Kopēt no budžeta plāna** — varat atlasīt citu budžeta plānu, kas tiks izmantots par sadalījuma avotu.
 
 ### <a name="stage-allocations"></a>Stadijas sadalījumi
 
 Stadijas sadalījumi tiek izmantoti, lai automātiski sadalītu budžeta plāna rindas darbplūsmas apstrādes laikā. Ja tiek izmantots stadijas sadalījums, budžeta plāna rindas mērķa scenārijā var veidot un izmainīt bez budžeta plāna sagatavotāja vai recenzenta iesaistīšanās.
 
-Iestatot posmu sadalījumu, saistiet budžeta plānošanas darbplūsma un posmu ar sadalījuma grafiks. Budžeta plānošanas darbplūsmai ir jābūt saistītai ar budžeta plānošanas darbplūsmu, kas izmanto automatizēto darbplūsmas uzdevumu ****Budžeta plānošanas stadiju sadalījums****. Kad darbplūsma sasniedz norādīto stadiju, sadalīšana notiek automātiski. Automatizētu uzdevumu var izmantot, lai izveidotu budžeta plāna rindas jaunā scenārijā. 
+Iestatot posmu sadalījumu, saistiet budžeta plānošanas darbplūsma un posmu ar sadalījuma grafiks. Budžeta plānošanas darbplūsmai ir jābūt saistītai ar budžeta plānošanas darbplūsmu, kas izmanto automatizēto darbplūsmas uzdevumu *<strong><em>Budžeta plānošanas stadiju sadalījums</em></strong>*. Kad darbplūsma sasniedz norādīto stadiju, sadalīšana notiek automātiski. Automatizētu uzdevumu var izmantot, lai izveidotu budžeta plāna rindas jaunā scenārijā. 
 
 Piemēra shēmā, kas parādīta iepriekš šajā rakstā, sadalījums tiek veikts, lai pārsūtītu summas no budžeta plāna un scenārijiem galvenās pārvaldes bāzlīnijas stadijā uz citu budžeta plānu un scenārijiem pārdošanas nodaļas novērtēšanas stadijā. Šajā attēlā parādīta piemēra shēmas attiecīgā daļa.
 

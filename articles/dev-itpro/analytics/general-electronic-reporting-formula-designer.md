@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 41d5671d180bae039d873419352d52afe90e386b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: adbbb36da2bc1e9a2211c703823370571105ecab
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="formula-designer-in-electronic-reporting"></a>Formulas veidotājs elektronisko atskaišu veidošanā
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā elektronisko pārskatu veidošanā (Electronic reporting — ER) lietot formulas veidotāju. Kad veidojat formātu noteiktam ER elektroniskajam dokumentam, datu pārveidošanai varat lietot formulas, lai nodrošinātu atbilstību dokumenta izpildes un formatējuma prasībām. Šīs formulas līdzinās Microsoft Excel formulām. Formulās tiek atbalstīti dažādi funkciju tipi — teksta, datuma un laika, matemātiskās, loģiskās, informācijas, datu tipu pārveidošanas un citas (biznesa jomai specifiskas funkcijas).
 
@@ -127,7 +127,7 @@ ER izteiksmes var saturēt jebkuru vai visus no šādiem elementiem:
 
 #### <a name="constants"></a>Konstantes
 
-Kad veidojat izteiksmes, varat lietot teksta un skaitļu konstantes (t.i., vērtības, kas netiek aprēķinātas). Piemēram, izteiksme **VALUE ("100") + 20** lieto skaitļu konstanti **20** un virknes konstanti **"100"**, un atgriež skaitlisku vērtību **120**. ER formulas veidotājs atbalsta atsoļa sekvences. Tādējādi varat norādīt, kura izteiksmes virkne ir jāapstrādā citādi. Piemēram, izteiksme **"Ļevs Tolstojs ""Karš un miers"" 1. sējums"** atgriež šādu teksta virkni: **Ļevs Tolstojs "Karš un miers" 1. sējums**.
+Kad veidojat izteiksmes, varat lietot teksta un skaitļu konstantes (t.i., vērtības, kas netiek aprēķinātas). Piemēram, izteiksme **VALUE ("100") + 20** lieto skaitļu konstanti **20** un virknes konstanti  **"100"**, un atgriež skaitlisku vērtību **120**. ER formulas veidotājs atbalsta atsoļa sekvences. Tādējādi varat norādīt, kura izteiksmes virkne ir jāapstrādā citādi. Piemēram, izteiksme **"Ļevs Tolstojs ""Karš un miers"" 1. sējums"** atgriež šādu teksta virkni: **Ļevs Tolstojs "Karš un miers" 1. sējums**.
 
 #### <a name="operators"></a>Operatori
 
@@ -395,7 +395,9 @@ Atbilstoši formāta vecākelementu FILE un FOLDER valodas iestatījumiem etiķe
 <tr class="even">
 <td>STRINGJOIN (saraksts, lauka nosaukums, norobežotājs)</td>
 <td>Atgrieziet virkni, kas sastāv no norādītā saraksta norādītā lauka savirknētajām vērtībām. Vērtības tiek atdalītas ar norādīto norobežotāju.</td>
-<td>Ja kā datu avotu (DS) ievadāt <strong>SPLIT(&quot;abc&quot; , 1)</strong>, izteiksme <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> atgriež <strong>&quot;a:b:c&quot;</strong>.</td>
+
+<td>Ja kā datu avotu (DS) ievadāt <strong>SPLIT(&quot;abc&quot; , 1)</strong>, izteiksme <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> atgriež <strong>&quot;a</strong><strong>:b</strong><strong>:c&quot;</strong>.</td>
+
 </tr>
 <tr class="odd">
 <td>SPLITLISTBYLIMIT (saraksts, robežvērtība, ierobežojumu avots)</td>
@@ -540,7 +542,7 @@ Arī izteiksme <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> atgriež <
 </tr>
 <tr class="even">
 <td>FORMAT (1. virkne, 2. virkne[, 3. virkne, …])</td>
-<td>Atgrieziet norādīto virkni, kas ir formatēta, aizstājot argumentu <strong>%N</strong> ar argumentu <em>n</em>. Argumenti ir virknes. Ja nav norādīts parametra arguments, šis parametrs virknē tiek atgriezts kā <strong>&quot;%N&quot;</strong>. Vērtībām ar tipu <strong>real</strong> šīs virknes pārveidošana ir ierobežota līdz diviem cipariem aiz komata.</td>
+<td>Atgrieziet norādīto virkni, kas ir formatēta, aizstājot argumentu <strong>%N</strong> ar argumentu <em>n</em>. Argumenti ir virknes. Ja arguments parametram nav norādīts, šis parametrs virknē tiek atgriezts kā <strong>&quot;%N&quot;</strong>. Vērtībām ar tipu <strong>real</strong> šīs virknes pārveidošana ir ierobežota līdz diviem cipariem aiz komata.</td>
 <td>Tālāk esošajā attēlā redzamais datu avots <strong>PaymentModel</strong> atgriež sarakstu ar debitoru ierakstiem, izmantojot komponentu <strong>Customer</strong>, un apstrādāšanas datuma vērtību, izmantojot lauku <strong>ProcessingDate</strong>.
 <p><a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a></p>
 <p>ER formātā, kas ir izveidots tā, lai ģenerētu elektronisku failu noteiktiem debitoriem, vienums <strong>PaymentModel</strong> ir atlasīts kā datu avots, un tas kontrolē procesa plūsmu. Lietotājiem tiek parādīts izņēmums, lai viņus informētu par to, kad atlasītais debitors tiek apturēts datumam, kad atskaite tiek apstrādāta. Šāda tipa apstrādes kontrolei izveidotā formulā var izmantot šādus resursus:</p>
@@ -553,7 +555,7 @@ Arī izteiksme <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> atgriež <
 <li>Finance and Operations etiķete SYS18389, kurā ir šāds teksts:
 <ul>
 <li><strong>Valodai EN-US:</strong> &quot;Customer %1 is stopped for %2.&quot;</li>
-<li><strong>Valodai DE:</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
+<li><strong>Valodai DE:</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
 </ul></li>
 </ul>
 <p>Lūk, kādu formulu varat izveidot:</p>

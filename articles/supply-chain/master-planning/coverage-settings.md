@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bd85f89917659ac9c94590bace765b2123d6e556
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 591b1cd739bb3be61299f33f180ca7c264d21a35
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="coverage-settings"></a>Vajadzības iestatījumi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Vispārējā plānošana izmanto vajadzības iestatījumus, lai aprēķinātu krājumu vajadzības. 
 
@@ -46,7 +45,7 @@ Jūs varat norādīt vajadzības iestatījumus vairākos veidos:
 
 <!-- -->
 
--   Norādiet dimensiju grupas vajadzības iestatījumus. Noklikšķiniet uz **Preču informācijas pārvaldība &gt; Vispārīgi &gt; Izlaistās preces**. Lapas **Detalizēta informācija par izlaistajām precēm** cilnes **Vispārīgi**, grupā **Administrēšana** noklikšķiniet uz saites **Noliktavas dimensiju grupa**. Lapā **Noliktavas dimensiju grupa** atlasiet lauku **Vajadzības plāns pa dimensijām**, lai izveidotu vajadzības iestatījumus dimensijai noliktavas dimensiju grupā. Lauks **Vajadzības plāns pa dimensijām** ir jāatlasa visām preces dimensijām, piemēram, konfigurācijai, krāsai, izmēram un stilam.
+- Norādiet dimensiju grupas vajadzības iestatījumus. Noklikšķiniet uz <strong>Preču informācijas pārvaldība &gt; Vispārīgi &gt; Izlaistās preces</strong>. Lapas <strong>Detalizēta informācija par izlaistajām precēm **cilnes **Vispārīgi</strong> grupā <strong>Administrēšana</strong> noklikšķiniet uz saites <strong>Noliktavas dimensiju grupa</strong>. Lapā <strong>Noliktavas dimensiju grupa</strong> atlasiet lauku <strong>Vajadzības plāns pa dimensijām</strong>, lai izveidotu vajadzības iestatījumus dimensijai noliktavas dimensiju grupā. Lauks <strong>Vajadzības plāns pa dimensijām</strong> ir jāatlasa visām preces dimensijām, piemēram, konfigurācijai, krāsai, izmēram un stilam.
 
 
 

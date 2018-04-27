@@ -17,17 +17,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: df924487c02ee9c7246ab9f12719382459634e98
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 51449f2f8448a493ebf7e4496cebdb90d902869a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-signers-for-print-forms"></a>Iestatīt parakstītājus drukātajām formām
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Juridiskajām personām Čehijā, Igaunijā, Ungārijā, Lietuvā, Latvijā, Polijā un Krievijā varat iestatīt parakstītājus un amatus debitoriem un kreditoriem, kas drukā tādus dokumentus kā rēķini un kases orderi.
 
@@ -60,19 +59,19 @@ Lai iestatītu parakstītājus tādiem dokumentiem, ko uzņēmums drukā, izmant
 <li>Avansa pārskats</li>
 <li>Kases grāmatas lapa</li>
 <li>Inventarizācijas akts</li>
-<li>Atliktie maksājumi*</li>
+<li>Atliktie maksājumi<em></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Pārdošanas pasūtījumi</td>
 <td>Pievienojiet amatus un saistīto informāciju par parakstītājiem, kuri var parakstīt tālāk norādītos izejošos primāros dokumentus, kas ir saistīti ar debitoriem.
 <ul>
-<li>Apmaksājams rēķins*</li>
+<li>Apmaksājams rēķins</em></li>
 <li>Rēķins</li>
-<li>Faktūrrēķins*</li>
+<li>Faktūrrēķins<em></li>
 <li>Rēķins — kredīta nota</li>
-<li>Faktūrrēķins — kredīta nota*</li>
-<li>Nodokļu transakcijas faktūrrēķins (debitors)*</li>
+<li>Faktūrrēķins — kredīta nota</em></li>
+<li>Nodokļu darbības faktūrrēķins (debitors)<em></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -80,18 +79,18 @@ Lai iestatītu parakstītājus tādiem dokumentiem, ko uzņēmums drukā, izmant
 <td>Pievienojiet amatus un saistīto informāciju par parakstītājiem, kuri var parakstīt tālāk norādītos ienākošos primāros dokumentus, kas ir saistīti ar kreditoriem.
 <ul>
 <li>Rēķins</li>
-<li>Faktūrrēķins*</li>
+<li>Faktūrrēķins</em></li>
 <li>Rēķins — kredīta nota</li>
-<li>Faktūrrēķins — kredīta nota*</li>
-<li>Apmaksājams rēķins*</li>
-<li>Nodokļu transakcijas faktūrrēķins (kreditors)*</li>
+<li>Faktūrrēķins — kredīta nota<em></li>
+<li>Apmaksājams rēķins</em></li>
+<li>Nodokļu darbības faktūrrēķins (kreditors)<em></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Krājumu pārvaldība</td>
 <td>Pievienojiet amatus un saistīto informāciju par parakstītājiem, kuri var parakstīt tālāk norādītos noliktavas dokumentus, kad materiāli aktīvi tiek izsniegti debitoram vai saņemti no kreditora.
 <ul>
-<li>Pārdošanas pasūtījuma izsniegšanas pavadzīme (M-15)*</li>
+<li>Pārdošanas pasūtījuma izsniegšanas pavadzīme (M-15)</em></li>
 <li>Ieņēmumu orderis/pieņemšanas akts</li>
 <li>Pārsūtīšanas pasūtījuma izsniegšanas pavadzīme (M-15)*</li>
 </ul></td>
@@ -122,7 +121,7 @@ Lai iestatītu parakstītājus tādiem dokumentiem, ko uzņēmums drukā, izmant
 <td>Atlasiet parakstītāja vārdu un uzvārdu. Sarakstā esošie vārdi tiek ņemti no tabulas Kontaktpersonas vai tabulas Darbinieki, ņemot vērā parakstītāja tipu (tas ir, atkarībā no tā, vai ir atzīmēta izvēles rūtiņa <strong>Mūsu</strong>). Ja parakstītāja vārds nav iekļauts šajā sarakstā, ievadiet parakstītāja pilno vārdu manuāli.</td>
 </tr>
 <tr class="odd">
-<td>Darba nosaukums</td>
+<td>Amata nosaukums</td>
 <td>Atlasiet parakstītāja darba nosaukumu. Ja parakstītāja amats nav iekļauts šajā sarakstā, ievadiet parakstītāja amatu manuāli.</td>
 </tr>
 <tr class="even">

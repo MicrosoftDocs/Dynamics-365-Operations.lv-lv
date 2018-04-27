@@ -19,55 +19,52 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b86363004b8702d1a654f2a1da49bba82fc8ff2a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ac3c55ac56c800f6f4e8e593cce7fe0874d99a5d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="requests-for-quotation-rfqs"></a>Piedāvājumu pieprasījumi (RFQ)
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegts apskats par piedāvājumu pieprasījumiem (request for quotation — RFQ). Organizācijas izsniedz piedāvājumu pieprasījumus, kad tām ir jāiegādājas preces vai pakalpojumi un tādēļ tās vēlas saņemt konkurētspējīgus piedāvājumus no vairākiem kreditoriem. Piedāvājuma pieprasījumā kreditoriem tiek lūgts piedāvāt norādītā krājuma daudzuma cenas un piegādes laiku. Kreditoriem var lūgt arī norādīt, vai pastāv jebkādas nejaušās izmaksas, piemēram, piegādes izmaksas, kā arī vai pastāv jebkādas atlaides lielu pasūtījumu vai savlaicīgas kreditora rēķina apmaksas gadījumā.
+Šajā tēmā ir sniegts apskats par piedāvājumu pieprasījumiem (request for quotation — RFQ). Organizācijas izsniedz piedāvājumu pieprasījumus, kad tām ir jāiegādājas preces vai pakalpojumi un tādēļ tās vēlas saņemt konkurētspējīgus piedāvājumus no vairākiem kreditoriem. Piedāvājuma pieprasījumā kreditoriem tiek lūgts piedāvāt norādītā krājuma daudzuma cenas un piegādes laiku.
+Kreditoriem var lūgt arī norādīt, vai pastāv jebkādas nejaušās izmaksas, piemēram, piegādes izmaksas, kā arī vai pastāv jebkādas atlaides lielu pasūtījumu vai savlaicīgas kreditora rēķina apmaksas gadījumā.
 
 Piedāvājumu pieprasījumu procedūra sastāv no tālāk uzskaitītajiem uzdevumiem.
 
-1. Izveidot piedāvājuma pieprasījumu un izsūtīt to vienam vai vairākiem kreditoriem.
-2. Saņemt un reģistrēt piedāvājuma pieprasījuma atbildes (piedāvājumus).
-3. Pārsūtīt jūsu pieņemtos piedāvājumus uz pirkšanas pasūtījumu, pirkšanas līgumu vai pirkšanas pieprasījumu.
+1.  Izveidot piedāvājuma pieprasījumu un izsūtīt to vienam vai vairākiem kreditoriem.
+
+2.  Saņemt un reģistrēt piedāvājumus (piedāvājuma pieprasījuma atbildes).
+
+3.  Pārsūtīt jūsu pieņemtos piedāvājumus uz pirkšanas pasūtījumu, pirkšanas līgumu vai pirkšanas pieprasījumu.
 
 Nākamajā attēlā ir parādīts apskats par piedāvājuma pieprasījuma procesu.
 
 [![RFQ procesi](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
 
-Piedāvājuma pieprasījumu varat izveidot no plānotiem pasūtījumiem, pirkšanas pieprasījuma vai manuāli ievadītiem datiem. Jūsu izveidotais piedāvājuma pieprasījums tiek saukts par piedāvājuma pieprasījuma gadījumu. Piedāvājuma pieprasījuma gadījums ir pamatdokuments, ko jūs izmantojat, lai izsniegtu piedāvājuma pieprasījumu katram kreditoram.
+Piedāvājuma pieprasījumu gadījumu varat izveidot no plānotiem pasūtījumiem, no pirkšanas pieprasījuma vai ar manuālu ievadīšanu. Piedāvājuma pieprasījuma gadījums ir pamatdokuments, ko jūs izmantojat, lai izsniegtu piedāvājuma pieprasījumu katram kreditoram.+
 
-Pēc piedāvājuma pieprasījuma gadījuma sagatavošanas un kreditoru pievienošanas šim piedāvājuma pieprasījuma gadījumam atlasiet **Sūtīt**. Tiek ģenerēts piedāvājuma pieprasījuma žurnāls katram kreditoram, kuram nosūtījāt šo piedāvājuma pieprasījumu. Varat konfigurēt sūtīšanas darbības drukas pārvaldības iestatījumus tā, lai drukātu katra kreditora pārskatu arhivēšanas nolūkos vai sūtītu pārskatu uz katra kreditora e-pasta adresi. Turklāt katra kreditora piedāvājuma pieprasījuma žurnālu varat izmantot, lai ģenerētu pārskatu, ko vēlāk varat nosūtīt vai atkārtoti nosūtīt šim kreditoram. Var arī konfigurēt sūtīšanas darbību tā, lai tā ģenerētu atbildes lapu, ko kreditors var aizpildīt.
+Pēc piedāvājuma pieprasījuma sagatavošanas un kreditoru pievienošanas atlasiet **Sūtīt** (publiskajā sektorā tas ir **Sūtīt un publicēt**) šim piedāvājuma pieprasījuma gadījumam. Tiek ģenerēts piedāvājuma pieprasījuma žurnāls katram kreditoram, kuram nosūtījāt šo piedāvājuma pieprasījumu. Sūtīšanas darbības drukāšanas opcijas varat konfigurēt tā, lai katra kreditora pārskats tiktu drukāts uz arhīvu vai lai pārskats tiktu sūtīts uz katra kreditora e-pasta adresi. Turklāt katra kreditora piedāvājuma pieprasījuma žurnālu varat izmantot, lai ģenerētu pārskatu, ko vēlāk varat nosūtīt vai atkārtoti nosūtīt šim kreditoram. Var arī konfigurēt sūtīšanas darbību tā, lai tā ģenerētu atbildes lapu, ko kreditors var aizpildīt.
 
-Šajā tēmā ir apskatīta procedūra piedāvājumu pieprasījumu apstrādāšanai, kad netiek izmantota kreditora sadarbība. Ja jūsu sistēma ir iestatīta kreditoru sadarbībai, kreditori var tiešā veidā ievadīt piedāvājumus programmatūrā Microsoft Dynamics 365 for Finance and Operations. Papildinformāciju skatiet šeit: [Kreditoru sadarbība ar debitoriem](vendor-collaboration-work-customers-dynamics-365-operations.md).
- 
-Ja pēc piedāvājuma pieprasījuma nosūtīšanas ir nepieciešams veikt tā grozījumus, pēc grozījumu pabeigšanas šo piedāvājuma pieprasījumu varat nosūtīt kreditoriem vēlreiz, izmantojot abas grozījumu darbības: Izveidot un Finalizēt.
+Šajā tēmā ir apskatīta procedūra piedāvājumu pieprasījumu apstrādāšanai, kad netiek izmantota kreditora sadarbība. Ja jūsu sistēma ir iestatīta kreditoru sadarbībai, kreditori var tiešā veidā ievadīt piedāvājumus programmatūrā Microsoft Dynamics 365 for Finance and Operations. Papildinformāciju skatiet rakstā [Kreditoru sadarbība ar debitoriem](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) un [Kreditoru sadarbība ar ārējiem kreditoriem](vendor-collaboration-work-external-vendors.md).
 
-Kad piedāvājumus saņemat pa e-pastu, jums tie ir jāievada lapā **Atbildes uz piedāvājumu pieprasījumiem**. Ja atlasāt opciju **Kopēt datus uz atbildēm**, atbildē tiek kopēti dati no PP gadījuma, piemēram, daudzums un datumi. Varat mainīt šos datus atbilstoši kreditora piedāvājumam.
+Ja pēc piedāvājuma pieprasījuma nosūtīšanas ir nepieciešams veikt tā grozījumus, pēc grozījumu pabeigšanas šo piedāvājuma pieprasījumu varat nosūtīt kreditoriem vēlreiz, izmantojot abas grozījumu darbības: Izveidot un Finalizēt.+
 
-Ja kādam kreditoram ir nepieciešama vēl viena iterācija, atlasiet **Atgriezt** lapā **Atbilde uz piedāvājuma pieprasījumu**. Izpildot atgriešanas darbību, tiek ģenerēts jauns žurnāls un pārskats, kas tiks drukāts, arhivēts un nosūtīts atbilstoši drukas pārvaldības iestatījumiem.
+Kad piedāvājumus saņemat pa e-pastu, šos piedāvājumus varat apstrādāt no lapas **Piedāvājumu pieprasījumi**.
 
-Ja PP gadījumam pievienojāt punktu skaitīšanas kritēriju, PP atbildē tiek ietverts punktu skaitīšanas panelis, kur varat ievadīt punktu skaitu. Kopējie rādītāji ir redzami, kad atbildes salīdzināt lapā **Salīdzināt atbildes**. Šajā lapā varat salīdzināt arī citus atbilžu datus, piemēram, rindas cenu, piegādes datumu un kopējo cenu.
+Ja no kāda kreditora ir nepieciešama vēl viena iterācija, atlasiet **Atgriezt** lapā **Piedāvājuma pieprasījums**. Izpildot atgriešanas darbību, tiek ģenerēts jauns žurnāls un pārskats, kas tiks drukāts, arhivēts un nosūtīts atbilstoši drukāšanas iestatījumiem.
 
-Kad esat izvēlējies kādu piedāvājumu vai daļējus piedāvājumus, varat tos pieņemt un pārējos — noraidīt. Tiek ģenerēti pieņemšanas žurnāli un noraidīšanas žurnāli, kā arī atbilstošie pārskati, un tie tiks drukāti, arhivēti un nosūtīti atbilstoši drukas pārvaldības iestatījumiem. Kad pieņemat kādu piedāvājumu vai noteiktas piedāvājuma rindas, tiek ģenerēts pirkšanas līgums vai pirkšanas pasūtījums vai tiek atjaunināts pirkšanas pieprasījums atkarībā no piedāvājuma pieprasījums pirkšanas veida. Varat izveidot tirdzniecības līgumu turpmākai izmantošanai jebkurai atbildei neatkarīgi no tā, vai esat to pieņēmis vai noraidījis.
+[!NOTE]
+Lapas **Piedāvājuma pieprasījums** nosaukums ir mainījies. Iepriekšējos Dynamics 365 for Finance and Operations izvedumos šī lapa saucās **Atbilde uz piedāvājuma pieprasījumu**.
 
-Piedāvājuma pieprasījuma statuss ir redzams piedāvājuma pieprasījuma virsrakstā, un tas ir atkarīgs no piedāvājuma pieprasījuma rindu statusa. Statuss norāda, cik lielā mērā šo piedāvājuma pieprasījumu esat apstrādājis. Katram piedāvājuma pieprasījumam ir divas statusu vērtības: zemākais statuss un augstākais statuss. Zemākais statuss ir jebkuras rindas PP vismazāk advancētais stāvoklis, un augstākais statuss ir jebkuras rindas PP visvairāk advancētais stāvoklis. Piemēram, ja PP ietvaros vismazāk apstrādātais stāvoklis ir izveidotai rindai, PP zemākais statuss ir **Izveidots**. Ja PP ietvaros visvairāk apstrādātais stāvoklis ir rindai, kas ir nosūtīta kreditoriem, PP augstākais statuss ir **Nosūtīts**. Statusi tiek automātiski atjaunināti līdzko jūs apstrādājat PP.
+Ja savam piedāvājuma pieprasījuma gadījumam pievienojāt punktu skaitīšanas kritērijus, piedāvājuma pieprasījumā ir punktu skaitīšanas panelis, kur varat ievadīt punktu skaitu. Kopējie rādītāji ir redzami piedāvājuma pieprasījumā un laikā, kad salīdzināt atbildes lapā **Salīdzināt atbildes**. Lapā **Salīdzināt atbildes** varat salīdzināt arī citus atbilžu datus, piemēram, rindas cenu, piegādes datumu un kopējo cenu.
 
-PP virsraksta zemāko un augstāko statusu varat skatīt lapā **Visi piedāvājuma pieprasījumi**. PP rindas zemāko un augstāko statusu varat skatīt lapas **Piedāvājumu pieprasījumi** cilnē **Rindas**.
+Kad esat izvēlējies kādu piedāvājumu vai noteiktu skaitu rindu kādā piedāvājumā, varat pieņemt visas vai dažas rindas un atteikt pārējās. Tiek ģenerēti pieņemšanas žurnāli un atteikšanas žurnāli, kā arī atbilstošie pārskati, un tie tiks drukāti, arhivēti un nosūtīti atbilstoši drukāšanas iestatījumiem. Kad pieņemat kādu piedāvājumu vai noteiktas piedāvājuma rindas, tiek ģenerēts pirkšanas līgums vai pirkšanas pasūtījums vai tiek atjaunināts pirkšanas pieprasījums atkarībā no piedāvājuma pieprasījums pirkšanas veida. Varat izveidot tirdzniecības līgumu turpmākai izmantošanai jebkurai atbildei neatkarīgi no tā, vai esat to pieņēmis vai atteicis.
 
-Tālāk ir secīgi norādīti piedāvājuma pieprasījuma apstrādes statusi.
-
-1. **Izveidots**
-2. **Nosūtīts**
-3. **Saņemts**
-4. **Pieņemts**, **Atcelts** vai **Noraidīts**
+Piedāvājuma pieprasījuma gadījumam ir divi statusi: zemākais un augstākais, un šo statusu varat apskatīt saraksta lapā vienumam **Visi piedāvājumu pieprasījumi**. Zemākais statuss ir jebkuras piedāvājumu pieprasījuma gadījuma rindas vismazāk advancētais stāvoklis, un augstākais statuss ir jebkuras piedāvājumu pieprasījuma gadījuma rindas advancētais stāvoklis. Piemēram, pieņemsim, ka piedāvājuma pieprasījuma gadījums ar trīs rindām tiek nosūtīts diviem kreditoriem, tātad pastāv divi piedāvājumu pieprasījumi un katrā ir trīs rindas. Visas rindas ir **Nosūtīts**. Tagad piedāvājums tiek ievadīts no viena kreditora, un piedāvājuma pieprasījuma rindas iegūst statusu **Saņemts**. Tas nozīmē, ka no piedāvājuma pieprasījuma gadījuma trīs rindām visām šīm rindām ir statuss **Nosūtīts** attiecībā uz vienu piedāvājuma pieprasījumu un ir statuss **Saņemts** attiecībā uz otru piedāvājuma pieprasījumu. Viszemākais statuss tādā situācijā ir **Nosūtīts**, un visaugstākais statuss ir **Saņemts**.
 
 Šie statusi ir detalizētāk aprakstīti tālāk šajā tēmā.
 
@@ -75,153 +72,201 @@ Tālāk ir secīgi norādīti piedāvājuma pieprasījuma apstrādes statusi.
 
 Lai varētu izveidot PP gadījumu, vispirms ir jāiestata PP informācija lapā **Sagādes un avotu parametri**. Izveidojot PP gadījumu, varat norādīt noklusējuma vērtības, kas tiek kopētas uz PP. Varat norādīt tālāk uzskaitītās vērtības.
 
-- Jaunu PP pirkšanas tips: **Pirkšanas pasūtījums** vai **Pirkšanas līgums**
-- Beigu datums un laiks
-- Piegādes informācija un maksājumu nosacījumi
-- Lauki, kas ir jāiekļauj PP atbildē
+-   Jaunu PP pirkšanas tips: **Pirkšanas pasūtījums** vai **Pirkšanas līgums**
+
+-   Beigu datuma un laika nobīde no piedāvājuma pieprasījuma izveidošanas dienas
+
+-   Lūguma tips, kas piedāvājuma pieprasījuma gadījumam var norādīt noklusējuma vērtības specifiskai punktu skaitīšanas metodei
+
+-   Piegādes informācija un maksājumu nosacījumi
+
+-   Lauki, kas ir jāiekļauj piedāvājumā
 
 Varat mainīt šīs vērtības noteiktam PP gadījumam.
 
-Ir jākonfigurē arī grozījumu process. Šīs konfigurēšanas ietvaros varat ieslēgt lauku bloķēšanu. Ja ir ieslēgta lauku bloķēšana, tad sagādes speciālistam, kas vēlas veikt piedāvājuma pieprasījuma grozījumus, vispirms cilnes **Piedāvājums** sadaļā **Grozījums** ir jāatlasa **Izveidot**. Kad piedāvājuma pieprasījums ir atjaunināts ar grozījumu, sagādes speciālistam ir jāpabeidz šis process, atlasot **Finalizēt**. Darbība Finalizēt ģenerē e-pasta ziņojumu, kas kreditorus informē par grozīto piedāvājuma pieprasījumu.
+Ir jākonfigurē arī grozījumu process. Šīs konfigurēšanas ietvaros varat ieslēgt lauku bloķēšanu. Ja ir ieslēgta lauku bloķēšana, sagādes speciālistam, kas vēlas veikt piedāvājuma pieprasījuma grozījumus, šim piedāvājuma pieprasījuma gadījumam vispirms ir jāatlasa **Izveidot** cilnes **Piedāvājums** sadaļā **Grozījums**. Kad piedāvājuma pieprasījuma gadījums ir atjaunināts ar grozījumu, sagādes speciālistam ir jāpabeidz šis process, atlasot **Finalizēt**. Darbība Finalizēt ģenerē e-pasta ziņojumu, kas kreditorus informē par grozīto piedāvājuma pieprasījumu.
 
-Lapā **Sagādes un avotu parametri** varat atlasīt veidni, ko izmantot kreditoriem sūtītajos e-pasta paziņojumos. Kad tiek izveidota veidne, tā var saturēt tālāk norādītos aizstāšanas marķierus.
+Lapā **Sagādes un avotu parametri** varat atlasīt veidni, ko izmantot kreditoriem sūtītajos e-pasta paziņojumos. Kad ir izveidota veidne sadaļā **E-pasta veidnes**, tajā var būt tālāk norādītie aizstāšanas marķieri.
 
-- %Piedāvājuma pieprasījuma gadījums%
-- %Piedāvājuma atgriešanas iemesls%
-- %Grozījuma iemesls%
-- %Grozījumu sagatavoja%
-- %Uzņēmums%
-- %Piedāvājuma pieprasījuma gadījuma nosaukums%
-- %ExpiryDateTime%
-- %Datums%
+-   %Piedāvājuma pieprasījuma gadījums%
+
+-   %Piedāvājuma atgriešanas iemesls%
+
+-   %Grozījuma iemesls%
+
+-   %Grozījumu sagatavoja%
+
+-   %Uzņēmums%
+
+-   %Piedāvājuma pieprasījuma gadījuma nosaukums%
+
+-   %ExpiryDateTime%
+
+-   %Datums%
 
 Marķieri %Piedāvājuma atgriešanas iemesls% un %Grozījuma iemesls%i tiek aizstāti ar tekstu, ko sagādes speciālists var ievadīt, pabeidzot grozījumu vednī **Grozījums**. Marķieru %Grozījumu sagatavoja% un %Uzņēmums% vērtības tiek automātiski iegūtas no PP. Marķieris %Datums% tiek aizstāts ar pašreizējo datumu.
 
-E-pasta veidne ir nepieciešama arī tad, ja piedāvājuma pieprasījumu atceļat pēc tam, kad tas ir nosūtīts. Šī e-pasta veidne tiek izmantota, lai kreditoru kontaktpersonām sūtītu paziņojumu par atcelšanu. Veidnei ir jābūt atlasītai lapā **Sagādes un avotu parametri**. Kad tiek izveidota veidne, tajā var būt tālāk norādītie aizstāšanas marķieri.
+Ja kādu piedāvājuma pieprasījumu vēlaties atcelt pēc tam, kad tas ir nosūtīts, to var izdarīt no piedāvājuma pieprasījuma gadījuma. Lai atceltu, ir nepieciešama e-pasta veidne, ar kuru kreditoru kontaktpersonām sūtīt paziņojumu par atcelšanu. Veidnei ir jābūt atlasītai lapā **Sagādes un avotu parametri**. Kad tiek izveidota veidne, tajā var būt tālāk norādītie aizstāšanas marķieri.
 
-- %Atcelšanas iemesls%
-- %Piedāvājuma pieprasījuma gadījums% 
-- %Piedāvājuma pieprasījumu atcēla%
-- %Uzņēmums%
-- %Piedāvājuma pieprasījuma gadījuma nosaukums%
-- %Datums%
+-   %Atcelšanas iemesls%
+
+-   %Piedāvājuma pieprasījuma gadījums%
+
+-   %Piedāvājuma pieprasījumu atcēla%
+
+-   %Uzņēmums%
+
+-   %Piedāvājuma pieprasījuma gadījuma nosaukums%
+
+-   %Datums%
 
 Marķieris %Atcelšanas iemesls% tiek aizstāts ar tekstu, ko sagādes speciālists var ievadīt vednī **Atcelšana**. Marķieris %Datums% tiek aizstāts ar pašreizējo datumu.
 
-Ja vēlaties PP atbildē izmantot iemeslu kodus, lai norādītu, kāpēc piedāvājums tika noraidīts vai pieņemts, jums ir jāuzstāda iemeslu kodu lapā **Kreditoru iemesli**.
+Ja piedāvājumā vēlaties izmantot iemeslu kodus, lai norādītu, kāpēc tas tika atteikts vai pieņemts, jums ir jāiestata iemeslu kodi lapā **Kreditoru iemesli**.
 
 Sagādes un avotu lapā **Formas iestatīšana** varat konfigurēt savu drukāto vai saglabāto piedāvājumu pieprasījumu dokumentu izskatu.
 
-> [!NOTE]
-> Publiskā sektora konfigurācijai jau nosūtīta piedāvājuma pieprasījuma mainīšanai ir jāizmanto grozījumu process. Kad piedāvājuma pieprasījums ir nosūtīts, lauki tiek bloķēti. Tādēļ, lai veiktu piedāvājuma pieprasījuma izmaiņas, ir jāatlasa **Izveidot**, uzsākot grozījumu procesu, kā aprakstīts iepriekš. Bloķēšanas uzvedību kontrolē lapas **Sagādes un avotu parametri** opcija **Bloķēt piedāvājuma pieprasījumu pēc tā nosūtīšanas**. Pēc noklusējuma šis parametrs ir iestatīts uz **Jā**, un publiskā sektora konfigurācijai šo noklusējuma iestatījumu nevar mainīt. Tādēļ, lai gan konfigurācijā, kas nav publiskā sektora konfigurācija, grozījumu procesu var apstrādāt manuāli, publiskā sektora konfigurācijā tas ir jāizmanto obligāti.
+[!NOTE]
+Publiskā sektora konfigurācijai jau nosūtīta piedāvājuma pieprasījuma mainīšanai ir jāizmanto grozījumu process. Kad piedāvājuma pieprasījums ir nosūtīts, lauki tiek bloķēti.
+Tādēļ, lai veiktu piedāvājuma pieprasījuma izmaiņas, ir jāatlasa **Izveidot**, uzsākot grozījumu procesu, kā aprakstīts iepriekš. Bloķēšanas uzvedību kontrolē lapas **Sagādes un avotu parametri** opcija **Bloķēt piedāvājuma pieprasījumu pēc tā nosūtīšanas**. Pēc noklusējuma šis parametrs ir iestatīts uz **Jā**, un publiskā sektora konfigurācijai šo noklusējuma iestatījumu nevar mainīt. Tādēļ, lai gan konfigurācijā, kas nav publiskā sektora konfigurācija, grozījumu procesu var apstrādāt manuāli, publiskā sektora konfigurācijā tas ir jāizmanto obligāti.
 
-Kad izveidojat pirkšanas pasūtījuma PP un pievienojat šim PP krājumu vienību, tiek ģenerēta krājumu transakcija, kuras ieejas plūsmas statuss ir **Piedāvājuma saņemšana**. Kad izmantojat vispārējo plānu piegāžu aprēķināšanai, tiek ņemtas vērā tikai PP rindas ar šo statusu. Ja vēlaties, lai PP rindas tiktu iekļautas vispārējā plānā kā paredzētās ieejas plūsmas, šī darbība ir jākonfigurē vispārējās plānošanas iestatījumos.
+Kad izveidojat piedāvājuma pieprasījuma gadījumu ar tipu “Pirkšanas pasūtījums” un šim piedāvājuma pieprasījumam pievienojat kādu krājumu vienību, tiek ģenerēta krājumu transakcija, kuras ieejas plūsmas statuss ir **Piedāvājuma saņemšana**. Kad izmantojat vispārējo plānu piegāžu aprēķināšanai, tiek ņemtas vērā tikai piedāvājuma pieprasījuma rindas ar šo statusu. Ja vēlaties, lai piedāvājuma pieprasījuma gadījuma rindas tiktu ietvertas vispārējā plānā kā paredzētās ieejas plūsmas, šī uzvedība ir jākonfigurē vispārējās plānošanas iestatījumos.
 
 Pirkšanas pārvaldnieks vai aģents var izveidot un uzturēt lūgumu veidus, kas atbilst organizācijas sagādes prasībām. Katru lūguma veidu var saistīt ar kādu punktu skaitīšanas metodi. Punktu skaitīšanas metodes satur kritērijus, ko var izmantot cenu piedāvājumu novērtēšanai. Lūgumu veidi, punktu skaitīšanas metodes un punktu skaitīšanas kritēriji ir jāiestata lapās **Lūguma veids** un **Punktu skaitīšanas metode**.
 
 ## <a name="creating-and-sending-an-rfq"></a>PP izveidošana un nosūtīšana
 
-Jūs izveidojat PP, atlasāt kreditorus, kuru piedāvājumus vēlaties saņemt, un pēc tam nosūtāt PP kreditoriem. Varat izmantot drukas pārvaldību, lai piedāvājuma pieprasījuma pārskatu un atbildes lapas pārskatus maršrutētu uz vēlamo galamērķi.
+Jūs izveidojat piedāvājuma pieprasījuma gadījumu, atlasāt kreditorus, no kuriem vēlaties saņemt piedāvājumus par šo piedāvājuma pieprasījuma gadījumu, un pēc tam nosūtāt piedāvājuma pieprasījumus šiem kreditoriem. Varat izmantot drukāšanas iestatījumus, lai piedāvājuma pieprasījuma pārskatu un atbildes lapas pārskatus maršrutētu uz vēlamo galamērķi.
 
-Varat izveidot piedāvājuma pieprasījumu ar pirkšanas veidu **Pirkšanas pasūtījums** vai pirkšanas veidu **Pirkšanas līgums**.
+Varat manuāli izveidot piedāvājuma pieprasījuma gadījumu ar pirkšanas tipu **Pirkšanas pasūtījums** vai pirkšanas tipu **Pirkšanas līgums**.
 
-Ja piedāvājuma pieprasījuma veids ir **Pirkšanas pasūtījums**, notiek tālāk aprakstītās darbības.
+Ja piedāvājuma pieprasījuma gadījuma tips ir **Pirkšanas pasūtījums**, tam ir tālāk norādītā uzvedība, kas atšķiras no citiem piedāvājuma pieprasījuma gadījumu tipiem.
 
-- Izveidojot PP rindas, tiek ģenerētas krājumu transakcijas, kuru ieejas plūsmas statuss ir **Piedāvājuma saņemšana**.
-- Pieņemot piedāvājumu, tiek ģenerēts pirkšanas pasūtījums.
+-   Kad tiek izveidotas piedāvājuma pieprasījuma gadījuma rindas, tiek ģenerētas krājumu transakcijas, kuru ieejas plūsmas statuss ir **Piedāvājuma saņemšana**.
 
-Ja piedāvājuma pieprasījuma veids ir **Pirkšanas līgums**, notiek tālāk aprakstītās darbības.
+-   Pieņemot piedāvājumu, tiek ģenerēts pirkšanas pasūtījums.
 
-- PP tiek izmantots līgumam par noteikta preces daudzuma vai vērtības iegādi laika gaitā. Jums ir jāatlasa datumu diapazons, kas attiecas uz pirkšanas līgumu, un tās personas vārdu, kura pārvalda pirkšanas līgumu.
-- Pieņemot piedāvājumu, tiek ģenerēts pirkšanas līgums.
+Ja piedāvājuma pieprasījuma gadījuma tips ir **Pirkšanas līgums**, tam ir tālāk norādītā uzvedība, kas atšķiras no citiem piedāvājuma pieprasījuma gadījumiem.
 
-Ja PP tiek ģenerēts no pirkšanas pieprasījuma, tiek automātiski piešķirts tips **Pirkšanas pieprasījums**. Jūs nevarat manuāli izveidot tipa **Pirkšanas pieprasījums** PP.
+-   Piedāvājuma pieprasījuma gadījums tiek izmantots līgumam par noteikta preces daudzuma vai vērtības iegādi laika gaitā. Jums ir jāatlasa datumu diapazons, kas attiecas uz pirkšanas līgumu, un tās personas vārdu, kura pārvalda pirkšanas līgumu.
 
-Piedāvājuma pieprasījumu no pirkšanas pieprasījuma varat izveidot tikai tad, ja pirkšanas pieprasījuma statuss ir **Tiek pārskatīts** un jūs esat norīkots nākamā darbplūsmas uzdevuma veikšanai. Pirkšanas pieprasījuma rindas tiek automātiski atjauninātas, kad pieņemat no kreditoriem saņemto piedāvājumu pieprasījumu atbilžu (piedāvājumu) rindas. Kamēr notiek PP apstrāde, nevarat pabeigt, noraidīt vai apstiprināt pirkšanas pieprasījumu vai veikt jebkādu citu darbību ar to.
+-   Pieņemot piedāvājumu, tiek ģenerēts pirkšanas līgums.
 
-Kad izveidojat piedāvājuma pieprasījumu, varat atlasīt lūguma veidu. Lūguma veids nosaka punktu skaitīšanas kritēriju kopu, kas tiek izmantota PP atbilžu novērtēšanai.
+Ja piedāvājuma pieprasījuma gadījums tiek ģenerēts no pirkšanas pieprasījuma, tiek automātiski piešķirts tips **Pirkšanas pieprasījums**. Jūs nevarat manuāli izveidot piedāvājuma pieprasījuma gadījumu ar tipu **Pirkšanas pieprasījums**.
 
-Varat pievienot anketu PP gadījumam. Pēc tam šī anketa ir redzama visās atbildēs pēc tam, kad esat nosūtījis PP.
+Piedāvājuma pieprasījuma gadījumu no pirkšanas pieprasījuma varat izveidot tikai tad, ja pirkšanas pieprasījuma statuss ir **Tiek pārskatīts** un jūs esat norīkots nākamā darbplūsmas uzdevuma veikšanai. Pirkšanas pieprasījuma rindas tiek automātiski atjauninātas, kad pieņemat no kreditoriem saņemto piedāvājumu (piedāvājumu pieprasījumu atbilžu) rindas. Pirkšanas pieprasījumus varat pabeigt, atteikt, apstiprināt, kā arī citas darbības ar pirkšanas pieprasījumiem varat veikt tikai pēc tam, kad pieprasījuma rinda ir atjaunināta ar pieņemto piedāvājuma pieprasījuma rindu vai kad piedāvājuma pieprasījuma gadījums ir atcelts.
+
+Kad izveidojat piedāvājuma pieprasījuma gadījumu, varat atlasīt lūguma tipu. Lūguma tips nosaka punktu skaitīšanas kritēriju kopu, kas piedāvājuma pieprasījuma gadījumam tiek izmantota piedāvājuma pieprasījuma atbilžu novērtēšanai.
+
+Varat pievienot anketu PP gadījumam. Pēc tam šī anketa ir redzama visās piedāvājuma pieprasījuma atbildēs, kad esat nosūtījis piedāvājuma pieprasījumu. Anketas aizpildīšana ir obligāts uzdevums, un piedāvājumu var iesniegt tikai pēc tam.
+
 
 PP gadījumam pievienojamos kreditorus var atlasīt trīs veidos.
 
 - Pievienojiet kreditorus pa vienam.
 - Meklējiet visus kreditorus, kas atbilst noteiktiem kritērijiem.
-- Automātiski pievienojiet visus kreditorus, kas ir apstiprināti PP rindās izmantotajām sagādes kategorijām.
+- Automātiski pievienojiet visus kreditorus, kas ir apstiprināti piedāvājuma pieprasījuma gadījuma rindās izmantotajām sagādes kategorijām.
 
-Kad piedāvājuma pieprasījuma gadījums ir gatavs, atlasiet **Sūtīt**. Izpildot sūtīšanas darbību, tiek ģenerēti žurnāli un pārskati, kas tiks drukāti, arhivēti un nosūtīti atbilstoši drukas pārvaldības iestatījumiem.
+Kad piedāvājuma pieprasījuma gadījums ir gatavs, atlasiet **Sūtīt**. Ar sūtīšanas darbību tiek ģenerēti žurnāli un pārskati, kas tiks drukāti, arhivēti un nosūtīti atbilstoši drukāšanas iestatījumiem.
 
-Ja, sūtot piedāvājuma pieprasījumu kreditoriem, lapā **Piedāvājuma pieprasījuma sūtīšana** opcijas **Cenu pārrēķinā izmantot kreditoru datus** un **Izmantot informāciju par krājumiem pēc kreditora** iestatāt uz **Jā**, tiek automātiski ievadīta noteikta informācija par kreditoru. Varat mainīt šo informāciju lapā **Piedāvājuma pieprasījuma atbilde**.
+Ja lapā **Piedāvājuma pieprasījuma sūtīšana** opcijas **Cenu pārrēķinā izmantot kreditoru datus** un **Izmantot informāciju par krājumiem pēc kreditora** iestatāt uz **Jā**, kad piedāvājuma pieprasījumu sūtāt kādam kreditoram, attiecīgajam kreditoram paredzētajā piedāvājumā tiek automātiski ievadīta noteikta informācija par kreditoru.
 
-Tālāk esošajā tabulā ir parādīts, kā mainās PP statuss, kad izveidojat PP un nosūtāt to kreditoriem.
 
-| Darbība                             | Zemākais PP galvenes statuss | Augstākais PP galvenes statuss                        | Zemākais PP rindas statuss | Augstākais PP rindas statuss |
-|------------------------------------|--------------------------|--------------------------------------------------|------------------------|-------------------------|
-| Izveidojiet PP galveni un rindu.    | Izveidota                  | Izveidota                                          | Izveidota                | Izveidota |
-| Nosūtiet PP noteiktam kreditoram. | Nosūtīts                     | Nosūtīts                                             | Nosūtīts                   | Nosūtīts |
-| Pievienojiet citu kreditoru.                | Izveidota                  | Nosūtīts (PP ir nosūtīts tikai vienam kreditoram.) | Izveidota                | Nosūtīts |
-| Nosūtiet PP otram kreditoram. | Nosūtīts                     | Nosūtīts                                             | Nosūtīts                   | Nosūtīts |
+## <a name="amending-an-rfq-case"></a>Piedāvājuma pieprasījuma gadījuma grozījumu veikšana
 
-> [!NOTE]
-> Piedāvājuma pieprasījumam jebkurā brīdī varat pievienot citus kreditorus, un zemākie un augstākie statusi tiek atjaunināti atbilstoši jaunajiem kreditoriem. Piemēram, ja esat saņēmis piedāvājumus no visiem kreditoriem un esat pieņēmis vismaz vienu piedāvājuma rindu, PP virsraksta zemākais statuss ir **Noraidīts**, bet augstākais statuss ir **Pieņemts**. Ja pievienojat jaunu kreditoru, visu rindu zemākais statuss tiek mainīts uz **Izveidots**. Tāpēc piedāvājuma pieprasījuma virsrakstā zemākais statuss tiek atjaunināts uz **Izveidots**, bet augstākais statuss joprojām paliek **Pieņemts**.
-
-## <a name="amending-an-rfq"></a>PP grozījumu veikšana
-
-Dažreiz pēc PP nosūtīšanas ir nepieciešams to mainīt. Piedāvājuma pieprasījums ir jāmaina, piemēram, ja ir mainīti piegādes datumi vai ja vēlaties saņemt papildu preces vai citu preču daudzumu. Varat konfigurēt grozījumu procesu, uzstādot stingrākus vai mazāk stingrus ierobežojumus.
+Reizēm pēc piedāvājuma pieprasījuma gadījuma nosūtīšanas ir nepieciešams to mainīt. Piedāvājuma pieprasījums gadījums varētu būt jāmaina, piemēram, ja ir mainīti piegādes datumi vai ja vēlaties saņemt papildu preces vai citu preču daudzumu. Varat konfigurēt grozījumu procesu, uzstādot stingrākus vai mazāk stingrus ierobežojumus.
 
 Ja grozījuma procesu konfigurējat, uzstādot stingrākus ierobežojumus, lai modificētu laukus jau nosūtītā piedāvājuma pieprasījuma gadījumā, šajā piedāvājuma pieprasījuma gadījumā ir jāatlasa **Izveidot**, uzsākot grozījumus. Kad izmaiņu veikšana ir pabeigta, jums ir jāatlasa **Finalizēt**. Pēc tam jūs saņemat norādījumus par informācijas pievienošanu e-pasta ziņojumam, kas tiek nosūtīts, lai informētu kreditorus par grozījumiem. Atjauninātais piedāvājuma pieprasījuma pārskats, kurā ir piezīme par grozījumiem, tiek automātiski pievienots e-pasta ziņojumam.
 
-Ja grozījuma procesu konfigurējat, uzstādot mazāk stingrus ierobežojumus, nav nepieciešamības atlasīt **Izveidot**, lai varētu mainīt laukus jau nosūtītā piedāvājuma pieprasījuma gadījumā. Taču piedāvājuma pieprasījumam ir manuāli jāpievieno piezīme par grozījumu, un šis gadījums ir jānosūta vēlreiz. Ņemiet vērā, ka šo pieeju var lietot tikai tad, ja neviena no atbildēm (piedāvājumiem) nav rediģēta. Ja esat ievadījis kādu atbildi un tās statuss ir **Saņemts**, poga **Sūtīt** nav pieejama. Tādā gadījumā jums ir jāatlasa **Izveidot** un pēc tam — **Finalizēt**, tāpat kā procesos ar stingrākiem ierobežojumiem. Pēc tam atbilde tiek atiestatīta, lai atspoguļotu piedāvājuma pieprasījumā veiktās izmaiņas. 
+Ja grozījuma procesu konfigurējat, uzstādot mazāk stingrus ierobežojumus, nav nepieciešamības atlasīt **Izveidot**, lai varētu mainīt laukus jau nosūtītā piedāvājuma pieprasījuma gadījumā. Taču piedāvājuma pieprasījumam ir manuāli jāpievieno piezīme par grozījumu, un šis gadījums ir jānosūta vēlreiz. Ņemiet vērā, ka šo pieeju var lietot tikai tad, ja neviena no atbildēm (piedāvājumiem) nav rediģēta. Ja esat ievadījis kādu atbildi un tās statuss ir **Saņemts**, poga **Sūtīt** nav pieejama. Tādā gadījumā jums ir jāatlasa **Izveidot** un pēc tam — **Finalizēt**, tāpat kā procesos ar stingrākiem ierobežojumiem. Pēc tam atbilde tiek atiestatīta, lai atspoguļotu piedāvājuma pieprasījumā veiktās izmaiņas.
 
-Ja piedāvājumu ievadīšanai kreditori izmanto kreditoru sadarbības interfeisu, jums vienmēr ir jāizmanto grozījumu process, lai informētu kreditorus par piedāvājuma pieprasījuma gadījuma veiktajām izmaiņām. Šī prasība palīdz novērst situācijas, kad kreditori izsaka piedāvājumu par novecojušu piedāvājuma pieprasījuma gadījumu, kamēr tiek veikts viņu piedāvājums. Papildinformāciju par kreditoru sadarbību skatiet šeit: [Kreditoru sadarbība ar ārējiem kreditoriem](vendor-collaboration-work-external-vendors.md). 
+Ja piedāvājumu ievadīšanai kreditori izmanto kreditoru sadarbības interfeisu, jums vienmēr ir jāizmanto grozījumu process, lai informētu kreditorus par piedāvājuma pieprasījuma gadījuma veiktajām izmaiņām. Šī procedūra palīdz novērst situācijas, kad kreditori izsaka piedāvājumu par novecojušu piedāvājuma pieprasījuma gadījumu, kamēr viņu piedāvājums tiek apstrādāts. Papildinformāciju par kreditoru sadarbību skatiet šeit: [Kreditoru sadarbība ar ārējiem kreditoriem](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
 
 Ja saistībā ar piedāvājuma izteikšanu vēlaties uzaicināt papildu kreditorus un ja piedāvājuma pieprasījuma gadījumam nav veiktas nekādas izmaiņas, varat izmantot pogu **Sūtīt**. Jūsu pievienotie kreditori būs redzami lapā **Sūtīt** un saņems e-pasta uzaicinājumu.
 
+
 ## <a name="receiving-and-registering-rfq-replies"></a>PP atbilžu saņemšana un reģistrēšana
 
-Nosūtot PP, tiek automātiski ģenerēta atbildes lapa. Saņemot atbildes (cenu piedāvājumus) uz PP, jums ir jāievada informācija par katru kreditoru konkrētam kreditoram paredzētā PP atbildes lapā. Ja esat pievienojis punktu skaitīšanas kritērijus, varat skaitīt atbilžu iegūtos punktus. Pēc tam jūs salīdzināt kreditoru piedāvājumus un sakārtojat tos atbilstoši saviem punktu skaitīšanas kritērijiem, piemēram, pēc izdevīgākās kopējās cenas vai izdevīgākā kopējā piegādes laika.
+Nosūtot PP, tiek automātiski ģenerēta atbildes lapa. Kad saņemat piedāvājumus par kādu piedāvājuma pieprasījumu, jums tie ir jāievada, izmantojot lapu **Piedāvājuma pieprasījums**, noklikšķinot uz darbības **Rediģēt piedāvājuma pieprasījuma atbildi.** Tas jums ļaus piedāvājuma informāciju ievadīt atvēlētā piedāvājuma formā. Sākotnēji vienuma **Atbildes norise** vērtība ir **Nav sākts**. Kad noklikšķināt uz **Rediģēt piedāvājuma pieprasījuma atbildi**, norises statuss ir **Pircējs atjaunina**, līdz piedāvājums tiek iesniegts. Kad esat ievadījis piedāvājuma informāciju, noklikšķiniet uz **Iesniegt**. Atbildes norises statuss tiek mainīts uz **Iesniedza pircējs**. Līdzīgi, kad ir iespējota kreditoru sadarbība, vienums **Atbildes norise** tiek atjauninātas, kreditoram mijiedarbojoties ar šo piedāvājumu. Pēc tam statuss no **Kreditors atjaunina** mainās uz **Iesniedza kreditors**. Kad piedāvājums ir iesniegts, žurnāls tiek izveidots kā **Saņemts**. Atbilde (piedāvājums) ir jāiesniedz, lai to varētu reģistrēt kā saņemtu, un tikai pēc tam to var tālāk apstrādāt kā pieņemtu vai atteiktu.
 
-Ja piedāvājuma pieprasījuma gadījumam ir pievienota anketa, jums ir manuāli jāievada atbildes uz jautājumiem atbildes lapā.
+Ja ir nepieciešams piedāvājumu atjaunināt, jums ir jāizpilda šī pati iepriekš aprakstītā procedūra un jāiesniedz vēlreiz.
 
-Varat arī ievadīt alternatīvas rindas, ja attiecīgais piedāvājuma pieprasījuma gadījums ļauj izmantot alternatīvas rindas. Kopsavilkuma cilnē **Pirkšanas piedāvājuma rindas** atlasiet **Pievienot rindu**. Pēc tam ievadiet preces informāciju, piemēram, krājuma kodu vai sagādes kategoriju, daudzumu, cenu un atlaidi.
+Ņemiet vērā, ka formas **Piedāvājuma pieprasījums** rediģēšana ir atļauta tikai attiecībā uz informāciju, kas ir saistīta ar piedāvājuma apstrādāšanu, nevis piedāvājuma ievadīšanu. Lai piedāvājumu ievadītu vai modificētu, noklikšķiniet uz **Rediģēt piedāvājuma pieprasījuma atbildi**.
 
-Ja esat ievadījis atbildi, taču vēlaties saņemt no kreditora jaunu piedāvājumu, varat vēlreiz nosūtīt PP. Tiek ģenerēts jauns žurnāls un pārskats, un varat tos izmantot, lai kreditoram pieprasītu izmaiņas.
+Kad ievadāt piedāvājuma informāciju un gadījumā, ja piedāvājuma pieprasījuma gadījums ļauj izmantot alternatīvas rindas, varat pievienot alternatīvas rindas tādām rindām, kam ir tikai sagādes kategorija, bet nav norādīts kataloga krājums. Noklikšķiniet uz **Pievienot alternatīvu**, lai pievienotu alternatīvas rindas.
 
-Varat skatīt pārskatu par visiem IP un to atbilžu statusiem lapā **Piedāvājuma pieprasījuma sekojums**.
+Ja esat ievadījis atbildi, bet ir nepieciešams jauns piedāvājums no kreditora, piedāvājuma pieprasījumu varat atgriezt. Tiek ģenerēts jauns žurnāls un pārskats, ko varat nosūtīt kreditoram.
 
-Nākamajā tabulā ir redzams, kā tiek mainīts piedāvājuma pieprasījuma statuss, kad saņemat piedāvājumus un reģistrējat informāciju piedāvājuma pieprasījuma atbildes lapā.
-
-| Darbība                                         | Zemākais piedāvājuma statuss | Augstākais piedāvājuma statuss | Zemākais PP galvenes statuss | Augstākais PP galvenes statuss | Zemākais PP rindas statuss | Augstākais PP rindas statuss |
-|------------------------------------------------|-------------------|--------------------|--------------------------|---------------------------|------------------------|-------------------------|
-| Reģistrējiet viena kreditora piedāvājumu un saglabājiet to.        | Nosūtīts              | Saņemts           | Nosūtīts                     | Saņemts                  | Nosūtīts                   | Saņemts |
-| Reģistrējiet otrā kreditora piedāvājumu un saglabājiet to. | Saņemts          | Saņemts           | Saņemts                 | Saņemts                  | Saņemts               | Saņemts |
-
-> [!NOTE]
-> Ja atgriežat piedāvājumu kādam kreditoram papildu pārrunu nolūkos, gan zemākais, gan augstākais statuss joprojām paliek **Saņemts**.
+Lapā **Piedāvājuma pieprasījuma sekojums** varat skatīt apskatu par visiem piedāvājuma pieprasījumiem un to statusiem: **Nosūtīts, Saņemts, Pieņemts, Atteikts, Atcelts, Noraidīts**.
 
 ### <a name="accepting-and-rejecting-bids-and-transferring-accepted-bids-to-downstream-documents"></a>Piedāvājumu pieņemšana un noraidīšana un pieņemto piedāvājumu pārsūtīšana uz lejupstraumes dokumentiem
 
-Kad esat noteicis labāko piedāvājumu, piemēram, piedāvājumu ar izdevīgāko kopējo cenu, jūs pieņemat šo piedāvājumu. Varat pieņemt dažas piedāvājuma rindas un noraidīt citas. Varat arī pieņemt dažādu kreditoru piedāvājumu rindas. Ņemiet vērā, ka, pieņemot dažas rindas, tiek piedāvāts noraidīt visas pārējās rindas. Tādēļ, ja vēlaties pieņemt citas rindas, uzvednē ir jāatlasa **Atcelt**. Piedāvājuma pieprasījuma atbildes statuss katram kreditoram, no kura jūs pieņemat piedāvājumus vai to rindas, tiek atjaunināts uz **Pieņemts**. 
+Kad esat noteicis labāko piedāvājumu, piemēram, piedāvājumu ar izdevīgāko kopējo cenu, jūs pieņemat šo piedāvājumu. Varat pieņemt dažas piedāvājuma rindas un noraidīt citas.
+Varat arī pieņemt dažādu kreditoru piedāvājumu rindas. Ņemiet vērā, ka, pieņemot dažas rindas, tiek piedāvāts noraidīt visas pārējās rindas. Tādēļ, ja vēlaties pieņemt citas rindas, uzvednē ir jāatlasa **Atcelt**. Piedāvājuma pieprasījuma atbildes statuss katram kreditoram, no kura jūs pieņemat piedāvājumus vai to rindas, tiek atjaunināts uz **Pieņemts**.
 
-Kad pieņemat piedāvājumu vai noteiktas piedāvājuma rindas, tiek automātiski ģenerēts pirkšanas pasūtījums vai pirkšanas līgums. Pēc tam varat noraidīt piedāvājumus no visiem pārējiem kreditoriem.
+Ja pirkšanas pasūtījuma vai pirkšanas līguma sagatavošanas laikā jums ir nepieciešams piedāvājuma pieprasījumam pievienot kādu papildu rindu, to var izdarīt, noklikšķinot uz **Pievienot rindu** lapas **Piedāvājuma pieprasījums** rindu režģī. Šo rindu varat skatīt un rediģēt tikai lapā **Piedāvājuma pieprasījums**. Pēc pieņemšanas tā ir redzama piedāvājuma lapā.
+
+Kad pieņemat kādu piedāvājumu vai vienu vai vairākas piedāvājuma rindas, automātiski tiek ģenerēts pirkšanas pasūtījums vai pirkšanas līgums. Pēc tam varat noraidīt piedāvājumus no visiem pārējiem kreditoriem.
 
 Atbildē varat pievienot iemesla kodu, lai paskaidrotu, kāpēc pieņēmāt vai noraidījāt piedāvājumu.
 
-Kad pieņemat PP atbildi, kuras tips ir **Pirkšanas pieprasījums**, PP atbildes rindas atjaunina pirkšanas pieprasījuma rindas ar tālāk norādīto informāciju.
+Kad pieņemat piedāvājumu ar tipu **Pirkšanas pieprasījums**, pirkšanas pieprasījuma rindas tiek atjauninātas ar tālāk norādīto informāciju, kas atspoguļo pieņemtā piedāvājuma informāciju.
 
-- Vienības cena
-- Atlaide procentos
-- Atlaižu summa
-- Pirkšanas izmaksas
-- Rindu maksas
-- Kreditors
-- Ārējais numurs
-- Ārējais nosaukums
+-   Vienības cena
+
+-   Atlaides procenti
+
+-   Atlaides summa
+
+-   Pirkšanas izmaksas
+
+-   Rindu maksas
+
+-   Kreditors
+
+-  Ārējais numurs
+
+-   Ārējais apraksts
+
 
 Tālāk esošajā tabulā ir parādīts, kā tiek mainīts PP statuss, kad pieņemat vai noraidāt kreditoru piedāvājumus.
 
-| Darbība                      | Zemākais piedāvājuma statuss | Augstākais piedāvājuma statuss | Zemākais PP virsraksta statuss | Augstākais PP galvenes statuss | Zemākais PP rindas statuss | Augstākais PP rindas statuss |
-|-------------------------    |-------------------|--------------------|--------------------------|---------------------------|------------------------|-------------------------|
-| Pieņemiet vienu piedāvājumu.     | Saņemts          | Pieņemts           | Saņemts                 | Pieņemts                  | Saņemts               | Pieņemts |
-| Noraidīt visus pārējos piedāvājumus.  | Noraidīts          | Pieņemts           | Noraidīts                 | Pieņemts                  | Noraidīts               | Pieņemts |
+<a name="statuses--highest-and-lowest"></a>Statusi — augstākais un zemākais
+-----------------------------
+
+Piedāvājuma pieprasījuma gadījuma cilnē Kreditors varat redzēt rindas ar visaugstāko un viszemāko statusu attiecībā uz konkrētu kreditoru. Kad kreditors ir pievienots, bet vēl nav nosūtīta neviena rinda, gan zemākais, gan augstākais statuss ir <strong>Izveidots</strong>. Kad piedāvājuma pieprasījums ir nosūtīts kreditoram ar visām rindām, abu rindu statuss ir <strong>Nosūtīts</strong>. Ja dažas rindas piedāvājumā no kreditora tiek pieņemtas, bet citas tiek atteiktas, atteiktās rindas saņem viszemāko statusu, kas ir <strong>Atteikts</strong>, un pieņemtās rindas saņem visaugstāko statusu, kas ir <strong>Pieņemts</strong>.
+
+Piedāvājuma pieprasījuma gadījuma rindās varat redzēt visaugstāko un viszemāko statusu katrai rindai visos kreditoros. Ja kādu rindu esat nosūtījis visiem kreditoriem attiecīgajā piedāvājuma pieprasījuma gadījumā, bet neviens vēl nav atbildējis, tad viszemākais un visaugstākais statuss ir **Nosūtīts**. Kad ir atbildējis vismaz viens kreditors, visaugstākais statuss mainās uz **Saņemts**. Ja gadījumam pievienojat jaunu kreditoru, viszemākais statuss mainās uz **Izveidots**
+
+Visaugstākais un viszemākais statuss piedāvājuma pieprasījuma gadījumā ir apkopojums no statusa \<cilnē Kreditors un cilnē Rindas.
+
+Šie statusi tiek vērtēti šādā secībā no viszemākā uz visaugstāko: Izveidots, Nosūtīts, Saņemts, Atteikts, Pieņemts, Noraidīts, Atcelts.
+
+Nākamajā tabulā ir parādīts, kā mainās piedāvājuma pieprasījuma gadījuma statuss, kad izveidojat piedāvājuma pieprasījuma gadījumu ar rindām un pēc tam to nosūtāt kreditoriem.
+
+| **Darbība**                                | **Zemākais piedāvājuma pieprasījuma gadījuma statuss** | **Augstākais piedāvājuma pieprasījuma gadījuma statuss** | **Zemākais piedāvājuma pieprasījuma gadījuma rindas statuss** | **Augstākais piedāvājuma pieprasījuma gadījuma rindas statuss** |
+|-------------------------------------------|----------------------------|-----------------------------|---------------------------------|----------------------------------|
+| Izveidojiet piedāvājuma pieprasījuma gadījuma virsrakstu un rindu.      | Izveidots                    | Izveidots                     | Izveidots                         | Izveidots                          |
+| Nosūtiet piedāvājuma pieprasījumus visiem kreditoriem attiecīgajā piedāvājuma pieprasījuma gadījumā. | Nosūtīts                       | Nosūtīts                        | Nosūtīts                            | Nosūtīts                             |
+| Pievienojiet citu kreditoru.                       | Izveidots                    | Nosūtīts                        | Izveidots                         | Nosūtīts                             |
+| Nosūtiet piedāvājuma pieprasījumu otram kreditoram.        | Nosūtīts                       | Nosūtīts                        | Nosūtīts                            | Nosūtīts                             |
+
+Visām rindām piedāvājuma pieprasījumos, kas ir saistīti ar šo piedāvājuma pieprasījuma gadījumu, ir statuss **Nosūtīts**.
+
+Nākamajā tabulā ir redzams, kā tiek mainīts piedāvājuma pieprasījuma statuss, kad saņemat piedāvājumus un reģistrējat informāciju piedāvājuma pieprasījuma atbildes lapā.
+
+| **Darbība**                                               | **Zemākais statuss visu piedāvājuma pieprasījumu visās rindās** | **Augstākais statuss visu piedāvājuma pieprasījumu visās rindās** | **Zemākais piedāvājuma pieprasījuma gadījuma virsraksta statuss** | **Augstākais piedāvājuma pieprasījuma gadījuma virsraksta statuss** | **Zemākais piedāvājuma pieprasījuma gadījuma rindas statuss** | **Augstākais piedāvājuma pieprasījuma gadījuma rindas statuss** |
+|----------------------------------------------------------|------------------------------------------------|-------------------------------------------------|-----------------------------------|------------------------------------|---------------------------------|----------------------------------|
+| Reģistrējiet viena kreditora piedāvājumu kādam piedāvājuma pieprasījumam un saglabājiet to.        | Nosūtīts                                           | Saņemts                                        | Nosūtīts                              | Saņemts                           | Nosūtīts                            | Saņemts                         |
+| Reģistrējiet otrā kreditora piedāvājumu kādam piedāvājuma pieprasījumam un saglabājiet to. | Saņemts                                       | Saņemts                                        | Saņemts                          | Saņemts                           | Saņemts                        | Saņemts                         |
+
+
+Nākamajā piemērā varat redzēt visaugstāko un viszemāko statusu piedāvājuma pieprasījuma gadījumam, kur viens piedāvājums ir saņemts un otrs piedāvājums ir pieņemts. Kad kāds saņemts piedāvājums tiek atteikts, piedāvājuma pieprasījuma gadījuma virsrakstā un rindā viszemākais statuss no Saņemts mainās uz Atteikts.
+
+
+|            <strong>Darbība</strong>             | <strong>Zemākais statuss visu piedāvājuma pieprasījumu visās rindās</strong> | <strong>Augstākais statuss visu piedāvājuma pieprasījumu visās rindās</strong> | <strong>Zemākais piedāvājuma pieprasījuma gadījuma virsraksta statuss</strong> | <strong>Augstākais piedāvājuma pieprasījuma gadījuma virsraksta statuss</strong> | <strong>Zemākais piedāvājuma pieprasījuma gadījuma rindas statuss</strong> | <strong>Augstākais piedāvājuma pieprasījuma gadījuma rindas statuss</strong> |
+|------------------------------------------------|-------------------------------------------------------------|--------------------------------------------------------------|------------------------------------------------|-------------------------------------------------|----------------------------------------------|-----------------------------------------------|
+| Pieņemiet vienu piedāvājumu. (vai vismaz vienu rindu) |                          Saņemts                           |                           Pieņemts                           |                    Saņemts                    |                    Pieņemts                     |                   Saņemts                   |                   Pieņemts                    |
+|           Atsakiet visus pārējos piedāvājumus.           |                          Atteikts                           |                           Pieņemts                           |                    Atteikts                    |                    Pieņemts                     |                   Atteikts                   |                   Pieņemts                    |
+
 

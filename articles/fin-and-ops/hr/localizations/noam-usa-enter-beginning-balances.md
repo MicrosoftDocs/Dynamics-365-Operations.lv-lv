@@ -18,29 +18,29 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 27c03f7bd61ee7d4cb1d01f04af2f1821e9988e1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 93333757995c874c2cf03514acff28a54ae7f787
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="enter-payroll-beginning-balances"></a>Ievadīt algu sākuma bilances
 
-[!include[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 Šajā tēmā ir aprakstītas darbības sākuma bilanču ievadīšanai attiecībā uz ienākumu veida kodiem, ieturējumiem, atvieglojumiem un nodokļiem. Šī informācija ir vērtīga partneriem, kuri datus jaunai algu ieviešanai pārsūtīta no citas sistēmas. Lai sagatavotos ievadīt sākuma algu bilances, mēs pārbaudām tālāk norādīto informāciju.
 
 > * Darbinieka ieraksti ir ievadīti un ir pieejami sistēmā
 > * Darbiniekiem tiek iestatīti un tiek piešķirti tālāk norādītie dati.
-
+> 
 > > * Apmaksas cikli un apmaksas periodi
 > > * Ienākumu veida kodi
 > > * Nodokļi
 > > * Atvieglojumi un atvilkumi
-
+> 
 > * Uzņēmumam ir jāizvēlas datums, kur var iestatīt algu sākuma bilances.
-
+> 
 > * No mantojuma sistēmas tika vākta informācija par visiem ienākumiem, atvieglojumiem/atvilkumiem, atvieglojumu iemaksām, darbinieka nodokļiem un darba devēja nodokļiem, un to līdzšinējā gada (YTD) summām.
 
 Kad plānojat ievadīt sākuma bilances, apsveriet, cik detalizētai šai informācijai ir jābūt. Vairums uzņēmumu ievada vienu, konsolidētu līdzšinējā gada summu. Taču, ja ir nepieciešama sīkāka informācija, bilances var ievadīt ar ceturkšņa pieaugumu. Lēmums par nepieciešamo detalizētības līmeni arī nosaka, cik manuālo algas pārskatu ir jāizveido katram nodarbinātajam. Vienai līdzšinējā gada summai katram darbiniekam ir nepieciešams tikai viens manuāls pārskats. Lai to izdarītu, kā jaunajā algu sistēmā ievadīto summu izmantojiet līdzšinējā gada summas no iepriekšējās sistēmas gala algas pārskata.
@@ -128,22 +128,22 @@ Kad ir izveidoti algas pārskati, kuriem ir sākuma bilances, ir jāpārbauda, v
 
 4. Atveriet cilni **Atvieglojumu ieturējumi** un ievadiet tālāk norādīto informāciju.
 
-| Lauks                           | Vērtība            |
-|---------------------------------|------------------|
-| Atvieglojumi                         | Ieturējuma summa |
-| 401K | Piedalīties              | 3000.00          |
-| Zobārstniecība | SubSp                  | 495,00           |
-| Apg. aprūpes izdevumi | Piedalīties | 2500.00          |
-| Redze | SupSp                  | 500,00           |
+|       Lauks       |      Vērtība       |
+|-------------------|------------------|
+|      Atvieglojumi      | Ieturējuma summa |
+|       401K        |   Piedalīties    |
+|      Zobārstniecība       |      SubSp       |
+| Apg. aprūpes izdevumi |   Piedalīties    |
+|      Redze       |      SupSp       |
 
 5. Cilnē **Atvieglojumu iemaksas** ievadiet tālāk norādīto informāciju.
 
-| Lauks              | Vērtība               |
-|--------------------|---------------------|
-| Atvieglojumi            | Seguma summa |
-| 401K | Piedalīties | 3000,00             |
-| Zobārstniecība | SubSp     | 495,00              |
-| Redze | SubSp     | 500,00              |
+|  Lauks  |        Vērtība        |
+|---------|---------------------|
+| Atvieglojumi | Seguma summa |
+|  401K   |     Piedalīties     |
+| Zobārstniecība  |        SubSp        |
+| Redze  |        SubSp        |
 
 6. Cilnē **Nodokļu ieturējumi** ievadiet tālāk norādīto informāciju.
 
@@ -156,8 +156,8 @@ Kad ir izveidoti algas pārskati, kuriem ir sākuma bilances, ir jāpārbauda, v
 7. Cilnē **Nodokļu iemaksas** ievadiet tālāk norādīto informāciju.
 
 8. Noklikšķiniet uz **Aprēķināt**.
-> [!IMPORTANT] 
-> Pārliecinieties, ka algas pārskata kopsummas atbilst mantojuma sistēmas šī nodarbinātā līdzšinējā gada kopsummām. Iespējams, finalizēšana ir jāatliek uz nākamo darbību, lai veiktu visu algas pārskatu vispārēju validēšanu kopumā. Pēc validēšanas izejiet cauri visiem algas pārskatiem un finalizējiet tos.
+   > [!IMPORTANT] 
+   > Pārliecinieties, ka algas pārskata kopsummas atbilst mantojuma sistēmas šī nodarbinātā līdzšinējā gada kopsummām. Iespējams, finalizēšana ir jāatliek uz nākamo darbību, lai veiktu visu algas pārskatu vispārēju validēšanu kopumā. Pēc validēšanas izejiet cauri visiem algas pārskatiem un finalizējiet tos.
 
 Šo pašu procedūru var veikt ar ceturkšņa intervāliem, ja nepieciešams, visiem iepriekšējiem ceturkšņiem katru gadu. Tas ir jādara tikai tad, ja klientam ir nepieciešams datus redzēt pa ceturksnim, neatgriežoties mantojuma sistēmā.
 

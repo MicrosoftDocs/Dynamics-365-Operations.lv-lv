@@ -20,17 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a0c900dc208736f1823be50e8522061406c9f126
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c2d72509b0dc4d0cea5b4f2478ae7f8fc163e78c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="warehouse-work-policies"></a>Noliktavas darba politikas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Noliktavas darba politikas programmatūrā Microsoft Dynamics 365 for Finance and Operations kontrolē to vai ražošanas noliktavas procesi izraisa noliktavas darbu izveidi, pamatojoties uz darba pasūtījuma veidu, krājumu novietojumu un preci.
 
@@ -68,14 +67,15 @@ Kad plānojat konfigurēt noliktavas darba politiku šim scenārijam, ir jāņem
 
 Šeit ir sniegts darba politikas piemērs, kuru varat iestatīt, pamatojoties uz šiem apsvērumiem.
 
-|                                         |                                                       |
-|-----------------------------------------|-------------------------------------------------------|
-|**Darba politikas nosaukums**<br>                 |**Darba pasūtījumu veidi**<br>                               |
-| Nav izvietošanas 01     `                    |- Pabeigtas preces izvietošana<br>                           |
-|                                         |**Novietojumi**<br>                                      |
-|                                         |- O1   |                                               |
-|                                         |**Preces** <br>                                      |
-|                                         |- SC1                                                  |
+
+|                                       |                                       |
+|---------------------------------------|---------------------------------------|
+| <strong>Darba politikas nosaukums</strong><br> | <strong>Darba pasūtījumu veidi</strong><br> |
+|         Nav izvietošanas 01     `          |     - Pabeigtas preces izvietošana<br>      |
+|                                       |    <strong>Novietojumi</strong><br>     |
+|                                       |                 - O1                  |
+|                                       |    <strong>Preces</strong> <br>     |
+|                                       |                 - SC1                 |
 
 Nākamajās procedūrās ir sniegtas detalizētas instrukcijas par to, kā iestatīt noliktavas darba politiku šim scenārijam. Ir aprakstīts arī piemēra iestatījums, kurā redzams, kā ražošanas pasūtījumu ziņot kā pabeigtu uz novietojumu, kas nav atkarīgs no noliktavas vienības.
 
@@ -136,17 +136,17 @@ DARBĪBAS (25)
 <tr>
 <td></td>
 <td>4.</td>
-<td>Laukā Izvades noliktava ievadiet “51”.</td>
+<td>Laukā “Izvades noliktava” ievadiet “51”.</td>
 </tr>
 <tr>
 <td></td>
 <td>5.</td>
-<td>Laukā Izvades vieta ievadiet “001”.</td>
+<td>Laukā “Izvades novietojums” ievadiet “001”.</td>
 </tr>
 <tr>
 <td></td>
 <td>6.</td>
-<td>Novietojums 001 nav no numura zīmes atkarīgs novietojums. Novietojumu, kas nav atkarīgs no numura zīmes, var iestatīt tikai tad, ja attiecīgajam novietojumam ir piemērojama darba politika.</td>
+<td>Novietojums 001 nav no numura zīmes atkarīgs novietojums. Novietojumu, kas nav atkarīgs no numura zīmes, var iestatīt tikai tad, ja attiecīgajam novietojumam ir piemērojama darba politika.</td>
 </tr>
 <tr>
 <td colspan="3"><strong>Apakšuzdevums: izveidot ražošanas pasūtījumu un norādīt to kā pabeigtu.</strong></td>
@@ -169,7 +169,7 @@ DARBĪBAS (25)
 <tr>
 <td></td>
 <td>4.</td>
-<td>Laukā Krājuma kods ievadiet “L0101”.</td>
+<td>Laukā “Krājuma kods” ievadiet “L0101”.</td>
 </tr>
 <tr>
 <td></td>
@@ -179,7 +179,7 @@ DARBĪBAS (25)
 <tr>
 <td></td>
 <td>6.</td>
-<td>Darbību rūtī noklikšķiniet uz Ražošanas pasūtījums.</td>
+<td>Darbības rūtī noklikšķiniet uz vienuma Ražošanas pasūtījums.</td>
 </tr>
 <tr>
 <td></td>
@@ -199,12 +199,12 @@ DARBĪBAS (25)
 <tr>
 <td></td>
 <td>10.</td>
-<td>Noklikšķiniet uz cilnes Vispārīgie iestatījumi.</td>
+<td>Noklikšķiniet uz cilnes Vispārīgi.</td>
 </tr>
 <tr>
 <td></td>
 <td>11.</td>
-<td>Laukā Automātisks MK patēriņš atlasiet "Nekad".</td>
+<td>Laukā “Automātisks MK patēriņš” atlasiet “Nekad”.</td>
 </tr>
 <tr>
 <td></td>
@@ -219,7 +219,7 @@ DARBĪBAS (25)
 <tr>
 <td></td>
 <td>14.</td>
-<td>Noklikšķiniet uz cilnes Vispārīgie iestatījumi.</td>
+<td>Noklikšķiniet uz cilnes Vispārīgi.</td>
 </tr>
 <tr>
 <td></td>

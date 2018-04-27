@@ -17,16 +17,16 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 2b3a384a3b9be686b10ce1f181664b0b9bbe9969
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 22f766b780d10d4fc615660990729f008007787a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="expense-management-parameters"></a>Izmaksu pārvaldības parametri
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 -----------------------------
 
@@ -87,9 +87,10 @@ ms.lasthandoff: 03/05/2018
 
 ### <a name="anti-corruption"></a>Korupcijas novēršana
 
-| **Lauks**                             | **Apraksts**      |
-|---------------------------------------|------------------------------------------------------------------------|
-|**Rādīt korupcijas novēršanas pārbaudi**   | Atlasiet šo opciju, lai rādītu korupcijas novēršanas tekstu, veidojot jaunu izdevumu pārskatu. Pēc tam var iespējot noteiktas izdevumu kategorijas, kas prasīs izdevumu pārskatā atlasīt korupcijas novēršanas pārbaudi. Piemēram, dāvanu kategorija, kas saistīta ar valsts amatpersonas izdevumiem, var prasīt darbiniekam apstiprināt, ka izdevumi atbilst uzņēmuma politikai attiecībā uz valsts amatpersonām. |
-|**Ziņojums iesniedzējam saistībā ar korupcijas novēršanu** | Ievadiet tekstu, kas tiks parādīts darbiniekam, kad viņš veidos jaunu izdevumu pārskatu. Noklikšķiniet uz pogas **Tulkojumi**, lai ievadītu valodai specifisku tekstu, kas tiks parādīts atbilstoši lietotāja valodai.         |
-|**Ziņojums apstiprinātājam saistībā ar korupcijas novēršanu**  | Ievadiet tekstu, kas tiks parādīts apstiprinātājam, kad viņš veidos jaunu izdevumu pārskatu. Noklikšķiniet uz pogas **Tulkojumi**, lai ievadītu valodai specifisku tekstu, kas tiks parādīts atbilstoši lietotāja valodai.        |
+|                 <strong>Lauks</strong>                 |                                                                                                                                                                                            <strong>Apraksts</strong>                                                                                                                                                                                             |
+|--------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  <strong>Rādīt korupcijas novēršanas pārbaudi</strong>  | Atlasiet šo opciju, lai rādītu korupcijas novēršanas tekstu, veidojot jaunu izdevumu pārskatu. Pēc tam var iespējot noteiktas izdevumu kategorijas, kas prasīs izdevumu pārskatā atlasīt korupcijas novēršanas pārbaudi. Piemēram, dāvanu kategorija, kas saistīta ar valsts amatpersonas izdevumiem, var prasīt darbiniekam apstiprināt, ka izdevumi atbilst uzņēmuma politikai attiecībā uz valsts amatpersonām. |
+| <strong>Ziņojums iesniedzējam saistībā ar korupcijas novēršanu</strong> |                                                                                             Ievadiet tekstu, kas tiks parādīts darbiniekam, kad viņš veidos jaunu izdevumu pārskatu. Noklikšķiniet uz pogas <strong>Tulkojumi</strong>, lai ievadītu valodai specifisku tekstu, kas tiks parādīts atbilstoši lietotāja valodai.                                                                                             |
+| <strong>Ziņojums apstiprinātājam saistībā ar korupcijas novēršanu</strong>  |                                                                                             Ievadiet tekstu, kas tiks parādīts apstiprinātājam, kad viņš veidos jaunu izdevumu pārskatu. Noklikšķiniet uz pogas <strong>Tulkojumi</strong>, lai ievadītu valodai specifisku tekstu, kas tiks parādīts atbilstoši lietotāja valodai.                                                                                             |
+
 

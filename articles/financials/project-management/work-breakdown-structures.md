@@ -19,16 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fc2fa16a44b6421d56e9cb662cfaa26da5b1c5d1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8bc3d23fac6112622e722e57b61fdb686f5a98ed
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="work-breakdown-structures"></a>Darba sadalījuma struktūras
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Darba sadalījuma struktūra (Work Breakdown Structure — WBS) ir projekta ietvaros veicamā darba apraksts. Tā ir uzdevumu hierarhija, kas norāda projekta grupas izpratni par darba saturu un katra komponenta vai uzdevuma lielumu, izmaksām un ilgumu. WBS ir trīs galvenie mērķi:
 
@@ -115,7 +115,7 @@ Grafika novērtējums parasti ir otrais solis, veidojot WBS. Saskaņā ar paraug
 
 Tāda lapas mezgla uzdevumu sākuma datums, kuram nav pirmstecīgu uzdevumu, tiek iestatīts automātiski uz projekta plānošanas sākuma datumu. Lapas mezgla uzdevuma ilgums vienmēr tiek aprēķināts kā darba dienu skaits starp sākuma un beigu datumu. 
 
-****Plānošanas kārtulas**** Ja ir ieslēgta automātiskās plānošanas palīdzība, uz lapas mezgla uzdevumu plānošanu attiecas tālāk norādītie noteikumi.
+*<strong><em>Plānošanas kārtulas</em></strong>* Ja ir ieslēgta automātiskās plānošanas palīdzība, uz lapas mezgla uzdevumu plānošanu attiecas tālāk norādītās kārtulas.
 
 -   Uzdevuma sākuma un beigu datumam jābūt darba dienai saskaņā ar projekta plānošanas kalendāru.
 -   Tāda uzdevuma sākuma datums, kuram ir pirmstecīgie uzdevumi, automātiski tiek iestatīts uz pirmstecīgo uzdevumu pēdējo beigu datumu.

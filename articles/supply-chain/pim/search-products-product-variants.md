@@ -20,18 +20,18 @@ ms.author: conradv
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 08715b4c31c42dfa23d72b1035a1e7cc737c13a2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2441f7cbf95512677f62eb862be99af90f3c4b17
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Meklēt preces un preces variantus pasūtījuma izveides laikā
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[Retail name](../includes/retail-name.md)]
+[!INCLUDE [Retail name](../includes/retail-name.md)]
 
 Izmantojiet lauku <strong>Krājuma kods </strong>, lai meklētu preces un preču variantus, manuāli izveidojot pārdošanas pasūtījuma vai pirkšanas pasūtījuma rindas.  Tas ļauj jums ātri atrast preces variantus, ja jums ir tikai konfigurācijas virkne, vai vienu no pieejamajām preces dimensijām.
 
@@ -72,7 +72,7 @@ Preces un preces variantu identifikatoru un dimensiju piemēri, kurus jūs varat
 
 Pārejiet uz sadaļu **Pārdošana un mārketings &gt; Iestatījumi &gt; Meklēšana &gt; Meklēšanas kritēriji**. Lapa **Meklēšanas kritēriji** ļauj definēt debitoru, potenciālo klientu un preču meklēšanas kritērijus. Pārliecinieties, ka filtrējat lapu, izmantojot preču meklēšanas kritērijus. To var paveikt, lapas izvēlnē pārslēdzoties uz **Prece**.  
 
-Lai meklēšanas kritērijiem pievienotu parādāmo preces numuru, lapas izvēlnē noklikšķiniet uz **Jauns**. Tādējādi režģī **Meklēšanas kritēriji** tiek pievienots jauns ieraksts. Atveriet kolonnas uzmeklēšanu **Lauka nosaukums**, un atlasiet **DisplayProductNumber**. Lai meklēšanas kritērijiem pievienotu preces konfigurāciju, izveidot jaunu ierakstu režģī **Meklēšanas kritēriji** un kolonnā **Lauka nosaukums** atlasiet vērtību **configId**. Tādā pašā veidā, izveidojiet ierakstu ar **Lauka nosaukumu** **InventColorId** krāsu dimensijai, **InventSizeId** izmēra dimensijai un **InventStyleId** stila dimensijai.
+Lai meklēšanas kritērijiem pievienotu parādāmo preces numuru, lapas izvēlnē noklikšķiniet uz <strong>Jauns</strong>. Tādējādi režģī <strong>Meklēšanas kritēriji</strong> tiek pievienots jauns ieraksts. Atveriet kolonnas uzmeklēšanu <strong>Lauka nosaukums</strong>, un atlasiet <strong>DisplayProductNumber</strong>. Lai preces konfigurāciju pievienotu meklēšanas kritērijiem, izveidojiet jaunu ierakstu režģī <strong>Meklēšanas kritēriji</strong>, un kolonnā <strong>Lauka nosaukums</strong> atlasiet **configId**. Tādā pašā veidā, izveidojiet ierakstu ar <strong>Lauka nosaukumu</strong> <strong>InventColorId</strong> krāsu dimensijai, <strong>InventSizeId</strong> izmēra dimensijai un <strong>InventStyleId</strong> stila dimensijai.
 
 ### <a name="step-2-populate-the-database-table-that-is-used-for-product-search"></a>2. solis: aizpildiet datu bāzes tabulu, kas tiek izmantota preču meklēšanā
 

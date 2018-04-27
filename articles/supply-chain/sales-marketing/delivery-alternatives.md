@@ -20,17 +20,16 @@ ms.author: crytt
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b2ecf2d5b14dac28a26fe172807ae2931cb4c3ca
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 58c083b2fa76e90d10ec8a197a4743a9e315db46
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="delivery-alternatives"></a>Piegādes alternatīvas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Pārdošanas pasūtījumu ņēmēji var izmantot lapu Piegādes alternatīvas, lai uzzinātu par alternatīvām pasūtījumu izpildes iespējām.
 
@@ -61,7 +60,7 @@ Piegādes datuma kontroles metode paredz, kā sistēma nosaka piegādes datumus,
 <td><strong>Apraksts</strong></td>
 </tr>
 <tr class="even">
-<td><strong>Nav</strong></td>
+<td><strong>Neviens</strong></td>
 <td><ul>
 <li>Piegādes alternatīvas pārdošanas rindām netiek atbalstītas. Šī opcija izslēdz piegādes datu kontroli.</li>
 </ul></td>

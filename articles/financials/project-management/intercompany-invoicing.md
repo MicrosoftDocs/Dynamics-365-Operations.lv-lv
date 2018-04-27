@@ -19,17 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 7cd19340c913fcda3fb537162dfbae52b5c8e922
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3d4354316d0c37c6556c0ec3d27a3c62c5afb7b0
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="intercompany-invoicing"></a>Starpuzņēmumu rēķinu izrakstīšana
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta informācija un piemēri par projektu starpuzņēmumu rēķinu izrakstīšanu programmā Microsoft Dynamics 365 for Finance and Operations.
 
@@ -58,20 +57,22 @@ Mērķis ir padarīt starpuzņēmumu projektu transakciju izmaksu kontroles, ie�
 
 Šajā piemērā juridiskajai personai FRSI ir jābūt debitoram juridiskajā personā USSI un juridiskajai personai USSI ir jābūt kreditoram juridiskajā personā FRSI. Pēc tam varat iestatīt starpuzņēmumu attiecības starp abām juridiskajām personām. Nākamajā procedūrā ir parādīts, kā iestatīt parametrus tā, lai abas juridiskās personas varētu piedalīties starpuzņēmumu rēķinu izrakstīšanā.
 
-1.  Iestatiet FRSI kā debitoru juridiskajā personā USSI un iestatiet USSI kā kreditoru juridiskajā personā FRSI. Šī uzdevuma izpildīšanai pastāv trīs ievades punkti.
-    | Solis | Ieejas punkts                                                                       | Apraksts   |
-    |------|-----------------------------------------------------------------------------------|------------------|
-    | A    | Juridiskās personas USSI sadaļā noklikšķiniet uz **Debitoru parādi** &gt; **Debitori** &gt; **Visi debitori**. | Izveidojiet jaunu debitora ierakstu juridiskajai personai FRSI un atlasiet debitoru grupu.                                                                                  |
-    | B    | Juridiskās personas FRSI sadaļā noklikšķiniet uz **Parādi kreditoriem** &gt; **Kreditori** &gt; **Visi kreditori**.        | Izveidot jaunu kreditora ierakstu juridiskajai personai USSI un atlasiet kreditoru grupu.                                                                                    |
-    | C    | Juridiskajā personā FRSI atveriet tikko izveidoto kreditora ierakstu.                            | Sadaļas Darbību rūts cilnē **Vispārīgi**, grupā **Iestatīt** noklikšķiniet uz **Starpuzņēmumu**. Lapas **Starpuzņēmumu** cilnē **Darījumu attiecības** slīdni **Aktīvs** iestatiet uz **Jā**. Laukā **Debitora uzņēmums** atlasiet darbībā A izveidoto debitora ierakstu. |
+1. Iestatiet FRSI kā debitoru juridiskajā personā USSI un iestatiet USSI kā kreditoru juridiskajā personā FRSI. Šī uzdevuma izpildīšanai pastāv trīs ievades punkti.
 
-2.  Noklikšķiniet uz **Projektu vadība un uzskaite** &gt; **Iestatījumi** &gt; **Projektu vadības un uzskaites parametri** un pēc tam noklikšķiniet uz cilnes **Starpuzņēmumu**. Veids, kādā iestatāt parametrus, ir atkarīgs no tā, vai jūs esat piesaistīšanas juridiskā persona vai patapināšanas juridiskā persona.
-    -   Ja esat piesaistīšanas juridiskā persona, atlasiet iepirkuma kategoriju, kas ir jāizmanto, lai salīdzinātu ar automātiski ģenerētajiem kreditoru rēķiniem.
-    -   Ja esat patapināšanas juridiskā persona, tad katrai piesaistīšanas juridiskajai personai atlasiet noklusējuma projektu kategoriju attiecībā uz katru transakcijas tipu. Projektu kategorijas tiek lietotas nodokļu konfigurēšanai, kad rēķinos iekļautā kategorija starpuzņēmumu transakcijās pastāv tikai piesaistīšanas juridiskajā personā. Varat izvēlēties, vai uzkrāt ieņēmumus starpuzņēmumu transakcijām. Šis uzkrājums tiek veikts, kad transakcijas tiek grāmatotas, un pēc tam tas tiek anulēts, kad starpuzņēmumu rēķins tiek grāmatots.
+   | Solis |                                                       Ieejas punkts                                                        |                                                                                                                                                                                               Apraksts                                                                                                                                                                                               |
+   |------|--------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   |  A   | Juridiskās personas USSI sadaļā noklikšķiniet uz <strong>Debitoru parādi</strong> &gt; <strong>Debitori</strong> &gt; <strong>Visi debitori</strong>. |                                                                                                                                                                  Izveidojiet jaunu debitora ierakstu juridiskajai personai FRSI un atlasiet debitoru grupu.                                                                                                                                                                  |
+   |  B   |    Juridiskās personas FRSI sadaļā noklikšķiniet uz <strong>Parādi kreditoriem</strong> &gt; <strong>Kreditori</strong> &gt; <strong>Visi kreditori</strong>.     |                                                                                                                                                                    Izveidot jaunu kreditora ierakstu juridiskajai personai USSI un atlasiet kreditoru grupu.                                                                                                                                                                    |
+   |  C   |                                  Juridiskajā personā FRSI atveriet tikko izveidoto kreditora ierakstu.                                  | Sadaļas Darbību rūts cilnē <strong>Vispārīgi</strong>, grupā <strong>Iestatīt</strong> noklikšķiniet uz <strong>Starpuzņēmumu</strong>. Lapas <strong>Starpuzņēmumu</strong> cilnē <strong>Darījumu attiecības</strong> slīdni <strong>Aktīvs</strong> iestatiet uz <strong>Jā</strong>. Laukā <strong>Debitora uzņēmums</strong> atlasiet darbībā A izveidoto debitora ierakstu. |
 
-3.  Noklikšķiniet uz **Projektu vadība un uzskaite** &gt; **Iestatījumi** &gt; **Cenas** &gt; **Transfērcena**.
-4.  Atlasiet valūtu, transakcijas tipu un transfertcenas modeli. Rēķinos izmantotā valūta ir valūta, kas ir konfigurēta debitora ierakstā piesaistīšanas juridiskajai personai šajā patapināšanas juridiskajā personā. Šī valūta tiek izmantota, lai noteiktu ierakstu atbilstību transfertcenu tabulā.
-5.  Noklikšķiniet uz **Virsgrāmata** &gt; **Grāmatošanas iestatīšana** &gt; **Starpuzņēmumu uzskaite** un iestatiet juridisko personu USSI un FRSI attiecības.
+
+2. Noklikšķiniet uz **Projektu vadība un uzskaite** &gt; **Iestatījumi** &gt; **Projektu vadības un uzskaites parametri** un pēc tam noklikšķiniet uz cilnes **Starpuzņēmumu**. Veids, kādā iestatāt parametrus, ir atkarīgs no tā, vai jūs esat piesaistīšanas juridiskā persona vai patapināšanas juridiskā persona.
+   -   Ja esat piesaistīšanas juridiskā persona, atlasiet iepirkuma kategoriju, kas ir jāizmanto, lai salīdzinātu ar automātiski ģenerētajiem kreditoru rēķiniem.
+   -   Ja esat patapināšanas juridiskā persona, tad katrai piesaistīšanas juridiskajai personai atlasiet noklusējuma projektu kategoriju attiecībā uz katru transakcijas tipu. Projektu kategorijas tiek lietotas nodokļu konfigurēšanai, kad rēķinos iekļautā kategorija starpuzņēmumu transakcijās pastāv tikai piesaistīšanas juridiskajā personā. Varat izvēlēties, vai uzkrāt ieņēmumus starpuzņēmumu transakcijām. Šis uzkrājums tiek veikts, kad transakcijas tiek grāmatotas, un pēc tam tas tiek anulēts, kad starpuzņēmumu rēķins tiek grāmatots.
+
+3. Noklikšķiniet uz **Projektu vadība un uzskaite** &gt; **Iestatījumi** &gt; **Cenas** &gt; **Transfērcena**.
+4. Atlasiet valūtu, transakcijas tipu un transfertcenas modeli. Rēķinos izmantotā valūta ir valūta, kas ir konfigurēta debitora ierakstā piesaistīšanas juridiskajai personai šajā patapināšanas juridiskajā personā. Šī valūta tiek izmantota, lai noteiktu ierakstu atbilstību transfertcenu tabulā.
+5. Noklikšķiniet uz **Virsgrāmata** &gt; **Grāmatošanas iestatīšana** &gt; **Starpuzņēmumu uzskaite** un iestatiet juridisko personu USSI un FRSI attiecības.
 
 ## <a name="example-2-create-and-post-an-intercompany-timesheet"></a>2. piemērs. Veidot un grāmatot starpuzņēmumu darba laika uzskaites tabulu
 Patapināšanas juridiskajai personai USSI ir jāizveido un jāgrāmato darba laika uzskaites tabula kādam projektam no FRSI, piesaistīšanas juridiskās personas. Šī uzdevuma izpildīšanai pastāv divi ievades punkti.

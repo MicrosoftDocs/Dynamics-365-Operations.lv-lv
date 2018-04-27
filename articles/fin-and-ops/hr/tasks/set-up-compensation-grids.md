@@ -16,10 +16,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 258149dbd610dafb8daacaf54c61e69898ca35d6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d507224004bdf319f9bf13ba07ed07ef29cc85dc
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-compensation-grids"></a>Atlīdzību režģu iestatīšana
@@ -44,16 +44,16 @@ Atlīdzības režģi tiek izmantoti, lai definētu un uzturētu algu struktūras
 1. Noklikšķiniet uz Kompensācijas struktūra.
 2. Sarakstā atzīmējiet atlasīto rindu.
 3. Laukā Līmenis ievadiet vai atlasiet kādu vērtību.
-4. Klikšķiniet Jauns.
+4. Noklikšķiniet uz Jauns.
 5. Sarakstā atzīmējiet atlasīto rindu.
 6. Laukā Līmenis ievadiet vai atlasiet kādu vērtību.
-7. Klikšķiniet Jauns.
+7. Noklikšķiniet uz Jauns.
 8. Sarakstā atzīmējiet atlasīto rindu.
 9. Laukā Līmenis ievadiet vai atlasiet kādu vērtību.
-10. Klikšķiniet Jauns.
+10. Noklikšķiniet uz Jauns.
 11. Sarakstā atzīmējiet atlasīto rindu.
 12. Laukā Līmenis ievadiet vai atlasiet kādu vērtību.
-13. Klikšķiniet Jauns.
+13. Noklikšķiniet uz Jauns.
 14. Sarakstā atzīmējiet atlasīto rindu.
 15. Laukā Līmenis ievadiet vai atlasiet kādu vērtību.
 

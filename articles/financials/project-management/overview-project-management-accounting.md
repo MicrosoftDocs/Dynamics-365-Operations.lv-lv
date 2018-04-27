@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: ProjTable
+ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -19,17 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3c4720795313180ba7ad784ea39484d6ffb9ac2f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 404f7d2b050aba1532cae0955a9579e1c2f174e3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="project-management-and-accounting"></a>Projektu vadība un uzskaite
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Projekta vadības un uzskaites funkcionalitāti var izmantot vairākās nozarēs, lai sniegtu pakalpojumus, ražotu preces vai sasniegtu rezultātu.  
 
@@ -83,6 +82,7 @@ Varat izmantot prognozēšanu, ja jūsu organizācijai ir operatīva perspektīv
 Programmatūrā Microsoft Finance and Operations varat izveidot sešu tipu projektus. Katram projekta veidam tiek lietoti atšķirīgi izmaksu un ieņēmumu atzīšanas iestatījumi. Projekta tipa izvēle ir atkarīga no šī projekta mērķa. Nākamajā tabulā ir aprakstīts katra projekta tipa tipiskais lietojums.
 
                                                                                                                                                                          |
+
 | Projekta veids      | Apraksts                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Laiks un materiāli | Laika un materiālu projektos debitoram tiek izrakstīts rēķins par visām projektā radītajām izmaksām. Šajās izmaksās ir ietvertas izmaksas par stundām, izdevumi, krājumi un papildmaksas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -127,10 +127,10 @@ Ar projektu saistītu ražošanas pasūtījumu var saistīt ar pārdošanas pas�
 
 Pamatojoties uz šo faktoru kombināciju, izmantojiet vienu no šīm metodēm:
 
--   **Gatavs krājums / saistīts ar pasūtījumu** — saistiet projektu ar pārdošanas pasūtījumu vai krājumu vajadzībām. Izmantojot šo metodi, faktiskās projekta izmaksas tiek grāmatotas tad, kad par pārdošanas pasūtījumu tiks izrakstīts rēķins vai kad pavadzīme par krājumu vajadzībām tiks atjaunināta. Izmaksas tiek grāmatotas kā gatavs krājums.
--   **Gatavs krājums / nav saistīts ar pasūtījumu** — faktiskās izmaksas nevar grāmatot, kamēr krājuma ražošanas ciklam nav statuss **Pabeigts**. Gatavā krājuma izmaksas tiks grāmatotas vienā darbībā.
--   **Patērēts krājums / saistīts ar pasūtījumu** — saistiet projektu ar krājumu vajadzībām. Izmantojot šo metodi, varat aplūkot faktiskās projekta izmaksas, kad ražošanas statuss ir **Sākts** vai ražošana ir paziņota kā pabeigta. Izmaksas tiek grāmatotas kā vairāku projektu izejmateriālu krājumu darbības un ražošanai patērētās stundas. Pēc krājumu vajadzību pavadzīmes atjaunināšanas, projekta izmaksas netiek grāmatotas. Varat arī noteikt līmeni materiālu komplekta (MK) hierarhijā, kurā tiek izsekoti projekti ražošanas procesā.
--   ****Patērēts krājums/nav saistīts ar pasūtījumu**** — saistiet projektu ar krājumu vajadzībām. Izmantojot šo metodi, varat aplūkot faktiskās projekta izmaksas, kad ražošanas statuss ir **Sākts** vai ražošana ir paziņota kā pabeigta. Izmaksas tiek grāmatotas kā vairāku projektu izejmateriālu krājumu darbības un ražošanai patērētās stundas. Varat arī noteikt līmeni MK hierarhijā, kurā tiek izsekoti projekti ražošanas procesā.
+- **Gatavs krājums / saistīts ar pasūtījumu** — saistiet projektu ar pārdošanas pasūtījumu vai krājumu vajadzībām. Izmantojot šo metodi, faktiskās projekta izmaksas tiek grāmatotas tad, kad par pārdošanas pasūtījumu tiks izrakstīts rēķins vai kad pavadzīme par krājumu vajadzībām tiks atjaunināta. Izmaksas tiek grāmatotas kā gatavs krājums.
+- **Gatavs krājums / nav saistīts ar pasūtījumu** — faktiskās izmaksas nevar grāmatot, kamēr krājuma ražošanas ciklam nav statuss **Pabeigts**. Gatavā krājuma izmaksas tiks grāmatotas vienā darbībā.
+- **Patērēts krājums / saistīts ar pasūtījumu** — saistiet projektu ar krājumu vajadzībām. Izmantojot šo metodi, varat aplūkot faktiskās projekta izmaksas, kad ražošanas statuss ir **Sākts** vai ražošana ir paziņota kā pabeigta. Izmaksas tiek grāmatotas kā vairāku projektu izejmateriālu krājumu darbības un ražošanai patērētās stundas. Pēc krājumu vajadzību pavadzīmes atjaunināšanas, projekta izmaksas netiek grāmatotas. Varat arī noteikt līmeni materiālu komplekta (MK) hierarhijā, kurā tiek izsekoti projekti ražošanas procesā.
+- *<strong><em>Patērēts krājums/nav saistīts ar pasūtījumu</em></strong>*  — saistiet projektu ar krājumu vajadzībām. Izmantojot šo metodi, varat aplūkot faktiskās projekta izmaksas, kad ražošanas statuss ir <strong>Sākts</strong> vai ražošana ir paziņota kā pabeigta. Izmaksas tiek grāmatotas kā vairāku projektu izejmateriālu krājumu darbības un ražošanai patērētās stundas. Varat arī noteikt līmeni MK hierarhijā, kurā tiek izsekoti projekti ražošanas procesā.
 
 ### <a name="procure-products-and-services"></a>Preču un pakalpojumu sagāde
 
@@ -239,9 +239,8 @@ Veidojot novērtējumu, varat izvēlēties metodi, kas tiek izmantota, lai aprē
 <li>Salīdziniet budžeta darbības ar faktiskajām darbībām.</li>
 <li>Saglabājiet tādus pašus, samaziniet vai palieliniet novērtējumus nākamajam periodam.</li>
 </ol>
-Programmatūrā Finance and Operations netiek automātiski samazināts prognozētais budžets. Tādēļ ieteicams saglabāt sākotnējo budžeta modeli fiksētas cenas projektam, lai izveidotu bāzlīniju salīdzināšanai, kad projekts ir pabeigts. 
-> [!NOTE] Ja izvēlaties šo metodi, izmantojiet vismaz divus budžeta modeļus. Vienā modelī jābūt ietvertai sākotnējai prognozei. Otrā modelī ir jāiekopē budžeta darbības no cita modeļā. Šī metode ir derīga tikai fiksētas cenas un investīciju projektiem.</td>
-> </tr>
+Programmatūrā Finance and Operations netiek automātiski samazināts prognozētais budžets. Tādēļ ieteicams saglabāt sākotnējo budžeta modeli fiksētas cenas projektam, lai izveidotu bāzlīniju salīdzināšanai, kad projekts ir pabeigts. &gt; [!NOTE] &gt; Ja izvēlaties šo metodi, izmantojiet vismaz divus budžeta modeļus. Vienā modelī jābūt ietvertai sākotnējai prognozei. Otrā modelī ir jāiekopē budžeta darbības no cita modeļā. Šī metode ir derīga tikai fiksētas cenas un investīciju projektiem.</td>
+</tr>
 <tr class="odd">
 <td>Atlikušais budžets</td>
 <td>Šai metodei tiek izmantots atlikušā budžeta modelis, lai aprēķinātu projekta pabeigšanas izmaksas. Izmantojot šo metodi, faktiskās izmaksas un prognozētās summas atlikušā budžeta modelī tiek saskaitītas. Rezultāts ir kopējās izmaksas. Pirms šīs metodes izmantošanas ir jāiestata atlikušā budžeta modelis, lai atskaitītu transakcijas, pamatojoties uz faktiskajām transakcijām, kas ir reģistrētas sistēmā. Lapā <strong>Budžeta modeļi</strong> pārliecinieties, ka ir atzīmēti lauki grupā <strong>Automātiskā prognozes samazināšana</strong>. Parasti atlikušais budžets tiek kopēts no sākotnējā budžeta. Ievadot darbības, atlikušā budžeta darbības tiek samazinātas. Projekta norises gaitā, ja konstatējat, ka atlikušais budžets ir jāpielāgo, budžeta darbības tiek veiktas atlikušajā budžetā. <strong>Piezīme.</strong> Šo metodi var lietot tikai tad, ja novērtējumam ir pievienots budžeta modelis.</td>

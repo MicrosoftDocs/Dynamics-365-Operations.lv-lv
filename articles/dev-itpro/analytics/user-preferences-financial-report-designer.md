@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1cabaf8a579fcd9722e409630038167afb07ffc6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d0307db3a49bcdb62146b815383f744c5b8e0fde
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="user-preferences-in-financial-report-designer"></a>Lietotāja preferences finanšu atskaišu veidotājā
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā ir paskaidrots, kā iestatīt lietotāja preferences, lai pielāgotu jūsu lietotāju mijiedarbības finanšu atskaišu veidotājā un kontrolētu sākotnējo pierakstīšanās pieredzi. Varat arī kontrolēt, kā tiek rādītas atsevišķas atskaites, atskaišu bibliotēka un failu noklusējuma atrašanās vietas. 
 
@@ -63,7 +62,7 @@ ms.lasthandoff: 11/03/2017
 <td>Atlasiet, vai saņemt brīdinājumu, kad programmu aizverat. Šis ziņojums palīdz garantēt, ka programmu neaizverat nejauši.</td>
 </tr>
 <tr class="odd">
-<td>Automātiski lietot šūnu pasvītrojumu kolonnu virsrakstiem</td>
+<td>Automātiski lietot šūnu pasvītrojumu kolonnu virsrakstos</td>
 <td>Atlasiet, vai ievieto pasvītrojumu šūnā, kas satur jaunu kolonnas virsrakstu.</td>
 </tr>
 <tr class="even">

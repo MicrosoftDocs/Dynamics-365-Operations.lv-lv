@@ -3,7 +3,7 @@ title: Viens dokuments
 description: "Viens dokuments ļauj finanšu žurnālos (virsgrāmatas žurnālā, pamatlīdzekļu žurnālā, kreditoru maksājumu žurnālā u. c. žurnālos) ievadīt vairākas apakšgrāmatas transakcijas saistībā ar vienu dokumentu."
 author: kweekley
 manager: AnnBe
-ms.date: 03/19/2018
+ms.date: 04/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,16 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 3831a6b5ec458495134b4b490d33a9acd76b6d2e
-ms.openlocfilehash: 76ea8470786bd50896400a65564d698d96119d6f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9f996131830f9bd4efd534143b3fb761c5ccc756
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="one-voucher"></a>Viens dokuments
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
 >  Šī funkcionalitāte būs pieejama 2018. gada pavasara laidiena Dynamics 365 for Finance and Operations versijā 8.0.   
@@ -38,9 +38,12 @@ ms.lasthandoff: 03/20/2018
 
 Šī funkcionalitāte ļauj finanšu žurnālos (virsgrāmatas žurnālā, pamatlīdzekļu žurnālā, kreditoru maksājumu žurnālā u. c. žurnālos) ievadīt vairākas apakšgrāmatas transakcijas saistībā ar vienu dokumentu. Mēs šīs funkcionalitātes apzīmēšanai izmantojam nosaukumu “Viens dokuments”. Vienu dokumentu var izveidot, izmantojot vienu no tālāk aprakstītajām metodēm.
 
--   Iestatiet žurnāla nosaukumu (**Virsgrāmata** \> **Žurnāla iestatīšana** \>**Žurnālu nosaukumi**), laukam **Jauns dokuments** atlasot iestatījumu **Tikai 1 dokumenta numurs**. Tagad visas rindas, ko pievienosit žurnālam, tiks iekļautas tajā pašā dokumentā. Tā kā visas rindas tiek pievienotas vienam dokumentam, dokumentu var ievadīt kā vairāku rindu dokumentu, kā vienas rindas kontu/korespondējošo kontu vai kā kombināciju.
+-   Iestatiet žurnāla nosaukumu (**Virsgrāmata** \> **Žurnāla iestatīšana** \>**Žurnālu nosaukumi**), laukam **Jauns dokuments** atlasot iestatījumu **Tikai 1 dokumenta numurs**. * Tagad visas rindas, ko pievienosit žurnālam, tiks iekļautas tajā pašā dokumentā. Tā kā visas rindas tiek pievienotas vienam dokumentam, dokumentu var ievadīt kā vairāku rindu dokumentu, kā vienas rindas kontu/korespondējošo kontu vai kā kombināciju.
 
 [![Atsevišķas rindas](./media/same-line.png)](./media/same-line.png)
+ 
+> [!IMPORTANT] 
+> *  Ņemiet vērā, ka “Viena dokumenta” definīcija NEIETVER žurnālu nosaukumus, kuri ir iestatīti kā **Tikai 1 dokumenta numurs**, un pēc tam lietotājs ievada dokumentu, kurā ietverti tikai virsgrāmatas kontu tipi.  Šajā dokumentā “Viens dokuments” nozīmē, ka pastāv viens dokuments, kas ietver vairāk nekā vienu kreditoru, debitoru, banku, pamatlīdzekli vai projektu. 
 
 -   Ievadiet vairāku rindu dokumentu, kurā nav norādīts korespondējošais konts.
 
@@ -68,13 +71,16 @@ Pēc tam ģenerējat pārskatu **Izdevumi pēc kreditora** darbvietā **Finanšu
 
 Ņemot vērā iepriekš minētās problēmas, funkcionalitāte “Viens dokuments” tiks deaktivizēta kā novecojusi. Tomēr šī funkcionalitāte netiks deaktivizēta uzreiz, jo šī funkcionalitāte ir nepieciešama dažu funkcionālo trūkumu novēršanai. Tā vietā mēs izmantosim tālāk norādīto grafiku. 
 
--   **2018. gada pavasara laidiens** — funkcionalitāte tiks izslēgta pēc noklusējuma, izmantojot Virsgrāmatas parametru. Tomēr funkcionalitāti būs iespējams ieslēgt, ja jūsu organizācijā tiek izmantots kāds no tālāk šajā tēmā uzskaitītajiem biznesa scenāriju izņēmumiem.
+- **2018. gada pavasara laidiens** — funkcionalitāte tiks izslēgta pēc noklusējuma, izmantojot Virsgrāmatas parametru. Tomēr funkcionalitāti būs iespējams ieslēgt, ja jūsu organizācijā tiek izmantots kāds no tālāk šajā tēmā uzskaitītajiem biznesa scenāriju izņēmumiem.
 
-    -   Ja debitora biznesa scenārijam nav nepieciešama funkcionalitāte “Viens dokuments”, neieslēdziet funkcionalitāti. Mēs nelabosim kļūdas, kas attiecas uz tālāk šajā tēmā norādītajiem gadījumiem, ja šī funkcionalitāte tiek izmantota, kaut arī pastāv cits risinājums.
+  -   Ja debitora biznesa scenārijam nav nepieciešama funkcionalitāte “Viens dokuments”, neieslēdziet funkcionalitāti. Mēs nelabosim kļūdas, kas attiecas uz tālāk šajā tēmā norādītajiem gadījumiem, ja šī funkcionalitāte tiek izmantota, kaut arī pastāv cits risinājums.
 
-    -   Pārtrauciet funkcionalitātes “Viens dokuments” izmantošanu integrēšanai risinājumā Microsoft Dynamics 365 Finance and Operations, ja vien šī funkcionalitāte nav nepieciešama kāda funkcionālā trūkuma novēršanai.
+  -   Pārtrauciet funkcionalitātes “Viens dokuments” izmantošanu integrēšanai risinājumā Microsoft Dynamics 365 Finance and Operations, ja vien šī funkcionalitāte nav nepieciešama kāda funkcionālā trūkuma novēršanai.
 
--   **2018. gada rudens un vēlāki laidieni** — funkcionālie trūkumi būs novērsti. Pēc funkcionālo trūkumu novēršanas, funkcionalitāte “Viens dokuments” tiks neatgriezeniski izslēgta.
+- **2018. gada rudens un vēlāki laidieni** — funkcionālie trūkumi būs novērsti. Pēc funkcionālo trūkumu novēršanas, funkcionalitāte “Viens dokuments” tiks neatgriezeniski izslēgta.
+
+- > [!IMPORTANT]
+  > Lūdzu, ņemiet vērā, ka opcija **Tikai 1 dokumenta numurs** NAV izņemta no žurnāla nosaukuma iestatījumiem.  Šī opcija joprojām tiek atbalstīta, ja dokuments satur tikai virsgrāmatas kontu tipus.  Klientiem ir jābūt uzmanīgiem, lietojot šo iestatījumu, jo dokumentu nevar grāmatot, ja tie izmanto opciju **Tikai 1 dokumenta numurs**, bet pēc tam ievada vairāk nekā vienu debitoru, kreditoru, banku, pamatlīdzekli vai projektu.  Turklāt klienti joprojām var ievadīt apakšgrāmatas kontu tipu kombināciju, piemēram, maksājumu viena dokumenta ietvaros, kas satur konta tipus Kreditors\Banka.  
 
 <a name="why-use-one-voucher"></a>Kādos gadījumos izmantot funkcionalitāti “Viens dokuments”?
 ====================
@@ -102,13 +108,13 @@ Tālāk norādītajos scenārijos noteiktas darbības ir izpildāmas, tikai izma
 
 >   Ja organizācijai ir nepieciešams skatīt visus biznesa notikuma uzskaites ierakstus kopā, ir jāizmanto funkcionalitāte “Viens dokuments”. 
 
--   **Noteiktās valstīs izmantojami līdzekļi**
+- **Noteiktās valstīs izmantojami līdzekļi**
 
- -   Līdzekļa “Vienkāršais administratīvais dokuments (SAD)” darbības nodrošināšanai Polijā pašlaik ir nepieciešams izmantot vienu dokumentu. Jums ir jāturpina izmantot funkcionalitāte “Viens dokuments”, līdz šim līdzeklim būs pieejama grupēšanas opcija. Iespējami arī citi noteiktās valstīs izmantojami līdzekļi, kuriem ir nepieciešams izmantot funkcionalitāti “Viens dokuments”.
+  -   Līdzekļa “Vienkāršais administratīvais dokuments (SAD)” darbības nodrošināšanai Polijā pašlaik ir nepieciešams izmantot vienu dokumentu. Jums ir jāturpina izmantot funkcionalitāte “Viens dokuments”, līdz šim līdzeklim būs pieejama grupēšanas opcija. Iespējami arī citi noteiktās valstīs izmantojami līdzekļi, kuriem ir nepieciešams izmantot funkcionalitāti “Viens dokuments”.
 
--   **Debitoru priekšapmaksas maksājumu žurnāls, kurā nodokļi ir norādīti vairākās rindās**
+- **Debitoru priekšapmaksas maksājumu žurnāls, kurā nodokļi ir norādīti vairākās rindās**
 
- -   Debitors veic priekšapmaksu par pasūtījumu, un pasūtījuma rindās ir norādīti dažādi nodokļi, kas ir jāreģistrē, veicot priekšapmaksu. Debitora priekšapmaksas maksājums ir viena transakcija, kas simulē pasūtījuma rindas, lai attiecīgo nodokli varētu ierakstīt katrā summas rindā.
+  -   Debitors veic priekšapmaksu par pasūtījumu, un pasūtījuma rindās ir norādīti dažādi nodokļi, kas ir jāreģistrē, veicot priekšapmaksu. Debitora priekšapmaksas maksājums ir viena transakcija, kas simulē pasūtījuma rindas, lai attiecīgo nodokli varētu ierakstīt katrā summas rindā.
 
 Šādā gadījumā vienā dokumentā norādītie debitori atbilst vienam un tam pašam debitoram, jo transakcija simulē debitora pasūtījuma rindas. Priekšapmaksas dati ir jāievada vienā dokumentā, jo nodokļu aprēķināšana ir jāveic debitora veiktā viena maksājuma rindās.
 

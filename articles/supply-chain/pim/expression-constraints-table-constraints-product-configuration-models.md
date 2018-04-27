@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3206e53c4f2659c6d9b9be64b01ac28cdd17bc88
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0235cf112b59ee86f77d26044e47eb9bff8f67db
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Izteiksmes ierobežojumi un tabulas ierobežojumi preču konfigurācijas modeļos
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā aprakstīta izteiksmes ierobežojumu un tabulas ierobežojumu lietošana. Ierobežojumi, lai kontrolē atribūta vērtības, ko varat atlasīt, kad konfigurējat preces pārdošanas piedāvājumam, pirkšanas pasūtījumam vai ražošanas pasūtījumam. Var izmantot izteiksmes ierobežojumus vai tabulas ierobežojumus, atkarībā no tā, kā vēlaties veidot ierobežojumus. 
 
@@ -204,23 +203,24 @@ Tālāk esošajās tabulās uzskaitīti operatori un infiksālā pierakste, ko v
 
 Piemēri nākamajā tabulā parada, kā rakstīt infiksālo pieraksti.
 
-| Infiksālā pierakste    | Apraksts                                                                                   |
+
+|  Infiksālā pierakste   |                                          Apraksts                                          |
 |-------------------|-----------------------------------------------------------------------------------------------|
-| x + y + z         | Saskaitīšana                                                                                      |
-| x \* y \* z       | Reizināšana                                                                                |
-| x - y             | Binārā atņemšana tiek transformēta tāpat kā binārā saskaitīšana, ja ir negatīvā otrā vērtība. |
-| x ^ y ^ z         | Kāpinājums, kam ir labās puses asociācija                                                   |
-| !x                | Nav Būla                                                                                   |
-| x -: y            | Būla saistība                                                                           |
-| x | y | z         | Būla vai                                                                                    |
-| x & y & z         | Būla un                                                                                   |
-| x == y == z       | Vienādība                                                                                      |
-| x != y != z       | Noteikts                                                                                      |
-| x &lt; y &lt; z   | Mazāks nekā                                                                                     |
-| x &gt; y &gt; z   | Lielāks nekā                                                                                  |
-| x &lt;= y &lt;= z | Mazāks vai vienāds ar                                                                         |
-| x &gt;= y &gt;= z | Lielāks vai vienāds ar                                                                      |
-| (x)               | Iekavas ignorē noklusējuma prioritāti.                                                      |
+|     x + y + z     |                                           Saskaitīšana                                            |
+|    x \* y \* z    |                                        Reizināšana                                         |
+|       x - y       | Binārā atņemšana tiek transformēta tāpat kā binārā saskaitīšana, ja ir negatīvā otrā vērtība. |
+|     x ^ y ^ z     |                          Kāpinājums, kam ir labās puses asociācija                          |
+|        !x         |                                          Nav Būla                                          |
+|      x -: y       |                                      Būla saistība                                      |
+|         k         |                                               y                                               |
+|     x & y & z     |                                          Būla un                                          |
+|    x == y == z    |                                           Vienādība                                            |
+|    x != y != z    |                                           Noteikts                                            |
+|  x &lt; y &lt; z  |                                           Mazāks nekā                                           |
+|  x &gt; y &gt; z  |                                         Lielāks nekā                                          |
+| x &lt;= y &lt;= z |                                     Mazāks vai vienāds ar                                     |
+| x &gt;= y &gt;= z |                                   Lielāks vai vienāds ar                                    |
+|        (x)        |                           Iekavas ignorē noklusējuma prioritāti.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Kāpēc mani izteiksmes ierobežojumi nevalidējas pareizi?
 Nevar izmantot rezervētus atslēgas vārdus kā risinātāja nosaukumus atribūtiem, sastāvdaļām vai apakšsastāvdaļām preces konfigurācijas modelī. Tālāk ir saraksts ar rezervētajiem atslēgvārdiem, kurus jūs nevarat izmantot.

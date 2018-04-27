@@ -20,22 +20,22 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 468227e40165fa37e9ce80d5f52ded8e9094e5d1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a0a28ba5072d55b8133f5458f75befa752a3dcdf
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="production-parameters-in-manufacturing-execution"></a>Ražošanas parametri ražošanas izpildes procesā
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par ražošanas parametru iestatīšanu modulī Ražošanas izpilde.
 
 Moduli **Ražošanas izpilde** galvenokārt ir paredzēts izmantot ražošanas uzņēmumos. To var izmantot, lai reģistrētu ražošanas darbu vai projektu laiku un krājumu patēriņu. Pirms moduli Ražošanas izpilde izmantot darbu reģistrācijai, ir jāiestata dažādi ražošanas parametri, kas nosaka, kā un kad reģistrācijas tiek grāmatotas ražošanas procesa laikā. Ražošanas parametru iestatījumi ietekmē krājumu pārvaldību, ražošanas pārvaldību un izmaksu aprēķinu.
 
-Pirms darbinieki sāk reģistrācijas ražošanas darbos, nopietni apsveriet visus iestatījumus lapā **Ražošanas parametri**. Noklikšķiniet uz vienuma **Ražošanas kontrole** &gt; **Ražošanas izpilde** &gt; **Ražošanas pasūtījuma noklusējuma vērtības**. Ja jūsu uzņēmums izmanto vairākvietu funkcijas, iespējams, vēlaties katrai vietai iestatīt atšķirīgas ražošanas parametrus. Parametri integrācijai modulī **Ražošana** tiek iestatīti tālāk norādītajās lapas **Ražošanas parametri** cilnēs.
+Pirms darbinieki sāk reģistrācijas ražošanas darbos, nopietni apsveriet visus iestatījumus lapā **Ražošanas parametri**. Noklikšķiniet uz vienuma **Ražošanas kontrole** &gt; **Uzstādīt** &gt; **Ražošanas izpilde** &gt; **Ražošanas pasūtījuma noklusējuma vērtības**. Ja jūsu uzņēmums izmanto vairākvietu funkcijas, iespējams, vēlaties katrai vietai iestatīt atšķirīgas ražošanas parametrus. Parametri integrācijai modulī **Ražošana** tiek iestatīti tālāk norādītajās lapas **Ražošanas parametri** cilnēs.
 
 - **Vispārīgi** — vispārīgi parametru iestatījumi ražošanas darbiem modulī Ražošanas izpilde.
 - **Sākums** — parametri, kas izmantoti, kad ražošanas operācijas ir sāktas.
@@ -69,17 +69,17 @@ Katram posmam laukā **Automātisks MK patēriņš** var atlasīt vienu no trim
 
 - **Norakstīšanas princips** — šī opcija tiek izmantota kopā ar opciju, kas noteikta attiecībā uz MK modulī **Ražošana**. Noklikšķiniet uz **Ražošanas kontrole** &gt; **Vispārīgi** &gt; **Ražošanas pasūtījumi** &gt; **Visi ražošanas pasūtījumi**. Lapā **Visi ražošanas pasūtījumi** sarakstā izvēlieties ražošanas pasūtījumu un pēc tam darbību rūti noklikšķiniet uz **MK**. Lapas **MK** cilnes **Iestatījumi** laukā **Norakstīšanas princips** atlasiet vienu no šīm opcijām:
 
-    - **Sākums**;
-    - **Beigas**;
-    - **Manuāli**;
-    - tukšs (nav opcija ir izvēlēta);
-    - **Pieejams atrašanās vietā**.
+  - **Sākums**;
+  - **Beigas**;
+  - **Manuāli**;
+  - tukšs (nav opcija ir izvēlēta);
+  - **Pieejams atrašanās vietā**.
 
     Ja ražošanas izpildē cilnes **Sākums** laukā **Automātisks MK patēriņš** tika atlasīta metode **Norakstīšanas princips**, visi materiāli, kam iestatīta MK opcija **Sākums** tiek atvilkti no krājuma, kad operācija tiek sākta. Opcija **Pieejams atrašanās vietā** tiek izmantota precēm, kas ir iespējotas papildu noliktavas procesiem. Atlasot norakstīšanas principu, materiāli tiek norakstīti, kad izejmateriālu izdošanas noliktavas darbs ir pabeigts. Materiāli tiek norakstīti arī tad, kad MK rinda, kas izmanto šo norakstīšanas principu, tiek izdota noliktavā un materiāli ir pieejami ražošanas ievades atrašanās vietai.
-    
+
     > [!NOTE]
     > Ja ražošanas izpildē laukam **Norakstīšanas princips** ir iestatīta opcija **Sākums**, tas pats princips ir jāatlasa cilnē **Operācijas** vai cilnē **Ziņot kā pabeigtu**. Šī prasība palīdz nodrošināt, ka materiāli tiek atskaitīti no tiem MK krājumiem, kuri ražošanas pasūtījumā kā norakstīšanas principu lieto opciju **Beigas**. Ja tas pats norakstīšanas princips nav atlasīts cilnē **Operācijas** vai **Ziņot kā pabeigtu**, materiāli var tikt atvilkti no krājumiem divas reizes.
- 
+
 - **Vienmēr** — atlasot posmam šo opciju, materiāli vienmēr tiek atvilkti no krājumiem šajā posmā. Piemēram, ražošanai nepieciešamie materiāli tiek atvilkti, kad ražošanas pasūtījums tiek sākts. Šis iestatījums nosaka, ka cilnē **Operācijas** un **Ziņot kā pabeigtu** jāatlasa opcija **Nekad**. Šī prasība neļauj vienības atvilkt no krājumiem divas reizes.
 - **Nekad** — ja posmam atlasāt šo opciju, šajā posmā nav MK patēriņa. Piemēram, atlasot **Nekad** visas trīs cilnēs (**Sākums**, **Operācijas** un **Ziņot kā pabeigtu**), materiāli ir manuāli jāatvelk no krājumiem.
 
@@ -146,11 +146,13 @@ Pamatojoties uz atlasēm, kas ir aprakstītas iepriekš šajā sadāļā, izdoš
 
 Šos iestatījumus var izmantot, ja materiāli vienmēr ir manuāli jāatskaita no noliktavas. Šajā gadījumā izdošanas saraksta žurnāli netiek grāmatoti.
 
-| Cilne                | Lauks                          | Iestatījums    |
-|--------------------|--------------------------------|------------|
-| Sākšana              | Labot sākšanu tiešsaistē           | **Statuss** |
-| Sākšana              | Automātisks MK patēriņš      | **Nekad**  |
-| Operations         | Automātisks MK patēriņš      | **Nekad**  |
-| Ziņot kā pabeigtu | Automātisks MK patēriņš      | **Nekad**  |
-| Ziņot kā pabeigtu | Labot pabeigtu pārskatu tiešsaistē | **Statuss** |
+
+|        Cilne         |             Lauks              |         Iestatījums         |
+|--------------------|--------------------------------|-------------------------|
+|       Sākšana        |      Labot sākšanu tiešsaistē      | <strong>Statuss</strong> |
+|       Sākšana        |   Automātisks MK patēriņš    | <strong>Nekad</strong>  |
+|     Operations     |   Automātisks MK patēriņš    | <strong>Nekad</strong>  |
+| Ziņot kā pabeigtu |   Automātisks MK patēriņš    | <strong>Nekad</strong>  |
+| Ziņot kā pabeigtu | Labot pabeigtu pārskatu tiešsaistē | <strong>Statuss</strong> |
+
 

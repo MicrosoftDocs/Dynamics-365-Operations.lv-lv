@@ -19,17 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: 0ec45fcf7cebf530b3a5889a857214b97b3fffbb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f4dc2c15d35d93d1563c866b20ad7f2bbb5c8457
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="transportation-management-overview"></a>Transportēšanas pārvaldības pārskats
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegts apskats par transportēšanas pārvaldības funkcionalitāti programmā Microsoft Dynamics 365 for Finance and Operations.
 
@@ -53,16 +52,16 @@ Transportēšanas pārvaldība jums ļauj lietot jūsu uzņēmuma transportēša
 </tr>
 <tr class="even">
 <td>Paša uzņēmuma autoparks ir pieejams piegādei/saņemšanai, un piegādes maksas tiek nodotas debitoriem.</td>
-<td>Izejošajiem procesiem transportēšanas pārvaldību var izmantot, lai noteiktu transportēšanas maksas un nodotu tās debitoriem. Tomēr nav nepieciešams pārvadātāja rēķina saskaņošanas process.</td>
+<td>Izejošajiem procesiem transportēšanas pārvaldību var izmantot, lai noteiktu transportēšanas maksas un nodotu tās debitoriem. Taču nav nepieciešams pārvadātāja rēķina saskaņošanas process.</td>
 </tr>
 <tr class="odd">
-<td>Paša uzņēmuma autoparks ir pieejams piegādei/saņemšanai, taču piegādes maksas netiek nodotas debitoriem, jo preču cenās ir iekļauta transportēšana.</td>
+<td>Paša uzņēmuma autoparks ir pieejams piegādei/saņemšanai, bet piegādes maksas netiek nodotas debitoriem, jo preču cenās ir ietverta transportēšana.</td>
 <td>Liela daļa transportēšanas pārvaldības funkcionalitātes nav nepieciešama. Tomēr transportēšanas pārvaldību var izmantot, lai noteiktu transportēšanas likmes un attiecīgi pielāgotu pārdošanas cenu.</td>
 </tr>
 <tr class="even">
 <td>Loģistikas pakalpojumus sniedz cita juridiska persona tajā pašā uzņēmumā.</td>
 <td><ul>
-<li>Transportēšanas pārvaldību var izmantot, veicot darbības ar citu juridisku personu tāpat kā ar jebkuru citu sūtījumu pārvadātāju. Ekonomiskās darbības starp juridiskajām personām nevar automatizēt. Tādēļ jums jāapstrādā šīs darbības manuāli (piemēram, izveidojot pirkšanas pasūtījumu).</li>
+<li>Transportēšanas pārvaldību var izmantot, veicot darbības ar citu juridisku personu tāpat kā ar jebkuru citu sūtījumu pārvadātāju. Ekonomiskās transakcijas starp juridiskajām personām nevar automatizēt. Tādēļ jums jāapstrādā šīs darbības manuāli (piemēram, izveidojot pirkšanas pasūtījumu).</li>
 <li>Juridiskajā personā, kas nodrošina loģistikas pakalpojumus, transportēšanas pārvaldību var izmantot, lai noteiktu transportēšanas likmes.</li>
 </ul></td>
 </tr>

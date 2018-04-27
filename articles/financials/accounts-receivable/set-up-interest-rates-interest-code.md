@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7ae0bfdc157a7e2e5b9f871dae487a6f85e889b9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c0e80bae4716d2b12f515f38d3b641de24680571
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Procentu likmju iestatīšana interešu kodam
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Procentu kodi satur iestatījumus, kas nosaka, kad procenti tiek aprēķināti un kā tie tiek aprēķināti nokavētiem kontiem.
 
@@ -47,17 +46,17 @@ Kad procentu kods tiek izmantots, lai aprēķinātu procentus, tiek izveidots at
 ## <a name="interest-rates-based-on-a-percentage"></a>Uz procentuālu daudzumu balstītas procentu likmes
 Varat iestatīt procentu likmes, kas aprēķina noteiktu procentu.
 
--   Procentu summa attiecas uz visām valūtām.
--   Iespējams ievadīt neobligātus procentu summas ierobežojumus.
--   Vienums **Procenti** ir atlasīts** **laukā **Aprēķināt procentus, pamatojoties uz**, kurš atrodas lapā **Iestatīt procentu kodus**.
+- Procentu summa attiecas uz visām valūtām.
+- Iespējams ievadīt neobligātus procentu summas ierobežojumus.
+- Vienums <strong>Procenti</strong> ir atlasīts laukā <strong>Aprēķināt procentus, pamatojoties uz</strong>, kurš atrodas lapā <strong>Iestatīt procentu kodus</strong>.
 
 Piemēram, lai iestatītu procentu kodu, kas novērtē 5 procentu soda naudu par katriem diviem mēnešiem, kuros rēķina maksājums pārsniedz transakcijas izpildes datumu, laukā **Aprēķināt procentus ik pēc šāda laikposma** ir jāievada 2 un jāatlasa **Mēnesis**.
 
 ## <a name="interest-rates-based-on-amounts"></a>Uz summām balstītas procentu likmes
 Varat iestatīt procentu likmes, kas aprēķina norādīto summu pēc valūtām.
--   Procentu summa tiek norādīta katrai valūtai procentu kodā.
--   Iespējams ievadīt neobligātus procentu summas ierobežojumus.
--   Vienums **Summa **ir atlasīts laukā **Aprēķināt procentus, pamatojoties uz**, kurš atrodas lapā **Iestatīt procentu kodus**.
+- Procentu summa tiek norādīta katrai valūtai procentu kodā.
+- Iespējams ievadīt neobligātus procentu summas ierobežojumus.
+- Vienums <strong>Summa</strong> ir atlasīts laukā **Aprēķināt procentus, pamatojoties uz**, kurš atrodas lapā <strong>Iestatīt procentu kodus</strong>.
 
 Piemēram, lai iestatītu procentu kodu, kas novērtē 25,00 soda naudu par katrām 20 dienām, kurās rēķina maksājums pārsniedz transakcijas izpildes datumu, laukā **Aprēķināt procentus ik pēc šāda laikposma** ir jāievada 20 un ir jāatlasa vienums **Diena**.
 
@@ -84,7 +83,7 @@ Iestatiet diapazona informāciju, kā norādīts tālāk.
 | 1,001          | 2.                  |
 | 5,001          | 3.                  |
 
- 
+
 ## <a name="example-2-interest-by-range--days"></a>2. piemērs: procenti pēc diapazona = dienas
 --------------------------------------------------
 
@@ -105,7 +104,7 @@ Iestatiet diapazona informāciju, kā norādīts tālāk.
 | 61             | 15.                 |
 | 91             | 20.                 |
 
- 
+
 ## <a name="example-3-interest-by-range--months"></a>3. piemērs: procenti pēc diapazona = mēneši
 ----------------------------------------------------
 

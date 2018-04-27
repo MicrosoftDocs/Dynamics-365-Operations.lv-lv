@@ -19,17 +19,16 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7af00d0c66f70aa41cfab0ffccef39ba4c115803
-ms.openlocfilehash: 98f5696cd6a279bdf0f8d9026a74e5a9bccd2f13
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 60edc05bb45db973eb2e16dd833015c9a4873918
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Krājumu un izejmateriālu izsekošana krājumos, ražošanā un pārdošanā
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā jūs varat izmantot krājuma izsekošanu, lai identificētu, kur krājumi vai izejmateriāli ir izmantoti, tiek izmantoti vai tiks izmantoti ražošanas un pārdošanas procesos.
 
@@ -129,7 +128,7 @@ Kad ir izsekošana ir palaista, var izmantot pogas **Izsekošana no līmeņa** t
 Ja vēlaties izmantot opciju **Jauna atpakaļ vērsta izsekošana** vai **Jauna uz priekšu vērsta izsekošana**, jāizmanto funkcionalitāte **Atvērt jaunā logā**, lai jaunā izsekošana tiek parādīta jaunā logā.
 
 ## <a name="can-i-save-the-trace-details"></a>Vai es varu saglabāt izsekošanas detalizēto informāciju?
-Cilnē **Detalizēta informācija** pieejamos datus var saglabāt XML faila formātā, darbību rūtī zem darbības ****Izsekošana**** noklikšķinot uz **Eksportēt**. Papildus izsekošanas datiem XML formāta failā ir iekļauti dati par izsekošanas kritērijiem, pamatlīmeni un rīcībā esošo daudzumu. Detalizētās informācijas par izsekošanu saglabāšanas iespēja ir noderīga, piemēram, ja vēlaties pievienot informāciju kvalitātes pārbaudes pasūtījumam vai citos atbilstības novērtēšanas dokumentos. Varat norādīt faila saglabāšanas vietu. Lai tūlītēji skatītu failu, atlasiet opciju **Parādīt dokumentu**. **Piezīme.** Fails tiek saglabāts arī tad, ja vēlaties to tikai apskatīt. Pēc noklusējuma pārlūkprogrammas logā tiek atvērts XML fails. Taču var arī noklikšķināt ar peles labo pogu uz faila un atlasīt **Atvērt ar** un pēc tam atlasīt programmu, kura jāizmanto satura parādīšanai.
+Cilnē <strong>Detalizēta informācija</strong> pieejamos datus var saglabāt XML faila formātā, darbību rūtī zem darbības *<strong><em>Izsekošana</em></strong>* noklikšķinot uz <strong>Eksportēt</strong>. Papildus izsekošanas datiem XML formāta failā ir iekļauti dati par izsekošanas kritērijiem, pamatlīmeni un rīcībā esošo daudzumu. Detalizētās informācijas par izsekošanu saglabāšanas iespēja ir noderīga, piemēram, ja vēlaties pievienot informāciju kvalitātes pārbaudes pasūtījumam vai citos atbilstības novērtēšanas dokumentos. Varat norādīt faila saglabāšanas vietu. Lai tūlītēji skatītu failu, atlasiet opciju <strong>Parādīt dokumentu</strong>. <strong>Piezīme.</strong> Fails tiek saglabāts arī tad, ja vēlaties to tikai apskatīt. Pēc noklusējuma pārlūkprogrammas logā tiek atvērts XML fails. Taču var arī noklikšķināt ar peles labo pogu uz faila un atlasīt <strong>Atvērt ar</strong> un pēc tam atlasīt programmu, kura jāizmanto satura parādīšanai.
 
 ## <a name="can-i-calculate-a-balance-for-a-particular-item-or-ingredient"></a>Vai es varu aprēķināt bilanci noteiktam krājumam vai komponentei?
 Kopsavilkuma lapās pieejamo informāciju var eksportēt programmā Microsoft Excel. Atveriet attiecīgo lapu, noklikšķiniet uz ikonas **Atvērt programmā Microsoft Office** un pēc tam atlasiet **Eksportēt programmā Microsoft Excel**. Šī funkcionalitāte ir īpaši noderīga, ja vēlaties aprēķināt krājuma vai komponenta masas bilanci lapā **Transakciju kopsavilkums**. Lapā **Transakciju kopsavilkums** var filtrēt pēc krājuma vai komponenta un papildus arī pēc partijas un pēc tam eksportēt datus programmā Excel. Programmā Excel varat, piemēram, atdalīt rīcībā esošo daudzumu, pārdoto daudzumu un ražošanā izmantoto summu.

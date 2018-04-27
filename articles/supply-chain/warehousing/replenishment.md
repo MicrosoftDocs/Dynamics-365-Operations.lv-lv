@@ -20,16 +20,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1b6086f7769086a9cdbb61c03882ea21d908ab4a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 41f77a837f446e0ef263f1554a333d6e48248a0e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="replenishment"></a>Papildināšana
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstītas papildināšanas stratēģijas, kas ir pieejamas noliktavām, kuras izmanto noliktavas vadībā pieejamo funkcionalitāti. Informācija šajā tēmā neattiecas uz noliktavu risinājumu, kas ir pieejams modulī Krājumu vadība.
 
@@ -67,13 +67,15 @@ Kravas pieprasījuma papildināšana summē pieprasījumu pēc vairākām kravā
 Tā vietā, lai pieprasījumu vajadzētu saskaitīt sadalījuma procesa beigās un papildināšanu vajadzētu veikt, pamatojoties uz saskaitīto daudzumu, varat lietot stratēģiju Tūlītēja papildināšana. Kad izmantojat šo stratēģiju, krājumus var papildināt uzreiz pēc tam, kad neizdodas izpildīt novietojuma direktīvas rindu. Tāpēc papildināšanu varat iestatīt tā, lai tā būtu ierobežota ar noteiktām vienībām un lai tā izmantotu daudzumus, kas ir iestatīti konkrētiem novietojumiem.
 
 ## <a name="replenishment-prerequisites"></a>Papildināšanas priekšnoteikumi
-| Priekšnoteikumi            | Apraksts |
-|-------------------------|-------------|
-| Krājums                    | Krājumam jābūt iespējotam noliktavas pārvaldības procesiem. |
-| Noliktava               | Noliktavai jābūt iespējotai noliktavas pārvaldības procesiem. Lai noliktavu aktivizētu noliktavas vadības procesiem, lapā **Noliktavas** atlasiet šo noliktavu un pēc tam atzīmējiet opciju **Izmantot noliktavas pārvaldības procesus**. |
-| Papildināšanas veidnes | Ir jāiestata vismaz viena papildināšanas veidne minimālajai/maksimālajai papildināšanai, kopuma pieprasījuma papildināšanai vai kravas pieprasījuma papildināšanai. |
-| Novietojumi               | Novietojumiem ir jābūt izveidotiem un savienotiem ar novietojuma profilu. |
-| Atrašanās vietu profili       | Novietojumu profili ir nepieciešami, lai izveidotu novietojumus. |
-| Novietojuma direktīvas     | Novietojuma direktīvas ir nepieciešamas, lai vadītu darbu uz novietojumiem, kur ir nepieciešama papildināšana, un uz novietojumiem, no kuriem tiek iegūti krājumi. |
-| Darbu veidnes          | Darba veidnes ar tipu **Papildināšana** ir nepieciešamas, lai izveidotu papildināšanas darbu un krājumus varētu pārvietot uz vēlamajiem novietojumiem. |
+
+|      Priekšnoteikumi       |                                                                                                                                Apraksts                                                                                                                                 |
+|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|          Krājums           |                                                                                                        Krājumam jābūt iespējotam noliktavas pārvaldības procesiem.                                                                                                        |
+|        Noliktava        | Noliktavai jābūt iespējotai noliktavas pārvaldības procesiem. Lai noliktavu aktivizētu noliktavas vadības procesiem, lapā <strong>Noliktavas</strong> atlasiet šo noliktavu un pēc tam atzīmējiet opciju <strong>Izmantot noliktavas pārvaldības procesus</strong>. |
+| Papildināšanas veidnes |                                                                   Ir jāiestata vismaz viena papildināšanas veidne minimālajai/maksimālajai papildināšanai, kopuma pieprasījuma papildināšanai vai kravas pieprasījuma papildināšanai.                                                                   |
+|        Novietojumi        |                                                                                                       Novietojumiem ir jābūt izveidotiem un savienotiem ar novietojuma profilu.                                                                                                       |
+|    Atrašanās vietu profili    |                                                                                                        Novietojumu profili ir nepieciešami, lai izveidotu novietojumus.                                                                                                        |
+|   Novietojuma direktīvas   |                                                       Novietojuma direktīvas ir nepieciešamas, lai vadītu darbu uz novietojumiem, kur ir nepieciešama papildināšana, un uz novietojumiem, no kuriem tiek iegūti krājumi.                                                        |
+|     Darbu veidnes      |                                                   Darba veidnes ar tipu <strong>Papildināšana</strong> ir nepieciešamas, lai izveidotu papildināšanas darbu un krājumus varētu pārvietot uz vēlamajiem novietojumiem.                                                    |
+
 

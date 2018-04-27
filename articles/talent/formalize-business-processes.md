@@ -19,10 +19,10 @@ ms.author: ShielaS
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 812db9f1d319e4d16f83700a7153a0a3b318963e
-ms.openlocfilehash: 48f80eac5009e1a241d501b0c4a3a70b78f5d709
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1b50a97f5e2fc94255ff71702faf91ab36e68eb4
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="formalize-business-processes"></a>Biznesa procesu noformēšana
@@ -33,10 +33,10 @@ Kad veidne ir izveidota, var sākt procesu, un to var izsekot darbvietā Biznesa
 ## <a name="business-process-template"></a>Biznesa procesa veidne
 Biznesa procesa veidnē ir ietverta to uzdevumu grupa, kuri veido biznesa procesu. Cilvēkresursu nodaļas vadītāji un asistenti var izveidot noklusējuma biznesa procesu.  Tomēr to var mainīt drošības konfigurācijas sadaļā, rediģējot pienākumu Vispārējo biznesa procesu uzturēšana.
 
-Katram procesam var definēt procesa īpašnieku.  Procesa īpašnieks var redzēt visus procesa uzdevumus un var mainīt piešķirtos uzdevumus vai izpildes datumu.  Piemēram, Cilvēkresursu nodaļas direktors var izveidot veidni Biznesa process atvieglojumu pārskatīšanai.  Kā procesa īpašnieku var iestatīt Kompensāciju un atvieglojumu jautājumu nodaļas vadītāju, lai viņam ir pārskats par uzdevumiem, kas jāpabeidz pārskata ietvaros.  Procesa īpašnieks nevar izveidot vai dzēst aktīvo biznesa procesu vai biznesa procesa veidnes.
+Katram procesam var definēt procesa īpašnieku. Procesa īpašnieks var redzēt visus procesa uzdevumus un var mainīt piešķirtos uzdevumus vai izpildes datumu.  Piemēram, Cilvēkresursu nodaļas direktors var izveidot veidni Biznesa process atvieglojumu pārskatīšanai.  Kā procesa īpašnieku var iestatīt Kompensāciju un atvieglojumu jautājumu nodaļas vadītāju, lai viņam ir pārskats par uzdevumiem, kas jāpabeidz pārskata ietvaros.  Procesa īpašnieks nevar izveidot vai dzēst aktīvo biznesa procesu vai biznesa procesa veidnes.
 
 ## <a name="task"></a>Uzdevums
-Biznesa process bieži ietver vairākus uzdevumus. Dažus uzdevumus var pabeigta programmā Dynamics 365 for Talent[?], piemēram, iekšējā kursa piedāvājuma pārskatīšanu. Šajā gadījumā uzdevuma laukā Uzdevuma saite ir jāatlasa vienums Izvēlne. Citi uzdevumi var ietvert formu pārskatīšanu vai aizpildīšanu tīmekļa vietnē. Atlasot laukā Uzdevuma saite URL, var ievadīt tīmekļa vietnes adresi. Šajā laukā var ievadīt gan ārējās, gan iekšējās saites URL. Var izveidot arī manuāli izpildāmu darbību uzdevumus, piemēram, visu struktūras pieejamības pārskatīšana. Šajā gadījumā uzdevuma saite nav nepieciešama. Šī elastība ļauj izsekot visaptveroša procesa dažāda veida uzdevumus.
+Biznesa process bieži ietver vairākus uzdevumus. Dažus uzdevumus var pabeigt programmā Dynamics 365 for Talent, piemēram, iekšējā kursa piedāvājuma pārskatīšanu. Šajā gadījumā uzdevuma laukā Uzdevuma saite jāatlasa vienums Izvēlne. Citi uzdevumi var ietvert formu pārskatīšanu vai aizpildīšanu tīmekļa vietnē. Atlasot laukā Uzdevuma saite URL, var ievadīt tīmekļa vietnes adresi. Šajā laukā var ievadīt gan ārējās, gan iekšējās saites URL. Var izveidot arī manuāli izpildāmu darbību uzdevumus, piemēram, visu struktūras pieejamības pārskatīšana. Šajā gadījumā uzdevuma saite nav nepieciešama. Šī elastība ļauj izsekot visaptveroša procesa dažāda veida uzdevumus.
 
 Uzdevumu var piešķirt konkrētam darbiniekam vai pozīcijai. Piemēram, Kompensāciju un atvieglojumu jautājumu nodaļas vadītājs vienmēr ir persona, kas veic apdrošināšanas prēmiju pārskatīšanu.   Izveidojot šo uzdevumu, atlasiet veidu Amats uzdevuma piešķiršanai un pēc tam sarakstā Amats atlasiet Kompensāciju un atvieglojumu jautājumu nodaļas vadītājs. Kad process tiek sākts, uzdevums tiek piešķirts darbiniekam, kas ieņem Kompensāciju un atvieglojumu jautājumu nodaļas vadītāja amatu. Uzdevumu var piešķirt arī konkrētam darbiniekam, atlasot lauku Darbinieks, kas atbilst uzdevuma piešķiršanas tipam, un pēc tam atlasot attiecīgo personu.
 
@@ -44,7 +44,8 @@ Uzdevumu izpildes datumi ir atkarīgi no laukā Mērķa datums ievadītās vērt
 
 Sarežģītiem uzdevumiem var būt nepieciešamas vairākas darbības vai var būt nepieciešama konkrēta persona, kas izpilda uzdevumus, lai iegūtu sīkāku informāciju. Uzdevumam var pievienot norādījumus un var arī iekļaut norādījumiem paredzētu bagātinātā teksta formatēšanu. Norādījumi var ietvert sīkāku informāciju personai, kurai piešķirta uzdevuma izpilde, par to, kā to izpildīt.
 
-Procesa sākšana. Lai sāktu procesu, veidnē Biznesa process atlasiet opciju Sākt procesu.  Kad process ir uzsākts, uzdevumi tiek izveidoti atlasītajiem darbiniekiem un/vai amatiem, kuri ir noteikti veidnē Biznesa process ietvertajiem uzdevumiem. Pievienojot vai atņemot nobīdes dienu skaitu no mērķa datuma, visiem uzdevumiem tiek piešķirts izpildes datums (skatiet informāciju par nobīdes dienu skaitu sadaļā “Uzdevums”). Aktīvo biznesa procesu var skatīt darbvietā Biznesa process. 
+## <a name="starting-a-process"></a>Procesa sākšana
+Lai sāktu procesu, veidnē Biznesa process atlasiet opciju Sākt procesu.  Kad process ir uzsākts, uzdevumi tiek izveidoti atlasītajiem darbiniekiem un/vai amatiem, kuri ir noteikti veidnē Biznesa process ietvertajiem uzdevumiem. Pievienojot vai atņemot nobīdes dienu skaitu no mērķa datuma, visiem uzdevumiem tiek piešķirts izpildes datums (skatiet informāciju par nobīdes dienu skaitu sadaļā “Uzdevums”). Aktīvo biznesa procesu var skatīt darbvietā Biznesa process. 
 
 ## <a name="employee-self-service"></a>Darbinieku pašapkalpošanās
 Ja darbiniekam ir piešķirts uzdevums, viņam piešķirtos uzdevumus var skatīt lapā Darbinieku patstāvīgi izmantojamais pakalpojums. Darbinieki, kuriem ir piešķirts biznesa procesa uzdevums, savā lapā Darbinieku patstāvīgi izmantojamais pakalpojums var redzēt uzdevumu, tā aprakstu, norādījumus par tā izpildi, kā arī kontaktpersonas vārdu un uzvārdu, un viņi var atvērt saistīto Dynamics365 lapu vai tīmekļa vietnes lapu. Uzdevumus var atzīmēt ar statusu Procesā, Atcelts vai Pabeigts.
@@ -56,9 +57,9 @@ Cilvēkresursu jautājumu speciālisti aktīvo biznesa procesu var skatīt darbv
 Izmantojot darbvietu Mani biznesa procesi, procesu īpašnieki var skatīt viņiem piešķirtos aktīvos biznesa procesus. Darbvietā ir norādīti visi īpašnieka aktīvie procesi un saistītie uzdevumi.  Vispusīgu uzdevumu sarakstu var filtrēt pēc izpildes datuma. Lapā ir arī norādīti īpaši procesa īpašniekam piešķirtie uzdevumi. Procesa īpašnieks var arī atjaunināt visu uzdevumu statusu, kā arī mainīt jebkuru piešķirto uzdevumu.
 
 ## <a name="navigating-business-processes"></a>Pārvietošanās biznesa procesos
-1.   Lai pievienotu veidni Biznesa process, dodieties uz sadaļu Biznesa procesi — saites — Biznesa procesu administrēšana.
- - a.   Izmantojot opciju Jauns, tiek izveidota jauna veidne.
- - b.   Izmantojot opciju Kopēt no veidnes, atlasītā veidne tiek iekopēta jaunā veidnē.
- - c.   Izmantojot opciju Sākt procesu, tiek sākts atlasītais biznesa process, tiek piešķirti uzdevumi un aprēķināts izpildes datums.  
-2.  Lai skatītu aktīvos procesus un saistītos uzdevumus, dodieties uz darbvietu Biznesa procesi.
+1. Lai pievienotu veidni Biznesa process, dodieties uz sadaļu Biznesa procesi — saites — Biznesa procesu administrēšana.
+   - a.   Izmantojot opciju Jauns, tiek izveidota jauna veidne.
+   - b.   Izmantojot opciju Kopēt no veidnes, atlasītā veidne tiek iekopēta jaunā veidnē.
+   - c.   Izmantojot opciju Sākt procesu, tiek sākts atlasītais biznesa process, tiek piešķirti uzdevumi un aprēķināts izpildes datums.  
+2. Lai skatītu aktīvos procesus un saistītos uzdevumus, dodieties uz darbvietu Biznesa procesi.
 

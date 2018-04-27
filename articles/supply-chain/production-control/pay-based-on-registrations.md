@@ -19,16 +19,16 @@ ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6cd1e3a1f6b5c979a4f60d97cc2203cdcd32bbbe
-ms.openlocfilehash: 6de88b82c9a663bfe6d2756fde6f1a7412a44b1e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1ae0f142ebd2252b1df414998c153d32127bc1b7
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="pay-based-on-registrations"></a>Apmaksa atbilstoši reģistrācijām
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā ir plaši paskaidrots, kā tiek aprēķināta apmaksa, pamatojoties uz nodarbinātaisu reģistrācijām. Tēmā ir iekļauti piemēri, kas parāda, kā dažādas iestatījumu opciju kombinācijas, kas ir pieejamas aprēķināšanai, ietekmē rezultātu. Dažas no šajā tēmā aplūkotajām jomām:
 
@@ -446,7 +446,7 @@ Plānoto kavējumu nodarbinātajiem varat izveidot lapā **Izveidot plānoto kav
 Darba pamatā ir vaicājums. Tāpēc plānoto kavējumu varat izveidot vairākiem nodarbinātajiem, piemēram, nodarbinātajiem, kuri pieder vienai aprēķinu grupai. Ja plānotais kavējums ir paredzēts vienam nodarbinātajam, reģistrācijas var ievadīt vai nu lapā **Apmeklētība** vai lapā **Laika reģistrācijas nodarbinātie**.
 
 - Lai ievadītu kavējuma reģistrāciju lapā **Apmeklētība**, atlasiet **Laiks un apmeklētība** &gt; **Pieprasījumi un pārskati** &gt; **Apmeklētība** &gt; **Apmeklētība** un pēc tam atlasiet **Kavējuma reģistrācija**.
-- Lai ievadītu kavējuma reģistrācijau lapā ***Laika reģistrācijas nodarbinātie***, atlasiet **Laiks un apmeklētība** &gt; **Iestatījumi** &gt; **Laika reģistrācijas nodarbinātie** un pēc tam sadaļas **Laika piešķire** cilnē **Laiks** atlasiet **Kavējumu reģistrācijas**.
+- Lai ievadītu kavējuma reģistrāciju lapā *<strong><em>Laika reģistrācijas nodarbinātie</em></strong>*, atlasiet <strong>Laiks un apmeklētība</strong> &gt; <strong>Iestatījumi</strong> &gt; <strong>Laika reģistrācijas nodarbinātie</strong> un pēc tam sadaļas <strong>Laika piešķire</strong> cilnē <strong>Laiks</strong> atlasiet <strong>Kavējumu reģistrācijas</strong>.
 
 Varat izmantot pārskatu **Plānotie kavējumi**, lai skatītu apskatu par nodarbināto plānotajiem kavējumiem. Lai atvērtu šo pārskatu, atlasiet **Laiks un apmeklētība** &gt; **Pieprasījumi un pārskati** &gt; **Kavējumu pārskati** &gt; **Plānotie kavējumi**.
 

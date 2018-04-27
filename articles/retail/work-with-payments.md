@@ -1,9 +1,9 @@
 ---
-title: "Maksājumu metodes zvanu centrā"
-description: "Šajā tēmā ir aprakstītas dažādās maksājumu metodes, ko varat izmantot zvanu centrā programmatūrai Dynamics 365 for Retail."
+title: "Maksāšanas metodes zvanu centrā"
+description: "Šajā tēmā ir aprakstītas dažādās maksāšanas metodes, ko varat izmantot zvanu centrā programmatūrā Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 03/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,36 +20,38 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
-ms.openlocfilehash: 321d03d154c224b55ffedbe55a2d5952c2b29d9a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fe8dd3136f14e182e261a4dce57eef0b1946d304
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
-# <a name="payment-methods-in-a-call-center"></a>Maksājumu metodes zvanu centrā
+# <a name="payment-methods-in-a-call-center"></a>Maksāšanas metodes zvanu centrā
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
+Programmatūrā Microsoft Dynamics 365 for Retail zvanu centra kanāla konfigurācijā ietilpst iestatījums ar nosaukumu **Iespējot pasūtījuma pabeigšanu**. Šis iestatījums palīdz garantēt, ka visi pasūtījumi, ko kanāla lietotāji izveido, tiek izlaisti uz pasūtījuma apstrādi tikai tad, ja tiem ir priekšapmaksa vai iepriekš apstiprināts maksājums, kas ietilpst apstiprināto pielaižu robežās. Ja iestatījums **Iespējot pasūtījuma pabeigšanu** ir ieslēgts, zvanu centra lietotāji var ievadīt maksājumus attiecībā uz debitoru pārdošanas pasūtījumiem, izmantojot zvanu centra maksājumu apstrādes līdzekļus. Ja šis iestatījums ir izslēgts, zvanu centra lietotāji nevar izmantot zvanu centra maksājumu apstrādes līdzekļus, bet viņi joprojām var lietot priekšapmaksas attiecībā uz pārdošanas pasūtījumiem, izmantojot standarta funkcionalitāti Debitoru parādi.
 
-Šajā tēmā ir aprakstītas dažādās maksājumu metodes, ko varat izmantot zvanu centrā programmatūrai Dynamics 365 for Retail.
+Kā daļa no kanāla konfigurēšanas uzņēmumiem ir iespēja definēt maksājuma metodes, kas ir atļautas zvanu centra kanālam. Zvanu centra kanāls izmanto tādas pašas maksāšanas metodes, kādas ir definētas mazumtirdzniecības veikalu kanāliem.
 
-Maksājumu metodes, kuras izmanto citos kanālos, piemēram, skaidru naudu, čekus, kredītkartes un dāvanu kartes, var izmantot arī zvanu centros. Pēc zvanu centra maksājuma metodes iestatīšanas tā tiek rādīta zvanu centra lietotājiem kā viena no opcijām lapas **Pārdošanas pasūtījums** sadaļā **Maksājumi**. Turklāt varat iestatīt kuponus, lai piedāvātu atlaides debitoriem, kas veic pasūtījumu jūsu organizācijas zvanu centrā. Kuponi var būt par fiksētas summas atlaidi vai par procentiem no krājuma cenas vai pasūtījuma kopsummas. Piemēram, no summas atkarīgs kupons var debitoriem piedāvāt atlaidi 75,00, ja debitors iztērē vismaz 750,00. Varat izveidot dažādus kuponu tipus, iestatīt pamata/pakārtotos kuponus, un kuponus kopēt vai anulēt. Lai izveidotu kuponus, izmantojiet nākamajā tabulā aprakstītas opcijas.
+Lai konfigurētu maksāšanas metodes zvanu centra kanālam, dodieties uz **Retail** \> **Kanāli** \> **Zvanu centri** \> **Visi zvanu centri** un pēc tam izvēlnē **Iestatīt** atlasiet opciju **Maksāšanas metodes**.
 
-|                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Atribūts**             | Laukā **Izpirkšanas ātrums** ievadiet paredzēto kupona izpirkšanas ātruma vērtību procentos un pēc tam atlasiet to, vai šo kuponu var izmantot vienu reizi, vai tas tiks automātiski izdots atkārtoti un vai tas attiecas uz noteiktu debitoru.                                                                                                                                                                                                                                                                                                                                                                                       |
-| **Derīgs**                 | Laukos **Sākuma datums** un **Beigu datums** ievadiet pirmos un pēdējos datumus, kad kupons ir derīgs.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| **Ietvert/izslēgt kārtulas** | Laukos **Katalogi** un **Krājumi** atlasiet, vai kuponā ietvert vai izslēgt jebkādus katalogus vai krājumus. Ja atzīmējat **Ietvert** vai **Izslēgt**, noklikšķiniet uz **Iestatīt**, atlasiet vienumu **Ietvert/izslēgt katalogus** vai **Ietvert/izslēgt preces** un ievadiet informāciju par šo katalogu vai krājumu. Ja šajos laukos atlasāt **Nav**, kuponā tiek iekļauti visi katalogi vai krājumi.                                                                                                                                                                                                                          |
-| **Dažādi**         | Ja šo kuponu nevar izmantot kopā ar citām atlaidēm, atzīmējiet izvēles rūtiņu **Ekskluzīvs**. Pēc tam laukā **Izcelsme** atlasiet, kur šo kuponu var izmantot. Ja šis kupons ir ražotāja kupons, atzīmējiet izvēles rūtiņu **Ražotāja kupons**.                                                                                                                                                                                                                                                                                                                                                                |
-| **Nākotnē izmantojams kupons**         | Ja šis kupons tiks saistīts ar citiem kuponiem kā pamata kupons, atzīmējiet izvēles rūtiņu **Pamata kupons**. Ja šis kupons ir jāsaista ar esošu kuponu kā pakārtots kupons, atlasiet pamata kuponu laukā **Pamata kupona ID**. Piemēram, izveidojiet kuponu gaidāmajam pavasara katalogam. Visi pārējie kuponi, ko izveidojat pavasara katalogam, būs pavasara kataloga kupona pakārtotie kuponi. Pakārtotajos kuponos var ietvert 20 procentu atlaidi jauniem debitoru pasūtījumiem, 10 procentu atlaidi nesen izdotam krājumam vai atlaidi 95,00 apmērā pasūtījumiem par 1000,00 vai lielāku summu. |
+Kad veidojat maksāšanas metodi, piešķiršanai ir pieejamas piecas maksāšanas metodes funkcijas.
 
-Ja iesniedzat kredītkartes maksājumu lapā **Pārdošanas pasūtījums** un saņemt ziņojumu, kurā norādīts, ka karte nebija autorizēta, šo autorizāciju varat apstrādāt manuāli. Kredītkartes transakciju varat autorizēt, noraidīt vai iesniegt atkārtoti, izmantojot lapu **Autorizācijas pārvaldība**. Zvanu centra parametru lapu jūs izmantojat, lai konfigurētu papildu maksājumu apstrādes iespējas:
+| Funkcija            | Apraksts |
+|---------------------|-------------|
+| Parasts              | Savai maksāšanas metodei izmantojiet funkciju **Parasts**, kad definējat tādas maksāšanas metodes kā skaidra nauda vai dokumenti. Kad šāda tipa maksājumi tiek lietoti pārdošanas pasūtījumam zvanu centrā, debitora kontā šie maksājumi tiek nekavējoties iegrāmatoti kā priekšapmaksas. Priekšapmaksas dokuments tiek iegrāmatots debitora darbību vēsturē, kur tas tiks sistemātiski segts attiecībā pret rēķinu par pārdošanas pasūtījumu, kad tiek veidoti rēķini. |
+| Čeks               | Izmantojiet funkciju **Čeks**, kad kā maksājuma veidu definējat bankas čeka instrumentu. Kad šis maksājuma tips tiek lietots pārdošanas pasūtījumam, kā daļa no maksājumu pieteikumu apstrādes lietotājam ir jāievada debitora čeka numurs. Ja tiek lietoti čeka maksājumi, tie vienmēr tiek uzskatīti par priekšapmaksu. Attiecībā uz maksājuma funkciju **Parasts** šie priekšapmaksas dokumenti tiek sistemātiski segti attiecībā pret rēķiniem, kas tiek veidoti šim pasūtījumam. |
+| Kartes               | Karšu maksājumu tipi pārstāv jebkura tipa maksājumu, kam ir nepieciešams ievadīt kartes numuru, kurš ir norādīts uz debitora maksājuma kartes. Piemēri tostarp ir kredītkartes un dāvanu kartes. Kad konfigurējat šāda tipa maksājumus, jums ir jāizmanto izvēlne **Kartes iestatīšana**, lai definētu kartes ID, kurš ir saistīts ar šo maksāšanas metodi. Pasūtījuma ievadīšanas laikā lietotāji var norādīt, vai kartes maksājums būs priekšapmaksa, maksājuma ieraksta lapā izmantojot opciju **Priekšapmaksa**. Ja vien biznesam nav nepieciešamas priekšapmaksas, tipiskā patiesas kredītkartes maksājumu darbplūsma sastāv no diviem posmiem, kur autorizācija tiek iegūta pasūtījuma izveides laikā, un pēc tam maksājums tiek segts un iekasēts no debitora kartes rēķina izrakstīšanas laikā. Dāvanu karšu maksājumiem ir ieteicams izmantot priekšapmaksu, jo dāvanu kartes bilance ir jāsamazina nekavējoties, lai debitors to pašu vērtību nevarētu lietot kaut kur citur. |
+| Debitors            | Funkcija **Debitors** maksāšanas metodē nozīmē, ka maksājums tiks lietots debitora kredīta limitam vai tiks novietots “starpkontā”. Programmatūrā Retail debitoram var piešķirt kredīta limitu, kuru var validēt pasūtījuma izveides laikā. Maksājumi, kas tiek veikti, izmantojot maksāšanas metodi, kas ir saistīta ar funkciju **Debitors**, izveido saistības attiecībā pret debitora kontu. Pēc tam, kad tiek izrakstīts rēķins par pārdošanas pasūtījumu, tiek rādīta maksājamā bilance. Šajās situācijās debitori parasti sūta maksājumu saskaņā ar sniegtajiem nosacījumiem. Maksājamās bilances segšanai var izmantot arī iepriekšēju atvērtu kredīta dokumentu debitora kontā. Ņemiet vērā, ka pat tad, ja definējat šo maksāšanas metodi, zvanu centra pasūtījuma izveidē tā netiek rādīta maksājuma atlases opciju sarakstā, ja vien debitoram, ar kuru strādājat, debitora ierakstam nav iestatīts karodziņš **Ļaut starpkontu**. Šis karodziņš atrodas debitora ieraksta cilnē **Maksājuma noklusējuma informācija**. |
+| Norēķina noņemšana/mainīšana | Funkcija **Norēķina noņemšana/mainīšana** netiek izmantota zvanu centrā. To var lietot tikai tad, ja definējot maksājuma metodes, kuras pārdošanas punkta (POS) programma izmanto veikala kanālā. |
 
--   Čeku aizturējumi ļauj finanšu personālam apstrādāt pasūtījumus, kas ir aizturēti, jo kā maksāšanas metode tika izmantots čeks un tika pārsniegta čeka aizturēšanas sliekšņa summa. Šo aizturēšanu var manuāli atbrīvot, vai tās derīgums automātiski beidzas konfigurētā perioda beigās.
--   Varat iestatīt sliekšņus, virs kuriem ir manuāli jāapstiprina tādas atmaksas, kas tiek izsniegtas, izmantojot čekus un kredītkartes. Jebkura kompensācija, kas pārsniedz sliekšņa summu, tiek pievienota apstiprināšanas rindai. Kad atmaksa ir apstiprināta, par atgriešanas pārdošanas pasūtījumu var izrakstīt rēķinu.
+Definējot maksājuma metodes, tām ir jābūt saistītam ar virsgrāmatu vai bankas kontu. Ja izlaižat šo posmu, lietotāji saņem kļūdas, kad viņi mēģina saglabāt maksājuma tipu.
 
+## <a name="refund-payment-methods"></a>Atmaksas maksāšanas metodes
 
+Atmaksas apstrādāšanas scenārijos zvanu centrs izmanto arī dažas maksāšanas metodes, kas ir definētas modulī Debitoru parādi. Lai konfigurētu šīs maksāšanas metodes, dodieties uz **Retail** \> **Kanāla iestatīšana** \> **Zvanu centra iestatīšana** \> **Zvanu centra atmaksas metodes**. Jums ir jāizpilda šī konfigurācija, lai apstrādātu debitoriem paredzētus atmaksas čekus. Piemēram, ja debitors sākotnēji maksāja par pasūtījumu, izmantojot skaidru naudu vai čeku, lietotājs varētu vēlēties nosūtīt debitoram atmaksas čeku, izmantojot moduli Debitoru parādi. Šajā gadījumā zvanu centra skaidras naudas un čeka maksājuma tipiem ir jābūt kartētiem uz pareizo maksāšanas metodi modulī Debitoru parādi, lai palīdzētu nodrošināt pareizu atmaksas apstrādāšanu.
 
-
+Turklāt, ja lietotājs apstrādā atgriešanas pasūtījumu kā zvanu centra lietotājs programmatūrā Retail, bet viņš vai viņa nevar šo atgriešanu saistīt ar sākotnējo pārdošanu, tad **Atgriešanas** maksāšanas metode ir jādefinē zvanu centra parametros. Dodieties uz **Retail** \> **Kanāla iestatīšana** \> **Zvanu centra iestatīšana** \> **Zvanu centra parametri** un pēc tam cilnē **RMA/Atgriešana**, laukā **Maksāšanas metode** pārliecinieties, ka ir definēta kāda maksāšanas metode. Maksāšanas metode būs tā maksāšanas metode, kas tiek izmantota atmaksām. Parasti tā tiek definēta kā čeka metode vai debitora konta metode.
 

@@ -18,16 +18,16 @@ ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b84778bd67e8c5bad6e8858d2af71f46e0dfe145
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f4736a7041c746350fa073bd58929c840f7689bf
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="mobile-app-home-page"></a>Mobilās programmas sākumlapa
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā tēmā aprakstīta Microsoft Dynamics 365 for Unified Operations mobilā programma un sniegtas saites uz resursiem, kas jums var palīdzēt to ieviest savā organizācijā.
 
@@ -88,7 +88,7 @@ Nākamajā tabulā ir ietvertas saites uz resursiem, kas jums var palīdzēt iev
 <td><ul><li>Ja vēl neesat izvietojis Microsoft Dynamics 365 versiju, skatiet rakstu <a href="../deployment/deploy-demo-environment.md">Izvietot demonstrācijas vidi</a>.</li><li>Lai apskatītu sarakstu ar mobilajām darbvietām, ko var izmantot, skatiet rakstu <a href="mobile-workspaces-released.md">Nesen izlaistās mobilās darbvietas</a>.</li></ul></td>
 </tr>
 <tr class="even">
-<td>2.</td>
+<td>2</td>
 <td>Sistēmas administrators</td>
 <td><strong>Ja izmantojat Microsoft Dynamics 365 for Operations versiju 1611:</strong> lejupielādējiet un instalējiet zināšanu bāzes rakstus, kuri iespējo Microsoft nodrošinātās mobilās darbvietas.</td>
 <td>Papildinformāciju skatiet tālāk norādītajās tēmās.

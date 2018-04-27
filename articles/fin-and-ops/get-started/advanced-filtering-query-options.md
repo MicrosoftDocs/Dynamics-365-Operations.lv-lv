@@ -19,17 +19,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1fe940d2d282a5b4468b3ba572626b5c87839e6d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4361311be0cf5c33c9b2fa4700b084a7b43f5b65
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="advanced-filtering-and-query-syntax"></a>Papildu filtrēšanas un vaicājumu sintakse
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šajā rakstā aprakstītas filtrēšanas un vaicājumu opcijas, kas ir pieejamas, izmantojot “atbilstību” operatoru dialoglodziņā Detalizētā filtrēšana/kārtošana.
 
@@ -68,7 +67,7 @@ ms.lasthandoff: 11/03/2017
 <td><em>vērtība no</em>..<em>vērtība līdz</em> (divpunkte)</td>
 <td>Starp divām vērtībām, kas atdalītas ar divpunkti</td>
 <td>Ierakstiet, no kuras vērtības, pēc tam divus punktus un līdz kurai vērtībai.</td>
-<td><strong>1..10</strong> atrod visas vērtības no 1 līdz 10. Tomēr virknes laukā <strong>A..C</strong> atrod visas vērtības, kas sākas ar &quot;A&quot; un &quot;B&quot;, un vērtības, kas ir pilnīgi vienādas ar &quot;C&quot;. Piemēram, šis vaicājums neatradīs &quot;Ca&quot;. Lai atrastu visas vērtības no &quot;A*&quot; līdz &quot;C*&quot;, ierakstiet <strong>A..D</strong>.</td>
+<td><strong>1..10</strong> atrod visas vērtības no 1 līdz 10. Tomēr virknes laukā <strong>A..C</strong> atrod visas vērtības, kas sākas ar &quot;A&quot; un &quot;B&quot;, un vērtības, kas ir pilnīgi vienādas ar &quot;C&quot;. Piemēram, šis vaicājums neatradīs &quot;Ca&quot;. Lai atrastu visas vērtības no &quot;A<em>&quot; līdz &quot;C</em>&quot;, ierakstiet <strong>A..D</strong>.</td>
 </tr>
 <tr class="even">
 <td>..<em>vērtība</em> (divpunkte)</td>
@@ -97,20 +96,20 @@ ms.lasthandoff: 11/03/2017
 <tr class="even">
 <td><em>vērtība</em>* (zvaigznīte)</td>
 <td>Sākot no ievadītas vērtības.</td>
-<td>Ierakstiet sākuma vērtību un pēc tam zvaigznīti (<strong>*</strong>).</td>
-<td><strong>S*</strong> atrod jebkuru virkni, kas sākas ar &quot;S&quot;, piemēram, &quot;Stokholma&quot;, &quot;Sidneja&quot; un &quot;Sanfrancisko&quot;.</td>
+<td>Ierakstiet sākuma vērtību un pēc tam zvaigznīti (<strong><em></strong>).</td>
+<td><strong>S</em></strong> atrod jebkuru virkni, kas sākas ar &quot;S&quot;, piemēram, &quot;Stokholma&quot;, &quot;Sidneja&quot; un &quot;Sanfrancisko&quot;.</td>
 </tr>
 <tr class="odd">
-<td>*<em>vērtība</em> (zvaigznīte)</td>
+<td><em><em>vērtība</em> (zvaigznīte)</td>
 <td>Beidzas ar ievadīto vērtību.</td>
 <td>Ierakstiet zvaigznīti un pēc tam beidzamo vērtību.</td>
-<td><strong>*austrumi</strong> atrod jebkuru virkni, kas beidzas ar &quot;austrumi&quot;, piemēram, &quot;ziemeļaustrumi&quot; un &quot;dienvidaustrumi&quot;.</td>
+<td><strong></em>austrumi</strong> atrod jebkuru virkni, kas beidzas ar &quot;austrumi&quot;, piemēram, &quot;ziemeļaustrumi&quot; un &quot;dienvidaustrumi&quot;.</td>
 </tr>
 <tr class="even">
-<td>*<em>vērtība</em>* (zvaigznīte)</td>
+<td><em><em>vērtība</em></em> (zvaigznīte)</td>
 <td>Satur ievadīto vērtību.</td>
 <td>Ierakstiet zvaigznīti, pēc tam vērtību un vēl vienu zvaigznīti.</td>
-<td><strong>*au*</strong> atrod jebkādu virkni, kas ietver &quot;au&quot;, piemēram, &quot;ziemeļaustrumi&quot; un &quot;dienvidaustrumi&quot;.</td>
+<td><strong><em>au</em></strong> atrod jebkādu virkni, kas ietver &quot;au&quot;, piemēram, &quot;ziemeļaustrumi&quot; un &quot;dienvidaustrumi&quot;.</td>
 </tr>
 <tr class="odd">
 <td>? (jautājuma zīme)</td>
@@ -131,7 +130,7 @@ ms.lasthandoff: 11/03/2017
 <td><strong><span class="code">(datu avots.Lauka nosaukums != &quot;A&quot;)</span></strong></td>
 </tr>
 <tr class="even">
-<td>O</td>
+<td>T</td>
 <td>Šodienas datums</td>
 <td><strong>T</strong> veida.</td>
 <td><strong>T</strong> atbilst šodienas datumam.</td>
