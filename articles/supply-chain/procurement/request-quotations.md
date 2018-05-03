@@ -57,8 +57,8 @@ Kad piedāvājumus saņemat pa e-pastu, šos piedāvājumus varat apstrādāt no
 
 Ja no kāda kreditora ir nepieciešama vēl viena iterācija, atlasiet **Atgriezt** lapā **Piedāvājuma pieprasījums**. Izpildot atgriešanas darbību, tiek ģenerēts jauns žurnāls un pārskats, kas tiks drukāts, arhivēts un nosūtīts atbilstoši drukāšanas iestatījumiem.
 
-[!NOTE]
-Lapas **Piedāvājuma pieprasījums** nosaukums ir mainījies. Iepriekšējos Dynamics 365 for Finance and Operations izvedumos šī lapa saucās **Atbilde uz piedāvājuma pieprasījumu**.
+> [!NOTE]
+> Lapas **Piedāvājuma pieprasījums** nosaukums ir mainījies. Iepriekšējos Dynamics 365 for Finance and Operations izvedumos šī lapa saucās **Atbilde uz piedāvājuma pieprasījumu**.
 
 Ja savam piedāvājuma pieprasījuma gadījumam pievienojāt punktu skaitīšanas kritērijus, piedāvājuma pieprasījumā ir punktu skaitīšanas panelis, kur varat ievadīt punktu skaitu. Kopējie rādītāji ir redzami piedāvājuma pieprasījumā un laikā, kad salīdzināt atbildes lapā **Salīdzināt atbildes**. Lapā **Salīdzināt atbildes** varat salīdzināt arī citus atbilžu datus, piemēram, rindas cenu, piegādes datumu un kopējo cenu.
 
@@ -126,8 +126,8 @@ Ja piedāvājumā vēlaties izmantot iemeslu kodus, lai norādītu, kāpēc tas 
 
 Sagādes un avotu lapā **Formas iestatīšana** varat konfigurēt savu drukāto vai saglabāto piedāvājumu pieprasījumu dokumentu izskatu.
 
-[!NOTE]
-Publiskā sektora konfigurācijai jau nosūtīta piedāvājuma pieprasījuma mainīšanai ir jāizmanto grozījumu process. Kad piedāvājuma pieprasījums ir nosūtīts, lauki tiek bloķēti.
+> [!NOTE]
+> Publiskā sektora konfigurācijai jau nosūtīta piedāvājuma pieprasījuma mainīšanai ir jāizmanto grozījumu process. Kad piedāvājuma pieprasījums ir nosūtīts, lauki tiek bloķēti.
 Tādēļ, lai veiktu piedāvājuma pieprasījuma izmaiņas, ir jāatlasa **Izveidot**, uzsākot grozījumu procesu, kā aprakstīts iepriekš. Bloķēšanas uzvedību kontrolē lapas **Sagādes un avotu parametri** opcija **Bloķēt piedāvājuma pieprasījumu pēc tā nosūtīšanas**. Pēc noklusējuma šis parametrs ir iestatīts uz **Jā**, un publiskā sektora konfigurācijai šo noklusējuma iestatījumu nevar mainīt. Tādēļ, lai gan konfigurācijā, kas nav publiskā sektora konfigurācija, grozījumu procesu var apstrādāt manuāli, publiskā sektora konfigurācijā tas ir jāizmanto obligāti.
 
 Kad izveidojat piedāvājuma pieprasījuma gadījumu ar tipu “Pirkšanas pasūtījums” un šim piedāvājuma pieprasījumam pievienojat kādu krājumu vienību, tiek ģenerēta krājumu transakcija, kuras ieejas plūsmas statuss ir **Piedāvājuma saņemšana**. Kad izmantojat vispārējo plānu piegāžu aprēķināšanai, tiek ņemtas vērā tikai piedāvājuma pieprasījuma rindas ar šo statusu. Ja vēlaties, lai piedāvājuma pieprasījuma gadījuma rindas tiktu ietvertas vispārējā plānā kā paredzētās ieejas plūsmas, šī uzvedība ir jākonfigurē vispārējās plānošanas iestatījumos.
