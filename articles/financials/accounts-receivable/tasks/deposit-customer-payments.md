@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="deposit-customer-payments"></a>Debitora maksājumu deponējums
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Debitora maksājumu depozīts. Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.
 

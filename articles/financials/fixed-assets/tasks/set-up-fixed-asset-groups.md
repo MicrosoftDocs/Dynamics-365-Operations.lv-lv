@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-fixed-asset-groups"></a>Iestatīt pamatlīdzekļu grupas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā izveidot jaunu pamatlīdzekļu grupu. Tas izmanto grāmatveža lomu un demonstrācijas datus USMF juridiskajai personai.
 

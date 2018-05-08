@@ -28,7 +28,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Moduļu Debitori un Kredīts un iekasēšana konfigurēšana
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Konfigurējiet debitoru parādus un kredītu un iekasēšanu, lai izsekotu rēķiniem un no debitoriem ienākošajiem maksājumiem.
 

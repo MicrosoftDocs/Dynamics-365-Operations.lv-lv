@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="intercompany-invoicing"></a>Starpuzņēmumu rēķinu izrakstīšana
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta informācija un piemēri par projektu starpuzņēmumu rēķinu izrakstīšanu programmā Microsoft Dynamics 365 for Finance and Operations.
 

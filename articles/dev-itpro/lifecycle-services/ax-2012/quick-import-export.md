@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="run-the-test-data-transfer-tool-beta-for-dynamics-ax-ax-2012"></a>Palaidiet Dynamics AX (AX 2012) paredzēto testēšanas datu pārsūtīšanas rīku (beta versiju)
 
-[!INCLUDE [banner](../../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Ātrās importēšanas un eksportēšanas mērķis ir ļaut jums veikt importēšanu un eksportēšanu tikai ar dažām darbībām.
 

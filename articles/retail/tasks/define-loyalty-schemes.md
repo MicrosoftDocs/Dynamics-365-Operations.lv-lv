@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="define-loyalty-schemes"></a> Lojalitātes programmas shēmu definēšana
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir aprakstīts, kā definēt lojalitātes programmas shēmu. Lojalitātes programmas shēmas ir atlīdzības peļņas un izpirkšanas kārtulas lojalitātes programmai. Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="perform-self-service-to-download-hardware-station"></a> Pašapkalpošanās veikšana, lai lejupielādētu aparatūras staciju
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir aprakstīts, kā lejupielādēt iepriekš definētu aparatūras staciju. Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati. Pirms šī uzdevuma izpildes jābūt izveidotam jaunam aparatūras stacijas profilam un aparatūras stacijai.
 

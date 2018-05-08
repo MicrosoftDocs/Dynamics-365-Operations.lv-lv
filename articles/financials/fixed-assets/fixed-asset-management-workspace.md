@@ -27,7 +27,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="fixed-asset-management-workspace"></a>Pamatlīdzekļu pārvaldības darbvieta
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Darbvietā **Pamatlīdzekļu pārvaldība** tiek radīta informācija, kas attiecas uz sistēmā ievadītajiem pamatlīdzekļiem. Šajā darbvietā ir ietverts kopsavilkuma skats analīzes skats. Cilnē **Mans darbs** tiek rādīti kopsavilkuma elementi, detalizēta informācija par pamatlīdzekli un saistīta informācija par pamatlīdzekļiem pašreizējā uzņēmumā. Power BI analīzes sadaļai tieši darbvietā varat pievienot arī analīzes iespējas. Cilnē **Analīze – visi uzņēmumi** izmanto Microsoft Power BI iespējas, lai rādītu ar pamatlīdzekļiem visos uzņēmumos saistīto vizuālo informāciju.
 

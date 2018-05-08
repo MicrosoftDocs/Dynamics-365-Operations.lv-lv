@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="pos-hardware-peripherals"></a>POS aparatūras perifērās ierīces
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Pārdošanas punktā Retail Modern point of sale (POS) un mākoņa POS var izmantot plašu POS aparatūras perifēro ierīču klāstu ar dažādiem interfeisiem un izvietošanas opcijām, lai mazumtirgotājam nodrošinātu dažādus biznesa scenārijus. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-ledger-account-alias"></a>Virsgrāmatas konta aizstājvārda iestatīšana
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā izveidot konta aizstājvārdu, kas nodrošina saīsni konta numura ievadīšanai. Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma USMF dati.
 

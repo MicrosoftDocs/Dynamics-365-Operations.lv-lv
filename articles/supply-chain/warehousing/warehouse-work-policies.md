@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="warehouse-work-policies"></a>Noliktavas darba politikas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Noliktavas darba politikas programmatūrā Microsoft Dynamics 365 for Finance and Operations kontrolē to vai ražošanas noliktavas procesi izraisa noliktavas darbu izveidi, pamatojoties uz darba pasūtījuma veidu, krājumu novietojumu un preci.
 

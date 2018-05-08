@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="letters-of-guarantee"></a>Garantijas vēstules
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta informācija par garantijas vēstulēm. Garantijas vēstulē banka piekrīt personai maksāt noteiktu naudas summu, ja kāds no bankas klientiem nepilda maksājumu vai saistības attiecībā pret šo personu. 
 

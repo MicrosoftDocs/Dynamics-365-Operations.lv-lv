@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="process-interest"></a>Procentu apstrāde
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā izveidot, izdrukāt un grāmatot procentu paziņojumus. Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.
 

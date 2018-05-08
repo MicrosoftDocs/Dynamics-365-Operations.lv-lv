@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="record-templates"></a>Ierakstu veidnes
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā tiek iepazīstināts ar ierakstu veidņu koncepciju un paskaidrots, kā tās var izmantot, lai veidotu ierakstus, kuri koplieto informāciju.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="search-for-vendors"></a>Kreditoru meklēšana
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Uzziniet kā meklēt kreditorus, balstoties uz noteiktiem kritērijiem. Šajā piemērā parādīts, kā meklēt kreditorus, kas ir apstiprināti konkrētai sagādes kategorijai un kuriem primārā adrese atrodas konkrētā valstī. Šo procedūru varat izpildīt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus. Šo uzdevumu parasti veic sagādes speciālists.
 

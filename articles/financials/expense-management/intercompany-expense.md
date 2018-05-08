@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="intercompany-expenses"></a>Starpuzņēmumu izdevumi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Nodarbinātais, kura darba devējs ir viena organizācijas juridiskā persona, varētu veikt darbu citā juridiskajā personā, kas ietilpst tajā pašā organizācijā. Šādā gadījumā varat izmantot starpuzņēmumu izdevumu līdzekli, lai šī nodarbinātā izdevumus piešķirtu tai juridiskajai personai, kurai darbs tika veikts. Juridiskā persona, kura ir nodarbinātā darba devējs, tiek dēvēta par patapināšanas juridisko personu. Juridiskā persona, kurai nodarbinātais izraisa izdevumus, tiek dēvēta par piesaistīšanas juridisko personu. 
 

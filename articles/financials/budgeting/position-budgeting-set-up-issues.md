@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="position-budgeting-troubleshooting"></a>Pozīciju budžeta izveides problēmu novēršana
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā raksta ir sniegtas atbildes uz jautājumiem, kas var rasties budžeta veidošanas pozīciju konfigurēšanas gaitā. Tēma atsaucas uz biežāk uzdotajiem jautājumiem par to, kā izveidot budžeta izmaksu elementus, atlīdzību grupas un atlīdzību režģus. 
 

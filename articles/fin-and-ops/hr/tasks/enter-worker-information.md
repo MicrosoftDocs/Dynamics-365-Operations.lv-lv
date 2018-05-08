@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="enter-worker-information"></a>Nodarbinātā informācijas ievade
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Kad personāla atlases darbinieks ir izveidojis masveida darbā pieņemšanas projektu un ģenerējis amatus, nākamais solis ir ievadīt darbinieka informāciju par cilvēkiem, kas pieņemti darbā. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Demonstrācijas dati ietver atvērtu masveida darbā pieņemšanas projektu. Lai sāktu šo procedūru, pārejiet uz sadaļu Personāla vadība > Personāla atlase > Masveida darbā pieņemšanas projekti.
 

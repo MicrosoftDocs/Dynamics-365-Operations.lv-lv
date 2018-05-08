@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="advanced-bank-reconciliation-setup-process"></a>Detalizētas bankas darbību saskaņošanas iestatīšanas process
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Detalizētā bankas darbību saskaņošana ļauj importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmā Microsoft Dynamics 365 for Finance and Operations.  Šajā rakstā ir paskaidrota saskaņošanas procesu iestatīšana.  
 

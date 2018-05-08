@@ -28,7 +28,7 @@ ms.lasthandoff: 02/20/2018
 
 # <a name="create-a-service-template-group"></a>Pakalpojumu veidņu grupas izveide  
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Varat izmantot pakalpojumu veidņu grupas, lai kārtotu un filtrētu pakalpojumu veidnes.
 

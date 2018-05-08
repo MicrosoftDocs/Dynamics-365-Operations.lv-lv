@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-posted-sales-tax-transactions"></a>Skatīt grāmatotās PVN darbības
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Varat apskatīt iegrāmatotās PVN transakcijas no dažādām lapām, atkarībā no tā, ko vēlaties apskatīt. Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.
 

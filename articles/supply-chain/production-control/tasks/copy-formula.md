@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="copy-a-formula"></a>Formulas kopēšana
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā uzsvars tiek likts uz to, lai izveidotu formulu, kura iekļauj tādus pašus komponentus, kā esošā formula, bet ar nelielām atšķirībām. Formulas rindu izveidei var izmantot funkciju Kopēt, lai kopētu esošo formulu, kurai ir visvairāk jums nepieciešamo komponentu. Pēc tam var veikt nepieciešamās izmaiņas atsevišķās rindās jaunajā versijā. Izmantojot funkciju Kopēt, nav jāizveido vairākas gandrīz identiskas formulas. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USP2.
 

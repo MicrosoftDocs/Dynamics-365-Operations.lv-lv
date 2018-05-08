@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Pievienošana veiktspējas žurnālam un uzslavas nosūtīšana
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Veiktspējas žurnāls satur informāciju, kas attiecas uz to, kā jūs sasniedzāt jūsu mērķus, vai kā jūs veicāt aktivitātes perioda laikā. Jūs varat arī slavēt kolēģa darbības no žurnāla. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Šī procedūra ir paredzēta līdzeklim, kas tika pievienots Dynamics 365 for Operations versijā 1611.
 

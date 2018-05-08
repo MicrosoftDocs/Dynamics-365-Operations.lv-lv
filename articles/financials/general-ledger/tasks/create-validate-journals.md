@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-validate-journals"></a>Žurnālu izveide un validēšana
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šis uzdevuma ceļvedis izveido un apstiprina žurnālus un žurnāla rindas. Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.  
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-journal-entry-using-a-template"></a>Žurnāla ieraksta izveide, izmantojot veidni
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Iegrāmatotos žurnālu dokumentus var saglabāt kā dokumentu veidnes un piemērot jauniem žurnāla dokumentiem. Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati.
 

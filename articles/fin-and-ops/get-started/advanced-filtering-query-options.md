@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="advanced-filtering-and-query-syntax"></a>Papildu filtrēšanas un vaicājumu sintakse
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā aprakstītas filtrēšanas un vaicājumu opcijas, kas ir pieejamas, izmantojot “atbilstību” operatoru dialoglodziņā Detalizētā filtrēšana/kārtošana.
 

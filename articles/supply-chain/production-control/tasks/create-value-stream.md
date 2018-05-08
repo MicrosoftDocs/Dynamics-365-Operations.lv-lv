@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-value-stream"></a>Vērtību plūsmas izveide
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Vērtību plūsmas ir pārvaldības struktūrvienības, kas sagrupētas vienā vai vairākās ražošanas plūsmās. Lai definētu ražošanas plūsmu, vispirms ir jādefinē vērtību plūsma.
 

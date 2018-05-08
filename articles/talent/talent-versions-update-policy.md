@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="microsoft-dynamics-365-for-talent-system-requirements-and-update-policy"></a>Microsoft Dynamics 365 for Talent sistēmas prasības un atjaunināšanas politika
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šajā tēmā uzskaitītas prasības sistēmai Microsoft Dynamics 365 for Talent. Turklāt ir ieskicēta atjaunināšanas politika.
 

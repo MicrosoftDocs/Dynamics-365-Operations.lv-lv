@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="calculations-for-product-configuration-models-faq"></a>Bieži uzdotie jautājumi par preču konfigurācijas modeļu aprēķiniem
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīti preču konfigurācijas modeļu aprēķini un ir paskaidrots, kā šos aprēķinus lietot kopā ar ierobežojumiem.
 

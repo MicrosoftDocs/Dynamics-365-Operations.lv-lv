@@ -26,7 +26,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="credit-limits-for-customers"></a>Debitoru kredīta limiti
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Kredīta limita iestatīšana jums ļauj norādīt maksimālo kredīta summu, kādu pagarināt saviem debitoriem. Ja ir norādīts kredīta limits, tas tiek automātiski pārbaudīts, kad lietotājs mēģina atjaunināt dokumentu. Ja kredīta limits ir pārsniegts, lietotājam tiek parādīts ziņojums. Šajā rakstā ir sniegts apskats par to, kā darbojas kredīta limiti, un ir sniegtas atbildes uz šādiem jautājumiem:
 

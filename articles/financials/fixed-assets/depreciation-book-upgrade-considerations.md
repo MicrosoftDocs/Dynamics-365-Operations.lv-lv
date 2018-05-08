@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="depreciation-book-upgrade-overview"></a>Nolietojuma grāmatas jaunināšanas apskats
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Iepriekšējos laidienos pamatlīdzekļiem pastāvēja divi vērtēšanas jēdzieni — vērtības modeļi un nolietojuma grāmatas. Programmatūrā Microsoft Dynamics 365 for Operations (1611) vērtības modeļa funkcionalitāte un nolietojuma grāmatas funkcionalitāte ir apvienotas vienā līdzeklī, kas tiek saukts par grāmatu. Šajā tēmā ir norādīts uz dažiem faktoriem, kas ir jāņem vērā, veicot jaunināšanu. 
 
@@ -62,17 +62,17 @@ Pirms palaižat datu jaunināšanu, jums ir jāsaprot abas opcijas, kas ir pieej
 Šie parametri atrodas klases ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans sākumā. 
 
 *// Norādiet ieteicamo dokumentu sadalījuma metodi* 
-*// true, ja vēlaties lietot pastāvošu numuru sērijas kodu* 
-*// false, ja plānojat lietot sistēmas definētu numuru sēriju (noklusējums)* const boolean NumberSequenceUseExistingCode = false;  
+ *// true, ja vēlaties lietot pastāvošu numuru sērijas kodu* 
+ *// false, ja plānojat lietot sistēmas definētu numuru sēriju (noklusējums)* const boolean NumberSequenceUseExistingCode = false;  
 
 *// Ja lietojat metodi ar sistēmas definētu numuru sēriju, norādiet numuru sērijas parametrus.*
-*// Tiks izveidota jauna numuru sērija ar šiem parametriem.* const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
+ *// Tiks izveidota jauna numuru sērija ar šiem parametriem.* const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
 
 *// Ja lietojat metodi ar pastāvošu numuru sēriju, norādiet pastāvošās numuru sērijas kodu.* 
-*// Pastāvošajām numuru sērijām dokumentu sadalījums darbosies pa vienai rindai.* const str NumberSequenceExistingCode = ''; *// Norādiet pastāvošās numuru sērijas koda tvērumu* 
-*// true, ja norādītā numuru sērija ir kopīga* 
-*// false, ja norādītā numuru sērija ir katram uzņēmumam sava* 
-*// Noklusējuma sistēmas definētā numuru sērija tiek izmantota, ja netiek atrasts numuru sērijas kods ar norādīto tvērumu.* const boolean NumberSequenceExistingIsShared = true; 
+ *// Pastāvošajām numuru sērijām dokumentu sadalījums darbosies pa vienai rindai.* const str NumberSequenceExistingCode = ''; *// Norādiet pastāvošās numuru sērijas koda tvērumu* 
+ *// true, ja norādītā numuru sērija ir kopīga* 
+ *// false, ja norādītā numuru sērija ir katram uzņēmumam sava* 
+ *// Noklusējuma sistēmas definētā numuru sērija tiek izmantota, ja netiek atrasts numuru sērijas kods ar norādīto tvērumu.* const boolean NumberSequenceExistingIsShared = true; 
 
 Kad konstantes ir modificētas, atjaunojiet projektu, kas satur šo klasi. 
 

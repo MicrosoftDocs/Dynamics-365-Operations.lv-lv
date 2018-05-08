@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-channel-attributes"></a> Kanāla atribūtu definēšana
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Papildiniet kanālu, pievienojot kanāla un preces īpašības. Lai definētu īpašības, organizācijas noklusējuma hierarhijai ir jāpievieno kanāls.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="edit-invoice-ids-on-sales-orders-for-eastern-europe"></a>Labot rēķina ID pārdošanas pasūtījumos Austrumeiropai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par kreditoru moduļa parametriem, kas ietekmē rēķinu numurus pavadzīmēs un rēķinos Čehijai, Igaunijai, Ungārijai, Lietuvai, Latvijai un Polijai.
 

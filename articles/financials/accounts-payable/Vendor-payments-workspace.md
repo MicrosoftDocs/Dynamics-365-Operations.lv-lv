@@ -27,7 +27,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="vendor-payments-workspace"></a>Kreditoru maksājumu darbvieta
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Darbvietā **Kreditoru maksājumi** tiek rādīta informācija, kas ir saistīta ar kreditoru maksājumu apstrādi. Šajā darbvietā ir ietverts skats **Mans darbs** un lapa **Analīze**. Skatā **Mans darbs** tiek rādīti kopsavilkuma elementi, kreditoru transakciju režģi un saistītā kreditoru informācija. Lapā **Analīze** tiek izmantotas Microsoft Power BI iespējas, lai parādītu ar kreditoru maksājumiem saistītas vizualizācijas.
 

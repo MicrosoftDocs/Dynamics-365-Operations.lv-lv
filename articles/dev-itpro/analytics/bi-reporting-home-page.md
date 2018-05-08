@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="intelligence"></a>Informācija
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā norādīti resursi, kurus varat izmantot, lai uzzinātu vairāk par biznesa informācijas (BI) un pārskatu veidošanas rīkiem, kas pieejami programmā Microsoft Dynamics 365 for Finance and Operations.
 

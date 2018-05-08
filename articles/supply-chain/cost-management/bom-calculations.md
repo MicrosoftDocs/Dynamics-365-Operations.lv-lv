@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bom-calculations"></a>BOM aprēķini
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Izmaksu apkopojums un pārdošanas cenas aprēķini tiek saukti par materiālu komplektu (MK) aprēķiniem, un tos sāk lapā Aprēķini. Šajā tēmā ir sniegta informācija par MK aprēķiniem.
 

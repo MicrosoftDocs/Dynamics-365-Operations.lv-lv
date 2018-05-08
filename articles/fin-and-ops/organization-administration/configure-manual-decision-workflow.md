@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-manual-decision-in-a-workflow"></a>Konfigurēt manuālu lēmumu darbplūsmā
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā konfigurēt manuāla lēmuma rekvizītus.
 
@@ -98,8 +98,8 @@ Varat nosūtīt lietotājiem paziņojumus, ja lēmums ir pieņemts, deleģēts v
 
 1.  Kreisajā rūtī noklikšķiniet uz **Paziņojumi**.
 2.  Atzīmējiet izvēles rūtiņu pie notikumiem, par kuriem tiek sūtīti paziņojumi:
-    -   **\[1. izvēle\]** — piešķirtais lietotājs ir atlasījis vienumu **\[1. izvēle\]**.
-    -   **\[2. izvēle\]** — piešķirtais lietotājs ir atlasījis vienumu **\[2. izvēle\]**.
+    -   **\[1. izvēle\]**  — piešķirtais lietotājs ir atlasījis vienumu **\[1. izvēle\]**.
+    -   **\[2. izvēle\]**  — piešķirtais lietotājs ir atlasījis vienumu **\[2. izvēle\]**.
     -   **Deleģēt**— piešķirtais lietotājs lēmumu ir piešķīris citam lietotājam.
     -   **Eskalēt** — piešķirtais lietotājs nav pieņēmis lēmumu atvēlētajā laikā.
 

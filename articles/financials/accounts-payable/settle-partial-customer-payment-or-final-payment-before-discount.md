@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Daļēja debitora maksājuma segšana un galīgā maksājuma segšana par pilnu summu pirms atlaides datuma
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir aprakstīti scenāriji, kas izskaidro, kā reģistrēt daļējus debitora maksājumus un termiņatlaides termiņā aprēķināt termiņatlaides.
 

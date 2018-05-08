@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="my-team-mobile-workspace"></a>Mobilā darbvieta Mana grupa
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par mobilo darbvietu **Mana grupa**. Šī darbvieta vadītājiem ļauj skatīt viņu tiešos pārskatus un paplašinātos darbiniekus. Viņi var arī sūtīt uzslavas savā pārskatu ķēdē ietvertajām personām.
 

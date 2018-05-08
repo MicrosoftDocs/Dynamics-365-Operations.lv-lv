@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="create-rules-for-optimization-advisor"></a>Kārtulu izveide optimizācijas padomniekam
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir izskaidrots, kā izveidot jaunas kārtulas darbvietai **Optimizācijas padomnieks**. Piemēram, varat izveidot jaunu kārtulu, kas nosaka, kuriem piedāvājuma pieprasījuma (PP) gadījumiem ir tukšs nosaukums. Gadījumiem izmantojot nosaukumus, tie ir viegli identificējami un meklējami. Šajā piemērā vienkāršoti parādīts, ko var panākt, izmantojot optimizācijas kārtulas. 
 

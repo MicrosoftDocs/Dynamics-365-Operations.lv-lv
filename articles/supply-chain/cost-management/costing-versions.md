@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="costing-versions"></a>Cenu versijas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta informācija par izmaksu aprēķināšanas versijām, par to uzturēšanu un datu tipiem, kurus tajās varat iekļaut. Izmaksu aprēķināšanas versijas galvenais mērķis ir iekļaut izmaksu ierakstus par krājumiem, izmaksu kategorijas un netiešo izmaksu aprēķinu formulas.
 

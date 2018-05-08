@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-a-recruiting-process"></a>Personāla atlases procesa pārvaldība
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīta metode, ko personāla atlases speciālisti var izmantot, lai izsekotu personāla atlases procesa darbības, tostarp vakanču izsludināšanu un kandidātu piesaisti, informācijas par kandidātu un pieteikumu izsekošanu, kandidātu intervēšanu un viena vai vairāku kandidātu atlasi izsludināto vakanču aizpildīšanai organizācijā.
 

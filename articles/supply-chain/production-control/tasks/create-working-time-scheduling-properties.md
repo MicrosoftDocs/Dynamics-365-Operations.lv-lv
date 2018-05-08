@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-working-time-scheduling-properties"></a>Darba laika plānošanas rekvizītu izveide
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Darba laika plānošanas rekvizīti tiek izmantoti, lai kategorizētu darba laika intervālus un definētu iestatījumus, kas operatoriem ir jāņem vērā. Šajā procedūrā ir parādīts, kā definēt darba laika plānošana rekvizītu un saistītās rekvizītu vērtības. Šo procedūru var izmēģināt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.
 

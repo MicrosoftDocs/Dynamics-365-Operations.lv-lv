@@ -29,7 +29,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="product-lifecycle-state"></a>Preces dzīves cikla stāvoklis 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Preces dzīves cikla stāvoklis dokumentē izlaistās preces vai preces varianta dzīves cikla stāvokli. Preces dzīves cikla stāvokļus definē lietotājs — parasti tas ir produktu menedžeris vai preces pamatdatu pārvaldnieks. Īpašus biznesa procesus, piemēram, vispārējo plānošanu, var ietekmēt noteikts dzīves cikla stāvoklis.   
 

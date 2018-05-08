@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="moving-average"></a>Pārvieto vidējo vērtību
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Slīdošā vidējā metode ir pastāvīgo izmaksu aprēķināšanas metode, kuras pamatā ir vidējā vērtība un kuras ietvaros krājumu izdošanas izmaksas nemainās, kad mainās pirkšanas izmaksas. Starpība tiek kapitalizēta, pamatojoties uz proporcionālu aprēķinu. Atlikusī summa tiek iekļauta izdevumos. 
 

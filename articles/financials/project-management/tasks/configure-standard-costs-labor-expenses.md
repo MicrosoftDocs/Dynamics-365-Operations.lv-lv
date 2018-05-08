@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>Standarta darbaspēka un izdevumu izmaksu konfigurēšana
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir parādīts, kā projektam iestatīt standarta izmaksas par darbaspēku un izdevumiem. Šajā uzdevumā tiek izmantota USSI datu kopa.
 

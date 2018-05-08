@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="customer-posting-profiles"></a>Debitoru grāmatošanas metodes
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Debitoru grāmatošanas profili kontrolē debitoru transakciju grāmatošanu virsgrāmatā.
 

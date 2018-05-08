@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-sales-tax-authorities"></a>Nodokļu iestāžu iestatīšana
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 PVN iestādes ir iestādes, kurām jāziņo par iekasēto PVN un tas jāiemaksā. Iestādei PVN var maksāt tieši vai caur nodokļu iestādei izveidotu kreditora kontu. Ja šo iespēju izmantojat, uzņēmums laicīgai PVN nomaksai nodokļu iestādei var izmantot savas parastās maksāšanas procedūras. Ja nodokļu iestādi neiestatāt kā kreditoru, kādam ir jāsagatavo manuāls maksājums nodokļu iestādei līdz atbilstošajam termiņa beigu datumam. Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>PP piedāvājumu ievade un salīdzināšana un līgumu piešķiršana
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir parādīts, kā ievadīt atbildes uz PP, noteikt punktu skaitu un salīdzināt piedāvājumus, un kā pēc tam piešķirt piedāvājumu vienam no kreditoriem. Šo procedūru varat lietot ar demonstrācijas datu uzņēmumu USMF. Pirms sākšanas jums ir nepieciešams PP ar divām rindām, kas ir nosūtīts vismaz diviem kreditoriem. Kā priekšnosacījumu tā izveidošanai varat palaist procedūru “Izveidot piedāvājuma pieprasījumu”. Lai varētu palaist šo procedūru, ir nepieciešams iestatīt punktu skaitīšanas kritērijus.
 

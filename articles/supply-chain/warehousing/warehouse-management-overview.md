@@ -25,7 +25,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="warehouse-management"></a>Noliktavas pārvaldība
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Programmatūras Dynamics 365 for Finance and Operations modulis Noliktavas vadība sniedz iespēju pārvaldīt noliktavas procesus ražošanas, izplatīšanas un mazumtirdzniecības uzņēmumos. Šim modulim ir plašs līdzekļu klāsts, lai noliktavas procedūras atbalstītu optimāli un jebkurā laikā. Noliktavas vadība ir pilnīgi integrēta citos programmatūras Finance and Operations biznesa procesos, piemēram, transportēšanā, ražošanā, kvalitātes kontrolē, pirkšanā, pārsūtīšanā, pārdošanā un atgriešanā.
 

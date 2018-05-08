@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="classify-a-product-using-category-hierarchies"></a>Produkta klasificēšana, izmantojot kategorijas hierarhijas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Izmantojiet kategoriju hierarhiju, lai klasificētu preces eksportēšanai, sagādei, pārdošanai vai citiem nolūkiem. Šo uzdevumu parasti veic preces menedžeris. Piemērā tiek izmantots preces numurs M0009 demonstrācijas datu uzņēmumā USMF.
 

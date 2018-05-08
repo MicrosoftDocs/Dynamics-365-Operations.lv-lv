@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="inventory-lookup-in-the-point-of-sale"></a>Krājumu pārlūkošana pārdošanas punktā 
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Krājumu pārlūkošana pārdošanas punktā (POS) palīdz mazumtirgotājiem sasniegt reāllaika operatīvo izcilību un gūt ieskatus, savienojot veikalus, POS un dokumentu apstrādes biroju. Šī funkcionalitāte nodrošina precīzu reāllaika skatu uz preču krājumiem dažādos veikalos un vairumtirdzniecības bāzēs. Tā arī palīdz mazumtirgotājiem uzlabot efektivitāti un izmaksu ietaupījumus, uzlabojot krājumu plānošanu reālajā laikā.
 

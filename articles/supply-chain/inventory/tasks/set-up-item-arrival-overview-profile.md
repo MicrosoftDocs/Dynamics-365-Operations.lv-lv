@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>Krājumu saņemšanas pārskata profila iestatīšana
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šis uzdevums fokusējas uz saņemšanas pārskata profila iestatīšanu. Saņemšanas pārskata profils ir noteikumu kopums, kas tiks izmantots, kad lietotājs atver saņemšanas pārskata lapu. Šo procedūru varat lietot ar demonstrācijas datu uzņēmumu USMF. Šo procedūru parasti veic saņemšanas darbinieks.
 

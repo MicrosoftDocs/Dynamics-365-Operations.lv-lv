@@ -28,7 +28,7 @@ ms.lasthandoff: 02/27/2018
 
 # <a name="service-templates"></a>Pakalpojumu veidnes
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Varat definēt pakalpojumu līgumu kā veidni un vēlāk pārkopēt veidnes rindas uz citu pakalpojumu līgumu vai pakalpojuma pasūtījumu.
 

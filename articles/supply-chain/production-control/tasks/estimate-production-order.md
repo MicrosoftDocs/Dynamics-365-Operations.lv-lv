@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="estimate-a-production-order"></a>Ražošanas pasūtījuma novērtējums
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šo procedūru var izpildīt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savu datu kopu. Abos gadījumos jums ir jābūt atvērtam ražošanas pasūtījumam, kam ir statuss Izveidots. Šī ir otrā procedūra no septiņām, kurā ir paskaidrots ražošanas pasūtījuma dzīves cikls.
 

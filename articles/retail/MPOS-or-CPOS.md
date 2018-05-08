@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="choose-between-modern-pos-and-cloud-pos"></a>Izvēle starp Modern POS un Cloud POS
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šajā tēma ieviesējiem tiek sniegta papildu fona informācija, padomi un norādījumi par faktoriem, kas ir jāņem vērā, izvietojot programmatūru Microsoft Dynamics 365 for Retail. Pārskatot un izvietošanas procesā ievērojot šis norādījumus, ieviesēji var izvairīties no problēmām, kuras varētu ietekmēt lietotāju apmierinātību vai veiktspēju.
 

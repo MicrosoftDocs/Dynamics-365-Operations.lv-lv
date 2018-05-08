@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="pay-based-on-registrations"></a>Apmaksa atbilstoši reģistrācijām
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir plaši paskaidrots, kā tiek aprēķināta apmaksa, pamatojoties uz nodarbinātaisu reģistrācijām. Tēmā ir iekļauti piemēri, kas parāda, kā dažādas iestatījumu opciju kombinācijas, kas ir pieejamas aprēķināšanai, ietekmē rezultātu. Dažas no šajā tēmā aplūkotajām jomām:
 

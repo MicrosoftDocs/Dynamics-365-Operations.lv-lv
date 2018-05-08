@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="immediate-replenishment"></a>Tūlītēja papildināšana
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Tūlītēja papildināšana ļauj papildināt krājumu tūlīt pēc tam, kad atrašanās vietas direktīvas rindai neizdodas piešķirt krājumu. Papildināšanas pamatā ir atsevišķa rinda atrašanās vietas direktīvas iestatījumos. Ja krājumi nav pieejami mērvienībās, kas ir norādītas attiecīgajā rindā, nekavējoties tiek veikta attiecīgās mērvienības papildināšana.
 

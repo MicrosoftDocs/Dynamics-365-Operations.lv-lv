@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="design-the-relationships-between-organizational-units"></a> Organizācijas struktūrvienību attiecību izstrāde
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir aprakstīts, kā noformēt attiecības starp organizācijas vienībām. Pirms definējat attiecības, ir jāizveido jauns organizācijas nolūks, vai varat izmantot jau esošo organizācijas nolūku. Demonstrācijas datu uzņēmums, kas tiek izmantots šīs procedūras izpildei, ir USRT. Šis uzdevums ir paredzēts lietotajiem ar administratora lomu.
 

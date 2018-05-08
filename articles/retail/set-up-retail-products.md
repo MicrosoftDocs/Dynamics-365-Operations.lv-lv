@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-retail-products"></a>Iestatīt mazumtirdzniecības preces
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šajā rakstā ir aprakstīts, kā veikt mazumtirdzniecības preču iestatīšanu programmatūrā Microsoft Dynamics 365 for Retail
 

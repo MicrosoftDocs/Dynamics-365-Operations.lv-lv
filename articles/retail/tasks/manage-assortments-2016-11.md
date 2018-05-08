@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="manage-assortments"></a> Klāsta pārvaldība  
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Šajā procedūrā tiek demonstrēts, kā izveidot un publicēt jaunu preču klāstu, un tajā tiek izmantots demonstrācijas datu uzņēmums USRT. Šai procedūrai ir nepieciešama Dynamics AX programmas versija 7.0.1 vai jaunāka un Dynamics AX platformas versija 7.1.  
 

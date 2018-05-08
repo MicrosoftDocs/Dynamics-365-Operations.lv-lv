@@ -27,7 +27,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Daļēji rezervētu pārsūtīšanas pasūtījumu partijas izlaišana
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Funkcionalitāte daļēji rezervētu pārsūtīšanas pasūtījumu partijas izlaišanai jums ļauj uz noliktavu daļēji pārvietot pārsūtīšanas pasūtījumus, izmantojot pakešuzdevumu.
 Tā kā jums ir iespēja izlaist daļēju daudzumu, tad pirms pasūtījuma izlaišanas jums nav jāgaida, līdz noliktavā ir pieejams viss pasūtījuma daudzums.

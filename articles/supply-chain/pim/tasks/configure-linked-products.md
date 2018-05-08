@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-linked-products"></a>Saistīto preču konfigurēšana
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir aprakstīts, kā konfigurēt saistītās preces. Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati, un tiek pieņemts, ka preces jau tika izveidotas un izlaistas.
 

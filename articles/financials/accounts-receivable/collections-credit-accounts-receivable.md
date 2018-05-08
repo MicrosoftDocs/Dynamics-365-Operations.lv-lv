@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="credit-and-collections-in-accounts-receivable"></a>Debitoru parādu kredīts un iekasēšana
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Debitoru parādu iekasēšanas informācija tiek centralizēti pārvaldīta vienā skatā, izmantojot Dynamics 365 for Finance and Operations lapu Iekasēšana. Kreditēšanas un iekasēšanas transakciju vadītāji šo centrālo skatu var izmantot, lai pārvaldītu iekasēšanas transakcijas. Iekasēšanas aģenti var uzsākt iekasēšanas procesu, izmantojot debitoru sarakstus, kas tiek ģenerēti, izmantojot iepriekš definētus iekasēšanas kritērijus, vai lapu Debitori.
 

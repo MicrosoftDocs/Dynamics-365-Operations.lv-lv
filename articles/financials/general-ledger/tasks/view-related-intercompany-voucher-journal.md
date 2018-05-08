@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-a-related-intercompany-voucher-from-a-journal"></a>Saistītā starpuzņēmuma dokumenta skatīšana no žurnāla
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Grāmatojot starpuzņēmumu transakciju no Virsgrāmatas žurnāla, saistītā dokumenta logā tiek rādīts korespondējošā uzņēmuma dokuments.
 

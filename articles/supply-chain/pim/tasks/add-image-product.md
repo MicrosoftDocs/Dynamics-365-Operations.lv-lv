@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="add-an-image-to-a-product"></a>Attēla pievienošana precei
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā pievienot attēlu produktam, ko demonstrācijas datu uzņēmums izmantoja, lai izveidotu šo uzdevumu USMF.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-a-calendar-and-generate-working-times"></a>Kalendāra izveide un darba laiku ģenerēšana
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Kalendāros ir norādīta operāciju resursu noslodze un darba laiki. Šī procedūra palīdzēs jums izveidot darba kalendāru, pamatojoties uz darba laika veidni. Šo procedūru var izmēģināt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.
 

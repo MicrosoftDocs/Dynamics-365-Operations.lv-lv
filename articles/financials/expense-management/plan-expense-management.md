@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="configure-expense-management"></a>Izdevumu pārvaldības konfigurēšana
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīti apsvērumi un lēmumi, kas jums ir jāpieņem plānošanas procesa laikā pirms izdevumu pārvaldības konfigurēšanas programmatūras Microsoft Dynamics 365 for Finance and Operations. Modulī Izdevumu pārvaldība jūs tostarp varat glabāt informāciju par maksāšanas metodēm, komandējumu pieprasījumiem, izdevumu pārskatiem, politikām un citiem faktoriem.
 

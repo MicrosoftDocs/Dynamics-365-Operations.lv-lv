@@ -26,7 +26,7 @@ ms.lasthandoff: 03/08/2018
 ---
 # <a name="attract-overview"></a>Attract pārskats
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Programma Attract nodrošina iespējas jauno talantu nolīgšanas procesa pārvaldīšanai. Kandidātus var pievienot atvērtiem darbiem un pārcelt no viena posma uz citu, līdz piedāvājums tiek pagarināts vai pieteikums tiek noraidīts. Katrā posmā kandidāti virzās caur tādām aktivitātēm kā izvērtēšanas zvani, novērtējumi vai interviju plānošana. Pēc pieteikšanās kandidāti saņem e-pasta ziņojumu ar aicinājumu pierakstīties programmā Attract, kur viņi var sekot līdzi darba statusam, savam pieteikumam, un atbildēt uz visiem viņiem piešķirtajiem uzdevumiem.
 

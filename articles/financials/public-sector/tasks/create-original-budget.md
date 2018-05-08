@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-an-original-budget-and-reverse-preliminary-budget-entries-in-the-public-sector"></a>Sākotnēja budžeta izveide un publiskā sektora provizoriskā budžeta ierakstu apgriešana
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Izveidojot sākotnējo budžeta ierakstu un izmantojot budžeta modeli un dimensiju vērtības, kas satur sākotnējā budžeta summas, var atcelt sākotnējās budžeta summas. Šīs procedūras izveidē tika izmantoti demonstrācijas uzņēmuma “PSUS” dati un publiskā sektora nodalījums.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="close-accounts-receivable"></a>Slēgt moduli Debitoru parādi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Nākamajā tabulā ir uzskaitītas lapas, kas atbalsta debitoru slēgšanas biznesa procesu.
 

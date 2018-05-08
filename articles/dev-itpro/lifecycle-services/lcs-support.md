@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="find-support-for-microsoft-dynamics-365-for-finance-and-operations-and-dynamics-lifecycle-services"></a>Saņemt atbalstu darbā ar Microsoft Dynamics 365 for Finance and Operations un Dynamics Lifecycle Services
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā skaidrots, kā saņemt palīdzību darbā ar Finance and Operations vai Microsoft Dynamics Lifecycle Services (LCS). 
 

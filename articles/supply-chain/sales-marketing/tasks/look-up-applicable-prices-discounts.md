@@ -24,7 +24,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Attiecināmo cenu un atlaižu pārlūkošana
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā atrast cenu un/vai atlaidi precei, kas pašlaik derīga noteiktam debitoram, neizveidojot pārdošanas pasūtījumu. Procedūra palīdz veikt konkrētu piemēru, un, lai atlasītu nepieciešamās vērtības, ir nepieciešams sekot piemēram, izmantojot USMF demonstrācijas uzņēmumu.
 

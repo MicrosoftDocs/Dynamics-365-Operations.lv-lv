@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Kravu pārvadāšanas maršrutu ar vairākām pieturām plānošana
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā raksta ir izklāstīti dažādie elementi, ko izmantojat, lai plānotu transportēšanas maršrutus programmatūrā Microsoft Dynamics 365 for Finance and Operations.
 

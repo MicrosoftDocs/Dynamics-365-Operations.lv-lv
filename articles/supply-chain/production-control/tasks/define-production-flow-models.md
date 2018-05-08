@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-production-flow-models"></a>Ražošanas plūsmas modeļu definēšana
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ražošanas plūsmas modeļi apraksta, kā tiek aprēķināta un uzturēta lean manufacturing darba šūnu noslodze. Tādēļ ražošanas plūsmas modeļa definēšana ir darba šūnu definēšanas priekšnosacījums. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="petty-cash-for-eastern-europe"></a>Mazie kases posteņi Austrumeiropai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par mazo kases posteņu funkcionalitāti, kas lietotājiem Igaunijā, Lietuvā, Čehijā, Ungārijā, Latvijā, Polijā un Krievijā ļauj sistēmā atainot kases operācijas.
 

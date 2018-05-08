@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>Simulēt izmaksu izmaiņas, plānotajām izmaksām izmantojot izmaksu aprēķināšanas versiju
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir paskaidrots, kā varat simulēt izmaksu izmaiņu ietekmi uz ražota krājuma aprēķinātajām izmaksām, izmantojot atsevišķu izmaksu aprēķināšanas versiju plānotajām izmaksām.
 

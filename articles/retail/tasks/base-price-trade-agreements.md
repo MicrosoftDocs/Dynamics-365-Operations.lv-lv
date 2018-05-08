@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="base-price-and-trade-agreements"></a> Bāzes cena un tirdzniecības līgumi
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā izveidot kanāla pārdošanas cenas tirdzniecības līgumus. Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.
 

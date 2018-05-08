@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-online-store"></a>Tiešsaistes veikala konfigurēšana
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir ietvertas saites uz tēmām, kas jums palīdzēs centralizēti konfigurēt un pārvaldīt tiešsaistes veikalu.
 

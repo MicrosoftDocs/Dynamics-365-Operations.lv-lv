@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-bar-code-masks"></a>Svītrkodu masku iestatīšana
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā iestatīt svītrkoda maskas rakstzīmes, svītrkoda maskas un kā piešķirt svītrkoda maskas svītrkodiem.
 

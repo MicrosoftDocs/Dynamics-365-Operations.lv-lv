@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="product-related-translations-faq"></a>Bieži uzdotie jautājumi par tulkojumiem, kas saistīti ar precēm
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā aprakstīts, kā pārvaldīt preču tulkojumus, preču dimensiju vērtības un preču īpašības. 
 

@@ -29,9 +29,9 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="weighted-average-with-physical-value-and-marking"></a>Vidējā svērtā ar fizisko vērtību un iezīmēšanu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Svērtais vidējais ir krājumu modelis, kas balstīts uz svērto vidējo principu, kur krājumu izejas plūsmas tiek novērtētas ar vienību vidējo vērtību, kas tiek saņemtas krājumā krājumu noslēgšanas periodā, pluss jebkādi rīcībā esošie krājumi no iepriekšējā perioda.
 

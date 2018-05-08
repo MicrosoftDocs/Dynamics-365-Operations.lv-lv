@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="price-adjustments-and-discounts"></a>Cenu korekcijas un atlaides
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šajā raksta ir sniegta informāciju par cenu korekcijas un atlaides transakcijām mazumtirdzniecības un komercijas jomā programmā Microsoft Dynamics 365 for Retail.
 

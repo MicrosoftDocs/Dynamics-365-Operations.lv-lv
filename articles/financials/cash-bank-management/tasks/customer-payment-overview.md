@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="customer-payment-overview"></a>Debitoru maksājumu pārskats
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šis uzdevumu ceļvedis palīdzēs izprast dažādas metodes, kuras izmanto, lai ievadītu debitora maksājumus. Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.
 

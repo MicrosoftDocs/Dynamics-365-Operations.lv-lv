@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bom-calculations-groups"></a>MK aprēķinu grupas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta informācija par materiālu komplektu (MK) aprēķinu grupām un to iestatīšanu. Lai izpildītu MK aprēķinu, ir jāiestata aprēķinu grupas un tās jāpiešķir atsevišķiem krājumiem, vai jāiestata noklusējuma aprēķinu grupa. MK aprēķināšanas laikā aprēķinu iestatījumi no aprēķinu grupas tad tiek izmantoti kā noklusējuma vērtības lapā MK aprēķins. 
 

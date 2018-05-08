@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="assess-sales-performance-by-product"></a>Novērtēt veiktspēju pēc preces
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Izmantojot Microsoft Dynamics 365 for Retail, varat izpētīt labāko 10 preču rentabilitāti. 
 

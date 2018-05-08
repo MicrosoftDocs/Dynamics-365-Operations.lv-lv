@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a>Degvielas rādītāja saistīšana ar pārvadātāju kā papildobjekta maksu
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā ceļvedī parādīts, kā izveidot papildobjekta piešķiri, pārvadātāja papildobjekta maksu, papildobjekta šablonu degvielas piemaksai un saistīt pārvadātāja degvielas rādītāju ar pārvadātāju. Pirms izpildīt šo ceļvedi ir jāiestata degvielas rādītājs. To var izdarīt, izmantojot ceļvedi "Pārvadātāja degvielas rādītāja iestatīšana". Šos iestatīšanas uzdevumus parasti veic loģistikas vadītājs. Demonstrācijas dati, kas tiek izmantoti, lai izveidotu šo procedūru, ir USMF.
 

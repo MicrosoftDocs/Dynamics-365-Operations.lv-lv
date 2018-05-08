@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-a-pos-visual-profile"></a> POS vizuālā profila izveide  
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir aprakstīts, kā izveidot jaunu pārdošanas punkta (point of sale — POS) vizuālo profilu. Vizuālais profils satur pamatinformāciju, kas nosaka POS reģistru izskatu. Var izveidot vairākus vizuālos profilus un piešķirt konkrētus profilus, ko izmantot konkrētās kases sistēmās. Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.
 

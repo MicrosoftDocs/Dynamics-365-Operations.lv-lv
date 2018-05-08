@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>Atjaunināt jaunas ražošanas vienības standarta izmaksas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegti norādījumi par to, kā atjaunināt jauna ražojamā krājuma standarta izmaksas. 
 

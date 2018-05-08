@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>Pirkšanas pasūtījuma krājumu saņemšana no krājumu vajadzības
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir parādīts, kā saņemt pirkšanas pasūtījuma krājumus no krājumu vajadzības.
 

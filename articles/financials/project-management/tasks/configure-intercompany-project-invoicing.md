@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Starpuzņēmumu projekta rēķinu izrakstīšanas konfigurēšana
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir parādīts, kā iestatīt projekta rēķinu izrakstīšanu starp diviem uzņēmumiem jūsu organizācijā. Šajā uzdevumā tiek izmantota USSI datu kopa.
 

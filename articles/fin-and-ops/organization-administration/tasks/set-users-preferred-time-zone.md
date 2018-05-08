@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-a-users-preferred-time-zone"></a>Iestatiet lietotāja izcelto laika joslu
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Nākamajā procedūrā ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators lietotājam var iestatīt laika joslu.
 

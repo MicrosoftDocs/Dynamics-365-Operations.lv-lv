@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="retail-hierarchies"></a>Mazumtirdzniecības hierarhijas
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šajā rakstā ir aprakstītas programmā Microsoft Dynamics 365 for Retail pieejamās mazumtirdzniecības hierarhijas.
 

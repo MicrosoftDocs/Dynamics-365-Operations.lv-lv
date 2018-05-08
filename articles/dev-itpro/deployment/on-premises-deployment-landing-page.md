@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="on-premises-deployment-home-page"></a>Lokālā izvietojuma sākumlapa
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Izvērsiet programmu Microsoft Dynamics 365 for Finance and Operations (lokāla izvietošana). Izvēloties lokālās izvietošanas veidu, sistēmas prasības, aparatūras lieluma maiņa un funkcionalitāte atšķiras no mākoņa izvietošanas. Šajā tēmā ir sniegtas saites uz saturu, kurā ietverta informācija par lokālajiem izvietojumiem.
 

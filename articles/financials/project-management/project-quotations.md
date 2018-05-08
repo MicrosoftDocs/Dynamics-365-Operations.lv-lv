@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-quotations"></a>Projekta piedāvājumi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā tiek iepazīstināts ar projektu piedāvājumu jēdzienu; projektu piedāvājumus varat izmantot, lai kā pirmo projekta fāzes darbību sniegtu debitoram pievilcīgu piedāvājumu. Projekta piedāvājumā var būt ietverti piedāvātie krājumi un pakalpojumi, vispārēja kontaktinformācija, īpaši tirdzniecības līgumi un atlaides, kā arī iespējamie nodokļi un piemaksas. 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="overview-of-product-and-customer-search-in-point-of-sale"></a>Apskats par preču un debitoru meklēšanu pārdošanas punktā
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Modern pārdošanas punkts (Modern Point of Sale — MPOS) un Mākoņa pārdošanas punkts (Cloud Point of Sale — CPOS) nodrošina ērtu preču un debitoru meklēšanas funkcionalitāti. Tā kā meklēšanas josla vienmēr atrodas MPOS un CPOS logu augšpusē, darbinieki var ātri meklēt preces un debitorus.
 

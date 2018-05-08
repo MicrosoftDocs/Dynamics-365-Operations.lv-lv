@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-credit-note-on-project-invoices"></a>Kredīta notas izveide projektu rēķiniem
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 1. Dodieties uz Projektu vadība un uzskaite > Projekti > Visi projekti. 
 2. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu. 

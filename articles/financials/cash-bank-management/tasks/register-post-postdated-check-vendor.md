@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="register-and-post-a-postdated-check-for-a-vendor"></a>Ar iepriekšēju datumu datētu čeku reģistrēšana un grāmatošana kreditoram
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Izmantojiet žurnāla dokumentu, lai reģistrētu informāciju ar iepriekšēju datumu datētam čekam, pirms čeku izsniedzat kreditoram. Var arī grāmatot ar iepriekšēju datumu datēto čeku un ģenerētu finanšu transakcijas. Pirms reģistrējat un grāmatojat ar iepriekšēju datumu datētu čeku, ko esat saņēmis no kreditora, izpildiet tālāk norādīto uzdevumu: 
 

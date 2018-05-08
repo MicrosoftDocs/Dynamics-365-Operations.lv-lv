@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="order-holds"></a>Pasūtījumu aizturēšana
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā aizturēt pasūtījumus, izmantojot Dynamics 365 for Retail.
 

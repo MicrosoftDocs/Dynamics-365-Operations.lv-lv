@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="procurement-and-sourcing-home-page"></a>Sagādes un avotu sākumlapa
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegts saraksts ar palīdzības tēmām un citiem resursiem, kas ir pieejami sagādes un avotu modulī.
 

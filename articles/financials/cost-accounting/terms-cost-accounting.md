@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="cost-accounting-terminology"></a>Izmaksu uzskaites terminoloģija
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā tiek definēti galvenie termini, kas tiek izmantoti Izmaksu uzskaitē.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-an-interest-code-with-a-range"></a>Procentu koda ar diapazonu izveide
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Procentu kodus var iestatīt, lai tiktu aprēķinātas dažādas procentu summas, balstoties uz vērtību diapazonu. Šajā procedūrā ir parādīts, kā pievienot procentu kodu un tam pievienot diapazonu.
 

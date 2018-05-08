@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-delivery-schedule"></a>Piegādes grafika izveide
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir parādīts, kā pārdošanas pasūtījumam izveidot piegādes grafiku. Piegādes grafiks tiek izmantots, kad pasūtījumā vai piedāvājumā minēto daudzumu ir pieprasīts piegādāt vairākos sūtījumos. Šo procedūru varat izpildīt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.
 

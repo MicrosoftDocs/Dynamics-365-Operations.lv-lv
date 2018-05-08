@@ -27,7 +27,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="websearchax-retired"></a>Lapas WebSearchAX noņemšana
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Mums bija jānoņem lapa WebSearchAX. Mēs iesakām tās vietā izmantot meklēšanu vietnē jūsu iecienītākajā meklētājprogrammā.  Piemēram: 
 

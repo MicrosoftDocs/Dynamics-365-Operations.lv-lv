@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="tax-on-natural-resources-report"></a>Dabas resursu nodokļa pārskats
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā iestatīt un ģenerēt pārskatu Dabas resursu nodoklis (DRN).
 
