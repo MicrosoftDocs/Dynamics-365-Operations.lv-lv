@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 57f11ab8616914c489e0f8a8424355c79b210978
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ff9aa834ae03f2e1d4f6efbc1aed8594e02ef113
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-production-flow-models"></a><span data-ttu-id="e26fb-103">Ražošanas plūsmas modeļu definēšana</span><span class="sxs-lookup"><span data-stu-id="e26fb-103">Define production flow models</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e26fb-104">Ražošanas plūsmas modeļi apraksta, kā tiek aprēķināta un uzturēta lean manufacturing darba šūnu noslodze.</span><span class="sxs-lookup"><span data-stu-id="e26fb-104">Production flow models describe how the capacity of lean manufacturing work cells is calculated and maintained.</span></span> <span data-ttu-id="e26fb-105">Tādēļ ražošanas plūsmas modeļa definēšana ir darba šūnu definēšanas priekšnosacījums.</span><span class="sxs-lookup"><span data-stu-id="e26fb-105">Therefore the definition of a production flow model is a prerequisite of the definition of work cells.</span></span> <span data-ttu-id="e26fb-106">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="e26fb-106">The demo data company used to create this procedure is USMF.</span></span>
 

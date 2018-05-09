@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d4ea70e3cf5d0e431752e240bb984d224cbe5446
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e28ed504a945c162635c414bd156571a41faffe9
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="transfer-materials-with-kanban-jobs-february-2016-only"></a><span data-ttu-id="0b9ca-103">Materiālu pārsūtīšana, izmantojot Kanban darbus (tikai 2016. gada februāris)</span><span class="sxs-lookup"><span data-stu-id="0b9ca-103">Transfer materials with kanban jobs (February 2016 only)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0b9ca-104">Šajā procedūrā parādīts, kā izpildīt Kanban atsaukšanas darbu, lai pārsūtītu materiālus.</span><span class="sxs-lookup"><span data-stu-id="0b9ca-104">This procedure focuses on executing a withdrawal kanban job to transfer materials.</span></span> <span data-ttu-id="0b9ca-105">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="0b9ca-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="0b9ca-106">Šī procedūra ir paredzēta noliktavas darbiniekam.</span><span class="sxs-lookup"><span data-stu-id="0b9ca-106">This procedure is intended for the warehouse worker.</span></span>
 

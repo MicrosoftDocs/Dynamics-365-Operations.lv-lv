@@ -20,16 +20,16 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 84366a26f69a651146648d4a9bdb139fc6d2cffe
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 821ba4f0957d8bb84fc188c86895700631b46fed
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="synchronize-products-directly-from-finance-and-operations-to-products-in-sales"></a><span data-ttu-id="3c776-103">Programmā Finance and Operations ietverto preču tieša sinhronizēšana ar precēm programmā Sales</span><span class="sxs-lookup"><span data-stu-id="3c776-103">Synchronize products directly from Finance and Operations to products in Sales</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 > <span data-ttu-id="3c776-104">Lai varētu lietot risinājumu No potenciāla klienta līdz skaidrai naudai, vispirms iepazīstiet līdzekli [Dynamics 365 datu integrācija](/common-data-service/entity-reference/dynamics-365-integration).</span><span class="sxs-lookup"><span data-stu-id="3c776-104">Before you can use the Prospect to cash solution, you should be familiar with [Dynamics 365 Data integration](/common-data-service/entity-reference/dynamics-365-integration).</span></span>
@@ -71,7 +71,7 @@ ms.lasthandoff: 04/13/2018
 
 - <span data-ttu-id="3c776-134">**Jā** — prece ir iegūta no programmas Finance and Operations, un to nevar rediģēt programmā Sales.</span><span class="sxs-lookup"><span data-stu-id="3c776-134">**Yes** – The product originated from Finance and Operations and won't be editable in Sales.</span></span>
 - <span data-ttu-id="3c776-135">**Nē** — prece ir tieši ievadīta programmā Sales.</span><span class="sxs-lookup"><span data-stu-id="3c776-135">**No** – The product was entered directly in Sales.</span></span>
-- <span data-ttu-id="3c776-136">**(Tukšs)** — prece bija pieejama programmā Sales pirms risinājuma No potenciālā klienta līdz skaidrai naudai iespējošanas.</span><span class="sxs-lookup"><span data-stu-id="3c776-136">**(Blank)** – The product existed in Sales before the Prospect to cash solution was enabled.</span></span>
+- <span data-ttu-id="3c776-136">**(Tukšs)**  — prece bija pieejama programmā Sales pirms risinājuma No potenciālā klienta līdz skaidrai naudai iespējošanas.</span><span class="sxs-lookup"><span data-stu-id="3c776-136">**(Blank)** – The product existed in Sales before the Prospect to cash solution was enabled.</span></span>
 
 <span data-ttu-id="3c776-137">Lauks **Tiek uzturēts ārēji** palīdz nodrošināt, ka ar programmu Finance and Operations tiek sinhronizēti tikai piedāvājumi un pārdošanas pasūtījumi, kas ir saistīti ar ārēji uzturētām precēm.</span><span class="sxs-lookup"><span data-stu-id="3c776-137">The **Is Externally Maintained** field helps guarantee that only quotations and sales orders that have externally maintained products will be synchronized to Finance and Operations.</span></span>
 

@@ -19,16 +19,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: eaba91aea9dd206c205294c1601f5c47b7506708
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d66f1f02377429f0cf9cea48c0ed939e194ecbfb
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="fixed-assets-accounting-for-tax-purposes"></a><span data-ttu-id="1680d-103"> Pamatlīdzekļu uzskaite nodokļu aprēķinam</span><span class="sxs-lookup"><span data-stu-id="1680d-103">Fixed assets accounting for tax purposes</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="1680d-104">Šajā tēmā ir sniegta informācija par nodokļu nolietojuma funkcionalitāti Latvijai, tostarp nodokļu nolietojuma iestatīšanu, ka arī nodokļu nolietojuma pārskata aprēķināšanu un drukāšanu.</span><span class="sxs-lookup"><span data-stu-id="1680d-104">This topic provides information about the tax depreciation functionality for Latvia, including the tax depreciation setup and calculation and printing the tax depreciation report.</span></span> 
 > [!NOTE]

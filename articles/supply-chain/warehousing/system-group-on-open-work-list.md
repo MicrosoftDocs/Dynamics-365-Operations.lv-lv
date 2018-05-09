@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d9ca6b0d4a9909d419d6241a044336d7a02aea02
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c9ff5df219c5e8b52e3d64d340fd55be7f51919a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="system-grouping-on-an-open-work-list"></a><span data-ttu-id="51d9a-103">Sistēmas grupēšana atvērtā darbu sarakstā</span><span class="sxs-lookup"><span data-stu-id="51d9a-103">System grouping on an open work list</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="51d9a-104">Izmantojot sistēmas grupēšanas lauku, varat filtrēt atvērto darbu sarakstu, nerediģējot mobilās ierīces izvēlnes vienumu.</span><span class="sxs-lookup"><span data-stu-id="51d9a-104">By using a system grouping field, you can filter an open work list without having to edit the mobile device menu item.</span></span>
 <span data-ttu-id="51d9a-105">Tādā gadījumā sistēmas grupēšana darbojas darbu saraksta filtrēšanai vienā darba virsraksta laukā.</span><span class="sxs-lookup"><span data-stu-id="51d9a-105">Where it applies, system grouping works for filtering a work list on a single work header field.</span></span> <span data-ttu-id="51d9a-106">Sistēmas grupēšanu nevar izmantot, lai filtrētu rindas līmeņa laukus.</span><span class="sxs-lookup"><span data-stu-id="51d9a-106">You cannot use system grouping to filter on line level fields.</span></span>

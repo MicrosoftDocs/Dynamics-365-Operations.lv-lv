@@ -16,18 +16,18 @@ ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 07224faabcf2b183d4c8da0ba4588c33ec140d03
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0754b4361f2fe940f6c6d4168ac44f234fd363f8
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="embed-powerapps"></a><span data-ttu-id="ff1fb-103">Pakalpojuma PowerApps iegulšana</span><span class="sxs-lookup"><span data-stu-id="ff1fb-103">Embed PowerApps</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [banner](../includes/pre-release.md)]
+[!include [banner](../includes/pre-release.md)]
 
 <span data-ttu-id="ff1fb-104">Platformas atjauninājuma versija 14, Microsoft Dynamics 365 for Finance and Operations atbalsta integrāciju ar Microsoft PowerApps, izstrādātājiem un ar tehniku nesaistītiem lietotājiem paredzētu pakalpojumu pielāgotu biznesa programmu mobilajām ierīcēm, planšetdatoriem un tīmekļa vietnēm izveidei bez kodu rakstīšanas.</span><span class="sxs-lookup"><span data-stu-id="ff1fb-104">In Platform update 14, Microsoft Dynamics 365 for Finance and Operations supports integration with Microsoft PowerApps, a service for developers and non-technical users to build custom business apps for mobile devices, tablets, and the web without writing code.</span></span> <span data-ttu-id="ff1fb-105">Jūsu izstrādāto pakalpojumu PowerApps jūsu organizācija vai plašāka ekosistēma pēc tam var iegult Finance and Operations klientā produkta funkcionalitātes atbalstam.</span><span class="sxs-lookup"><span data-stu-id="ff1fb-105">PowerApps developed by you, your organization, or the broader ecosystem can then be embedded in the Finance and Operations client to augment the product's functionality.</span></span> <span data-ttu-id="ff1fb-106">Piemēram, jūs varat izveidot pakalpojumu PowerApp, lai papildinātu programmu Finance and Operations ar informāciju, kas izgūta no citas sistēmas.</span><span class="sxs-lookup"><span data-stu-id="ff1fb-106">For example, you might build a PowerApp to supplement Finance and Operations with information retrieved from another system.</span></span> 
 

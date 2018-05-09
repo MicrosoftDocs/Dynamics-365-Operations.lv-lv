@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 50435f858524013c3b0e67939bd29ab18b4272b0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d306b9f28daf73884d5804720be3dba41e569509
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-lean-schedule-groups"></a><span data-ttu-id="c00c1-103">Racionālās plānošanas grupu definēšana</span><span class="sxs-lookup"><span data-stu-id="c00c1-103">Define lean schedule groups</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c00c1-104">Racionālās plānošanas grupas tiek definētas, lai grupētu un izšķirtu preces Kanban plānošanā.</span><span class="sxs-lookup"><span data-stu-id="c00c1-104">Lean schedule groups are defined to group and distinguish products in kanban scheduling.</span></span> <span data-ttu-id="c00c1-105">Grupēšanu var veikt kā vispārīgu saistību pēc uzņēmuma vai noteiktai darba šūnai.</span><span class="sxs-lookup"><span data-stu-id="c00c1-105">The grouping can be done as generic association per company or specific to a work cell.</span></span> <span data-ttu-id="c00c1-106">Katrai grupai ir piešķirts krāsas kods, lai grupu varētu vizuāli atpazīt Kanban plānošanas saraksta lapā.</span><span class="sxs-lookup"><span data-stu-id="c00c1-106">Each group has a color code assigned for visual indication in the kanban scheduling list page.</span></span> <span data-ttu-id="c00c1-107">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="c00c1-107">The demo data company used to create this procedure is USMF.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 68fe68ba92495eb089e9b38cfbd42eba05b7dc47
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f0bb5be885491e97d8d9c2f90608d139745db650
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="bank-management-workspace"></a><span data-ttu-id="f515c-106">Bankas pārvaldības darbvieta</span><span class="sxs-lookup"><span data-stu-id="f515c-106">Bank management workspace</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="f515c-107">Darbvietā **Banku vadība** tiek rādīta informācija, kas ir saistīta ar uzņēmuma bankas kontiem.</span><span class="sxs-lookup"><span data-stu-id="f515c-107">The **Bank management** workspace shows information that is related to company bank accounts.</span></span> <span data-ttu-id="f515c-108">Darbvietā ir ietverts skats **Kopsavilkums** un lapa **Analīze**.</span><span class="sxs-lookup"><span data-stu-id="f515c-108">This workspace includes a **Summary** view and an **Analytics** page.</span></span> <span data-ttu-id="f515c-109">Skatā **Kopsavilkums** tiek rādīti kopsavilkuma elementi, bankas konta informācija, bilances diagramma un saistītā informācija.</span><span class="sxs-lookup"><span data-stu-id="f515c-109">The **Summary** view shows summary tiles, bank account information, a balance chart, and related information.</span></span> <span data-ttu-id="f515c-110">Lapā **Analīze** tiek izmantotas Microsoft Power BI iespējas, lai parādītu ar bankas kontu bilancēm saistītas vizualizācijas.</span><span class="sxs-lookup"><span data-stu-id="f515c-110">The **Analytics** page uses the capabilities of Microsoft Power BI to show visuals that are related to bank account balances.</span></span>
 

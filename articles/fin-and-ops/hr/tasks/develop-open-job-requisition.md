@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 403e1d3d4c599050f118ab019288784d7782ac2b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b3d685c6f8fbe8ff42eac739d81b8f5863ad8402
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="develop-and-open-a-job-requisition"></a><span data-ttu-id="31096-103">Darba pieprasījuma izstrāde un atvēršana</span><span class="sxs-lookup"><span data-stu-id="31096-103">Develop and open a job requisition</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="31096-104">Personāla atlases projekti palīdz pārvaldīt personāla atlases procesu.</span><span class="sxs-lookup"><span data-stu-id="31096-104">Recruitment projects help manage the recruiting process.</span></span> <span data-ttu-id="31096-105">Katram personāla atlases projektam varat iestatīt informāciju, piemēram, darbu, kuram tiek veikta šī personāla atlase, personāla atlases darbinieka vārdu, projekta statusu un nodaļu, kurā šis darbs atradīsies.</span><span class="sxs-lookup"><span data-stu-id="31096-105">For each recruitment project, you can set up information, such as the job that recruiting is for, the name of the recruiter, the status of the project and the department that the job will be located in.</span></span> <span data-ttu-id="31096-106">Pēc personāla atlases projekta izveidošanas varat šim projektam rakstīt darba sludinājumu, publicēt reklāmu darbinieku pašapkalpošanās lapās, saistīt nodarbinātības pieteikumus ar projektu un izsekot šī projekta aktivitātes.</span><span class="sxs-lookup"><span data-stu-id="31096-106">After creating a recruitment project, you can write a job advertisement for the project, publish the ad on Employee self-service pages, associate applications for employment with the project, and track activities for that project.</span></span> <span data-ttu-id="31096-107">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="31096-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="31096-108">Lai sāktu procedūru, dodieties uz Personāla vadība > Personāla atlase > Personāla atlases projekti > Personāla atlases projekti</span><span class="sxs-lookup"><span data-stu-id="31096-108">To begin the procedure, go to Human resources > Recruitment > Recruitment projects > Recruitment projects</span></span>
 

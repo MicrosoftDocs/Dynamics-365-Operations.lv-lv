@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 87352293a78d6a356db49deffb930016a1bf836c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8318e83ee5c3a1435c9af0c19d45c2bef30f6488
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="import-configurations-to-generate-documents-with-application-data"></a><span data-ttu-id="0cb20-103">Konfigurāciju importēšana, lai izveidotu dokumentus ar programmas datiem</span><span class="sxs-lookup"><span data-stu-id="0cb20-103">Import configurations to generate documents with application data</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0cb20-104">Lai izpildītu šīs procedūras darbības, vispirms izpildiet procedūru “ER Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu”.</span><span class="sxs-lookup"><span data-stu-id="0cb20-104">To complete the steps in this procedure, you must first complete the procedure, “ER Create a configuration provider and mark it as active”.</span></span>
 

@@ -18,16 +18,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0807024f4dff20d1942c2bc7f1fa0e153113e63b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4df1a7f706f243bc7ebce2eb90ac1d835039416b
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vat-statement-details-for-latvia"></a><span data-ttu-id="fe675-103">PVN deklarācijas informācija Latvijai</span><span class="sxs-lookup"><span data-stu-id="fe675-103">VAT statement details for Latvia</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="fe675-104">Šajā tēmā ir paskaidrots, kā iestatīt PVN deklarāciju juridiskajām personām Latvijā.</span><span class="sxs-lookup"><span data-stu-id="fe675-104">This topic explains how to set up the VAT statement for legal entities in Latvia.</span></span>
 

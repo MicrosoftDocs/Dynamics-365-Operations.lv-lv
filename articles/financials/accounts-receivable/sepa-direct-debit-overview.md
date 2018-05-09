@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c41194f5d032b3ec59c079c91c83fcbe90f8b47d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 08fbaa1a65b31a0ae4f4669bbe34105dee17e557
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="sepa-direct-debit-overview"></a><span data-ttu-id="0c633-107">SEPA tiešā debeta pārskats</span><span class="sxs-lookup"><span data-stu-id="0c633-107">SEPA direct debit overview</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="0c633-108">Vienoto eiro maksājumu zonu (SEPA) ir izveidojusi Eiropas Komisija un tā nosaka, ka visi elektroniskie maksājumi tiek uzskatīti par iekšzemes maksājumiem neatkarīgi no privātpersonas, uzņēmuma vai organizācijas un bankas atrašanās valsts/reģiona.</span><span class="sxs-lookup"><span data-stu-id="0c633-108">The Single Euro Payments Area (SEPA) is set up by the European Commission, and dictates that all electronic payments are considered domestic, regardless of the country/region where the individual, business, or organization, and the bank are located.</span></span> <span data-ttu-id="0c633-109">Starp nacionālajiem un pārrobežu maksājumiem nav nekādas atšķirības.</span><span class="sxs-lookup"><span data-stu-id="0c633-109">There is no difference between national and cross-border payments.</span></span> <span data-ttu-id="0c633-110">SEPA ietver 28 Eiropas Savienības (ES) dalībvalstis, kā arī Islandi, Lihtenšteinu, Norvēģiju, Šveici, Monako un Sanmarīno.</span><span class="sxs-lookup"><span data-stu-id="0c633-110">The SEPA includes the 28 European Union (EU) member states, as well as Iceland, Liechtenstein, Norway, Switzerland, Monaco and San Marino.</span></span> <span data-ttu-id="0c633-111">SEPA palīdz veidot vienoto maksājumu transakciju tirgus Eiropas Ekonomikas zonā (EEZ).</span><span class="sxs-lookup"><span data-stu-id="0c633-111">The SEPA helps form a single market for payment transactions within the European Economic Area (EEA).</span></span> <span data-ttu-id="0c633-112">Visbeidzot, paredzams, ka SEPA samazinās maksājumu formātu skaitu, ar kuru ir jāstrādā bankām, uzņēmumiem un privātpersonām.</span><span class="sxs-lookup"><span data-stu-id="0c633-112">Ultimately, the SEPA is expected to reduce the number of payment formats that banks, businesses, and individuals must work with.</span></span>   
 

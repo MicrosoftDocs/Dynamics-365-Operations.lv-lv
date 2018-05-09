@@ -17,15 +17,15 @@ ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 854b396a847c0764f1eea2a6fc57c68226800d29
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 46d98ad66aebf89653d9330d3c09118999205d49
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="configure-machine-learning-powered-product-recommendations"></a><span data-ttu-id="3f8dc-103"> Algoritmiskās mācīšanās produktu ieteikumu konfigurēšana</span><span class="sxs-lookup"><span data-stu-id="3f8dc-103">Configure machine learning-powered product recommendations</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3f8dc-104">Veicot šo procedūru, tiek atjaunoti dati elementu krātuvē, ko izmanto algoritmiskās mācīšanās sistēma, kura nodrošina ieteikumus par preci un pēc tam nodrošina ieteikumus par preci POS klientiem.</span><span class="sxs-lookup"><span data-stu-id="3f8dc-104">This procedure refreshes the data in the Entity store that is used by the machine learning system that powers product recommendations, and then enables product recommendations on POS clients.</span></span> <span data-ttu-id="3f8dc-105">Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.</span><span class="sxs-lookup"><span data-stu-id="3f8dc-105">This procedure uses the USRT company in demo data.</span></span>
 

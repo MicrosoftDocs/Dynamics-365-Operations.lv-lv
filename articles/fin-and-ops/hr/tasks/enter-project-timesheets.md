@@ -17,15 +17,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fdc9567040a2ea4e50325c98a2da19da039586bb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b1ccaeffde4c288667fe797d07e08b5a346b4716
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="enter-project-timesheets"></a><span data-ttu-id="73042-103">Projekta grafiku ievade</span><span class="sxs-lookup"><span data-stu-id="73042-103">Enter project timesheets</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="73042-104">Veicot šo procedūru, varat izveidot darba laika uzskaites tabulu, izmantojot tukšu darba laika uzskaites tabulas veidlapu.</span><span class="sxs-lookup"><span data-stu-id="73042-104">This procedure lets you create a timesheet by using an empty timesheet form.</span></span> <span data-ttu-id="73042-105">Jaunajā darba laika uzskaites tabulā var izmantot informāciju no iepriekšējās darba laika uzskaites tabulas, saglabātajām rindām vai projekta un aktivitāšu piešķirēm lapā Mana izlase.</span><span class="sxs-lookup"><span data-stu-id="73042-105">The new timesheet can be based on information from a previous timesheet, or from project and activity assignments in the My favorites page.</span></span> <span data-ttu-id="73042-106">Pēc noklusējuma saraksta lapā Visas darba laika uzskaites tabulas tiek rādītas visas jūsu darba laika uzskaites tabulas pašreizējam periodam.</span><span class="sxs-lookup"><span data-stu-id="73042-106">By default, the All timesheets list page displays all your timesheets for the current period.</span></span> <span data-ttu-id="73042-107">Varat izmantot lapas Mani grafiki sadaļas Rādīt lauku nolaižamo sarakstu, lai darba laika uzskaites tabulu sarakstu filtrētu pēc laika perioda vai projekta, vai arī lai skatītu darba laika uzskaites tabulas, kas tika izveidotas citu darbinieku vārdā.</span><span class="sxs-lookup"><span data-stu-id="73042-107">You can use the drop-down list for the Show field in the My timesheets page to filter the timesheet list by time period or project, or to view timesheets that were created on behalf of other workers.</span></span> <span data-ttu-id="73042-108">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USSI.</span><span class="sxs-lookup"><span data-stu-id="73042-108">The demo data company used to create this procedure is USSI.</span></span> <span data-ttu-id="73042-109">Lai sāktu šo procedūru, dodieties uz Projektu vadība un uzskaite > Darba laika uzskaites tabulas > Mani grafiki.</span><span class="sxs-lookup"><span data-stu-id="73042-109">To begin this procedure, go to Project management and accounting > Timesheets >My timesheets</span></span>
 

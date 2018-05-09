@@ -16,15 +16,15 @@ ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 90deb42e8443d6d1ee7edbdfcedf4513c28a3bf1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b1aca5e44c1d4f5eb7777cda1ef7683e9a5b1644
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a><span data-ttu-id="15d93-103">Pienākumu sadales konfliktu identificēšana un atrisināšana</span><span class="sxs-lookup"><span data-stu-id="15d93-103">Identify and resolve conflicts in segregation of duties</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="15d93-104">Var iestatīt nosacījumus, lai atdalītu uzdevumus, kas ir jāveic dažādiem lietotājiem.</span><span class="sxs-lookup"><span data-stu-id="15d93-104">You can set up rules to separate tasks that must be performed by different users.</span></span> <span data-ttu-id="15d93-105">Šī koncepcija ir nosaukta par pienākumu sadali.</span><span class="sxs-lookup"><span data-stu-id="15d93-105">This concept is named segregation of duties.</span></span> <span data-ttu-id="15d93-106">Ja drošības lomas definīcija vai lietotāju lomu piešķires pārkāpj noteikumus, tiek reģistrēts konflikts.</span><span class="sxs-lookup"><span data-stu-id="15d93-106">When the definition of a security role or the role assignments of a user violate the rules, the conflict is logged.</span></span> <span data-ttu-id="15d93-107">Visi konflikti ir jāatrisina administratoram.</span><span class="sxs-lookup"><span data-stu-id="15d93-107">All conflicts must be resolved by the administrator.</span></span> <span data-ttu-id="15d93-108">Lai identificētu un atrisinātu konfliktus, veiciet sekojošo procedūru.</span><span class="sxs-lookup"><span data-stu-id="15d93-108">Complete the following procedure to identify and resolve conflicts.</span></span> <span data-ttu-id="15d93-109">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="15d93-109">The demo data company used to create this procedure is USMF.</span></span>
 

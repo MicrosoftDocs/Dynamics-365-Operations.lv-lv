@@ -16,15 +16,15 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9bd8a506fc0bbf4d4d8127afa71fe371be10b55b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d07df2c2779833485bd70240c47bb569622800f8
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a><span data-ttu-id="de3e5-103">Pamatlīdzekļa grāmatošanas profilu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="de3e5-103">Set up fixed asset posting profiles</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="de3e5-104">Šajā uzdevuma ceļvedī tiks iestatītas pamatlīdzekļu grāmatošanas metodes.</span><span class="sxs-lookup"><span data-stu-id="de3e5-104">This task guide will set up Fixed asset posting profiles.</span></span>  <span data-ttu-id="de3e5-105">Tas izmanto grāmatveža lomu un demonstrācijas datus USMF juridiskajai personai.</span><span class="sxs-lookup"><span data-stu-id="de3e5-105">It uses the Accountant role and demo data for the USMF legal entity.</span></span>  <span data-ttu-id="de3e5-106">Uzdevuma ceļvedī sniegti piemēri pamata grāmatošanas metodei, lai gan grāmatošanas metodes ir jāizveido jūsu konkrētajam kontu plānam un finanšu atskaišu prasībām.</span><span class="sxs-lookup"><span data-stu-id="de3e5-106">Examples given in the task guide are for a basic posting profile, though posting profiles must be created for your specific chart of accounts and financial reporting requirements.</span></span>
 

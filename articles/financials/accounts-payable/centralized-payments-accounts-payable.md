@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5ee2295c44a5b037b66c756cd91193a8ad09f1e6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: bd40a0a95469300e51646f099db594fb92b2a53f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="centralized-payments-for-accounts-payable"></a><span data-ttu-id="ac767-105">Centralizētie maksājumi norēķiniem ar piegādātājiem</span><span class="sxs-lookup"><span data-stu-id="ac767-105">Centralized payments for Accounts payable</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="ac767-106">Organizācijas, kurās ir iekļautas vairākas juridiskās personas, var izveidot un pārvaldīt maksājumus, izmantojot vienu juridisko personu, kura apstrādā visus maksājumus.</span><span class="sxs-lookup"><span data-stu-id="ac767-106">Organizations that include multiple legal entities can create and manage payments by using a single legal entity that handles all payments.</span></span> <span data-ttu-id="ac767-107">Tāpēc vieniem un tiem pašiem maksājumiem nav jāievada vairākās juridiskajās personās.</span><span class="sxs-lookup"><span data-stu-id="ac767-107">Therefore, the same payments don't have to be entered in multiple legal entities.</span></span> <span data-ttu-id="ac767-108">Šajā rakstā ir sniegti piemēri, kas parāda, kā tiek veikta centralizēto maksājumu grāmatošana dažādās situācijās.</span><span class="sxs-lookup"><span data-stu-id="ac767-108">This article provides examples that show how posting for centralized payments is handled in various scenarios.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 84ed2bfa708664674af781c575cfab35640e7079
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 890d501bf8b111ccd0698372f9df1dd63c2039a0
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a><span data-ttu-id="0df61-103">Krājumu līmeņu korekcija noliktavā (pamata noliktava)</span><span class="sxs-lookup"><span data-stu-id="0df61-103">Adjust stock levels in the warehouse (basic warehousing)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0df61-104">Šajā procedūrā parādīts krājumu korekcijas žurnāla izveides un grāmatošanas process, lai koriģētu noteiktu preču krājumu līmeņus noliktavā.</span><span class="sxs-lookup"><span data-stu-id="0df61-104">This procedure walks you through the process of creating and posting an inventory adjustment journal in order to adjust stock levels of products in the warehouse.</span></span> <span data-ttu-id="0df61-105">Pirms procesa sākšanas ir jābūt izveidotam krājumu žurnāla nosaukumam krājumu korekcijām.</span><span class="sxs-lookup"><span data-stu-id="0df61-105">You need to have an inventory journal name set up for inventory adjustments before you start this.</span></span> <span data-ttu-id="0df61-106">Šo procedūru var izmēģināt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.</span><span class="sxs-lookup"><span data-stu-id="0df61-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="0df61-107">Šos uzdevumus parasti veic noliktavas darbinieks.</span><span class="sxs-lookup"><span data-stu-id="0df61-107">These tasks would normally be carried out by a warehouse employee.</span></span>
 

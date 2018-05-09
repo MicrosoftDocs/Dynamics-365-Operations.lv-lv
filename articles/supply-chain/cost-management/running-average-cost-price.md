@@ -20,18 +20,18 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 36ae8e44043c64984a0a8bb4e16ed5d3517041b7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ee7b8098278b89c19504ebde6745c598fff1a581
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="running-average-cost-price"></a><span data-ttu-id="dbe82-104">Faktiskā vidējo izmaksu cena</span><span class="sxs-lookup"><span data-stu-id="dbe82-104">Running average cost price</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="dbe82-105">Krājumu slēgšanas procesa laikā saņemšanas darbības tiek segtas ar izdošanas darbībām, pamatojoties uz krājumu novērtēšanas metodi, kas ir atlasīta vienības krājumu modeļa grupā.</span><span class="sxs-lookup"><span data-stu-id="dbe82-105">The inventory close process settles issue transactions to receipt transactions, based on the inventory valuation method that is selected in the item’s item model group.</span></span> <span data-ttu-id="dbe82-106">Taču pirms krājumu slēgšanas izpildes sistēmā tiek aprēķināta faktiskā vidējo izmaksu cena, kas parasti tiek izmantota, iegrāmatojot izdošanas transakcijas.</span><span class="sxs-lookup"><span data-stu-id="dbe82-106">However, before inventory close is run, the system calculates a running average cost price that is typically used when issue transactions are posted.</span></span>
 

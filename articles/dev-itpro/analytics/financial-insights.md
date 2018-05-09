@@ -18,16 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6679215a664ddf938a204196b00f3bc28bf65f8f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8250b612ca62048a8ab9e0c5f082a6e652e1b5c1
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="financial-insights"></a><span data-ttu-id="d8b46-103">Finanšu ieskati</span><span class="sxs-lookup"><span data-stu-id="d8b46-103">Financial Insights</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="d8b46-104">Darbvieta **Finanšu ieskati** izmanto pakalpojumu Microsoft Power BI, lai apkopotu finanšu izpildes pamatrādītājus (KPI), diagrammas un finanšu pārskatus.</span><span class="sxs-lookup"><span data-stu-id="d8b46-104">**Financial Insights** uses Microsoft Power BI to bring together financial key performance indicators (KPIs), charts, and financial statements.</span></span> <span data-ttu-id="d8b46-105">Pakalpojums Power BI ir iegults programmā Microsoft Dynamics 365 Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="d8b46-105">Power BI is embedded in Microsoft Dynamics 365 Finance and Operations.</span></span>
 <span data-ttu-id="d8b46-106">Darbvieta **Finanšu ieskati** ir paredzēta analītisku pārskatu veidošanai.</span><span class="sxs-lookup"><span data-stu-id="d8b46-106">The focus of **Financial Insights** is analytical reporting.</span></span> <span data-ttu-id="d8b46-107">Personas visā organizācijā var skatīt, pētīt, izprast un rīkoties.</span><span class="sxs-lookup"><span data-stu-id="d8b46-107">Personas across an organization can view, research, understand, and act.</span></span> 

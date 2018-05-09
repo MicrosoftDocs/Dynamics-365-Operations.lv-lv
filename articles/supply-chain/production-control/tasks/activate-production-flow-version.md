@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c399ad1a412d334fa3f3d06a7d37b41b168779ad
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f59df16d58c4dde68e1077b606665a1f178e5ae3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="activate-a-production-flow-version"></a><span data-ttu-id="8b241-103">Ražošanas plūsmas versijas aktivizēšana</span><span class="sxs-lookup"><span data-stu-id="8b241-103">Activate a production flow version</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="8b241-104">Lai varētu izveidot Kanban darbus un varētu apstrādāt darbības kādai ražošanas plūsmas versijai, ir nepieciešams aktivizēt šo versiju.</span><span class="sxs-lookup"><span data-stu-id="8b241-104">Before kanban jobs can be created and activities can be processed for a production flow version, you should activate the version.</span></span> <span data-ttu-id="8b241-105">Saskaņā ar pieņemto praksi aktivizējiet šo versiju pirms tās spēkā stāšanās datuma un laika beigām.</span><span class="sxs-lookup"><span data-stu-id="8b241-105">As a best practice, activate the version before its effective start date and time expire.</span></span> <span data-ttu-id="8b241-106">Šī izpildītu šo uzdevumu, jums ir nepieciešama ražošanas plūsmas versija, kuras statuss ir Melnraksts, lai aktivizētu šo versiju.</span><span class="sxs-lookup"><span data-stu-id="8b241-106">To complete this task, you must have a production flow version that has the Draft status in order to activate the version.</span></span> 
 

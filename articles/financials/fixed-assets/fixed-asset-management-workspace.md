@@ -18,16 +18,16 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2b07f9d971dc152e9168b9867e70c59481325284
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 70c7f7a9ca119abbfedf8e09e9994b2a904dc421
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="fixed-asset-management-workspace"></a><span data-ttu-id="e2b58-105">Pamatlīdzekļu pārvaldības darbvieta</span><span class="sxs-lookup"><span data-stu-id="e2b58-105">Fixed asset management workspace</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="e2b58-106">Darbvietā **Pamatlīdzekļu pārvaldība** tiek radīta informācija, kas attiecas uz sistēmā ievadītajiem pamatlīdzekļiem.</span><span class="sxs-lookup"><span data-stu-id="e2b58-106">The **Fixed asset management** workspace shows information that is related to fixed assets that are entered in the system.</span></span> <span data-ttu-id="e2b58-107">Šajā darbvietā ir ietverts kopsavilkuma skats analīzes skats.</span><span class="sxs-lookup"><span data-stu-id="e2b58-107">This workspace includes a summary view and an analytics view.</span></span> <span data-ttu-id="e2b58-108">Cilnē **Mans darbs** tiek rādīti kopsavilkuma elementi, detalizēta informācija par pamatlīdzekli un saistīta informācija par pamatlīdzekļiem pašreizējā uzņēmumā.</span><span class="sxs-lookup"><span data-stu-id="e2b58-108">The **My work** tab shows summary tiles, fixed asset details, and related information about fixed assets in the current company.</span></span> <span data-ttu-id="e2b58-109">Power BI analīzes sadaļai tieši darbvietā varat pievienot arī analīzes iespējas.</span><span class="sxs-lookup"><span data-stu-id="e2b58-109">You can also add analytics to the Power BI analytics section directly in the workspace.</span></span> <span data-ttu-id="e2b58-110">Cilnē **Analīze – visi uzņēmumi** izmanto Microsoft Power BI iespējas, lai rādītu ar pamatlīdzekļiem visos uzņēmumos saistīto vizuālo informāciju.</span><span class="sxs-lookup"><span data-stu-id="e2b58-110">The **Analytics – all companies** tab uses capabilities of Microsoft Power BI to show visuals that are related to fixed assets in all companies.</span></span>
 

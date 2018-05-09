@@ -18,16 +18,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 658829ccb79d0b2b4f627a45647ba6076e4384b0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1d36ec599250f62c523e8d538a37cada9b223007
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-a-line-item-workflow"></a><span data-ttu-id="af06e-103">Konfigurēt dokumenta rindas darbplūsmu</span><span class="sxs-lookup"><span data-stu-id="af06e-103">Configure a line-item workflow</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="af06e-104">Šajā tēmā ir paskaidrots, kā konfigurēt dokumenta rindas darbplūsmas elementu.</span><span class="sxs-lookup"><span data-stu-id="af06e-104">This topic explains how to configure a line-item workflow element.</span></span>
 

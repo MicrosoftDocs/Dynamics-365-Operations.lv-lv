@@ -20,16 +20,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: af2d01dcfddc11559c6c5b046dcac8cd8dc95e76
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7636cd112e551caa86ebfbe3b74d7bd94c0f6b0d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="initialize-seed-data-in-a-new-retail-environment"></a><span data-ttu-id="25977-103">Inicializēt sākumdatus jaunā Retail vidē</span><span class="sxs-lookup"><span data-stu-id="25977-103">Initialize seed data in a new Retail environment</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="25977-104">Šajā rakstā ir aprakstīti dati, kas tiek izveidoti kā daļa no inicializēšanas procesa programmatūrai Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="25977-104">This article describes the data that's created as part of the initialization process for Microsoft Dynamics 365 for Retail.</span></span>
 

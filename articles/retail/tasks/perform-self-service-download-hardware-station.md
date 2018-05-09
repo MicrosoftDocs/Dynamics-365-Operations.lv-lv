@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 58df4768f33bc4a98c5a229b698754692ce6edbb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ca1a96e83b29c2d782ae5c4daceeaddbc461de7a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="perform-self-service-to-download-hardware-station"></a><span data-ttu-id="af601-103"> Pašapkalpošanās veikšana, lai lejupielādētu aparatūras staciju</span><span class="sxs-lookup"><span data-stu-id="af601-103">Perform self-service to download hardware station</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="af601-104">Šajā procedūrā ir aprakstīts, kā lejupielādēt iepriekš definētu aparatūras staciju.</span><span class="sxs-lookup"><span data-stu-id="af601-104">This procedure walks through how to download a pre-defined hardware station.</span></span> <span data-ttu-id="af601-105">Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.</span><span class="sxs-lookup"><span data-stu-id="af601-105">The demo data company used for this procedure is USRT.</span></span> <span data-ttu-id="af601-106">Pirms šī uzdevuma izpildes jābūt izveidotam jaunam aparatūras stacijas profilam un aparatūras stacijai.</span><span class="sxs-lookup"><span data-stu-id="af601-106">You must have created a new hardware station profile and hardware station before starting this task.</span></span>
 

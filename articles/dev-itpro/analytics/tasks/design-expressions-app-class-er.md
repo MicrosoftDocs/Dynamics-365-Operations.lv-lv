@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fa2d85bbb9c8b2fda36883b71a3f540eabc4c1d7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cf61432d4734efbd4e5beb9e58b651a509fe2311
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="design-expressions-to-call-application-class-methods-er"></a><span data-ttu-id="13572-103">Izteiksmju noformēšana programmas klases metožu izsaukšanai (ER)</span><span class="sxs-lookup"><span data-stu-id="13572-103">Design expressions to call application class methods (ER)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="13572-104">Šajos norādījumos sniegta informācija par to, kā atkārtoti izmantot esošo programmas loģiku elektronisko pārskatu veidošanas (ER) konfigurācijās, izsaucot nepieciešamās programmas klašu metodes ER izteiksmēs.</span><span class="sxs-lookup"><span data-stu-id="13572-104">This guide provides information about how to reuse the existing application logic in Electronic reporting (ER) configurations by calling required methods of application classes in ER expressions.</span></span> <span data-ttu-id="13572-105">Izsaukšanas klašu argumentu vērtības var definēt dinamiski izpildlaikā: piemēram, pamatojoties uz informāciju parsēšanas dokumentā, lai nodrošinātu tās pareizību.</span><span class="sxs-lookup"><span data-stu-id="13572-105">Values of arguments for calling classes can be defined dynamically at run-time: for example, based on information in the parsing document to ensure its correctness.</span></span> <span data-ttu-id="13572-106">Šajā rokasgrāmatā jūs izveidosiet nepieciešamās ER konfigurācijas parauga uzņēmumam “Litware, Inc.”. Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma.</span><span class="sxs-lookup"><span data-stu-id="13572-106">In this guide, you will create the required ER configurations for the sample company, Litware, Inc. This procedure is created for users with the assigned role of System administrator or Electronic reporting developer.</span></span> 
 

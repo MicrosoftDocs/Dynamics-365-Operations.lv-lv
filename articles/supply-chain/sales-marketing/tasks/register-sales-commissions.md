@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d21f9047dcea0af59c24339ebb57e8eabe3950d4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0fad3c62f926e508e09a265a600194b7ea595bf0
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="register-sales-commissions"></a><span data-ttu-id="4e05f-103">Pārdošanas komisiju reģistrēšana</span><span class="sxs-lookup"><span data-stu-id="4e05f-103">Register sales commissions</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4e05f-104">Šajā procedūrā tiek parādīts, kā tiek aprēķinātas un reģistrētas pārdošanas komisijas.</span><span class="sxs-lookup"><span data-stu-id="4e05f-104">This procedure shows you how sales commissions are calculated and registered.</span></span> <span data-ttu-id="4e05f-105">Šo procedūru varat izpildīt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.</span><span class="sxs-lookup"><span data-stu-id="4e05f-105">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="4e05f-106">Pirms sākt šo ceļvedi, izpildiet ceļvedi ar nosaukumu "Pārdošanas komisijas noteikumu iestatīšana", lai nodrošinātu, ka jums ir visi nepieciešami komisijas aprēķina iestatījumi.</span><span class="sxs-lookup"><span data-stu-id="4e05f-106">Before starting this guide, run the guide called "Set up sales commission rules" to make sure that you have all the necessary commission calculation setup.</span></span>
 

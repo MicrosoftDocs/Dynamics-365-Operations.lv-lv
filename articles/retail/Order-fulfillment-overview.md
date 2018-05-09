@@ -18,16 +18,16 @@ ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5ab58a7e977b5a23825c60a53c8064c831bae512
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 76bdea6e3a90c5984b882dd86b4716647438b91c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="store-order-fulfillment"></a><span data-ttu-id="967e5-103">Veikala pasūtījumu izpilde</span><span class="sxs-lookup"><span data-stu-id="967e5-103">Store order fulfillment</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="967e5-104">Daudzi mazumtirgotāji vēlas optimizēt pasūtījumu izpildi, ļaujot veikaliem izpildīt pasūtījumus.</span><span class="sxs-lookup"><span data-stu-id="967e5-104">Many retailers would like to optimize order fulfillment by enabling stores to fill orders.</span></span> <span data-ttu-id="967e5-105">Pasūtījumu izpildīšana veikala līmenī var palīdzēt atvieglot krājumu pārsniegšanas scenārijus noteiktam veikalam, vai šāda izpildīšana var būt nepieciešama no loģistikas viedokļa gadījumos, kad veikalam ir papildu jauda vai tas atrodas tuvākā nosūtīšanas attālumā līdz debitoram.</span><span class="sxs-lookup"><span data-stu-id="967e5-105">Order fulfillment at the store level can help to ease overstock scenarios for a specific store, or may be needed from a logistical standpoint in cases where a store has extra capacity or is located within closer shipping distance to the customer.</span></span> <span data-ttu-id="967e5-106">Lai risinātu šo vajadzību, pārdošanas punktā ir pieejama vienotās pasūtījumu izpildes operācija.</span><span class="sxs-lookup"><span data-stu-id="967e5-106">To address this need, a unified order fulfillment operation is available at the point of sale.</span></span>
 

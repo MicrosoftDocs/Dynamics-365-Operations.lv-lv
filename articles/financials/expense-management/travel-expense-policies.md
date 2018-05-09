@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 73e4fc7c1d0273c51be57d9c3ab04dbfbd839327
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 062d6f01bb07324ad5b8dc6b9fd7617756502c17
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="expense-policies"></a><span data-ttu-id="0c845-103">Izdevumu ierobežojumi</span><span class="sxs-lookup"><span data-stu-id="0c845-103">Expense policies</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="0c845-104">Varat definēt politikas, kuras jūsu darbiniekiem ir jāievēro, kad viņi ievada un iesniedz izdevumu pārskatus un komandējumu pieprasījumus.</span><span class="sxs-lookup"><span data-stu-id="0c845-104">You can define policies that your workers must follow when entering and submitting expense reports and travel requisitions.</span></span>         
 <span data-ttu-id="0c845-105">Izdevumu politikas ieviešana var palīdzēt efektīgi pārvaldīt izdevumus.</span><span class="sxs-lookup"><span data-stu-id="0c845-105">Implementing expense policies can help you manage expenses effectively.</span></span>         

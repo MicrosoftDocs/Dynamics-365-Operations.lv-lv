@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b36777be0abcbd17e96b42b81553155aeb909943
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d2f6bf58344a1128fa4bf635e2fa27f2049e513e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="fulfill-sales-agreements"></a><span data-ttu-id="e6e40-103">Pārdošanas līgumu nosacījumu izpilde</span><span class="sxs-lookup"><span data-stu-id="e6e40-103">Fulfill sales agreements</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e6e40-104">Šajā procedūrā ir parādīts, kā izpildīt pārdošanas līgumu, piesaistot tam pārdošanas pasūtījumus.</span><span class="sxs-lookup"><span data-stu-id="e6e40-104">This procedure shows you how to fulfill a sales agreement by associating sales orders with it.</span></span> <span data-ttu-id="e6e40-105">Šo procedūru varat izpildīt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.</span><span class="sxs-lookup"><span data-stu-id="e6e40-105">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="e6e40-106">Pirms uzsākt darbu ar šo ceļvedi, pārliecinieties, ka jums ir spēkā esošs pārdošanas līgums, kura tips ir "Uz preču vērtību attiecināmas saistības".</span><span class="sxs-lookup"><span data-stu-id="e6e40-106">Before starting this guide, make sure you have an effective sales agreement of type "Product value commitment".</span></span> <span data-ttu-id="e6e40-107">Vai arī varat palaist uzdevuma ceļvedi ar nosaukumu "Pārdošanas līgumu izveide".</span><span class="sxs-lookup"><span data-stu-id="e6e40-107">Alternatively, you can run the task guide called "Create sales agreements".</span></span>  
 

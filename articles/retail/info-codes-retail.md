@@ -20,16 +20,16 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3b1346917dc8482181acdb9dac31efbc5356dd24
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0610c9600cf52897547acf9b001ae742e71abfe9
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="info-codes"></a><span data-ttu-id="00b2c-103">Informācijas kodi</span><span class="sxs-lookup"><span data-stu-id="00b2c-103">Info codes</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="00b2c-104">Šajā rakstā ir sniegts pārskats par informācijas kodiem, informācijas kodu grupām un par to, kā tos izmantot.</span><span class="sxs-lookup"><span data-stu-id="00b2c-104">This article provides an overview about info codes, info code groups, and how to use them.</span></span>
 

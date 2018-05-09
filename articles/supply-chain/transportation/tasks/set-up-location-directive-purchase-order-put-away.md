@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 115dfc163dce580244c2b2b6975e49ea3b69f1ef
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c868265b7a5b5e057b3f1354a81a472f1d6a5d4d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a><span data-ttu-id="7446f-103">Novietojuma direktīvas iestatīšana pirkšanas pasūtījuma atlikšanai</span><span class="sxs-lookup"><span data-stu-id="7446f-103">Set up a location directive for purchase order put-away</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="7446f-104">Šajā procedūrā parādīts, kā iestatīt vienkāršu novietojuma direktīvu.</span><span class="sxs-lookup"><span data-stu-id="7446f-104">This procedure shows you how to set up a simple location directive.</span></span> <span data-ttu-id="7446f-105">Parādītajā piemērā tiek izveidota novietojuma direktīva, ko jāizmanto, lai noteiktu vietu, kur ievietot krājumus, kuri ir saņemti pirkšanas pasūtījuma ietvaros.</span><span class="sxs-lookup"><span data-stu-id="7446f-105">The example that’s shown creates a location directive to be used to determine where to put items that have been received for a purchase order.</span></span> <span data-ttu-id="7446f-106">Šo uzdevumu ceļvedi var izpildīt, izmantojot minētos datus, izmantojot demonstrācijas datu uzņēmumu USMF.</span><span class="sxs-lookup"><span data-stu-id="7446f-106">You can play this task guide with the data mentioned using demo data company USMF.</span></span> <span data-ttu-id="7446f-107">Priekšnosacījumi: ir jāizveido atgriešanas metodes kods.</span><span class="sxs-lookup"><span data-stu-id="7446f-107">Pre-conditions: You need to create a disposition code.</span></span> <span data-ttu-id="7446f-108">Šajā procedūrā mēs lietojam atgriešanas metodes kodu, ko sauc Mainīt etiķetes.</span><span class="sxs-lookup"><span data-stu-id="7446f-108">In this procedure we use a disposition code called Relabel.</span></span> <span data-ttu-id="7446f-109">Ja veidojat novietojuma direktīvu savos datos, jums jāiestata savai noliktavai un krājumiem papildu noliktavas pārvaldība.</span><span class="sxs-lookup"><span data-stu-id="7446f-109">If you’re creating a location directive in your own data, you need to have set up advanced warehouse management for your warehouse and items.</span></span>  <span data-ttu-id="7446f-110">Šī procedūra ir paredzēta noliktavas pārvaldniekam.</span><span class="sxs-lookup"><span data-stu-id="7446f-110">This procedure is intended for the warehouse manager.</span></span>
 

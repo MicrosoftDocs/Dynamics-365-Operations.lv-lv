@@ -19,16 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: dea67fb5ee233e9aa1862eb7d7ad6c5076d2b65a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8953126a6af241a92a4bfb20b2038d03c72b7a11
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a><span data-ttu-id="1b1e7-104">Saskaņot bankas izrakstus, izmantojot detalizēto bankas darbību saskaņošanu</span><span class="sxs-lookup"><span data-stu-id="1b1e7-104">Reconcile bank statements by using advanced bank reconciliation</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="1b1e7-105">Līdzeklis Detalizēta bankas darbību saskaņošana sniedz iespēju importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmatūrā Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="1b1e7-105">The Advanced bank reconciliation feature lets you import electronic bank statements and automatically reconcile them with bank transactions in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="1b1e7-106">Šajā tēmā ir paskaidrots šis saskaņošanas process.</span><span class="sxs-lookup"><span data-stu-id="1b1e7-106">This topic explains the reconciliation process.</span></span>  
 

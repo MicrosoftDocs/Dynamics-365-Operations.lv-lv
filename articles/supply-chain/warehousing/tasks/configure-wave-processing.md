@@ -17,15 +17,15 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ad45fd25a6911ca8f9976ee0040f193da0b3a993
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9a1318055f9c740e8d659a15db8311a0ca518f61
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="configure-wave-processing"></a><span data-ttu-id="4a221-103">Kopuma apstrādes konfigurēšana</span><span class="sxs-lookup"><span data-stu-id="4a221-103">Configure wave processing</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4a221-104">Šajā ceļvedī aprakstīts, kā iestatīt kritērijus, kas nosaka, vai kopumi tiek apstrādāti manuāli vai automātiski, un darbam, kas tiek ģenerēts noliktavai, apstrādājot kopumu, kā arī vai kopumi tiek apstrādāti automātiski vai manuāli.</span><span class="sxs-lookup"><span data-stu-id="4a221-104">This guide describes how to set up the criteria that determine what work is generated for a warehouse when a wave is processed, and whether waves are processed manually or automatically.</span></span> <span data-ttu-id="4a221-105">Norādiet kritērijus, izveidojot kopuma veidnes un vaicājumus, kas sakrīt ar kopumu izsniegtajām rindām pārdošanas pasūtījumos, ražošanas pasūtījumos un kanban.</span><span class="sxs-lookup"><span data-stu-id="4a221-105">You specify the criteria by setting up wave templates and queries that match a wave with released lines in sales orders, production orders, or kanban orders.</span></span> <span data-ttu-id="4a221-106">Kopuma apstrādes tiek izmantotas noliktavās, kuras izmanto noliktavas vadības moduli, un ne tās, kas izmanto funkcionalitāti moduļa krājuma vadībā.</span><span class="sxs-lookup"><span data-stu-id="4a221-106">Wave processing is used in warehouses that use the functionality in the Warehouse management module, and not those that use the functionality in the Inventory management module.</span></span> <span data-ttu-id="4a221-107">Šo procedūru varat palaist demonstrācijas datu uzņēmumā USMF.</span><span class="sxs-lookup"><span data-stu-id="4a221-107">You can run this procedure in demo data company USMF.</span></span>
 

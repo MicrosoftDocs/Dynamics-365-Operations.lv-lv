@@ -19,16 +19,16 @@ ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: dce403032c239053159fd3e79f3dab013b620eaf
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 55de553a6732b95e4d265935b5019dac3e812585
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="welcome-to-dynamics-365-for-retail"></a><span data-ttu-id="b269a-103">Esiet sveicināti risinājumā Dynamics 365 for Retail</span><span class="sxs-lookup"><span data-stu-id="b269a-103">Welcome to Dynamics 365 for Retail</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="b269a-104">Microsoft Dynamics 365 for Retail ir vispārīgs mazumtirdzniecības risinājums, kas nodrošina unificētu komerciju visos kanālos.</span><span class="sxs-lookup"><span data-stu-id="b269a-104">Microsoft Dynamics 365 for Retail is an end-to-end retail solution that delivers unified commerce across all channels.</span></span> <span data-ttu-id="b269a-105">Tas aptver pārdošanu, mobilitāti, informāciju un produktivitāti, lai palīdzētu mazumtirgotājiem sasniegt vairāk, izmantojot mākoņpakalpojumus un mobilās iespējas.</span><span class="sxs-lookup"><span data-stu-id="b269a-105">It encompasses sales, mobility, intelligence, and productivity to help retailers and workers achieve more in a cloud-first, mobile-first manner.</span></span> <span data-ttu-id="b269a-106">Retail nodrošina vispusīgu atbalstu, veicot dažādus biznesa procesus, piemēram, tirgū virzīšanas vai krājumu un kanālu pārvaldības iespējas.</span><span class="sxs-lookup"><span data-stu-id="b269a-106">Retail offers comprehensive support to operate a wide range of business processes, such as merchandising, inventory, and channel management capabilities.</span></span> <span data-ttu-id="b269a-107">Turklāt tas nodrošina visaptverošu klientu pieredzi visās saskares vietās.</span><span class="sxs-lookup"><span data-stu-id="b269a-107">It also provides immersive customer experiences across all touchpoints.</span></span>
 

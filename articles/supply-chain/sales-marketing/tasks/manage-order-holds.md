@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7504411a840dd2daeb6fe6f47fd4387d6b011fba
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 957e2ca47fd493121c6497677a0d958618cc5561
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="manage-order-holds"></a><span data-ttu-id="e7432-103">Pasūtījumu aizturēšanas pārvaldība</span><span class="sxs-lookup"><span data-stu-id="e7432-103">Manage order holds</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e7432-104">Šajā procedūrā ir parādīts, kā aizturēt debitora pārdošanas pasūtījumus, kā strādāt ar pasūtījuma aizturēšanas izsniegšanām un kā noņemt pasūtījuma aizturēšanu.</span><span class="sxs-lookup"><span data-stu-id="e7432-104">This procedure demonstrates how to place customer sales orders on hold, how to work with order hold checkouts, and how to remove order holds.</span></span> <span data-ttu-id="e7432-105">Pasūtījums var tikt aizturēts dažādu iemeslu dēļ.</span><span class="sxs-lookup"><span data-stu-id="e7432-105">An order might be placed on hold for a variety of reasons.</span></span> <span data-ttu-id="e7432-106">Piemēram, pasūtījumu var aizturēt līdz debitora adresi vai maksājuma metodi būs iespējams pārbaudīt vai līdz vadītājs varēs pārskatīt debitora kredīta limitu.</span><span class="sxs-lookup"><span data-stu-id="e7432-106">For example, you might hold an order until a customer address or payment method can be verified or until a manager can review the customer’s credit limit.</span></span> <span data-ttu-id="e7432-107">Kamēr pasūtījums ir aizturēts, noliktava to nevar apstrādāt nosūtīšanai.</span><span class="sxs-lookup"><span data-stu-id="e7432-107">While the order on hold, it cannot be processed by the warehouse for shipping.</span></span> 
 

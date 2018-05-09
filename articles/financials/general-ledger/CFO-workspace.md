@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 04643d4d9e3c0a21f2dac3ce27a7398f7be4f775
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ebe2766976f2c7a88f9b919c8c13e05e36576e45
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a><span data-ttu-id="4317f-103">Pievienot finanšu dimensijas CFO darbvietai</span><span class="sxs-lookup"><span data-stu-id="4317f-103">Add financial dimensions to the CFO workspace</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="4317f-104">Šajā tēmā izskaidrots, kā finanšu direktora (CFO) darbvietai pievienot finanšu dimensijas, lai tās varētu izmantot virsgrāmatas un budžeta pārskatos.</span><span class="sxs-lookup"><span data-stu-id="4317f-104">This topic explains how to add financial dimensions to the Chief Financial Officer (CFO) workspace, so that they can be used for the ledger and budget reports.</span></span> <span data-ttu-id="4317f-105">CFO darbvietā ir cilne **Apskats** un cilne **Finanšu**. Abās šajās cilnēs pieejamos pārskatus nodrošina divi mēri: LedgerActivityMeasure un BudgetActivityMeasure.</span><span class="sxs-lookup"><span data-stu-id="4317f-105">The CFO workspace has an **Overview** tab and a **Financial** tab. The reports on these two tabs are backed by two measures: LedgerActivityMeasure and BudgetActivityMeasure.</span></span> <span data-ttu-id="4317f-106">Programmatūrā Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (2017. gada jūlijs) pastāv relācija starp šiem diviem mēriem un elementu DimensionCombinationEntity.</span><span class="sxs-lookup"><span data-stu-id="4317f-106">In Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (July 2017), there is a relation between those two measures and the DimensionCombinationEntity entity.</span></span> <span data-ttu-id="4317f-107">Tādējādi var atlasīt dimensijas.</span><span class="sxs-lookup"><span data-stu-id="4317f-107">Therefore, you can select dimensions.</span></span>
 

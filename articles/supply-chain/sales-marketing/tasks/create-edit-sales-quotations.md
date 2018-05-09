@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bdb4758c80cb0212f0b58595c99b8fa2f715fecf
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 84b67bc0216ca5af61b4d93260ca392a8ffd7209
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-and-edit-sales-quotations"></a><span data-ttu-id="0f791-103">Pārdošanas piedāvājumu izveide un labošana</span><span class="sxs-lookup"><span data-stu-id="0f791-103">Create and edit sales quotations</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0f791-104">Šajā procedūrā ir parādīts, kā izveidot un atjaunināt pārdošanas piedāvājumu.</span><span class="sxs-lookup"><span data-stu-id="0f791-104">This procedure demonstrates how to create and update a sales quotation.</span></span> <span data-ttu-id="0f791-105">Šo procedūru varat izpildīt, izmantojot savus datus vai demonstrācijas datu uzņēmumu USMF.</span><span class="sxs-lookup"><span data-stu-id="0f791-105">You can run this procedure on your own data or in demo data company USMF.</span></span>
 

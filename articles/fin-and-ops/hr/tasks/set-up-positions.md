@@ -16,15 +16,15 @@ ms.author: dkrame
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 110dde293fea31f82fb4b2b1c54bf96d5baa04b3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 28d907d10aa7b20a0a23efe0a224750390ed9e4c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-positions"></a><span data-ttu-id="59a43-103">Amatu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="59a43-103">Set up positions</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="59a43-104">Amats ir nozīmīgs organizācijas hierarhijas zemāko līmeņu elements.</span><span class="sxs-lookup"><span data-stu-id="59a43-104">Positions are an important element of the lower level of an organization hierarchy.</span></span> <span data-ttu-id="59a43-105">Pozīcija ir atsevišķa darba instance.</span><span class="sxs-lookup"><span data-stu-id="59a43-105">A position is an individual instance of a job.</span></span> <span data-ttu-id="59a43-106">Piemēram, amats “Pārdošanas daļas vadītājs (austrumu reģions)” ir tikai viens no amatiem, kas ir saistīti ar darbu “Pārdošanas daļas vadītājs”.</span><span class="sxs-lookup"><span data-stu-id="59a43-106">For example, the position, “Sales manager (East),” is one of the positions that is associated with the job, “Sales manager.”</span></span> <span data-ttu-id="59a43-107">Amats pastāv nodaļā, un ar to var būt saistīts tikai viens darbinieks.</span><span class="sxs-lookup"><span data-stu-id="59a43-107">A position exists in a department and may have only one worker associated with it.</span></span> <span data-ttu-id="59a43-108">Šajā uzdevumā mēs izklāstīsim darbības, kas ir jāizpilda, lai izveidotu amatu.</span><span class="sxs-lookup"><span data-stu-id="59a43-108">In this task we will walk through the steps required to create a position.</span></span> <span data-ttu-id="59a43-109">Šī procedūra ir paredzēta personāla vadības speciālistam.</span><span class="sxs-lookup"><span data-stu-id="59a43-109">This procedure is intended for Human Resources Specialists.</span></span>
 

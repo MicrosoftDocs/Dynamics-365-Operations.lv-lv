@@ -16,15 +16,15 @@ ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ee2c57d9e42d50823c9f77ebd0f13deec2f4342e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0feeba19510d3c2790b1a77bca3c8ec6e7078726
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="specify-a-lading-address-for-an-intra-community-transaction"></a><span data-ttu-id="f928a-103">EK iekšējās transakcijas iekraušanas adreses norādīšana</span><span class="sxs-lookup"><span data-stu-id="f928a-103">Specify a lading address for an intra-community transaction</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f928a-104">Šajā procedūrā parādīts kā norādīt iekraušanas adresi EK tirdzniecības darbībai.</span><span class="sxs-lookup"><span data-stu-id="f928a-104">This procedure shows how to specify a lading address for an intra-community trade transaction.</span></span> <span data-ttu-id="f928a-105">Piemēram, Vācijas uzņēmums pasūta krājumus no kreditora ar vācu uzņēmuma adresi.</span><span class="sxs-lookup"><span data-stu-id="f928a-105">For example, a Germany company orders items from a vendor with a German business address.</span></span> <span data-ttu-id="f928a-106">Šim kreditoram ir noliktava Itālijā, un krājumi tiek piegādāti no turienes.</span><span class="sxs-lookup"><span data-stu-id="f928a-106">This vendor has a warehouse in Italy and ships the items from there.</span></span> <span data-ttu-id="f928a-107">Pārskats par šo piegādi jāsaglabā Intrastat.</span><span class="sxs-lookup"><span data-stu-id="f928a-107">This delivery must be reported in the Intrastat.</span></span> <span data-ttu-id="f928a-108">Tāda pati situācija ir derīga debitora atgrieztajiem krājumiem.</span><span class="sxs-lookup"><span data-stu-id="f928a-108">The same behavior is valid for customer returns.</span></span>
 <span data-ttu-id="f928a-109">Šī procedūra attiecas uz visām Eiropas valstīm/reģioniem.</span><span class="sxs-lookup"><span data-stu-id="f928a-109">This procedure applies to all European countries/regions.</span></span> <span data-ttu-id="f928a-110">Šis uzdevums ir izveidots, izmantojot demonstrācijas uzņēmuma DEMF datus, norādot Vāciju kā primārās adreses valsti.</span><span class="sxs-lookup"><span data-stu-id="f928a-110">The task was created using the demo data company DEMF with a primary address in Germany.</span></span> <span data-ttu-id="f928a-111">Lai varētu veikt šo procedūru, ir jākonfigurē Intrastat pārskatu veidošana.</span><span class="sxs-lookup"><span data-stu-id="f928a-111">Before you can complete this procedure, you must configure Intrastat reporting.</span></span> <span data-ttu-id="f928a-112">Šī procedūra ir paredzēta grāmatvežiem.</span><span class="sxs-lookup"><span data-stu-id="f928a-112">This procedure is intended for accountants.</span></span> <span data-ttu-id="f928a-113">Šī procedūra ir paredzēta līdzeklim, kas tika pievienots Dynamics 365 for Operations versijā 1611.</span><span class="sxs-lookup"><span data-stu-id="f928a-113">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>

@@ -18,16 +18,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: dfba6a237548d962bd3677d20da3745f59638ede
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7093023713a81980010b8254708801b58bc68475
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="depreciation-book-upgrade-overview"></a><span data-ttu-id="6046b-105">Nolietojuma grāmatas jaunināšanas apskats</span><span class="sxs-lookup"><span data-stu-id="6046b-105">Depreciation book upgrade overview</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="6046b-106">Iepriekšējos laidienos pamatlīdzekļiem pastāvēja divi vērtēšanas jēdzieni — vērtības modeļi un nolietojuma grāmatas.</span><span class="sxs-lookup"><span data-stu-id="6046b-106">In previous releases, there were two valuation concepts for fixed assets -  value models and depreciation books.</span></span> <span data-ttu-id="6046b-107">Programmatūrā Microsoft Dynamics 365 for Operations (1611) vērtības modeļa funkcionalitāte un nolietojuma grāmatas funkcionalitāte ir apvienotas vienā līdzeklī, kas tiek saukts par grāmatu.</span><span class="sxs-lookup"><span data-stu-id="6046b-107">In Microsoft Dynamics 365 for Operations (1611), the value model functionality and depreciation book functionality have been merged into a single concept that is known as a book.</span></span> <span data-ttu-id="6046b-108">Šajā tēmā ir norādīts uz dažiem faktoriem, kas ir jāņem vērā, veicot jaunināšanu.</span><span class="sxs-lookup"><span data-stu-id="6046b-108">This topic provides some things to consider for the upgrade.</span></span> 
 
@@ -62,24 +62,24 @@ ms.lasthandoff: 04/13/2018
 <span data-ttu-id="6046b-145">Šie parametri atrodas klases ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans sākumā.</span><span class="sxs-lookup"><span data-stu-id="6046b-145">The parameters are located at the beginning of the ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans class.</span></span> 
 
 <span data-ttu-id="6046b-146">*// Norādiet ieteicamo dokumentu sadalījuma metodi* 
-*// true, ja vēlaties lietot pastāvošu numuru sērijas kodu* 
-*// false, ja plānojat lietot sistēmas definētu numuru sēriju (noklusējums)* const boolean NumberSequenceUseExistingCode = false;</span><span class="sxs-lookup"><span data-stu-id="6046b-146">*// Specify a preferable approach of vouchers allocation* 
-*// true, if you want to use an existing number sequence code* 
-*// false, if you intend to use the system-defined number sequence (default)* const boolean NumberSequenceUseExistingCode = false;</span></span>  
+ *// true, ja vēlaties lietot pastāvošu numuru sērijas kodu* 
+ *// false, ja plānojat lietot sistēmas definētu numuru sēriju (noklusējums)* const boolean NumberSequenceUseExistingCode = false;</span><span class="sxs-lookup"><span data-stu-id="6046b-146">*// Specify a preferable approach of vouchers allocation* 
+ *// true, if you want to use an existing number sequence code* 
+ *// false, if you intend to use the system-defined number sequence (default)* const boolean NumberSequenceUseExistingCode = false;</span></span>  
 
 <span data-ttu-id="6046b-147">*// Ja lietojat metodi ar sistēmas definētu numuru sēriju, norādiet numuru sērijas parametrus.*
-*// Tiks izveidota jauna numuru sērija ar šiem parametriem.*</span><span class="sxs-lookup"><span data-stu-id="6046b-147">*// If using the system-defined number sequence approach, specify the parameters for the number sequence.*
-*// A new number sequence will be created with these parameters.*</span></span> <span data-ttu-id="6046b-148">const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;</span><span class="sxs-lookup"><span data-stu-id="6046b-148">const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;</span></span>   
+ *// Tiks izveidota jauna numuru sērija ar šiem parametriem.*</span><span class="sxs-lookup"><span data-stu-id="6046b-147">*// If using the system-defined number sequence approach, specify the parameters for the number sequence.*
+ *// A new number sequence will be created with these parameters.*</span></span> <span data-ttu-id="6046b-148">const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;</span><span class="sxs-lookup"><span data-stu-id="6046b-148">const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;</span></span>   
 
 <span data-ttu-id="6046b-149">*// Ja lietojat metodi ar pastāvošu numuru sēriju, norādiet pastāvošās numuru sērijas kodu.* 
-*// Pastāvošajām numuru sērijām dokumentu sadalījums darbosies pa vienai rindai.*</span><span class="sxs-lookup"><span data-stu-id="6046b-149">*// If using the existing number sequence approach, specify the existing number sequence code.* 
-*// Voucher allocation will go row-by-row for existing number sequences.*</span></span> <span data-ttu-id="6046b-150">const str NumberSequenceExistingCode = ''; *// Norādiet pastāvošās numuru sērijas koda tvērumu* 
-*// true, ja norādītā numuru sērija ir kopīga* 
-*// false, ja norādītā numuru sērija ir katram uzņēmumam sava* 
-*// Noklusējuma sistēmas definētā numuru sērija tiek izmantota, ja netiek atrasts numuru sērijas kods ar norādīto tvērumu.*</span><span class="sxs-lookup"><span data-stu-id="6046b-150">const str NumberSequenceExistingCode = ''; *// Specify the scope of the existing number sequence code* 
-*// true, if the specified number sequence is shared* 
-*// false, if the specified number sequence is per-company* 
-*// The default system-defined number sequence will be used if a number sequence code with the specified scope is not found.*</span></span> <span data-ttu-id="6046b-151">const boolean NumberSequenceExistingIsShared = true;</span><span class="sxs-lookup"><span data-stu-id="6046b-151">const boolean NumberSequenceExistingIsShared = true;</span></span> 
+ *// Pastāvošajām numuru sērijām dokumentu sadalījums darbosies pa vienai rindai.*</span><span class="sxs-lookup"><span data-stu-id="6046b-149">*// If using the existing number sequence approach, specify the existing number sequence code.* 
+ *// Voucher allocation will go row-by-row for existing number sequences.*</span></span> <span data-ttu-id="6046b-150">const str NumberSequenceExistingCode = ''; *// Norādiet pastāvošās numuru sērijas koda tvērumu* 
+ *// true, ja norādītā numuru sērija ir kopīga* 
+ *// false, ja norādītā numuru sērija ir katram uzņēmumam sava* 
+ *// Noklusējuma sistēmas definētā numuru sērija tiek izmantota, ja netiek atrasts numuru sērijas kods ar norādīto tvērumu.*</span><span class="sxs-lookup"><span data-stu-id="6046b-150">const str NumberSequenceExistingCode = ''; *// Specify the scope of the existing number sequence code* 
+ *// true, if the specified number sequence is shared* 
+ *// false, if the specified number sequence is per-company* 
+ *// The default system-defined number sequence will be used if a number sequence code with the specified scope is not found.*</span></span> <span data-ttu-id="6046b-151">const boolean NumberSequenceExistingIsShared = true;</span><span class="sxs-lookup"><span data-stu-id="6046b-151">const boolean NumberSequenceExistingIsShared = true;</span></span> 
 
 <span data-ttu-id="6046b-152">Kad konstantes ir modificētas, atjaunojiet projektu, kas satur šo klasi.</span><span class="sxs-lookup"><span data-stu-id="6046b-152">Rebuild the project that contains the class after the constants have been modified.</span></span> 
 

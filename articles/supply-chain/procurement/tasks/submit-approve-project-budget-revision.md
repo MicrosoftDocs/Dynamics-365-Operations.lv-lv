@@ -17,15 +17,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e7ed3636962e4056c1151c18456e0bcb002717c0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 16dd67c62d65a8f1bb3bd7c298a38680ba97cdb5
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="submit-and-approve-project-budget-revisions"></a><span data-ttu-id="46830-103">Projekta budžeta pārskatīšanas iesniegšana un apstiprināšana</span><span class="sxs-lookup"><span data-stu-id="46830-103">Submit and approve project budget revisions</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="46830-104">Šajā procedūrā ir sniegta informāciju par projekta budžeta pārskatīšanu.</span><span class="sxs-lookup"><span data-stu-id="46830-104">This procedure provides information about revising a project budget.</span></span> <span data-ttu-id="46830-105">Projekta budžetu varat pārskatīt tik reizes, cik vien nepieciešams, bet gadījumā, ja budžets ir pārskatīts vairākas reizes, nevar redzēt atsevišķu pārskatījumu summu.</span><span class="sxs-lookup"><span data-stu-id="46830-105">You can revise a project budget as many times as necessary, however you can't see the amount of an individual revision if the budget has been revised more than one time.</span></span> 
 

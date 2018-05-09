@@ -16,16 +16,16 @@ ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c3897b6d25a7c414110d635fdadf812e70601712
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f74cc57e7f6da4e57a5cb5da84a8e74ce6cd64a0
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="mobile-workspaces"></a><span data-ttu-id="59380-103">Mobilās darbvietas</span><span class="sxs-lookup"><span data-stu-id="59380-103">Mobile workspaces</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="59380-104">Šajā tēmā ir uzskaitītas mobilās darbvietas, kuras ir pieejamas lietošanai Dynamics 365 for Unified Operations mobilajā programmā.</span><span class="sxs-lookup"><span data-stu-id="59380-104">This topic lists the mobile workspaces that are available for use with the Dynamics 365 for Unified Operations mobile app.</span></span>
 

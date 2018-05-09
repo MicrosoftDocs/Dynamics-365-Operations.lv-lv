@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 948fdefc52db2e5cb46e7708d36d172b38285913
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5dccb5c5c6c336607603dfc7a935c039e5ac4aa5
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cash-overview-power-bi-content"></a><span data-ttu-id="6042f-104">Power BI satura pakotne Naudas pārskats</span><span class="sxs-lookup"><span data-stu-id="6042f-104">Cash overview Power BI content</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="6042f-105">Šajā tēmā ir aprakstīta Power BI satura pakotne **Naudas pārskats**.</span><span class="sxs-lookup"><span data-stu-id="6042f-105">This topic describes the **Cash overview** Microsoft Power BI content.</span></span> <span data-ttu-id="6042f-106">Tajā ir paskaidrots, kā piekļūt pārskatiem, kas ir iekļauti saturā, un ir sniegta informācija par satura izveidei izmantoto datu modeli un elementiem.</span><span class="sxs-lookup"><span data-stu-id="6042f-106">It explains how to access the reports that are included in the content, and provides information about the data model and entities that were used to build the content.</span></span>
 

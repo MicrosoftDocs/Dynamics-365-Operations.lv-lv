@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9c547dc843f4eb467400fa6f84a1a738462123ce
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fcec7ac45499b3ae379ad9323a1e6926daffc212
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-dimension-based-product-master"></a><span data-ttu-id="0cc3b-103">Uz dimensijas balstītas preces šablona izveide</span><span class="sxs-lookup"><span data-stu-id="0cc3b-103">Create a dimension-based product master</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0cc3b-104">Šajā procedūrā tiek parādīts, kā izveidot jaunu preces šablonu ar konfigurācijas atbilstoši dimensijām tehnoloģiju.</span><span class="sxs-lookup"><span data-stu-id="0cc3b-104">This procedure shows how to create a new product master with dimension-based configuration technology.</span></span> <span data-ttu-id="0cc3b-105">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="0cc3b-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="0cc3b-106">Šī ir pirmā procedūra no astoņām, kurā ir skaidrots, kā veidot kombinācijas konfigurācijai atbilstoši dimensijām.</span><span class="sxs-lookup"><span data-stu-id="0cc3b-106">This is the first procedure out of eight that explains how to build combinations for dimension-based configuration.</span></span>
 

@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9d2ce5dd0e9072c0f8430ee5390c8cafed9a6f60
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f92888d4af531f139bcceafb118e212277b9c0e1
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="prepayment-invoices-vs-prepayments"></a><span data-ttu-id="14bd8-105">Priekšapmaksas rēķini salīdzinājumā ar priekšapmaksu</span><span class="sxs-lookup"><span data-stu-id="14bd8-105">Prepayment invoices vs. prepayments</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="14bd8-106">Šajā tēmā ir aprakstītas un salīdzinātas divas metodes, ko organizācijas var izmantot avansa maksājumu (priekšapmaksas) veikšanai.</span><span class="sxs-lookup"><span data-stu-id="14bd8-106">This topic describes and contrasts the two methods that organizations can use for advance payments (prepayments).</span></span> <span data-ttu-id="14bd8-107">Izmantojot vienu metodi, ir jāizveido priekšapmaksas rēķins, kas saistīts ar pirkšanas pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="14bd8-107">In one method, you create a prepayment invoice that is associated with a purchase order.</span></span> <span data-ttu-id="14bd8-108">Izmantojot otru metodi, ir jāizveido priekšapmaksas žurnāla dokumenti, vispirms izveidojot žurnāla ierakstus un atzīmējot tos kā priekšapmaksas žurnāla dokumentus.</span><span class="sxs-lookup"><span data-stu-id="14bd8-108">In the other method, you create prepayment journal vouchers by creating journal entries and marking them as prepayment journal vouchers.</span></span>
 

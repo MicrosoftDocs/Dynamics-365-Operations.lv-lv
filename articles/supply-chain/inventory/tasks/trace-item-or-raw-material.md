@@ -17,15 +17,15 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5c8126322f85b317a9737978295ec0ebd2fd7cdc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 86868fc3a5d1543e46b3ebd4dcc31cbc3a78479b
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="trace-an-item-or-raw-material"></a><span data-ttu-id="76f82-103">Krājumu vai izejmateriālu izsekošana</span><span class="sxs-lookup"><span data-stu-id="76f82-103">Trace an item or raw material</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="76f82-104">Šajā procedūra parādīts, kā lietot krājumu izsekošanu, lai identificētu, kur krājumi vai izejmateriāli ir izmantoti vai tiek izmantoti.</span><span class="sxs-lookup"><span data-stu-id="76f82-104">This procedure demonstrates how to use item tracing to identify where items or raw materials have been used or are being used.</span></span> <span data-ttu-id="76f82-105">Izmantojot šo procedūru, varat identificēt krājumu, izsekot to atpakaļ līdz avotam un pēc tam izsekot uz priekšu līdz ražošanai un pabeigtās preces pārdošanai.</span><span class="sxs-lookup"><span data-stu-id="76f82-105">With this procedure, you can identify an item, trace it back to the source, and then trace forward through the production and sale of the finished product.</span></span> <span data-ttu-id="76f82-106">Procesu var lietot, lai izpētītu ietekmētos klientus, skartos pārdošanas pasūtījumus un citus aspektus.</span><span class="sxs-lookup"><span data-stu-id="76f82-106">The process can be used to investigate the customers impacted, the sales orders affected, and more.</span></span> <span data-ttu-id="76f82-107">Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma USP2 dati.</span><span class="sxs-lookup"><span data-stu-id="76f82-107">This procedure uses demo data company USP2.</span></span>
 

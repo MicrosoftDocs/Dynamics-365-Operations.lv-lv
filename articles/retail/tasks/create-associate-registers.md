@@ -17,15 +17,15 @@ ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c88045f6aeeb1f6c8e9d9f43c04c489a82c2d8c8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 54117e070a99b62702cc677813a33b636a24af7e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-and-associate-registers"></a><span data-ttu-id="2c28f-103"> Reģistru izveide un sasaiste</span><span class="sxs-lookup"><span data-stu-id="2c28f-103">Create and associate registers</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="2c28f-104">Šajā procedūrā ir parādīts, kā izveidot pārdošanas punkta (POS) reģistru.</span><span class="sxs-lookup"><span data-stu-id="2c28f-104">This procedure demonstrates how to create a point of sale (POS) register.</span></span> <span data-ttu-id="2c28f-105">Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma USRT dati.</span><span class="sxs-lookup"><span data-stu-id="2c28f-105">This procedure uses the demo data company USRT.</span></span>
 

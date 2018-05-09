@@ -18,16 +18,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5fcf299cbf0a5e334ab4f30e19a563b586753dfe
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 86de46818abc6ea653076c2a6f38c40bbaab18d8
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a><span data-ttu-id="41382-104">Iestatīt drošību Power BI saturam Izmaksu uzskaites analīze</span><span class="sxs-lookup"><span data-stu-id="41382-104">Set up security for the Cost accounting analysis Power BI content</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="41382-105">Šajā tēmā ir paskaidrots, kā var ieviest izmaksu uzskaites piekļuves līmeņa drošību rindas līmeņa drošībai pakalpojumā Microsoft Power BI.</span><span class="sxs-lookup"><span data-stu-id="41382-105">This topic explains how you can propagate the access-level security in Cost accounting to row-level security in Microsoft Power BI.</span></span> <span data-ttu-id="41382-106">Šī funkcionalitāte palīdz nodrošināt to, ka lietotāji var skatīt tikai tos Power BI datus, kuriem tiem ir piešķirta piekļuve.</span><span class="sxs-lookup"><span data-stu-id="41382-106">This functionality helps guarantee that users see only Power BI data that they are granted access to.</span></span>
 

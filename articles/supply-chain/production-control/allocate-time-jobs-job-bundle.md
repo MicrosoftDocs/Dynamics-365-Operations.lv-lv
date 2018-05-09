@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ef7285da57471804f3d8fd1d5b955ce31519e81f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3bebc1dc75c00a76ada34dc31cb875b9b11579f6
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a><span data-ttu-id="ff302-104">Piešķirt laiku darbu komplektā iekļautiem darbiem</span><span class="sxs-lookup"><span data-stu-id="ff302-104">Allocate time to jobs in a job bundle</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="ff302-105">Lapā Ražošanas izpilde var veikt darbu komplektēšanu.</span><span class="sxs-lookup"><span data-stu-id="ff302-105">In Manufacturing execution, you can bundle jobs.</span></span> <span data-ttu-id="ff302-106">Pēc tam lapā Darbu saraksts var sākt vairākus darbus vienlaicīgi.</span><span class="sxs-lookup"><span data-stu-id="ff302-106">You can then start multiple jobs at the same time on the Job list page.</span></span>
 

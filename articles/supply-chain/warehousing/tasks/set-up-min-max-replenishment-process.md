@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 30bff74da8399ddc15f2bc84e83887c8b5e60570
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 09a5bbe7601248fd2635fda4a0d87973a6e1ceba
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a><span data-ttu-id="d55cb-103">Min.-maks. papildināšanas procesa iestatīšana</span><span class="sxs-lookup"><span data-stu-id="d55cb-103">Set up a min-max replenishment process</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d55cb-104">Šī procedūra parāda, kā iestatīt papildināšanas procesu, kas izmanto minimuma/maksimuma papildināšanas stratēģiju.</span><span class="sxs-lookup"><span data-stu-id="d55cb-104">This procedure shows you how to set up a new replenishment process which uses the minimum/maximum replenishment strategy.</span></span> <span data-ttu-id="d55cb-105">Ja krājumu daudzums ir zem minimālā līmeņa, tiks izveidots uzdevums atrašanās vietas papildināšanai.</span><span class="sxs-lookup"><span data-stu-id="d55cb-105">When inventory falls below the minimum level, work will be created to replenish the location.</span></span> <span data-ttu-id="d55cb-106">Procedūra parāda arī kā lietot fiksētas izdošanas vietas, lai ļautu atjaunot krājumus pat tad, ja krājumu daudzums ir mazāks par minimālo līmeni, un to, kā iespējot papildināšanas procesa regulāru palaišanu, izmantojot pakešuzdevumu.</span><span class="sxs-lookup"><span data-stu-id="d55cb-106">The procedure also shows how to use fixed picking locations to allow restocking even if inventory falls below the minimum level, and how to enable the replenishment process to run regularly using a batch job.</span></span> <span data-ttu-id="d55cb-107">Šos uzdevumus parasti veic noliktavas pārvaldnieks.</span><span class="sxs-lookup"><span data-stu-id="d55cb-107">These tasks would typically be carried out by a warehouse manager.</span></span> <span data-ttu-id="d55cb-108">Šo procedūru varat palaist demonstrācijas datu uzņēmumā USMF, izmantojot piemēra vērtības piezīmēs, vai to var palaist, izmantojot savus datus.</span><span class="sxs-lookup"><span data-stu-id="d55cb-108">You can run this procedure in the USMF demo data company using the example values in the notes, or can run it on your own data.</span></span> <span data-ttu-id="d55cb-109">Ja jūs izmantojat savus datus, pārliecinieties, ka jums ir noliktava, kas ir iespējota noliktavas vadības procesiem.</span><span class="sxs-lookup"><span data-stu-id="d55cb-109">If you’re using your own data, make sure that you have a warehouse that’s enabled for Warehouse management processes.</span></span>
 

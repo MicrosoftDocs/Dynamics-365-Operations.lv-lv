@@ -17,15 +17,15 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: cc42a3d43914dd62b97e1be1f9eb7f9c4f01ea09
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 031b35b729af51e60baf7a5b00779b436da748a7
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="configure-the-functionality-profile-for-a-sales-representative"></a><span data-ttu-id="3dd0b-103"> Funkcionalitātes profila konfigurēšana pārdošanas pārstāvim</span><span class="sxs-lookup"><span data-stu-id="3dd0b-103">Configure the functionality profile for a sales representative</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3dd0b-104">Šajā procedūrā ir aprakstīts, kā konfigurēt krātuves funkcionalitātes profila iestatījumus, kas attiecas uz pārdošanas pārstāvjiem.</span><span class="sxs-lookup"><span data-stu-id="3dd0b-104">This procedure demonstrates how to configure a store's functionality profile settings that apply to sales representatives.</span></span> <span data-ttu-id="3dd0b-105">Šajās procedūrās ir izmantots demonstrācijas datu uzņēmums USRT.</span><span class="sxs-lookup"><span data-stu-id="3dd0b-105">This procedures uses the USRT demo data company.</span></span>
 

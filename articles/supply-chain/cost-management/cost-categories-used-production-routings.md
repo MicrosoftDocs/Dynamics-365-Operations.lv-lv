@@ -20,16 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1bda8d9d656f1760061599d100ca4af9186742ea
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1eb7da2ce5323fe0c06c57855435510f88f0601f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-categories-used-in-production-routing"></a><span data-ttu-id="d5747-103">Ražošanas maršrutēšanā izmantotās izmaksu kategorijas</span><span class="sxs-lookup"><span data-stu-id="d5747-103">Cost categories used in production routing</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="d5747-104">Šis raksts sniedz informāciju par izmaksu kategorijām, kas attiecas uz ražošanas vidēm, kurās izmanto maršrutēšanu.</span><span class="sxs-lookup"><span data-stu-id="d5747-104">This article provides information about cost categories that apply to manufacturing environments that use routing.</span></span>
 

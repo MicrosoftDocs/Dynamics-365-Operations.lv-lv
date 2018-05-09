@@ -18,16 +18,16 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 45e46e06e7c934f18f6d5406ddaafc3b09f3a98f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cfaf17a8279026bf9bc8b581afd07e4fdbd3f03a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="excel-templates-with-multiple-worksheets"></a><span data-ttu-id="a7274-103">Excel veidnes ar vairākām darblapām</span><span class="sxs-lookup"><span data-stu-id="a7274-103">Excel templates with multiple worksheets</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="a7274-104">Datu pārvaldība programmā Microsoft Dynamics 365 for Finance and Operations atbalsta ar programmu Microsoft Excel saistītas datu elementu veidnes.</span><span class="sxs-lookup"><span data-stu-id="a7274-104">Data management in Microsoft Dynamics 365 for Finance and Operations supports Microsoft Excel-based templates for data entities.</span></span> <span data-ttu-id="a7274-105">Šajās veidnēs var būt viena vai vairākas darblapas.</span><span class="sxs-lookup"><span data-stu-id="a7274-105">These templates can contain one or more worksheets.</span></span> <span data-ttu-id="a7274-106">Veidnes ar vairākām darblapām bieži tiek izmantotas, kad ir vēlams datus pārvaldīt vienā failā un to importēt vairākos datu elementos.</span><span class="sxs-lookup"><span data-stu-id="a7274-106">Templates with multiple worksheets are often used when it is convenient to manage data in a single file and import it to multiple data entities.</span></span> <span data-ttu-id="a7274-107">Kā piemēru varētu minēt vietas un noliktavas.</span><span class="sxs-lookup"><span data-stu-id="a7274-107">An example would be sites and warehouses.</span></span>
 

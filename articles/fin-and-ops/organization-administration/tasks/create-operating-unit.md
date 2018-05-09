@@ -16,15 +16,15 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 98005c91c98c5e924a36a71a88621cbcecb531bc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9155a770af72a6cf5d391171f4267eb140b244e0
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-an-operating-unit"></a><span data-ttu-id="4c6ef-103">Pārvaldības struktūrvienības izveide</span><span class="sxs-lookup"><span data-stu-id="4c6ef-103">Create an operating unit</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4c6ef-104">Pārvaldības struktūrvienība ir organizācija, kas tiek lietota, lai sadalītu ekonomisko resursu un operatīvo procesu kontroli biznesā.</span><span class="sxs-lookup"><span data-stu-id="4c6ef-104">An operating unit is an organization that is used to divide the control of economic resources and operational processes in a business.</span></span> <span data-ttu-id="4c6ef-105">Cilvēkiem pārvaldības struktūrvienībā ir pienākums maksimāli izmantot ierobežotos resursus, uzlabot procesus un atskaitīties par savu sniegumu.</span><span class="sxs-lookup"><span data-stu-id="4c6ef-105">People in an operating unit have a duty to maximize the use of scarce resources, improve processes, and account for their performance.</span></span> <span data-ttu-id="4c6ef-106">Pārvaldības struktūrvienību veidi ietver izmaksu centrus, biznesa vienības, nodaļas un vērtību plūsmas.</span><span class="sxs-lookup"><span data-stu-id="4c6ef-106">The types of operating units include cost centers, business units, departments, and value streams.</span></span> <span data-ttu-id="4c6ef-107">Lai izveidotu pārvaldības struktūrvienību, veiciet tālākminētās darbības.</span><span class="sxs-lookup"><span data-stu-id="4c6ef-107">Use the following procedure to create an operating unit.</span></span> <span data-ttu-id="4c6ef-108">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="4c6ef-108">The demo data company used to create this procedure is USMF.</span></span>
 

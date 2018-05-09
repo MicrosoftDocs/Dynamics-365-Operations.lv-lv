@@ -18,16 +18,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5b1350524c4e59c3148d07cef6f8e1ab02ec43b4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c61c3c4fd3c888888e7ac8cc8fc8275c15ff4692
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-a-manual-decision-in-a-workflow"></a><span data-ttu-id="5f0ec-103">Konfigurēt manuālu lēmumu darbplūsmā</span><span class="sxs-lookup"><span data-stu-id="5f0ec-103">Configure a manual decision in a workflow</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="5f0ec-104">Šajā tēmā ir paskaidrots, kā konfigurēt manuāla lēmuma rekvizītus.</span><span class="sxs-lookup"><span data-stu-id="5f0ec-104">This topic explains how to configure the properties of a manual decision.</span></span>
 
@@ -98,8 +98,8 @@ ms.lasthandoff: 04/13/2018
 
 1.  <span data-ttu-id="5f0ec-170">Kreisajā rūtī noklikšķiniet uz **Paziņojumi**.</span><span class="sxs-lookup"><span data-stu-id="5f0ec-170">In the left pane, click **Notifications**.</span></span>
 2.  <span data-ttu-id="5f0ec-171">Atzīmējiet izvēles rūtiņu pie notikumiem, par kuriem tiek sūtīti paziņojumi:</span><span class="sxs-lookup"><span data-stu-id="5f0ec-171">Select the check box next to the events that notifications should be sent for:</span></span>
-    -   <span data-ttu-id="5f0ec-172">**\[1. izvēle\]** — piešķirtais lietotājs ir atlasījis vienumu **\[1. izvēle\]**.</span><span class="sxs-lookup"><span data-stu-id="5f0ec-172">**\[Choice 1\]** – The assigned user has selected **\[Choice 1\]**.</span></span>
-    -   <span data-ttu-id="5f0ec-173">**\[2. izvēle\]** — piešķirtais lietotājs ir atlasījis vienumu **\[2. izvēle\]**.</span><span class="sxs-lookup"><span data-stu-id="5f0ec-173">**\[Choice 2\]** – The assigned user has selected **\[Choice 2\]**.</span></span>
+    -   <span data-ttu-id="5f0ec-172">**\[1. izvēle\]**  — piešķirtais lietotājs ir atlasījis vienumu **\[1. izvēle\]**.</span><span class="sxs-lookup"><span data-stu-id="5f0ec-172">**\[Choice 1\]** – The assigned user has selected **\[Choice 1\]**.</span></span>
+    -   <span data-ttu-id="5f0ec-173">**\[2. izvēle\]**  — piešķirtais lietotājs ir atlasījis vienumu **\[2. izvēle\]**.</span><span class="sxs-lookup"><span data-stu-id="5f0ec-173">**\[Choice 2\]** – The assigned user has selected **\[Choice 2\]**.</span></span>
     -   <span data-ttu-id="5f0ec-174">**Deleģēt**— piešķirtais lietotājs lēmumu ir piešķīris citam lietotājam.</span><span class="sxs-lookup"><span data-stu-id="5f0ec-174">**Delegate** – The assigned user has assigned the decision to another user.</span></span>
     -   <span data-ttu-id="5f0ec-175">**Eskalēt** — piešķirtais lietotājs nav pieņēmis lēmumu atvēlētajā laikā.</span><span class="sxs-lookup"><span data-stu-id="5f0ec-175">**Escalate** – The assigned user hasn't made the decision in the allotted time.</span></span>
 

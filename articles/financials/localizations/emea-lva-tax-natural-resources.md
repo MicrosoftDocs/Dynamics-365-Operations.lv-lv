@@ -18,16 +18,16 @@ ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e792354804da8538e3bb11126633d1d490c6ed97
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 67b477b1b2e1d0836b236b6c4926dd6bd7c601fa
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="tax-on-natural-resources-report"></a><span data-ttu-id="d3cca-103">Dabas resursu nodokļa pārskats</span><span class="sxs-lookup"><span data-stu-id="d3cca-103">Tax on natural resources report</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="d3cca-104">Šajā tēmā ir paskaidrots, kā iestatīt un ģenerēt pārskatu Dabas resursu nodoklis (DRN).</span><span class="sxs-lookup"><span data-stu-id="d3cca-104">This topic explains how to set up and generate the Tax on natural resources (NR Tax) report.</span></span>
 

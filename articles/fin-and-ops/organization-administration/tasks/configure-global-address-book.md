@@ -16,15 +16,15 @@ ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9c5f07a7373d0706e724ed7cc6782a260cd6a7ac
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c5736c503fff1f0c4587bd4c70472716959af2d9
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="configure-the-global-address-book"></a><span data-ttu-id="e0060-103">Globālās adrešu grāmatas konfigurēšana</span><span class="sxs-lookup"><span data-stu-id="e0060-103">Configure the global address book</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e0060-104">Izmantojiet šo procedūru, lai iestatītu noklusētās vērtības un drošības politikas globālajai adrešu grāmatai.</span><span class="sxs-lookup"><span data-stu-id="e0060-104">Use this procedure to set the default values and security policies for the global address book.</span></span> 
 

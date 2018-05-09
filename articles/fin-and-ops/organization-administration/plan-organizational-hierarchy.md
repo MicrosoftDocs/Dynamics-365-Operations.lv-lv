@@ -19,16 +19,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e04926abca47444d06708f34278eb02bb1640cd6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 43be43f6982a390bd223ff18bbcd272e0b1ca179
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="plan-your-organizational-hierarchy"></a><span data-ttu-id="b467d-103">Organizācijas hierarhijas plānošana</span><span class="sxs-lookup"><span data-stu-id="b467d-103">Plan your organizational hierarchy</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="b467d-104">Pirms organizāciju un organizācijas hierarhiju iestatīšanas programmatūrā Microsoft Dynamics 365 for Finance and Operations noteikti plānojiet sava uzņēmuma modelēšanas veidu.</span><span class="sxs-lookup"><span data-stu-id="b467d-104">Before you set up organizations and organization hierarchies in Microsoft Dynamics 365 for Finance and Operations, make sure that you plan how your business will be modeled.</span></span> <span data-ttu-id="b467d-105">Organizācijas modelis būtiski ietekmē Finance and Operations ieviešanu un biznesa procesus.</span><span class="sxs-lookup"><span data-stu-id="b467d-105">The organization model has a significant effect on the implementation of Finance and Operations and on business processes.</span></span> 
 

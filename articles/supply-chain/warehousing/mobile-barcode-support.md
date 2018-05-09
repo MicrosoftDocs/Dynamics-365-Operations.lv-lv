@@ -18,16 +18,16 @@ ms.author: Mirzaab
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6cf870974b2f772e82fbf828e83f065dc945d377
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 720f14b0e46d1571dd5b3f57a4ecce102b81945b
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="mobile-bar-code-support"></a><span data-ttu-id="15cc6-103">Atbalsts svītrkoda nolasīšanai mobilajā ierīcē</span><span class="sxs-lookup"><span data-stu-id="15cc6-103">Mobile bar code support</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="15cc6-104">Android ir atvērtā pirmkoda projekts, tāpēc jebkurš noliktavas svītrkodu skeneru aparatūras ražotājs var izgatavot ierīci, kurā darbojas operētājsistēma Android.</span><span class="sxs-lookup"><span data-stu-id="15cc6-104">Because Android is an open source project, any manufacturer of hardware for warehouse bar code scanners can build a device to run the Android operating system.</span></span> <span data-ttu-id="15cc6-105">Ierīce ir saderīga ar Android tikai tad, ja tajā var palaist programmas, kas ir paredzētas Android izpildes videi.</span><span class="sxs-lookup"><span data-stu-id="15cc6-105">A device is only Android-compatible if it can run apps that are written for the Android execution environment.</span></span>
 <span data-ttu-id="15cc6-106">Taču aparatūras nodrošinātājs var izmainīt un izveidot pārklājumus Android versijai, kas tiek darbināta attiecīgajā aparatūrā.</span><span class="sxs-lookup"><span data-stu-id="15cc6-106">However, a hardware vendor can modify and create overlays for the Android version that runs on their hardware.</span></span> <span data-ttu-id="15cc6-107">Microsoft nevar garantēt, ka operētājsistēmai Android paredzēta svītrkodu skenēšanas mobilā programma ir saderīga ar ražotāja svītrkodu skenēšanas aparatūru un tajā darbināto Android versiju, kā arī nevar uzņemties atbildību par šādas saderības nodrošināšanu.</span><span class="sxs-lookup"><span data-stu-id="15cc6-107">Microsoft cannot take any responsibility to ensure that a mobile bar code scanning app for Android is compatible with a manufacturer’s bar code scanning hardware and the Android version that runs on it.</span></span> 

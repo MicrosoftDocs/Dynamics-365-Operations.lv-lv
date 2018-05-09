@@ -16,15 +16,15 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b8f3961e17ba381a75de448c85335abb026c0c53
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a3bccfcaad529f35dc28048bacbe08e298d4c459
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-legal-entity"></a><span data-ttu-id="28b3a-103">Izveidot juridisko personu</span><span class="sxs-lookup"><span data-stu-id="28b3a-103">Create a legal entity</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="28b3a-104">Juridiskā persona ir organizācija, kas tiek identificēta ar reģistrāciju juridiskā iestādē.</span><span class="sxs-lookup"><span data-stu-id="28b3a-104">A legal entity is an organization that is identified through registration with a legal authority.</span></span> <span data-ttu-id="28b3a-105">Juridiskās personas var noslēgt līgumus, un tām ir nepieciešams sagatavot pārskatus, ziņojot par savu transakciju.</span><span class="sxs-lookup"><span data-stu-id="28b3a-105">Legal entities can enter into contracts and are required to prepare statements that report on their performance.</span></span> <span data-ttu-id="28b3a-106">Šajā procedūrā ir paskaidrots, kā izveidot juridisku personu.</span><span class="sxs-lookup"><span data-stu-id="28b3a-106">The following procedure explains how to create a legal entity.</span></span> <span data-ttu-id="28b3a-107">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="28b3a-107">The demo data company used to create this procedure is USMF.</span></span>
 

@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6440bae664e4eac6643e480dbf60191fb0050375
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5da697d4a6765f7a7ab13284b90a93e596af0559
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="service-agreement-groups"></a><span data-ttu-id="74792-103">Pakalpojumu līgumu grupas</span><span class="sxs-lookup"><span data-stu-id="74792-103">Service agreement groups</span></span> 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="74792-104">Pakalpojumu līgumu grupas is noderīgas pakalpojumu līgumu kārtošanai un filtrēšanai.</span><span class="sxs-lookup"><span data-stu-id="74792-104">Service agreement groups are useful for sorting and filtering service agreements.</span></span> <span data-ttu-id="74792-105">Lietojiet pakalpojumu līgumu grupas, lai sagrupētu pakalpojumu līgumus, piemēram, pēc uzņēmuma lieluma, ģeogrāfiskās atrašanās vietas, vai rūpniecības veida.</span><span class="sxs-lookup"><span data-stu-id="74792-105">Use service agreement groups to group service agreements by, for example, company size, geographical location, or industry type.</span></span> <span data-ttu-id="74792-106">Līdzīgi varat lietot līgumu grupas, lai grupētu pakalpojumu līgums pēc debitoriem piedāvātā pakalpojuma līmeņa.</span><span class="sxs-lookup"><span data-stu-id="74792-106">Alternatively, you can use agreement groups to group service agreements by the level of service offered to a customer.</span></span>
 

@@ -19,16 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8a91074fb6d8bca223d9b143763b2be580a08cd4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 75d8ac183c7fbeed2bdab49dc4217a77ac1c979b
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="manage-a-recruiting-process"></a><span data-ttu-id="f9a20-103">Personāla atlases procesa pārvaldība</span><span class="sxs-lookup"><span data-stu-id="f9a20-103">Manage a recruiting process</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="f9a20-104">Šajā tēmā ir aprakstīta metode, ko personāla atlases speciālisti var izmantot, lai izsekotu personāla atlases procesa darbības, tostarp vakanču izsludināšanu un kandidātu piesaisti, informācijas par kandidātu un pieteikumu izsekošanu, kandidātu intervēšanu un viena vai vairāku kandidātu atlasi izsludināto vakanču aizpildīšanai organizācijā.</span><span class="sxs-lookup"><span data-stu-id="f9a20-104">This topic describes a concept that recruiters can use to track the steps in a recruiting process, including efforts to advertise open positions and recruit applicants, tracking applicant and application information, interviewing applicants, and selecting one or more candidates to fill the open positions in your organization.</span></span>
 

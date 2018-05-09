@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ba4d752304f2bd2e5b53dc3353bed3df34044d12
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a224d1d9d72b39052a6bf21b4e496ef8c02bb2fd
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-cost-accounting-ledger"></a><span data-ttu-id="b4510-103">Izmaksu uzskaites virsgrāmatas izveide</span><span class="sxs-lookup"><span data-stu-id="b4510-103">Create a cost accounting ledger</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b4510-104">Izmaksu uzskaites virsgrāmata atspoguļo vispārējo pārskata vienību.</span><span class="sxs-lookup"><span data-stu-id="b4510-104">A cost accounting ledger represents the overall reporting unit.</span></span> <span data-ttu-id="b4510-105">To definē izmaksu elementa dimensija, statistiskā dimensija, finanšu kalendārs un valūta.</span><span class="sxs-lookup"><span data-stu-id="b4510-105">It is defined by a cost element dimension, statistical dimension, fiscal calendar, and currency.</span></span> <span data-ttu-id="b4510-106">Tā ir neatkarīga juridisko personu jēdzienā.</span><span class="sxs-lookup"><span data-stu-id="b4510-106">It is agnostic to the concept of legal entities.</span></span> <span data-ttu-id="b4510-107">Juridiskā persona un tās dati var būt saistīti ar daudzām izmaksu uzskaites virsgrāmatām.</span><span class="sxs-lookup"><span data-stu-id="b4510-107">A legal entity and its data can be associated with many cost accounting ledgers.</span></span> <span data-ttu-id="b4510-108">Šajā ierakstā tiek izmantots USP2 demonstrācijas datu uzņēmums.</span><span class="sxs-lookup"><span data-stu-id="b4510-108">This recording uses the USP2 demo data company.</span></span>
 

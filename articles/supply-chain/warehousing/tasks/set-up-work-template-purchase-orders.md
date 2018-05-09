@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8b5609c897466dbd0e504740cdc600fb2f800d37
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1bd59ffca94c57ad33f78f9e780d00b368750bc8
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a><span data-ttu-id="59610-103">Pirkšanas pasūtījumu darba veidnes iestatīšana</span><span class="sxs-lookup"><span data-stu-id="59610-103">Set up a work template for purchase orders</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="59610-104">Šajā procedūrā aprakstīta vienkāršas darba veidnes izveide, kuru paredzēts izmantot saņemto krājumu izvietošanai.</span><span class="sxs-lookup"><span data-stu-id="59610-104">This procedure focuses on the set up of a simple work template to be used when putting away received items.</span></span> <span data-ttu-id="59610-105">Darba veidnes nosaka norādījumu kopu, kas noliktavas darbiniekam tiek sniegti mobilajā ierīcē, pārvietojot krājumus no saņemšanas zonas.</span><span class="sxs-lookup"><span data-stu-id="59610-105">Work templates determine the set of instructions presented to the warehouse worker on a mobile device when moving items from the receiving area.</span></span> <span data-ttu-id="59610-106">Šo procedūru varat lietot, izmantojot datus, kas minēti demonstrācijas datu uzņēmumam USMF.</span><span class="sxs-lookup"><span data-stu-id="59610-106">You can use this procedure with the data mentioned in demo data company USMF.</span></span> <span data-ttu-id="59610-107">Pirms sākat darbu ar šo ceļvedi, izveidojiet darbu kopas ID.</span><span class="sxs-lookup"><span data-stu-id="59610-107">Before you start this guide, create a work pool ID.</span></span> <span data-ttu-id="59610-108">Šajā piemērā tiek izmantots darbu kopas ID ar nosaukumu Ienākošs.</span><span class="sxs-lookup"><span data-stu-id="59610-108">In this example, a work pool ID called in Inbound is used.</span></span> <span data-ttu-id="59610-109">Šī procedūra ir paredzēta noliktavas pārvaldniekam.</span><span class="sxs-lookup"><span data-stu-id="59610-109">This procedure is intended for the warehouse manager.</span></span>
 
