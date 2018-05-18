@@ -22,8 +22,9 @@
 ## [Pirkšanas pasūtījumu apstiprināšanas mobilā darbvieta](../supply-chain/procurement/purchase-order-mobile-workspace.md)
 
 # PVN
-## [PVN apskats](../financials/general-ledger/indirect-taxes-overview.md)
+## [Pārskats par PVN](../financials/general-ledger/indirect-taxes-overview.md)
 ## [PVN aprēķināšanas metodes laukā Izcelsme](../financials/general-ledger/sales-tax-calculation-methods-origin-field.md)
+## #### [PVN piešķire un pārrakstīšana](../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md)
 ## [Visas summas un intervāla aprēķināšanas opcijas PVN kodiem](../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md)
 
 # Zvanu centrs
@@ -165,8 +166,9 @@
 ## [Algoritmiskās mācīšanās produktu ieteikumu konfigurēšana](tasks/configure-machine-learning-product-recommendations.md)
 ## [Ierīces izveide un sasaiste](tasks/create-associate-device.md)
 ## [Aparatūras stacijas izveide un sasaiste](tasks/create-associate-hardware-station.md)
-## [Reģistru izveide un sasaiste](tasks/create-associate-registers.md)
-## [Mazumtirdzniecības veikala izraksta izveide, aprēķins un grāmatošana](tasks/create-calculate-post-statement-retail-store.md)
+## [Reģistru izveide un saistīšana](tasks/create-associate-registers.md)
+## [ Mazumtirdzniecības veikala izraksta izveide, aprēķins un grāmatošana](tasks/create-calculate-post-statement-retail-store.md)
+## [Izrakstu grāmatošanas uzlabojumi](statement-posting-EOD.md)
 ## [Zvanu centra pasūtījumu izveide](tasks/create-call-center-orders.md)
 ## [POS reģistru finanšu dimensiju izveide un dimensiju vērtību konfigurēšana reģistros](tasks/create-financial-dimensions-pos.md)
 ## [Retail kanālu finanšu dimensiju izveide un dimensiju vērtību konfigurēšana veikalos](tasks/create-financial-dimensions-retail-channels.md)
@@ -288,9 +290,8 @@
 ### [Pielāgotas kolonnas POS pievienošana transakciju režģim](dev-itpro/pos-custom-transaction-column.md)
 ### [POS API vai operācijas izsaukšana no POS paplašinājuma](dev-itpro/pos-api-extension.md)
 ### [Retail Modern POS trigeri un drukāšana](dev-itpro/pos-trigger-printing.md)
-### [Pielāgotas vadīklas pievienošana Retail Modern POS skatam, kurš nav balstīts uz ekrāna veidotāju](dev-itpro/pos-control-non-screen.md)
-### [Retail starpniekservera ģenerēšana POS un e-komercijai](dev-itpro/pos-generate-retail-proxy.md)
-### [Konfigurēšanas darbības Retail izstrādātājiem, kas strādā pie mākonī viesotiem izstrādes laukiem](dev-itpro/cloud-dev-box.md)
+### [Pielāgotas vadīklas pievienošana Retail Modern POS skatam, kura pamatā nav ekrāna veidotājs](dev-itpro/pos-control-non-screen.md)
+### [Konfigurēšanas darbības Retail izstrādātājiem, kas izstrādā mākonī viesotus izstrādes laukus](dev-itpro/cloud-dev-box.md)
 
 ## Commerce Runtime
 ### [Lojalitātes paplašinājums](dev-itpro/retail-sdk/loyalty-extension-sample.md)
