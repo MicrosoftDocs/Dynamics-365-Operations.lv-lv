@@ -10,8 +10,13 @@
 ## [Iepazīšanās kopijas ieguve](dev-tools/get-evaluation-copy.md)
 ## [Reģistrācija abonementam](dev-tools/sign-up-preview-subscription.md)
 ## [Izstrādes vides izvietošana un piekļuve tai](dev-tools/access-instances.md)
-## [Izstrādes sistēmas prasības](dev-tools/development-system-requirements.md)
-## Autoparka pārvaldības programmas paraugs
+### [Izstrādātāja VM konfigurēšana](dev-tools/configure-developer-vm.md)
+### [Jauna lietotāja izveide izstrādes iekārtā](dev-tools/enable-development-machine.md)
+### [Bieži uzdotie jautājumi par tādu virtuālo mašīnu izstrādi un būvēšanu, kas neļauj administratora piekļuvi](sysadmin/VMs-no-admin-access.md)
+### [Lokālās vides pārdēvēšana, lai iespējotu piekļuvi pakalpojumiem Visual Studio Team Services](migration-upgrade/vso-machine-renaming.md)
+### [Izstrādes sistēmas prasības](dev-tools/development-system-requirements.md)
+## [Versiju kontrole, metadatu meklēšana un navigācija](dev-tools/version-control-metadata-navigation.md)
+## Autoparka pārvaldības lietojumprogrammas paraugs
 ### [Autoparka pārvaldības lietojumprogrammas paraugs](dev-tools/fleet-management-sample.md)
 ### [Autoparka pārvaldības lietojumprogrammas parauga apskats](dev-tools/introduction-fleet-management-sample.md)
 ## Visual Studio rīki
@@ -22,16 +27,16 @@
 ### [Būvējuma operācijas](dev-tools/build-operations.md)
 ### [Koda redaktors](dev-tools/code-editor.md)
 ### [Modeļa un datu modeļa elementu izveide](dev-tools/create-data-model-elements.md)
-### [Jauna lietotāja izveide uz izstrādes iekārtas](dev-tools/enable-development-machine.md)
-### [Pielāgojuma analīzes pārskats](dev-tools/customization-analysis-report.md)
+#### [Vadlīniju nosaukumu veidošana](extensibility/NamingGuidelines.md)
+#### [Modeļu pielāgošanas atslēgšana un funkcionalitātes atzīšana par novecojušu](dev-tools/lock-models.md)
+### [Pielāgojumu analizētāja pārskats](dev-tools/customization-analysis-report.md)
 ### [Elementu veidotāji](dev-tools/element-designers.md)
-### [Elementu izmantošana](dev-tools/element-usage.md)
+### [Elementu lietojums](dev-tools/element-usage.md)
 ### [Modeļa eksports un imports](dev-tools/models-export-import.md)
 ### [Metadatu meklēšana rīkā Visual Studio](dev-tools/metadata-search-visual-studio.md)
 ### [Modeļi](dev-tools/models.md)
-### [Dynamics 365 for Finance and Operations projekti](dev-tools/projects.md)
+### [Dynamics 365 for Finance and Operations projekti](dev-tools/projects.md)
 ### [Visual Studio rīku pievienojumprogrammas](dev-tools/developer-tools-add-ins.md)
-### [Modeļu pielāgošanas atslēgšana un funkcionalitātes atzīšana par novecojušu](dev-tools/lock-models.md)
 ### [Visual Studio izstrādes rīku atjaunināšana](dev-tools/update-development-tools.md)
 ## X++ programmēšanas valoda
 ### [X++ un atkļūdošanas līdzekļi ](dev-tools/new-x-debugger-features.md)
@@ -98,13 +103,13 @@
 #### [Q klases](dev-ref/q-classes.md)
 #### [R klases](dev-ref/r-classes.md)
 #### [S klases](dev-ref/s-classes.md)
-#### [T klases](dev-ref/t-classes.md)
-#### [U klases](dev-ref/u-classes.md)
-#### [V klases](dev-ref/v-classes.md)
-#### [W klases](dev-ref/w-classes.md)
-#### [X klases](dev-ref/x-classes.md)
+#### [T klases](dev-ref/t-classes.md)
+#### [U klases](dev-ref/u-classes.md)
+#### [V klases](dev-ref/v-classes.md)
+#### [W klases](dev-ref/w-classes.md)
+#### [X klases](dev-ref/x-classes.md)
 
-## [Paplašināmības mājas lapa](extensibility/extensibility-home-page.md)
+## [Paplašināmība](extensibility/extensibility-home-page.md)
 ### Ievads un darba sākšana
 #### [Pieteikumu paplašināmības plāni](extensibility/extensibility-roadmap.md)
 #### [Paplašināmības pieprasījumi](extensibility/extensibility-requests.md) 
@@ -261,9 +266,9 @@
 ### [Dokumentācijas vai apmācības izveide, izmantojot uzdevuma reģistrētāju](user-interface/task-recorder-training-docs.md)
 
 # [Mobilā platforma](mobile-apps/platform/mobile-platform-home-page.md)
-## Darba sākšana
-### [Darba sākšana](mobile-apps/platform/mobile-platform-getting-started.md)
+## [Darba sākšana](mobile-apps/platform/mobile-platform-getting-started.md)
 ### [Arhitektūra](mobile-apps/platform/mobile-platform-architecture.md)
+### [Biznesa loģikas notikumu pārskats](mobile-apps/platform/business-logic-events-overview.md)
 ### [Lapu dizaina vadlīnijas](mobile-apps/platform/page-design-guidelines.md)
 ### [Darbību dizaina vadlīnijas](mobile-apps/platform/action-design-guidelines.md)
 ### [Veidlapu dizaina prasības](mobile-apps/platform/form-design-requirements.md)
@@ -409,7 +414,7 @@
 ### [Konfigurācijas datu veidnes](data-entities/configuration-data-templates.md)
 ### [Datu veidnes ar vairākām darblapām](data-entities/excel-template-multiple.md)
 ### [Elementa izmaiņu izsekošana](data-entities/entity-change-track.md)
-
+### [Konfigurācijas atslēgas un datu elementi](data-entities/config-key-entities.md)
 ### [Informācijas par standarta datu elementiem meklēšana](data-entities/data-entities-report.md)
 
 
@@ -418,6 +423,7 @@
 ### [Labākās prakses dokumentu importēšanai, izmantojot virsgrāmatas žurnāla elementu](data-entities/tips-tricks-import-general-journal-entity.md)
 
 ## Datu elementu izstrāde
+### [Datu elementu dizaina principi un labākās prakses](dev-tools/design-best-practices.md)
 ### [Jaunu datu elementu izveide](data-entities/build-consuming-data-entities.md)
 ### [Datu elementa rekvizīti](data-entities/behavioral-properties-data-entities.md)
 ### [Aprēķina kolonnu un virtuālo lauku izveide](data-entities/data-entity-computed-columns-virtual-fields.md)
@@ -428,6 +434,9 @@
 ### [Metadatu rekvizīti](data-entities/behavioral-properties-data-entities.md)
 ### [Pārbaudes, noklusējuma vērtības un nekartētie lauki](data-entities/validations-defaults-unmapped-fields.md)
 ### [Drošība un datu elementi](data-entities/security-data-entities.md)
+### [Tāda tikai lasāma elementa izveide, kas atklāj finanšu dimensijas](financial/read-only-entity-financial.md)
+ 
+
 
 ## [Savas datu bāzes izmantošana](analytics/export-entities-to-your-own-database.md)
 
@@ -435,16 +444,17 @@
 ## [Datu uzdevumu automatizācija](data-entities/data-task-automation.md)
 
 ## [Resursi atbildes sniegšanai uz VDAR datu pieprasījumu](gdpr/gdpr-home-page.md)
-### [Microsoft Dynamics 365 for Finance and Operations VDAR ceļvedis](gdpr/gdpr-auditing-sensitive-data.md)
+### [Microsoft Dynamics 365 for Finance and Operations VDAR ceļvedis](gdpr/gdpr-guide.md)
 ### [Līdzekļu klasifikācijas](gdpr/gdpr-asset-classification-values.md)
 ### [Personu meklēšanas pārskata izmantošana](gdpr/gdpr-person-search-report.md)
 ### [Personu meklēšanas pārskata paplašināšana](gdpr/gdpr-extend-person-search-report.md)
 ### [Pārvaldīt piekļuvi sensitīviem datiem](gdpr/gdpr-auditing-sensitive-data.md)
 ### [Atbildēt uz personas datu pieprasījumu, izmantojot programmu Talent](gdpr/respond-dsr-request-talent.md)
-### [Atbildēt uz personas datu pieprasījumu, izmantojot Microsoft Dynamics AX 2012](gdpr/gdpr-ax2012.md)
+### [Atbildes sniegšana uz personas datu pieprasījumu, izmantojot programmu Microsoft Dynamics AX 2012](gdpr/gdpr-ax2012.md)
 
+## [Datu pārbaudes darbvieta](user-interface/data-validation-workspace.md)
 
-# [Pastāvīgas piegādes sākumlapa](dev-tools/continuous-delivery-home-page.md)
+# [Pastāvīga piegāde](dev-tools/continuous-delivery-home-page.md)
 ## [Bieži uzdotie jautājumi par izstrādi un pastāvīgu piegādi](dev-tools/continuous-delivery-faq.md)
 ## [Testa iepakojumu izslēgšana no būvējuma izvades](dev-tools/exclude-test-packages.md)
 ## [Trešo pušu modeļu un izpildlaika pakotņu pārvaldība, izmantojot avota kontroli](dev-tools/manage-runtime-packages.md)
@@ -485,11 +495,12 @@
 ## [Segmentētas ievades vadīklas metadati](financial/segmented-entry-control-metadata-specification.md)
 ## [Segmentētas ievades vadīklas migrēšanas vadība](financial/segmented-entry-control-migration-guidance.md)
 ## [Segmentētas ievades vadīklas parm metodes](financial/segmented-entry-control-parm-method-specification.md)
-## [Pievienot iespēju pārlūkot finanšu dimensiju vērtības, izmantojot Microsoft Excel veidnes](financial/add-dimensions-excel-templates.md)
+## [Tādas iespējas pievienošana, kas ļauj pārlūkot finanšu dimensiju vērtības, izmantojot Microsoft Excel veidnes](financial/add-dimensions-excel-templates.md)
 ## [Maiņas kursu nodrošinātāju izveide](financial/create-exchange-rate-providers.md)
+## [Maiņas kursu nodrošinātāju izveide Microsoft Dynamics Finance and Operations versijā 8.0](financial/create-exchange-rate-8.md)
 
 # Piegādes ķēdes izstrāde
-## [Ganta izstrādes ceļvedis](user-interface/gantt-development-guide.md)
+## [Gantt izstrādes ceļvedis](user-interface/gantt-development-guide.md)
 ## [Jaunas transportēšanas pārvaldības programmas izveide](../supply-chain/transportation/create-new-transportation-management-engine.md)
 
 
@@ -578,8 +589,7 @@
 ### [Novecojušie līdzekļi](migration-upgrade/deprecated-features.md)
 
 # [Sistēmas administrēšana](sysadmin/system-administration-home-page.md)
-## [Bieži uzdotie jautājumi par platformas ikmēneša atjauninājumiem](sysadmin/faq-platform-monthly-updates.md)
-## [Bieži uzdotie jautājumi par virtuālajām mašīnām, kas neļauj administratora piekļuvi](sysadmin/VMs-no-admin-access.md)
+## [Platformas ikmēneša atjauninājumu BUJ](sysadmin/faq-platform-monthly-updates.md)
 ## [Saišu pievienošana organizācijas juridiskajiem nosacījumiem un paziņojumam par konfidencialitāti](sysadmin/legal-terms-privacy-statement.md)
 ## [Pārskats par licenču kodiem un konfigurācijas atslēgām](sysadmin/license-codes-configuration-keys-report.md)
 ## [Datu koplietošana uzņēmumos](sysadmin/cross-company-data-sharing.md)

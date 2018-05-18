@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> Šis līdzeklis ir pieejams tikai Dynamics 365 for Finance and Operations versijā 8.0 un atlasītās versijas lietotājiem, kuri izvēlējušies saņemt platformas atjauninājumus programmā Continuous Auto-update Advantage Program (CAAP). Plašāku informāciju par standarta laidieniem un atlasītās versijas laidieniem skatiet sadaļā [Standarta un atlasītās versijas platformas laidieni](../get-started/public-preview-releases.md).
+> Šis līdzeklis ir pieejams atjauninājumā Platform update 15 (7.0.4841) un jaunākās versijās. Šis atjauninājums pašlaik ir pieejams noteiktiem un būs pieejams visiem lietotājiem 2018. gada jūnijā.

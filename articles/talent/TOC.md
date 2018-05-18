@@ -5,7 +5,8 @@
 ## [Microsoft Dynamics 365 for Talent nodrošinājums](provisioning-talent.md)
 ## [Talent vides noņemšana](remove-talent-environment.md)
 ## [Microsoft Dynamics 365 for Talent moduļu programmu nodrošinājums](modular-app-tech-faq.md)
-## [Paplašināt programmas Talent funkcionalitāti](extend-talent-functionality.md)
+## [Programmas Talent funkcionalitātes paplašināšana](extend-talent-functionality.md)
+## [Dynamics 365 for Talent: Attract piekļuves priekšskatījuma līdzekļi](access-preview-feature.md)
 
 # [Personāla vadības stratēģijas izstrāde](departments-jobs-positions.md)
 ## [Darba komponentu iestatīšana](create-job.md)
