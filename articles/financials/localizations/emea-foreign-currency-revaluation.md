@@ -26,7 +26,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="currency-revaluation-for-bank-account-transactions"></a>Valūtas pārvērtēšana bankas kontu transakcijām
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ## <a name="revalue-foreign-currency-amounts-for-bank-account-transactions"></a>Ārvalstu valūtas summu pārvērtēšana bankas kontu transakcijām
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-inventory-counting-processes"></a>Krājumu inventarizācijas procesu definēšana
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā konfigurēt pamata krājumu inventarizācijas procesus, izveidojot inventarizācijas grupu un inventarizācijas žurnālu. Tajā arī parādīts, kā iespējot inventarizācijas politikas noliktavas un krājuma līmenī. Šos uzdevumus parasti veic noliktavas vadītājs. Tā paveikšanai ir nepieciešams, lai būtu izveidotas dažas izlaistas preces un noliktavas. Ja izmantojat demonstrācijas datu uzņēmumu, šo procedūru varat palaist USMF uzņēmumā, izmantojot jebkuru krājumā esošu vienumu.
 

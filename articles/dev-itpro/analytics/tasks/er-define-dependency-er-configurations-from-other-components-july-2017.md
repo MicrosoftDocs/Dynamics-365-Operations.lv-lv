@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="define-the-dependency-of-configurations-from-other-components"></a>Konfigurāciju atkarības no citiem komponentiem definēšana 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Lai veiktu šīs darbības, vispirms jāveic darbības uzdevuma ceļvedī "ER: pārvaldīt modeļa kartēšanas konfigurācijas", un jums ir nepieciešama piekļuve pakalpojumam Microsoft Dynamics Lifecycle Services (LCS).
 

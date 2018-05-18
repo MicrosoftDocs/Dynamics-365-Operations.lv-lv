@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="total-cost-allocation-method"></a>Kopējo izmaksu sadalījuma metode
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegti norādījumi par to, kā lietot kopējo izmaksu sadalījumu (TCA). Kopējo izmaksu sadalījums (Total cost allocation — TCA) ir tādu izmaksu aprēķināšanas metode, kas jāsadala starp partijas pasūtījuma galvenās formulas krājumu un formulā noteiktajiem līdzproduktiem.
 

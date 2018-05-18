@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="distributions-on-an-expense-report"></a>Sadales izdevumu pārskatā
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
  Kad izdevumu pārskatā ievadāt izdevumus, šos izdevumus varat sadalīt starp vairākiem projektiem, finanšu dimensijām vai kontiem savā organizācijā.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="import-configurations-to-generate-documents-with-application-data"></a>Konfigurāciju importēšana, lai izveidotu dokumentus ar programmas datiem
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Lai izpildītu šīs procedūras darbības, vispirms izpildiet procedūru “ER Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu”.
 

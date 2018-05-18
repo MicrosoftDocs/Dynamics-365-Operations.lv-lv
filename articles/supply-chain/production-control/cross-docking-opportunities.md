@@ -28,7 +28,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Pārkraušana sadales centrā no ražošanas pasūtījumiem uz izejošajiem sadales centriem
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā pārvaldīt materiāla pārkraušanu sadales centrā, kad ražošanas līnijā tiek reģistrēta materiāla pabeigšana un tas tiek pārvietots uz izejošās plūsmas transportēšanas sadales centru.
 

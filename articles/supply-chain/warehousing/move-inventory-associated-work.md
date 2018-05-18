@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="movement-of-inventory-with-associated-work-in-warehouse-management"></a>Krājumu kustība noliktavas pārvaldībā, ja ar tiem ir saistīts darbs
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Izmantojot krājumu kustību, varat izlemt, kuriem noliktavas darbiniekiem ir atļauts pārvietot rezervētos krājumus. Tas nodrošina elastību regulētās noliktavās, kur varat izlemt, ka kādam darbiniekam netiek ļauts izvēlēties jaunu izdošanas novietojumu jau izveidotam izdošanas darbam. Turklāt noliktavas pārvaldniekam tā ļauj kontrolēt to, kuras iespējas ir jāpiešķir dažiem mazāk pieredzējušiem darbiniekiem.
 

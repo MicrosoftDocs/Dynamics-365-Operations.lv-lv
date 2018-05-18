@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a>Periodisku brīva teksta rēķinu ģenerēšana un grāmatošana
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Periodiskie rēķini tiek izmantoti, lai klientiem regulāri izrakstītu rēķinus par vienādu summu. Šajā ierakstā tiek izmantots USMF demonstrācijas uzņēmums. Ieraksts ir paredzēts personai, kura ir atbildīga par debitoru parādu rēķinu pārvaldīšanu un apstrādi.
 

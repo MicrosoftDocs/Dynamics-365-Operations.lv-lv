@@ -26,7 +26,7 @@ ms.lasthandoff: 03/08/2018
 ---
 # <a name="extend-the-functionality-of-microsoft-dynamics-365-for-talent"></a>Microsoft Dynamics 365 for Talent funkcionalitātes paplašināšana
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Ja esat izveidojis kādas Microsoft PowerApps programmas, šīs programmas varat palaist no saitēm programmatūrā Microsoft Dynamics 365 for Talent. Lai iestatītu piekļuvi savām programmām, ir jāiestata noteikta informācija sadaļā Talent, kas atrodas konfigurācijas lapā, kuru varat atvērt no darbvietas **Sistēmas administrēšana**.
 

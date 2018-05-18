@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="confirm-sales-orders"></a>Pārdošanas pasūtījumu apstiprināšana
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā apstiprināt pārdošanas pasūtījumus. Tiek parādīts, kā apstiprināt vienu pasūtījumu un kā apstiprināt vairākus pasūtījumus uzreiz. Šos uzdevumus parasti veic pārdošanas pasūtījumu apstrādātājs. Šo procedūru varat lietot, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus. Pirms sākt, pārliecinieties, ka vienam debitoram ir vairāki atvērti pārdošanas pasūtījumi. Ja izmantojat USMF, varat izmantot debitoru US-027.
 

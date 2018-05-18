@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-assets-location-change-tracking-for-latvia"></a>Sekošana līdzi pamatlīdzekļu novietojuma maiņām Latvijai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par izmaiņu izsekošanas funkcionalitāti attiecībā uz pamatlīdzekļu novietojuma laukiem juridiskajām personām, kuru primārā adrese atrodas Latvijā.
 

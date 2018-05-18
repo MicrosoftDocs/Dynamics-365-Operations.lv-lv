@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="set-up-a-call-center-channel"></a>Zvanu centra kanāla iestatīšana
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Programmatūrā Microsoft Dynamics 365 for Retail uzņēmums var definēt vairākus zvanu centra kanālus. Zvanu centra kanāli tiek konfigurēti sadaļā **Retail** \> **Kanāli** \> **Zvanu centri** \> **Visi zvanu centri**, un tie tiek noteikti juridiskajai iestādei.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-subcontracted-work-cell-for-lean-manufacturing"></a>Lean manufacturing apakšuzņēmēja darba šūnas izveide
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Lai modelētu lean manufacturing apakšlīguma darbu, jāizveido darba šūna, kas saistīta ar kreditoru, kurš nodrošina darbu. Apakšuzņēmēja darba šūna ir saistīta ar kreditoru, izmantojot kreditora veida resursa saistību. Atskaņojot šo ierakstu USMF demonstrācijas uzņēmumā, varat atlasīt kreditora konta ID 1002 un vietu 1.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="call-center-catalogs"></a>Zvanu centra katalogi
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šajā rakstā ir aprakstīta zvanu centram specifiskā funkcionalitāte, kas tiek lietota katalogiem programmatūrā Microsoft Dynamics 365 for Retail.
 

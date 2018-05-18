@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-dimensions"></a>Finanšu dimensijas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir paskaidroti dažādie finanšu dimensiju tipi un izskaidrots, kā tie tiek iestatīti.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-in-a-purchase-order"></a>Mobilās ierīces izvēlnes vienuma iestatīšana pirkšanas pasūtījuma darba pabeigšanai
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir parādīts, kā iestatīt vienumu izvēlnē Mobilā ierīce. Šajā piemērā izvēlnes vienums tiek lietots, lai veiktu darbu ar tipu Pirkšanas pasūtījums. Ar izvēlnes vienumu saistītā darba klase nosaka, kurš darbs ir derīgs. Šo ceļvedi var izmantot demonstrācijas datu uzņēmumā USMF. Parasti šo procedūru izpilda noliktavas pārvaldnieks.
 

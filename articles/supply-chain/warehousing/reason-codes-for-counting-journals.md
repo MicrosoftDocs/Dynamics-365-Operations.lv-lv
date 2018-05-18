@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="reason-codes-for-inventory-counting"></a>Iemeslu kodi krājumu inventarizācijai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Iemeslu kodi jums ļauj analizēt inventarizācijas procesa rezultātus un visas šajā procesā radušās neatbildības. Varat norādīt iemeslu inventarizācijas veikšanai, piemēram, bojāta palete vai krājumu korekcija, kas ir balstīta uz krājumu paraugiem.
 

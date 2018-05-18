@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="establish-customer-method-of-payment"></a>Debitoru maksājuma metodes izveide
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Izveidojiet maksāšanas metodi debitoru maksājumiem. Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.
 

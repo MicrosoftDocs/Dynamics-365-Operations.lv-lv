@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="transfer-data-for-product-models"></a>Datu pārsūtīšana par preču modeļiem
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Lai eksportētu datus par preces konfigurācijas modeli, ir jābūt pieejamam vismaz vienam preču modelim. Šajā procedūrā tiek izmantots augstas kvalitātes skaļruņu modelis demonstrācijas uzņēmumā USMF, lai parādītu, kā eksportēt datus šim modelim.
 

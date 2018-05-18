@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="cash-and-bank-management-home-page"></a>Kases un bankas vadības sākumlapa
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Kases un bankas vadību varat izmantot, lai uzturētu juridiskās personas bankas kontus un ar šiem bankas kontiem saistītos finanšu instrumentus. 
 

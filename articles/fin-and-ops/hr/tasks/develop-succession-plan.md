@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="develop-a-succession-plan"></a>Pēctecības plāna izstrāde
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Kad jūsu organizācija palielinās un apsverat pēctecības plānošanu, iespējams, būs jāatrod persona, kurai ir līdzīgas prasmes kā kādai citai.  Prasmju kartēšana jums ļauj analizēt esošos darbiniekus un kandidātus, lai redzētu, ja šīs personas atbilst vērtīgu darbinieku prasmju kopai. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 

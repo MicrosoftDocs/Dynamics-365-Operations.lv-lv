@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="fixed-asset-depreciation-conventions"></a>Pamatlīdzekļu nolietojuma konvencijas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Nolietojuma konvencijas tiek izmantotas, lai noteiktu, kad un kā tiek aprēķināts nolietojums gan par gadu, kad pamatlīdzeklis ir iegādāts, gan par gadu, kad pamatlīdzeklis tiek izslēgts.
 

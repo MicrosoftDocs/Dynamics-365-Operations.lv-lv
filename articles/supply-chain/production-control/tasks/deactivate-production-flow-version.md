@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="deactivate-a-production-flow-version"></a>Ražošanas plūsmas versijas deaktivizēšana
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Kad aktīva ražošanas plūsmas versija vairs nav vajadzīga, to var deaktivizēt. Šo opciju var izmantot tikai, ja visi kanban nosacījumi un darbības ir beigušās, un netiks aktivizētas atkārtoti. Ņemiet vērā, ka visu kanban noteikumu beigu datumi, kas attiecas uz šo ražošanas plūsmas versiju, tiks atjaunināti ar pašreizējo datumu un laiku. 
 

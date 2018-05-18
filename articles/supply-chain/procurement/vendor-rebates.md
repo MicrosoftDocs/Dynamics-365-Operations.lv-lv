@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="vendor-rebates"></a>Kreditora atlaides
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Kreditoru atlaides uzņēmumiem palīdz labāk pārvaldīt savu piegādātāju atlaižu programmas, automatizējot nopelnīto atlaižu administrēšanai, izsekošanai un pieprasīšanai nepieciešamos uzdevumus.
 

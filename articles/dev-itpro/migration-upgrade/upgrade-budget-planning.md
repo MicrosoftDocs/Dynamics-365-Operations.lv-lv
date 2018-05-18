@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="upgrade-budget-planning"></a>Jaunināt budžeta plānošanu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Attiecībā uz budžeta plānošanu starp versiju Microsoft Dynamics AX 2012 un versiju Microsoft Dynamics 365 for Finance and Operations pastāv būtiskas atšķirības. Daži līdzekļi netika jaunināti, tādēļ tiem ir nepieciešama pārkonfigurēšana. Šajā tēmā ir skaidrots, kas ir jāpārkonfigurē, kā arī ir aprakstīti jaunie līdzekļi, kas ir jāņem vērā pēc jaunināšanas.  
 

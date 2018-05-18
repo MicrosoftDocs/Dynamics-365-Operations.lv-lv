@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Ārvalstu valūtas pārvērtēšana Virsgrāmatai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegts pārskats par šādiem ārvalstu valūtas pārvērtēšanas procesiem Virsgrāmatā: iestatīšana, procesa izpilde, procesa aprēķini un pārvērtēšanas transakciju anulēšana nepieciešamības gadījumā. 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-forecasts-and-budgets"></a>Projektu prognozes un budžeti
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations nodrošina divus veidus, kā pārvaldīt un kontrolēt projektus: projektu prognozes un projektu budžetus. 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="one-voucher"></a>Viens dokuments
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 >  Šī funkcionalitāte būs pieejama 2018. gada pavasara laidiena Dynamics 365 for Finance and Operations versijā 8.0.   

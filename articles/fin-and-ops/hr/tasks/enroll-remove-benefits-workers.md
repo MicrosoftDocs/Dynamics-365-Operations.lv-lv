@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a>Atvieglojumu reģistrēšana un noņemšana nodarbinātajiem
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā vienu darbinieku var reģistrēt vienam vai vairākiem atvieglojumiem un kā atvieglojumam var reģistrēt vairākus darbiniekus. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="safety-stock-fulfillment-for-items"></a>Krājumu drošības rezerves izpilde
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Krājumu drošības rezerve norāda papildu daudzumu kādam krājumam, kāds tiek glabāts krājumos, lai samazinātu šī krājuma aptrūkšanās risku. Krājumu drošības rezerve tiek izmantota kā drošības spilvens gadījumā, ja tiek saņemti pārdošanas pasūtījumi, bet piegādātājs nespēj nodrošināt papildu krājumus, lai izpildītu debitora pieprasīto nosūtīšanas datumu. Kad krājumu drošības rezerve tiek izmantota, lai izpildītu kādu pārdošanas pasūtījumu, krājumu drošības rezerve tiek samazināta. Varat izmantot vispārējo plānošanu, lai krājumu daudzumu automātiski atgrieztu drošības līmenī.    
 

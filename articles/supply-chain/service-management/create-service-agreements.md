@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="create-service-agreements"></a>Pakalpojumu līgumu izveide
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā lietot līdzekļus moduļos Pakalpojumu pārvaldība un Projektu pārvaldība un uzskaite, lai izveidotu pakalpojumu līgumus.
 

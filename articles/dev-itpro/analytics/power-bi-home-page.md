@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 ---
 
 # <a name="power-bi-content"></a>Power BI saturs
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir uzskaitīts pieejamais Microsoft Power BI saturs un norādīti resursi, kur varat uzzināt vairāk par to.
 

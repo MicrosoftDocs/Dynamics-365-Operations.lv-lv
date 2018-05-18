@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-and-associate-registers"></a> Reģistru izveide un sasaiste
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir parādīts, kā izveidot pārdošanas punkta (POS) reģistru. Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma USRT dati.
 

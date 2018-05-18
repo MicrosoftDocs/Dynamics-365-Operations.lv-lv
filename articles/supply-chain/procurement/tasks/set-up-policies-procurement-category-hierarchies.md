@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Ierobežojumu iestatīšana sagādes kategoriju hierarhijai
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Izmantojiet šo procedūru, lai iestatītu nosacījumus preču pasūtīšanai kategorijā. Kārtulas ir definētas noteiktai pirkšanas politikai. Kategorijas piekļuves kārtulas kontrolē to, kurām sagādes kategorijām darbinieki var piekļūt, kad viņi veido pieprasījumu. Kad tiek veidots pieprasījums, piemērojamo pirkšanas politiku un kategoriju piekļuves kārtulu nosaka juridiskā persona un darbības struktūrvienība, kurai šis darbinieks pieder. Šo procedūru varat lietot ar demonstrācijas datu uzņēmumu USMF. Šo uzdevumu parasti veic pirkšanas vadītājs.
 

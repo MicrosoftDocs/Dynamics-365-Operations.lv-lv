@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images"></a>Konfigurāciju noformēšana, lai veidotu pārskatus Microsoft Office formātos ar iegultajiem attēliem
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Lai izpildītu šīs procedūras darbības, vispirms izpildiet procedūru ER konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu. Šajā procedūrā izskaidrots, kā veidot elektronisko pārskatu (ER) konfigurācijas, lai ģenerētu Microsoft Excel vai Word dokumentu, kas satur iegultus attēlus. Šajā procedūrā izveidosit nepieciešamās ER konfigurācijas parauga uzņēmumam Litware, Inc. Šīs darbības var izpildīt, izmantojot USMF datu kopu. Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma. Pirms sākat, lejupielādējiet un saglabājiet failus, kas uzskaitīti palīdzības tēmā [Attēlu un formu iegulšana biznesa dokumentos, kuri tiek ģenerēti, izmantojot elektronisko pārskatu veidošanas rīku](../electronic-reporting-embed-images-shapes.md). Šie faili ir: Model for cheques.xml, Cheques printing format.xml, Company logo.png, Signature image.png, Signature image 2.png un Cheque template Word.docx.
 

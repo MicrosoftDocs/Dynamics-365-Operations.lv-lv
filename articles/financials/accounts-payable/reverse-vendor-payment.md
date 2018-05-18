@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reverse-a-vendor-payment"></a>Kreditoru maksājumu atcelšana
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā aprakstītas maksājuma atcelšanas, dzēšanas, anulēšanas un noraidīšanas atšķirības. Papildus šeit ir aprakstītas divas kreditora čeka atcelšanas metodes. 
 

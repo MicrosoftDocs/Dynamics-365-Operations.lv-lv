@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a>Preču no saņēmēja noliktavas pārkraušana sadales centrā uz veikaliem
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā izveidot un apstrādāt pārkraušanu sadales centrā, lai izplatītu preces no pirkšanas pasūtījuma saņemšanas vietas uz vienu vai vairākiem veikaliem. Lietotājs var norādīt vairākas konfigurācijas, un sistēma ieteiks, kā sadalīt preces vai manuāli ievadīt veikalu, kur preces tiek sadalītas un kādu daudzumu sadalīt katrā veikalā. Procedūras laikā netiek iestatīti dati, ko var izmantot pārkraušanai sadales centrā, piemēram, papildināšanas kārtulas, organizācijas hierarhijas un preču svari veikalam. Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.
 

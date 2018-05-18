@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="work-breakdown-structures"></a>Darba sadalījuma struktūras
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Darba sadalījuma struktūra (Work Breakdown Structure — WBS) ir projekta ietvaros veicamā darba apraksts. Tā ir uzdevumu hierarhija, kas norāda projekta grupas izpratni par darba saturu un katra komponenta vai uzdevuma lielumu, izmaksām un ilgumu. WBS ir trīs galvenie mērķi:
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-sales-orders"></a>izveidot pārdošanas pasūtījumus;
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir parādīts, kā izveidot pārdošanas pasūtījumu. Šo procedūru varat lietot ar demonstrācijas datu uzņēmumu USMF. Pārdošanas pasūtījumus parasti izveido pārdošanas pasūtījumu apstrādātājs. 
 

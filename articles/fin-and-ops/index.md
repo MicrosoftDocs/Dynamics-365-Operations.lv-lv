@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 
 # <a name="introduction-to-microsoft-dynamics-365-for-finance-and-operations"></a>Iepazīstināšana ar Microsoft Dynamics 365 for Finance and Operations
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Uzziniet, kā programmu Microsoft Dynamics 365 for Finance and Operations izmantot sava uzņēmuma labā, izmantojot tālāk norādītos resursus, lai atrastu lietotājiem, izstrādātājiem un IT speciālistiem paredzētu lielisku saturu. 
 

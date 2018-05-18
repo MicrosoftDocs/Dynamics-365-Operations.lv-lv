@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="position-forecasting"></a>Pozīciju prognozēšana
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Izdevumi, kas ir saistīti ar darbiniekiem, bieži veido lielu daļu no organizācijas izmaksām. Pozīciju prognozēšana ļauj jums plānot šos izdevumus un iekļaut tos budžetu plānošanā.
 

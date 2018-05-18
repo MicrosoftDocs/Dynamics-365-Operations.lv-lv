@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-loyalty-programs"></a> Lojalitātes programmu definēšana
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā lojalitātes programmai iestatīt divus lojalitātes programmas līmeņus. Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.
 

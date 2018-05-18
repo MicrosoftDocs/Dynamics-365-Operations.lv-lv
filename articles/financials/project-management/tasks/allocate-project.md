@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>Piešķirt projekta budžetu vai budžeta pārskatījumu periodiem
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
  Pēc projekta budžeta vai projekta budžeta pārskatījuma ievades un pirms budžeta vai pārskatījuma iesniegšanas apstiprināšanai varat piešķirt summas dažādiem periodiem. Ja budžets vai budžeta pārskatījums tiek noraidīts, varat piešķirt summas pirms atkārtotas iesniegšanas. 
 

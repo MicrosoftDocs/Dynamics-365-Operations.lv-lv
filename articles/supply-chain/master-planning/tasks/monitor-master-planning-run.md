@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="monitor-a-master-planning-run"></a>Vispārējās plānošanas izpildes pārraudzība
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ražošanas plānotājs vēlas redzēt, vai tiek īstenota vispārējās plānošanas izpilde. Lai izpildītu šo procedūru, izmantojiet demonstrācijas datu uzņēmumu USMF.
 

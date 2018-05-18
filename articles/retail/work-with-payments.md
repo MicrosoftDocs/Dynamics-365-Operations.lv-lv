@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="payment-methods-in-a-call-center"></a>Maksāšanas metodes zvanu centrā
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Programmatūrā Microsoft Dynamics 365 for Retail zvanu centra kanāla konfigurācijā ietilpst iestatījums ar nosaukumu **Iespējot pasūtījuma pabeigšanu**. Šis iestatījums palīdz garantēt, ka visi pasūtījumi, ko kanāla lietotāji izveido, tiek izlaisti uz pasūtījuma apstrādi tikai tad, ja tiem ir priekšapmaksa vai iepriekš apstiprināts maksājums, kas ietilpst apstiprināto pielaižu robežās. Ja iestatījums **Iespējot pasūtījuma pabeigšanu** ir ieslēgts, zvanu centra lietotāji var ievadīt maksājumus attiecībā uz debitoru pārdošanas pasūtījumiem, izmantojot zvanu centra maksājumu apstrādes līdzekļus. Ja šis iestatījums ir izslēgts, zvanu centra lietotāji nevar izmantot zvanu centra maksājumu apstrādes līdzekļus, bet viņi joprojām var lietot priekšapmaksas attiecībā uz pārdošanas pasūtījumiem, izmantojot standarta funkcionalitāti Debitoru parādi.
 

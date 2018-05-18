@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-element-dimensions"></a>Izmaksu elementu dimensijas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Kā viens no pamatelementiem Izmaksu uzskaitē, izmaksu elementa dimensijas tiek izmantotas, lai sadalītu kategorijās un izsekotu, uz kurieni plūst izmaksas. 
 

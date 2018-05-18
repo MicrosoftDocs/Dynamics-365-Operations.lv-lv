@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-cost-accounting-ledger"></a>Izmaksu uzskaites virsgrāmatas izveide
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Izmaksu uzskaites virsgrāmata atspoguļo vispārējo pārskata vienību. To definē izmaksu elementa dimensija, statistiskā dimensija, finanšu kalendārs un valūta. Tā ir neatkarīga juridisko personu jēdzienā. Juridiskā persona un tās dati var būt saistīti ar daudzām izmaksu uzskaites virsgrāmatām. Šajā ierakstā tiek izmantots USP2 demonstrācijas datu uzņēmums.
 

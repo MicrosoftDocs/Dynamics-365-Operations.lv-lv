@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-the-global-address-book"></a>Globālās adrešu grāmatas konfigurēšana
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Izmantojiet šo procedūru, lai iestatītu noklusētās vērtības un drošības politikas globālajai adrešu grāmatai. 
 

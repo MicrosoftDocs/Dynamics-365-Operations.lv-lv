@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>Automātiskās kravas saskaņošanas iestatīšana
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts kā iestatīt datus automātiskai kravas saskaņošanai. To parasti veic noliktavas pārvaldnieks. Šo procedūru varat lietot ar demonstrācijas datu uzņēmumu USMF.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="company-directory-mobile-workspace"></a>Mobilā darbvieta Uzņēmuma direktorijs
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par mobilo darbvietu **Uzņēmuma direktorijs**. Šī darbvieta sniedz lietotājiem iespēju skatīt informāciju par citiem organizācijas darbiniekiem un ar viņiem sazināties.
 

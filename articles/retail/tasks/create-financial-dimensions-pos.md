@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a> POS reģistru finanšu dimensiju izveide un dimensiju vērtību konfigurēšana reģistros
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir aprakstīts, kā izveidot finanšu dimensijas pārdošanas punkta (POS) reģistriem un kā reģistros konfigurēt finanšu dimensijas vērtības. Šajā procedūrā nav aprakstītas citas saistītās darbības, piemēram, dimensiju kopu un kontu struktūru izveide. Informāciju par šiem uzdevumiem var skatīt citās tēmās. Šajā piemērā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.
 

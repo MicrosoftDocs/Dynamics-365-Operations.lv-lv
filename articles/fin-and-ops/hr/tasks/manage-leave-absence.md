@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="manage-leave-of-absence"></a>Atvaļinājuma pārvaldība
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir aprakstīts, kā izveidot darbinieku atvaļinājuma ierakstus. Atvaļinājumu laiku varat izsekot tādiem iemesliem, kas ietver medicīniskās, izglītības vai vecāku aktivitātes. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 

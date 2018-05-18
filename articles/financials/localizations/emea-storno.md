@@ -26,7 +26,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="storno-accounting"></a>Storno uzskaite
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Storno uzskaite ir prakse, kurā tiek izmantoti negatīvie skaitļi, lai apgrieztu sākotnējos žurnāla konta ierakstus.
 

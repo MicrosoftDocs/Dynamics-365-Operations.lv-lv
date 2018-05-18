@@ -25,7 +25,7 @@ ms.lasthandoff: 02/13/2018
 
 ---
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 # <a name="product-confirmation-for-cluster-picking"></a>Preces apstiprināšana klastera izdošanai
 Klastera izdošanas sniedz iespēju vienlaikus izdot vairāku pasūtījumu krājumus. Ja tiek lietota klasteru izdošana, ir svarīgi veikt krājumu apstiprināšanu, lai pārbaudītu klasteriem pievienotos krājumus. Varat pārbaudīt klastera izdošanā ietvertos krājumus klastera izdošanas procesa laikā.

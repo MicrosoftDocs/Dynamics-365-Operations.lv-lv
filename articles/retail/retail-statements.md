@@ -29,7 +29,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="retail-statements"></a>Mazumtirdzniecības pārskati
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Programmā Microsoft Dynamics 365 for Retail pārskatu grāmatošanas procesu izmanto, lai uzskaitītu transakcijas, kas notiek pārdošanas punktā Cloud Point of Sale (POS) vai Modern POS (MPOS). Pārskatu grāmatošanas process izmanto sadales grafiku, lai POS transakciju kopu ievilktu Headquarters (HQ) klientā. Parametrus, kas ir definēti lapās **Mazumtirdzniecības parametri** un **Veikali**, izmanto, lai atlasītu atsevišķos pārskatos ievilktās transakcijas.  
 

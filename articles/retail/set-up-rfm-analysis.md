@@ -29,7 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="set-up-rfm-analysis"></a>RFM analīzes iestatīšana
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šajā tēmā skaidrots, kā iestatīt nesenības, biežuma un naudas (RFM) analīzi jūsu debitoriem.
 

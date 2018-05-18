@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Piešķirt laiku darbu komplektā iekļautiem darbiem
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Lapā Ražošanas izpilde var veikt darbu komplektēšanu. Pēc tam lapā Darbu saraksts var sākt vairākus darbus vienlaicīgi.
 

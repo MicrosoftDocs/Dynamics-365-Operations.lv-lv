@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-product"></a>Preces izveide
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā mazumtirdzniecības preču hierarhijā izveidot jaunu preci. Šī uzdevuma izveidē tika izmantoti demonstrācijas uzņēmuma “USRT” dati, un uzdevums ir paredzēts preču pārvaldniekam un preces noformētājam.
 

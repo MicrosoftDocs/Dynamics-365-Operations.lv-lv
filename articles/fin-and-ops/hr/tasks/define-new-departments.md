@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="define-new-departments"></a>Jaunu nodaļu definēšana
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Nodaļas ir pārvaldības struktūrvienības, kas pārstāv uzņēmuma darbības jomu, piemēram, pārdošanu vai uzskaiti. Daudziem uzņēmumiem ir organizacionālā hierarhija, kur ir parādītas dažādas uzņēmuma nodaļas. Šajā procedūrā parādīts, kā izveidot nodaļas un pievienot tās uzņēmuma nodaļu hierarhijai. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 

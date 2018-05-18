@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="removed-or-deprecated-features"></a>Noņemtie vai novecojušie līdzekļi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīti līdzekļi, kas programmā Dynamics 365 for Finance and Operations ir noņemti vai novecojuši.
 

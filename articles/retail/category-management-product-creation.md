@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="manage-retail-product-categories-and-products"></a>Mazumtirdzniecības preču kategoriju un preču pārvaldība
 
-[!INCLUDE [banner](./includes/banner.md)]
+[!include [banner](./includes/banner.md)]
 
 Šajā tēmā ir aprakstīts uzlabotais veids, kā risinājumā Microsoft Dynamics 365 for Retail pārvaldīt mazumtirdzniecības preču kategorijas un preces. Šie uzlabojumi preču pārvaldniekiem ļauj skatīt preces rekvizītu pamata struktūru, kas ir kopīga mazumtirdzniecības preču hierarhijai un izlaisto preču detalizētajai informācijai.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Iestatīt PVN pārskatu kodus
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 PVN pārskatu kodi attiecas uz lauka numuru PVN pārskatā. Tos izmanto valstij atbilstošu pārskatu izkārtojumos un PVN maksājumu pārskatā pēc kodiem, lai drukātu PVN summas apmaksas periodā, summējot pēc pārskata koda. Kad esat izveidojis PVN pārskata kodus, varat uz tiem atsaukties Pārskatu iestatīšanas kopsavilkuma cilnē PVN koda lapā. 
 

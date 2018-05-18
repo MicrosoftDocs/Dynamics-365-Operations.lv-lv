@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="acquire-assets-through-procurement"></a>Iegūt līdzekļus, izmantojot sagādi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā iestatīt lauku Pamatlīdzekļi un Kreditori integrāciju, lai automātiski izveidotu pamatlīdzekļus no pirkšanas pasūtījumiem vai kreditora rēķiniem vai automātiski grāmatotu pamatlīdzekļu iegādes un iegādes korekcijas transakcijas.
 

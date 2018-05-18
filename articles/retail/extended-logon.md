@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>Iestatīt paplašinātās pieteikšanās funkcionalitāti pārdošanas punktam Cloud POS un MPOS
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šajā tēmā ir aprakstītas jums pieejamās opcijas paplašinātās pieteikšanās iestatīšanai attiecībā uz mākoņa POS un Retail Modern POS (MPOS).
 

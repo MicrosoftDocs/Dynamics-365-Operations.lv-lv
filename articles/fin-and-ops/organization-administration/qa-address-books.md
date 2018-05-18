@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="address-books-faq"></a>Bieži uzdotie jautājumi par adrešu grāmatām
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <a name="how-do-i-check-for-duplicate-records"></a>Kā pārbaudīt, vai nav ierakstu dublikātu?
 -------------------------------------

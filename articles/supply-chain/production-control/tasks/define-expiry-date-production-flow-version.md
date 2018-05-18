@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-an-expiry-date-for-a-production-flow-version"></a>Derīguma termiņa definēšana ražošanas plūsmas versijai
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Lai beigtu ražošanas plūsmas versijas derīgumu un apstrādi noteiktā datumā, vai, lai plānotu aktīvas versijas nomaiņu uz jaunu versiju, jūs varat iestatīt versijas beigu datumu. Nav nepieciešams deaktivizēt versiju.
 

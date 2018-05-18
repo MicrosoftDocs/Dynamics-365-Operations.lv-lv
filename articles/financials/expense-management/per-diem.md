@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="per-diem-rules"></a>Dienasnaudas noteikumi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 *Dienasnauda* ir maksājums, kas tiek maksāts darbiniekam, kurš dodas komandējumā. Izdevumu pārvaldībā varat izveidot dienasnaudas kārtulas dažādām komandējuma situācijām. Dienasnaudas likmes var būt balstītas uz komandējuma gada laiku, komandējuma vietu vai uz abiem. Kad izveidojat dienasnaudas kārtulu, varat norādīt, ka tiek ieturēts procentuāls daudzums no dienas naudas, ja darbinieks saņem brīvpusdienas vai bezmaksas pakalpojumus. Varat arī noteikt pieļaujamo minimālo un maksimālo stundu skaitu attiecībā uz dienasnaudas likmi, ko piemērot darbiniekam, kas dodas komandējumā.
 

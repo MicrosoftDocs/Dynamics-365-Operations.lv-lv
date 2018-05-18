@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="vat-reconciliation-report"></a>PVN saskaņošanas pārskats
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā izveidot nodokļu saskaņošanas pārskatu, kas ir pieejams Islandes un Norvēģijas juridiskajām personām. Šis uzdevums ir izveidots, izmantojot demonstrācijas uzņēmuma DEMF datus, norādot Norvēģiju kā juridiskās personas primārās adreses valsti/reģionu.
 

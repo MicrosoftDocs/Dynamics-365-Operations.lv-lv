@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-close"></a>Krājumu slēgšana
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Izsniegšanas transakciju nosegšanas ar saņemšanas transakcijām procesa gaitā var arī noteikt, ka ir jāatjaunina galvenā virsgrāmata, lai varētu redzēt veiktās korekcijas.
 

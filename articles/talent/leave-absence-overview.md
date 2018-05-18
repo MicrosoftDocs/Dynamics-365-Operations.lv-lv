@@ -27,7 +27,7 @@ ms.lasthandoff: 03/08/2018
 ---
 # <a name="leave-and-absence-management-overview"></a>Atvaļinājumu un prombūtnes laika pārvaldības pārskats
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Modulis **Atvaļinājumu un prombūtnes laika pārvaldība** piedāvā elastīgu struktūru prombūtnes laika pārvaldības procesa definēšanai. Var izveidot atvaļinājumu un prombūtnes plānus, lai noteiktu, kā darbinieki uzkrāj vai kā darbiniekiem tiek piešķirts prombūtnes laiks. Kad visi darbinieki ir reģistrēti plānā, viņi var iesniegt prombūtnes laika pieprasījumus, ko apstiprina vadītāji. Atvaļinājuma laika izsekošana sniedz pirmā līmeņa vadītājiem un personāla vadības (HR) vadītājiem informāciju par to, kurš darbinieks ir prombūtnē un cik daudz prombūtnes laika katram darbiniekam joprojām ir pieejams.  
 

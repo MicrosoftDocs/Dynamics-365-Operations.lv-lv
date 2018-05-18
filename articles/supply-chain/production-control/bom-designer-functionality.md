@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="bom-designer-functionality"></a>MK veidotāja funkcionalitāte
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā jūs varat izmantot lapu MK koka struktūras veidotājs, lai izstrādātu materiālu komplektu (MK) koka struktūras un strādātu ar tām. Varat noklikšķināt uz Iestatīšana, lai atlasītu dažādas konfigurācijas, un norādīt, kāda informācija tiek rādīta koka rindās.
 

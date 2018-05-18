@@ -25,7 +25,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="cfo-overview-power-bi-content"></a>Power BI satura pakotne CFO pārskats
 
-[!INCLUDE [banner](../includes/banner.md)] 
+[!include [banner](../includes/banner.md)] 
 
 Šajā tēmā ir aprakstīta Power BI satura pakotne **CFO pārskats**. Šis Power BI saturs attiecas uz Microsoft Dynamics 365 for Finance and Operations versijas 7.2 lietotājiem. Ja izmantojat versiju 7.3 vai jaunāku versiju, lūdzu, skatiet šeit: [Finanšu ieskati](financial-insights.md).
 

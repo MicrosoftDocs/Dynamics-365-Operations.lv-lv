@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a>Bankas iestādes līguma izveide akreditīvam
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā uzdevumā ir parādīta bankas iestādes līguma izveidošana, lai apstrādātu akreditīvu. Pirms šī uzdevuma veikšanas ir jāizveido bankas iestādes un grāmatošanas metodes.  Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums “USMF”.  
 

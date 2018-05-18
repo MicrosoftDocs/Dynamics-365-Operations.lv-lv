@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mixed-license-plate-receiving"></a>Jauktas noliktavas vienības saņemšana
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Jauktas noliktavas vienības saņemšana jums ļauj izveidot noliktavas vienību, kas sastāv no vairākiem krājumiem, pirms reģistrējat un izveidojat izvietošanas darbu. 
 

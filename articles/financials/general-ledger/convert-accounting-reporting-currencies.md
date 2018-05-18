@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="convert-accounting-or-reporting-currencies"></a>Konvertēt grāmatvedības vai pārskatu valūtas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Uzņēmumam, kam ir jānomaina uzskaites valūta vai pārskata valūta, ir divas iespējas. Pirmā iespēja ir izveidot jaunu uzņēmumu un sākt visu no jauna. Otra iespēja ir veikt uzskaites un pārskata valūtas konvertēšanu. Tas ir ļoti ilglaicīgs process, kas maina katru sistēmas darbību. Pirms procesa sākšanas ir nepieciešami arī daži iestatījumi.
 

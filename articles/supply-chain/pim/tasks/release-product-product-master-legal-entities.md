@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a>Preces/preces šablona izlaišana juridiskajām personām
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā izlaist preci vai preces šablonu vienai vai vairākām juridiskām personām. Šī uzdevuma izveidē tika izmantoti demonstrācijas uzņēmuma “USRT” dati, un uzdevums ir paredzēts preču pārvaldniekam un preces noformētājam.
 

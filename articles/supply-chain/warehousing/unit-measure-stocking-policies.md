@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="unit-of-measure-and-stocking-policies"></a>Mērvienību un uzkrājumu politikas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā raksta ir aprakstīts, kā noliktavas procesos izmantot noklusējuma vienības, kā arī vienību secību un pārveidošanu.
 

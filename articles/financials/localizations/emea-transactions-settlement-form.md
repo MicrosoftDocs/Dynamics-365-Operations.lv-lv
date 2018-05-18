@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-transactions-on-settlement-for-eastern-europe"></a>Skatīt nosegšanas transakcijas Austrumeiropai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par lapu Nosegšanas transakcijas debitoriem un kreditoriem.
 

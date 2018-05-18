@@ -27,7 +27,7 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="compensation-and-benefits-power-bi-content"></a>Power BI saturs Atlīdzība un atvieglojumi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīta Dynamics 365 for Finance and Operations Power BI satura pakotne Atlīdzība un atvieglojumi. 
 

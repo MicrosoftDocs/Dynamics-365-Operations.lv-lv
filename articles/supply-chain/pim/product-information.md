@@ -29,9 +29,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="product-information-overview"></a>Preču informācijas pārskats
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Šajā tēmā ir sniegta informācija par preču informācijas pārvaldību. Preču informācijas pārvaldība darbojas ar kopīgoto preču definīciju, kategoriju un identifikatoriem visās juridiskajās personās, kā arī ar noteiktām preču konfigurācijām, lai ietilptu biznesa procesos. 
 

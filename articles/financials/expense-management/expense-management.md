@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="expense-management"></a>Izmaksu pārvaldība
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Izmantojiet līdzekli Izdevumu pārvaldība, lai izveidotu integrētu darbplūsmu, kurā varat glabāt informāciju par maksājuma metodēm, importēt kredītkaršu transakcijas un sekot līdzi naudai, ko tērē darbinieki, kad izraisa zaudējumus jūsu biznesam. Jūs varat arī definēt izdevumu politikas un automatizēt ceļa izdevumu atmaksāšanu. 
 

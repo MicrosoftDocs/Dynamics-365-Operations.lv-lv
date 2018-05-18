@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="direct-deliveries"></a>Tiešās piegādes
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta informācija par tiešajām piegādēm. Tiešās piegādes ir tādas piegādes, kas no kreditora tiek nosūtītas tieši debitoram.
 

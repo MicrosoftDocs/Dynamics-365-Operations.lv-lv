@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="job-scheduling"></a>Darbu plānošana
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta informācija par darbu plānošanu, kas ir daudz detalizētāka plānošanas forma nekā operāciju plānošana. Darbu plānošanu var izmantot, lai plānotu atsevišķus darbus vai veikalu pasūtījumus un kontrolētu ražošanas vidi.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 10/27/2017
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a>Papildu kārtulu struktūru izveide un piešķiršana
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā uzdevuma ceļvedī tiek aprakstīts, kā izveidot un piešķirt detalizētās kārtulas struktūru konta struktūrai. Šajā ceļvedī tiek izmantots demonstrācijas uzņēmums USMF.
 

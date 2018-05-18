@@ -24,7 +24,7 @@ ms.lasthandoff: 11/14/2017
 ---
 # <a name="create-product-model-components"></a>Preču modeļa komponentu izveide
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ierobežojumam atbilstošos preces konfigurācijas modeļos komponenti tiek izmantoti kā veidošanas bloki, lai noteiktu preces modeļa struktūru. Komponenti ir jāizveido, pirms iespējams izveidot preču modeli. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 

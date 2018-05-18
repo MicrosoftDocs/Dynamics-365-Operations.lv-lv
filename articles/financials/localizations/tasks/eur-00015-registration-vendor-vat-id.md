@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="register-a-vendor-vat-id"></a>Kreditora PVN ID reģistrēšana
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā pievienot PVN reģistrācijas ID un nodokli, izņemot numuru kreditora kontam. Šis process ir līdzīgs juridiskām personām un debitoriem. 
 

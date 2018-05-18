@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-bonus-depreciation"></a>Prēmijas nolietojuma iestatīšana
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā izveidot speciālā nolietojuma atļauto daudzumu, un sasaistīt to ar pamatlīdzekļu grāmatu. Tas izmanto grāmatveža lomu un demonstrācijas datus USMF juridiskajai personai.
 

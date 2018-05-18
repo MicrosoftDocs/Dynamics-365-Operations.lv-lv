@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-a-performance-review"></a>Veiktspējas pārskata izveide
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šī procedūra parāda, kā izveidot veiktspējas pārskatu, un apraksta katras pārskata sadaļas mērķi. Šī procedūra tika izveidota, izmantojot demonstrācijas uzņēmuma USMF datus. Šī procedūra ir paredzēta līdzeklim, kas tika pievienots Dynamics 365 for Operations versijā 1611.
 

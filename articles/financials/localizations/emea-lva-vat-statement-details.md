@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="vat-statement-details-for-latvia"></a>PVN deklarācijas informācija Latvijai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā iestatīt PVN deklarāciju juridiskajām personām Latvijā.
 

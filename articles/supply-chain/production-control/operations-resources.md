@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="operations-resources"></a>Operations resursi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Operācijas resursi izpilda projekta vai ražošanas procesa aktivitātes. Tie var būt dažādu veidu, ar dažādām iespējām. 
 

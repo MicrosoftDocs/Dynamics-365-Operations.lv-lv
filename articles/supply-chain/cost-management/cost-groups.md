@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-groups"></a>Izmaksu grupas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Izmaksu grupas sniedz pamatu izmaksu seguma segmentēšanai un analīzei ražotā krājuma aprēķinātajā izmaksā, kā, piemēram, materiālu, darba un papildus atbalsta izmaksu segumus. Izmaksu grupu segmentācijai ir vairāki sinonīmi, kā, piemēram, izmaksu sadalīšana, izmaksu dekompozīcija vai izmaksu klasifikācija. 
 

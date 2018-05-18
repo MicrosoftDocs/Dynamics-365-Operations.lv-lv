@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="develop-salarycompensation-structure-and-plans"></a>Algas/atlīdzības organizācijas un plānu izstrāde
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā uzdevuma ceļvedī ir aprakstīts, kā izveidot fiksētas atlīdzības plānu un iespējot darbinieku reģistrāciju šim plānam, izmantojot piemērotības kārtulas. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USMF, un uzdevums ir paredzēts lietotājiem ar lomu Atlīdzību un atvieglojumu vadītājs.
 

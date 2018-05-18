@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="execute-kanban-process-jobs"></a>Kanban procesa darbu izpilde
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šī procedūra fokusējas uz kanban procesa darbu izpildi. Pirmais darbs tiek pabeigts ar paredzamo daudzumu un bez kļūdām. Otrs darbs tiek pabeigts ar kļūdām. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Šī procedūra ir paredzēta mašīnas operatoram.
 

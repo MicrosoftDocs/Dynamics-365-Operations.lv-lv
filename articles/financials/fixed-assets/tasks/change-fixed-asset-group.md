@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-a-fixed-asset-group"></a>Pamatlīdzekļu grupas maiņa
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Pamatlīdzekļus vajadzētu piešķirt pareizai pamatlīdzekļu grupai. Pamatlīdzekļu grupa tiek lietota, veicot šādas darbības:
 

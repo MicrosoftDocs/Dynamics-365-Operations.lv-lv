@@ -24,7 +24,7 @@ ms.lasthandoff: 03/09/2018
 ---
 # <a name="use-a-model-mapping-configuration-for-aggregate-calculations-at-the-database-leveler"></a>Modeļa kartējuma konfigurācijas izmantošana apkopotajiem aprēķiniem datu bāzes līmenī (ER) 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Izmantot šo procedūru, varat iegūt informāciju par to, kā izveidot jaunu elektronisko pārskatu veidošanas (ER) modeļa kartējuma konfigurāciju un izmantot iebūvētās ER funkcijas, lai nodrošinātu apkopoto aprēķinu efektivitāti. Šajā procedūrā izveidosiet konfigurāciju parauga uzņēmumam “Litware, Inc.”. 
 

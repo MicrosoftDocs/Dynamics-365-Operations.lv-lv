@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="import-users-in-bulk"></a>Lietotāju lielapjoma importēšana
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šo procedūru var izmantot sistēmas administratori, lai importētu lielu skaitu lietotāju no Azure Active Directory.
 

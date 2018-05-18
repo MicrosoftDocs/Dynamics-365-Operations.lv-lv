@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-email-templates"></a>E-pasta veidņu pārvaldība
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Varat pārsūtīt informāciju no uzņēmuma datu bāzes uz jauna dokumenta grāmatzīmēm un izmantot to veidnēs, kuras izmantojat efektīvai saziņai ar kandidātiem. Lai to paveiktu, izveidojiet veidni, kas satur standarta tekstu un dažas grāmatzīmes, kur paredzēts ievietot sistēmas datus. Piemēram, varat ievietot kandidāta adresi un kontaktinformāciju Microsoft Word dokumentā, kuru varēsit izmantot saziņai ar šo kandidātu. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 

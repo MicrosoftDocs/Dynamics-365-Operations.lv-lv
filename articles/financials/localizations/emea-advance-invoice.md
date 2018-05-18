@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="advance-invoices-for-eastern-europe"></a>Avansa rēķini Austrumeiropas valstīm
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Avansa rēķins ir dokuments, ko var izveidot debitoram vai kreditoram. Tajā norāda pārdošanas pasūtījuma priekšapmaksas summu. Šajā tēmā ir sniegta informācija par avansa rēķiniem Austrumeiropas valstīm.
 

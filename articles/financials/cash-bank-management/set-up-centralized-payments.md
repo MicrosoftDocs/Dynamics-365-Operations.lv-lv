@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-centralized-payments"></a>Iestatīt centralizētos maksājumus
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Veiciet šīs darbības, lai sagatavos maksājumu apstrādei vienai juridiskajai personai citu jūsu organizācijas juridisko personu vārdā. Pirms sākat, jāveic tālāk aprakstītā iestatīšana.
 

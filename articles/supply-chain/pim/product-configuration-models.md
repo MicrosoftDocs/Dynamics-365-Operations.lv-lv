@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="product-configuration-models-overview"></a>Pārskats par preču konfigurācijas modeļiem
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir definēti termini un koncepcijas, kas ir saistīti ar preču konfigurācijas modeļiem. Preču konfigurācijas modeļi sniedz iespēju veidot iekšējo preču struktūru, ko var izmantot, lai konfigurētu daudzus vienas preces variantus.
 

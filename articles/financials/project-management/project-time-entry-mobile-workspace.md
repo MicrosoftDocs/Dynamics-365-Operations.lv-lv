@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-time-entry-mobile-workspace"></a>Projekta laika ieraksta mobilajām ierīcēm paredzēta darbvieta
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par mobilo darbvietu **Projekta laika ieraksts**. Šajā darbvietā lietotāji, izmantojot savu mobilo ierīci, var ievadīt un saglabāt laiku attiecībā pret projektu.
 

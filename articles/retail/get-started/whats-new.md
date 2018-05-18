@@ -26,11 +26,11 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="whats-new-or-changed-in-dynamics-365-for-retail"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Retail
 
-[!INCLUDE [banner](../../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šajā lapā ir norādes uz resursiem, kas var palīdzēt jums uzzināt par jaunajiem līdzekļiem un izmaiņām Microsoft Dynamics 365 for Retail jaunākajos laidienos.
 
-[!INCLUDE [release notes](../includes/release-notes.md)]
+[!include [release notes](../includes/release-notes.md)]
 
 ## <a name="releases-of-dynamics-365-for-retail"></a>Dynamics 365 for Retail laidieni
 

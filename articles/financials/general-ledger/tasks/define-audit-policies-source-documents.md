@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Pirmdokumentu audita ierobežojumu definēšana
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā ir parādīts, kā izveidot un palaist audita ierobežojuma nosacījumus. Piemērā tiek izmantotas izdevumu atskaites ar viesnīcu izdevumu tipu. Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati. Auditora loma ietver šo uzdevumu veikšanai atbilstošās atļaujas.
 

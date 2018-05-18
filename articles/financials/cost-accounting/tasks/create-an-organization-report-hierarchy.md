@@ -24,7 +24,7 @@ ms.lasthandoff: 10/30/2017
 ---
 # <a name="create-an-organization-report-hierarchy"></a>Organizācijas pārskatu hierarhijas izveide
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Izmantojiet šo procedūru, lai izveidotu pārskatu hierarhiju organizācijas pārskatiem. Šī ieraksta mērķis ir vadīt jūs dimensiju hierarhijā, lai varat turpināt, kamēr tiek izveidota visa organizācijas pārskatu struktūra. Šajā ierakstā tiek izmantots USP2 demonstrācijas datu uzņēmums.
 

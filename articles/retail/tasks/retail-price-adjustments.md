@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="retail-price-adjustments"></a> Mazumtirdzniecības cenu korekcijas
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Šajā procedūrā aprakstīts, kā izveidot mazumtirdzniecības cenas korekciju. Mazumtirdzniecības cenas korekciju var iestatīt tieši krājuma pārdošanas cenā, vai modificējot pārdošanas pamatcenu vai tirdzniecības līguma pārdošanas cenu. Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.
 

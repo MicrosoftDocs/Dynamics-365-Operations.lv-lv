@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="expense-reports-and-multiple-approvers"></a>Izdevumu pārskati un vairāki apstiprinātāji
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Atkarībā no jūsu organizācijas izdevumu apstiprināšanas politikām darbinieka iesniegto izdevumu pārskatu var būt nepieciešams apstiprināt vairākām personām. Iestatot darbplūsmas procesu izdevumu pārskatu apstiprināšanai, varat pievienot darbplūsmas elementus, kas ietver viena vai vairāku izdevumu pārskatu apstiprinātāju veicamos uzdevumus vai darbības. Piemēram, var būt nepieciešams, ka visi izdevumu pārskati vispirms jāapstiprina tā darbinieka vadītājam, kurš iesniedza pārskatu, un pēc tam — kreditoru koordinatoram.
 

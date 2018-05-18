@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="settle-transactions-between-ledger-accounts"></a>Darbību segšana starp Virsgrāmatas kontiem
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā nosegt transakcijas starp Virsgrāmatas kontiem un atcelt Virsgrāmatas nosegšanu. Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati.
 

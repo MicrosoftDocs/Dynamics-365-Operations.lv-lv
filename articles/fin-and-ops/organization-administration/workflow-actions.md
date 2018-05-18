@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="workflow-actions"></a>Darbplūsmas darbības
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir paskaidrotas darbības, kuras darbplūsmas apstiprināšanas procesā var veikt katrs dalībnieks.
 

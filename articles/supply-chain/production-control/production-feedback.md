@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-feedback"></a>Ražošanas atsauksmes
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta informācija par ražošanas atsauksmi, kas sniedz darbinieku atsauksmi par ražošanas darbiem. Rakstā ir iekļauta informācija par dažādiem ražošanas atsauksmes atjaunināšanas veidiem.
 

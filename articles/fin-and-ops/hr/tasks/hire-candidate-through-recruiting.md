@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="hire-a-candidate-through-recruiting"></a>Kandidāta pieņemšana darbā, izmantojot personāla atlasi
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šī procedūra ļauj personāla atlases darbiniekam pieņemt darbā kandidātu, kurš iesniedzis pieteikumu, izmantojot noteiktu personāla atlases projektu. Kad nolīgstat kandidātu, izmantojot personāla atlases projektu, tiks izveidots jauns darbinieka ieraksts un kandidāta ieraksta statuss būs Nodarbināts. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Lai pabeigtu šo procedūru, pārejiet uz Personāla vadība > Personāla atlase > Pieteikumi > Pieteikumi 
 

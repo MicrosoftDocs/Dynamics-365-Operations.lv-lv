@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="advance-holder-transactions"></a>Avansa turētāju darbības
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Uzziniet, kā strādāt ar avansa turētāju transakcijām programmā Microsoft Dynamics 365 for Finance and Operations.
 

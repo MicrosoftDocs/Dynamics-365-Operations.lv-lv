@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="calculate-kanban-quantity-suggestions"></a>Kanban daudzuma ieteikumu aprēķins
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā procedūrā parādīts, kā optimizēt Kanban lielumu un daudzumu konkrētam Kanban nosacījumam, izmantojot Kanban daudzuma aprēķinus. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Šī procedūra ir paredzēta vērtību plūsmas pārvaldniekam. Šīs procedūras priekšnosacījums ir paveikta procedūra Jaunas Kanban daudzuma aprēķināšanas politikas pievienošana Kanban nosacījumam.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="project-timesheets-on-a-mobile-device"></a>Projekta darba laika uzskaites tabulas mobilajā ierīcē
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 # <a name="overview"></a>Pārskats
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="set-up-signers-for-print-forms"></a>Iestatīt parakstītājus drukātajām formām
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Juridiskajām personām Čehijā, Igaunijā, Ungārijā, Lietuvā, Latvijā, Polijā un Krievijā varat iestatīt parakstītājus un amatus debitoriem un kreditoriem, kas drukā tādus dokumentus kā rēķini un kases orderi.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Kandidātu izvēles rīku noteikšana un ieviešana
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Var būt grūti atrast kvalificētu kandidātu kopu, lai aizpildītu vakances, it īpaši, ja amatam ir nepieciešama unikālu prasmju kopa.  Taču iespējams, ka kandidāti ar jums nepieciešamajam prasmēm jau strādā jūsu organizācijā. Noteiktu prasmju kopu varat meklēt starp esošajiem darbiniekiem vai jauniem kandidātiem. Šādi personāla atlases darbinieks var ātri apkopot un izskatīt datus par kandidātiem, kas vakantam amatam ir pieteikušies tagad vai iepriekš, vai atrastu potenciālos kandidātus starp jau esošajiem darbiniekiem. Izmantojiet šo uzdevuma ierakstu, lai uzzinātu, kā prasmju kartēšanas funkcionalitāte jums var palīdzēt atrast vakantajam amatam vispiemērotāko personu. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 
