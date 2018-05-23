@@ -38,9 +38,6 @@ Atverot elementa datus programmā Excel, varat ātri un vienkārši apskatīt un
 
 Lai iegūtu plašāku informāciju par Excel pievienojumprogrammas lietošanu, noskatieties īso video [Excel veidnes izveidošana virsrakstu un rindu modeļiem programmatūrā Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
 
-> [!Video https://www.youtube.com/embed/RTicLb-6dbI]
-
-
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Elementa datu atvēršana programmā Excel, sākot darbu programmā Finance and Operations
 1. Kādā programmas Finance and Operations lapā atlasiet **Atvērt, izmantojot Microsoft Office**.
 
@@ -126,6 +123,6 @@ No vienas vides darblapā ielasītos datus var kopēt uz citu vidi. Taču jūs n
 Noteiktas problēmas var atrisināt ar dažām vienkāršām darbībām.
 
 - **Tiek rādīta poga Ielādēt sīkprogrammas** — ja pēc pierakstīšanās Excel pievienojumprogrammai tiek rādīta poga **Ielādēt sīkprogrammas**, visticamāk, esat pierakstījies, izmantojot nepareizu lietotāja kontu. Lai atrisinātu šo problēmu, pārbaudiet, vai Excel pievienojumprogrammas labajā augšējā stūrī tiek rādīts pareizais lietotājvārds. Ja tiek rādīts nepareizs lietotājvārds, atlasiet to, izrakstieties un pēc tam atkal pierakstieties.
-- **Saņemat ziņojumu “Aizliegts”** — ja laikā, kad Excel pievienojumprogrammā notiek metadatu ielāde, saņemat ziņojumu “Aizliegts”, tad kontam, kas ir izmantots, lai pierakstītos Excel pievienojumprogrammā, nav atļaujas lietot attiecīgo pakalpojumu, instanci vai datu bāzi. Lai atrisinātu šo problēmu, pārbaudiet, vai Excel pievienojumprogrammas labajā augšējā stūrī tiek rādīts pareizais lietotājvārds. Ja tiek rādīts nepareizs lietotājvārds, atlasiet to, izrakstieties un pēc tam atkal pierakstieties.
+- **Saņemat ziņojumu “Aizliegts”**  — ja laikā, kad Excel pievienojumprogrammā notiek metadatu ielāde, saņemat ziņojumu “Aizliegts”, tad kontam, kas ir izmantots, lai pierakstītos Excel pievienojumprogrammā, nav atļaujas lietot attiecīgo pakalpojumu, instanci vai datu bāzi. Lai atrisinātu šo problēmu, pārbaudiet, vai Excel pievienojumprogrammas labajā augšējā stūrī tiek rādīts pareizais lietotājvārds. Ja tiek rādīts nepareizs lietotājvārds, atlasiet to, izrakstieties un pēc tam atkal pierakstieties.
 - **Virs programmas Excel tiek rādīta tukša tīmekļa lapa** — ja pierakstīšanās procesa laikā tiek atvērta tukša tīmekļa lapa, tad kontam ir nepieciešams AD FS, bet Excel versija, kurā darbojas Excel pievienojumprogramma, ir pārāk veca, lai ielādētu pierakstīšanās dialoglodziņu. Lai atrisinātu šo problēmu, atjauniniet izmantoto Excel versiju. Lai atjauninātu Excel versiju, kad esat uzņēmumā, kurš atrodas atliktajā kanālā, izmantojiet [Office izvietošanas rīku](https://technet.microsoft.com/library/jj219422.aspx), lai [no atliktā kanāla pārietu uz pašreizējo kanālu](https://technet.microsoft.com/library/mt455210.aspx).
 
