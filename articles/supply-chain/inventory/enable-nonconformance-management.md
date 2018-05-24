@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 28037713a51a83f4b792adef8a26f02960fa6b07
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 93a7ed31dcad19a29a85352a2bf200915766036c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="nonconformance-management"></a>Neatbilstības pārvaldība
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir aprakstīts pamata iestatīšana, kas ir nepieciešama, lai lietotu neatbilstības. Papildu iestatīšana ir nepieciešama, ja vēlaties izmantot kvalitātes pārbaudes pasūtījumus.
 
@@ -47,7 +47,7 @@ Lai iespējotu neatbilstības pārvaldību, izpildiet tālāk aprakstītās darb
 6.  Definējiet saistītās operācijas, kas tiks piešķirtas neatbilstībām. Izmantojiet lapu **Operācijas**, lai definētu klasifikāciju darbam, ko var veikt apstiprinātajai neatbilstībai. Ja neatbilstībai piešķirat saistīto operāciju, varat nodrošināt detalizētu informāciju, piemēram, par saistīto materiālu, darba stundām un dažādām papildmaksām, kas nepieciešamas operācijas izpildē. Šī informācija tiek izmantota, lai operācijai aprēķinātu novērtētās izmaksas. Detalizētā informācija un novērtētās izmaksas tiek nodrošinātas tikai atsauces nolūkā. Kvalitātes saistītās operācijas ir atšķirīgas no operācijām, ko var definēt ražošanas maršrutā.
 
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Neatbilstības izveide un apstrāde (uzdevuma ceļvedis)](tasks/create-process-non-conformance.md)

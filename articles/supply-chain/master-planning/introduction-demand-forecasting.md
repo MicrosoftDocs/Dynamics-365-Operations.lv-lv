@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 18ed011fa1c1aa35b4a401d51bffc6af19395577
-ms.openlocfilehash: 6a0455c5d86f953e270501a7f1648f7700f717d0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 20eb67a341f462328bc73907fb3052b3405190d4
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="demand-forecasting-overview"></a>Pārskats par pieprasījuma prognozēšanu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Pieprasījuma prognozēšanas tiek izmantota, lai prognozētu debitoru pasūtījumu neatkarīgu pieprasījumu pēc pārdošanas pasūtījumiem un atkarīgos pieprasījums jebkurā atsaistīšanas punktā. Uzlabotās pieprasījuma apjoma prognozes samazināšanas kārtulas nodrošina lielisku lielapjoma pielāgošanas risinājumu.
 
@@ -72,7 +72,7 @@ Programmatūru Finance and Operations varat izmantot, lai vizualizētu un modifi
 ## <a name="limitations"></a>Ierobežojumi
 Pieprasījuma prognozēšana programmatūrā Finance and Operations ir rīks, kas ražošanas nozares debitoriem palīdz izveidot prognozēšanas procesus. Šis rīks nodrošina galvenās pieprasījuma prognozēšanas risinājuma funkcijas un ir izstrādāts tā, lai to varētu viegli paplašināt. Iespējams, ka pieprasījuma prognozēšana nav pilnībā piemērota debitoriem, piemēram, mazumtirdzniecības, vairumtirdzniecības, noliktavu, transportēšanas vai citu profesionālo pakalpojumu nozarēs.
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Pieprasījuma prognozēšanas iestatīšana](demand-forecasting-setup.md)

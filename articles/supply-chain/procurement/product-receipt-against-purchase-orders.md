@@ -19,18 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: faccf695642d236dbf74a324ccecaf91f62638be
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c227664da360f6f8d54b49f15e1b7160aa142ba9
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="product-receipt-against-purchase-orders"></a>Produktu ieejas plūsma pret pirkšanas pasūtījumiem
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Šajā rakstā ir izklāstītas dažādās opcijas, kas ir pieejamas, lai produktus reģistrētu kā saņemtus.
 
@@ -61,12 +61,12 @@ Kad pirkšanas pasūtījumā ir apstrādāta produkta ieejas plūsma, pirkšanas
 
 Šai lapai varat piekļūt no darbību grupas **Ieejas plūsma** lapā **Pirkšanas pasūtījums**. Informācija šajos žurnālos ietver informāciju par daudzumiem, datumiem un dimensijām.
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
-[Pārskats par pirkšanas pasūtījumu](purchase-order-overview.md)
+[Pirkšanas pasūtījumu apskats](purchase-order-overview.md)
 
-[Pirkšanas pasūtījuma izveide](purchase-order-creation.md)
+[Pirkšanas pasūtījuma izveidošana](purchase-order-creation.md)
 
 [Pirkšanas pasūtījumu apstiprināšana un ratificēšana](purchase-order-approval-confirmation.md)
 

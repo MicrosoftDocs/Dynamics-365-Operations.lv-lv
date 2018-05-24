@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 591b1cd739bb3be61299f33f180ca7c264d21a35
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 858328ec60e0ffa5ca46a98b365fb0fc599ae1f0
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="coverage-settings"></a>Vajadzības iestatījumi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Vispārējā plānošana izmanto vajadzības iestatījumus, lai aprēķinātu krājumu vajadzības. 
 
@@ -45,11 +45,11 @@ Jūs varat norādīt vajadzības iestatījumus vairākos veidos:
 
 <!-- -->
 
-- Norādiet dimensiju grupas vajadzības iestatījumus. Noklikšķiniet uz <strong>Preču informācijas pārvaldība &gt; Vispārīgi &gt; Izlaistās preces</strong>. Lapas <strong>Detalizēta informācija par izlaistajām precēm **cilnes **Vispārīgi</strong> grupā <strong>Administrēšana</strong> noklikšķiniet uz saites <strong>Noliktavas dimensiju grupa</strong>. Lapā <strong>Noliktavas dimensiju grupa</strong> atlasiet lauku <strong>Vajadzības plāns pa dimensijām</strong>, lai izveidotu vajadzības iestatījumus dimensijai noliktavas dimensiju grupā. Lauks <strong>Vajadzības plāns pa dimensijām</strong> ir jāatlasa visām preces dimensijām, piemēram, konfigurācijai, krāsai, izmēram un stilam.
+- Norādiet dimensiju grupas vajadzības iestatījumus. Noklikšķiniet uz **Preču informācijas pārvaldība &gt; Vispārīgi &gt; Izlaistās preces**. Lapas **Detalizēta informācija par izlaistajām precēm** cilnes **Vispārīgi** grupā **Administrēšana** noklikšķiniet uz saites **Noliktavas izmēru grupa**. Lapā **Noliktavas dimensiju grupa** atlasiet lauku **Vajadzības plāns pa dimensijām**, lai izveidotu vajadzības iestatījumus dimensijai noliktavas dimensiju grupā. Lauks **Vajadzības plāns pa dimensijām** ir jāatlasa visām preces dimensijām, piemēram, konfigurācijai, krāsai, izmēram un stilam.
 
 
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Vispārējie plāni](master-plans.md)

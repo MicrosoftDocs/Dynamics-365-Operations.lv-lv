@@ -19,16 +19,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 02daa312d74311432c0c468e3e691637dcf94157
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e7975003620d951717c66144c8d0521de0f69158
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="import-historical-data-for-demand-forecasts"></a>Vēsturisko datu importēšana pieprasījuma apjoma prognozēm
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Lai palīdzētu nodrošināt pieprasījuma apjoma prognozes precizitāti, ir jāizmanto pēc iespējas vairāk vēsturisko pieprasījuma datu pa krājumiem vai krājumu sadalījuma principiem. Ja vēsturiskie pieprasījuma dati vēl nav importēti, izmantojiet Microsoft Dynamics 365 for Finance and Operations datu entītiju **Vēsturisks ārējs pieprasījums** (ReqDemPlanHistoricalExternalDemandEntity), lai tos importētu.
 
@@ -57,7 +57,7 @@ Kā paraugu varat izmantot tālāk pieejamo failu. Lejupielādējiet failu [Hist
 
 Pēc vēsturisko pieprasījuma datu importēšanas varat ģenerēt pieprasījuma apjoma prognozi.
 
-## <a name="see-also"></a>Skatiet arī
+## <a name="additional-resources"></a>Papildu resursi
 
 [Ģenerēt statistiskās bāzlīnijas prognozi](generate-statistical-baseline-forecast.md)
 

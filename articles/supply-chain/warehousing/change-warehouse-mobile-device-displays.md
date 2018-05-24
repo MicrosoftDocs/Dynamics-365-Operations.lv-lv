@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b16f4ea27f406f3d5d5957670bd32a73d2d55529
-ms.openlocfilehash: bb616f8102c67db3f8c3e872101d61657b6b64d1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a1413337888c8e2da95e33ebee6528f228ad3972
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/05/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="warehouse-mobile-device-display-settings"></a>Noliktavas mobilo ierīču displeja iestatījumi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir izskaidrots, kā iestatīt mobilās ierīces displeja izskatu un kartēt vadīklu tastatūras īsinājumtaustiņus, piemēram, pogas. 
 
@@ -46,9 +46,9 @@ CSS un ASPX failus jānovieto īpašā direktorijā, lai interneta informācijas
 
 Šeit ir sintakses daļu paskaidrojums:
 
--   **&lt;vadīklas nosaukums&gt;** — nosaukums vadīklai (piemēram, pogai), kas ir atveidota HTML.
--   **(&lt;taustiņa nosaukums&gt;)** — tā tastatūras taustiņa nosaukums, kam veidojat saīsni.
--   **&lt;Taustiņa kods&gt;** — tā taustiņa ciparzīmju kods, ko izmantosiet kā īsinājumtaustiņu.
+-   **&lt;vadīklas nosaukums&gt;**  — nosaukums vadīklai (piemēram, pogai), kas ir atveidota HTML.
+-   **(&lt;taustiņa nosaukums&gt;)**  — tā tastatūras taustiņa nosaukums, kam veidojat saīsni.
+-   **&lt;Taustiņa kods&gt;**  — tā taustiņa ciparzīmju kods, ko izmantosiet kā īsinājumtaustiņu.
 
 Tas ir piemērs:
 
@@ -64,9 +64,9 @@ Request.UserHostAddress=&lt;lietotāja resursdatora adrese&gt;|HostName=&lt;liet
 
 Šeit ir izteiksmes daļu paskaidrojums:
 
--   **&lt;lietotāja resursdatora adrese&gt;** — .NET regulārā izteiksme, kas atbilst pieprasītāja IP adresei.
--   **&lt;lietotāja resursdatora nosaukums&gt;** — .NET regulārā izteiksme, kas atbilst pieprasītāja tīkla nosaukumam.
--   **&lt;lietotāja aģents&gt;** — .NET regulārā izteiksme, kas atbilst pārlūkprogrammas identifikatoram, ko izmanto pieprasītājs.
+-   **&lt;lietotāja resursdatora adrese&gt;**  — .NET regulārā izteiksme, kas atbilst pieprasītāja IP adresei.
+-   **&lt;lietotāja resursdatora nosaukums&gt;**  — .NET regulārā izteiksme, kas atbilst pieprasītāja tīkla nosaukumam.
+-   **&lt;lietotāja aģents&gt;**  — .NET regulārā izteiksme, kas atbilst pārlūkprogrammas identifikatoram, ko izmanto pieprasītājs.
 
 Tālāk minētais piemērs iespējo programmas Internet Explorer 8 lietošanu:
 
@@ -97,7 +97,7 @@ Katra apakšizteiksme pieprasa no viena līdz diviem cipariem dienai un mēnesim
 
 Vienā failā var norādīt vairāk nekā vienu izteiksmi. Katrai izteiksmei jābūt atsevišķā rindā. Pirmā atbilstoša izteiksme tiek izmantota, lai parsētu datumu.
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Mobilo ierīču konfigurācija darbam noliktavā](configure-mobile-devices-warehouse.md)

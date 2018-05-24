@@ -19,16 +19,16 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5c92c1ca3f46d80a58ca315f1f695f082d1929ca
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fb7d0dc8b3ff9e8f1e4ade5cacfeed8f1a6871ab
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="electronic-reporting-destinations"></a>Elektronisko atskaišu galamērķi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Varat konfigurēt adresātu katrai elektronisko atskaišu (Electronic Reporting — ER) formāta konfigurācijai un tā izvades komponentu (mapi vai failu). Lietotāji, kuriem ir piešķirtas atbilstošas piekļuves tiesības, galamērķa iestatījumus var modificēt arī izpildlaikā. Šajā rakstā ir paskaidrota ER galamērķu pārvaldība, atbalstītie galamērķu tipi un drošības apsvērumi.
 
@@ -51,7 +51,8 @@ Kad esat izveidojis atsauci, varat izveidot failu galamērķi katrai mapei vai f
 
 [![Faili galamērķa izveidošana](./media/ger-destinations-1611-1024x586.jpg)](./media/ger-destinations-1611.jpg)
 
-> ![PIEZĪME] Varat izveidot vienu failu galamērķi katram izvades komponentam ar tādu pašu formātu, piemēram, mapi vai failu, kāds ir atlasīts laukā **Faila nosaukums**. Pēc tam šiem failu galamērķiem dialoglodziņā **Galamērķa iestatījumi** varat iespējot un atspējot atsevišķus galamērķus. Poga **Iestatījumi** tiek izmantota, lai kontrolētu visus galamērķus atlasītajam failu galamērķim. Dialoglodziņā **Galamērķa iestatījumi** varat kontrolēt katru galamērķi atsevišķi, iestatot tam opciju **Iespējots**.
+> [!NOTE] 
+> Varat izveidot vienu failu galamērķi katram izvades komponentam ar tādu pašu formātu, piemēram, mapi vai failu, kāds ir atlasīts laukā **Faila nosaukums**. Pēc tam šiem failu galamērķiem dialoglodziņā **Galamērķa iestatījumi** varat iespējot un atspējot atsevišķus galamērķus. Poga **Iestatījumi** tiek izmantota, lai kontrolētu visus galamērķus atlasītajam failu galamērķim. Dialoglodziņā **Galamērķa iestatījumi** varat kontrolēt katru galamērķi atsevišķi, iestatot tam opciju **Iespējots**.
 
 [![Dialoglodziņš Galamērķu iestatījumi](./media/ger-destinations-settings-1611-1024x589.jpg)](./media/ger-destinations-settings-1611.jpg)
 
@@ -130,7 +131,8 @@ ER galamērķiem tiek izmantoti divu tipu privilēģijas un pienākumi. Viens ti
 | PaymAccountsPayablePaymentsClerk    | Kreditoriem maksājamo rēķinu darbinieks            | ERFormatDestinationRuntimeConfigure | Konfigurēt elektronisko pārskatu veidošanas formāta adresātu izpildlaikā |
 | PaymAccountsReceivablePaymentsClerk | Debitoru parādu maksājumu darbinieks         | ERFormatDestinationRuntimeConfigure | Konfigurēt elektronisko pārskatu veidošanas formāta adresātu izpildlaikā |
 
-> ![PIEZĪME] Iepriekš uzskaitītajos pienākumos tiek izmantotas divas privilēģijas. Šo privilēģiju nosaukumi ir tādi paši kā tām atbilstošo pienākumu nosaukumi: **ERFormatDestinationConfigure** un **ERFormatDestinationRuntimeConfigure**.
+> [!NOTE]
+> Iepriekš uzskaitītajos pienākumos tiek izmantotas divas privilēģijas. Šo privilēģiju nosaukumi ir tādi paši kā tām atbilstošo pienākumu nosaukumi: **ERFormatDestinationConfigure** un **ERFormatDestinationRuntimeConfigure**.
 
 ## <a name="frequently-asked-questions"></a>Bieži uzdotie jautājumi
 ### <a name="i-have-imported-electronic-configurations-and-i-see-them-on-the-electronic-reporting-configurations-page-but-why-dont-i-see-them-on-the-electronic-reporting-destinations-page"></a>Esmu importējis elektroniskas konfigurācijas un tās redzu lapā Elektronisko atskaišu veidošanas konfigurācijas. Bet kāpēc tās nav redzamas lapā Elektronisko pārskatu veidošanas galamērķi?
@@ -153,9 +155,9 @@ Galamērķis **Fails** tiek izmantots, lai kontrolētu dialoglodziņu. Ja iespē
 
 Priekšnosacījums ir tāds, ka jūsu formātam ir jābūt pieejamam ER konfigurācijās. Ja jums ir jūsu formāts, atveriet lapu **Elektronisko atskaišu galamērķi** un izveidojiet jaunu atsauci uz šo konfigurāciju. Pēc tam jums ir nepieciešami četri failu galamērķi — viens katram izvades komponentam. Izveidojiet pirmo failu galamērķi, piešķiriet tam nosaukumu, piemēram, **Mape**, un atlasiet faila nosaukumu, kas apzīmē kādu mapi jūsu konfigurācijā. Pēc tam noklikšķiniet uz **Iestatījumi** un pārliecinieties, ka visi galamērķi ir atspējoti. Šim failu galamērķim mape netiks izveidota. Pēc noklusējuma, tā kā starp failiem un pamata mapēm pastāv hierarhiskas atkarības, šie faili darbosies tādā pašā veidā. Citiem vārdiem sakot — tie netiks nekur sūtīti. Lai ignorētu šo noklusējuma uzvedību, jums ir jāizveido vēl trīs failu galamērķi — viens katram failam. Katram galamērķa iestatījumos jums ir jāiespējo tas galamērķis, uz kuru šis fails ir jānosūta.
 
-## <a name="see-also"></a>Skatiet arī
+## <a name="additional-resources"></a>Papildu resursi
 
-[Elektronisko atskaišu veidošanas pārskats](general-electronic-reporting.md)
+[Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
 
 
 

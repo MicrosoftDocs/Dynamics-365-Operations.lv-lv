@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: adbbb36da2bc1e9a2211c703823370571105ecab
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3988c437afda3d57e56a03264d3c1588af497920
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="formula-designer-in-electronic-reporting"></a>Formulas veidotājs elektronisko atskaišu veidošanā
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā elektronisko pārskatu veidošanā (Electronic reporting — ER) lietot formulas veidotāju. Kad veidojat formātu noteiktam ER elektroniskajam dokumentam, datu pārveidošanai varat lietot formulas, lai nodrošinātu atbilstību dokumenta izpildes un formatējuma prasībām. Šīs formulas līdzinās Microsoft Excel formulām. Formulās tiek atbalstīti dažādi funkciju tipi — teksta, datuma un laika, matemātiskās, loģiskās, informācijas, datu tipu pārveidošanas un citas (biznesa jomai specifiskas funkcijas).
 
@@ -647,7 +647,7 @@ Valūtas nosaukuma drukāšanas karodziņa un ciparu aiz komata parametri tiek a
 
 ER jums ļauj paplašināt funkciju sarakstu, kuras tiek lietotas ER izteiksmēs. Ir jāveic noteiktas tehniskas darbības. Papildinformāciju skatiet rakstā [Elektronisko atskaišu veidošanas funkciju saraksta paplašināšana](general-electronic-reporting-formulas-list-extension.md).
 
-## <a name="see-also"></a>Skatiet arī
+## <a name="additional-resources"></a>Papildu resursi
 
 [Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
 

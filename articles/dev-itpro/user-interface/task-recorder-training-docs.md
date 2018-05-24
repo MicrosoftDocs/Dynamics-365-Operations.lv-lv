@@ -19,16 +19,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9550faec1bbbdc233631e149c09b8e4faf25f5ff
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fbf7edbd141f5e94c333b64beedf9126d2900d47
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-documentation-or-training-using-task-recordings"></a>Dokumentācijas vai apmācības veidošana, izmantojot uzdevumu ierakstus
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kas ir uzdevumu reģistrētājs un uzdevumu ceļveži, kā izveidot uzdevumu ierakstus un kā pielāgot Microsoft uzdevumu ceļvežus un iekļaut tos palīdzībā.
 
@@ -118,7 +118,7 @@ Varat lejupielādēt un rediģēt Microsoft uzdevumu ierakstus, lai tos izmantot
 ## <a name="include-your-task-recordings-in-the-help-pane"></a>Savu uzdevumu ierakstu iekļaušana palīdzības rūtī
 Lai savus pielāgotos uzdevumu ierakstus parādītu palīdzības rūtī un tos varētu atskaņot kā uzdevumu ceļvežus vai skatīt kā tekstu, jums šie uzdevumu ieraksti ir jāsaglabā savā BPM bibliotēkā un pēc tam jāatjaunina savas palīdzības sistēmas parametri, lai tie norādītu uz BPM bibliotēku. Plašāku informāciju skatiet rakstā [Savienojuma izveide ar palīdzības sistēmu.](../../fin-and-ops/get-started/help-connect.md)
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Palīdzības apskats](../../fin-and-ops/get-started/help-overview.md)

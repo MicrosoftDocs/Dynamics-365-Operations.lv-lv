@@ -19,16 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6db51f9fa180f0b8ce203fd2812c562b0201afa8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4a18190152b6e5ea520a81f1db2cf67ded652bbe
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="budget-planning-integration-with-other-modules"></a>Budžeta plānošanas integrācija ar citiem moduļiem
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
  Budžeta plānus var ģenerēt no vairākiem atšķirīgiem resursiem. Periodiskā procesa pamatelementi ir vienādi visiem resursiem. 
 
@@ -68,7 +68,7 @@ Opcija **Vēsturiskais** cilnē **Mērķis** ļauj jums izmantot datumus no datu
 
 Lauks **Apkopot kopsummu pēc** lapas augšdaļā arī nosaka izmantoto datumu. Šajā laukā aprēķina kopsummas, un pēc izvēles iestata spēkā stāšanās datumu uz finanšu gadu vai finanšu perioda pirmo dienu. 
 
-Daudzi no laukiem cilnē <strong>Mērķis</strong> kļūst rediģējami vai tikai lasāmi atkarībā no atlasītās darbības. Pārejot no jauna budžeta plāna izveides uz esošā plāna atjaunināšanu, lauks <strong>Budžeta plāna nosaukums</strong> kļūst nepieejams, un kļūst pieejami lauki, kas ir saistīti ar esošā plāna atlasi. Cilnē <strong>Mērķis</strong> un cilnē <strong>Avots **lauks **Virsgrāmata</strong> nekad nav pieejams, jo vērtība tiek noteikta pēc atlasītā budžeta plānošanas procesa. 
+Daudzi no laukiem cilnē <strong>Mērķis</strong> kļūst rediģējami vai tikai lasāmi atkarībā no atlasītās darbības. Pārejot no jauna budžeta plāna izveides uz esošā plāna atjaunināšanu, lauks **Budžeta plāna nosaukums** kļūst nepieejams, un kļūst pieejami lauki, kas ir saistīti ar esošā plāna atlasi. Cilnē **Mērķis** un cilnē **Avots** lauks **Virsgrāmata** nekad nav pieejams, jo vērtība tiek noteikta pēc atlasītā budžeta plānošanas procesa. 
 
 Lauks **Budžeta klase** var iestatīt budžeta plāna rindas kā izdevumu transakcijas vai ieņēmumu transakcijas. Parasti, ieņēmumu transakcijas ir kredīti Virsgrāmatas kontā un tādējādi saglabātas kā negatīvas summas. Parasti šīs transakcijas parādās arī kā negatīvas summas budžeta plānā. Tomēr, pievienojot budžeta klasi kā lauku plāna izkārtojumā, varat iespējot opciju, lai ieņēmumi tiktu rādīti kā pozitīvas summas.
 

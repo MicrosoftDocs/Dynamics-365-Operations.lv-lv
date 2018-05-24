@@ -19,23 +19,23 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9c2f8fd846181c404492ff32907a3396beb90685
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 79e0ce728cb3c1eec450d0814d0a3aeda131fe89
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="warehouse-configuration"></a>Noliktavas konfigurācija
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir paskaidrots, kā konfigurēt noliktavu. Tajā ir ietverta informācija par to, kā iespējot noliktavas izkārtojumu un noliktavas procesus.
 
-**Piezīme.** Šis raksts attiecas uz moduļa **Noliktavas vadība** (uzlabotās noliktavas) līdzekļiem. Tas neattiecas uz noliktavas līdzekļiem modulī **Krājumu vadība**.
+**Piezīme.** Šis raksts attiecas uz moduļa **Noliktavas pārvaldība** (uzlabotās noliktavas) līdzekļiem. Tas neattiecas uz noliktavas līdzekļiem modulī **Krājumu vadība**.
 
 ## <a name="warehouse-layout"></a>Noliktavas izkārtojums
-Noliktavu vadības sistēma programmatūrā Microsoft Dynamics 365 for Finance and Operations nodrošina pielāgojamus veidus, kā definēt noliktavas izkārtojumu atbilstoši mainīgajām vajadzībām, lai varētu sasniegt optimālu noliktavas efektivitāti.
+Noliktavas pārvaldības sistēma programmatūrā Microsoft Dynamics 365 for Finance and Operations nodrošina pielāgojamus veidus, kā definēt noliktavas izkārtojumu atbilstoši mainīgajām vajadzībām, lai varētu sasniegt optimālu noliktavas efektivitāti.
 
 -   Optimālai preču izvietošanai varat izveidot augstas prioritātes un zemas prioritātes glabāšanas zonas.
 -   Noliktavas varat sadalīt zonās, lai pielāgotos dažādām glabāšanas vajadzībām, piemēram, temperatūras prasībām vai dažādiem krājumu apgrozījuma ātrumiem.
@@ -43,7 +43,7 @@ Noliktavu vadības sistēma programmatūrā Microsoft Dynamics 365 for Finance 
 -   Novietojumus varat grupēt, izmantojot fiziskās ietilpības ierobežojumu iestatījumus.
 -   Varat kontrolēt veidu, kā krājumi tiek glabāti un izdoti, pamatojoties uz vaicājuma definētām kārtulām.
 
-Lai programmatūrā Finance and Operations izmantotu noliktavas pārvaldību, jums ir jāizveido noliktava un tā jāiespējo papildu vai specializētākām noliktavas pārvaldības darbībām. Lapā **Noliktavas** atzīmējiet opciju **Izmantot noliktavas vadības procesus**.
+Lai programmatūrā Finance and Operations izmantotu noliktavas pārvaldību, jums ir jāizveido noliktava un tā jāiespējo papildu vai specializētākām noliktavas pārvaldības darbībām. Lapā **Noliktavas** atzīmējiet opciju **Izmantot noliktavas pārvaldības procesus**.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Zonu grupas, zonas, novietojumu tipi un novietojumi
 
@@ -52,7 +52,7 @@ Kā daļa no noliktavas izkārtojuma iespējošanas procesa jums ir jādefinē n
 -   **Zonu grupas** — loģiska vai fiziska zonu grupēšana noliktavas ietvaros.
 -   **Zonas** — loģiska vai fiziska novietojumu grupēšana noliktavas ietvaros.
 -   **Novietojumu profili** — loģiska vai fiziska novietojumu grupēšana tādiem novietojumiem, kam ir vienādas noliktavas novietojumu apstrādes politikas (piemēram, šeit var glabāt dažādu krājumu numuru sajaukumu, un ir spēkā tie paši fiziskās ietilpības ierobežojumi).
--   **Novietojumu tipi** — loģiska vai fiziska noliktavas novietojumu grupēšana. Piemēram, varat izveidot atrašanās vietas veidu visiem novietojuma veidiem. Obligātie iestatījumi lapā **Noliktavas vadības parametri** vada sagatavošanas posmu novietojuma tipu un galīgās nosūtīšanas novietojuma tipu definēšanas procesu.
+-   **Novietojumu tipi** — loģiska vai fiziska noliktavas novietojumu grupēšana. Piemēram, varat izveidot atrašanās vietas veidu visiem novietojuma veidiem. Obligātie iestatījumi lapā **Noliktavas pārvaldības parametri** vada sagatavošanas posmu novietojuma tipu un galīgās nosūtīšanas novietojuma tipu definēšanas procesu.
 -   **Novietojumi** — novietojuma informācijas zemākais līmenis. Novietojumi tiek izmantoti, lai izsekotu, kur rīcībā esošie krājumi tiek glabāti un izdoti noliktavā.
 
 Elementi, ko izveidojat, lai definētu savas noliktavas izkārtojumu, tiek izmantoti vaicājumos, kurus iestatāt darbu veidnēs, lai noliktavā vadītu darba pasūtījumus. Tādēļ, kad definējat zonas, novietojumu tipus un citus elementus, ņemiet vērā veidu, kā dažādi apgabali noliktavā tiek izmantoti dažādiem procesiem. Turklāt ņemiet vērā arī tādus faktorus kā konkrēta apgabala fiziskie raksturlielumi. Piemēram, var būt apgabali, kur varat izmantot tikai noteikta veida autoiekrāvēju. Vai arī, ja jūsu uzņēmumam vienās telpās ir gan ražošanas, gan pabeigtās preces, iespējams, programmatūrā Finance and Operations vēlaties izveidot vienu noliktavu, bet pēc tam abas operācijas sadalīt, izveidojot divas zonu grupas. Piešķiriet saviem elementiem aprakstošus nosaukumus, lai tos būtu vienkārši identificēt, kad tos izmantojat veidņu vaicājumos.
@@ -89,7 +89,7 @@ Katrā kopumu veidnē jums ir jānorāda kopumu apstrādes metodes. Pieejamās m
 
 ### <a name="work-templates"></a>Darbu veidnes
 
-Darbu veidņu definīcijām ir svarīga loma noliktavas vadības darbu procesu definēšanā. Tās nosaka, kāds darbs tiek veikts un kā šis darbs tiek izpildīts. Veidnes var arī ietvert direktīvu kodu, kas saista ar novietojuma direktīvu, lai noteiktu, kur darbs tiek veikts. Darbu veidnes ietver vaicājumu, kas norāda darbu kritērijus. Katrā veidnē ir jāiekļauj vismaz viena izdošanas operācija un viena izvietošanas operācija, lai vadītu pamata darba operāciju rīcībā esošo krājumu nodošanai no viena novietojuma uz citu. 
+Darbu veidņu definīcijām ir svarīga loma noliktavas pārvaldības darbu procesu definēšanā. Tās nosaka, kāds darbs tiek veikts un kā šis darbs tiek izpildīts. Veidnes var arī ietvert direktīvu kodu, kas saista ar novietojuma direktīvu, lai noteiktu, kur darbs tiek veikts. Darbu veidnes ietver vaicājumu, kas norāda darbu kritērijus. Katrā veidnē ir jāiekļauj vismaz viena izdošanas operācija un viena izvietošanas operācija, lai vadītu pamata darba operāciju rīcībā esošo krājumu nodošanai no viena novietojuma uz citu. 
 
 Ja vairākiem darbiniekiem ir jāspēj apstrādāt darbu kādām no jūsu noliktavas operācijām, tad krājumiem var noderēt jēdziena *sagatavošanas posmi* izmantošana un atsevišķa darbu izpildes dažādās darba klasēs.
 
@@ -112,7 +112,7 @@ Kā liecina nosaukums, novietojuma direktīvas tiek izmantotas, lai darbu transa
 
 Lai varētu vieglāk un ātrāk definēt darbības, kas ir saistītas ar katru novietojuma direktīvas rindu, izmantojiet kādu no iepriekš definētajām stratēģijām. Piemēram, varat izmantot stratēģiju **Tukšs novietojums bez ienākoša darba**, lai noliktavā meklētu brīvus novietojumus, vai izmantot stratēģiju **FEFO partijas rezervēšana** izejošajai pārdošanas izdošanai.
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Novietojumu konfigurēšana noliktavā ar iespējotu NPS (uzdevuma ceļvedis)](tasks/configure-locations-wms-enabled-warehouse.md)

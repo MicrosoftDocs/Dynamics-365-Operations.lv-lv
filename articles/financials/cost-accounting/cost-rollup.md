@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 044a943eeba91f5dbebd4dcd70bc8152c4109037
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1150a63fe7c9d51c5fa83f4b0295cfdca7b998dc
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Izmaksu apkopojuma politika un pieskaitāmo izmaksu aprēķināšana 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Izmaksu uzskaite sniedz iespēju gūt ieskatu par to, kā izmaksu plūsma ir saistīta ar organizācijas nodrošinātajām precēm un pakalpojumiem. Lai nodrošinātu izmaksu pārskatāmību, ir svarīgi sadalīt izmaksas pa izmaksu objektiem, pamatojoties uz atbilstošu sadalījuma pamatu. Pēc noklusējuma tiek nodrošināts primāro izmaksu elementa sadalījums, kas ir vajadzīgs dažos gadījumos, taču rada maz vērā ņemamu seku.
 
@@ -297,7 +297,7 @@ Skaidrais **izmaksu sadalījuma** un **izmaksu apkopošanas politiku** nošķīr
 
 
 
-## <a name="see-also"></a>Skatiet arī
+## <a name="additional-resources"></a>Papildu resursi
 -  [Izmaksu objekta dimensijas](cost-objects.md)
 -  [Izmaksu elementu dimensijas](cost-elements.md)
 -  [Dimensiju hierarhijas](dimension-hierarchy.md)

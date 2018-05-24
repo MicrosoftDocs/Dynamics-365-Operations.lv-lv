@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1db68ea5728cc417f0e70675d9074d5b054883da
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6df840de688975b9fa11b866361d88a730426bd0
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="price-simulation"></a>Cenas simulācija
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta informācija par cenu simulāciju piedāvājumiem. Cenu simulācija jums piedāvājuma procesa laikā palīdz novērtēt ieturējumu ietekmi uz turpmāku pārdošanas cenu, pirms piekrītat lietot noteiktu cenu.
 
@@ -36,7 +36,7 @@ Piedāvājuma cenas simulācija rāda jaunu kopsummu, balstoties uz ierosināto 
 
 Cenas simulācija nemaina cenu piedāvājumā. Ja cenas simulācija tiek lietota visam piedāvājumam, tā tiek apstrādāta kā īpaša atlaide piedāvājuma virsrakstā. Ja cenas simulācija tiek lietota noteiktiem krājumiem, tā tiek apstrādāta kā īpaša atlaide piedāvājuma rindās. Kad tiek lietota cenas simulācija, jau izveidotā vienības pārdošanas cena piedāvājuma rindā nemainās. Tā vietā tiek pielietoti atlaides procenti, kas attiecas uz cenas samazinājumu kotācijas rindā. Kad tiek lietota cenas simulācija, vienības pārdošanas cena un atlaides procenti tiek pārsūtīti uz piedāvājuma rindu vai piedāvājuma virsrakstu.  
 
-**Piezīme.** Kad palaižat cenas simulāciju, simulācijas izveidei tiek izmantota tikai pašreizējā pārdošanas valūta. Taču, kad apskatāt piedāvājuma kopsummas, redzat uzņēmuma valūtas un pārdošanas valūtas kombināciju.  
+>[Piezīme!] Kad palaižat cenas simulāciju, simulācijas izveidei tiek izmantota tikai pašreizējā pārdošanas valūta. Taču, kad apskatāt piedāvājuma kopsummas, redzat uzņēmuma valūtas un pārdošanas valūtas kombināciju.  
 
 Papildu krājumi, kas tiek pievienoti piedāvājuma rindām, var izraisīt rindas atlaides vai vairākrindu atlaides. Tie var izraisīt arī kopējās atlaides, kas maina piedāvājuma rindu un visas atlaides seguma summas un seguma summas likmes.  
 

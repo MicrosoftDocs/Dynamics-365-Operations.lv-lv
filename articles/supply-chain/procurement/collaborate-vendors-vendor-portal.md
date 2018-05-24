@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 25dd62081e4a6e196bffaa6cc72ff40ed68c736c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2fa152c5586a1122a109762780d23fd8c2240702
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Sadarbība ar kreditoriem, izmantojot kreditoru portālu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā iepirkuma aģenti var izmantot kreditoru portālu, lai sadarbotos ar ārējiem kreditoriem pirkšanas pasūtījumu apstiprināšanas procesa laikā. Šī informācija attiecas tikai uz 2016. februāra un 2016. gada maija Dynamics AX versijām.
 
@@ -96,7 +96,7 @@ Tālāk redzamajā tabulā ir parādīts statusa un versijas izmaiņu piemērs, 
 |                           Jūs nosūtāt PP jauno versiju uz kreditoru portālu.                            |                                                                                                                                                                    Jaunā versija tiek reģistrēta kreditoru portālā, un statuss tiek mainīts uz <strong>Tiek pārskatīts ārēji</strong>.                                                                                                                                                                     |
 |                                Kreditors apstiprina PP jauno versiju.                                 |                                                                                                                                                     Statuss tiek mainīts uz <strong>Akceptēts</strong> automātiski vai saņemot atbildi no kreditora un pēc tam akceptējot PP.                                                                                                                                                     |
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Kreditoru sadarbības lietotāju drošības konfigurācija](configure-security-vendor-portal-users.md)

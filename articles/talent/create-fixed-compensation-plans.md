@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c5d13024ba15744f81406c4c8f5d5d33de658d63
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cea4aec80bc0b519a6b393724835555b4d0937a8
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-fixed-compensation-plans"></a>Fiksētas atlīdzības plāna izveide
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Fiksēta atlīdzība attiecas uz darbinieka regulāro bruto algu vai darba samaksu. Šajā tēmā ir aprakstīti komponenti, kas ir jāiestata, lai varētu izveidot fiksētas atlīdzības plānu un reģistrēt darbiniekus.
 
@@ -101,7 +101,7 @@ Tagad var piešķirt darbiniekam fiksētas atlīdzības plānu. Lapā **Darbinie
 
 Sistēma pārbaudīs, vai atlīdzības summa, kas norādīta atlīdzības plānā ar pakāpes vai indeksa veidu, ir starp noteikto darbinieka darba atlīdzības līmeņa minimālo un maksimālo atsauces punktu. Ja atlīdzības summa ir ārpus atļautā diapazona, atkarībā no tolerances līmeņa, kas ir iestatīts fiksētas atlīdzības plānā, tiek parādīts brīdinājums vai kļūdas ziņojums.
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Atlīdzības plāni](compensation-plans.md)

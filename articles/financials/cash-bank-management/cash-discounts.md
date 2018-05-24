@@ -19,25 +19,24 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9960af8c4961a42e7e829077da40bcbbf3bc71c2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5ccf41d1184280d3c4a000db13847733fd2cf4d2
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cash-discounts"></a>Termiņatlaides
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Termiņatlaides tiek iestatītas un koplietotas moduļiem Parādi kreditoriem un Debitoru parādi.  Pieejamo termiņatlaidi var definēt debitora rēķinā vai kreditora rēķinā, un tā tiek izmantota, ja rēķins tiek apmaksāts termiņatlaides datumu diapazonā. 
 
-<a name="cash-discounts"></a>Termiņatlaides
---------------
+## <a name="cash-discounts"></a>Termiņatlaides
 
 Gan debitoriem, gan kreditoriem termiņatlaides var izveidot lapā Termiņatlaides. Izmantojot lauku Nākamais atlaižu kods, varat arī norādīt sēriju ar termiņatlaidēm, kas seko viena otrai, beidzoties iepriekšējās termiņatlaides datumiem. Plašāku informāciju skatiet tālāk šajā tēmā, sadaļā “Piemērs. Termiņatlaižu sērijas”. Ja rēķins, kredīta transakcija (maksājums vai kredīta nota) vai tie abi tiek ievadīti valūtā, kas nav juridiskās personas uzskaites valūta, tad termiņatlaide tiek aprēķināta, izmantojot valūtas maiņas kursu, kurš ir balstīts uz maksājuma vai kredīta notas datumu. Ja rēķins un kredīta dokuments tiek ievadīti dažādās juridiskajās personās un ja uzskaites valūtas šīm juridiskajām personām atšķiras, tad valūtas maiņas kurss tiek ņemts no rēķina juridiskās personas attiecīgā kredīta dokumenta datumā. Plašāku informāciju skatiet tālāk šajā tēmā, sadaļā “Piemērs. Valūtas maiņas kursi termiņatlaidēm”.
-Termiņatlaides galvenā konta pasūtījuma noklusējuma secība
-----------------------------------------------
+
+## <a name="defaulting-order-of-cash-discount-main-account"></a>Termiņatlaides galvenā konta pasūtījuma noklusējuma secība
 
 Ja rēķins ir segts laikā, lai saņemtu termiņatlaidi, šī termiņatlaide tiek automātiski grāmatota uz termiņatlaides galveno kontu atbilstoši šādai noklusējuma prioritātei:
 1.  Galvenais konts, kas norādīts laukā Alternatīvais termiņatlaides konts debitora lapā Nosegt atvērtās transakcijas vai kreditora lapā Nosegt atvērtās transakcijas.
@@ -65,15 +64,7 @@ Jūsu juridiskās personas uzskaites valūta ir EUR, un šāds valūtas maiņas 
 
 Rēķins par 1000 USD ar termiņatlaides nosacījumiem 20D2% tiek grāmatots 15. februārī. Rēķina summa uzskaites valūtā ir 1100 EUR. Maksājums par 980 USD šim rēķinam tiek nosegts 1. martā. Termiņatlaides summa ir 20 USD. Maksājuma summa uzskaites valūtā ir 784 EUR. Termiņatlaides uzskaites valūtas summa tiek aprēķināta, izmantojot valūtas maiņas kursu no 1. marta: 20 \* 80 / 100 = 16 EUR.
 
-| **Piezīme**                                                                                                                                                                                                                             |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ja lapā Debitoru moduļa parametri vai Kreditoru moduļa parametri ir atlasīta opcija Aprēķināt termiņatlaides daļējiem maksājumiem, tiek izmantots valūtas maiņas kurss, kas ir spēkā katra daļējā maksājuma datumā. |
-
- 
-=
-
- 
-
-
+> [!NOTE]
+> Ja lapā Debitoru moduļa parametri vai Kreditoru moduļa parametri ir atlasīta opcija Aprēķināt termiņatlaides daļējiem maksājumiem, tiek izmantots valūtas maiņas kurss, kas ir spēkā katra daļējā maksājuma datumā. 
 
 

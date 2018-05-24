@@ -19,18 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ee9baefc95c24d23edca8438792c9648f77e1bdf
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d01ef1c496c7c79795d9d740ee755e84434dfdf1
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-order-overview"></a>Pirkšanas pasūtījuma apskats
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Šajā rakstā ir sniegta vispārīga informācija par pirkšanas pasūtījumiem (PP) un saites uz papildu rakstiem, kas ir saistīti ar dažādajiem PP apstrādes posmiem.
 
@@ -82,10 +82,10 @@ Lauks **Apstiprinājuma statuss** tiek izmantots, kad pirkšanas pasūtījumam t
 -   **Ratificēts** — šis statuss tiek piešķirts pēc tam, kad pasūtījums ir ratificēts. Parasti šis statuss ir pēdējais apstiprinājuma statuss, kas pasūtījumam tiek piešķirts.
 
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
-[Pirkšanas pasūtījuma izveide](purchase-order-creation.md)
+[Pirkšanas pasūtījuma izveidošana](purchase-order-creation.md)
 
 [Pirkšanas pasūtījumu apstiprināšana un ratificēšana](purchase-order-approval-confirmation.md)
 

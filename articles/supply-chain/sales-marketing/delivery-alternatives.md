@@ -20,23 +20,23 @@ ms.author: crytt
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 58c083b2fa76e90d10ec8a197a4743a9e315db46
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 855fdd0e57a7001628b715038785379d5a986789
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="delivery-alternatives"></a>Piegādes alternatīvas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-Pārdošanas pasūtījumu ņēmēji var izmantot lapu Piegādes alternatīvas, lai uzzinātu par alternatīvām pasūtījumu izpildes iespējām.
+Pārdošanas pasūtījumu ņēmēji var izmantot lapu **Piegādes alternatīvas**, lai uzzinātu par alternatīvām pasūtījumu izpildes iespējām.
 
-Programmas Microsoft Dynamics 365 for Operations versijā 1611 (2016. gada novembris) pārdošanas pasūtījumu ņēmēji var izmantot lapu **Piegādes alternatīvas**, lai uzzinātu par alternatīvām pasūtījumu izpildes iespējām. Pārveidotais lapas izkārtojums sniedz labāku pārskatu par visām alternatīvajām iespējām. Tas arī ļauj pasūtījuma ņēmējiem palūkoties ārpus pašreizējā uzņēmuma attiecībā uz izpildes iespējām. Tagad tie var skatīt gan starpuzņēmumu iespējas, gan iespējas no ārējiem kreditoriem. Sakārtojot iespējas pēc piegādes datuma, pārdošanas pasūtījumu ņēmēji var skatīt viedo piegādes alternatīvu sarakstu. Turklāt parametri palīdz tiem labāk pārvaldīt ieteiktās piegādes. Tā kā transportēšanas laiks var ietekmēt piegādes datumus, pārdošanas pasūtījumu ņēmēji var izpētīt dažādas transportēšanas iespējas, kuras piedāvā pārvadātāji. Tā kā katram ieteikumam tiek parādīta detalizēta informācija, pasūtījumu ņēmēji var pieņemt pamatotus lēmumus tieši no lapas **Piegādes alternatīvas**.
+Pārveidotais lapas **Piegādes alternatīvas** izkārtojums sniedz pārskatu par visām alternatīvajām iespējām. Tas arī ļauj pasūtījuma ņēmējiem palūkoties ārpus pašreizējā uzņēmuma attiecībā uz izpildes iespējām. Tagad tie var skatīt gan starpuzņēmumu iespējas, gan iespējas no ārējiem kreditoriem. Sakārtojot iespējas pēc piegādes datuma, pārdošanas pasūtījumu ņēmēji var skatīt viedo piegādes alternatīvu sarakstu. Turklāt parametri palīdz tiem labāk pārvaldīt ieteiktās piegādes. Tā kā transportēšanas laiks var ietekmēt piegādes datumus, pārdošanas pasūtījumu ņēmēji var izpētīt dažādas transportēšanas iespējas, kuras piedāvā pārvadātāji. Tā kā katram ieteikumam tiek parādīta detalizēta informācija, pasūtījumu ņēmēji var pieņemt pamatotus lēmumus tieši no lapas **Piegādes alternatīvas**.
 
 ## <a name="open-the-delivery-alternatives-page"></a>Lapas Piegādes alternatīvas atvēršana
-Varat atvērt lapu **Piegādes** **alternatīvas** no pārdošanas pasūtījuma rindas.
+Varat atvērt lapu **Piegādes alternatīvas** no pārdošanas pasūtījuma rindas.
 
 1.  Noklikšķiniet uz **Preces un piegāde** &gt; **Piegādes alternatīvas**.
 2.  Noklikšķiniet uz **Rindas informācija** &gt; **Piegāde** &gt; **Piegādes alternatīvas.**
@@ -146,7 +146,7 @@ Informācija šajā cilnē ir saistīta ar piegādes alternatīvo rindu, kas tie
 
 Šī cilne izceļ atlasītās piegādes alternatīvas ietekmi. Noklikšķinot uz **Labi**, pārdošanas rinda tiek atjaunināta ar izceltajām vērtībām ATLASĪTAJĀS kolonnās. Ņemiet vērā, ka gadījumā, ja atlasītajai piegādes alternatīvai daudzums ir mazāks nekā daudzums pārdošanas rindā, tiek izveidots piegādes grafiks un pasūtījuma rinda tiek sadalīta divās rindās: viena rinda ir paredzēta atlasītajam daudzumam un otra rinda — atlikušajam daudzumam. Varat arī atjaunināt komerciālo rindu tā, lai tā atbilst grafika rindām un ietekmē cenu noteikšanu.
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Pasūtījumu solīšana](delivery-dates-available-promise-calculations.md)

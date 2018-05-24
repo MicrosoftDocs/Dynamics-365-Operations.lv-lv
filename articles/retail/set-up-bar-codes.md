@@ -20,16 +20,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bfb47e653cc3ef36135fd7c4f60771a354699af7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e4ad8c2a984229b96cc5b81c0fd505a264ba58f0
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-bar-codes"></a>Iestatīt svītrkodus
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šajā rakstā ir aprakstīts, kā izmantot svītrkodus programmā Microsoft Dynamics 365 for Retail.
 
@@ -41,7 +41,7 @@ Preču iepirkšanai un pārdošanai, preces variantu izsekošanai un debitoru un
 4.  Izveidojiet noteiktu preču svītrkodus.
 
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Svītrkodu masku iestatīšana](set-up-bar-code-masks.md)

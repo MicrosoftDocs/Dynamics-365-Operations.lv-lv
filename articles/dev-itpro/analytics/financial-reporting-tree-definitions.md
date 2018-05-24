@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 78dd1b5e0a19690ffefdb03de495061ef51f2e16
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ec1286f1f3fb75cefd40f3982ec62d5ed078299c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Atskaišu koka definīcijas finanšu atskaitēs
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta informācija par atskaišu koku definīcijām. Atkaišu koka definīcija ir atskaites komponents jeb veidošanas bloks, kas palīdz definēt jūsu organizācijas struktūru un hierarhiju.
 
@@ -202,11 +202,11 @@ Nākamajos piemēros ir parādīta iespējamā informācija, kas tiek izmantota 
 
 [![MutliCompanyRollUp](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
-#### <a name="example-2"></a>2. piemērs
+#### <a name="example-2"></a>2. piemērs
 
 [![CrossCompanyDepartmentRollUp](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
-# <a name="see-also"></a>Skatiet arī
+# <a name="additional-resources"></a>Papildu resursi
 
 [Finanšu pārskati](financial-reporting-intro.md)
 

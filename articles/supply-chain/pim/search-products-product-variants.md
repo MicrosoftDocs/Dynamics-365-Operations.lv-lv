@@ -1,6 +1,6 @@
 ---
-title: "Meklēt preces un preces variantus pasūtījuma izveides laikā"
-description: "Izmantojiet lauku <strong>Krājuma kods </strong>, lai meklētu preces un preču variantus, manuāli izveidojot pārdošanas pasūtījuma vai pirkšanas pasūtījuma rindas.  Tas ļauj jums ātri atrast preces variantus, ja jums ir tikai konfigurācijas virkne, vai vienu no pieejamajām preces dimensijām."
+title: "Preču un preces variantu meklēšana pasūtījuma izveides laikā"
+description: "Izmantojiet lauku **Krājuma kods**, lai meklētu preces un preču variantus, manuāli izveidojot pārdošanas pasūtījuma vai pirkšanas pasūtījuma rindas. Tas ļauj jums ātri atrast preces variantus, ja jums ir tikai konfigurācijas virkne, vai vienu no pieejamajām preces dimensijām."
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
@@ -20,20 +20,20 @@ ms.author: conradv
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2441f7cbf95512677f62eb862be99af90f3c4b17
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d6a45d89ba20994c06a77c646fa5099fa34b3b2e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="search-for-products-and-product-variants-during-order-entry"></a>Meklēt preces un preces variantus pasūtījuma izveides laikā
+# <a name="search-for-products-and-product-variants-during-order-entry"></a>Preču un preces variantu meklēšana pasūtījuma izveides laikā
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [Retail name](../includes/retail-name.md)]
+[!include [Retail name](../includes/retail-name.md)]
 
-Izmantojiet lauku <strong>Krājuma kods </strong>, lai meklētu preces un preču variantus, manuāli izveidojot pārdošanas pasūtījuma vai pirkšanas pasūtījuma rindas.  Tas ļauj jums ātri atrast preces variantus, ja jums ir tikai konfigurācijas virkne, vai vienu no pieejamajām preces dimensijām.
+Izmantojiet lauku **Krājuma kods**, lai meklētu preces un preču variantus, manuāli izveidojot pārdošanas pasūtījuma vai pirkšanas pasūtījuma rindas.  Tas ļauj jums ātri atrast preces variantus, ja jums ir tikai konfigurācijas virkne, vai vienu no pieejamajām preces dimensijām.
 
 Dažreiz pārāk liels elementu skaits var apgrūtināt darbu jo īpaši, ja pārdodat līdzīgas preces un vēlaties iegaumēt krājumu numurus vai preču meklēšanas nosaukumus, lai atrastu pareizo preci, ko pievienot pārdošanas pasūtījumam. Kā meklēšanas lauku varat izmantot lauku **Krājuma numurs** pārdošanas pasūtījuma rindā vai pirkšanas pasūtījuma rindā. Jūs varat ievadīt jebkuru preces nosaukuma daļu, kodu vai dimensiju, un iegūt uzmeklēšanu, kas parāda visus vienumus, kas atbilst meklēšanas vārdam.
 
@@ -47,7 +47,7 @@ Meklējot preces vai preces variantus, ir svarīgi saprast, kā meklēšanas lī
 
 ### <a name="examples"></a>Piemēri
 
-Šajos piemēros tiek izmantotas preces un preču varianti, lai parādītu kā meklēšana tiek veikta dažādās situācijās. **Priekšnosacījums:** sadaļā **Pārdošana un mārketings &gt; Iestatījumi &gt; Meklēšana &gt; Meklēšanas parametri** &gt; **Meklēšanas tips** atlasiet opciju **Pilnīga sakritība**.
+Šajos piemēros tiek izmantotas preces un preču varianti, lai parādītu kā meklēšana tiek veikta dažādās situācijās. **Priekšnosacījums:** sadaļā **Pārdošana un mārketings &gt; Iestatīšana &gt; Meklēšana &gt; Meklēšanas parametri &gt; Meklēšanas tips** atlasiet opciju **Pilnīga sakritība**.
 
 | Preces veids     | Preces nosaukums    | Parādīt preces numuru | Krājums | Konfigurācija |
 |------------------|-----------------|------------------------|-------------|---------------|
@@ -72,7 +72,7 @@ Preces un preces variantu identifikatoru un dimensiju piemēri, kurus jūs varat
 
 Pārejiet uz sadaļu **Pārdošana un mārketings &gt; Iestatījumi &gt; Meklēšana &gt; Meklēšanas kritēriji**. Lapa **Meklēšanas kritēriji** ļauj definēt debitoru, potenciālo klientu un preču meklēšanas kritērijus. Pārliecinieties, ka filtrējat lapu, izmantojot preču meklēšanas kritērijus. To var paveikt, lapas izvēlnē pārslēdzoties uz **Prece**.  
 
-Lai meklēšanas kritērijiem pievienotu parādāmo preces numuru, lapas izvēlnē noklikšķiniet uz <strong>Jauns</strong>. Tādējādi režģī <strong>Meklēšanas kritēriji</strong> tiek pievienots jauns ieraksts. Atveriet kolonnas uzmeklēšanu <strong>Lauka nosaukums</strong>, un atlasiet <strong>DisplayProductNumber</strong>. Lai preces konfigurāciju pievienotu meklēšanas kritērijiem, izveidojiet jaunu ierakstu režģī <strong>Meklēšanas kritēriji</strong>, un kolonnā <strong>Lauka nosaukums</strong> atlasiet **configId**. Tādā pašā veidā, izveidojiet ierakstu ar <strong>Lauka nosaukumu</strong> <strong>InventColorId</strong> krāsu dimensijai, <strong>InventSizeId</strong> izmēra dimensijai un <strong>InventStyleId</strong> stila dimensijai.
+Lai meklēšanas kritērijiem pievienotu parādāmo preces numuru, lapas izvēlnē noklikšķiniet uz **Jauns**. Tādējādi režģī **Meklēšanas kritēriji** tiek pievienots jauns ieraksts. Atveriet kolonnas uzmeklēšanu **Lauka nosaukums**, un atlasiet **DisplayProductNumber**. Lai pievienotu preces konfigurāciju meklēšanas kritērijiem, izveidot jaunu ierakstu režģī **Meklēšanas kritēriji**, un atlasiet **configId** kolonnā **Lauka nosaukums**. Tādā pašā veidā, izveidojiet ierakstu ar **Lauka nosaukumu** **InventColorId** krāsu dimensijai, **InventSizeId** izmēra dimensijai un **InventStyleId** stila dimensijai.
 
 ### <a name="step-2-populate-the-database-table-that-is-used-for-product-search"></a>2. solis: aizpildiet datu bāzes tabulu, kas tiek izmantota preču meklēšanā
 

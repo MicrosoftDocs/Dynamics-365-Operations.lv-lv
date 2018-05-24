@@ -20,16 +20,16 @@ ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7af00d0c66f70aa41cfab0ffccef39ba4c115803
-ms.openlocfilehash: 4026fa937ddf88f006cdcd13a8eda10c326ada62
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 95e7f5179ac88c0cd6b2336a914c2c527d37d57f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="routes-and-operations"></a>Maršruti un operācijas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par maršrutiem un operācijām. Maršruts definē preces vai preces varianta ražošanas procesu. Tas raksturo katru ražošanas procesa darbību (operāciju) un šo darbību veikšanas secību. Maršruts definē arī katrai darbībai nepieciešamos operācijas resursus, nepieciešamo iestatīšanas un izpildes laiku un lietojamo izmaksu aprēķināšanas veidu.
 
@@ -230,7 +230,7 @@ Ja operācijas resursu vajadzību ietvaros nenorādāt operācijas resursu vai r
 -   **Resursu partija** — šī opcija ir gandrīz tāda pati kā opcija **Partija**. Taču aprēķinā tiek ietverts operācijas resursa lauks **Paketes noslodze**. Tāpēc laiks ir atkarīgs no resursa.
 
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Materiālu komplekti un formulas](bill-of-material-bom.md)

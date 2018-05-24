@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 714a892ff4c168ee3ba1cefd25ae18345af5631b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b4805d343518a880ad0d6e6568c5493583a17783
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>Novirzes punktu noņemšana no vēsturiskiem transakciju datiem, aprēķinot pieprasījuma apjoma prognozi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir aprakstīts, kā izslēgt novirzes punktus no vēsturiskajiem datiem, kas tiek izmantoti, lai aprēķinātu pieprasījuma apjoma prognozi. Izslēdzot novirzes punktus, jūs varat uzlabot prognozes precizitāti.
 
@@ -43,7 +43,7 @@ Varat izslēgt novirzes punktus, lai uzlabotu prognozes precizitāti. Šis uzdev
 
 **Piezīme.** Varat arī izveidot vaicājumu, kas ir balstīts uz esošu vaicājumu. Atlasiet vaicājumu, ko vēlaties kopēt, un pēc tam noklikšķiniet uz **Dublēt**. Laukā **Vaicājuma datums** tiek identificēta versija. Šo vaicājumu var lietot tādu, kāds tas ir, vai varat noklikšķināt uz **Rediģēt vaicājumu**, lai modificētu kritērijus. Pēc izvēles varat modificēt jaunā vaicājuma nosaukumu un aprakstu.
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Ievads par pieprasījuma prognozēšanu](introduction-demand-forecasting.md)

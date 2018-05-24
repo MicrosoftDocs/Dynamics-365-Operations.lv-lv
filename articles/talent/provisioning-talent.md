@@ -18,15 +18,15 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b4b54e97bdebc158adc3bc6d57a6661cd536f5fb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 343e372ad9e29372649e975a5bee16e8913b66c8
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a>Microsoft Dynamics 365 for Talent nodrošināšana
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šajā tēmā ir izklāstīta jaunas ražošanas vides nodrošināšana pakalpojumam Microsoft Dynamics 365 for Talent. Šajā tēmā tiek pieņemts, ka pakalpojumu Talent iegādājāties, izmantojot mākoņrisinājumu nodrošinātāja (Cloud Solution Provider — CSP) vai uzņēmuma arhitektūras (Enterprise Architecture — AE) līgumu. Ja jums ir Microsoft Dynamics 365 licence, kur jau ir ietverts Talent pakalpojumu plāns, bet nevarat izpildīt šajā tēmā aprakstītās darbības, sazinieties ar atbalsta dienestu.
 
@@ -54,17 +54,18 @@ Kad esat izveidojis LCS projektu, pakalpojumu Talent varat nodrošināt kādā v
     > Lai skatītu esošās vides vai izveidotu jaunas vides, tā nomnieka administratoram, kurš nodrošina pakalpojumu Talent, ir jābūt piešķirtai PowerApps P2 licencei. Ja jūsu organizācijai nav PowerApps P2 licences, tādu varat saņemt no sava CSP vai no [PowerApps izcenojuma lapas](https://powerapps.microsoft.com/en-us/pricing/).
 
 4. Atlasiet **Pievienot** un pēc tam atlasiet vidi, kurā nodrošināt pakalpojumu Talent.
-5. Atlasiet **Jā**, lai piekristu nosacījumiem un sāktu izvietošanu.
+5. Atlasiet opciju “Iekļaut demonstrācijas datus”, ja vēlaties jūsu vidē iekļaut to pašu demonstrācijas datu kopu, kas izmantota Talent izmēģinājuma vides ietvaros.  Tas ir izdevīgi ilgtermiņa demonstrācijas vai apmācības vidē, un to nekādā gadījumā nedrīkst lietot ražošanas vidē.  Ņemiet vērā, ka šī opcija ir jāizvēlas pēc sākotnējās izvietošanas un ka esošo izvietojumu nevar atjaunināt vēlāk.
+6. Atlasiet **Jā**, lai piekristu nosacījumiem un sāktu izvietošanu.
 
     Jūsu jaunā vide tiek rādīta navigācijas rūts kreisajā pusē, sarakstā ar vidēm. Taču vidi nevar sākt izmantot, kamēr izvietošanas statuss tiek atjaunināts uz **Izvietots**. Šis process parasti aizņem tikai dažas minūtes. Ja nodrošinājuma process ir nesekmīgs, sazinieties ar atbalsta dienestu.
 
-6. Atlasiet **Pieteikties pakalpojumā Talent**, lai izmantotu jauno vidi.
+7. Atlasiet **Pieteikties pakalpojumā Talent**, lai izmantotu jauno vidi.
 
 > [!NOTE]
 > Ja vēl neesat izpildījis gala prasības, projektā varat izvietot Talent testa instanci. Pēc tam šo instanci varat lietot sava risinājuma testēšanai līdz brīdim, kad izrakstāties. Ja testēšanai lietojat savu jauno vidi, šī procedūra ir jāatkārto, lai izveidotu ražošanas vidi.
 
 > [!NOTE]
-> Talent vides, kas tiek nodrošinātas, izmantojot LCS, nesatur demonstrācijas datus, kas ir konfigurēti personāla vadības (HR) uzdevumiem vai tiek izmantoti tikai pakalpojumā Talent. Ja jums ir nepieciešama vide, kas satur demonstrācijas datus, mēs iesakām pieteikties bezmaksas 60 dienu [Talent izmēģinājuma videi](https://dynamics.microsoft.com/en-us/talent/overview/). Kaut arī izmēģinājuma vide pieder lietotājam, kurš to pieprasīja, citus lietotājus var uzaicināt, izmantojot pamata personāla vadības sistēmas administrēšanu. Izmēģinājuma vides satur fiktīvsu datus, ko var izmantot, lai izpētītu programmu drošā veidā. Šīs vides nav paredzētas izmantošanai kā ražošanas vides. Ņemiet vērā, ka, beidzoties izmēģinājuma vides termiņam pēc 60 dienām, visi tajā esošie dati tiek dzēsti un nevar tikt atgūti. Pēc esošās vides termiņa beigām jūs varat pieteikties jaunai izmēģinājuma videi.
+> Tā kā Talent abonementa ietvaros ir atļautas tikai divas LCS vides, varat apsvērt iespēju izmantot bezmaksas 60 dienu [Talent izmēģinājuma vidi](https://dynamics.microsoft.com/en-us/talent/overview/). Kaut arī izmēģinājuma vide pieder lietotājam, kurš to pieprasīja, citus lietotājus var uzaicināt, izmantojot pamata personāla vadības sistēmas administrēšanu. Izmēģinājuma vides satur fiktīvsu datus, ko var izmantot, lai izpētītu programmu drošā veidā. Šīs vides nav paredzētas izmantošanai kā ražošanas vides. Ņemiet vērā, ka, beidzoties izmēģinājuma vides termiņam pēc 60 dienām, visi tajā esošie dati tiek dzēsti un nevar tikt atgūti. Pēc esošās vides termiņa beigām jūs varat pieteikties jaunai izmēģinājuma videi.
 
 ## <a name="select-a-powerapps-environment"></a>PowerApps vides izvēle
 
@@ -104,35 +105,29 @@ Izpildiet tālāk sniegtos norādījumus, lai palaistu skriptu.
 
 1. Lejupielādējiet failu ProvisionCDSEnvironment.zip no šīs vietnes: [ProvisionCDSEnvironment skripti](https://go.microsoft.com/fwlink/?linkid=870436).  
 
-2. Kādā mapē izgūstiet visu saturu no ZIP arhīva faila ProvisionCDSEnviroinment.zip.
+2. Lejupielādes mapē ar peles labo pogu noklikšķiniet uz tikko lejupielādētā faila ProvisionCDSEnvironment.zip un atlasiet **Rekvizīti**.  Ja dialoglodziņa apakšdaļā ir drošības piezīme, kurā norādīts “Šis fails ir no cita datora un var tikt bloķēts, lai palīdzētu aizsargāt šo datoru", atzīmējiet izvēles rūtiņu **Atbloķēt** un pēc tam noklikšķiniet uz **Lietot** un pēc tam uz **Labi**.
 
-3. Palaidiet programmu Windows PowerShell vai Windows PowerShell ISE kā administrators.
+3. Kādā mapē, kas nav saknes mape, izgūstiet visu saturu no ZIP arhīva faila ProvisionCDSEnviroinment.zip.
 
-   Lai uzzinātu vairāk par izpildes politikas iestatīšanu skriptu palaišanai skatiet tēmā [Izpildes politikas iestatīšana](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6).
+4. Palaidiet programmu Windows PowerShell vai Windows PowerShell ISE kā administrators.
+
+   Lai uzzinātu vairāk par izpildes politikas iestatīšanu skriptu palaišanai skatiet tēmā [Izpildes politikas iestatīšana](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6). Ieteicams izmantot “Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process”, taču ievērojiet uzņēmuma drošības politiku un aizveriet PowerShell logu, kad process ir pabeigts. 
   
-4. Programmā PowerShell pārejiet uz mapi, kur izguvāt saturu no ZIP arhīva faila, un palaidiet tālāk norādīto komandu, aizstājot vērtības, kā ir norādīts tālāk.
+5. Programmā PowerShell pārejiet uz mapi, kur izguvāt saturu no ZIP arhīva faila, un palaidiet tālāk norādīto komandu, aizstājot vērtības, kā ir norādīts tālāk.
  
    ```.\ProvisionCDSEnvironment -EnvironmentName MyNewEnvironment -Location YourLocation```
 
     
    **MyNewEnvironment** ir jāaizstāj ar jūsu vides nosaukumu. Šis nosaukums tiek rādīts LCS, un lietotāji to redz, kad izvēlas izmantojamo Talent vidi. 
 
-   **YourLocation** ir jāaizstāj ar vienu no reģioniem, kur tiek atbalstīta programmatūra Talent: unitedsates, europe, australia. 
+   **YourLocation** ir jāaizstāj ar vienu no reģioniem, kur tiek atbalstīta programmatūra Talent: unitedstates, europe, australia. 
 
    **-Verbose** ir izvēles parametrs, kurā tiek norādīta detalizēta informācija, ko nosūtīt atbalsta dienestam problēmu gadījumā.
 
-5. Turpiniet nodrošināšanas procesu.
+6. Turpiniet nodrošināšanas procesu.
  
 
-
 ## <a name="grant-access-to-the-environment"></a>Piekļuves piešķiršana videi
-Pēc noklusējuma videi var piekļūt globālais administrators, kas to izveidoja. Taču citiem programmas lietotājiem piekļuve ir jāpiešķir. Piekļuvi var piesķirt, [pievienojot lietotājus](../dev-itpro/sysadmin/tasks/create-new-users.md) un [piešķirot viņiem atbilstošās lomas](../dev-itpro/sysadmin/tasks/assign-users-security-roles.md) pamata personāla vadības vidē. Jums šie lietotāji ir arī jāpievieno PowerApps videi, lai viņi varētu piekļūt Attract un Onboard programmām. Tālak ir norādīta šī procedūra. Ja jums ir nepieciešama palīdzība darbību veikšanai, skatiet emuāra ierakstu [Iepazīstināšana ar PowerApps administrēšanas centru](https://powerapps.microsoft.com/en-us/blog/introducing-admin-center-for-powerapps/).
+Pēc noklusējuma videi var piekļūt globālais administrators, kas to izveidoja. Taču citiem programmas lietotājiem piekļuve ir jāpiešķir. Piekļuvi var piesķirt, [pievienojot lietotājus](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) un [piešķirot viņiem atbilstošās lomas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles) pamata personāla vadības vidē. Globālajam administratoram, kas izvietoja Talent, ir jāpalaiž arī programmas Attract un Onboard, lai pabeigtu inicializēšanu un iespējotu piekļuvi citiem nomnieku lietotājiem.  Kamēr tas nav izdarīts, citi lietotāji nevarēs piekļūt programmām Attract un Onboard un tiem tiks rādītas piekļuves pārkāpumu kļūdas.
 
-Šo procedūru veic globālais administrators, kas izvietoja Talent vidi.
-
-1. Atveriet [PowerApps administrēšanas centru](https://preview.admin.powerapps.com/environments).
-2. Atlasiet atbilstošās vides.
-3. Cilnē **Drošība** pievienojiet vajadzīgos lietotājus lomai **Vides veidotājs**.
-
-    Ņemiet vērā, ka šī pēdējā darbība, kurā jūs manuāli pievienojat lietotājus PowerApps videi, ir īslaicīga. Tā tiks pabeigta automātiski, kad lietotāji tiks pievienoti pamata personāla vadības vidē.
 

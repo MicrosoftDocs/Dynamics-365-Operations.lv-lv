@@ -19,16 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a61e743898e3e65c0012a7aeb9837e55e9143d01
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8f78eb06930eab26d300fba6fd28333a5ce39cf8
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="175-percent-reducing-balance-depreciation"></a>175 procentu degresīvā nolietojuma aprēķināšanas metode
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegts pārskats par 175 procentu degresīvā nolietojuma aprēķināšanas metodi.
 
@@ -57,7 +57,7 @@ Ja kā nolietojuma aprēķināšanas gadu atlasāt opciju **Kalendārs**, tad la
 
 ### <a name="fiscal"></a>Finanšu
 
-Ja atlasāt lauka **Nolietojuma aprēķina gads** vērtību **Finanšu**, tad 175% regresīvā nolietojuma bilance tiek aprēķināta, pamatojoties uz finanšu gadu finanšu kalendāram, kas ir norādīts šai grāmatai, vai finanšu kalendāram, kas ir atlasīts lapā **Virsgrāmata**. Finanšu kalendāri tiek iestatīti lapā **Finanšu kalendāri**. Papildinformāciju skatiet rakstā [Finanšu kalendāri, finanšu gadi un periodi](..\budgeting\fiscal-calendars-fiscal-years-periods.md).
+Ja atlasāt lauka **Nolietojuma aprēķina gads** vērtību **Finanšu**, tad 175% regresīvā nolietojuma bilance tiek aprēķināta, pamatojoties uz finanšu gadu finanšu kalendāram, kas ir norādīts šai grāmatai, vai finanšu kalendāram, kas ir atlasīts lapā **Virsgrāmata**. Finanšu kalendāri tiek iestatīti lapā **Finanšu kalendāri**. Papildinformāciju skatiet rakstā [Finanšu kalendāri, finanšu gadi un periodi](../budgeting/fiscal-calendars-fiscal-years-periods.md).
 
 Piemēram, finanšu gadam no 1. jūlija līdz 30. jūnijam nolietojuma aprēķins sākas 1. jūlijā. Finanšu gads var būt garāks vai īsāks par 12 mēnešiem. Nolietojums tiek automātiski pielāgots katram periodam, un nākamā finanšu gada garumu nosaka periodu iestatījumi lapā **Finanšu kalendāri**. 
 

@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d6828860d9e56dc8db80a11b4b611b9c0fdc2b62
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a5dcc294b3dde7dc7e0f789d9e7678b75bc699b0
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-requisition-workflow"></a>Pirkšanas pieprasījuma darbplūsma
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā darbplūsmas procesā pārskatīšanas procesa gaitā tiek pārvietoti pirkšanas pieprasījumi no sākotnēja statusa Melnraksts līdz galīgajam statusam Apstiprināts. Kad pirkšanas pieprasījums ir iesniegts pārskatīšanai, tiek uzsākts darbplūsmas process. Kad pirkšanas pieprasījums ir apstiprināts, pirkšanas pasūtījumu var ģenerēt pirkšanas pieprasījuma rindām un iesniegt kreditoram pasūtījuma izpildīšanai.
 
@@ -106,7 +106,7 @@ Izdevumu pārskatītājus var iestatīt lapā **Pirkšanas pieprasījumu izdevum
 
 Lai izmantotu kādu no darbplūsmā iestatītajiem izdevumu pārskatītājiem, opcija **Dalībnieka tips** ir jāiestata uz **Izdevumu dalībnieki** sadaļas **Piešķire**  attiecīgās darbplūsmas elementa rekvizītos.
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Patēriņa pieprasījuma izveide (uzdevuma ceļvedis)](tasks/create-requisition-consumption.md)

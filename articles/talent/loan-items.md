@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ba1b158908ac2328c29f7efe23756248be5be33c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fe8d8812aaa78c7b5558615f586940488f2dc1b2
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="manage-items-lent-to-workers"></a>Darbiniekiem aizdotu krājumu pārvaldīšana
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Patapinājuma priekšmeti ir ieraksti, kas vadītājiem palīdz izsekot fiziskos priekšmetus, kurus jūsu uzņēmums patapina saviem darbiniekiem. 
 
@@ -51,7 +51,7 @@ Vadītāji var skatīt patapinājuma priekšmetus savām tiešajām atskaitēm. 
 Ja priekšmets ir bojāts vai netiek atdots laikā, ievadiet fiktīvu atdošanas ierakstu. Pēc tam dzēsiet priekšmetu vai paturiet to apskatā un mainiet aprakstu, lai norādītu, ka priekšmets nav pieejams.
 
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Personāla vadība](index.md)

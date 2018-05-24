@@ -18,16 +18,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 33cd67bda4d4b868b00cb1c0a062de03d3aa6273
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: eeb56ec9697447ebd2385f3a0a516fcc9dc1bd3e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-task-guides-february-2016"></a>Jauni uzdevumu ceļveži (2016. gada februāris)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir norādīti uzdevumu ceļveži, kas tika izlaisti Microsoft BMP bibliotēkās 2016. gada februārī.  Publicēto bibliotēku klāstā ietilpst (2016. gada februāra) APQC vienotā bibliotēka programmatūrai Microsoft Dynamics AX un (2016. gada februāra) Darba sākšana.
 
@@ -534,7 +534,7 @@ ms.lasthandoff: 11/03/2017
 | Pievienot aprēķinu preces konfigurācijas modelim    | Globālais             |
 | Apstiprināt preces konfigurācijas modeli                 | Globālais             |
 | Izpildīt izlaistas preces šablona pamata iestatīšanu | Globāls             |
-| Uz dimensijām balstītas preces šablona izveide               | Globāls             |
+| Uz ..\financial-dimensions\dimension-based preces šablona izveide               | Globāls             |
 | Izveidot preču klasifikācijas hierarhiju          | Globālais             |
 | Izveidot preces konfigurācijas modeli                  | Globālais             |
 | Izveidot preces šablonu                               | Globālais             |
@@ -547,7 +547,7 @@ ms.lasthandoff: 11/03/2017
 | Preces konfigurācijas modeļa MK uzturēšana        | Globālais             |
 | Preces modeļa maršruta uzturēšana                    | Globāls             |
 | Izlaisto preču pārvaldība                              | Globāls             |
-| Uz dimensijām balstītas preces šablona izlaide              | Globāls             |
+| Uz ..\financial-dimensions\dimension-based preces šablona izlaide              | Globāls             |
 | Datu pārsūtīšana par preču modeļiem                      | Globālais             |
 
 
@@ -719,7 +719,7 @@ ms.lasthandoff: 11/03/2017
 
  
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Jauni vai atjaunināti uzdevumu ceļveži (2016. gada maijs)](new-updated-task-guides-available-may-2016.md)

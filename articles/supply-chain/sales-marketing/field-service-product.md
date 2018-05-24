@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 08cfd2cfa24bef0f0c92126f5d1052a12ceba37a
-ms.openlocfilehash: 699830ce6cd993f3dd3fd4ff744ce5a8b9645c32
+ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
+ms.openlocfilehash: bf5de13fee6db1b467c1cf4d5cc65b46c67b29fe
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
@@ -66,4 +66,12 @@ Risinājumā Finance and Operations datu elementa **Pārdodamas izlaistās prece
 - **Krājumi:** Preces tips = Preču un krājumu modeļu grupa, Uzkrātā prece = Patiess
 - **Krājumos neuzskaitītas preces:** Preces tips = Preču un krājumu modeļu grupa, Uzkrātā prece = Aplams
 - **Pakalpojums:** Preces tips = Pakalpojums
+
+## <a name="template-mapping-in-data-integration"></a>Veidnes kartējums līdzeklī Datu integrācija
+
+Tālāk esošajos attēlos ir redzams veidnes kartējums līdzeklī Datu integrācija.
+
+### <a name="field-service-products-fin-and-ops-to-field-service-products---products"></a>Field Service preces (no Fin and Ops uz Field Service): Preces — Preces
+
+[![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSProduct.png)](./media/FSProduct.png)
 

@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 4da560ca3cce5a28edd2a00506f825d5d88ef0f3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cd5fc329877bbb1f8f4ec26191e66914da29d034
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="system-defined-and-user-defined-table-constraints"></a>Sistēmas definēti un lietotāja definēti tabulas ierobežojumi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir aprakstīti lietotāja un sistēmas definēta preces konfigurācijas modeļa komponentu tabulas divi ierobežojumu veidi. Tabulas ierobežojumi attiecas uz atļauto atribūtu kombināciju matricām, kur katra rinda nosaka vienu iespējamo atribūta vērtību kopu.
 
@@ -61,7 +61,7 @@ Izveidojot sistēmas definētu tabulas ierobežojumu, atlasiet tabulu, ja vēlat
 
 Pirms tabulas ierobežojumu var izmantot preces konfigurācijas modelī, tabulas ierobežojums jāiekļauj ierobežojumā vienā no modeļu komponentiem. Procedūra paredzēta, lai izveidotu jaunu ierobežojumu, atlasītu tabulas ierobežojuma veidu, un pēc tam atlasītu tabulas lietojamo ierobežojuma definīciju. Visbeidzot visi tabulas ierobežojuma lauki jākartē uz atribūtiem preces konfigurācijas modelī.
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Preču konfigurācijas modeļu galvenie jēdzieni](product-configuration-models.md)

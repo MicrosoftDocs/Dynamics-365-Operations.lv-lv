@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 58030df8db467f754ec93ecc3f41585b20f03893
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ee130dd357b5ae678f623630165a1ab787d6ae2c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="report-definitions-in-financial-report-designer"></a>Atskaišu definīcijas finanšu atskaišu veidotājā
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta informācija par atskaišu definīcijām. Atskaites definīcija ir atskaites komponents (jeb veidošanas bloks), kas izmanto rindas definīciju, kolonnas definīciju un papildu atskaišu koka definīciju, lai izveidotu atskaiti. Atskaites definīcija arī sniedz opcijas un iestatījumus, kas noder atskaites pielāgošanai. 
 
@@ -79,8 +79,8 @@ Tālāk redzamajā tabulā ir aprakstītas pārskata definīcijas cilnes un info
 <li>Formatēt detalizētos pārskatus</li>
 <li>Formatēt pārskatu kokus</li>
 <li>Ģenerēt izņēmumu pārskatu</li>
-<li>Norādīt valūtas konvertēšanu</li>
-<li>Apakšsumma un filtra konta detalizēta informācija</li>
+<li>Norādiet valūtas konversiju</li>
+<li>Apakšsummas un filtru konta detaļas</li>
 </ul></td>
 </tr>
 </tbody>
@@ -88,7 +88,7 @@ Tālāk redzamajā tabulā ir aprakstītas pārskata definīcijas cilnes un info
 
 
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Finanšu pārskati](financial-reporting-intro.md)

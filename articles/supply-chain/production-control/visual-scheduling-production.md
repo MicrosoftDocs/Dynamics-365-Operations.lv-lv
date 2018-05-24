@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f7001158a498aa28028167a0f76ad610ec09b43c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c3726038d9782891988e16cb98cf04cf47b7e66c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="gantt-chart-for-job-scheduling"></a>Ganta diagrammas izmantošana darba plānošanā
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Ganta diagramma ir izveidota ar mērķi ražošanas plānotājiem sniegt iespēju kontrolēt un optimizēt ražošanas plānu. Ganta diagramma padara operāciju plūsmu pārredzamu un ļauj viegli pielāgot ražošanas grafiku, vienlaikus ņemot vērā materiālu vai resursu iztrūkumu. Tas palīdz plānotājiem efektīvi izmantot pieejamos resursus, samazināt notiekošos darbus un optimizēt caurlaides laikus ražošanas pasūtījumiem.
 
@@ -156,7 +156,7 @@ Ganta diagrammu var atvērt no tālāk norādītajām lapām.
 |           <strong>Veicamais darbs</strong> (saraksts darbvietā <strong>Ražošanas pārvaldība</strong>)            |                                                                                               Darbvietā <strong>Veicamo darbu saraksts ražošanas vadībā</strong> tiek rādīti darbi no ražošanas un partijas pasūtījumiem, kas notiek atlasītajos darbvietas resursos. Izvēlnes vienumā <strong>Ganta diagramma</strong> varat atvērt Ganta diagrammu, un visi sarakstā atlasītie darbi tiks ielādēti diagrammā.                                                                                               |
 | <strong>Izlaišanai paredzētie ražošanas pasūtījumi</strong> (pieejama darbvietā <strong>Ražošanas pārvaldība</strong>) |                                                                                                                                         Lapa Izlaišanai paredzētie ražošanas pasūtījumi tiek atvērta no darbvietas <strong>Ražošanas pārvaldība</strong>. Šajā lapā tiek rādīti plānotie ražošanas un partijas pasūtījumi, kas gaida izlaišanu. Šajā lapā Ganta diagrammu varat atvērt atlasītajiem ražošanas pasūtījumiem.                                                                                                                                          |
 
-## <a name="see-also"></a>Skatiet arī  
+## <a name="additional-resources"></a>Papildu resursi  
 [Vizuāla plānošana ar Ganta diagrammu ražošanas un partijas pasūtījumiem (video)](https://youtu.be/BtbuShkGj4I)
 
 [Ražošanas vizuālā plānošana (demonstrācijas skripts)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)

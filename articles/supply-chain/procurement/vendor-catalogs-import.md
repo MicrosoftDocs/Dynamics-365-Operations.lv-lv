@@ -1,5 +1,5 @@
 ---
-title: "Importēt piegādātāju katalogus"
+title: "Piegādātāju katalogu importēšana"
 description: "Šajā tēmā ir aprakstīts piegādātāju katalogu datu importēšanas process."
 author: mkirknel
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a56e6ea0a8470f205b1c74379c887c0cac85a6b4
-ms.openlocfilehash: c290bcd4787144fb4dd4232c06d2fb9e1e67ca3e
+ms.sourcegitcommit: ac7754bd6361ad74f7ab4d564ae3114dd4b9f165
+ms.openlocfilehash: caf801ea27ade63c24bb0907313e7f8294c50702
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 04/26/2018
 
 ---
 
-# <a name="import-vendor-catalogs"></a>Importēt piegādātāju katalogus
+# <a name="import-vendor-catalogs"></a>Piegādātāju katalogu importēšana
 [!include[banner](../includes/banner.md)]
 
 ## <a name="vendor-catalogs-import"></a>Piegādātāju katalogu importēšana
@@ -59,7 +59,7 @@ Apstiprinātās preces tiek pievienotas preces šablonam un izlaistas atlasītaj
 
 ## <a name="generate-a-catalog-import-file-template"></a>Kataloga importēšanas faila veidnes ģenerēšana
 
-Kataloga importēšanas faila veidne ir nozares standarta XSD fails, ko izmanto, lai izveidotu CMR failu piegādātāja precēm. Varat izmantot CMR failu, lai izveidotu jaunu katalogu, aizstātu esošu katalogu vai modificētu esošu katalogu.
+Kataloga importēšanas faila veidne ir XSD fails, ko izmanto, lai izveidotu CMR failu piegādātāja precēm. Varat izmantot CMR failu, lai izveidotu jaunu katalogu, aizstātu esošu katalogu vai modificētu esošu katalogu.
 
 1.  Atlasiet **Sagāde un avoti** \> **Katalogi** \> **Piegādātāju katalogi** un veiciet dubultklikšķi uz kataloga, ar kuru vēlaties strādāt.
 

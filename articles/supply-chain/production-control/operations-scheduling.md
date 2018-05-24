@@ -20,16 +20,16 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 81dec9d988b22959df5421b7b84ef532a28e1228
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 660d6b2dfb5fbed58a5c28b77aac3bb4604c7d8d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="operations-scheduling"></a>Operāciju plānošana
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par operāciju plānošanu. Operāciju plānošanu var lietot, lai sniegtu vispārēju ražošanas procesa novērtējumu laika periodam.
 
@@ -75,7 +75,7 @@ Izpildot operāciju plānošanu, var atcelt noteiktas maršruta daļas. Šīs da
 ## <a name="finite-materials"></a>Ierobežoti materiāli
 Ja strādājat ar ierobežotiem materiāliem, plānošana ir atkarīga arī no ražošanai nepieciešamo materiālu pieejamības. Ja nav pietiekami daudz pieejamo sastāvdaļu ražošanai, tā var aizkavēties. Varat balstīt plānošanu uz materiālu izmantošanu, norādot materiālus, kuriem ir jābūt pieejamiem ražošanai. Optimizējot pēc resursu noslodzes un materiālu pieejamības, ražošana tiek aprēķināta saskaņā ar šiem ierobežojumiem. Ražošanas pasūtījuma sākumu nevar plānot, kamēr noslodze un materiāli nav pieejami tajā pašā laikā un nepieciešamajā daudzumā.
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Operāciju plānošanas opcijas](operation-scheduling-options.md)

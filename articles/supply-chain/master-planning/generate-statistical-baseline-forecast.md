@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c71d7632cfdafe48eee49c848982dfa85116df75
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 42ea3a6cf85802fc42c53111d17afbce042a6d44
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="generate-a-statistical-baseline-forecast"></a>Statistiskās bāzlīnijas prognozes ģenerēšana
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šis raksts sniedz informāciju par parametriem un filtriem, kas tiek izmantoti pieprasījuma prognozēšanas aprēķinos. 
 
@@ -64,7 +64,7 @@ Prognozes ģenerēšanas laikā var izmantot starpuzņēmumu plānošanas grupas
 
 Ja prognoze tiek ģenerēta nevis par lielu krājumu kopu, bet, piemēram, tikai par vienu krājumu vai vienu krājumu sadalījuma principu, tad, lai iegūtu labāku rezultātu, varat atzīmēt izvēles rūtiņu **Izmantot pieprasījuma atbildes režīmu** cilnē **Vispārējā plānošana — Iestatījumi — Pieprasījuma prognozēšana** - **Pieprasījuma prognozēšanas parametri — Azure algoritmiskā mācīšanās**.
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Pieprasījuma prognozēšanas iestatīšana](demand-forecasting-setup.md)

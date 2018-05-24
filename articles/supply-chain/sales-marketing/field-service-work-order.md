@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 08cfd2cfa24bef0f0c92126f5d1052a12ceba37a
-ms.openlocfilehash: 854240bef9d6193c8f0f608687b68e6842fe272c
+ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
+ms.openlocfilehash: 933d9755085d507310dd46d96a492d2124647ec3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
@@ -230,7 +230,47 @@ Darba pasūtījumu integrācijai nepieciešams iestatīt pārdošanas izcelsmi. 
 6. Laukā **Pārdošanas izcelsmes tips** iestatiet vērtību **Darba pasūtījuma integrācija**.
 7. Atlasiet **Saglabāt**.
 
-### <a name="template-mapping-in-data-integration"></a>Veidnes kartējums līdzeklī Datu integrācija
 
-(Drīzumā)
+### <a name="setup-in-data-integration"></a>Datu integrācijas iestatīšana
+
+Pārliecinieties, ka pastāv **Integrācijas atslēga** entītijai **msdyn_workorders**
+1. Atveriet sadaļu Datu integrācija
+2. Atlasiet cilni **Savienojumu kopa**
+3. Atlasiet savienojumu kopu, kas tiek izmantota darba pasūtījumu sinhronizācijai.
+4. Atlasiet cilni **Integrācijas atslēga**
+5. Atrodiet msdyn_workorders un pārbaudiet, vai atslēga **msdyn_name (darba pasūtījuma numurs)** ir pievienota. Ja tā nav redzama, pievienojiet to, noklikšķinot uz **Pievienot atslēgu**, un noklikšķiniet uz **Saglabāt** lapas augšpusē
+
+## <a name="template-mapping-in-data-integration"></a>Veidnes kartējums līdzeklī Datu integrācija
+
+Tālāk esošajos attēlos ir redzams veidnes kartējums līdzeklī Datu integrācija.
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderheader"></a>Darba pasūtījumi ar pārdošanas pasūtījumiem (no Field Service uz Fin and Ops): WorkOrderHeader
+
+Filtrs: (msdyn_systemstatus ne 690970005) un (msdyn_systemstatus ne 690970000), un (msdynce_hasexternallymaintainedproductsonly eq true)
+
+[![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderservicelineestimate"></a>Darba pasūtījumi ar pārdošanas pasūtījumiem (no Field Service uz Fin and Ops): WorkOrderServiceLineEstimate
+
+Filtrs: (msdynce_headersystemstatus ne 690970005) un (msdynce_headersystemstatus ne 690970000), un (msdynce_orderhasexternalmaintainedproductsonly eq true), un (msdyn_linestatus eq 690970000), un (msdynce_headersystemstatus ne 690970004)
+
+[![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderservicelineused"></a>Darba pasūtījumi ar pārdošanas pasūtījumiem (no Field Service uz Fin and Ops): WorkOrderServiceLineUsed
+
+Filtrs: (msdynce_headersystemstatus ne 690970005) un (msdynce_headersystemstatus ne 690970000), un (msdynce_orderhasexternalmaintainedproductsonly eq true), un ((msdyn_linestatus eq 690970001), vai (msdynce_headersystemstatus eq 690970004))
+
+[![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderproductlineestimate"></a>Darba pasūtījumi ar pārdošanas pasūtījumiem (no Field Service uz Fin and Ops): WorkOrderProductLineEstimate
+
+Filtrs: (msdynce_headersystemstatus ne 690970005) un (msdynce_headersystemstatus ne 690970000), un (msdynce_orderhasexternalmaintainedproductsonly eq true), un (msdyn_linestatus eq 690970000), un (msdynce_headersystemstatus ne 690970004), un (msdyn_allocated eq true)
+
+[![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderproductlineused"></a>Darba pasūtījumi ar pārdošanas pasūtījumiem (no Field Service uz Fin and Ops): WorkOrderProductLineUsed
+
+Filtrs: (msdynce_headersystemstatus ne 690970005) un (msdynce_headersystemstatus ne 690970000), un (msdynce_orderhasexternalmaintainedproductsonly eq true), un ((msdyn_linestatus eq 690970001), vai (msdynce_headersystemstatus eq 690970004), vai (msdyn_allocated ne true))
+
+[![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
 

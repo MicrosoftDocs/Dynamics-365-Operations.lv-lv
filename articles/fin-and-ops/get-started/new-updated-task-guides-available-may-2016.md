@@ -18,20 +18,20 @@ ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c301f27504f7f1545608bb214a4f1b4d4cecc47f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 237ff2935ab8e2dee90bd716179b45c5fca455c3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-may-2016"></a>Jauni vai atjaunināti uzdevumu ceļveži (2016. gada maijs)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas ir izlaisti Microsoft APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics AX (2016. gada maija visu valodu laidienā). Netika izlaista neviena jauna darba sākšanas bibliotēka. 
 
-<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics AX (2016. gada maija visu valdu laidienā) ietvertie uzdevumu ceļveži
+<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics AX (2016. gada maija visu valdu laidienā) ietvertie uzdevumu ceļveži
 ------------------------------------------------------------------------------------------------
 
 APQC vienotajā bibliotēkā (2016. gada maija laidienā) ir ietverti uzdevumu ceļveži, kurus ir paredzēts izmantot kā palīdzības materiālus kopā ar Microsoft Dynamics AX 2016. gada maija atjauninājumu un Microsoft Dynamics AX 2016. gada februāra laidienu. Šajā bibliotēkā ir pieejamas APQC vienotajā bibliotēkā (2016. gada februāra laidienā) izlaisto uzdevumu ceļvežu lokalizētās versijas. Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Darba sākšana ar palīdzības sistēmu](help-overview.md). <strong>Piezīme.</strong> Zvaigznīte (<strong>\</strong>*) pie biznesa procesu modelētāja (BPM) rindas norāda, ka uzdevumu ceļvedis šim biznesa procesam tika izveidots Dynamics AX 2016. gada atjauninājumam un netiek atbalstīts agrākās Microsoft Dynamics AX versijās.
@@ -186,7 +186,7 @@ APQC vienotajā bibliotēkā (2016. gada maija laidienā) ir ietverti uzdevumu
 |                  Transportēšanas ierobežojumu iestatīšana krājumam                   |     Globāls     |
 |                <strong>\</strong>*Noliktavas darba politiku iestatīšana                 |     Globāls     |
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Jauni uzdevumu ceļveži (2016. gada februāris)](new-task-guides-available-february-2016.md)

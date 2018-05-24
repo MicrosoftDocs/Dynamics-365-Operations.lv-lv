@@ -20,16 +20,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad425ab0848ab04003b7378cb5c488650f01c441
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9082c156fde52aa0c822f8e4753de816f8cc0558
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-screen-layouts-for-pos"></a>Konfigurēt POS ekrāna izkārtojumus
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par Microsoft Dynamics 365 —Retail pārdošanas punkta (POS) ekrāna izkārtojumu.
 
@@ -91,10 +91,10 @@ Katrs ekrāna izkārtojumā ietvertais izkārtojuma lielums ir jākonfigurē, iz
 
 **Ieteiktās preces** — ja videi ir konfigurēta ieteikto preču vadīkla, tā nodrošina preču ieteikumu rādīšanu, pamatojoties uz algoritmisko mācīšanos. Ieteikto preču vadīkla ir pieejam tikai Dynamics 365 for Retail versijas 1611 pilnajos izkārtojumos. **Pielāgota kontrole** — pielāgotā vadīkla darbojas kā vietturis ekrāna izkārtojumā, lai sniegtu lietotājiem iespēju rezervēt vietu pielāgotam saturam. Pielāgotā vadīkla ir pieejama tikai pilnajos izkārtojumos.
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
-[Retail POS izkārtojuma dizainera instalēšana](install-pos-layout-designer.md)
+[Instalēt Retail POS izkārtojuma veidotāju](install-pos-layout-designer.md)
 
 
 

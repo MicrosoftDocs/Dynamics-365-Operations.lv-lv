@@ -1,6 +1,6 @@
 ---
 title: "Kreditoru maksājumu izveide, izmantojot maksājuma priekšlikumu"
-description: "Šajā tēmā ir sniegts maksājumu priekšlikumu opciju pārskats, kā arī ir iekļauti daži piemēri, kas izskaidro, kā maksājumu priekšlikumi darbojas. Maksājumu priekšlikumi bieži tiek izmantoti, lai izveidotu kreditoru maksājumus, jo maksājuma priekšlikuma vaicājumu var izmantot, lai ātri atlasītu apmaksājamos kreditoru rēķinus atbilstoši, piemēram, apmaksas datuma un termiņatlaides, kritērijiem."
+description: "Šajā tēmā ir sniegts maksājumu priekšlikumu opciju pārskats, kā arī ir iekļauti daži piemēri, kas izskaidro, kā maksājumu priekšlikumi darbojas."
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 04/04/2018
@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1199329f7d669a291249e22e393842673a8907c3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5afdace14d1db4b36027634b3af3df1029ae12a2
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Kreditoru maksājumu izveide, izmantojot maksājuma priekšlikumu
+# <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Izveidot kreditoru maksājumus, izmantojot maksājuma priekšlikumu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegts maksājumu priekšlikumu opciju pārskats, kā arī ir iekļauti daži piemēri, kas izskaidro, kā maksājumu priekšlikumi darbojas. Maksājumu priekšlikumi bieži tiek izmantoti, lai izveidotu kreditoru maksājumus, jo maksājuma priekšlikuma vaicājumu var izmantot, lai ātri atlasītu apmaksājamos kreditoru rēķinus atbilstoši, piemēram, apmaksas datuma un termiņatlaides, kritērijiem. 
 
@@ -47,7 +47,7 @@ Maksājuma priekšlikuma vaicājumā ir ietvertas dažādas cilnes, kur ir pieej
 - **Pārbaudīt kreditora bilanci** — ja ir iestatīta šīs opcijas vērtība **Jā**, pirms jebkura rēķina apmaksas sistēmā tiek pārbaudīts, vai kreditoram nav debeta bilances. Ja kreditoram ir debeta bilance, netiek izveidots neviens maksājums. Piemēram, kreditoram var būt kredītrēķini vai maksājumi, kas ir iegrāmatoti, bet vēl nav nosegti. Šādos gadījumos kreditoram nav jāmaksā. Tā vietā kredītrēķini vai maksājumi ir jāsedz ar neapmaksātajiem rēķiniem.
 - **Dzēst negatīvos maksājumus** — šī opcija darbojas atšķirīgi, atkarībā no tā, vai maksājumi tiek veikti par atsevišķiem rēķiniem vai rēķinu kopu, kas atbilst maksājuma kritērijiem. Šī darbība tiek definēta, izmantojot maksāšanas metodi.
 - **Katra rēķina apmaksa** — ja ir iestatīta opcijas **Dzēst negatīvos maksājumus** vērtība **Jā** un kreditoram ir nesegts rēķins un maksājums, apmaksai tiek atlasīts tikai rēķins. Esošais maksājums netiek segts ar rēķinu. Ja ir iestatīta opcijas **Dzēst negatīvos maksājumus** vērtība **Nē** un pastāv nesegts rēķins un maksājums, apmaksai tiek atlasīts gan rēķins, gan maksājums. Maksājumam tiek izveidots maksājums, un maksājumam tiek izveidota atmaksa (negatīvs maksājums).
-- <strong>Rēķinu kopas apmaksa</strong> — ja ir iestatīta opcijas <strong>Dzēst negatīvos maksājumus</strong> vērtība <strong>Jā</strong> un kreditoram ir nesegts rēķins un maksājums, apmaksai tiek atlasīts gan nenosegtais rēķins, gan maksājums un summas tiek saskaitītas, lai iegūtu kopējo maksājuma summu. Vienīgais izņēmums ir gadījumā, ja pēc saskaitīšanas ir jāveic atmaksa. Šādā gadījumā netiek atlasīts ne rēķins, ne maksājums. Ja ir iestatīta opcijas <strong>Dzēst negatīvos maksājumus **vērtība **Nē</strong> un pastāv nesegts rēķins un maksājums, apmaksai tiek atlasīts gan rēķins, gan maksājums un summas tiek saskaitītas, lai iegūtu kopējo maksājuma summu.
+- **Rēķinu kopas apmaksa** — ja ir iestatīta opcijas **Dzēst negatīvos maksājumus** vērtība **Jā** un kreditoram ir nesegts rēķins un maksājums, apmaksai tiek atlasīts gan nenosegtais rēķins, gan maksājums un summas tiek saskaitītas, lai iegūtu kopējo maksājuma summu. Vienīgais izņēmums ir gadījumā, ja pēc saskaitīšanas ir jāveic atmaksa. Šādā gadījumā netiek atlasīts ne rēķins, ne maksājums. Ja ir iestatīta opcijas **Dzēst negatīvos maksājumus** vērtība **Nē** un pastāv nesegts rēķins un maksājums, apmaksai tiek atlasīts gan rēķins, gan maksājums un summas tiek saskaitītas, lai iegūtu kopējo maksājuma summu.
 - **Drukāt tikai pārskatu** — iestatiet šīs opcijas vērtību **Jā**, lai maksājuma piedāvājuma rezultāti tiktu ietverti pārskatā, neizveidojot nevienu maksājumu.
 - **Iekļaut kreditora rēķinus no citām juridiskām personām** — ja jūsu organizācijā tiek izmantots centralizēts maksāšanas process un maksāšanas priekšlikumā ir jāietver rēķini no citām juridiskajām personām, kas ir ietvertas meklēšanas kritērijos, iestatiet šīs opcijas vērtību **Jā**.
 - **Piedāvāt atsevišķu kreditora maksājumu pēc juridiskās personas** — ja ir iestatīta šīs opcijas vērtība **Jā**, katra kreditora katrai juridiskajai personai tiek izveidots atsevišķs maksājums. Maksājumā tiek norādīts tas kreditors, kas ir norādīts katras juridiskās personas rēķinā. Ja ir iestatīta šīs opcijas vērtība **Nē** un vienam kreditoram ir rēķini no vairākām juridiskajām personām, tiek izveidots viens rēķins par atlasīto rēķinu kopsummu. Maksājumā tiek norādīts pašreizējās juridiskās personas kreditors. Ja nepastāv pašreizējās juridiskās personas kreditora konts, tiek izmantots pirmā apmaksājamā rēķina kreditora konts.
@@ -115,7 +115,8 @@ Dimensiju kontrole ļauj kontrolēt ģenerēto rindu grupēšanu pēc maksājuma
 -   Lauks **Dimensiju kontrole** tiek aktivizēts, papildus nedefinējot dimensijas. Maksājuma priekšlikums tiks izveidots, neņemot vērā dimensijas. Izveidotā transakcija nepārmanto dimensijas no izmantotā ieraksta.
 -   Lauks **Dimensiju kontrole** ir aktivizēts, un ir iespējotas papildu dimensijas. Tagad varat definēt, kā dimensijas tiks kopētas uz žurnālu. Piemēram: • atzīmējiet izvēles rūtiņu **Biznesa vienība**, lai maksājuma metodei izveidotu maksājuma priekšlikumu pa biznesa vienībām; • atzīmējiet izvēles rūtiņu **CostCenter**, lai maksājuma metodei izveidotu maksājuma priekšlikumu pa izmaksu centriem
 
-**Piezīme.** Ja trešajai opcijai atlasīsiet vairāk nekā vienu dimensiju, maksājuma piedāvājums tiks izveidots dimensiju kombinācijai.
+> [[!NOTE]
+> Ja trešajai opcijai atlasīsiet vairāk nekā vienu dimensiju, maksājuma piedāvājums tiks izveidots dimensiju kombinācijai.
 
 #### <a name="bank-account-selection"></a>Bankas konta atlase
 

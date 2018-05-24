@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: yuyus
-ms.search.scope: Core (Operations, Core)
+ms.search.scope: Operations, Core
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c055c673443255f3e6dda5e1179e1ef28d90e693
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c2a957038bfad065361b46e85b8195214779cc2d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="optimization-advisor-overview"></a>Optimizācijas padomnieka pārskats
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā jūs varat izmantot optimizācijas padomnieku, lai palīdzētu nodrošināt optimālu Microsoft Dynamics 365 for Finance and Operations konfigurāciju.
 
@@ -50,8 +50,6 @@ Uz optimizācijas iespējām attiecas standarta drošības politikas. Piemēram,
 Kad jūs izmantojat kādu no optimizācijas iespējām, sistēma aprēķina iespējas ietekmi uz biznesa procesu izpildlaika samazināšanos. Diemžēl, šis līdzeklis nav pieejams visām optimizācijas iespējām.
 
 Lai uzzinātu vairāk par optimizācijas padomnieku, noskatieties īso video [Optimizācijas padomnieks programmā Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
-
-> [!Video https://www.youtube.com/embed/MRsAzgFCUSQ]
 
 ## <a name="optimization-rules"></a>Optimizācijas kārtulas
 
@@ -93,7 +91,7 @@ Ja iespēja neattiecas uz jūsu lomu, jūs varat atlasīt **Nerādīt manā sara
 
 Lai deaktivizētu noteiktu kārtulu novērtēšanu, atlasiet kārtulas ģenerēto iespēju un pēc tam atlasiet **Deaktivizēt analīzi**.
 
-## <a name="see-also"></a>Skatiet arī
+## <a name="additional-resources"></a>Papildu resursi
 
 [Jaunu kārtulu izveide](./create-rules-optimization-advisor.md)
 

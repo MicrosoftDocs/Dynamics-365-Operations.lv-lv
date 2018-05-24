@@ -18,16 +18,16 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 911996f9d1854f027f5085725538bd87ba307c25
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7bb152334b3b06c86dff024d0e99aea9bb452deb
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cloud-and-on-premises-feature-comparison"></a>Mākoņa un lokālās versijas līdzekļu salīdzinājums
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir parādīts, vai katrs līdzeklis ir pieejams šajos produktos:
 
@@ -124,11 +124,11 @@ Nākamajās tabulās ir uzskaitīti produktu apgabali. Mākoņa un lokālās ver
 
 ## <a name="dynamics-365-for-talent"></a>Dynamics 365 for Talent
 
-| Apgabals | Līdzeklis | Mākonī | Lokāli|
+| Apgabals | Līdzeklis | Mākonis | Darba telpās|
 |---|---|---|---|
-| Visi Talent apgabali | Visi Talent līdzekļi | Jā | Nē |
+| Visi Talent apgabali | Visi Talent līdzekļi | Jā | Nav |
 
-## <a name="see-also"></a>Skatiet arī
+## <a name="additional-resources"></a>Papildu resursi
 
 - [Līdzekļi, kas nav ieviesti lokālos izvietojumos](features-not-implemented-on-prem.md)
 

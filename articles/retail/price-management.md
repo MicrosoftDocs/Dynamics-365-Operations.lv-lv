@@ -3,7 +3,7 @@ title: "Mazumtirdzniecības pārdošanas cenu pārvaldība"
 description: "Šajā tēmā ir aprakstītas koncepcijas pārdošanas cenu izveidošanai un pārvaldīšanai programmatūrā Microsoft Dynamics 365 for Retail."
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/27/2018
+ms.date: 04/20/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-retail
@@ -18,16 +18,16 @@ ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a7e6babe1bfec60ece4f84a77bbd838faf7274e0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6da38f69abe72665fc79a43e0e163a856f9ee34d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="retail-sales-price-management"></a>Mazumtirdzniecības pārdošanas cenu pārvaldība
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par procesu, ar kādu tiek izveidotas un pārvaldītas pārdošanas cenas programmatūrā Microsoft Dynamics 365 for Retail. Galvenā uzmanība ir pievērsta ar šo procesu saistītajiem jēdzieniem, kā arī dažādo konfigurācijas opciju ietekmei uz pārdošanas cenām.
 
@@ -198,32 +198,6 @@ Sistēma Microsoft SQL Server Express bieži tiek izmantota kanālu datu bāzē
 Kad iestatāt pārdošanas cenas programmatūrā Microsoft Dynamics 365, jūs nenorādāt, vai jūsu iestatītā cenas vērtība ietver vai neietver nodokļus. Šī vērtība ir tikai cena. Taču iestatījums **Cena ietver PVN** mazumtirdzniecības kanālos jums ļauj konfigurēt mazumtirdzniecības kanālus, lai tie cenās ietvertu vai neietvertu nodokļus. Šis iestatījums tiek iestatīts kanālam, un to var mainīt pat vienā uzņēmumā.
 
 Ja strādājat gan ar ietvertu, gan neietvertu nodokļu tipiem, ir ļoti svarīgi cenas iestatīt pareizi, jo kopējā summa, kas debitoram ir jāmaksā, mainās atkarībā no tā, vai attiecīgajam kanālam ir mainīts iestatījums **Cena ietver PVN**.
-
-### <a name="effect-of-the-price-includes-sales-tax-setting-on-financial-postings"></a>Iestatījuma “Cena ietver PVN” ietekme uz finanšu grāmatojumiem
-Iestatījums **Cena ietver PVN** ietekmē visas summas, kas virsgrāmatā tiek grāmatotas ieņēmumu un atlaižu kontiem. Nākamajā piemērā ir parādīts, kā šis iestatījums ietekmē finanšu grāmatojumus.
-
-Šajā piemērā ir aplūkoti tikai pārdošanas grāmatojumi, jo iestatījums **Cena ietver PVN** neietekmē krājumu izmaksu grāmatojumus.
-
-#### <a name="example"></a>Piemērs
-Šajā piemērā atlaižu summas ir konfigurētas tā, lai tās tiktu grāmatotas atsevišķi no ieņēmumiem.
-
-Jūs pārdodat 100 USD preces, kuras nodokļa likme ir 10 procenti, un tiek piemērota 5 procentu atlaide. Tiek izmantoti tālāk uzskaitītie konti no USRT demonstrācijas datiem.
-
-- **Ieņēmumi:** 401100
-- **Atlaide:** 403200
-- **Nodoklis:** 202100
-
-**1. gadījums: Neietver nodokli (sauktu arī par PVN)**
-
-- **Ieņēmumi:** 100 USD
-- **Atlaide:** 5 USD
-- **Nodoklis:** 9,5 USD (= 10 procenti no 95 USD)
-
-**2. gadījums: Ietver nodokli (sauktu arī par pievienotās vērtības nodokli \[PVN\])**
-
-- **Ieņēmumi:** 90 USD
-- **Atlaide:** 4,5 USD (= 5 procenti no 90 USD)
-- **Nodoklis:** 10 USD
 
 ## <a name="differences-between-retail-pricing-and-non-retail-pricing"></a>Atšķirības starp mazumtirdzniecības cenu noteikšanu un cenu noteikšanu, kas nav paredzēta mazumtirdzniecībai
 Tiek izmantota viena un tā pati cenu noteikšanas programma, lai aprēķinātu mazumtirdzniecības cenas visos kanālos: Zvanu centrā, Mazumtirdzniecības veikalā un Tiešsaistes veikalos. Tas palīdz iespējojot vienotos komercijas scenārijus. 

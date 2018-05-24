@@ -19,23 +19,23 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0936ae3b8d07ef221345bda272170e1482f37cbf
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f49c5157294f615b134c9ea0f00b93f70d59f527
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="whats-new-or-changed"></a>Jaunumi un izmaiņas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā lapā ir norādes uz tēmām, kas var palīdzēt jums uzzināt par jaunajiem līdzekļiem Microsoft Dynamics 365 for Finance and Operations Enterprise izdevuma jaunākajās versijās.
 
 Informāciju par jaunināšanu uz pēdējo versiju skatiet sadaļā [Jaunināšana uz pēdējo atjauninājumu](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
 
-[!INCLUDE [release notes](../includes/release-notes.md)]
+[!include [release notes](../includes/release-notes.md)]
 
 ## <a name="application-releases"></a>Programmas laidieni
 
@@ -127,14 +127,14 @@ Informāciju par jaunināšanu uz pēdējo versiju skatiet sadaļā [Jaunināša
 <tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevums</td>
-<td>Platformas 15. atjauninājums</td>
+<td>Platformas update 15</td>
 <td>7.0.4839</td>
-<td>2018. gada marts (Šis ir atlasītās versijas laidiens, kas ir pieejams tikai tiem lietotājiem, kas ir izvēlējušies piedalīties pastāvīgas automātiskās atjaunināšanas priekšrocības programmā (Continuous Auto-update Advantage Program — CAAP). Dynamics 365 for Finance and Operations versijai 8.0 ir pieejams arī Platformas 15. atjauninājums.)</td>
+<td>Platformas 15. atjauninājums ir mērķēts izlaidums, tas nozīmē, ka tas būs pieejams visiem lietotājiem 2018. gada jūnijā.</td>
 <td><a href="whats-new-platform-update-15.md">Jaunumi un izmaiņas Dynamics 365 for Finance and Operations Enterprise Edition 15. platformas atjauninājumā (2018. gada marts)</a></td><tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise izdevums</td>
-<td>Platformas 12. atjauninājums</td>
-<td>7.0.4709</td>
+<td>Platformas update 12</td>
+<td>7.0.4841</td>
 <td>2017. gada novembris</td>
 <td><a href="whats-new-platform-update-12.md">Jaunumi un izmaiņas Dynamics 365 for Finance and Operations, Enterprise Edition Platformas 12. atjauninājumā (2017. gada novembris)</a></td>
 <tbody><tr class="odd">

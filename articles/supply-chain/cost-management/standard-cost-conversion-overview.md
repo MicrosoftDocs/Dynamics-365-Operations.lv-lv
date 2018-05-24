@@ -20,16 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1176ce1fcd406cf363969e60ae388a83d7df210f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2985e58bd308295e1f698c391f57fc3d116835bd
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="standard-cost-conversion-overview"></a>Standarta izmaksu pārveidošanas apskats
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegts procesa pārskats, kas palīdz iestatīt un palaist standarta izmaksu pārveidošanas procesu. Norādītās darbības ir jāveic pēc tam, kad ir pilnībā izpildīti standarta izmaksu pārveidošanas priekšnoteikumi. 
 
@@ -96,7 +96,7 @@ Izmantojot pārskatu **Noviržu analīzes izraksts**, var analizēt pārvērtē�
 -   Analizējiet krājumu kustību transakcijas ar atpakaļejošu datumu. Izmantojiet pārskatu **Krājumu vērtība**, lai skatītu krājuma kustību transakcijas, kas ievadītas pēc pārveidošanas ar atpakaļejošu datumu. Datumiem pārskata laukos No datuma un Līdz datumam jāatbilst pārejas perioda sākuma datumam un pārveidošanas datumam, atņemot vienu dienu. Pārskata atlases kritērijiem ir jāparāda pārveidotie krājumi. Pārskatā ir redzamas krājumu kustību transakcijas, kas ir veiktas ar standarta izmaksām pārejas perioda laikā.
 
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Standarta izmaksu konvertēšanas priekšnoteikumi](prerequisites-standard-cost-conversion.md)
