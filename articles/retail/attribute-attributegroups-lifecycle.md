@@ -1,8 +1,9 @@
 ---
 title: "Atribūti, atribūtu grupas un to saistības ar dažādiem Retail elementiem programmatūrā Finance and Operations"
+description: "Šajā tēmā aprakstīts, kā izmantot atribūtus, lai sniegtu veidu, kā aprakstīt preci un tās īpašības, izmantojot lietotāja definētos laukus."
 author: ashishmsft
 manager: AnnBe
-ms.date: 03/12/2018
+ms.date: 04/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -19,16 +20,16 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 53af4335146be6c163a6d84b60155e1a741c0be4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5e04b1f6ef58836eeac85be074e295e6d1f42c52
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="attributes-attribute-groups-and-their-associations-with-various-retail-entities-in-finance-and-operations"></a>Atribūti, atribūtu grupas un to saistības ar dažādiem Retail elementiem programmatūrā Finance and Operations
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 *Atribūti* nodrošina veidu, kā tālāk aprakstīt preci un tās raksturīgās iezīmes, izmantojot lietotāja definētos laukus (piemēram, **Atmiņas lielums**, **Cietā diska apjoms**, **Ir saderīgs ar Energy Star** un tā tālāk). Programmā Microsoft Dynamics 365 for Finance and Operations atribūtus var saistīt ar dažādām mazumtirdzniecības personām, piemēram, preču kategorijām un mazumtirdzniecības kanāliem, un tiem var iestatīt noklusējuma vērtības. Ja preces ir saistītas ar preču kategorijām vai mazumtirdzniecības kanāliem, tās pārmanto atribūtus un noklusējuma vērtības. Noklusējuma vērtības var būt ignorētas individuālas preces līmenī, mazumtirdzniecības kanāla līmenī vai mazumtirdzniecības katalogā.
  

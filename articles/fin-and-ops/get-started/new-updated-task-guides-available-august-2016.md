@@ -18,20 +18,20 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: 838dc40fb3fa2b0de7fa131850754c3674266d73
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c7fc274bb9d942e85012211b1a7a14873447e5f3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-august-2016"></a>Jauni vai atjaunināti uzdevumu ceļveži (2016. gada augusts)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas ir izlaisti Microsoft APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics AX (2016. gada augusta visu valodu laidienā). Netika izlaista neviena jauna darba sākšanas bibliotēka.
 
-<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics AX (2016. gada augusta visu valdu laidienā) ietvertie uzdevumu ceļveži
+<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics AX (2016. gada augusta visu valdu laidienā) ietvertie uzdevumu ceļveži
 ---------------------------------------------------------------------------------------------------
 
 APQC vienotajā bibliotēkā (2016. gada augusta visu valodu laidienā) ir ietverti uzdevumu ceļveži, kas ir paredzēti izmantošanai kā palīdzības materiāli kopā ar Microsoft Dynamics AX 2. platformas atjauninājumu (2016. gada augusta laidienu), Dynamics AX 2016. gada maija lietojumprogrammas atjauninājumu un Microsoft Dynamics AX 2016.gada februāra laidienu. Papildinformāciju par šiem laidieniem skatiet tēmā [Jaunumi un izmaiņas](whats-new-changed.md). Šajā bibliotēkā ir pieejamas uzdevumu ceļvežu lokalizētās versijas. Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Darba sākšana ar palīdzības sistēmu](help-overview.md).
@@ -97,7 +97,7 @@ APQC vienotajā bibliotēkā (2016. gada augusta visu valodu laidienā) ir iet
 
 
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Jauni uzdevumu ceļveži (2016. gada februāris)](new-task-guides-available-february-2016.md)

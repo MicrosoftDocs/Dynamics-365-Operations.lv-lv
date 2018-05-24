@@ -3,27 +3,28 @@ title: "Preču klāsta pārvaldība"
 description: "Šajā tēmā ir paskaidroti preču klāsta pārvaldības pamatkoncepti risinājumā Microsoft Dynamics 365 for Retail un ieviešanas iespējas jūsu projektā."
 author: jblucher
 manager: AnnBe
-ms.date: 3/12/2018
+ms.date: 03/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application user
+ms.reviewer: josaw
 ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
 ms.translationtype: HT
-ms.sourcegitcommit: 44b0c4e39ac7410d27ce531c898bb8c423af334a
-ms.openlocfilehash: 303f86d6a57e039cb51700744697949845239b10
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 033968667048faf475b13f8fb95e693dc26935ca
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="assortment-management"></a>Preču klāsta pārvaldība
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>Pārskats
 Risinājumā Microsoft Dynamics 365 for Retail ir pieejams *preču klāsts*, kas ļauj pārvaldīt preču pieejamību atšķirīgos kanālos. Preču klāsti norāda, kuras preces ir pieejamas noteiktos veikalos un noteiktā periodā.
@@ -35,25 +36,25 @@ Kanāla kopējo preču kombināciju nosaka publicētie preču klāsti, kas pieš
 ### <a name="basic-assortment-setup"></a>Pamata preču klāsta iestatīšana
 Šajā piemērā katrā veikalā tiek konfigurēts unikāls preču klāsts. Šajā gadījumā 1. veikalā ir pieejama tikai 1. prece, bet 2. veikalā ir pieejama tikai 2. prece.
 
-![Katra prece ir pieejama vienā veikalā](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure1.png?raw=true "Katra prece ir pieejama vienā veikalā")
+![Katra prece ir pieejama vienā veikalā](./media/Managing-assortments-figure1.png)
 
 Lai 2. prece būtu pieejama 1. veikalā, varat pievienot preci 1. preču klāstam.
 
-![2. prece pievienota 1. preču klāstam](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure2.png?raw=true "2. prece pievienota 1. preču klāstam")
+![2. prece pievienota 1. klāstam](./media/Managing-assortments-figure2.png)
 
 Varat arī pievienot 2. preču klāstam 1. veikalu.
 
-![1. veikals pievienots 2. preču klāstam](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure3.png?raw=true "1. veikals pievienots 2. preču klāstam")
+![1. veikals pievienots 2. klāstam](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>Organizācijas hierarhijas
 Ja vairākos kanālos ir vienāds preču klāsts, varat konfigurēt preču klāstu, izmantojot Retail preču klāsta organizācijas hierarhiju. Pievienojot mezglus no šīs hierarhijas, tiks iekļauti visi šī mezgla un tā apakšmezglu kanāli.
 
-![Organizācijas hierarhija](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure4.png?raw=true "Organizācijas hierarhija")
+![Organizācijas hierarhija](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>Preces kategorijas
 Līdzīgi var rīkoties arī ar precēm: var ietvert preču grupas, izmantojot preču kategoriju hierarhijas. Varat konfigurēt preču klāstus, iekļaujot vienu vai vairākus kategoriju hierarhijas mezglus. Tādā gadījumā preču klāstā tiks iekļautas visas kategorijas mezglā un tā apakšmezglos esošās preces.
 
-![Preces kategorijas](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure5.png?raw=true "Preces kategorijas")
+![Preces kategorijas](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>Izslēgtās preces vai kategorijas
 Papildus preču un kategoriju iekļaušanai preču klāstos varat izmantot opciju Izslēgt, lai definētu konkrētas preces vai kategorijas, kas ir jāizslēdz no preču klāstiem. Šajā piemērā iekļausim visas preces noteiktā kategorijā, izņemot 2. preci. Šajā gadījumā nav jādefinē preču klāsta prece pēc preces vai jāizveido papildu kategoriju mezgli. Tā vietā varat vienkārši iekļaut kategoriju, bet izslēgt preci.
@@ -61,7 +62,7 @@ Papildus preču un kategoriju iekļaušanai preču klāstos varat izmantot opcij
 > [!NOTE]
 > Ja saskaņā ar definīciju prece ir gan iekļauta vienā vai vairākos preču klāstos, gan izslēgta no tiem, prece vienmēr tiks uzskatīta kā izslēgta.
 
-![Izslēgta prece](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure6.png?raw=true "Izslēgta prece")
+![Izslēgta prece](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>Globālas un realizētas preces
 Preču klāsti tiek definēti globālā līmenī, un tiem var būt kanāli no vairākām juridiskajām personām. Preces un kategorijas, kas ir iekļautas preču klāstos tiek arī koplietotas starp juridiskajām personām. Tomēr, lai preci varētu pārdot, pasūtīt, iekļaut inventarizācijā vai saņemt kanālā (piemēram, pārdošanas punktā \[POS\]), tā ir jāatbrīvo. Lai gan divi atšķirīgu juridisko personu veikali var koplietot preču klāstu, kas ietver tādas pašas preces, šīs preces būs pieejamas tikai tad, ja tās tika izlaistas šīm juridiskajām personām.

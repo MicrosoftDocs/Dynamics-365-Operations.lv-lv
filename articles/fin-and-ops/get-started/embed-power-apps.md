@@ -33,8 +33,6 @@ Platformas atjauninājuma versija 14, Microsoft Dynamics 365 for Finance and Ope
 
 Lai uzzinātu vairāk par pakalpojuma PowerApps iegulšanu, noskatieties īso video [Kā iegult pakalpojumu PowerApps programmā Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=x3qyA1bH-NY).
 
-> [!Video https://www.youtube.com/embed/x3qyA1bH-NY]
-
 ## <a name="adding-an-embedded-powerapp-to-a-page"></a>Iegultā pakalpojuma PowerApp pievienošana lapai
 ### <a name="overview"></a>Pārskats
 Pirms pakalpojuma PowerApp iegulšanas Finance and Operations klientā vispirms ir jāatrod vai jāveido pakalpojums PowerApp, kas ietver vēlamo vizuālo informāciju un/vai funkcionalitāti. Mēs šeit nesniegsim detalizētu pakalpojuma PowerApp izstrādes procesu. Ja pakalpojumu PowerApps izmantojat pirmo reizi, ieteicams skatīt tēmu [Ievads par pakalpojumu PowerApps](https://docs.microsoft.com/en-us/powerapps/getting-started).

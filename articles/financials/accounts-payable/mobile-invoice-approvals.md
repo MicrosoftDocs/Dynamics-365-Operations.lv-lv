@@ -18,16 +18,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a44e5d04edf327da2b3ba4676c8b823291801abe
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fc1483285d6ec675637c013af4949b9c7acf92b3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="mobile-invoice-approvals"></a>Mobilie rēķinu apstiprinājumi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Programmā Microsoft Dynamics 365 for Finance and Operations ietvertās mobilās iespējas sniedz biznesa lietotājam iespēju izstrādāt mobilos risinājumus. Sarežģītu scenāriju gadījumā izstrādātāji var arī paplašināt iespējas atbilstoši savām vēlmēm. Visefektīvākais veids, kā apgūt dažas no jaunajām mobilajām ierīcēm paredzētajām koncepcijām, ir jaunu scenāriju procesa izpilde. Šajā tēmā ir aprakstīta praktiska pieeja mobilo scenāriju izstrādei, kā lietojuma gadījumu apskatot kreditoru rēķinu apstiprināšanu mobilajās ierīcēs. Šajā tēmā sniegtā informācija palīdzēs jums izstrādāt arī citus scenāriju variantus, un to var lietot arī citiem scenārijiem, kas nav saistīti ar kreditoru rēķiniem.
 
@@ -175,9 +175,9 @@ Lai izstrādātu rēķina detalizētas informācijas lapu mobilajām ierīcēm, 
 1. Finance and Operations vietrādī URL izvēlnes vienuma nosaukumu aizstājiet ar **VendMobileInvoiceHeaderDetails**, lai atvērtu formu
 2. Atveriet mobilo programmu veidotāju, izmantojot pogu **Iestatījumi** (zobrats).
 3. Noklikšķiniet uz pogas **Rediģēt**, lai darbvietā ieslēgtu rediģēšanas režīmu.
-4. Atlasiet lapu <strong>Mani kreditoru rēķini**, ko iepriekš izveidojāt, un pēc tam noklikšķiniet uz **Rediģēt</strong>.
+4. Atlasiet lapu **Mani kreditoru rēķini**, ko iepriekš izveidojāt, un pēc tam noklikšķiniet uz **Rediģēt**.
 5. Cilnē **Lauki** noklikšķiniet uz kolonnas galvenes **Režģis**.
-6. Noklikšķiniet uz **Rekvizīti** &gt; **Pievienot lapu**. **Piezīme.** Kad noklikšķināt uz galvenes **Režģis** un pievienojat lapu, tiek automātiski izveidotas attiecības ar detalizētas informācijas lapu.
+6. Noklikšķiniet uz **Rekvizīti &gt; Pievienot lapu**. **Piezīme.** Kad noklikšķināt uz galvenes **Režģis** un pievienojat lapu, tiek automātiski izveidotas attiecības ar detalizētas informācijas lapu.
 7. Ievadiet lapas nosaukumu, piemēram, **Rēķina detalizēta informācija**, un aprakstu, piemēram, **Skatīt rēķina galvenes un rindu detalizētu informāciju**.
 8. Noklikšķiniet uz **Atlasīt laukus**. Ņemiet vērā, ka pievienošanas secība atbilst secībai, kādā laiki tiek rādīti lietotājam. Vienīgais veids, kā mainīt laiku secību, ir atkārtoti atlasīt visus laukus. 
 9. Pievienojiet tālāk norādītos laukus no galvenes, pamatojoties uz šī scenārija prasībām.

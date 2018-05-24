@@ -16,30 +16,28 @@ ms.assetid:
 ms.search.region: Global
 ms.author: bking
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: bbf4da5a33876973a376a0580fd553e15bd6febc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7046b687f99df32a3e1410c37c9a30ca285fa08f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="data-validation-workspace"></a>Datu pārbaudes darbvieta
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegts pārskats par darbvietu **Datu validēšanas kontrolsaraksts** un saistīto konfigurāciju.
-
-## <a name="data-validation-checklist-workspace"></a>Darbvieta Datu validēšanas kontrolsaraksts
 
 Darbvieta **Datu validēšanas kontrolsaraksts** sniedz iespēju sekot datu validēšanas procesam vairākos uzņēmumos un jomās un saistībā ar vairākām personām. Kontrolsarakstu var izmantot jaunas implementēšanas laikā, pēc jaunināšanas vai pēc migrācijas. Atkarībā no skata darbvietā **Datu validēšanas kontrolsaraksts** jums tiek rādīti visi datu pārbaudes projekta uzdevumi un statusi vai tikai jums piešķirtie uzdevumi.
 
 Vispirms darbvietas augšpusē ir jāatlasa datu validēšanas projekts. Pēc tam visi darbvietā rādītie dati tiek filtrēti atbilstoši atlasītajam datu validēšanas projektam.
 
-### <a name="summary-tiles"></a>Kopsavilkuma elementi
+## <a name="summary-tiles"></a>Kopsavilkuma elementi
 
 Elementi **Kopsavilkums** sniedz apskatu par procesu, un indikatori palīdz sekot līdzi datu validēšanas procesam. Tiek rādīti visi procesa atlikušie uzdevumi, pabeigtie uzdevumi, uzdevumi, kuru izpilde vēl notiek, un nesāktie uzdevumi. Šī informācija tiek sniegta par visiem uzņēmumiem, kas ir ietverti atlasītajā datu validēšanas projektā.
 
-### <a name="tasks-and-status-section"></a>Uzdevumu un statusa sadaļā
+## <a name="tasks-and-status-section"></a>Uzdevumu un statusa sadaļā
 
 Sadaļā **Uzdevumi un statuss** dažādos veidos tiek rādīts kopējā datu validēšanas projekta statuss: pēc juridiskās personas, pēc jomas un pēc uzdevumu saraksta. Varat atlasīt filtru, lai skatītu noteikta uzņēmuma statusu. Katrā statusa cilnē ir sniegta detalizēta informācija gan par izpildīto apjomu procentos, gan atlikušo uzdevumu skaitu.
 
@@ -52,11 +50,11 @@ Uzdevumam varat pievienot failus, piezīmes, attēlus un vietrāžus URL, izmant
 
 Pēc uzdevuma pabeigšanas laukā **Aizpildījis** tiek automātiski ievadīts tā nodarbinātā vārds, kurš ir pabeidzis uzdevumu. Kad uzdevums ir atzīmēts kā pabeigts, lauks **Pabeigšanas datums** automātiski tiek atjaunināts ar pašreizējo datumu un laiku.
 
-### <a name="configure-data-validation-project-page"></a>Lapa Konfigurēt datu validēšanas projektu
+## <a name="configure-data-validation-project-page"></a>Lapa Konfigurēt datu validēšanas projektu
 
 Lai varētu lietot darbvietu **Datu validēšanas kontrolsaraksts**, vispirms ir jākonfigurē process, izmantojot lapu **Konfigurēt datu validēšanas projektu**. (Noklikšķiniet uz **Darbvietas** \> **Datu validēšanas kontrolsaraksts** \> **Konfigurēt datu validēšanas projektu**.)
 
-### <a name="task-areas"></a>Uzdevumu apgabali
+## <a name="task-areas"></a>Uzdevumu apgabali
 
 Izmantojot uzdevumu jomas, varat grupēt datu validēšanas uzdevumus loģiskās jomās atbilstošo to piederībai organizācijā. Piemēram, Kreditori, Debitori vai Virsgrāmata var izmantot kā uzdevumu jomas.
 

@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
-ms.openlocfilehash: 95669d83fdf69a6d55dd7ee1e4e33a67108e0371
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 73d1a3316db7589d114c70a4dbf847dc67aa077b
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="generate-a-financial-report"></a>Ģenerēt finanšu pārskatu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta vispārīga informācija finanšu atskaites ģenerēšanu. 
 
@@ -155,16 +155,16 @@ Kad palaižat trūkstošo kontu analīzi, ir pieejami tālāk norādītie īsin�
 | Neiekļaut atlasīto veidošanas bloku  | Alt+X                      |
 | Neiekļaut atlasīto rindas definīciju  | Ctrl+B                     |
 | Neiekļaut atlasīto dimensijas vērtību | Ctrl+D                     |
-| Atvērt atlasītā pārskata definīciju  | Ctrl+R                     |
-| Atvērt atlasītās rindas definīciju     | Ctrl+O                     |
+| Atvērt atlasīto pārskata definīciju  | Ctrl+R                     |
+| Atvērt atlasīto rindas definīciju     | Ctrl+O                     |
 
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Finanšu pārskati](financial-reporting-intro.md)
 
-[Pārskatu veidotāja saskarne](report-designer-interface.md)
+[Pārskatu noformētāja interfeiss](report-designer-interface.md)
 
 
 

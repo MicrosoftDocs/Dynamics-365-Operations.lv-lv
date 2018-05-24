@@ -18,16 +18,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 8f89d0740098fbd5af9d838f1f4b7ddf47ee7e10
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 45717bc1a7093c0282d214fc4ce5fdf153bb14a1
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Konfigurēt elektroniskos pārskatus, lai atgādātu datus pakalpojumā Power BI
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā varat lietot savu elektronisko pārskatu (Electronic Reporting — ER) konfigurāciju, lai organizētu datu pārsūtīšanu no jūsu Finance and Operations instances uz Power BI pakalpojumiem. Kā piemērs šajā tēmā ir izmantotas Intrastat transakcijas, kas veido pārsūtāmos biznesa datus. Power BI kartes vizualizācija šos Intrastat transakciju datus izmanto, lai sniegtu skatu uzņēmuma importēšanas/eksportēšanas aktivitāšu analīzei Power BI pārskatā.
 
@@ -132,12 +132,12 @@ Iestatiet integrāciju starp programmu Finance and Operations un pakalpojumu Pow
 2. Atlasiet jūsu izveidoto Power BI pārskatu **Importēšanas un eksportēšanas informācija**, lai šis pārskats atlasītajā lapā tiktu rādīts kā darbības vienums. 
 3. Noklikšķiniet uz darbības vienuma, lai atvērtu Finance and Operations lapu, kurā ir redzams pārskats, ko noformējāt pakalpojumā Power BI. [![Importēšanas un eksportēšanas informācijas pārskats](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
-[Elektronisko atskaišu galamērķi](electronic-reporting-destinations.md)
+[Elektroniskās pārskatu veidošanas adresāti](electronic-reporting-destinations.md)
 
-[Elektronisko atskaišu veidošanas pārskats](general-electronic-reporting.md)
+[Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
 
 
 

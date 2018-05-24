@@ -19,16 +19,16 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 5adf73c1316f701b3b5e9b9a22fa5743ba1cc419
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2c02af887e662fd346d5e3e09cce755bfb58d520
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="help-system-overview"></a>Palīdzības sistēmas apskats
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegts pārskats par programmas Microsoft Dynamics 365 for Finance and Operations palīdzības sistēmas komponentiem. Tajā ir arī paskaidrots, kā savai organizācijai varat sniegt pielāgotu dokumentāciju un apmācību. 
 
@@ -60,7 +60,7 @@ Vietne docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operatio
 
 -   **Piekļuve visjaunākajam saturam** — vietne nodrošina ātrāku un pielāgojamāku veidu, kā piegādāt un atjaunināt produkta dokumentāciju. Tāpēc tā palīdz nodrošināt, ka jums ir pieeja visjaunākajai tehniskajai informācijai.
 -   **Saturs, ko ir rakstījuši speciālisti** — vietne nodrošina plašāku produkta dokumentācijas klāstu, ko var paplašināt kopienas dalībnieki gan korporācijā Microsoft, gan ārpus tās.
--   **Piekļuve dažāda veida saturam** — vietne sniedz iespēju ātri piekļūt dažāda veida saturam par programmatūru Finance and Operations, piemēram, Microsoft Office Mix prezentācijām, uzdevumu ceļvežiem, videoklipiem un tēmām.
+-   **Piekļuve dažāda veida saturam** — vietne sniedz iespēju ātri piekļūt dažāda veida saturam par programmatūru Finance and Operations, piemēram, uzdevumu ceļvežiem, videoklipiem un tēmām.
 -   **Saturs, kas veicina jūsu biznesa procesus** — vietnē ir ietverts ar biznesa procesiem saistīts saturs, kas tiek nodrošināts, izmantojot biznesa procesu modelētāju (BPM) pakalpojumos Microsoft Dynamics Lifecycle Services (LCS).
 
 ### <a name="searching-on-docsmicrosoftcom"></a>Meklēšana vietnē docs.microsoft.com
@@ -204,7 +204,7 @@ Tulkotie uzdevumu ceļveži tiek izlaisti bibliotēkās, kuru nosaukumā ir vār
 
 
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 [Finance and Operations palīdzības sistēma (lejupielādējama informācijas lapa)](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
 

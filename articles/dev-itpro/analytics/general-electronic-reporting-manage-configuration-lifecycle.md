@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: eecd53d181a086a5cf295f54f9fa72aa2960c272
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f3d6463ab07aaaf69a16aa0d59840cbe47427335
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="manage-the-electronic-reporting-configuration-lifecycle"></a>Pārvaldīt elektronisko pārskatu veidošanas konfigurācijas dzīves ciklu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā pārvaldīt Microsoft Dynamics 365 for Finance and Operations risinājuma elektronisko pārskatu (ER) konfigurāciju dzīves ciklu.
 
@@ -74,10 +74,10 @@ Tālāk minēto ar ER saistīto apsvērumu dēļ ER konfigurācijas ir ieteica
 
 Izstrādes vidē izstrādātās ER konfigurācijas var augšupielādēt testēšanas vidē konfigurācijas novērtēšanai (pareiza procesu integrācija, pareizi rezultāti un veiktspēja) un kvalitātes nodrošināšanai (pareizas lomu piekļuves tiesības un pienākumu sadale). Šim nolūkam var izmantot ER konfigurāciju apmaiņas līdzekļus. Visbeidzot apstiprinātās ER konfigurācijas var augšupielādēt LCS, kur tās var koplietot ar pakalpojumu abonentiem, vai ražošanas vidē iekšējai lietošanai, kā tas ir redzams tālāk esošajā attēlā. ![ER konfigurācijas dzīves cikls](./media/ger-configuration-lifecycle.png)
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
-[Elektronisko atskaišu veidošanas pārskats](general-electronic-reporting.md)
+[Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
 
 
 

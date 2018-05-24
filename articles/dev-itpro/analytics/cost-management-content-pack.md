@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a4eacafdf9b9e0eabe7fe599e679fca18c749733
+ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
+ms.openlocfilehash: b06abae184d07cd3b914caf74bdb16a7803919af
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/09/2018
 
 ---
 
@@ -38,8 +38,7 @@ Microsoft Power BI saturs **Izmaksu pārvaldība** ir paredzēts krājumu grāma
 > [!Note]
 > Power BI saturs **Izmaksu pārvaldība**, kas aprakstīts šajā tēmā, attiecas uz Dynamics 365 for Finance and Operations 8.0.
 > 
-> Power BI satura pakotne **Izmaksu pārvaldība**, kas publicēta PowerBI.com vietnē, ir novecojusi. Papildinformāciju par šo atbalsta pārtraukšanu skatiet sadaļā [Vietnē PowerBI.com publicētās Power BI satura pakotnes](../migration-upgrade/deprecated-features.md#power-bi-content-packs-published-to-powerbicom).
-
+> Power BI satura pakotne **Izmaksu pārvaldība**, kas pieejama AppSource vietnē, ir novecojusi. Papildinformāciju par šo atbalsta pārtraukšanu skatiet sadaļā [AppSource pieejamās Power BI satura pakotnes](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Šis Power BI saturs nodrošina kategorizētu formātu, kas palīdz jums pārraudzīt krājumu veiktspēju un vizualizēt izmaksu plūsmu caur tiem. Varat gūt vadības ieskatus, piemēram, par apgrozījuma koeficientu, dienu skaitu, kurā krājumi ir pieejami, precizitāti un “ABC klasifikāciju” jūsu izvēlētajā uzkrātajā līmenī (uzņēmums, krājums, krājumu grupa vai vieta). Informāciju, kas ir pieejama, var arī izmantot kā finanšu pārskata detalizētu papildinājumu.
 

@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 75508af6d6f746b56fc3df3b6b0d730f429161c5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 18920dd3490b69e9668e2d023c5ca1cc094c8126
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="quality-management-processes"></a>Kvalitātes pārvaldības procesi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta informācija par kvalitātes pārvaldības procesu nekondīcijas precēm. Tajā ir aprakstīts, kā varat lietot kvalitātes kontroles funkcionalitāti, kā noteikt un uzturēt neatbilstības un kā rīkoties ar labojumiem.
 
@@ -88,7 +88,7 @@ Lapā **Labojumi** varat izveidot sarakstu ar neatbilstībām, kuras nepiecieša
 
 Ieteicams labojumiem definēt unikālu dokumenta tipu, izmantojot lapu **Dokumenta tips**. Pēc tam varat izmantot lapu **Atskaišu iestatījumi**, lai definētu, vai komentāri šī tipa dokumentiem tiek drukāti labojuma atskaitē. Drukātajā labojuma atskaitē tiek rādīta informācija par neatbilstību un saistītās neatbilstības piezīmes. Atskaitē ir ietverta arī labojuma informācija, piemēram, diagnostikas tips un saistītās labošanas piezīmes.
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Kvalitātes pārvaldības iespējošana](enable-quality-management.md)

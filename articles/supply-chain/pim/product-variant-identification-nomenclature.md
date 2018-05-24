@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 6a620f2a0105d578d419d3aac816c7d78fbf3e46
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3baf1d7313d8ff03ae5ece035b6f3641c0f1d707
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Preces variantu numuru no nosaukumu nomenklatūra
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā iestatīt preču numuru nomenklatūru, lai aizstātu fiksēto formātu [preces šablona numurs-konfigurācija-izmērs-krāsa-stils]. Jaunajai nomenklatūrai ir mērķim pielāgots formāts, kurā ir ietverts preces šablona numurs, aktīvās preces dimensijas un jūsu izvēles teksta atdalītāji. Varat arī izveidot preču nosaukumu nomenklatūru. Varat arī izveidot nomenklatūru, lai norādītu konfigurācijas, kas ir izveidotas, izmantojot ierobežojumiem atbilstošo preču konfiguratoru. Šajās nomenklatūrās var būt jūsu izvēlētie atribūti.
 
@@ -192,10 +192,10 @@ Atkarībā no nomenklatūras sistēma var tikt mēģināts piešķirt konfigurā
 
 Vienas konfigurācijas procesa darbības laikā sistēmā tiek ieteikta konfigurācijas vērtību atbilstoši nomenklatūrai. Šajā darbībā varat manuāli mainīt konfigurācijas vērtību. Saglabājot konfigurāciju, sistēmā tiek pārbaudīts, vai konfigurācijas vērtība ir unikāla. Ja ievadītā vērtība nav unikāla, tiek parādīts kļūdas ziņojums. Lai saglabātu konfigurāciju, ir jāievada unikāla konfigurācijas vērtība.
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
-[Preces variantu nomenklatūras izveide iepriekš definētiem preces variantiem](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
+[Preces numuru nomenklatūras izveide iepriekš definētiem preces variantiem](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
 
 [Preces variantu nomenklatūras izveide konfigurētiem preces variantiem](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
 

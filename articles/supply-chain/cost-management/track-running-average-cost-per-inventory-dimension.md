@@ -1,5 +1,5 @@
 ---
-title: "Kārtējo vidējo izmaksu izsekošana pēc krājumu dimensijas"
+title: "Pašreizējās vidējās izmaksu cenas izsekošana pēc krājumu dimensijas"
 description: "Katrai krājumu vienībai ir piesaistīta krājumu dimensiju grupa. Tāpēc krājuma kārtējo vidējo izmaksu cena tiek aprēķināta, pamatojoties uz atlasītajām krājumu dimensijām, kas tiek finansiāli izsekotas."
 author: AndersGirke
 manager: AnnBe
@@ -20,18 +20,18 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bb2a3a193585944810c5dfac1eb3c019e074008f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 48db7ff047a50343bd473d2c71f878e4ee2201e5
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="tracking-running-average-cost-per-inventory-dimension"></a>Kārtējo vidējo izmaksu izsekošana pēc krājumu dimensijas
+# <a name="track-running-average-cost-per-inventory-dimension"></a>Pašreizējās vidējās izmaksu cenas izsekošana pēc krājumu dimensijas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Katrai krājumu vienībai ir piesaistīta krājumu dimensiju grupa. Tāpēc krājuma kārtējo vidējo izmaksu cena tiek aprēķināta, pamatojoties uz atlasītajām krājumu dimensijām, kas tiek finansiāli izsekotas.
 

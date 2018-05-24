@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 92beae76b35da6e18d1d9b2621b48b9a46dfaad0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d2ead061fe39c3dcb54d697f246c2c826339b699
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Vizuāla plānošana ražošanai lean manufacturing
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par Kanban plānošanas paneli, kuru ražošanas plānotājs var izmantot, lai kontrolētu un optimizētu ražošanas plānu Kanban darbiem.
 
@@ -91,7 +91,7 @@ Kanban plānošanas paneli var atvērt, izmantojot izvēlnes vienumu tālāk nor
 -   Lapa **Ražošanas plūsmas vizualizēšana**
 
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Lean manufacturing — Kanban darbu plānošana](lean-manufacturing-kanban-job-scheduling.md)

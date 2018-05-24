@@ -3,7 +3,7 @@ title: "Zvanu centra funkcionalitāte"
 description: "Šajā tēmā ir sniegts pārskats par zvanu centra pārdošanas funkcionalitāti programmā Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 04/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,35 +20,43 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
-ms.openlocfilehash: 75dc09ffc84ef8ec48f50ea410974c99aabc212e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e85b65e116b32adca09e46252d7d3bbe5101e1cf
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="call-center-functionality"></a>Zvanu centra funkcionalitāte
+# <a name="call-center"></a>Zvanu centrs 
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-Šajā rakstā ir sniegts pārskats par zvanu centra pārdošanas funkcionalitāti programmatūrā Microsoft Dynamics 365 for Retail.
+Pakalpojumā Dynamics 365 for Retail zvanu centrs ir Retail kanāla veids, ko var norādīt programmā. Norādot noteiktu kanālu savām zvanu centra struktūrvienībām, sistēma var saistīt noteiktus datu noklusējumus un pasūtījumu apstrādes noklusējumus ar pārdošanas pasūtījumiem, ko izveidojis zvanu centra kanāla lietotājs.
 
-Programmatūra Dynamics 365 for Retail atbalsta zvanu centru izmantošanu kā mazumtirdzniecības kanāla veidu. Zvanu centrā darbinieki pa tālruni no klientiem saņem pasūtījumus un izveido pārdošanas pasūtījumus. Zvanu centra funkcionalitāte ietver līdzekļus, kas ir veidoti ar mērķi vienkāršot tālruņa pasūtījumu pieņemšanu un debitoru pakalpojumu nodrošināšanu visā pasūtījumu izpildes procesā. Piemēram, zvanu centra darbinieki var ievadīt maksājuma informāciju tieši pārdošanas pasūtījumā, un var apskatīt detalizētu izmaksu un maksājumu kopsavilkumu, pirms viņi iesniedz pasūtījumu. Darbiniekiem ir iespējas kontrolēt izcenojumu, un no **Pārdošanas pasūtījuma** formas viņi var piekļūt dažādai informācijai par debitoriem, precēm un cenām. Zvanu centriem ir arī uzlabota funkcionalitāte debitoru vēstures un pasūtījuma statusa izsekošanai. Katram zvanu centram var būt savi lietotāji, maksājuma metodes, cenu grupas, finanšu dimensijas un piegādes veidi. Šīs opcijas var konfigurēt zvanu centra izveides brīdī. Turklāt varat izmantot lapu **Zvanu centrs**, lai iespējotu vai atspējotu šādas līdzekļu grupas, kas ir unikālas zvanu centriem:
+Zvanu centra funkcijas ietver īpašas mazumtirdzniecības cenas, piedāvājumus, katalogus, dāvanu kartes, lojalitātes programmas un kuponus. Zvanu centra pasūtījumus papildina pārdošanas punkta programma, lai atbalstītu šķērskanālu pasūtījuma izpildes scenārijus.
 
--   **Pasūtījuma veikšana** – šajā grupā iekļauti līdzekļi, kas attiecas uz maksājumiem un pasūtījuma pabeigšanu lapā **Pārdošanas pasūtījums**.
--   **Vadītā pārdošana** – šajā grupā ir iekļauti līdzekļi, kas saistīti ar pirmkodiem, skriptiem un kataloga pieprasījumiem.
+Jāņem vērā, ka, lai arī zvanu centra modulis var tikt izmantots arī citās nozarēs ārpus mazumtirdzniecības, pašreizējais Dynamics 365 for Retail zvanu centra programmas laidiens nav optimizēts izmantošanai starpuzņēmumu (B2B) pasūtījumu apstrādes scenārijiem vai scenārijiem, kur pasūtījumiem ir liels pārdošanas rindu skaits. Iesakām lietotājiem, kas vēlas izmantot zvanu centra funkcijas pasūtījumu apstrādei ārpus tipiskas tiešo darījumu ar patērētājiem apstrādes, pietiekami ilgi pārbaudīt un pārliecināties, ka zvanu centra funkcionalitātes iespējošana atbilst funkcionālajām un veiktspējas vajadzībām.
 
-Iespējojot šos līdzekļus zvanu centra iestatījumos, lapā **Pārdošanas pasūtījums** tie ir pieejami lietotājiem, kuri ir saistīti ar šo zvanu centru. Lielākai daļai no šiem līdzekļiem pirms to izmantošanas nepieciešami papildu iestatījumi. Pirms lietotāji var izveidot zvanu centra pasūtījumus, jums šie lietotāji ir jāpievieno zvanu centram kā zvanu centra lietotājus. Šis solis iespējo zvanu centra kanālam raksturīgu konfigurāciju un funkcionalitāti. Daži funkcionalitātes piemēri, kas kļūst pieejami:
+Papildus atbalstam pasūtījumu izveidei zvanu centra modulis nodrošina arī lietotājam draudzīgu klientu pakalpojumu programmu, kas ļauj lietotājiem vieglāk atrast klientu kontus un pārskatīt visus saistītos klienta pasūtījumu datus un atribūtus. Klientu apkalpošanas ekrāns ir izstrādāts, lai ļautu lietotājam ātri piekļūtu ar pasūtījumu saistītajiem datiem, kas ļaus atbildēt uz visbiežākajiem ar pasūtījumiem saistītiem jautājumiem, kas saņemti no klientiem.
 
--   Līdzeklis Vadītā pārdošana nodrošina pa tālruni veiktās pārdošanas scenāriju un preču attēlu konfigurēšanas iespējas, lai palīdzētu pārdevējiem pieņemt pasūtījumus un vadītu šo procesu.
--   Pasūtījumi nevar būt pabeigti, kamēr pārdošanas darbinieki nav ieguvuši vismaz vienu maksājuma metodi.
--   Papildu pārdošanas un šķērspārdošanas noteikumus var konfigurēt, lai atgādinātu pārdošanas darbiniekiem veicināt konkrētu produktu klientam.
--   Pārdošanas darbinieki var tvert kataloga avota kodu, no kura debitors veic pasūtījumu.
--   Pārdošanas darbinieki pasūtījumam var pievienot mazumtirgotāja kuponus.
--   Pārdošanas darbinieki var pārdot nepārtrauktības programmas.
--   Pasūtījumus var manuāli vai automātiski aizturēt, lai norādītu, ka pirms pasūtījuma apstrādes ir nepieciešama papildu izmeklēšana.
+Šī lapa sniedz saites uz atbilstošo dokumentāciju, kas saistīti ar zvanu centra līdzekļu iestatīšanu, konfigurēšanu un lietošanu pakalpojumā Dynamics 365 for Retail.
 
+## <a name="configure-the-call-center"></a>Zvanu centra konfigurēšana
+[Iestatīt pasūtījumu apstrādes opcijas](set-up-order-processing-options.md)
 
+## <a name="configure-order-processing"></a>Pasūtījumu apstrādes konfigurēšana
+[Krāpšanas brīdinājumu iestatīšana](set-up-fraud-alerts.md)
+[Manuāla pasūtījumu aizturēšana](work-with-order-holds.md)
 
+## <a name="configure-payment-processing"></a>Maksājumu apstrādes konfigurēšana
+[Maksāšanas metodes zvanu centrā](work-with-payments.md)
+
+## <a name="configure-direct-marketing"></a>Tiešā mārketinga konfigurēšana
+[Zvanu centra katalogi](call-center-catalogs.md)
+
+[RFM analīzes iestatīšana](set-up-rfm-analysis.md)
+
+## <a name="configure-continuity-programs"></a>Nepārtrauktības programmu konfigurēšana
+[Nepārtrauktības programmas iestatīšana zvanu centram](set-up-continuity-program.md)
 
 

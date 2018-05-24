@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3679ccf304a32385c162ba3663eba2300f028817
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5599135eebfcffdedaaadec86beb214c5c04cbaf
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="financial-report-components"></a>Finanšu pārskata komponenti
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir izklāstīts, kā finanšu atskaišu veidošanā tiek izmantoti atskaišu definīciju komponenti jeb veidošanas bloki. Šajos veidošanas blokos ir iekļautas rindas definīcijas, kolonnas definīcijas un atskaišu koka definīcijas. Šajā rakstā ir paskaidrots, kā sakārtot un bloķēt veidošanas blokus. 
 
@@ -109,10 +109,10 @@ Varat importēt veidošanas bloku grupu esošā veidošanas bloku grupā. Visas 
 Kad atverat kādu veidošanas bloku, citiem lietotājiem ir tikai lasīšanas piekļuve attiecībā uz šo veidošanas bloku. Reizēm lietotāji aizmirst aizvērt kādu veidošanas bloku vai izslēdz savu sistēmu, neaizverot šo veidošanas bloku. Tāpēc šis veidošanas bloks paliek izrakstīts, un citi lietotāji to nevar atvērt. Šajās situācijās finanšu pārskatu veidošanas administrators var izmantot dialoglodziņu **Izrakstītie vienumi**, lai atgrieztu veidošanas blokus, kurus lietotāji ir atstājuši izrakstītā statusā. **Piezīme.** Lai atgrieztu veidošanas blokus, izmantojot dialoglodziņu **Izrakstītie vienumi**, jums ir nepieciešama administratora loma.
 1.  Pārskatu veidotāja izvēlnē **Rīki** noklikšķiniet uz vienuma **Izrakstītie vienumi**.
 2.  Dialoglodziņā **Paņemtie krājumi** atlasiet **Rādīt krājumus no visiem lietotājiem**. Saraksts tiek atjaunināts un tiek parādīti visi paņemtie veidošanas bloki un to lietotāji.
-3.  Atlasiet veidošanas bloku un tad noklikšķiniet uz **Atsaukt izrakstīšanu**.
-4.  Noklikšķiniet uz **Jā**, lai atgrieztu veidošanas bloku.
+3.  Atlasiet veidošanas bloku un pēc tam noklikšķiniet uz **Atsaukt paņemšanu**.
+4.  Noklikšķiniet uz **Jā**, lai piešķirtu veidošanas bloku.
 
-## <a name="see-also"></a>Skatiet arī
+## <a name="additional-resources"></a>Papildu resursi
 
 [Finanšu pārskati](financial-reporting-intro.md)
 

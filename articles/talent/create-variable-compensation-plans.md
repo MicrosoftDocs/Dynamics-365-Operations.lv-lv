@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6d11e772cfbcd8ab7a0d4a08ccd71049723f9e32
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 338e58522f9b9fba3ce22b22488affbab24b1315
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-variable-compensation-plans"></a>Mainīgās atlīdzības plānu izveide
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Mainīgā atlīdzība veido darbinieka nestandarta algu, piemēram, prēmijas vai samaksu uzņēmuma akcijās. Šajā rakstā ir aprakstīti komponenti, kas ir jāiestata, lai varētu izmantot mainīgo atlīdzību un darbinieku reģistrēt mainīgās atlīdzības plānā.
 
@@ -100,7 +100,7 @@ Var izmantot cilni **Prioritātes**, lai darbiniekam ignorētu noteiktas vērtī
 
 Vērtības **Organizatoriskās prioritātes** tiek izmantotas, lai darbinieka atlīdzību pamatotu ar vienas vai vairāku nodaļu sniegumu. Dažādām nodaļām sadalīto procentuālo vērtību kopsummai ir jābūt 100 procentiem. Tiek ņemts vērā arī darbinieka individuālais sniegums. Šie iestatījumi tiek izmantoti tikai tad, ja atlīdzības procesa izpildes laikā tiek atlasīta opcija **Alga par rezultātiem**.
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Atlīdzības plāni](compensation-plans.md)

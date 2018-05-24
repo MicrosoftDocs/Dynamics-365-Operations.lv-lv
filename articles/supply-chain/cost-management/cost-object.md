@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1a1c964a890c0c59a01700a6987bfbdfe5a17ccb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d35d7971806e2f711d84f172bfacd60edf9f9225
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-objects"></a>Izmaksu objekti
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta informācija par izmaksu objektiem un paskaidrots, kā tiek uzkrātas izmaksas un daudzumi. Izmaksu objekts ir elements, kam ir uzkrātas izmaksas un daudzumi. Izmaksu objekta elements var būt prece vai preces varianti, piemēram, stila un krāsas varianti.  
 
@@ -68,10 +68,10 @@ Sarakstā **Izmaksu objekti** ir parādīts saraksts ar visiem izmaksu objektiem
 
 **Piezīme.** Parametrs **Iekļaut fizisko vērtību** neietekmē iepriekšējos aprēķinus.
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
-[Preces dimensiju grupa](https://technet.microsoft.com/en-us/library/aa499382.aspx)
+[Preces dimensijas grupa](https://technet.microsoft.com/en-us/library/aa499382.aspx)
 
 [Noliktavas dimensiju grupa](https://technet.microsoft.com/en-us/library/hh209317.aspx)
 

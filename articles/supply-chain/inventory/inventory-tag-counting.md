@@ -19,24 +19,24 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0687058bc76c3ed0dad57b76d54ad57c00987f42
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1b1281c41e3427148cdbd7bd874f3408056e3df1
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="inventory-tag-counting"></a>Krājumu etiķešu inventarizācija
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Šajā rakstā ir sniegta informācija par etiķešu uzskaiti, kuru izmantojat, lai noliktavas faktisko saturu salīdzinātu ar rīcībā esošajiem krājumiem.
 
 Izveidojot rindas lapā **Etiķešu skaitīšana**, katrai krājuma vienībai tiek piešķirts etiķetes numurs, piemēram, skaitlis no 1 līdz 500. Inventarizācijas laikā jūs ievadāt krājuma numuru un daudzumu, kas ir norādīts attiecīgajā etiķetē. Šo etiķeti pēc tam var izmantot par pamatu ievadei etiķešu inventarizācijas žurnālā. Pēc etiķešu inventarizācijas žurnāla grāmatošanas lapā **Inventarizācija** tiek izveidots jauns inventarizācijas žurnāls. Jaunais žurnāls balstās uz etiķešu inventarizācijas žurnāla rindām, kuras izveidojāt. Lai veiktu krājumu etiķešu uzskaiti pēc noteiktas krājumu dimensijas, atlasiet dimensiju lapā **Parādīt dimensijas**, kas tiek parādīta, izveidojot etiķešu inventarizācijas žurnālu. Piemēram, lai saskaitītu krājumus noteiktā noliktavā, atzīmējiet izvēles rūtiņu **Noliktava**. Ja ir atlasīts slīdnis **Bloķēt krājumus inventarizācijas laikā** lapā **Krājumu un noliktavas pārvaldības parametri**, krājumus nevar fiziski atjaunināt inventarizācijas laikā. Tomēr krājumi etiķešu inventarizācijas žurnālos inventarizācijas laikā nav bloķēti. Krājumu darbības netiek veidotas, kamēr etiķešu inventarizācijas žurnāla rindas nav grāmatotas un pārsūtītas uz inventarizācijas žurnālu. Ja etiķetes tiek ievadītas izlases veidā un jūs vēlaties noteikt trūkstošās etiķetes, noklikšķiniet uz kolonnas virsraksta **Etiķete**, lai kārtotu rindas pēc etiķetes.
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Cikla inventarizācija](../warehousing/cycle-counting.md)

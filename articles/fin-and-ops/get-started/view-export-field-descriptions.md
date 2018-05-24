@@ -19,16 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0164d64b8c37c19a3b8b13970dbda5927073eca8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d1ee87dbe9dab089a893d9c69d2573a4c4b11b58
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-and-export-field-descriptions"></a>Lauku aprakstu skatīšana un eksportēšana
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir paskaidrots, ka skatīt lauku aprakstus un kā lietot lapu Lauku apraksti, lai eksportētu aprakstus.
 
@@ -97,7 +97,7 @@ Lai lapā parādītu visus laukus, opciju **Iekļaut laukus bez apraksta** iesta
 
 Informāciju par dažādajiem veidiem, kā atrast lapas, skatiet agrākā šī raksta sadaļā “Lapu meklēšana”. Ja ierakstījāt precīzu lapas nosaukumu, iespējams, lauku apraksti netiek rādīti, ja šāds nosaukums ir vairākām lapām. Noklikšķiniet uz bultiņas laukā **Atlasīt lapu**, lai atvērtu filtrētu sarakstu ar pieejamajām lapām.
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Pielāgot lauku palīdzību](../../dev-itpro/user-interface/customize-field-help.md)

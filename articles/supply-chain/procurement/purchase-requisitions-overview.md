@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5d379b034c996cb0eff20a44960ba1e2701af81a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 942693ed3d2d54c6e973e5d3f86454b195f0fdee
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-requisition-overview"></a>Pirkšanas pieprasījuma apskats
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīta pirkšanas pieprasījuma darbplūsma un iespējamie pirkšanas pieprasījuma statusi.
 
@@ -192,7 +192,7 @@ Lai konsolidētu apstiprinātās pirkšanas pieprasījuma rindas, rīkojieties �
 5.  Izveidojiet pirkšanas pasūtījumus konsolidētām pieprasījuma rindām vai pirkšanas pieprasījuma rindām konsolidācijas iespējā.
 
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Patēriņa pieprasījuma izveide (uzdevuma ceļvedis)](tasks/create-requisition-consumption.md)

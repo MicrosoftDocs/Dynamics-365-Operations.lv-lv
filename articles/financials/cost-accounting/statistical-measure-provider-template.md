@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: baefad4efd51661c236459493b7f02747593bbab
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8c74c47a5e0ca72fc4509786b091a70b5e292b54
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Statisko dimensiju elementu un statistisko mēru nodrošinātāju veidnes
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Statistiskās dimensijas un tās elementus izmanto, lai izmaksu uzskaitē reģistrētu un kontrolētu ierakstus beznaudas vērtībām. Statistiskās dimensijas elementus var izmantot divējādi:
 
@@ -344,7 +344,7 @@ Ja iepriekš definētais dimensijas elementa sadalījuma pamats Elektrība ir pi
 | CC002       | FI | 4,100.00  | (4100 ÷ 21 550) × Summa  |
 | CC003       | KrP | 15,000.00 | (15 000 ÷ 21 550) × Summa |
 
-## <a name="see-also"></a>Skatiet arī
+## <a name="additional-resources"></a>Papildu resursi
 
 [Sadalījuma pamati](allocation-bases.md)
 

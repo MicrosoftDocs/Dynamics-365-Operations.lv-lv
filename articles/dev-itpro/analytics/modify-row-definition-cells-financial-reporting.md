@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3131173e10ff7eefeaca18285054ce2312d7ab57
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 23b8e0b51f63ecabc704a2fc5b3ebafe657b52f6
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="modify-row-definition-cells"></a>Rindu definīciju šūnu modificēšana
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir paskaidrota informācija, kas ir nepieciešama katrai šūnai finanšu atskaites rindas definīcijā, un paskaidrots, kā šo informāciju ievadīt. 
 
@@ -398,7 +398,7 @@ Jūs varat norādīt segmentu vērtību vai dimensiju vērtību diapazonu. Norā
 
 ### <a name="multiple-segment-or-multiple-dimension-ranges"></a>Vairāku segmentu vai vairāku dimensiju diapazoni
 
-Ja ievadāt diapazonu, izmantojot vairāku dimensiju vērtību kombinācijas, diapazona salīdzināšana tiek veikta katrai dimensijai atsevišķi. Diapazona salīdzināšanu nevar veikt rakstzīmi pēc rakstzīmes vai daļēji balstoties uz segmentu. Piemēram, diapazons **+Konts=\[5000:6000\], Nodaļa=\[1000:2000\], Izmaksu centrs=\[00\]** ietver tikai tos kontus, kas atbilst katram segmentam. Šī scenārija ietvaros pirmajai dimensijai ir jābūt diapazonā no 5000 līdz 6000, otrajai dimensijai ir jābūt diapazonā no 1000 līdz 2000 un pēdējai dimensijai ir jābūt 00. Piemēram, diapazons **+Konts=\[5100\], Nodaļa=\[1100\], Izmaksu centrs=\[01\]** netiek ietverts pārskatā, jo pēdējais segments ir ārpus norādītā diapazona. Ja segmenta vērtībā ir atstarpes, iekļaujiet šo vērtību kvadrātiekavās (\[ \]). Četrzīmju segmentam ir derīgas šādas vērtības: **\[ 234\], \[123 \], \[1 34\]**. Dimensiju vērtības ir jāietver kvadrātiekavās (\[ \]), un pārskatu noformētājs šīs iekavas pievieno jūsu vietā. Ja vairāku segmentu vai vairāku dimensiju diapazonā ir ietvertas aizstājējzīmes (? vai \*), tiek noteikta visa vairāku segmentu vai vairāku dimensiju diapazona lielākā un mazākā robežvērtība un pēc tam tiek iekļautas šīs robežvērtības un visas starp tām esošās vērtības. Ja jums ir liels diapazons, piemēram, viss kontu diapazons no 40000 līdz 99999, vajadzētu norādīt derīgu sākuma kontu un beigu kontu, ja vien iespējams. 
+Ja ievadāt diapazonu, izmantojot vairāku dimensiju vērtību kombinācijas, diapazona salīdzināšana tiek veikta katrai dimensijai atsevišķi ..\financial-dimensions\dimension-by-dimension. Diapazona salīdzināšanu nevar veikt rakstzīmi pēc rakstzīmes vai daļēji balstoties uz segmentu. Piemēram, diapazons **+Konts=\[5000:6000\], Nodaļa=\[1000:2000\], Izmaksu centrs=\[00\]** ietver tikai tos kontus, kas atbilst katram segmentam. Šī scenārija ietvaros pirmajai dimensijai ir jābūt diapazonā no 5000 līdz 6000, otrajai dimensijai ir jābūt diapazonā no 1000 līdz 2000 un pēdējai dimensijai ir jābūt 00. Piemēram, diapazons **+Konts=\[5100\], Nodaļa=\[1100\], Izmaksu centrs=\[01\]** netiek ietverts pārskatā, jo pēdējais segments ir ārpus norādītā diapazona. Ja segmenta vērtībā ir atstarpes, iekļaujiet šo vērtību kvadrātiekavās (\[ \]). Četrzīmju segmentam ir derīgas šādas vērtības: **\[ 234\], \[123 \], \[1 34\]**. Dimensiju vērtības ir jāietver kvadrātiekavās (\[ \]), un pārskatu noformētājs šīs iekavas pievieno jūsu vietā. Ja vairāku segmentu vai vairāku dimensiju diapazonā ir ietvertas aizstājējzīmes (? vai \*), tiek noteikta visa vairāku segmentu vai vairāku dimensiju diapazona lielākā un mazākā robežvērtība un pēc tam tiek iekļautas šīs robežvērtības un visas starp tām esošās vērtības. Ja jums ir liels diapazons, piemēram, viss kontu diapazons no 40000 līdz 99999, vajadzētu norādīt derīgu sākuma kontu un beigu kontu, ja vien iespējams. 
 > [!Note] 
 > Pārskatu veidotājs Microsoft Dynamics ERP sistēmā nevar atlasīt kontus, dimensijas vai laukus, kuros ir ietverta kāda no šīm rezervētajām rakstzīmēm: &, \*, \[, \], { vai }. Varat pievienot & zīmi tikai tad, kad automātiski veidojat rindu definīcijas, izmantojot dialoglodziņu **Ievietot rindas no dimensijām**.
 
@@ -488,10 +488,10 @@ Dimensiju vērtību kopa ir dimensiju vērtību grupa, kurai piešķirts nosauku
 1.  Pārskatu veidotājā atveriet modificējamo rindas, kolonnas vai pārskatu koka definīciju.
 2.  Izvēlnē **Rediģēt** noklikšķiniet uz **Pārvaldīt dimensiju vērtību kopas**.
 3.  Dialoglodziņa **Pārvaldīt dimensiju vērtību kopas** laukā **Dimensija** atlasiet dimensijas tipu.
-4.  Atlasiet dzēšamo kopu un tad noklikšķiniet uz **Dzēst**. Noklikšķiniet uz **Jā**, lai neatgriezeniski izdzēstu šo dimensijas vērtību kopu.
+4.  Atlasiet dzēšamo kopu un pēc tam noklikšķiniet uz **Dzēst**. Noklikšķiniet uz **Jā**, lai neatgriezeniski dzēstu dimensiju vērtību kopu.
 
 
-## <a name="see-also"></a>Skatiet arī
+## <a name="additional-resources"></a>Papildu resursi
 
 [Finanšu pārskati](financial-reporting-intro.md)
 

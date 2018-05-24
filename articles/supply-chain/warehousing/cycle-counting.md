@@ -19,16 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ddb035eaa496a7c84f117f0523d509eccdf58505
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9da40e90982d9d4aca38890ed121782f4236712d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cycle-counting"></a>Cikla inventarizācija
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā aprakstīts, kā var izmantot cikla inventarizāciju ar noliktavas risinājumu, kas ir pieejams modulī Noliktavas pārvaldība. Šis raksts neattiecas uz noliktavas risinājumu, kas ir pieejams modulī Krājumu vadība.
 
@@ -136,7 +136,7 @@ Ja ar darba lietotāja ID saistītajai opcijai **Ir cikla inventarizācijas vad�
 
 Jūs varat pielāgot inventarizācijas laikā aprēķinātās vērtības starpības un pēc tam akceptēt inventarizācijas laikā aprēķināto vērtību lapā **Izskatīšanu gaidošā cikla inventarizācija**. Jūs varat pārbaudīt koriģēto krājuma daudzuma skaitu lapā **Rīcībā esošie krājumi pēc novietojuma**. Inventarizācijas laikā aprēķinātā vērtība tiek noraidīta, ja starpību nevar apstiprināt.
 
-## <a name="see-also"></a>Skatiet arī
+## <a name="additional-resources"></a>Papildu resursi
 [Konfigurēt mobilās ierīces darbam noliktavā](configure-mobile-devices-warehouse.md)
 
 

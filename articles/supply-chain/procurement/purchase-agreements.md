@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a47c631b265262f78e0fb3d956a98a7c9e9f5172
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e4414ead4d2c767ecdd3e631035034b01de55b27
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-agreements"></a>Pirkšanas līgumi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta informācija par pirkšanas līgumiem. Pirkšanas līgums ir līgums, kas nosaka, ka organizācijai ir jānopērk noteikts daudzums vai jāiztērē noteikta summa, laika gaitā izmantojot vairākus pirkšanas pasūtījumus. Apmaiņā pret šīm saistībām pircējs saņem īpašas cenas un atlaides. 
 
@@ -91,7 +91,7 @@ Ja izveidojat starpuzņēmumu pirkšanas pasūtījumu, kas izmanto starpuzņēmu
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Pirkšanas līgumu finanšu dimensijas
 Finanšu dimensijas varat kopēt pirkšanas līguma dokumentu galvenēs vai atsevišķās rindās. Ja maināt dimensijas līguma virsrakstā vai līguma rindā, šīs izmaiņas neietekmē nekādus izlaistos pasūtījumus, bet tas atspoguļosies visos jaunajos pasūtījumos.
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Pirkšanas līguma izveide (uzdevuma ceļvedis)](tasks/create-purchase-agreement.md)

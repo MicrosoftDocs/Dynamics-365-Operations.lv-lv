@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 974edd06460df4afe594b0a033a042b8c2763f7f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: be962bffd9dfe756b444f6946990058971896a27
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="demand-forecasting-setup"></a>Pieprasījuma prognozēšanas iestatīšana
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīti iestatīšanas uzdevumi, kas jāizpilda, sagatavotos pieprasījuma prognozēšanas izpildei.  
 
@@ -78,7 +78,7 @@ Lai izveidotu pieprasījuma apjoma prognozes, varat izvietot savu pakalpojumu, i
 ## <a name="settings-for-the-finance-and-operations-demand-forecasting-machine-learning-service"></a>Dynamics 365 for Finance and Operations pieprasījuma prognozēšanas algoritmiskās mācīšanās pakalpojuma iestatījumi
 Lai skatītu Dynamics 365 for Finance and Operations pieprasījuma prognozēšanas pakalpojuma konfigurējamos parametrus, pārejiet uz sadaļu **Vispārējā plānošana** &gt; **Iestatīšana** &gt; **Pieprasījuma prognozēšana** &gt; **Prognozēšanas algoritma parametri**. Lapā **Prognozēšanas algoritma parametri** ir redzamas parametru noklusējuma vērtības. Šos parametrus var pārlabot lapā **Pieprasījuma prognozēšanas parametri**. Lai vispārēji pārrakstītu parametrus, izmantojiet cilni **Vispārīgi** vai izmantojiet cilni **Krājumu sadalījuma principi**, lai pārrakstītu katra krājumu sadalījuma principa parametrus. Krājumu sadalījuma principa pārrakstītos parametrus ietekmē tikai krājumu prognoze, kas ir saistīta ar šo krājumu sadalījuma principu.
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Ievads par pieprasījuma prognozēšanu](introduction-demand-forecasting.md)

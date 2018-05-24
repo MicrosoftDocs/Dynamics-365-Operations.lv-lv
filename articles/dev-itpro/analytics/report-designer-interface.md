@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 69766e1bf37955bfd4d7253c1b7881780d491d1c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 683d3de59a427df296bb0d3d644f0ec23b3a8e5e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="report-designer-interface"></a>Pārskatu veidotāja saskarne
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir paskaidrots, kā pārvietoties atskaišu veidotājā un kā izmantot dažādās opcijas, lai izpildītu jūsu konkrētās prasības. 
 
@@ -82,7 +82,7 @@ Izvēlne **Rediģēt** ir pieejama lietotājiem, kuriem ir **veidotāja** vai **
 | Ievietot kolonnu                          | Kolonnas definīcijā tiek ievietota tukša kolonna. Šī komanda ir pieejama kolonnas definīcijā.                                                                                                             |
 | Dzēst kolonnu                          | Atlasītā kolonna tiek dzēsta no kolonnas definīcijas. Šī komanda ir pieejama kolonnas definīcijā.                                                                                                         |
 | Ievietot pārskatu vienības no dimensijām | Atvērt dialoglodziņu **Ievietot pārskata vienības no dimensijām**, kurā varat atlasīt dimensijas vērtības, kuras vēlaties iekļaut pārskata koka definīcijā. Šī komanda ir pieejama pārskatu koka definīcijā. |
-| Importēt dimensiju kopas hierarhiju         | Atvērt dialoglodziņu **Dimensijas kopas hierarhija**, kur varat importēt dimensiju kopas hierarhiju no finanšu datiem. Šī komanda ir pieejama pārskata koka definīcijā sistēmās, kuras ir balstītas uz dimensijām.  |
+| Importēt dimensiju kopas hierarhiju         | Atvērt dialoglodziņu **Dimensijas kopas hierarhija**, kur varat importēt dimensiju kopas hierarhiju no finanšu datiem. Šī komanda ir pieejama pārskata koka definīcijā sistēmās, kuras ir ..\financial-dimensions\dimension-based.  |
 | Ievietot pārskata vienību                  | Ievietot tukšu rindu pārskata koka definīcijā. Šī komanda ir pieejama pārskatu koka definīcijā.                                                                                                |
 | Dzēst pārskatu vienību                  | Atlasītā pārskatu vienības rinda tiek dzēsta no pārskatu koka definīcijas. Šī komanda ir pieejama pārskatu koka definīcijā.                                                                             |
 
@@ -220,11 +220,11 @@ Atskaišu veidotāja rīkjosla sniedz ātru piekļuvi komandām, kas paredzētas
 | [![Poga Kolonnas definīcija](./media/columnc130389.png)](./media/columnc130389.png)                 | Tiek parādīta aktīvajai pārskata definīcijai piešķirtā kolonnas definīcija.                                                                                                 |
 | [![Poga Pārskata koka definīcija](./media/treec130389.png)](./media/treec130389.png)             | Tiek parādīta aktīvajai pārskata definīcijai piešķirtā pārskatu koka definīcija.                                                                                         |
 | [![Poga Pārskatu skatītājs](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Tiek palaists pārskatu skatītājs un parādīta ģenerētā pārskata jaunākā versija. Ja ģenerējāt vismaz vienu pārskatu, šī poga ir pieejama pārskata definīcijā. |
-| [![Poga Ģenerēt pārskatu](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Ģenerēt pārskatu no aktīvās pārskata definīcijas. Šī poga ir pieejama no pārskata definīcijas.                                                                      |
+| [![Poga Ģenerēt pārskatu](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Tiek ģenerēts pārskats, izmantojot aktīvo pārskata definīciju. Šī poga ir pieejama pārskata definīcijā.                                                                      |
 
 
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Finanšu pārskati](financial-reporting-intro.md)

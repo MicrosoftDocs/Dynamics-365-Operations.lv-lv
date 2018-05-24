@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
+ms.search.form: JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, OpResLifecycleManagementWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 779b27574a9d6d7e7aa6b71f468ba3cff8d4085a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8a12627db93b131450015539bb92ea4780518ed3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-process-overview"></a>Pārskats par ražošanas procesu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegts pārskats par ražošanas procesiem. Tajā ir aprakstīti dažādie ražošanas pasūtījumu, partijas pasūtījumu un Kanban darbu stāvokļi no pasūtījuma izveides līdz finanšu perioda slēgšanai. 
 
@@ -78,14 +78,14 @@ Tālāk norādītās ražošanas dzīves cikla darbības var tikt veiktas visiem
 12. **Perioda slēgšana** — dažiem izmaksu uzskaites principiem, piemēram, periodiskā vidējā, atgriezeniskās norakstīšanas, FIFO vai LIFO principam, ir nepieciešamas periodiskas krājumu vai finanšu perioda slēgšanas aktivitātes. Parasti pirms periodu slēgšanas sistēmā tiek mēģināts ziņot par visu materiālu un resursu patēriņu, kā arī krājumu un brāķu labojumiem. Šī ziņošana parasti tiek veikta, izmantojot krājumu kustības žurnālus vai korekciju žurnālus. Mērķis ir novērtēt pārvaldības struktūrvienības ekonomisko sniegumu konkrētā periodā. Dažos gadījumos, kad tiek izmantoti ilgstoši ražošanas pasūtījumi, kas aptver vairākus finanšu pārskata periodus, par ražošanas norisi un resursu patēriņu līdz perioda beigām tiek ziņots, izmantojot ražošanas žurnālus.
 
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Ražošanas atsauksmes](production-feedback.md)
 
 [Preču konfigurācijas modeļi](../pim/product-configuration-models.md)
 
-[Lean manufacturing](lean-manufacturing-overview.md)
+[LEAN ražošanas process](lean-manufacturing-overview.md)
 
 
 

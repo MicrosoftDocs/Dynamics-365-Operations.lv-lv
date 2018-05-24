@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f51fb41e19a47a9db02166de91b9e027154d6a7d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d667f2abbc7bd00d46f40178b9f6e9d21c6f79f3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="procurement-catalogs"></a>Sagādes katalogi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir detalizēti aprakstīts, kā iepirkumu speciālisti var iestatīt un uzturēt sagādes katalogus. Sagādes katalogos ir noteikti krājumi un pakalpojumi, ko uzņēmuma darbinieki var pasūtīt iekšējai lietošanai.
 
@@ -70,7 +70,7 @@ Atjauninājumi tiek publicēti automātiski vai manuāli atkarībā no opcijas, 
 -   **Abi** — ja katalogs ietver preču kategorijas, kurām ir noklusējuma atjaunināšanas tips **Statisks**, tas jāatjaunina manuāli, atjauninot šīs kategorijas. Ja katalogs ietver preču kategorijas, kurām ir noklusējuma atjaunināšanas tips **Dinamisks**, tas tiek atjaunināts automātiski ikreiz, kad tas ir mainīts.
 
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Sagādes kategoriju hierarhijas iestatīšana (uzdevuma ceļvedis)](tasks/set-up-procurement-category-hierarchy.md)

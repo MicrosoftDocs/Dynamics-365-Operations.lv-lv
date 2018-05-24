@@ -19,18 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1c7209c91f3821a77e9b127d767c78df403ff6cc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 475470fa87455e187e0a93148046cb1df634da1f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="approve-and-confirm-purchase-orders"></a>Pirkšanas pasūtījumu apstiprināšana un ratificēšana
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Šajā rakstā ir aprakstīti statusi, kas pirkšanas pasūtījumam (PP) tiek piešķirti pēc tam, kad tas ir izveidots, un pirkšanas pasūtījumu izmaiņu pārvaldības iespējošanas sekas.
 
@@ -75,14 +75,14 @@ Ja daļa no pasūtītā daudzuma kādai pirkšanas pasūtījuma rindai ir piegā
 
 Kad pasūtījums ir ratificēts, to vairs nevar izdzēst. Taču varat atcelt kopējo daudzumu vai jebkuru atlikušo daudzumu pasūtījumā, ja vien šis daudzums vēl nav saņemts vai iekļauts rēķinā.
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
-[Pārskats par pirkšanas pasūtījumu](purchase-order-overview.md)
+[Pirkšanas pasūtījumu apskats](purchase-order-overview.md)
 
-[Pirkšanas pasūtījuma izveide](purchase-order-creation.md)
+[Pirkšanas pasūtījuma izveidošana](purchase-order-creation.md)
 
-[Produktu ieejas plūsma pret pirkšanas pasūtījumiem](product-receipt-against-purchase-orders.md)
+[Preču ieejas plūsma pret pirkšanas pasūtījumiem](product-receipt-against-purchase-orders.md)
 
 [Apskats par kreditoru rēķiniem](../../financials/accounts-payable/vendor-invoices-overview.md)
 

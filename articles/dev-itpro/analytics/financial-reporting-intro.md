@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f4b70f1aee6b0b55a41dbfd33fcd1216579bb78c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 54a3409e7bd0f1c704cf9f7dd1d860100ec83d7f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="financial-reporting-for-finance-and-operations"></a>Finanšu pārskatu veidošana programmatūrai Finance and Operations
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Finanšu pārskatu veidošana programmatūrai Finance and Operations finanšu un biznesa speciālistiem ļauj veidot, uzturēt, izvietot un skatīt finanšu pārskatus. Tā pārvar tradicionālos pārskatu veidošanas ierobežojumus, lai jums palīdzētu efektīvi veidot dažāda veida pārskatus.
 
@@ -97,7 +97,7 @@ Tālāk aprakstītie finanšu atskaišu veidošanas komponenti ļauj atskaites �
 </tbody>
 </table>
 
-## <a name="see-also"></a>Skatiet arī
+## <a name="additional-resources"></a>Papildu resursi
 [Ģenerēt finanšu pārskatu](generate-financial-report.md)
 
 

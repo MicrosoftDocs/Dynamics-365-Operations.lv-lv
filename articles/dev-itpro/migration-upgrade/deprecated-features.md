@@ -3,7 +3,7 @@ title: "Novecojušie līdzekļi"
 description: "Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt."
 author: sericks007
 manager: AnnBe
-ms.date: 03/22/2018
+ms.date: 05/09/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e629673c3a923ec74809e276ec39464bfacda124
+ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
+ms.openlocfilehash: c935b0c14f09b0a3a738266e4c9c577c96f0ea77
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/09/2018
 
 ---
 
@@ -78,13 +78,13 @@ Abi šie pārskati vairs netiek atbalstīti programmā Finance and Operations. L
 | **Izvietošanas iespēja**        | Visi|
 | **Statuss**                       | Novecojis: izvēlnes elementi šiem abiem pārskatiem ir noņemti versijā 7.3. Taču produktā joprojām atrodas šiem pārskatiem paredzētais kods. Šo kodu ir plānots noņemt turpmākajos laidienos. |
 
-### <a name="power-bi-content-packs-published-to-powerbicom"></a>Vietnē PowerBI.com publicētās Power BI satura pakotnes
-Tā kā pakalpojumā Microsoft Power BI notika produktu atjauninājumi, satura pakotnes **Izmaksu pārvaldība**, **Finanšu veiktspēju** un **Mazumtirdzniecības kanāla veiktspēja**, kuras bija publicētas vietnē PowerBI.com, ir novecojušas. Programmā Finance and Operations kļūst novecojušas arī administrēšanas formas, kas tika izmantotas šo satura pakotņu izvietošanai vietnē PowerBI.com.
+### <a name="power-bi-content-packs-available-on-appsource"></a>AppSource pieejamās Power BI satura pakotnes
+Tā kā pakalpojumā Microsoft Power BI notika produktu atjauninājumi, satura pakotnes **Izmaksu pārvaldība**, **Finanšu veiktspēja** un **Mazumtirdzniecības kanāla veiktspēja**, kuras pieejamas vietnē [Microsoft AppSource](https://appsource.microsoft.com), ir novecojušas. Programmā Finance and Operations kļūst novecojušas arī administrēšanas formas, kas tika izmantotas šo satura pakotņu izvietošanai vietnē PowerBI.com.
 
 |   |  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Produktu atjauninājumi pakalpojumā Microsoft Power BI. |
-| **Vai aizstāts ar citu līdzekli?**   | Power BI satura pakotnes (publicētas vietnē PowerBI.com) tiek aizstātas ar analītiskām programmām, kuras ļauj veikt risinājumu integrēšanu datu bāzes līmenī. Papildinformāciju par analītiskām programmām skatiet šeit: [Iegultais Power BI darbvietās](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Vai aizstāts ar citu līdzekli?**   | Satura pakotnes **Izmaksu pārvaldība**, **Finanšu veiktspēja** un **Mazumtirdzniecības kanāla veiktspēja**, kuras pieejamas vietnē [AppSource](https://appsource.microsoft.com), tiek aizstātas ar analītiskām programmām, kuras ļauj veikt risinājumu integrēšanu datu bāzes līmenī. Papildinformāciju par analītiskām programmām skatiet šeit: [Iegultais Power BI darbvietās](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Ietekmētie produkta apgabali**         | Izmaksu pārvaldība, Finanses un Retail                                                                                               |
 | **Izvietošanas iespēja**              | Tikai mākonī (Integrācija ar PowerBI.com netiek atbalstīta lokālajos izvietojumos.)                                                                                                            |
 | **Statuss**                         | Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir 2018. gada 2. ceturksnis.    |

@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 88570a8dc9da6f6a2b4d3a9499e1ea406f681451
-ms.openlocfilehash: 4608f43a3db9308881d4737e49df949190e3ede2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 18ae41c3c1b19edc2d56a7e3480890c8aea28054
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/14/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="column-definitions-in-financial-reports"></a>Kolonnu definīcijas finanšu pārskatos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta informācija par kolonnu definīcijām. Kolonnas definīcija ir pārskata komponents jeb veidošanas bloks, kas nosaka katras kolonnas saturu pārskatā. Tāpat kā rindas definīcijas pamata kolonnu definīcijas var izmantot vairākos pārskatos.
 
@@ -583,7 +583,7 @@ Varat izveidot kolonnu, kur visas noteiktā kolonnā ietvertās vērtības ir pa
 
 Kolonnas summu var dalīt ar noteiktu periodu skaitu. Piemēram, formula **B/periodi** izdala vērtību kolonnā B ar periodu skaitu kolonnā B. Ja aprēķins aptver vairākas kolonnas, norādiet periodu skaitu, izmantošanai aprēķinā. Piemēram, formula **(B+C)/periodi** saskaita summas kolonnā B un kolonnā C, un pēc tam dala rezultātu ar perioda vērtību.
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Rindas definīcijas finanšu pārskatos](row-definitions-financial-reporting.md)

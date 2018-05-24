@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0235cf112b59ee86f77d26044e47eb9bff8f67db
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b6b5b7e7894cb74e33e08893934b3eaede957556
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Izteiksmes ierobežojumi un tabulas ierobežojumi preču konfigurācijas modeļos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā aprakstīta izteiksmes ierobežojumu un tabulas ierobežojumu lietošana. Ierobežojumi, lai kontrolē atribūta vērtības, ko varat atlasīt, kad konfigurējat preces pārdošanas piedāvājumam, pirkšanas pasūtījumam vai ražošanas pasūtījumam. Var izmantot izteiksmes ierobežojumus vai tabulas ierobežojumus, atkarībā no tā, kā vēlaties veidot ierobežojumus. 
 
@@ -233,9 +233,9 @@ Nevar izmantot rezervētus atslēgas vārdus kā risinātāja nosaukumus atribū
 -   Less
 -   Greater
 -   Implies
--   Log
--   Max
--   Min.
+-   Darbu izpildes žurnāls
+-   Maks.
+-   Min
 -   Mīnus
 -   Plus
 -   Jauda
@@ -246,7 +246,7 @@ Nevar izmantot rezervētus atslēgas vārdus kā risinātāja nosaukumus atribū
 -   Mērķis
 
 
-<a name="see-also"></a>Skatiet arī
+<a name="additional-resources"></a>Papildu resursi
 --------
 
 [Izteiksmes ierobežojuma izveidošana (uzdevuma ceļvedis)](tasks/add-expression-constraint-product-configuration-model.md)
