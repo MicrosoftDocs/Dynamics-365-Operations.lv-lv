@@ -1,0 +1,93 @@
+---
+title: "Pakalpojumu pasūtījumi"
+description: "Pakalpojuma pasūtījums nozīmē servisa tehniķa vizīti debitora atrašanās vietā noteiktā datumā."
+author: YuyuScheller
+manager: AnnBe
+ms.date: 05/01/2018
+ms.topic: article
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+ms.search.form: SMAServiceOrderTable
+audience: Application User
+ms.reviewer: yuyus
+ms.search.scope: Core, Operations
+ms.custom: 
+ms.assetid: 
+ms.search.region: Global
+ms.author: YuyuScheller
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 647bbe9cca0167d33048ad07e092708f90b41fc3
+ms.contentlocale: lv-lv
+ms.lasthandoff: 05/08/2018
+
+---
+
+# <a name="service-orders"></a><span data-ttu-id="c5886-103">Pakalpojumu pasūtījumi</span><span class="sxs-lookup"><span data-stu-id="c5886-103">Service orders</span></span>   
+
+[!include [banner](../includes/banner.md)]
+
+
+<span data-ttu-id="c5886-104">Pakalpojuma pasūtījums nozīmē servisa tehniķa vizīti debitora atrašanās vietā noteiktā datumā.</span><span class="sxs-lookup"><span data-stu-id="c5886-104">A service order represents a visit that a service technician makes to a customer site on a specific date.</span></span> <span data-ttu-id="c5886-105">Katrs pakalpojumu pasūtījums sastāv no vienas vai vairākām pakalpojumu pasūtījuma rindām.</span><span class="sxs-lookup"><span data-stu-id="c5886-105">Each service order consists of one or more service order lines.</span></span> <span data-ttu-id="c5886-106">Pakalpojumu pasūtījumu rindas ataino darba stundas, kas pakalpojumu sniegšanas speciālistam ir jānodrošina, kā arī saistītos krājumus, izdevumus un maksas.</span><span class="sxs-lookup"><span data-stu-id="c5886-106">Service order lines represent the hours of work that must be performed by the service technician, and the related items, expenses, and fees.</span></span>
+
+<span data-ttu-id="c5886-107">Pakalpojuma pasūtījuma rindai varat pievienot uzdevumus un objektus.</span><span class="sxs-lookup"><span data-stu-id="c5886-107">You can attach tasks and objects to a service order line.</span></span> <span data-ttu-id="c5886-108">Pēc tam pakalpojumu pasūtījumu rindas varat grupēt pēc uzdevuma vai pēc objekta.</span><span class="sxs-lookup"><span data-stu-id="c5886-108">You can then group service order lines by task or by object.</span></span> <span data-ttu-id="c5886-109">Pakalpojumu pasūtījumu rindām varat pievienot arī elementus, kas ir uzskaitīti krājumos.</span><span class="sxs-lookup"><span data-stu-id="c5886-109">You can also attach items that are listed in inventory to service order lines.</span></span>
+
+## <a name="create-service-orders"></a><span data-ttu-id="c5886-110">Pakalpojumu pasūtījumu izveidošana</span><span class="sxs-lookup"><span data-stu-id="c5886-110">Create service orders</span></span>
+
+<span data-ttu-id="c5886-111">Pakalpojumu pasūtījumus varat izveidot, pamatojoties uz pakalpojumu līgumu un šajā līgumā ietvertajām rindām.</span><span class="sxs-lookup"><span data-stu-id="c5886-111">You can create service orders based on a service agreement and the lines that are contained in that agreement.</span></span> <span data-ttu-id="c5886-112">Taču ar pakalpojumu līgumu saistītus pakalpojumu pasūtījumus varat izveidot tikai tajā periodā, kas ir norādīts attiecīgajā līgumā.</span><span class="sxs-lookup"><span data-stu-id="c5886-112">However, you can create service orders that are associated with a service agreement only in the period that is specified in the agreement.</span></span> <span data-ttu-id="c5886-113">Piemēram, ja pakalpojumu līgums ir derīgs 2011. kalendārajam gadam, pakalpojumu pasūtījumus šim līgumam varat izveidot no 2011. gada 1. janvāra līdz 2011. gada 31. decembrim.</span><span class="sxs-lookup"><span data-stu-id="c5886-113">For example, if a service agreement is valid for the 2011 calendar year, you can create service orders for the agreement from January 1, 2011, and December 31, 2011.</span></span>
+
+<span data-ttu-id="c5886-114">Pakalpojumu pasūtījumus varat izveidot arī atsevišķi, tos nesaistot ar kādu līgumu.</span><span class="sxs-lookup"><span data-stu-id="c5886-114">You can also create service orders individually, without associating them with an agreement.</span></span> <span data-ttu-id="c5886-115">Šos pakalpojumu pasūtījumus var izmantot, lai apstrādātu neplānotas vai vienreizējas apkopes vizītes.</span><span class="sxs-lookup"><span data-stu-id="c5886-115">These service orders can be used to handle unscheduled or one-time service visits.</span></span> <span data-ttu-id="c5886-116">Piemēram, martā jūsu klients vēlas, lai papildus pakalpojumu līgumā norādītajām iekārtām tiktu veikta apkalpošana vēl divām iekārtām.</span><span class="sxs-lookup"><span data-stu-id="c5886-116">For example, in the month of March, your customer wants service to be performed on two machines, in addition to the machines that are specified in the service agreement.</span></span> <span data-ttu-id="c5886-117">Šim uzdevumam jūs izveidojat pakalpojumu pasūtījumus, bet tos nesaistāt ar līgumu.</span><span class="sxs-lookup"><span data-stu-id="c5886-117">For this task, you create service orders but do not associate them with an agreement.</span></span>
+
+
+> [!NOTE]
+> <P><span data-ttu-id="c5886-118">Lai izveidotu pakalpojumu līgumus, kas nav saistīti ar pakalpojumu līgumu, jums ir jāatzīmē izvēles rūtiņa <STRONG>Atļaut bez pakalpojumu līguma</STRONG> formā <STRONG>Pakalpojumu pārvaldības parametri</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="c5886-118">To create service orders that are not associated with a service agreement, you must select the <STRONG>Allow without service agreement</STRONG> check box in the <STRONG>Service management parameters</STRONG> form.</span></span></P>
+
+<span data-ttu-id="c5886-119">**Scenārijs**</span><span class="sxs-lookup"><span data-stu-id="c5886-119">**Scenario**</span></span>
+
+<span data-ttu-id="c5886-120">Nākamajā scenārijā ir aprakstīta cita situācija, kur var noderēt ar pakalpojumu līgumu nesaistīta pakalpojumu pasūtījuma izveidošana.</span><span class="sxs-lookup"><span data-stu-id="c5886-120">The following scenario describes another situation where it is useful to create a service order that is not associated with a service agreement.</span></span>
+
+<span data-ttu-id="c5886-121">Uzņēmuma dispečers saņem zvanu ar ārkārtas labošanas prasību liftam.</span><span class="sxs-lookup"><span data-stu-id="c5886-121">The company dispatcher receives a call requesting emergency service on an elevator.</span></span> <span data-ttu-id="c5886-122">Nav laika izveidot pakalpojumu līgumu un pakalpojuma projektu.</span><span class="sxs-lookup"><span data-stu-id="c5886-122">There is no time to set up a service agreement and a project for the service.</span></span> <span data-ttu-id="c5886-123">Tādēļ dispečers izveido pakalpojumu pasūtījumu tieši formā **Pakalpojumu pasūtījumi**, šo pakalpojumu pasūtījumu pievieno jau esošam projektam un izveido pakalpojumu pasūtījuma rindas.</span><span class="sxs-lookup"><span data-stu-id="c5886-123">Therefore, the dispatcher creates a service order directly in the **Service orders** form, attaches the service order to an existing project, and creates the service order lines.</span></span> <span data-ttu-id="c5886-124">Dispečers izveido arī uzdevumu vai objektu relāciju jau esošam pakalpojumu pasūtījumam, lai ierakstītu darbu, kas nav saistīts ar pakalpojumu līgumu.</span><span class="sxs-lookup"><span data-stu-id="c5886-124">The dispatcher also creates a task or object relation for an existing service order, to record work that is not related to the service agreement.</span></span> <span data-ttu-id="c5886-125">Plašāku informāciju skatiet tēmā [Pakalpojumu līgumu izveidošana manuāli](create-service-orders-manually.md) un [Pakalpojumu uzdevumu relāciju izveidošana](create-service-task-relations.md).</span><span class="sxs-lookup"><span data-stu-id="c5886-125">For more information, see [Create service orders manually](create-service-orders-manually.md) and [Create service task relations](create-service-task-relations.md).</span></span>
+
+## <a name="monitor-the-progress-of-service-orders"></a><span data-ttu-id="c5886-126">Pakalpojumu pasūtījumu norises uzraudzīšana</span><span class="sxs-lookup"><span data-stu-id="c5886-126">Monitor the progress of service orders</span></span>
+
+<span data-ttu-id="c5886-127">Lai uzraudzītu pārdošanas pasūtījumu norisi dažādās darba grupās un darba procesos, pakalpojumu pasūtījumiem varat iestatīt stadiju sistēmu un iemeslu kodus.</span><span class="sxs-lookup"><span data-stu-id="c5886-127">To monitor the progress of a sales order through the different teams and work processes, you can set up a system of stages and reason codes for service orders.</span></span> <span data-ttu-id="c5886-128">Katrai stadijai varat norādīt atļautās darbības.</span><span class="sxs-lookup"><span data-stu-id="c5886-128">For each stage, you can specify the actions that are allowed.</span></span> <span data-ttu-id="c5886-129">Plašāku informāciju skatiet tēmā [Iemeslu kodu izveidošana](create-reason-codes.md).</span><span class="sxs-lookup"><span data-stu-id="c5886-129">For more information, see [Create reason codes](create-reason-codes.md).</span></span>
+
+<span data-ttu-id="c5886-130">**Piemērs**</span><span class="sxs-lookup"><span data-stu-id="c5886-130">**Example**</span></span>
+
+<span data-ttu-id="c5886-131">Dispečers apstiprina pakalpojumu pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="c5886-131">A service order is approved by the dispatcher.</span></span> <span data-ttu-id="c5886-132">Dispečers atjaunina pakalpojumu pasūtījuma stadiju un izvēlas iemesla kodu, kurš norāda, ka pakalpojumu pasūtījums ir nodots pakalpojumu sniegšanas speciālistam.</span><span class="sxs-lookup"><span data-stu-id="c5886-132">The dispatcher updates the stage of the service order and specifies a reason code that indicates that the service order has been released to the service technician.</span></span> <span data-ttu-id="c5886-133">Tehniskais speciālists dodas uz klienta telpām un sniedz pakalpojumu.</span><span class="sxs-lookup"><span data-stu-id="c5886-133">The technician goes to the customer site and performs the service.</span></span>
+
+## <a name="specify-item-requirements-for-service-orders"></a><span data-ttu-id="c5886-134">Krājumu vajadzību norādīšana pakalpojumu pasūtījumiem</span><span class="sxs-lookup"><span data-stu-id="c5886-134">Specify item requirements for service orders</span></span>
+
+<span data-ttu-id="c5886-135">Varat norādīt pakalpojumu pasūtījumiem nepieciešamās krājumu vienības.</span><span class="sxs-lookup"><span data-stu-id="c5886-135">You can specify the inventory items that are required for service orders.</span></span> <span data-ttu-id="c5886-136">Taču pakalpojumu pasūtījumam ir jābūt saistītam ar kādu projektu.</span><span class="sxs-lookup"><span data-stu-id="c5886-136">However, the service order must be associated with a project.</span></span> <span data-ttu-id="c5886-137">Krājumu vajadzības pakalpojumu pasūtījumiem tiek apstrādātas ar projektu.</span><span class="sxs-lookup"><span data-stu-id="c5886-137">Item requirements for service orders are processed through a project.</span></span> 
+
+<span data-ttu-id="c5886-138">**Piemērs**</span><span class="sxs-lookup"><span data-stu-id="c5886-138">**Example**</span></span>
+
+<span data-ttu-id="c5886-139">Dispečers apstrādā pakalpojumu pasūtījumus, kas ir izveidoti no pakalpojumu līguma.</span><span class="sxs-lookup"><span data-stu-id="c5886-139">The service orders that are created from the service agreement are processed by the dispatcher.</span></span> <span data-ttu-id="c5886-140">Pirmajam pakalpojumu pasūtījumam dispečers saprot, ka pakalpojumu sniegšanas speciālistam ir nepieciešama svarīga rezerves daļa, kuras nav rīcībā esošajos krājumos.</span><span class="sxs-lookup"><span data-stu-id="c5886-140">For the first service order, the dispatcher realizes that the service technician requires an important spare part that is not in the on-hand inventory.</span></span> <span data-ttu-id="c5886-141">Tādēļ dispečers izveido krājuma vajadzību rezerves daļai tieši no pakalpojumu pasūtījuma.</span><span class="sxs-lookup"><span data-stu-id="c5886-141">Therefore, the dispatcher creates an item requirement for the spare part directly from the service order.</span></span>
+
+## <a name="move-and-post-lines"></a><span data-ttu-id="c5886-142">Rindu pārvietošana un grāmatošana</span><span class="sxs-lookup"><span data-stu-id="c5886-142">Move and post lines</span></span>
+
+<span data-ttu-id="c5886-143">Pakalpojumu sniegšanas speciālists atgriežas no apkopes vizītes un pēc tam modificē un atjaunina pakalpojumu pasūtījuma rindas.</span><span class="sxs-lookup"><span data-stu-id="c5886-143">A service technician returns from a service visit, and then modifies and updates the service order lines.</span></span> <span data-ttu-id="c5886-144">Šīs apkopes vizītes laikā tehniskais speciālists veica kādu apkopes darbu, kura veikšana bija ieplānota nākamās apkopes vizītes laikā.</span><span class="sxs-lookup"><span data-stu-id="c5886-144">During the service visit, the technician performed a service job that was scheduled for the next service visit.</span></span> <span data-ttu-id="c5886-145">Tādēļ tehniskais speciālists pārvieto rindas no nākamās apkopes veikšanas vizītes uz pašreizējo apkopes vizīti.</span><span class="sxs-lookup"><span data-stu-id="c5886-145">Therefore, the technician moves the lines from the next service visit to the current service visit.</span></span> <span data-ttu-id="c5886-146">Pēc tam tehniskais speciālists iegrāmato pakalpojumu pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="c5886-146">The technician then posts the service order.</span></span> <span data-ttu-id="c5886-147">Plašāku informāciju skatiet tēmā [Pakalpojumu pasūtījumu rindu pārvietošana](move-service-order-lines.md).</span><span class="sxs-lookup"><span data-stu-id="c5886-147">For more information, see [Move service order lines](move-service-order-lines.md).</span></span>
+
+## <a name="cancel-service-orders"></a><span data-ttu-id="c5886-148">Pakalpojumu pasūtījumu atcelšana</span><span class="sxs-lookup"><span data-stu-id="c5886-148">Cancel service orders</span></span>
+
+<span data-ttu-id="c5886-149">Viens no pārējiem pakalpojumu pasūtījumiem, kas tika izveidoti janvāra mēnesim, kļūst par novecojušu, jo darbs ir atcelts.</span><span class="sxs-lookup"><span data-stu-id="c5886-149">One of the other service orders that was generated for the month of January becomes obsolete, because the job is canceled.</span></span> <span data-ttu-id="c5886-150">Tādēļ pakalpojumu dispečers atceļ šo pakalpojumu pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="c5886-150">Therefore, the service dispatcher cancels the service order.</span></span> <span data-ttu-id="c5886-151">Plašāku informāciju skatiet tēmā [Pakalpojumu pasūtījumu atcelšana](cancel-service-orders.md).</span><span class="sxs-lookup"><span data-stu-id="c5886-151">For more information, see [Cancel service orders](cancel-service-orders.md).</span></span>
+
+## <a name="post-from-projects"></a><span data-ttu-id="c5886-152">Grāmatošana no projektiem</span><span class="sxs-lookup"><span data-stu-id="c5886-152">Post from projects</span></span>
+
+<span data-ttu-id="c5886-153">Katras nedēļas beigās dispečers vēlas iegrāmatot visus pakalpojumu pasūtījumus, kas ir pievienoti noteiktam projektam.</span><span class="sxs-lookup"><span data-stu-id="c5886-153">At the end of each week, the dispatcher wants to post all service orders that are attached to a specific project.</span></span> <span data-ttu-id="c5886-154">Tādēļ dispečers atrod attiecīgo projektu formā **Projekti** un iegrāmato izpildītos pakalpojumu pasūtījumus.</span><span class="sxs-lookup"><span data-stu-id="c5886-154">Therefore, the dispatcher locates the relevant project in the **Projects** form and posts the service orders that have been completed.</span></span> <span data-ttu-id="c5886-155">Plašāku informāciju skatiet tēmā [Pakalpojumu pasūtījumu grāmatošana (klases forma)](https://technet.microsoft.com/en-us/library/aa574685\(v=ax.60\)).</span><span class="sxs-lookup"><span data-stu-id="c5886-155">For more information, see [Post service orders (class form)](https://technet.microsoft.com/en-us/library/aa574685\(v=ax.60\)).</span></span>
+
+## <a name="delete-service-orders"></a><span data-ttu-id="c5886-156">Pakalpojumu pasūtījumu dzēšana</span><span class="sxs-lookup"><span data-stu-id="c5886-156">Delete service orders</span></span>
+
+<span data-ttu-id="c5886-157">Gada otrajā pusē jūsu klients izlemj, ka apkopes vizītes notiek pārāk reti.</span><span class="sxs-lookup"><span data-stu-id="c5886-157">During the second half of the year, your customer decides that the service visits are too infrequent.</span></span> <span data-ttu-id="c5886-158">Jums ir jāizveido jauna, biežāka apkopes vizīšu sērija pakalpojumu līguma atlikušajam periodam.</span><span class="sxs-lookup"><span data-stu-id="c5886-158">You must create a new, more frequent series of service visits for the remaining time on the service agreement.</span></span> <span data-ttu-id="c5886-159">Tādēļ jums ir jāizdzēš esošie pakalpojumu pasūtījumi un jāizveido jauni pakalpojumu pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="c5886-159">Therefore, you must delete the existing service orders and create new service orders.</span></span> <span data-ttu-id="c5886-160">Plašāku informāciju skatiet tēmā [Pakalpojumu pasūtījumu dzēšana](delete-service-orders.md).</span><span class="sxs-lookup"><span data-stu-id="c5886-160">For more information, see [Delete service orders](delete-service-orders.md).</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="c5886-161">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="c5886-161">See also</span></span>
+
+<span data-ttu-id="c5886-162">[Pakalpojumu pasūtījumi (forma)](https://technet.microsoft.com/en-us/library/aa554361\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="c5886-162">[Service orders (form)](https://technet.microsoft.com/en-us/library/aa554361\(v=ax.60\))</span></span>
+
+  
+
+
+

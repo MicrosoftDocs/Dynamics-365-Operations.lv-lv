@@ -20,33 +20,33 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f30227d90be5f957c4e23a08069c6dba9b07bb35
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 60f39b19a627e9c3288f30872d237b8c0ccd8ac4
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="inventory-object-values"></a><span data-ttu-id="57dce-103">Krājumu objekta vērtības</span><span class="sxs-lookup"><span data-stu-id="57dce-103">Inventory object values</span></span>
+# <a name="inventory-object-values"></a><span data-ttu-id="2cf7f-103">Krājumu objekta vērtības</span><span class="sxs-lookup"><span data-stu-id="2cf7f-103">Inventory object values</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="57dce-104">Šajā rakstā ir sniegta informācija par to, kā tiek aprēķinātas krājuma objekta vērtības.</span><span class="sxs-lookup"><span data-stu-id="57dce-104">This article provides information about how the values of an inventory object are calculated.</span></span> 
+<span data-ttu-id="2cf7f-104">Šajā rakstā ir sniegta informācija par to, kā tiek aprēķinātas krājuma objekta vērtības.</span><span class="sxs-lookup"><span data-stu-id="2cf7f-104">This article provides information about how the values of an inventory object are calculated.</span></span> 
 
-<span data-ttu-id="57dce-105">Jaunā funkcija, kuras nosaukums ir **fiziskais daudzums** ļauj jums apskatīt noteikta krājuma objekta vērtības.</span><span class="sxs-lookup"><span data-stu-id="57dce-105">A new functionality that is named **physical quantity** lets you see the values of a specific inventory object.</span></span> 
+<span data-ttu-id="2cf7f-105">Jaunā funkcija, kuras nosaukums ir **fiziskais daudzums** ļauj jums apskatīt noteikta krājuma objekta vērtības.</span><span class="sxs-lookup"><span data-stu-id="2cf7f-105">A new functionality that is named **physical quantity** lets you see the values of a specific inventory object.</span></span> 
 
-<span data-ttu-id="57dce-106">Izmaksu objekts norāda elementa līmeni, kurā tiek veikta krājumu uzskaite.</span><span class="sxs-lookup"><span data-stu-id="57dce-106">A cost object represents the entity level where inventory accounting is performed.</span></span> <span data-ttu-id="57dce-107">Plašāku informāciju par izmaksu objektiem skatiet sadaļā [Izmaksu objekti](cost-object.md).</span><span class="sxs-lookup"><span data-stu-id="57dce-107">For more information about cost objects, see [Cost objects](cost-object.md).</span></span> 
+<span data-ttu-id="2cf7f-106">Izmaksu objekts norāda elementa līmeni, kurā tiek veikta krājumu uzskaite.</span><span class="sxs-lookup"><span data-stu-id="2cf7f-106">A cost object represents the entity level where inventory accounting is performed.</span></span> <span data-ttu-id="2cf7f-107">Plašāku informāciju par izmaksu objektiem skatiet sadaļā [Izmaksu objekti](cost-object.md).</span><span class="sxs-lookup"><span data-stu-id="2cf7f-107">For more information about cost objects, see [Cost objects](cost-object.md).</span></span> 
 
-<span data-ttu-id="57dce-108">Lai skatītu noteikta krājumu objekta vērtības, lapā **Izmaksu objekts** noklikšķiniet uz vienuma **Fiziskais daudzums**.</span><span class="sxs-lookup"><span data-stu-id="57dce-108">To see the values of a specific inventory object, click **Physical quantity** on the **Cost object** page.</span></span> <span data-ttu-id="57dce-109">Krājumu objekta vērtība tiek aprēķināta tālāk norādītajā veidā.</span><span class="sxs-lookup"><span data-stu-id="57dce-109">Here is how the value of an inventory object is calculated:</span></span> 
+<span data-ttu-id="2cf7f-108">Lai skatītu noteikta krājumu objekta vērtības, lapā **Izmaksu objekts** noklikšķiniet uz vienuma **Fiziskais daudzums**.</span><span class="sxs-lookup"><span data-stu-id="2cf7f-108">To see the values of a specific inventory object, click **Physical quantity** on the **Cost object** page.</span></span> <span data-ttu-id="2cf7f-109">Krājumu objekta vērtība tiek aprēķināta tālāk norādītajā veidā.</span><span class="sxs-lookup"><span data-stu-id="2cf7f-109">Here is how the value of an inventory object is calculated:</span></span> 
 
-<span data-ttu-id="57dce-110">Inventory object.Value = Cost object.Average unit cost × Inventory object.Quantity</span><span class="sxs-lookup"><span data-stu-id="57dce-110">Inventory object.Value = Cost object.Average unit cost × Inventory object.Quantity</span></span> 
+<span data-ttu-id="2cf7f-110">Inventory object.Value = Cost object.Average unit cost × Inventory object.Quantity</span><span class="sxs-lookup"><span data-stu-id="2cf7f-110">Inventory object.Value = Cost object.Average unit cost × Inventory object.Quantity</span></span> 
 
-<span data-ttu-id="57dce-111">Nākamajā piemērā ir parādīts, kā tiek aprēķinātas krājumu objekta un izmaksu objekta vērtības.</span><span class="sxs-lookup"><span data-stu-id="57dce-111">The following example shows how the values of an inventory object and a cost object are calculated.</span></span> <span data-ttu-id="57dce-112">Krājumam A ir reģistrēti divi preču saņemšanas notikumi:</span><span class="sxs-lookup"><span data-stu-id="57dce-112">Two product receipt events are registered on item A:</span></span>
+<span data-ttu-id="2cf7f-111">Nākamajā piemērā ir parādīts, kā tiek aprēķinātas krājumu objekta un izmaksu objekta vērtības.</span><span class="sxs-lookup"><span data-stu-id="2cf7f-111">The following example shows how the values of an inventory object and a cost object are calculated.</span></span> <span data-ttu-id="2cf7f-112">Krājumam A ir reģistrēti divi preču saņemšanas notikumi:</span><span class="sxs-lookup"><span data-stu-id="2cf7f-112">Two product receipt events are registered on item A:</span></span>
 
--   <span data-ttu-id="57dce-113">1. preces saņemšana: daudzums = 100 gab., summa = $ 1000,00, vieta = 1, noliktava = 11, partijas Nr.</span><span class="sxs-lookup"><span data-stu-id="57dce-113">Product receipt 1: Quantity = 100 pcs., Amount = $1,000.00, Site = 1, Warehouse =11, Batch No.</span></span> <span data-ttu-id="57dce-114">= B1</span><span class="sxs-lookup"><span data-stu-id="57dce-114">= B1</span></span>
--   <span data-ttu-id="57dce-115">2. preces saņemšana: daudzums = 50 gab., summa = $ 800,00, vieta = 1, noliktava = 11, partijas Nr.</span><span class="sxs-lookup"><span data-stu-id="57dce-115">Product receipt 2: Quantity = 50 pcs., Amount = $800.00, Site = 1, Warehouse =11, Batch No.</span></span> <span data-ttu-id="57dce-116">= B2</span><span class="sxs-lookup"><span data-stu-id="57dce-116">= B2</span></span>
+-   <span data-ttu-id="2cf7f-113">1. preces saņemšana: daudzums = 100 gab., summa = $ 1000,00, vieta = 1, noliktava = 11, partijas Nr.</span><span class="sxs-lookup"><span data-stu-id="2cf7f-113">Product receipt 1: Quantity = 100 pcs., Amount = $1,000.00, Site = 1, Warehouse =11, Batch No.</span></span> <span data-ttu-id="2cf7f-114">= B1</span><span class="sxs-lookup"><span data-stu-id="2cf7f-114">= B1</span></span>
+-   <span data-ttu-id="2cf7f-115">2. preces saņemšana: daudzums = 50 gab., summa = $ 800,00, vieta = 1, noliktava = 11, partijas Nr.</span><span class="sxs-lookup"><span data-stu-id="2cf7f-115">Product receipt 2: Quantity = 50 pcs., Amount = $800.00, Site = 1, Warehouse =11, Batch No.</span></span> <span data-ttu-id="2cf7f-116">= B2</span><span class="sxs-lookup"><span data-stu-id="2cf7f-116">= B2</span></span>
 
-<span data-ttu-id="57dce-117">Šajā tabulā ir parādīts aprēķinu rezultāts izmaksu objektam.</span><span class="sxs-lookup"><span data-stu-id="57dce-117">The following table shows the calculation result for a cost object.</span></span> <span data-ttu-id="57dce-118">Rezultātu var skatīt lapā **Izmaksu objekts**.</span><span class="sxs-lookup"><span data-stu-id="57dce-118">You can view the result on the **Cost object** page.</span></span>
+<span data-ttu-id="2cf7f-117">Šajā tabulā ir parādīts aprēķinu rezultāts izmaksu objektam.</span><span class="sxs-lookup"><span data-stu-id="2cf7f-117">The following table shows the calculation result for a cost object.</span></span> <span data-ttu-id="2cf7f-118">Rezultātu var skatīt lapā **Izmaksu objekts**.</span><span class="sxs-lookup"><span data-stu-id="2cf7f-118">You can view the result on the **Cost object** page.</span></span>
 
 <table style="width:100%;">
 <colgroup>
@@ -60,29 +60,29 @@ ms.lasthandoff: 04/13/2018
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="57dce-119">Objekta veids</span><span class="sxs-lookup"><span data-stu-id="57dce-119">Object type</span></span></th>
-<th><span data-ttu-id="57dce-120">Krājuma kods</span><span class="sxs-lookup"><span data-stu-id="57dce-120">Item number</span></span></th>
-<th><span data-ttu-id="57dce-121">Vieta</span><span class="sxs-lookup"><span data-stu-id="57dce-121">Site</span></span></th>
-<th><span data-ttu-id="57dce-122">Daudzums</span><span class="sxs-lookup"><span data-stu-id="57dce-122">Quantity</span></span></th>
-<th><span data-ttu-id="57dce-123">Krājumu uzskaites vienība</span><span class="sxs-lookup"><span data-stu-id="57dce-123">Inventory unit</span></span></th>
-<th><span data-ttu-id="57dce-124">Vērtība</span><span class="sxs-lookup"><span data-stu-id="57dce-124">Value</span></span></th>
-<th><span data-ttu-id="57dce-125">Vidējās vienības izmaksas</span><span class="sxs-lookup"><span data-stu-id="57dce-125">Average unit cost</span></span></th>
+<th><span data-ttu-id="2cf7f-119">Objekta veids</span><span class="sxs-lookup"><span data-stu-id="2cf7f-119">Object type</span></span></th>
+<th><span data-ttu-id="2cf7f-120">Krājuma kods</span><span class="sxs-lookup"><span data-stu-id="2cf7f-120">Item number</span></span></th>
+<th><span data-ttu-id="2cf7f-121">Vieta</span><span class="sxs-lookup"><span data-stu-id="2cf7f-121">Site</span></span></th>
+<th><span data-ttu-id="2cf7f-122">Daudzums</span><span class="sxs-lookup"><span data-stu-id="2cf7f-122">Quantity</span></span></th>
+<th><span data-ttu-id="2cf7f-123">Krājumu uzskaites vienība</span><span class="sxs-lookup"><span data-stu-id="2cf7f-123">Inventory unit</span></span></th>
+<th><span data-ttu-id="2cf7f-124">Vērtība</span><span class="sxs-lookup"><span data-stu-id="2cf7f-124">Value</span></span></th>
+<th><span data-ttu-id="2cf7f-125">Vidējās vienības izmaksas</span><span class="sxs-lookup"><span data-stu-id="2cf7f-125">Average unit cost</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="57dce-126">Izmaksu objekts</span><span class="sxs-lookup"><span data-stu-id="57dce-126">Cost object</span></span></td>
-<td><span data-ttu-id="57dce-127">A</span><span class="sxs-lookup"><span data-stu-id="57dce-127">A</span></span></td>
-<td><span data-ttu-id="57dce-128">1</span><span class="sxs-lookup"><span data-stu-id="57dce-128">1</span></span></td>
-<td><span data-ttu-id="57dce-129">150</span><span class="sxs-lookup"><span data-stu-id="57dce-129">150</span></span></td>
-<td><span data-ttu-id="57dce-130">Gab.</span><span class="sxs-lookup"><span data-stu-id="57dce-130">Pcs.</span></span></td>
-<td><p><span data-ttu-id="57dce-131">$ 1800,00</span><span class="sxs-lookup"><span data-stu-id="57dce-131">$1800.00</span></span></p></td>
-<td><p><span data-ttu-id="57dce-132">$ 12,00</span><span class="sxs-lookup"><span data-stu-id="57dce-132">$12.00</span></span></p></td>
+<td><span data-ttu-id="2cf7f-126">Izmaksu objekts</span><span class="sxs-lookup"><span data-stu-id="2cf7f-126">Cost object</span></span></td>
+<td><span data-ttu-id="2cf7f-127">A</span><span class="sxs-lookup"><span data-stu-id="2cf7f-127">A</span></span></td>
+<td><span data-ttu-id="2cf7f-128">1</span><span class="sxs-lookup"><span data-stu-id="2cf7f-128">1</span></span></td>
+<td><span data-ttu-id="2cf7f-129">150</span><span class="sxs-lookup"><span data-stu-id="2cf7f-129">150</span></span></td>
+<td><span data-ttu-id="2cf7f-130">Gab.</span><span class="sxs-lookup"><span data-stu-id="2cf7f-130">Pcs.</span></span></td>
+<td><p><span data-ttu-id="2cf7f-131">$ 1800,00</span><span class="sxs-lookup"><span data-stu-id="2cf7f-131">$1800.00</span></span></p></td>
+<td><p><span data-ttu-id="2cf7f-132">$ 12,00</span><span class="sxs-lookup"><span data-stu-id="2cf7f-132">$12.00</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="57dce-133">Šajā tabulā ir parādīts aprēķinu rezultāts krājumu objektam.</span><span class="sxs-lookup"><span data-stu-id="57dce-133">The following table shows the calculation result for an inventory object.</span></span> <span data-ttu-id="57dce-134">Rezultātu var skatīt noklikšķinot uz **Fiziskais daudzums** lapā **Izmaksu objekts**.</span><span class="sxs-lookup"><span data-stu-id="57dce-134">You can view the result by clicking **Physical quantity** on the **Cost object** page.</span></span>
+<span data-ttu-id="2cf7f-133">Šajā tabulā ir parādīts aprēķinu rezultāts krājumu objektam.</span><span class="sxs-lookup"><span data-stu-id="2cf7f-133">The following table shows the calculation result for an inventory object.</span></span> <span data-ttu-id="2cf7f-134">Rezultātu var skatīt noklikšķinot uz **Fiziskais daudzums** lapā **Izmaksu objekts**.</span><span class="sxs-lookup"><span data-stu-id="2cf7f-134">You can view the result by clicking **Physical quantity** on the **Cost object** page.</span></span>
 
 <table style="width:100%;">
 <colgroup>
@@ -98,53 +98,53 @@ ms.lasthandoff: 04/13/2018
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="57dce-135">Objekta veids</span><span class="sxs-lookup"><span data-stu-id="57dce-135">Object type</span></span></th>
-<th><span data-ttu-id="57dce-136">Krājuma kods</span><span class="sxs-lookup"><span data-stu-id="57dce-136">Item number</span></span></th>
-<th><span data-ttu-id="57dce-137">Vieta</span><span class="sxs-lookup"><span data-stu-id="57dce-137">Site</span></span></th>
-<th><span data-ttu-id="57dce-138">Noliktava</span><span class="sxs-lookup"><span data-stu-id="57dce-138">Warehouse</span></span></th>
-<th><span data-ttu-id="57dce-139">Paketes Nr.</span><span class="sxs-lookup"><span data-stu-id="57dce-139">Batch No.</span></span></th>
-<th><span data-ttu-id="57dce-140">Daudzums</span><span class="sxs-lookup"><span data-stu-id="57dce-140">Quantity</span></span></th>
-<th><span data-ttu-id="57dce-141">Krājumu uzskaites vienība</span><span class="sxs-lookup"><span data-stu-id="57dce-141">Inventory unit</span></span></th>
-<th><span data-ttu-id="57dce-142">Vērtība</span><span class="sxs-lookup"><span data-stu-id="57dce-142">Value</span></span></th>
-<th><span data-ttu-id="57dce-143">Vidējās vienības izmaksas</span><span class="sxs-lookup"><span data-stu-id="57dce-143">Average unit cost</span></span></th>
+<th><span data-ttu-id="2cf7f-135">Objekta veids</span><span class="sxs-lookup"><span data-stu-id="2cf7f-135">Object type</span></span></th>
+<th><span data-ttu-id="2cf7f-136">Krājuma kods</span><span class="sxs-lookup"><span data-stu-id="2cf7f-136">Item number</span></span></th>
+<th><span data-ttu-id="2cf7f-137">Vieta</span><span class="sxs-lookup"><span data-stu-id="2cf7f-137">Site</span></span></th>
+<th><span data-ttu-id="2cf7f-138">Noliktava</span><span class="sxs-lookup"><span data-stu-id="2cf7f-138">Warehouse</span></span></th>
+<th><span data-ttu-id="2cf7f-139">Paketes Nr.</span><span class="sxs-lookup"><span data-stu-id="2cf7f-139">Batch No.</span></span></th>
+<th><span data-ttu-id="2cf7f-140">Daudzums</span><span class="sxs-lookup"><span data-stu-id="2cf7f-140">Quantity</span></span></th>
+<th><span data-ttu-id="2cf7f-141">Krājumu uzskaites vienība</span><span class="sxs-lookup"><span data-stu-id="2cf7f-141">Inventory unit</span></span></th>
+<th><span data-ttu-id="2cf7f-142">Vērtība</span><span class="sxs-lookup"><span data-stu-id="2cf7f-142">Value</span></span></th>
+<th><span data-ttu-id="2cf7f-143">Vidējās vienības izmaksas</span><span class="sxs-lookup"><span data-stu-id="2cf7f-143">Average unit cost</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="57dce-144">Krājumu objekts</span><span class="sxs-lookup"><span data-stu-id="57dce-144">Inventory object</span></span></td>
-<td><span data-ttu-id="57dce-145">A</span><span class="sxs-lookup"><span data-stu-id="57dce-145">A</span></span></td>
-<td><span data-ttu-id="57dce-146">1</span><span class="sxs-lookup"><span data-stu-id="57dce-146">1</span></span></td>
-<td><span data-ttu-id="57dce-147">11.</span><span class="sxs-lookup"><span data-stu-id="57dce-147">11</span></span></td>
-<td><span data-ttu-id="57dce-148">B1</span><span class="sxs-lookup"><span data-stu-id="57dce-148">B1</span></span></td>
-<td><span data-ttu-id="57dce-149">100</span><span class="sxs-lookup"><span data-stu-id="57dce-149">100</span></span></td>
-<td><span data-ttu-id="57dce-150">Gab.</span><span class="sxs-lookup"><span data-stu-id="57dce-150">Pcs.</span></span></td>
-<td><p><span data-ttu-id="57dce-151">$ 1200,00</span><span class="sxs-lookup"><span data-stu-id="57dce-151">$1200.00</span></span></p></td>
-<td><p><span data-ttu-id="57dce-152">$ 12,00</span><span class="sxs-lookup"><span data-stu-id="57dce-152">$12.00</span></span></p></td>
+<td><span data-ttu-id="2cf7f-144">Krājumu objekts</span><span class="sxs-lookup"><span data-stu-id="2cf7f-144">Inventory object</span></span></td>
+<td><span data-ttu-id="2cf7f-145">A</span><span class="sxs-lookup"><span data-stu-id="2cf7f-145">A</span></span></td>
+<td><span data-ttu-id="2cf7f-146">1</span><span class="sxs-lookup"><span data-stu-id="2cf7f-146">1</span></span></td>
+<td><span data-ttu-id="2cf7f-147">11.</span><span class="sxs-lookup"><span data-stu-id="2cf7f-147">11</span></span></td>
+<td><span data-ttu-id="2cf7f-148">B1</span><span class="sxs-lookup"><span data-stu-id="2cf7f-148">B1</span></span></td>
+<td><span data-ttu-id="2cf7f-149">100</span><span class="sxs-lookup"><span data-stu-id="2cf7f-149">100</span></span></td>
+<td><span data-ttu-id="2cf7f-150">Gab.</span><span class="sxs-lookup"><span data-stu-id="2cf7f-150">Pcs.</span></span></td>
+<td><p><span data-ttu-id="2cf7f-151">$ 1200,00</span><span class="sxs-lookup"><span data-stu-id="2cf7f-151">$1200.00</span></span></p></td>
+<td><p><span data-ttu-id="2cf7f-152">$ 12,00</span><span class="sxs-lookup"><span data-stu-id="2cf7f-152">$12.00</span></span></p></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="57dce-153">Krājumu objekts</span><span class="sxs-lookup"><span data-stu-id="57dce-153">Inventory object</span></span></td>
-<td><span data-ttu-id="57dce-154">A</span><span class="sxs-lookup"><span data-stu-id="57dce-154">A</span></span></td>
-<td><span data-ttu-id="57dce-155">1.</span><span class="sxs-lookup"><span data-stu-id="57dce-155">1</span></span></td>
-<td><span data-ttu-id="57dce-156">11.</span><span class="sxs-lookup"><span data-stu-id="57dce-156">11</span></span></td>
-<td><span data-ttu-id="57dce-157">B2</span><span class="sxs-lookup"><span data-stu-id="57dce-157">B2</span></span></td>
-<td><span data-ttu-id="57dce-158">50</span><span class="sxs-lookup"><span data-stu-id="57dce-158">50</span></span></td>
-<td><span data-ttu-id="57dce-159">Gab.</span><span class="sxs-lookup"><span data-stu-id="57dce-159">Pcs.</span></span></td>
-<td><p><span data-ttu-id="57dce-160">$ 600,00</span><span class="sxs-lookup"><span data-stu-id="57dce-160">$600.00</span></span></p></td>
-<td><p><span data-ttu-id="57dce-161">$ 12,00</span><span class="sxs-lookup"><span data-stu-id="57dce-161">$12.00</span></span></p></td>
+<td><span data-ttu-id="2cf7f-153">Krājumu objekts</span><span class="sxs-lookup"><span data-stu-id="2cf7f-153">Inventory object</span></span></td>
+<td><span data-ttu-id="2cf7f-154">A</span><span class="sxs-lookup"><span data-stu-id="2cf7f-154">A</span></span></td>
+<td><span data-ttu-id="2cf7f-155">1</span><span class="sxs-lookup"><span data-stu-id="2cf7f-155">1</span></span></td>
+<td><span data-ttu-id="2cf7f-156">11</span><span class="sxs-lookup"><span data-stu-id="2cf7f-156">11</span></span></td>
+<td><span data-ttu-id="2cf7f-157">B2</span><span class="sxs-lookup"><span data-stu-id="2cf7f-157">B2</span></span></td>
+<td><span data-ttu-id="2cf7f-158">50</span><span class="sxs-lookup"><span data-stu-id="2cf7f-158">50</span></span></td>
+<td><span data-ttu-id="2cf7f-159">Gab.</span><span class="sxs-lookup"><span data-stu-id="2cf7f-159">Pcs.</span></span></td>
+<td><p><span data-ttu-id="2cf7f-160">$ 600,00</span><span class="sxs-lookup"><span data-stu-id="2cf7f-160">$600.00</span></span></p></td>
+<td><p><span data-ttu-id="2cf7f-161">$ 12,00</span><span class="sxs-lookup"><span data-stu-id="2cf7f-161">$12.00</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
 
-<a name="see-also"></a><span data-ttu-id="57dce-162">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="57dce-162">See also</span></span>
+<a name="additional-resources"></a><span data-ttu-id="2cf7f-162">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="2cf7f-162">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="57dce-163">Izmaksu objekti</span><span class="sxs-lookup"><span data-stu-id="57dce-163">Cost objects</span></span>](cost-object.md)
+[<span data-ttu-id="2cf7f-163">Izmaksu objekti</span><span class="sxs-lookup"><span data-stu-id="2cf7f-163">Cost objects</span></span>](cost-object.md)
 
-[<span data-ttu-id="57dce-164">Izmaksu ieraksti</span><span class="sxs-lookup"><span data-stu-id="57dce-164">Cost entries</span></span>](cost-entries.md)
+[<span data-ttu-id="2cf7f-164">Izmaksu ieraksti</span><span class="sxs-lookup"><span data-stu-id="2cf7f-164">Cost entries</span></span>](cost-entries.md)
 
-[<span data-ttu-id="57dce-165">Jaunumi un izmaiņas</span><span class="sxs-lookup"><span data-stu-id="57dce-165">What's new and changed</span></span>](../../fin-and-ops/get-started/whats-new-changed.md)
+[<span data-ttu-id="2cf7f-165">Jaunumi un izmaiņas</span><span class="sxs-lookup"><span data-stu-id="2cf7f-165">What's new and changed</span></span>](../../fin-and-ops/get-started/whats-new-changed.md)
 
 
 
