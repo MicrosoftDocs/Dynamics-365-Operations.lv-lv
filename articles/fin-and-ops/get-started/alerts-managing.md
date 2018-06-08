@@ -3,7 +3,7 @@ title: "Par brīdinājumu pakešuzdevuma izpildi"
 description: "Šajā tēmā ir sniegta informācija par brīdinājumu pakešveida apstrādi programmā Microsoft Dynamics 365 for Finance and Operations."
 author: tjvass
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 06/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -25,8 +25,6 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="batch-processing-for-alerts"></a>Brīdinājumu pakešveida apstrāde
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 Brīdinājumus apstrādā, izmantojot pakešveida apstrādes funkcionalitāti programmā Microsoft Dynamics 365 for Finance and Operations. Lai brīdinājumus varētu nosūtīt, ir jāiestata pakešveida apstrāde.
 
