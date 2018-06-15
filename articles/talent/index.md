@@ -1,9 +1,9 @@
 ---
 title: "Microsoft Dynamics 365 for Talent"
 description: "Talent racionalizē daudzus ikdienas lietvedības uzdevumus un automatizē vairākus ar jūsu organizācijas personālu saistītus procesus. Šajos procesos ietilpst darbinieku ieturējumu un atvieglojumu administrēšana, apmācība, darba izpildes novērtējumi un izmaiņu pārvaldība."
-author: rschloma
+author: josaw
 manager: AnnBe
-ms.date: 09/19/2017
+ms.date: 06/04/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: db8b2e87ad020dac16ec74f2fea62e445c38e116
+ms.sourcegitcommit: bde68c9167e18cae6be4988865123d20274753c0
+ms.openlocfilehash: 9bc09a822f78b9792c2afdb0d297809edea7551a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 06/06/2018
 
 ---
 
@@ -42,8 +42,11 @@ Risinājumu Talent varat izmantot tālāk uzskaitīto uzdevumu izpildīšanai.
 + Pārskatiet darba izpildes kvalitāti un ieviesiet darbinieku mērķus.
 + Iestatiet, nodrošiniet un analizējiet apmācību kursus, kuri ietver darba kārtības, sesijas un izsekošanu.
 
+Izpētiet programmu Dynamics 365 for Talent, noskatoties video [Kā sākt darbu ar Dynamics 365 for Talent.](https://www.youtube.com/watch?v=6rg2ByadbN0)
+
+
 > [!NOTE] 
-> Risinājums Dynamics 365 for Talent ir cieši saistīts ar personāla vadību Dynamics 365 for Finance and Operations. Šī funkcionalitāte var būt pieejama abos produktos. Tādējādi tēmās, kas galvenokārt ir saistītas ar personāla vadību, produkta nosaukums būs Dynamics 365 for Finance and Operations; tēmās, kas galvenokārt ir saistītas ar personālu, produkta nosaukums būs Dynamics 365 for Talent. Tēmas, kas sarakstītas vienam produktam, var attiekties uz to pašu funkcionalitāti saistītā produktā.
+> Programma Dynamics 365 for Talent ir cieši saistīta ar personāla vadību programmā Dynamics 365 for Finance and Operations. Šī funkcionalitāte var būt pieejama abos produktos. Tādējādi tēmās, kas galvenokārt ir saistītas ar personāla vadību, produkta nosaukums būs Dynamics 365 for Finance and Operations; tēmās, kas galvenokārt ir saistītas ar personālu, produkta nosaukums būs Dynamics 365 for Talent. Tēmas, kas sarakstītas vienam produktam, var attiekties uz to pašu funkcionalitāti saistītā produktā.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>Izstrādājiet personāla vadības stratēģiju
 ---------------------------------------------------------
@@ -52,13 +55,15 @@ Strādājot ar Talent, jums ir jāizlemj, kā strukturēt savu organizāciju, iz
 
 -   [Organizēt darbaspēku, izmantojot nodaļas, darbus un amatus](departments-jobs-positions.md)
 -   [Iestatīt uzņēmumam raksturīgus HR parametrus](set-up-company-specific-hr-parameters.md)
--   [Iestatīt HR parametrus dažādām juridiskajām personām](set-up-hr-parameters-across-legal-entities.md) 
+-   [HR parametru iestatīšana dažādās juridiskajās personās](set-up-hr-parameters-across-legal-entities.md) 
 -   [Bieži uzdotie jautājumi par personāla darbībām](personnel-actions-faq.md)
--   [Atvaļinājuma un kavējuma pārskats](leave-absence-overview.md)
+-   [Atvaļinājumu un kavējumu apskats](leave-absence-overview.md)
+-   [Kā izmantot programmu Dynamics 365 for Talent: Atvaļinājumi un kavējumi (video)](https://www.youtube.com/watch?v=1q1UhKmO4tw)
+-   [Kā pārvaldīt personālu programmā Dynamics 365 for Talent (video)](https://www.youtube.com/watch?v=h1T5IjKKAuA)
 
 ## <a name="staffing-your-organization"></a>Organizācijas personāla komplektēšana
 
-Programmā Dynamics 365 for Talent ir iekļauta programma Attract, kas jums var palīdzēt identificēt, intervēt un pieņemt darbā kandidātus, kuriem piemīt organizācijai nepieciešamās prasmes. No personāla atlases pārejot uz pieņemšanu darbā, izmantojiet programmu Onboard, kas palīdzēs organizācijā iesaistīt jauno darbinieku, norādot precīzas prasības, sniedzot informāciju darba sākšanai, iepazīstinot ar kolēģiem un motivējot panākumu gūšanai jaunajā lomā.  
+Programmā Dynamics 365 for Talent ir ietverta programma Attract, kas jums var palīdzēt identificēt, intervēt un pieņemt darbā kandidātus, kuriem piemīt organizācijai nepieciešamās prasmes. No personāla atlases pārejot uz pieņemšanu darbā, izmantojiet programmu Onboard, kas palīdzēs organizācijā iesaistīt jauno darbinieku, norādot precīzas prasības, sniedzot informāciju darba sākšanai, iepazīstinot ar kolēģiem un motivējot panākumu gūšanai jaunajā lomā.  
 
 - [Attract pārskats](attract-overview.md)
 - [Onboard pārskats](create-onboarding-experience.md)
@@ -69,28 +74,31 @@ Varat iestatīt plānus, lai efektīvi un taisnīgi pārvaldītu atlīdzības, k
 
 -   [Atlīdzības plāni](compensation-plans.md)
 -   [Procesa kompensācija](process-compensation.md)
--   [Izveidot fiksētās atlīdzības plānus](create-fixed-compensation-plans.md)
--   [Izveidot mainīgās atlīdzības plānus](create-variable-compensation-plans.md)
+-   [Fiksētās atlīdzības plānu izveidošana](create-fixed-compensation-plans.md)
+-   [Mainīgās atlīdzības plānu izveidošana](create-variable-compensation-plans.md)
+-   [Kā pārvaldīt atlīdzības programmā Dynamics 365 for Talent (video)](https://www.youtube.com/watch?v=lEw5oKopHDk)
 
-## <a name="develop-and-train-employees"></a>Veicināt darbinieku attīstību un apmācīt darbiniekus
+## <a name="develop-and-train-employees"></a>Darbinieku attīstības veicināšana un apmācība
 
-Lai saviem darbiniekiem palīdzētu sasniegt viņu karjeras mērķus, vienlaicīgi nodrošinot svarīgās uzņēmuma vajadzības, varat iestatīt mērķus, izveidot darba izpildes novērtējumus un sekot līdzi atsauksmēm. Lai darbiniekiem palīdzētu attīstīt nepieciešamās prasmes, varat arī iestatīt instruktorus, kursu tipus, kursus, kursu aprakstus, darba kārtības, izsekošanu un sesijas, pirms kursam piešķirat kādu instruktoru vai kādu reģistrējat kursam. Instruktoriem jau ir jāpastāv kā darbiniekiem, kandidātiem vai kontaktpersonām.
+Lai palīdzētu saviem darbiniekiem sasniegt viņu karjeras mērķus, vienlaikus nodrošinot svarīgās uzņēmuma vajadzības, varat iestatīt mērķus, izveidot darba izpildes novērtējumus un sekot līdzi atsauksmēm. Lai palīdzētu darbiniekiem attīstīt nepieciešamās prasmes, varat arī iestatīt instruktorus, kursu tipus, kursus, kursu aprakstus, darba kārtības, izsekošanu un sesijas, pirms kursam piešķirat kādu instruktoru vai kursam reģistrējat kādu personu. Instruktoriem jau ir jāpastāv kā darbiniekiem, kandidātiem vai kontaktpersonām.
 
 -   [Veiktspējas pārvaldība](performance-management-overview.md)
--   [Darbaspēka prasmes padarīt atbilstošas biznesa vajadzībām](skills.md)
--   [Administrēt apmācību, izmantojot kursus](courses.md)
+-   [Darbaspēka prasmju izmantošana atbilstoši biznesa vajadzībām](skills.md)
+-   [Apmācību administrēšana, izmantojot kursus](courses.md)
+-   [Kā pārvaldīt darbinieku attīstību programmā Dynamics 365 for Talent (video)](https://www.youtube.com/watch?v=xB8SU7fqBOQ)
 
-## <a name="create-and-maintain-benefits"></a>Izveidot un uzturēt atvieglojumus
+## <a name="create-and-maintain-benefits"></a>Atvieglojumu izveidošana un uzturēšana
 
-Papildus darbinieku atlīdzināšanai, izmantojot samaksas par darbu, algas un prēmijas, varat izstrādāt atvieglojumu programmas, piemēram, veselības apdrošināšanu un pensiju plānus. Varat arī pārvaldīt tādus atvieglojumus kā aizdevumu programmas, kurās jūsu uzņēmums saviem darbiniekiem kaut ko aizdod, piemēram, datorus vai tālruņus.
+Papildus tam, ka darbiniekiem atlīdzināt, izmantojot samaksu par darbu, algas un prēmijas, varat izstrādāt atvieglojumu programmas, piemēram, veselības apdrošināšanu un pensiju plānus. Varat arī pārvaldīt tādus atvieglojumus kā aizdevumu programmas, kurās jūsu uzņēmums saviem darbiniekiem kaut ko aizdod, piemēram, datorus vai tālruņus.
 
 -   [Pārvaldīt atvieglojumu programmu](manage-benefit-program.md)
--   [Atvieglojumu piemērojamības ierobežojumi](benefit-eligibility-policies.md)
--   [Pārvaldīt darbiniekiem aizdotus krājumus](loan-items.md)
+-   [Atvieglojumu piemērojamības politikas](benefit-eligibility-policies.md)
+-   [Nodarbinātajiem aizdotu krājumu pārvaldīšana](loan-items.md)
+-   [Kā pārvaldīt darbinieku atvieglojumus programmā Dynamics 365 for Talent (video)](https://www.youtube.com/watch?v=nUWkeJTad1o)
 
-## <a name="maintain-workplace-safety-and-compliance"></a>Uzturēt darbavietas drošību un atbilstību
+## <a name="maintain-workplace-safety-and-compliance"></a>Darbvietas drošības un atbilstības uzturēšana
 
-Risinājums Talent jums var palīdzēt uzturēt drošu darba vidi, kas atbilst piemērojamajiem tiesību aktiem, tostarp likumam Amerikāņi ar īpašām vajadzībām un tiesību aktiem par imigrāciju un naturalizāciju. Piemēram, noteiktiem darbiem varat pārvaldīt fiziskās prasības, kā arī sekot līdzi pieprasījumiem par izmitināšanu, kas jūsu organizācijai var palīdzēt optimizēt tās darbaspēka prasmes.
+Programma Talent var palīdzēt jums uzturēt drošu darba vidi, kas atbilst piemērojamajiem tiesību aktiem, tostarp likumam “Amerikāņi ar īpašām vajadzībām” un tiesību aktiem par imigrāciju un naturalizāciju. Piemēram, noteiktiem darbiem varat pārvaldīt fiziskās prasības, kā arī sekot līdzi pieprasījumiem par izmitināšanu, kas jūsu organizācijai var palīdzēt optimizēt tās darbaspēka prasmes.
 
 -   [Formas I-9 nodarbinātības pārbaude](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
 -   [Ievērot likumu Amerikāņi ar īpašām vajadzībām](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md)
