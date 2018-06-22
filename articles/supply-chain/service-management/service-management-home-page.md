@@ -1,28 +1,28 @@
 ---
 title: "Pakalpojumu pārvaldība"
 description: "Izmantojiet sadaļu Pakalpojumu pārvaldība, lai izveidotu pakalpojumu līgumus un pakalpojumu abonementus, apstrādātu pakalpojumu pasūtījumus un klientu pieprasījumus, un lai pārvaldītu un analizētu pakalpojumu piegādes klientiem."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
-ms.date: 05/09/2018
+ms.date: 05/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SMAServiceOrderTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
-ms.author: YuyuScheller
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 02cdf4615e2071f2b7de2e86b6f9e6637c6e5d8d
-ms.openlocfilehash: 236ab21b2d1c5a4e82270e5381d163e97437cb7f
+ms.sourcegitcommit: 80a3cb74279f72e8cb94f3a2c38230f409067a47
+ms.openlocfilehash: 89035687d87c674cca7fa5fd3126100c4c0ad892
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/24/2018
 
 ---
 
@@ -44,7 +44,7 @@ Varat izveidot pakalpojumu pasūtījumus, lai pārvaldītu informāciju par plā
 
 4.  Visus izdevumus un maksas, kas saistītas ar pakalpojumu vai labošanu
 
-Klienti var iesniegt pakalpojumu pieprasījumu internetā, izmantojot Uzņēmuma portālu. Šos pieprasījumus varat saņemt, apstrādāt un nosūtīt. Pēc pakalpojumu pasūtījuma izveidošanas varat izmantot pakalpojumu stadijas, lai pārraudzītu un precizētu nosacījumus, kas kontrolē iespējotās darbības katrā stadijā. Kad pakalpojuma pasūtījums ir pabeigts, jūs varat parakstīt pasūtījumu, lai apstiprinātu, ka tas ir pabeigts, un pēc tam to iegrāmatojiet, lai uzsāktu rēķina procesu.
+Apkalpošanas pieprasījumus varat saņemt, apstrādāt un nosūtīt. Pēc pakalpojumu pasūtījuma izveidošanas varat izmantot pakalpojumu stadijas, lai pārraudzītu un precizētu nosacījumus, kas kontrolē iespējotās darbības katrā stadijā. Kad pakalpojuma pasūtījums ir pabeigts, jūs varat parakstīt pasūtījumu, lai apstiprinātu, ka tas ir pabeigts, un pēc tam to iegrāmatojiet, lai uzsāktu rēķina procesu.
 
 Lietojiet atskaišu rīkus, lai pārraudzītu pakalpojumu pasūtījuma summas un abonementu darbības, un izdrukājiet darbu aprakstus un darba rēķinus.
 
@@ -56,47 +56,19 @@ Nākamajā diagrammā ir parādīti augstā līmeņa biznesa procesi modulim **P
 
 ## <a name="service-management-at-a-glance"></a>Pakalpojumu pārvaldības apskats
 
-<table>
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Svarīgi uzdevumi</p></th>
-<th><p>Primārās formas</p></th>
-<th><p>Populāri pārskati</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Pakalpojumu līgumu izpildīšana</a></p></td>
-<td><p><a href="https://technet.microsoft.com/en-us/library/aa617823(v=ax.60)">Pakalpojumu līgumi (forma)</a></p></td>
-<td><p><strong>Pakalpojumu pasūtījumu uzcenojums</strong></p></td>
-</tr>
-<tr class="even">
-<td><p>Klientu pieprasījumu regulēšana</a></p></td>
-<td><p><a href="https://technet.microsoft.com/en-us/library/aa554361(v=ax.60)">Pakalpojumu pasūtījumi (forma)</a></p></td>
-<td><p><strong>Darba apraksts</strong></p></td>
-</tr>
-<tr class="odd">
-<td><p></p></td>
-<td><p><a href="https://technet.microsoft.com/en-us/library/hh242789(v=ax.60)">Nosūtīšanas dēlis (forma)</a></p></td>
-<td><p><strong>Darbība - Abonements</strong></p></td>
-</tr>
-<tr class="even">
-<td><p></p></td>
-<td><p></p></td>
-<td><p><strong>Abonēšanas maksas transakcijas</strong></p></td>
-</tr>
-</tbody>
-</table>
+|Svarīgi uzdevumi           | Primārās lapas                         |Populāri pārskati              |
+|--------------------------|---------------------------------------|-----------------------------|
+|Pakalpojumu līgumu izpilde|Pakalpojumu līgumi                     |Pakalpojumu pasūtījumu uzcenojums         |
+|Klientu pieprasījumu regulēšana |Pakalpojumu pasūtījumi                         |Darba apraksts             |
+|                          |Dispečera pults                         |Darbība - Abonements   |
+|                          |                                       |Abonementu apmaksas darījumi|
 
 
 ## <a name="integration-of-service-management"></a>Pakalpojumu pārvaldības integrācija
 
-Pakalpojumu pārvaldību var integrēt tālāk norādītajos moduļos programmatūrā Microsoft Dynamics 365 for Finance and Operations.
+Pakalpojumu pārvaldību var integrēt ar šādiem moduļiem:
 
   - [Pārdošana un mārketings](../sales-marketing/overview-sales-marketing.md)
-
   - [Personāla vadība](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/index)
 
   

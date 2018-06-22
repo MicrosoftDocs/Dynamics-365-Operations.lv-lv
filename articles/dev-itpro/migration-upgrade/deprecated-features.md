@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: c935b0c14f09b0a3a738266e4c9c577c96f0ea77
+ms.sourcegitcommit: 65101b5f0030a25973a584b68ec9697506868294
+ms.openlocfilehash: 6b954d1eedb7c7af1c9a5eda92aa1dd6132a19fa
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/30/2018
 
 ---
 
@@ -50,9 +50,9 @@ Sākot ar 2018. gada 15. februāri, mazumtirgotāji vairs nevarēs rādīt per
 |   |  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Mēs noņemam preču ieteikumu pakalpojuma pašreizējo versiju, jo pārveidojam šo līdzekli, pievienojot tam uzlabotu algoritmu un jaunākas uz mazumtirdzniecību orientētas iespējas.  |
-| **Vai aizstāts ar citu līdzekli?**   | Nr.p.k. Tomēr 2018. gada vasaras sākumā mēs plānojam atjaunot so līdzekli, lai izmantotu jaunu ieteikumu pakalpojumu.   |
+| **Vai aizstāts ar citu līdzekli?**   | Nē. Tomēr 2018. gada vasaras sākumā mēs plānojam atjaunot so līdzekli, lai izmantotu jaunu ieteikumu pakalpojumu.   |
 | **Ietekmētie produkta apgabali**         | Personalizēti preču ieteikumi pārdošanas punktā.                                                    |
-| **Izvietošanas iespēja**              | Visus                                                                                      |
+| **Izvietošanas iespēja**              | Visi                                                                                      |
 | **Statuss**                         |Noņemts kopš 2018. gada 15. februāra. Tas attiecas uz klientiem, kuru ierīcēs darbojas Dynamics 365 for Operations 1611 vai jaunāka versija.  |
 
 ### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a>Elektronisko pārskatu veidošanas (ER) funkciju saraksta paplašinājums
@@ -155,13 +155,25 @@ Sākot ar 2018. gada 15. februāri, mazumtirgotāji vairs nevarēs rādīt per
 |   |  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Mēs noņemam preču ieteikumu pakalpojuma pašreizējo versiju, jo pārveidojam šo līdzekli, pievienojot tam uzlabotu algoritmu un jaunākas uz mazumtirdzniecību orientētas iespējas.  |
-| **Vai aizstāts ar citu līdzekli?**   | Nr.p.k. Tomēr 2018. gada vasaras sākumā mēs plānojam atjaunot so līdzekli, lai izmantotu jaunu ieteikumu pakalpojumu.   |
+| **Vai aizstāts ar citu līdzekli?**   | Nē. Tomēr 2018. gada vasaras sākumā mēs plānojam atjaunot so līdzekli, lai izmantotu jaunu ieteikumu pakalpojumu.   |
 | **Ietekmētie produkta apgabali**         | Personalizēti preču ieteikumi pārdošanas punktā.                                                    |
-| **Izvietošanas iespēja**              | Visus                                                                                      |
+| **Izvietošanas iespēja**              | Visi                                                                                      |
 | **Statuss**                         |Noņemts kopš 2018. gada 15. februāra. Tas attiecas uz klientiem, kuru ierīcēs darbojas Dynamics 365 for Retail 7.2 vai jaunāka versija. |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Dynamics 365 for Finance and Operations, Enterprise Edition 2017. gada jūlija izdevums ar platformas 8. atjauninājumu
+
+### <a name="currency-conversion-for-accounting-and-reporting-currencies"></a>Valūtas konvertēšana uzskaites un pārskata valūtām
+
+Valūtas konvertēšana uzskaites un pārskata valūtām tika ieviesta, kad tika ieviests eiro.
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Ierobežots lietojums un papildināšana ar juridiskās personas kopēšanas funkcionalitāti kā aizvietojumu.      |
+| **Vai aizstāts ar citu līdzekli?**   | Nē, bet tika pievienoti līdzekļi “Kopēt juridisko personu” un “Konfigurācijas”, lai būtu ērtāk pāriet uz uzņēmumu, kam ir mainīgas pamata prasības. |
+| **Ietekmētie produkta apgabali**         | Finanšu pārvaldība     |
+| **Statuss**                         | Novecojis: šim līdzeklim nav noteikts noņemšanas datums.   |
+
 
 ### <a name="warehouse-mobile-devices-portal"></a>Noliktavas mobilo ierīču portāls
 

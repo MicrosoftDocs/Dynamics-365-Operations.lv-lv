@@ -1,9 +1,9 @@
 ---
-title: "Personalizēt lietotāja pieredzi"
+title: "Lietotāja pieredzes personalizēšana"
 description: "Šajā tēmā skaidrots, kā personalizēt programmatūru Microsoft Dynamics 365 for Finance and Operations."
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 10/10/2017
+ms.date: 05/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,118 +19,135 @@ ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
-ms.openlocfilehash: 3d969069dd5f447b449df84b097527d3814aa338
+ms.sourcegitcommit: 862bbf4d1d9b0dc2b6dc418ee766ed4dedef49fe
+ms.openlocfilehash: 8ad5bd607f08d4e0b266d86a96a0b7f3e352c4cd
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 05/24/2018
 
 ---
 
-# <a name="personalize-the-user-experience"></a>Personalizēt lietotāja pieredzi
+# <a name="personalize-the-user-experience"></a>Lietotāja pieredzes personalizēšana
 
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā skaidrots, kā personalizēt programmatūru Microsoft Dynamics 365 for Finance and Operations.
 
-Programmatūrā Dynamics 365 for Finance and Operations ir pieejami daudzi personalizēšanas veidi. Dažas personalizācijas ir no opciju saraksta iestatīšanas lapā veiktās atlases. Dažas personalizēšanas darbības ir netiešas, piemēram, Finance and Operations seko režģa kolonnu platumam, ja to koriģējat, un kopsavilkuma ciļņu izvēršanas/sakļaušanas stāvoklim. Citas personalizācijas ir tiešas. Tiešajām personalizācijām jūs ieejat interaktīvās personalizēšanas režīmā un modificējat lapas izskatu, tieši pārvaldot to, kā elementi tiek parādīti vai darbojas lapā. 
+Programmā Finance and Operations ir trīs galvenās personalizēšanas klases. 
+- Personalizācijas, kas tiek veiktas iestatīšanas lapā. Kā piemērus varētu minēt krāsu dizainu un laika joslu.
+- Personalizācijas saistībā ar lapas lietojumu, sauktas par *netiešajām* personalizācijām. Piemēram, Finance and Operations seko līdzi režģa kolonnu platumam, ja tās koriģējat, kā arī kopsavilkuma ciļņu izvēršanas vai sakļaušanas stāvoklim. 
+- Personalizācijas, ko lietotājs veic, lai modificētu lapas izskatu, mainot veidu, kā kāds elements šajā lapā izskatās vai darbojas; bieži vien tas tiek panākts, izmantojot interaktīvu personalizēšanas režīmu. Šādas personalizācijas tiek sauktas par *tiešajām* personalizācijām. Lietotājs varētu, piemēram, pievienot, slēpt vai pārkārtot lapā esošos elementus.
 
-Jebkura veida personalizēšana, ko lietotājs veic programmatūrā Finance and Operations, attiecas tikai uz šo lietotāju neatkarīgi no uzņēmuma, ar kuru lietotājs mijiedarbojas. Izmaiņas, ko lietotājs veic lapā, neietekmē citus lietotājus sistēmā.
+Ikviena personalizācija, ko lietotājs veic programmā Finance and Operations, ir paredzēta tikai attiecīgajam lietotājam, neatkarīgi no personalizācijas tipa vai uzņēmuma, ar kuru lietotājs pašlaik mijiedarbojas. Izmaiņas, ko kādai lapai veic viens lietotājs, neietekmē citus lietotājus šajā sistēmā.
 
 ## <a name="system-wide-options-for-the-current-user"></a>Sistēmas mēroga opcijas pašreizējam lietotājam
-Navigācijas joslā jūs atradīsiet zobrata attēlu, kas tiek saukts par izvēlnes pogu **Iestatījumi**. Atverot izvēlni **Iestatījumi**, parādīsies vairākas opcijas. Atlasot **Opcijas** atvērsies lietotāja lapa **Opcijas**. Ir pieejamas četras opciju cilnes: 
+Lapā **Lietotāja opcijas** ir vairāki visas sistēmas mēroga iestatījumi pašreizējam lietotājam. Lai atvērtu lapu **Lietotāja opcijas**, navigācijas joslā atlasiet izvēlni **Iestatījumi** (zobrata simbols) un pēc tam atlasiet **Lietotāja opcijas**. Lapā **Lietotāja opcijas** ir četras cilnes, kurās ir dažādi tālāk aprakstītie lietotāja iestatījumi.
 
--   **Vizuāls**: izvelieties lapas krāsu dizainu un elementu noklusējuma izmēru.
--   **Preferences**: izvēlieties noklusējuma iestatījumus, kas tiek lietoti ikreiz, kad atverat programmatūru Finance and Operations, tostarp uzņēmuma, sākotnējās lapas un noklusējuma skata/rediģēšanas režīma iestatījumus (kas nosaka, vai lapa ir bloķēta skatīšanai vai atvērta rediģēšanai ikreiz, kad to atverat). Var atrast arī valodas, laika joslu un datumu, laiku un skaitļu formātu opcijas. Visbeidzot, šajā lapā ir vairākas dažādas preferences, kas atšķirsies dažādos laidienos.
--   **Konts**: norādiet lietotāja ID un citas ar kontu saistītas opcijas.
--   **Darbplūsma**: izvēlieties ar darbplūsmu saistītas opcijas.
+- **Vizuāls** — atlasiet lapu krāsu dizainu un elementu noklusējuma izmēru.
+- **Preferences** — atlasiet noklusējuma vērtības, kas tiek izmantotas katru reizi, kad atverat programmu Finance and Operations. Šīs vērtības ietver uzņēmumu, sākuma lapu un noklusējuma skata/rediģēšanas režīmu. (Skata/rediģēšanas režīms nosaka, vai katru reizi, kad lapu atverat, lapa ir bloķēta un to var tikai apskatīt, vai lapa ir atvērta rediģēšanai.) Šajā cilnē ir arī opcijas valodai, laika joslai un datuma, laika un skaitļu formātam. Visbeidzot šajā cilnē ir dažādas preferences, kas dažādos laidienos ir atšķirīgas.
+- **Konts** — pielāgojiet savu lietotājvārdu un citas ar kontu saistītas opcijas.
+- **Darbplūsma** — atlasiet ar darbplūsmu saistītas opcijas.
 
-## <a name="implicit-personalizations"></a>Netiešas personalizācijas
-Netiešas personalizācijas ir tās personalizācijas, ko veicat vienkārši, izmantojot atsevišķas vadīklas, kas atcerēsies savu pašreizējo redzamo stāvokli. 
+## <a name="implicit-personalizations"></a>Netiešās personalizācijas
+Netiešās personalizācijas ir personalizācijas, ko jūs veicat, vienkārši izmantojot vadīklas, kuras “atcerēsies” savu pašreizējo redzamo stāvokli.
 
-- **Režģa kolonnas**: pielāgojiet saraksta kolonnu platumu, atlasot esošo izmēra maiņas joslu pa kreisi vai pa labi no virsraksta kolonnas un pavirzot to pa kreisi vai pa labi līdz nepieciešamajam platumam. Programmatūrā Finance and Operations tiek saglabāts vēlamais platums, un tas tiek izmantots šīs kolonnas rādīšanai ikreiz, kad atverat lapu ar šo sarakstu. 
+- **Režģa kolonnas** — varat pielāgot režģī rādīto kolonnu platumu, atlasot izmēra maiņas joslu pa kreisi vai pa labi no kolonnas virsraksta un pēc tam bīdot to pa kreisi vai pa labi, līdz kolonna ir nepieciešamajā platumā. Programma Finance and Operations saglabā platumu, ko iestatāt kolonnai. Pēc tam programma maina kolonnas lielumu atbilstoši šim platumam katru reizi, kad atverat lapu, kur atrodas šis režģis.
+- **Kopsavilkuma cilnes** — dažām lapām ir izvēršamas sadaļas, kas tiek sauktas par *kopsavilkuma cilnēm*. Programma Finance and Operations glabā informāciju par kopsavilkuma cilnēm, kuras esat izvērsis un sakļāvis. Pēc tam katru reizi, kad atgriežaties šajā lapā, būs izvērstas vai sakļautas tās pašas kopsavilkuma cilnes, ņemot vērā jūsu pēdējo mijiedarbību ar šo lapu. Reizēm varat palīdzēt uzlabot sistēmas veiktspēju, sakļaujot kādu kopsavilkuma cilni, jo programmai Finance and Operations nav jāizgūst informācija par šo kopsavilkuma cilni, kamēr tā nav izvērsta. Kā šajā tēmā paskaidrots tālāk, varat mainīt arī kopsavilkuma ciļņu secību lapā.
+- **Papildinformācija** — dažām lapām ir sadaļa, kas tiek saukta par *papildinformācijas rūti*. Šajā rūtī ir tikai lasāma informācija, kas ir saistīta ar pašreizējo lapas tēmu. Katru sadaļu papildinformācijas rūtī sauc par *papildinformācijas lodziņu*. Varat paslēpt vai rādīt visu papildinformācijas rūti, kā arī varat izvērst vai sakļaut atsevišķus papildinformācijas lodziņus. Programma Finance and Operations saglabā jūsu preferences. Pēc tam katru reizi, kad atgriežaties šajā lapā, tiek atjaunots papildinformācijas rūts un atsevišķo papildinformācijas lodziņu stāvoklis, ņemot vērā jūsu pēdējo mijiedarbību ar šo lapu. Reizēm varat palīdzēt uzlabot sistēmas veiktspēju, sakļaujot kādu papildinformācijas lodziņu, jo programmai Finance and Operations nav jāizgūst informācija par šo papildinformācijas rūtiņu, kamēr tā nav izvērsta.
+- **Darbību rūtis** — vairumā lapu *darbību rūts* tiek rādīta lapas augšdaļā. Darbību rūtī ir pogas daudzām darbībām, ko pašreizējā lapā varat veikt. Bieži vien šīs pogas ir sakārtotas cilnēs. Varat piespraust atvērtu visu darbību rūti, vai arī norādīt, ka pēc noklusējuma tai ir jābūt aizvērtai. Pēc tam nākamajā reizē, kad atverat šo lapu, programma Finance and Operations atjauno darbību rūts piesprausto stāvokli. Ja darbību rūts ir piesprausta atvērtā stāvoklī, Finance and Operations rāda arī jūsu pēdējo izmantoto darbību cilni.
+- **Ātrie filtri** — *ātrais filtrs* tiek rādīts virs daudziem režģiem. Ar ātro filtru varat filtrēt režģi, pamatojoties uz jūsu atlasīto kolonnu. Programma Finance and Operations saglabā kolonnu, pēc kuras veicāt filtrēšanu. Pēc tam nākamajā reizē, kad atverat lapu, kurā atrodas šis režģis, režģis ir filtrēts pēc tās pašas kolonnas. Taču pēc tam šo režģi varat filtrēt pēc citas kolonnas.
+- **Kolonnu virsrakstu filtri** — kad filtrējat režģi, izmantojot *kolonnu virsrakstu filtrus*, pēc nepieciešamības varat mainīt filtra operatoru, lai atrastu jums nepieciešamos datus. Varat, piemēram, operatoru no **sākas ar** mainīt uz **ir precīzi**. Katru reizi, kad izmantojat kādu kolonnu virsrakstu filtru un modificējat filtra operatoru, Finance and Operations saglabā šīs izmaiņas. Pēc tam programma atjauno filtra operatoru nākamajā reizē, kad filtrējat pēc šīs kolonnas.
+- **Navigācijas rūts** — *navigācijas rūti* varat atvērt, jebkuras lapas kreisajā rūtī atlasot pogu **Izvēlne**. (Poga **Izvēlne** reizēm tiek saukta par *hamburgeru*, *hamburgera izvēlni* vai *hamburgera pogu*.) Navigācijas rūti varat piespraust atvērtā veidā, vai arī norādīt, ka pēc noklusējuma tai ir jābūt sakļautai. Kad navigācijas rūti piespraužat atvērtā veidā, Finance and Operations saglabā to atvērtu, līdz šo rūti sakļaujat.
 
-- **Kopsavilkuma cilnes** — dažām lapām ir paplašināmās sadaļas, ko sauc par *kopsavilkuma cilnēm*. Programmatūrā Finance and Operations tiek saglabāta informācija par to, kuras kopsavilkuma cilnes ir izvērstas un kuras kopsavilkuma cilnes ir sakļautas. Katru reizi, kad atgriezīsieties šajā lapā, tās pašas kopsavilkuma cilnes tiks izvērstas vai sakļautas, atkarībā no tā, kā jūs pēdējo reizi tās lietojāt. Šajā rakstā mēs izskaidrosim, kā mainīt kopsavilkuma ciļņu sadaļu secību. Dažos gadījumos kopsavilkuma cilnes sakļaušana var uzlabot veiktspēju, jo šādā gadījumā programmatūrā Finance and Operations nav jāizgūst informācija par šo kopsavilkuma cilni, kamēr tā nav izvērsta. 
+## <a name="explicit-personalizations"></a>Tiešās personalizācijas
+Dažādiem lietotājiem un uzņēmumiem ir dažādi uzskati par to, kādi dati viņiem ir paši svarīgākie vai kādi dati viņiem nav nepieciešami sava biznesa veikšanai. Programmā Finance and Operations varat pielāgot veidu, kādā jūsu informācija ir sakārtota un tiek izmantota. Var arī norādīt, ka daļa informācijas ir jāslēpj. Šīs iespējas ir būtiskas personiskai un produktīvai funkcionalitātei, un tās ir tiešo personalizāciju piemēri. Tiešās personalzācijas ir personalizācijas, ko veicat tieši un ar mērķi mainīt elementa vai lapas izskatu vai darbību.
 
-- **Papildinformācija** — dažām lapām ir sadaļa, ko sauc par *papildinformācijas* rūti. Šī rūts satur tikai lasāmu informāciju, kas saistīta ar pašreizējo lapas tēmu. Katru sadaļu papildinformācijas rūtī sauc par papildinformāciju. Papildinformāciju varat izvērst vai sakļaut, un šis stāvoklis tiek saglabāts programmatūrā Finance and Operations. Dažos gadījumos papildinformācijas sakļaušana var uzlabot veiktspēju, jo šādā gadījumā programmatūrā Finance and Operations nav jāizgūst informācija par šo papildinformāciju, kamēr tā nav izvērsta.
+### <a name="shortcut-menu-options"></a>Saīšņu izvēlnes opcijas
+Saīšņu izvēlne nodrošina dažus veidus, kā tieši mainīt lapu, lai tā labāk atbilstu jūsu prasībām vai jūsu uzņēmuma prasībām. (Saīšņu izvēlne tiek saukta arī par *izvēlni, kas tiek parādīta, noklikšķinot ar peles labo pogu,* vai *kontekstizvēlni*.)
 
-## <a name="explicit-personalizations-using-the-personalization-toolbar"></a>Tiešas personalizācijas, izmantojot rīkjoslu Personalizēšana
-Katrai personai un uzņēmumam ir savi uzskati par to, kuri dati ir viņiem vissvarīgākie, vai kuri dati nav nepieciešami viņu uzņēmējdarbības veidam. Iespējas pielāgot to, kā informācija tiek kārtota, izmantota un pat paslēpta, ir ļoti svarīgs faktors, kā personalizēt programmatūras Finance and Operations lietošanu un padarīt to efektīvu. 
+Dažas no tipiskākajām un svarīgākajām izmaiņām, ko lapai var veikt, ir tieši pieejamas kā opcijas saīšņu izvēlnē. Piemēram, lai režģim pievienotu vai režģī slēptu kolonnas, vienkārši noklikšķiniet ar peles labo pogu uz režģa kolonnas virsraksta un pēc tam atlasiet **Pievienot kolonnas** vai **Paslēpt šo kolonnu**.
 
-Tiešā personalizēšana ir personalizēšana, ko veicat ar tiešu mērķi mainīt lapas elementa izskatu vai darbību, izvēloties personalizēšanas izvēlni. Visparastākais tiešās personalizēšanas veids ir personalizēšana, ar labo peles pogu noklikšķinot uz elementa un atlasot vienumu **Personalizēt**. (Ņemiet vērā, ka var personalizēt visus lapā esošos elementus.) Ja izvēlaties šo personalizēšanas metodi, tiek parādīts elementa rekvizītu logs. 
+Turklāt visparastākie tiešās personalizēšanas tipi ir pieejami, noklikšķinot ar peles labo pogu uz kāda elementa un pēc tam atlasot **Personalizēt**. (Ņemiet vērā, ka ne visus lapā esošos elementus var personalizēt.) Kad lietojat šo personalizēšanas metodi, tiek parādīts elementa rekvizītu logs.
 
-[![Elementa rekvizītu personalizēšana](./media/personalization-element-properties.jpg)](./media/personalization-element-properties.jpg) 
+[![Elementa rekvizītu personalizēšana](./media/personalization-element-properties.jpg)](./media/personalization-element-properties.jpg)
 
-Šādā veidā jūs personalizējat elementu savā lapā, ja vēlaties vienkārši mainīt elementa etiķetes, paslēpt elementu, lai tas nebūtu redzams lapā (nekādi dati netiek mainīti, vienkārši netiek rādīta kāda informācija), iekļaut informāciju kopsavilkuma cilnes sadaļā (ja elements ir kopsavilkuma cilnē), izlaist lauku tabulēšanas laikā vai aizliegt datu mainīšanu, atzīmējot tos kā “Nerediģēt”. 
+Rekvizītu logu varat izmantot, lai personalizētu kādu elementu tālāk norādītajos veidos.
 
-Ja vēlaties pārvietot vai paslēpt elementus vai veikt vairākas izmaiņas, varat izmantot rīkjoslu Personalizēšana, kas pieejama elementu rekvizītu logā, izvēloties **Personalizēt šo formu**. Rīkjosla Personalizēšana ir pieejama arī formas darbību rūtī, cilnes **Opcijas** grupā **Personalizēt**. Atlasiet **Personalizēt šo formu**, un tiek parādīta rīkjosla Personalizēšana. 
+- Mainīt elementa etiķeti.
+- Paslēpt elementu, lai lapā tas nebūtu redzams. Šajā laukā esošie dati netiek dzēsti vai modificēti. Informācija vienkārši vairs netiek rādīta lapā.
+- Ietvert informāciju kopsavilkuma cilnes kopsavilkuma sadaļā (ja šis elements atrodas kopsavilkuma cilnē).
+- Izlaist šo lauku, kad nospiežat taustiņu Tab, lai pārvietotos starp lapā esošajiem laukiem.
+- Novērst šajā laukā esošo datu rediģēšanu (jebkuram ierakstam).
 
-[![Rīkjosla Personalizēšana](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
+Atkarībā no elementa rekvizītu logā var būt citas personalizēšanas iespējas. Piemēram, elementa rekvizītu logā jums varētu būt iespējams attiecīgo elementu paaugstināt uz informācijas paneli, un šis rekvizītu logs informācijas panelim varētu ļaut jums izveidot jaunu darbvietu attiecīgajā informācijas panelī.
 
-Rīkjoslā Personalizēšana ir pieejamas vairākas personalizēšanas darbības. 
+### <a name="the-personalization-toolbar"></a>Personalizēšanas rīkjosla
+Ja vēlaties pārvietot vai slēpt elementus, vai ja vēlaties lapā veikt vairākas izmaiņas, varat izmantot rīkjoslu **Personalizēšana**. Lai atvērtu rīkjoslu **Personalizēšana**, elementa rekvizītu logā atlasiet **Personalizēt šo formu**. Vienumu **Personalizēt šo formu** varat atlasīt arī katras lapas darbību rūts cilnes **Opcijas** grupā **Personalizēt**.
 
-- Izvēlieties **Atlases** rīku, ja vēlaties atlasīt un mainīt daudzu elementu rekvizītus atsevišķi. Pirmkārt, noklikšķiniet uz Atlases rīka un pēc tam noklikšķiniet uz elementa, kura rekvizītus vēlaties mainīt. Atlasot elementu, tiks atvērts elementa rekvizītu logs un jūs varat mainīt jebkurus šī elementa rekvizītus. Šo procesu var atkārtot citiem formas elementiem, kuri ir personalizējami. Dažos gadījumos varat atlasīt elementu un redzēt, ka dažus no rekvizītiem nevar mainīt. Tas nozīmē, ka, pamatojoties uz to, kā tiek izmantots pašreizējais elements, Finance and Operations nevar jums ļaut mainīt šo rekvizītu. Piemēram, jūs nevarat paslēpt lauku, kas ir obligāts. 
+[![Personalizēšanas rīkjosla](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
 
-- Izvēlieties **Pārvietošanas** rīku, kad vēlaties atlasīt un pārvietot elementu uz citu vietu pašreizējā elementu grupā. (Elementu nevar pārvietot ārpus tā pamata grupas). Pirmkārt, noklikšķiniet uz Pārvietošanas rīka un pēc tam noklikšķiniet uz elementa, kuru vēlaties pārvietot Kad noklikšķināt uz pārvietojamā elementa, programmatūrā Finance and Operations šī forma tiek skenēta, lai noteiktu, kur šo elementu var pārvietot, un izveidotu vairākas “nomešanas zonas”, kuras tiek apzīmētas ar krāsainu, treknu līniju blakus apgabalam, kur elementu var nomest, kad šo elementu velkat pašreizējās grupas ietvaros. 
+Kamēr rīkjosla **Personalizēšana** ir atvērta, lapa nav interaktīva. Tādēļ tajā nevar ievadīt datus, ka arī nevar izvērst vai sakļaut sadaļas. Var tikai mainīt elementus, kas šo lapu veido.
 
-- Izvēlieties **Paslēpšanas** rīku, lai atlasītu un paslēptu elementu. Lai paslēptu elementu, vienkārši izvēlieties Paslēpšanas rīku un noklikšķiniet uz elementa, ko vēlaties paslēpt. Kad jūs izvēlaties Paslēpšanas rīku, visi pašlaik paslēptie elementi kļūs redzami un tiks parādīti ēnotā konteinerā, tādējādi varat izvēlēties, kurus elementus atkal parādīt redzamus. 
+Rīkjoslā **Personalizēšana** ir pieejami tālāk uzskaitītie rīki.
 
-- Izvēlieties rīku **Atlasīt**, lai redzētu, kā lapa izskatīsies, kad atlasītie elementi būs paslēpti. 
+- Izmantojiet rīku **Atlasīt**, lai atlasītu un mainītu elementa rekvizītus. Atlasiet rīku **Atlasīt** un pēc tam atlasiet elementu, kura rekvizītus vēlaties modificēt. Kad atlasāt kādu elementu, tiek parādīts šī elementa rekvizītu logs, un jūs varat modificēt jebkurus šī elementa rekvizītus. Šo procesu varat atkārtot citiem elementiem, kurus attiecīgajā lapā ar personalizēt. Taču noteiktu elementu lietošanas veida dēļ programma Finance and Operations jums neļauj mainīt dažus to rekvizītus. Tādēļ, kad atlasāt kādu elementu, var tikt rādīts, ka dažus tā rekvizītus nevar modificēt. Piemēram, jūs nevarat paslēpt lauku, kas ir obligāts.
+- Izmantojiet rīku **Pārvietot**, lai kādu elementu pārvietotu uz citu atrašanās vietu pašreizējā elementu grupā. (Elementu nevar pārvietot ārpus tā pamata grupas.) Atlasiet rīku **Pārvietot** un pēc tam atlasiet elementu, kuru vēlaties pārvietot. Kad atlasāt kādu elementu, programma Finance and Operations skenē lapu, lai noteiktu, kurp šo elementu var pārvietot. Pēc tam programma izveido virkni ar “nomešanas zonām”. Kad šo elementu velkat pa pašreizējo grupu, katra “nomešanas zona” tiek rādīta kā iekrāsota, trekna līnija blakus apgabalam, kur šo elementu var nomest.
+- Izmantojiet rīku **Paslēpt**, lai slēptu kādu elementu šajā lapā. Atlasiet rīku **Paslēpt** un pēc tam atlasiet elementu, kuru vēlaties paslēpt. Kad atlasāt rīku **Paslēpt**, visi pašlaik paslēptie elementi kļūst redzami un tiek rādīti ēnotā konteinerā. Pēc tam varat atcelt to slēpšanu. Atlasot rīku **Atlasīt**, varat redzēt, kā lapa izskatās, kad atlasītie elementi tiek slēpti.
+- Izmantojiet rīku **Kopsavilkums**, kad vēlaties, lai elements tiktu rādīts kopsavilkuma cilnes kopsavilkuma sadaļā. Kopsavilkuma rīks attiecas tikai uz laukiem, kas atrodas kādā kopsavilkuma cilnes sadaļā. Kad atlasāt rīku **Kopsavilkums**, visi lauki, kas ir atlasīti kā kopsavilkuma lauki, tiek radīti ēnotā konteinerā. Atlasot laukus, varat interaktīvi pievienot laukus kopsavilkuma cilnes kopsavilkumam un noņemt laukus no kopsavilkuma cilnes kopsavilkuma.
+- Izmantojiet rīku **Izlaist**, lai izņemtu kādu elementu no lapas tastatūras tabulācijas secības. Kad atlasāt rīku **Izlaist**, visi pašlaik izlaistie elementi tiek rādīti ēnotā konteinerā. Pēc tam varat tos atkal ietvert tabulācijas secībā.
+- Izmantojiet rīku **Rediģēt**, lai kādu elementu atzīmētu kā rediģējamu vai nerediģējamu. Kad atlasāt rīku **Rediģēt**, visi pašlaik nerediģējamie elementi tiek rādīti ēnotā konteinerā. Pēc tam varat tos atkal padarīt par rediģējamiem. Ņemiet vērā, ka daži lauki ir obligāti un tos nevar padarīt nerediģējamus. Pie šiem laukiem tiek rādīts piekaramās slēdzenes simbols.
+- Izmantojiet pogu **Ievietot**, lai redzētu sarakstu ar elementiem, ko var ievietot lapā.
 
-- Izvēlieties **Kopsavilkuma** rīku, kad vēlaties, lai kopsavilkuma cilnes kopsavilkuma apgabalā tiktu parādīts skaitliskais vai virknes lauks. Kopsavilkuma rīks attieksies tikai uz laukiem, kas ir ietverti kopsavilkuma sadaļā. Kad izvēlaties kopsavilkuma rīku, programmatūrā Finance and Operations tiek parādīti visi lauki, kas ir atlasīti kā kopsavilkuma lauki, ietverot tos ēnotā konteinerā. Var interaktīvi pievienot vai noņemt laukus no kopsavilkuma cilnes kopsavilkuma, noklikšķinot uz attiecīgā lauka. 
+    - Atlasiet rīku **Lauks** zem pogas **Ievietot**, lai savai lapai pievienotu lauku. Kad izmantojat rīku **Lauks**, varat pievienot tikai tādus laukus, kas veido daļu no lapas definīcijas, bet pašlaik attiecīgajā lapā netiek rādīti. Informāciju par to, kā izveidot jaunus laukus, kuri nav daļa no pašreizējās lapas definīcijas, skatiet tēmā [Pielāgoti lauki](user-defined-fields.md). Kad ir atlasīts rīks **Lauks**, jums vispirms ir jāatlasa grupa vai apgabals, kur vēlaties pievienot lauku. Dialoglodziņā tiek rādīts saraksts ar laukiem, kas ir saistīti ar atlasīto grupu vai apgabalu. Šajā dialoglodziņā atlasiet vienu vai vairākus laukus, ko pievienot, un pēc tam atlasiet **Ievietot**. Lai noņemtu kādu lauku, ko iepriekš pievienojāt, atkārtojiet šo procesu, bet dialoglodziņā noņemiet attiecīgā lauka atlasi.
+    - Atlasiet rīku **PowerApp** zem pogas **Ievietot**, lai lapā iegultu programmu, kura tika izveidota, izmantojot Microsoft PowerApps. Plašāku informāciju par to, kā lapā iegult PowerApps programmu, skatiet tēmā [PowerApps iegulšana](embed-power-apps.md).
 
-- Izvēlieties **izlaišanas** rīku, lai noņemtu elementu no lapas tastatūras tabulācijas secības. Kad izvēlaties izlaišanas rīku, visi pašlaik izlaistie elementi tiek parādīti ēnotā konteinerā, lai jūs varētu tos vēlreiz izvēlēties un ietvert tabulācijas secībā, atlasot kādu no izlaistajiem elementiem. 
+- Atlasiet pogu **Pārvaldīt**, lai skatītu ar visām pašreizējas lapas personalizēšanas darbībām saistīto pārvaldības opciju sarakstu.
 
-- Izvēlieties rīku **Rediģēt**, lai kādu elementu atzīmētu kā *Rediģējams* vai *Nerediģējams*. Kad jūs izvēlaties Rediģēšanas rīku, visi nerediģējamie elementi kļūs redzami ēnotā konteinerā, tādējādi varat izvēlēties, kurus elementus atkal padarīt rediģējamus. Ņemiet vērā, ka daži lauki ir obligāti un tos nevar padarīt nerediģējamus. Šie lauki tiks parādīti ar slēdzenes ikonu blakus tiem. 
+    - Atlasiet vienumu **Notīrīt**, lai lapai atiestatītu noklusējuma instalēto stāvokli. Tādējādi tiek notīrītas visas pašreizējās lapas personalizācijas. Šo darbību nevar atsaukt. Tādēļ šī opcija ir jāizmanto tikai tad, ja esat pārliecināts, ka vēlaties lapu atiestatīt.
+    - Atlasiet **Importēt**, lai ielādētu personalizāciju no kāda faila, kuru šai lapai iepriekš izveidojāt jūs pats vai kāds cits. Visas jūsu pašreizējās personalizācijas šai lapai tiek aizstātas ar personalizācijām no atlasītā faila.
+    - Atlasiet **Eksportēt**, lai savas personalizācijas šai lapai saglabātu kādā failā. Savas personalizācijas varat koplietot ar citiem lietotājiem. Šiem lietotājiem ir nepieciešams tikai importēt failu, kurā ir jūsu personalizācijas šai lapai.
 
-- Izvēlieties **Pievienošanas** rīku, lai pievienotu lauku savai lapai. Ar pievienošanas rīku nevar izveidot jaunu lauku, bet var pievienot laukus, kas ir daļa no pašreizējās lapas definīcijas, bet nav redzami lapā. Kad jūs izvēlaties Pievienošanas rīku, vispirms atlasiet grupu vai apgabalu, kur vēlaties pievienot lauku. Dialoglodziņā parādīsies lauku saraksts, kas saistīti ar atlasīto sadaļu. No šī dialoglodziņa varat atlasīt vienu vai vairākus pievienojamos laukus un noklikšķināt uz **Ievietot**. Ja vēlāk vēlaties noņemt lauku, kuru esat pievienojis iepriekš, atkārtojiet šo procesu, bet vienkārši notīriet lauku, kuru esat pievienojis iepriekš. 
+- Atlasiet pogu **Aizvērt**, lai rīkjoslu **Personalizēšana** aizvērtu un lapu atgrieztu tās iepriekšējā interaktīvajā stāvoklī.
 
-- Izvēlieties pogu **Pārvaldīt**, lai skatītu ar visām pašreizējas lapas personalizēšanas darbībām saistīto pārvaldības opciju sarakstu. 
+Kad tiek izmantota rīkjosla **Personalizēšana**, operāciju saglabāšana notiek automātiski. Jūsu veiktā personalizēšana stājas spēkā, līdzko to veicat, un jums nav jāatlasa poga **Saglabāt**. Dažreiz, kad atlasāt kādu rīku, blakus kādam elementam tiek rādīts piekaramās slēdzenes simbols. Šis simbols norāda, ka nevarat modificēt šī elementa rekvizītus, kas ir saistīti ar atlasīto rīku, jo šo rekvizītu izmaiņas neļaus lapai darboties pareizi.
 
-- Izvēlieties vienumu **Notīrīt**, lai atiestatītu lapas noklusējuma instalēto stāvokli. Tādējādi tiek noņemti visas pašreizējās lapas personalizēšanas iestatījumi. Nav pieejama atsaukšanas darbība, tāpēc izmantojiet šo opciju tikai gadījumā, ja esat pārliecināts, ka vēlaties atiestatīt lapu. 
+### <a name="adding-a-tile-list-or-link-to-a-workspace"></a>Elementa, saraksta vai saites uz darbvietu pievienošana
+Dažām lapām, kurās ir saraksti, ir pieejams papildu personalizēšanas līdzeklis. Darbību rūts cilnes **Opcijas** grupā **Personalizēt** esošā poga **Pievienot darbvietu** ļauj jums noteiktā darbvietā rādīt informāciju no pašreizējā saraksta. Darbvietā varat rādīt filtrētu un sakārtotu informācijas skatu vai rādīt noklusējuma skatu. Var arī norādīt, vai informācija darbvietā tiek rādīta kā saraksts, kā kopsavilkuma elements, kurā var rādīt sarakstā esošo elementu skaitu, vai kā saite.
 
-- Izvēlieties **Importēt**, lai izmantotu personalizāciju no personalizēšanas faila, kuru jūs vai kāds cits iepriekš izveidojis šai lapai. Importējot personalizāciju, tiks notīrītas jebkuras personalizācijas, ko esat veicis savā lapā un tā vietā tiks izmantotas visas personalizācijas no atlasītā faila. Ja vēlaties saglabāt vai koplietot personalizāciju, atlasīsiet opciju **Eksportēt**, lai saglabātu personalizācijas failā. 
+[![Pievienošana darbvietai](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
 
-- Izvēlieties pogu **Aizvērt**, lai rīkjoslu aizvērtu un lapu atgrieztu tās iepriekšējā interaktīvā stāvoklī. 
+- Lai darbvietai pievienotu kādu sarakstu, vispirms kārtojiet vai filtrējiet lapā esošo sarakstu, lai informācija tajā tiktu rādīta tā, kā to vēlaties rādīt darbvietā. Pēc tam atlasiet **Pievienot darbvietai**. Atlasiet darbvietu un pēc tam laukā **Prezentācija** atlasiet **Saraksts**. Kad atlasāt vienumu **Konfigurēt**, tiek parādīts dialoglodziņš, kur varat atlasīt kolonnas, kuras ir jārāda šīs darbvietas sarakstā. Varat arī norādīt etiķeti, ko izmantot sarakstam šajā darbvietā.
+- Lai darbvietai pievienotu kādu elementu, vispirms filtrējiet lapā esošo sarakstu, lai tajā būtu redzami dati, kurus vēlaties apkopot vai kuriem vēlaties ātri piekļūt. Pēc tam atlasiet **Pievienot darbvietai**. Atlasiet darbvietu un pēc tam laukā **Prezentācija** atlasiet **Elements**. Kad ir atlasīts vienums **Konfigurēt**, tiek paradīts dialoglodziņš, kur varat norādīt etiķeti, kuru izmantot elementam šajā darbvietā. Var arī norādīt, vai elementam ir jārāda skaits. Kad elements ir pievienots darbvietai, varat to atlasīt, lai no darbvietas atvērtu pašreizējo lapu un skatītu filtrēto sarakstu, kurš ir saistīts ar šo elementu.
+- Lai pievienotu saiti uz darbvietu, vispirms filtrējiet lapā esošo sarakstu tā, lai tajā būtu redzami jums interesējošie dati. Pēc tam atlasiet **Pievienot darbvietai**. Atlasiet darbvietu un pēc tam laukā **Prezentācija** atlasiet **Saite**. Kad ir atlasīts vienums **Konfigurēt**, tiek paradīts dialoglodziņš, kur varat norādīt etiķeti, kuru izmantot šai saitei. Pēc izvēles varat arī norādīt etiķeti jaunai sadaļai, kurā būs šī saite.
 
-Ar Personalizācijas rīkjoslu, saglabāšana notiek netieši. Jūsu personalizācijas stājas spēkā uzreiz pēc to veikšanas un nav nepieciešams noklikšķināt uz pogas **Saglabāt**. Dažos gadījumos, atlasot kādu no rīkiem, blakus kādam elementam tiek rādīta slēdzenes ikona. Tas nozīmē, ka, lai lapa darbotos pareizi, nevarat mainīt ar atlasīto rīku saistītos rekvizītus. Atverot rīkjoslu Personalizēšana, lapa kļūst neinteraktīva. Tajā nevar ievadīt datus vai izvērst vai sakļaut sadaļas.
+Kad jūsu saraksts, elements vai saite ir pievienota darbvietai, varat atvērt šo darbvietu un mainīt tajā elementu secību, ja vēlaties.
 
-## <a name="explicit-personalization-adding-a-tile-or-list-to-a-workspace"></a>Tiešā personalizēšana: elementa vai saraksta pievienošana darbvietai
-Dažās lapās ar sarakstiem būs pieejams papildu personalizēšanas līdzeklis — tas atrodas darbību rūtī, cilnes **Opcijas** grupā **Personalizēt**. Atlasiet **Pievienot darbvietai**, lai atvērtu nolaižamo sarakstu, kas sniedz iespēju darbvietā parādīt informāciju pašreizējā sarakstā (filtrētu un kārtotu vai pēc noklusējuma) kā sarakstu vai kā kopsavilkuma elementu (kuru varat izmantot, lai rādītu krājumu skaitu sarakstā). 
+### <a name="adding-a-summary-from-a-workspace-to-a-dashboard"></a>Kopsavilkuma pievienošana no darbvietas informācijas panelim
+Dažās darbvietās ir skaita elementi (t.i., elementi, kuros ir skaitļi), un jūs varētu vēlēties šos elementus rādīt arī savā informācijas panelī. Darbvietā ar peles labo pogu noklikšķiniet uz skaita elementa un pēc tam atlasiet vienumu **Personalizēt**. Pēc tam elementa rekvizītu logā atlasiet **Piespraust informācijas panelim**. Nākamajā reizē, kad atverat (un atsvaidzināt) atlasīto informācijas paneli, šis skaits tiek rādīts zem attiecīgās darbvietas navigācijas elementa. Varat atlasīt, lai šis skaits tieši novirzītu uz datiem, kurus tas attēlo.
 
-[![Pievienošana darbvietai](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png) 
+### <a name="personalizing-your-dashboard"></a>Sava informācijas paneļa personalizēšana
+Informācijas panelis bieži vien ir pirmā lapa, ko redzat, atverot programmu Finance and Operations. Informācijas paneli varat personalizēt tā, lai tajā tiktu rādīti vienīgi darbvietas elementi, kurus vēlaties redzēt. Varat arī pārkārtot elementus, lai tie atrastos tādā secībā, kādā tos vēlaties redzēt, varat pārdēvēt darbvietas navigācijas elementus vai pievienot pilnīgi jaunu darbvietas elementu.
 
-Lai darbvietai pievienotu sarakstu, vispirms kārtojiet vai filtrējiet šo sarakstu ar tādu informāciju, kuru jūs vēlētos redzēt savā darbvietā, un pēc tam atzīmējiet dialoglodziņu **Pievienot darbvietai**. Pēc tam atlasiet vajadzīgo darbvietu un nolaižamajā sarakstā **Prezentācija** atlasiet **Saraksts**. Ja atlasāt **Saraksts**, tiek atvērts dialoglodziņš, kas ļauj izvēlēties kolonnas, kuras vēlaties redzēt šajā sarakstā, un šī saraksta etiķeti veidā, kādā tā būs redzama darbvietā. 
+Lai personalizētu informācijas paneli, ar peles labo pogu noklikšķiniet uz jebkura elementa un pēc tam atlasiet **Personalizēt**, lai atvērtu elementa rekvizītu logu.
 
-Lai pievienotu elementu darbvietai, vispirms filtrējiet sarakstu, lai tajā būtu dati, kurus vēlaties apkopot (vai vēlaties tiem ātri piekļūt). Pēc tam atveriet nolaižamā dialoglodziņa izvēlni **Pievienot darbvietai**. Pēc tam atlasiet vajadzīgo darbvietu un nolaižamajā sarakstā **Prezentācija** atlasiet **Elements**. Ja atlasāt **Elements**, tiek atvērts dialoglodziņš, ļaujot sniegt elementa etiķeti un izlemt, vai elementā tiks rādīts skaits. Novietojot darbvietā, elements ļauj atvērt pašreizējo lapu no darbvietas, un rādīt informācijas sarakstu, kas saistīta ar šo elementu. 
-
-Kad saraksts vai elements tiek pievienots darbvietai, varat atvērt šo darbvietu un atkārtoti sakārtot sarakstu vai elementu grupā, kurā tas ir novietots.
-
-## <a name="explicit-personalization-adding-a-summary-from-a-workspace-to-a-dashboard"></a>Tieša personalizēšana: kopsavilkuma pievienošana no darbvietas informācijas panelim
-Dažās darbvietās ir ietverti skaitīšanas elementi (elementi, uz kuriem ir skaitļi), ko vēlaties redzēt arī informācijas panelī. Darbvietā ar peles labo pogu noklikšķiniet uz skaita elementa, atlasiet **Personalizēt** un pēc tam atlasiet **Piespraust informācijas panelim**. Nākamreiz pārejot uz (un atsvaidzinot) atlasīto informācijas paneli, jūs redzēsiet šo skaitli zem šīs darbvietas navigācijas elementa informācijas panelī.
-
-## <a name="explicit-personalization-personalizing-your-dashboard"></a>Tiešā personalizēšana: sava informācijas paneļa personalizēšana
-Informācijas panelis bieži ir pirmā lapa, ko redzat, atverot programmatūru Finance and Operations. Informācijas paneli var personalizēt, lai pārdēvētu darbvietas navigācijas elementus, parādītu tikai elementus, ko vēlaties redzēt, pārdēvētu elementus vai sakārtotu elementus secībā, kādā vēlaties tos redzēt. 
-
-Lai personalizētu informācijas paneli, atlasiet jebkuru elementu un noklikšķiniet ar peles labo pogu, lai atvērtu konteksta izvēlni. Konteksta izvēlnē atlasiet **Personalizēt**. Ja atlasītais elements ir tas, ko vēlaties paslēpt, vai pārdēvēt, vai izlaist, jūs varat veikt izmaiņas tieši parādītajā rekvizītu logā. Ja vēlaties sakārtot elementus, atlasiet **Personalizēt šo formu** rekvizītu logā, lai atvērtu rīkjoslu Personalizēšana. Pēc tam varat izmantot rīku **Pārvietot**, lai izkārtotu elementus.
+- Ja vēlaties slēpt vai pārdēvēt atlasīto elementu, izmaiņas varat veikt tieši rekvizītu logā.
+- Lai pārkārtotu darbvietas elementus, rekvizītu logā atlasiet **Personalizēt šo formu**, tādējādi atverot rīkjoslu **Personalizēšana**. Pēc tam varat izmantot rīku **Pārvietot**, lai elementus izkārtotu pēc vēlēšanās.
+- Lai izveidotu jaunu darbvietas elementu, rekvizītu logā atlasiet vienumu **Pievienot darbvietu**. Informācijas paneļa apakšā tiek izveidots jauns darbvietas elements. Šo jauno darbvietas elementu pēc vēlēšanās varat pārdēvēt. Sarakstus, elementus un saites darbvietai varat arī pievienot, kā aprakstīts šīs tēmas sadaļā [Sarakstu, elementu vai saišu pievienošana darbvietām](personalize-user-experience.md#adding-a-tile-list-or-link-to-a-workspace).
 
 ## <a name="administration-of-personalization"></a>Personalizēšanas administrēšana
-Pēc lapas personalizēšanas savas personalizācijas varat kopīgot ar citiem lietotājiem, eksportējot personalizēto lapu. Pēc tam varat lūgt citiem lietotājiem doties uz personalizēto lapu un importēt jūsu izveidoto personalizēšanas failu, vai savu personalizāciju varat piešķirt kādam lietotājam, kuram ir administratora tiesības, un pēc tam jūsu personalizācijas failu viņš var lietot daudziem lietotājiem vienlaikus.
+Pēc lapas personalizēšanas savas personalizācijas varat kopīgot ar citiem lietotājiem, eksportējot personalizēto lapu. Pēc tam varat lūgt citiem lietotājiem atvērt personalizēto lapu un importēt jūsu izveidoto personalizēšanas failu. Vai arī savu personalizēšanas failu varat iedot kādam lietotājam, kuram ir administratora privilēģijas. Pēc tam šis lietotājs var izmantot jūsu personalizēšanas failu vairākiem lietotājiem vienlaikus.
 
-Lietotāji ar administratora privilēģijām lapā **Personalizācija** var arī pārvaldīt personalizācijas citiem lietotājiem. Šai lapai ir četras cilnēs: 
+Lietotāji ar administratora privilēģijām lapā **Personalizācija** var arī pārvaldīt personalizācijas citiem lietotājiem. Šai lapai ir četras tālāk aprakstītās cilnes.
 
-- **Lietot** — varat importēt vai atlasīt kādu personalizāciju vienam vai vairākiem lietotājiem. Lai kādu personalizāciju lietotu vienam vai vairākiem lietotājiem, atlasiet lomu un šai lomai piederīgos lietotājus. Pēc tam atlasiet esošu personalizāciju vai importējiet personalizēšanas failu, ko lietot jūsu atlasītajiem lietotājiem. Personalizācija tiks validēta un visiem atlasītajiem lietotājiem tiks lietota nākamajā reizē, kad viņi atvērs atlasīto lapu.
-
-- **Notīrīt** – varat notīrīt lapas vai darbvietas personalizācijas vienam vai vairākiem lietotājiem. Atlasiet lapu, lai redzētu sarakstu ar lietotājiem, kuri ir personalizējuši šo lapu. Pēc tam izvēlieties lietotājus, kuriem ir nepieciešams notīrīt šīs lapas personalizācijas, un atlasiet **Notīrīt**. Tiek notīrītas visas personalizācijas, ko atlasītie lietotāji ir lietojuši atlasītajai lapai vai darbvietai. Šo darbību nevar atsaukt. Taču, ja lapai vai darbvietai ir saglabāta personalizācija, šo personalizāciju var importēt atkārtoti.
-
-- **Pārvaldnieks pēc lietotāja** — izvēlieties lietotāju, lai redzētu sarakstu ar lapām, ko šī persona ir personalizējusi.  Pēc tam varat izvēlēties, vai sniegt viņiem iespējas lietot personalizāciju konkrētām lapām vai visai sistēmai.  Varat arī importēt, eksportēt vai notīrīt personalizāciju šim lietotājam.
-
-- **Sistēma** — varat īslaicīgi atspējot visas personalizācijas visiem lietotājiem sistēmā. Ja to darāt, šīs personalizācijas netiek dzēstas, bet visiem lietotājiem lapas tiek vienkārši atiestatītas uz noklusējuma stāvokli. Ja vēlāk personalizāciju atkal iespējojat, visas personalizācijas tiek atkal lietotas. Varat arī neatgriezeniski dzēst visas personalizācijas visiem lietotājiem sistēmā. Pirms šīs darbības izpildīšanas noteikti eksportējiet visas personalizācijas, kuras vēlāk varētu vēlēties, jo dzēstās personalizācijas pēc tam vairs nevarēs atgūt. 
+- **Lietot** — varat importēt vai atlasīt kādu personalizāciju vienam vai vairākiem lietotājiem. Lai personalizāciju lietotu vienam lietotājam vai vairākiem, vispirms atlasiet kādu lomu un lietotājus, kuriem ir šī loma. Pēc tam atlasiet esošu personalizāciju, kuru lietot atlasītajiem lietotājiem, vai importējiet personalizēšanas failu. Personalizācija tiek validēta un tiek lietota visiem atlasītajiem lietotājiem nākamajā reizē, kad viņi atver atlasīto lapu.
+- **Notīrīt** — varat notīrīt visas lapai vai darbvietai paredzētās personalizācijas vienam vai vairākiem lietotājiem. Vispirms atlasiet lapu vai darbvietu, lai redzētu sarakstu ar lietotājiem, kuri to ir personalizējuši. Pēc tam atlasiet lietotājus, kuriem ir nepieciešams notīrīt šīs lapas vai darbvietas personalizācijas, un atlasiet **Notīrīt**. Tiek dzēstas visas personalizācijas, ko atlasītie lietotāji ir lietojuši atlasītajai lapai vai darbvietai. Šo darbību nevar atsaukt. Taču, ja šai lapai vai darbvietai bija saglabāta kāda personalizācija, šo personalizāciju var importēt vēlreiz.
+- **Pārvaldnieks pēc lietotāja** — atlasiet lietotāju, lai redzētu sarakstu ar lapām, ko šis lietotājs ir personalizējis. Pēc tam varat iespējot vai atspējot atlasītā lietotāja spēju lietot personalizācijas konkrētām lapām vai visai sistēmai. Varat arī importēt, eksportēt vai notīrīt personalizāciju atlasītajam lietotājam.
+- **Sistēma** — varat īslaicīgi atspējot visas personalizācijas visiem lietotājiem sistēmā. Šajā gadījumā personalizācijas tiek dzēstas. Visas lapas vienkārši tiek atiestatītas uz to noklusējuma stāvokli visiem lietotājiem. Ja vēlāk personalizāciju atkal iespējojat, visas personalizācijas tiek atkal lietotas. Varat arī neatgriezeniski dzēst visas personalizācijas visiem lietotājiem sistēmā. Izdzēstas personalizācijas nav iespējams atgūt. Tādēļ, pirms veicat šo uzdevumu, noteikti eksportējiet visas personalizācijas, kuras vēlāk varētu būt nepieciešams.
 
 ## <a name="personalization-of-inventory-dimensions"></a>Krājumu dimensiju personalizēšana
 
-Kad personalizējat krājumu dimensiju iestatījumus lapā, ņemiet vērā iestatījumus, kas izveidoti, izmantojot opciju **Parādīt dimensijas**. Piemēram, ja veicat personalizēšanu ar mērķi paslēpt partijas numuru krājumu dimensijas kolonnu, un kolonna tiek parādīta nākamreiz, kad tiek atvērta lapa, iespējamais iemesls var būt tas, ka dimensiju parādīšanas iestatījumi nosaka, kādas krājumu dimensiju kolonnas tiek parādītas. 
+Kad personalizējat krājumu dimensiju iestatījumus lapā, ņemiet vērā iestatījumus, kas izveidoti, izmantojot opciju **Parādīt dimensijas**. Piemēram, jūs izmantojat personalizāciju, lai paslēptu kolonnu partijas numuru krājumu dimensijai, bet šī kolonna tiek rādīta nākamajā reizē, kad lapa tiek atvērta. Tā notiek, jo iestatījumi **Dimensiju rādīšana** kontrolē, kuras krājumu dimensiju kolonnas tiek rādītas.
 
-Dimensiju parādīšanas iestatījumi tiek lietoti visās lapās, un šiem iestatījumiem ir virsroka pār jebkādiem personalizētiem krājumu dimensiju lauku iestatījumiem atsevišķās lapās. 
+Iestatījumi **Dimensiju rādīšana** tiek lietoti visās lapās, un tiem ir prioritāte pār jebkādiem personalizētajiem krājumu dimensiju lauku iestatījumiem atsevišķās lapās.
 
-Piemēram, lai netiktu rādīta partijas numuru krājumu dimensijas kolonna, šī dimensija ir jānotīra kā daļa no tabulas opcijas **Parādīt dimensijas**. Šīs izmaiņas attiektos ne tikai uz konkrēto lapu, bet uz visām lapām.
+Tādēļ, ja iepriekšējā piemērā nevēlaties, lai tiktu rādīta kolonna partijas numuru krājumu dimensijai, jums šai tabulai ir jānoņem attiecīgās dimensijas atzīme kā daļa no opcijas **Parādīt dimensijas**. Galu galā šīs izmaiņas attieksies ne tikai uz vienu konkrēto lapu, bet uz visām lapām.
 

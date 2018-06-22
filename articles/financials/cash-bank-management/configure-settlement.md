@@ -1,16 +1,16 @@
 ---
-title: "Ssegšanas konfigurēšana"
-description: "Transakciju segšanas veids un laiks var būt sarežģītas tēmas, tāpēc jums ir svarīgi saprast un pareizi definēt parametrus, lai tie atbilstu jūsu biznesa prasībām. Šajā rakstā ir aprakstīti parametri, kas tiek izmantoti segšanai gan modulim Parādi kreditoriem, gan modulim Debitoru parādi."
+title: "Segšanas konfigurēšana"
+description: "Transakciju segšanas veids un laiks var būt sarežģītas tēmas, tāpēc jums ir svarīgi saprast un pareizi definēt parametrus, lai tie atbilstu jūsu biznesa prasībām. Šajā tēmā ir aprakstīti parametri, kas tiek izmantoti segšanai gan modulim Parādi kreditoriem, gan modulim Debitoru parādi."
 author: kweekley
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 05/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
@@ -19,18 +19,18 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0ed520ce3a67fab81da24b36b042152f530d75dd
+ms.sourcegitcommit: 66e2fdbf7038a2c15fb373d4f96cd6e6c4c87ea0
+ms.openlocfilehash: 1361bce94f6542112cf29e369f2238f211d0647e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
-# <a name="configure-settlement"></a>Ssegšanas konfigurēšana
+# <a name="configure-settlement"></a>Segšanas konfigurēšana
 
 [!include [banner](../includes/banner.md)]
 
-Transakciju segšanas veids un laiks var būt sarežģītas tēmas, tāpēc jums ir svarīgi saprast un pareizi definēt parametrus, lai tie atbilstu jūsu biznesa prasībām. Šajā rakstā ir aprakstīti parametri, kas tiek izmantoti segšanai gan modulim Parādi kreditoriem, gan modulim Debitoru parādi. 
+Transakciju segšanas veids un laiks var būt sarežģītas tēmas, tāpēc jums ir svarīgi saprast un pareizi definēt parametrus, lai tie atbilstu jūsu biznesa prasībām. Šajā tēmā ir aprakstīti parametri, kas tiek izmantoti segšanai gan modulim Parādi kreditoriem, gan modulim Debitoru parādi. 
 
 Tālāk norādītie parametri ietekmē to, kā programmā Microsoft Dynamics 365 for Finance and Operations tiek apstrādāta darbību segšana. Segšana ir rēķina nosegšanas process saistībā ar maksājumu vai kredīta notu. Šie parametri atrodas lapas **Debitoru moduļa parametri** un **Kreditoru moduļa parametri** apgabalā **Segšana**.
 
@@ -58,7 +58,14 @@ Tālāk norādītie parametri ietekmē to, kā programmā Microsoft Dynamics 365
 - **Noteikt segšanai prioritāti (tikai kreditoriem)** — iestatiet šai opcijai **Jā**, lai iespējotu pogu **Atzīmēt pēc prioritātes** lapā **Ievadīt debitora maksājumus** un **Transakciju nosegšana**. Šī poga lietotājiem ļauj piešķirt iepriekš definētu transakciju segšanas kārtību.  Ja transakcijai tika izmantota segšanas kārtība, tad pirms grāmatošanas šo kārtību un maksājuma sadalījumu var modificēt.
 - **Izmantot prioritāti automātiskai segšanai** — šīs opcijas vērtību iestatiet uz **Jā**, lai transakciju automātiskās segšanas laikā izmantotu definēto prioritāšu secību. Šis lauks ir pieejams tikai tad, ja opcijai **Noteikt segšanai prioritāti** un **Automātiska segšana** ir norādīta vērtība **Jā**.
 
+## <a name="fixed-dimensions-on-accounts-receivableaccounts-payable-main-accounts"></a>Fiksētas dimensijas debitoru parādu/parādu kreditoriem galvenajos kontos
 
+Kad fiksētas dimensijas tiek lietotas debitoru parādu/parādu kreditoriem galvenajā kontā, ar segšanas procesu tiek grāmatoti papildu uzskaites ieraksti un divas papildu kreditoru transakcijas. Segšana salīdzina debitoru parādu/parādu kreditoriem virsgrāmatas kontu no rēķina un maksājuma.  Kad maksājums un segšana tiek pabeigti kopā — kā tas notiek parasti —, maksājuma uzskaites ieraksts virsgrāmatā tiek grāmatots tikai pēc tam, kad ir pabeigts arī šis segšanas process. Notikumu apstrādes secības dēļ segšana no maksājuma uzskaites ieraksta nespēj noteikt faktisko debitoru parādu/parādu kreditoriem virsgrāmatas kontu. Segšana rekonstruē to, kas būs virsgrāmatas konts šim maksājumam. Tas izraisa problēmu, ja debitoru parādu/parādu kreditoriem galvenajam kontam tiek izmantota fiksēta dimensija.
 
+Lai rekonstruētu virsgrāmatas kontu, debitoru parādu/parādu kreditoriem galvenais konts tiek izgūts no grāmatošanas metodes un finanšu dimensijas tiek izgūtas no kreditora transakcijas ieraksta šim maksājumam, kā definēts maksājumu žurnālā. Fiksētās dimensijas netiek pēc noklusējuma lietotas maksājumu žurnāliem, tā vietā tās tiek piemērotas galvenajam kontam kā grāmatošanas procesa pēdējais posms. Līdz ar to fiksētās dimensijas vērtība, visticamāk, nav ietverta kreditora transakcijā, izņemot gadījumus, kad tā pēc noklusējuma tiek izmantota no cita avota, piemēram, kreditora. Rekonstruētajā kontā nav ietverta fiksētā dimensija. Segšanas apstrāde konstatē, ka ir jāizveido pielāgošanas ieraksts, jo rēķins tika iegrāmatots ar fiksētu dimensijas vērtību, bet rekonstruētais maksājumu konts netika.  Segšanai turpinoties ar pielāgošanas ieraksta grāmatošanu, grāmatošanas pēdējais posms ir paredzēts fiksētajai dimensijai, kas tiks lietota. Pielāgošanas ierakstam pievienojot fiksēto dimensiju, tas tiek iegrāmatots ar debetu un kredītu tajā pašā virsgrāmatas kontā. Segšana nevar veikt uzskaites ieraksta atriti.
 
+Lai izvairītos no papildu uzskaites ierakstiem, debetu un kredītu tajā pašā virsgrāmatas kontā, ir jāapsver iespēja izmantot tālāk aprakstītās metodes, ņemot vērā jūsu uzņēmuma vajadzības. 
+
+-   Bieži vien organizācijas izmanto fiksētas dimensijas, lai nullētu finanšu dimensiju, kas nav nepieciešama. Parasti tas attiecas uz bilances kontiem, piemēram, debitoru parādiem/parādiem kreditoriem. Kontu struktūras var izmantot, lai neizsekotu finanšu dimensijas, kas parasti tiek nullētas.  Varat noņemt finanšu dimensiju bilances kontiem, likvidējot nepieciešamību izmantot fiksētas dimensijas.
+-   Ja jūsu organizācijai ir nepieciešamas fiksētas dimensijas debitoru parādu/parādu kreditoriem galvenajā kontā, atrodiet veidu, kā fiksētās dimensijas pēc noklusējuma lietot maksājumam, lai fiksētās dimensijas vērtība tiktu glabāta kreditora transakcijā šim maksājumam. Tādējādi sistēma var rekonstruēt debitoru parādu/parādu kreditoriem galveno kontu, lai ietvertu fiksētās dimensijas vērtības. Fiksētās dimensijas vērtību var definēt kā noklusējuma vērtību kreditoriem vai žurnāla nosaukumam maksājumu žurnālā.
 

@@ -1,9 +1,9 @@
 ---
-title: "Power BI saturs"
-description: "Šajā tēmā ir uzskaitīts pieejamais Power BI saturs un norādīti resursi, kur varat uzzināt vairāk par to."
+title: "PowerBI.com risinājumi"
+description: "Šajā tēmā ir uzskaitīti pieejamie PowerBI.com risinājumi, kā arī ir norādīti resursi, kur par attiecīgajiem risinājumiem varat uzzināt vairāk."
 author: sericks007
 manager: AnnBe
-ms.date: 04/02/2018
+ms.date: 05/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,69 +19,49 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2473fa408ae8884b8713198debfff489ff6e6c46
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: 0aa9971226e5aa79cab85f098e098dbb789a1e2d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/22/2018
 
 ---
 
-# <a name="power-bi-content"></a>Power BI saturs
-[!include [banner](../includes/banner.md)]
+# <a name="powerbicom-solutions"></a>PowerBI.com risinājumi
+Dynamics 365 for Finance and Operations vidēm ir pieejami šādi PowerBI.com risinājumi. 
 
-Šajā tēmā ir uzskaitīts pieejamais Microsoft Power BI saturs un norādīti resursi, kur varat uzzināt vairāk par to.
+## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a>PowerBI.com risinājumi ir pieejami Lifecycle Services (LCS)
 
-## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations"></a>Power BI saturs programmatūrai Dynamics 365 for Finance and Operations
-Ja izmantojat programmatūru Microsoft Dynamics 365 for Finance and Operations, ir pieejams tālāk norādītais Power BI saturs.
-
-- [Power BI saturs Faktiski pret budžetu](ledger-budgets-power-bi.md)
-- [Power BI satura priekšrocības](benefits-power-bi.md)
-- [Naudas pārskata Power BI saturs](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
-- [CFO pārskata Power BI saturs](CFO-power-bi.md)
-- [Atlīdzības Power BI saturs](compensation-power-bi.md)
-- [Izmaksu uzskaites analīzes Power BI saturs](cost-accounting-analysis-content-pack.md) 
-- [Power BI satura pakotne Izmaksu pārvaldība](cost-management-content-pack.md)    
-- [Kredīta un iekasēšanas Power BI saturs](../../financials/accounts-receivable/credit-collections-power-bi.md)
-- [Darbinieku attīstības Power BI saturs](employee-development-PBI.md) 
-- [Power BI saturs Finanšu ieskati](financial-insights.md)
-- [Power BI saturs Finanšu veiktspēja](financial-performance-power-bi-content-pack.md)
-- [Pamatlīdzekļu Power BI saturs](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
-- [Apmācību Power BI saturs](learning-power-bi.md)
-- [Prakses pārvaldnieka Power BI saturs](practice-manager-power-bi.md)
-- [Ražošanas veiktspējas Power BI saturs](production-performance-power-bi.md)
-- [Power BI satura pakotne Pirkumu tēriņu analīze](purchase-content-pack-for-power-bi.md) 
-- [Power BI satura pakotne Personāla atlase](recruiting-analysis-power-bi-content-pack.md) 
-- [Power BI saturs Pārdošanas un ienesīguma veiktspēja](sales-profitability-performance-content-pack.md)
-- [Kreditoru maksājumu Power BI saturs](../../financials/accounts-payable/Vendor-payments-workspace.md)
-- [Power BI saturs Noliktavas veiktspēja](warehouse-power-bi-content.md)
-- [Power BI saturs Darbaspēka rādītāji](workforce-analysis-power-bi-content-pack.md)  
-
-## <a name="power-bi-content-for-dynamics-365-for-operations-version-1611"></a>Power BI saturs programmatūras Dynamics 365 for Operations versijai 1611
-Ja izmantojat Microsoft Dynamics 365 for Operations versiju 1611, ir pieejams tālāk norādītais Power BI saturs.
-
-- [Power BI saturs Atlīdzības un atvieglojumi](compensation-and-benefits-analysis-power-bi-content-pack.md)   
-- [Power BI saturs Izmaksu uzskaites analīze](cost-accounting-analysis-content-pack.md) 
-- [Kredīta un iekasēšanas Power BI saturs](../../financials/accounts-receivable/credit-collections-power-bi.md)
-- [Power BI saturs Darbinieku zināšanas un attīstība](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
-- [Power BI saturs Finanšu veiktspēja](financial-performance-power-bi-content-pack.md)
-- [Power BI saturs Organizācijas apmācības](organizational-training-analysis-power-bi-content-pack.md) 
-- [Prakses pārvaldnieka Power BI saturs](practice-manager-power-bi.md)
-- [Ražošanas veiktspējas Power BI saturs](production-performance-power-bi.md)
-- [Power BI satura pakotne Pirkumu tēriņu analīze](purchase-content-pack-for-power-bi.md) 
-- [Power BI satura pakotne Personāla atlase](recruiting-analysis-power-bi-content-pack.md) 
-- [Power BI saturs Pārdošanas un ienesīguma veiktspēja](sales-profitability-performance-content-pack.md)
-- [Power BI saturs Noliktavas veiktspēja](warehouse-power-bi-content.md)
-- [Power BI saturs Darbaspēka rādītāji](workforce-analysis-power-bi-content-pack.md)  
-
-## <a name="power-bi-content-for-microsoft-dynamics-ax"></a>Power BI saturs programmatūrai Microsoft Dynamics AX
-Ja izmantojat Microsoft Dynamics AX 7.0 vai Microsoft Dynamics AX 7.0.1, ir pieejams tālāk norādītais Power BI saturs.
+Tālāk minētie PowerBI.com risinājumi ir pieejami LCS koplietojamo līdzekļu bibliotēkā. Skatiet informāciju par versiju koplietojamo līdzekļu bibliotēkā, lai lejupielādētu pareizo versiju jūsu videi. 
 
 > [!Note]
-> [Piezīme] Šīs satura pakotnes ir novecojušas, kā dokumentēts tēmā [Vietnē PowerBI.com publicētās Power BI satura pakotnes](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
+> Lielākā daļa sarakstā minēto PowerBI.com risinājumu ir iegulti analītiskajās darbvietās programmas Dynamics 365 for Finance and Operations jaunākajās versijās. Izmantojot analītiskās darbvietas, minētos risinājumus nav nepieciešams lejupielādēt no LCS koplietojamo līdzekļu bibliotēkas. Attiecīgajos gadījumos sarakstā iekļautās tēmas norāda, kur šie PowerBI.com risinājumi ir iegulti programmā Finance and Operations. 
 
-- [Power BI satura pakotne Izmaksu pārvaldība](cost-management-content-pack.md)    
-- [Power BI saturs Finanšu veiktspēja](financial-performance-power-bi-content-pack.md)
-- [Mazumtirdzniecības kanāla veiktspējas Power BI saturs](retail-channel-performance-dashboard-power-bi-data.md) 
+- [Faktiski pret budžetu](ledger-budgets-power-bi.md)
+- [Skaidras naudas apskats](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
+- [Atlīdzības un atvieglojumi](compensation-and-benefits-analysis-power-bi-content-pack.md)   
+- [Izmaksu uzskaites analīze](cost-accounting-analysis-content-pack.md) 
+- [Kredītu un iekasēšanas pārvaldība](../../financials/accounts-receivable/credit-collections-power-bi.md)
+- [Darbinieku zināšanas un attīstība](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
+- [Finanšu veiktspēja](financial-performance-power-bi-content-pack.md)
+- [Pamatlīdzekļu pārvaldība](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
+- [Organizācijas apmācība](organizational-training-analysis-power-bi-content-pack.md) 
+- [Prakses pārvaldnieks](practice-manager-power-bi.md)
+- [Ražošanas veiktspēja](production-performance-power-bi.md)
+- [Pirkšanas tēriņu analīze](purchase-content-pack-for-power-bi.md) 
+- [Personāla atlase](recruiting-analysis-power-bi-content-pack.md)
+- [Pārdošanas un ienesīguma veiktspēja](sales-profitability-performance-content-pack.md)
+- [Kreditoru maksājumi](../../financials/accounts-payable/Vendor-payments-workspace.md)
+- [Noliktavas veiktspēja](warehouse-power-bi-content.md)
+- [Darbaspēka rādītāji](workforce-analysis-power-bi-content-pack.md)  
 
+## <a name="powerbicom-solutions-available-from-appsource"></a>PowerBI.com risinājumi ir pieejami pakalpojumā AppSource
 
+Tālāk minētie PowerBI.com risinājumi ir pieejami pakalpojumā [Microsoft AppSource](https://appsource.microsoft.com).
+
+> [!Note]
+> Šie risinājumi ir novecojuši, kā dokumentēts tēmā [AppSource pieejamās Power BI satura pakotnes](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+
+- Izmaksu pārvaldība    
+- [Finanšu veiktspēja](financial-performance-power-bi-content-pack.md)
+- [Mazumtirdzniecības kanāla veiktspēja ](retail-channel-performance-dashboard-power-bi-data.md) 
 

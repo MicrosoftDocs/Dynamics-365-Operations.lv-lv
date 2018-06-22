@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fc47f6cd9cfe4a850e0959bf89da086ca82f3b69
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: d58bab48c65bb891155af95c79738b019e5760bf
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/22/2018
 
 ---
 
@@ -96,6 +96,9 @@ Izvēlne **Atkārtota secības norādīšana** ir pieejama, ja ir atlasīti vair
 
 #### <a name="sorting"></a>Kārtošana
 Lai elementu sarakstu skatītu secības kārtībā, varat izmantot opciju **Kārtot pēc**.
+
+### <a name="truncating"></a>Apciršana
+Importa projektiem varat izlemt, ka ieraksti entītijās pirms importēšanas ir jāapcērt. Tas ir noderīgi, ja jūsu ieraksti ir jāimportē tīrā tabulu kopā. Pēc noklusējuma šis iestatījums ir izslēgts.
 
 ## <a name="validate-that-the-source-data-and-target-data-are-mapped-correctly"></a>Pārliecināšanās, vai avota dati un mērķa dati ir kartēti pareizi
 Kartēšana ir funkcija, kas attiecas gan uz importēšanas, gan uz eksportēšanas darbiem.
