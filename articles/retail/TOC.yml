@@ -1,0 +1,553 @@
+- name: "Esiet sveicināti risinājumā Dynamics\_365 for\_Retail"
+  href: index.md
+- name: Darba sākšana
+  items:
+    - name: Jaunumi un izmaiņas
+      href: get-started/whats-new.md
+    - name: "Pirms Dynamics\_365 for Retail iegādes"
+      href: get-started/before-you-buy.md
+    - name: Reģistrācija priekšskatījuma abonementam
+      href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json
+    - name: Demonstrācijas vides izvietošana
+      href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
+    - name: Izvietošanas iespējas
+      href: dev-itpro/choose-deployment.md
+- name: Maksājumi
+  items:
+    - name: Maksāšanas metodes
+      href: payment-methods.md
+    - name: 'Kredītkartes iestatīšana, autorizēšana un nolasīšana'
+      href: ../financials/accounts-receivable/credit-card-authorizations.md
+    - name: Maksājumu metožu konfigurēšana POS
+      href: cash-denominations.md
+    - name: Bieži uzdotie jautājumi par maksājumiem
+      href: dev-itpro/payments-retail.md
+- name: Pirkšanas pasūtījumi
+  items:
+    - name: Pirkšanas pasūtījuma apskats
+      href: ../supply-chain/procurement/purchase-order-overview.md
+    - name: Pirkšanas pasūtījumu izveidošana
+      href: ../supply-chain/procurement/purchase-order-creation.md
+    - name: Produktu ieejas plūsma pret pirkšanas pasūtījumiem
+      href: ../supply-chain/procurement/product-receipt-against-purchase-orders.md
+    - name: Pirkšanas pasūtījumu apstiprināšana un ratificēšana
+      href: ../supply-chain/procurement/purchase-order-approval-confirmation.md
+    - name: Pirkšanas pasūtījumu apstiprināšanas mobilā darbvieta
+      href: ../supply-chain/procurement/purchase-order-mobile-workspace.md
+- name: Izraksti
+  items:
+    - name: Mazumtirdzniecības izrakstu apskats
+      href: retail-statements.md
+    - name: 'Mazumtirdzniecības veikala izraksta izveidošana, aprēķināšana un grāmatošana'
+      href: tasks/create-calculate-post-statement-retail-store.md
+    - name: Izrakstu grāmatošanas uzlabojumi
+      href: statement-posting-EOD.md
+    - name: Mazumtirdzniecības izrakstu parametru konfigurācijas
+      href: tasks/parameter-configurations-retail-statements.md
+    - name: Maksājumu konfigurācijas mazumtirdzniecības izrakstiem
+      href: tasks/payment-configurations-retail-statements.md
+    - name: 'Darba konfigurēšana un palaišana, lai aprēķinātu izrakstus'
+      href: tasks/run-job-calculate-statements.md
+    - name: 'Darba konfigurēšana un palaišana, lai grāmatotu izrakstus'
+      href: tasks/run-job-post-statements.md
+    - name: Veikalu konfigurācijas mazumtirdzniecības izrakstiem
+      href: tasks/store-configurations-retail-statements.md
+- name: PVN
+  items:
+    - name: PVN apskats
+      href: ../financials/general-ledger/indirect-taxes-overview.md
+    - name: PVN aprēķināšanas metodes laukā Izcelsme
+      href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
+    - name: ' PVN piešķire un pārrakstīšana'
+      href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md
+    - name: Visas summas un intervāla aprēķināšanas opcijas PVN kodiem
+      href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
+- name: Zvanu centrs
+  items:
+    - name: Zvanu centra apskats
+      href: call-center-functionality.md
+    - name: Zvanu centra katalogi
+      href: call-center-catalogs.md
+    - name: Zvanu centra kataloga izveidošana
+      href: create-call-center-catalogs.md
+    - name: Piegādes veidu un maksu konfigurēšana
+      href: configure-call-center-delivery.md
+    - name: Pārkāpumu brīdinājumu iestatīšana
+      href: set-up-fraud-alerts.md
+    - name: Zvanu centra iestatīšana
+      href: set-up-order-processing-options.md
+    - name: Nepārtrauktības programmas iestatīšana zvanu centram
+      href: set-up-continuity-program.md
+    - name: Zvanu centra pasūtījumu aizturēšana
+      href: work-with-order-holds.md
+    - name: Maksājumu opcijas
+      href: work-with-payments.md
+- name: Kanāla iestatīšana un pārvaldība
+  items:
+    - name: Sākumdatu inicializēšana Retail vidē
+      href: enable-configure-retail-functionality.md
+    - name: Definēt mazumtirdzniecības kanālus
+      href: define-maintain-retail-channels.md
+    - name: Preču klāsta pārvaldība
+      href: assortments.md
+    - name: Tiešsaistes veikala apskats
+      href: online-stores.md
+    - name: Konfigurēt un instalēt Retail Hardware Station
+      href: retail-hardware-station-configuration-installation.md
+    - name: Retail laiks un apmeklētība
+      href: retail-time-attendance.md
+- name: "Modern Point of Sale (MPOS) un Cloud\_POS"
+  items:
+    - name: Izvēle starp Modern POS un Cloud POS
+      href: MPOS-or-CPOS.md
+    - name: POS operācijas tiešsaistē un bezsaistē
+      href: pos-operations.md
+    - name: "Demonstrācijas datu ekrāna izkārtojumi programmā\_MPOS/CPOS"
+      href: demo-data.md
+    - name: Apskats par preču un debitoru meklēšanu pārdošanas punktā
+      href: POS-search-improvements.md
+    - name: ​Krājumu uzmeklēšana pārdošanas punktā
+      href: product-variants-POS.md
+    - name: Aparatūras perifērijas ierīces
+      items:
+        - name: Retail perifērijas ierīču apskats
+          href: retail-peripherals-overview.md
+        - name: Microsoft pārbaudītas POS aparatūras perifērijas ierīces
+          href: microsoft-tested-pos-hardware-peripherals.md
+        - name: Mazumtirdzniecības perifērijas ierīču simulators
+          href: dev-itpro/retail-peripheral-simulator.md
+        - name: 'Definēt un uzturēt kanālu klientus, reģistrus un aparatūras stacijas'
+          href: define-maintain-channel-clients-registers-hw-stations.md
+    - name: Ekrāna izkārtojums
+      items:
+        - name: Konfigurēt POS ekrāna izkārtojumus
+          href: pos-screen-layouts.md
+        - name: Instalēt Retail POS izkārtojuma veidotāju
+          href: install-pos-layout-designer.md
+        - name: Izvēlēties paziņojumu iestatījumus
+          href: Notifications-POS.md
+        - name: POS programma un lietotāja valodas iestatījumi
+          href: pos-application-user-language-settings.md
+        - name: Iestatīt MPOS attēlus
+          href: set-up-manage-images-retail-mpos.md
+    - name: Informācijas kodu apskats
+      href: info-codes-retail.md
+    - name: POS uzlabojumi serializētām precēm
+      href: serialized-inventory.md
+    - name: Preču ieteikumi
+      items:
+        - name: Personalizētu preču ieteikumu apskats
+          href: personalized-product-recommendations.md
+        - name: Pievienot ieteikumu kontroli POS ierīcē
+          href: add-recommendations-control-pos-screen.md
+    - name: Bezsaistes POS funkcionalitāte
+      href: pos-offline-functionality.md
+    - name: Maiņu un naudas kastes pārvaldība
+      href: shift-drawer-management.md
+    - name: Debitoru pasūtījumi
+      items:
+        - name: Debitoru pasūtījumu apskats
+          href: customer-orders-overview.md
+        - name: Hibrīda debitoru pasūtījumi
+          href: hybrid-customer-orders.md
+    - name: Pārdošanas asistenti
+      items:
+        - name: 'POS komisijas maksu izsekošana, izmantojot pārdošanas grupas'
+          href: pos-sales-groups-track-commissions.md
+    - name: Pasūtījuma nosūtīšana no cita veikala
+      href: charge-send.md
+    - name: Ierīces aktivizēšana
+      items:
+        - name: MPOS konfigurēšana un instalēšana
+          href: retail-modern-pos-device-activation.md
+        - name: Paplašinātās pieteikšanās iestatīšana programmā Cloud POS un MPOS
+          href: extended-logon.md
+        - name: Pārvaldīt Retail kontus un ierīces no galvenā biroja
+          href: set-up-activation-accounts-validate-devices-hq.md
+    - name: Ieejas plūsmas
+      items:
+        - name: Iestatīt ieejas plūsmu veidnes
+          href: receipt-templates-printing.md
+        - name: E-pasta kvīšu sūtīšana no MPOS
+          href: email-receipts.md
+    - name: "POS\_uzdevumu ierakstītājs un palīdzība"
+      href: task-recorder-retail-pos.md
+- name: Pasūtījuma izpilde
+  items:
+    - name: Apskats par veikala pasūtījuma izpildi
+      href: Order-fulfillment-overview.md
+    - name: Izpildes iestatīšana veikalā
+      href: Order-fulfillment-POS-setup.md
+    - name: Paziņojumu iespējošana pārdošanas punktā
+      href: Notifications-POS.md
+- name: Pārraudzība un analīze
+  items:
+    - name: Pārdošanas un uzcenojuma veiktspējas pārraudzība
+      href: monitor-sales-margin-performance.md
+    - name: Analizēt pārdošanas tendences un modeļus
+      href: analyze-sales-trends-patterns.md
+    - name: Novērtēt veiktspēju pēc preces
+      href: sales-performance-products.md
+    - name: Novērtēt debitoru un preču ienesīgumu
+      href: assess-customer-product-profitability.md
+    - name: Veikala veiktspējas analīze
+      href: store-performance-information.md
+    - name: RFM analīzes iestatīšana
+      href: set-up-rfm-analysis.md
+- name: Atlaides un cenu korekcijas
+  items:
+    - name: Retail pārdošanas cenu pārvaldība
+      href: price-management.md
+    - name: Cenu korekcijas un atlaides
+      href: price-adjustments-discounts.md
+    - name: 'Optimālās kombinācijas noteikšana atlaidēm, kas pārklājas'
+      href: optimal-combination-overlapping-discounts.md
+    - name: Definēt kanālam raksturīgās atlaides
+      href: define-channel-specific-discounts.md
+    - name: Nepieļaut atlaižu piemērošanu Retail produktiem
+      href: prevent-discounts.md
+    - name: Izveidot Retail pārdošanas kuponus
+      href: retail-coupons.md
+- name: Preces un virzīšana tirgū
+  items:
+    - name: Preču informācijas apskats
+      href: ../supply-chain/pim/product-information.md
+    - name: Retail hierarhijas
+      href: retail-hierarchies.md
+    - name: Atribūtu un atribūtu grupu apskats
+      href: attribute-attributegroups-lifecycle.md
+    - name: Izveidot un pārvaldīt atribūtus
+      href: create-manage-attributes.md
+    - name: Iestatīt Retail preces
+      href: set-up-retail-products.md
+    - name: Uzlabota preču un kategorijas pārvaldība
+      href: category-management-product-creation.md
+    - name: Preču dimensijas
+      href: ../supply-chain/pim/product-dimensions.md
+    - name: Iestatīt svītrkodus
+      href: set-up-bar-codes.md
+    - name: Svītrkodu masku iestatīšana
+      href: set-up-bar-code-masks.md
+    - name: Iestatīt preču klāstus
+      href: set-up-assortments.md
+    - name: Preču preču klāstā neesošu preču pārdošana un atgriešana
+      href: sell-return-outside-assortments.md
+    - name: Noklusējuma pasūtījumu iestatījumi dimensijām un preču variantiem
+      href: ../supply-chain/production-control/default-order-settings.md
+    - name: Preces un preces variantu meklēšana pasūtījuma izveides laikā
+      href: ../supply-chain/pim/search-products-product-variants.md
+- name: Lojalitātes programma
+  items:
+    - name: Debitoru lojalitātes programmas iestatīšana
+      href: set-up-customer-loyalty-program.md
+- name: Krājumi
+  items:
+    - name: Pārvaldīt veikala krājumus
+      href: work-with-store-inventory.md
+    - name: Sērijas numuru reģistrēšana pārdošanas procesā
+      href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md
+    - name: Krājumu žurnāli
+      href: ../supply-chain/inventory/inventory-journals.md
+    - name: Krājumu etiķešu inventarizācija
+      href: ../supply-chain/inventory/inventory-tag-counting.md
+    - name: FIFO ar fizisko vērtību un marķējumu
+      href: ../supply-chain/cost-management/fifo-physical-value-marking.md
+    - name: LIFO datums ar fizisko vērtību un marķējumu
+      href: ../supply-chain/cost-management/lifo-date-physical-value-marking.md
+    - name: LIFO ar fizisko vērtību un marķējumu
+      href: ../supply-chain/cost-management/lifo-physical-value-marking.md
+    - name: Vidējā svērtā uz datumu
+      href: ../supply-chain/cost-management/weighted-average-date.md
+    - name: Vidējā svērtā ar fizisko vērtību un marķējumu
+      href: ../supply-chain/cost-management/weighted-average-physical-value-marking.md
+    - name: Karantīnas pasūtījumi
+      href: ../supply-chain/inventory/quarantine-orders.md
+    - name: Pašreizējā vidējā izmaksu cena
+      href: ../supply-chain/cost-management/running-average-cost-price.md
+    - name: Pašreizējās vidējās izmaksu cenas izsekošana pēc krājumu dimensijas
+      href: ../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md
+- name: Personāla vadība
+  items:
+    - name: 'Darbaspēka organizēšana, izmantojot nodaļas, darbus un amatus'
+      href: ../talent/departments-jobs-positions.md
+    - name: Darba komponentu iestatīšana
+      href: ../talent/create-job.md
+- name: ​Lokalizācijas un normatīvie līdzekļi
+  items:
+    - name: Francija
+      items:
+        - name: Kases sistēmas Francijā
+          href: localizations/emea-fra-cash-registers.md
+        - name: Izvietošanas vadlīnijas par kases sistēmām Francijā
+          href: localizations/emea-fra-deployment.md
+    - name: Indija
+      items:
+        - name: GST integrācija kases sistēmām
+          href: localizations/apac-ind-cash-registers.md
+        - name: Izvietošanas vadlīnijas par kases sistēmām Indijā
+          href: localizations/apac-ind-loc-deployment-guidelines.md
+    - name: Norvēģija
+      items:
+        - name: Kases sistēmas Norvēģijā
+          href: localizations/emea-nor-cash-registers.md
+        - name: Izvietošanas vadlīnijas par kases sistēmām Norvēģijā
+          href: localizations/emea-nor-loc-deployment-guidelines.md
+    - name: Zviedrija
+      items:
+        - name: Kases sistēmas Zviedrijā
+          href: localizations/emea-swe-cash-registers.md
+        - name: Paraugs Retail POS integrācijai ar vadības ierīcēm
+          href: dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md
+- name: Retail uzdevumi
+  items:
+    - name: Preces izveide
+      href: ../supply-chain/pim/tasks/create-product.md
+    - name: Saistīto preču konfigurēšana
+      href: ../supply-chain/pim/tasks/configure-linked-products.md
+    - name: Preces/preces šablona izlaišana juridiskajām personām
+      href: ../supply-chain/pim/tasks/release-product-product-master-legal-entities.md
+    - name: Bāzes cena un tirdzniecības līgumi
+      href: tasks/base-price-trade-agreements.md
+    - name: 'Kategorijas cenu noteikšanas kārtulas, lai izveidotu tirdzniecības līgumus'
+      href: tasks/category-pricing-rules-trade-agreements.md
+    - name: Kredītkaršu apstrādes konfigurēšana
+      href: tasks/configure-credit-card-processing.md
+    - name: Funkcionalitātes profila konfigurēšana pārdošanas pārstāvim
+      href: tasks/configure-functionality-profile-sales-representative.md
+    - name: Algoritmiskās mācīšanās produktu ieteikumu konfigurēšana
+      href: tasks/configure-machine-learning-product-recommendations.md
+    - name: ' Ierīces izveide un sasaiste'
+      href: tasks/create-associate-device.md
+    - name: Aparatūras stacijas izveide un saistīšana
+      href: tasks/create-associate-hardware-station.md
+    - name: Reģistru izveide un saistīšana
+      href: tasks/create-associate-registers.md
+    - name: Zvanu centra pasūtījumu izveide
+      href: tasks/create-call-center-orders.md
+    - name: POS reģistru finanšu dimensiju izveide un dimensiju vērtību konfigurēšana reģistros
+      href: tasks/create-financial-dimensions-pos.md
+    - name: Retail kanālu finanšu dimensiju izveide un dimensiju vērtību konfigurēšana veikalos
+      href: tasks/create-financial-dimensions-retail-channels.md
+    - name: Tiešsaistes kanālu izveide un kanāla atribūtu definēšana
+      href: tasks/create-online-channel-define-channel-attributes.md
+    - name: POS atļauju grupu izveide
+      href: tasks/create-pos-permission-groups.md
+    - name: 'POS vizuālā profila izveide  '
+      href: tasks/create-pos-visual-profile-2016-02.md
+    - name: Preču iepakojumu izveide pirkšanas pasūtījumiem
+      href: tasks/create-product-packages-purchase-orders.md
+    - name: Zvanu centra kanālu un kanāla atribūtu definēšana
+      href: tasks/define-call-center-channel-channel-attributes.md
+    - name: Kanāla atribūtu definēšana
+      href: tasks/define-channel-attributes.md
+    - name: Nepārtrauktības grafiku definēšana
+      href: tasks/define-continuity-schedules.md
+    - name: Lojalitātes programmu definēšana
+      href: tasks/define-loyalty-programs.md
+    - name: ' Lojalitātes programmas atlīdzības punktu definēšana'
+      href: tasks/define-loyalty-reward-points.md
+    - name: ' Lojalitātes programmas shēmu definēšana'
+      href: tasks/define-loyalty-schemes.md
+    - name: Organizācijas struktūrvienību attiecību izstrāde
+      href: tasks/design-relationships-between-organizational-units.md
+    - name: Klāstu pārvaldība
+      href: tasks/manage-assortments-2016-11.md
+    - name: 'Pašapkalpošanās veikšana, lai lejupielādētu aparatūras staciju'
+      href: tasks/perform-self-service-download-hardware-station.md
+    - name: Tiešsaistes pārdošanas un maksājumu grāmatošana
+      href: tasks/posting-online-sales-payments.md
+    - name: Lojalitātes programmas atlīdzības punktu korekciju apstrāde
+      href: tasks/process-loyalty-reward-point-adjustments.md
+    - name: 'Preču virzīšana no sadales centra uz veikalu, izmantojot sagādes sadali'
+      href: tasks/push-products-distribution-center-store-buyers-push.md
+    - name: Mazumtirdzniecības cenu korekcijas
+      href: tasks/retail-price-adjustments.md
+    - name: Standarta komplektācijā ietverto pārskatu ģenerēšana un palaišana
+      href: tasks/run-out-box-reports.md
+    - name: Kārtulu un parametru iestatīšana pārkraušanai sadales centrā un sagādes sadalē
+      href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
+    - name: Nepārtrauktības programmu lietošana
+      href: tasks/use-continuity-program.md
+    - name: Nodarbinātā konfigurēšana
+      href: tasks/worker.md
+- name: Mazumtirdzniecības izstrāde un administrācija
+  href: dev-itpro/dev-retail-home-page.md
+  items:
+    - name: Arhitektūra
+      items:
+        - name: "Microsoft Dynamics\_365 for Finance and Operations komponenti\_— Retail"
+          href: retail-components.md
+        - name: Retail Server arhitektūra
+          href: dev-itpro/retail-server-architecture.md
+        - name: Mazumtirdzniecības kanālu saziņa
+          href: dev-itpro/define-retail-channel-communications-cdx.md
+        - name: MPOS arhitektūra
+          href: dev-itpro/retail-modern-pos-architecture.md
+        - name: Mazumtirdzniecības tiešsaistes veikala publicēšanas arhitektūra
+          href: dev-itpro/retail-online-store-publishing-architecture.md
+        - name: Retail Channel Performance Power BI saturs
+          href: ../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/retail/toc.json
+        - name: Maksājumu programmu datu drošības standartu (PA-DSS) sertifikācija
+          href: dev-itpro/PA-DSS-Certification.md
+        - name: Pieejamās Retail iespējas lokālos izvietojumos
+          href: retail-onprem.md
+    - name: Izvietošana un labojumfaili
+      items:
+        - name: Retail Store Scale Unit pārskats
+          href: dev-itpro/retail-store-system-begin.md
+        - name: Retail Store Scale Unit konfigurēšana un instalēšana
+          href: dev-itpro/retail-store-scale-unit-configuration-installation.md
+        - name: Retail Modern POS konfigurēšana un instalēšana
+          href: retail-modern-pos-device-activation.md
+        - name: Retail kontu un ierīču pārvaldība no galvenā biroja
+          href: set-up-activation-accounts-validate-devices-hq.md
+        - name: Retail POS ierīces aktivizēšana
+          href: dev-itpro/retail-device-activation.md
+        - name: Drošs Retail Cloud POS
+          href: dev-itpro/secure-retail-cloud-pos.md
+        - name: Retail Hardware Station konfigurēšana un instalēšana
+          href: retail-hardware-station-configuration-installation.md
+        - name: Plaša Retail patstāvīgi izmantojamā pakalpojuma komponentu izvietošana
+          href: dev-itpro/retail-mass-deployment.md
+        - name: Retail komponentu notikumi diagnostikai un problēmu novēršanai
+          href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
+        - name: Izvietojamas pakotnes pielietošana
+          href: ../dev-itpro/deployment/apply-deployable-package-system.md?toc=/retail/toc.json
+    - name: Jaunināšana un N-1 atbalsts
+      items:
+        - name: Jaunināšanas un N-1 atbalsta apskats
+          href: dev-itpro/overview-upgrade-n-minus1.md
+        - name: N-1 komponentu instalēšana
+          href: dev-itpro/n-1-installation-configuration.md
+    - name: Ieviešanas vadlīnijas
+      items:
+        - name: Ierīces pārvaldības ieviešanas vadlīnijas
+          href: implementation-considerations-devices.md
+    - name: Vides konfigurēšana
+      items:
+        - name: Saišu pievienošana organizācijas juridiskajiem nosacījumiem un paziņojumam par konfidencialitāti
+          href: ../dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/retail/toc.json
+        - name: Bing Maps pārvaldība
+          href: dev-itpro/manage-bing-maps.md
+    - name: Retail paplašinājumu resursu un etiķešu failu lokalizēšana
+      href: dev-itpro/extension-resource-localization.md
+    - name: Pārdošanas punktu paplašināmība
+      items:
+        - name: Retail POS ekrāna izkārtojumi
+          href: pos-screen-layouts.md
+        - name: POS izkārtojuma veidotāja instalēšana
+          href: install-pos-layout-designer.md
+        - name: MPOS konfigurēšana bezsaistes režīmam
+          href: dev-itpro/retail-modern-pos-offline.md
+        - name: POS Dual displeja skata paplašināšana
+          href: dev-itpro/pos-dual-display-extension.md
+        - name: MPOS un Cloud POS trigera paplašināmība
+          href: dev-itpro/modern-pos-trigger-extensibility.md
+        - name: Pielāgotas vadīklas pievienošana POS skatam
+          href: dev-itpro/pos-custom-control.md
+        - name: Jaunas POS operācijas pievienošana POS izkārtojumam
+          href: dev-itpro/add-POS-operations.md
+        - name: POS maksājumu paplašinājums
+          href: dev-itpro/pos-payment-extension.md
+        - name: Ārējo dāvanu karšu atbalsts
+          href: dev-itpro/gift-card.md
+        - name: Retail Experience programmas izveide
+          href: dev-itpro/create-retail-experience-app.md
+    - name: Hardware Station apskats un paplašināmība
+      href: dev-itpro/hardware-station-extensibility.md
+    - name: Retail Server paplašināmība
+      items:
+        - name: Retail Server OData kontroliera paplašināšana
+          href: dev-itpro/extend-retail-server-odata-controller.md
+        - name: Tīmekļa API un OData kontrolieri
+          href: dev-itpro/odata-controllers-api.md
+        - name: Mazumtirdzniecības servera klienta un patērētāja API
+          href: dev-itpro/retail-server-customer-consumer-api.md
+        - name: Metadatu paplašināšana
+          href: dev-itpro/extend-metadata.md
+        - name: 'Commerce runtime paplašināšana, lai atbalstītu POS bezsaistes režīmu'
+          href: dev-itpro/call-crt-service-offline.md
+    - name: Commerce runtime paplašināmība
+      items:
+        - name: Commerce runtime apskats
+          href: dev-itpro/commerce-runtime-overview.md
+        - name: Commerce runtime pakalpojumi
+          href: dev-itpro/crt-services.md
+        - name: Commerce runtime un Retail Server paplašināmība
+          href: dev-itpro/commerce-runtime-extensibility.md
+        - name: Klienta preferenču datu pievienošana kanāla datu bāzei
+          href: dev-itpro/add-customer-preference-channel.md
+        - name: Rekvizītu pievienošana pārdošanas pasūtījumam
+          href: dev-itpro/add-properties-sales-order.md
+        - name: Commerce runtime paplašināmība un trigeri
+          href: dev-itpro/commerce-runtime-extensibility-trigger.md
+        - name: "Trigera piemērs: transakcijas \x7Fbloķēšana"
+          href: dev-itpro/trigger-example-blocking-transaction.md
+        - name: 'Trigera piemērs: atgriešanas politika'
+          href: dev-itpro/trigger-example-return-policy.md
+    - name: e-Commerce paplašināmība
+      items:
+        - name: Tiešsaistes veikala konfigurēšana
+          href: dev-itpro/configure-online-store.md
+        - name: Autentifikācijas nodrošinātāju konfigurēšana
+          href: dev-itpro/configure-authentication-providers.md
+        - name: E-komercijas platforma
+          href: dev-itpro/ecommerce-platform.md
+        - name: E-komercijas platformas SDK
+          href: dev-itpro/ecommerce-platform-sdk.md
+    - name: Maksājumu savienotāja paplašināmība
+      items:
+        - name: Maksājumu integrācija ar maksājumu termināli
+          href: dev-itpro/end-to-end-payment-extension.md
+        - name: Maksājumu savienotāja un maksājumu ierīces ieviešana (tehniskais dokuments)
+          href: 'http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx'
+        - name: Maksājumu savienotāja izvietošana
+          href: dev-itpro/deploy-payment-connector.md
+        - name: Windows instalētāja izveide maksājumu savienotājam
+          href: dev-itpro/create-windows-installer-payment-connector.md
+    - name: Retail SDK
+      href: dev-itpro/retail-sdk/retail-sdk-overview.md
+      items:
+        - name: Retail SDK integrēšana pastāvīgas būvēšanas sistēmā
+          href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
+        - name: Retail SDK paplašināmības paraugi
+          href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
+        - name: Retail SDK iepakojums
+          href: dev-itpro/retail-sdk/retail-sdk-packaging.md
+        - name: 'Retail SDK paraugi '
+          href: dev-itpro/retail-sdk/retail-sdk-samples.md
+          items:
+            - name: Paplašinājuma punkti pavadzīmēm
+              href: dev-itpro/extensions-shipping-carrier-integration.md
+        - name: Channel database (DB) paplašinājumi
+          href: dev-itpro/channel-db-extensions.md
+        - name: CDX paplašināmība
+          href: dev-itpro/cdx-extensibility.md
+        - name: Pielāgotu lauku pievienošana POS panelim
+          href: dev-itpro/custom-field-pos-totals.md
+        - name: Pasūtījumu atribūti
+          href: dev-itpro/order-attributes.md
+        - name: Debitora atribūti
+          href: dev-itpro/customer-attributes.md
+        - name: 'Retail Typescript un C# proxy'
+          href: dev-itpro/typescript-proxy-retail-pos.md
+        - name: Retail POS paraugu palaišana
+          href: dev-itpro/pos-run-samples.md
+        - name: Paplašināt esošos POS skatus un pievienot programmām pielāgotas kolonnas un joslu pogas
+          href: dev-itpro/pos-view-extension.md
+        - name: Pievienot pielāgotas vadīklas Retail Modern POS transakciju lapām
+          href: dev-itpro/pos-custom-transaction.md
+        - name: Pielāgotas kolonnas POS pievienošana transakciju režģim
+          href: dev-itpro/pos-custom-transaction-column.md
+        - name: "POS\_API vai operācijas izsaukšana no POS\_paplašinājuma"
+          href: dev-itpro/pos-api-extension.md
+        - name: Retail Modern POS trigeri un drukāšana
+          href: dev-itpro/pos-trigger-printing.md
+        - name: 'Pielāgotas vadīklas pievienošana Retail Modern POS skatam, kura pamatā nav ekrāna veidotājs'
+          href: dev-itpro/pos-control-non-screen.md
+        - name: 'Konfigurēšanas darbības Retail izstrādātājiem, kas izstrādā mākonī viesotus izstrādes laukus'
+          href: dev-itpro/cloud-dev-box.md
+    - name: Commerce Runtime
+      items:
+        - name: Lojalitātes paplašinājums
+          href: dev-itpro/retail-sdk/loyalty-extension-sample.md
