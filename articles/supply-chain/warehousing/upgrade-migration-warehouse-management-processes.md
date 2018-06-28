@@ -28,6 +28,7 @@ ms.lasthandoff: 05/08/2018
 
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Noliktavas pārvaldības jaunināšana no Microsoft Dynamics AX 2012 uz Finance and Operations
 
+
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegts apskats par jaunināšanas procedūru, jauninot no Microsoft Dynamics AX 2012 R3, kur darbojas modulis WMSII, uz Microsoft Dynamics 365 for Finance and Operations.

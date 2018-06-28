@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c925b2e996f51b8c5d5332217643c3155cfc03c0
+ms.sourcegitcommit: 4c61cb81368251540e0015e155b1cc932bf7b948
+ms.openlocfilehash: 6360bbc8e5abd94cfd1c2853bc384598047eec39
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/16/2018
 
 ---
 
@@ -101,31 +101,18 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 -   [Finanšu dokumenti, uz kuriem ir atsauce](../../financials/localizations/latam-bra-referenced-fiscal-documents.md)
 -   [Pārdošanas papildu finanšu dokumenti](../../financials/localizations/latam-bra-sales-complementary-fiscal-documents.md)
 -   [Pakalpojuma elektroniskie finanšu dokumenti](../../financials/localizations/latam-bra-service-electronic-fiscal-document.md)
--   [NF-e XML dokumentu un DANFE failu izveide, importēšana un pārbaudīšana](../../financials/localizations/latam-bra-set-up-import-nfe.md)
+-   [NF-e XML dokumentu un DANFE failu iestatīšana, importēšana un verificēšana](../../financials/localizations/latam-bra-set-up-import-nfe.md)
 -   [Nodokļu atribūti](../../financials/localizations/latam-bra-tax-attributes.md)
 -   [Nodokļu maksājumi](../../financials/localizations/latam-bra-tax-payments.md)
 -   [Nodokļi](../../financials/localizations/latam-bra-calculate-taxes.md)
 
-### <a name="china"></a>Ķīna
--   [Materiālu komplektu salīdzinājums](../../financials/localizations/apac-chn-bom-comparison.md)
--   [Ķīnas dokumenti](../../financials/localizations/apac-chn-vouchers.md)
--   [Konfigurēt nodokļu integrāciju](../../financials/localizations/apac-chn-tax-integration.md)
-    -   [Bieži uzdotie jautājumi par PVN debitoru rēķinos](../../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md)
-    -   [Nolietojuma metodes, pamatlīdzekļi ](../../financials/localizations/apac-chn-depreciation-methods-fixed-assets.md)
--   [Importēt datu elementu Ķīnas zelta nodokļi](../../financials/localizations/apac-chn-import-golden-tax-data-entity.md)
--   [Mēneša vidējo izmaksu modelis](../../financials/localizations/apac-chn-monthly-average-cost-model.md)
--   [Grāmatot krājumu galvenos kontus pēc vietas](../../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md)
--   [Virsgrāmatas kontu debeta un kredīta summu rādīšana](../../financials/localizations/apac-chn-negative-debits-credits.md)
-
+### <a name="chinafinancialslocalizationschinamd"></a>[Ķīna](../../financials/localizations/china.md)
 ### <a name="the-czech-republicfinancialslocalizationsczech-republicmd"></a>[Čehija](../../financials/localizations/czech-republic.md)
-
-### <a name="estonia"></a>Igaunija
--   [PVN deklarācijas informācija Igaunijā](../../financials/localizations/emea-est-vat-statement-details.md)
--   [Pamatlīdzekļu norakstīšana](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
+### <a name="estoniafinancialslocalizationsestoniamd"></a>[Igaunija](../../financials/localizations/estonia.md)
 
 ### <a name="europe"></a>Eiropa
 - [Avansa turētāji](../../financials/localizations/emea-advance-holders.md)
-- [Avansa turētāju darījumi](../../financials/localizations/emea-advance-holders-transactions.md)
+- [Avansa turētāju transakcijas](../../financials/localizations/emea-advance-holders-transactions.md)
 - [Padziļinātā rēķinu izrakstīšana](../../financials/localizations/emea-advance-invoice.md)
 - [Bankas darbību saskaņošana](../../financials/localizations/emea-bank-reconciliation.md)
 - [Korektīvo rēķinu izrakstīšana](../../financials/localizations/emea-corrective-invoice.md)
@@ -154,7 +141,7 @@ Nākamajās sadaļās resursi ir uzskaitīti pēc valsts/reģiona.
 - [Iestatīt parakstītājus drukātajām formām](../../financials/localizations/emea-set-up-signers-for-printing-forms.md)
 - [Storno uzskaite](../../financials/localizations/emea-storno.md)
 - [Nodokļu direktīvas](../../financials/localizations/emea-tax-directives.md)
-- [Atjaunināt veidu, kā summas tiek rādītas pārskatos un dokumentos](../../financials/localizations/emea-amount-printing-forms.md) 
+- [Summu rādījuma atjaunināšana summām pārskatos un dokumentos](../../financials/localizations/emea-amount-printing-forms.md) 
 - [PVN maiņas kursi](../../financials/localizations/emea-vat-exchange-rate.md)
 - [PVN reģistra darījumi Austrumeiropai](../../financials/localizations/emea-vat-register-transactions.md)
 - [PVN pārskati](../../financials/localizations/emea-vat-reporting.md)

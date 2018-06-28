@@ -18,10 +18,10 @@ ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 838dc1e5867b8380823275aba5fc425003a54523
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: 2bccabb033f5ba142b145e69930ce516aad596f2
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -43,8 +43,7 @@ MK un formulas rindu izlaišanai izmantotā metode tiek kontrolēta ar parametru
 - **Izlaist MK un formulas rindas kā daļu no ražošanas vai partijas pasūtījuma izlaišanas** — ar šo metodi MK un formulas rindas ražošanas vai partijas pasūtījumam tiek izlaistas kā daļa no pasūtījuma izlaišanas procesa. Ražošanas vai partijas pasūtījuma izlaišanas laikā parasti ražošanas darbi tiek izlaisti nodošanai ražotnes darbiniekiem un tiek drukāta ražošanas dokumentācija. Šī procesa laikā pasūtījuma statuss tiek arī mainīts uz **Izlaists**.
 - **Izlaist MK un formulas rindas ar pakešuzdevumu vai kā manuālu mijiedarbību** — izmantojot šo metodi, MK un formulas rindas var izlaist vienīgi ar pakešuzdevumu **Automātiska MK un formulas rindu izlaišana** vai kā manuālu mijiedarbību. Lai MK un formulas rindas izlaistu manuāli, ražošanas pasūtījuma saraksta lapas vai ražošanas pasūtījuma informācijas lapas darbību rūtī atlasiet **Izlaist pārvietošanai uz noliktavu**.
 
-Īsu demonstrāciju par to, kā izlaist MK un formulas rindas nosūtīšanai uz ražošanu, izmantojot pakešuzdevumu, noskatieties šo īso YouTube video:
-[!Video <https://www.youtube.com/embed/8urAJn50dQ8>]
+Īsu demonstrāciju par to, kā izlaist MK un formulas rindas nosūtīšanai uz ražošanu, izmantojot pakešuzdevumu, noskatieties šo īso YouTube video: [Ražošanas izdošanas izlaišana uz noliktavu pakešveidā](https://www.youtube.com/watch?v=8urAJn50dQ8).
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>MK un formulas rindu izlaišana, izmantojot pakešuzdevumu
 
@@ -85,8 +84,7 @@ Nākamajā attēlā ir parādīts ražošanas pasūtījums, kurā ir divas oper�
 
 ![Piemērs par materiāla izlaišanu katram operācijas numuram](media/two-operations.PNG)
 
-Īsu demonstrāciju par to, kā izlaist materiālu proporcionāli pabeigto preču daudzumam, varat skatīties šajā YouTube videoklipā:
-[!Video <https://www.youtube.com/embed/Rm3ojAz6Zu0>]
+Īsu demonstrāciju par to, kā izlaist materiālu proporcionāli pabeigto preču daudzumam, varat skatīties šajā YouTube videoklipā: [Ražošanas pasūtījuma izlaišanas procesa uzlabojumi programmā Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=Rm3ojAz6Zu0)
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>Materiāla izlaišana proporcionāli pabeigto preču daudzumam
 

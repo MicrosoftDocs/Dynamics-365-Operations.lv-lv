@@ -1,6 +1,6 @@
 ---
 title: Intrastat
-description: "Šajā rakstā ir sniegta informācija par Intrastat atskaišu veidošanu preču — un noteiktos gadījumos arī pakalpojumu — tirdzniecībai starp dažādām Eiropas Savienības (ES) valstīm/reģioniem. Tajā ir sniegts pārskats par atskaišu veidošanas procesu, kā arī aprakstīti nepieciešamie iestatījumi un priekšnosacījumi."
+description: "Šajā tēmā ir sniegta informācija par Intrastat pārskatu veidošanu preču — un noteiktos gadījumos arī pakalpojumu — tirdzniecībai starp dažādām Eiropas Savienības (ES) valstīm/reģioniem. Tajā ir sniegts pārskats par atskaišu veidošanas procesu, kā arī aprakstīti nepieciešamie iestatījumi un priekšnosacījumi."
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,10 +18,10 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2ee60f3d1155b89d342b94832fbdbe898a5063c6
+ms.sourcegitcommit: b4b3d8f7da4fbb107353a25ff177492a0744b4c1
+ms.openlocfilehash: 50eb50c636d70dbdc374e8cfc89438433fb1f1b0
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir sniegta informācija par Intrastat atskaišu veidošanu preču — un noteiktos gadījumos arī pakalpojumu — tirdzniecībai starp dažādām Eiropas Savienības (ES) valstīm/reģioniem. Tajā ir sniegts pārskats par atskaišu veidošanas procesu, kā arī aprakstīti nepieciešamie iestatījumi un priekšnosacījumi.
+Šajā tēmā ir sniegta informācija par Intrastat pārskatu veidošanu preču — un noteiktos gadījumos arī pakalpojumu — tirdzniecībai starp dažādām Eiropas Savienības (ES) valstīm/reģioniem. Tajā ir sniegts pārskats par atskaišu veidošanas procesu, kā arī aprakstīti nepieciešamie iestatījumi un priekšnosacījumi.
 
 Intrastat ir sistēma informācijas vākšanai un statistikas ģenerēšanai par preču tirdzniecību starp dažādām Eiropas Savienības (ES) valstīm/reģioniem. Intrastat atskaites ir nepieciešamas vienmēr, kad prece šķērso citas ES valsts/reģiona robežu. Vairākās valstīs/reģionos Intrastat atskaites attiecas arī uz pakalpojumiem. Intrastat atskaitēs var vākt obligātus un neobligātus elementus. Obligāti ir šādi elementi: tās puses pievienotās vērtības nodokļa (PVN) numurs, kas ir atbildīga par informācijas sniegšanu, atsauces periods, plūsma (saņemšana vai nosūtīšana), astoņu ciparu preču kods, partnera dalībvalsts (saņemamo preču nosūtīšanas dalībvalsts un nosūtāmo preču saņemšanas dalībvalsts), preču vērtība, preču daudzums (neto masa un papildu vienības) un transakcijas veids. Valstis/reģioni saskaņā ar dažādiem nosacījumiem var vākt arī neobligātus elementus. Daži no neobligātajiem elementiem ir izcelsmes valsts/reģions, piegādes nosacījumi, transportēšanas veids un detalizētāks preču kods nekā CN8, nosūtāmo preču izcelsmes reģions un saņemamo preču mērķa reģions, statistiskā procedūra, statistiskā vērtība, preču apraksts un iekraušanas/izkraušanas osta/lidosta.
 
@@ -223,6 +223,7 @@ Lai iestatītu parametrus nākamajā tabulā, izmantojiet lapu **Ārējās tirdz
 </ul></li>
 <li><strong>Elektronisko atskaišu veidošana</strong> — norādiet atsauces uz elektronisko atskaišu konfigurācijām, lai varētu ģenerēt elektronisku failu un atskaiti.</li>
 <li><strong>Preču kodu hierarhija</strong> — norādiet kategoriju hierarhiju ar tipu <strong>Preču kods</strong>, kas apzīmē Intrastat preču kodu CN8.</li>
+  <li> <strong>Maiņas kursa tips</strong> — ja vēlaties, norādiet maiņas kursu, ko izmantot, lai ziņotu par Intrastat pārdošanas un pirkšanas transakcijām ārvalstu valūtās. Šis vienums tiek izmantots arī tad, ja kurss atšķiras no maiņas kursa, kas tiek lietots transakcijas grāmatošanai.</li>  
 </ul></td>
 </tr>
 <tr class="even">
@@ -239,9 +240,5 @@ Lai iestatītu parametrus nākamajā tabulā, izmantojiet lapu **Ārējās tirdz
 </tr>
 </tbody>
 </table>
-
-
-
-
 
 

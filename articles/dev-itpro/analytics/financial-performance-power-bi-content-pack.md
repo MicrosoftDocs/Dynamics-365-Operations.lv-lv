@@ -1,6 +1,6 @@
 ---
-title: "Power BI saturs Finanšu veiktspēja"
-description: "Šajā tēmā ir aprakstīts Power BI saturs Finanšu veiktspēja."
+title: "PowerBI.com risinājums Finanšu veiktspēja"
+description: "Šajā tēmā ir aprakstīts PowerBI.com risinājums Finanšu veiktspēja."
 author: kweekley
 manager: AnnBe
 ms.date: 05/09/2018
@@ -18,26 +18,26 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: d062937d8d1cb7d8e4f4cc055eb4514fa56b4eab
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: b70d470da2160670848d2dca9c97f6d7a2d6cf60
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/22/2018
 
 ---
 
-# <a name="financial-performance-power-bi-content"></a>Power BI saturs Finanšu veiktspēja
+# <a name="financial-performance-powerbicom-solution"></a>PowerBI.com risinājums Finanšu veiktspēja
 
 [!include [banner](../includes/banner.md)]
 
 > [!Note]
-> Šī satura pakotne ir novecojusi, kā dokumentēts tēmā [AppSource pieejamās Power BI satura pakotnes](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Šis PowerBI.com risinājums ir novecojis, kā dokumentēts tēmā [AppSource pieejamās Power BI satura pakotnes](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
-Šajā tēmā ir aprakstīts Microsoft Power BI saturs **Finanšu veiktspēja**. Tajā ir aprakstīts informācijas panelis un ietvertie pārskati, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
+Šajā tēmā ir aprakstīts PowerBI.com risinājums **Finanšu veiktspēja**. Tajā ir aprakstīts informācijas panelis un ietvertie pārskati, kā arī sniegta informācija par risinājuma izstrādei izmantoto datu modeli un elementiem.
 
 ## <a name="main-account-setup"></a>Galvenā konta iestatīšana
 Tā kā organizācijas vēlas, lai saistību un ieņēmumu summas pārskatos tiktu rādītas kā pozitīvas summas, galveno kontu iestatīšana ir svarīga. Lai šie galvenie konti tiktu rādīti kā pozitīvas summas, galvenā konta tips ir jāiestata uz **Saistība** vai **Ieņēmumi**. Kad tiek izmantoti šie kontu tipi, pārskatu veidošana, izmantojot Power BI, apgriež zīmes un šīs summas rāda kā pozitīvas.
 
-## <a name="dashboard-and-reports-that-are-included-in-the-power-bi-content"></a>Power BI saturā iekļautie informācijas paneļi un pārskati
+## <a name="dashboard-and-reports-that-are-included-in-the-powerbicom-solution"></a>PowerBI.com risinājumā ietvertie informācijas paneļi un pārskati
 Informācijas panelī ir apkopoti datu elementi, kas ir balstīti uz pamata pārskatiem. Katrs elements satur apkopotu informāciju par pašreizējo gadu visos uzņēmumos attiecīgajā organizācijā. Tālāk ir norādīti daži elementi.
 
 - Kase
@@ -74,7 +74,7 @@ Katrs elements balstās uz atbalsta pārskatu. Šie pārskati satur gan diagramm
 Diagrammas un elementus attiecībā uz visiem šiem pārskatiem var filtrēt un piespraust pie informācijas paneļa. Plašāku informāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet sadaļā [Informācijas paneļa izveide un konfigurēšana](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
-Power BI satura **Finanšu veiktspēja** pamatā tika izmantoti tālāk norādītie elementi.
+PowerBI.com risinājuma **Finanšu veiktspēja** pamatā tika izmantoti tālāk norādītie elementi.
 
 **Apkopoto datu elementi**
 
