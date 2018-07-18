@@ -1653,6 +1653,7 @@
                 - name: Gada beigu slēgšana
                   href: ../financials/localizations/emea-cze-hun-year-end.md
             - name: Dānija
+              href: ../financials/localizations/denmark.md
               items:
                 - name: Maksājuma kvīts formāta piešķiršana debitora kontam
                   href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
@@ -1684,6 +1685,7 @@
                 - name: PVN deklarācija
                   href: ../financials/localizations/emea-est-vat-statement-details.md
             - name: Francija
+              href: ../financials/localizations/france.md
               items:
                 - name: Publiskais sektors
                   items:
@@ -1760,6 +1762,7 @@
                 - name: Elektroniskās nodokļu deklarācijas iestatīšana
                   href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
             - name: Ungārija
+              href: ../financials/localizations/hungary.md
               items:
                 - name: Valūtas maiņas kursa aprēķins
                   href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
@@ -1774,6 +1777,7 @@
                 - name: Gada beigu slēgšana
                   href: ../financials/localizations/emea-cze-hun-year-end.md
             - name: Islande
+              href: ../financials/localizations/iceland.md
               items:
                 - name: Kreditora konta izveide un rēķina deklarācijas kategorijas pievienošana
                   href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
@@ -1784,6 +1788,7 @@
                 - name: Kreditora rēķina deklarācijas atjaunināšana un pārskata ģenerēšana
                   href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
             - name: Itālija
+              href: ../financials/localizations/italy.md
               items:
                 - name: PVN deklarāciju informācija
                   href: ../financials/localizations/emea-ita-vat-statements-details.md
@@ -1806,6 +1811,7 @@
                 - name: Ieturētais nodoklis
                   href: ../financials/localizations/emea-ita-withholding-tax.md
             - name: Latvija
+              href: ../financials/localizations/latvia.md
               items:
                 - name: Pamatlīdzekļu uzskaite
                   href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
@@ -1818,6 +1824,7 @@
                 - name: PVN deklarācijas informācija
                   href: ../financials/localizations/emea-lva-vat-statement-details.md
             - name: Lietuva
+              href: ../financials/localizations/lithuania.md
               items:
                 - name: Pamatlīdzekļu remonta deklarācija
                   href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
@@ -1828,12 +1835,14 @@
                 - name: PVN deklarācijas informācija
                   href: ../financials/localizations/emea-ltu-vat-statement-details.md
             - name: Nīderlande
+              href: ../financials/localizations/netherlands.md
               items:
                 - name: Elektroniskās nodokļu deklarācijas (EVAT)
                   href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL integrācija
                   href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
             - name: Norvēģija
+              href: ../financials/localizations/norway.md
               items:
                 - name: Debitoru un kreditoru maksājumu formāti
                   href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
@@ -1848,6 +1857,7 @@
                 - name: Izvietošanas vadlīnijas kases sistēmām
                   href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
             - name: Polija
+              href: ../financials/localizations/poland.md
               items:
                 - name: Rindu atlaižu aprēķināšana no vienības cenas
                   href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
@@ -1870,6 +1880,7 @@
                 - name: Apgrozījuma bilances pārskats
                   href: ../financials/localizations/emea-pol-turnover-balances-statement.md
             - name: Spānija
+              href: ../financials/localizations/spain.md
               items:
                 - name: Termiņatlaižu lietošana rēķinā
                   href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
@@ -1898,6 +1909,7 @@
                 - name: Īpašie ieraksti un sākuma lapas
                   href: ../financials/localizations/emea-esp-opening-sheets-spain.md
             - name: Zviedrija
+              href: ../financials/localizations/sweden.md
               items:
                 - name: Finanšu informācijas eksportēšana auditoriem Zviedrijā
                   href: ../financials/localizations/emea-swe-sie-standard-report.md
@@ -1906,10 +1918,12 @@
                 - name: Kases sistēmas
                   href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
             - name: Šveice
+              href: ../financials/localizations/switzerland.md
               items:
                 - name: Debitoru maksājumu importēšana ESR rīkojumā
                   href: ../financials/localizations/emea-che-esr-customer-payments-import.md
             - name: Apvienotā Karaliste
+              href: ../financials/localizations/united-kingdom.md
               items:
                 - name: 'Būvniecības nozares shēma '
                   href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
