@@ -18,10 +18,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: d1307729945494ee78c0ca6089b384d666fe5f20
+ms.sourcegitcommit: e7e10768dd1e0a441842d5b13964f49153c35be3
+ms.openlocfilehash: cced03d29bb04182a3f5bae86c3bec6d3c086cde
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 07/10/2018
 
 ---
 
@@ -113,17 +113,17 @@ Liela daļa šī satura attiecas arī uz saistītajiem produktiem: Microsoft Dyn
 <p><a href="organization-administration/organization-administration-home-page.md">Organizācijas administrēšana</a></p>
 </td>
 <td>
-<h3>Saistītās preces</h3>
-<h4><a href="../talent/index.md">Dynamics 365 for Talent</a></h4>
-<p><a href="../talent/manage-benefit-program.md">Atvieglojumi</a></p>
-<p><a href="../talent/performance-management-overview.md">Darbinieku izaugsme un apmācība</a></p>
-<p><a href="../talent/questionnaires.md">Anketa</a></p>
-
+<h3>Saistītie produkti</h3>
 <h4><a href="../retail/index.md">Dynamics 365 for Retail</a></h4>
 <p><a href="../retail/call-center-functionality.md">Zvanu centrs</p>
 <p><a href="../retail/define-maintain-retail-channels.md">Kanāla iestatīšana un pārvaldība</p>
 <p><a href="../retail/retail-peripherals-overview.md">MPOS un Cloud POS</p>
 <p><a href="../retail/dev-itpro/dev-retail-home-page.md">Retail izstrādātājs un administrācija</p>
+
+<h4><a href="../talent/index.md">Dynamics 365 for Talent</a></h4>
+<p><a href="../talent/manage-benefit-program.md">Atvieglojumi</a></p>
+<p><a href="../talent/performance-management-overview.md">Darbinieku izaugsme un apmācība</a></p>
+<p><a href="../talent/questionnaires.md">Anketa</a></p>
 
 </td>
 </tr>
