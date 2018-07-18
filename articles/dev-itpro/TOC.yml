@@ -1014,6 +1014,8 @@
           href: deployment/apply-deployable-package-system.md
         - name: Izvietojamas pakotnes instalēšana
           href: deployment/install-deployable-package.md
+        - name: Pakotnes atinstalēšana
+          href: deployment/uninstall-deployable-package.md
         - name: Pakotnes programmas problēmu novēršana
           href: deployment/deployable-package-troubleshooting.md
 - name: 'Jauninājumi, atjauninājumi un labojumfaili'

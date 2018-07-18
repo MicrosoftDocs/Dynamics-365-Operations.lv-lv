@@ -1,84 +1,87 @@
-- name: "Laipni lūdzam programmā Dynamics\_365 for\_Talent!"
+- name: "Dynamics\_365 for Talent"
   href: index.md
-- name: Darba sākšana
-  href: talent-get-started.md
   items:
-    - name: Sistēmas prasības un atjaunināšanas politika
-      href: talent-versions-update-policy.md
-    - name: "Microsoft\_Dynamics\_365\_for\_Talent nodrošinājums"
-      href: provisioning-talent.md
-    - name: Talent vides noņemšana
-      href: remove-talent-environment.md
-    - name: "Microsoft\_Dynamics\_365\_for\_Talent moduļu programmu nodrošinājums"
-      href: modular-app-tech-faq.md
-    - name: Programmas Talent funkcionalitātes paplašināšana
-      href: extend-talent-functionality.md
-    - name: "Piekļuve priekšskatījuma līdzekļiem programmā Dynamics\_365 for Talent"
-      href: access-preview-feature.md
-- name: Personāla vadības stratēģijas izstrāde
-  href: departments-jobs-positions.md
-  items:
-    - name: Darba komponentu iestatīšana
-      href: create-job.md
-    - name: Nodaļas izveide un tās saistīšana ar nodaļu hierarhiju
-      href: create-department-add-department-hierarchy.md
-    - name: "HR\_parametru iestatīšana dažādās juridiskajās personās"
-      href: set-up-hr-parameters-across-legal-entities.md
-    - name: "Iestatīt uzņēmumam raksturīgus HR\_parametrus"
-      href: set-up-company-specific-hr-parameters.md
-    - name: Bieži uzdotie jautājumi par personāla darbībām
-      href: personnel-actions-faq.md
-    - name: Biznesa procesu formalizēšana
-      href: formalize-business-processes.md
-    - name: 'Darbplūsmas izmantošana, lai pārvaldītu informāciju par darbiniekiem'
-      href: workflow-manage-employee-information.md
-    - name: Atvaļinājumu un kavējumu apskats
-      href: leave-absence-overview.md
-- name: Organizācijas personāla komplektēšana
-  items:
-    - name: Attract pārskats
-      href: attract-overview.md
-    - name: Onboard pārskats
-      href: create-onboarding-experience.md
-- name: Darbinieku motivācija
-  items:
-    - name: Atlīdzības plāni
-      href: compensation-plans.md
-    - name: Fiksētās atlīdzības plānu izveidošana
-      href: create-fixed-compensation-plans.md
-    - name: Mainīgās atlīdzības plānu izveidošana
-      href: create-variable-compensation-plans.md
-    - name: Procesa kompensācija
-      href: process-compensation.md
-- name: Darbinieku attīstības veicināšana un apmācība
-  items:
-    - name: Veiktspējas pārvaldības apskats
-      href: performance-management-overview.md
-    - name: Darbaspēka prasmju saskaņošana ar biznesa vajadzībām
-      href: skills.md
-    - name: Apmācību kursu iestatīšana
-      href: courses.md
-- name: Atvieglojumu izveidošana un uzturēšana
-  href: manage-benefit-program.md
-- name: Atvieglojumu piemērojamības politikas
-  href: benefit-eligibility-policies.md
-  items:
-    - name: Nodarbinātajiem aizdotu krājumu pārvaldīšana
-      href: loan-items.md
-- name: 'Informācijas vākšana, izmantojot anketas'
-  href: questionnaires.md
-  items:
-    - name: Anketas plānošana
-      href: design-questionnaires.md
-    - name: Aptaujas izplatīšana un aizpildīšana
-      href: distribute-questionnaires.md
-    - name: Anketas rezultātu novērtēšana
-      href: evaluate-questionnaire-results.md
-- name: Darbavietas drošība un atbilstība (ASV)
-  items:
-    - name: 'Atbildēšana uz personas datu pieprasījumu, izmantojot programmu Talent'
-      href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/talent/toc.json
-    - name: Veidlapas I-9 nodarbinātības verificēšana
-      href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json
-    - name: Atbilstība ADA prasībām
-      href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json
+    - name: Darba sākšana
+      href: talent-get-started.md
+      items:
+        - name: Sistēmas prasības un atjaunināšanas politika
+          href: talent-versions-update-policy.md
+        - name: "Microsoft\_Dynamics\_365\_for\_Talent nodrošinājums"
+          href: provisioning-talent.md
+        - name: Talent vides noņemšana
+          href: remove-talent-environment.md
+        - name: "Microsoft\_Dynamics\_365\_for\_Talent moduļu programmu nodrošinājums"
+          href: modular-app-tech-faq.md
+        - name: Programmas Talent funkcionalitātes paplašināšana
+          href: extend-talent-functionality.md
+        - name: "Piekļuve priekšskatījuma līdzekļiem programmā Dynamics\_365 for Talent"
+          href: access-preview-feature.md
+        - name: Talent un algu aprēķina pakalpojuma integrācijas konfigurēšana
+          href: configure-payroll-integration.md
+    - name: Personāla vadības stratēģijas izstrāde
+      href: departments-jobs-positions.md
+      items:
+        - name: Darba komponentu iestatīšana
+          href: create-job.md
+        - name: Nodaļas izveide un tās saistīšana ar nodaļu hierarhiju
+          href: create-department-add-department-hierarchy.md
+        - name: "HR\_parametru iestatīšana dažādās juridiskajās personās"
+          href: set-up-hr-parameters-across-legal-entities.md
+        - name: "Iestatīt uzņēmumam raksturīgus HR\_parametrus"
+          href: set-up-company-specific-hr-parameters.md
+        - name: Bieži uzdotie jautājumi par personāla darbībām
+          href: personnel-actions-faq.md
+        - name: Biznesa procesu formalizēšana
+          href: formalize-business-processes.md
+        - name: 'Darbplūsmas izmantošana, lai pārvaldītu informāciju par darbiniekiem'
+          href: workflow-manage-employee-information.md
+        - name: Atvaļinājumu un kavējumu apskats
+          href: leave-absence-overview.md
+    - name: Organizācijas personāla komplektēšana
+      items:
+        - name: Attract apskats
+          href: attract-overview.md
+        - name: Onboard apskats
+          href: create-onboarding-experience.md
+    - name: Darbinieku motivācija
+      items:
+        - name: Atlīdzības plāni
+          href: compensation-plans.md
+        - name: Fiksētās atlīdzības plānu izveidošana
+          href: create-fixed-compensation-plans.md
+        - name: Mainīgās atlīdzības plānu izveidošana
+          href: create-variable-compensation-plans.md
+        - name: Procesa kompensācija
+          href: process-compensation.md
+    - name: Darbinieku attīstības veicināšana un apmācība
+      items:
+        - name: Veiktspējas pārvaldības apskats
+          href: performance-management-overview.md
+        - name: Darbaspēka prasmju saskaņošana ar biznesa vajadzībām
+          href: skills.md
+        - name: Apmācību kursu iestatīšana
+          href: courses.md
+    - name: Atvieglojumu izveidošana un uzturēšana
+      href: manage-benefit-program.md
+    - name: Atvieglojumu piemērojamības politikas
+      href: benefit-eligibility-policies.md
+      items:
+        - name: Nodarbinātajiem aizdotu krājumu pārvaldīšana
+          href: loan-items.md
+    - name: 'Informācijas vākšana, izmantojot anketas'
+      href: questionnaires.md
+      items:
+        - name: Anketas plānošana
+          href: design-questionnaires.md
+        - name: Aptaujas izplatīšana un aizpildīšana
+          href: distribute-questionnaires.md
+        - name: Anketas rezultātu novērtēšana
+          href: evaluate-questionnaire-results.md
+    - name: Darbavietas drošība un atbilstība (ASV)
+      items:
+        - name: 'Atbildēšana uz personas datu pieprasījumu, izmantojot programmu Talent'
+          href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/talent/toc.json
+        - name: Veidlapas I-9 nodarbinātības verificēšana
+          href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json
+        - name: Atbilstība ADA prasībām
+          href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json
