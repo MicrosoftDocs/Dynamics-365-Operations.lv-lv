@@ -20,10 +20,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e63f2b4289b640e601492425331ea8f3804d139a
-ms.openlocfilehash: 4f505a2de89863d1a12d415795fdfb82b3557bc0
+ms.sourcegitcommit: 338e0847ea91ee2582df0aab3e31a97c4f24113e
+ms.openlocfilehash: 016eec12c31398beede7fdddc4548ec196ebd704
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -51,7 +51,7 @@ Pirms definējat krājumu grāmatošanas kārtulas, izmantojiet lapu **Darbību 
 
 **4. Definējiet ar standarta izmaksām saistītos krājumu parametrus.** 
 
--  Izmantojiet lapas **Krājumu parametri** cilni **Materiālu komplekti**, lai definētu izmaksu kontroles parametrus, kas ir saistīti ar standarta izmaksām. 
+-  Izmantojiet cilni **Krājumu uzskaite**, kas ir pieejama lapā **Krājumu uzskaites politiku iestatīšana > Parametri**, lai definētu izmaksu kontroles parametrus, kas ir saistīti ar standarta izmaksām.
 
     -  Laukā **Izmaksu sadalījums** atlasiet opciju **Nav** vai **Apakšgrāmata**. Atlasot opciju **Apakšgrāmata**, izmaksu sadalījums ir *aktīvs* izmaksu sadalījums. Aktīvs izmaksu sadalījums ir kritisks izmaksu grupu segmentācijas aprēķināšanai, atgūšanai un skatīšanai daudzlīmeņu struktūrā standarta izmaksu krājumiem. Ja izmaksu sadalījums ir aktīvs, varat analizēt krājumus, nepabeigto ražošanu (NP) un pārdoto preču pašizmaksu (PPPI) uz izmaksu grupu vai sniegt par tiem pārskatu vienā līmenī, vairākos līmeņos vai visā sistēmā. Ja izmaksu sadalījums ir aktīvs, aktivizējot ražotā krājuma izmaksas, izmaksu grupu segmentācija tiek saglabāta krājuma izmaksu ierakstā. 
 

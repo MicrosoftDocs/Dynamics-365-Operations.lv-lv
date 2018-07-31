@@ -1,9 +1,9 @@
 ---
 title: "Maiņu un naudas kastes pārvaldība"
-description: "Šajā rakstā ir paskaidrots, kā iestatīt un izmantot abus mazumtirdzniecības pārdošanas punkta (POS) maiņu tipus — koplietoto un savrupo. Koplietotās maiņas var izmantot vairāki lietotāji vairākās vietās, bet savrupās maiņas vienlaicīgi var izmantot tikai viens darbinieks."
-author: rubencdelgado
+description: "Šajā tēmā ir paskaidrots, kā iestatīt un izmantot mazumtirdzniecības pārdošanas punkta (point of sale — POS) maiņas."
+author: jblucher
 manager: AnnBe
-ms.date: 02/15/2018
+ms.date: 05/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,10 +20,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
-ms.openlocfilehash: c1483d3240d266845cea7789b70c038cb98fdfcc
+ms.sourcegitcommit: da5519eb0746347905e3b3d3d81161850c429f57
+ms.openlocfilehash: f0856a3a36ff97773c0fadbe94fe680762c5206b
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/22/2018
 
 ---
 
@@ -31,127 +31,109 @@ ms.lasthandoff: 03/22/2018
 
 [!include [banner](includes/banner.md)]
 
-Šajā rakstā ir paskaidrots, kā iestatīt un izmantot abus mazumtirdzniecības pārdošanas punkta (POS) maiņu tipus — koplietoto un savrupo. Koplietotās maiņas var izmantot vairāki lietotāji vairākās vietās, bet savrupās maiņas vienlaicīgi var izmantot tikai viens darbinieks.
+Šajā tēmā ir paskaidrots, kā iestatīt un izmantot mazumtirdzniecības pārdošanas punkta (point of sale — POS) maiņas. 
 
-Pastāv divi mazumtirdzniecības pārdošanas punktu (POS) maiņu tipi: savrupā un koplietotā. Savrupās maiņas vienlaicīgi var lietot tikai viens darbinieks. Koplietotās maiņas var izmantot vairāki lietotāji vairākās vietās. Tāpēc tās efektīvi izveido vienu maiņu vairākiem darbiniekiem veikalā.
+Programmā Microsoft Dynamics 365 for Retail termins *maiņa* attiecas uz POS transakciju datiem un darbībām, kas tiek veiktas noteiktā laika intervālā. Katrai maiņai paredzētā naudas summa tiek salīdzināta ar summu, kas tika aprēķināta un deklarēta.
 
-## <a name="standalone-shifts"></a>Savrupās maiņas
-Savrupās maiņas tiek izmantotas tradicionālajā, fiksēta POS scenārijā, kur katram POS reģistram nauda tiek saskaņota atsevišķi. Piemēram, pārtikas preču veikalā parasti ir vairāki fiksēti POS reģistri un katram reģistram ir nozīmēts kāds kasieris. Šādā gadījumā katram reģistram, visticamāk, tiek izmantota savrupa maiņa, un kasieris ir atbildīgs par kases aparātu vai fizisko kasi attiecīgajā reģistrā. Savrupā maiņa ietver visas aktivitātes attiecīgajā reģistrā, kas notiek kasiera darba maiņas laikā. Šīs aktivitātes var ietvert sākuma summu, kas ir deponēta kases aparātā, visas naudas izņemšanas un pielikšanas operācijas, izmantojot tādas operācijas kā noguldījumus bankā un mainīgo ierakstu, kā arī norēķinu uzskaiti maiņas beigās.
+Parasti maiņas tiek atvērtas darba dienas sākumā. Šajā brīdī lietotājs deklarē sākuma summu, kas ir pieejama naudas kastē. Pēc tam pārdošanas darbības tiek veiktas visas dienas garumā. Visbeidzot, dienas beigās naudas kastē esošā nauda tiek skaitīta un tiek deklarētas slēgšanas summas. Maiņa tiek slēgta un tiek ģenerēts Z pārskats. Z pārskatā norāda, vai ir izveidojies pārpalikums vai iztrūkums.
 
-### <a name="set-up-a-stand-alone-shift"></a>Savrupās maiņas iestatīšana
+## <a name="typical-shift-scenarios"></a>Parastas maiņas scenāriji
+Retail nodrošina vairākas konfigurācijas opcijas un POS operācijas, lai atbalstītu dažādus dienas beigu POS biznesa procesus. Šajā sadaļā ir aprakstīti daži standarta maiņu scenāriji.
 
-Savrupā maiņa tiek norādīta naudas kastes līmenī. Šajā procedūrā ir paskaidrots, kā iestatīt savrupu maiņu POS reģistrā.
+### <a name="fixed-till"></a>Fiksēts kases aparāts
+Šis scenārijs tiek izmantots visbiežāk. To joprojām plaši izmanto. Maiņa “Fiksēts kases aparāts” — maiņa un kases aparāts ir saistīti ar noteiktu kases sistēmu. Tie netiek pārvietoti no vienas kases sistēmas uz citu. Maiņu “Fiksēts kases aparāts” var izmantot viens lietotājs vai koplietot vairāki lietotāji. Maiņām “Fiksēts kases aparāts” nav nepieciešama īpaša konfigurācija.
 
-1.  Noklikšķiniet uz **Retail** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS profili** &gt; **Aparatūras profili**.
-2.  Atlasiet aparatūras profilu, kuru izmantot savrupajai maiņai.
-3.  Kopsavilkuma cilnē **Naudas kaste** pārliecinieties, ka opcija **Koplietotās maiņas naudas kaste** ir iestatīta uz **Nē**.
-4.  Noklikšķiniet uz **Saglabāt**.
-5.  Noklikšķiniet uz **Mazumtirdzniecība** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **Reģistri**.
-6.  Atlasiet reģistru, kam ir nepieciešama savrupa maiņa, un pēc tam noklikšķiniet uz **Rediģēt**.
-7.  Laukā **Aparatūras profils** atlasiet aparatūras profilu, ko atlasījāt 2. darbībā.
-8.  Noklikšķiniet uz **Saglabāt**.
-9.  Noklikšķiniet uz **Mazumtirdzniecība** &gt; **Mazumtirdzniecības IT** &gt; **Sadales grafiks**.
-10. Atlasiet sadales grafiku **1090** un pēc tam noklikšķiniet uz **Izpildīt tūlīt**, lai veiktās izmaiņas sinhronizētu uz POS.
+### <a name="floating-till"></a>Mainīgs kases aparāts
+Maiņa “Mainīgs kases aparāts” — maiņu un naudas kasti var pārvietot no vienas kases sistēmas uz citu. Lai gan katrai kases sistēmas naudas kastei var būt tikai viena aktīva maiņa, maiņas var aizturēt un pēc tam vēlāk atsākt no citas kases sistēmas.
 
-### <a name="use-a-stand-alone-shift"></a>Lietot savrupu maiņu
+Piemēram, veikalam ir divas kases sistēmas. Katra kases sistēma tiek atvērta dienas sākumā, kad kasieris atver jaunu maiņu un norāda sākuma summu. Kad viens kasieris ir gatavs ņemt pārtraukumu, šis kasieris aptur savu maiņu un izņem naudas kasti no kases aparāta. Tagad šī kases sistēma ir pieejama citiem kasieriem. Cits kasieris var pierakstīties kases sistēmā un atvērt savu maiņu. Kad pirmā kasiera pārtraukums ir beidzies, šis kasieris var atsākt savu maiņu, kad kāda no citām kases sistēmām kļūst pieejama. Maiņām “Fiksēts kases aparāts” nav nepieciešama īpaša konfigurācija vai atļaujas.
 
-1.  Pierakstieties pārdošanas punktā (POS).
-2.  Ja nav atvērta neviena maiņa, atlasiet vienumu **Atvērt jaunu maiņu**.
-3.  Dodieties uz operāciju **Deklarēt sākuma summu** un norādiet naudas summu, kas kases aparātam tiek pievienota darba dienas sākumā.
-4.  Izpildiet kādas transakcijas.
-5.  Dienas beigās atlasiet vienumu **Norēķinu uzskaite**, lai deklarētu naudas kastē atlikušo naudas summu.
-6.  Ievadiet šo naudas summu un pēc tam noklikšķiniet uz **Saglabāt**, lai saglabātu norēķinu uzskaiti.
-7.  Atlasiet vienumu **Slēgt maiņu**, lai slēgtu šo maiņu.
+### <a name="single-user"></a>Viens lietotājs
+Daudzi mazumtirgotāji vienā maiņā pieļauj tikai tikai vienu lietotāju, lai nodrošinātu visaugstākā līmeņa atbildību par naudas kastē esošo skaidro naudu. Ja tikai vienam lietotājam ir atļauts izmantot kases aparātu, kas ir piesaistīts maiņai, šis lietotājs var būt vienpusēji atbildīgs par jebkādu iztrūkumu. Ja maiņu izmanto vairāki lietotāji, ir grūti noteikt, kurš no tiem pieļāva kļūdu vai kurš no tiem varētu mēģināt nozagt naudu no kases aparāta.
 
-**Piezīme.** Atkarībā no izmantotajiem biznesa procesiem maiņas laikā ir pieejamas citas operācijas. Operācijas **Noguldījums seifā**, **Noguldījums bankā** un **Norēķinu noņemšana** var izmantot, lai izņemtu naudu no kases aparāta dienas laikā vai pirms maiņas slēgšanas. Ja kases aparātā sāk pietrūkt skaidras naudas, varat izmantot operāciju **Mainīgais ieraksts**, lai kases aparātam pievienotu skaidru naudu.
+### <a name="multiple-users"></a>Vairāki lietotāji
+Daži mazumtirgotāji ir gatavi upurēt atbildību, ko nodrošina viena lietotāja maiņas līmenis, un atļauj izmantot maiņu vairākiem lietotājiem. Šāda pieeja visbiežāk tiek izmantota, ja lietotāju ir vairāk nekā pieejamo kases sistēmu un nepieciešamais elastīgums un ātrums atsver iespējamos zaudējumus. Parasti veikala vadītājiem nav savas maiņas. Kad tas ir nepieciešams, viņi var izmantot jebkuru no kasieru maiņām. Lai pierakstītos un izmantotu maiņu, ko atvērta cits lietotājs, šim lietotājam ir jābūt POS atļaujai **Atļaut pieteikšanos vairākās maiņās**.
 
-## <a name="shared-shifts"></a>Koplietotās maiņas
-Koplietotā maiņa tiek izmantota vidē, kur vairāki kasieri strādā pie vienas naudas kastes vai vairākām naudas kastēm visā darba dienas garumā. Parasti koplietotas maiņas tiek izmantotas mobilās POS vidēs. Mobilā vidē katrs kasieris nav norīkots pie vienas naudas kastes un nav atbildīgs par vienu naudas kasti. Tā vietā visiem kasieriem ir jāspēj iemaksāt par pārdošanu saņemto naudu un pievienot naudu tajā naudas kastē, kas atrodas tuvāk. Šādā scenārijā kasieru kopīgi lietotās naudas kastes tiek iekļautas koplietotā maiņā. Ar attiecīgās maiņas naudas pārvaldību saistīto aktivitāšu nolūkos visas šīs naudas kastes koplietotajā maiņā ir ietvertas vienā un tajā pašā maiņā. Tādēļ šādas maiņas sākuma summai ir jāietver visa naudas summa visās koplietotajā maiņā iekļautajās naudas kastēs. Līdzīgi arī norēķinu uzskaite ir visa naudas summa visās koplietotajā maiņā iekļautajās naudas kastēs. **Piezīme:** katrā veikalā vienlaicīgi var būt atvērta tikai viena koplietotā maiņa. Vienā veikala var lietot gan koplietotās maiņas, gan savrupās maiņas.
+### <a name="shared-shift"></a>Koplietota maiņa
+Maiņas "Koplietota maiņa" konfigurācija ļauj mazumtirgotājiem koplietot vienu maiņu vairākās kases sistēmās vai naudas kastēs un starp vairākiem lietotājiem. Koplietotai maiņai ir viena sākuma summa un beigu summa, kurā tiek apkopotas visu naudas kastu summas. Koplietotas maiņas ir īpaši piemērotas, ja tiek izmantotas mobilās ierīces. Šajā scenārijā atsevišķa naudas kaste nav rezervēta visām kases sistēmām. Tā vietā, visas kases sistēmas var koplietot vienu naudas kasti.
 
-### <a name="set-up-a-shared-shift"></a>Koplietotās maiņas iestatīšana
+Lai veikalā izmantotu koplietotas maiņas, sadaļā **Mazumtirdzniecība \> Kanāla iestatījumi \> POS iestatījumi \> POS profili \> Aparatūras profili \> Naudas kaste** naudas kastei jābūt konfigurētai kā “Koplietotas maiņas naudas kaste”. Turklāt lietotājiem ir jābūt vienai vai abām koplietojamas maiņas atļaujām (Atļaut pārvaldīt koplietoto maiņu un Atļaut lietot koplietoto maiņu).
 
-1.  Noklikšķiniet uz **Retail** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS profili** &gt; **Aparatūras profili**.
-2.  Atlasiet aparatūras profilu, kuru izmantot koplietotajai maiņai.
-3.  Kopsavilkuma cilnē **Naudas kaste** opciju **Koplietotās maiņas naudas kaste** iestatiet uz **Jā**.
-4.  Noklikšķiniet uz **Saglabāt**.
-5.  Noklikšķiniet uz **Mazumtirdzniecība** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **Reģistri**.
-6.  Atlasiet reģistru, kam ir nepieciešama koplietotā maiņa, un pēc tam noklikšķiniet uz **Rediģēt**.
-7.  Laukā **Aparatūras profils** atlasiet aparatūras profilu, ko atlasījāt 2. darbībā.
-8.  Noklikšķiniet uz **Saglabāt**.
-9.  Noklikšķiniet uz **Mazumtirdzniecība** &gt; **Mazumtirdzniecības IT** &gt; **Sadales grafiks**.
-10. Atlasiet sadales grafiku **1090** un pēc tam noklikšķiniet uz **Izpildīt tūlīt**, lai veiktās izmaiņas sinhronizētu uz POS.
+> [!NOTE]
+> Katrā veikalā vienlaicīgi var būt atvērta tikai viena koplietotā maiņa. Vienā veikala var lietot gan koplietotās maiņas, gan savrupās maiņas.
 
-### <a name="use-a-shared-shift"></a>Lietot koplietoto maiņu
+## <a name="shift-and-drawer-operations"></a>Naudas kastu un maiņu darbības
+Var veikt dažādas darbības, lai mainītu maiņas stāvokli vai palielinātu vai samazinātu naudas kastē esošo naudas summu. Šajā sadaļā ir aprakstītas šīs maiņas darbības programmās Microsoft Dynamics 365 for Retail Modern POS un Cloud POS.
 
-1.  Pierakstieties pārdošanas punktā (POS).
-2.  Ja šis POS vēl nav savienots ar aparatūras staciju, atlasiet vienumu **Operācija bez naudas kastes** un pēc tam atlasiet operāciju **Atlasīt aparatūras staciju**, lai šo aparatūras staciju aktivizētu koplietotajai maiņai. Šo darbību ir nepieciešams izpildīt tikai pirmajā reizē, kad reģistrs tiek pievienots koplietotās maiņas videi.
-3.  Izrakstieties no POS un pēc tam pierakstieties tajā atkal.
-4.  Atlasiet vienumu **Izveidot jaunu maiņu**.
-5.  Atlasiet vienumu **Deklarēt sākuma summu**.
-6.  Ievadiet sākuma summu visām šī veikala naudas kastēm, kas veido daļu no koplietotās maiņas, un pēc tam noklikšķiniet uz **Saglabāt**.
-    -   Lai katrai secīgajai naudas kastei pievienotu daļu no sākuma summas, izmantojiet operāciju **Atlasīt aparatūras staciju**, lai aktivizētu aparatūras staciju.
-    -   Lai kases aparātu pievienotu kādai konkrētai naudas kastei, izmantojiet operāciju **Atvērt naudas kasti**.
-    -   Turpiniet, līdz visām naudas kastēm koplietotajā maiņā ir to attiecīgā daļa no sākuma summas.
+### <a name="open-shift"></a>Atvērt maiņu
+POS ir prasība, ka lietotājiem ir jābūt aktīvai, atvērtai maiņai, lai varētu veikt jebkādas darbības, kas var izraisīt finanšu transakciju, piemēram, pārdošanu, atgriešanu vai debitora pasūtījumu.
 
-7.  Dienas beigās atveriet katru naudas kasti un izņemiet naudu.
-8.  Kad nauda ir izņemta no pēdējās naudas kastes, saskaitiet visu naudu no visām naudas kastēm.
-9.  Izmantojiet operāciju **Norēķinu uzskaite**, lai deklarētu kopējo naudas summu no visām koplietotajā maiņā iekļautajām naudas kastēm.
-10. Izmantojiet operāciju **Slēgt maiņu**, lai slēgtu koplietoto maiņu.
+Kad lietotājs pierakstās POS, sistēma vispirms pārbauda, vai pašreizējā kases sistēmā šim lietotājam ir pieejama aktīva maiņa. Ja aktīva maiņa nav pieejama, lietotājs var izvēlēties atvērt jaunu maiņu, turpināt esošu maiņu vai pierakstīties naudas kastes neizmantošanas režīmā atkarībā no sistēmas konfigurācijas un lietotāja atļaujām.
 
-## <a name="shift-operations"></a>Maiņas darbības
-Var veikt dažādas darbības, lai mainītu maiņas stāvokli vai palielinātu vai samazinātu naudas kastē esošo naudas summu. Tālāk esošajā sadaļā ir aprakstītas šīs maiņas darbības programmās Dynamics 365 for Retail Modern POS un Cloud POS.
+### <a name="declare-start-amount"></a>Deklarēt sākuma summu
+Šī darbība bieži vien ir pirmā, kas tiek veikta tikko atvērtā maiņā. Lai veiktu šo darbību, lietotāji norāda maiņas sākuma skaidras naudas summu naudas kastē. Šī darbība ir svarīga, jo šī sākuma summa tiek ņemta vērā pārpalikuma/iztrūkuma aprēķinā, kas tiek veikts maiņas slēgšanas procesā.
 
-**Atvērt maiņu**
+### <a name="float-entry"></a>Mainīgais ieraksts
+*Mainīgās ievades* ir ar pārdošanu nesaistītas transakcijas, kas tiek veiktas aktīvas maiņas laikā un palielina naudas kastē esošo summu. Izplatīts mainīgās ievades piemērs ir papildu sīknaudas ievietošana naudas kastē, kad trūkst sīknaudas.
 
-POS ir prasība, ka lietotājam ir jābūt aktīvai, atvērtai maiņai, lai viņš varētu veikt jebkādas darbības, kas var izraisīt finanšu transakciju, piemēram, pārdošanu, atgriešanu vai debitora pasūtījumu.  
+### <a name="tender-removal"></a>Norēķinu noņemšana
+*Norēķinu noņemšanas* ir ar pārdošanu nesaistītas transakcijas, kas tiek veiktas aktīvas maiņas laikā, lai samazinātu naudas kastē esošo summu. Tās visbiežāk tiek lietotas kopā ar mainīgās ievades darbību citā maiņā. Piemēram, 1. kases sistēmā trūkst sīknaudas, tāpēc 2. kases sistēmas lietotājs veic norēķinu noņemšanu, lai samazinātu naudas kastē esošo summu. 1. kases sistēmas lietotājs veic mainīgo ievadi, lai palielinātu summu savā naudas kastē.
 
-Piesakoties POS, sistēma vispirms pārbauda, vai lietotajam ir aktīva maiņa pašreizējā kases sistēmā. Ja tā nav, lietotājs var izvēlēties atvērt jaunu maiņu, turpināt esošu maiņu vai turpināt pieteikties naudas kastes neizmantošanas režīmā atkarībā no sistēmas konfigurācijas un lietotāja atļaujām.
-
-**Deklarēt sākuma summu**
-
-Šī darbība bieži vien ir pirmā, kas tiek veikta tikko atvērtā maiņā. Lietotāji norāda maiņas sākuma skaidras naudas summu naudas kastē. Tas ir svarīgi, jo šī summa tiek ņemta vērā, veicot pārpalikuma/iztrūkuma aprēķinu maiņas slēgšanas laikā.
-
-**mainīgā ievade;**
-
-Mainīgās ievades ir ar pārdošanu nesaistītas transakcijas, kas tiek veiktas aktīvas maiņas laikā un palielina naudas kastē esošo summu. Izplatīts mainīgās ievades piemērs ir papildu sīknaudas ievietošana naudas kastē, kad trūkst sīknaudas.
-
-**Norēķinu noņemšana**
-
-Norēķinu noņemšanas ir ar pārdošanu nesaistītas transakcijas, kas tiek veiktas aktīvas maiņas laikā, lai samazinātu naudas kastē esošo summu. Tās visbiežāk tiek lietotas kopā ar mainīgo ievadi citā maiņā. Piemēram, 1. kases sistēmā trūkst sīknaudas, tāpēc 2. kases sistēmas lietotājs veic norēķinu noņemšanu, lai samazinātu naudas kastē esošo summu. Pēc tam 1. kases sistēmas lietotājs veic mainīgo ievadi, lai palielinātu summu savā naudas kastē.
-
-**Maiņas pārtraukšana**
-
-Lietotāji var pārtraukt savu aktīvo maiņu, lai atbrīvotu pašreizējo kases sistēmu citam lietotājam vai pārvietotu savu maiņu uz citu kases sistēmu (tas bieži tiek saukts par darbu ar mainīgu kases aparātu). 
+### <a name="suspend-shift"></a>Maiņas pārtraukšana
+Lietotāji var pārtraukt savu aktīvo maiņu, lai atbrīvotu pašreizējo kases sistēmu citam lietotājam vai pārvietotu savu maiņu uz citu kases sistēmu (tādā gadījumā bieži šo procedūru dēvē par maiņu ar mainīgu kases aparātu).
 
 Pēc maiņas pārtraukšanas nevar veikt nekādas jaunas transakcijas vai izmaiņas, līdz maiņa tiek atsākta.
 
-**Atsākt maiņu**
-
+### <a name="resume-shift"></a>Atsākt maiņu
 Šī darbība sniedz lietotājam iespēju atsākt iepriekš apturētu maiņu kases sistēmā, kurā vēl nav aktīvas maiņas.
 
-**Norēķinu uzskaite**
+### <a name="tender-declaration"></a>Norēķinu uzskaite
+Šī darbība tiek veikta, lai norādītu kopējo naudas summu, kas pašlaik ir pieejama naudas kastē. Lietotāji šo darbību parasti veic pirms savas maiņas slēgšanas. Norādītā summa tiek salīdzināta ar paredzēto summu maiņas beigās, lai aprēķinātu pārpalikuma/iztrūkuma summu.
 
-Norēķinu uzskaite ir darbība, ko lietotājs veic, lai norādītu pašlaik naudas kastē esošo naudas kopsummu, un tā visbiežāk tiek veikta pirms maiņas slēgšanas. Tā ir vērtība, kas tiek salīdzināta ar paredzēto summu maiņas beigās, lai aprēķinātu pārpalikuma/iztrūkuma summu.
-
-**Noguldījums seifā**
-
+### <a name="safe-drop"></a>Noguldījums seifā
 Noguldījumus seifā var veikt jebkurā brīdī aktīvas maiņas laikā. Veicot šo darbību, nauda tiek izņemta no naudas kastes un pārvietota uz drošāku vietu, piemēram, uz seifu dibenistabā. Kopējā reģistrētā seifā noguldītā summa tiek ietverta maiņas kopsummā, taču nav jāietver norēķinu uzskaitē.
 
-**Noguldījums bankā**
-
+### <a name="bank-drop"></a>Noguldījums bankā
 Tāpat kā noguldījumi seifā, arī noguldījumi bankā tiek veikti aktīvu maiņu laikā. Veicot šo darbību, no maiņas summas tiek noņemta nauda, lai to sagatavotu noguldīšanai bankā.
 
-**Diskrēti slēgt maiņu**
+### <a name="blind-close-shift"></a>Diskrēti slēgt maiņu
+*Diskrēti slēgtās maiņas* vairs nav aktīvas, bet vēl nav pilnībā slēgtas. Atšķirībā no pārtrauktām maiņām, diskrēti slēgtās maiņas nevar atsākt. Tomēr tādas darbības kā Deklarēt sākuma summu un Norēķinu uzskaite var veikt vēlāk, arī vai no citas kases sistēmas.
 
-Diskrēti slēgta maiņa ir maiņa, kas vairs nav aktīva, taču nav pilnībā slēgta. Diskrēti slēgtās maiņas nevar atsākt kā apturētu maiņu, taču vēlāk vai citā kases sistēmā var veikt tādas darbības kā sākuma summu uzskaite un norēķinu uzskaite.
+Diskrēti slēgtās maiņas bieži tiek izmantotas, lai atbrīvotu kases sistēmu jaunam lietotājam vai maiņai, iepriekš neveicot šīs maiņas pilnīgu uzskaiti, saskaņošanu un slēgšanu.
 
-Diskrēti slēgtās maiņas bieži tiek izmantotas, lai atbrīvotu kases sistēmu jaunam lietotājam vai maiņai, iepriekš neveicot šīs maiņas pilnīgu uzskaiti, saskaņošanu un slēgšanu. 
+### <a name="close-shift"></a>Maiņas slēgšana
+Veicot šo darbību, tiek aprēķinātas maiņas kopsummas un pārpalikuma/iztrūkuma summas un pēc tam tiek pabeigta aktīva vai diskrēti slēgta maiņa. Atkarībā no lietotāja atļaujas, Z pārskats tiek drukāts arī maiņai. Slēgtās maiņas nevar atsākt vai izmainīt.
 
-**Maiņas slēgšana**
+### <a name="print-x"></a>Drukāt X
+Šī darbība izveido un izdrukā X pārskatu par pašreizējo aktīvo maiņu.
 
-Veicot šo darbību, tiek aprēķinātas maiņas kopsummas un pārpalikuma/iztrūkuma summas un pēc tam tiek pabeigta aktīva vai diskrēti slēgta maiņa. Slēgtās maiņas nevar atsākt vai izmainīt.  
+### <a name="reprint-z"></a>Atkārtoti drukāt Z
+Šī darbība atkārtoti drukā pēdējo Z pārskatu, ko sistēma ģenerēja, kad maiņa tika slēgta.
 
-**Pārvaldīt maiņas**
+### <a name="manage-shifts"></a>Pārvaldīt maiņas
+Šī darbība sniedz lietotājiem iespēju skatīt visas veikala aktīvās, apturētās un diskrēti slēgtās maiņas. Atkarībā no atļaujām lietotāji var veikt beigu slēgšanas darbības, piemēram, diskrēti slēgto maiņu norēķinu uzskaiti un maiņu slēgšanu. Šī darbība sniedz lietotājiem iesēju arī skatīt un dzēst nederīgās maiņas retos gadījumos, kad pēc bezsaistes un tiešsaistes režīmu pārslēgšanas maiņas stāvoklis ir kļuvis nederīgs. Šajās nederīgajās maiņās nav ietverta nekāda finanšu informācija vai transakciju dati, kas ir nepieciešami saskaņošanai.
 
-Šī darbība sniedz lietotājiem iespēju skatīt visas veikala aktīvās, apturētās un diskrēti slēgtās maiņas. Atkarībā no atļaujām lietotāji var veikt beigu slēgšanas darbības, piemēram, diskrēti slēgto maiņu norēķinu uzskaiti un maiņu slēgšanu. Šī darbība sniedz lietotājiem iesēju arī skatīt un dzēst nederīgās maiņas retos gadījumos, kad pēc bezsaistes un tiešsaistes režīmu pārslēgšanas maiņas stāvoklis ir kļuvis nederīgs. Šajās nederīgajās maiņās nav ietverta nekāda finanšu informācija vai transakciju dati, kas ir nepieciešami saskaņošanai. 
+## <a name="shift-and-drawer-permissions"></a>Naudas kastu un maiņu atļaujas
+Tālāk minētās POS atļaujas ietekmē to, kādas darbības lietotājam ir atļautas dažādās situācijās un kādas nav atļautas.
+
+- **Atļaut neskaidri slēgt maiņu**
+- **Atļaut X pārskatu drukāšanu**
+- **Atļaut Z pārskata drukāšanu**
+- **Atļaut norēķinu uzskaiti**
+- **Atļaut naudas plūsmas uzskaiti**
+- **Atvērt naudas kasti nepārdodot**
+- **Atļaut pieteikšanos vairākās maiņās** — ar šo atļauju lietotājs drīkst pierakstīties un izmantot maiņu, ko atvērta cits lietotājs. Lietotāji, kuriem nav šīs atļaujas, var pierakstīties un izmantot tikai savas atvērtās maiņas.
+- **Atļaut pārvaldīt koplietoto maiņu** — lietotājiem jābūt šai atļaujai, lai atvērtu vai slēgtu koplietoto maiņu.
+- **Atļaut lietot koplietoto maiņu** — lietotājiem jābūt šai atļaujai, lai pierakstītos un lietotu koplietoto maiņu.
+
+## <a name="back-office-end-of-day-considerations"></a>Operāciju uzskaites daļas darbības dienas beigās
+Veids, kā maiņu un naudas kastu dati tiek saskaņoti POS sistēmā un kā darbību dati tiek apkopoti izraksta aprēķināšanas laikā, ir atšķirīgs. Ir svarīgi izprast visas atšķirības. Atkarībā no sistēmas konfigurācijas un biznesa procesiem, POS maiņu dati (Z pārskatu) un operāciju uzskaites daļas aprēķinātā izraksta dati var atšķirties. Šī atšķirība nenozīmē, ka maiņu datus vai aprēķinātā izraksta dati nav pareizi, vai arī, ka radusies problēma ar datiem. Tas nozīmē, ka parametros, kas tika sniegti, varētu būt iekļautas vairāk vai mazāk darbības, vai arī darbības tika atšķirīgi apkopotas.
+
+Lai gan katram mazumtirgotājam ir atšķirīgas biznesa prasības, ieteicams iestatīt sistēmu, kā aprakstīts tālāk, lai izvairītos no situācijām, kad rodas šāda veida atšķirības.
+
+Dodieties uz **Mazumtirdzniecība \> Kanāli \> Mazumtirdzniecības veikali \> Visi mazumtirdzniecības veikali \> Izraksts/slēgšana** un katram veikalam laukam **Izraksta metode** un **Slēguma metode** iestatiet **Maiņa**.
+
+Šāds iestatījums nodrošinās, ka operāciju uzskaites daļas pārskati ietver tās pašas darbības, kas ietvertas POS maiņās, un dati tiek apkopoti pēc attiecīgās maiņas.
+
+Plašāku informāciju par izrakstu un slēgšanas metodēm skatiet tēmā [Veikalu konfigurācijas mazumtirdzniecības izrakstiem](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
 

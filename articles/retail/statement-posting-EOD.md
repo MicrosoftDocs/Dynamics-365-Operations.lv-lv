@@ -17,10 +17,10 @@ ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 86b301833f3655f7172e2d38ddca4239be71760c
-ms.openlocfilehash: bcb4af426e5967643a1c438bb19495576ce51b63
+ms.sourcegitcommit: 4961ee7fcc56af0646e421c9e040e2129cc322c4
+ms.openlocfilehash: e6d6ede65764c0b35c9ce0985af0d9f2cd6653c0
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/12/2018
 
 ---
 
@@ -58,6 +58,8 @@ Kā daļa no izrakstu grāmatošanas līdzekļa uzlabojumiem lapas **Mazumtirdzn
 - **Atspējot nepieciešamo uzskaiti** — kad šī opcija ir iestatīta uz **Jā**, grāmatošanas process izrakstam turpinās pat tad, ja starpība starp aprēķināto summu un transakcijas summu izrakstā ir ārpus sliekšņa vērtības, kas mazumtirdzniecības veikaliem ir definēta kopsavilkuma cilnē **Izraksts**.
 
 Turklāt kopsavilkuma cilnē **Pakešapstrāde** ir ieviests lauks **Maksimālais paralēli grāmatojamo izrakstu skaits**. Šis lauks nosaka vienlaikus pildāmo pakešuzdevumu skaitu. Pašlaik šī lauka vērtība jums ir jāiestata manuāli.
+
+Turklāt ar jaunu grāmatošanas procesu, ir nepieciešams definēt **dāvanu kartes preci** kopsavilkuma cilnē **Dāvanu karte** (pieejama cilnē **Grāmatošana**, kas pieejama lapā **Mazumtirdzniecības parametri**). Šis nosacījums ir spēkā, pat ja organizācija neizmanto dāvanu kartes. 
 
 Ņemiet vērā, ka visi iestatījumi un parametri, kas ir saistīti ar izrakstu grāmatojumiem un kas ir definēti mazumtirdzniecības veikaliem un lapā **Mazumtirdzniecības parametri**, ir lietojami uzlabotajam izrakstu grāmatošanas līdzeklim.
 

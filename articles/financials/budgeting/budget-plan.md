@@ -1,16 +1,16 @@
 ---
 title: "Budžeta plānošana"
-description: "Šī uzdevuma mērķis ir sniegt vadītu ieskatu par Microsoft Dynamics 365 for Finance and Operations funkcionalitātes atjauninājumus apgabalā Budžeta plānošana. Šī uzdevuma nolūks ir ilustrēt budžeta plānošanas moduļa ātras konfigurēšanas piemēru un demonstrēt, kā var paveikt budžeta plānošanu, izmantojot šo konfigurāciju.  Šajā uzdevumā galvenā uzmanība ir pievērsta tālāk uzskaitītajiem biznesa procesiem vai uzdevumiem. -    - Organizācijas hierarhijas izveidošana budžeta plānošanai un lietotāju drošības konfigurēšanai   - Budžeta plāna scenāriju, budžeta plāna kolonnu, izkārtojumu un Excel veidņu definēšana   - Budžeta plānošanas procesa izveidošana un aktivizēšana   - Budžeta plāna dokumenta izveidošana, izgūstot faktiskos datus no virsgrāmatas   - Sadalījumu izmantošana, lai koriģētu budžeta plāna dokumenta datus   - Budžeta plāna dokumenta datu rediģēšana programmā Excel"
-author: twheeloc
+description: "Šī uzdevuma mērķis ir sniegt vadītu ieskatu par Microsoft Dynamics 365 for Finance and Operations funkcionalitātes atjauninājumus apgabalā Budžeta plānošana. Šī uzdevuma nolūks ir ilustrēt budžeta plānošanas moduļa ātras konfigurēšanas piemēru un demonstrēt, kā var paveikt budžeta plānošanu, izmantojot šo konfigurāciju."
+author: ShylaThompson
 manager: AnnBe
-ms.date: 01/12/2018
+ms.date: 06/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 10763
 ms.assetid: 0f2ba752-1f6d-4f28-b9e9-b2e97d10b6d1
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 59781da7681ece1c0c013f59e0d1a5d7efc51c3a
+ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
+ms.openlocfilehash: ac2e98dbbd45becf06e28b6ea4eb9d0ec15e30f6
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -30,7 +30,13 @@ ms.lasthandoff: 03/26/2018
 
 [!include [banner](../includes/banner.md)]
 
-Šī uzdevuma mērķis ir sniegt vadītu ieskatu par Microsoft Dynamics 365 for Finance and Operations funkcionalitātes atjauninājumus apgabalā Budžeta plānošana. Šī uzdevuma nolūks ir ilustrēt budžeta plānošanas moduļa ātras konfigurēšanas piemēru un demonstrēt, kā var paveikt budžeta plānošanu, izmantojot šo konfigurāciju.  Šajā uzdevumā galvenā uzmanība ir pievērsta tālāk uzskaitītajiem biznesa procesiem vai uzdevumiem. -    - Organizācijas hierarhijas izveidošana budžeta plānošanai un lietotāju drošības konfigurēšanai   - Budžeta plāna scenāriju, budžeta plāna kolonnu, izkārtojumu un Excel veidņu definēšana   - Budžeta plānošanas procesa izveidošana un aktivizēšana   - Budžeta plāna dokumenta izveidošana, izgūstot faktiskos datus no virsgrāmatas   - Sadalījumu izmantošana, lai koriģētu budžeta plāna dokumenta datus   - Budžeta plāna dokumenta datu rediģēšana programmā Excel 
+Šī uzdevuma mērķis ir sniegt vadītu ieskatu par Microsoft Dynamics 365 for Finance and Operations funkcionalitātes atjauninājumus apgabalā Budžeta plānošana. Šī uzdevuma nolūks ir ilustrēt budžeta plānošanas moduļa ātras konfigurēšanas piemēru un demonstrēt, kā var paveikt budžeta plānošanu, izmantojot šo konfigurāciju.  Šajā uzdevumā īpaša uzmanība tiks pievērsta šādiem biznesa procesiem vai uzdevumiem:
+- Budžeta plānošanas organizācijas hierarhijas izveide un lietotāja drošības konfigurēšana
+- Budžeta plāna scenāriju, budžeta plāna kolonnu, izkārtojumu un Excel veidņu definēšana
+- Budžeta plānošanas procesa izveide un aktivizēšana
+- Budžeta plāna dokumentu izveide, ievelkot reālos datus no Virsgrāmatas
+- Sadalījumu izmantošana, pielāgojot budžeta plāna dokumenta datus
+- Budžeta plāna dokumentu datu rediģēšana programmā Excel 
 
 <a name="prerequisites"></a>Priekšnosacījumi 
 ------------------
@@ -104,8 +110,6 @@ Budžeta plānošanas procesā izmanto īpašas drošības politikas, lai konfig
 2.5. Atlasiet Atsevišķi piešķirt piekļuvi noteiktām organizācijām. Atlasiet organizācijas hierarhiju, ko izveidojāt pirmās darbības laikā. Atlasiet zaru Finanses un noklikšķiniet uz pogas Piešķirt ar apakšelementiem 
 
 ***Svarīgi!*** *Veicot šo uzdevumu, pārliecinieties, ka ir atlasīts DEMF juridiskās personas konteksts, jo organizācijas drošība tiek lietota atkarībā no juridiskajās personas* 
-
-[![Piešķirt piekļuvi](./media/screenshot14.png)](./media/screenshot14.png)
 
 ### <a name="task-3-create-scenarios"></a>3. uzdevums. Scenāriju izveide
 3.1. Pārejiet uz Budžeta veidošana&gt;Iestatīšana &gt; Budžeta plānošana &gt; Budžeta plānošanas konfigurācija. Lapā Scenāriji pārskatiet scenārijus, ko izmantosim tālāk šajā uzdevumā: Iepriekšējā gada faktiskās izmaksas un Budžeta. 

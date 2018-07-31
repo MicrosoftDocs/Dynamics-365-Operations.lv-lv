@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 404f7d2b050aba1532cae0955a9579e1c2f174e3
+ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
+ms.openlocfilehash: 46c8ecf8a6988c32d0202c631bef6901f467bb89
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -80,17 +80,37 @@ Varat izmantot prognozēšanu, ja jūsu organizācijai ir operatīva perspektīv
 ### <a name="create-projects"></a>Izveidot projektus
 
 Programmatūrā Microsoft Finance and Operations varat izveidot sešu tipu projektus. Katram projekta veidam tiek lietoti atšķirīgi izmaksu un ieņēmumu atzīšanas iestatījumi. Projekta tipa izvēle ir atkarīga no šī projekta mērķa. Nākamajā tabulā ir aprakstīts katra projekta tipa tipiskais lietojums.
-
-                                                                                                                                                                         |
-
-| Projekta veids      | Apraksts                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Laiks un materiāli | Laika un materiālu projektos debitoram tiek izrakstīts rēķins par visām projektā radītajām izmaksām. Šajās izmaksās ir ietvertas izmaksas par stundām, izdevumi, krājumi un papildmaksas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Fiksēta cena       | Fiksētas cenas projektos rēķini sastāv no starpkontu transakcijām. Fiksētas cenas projekta rēķini tiek izrakstīti saskaņā ar norēķinu grafiku, kas ir izstrādāts, pamatojoties uz projekta līgumu. Ieņēmumus par fiksētas cenas projektu var aprēķināt un iegrāmatot visā projekta laikā, izmantojot metodi Pabeigtā daļa procentos. Vai arī ieņēmumus var aprēķināt un iegrāmatot pēc projekta pabeigšanas, izmantojot pabeigtā līguma metodi. Bieži vien uzņēmumiem ir izdevīgi izmantot nepabeigtās ražošanas (NP) vērtību, lai aprēķinātu projekta vai projektu grupas pabeigtības pakāpi.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Investīcijas        | Investīciju projekti ir projekti, kas nesniedz tūlītējus ienākumus. Parasti tie tiek izmantoti ilgtermiņa iekšējiem projektiem, kuros ir jāveic izmaksu kapitalizēšana. Investīciju projektam var ierakstīt tikai preču izmaksas, stundas un izdevumus. Investīciju projekta izmaksas tiek izsekotas un kontrolētas, izmantojot novērtēšanas funkciju. Investīciju projektus var iestatīt ar neobligātu maksimālo kapitalizāciju. Investīciju projekta norises gaitā tā izmaksas jūs ierakstāt NP kontos, kur šīs izmaksas tiek glabātas līdz brīdim, kad projekts ir pabeigts. Kad projekts tiek likvidēts, NP vērtību jūs pārsūtāt uz pamatlīdzekli, virsgrāmatas kontu vai jaunu projektu. Piezīme. Investīciju projektu transakcijas netiek rādītas lapā **Grāmatot izmaksas**, **Uzkrāt ieņēmumus** vai **Veidot rēķinu priekšlikumus**.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Izmaksu projekts      | Tāpat kā investīciju projekti, arī izmaksu projekti parasti tiek izmantoti, lai izsekotu iekšējiem projektiem, un tiem var ierakstīt tikai stundas, izdevumus un krājumus. Tomēr izmaksu projektu ilgums parasti ir īsāks par investīciju projektu ilgumu. Turklāt atšķirībā no investīciju projektiem izmaksu projektus nevar kapitalizēt bilances kontos. To projektu darījumi tiek grāmatoti tikai peļņas un zaudējumu kontos. **PIEZĪME.** Izmaksu projektu transakcijas netiek rādītas lapā **Grāmatot izmaksas**, **Uzkrāt ieņēmumus** vai **Izveidot rēķinu priekšlikumus**. Tā kā izmaksu projekti parasti tiek izmantoti, lai izsekotu iekšējiem projektiem, tiem parasti nav jābūt saistītiem ar debitora kontu. Tomēr, ja jūsu iestatījums nosaka, ka pirkšanas pasūtījumiem var izveidot krājumu vajadzības, izmaksu projekts ir jāsaista ar debitoru. Šī saistība ir nepieciešama, jo krājumu vajadzības tiek pārvaldītas kā pārdošanas pasūtījuma rindas, un sistēma pieprasa, lai būtu norādīts debitors. Tomēr šis iestatījums nenozīmē, ka krājumu vajadzības no pirkšanas pasūtījuma tiks izveidotas automātiski. Izmaksu projektiem iestatījums **Izveidot krājuma vajadzības** tiek ignorēts. Ja izmaksu projektā ir nepieciešama krājumu vajadzība, varat tādu izveidot manuāli, ja vien ar šo projektu ir saistīts kāds debitors. |
-| Iekšēji          | Iekšējie projekti tiek izmantoti, lai izsekotu izmaksas jūsu organizācijas iekšējam projektam. Iekšējie projekti var nodrošināt plānošanas rīku resursu patēriņa pārvaldībai. **Piezīme.** Iekšējo projektu transakcijas nav atainotas lapā **Uzkrāt ieņēmumus** vai **Izveidot rēķinu priekšlikumus**.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Laiks              | Laika projekti tiek izmantoti, lai sekotu līdzi laikam, kurš ir saistīts ar rēķinā neiekļaujamām un ar ražošanu nesaistītām aktivitātēm, piemēram, projektam ar mērķi sekot līdzi darbinieku slimības laikam. Laika projektu darījumi netiek grāmatoti virsgrāmatā. Tā vietā tie tiek iekļauti darbinieku nodarbināšanas pārskatos. Laika projektos var ierakstīt vienīgi stundu darījumus. Lai šīs stundas reģistrētu žurnālā, ir jāizmanto stundu žurnāls vai darba laika uzskaites tabula. Pēc stundu reģistrēšanas tās tiek parādītas kā projekta transakcijas, taču tām nav atbilstošo dokumentu transakciju. **Piezīme.** Laika projektu transakcijas netiek rādītas lapā **Grāmatot izmaksas**, **Uzkrāt ieņēmumus** vai **Izveidot rēķinu priekšlikumus**.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+                                                                                                            
+<table>
+  <tr>
+    <td>Projekta veids</th>
+    <td>Apraksts</th>
+  </tr>
+  <tr>
+    <td>Laiks un materiāli</td>
+    <td>Laika un materiālu projektos debitoram tiek izrakstīts rēķins par visām projektā radītajām izmaksām. Šajās izmaksās ir ietvertas izmaksas par stundām, izdevumi, krājumi un papildmaksas.</td>
+  </tr>
+  <tr>
+    <td>Fiksēta cena</td>
+    <td>Fiksētas cenas projektos rēķini sastāv no starpkontu transakcijām. Fiksētas cenas projekta rēķini tiek izrakstīti saskaņā ar norēķinu grafiku, kas ir izstrādāts, pamatojoties uz projekta līgumu. Ieņēmumus par fiksētas cenas projektu var aprēķināt un iegrāmatot visā projekta laikā, izmantojot metodi Pabeigtā daļa procentos. Vai arī ieņēmumus var aprēķināt un iegrāmatot pēc projekta pabeigšanas, izmantojot pabeigtā līguma metodi. Bieži vien uzņēmumiem ir izdevīgi izmantot nepabeigtās ražošanas (NP) vērtību, lai aprēķinātu projekta vai projektu grupas pabeigtības pakāpi.</td>
+  </tr>
+  <tr>
+    <td>Investīcijas</td>
+    <td>Investīciju projekti ir projekti, kas nesniedz tūlītējus ienākumus. Parasti tie tiek izmantoti ilgtermiņa iekšējiem projektiem, kuros ir jāveic izmaksu kapitalizēšana. Investīciju projektam var ierakstīt tikai preču izmaksas, stundas un izdevumus. Investīciju projekta izmaksas tiek izsekotas un kontrolētas, izmantojot novērtēšanas funkciju. Investīciju projektus var iestatīt ar neobligātu maksimālo kapitalizāciju. Investīciju projekta norises gaitā tā izmaksas jūs ierakstāt NP kontos, kur šīs izmaksas tiek glabātas līdz brīdim, kad projekts ir pabeigts. Kad projekts tiek likvidēts, NP vērtību jūs pārsūtāt uz pamatlīdzekli, virsgrāmatas kontu vai jaunu projektu. <br></br> <strong>PIEZĪME.</strong> Investīciju projekta transakcijas netiek rādītas lapā <strong>Grāmatot izmaksas<strong>, <strong>Uzkrāt ieņēmumus</strong> vai <strong>Veidot rēķinu priekšlikumus</strong>.</td>
+  </tr>
+  <tr>
+    <td>Izmaksu projekts</td>
+    <td>Tāpat kā investīciju projekti, arī izmaksu projekti parasti tiek izmantoti, lai izsekotu iekšējiem projektiem, un tiem var ierakstīt tikai stundas, izdevumus un krājumus. Tomēr izmaksu projektu ilgums parasti ir īsāks par investīciju projektu ilgumu. Turklāt atšķirībā no investīciju projektiem izmaksu projektus nevar kapitalizēt bilances kontos. To projektu darījumi tiek grāmatoti tikai peļņas un zaudējumu kontos. <br></br> <strong>PIEZĪME.</strong> Izmaksu projektu transakcijas netiek rādītas lapā <strong>Grāmatot izmaksas</strong>, <strong>Uzkrāt ieņēmumus</strong> vai <strong>Izveidot rēķinu priekšlikumus</strong>. Tā kā izmaksu projekti parasti tiek izmantoti, lai izsekotu iekšējiem projektiem, tiem parasti nav jābūt saistītiem ar debitora kontu. Tomēr, ja jūsu iestatījums nosaka, ka pirkšanas pasūtījumiem var izveidot krājumu vajadzības, izmaksu projekts ir jāsaista ar debitoru. Šī saistība ir nepieciešama, jo krājumu vajadzības tiek pārvaldītas kā pārdošanas pasūtījuma rindas, un sistēma pieprasa, lai būtu norādīts debitors. Tomēr šis iestatījums nenozīmē, ka krājumu vajadzības no pirkšanas pasūtījuma tiks izveidotas automātiski. Izmaksu projektiem iestatījums <strong>Izveidot krājuma vajadzības</strong> tiek ignorēts. Ja izmaksu projektā ir nepieciešama krājumu vajadzība, varat tādu izveidot manuāli, ja vien ar šo projektu ir saistīts kāds debitors.</td>
+  </tr>
+  <tr>
+    <td>Iekšēji</td>
+    <td>Iekšējie projekti tiek izmantoti, lai izsekotu izmaksas jūsu organizācijas iekšējam projektam. Iekšējie projekti var nodrošināt plānošanas rīku resursu patēriņa pārvaldībai. <br></br><strong>PIEZĪME.<strong> Iekšējo projektu transakcijas nav atainotas lapā <strong>Uzkrāt ieņēmumus</strong> vai <strong>Izveidot rēķinu priekšlikumus</strong>.</td>
+  </tr>
+  <tr>
+    <td>Laiks</td>
+    <td>Laika projekti tiek izmantoti, lai sekotu līdzi laikam, kurš ir saistīts ar rēķinā neiekļaujamām un ar ražošanu nesaistītām aktivitātēm, piemēram, projektam ar mērķi sekot līdzi darbinieku slimības laikam. Laika projektu darījumi netiek grāmatoti virsgrāmatā. Tā vietā tie tiek iekļauti darbinieku nodarbināšanas pārskatos. Laika projektos var ierakstīt vienīgi stundu darījumus. Lai šīs stundas reģistrētu žurnālā, ir jāizmanto stundu žurnāls vai darba laika uzskaites tabula. Pēc stundu reģistrēšanas tās tiek parādītas kā projekta transakcijas, taču tām nav atbilstošo dokumentu transakciju. <br></br><strong>PIEZĪME.</strong> Laika projektu transakcijas nav atainotas lapā <strong>Grāmatot izmaksas</strong>, <strong>Uzkrāt ieņēmumus</strong> vai <strong>Izveidot rēķinu priekšlikumus</strong>.</td>
+  </tr>
+</table>
 
 
 ### <a name="assign-workers-categories-and-resources"></a>Darbinieku, kategoriju un resursu piešķiršana
@@ -239,11 +259,12 @@ Veidojot novērtējumu, varat izvēlēties metodi, kas tiek izmantota, lai aprē
 <li>Salīdziniet budžeta darbības ar faktiskajām darbībām.</li>
 <li>Saglabājiet tādus pašus, samaziniet vai palieliniet novērtējumus nākamajam periodam.</li>
 </ol>
-Programmatūrā Finance and Operations netiek automātiski samazināts prognozētais budžets. Tādēļ ieteicams saglabāt sākotnējo budžeta modeli fiksētas cenas projektam, lai izveidotu bāzlīniju salīdzināšanai, kad projekts ir pabeigts. &gt; [!NOTE] &gt; Ja izvēlaties šo metodi, izmantojiet vismaz divus budžeta modeļus. Vienā modelī jābūt ietvertai sākotnējai prognozei. Otrā modelī ir jāiekopē budžeta darbības no cita modeļā. Šī metode ir derīga tikai fiksētas cenas un investīciju projektiem.</td>
+Programmatūrā Finance and Operations netiek automātiski samazināts prognozētais budžets. Tādēļ ieteicams saglabāt sākotnējo budžeta modeli fiksētas cenas projektam, lai izveidotu bāzlīniju salīdzināšanai, kad projekts ir pabeigts. 
+<br></br> <strong>PIEZĪME.</strong> Ja izvēlaties šo metodi, izmantojiet vismaz divus budžeta modeļus. Vienā modelī jābūt ietvertai sākotnējai prognozei. Otrā modelī ir jāiekopē budžeta darbības no cita modeļā. Šī metode ir derīga tikai fiksētas cenas un investīciju projektiem.</td>
 </tr>
 <tr class="odd">
 <td>Atlikušais budžets</td>
-<td>Šai metodei tiek izmantots atlikušā budžeta modelis, lai aprēķinātu projekta pabeigšanas izmaksas. Izmantojot šo metodi, faktiskās izmaksas un prognozētās summas atlikušā budžeta modelī tiek saskaitītas. Rezultāts ir kopējās izmaksas. Pirms šīs metodes izmantošanas ir jāiestata atlikušā budžeta modelis, lai atskaitītu transakcijas, pamatojoties uz faktiskajām transakcijām, kas ir reģistrētas sistēmā. Lapā <strong>Budžeta modeļi</strong> pārliecinieties, ka ir atzīmēti lauki grupā <strong>Automātiskā prognozes samazināšana</strong>. Parasti atlikušais budžets tiek kopēts no sākotnējā budžeta. Ievadot darbības, atlikušā budžeta darbības tiek samazinātas. Projekta norises gaitā, ja konstatējat, ka atlikušais budžets ir jāpielāgo, budžeta darbības tiek veiktas atlikušajā budžetā. <strong>Piezīme.</strong> Šo metodi var lietot tikai tad, ja novērtējumam ir pievienots budžeta modelis.</td>
+<td>Šai metodei tiek izmantots atlikušā budžeta modelis, lai aprēķinātu projekta pabeigšanas izmaksas. Izmantojot šo metodi, faktiskās izmaksas un prognozētās summas atlikušā budžeta modelī tiek saskaitītas. Rezultāts ir kopējās izmaksas. Pirms šīs metodes izmantošanas ir jāiestata atlikušā budžeta modelis, lai atskaitītu transakcijas, pamatojoties uz faktiskajām transakcijām, kas ir reģistrētas sistēmā. Lapā <strong>Budžeta modeļi</strong> pārliecinieties, ka ir atzīmēti lauki grupā <strong>Automātiskā prognozes samazināšana</strong>. Parasti atlikušais budžets tiek kopēts no sākotnējā budžeta. Ievadot darbības, atlikušā budžeta darbības tiek samazinātas. Projekta norises gaitā, ja konstatējat, ka atlikušais budžets ir jāpielāgo, budžeta darbības tiek veiktas atlikušajā budžetā. <br></br> <strong>PIEZĪME.</strong> Šo metodi var lietot, ja budžetam ir pievienots budžeta modelis.</td>
 </tr>
 <tr class="even">
 <td>Iepriekšējais novērtējums</td>
@@ -318,11 +339,19 @@ Izmaksu apmaksas datums netiek aprēķināts bufera dienās. Pēc projekta pabei
 
 Kad pārdošanas un kreditoru rēķini ir slēgti, varat apskatīt attiecības starp laukiem lapā **Naudas plūsma** un laukiem lapā **Projekta pārskati**.
 
-| Lapa Naudas plūsma | Lapa Projekta pārskati |
-|----------------|-------------------------|
-| Kases ieņēmumi   | Ieņēmumi                 |
-| Kases izdevumi  | Izmaksu kopsumma              |
-| Tīrā naudas plūsma | Bruto peļņa            |
+:::row::: :::column:::
+        #### Cash flow page
+        - Cash inflows 
+        - Cash outflows
+        - Net cash flows
+    :::column-end:::
+    :::column:::
+        #### Project statements page
+        - Revenue
+        - Total cost
+        - Gross margin
+    :::column-end:::
+:::row-end:::
 
 ### <a name="review-costs"></a>Izmaksu pārskatīšana
 
@@ -409,8 +438,4 @@ Pēc tam, kad ir veikts pārskata aprēķins, lapas **Projekta pārskati** daž�
 -   **Patēriņš** — informāciju par stundu, krājumu, izdevumu un algas darbību patēriņu.
 -   **Rēķins** — informācija par rēķiniem un starpkontu rēķinu izrakstīšanu.
 -   **Stundas likme** — stundu likmes stundām, kas grāmatotas ieņēmumu un izmaksu kontos.
-
-
-
-
 
