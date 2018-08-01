@@ -3,7 +3,7 @@ title: "Programmā Finance and Operations ietverto preču tieša sinhronizēšan
 description: "Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Finance and Operations ietverto preču sinhronizēšanai ar programmu Microsoft Dynamics 365 for Sales"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 06/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3ae50372edcd473f2288f8172b71eac33e24b636
+ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
+ms.openlocfilehash: 66506953790fd77c2105591d3211c76991eced08
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -78,7 +78,8 @@ Lauks **Tiek uzturēts ārēji** palīdz nodrošināt, ka ar programmu Finance a
 Ārēji uzturētās preces tiek automātiski pievienotas pirmajam derīgajam cenrādim tajā pašā valūtā. Cenrāži ir sakārtoti alfabēta secībā pēc nosaukuma. Kā cena cenrādī tiek izmantota preces pārdošanas cena no programmas Finance and Operations. Tāpēc programmā Sales ir jābūt cenrādim atbilstoši katrai preču pārdošanas valūtai programmā Finance and Operations. Kā izlaisto pārdodamo preču valūta tiek iestatīta tās juridiskās personas uzskaites valūta, no kurienes šī prece ir eksportēta.
 
 > [!NOTE]
-> Preces sinhronizācija neizdosies, ja vien nebūs pieejams cenrādis atbilstošajā valūta.
+> - Preces sinhronizācija neizdosies, ja vien nebūs pieejams cenrādis atbilstošajā valūta.
+> - Varat kontrolēt izmantoto cenrādi ar integrāciju, datu integrācijas projektā kartējot elementu pricelevelid.name [noklusējuma cenrādis (nosaukums)]. Ievadē jāizmanto tikai mazie burti. Piemēram, sadaļā Pārdošana cenrāža ar nosaukumu “Standarta” noklusējuma vērtība būtu šāda: mērķa lauks: pricelevelid.name [noklusējuma cenrādis (nosaukums)] un kartes veids: [ { "transformType": "Default", "defaultValue": "standard" } ].
 
 ## <a name="preconditions-and-mapping-setup"></a>Priekšnosacījumi un kartējuma iestatījums
 
