@@ -3,7 +3,7 @@ title: "Brīva teksta rēķina veidnes izveide"
 description: "Šajā procedūrā ir paskaidrots, kā izveidot brīva teksta rēķina veidni."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 05/29/2019
+ms.date: 05/29/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
