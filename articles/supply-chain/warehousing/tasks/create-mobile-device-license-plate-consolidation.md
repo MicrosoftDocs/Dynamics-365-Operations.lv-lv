@@ -1,7 +1,7 @@
 --- 
 title: "Mobilās ierīces izvēlnes vienuma izveide, lai saņemtu numura zīmes konsolidāciju"
 description: "Šajā procedūrā parādīts kā izveidot mobilās ierīces izvēlnes vienumu, lai saņemtu noliktavas vienības konsolidāciju."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 10/13/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,10 +17,10 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 107f3dc015e0de49ea0e61cea9a0aa0c22d39b2b
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: a05efffcd393329000394027a1ef26d1b019e7ae
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="create-a-mobile-device-menu-item-for-license-plate-consolidation"></a><span data-ttu-id="a0bda-103">Mobilās ierīces izvēlnes vienuma izveide, lai saņemtu numura zīmes konsolidāciju</span><span class="sxs-lookup"><span data-stu-id="a0bda-103">Create a mobile device menu item for license plate consolidation</span></span>

@@ -1,7 +1,7 @@
 --- 
 title: "Preču modeļa komponentu izveide"
 description: "Ierobežojumam atbilstošos preces konfigurācijas modeļos komponenti tiek izmantoti kā veidošanas bloki, lai noteiktu preces modeļa struktūru."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 03/02/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 4703af07ac704002335dce422d0cc93f7257eb45
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 33b9131c4608b1d6cc709e822310a5eb81a3e3a9
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="create-product-model-components"></a><span data-ttu-id="dc0d2-103">Preču modeļa komponentu izveide</span><span class="sxs-lookup"><span data-stu-id="dc0d2-103">Create product model components</span></span>
