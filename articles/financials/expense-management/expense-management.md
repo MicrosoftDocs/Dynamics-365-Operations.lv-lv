@@ -1,7 +1,7 @@
 ---
 title: "Izmaksu pārvaldība"
 description: "Izmantojiet līdzekli Izdevumu pārvaldība, lai izveidotu integrētu darbplūsmu, kurā varat glabāt informāciju par maksājuma metodēm, importēt kredītkaršu transakcijas un sekot līdzi naudai, ko tērē darbinieki, kad izraisa zaudējumus jūsu biznesam."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
@@ -10,12 +10,12 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 15001
 ms.assetid: 2d97d69b-9c08-4f0d-9637-68759fd34d34
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT

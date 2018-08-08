@@ -1,7 +1,7 @@
 ---
 title: "Virsgrāmatas žurnālu tipi"
 description: "Šajā rakstā ir aprakstīti žurnālu tipi, ko var iestatīt finanšu žurnāliem. Izmantojiet lapu **Žurnālu nosaukumi**, lai iestatītu žurnālus, ko varat izmantot visā programmā Microsoft Dynamics 365 for Finance and Operations."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalSetup
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 15631
 ms.assetid: 81613b31-bc3c-43a0-8474-e01c9a482c40
