@@ -1,7 +1,7 @@
 ---
 title: "Integrācija pakalpojumu līgumiem un projektiem"
 description: "Kad jūs strādājat ar pakalpojumu līgumiem un pakalpojumu līgumu rindām, jūs lietojat datus, kas ir iestatīti sadaļas Projektu pārvaldība un uzskaite apgabalos."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
@@ -10,12 +10,12 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProjParameters
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
-ms.author: YuyuScheller
+ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT

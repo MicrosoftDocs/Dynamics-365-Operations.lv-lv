@@ -1,7 +1,7 @@
 ---
 title: "Power BI saturs Izmaksu pārvaldība"
 description: "Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI saturā Izmaksu pārvaldība."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 270314
 ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT

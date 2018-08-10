@@ -1,7 +1,7 @@
 ---
 title: "Iegūt līdzekļus, izmantojot sagādi"
 description: "Šajā tēmā ir aprakstīts, kā iestatīt lauku Pamatlīdzekļi un Kreditori integrāciju, lai automātiski izveidotu pamatlīdzekļus no pirkšanas pasūtījumiem vai kreditora rēķiniem vai automātiski grāmatotu pamatlīdzekļu iegādes un iegādes korekcijas transakcijas."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetParameters
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 3481
 ms.assetid: d4e73a3f-633b-48b2-b8db-7a4a59a4d7ec

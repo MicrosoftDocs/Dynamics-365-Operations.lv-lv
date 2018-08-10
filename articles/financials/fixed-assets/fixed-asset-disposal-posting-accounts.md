@@ -1,7 +1,7 @@
 ---
 title: "Pamatlīdzekļu norakstīšanas grāmatošanas konti"
 description: "Šajā tēmā ir paskaidrots, kā iestatīt līdzekļu norakstīšanas Virsgrāmatas grāmatošanas kontus."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetPosting
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 3461
 ms.assetid: dfdc0730-e030-48cc-8d93-15bdc7b23776

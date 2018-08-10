@@ -1,7 +1,7 @@
 ---
 title: "Budžeta veidošanas apskats"
 description: "Gandrīz visiem uzņēmumiem, kuri izmanto programmas Microsoft Dynamics 365 for Finance and Operations funkcionalitāti Finanšu dati, ir jāspēj izveidot pārskatus par budžetā paredzētajām vērtībām, salīdzinot tās ar faktiskajām vērtībām. Šajā rakstā ir paskaidrota minimālā konfigurācija, kas ir nepieciešama, lai programmatūrā Dynamics 365 for Finance and Operations izveidotu budžetus vai tos ielādētu no kādas trešās puses programmas."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetParameters
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 60113
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
