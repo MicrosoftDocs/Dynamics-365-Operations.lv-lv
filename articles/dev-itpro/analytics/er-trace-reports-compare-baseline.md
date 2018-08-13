@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
 ms.openlocfilehash: 1a598d0bd053c60c3f8df6b05ecb7ff15addfaa3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2018
 Varat izsekot tādu ER formātu rezultātus, kas ģenerē izejošos elektroniskos dokumentus. Kad izsekošanas ģenerēšana ir ieslēgta (ER lietotāja parametrs **Palaist atkļūdošanas režīmā**), ER formāta izpildes žurnālā tiek ģenerēts jauns izsekošanas ieraksts katru reizi, kad tiek palaists ER pārskats. Katrā ģenerētajā izsekošanas reizē tiek saglabāta tālāk norādītā informācija.
 
 - Visi brīdinājumi, ko ģenerēja validēšanas kārtulas
-- Visas kļūdas, ko ģenerēja validēšanas kārtulas 
+- Visas kļūdas, ko ģenerēja validēšanas kārtulas
 - Visi ģenerētie faili, kas tiek saglabāti kā izsekošanas ieraksta pielikumi
 
 Varat glabāt atsevišķus bāzlīnijas programmas failus jebkuram ER formātam. Faili tiek uzskatīti par bāzlīnijas failiem, ja tie apraksta palaisto pārskatu gaidītos rezultātus. Ja bāzlīnijas fails ir pieejams kādam ER formātam, kas tika palaists, kamēr bija ieslēgta izsekošanas ģenerēšana, tad papildus iepriekš minētajai informācijai izsekošana saglabā arī rezultātus no ģenerētā elektroniskā dokumenta salīdzinājuma ar bāzlīnijas failu. Ar vienu klikšķi šo ģenerēto elektronisko dokumentu un tā bāzlīnijas failu varat arī saņemt vienā zip failā. Pēc tam varat veikt detalizētu salīdzināšanu, izmantojot kādu ārēju rīku, piemēram, Windiff.

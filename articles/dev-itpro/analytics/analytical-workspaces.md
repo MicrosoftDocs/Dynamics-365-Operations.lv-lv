@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
 ms.openlocfilehash: 7e2a9297a417fb25384341dcabcafa41c50f8c84
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/22/2018
 - [CFO pārskata Power BI saturs](CFO-power-bi.md)
 - [Atlīdzības Power BI saturs](compensation-power-bi.md)
 - [Izmaksu uzskaites analīzes Power BI saturs](cost-accounting-analysis-content-pack.md) 
-- [Power BI satura pakotne Izmaksu pārvaldība](cost-management-content-pack.md)    
+- [Power BI satura pakotne Izmaksu pārvaldība](cost-management-content-pack.md)
 - [Kredīta un iekasēšanas Power BI saturs](../../financials/accounts-receivable/credit-collections-power-bi.md)
 - [Darbinieku attīstības Power BI saturs](employee-development-PBI.md) 
 - [Power BI saturs Finanšu ieskati](financial-insights.md)
@@ -46,5 +46,5 @@ ms.lasthandoff: 05/22/2018
 - [Power BI saturs Pārdošanas un ienesīguma veiktspēja](sales-profitability-performance-content-pack.md)
 - [Kreditoru maksājumu Power BI saturs](../../financials/accounts-payable/Vendor-payments-workspace.md)
 - [Power BI saturs Noliktavas veiktspēja](warehouse-power-bi-content.md)
-- [Power BI saturs Darbaspēka rādītāji](workforce-analysis-power-bi-content-pack.md)  
+- [Power BI saturs Darbaspēka rādītāji](workforce-analysis-power-bi-content-pack.md)
 

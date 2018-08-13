@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: af87f3f7c3fab9b6baecefbedcd855a764f31cbe
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -33,18 +33,18 @@ ms.lasthandoff: 05/08/2018
 
 ## <a name="overview"></a>Pārskats
 
-Power BI satura pakotne **Izmaksu uzskaites analīze** ir paredzēta izmaksu kontrolieriem vai jebkurai personai, kura ir atbildīga par organizācijas izmaksu kontroles veikšanu. Tā ietver galvenos rādītājus, piemēram, izmaksas, lielumu un izmaksu likmi pēc faktiskajām izmaksām, budžeta izmaksām un elastīgajām budžeta izmaksām. Šajā satura pakotnē tiek izmantoti transakciju dati no moduļa **Izmaksu uzskaite**, un tā nodrošina apkopotu informāciju par izmaksām visas organizācijas ietvaros vienā pārskata valūtā. Vadītāji var datus filtrēt pēc izmaksu objektiem, lai veiktu savu organizatorisko vienību izmaksu kontroli pat tad, ja organizācijā ietilpst vairākas juridiskās personas. 
+Power BI satura pakotne **Izmaksu uzskaites analīze** ir paredzēta izmaksu kontrolieriem vai jebkurai personai, kura ir atbildīga par organizācijas izmaksu kontroles veikšanu. Tā ietver galvenos rādītājus, piemēram, izmaksas, lielumu un izmaksu likmi pēc faktiskajām izmaksām, budžeta izmaksām un elastīgajām budžeta izmaksām. Šajā satura pakotnē tiek izmantoti transakciju dati no moduļa **Izmaksu uzskaite**, un tā nodrošina apkopotu informāciju par izmaksām visas organizācijas ietvaros vienā pārskata valūtā. Vadītāji var datus filtrēt pēc izmaksu objektiem, lai veiktu savu organizatorisko vienību izmaksu kontroli pat tad, ja organizācijā ietilpst vairākas juridiskās personas.
 
-Tā kā satura pakotne **Izmaksu uzskaites analīze** izceļ novirzes starp faktiskajām un budžetā paredzētajām izmaksām, vadītāji var tikt informēti par savu organizatorisko vienību vēlamajām un nevēlamajām tendencēm. Vadītāji var skatīt detalizētu informāciju par izmaksu elementu hierarhijām vai atsevišķiem izmaksu elementiem. Tādējādi vadītāji var gūt detalizētu ieskatu par izmaksu nobīdes iemesliem un pēc tam efektīvi rīkoties. 
+Tā kā satura pakotne **Izmaksu uzskaites analīze** izceļ novirzes starp faktiskajām un budžetā paredzētajām izmaksām, vadītāji var tikt informēti par savu organizatorisko vienību vēlamajām un nevēlamajām tendencēm. Vadītāji var skatīt detalizētu informāciju par izmaksu elementu hierarhijām vai atsevišķiem izmaksu elementiem. Tādējādi vadītāji var gūt detalizētu ieskatu par izmaksu nobīdes iemesliem un pēc tam efektīvi rīkoties.
 
-Satura pakotne **Izmaksu uzskaites analīze** sniedz grāmatvežiem iespēju analizēt izmaksu plūsmu caur izmaksu objektiem visas organizācijas ietvaros. 
+Satura pakotne **Izmaksu uzskaites analīze** sniedz grāmatvežiem iespēju analizēt izmaksu plūsmu caur izmaksu objektiem visas organizācijas ietvaros.
 
-Lai uzzinātu papildinformāciju par izmaksu uzskaiti, skatiet [izmaksu uzskaites sākumlapu](../../financials/cost-accounting/cost-accounting-home-page.md). 
+Lai uzzinātu papildinformāciju par izmaksu uzskaiti, skatiet [izmaksu uzskaites sākumlapu](../../financials/cost-accounting/cost-accounting-home-page.md).
 
 Izmaksu uzskaitē definējot piekļuves līmeņa drošību un to kombinējot ar rindas līmeņa drošību pakalpojumā Power BI, visiem izmaksu objektu īpašniekiem varat sniegt piekļuvi Power BI saturam **Izmaksu uzskaites analīze**. Pēc tam visi vizualizācijās esošie dati tiks filtrēti, pamatojoties uz piekļuves līmeni, kurš ir kontrolēts izmaksu uzskaitē. Lai uzzinātu papildinformāciju par piekļuves līmeņa drošību un rindas līmeņa drošību, skatiet rakstu [Iestatīt drošību Power BI saturam Izmaksu analīze](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
-Power BI saturs **Izmaksu uzskaites analīze** ir atrodama Microsoft Dynamics Lifecycle Services (LCS) koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt satura pakotni un ieviest to savā organizācijā, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/). 
+Power BI saturs **Izmaksu uzskaites analīze** ir atrodama Microsoft Dynamics Lifecycle Services (LCS) koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt satura pakotni un ieviest to savā organizācijā, skatiet tēmā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
 
 <!--To watch a demo that shows how to implement the Power BI content, see the [Power BI content from Microsoft and your partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.-->
 
@@ -75,7 +75,7 @@ Saturā ietilpst pārskatu lapu komplekts. Katra lapa sastāv no rādītāju kop
 |                                  | Faktiskās izmaksas pēc izmaksu objekta dimensijas elementa nosaukuma un izmaksu elementa dimensijas elementa nosaukuma                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
-Power BI satura pakotnes **Izmaksu uzskaites analīze** pārskatu lapu aizpildīšanai tiek izmantoti tālāk norādītie dati. Šie dati tiek attēloti kā apkopoti mērījumi, kas tiek sagatavoti elementu krātuvē. Elementu krātuve ir analīzei optimizēta Microsoft SQL Server datu bāze. Papildinformāciju skatiet tēmā [Apskats par Power BI integrāciju elementu krātuvē](power-bi-integration-entity-store.md). 
+Power BI satura pakotnes **Izmaksu uzskaites analīze** pārskatu lapu aizpildīšanai tiek izmantoti tālāk norādītie dati. Šie dati tiek attēloti kā apkopoti mērījumi, kas tiek sagatavoti elementu krātuvē. Elementu krātuve ir analīzei optimizēta Microsoft SQL Server datu bāze. Papildinformāciju skatiet tēmā [Apskats par Power BI integrāciju elementu krātuvē](power-bi-integration-entity-store.md).
 
 Kā satura pamats tiek izmantoti tālāk norādītie galvenie apkopošanas mērījumi.
 
@@ -113,20 +113,18 @@ Nākamajā tabulā ir parādīts, kā galvenie apkopošanas mērījumi tiek izma
 
 Tālāk norādītās galvenās dimensijas tiek lietotas kā filtri, lai apkopošanas mērījumus sadalītu, iegūstot lielāku granularitāti un sniedzot dziļākus analītiskos ieskatus.
 
-
-|               Elements               |                                                Atribūtu piemēri                                                |
+| Elements                             | Atribūtu piemēri                                                                                               |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-|      Izmaksu uzskaites virsgrāmatas       |                                                Izmaksu uzskaites virsgrāmata                                                |
-|         Izmaksu vadības ierīces         |                                                Izmaksu vadības ierīces nosaukums                                                |
-|      Izmaksu elementu dimensijas       |     Izmaksu elementa dimensijas nosaukums, izmaksu elementa dimensijas elementa nosaukums, izmaksu elementa dimensijas elementa apraksts      |
-|       Izmaksu objekta dimensijas       |       Izmaksu objekta dimensijas nosaukums, izmaksu objekta dimensijas elementa nosaukums, izmaksu objekta dimensijas elementa apraksts        |
-|       Statiskās dimensijas       |       Statistiskās dimensijas nosaukums, statistiskās dimensijas elementa nosaukums, statistiskās dimensijas elementa apraksts        |
-| Izmaksu objektu dimensiju hierarhijas  |  Izmaksu objekta dimensiju hierarhijas nosaukums, izmaksu objekta dimensiju hierarhijas līmenis, izmaksu objekta dimensiju hierarhiju koks   |
+| Izmaksu uzskaites virsgrāmatas            | Izmaksu uzskaites virsgrāmata                                                                                               |
+| Izmaksu vadības ierīces                 | Izmaksu vadības ierīces nosaukums                                                                                               |
+| Izmaksu elementu dimensijas            | Izmaksu elementa dimensijas nosaukums, izmaksu elementa dimensijas elementa nosaukums, izmaksu elementa dimensijas elementa apraksts          |
+| Izmaksu objekta dimensijas             | Izmaksu objekta dimensijas nosaukums, izmaksu objekta dimensijas elementa nosaukums, izmaksu objekta dimensijas elementa apraksts              |
+| Statiskās dimensijas             | Statistiskās dimensijas nosaukums, statistiskās dimensijas elementa nosaukums, statistiskās dimensijas elementa apraksts              |
+| Izmaksu objektu dimensiju hierarhijas  | Izmaksu objekta dimensiju hierarhijas nosaukums, izmaksu objekta dimensiju hierarhijas līmenis, izmaksu objekta dimensiju hierarhiju koks    |
 | Izmaksu elementu dimensiju hierarhijas | Izmaksu elementa dimensiju hierarhijas nosaukums, izmaksu elementa dimensiju hierarhijas līmenis, izmaksu elementa dimensiju hierarhiju koks |
-| Statistisko dimensiju hierarhijas  |  Statistisko dimensiju hierarhijas nosaukums, statistisko dimensiju hierarhijas līmenis, statistisko dimensiju hierarhiju koks   |
-|        Transakcijas versijas        |                                                     Versijas nosaukums                                                     |
-|          Finanšu kalendāri          |                                            Kalendārs, Kalendāra apraksts                                            |
-|            Finanšu gadi            |                                                    Kalendārais gads                                                     |
-|           Finanšu periodi           |                                                 Kalendārā gada periods                                                 |
-
+| Statistisko dimensiju hierarhijas  | Statistisko dimensiju hierarhijas nosaukums, statistisko dimensiju hierarhijas līmenis, statistisko dimensiju hierarhiju koks    |
+| Transakcijas versijas               | Versijas nosaukums                                                                                                         |
+| Finanšu kalendāri                   | Kalendārs, Kalendāra apraksts                                                                                       |
+| Finanšu gadi                       | Kalendārais gads                                                                                                        |
+| Finanšu periodi                     | Kalendārā gada periods                                                                                                 |
 

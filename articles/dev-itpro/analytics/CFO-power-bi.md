@@ -29,7 +29,6 @@ ms.lasthandoff: 02/23/2018
 
 Šajā tēmā ir aprakstīta Power BI satura pakotne **CFO pārskats**. Šis Power BI saturs attiecas uz Microsoft Dynamics 365 for Finance and Operations versijas 7.2 lietotājiem. Ja izmantojat versiju 7.3 vai jaunāku versiju, lūdzu, skatiet šeit: [Finanšu ieskati](financial-insights.md).
 
-
 ## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
 
 Pārskati no Power BI satura pakotnes **CFO pārskats** tiek rādīti darbvietā **CFO pārskats**.
@@ -39,13 +38,11 @@ Power BI satura pakotnē **CFO pārskats** ir apkopoti pārskati no dažādām
 
 Tālāk esošajā tabulā ir norādītas Power BI satura pakotnes, no kurām ir kopēti pārskati, kā arī darbvietā **CFO pārskats** pieejamie pārskati. Ir nodrošinātas saites uz dažādo Power BI satura pakotņu dokumentāciju.
 
-| Ietvertās Power BI satura pakotnes     | Pārskati |
-|---------------------------------------|---------|
+| Ietvertās Power BI satura pakotnes | Pārskati |
+|-----------------------------------|---------|
 | [Finanšu veiktspēja](financial-performance-power-bi-content-pack.md) | <ul><li>Ieņēmumi</li><li>Izdevumi</li><li>Neto ieņēmumi</li><li>Bruto peļņa</li><li>Pašreizējais koeficients</li><li>Kreditoriem maksājamo rēķinu kopsumma</li><li>No debitoriem saņemamo maksājumu kopsumma</li><li>Izdevumi pēc konta kategorijas</li><li>Izdevumi — faktisko un budžeta salīdzinājums</li><li>Ieņēmumi — faktisko un budžeta salīdzinājums</li></ul> |
 | [Naudas pārskats](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md) | <ul><li>Naudas plūsmas prognoze</li><li>Bankas konta bilance</li><li>Bilance pēc valūtas</li></ul> |
 | [Pārdošana un ienesīgums](sales-profitability-performance-content-pack.md) | <ul><li>Ieņēmumi pēc reģiona</li><li>Pirmie 10 debitori pēc ieņēmumiem</li><li>Pirmās 10 preces pēc ieņēmumiem</li></ul> |
 | [Kredītu un iekasēšanas pārvaldība](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Debitori, kam ir nokavēts termiņš</li><li>Debitori, kam pārsniegts kredīta limits</li><li>Vecas bilances</li></ul> |
 | [Pirkumu tēriņu analīze](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Pirkumi pēc mēneša/dienas</li><li>Pirmie 10 kreditori pēc pirkumiem</li><li>Pirmās 10 preces pēc pirkumiem</li></ul> |
-
-
 
