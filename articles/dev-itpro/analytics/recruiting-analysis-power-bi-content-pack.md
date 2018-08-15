@@ -19,10 +19,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 63432fe5fe98b2c20ddbf9ebec6ac14b981f0106
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 2d8c0e0e52a8dba2a1ea5bf330cdea01e3cfb60d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/08/2018
 <span data-ttu-id="d4a45-105">Šajā tēmā ir aprakstīta Microsoft Power BI satura pakotne **Personāla atlase**.</span><span class="sxs-lookup"><span data-stu-id="d4a45-105">This topic describes the **Recruiting** Microsoft Power BI content.</span></span> <span data-ttu-id="d4a45-106">Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.</span><span class="sxs-lookup"><span data-stu-id="d4a45-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span>
 
 ## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="d4a45-107">Piekļūšana Power BI saturam</span><span class="sxs-lookup"><span data-stu-id="d4a45-107">Accessing the Power BI content</span></span>
-<span data-ttu-id="d4a45-108">Power BI satura pakotne **Personāla atlase** tiek rādīta darbvietā **Personāla atlases pārvaldība**.</span><span class="sxs-lookup"><span data-stu-id="d4a45-108">The **Recruiting** Power BI content is shown in the **Recruitment management** workspace.</span></span> 
+<span data-ttu-id="d4a45-108">Power BI satura pakotne **Personāla atlase** tiek rādīta darbvietā **Personāla atlases pārvaldība**.</span><span class="sxs-lookup"><span data-stu-id="d4a45-108">The **Recruiting** Power BI content is shown in the **Recruitment management** workspace.</span></span>
 
 ## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a><span data-ttu-id="d4a45-109">Pārskati un vizualizācijas personāla atlases pārvaldības darbvietā</span><span class="sxs-lookup"><span data-stu-id="d4a45-109">Reports and visuals in the Recruitment management workspace</span></span>
 <span data-ttu-id="d4a45-110">Darbvietā **Personāla atlases pārvaldība** ir cilne **Analīze**. Šajā cilnē ir iegults Power BI saturs par personāla atlasi.</span><span class="sxs-lookup"><span data-stu-id="d4a45-110">The **Recruitment management** workspace contains an **Analytics** tab. This tab contains the embedded Power BI content for recruiting.</span></span> <span data-ttu-id="d4a45-111">Saturs sastāv no pārskata cilnes un papildu cilnēm, kas satur detalizētu informāciju.</span><span class="sxs-lookup"><span data-stu-id="d4a45-111">The content consists of an overview tab and additional tabs that contain details.</span></span> <span data-ttu-id="d4a45-112">Tabulā ir sniegts katras cilnes pārskatu apraksts.</span><span class="sxs-lookup"><span data-stu-id="d4a45-112">The following table describes the reports on each tab.</span></span>
@@ -66,6 +66,4 @@ ms.lasthandoff: 05/08/2018
 | <span data-ttu-id="d4a45-163">Veiktspēja</span><span class="sxs-lookup"><span data-stu-id="d4a45-163">Performance</span></span>          | <span data-ttu-id="d4a45-164">Vērtējums, apraksts un vērtēšanas modelis</span><span class="sxs-lookup"><span data-stu-id="d4a45-164">Rating, description, and rating model</span></span>                            | <span data-ttu-id="d4a45-165">Kandidāts, darbā pieņemtais kandidāts, atbrīvotais kandidāts</span><span class="sxs-lookup"><span data-stu-id="d4a45-165">Applicant, Employed Applicant, Terminated Applicant</span></span> |
 | <span data-ttu-id="d4a45-166">Personāla atlases projekts</span><span class="sxs-lookup"><span data-stu-id="d4a45-166">Recruitment Project</span></span>  | <span data-ttu-id="d4a45-167">Projekta apraksts, projekta statuss un vakances</span><span class="sxs-lookup"><span data-stu-id="d4a45-167">Project description, project status, and openings</span></span>                | <span data-ttu-id="d4a45-168">Kandidāts, darbā pieņemtais kandidāts, atbrīvotais kandidāts</span><span class="sxs-lookup"><span data-stu-id="d4a45-168">Applicant, Employed Applicant, Terminated Applicant</span></span> |
 | <span data-ttu-id="d4a45-169">Atbrīvotais kandidāts</span><span class="sxs-lookup"><span data-stu-id="d4a45-169">Terminated Applicant</span></span> | <span data-ttu-id="d4a45-170">Atbrīvotie kandidāti, iemesls, veiktspēja un atbrīvošanas datums</span><span class="sxs-lookup"><span data-stu-id="d4a45-170">Terminated applicants, reason, performance, and termination date</span></span> | <span data-ttu-id="d4a45-171">Uzņēmums, kalendāra nobīde, datums, ģeogrāfiskā atrašanās vieta, veiktspēja, demogrāfiskie dati, nodarbinātība, multivide, personāla atlases projekts, kandidāta vārds</span><span class="sxs-lookup"><span data-stu-id="d4a45-171">Company, Calendar Offset, Date, Geographic Location, Performance, Demographics, Employment, Media, Recruitment Project, Applicant Name</span></span> |
-
-
 
