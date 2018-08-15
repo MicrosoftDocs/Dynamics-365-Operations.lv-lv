@@ -1,7 +1,7 @@
 ---
 title: "Preču identifikatori"
 description: "Šajā tēmā ir sniegta informācija par dažādajiem preču identifikatoru veidiem un ir paskaidrots, kā varat pievienot preču identifikatorus preču datiem."
-auhor: cvocph
+author: cvocph
 manager: AnnBe
 ms.date: 03/23/2018
 ms.topic: article
