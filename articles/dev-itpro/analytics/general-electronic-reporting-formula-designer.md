@@ -1,5 +1,5 @@
 ---
-title: "Formulas veidotājs elektronisko atskaišu veidošanā"
+title: "Formulas veidotājs elektronisko pārskatu veidošanā (ER)"
 description: "Šajā tēmā ir paskaidrots, kā elektronisko pārskatu veidošanā (Electronic reporting — ER) lietot formulas veidotāju."
 author: NickSelin
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
-ms.openlocfilehash: 8d8ab61b7aea84332120e6de9fc29a2a4c9598ca
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: d3ac6ea7b104428f364385e1fd3ed221cae8498d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="formula-designer-in-electronic-reporting"></a>Formulas veidotājs elektronisko atskaišu veidošanā
+# <a name="formula-designer-in-electronic-reporting-er"></a>Formulas veidotājs elektronisko pārskatu veidošanā (ER)
 
 [!include [banner](../includes/banner.md)]
 
@@ -385,7 +385,7 @@ Izpildes laikā lauki <strong>Etiķete</strong> un <strong>Apraksts</strong> atg
 <p><a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="Format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a></p>
 <p>Tālāk esošajā attēlā parādīts rezultāts pēc izveidotā formāta palaišanas.</p>
 <p><a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="Format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a></p>
-<blockquote>[!NOTE]<br>Atbilstoši formāta vecākelementu FILE un FOLDER valodas iestatījumiem etiķešu un aprakstu tulkotais teksts tiek ievadīts ER formāta izvadē.</blockquote>
+<blockquote>[!NOTE] Atbilstoši formāta vecākelementu FILE un FOLDER valodas iestatījumiem etiķešu un aprakstu tulkotais teksts tiek ievadīts ER formāta izvadē.</blockquote>
 </td>
 </tr>
 <tr>
@@ -426,7 +426,7 @@ Izpildes laikā lauki <strong>Etiķete</strong> un <strong>Apraksts</strong> atg
 <p><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="Data sources for the adjusted format" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a></p>
 <p>Tālāk esošajā attēlā parādīts rezultāts pēc pielāgotā formāta palaišanas.</p>
 <p><a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="Output of the adjusted format" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a></p>
-<blockquote>[!NOTE]<br>Ierobežojums netiek lietots pēdējam sākotnējā saraksta vienumam, jo ierobežojuma avota (svara) vērtība (11) pārsniedz noteikto ierobežojumu (9). Lai pārskata ģenerēšanas laikā ignorētu (izlaistu) apakšsarakstus (ja nepieciešams), izmantojiet funkciju <strong>WHERE</strong> vai atbilstošā formāta elementa izteiksmi <strong>Enabled</strong>.</blockquote>
+<blockquote>[!NOTE] Ierobežojums netiek lietots pēdējam sākotnējā saraksta vienumam, jo ierobežojuma avota (svara) vērtība (11) pārsniedz noteikto ierobežojumu (9). Lai pārskata ģenerēšanas laikā ignorētu (izlaistu) apakšsarakstus (ja nepieciešams), izmantojiet funkciju <strong>WHERE</strong> vai atbilstošā formāta elementa izteiksmi <strong>Enabled</strong>.</blockquote>
 </td>
 </tr>
 <tr>
@@ -456,8 +456,8 @@ Izpildes laikā lauki <strong>Etiķete</strong> un <strong>Apraksts</strong> atg
 | NUMBERVALUE (virkne, decimāldaļu atdalītājs, ciparu grupēšanas atdalītājs) | Norādīto virkni pārveidot par skaitli. Norādītais decimāldaļu atdalītājs tiek lietots starp decimāldaļskaitļa veselo skaitli un daļskaitļiem. Norādītais ciparu grupēšanas atdalītājs tiek izmantots kā tūkstošu atdalītājs. | **NUMBERVALUE("1 234,56", ",", " ")** atgriež vērtību **1234.56**. |
 | VALUE (virkne) | Norādīto virkni pārveidot par skaitli. Komati un punkta rakstzīmes (.) tiek uzskatīti par decimāldaļu atdalītājiem, un sākuma defise (-) tiek lietota kā mīnusa zīme. Parādiet izņēmumu, ja norādītajā virknē ir ietvertas citas rakstzīmes, kas nav skaitļi. | **VALUE ("1 234,56")** parāda izņēmumu. |
 | ROUND (skaitlis, cipari aiz komata) | Atgriezt norādīto skaitli, kas ir noapaļots līdz norādītajam ciparu skaitam aiz komata.<ul><li>Ja parametra **cipari aiz komata** vērtība ir lielāka par 0 (nulli), norādītais skaitlis tiek noapaļots līdz attiecīgajam ciparu skaitam aiz komata.</li><li>Ja parametra **cipari aiz komata** vērtība ir **0** (nulle), norādītais skaitlis tiek noapaļots līdz tuvākajam veselajam skaitlim.</li><li>Ja parametra **cipari aiz komata** vērtība ir mazāka par 0 (nulli), norādītais skaitlis tiek noapaļots līdz skaitlim, kas atrodas pa kreisi no komata.</li></ul> | **ROUND (1200.767, 2)** noapaļo līdz diviem cipariem aiz komata un atgriež **1200.77**. **ROUND (1200.767, -3)** noapaļo līdz tuvākajam 1,000 reizinājumam un atgriež **1000**. |
-| ROUNDDOWN (skaitlis, cipari aiz komata) | Atgriezt norādīto skaitli, kas ir noapaļots uz leju līdz norādītajam ciparu skaitam aiz komata.<blockquote>[!NOTE]<br>Šī funkcija darbojas līdzīgi funkcijai **ROUND**, bet norādīto skaitli tā vienmēr noapaļo uz leju (nulles virzienā).</blockquote> | **ROUNDDOWN (1200.767, 2)** noapaļo uz leju līdz diviem cipariem aiz komata un atgriež **1200.76**. **ROUNDDOWN (1700.767, -3)** noapaļo uz leju līdz tuvākajam 1,000 reizinājumam un atgriež **1000**. |
-| ROUNDUP (skaitlis, cipari aiz komata) | Atgriezt norādīto skaitli, kas ir noapaļots uz augšu līdz norādītajam ciparu skaitam aiz komata.<blockquote>[!NOTE]<br>Šī funkcija darbojas līdzīgi funkcijai **ROUND**, bet norādīto skaitli tā vienmēr noapaļo uz augšu (prom no nulles).</blockquote> | **ROUNDUP (1200.763, 2)** noapaļo uz augšu līdz diviem cipariem aiz komata un atgriež **1200.77**. **ROUNDUP (1200.767, -3)** noapaļo uz augšu līdz tuvākajam 1,000 reizinājumam un atgriež **2000**. |
+| ROUNDDOWN (skaitlis, cipari aiz komata) | Atgriezt norādīto skaitli, kas ir noapaļots uz leju līdz norādītajam ciparu skaitam aiz komata.<blockquote>[!NOTE] Šī funkcija darbojas līdzīgi funkcijai **ROUND**, bet norādīto skaitli tā vienmēr noapaļo uz leju (nulles virzienā).</blockquote> | **ROUNDDOWN (1200.767, 2)** noapaļo uz leju līdz diviem cipariem aiz komata un atgriež **1200.76**. **ROUNDDOWN (1700.767, -3)** noapaļo uz leju līdz tuvākajam 1,000 reizinājumam un atgriež **1000**. |
+| ROUNDUP (skaitlis, cipari aiz komata) | Atgriezt norādīto skaitli, kas ir noapaļots uz augšu līdz norādītajam ciparu skaitam aiz komata.<blockquote>[!NOTE] Šī funkcija darbojas līdzīgi funkcijai **ROUND**, bet norādīto skaitli tā vienmēr noapaļo uz augšu (prom no nulles).</blockquote> | **ROUNDUP (1200.763, 2)** noapaļo uz augšu līdz diviem cipariem aiz komata un atgriež **1200.77**. **ROUNDUP (1200.767, -3)** noapaļo uz augšu līdz tuvākajam 1,000 reizinājumam un atgriež **2000**. |
 
 ### <a name="data-conversion-functions"></a>Datu konvertēšanas funkcijas
 
@@ -474,8 +474,8 @@ Izpildes laikā lauki <strong>Etiķete</strong> un <strong>Apraksts</strong> atg
 
 | Funkcija | Apraksts | Piemērs |
 |----------|-------------|---------|
-| NULLCONTAINER (saraksts) | Atgriezt ierakstu **null**, kam ir tāda pati struktūra kā norādītajam ierakstu sarakstam vai ierakstam.<blockquote>[!NOTE]<br>Šī funkcija ir novecojusi. Tās vietā lietojiet **EMPTYRECORD**.</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))** atgriež jaunu tukšu ierakstu, kam ir tāda pati struktūra kā sarakstam, ko atgrieza funkcija **SPLIT**. |
-| EMPTYRECORD (ieraksts) | Atgriezt ierakstu **null**, kam ir tāda pati struktūra kā norādītajam ierakstu sarakstam vai ierakstam.<blockquote>[!NOTE]<br>Ieraksts **null** ir ieraksts, kurā visos laukos ir tukšas vērtības. Tukša vērtība skaitļiem ir **0** (nulle), virknēm tā ir tukša virkne utt.</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))** atgriež jaunu tukšu ierakstu, kam ir tāda pati struktūra kā sarakstam, ko atgrieza funkcija **SPLIT**. |
+| NULLCONTAINER (saraksts) | Atgriezt ierakstu **null**, kam ir tāda pati struktūra kā norādītajam ierakstu sarakstam vai ierakstam.<blockquote>[!NOTE] Šī funkcija ir novecojusi. Tās vietā lietojiet **EMPTYRECORD**.</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))** atgriež jaunu tukšu ierakstu, kam ir tāda pati struktūra kā sarakstam, ko atgrieza funkcija **SPLIT**. |
+| EMPTYRECORD (ieraksts) | Atgriezt ierakstu **null**, kam ir tāda pati struktūra kā norādītajam ierakstu sarakstam vai ierakstam.<blockquote>[!NOTE] Ieraksts **null** ir ieraksts, kurā visos laukos ir tukšas vērtības. Tukša vērtība skaitļiem ir **0** (nulle), virknēm tā ir tukša virkne utt.</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))** atgriež jaunu tukšu ierakstu, kam ir tāda pati struktūra kā sarakstam, ko atgrieza funkcija **SPLIT**. |
 
 ### <a name="text-functions"></a>Teksta funkcijas
 
@@ -522,14 +522,14 @@ Izpildes laikā lauki <strong>Etiķete</strong> un <strong>Apraksts</strong> atg
 <td>CHAR (skaitlis)</td>
 <td>Atgriezt rakstzīmju virkni, uz ko atsaucas norādītais unikoda skaitlis.</td>
 <td><strong>CHAR (255)</strong> atgriež <strong>&quot;ÿ&quot;</strong>.
-<blockquote>[!NOTE]<br>Šīs funkcijas atgrieztā virkne ir atkarīga kodējuma, kas ir atlasīts vecākelementa formāta elementā FILE. Atbalstīto kodējumu sarakstu skatiet tēmā <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Kodējuma klase</a>.</blockquote>
+<blockquote>[!NOTE] Šīs funkcijas atgrieztā virkne ir atkarīga kodējuma, kas ir atlasīts vecākelementa formāta elementā FILE. Atbalstīto kodējumu sarakstu skatiet tēmā <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Kodējuma klase</a>.</blockquote>
 </td>
 </tr>
 <tr>
 <td>CONCATENATE (1. virkne [, 2. virkne, …])</td>
 <td>Atgriezt visas norādītās teksta virknes, kas ir savienotas vienā virknē.</td>
 <td><strong>CONCATENATE (&quot;abc&quot;, &quot;def&quot;)</strong> atgriež <strong>&quot;abcdef&quot;</strong>.
-<blockquote>[!NOTE]<br>Arī izteiksme <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> atgriež <strong>&quot;abcdef&quot;</strong>.</blockquote>
+<blockquote>[!NOTE] Arī izteiksme <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> atgriež <strong>&quot;abcdef&quot;</strong>.</blockquote>
 </td>
 </tr>
 <tr>
@@ -571,7 +571,7 @@ Izpildes laikā lauki <strong>Etiķete</strong> un <strong>Apraksts</strong> atg
 <p>&quot;Nothing to print. Customer Litware Retail is stopped for 12/17/2015.&quot;</p>
 <p>Ja tas pats pārskats debitoram <strong>Litware Retail</strong> tiek apstrādāts 2015. gada 17. decembrī kultūrā <strong>DE</strong> un valodā <strong>DE</strong>, šī formula atgriež tālāk norādīto tekstu, kurā tiek izmantots cits datuma formāts.</p>
 <p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
-<blockquote>[!NOTE]<br>ER formulās etiķetēm tiek lietota tālāk norādītā sintakse.
+<blockquote>[!NOTE] ER formulās etiķetēm tiek lietota tālāk norādītā sintakse.
 <ul>
 <li><strong>Etiķetēm no Finance and Operations resursiem:</strong> <strong>@&quot;X&quot;</strong>, kur X ir etiķetes ID lietojumprogrammas objektu kokā (AOT)</li>
 <li><strong>Etiķetēm, kas ir ietvertas ER konfigurācijās:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, kur X ir etiķetes ID ER konfigurācijā</li>
@@ -587,7 +587,7 @@ Izpildes laikā lauki <strong>Etiķete</strong> un <strong>Apraksts</strong> atg
 <tr>
 <td>NUMERALSTOTEXT (skaitlis, valoda, valūta, drukas valūtas nosaukuma karogs, cipari aiz komata)</td>
 <td>Atgriezt norādīto skaitli pēc tam, kad tas ir izteikts vārdos (konvertēts par teksta virknēm) norādītajā valodā. Valodas kods nav obligāts. Ja tas ir definēts kā tukša virkne, tiek izmantots izpildes konteksta valodas kods. (Valodas kods izpildes kontekstam tiek definēts ģenerēšanas mapei vai failam.) Arī valūtas kods nav obligāts. Ja tas ir definēts kā tukša virkne, tiek izmantota uzņēmuma valūta.
-<blockquote>[!NOTE]<br>Parametri <strong>drukas valūtas nosaukuma karogs</strong> un <strong>cipari aiz komata</strong> tiek analizēti tikai šādiem valodu kodiem: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> un <strong>RU</strong>. Turklāt parametrs <strong>drukas valūtas nosaukuma karogs</strong> tiek analizēts tikai tiem Finance and Operations uzņēmumiem, kuru valsts vai reģiona konteksts atbalsta valūtu nosaukumu locījumus.</blockquote>
+<blockquote>[!NOTE] Parametri <strong>drukas valūtas nosaukuma karogs</strong> un <strong>cipari aiz komata</strong> tiek analizēti tikai šādiem valodu kodiem: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> un <strong>RU</strong>. Turklāt parametrs <strong>drukas valūtas nosaukuma karogs</strong> tiek analizēts tikai tiem Finance and Operations uzņēmumiem, kuru valsts vai reģiona konteksts atbalsta valūtu nosaukumu locījumus.</blockquote>
 </td>
 <td><strong>NUMERALSTOTEXT (1234.56, &quot;EN&quot;, &quot;&quot;, false, 2)</strong> atgriež <strong>&quot;One Thousand Two Hundred Thirty Four and 56&quot;</strong>. <strong>NUMERALSTOTEXT (120, &quot;PL&quot;, &quot;&quot;, false, 0)</strong> atgriež <strong>&quot;Sto dwadzieścia&quot;</strong>. <strong>NUMERALSTOTEXT (120.21, &quot;RU&quot;, &quot;EUR&quot;, true, 2)</strong> atgriež <strong>&quot;Сто двадцать евро 21 евроцент&quot;</strong>.</td>
 </tr>
@@ -656,10 +656,10 @@ Kad šie datu avoti ir definēti, varat izmantot tādu izteiksmi kā <strong>FIL
 | Funkcija | Apraksts | Piemērs |
 |----------|-------------|---------|
 | CONVERTCURRENCY (summa, avota valūta, mērķa valūta, datums, uzņēmums) | Norādīto naudas summu no norādītās avota valūtas konvertējiet norādītajā mērķa valūtā, izmantojot norādītā Finance and Operations uzņēmuma iestatījumus norādītajā datumā. | **CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")** atgriež viena eiro ekvivalentu ASV dolāros pašreizējās sesijas datumā, balstoties uz uzņēmuma DEMF iestatījumiem. |
-| ROUNDAMOUNT (skaitlis, cipari aiz komata, noapaļošanas kārtula) | Norādīto summu noapaļojiet līdz norādītajam ciparu skaitam aiz komata saskaņā ar norādīto noapaļošanas kārtulu.<blockquote>[!NOTE]<br>Noapaļošanas kārtula ir jānorāda kā Finance and Operations uzskaitījuma **RoundOffType** vērtība.</blockquote> | Ja ir iestatīta parametra **model.RoundOff** vērtība **Downward**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** atgriež vērtību **1000.78**. Ja parametrs **model.RoundOff** ir iestatīts uz **Normal** vai uz **Rounding-up**, tad **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** atgriež vērtību **1000.79**. |
+| ROUNDAMOUNT (skaitlis, cipari aiz komata, noapaļošanas kārtula) | Norādīto summu noapaļojiet līdz norādītajam ciparu skaitam aiz komata saskaņā ar norādīto noapaļošanas kārtulu.<blockquote>[!NOTE] Noapaļošanas kārtula ir jānorāda kā Finance and Operations uzskaitījuma **RoundOffType** vērtība.</blockquote> | Ja ir iestatīta parametra **model.RoundOff** vērtība **Downward**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** atgriež vērtību **1000.78**. Ja parametrs **model.RoundOff** ir iestatīts uz **Normal** vai uz **Rounding-up**, tad **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** atgriež vērtību **1000.79**. |
 | CURCredRef (cipari) | Atgriezt kreditora atsauci, pamatojoties uz norādītā rēķina numura cipariem. | **CURCredRef ("VEND-200002")** atgriež **"2200002"**. |
 | MOD\_97 (cipari) | Atgriezt kreditora atsauci kā MOD97 izteiksmi, pamatojoties uz norādītā rēķina numura cipariem. | **MOD\_97 ("VEND-200002")** atgriež **"20000285"**. |
-| ISOCredRef (cipari) | Atgriezt Starptautiskās Standartizācijas organizācijas (ISO) kreditora atsauci atbilstoši norādītā rēķina numura cipariem un burtiem.<blockquote>[!NOTE]<br>Lai izslēgtu alfabētu simbolus, kas nav saderīgi ar ISO, šis ievades parametrs pirms nodošanas šai funkcijai ir jātulko.</blockquote> | **ISOCredRef ("VEND-200002")** atgriež **"RF23VEND-200002"**. |
+| ISOCredRef (cipari) | Atgriezt Starptautiskās Standartizācijas organizācijas (ISO) kreditora atsauci atbilstoši norādītā rēķina numura cipariem un burtiem.<blockquote>[!NOTE] Lai izslēgtu alfabētu simbolus, kas nav saderīgi ar ISO, šis ievades parametrs pirms nodošanas šai funkcijai ir jātulko.</blockquote> | **ISOCredRef ("VEND-200002")** atgriež **"RF23VEND-200002"**. |
 | CN\_GBT\_AdditionalDimensionID (virkne, skaitlis) | Iegūt norādīto papildu finanšu dimensijas ID. Parametrā **virkne** dimensijas tiek attēlotas kā ar komatiem atdalīti identifikatori. Parametrs **skaitlis** definē pieprasītās dimensijas sērijas kodu šajā virknē. | **CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3)** atgriež **"CC"**. |
 | GetCurrentCompany () | Atgriezt tās juridiskās personas (uzņēmuma) koda teksta attēlojumu, kurā lietotājs ir pašlaik pierakstījies. | **GETCURRENTCOMPANY ()** atgriež **USMF** lietotājam, kurš ir pierakstījies programmā Finance and Operations uzņēmumā **Contoso Entertainment System USA**. |
 | CH\_BANK\_MOD\_10 (cipari) | Atgriezt kreditora atsauci kā MOD10 izteiksmi atbilstoši norādītā rēķina numura cipariem. | **CH\_BANK\_MOD\_10 ("VEND-200002")** atgriež **3**. |

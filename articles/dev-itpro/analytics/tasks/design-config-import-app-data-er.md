@@ -1,5 +1,5 @@
 --- 
-title: "Konfigurāciju noformēšana, lai parsētu ienākošos dokumentus pieteikumu datus atjauninājumiem (ER)"
+title: "ER konfigurāciju noformēšana ienākošo dokumentu parsēšanai"
 description: "Šajā procedūrā ir parādīts, kā noformēt elektroniskās atskaišu veidošanas (ER) konfigurācijas, lai parsētu ienākošu elektronisku dokumentu."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: 96c9397c6a83d61b679492f66f4aa6661f1f8621
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 9e5f826afa141c0851a963b33e40c58513e60a07
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="design-configurations-to-parse-incoming-documents-for-application-data-updates-er"></a>Konfigurāciju noformēšana, lai parsētu ienākošos dokumentus pieteikumu datus atjauninājumiem (ER)
+# <a name="design-er-configurations-to-parse-incoming-documents"></a>ER konfigurāciju noformēšana ienākošo dokumentu parsēšanai
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -30,12 +30,12 @@ ms.lasthandoff: 02/07/2018
 
 Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma. 
 
-Šīs darbības var veikt, izmantojot jebkuru datu kopu. Pirms sākat, lejupielādējiet un saglabājiet failus, kas norādīti tēmā “Ienākošo dokumentu parsēšana pieteikumu datu atjaunināšanai” (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents). Minētie faili ir: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
+Šīs darbības var veikt, izmantojot jebkuru datu kopu. Pirms sākat, lejupielādējiet un saglabājiet failus, kas ir uzskaitīti tēmā Ienākošo dokumentu parsēšana, lai atjauninātu programmas datus (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents). Minētie faili ir: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
 
 1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.
     * Pārliecinieties, vai konfigurācijas nodrošinātājs parauga uzņēmumam “Litware, Inc.” ir pieejams un ir atzīmēts kā aktīvs. Ja neredzat šo konfigurācijas nodrošinātāju, jums vispirms ir jāizpilda darbības, kas aprakstītas procedūrā “Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu”.  
 2. Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.
-    * Šis scenārijs tiks izmantots, lai parādītu iespējas, ko sniedz ienākošo elektronisko dokumentu XML formātā parsēšana: ERP programma (Dynamics 365 for Finance and Operations) pieprasa datus no tīmekļa pakalpojuma (piemēram, http://efsta.org/ finanšu pakalpojuma EFSTA) un parsē ienākošās atbildes, lai attiecīgi atjauninātu pieteikumu datus. Visefektīvākajai parsēšanai tiek izmantots viens ER formāts, neraugoties uz paredzamo ienākošo dokumentu XML formātā atšķirīgo struktūru.   
+    * Šis scenārijs tiks izmantots, lai parādītu iespējas, ko sniedz ienākošo elektronisko dokumentu parsēšana XML formātā: ERP programma (Dynamics 365 for Finance and Operations) pieprasa datus no tīmekļa pakalpojuma (piemēram, http://efsta.org/ finanšu pakalpojuma EFSTA) un parsē ienākošās atbildes, lai attiecīgi atjauninātu programmas datus. Visefektīvākajai parsēšanai tiek izmantots viens ER formāts, neraugoties uz paredzamo ienākošo dokumentu XML formātā atšķirīgo struktūru.   
 
 ## <a name="import-and-review-er-configurations"></a>ER konfigurāciju importēšana un pārskatīšana
 Importējiet ER modeļa konfigurāciju, kura satur parauga datu modeli, kas paredzēts ienākošā faila informācijas glabāšanai.  

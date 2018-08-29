@@ -1,5 +1,5 @@
 ---
-title: "Konfigurēt apstiprināšanas procesu darbplūsmā"
+title: "Apstiprināšanas procesu konfigurēšana darbplūsmā"
 description: "Izmantojiet tālāk aprakstīto procedūru, lai konfigurētu apstiprināšanas procesa rekvizītus."
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bf3523b2768b197b3c75b9a8490f621eced91a7a
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 212e9c32c7bb22b0ee0450e04b4090c540df7b54
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="configure-an-approval-process-in-a-workflow"></a>Konfigurēt apstiprināšanas procesu darbplūsmā
+# <a name="configure-approval-processes-in-a-workflow"></a>Apstiprināšanas procesu konfigurēšana darbplūsmā
 
 [!include [banner](../includes/banner.md)]
 
@@ -141,7 +141,7 @@ Veiciet šīs darbības, ja apstiprināšanas process ir jāpabeidz noteiktā la
 | Šajās darbībās izvēlētās opcijas tiks lietotas neatkarīgi no opcijām, kas atlasītas katra apstiprināšanas soļa apgabalā **Piešķire** un **Eskalācija**. |
 
 1.  Kreisajā rūtī noklikšķiniet uz **Papildu iestatījumi**.
-2.  Atzīmējiet izvēles rūtiņu **Iestatīt darbplūsmas **elementa** laika ierobežojumu**.
+2.  Atzīmējiet izvēles rūtiņu **Iestatīt darbplūsmas** **elementa** laika ierobežojumu.
 3.  Laukā **Ilgums** norādiet, kad apstiprināšanas process ir jāpabeidz. Izvēlieties vienu no šīm opcijām:
     -   **Stundas** — ievadiet stundu skaitu, pēc kurām apstiprināšanas procesam jābūt pabeigtam. Pēc tam atlasiet kalendāru, ko izmanto jūsu organizācija, un ievadiet informāciju par jūsu organizācijas darba nedēļu.
     -   **Dienas** — ievadiet dienu skaitu, pēc kurām apstiprināšanas procesam jābūt pabeigtam. Pēc tam atlasiet kalendāru, ko izmanto jūsu organizācija, un ievadiet informāciju par jūsu organizācijas darba nedēļu.

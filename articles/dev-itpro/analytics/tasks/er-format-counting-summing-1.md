@@ -1,5 +1,5 @@
 --- 
-title: "Inventarizācijas un summēšanas formāta izveide"
+title: "Elektronisko pārskatu veidošanas formātu izveide uzskaites un summēšanas darbībām"
 description: "Tālāk aprakstītajos soļos ir izskaidrots, kā sistēmas lietotājs, kam ir piešķirta administratora vai elektroniskā pārskata izstrādātāja loma, var konfigurēt elektronisko pārskatu sagatavošanas (ER) formātu, lai veiktu uzskaiti un summēšanu, izmantojot jau izveidotās teksta izvades datus."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7613b78d4a9ab63f5be9773a8699fe3ed94636eb
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 7261a2324b61cacfca8d69ad52762aa545b70220
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="create-format-for-counting-and-summing"></a>Inventarizācijas un summēšanas formāta izveide 
+# <a name="create-electronic-reporting-er-formats-to-do-counting-and-summing"></a>Elektronisko pārskatu veidošanas (ER) formātu izveide uzskaites un summēšanas darbībām
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

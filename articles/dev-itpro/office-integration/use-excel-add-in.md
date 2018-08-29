@@ -1,5 +1,5 @@
 ---
-title: Lietot Excel pievienojumprogrammu
+title: "Elementa datu atvēršana programmā Excel un to atjaunināšana, izmantojot Excel pievienojumprogrammu"
 description: "Šajā tēmā ir paskaidrots, kā elementa datus atvērt programmā Microsoft Excel un pēc tam šos datus apskatīt, atjaunināt un rediģēt, izmantojot Microsoft Dynamics Office pievienojumprogrammu programmai Excel."
 author: ChrisGarty
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e0e3e86820e0857b320d832c3bf3c94757667919
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 01474a82e860c6f51b316cb683cd44fb9bf2a6bc
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="use-the-excel-add-in"></a>Lietot Excel pievienojumprogrammu
+# <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>Elementa datu atvēršana programmā Excel un to atjaunināšana, izmantojot Excel pievienojumprogrammu
 
 [!include [banner](../includes/banner.md)]
 

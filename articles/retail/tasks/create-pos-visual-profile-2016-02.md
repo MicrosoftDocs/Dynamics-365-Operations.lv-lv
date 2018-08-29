@@ -1,5 +1,5 @@
 --- 
-title: " POS vizuālā profila izveide "
+title: "Pārdošanas punkta (POS) vizuālo profilu izveide"
 description: "Šajā procedūrā ir aprakstīts, kā izveidot jaunu pārdošanas punkta (point of sale — POS) vizuālo profilu."
 author: jashanno
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: a75af89efa56e7fbd27021b3516b9a3fec20294c
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 0234512e037d8818ce2282959cfd0763b41b9429
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="create-a-pos-visual-profile"></a> POS vizuālā profila izveide  
+# <a name="create-point-of-sale-pos-visual-profiles"></a>Pārdošanas punkta (POS) vizuālo profilu izveide
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 

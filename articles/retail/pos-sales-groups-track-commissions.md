@@ -1,5 +1,5 @@
 ---
-title: "POS komisijas maksu izsekošana, izmantojot pārdošanas grupas"
+title: "Pārdošanas punkta (POS) komisijas maksu izsekošana, izmantojot pārdošanas grupas"
 description: "Mazumtirdzniecībā bieži lietota prakse ir pārdošanas darbību izsekošana pēc darbinieka, kurš strādā ar debitoru, sniedzot palīdzību, veicot papildu pārdošanu un šķērspārdošanu un apstrādājot transakciju."
 author: jblucher
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 46d93960932adfe89bccf73fd609de75e9ebd58d
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 737e07233d7ce972986be58cc739a86be3555f4f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="track-commissions-in-pos-using-sales-groups"></a>POS komisijas maksu izsekošana, izmantojot pārdošanas grupas
+# <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a>Pārdošanas punkta (POS) komisijas maksu izsekošana, izmantojot pārdošanas grupas
 
 [!include [banner](includes/banner.md)]
 

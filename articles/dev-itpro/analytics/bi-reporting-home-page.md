@@ -1,5 +1,5 @@
 ---
-title: "Informācija"
+title: "Biznesa informācijas (BI) un atskaišu veidošanas sākumlapa"
 description: "Šajā tēmā norādīti resursi, kurus varat izmantot, lai uzzinātu vairāk par biznesa informācijas un pārskatu veidošanas rīkiem, kas pieejami programmā Microsoft Dynamics 365 for Finance and Operations."
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 14a18681a98a2efbf6e3cfdbe77d282e74374c71
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: bd3704f3b51aad7292571e5c4e6de7b93cf9529f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="intelligence"></a>Informācija
+# <a name="business-intelligence-bi-and-reporting-home-page"></a>Biznesa informācijas (BI) un atskaišu veidošanas sākumlapa
 
 [!include [banner](../includes/banner.md)]
 
@@ -43,13 +43,13 @@ Lietotāji var mijiedarboties ar datiem, lapā noklikšķinot uz vizuālajiem l�
 
 ![Piemērs ar Power BI darbvietā](./media/Power-BI-in-D365-Workspace.png)
 
- Lai uzzinātu vairāk, skatiet tālāk norādītās tēmas.
+Lai uzzinātu vairāk, skatiet tālāk norādītās tēmas.
 
- - [Iegultais Power BI darbvietās](embed-power-bi-workspaces.md)
- - [Power BI Embedded integrācija](power-bi-embedded-integration.md)
- - [Analīzes pievienošana darbvietām, izmantojot Power BI Embedded](add-analytics-tab-workspaces.md)
- - [Analītisku darbvietu un pārskatu nodrošināšana, izmantojot Power BI Embedded](secure-analytical-workspaces.md)
- - [Power BI saturs programmai Finance and Operations](power-bi-home-page.md)
+- [Iegultais Power BI darbvietās](embed-power-bi-workspaces.md)
+- [Power BI Embedded integrācija](power-bi-embedded-integration.md)
+- [Analīzes pievienošana darbvietām, izmantojot Power BI Embedded](add-analytics-tab-workspaces.md)
+- [Analītisku darbvietu un pārskatu nodrošināšana, izmantojot Power BI Embedded](secure-analytical-workspaces.md)
+- [Power BI saturs programmai Finance and Operations](power-bi-home-page.md)
 
 ## <a name="business-documents-and-printing"></a>Biznesa dokumenti un drukāšana
 Pārskatu izveides risinājumus bieži izmanto, lai iegūtu un apspriestu informāciju par biznesa darījumiem. Tādēļ pārskatu izveides risinājumā ir jābūt iespējai biznesa datus piedāvāt fiziskā formā, izmantojot esošās ierīces, piemēram, tīkla printerus. Biznesa dokumenti ir, piemēram, pārdošanas rēķini, klientu darījumu pārskati un čeki.

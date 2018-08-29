@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
 ms.openlocfilehash: a64621c5310e5f68b9d6f1545bb39ce1519d71cf
 ms.contentlocale: lv-lv
-ms.lasthandoff: 06/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -33,16 +33,23 @@ ms.lasthandoff: 06/25/2018
 
 Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
 
-:::row::: :::column::: - [Kreditori](accounts-payable/accounts-payable.md) 
+:::row:::
+    :::column:::
+        - [Kreditoru parādi](accounts-payable/accounts-payable.md) 
         - [Debitoru parādi](accounts-receivable/accounts-receivable.md)
         - [Budžeta veidošana](budgeting/budgeting-overview.md) 
-        - [Kases un banku pārvaldība](cash-bank-management/cash-bank-management.md)
-        - [Izmaksu uzskaite](cost-accounting/cost-accounting-home-page.md) :::column-end::: :::column::: - [Izdevumu pārvaldība](expense-management/expense-management.md)
+        - [Kases un bankas vadība](cash-bank-management/cash-bank-management.md)
+        - [Izmaksu uzskaite](cost-accounting/cost-accounting-home-page.md)
+    :::column-end:::
+    :::column:::
+        - [Izdevumu pārvaldība](expense-management/expense-management.md)
         - [Finanšu pārskati](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [Pamatlīdzekļi](fixed-assets/fixed-assets.md)
-        - [Virsgrmata](general-ledger/general-ledger.md) 
+        - [Virsgrāmata](general-ledger/general-ledger.md) 
         - [Projektu vadība](project-management/overview-project-management-accounting.md)
-        - [Publiskais sektors](public-sector/public-sector-functionality.md) :::column-end::: :::row-end:::
+        - [Publiskais sektors](public-sector/public-sector-functionality.md) 
+    :::column-end:::
+:::row-end:::
 
 
 ## <a name="additional-resources"></a>Papildu resursi

@@ -1,5 +1,5 @@
 ---
-title: "Personāla atlases procesa pārvaldība"
+title: "Personāla atlases procesu pārvaldība"
 description: "Šajā tēmā ir aprakstīta metode, kuru personāla atlases speciālisti var izmantot, lai izsekotu personāla atlases procesā veicamajām darbībām, kas iekļauj sludinājumu par vakancēm publicēšanas pasākumus, informācijas par kandidātu un pieteikumu noskaidrošanu, kandidātu intervēšanu un viena vai vairāku kandidātu atlasi organizācijā izsludināto vakanču aizpildīšanai."
 author: rschloma
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4a7dba99c08d4dfc6afd1047130cea51b6bdab1d
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 80072aebe99b0a7f244c9475dc9ba586bc697893
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="manage-a-recruiting-process"></a>Personāla atlases procesa pārvaldība
+# <a name="manage-recruiting-processes"></a>Personāla atlases procesu pārvaldība
 
 [!include [banner](../includes/banner.md)]
 

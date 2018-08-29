@@ -1,5 +1,5 @@
 --- 
-title: "Datu modeļa paplašināšana, lai dokumentu pārvaldības failus lietotu formāta izvades datos"
+title: "Datu modeļu paplašināšana, lai dokumentu pārvaldības failus lietotu ER izvadē"
 description: "Tālāk aprakstītie soļi izskaidro, kā lietotājs, kam piešķirta loma Sistēmas administrators vai Elektroniskā pārskata izstrādātājs, var konfigurēt elektroniskā pārskata (ER) formātu, lai izmantotu dokumentu pārvaldības failus (pielikumi) ER izvadē."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bde8c612af22ba6bf4561732399fcf2cb1b5c9b3
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 8363dd2af728577175a620d7b645d90cea84803a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="extend-data-model-to-use-document-management-files-in-format-outputs"></a>Datu modeļa paplašināšana, lai dokumentu pārvaldības failus lietotu formāta izvades datos
+# <a name="extend-data-models-to-use-document-management-files-in-er-output"></a>Datu modeļu paplašināšana, lai dokumentu pārvaldības failus lietotu ER izvadē
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

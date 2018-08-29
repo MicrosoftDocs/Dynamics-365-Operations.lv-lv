@@ -1,5 +1,5 @@
 --- 
-title: "Izveidot nepieciešamās konfigurācijas datu importēšanai no ārējā faila elektronisko pārskatu veidošanai (ER)"
+title: "ER konfigurāciju izveide datu importēšanai no ārējiem failiem"
 description: "Nākamajās darbībās ir izskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var noformēt elektronisko pārskatu veidošanas (Electronic reporting — ER) konfigurācijas, lai importētu datus programmā Dynamics 365 for Finance and Operations no ārēja faila."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 999c6da306ff713521ce3bb5750bd7e65dc5daaf
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 70bf788b5924e382ab927fcff4c86908923e09d7
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="create-required-configurations-to-import-data-from-an-external-file-for-electronic-reporting-er"></a>Izveidot nepieciešamās konfigurācijas datu importēšanai no ārējā faila elektronisko pārskatu veidošanai (ER)
+# <a name="create-er-configurations-to-import-data-from-external-files"></a>ER konfigurāciju izveide datu importēšanai no ārējiem failiem
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

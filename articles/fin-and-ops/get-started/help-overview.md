@@ -1,9 +1,9 @@
 ---
-title: "Palīdzības apskats"
+title: "Finance and Operations palīdzības sistēma"
 description: "Šajā tēmā ir sniegts pārskats par programmas Microsoft Dynamics 365 for Finance and Operations palīdzības sistēmas komponentiem. Tajā ir arī paskaidrots, kā savai organizācijai varat sniegt pielāgotu dokumentāciju un apmācību."
 author: margoc
 manager: AnnBe
-ms.date: 10/31/2017
+ms.date: 07/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,14 +19,14 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2c02af887e662fd346d5e3e09cce755bfb58d520
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: e1ffd9cb90b2ffac8f89885aac2f614e2ae3cb71
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="help-system-overview"></a>Palīdzības sistēmas apskats
+# <a name="finance-and-operations-help-system"></a>Finance and Operations palīdzības sistēma
 
 [!include [banner](../includes/banner.md)]
 
@@ -82,27 +82,19 @@ Lai abonētu visu Unified Operations satura atjauninājumu RSS plūsmu, izmantoj
 [RSS plūsma](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
 
 ### <a name="give-feedback"></a>Atsauksmju sniegšana 
-Mēs labprāt saņemam klientu atsauksmes. Varat pievieno komentāru vai ieteikt mūsu sniegtā satura izmaiņas, izmantojot pakalpojumu GitHub.
+Mēs labprāt saņemam klientu atsauksmes. Varat pievienot komentāru vai ieteikt mūsu sniegtā satura izmaiņas, izmantojot pakalpojumu GitHub. Papildinformāciju par mūsu atsauksmju sistēmu skatiet [šajā emuāra ierakstā](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs).
 
-##### <a name="leave-us-a-comment"></a>Komentāra pievienošana 
+##### <a name="leave-us-feedback"></a>Sniedziet mums atsauksmes 
 Ja vēlaties sniegt atsauksmes vai uzdot jautājumu par tēmu, pievienojiet komentāru lapas apakšdaļā.  
 
-1. Noklikšķiniet uz **Komentāri**, lai pārietu uz komentāru sadaļu lapas apakšdaļā.
+1. Noklikšķiniet uz **Atsauksmes**, lai pārietu uz lapas apakšdaļā esošo komentāru sadaļu, un pēc tam noklikšķiniet uz **Atsauksmes par produktu** vai **Pierakstīties, lai sniegtu atsauksmes par dokumentāciju**.
 
-![Komentāri](./media/comments.png)
+![Dati](./media/comments.png)
 
-2. Ievadīt komentāru un pēc tam noklikšķiniet uz **Publicēt komentāru**.
+2. Ievadiet komentārus un pēc tam noklikšķiniet uz **Iesniegt atsauksmes**.
 
-![Komentāra publicēšana](./media/before-signin.png)
+![Komentāra publicēšana](./media/feedback.png)
 
-3. Atlasiet tā konta veidu, ko vēlaties izmantot, lai pierakstītos.  
-Noklikšķiniet uz vienas no kreisajā pusē esošajām ikonām, lai saistītu šo vietni ar esošu kontu, piemēram, Twitter, Facebook vai Microsoft kontu. 
-
-Vai 
-
-Labajā pusē ievadiet e-pasta adresi un jaunu paroli, lai izveidotu jaunu kontu izmantošanai šajā vietnē. 
-
-![Pierakstīšanās opcijas](./media/signin-options.png)
 
 
 ##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Izmaiņu ieteikšana vai satura iesniegšana, izmantojot pakalpojumu GitHub
@@ -115,7 +107,6 @@ Lai iegūtu sīkāku informāciju, skatiet mūsu līdzstrādnieku rokasgrāmatu 
 
 > [!NOTE]
 > Pašlaik varat līdzdarboties tikai mūsu angļu valodas repozitoriju satura veidošanā.  
-> Mēs nepieņemam pakalpojumā GitHub iesniegtus paziņojumus par problēmām — satura ieteikumu iesniegšanai noteikti izmantojiet atgādāšanas pieprasījumu. Atsauksmes par produktiem un līdzekļiem ir ieteicams iesniegt, izmantojot portālu Dynamics 365 Ideas: https://experience.dynamics.com/ideas/. 
 
 
 ## <a name="task-guides"></a>Uzdevumu ceļveži

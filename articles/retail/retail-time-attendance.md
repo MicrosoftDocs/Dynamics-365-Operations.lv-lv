@@ -1,5 +1,5 @@
 ---
-title: "Mazumtirdzniecības laiks un apmeklētība"
+title: "Laika un apmeklētības pārvaldība programmā Retail"
 description: "Šajā tēmā ir aprakstīti programmatūrā Microsoft Dynamics 365 for Finance and Operations — Retail atbalstītie laika un apmeklētības pārvaldības scenāriji."
 author: aamirallaqaband
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d5672579c1e2d51e4b6494a1e86e3606c09a93a2
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 21c29c3c37dfacdd98f5c3ec7698f07623da2285
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="retail-time-and-attendance"></a>Mazumtirdzniecības laiks un apmeklētība
+# <a name="time-and-attendance-management-in-retail"></a>Laika un apmeklētības pārvaldība programmā Retail
 
 [!include [banner](includes/banner.md)]
 
@@ -43,9 +43,9 @@ ms.lasthandoff: 11/03/2017
 
 ### <a name="plan-worker-schedules"></a>Darbinieku grafika plānošana
 
--   Izveidojiet profilus, izmantojot darbu plānošanas sistēmu. Sīkāku informāciju skatiet šeit: <https://technet.microsoft.com/en-us/library/aa551234.aspx>.
+-   Izveidojiet profilus, izmantojot darbu plānošanas sistēmu. Lai iegūtu papildus informāciju, skatiet <https://technet.microsoft.com/en-us/library/aa551234.aspx>.
 
-Informāciju par konfigurācijas soļiem skatiet šeit: <https://technet.microsoft.com/en-us/library/aa496971.aspx>.
+Informāciju par konfigurēšanas darbībām skatiet šeit: <https://technet.microsoft.com/en-us/library/aa496971.aspx>.
 
 ### <a name="retail-specific-configuration"></a>No mazumtirdzniecības modeļa atkarīga konfigurācija
 
@@ -135,7 +135,7 @@ Programmatūras Dynamics 365 for Finance and Operations — Retail lietotājs 
 -   Aiziešana grupā
 -   Kavējuma reģistrēšana
 
-Papildinformāciju par laika un apmeklētības reģistrācijas ierakstu apstrādi skatiet šeit: <https://technet.microsoft.com/en-us/library/aa573180.aspx>.
+Plašāku informāciju par to, kā apstrādāt laika un apmeklētības reģistrācijas, skatiet šeit: <https://technet.microsoft.com/en-us/library/aa573180.aspx>.
 
 
 

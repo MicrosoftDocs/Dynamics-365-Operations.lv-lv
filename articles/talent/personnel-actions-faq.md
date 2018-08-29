@@ -1,5 +1,5 @@
 ---
-title: "Personāla darbības [Bieži uzdotie jautājumi]"
+title: "Bieži uzdotie jautājumi par personāla darbībām"
 description: "Šajā tēmā ir atbildes uz jautājumiem, kas varētu rasties, ja jūsu organizācija izmanto personāla darbības. Personāla darbības ir papildu darbības, kas jāizpilda, kad veicat noteiktus uzdevumus saistībā ar personālu."
 author: ShielaSogge
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 58089418ac233d31a2a4f0298af5e884d77a67d3
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: 0e68154ec70fdf26d1d783de29a386a336fff92f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="personnel-actions-faq"></a>Personāla darbības [Bieži uzdotie jautājumi]
+# <a name="personnel-actions-faq"></a>Bieži uzdotie jautājumi par personāla darbībām
 
 [!include [banner](includes/banner.md)]
 

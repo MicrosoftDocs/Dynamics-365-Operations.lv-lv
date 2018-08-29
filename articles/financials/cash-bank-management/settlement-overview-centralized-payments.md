@@ -1,16 +1,16 @@
 ---
-title: "Centralizētu maksājumu nosegšanas pārskats"
-description: "Organizācijas, kurās ir iekļautas vairākas juridiskās personas, var izveidot un pārvaldīt maksājumus, izmantojot vienu juridisko personu, kas apstrādā visus maksājumus. Tādējādi tiek izslēgta nepieciešamība ievadīt vienas un tās pašas darbības vairākās juridiskajās personās un taupīts laiks, racionalizējot centralizētu maksājumu priekšlikuma procesu, segšanas procesu, neapmaksātu darbību rediģēšanu un slēgtu darbību rediģēšanu."
+title: "Centralizētu maksājumu nosegšanas apskats"
+description: "Šajā tēmā ir aprakstīta centralizēto maksājumu nosegšana programmai Microsoft Dynamics 365 for Finance and Operations."
 author: abruer
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustOpenTrans
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 222414
 ms.assetid: 610f6858-0f37-4d0f-8c68-bab5a971ef4a
@@ -19,14 +19,14 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b76b141531acfc2d1d7553a3e7a13f165373921b
+ms.sourcegitcommit: fc5a65c299adbf86fb2f38dff1a9aaa36f7367fa
+ms.openlocfilehash: 1fecc9027d0df7b268a3241ea0f1797849db2d90
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="settlement-overview-for-centralized-payments"></a>Centralizētu maksājumu nosegšanas pārskats
+# <a name="settlement-overview-for-centralized-payments"></a>Centralizētu maksājumu nosegšanas apskats
 
 [!include [banner](../includes/banner.md)]
 
@@ -35,8 +35,8 @@ Organizācijas, kurās ir iekļautas vairākas juridiskās personas, var izveido
 Ja debitora vai kreditora maksājums ir ievadīts vienā juridiskā personā un tiek segts ar rēķinu, kas tika izveidots citā juridiskā persona, piemērojamās nosegšanas, “apmaksāt līdz” un “apmaksāt no” darbības tiek automātiski ģenerētas katrai juridiskajai personai. Segšanas ieraksts tiek izveidots katrai rēķina un maksājuma kombinācijai darbībā. Katram nosegšanas ierakstam tiek piešķirts jauns dokumenta numurs, kas balstās uz maksājuma dokumentu numuru sēriju, kas norādīta lapā **Debitoru parādu parametri** debitoriem un lapā **Kreditoru parādu parametri** kreditoriem. 
 
 Ja termiņatlaidēm, ārvalstu valūtas pārvērtēšanai, sīknaudas starpībām, pārmaksām vai nepilnām samaksām tiek ģenerēti papildu nosegšanas ieraksti, tiem tiek piešķirts maksājuma vai rēķina darbības pēdējais datums. Ja nosegšana tiek veikta pēc maksājuma grāmatošanas, nosegšanas ieraksti izmanto nosegšanas grāmatošanas datumu, kas norādīts lapā **Nosegt atvērtās darbības**.
-Grāmatošanas tipi, darbību tipi un noklusējuma apraksti
-----------------------------------------------------------
+
+## <a name="posting-types-transaction-types-and-default-descriptions"></a>Grāmatošanas tipi, darbību tipi un noklusējuma apraksti
 
 Starpuzņēmumu nosegšanas dokumentu darbības izmanto starpuzņēmumu nosegšanas grāmatojuma tipu, starpuzņēmumu debitora nosegšanu un starpuzņēmumu kreditora nosegšanas darbību tipus. Darbības tipa informāciju varat iestatīt lapā **Noklusējuma apraksti**. 
 
@@ -50,8 +50,7 @@ Atsevišķa uzņēmuma un starpuzņēmumu segšanā var lietot šādus darbību 
 
 Starpuzņēmumu nosegšanas dokumentiem varat definēt arī noklusējuma aprakstus.
 
-<a name="currency-exchange-gains-or-losses"></a>Valūtas maiņas peļņa vai zaudējumi
----------------------------------
+## <a name="currency-exchange-gains-or-losses"></a>Valūtas maiņas peļņa vai zaudējumi
 
 Debitoru vai kreditoru darbībām izmantotais maiņas kurss tiek glabāts kopā ar darbību. Realizētā valūtas maiņas peļņa vai zaudējumi tiek grāmatoti rēķinā norādītajā juridiskajā personā vai maksājuma dokumentā norādītajā juridiskajā personā atkarībā no opcijas, kas atlasīta laukā **Grāmatotie valūtas maiņas ieguvumi vai zaudējumi** maksājuma dokumentā norādītās juridiskās personas lapā **Starpuzņēmuma uzskaite**. Tālākminētajos piemēros tiek izmantota šāda valūta:
 -   Maksājumu uzskaites valūta: EUR
@@ -59,7 +58,7 @@ Debitoru vai kreditoru darbībām izmantotais maiņas kurss tiek glabāts kopā 
 -   Maksājumu darījuma valūta: DKK
 -   Rēķinu darījuma valūta: CAD
 
-#### <a name="currency-calculations"></a>Valūtas aprēķins
+### <a name="currency-calculations"></a>Valūtas aprēķins
 
 Sedzot rēķinu, kas ir ievadīts vienā juridiskajā personā, ar maksājumu, kas ievadīts citā juridiskajā personā, maksājuma (DKK) darījuma valūta tiek konvertēta, veicot trīs soļus:
 1.  Konvertēta maksājuma dokumentā norādītajā uzskaites valūtā (EUR), izmantojot maksājuma dokumentā norādītās juridiskās personas maiņas kursu.
@@ -75,17 +74,15 @@ Ja lapa **Nosegt atvērtās darbības** tiek atvērta no maksājumu žurnāla, k
 
 Iegūtā maksājuma summa tiek pārsūtīta uz maksājumu žurnālu rindu, aizverot lapu **Nosegt atvērtās darbības**.
 
-#### <a name="posting-for-gain-or-loss-because-of-different-accounting-currencies"></a>Ar atšķirīgu uzskaites valūtu saistītas peļņas vai zaudējumu grāmatošana
+### <a name="posting-for-gain-or-loss-because-of-different-accounting-currencies"></a>Ar atšķirīgu uzskaites valūtu saistītas peļņas vai zaudējumu grāmatošana
 
 Ja pastāv valūtas maiņas peļņa vai zaudējumi, peļņa vai zaudējumi tiek grāmatoti juridiskajā personā, kas norādīta laukam **Grāmatotie valūtas maiņas ieguvumi vai zaudējumi** maksājuma dokumentā norādītās juridiskās personas lapā **Starpuzņēmuma uzskaite**. Peļņas vai zaudējumu summa tiek konvertēta tās juridiskās personas uzskaites valūtā, kurā peļņas vai zaudējumu summa tiek grāmatota, izmantojot šai juridiskajai personai definēto maiņas kursu.
 
-<a name="cash-discounts"></a>Termiņatlaides
---------------
+## <a name="cash-discounts"></a>Termiņatlaides
 
 Starpuzņēmumu segšanas procesa laikā ģenerētās termiņatlaides tiek grāmatotas rēķinā norādītajā juridiskajā personā vai maksājuma dokumentā norādītajā juridiskajā personā atkarībā no opcijas, kas atlasīta laukā **Grāmatotā termiņatlaide** maksājuma dokumentā norādītās juridiskās personas lapā **Starpuzņēmuma uzskaite**. Atbilstoša segšanas darbība tiek ģenerēta rēķinā norādītajā juridiskajā personā.
 
-<a name="overpayments-and-underpayments"></a>Pārmaksas un nepilnas samaksas
-------------------------------
+## <a name="overpayments-and-underpayments"></a>Pārmaksas un nepilnas samaksas
 
 Pārmaksas, nepilnas samaksas un sīknaudas starpības tolerances tiek noteiktas, ņemot vērā maksājuma dokumentā norādīto juridisko personu pārmaksu gadījumā un rēķinā norādīto juridisko personu nepilnu samaksu gadījumā. Izmantotais grāmatošanas konts tiek noteikts pēc iestatījuma laukā **Termiņatlaižu administrēšana**, debitoru lapā **Debitoru parādu parametri** un laukā **Termiņatlaižu administrēšana**, kreditoru lapā **Kreditoru parādu parametri**.
 
@@ -112,9 +109,4 @@ Kreditoru maksājumiem darbības “apmaksāt līdz” un “apmaksāt no” mak
 
 ## <a name="withholding-tax"></a>Ieturētais nodoklis
 Ar rēķinu saistīts kreditora konts tiek izmantots, lai noteiktu, vai jāaprēķina ieturētais nodoklis. Ja tiek piemērots ieturējuma nodoklis, to aprēķina ar rēķinu saistītajā juridiskajā personā. Ja juridiskās personas izmanto dažādas valūtas, tiek izmantots ar rēķinu saistītās juridiskās personas maiņas kurss.
-
-
-
-
-
 
