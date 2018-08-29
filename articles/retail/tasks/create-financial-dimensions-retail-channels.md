@@ -1,5 +1,5 @@
 --- 
-title: " Mazumtirdzniecības kanālu finanšu dimensiju izveide un dimensiju vērtību konfigurēšana veikalos"
+title: "Mazumtirdzniecības kanālu finanšu dimensiju izveide un dimensiju vērtību konfigurēšana veikalos"
 description: "Šajā procedūrā ir aprakstīts mazumtirdzniecības kanāla dimensijas izveides process, izmantojot dimensijas vērtības, kā arī finanšu dimensijas vērtību konfigurēšanas process mazumtirdzniecības veikalos."
 author: jashanno
 manager: AnnBe
@@ -17,42 +17,42 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 3782d5d2a43b6b22a6f5b25c806e9d4bba5999a5
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: cf32d17a36fd699141ce697d23e20b2eb5cbfa54
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a><span data-ttu-id="8e215-103"> Mazumtirdzniecības kanālu finanšu dimensiju izveide un dimensiju vērtību konfigurēšana veikalos</span><span class="sxs-lookup"><span data-stu-id="8e215-103">Create financial dimensions for Retail channels and configure dimension values on stores</span></span>
+# <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a><span data-ttu-id="be87e-103">Mazumtirdzniecības kanālu finanšu dimensiju izveide un dimensiju vērtību konfigurēšana veikalos</span><span class="sxs-lookup"><span data-stu-id="be87e-103">Create financial dimensions for retail channels and configure dimension values on stores</span></span>
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="8e215-104">Šajā procedūrā ir aprakstīts mazumtirdzniecības kanāla dimensijas izveides process, izmantojot dimensijas vērtības, kā arī finanšu dimensijas vērtību konfigurēšanas process mazumtirdzniecības veikalos.</span><span class="sxs-lookup"><span data-stu-id="8e215-104">This procedure walks through creating a retail channel financial dimension with dimension values and steps to configure financial dimension values on retail stores.</span></span> <span data-ttu-id="8e215-105">Šajā tēmā nav aprakstītas citas saistītās darbības, piemēram, dimensiju kopu un kontu struktūru izveide.</span><span class="sxs-lookup"><span data-stu-id="8e215-105">The topic does not include other related steps, such as creating dimension sets and account structures.</span></span> <span data-ttu-id="8e215-106">Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.</span><span class="sxs-lookup"><span data-stu-id="8e215-106">This procedure uses the USRT company in demo data.</span></span>
+<span data-ttu-id="be87e-104">Šajā procedūrā ir aprakstīts mazumtirdzniecības kanāla dimensijas izveides process, izmantojot dimensijas vērtības, kā arī finanšu dimensijas vērtību konfigurēšanas process mazumtirdzniecības veikalos.</span><span class="sxs-lookup"><span data-stu-id="be87e-104">This procedure walks through creating a retail channel financial dimension with dimension values and steps to configure financial dimension values on retail stores.</span></span> <span data-ttu-id="be87e-105">Šajā tēmā nav aprakstītas citas saistītās darbības, piemēram, dimensiju kopu un kontu struktūru izveide.</span><span class="sxs-lookup"><span data-stu-id="be87e-105">The topic does not include other related steps, such as creating dimension sets and account structures.</span></span> <span data-ttu-id="be87e-106">Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.</span><span class="sxs-lookup"><span data-stu-id="be87e-106">This procedure uses the USRT company in demo data.</span></span>
 
-1. <span data-ttu-id="8e215-107">Pārejiet uz sadaļu Virsgrāmata > Kontu plāns > Dimensijas > Finanšu dimensijas.</span><span class="sxs-lookup"><span data-stu-id="8e215-107">Go to General ledger > Chart of accounts > Dimensions > Financial dimensions.</span></span>
-2. <span data-ttu-id="8e215-108">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="8e215-108">Click New.</span></span>
-3. <span data-ttu-id="8e215-109">Laukā Izmantot vērtības no atlasiet Mazumtirdzniecības kanāli.</span><span class="sxs-lookup"><span data-stu-id="8e215-109">In the Use values from field, select 'Retail channels'.</span></span>
-4. <span data-ttu-id="8e215-110">Laukā Dimensijas nosaukums ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="8e215-110">In the Dimension name field, type a value.</span></span>
-5. <span data-ttu-id="8e215-111">Noklikšķiniet uz Aktivizēt.</span><span class="sxs-lookup"><span data-stu-id="8e215-111">Click Activate.</span></span>
-6. <span data-ttu-id="8e215-112">Noklikšķiniet uz Aizvērt.</span><span class="sxs-lookup"><span data-stu-id="8e215-112">Click Close.</span></span>
-7. <span data-ttu-id="8e215-113">Noklikšķiniet uz Aktivizēt.</span><span class="sxs-lookup"><span data-stu-id="8e215-113">Click Activate.</span></span>
-8. <span data-ttu-id="8e215-114">Noklikšķiniet uz Dimensiju vērtības.</span><span class="sxs-lookup"><span data-stu-id="8e215-114">Click Dimension values.</span></span>
-9. <span data-ttu-id="8e215-115">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="8e215-115">Close the page.</span></span>
-10. <span data-ttu-id="8e215-116">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="8e215-116">Click Save.</span></span>
-11. <span data-ttu-id="8e215-117">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="8e215-117">Close the page.</span></span>
-12. <span data-ttu-id="8e215-118">Pārejiet uz sadaļu Mazumtirdzniecība un komercija > Kanāli > Mazumtirdzniecības veikali > Visi mazumtirdzniecības veikali.</span><span class="sxs-lookup"><span data-stu-id="8e215-118">Go to Retail and commerce > Channels > Retail stores > All retail stores.</span></span>
-13. <span data-ttu-id="8e215-119">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="8e215-119">In the list, click the link in the selected row.</span></span>
-14. <span data-ttu-id="8e215-120">Pārslēdziet sadaļas Finanšu dimensijas paplašinājumu.</span><span class="sxs-lookup"><span data-stu-id="8e215-120">Toggle the expansion of the Financial dimensions section.</span></span>
-15. <span data-ttu-id="8e215-121">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="8e215-121">Click Edit.</span></span>
-16. <span data-ttu-id="8e215-122">Laukā Mazumtirdzniecības kanāls noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanas logu.</span><span class="sxs-lookup"><span data-stu-id="8e215-122">In the Retailchannel field, click the drop-down button to open the lookup.</span></span>
-17. <span data-ttu-id="8e215-123">Sarakstā atrodiet un atlasiet dimensijas vērtību veikalam, kas tiek atjaunināts.</span><span class="sxs-lookup"><span data-stu-id="8e215-123">In the list, find and select the dimension value for the store being updated.</span></span>
-18. <span data-ttu-id="8e215-124">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="8e215-124">In the list, click the link in the selected row.</span></span>
-19. <span data-ttu-id="8e215-125">Laukā CostCenter noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="8e215-125">In the CostCenter field, click the drop-down button to open the lookup.</span></span>
-20. <span data-ttu-id="8e215-126">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="8e215-126">In the list, find and select the desired record.</span></span>
-21. <span data-ttu-id="8e215-127">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="8e215-127">In the list, click the link in the selected row.</span></span>
-22. <span data-ttu-id="8e215-128">Laukā Nodaļa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="8e215-128">In the Department field, click the drop-down button to open the lookup.</span></span>
-23. <span data-ttu-id="8e215-129">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="8e215-129">In the list, find and select the desired record.</span></span>
-24. <span data-ttu-id="8e215-130">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="8e215-130">In the list, click the link in the selected row.</span></span>
-25. <span data-ttu-id="8e215-131">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="8e215-131">Click Save.</span></span>
+1. <span data-ttu-id="be87e-107">Pārejiet uz sadaļu Virsgrāmata > Kontu plāns > Dimensijas > Finanšu dimensijas.</span><span class="sxs-lookup"><span data-stu-id="be87e-107">Go to General ledger > Chart of accounts > Dimensions > Financial dimensions.</span></span>
+2. <span data-ttu-id="be87e-108">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="be87e-108">Click New.</span></span>
+3. <span data-ttu-id="be87e-109">Laukā Izmantot vērtības no atlasiet Mazumtirdzniecības kanāli.</span><span class="sxs-lookup"><span data-stu-id="be87e-109">In the Use values from field, select 'Retail channels'.</span></span>
+4. <span data-ttu-id="be87e-110">Laukā Dimensijas nosaukums ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="be87e-110">In the Dimension name field, type a value.</span></span>
+5. <span data-ttu-id="be87e-111">Noklikšķiniet uz Aktivizēt.</span><span class="sxs-lookup"><span data-stu-id="be87e-111">Click Activate.</span></span>
+6. <span data-ttu-id="be87e-112">Noklikšķiniet uz Aizvērt.</span><span class="sxs-lookup"><span data-stu-id="be87e-112">Click Close.</span></span>
+7. <span data-ttu-id="be87e-113">Noklikšķiniet uz Aktivizēt.</span><span class="sxs-lookup"><span data-stu-id="be87e-113">Click Activate.</span></span>
+8. <span data-ttu-id="be87e-114">Noklikšķiniet uz Dimensiju vērtības.</span><span class="sxs-lookup"><span data-stu-id="be87e-114">Click Dimension values.</span></span>
+9. <span data-ttu-id="be87e-115">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="be87e-115">Close the page.</span></span>
+10. <span data-ttu-id="be87e-116">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="be87e-116">Click Save.</span></span>
+11. <span data-ttu-id="be87e-117">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="be87e-117">Close the page.</span></span>
+12. <span data-ttu-id="be87e-118">Pārejiet uz sadaļu Mazumtirdzniecība un komercija > Kanāli > Mazumtirdzniecības veikali > Visi mazumtirdzniecības veikali.</span><span class="sxs-lookup"><span data-stu-id="be87e-118">Go to Retail and commerce > Channels > Retail stores > All retail stores.</span></span>
+13. <span data-ttu-id="be87e-119">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="be87e-119">In the list, click the link in the selected row.</span></span>
+14. <span data-ttu-id="be87e-120">Pārslēdziet sadaļas Finanšu dimensijas paplašinājumu.</span><span class="sxs-lookup"><span data-stu-id="be87e-120">Toggle the expansion of the Financial dimensions section.</span></span>
+15. <span data-ttu-id="be87e-121">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="be87e-121">Click Edit.</span></span>
+16. <span data-ttu-id="be87e-122">Laukā Mazumtirdzniecības kanāls noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanas logu.</span><span class="sxs-lookup"><span data-stu-id="be87e-122">In the Retailchannel field, click the drop-down button to open the lookup.</span></span>
+17. <span data-ttu-id="be87e-123">Sarakstā atrodiet un atlasiet dimensijas vērtību veikalam, kas tiek atjaunināts.</span><span class="sxs-lookup"><span data-stu-id="be87e-123">In the list, find and select the dimension value for the store being updated.</span></span>
+18. <span data-ttu-id="be87e-124">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="be87e-124">In the list, click the link in the selected row.</span></span>
+19. <span data-ttu-id="be87e-125">Laukā CostCenter noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="be87e-125">In the CostCenter field, click the drop-down button to open the lookup.</span></span>
+20. <span data-ttu-id="be87e-126">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="be87e-126">In the list, find and select the desired record.</span></span>
+21. <span data-ttu-id="be87e-127">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="be87e-127">In the list, click the link in the selected row.</span></span>
+22. <span data-ttu-id="be87e-128">Laukā Nodaļa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="be87e-128">In the Department field, click the drop-down button to open the lookup.</span></span>
+23. <span data-ttu-id="be87e-129">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="be87e-129">In the list, find and select the desired record.</span></span>
+24. <span data-ttu-id="be87e-130">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="be87e-130">In the list, click the link in the selected row.</span></span>
+25. <span data-ttu-id="be87e-131">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="be87e-131">Click Save.</span></span>
 
 

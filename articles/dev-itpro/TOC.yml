@@ -1,4 +1,4 @@
-- name: "Dynamics\_365 for Finance and Operations izstrāde un administrēšana"
+- name: Finance and Operations izstrāde un administrēšana
   href: index.md
 - name: Sistēmas prasības mākoņa izvietojumiem
   href: ../fin-and-ops/get-started/system-requirements.md?toc=/dev-itpro/toc.json
@@ -7,27 +7,27 @@
 - name: Demonstrācijas dati
   href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
   items:
-    - name: Demonstrācijas datu ģenerēšana ar pakotnēm
+    - name: 'Demonstrācijas datu ģenerēšana, izmantojot pakotnes'
       href: data-entities/generate-demo-data-packages.md
 - name: 'Izstrāde un pielāgošana, izmantojot Visual Studio'
   href: dev-tools/developer-home-page.md
   items:
     - name: Programmas steks un servera arhitektūra
       href: dev-tools/application-stack-server-architecture.md
-    - name: Novērtēšanas kopijas iegūšana
+    - name: Novērtēšanas kopiju iegūšana
       href: dev-tools/get-evaluation-copy.md
-    - name: Reģistrēšanās abonementam
+    - name: Reģistrācija priekšskatījuma abonementiem
       href: dev-tools/sign-up-preview-subscription.md
     - name: Izstrādes vides izvietošana un piekļuve tai
       href: dev-tools/access-instances.md
       items:
-        - name: Izstrādātāja VM konfigurēšana
+        - name: Vienotas izstrādes vides konfigurēšana
           href: dev-tools/configure-developer-vm.md
-        - name: Jauna lietotāja izveide izstrādes mašīnā
+        - name: Jaunu lietotāju izveide izstrādes mašīnās
           href: dev-tools/enable-development-machine.md
         - name: 'Bieži uzdotie jautājumi par tādu virtuālo mašīnu izstrādi un būvēšanu, kas neļauj administratora piekļuvi'
           href: sysadmin/VMs-no-admin-access.md
-        - name: 'Lokālās vides pārdēvēšana, lai iespējotu piekļuvi pakalpojumiem Visual Studio Team Services'
+        - name: 'Lokālo vižu pārdēvēšana, lai piekļūtu pakalpojumiem Visual Studio Team Services'
           href: migration-upgrade/vso-machine-renaming.md
         - name: Izstrādes sistēmas prasības
           href: dev-tools/development-system-requirements.md
@@ -35,28 +35,28 @@
       href: dev-tools/version-control-metadata-navigation.md
     - name: Autoparka pārvaldības programmas paraugs
       items:
-        - name: Autoparka pārvaldības programmas paraugs
+        - name: Visaptverošs scenārijs autoparka pārvaldības programmas paraugs
           href: dev-tools/fleet-management-sample.md
-        - name: Autoparka pārvaldības programmas parauga apskats
+        - name: Autoparka pārvaldības programmas paraugs
           href: dev-tools/introduction-fleet-management-sample.md
     - name: Visual Studio rīki
       items:
-        - name: Izstrādes rīku apskats
+        - name: Izstrādes rīki
           href: dev-tools/development-tools-overview.md
         - name: Apmācība par izstrādes rīkiem
           href: dev-tools/introduction-visual-studio.md
         - name: Programmu pārlūks
           href: dev-tools/application-explorer.md
-        - name: Projekta izveide un atkļūdošana
+        - name: Projektu izveide un atkļūdošana
           href: dev-tools/build-debug-project.md
         - name: Būvējuma operācijas
           href: dev-tools/build-operations.md
-        - name: Koda redaktors
+        - name: Koda redaktora funkcijas
           href: dev-tools/code-editor.md
-        - name: Modeļa un datu modeļa elementu izveide
+        - name: Modeļu un datu modeļa elementu izveide
           href: dev-tools/create-data-model-elements.md
           items:
-            - name: Nosaukumdošanas vadlīnijas
+            - name: Nosaukumdošanas vadlīnijas paplašinājumiem
               href: extensibility/NamingGuidelines.md
             - name: Modeļu pielāgošanas izslēgšana un funkcionalitātes atzīšana par novecojušu
               href: dev-tools/lock-models.md
@@ -64,15 +64,15 @@
           href: dev-tools/customization-analysis-report.md
         - name: Elementu veidotāji​
           href: dev-tools/element-designers.md
-        - name: Elementu lietojums
+        - name: Komandas elementu izmantošanas noteikšanai
           href: dev-tools/element-usage.md
-        - name: Modeļa eksports un imports
+        - name: Modeļu eksports un imports
           href: dev-tools/models-export-import.md
         - name: Metadatu meklēšana rīkā Visual Studio
           href: dev-tools/metadata-search-visual-studio.md
-        - name: Modeļi
+        - name: Modeļi un pakotnes
           href: dev-tools/models.md
-        - name: "Dynamics\_365 for Finance and Operations projekti"
+        - name: Finance and Operations projekta veids
           href: dev-tools/projects.md
         - name: Visual Studio rīku pievienojumprogrammas
           href: dev-tools/developer-tools-add-ins.md
@@ -80,21 +80,21 @@
           href: dev-tools/update-development-tools.md
     - name: X++ programmēšanas valoda
       items:
-        - name: 'X++ un atkļūdošanas līdzekļi  '
+        - name: X++ un atkļūdošanas līdzekļi
           href: dev-tools/new-x-debugger-features.md
-        - name: 'X++ atkļūdošana, izmantojot ražošanas datu bāzes kopiju'
+        - name: 'X++ atkļūdošana, izmantojot ražošanas datu bāzu kopijas'
           href: dev-tools/debug-x-issue-against-copy-of-production.md
         - name: X++ koda atkļūdošana
           href: dev-tools/debug-xpp.md
         - name: EventHandlerResult klases pieprasījuma vai atbildes scenārijos
           href: dev-tools/event-handler-result-class.md
-        - name: 'Biznesa loģikas rakstīšana, izmantojot C\# un X++ pirmkodu'
+        - name: 'Biznesa loģikas rakstīšana, izmantojot C# un X++ pirmkodu'
           href: dev-tools/write-business-logic.md
-        - name: Programmēšanas valodu atbalsts
+        - name: X++ un X++ kompilatora izmaiņas
           href: dev-tools/programming-language-support.md
-        - name: 'LINQ nodrošinātājs valodai C\#'
+        - name: "LINQ sniedzējs\_C# videi"
           href: dev-tools/linq-provider-c.md
-        - name: Autorēšanas labākās prakses
+        - name: Labākās prakses kārtulu rakstīšana
           href: dev-tools/author-best-practice-rules.md
         - name: Programmu pārlūka rekvizīti
           href: dev-ref/application-explorer-aot-properties.md
@@ -118,7 +118,7 @@
               href: dev-ref/xpp-macros.md
             - name: X++ atribūtu klases
               href: dev-ref/xpp-attribute-classes.md
-            - name: 'X++ un C\# salīdzinājums'
+            - name: 'X++ un C# salīdzinājums'
               href: dev-ref/xpp-cs-comparison.md
             - name: X++ sintakse
               href: dev-ref/xpp-syntax.md
@@ -144,45 +144,45 @@
               href: dev-ref/xpp-reflection-run-time-functions.md
             - name: X++ sesijas izpildlaika funkcijas
               href: dev-ref/xpp-session-run-time-functions.md
-            - name: X++ virknes izpildlaika funkcijas​
+            - name: X++ virknes izpildlaika funkcijas
               href: dev-ref/xpp-string-run-time-functions.md
         - name: Sistēmas tabulas
           href: dev-ref/system-tables.md
         - name: Sistēmas klases
           items:
-            - name: "A\_klases"
+            - name: A klases
               href: dev-ref/a-classes.md
-            - name: "B\_klases"
+            - name: B klases
               href: dev-ref/b-classes.md
-            - name: "C\_klases"
+            - name: C klases
               href: dev-ref/c-classes.md
-            - name: "D\_klases"
+            - name: D klases
               href: dev-ref/d-classes.md
-            - name: "E\_klases"
+            - name: E klases
               href: dev-ref/e-classes.md
-            - name: "F\_klases: FieldBinding līdz FormBuildAnimateControl"
+            - name: F klases (FieldBinding līdz FormBuildAnimateControl)
               href: dev-ref/fieldbinding-classes.md
-            - name: 'F klases: FormBuildButtonControl līdz FormBuildFastTabSummarySeparator'
+            - name: F klases (FormBuildButtonControl līdz FormBuildFastTabSummarySeparator)
               href: dev-ref/formbuildbuttoncontrol-classes.md
-            - name: 'F klases: FormBuildFilterPaneControl līdz FormBuildRealControl'
+            - name: F klases (FormBuildFilterPaneControl līdz FormBuildRealControl)
               href: dev-ref/formbuildfilterpanecontrol-classes.md
-            - name: 'F klases: FormBuildReferenceControl līdz FormButtonSeparatorControl'
+            - name: F klases (FormBuildReferenceControl līdz FormButtonSeparatorControl)
               href: dev-ref/formbuildreferencecontrol-classes.md
-            - name: 'F klases: FormChangeTracker līdz FormControlEventArgs'
+            - name: F klases (FormChangeTracker līdz FormControlEventArgs)
               href: dev-ref/formchangetracker-classes.md
-            - name: 'F klases: FormDataObject līdz FormFastTabHeaderControl'
+            - name: F klases (FormDataObject līdz FormFastTabHeaderControl)
               href: dev-ref/formdataobject-classes.md
-            - name: 'F klases: FormFastTabSummarySeparator līdz FormGridControl'
+            - name: F klases (FormFastTabSummarySeparator līdz FormGridControl)
               href: dev-ref/formfasttabsummaryseparator-classes.md
-            - name: 'F klases: FormGroupControl līdz FormIntControl'
+            - name: F klases (FormGroupControl līdz FormIntControl)
               href: dev-ref/formgroupcontrol-classes.md
-            - name: 'F klases: FormListBoxControl līdz FormNotifyEventArgs'
+            - name: F klases (FormListBoxControl līdz FormNotifyEventArgs)
               href: dev-ref/formlistboxcontrol-classes.md
-            - name: 'F klases: FormObject līdz FormRealControl'
+            - name: F klases (FormObject līdz FormRealControl)
               href: dev-ref/formobject-classes.md
-            - name: 'F klases: FormReferenceControl līdz FormStringControl'
+            - name: F klases (FormReferenceControl līdz FormStringControl)
               href: dev-ref/formreferencecontrol-classes.md
-            - name: 'F klases: FormTabControl līdz FormWindowControl'
+            - name: F klases (FormTabControl līdz FormWindowControl)
               href: dev-ref/formtabcontrol-classes.md
             - name: G klases
               href: dev-ref/g-classes.md
@@ -206,98 +206,104 @@
               href: dev-ref/p-classes.md
             - name: Q klases
               href: dev-ref/q-classes.md
-            - name: "R\_klases"
+            - name: R klases
               href: dev-ref/r-classes.md
-            - name: "S\_klases"
+            - name: S klases
               href: dev-ref/s-classes.md
-            - name: "T\_klases"
+            - name: T klases
               href: dev-ref/t-classes.md
-            - name: "U\_klases"
+            - name: U klases
               href: dev-ref/u-classes.md
-            - name: "V\_klases"
+            - name: V klases
               href: dev-ref/v-classes.md
-            - name: "W\_klases"
+            - name: W klases
               href: dev-ref/w-classes.md
-            - name: "X\_klases"
+            - name: X klases
               href: dev-ref/x-classes.md
     - name: Paplašināmība
       href: extensibility/extensibility-home-page.md
       items:
         - name: Ievads un darba sākšana
           items:
-            - name: Programmu paplašināmības plāni
+            - name: Programmu paplašināmības plāns
               href: extensibility/extensibility-roadmap.md
             - name: Paplašināmības pieprasījumi
               href: extensibility/extensibility-requests.md
-            - name: Bieži uzdotie jautājumi
+            - name: Bieži uzdotie jautājumi par paplašināmību
               href: extensibility/app-sealing-faq.md
             - name: Migrēšana no pārklāšanās uz paplašinājumiem
               href: extensibility/migrate-overlayer-extension.md
-            - name: 'Modeļa elementu pielāgošana, izmantojot paplašinājumus (apmācība)'
+            - name: 'Modeļa elementu pielāgošana, izmantojot paplašinājumu (apmācība)'
               href: extensibility/customize-model-elements-extensions.md
-            - name: 'Pielāgošana: pārklāšanās un paplašinājumi'
+            - name: 'Pielāgošana, izmantojot paplašinājumu un pārklāšanos'
               href: extensibility/customization-overlayering-extensions.md
         - name: Jaunumi
           items:
             - name: "Paplašināmības izmaiņas, 2017.\_gada jūlijs"
               href: extensibility/changes-july-2017.md
-            - name: "Paplašināmības izmaiņas, versija\_7.3"
+            - name: Paplašināmības izmaiņas versijā 7.3
               href: extensibility/extensibility-changes-73.md
-            - name: "Paplašināmības izmaiņas, versija\_8.0"
+            - name: Paplašināmības izmaiņas versijā 8.0
               href: extensibility/changes-80.md
+            - name: "Paplašināmības izmaiņas, versija\_8.0.1"
+              href: extensibility/extensibility-changes-801.md
+            - name: "Paplašināmības izmaiņas, versija\_8.0.2"
+              href: extensibility/extensibility-changes-802.md
+            - name: "Paplašināmības izmaiņas, versija\_8.0.3"
+              href: extensibility/extensibility-changes-803.md
         - name: Pamati
           items:
             - name: Traucējoši pielāgojumi
               href: extensibility/intrusive-customizations.md
-            - name: Klašu paplašinājumi
+            - name: Klases paplašinājuma modelis
               href: extensibility/class-extensions.md
-            - name: 'Klases paplašinājums: Metodes iesaiņošana un Komandķēde'
+            - name: 'Klases paplašinājums, izmantojot metodes aplikšanu un Komandķēdi'
               href: extensibility/method-wrapping-coc.md
-            - name: Nosaukumdošanas vadlīnijas
+            - name: Nosaukumdošanas vadlīnijas modeļu paplašinājumiem
               href: extensibility/naming-guidelines-extensions.md
-            - name: 'Modeļa ierobežojumu mazināšana, lai dalījumu pārāk daudzos slāņos ļautu reorganizēt paplašinājumos'
+            - name: 'Modeļa ierobežojumu mazināšana, lai reorganizētu pārklāšanos paplašinājumos'
               href: extensibility/refactoring-over-layering.md
         - name: Kā to paveikt?
           items:
-            - name: Uzskaitījuma vērtības pievienošana
+            - name: Vērtību pievienošana enums
               href: extensibility/add-enum-value.md
-            - name: Paplašinātā datu tipa modificēšana
+            - name: Paplašināto datu tipu modificēšana
               href: extensibility/modify-edt.md
-            - name: Apakšklases reģistrēšana rūpnīcas metodēm
+            - name: Apakšklašu reģistrēšana rūpnīcas metodēm
               href: extensibility/register-subclass-factory-methods.md
-            - name: Atbildēšana ar EventHandlerResult
+            - name: 'Atbildēšana, izmantojot EventHandlerResult'
               href: extensibility/respond-event-handler-result.md
             - name: Klases RunBase paplašināšana
               href: extensibility/extend-runbase-class.md
-            - name: 'Pārstāvju lietošana, lai pielāgotu programmas startēšanu'
+            - name: 'Programmas startēšanas pielāgošana, izmantojot pārstāvjus'
               href: extensibility/startup-customizations.md
-            - name: Tabulā esoša lauka modificēšana
+            - name: Tabulā esošu lauku modificēšana
               href: extensibility/modify-existing-field.md
-            - name: Jauna lauka pievienošana esošai tabulai
+            - name: Lauku pievienošana tabulās
               href: extensibility/add-field-extension.md
-            - name: Indeksa pievienošana esošai tabulai
+            - name: Indeksu pievienošana tabulās
               href: extensibility/add-index.md
-            - name: Relācijas pievienošana esošai tabulai
+            - name: Attiecību pievienošana tabulās
               href: extensibility/add-relation.md
-            - name: Rekvizītu modificēšana esošā tabulā
+            - name: Tabulas rekvizītu modificēšana
               href: extensibility/modify-properties.md
-            - name: Metodes pievienošana tabulai
+            - name: Metožu pievienošana tabulās
               href: extensibility/add-method-table.md
-            - name: 'Biznesa darbību veikšana, izmantojot tabulas ieraksta darba ciklu'
+            - name: 'Biznesa darbību veikšana, izmantojot tabulas ierakstu darba ciklu'
               href: extensibility/subscribe-table-events.md
-            - name: Jauna datu avota pievienošana veidlapai
+            - name: Datu avotu pievienošana formās
               href: extensibility/add-datasource.md
-            - name: Uzraksta maiņa veidlapā
+            - name: Formas uzrakstu mainīšana
               href: extensibility/change-caption-form.md
-            - name: Veidlapas kontroles rekvizītu modificēšana
+            - name: Formas kontroles rekvizītu modificēšana
               href: extensibility/modify-control-properties.md
-            - name: Etiķetes maiņa
+            - name: 'Etiķešu mainīšana, izmantojot etiķešu paplašinājuma failus'
               href: extensibility/change-label.md
-            - name: Numuru sērijas diapazona paplašināšana
+            - name: Numuru sēriju diapazona paplašināšana
               href: extensibility/extend-number-sequence-scope.md
-            - name: Jaunas krājuma dimensijas pievienošana
+            - name: Jaunu krājuma dimensiju pievienošana
               href: extensibility/inventory-dimensions.md
-            - name: Izmaiņas cenu un atlaižu paplašināmībā
+            - name: Cenu un atlaižu paplašināšana
               href: extensibility/pricing-app73.md
             - name: Tabulu karšu paplašinājums
               href: extensibility/map-extensions.md
@@ -309,9 +315,11 @@
       items:
         - name: 'Darbību izsekošana, izmantojot Trace Parser'
           href: perf-test/trace-trace-tutorial.md
-        - name: 'PerfSDK un vairāku lietotāju testēšana, izmantojot Visual Studio Team Services'
+        - name: 'Veiktspējas SDK un vairāklietotāju testēšana, izmantojot Visual Studio Online'
           href: perf-test/perfsdk-tutorial.md
-        - name: 'Problēmu diagnostika un veiktspējas problēmu analīze, izmantojot Trace Parser'
+        - name: Veiktspējas SDK un vairāklietotāju testēšana lokālās vidēs
+          href: perf-test/perfsdk-tutorial-lbd.md
+        - name: 'Problēmu diagnostika un veiktspējas analīze, izmantojot Trace Parser'
           href: perf-test/trace-parser.md
         - name: Veiktspējas taimeris
           href: perf-test/performance-timer.md
@@ -321,7 +329,7 @@
           href: perf-test/testing-validation.md
         - name: Projektu testēšana Visual Studio vidē
           href: perf-test/testing-support.md
-        - name: Izvietojums ar pastāvīgu būvēšanu un testu automatizēšanu
+        - name: 'Tādu topoloģiju izvietošanu, kuras atbalsta pastāvīgu būvēšanu un testu automatizēšanu'
           href: perf-test/continuous-build-test-automation.md
     - name: Datuma efektivitāte
       href: dev-tools/date-effectivity.md
@@ -334,29 +342,29 @@
   items:
     - name: Apmācība
       items:
-        - name: Nomas maksas tipa veidlapas izveide
+        - name: Nomas maksas tipa formas izveide
           href: user-interface/build-rental-charge-type-form.md
-        - name: Debitoru veidlapas izveide
+        - name: Debitoru formas izveide
           href: user-interface/build-customer-form.md
         - name: Navigācijas izveide
           href: user-interface/build-navigation.md
-        - name: Darbvietas izveide
+        - name: Darbvietu izveide
           href: user-interface/build-workspace.md
-    - name: Veidlapas
+    - name: Formas
       items:
-        - name: Dynamics 365 for Finance and Operations navigācija
+        - name: Navigācijas jēdzieni
           href: user-interface/page-navigation.md
-        - name: Dynamics 365 for Finance and Operations izkārtojums
+        - name: Lapas izkārtojums tīmekļa klientā
           href: user-interface/page-layout.md
-        - name: Simbolu fonts
+        - name: Dynamics simbolu fonts
           href: user-interface/symbol-font.md
-        - name: Testa veidlapas ar pielāgotiem modeļiem
+        - name: 'Testa formas, kurās tiek izmantoti pielāgoti modeļi'
           href: user-interface/testing-forms-custom-patterns.md
-        - name: Dziļo saišu izveide un izmantošana
+        - name: 'Koplietojamu, aizsargātu vietrāžu URL izveide (dziļās saites)'
           href: user-interface/create-deep-links.md
-        - name: 'Pieejamība veidlapās, produktos un vadīklās'
+        - name: 'Pieejamība formās, produktos un vadīklās'
           href: user-interface/enable-accessibility.md
-        - name: Palīdzības lauka pielāgošana
+        - name: Lauku aprakstu pielāgošana
           href: user-interface/customize-field-help.md
     - name: Vadīklas
       items:
@@ -364,9 +372,9 @@
           href: user-interface/action-controls.md
         - name: Ievades vadīklas un režģa kolonnu izmēri
           href: user-interface/sizing-input-controls-grid-columns.md
-        - name: Izvēles rūtiņu atbalsts koka vadīklās.
+        - name: Izvēles rūtiņu atbalsts koka vadīklās
           href: user-interface/check-box-tree-controls.md
-        - name: Filtri
+        - name: Filtrēšanas opcijas
           href: user-interface/filtering.md
         - name: PowerApps resursdatora kontrole
           href: user-interface/powerapps-host-control.md
@@ -374,19 +382,19 @@
       items:
         - name: Kontekstizvēlnes koda migrēšana
           href: migration-upgrade/code-migration-context-menus.md
-        - name: Peles dubultklikšķa koda migrēšana
+        - name: Peles dubultklikšķa loģikas migrēšana
           href: migration-upgrade/code-migration-double-click.md
-        - name: Konteksta datu ievade pārlūkošanai
+        - name: Konteksta datu ievade uzmeklēšanai
           href: user-interface/contextual-data-entry-lookups.md
         - name: HierarchyViewer vadīkla
           href: user-interface/hierarchy-viewer-control.md
-        - name: Pārlūkošanas vadīklas
+        - name: Uzmeklēšanas vadīklas
           href: user-interface/lookups-controls.md
-        - name: Failu augšupielādes vadīklas
+        - name: Failu augšupielādes vadīkla
           href: user-interface/file-upload-control.md
         - name: Sistēmas definētas pogas
           href: user-interface/system-defined-buttons.md
-        - name: Attēli
+        - name: Attēli lapā vai režģa skatā
           href: user-interface/images-form-grid.md
         - name: 'Ievades, tabulu un režģa vadīklu fonts un fona krāsas'
           href: user-interface/specify-color-font-background-controls.md
@@ -394,13 +402,13 @@
           href: user-interface/bidirectional-support.md
         - name: Darbvietas elementu ikonu izveide
           href: user-interface/create-icons-workspace-tiles.md
-        - name: "Paplašināmās vadīklas\_— publiskie JavaScript API"
+        - name: Publiskie JavaScript API paplašināmām vadīklām
           href: user-interface/public-javascript-apis.md
         - name: Vadīklu kontrolsaraksts
           href: user-interface/control-checklist.md
     - name: Ziņojumi
       items:
-        - name: Slīdnis un MessageBox
+        - name: Slīdnis un MessageBox dialogi
           href: user-interface/slider-messagebox.md
         - name: 'Ziņojumu centra, ziņojumu joslas un ziņojumu detalizētās informācijas API'
           href: user-interface/messaging-api-center-bar-details.md
@@ -408,21 +416,21 @@
           href: user-interface/messaging-user.md
     - name: Primārās formas modeļu vadlīnijas
       items:
-        - name: Veidlapas modeļa atlasīšana
+        - name: Formu modeļi migrētām formām
           href: user-interface/select-form-pattern.md
-        - name: Veidlapu stili un modeļi
+        - name: Formu stili un modeļi
           href: user-interface/form-styles-patterns.md
-        - name: Formu modeļu pievienojumprogrammas
+        - name: 'Visual Studio pievienojumprogrammas, kuras atbalsta formu modeļus'
           href: user-interface/form-pattern-add-ins.md
     - name: Formu modeļi
       items:
-        - name: Vispārīgas veidlapu vadlīnijas
+        - name: Vispārīgas formu vadlīnijas
           href: user-interface/general-form-guidelines.md
-        - name: Galvenās informācijas veidlapas modelis
+        - name: Galvenās informācijas formas modelis
           href: user-interface/details-master-form-pattern.md
         - name: Transakcijas informācijas formas modelis
           href: user-interface/details-transaction-form-pattern.md
-        - name: Veidlapas daļas atlases saraksta formas modelis
+        - name: Veidlapas daļas atlases saraksta formas modeļi
           href: user-interface/section-list-form-pattern.md
         - name: Saraksta lapas formas modelis
           href: user-interface/list-page-form-pattern.md
@@ -450,9 +458,9 @@
           href: user-interface/dialog-form-pattern.md
         - name: Nolaižamā dialoglodziņa formas modelis
           href: user-interface/drop-dialog-form-pattern.md
-        - name: Pārlūkošanas formas modelis
+        - name: Uzmeklēšanas formas modelis
           href: user-interface/lookup-form-pattern.md
-        - name: Papildinformācijas formas modelis
+        - name: Papildinformācijas formas modeļi
           href: user-interface/factbox-form-patterns.md
     - name: Apakšmodeļi
       items:
@@ -498,7 +506,7 @@
           href: user-interface/workspace-filter-group-subpattern.md
     - name: Vadīklu paplašināmība
       items:
-        - name: Paplašināmas vadīklas izveide
+        - name: Aextensible vadīklu izveide
           href: user-interface/build-extensible-control.md
         - name: Īsinājumtaustiņi paplašināmām vadīklām
           href: user-interface/keyboard-shortcuts-controls.md
@@ -523,37 +531,37 @@
       items:
         - name: Uzdevumu reģistrētāja ātrā atsauce
           href: user-interface/task-recorder-quick-reference.md
-        - name: 'Dokumentācijas vai apmācības izveide, izmantojot uzdevuma ierakstītāju'
+        - name: Dokumentācijas vai apmācības izveide pēc uzdevumu ierakstiem
           href: user-interface/task-recorder-training-docs.md
 - name: Mobilā platforma
   href: mobile-apps/platform/mobile-platform-home-page.md
   items:
-    - name: Darba sākšana
+    - name: Sākt darbu
       href: mobile-apps/platform/mobile-platform-getting-started.md
       items:
-        - name: Arhitektūra
+        - name: Arhitektūras un noformējuma apsvērumi
           href: mobile-apps/platform/mobile-platform-architecture.md
-        - name: Biznesa loģikas notikumu pārskats
+        - name: Biznesa loģikas notikumi
           href: mobile-apps/platform/business-logic-events-overview.md
         - name: Lapu dizaina vadlīnijas
           href: mobile-apps/platform/page-design-guidelines.md
         - name: Darbību dizaina vadlīnijas
           href: mobile-apps/platform/action-design-guidelines.md
-        - name: Veidlapu dizaina prasības
+        - name: Formu dizaina prasības
           href: mobile-apps/platform/form-design-requirements.md
     - name: Vispārīgie uzdevumi
       items:
-        - name: 'Darbvietas konfigurēšana, izmantojot SysAppWorkspace klasi'
+        - name: 'Darbvietu konfigurēšana, izmantojot SysAppWorkspace klasi'
           href: mobile-apps/platform/scenarios/mobile-workspace-configuration.md
-        - name: 'Lauka attēlojuma pielāgošana, lai uz tā varētu noklikšķināt'
+        - name: 'Iestatīšana, lai mobilo programmu lapas būtu klikšķināmas'
           href: mobile-apps/platform/scenarios/make-workspace-field-clickable.md
-        - name: Skaita rādīšana laukā
+        - name: Rādīt skaitu laukos
           href: mobile-apps/platform/scenarios/display-count-workspace.md
-        - name: Mobilās darbvietas aizsardzības nodrošināšana
+        - name: Mobilo darbvietu aizsardzības nodrošināšana
           href: mobile-apps/platform/scenarios/secure-mobile-workspace.md
-        - name: Darbvietu lokalizēšana serverī
+        - name: Mobilo darbvietu lokalizēšana
           href: mobile-apps/platform/scenarios/localize-workspaces-on-server.md
-        - name: 'Lauka padarīšana par obligātu, izmantojot darbvietu klases'
+        - name: 'Lauku padarīšana par obligātu, izmantojot darbvietu klases'
           href: mobile-apps/platform/scenarios/make-field-mandatory.md
     - name: Servera puses izstrādes atsauce
       items:
@@ -561,7 +569,7 @@
           href: mobile-apps/platform/mobile-workspace-server-apis.md
     - name: Klienta puses izstrādes atsauce
       items:
-        - name: Klienta puses noformējuma API apskats
+        - name: Klienta puses noformējuma API
           href: mobile-apps/platform/scenarios/client-api-design-overview.md
         - name: "Klienta\_API"
           href: mobile-apps/platform/client-apis/client-apis-reference.md
@@ -626,11 +634,11 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrolmetadata.md
             - name: DataService tips
               href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-idataservice.md
-            - name: Deferred tips
+            - name: Deferred tips<T>
               href: mobile-apps/platform/client-apis/interfaces/defer-ideferred.md
             - name: Design tips
               href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-idesign.md
-            - name: EventHook tips
+            - name: EventHook tips<T>
               href: mobile-apps/platform/client-apis/interfaces/event-ievent-ieventhook.md
             - name: Field tips
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifield.md
@@ -722,11 +730,11 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata.md
             - name: Row tips
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow.md
-            - name: Tips Value
+            - name: Value tips
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md
-            - name: Tips ValueDesign
+            - name: ValueDesign tips
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
-            - name: Tips ValueMetadata
+            - name: ValueMetadata tips
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
 - name: Datu integrācija
   items:
@@ -734,7 +742,7 @@
       href: data-entities/integration-overview.md
     - name: Datu integrācijas API
       items:
-        - name: Datu pārvaldības pakotnes API
+        - name: Datu pārvaldības pakotnes REST API
           href: data-entities/data-management-api.md
         - name: Pakalpojumu galapunkti
           href: data-entities/services-home-page.md
@@ -743,26 +751,26 @@
               href: data-entities/troubleshoot-service-authentication.md
         - name: OData
           href: data-entities/odata.md
-        - name: Pielāgoti pakalpojumi
+        - name: Pielāgota pakalpojuma izstrāde
           href: data-entities/custom-services.md
-        - name: Atkārtotas integrācijas​
+        - name: Atkārtotas integrācijas
           href: data-entities/recurring-integrations.md
-        - name: Trešās puses pakalpojumu testēšana utilītu izmantošana ar pakalpojumiem
+        - name: 'Pakalpojumu testēšana, izmantojot trešo pušu utilītas'
           href: data-entities/third-party-service-test.md
     - name: Izstrāde integrācijai
       items:
-        - name: 'Datu integrācija, izmantojot datu elementus'
+        - name: 'Datu pārvaldība un integrācija, izmantojot datu elementus'
           href: data-entities/data-management-integration-data-entity.md
           items:
-            - name: Elementa izstrāde datu migrēšanai
+            - name: Elementu izstrāde datu migrēšanai
               href: data-entities/develop-entity-for-data-migration.md
             - name: Salikto datu elementu izstrāde
               href: data-entities/develop-composite-data-entities.md
             - name: Finansiālās datu koplietošanas uzņēmumos konfigurēšana
               href: data-entities/tasks/configure-financial-cross-company-data-sharing.md
-            - name: 'Ieraksta veidnes izveide, lai atvieglotu datu ievadi'
+            - name: 'Ierakstu veidņu izveide, lai atvieglotu datu ievadi'
               href: data-entities/tasks/create-record-template-facilitate-data-entry.md
-            - name: 'Ieraksta veidnes izmantošana, lai izveidotu jaunu ierakstu'
+            - name: 'Ierakstu izveide, izmantojot ierakstu veidnes'
               href: data-entities/tasks/use-record-template-new-record.md
         - name: 'Datu integrācija, izmantojot pakalpojumu Common Data Service'
           href: data-entities/data-integration-cds.md
@@ -791,6 +799,21 @@
                   href: ../supply-chain/sales-marketing/field-service-work-order.md
                 - name: Programmā Field Service ietverto līgumu rēķinu sinhronizēšana ar brīva teksta rēķiniem programmā Finance and Operations
                   href: ../supply-chain/sales-marketing/field-service-invoice.md
+            - name: Project Service Automation integrācijas konfigurēšana
+              href: ../financials/project-management/PSA-integration.md?toc=/dev-itpro/toc.json
+              items:
+                - name: Project Service Automation integrācijas parametri
+                  href: ../financials/project-management/PSA-parameters.md?toc=/dev-itpro/toc.json
+                - name: Projekta līgumu un projektu sinhronizēšana
+                  href: ../financials/project-management/project-contracts-templates.md?toc=/dev-itpro/toc.json
+                - name: Projekta uzdevumu sinhronizēšana
+                  href: ../financials/project-management/project-tasks-template.md?toc=/dev-itpro/toc.json
+                - name: Projekta izdevumu kategoriju sinhronizēšana
+                  href: ../financials/project-management/project-categories-templates.md?toc=/dev-itpro/toc.json
+                - name: Projekta aprēķinu sinhronizēšana no projekta prognozēm
+                  href: ../financials/project-management/project-estimates-templates.md?toc=/dev-itpro/toc.json
+                - name: Projekta faktisko summu sinhronizēšana ar projekta integrācijas žurnālu
+                  href: ../financials/project-management/project-actuals-templates.md?toc=/dev-itpro/toc.json
         - name: Ārējo tīmekļa pakalpojumu patērēšana
           href: data-entities/consume-external-web-service.md
 - name: Datu pārvaldība
@@ -805,11 +828,11 @@
           href: data-entities/configuration-data-packages.md
         - name: Konfigurācijas datu kopēšana starp uzņēmumiem
           href: data-entities/copy-configuration.md
-        - name: Konfigurācijas datu veidnes​
+        - name: Konfigurācijas datu veidnes
           href: data-entities/configuration-data-templates.md
         - name: Datu veidnes ar vairākām darblapām
           href: data-entities/excel-template-multiple.md
-        - name: Elementa izmaiņu izsekošana
+        - name: Izmaiņu izsekošanas iespējošana elementiem
           href: data-entities/entity-change-track.md
         - name: Konfigurācijas atslēgas un datu elementi
           href: data-entities/config-key-entities.md
@@ -826,61 +849,61 @@
           href: dev-tools/design-best-practices.md
         - name: Jaunu datu elementu izveide
           href: data-entities/build-consuming-data-entities.md
-        - name: Datu elementa rekvizīti
+        - name: Datu elementu funkcionālās īpašības
           href: data-entities/behavioral-properties-data-entities.md
         - name: Aprēķina kolonnu un virtuālo lauku izveide
           href: data-entities/data-entity-computed-columns-virtual-fields.md
         - name: Starpuzņēmumu funkcionalitāte
           href: data-entities/cross-company-behavior.md
-        - name: Valsts/reģiona kodu apstrāde
+        - name: Valstu/reģionu kodi un konfigurācijas atslēgas
           href: data-entities/countryregion-codes-configuration-keys.md
-        - name: Pārmantošanas modeļi​
+        - name: Pārmantošanas modeļi
           href: data-entities/support-super-type-sub-type.md
         - name: Datu elementa vedņa kārtulas
           href: data-entities/data-entity-wizard-rules.md
-        - name: Metadatu rekvizīti​
+        - name: Metadatu rekvizīti
           href: data-entities/behavioral-properties-data-entities.md
         - name: 'Validācijas, noklusējuma vērtības un nekartētie lauki'
           href: data-entities/validations-defaults-unmapped-fields.md
         - name: Drošība un datu elementi
           href: data-entities/security-data-entities.md
-        - name: 'Tāda tikai lasāma elementa izveide, kas atklāj finanšu dimensijas'
+        - name: 'Tādu tikai lasāmu elementu izveide, kas atklāj finanšu dimensijas'
           href: financial/read-only-entity-financial.md
     - name: Savas datu bāzes izmantošana
       href: analytics/export-entities-to-your-own-database.md
     - name: Datu uzdevumu automatizācija
       href: data-entities/data-task-automation.md
-    - name: Resursi atbildes sniegšanai uz VDAR datu pieprasījumu
+    - name: Resursi atbildes sniegšanai uz VDAR datu pieprasījumiem
       href: gdpr/gdpr-home-page.md
       items:
-        - name: "Microsoft Dynamics\_365 for\_Finance and\_Operations VDAR ceļvedis"
+        - name: "Finance and\_Operations VDAR ceļvedis"
           href: gdpr/gdpr-guide.md
         - name: Līdzekļu klasifikācijas
           href: gdpr/gdpr-asset-classification-values.md
-        - name: Personu meklēšanas pārskata izmantošana
+        - name: Personu meklēšanas pārskats
           href: gdpr/gdpr-person-search-report.md
         - name: Personu meklēšanas pārskata paplašināšana
           href: gdpr/gdpr-extend-person-search-report.md
         - name: Pārvaldīt piekļuvi sensitīviem datiem
           href: gdpr/gdpr-auditing-sensitive-data.md
-        - name: 'Atbildēšana uz personas datu pieprasījumu, izmantojot programmu Talent'
+        - name: 'Atbildēšana uz personas datu pieprasījumiem, izmantojot programmu Talent'
           href: gdpr/respond-dsr-request-talent.md
-        - name: "Atbildēšana uz personas datu pieprasījumu, izmantojot programmu Microsoft Dynamics\_AX 2012"
+        - name: "Atbildēšana uz personas datu pieprasījumiem programmā AX\_2012"
           href: gdpr/gdpr-ax2012.md
         - name: VDAR datu pieprasījumi pakalpojumam LCS
           href: gdpr/gdpr-lcs.md
-    - name: Datu validēšanas darbvieta
+    - name: Darbvieta Datu validēšanas kontrolsaraksts
       href: user-interface/data-validation-workspace.md
 - name: Pastāvīga piegāde
   href: dev-tools/continuous-delivery-home-page.md
   items:
     - name: Bieži uzdotie jautājumi par izstrādi un pastāvīgu piegādi
       href: dev-tools/continuous-delivery-faq.md
-    - name: Testa iepakojumu izslēgšana no būvējuma izvades
+    - name: Testa pakotņu izslēgšana no būvējuma izvades
       href: dev-tools/exclude-test-packages.md
     - name: 'Trešo pušu modeļu un izpildlaika pakotņu pārvaldība, izmantojot avota kontroli'
       href: dev-tools/manage-runtime-packages.md
-    - name: Versiju modeļi automatizētā būvējumā
+    - name: Modeļa versiju atjaunināšana automatizētā būvējumā
       href: dev-tools/version-models-build.md
 - name: 'Risinājumu izlaišana, izmantojot Lifecycle Services'
   items:
@@ -888,75 +911,75 @@
       href: lcs-solutions/lcs-solutions-app-source.md
     - name: Stadijas maiņa un publicēšana
       href: lcs-solutions/marketing-content-lcs-solutions.md
-    - name: Metodoloģijas pievienošana
+    - name: Metodoloģiju pievienošana
       href: lcs-solutions/methodologies-lcs-solutions.md
     - name: Biznesa procesu modelētāja bibliotēku uzstādīšana
       href: lcs-solutions/business-process-modeler-libraries-lcs-solutions.md
     - name: Koda migrēšana
       href: lcs-solutions/code-migration-lcs-solutions.md
-    - name: Programmas pārbaude
+    - name: Programmu pārbaude
       href: lcs-solutions/app-validation-lcs-solutions.md
     - name: Datu pakotņu apstrāde un patērēšana
       href: lcs-solutions/process-data-packages-lcs-solutions.md
-    - name: Risinājuma datu bāzes dublēšana
+    - name: Risinājuma datu bāzu dublēšana
       href: lcs-solutions/database-backup-lcs-solutions.md
-    - name: Lokalizācijas
+    - name: Lokalizācijas un normatīvie līdzekļi
       href: lcs-solutions/country-region.md
       items:
-        - name: Klasificēt lokalizācijas līdzekļus
+        - name: Lokalizācijas līdzekļu klasifikācija
           href: lcs-solutions/classify-localization-features.md
-        - name: Valsts/reģiona konteksts
+        - name: Lietot valsts/reģiona kontekstu
           href: lcs-solutions/apply-country-context.md
-        - name: Normatīvās sertifikācijas
+        - name: Normatīvā sertifikācijas informācija līdzekļu nosaukumos
           href: lcs-solutions/regulatory-certifications.md
         - name: Normatīvie atjauninājumi
           href: lcs-solutions/regulatory-watch-communication.md
-        - name: Atdalīt lokalizācijas modeļus
+        - name: Lokalizācijas modeļu atdalīšana
           href: lcs-solutions/separate-localization-models.md
-        - name: Uzraudzības brīdinājuma iesniegšana
+        - name: Uzraudzības brīdinājumu iesniegšana
           href: lcs-solutions/submit-localization-alerts.md
 - name: Finanšu izstrāde
   href: financial/financial-dev-home-page.md
   items:
-    - name: Dimensijas
+    - name: Atbalsts dažādiem dimensiju modeļiem
       href: financial/dimensions.md
-    - name: Dimensiju pievienošana Excel veidnei
+    - name: Dimensiju pievienošana Excel veidnēm
       href: financial/dimensions-overview.md
-    - name: Dimensiju ievades vadīklas dialoga atbalsts
+    - name: Atbalsts dimensiju ievades vadīklām dialogos
       href: financial/dimension-entry-control-dialog-support.md
-    - name: 'Dimensiju ievades vadīklas migrēšana  '
+    - name: Noklusējuma dimensiju vadīklu migrēšana uz dimensiju ievades vadīklām
       href: financial/dimension-entry-control-migration.md
-    - name: Dimensiju ievades vadīklas uzņemšana
+    - name: Dimensiju ievades vadīklu uzņemšana
       href: financial/dimension-entry-control-uptake.md
     - name: Dimensiju izteiksmju veidotāja apakšmodelis
       href: financial/dimension-expression-builder-subpattern.md
-    - name: Finanšu dimensijas konfigurācija programmu integrēšanai
+    - name: Finanšu dimensijas konfigurācija
       href: financial/financial-dimension-configuration-integration.md
-    - name: Aktivizēt finanšu dimensijas
+    - name: Finanšu dimensiju aktivizēšana
       href: financial/activate-financial-dimensions.md
     - name: Finanšu dimensijas un galvenie konti valodām ar rakstību no labās uz kreiso pusi
       href: financial/financial-dimensions-main-accounts-right-left-language.md
-    - name: Pieļaut dublēšanas tabulas izmantošanu kā finanšu dimensiju
+    - name: Atļaut dublēšanas tabulu izmantošanu kā finanšu dimensijas
       href: financial/dimensionable-entities.md
-    - name: 'Segmentētas ievades vadīklas migrēšana  '
+    - name: Segmentētas ievades vadīklu migrēšana
       href: financial/segmented-entry-control-conversion.md
-    - name: Segmentētas ievades vadīklas dialoga atbalsts
+    - name: Atbalsts segmentētas ievades vadīklām dialogos
       href: financial/segmented-entry-control-dialog-support.md
-    - name: Segmentētas ievades vadīklas metadati
+    - name: Noformēšanas režīma metadati segmentētas ievades vadīklām
       href: financial/segmented-entry-control-metadata-specification.md
-    - name: Segmentētas ievades vadīklas migrēšanas vadība
+    - name: Migrēšanas vadība segmentētas ievades vadīklām
       href: financial/segmented-entry-control-migration-guidance.md
-    - name: Segmentētas ievades vadīklas parm metodes
+    - name: Parm metodes segmentētas ievades vadīklām
       href: financial/segmented-entry-control-parm-method-specification.md
-    - name: 'Tādas iespējas pievienošana, kas ļauj uzmeklēt vērtības finanšu dimensijām Microsoft Excel veidnēs'
+    - name: Uzmeklēšanas vērtību pievienošana finanšu dimensijām Excel veidnēs
       href: financial/add-dimensions-excel-templates.md
     - name: Maiņas kursu nodrošinātāju izveide
       href: financial/create-exchange-rate-providers.md
-    - name: "Maiņas kursu nodrošinātāju izveide Microsoft Dynamics Finance and Operations versijā\_8.0"
+    - name: "Maiņas kursu nodrošinātāju izveide Finance and Operations versijā\_8.0"
       href: financial/create-exchange-rate-8.md
 - name: Piegādes ķēdes izstrāde
   items:
-    - name: Gantt izstrādes ceļvedis
+    - name: Ganta kontroles izstrādes ceļvedis
       href: user-interface/gantt-development-guide.md
     - name: Jaunas transportēšanas pārvaldības programmas izveide
       href: ../supply-chain/transportation/create-new-transportation-management-engine.md
@@ -966,53 +989,55 @@
       href: deployment/deploy-demo-environment.md
     - name: Mākoņa izvietošana
       items:
-        - name: Azure resursu pārvaldnieka pievienošana
+        - name: Azure Resource Manager pievienošanas pabeigšana
           href: deployment/arm-onboarding.md
-        - name: "Azure ExpressRoute un Dynamics\_365 for Finance and Operations"
+        - name: Azure ExpressRoute un Finance and Operations
           href: deployment/expressroute.md
         - name: Finance and Operations arhitektūra
           href: ../fin-and-ops/imp-lifecycle/architecture-overview.md
     - name: Lokāla izvietošana
       href: deployment/on-premises-deployment-landing-page.md
       items:
-        - name: Lokālās versijas apskats
+        - name: Lokālas izvietošanas opcija
           href: deployment/on-premises-overview.md
-        - name: Jūsu lokālā izvietojuma plānošana
+        - name: Plānošana un sagatavošanās lokāliem izvietojumiem
           href: deployment/plan-onprem-deployment.md
-        - name: Aparatūras lielums
+        - name: Aparatūras izmēru prasības
           href: ../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-        - name: Lokāla projekta izveide
+        - name: Lokālo projektu iestatīšana
           href: lifecycle-services/lbd-create-lcs-on-prem-project.md
         - name: Lokālas vides iestatīšana un izvietošana
           href: deployment/setup-deploy-on-premises-environments.md
           items:
-            - name: "Lokālas vides izvietošana, izmantojot atjauninājumu Platform\_update\_12"
+            - name: "Lokālas vides izvietošana atjauninājumā Platform\_update\_12"
               href: deployment/setup-deploy-on-premises-pu12.md
-            - name: "Lokālas vides izvietošana, izmantojot atjauninājumu Platform\_update\_8 un Platform\_update\_11"
+            - name: "Lokālas vides izvietošana atjauninājumā Platform\_update\_8 un Platform\_update\_11"
               href: deployment/setup-deploy-on-premises-pu8-pu11.md
         - name: Pielāgotu modeļu izstrāde un izvietošana lokālās vidēs
           href: deployment/develop-deploy-custom-models-on-premises.md
-        - name: Apgrieztā starpniekservera konfigurēšana lokālā vidē
+        - name: Apgriezto starpniekserveru konfigurēšana lokālās vidēs
           href: deployment/onprem-reverseproxy.md
         - name: Atjauninājumu lietošana lokālā izvietojumā
           href: deployment/apply-updates-on-premises.md
-        - name: Lokāla izvietojuma atkārtota izvietošana
+        - name: Lokālā diagnostika
+          href: deployment/on-premises-diagnostics.md
+        - name: Lokālo izvietojumu atkārtota izvietošana
           href: deployment/redeploy-on-prem.md
         - name: Lokālā aģenta atjaunināšana
           href: lifecycle-services/update-local-agent.md
         - name: Vides pārkonfigurēšana
           href: lifecycle-services/reconfigure-environment.md
-        - name: Klienta interneta savienojums
+        - name: Klienta interneta savienojamība
           href: user-interface/client-disconnected.md
-        - name: "Dynamics\_365 for Finance and Operations lokālo problēmu novēršana"
+        - name: Lokālo izvietojumu problēmu novēršana
           href: deployment/troubleshoot-on-prem.md
     - name: Pielāgota koda izvietošana
       items:
-        - name: Izvietojamas pakotnes izveide
+        - name: Izvietojamu modeļu pakotņu izveide
           href: deployment/create-apply-deployable-package.md
-        - name: Atjauninājumu lietošana mākoņa vidē
+        - name: Atjauninājumu lietošana mākoņa vidēs
           href: deployment/apply-deployable-package-system.md
-        - name: Izvietojamas pakotnes instalēšana
+        - name: Izvietojamu pakotņu instalēšana no komandrindas
           href: deployment/install-deployable-package.md
         - name: Pakotnes atinstalēšana
           href: deployment/uninstall-deployable-package.md
@@ -1021,24 +1046,24 @@
 - name: 'Jauninājumi, atjauninājumi un labojumfaili'
   href: migration-upgrade/upgrade-home-page.md
   items:
-    - name: "Jaunināšana no AX\_2012 uz Dynamics\_365 for Finance and Operations"
+    - name: "Jaunināšana no AX\_2012 uz Finance and Operations"
       href: migration-upgrade/upgrade-overview-2012.md
       items:
         - name: "AX\_2012 jaunināšana\_— plānošana, izmantojot jauninājumu analizētāja rīku"
           href: migration-upgrade/upgrade-analyzer-tool.md
         - name: "AX\_2012 jaunināšana\_— slodzes noteikšana, izmantojot koda jaunināšanas pakalpojumu"
           href: migration-upgrade/analyze-code-upgrade.md
-        - name: "AX\_2012 jaunināšana\_— smilškastes vides izvietošana"
+        - name: "AX 2012 jaunināšana\_— demonstrācijas vides izvietošana analīzei"
           href: migration-upgrade/analysis-sandbox.md
-        - name: "AX\_2012 jaunināšana\_— datu jaunināšana izstrādes vidē"
+        - name: "AX\_2012 jaunināšana\_— datu jaunināšana izstrādes vidēs"
           href: migration-upgrade/data-upgrade-2012.md
-        - name: "AX\_2012 jaunināšana\_— AX\_2012 datu jaunināšanas uzdevumi"
+        - name: "AX\_2012 jaunināšana\_— datu jaunināšanas kontrolsaraksts pirmsjaunināšanai"
           href: migration-upgrade/prepare-data-upgrade.md
-        - name: "AX\_2012 jaunināšana\_— datu jaunināšana smilškastes vidē"
+        - name: "AX\_2012 jaunināšana\_— datu jaunināšana smilškastes vidēs"
           href: migration-upgrade/upgrade-data-sandbox.md
         - name: "AX\_2012 jaunināšana\_— pārslēgšanas testēšana"
           href: migration-upgrade/upgrade-cutover-testing.md
-        - name: "AX\_2012 jaunināšana — pēc jaunināšanas veicamie uzdevumi"
+        - name: "AX\_2012 jaunināšana\_— uzdevumi pēc jaunināšanas"
           href: migration-upgrade/app-validation-process.md
         - name: "AX\_2012 jaunināšana\_— funkcionālās pārbaudes izturēšana"
           href: migration-upgrade/upgrade-functional-validation.md
@@ -1046,19 +1071,19 @@
           href: migration-upgrade/upgrade-go-live-prep.md
         - name: "AX\_2012 jauninājums\_— publicēšana"
           href: migration-upgrade/2012-upgrade-cutover.md
-        - name: "Izmaiņas pēc jaunināšanas no AX\_2012"
+        - name: "Izmaiņas, kas ietekmē jaunināšanu no AX\_2012"
           items:
-            - name: Kontu plāna norobežotājam ir jābūt unikālam
+            - name: Unikāla kontu plāna norobežotāja iestatīšana
               href: migration-upgrade/chart-accounts-delimiter-unique.md
-            - name: Vienots dokumentu un valūtas pārvērtēšanas jauninājums
+            - name: Vienotu dokumentu žurnālu un valūtas pārvērtēšanu jaunināšana
               href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
             - name: Projekta resursu plānošanas datu modelis
               href: migration-upgrade/data-model-changes-resource-management.md
             - name: Darbplūsmu apakšsistēmas izmaiņas
               href: migration-upgrade/workflow-subsystem.md
-            - name: Kāpēc kubu vietā sākām izmantot apkopotos modeļus
+            - name: 'Tādu modeļu apkopošana, ko izmanto kubu vietā analīzes veikšanai'
               href: migration-upgrade/in-memory-real-time-aggregate-models.md
-            - name: Jaunināta pārdošanas kuba migrēšana uz elementu krātuvi
+            - name: Jauninātu pārdošanas kubu migrēšana uz elementu krātuvi
               href: migration-upgrade/migrate-upgraded-cube-entity-store.md
             - name: Budžeta plānošanas jaunināšana
               href: migration-upgrade/upgrade-budget-planning.md
@@ -1067,31 +1092,31 @@
       items:
         - name: Sagatavošanās koda migrēšanai
           href: migration-upgrade/prepare-migration.md
-        - name: Visual Studio Team Services kartēšanas konfigurēšana koda migrēšanas laikā
+        - name: Visual Studio Team Services kartējuma konfigurēšana
           href: migration-upgrade/configure-vso-solution.md
-        - name: Sadalītie modeļi
+        - name: Modeļu sadalījums
           href: dev-tools/model-split.md
-        - name: Pārstāvju izmantošana modeļu savstarpējo atkarību risināšanai
+        - name: 'Modeļu savstarpējo atkarību risināšana, izmantojot pārstāvjus'
           href: migration-upgrade/delegates-migration.md
     - name: Jaunināšana uz jaunāko atjauninājumu (mākonis)
       items:
         - name: Process pāriešanai uz jaunāko atjauninājumu
           href: migration-upgrade/upgrade-latest-update.md
-        - name: Dzīves cikla politika
+        - name: Programmatūras dzīves cikla politika un mākoņa laidieni
           href: migration-upgrade/versions-update-policy.md
-        - name: Lietot jaunāko platformas atjauninājumu vidē
+        - name: Lietot jaunāko platformas atjauninājumu vidēs
           href: migration-upgrade/upgrade-latest-platform-update.md
-        - name: "Dynamics platformas jaunināšana uz 2016.\_gada augusta laidienu"
+        - name: "Dynamics AX platformas jaunināšana uz 2016.\_gada augusta izlaidi"
           href: migration-upgrade/update-platform-each-release.md
         - name: Smilškastes vides jaunināšana
           href: migration-upgrade/upgrade-sandbox-environment.md
-        - name: Datu jaunināšana izstrādes vai demonstrācijas vidēs
+        - name: 'Datu jaunināšana izstrādes, demonstrācijas vai smilškastes vidēs'
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: Izstrādes rīku atjaunināšana
           href: dev-tools/update-development-tools.md
     - name: Jaunināšana uz jaunāko atjauninājumu (lokāla versija)
       items:
-        - name: Atjauninājumu lietošana lokālā izvietojumā
+        - name: Atjauninājumu lietošana lokālos izvietojumos
           href: deployment/apply-updates-on-premises.md
         - name: Lokāla izvietojuma atkārtota izvietošana
           href: deployment/redeploy-on-prem.md
@@ -1099,11 +1124,11 @@
       items:
         - name: Labojumfailu lejupielāde no Lifecycle Services
           href: migration-upgrade/download-hotfix-lcs.md
-        - name: Atjauninājumu lietošana mākoņa vidē
+        - name: Atjauninājumu lietošana mākoņa vidēs
           href: deployment/apply-deployable-package-system.md
-        - name: Metadatu labojumfaila instalēšana
+        - name: Metadatu labojumfailu instalēšana izstrādes vidēs
           href: migration-upgrade/install-metadata-hotfix-package.md
-        - name: Ielāpu Reporting Services vienotā vidē
+        - name: Ielāpu Reporting Services vienotās vidēs
           href: migration-upgrade/patch-reporting-service-environment.md
         - name: Visual Studio izstrādes rīku atjaunināšana
           href: dev-tools/update-development-tools.md
@@ -1116,9 +1141,9 @@
 - name: Sistēmas administrēšana
   href: sysadmin/system-administration-home-page.md
   items:
-    - name: Platformas ikmēneša atjauninājumu BUJ
+    - name: Mākoņa platformas ikmēneša atjauninājumu BUJ
       href: sysadmin/faq-platform-monthly-updates.md
-    - name: Saišu pievienošana organizācijas juridiskajiem nosacījumiem un paziņojumam par konfidencialitāti
+    - name: Saišu pievienošana juridiskajiem nosacījumiem un paziņojumam par konfidencialitāti
       href: sysadmin/legal-terms-privacy-statement.md
     - name: Pārskats par licenču kodiem un konfigurācijas atslēgām
       href: sysadmin/license-codes-configuration-keys-report.md
@@ -1135,7 +1160,7 @@
       items:
         - name: Drošības arhitektūra
           href: sysadmin/security-architecture.md
-        - name: Drošības pārskati
+        - name: Standarta komplektācijā iekļautie drošības pārskati
           href: sysadmin/security-reports.md
         - name: Jaunu lietotāju izveide
           href: sysadmin/tasks/create-new-users.md
@@ -1150,18 +1175,18 @@
     - name: Pakešapstrāde
       href: sysadmin/batch-processing-overview.md
       items:
-        - name: Pakešapstrādes servera apskats
+        - name: Pakešapstrāde un pakešapstrādes serveri
           href: sysadmin/batch-server-overview.md
-        - name: Pakešuzdevuma izveide
+        - name: Izveidot pakešuzdevumus
           href: sysadmin/tasks/create-batch-job.md
-    - name: Optimizācijas padomnieka pārskats
+    - name: Optimizācijas padomnieks
       href: sysadmin/optimization-advisor-overview.md
       items:
         - name: Kārtulu izveide optimizācijas padomniekam
           href: sysadmin/create-rules-optimization-advisor.md
 - name: Lifecycle Services
   items:
-    - name: Lifecycle Services apskats​
+    - name: Resursi pakalpojumiem Lifecycle Services
       href: lifecycle-services/lcs.md
       items:
         - name: LCS klientiem
@@ -1172,11 +1197,11 @@
           href: lifecycle-services/whats-new-lcs.md
         - name: Zināmās problēmas
           href: lifecycle-services/known-issues.md
-    - name: Dynamics Lifecycle Services lietotāja rokasgrāmata
+    - name: Lifecycle Services lietotāja rokasgrāmata
       href: lifecycle-services/lcs-user-guide.md
     - name: Abonementa vērtētājs
       href: lifecycle-services/subscription-estimator.md
-    - name: Drošības konfigurēšana​
+    - name: Drošības konfigurēšana
       href: lifecycle-services/configure-lcs-security.md
     - name: Problēmu meklētājs
       href: lifecycle-services/issue-search-lcs.md
@@ -1187,215 +1212,64 @@
           href: lifecycle-services/set-up-configuration-manager-lcs.md
     - name: Koda jaunināšanas pakalpojuma konfigurēšana
       href: lifecycle-services/configure-execute-code-upgrade.md
-    - name: 'Metodoloģijas izveide  '
+    - name: Metodoloģiju izveide vai atjaunināšana
       href: lifecycle-services/create-methodology.md
     - name: Biznesa procesu modelētājs
       href: lifecycle-services/bpm-overview.md
     - name: Biznesa procesu bibliotēkas biznesa procesu modelētājā
       href: lifecycle-services/business-process-libraries-business-process-modeler.md
-    - name: 'BPM bibliotēkas izveide, rediģēšana vai pārlūkošana'
+    - name: 'Biznesa procesu modelētāja bibliotēku izveidošana, rediģēšana un pārlūkošana'
       href: lifecycle-services/creating-editing-browsing.md
-    - name: Uzdevumu izpilde BPM bibliotēkā
+    - name: Uzdevumu veikšana biznesa procesu modelētājā
       href: lifecycle-services/complete-tasks-bpm.md
-    - name: Aktivitātes diagrammu izmantošana
+    - name: Darbs ar aktivitātes diagrammām BPM bibliotēkās
       href: lifecycle-services/using-activity-diagrams.md
-    - name: "BPM\_bibliotēkas sinhronizēšana ar Visual Studio Team Services (VSTS)"
+    - name: "BPM\_bibliotēku sinhronizēšana ar Visual Studio Team Services"
       href: lifecycle-services/synchronize-bpm-vsts.md
-    - name: 'Pieņemšanas testu komplekta izveide, izmantojot uzdevumu ceļvežus un BPM'
+    - name: 'Lietotāju pieņemšanas testa bibliotēku izveide, izmantojot uzdevumu ceļvežus un BPM'
       href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
-    - name: Biznesa procesu modelētāja blokshēmas
+    - name: Blokshēmas biznesa procesu modelētājā
       href: lifecycle-services/flowcharts-business-process-modeler.md
-    - name: Pielāgotu biznesa procesu augšupielāde​
+    - name: Pielāgotu biznesa procesu augšupielāde biznesa procesu modelētājā
       href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
-    - name: 'Pārraudzība un diagnostika '
+    - name: Pārraudzība un diagnostika
       href: lifecycle-services/monitoring-diagnostics.md
     - name: Vides pakalpojumu restartēšana
       href: lifecycle-services/restart-environment-services.md
-    - name: Lietotāja pieteikšanās gadījumu izsekošana
+    - name: Lietotāja pierakstīšanās gadījumu izsekošana
       href: lifecycle-services/user-logins.md
     - name: Līdzekļu bibliotēka
       href: lifecycle-services/asset-library.md
-    - name: "Microsoft\_Dynamics\_365\_— tulkošanas pakalpojuma apskats"
+    - name: Microsoft Dynamics 365 Translation Service
       href: lifecycle-services/translation-service-overview.md
       items:
-        - name: "Microsoft\_Dynamics\_365\_— tulkošanas pakalpojuma lietotāja rokasgrāmata  "
+        - name: Lietotāja interfeisa failu tulkošana
           href: lifecycle-services/use-translation-service.md
-        - name: "Microsoft Dynamics\_365 tulkošanas pakalpojums\_— dokumentācijas faila tulkojums"
+        - name: Dokumentācijas failu tulkošana
           href: lifecycle-services/use-translation-service-ua.md
-        - name: "Microsoft Dynamics\_365 tulkošanas pakalpojums\_— tulkošanas atmiņa"
+        - name: Tulkošanas atmiņas faili
           href: lifecycle-services/use-translation-service-tm.md
-    - name: "Dynamics\_AX\_2012 Lifecycle Services līdzekļi"
-      items:
-        - name: Izvietošana
-          items:
-            - name: Mākoņvides
-              href: lifecycle-services/ax-2012/cloud-hosted-environments-lcs.md
-            - name: Konfigurācijas kopēšana
-              href: lifecycle-services/copy-configuration-lcs.md
-            - name: "Dynamics\_AX 2012 R3 izvietojuma plānošana Azure vidē"
-              href: lifecycle-services/ax-2012/plan-2012-r3-deployment-azure.md
-            - name: "Dynamics\_AX 2012 R3 izvietošana Azure vidē"
-              href: lifecycle-services/ax-2012/deploy-2012-r3-azure-lcs.md
-            - name: Dynamics AX 2012 R3 demonstrācijas vides izvietošana
-              href: lifecycle-services/ax-2012/deploy-ax-2012-r3-ax-2012-r3-cu8-demo-environment-azure.md
-            - name: Izstrādes vides izvietošana Azure vidē
-              href: lifecycle-services/ax-2012/deploy-development-environment-azure.md
-            - name: Augstas pieejamības vides izvietošana Azure vidē
-              href: lifecycle-services/ax-2012/deploy-high-availability-environment-azure.md
-            - name: Testēšanas vides izvietošana Azure vidē
-              href: lifecycle-services/ax-2012/deploy-test-environment-azure.md
-            - name: "Dynamics\_AX 2012 R3 izvietojuma pārvaldīšana Azure vidē"
-              href: lifecycle-services/ax-2012/manage-2012-r3-deployment-azure.md
-            - name: Uzņēmuma portāla serveru savienošana vienotā serveru fermā
-              href: lifecycle-services/ax-2012/join-enterprise-portal-servers-single-server-farm.md
-            - name: Ieejas punktu ierakstīšana Dynamics AX uzņēmuma portālā
-              href: lifecycle-services/ax-2012/record-entry-points-enterprise-portal.md
-            - name: Mazumtirdzniecības e-komercijas izstrādes/testēšanas vides izvietošana Azure vidē
-              href: lifecycle-services/ax-2012/deploy-retail-ecommerce-devtest-environment-azure.md
-            - name: Mazumtirdzniecības pamatfunkcionalitātes demonstrācijas vides izvietošana Azure vidē
-              href: lifecycle-services/ax-2012/deploy-retail-essentials-demo-environment-azure.md
-            - name: Mazumtirdzniecības pamatfunkcionalitātes izstrādes/testēšanas vides izvietošana Azure vidē
-              href: lifecycle-services/ax-2012/deploy-retail-essentials-devtest-environment-azure.md
-            - name: Mazumtirdzniecības mobilitātes izstrādes/testēšanas vides izvietošana Azure vidē
-              href: lifecycle-services/ax-2012/deploy-retail-mobility-devtest-environment-azure.md
-            - name: "Dynamics\_AX 2012 R3 izvietojuma problēmu novēršana Azure vidē"
-              href: lifecycle-services/ax-2012/troubleshoot-2012-r3-deployment-azure.md
-            - name: Dynamics AX 2012 R3 atjauninājumi
-              href: lifecycle-services/ax-2012/update-2012-r3-lcs.md
-        - name: Datu importēšanas/eksportēšanas struktūras lietotāja rokasgrāmata
-          href: lifecycle-services/ax-2012/user-guide-dixf.md
-          items:
-            - name: Instalēšana
-              href: lifecycle-services/ax-2012/install-dixf.md
-              items:
-                - name: Instalēšana AX 2012 R3
-                  href: lifecycle-services/ax-2012/install-ax-2012-r3.md
-                - name: Dynamics AX 2012 R2 CU7 versijas instalēšana priekš SQL Server 2014
-                  href: lifecycle-services/ax-2012/install-dixf-ax-2012-r2-cu7-ss-2014.md
-            - name: Datu migrēšana
-              href: lifecycle-services/ax-2012/migrate-data-dixf.md
-            - name: SSIS versijas konfigurēšana
-              href: lifecycle-services/ax-2012/configure-sql-server-integration-services-multiple-versions-dixf.md
-            - name: Elementu datu kopēšana un salīdzināšana starp uzņēmumiem
-              href: lifecycle-services/ax-2012/copy-compare-entity-data-between-companies-dixf.md
-            - name: Datu kopēšana starp Dynamics AX uzņēmumiem
-              href: lifecycle-services/ax-2012/copy-data-between-companies-dixf.md
-            - name: Datu kopēšana starp Dynamics AX instancēm
-              href: lifecycle-services/ax-2012/copy-data-between-instances-dixf.md
-            - name: Pielāgota mērķa elementa izveide
-              href: lifecycle-services/ax-2012/create-custom-target-entity-dixf.md
-            - name: Datu importēšanas/eksportēšanas struktūras elementi
-              href: lifecycle-services/ax-2012/entities-dixf.md
-            - name: Datu importēšana no CSV datu avota
-              href: lifecycle-services/ax-2012/import-data-csv-data-source-dixf.md
-            - name: Datu importēšana no ODBC datu avota
-              href: lifecycle-services/ax-2012/import-data-odbc-data-source-dixf.md
-            - name: Demonstrācijas faili
-              href: lifecycle-services/ax-2012/demo-files-dixf.md
-            - name: Ātrā importēšana un eksportēšana
-              href: lifecycle-services/ax-2012/quick-import-export.md
-        - name: Tabulas
-          items:
-            - name: Tabulu izveide
-              href: lifecycle-services/ax-2012/create-tables.md
-            - name: Tabulas rekvizīti
-              href: lifecycle-services/ax-2012/table-properties.md
-        - name: Dynamics AX 2012 LCS rīki
-          items:
-            - name: Projekti
-              href: lifecycle-services/ax-2012/projects-lcs.md
-            - name: Metodoloģijas
-              href: lifecycle-services/ax-2012/methodologies-lcs.md
-            - name: 'Pielāgojumu analizētājs  '
-              href: lifecycle-services/ax-2012/customization-analysis-lcs.md
-            - name: Infrastruktūras vērtētājs
-              href: lifecycle-services/ax-2012/infrastructure-estimator-lcs.md
-            - name: Licenču skaita vērtētājs
-              href: lifecycle-services/ax-2012/license-sizing-estimator-lcs.md
-            - name: Atbildes uz priekšlikumu pieprasījumiem (lifecycle-services/RFP.md)
-              href: lifecycle-services/ax-2012/rfp-responses-lcs.md
-            - name: Sistēmas diagnostika
-              href: lifecycle-services/ax-2012/system-diagnostics-lcs.md
-            - name: Sistēmas diagnostikas instalēšana un palaišana
-              href: lifecycle-services/ax-2012/install-run-system-diagnostics-lcs.md
-            - name: Jauninājumu analizētājs
-              href: lifecycle-services/ax-2012/upgrade-analysis-lcs.md
-            - name: Lietojuma profilētājs
-              href: lifecycle-services/ax-2012/usage-profiler-lcs.md
-        - name: Dynamics AX 2012 lejupielādējamie rīki
-          items:
-            - name: Koda jaunināšanas rīka lietotāja rokasgrāmata (novecojusi)
-              href: lifecycle-services/ax-2012/code-upgrade-tool-user-guide.md
-            - name: Lifecycle Services lejupielādējamie rīki
-              href: lifecycle-services/ax-2012/lcs-downloadable-tools-formerly-informationsource.md
-            - name: Testa datu pārsūtīšanas rīks (beta)
-              href: lifecycle-services/ax-2012/test-data-transfer-tool-beta-2012.md
-              items:
-                - name: Instalēšana
-                  href: lifecycle-services/ax-2012/install-test-data-transfer-tool-beta.md
-                - name: Palaišana
-                  href: lifecycle-services/ax-2012/run-test-data-transfer-tool-beta.md
-                - name: AX 2012 R3 demonstrācijas datu importēšana
-                  href: lifecycle-services/ax-2012/import-demo-data-ax-2012-r3-test-data-transfer-tool.md
-            - name: Security Development Tool
-              href: lifecycle-services/ax-2012/overview-security-development-tool-user-interface.md
-              items:
-                - name: Instalēšana
-                  href: lifecycle-services/ax-2012/install-security-development-tool.md
-                - name: Lietotāja rokasgrāmata
-                  href: lifecycle-services/ax-2012/security-development-tool-user-guide.md
-                - name: Ieejas punktu atļauju definēšana un rediģēšana
-                  href: lifecycle-services/ax-2012/define-edit-entry-point-permissions.md
-            - name: Veiktspējas procesu mērījumu programmatūras izstrādes rīkkopa
-              href: lifecycle-services/ax-2012/performance-benchmark-software-development-toolkit-sdk-2012.md
-            - name: Drošības jaunināšanas padomnieka rīks
-              href: lifecycle-services/ax-2012/security-upgrade-advisor-tool-user-guide.md
-            - name: Inteliģentā datu pārvaldības struktūra (IDMF)
-              href: lifecycle-services/ax-2012/microsoft-idmf.md
-              items:
-                - name: Apskats
-                  href: lifecycle-services/ax-2012/overview-idmf.md
-                - name: Instalēšanas rokasgrāmata
-                  href: lifecycle-services/ax-2012/installation-guide-idmf.md
-                - name: Konfigurācija
-                  href: lifecycle-services/ax-2012/configuration-functionality-idmf-workspace.md
-                - name: Analīze
-                  href: lifecycle-services/ax-2012/analysis-functionality-idmf-workspace.md
-                - name: Objektu dzēšana un arhivēšana
-                  href: lifecycle-services/ax-2012/work-with-purge-objects-archive-objects.md
-                - name: Arhīva objektu izveide
-                  href: lifecycle-services/ax-2012/create-archive-objects.md
-                - name: Dzēšanas objektu izveide
-                  href: lifecycle-services/ax-2012/create-purge-objects.md
-                - name: Dzēšanas un analīzes uzdevumu plānošana
-                  href: lifecycle-services/ax-2012/schedule-purge-analysis-tasks.md
-                - name: Dzēšanas vai arhivēšanas darbu apskate
-                  href: lifecycle-services/ax-2012/view-status-purge-archive-jobs.md
-                - name: Uzturēšana
-                  href: lifecycle-services/ax-2012/maintain-idmf.md
-                - name: Problēmu novēršana
-                  href: lifecycle-services/ax-2012/troubleshoot-idmf.md
 - name: Datu bāzes pārvaldība
   items:
-    - name: Datu bāzes kopēšana no Azure SQL Database uz SQL Server vidi
+    - name: Datu bāzu kopēšana no Azure SQL Database uz SQL Server vidēm
       href: database/copy-database-from-azure-sql-to-sql-server.md
-    - name: Datu bāzes kopēšana no SQL Server uz Azure SQL Database ražošanas vidi
+    - name: Datu bāzu kopēšana no SQL Server uz Azure SQL Database ražošanas vidēm
       href: database/copy-database-from-sql-server-to-azure-sql.md
-    - name: 'Datu bāzes atjaunošana vidē, kas nav ražošanas vide'
+    - name: 'Datu bāzu atjaunošana vidēs, kas nav ražošanas vide'
       href: database/request-point-in-time-restore.md
-    - name: Datu bāzes kopijas eksportēšana vēlākai atjaunošanai
+    - name: Datu bāzu kopiju eksportēšana vēlākai atjaunošanai
       href: database/copy-operations-database.md
     - name: Pieprasījums atsvaidzināt smilškastes datu bāzi
       href: database/database-refresh.md
 - name: Atbalsts
   items:
-    - name: "Saņemt atbalstu saistībā ar pakalpojumu Dynamics\_365 for Finance and Operations un pakalpojumu Lifecycle Services"
+    - name: Saņemt atbalstu saistībā ar pakalpojumu Finance and Operations un pakalpojumu Lifecycle Services
       href: lifecycle-services/lcs-support.md
     - name: Premier atbalsta biļetes reģistrēšana
       href: lifecycle-services/premier-support.md
-    - name: Pieprasījuma iesniegšana Dynamics Service tehniskajai grupai
+    - name: Pieprasījumu iesniegšana Dynamics Service tehniskajai grupai
       href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
-    - name: "Tehniskā atbalsta uzstādīšana Dynamics\_365 for Finance and Operations"
+    - name: Tehniskā atbalsta uzstādīšana programmai Finance and Operations
       href: lifecycle-services/support-experience.md
     - name: BUJ par plānoto uzturēšanas periodu
       href: lifecycle-services/planned-maintenance-window-faq.md
