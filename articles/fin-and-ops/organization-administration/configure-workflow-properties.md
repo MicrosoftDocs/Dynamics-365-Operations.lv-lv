@@ -3,7 +3,7 @@ title: "Konfigurēt darbplūsmas rekvizītus"
 description: "Šajā tēmā ir paskaidrots, kā konfigurēt dažādus darbplūsmas rekvizītus."
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/17/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
-ms.openlocfilehash: 7ea35d851613a19889392400e31cf8492d5dc799
+ms.sourcegitcommit: ba03473dd6fc31d51fd4e890acac1cd1494ef5a3
+ms.openlocfilehash: a327b85f18f03294a237c3795ae2e1f4a97095f0
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -106,7 +106,8 @@ Kad dokuments iesniegts apstrādei, tiek izveidota darbplūsmas instance. Varat 
     1.  Noklikšķiniet uz lauka, lai norādītu, kur vietturim jāparādās.
     2.  Noklikšķiniet uz **Ievietot vietturi**.
     3.  Parādītajā sarakstā atlasiet vietturi, kuru ievietot.
-    4.  Noklikšķiniet uz **Ievietot**.
+    4.  Klikšķiniet **Ievietot**.
+    5.  Bieži izmantots opcijas **Paziņojuma teksts** vietturis ir Last Notes: %Workflow.Last note%, kas parāda visus iepriekšējās darbības komentārus.
 
 6.  Lai pievienotu teksta tulkojumus, rīkojieties šādi:
     1.  Noklikšķiniet uz **Tulkojumi**.

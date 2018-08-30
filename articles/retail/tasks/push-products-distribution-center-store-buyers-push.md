@@ -1,6 +1,6 @@
 --- 
-title: " Preču virzīšana no sadales centra uz veikalu, izmantojot sagādes sadali"
-description: "Šajā procedūrā parādīts, kā izveidot un apstrādāt sagādes sadali, lai izplatītu preces no vienas vietas uz vienu vai vairākiem veikaliem."
+title: "Preču virzīšana no sadales centriem uz veikaliem, izmantojot sagādes sadali"
+description: "Šajā procedūrā ir parādīts, kā izveidot un apstrādāt sagādes sadali, lai preces no vienas vietas izplatītu uz vienu vai vairākiem veikaliem."
 author: rubencdelgado
 manager: AnnBe
 ms.date: 02/17/2016
@@ -17,17 +17,17 @@ ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 9d9a5d4fdece1cfb573224bd54d96ccd281c0f09
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: ed47b4f052dab99dec058910e4b8558481b34e59
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a> Preču virzīšana no sadales centra uz veikalu, izmantojot sagādes sadali
+# <a name="push-products-from-distribution-centers-to-stores-via-buyers-push"></a>Preču virzīšana no sadales centriem uz veikaliem, izmantojot sagādes sadali
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 
-Šajā procedūrā parādīts, kā izveidot un apstrādāt sagādes sadali, lai izplatītu preces no vienas vietas uz vienu vai vairākiem veikaliem. Lietotājs var norādīt vairākas konfigurācijas, un sistēma ieteiks, kā sadalīt preces vai manuāli ievadīt veikalu, kur preces tiek sadalītas un kādu daudzumu sadalīt katrā veikalā. Procedūras laikā netiek iestatīti dati, ko var izmantot sagādes sadalē, piemēram, papildināšanas kārtulas, organizācijas hierarhijas un preču svari veikalam. Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.
+Šajā procedūrā ir parādīts, kā izveidot un apstrādāt sagādes sadali, lai preces no vienas vietas izplatītu uz vienu vai vairākiem veikaliem. Lietotājs var norādīt vairākas konfigurācijas, un sistēma ieteiks, kā sadalīt preces vai manuāli ievadīt veikalu, kur preces tiek sadalītas un kādu daudzumu sadalīt katrā veikalā. Šajā procedūrā neietilpst sagādes sadalē izmantojamo datu iestatīšana, piemēram, papildināšanas kārtulu, organizācijas hierarhiju un preču svaru veikalam iestatīšana. Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.
 
 1. Dodieties uz cilni Sagādes sadale.
 2. Noklikšķiniet uz Jauns.

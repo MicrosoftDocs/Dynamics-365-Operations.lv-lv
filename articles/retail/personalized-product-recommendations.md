@@ -1,5 +1,5 @@
 ---
-title: "Personalizētu preču ieteikumu apskats"
+title: "Personalizēti preču ieteikumi"
 description: "Šajā tēmā ir sniegta informācija par Dynamics 365 for Retail preču ieteikumiem, kas var tikt rādīti pārdošanas punkta (POS) ierīcē."
 author: ashishmsft
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 006ea02d4fb10092fed82516f1d17d0da750c6a1
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 368468a1c1cd023862f1405dddf3a90574edce22
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="personalized-product-recommendations-overview"></a>Personalizētu preču ieteikumu apskats
+# <a name="personalized-product-recommendations"></a>Personalizēti preču ieteikumi
 
 [!include [banner](includes/banner.md)]
 

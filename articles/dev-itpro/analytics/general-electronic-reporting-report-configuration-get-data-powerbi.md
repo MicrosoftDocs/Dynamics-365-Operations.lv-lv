@@ -1,5 +1,5 @@
 ---
-title: "Konfigurēt elektroniskos pārskatus, lai ievilktu datus pakalpojumā Power BI"
+title: "Elektronisko pārskatu veidošanas (ER) konfigurēšana datu ievilkšanai pakalpojumā Power BI"
 description: "Šajā tēmā ir paskaidrots, kā varat lietot savu elektronisko pārskatu (Electronic Reporting — ER) konfigurāciju, lai organizētu datu pārsūtīšanu no jūsu Finance and Operations instances uz Power BI pakalpojumiem."
 author: NickSelin
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 45717bc1a7093c0282d214fc4ce5fdf153bb14a1
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 9f5a4d0c9fc4c5c9b439b4f184b25085f5d68077
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Konfigurēt elektroniskos pārskatus, lai atgādātu datus pakalpojumā Power BI
+# <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Elektronisko pārskatu veidošanas (ER) konfigurēšana datu ievilkšanai pakalpojumā Power BI
 
 [!include [banner](../includes/banner.md)]
 

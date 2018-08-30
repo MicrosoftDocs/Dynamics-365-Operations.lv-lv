@@ -1,5 +1,5 @@
 ---
-title: "Mobilās programmas sākumlapa"
+title: "Programmas Dynamics 365 for Unified Operations Mobile sākumlapa"
 description: "Šajā tēmā aprakstīta Microsoft Dynamics 365 for Unified Operations mobilā programma un sniegtas saites uz resursiem, kas jums var palīdzēt to ieviest savā organizācijā."
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f4736a7041c746350fa073bd58929c840f7689bf
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: b9cdb2b2c2b5aaf7743cd2cd0dbfee6c602a5a46
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="mobile-app-home-page"></a>Mobilās programmas sākumlapa
+# <a name="dynamics-365-for-unified-operations-mobile-app-home-page"></a>Programmas Dynamics 365 for Unified Operations Mobile sākumlapa
 
 [!include [banner](../includes/banner.md)]
 

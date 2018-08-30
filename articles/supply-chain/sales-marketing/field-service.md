@@ -46,8 +46,6 @@ Pirmā integrācijas fāze risinājumos Field Service un Finance and Operations 
 
 Lai redzētu piemēru par to, kā varat sinhronizēt darba pasūtījumu starp programmu Field Service un programmu Finance and Operations, noskatieties īsu YouTube video [Darba pasūtījuma sinhronizēšana starp Dynamics 365 for Field Service un Finance and Operations](https://www.youtube.com/watch?v=hAB4TDVMjxU).
 
-[![](https://img.youtube.com/vi/hAB4TDVMjxU/0.jpg)](https://www.youtube.com/watch?v=hAB4TDVMjxU)
-
 ## <a name="system-requirements-for-finance-and-operations"></a>Sistēmas prasības programmai Finance and Operations
 Field Service integrācija atbalsta šādas versijas.
 

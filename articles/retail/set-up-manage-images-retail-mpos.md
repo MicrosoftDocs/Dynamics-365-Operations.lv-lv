@@ -1,5 +1,5 @@
 ---
-title: "Attēlu iestatīšana un pārvaldība Retail Modern POS"
+title: "Attēlu iestatīšana un pārvaldība pārdošanas punktam Retail Modern POS (MPOS)"
 description: "Šajā rakstā ir paskaidroti soļi, kas jāveic, iestatot un pārvaldot attēlus dažādiem elementiem, kas tiek parādīti Retail Modern POS (MPOS)."
 author: athinesh99
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ed4a7044b577ed6af86f6803f6abd4f9b500b4e7
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: e364cf988cc80d53605fe88bf0dc1be6021c52e7
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="set-up-and-manage-images-for-retail-modern-pos"></a>Attēlu iestatīšana un pārvaldība Retail Modern POS
+# <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>Attēlu iestatīšana un pārvaldība pārdošanas punktam Retail Modern POS (MPOS)
 
 [!include [banner](includes/banner.md)]
 
@@ -48,11 +48,11 @@ Attēli, kas parādās Retail Modern POS (MPOS), jāizvieto ārēji, ārpus Micr
 
 1.  Noklikšķiniet uz **Mazumtirdzniecība** &gt; **Kataloga pārvaldība** &gt; **Kataloga attēli**.
 2.  Lapā **Kataloga attēli** darbību rūtī noklikšķiniet uz **Definēt multivides veidni**. Dialoglodziņā **Definēt multivides veidni** laukā **Elements** jābūt pēc noklusējuma atlasītai vērtībai **Katalogs**.
-3.  Kopsavilkuma cilnē **Multivides ceļš** ievadiet atlikušo attēla atrašanās vietas ceļu. Multivides ceļš atbalsta **LanguageID** kā mainīgo. Piemēram, demonstrācijas datiem var izveidot mapi **Katalogi** visiem kataloga attēliem zem sava multivides servera multivides bāzes vietrāža URL (https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer). Tad jums var būt mape katrai valodai, piemēram, en-US vai fr-FR, un varat kopēt atbilstošos attēlus zem katras mapes. Ja jums nav dažādu attēlu dažādām valodām, var izlaist mainīto **LanguageID** mapes struktūrā un norādīt tieši uz mapi Katalogi, kurā atrodas kataloga attēli. **Piezīme:** Dynamics 365 for Retail pašreizējā versija atbalsta **{LanguageId}** marķieri elementiem Katalogs, Prece un Kategorija. (Saskaņā ar esošo standartu, kas ir spēkā kopš Microsoft Dynamics AX 6.x, **{LanguageID}** marķieris netiek atbalstīts elementos Debitors un Darbinieks.)
+3.  Kopsavilkuma cilnē **Multivides ceļš** ievadiet atlikušo attēla atrašanās vietas ceļu. Multivides ceļš atbalsta **LanguageID** kā mainīgo. Piemēram, demonstrācijas datiem varat izveidot mapi **Katalogi** visiem kataloga attēliem, kas atrodas jūsu multivides servera multivides bāzes vietrādī URL (https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer)). Tad jums var būt mape katrai valodai, piemēram, en-US vai fr-FR, un varat kopēt atbilstošos attēlus zem katras mapes. Ja jums nav dažādu attēlu dažādām valodām, var izlaist mainīto **LanguageID** mapes struktūrā un norādīt tieši uz mapi Katalogi, kurā atrodas kataloga attēli. **Piezīme:** Dynamics 365 for Retail pašreizējā versija atbalsta **{LanguageId}** marķieri elementiem Katalogs, Prece un Kategorija. (Saskaņā ar esošo standartu, kas ir spēkā kopš Microsoft Dynamics AX 6.x, **{LanguageID}** marķieris netiek atbalstīts elementos Debitors un Darbinieks.)
 4.  Attēlu faila nosaukuma formāts ir stingri kodēts uz kataloga nosaukumu un to nevar mainīt. Tāpēc pārdēvējiet attēlus tā, lai tiem būtu atbilstoši kataloga nosaukumi, lai palīdzētu nodrošināt, ka MPOS tos apstrādā pareizi.
 5.  Laukā **Faila paplašinājums** atlasiet paredzēto faila nosaukuma paplašinājumu, atkarībā no jūsu attēlu tipa. Piemēram, demonstrācijas datos kataloga attēli ir iestatīti uz paplašinājumu .jpg. (Attēlu faili tiek pārdēvēti arī tā, lai tiem būtu kataloga nosaukumi.)
 6.  Noklikšķiniet uz **Labi**.
-7.  Lai apstiprinātu, ka multivides veidnes attēliem ir pareizi saglabātas lapā **Kataloga attēli** vēlreiz noklikšķiniet uz **Definēt multivides veidni**. Lai apstiprinātu veidni, neaizverot dialoglodziņu **Definēt multivides veidni** var izmantot kopsavilkuma cilni **Ģenerēt attēlu vietrāžus URL programmai Excel**. Pārbaudiet attēla vietrāža URL izskatu un, vai vietrādis URL atbilst veidnes standartam, kas minēts iepriekš. Dialoglodziņā **Definēt multivides veidni** tagad netieši iestatīts attēla ceļš visiem kataloga attēliem, kuros tiek izmantots šis kopējais vietrāža URL ceļš. Šis vietrāža URL ceļš attiecas uz visiem kataloga attēliem, ja vien tie netiek pārrakstīti. Pirmā attēla ceļa daļa tiek ņemta no multivides bāzes vietrāža URL, ko definējāt kanāla profilā. Atlikusī ceļa daļa tiek ņemta no ceļa, ko definējāt multivides veidnē. Divas daļas tiek apvienotas, lai sniegtu pilnu attēla atrašanās vietas vietrādi URL. Piemēram, kataloga nosaukums demonstrācijas datos ir Fabrikam Base Catalog. Tāpēc attēla nosaukumam ir jābūt Fabrikam Base Catalog.jpg, lai tiktu izmantots kataloga nosaukums un. jpg faila nosaukuma paplašinājums, kas ir konfigurēts veidnē. Šajā gadījumā, pēc apvienošanas vietrādis URL būs https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer/Catalogs/en-US/Fabrikam Base Catalog.jpg.
+7.  Lai apstiprinātu, ka multivides veidnes attēliem ir pareizi saglabātas lapā **Kataloga attēli** vēlreiz noklikšķiniet uz **Definēt multivides veidni**. Lai apstiprinātu veidni, neaizverot dialoglodziņu **Definēt multivides veidni** var izmantot kopsavilkuma cilni **Ģenerēt attēlu vietrāžus URL programmai Excel**. Pārbaudiet attēla vietrāža URL izskatu un, vai vietrādis URL atbilst veidnes standartam, kas minēts iepriekš. Dialoglodziņā **Definēt multivides veidni** tagad netieši iestatīts attēla ceļš visiem kataloga attēliem, kuros tiek izmantots šis kopējais vietrāža URL ceļš. Šis vietrāža URL ceļš attiecas uz visiem kataloga attēliem, ja vien tie netiek pārrakstīti. Pirmā attēla ceļa daļa tiek ņemta no multivides bāzes vietrāža URL, ko definējāt kanāla profilā. Atlikusī ceļa daļa tiek ņemta no ceļa, ko definējāt multivides veidnē. Divas daļas tiek apvienotas, lai sniegtu pilnu attēla atrašanās vietas vietrādi URL. Piemēram, kataloga nosaukums demonstrācijas datos ir Fabrikam Base Catalog. Tāpēc attēla nosaukumam ir jābūt Fabrikam Base Catalog.jpg, lai tiktu izmantots kataloga nosaukums un. jpg faila nosaukuma paplašinājums, kas ir konfigurēts veidnē. Šādā gadījumā pēc savienošanas vietrādis URL būs https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer/Catalogs/en-US/Fabrikam Base Catalog.jpg.
 8.  Izpildiet sinhronizēšanas darbus, lai virzītu jaunu veidni uz kanāla datu bāzi, lai MPOS varētu izmantot veidni, lai piekļūtu attēliem.
 9.  Lai atjauninātu multivides veidni kataloga attēliem kanāla pusē, noteikti palaidiet **Kataloga darbu 1150** no **Mazumtirdzniecības IT** &gt; **Sadales grafiks**.[![catalog1](./media/catalog1.png)](./media/catalog1.png)
 

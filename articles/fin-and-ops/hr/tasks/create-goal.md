@@ -1,5 +1,5 @@
 --- 
-title: "Mērķa izveide"
+title: "Izveidot mērķus"
 description: "Jūs varat izveidot mērķus, pievienot aktivitātes mērķiem, izsekot mērījumiem un saistīt mērķus ar pārskatu."
 author: kherr75
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8a01506d94a12642cae1c8331f473afb76bcf2b6
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 229116aa780341c874a7cb4214d71594436e8be3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="create-a-goal"></a>Mērķa izveide
+# <a name="create-goals"></a>Izveidot mērķus
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

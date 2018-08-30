@@ -1,5 +1,5 @@
 ---
-title: AxErd ir novecojis
+title: "Lapa AxErd ir noņemta"
 description: "Mums bija jānoņem lapa AxErd. Gan projekta pirmkods, gan tīmekļa lapas HTML faili tika publicēti GitHub repozitorijā."
 author: margoc
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: margoc
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: AX 2012
 ms.translationtype: HT
-ms.sourcegitcommit: aa67ac4f29703fff516d648f9c74dbf785d0637a
-ms.openlocfilehash: a1049dbaca80161a6b6638eb74c253fb75e9c391
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 5250a75655b23f1bc92b332a48dfec094af049cf
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="axerd-retired"></a>AxErd ir novecojis
+# <a name="axerd-page-has-been-retired"></a>Lapa AxErd ir noņemta
 
 Diemžēl mums bija jānoņem AxErd tīmekļa lapa, kas daudzām Microsoft Dynamics AX 2012 tabulām nodrošināja entītiju relāciju diagrammas (ERD). Gan projekta pirmkods, gan tīmekļa lapas HTML faili tika publicēti GitHub repozitorijā: https://github.com/Microsoft/ax-2012-doc-tools.
 

@@ -1,5 +1,5 @@
 --- 
-title: "Noformēt konfigurāciju pārskatu ģenerēšanai Microsoft Word formātā elektronisko pārskatu veidošanai (ER)"
+title: "ER konfigurāciju noformēšana pārskatu ģenerēšanai Word formātā"
 description: "Nākamajās darbībās ir paskaidrots, kā lietotājs, kam piešķirta loma Sistēmas administrators vai Elektronisko pārskatu izstrādātājs, var konfigurēt elektronisko pārskatu veidošanas (Electronic reporting — ER) formātus, lai pārskatus ģenerētu kā Microsoft Word failus."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7f80dc8411d38d051b01d77e35635a920d8803a6
-ms.openlocfilehash: 300cf6ed1a5a7098e71b812d682c1b51c2cf786c
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 615ab4a4f932478b8b847112d4fed8310187f03b
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="design-a-configuration-for-generating-reports-in-microsoft-word-format-for-electronic-reporting-er"></a>Noformēt konfigurāciju pārskatu ģenerēšanai Microsoft Word formātā elektronisko pārskatu veidošanai (ER)
+# <a name="design-er-configurations-to-generate-reports-in-word-format"></a>ER konfigurāciju noformēšana pārskatu ģenerēšanai Word formātā
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

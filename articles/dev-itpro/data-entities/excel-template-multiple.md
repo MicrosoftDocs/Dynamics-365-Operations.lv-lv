@@ -1,5 +1,5 @@
 ---
-title: "Datu importēšana no Excel datu elementu veidnēm ar vairākām darblapām"
+title: "Datu importēšana no Excel datu elementu veidnēm, kam ir vairākas darblapas"
 description: "Šajā tēmā ir aprakstīts, kā importēt datus programmā Microsoft Dynamics 365 for Finance and Operations, izmantojot Excel datu elementu veidnes."
 author: Sunil-Garg
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2aefea9373df20bd3e99026e30aed096dcea9814
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 5bc021ce9f0835f2eda310ef7818c9bc9be749f2
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="excel-templates-with-multiple-worksheets"></a>Excel veidnes ar vairākām darblapām
+# <a name="import-data-from-excel-data-entity-templates-that-have-multiple-worksheets"></a>Datu importēšana no Excel datu elementu veidnēm, kam ir vairākas darblapas
 
 [!include [banner](../includes/banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: "Drukāšana Dynamics 365 for Finance and Operations programmās"
+title: "Dokumentu drukāšana"
 description: "Programmatūrā Microsoft Dynamics 365 for Finance and Operations varat drukāt dokumentus, izmantojot lokālu printeri vai tīklam pievienotu ierīci. Šajā rakstā ir sniegts apskats par to, kā tiek drukāti dokumenti."
 author: TJVass
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 30a418e6c49849369f0a0e3ffa28f31b9b88b7e7
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 5d52568ce49b85f6215ed2835a95e2e016c9c879
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="printing-in-finance-and-operations-applications"></a>Drukāšana Dynamics 365 for Finance and Operations programmās
+# <a name="document-printing"></a>Dokumentu drukāšana
 
 [!include [banner](../includes/banner.md)]
 
@@ -47,9 +47,9 @@ Nākamajā tabulā ir aprakstīti trīs primārie drukāšanas scenāriji Financ
 
 | Scenārijs                        | Mērķis                                                      | Risinājums                                                                                                            |
 |---------------------------------|-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| 1. Rādītā satura drukāšana        | Izdrukāt tieši to, kas pārlūkprogrammā tiek rādīts pašlaik.             | Pārlūkprogrammai tiek ģenerēta “drukāšanai draudzīga” tīmekļa lapas versija.                                             |
-| 2. Interaktīva drukāšana         | Izdrukāt precīzu dokumentu lokāli pievienotā ierīcē. | Varat eksportēt pārskata PDF versiju un lejupielādēt to pārlūkprogrammā.                                          |
-| 3. Drukāšana tīkla ierīcē | Nosūtīt precīzu dokumentu uz domēna printera ierīci.     | Precīzais dokuments tiek nosūtīts uz klienta programmu, kas darbojas serverī, kurš tiek viesots klienta domēnā. |
+| 1. Rādītā satura drukāšana        | Izdrukāt tieši to, kas pārlūkprogrammā tiek rādīts pašlaik.             | Pārlūkprogrammai tiek ģenerēta “drukāšanai draudzīga” tīmekļa lapas versija.                                             |
+| 2. Interaktīva drukāšana         | Izdrukāt precīzu dokumentu lokāli pievienotā ierīcē. | Varat eksportēt pārskata PDF versiju un lejupielādēt to pārlūkprogrammā.                                          |
+| 3. Drukāšana tīkla ierīcē | Nosūtīt precīzu dokumentu uz domēna printera ierīci.     | Precīzais dokuments tiek nosūtīts uz klienta programmu, kas darbojas serverī, kurš tiek viesots klienta domēnā. |
 
 Tā kā atkarībā no scenārija risinājumi ir dažādi, Finance and Operations programmas nodrošina tālāk aprakstītos iebūvētos pakalpojumus un rīkus, lai palīdzētu lietotājiem sasniegt savus mērķus.
 

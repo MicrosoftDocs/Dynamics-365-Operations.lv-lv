@@ -65,5 +65,3 @@ Power BI saturā **Apmācība** ietverto pārskatu aizpildīšanai tiek izmanto
 | Darbinieka vārds    | Vārds, uzvārds un pilnais vārds                             | Kursa dalībnieki |
 | Darbinieka amats   | Nosaukums un darba stāža datums                                         | Kursa dalībnieki |
 
-
-

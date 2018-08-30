@@ -1,5 +1,5 @@
 ---
-title: "Organizēt darbaspēku, izmantojot nodaļas, darbus un amatus"
+title: "Darbaspēka organizēšana, izmantojot nodaļas, darbus un amatus"
 description: "Nodaļas, amati un pozīcijas ir organizācijas elementi, kas tiek uzturēti personāla vadības procesā. Šajā tēmā ir sniegta konceptuāla informācija par šiem elementiem."
 author: rschloma
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: dkrame
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 5799db0354e0e2bb766284ef2d87e8da9a956958
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: b2a79c42b67621272af8107661202ea2ce092193
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>Organizēt darbaspēku, izmantojot nodaļas, darbus un amatus
+# <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Darbaspēka organizēšana, izmantojot nodaļas, darbus un amatus
 
 [!include [banner](includes/banner.md)]
 

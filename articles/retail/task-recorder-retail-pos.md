@@ -1,5 +1,5 @@
 ---
-title: "POS uzdevuma reģistrētājs un palīdzība"
+title: "Uzdevumu ierakstītājs un palīdzība pārdošanas punktam Retail Modern POS (MPOS) un Cloud POS"
 description: "Šajā tēmā ir aprakstīts, kā lietot uzdevuma reģistrētāju programmās Retail Modern POS un Cloud POS"
 author: mugunthanm
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 12aa71843fa8b22eb7ae688ed3600168760d90da
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 0077bac6eef5c4b4925c9464d47a1297aa1177e4
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="task-recorder-and-help-for-pos"></a>POS uzdevuma reģistrētājs un palīdzība
+# <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Uzdevumu ierakstītājs un palīdzība pārdošanas punktam Retail Modern POS (MPOS) un Cloud POS
 
 [!include [banner](includes/banner.md)]
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 03/08/2018
 <a name="overview"></a>Pārskats
 --------
 
-Programmās Retail Modern POS un Cloud POS ietvertais uzdevuma reģistrētājs ir jauns risinājums, kas ir izstrādāts tā, lai nodrošinātu augstu reaģētspēju. Tas nodrošina pielāgojamu lietojumprogrammu programmēšanas saskarni (API), kura nodrošina paplašināšanas iespējas un vienkāršu integrāciju ar biznesa procesu ierakstus izmantojošajām sistēmām. Turklāt ir atvieglota uzdevuma reģistrētāja integrācija ar pakalpojumā Microsoft Dynamics Lifecycle Services ietverto biznesa procesu modelētāju (BPM) ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)). Tāpēc lietotāji joprojām var no ierakstiem veidot ar datiem piesātinātas biznesa procesu diagrammas, lai analizētu un izstrādātu lietojumprogrammas.
+Programmās Retail Modern POS un Cloud POS ietvertais uzdevuma reģistrētājs ir jauns risinājums, kas ir izstrādāts tā, lai nodrošinātu augstu reaģētspēju. Tas nodrošina pielāgojamu lietojumprogrammu programmēšanas saskarni (API), kura nodrošina paplašināšanas iespējas un vienkāršu integrāciju ar biznesa procesu ierakstus izmantojošajām sistēmām. Turklāt ir progresējusi Uzdevumu ierakstītāja integrācija portāla Microsoft Dynamics Lifecycle Services rīkā Biznesa procesu modelētājs (BPM) ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)). Tāpēc lietotāji joprojām var no ierakstiem veidot ar datiem piesātinātas biznesa procesu diagrammas, lai analizētu un izstrādātu lietojumprogrammas.
 
 ## <a name="architecture"></a>Arhitektūra
 Uzdevuma reģistrētājs var nodrošināt klientā veikto lietotāja darbību precīzu reģistrāciju. Katra vadīkla ir konfigurēta tām, lai uz uzdevuma reģistrētāju tiktu sūtīta informācija par lietotāja darbību izpildi. No vadīklas uz uzdevuma reģistrētāju tiek reāllaikā nosūtīta informācija par notikuma norisi, kā arī visa vajadzīgā informācija par attiecīgo lietotāja darbību. No šīs informācijas uzdevuma reģistrētajā tiek izgūts lietotāja darbības veids (piemēram, pogas klikšķis, vērtības ievade vai navigācija) un visi ar lietotāja darbību saistītie dati (piemēram, ievadīto datu vērtība un veids, veidlapas konteksts vai ieraksta konteksts). Uzdevuma reģistrētājā informācija tiek reģistrēta pietiekami detalizēti, lai nodrošinātu, ka ieraksta demonstrēšanas laikā reģistrētās darbības var veikt tieši tā, kā to darīja lietotājs. (Demonstrēšanas līdzeklis vēl nav ieviests programmās Retail Modern POS un Cloud POS.)

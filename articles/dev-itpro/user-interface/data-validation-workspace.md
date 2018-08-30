@@ -1,5 +1,5 @@
 ---
-title: "Datu pārbaudes darbvieta"
+title: "Darbvieta Datu validēšanas kontrolsaraksts"
 description: "Darbvieta Datu validēšanas kontrolsaraksts sniedz iespēju sekot datu validēšanas procesam vairākos uzņēmumos un jomās un saistībā ar vairākām personām. Kontrolsarakstu var izmantot jaunas implementēšanas laikā, pēc jaunināšanas vai pēc migrācijas."
 author: bking
 manager: AnnBe
@@ -10,20 +10,20 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: DataValidationWorkspace
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.assetid: 
 ms.search.region: Global
 ms.author: bking
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 7046b687f99df32a3e1410c37c9a30ca285fa08f
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: dd758ac5698d84532c0b724485cc6f0da83bc8e0
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="data-validation-workspace"></a>Datu pārbaudes darbvieta
+# <a name="data-validation-checklist-workspace"></a>Darbvieta Datu validēšanas kontrolsaraksts
 
 [!include [banner](../includes/banner.md)]
 
