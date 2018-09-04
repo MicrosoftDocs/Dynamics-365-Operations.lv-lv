@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 056bc38fc69422b17b1b7720ce37089b27e8aa2e
+ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
+ms.openlocfilehash: ac9e836b0baa24c40554844ea4f3288b80e0c654
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/04/2018
 
 ---
 
@@ -55,11 +55,13 @@ ms.lasthandoff: 08/07/2018
 
 ## <a name="generate-the-recurring-invoices"></a><span data-ttu-id="f7eb9-125">Periodisko rēķinu ģenerēšana</span><span class="sxs-lookup"><span data-stu-id="f7eb9-125">Generate the recurring invoices</span></span>
 <span data-ttu-id="f7eb9-126">Lapā **Periodiskie rēķini** ir uzdevums, kas apstrādā periodisko rēķinu veidnes.</span><span class="sxs-lookup"><span data-stu-id="f7eb9-126">On the **Recurring invoices** page, there is a task that processes recurring invoice templates.</span></span> <span data-ttu-id="f7eb9-127">Norādiet rēķina datumu un veidni, kas jāizmanto rēķinu ģenerēšanā.</span><span class="sxs-lookup"><span data-stu-id="f7eb9-127">You specify the invoice date and the template to generate the invoices from.</span></span> <span data-ttu-id="f7eb9-128">Rēķini tiks ģenerēti, un katrai apstrādājamajai rēķinu grupai tiks piešķirts viens periodiskuma ID numurs.</span><span class="sxs-lookup"><span data-stu-id="f7eb9-128">Invoices will be generated and assigned a single recurrence ID number for each group of invoices that is processed.</span></span>
-<span data-ttu-id="f7eb9-129">Periodisko brīva teksta rēķinu grāmatošana</span><span class="sxs-lookup"><span data-stu-id="f7eb9-129">Post recurring free text invoices</span></span>
+
+<a name="post-recurring-free-text-invoices"></a><span data-ttu-id="f7eb9-129">Periodisko brīva teksta rēķinu grāmatošana</span><span class="sxs-lookup"><span data-stu-id="f7eb9-129">Post recurring free text invoices</span></span>
 ---------------------------------
 
 <span data-ttu-id="f7eb9-130">Pēc tam, kad periodiskie rēķini ir ģenerēti, rēķinu periodiskuma ID parādīsies grāmatošanas uzdevumā lapā **Periodiskie rēķini**.</span><span class="sxs-lookup"><span data-stu-id="f7eb9-130">After recurring invoices are generated, the invoice recurrence IDs appear in a posting task on the **Recurring invoices** page.</span></span> <span data-ttu-id="f7eb9-131">Visus rēķinus ar vienu periodiskuma ID var skatīt, noklikšķinot uz saites.</span><span class="sxs-lookup"><span data-stu-id="f7eb9-131">You can view all of the invoices for a recurrence ID by clicking the link.</span></span> <span data-ttu-id="f7eb9-132">Pārskatot rēķinus ar vienu periodiskuma ID, atsevišķus rēķinus varat dzēst.</span><span class="sxs-lookup"><span data-stu-id="f7eb9-132">During your review of the invoices for the recurrence ID, you can delete individual invoices.</span></span> <span data-ttu-id="f7eb9-133">Debitora periodiskuma iestatījumi tiks atiestatīti šai veidnei, tādējādi vēlāk to var atkārtoti ģenerēt.</span><span class="sxs-lookup"><span data-stu-id="f7eb9-133">The customer's recurrence settings will be reset for that template, so that it can be regenerated later.</span></span> <span data-ttu-id="f7eb9-134">Vienam periodiskuma ID var grāmatot vienu, vairākus vai visus rēķinus.</span><span class="sxs-lookup"><span data-stu-id="f7eb9-134">You can post one, many, or all of the invoices for a recurrence ID.</span></span> <span data-ttu-id="f7eb9-135">Ja darbplūsmas ir iespējotas, lai rēķinus grāmatotu, noklikšķiniet uz **Iesniegt**.</span><span class="sxs-lookup"><span data-stu-id="f7eb9-135">If workflows are enabled, you must click **Submit** before you can post the invoices.</span></span>
-<span data-ttu-id="f7eb9-136">Periodisko brīva teksta rēķinu drukāšana</span><span class="sxs-lookup"><span data-stu-id="f7eb9-136">Print recurring free text invoices</span></span>
+
+<a name="print-recurring-free-text-invoices"></a><span data-ttu-id="f7eb9-136">Periodisko brīva teksta rēķinu drukāšana</span><span class="sxs-lookup"><span data-stu-id="f7eb9-136">Print recurring free text invoices</span></span>
 ----------------------------------
 
 <span data-ttu-id="f7eb9-137">Ja periodiskie rēķini ir iegrāmatoti, rēķinus var drukāt no brīva teksta rēķina saraksta lapas.</span><span class="sxs-lookup"><span data-stu-id="f7eb9-137">After recurring invoices are posted, you can print the invoices from the free text invoice list page.</span></span> <span data-ttu-id="f7eb9-138">Varat drukāt atlasītos rēķinus, vai arī varat atlasīt drukāšanai rēķinu diapazonu.</span><span class="sxs-lookup"><span data-stu-id="f7eb9-138">You can print the invoices that are selected, or you can select a range of invoices to print.</span></span>
