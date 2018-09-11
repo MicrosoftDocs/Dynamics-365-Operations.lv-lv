@@ -1,26 +1,27 @@
----
+--- 
 title: "Krājumu vai izejmateriālu izsekošana"
 description: "Šajā procedūra parādīts, kā lietot krājumu izsekošanu, lai identificētu, kur krājumi vai izejmateriāli ir izmantoti vai tiek izmantoti."
 author: pjacobse
 manager: AnnBe
-ms.date: 06/21/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria, InventTrackingItemIdLookup, InventBatchIdLookup, CustTable, SalesLine
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: pjacobse
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: bc68fe6e6b87075c5406b5b6a8e89f4da8bd1166
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 3597091d62b9a6c0fc41d47e66490ff61c0226ec
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="trace-an-item-or-raw-material"></a><span data-ttu-id="76f82-103">Krājumu vai izejmateriālu izsekošana</span><span class="sxs-lookup"><span data-stu-id="76f82-103">Trace an item or raw material</span></span>
@@ -54,4 +55,5 @@ ms.lasthandoff: 08/07/2018
 8. <span data-ttu-id="76f82-129">Darbību rūtī noklikšķiniet uz vienuma Izsekošana.</span><span class="sxs-lookup"><span data-stu-id="76f82-129">On the Action Pane, click Tracing.</span></span>
 9. <span data-ttu-id="76f82-130">Noklikšķiniet uz vienuma Nosūtītie pārdošanas pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="76f82-130">Click Shipped sales orders.</span></span>
 10. <span data-ttu-id="76f82-131">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="76f82-131">Close the page.</span></span>
+
 

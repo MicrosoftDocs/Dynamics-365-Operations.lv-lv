@@ -3,29 +3,30 @@ title: " Nepārtrauktības grafiku definēšana"
 description: "Šajā tēmā aprakstīts, kā iestatīt nepārtrauktības programmu (zināma arī kā atkārtošanās pasūtījumi)."
 author: josaw1
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: MCRContinuitySchedule, EcoResProductDetailsExtended
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8ad3e989c97d8208afae45a7620ca84f6c043dd6
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 82f88fdf23a7f1b3920bb8fce4d1b535856eaf53
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="define-continuity-schedules"></a><span data-ttu-id="2740f-103"> Nepārtrauktības grafiku definēšana</span><span class="sxs-lookup"><span data-stu-id="2740f-103">Define continuity schedules</span></span>
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="2740f-104">Šajā tēmā aprakstīts, kā iestatīt nepārtrauktības programmu (zināma arī kā atkārtošanās pasūtījumi).</span><span class="sxs-lookup"><span data-stu-id="2740f-104">This topic walks through setting up a continuity program (otherwise known as reoccurring orders).</span></span> <span data-ttu-id="2740f-105">Šajā tēmā tiek izmantoti uzņēmuma USRT demonstrācijas dati.</span><span class="sxs-lookup"><span data-stu-id="2740f-105">This topic uses company USRT in the demo data.</span></span>
 

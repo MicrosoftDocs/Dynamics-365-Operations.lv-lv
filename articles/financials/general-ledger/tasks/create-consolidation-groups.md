@@ -3,23 +3,24 @@ title: "Konsolidācijas grupu un papildu konsolidācijas kontu izveide"
 description: "Šajā procedūrā tiek parādīts, kā izveidot konsolidācijas kontu grupu un pēc tam pievienot kontus grupai."
 author: aprilolson
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerConsolidateAccountGroup, MainAccountConsolidateAccount
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 3f6a889323d8f0e3ad603c320620cf1c3c37733e
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: c8fe116b473478d6d2921c0a63979e8fa8b369d5
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-consolidation-groups-and-additional-consolidation-accounts"></a><span data-ttu-id="13668-103">Konsolidācijas grupu un papildu konsolidācijas kontu izveide</span><span class="sxs-lookup"><span data-stu-id="13668-103">Create consolidation groups and additional consolidation accounts</span></span>

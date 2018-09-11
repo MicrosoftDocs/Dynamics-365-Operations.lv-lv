@@ -1,2 +1,1 @@
-> [!NOTE]
-> <span data-ttu-id="09606-101">Mēs nepieņemsim šīs tēmas labojumus, jo tā ir ģenerēta no biznesa procesa pakalpojumā Lifecycle Services.</span><span class="sxs-lookup"><span data-stu-id="09606-101">We will not be accepting edits to this topic, because it is generated from a business process in Lifecycle Services.</span></span>
+

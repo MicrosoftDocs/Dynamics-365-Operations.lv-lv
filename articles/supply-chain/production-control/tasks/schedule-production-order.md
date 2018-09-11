@@ -1,26 +1,27 @@
----
+--- 
 title: "Ražošanas pasūtījuma plānošana"
 description: "Šajā procedūrā parādīts kā plānot ražošanas pasūtījumu."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ProdTableListPage, ProdSchedule, ProdRouteJob, WrkCtrCapResSum
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: ed1d4f58acb5cfb46d1ec524bd2b7d252f6dde1d
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 35450d622725dc10a0981a60ca09273ddb0fed80
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="schedule-a-production-order"></a><span data-ttu-id="19799-103">Ražošanas pasūtījuma plānošana</span><span class="sxs-lookup"><span data-stu-id="19799-103">Schedule a production order</span></span>
@@ -53,4 +54,5 @@ ms.lasthandoff: 08/07/2018
     * <span data-ttu-id="19799-127">Noslodzes grafika lapā tiek rādīta noslodze, kas tika rezervēta, izmantojot darbu plānu, kopējais stundu skaits, kas pašlaik ir rezervēts resursam, un stundu skaits, kas paliek pieejams darbu plānošanai resursam.</span><span class="sxs-lookup"><span data-stu-id="19799-127">The Capacity load page displays the capacity that is reserved through job scheduling, the total number of hours that are currently reserved on the resource, and the number of hours that remain available for job scheduling on the resource.</span></span>  
 6. <span data-ttu-id="19799-128">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="19799-128">Close the page.</span></span>
 7. <span data-ttu-id="19799-129">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="19799-129">Close the page.</span></span>
+
 

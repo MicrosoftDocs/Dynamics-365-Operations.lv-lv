@@ -1,26 +1,27 @@
----
+--- 
 title: "Fizisko krājumu pārsūtīšana noliktavā"
 description: "Šajā procedūrā parādīts krājumu pārsūtīšanas žurnāla izveides un grāmatošanas process, lai reģistrētu krājuma kustību no viena novietojuma noliktavā uz citu novietojumu."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventJournalTransfer, InventJournalCreate, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup, InventTrans
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 8569ff744e11fb0348dedc4e1e56894203b7b7a3
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 41057d0a35cab122840a20a5c65ab7ae3133052c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="transfer-physical-inventory-within-the-warehouse"></a><span data-ttu-id="67dcc-103">Fizisko krājumu pārsūtīšana noliktavā</span><span class="sxs-lookup"><span data-stu-id="67dcc-103">Transfer physical inventory within the warehouse</span></span>
@@ -67,4 +68,5 @@ ms.lasthandoff: 08/07/2018
 1. <span data-ttu-id="67dcc-142">Noklikšķiniet uz Krājumi.</span><span class="sxs-lookup"><span data-stu-id="67dcc-142">Click Inventory.</span></span>
 2. <span data-ttu-id="67dcc-143">Noklikšķiniet uz Transakcijas.</span><span class="sxs-lookup"><span data-stu-id="67dcc-143">Click Transactions.</span></span>
     * <span data-ttu-id="67dcc-144">Šeit varat redzēt darbības, kas tika izveidotas, grāmatojot žurnālu.</span><span class="sxs-lookup"><span data-stu-id="67dcc-144">Here you can see the transactions that were created when you posted your journal.</span></span>  
+
 
