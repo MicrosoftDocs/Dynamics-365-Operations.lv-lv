@@ -3,31 +3,32 @@ title: "Racionālās plānošanas grupu definēšana"
 description: "Racionālās plānošanas grupas tiek definētas, lai grupētu un izšķirtu preces Kanban plānošanā."
 author: cvocph
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LeanScheduleGroup, GanttColorTableLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3e07fa270b47be3527c572dc53ca30a7bcde5ba6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: a5bc20c0a9e2396365caebeb3751d2090e4575a4
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="define-lean-schedule-groups"></a>Racionālās plānošanas grupu definēšana
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Racionālās plānošanas grupas tiek definētas, lai grupētu un izšķirtu preces Kanban plānošanā. Grupēšanu var veikt kā vispārīgu saistību pēc uzņēmuma vai noteiktai darba šūnai. Katrai grupai ir piešķirts krāsas kods, lai grupu varētu vizuāli atpazīt Kanban plānošanas saraksta lapā. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
+Racionālās plānošanas grupas tiek definētas, lai grupētu un izšķirtu preces Kanban plānošanā. Grupēšanu var veikt kā vispārīgu saistību pēc uzņēmuma vai noteiktai darba šūnai. Katrai grupai ir piešķirts krāsas kods vizuālai norādei Kanban plānošanas saraksta lapā. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 
 
 ## <a name="define-lean-scheduling-group"></a>Racionālās plānošanas grupas definēšana
@@ -46,11 +47,11 @@ Racionālās plānošanas grupas tiek definētas, lai grupētu un izšķirtu pre
 2. Laukā Krājumu saistības tips atlasiet vienumu Krājums
 3. Laukā Krājuma kods ierakstiet kādu vērtību.
 4. Laukā Caurlaides koeficients ievadiet skaitli.
-    * Noklusējuma caurlaides koeficients ir 1, un tas nozīmē, ka saistītajām precēm tiek patērēta tieši tāda noslodze, kāda ir norādīta ražošanas plūsmu procesa aktivitātēs. Caurlaides koeficients > 1 norāda lielāku resursu patēriņu, caurlaides koeficients < 1 norāda mazāku resursu patēriņu. Koeficients tiek izmantots izmaksu aprēķinā un Kanban darba patēriņa aprēķinā.  
+    * Noklusējuma caurlaides koeficients ir 1, kas nozīmē to, ka saistītās preces patērē tieši tādu noslodzi, kas norādīta ražošanas plūsmu procesa aktivitātēs. Caurlaides koeficients > 1 norāda lielāku resursu patēriņu, caurlaides koeficients < 1 norāda mazāku resursu patēriņu. Koeficients tiek izmantots izmaksu aprēķinā un Kanban darba patēriņa aprēķinā.  
 
 ## <a name="associate-item-allocation-key"></a>Krājumu sadalījuma principa piesaistīšana
 1. Krājumu sadalījuma principa piesaistīšana
-    * Pievienojiet saistību ar krājumu sadalījuma principu, izmantojot krājumu saistības tipu Grupa.   Ņemiet vērā, ka, lai izpildītu šo procesu, datos ir jābūt definētai krājumu sadalījuma principa prognozei.  
+    * Pievienojiet saistību ar krājumu sadalījuma principu, izmantojot krājumu saistības tipu Grupa.   Ņemiet vērā, ka šim procesam ir nepieciešams datos definēt prognozi krājumu sadalījuma principam.  
 2. Laukā Krājumu saistības tips atlasiet vienumu Grupa
 3. Laukā Krājumu sadalījuma princips noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
 4. Sarakstā noklikšķiniet uz saites atlasītajā rindā.

@@ -3,19 +3,20 @@ title: " Algoritmiskās mācīšanās produktu ieteikumu konfigurēšana"
 description: "Veicot šo procedūru, tiek atjaunoti dati elementu krātuvē, ko izmanto algoritmiskās mācīšanās sistēma, kura nodrošina ieteikumus par preci un pēc tam nodrošina ieteikumus par preci POS klientiem."
 author: ashishmsft
 manager: AnnBe
-ms.date: 10/27/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BIMeasurementDeployManagementEntityStore, RetailParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
 ms.openlocfilehash: 277ffb879b80fe57deeaa2b52c1543baaf820274
@@ -25,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="configure-machine-learning-powered-product-recommendations"></a> Algoritmiskās mācīšanās produktu ieteikumu konfigurēšana
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 Veicot šo procedūru, tiek atjaunoti dati elementu krātuvē, ko izmanto algoritmiskās mācīšanās sistēma, kura nodrošina ieteikumus par preci un pēc tam nodrošina ieteikumus par preci POS klientiem. Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.
 

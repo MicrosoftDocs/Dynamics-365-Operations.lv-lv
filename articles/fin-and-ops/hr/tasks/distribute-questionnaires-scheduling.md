@@ -1,28 +1,29 @@
 --- 
-title: "Anketu izplatīšana, izmantojot plānošanu"
+title: "Aptauju sadalīšana, izmantojot plānošanu"
 description: "Izmantojot anketēšanas plānošanu, var plānot un sadalīt anketas vairākiem respondentiem."
 author: kherr75
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: KMKnowledgeCollectorPlanningTable, KMKnowledgeCollectorPlanningMulti, SysQueryForm, HcmPersonLookup, KMKnowledgeCollectorPlanning
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: f3876d1136bd3300d233a5b4401f3458e95817e0
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: d371873cbd16f050ca042f5c13d93781fe6fc732
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="distribute-questionnaires-by-using-scheduling"></a>Anketu izplatīšana, izmantojot plānošanu
+# <a name="distribute-questionnaires-using-scheduling"></a>Aptauju sadalīšana, izmantojot plānošanu
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -43,7 +44,7 @@ Izmantojot anketēšanas plānošanu, var plānot un sadalīt anketas vairākiem
 9. Izvērsiet sadaļu E-pasta ziņojums darbinieku patstāvīgai izmantošanai.
 10. Ierakstiet vērtību laukā Tēma.
     * Piemērs: Anketa pieejama  
-11. Teksta laukā ierakstiet e-pasta ziņojuma pamattekstu. Ņemiet vērā, ka sistēmā vērtības var aizstāt ar mainīgo.
+11. Teksta laukā ierakstiet e-pasta ziņojuma pamattekstu. Ņemiet vērā, ka mainīgais var tikt izmantots, lai aizstātu vērtības sistēmā.
     * Piemērs: Cien. %P%! Lūdzu, piesakieties darbinieku pašapkalpes pakalpojumā, lai aizpildītu darbaspēka veselības novērtējuma anketu.  Contoso  
 12. Noklikšķiniet uz Saglabāt.
 

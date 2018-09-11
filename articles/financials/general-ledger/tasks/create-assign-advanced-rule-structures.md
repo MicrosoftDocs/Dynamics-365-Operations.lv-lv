@@ -3,23 +3,24 @@ title: "Papildu kārtulu struktūru izveide un piešķiršana"
 description: "Šajā uzdevuma ceļvedī tiek aprakstīts, kā izveidot un piešķirt detalizētās kārtulas struktūru konta struktūrai."
 author: aprilolson
 manager: AnnBe
-ms.date: 10/26/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DimensionConfigureAccountRuleStructure, DimensionCreateAccountRuleStructure, DimensionHierarchyAddLevel, DimensionHierarchyConstraintActivate, DimensionConfigureAccountStructure, DimensionConfigureAccountRule, DimensionCreateAccountRule, DimensionSelectAccountRuleStructure
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 18ad27eb673745d09569f6a49c8bc66132550f35
-ms.openlocfilehash: 8bce8cabe3570cf9e32419e478204e9b59a0cc78
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: ebad4ec9ec6242978a26007a64416ae1b2af5c28
 ms.contentlocale: lv-lv
-ms.lasthandoff: 10/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a>Papildu kārtulu struktūru izveide un piešķiršana
@@ -32,7 +33,7 @@ ms.lasthandoff: 10/27/2017
 ## <a name="create-an-advanced-rule-structure"></a>Izveidot papildu nosacījumu struktūru
 1. Pārejiet uz sadaļu Virsgrāmata > Kontu plāns > Struktūras > Detalizēto kārtulu struktūras.
 2. Noklikšķiniet uz Jauns, lai atvērtu nolaižamo dialoglodziņu.
-3. Laukā Papildu nosacījumu struktūra ievadiet kārtulas struktūru aprakstošu nosaukumu.
+3. Laukā Detalizētās kārtulas struktūra ierakstiet nosaukumu, lai aprakstītu kārtulas struktūru.
 4. Laukā Apraksts ievadiet vērtību, lai aprakstītu struktūru.
 5. Noklikšķiniet uz Labi.
 6. Noklikšķiniet uz Pievienot segmentu.

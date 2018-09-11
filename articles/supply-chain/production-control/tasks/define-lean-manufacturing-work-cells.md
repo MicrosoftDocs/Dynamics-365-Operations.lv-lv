@@ -3,24 +3,25 @@ title: "Lean manufacturing darba šūnu definēšana"
 description: "Darba šūna ir specifiska resursu grupu forma, kuru var izmantot lean manufacturing procesa aktivitātēs."
 author: cvocph
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WrkCtrResourceGroup, InventLocationIdLookup, UnitOfMeasureLookup, DimensionLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f060f084baab055a51e390f488ca2553bd997b92
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 1d2381c045f9f0f98b35912fa732f3627b038785
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="define-lean-manufacturing-work-cells"></a>Lean manufacturing darba šūnu definēšana
@@ -56,7 +57,7 @@ Darba šūna ir specifiska resursu grupu forma, kuru var izmantot lean manufactu
     * Vairākās aktivitātes ražošanas plūsmās vai ražošanas rindās tā bieži vien ir nākamās darba šūnas ievades noliktava vai pārdošanas vai tranzīta noliktava, uz kuru prece parasti tiek nosūtīta pēc ražošanas procesa. Atcerieties, ka, modelējot lean manufacturing procesus, transports parasti ir uzskatāms par atkritumiem, kā arī transporta iekļaušana pārskatos.  
 16. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
 17. Laukā Izvades vieta noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-    * Ja tiek lietota ražošanas plūsma ar vairākām procesa aktivitātēm, šajā vietā bieži vien tiek ievadīta nākamā darba šūna.  
+    * Ražošanas plūsmā ar vairākām procesa aktivitātēm tā bieži vien ir nākamās darba šūnas ievades vieta.  
 18. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
 19. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
 20. Izvērsiet vai sakļaujiet sadaļu Operācija.
@@ -75,7 +76,7 @@ Darba šūna ir specifiska resursu grupu forma, kuru var izmantot lean manufactu
 30. Noklikšķiniet uz Pievienot.
 31. Laukā Ražošanas plūsmas modelis noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanas logu.
 32. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-    * Šīs procedūras izpildei ir nepieciešams ražošanas plūsmas modeļa tips Caurlaide, lai varētu parādīt caurlaides noslodzes definīciju.  
+    * Šai procedūrai ir nepieciešams ražošanas plūsmas modeļa tips Caurlaide, lai parādītu caurlaides noslodzes definīciju.  
 33. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
 34. Laukā Noslodzes periods atlasiet opciju.
     * Iespēju klāstā ietilpst: Standarta darbdiena — noslodze tiek izteikta ar darba laika kalendāra standarta darbdienas garumu darba šūnai. Katrai dienai kalendārā tiek noteikts faktiskais darba laiks un, pamatojoties uz šiem datiem, tiek aprēķināta faktiskā pieejamā noslodze.   Nedēļa — atļauj nedēļas noslodzi. Netiek veikta korekcija, izmantojot faktisko darba laiku.   Mēnesis — atļauj mēneša noslodzi. Netiek veikta korekcija, izmantojot faktisko noslodzi.   Parasti standarta darbdiena tiek izmantota dienas periodiem, un nedēļas noslodze tiek izmantota nedēļas noslodzes periodiem.  

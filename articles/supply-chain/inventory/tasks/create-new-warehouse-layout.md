@@ -1,21 +1,22 @@
----
+--- 
 title: "Jauna noliktavas izkārtojuma izveide"
 description: "Šajā procedūrā ir parādīts, kā iestatīt informāciju par novietojumiem noliktavā."
 author: perlynne
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventParameters, DefaultDashboard, InventLocation, WMSLocationWizard
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 253440d81edd6f71b52ae349398e3c6a895bf05c
@@ -49,7 +50,7 @@ ms.lasthandoff: 09/29/2017
 7. Pārslēdziet sadaļas Novietojumu nosaukumi izvēršanu.
     * Opcijas šajā sadaļā definē novietojumu nosaukumu noklusējuma formātu. Mūsu piemērā būs ietverts ailes numurs, statīva numurs un plaukta numurs.  
 8. Opcijas Iekļaut aili vērtību iestatiet uz Jā.
-9. Opcijas Iekļaut statīvu vērtību iestatiet uz Jā.
+9. Opcijas Iekļaut statīvu vērtību iestatiet uz Jā. 
 10. Statīva laukā Formāts ierakstiet kādu vērtību.
     * Piemēram: -##  
 11. Opcijas Iekļaut plauktu vērtību iestatiet uz Jā.
@@ -74,4 +75,5 @@ ms.lasthandoff: 09/29/2017
 14. Noklikšķiniet uz Pabeigt.
 15. Aizvērt lapu.
 16. Atsvaidziniet lapu.
+
 

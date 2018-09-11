@@ -1,28 +1,29 @@
 --- 
-title: "Informācijas pievienošana veiktspējas žurnālam un uzslavas nosūtīšana"
+title: "Pievienošana veiktspējas žurnālam un uzslavas nosūtīšana"
 description: "Veiktspējas žurnāls satur informāciju, kas attiecas uz to, kā jūs sasniedzāt jūsu mērķus, vai kā jūs veicāt aktivitātes perioda laikā."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: EssWorkspace, HcmPerfJournal, HcmPerfJournalAddLink, HcmPerfPraise, HcmWorkerLookUpByPerson, HcmPerfJournalAdd
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 92cbb25839b8f202ba37a19ad88a54194a73c179
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: e232ba1f5803f6dee148f23098563c99c1622cdf
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="add-information-to-your-performance-journal-and-send-praise"></a>Informācijas pievienošana veiktspējas žurnālam un uzslavas nosūtīšana
+# <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Pievienošana veiktspējas žurnālam un uzslavas nosūtīšana
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -42,7 +43,7 @@ Veiktspējas žurnāls satur informāciju, kas attiecas uz to, kā jūs sasniedz
 9. Laukā Atslēgvārdi ievadiet vērtību.
 10. Noklikšķiniet uz Pievienot ārējo saiti.
 11. Laukā Apraksts ierakstiet 'Envision'.
-12. Laukā Interneta adrese ierakstiet “<https://www.microsoft.com/en/envision/default>”.
+12. Interneta pārlūka adreses laukā ierakstiet 'https://www.microsoft.com/en/envision/default'.
 13. Noklikšķiniet uz uzraksta zem pogas Saglabāt, ar nosaukumu “Veiktspējas žurnāls”, lai atgrieztos režģī.
     * Jūs varat pievienot atlasīto žurnālu vai žurnālus mērķim, lai tas tiek parādīts, atverot mērķi. Saite tiks pievienota kopsavilkuma cilnei Saites. Ja žurnālu pievienojat mērķim un pēc tam mērķi pievienojat pārskatam, tad žurnāls tiks automātiski rādīts pārskatā.  
     * Jūs varat pievienot atlasīto žurnālu vai žurnālus pārskatam, lai tas tiek parādīts, atverot pārskatu.    Saite tiks pievienota kopsavilkuma cilnei Saites.  
