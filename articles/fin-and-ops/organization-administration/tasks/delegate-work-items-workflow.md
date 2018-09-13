@@ -3,7 +3,7 @@ title: "Deleģēt darba vienumus darbplūsmā"
 description: "Ja plānojat kādu laiku neatrasties birojā vai citu iemeslu dēļ nespēt reaģēt uz darba vienumiem, tad darba vienumus varat deleģēt vai mainīt to piešķiri pret citiem lietotājiem."
 author: jasongre
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 978f2956e25d3b92edea9e611e7b20155c22e411
+ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
+ms.openlocfilehash: f85a1318822ceaf829134bf2eb3581e350d5bea4
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/13/2018
 
 ---
 # <a name="delegate-work-items-in-a-workflow"></a><span data-ttu-id="13ac2-103">Deleģēt darba vienumus darbplūsmā</span><span class="sxs-lookup"><span data-stu-id="13ac2-103">Delegate work items in a workflow</span></span>
