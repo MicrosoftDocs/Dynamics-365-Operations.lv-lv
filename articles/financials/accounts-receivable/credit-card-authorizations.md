@@ -44,11 +44,13 @@ Lai izmantotu kredītkartes, ir jāiestata un jāaktivizē maksājumu pakalpojum
 
 ## <a name="adding-a-new-credit-card"></a>Jaunas kredītkartes pievienošana
 Varat izveidot jaunus kredītkaršu ierakstus lapā Debitori izmantojot opcijas Debitors, Iestatīt, Kredītkarte. Varat arī izveidot kredītkaršu ierakstus, kad ievadāt pārdošanas pasūtījumus lapā Pārdošanas pasūtījums, izmantojot opcijas Pārvaldīt, Debitors, Kredītkarte, Reģistrēt.
-Kredītkartes pievienošana pārdošanas pasūtījumam
+
+<a name="adding-a-credit-card-to-a-sales-order"></a>Kredītkartes pievienošana pārdošanas pasūtījumam
 -------------------------------------
 
 Varat pievienot kredītkarti pārdošanas pasūtījumam, atlasot kredītkarti kredītkartes uzmeklēšanas laukā lapas Pārdošanas pasūtījums kopsavilkuma cilnē Debitora kredītkartes. Lai sāktu autorizācijas procesu, cilnes Pārvaldīt darbību rūtī atlasiet opcijas Kredītkarte un Autorizēt.
-Kredītkartes autorizācija
+
+<a name="authorizing-a-credit-card"></a>Kredītkartes autorizācija
 -------------------------
 
 Autorizējot kredītkarti, tiek pārbaudīts kartes numurs un kartes īpašnieka vārds un tiek apstiprināta pieejamā kredīta bilance. Pēc izvēles tiek pārbaudīta kartes verificēšanas vērtība un kartes īpašnieka adrese. Pēc tam debitora pieejamā kredīta bilance tiek samazināta par rēķina summu. Maksājumu pakalpojums nosūta informāciju par to, ka kredītkarte ir apstiprināta vai noraidīta. Kad pārdošanas pasūtījums tiek iekļauts rēķinā, no kredītkartes konta tiek iekasēta (nolasīta) rēķina summa.
