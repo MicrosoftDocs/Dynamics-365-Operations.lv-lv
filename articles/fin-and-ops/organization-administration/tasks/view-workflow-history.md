@@ -3,7 +3,7 @@ title: "Skatīt darbplūsmas vēsturi"
 description: "Lietojiet šīs darbības, lai apskatītu apstrādes un apstiprināšanas nolūkos darbplūsmas sistēmā iesniegta dokumenta statusu."
 author: jasongre
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

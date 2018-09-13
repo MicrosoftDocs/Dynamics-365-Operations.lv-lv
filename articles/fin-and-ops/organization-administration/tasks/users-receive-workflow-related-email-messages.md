@@ -3,7 +3,7 @@ title: "Ļaut lietotājiem saņemt ar darbplūsmu saistītus e-pasta ziņojumus"
 description: "Sistēmu varat konfigurēt tā, lai lietotājiem sūtītu e-pasta ziņojumus, kad notiek ar darbplūsmu saistīti notikumi."
 author: jasongre
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
