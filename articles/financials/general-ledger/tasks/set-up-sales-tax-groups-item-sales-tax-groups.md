@@ -3,7 +3,7 @@ title: "PVN grupu un krājumu PVN grupu iestatīšana"
 description: "Šajā uzdevuma ierakstā parādīts, kā iestatīt PVN un Krājumu PVN grupas."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

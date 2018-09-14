@@ -3,7 +3,7 @@ title: Preces izveide
 description: "Šajā procedūrā parādīts, kā mazumtirdzniecības preču hierarhijā izveidot jaunu preci."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

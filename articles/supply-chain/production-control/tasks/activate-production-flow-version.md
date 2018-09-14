@@ -3,7 +3,7 @@ title: "Ražošanas plūsmas versijas aktivizēšana"
 description: "Lai varētu izveidot Kanban darbus un varētu apstrādāt darbības kādai ražošanas plūsmas versijai, ir nepieciešams aktivizēt šo versiju."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

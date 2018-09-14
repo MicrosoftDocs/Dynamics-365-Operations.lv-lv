@@ -3,7 +3,7 @@ title: "Pārdošanas līgumu nosacījumu izpilde"
 description: "Šajā procedūrā ir parādīts, kā izpildīt pārdošanas līgumu, piesaistot tam pārdošanas pasūtījumus."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

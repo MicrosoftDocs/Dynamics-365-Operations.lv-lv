@@ -3,7 +3,7 @@ title: "Autovadītāja reģistrēšanās norīkojuma izpildei un reģistrēšan�
 description: "Šajā procedūrā parādīts, kā reģistrēt autovadītāja reģistrēšanos norīkojuma izpildei un pēc norīkojuma pabeigšanas."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

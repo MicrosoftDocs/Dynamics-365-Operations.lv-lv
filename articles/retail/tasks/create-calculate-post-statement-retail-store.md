@@ -3,7 +3,7 @@ title: " Mazumtirdzniecības veikala izraksta izveide, aprēķins un grāmatoša
 description: "Šajā procedūrā ir aprakstītas manuālās veikala izraksta izveides, aprēķināšanas un grāmatošanas darbības."
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

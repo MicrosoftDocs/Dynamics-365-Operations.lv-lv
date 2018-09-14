@@ -3,7 +3,7 @@ title: "Sesijas datuma maiņa"
 description: "Pašreizējais datums pēc noklusējuma tiek izmantots, kad ievadāt un grāmatojat žurnāla ierakstus vai pirmdokumentus."
 author: pvillads
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

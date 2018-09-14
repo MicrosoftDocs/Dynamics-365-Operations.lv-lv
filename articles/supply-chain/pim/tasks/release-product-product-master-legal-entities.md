@@ -3,7 +3,7 @@ title: "Preces/preces šablona izlaišana juridiskajām personām"
 description: "Šajā procedūrā parādīts, kā izlaist preci vai preces šablonu vienai vai vairākām juridiskām personām."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

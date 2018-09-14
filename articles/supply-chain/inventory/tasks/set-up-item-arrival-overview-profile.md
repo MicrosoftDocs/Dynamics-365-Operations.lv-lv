@@ -3,7 +3,7 @@ title: "Krājumu saņemšanas pārskata profila iestatīšana"
 description: "Šis uzdevums fokusējas uz saņemšanas pārskata profila iestatīšanu."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

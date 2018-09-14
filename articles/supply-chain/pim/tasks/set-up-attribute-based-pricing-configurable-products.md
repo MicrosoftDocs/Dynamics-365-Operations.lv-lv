@@ -3,7 +3,7 @@ title: "No atribūtiem atkarīgas cenu noteikšanas iestatīšana konfigurējam�
 description: "Šajā procedūrā parādīts kā iestatīt atribūtam atbilstošu cenu noteikšanu."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

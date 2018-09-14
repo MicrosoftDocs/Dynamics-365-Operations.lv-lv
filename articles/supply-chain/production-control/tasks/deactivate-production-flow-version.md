@@ -3,7 +3,7 @@ title: "Ražošanas plūsmas versijas deaktivizēšana"
 description: "Kad aktīva ražošanas plūsmas versija vairs nav vajadzīga, to var deaktivizēt."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

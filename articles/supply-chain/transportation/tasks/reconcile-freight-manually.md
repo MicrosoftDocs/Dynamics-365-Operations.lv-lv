@@ -3,7 +3,7 @@ title: "Manuāla kravas saskaņošana"
 description: "Šajā procedūrā parādīts kā saskaņot kravu manuāli."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

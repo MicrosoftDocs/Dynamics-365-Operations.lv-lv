@@ -3,7 +3,7 @@ title: "Aptauju sadalīšana, izmantojot plānošanu"
 description: "Izmantojot anketēšanas plānošanu, var plānot un sadalīt anketas vairākiem respondentiem."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

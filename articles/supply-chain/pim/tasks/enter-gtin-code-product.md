@@ -3,7 +3,7 @@ title: GTIN koda ievade precei
 description: "GTIN kodus piešķir GS1 uzņēmums."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

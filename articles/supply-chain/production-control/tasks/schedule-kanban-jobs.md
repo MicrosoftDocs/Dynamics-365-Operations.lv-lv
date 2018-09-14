@@ -3,7 +3,7 @@ title: Kanban darbu grafika izveide
 description: "Šajā procedūrā apskatīts Kanban darbu plānošanas process noteiktai darba šūnai."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

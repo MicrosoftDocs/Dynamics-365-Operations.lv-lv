@@ -3,7 +3,7 @@ title: "Krājumu inventarizācijas procesu definēšana"
 description: "Šajā procedūrā parādīts, kā konfigurēt pamata krājumu inventarizācijas procesus, izveidojot inventarizācijas grupu un inventarizācijas žurnālu."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

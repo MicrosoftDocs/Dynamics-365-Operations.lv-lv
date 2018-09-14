@@ -3,7 +3,7 @@ title: "Pašreizējā WIP statusa skatīšana ražošanas pasūtījumā"
 description: "Šajā procedūrā parādīts kā skatīt NP pārskatu par ražošanas pasūtījumu."
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

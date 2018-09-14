@@ -3,7 +3,7 @@ title: "Darba laika plānošanas rekvizītu izveide"
 description: "Darba laika plānošanas rekvizīti tiek izmantoti, lai kategorizētu darba laika intervālus un definētu iestatījumus, kas operatoriem ir jāņem vērā."
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

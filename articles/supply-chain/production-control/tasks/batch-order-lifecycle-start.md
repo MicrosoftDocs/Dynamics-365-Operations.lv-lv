@@ -3,7 +3,7 @@ title: "Partijas pasūtījuma dzīves cikls no izveidošanas līdz sākšanai"
 description: "Šajā procedūrā tiek izklāstīta partijas pasūtījuma dzīves ciklā pirmā daļa."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Papildu kārtulu struktūru izveide un piešķiršana"
 description: "Šajā uzdevuma ceļvedī tiek aprakstīts, kā izveidot un piešķirt detalizētās kārtulas struktūru konta struktūrai."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

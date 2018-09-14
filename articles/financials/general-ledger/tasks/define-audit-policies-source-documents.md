@@ -3,7 +3,7 @@ title: "Pirmdokumentu audita ierobežojumu definēšana"
 description: "Šajā procedūrā ir parādīts, kā izveidot un palaist audita ierobežojuma nosacījumus."
 author: ryansandness
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

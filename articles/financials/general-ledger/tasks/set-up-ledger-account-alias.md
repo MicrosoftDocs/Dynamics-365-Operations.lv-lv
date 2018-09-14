@@ -3,7 +3,7 @@ title: "Virsgrāmatas konta aizstājvārda iestatīšana"
 description: "Šajā procedūrā parādīts, kā izveidot konta aizstājvārdu, kas nodrošina saīsni konta numura ievadīšanai."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

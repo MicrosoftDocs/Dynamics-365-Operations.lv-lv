@@ -3,7 +3,7 @@ title: "Pirmstecīgas aktivitātes pievienošana ražošanas plūsmai"
 description: "Ražošanas plūsmas versijā visas aktivitātes ir jāsakārto noteiktā secībā."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

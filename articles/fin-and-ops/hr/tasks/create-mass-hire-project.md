@@ -3,7 +3,7 @@ title: "Masveida darbā pieņemšanas projekta izveide"
 description: "Šajā procedūrā aprakstīts process masveida darbā pieņemšanas projekta iestatīšanai."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

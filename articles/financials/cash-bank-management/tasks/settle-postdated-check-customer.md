@@ -3,7 +3,7 @@ title: "Ar iepriekšēju datumu datētu čeku no debitora apmaksa"
 description: "Ar iepriekšēju datumu datētu čeku var nosegt pēc tam, kad banka to ir dzēsusi."
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

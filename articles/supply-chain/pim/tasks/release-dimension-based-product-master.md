@@ -3,7 +3,7 @@ title: "Uz dimensijas balstītas preces šablona izlaišana"
 description: "Šajā procedūrā tiek parādīts, kā izlaist preces šablonu, kurš tiks izmantots konfigurācijām atbilstoši dimensijām."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Pirkšanas pasūtījuma izveide ar piegādes grafiku"
 description: "Šajā procedūrā ir parādīts, kā izveidot piegādes grafiku pirkšanas pasūtījumam."
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

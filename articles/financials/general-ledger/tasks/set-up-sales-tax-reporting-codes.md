@@ -3,7 +3,7 @@ title: "Iestatīt PVN pārskatu kodus"
 description: "PVN pārskatu kodi attiecas uz lauka numuru PVN pārskatā."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

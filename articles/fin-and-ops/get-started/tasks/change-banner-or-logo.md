@@ -3,7 +3,7 @@ title: "Reklāmkaroga vai logotipa maiņa"
 description: "Šajā procedūrā uzskaitītas darbības, kuras sistēmas administratori var izmantot, lai atjauninātu reklāmkarogu vai logotipa attēlu, kas tiek rādīts juridiskai personai."
 author: aneesmsft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

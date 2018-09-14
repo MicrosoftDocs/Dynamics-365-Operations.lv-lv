@@ -3,7 +3,7 @@ title: "Pirkšanas pasūtījuma krājumu saņemšana no krājumu vajadzības"
 description: "Šajā procedūrā ir parādīts, kā saņemt pirkšanas pasūtījuma krājumus no krājumu vajadzības."
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

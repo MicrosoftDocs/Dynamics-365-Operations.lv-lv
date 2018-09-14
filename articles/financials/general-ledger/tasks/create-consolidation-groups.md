@@ -3,7 +3,7 @@ title: "Konsolidācijas grupu un papildu konsolidācijas kontu izveide"
 description: "Šajā procedūrā tiek parādīts, kā izveidot konsolidācijas kontu grupu un pēc tam pievienot kontus grupai."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

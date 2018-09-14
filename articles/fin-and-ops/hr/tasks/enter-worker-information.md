@@ -3,7 +3,7 @@ title: "Nodarbinātā informācijas ievade"
 description: "Kad personāla atlases darbinieks ir izveidojis masveida darbā pieņemšanas projektu un ģenerējis amatus, nākamais solis ir ievadīt darbinieka informāciju par cilvēkiem, kas pieņemti darbā."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

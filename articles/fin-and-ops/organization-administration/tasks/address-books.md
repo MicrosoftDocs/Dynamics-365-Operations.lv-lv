@@ -3,7 +3,7 @@ title: "Adrešu grāmatu konfigurēšana"
 description: "Izmantojiet šo procedūru un lēmumus, kurus esat pieņēmis, plānojot globālās adrešu grāmatas konfigurāciju un papildu adrešu grāmatas tēmu, lai iestatītu papildu adrešu grāmatas savai organizācijai."
 author: kfend
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

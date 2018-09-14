@@ -3,7 +3,7 @@ title: "Kreditoru apstiprināšana konkrētām precēm"
 description: "Šī procedūra parāda, kā apstiprināt kreditorus īpašām precēm."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

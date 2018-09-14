@@ -3,7 +3,7 @@ title: "Darbību segšana starp Virsgrāmatas kontiem"
 description: "Šajā procedūrā parādīts, kā nosegt transakcijas starp Virsgrāmatas kontiem un atcelt Virsgrāmatas nosegšanu."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

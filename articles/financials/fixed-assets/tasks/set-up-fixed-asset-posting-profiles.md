@@ -3,7 +3,7 @@ title: "Pamatlīdzekļa grāmatošanas profilu iestatīšana"
 description: "Šajā uzdevuma ceļvedī tiks iestatītas pamatlīdzekļu grāmatošanas metodes."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

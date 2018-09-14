@@ -3,7 +3,7 @@ title: " Ierīces izveide un sasaiste"
 description: "Šajā procedūrā ir aprakstīts, kā izveidot jaunu ierīci un piesaistīt to reģistram."
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

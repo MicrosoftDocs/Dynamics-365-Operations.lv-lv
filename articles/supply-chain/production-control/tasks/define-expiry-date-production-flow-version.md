@@ -3,7 +3,7 @@ title: "Derīguma termiņa definēšana ražošanas plūsmas versijai"
 description: "Lai beigtu ražošanas plūsmas versijas derīgumu un apstrādi noteiktā datumā, vai, lai plānotu aktīvas versijas nomaiņu uz jaunu versiju, jūs varat iestatīt versijas beigu datumu."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

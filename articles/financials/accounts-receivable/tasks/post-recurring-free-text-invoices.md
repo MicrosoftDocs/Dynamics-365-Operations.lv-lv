@@ -3,7 +3,7 @@ title: "Periodisku brīva teksta rēķinu ģenerēšana un grāmatošana"
 description: "Periodiskie rēķini tiek izmantoti, lai klientiem regulāri izrakstītu rēķinus par vienādu summu."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

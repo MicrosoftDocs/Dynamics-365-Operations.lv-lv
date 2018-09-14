@@ -3,7 +3,7 @@ title: "Automātiskās kravas saskaņošanas iestatīšana"
 description: "Šajā procedūrā parādīts kā iestatīt datus automātiskai kravas saskaņošanai."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

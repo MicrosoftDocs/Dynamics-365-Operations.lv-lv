@@ -3,7 +3,7 @@ title: "Atvieglojumu piemērošanas beigu datumu pārvaldība"
 description: "Šajā procedūrā parādīts, kā varat izbeigt vai pagarināt atvieglojumus un pārvaldīt atvieglojumam reģistrēto darbinieku reģistrēšanas datumus."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

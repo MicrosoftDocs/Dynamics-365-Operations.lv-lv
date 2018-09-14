@@ -3,7 +3,7 @@ title: " Reģistru izveide un sasaiste"
 description: "Šajā procedūrā ir parādīts, kā izveidot pārdošanas punkta (POS) reģistru."
 author: rubencdelgado
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

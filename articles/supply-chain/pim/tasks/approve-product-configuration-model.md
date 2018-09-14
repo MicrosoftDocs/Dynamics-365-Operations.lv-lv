@@ -3,7 +3,7 @@ title: "Preces konfigurācijas modeļa apstiprināšana"
 description: "Šīs procedūras veikšanai ir nepieciešams, lai būtu pieejams vismaz preces konfigurācijas modelis."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Virsgrāmatas uzkrājumu darbību izveide"
 description: "Šajā uzdevumā ir aprakstīts, kā ģenerēt virsgrāmatas uzkrājuma transakcijas, kuras nosaka uzkrāšanas shēmas."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

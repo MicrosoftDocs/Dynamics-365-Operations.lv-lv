@@ -3,7 +3,7 @@ title: "Vērtību plūsmas izveide"
 description: "Vērtību plūsmas ir pārvaldības struktūrvienības, kas sagrupētas vienā vai vairākās ražošanas plūsmās."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

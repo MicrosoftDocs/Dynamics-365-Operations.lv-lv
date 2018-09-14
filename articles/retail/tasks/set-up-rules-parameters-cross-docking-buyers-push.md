@@ -3,7 +3,7 @@ title: " Kārtulu un parametru iestatīšana pārkraušanai sadales centrā un s
 description: "Šī procedūra parāda, kā izveidot papildināšanas kārtulas."
 author: josaw1
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

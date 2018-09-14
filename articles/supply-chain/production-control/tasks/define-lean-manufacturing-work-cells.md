@@ -3,7 +3,7 @@ title: "Lean manufacturing darba šūnu definēšana"
 description: "Darba šūna ir specifiska resursu grupu forma, kuru var izmantot lean manufacturing procesa aktivitātēs."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

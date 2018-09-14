@@ -3,7 +3,7 @@ title: "Pirkšanas pasūtījuma izveide"
 description: "Šajā procedūrā ir parādīts, kā manuāli izveidot pirkšanas pasūtījumu."
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

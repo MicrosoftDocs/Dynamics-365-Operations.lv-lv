@@ -3,7 +3,7 @@ title: "Debitoru maksājumu nosacījumu izveide"
 description: "Šī procedūra definē termiņatlaides un apmaksas datuma iestatījumus."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

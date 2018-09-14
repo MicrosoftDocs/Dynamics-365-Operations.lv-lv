@@ -3,7 +3,7 @@ title: "Atvieglojumu reģistrēšana un noņemšana nodarbinātajiem"
 description: "Šajā procedūrā parādīts, kā vienu darbinieku var reģistrēt vienam vai vairākiem atvieglojumiem un kā atvieglojumam var reģistrēt vairākus darbiniekus."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

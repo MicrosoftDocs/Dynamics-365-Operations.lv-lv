@@ -3,7 +3,7 @@ title: "Pirkšanas atgriešanas pasūtījuma izveide"
 description: "Šajā procedūrā ir parādīts, kā izveidot pirkuma atgriešanas pasūtījumu, izmantojot darbību Kredīta nota, lai rindas no kreditora rēķina dokumenta kopētu jaunā PP."
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

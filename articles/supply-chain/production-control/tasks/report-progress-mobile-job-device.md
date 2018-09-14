@@ -3,7 +3,7 @@ title: "Pārskata sniegšana par attīstību mobilajā darba ierīcē"
 description: "Šajā procedūrā ir parādīts, kā sākt darbu un ziņot par norisi ražošanas darbam darba ierīces reģistrācijas formā."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

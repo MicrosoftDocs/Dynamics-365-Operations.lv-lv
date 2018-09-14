@@ -3,7 +3,7 @@ title: "Kreditora maksājumu papildu maksu definēšana"
 description: "Iestatiet kreditoru maksājumu papildmaksas."
 author: abruer
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

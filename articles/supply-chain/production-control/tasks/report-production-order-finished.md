@@ -3,7 +3,7 @@ title: "Ziņojums par ražošanas pasūtījuma pabeigšanu"
 description: "Šajā procedūrā parādīts, kā ziņot ražošanas pasūtījumu kā pabeigtu."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

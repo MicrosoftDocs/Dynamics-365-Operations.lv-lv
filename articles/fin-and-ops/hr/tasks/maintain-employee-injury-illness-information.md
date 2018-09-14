@@ -3,7 +3,7 @@ title: "Darbinieku savainojumu un slimību informācijas uzturēšana"
 description: "Ieteicams vispirms izpildīt uzdevuma ceļvedi Traumas un slimības iestatīšana, jo šeit tiek izmantota daļa iestatīšanas informācijas."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

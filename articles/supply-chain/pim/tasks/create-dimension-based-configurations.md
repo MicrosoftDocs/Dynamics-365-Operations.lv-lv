@@ -3,7 +3,7 @@ title: "Konfigurāciju izveide atbilstoši dimensijām"
 description: "Šajā procedūrā ir parādīts, kā definēt konfigurāciju uz dimensiju balstītai precei."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

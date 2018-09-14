@@ -3,7 +3,7 @@ title: "Atvaļinājuma pārvaldība"
 description: "Šajā procedūrā ir aprakstīts, kā izveidot darbinieku atvaļinājuma ierakstus."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

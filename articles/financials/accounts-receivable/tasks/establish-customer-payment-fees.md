@@ -3,7 +3,7 @@ title: "Debitoru maksājumu papildu maksu izveide"
 description: "Izveidojiet maksāšanas papildmaksas debitoru maksājumiem."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

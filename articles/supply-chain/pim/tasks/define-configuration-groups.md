@@ -3,7 +3,7 @@ title: "Konfigurācijas grupu definēšana"
 description: "Šajā procedūrā tiek parādīts, kā definēt preču konfigurācijas grupas, izveidojot divas grupas demonstrācijas datu uzņēmumā USMF."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

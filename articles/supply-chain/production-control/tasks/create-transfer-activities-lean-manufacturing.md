@@ -3,7 +3,7 @@ title: "Lean manufacturing pārsūtīšanas aktivitāšu izveide"
 description: "Izveidojiet lean manufacturing pārsūtīšanas aktivitāti."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

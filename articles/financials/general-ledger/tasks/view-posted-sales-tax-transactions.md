@@ -3,7 +3,7 @@ title: "Skatīt grāmatotās PVN darbības"
 description: "Varat apskatīt iegrāmatotās PVN transakcijas no dažādām lapām, atkarībā no tā, ko vēlaties apskatīt."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

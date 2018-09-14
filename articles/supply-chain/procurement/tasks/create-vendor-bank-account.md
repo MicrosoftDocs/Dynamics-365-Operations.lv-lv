@@ -3,7 +3,7 @@ title: Kreditora bankas konta izveide
 description: "Šajā procedūrā ir parādīts, kā izveidot bankas kontu kreditoram."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

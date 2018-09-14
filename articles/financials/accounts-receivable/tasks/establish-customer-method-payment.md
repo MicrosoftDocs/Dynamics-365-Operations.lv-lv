@@ -3,7 +3,7 @@ title: "Debitoru maksājuma metodes izveide"
 description: "Izveidojiet maksāšanas metodi debitoru maksājumiem."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Jaunas Kanban kārtulas izveide, dublējot esošu Kanban kārtulu"
 description: "Šī procedūra koncentrējas uz esošo Kanban nosacījumu dublikāta radīšanu."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

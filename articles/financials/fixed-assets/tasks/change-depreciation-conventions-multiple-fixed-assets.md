@@ -3,7 +3,7 @@ title: "Nolietojuma konvenciju maiņa vairākiem pamatlīdzekļiem"
 description: "Šis uzdevums atjaunina nolietojuma nosacījumus noteiktai pamatlīdzekļu grupai."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
