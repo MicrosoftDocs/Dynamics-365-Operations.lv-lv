@@ -3,7 +3,7 @@ title: "Pilnīga izlaistās preces šablona pamata iestatīšana"
 description: "Šajā procedūrā tiek parādīts, kā veikt minimālo uzstādīšanu, kas ir nepieciešama pirms preces šablonu varēs izmantot MK versijās."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: fe3ecebd7a1579ab3301ada029020dec306bcdc1
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 0d3a91977c38c0ce0f9fe114bec943c7cb32a5d4
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a><span data-ttu-id="75540-103">Pilnīga izlaistās preces šablona pamata iestatīšana</span><span class="sxs-lookup"><span data-stu-id="75540-103">Complete basic setup of a released product master</span></span>

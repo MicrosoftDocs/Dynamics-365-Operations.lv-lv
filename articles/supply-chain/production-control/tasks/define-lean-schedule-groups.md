@@ -3,7 +3,7 @@ title: "Racionālās plānošanas grupu definēšana"
 description: "Racionālās plānošanas grupas tiek definētas, lai grupētu un izšķirtu preces Kanban plānošanā."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: dcb8c82af7d3bcd95a13cef49c5606ea8781e459
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 787694b094f343445cca784d035554a8bfa25f5a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="define-lean-schedule-groups"></a><span data-ttu-id="bbcf5-103">Racionālās plānošanas grupu definēšana</span><span class="sxs-lookup"><span data-stu-id="bbcf5-103">Define lean schedule groups</span></span>

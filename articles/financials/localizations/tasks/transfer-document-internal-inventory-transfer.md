@@ -3,7 +3,7 @@ title: "Pārsūtīšanas dokumentu ģenerēšana iekšējo krājumu pārsūtīš
 description: "Šajā procedūrā ir aprakstīts, kā izveidot preču kustības uzņēmuma robežās pārsūtīšanas dokumentus."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 1dc48b3d8761f72bbdf2c611c9280960f7ee119b
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 4b9ef0026129d958b4214bb6e235c288de023d10
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="generate-a-transfer-document-for-an-internal-inventory-transfer"></a><span data-ttu-id="64a67-103">Pārsūtīšanas dokumentu ģenerēšana iekšējo krājumu pārsūtīšanai</span><span class="sxs-lookup"><span data-stu-id="64a67-103">Generate a transfer document for an internal inventory transfer</span></span>

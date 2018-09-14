@@ -3,7 +3,7 @@ title: "Ziņojums par ražošanas pasūtījuma pabeigšanu"
 description: "Šajā procedūrā parādīts, kā ziņot ražošanas pasūtījumu kā pabeigtu."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 3ad1027eccd543adf883890d343705b928daa405
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 97e67ff51e4bc4533aeb2485c34cd5ec8a882bb6
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="report-a-production-order-as-finished"></a><span data-ttu-id="05037-103">Ziņojums par ražošanas pasūtījuma pabeigšanu</span><span class="sxs-lookup"><span data-stu-id="05037-103">Report a production order as finished</span></span>

@@ -261,11 +261,11 @@
               href: extensibility/method-wrapping-coc.md
             - name: Nosaukumdošanas vadlīnijas modeļu paplašinājumiem
               href: extensibility/naming-guidelines-extensions.md
-            - name: 'Modeļa ierobežojumu mazināšana, lai reorganizētu pārklāšanos paplašinājumos'
+            - name: 'Modeļa ierobežojumu mazināšana, lai pārstrukturētu pārklāšanos paplašinājumos'
               href: extensibility/refactoring-over-layering.md
-        - name: Kā to paveikt?
+        - name: Paplašinājumu izveide
           items:
-            - name: Vērtību pievienošana enums
+            - name: Vērtību pievienošana uzskaitījumiem
               href: extensibility/add-enum-value.md
             - name: Paplašināto datu tipu modificēšana
               href: extensibility/modify-edt.md
@@ -311,15 +311,37 @@
               href: extensibility/maps-as-interfaces.md
             - name: Versiju izveidē lietoto tabulu karšu paplašināšana
               href: extensibility/maps-with-versioning.md
+        - name: Paplašināmu risinājumu veidošana
+          items:
+            - name: Paplašināma koda rakstīšana
+              href: extensibility/writing-extensible-code.md
+            - name: Klases
+              href: extensibility/extensible-classes.md
+            - name: Metodes
+              href: extensibility/extensible-methods.md
+            - name: Formas
+              href: extensibility/extensible-forms.md
+            - name: Paplašinātie datu tipi
+              href: extensibility/extensible-edts.md
+            - name: Paplašināmi uzskaitījumi
+              href: extensibility/extensible-enums.md
+            - name: Pārstāvji
+              href: extensibility/extensible-code-delegates.md
+            - name: Tabulas
+              href: extensibility/extensible-tables.md
+            - name: Paplašināmības atribūti metodēm
+              href: extensibility/extensibility-attributes.md
+            - name: Traucējumus radošas izmaiņas
+              href: extensibility/breaking-changes.md
     - name: Veiktspēja
       items:
-        - name: 'Darbību izsekošana, izmantojot Trace Parser'
+        - name: 'Darbību izsekošana, izmantojot Trace parsētāju'
           href: perf-test/trace-trace-tutorial.md
         - name: 'Veiktspējas SDK un vairāklietotāju testēšana, izmantojot Visual Studio Online'
           href: perf-test/perfsdk-tutorial.md
         - name: Veiktspējas SDK un vairāklietotāju testēšana lokālās vidēs
           href: perf-test/perfsdk-tutorial-lbd.md
-        - name: 'Problēmu diagnostika un veiktspējas analīze, izmantojot Trace Parser'
+        - name: 'Problēmu diagnostika un veiktspējas analīze, izmantojot Trace parsētāju'
           href: perf-test/trace-parser.md
         - name: Veiktspējas taimeris
           href: perf-test/performance-timer.md
@@ -1184,6 +1206,8 @@
       items:
         - name: Kārtulu izveide optimizācijas padomniekam
           href: sysadmin/create-rules-optimization-advisor.md
+    - name: Ziņot par ražošanas pārtraukumu
+      href: lifecycle-services/report-production-outage.md
 - name: Lifecycle Services
   items:
     - name: Resursi pakalpojumiem Lifecycle Services
@@ -1236,11 +1260,13 @@
       href: lifecycle-services/monitoring-diagnostics.md
     - name: Vides pakalpojumu restartēšana
       href: lifecycle-services/restart-environment-services.md
+    - name: Ziņot par ražošanas pārtraukumu
+      href: lifecycle-services/report-production-outage.md
     - name: Lietotāja pierakstīšanās gadījumu izsekošana
       href: lifecycle-services/user-logins.md
     - name: Līdzekļu bibliotēka
       href: lifecycle-services/asset-library.md
-    - name: Microsoft Dynamics 365 Translation Service
+    - name: "Microsoft Dynamics\_365 Translation Service"
       href: lifecycle-services/translation-service-overview.md
       items:
         - name: Lietotāja interfeisa failu tulkošana

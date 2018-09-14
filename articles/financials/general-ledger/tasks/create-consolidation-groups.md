@@ -3,7 +3,7 @@ title: "Konsolidācijas grupu un papildu konsolidācijas kontu izveide"
 description: "Šajā procedūrā tiek parādīts, kā izveidot konsolidācijas kontu grupu un pēc tam pievienot kontus grupai."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: c8fe116b473478d6d2921c0a63979e8fa8b369d5
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 9e3b945b9b2c00ac4ec703db4fdafdcfb13b3412
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-consolidation-groups-and-additional-consolidation-accounts"></a><span data-ttu-id="13668-103">Konsolidācijas grupu un papildu konsolidācijas kontu izveide</span><span class="sxs-lookup"><span data-stu-id="13668-103">Create consolidation groups and additional consolidation accounts</span></span>
