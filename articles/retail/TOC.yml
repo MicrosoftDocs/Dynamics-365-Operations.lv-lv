@@ -99,8 +99,6 @@
       href: call-center-functionality.md
     - name: Zvanu centra katalogi
       href: call-center-catalogs.md
-    - name: Zvanu centra kataloga izveidošana
-      href: create-call-center-catalogs.md
     - name: Piegādes veidu un maksu konfigurēšana
       href: configure-call-center-delivery.md
     - name: Pārkāpumu brīdinājumu iestatīšana un darbs ar tiem
@@ -129,10 +127,12 @@
       href: retail-time-attendance.md
 - name: "Modern Point of Sale (MPOS) un Cloud\_POS"
   items:
-    - name: Izvēle starp MPOS un Cloud POS
+    - name: "Izvēle starp MPOS un Cloud\_POS"
       href: MPOS-or-CPOS.md
     - name: POS operācijas tiešsaistē un bezsaistē
       href: pos-operations.md
+    - name: Pielāgotas Retail Modern POS ierīces iestatīšana
+      href: dev-itpro/retail-POS-activation-changes.md
     - name: "Demonstrācijas datu ekrāna izkārtojumi programmā\_MPOS un Cloud POS"
       href: demo-data.md
     - name: Preču un klientu meklēšana POS
