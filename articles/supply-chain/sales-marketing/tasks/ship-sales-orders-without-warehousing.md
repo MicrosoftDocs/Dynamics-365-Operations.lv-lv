@@ -3,23 +3,24 @@ title: "Pārdošanas pasūtījumu sūtīšana bez noliktavas"
 description: "Šajā ceļvedī ir parādīts, kā atjaunināt pārdošanas pasūtījumu, kad preces tiek nosūtītas debitoram."
 author: omulvad
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SalesTableListPage, SalesTable, SalesEditLines,  SrsReportViewerForm, SalesTableLineQuantity, CustPackingSlipJournal
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8e7d2198b4976a6f60f05690d7b6f11f3da55e28
-ms.openlocfilehash: a98e58b26432ee01e62d60f81a768f14568e34e4
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 3f1b9dd4b99bcbcc6cfbc5cfd8e3271fa80c628c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Pārdošanas pasūtījumu sūtīšana bez noliktavas
@@ -50,13 +51,13 @@ ms.lasthandoff: 11/03/2017
 15. Noklikšķiniet uz Mainīt skatījumu.
 16. Noklikšķiniet uz Virsraksta skatījuma.
     * Ja visas pasūtījuma rindas ir pilnībā nosūtītas, pasūtījuma statuss mainās no Atvērts uz Piegādāts.  
-    * Šajā piemērā pasūtījuma rinda ir daļēji nosūtīta. Tāpēc tiek saglabāts pasūtījuma statuss Atvērts.     
+    * Šajā piemērā pasūtījuma rinda ir daļēji nosūtīta. Tāpēc pasūtījuma statuss paliek Atvērts.     
     * Lauks Dokumenta statuss ir iestatīts uz Pavadzīme, jo vismaz viena no pasūtījuma rindām ir nosūtīta.  
 17. Darbību rūtī noklikšķiniet uz Vispārīgi.
 18. Noklikšķiniet uz Rindas daudzums.
 19. Aizvērt lapu.
 20. Darbību rūtī noklikšķiniet uz Izdot un iepakot.
 21. Noklikšķiniet uz Pavadzīme.
-    * Lapa Pavadzīmju žurnāls satur visus pavadzīmes dokumentus, kas tika ģenerēti pasūtījumam. Varat pārskatīt detalizētu informāciju par katru dokumentu un to izdrukāt, ka tas ir vajadzīgs.  
+    * Lapa Pavadzīmju žurnāls satur visus pavadzīmes dokumentus, kas tika ģenerēti pasūtījumam. Ja vēlaties, varat pārskatīt datus par katru dokumentu un izdrukāt tos.  
 
 

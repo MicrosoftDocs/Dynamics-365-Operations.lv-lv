@@ -3,23 +3,24 @@ title: "Masveida finanšu periodu slēgšana"
 description: "Šī procedūra parāda, kā aizturēt vai neatgriezeniski slēgt periodu, vai vienlaicīgi vairāk nekā vienu juridisku personu."
 author: aprilolson
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerCalendar, LedgerPeriodModuleAccessControlUpdate, SysLookupPicklist, LedgerFiscalCalendarPeriodStatus
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ef3cad6538d9efbd1c1881f4b7d771382d9b1ba8
-ms.openlocfilehash: 1954bfdf4807e91d275e3a1ba80f959bdf9464a8
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 8d7151cbcd02f9312ca6b0de5e27231a0b0dc9d6
 ms.contentlocale: lv-lv
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="mass-financial-period-close"></a>Masveida finanšu periodu slēgšana
@@ -41,7 +42,7 @@ ms.lasthandoff: 10/26/2017
     * Visi nozīmē, ka visi lietotāji ar rediģēšanas piekļuvi moduļiem var veikt grāmatošanu, ja periods ir atvērts. Neviens nozīmē, ka neviens lietotājs nevar veikt grāmatošanu modulī, ja periods ir atvērts. Specifiska lietotāju grupa nozīmē, ka tikai grupas lietotāji var veikt grāmatošanu modulī, ja periods ir atvērts.  
 8. Noklikšķiniet uz Atjaunināt.
 9. Atlasīt citu periodu, lai atjauninātu statusu.
-10. Atlasiet juridiskās personas, kam vēlaties atjaunināt perioda statusu.
+10. Atlasiet juridiskās personas, kurām vēlaties atjaunināt perioda statusu.
 11. Atlasiet Perioda statusu, un iestatiet statusu Aizturēts, Atvērts vai Neatgriezeniski slēgts.
     * Atvērts norāda uz periodu, kurā var grāmatot, pie nosacījuma, ka lietotājam ir piekļuve. Aizturēts nozīmē, ka periods nevar būt grāmatots, bet periodu var atvērt atkārtoti. Neatgriezeniski slēgts nozīmē, ka periods ir slēgts un to nevar atvērt. Korekcijas nevar grāmatot. Nav ieteicams iestatīt periodu uz Neatgriezeniski slēgts, kamēr visas korekcijas un auditi nav pabeigti.  
 12. Noklikšķiniet uz Atjaunināt.

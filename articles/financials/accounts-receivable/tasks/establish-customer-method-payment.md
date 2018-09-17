@@ -3,23 +3,24 @@ title: "Debitoru maksājuma metodes izveide"
 description: "Izveidojiet maksāšanas metodi debitoru maksājumiem."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustPaymMode, BankAccountTableLookUp
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ef3cad6538d9efbd1c1881f4b7d771382d9b1ba8
-ms.openlocfilehash: 0ba359567126efaa8274644444a8a261e24c6621
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: cabcfe83ac83a8210ce4e0d46a08acdc48f4bf3b
 ms.contentlocale: lv-lv
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="establish-customer-method-of-payment"></a>Debitoru maksājuma metodes izveide
@@ -51,7 +52,7 @@ Izveidojiet maksāšanas metodi debitoru maksājumiem. Šajā uzdevumā tiek izm
 13. Izmantojiet cilni Faila formāts, lai definētu elektronisko maksājumu iestatījumus.
 14. Izmantojiet cilni Maksājumu kontrole, lai definētu obligātos laukus.
     * Piemēram, ja vēlaties, lai visi šīs maksāšanas metodes maksājumi tiktu deponēti, varat izvēlēties šo opciju šajā cilnē.  
-15. Izmantojiet cilni Maksājuma atribūti, lai definētu maksājuma atribūtus, kurus vēlaties izmantot šai maksāšanas metodei.
+15. Izmantojiet cilni Maksājumu atribūti, lai definētu maksājuma atribūtus, kurus vēlaties izmantot šai maksāšanas metodei.
 16. Noklikšķiniet uz Saglabāt.
 
 

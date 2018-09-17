@@ -55,11 +55,13 @@ Debitoram var būt vairākas veidnes, kam ir iestatīti dažādi biežumi.
 
 ## <a name="generate-the-recurring-invoices"></a>Periodisko rēķinu ģenerēšana
 Lapā **Periodiskie rēķini** ir uzdevums, kas apstrādā periodisko rēķinu veidnes. Norādiet rēķina datumu un veidni, kas jāizmanto rēķinu ģenerēšanā. Rēķini tiks ģenerēti, un katrai apstrādājamajai rēķinu grupai tiks piešķirts viens periodiskuma ID numurs.
-Periodisko brīva teksta rēķinu grāmatošana
+
+<a name="post-recurring-free-text-invoices"></a>Periodisko brīva teksta rēķinu grāmatošana
 ---------------------------------
 
 Pēc tam, kad periodiskie rēķini ir ģenerēti, rēķinu periodiskuma ID parādīsies grāmatošanas uzdevumā lapā **Periodiskie rēķini**. Visus rēķinus ar vienu periodiskuma ID var skatīt, noklikšķinot uz saites. Pārskatot rēķinus ar vienu periodiskuma ID, atsevišķus rēķinus varat dzēst. Debitora periodiskuma iestatījumi tiks atiestatīti šai veidnei, tādējādi vēlāk to var atkārtoti ģenerēt. Vienam periodiskuma ID var grāmatot vienu, vairākus vai visus rēķinus. Ja darbplūsmas ir iespējotas, lai rēķinus grāmatotu, noklikšķiniet uz **Iesniegt**.
-Periodisko brīva teksta rēķinu drukāšana
+
+<a name="print-recurring-free-text-invoices"></a>Periodisko brīva teksta rēķinu drukāšana
 ----------------------------------
 
 Ja periodiskie rēķini ir iegrāmatoti, rēķinus var drukāt no brīva teksta rēķina saraksta lapas. Varat drukāt atlasītos rēķinus, vai arī varat atlasīt drukāšanai rēķinu diapazonu.

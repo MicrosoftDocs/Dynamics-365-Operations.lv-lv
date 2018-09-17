@@ -6,6 +6,8 @@
       items:
         - name: Jaunumi un izmaiņas
           items:
+            - name: "Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018.\_gada augusts)"
+              href: whats-new-talent-august2018.md
             - name: "Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018.\_gada jūlijs)"
               href: whats-new-talent-july2018.md
         - name: Sistēmas prasības un atjaunināšanas politika
@@ -16,8 +18,8 @@
           href: remove-talent-environment.md
         - name: Nodrošinājums Talent moduļu programmām
           href: modular-app-tech-faq.md
-        - name: Programmas Talent funkcionalitātes paplašināšana
-          href: extend-talent-functionality.md
+        - name: PowerApps programmu iegulšana
+          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Piekļuve priekšskatījuma līdzekļiem
           href: access-preview-feature.md
         - name: Konfigurēt algu aprēķina integrēšanu starp Talent un Dayforce
@@ -31,7 +33,7 @@
           href: create-department-add-department-hierarchy.md
         - name: "HR\_parametru iestatīšana dažādās juridiskajās personās"
           href: set-up-hr-parameters-across-legal-entities.md
-        - name: "Iestatīt uzņēmumam raksturīgus HR\_parametrus"
+        - name: "Uzņēmumam raksturīgu HR\_parametru iestatīšana"
           href: set-up-company-specific-hr-parameters.md
         - name: Bieži uzdotie jautājumi par personāla darbībām
           href: personnel-actions-faq.md

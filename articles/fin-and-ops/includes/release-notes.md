@@ -1,6 +1,6 @@
 > [!IMPORTANT]
-> **Paziņojums par Dynamics 365 2018. gada pavasara laidienu**
+> **Paziņojums par Dynamics 365 piezīmēm par laidienu**
 >
 > Vai interesējaties par gaidāmajām un nesen izlaistajām biznesa programmu un platformu iespējām? 
 > 
-> [Lejupielādēt 2018. gada pavasara laidienu](https://go.microsoft.com/fwlink/?linkid=870424). Visa informācija no “a” līdz “z” ir apkopota vienā PDF dokumentā, ko var izmantot plānošanai. 
+> Skatiet biznesa lietojumprogrammu un platformu informāciju par laidienu lapā [Business Applications Release Notes](https://go.microsoft.com/fwlink/?linkid=2010158). Visa informācija no “a” līdz “z” ir apkopota vienuviet, kur varat to izmantot plānošanai. Atkarībā no laidiena piezīmju versijas varat uzzināt par jauniem pakalpojumiem un iespējām, kā arī par līdzekļiem, ko paredzēts izlaist nākotnē.

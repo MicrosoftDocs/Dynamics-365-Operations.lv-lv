@@ -3,23 +3,24 @@ title: "Pārdošanas komisijas kārtulu iestatīšana"
 description: "Šajā procedūrā parādīts, kā iestatīt un aktivizēt pārdošanas komisijas naudas aprēķināšanu un izsekošanu."
 author: omulvad
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CommissionCustomerGroup, CommissionItemGroup, CommissionSalesGroup, CommissionSalesMember, DirPartyLookup, CommissionCalc, InventPosting, CustTable, EcoResProductDetailsExtended
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8e7d2198b4976a6f60f05690d7b6f11f3da55e28
-ms.openlocfilehash: 3d5c38b1f07803242350fe016b45c45d49c0b59b
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 8d81765884f741443d1c0f5b0cb8bc545945e1a1
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="set-up-sales-commission-rules"></a>Pārdošanas komisijas kārtulu iestatīšana
@@ -45,7 +46,7 @@ ms.lasthandoff: 11/03/2017
     * Komisijas pārdošanas grupā norādīti darbinieki pārdošanas pārstāvja lomās, kas ir tiesīgi saņemt komisiju, kad debitors, kas saistīts ar attiecīgo pārdošanas grupu, pērk noteiktus krājumus.  
     * USMF demonstrācijas datu uzņēmumā ir pārdošanas grupa ar nosaukumu "Tirdzniecības pārstāvji ASV".  
 13. Darbību rūtī noklikšķiniet uz Vispārīgi.
-14. Noklikšķiniet uz Pārdošanas pārstāvis.
+14. Noklikšķiniet uz Tirdzn. pārstāvis.
     * Lapā Tirdzn. pārstāvis ir redzams to uzņēmuma pārdevēju saraksts, kuri ir saistīti ar konkrēto komisijas grupu. Vairākus pārdošanas pārstāvjus var piešķirt vienai grupai un noteikt to attiecīgo daļu kopējā komisijā kā procentuālu vērtību. Visu darbinieku kopējā komisija nedrīkst pārsniegt 100.  
 15. Sarakstā atzīmējiet atlasīto rindu.
 16. Noklikšķiniet uz Rediģēt.
