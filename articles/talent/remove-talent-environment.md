@@ -26,6 +26,8 @@ ms.lasthandoff: 08/09/2018
 ---
 # <a name="remove-talent-environments"></a>Talent vižu noņemšana
 
+[!include [banner](includes/banner.md)]
+
 Šajā tēmā ir detalizēti aprakstīta Microsoft Dynamics 365 for Talent izmēģinājuma vai ražošanas vides noņemšanas procedūra.
 
 ## <a name="removing-a-test-drive-environment"></a>Izmēģinājuma vides noņemšana

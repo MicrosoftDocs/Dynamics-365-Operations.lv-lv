@@ -28,6 +28,8 @@ ms.lasthandoff: 06/12/2018
 
 # <a name="add-location-roles-and-party-relationship-types"></a>Vietu lomu un pušu attiecību veidu pievienošana 
 
+[!include [banner](../includes/banner.md)]
+
 ## <a name="add-location-roles"></a>Vietu lomu pievienošana
 
 Pastāv divi tālāk aprakstītie veidi, kā pievienot jaunas atrašanās vietas lomas adresei un kontaktinformācijai.
