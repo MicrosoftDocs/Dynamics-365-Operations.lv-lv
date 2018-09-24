@@ -19,10 +19,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 17b42ae7e177a42b732654f2952ec5fe35acb1a9
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 1bb4b55fd929c105c20a1d4b1086bbb7f07d5eb1
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 09/22/2018
 
 ---
 
@@ -35,34 +35,34 @@ ms.lasthandoff: 03/26/2018
 ## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
 Power BI saturs **Darbaspēka rādītāji** tiek rādīts darbvietā **Personāla pārvaldība**, ja izmantojat kādu no tālāk norādītajiem produktiem.
 
-- Programma Microsoft Dynamics 365 for Finance and Operations 
+- Programma Microsoft Dynamics 365 for Finance and Operations
 - Microsoft Dynamics 365 for Talent
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI saturā iekļautā metrika
 Tālāk esošajā tabulā ir uzskaitīti katrā pārskatā sniegtie rādītāji.
 
-| Pārskats                                           | Metrika                                                                                                                                                                                                            |
-|--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Darbinieku rādītāji                                   | Citu pārskatu kopsavilkums                                                                                                                           |
-| Darbinieku skaita analīze pēc uzņēmuma, nodaļas, atrašanās vietas | Darbinieku skaits pēc uzņēmuma, darbinieku skaits pēc nodaļas, darbinieku skaits pēc atrašanās vietas un darbinieku kopskaits                                                                                                                           |
-| Darbinieku skaita analīze pēc darba, darbības, vadītāja            | Darbinieku skaits pēc darba, darbinieku skaits pēc darbības, darbinieku skaits pēc vadītāja un darbinieku kopskaits                                                                                                                                      |
-| Darbinieku skaita tendenču analīze                         | Darbinieku skaita šajā un pagājušajā gadā salīdzinājums pēc uzņēmuma un apkopotais darbinieku skaits par pēdējiem 12 mēnešiem                                                                                                                        |
+| Pārskats                                           | Metrika |
+|--------------------------------------------------|---------|
+| Darbinieku rādītāji                                   | Citu pārskatu kopsavilkums |
+| Darbinieku skaita analīze pēc uzņēmuma, nodaļas, atrašanās vietas | Darbinieku skaits pēc uzņēmuma, darbinieku skaits pēc nodaļas, darbinieku skaits pēc atrašanās vietas un darbinieku kopskaits |
+| Darbinieku skaita analīze pēc darba, darbības, vadītāja            | Darbinieku skaits pēc darba, darbinieku skaits pēc darbības, darbinieku skaits pēc vadītāja un darbinieku kopskaits |
+| Darbinieku skaita tendenču analīze                         | Darbinieku skaita šajā un pagājušajā gadā salīdzinājums pēc uzņēmuma un apkopotais darbinieku skaits par pēdējiem 12 mēnešiem |
 | FTE analīze                                     | Kopējais pilnas slodzes ekvivalents (FTE), kopējais piešķirtais FTE, FTE pēc nodaļas, FTE pēdējo 12 mēnešu laikā un FTE pēc darba |
 | Darbaspēka demogrāfiskie dati                           | Darbinieku skaits pēc vecuma un dzimuma, darbinieku skaits pēc etniskās izcelsmes, darbinieku skaits pēc veterāna statusa, darbinieku skaits pēc ģimenes stāvokļa, pilna laika studentu skaits, vidējais darba stāža ilgums, vidējais vecums, sieviešu un vīriešu dzimuma darbinieku skaita attiecība un darbinieku runātās valodas |
-| Pozīciju analīze                                | Atvērtās pozīcijas pēc nodaļas, atvērto un aizpildīto pozīciju attiecība, aktīvo un neaktīvo pozīciju attiecība un pozīcijas pēc nodaļas                                                                                                   |
-| Zuduma analīze                               | Zuduma šajā un iepriekšējā gadā salīdzinājums, zudums, aizejošie darbinieki pēc vecuma un dzimuma, vidējais aizejošo darbinieku stāža ilgums, šomēnes aizejošie darbinieki un aizejošie darbinieki pēc iemesla                                                                   |
-| Cilvēku dalījums pēc struktūrvienības                             | Darbinieki ar personāla numuru pēc nodaļas, pozīcijas un piešķiršanas sākuma un beigu datumiem                                                                                                                       |
-| Darba stāža analīze                               | Vidējais darba stāža ilgums, vidējais nodarbinātības gadu skaits pēc uzņēmuma un darba stāžu saraksts                                                                                                                                                              |
-| Darbinieku gadadienas                           | Gadadienas šomēnes, gadadienas nākamajā mēnesī, darbinieki pēc nodarbinātības gadu skaita un gadadienas, nodarbinātības gadu skaits pēc nodaļas                                                                                                                                                                    |
-| Darbinieku dzimšanas dienas                               | Dzimšanas dienas šomēnes, dzimšanas dienas nākamajā mēnesī, darbinieku dzimšanas dienas un dzimšanas dienas pēc mēneša un nodaļas                                                                                                                                                                    |
-| Masveida darbā pieņemšanas projekti                               | Kopējais masveida darbā pieņemšanas projektu skaits, masveida darbā pieņemšanas projekti pēc statusa, masveida darbā pieņemšanas projekti pēc nodaļas un īpašnieka, masveida darbā pieņemšanas projekti pēc darba un masveida darbā pieņemšanas projekti                                                                                                                                                                    |
+| Pozīciju analīze                                | Atvērtās pozīcijas pēc nodaļas, atvērto un aizpildīto pozīciju attiecība, aktīvo un neaktīvo pozīciju attiecība un pozīcijas pēc nodaļas |
+| Zuduma analīze                               | Zuduma šajā un iepriekšējā gadā salīdzinājums, zudums, aizejošie darbinieki pēc vecuma un dzimuma, vidējais aizejošo darbinieku stāža ilgums, šomēnes aizejošie darbinieki un aizejošie darbinieki pēc iemesla |
+| Cilvēku dalījums pēc struktūrvienības                             | Darbinieki ar personāla numuru pēc nodaļas, pozīcijas un piešķiršanas sākuma un beigu datumiem |
+| Darba stāža analīze                               | Vidējais darba stāža ilgums, vidējais nodarbinātības gadu skaits pēc uzņēmuma un darba stāžu saraksts |
+| Darbinieku gadadienas                           | Gadadienas šomēnes, gadadienas nākamajā mēnesī, darbinieki pēc nodarbinātības gadu skaita un gadadienas, nodarbinātības gadu skaits pēc nodaļas |
+| Darbinieku dzimšanas dienas                               | Dzimšanas dienas šomēnes, dzimšanas dienas nākamajā mēnesī, darbinieku dzimšanas dienas un dzimšanas dienas pēc mēneša un nodaļas |
+| Masveida darbā pieņemšanas projekti                               | Kopējais masveida darbā pieņemšanas projektu skaits, masveida darbā pieņemšanas projekti pēc statusa, masveida darbā pieņemšanas projekti pēc nodaļas un īpašnieka, masveida darbā pieņemšanas projekti pēc darba un masveida darbā pieņemšanas projekti |
 
 Šajos pārskatos esošās diagrammas un elementus varat filtrēt, un diagrammas un elementus varat piespraust informācijas panelim. Plašāku informāciju par filtrēšanu un piespraušanu programmatūrā Power BI skatiet tēmā [Informācijas paneļa izveide un konfigurēšana](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 Noteikti lejupielādējiet Power BI satura pakotni **Darbaspēka rādītāji**, kas ir paredzēta jūsu lietotajai Microsoft Dynamics 365 versijai.
 
->[!NOTE]
->Pakalpojumā Lifecycle Services pieejamie .pbix formāta faili ir paredzēti tikai programmatūrai Dynamics 365 for Finance and Operations.
+> [!NOTE]
+> Pakalpojumā Lifecycle Services pieejamie .pbix formāta faili ir paredzēti tikai programmatūrai Dynamics 365 for Finance and Operations.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
 Tālāk esošajā tabulā ir redzami elementi, uz kuriem šis saturs tika balstīts.
@@ -88,6 +88,4 @@ Tālāk esošajā tabulā ir redzami elementi, uz kuriem šis saturs tika balst�
 | Darbinieka tendence           | Nodarbinātie laika gaitā, skaits, uzņēmums un amats                                 | Uzņēmums, Ģeogrāfiskā vieta, Darbinieka vārds, Kam atskaitās, Kalendāra nobīde, Datums, Darbinieka amats, Demogrāfiskie dati, Nodarbinātība, Darbs |
 | Masveida darbā pieņemšanas projekts        | Masveida darbā pieņemšanas projektu skaits, projekta īpašnieks un projekta statuss                     | Uzņēmums, masveida darbā pieņemšanas rinda |
 | Masveida darbā pieņemšanas rinda           | Nodaļa, nodarbinātības tips un amats                                           | Datums, darbs, masveida darbā pieņemšanas projekts |
-
-
 

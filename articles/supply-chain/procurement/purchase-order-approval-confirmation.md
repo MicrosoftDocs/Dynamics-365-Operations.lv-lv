@@ -1,6 +1,6 @@
 ---
 title: "Pirkšanas pasūtījumu apstiprināšana un ratificēšana"
-description: "Šajā rakstā ir aprakstīti statusi, kas pirkšanas pasūtījumam (PP) tiek piešķirti pēc tam, kad tas ir izveidots, un pirkšanas pasūtījumu izmaiņu pārvaldības iespējošanas sekas."
+description: "Šajā tēmā ir aprakstīti statusi, kas pirkšanas pasūtījumam (PP) tiek piešķirti pēc tam, kad tas ir izveidots, un pirkšanas pasūtījumu izmaiņu pārvaldības iespējošanas sekas."
 author: FrankDahl
 manager: AnnBe
 ms.date: 06/20/2017
@@ -15,14 +15,15 @@ ms.search.scope: Core, Operations, Retail
 ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
+ms.search.industry: 
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 475470fa87455e187e0a93148046cb1df634da1f
+ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
+ms.openlocfilehash: e274f52484d3fe1884152f155b6b7f0714f8842e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 09/22/2018
 
 ---
 
@@ -32,7 +33,7 @@ ms.lasthandoff: 05/08/2018
 
 [!include [retail name](../includes/retail-name.md)]
 
-Šajā rakstā ir aprakstīti statusi, kas pirkšanas pasūtījumam (PP) tiek piešķirti pēc tam, kad tas ir izveidots, un pirkšanas pasūtījumu izmaiņu pārvaldības iespējošanas sekas.
+Šajā tēmā ir aprakstīti statusi, kas pirkšanas pasūtījumam (PP) tiek piešķirti pēc tam, kad tas ir izveidots, un pirkšanas pasūtījumu izmaiņu pārvaldības iespējošanas sekas.
 
 Kad ir izveidots pirkšanas pasūtījums (PP), iespējams, tam ir jāizpilda apstiprināšanas process. Kad kreditors pasūtījumam ir piekritis, pirkšanas pasūtījumam tiek iestatīts statuss **Ratificēts**.
 

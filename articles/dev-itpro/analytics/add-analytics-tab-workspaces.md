@@ -16,10 +16,10 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d8cd3a6b3cbfa1219f0ebcf9d4d2132197167220
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 3f6b83166ba942e40e5e1f7c0ef9df40a44bfbc5
 ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -54,7 +54,7 @@ Pirms sākat, izveidojiet vai iegūstiet Power BI pārskatu, ko iegulsit darbvi
 Izpildiet tālāk norādītās darbības, lai pievienotu .pbix failu kā Visual Studio projekta artefaktu.
 
 1. Izveidojiet jaunu projektu atbilstošajā modelī.
-2. Risinājumu pārlūkā atlasiet projektu, noklikšķiniet uz tā ar peles labo pogu un pēc tam atlasiet **Pievienot** > **Jauns vienums**.
+2. Risinājumu pārlūkā atlasiet projektu, noklikšķiniet uz tā ar peles labo pogu un pēc tam atlasiet **Pievienot** \> **Jauns vienums**.
 3. Dialoglodziņa **Pievienot jaunu vienumu** sadaļā **Operāciju artefakti** atlasiet veidni **Resurss**.
 4. Ievadiet nosaukumu, kas tiks izmantots kā atsauce uz pārskatu X++ metadatos, un pēc tam noklikšķiniet uz **Pievienot**.
 
@@ -77,7 +77,7 @@ Veiciet tālāk norādītās darbības, lai paplašinātu formas definīciju dar
 
 1. Atveriet formu noformētāju, lai paplašinātu noformējuma definīciju.
 2. Noformējuma definīcijā atlasiet augšējo elementu, kas ir apzīmēts kā **Noformējums|modelis: operatīvā darbvieta**.
-3. Noklikšķiniet ar peles labo pogu un atlasiet **Jauns** > **Cilne**, lai pievienotu jaunu vadīklu ar nosaukumu **FormTabControl1**.
+3. Noklikšķiniet ar peles labo pogu un atlasiet **Jauns** \> **Cilne**, lai pievienotu jaunu vadīklu ar nosaukumu **FormTabControl1**.
 4. Formu noformētājā atlasiet vienumu **FormTabControl1**.
 5. Noklikšķiniet ar peles labo pogu un atlasiet vienumu **Jauna cilnes lapa**, lai pievienotu jaunu cilnes lapu.
 6. Pārdēvējiet cilnes lapu uz kaut ko atpazīstamu, piemēram, **Darbvieta**.
@@ -86,12 +86,12 @@ Veiciet tālāk norādītās darbības, lai paplašinātu formas definīciju dar
 9. Pārdēvējiet cilnes lapu uz kaut ko atpazīstamu, piemēram, **Analīze**.
 10. Formu noformētājā atlasiet vienumu **Analīze (cilnes lapa)**.
 11. Rekvizītu **Paraksts** iestatiet uz **Analīze**.
-12. Noklikšķiniet ar peles labo pogu uz vadīklas un atlasiet **Jauns** > **Grupa**, lai pievienoju jaunu formu grupas vadīklu.
+12. Noklikšķiniet ar peles labo pogu uz vadīklas un atlasiet **Jauns** \> **Grupa**, lai pievienoju jaunu formu grupas vadīklu.
 13. Pārdēvējiet formu grupu uz kaut ko atpazīstamu, piemēram, **powerBIReportGroup**.
 14. Formu noformētājā atlasiet vienumu **PanoramaBody (cilne)** un pēc tam velciet vadīklu uz cilni **Darbvieta**.
 15. Noformējuma definīcijā atlasiet augšējo elementu, kas ir apzīmēts kā **Noformējums|modelis: operatīvā darbvieta**.
 16. Noklikšķiniet ar peles labo pogu un atlasiet vienumu **Noņemt modeli**.
-17. Vēlreiz noklikšķiniet ar peles labo pogu un atlasiet **Pievienot modeli** > **Darbvieta ar cilnēm**.
+17. Vēlreiz noklikšķiniet ar peles labo pogu un atlasiet **Pievienot modeli** \> **Darbvieta ar cilnēm**.
 18. Veiciet būvējumu, lai pārbaudītu veiktās izmaiņas.
 
 Tālāk esošajā attēlā parādīts, kā noformējums izskatās pēc šo izmaiņu lietošanas.
@@ -116,7 +116,7 @@ Izpildiet tālāk norādītās darbības, lai pievienotu biznesa loģiku, kas in
     [Form] 
     public class FMClerkWorkspace extends FormRun
     {
-        private boolean initReportControl = true;     
+        private boolean initReportControl = true;
         protected void initAnalyticalReport()
         {
             if (!initReportControl)
@@ -126,11 +126,11 @@ Izpildiet tālāk norādītās darbības, lai pievienotu biznesa loģiku, kas in
             // Note: secure entry point into the Workspace's Analytics report
             if (Global::hasMenuItemAccess(menuItemDisplayStr(FMClerkWorkspace), MenuItemType::Display))
             {
-                FMPBIWorkspaceController controller = new FMPBIWorkspaceController();
+                // initialize the PBI report control using shared helper
                 PBIReportHelper::initializeReportControl('FMPBIWorkspaces', powerBIReportGroup);
             }
             initReportControl = false;
-    }
+        }
         /// <summary>
         /// Initializes the form.
         /// </summary>
@@ -159,23 +159,22 @@ Esat pabeidzis uzdevumu ar biznesa loģikas pievienošanu, kas inicializē iegul
 #### <a name="syntax"></a>Sintakse
 ```
 public static void initializeReportControl(
-     str                 _resourceName,
-     FormGroupControl    _formGroupControl,
-     str                 _defaultPageName = '',
-     boolean             _showFilterPane = false,
-     boolean             _showNavPane = false,
-     List                _defaultFilters = new List(Types::Class))
+    str                 _resourceName,
+    FormGroupControl    _formGroupControl,
+    str                 _defaultPageName = '',
+    boolean             _showFilterPane = false,
+    boolean             _showNavPane = false,
+    List                _defaultFilters = new List(Types::Class))
 ```
 
 #### <a name="parameters"></a>Parametri
 
-|       Nosaukums       |                                                              Apraksts                                                               |
-|------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-|   resourceName   |                                                    .pbix resoursa nosaukums.                                                     |
-| formGroupControl |                                    Formu grupas vadīkla, kam jālieto Power BI pārskatu vadīkla.                                     |
-| defaultPageName  |                                                         Noklusējuma lapas nosaukums.                                                         |
-|  showFilterPane  |   Būla vērtība, kas norāda, vai filtra rūts jārāda (<strong>Patiess</strong>) vai jāpaslēpj (<strong>Aplams</strong>).   |
-|   showNavPane    | Būla vērtība, kas norāda, vai navigācijas rūts jārāda (<strong>Patiess</strong>) vai jāpaslēpj (<strong>Aplams</strong>). |
-|  defaultFilters  |                                              Noklusējuma filtri Power BI pārskatam.                                              |
-
+| Nosaukums             | Apraksts                                                                                                  |
+|------------------|--------------------------------------------------------------------------------------------------------------|
+| resourceName     | .pbix resoursa nosaukums.                                                                              |
+| formGroupControl | Formu grupas vadīkla, kam jālieto Power BI pārskatu vadīkla.                                              |
+| defaultPageName  | Noklusējuma lapas nosaukums.                                                                                       |
+| showFilterPane   | Būla vērtība, kas norāda, vai filtra rūts jārāda (**Patiess**) vai jāpaslēpj (**Aplams**).     |
+| showNavPane      | Būla vērtība, kas norāda, vai navigācijas rūts jārāda (**Patiess**) vai jāpaslēpj (**Aplams**). |
+| defaultFilters   | Noklusējuma filtri Power BI pārskatam.                                                                 |
 

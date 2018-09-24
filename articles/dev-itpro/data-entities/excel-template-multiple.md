@@ -18,10 +18,10 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 5bc021ce9f0835f2eda310ef7818c9bc9be749f2
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 48239b48cbc24e34d74bbac36e8f827a15d7b840
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/22/2018
 
 ---
 
@@ -36,7 +36,7 @@ Apskatīsim piemēru, kur vienā Excel failā ir darblapas ar nosaukumu **Vietas
 
 Ja pievienojat otro elementu, **Noliktavas**, neaizverot formu **Pievienot failu**, darblapas uzmeklēšana jums ļauj atlasīt darblapu **Noliktavas** bez nepieciešamības šo failu augšupielādēt vēlreiz. Vienīgais iemesls augšupielādēt jaunu failu būtu tad, ja dati **Noliktavas** atrastos citā failā.
 
-![Vairākas darblapas](./media/AddFileMultipleWorkSheets.png) 
+![Vairākas darblapas](./media/AddFileMultipleWorkSheets.png)
 
 ## <a name="fix-worksheet-to-entity-mapping"></a>Darblapas norādīšana elementa kartēšanai
 
@@ -51,5 +51,4 @@ Gadījumos, kad kādā datu projektā esošiem elementiem ir nepieciešams augš
 ## <a name="upload-a-file-using-run-project"></a>Faila augšupielādēšana, izmantojot opciju Palaist projektu
 
 Varat augšupielādēt Excel failu, kamēr izmantojat opciju **Palaist projektu**, lai izpildītu importēšanas projektu. Uzmanieties, lai augšupielādētu tikai failus, kuros ir tādas pašas darblapas kā esošajiem kartējumiem uz datu elementiem datu projektā. Ja no jauna augšupielādētajā failā kāda darblapa netiek atrasta, sistēma parāda kļūdas ziņojumu un pārtrauc importēšanu. Ja kādam elementam ir jāmaina kartēšana uz darblapu, tad kartējumi datu projektā vispirms ir jāatjaunina no datu projekta, un tikai pēc tam šo failu var izmantot funkcionalitātē **Palaist projektu**.
-
 

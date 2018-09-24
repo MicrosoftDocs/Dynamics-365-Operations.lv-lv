@@ -20,10 +20,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: b06abae184d07cd3b914caf74bdb16a7803919af
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: caf1c13d48d1f8af5c88927ccb23118e99cb38e0
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/09/2018
 
 Microsoft Power BI saturs **Izmaksu pārvaldība** ir paredzēts krājumu grāmatvežiem vai tādām personām organizācijā, kuras ir atbildīgas par vai ieinteresētas attiecībā uz krājumu vai nepabeigtās ražošanas (NP) statusu vai kuras ir atbildīgas par vai ieinteresētas attiecībā uz standarta izmaksu noviržu analīzi.
 
-> [!Note]
+> [!NOTE]
 > Power BI saturs **Izmaksu pārvaldība**, kas aprakstīts šajā tēmā, attiecas uz Dynamics 365 for Finance and Operations 8.0.
 > 
 > Power BI satura pakotne **Izmaksu pārvaldība**, kas pieejama AppSource vietnē, ir novecojusi. Papildinformāciju par šo atbalsta pārtraukšanu skatiet sadaļā [AppSource pieejamās Power BI satura pakotnes](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
@@ -171,7 +171,7 @@ Tālāk redzamajās tabulās ir sniegts apskats par vizualizācijām Power BI s
 |                                         | Pirmie 10 resursi pēc nelabvēlīgas ražošanas novirzes  |
 |                                         | Pirmie 10 resursi pēc labvēlīgas ražošanas novirzes    |
 
-### <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
+## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
 
 Dati no Microsoft Dynamics 365 for Finance and Operations tiek izmantoti, lai aizpildītu pārskata lapas Power BI saturā **Izmaksu pārvaldība**. Šie dati tiek attēloti kā apkopoti mērījumi, kuri pa posmiem tiek izveidoti elementu krātuvē, kas ir analīzes veikšanai optimizēta Microsoft SQL Server datu bāze. Papildinformāciju skatiet tēmā [Power BI integrācija elementu krātuvē](power-bi-integration-entity-store.md).
 
@@ -188,26 +188,25 @@ Tālāk redzamajā tabulā ir norādīti galvenie aprēķinātie mērījumi Powe
 
 | Mērs                            | Aprēķins |
 |------------------------------------|-------------|
-| Sākuma bilance                  | Sākuma bilance = [Beigu bilance] - [Neto izmaiņas] |
-| Sākuma bilances daudzums             | Sākuma bilances daudzums = [Beigu bilance daudzums] - [Neto izmaiņu daudzums] |
-| Beigu bilance                     | Beigu bilance = (CALCULATE(SUM([Amount]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE])))) |
-| Beigu bilances daudzums                | Beigu bilances daudzums = (CALCULATE(SUM([Amount]), FILTER(QTY(FiscalCalendar) ,FiscalCalendar[MONTHSTARTDATE] \<= ALL(FiscalCalendar[MONTHSTARTDATE]))) |
-| Neto apgrozījums                         | Neto izmaiņas = SUM([AMOUNT]) |
-| Neto izmaiņu daudzums                    | Neto izmaiņu daudzums = SUM([QTY]) |
-| Krājumu apgrozījuma koeficients pēc summas | Krājumu apgrozījuma koeficients pēc summas = if(OR([Krājumu vidējā bilance] \<= 0, [Pārdoto vai patērēto krājumu izejošās plūsmas] \>= 0), 0, ABS([Pārdoto vai patērēto krājumu izejošās plūsmas])/[Krājumu vidējā bilance]) |
-| Krājumu vidējā bilance          | Krājumu vidējā bilance = (([Beigu bilance] + [Sākuma bilance]) / 2) |
-| Dienas, kad pieejami krājumi             | Dienas, kad pieejami krājumi = 365 / CostObjectStatementEntries[Krājumu apgrozījuma koeficients pēc summas] |
-| Krājumu precizitāte                 | Krājumu precizitāte pēc summas = IF([Beigu bilance] \<= 0, IF(OR([Krājumu aprēķinātā summa] \<\> 0, [Beigu bilance] \< 0), 0, 1), MAX(0, ([Beigu bilance] - ABS([Krājumu aprēķinātā summa]))/[Beigu bilance])) |
+| Sākuma bilance                  | Sākuma bilance = \[Beigu bilance\]-\[Neto izmaiņas\] |
+| Sākuma bilances daudzums             | Sākuma bilances daudzums = \[Beigu bilance daudzums\]-\[Neto izmaiņu daudzums\] |
+| Beigu bilance                     | Beigu bilance = (CALCULATE(SUM(\[Amount\]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\])))) |
+| Beigu bilances daudzums                | Beigu bilances daudzums = CALCULATE(SUM(\[QTY\]), FILTER(ALL(FiscalCalendar),FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\]))) |
+| Neto apgrozījums                         | Neto izmaiņas = SUM(\[AMOUNT\]) |
+| Neto izmaiņu daudzums                    | Neto izmaiņu daudzums = SUM(\[QTY\]) |
+| Krājumu apgrozījuma koeficients pēc summas | Krājumu apgrozījuma koeficients pēc summas = if(OR(\[Krājumu vidējā bilance\] \<= 0, \[Pārdoto vai patērēto krājumu izejošās plūsmas\] \>= 0), 0, ABS(\[Pārdoto vai patērēto krājumu izejošās plūsmas\])/\[Krājumu vidējā bilance\]) |
+| Krājumu vidējā bilance          | Krājumu vidējā bilance = ((\[Beigu bilance\] + \[Sākuma bilance\]) / 2) |
+| Dienas, kad pieejami krājumi             | Dienas, kad pieejami krājumi = 365 / CostObjectStatementEntries\[Krājumu apgrozījuma koeficients pēc summas\] |
+| Krājumu precizitāte                 | Krājumu precizitāte pēc summas = IF(\[Beigu bilance\] \< = 0, IF(OR(\[Krājumu aprēķinātā summa\] \<\> 0, \[Beigu bilance\] \< 0), 0, 1), MAX(0,(\[Beigu bilance\] - ABS(\[Krājumu aprēķinātā summa\]))/\[Beigu bilance\])) |
 
 Tālāk minētās galvenās dimensijas tiek izmantotas kā filtri, lai sadalītu apkopošanas mērījumus, iegūstot lielāku granularitāti un sniedzot dziļākus analītiskos ieskatus.
 
 
-|                         Elements                          |             Atribūtu piemēri              |
+| Elements                                                  | Atribūtu piemēri                          |
 |---------------------------------------------------------|-------------------------------------------------|
-|                        Preces                         | Preces numurs, Preces nosaukums, Vienība, Krājumu grupas |
-| Kategoriju hierarhijas (piešķirtas lomai Izmaksu pārvaldība) |       Kategoriju hierarhija, Kategorijas līmenis        |
-|                     Juridiskas personas                      |               Juridisko personu nosaukumi                |
-|                    Finanšu kalendāri                     |  Finanšu kalendārs, Gads, Ceturksnis, Periods, Mēnesis  |
-|                          Atrašanās vieta                           |        ID, Nosaukums, Adrese, Rajons, Valsts        |
-
+| Preces                                                | Preces numurs, Preces nosaukums, Vienība, Krājumu grupas |
+| Kategoriju hierarhijas (piešķirtas lomai Izmaksu pārvaldība) | Kategoriju hierarhija, Kategorijas līmenis              |
+| Juridiskas personas                                          | Juridisko personu nosaukumi                              |
+| Finanšu kalendāri                                        | Finanšu kalendārs, Gads, Ceturksnis, Periods, Mēnesis   |
+| Atrašanās vieta                                                    | ID, Nosaukums, Adrese, Rajons, Valsts               |
 
