@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 3e12037f14e7e01764fd6d18f52854c35a09d196
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: ae2087cf142fc2670bda3c542b336f12978178a6
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/22/2018
 
 ---
 
@@ -35,34 +35,31 @@ Finanšu pārskatu veidošana programmatūrai Finance and Operations finanšu un
 Finanšu atskaišu veidošana ietver dimensiju atbalstu. Tāpēc uzreiz ir pieejami kontu segmenti vai dimensijas. Nav nepieciešami nekādi papildu rīki vai konfigurācijas darbības.
 
 ## <a name="financial-reporting-setup"></a>Finanšu pārskatu iestatījumi
-Lapā **Finanšu pārskatu iestatījumi** ir saraksts ar visām sistēmas finanšu dimensijām. **Virsgrāmata** > **Virsgrāmatas iestatīšana** > **Finanšu pārskatu iestatījumi**. 
+Lapā **Finanšu pārskatu iestatījumi** ir saraksts ar visām sistēmas finanšu dimensijām. **Virsgrāmata** \> **Virsgrāmatas iestatīšana** \> **Finanšu pārskatu iestatījumi**.
 
 Lapā **Finanšu pārskatu iestatījumi** ir divas sadaļas, kas nosaka finanšu pārskatos ziņotos datus:
 
-•   **Cilne Dimensijas** — tā kā dažādi uzņēmumi izmanto dažādas dimensijas un kontu struktūras, nav iespējams noteikt secību, kādā lietotāji pārskatos vēlas skatīt visas finanšu dimensijas. Šī lapa ļauj jums iestatīt secību, kādā vēlaties rādīt finanšu dimensijas, kad veidojat pārskatu līdzeklī Finanšu pārskati.
-
-•   **Cilne Atribūti** ir vieta, kur varat atlasīt, vai filtrēšanai un pārskatu noformēšanai vēlaties spēt izmantot atribūtus **Kreditori** un **Debitori**. Pārskatu veidošana par atribūtiem Kreditors un Debitors ir vērtīga tikai tad, ja transakciju grāmatošanas laikā vienā dokumentā neievadāt vairākus kreditorus vai debitorus. Izvēloties atribūtu Kreditors un/vai Debitors, integrācijai tiek pievienots papildu laiks.
-
-
+- **Cilne Dimensijas** — tā kā dažādi uzņēmumi izmanto dažādas dimensijas un kontu struktūras, nav iespējams noteikt secību, kādā lietotāji pārskatos vēlas skatīt visas finanšu dimensijas. Šī lapa ļauj jums iestatīt secību, kādā vēlaties rādīt finanšu dimensijas, kad veidojat pārskatu līdzeklī Finanšu pārskati.
+- **Cilne Atribūti** ir vieta, kur varat atlasīt, vai filtrēšanai un pārskatu noformēšanai vēlaties spēt izmantot atribūtus **Kreditori** un **Debitori**. Pārskatu veidošana par atribūtiem Kreditors un Debitors ir vērtīga tikai tad, ja transakciju grāmatošanas laikā vienā dokumentā neievadāt vairākus kreditorus vai debitorus. Izvēloties atribūtu Kreditors un/vai Debitors, integrācijai tiek pievienots papildu laiks.
 
 ## <a name="financial-reporting-components"></a>Finanšu atskaišu veidošanas komponenti
 Tālāk aprakstītie finanšu atskaišu veidošanas komponenti ļauj atskaites ērti veidot, skatīt un plānot.
 
-| Komponents        | Funkcijas                                                                                                                                                                                                                                                                           | Papildinformācija                                                                          |
-|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| Pārskata veidotājs  | Izveidojiet atskaišu veidošanas blokus, kurus var kombinēt, lai definētu un ģenerētu atskaiti. Pārskatu ceļvedis kalpo par veidošanas palīgrīku mazāk pieredzējušiem lietotājiem. Pieredzējuši lietotāji var veidot jaunus atskaišu veidošanas blokus vai modificēt jau esošos veidošanas blokus atbilstoši savām prasībām. |                                                                                                 |
-| Pārskatu grafiki | Plānojiet atsevišķu atskaiti vai atskaišu grupu, lai tās tiktu regulāri ģenerētas.                                                                                                                                                                                          | [Ģenerēt finanšu pārskatu](generate-financial-report.md) |
+| Komponents        | Funkcijas | Papildinformācija |
+|------------------|-----------|------------------------|
+| Pārskata veidotājs  | Izveidojiet atskaišu veidošanas blokus, kurus var kombinēt, lai definētu un ģenerētu atskaiti. Pārskatu ceļvedis kalpo par veidošanas palīgrīku mazāk pieredzējušiem lietotājiem. Pieredzējuši lietotāji var veidot jaunus atskaišu veidošanas blokus vai modificēt jau esošos veidošanas blokus atbilstoši savām prasībām. | |
+| Pārskatu grafiki | Plānojiet atsevišķu atskaiti vai atskaišu grupu, lai tās tiktu regulāri ģenerētas. | [Ģenerēt finanšu pārskatu](generate-financial-report.md) |
 
 ## <a name="features"></a>Līdzekļi
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Līdzeklis</th>
 <th>Apraksts</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Pārskata noformējuma elastība</td>
 <td>Kad veidojat atskaiti, atskaišu veidotājs nodrošina šādas atskaišu veidošanas opcijas.
 <ul>
@@ -70,9 +67,10 @@ Tālāk aprakstītie finanšu atskaišu veidošanas komponenti ļauj atskaites �
 <li>Kontrolēt, kā dimensiju apraksti tiek formatēti un attēloti.</li>
 <li>Identificēt kontus vai dimensijas, kas nav ietverti pārskatu veidošanas blokos.</li>
 <li>Formatēt virsrakstus slīdošās prognozēs.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Sadarbība finanšu pārskatos</td>
 <td>Šādas funkcijas palīdz pārvaldīt pārskatu ģenerēšanu un izplatīšanu.
 <ul>
@@ -80,9 +78,10 @@ Tālāk aprakstītie finanšu atskaišu veidošanas komponenti ļauj atskaites �
 <li>Eksportēt tikai lasāmu XPS formātu, kas sniedz labāku dokumentu drošību, izmantojot elektroniskos parakstus.</li>
 <li>Eksportēt uz Microsoft Excel darblapu.</li>
 <li>Lai atskaites kopīgotu, varat izveidot e-pasta ziņojumus, kas satur saites uz šīm atskaitēm.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Interaktīva pārskatu skatīšana</td>
 <td>Interaktīvi līdzekļi jums ļauj veikt šādus uzdevumus:
 <ul>
@@ -99,8 +98,4 @@ Tālāk aprakstītie finanšu atskaišu veidošanas komponenti ļauj atskaites �
 
 ## <a name="additional-resources"></a>Papildu resursi
 [Ģenerēt finanšu pārskatu](generate-financial-report.md)
-
-
-
-
 

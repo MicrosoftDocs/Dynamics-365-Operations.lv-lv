@@ -1,5 +1,5 @@
 ---
-title: "Darba noslodzes plānošana"
+title: "Darba noslodzes ieplānošana"
 description: "Šajā tēmā ir paskaidrots, kā iestatīt un plānot darba noslodzi darbiniekiem noliktavā vai visai noliktavai."
 author: MarkusFogelberg
 manager: AnnBe
@@ -18,10 +18,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69b9c5590e6f9311696bbbed2e63a6eeba2a90bf
-ms.openlocfilehash: 1b93cfaf098b4cff3e72ee9bb599eadfdac2a9b9
+ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
+ms.openlocfilehash: 1b1334dcba7d12f2da301f70e21a08fceb88e2b4
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 09/22/2018
 
 ---
 

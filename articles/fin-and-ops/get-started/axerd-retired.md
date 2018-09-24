@@ -27,6 +27,8 @@ ms.lasthandoff: 08/09/2018
 
 # <a name="axerd-page-has-been-retired"></a>Lapa AxErd ir noņemta
 
+[!include [banner](../includes/banner.md)]
+
 Diemžēl mums bija jānoņem AxErd tīmekļa lapa, kas daudzām Microsoft Dynamics AX 2012 tabulām nodrošināja entītiju relāciju diagrammas (ERD). Gan projekta pirmkods, gan tīmekļa lapas HTML faili tika publicēti GitHub repozitorijā: https://github.com/Microsoft/ax-2012-doc-tools.
 
 HTML lapas atrodas repozitorijā šeit: [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm).

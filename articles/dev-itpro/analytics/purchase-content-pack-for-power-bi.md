@@ -19,10 +19,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 07b6f433a8355d7f9ed6dce8e26f78d38a86a713
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 069c4dc21959ab603ba6ca3da0ac68ef20325265
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 09/22/2018
 
 ---
 
@@ -36,32 +36,27 @@ ms.lasthandoff: 12/18/2017
 
 **Pirkumu tēriņu analīzes** Power BI saturs tika veidots, lai iepirkumu nodaļas vadītājiem un vadītājiem, kuri ir atbildīgi par budžetu, palīdzētu sekot pirkuma tēriņiem. Vadītāji var analizēt pirkumu tēriņus šādos veidos:
 
--   Līdzšinējā gada pirkumi (pēc kreditoru grupas, atsevišķa kreditora, sagādes kategorijas, atsevišķas preces un kreditora atrašanās vietas)
--   Pirkumu izmaiņas pa gadiem (pēc kreditoru grupas un sagādes kategorijas)
+- Līdzšinējā gada pirkumi (pēc kreditoru grupas, atsevišķa kreditora, sagādes kategorijas, atsevišķas preces un kreditora atrašanās vietas)
+- Pirkumu izmaiņas pa gadiem (pēc kreditoru grupas un sagādes kategorijas)
 
 Saturam tiek izmantoti pirkumu transakciju dati, un tas nodrošina gan uzņēmuma līmeņa pirkumu rādītāju apkopošanas skatu, gan pirkumu tēriņu sadalījumu pēc kreditora vai preces. Pārskatos ir izceltas pirkumu tēriņu izmaiņas laika gaitā. Tāpēc pārskatus var izmantot, lai brīdinātu vadītājus par pozitīvām un negatīvām tēriņu tendencēm saistībā ar atsevišķiem kreditoriem un precēm. Turklāt diagrammas ataino pirkumu tēriņus dažādām sagādes kategorijām un kreditoru grupām. Tādēļ kategoriju un reģionālie vadītāji var izmantot šīs diagrammas, lai palīdzētu noteikt tēriņu darbību izmaiņas.
 
 ## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
-Power BI satura pakotne **Pirkšanas tēriņu analīze** tiek rādīta lapā **Pirkšanas un tēriņu rādītāju analīze** (**Sagāde un avoti** > **Pieprasījumi un pārskati** > **Pirkšanas rādītāju analīze** > **Pirkšanas un tēriņu rādītāju analīze**). 
+Power BI satura pakotne **Pirkšanas tēriņu analīze** tiek rādīta lapā **Pirkšanas un tēriņu rādītāju analīze** (**Sagāde un avoti** \> **Pieprasījumi un pārskati** \> **Pirkšanas rādītāju analīze** \> **Pirkšanas un tēriņu rādītāju analīze**).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI saturā iekļautā metrika
 **Pirkumu tēriņu analīzes** Power BI satura pakotnē ir iekļauts pārskats, kas sastāv no rādītāju kopas. Šie rādītāji tiek vizualizēti kā diagrammas, elementi un tabulas. Zemāk norādītajā tabulā ir sniegts pārskats par vizualizācijām.
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Pārskata lapa</th>
 <th>Diagrammas</th>
 <th>Elementi</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Pirkumi pēc kreditora</td>
 <td><ul>
 <li>Pirmie 10 kreditori pēc pirkšanas (joslu grēdu diagramma)</li>
@@ -76,7 +71,7 @@ Power BI satura pakotne **Pirkšanas tēriņu analīze** tiek rādīta lapā **
 <li>Aktīvo kreditoru kopskaits</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Pirkumi pēc preces</td>
 <td><ul>
 <li>Pirkumi pēc sagādes kategorijas/preces nosaukuma (stabiņu diagramma)</li>
@@ -89,7 +84,7 @@ Power BI satura pakotne **Pirkšanas tēriņu analīze** tiek rādīta lapā **
 <li>To preču skaits, kas veido 80% pirkumu</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Pirkumi pēc perioda*</td>
 <td><ul>
 <li>Pirkumi pēc mēneša/dienas (stabiņu diagramma)</li>
@@ -102,7 +97,7 @@ Power BI satura pakotne **Pirkšanas tēriņu analīze** tiek rādīta lapā **
 <li>Pirkumu palielinājums (%)</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Pirkumi pēc kreditora atrašanās vietas</td>
 <td><ul>
 <li>Pirkumi pēc pilsētas</li>
@@ -111,7 +106,7 @@ Power BI satura pakotne **Pirkšanas tēriņu analīze** tiek rādīta lapā **
 </ul></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Pirkumu tēriņu analīze pēc laika</td>
 <td><ul>
 <li>Pašreizējā gada pirkumi pēc mēneša/dienas (līniju diagramma)</li>
@@ -119,7 +114,7 @@ Power BI satura pakotne **Pirkšanas tēriņu analīze** tiek rādīta lapā **
 </ul></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Pirkumu tēriņu analīze pēc kreditora</td>
 <td><ul>
 <li>Pirmo 10 kreditoru pirkumi procentos (%) no pirkumiem (piltuves diagramma)</li>

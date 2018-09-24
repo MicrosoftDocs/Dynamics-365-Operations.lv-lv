@@ -17,10 +17,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: d59a7aef90ecef0cd947b833f1cce1e2372f3033
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 2bc4c409b831b78ef737a98ce985bf144853a454
 ms.contentlocale: lv-lv
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 09/22/2018
 
 ---
 
@@ -43,7 +43,7 @@ Power BI saturs izceļ organizācijas spēju savlaicīgi un pilnībā izpildīt
 **Ražošanas veiktspējas** Power BI saturā ir iekļauti dati no ražošanas pasūtījumiem un partijas pasūtījumiem. Pārskatos nav iekļauti dati, kas ir saistīti ar Kanban ražošanām.
 
 ## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
-Power BI satura pakotne **Ražošanas veiktspēja** tiek rādīta lapā **Ražošanas veiktspēja** (**Ražošanas kontrole** > **Pieprasījumi un pārskati** > **Ražošanas veiktspējas analīze** > **Ražošanas veiktspēja**). 
+Power BI satura pakotne **Ražošanas veiktspēja** tiek rādīta lapā **Ražošanas veiktspēja** (**Ražošanas kontrole** \> **Pieprasījumi un pārskati**\> **Ražošanas veiktspējas analīze** \> **Ražošanas veiktspēja**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI saturā iekļautā metrika
 
@@ -51,9 +51,9 @@ Power BI satura pakotne **Ražošanas veiktspēja** tiek rādīta lapā **Ražo
 
 Zemāk norādītajā tabulā ir sniegts pārskats par vizualizācijām, kas ir iekļautas.
 
-| Pārskata lapa                                | Diagrammas                                               | Elementi |
-|--------------------------------------------|------------------------------------------------------|-------|
-| Ražošanas veiktspēja                     | <ul><li>Ražošanu skaits pēc datuma</li><li>Ražošanu skaits pēc preces un krājumu grupas</li><li>Plānoto ražošanu skaits pēc datuma</li><li>Apakšējās 10 preces pēc savlaicīgas un pilnīgas izpildes</li></ul> | <ul><li>Pasūtījumu kopskaits</li><li>Savlaicīgi un pilnībā, %</li><li>Nepilnīgi, %</li><li>Pirms termiņa, %</li><li>Nokavēts termiņš, %</li></ul> |
+| Pārskata lapa                                | Diagrammas | Elementi |
+|--------------------------------------------|--------|-------|
+| Ražošanas veiktspēja                     | <ul><li>Ražošanu skaits pēc datuma</li><li>Ražošanu skaits pēc preces un krājumu grupas</li><li>Plānoto ražošanu skaits pēc datuma</li><li>Apakšējās 10 preces pēc savlaicīgas un pilnīgas izpildes</li></ul> | <ul><li>Pasūtījumu kopskaits</li><li>Savlaicīgi un pilnībā %</li><li>Nepilnīgi, %</li><li>Pirms termiņa, %</li><li>Nokavēts termiņš, %</li></ul> |
 | Brāķi pēc preces                         | <ul><li>Brāķa proporcija (miljonās daļas) pēc datuma</li><li>Brāķa proporcija (miljonās daļas) pēc preces un krājumu grupas</li><li>Saražotais daudzums pēc datuma</li><li>Pirmās 10 preces pēc faktiskās likmes</li></ul> | <ul><li>Brāķa proporcija (miljonās daļas)</li><li>Brāķa daudzums</li><li>Kopējais daudzums</li></ul> |
 | Brāķa tendences pēc preces                   | Brāķa proporcija (miljonās daļas) pēc saražotā daudzuma | Brāķa proporcija (miljonās daļas) |
 | Brāķi pēc resursa                        | <ul><li>Brāķa proporcija (miljonās daļas) pēc datuma</li><li>Brāķa proporcija (miljonās daļas) pēc resursa un vietas</li><li>Brāķa proporcija (miljonās daļas) pēc darbības</li><li>Pirmie 10 resursi pēc brāķa proporcijas</li></ul> | Brāķa daudzums |
@@ -88,35 +88,35 @@ Nākamajā tabulā ir parādīts, kā galvenie apkopošanas mērījumi tiek izma
 
 | Mērs                  | Kā šis mērs tiek aprēķināts |
 |--------------------------|-------------------------------|
-| Ražošanas novirze, %   | SUM(Ražošanas novirze [Ražošanas novirze])/SUM(Ražošanas novirze [Novērtētās izmaksas]) |
+| Ražošanas novirze, %   | SUM(Ražošanas novirze\[Ražošanas novirze\])/SUM(Ražošanas novirze\[Novērtētās izmaksas\]) |
 | Visi plānotie pasūtījumi       | COUNTROWS(Plānotais ražošanas pasūtījums) |
-| Agri                    | COUNTROWS (FILTER(Plānotais ražošanas pasūtījums, Plānotais ražošanas pasūtījums[Plānotais beigu datums] \< Plānotais ražošanas pasūtījums[Vajadzības datums])) |
-| Vēlu                     | COUNTROWS (FILTER(Plānotais ražošanas pasūtījums, Plānotais ražošanas pasūtījums[Plānotais beigu datums] \> Plānotais ražošanas pasūtījums[Vajadzības datums])) |
-| Savlaicīgi                  | COUNTROWS (FILTER(Plānotais ražošanas pasūtījums, Plānotais ražošanas pasūtījums[Plānotais beigu datums] = Plānotais ražošanas pasūtījums[Vajadzības datums])) |
-| Savlaicīgi, %                | IF (Plānotais ražošanas pasūtījums[Savlaicīgi] \<\> 0, Plānotais ražošanas pasūtījums[Savlaicīgi], IF (Plānotais ražošanas pasūtījums[Visi plānotie pasūtījumi] \<\> 0, 0, BLANK()) ) / Plānotais ražošanas pasūtījums[Visi plānotie pasūtījumi] |
-| Pabeigta                | COUNTROWS(FILTER(Ražošanas pasūtījums, Ražošanas pasūtījums[Ir RAF'ed] = TRUE)) |
-| Brāķa proporcija (miljonās daļas)     | IF(Ražošanas pasūtījums[Kopējais daudzums] = 0, BLANK(), (SUM(Ražošanas pasūtījums[Brāķa daudzums]) /Ražošanas pasūtījums[Kopējais daudzums]) \* 1000000) |
-| Ražošanas proporcija ar nokavētu termiņu  | 'Ražošanas pasūtījums'[Nokavēts termiņš \#] /Ražošanas pasūtījums[Pabeigts] |
-| Pirms termiņa un pilnībā          | COUNTROWS(FILTER(Ražošanas pasūtījums, Ražošanas pasūtījums[Pilnībā] = TRUE && Ražošanas pasūtījums[Pirms termiņa] = TRUE)) |
-| Pirms termiņa \#                 | COUNTROWS(FILTER(Ražošanas pasūtījums, Ražošanas pasūtījums[Pirms termiņa] = TRUE)) |
-| Pirms termiņa, %                  | IFERROR( IF(Ražošanas pasūtījums[Pirms termiņa \#] \<\> 0, Ražošanas pasūtījums[Pirms termiņa \#], IF(Ražošanas pasūtījums[Pasūtījumu kopskaits] = 0, BLANK(), 0)) / Ražošanas pasūtījums[Pasūtījumu kopskaits], BLANK()) |
-| Nepabeigts               | COUNTROWS(FILTER(Ražošanas pasūtījums, Ražošanas pasūtījums[Pilnībā] = FALSE && Ražošanas pasūtījums[Ir RAF'ed] = TRUE)) |
-| Nepilnīgi, %             | IFERROR( IF(Ražošanas pasūtījums[Nepilnīgs] \<\> 0, Ražošanas pasūtījums[Nepilnīgs], IF(Ražošanas pasūtījums[Pasūtījumu kopskaits] = 0, BLANK(), 0)) / Ražošanas pasūtījums[Pasūtījumu kopskaits], BLANK()) |
-| Nokavēts termiņš               | Ražošanas pasūtījums[Ir RAF'ed] = TRUE && Ražošanas pasūtījums[Piegādātā vērtība] = 1 |
-| Pirms termiņa                 | Ražošanas pasūtījums[Is RAF'ed] = TRUE && Ražošanas pasūtījums[Kavētās dienas] \< 0 |
-| Ir pilnībā               | Ražošanas pasūtījums[Derīgais daudzums] \>= Ražošanas pasūtījums[Plānotais daudzums] |
-| Ir RAF'ed                | Ražošanas pasūtījums[Ražošanas statusa vērtība] = 5 \|\| Ražošanas pasūtījums[Ražošanas statusa vērtība] = 7 |
-| Nokavēts termiņš un pilnībā           | COUNTROWS(FILTER(Ražošanas pasūtījums, Ražošanas pasūtījums[Ir pilnībā] = TRUE && Ražošanas pasūtījums[Nokavēts termiņš] = TRUE)) |
-| Nokavēts termiņš \#                  | COUNTROWS(FILTER(Ražošanas pasūtījums, Ražošanas pasūtījums[Nokavēts termiņš] = TRUE)) |
-| Nokavēts termiņš, %                   | IFERROR( IF(Ražošanas pasūtījums[Nokavēts termiņš \#] \<\> 0, Ražošanas pasūtījums[Nokavēts termiņš \#], IF(Ražošanas pasūtījums[Pasūtījumu kopskaits] = 0, BLANK(), 0)) / Ražošanas pasūtījums[Pasūtījumu kopskaits], BLANK()) |
-| Savlaicīgi un pilnībā        | COUNTROWS(FILTER(Ražošanas pasūtījums, Ražošanas pasūtījums[Pilnībā] = TRUE && Ražošanas pasūtījums[Nokavēts termiņš] = FALSE && Ražošanas pasūtījums[Pirms termiņa] = FALSE)) |
-| Savlaicīgi un pilnībā, %      | IFERROR( IF(Ražošanas pasūtījums[Savlaicīgi un pilnībā] \<\> 0, Ražošanas pasūtījums[Savlaicīgi un pilnībā], IF(Ražošanas pasūtījums[Pabeigts] = 0, BLANK(), 0)) / Ražošanas pasūtījums[Pabeigts], BLANK()) |
+| Agri                    | COUNTROWS (FILTER(Plānotais ražošanas pasūtījums, Plānotais ražošanas pasūtījums\[Plānotais beigu datums\] \< Plānotais ražošanas pasūtījums\[Vajadzības datums\])) |
+| Vēlu                     | COUNTROWS (FILTER(Plānotais ražošanas pasūtījums, Plānotais ražošanas pasūtījums\[Plānotais beigu datums\] \> Plānotais ražošanas pasūtījums\[Vajadzības datums\])) |
+| Savlaicīgi                  | COUNTROWS (FILTER(Plānotais ražošanas pasūtījums, Plānotais ražošanas pasūtījums\[Plānotais beigu datums\] = Plānotais ražošanas pasūtījums\[Vajadzības datums\])) |
+| Savlaicīgi, %                | IF (Plānotais ražošanas pasūtījums\[Savlaicīgi\] \<\> 0, Plānotais ražošanas pasūtījums\[Savlaicīgi\], IF (Plānotais ražošanas pasūtījums\[Visi plānotie pasūtījumi\] \<\> 0, 0, BLANK()) ) / Plānotais ražošanas pasūtījums\[Visi plānotie pasūtījumi\] |
+| Gatavs                | COUNTROWS(FILTER(Ražošanas pasūtījums, Ražošanas pasūtījums\[Ir RAF'ed\] = TRUE)) |
+| Brāķa proporcija (miljonās daļas)     | IF(Ražošanas pasūtījums\[Kopējais daudzums\] = 0, BLANK(), (SUM(Ražošanas pasūtījums\[Brāķa daudzums\]) /Ražošanas pasūtījums\[Kopējais daudzums\]) \* 1000000) |
+| Ražošanas proporcija ar nokavētu termiņu  | 'Ražošanas pasūtījums'\[Nokavēts termiņš \#\] /'Ražošanas pasūtījums'\[Pabeigts\] |
+| Pirms termiņa un pilnībā          | COUNTROWS(FILTER(Ražošanas pasūtījums, Ražošanas pasūtījums\[Pilnībā\] = TRUE && Ražošanas pasūtījums'\[Pirms termiņa\] = TRUE)) |
+| Pirms termiņa \#                 | COUNTROWS(FILTER(Ražošanas pasūtījums, Ražošanas pasūtījums\[Pirms termiņa\] = TRUE)) |
+| Pirms termiņa, %                  | IFERROR( IF(Ražošanas pasūtījums\[Pirms termiņa \#\] \<\> 0, Ražošanas pasūtījums\[Pirms termiņa \#\], IF(Ražošanas pasūtījums\[Pasūtījumu kopskaits\] = 0, BLANK(), 0)) / Ražošanas pasūtījums\[Pasūtījumu kopskaits\], BLANK()) |
+| Nepabeigts               | COUNTROWS(FILTER(Ražošanas pasūtījums, Ražošanas pasūtījums\[Pilnībā\] = FALSE && Ražošanas pasūtījums\[Ir RAF'ed\] = TRUE)) |
+| Nepilnīgi, %             | IFERROR( IF(Ražošanas pasūtījums\[Nepilnīgs\] \<\> 0, Ražošanas pasūtījums\[Nepilnīgs\], IF(Ražošanas pasūtījums\[Pasūtījumu kopskaits\] = 0, BLANK(), 0)) / Ražošanas pasūtījums\[Pasūtījumu kopskaits\], BLANK()) |
+| Nokavēts termiņš               | Ražošanas pasūtījums\[Ir RAF'ed\] = TRUE && Ražošanas pasūtījums\[Piegādātā vērtība\] = 1 |
+| Pirms termiņa                 | Ražošanas pasūtījums\[Is RAF'ed\] = TRUE && Ražošanas pasūtījums\[Kavētās dienas\] \< 0 |
+| Ir pilnībā               | Ražošanas pasūtījums\[Derīgais daudzums\] \>= Ražošanas pasūtījums\[Plānotais daudzums\] |
+| Ir RAF'ed                | Ražošanas pasūtījums\[Ražošanas statusa vērtība\] = 5 \|\| Ražošanas pasūtījums\[Ražošanas statusa vērtība\] = 7 |
+| Nokavēts termiņš un pilnībā           | COUNTROWS(FILTER(Ražošanas pasūtījums, Ražošanas pasūtījums\[Ir pilnībā\] = TRUE && Ražošanas pasūtījums\[Nokavēts termiņš\] = TRUE)) |
+| Nokavēts termiņš \#                  | COUNTROWS(FILTER(Ražošanas pasūtījums, Ražošanas pasūtījums\[Nokavēts termiņš\] = TRUE)) |
+| Nokavēts termiņš, %                   | IFERROR( IF(Ražošanas pasūtījums\[Nokavēts termiņš \#\] \<\> 0, Ražošanas pasūtījums\[Nokavēts termiņš \#\], IF(Ražošanas pasūtījums\[Pasūtījumu kopskaits\] = 0, BLANK(), 0)) / Ražošanas pasūtījums\[Pasūtījumu kopskaits\], BLANK()) |
+| Savlaicīgi un pilnībā        | COUNTROWS(FILTER(Ražošanas pasūtījums, Ražošanas pasūtījums\[Pilnībā\] = TRUE && Ražošanas pasūtījums\[Nokavēts termiņš\] = FALSE && Ražošanas pasūtījums\[Pirms termiņa\] = FALSE)) |
+| Savlaicīgi un pilnībā, %      | IFERROR( IF(Ražošanas pasūtījums\[Savlaicīgi un pilnībā\] \<\> 0, Ražošanas pasūtījums\[Savlaicīgi un pilnībā\], IF(Ražošanas pasūtījums\[Pabeigts\] = 0, BLANK(), 0)) / Ražošanas pasūtījums\[Pabeigts\], BLANK()) |
 | Pasūtījumu kopskaits             | COUNTROWS(Ražošanas pasūtījums) |
-| Kopējais daudzums           | SUM(Ražošanas pasūtījums[Derīgais daudzums]) + SUM(Ražošanas pasūtījums[Brāķa daudzums]) |
-| Brāķa proporcija (miljonās daļas)        | IF(Maršruta darbības[Apstrādātais daudzums] = 0, BLANK(), (SUM(Maršruta darbības[Brāķa daudzums]) / Maršruta darbības[Apstrādātais daudzums]) \* 1000000) |
-| Apvienotā brāķa proporcija (miljonās daļas) | IF(Maršruta darbības[Kopējais apvienotais daudzums] = 0, BLANK(), (SUM(Maršruta darbības[Brāķa daudzums]) / Maršruta darbības[Kopējais apvienotais daudzums]) \* 1000000) |
-| Apstrādātais daudzums       | SUM(Maršruta darbības[Derīgais daudzums]) + SUM(Maršruta darbības[Brāķa daudzums]) |
-| Kopējais apkopotais daudzums     | SUM(Ražošanas pasūtījums[Derīgais daudzums]) + SUM(Maršruta darbības[Brāķa daudzums]) |
+| Kopējais daudzums           | SUM(Ražošanas pasūtījums\[Derīgais daudzums\]) + SUM(Ražošanas pasūtījums\[Brāķa daudzums\]) |
+| Brāķa proporcija (miljonās daļas)        | IF(Maršruta darbības\[Apstrādātais daudzums\] = 0, BLANK(), (SUM(Maršruta darbības\[Brāķa daudzums\]) / Maršruta darbības\[Apstrādātais daudzums\]) \* 1000000) |
+| Apvienotā brāķa proporcija (miljonās daļas) | IF(Maršruta darbības\[Kopējais apvienotais daudzums\] = 0, BLANK(), (SUM(Maršruta darbības\[Brāķa daudzums\]) / Maršruta darbības\[Kopējais apvienotais daudzums\])\* 1000000) |
+| Apstrādātais daudzums       | SUM(Maršruta darbības\[Derīgais daudzums\]) + SUM(Maršruta darbības\[Brāķa daudzums\]) |
+| Kopējais apkopotais daudzums     | SUM(Ražošanas pasūtījums\[Derīgais daudzums\]) + SUM(Maršruta darbības\[Brāķa daudzums\]) |
 
 Sekojošajā tabulā ir norādītās galvenās dimensijas, kas tiek izmantotas kā filtri, lai sadalītu apkopošanas mērījumus, iegūstot lielāku granularitāti un sniedzot dziļākus analītiskos ieskatus.
 
@@ -130,6 +130,4 @@ Sekojošajā tabulā ir norādītās galvenās dimensijas, kas tiek izmantotas k
 | Elementi                  | ID un nosaukums                                                   |
 | Resursi                 | Resursa ID, resursa nosaukums, resursa veids un resursu grupa |
 | Preces                  | Preces numurs, preces nosaukums, krājuma ID un krājumu grupa         |
-
-
 

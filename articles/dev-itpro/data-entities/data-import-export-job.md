@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
-ms.openlocfilehash: d58bab48c65bb891155af95c79738b019e5760bf
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/22/2018
 
 ---
 
@@ -66,13 +66,11 @@ Importēšanas vai eksportēšanas darbiem varat pievienot konkrētus elementus 
 ### <a name="set-the-data-format-for-the-job"></a>Darba datu formāta iestatīšana
 Kad atlasāt kādu elementu, ir jāatlasa formāts tiem datiem, kas tiks eksportēti vai importēti. Formātus jūs definējat, izmantojot elementu **Datu avotu iestatīšana**. Avota datu formāts sastāv no atribūtiem **Tips**, **Faila formāts**, **Rindas norobežotājs** un **Kolonnas norobežotājs**. Pastāv arī citi atribūti, bet minētie ir vissvarīgākie. Sekojošajā tabulā ir minētas derīgās kombinācijas.
 
-| **Faila formāts**        | **Rindas/kolonnas norobežotājs**                   | **XML stils**             |
+| Faila formāts            | Rindas/kolonnas norobežotājs                       | XML stils                 |
 |------------------------|--------------------------------------------|---------------------------|
 | Excel                  | Excel                                      | \-NA-                     |
 | XML                    | \-NA-                                      | XML-elements XML-atribūts |
 | Norobežots, fiksēts platums | Komats, semikols, tabulēšanas rakstzīme, vertikālā josla, kols | \-NA-                     |
-
-
 
 ### <a name="sequence-the-entities"></a>Elementu secības norādīšana
 Datu veidnē vai importēšanas un eksportēšanas darbos elementus var izkārtot noteiktā secībā. Kad palaižat darbu, kurā ir vairāki datu elementi, jums ir pārliecinās, vai šie datu elementi ir sakārtoti pareizā secībā. Elementu secību jūs galvenokārt norādāt tā, lai varētu ievērot visas funkcionālās atkarības starp elementiem. Ja elementiem nav funkcionālo atkarību, tad tos var ieplānot paralēlai importēšanai vai eksportēšanai.

@@ -26,6 +26,8 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="vat-recovery-in-expense-management"></a>PVN atgūšana, izmantojot izdevumu pārvaldību
 
+[!include [banner](../includes/banner.md)]
+
 Lai saņemtu atmaksu par attaisnotām pievienotās vērtības nodokļa (PVN) transakcijām, uzņēmumam vai organizācijai jānosaka, jāapkopo, jāpārbauda un jāiesniedz precīza informācija. Šis process ietver vairākus uzdevumus. Atkarībā no jūsu uzņēmuma lieluma tas var ietvert vairākus darbiniekus vai lomas.
 
 Lai atgūtu PVN, izmantojot izdevumu pārvaldības procedūru, ir jāizpilda vairāki priekšnosacījumi.

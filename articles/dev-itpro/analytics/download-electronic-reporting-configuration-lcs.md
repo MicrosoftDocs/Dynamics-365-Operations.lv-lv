@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1a4e8c25fb65b35a52a0d1bc0f1a745c06ca53ab
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 8686d2639a3ab7f2e79944cc5eed51571d463261
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/22/2018
 
 ---
 
@@ -34,35 +34,45 @@ ms.lasthandoff: 08/09/2018
 
 Šī apmācība palīdzēs jums veikt elektronisko atskaišu veidošanas (ER) konfigurāciju jaunāko versiju lejupielādi no Microsoft Dynamics Lifecycle Services (LCS).
 
-1.  Pierakstieties programmatūrā Dynamics 365 for Finance and Operations, izmantojot kādu no tālāk norādītajām lomām.
-    -   Elektroniskā pārskata izstrādātājs
-    -   Elektronisko pārskatu veidošanas funkcionālais konsultants
-    -   Sistēmas administrators
+1. Pierakstieties programmatūrā Dynamics 365 for Finance and Operations, izmantojot kādu no tālāk norādītajām lomām.
 
-2.  Dodieties uz **Organizācijas administrēšana** &gt; **Elektronisko pārskatu veidošana**.
-3.  Sadaļā **Konfigurācijas nodrošinātāji** atlasiet elementu **Microsoft**.
-4.  Elementā **Microsoft** noklikšķiniet uz **Repozitoriji**. [![update-er-from-lcs-for-ms-open-ms-repositories-list](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
-5.  Lapā **Konfigurācijas repozitoriji**, režģī atlasiet esošu repozitoriju ar tipu **LCS**. Ja šis repozitorijs netiek parādīts režģī, rīkojieties šādi:
-    1.  Noklikšķiniet uz **Pievienot**, lai pievienotu jaunu repozitoriju.
-    2.  Atlasiet **LCS** kā repozitorija tipu.
-    3.  Noklikšķiniet uz **Izveidot repozitoriju**.
+    - Elektroniskā pārskata izstrādātājs
+    - Elektronisko pārskatu veidošanas funkcionālais konsultants
+    - Sistēmas administrators
+
+2. Dodieties uz **Organizācijas administrēšana** &gt; **Elektronisko pārskatu veidošana**.
+3. Sadaļā **Konfigurācijas nodrošinātāji** atlasiet elementu **Microsoft**.
+4. Elementā **Microsoft** noklikšķiniet uz **Repozitoriji**.
+
+    [![update-er-from-lcs-for-ms-open-ms-repositories-list](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
+
+5. Lapā **Konfigurācijas repozitoriji**, režģī atlasiet esošu repozitoriju ar tipu **LCS**. Ja šis repozitorijs netiek parādīts režģī, rīkojieties šādi:
+
+    1. Noklikšķiniet uz **Pievienot**, lai pievienotu jaunu repozitoriju.
+    2. Atlasiet **LCS** kā repozitorija tipu.
+    3. Noklikšķiniet uz **Izveidot repozitoriju**.
     4. Ja tiek pieprasīts, izpildiet autorizācijas norādījumus.
-    5.  Ievadiet repozitorija nosaukumu un aprakstu.
-    6.  Noklikšķiniet uz **Labi**, lai apstiprinātu jauno repozitorija ierakstu.
-    7.  Režģī atlasiet jauno repozitoriju ar tipu **LCS**.
+    5. Ievadiet repozitorija nosaukumu un aprakstu.
+    6. Noklikšķiniet uz **Labi**, lai apstiprinātu jauno repozitorija ierakstu.
+    7. Režģī atlasiet jauno repozitoriju ar tipu **LCS**.
 
-6.  Noklikšķiniet uz **Atvērt**, lai skatītu ER konfigurāciju sarakstu atlasītajam repozitorijam. [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
-7.  Konfigurāciju koka skata kreisajā rūtī atlasiet nepieciešamo ER konfigurāciju.
-8.  Kopsavilkuma cilnē **Versijas** izvēlieties atlasītās ER konfigurācijas nepieciešamo versiju.
-9.  Noklikšķiniet uz **Importēt**, lai lejupielādētu atlasīto versiju no pakalpojuma LCS uz pašreizējo programmatūras Dynamics 365 for Finance and Operations instanci. **Piezīme.** Poga **Importēt** nav pieejama ER konfigurācijas versijām, kas jau ir ietvertas pašreizējā programmatūras Dynamics 365 for Finance and Operations instancē. [![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+6. Noklikšķiniet uz **Atvērt**, lai skatītu ER konfigurāciju sarakstu atlasītajam repozitorijam.
 
-**Piezīme.** Atkarībā no ER iestatījumiem konfigurācijas tiek apstiprinātas pēc to importēšanas. Jūs varat saņemt paziņojumu par konstatētajām neatbilstības problēmām. Šīs problēmas ir jāatrisina, pirms varat izmantot importēto konfigurācijas versiju. Plašāku informāciju skatiet ar šo tēmu saistīto rakstu sarakstā.
+    [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 
-<a name="additional-resources"></a>Papildu resursi
---------
+7. Konfigurāciju koka skata kreisajā rūtī atlasiet nepieciešamo ER konfigurāciju.
+8. Kopsavilkuma cilnē **Versijas** izvēlieties atlasītās ER konfigurācijas nepieciešamo versiju.
+9. Noklikšķiniet uz **Importēt**, lai lejupielādētu atlasīto versiju no pakalpojuma LCS uz pašreizējo programmatūras Dynamics 365 for Finance and Operations instanci.
+
+    > [!NOTE]
+    > Poga **Importēt** nav pieejama ER konfigurācijas versijām, kas jau ir ietvertas pašreizējā programmatūras Dynamics 365 for Finance and Operations instancē.
+
+    [![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+
+> [!NOTE]
+> Atkarībā no ER iestatījumiem konfigurācijas tiek apstiprinātas pēc to importēšanas. Jūs varat saņemt paziņojumu par konstatētajām neatbilstības problēmām. Šīs problēmas ir jāatrisina, pirms varat izmantot importēto konfigurācijas versiju. Plašāku informāciju skatiet ar šo tēmu saistīto rakstu sarakstā.
+
+## <a name="additional-resources"></a>Papildu resursi
 
 [Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
-
-
-
 

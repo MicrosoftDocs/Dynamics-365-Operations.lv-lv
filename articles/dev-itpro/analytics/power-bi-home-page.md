@@ -27,6 +27,9 @@ ms.lasthandoff: 08/09/2018
 ---
 
 # <a name="powerbicom-solutions-home-page"></a>PowerBI.com risinājumu sākumlapa
+
+[!include [banner](../includes/banner.md)]
+
 Dynamics 365 for Finance and Operations vidēm ir pieejami šādi PowerBI.com risinājumi.
 
 ## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a>PowerBI.com risinājumi ir pieejami Lifecycle Services (LCS)

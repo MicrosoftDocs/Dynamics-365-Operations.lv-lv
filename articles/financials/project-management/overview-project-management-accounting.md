@@ -35,7 +35,9 @@ Projekta vadības un uzskaites funkcionalitāti var izmantot vairākās nozarēs
 Projekts darbību grupa, kas ir izstrādāta, lai sniegtu pakalpojumu, ražotu preci vai sasniegtu rezultātu. Projekti patērē resursus un rada finanšu rezultātus — ieņēmumus vai līdzekļus.
 
 ## <a name="projects-across-industries"></a>Projekti dažādās nozarēs
-Projektu vadības un uzskaites funkcionalitāti var izmantot vairākās nozarēm, kā parādīts šajā attēlā. [![Projekti dažādās nozarēs](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+Projektu vadības un uzskaites funkcionalitāti var izmantot vairākās nozarēm, kā parādīts šajā attēlā.
+
+[![Projekti dažādās nozarēs](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Zvanu centrā tādu darbību kopu aprakstīšanai, kas nepieciešamas, lai atrisinātu zvanu, var izmantot biļeti. Konsultāciju uzņēmumi, piemēram, vadības vai tehnisko konsultāciju organizācijas vai reklāmas aģentūras, savas darbības sauc par projektiem. Mārketinga nozarē veicamo darbu kopa ir kampaņa Uz projektiem balstītas ražošanas nozarēs ražošanas pasūtījums saista dažādus darbus, kuri jāveic, lai saražotu pabeigtas preces. Neatkarīgi no lietotā nosaukuma šie projekti ietver resursus, grafikus un izmaksas, un projektu vadības un uzskaites funkcionalitāte programmatūrā Microsoft Dynamics 365 for Finance and Operations var palīdzēt planot, izpildīt un analizēt šos projektus.
 

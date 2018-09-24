@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 58653d6e991f1896673a07e3057bd516c74edd76
+ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
+ms.openlocfilehash: f68e89422e7124874004a20c2bae5809dcdfb099
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/22/2018
 
 ---
 
@@ -48,7 +48,9 @@ Piezīme. Tālāk norādītās darbības attiecas uz Dynamics 365 for Retail ja
 |----|-----------|-------------|-------------|--------------------|----------------|-------------------|-----------------|
 | 707 | Aktivizēt ierīci | Aktivizēt pašreizējo ierīci, atļaujot autentificētam lietotājam ievadīt savienojuma informāciju un piešķirt ierīces un kases sistēmas ID. | Nē | Nē | Nē | Nē | Nē |
 | 134 | Pievienot piederību | Pievienojiet darījumam iepriekš atlasītu piederību. Atlasiet piederību lapā **Pogas rekvizīti**. | Jā | Jā | Nē | Jā | Nē |
-| 135 | Pievienot piederību no saraksta | Pievienot transakcijai piederību, atlasot to sarakstā. | Jā | Jā | Jā | Jā | Nē |
+| 135 | Pievienot piederību no saraksta | Pievienot transakcijai piederību, atlasot to sarakstā. | Jā | Jā | Jā | Jā | Nav |
+| 137 | Piederības pievienošana klientam | Pievienot piederību klientam lapā **detalizēta informācija par klientu**. | Nav | Nav | Nav | Jā | Nav |
+| 138 | Piederības noņemšana klientam | Noņemt piederību lapā **detalizēta informācija par klientu**. | Nav | Nav | Nav | Jā | Nav |
 | 643 | Pievienot kupona kodu | Pievienot kuponu, ievadot tā kodu POS sistēmā. | Jā | Jā | Nē | Jā | Nē |
 | 117 | Pievienot lojalitātes karti | Aicināt lietotāju ievadīt lojalitātes kartes numuru, kas tiks pievienots pašreizējai transakcijai. | Jā | Jā | Nē | Jā | Nē |
 | 136 | Pievienot sērijas numuru | Šī operācija sniedz lietotājam iespēju norādīt pašlaik atlasītās preces sērijas numuru. | Jā | Jā | Nē | Jā | Nē |

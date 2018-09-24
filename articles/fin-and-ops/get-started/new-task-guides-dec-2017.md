@@ -25,6 +25,8 @@ ms.lasthandoff: 08/09/2018
 
 # <a name="new-or-updated-task-guides-december-2017"></a>Jauni vai atjaunināti uzdevumu ceļveži (2017. gada decembris)
 
+[!include [banner](../includes/banner.md)]
+
 Šajā tēmā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas tika izlaisti Microsoft APQC vienotajā bibliotēkā programmatūrai MicrosoftDynamics 365 for Operations (2016. gada decembra visu valodu laidienā).
 
 

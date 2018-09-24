@@ -18,19 +18,17 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 8c11164f7edb8e05b93f3c58b9707c0bf2482228
+ms.sourcegitcommit: a1c4b7623f3409d4474adcd04fb1331b944b9fbb
+ms.openlocfilehash: a0d49068d2c6a62bf7912c2fd7cccd53308bd196
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/13/2018
 
 ---
 # <a name="enter-sales-agreements"></a>Pārdošanas līgumu ievade
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā procedūrā ir parādīts, kā izveidot pārdošanas līgumu, saskaņā ar kuru kāds no jūsu debitoriem apņemsies iegādāties preces par
-
-iepriekš norunāto summu, par to saņemot īpašas atlaides. Šo procedūru varat izpildīt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.
+Šajā procedūrā ir parādīts, kā izveidot pārdošanas līgumu, saskaņā ar kuru kāds no jūsu debitoriem apņemsies iegādāties preces par iepriekš norunāto summu, par to saņemot īpašas atlaides. Šo procedūru varat izpildīt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.
 
 
 ## <a name="set-up-sales-agreement-header"></a>Pārdošanas līguma virsraksta iestatīšana

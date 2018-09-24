@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: e1ffd9cb90b2ffac8f89885aac2f614e2ae3cb71
+ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
+ms.openlocfilehash: 3f18a5d7b7f7639b864f579b758005c7a30803a2
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/22/2018
 
 ---
 
@@ -74,7 +74,7 @@ Varat arī atrast mūsu saturu, izmantojot jebkuru meklēšanas programmu. Lai i
 Programmām Finance and Operations, Retail un Talent dokumentācijas vietnē ir kopīgs satura rādītājs, kas sniedz klientiem iespēju skatīt attiecīgās tēmas kontekstu. Tas arī sniedz iespēju izmantot virs satura rādītāja esošo vadīklu Filtrs, lai atrastu jums vajadzīgā tēmu.
 
 ### <a name="follow-a-topic"></a>Sekošana tēmai
-Lai sekotu tēmai, noklikšķiniet uz pogas +Sekot, kas atrodas zem komentāru lodziņa. Lai varētu sekot tēmai, ir jāpiesakās. Papildinformāciju skatiet sadaļā [Komentāra pievienošana](#leave-us-a-comment).  
+Lai sekotu tēmai, noklikšķiniet uz pogas +Sekot, kas atrodas zem komentāru lodziņa. Lai varētu sekot tēmai, ir jāpiesakās. Papildinformāciju skatiet sadaļā [Atsauksmes pievienošana](#leave-us-feedback).  
 
 ### <a name="use-an-rss-feed"></a>RSS plūsmas izmantošana
 Lai abonētu visu Unified Operations satura atjauninājumu RSS plūsmu, izmantojiet tālāk norādīto saiti pārlūkprogrammā, kas atbalsta RSS plūsmas, piemēram, Internet Explorer, vai RSS plūsmu pārvaldnieku. 

@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: b9cdb2b2c2b5aaf7743cd2cd0dbfee6c602a5a46
+ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
+ms.openlocfilehash: d6d26da330974305fa3725fe7c2506d198b17e2c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/22/2018
 
 ---
 
@@ -135,16 +135,17 @@ Nākamajā tabulā ir ietvertas saites uz resursiem, kas jums var palīdzēt iev
 <td><a href="publish-mobile-workspace.md">Mobilās darbvietas publicēšana</a></td>
 </tr>
 <tr class="even">
-<td>8.</td>
+<td>8</td>
 <td>Lietotājs</td>
 <td>Lejupielādējiet un instalējiet mobilo programmu.</td>
-<td><ul>
-<li><a href="https://go.microsoft.com/fwlink/?linkid=850662">Android tālruņiem</a></li>
-<li><a href="https://go.microsoft.com/fwlink/?linkid=850663">Tālruņiem iPhone</a></li></ul>
+<td>
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">Programma Unified Operations Android ierīcēm</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850663">Programma Unified Operations iOS ierīcēm</a><BR/>
+(Windows Phone ierīces netiek atbalstītas)
 </td>
 </tr>
 <tr class="odd">
-<td>9.</td>
+<td>9</td>
 <td>Lietotājs</td>
 <td>Pierakstieties mobilajā programmā un lietojiet to. Programma ietver mobilās darbvietas, kuras ir publicējis sistēmas administrators.</td>
 <td>Lai apskatītu sarakstu ar mobilajām darbvietām, ko nodrošina korporācija Microsoft, skatiet rakstu <a href="mobile-workspaces-released.md">Nesen izlaistās mobilās darbvietas</a>.

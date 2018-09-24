@@ -18,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 44f017fc3460b83b730f2f7c909c6b88480dd918
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 09/22/2018
 
 ---
 
@@ -42,7 +42,6 @@ Visas satura pakotnē ietvertās summas ir norādītas sistēmas valūtā. Sist�
 ## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
 
 Power BI satura pakotne **Prakses pārvaldnieks** tiek rādīta darbvietā **Projektu pārvaldība**.
-
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie pārskati
 
@@ -85,8 +84,7 @@ Tālāk esošajās sadaļās ir paskaidroti apkopošanas mērījumi, kas tiek iz
 
 | Galvenais apkopošanas mērījums | Lauks                                             | Apraksts |
 |---------------------------|---------------------------------------------------|-------------|
-| Projektu skaits        | COUNTA(ProjectAccountingCube\_Projects[PROJECTS]) | Pieejamo projektu skaits. |
-
+| Projektu skaits        | COUNTA(ProjectAccountingCube\_Projects\[PROJEKTI\]) | Pieejamo projektu skaits. |
 
 ### <a name="entity-projectaccountingcubeforecasts"></a>Elements: ProjectAccountingCube\_Forecasts
 **Datu avots:** ProjTransBudget
@@ -107,20 +105,18 @@ Tālāk esošajās sadaļās ir paskaidroti apkopošanas mērījumi, kas tiek iz
 ### <a name="entity-projectaccountingcubeprojects"></a>Elements: ProjectAccountingCube\_Projects
 **Datu avots:** projekts
 
-| Galvenais apkopošanas mērījums    | Lauks | Apraksts |
+| Galvenais apkopošanas mērījums    | Lauks | apraksts |
 |------------------------------|-------|-------------|
-| Izmaksu veiktspējas rādītājs       | ProjectAccountingCube\_Projects[Iegūtā vērtība] ÷ ProjectAccountingCube\_Projects[Pabeigto uzdevumu faktisko izmaksu kopsumma] | Iegūtās vērtības kopsummas un faktisko izmaksu kopsummas dalījuma aprēķins. |
-| Grafika veiktspējas rādītājs   | ProjectAccountingCube\_Projects[Iegūtā vērtība] ÷ ProjectAccountingCube\_Projects[Pabeigto uzdevumu plānoto izmaksu kopsumma] | Iegūtās vērtības kopsummas un faktisko plānoto izmaksu kopsummas dalījuma aprēķins. |
-| Pabeigtā darba procentuālā vērtība | Pabeigtā darba procentuālā vērtība = ProjectAccountingCube\_Projects[Pabeigto uzdevumu faktisko izmaksu kopsumma] ÷ (ProjectAccountingCube\_Projects[Pabeigto uzdevumu faktisko izmaksu kopsumma] + ProjectAccountingCube\_Projects[Projekta plānoto izmaksu kopsumma] – ProjectAccountingCube\_Projects[Pabeigto uzdevumu plānoto izmaksu kopsumma]) | Kopējā pabeigtā darba procentuālā vērtība, pamatojoties uz pabeigto uzdevumu faktisko izmaksu un projekta plānoto izmaksu kopsummu. |
-| Faktisko apmaksājamo stundu koeficients  | ProjectAccountingCube\_Projects[Projekta faktisko apmaksājamo izmantoto stundu kopsumma] ÷ (ProjectAccountingCube\_Projects[Projekta faktisko apmaksājamo izmantoto stundu kopsumma] + ProjectAccountingCube\_Projects[Projekta faktisko apmaksājamo neproduktīvo stundu kopsumma]) | Faktisko apmaksājamo stundu kopsumma, pamatojoties uz izmantoto stundu un papildstundu skaitu. |
-| Iegūtā vērtība                 | ProjectAccountingCube\_Projects[Projekta plānoto izmaksu kopsumma] × ProjectAccountingCube\_Projects[Pabeigtā darba procentuālā vērtība] | Plānoto izmaksu kopsummas un pabeigtā darba procentuālās vērtības reizinājums. |
+| Izmaksu veiktspējas rādītājs       | ProjectAccountingCube\_Projects\[Iegūtā vērtība\] ÷ ProjectAccountingCube\_Projects\[Pabeigto uzdevumu faktisko izmaksu kopsumma\] | Iegūtās vērtības kopsummas un faktisko izmaksu kopsummas dalījuma aprēķins. |
+| Grafika veiktspējas rādītājs   | ProjectAccountingCube\_Projects\[Iegūtā vērtība\] ÷ ProjectAccountingCube\_Projects\[Pabeigto uzdevumu plānoto izmaksu kopsumma\] | Iegūtās vērtības kopsummas un faktisko plānoto izmaksu kopsummas dalījuma aprēķins. |
+| Pabeigtā darba procentuālā vērtība | Percentage of work completed = ProjectAccountingCube\_Projects\[Pabeigto uzdevumu faktisko izmaksu kopsumma\] ÷ (ProjectAccountingCube\_Projects\[Pabeigto uzdevumu faktisko izmaksu kopsumma\] + ProjectAccountingCube\_Projects\[Projekta plānoto izmaksu kopsumma\] – ProjectAccountingCube\_Projects\[Pabeigto uzdevumu plānoto izmaksu kopsumma\]) | Kopējā pabeigtā darba procentuālā vērtība, pamatojoties uz pabeigto uzdevumu faktisko izmaksu un projekta plānoto izmaksu kopsummu. |
+| Faktisko apmaksājamo stundu koeficients  | ProjectAccountingCube\_Projects\[Projekta faktisko apmaksājamo izmantoto stundu kopsumma\] ÷ (ProjectAccountingCube\_Projects\[Projekta faktisko apmaksājamo izmantoto stundu kopsumma\] + ProjectAccountingCube\_Projects\[Projekta faktisko apmaksājamo neproduktīvo stundu kopsumma\]) | Faktisko apmaksājamo stundu kopsumma, pamatojoties uz izmantoto stundu un papildstundu skaitu. |
+| Iegūtā vērtība                 | ProjectAccountingCube\_Projects\[Projekta plānoto izmaksu kopsumma\] × ProjectAccountingCube\_Projects\[Pabeigtā darba procentuālā vērtība\] | Plānoto izmaksu kopsummas un pabeigtā darba procentuālās vērtības reizinājums. |
 
 ### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Elements: ProjectAccountingCube\_TotalEstimatedCosts 
 **Datu avots:** ProjTable
 
-
-|    Galvenais apkopošanas mērījums    |        Lauks        |                                          Apraksts                                           |
-|---------------------------------|---------------------|------------------------------------------------------------------------------------------------|
+| Galvenais apkopošanas mērījums       | Lauks               | Apraksts |
+|---------------------------------|---------------------|-------------|
 | Pabeigtās aktivitātes plānotās izmaksas | Sum(TotalCostPrice) | Visu pabeigtus uzdevumus ietverošo projekta transakciju veidu novērtētas izmaksu cenas kopsumma. |
-
 

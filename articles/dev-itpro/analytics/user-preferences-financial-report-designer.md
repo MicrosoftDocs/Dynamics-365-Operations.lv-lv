@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 78b41010e4ab56675121ab5479cada37645e9ee3
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 5483a1d40907fab3ed3da8174f1dfb8a5bc86960
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/22/2018
 
 ---
 
@@ -30,25 +30,24 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir paskaidrots, kā iestatīt lietotāja preferences, lai pielāgotu jūsu lietotāju mijiedarbības finanšu atskaišu veidotājā un kontrolētu sākotnējo pierakstīšanās pieredzi. Varat arī kontrolēt, kā tiek rādītas atsevišķas atskaites, atskaišu bibliotēka un failu noklusējuma atrašanās vietas. 
+Šajā rakstā ir paskaidrots, kā iestatīt lietotāja preferences, lai pielāgotu jūsu lietotāju mijiedarbības finanšu atskaišu veidotājā un kontrolētu sākotnējo pierakstīšanās pieredzi. Varat arī kontrolēt, kā tiek rādītas atsevišķas atskaites, atskaišu bibliotēka un failu noklusējuma atrašanās vietas.
 
-<a name="set-user-preferences"></a>Lietotāja preferenču iestatīšana
---------------------
+## <a name="set-user-preferences"></a>Lietotāja preferenču iestatīšana
 
-1.  Atskaišu veidotāja izvēlnē **Rīki** noklikšķiniet uz **Opcijas**.
-2.  Dialoglodziņā **Opcijas** atlasiet savas preferences.
-3.  Noklikšķiniet uz **Labi**.
+1. Atskaišu veidotāja izvēlnē **Rīki** noklikšķiniet uz **Opcijas**.
+2. Dialoglodziņā **Opcijas** atlasiet savas preferences.
+3. Noklikšķiniet uz **Labi**.
 
 ## <a name="options-dialog-box-options"></a>Opciju dialoglodziņa opcijas
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Lietotāja opcija</th>
 <th>Apraksts</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Startējot</td>
 <td>Atlasiet, kas ir redzams, kad tiek startēts pārskatu veidotājs. Izvēlieties vienu no šīm opcijām:
 <ul>
@@ -57,28 +56,22 @@ ms.lasthandoff: 08/09/2018
 <li><strong>Rādīt tukšu vidi</strong> — atvērt tukšu veidotāja logu.</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Rādīt apstiprinājumu, pirms tiek aizvērts pārskatu veidotājs</td>
 <td>Atlasiet, vai saņemt brīdinājumu, kad programmu aizverat. Šis ziņojums palīdz garantēt, ka programmu neaizverat nejauši.</td>
 </tr>
-<tr class="odd">
-<td>Automātiski lietot šūnu pasvītrojumu kolonnu virsrakstos</td>
+<tr>
+<td>Automātiski lietot šūnu pasvītrojumu kolonnu virsrakstiem</td>
 <td>Atlasiet, vai ievieto pasvītrojumu šūnā, kas satur jaunu kolonnas virsrakstu.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Management Reporter failu atrašanās vieta</td>
 <td>Norādiet failu noklusējuma atrašanās vietu. Programma šo noklusējuma atrašanās vietu izmanto, kad eksportējat veidošanas bloku grupas.</td>
 </tr>
 </tbody>
 </table>
 
-
-
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 [Finanšu pārskati](financial-reporting-intro.md)
-
-
-
 
