@@ -1,9 +1,9 @@
 --- 
-title: "Brīva teksta rēķina izveidošana"
-description: "Šajā rakstā ir paskaidrots, kā izveidot brīva teksta rēķinu."
+title: "Izveidot brīvā teksta rēķinus"
+description: "Šajā tēmā izskaidrots, kā izveidot brīva teksta rēķinus."
 author: mikefalkner
 manager: AnnBe
-ms.date: 05/29/2018
+ms.date: 08/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -13,64 +13,77 @@ ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: mfalkner
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.search.validFrom: 2018-08-30
+ms.dyn365.ops.version: 8.0.4
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: e6f89a6d77ff8e1cd88632df0d9a72915086ee1e
+ms.sourcegitcommit: f64292a1b3726ea9b43f959a44c4ed2a1f392484
+ms.openlocfilehash: f6ee6fda0b52b8af7c253b7d22e470345a8a421f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/22/2018
 
 ---
 
-# <a name="create-a-free-text-invoice"></a><span data-ttu-id="eb804-103">Brīva teksta rēķina izveidošana</span><span class="sxs-lookup"><span data-stu-id="eb804-103">Create a free text invoice</span></span>
+# <a name="create-free-text-invoices"></a><span data-ttu-id="b8c58-103">Izveidot brīvā teksta rēķinus</span><span class="sxs-lookup"><span data-stu-id="b8c58-103">Create free text invoices</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="eb804-104">Šajā rakstā ir paskaidrots, kā izveidot brīva teksta rēķinu.</span><span class="sxs-lookup"><span data-stu-id="eb804-104">This article demonstrates how to create a free text invoice.</span></span> <span data-ttu-id="eb804-105">Šai procedūrai izmantojiet demonstrācijas uzņēmuma “USMF” datus.</span><span class="sxs-lookup"><span data-stu-id="eb804-105">For this procedure, use the USMF demo company.</span></span>
+<span data-ttu-id="b8c58-104">Šajā tēmā izskaidrots, kā izveidot brīva teksta rēķinus.</span><span class="sxs-lookup"><span data-stu-id="b8c58-104">This topic explains how to create free text invoices.</span></span> <span data-ttu-id="b8c58-105">Šai procedūrai izmantojiet demonstrācijas uzņēmuma **USMF** datus.</span><span class="sxs-lookup"><span data-stu-id="b8c58-105">For the procedure, use the **USMF** demo company.</span></span>
 
-## <a name="create-a-free-text-invoice"></a><span data-ttu-id="eb804-106">Brīva teksta rēķina izveidošana</span><span class="sxs-lookup"><span data-stu-id="eb804-106">Create a free text invoice</span></span>
+## <a name="create-a-free-text-invoice"></a><span data-ttu-id="b8c58-106">Brīva teksta rēķina izveidošana</span><span class="sxs-lookup"><span data-stu-id="b8c58-106">Create a free text invoice</span></span>
 
-1. <span data-ttu-id="eb804-107">Pārejiet uz sadaļu Debitori > Rēķini > Visi brīva teksta rēķini.</span><span class="sxs-lookup"><span data-stu-id="eb804-107">Go to Accounts receivable > Invoices > All free text invoices.</span></span>
-2. <span data-ttu-id="eb804-108">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="eb804-108">Click New.</span></span>
-3. <span data-ttu-id="eb804-109">Laukā Debitora konts atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="eb804-109">In the Customer account field, select a value.</span></span>
-    * <span data-ttu-id="eb804-110">Rēķina konts pēc noklusējuma būs tas pats konts, kas tiek izmantots debitora kontam.</span><span class="sxs-lookup"><span data-stu-id="eb804-110">The invoice account will default to the same account used for the customer account.</span></span>   
-    * <span data-ttu-id="eb804-111">Uzskaites statuss sākas ar Notiek, ja rēķins nav grāmatots.</span><span class="sxs-lookup"><span data-stu-id="eb804-111">The accounting status starts with In process if the invoice is not posted.</span></span>   
-    * <span data-ttu-id="eb804-112">Rēķina numurs tiek piešķirts, kad rēķins tiek grāmatots.</span><span class="sxs-lookup"><span data-stu-id="eb804-112">The invoice number will be assigned when the invoice is posted.</span></span>  
-    * <span data-ttu-id="eb804-113">Ja lietojat SEPA mandātus, tad tiešā debeta mandāts automātiski tiks aizpildīts ar mandātu, kad atlasāt debitora kontu.</span><span class="sxs-lookup"><span data-stu-id="eb804-113">If you are using SEPA mandates, the direct debit mandate will be automatically populated with a mandate when you select the customer account.</span></span>  
-4. <span data-ttu-id="eb804-114">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="eb804-114">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="eb804-115">Laukā Galvenais konts norādiet kāda konta numuru bez dimensijām.</span><span class="sxs-lookup"><span data-stu-id="eb804-115">In the Main account field, specify an account number without dimensions.</span></span>
-    * <span data-ttu-id="eb804-116">Lai atrastu savu kontu, varat arī ievadīt vienu vai vairākas rakstzīmes galvenajam kontam un lietot uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="eb804-116">You can also enter one or more characters for the main account and use the lookup to find your account.</span></span> <span data-ttu-id="eb804-117">Dimensijas jūs ievadīsiet vēlākā šī ceļveža posmā.</span><span class="sxs-lookup"><span data-stu-id="eb804-117">You will enter dimensions later on in this guide.</span></span>  
-6. <span data-ttu-id="eb804-118">Izvērsiet kopsavilkuma cilni Detalizēta informācija par rindu, lai savam galvenajam kontam pievienotu dimensijas.</span><span class="sxs-lookup"><span data-stu-id="eb804-118">Expand the Line details fasttab so you can add dimensions to your main account.</span></span>
-7. <span data-ttu-id="eb804-119">Noklikšķiniet uz cilnes Finanšu dimensiju rinda.</span><span class="sxs-lookup"><span data-stu-id="eb804-119">Click the Financial dimensions line tab.</span></span>
-    * <span data-ttu-id="eb804-120">Šīs dimensijas ir tikai atlasītajai rindai.</span><span class="sxs-lookup"><span data-stu-id="eb804-120">The dimensions are for the selected line only.</span></span>    
-    * <span data-ttu-id="eb804-121">PVN grupa tiek aizpildīta no debitora datiem.</span><span class="sxs-lookup"><span data-stu-id="eb804-121">The sales tax group is populated from the customer.</span></span> <span data-ttu-id="eb804-122">Ja debitoram nav PVN grupas, tad tiek izmantota PVN grupa no galvenā konta.</span><span class="sxs-lookup"><span data-stu-id="eb804-122">If the customer does not have a sales tax group, the sales tax group from the main account is used.</span></span>  
-    * <span data-ttu-id="eb804-123">Krājumu PVN grupa tiek aizpildīta no galvenā konta datiem.</span><span class="sxs-lookup"><span data-stu-id="eb804-123">The items sales tax group is populated from the main account.</span></span> <span data-ttu-id="eb804-124">Ja galvenajam kontam nav krājuma PVN grupas, tiek izmantota Virsgrāmatas PVN parametru sadaļā norādītā krājuma PVN grupa.</span><span class="sxs-lookup"><span data-stu-id="eb804-124">If the main account does not have an item sales tax group, then the item sales tax group in the General ledger sales tax parameters is used.</span></span>    
-8. <span data-ttu-id="eb804-125">Laukā Daudzums ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="eb804-125">In the Quantity field, enter a number.</span></span>
-    * <span data-ttu-id="eb804-126">Daudzums ir neobligāts.</span><span class="sxs-lookup"><span data-stu-id="eb804-126">The quantity is optional.</span></span>  
-9. <span data-ttu-id="eb804-127">Laukā Vienības cena ievadiet kādu skaitli.</span><span class="sxs-lookup"><span data-stu-id="eb804-127">In the Unit price field, enter a number.</span></span>
-    * <span data-ttu-id="eb804-128">Vienības cena ir neobligāta.</span><span class="sxs-lookup"><span data-stu-id="eb804-128">The unit price is optional.</span></span>  
-    * <span data-ttu-id="eb804-129">Šī summa tiek aprēķināta kā daudzums reiz vienības cena.</span><span class="sxs-lookup"><span data-stu-id="eb804-129">The amount is calculated as the quantity times the unit price.</span></span> <span data-ttu-id="eb804-130">Taču varat ignorēt šo aprēķinu un ievadīt kādu summu.</span><span class="sxs-lookup"><span data-stu-id="eb804-130">However, you can override that calculation and enter an amount.</span></span>  
-10. <span data-ttu-id="eb804-131">Noklikšķiniet uz PVN, lai skatītu savam rēķinam aprēķināto PVN.</span><span class="sxs-lookup"><span data-stu-id="eb804-131">Click on Sales tax to view the sales tax calculated for your invoice.</span></span>
-    * <span data-ttu-id="eb804-132">Skatiet PVN summas šajā lapā, vai šīs summas varat ignorēt cilnē Korekcija.</span><span class="sxs-lookup"><span data-stu-id="eb804-132">View the sales tax amounts in this page or you can override the amounts on the Adjustment tab.</span></span>  
-11. <span data-ttu-id="eb804-133">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="eb804-133">Click OK.</span></span>
-12. <span data-ttu-id="eb804-134">Noklikšķiniet uz Maksas, lai savam rēķinam pievienotu kādu maksu.</span><span class="sxs-lookup"><span data-stu-id="eb804-134">Click Charges to add a charge to your invoice.</span></span> 
-13. <span data-ttu-id="eb804-135">Laukā Maksu kods ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="eb804-135">In the Charges code field, type a value.</span></span>
-14. <span data-ttu-id="eb804-136">Laukā Maksu vērtība ievadiet kādu skaitli.</span><span class="sxs-lookup"><span data-stu-id="eb804-136">In the Charges value field, enter a number.</span></span>
-15. <span data-ttu-id="eb804-137">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="eb804-137">Close the page.</span></span>
-16. <span data-ttu-id="eb804-138">Noklikšķiniet uz Kopsummas, lai apskatītu kopsavilkumu par rēķina detalizēto informāciju un kopsummām.</span><span class="sxs-lookup"><span data-stu-id="eb804-138">Click Totals to view the summary invoice details and totals.</span></span>
-17. <span data-ttu-id="eb804-139">Noklikšķiniet uz Aizvērt.</span><span class="sxs-lookup"><span data-stu-id="eb804-139">Click Close.</span></span>
-18. <span data-ttu-id="eb804-140">Lai grāmatotu rēķinu, klikšķiniet uz Grāmatot.</span><span class="sxs-lookup"><span data-stu-id="eb804-140">Click Post to post the invoice.</span></span> <span data-ttu-id="eb804-141">Pirms grāmatošanas varēsiet to atcelt.</span><span class="sxs-lookup"><span data-stu-id="eb804-141">You will be able to cancel before you post.</span></span>
-    * <span data-ttu-id="eb804-142">Lai mainītu savu rēķinu drukāšanas laiku: atlasiet Pašreizējais, lai katru rēķinu drukātu, līdzko tas ir atjaunināts, vai atlasiet Pēc, lai drukāšanu veiktu pēc tam, kad ir atjaunināti visi rēķini.</span><span class="sxs-lookup"><span data-stu-id="eb804-142">To change the timing of your invoice printing:  Select Current to print each invoice as it is updated   or  Select After to print after all invoices have been updated.</span></span>  
-    * <span data-ttu-id="eb804-143">Ja vēlaties mainīt to, kā pirms grāmatošanas tiek pārbaudīts debitora kredīta limits, mainiet vienumu Kredīta limita tips.</span><span class="sxs-lookup"><span data-stu-id="eb804-143">If you want to change how the customer's credit limit is checked before posting, change the Credit limit type.</span></span>  
-    * <span data-ttu-id="eb804-144">Ja vēlaties drukāt rēķinu, atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="eb804-144">If you want to print the invoice, select Yes.</span></span>  
-    * <span data-ttu-id="eb804-145">Ja vēlaties grāmatot rēķinu, atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="eb804-145">If you want to post the invoice, select Yes.</span></span> <span data-ttu-id="eb804-146">Rēķinu varat izdrukāt arī bez grāmatošanas.</span><span class="sxs-lookup"><span data-stu-id="eb804-146">You can print the invoice without posting.</span></span>  
-19. <span data-ttu-id="eb804-147">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="eb804-147">Click OK.</span></span>
+1. <span data-ttu-id="b8c58-107">Dodieties uz **Debitoru parādi \> Rēķini \> Visi brīva teksta rēķini**.</span><span class="sxs-lookup"><span data-stu-id="b8c58-107">Go to **Accounts receivable \> Invoices \> All free text invoices**.</span></span>
+2. <span data-ttu-id="b8c58-108">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="b8c58-108">Select **New**.</span></span>
+3. <span data-ttu-id="b8c58-109">Laukā **Debitora konts** atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="b8c58-109">In the **Customer account** field, select a value.</span></span>
 
-## <a name="copy-lines"></a><span data-ttu-id="eb804-148">Kopēt rindas</span><span class="sxs-lookup"><span data-stu-id="eb804-148">Copy lines</span></span>
-<span data-ttu-id="eb804-149">Lai kopētu rindas brīva teksta rēķinā, atlasiet vienu vai vairākas rindas un pēc tam noklikšķiniet uz Kopēt atlasītās rindas.</span><span class="sxs-lookup"><span data-stu-id="eb804-149">To copy lines on the free text invoice, select one or more lines and then click Copy selected lines.</span></span> <span data-ttu-id="eb804-150">Var norādīt kopiju skaitu vai kopēt piezīmes un pielikumus.</span><span class="sxs-lookup"><span data-stu-id="eb804-150">You can specify the number of copies that you want to make, and you can also copy notes and attachments.</span></span> <span data-ttu-id="eb804-151">Varat kopēt sadales vai atļaut tās no jauna uzveidot pēc grāmatošanas.</span><span class="sxs-lookup"><span data-stu-id="eb804-151">You can copy the distributions or allow them to be recreated when you post.</span></span> <span data-ttu-id="eb804-152">Kopējot rindas, informāciju var mainīt pēc nepieciešamības.</span><span class="sxs-lookup"><span data-stu-id="eb804-152">Once you copy the lines, you can edit the information as needed.</span></span> 
+    * <span data-ttu-id="b8c58-110">Pēc noklusējuma konts, kas ir atlasīts kā debitora konts, tiek izmantots kā rēķina konts.</span><span class="sxs-lookup"><span data-stu-id="b8c58-110">By default, the account that is selected as the customer account is used as the invoice account.</span></span>
+    * <span data-ttu-id="b8c58-111">Ja rēķins nav grāmatots, uzskaites statuss sākas ar **Notiek**.</span><span class="sxs-lookup"><span data-stu-id="b8c58-111">If the invoice isn't posted, the accounting status starts with **In process**.</span></span>
+    * <span data-ttu-id="b8c58-112">Rēķina numurs tiek piešķirts, kad rēķins tiek grāmatots.</span><span class="sxs-lookup"><span data-stu-id="b8c58-112">The invoice number will be assigned when the invoice is posted.</span></span>
+    * <span data-ttu-id="b8c58-113">Ja lietojat vienotās eiro maksājumu zonas (SEPA) mandātus, tad tiešā debeta mandāts automātiski tiek ievadīts, kad atlasāt debitora kontu.</span><span class="sxs-lookup"><span data-stu-id="b8c58-113">If you're using Single Euro Payments Area (SEPA) mandates, the direct debit mandate is automatically entered when you select the customer account.</span></span>
 
-## <a name="create-a-free-text-invoice-from-a-template"></a><span data-ttu-id="eb804-153">Brīva teksta rēķina izveide no veidnes</span><span class="sxs-lookup"><span data-stu-id="eb804-153">Create a free text invoice from a template</span></span>
-<span data-ttu-id="eb804-154">Brīva teksta rēķina izveidei varat izmantot veidni.</span><span class="sxs-lookup"><span data-stu-id="eb804-154">You can create a free text invoice from a template.</span></span> <span data-ttu-id="eb804-155">Cilnes “Rēķins” veidnē atlasot vienumu “Jauns”, varat atlasīt veidnes nosaukumu un debitora kontu, ko izmantot jaunā brīva teksta rēķina izveidē.</span><span class="sxs-lookup"><span data-stu-id="eb804-155">When you select New from template from the Invoice tab, you can select a template name and the customer account for the new free text invoice.</span></span> <span data-ttu-id="eb804-156">Varat arī izvēlēties noklusējuma vērtības, piemēram, maksāšanas termiņus un debitora maksāšanas metodi, vai izmantot vērtības, kas tika saglabātas veidnē.</span><span class="sxs-lookup"><span data-stu-id="eb804-156">You can also choose to default values such as the terms of payment and method of payment from the customer or use the values that were saved with the template.</span></span> <span data-ttu-id="eb804-157">Jauns brīva teksta rēķins tiks izveidots un varēsit rediģēt tajā esošās vērtības.</span><span class="sxs-lookup"><span data-stu-id="eb804-157">A new free text invoice will be created and you can edit the values in that invoice.</span></span> 
+4. <span data-ttu-id="b8c58-114">Laukā **Apraksts** ievadiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="b8c58-114">In the **Description** field, enter a value.</span></span>
+5. <span data-ttu-id="b8c58-115">Laukā **Galvenais konts** norādiet kāda konta numuru, kuram nav dimensiju.</span><span class="sxs-lookup"><span data-stu-id="b8c58-115">In the **Main account** field, specify an account number that doesn't have dimensions.</span></span> <span data-ttu-id="b8c58-116">Dimensijas jūs ievadīsiet vēlākā šīs tēmas posmā.</span><span class="sxs-lookup"><span data-stu-id="b8c58-116">You will enter dimensions later in this topic.</span></span>
 
+    <span data-ttu-id="b8c58-117">Lai atrastu kontu, varat arī ievadīt vienu vai vairākas rakstzīmes galvenajam kontam un lietot uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="b8c58-117">You can also enter one or more characters for the main account, and use the lookup to find the account.</span></span>
+
+6. <span data-ttu-id="b8c58-118">Atlasiet kopsavilkuma cilni **Rindas informācija**, lai galvenajam kontam pievienotu dimensijas.</span><span class="sxs-lookup"><span data-stu-id="b8c58-118">Select the **Line details** FastTab to add dimensions to the main account.</span></span>
+7. <span data-ttu-id="b8c58-119">Atlasiet cilni **Finanšu dimensiju rinda**.</span><span class="sxs-lookup"><span data-stu-id="b8c58-119">Select the **Financial dimensions line** tab.</span></span>
+
+    * <span data-ttu-id="b8c58-120">Šīs dimensijas ir tikai atlasītajai rindai.</span><span class="sxs-lookup"><span data-stu-id="b8c58-120">The dimensions are for the selected line only.</span></span>
+    * <span data-ttu-id="b8c58-121">PVN grupu aizpilda no debitora datiem.</span><span class="sxs-lookup"><span data-stu-id="b8c58-121">The sales tax group is filled in from the customer.</span></span> <span data-ttu-id="b8c58-122">Ja debitoram nav PVN grupas, tad tiek izmantota PVN grupa no galvenā konta.</span><span class="sxs-lookup"><span data-stu-id="b8c58-122">If the customer doesn't have a sales tax group, the sales tax group from the main account is used.</span></span>
+    * <span data-ttu-id="b8c58-123">Krājumu PVN grupa tiek aizpildīta no galvenā konta datiem.</span><span class="sxs-lookup"><span data-stu-id="b8c58-123">The items sales tax group is filled in from the main account.</span></span> <span data-ttu-id="b8c58-124">Ja galvenajam kontam nav krājuma PVN grupas, tad tiek izmantota Virsgrāmatas PVN parametros norādītā krājuma PVN grupa.</span><span class="sxs-lookup"><span data-stu-id="b8c58-124">If the main account doesn't have an item sales tax group, the item sales tax group that is specified in the sales tax parameters in General ledger is used.</span></span>
+
+8. <span data-ttu-id="b8c58-125">Pēc izvēles: laukā **Daudzums** ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="b8c58-125">Optional: In the **Quantity** field, enter a number.</span></span>
+9. <span data-ttu-id="b8c58-126">Pēc izvēles: laukā **Vienības cena** ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="b8c58-126">Optional: In the **Unit price** field, enter a number.</span></span>
+
+    <span data-ttu-id="b8c58-127">Šī summa tiek aprēķināta kā daudzums reiz vienības cena.</span><span class="sxs-lookup"><span data-stu-id="b8c58-127">The amount is calculated as the quantity times the unit price.</span></span> <span data-ttu-id="b8c58-128">Taču varat ignorēt šo aprēķinu, ievadot kādu summu.</span><span class="sxs-lookup"><span data-stu-id="b8c58-128">However, you can override that calculation by entering an amount.</span></span>
+
+10. <span data-ttu-id="b8c58-129">Atlasiet **PVN**, lai skatītu rēķinam aprēķināto PVN.</span><span class="sxs-lookup"><span data-stu-id="b8c58-129">Select **Sales tax** to view the sales tax that is calculated for the invoice.</span></span>
+
+    <span data-ttu-id="b8c58-130">Varat skatīt PVN summas šajā lapā, vai šīs summas varat ignorēt cilnē **Korekcija**.</span><span class="sxs-lookup"><span data-stu-id="b8c58-130">You can view the sales tax amounts on this page, or you can override the amounts on the **Adjustment** tab.</span></span>
+
+11. <span data-ttu-id="b8c58-131">Atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="b8c58-131">Select **OK**.</span></span>
+12. <span data-ttu-id="b8c58-132">Atlasiet **Maksas**, lai savam rēķinam pievienotu kādu maksu. </span><span class="sxs-lookup"><span data-stu-id="b8c58-132">Select **Charges** to add a charge to the invoice.</span></span>
+13. <span data-ttu-id="b8c58-133">Laikā **Maksu kods** ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="b8c58-133">In the **Charges code** field, enter a value.</span></span>
+14. <span data-ttu-id="b8c58-134">Laukā **Maksu vērtība** ievadiet kādu skaitli.</span><span class="sxs-lookup"><span data-stu-id="b8c58-134">In the **Charges value** field, enter a number.</span></span>
+15. <span data-ttu-id="b8c58-135">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="b8c58-135">Close the page.</span></span>
+16. <span data-ttu-id="b8c58-136">Atlasiet **Kopsummas**, lai skatītu kopsavilkumu par rēķina detalizēto informāciju un kopsummām.</span><span class="sxs-lookup"><span data-stu-id="b8c58-136">Select **Totals** to view a summary of the invoice details and totals.</span></span>
+17. <span data-ttu-id="b8c58-137">Atlasiet **Aizvērt**.</span><span class="sxs-lookup"><span data-stu-id="b8c58-137">Select **Close**.</span></span>
+18. <span data-ttu-id="b8c58-138">Atlasiet **Grāmatot**, lai rēķinu grāmatotu.</span><span class="sxs-lookup"><span data-stu-id="b8c58-138">Select **Post** to post the invoice.</span></span> <span data-ttu-id="b8c58-139">Joprojām būs iespēja atcelt pirms faktiskās iegrāmatošanas.</span><span class="sxs-lookup"><span data-stu-id="b8c58-139">You will still have an opportunity to cancel before you actually post.</span></span>
+
+    * <span data-ttu-id="b8c58-140">Rēķinu drukāšanas laiku var mainīt.</span><span class="sxs-lookup"><span data-stu-id="b8c58-140">You can change the timing of invoice printing.</span></span> <span data-ttu-id="b8c58-141">Atlasiet **Pašreizējais**, lai katru rēķinu drukātu, līdzko tas ir atjaunināts.</span><span class="sxs-lookup"><span data-stu-id="b8c58-141">Select **Current** to print each invoice as it's updated.</span></span> <span data-ttu-id="b8c58-142">Atlasiet **Pēc**, lai drukāšanu veiktu pēc tam, kad ir atjaunināti visi rēķini.</span><span class="sxs-lookup"><span data-stu-id="b8c58-142">Select **After** to print after all invoices have been updated.</span></span>
+    * <span data-ttu-id="b8c58-143">Lai mainītu to, kā debitora kredīta limits tiek pārbaudīts pirms rēķina grāmatošanas, mainiet vērtību laukā **Kredīta limita veids**.</span><span class="sxs-lookup"><span data-stu-id="b8c58-143">To change how the customer's credit limit is verified before the invoice is posted, change the value in the **Credit limit type** field.</span></span>
+    * <span data-ttu-id="b8c58-144">Lai izdrukātu rēķinu, iestatiet šo opciju pozīcijā **Jā**.</span><span class="sxs-lookup"><span data-stu-id="b8c58-144">To print the invoice, set the option to **Yes**.</span></span>
+    * <span data-ttu-id="b8c58-145">Lai grāmatotu rēķinu, iestatiet šo opciju pozīcijā **Jā**.</span><span class="sxs-lookup"><span data-stu-id="b8c58-145">To post the invoice, set the option to **Yes**.</span></span> <span data-ttu-id="b8c58-146">Rēķinu varat izdrukāt arī bez tā grāmatošanas.</span><span class="sxs-lookup"><span data-stu-id="b8c58-146">You can print the invoice without posting it.</span></span>
+
+19. <span data-ttu-id="b8c58-147">Atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="b8c58-147">Select **OK**.</span></span>
+
+## <a name="copy-lines"></a><span data-ttu-id="b8c58-148">Kopēt rindas</span><span class="sxs-lookup"><span data-stu-id="b8c58-148">Copy lines</span></span>
+<span data-ttu-id="b8c58-149">Lai kopētu rindas brīva teksta rēķinā, atlasiet vienu vai vairākas rindas un pēc tam atlasiet **Kopēt atlasītās rindas**.</span><span class="sxs-lookup"><span data-stu-id="b8c58-149">To copy lines on a free text invoice, select one or more lines, and then select **Copy selected lines**.</span></span> <span data-ttu-id="b8c58-150">Varat norādīt veicamo kopiju skaitu un varat arī kopēt piezīmes un pielikumus.</span><span class="sxs-lookup"><span data-stu-id="b8c58-150">You can specify the number of copies to make, and you can also copy notes and attachments.</span></span> <span data-ttu-id="b8c58-151">Varat vai nu kopēt sadales, vai atļaut tās no jauna izveidot pēc grāmatošanas.</span><span class="sxs-lookup"><span data-stu-id="b8c58-151">You can either copy the distributions or let them be re-created when you post.</span></span>
+
+<span data-ttu-id="b8c58-152">Pēc rindu kopēšanas informāciju var mainīt pēc nepieciešamības.</span><span class="sxs-lookup"><span data-stu-id="b8c58-152">After you copy lines, you can edit the information as you require.</span></span>
+
+## <a name="create-a-free-text-invoice-from-a-template"></a><span data-ttu-id="b8c58-153">Brīva teksta rēķina izveide no veidnes</span><span class="sxs-lookup"><span data-stu-id="b8c58-153">Create a free text invoice from a template</span></span>
+<span data-ttu-id="b8c58-154">Brīva teksta rēķina izveidei varat izmantot veidni.</span><span class="sxs-lookup"><span data-stu-id="b8c58-154">You can create a free text invoice from a template.</span></span> <span data-ttu-id="b8c58-155">Cilnes **Rēķins** veidnē atlasot vienumu **Jauns no veidnes**, varat atlasīt veidnes nosaukumu un debitora kontu, ko izmantot jaunā brīva teksta rēķina izveidē.</span><span class="sxs-lookup"><span data-stu-id="b8c58-155">When you select **New from template** on the **Invoice** tab, you can select a template name and the customer account for the new free text invoice.</span></span> <span data-ttu-id="b8c58-156">Noklusējuma vērtības, piemēram, maksāšanas termiņus un maksāšanas metodi, var automātiski aizpildīt no debitora datiem, vai arī varat izmantot vērtības, kas tika saglabātas veidnē.</span><span class="sxs-lookup"><span data-stu-id="b8c58-156">Default values, such as the terms of payment and method of payment, can be automatically filled in from the customer, or you can use the values that were saved in the template.</span></span>
+
+<span data-ttu-id="b8c58-157">Jauns brīva teksta rēķins ir izveidots, un tā vērtības var rediģēt pēc nepieciešamības.</span><span class="sxs-lookup"><span data-stu-id="b8c58-157">A new free text invoice is created, and you can edit the values as you require.</span></span>
 
