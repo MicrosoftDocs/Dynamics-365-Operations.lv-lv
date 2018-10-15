@@ -1,28 +1,29 @@
 --- 
-title: "ER konfigurāciju noformēšana pārskatu ģenerēšanai OpenXML formātā"
+title: "ER Izveidot konfigurāciju pārskatu ģenerēšanai formātā OPENXML (2016. gada maijs)"
 description: "Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektronisko atskaišu izstrādātājs var izveidot jaunu elektronisko atskaišu veidošanas (Electronic Reporting — ER) konfigurāciju, kas satur veidni elektronisko dokumentu ģenerēšanai OPENXML formātā."
 author: NickSelin
 manager: AnnBe
-ms.date: 01/16/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERDataSourceAddDropDialog, ERModelGroupByFunctionEditor, VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: b42cfe36c57a9526e585bbad0fcd31ff60b90397
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 3e6b6b16f202af051ccff02051eb438ea49ff6da
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="design-er-configurations-to-generate-reports-in-openxml-format"></a>ER konfigurāciju noformēšana pārskatu ģenerēšanai OpenXML formātā
+# <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER Izveidot konfigurāciju pārskatu ģenerēšanai formātā OPENXML (2016. gada maijs)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -34,7 +35,8 @@ Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elek
 
 
 
-Lai veiktu šīs darbības, vispirms veiciet "Konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu" procedūras darbības. Ir nepieciešams arī lejupielādēt un saglabāt Microsoft Excel failu [Maksājumu pārskata veidne](https://go.microsoft.com/fwlink/?linkid=862266). 
+Lai veiktu šīs darbības, vispirms veiciet "Konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu" procedūras darbības. Jums ir nepieciešams arī Excel fails, kas tiks importēts, veidojot veidni. Lai piekļūtu šim failam, izmantojiet opciju [Maksājumu pārskata veidne](https://go.microsoft.com/fwlink/?linkid=862266).
+
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Augšupielādēt maksājumu datu modeļa konfigurāciju
 1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.

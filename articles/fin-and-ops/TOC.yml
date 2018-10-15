@@ -12,7 +12,7 @@
               href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/fin-and-ops/toc.json
             - name: Mākoņa un lokālās versijas līdzekļu salīdzinājums
               href: get-started/cloud-prem-comparison.md
-            - name: Izvietošanas iespējas
+            - name: Izvietošanas opcijas
               href: ../dev-itpro/deployment/choose-deployment-type.md?toc=/fin-and-ops/toc.json
               items:
                 - name: Mākoņa izvietošana
@@ -38,12 +38,18 @@
               href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
             - name: Programmatūras dzīves cikla politika un lokāli laidieni
               href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json
+            - name: Galvenā atbalsta beigas versijai Microsoft Dynamics AX 2009 un 2012
+              href: get-started/mainstream-support-ax-2009-2012.md
             - name: Noņemtie vai novecojušie līdzekļi
               href: ../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json
             - name: "AX\_2012 līdzekļi, kas tika atlikti"
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
-            - name: 'Līdzekļi, kas nav ieviesti lokālos izvietojumos'
+            - name: 'Līdzekļi, kas nav ieviesti lokālajos izvietojumos'
               href: get-started/features-not-implemented-on-prem.md
+            - name: "Finance and Operations versija\_8.1 (2018.\_gada oktobris)"
+              href: get-started/whats-new-changed-8-1-October-2018.md
+            - name: "Atjauninājums Platform update\_20 (2018.\_gada septembris)"
+              href: get-started/whats-new-platform-update-20.md
             - name: "Finance and Operations versija\_8.0 (2018.\_gada aprīlis)"
               href: get-started/whats-new-changed-8-0-April-2018.md
             - name: "Atjauninājums Platform update\_15 (2018.\_gada marts)"
@@ -454,11 +460,15 @@
                   href: ../financials/accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
             - name: Uzskaites sadales un apakšgrāmatas žurnālu ieraksti kreditoru rēķiniem
               href: ../financials/accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
-            - name: Rēķinu saskaņošana un starpuzņēmumu pirkšanas pasūtījumi
+            - name: Rēķinu salīdzināšana un starpuzņēmumu pirkšanas pasūtījumi
               href: ../financials/accounts-payable/invoice-matching-intercompany-purchase-orders.md
+            - name: Kreditoru rēķinu politiku iestatīšana
+              href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
+            - name: Kreditora rēķina reģistrēšana un atbilstības noteikšana pret saņemto daudzumu
+              href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: Pozitīvā maksājuma apskats
               href: ../financials/accounts-payable/positive-pay-overview.md
-            - name: Iestatīt un ģenerēt pozitīvo maksājumu failus
+            - name: Pozitīvo maksājumu failu iestatīšana un ģenerēšana
               href: ../financials/accounts-payable/set-up-generate-positive-pay-files.md
             - name: Noklusējuma korespondējošie konti kreditoru rēķinu žurnāliem un rēķinu apstiprinājumu žurnāliem
               href: ../financials/accounts-payable/default-offset-accounts-vendor-invoice-journals.md
@@ -562,17 +572,13 @@
               href: ../financials/accounts-receivable/tasks/create-sales-order-invoices.md
             - name: Procentu koda procentu likmes iestatīšana
               href: ../financials/accounts-receivable/set-up-interest-rates-interest-code.md
-            - name: 'Procentu maksu atcelšana, atjaunošana vai anulēšana'
+            - name: 'Procentu maksu atcelšana, atjaunošana vai atgriešana'
               href: ../financials/accounts-receivable/waive-reinstate-reverse-interest-fees.md
             - name: Procentu apstrāde
               href: ../financials/accounts-receivable/tasks/process-interest.md
-            - name: Kreditoru rēķinu ierobežojumu iestatīšana
-              href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
-            - name: Kreditora rēķina reģistrēšana un atbilstības pārbaude pret saņemto daudzumu
-              href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: Debitora rēķina izveide
               href: ../financials/accounts-receivable/configure-customer-invoices.md
-            - name: Debitora maksājumu deponējums
+            - name: Debitora maksājumu deponēšana
               href: ../financials/accounts-receivable/tasks/deposit-customer-payments.md
             - name: Debitoru maksājumu nosacījumu izveide
               href: ../financials/general-ledger/tasks/establish-customer-payment-terms.md
@@ -594,8 +600,10 @@
               href: ../financials/accounts-receivable/tasks/create-interest-code-range.md
             - name: Debitora norakstīšanas žurnāla izveide
               href: ../financials/accounts-receivable/tasks/create-write-off-journal-customer.md
-            - name: Debitoru vecumstruktūras informācijas iestatīšana un ģenerēšana
+            - name: Debitoru parādu vecumstruktūras informācijas iestatīšana un ģenerēšana
               href: ../financials/accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: 'Debitoru kopēšana, izmantojot koplietotas numuru sērijas'
+              href: ../financials/accounts-receivable/copy-customer.md
             - name: Debitora darbplūsma
               href: ../financials/accounts-receivable/customer-workflow.md
             - name: Maksājumi un norēķini
@@ -1543,9 +1551,7 @@
               href: ../financials/localizations/emea-fiscal-service-integration.md
             - name: Pamatlīdzekļu norakstīšana Igaunijai un Lietuvai
               href: ../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md
-            - name: Ārvalstu valūtas pārvērtēšana
-              href: ../financials/localizations/emea-foreign-currency-revaluation.md
-            - name: Pārsūtīšanas dokumentu ģenerēšana iekšējo krājumu pārsūtīšanai
+            - name: Pārsūtīšanas dokumenta ģenerēšana iekšējo krājumu pārsūtīšanai
               href: ../financials/localizations/tasks/transfer-document-internal-inventory-transfer.md
             - name: ES pārdošanas saraksta pārskata ģenerēšana
               href: ../financials/localizations/tasks/eur-00011-eu-sales-list-report.md
@@ -2104,16 +2110,54 @@
               href: ../financials/localizations/emea-pol-fixed-assets-depreciation.md
             - name: Pamatlīdzekļu norakstīšanas funkcionalitātes paplašinājums
               href: ../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md
+            - name: Ārvalstu valūtas pārvērtēšana
+              href: ../financials/localizations/emea-foreign-currency-revaluation.md
             - name: Atgriežams iepakojums
               href: ../financials/localizations/emea-pol-returnable-packages.md
             - name: PVN pārskati
               href: ../financials/localizations/emea-pol-sales-tax-reports.md
-            - name: Standarta audita faili
+            - name: Standarta audita fails
               href: ../financials/localizations/emea-pol-standard-audit-file-saf.md
             - name: Nodokļu procenti un brīvā procentu likme
               href: ../financials/localizations/emea-pol-interest-calculation.md
             - name: Apgrozījuma bilances pārskats
               href: ../financials/localizations/emea-pol-turnover-balances-statement.md
+        - name: Krievija
+          href: ../financials/localizations/russia.md
+          items:
+            - name: Avansa turētāji
+              href: ../financials/localizations/rus-advance-holders.md
+              items:
+                - name: Avansa turētāja izveide
+                  href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
+                - name: Ikdienas operācijas avansa turētājiem
+                  href: ../financials/localizations/rus-advance-holders-daily-operations.md
+            - name: Pamatlīdzekļi
+              items:
+                - name: Pamatlīdzekļu iegūšana un to nodošana ekspluatācijā
+                  href: ../financials/localizations/rus-fixed-asset-acquisition.md
+                - name: Budžeta žurnālu izveide un grāmatošana pamatlīdzekļu iegūšanai
+                  href: ../financials/localizations/rus-post-budget-fixed-asset-acquisition.md
+                - name: Pamatlīdzekļu uzskaite
+                  href: ../financials/localizations/rus-fixed-assets-counting.md
+                - name: Pamatlīdzekļu valūtas pārvērtēšana
+                  href: ../financials/localizations/rus-fixed-asset-currency-revaluation.md
+                - name: Pamatlīdzekļu daļēja izjaukšana (likvidācija)
+                  href: ../financials/localizations/rus-fixed-assets-disassembly.md
+            - name: Maksājumu uzdevumu iestatīšana un apstrādāšana
+              href: ../financials/localizations/rus-payment-order-settings-processing.md
+            - name: Valūtas maiņas kursa iestatīšana valūtas transakcijām
+              href: ../financials/localizations/rus-exchange-difference.md
+            - name: Virsgrāmatas transakciju priekšskatīšana
+              href: ../financials/localizations/rus-ledger-transactions-preview.md
+            - name: Amatpersonu iestatīšana
+              href: ../financials/localizations/rus-officials.md
+            - name: Bankas kontu iestatīšana
+              href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
+            - name: Pievienotās vērtības nodoklis (PVN) nodokļu aģentiem
+              href: ../financials/localizations/rus-tax-agent.md
+            - name: Dimensiju kontroles iestatīšana norēķiniem
+              href: ../financials/localizations/rus-transactions-settlement-date.md
         - name: Saūda Arābija
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2133,6 +2177,8 @@
               href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
             - name: Vekseļu opcijas
               href: ../financials/localizations/emea-esp-bill-of-exchange-options.md
+            - name: Izpildes datumu aprēķināšana un ziņošana vidējam maksājumu periodam
+              href: ../financials/localizations/emea-esp-invoice-due-dates.md
             - name: Nosacījuma PVN
               href: ../financials/localizations/emea-esp-conditional-sales-tax.md
             - name: Kredīta rēķinu izrakstīšana
@@ -2197,7 +2243,7 @@
               href: ../financials/localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
             - name: PVN grupu iestatīšana apgrieztajam PVN
               href: ../financials/localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-        - name: ASV
+        - name: Amerikas Savienotās Valstis
           href: ../financials/localizations/united-states.md
           items:
             - name: Gada beigu 1099 pārskatu veidošana Amerikas Savienotajām Valstīm
@@ -2281,7 +2327,7 @@
               href: ../talent/create-variable-compensation-plans.md
             - name: Atlīdzības procesu definēšana un rezultātu aprēķināšana
               href: hr/tasks/define-compensation-process-calculate-results.md
-            - name: Procesa kompensācija
+            - name: Kompensācijas apstrāde
               href: ../talent/process-compensation.md
             - name: Atlīdzību režģu iestatīšana
               href: hr/tasks/set-up-compensation-grids.md
@@ -2299,7 +2345,7 @@
           items:
             - name: Veiktspējas pārvaldības apskats
               href: ../talent/performance-management-overview.md
-            - name: Darbaspēka prasmes padarīt atbilstošas biznesa vajadzībām
+            - name: Darbaspēka prasmju saskaņošana ar biznesa vajadzībām
               href: ../talent/skills.md
             - name: Iestatīt apmācību kursus
               href: ../talent/courses.md
@@ -2857,7 +2903,7 @@
               href: ../supply-chain/master-planning/tasks/create-baseline-forecast.md
             - name: Pieprasījuma prognozes manuāla modificēšana
               href: ../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md
-    - name: Mobilā programma Dynamics 365 for Unified Operations
+    - name: Programma Dynamics 365 for Unified Operations Mobile
       href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
       items:
         - name: Pieejamās mobilās darbvietas

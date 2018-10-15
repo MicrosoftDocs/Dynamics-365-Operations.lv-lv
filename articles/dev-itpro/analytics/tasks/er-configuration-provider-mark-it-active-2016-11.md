@@ -3,23 +3,24 @@ title: "Konfigurāciju nodrošinātāju izveide un atzīmēšana aktīvā status
 description: "Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var izveidot konfigurācijas nodrošinātāju Elektroniskajos pārskatos (ER)."
 author: NickSelin
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERVendorPart, ERVendorTable
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 37957f224cb57fd9f6c5014740bcea124a99a03a
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 13a27c2fec2a2b226e9ae8d5b8f9a61e8b79ceb0
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-configuration-providers-and-mark-them-as-active"></a>Konfigurāciju nodrošinātāju izveide un atzīmēšana aktīvā statusā
@@ -33,10 +34,11 @@ Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elek
 1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.
 2. Noklikšķiniet uz Konfigurācijas nodrošinātāji.
 3. Noklikšķiniet uz Jauns.
-    * Nodrošinātāja ierakstam ir unikāls nosaukums un URL. Pārskatiet šīs lapas saturu un izlaidiet šo procedūru, ja “Litware, Inc.” (`http://www.litware.com`) ieraksts jau pastāv.  
+    * Nodrošinātāja ierakstam ir unikāls nosaukums un URL. Pārskatiet šīs lapas saturu un izlaidiet šo procedūru, ja “Litware, Inc.” (http://www.litware.com) ieraksts jau pastāv.  
 4. Laukā Nosaukums ierakstiet Litware, Inc.
     * Litware, Inc.  
-5. Laukā Interneta adrese ierakstiet `http://www.litware.com`.
+5. Laukā Interneta adrese ierakstiet “http://www.litware.com”.
+    * http://www.litware.com  
 6. Noklikšķiniet uz Saglabāt.
 7. Aizvērt lapu.
 

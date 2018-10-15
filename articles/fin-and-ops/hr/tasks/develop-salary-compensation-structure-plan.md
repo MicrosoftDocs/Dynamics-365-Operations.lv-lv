@@ -1,32 +1,33 @@
 --- 
-title: "Algas/atlīdzības struktūru un plānu izstrāde"
-description: "Šajā uzdevuma ceļvedī ir aprakstīts, kā izveidot fiksētas atlīdzības plānu un iespējot darbinieku reģistrāciju šim plānam, izmantojot piemērotības kārtulas."
+title: "Algas/atlīdzības organizācijas un plāna izstrāde"
+description: "Šajā uzdevuma ceļvedī ir aprakstīts fiksētas atlīdzības plāna izveidošanas process un procedūra, kā darbiniekiem ļaut reģistrēties šādā plānā, izmantojot piemērotības kārtulas."
 author: kherr75
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 0514cd485c8fa0026390a22be350ff23933afd7b
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 28d044cedbcc9f483a4deb7739aef0f8e3abf9ec
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="develop-salarycompensation-structures-and-plans"></a>Algas/atlīdzības struktūru un plānu izstrāde
+# <a name="develop-salarycompensation-structure-and-plan"></a>Algas/atlīdzības organizācijas un plāna izstrāde
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā uzdevuma ceļvedī ir aprakstīts, kā izveidot fiksētas atlīdzības plānu un iespējot darbinieku reģistrāciju šim plānam, izmantojot piemērotības kārtulas. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USMF, un uzdevums ir paredzēts lietotājiem ar lomu Atlīdzību un atvieglojumu vadītājs.
+Šajā uzdevuma ceļvedī ir aprakstīts fiksētas atlīdzības plāna izveidošanas process un procedūra, kā darbiniekiem ļaut reģistrēties šādā plānā, izmantojot piemērotības kārtulas. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USMF, un uzdevums ir paredzēts lietotājiem ar lomu Atlīdzību un atvieglojumu vadītājs.
 
 
 ## <a name="create-fixed-compensation-plan"></a>Izveidot fiksētas atlīdzības plānu

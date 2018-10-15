@@ -3,7 +3,7 @@ title: "Finanšu pārskati"
 description: "Šajā tēmā ir aprakstīts, kur programmā Microsoft Dynamics 365 for Finance and Operations var piekļūt finanšu pārskatiem un kā lietot finanšu pārskatu iespējas. Tajā ir ietverts nodrošināto noklusējuma finanšu pārskatu apraksts."
 author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/26/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: 613fcf941576b9fb05f5c059699e4cc9c4cabe3e
+ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
+ms.openlocfilehash: c6d504a7b0640f45de4aa9f8fb60d2b1d37818bb
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/27/2018
 
 ---
 
@@ -115,11 +115,13 @@ Finanšu atskaišu veidošana nodrošina 22 noklusējuma finanšu atskaites. Vie
 Kad noklikšķināt uz izvēlnes **Finanšu atskaišu veidošana**, tiek parādīts saraksts ar uzņēmuma noklusējuma finanšu atskaitēm. Pēc tam varat atvērt vai modificēt kādu atskaiti. Lai atvērtu kādu no noklusējuma atskaitēm, atlasiet atskaites nosaukumu. Kad atskaiti atverat pirmo reizi, tā tiek automātiski tiek ģenerēta par iepriekšējo mēnesi. Piemēram, ja atskaiti pirmo reizi atverat 2016. gada augustā, šī atskaite tiek ģenerēta par 2016. gada 31. jūliju. Pēc atskaites atvēršanas varat sākt to pētīt, detalizējot konkrētus datus un mainot atskaites opcijas.
 
 ## <a name="creating-and-modifying-financial-reports"></a>Finanšu atskaišu veidošana un modificēšana
-No finanšu atskaišu saraksta varat izveidot jaunu atskaiti vai modificēt jau esošu atskaiti. Ja jums ir atbilstošās atļaujas, varat izveidot jaunu finanšu pārskatu, darbību rūtī noklikšķinot uz **Jauns**. Ierīcē tiek lejupielādēta pārskatu veidošanas programma. Kad ir palaista pārskatu veidošanas programma, varat izveidot jaunu pārskatu. Kad esat saglabājis jauno atskaiti, tā kļūst redzama finanšu atskaišu sarakstā. Sarakstā tiek rādīti tikai pārskati, kas tika izveidoti tam uzņēmumam, kuru lietojat programmatūrā Finance and Operations. Papildinformāciju par finanšu pārskatu izveides un modificēšanas procesu programmatūrā Finance and Operations skatiet šajos Dynamics finanšu pārskatu [emuāra ierakstos](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/tag/learning/). **Piezīme.** Datorā, kurā lejupielādējat pārskatu veidošanas klientu, ir jābūt instalētai Microsoft .NET Framework versijai 4.6.2. Šo Microsoft .NET Framework versiju var lejupielādēt un instalēt [šeit](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Ja lietojat pārlūkprogrammu Chrome, lai varētu lejupielādēt pārskatu veidošanas klientu, ir jāinstalē paplašinājums ClickOnce. Ja lietojat inkognito režīmu, pārliecinieties, ka paplašinājums ClickOnce ir iespējots inkognito režīmā. Varat arī modificēt atskaiti, kas ir redzama finanšu atskaišu sarakstā. Kad ir atlasīts apgabals ap atskaites nosaukumu, darbību rūtī noklikšķiniet uz **Rediģēt**. Tiek palaista atskaišu veidotāja programma.
+No finanšu atskaišu saraksta varat izveidot jaunu atskaiti vai modificēt jau esošu atskaiti. Ja jums ir atbilstošās atļaujas, varat izveidot jaunu finanšu pārskatu, darbību rūtī noklikšķinot uz **Jauns**. Ierīcē tiek lejupielādēta pārskatu veidošanas programma. Kad ir palaista pārskatu veidošanas programma, varat izveidot jaunu pārskatu. Kad esat saglabājis jauno atskaiti, tā kļūst redzama finanšu atskaišu sarakstā. Sarakstā tiek rādīti tikai pārskati, kas tika izveidoti tam uzņēmumam, kuru lietojat programmatūrā Finance and Operations. 
+
+> [!NOTE] 
+> Datorā, kurā tiek lejupielādēts pārskatu veidošanas klients, ir jābūt instalētai Microsoft .NET Framework versijai 4.6.2. Šo Microsoft .NET Framework versiju var lejupielādēt un instalēt šeit: [Microsoft lejupielādes centrs](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Ja lietojat pārlūkprogrammu Chrome, lai varētu lejupielādēt pārskatu veidošanas klientu, ir jāinstalē paplašinājums ClickOnce. Ja lietojat inkognito režīmu, pārliecinieties, ka paplašinājums ClickOnce ir iespējots inkognito režīmā. Varat arī modificēt atskaiti, kas ir redzama finanšu atskaišu sarakstā. Kad ir atlasīts apgabals ap atskaites nosaukumu, darbību rūtī noklikšķiniet uz **Rediģēt**. Tiek palaista atskaišu veidotāja programma.
 
 ## <a name="additional-resources"></a>Papildu resursi
 - [Skatīt finanšu pārskatus](view-financial-reports.md)
-- [Dynamics finanšu pārskatu veidošanas emuārs](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 

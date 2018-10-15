@@ -1,29 +1,30 @@
----
-title: "Pārvaldības priekšnosacījumu iestatīšana"
+--- 
+title: "Iestatīt priekšnosacījumus neatbilstības pārvaldībai"
 description: "Izmantojiet šo procedūru, lai iespējotu neatbilstības pārvaldības procesus."
 author: perlynne
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventParameters, InventTestReportSetup, SysUserManagement, SysUserSetup, InventTestDiagnosticType, InventTestMiscCharges, InventTestOperation, InventProblemType, InventProblemTypeSetup, InventQuarantineZone
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 4bb4af7cb7aff101a8b9e6162823515f63b12886
-ms.openlocfilehash: 9b5b05a3c00f093066a2714964bb99146427c3bc
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 0a4062acc91e024e3a0a41c0b3cb35ff5ffe2a4a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="set-up-prerequisites-for-management"></a>Pārvaldības priekšnosacījumu iestatīšana
+# <a name="set-up-prerequisites-for-nonconformance-management"></a>Iestatīt priekšnosacījumus neatbilstības pārvaldībai
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -38,7 +39,7 @@ Izmantojiet šo procedūru, lai iespējotu neatbilstības pārvaldības procesus
 4. Ievadiet vērtību laukā Stundas likme.
     * Laukā Stundas likme ievadiet darbaspēka stundas likmi vietējā valūtā. Stundas likme tiek lietota, lai aprēķinātu izmaksas par operācijām, kas saistītas ar neatbilstību. Stundas nomināls un aprēķinātās izmaksas sniedz atsauces informāciju par neatbilstību un tās nemijiedarbojas ar citām funkcijām.  
 5. Noklikšķiniet uz Pārskatu iestatījums.
-    * Šajā lapā varat definēt kvalitātes pārskata piezīmju veidus, kas tiks izmantoti dažāda veida kvalitātes pārvaldības pārskatos.  
+    * Šajā lapā iespējams definēt kvalitātes pārskata piezīmju tipus, kas tiks izmantoti dažāda veida kvalitātes pārvaldības pārskatos.  
 6. Aizvērt lapu.
 7. Aizvērt lapu.
 
@@ -101,4 +102,5 @@ Izmantojiet šo procedūru, lai iespējotu neatbilstības pārvaldības procesus
 3. Ierakstiet vērtību laukā Karantīnas zona.
 4. Apraksta laukā ierakstiet vērtību.
 5. Aizvērt lapu.
+
 

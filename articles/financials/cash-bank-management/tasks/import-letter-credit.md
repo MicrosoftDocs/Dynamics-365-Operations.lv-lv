@@ -1,28 +1,29 @@
 --- 
-title: "Akreditīva importēšana"
+title: "Importa akreditatīvs"
 description: "Šajā procedūrā ir aprakstīts kredītvēstules importēšanas process."
 author: kweekley
 manager: AnnBe
-ms.date: 02/26/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendTable, VendBankAccounts, PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, BankLCImport,  PurchEditLines, VendEditInvoice, SrsReportViewerForm, LedgerJournalTable, LedgerJournalTransVendPaym, VendOpenTrans, SysQueryForm, BankAccountTableLookUp
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 02be2627186a149a05eaccfa3e5906a9fe1d74dd
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: c1768494182a79d7a33044498c1e768e61d937d1
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="import-a-letter-of-credit"></a>Akreditīva importēšana
+# <a name="import-letter-of-credit"></a>Importa akreditatīvs
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -110,7 +111,8 @@ Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati.
 1. Dodieties uz Kases un bankas vadība > Akreditatīvi > Importa akreditatīvs un importa iekasēšana.
 2. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
 3. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-    * Pārbaudiet darbības Kredītvēstules importēšana statusu.  
+    * Pārbaudiet darbības Kredītvēstules importēšana statusu.    
+    *   
 4. Aizvērt lapu.
 5. Aizvērt lapu.
 

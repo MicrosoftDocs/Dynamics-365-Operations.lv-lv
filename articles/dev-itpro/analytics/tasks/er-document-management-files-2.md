@@ -1,28 +1,29 @@
 --- 
-title: "Datu modeļu paplašināšana, lai dokumentu pārvaldības failus lietotu ER izvadē"
+title: "ER dokumentu pārvaldības faili, ko izmanto formāta izvades datos (2. daļa. Datu modeļa paplašināšana)"
 description: "Tālāk aprakstītie soļi izskaidro, kā lietotājs, kam piešķirta loma Sistēmas administrators vai Elektroniskā pārskata izstrādātājs, var konfigurēt elektroniskā pārskata (ER) formātu, lai izmantotu dokumentu pārvaldības failus (pielikumi) ER izvadē."
 author: NickSelin
 manager: AnnBe
-ms.date: 10/28/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 8363dd2af728577175a620d7b645d90cea84803a
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: cb4c58dc86a159a70634c05408a8db471ebcae4c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="extend-data-models-to-use-document-management-files-in-er-output"></a>Datu modeļu paplašināšana, lai dokumentu pārvaldības failus lietotu ER izvadē
+# <a name="er-use-document-management-files-in-format-outputs-part-2-extend-data-model"></a>ER izmantot dokumentu pārvaldības failus formātu izvades datos (2. daļa: Paplašināt datu modeli)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -57,7 +58,7 @@ Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti uzdevu
 17. Laukā Vienuma tips atlasiet "String".
 18. Noklikšķiniet uz Pievienot.
 
-## <a name="map-new-data-model-elements-to-dynamics-365-for-finance-and-operations-data-sources"></a>Jaunu datu modeļa elementu kartēšana uz Dynamics 365 for Finance and Operations datu avotiem
+## <a name="map-new-data-model-elements-to-dynamics-365-for-finance-and-operations-enterprise-edition-data-sources"></a>Jaunu datu modeļa elementu kartēšana uz Dynamics 365 finanšu un operācijas, Enterprise izdevuma datu avotiem
 1. Noklikšķiniet uz Kartēšanas modelis datu avotam.
 2. Izmantojiet ātrā filtra funkciju, lai filtrētu lauku Definīcija ar vērtību 'InvoiceCustomer'.
     * InvoiceCustomer  
