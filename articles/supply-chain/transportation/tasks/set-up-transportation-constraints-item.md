@@ -3,44 +3,45 @@ title: "Transportēšanas ierobežojumu iestatīšana krājumam"
 description: "Šī procedūra izveidos transportēšanas ierobežojumu, lai neļautu atlasītajam krājumam tikt transportētam caur atlasīto centrmezglu."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/07/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: TMSConstraint, InventLocationIdLookup, InventItemIdLookupSimple
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: c7a160ca2ba3de16fe2aefc736f6f1e0bbbd5af0
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 900ea1476c95d295a151125afe46aebd9642630e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="set-up-transportation-constraints-for-an-item"></a><span data-ttu-id="c9b29-103">Transportēšanas ierobežojumu iestatīšana krājumam</span><span class="sxs-lookup"><span data-stu-id="c9b29-103">Set up transportation constraints for an item</span></span>
+# <a name="set-up-transportation-constraints-for-an-item"></a><span data-ttu-id="ae86e-103">Transportēšanas ierobežojumu iestatīšana krājumam</span><span class="sxs-lookup"><span data-stu-id="ae86e-103">Set up transportation constraints for an item</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="c9b29-104">Šī procedūra izveidos transportēšanas ierobežojumu, lai neļautu atlasītajam krājumam tikt transportētam caur atlasīto centrmezglu.</span><span class="sxs-lookup"><span data-stu-id="c9b29-104">This procedure will set up a transportation constraint to prevent a selected item from being transported through a selected hub.</span></span> <span data-ttu-id="c9b29-105">Šo uzdevumu parasti veic transportēšanas koordinators.</span><span class="sxs-lookup"><span data-stu-id="c9b29-105">This task would typically be carried out by a Transportation coordinator.</span></span> <span data-ttu-id="c9b29-106">Šo procedūru varat lietot, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.</span><span class="sxs-lookup"><span data-stu-id="c9b29-106">You can use this procedure in the USMF demo data company or on your own data.</span></span>
+<span data-ttu-id="ae86e-104">Šī procedūra izveidos transportēšanas ierobežojumu, lai neļautu atlasītajam krājumam tikt transportētam caur atlasīto centrmezglu.</span><span class="sxs-lookup"><span data-stu-id="ae86e-104">This procedure will set up a transportation constraint to prevent a selected item from being transported through a selected hub.</span></span> <span data-ttu-id="ae86e-105">Šo uzdevumu parasti veic transportēšanas koordinators.</span><span class="sxs-lookup"><span data-stu-id="ae86e-105">This task would typically be carried out by a Transportation coordinator.</span></span> <span data-ttu-id="ae86e-106">Šo procedūru varat lietot, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.</span><span class="sxs-lookup"><span data-stu-id="ae86e-106">You can use this procedure in the USMF demo data company or on your own data.</span></span>
 
 
-## <a name="create-an-item-constraint"></a><span data-ttu-id="c9b29-107">Krājuma ierobežojuma izveidošana</span><span class="sxs-lookup"><span data-stu-id="c9b29-107">Create an item constraint</span></span>
-1. <span data-ttu-id="c9b29-108">Pārejiet uz Ierobežojumiem.</span><span class="sxs-lookup"><span data-stu-id="c9b29-108">Go to Constraints.</span></span>
-2. <span data-ttu-id="c9b29-109">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="c9b29-109">Click New.</span></span>
-3. <span data-ttu-id="c9b29-110">Ierakstiet vērtību laukā ierobežojums.</span><span class="sxs-lookup"><span data-stu-id="c9b29-110">In the Item constraint field, type a value.</span></span>
-4. <span data-ttu-id="c9b29-111">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c9b29-111">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="c9b29-112">Laukā Vieta ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c9b29-112">In the Site field, enter or select a value.</span></span>
-6. <span data-ttu-id="c9b29-113">Laukā Noliktava ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c9b29-113">In the Warehouse field, enter or select a value.</span></span>
-7. <span data-ttu-id="c9b29-114">Laukā Krājuma kods ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c9b29-114">In the Item number field, enter or select a value.</span></span>
-8. <span data-ttu-id="c9b29-115">Laukā Centrmezgls ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c9b29-115">In the Hub field, enter or select a value.</span></span>
-9. <span data-ttu-id="c9b29-116">Laukā Ierobežojuma darbība atlasiet kādu opciju.</span><span class="sxs-lookup"><span data-stu-id="c9b29-116">In the Constraint action field, select an option.</span></span>
-10. <span data-ttu-id="c9b29-117">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="c9b29-117">Click Save.</span></span>
-11. <span data-ttu-id="c9b29-118">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="c9b29-118">Close the page.</span></span>
+## <a name="create-an-item-constaint"></a><span data-ttu-id="ae86e-107">Izveidojiet krājuma ierobežojumu</span><span class="sxs-lookup"><span data-stu-id="ae86e-107">Create an item constaint</span></span>
+1. <span data-ttu-id="ae86e-108">Pārejiet uz Ierobežojumiem.</span><span class="sxs-lookup"><span data-stu-id="ae86e-108">Go to Constraints.</span></span>
+2. <span data-ttu-id="ae86e-109">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="ae86e-109">Click New.</span></span>
+3. <span data-ttu-id="ae86e-110">Ierakstiet vērtību laukā ierobežojums.</span><span class="sxs-lookup"><span data-stu-id="ae86e-110">In the Item constraint field, type a value.</span></span>
+4. <span data-ttu-id="ae86e-111">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="ae86e-111">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="ae86e-112">Laukā Vieta ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="ae86e-112">In the Site field, enter or select a value.</span></span>
+6. <span data-ttu-id="ae86e-113">Laukā Noliktava ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="ae86e-113">In the Warehouse field, enter or select a value.</span></span>
+7. <span data-ttu-id="ae86e-114">Laukā Krājuma kods ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="ae86e-114">In the Item number field, enter or select a value.</span></span>
+8. <span data-ttu-id="ae86e-115">Laukā Centrmezgls ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="ae86e-115">In the Hub field, enter or select a value.</span></span>
+9. <span data-ttu-id="ae86e-116">Laukā Ierobežojuma darbība atlasiet kādu opciju.</span><span class="sxs-lookup"><span data-stu-id="ae86e-116">In the Constraint action field, select an option.</span></span>
+10. <span data-ttu-id="ae86e-117">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="ae86e-117">Click Save.</span></span>
+11. <span data-ttu-id="ae86e-118">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="ae86e-118">Close the page.</span></span>
 
 

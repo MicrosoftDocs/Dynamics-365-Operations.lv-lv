@@ -6,6 +6,14 @@
       items:
         - name: Jaunumi un izmaiņas
           items:
+            - name: Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 1. oktobris)
+              href: whats-new-talent-october-01.md
+            - name: Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 24. septembris)
+              href: whats-new-talent-september-24.md
+            - name: Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 17. septembris)
+              href: whats-new-talent-september-17-2018.md
+            - name: Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 10. septembris)
+              href: whats-new-talent-september-10.md
             - name: "Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018.\_gada augusts)"
               href: whats-new-talent-august2018.md
             - name: "Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018.\_gada jūlijs)"
@@ -16,14 +24,18 @@
           href: provisioning-talent.md
         - name: Talent vides noņemšana
           href: remove-talent-environment.md
-        - name: Nodrošinājums Talent moduļu programmām
+        - name: Nodrošinājums Talent modulārajām programmām
           href: modular-app-tech-faq.md
         - name: PowerApps programmu iegulšana
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Core HR un Common Data Service programmām
+          href: CoreHREntities.md
         - name: Piekļuve priekšskatījuma līdzekļiem
           href: access-preview-feature.md
-        - name: Konfigurēt algu aprēķina integrēšanu starp Talent un Dayforce
+        - name: Talent un Dayforce algu aprēķina integrācijas konfigurēšana
           href: configure-payroll-integration.md
+        - name: Atbalsta saņemšana saistībā ar Talent
+          href: talent-support.md
     - name: 'Darbaspēka organizēšana, izmantojot nodaļas, darbus un amatus'
       href: departments-jobs-positions.md
       items:
@@ -39,10 +51,15 @@
           href: personnel-actions-faq.md
         - name: Biznesa procesu formalizēšana
           href: formalize-business-processes.md
-        - name: 'Izmantot darbplūsmas, lai pārvaldītu informāciju par darbiniekiem'
+        - name: 'Darbplūsmu izmantošana, lai pārvaldītu informāciju par darbiniekiem'
           href: workflow-manage-employee-information.md
-        - name: Atvaļinājumu un kavējumu pārvaldība
-          href: leave-absence-overview.md
+    - name: ​Atvaļinājumu un kavējumu pārvaldība
+      href: leave-absence-overview.md
+      items:
+        - name: 'Brīvā laika uzkrāšana, pamatojoties uz nostrādātajām stundām'
+          href: leave-accrue-hours-worked.md
+        - name: Darba laika kalendāri
+          href: working-time-calendars.md
     - name: Organizācijas personāla komplektēšana
       items:
         - name: Attract līdzekļi un iespējas
@@ -57,13 +74,15 @@
           href: create-fixed-compensation-plans.md
         - name: Mainīgās atlīdzības plānu izveidošana
           href: create-variable-compensation-plans.md
-        - name: Procesa kompensācija
+        - name: Kompensācijas apstrāde
           href: process-compensation.md
+        - name: Darba komponentu iestatīšana
+          href: create-job.md
     - name: Darbinieku attīstības veicināšana un apmācība
       items:
         - name: Veiktspējas pārvaldība
           href: performance-management-overview.md
-        - name: Darbaspēka prasmes padarīt atbilstošas biznesa vajadzībām
+        - name: Darbaspēka prasmju saskaņošana ar biznesa vajadzībām
           href: skills.md
         - name: Apmācību kursu iestatīšana
           href: courses.md
