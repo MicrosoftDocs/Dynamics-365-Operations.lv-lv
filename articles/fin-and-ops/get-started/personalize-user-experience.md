@@ -3,7 +3,7 @@ title: "Lietotāja pieredzes personalizēšana"
 description: "Šajā tēmā skaidrots, kā personalizēt programmatūru Microsoft Dynamics 365 for Finance and Operations."
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 05/24/2018
+ms.date: 09/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 862bbf4d1d9b0dc2b6dc418ee766ed4dedef49fe
-ms.openlocfilehash: 8ad5bd607f08d4e0b266d86a96a0b7f3e352c4cd
+ms.sourcegitcommit: 7344f460fcb443a78b254e2387fbf5c9134bf674
+ms.openlocfilehash: 1860b603f789aabca1ca58848a88e11a6e08e31f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 08/09/2018
 Programmā Finance and Operations ir trīs galvenās personalizēšanas klases. 
 - Personalizācijas, kas tiek veiktas iestatīšanas lapā. Kā piemērus varētu minēt krāsu dizainu un laika joslu.
 - Personalizācijas saistībā ar lapas lietojumu, sauktas par *netiešajām* personalizācijām. Piemēram, Finance and Operations seko līdzi režģa kolonnu platumam, ja tās koriģējat, kā arī kopsavilkuma ciļņu izvēršanas vai sakļaušanas stāvoklim. 
-- Personalizācijas, ko lietotājs veic, lai modificētu lapas izskatu, mainot veidu, kā kāds elements šajā lapā izskatās vai darbojas; bieži vien tas tiek panākts, izmantojot interaktīvu personalizēšanas režīmu. Šādas personalizācijas tiek sauktas par *tiešajām* personalizācijām. Lietotājs varētu, piemēram, pievienot, slēpt vai pārkārtot lapā esošos elementus.
+- Personalizācijas, ko lietotājs veic lapas izskata mainīšanai, izmainot elementa parādīšanas un darbības šajā lapā metodi; bieži vien tas tiek panākts, izmantojot interaktīvu personalizēšanas režīmu. Šādas personalizācijas tiek sauktas par *tiešajām* personalizācijām. Lietotājs varētu, piemēram, pievienot, slēpt vai pārkārtot lapā esošos elementus.
 
 Ikviena personalizācija, ko lietotājs veic programmā Finance and Operations, ir paredzēta tikai attiecīgajam lietotājam, neatkarīgi no personalizācijas tipa vai uzņēmuma, ar kuru lietotājs pašlaik mijiedarbojas. Izmaiņas, ko kādai lapai veic viens lietotājs, neietekmē citus lietotājus šajā sistēmā.
 
@@ -64,7 +64,7 @@ Dažādiem lietotājiem un uzņēmumiem ir dažādi uzskati par to, kādi dati v
 ### <a name="shortcut-menu-options"></a>Saīšņu izvēlnes opcijas
 Saīšņu izvēlne nodrošina dažus veidus, kā tieši mainīt lapu, lai tā labāk atbilstu jūsu prasībām vai jūsu uzņēmuma prasībām. (Saīšņu izvēlne tiek saukta arī par *izvēlni, kas tiek parādīta, noklikšķinot ar peles labo pogu,* vai *kontekstizvēlni*.)
 
-Dažas no tipiskākajām un svarīgākajām izmaiņām, ko lapai var veikt, ir tieši pieejamas kā opcijas saīšņu izvēlnē. Piemēram, lai režģim pievienotu vai režģī slēptu kolonnas, vienkārši noklikšķiniet ar peles labo pogu uz režģa kolonnas virsraksta un pēc tam atlasiet **Pievienot kolonnas** vai **Paslēpt šo kolonnu**.
+Dažas no tipiskākajām un svarīgākajām izmaiņām, ko lapai var veikt, ir tieši pieejamas kā opcijas saīšņu izvēlnē. Piemēram, sākot ar Platformas atjauninājums 17, ja vēlaties režģim pievienot vai slēpt kolonnas, vienkārši noklikšķiniet ar peles labo pogu uz režģa kolonnas virsraksta un pēc tam atlasiet **Pievienot kolonnas** vai **Slēpt šo kolonnu**.
 
 Turklāt visparastākie tiešās personalizēšanas tipi ir pieejami, noklikšķinot ar peles labo pogu uz kāda elementa un pēc tam atlasot **Personalizēt**. (Ņemiet vērā, ka ne visus lapā esošos elementus var personalizēt.) Kad lietojat šo personalizēšanas metodi, tiek parādīts elementa rekvizītu logs.
 
@@ -81,27 +81,38 @@ Rekvizītu logu varat izmantot, lai personalizētu kādu elementu tālāk norād
 Atkarībā no elementa rekvizītu logā var būt citas personalizēšanas iespējas. Piemēram, elementa rekvizītu logā jums varētu būt iespējams attiecīgo elementu paaugstināt uz informācijas paneli, un šis rekvizītu logs informācijas panelim varētu ļaut jums izveidot jaunu darbvietu attiecīgajā informācijas panelī.
 
 ### <a name="the-personalization-toolbar"></a>Personalizēšanas rīkjosla
-Ja vēlaties pārvietot vai slēpt elementus, vai ja vēlaties lapā veikt vairākas izmaiņas, varat izmantot rīkjoslu **Personalizēšana**. Lai atvērtu rīkjoslu **Personalizēšana**, elementa rekvizītu logā atlasiet **Personalizēt šo formu**. Vienumu **Personalizēt šo formu** varat atlasīt arī katras lapas darbību rūts cilnes **Opcijas** grupā **Personalizēt**.
+Ja vēlaties lapā veikt vairākas izmaiņas vai izmaiņas, kuras nevar veikt, izmantojot citus mehānismus (piemēram, pārkārtojot elementus), var izmantot rīkjoslu **Personalizēšana**. Lai atvērtu rīkjoslu **Personalizēšana**, elementa rekvizītu logā atlasiet **Personalizēt šo formu**. Vienumu **Personalizēt šo formu** varat atlasīt arī katras lapas darbību rūts cilnes **Opcijas** grupā **Personalizēt**.
 
 [![Personalizēšanas rīkjosla](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
 
-Kamēr rīkjosla **Personalizēšana** ir atvērta, lapa nav interaktīva. Tādēļ tajā nevar ievadīt datus, ka arī nevar izvērst vai sakļaut sadaļas. Var tikai mainīt elementus, kas šo lapu veido.
+#### <a name="navigating-the-page"></a>Pārvietošanās lapā 
+Pārvietošanās lapā, ja ir atvērta rīkjosla **Personalizēšana**, ir atkarīga no instalētās platformas versijas. 
 
+- Pirms Platformas atjauninājuma 19, ja rīkjosla **Personalizēšana** ir atvērta, lapa ir pieejama tikai lasīšanas režīmā (tajā neko nevar ievadīt) un tā nav interaktīva (var veikt tikai lapā redzamo elementu izmaiņas). Ja vēlaties veikt elementu sakļautā sadaļā vai citā cilnē izmaiņas, ir jāaizver rīkjosla **Personalizēšana**, jāizvērš sadaļa vai jāpārslēdzas uz vēlamo cilni un pēc tam vēlreiz jāatver rīkjosla **Personalizēšana**.  
+
+- Sākot ar Platformas atjauninājumu 19, ja rīkjosla **Personalizēšana** ir atvērta, lapa vēl joprojām ir pieejama tikai lasīšanas režīmā, bet tā ir vairāk interaktīva. Konkrēti, ja rīkjosla **Personalizēšana** ir atvērta. var izvērst vai sakļaut rūti Papildinformācija, pārslēgt cilnes un izvērst vai sakļaut sadaļas tādā pašā veidā, kā tas lapā tiek darīt parasti. Lai personalizēšanas izmaiņas stātos spēkā sakļautajā sadaļā vai cilnē (piemēram, lai slēptu kopsavilkuma cilni), ir jāaktivizē poga, kas tiek parādīta blakus sakļautajai sadaļai vai cilnei, ja uz tās pāriet, izmantojot tastatūru, vai novieto virs tās kursoru.  
+
+#### <a name="personalization-tools"></a>Personalizēšanas rīki
 Rīkjoslā **Personalizēšana** ir pieejami tālāk uzskaitītie rīki.
 
 - Izmantojiet rīku **Atlasīt**, lai atlasītu un mainītu elementa rekvizītus. Atlasiet rīku **Atlasīt** un pēc tam atlasiet elementu, kura rekvizītus vēlaties modificēt. Kad atlasāt kādu elementu, tiek parādīts šī elementa rekvizītu logs, un jūs varat modificēt jebkurus šī elementa rekvizītus. Šo procesu varat atkārtot citiem elementiem, kurus attiecīgajā lapā ar personalizēt. Taču noteiktu elementu lietošanas veida dēļ programma Finance and Operations jums neļauj mainīt dažus to rekvizītus. Tādēļ, kad atlasāt kādu elementu, var tikt rādīts, ka dažus tā rekvizītus nevar modificēt. Piemēram, jūs nevarat paslēpt lauku, kas ir obligāts.
-- Izmantojiet rīku **Pārvietot**, lai kādu elementu pārvietotu uz citu atrašanās vietu pašreizējā elementu grupā. (Elementu nevar pārvietot ārpus tā pamata grupas.) Atlasiet rīku **Pārvietot** un pēc tam atlasiet elementu, kuru vēlaties pārvietot. Kad atlasāt kādu elementu, programma Finance and Operations skenē lapu, lai noteiktu, kurp šo elementu var pārvietot. Pēc tam programma izveido virkni ar “nomešanas zonām”. Kad šo elementu velkat pa pašreizējo grupu, katra “nomešanas zona” tiek rādīta kā iekrāsota, trekna līnija blakus apgabalam, kur šo elementu var nomest.
-- Izmantojiet rīku **Paslēpt**, lai slēptu kādu elementu šajā lapā. Atlasiet rīku **Paslēpt** un pēc tam atlasiet elementu, kuru vēlaties paslēpt. Kad atlasāt rīku **Paslēpt**, visi pašlaik paslēptie elementi kļūst redzami un tiek rādīti ēnotā konteinerā. Pēc tam varat atcelt to slēpšanu. Atlasot rīku **Atlasīt**, varat redzēt, kā lapa izskatās, kad atlasītie elementi tiek slēpti.
-- Izmantojiet rīku **Kopsavilkums**, kad vēlaties, lai elements tiktu rādīts kopsavilkuma cilnes kopsavilkuma sadaļā. Kopsavilkuma rīks attiecas tikai uz laukiem, kas atrodas kādā kopsavilkuma cilnes sadaļā. Kad atlasāt rīku **Kopsavilkums**, visi lauki, kas ir atlasīti kā kopsavilkuma lauki, tiek radīti ēnotā konteinerā. Atlasot laukus, varat interaktīvi pievienot laukus kopsavilkuma cilnes kopsavilkumam un noņemt laukus no kopsavilkuma cilnes kopsavilkuma.
-- Izmantojiet rīku **Izlaist**, lai izņemtu kādu elementu no lapas tastatūras tabulācijas secības. Kad atlasāt rīku **Izlaist**, visi pašlaik izlaistie elementi tiek rādīti ēnotā konteinerā. Pēc tam varat tos atkal ietvert tabulācijas secībā.
-- Izmantojiet rīku **Rediģēt**, lai kādu elementu atzīmētu kā rediģējamu vai nerediģējamu. Kad atlasāt rīku **Rediģēt**, visi pašlaik nerediģējamie elementi tiek rādīti ēnotā konteinerā. Pēc tam varat tos atkal padarīt par rediģējamiem. Ņemiet vērā, ka daži lauki ir obligāti un tos nevar padarīt nerediģējamus. Pie šiem laukiem tiek rādīts piekaramās slēdzenes simbols.
-- Izmantojiet pogu **Ievietot**, lai redzētu sarakstu ar elementiem, ko var ievietot lapā.
 
+- Izmantojiet rīku **Pārvietot**, lai kādu elementu pārvietotu uz citu atrašanās vietu pašreizējā elementu grupā. (Elementu nevar pārvietot ārpus tā pamata grupas.) Atlasiet rīku **Pārvietot** un pēc tam atlasiet elementu, kuru vēlaties pārvietot. Kad atlasāt kādu elementu, programma Finance and Operations skenē lapu, lai noteiktu, kurp šo elementu var pārvietot. Pēc tam programma izveido virkni ar “nomešanas zonām”. Kad šo elementu velkat pa pašreizējo grupu, katra “nomešanas zona” tiek rādīta kā iekrāsota, trekna līnija blakus apgabalam, kur šo elementu var nomest.
+
+- Izmantojiet rīku **Paslēpt**, lai slēptu kādu elementu šajā lapā. Atlasiet rīku **Paslēpt** un pēc tam atlasiet elementu, kuru vēlaties paslēpt. Kad atlasāt rīku **Paslēpt**, visi pašlaik paslēptie elementi kļūst redzami un tiek rādīti ēnotā konteinerā. Pēc tam varat atcelt to slēpšanu. Atlasot rīku **Atlasīt**, varat redzēt, kā lapa izskatās, kad atlasītie elementi tiek slēpti.
+    - Sākot ar Platformu atjaunināšanas 18, obligātos laukus un sadaļas, kas ietver nepieciešamos laukus, var slēpt. Tas ļauj iegūt vienkāršotu pieredzi, ja obligātie lauki, kuri saskaņā ar biznesa loģiku ir iestatīti pēc noklusējuma, netiek parādīti. Slēptie obligātie lauki īslaicīgi tiek parādīti, ja, mēģinot veikt saglabāšanu, tie ir tukši. 
+
+- Izmantojiet rīku **Kopsavilkums**, kad vēlaties, lai elements tiktu rādīts kopsavilkuma cilnes kopsavilkuma sadaļā. Kopsavilkuma rīks attiecas tikai uz laukiem, kas atrodas kādā kopsavilkuma cilnes sadaļā. Kad atlasāt rīku **Kopsavilkums**, visi lauki, kas ir atlasīti kā kopsavilkuma lauki, tiek radīti ēnotā konteinerā. Atlasot laukus, varat interaktīvi pievienot laukus kopsavilkuma cilnes kopsavilkumam un noņemt laukus no kopsavilkuma cilnes kopsavilkuma.
+
+- Izmantojiet rīku **Izlaist**, lai izņemtu kādu elementu no lapas tastatūras tabulācijas secības. Kad atlasāt rīku **Izlaist**, visi pašlaik izlaistie elementi tiek rādīti ēnotā konteinerā. Pēc tam varat tos atkal ietvert tabulācijas secībā.
+
+- Izmantojiet rīku **Rediģēt**, lai kādu elementu atzīmētu kā rediģējamu vai nerediģējamu. Kad atlasāt rīku **Rediģēt**, visi pašlaik nerediģējamie elementi tiek rādīti ēnotā konteinerā. Pēc tam varat tos atkal padarīt par rediģējamiem. Ņemiet vērā, ka daži lauki ir obligāti un tos nevar padarīt nerediģējamus. Pie šiem laukiem tiek rādīts piekaramās slēdzenes simbols.
+
+- Izmantojiet pogu **Ievietot**, lai redzētu sarakstu ar elementiem, ko var ievietot lapā.
     - Atlasiet rīku **Lauks** zem pogas **Ievietot**, lai savai lapai pievienotu lauku. Kad izmantojat rīku **Lauks**, varat pievienot tikai tādus laukus, kas veido daļu no lapas definīcijas, bet pašlaik attiecīgajā lapā netiek rādīti. Informāciju par to, kā izveidot jaunus laukus, kuri nav daļa no pašreizējās lapas definīcijas, skatiet tēmā [Pielāgoti lauki](user-defined-fields.md). Kad ir atlasīts rīks **Lauks**, jums vispirms ir jāatlasa grupa vai apgabals, kur vēlaties pievienot lauku. Dialoglodziņā tiek rādīts saraksts ar laukiem, kas ir saistīti ar atlasīto grupu vai apgabalu. Šajā dialoglodziņā atlasiet vienu vai vairākus laukus, ko pievienot, un pēc tam atlasiet **Ievietot**. Lai noņemtu kādu lauku, ko iepriekš pievienojāt, atkārtojiet šo procesu, bet dialoglodziņā noņemiet attiecīgā lauka atlasi.
     - Atlasiet rīku **PowerApp** zem pogas **Ievietot**, lai lapā iegultu programmu, kura tika izveidota, izmantojot Microsoft PowerApps. Plašāku informāciju par to, kā lapā iegult PowerApps programmu, skatiet tēmā [PowerApps iegulšana](embed-power-apps.md).
 
 - Atlasiet pogu **Pārvaldīt**, lai skatītu ar visām pašreizējas lapas personalizēšanas darbībām saistīto pārvaldības opciju sarakstu.
-
     - Atlasiet vienumu **Notīrīt**, lai lapai atiestatītu noklusējuma instalēto stāvokli. Tādējādi tiek notīrītas visas pašreizējās lapas personalizācijas. Šo darbību nevar atsaukt. Tādēļ šī opcija ir jāizmanto tikai tad, ja esat pārliecināts, ka vēlaties lapu atiestatīt.
     - Atlasiet **Importēt**, lai ielādētu personalizāciju no kāda faila, kuru šai lapai iepriekš izveidojāt jūs pats vai kāds cits. Visas jūsu pašreizējās personalizācijas šai lapai tiek aizstātas ar personalizācijām no atlasītā faila.
     - Atlasiet **Eksportēt**, lai savas personalizācijas šai lapai saglabātu kādā failā. Savas personalizācijas varat koplietot ar citiem lietotājiem. Šiem lietotājiem ir nepieciešams tikai importēt failu, kurā ir jūsu personalizācijas šai lapai.
@@ -149,5 +160,5 @@ Kad personalizējat krājumu dimensiju iestatījumus lapā, ņemiet vērā iesta
 
 Iestatījumi **Dimensiju rādīšana** tiek lietoti visās lapās, un tiem ir prioritāte pār jebkādiem personalizētajiem krājumu dimensiju lauku iestatījumiem atsevišķās lapās.
 
-Tādēļ, ja iepriekšējā piemērā nevēlaties, lai tiktu rādīta kolonna partijas numuru krājumu dimensijai, jums šai tabulai ir jānoņem attiecīgās dimensijas atzīme kā daļa no opcijas **Parādīt dimensijas**. Galu galā šīs izmaiņas attieksies ne tikai uz vienu konkrēto lapu, bet uz visām lapām.
+Tādējādi, tāpat kā iepriekšējā piemērā, ja nevēlaties, lai tiek parādīta partijas numura krājumu dimensijas kolonna, ir jānoņem attiecīgās dimensijas atzīme tabulas opcijas **Parādīt dimensijas** ietvaros. Galu galā šīs izmaiņas attieksies ne tikai uz vienu konkrēto lapu, bet uz visām lapām.
 

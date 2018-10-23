@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
+ms.sourcegitcommit: e4c1f8c7435a901431286960581754e5b2820dad
+ms.openlocfilehash: 34e744884b4bae890d7990103ecc7157c6883869
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/03/2018
 
 ---
 
@@ -71,7 +71,7 @@ Izmantojot ekrāna izkārtojuma konfigurācijas, tiek noteiktas darbības, satur
 
 ### <a name="assignment"></a>Piešķire
 
-Ekrāna izkārtojumus var piešķirt veikala, kases sistēmas vai lietotāja līmenī. Lietotāja piešķirei ir augstāka prioritāte nekā kases sistēmas un veikala piešķirēm, un kases sistēmas piešķirei ir augstāka prioritāte nekā veikala piešķirei. Vienkāršā scenārijā, kad visi lietotāji izmanto vienu izkārtojumu neatkarīgi no kases sistēmas vai lomas, ekrāna izkārtojumu var iestatīt tikai veikala līmenī. Gadījumos, ja noteiktām kases sistēmām vai lietotājiem ir nepieciešami īpaši izkārtojumi, tos var atbilstoši piešķirt.
+Ekrāna izkārtojumus var piešķirt veikala vai lietotāja līmenī. Lietotāja piešķirei ir augstāka prioritāte nekā kases sistēmas un veikala piešķirēm, un kases sistēmas piešķirei ir augstāka prioritāte nekā veikala piešķirei. Vienkāršā scenārijā, kad visi lietotāji izmanto vienu izkārtojumu neatkarīgi no kases sistēmas vai lomas, ekrāna izkārtojumu var iestatīt tikai veikala līmenī. Gadījumos, ja noteiktām kases sistēmām vai lietotājiem ir nepieciešami īpaši izkārtojumi, tos var atbilstoši piešķirt.
 
 ### <a name="layout-sizes"></a>Izkārtojumu lielumi
 

@@ -1,29 +1,30 @@
----
-title: "Svītrkodu tipu uzturēšana"
+--- 
+title: "Svītrkodu veidu uzturēšana"
 description: "Šajā procedūrā parādīts, kā iestatīt jaunu svītrkoda definīciju, ko pēc tam var izmantot kā daļu no izdošanas saraksta pārskata."
 author: perlynne
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BarcodeSetup, InventParameters
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 45323206550d1b0ed66d89f4be7b995c60af63fc
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: a0d7092228f078f528ec1cb9ac56d7034c44bccf
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="maintain-bar-code-types"></a>Svītrkodu tipu uzturēšana
+# <a name="maintain-barcode-types"></a>Svītrkodu veidu uzturēšana
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -44,4 +45,5 @@ ms.lasthandoff: 09/29/2017
     * Atlasiet svītrkoda iestatījumu, ko izveidojāt iepriekš, taču ņemiet vērā, ka svītrkoda formātam jāatbilst unikālā identifikatora formātam procesā izmantojamajam ieraksta tipam. Piemēram, izdošanas maršrutiem svītrkoda formātam ir jāatbilst izdošanas maršruta atsauces formātam, kas parasti ir numuru sērija.  
 12. Noklikšķiniet uz Saglabāt.
 13. Aizvērt lapu.
+
 

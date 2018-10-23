@@ -16,10 +16,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
-ms.openlocfilehash: 9399df070d450b6eb89dc33ca47ddb77fe8e60b1
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 08/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir ietverta informācija un saites uz resursiem, kas var palīdzēt iestatīt programmu Dynamics 365 for Finance and Operations juridiskām personām ar primāro adresi Brazīlijā. 
+Šajā tēmā ir ietverta informācija un saites uz resursiem, kas var palīdzēt iestatīt programmu Dynamics 365 for Finance and Operations juridiskām personām ar primāro adresi Eiropā. 
 
 - [Avansa turētāji](emea-advance-holders.md)
  - [Avansu turētāju transakcijas](emea-advance-holders-transactions.md)
@@ -44,9 +44,7 @@ ms.lasthandoff: 08/13/2018
 - [Faila formāti maksāšanas metodēm](emea-select-file-formats-for-the-method-of-payments.md)
 - [Finanšu pakalpojumu (ESR) integrācija](emea-fiscal-service-integration.md)
 - [Pamatlīdzekļu norakstīšana Igaunijai un Lietuvai](emea-credit-note-reverse-fixed-asset-sale.md)
-- [Ārvalstu valūtas pārvērtēšana](emea-foreign-currency-revaluation.md)
-- [Pārsūtīšanas dokumentu ģenerēšana iekšējo krājumu pārsūtīšanai](tasks/transfer-document-internal-inventory-transfer.md)
-- [ES Intrastat deklarācijas ģenerēšana](tasks/eur-00002-eu-intrastat-declaration.md)
+- [Pārsūtīšanas dokumenta ģenerēšana iekšējai krājumu pārsūtīšanai](tasks/transfer-document-internal-inventory-transfer.md)
 - [ES pārdošanas saraksta pārskata ģenerēšana](tasks/eur-00011-eu-sales-list-report.md)
 - ISO20022 faili
   - [ISO20022 failu importēšana](emea-ISO20022-file-formats.md)
@@ -61,6 +59,8 @@ ms.lasthandoff: 08/13/2018
   - [Kreditoru maksājumu izveide un eksportēšana, izmantojot maksājumu formātu ISO20022](tasks/create-export-vendor-payments-iso20022-payment-format.md)
 - [Intrastat](emea-intrastat.md)
   - [Transakciju pārsūtīšana uz Intrastat](tasks/transfer-transactions-intrastat.md)
+  - [EK iekšējās transakcijas iekraušanas adreses norādīšana](tasks/eur-00002-specify-lading-address-intra-community.md)
+  - [ES Intrastat deklarācijas ģenerēšana](tasks/eur-00002-eu-intrastat-declaration.md)
 - [Krājumu žurnāla pārskati](emea-set-up-report-inventory-journal-names.md)
 - [Rēķinu izsniegšanas termiņi](emea-invoice-issue-deadline.md)
 - [Rēķina apstrāde](emea-invoice-processing.md)
@@ -81,9 +81,7 @@ ms.lasthandoff: 08/13/2018
 - [Debitoru un kreditoru atlīdzības iestatīšana](emea-compensation-customer-vendor-transactions.md)
 - [ES pārdošanas saraksta pārskatu iestatīšana](tasks/eur-00011-eu-sales-list-reporting.md)
 - [Maksājuma kvīts formāta iestatīšana projekta rēķiniem](tasks/set-up-payment-slip-format-project-invoices.md)
-- [Drukāto veidlapu parakstītāju iestatīšana](emea-set-up-signers-for-printing-forms.md)
-- [Pārsūtīšanas dokumentu par preču kustību uzņēmumā iestatīšana](tasks/set-up-transfer-documents-goods-movement-inside-company.md)
-- [EK iekšējās transakcijas iekraušanas adreses norādīšana](tasks/eur-00002-specify-lading-address-intra-community.md)
+- [Iestatīt parakstītājus drukātajām formām](emea-set-up-signers-for-printing-forms.md)
 - [Storno uzskaite](emea-storno.md)
 - [Nodokļu direktīvas](emea-tax-directives.md)
 - [Atjaunināt veidu, kā summas tiek rādītas pārskatos un dokumentos](emea-amount-printing-forms.md)

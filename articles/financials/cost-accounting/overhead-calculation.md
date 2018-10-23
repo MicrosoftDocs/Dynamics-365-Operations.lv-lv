@@ -3,7 +3,7 @@ title: "Pieskaitāmo izmaksu aprēķins"
 description: "Šajā tēmā ir aprakstīti tipiskie procesi pieskaitāmo izmaksu aprēķināšanai un piešķiršanai."
 author: AndersGirke
 manager: AnnBe
-ms.date: 04/20/2017
+ms.date: 10/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: shylaw
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 549e9b4b073a4e93dd3a1dd52dd6f43e7420a31b
+ms.sourcegitcommit: 12ae99c15bafcd9cc08b30903fe3f251f446b17d
+ms.openlocfilehash: 4de705324ac497cfb11fae3dadc6f57d038fd0b5
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 10/05/2018
 
 ---
 
@@ -191,8 +191,7 @@ Noteiktos gadījumos daļa izmaksu ir fiksēta maksa, un atlikušās izmaksas ir
 </tbody>
 </table>
 
-Detalizētu informāciju par izmaksu uzvedību skatiet sadaļā Izmaksu uzvedības politika. (Ņemiet vērā, ka šī tēma vēl nav pabeigta, bet būs pieejama drīzumā.)
-
+Sīkāku informāciju skatiet šeit: [Izmaksu izturēšanās politikas izveide un piešķiršana izmaksu vadības ierīcei](tasks/create-assign-cost-behavior-policy-cost-control-unit.md).
 ### <a name="step-2-process-the-cost-distribution-calculation"></a>2. solis. Apstrādāt izmaksu sadalījuma aprēķinu
 
 Izmaksu sadalījums tiek izmantots, lai izmaksas no viena izmaksu objekta pārdalītu uz vienu vai vairākiem citiem izmaksu objektiem, lietojot atbilstošu sadalījuma pamatu. Izmaksu izplatīšana no izmaksu sadalījuma atšķiras ar to, ka izmaksu izplatīšana vienmēr notiek sākotnējo izmaksu primārā izmaksu elementa līmenī.
@@ -430,7 +429,7 @@ Fiksētās izmaksas ir vienādi jāsadala uz atsevišķajiem izmaksu objektiem, 
 </tbody>
 </table>
 
-Detalizētu informāciju par izmaksu sadali un sadalījuma pamatiem skatiet sadaļā Izmaksu sadales politika un Sadalījuma pamati. (Ņemiet vērā, ka šī tēma vēl nav pabeigta, bet būs pieejama drīzumā.)
+Sīkāku informāciju skatiet šeit: [Izmaksu sadalījuma politikas izveide un piešķiršana izmaksu vadības ierīcei](tasks/create-assign-cost-distribution-policy-cost-control-unit.md). 
 
 ### <a name="step-3-process-the-overhead-rate-calculation"></a>3. solis. Apstrādāt pieskaitāmo izmaksu likmes aprēķinu
 
@@ -618,7 +617,7 @@ Nākamajā tabulā ir parādīts rezultāts, kādu iegūst, ja kā sadalījuma p
 </tbody>
 </table>
 
-Detalizētu informāciju par pieskaitāmo izmaksu likmes politiku skatiet sadaļā Pieskaitāmo izmaksu likmes politika un Sadalījuma pamati. (Ņemiet vērā, ka šī tēma vēl nav pabeigta, bet būs pieejama drīzumā.)
+Sīkāku informāciju skatiet šeit: [Pieskaitāmo izmaksu aprēķina veikšana](cost-rollup.md#perform-overhead-calculation).
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>4. solis. Apstrādāt izmaksu sadalījuma aprēķinu
 
@@ -725,7 +724,8 @@ Izmaksu objekts CC004 Iepakošana sniedz ieguldījumu vairākos izmaksu objektos
 </tbody>
 </table>
 
-**Piezīme.** Sistēmā Finance and Operations statistiskos mērus, piemēram, preces patērētās ražošanas stundas, var atvasināt no avota datiem. Plašāku informāciju par statistisko mēru nodrošinātājiem skatiet sadaļā Statistisko mēru nodrošinātāja veidnes. (Ņemiet vērā, ka šī tēma vēl nav pabeigta, bet būs pieejama drīzumā.) Nākamajā tabulā ir parādīts rezultāts, kāds tiek iegūts, ja kopējām izmaksām (fiksētajām izmaksām un mainīgajām izmaksām) kā sadalījumam pamats tiek lietoti HR pakalpojumi.
+> [!NOTE]
+> Sistēmā Finance and Operations statistiskos mērus, piemēram, preces patērētās ražošanas stundas, var atvasināt no avota datiem. Sīkāku informāciju skatiet šeit: [Statistikas mēru nodrošinātāja veidne](statistical-measure-provider-template.md#statistical-measure-provider-template). Nākamajā tabulā ir parādīts rezultāts, ja tiek iegūts, ja kopējām izmaksām (fiksētajām izmaksām un mainīgajām izmaksām) kā sadalījuma pamats tiek lietoti HR pakalpojumi.
 
 <table>
 <thead>
@@ -1412,7 +1412,7 @@ Finanšu grāmatvedībā 10 000,00 izmaksas par elektrību tiek grāmatotas uz 
 </table>
 
 > [!NOTE]
-> Šajā tēmā ir parādīts, kā primārais izmaksu elements, 10001 Elektrība, plūst caur izmaksu objektiem. Tāpēc šīs pieskaitāmās izmaksas tiek sadalītas līdz zemākajam līmenim organizācijā. Citiem vārdiem sakot — izmaksas sedz zemākajā līmenī esošie izmaksu objekti. Ja ir nepieciešama vizuāla izmaksu plūsma starp izmaksu objektiem, varat izmantot izmaksu apkopošanas politiku kārtulas, lai šo izmaksu plūsmu vizualizētu. Papildinformāciju skatiet sadaļā Izmaksu apkopošanas politika. (Ņemiet vērā, ka šī tēma vēl nav pabeigta, bet būs pieejama drīzumā.)
+> Šajā tēmā ir parādīts, kā primārais izmaksu elements, 10001 Elektrība, plūst caur izmaksu objektiem. Tāpēc šīs pieskaitāmās izmaksas tiek sadalītas līdz zemākajam līmenim organizācijā. Citiem vārdiem sakot — izmaksas sedz zemākajā līmenī esošie izmaksu objekti. Ja ir nepieciešama vizuāla izmaksu plūsma starp izmaksu objektiem, varat izmantot izmaksu apkopošanas politiku kārtulas, lai šo izmaksu plūsmu vizualizētu. Sīkāku informāciju skatiet šeit: [Izmaksu apkopošanas politika](cost-rollup.md).
 
 
 

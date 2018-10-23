@@ -3,7 +3,7 @@ title: "Noņemtie vai novecojušie līdzekļi"
 description: "Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt."
 author: sericks007
 manager: AnnBe
-ms.date: 08/07/2018
+ms.date: 10/01/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8a3c4ed8f3ed79ab0cb3e59076734877d270bd68
-ms.openlocfilehash: cd620dcdeb1cd5fd3a89be9ae31c4d35e29a03d0
+ms.sourcegitcommit: d6b7b1219974cb5de1a625d87c3bce2a4439470b
+ms.openlocfilehash: ea24d6d63edc6f3bb1bf4a99d24d348af0d6cdbf
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/01/2018
 
 ---
 
@@ -41,6 +41,52 @@ ms.lasthandoff: 08/09/2018
 
 > [!Note]
 > Detalizēta informācija par Finance and Operations objektiem ir pieejama tēmā [Tehniskās atsauces pārskati](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Varat salīdzināt dažādās šo pārskatu versijas, lai noskaidrotu, kuri objekti ir mainīti vai noņemti katrā Finance and Operations versijā.
+
+## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1 ar 20. platformas atjauninājumu
+
+### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Partijas pārnešanas noteikumi apakšgrāmatas žurnāla kontu ierakstiem
+Režīms Sinhronā pārnešana Virsgrāmatas parametros ir novecojis.  Šis režīms ir aizstāts tikai ar opciju Asinhroni un plānoto partiju, kas jau pastāv kā pārnešanas opcijas. 
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Mēs noņēmām sinhrono opciju veiktspējas ietekmes uz sistēmu dēļ. |
+| **Vai aizstāts ar citu līdzekli?**   | Opciju Asinhroni un plānoto partiju var izmantot opcijas Sinhroni vietā.   |
+| **Ietekmētie produkta apgabali**         | Virsgrāmata, Debitori, Kreditori, Sagāde, Izdevumu    |
+| **Izvietošanas iespēja**              | Visus  |
+| **Statuss**                         | Novecojis — funkcionalitātes noņemšanas mērķa laikposms ir 10.0 versija.|
+
+### <a name="electronic-reporting-for-russia"></a>Elektroniskā pārskata veidošanas formāts Krievijai
+Līdzeklis deklarāciju .txt un .xml failu formātu konfigurēšanai. 
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Nomainīts ar elektronisku iesniegšanu. |
+| **Vai aizstāts ar citu līdzekli?**   | Jā. |
+| **Ietekmētie produkta apgabali**         | Virsgrāmata |
+| **Izvietošanas iespēja**              | Visus |
+| **Statuss**                         | Noņemts kā Dynamics 365 for Finance and Operations 8.1 ar 20. platformas atjauninājumu. |
+
+### <a name="financial-reports-generator-for-russia"></a>Finanšu pārskatu veidotājs Krievijai
+Rīks uzskaites un nodokļu pārskatu datu vākšanas iestatīšanai un datu uz XLS un DOC pārskatu veidnēm eksportēšanai. Funkcionālās daļas: datu eksportēšana uz XLS un DOC pārskata veidnēm, vaicājumi, fiksētie rekvizīti ir noņemti. 
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Noņemtās daļas ir aizstātas ar elektroniskajiem pārskatiem. |
+| **Vai aizstāts ar citu līdzekli?**   | Jā. Finanšu pārskatu iestatīšanas lietotāja interfeiss ir jāizmanto, lai iestatītu datu apkopošanas kārtulas pēc Virsgrāmatas kontiem vai nodokļu reģistriem. Datu eksportēšana uz dažādu failu veidiem, fiksēti rekvizīti un vaicājumam līdzīgu datu apkopošanas kārtulas ir jākonfigurē elektronisko pārskatu sadaļā. |
+| **Ietekmētie produkta apgabali**         | Virsgrāmata. |
+| **Izvietošanas iespēja**              | Visus |
+| **Statuss**                         | Noņemts kā Dynamics 365 for Finance and Operations 8.1 ar 20. platformas atjauninājumu. |
+
+### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>Integrācija ar ārējiem nodrošinātājiem elektronisko pārskatu sūtīšanai pa sakaru kanāliem Krievijai
+Līdzeklis izveidoto deklarācijas elektronisko failu eksportēšanai uz mapi tālākai nosūtīšanai oficiālajiem elektronisko pārskatu nodrošinātajiem, kā arī importēšanai atpakaļ valsts iestādēm.
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Aizstāts ar konfigurējamu elektronisko ziņojumu līdzekli. |
+| **Vai aizstāts ar citu līdzekli?**   | Jā.  |
+| **Ietekmētie produkta apgabali**         | Virsgrāmata, nodokļi |
+| **Izvietošanas iespēja**              | Visus |
+| **Statuss**                         | Noņemts kā Dynamics 365 for Finance and Operations 8.1 ar 20. platformas atjauninājumu. |
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0 ar 15. platformas atjauninājumu
 Ar šo laidienu nav noņemts vai atzīts par novecojušu neviens līdzeklis. 15. platformas atjauninājums ir kumulatīvs un satur jaunus vai mainītus līdzekļus no 13. platformas atjauninājuma, 14. platformas atjauninājuma un 15. platformas atjauninājuma.

@@ -3,7 +3,7 @@ title: "Ģenerēt finanšu pārskatus"
 description: "Šajā tēmā ir sniegta vispārīga informācija finanšu atskaites ģenerēšanu."
 author: aprilolson
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 09/26/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: b1dea07589b7fe953ec47b204441d044c19b5020
+ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
+ms.openlocfilehash: 70fa1298c3af43f62b8fa0b833fa817f17858c47
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
+ms.lasthandoff: 09/27/2018
 
 ---
 
@@ -34,17 +34,14 @@ ms.lasthandoff: 09/22/2018
 
 Lai izveidotu pārskatu, atveriet pārskata definīciju un pēc tam rīkjoslā noklikšķiniet pogu Ģenerēt. Tiks atvērts logs Pārskata rindas statuss, un norādīs jūsu pārskata atrašanās vietu rindā. Pēc noklusējuma ģenerētais pārskats tiks atvērts pakalpojumā Tīmekļa skatītājs.
 
-> [!NOTE]
-> Atskaites varat ģenerēt tikai mapēs un atrašanās vietās, kurām jums ir piekļuves tiesības.
-
 Pārskatu ģenerēšanai ir pieejamas tālāk norādītās opcijas.
 
 - Iestatiet grafiku, lai automātiski izveidotu pārskatu vai pārskatu grupu
 - Pārbaudīt trūkstošus kontus vai datus pārskatā, un apstipriniet pārskata precizitāti
 
-Kad veidojat atskaiti, tiek izmantotas opcijas, kuras jūs norādījāt cilnēs Atskaites definīcija . Cilnē Izvade un sadale varat norādīt atskaišu bibliotēkas atrašanās vietu, kas sniedz vieglu veidu, kā šo atskaiti kopīgot.
+Kad veidojat atskaiti, tiek izmantotas opcijas, kuras jūs norādījāt cilnēs Atskaites definīcija .
 
-## <a name="generate-a-financial-report"></a>Ģenerēt finanšu pārskatu
+## <a name="generate-a-financial-report"></a>Finanšu pārskata ģenerēšana
 
 Lai ģenerētu finanšu pārskatu, izmantojot Microsoft Dynamics 365 for Finance and Operations, dodieties uz **Virsgrāmata** \> **Pieprasījumi un pārskati** \> **Finanšu pārskati**.
 
@@ -56,9 +53,6 @@ Pēc pārskata ģenerēšanas šo pārskatu varēs skatīt sadaļā **Pārskati*
 Varat izvēlēties šo pārskatu **Skatīt** vai **Dzēst**.
 
 Lai ģenerētu pārskatu, izmantojot līdzekli **Pārskatu veidotājs**, atveriet pārskata definīciju un pēc tam rīkjoslā noklikšķiniet uz pogas Ģenerēt. Tiks atvērts logs Pārskata rindas statuss, un norādīs jūsu pārskata atrašanās vietu rindā. Pēc noklusējuma ģenerētais pārskats tiks atvērts pakalpojumā Tīmekļa skatītājs.
-
-> [!NOTE]
-> Atskaites varat ģenerēt tikai mapēs un atrašanās vietās, kurām jums ir piekļuves tiesības.
 
 ## <a name="schedule-report-generation"></a>Pārskatu ģenerēšanas ieplānošana
 Daudziem uzņēmumiem ir izveidota pamata pārskatu kopa, kas tiek palaisti ieplānotajos intervālos atbilstošo uzņēmuma darbības procesiem. Jūs var ieplānot regulāru pārskatu izveidi, piemēram, katru dienu, katru nedēļu, katru mēnesi vai reizi gadā. Tādā veidā var palaist vienu pārskatu vai vairāku pārskatu grupu, tostarp, ietverot vairākus uzņēmumus. Savi akreditācijas dati ir jāievada visiem norādītajiem uzņēmumiem, piemēram, pārskatu koka definīcijā norādītajiem uzņēmumiem. Ja akreditācijas dati nav derīgi, pārskats parādīs tikai informāciju, kurai jums ir piekļuves tiesības, piemēram, uzņēmums, ko esat reģistrējuši. Vispirms izlasiet izvades informāciju no pārskata grupas, un pēc tam no atsevišķiem pārskatiem.

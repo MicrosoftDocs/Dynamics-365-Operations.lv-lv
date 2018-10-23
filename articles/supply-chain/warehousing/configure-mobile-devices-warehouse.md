@@ -1,9 +1,9 @@
 ---
-title: "Iestatīt mobilās ierīces darbam noliktavā"
-description: "Šajā rakstā ir aprakstīts, kā konfigurēt izvēlnes vienumus, kurus noliktavas darbinieki izmanto, veicot darbu mobilajā ierīcē."
+title: "Mobilo ierīču iestatīšana darbam noliktavā"
+description: "Šajā tēmā ir aprakstīts, kā konfigurēt izvēlnes vienumus, kurus noliktavas darbinieki izmanto, veicot darbu mobilajā ierīcē."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,20 +19,20 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: bb0d6af3a17653ea33e3f84a416bda244a27507c
+ms.sourcegitcommit: 74522c97716238b62af3d65a1c23ba9e5e60a68b
+ms.openlocfilehash: cc21b62026403e37dbcb90c24dd239d295f0e04e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 10/03/2018
 
 ---
 
-# <a name="set-up-mobile-devices-for-warehouse-work"></a>Iestatīt mobilās ierīces darbam noliktavā
+# <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobilo ierīču iestatīšana darbam noliktavā
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir aprakstīts, kā konfigurēt izvēlnes vienumus, kurus noliktavas darbinieki izmanto, veicot darbu mobilajā ierīcē.
+Šajā tēmā ir aprakstīts, kā konfigurēt izvēlnes vienumus, kurus noliktavas darbinieki izmanto, veicot darbu mobilajā ierīcē.
 
-**Piezīme.** Šis raksts attiecas uz moduļa Noliktavas pārvaldība līdzekļiem. Tas neattiecas uz moduļa Krājumu vadība līdzekļiem. Izvēlnes vienumus, kas tiek rādīti izvēlnēs noliktavas mobilajā ierīcē, var konfigurēt lapā **Mobilās ierīces izvēlnes vienumi**. Tā kā izvēlnes vienumus var ietvert dažādās izvēlnēs, var viegli konfigurēt izvēļņu struktūras tā, lai noteiktiem lietotājiem tiktu rādīti darba veidi. Varat konfigurēt izvēlnes vienumus tālāk norādīto uzdevumu veikšanai.
+**Piezīme.** Šī tēma attiecas uz moduļa Noliktavas vadība līdzekļiem. Tas neattiecas uz moduļa Krājumu vadība līdzekļiem. Izvēlnes vienumus, kas tiek rādīti izvēlnēs noliktavas mobilajā ierīcē, var konfigurēt lapā **Mobilās ierīces izvēlnes vienumi**. Tā kā izvēlnes vienumus var ietvert dažādās izvēlnēs, var viegli konfigurēt izvēļņu struktūras tā, lai noteiktiem lietotājiem tiktu rādīti darba veidi. Varat konfigurēt izvēlnes vienumus tālāk norādīto uzdevumu veikšanai.
 
 -   Apstrādāt pieprasījumu vai veikt aktivitāti, piemēram, izdrukāt etiķeti, ģenerēt unikālos noliktavas vienību identifikatorus, sākt ražošanas pasūtījumu vai ātri atrast uzmeklēt informāciju par krājumiem kādā novietojumā,
 -   Izveidot darbu, kas tiks veikts, izmantojot citu procesu. Piemēram, saņemot pirkšanas pasūtījuma krājumu, var tikt izveidots izvietošanas darbs citam darbiniekam.
@@ -193,7 +193,7 @@ Varat iestatīt izvēlnes vienumu, kas izveido darbu citam darbiniekam pēc tam,
 </table>
 
 ## <a name="configure-menu-items-to-process-existing-work"></a>Esoša darba apstrādes izvēlnes vienumu konfigurēšana
-Varat iestatīt ne tikai noliktavas darbu izveides izvēlnes vienumus, bet arī jau izveidotu darbu apstrādes izvēlnes vienumus. Iestatiet lauka **Režīms** vērtību **Darbs** un atlasiet opciju **Izmantot esošo darbu**. Pēc tam cilnē **Vispārīgi** kļūst pieejamas dažas papildu opcijas. Varat kontrolēt piekļuvi izvēlnes vienumam, piešķirot vienu vai vairākas darba klases kopsavilkuma cilnē **Darba klase**. Darba klases definē darbu, ko var apstrādāt ar izvēlnes vienumu. Darba klasi var arī izmantot, lai piešķirtu piekļuves tiesības noteiktām lietotāju lomām vai nošķirtu dažādu operāciju veidu apstrādi. Tālāk esošajā tabulā ir aprakstītas pieejamās opcijas.
+Varat iestatīt ne tikai noliktavas darbu izveides izvēlnes vienumus, bet arī jau izveidotu darbu apstrādes izvēlnes vienumus. Iestatiet lauka **Režīms** vērtību **Darbs** un atlasiet opciju **Izmantot esošo darbu**. Pēc tam cilnē **Vispārīgi** kļūst pieejamas dažas papildu opcijas. Varat kontrolēt piekļuvi izvēlnes vienumam, piešķirot vienu vai vairākas darba klases kopsavilkuma cilnē **Darba klase**. Darba klases definē darbu, ko var apstrādāt ar izvēlnes vienumu. Darba klasi var arī izmantot, lai piešķirtu piekļuves tiesības noteiktām lietotāju lomām vai nošķirtu dažādu operāciju veidu apstrādi. Tālāk esošajā tabulā ir aprakstītas pieejamās opcijas. Opcija ir pieejama lapā **Mobilās ierīces izvēlnes vienumi** laukā **Novirzītājs**. 
 
 <table>
 
@@ -247,6 +247,10 @@ Varat iestatīt ne tikai noliktavas darbu izveides izvēlnes vienumus, bet arī 
 <tr class="even">
 <td>Cikla inventarizācijas grupēšana</td>
 <td>Darbinieks atlasa zonu, darba pūlu vai novietojumu, un programmatūra Microsoft Dynamics 365 for Finance and Operations piešķir darbu, pamatojoties uz atlasi. Ja atlasāt šo opciju, varat darbību rūtī noklikšķināt uz <strong>Cikla inventarizācija</strong>, lai norādītu papildu parādāmo informāciju, kā arī varat norādīt, cik reižu darbiniekam ir jāatkārto inventarizācija, ja tiek konstatēta atšķirība.</td>
+</tr>
+ <tr class="odd">
+<td>Transporta iekraušana</td>
+<td>Izmantojot šo funkciju, vairāki noliktavā nodarbinātie var iekraut krājumus no tās pašas vai citas kravas tajā pašā kravas automašīnā kopā ar kravu, kas ir pilnībā vai daļēji nosūtīta.</td>
 </tr>
 </tbody>
 </table>
@@ -349,7 +353,7 @@ Tabulā ir sniegts šo opciju apraksts.
 <td>Atlasiet šo opciju, lai ļautu darbiniekiem apvienot pārdošanas pasūtījuma vai kravas darbu vienā darba vienībā. Darbinieks var veikt tikai ar pārdošanas pasūtījumu vai kravu saistītu darbu. Šī opcija ir noderīga, piemēram, ja ir jāpalielina pārdošanas pasūtījuma daudzums pēc tam, kad pārdošanas pasūtījumam ir izveidota krava, sūtījums un darbs. Šī opcija ir pieejama, ja izvēlnes vienumā tiek izmantots esošais darbs un šo darbu vada lietotājs vai sistēma.</td>
 </tr>
 <tr class="even">
-<td>Nav</td>
+<td>Izdot vecāko partiju</td>
 <td>Norādiet, vai darbiniekam novietojumā vispirms ir jāizdod vecākā partija. Pieejamas šādas opcijas
 <ul>
 <li><strong>Nav</strong> — darbinieks var izdot jebkuru novietojumā esošo partiju. Darbinieks nesaņem nekādu ziņojumu.</li>

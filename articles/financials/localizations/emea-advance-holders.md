@@ -3,7 +3,7 @@ title: "Avansa turētāji"
 description: "Uzziniet par avansa turētāju funkcionalitāti programmā Microsoft Dynamics 365 for Finance and Operations."
 author: LizaGolub
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/23/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: e6e295390ee42da4de2ae740ba7f04f3caee6234
-ms.openlocfilehash: 289e29d33ba9e3b96e03713d52565967ed2afcc1
+ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
+ms.openlocfilehash: 1fc13461ab166d8f20ea2f56f641c86c3172f33b
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/01/2018
 
 ---
 
@@ -34,12 +34,16 @@ Uzziniet par avansa turētāju funkcionalitāti programmā Microsoft Dynamics 3
 *Avansa turētājs* ir uzņēmuma darbinieks, kurš atbild par organizācijas nodrošinātu izdevumu summu. Avansa turētājs var būt tikai uzņēmuma nodarbinātais. Kad notiek sagāde, avansa turētājs ziņo uzņēmumam par notikušajiem izdevumiem. Uzņēmums darbiniekam atlīdzina šo izdevumu summu. Uzņēmums kontrolē bilanci katram avansa turētājam. Lietotāji juridiskajās personās, kas atrodas Igaunijā, Latvijā, Lietuvā, Polijā, Čehijā, Ungārijā un Krievijā, var atainot specifiskas transakcijas, kuras pavada tādu uzņēmuma darbinieku operācijas, kuri ir atbildīgi par organizācijas nodrošinātu izdevumu summu.
 
 ## <a name="set-up-an-advance-holder"></a>Iestatīt avansa turētāju
-Lai iestatītu avansa turētāju, tālāk minētie uzdevumi ir jāizpilda norādītajā secībā.
-1.  Izveidojiet avansa turētāju grupas.
-2.  Iestatiet darbinieka grāmatošanas metodi.
-3.  Iestatiet kreditoru parametrus.
-4.  Izveidojiet specifiskus maksājuma nosacījumus avansa turētājam.
-5.  Izveidojiet avansa turētāju.
+Šajā sadaļā ir sniegta informācija par avansa turētāja iestatīšanu. Šajā sadaļā aprakstītie uzdevumi ir jāizpilda tālāk norādītajā secībā.
+
+> [!div class="checklist"]
+> * 1. Avansa turētāju grupu izveide
+> * 2. Darbinieka grāmatošanas metodes iestatīšana
+> * 3. Kreditoru parametru iestatīšana
+> * 4. Specifisku maksājuma nosacījumu avansa turētājam izveide
+> * 5. Specifisku maksājuma nosacījumu avansa turētājam izveide
+> * 6. Avansa turētāja izveide
+
 
 ### <a name="advance-holder-groups"></a>Avansa turētāju grupas
 
@@ -79,20 +83,32 @@ Lai atainotu avansa turētāju transakcijas, lapas **Kreditoru moduļa parametri
 ### <a name="terms-of-payment-for-advance-holder"></a>Avansa turētāja maksājuma nosacījumi
 
 Lai pareizi reģistrētu un grāmatotu pirkšanas pasūtījumu, izmantojot avansa turētāju, ir jālieto maksājuma nosacījumi, kuriem opcija **No avansa turētāja** ir iestatīta uz **Patiess**.
-### <a name="create-an-advance-holder-creation"></a>Izveidot avansa turētāja izveidi
 
-Lai varētu izveidot avansa turētāju, nodarbinātajiem jau ir jābūt iestatītiem. Papildinformāciju skatiet rakstā [Ievadīt darbinieka informāciju (uzdevuma ceļvedis).](../../fin-and-ops/hr/tasks/enter-worker-information.md) Lai nodarbināto iestatītu kā avansa turētāju, izmantojiet lapu **Avansa turētāji**. Atlasiet nodarbināto, ko lietot kā avansa turētāju, noklikšķiniet uz **Rediģēt** un pēc tam opciju **Avansa turētājs** iestatiet uz **Patiess**. Ir jāaizpilda arī tālāk norādītie lauki.
+### <a name="create-an-advance-holder"></a>Avansa turētāja izveide
 
-|                |                                                                                             |
-|----------------|---------------------------------------------------------------------------------------------|
-| **Lauks**      | **Apraksts**                                                                             |
-| **Grupa**      | Atlasiet avansa turētāju grupu.                                                             |
-| **Sērija**     | Ievadiet sēriju tam dokumentam, kurš tiek izmantots, lai verificētu avansa turētāja identitāti. |
-| **Numurs**     | Ievadiet numuru tam dokumentam, kurš tiek izmantots, lai verificētu avansa turētāja identitāti. |
-| **Izsniegšanas datums** | Atlasiet vai ievadiet dokumenta izsniegšanas datumu.                                                    |
-| **Izsniedza**  | Ievadiet informāciju par iestādi vai personu, kas izsniedza šo dokumentu.                       |
+Lai varētu izveidot avansa turētāju, nodarbinātajiem jau ir jābūt iestatītiem. Papildinformāciju skatiet rakstā [Ievadīt darbinieka informāciju (uzdevuma ceļvedis).](../../fin-and-ops/hr/tasks/enter-worker-information.md) 
+
+1. Atlasiet **Kreditori** \> **Avansa turētāji** \> **Avansa turētāji**.
+
+    > [!NOTE]
+    > Lapā **Avansa turētāji** darbiniekus nevar pievienot vai dzēst. Darbinieki vispirms ir jāpieņem darbā modulī **Cilvēkresursi**. Lapā **Darbinieku grāmatošanas metodes** var iestatīt darbinieku grāmatošanas metodi, kas tiek izmantota avansa turētāju bilances grāmatošanai.
+
+2. Atlasiet darbinieku un pēc tam noklikšķiniet uz **Rediģēt**.
+3. Lai norādītu, ka darbinieks ir avansa turētājs, kopsavilkuma cilnē **Vispārēji** iestatiet opcijas **Avansa turētājs** vērtību **Jā**.
+4. Laukā **Grupa** atlasiet avansa turētāju grupu, kurai pieder darbinieks.
+5. Laukā **Personas identifikācijas dokuments** norādiet detalizētu informāciju par personas identifikācijas dokumentu.
+    - **Sērija** — ievadiet tā dokumenta sēriju, kurš tiek izmantots avansa turētāja identitātes verificēšanai.
+    - **Numurs** — ievadiet tā dokumenta numuru, kurš tiek izmantots avansa turētāja identitātes verificēšanai.
+    - **Izsniegšanas datums** — atlasiet vai ievadiet dokumenta izsniegšanas datumu.
+    - **Izsniedza** — ievadiet detalizētu informāciju par iestādi vai personu, kas izsniedza šo dokumentu.
+6. Atlasiet **Saglabāt** vai aizveriet lapu.
+
+> [!NOTE]
+> Ja lapā **Kreditoru moduļa parametri** ir iestatīta opcijas **Avansa turētāju kārtošana** vērtība **Jā**, lapas **Avansa turētāji** režģa augšpusē tiek parādīti avansa turētāji.
+
 
 ## <a name="advance-holder-inquiries-and-reports"></a>Avansa turētāju pieprasījumi un pārskati
+
 ### <a name="advance-holder-transactions-inquiry"></a>Avansa turētāju transakciju pieprasījums
 
 Lai iegūtu sarakstu ar avansa turētāja transakcijām, lapā **Avansa turētāji** noklikšķiniet uz pogas **Transakcijas**. Lai redzētu transakcijas visiem avansa turētājiem vai lai izveidotu specifisku pieprasījumu, pamatojoties uz avansa turētāja transakcijām, noklikšķiniet uz **Parādi kreditoriem** &gt; **Pieprasījumi un pārskati** &gt; **Avansa turētāju pieprasījumi un pārskati** &gt; Transakcijas. Noklikšķiniet uz vienuma **Dokuments**, lai atvērtu lapu **Dokumentu transakcijas**.
@@ -143,6 +159,7 @@ Pēc pavadzīmju žurnāla apstrādāšanas, ja laukā **Summa pārskaitīšanai
 ## <a name="additional-resources"></a>Papildu resursi
 
 - [Avansa maksājums darbiniekam (Austrumeiropa)](tasks/advance-payment-employee.md)
+- [Avansa turētāji Krievijai](rus-advance-holders.md)
 
 
 

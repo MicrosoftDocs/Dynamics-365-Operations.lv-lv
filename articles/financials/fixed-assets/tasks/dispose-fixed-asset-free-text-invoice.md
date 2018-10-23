@@ -10,41 +10,35 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetTable, AssetBook, LedgerJournalTable, LedgerJournalTransAsset, SysQueryForm
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
+ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 24c7721a1e5467e98e6c4d245f1d8e24a973f5aa
+ms.sourcegitcommit: 92cd1ea0a6ab6039da7074e032e0f78dd7443cba
+ms.openlocfilehash: 1b1c9719f0697e9d5a51b0e769b3f850dc1690e5
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/24/2018
 
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Pamatlīdzekļa izslēgšana, izmantojot brīvā teksta rēķinu
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šī procedūra parāda, kā iegūt pamatlīdzekli, izmantojot iegādes priekšlikumu Pamatlīdzekļu žurnālā. Tas izmanto grāmatveža lomu un demonstrācijas datus USMF juridiskajai personai.
+Šajā sadaļā ir sniegta informācija par to, kā izslēgt pamatlīdzekli, izmantojot brīva teksta rēķinu.
 
-1. Pārejiet uz sadaļu Pamatlīdzekļi > Žurnāla ieraksti > Pamatlīdzekļu žurnāls.
+1. Pārejiet uz sadaļu Debitori > Rēķini > Visi brīva teksta rēķini.
 2. Noklikšķiniet uz Jauns.
-3. Laukā Nosaukums ievadiet vai atlasiet kādu vērtību.
-4. Noklikšķiniet uz Rindas.
-5. Noklikšķiniet uz Priekšlikumi.
-6. Noklikšķiniet uz Pirkšanas priekšlikums.
-7. Noklikšķiniet uz Filtrēt.
-8. Noklikšķiniet uz Atiestatīt un iztīrīt iepriekšējās vērtības.
-9. Atlasiet rindu Pamatlīdzekļa numurs.
-10. Laukā Kritēriji ievadiet vai atlasiet kādu vērtību.
-    * Iestatiet atlikušos kritērijus pamatlīdzekļiem, kurus vēlaties iegūt, izmantojot šo priekšlikumu.  
-11. Noklikšķiniet uz OK.
-12. Noklikšķiniet uz OK.
-    * Pārbaudiet izveidotās transakcijas rindas.  
-    * Tikai pamatlīdzekļi ar iegādes datumu un iegādes cenu, kas ir iestatīta grāmatā, tiks iekļauti iegādes priekšlikumā.  
-13. Noklikšķiniet uz cilnes Grāmatas.
-14. Noklikšķiniet uz Grāmatot.
+3. Laukā Debitora konts ievadiet vai atlasiet kādu vērtību.
+4. Pārbaudiet noklusējuma rēķina datumu un labojiet, ja nepieciešams.
+5. Pārbaudiet atlikušos noklusējuma virsraksta laukus, piemēram, Valūta, un labojiet, ja nepieciešamas.
+6. Ievadiet aprakstu rēķina rindā.
+7. Ievadiet vai atlasiet rēķina rindas galveno kontu.
+8. Pārbaudiet noklusējuma PVN grupu un krājumu PVN grupu.
+9. Ievadiet vienības cenu vai pamatlīdzekļa pārdošanas summu.
+10. Noklikšķiniet uz Detalizēta informācija par rindu.  
+11. Atlasiet pārdodamā pamatlīdzekļa numuru.
+12. Noklikšķiniet uz Grāmatot.
 
 

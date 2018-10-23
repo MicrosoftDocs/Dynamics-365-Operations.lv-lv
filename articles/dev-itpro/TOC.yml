@@ -9,7 +9,7 @@
   items:
     - name: 'Demonstrācijas datu ģenerēšana, izmantojot pakotnes'
       href: data-entities/generate-demo-data-packages.md
-- name: 'Izstrāde un pielāgošana, izmantojot Visual Studio'
+- name: Izstrāde un pielāgošana
   href: dev-tools/developer-home-page.md
   items:
     - name: Programmas steks un servera arhitektūra
@@ -27,7 +27,7 @@
           href: dev-tools/enable-development-machine.md
         - name: 'Bieži uzdotie jautājumi par tādu virtuālo mašīnu izstrādi un būvēšanu, kas neļauj administratora piekļuvi'
           href: sysadmin/VMs-no-admin-access.md
-        - name: 'Lokālo vižu pārdēvēšana, lai piekļūtu pakalpojumiem Visual Studio Team Services'
+        - name: 'Lokālo vižu pārdēvēšana, lai piekļūtu Azure DevOps operācijām'
           href: migration-upgrade/vso-machine-renaming.md
         - name: Izstrādes sistēmas prasības
           href: dev-tools/development-system-requirements.md
@@ -106,9 +106,11 @@
               href: dev-ref/xpp-variables-data-types.md
             - name: 'X++ priekšraksti, cikli un izņēmumu apstrāde'
               href: dev-ref/xpp-statements-loops.md
+            - name: SQL savienojuma kļūdas X++ izņēmums
+              href: dev-ref/sql-connection-error.md
             - name: X++ operatori
               href: dev-ref/xpp-operators.md
-            - name: X++ operatoru prioritāšu secība
+            - name: X++ operatoru prioritārā secība
               href: dev-ref/xpp-operator-precedence.md
             - name: X++ klases un metodes
               href: dev-ref/xpp-classes-methods.md
@@ -247,10 +249,14 @@
               href: extensibility/changes-80.md
             - name: "Paplašināmības izmaiņas, versija\_8.0.1"
               href: extensibility/extensibility-changes-801.md
-            - name: "Paplašināmības izmaiņas, versija\_8.0.2"
+            - name: "Paplašināmības izmaiņas versijā\_8.0.2"
               href: extensibility/extensibility-changes-802.md
-            - name: "Paplašināmības izmaiņas, versija\_8.0.3"
+            - name: "Paplašināmības izmaiņas versijā\_8.0.3"
               href: extensibility/extensibility-changes-803.md
+            - name: "Paplašināmības izmaiņas versijā\_8.0.4"
+              href: extensibility/extensibility-changes-804.md
+            - name: Paplašināmības izmaiņas versijā 8.1
+              href: extensibility/extensibility-changes-81.md
         - name: Pamati
           items:
             - name: Traucējoši pielāgojumi
@@ -914,8 +920,10 @@
           href: gdpr/gdpr-ax2012.md
         - name: VDAR datu pieprasījumi pakalpojumam LCS
           href: gdpr/gdpr-lcs.md
-    - name: Darbvieta Datu validēšanas kontrolsaraksts
+    - name: Datu validēšanas kontrolsaraksta darbvieta
       href: user-interface/data-validation-workspace.md
+    - name: Datu pārvaldības kļūdu apraksti
+      href: data-entities/dm-error-descriptions.md
 - name: Pastāvīga piegāde
   href: dev-tools/continuous-delivery-home-page.md
   items:
@@ -1007,7 +1015,7 @@
       href: ../supply-chain/transportation/create-new-transportation-management-engine.md
 - name: Izvietošana
   items:
-    - name: Demonstrācijas vides izvietošana
+    - name: Demonstrācijas vižu izvietošana
       href: deployment/deploy-demo-environment.md
     - name: Mākoņa izvietošana
       items:
@@ -1109,12 +1117,27 @@
               href: migration-upgrade/migrate-upgraded-cube-entity-store.md
             - name: Budžeta plānošanas jaunināšana
               href: migration-upgrade/upgrade-budget-planning.md
+    - name: Datu migrēšana no AX 2009 uz Finance and Operations
+      href: migration-upgrade/data-migration-tool.md
+      items:
+        - name: AX 2009 migrēšana — datu migrēšanas rīka instalēšana
+          href: migration-upgrade/install-dmt.md
+        - name: AX 2009 migrēšana — karšu ģenerēšana
+          href: migration-upgrade/generate-maps.md
+        - name: AX 2009 migrēšana — veidņu veidošana
+          href: migration-upgrade/create-package-templates-dmt.md
+        - name: AX 2009 migrēšana — migrācijas grupu veidošana
+          href: migration-upgrade/create-definition.md
+        - name: AX 2009 migrācija — pakotņu eksportēšana
+          href: migration-upgrade/ax2009-upgrade-export-package.md
+        - name: AX 2009 migrācija — pakotņu importēšana
+          href: migration-upgrade/ax2009-upgrade-import-package.md
     - name: Koda migrēšana un jaunināšana
       href: migration-upgrade/code-migration-home-page.md
       items:
         - name: Sagatavošanās koda migrēšanai
           href: migration-upgrade/prepare-migration.md
-        - name: Visual Studio Team Services kartējuma konfigurēšana
+        - name: Azure DevOps kartējuma konfigurēšana
           href: migration-upgrade/configure-vso-solution.md
         - name: Modeļu sadalījums
           href: dev-tools/model-split.md
@@ -1124,9 +1147,11 @@
       items:
         - name: Process pāriešanai uz jaunāko atjauninājumu
           href: migration-upgrade/upgrade-latest-update.md
+        - name: Vižu jaunināšana no versijas 8.0 uz 8.1
+          href: migration-upgrade/appupdate-80-81.md
         - name: Programmatūras dzīves cikla politika un mākoņa laidieni
           href: migration-upgrade/versions-update-policy.md
-        - name: Lietot jaunāko platformas atjauninājumu vidēs
+        - name: Jaunākā platformas atjauninājuma lietošana vidēm
           href: migration-upgrade/upgrade-latest-platform-update.md
         - name: "Dynamics AX platformas jaunināšana uz 2016.\_gada augusta izlaidi"
           href: migration-upgrade/update-platform-each-release.md
@@ -1206,7 +1231,7 @@
       items:
         - name: Kārtulu izveide optimizācijas padomniekam
           href: sysadmin/create-rules-optimization-advisor.md
-    - name: Ziņot par ražošanas pārtraukumu
+    - name: Ziņošana par ražošanas pārtraukumu
       href: lifecycle-services/report-production-outage.md
 - name: Lifecycle Services
   items:
@@ -1246,9 +1271,9 @@
       href: lifecycle-services/creating-editing-browsing.md
     - name: Uzdevumu veikšana biznesa procesu modelētājā
       href: lifecycle-services/complete-tasks-bpm.md
-    - name: Darbs ar aktivitātes diagrammām BPM bibliotēkās
+    - name: Darbs ar aktivitāšu diagrammām BPM bibliotēkās
       href: lifecycle-services/using-activity-diagrams.md
-    - name: "BPM\_bibliotēku sinhronizēšana ar Visual Studio Team Services"
+    - name: BPM bibliotēku sinhronizēšana ar Azure DevOps
       href: lifecycle-services/synchronize-bpm-vsts.md
     - name: 'Lietotāju pieņemšanas testa bibliotēku izveide, izmantojot uzdevumu ceļvežus un BPM'
       href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
@@ -1260,13 +1285,17 @@
       href: lifecycle-services/monitoring-diagnostics.md
     - name: Vides pakalpojumu restartēšana
       href: lifecycle-services/restart-environment-services.md
-    - name: Ziņot par ražošanas pārtraukumu
+    - name: Ziņošana par ražošanas pārtraukumu
       href: lifecycle-services/report-production-outage.md
     - name: Lietotāja pierakstīšanās gadījumu izsekošana
       href: lifecycle-services/user-logins.md
     - name: Līdzekļu bibliotēka
       href: lifecycle-services/asset-library.md
-    - name: "Microsoft Dynamics\_365 Translation Service"
+    - name: 'Veiktspējas problēmu novēršana, izmantojot rīkus pakalpojumā LCS'
+      href: lifecycle-services/performancetroubleshooting.md
+    - name: Vaicājumu pavārgrāmata
+      href: lifecycle-services/querycookbook.md
+    - name: Microsoft Dynamics 365 Translation Service
       href: lifecycle-services/translation-service-overview.md
       items:
         - name: Lietotāja interfeisa failu tulkošana

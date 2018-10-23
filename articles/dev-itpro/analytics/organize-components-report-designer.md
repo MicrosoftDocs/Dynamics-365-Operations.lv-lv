@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: c9772d45cf9d9941dd8fe0de13ce624ea3aa3b53
+ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
+ms.openlocfilehash: 3f2b34cccfd84a9e4bb76e7a1da64e5cefa9982e
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
+ms.lasthandoff: 09/27/2018
 
 ---
 
@@ -37,12 +37,9 @@ Atskaišu veidotājā varat pārdēvēt mapes, atskaites, veidošanas blokus un 
 ## <a name="rename-a-folder-or-building-block-in-report-designer"></a>Pārdēvējiet mapi vai veidošanas bloku Pārskata veidotājā
 Pārskatu veidotājā varat pārdēvēt mapes, pārskatu definīcijas, rindu definīcijas, kolonnu definīcijas un pārskatu koku definīcijas.
 
-> [!NOTE]
-> Kad pārdēvējat kādu veidošanas bloku, ir jāatjaunina visas atskaišu definīcijas, kas izmanto šo veidošanas bloku. Pretējā gadījumā nevar ģenerēt jaunu atskaiti.
+### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Mapes vai veidošanas bloka pārdēvēšana pārskatu veidotājā
 
-### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Pārdēvējiet mapi vai veidošanas bloku Pārskata veidotājā
-
-1. Pārskatu veidotājā, izmantojiet navigācijas rūti, lai atrastu mapi vai objektu pārdēvēšanai.
+1. Pārskatu veidotājā izmantojiet navigācijas rūti, lai atrastu pārdēvējamo mapi vai objektu.
 2. Ar peles labo pogu noklikšķiniet uz mapes vai objekta, un pēc tam noklikšķiniet uz **Pārdēvēt**. Lauks **Nosaukums** navigācijas rūtī kļūst pieejams.
 3. Ierakstiet jauno nosaukumu, un tad nospiediet taustiņu Enter.
 4. Ja veidošanas bloks ir rindas definīcija, kolonnas definīcija vai atskaišu koka definīcija, tad jums ir nepieciešams atjaunināt pārējos veidošanas blokus, kas ar to ir saistīti. Ar peles labo pogu noklikšķiniet uz veidošanas bloka, kuru pārdēvēt 3. darbībā, atlasiet vienumu **Saistības** un pēc tam sarakstā atlasiet vienumu, lai to atjauninātu.

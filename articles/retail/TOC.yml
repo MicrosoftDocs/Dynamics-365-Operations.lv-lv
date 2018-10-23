@@ -6,16 +6,18 @@
       href: get-started/whats-new.md
     - name: Pirms Retail iegādes
       href: get-started/before-you-buy.md
-    - name: Reģistrācija priekšskatījuma abonementam
+    - name: Reģistrēšanās priekšskatījuma abonementam
       href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json
     - name: Demonstrācijas vides izvietošana
       href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
-    - name: Izvietošanas iespējas
+    - name: Izvietošanas opcijas
       href: dev-itpro/choose-deployment.md
+    - name: Atbalsta saņemšana saistībā ar Retail
+      href: retail-support.md
 - name: Ieviešanas dzīves cikla izprašana
   href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
   items:
-    - name: "Microsoft FastTrack for Dynamics\_365"
+    - name: Microsoft FastTrack for Dynamics 365
       href: ../fin-and-ops/get-started/fasttrack-dynamics-365-overview.md
     - name: Pievienošana
       href: ../fin-and-ops/imp-lifecycle/onboard.md
@@ -37,9 +39,9 @@
       href: ../fin-and-ops/get-started/implement-multiple-projects-aad-tenant.md
     - name: Finance and Operations Retail projektu ieviešana
       href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
-    - name: 'Jaunas vides, VSTS un zaru iestatīšana Retail projektiem'
+    - name: 'Jaunu vižu, Azure DevOps un zaru iestatīšana Retail projektiem'
       href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
-    - name: Koda un vides atjaunināšana Retail projektiem
+    - name: Koda un vižu atjaunināšana Retail projektiem
       href: dev-itpro/updating-environments.md
     - name: Testēšanas un veiktspējas problēmas
       href: dev-itpro/retail-implementation-testing-performance.md
@@ -303,8 +305,16 @@
       href: ../talent/departments-jobs-positions.md
     - name: Darba komponentu iestatīšana
       href: ../talent/create-job.md
-- name: Lokalizācijas un normatīvie līdzekļi
+- name: ​Lokalizācijas un normatīvie līdzekļi
   items:
+    - name: Austrumeiropa
+      items:
+        - name: Avansa rēķini programmai Retail Austrumeiropā
+          href: localizations/emea-eeu-advance-invoices-for-retail.md
+        - name: Mazo kases posteņu pārvaldība programmai Retail Austrumeiropā
+          href: localizations/emea-eeu-petty-cash-for-retail.md
+        - name: Retail debitoru rēķini un atgriešanas pārdošanas pasūtījumi Austrumeiropas valstīs
+          href: localizations/emea-eeu-retail-invoices.md
     - name: Francija
       items:
         - name: Kases sistēmas funkcionalitāte
@@ -317,6 +327,8 @@
           href: localizations/apac-ind-cash-registers.md
         - name: Izvietošanas vadlīnijas kases sistēmām
           href: localizations/apac-ind-loc-deployment-guidelines.md
+        - name: Atbalsts jaunināšanai un N-1 Indijai
+          href: localizations/apac-ind-n-1-for-india.md
     - name: Norvēģija
       items:
         - name: Kases sistēmas funkcionalitāte
