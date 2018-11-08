@@ -1,6 +1,6 @@
 - name: "Esiet sveicināti risinājumā Dynamics\_365 for\_Retail"
   href: index.md
-- name: Sākt darbu
+- name: Darba sākšana
   items:
     - name: Jaunumi un izmaiņas
       href: get-started/whats-new.md
@@ -14,10 +14,12 @@
       href: dev-itpro/choose-deployment.md
     - name: Atbalsta saņemšana saistībā ar Retail
       href: retail-support.md
+    - name: Bieži uzdotie jautājumi par vienas versijas pakalpojuma atjauninājumiem
+      href: ../fin-and-ops/get-started/one-version.md
 - name: Ieviešanas dzīves cikla izprašana
   href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
   items:
-    - name: Microsoft FastTrack for Dynamics 365
+    - name: "Microsoft FastTrack for Dynamics\_365"
       href: ../fin-and-ops/get-started/fasttrack-dynamics-365-overview.md
     - name: Pievienošana
       href: ../fin-and-ops/imp-lifecycle/onboard.md
@@ -139,14 +141,12 @@
       href: demo-data.md
     - name: Preču un klientu meklēšana POS
       href: POS-search-improvements.md
-    - name: Krājumu uzmeklēšana POS
+    - name: Krājumu uzmeklēšana punktā POS
       href: product-variants-POS.md
     - name: Aparatūras perifērijas ierīces
       items:
         - name: Mazumtirdzniecības perifērijas ierīces
           href: retail-peripherals-overview.md
-        - name: Microsoft pārbaudītas POS aparatūras perifērijas ierīces
-          href: microsoft-tested-pos-hardware-peripherals.md
         - name: Mazumtirdzniecības perifērijas ierīču simulators
           href: dev-itpro/retail-peripheral-simulator.md
         - name: Perifērijas ierīču savienošana ar POS
@@ -229,7 +229,9 @@
       href: set-up-rfm-analysis.md
 - name: Atlaides un cenu korekcijas
   items:
-    - name: Retail pārdošanas cenu pārvaldība
+    - name: Mazumtirdzniecības atlaides
+      href: retail-discounts-overview.md
+    - name: Mazumtirdzniecības pārdošanas cenu pārvaldība
       href: price-management.md
     - name: Cenu korekcijas un atlaides
       href: price-adjustments-discounts.md
@@ -271,11 +273,11 @@
       href: ../supply-chain/pim/search-products-product-variants.md
 - name: Lojalitātes programma
   items:
-    - name: Debitoru lojalitātes programmu iestatīšana
+    - name: Lojalitātes programmas pārskats
       href: set-up-customer-loyalty-program.md
-- name: Krājums
+- name: Krājumi
   items:
-    - name: Veikala krājumu vadība
+    - name: Veikala krājumu pārvaldība
       href: work-with-store-inventory.md
     - name: Sērijas numuru reģistrēšana pārdošanas procesā
       href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md
@@ -307,6 +309,8 @@
       href: ../talent/create-job.md
 - name: ​Lokalizācijas un normatīvie līdzekļi
   items:
+    - name: Mazumtirdzniecības kanāla finanšu integrācija
+      href: localizations/fiscal-integration-for-retail-channel.md
     - name: Austrumeiropa
       items:
         - name: Avansa rēķini programmai Retail Austrumeiropā
@@ -315,6 +319,8 @@
           href: localizations/emea-eeu-petty-cash-for-retail.md
         - name: Retail debitoru rēķini un atgriešanas pārdošanas pasūtījumi Austrumeiropas valstīs
           href: localizations/emea-eeu-retail-invoices.md
+        - name: 'Izvietošanas vadlīnijas kases sistēmām Čehijā, Ungārijā un Polijā'
+          href: localizations/emea-eeu-deployment.md
     - name: Francija
       items:
         - name: Kases sistēmas funkcionalitāte
@@ -329,6 +335,10 @@
           href: localizations/apac-ind-loc-deployment-guidelines.md
         - name: Atbalsts jaunināšanai un N-1 Indijai
           href: localizations/apac-ind-n-1-for-india.md
+    - name: Itālija
+      items:
+        - name: Fiskālā printera integrācija
+          href: localizations/emea-ita-fpi-sample.md
     - name: Norvēģija
       items:
         - name: Kases sistēmas funkcionalitāte
@@ -490,6 +500,8 @@
           href: dev-itpro/pos-custom-control.md
         - name: 'POS operāciju pievienošana POS izkārtojumiem, izmantojot pogu režģa noformētāju'
           href: dev-itpro/add-POS-operations.md
+        - name: Retail POS API
+          href: dev-itpro/POS-APIs.md
         - name: POS maksājumu paplašinājums
           href: dev-itpro/pos-payment-extension.md
         - name: Atbalsts ārējām dāvanu kartēm

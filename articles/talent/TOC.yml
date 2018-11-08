@@ -1,12 +1,21 @@
-- name: "Laipni lūdzam programmā Dynamics\_365 for\_Talent!"
+- name: "Dynamics\_365 for Talent"
   href: index.md
   items:
-    - name: Sākt darbu
+    - name: Darba sākšana
       href: talent-get-started.md
       items:
         - name: Jaunumi un izmaiņas
+          href: whats-new.md
           items:
-            - name: Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 1. oktobris)
+            - name: "Jaunumi un izmaiņas programmā Dynamics\_365 for Talent Core HR (2018.\_gada 31.\_oktobris)"
+              href: whats-new-talent-october-31.md
+            - name: "Jaunumi un izmaiņas programmā Dynamics\_365 for Talent Core HR (2018.\_gada 19.\_oktobris)"
+              href: whats-new-talent-october-19.md
+            - name: "Jaunumi un izmaiņas programmā Dynamics\_365 for Talent Core HR (2018.\_gada 15.\_oktobris)"
+              href: whats-new-talent-october-11.md
+            - name: "Jaunumi un izmaiņas programmā Dynamics\_365 for Talent Core HR (2018.\_gada 8.\_oktobris)"
+              href: whats-new-talent-october-8.md
+            - name: "Jaunumi un izmaiņas programmā Dynamics\_365 for Talent Core HR (2018.\_gada 1.\_oktobris)"
               href: whats-new-talent-october-01.md
             - name: Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 24. septembris)
               href: whats-new-talent-september-24.md
@@ -30,6 +39,8 @@
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Core HR un Common Data Service programmām
           href: CoreHREntities.md
+        - name: Integrācijas
+          href: talent-financeandoperations-integration.md
         - name: Piekļuve priekšskatījuma līdzekļiem
           href: access-preview-feature.md
         - name: Talent un Dayforce algu aprēķina integrācijas konfigurēšana
@@ -64,7 +75,35 @@
       items:
         - name: Attract līdzekļi un iespējas
           href: attract-overview.md
-        - name: Aizraujošas pievienošanas pieredzes izveidošana
+        - name: Procesa veidnes izveide pakalpojumā Attract
+          href: Process-templates-Attract.md
+        - name: 'Darbu izveide, apstiprināšana un grāmatošana pakalpojumā Attract'
+          href: Creating-jobs-Attract.md
+        - name: 'Plānošana, izmantojot potenciālo kandidātu kopas'
+          href: attract-talent-pools.md
+        - name: 'Plānošana, izmantojot rīku LinkedIn Recruiter'
+          href: attract-linked-in-recruiter.md
+        - name: Darbā pieņemšanas procesa aktivitātes pakalpojumā Attract
+          href: activities-attract.md
+        - name: Paplašināmība
+          href: extensibility-attract.md
+        - name: Karjeras vietne un kandidātu pieredzes
+          href: career-site.md
+        - name: Piedāvājumu pārraudzības iestatīšana
+          href: offer-setup.md
+        - name: 'Piedāvājumu izveide, apstiprināšana un parakstīšana'
+          href: creating-offers.md
+        - name: E-pasta veidņu izveide un pārvaldība
+          href: email-templates.md
+        - name: Pārskatu veidošana un analīze
+          href: Reporting-Analytics-Attract.md
+        - name: Drošības un lomu pārvaldība pakalpojumā Attract
+          href: security-attract.md
+        - name: Administratora iestatījumi pakalpojumā Attract
+          href: Admin-Settings-Attract.md
+        - name: Inteliģentie ieteikumi
+          href: Intelligent-Recommendations.md
+        - name: Aizraujošas pievienošanās pieredzes izveidošana
           href: create-onboarding-experience.md
     - name: Darbinieku motivācija
       items:
