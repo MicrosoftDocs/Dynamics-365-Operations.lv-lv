@@ -17,10 +17,10 @@ ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: 4c27e0f75a45a2e4290ec4b6f72ee67d792449a0
+ms.sourcegitcommit: a8c033caa8a4c4cf579ec166dce7a9982408d816
+ms.openlocfilehash: 0c492cd76fc9742aa4cff8fe588541cb2c6f1863
 ms.contentlocale: lv-lv
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 10/11/2018
 
 ---
 
@@ -40,7 +40,7 @@ Kreditorus varat kopēt starp dažādām juridiskajām personām arī tad, ja iz
 
 ## <a name="copy-a-vendor"></a>Kreditora kopēšana
 
-Lai kopētu kādu kreditoru, atlasiet **Jauns** saraksta lapā **Visi kreditori**, tādējādi atverot lapu **Visi kreditori, jauns ieraksts**. Ņemiet vērā, ka jaunais kreditora ID netiek piešķirts nekavējoties. Šī uzvedība atšķiras no uzvedības iepriekšējās Microsoft Dynamics 365 for Finance and Operations versijās. Tā kā jūs vēl neesat atlasījis kreditoru grupu, sistēma nevar noteikt, kura numuru sērija ir jāizmanto. Turklāt tā nevar noteikt, vai jūs mēģināt izveidot jaunu kreditoru vai kopēt jau esošu kreditoru. Tādēļ kreditora ID tiek piešķirts tikai pēc tam, kad lapas apakšā atlasāt **Saglabāt**.
+Lai kopētu kādu kreditoru, saraksta lapā **Visi kreditori** atlasiet vienumu **Jauns**, lai atvērtu lapu **Visi kreditori, jauns ieraksts**. Ņemiet vērā, ka jaunais kreditora ID netiek piešķirts uzreiz. Šī uzvedība atšķiras no uzvedības iepriekšējās Microsoft Dynamics 365 for Finance and Operations versijās. Tā kā jūs vēl neesat atlasījis kreditoru grupu, sistēma nevar noteikt, kura numuru sērija ir jāizmanto. Turklāt tā nevar noteikt, vai jūs mēģināt izveidot jaunu kreditoru vai kopēt jau esošu kreditoru. Tādēļ kreditora ID tiek piešķirts tikai pēc tam, kad lapas apakšā atlasāt **Saglabāt**.
 
 Ja veidojat jaunu kreditoru, varat turpināt ar visu lauku aizpildīšanu kā parasti. Kad esat beidzis un atlasāt **Saglabāt**, varat redzēt, ka kreditora ID tika piešķirts automātiski. Savukārt manuālām numuru sērijām varēsit redzēt, ka tika izmantots jūsu manuālais kreditora ID.
 
