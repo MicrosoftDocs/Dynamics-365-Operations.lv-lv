@@ -25,6 +25,7 @@ ms.lasthandoff: 09/24/2018
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Pamatlīdzekļa izslēgšana, izmantojot brīvā teksta rēķinu
 
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šajā sadaļā ir sniegta informācija par to, kā izslēgt pamatlīdzekli, izmantojot brīva teksta rēķinu.
 
