@@ -50,11 +50,12 @@ Sagādei un avotiem ir pieejami šādi darbplūsmu veidi.
 | Kreditoru pievienošanas pieteikumu darbplūsma  | Izveidot pārskatīšanas un apstiprināšanas darbplūsmas jaunu piegādātāju pievienošanai, izmantojot piegādātāju pieprasījumus. |
 
 ## <a name="creating-a-workflow"></a>Darbplūsmas izveide
+
 Lai izveidotu darbplūsmu, pārejiet uz sadaļu Sagāde un avoti &gt; Iestatījumi &gt; Sagādes un avotu darbplūsmas un izveidojiet jaunu darbplūsmu, atlasot izveidojamās darbplūsmas veidu.  
 
 Darbplūsmas audeklā varat vilkt darbplūsmas elementus uz veidotāju un saistīt elementus plūsmā. Darbplūsmas elementi ir jākonfigurē. Apstiprinājumam un uzdevuma darbplūsmas elementiem var konfigurēt to, kuram dalībniekam jāveic darbība.
-Dalībnieku tipi
-----------------------
+
+## <a name="types-of-participants"></a>Dalībnieku tipi
 
 Apstiprināšanas darbību varat piešķirt šādām dalībnieku grupām.
 
@@ -68,13 +69,12 @@ Apstiprināšanas darbību varat piešķirt šādām dalībnieku grupām.
 
 
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
-[Biznesa procesu darbplūsmu definēšana pirkšanas pieprasījumiem](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
+- [Biznesa procesu darbplūsmu definēšana pirkšanas pieprasījumiem](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Pirkšanas pieprasījuma darbplūsma](purchase-requisitions-workflow.md)
+- [Pirkšanas pieprasījuma darbplūsma](purchase-requisitions-workflow.md)
 
-[Kreditoru pievienošana](vendor-onboarding.md)
+- [Kreditoru pievienošana](vendor-onboarding.md)
 
 
