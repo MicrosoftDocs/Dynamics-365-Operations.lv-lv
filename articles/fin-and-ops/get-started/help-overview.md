@@ -3,7 +3,7 @@ title: "Finance and Operations palīdzības sistēma"
 description: "Šajā tēmā ir sniegts pārskats par programmas Microsoft Dynamics 365 for Finance and Operations palīdzības sistēmas komponentiem. Tajā ir arī paskaidrots, kā savai organizācijai varat sniegt pielāgotu dokumentāciju un apmācību."
 author: margoc
 manager: AnnBe
-ms.date: 07/12/2018
+ms.date: 10/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
-ms.openlocfilehash: 3f18a5d7b7f7639b864f579b758005c7a30803a2
+ms.sourcegitcommit: 75be5c5f675885aececb8ac0b25e699882ea77ab
+ms.openlocfilehash: dc2a3d49041acf42814149eb71d4cc021bdad838
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
+ms.lasthandoff: 10/17/2018
 
 ---
 
@@ -45,14 +45,14 @@ Finance and Operations ietver palīdzības sistēmu, kuras pamatā ir divi galve
 -   Dokumentācijas vietne
 -   Uzdevumu ceļveži
 
-Palīdzības tēmām un uzdevumu ceļvežiem varat piekļūt no jūsu izmantotā produkta palīdzības rūts. Nākamajos ekrānuzņēmumos ir redzama programmatūra Dynamics 365 for Finance and Operations
+Palīdzībai varat piekļūt no rūts Palīdzība jebkurā jūsu lietotajā produktā. Nākamajos ekrānuzņēmumos ir redzama programma Finance and Operations.
 
 ![Rūts Palīdzība](./media/help-pane-ops-task-guides.png)
 
 Šajā tēmā ir aprakstīta palīdzības sistēma un paskaidrots, kā varat izveidot pielāgotu dokumentāciju un apmācības resursus savai organizācijai.
 
 > [!IMPORTANT]
-> Cilne **Uzdevumu ceļveži** pašlaik nav pieejama versijā Microsoft Dynamics 365 for Talent un Microsoft Dynamics 365 for Retail. Mēs pašlaik strādājam pie tā, šo funkcionalitāti iespējotu nākamajos laidienos. Uzdevumu ceļveži versijas Talent funkcionalitātē Darba sākšana joprojām ir pieejami pamata funkcionalitātes segšanai. Palīdzība saistībā ar procedūrām ir pieejama arī vietnē docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) gan versijai Retail, gan versijai Talent.
+> **Uzdevumu ceļveži** šobrīd nav pieejami programmai Retail vai rūtī Palīdzība programmai Talent (daži uzdevumu ceļveži ir pieejami Talent rūtī Darba sākšana). Palīdzība saistībā ar procedūrām gan programmai Retail, gan programmai Talent ir pieejama vietnē docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)).
 
 ## <a name="help-on-docsmicrosoftcom"></a>Palīdzība vietnē docs.microsoft.com
 
@@ -64,17 +64,16 @@ Vietne docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operatio
 -   **Saturs, kas veicina jūsu biznesa procesus** — vietnē ir ietverts ar biznesa procesiem saistīts saturs, kas tiek nodrošināts, izmantojot biznesa procesu modelētāju (BPM) pakalpojumos Microsoft Dynamics Lifecycle Services (LCS).
 
 ### <a name="searching-on-docsmicrosoftcom"></a>Meklēšana vietnē docs.microsoft.com
-Mēs saņemam daudz jautājumu par to, kā meklēt mūsu saturu. Ja sākat meklēšanu mūsu vietnes lapā par Finance and Operations, meklēšana tiek koncentrēta uz Finance and Operations saturu. Varat noņemt koncentrēšanu, noklikšķinot uz simbola X, kas atrodas blakus tekstam Darbības meklēšanas lodziņā. 
+Mēs saņemam daudz jautājumu par to, kā meklēt mūsu saturu. Ja sākat meklēšanu mūsu vietnes lapā par Finance and Operations, meklēšana tiek koncentrēta uz Finance and Operations saturu. Šo koncentrēšanu varat noņemt, noklikšķinot uz simbola X, kas meklēšanas lodziņā atrodas blakus uzrakstam Unified Operations. 
 
 ![Meklēšana](./media/search-scope-2.png)
 
 Varat arī atrast mūsu saturu, izmantojot jebkuru meklēšanas programmu. Lai iegūtu vislabākos rezultātus, ieteicams izmantoto meklēšanu vietnē, piemēram, site:docs.microsoft.com dynamics 365 “meklējamais vārds vai frāze”.  
 
 ### <a name="the-docsmicrosoftcom-table-of-contents"></a>Vietnes docs.microsoft.com satura rādītājs
-Programmām Finance and Operations, Retail un Talent dokumentācijas vietnē ir kopīgs satura rādītājs, kas sniedz klientiem iespēju skatīt attiecīgās tēmas kontekstu. Tas arī sniedz iespēju izmantot virs satura rādītāja esošo vadīklu Filtrs, lai atrastu jums vajadzīgā tēmu.
+Programmām Finance and Operations un Retail dokumentācijas vietnē ir kopīgs satura rādītājs, kas sniedz klientiem iespēju skatīt attiecīgās tēmas kontekstu. Tas arī sniedz iespēju izmantot virs satura rādītāja esošo vadīklu Filtrs, lai atrastu jums vajadzīgā tēmu. 
 
-### <a name="follow-a-topic"></a>Sekošana tēmai
-Lai sekotu tēmai, noklikšķiniet uz pogas +Sekot, kas atrodas zem komentāru lodziņa. Lai varētu sekot tēmai, ir jāpiesakās. Papildinformāciju skatiet sadaļā [Atsauksmes pievienošana](#leave-us-feedback).  
+Palīdzību saistībā ar citiem Dynamics 365 produktiem varat iegūt, tos meklējot vai noklikšķinot uz Dynamics 365 vietnes atpakaļceļā, lai pārietu uz mūsu centrmezgla lapu. 
 
 ### <a name="use-an-rss-feed"></a>RSS plūsmas izmantošana
 Lai abonētu visu Unified Operations satura atjauninājumu RSS plūsmu, izmantojiet tālāk norādīto saiti pārlūkprogrammā, kas atbalsta RSS plūsmas, piemēram, Internet Explorer, vai RSS plūsmu pārvaldnieku. 
@@ -89,7 +88,7 @@ Ja vēlaties sniegt atsauksmes vai uzdot jautājumu par tēmu, pievienojiet kome
 
 1. Noklikšķiniet uz **Atsauksmes**, lai pārietu uz lapas apakšdaļā esošo komentāru sadaļu, un pēc tam noklikšķiniet uz **Atsauksmes par produktu** vai **Pierakstīties, lai sniegtu atsauksmes par dokumentāciju**.
 
-![Dati](./media/comments.png)
+![Atsauksmes](./media/comments.png)
 
 2. Ievadiet komentārus un pēc tam noklikšķiniet uz **Iesniegt atsauksmes**.
 
@@ -106,17 +105,18 @@ Lai iegūtu sīkāku informāciju, skatiet mūsu līdzstrādnieku rokasgrāmatu 
 
 
 > [!NOTE]
-> Pašlaik varat līdzdarboties tikai mūsu angļu valodas repozitoriju satura veidošanā.  
+> Pašlaik tiek pieņemta līdzdarbošanās tikai mūsu angļu valodas satura veidošanā.  
 
 
 ## <a name="task-guides"></a>Uzdevumu ceļveži
 Uzdevuma ceļvedis ir kontrolēts, strukturēts, interaktīvs līdzeklis, kas palīdz veikt uzdevuma vai biznesa procesa darbības. Uzdevumu ceļvežus varat atvērt (atskaņot) rūtī Palīdzība. Kad pirmo reizi noklikšķināta uz kāda uzdevuma ceļveža, rūtī Palīdzība tiek parādīti detalizēti šī uzdevuma veikšanas norādījumi. Tagad ir pieejami lokalizēti uzdevumu ceļveži. 
 
-Mēs sniedzam dažādas uzdevumu ceļvežus kopas katrai precei, piemēram, Dynamics 365 for Retail, Dynamics 365 for Finance and Operations vai Dynamics 365 for Talent. Palīdzības rūts sadaļā Piekļuve uzdevumu ceļvežiem ir aprakstīts, kā atrast jūsu produktam atbilstošos uzdevumu ceļvežus. 
+Programmai Finance and Operations Microsoft nosūtīja uzdevumu ceļvežu bibliotēkas 2017. gada decembrī. Sadaļā [Piekļuve uzdevumu ceļvežiem rūtī Palīdzība](help-overview.md#accessing-task-guides-from-the-help-pane) ir aprakstīts, kā atrast savam produktam atbilstošos uzdevumu ceļvežus. 
 
 ![Uzdevuma ceļveža lasīšanas skats](./media/task-guide-ops.png)
 
 Lai sāktu strukturēto, interaktīvo pieredzi, noklikšķiniet uz vienuma **Sākt uzdevuma ceļvedi** rūts Palīdzība apakšā. Tiek atvērts melns rādītājs, un tas norāda uz darbību, kas jums ir jāveic. Izpildiet norādījumus, kas tiek parādīti UI, un ievadiet datus saskaņā ar norādījumiem. 
+
 ![Uzdevuma ceļveža darbības norādījums](./media/task-guide-step-1-ops.png)
 
 > [!IMPORTANT] 
@@ -126,7 +126,11 @@ Lai sāktu strukturēto, interaktīvo pieredzi, noklikšķiniet uz vienuma **Sā
 
 Uzdevumu ceļveži tiek veidoti, izmantojot uzdevumu ierakstītāju. Kad lietojat uzdevumu ierakstītāju, tiek ierakstītas visas darbības, ko izpildāt programmatūras Finance and Operations lietotāja interfeisā (UI) (piemēram, klikšķināšana uz izvēlnēm, iestatījumu mainīšana un datu ievadīšana). Ierakstītās darbības kopā tiek sauktas par uzdevuma ierakstu. Kā paskaidrots iepriekšējā sadaļā, uzdevumu ierakstus var parādīt rūtī Palīdzība un atskaņot kā uzdevumu ceļvežus. Taču uzdevumu ierakstus varat izmantot arī citos veidos:
 
--   **Uzdevumu ierakstus saglabāt BPM** — uzdevumu ierakstus varat saglabāt kādā hierarhijas rindā BPM bibliotēkā, kas atrodas LCS. Kad uzdevuma ierakstu saglabājat BPM, kopā ar ieraksta darbībām tiek ģenerēta un paradīta plūsmkartes diagramma. **Piezīme.** Lai uzdevumu ierakstu parādītu Finance and Operations rūtī Palīdzība un to atskaņotu kā uzdevuma ceļvedi, šis ieraksts jums ir jāsaglabā BPM bibliotēkā.
+-   **Uzdevumu ierakstus saglabāt BPM** — uzdevumu ierakstus varat saglabāt kādā hierarhijas rindā BPM bibliotēkā, kas atrodas LCS. Kad uzdevuma ierakstu saglabājat BPM, kopā ar ieraksta darbībām tiek ģenerēta un paradīta plūsmkartes diagramma. 
+
+    > [!Note]
+    > Lai uzdevumu ierakstu parādītu Finance and Operations rūtī Palīdzība un to atskaņotu kā uzdevuma ceļvedi, šis ieraksts jums ir jāsaglabā BPM bibliotēkā.
+    
 -   **Uzdevumu ierakstus saglabāt kā Word dokumentus** — uzdevuma ierakstu saglabājot kā Microsoft Word dokumentu, savai organizācijai varat ērti sagatavot drukājamus apmācību ceļvežus.
 
 Papildinformāciju par uzdevumu ierakstītāju skatiet tēmā [Uzdevumu ierakstītājs programmatūrā Finance and Operations](../../dev-itpro/user-interface/task-recorder.md).
@@ -142,7 +146,7 @@ Lai piekļūtu palīdzības saturam programmatūrā Finance and Operations, nokl
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Piekļuve palīdzības tēmām no rūts Palīdzība
 
-Rūtī Palīdzība varat piekļūt rakstiem, kas attiecas uz Finance and Operations klientu. Kad rūti Palīdzība atverat pirmo reizi un noklikšķināt uz cilnes **Vikivietne**, tiek parādīti raksti, kas attiecas uz programmatūrā Finance and Operations pašlaik atvērto lapu. Ja nav atrasts neviens raksts, varat ievadīt atslēgvārdus, lai precizētu meklēšanu. Kad rūtī Palīdzība noklikšķināt uz kāda raksta, pārlūkprogrammā tiek atvērta jauna cilne un tiek parādīts šis raksts. 
+Rūtī Palīdzība varat piekļūt rakstiem, kas attiecas uz Finance and Operations klientu. Kad rūti Palīdzība atverat pirmo reizi un noklikšķināt uz cilnes **Palīdzība**, tiek parādīti raksti, kas attiecas uz programmatūrā Finance and Operations pašlaik atvērto lapu. Ja nav atrasts neviens raksts, varat ievadīt atslēgvārdus, lai precizētu meklēšanu. Kad rūtī Palīdzība noklikšķināt uz kāda raksta, pārlūkprogrammā tiek atvērta jauna cilne un tiek parādīts šis raksts. 
 
 > [!IMPORTANT]
 > Šī sadaļa neattiecas uz Dynamics 365 for Talent. Programmatūras Talent palīdzības sistēmai tiek automātiski izveidots savienojums ar produkta uzdevumu ceļvežiem. Tāpat programmatūrai Talent nevar izveidot pielāgotus uzdevumu ceļvežus. 
@@ -160,7 +164,9 @@ Lai rūtī Palīdzība varētu piekļūt uzdevumu ceļvežiem, sistēmas adminis
 Lapā **Sistēmas parametri** izpildiet šādas darbības:
 
 1.  **Svarīgi!** Kad cilni Palīdzība atverat pirmo reizi, ir jāizveido savienojums ar pakalpojumiem Lifecycle Services. Noteikti noklikšķiniet uz saites formas vidū, uzgaidiet, līdz tiek izveidots savienojums, aizveriet dialoglodziņu un pēc tam noklikšķiniet uz **Labi**, lai piekļūtu parametru formai.
+
 ![Izveidot savienojumu ar LCS](./media/connect-to-lcs-crop-1024x365.png)
+
 2.  Atlasiet Lifecycle Services projektu, ar kuru izveidot savienojumu.
 3.  Atlasiet BPM bibliotēkas (atlasītajā projektā), no kurām izgūt uzdevumu ierakstus.
     - Saistībā ar programmatūru Finance and Operations un Microsoft saturu atlasiet 2017. gada februāra QPC vienoto bibliotēku programmatūrai Microsoft Dynamics 365 for Finance and Operations. 
@@ -173,38 +179,29 @@ Kad sistēmas administrators ir izpildījis šīs darbības, varat atvērt rūti
 
 ![Uzdevuma ceļveža lasīšanas skats](./media/task-guide-ops.png)
 
-### <a name="where-are-the-translated-task-guides"></a>Kur ir pieejami tulkotie uzdevumu ceļveži?
+### <a name="where-are-the-translated-task-guides-for-microsoft-libraries"></a>Kur atrodas tulkotie uzdevumu ceļveži Microsoft bibliotēkām?
 
 Tulkotie uzdevumu ceļveži tiek izlaisti bibliotēkās, kuru nosaukumā ir vārdi “visas valodas”. Lai programmā Finance and Operations skatītu lokalizēto uzdevumu ceļvežu palīdzību, pārliecinieties, ka ir izveidots savienojums ar atbilstošo bibliotēku. Uzdevuma ceļveža rādīšanas valodu katram lietotājam var norādīt, izmantojot valodas iestatījumus sadaļā **Opcijas** &gt; **Preferences**. 
 -   Ja kāds uzdevumu ceļvedis ir iztulkots, kad atverat šo uzdevumu ceļvedi, viss šī uzdevuma ceļveža teksts tiek rādīts jūsu izvēlētajā valodā.
 -   Ja kāds uzdevumu ceļvedis vēl nav iztulkots, kad to atverat, jūsu izvēlētajā valodā tiek rādīta tikai daļa teksta (vadīklu teksts).
 
 ## <a name="additional-resources"></a>Papildu resursi
-Šajā tabulā ir uzskaitītas mūsu tīmekļa vietnes. Mūsu satura vietnes ir sakārtotas tā, lai atbalstītu debitoru lietošanas ciklu. Katru fāzi atbalsta cita vietņu kopa. Vietnēs, pie kuru nosaukuma ir zvaigznīte (\*), ir jāpierakstās, izmantojot ar pakalpojumu plānu saistīto kontu.
+
+- [Finance and Operations palīdzības sistēma (lejupielādējama informācijas lapa)](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
+- [Uzdevumu ierakstītājs](../../dev-itpro/user-interface/task-recorder.md)
+- [Dokumentācijas vai apmācības veidošana, izmantojot uzdevumu ierakstus](../../dev-itpro/user-interface/task-recorder.md)
+
+Šajā tabulā ir uzskaitītas mūsu tīmekļa vietnes. Vietnēs, pie kuru nosaukuma ir zvaigznīte (\*), ir jāpierakstās, izmantojot ar pakalpojumu plānu saistīto kontu.
 
 | Atrašanās vieta                                                                     | Apraksts                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Docs.microsoft.com](/dynamics365/) | Vieso vai sniedz saites uz visu produktu dokumentāciju programmatūrai Dynamics 365.                                                                                                                                                               |
-| [Lifecycle Services](http://lcs.dynamics.com/en/)\*                      | Sniedz mākonī pieejamu sadarbības darbvietu, ko klienti un partneri var izmantot, lai pārvaldītu Dynamics 365 for Finance and Operations projektus no pirmspārdošanas līdz ieviešanai un operācijām. Šī vietne ir noderīga visām ieviešanas fāzēm. |
-| [CustomerSource](http://www.customersource.com/)\*                       | Vieso plašu apmācības resursu klāstu un ir primārā atbalsta vietne programmatūrai Dynamics 365 for Finance and Operations. Iespējams, ir nepieciešams pierakstīties, lai piekļūtu specifiskiem vietnes resursiem.                                                                      |
+| [Microsoft Learn](https://docs.microsoft.com/learn/) | Microsoft bezmaksas elektroniskās apmācības vietne.                                                                                                                                                               |
+| [Lifecycle Services](https://lcs.dynamics.com/en/)\*                      | Sniedz mākonī pieejamu sadarbības darbvietu, ko klienti un partneri var izmantot, lai pārvaldītu Dynamics 365 for Finance and Operations projektus no pirmspārdošanas līdz ieviešanai un operācijām. Šī vietne ir noderīga visām ieviešanas fāzēm. |
 | [Atbalsta emuārs](http://aka.ms/AXSupportBlog)                              | Sniedz padomus un metodes, ko publicē Dynamics 365 for Finance and Operations atbalsta darba grupa.                                                                                                                                                  |
-| [MSDN](http://aka.ms/AXMSDN)                                             | Vieso saturu no iepriekšējiem laidieniem, kas ir rakstīts izstrādātājiem.                                                                                                                                                                       |
-| [TechNet](http://aka.ms/TechNet)                                         | Vieso saturu no iepriekšējiem laidieniem, kas ir rakstīts IT profesionāļiem un programmas lietotājiem.                                                                                                                                           |
-| [Dynamics kopiena](http://community.dynamics.com/)                  | Vieso emuārus, forumus un video.                                                                                                                                                                                                           |
+| [Docs.microsoft.com/previous versions](https://docs.microsoft.com/en-us/previous-versions/dynamics/)                                             | Vieso saturu no iepriekšējiem laidieniem.                                                                                                                                                                       |
+| [Dynamics kopiena](https://community.dynamics.com/)                  | Vieso emuārus, forumus un video.                                                                                                                                                                                                           |
 | [Microsoft.com/dynamics365/](https://www.microsoft.com/en-us/dynamics365/home)                 | Sniedz novērtējumu un pārdošanas informāciju.                                                                                                                                                                                                 |
+| [CustomerSource](https://mbs.microsoft.com/customersource/)\*                      | Vieso noteiktus apmācību resursus programmatūrai Finance and Operations, lejupielādējamas atskaites un tehniskos dokumentus, un ir primārā atbalsta vietne pakalpojumu plāna turētājiem. Lai piekļūtu dažiem šīs vietnes resursiem, var būt nepieciešams pakalpojumu plāns.     |
 
-
-
-<a name="additional-resources"></a>Papildu resursi
---------
-[Finance and Operations palīdzības sistēma (lejupielādējama informācijas lapa)](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
-
-[Uzdevumu ierakstītājs](../../dev-itpro/user-interface/task-recorder.md)
-
-[Dokumentācijas vai apmācības veidošana, izmantojot uzdevumu ierakstus](../../dev-itpro/user-interface/task-recorder.md)
-
-[Jauni vai atjaunināti uzdevumu ceļveži (2016. gada novembris)](new-task-guides-november-2016.md)
-[Jauni vai atjaunināti uzdevumu ceļveži (2016. gada augusts)](new-updated-task-guides-available-august-2016.md)
-[Jauni vai atjaunināti uzdevumu ceļveži (2016. gada maijs)](new-updated-task-guides-available-may-2016.md)
-[Jauni uzdevumu ceļveži (2016. gada februāris)](new-task-guides-available-february-2016.md)
 

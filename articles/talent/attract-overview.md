@@ -1,6 +1,6 @@
 ---
-title: "Programmas Attract līdzekļi un iespējas"
-description: "Programma Attract nodrošina iespējas jauno talantu nolīgšanas procesa pārvaldīšanai. Kandidātus var pievienot atvērtiem darbiem un pārcelt no viena posma uz citu, līdz piedāvājums tiek pagarināts vai pieteikums tiek noraidīts."
+title: "Attract līdzekļi un iespējas"
+description: "Šajā tēmā ir aprakstīti programmā Attract pieejamie līdzekļi jauna darbinieka pieņemšanas procesa pārvaldībai."
 author: rschloma
 manager: AnnBe
 ms.date: 08/01/2017
@@ -18,32 +18,32 @@ ms.author: rschloma
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 37dd0396787375fccd4082f392e079ed5dab04e9
+ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
+ms.openlocfilehash: dd65def0006445da1a8d07577cf5ef05178c19bd
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/22/2018
 
 ---
-# <a name="attract-features-and-capabilities"></a>Programmas Attract līdzekļi un iespējas
+# <a name="attract-features-and-capabilities"></a>Attract līdzekļi un iespējas
 
 [!include [banner](includes/banner.md)]
 
-Programma Attract nodrošina iespējas jauno talantu nolīgšanas procesa pārvaldīšanai. Kandidātus var pievienot atvērtiem darbiem un pārcelt no viena posma uz citu, līdz piedāvājums tiek pagarināts vai pieteikums tiek noraidīts. Katrā posmā kandidāti virzās caur tādām aktivitātēm kā izvērtēšanas zvani, novērtējumi vai interviju plānošana. Pēc pieteikšanās kandidāti saņem e-pasta ziņojumu ar aicinājumu pierakstīties programmā Attract, kur viņi var sekot līdzi darba statusam, savam pieteikumam, un atbildēt uz visiem viņiem piešķirtajiem uzdevumiem.
+Programma Attract nodrošina iespējas jauna darbinieka pieņemšanas procesa pārvaldībai. Kandidātus var pievienot atvērtām vakancēm, un viņus var pārcelt no viena posma uz citu, līdz tiek sniegts piedāvājums vai pieteikums tiek noraidīts. Katra posma ietvaros ar kandidātiem tiek veiktas tādas aktivitātēm kā izvērtēšanas zvani, novērtējumi un intervijas. Pēc pieteikšanās kandidāti saņem e-pasta ziņojumu ar aicinājumu pierakstīties programmā Attract, kur viņi var sekot līdzi vakances un sava pieteikuma statusam. Viņi var arī atbildēt uz visiem viņiem piešķirtajiem uzdevumiem.
 
-Programma Attract nodrošina tālāk noradītos līdzekļus.
+Šajā tēmā ir aprakstīti programmā Attract pieejamie līdzekļi.
 
 ## <a name="attract-dashboard"></a>Attract informācijas panelis
-Šeit nolīgšanas grupas dalībnieki var redzēt detalizētu informāciju par darbiem, kuros viņi piedalās. Turklāt par pieņemšanu darbā atbildīgais vadītājs vai personāla atlases darbinieks šeit programmai Attract var pievienot jaunu darbu, vai nu izveidojot vienu darbu atsevišķi, vai arī no Excel izklājlapas importējot vairākus darbus vienlaikus.
+Informācijas panelī darbā pieņemšanas grupas dalībnieki var skatīt detalizētu informāciju par vakancēm, ar kurām viņi ir saistīti. Turklāt par pieņemšanu darbā atbildīgais vadītājs vai personāla atlases darbinieks var izmantot informācijas paneli, lai pievienotu jaunas vakances programmai Attract, izveidojot tās pa vienai vai vienlaikus importējot vairākas vakances no Microsoft Excel izklājlapas.
 
 ## <a name="jobs"></a>Darbi
-Lapā **Darbs** var skatīt un rediģēt detalizēto informāciju, piemēram, pienākumu aprakstu un darba atrašanās vietu. Lapā **Darbs** tiek komplektēta nolīgšanas darba grupa, un šajā lapā varat pievienot vai mainīt darba grupas personāla atlases darbiniekus un intervētājus. Lapā **Darbs** varat arī pievienot jaunus kandidātus.
+Lapā **Darbs** var skatīt un rediģēt detalizētu informāciju, piemēram, pienākumu aprakstu un vakances atrašanās vietu. Lapā **Darbs** arī tiek veidota darbā pieņemšanas grupa un varat pievienot vai mainīt grupā ietvertos personāla atlases darbiniekus un intervētājus. Lapā **Darbs** varat arī pievienot jaunus kandidātus.
 
 ## <a name="candidates"></a>Kandidāti
-Kandidātus darbam var pievienot atsevišķi vai lielākā skaitā augšupielādēt no Excel izklājlapas. Visi kandidāti tiek automātiski pievienoti pirmajam posmam — jebkurā darbā pieņemšanas procesa posmam Pieteikšanās. Šeit var redzēt un pārvaldīt visu kandidātu pieteikumu informāciju. Var augšupielādēt un apskatīt papildu dokumentus kopā ar kontaktinformāciju, piemēram, e-pasta adresēm, tālruņa numuriem un saitēm uz viņu sociālo tīklu kontiem. Ja kandidāts norādīja saiti uz savu LinkedIn profilu un ir iestatīta LinkedIn integrācija (tam ir nepieciešama LinkedIn personāla atlases darbinieka licence), tiks parādīts kandidāta profils.
+Kandidātus var pievienot vakancei pa vienam vai pa vairākiem, augšupielādējot informāciju no Excel izklājlapas. Visi kandidāti tiek automātiski pievienoti posmam Pieteikšanās, kas ir katras vakances darbā pieņemšanas procesa pirmais posms. Šī posma laikā var skatīt un pārvaldīt visu kandidāta pieteikuma informāciju. Var augšupielādēt un skatīt papildu dokumentus, kā arī kontaktinformāciju, piemēram, e-pasta adreses, tālruņa numurus un saites uz sociālo tīklu kontiem. Ja kandidāts nodrošina saiti uz savu LinkedIn profilu un ir iestatīta LinkedIn integrācija, tiek rādīts kandidāta profils. (Lai varētu izmantot LinkedIn integrāciju, ir nepieciešama LinkedIn Recruiter licence.)
 
 ## <a name="stages"></a>Posmi
-Programma Attract nodrošina iepriekš definētu darbā pieņemšanas procesu, kas sastāv no četriem pamata posmiem: Pieteikšanās, Atlase, Intervija un Piedāvājums. Jauni kandidāti sāk no pieteikšanās posma, kur tiek pārskatīti viņu CV, pavadvēstules, portfeļi un citi pieteikuma dokumenti. No turienes kandidāts var pāriet uz atlases posmu, kur viņš tiek ielūgts uz dalību atlases tālruņa sarunā vai Skype videointervijā. Par pieņemšanu darbā atbildīgais vadītājs un personāla atlases darbinieks var sniegt atsauksmes par kandidātu un pārcelt viņu uz nākamo posmu. Pēc tam tiek plānotas personiskas intervijas ar pieejamajiem nolīgšanas darba grupas dalībniekiem, un tās var pielāgot par dažāda ilguma intervijām “viens pret vienu” vai paneļintervijām. Pēc intervijām tiek fiksētas un pārskatītas atsauksmes no intervijas darba grupas. Atlasītie kandidāti tiek pārcelti uz beigu posmu, kur tiek veidots piedāvājums un sagatavota viņu pārskatīšana un apstiprināšana. 
+Programma Attract nodrošina iepriekš definētu darbā pieņemšanas procesu, kas sastāv no četriem pamata posmiem: Pieteikšanās, Atlase, Intervija un Piedāvājums. Jaunie kandidāti tiek pievienoti posmam Pieteikšanās, kura ietvaros tiek pārskatīts viņu CV, pavadvēstule, portfelis un citi pieteikuma dokumenti. Pēc tam kandidāti var tikt pārcelti uz posmu Atlase, kura ietvaros viņi tiek uzaicināti uz atlases tālruņa sarunu vai Skype videointerviju. Par pieņemšanu darbā atbildīgais vadītājs un personāla atlases darbinieks var sniegt atsauksmes par kandidātiem un pārcelt viņus uz nākamo posmu Intervija. Pēc tam tiek ieplānotas intervijas klātienē, kurās piedalās pieejamie darbā pieņemšanas grupas dalībnieki. Šīs intervijas var būt dažāda ilguma personiskas intervijas vai paneļintervijas. Pēc intervijām tiek fiksētas un pārskatītas atsauksmes no intervijas darba grupas. Pēc tam atlasītie kandidāti tiek pārcelti uz beigu posmu Piedāvājums. Šī posma laikā tiek sniegts piedāvājums un veikta sagatavošanās kandidāta novērtēšanai un apstiprināšanai.
 
 ## <a name="candidate-app"></a>Kandidāta programma
-Līdzko kandidāti ir pievienoti kādam darbam, šie kandidāti saņem e-pasta ziņojumu ar saiti programmas saņemšanai. Šī tīmekļa programma kandidātiem nodrošina detalizētu informāciju par darbu, un tā ir rīks saziņai ar nolīgšanas darba grupu. Kandidāti var arī iesniegt savu pieejamību intervijām.
+Tiklīdz kandidāti tiek pievienots kādai vakancei, viņi saņem e-pasta ziņojumu, kurā ir ietverta tīmekļa programmas iegūšanas saite. Šajā programmā ir sniegta detalizēta informācija par vakanci, un tā tiek izmantota, lai sazinātos ar darbā pieņemšanas grupu. Kandidāti var to izmantot arī informācijas sniegšanai par savu pieejamību intervijām.
 

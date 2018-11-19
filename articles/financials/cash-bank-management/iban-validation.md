@@ -16,35 +16,37 @@ ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
 ms.translationtype: HT
-ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
-ms.openlocfilehash: e091aab70a98e0f4b96c41c1ee48926947539105
+ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
+ms.openlocfilehash: 19e0528b95952de8e5503c361efcfeca4c529caf
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
+ms.lasthandoff: 10/12/2018
 
 ---
 
-# <a name="manage-international-bank-account-number-iban-account-validation"></a>Starptautiskā bankas konta numura (IBAN) kontu pārbaudes pārvaldīšana
+# <a name="manage-international-bank-account-number-iban-validation"></a>Starptautiskā bankas konta numura (IBAN) validācijas pārvaldīšana
 
 [!include [banner](../includes/banner.md)]
 
-Starptautiskā bankas konta numura (IBAN) kontu pārbaude palielina pārbaudes apjomu, kas tiek veikts, kad jūs pievienojat IBAN bankas kontu.
+Starptautiskā bankas konta numura (IBAN) validēšana palielina apjomu validēšanai, kas tiek veikta, kad bankas kontam pievienojat IBAN.
 
-IBAN struktūra tiek glabāta sistēmā Microsoft Dynamics 365 for Finance and Operation un tiek automātiski ielādēta, kad pirmoreiz izmantojat IBAN bankas kontos. Bankas konta numurs ir daļa no IBAN numura definētās struktūras. Pamatojoties uz šo struktūru, ja IBAN izvietojums un konta numura garums neatbilst izvietojumam, kas ir definēts struktūrā katrai valstij vai reģionam, jūs saņemsiet brīdinājuma ziņojumu.
+Informācija par IBAN struktūru tiek glabāta programmatūrā Microsoft Dynamics 365 for Finance and Operations. Šī informācija tiek automātiski ielādēta, kad šo IBAN bankas kontiem lietojat pirmo reizi. Šī informācija ietver IBAN garumu, bankas konta numura un maršrutēšanas numura sākuma pozīcijas, kā arī bankas konta numura un maršrutēšanas numura garumu.
 
 ## <a name="set-up-iban-structures"></a>IBAN struktūru iestatīšana
 
 1. Dodieties uz **Kases un bankas vadība \> Iestatīšana \> IBAN struktūras**.
 2. Ņemiet vērā, ka IBAN struktūras katrai valstij vai reģionam ir iestatītas automātiski.
-3. Ja kādai noteiktai valstij vai reģionam struktūras ir jāpielāgo, varat tās rediģēt.
+3. Ja vēlaties pielāgot struktūras kādai noteiktai valstij vai reģionam, varat tās rediģēt.
 4. Struktūras definīcijas būs katra jauna laidiena daļa. Var izmantot izvēlni **Atiestatīt struktūras**, lai ielādētu jaunākās definīcijas pēc katra jauninājuma.
 
 ## <a name="validate-the-iban-structure-in-a-bank-account"></a>Bankas konta IBAN struktūras validēšana
 
-1. Atveriet sadaļu **Kases un bankas vadība\> Banku konti \> Banku konti**.
+1. Atveriet sadaļu **Kases un bankas vadība \> Banku konti \> Banku konti**.
 2. Izveidojiet bankas kontu.
 3. Kopsavilkuma cilnē **Papildinformācija** ievadiet IBAN numuru.
 
-    Ja IBAN izvietojums un konta numura garums neatbilst izvietojumam, kas ir definēts struktūrā katrai valstij vai reģionam, jūs saņemat ziņojumu. Nevar turpināt, ja IBAN numura garums neatbilst garumam IBAN struktūrā.
+    Ja IBAN garums neatbilst garumam, kas ir definēts katrai valstij vai reģionam, jūs saņemat brīdinājuma ziņojumu. Nevar turpināt, ja IBAN garums neatbilst IBAN struktūrā noteiktajam garumam.
 
-    Validācijā arī tiek pārbaudīts, vai bankas konta numurs atbilst bankas konta numuru pārstāvošajai IBAN numura daļai. Ja bankas konta numurs neatbilst, jūs saņemsiet brīdinājuma ziņojumu. Šis ziņojums ir tikai brīdinājums. Jūs varat turpināt arī tādā gadījumā, ja bankas konta numurs neatbilst.
+    Validācijā arī tiek pārbaudīts, vai bankas konta numurs atbilst bankas konta numuru pārstāvošajai IBAN numura daļai. Ja bankas konta numurs neatbilst, jūs saņemat brīdinājuma ziņojumu. Šis ziņojums ir tikai brīdinājums. Jūs varat turpināt arī tādā gadījumā, ja bankas konta numurs neatbilst.
+
+    Validācijā tiek arī pārbaudīts, vai bankas maršrutēšanas numurs atbilst bankas maršrutēšanas numuru pārstāvošajai IBAN daļai. Maršrutēšanas numurā ir bankas numurs un bieži arī papildu bankas filiāle. Ja bankas maršrutēšanas numurs neatbilst, jūs saņemat brīdinājuma ziņojumu. Šis ziņojums ir tikai brīdinājums. Jūs varat turpināt arī tādā gadījumā, ja bankas maršrutēšanas numurs neatbilst.
 

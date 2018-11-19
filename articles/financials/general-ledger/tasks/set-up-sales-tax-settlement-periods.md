@@ -3,7 +3,7 @@ title: "Iestatīt PVN apmaksas periodus"
 description: "PVN nomaksas periodi satur informāciju par periodu intervāliem, par kuriem jāsniedz atskaites un par kuriem tie jānomaksā."
 author: twheeloc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 10/15/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: ab7d3a00a327f42a9f70c954d9b64a360a7f9163
+ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
+ms.openlocfilehash: 1087ed78e91b487ca7157bfdac1d72ae3f477875
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/16/2018
 
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Iestatīt PVN apmaksas periodus
@@ -50,13 +50,15 @@ PVN nomaksas periodi satur informāciju par periodu intervāliem, par kuriem jā
 12. Ievadiet perioda intervāla vienību skaitu periodā. Piemēram, ceturksnī ir 3 mēneši.
 13. Atlasiet vai notīriet izvēles rūtiņu Izmantot pakešveida apstrādi PVN apmaksai.
     * Apmaksas process apmaksas periodam var tikt apstrādāts fonā kā pakešuzdevums. Tas ir ieteicams gadījumos, kad vienā laika periodā ir liels skaits nodokļu transakciju.  
-14. Izvērsiet cilni Perioda intervāli.
-15. Noklikšķiniet uz Pievienot.
-16. Sarakstā atzīmējiet atlasīto rindu.
-17. Ievadiet datumu laukā No datuma.
-18. Laukā Līdz datumam ievadiet datumu.
-19. Noklikšķiniet uz Jauns perioda intervāls.
+14. Atzīmējiet izvēles rūtiņu Novērst korespondējošu nodokļu transakciju ģenerēšanu vai noņemiet tās atzīmi.
+    * Pēc noklusējuma sistēma ģenerē korespondējošās nodokļu transakcijas, kamēr notiek segšanas process, un tas var radīt veiktspējas problēmas, ja kādā periodā ir liels skaits nodokļu transakciju. Atzīmējiet šo izvēles rūtiņu, lai novērstu korespondējošu nodokļu transakciju ģenerēšanu.
+15. Izvērsiet cilni Perioda intervāli.
+16. Noklikšķiniet uz Pievienot.
+17. Sarakstā atzīmējiet atlasīto rindu.
+18. Ievadiet datumu laukā No datuma.
+19. Laukā Līdz datumam ievadiet datumu.
+20. Noklikšķiniet uz Jauns perioda intervāls.
     * Kad pirmā perioda intervāls ir ievadīts, jaunus periodus var izveidot automātiski. Pēc nepieciešamības varat atgriezties un pievienot jaunus periodu intervālus.  
-20. Aizvērt lapu.
+21. Aizvērt lapu.
 
 

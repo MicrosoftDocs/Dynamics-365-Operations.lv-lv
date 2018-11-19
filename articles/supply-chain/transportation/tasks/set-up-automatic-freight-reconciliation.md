@@ -3,7 +3,7 @@ title: "Automātiskās kravas saskaņošanas iestatīšana"
 description: "Šajā procedūrā parādīts kā iestatīt datus automātiskai kravas saskaņošanai."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 10/16/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 97f0c4d8fe06ab2fc252b9543cb688306214c79f
+ms.sourcegitcommit: d990efd7c929b15d57d64e850bc3308349abb978
+ms.openlocfilehash: b7772ad779495b36941a3dc86cc456d80a964467
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/17/2018
 
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>Automātiskās kravas saskaņošanas iestatīšana
@@ -36,9 +36,9 @@ ms.lasthandoff: 09/29/2017
     * Kravas pavadzīmes tips nosaka kā jāsaskaņo kravas pavadzīmes un pārvadātāja rēķinus.  
 2. Noklikšķiniet uz Jauns.
 3. Laukā Kravas pavadzīmes veids ievadiet vērtību.
-4. Laukā Programmas komplektācija ievadiet 'Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer'.
+4. Laukā Programmas komplektācija ierakstiet “Microsoft.Dynamics.Ax.Tms.dll”.
     * Tā ir standarta Transportēšanas pārvaldības atbilstoša programmas koda bibliotēka.  
-5. Laukā Programmas komplektācija ievadiet 'Microsoft.Dynamics.Ax.Tms.dll'.
+5. Laukā Programmas klase ierakstiet “Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer”.
     * Tā ir standarta Transportēšanas pārvaldības atbilstoša programmas koda klase.  
 6. Noklikšķiniet uz Jauns.
 7. Laukā Apraksts atlasiet vērtību, kas atbilst kravas pavadzīmei un pārvadātāja rēķinam.  

@@ -3,7 +3,7 @@ title: "Programmas Dynamics 365 for Unified Operations Mobile sākumlapa"
 description: "Šajā tēmā aprakstīta Microsoft Dynamics 365 for Unified Operations mobilā programma un sniegtas saites uz resursiem, kas jums var palīdzēt to ieviest savā organizācijā."
 author: sericks007
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 10/26/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
-ms.openlocfilehash: d6d26da330974305fa3725fe7c2506d198b17e2c
+ms.sourcegitcommit: 3e9ec83e2cecdf8a7ec4ce3db1a80a310fe07255
+ms.openlocfilehash: 5666bee776e3d97244ce4830ac59971831848e71
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
+ms.lasthandoff: 10/26/2018
 
 ---
 
@@ -61,7 +61,7 @@ Navigāciju mobilajā programmā veido četri galvenie jēdzieni: informācijas 
 ## <a name="implementation-process"></a>Ieviešanas process
 Nākamajā attēlā ir parādīts ieviešanas process gan mobilajām darbvietām, ko nodrošina Microsoft, gan pielāgotajām mobilajām darbvietām. 
 
-![Mobilo programmu ieviešanas process](./media/Mobile-implementation-process-5.png)
+[![Mobilo programmu ieviešanas process](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
 
 Nākamajā tabulā ir ietvertas saites uz resursiem, kas jums var palīdzēt ieviest gan mobilās darbvietas, ko nodrošina Microsoft, gan pielāgotās mobilās darbvietas. Numuri pirmajā kolonnā atbilst iepriekšējā attēlā uzskaitītajiem soļiem.
 

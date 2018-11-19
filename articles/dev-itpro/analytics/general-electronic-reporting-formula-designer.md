@@ -3,14 +3,14 @@ title: "Formulas veidotājs elektronisko pārskatu veidošanā (ER)"
 description: "Šajā tēmā ir paskaidrots, kā elektronisko pārskatu veidošanā (Electronic reporting — ER) lietot formulas veidotāju."
 author: NickSelin
 manager: AnnBe
-ms.date: 04/04/2018
+ms.date: 10/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
-ms.reviewer: kfend
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: d3ac6ea7b104428f364385e1fd3ed221cae8498d
+ms.sourcegitcommit: f0ded563ecf0b6d0ce67f046f631d8c4dcfc7802
+ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/22/2018
 
 ---
 
@@ -192,7 +192,7 @@ Kad datu avots **System** tiek pievienots ER kartēšanai, kas atsaucas uz Finan
 Varat ierobežot veidu, kādā vērtības tiek nodotas šī tipa metodes parametriem.
 
 - Šī tipa metodēm var nodot tikai konstantes. Konstanšu vērtības tiek definētas veidošanas laikā.
-- Šī tipa parametriem tiek atbalstīti tikai primitīvi (pamata) datu tipi. (Primitīvie datu tipi ir vesels skaitlis, reāls skaitlis, Būla vērtība, virkne utt.).
+- Šī tipa parametriem tiek atbalstīti tikai primitīvi (pamata) datu tipi. (Primitīvie datu tipi ir vesels skaitlis, reāls skaitlis, Būla vērtība, virkne utt.)
 
 #### <a name="paths"></a>Ceļi
 
@@ -250,6 +250,12 @@ Nākamajās tabulās ir aprakstītas datu manipulācijas funkcijas, kuras var iz
 <td>SPLIT (ievade, garums)</td>
 <td>Norādīto ievades virkni sadalīt apakšvirknēs, katrai no kurām ir norādīts garums. Atgriezt rezultātu kā jaunu sarakstu.</td>
 <td><strong>SPLIT (&quot;abcd&quot;, 3)</strong> atgriež jaunu sarakstu, kas sastāv no diviem ierakstiem ar tipa <strong>STRING</strong> lauku. Pirmā ieraksta laukā ir teksts <strong>&quot;abc&quot;</strong>, bet otrā ieraksta laukā ir teksts <strong>&quot;d&quot;</strong>.</td>
+</tr>
+<tr>
+<td>SPLIT (ievade, norobežotājs)</td>
+<td>Norādīto ievades virkni sadalīt apakšvirknēs, pamatojoties uz norādīto norobežotāju.</td>
+<td><strong>SPLIT (&quot;XAb aBy&quot;, &quot;aB&quot;)</strong> atgriež jaunu sarakstu, kas sastāv no trīs ierakstiem, kuriem ir lauks <strong>STRING</strong>. Laukam pirmajā ierakstā ir teksts <strong>&quot;X&quot;</strong>, laukam otrajā ierakstā ir teksts &quot;&nbsp;&quot;, un laukam trešajā ierakstā ir teksts <strong>&quot;y&quot;</strong>. Ja norobežotājs ir tukšs, tiek atgriezts jauns saraksts, kas sastāv no viena ieraksta, kurā ir lauks <strong>STRING</strong> ar ievades tekstu. Ja ievade ir tukša, tiek atgriezts jauns tukšs saraksts.
+Ja ievade vai norobežotājs nav norādīts (null), tiek parādīts programmas izņēmums.</td>
 </tr>
 <tr>
 <td>SPLITLIST (saraksts, skaits)</td>
@@ -404,7 +410,8 @@ Izpildes laikā lauki <strong>Etiķete</strong> un <strong>Apraksts</strong> atg
 <li>enumType_de = <strong>LISTOFFIELDS</strong> (enumType, &quot;de&quot;)</li>
 <li>enumType_deCH = <strong>LISTOFFIELDS</strong> (enumType, &quot;de-CH&quot;)</li>
 </ul>
-Šajā gadījumā varat izmantot tālāk norādīto izteiksmi, lai iegūtu uzskaitījuma vērtības etiķeti Šveices vācu valodā, ja šāds tulkojums ir pieejams. Ja tulkojums Šveices vācu valodā nav pieejams, etiķete ir vācu valodā: <strong>IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</strong>.
+<p>Šajā gadījumā varat izmantot tālāk norādīto izteiksmi, lai iegūtu uzskaitījuma vērtības etiķeti Šveices vācu valodā, ja šāds tulkojums ir pieejams. Ja Šveices vācu valodas tulkojums nav pieejams, etiķete ir Vācu.</p>
+IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 </td>
 </tr>
 <tr>
@@ -421,7 +428,7 @@ Izpildes laikā lauki <strong>Etiķete</strong> un <strong>Apraksts</strong> atg
 <p><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="Data sources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a></p>
 <p>Tālāk esošajā attēlā parādīts rezultāts pēc formāta palaišanas. Šajā gadījumā izvade ir nekārtots preču saraksts.</p>
 <p><a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="Output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a></p>
-<p>Tālāk esošajos attēlos redzams, ka tas pats formāts ir pielāgots tā, lai preču sarakstu rādītu pa partijām, vienā partijā ietverot preces un nepārsniedzot kopējā svara ierobežojumu 9.</p>
+<p>Nākamajos attēlos tas pats formāts ir pielāgots tā, lai preču sarakstu rādītu pa partijām, vienā partijā ietverot preces un nepārsniedzot kopējā svara ierobežojumu 9.</p>
 <p><a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="Adjusted format" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a></p>
 <p><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="Data sources for the adjusted format" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a></p>
 <p>Tālāk esošajā attēlā parādīts rezultāts pēc pielāgotā formāta palaišanas.</p>
@@ -432,7 +439,7 @@ Izpildes laikā lauki <strong>Etiķete</strong> un <strong>Apraksts</strong> atg
 <tr>
 <td>FILTER (saraksts, nosacījums)</td>
 <td>Atgriezt norādīto sarakstu, kad vaicājums ir modificēts filtrēšanai atbilstoši norādītajam nosacījumam. Šī funkcija atšķiras no funkcijas <strong>WHERE</strong>, jo norādītais nosacījums tiek lietots datu bāzes līmenī visiem ER datu avotiem ar tipu <strong>Tabulas ieraksti</strong>. Sarakstu un nosacījumu var definēt, izmantojot tabulas un relācijas.</td>
-<td>Ja parametrs <strong>Vendor</strong> ir konfigurēts kā ER datu avots, kurš atsaucas uz tabulu VendTable, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> atgriež tikai kreditoru grupā 40 ietverto kreditoru sarakstu. Ja parametrs <strong>Vendor</strong> ir konfigurēts kā ER datu avots, kurš atsaucas uz tabulu <strong>VendTable</strong>, un parametrs <strong>parmVendorBankGroup</strong> ir konfigurēts kā ER datu avots, kurš atgriež vērtību ar datu tipu <strong>String</strong>, funkcija <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> atgriež sarakstu, kurā ir tikai to kreditoru konti, kas pieder noteiktai banku grupai.</td>
+<td>Ja parametrs <strong>Vendor</strong> ir konfigurēts kā ER datu avots, kurš atsaucas uz tabulu VendTable, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> atgriež tikai kreditoru grupā 40 ietverto kreditoru sarakstu. Ja parametrs <strong>Vendor</strong> ir konfigurēts kā ER datu avots, kurš atsaucas uz tabulu VendTable, un ja parametrs <strong>parmVendorBankGroup</strong> ir konfigurēts kā ER datu avots, kurš atgriež vērtību ar datu tipu <strong>String</strong>, funkcija <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> atgriež sarakstu, kurā ir tikai to kreditoru konti, kas pieder noteiktai banku grupai.</td>
 </tr>
 </tbody>
 </table>
@@ -446,6 +453,63 @@ Izpildes laikā lauki <strong>Etiķete</strong> un <strong>Apraksts</strong> atg
 | NOT (nosacījums) | Atgriezt norādītā nosacījuma pretējo loģisko vērtību. | **NOT (TRUE)** atgriež **FALSE**. |
 | AND (1. nosacījums\[, 2. nosacījums, …\]) | Atgriež **TRUE**, ja *visi* norādītie nosacījumi ir patiesi. Pretējā gadījumā atgriezt vērtību **FALSE**. | **AND (1=1, "a"="a")** atgriež **TRUE**. **AND (1=2, "a"="a")** atgriež **FALSE**. |
 | OR (1. nosacījums\[, 2. nosacījums, …\]) | Atgriež **FALSE**, ja *visi* norādītie nosacījumi ir aplami. Atgriež **TRUE**, ja *kāds* no norādītajiem nosacījumiem ir patiess. | **OR (1=2, "a"="a")** atgriež **TRUE**. |
+| VALUEIN (ievade, saraksts, saraksta elementu izteiksme) | Noteikt, vai norādītā ievade atbilst kāda norādītā saraksta elementa vērtībai. Atgriež **TRUE**, ja norādītā ievade atbilst norādītās izteiksmes izpildes rezultātam attiecībā uz vismaz vienu ierakstu. Pretējā gadījumā atgriezt vērtību **FALSE**. Parametrs **ievade** apzīmē datu avota elementa ceļu. Šī elementa vērtībai tiks noteikta atbilstība. Parametrs **saraksts** apzīmē datu avota elementa ceļu ierakstu saraksta tipam kā sarakstam ar ierakstiem, kuros ir kāda izteiksme. Šī elementa vērtība tiks salīdzināta ar norādīto ievadi. Arguments **saraksta elementu izteiksme** apzīmē izteiksmi, kas norāda uz vai satur vienu norādītā saraksta lauku, kurš ir jāizmanto atbilstības noteikšanai. | Piemērus skatiet nākamajā sadaļā [Piemēri: VALUEIN (ievade, saraksts, saraksta elementu izteiksme)](#examples-valuein-input-list-list-item-expression). |
+
+#### <a name="examples-valuein-input-list-list-item-expression"></a>Piemēri: VALUEIN (ievade, saraksts, saraksta elementu izteiksme)
+Parasti funkcija **VALUEIN** tiek tulkota uz **OR** nosacījumu kopu:
+
+(input = list.item1.value) OR (input = list.item2.value) OR …
+
+##### <a name="example-1"></a>1. piemērs
+Savā modeļu kartējumā jūs definējat šādus datu avotus: **Saraksts** (ar tipu **Aprēķinātais lauks**). Šajā datu avotā ir izteiksme **SPLIT ("a,b,c", ",")**.
+
+Kad tiek izsaukts datu avots, kas ir konfigurēts kā izteiksme **VALUEIN ("B", List, List.Value)**, tas atgriež **TRUE**. Šajā gadījumā funkcija **VALUEIN** tiek tulkota uz šādu nosacījumu kopu:
+
+**(("B" = "a") or ("B" = "b") or ("B" = "c"))**, where **("B" = "b")** is equal to **TRUE**
+
+Kad tiek izsaukts datu avots, kas ir konfigurēts kā izteiksme **VALUEIN ("B", List, LEFT(List.Value, 0))**, tas atgriež **FALSE**. Šajā gadījumā funkcija **VALUEIN** tiek tulkota uz šādu nosacījumu:
+
+**("B" = "")**, which isn't equal to **TRUE**
+
+Ņemiet vērā, ka šāda nosacījuma tekstā rakstzīmju skaita augšējā robeža ir 32 768 rakstzīmes. Tādēļ nevajadzētu veidot datu avotus, kas izpildlaikā varētu pārsniegt šo ierobežojumu. Ja ierobežojums tiek pārsniegts, programmas darbība tiek pārtraukta un tiek parādīts izņēmums. Piemēram, šāda situācija var rasties, ja datu avots ir konfigurēts kā **WHERE (List1, VALUEIN (List1.ID, List2, List2.ID)** un sarakstā **List1** un **List2** ir daudz ierakstu.
+
+Noteiktos gadījumos funkcija **VALUEIN** tiek tulkota uz datu bāzes priekšrakstu, izmantojot operatoru **EXISTS JOIN**. Šāda uzvedība it spēkā, kad tiek izmantota funkcija **FILTER** un tiek ievēroti šādi nosacījumi:
+
+- Opcija **ASK FOR QUERY** ir izslēgta funkcijas **VALUEIN** datu avotam tādai funkcijai, kas atsaucas uz ierakstu sarakstu. (Šim datu avotam izpildlaikā netiks lietoti nekādi papildu nosacījumi.)
+- Funkcijas **VALUEIN** datu avotam tādai funkcijai, kas atsaucas uz ierakstu sarakstu, nav konfigurētas ligzdotās izteiksmes.
+- Funkcijas **VALUEIN** saraksta elements atsaucas uz kādu norādītā datu avota lauku (nevis izteiksmi vai metodi).
+
+Apsveriet iespēju izmantot šo opciju, nevis funkciju **WHERE**, kā iepriekš aprakstīts šajā piemērā.
+
+##### <a name="example-2"></a>2. piemērs
+
+Savā modeļa kartēšanā jūs definējat tālāk norādītos datu avotus.
+
+- **In** (tips **Tabulas ieraksti**), kas atsaucas uz Intrastat tabulu
+- **Port** (tips **Tabulas ieraksti**), kas atsaucas uz IntrastatPort tabulu
+
+Kad tiek izsaukts datu avots, kas ir konfigurēts kā izteiksme **FILTER (In, VALUEIN(In.Port, Port, Port.PortId)**, tiek ģenerēts šāds SQL priekšraksts, lai atgrieztu filtrētos ierakstus Intrastat tabulā:
+
+```
+select … from Intrastat
+exists join TableId from IntrastatPort
+where IntrastatPort.PortId = Intrastat.Port
+```
+
+Laukiem **dataAreaId** gala SQL priekšraksts tiek ģenerēts, izmantojot operatoru **IN**.
+
+##### <a name="example-3"></a>3. piemērs
+
+Savā modeļa kartēšanā jūs definējat tālāk norādītos datu avotus.
+
+- **Le** (tips **Aprēķinātais lauks**), kurā ir izteiksme **SPLIT ("DEMF,GBSI,USMF", ",")**
+- **In** (tips **Tabulas ieraksti**), kas atsaucas uz Intrastat tabulu un kam ir ieslēgta opcija **Starpuzņēmumu**
+
+Kad tiek izsaukts datu avots, kas ir konfigurēts kā izteiksme **FILTER (In, VALUEIN (In.dataAreaId, Le, Le.Value)**, gala SQL priekšrakstā ir šāds nosacījums:
+
+```
+Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
+```
 
 ### <a name="mathematical-functions"></a>Matemātiskās funkcijas
 
@@ -538,18 +602,18 @@ Izpildes laikā lauki <strong>Etiķete</strong> un <strong>Apraksts</strong> atg
 <td><strong>TRANSLATE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;)</strong> aizstāj burtus <strong>&quot;cd&quot;</strong> ar virkni <strong>&quot;GH&quot;</strong> un atgriež <strong>&quot;abGHef&quot;</strong>.</td>
 </tr>
 <tr>
-<td>REPLACE (virkne, raksts, aizstājējs, parastas izteiksmes karodziņš)</td>
-<td>Ja norādītās parastās izteiksmes karodziņš ir <strong>true</strong>, atgriezt norādīto virkni, kas ir modificēta, lietojot šai funkcijai kā raksta argumentu norādīto parasto izteiksmi. Šī izteiksme tiek izmantota, lai atrastu rakstzīmes, kas ir jāaizstāj. Norādītā aizstāšanas argumenta rakstzīmes tiek izmantotas, lai aizstātu atrastās rakstzīmes. Ja norādītās parastās izteiksmes karogs ir <strong>false</strong>, šī funkcija darbojas kā <strong>TRANSLATE</strong>.</td>
-<td><strong>REPLACE (&quot;+1 923 456 4971&quot;, &quot;[^0-9]&quot;, &quot;&quot;, true)</strong> lieto parastu izteiksmi, kas noņem visus simbolus, kuri nav skaitļi, un atgriež <strong>&quot;19234564971&quot;</strong>. <strong>REPLACE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;, false)</strong> aizstāj burtus <strong>&quot;cd&quot;</strong> ar virkni <strong>&quot;GH&quot;</strong> un atgriež <strong>&quot;abGHef&quot;</strong>.</td>
+<td>REPLACE (virkne, raksts, aizstājējs, regulāras izteiksmes karodziņš)</td>
+<td>Ja norādītais parametrs <strong>regulāras izteiksmes karodziņš</strong> ir <strong>true</strong>, atgriezt norādīto virkni pēc tās modificēšanas, šai funkcijai kā argumentu <strong>raksts</strong> lietojot norādīto regulāro izteiksmi. Šī izteiksme tiek izmantota, lai atrastu rakstzīmes, kas ir jāaizstāj. Norādītā argumenta <strong>aizstājējs</strong> rakstzīmes tiek izmantotas, lai aizstātu atrastās rakstzīmes. Ja norādītā parametra <strong>regulārās izteiksmes karodziņš</strong> ir <strong>false</strong>, šī funkcija uzvedas kā funkcija <strong>TRANSLATE</strong>.</td>
+<td><strong>REPLACE (&quot;+1 923 456 4971&quot;, &quot;[^0-9]&quot;, &quot;&quot;, true)</strong> lieto regulāru izteiksmi, kas noņem visus simbolus, kuri nav skaitļi, un atgriež <strong>&quot;19234564971&quot;</strong>. <strong>REPLACE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;, false)</strong> aizstāj burtus <strong>&quot;cd&quot;</strong> ar virkni <strong>&quot;GH&quot;</strong> un atgriež <strong>&quot;abGHef&quot;</strong>.</td>
 </tr>
 <tr>
 <td>TEXT (ievade)</td>
 <td>Atgriezt norādīto ievadi, kas ir pārveidota par teksta virkni, kura ir formatēta atbilstoši pašreizējās Finance and Operations instances servera lokalizācijas iestatījumiem. Vērtībām ar tipu <strong>real</strong> šīs virknes pārveidošana ir ierobežota līdz diviem cipariem aiz komata.</td>
-<td>Ja Finance and Operations instances servera lokalizācija ir definēta kā <strong>EN-US</strong>, <strong>TEXT (NOW ())</strong> pašreizējo Finance and Operations sesijas datumu, 2015. gada 17. decembri, atgriež kā teksta virkni <strong>&quot;12/17/2015 07:59:23 AM&quot;</strong>. <strong>TEXT (1/3)</strong> atgriež <strong>&quot;0.33&quot;</strong>.</td>
+<td>Ja Finance and Operations instances servera lokalizācija ir definēta kā <strong>EN-US</strong>, funkcija <strong>TEXT (NOW ())</strong> pašreizējo Finance and Operations sesijas datumu, 2015. gada 17. decembri, atgriež kā teksta virkni <strong>&quot;12/17/2015 07:59:23 AM&quot;</strong>. <strong>TEXT (1/3)</strong> atgriež <strong>&quot;0.33&quot;</strong>.</td>
 </tr>
 <tr>
 <td>FORMAT (1. virkne, 2. virkne[, 3. virkne, …])</td>
-<td>Atgriezt norādīto virkni, kas ir formatēta, aizstājot argumentu <strong>%N</strong> ar argumentu <em>n</em>. Argumenti ir virknes. Ja arguments parametram nav norādīts, šis parametrs virknē tiek atgriezts kā <strong>&quot;%N&quot;</strong>. Vērtībām ar tipu <strong>real</strong> šīs virknes pārveidošana ir ierobežota līdz diviem cipariem aiz komata.</td>
+<td>Atgrieziet norādīto virkni, kas ir formatēta, aizstājot argumentu <strong>%N</strong> ar argumentu <em>n</em>. Argumenti ir virknes. Ja nav norādīts parametra arguments, šis parametrs virknē tiek atgriezts kā <strong>&quot;%N&quot;</strong>. Vērtībām ar tipu <strong>real</strong> šīs virknes pārveidošana ir ierobežota līdz diviem cipariem aiz komata.</td>
 <td>Tālāk esošajā attēlā redzamais datu avots <strong>PaymentModel</strong> atgriež sarakstu ar debitoru ierakstiem, izmantojot komponentu <strong>Customer</strong>, un apstrādāšanas datuma vērtību, izmantojot lauku <strong>ProcessingDate</strong>.
 <p><a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a></p>
 <p>ER formātā, kas ir izveidots tā, lai ģenerētu elektronisku failu noteiktiem debitoriem, vienums <strong>PaymentModel</strong> ir atlasīts kā datu avots, un tas kontrolē procesa plūsmu. Lietotājiem tiek parādīts izņēmums, lai viņus informētu par to, kad atlasītais debitors tiek apturēts datumam, kad atskaite tiek apstrādāta. Šāda tipa apstrādes kontrolei izveidotā formulā var izmantot šādus resursus:</p>
@@ -562,19 +626,19 @@ Izpildes laikā lauki <strong>Etiķete</strong> un <strong>Apraksts</strong> atg
 <li>Finance and Operations etiķete SYS18389, kurā ir šāds teksts:
 <ul>
 <li><strong>Valodai EN-US:</strong> &quot;Customer %1 is stopped for %2.&quot;</li>
-<li><strong>Valodai DE:</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
+<li><strong>Valodai DE:</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
 </ul></li>
 </ul>
 <p>Lūk, kādu formulu varat izveidot:</p>
 <p>FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &quot;. &quot;, @&quot;SYS18389&quot;), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, &quot;d&quot;))</p>
-<p>Ja pārskats debitoram <strong>Litware Retail</strong> tiek apstrādāts 2015. gada 17. decembrī kultūrā <strong>EN-US</strong> un valodā <strong>EN-US</strong>, šī formula atgriež tālāk norādīto tekstu, kuru lietotājam var parādīt kā izņēmuma ziņojumu.</p>
+<p>Ja pārskats debitoram <strong>Litware Retail</strong> tiek apstrādāts 2015. gada 17. decembrī kultūrā <strong>EN-US</strong> un valodā <strong>EN-US</strong>, šī formula atgriež tālāk norādīto tekstu, kurš lietotājam var tikt rādīts kā izņēmuma ziņojums.</p>
 <p>&quot;Nothing to print. Customer Litware Retail is stopped for 12/17/2015.&quot;</p>
 <p>Ja tas pats pārskats debitoram <strong>Litware Retail</strong> tiek apstrādāts 2015. gada 17. decembrī kultūrā <strong>DE</strong> un valodā <strong>DE</strong>, šī formula atgriež tālāk norādīto tekstu, kurā tiek izmantots cits datuma formāts.</p>
 <p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
 <blockquote>[!NOTE] ER formulās etiķetēm tiek lietota tālāk norādītā sintakse.
 <ul>
-<li><strong>Etiķetēm no Finance and Operations resursiem:</strong> <strong>@&quot;X&quot;</strong>, kur X ir etiķetes ID lietojumprogrammas objektu kokā (AOT)</li>
-<li><strong>Etiķetēm, kas ir ietvertas ER konfigurācijās:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, kur X ir etiķetes ID ER konfigurācijā</li>
+<li><strong>Etiķetēm no Finance and Operations resursiem:</strong> <strong>@&quot;X&quot;</strong>, kur <strong>X</strong> ir etiķetes ID programmas objektu kokā (AOT)</li>
+<li><strong>Etiķetēm, kas ir ietvertas ER konfigurācijās:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, kur <strong>X</strong> ir etiķetes ID ER konfigurācijā</li>
 </ul>
 </blockquote>
 </td>
@@ -616,7 +680,7 @@ Izpildes laikā lauki <strong>Etiķete</strong> un <strong>Apraksts</strong> atg
 </tr>
 <tr>
 <td>GUIDVALUE (ievade)</td>
-<td>Norādīto ievadi ar tipu <strong>String</strong> konvertēt par datu vienumu ar datu tipu <strong>GUID</strong>.</td>
+<td>Norādīto ievadi ar tipu <strong>Virkne</strong> konvertēt uz datu elementu ar datu tipu <strong>GUID</strong>.<blockquote>[!NOTE] Lai veiktu konvertēšanu pretējā virzienā (tas ir, lai norādīto ievadi ar datu tipu <strong>GUID</strong> konvertētu uz datu elementu ar datu tipu <strong>Virkne</strong>), varat izmantot funkciju <strong>TEXT()</strong>.</blockquote></td>
 <td>Savā modeļa kartēšanā jūs definējat tālāk norādītos datu avotus.
 <ul>
 <li><strong>myID</strong> (tips <strong>Aprēķinātais lauks</strong>), kurā ir izteiksme <strong>GUIDVALUE(&quot;AF5CCDAC-F728-4609-8C8B- A4B30B0C0AA0&quot;)</strong></li>
@@ -637,7 +701,7 @@ Kad šie datu avoti ir definēti, varat izmantot tādu izteiksmi kā <strong>FIL
 
 | Funkcija | Apraksts | Piemērs |
 |----------|-------------|---------|
-| TEXT (ievade) | Atgriezt norādīto ievadi, kas ir pārveidota par teksta virkni, kura ir formatēta atbilstoši pašreizējās Finance and Operations instances servera lokalizācijas iestatījumiem. Vērtībām ar tipu **real** šīs virknes pārveidošana ir ierobežota līdz diviem cipariem aiz komata. | Ja Finance and Operations instances servera lokalizācija ir definēta kā **EN-US**, **TEXT (NOW ())** pašreizējo Finance and Operations sesijas datumu, 2015. gada 17. decembri, atgriež kā teksta virkni **"12/17/2015 07:59:23 AM"**. **TEXT (1/3)** atgriež **"0.33"**. |
+| TEXT (ievade) | Atgriezt norādīto ievadi, kas ir pārveidota par teksta virkni, kura ir formatēta atbilstoši pašreizējās Finance and Operations instances servera lokalizācijas iestatījumiem. Vērtībām ar tipu **real** šīs virknes pārveidošana ir ierobežota līdz diviem cipariem aiz komata. | Ja Finance and Operations instances servera lokalizācija ir definēta kā **EN-US**, funkcija **TEXT (NOW ())** pašreizējo Finance and Operations sesijas datumu, 2015. gada 17. decembri, atgriež kā teksta virkni **"12/17/2015 07:59:23 AM"**. **TEXT (1/3)** atgriež **"0.33"**. |
 | QRCODE (virkne) | Norādītajai virknei atgriezt kvadrātkoda (Quick Response Code — QR koda) attēlu base64 binārajā formātā. | **QRCODE ("Sample text")** atgriež **U2FtcGxlIHRleHQ=**. |
 
 ### <a name="data-collection-functions"></a>Datu apkopošanas funkcijas
@@ -645,11 +709,11 @@ Kad šie datu avoti ir definēti, varat izmantot tādu izteiksmi kā <strong>FIL
 | Funkcija | Apraksts | Piemērs |
 |----------|-------------|---------|
 | FORMATELEMENTNAME () | Atgriezt pašreizējā formāta elementa nosaukumu. Atgriezt tukšu virkni, ja pašreizējo failu karodziņš **Apkopot izvades informāciju** ir izslēgts. | Lai uzzinātu vairāk par šīs funkcijas lietojumu, skatiet uzdevuma ceļvedi **ER Lietot formāta izvades datus uzskaitei un summēšanai**, kas ir daļa no biznesa procesa **Iegūt/izstrādāt IT pakalpojumu/risinājuma komponentus**. |
-| SUMIFS (galvenā virkne summēšanai, kritēriju 1. diapazona virkne, kritēriju 1. vērtības virkne \[, kritēriju 2. diapazona virkne, kritēriju 2. vērtības virkne, …\]) | Atgriezt XML mezglu vērtību summu (ar nosaukumu, kas definēts kā atslēga), kas ir savākts formāta izpildes laikā un nodrošina atbilstību norādītajiem nosacījumiem (diapazonu un vērtību pāriem). Atgriezt **0** (nulles) vērtību, ja pašreizējo failu karodziņš **Apkopot izvades informāciju** ir izslēgts. | |
-| SUMIF (atslēgu virkne summēšanai, kritēriju diapazona virkne, kritēriju vērtību virkne) | Atgriezt XML mezglu vērtību summu (ar nosaukumu, kas definēts kā atslēga), kas ir savākts formāta izpildes laikā un nodrošina atbilstību norādītajam nosacījumam (diapazonam un vērtībai). Atgriezt **0** (nulles) vērtību, ja pašreizējo failu karodziņš **Apkopot izvades informāciju** ir izslēgts. | |
-| COUNTIFS (kritēriju 1. diapazona virkne, kritēriju 1. vērtības virkne \[, kritēriju 2. diapazona virkne, kritēriju 2. vērtības virkne, …\]) | Atgriezt XML mezglu skaitu, kas ir savākts formāta izpildes laikā un nodrošina atbilstību norādītajiem nosacījumiem (diapazonu un vērtību pāriem). Atgriezt **0** (nulles) vērtību, ja pašreizējo failu karodziņš **Apkopot izvades informāciju** ir izslēgts. | |
-| COUNTIF (kritēriju diapazona virkne, kritēriju vērtību virkne) | Atgriezt XML zaru skaitu, kas ir savākts formāta izpildes laikā un atbilst norādītajam nosacījumam (diapazonam un vērtībai). Atgriezt **0** (nulles) vērtību, ja pašreizējo failu karodziņš **Apkopot izvades informāciju** ir izslēgts. | |
-| COLLECTEDLIST (kritēriju 1. diapazona virkne, kritēriju 1. vērtības virkne \[, kritēriju 2. diapazona virkne, kritēriju 2. vērtības virkne, …\]) | Atgriezt XML zaru vērtību sarakstu, kas ir savākts formāta izpildes laikā un atbilst norādītajiem nosacījumiem (diapazonam un vērtībai). Atgriezt tukšu sarakstu, ja pašreizējo failu karodziņš **Apkopot izvades informāciju** ir izslēgts. | |
+| SUMIFS (galvenā virkne summēšanai, kritēriju 1. diapazona virkne, kritēriju 1. vērtības virkne \[, kritēriju 2. diapazona virkne, kritēriju 2. vērtības virkne, …\]) | Atgriezt summu no vērtībām, kas tika savāktas XML mezgliem (kur nosaukums ir definēts kā atslēga) formāta palaišanas laikā un kas nodrošina atbilstību norādītajiem nosacījumiem (diapazonu un vērtību pāriem). Atgriezt **0** (nulles) vērtību, ja pašreizējo failu karodziņš **Apkopot izvades informāciju** ir izslēgts. | |
+| SUMIF (atslēgu virkne summēšanai, kritēriju diapazona virkne, kritēriju vērtību virkne) | Atgriezt summu no vērtībām, kas tika savāktas XML mezgliem (kur nosaukums ir definēts kā atslēga) formāta palaišanas laikā un kas nodrošina atbilstību norādītajam nosacījumam (diapazonam un vērtībai). Atgriezt **0** (nulles) vērtību, ja pašreizējo failu karodziņš **Apkopot izvades informāciju** ir izslēgts. | |
+| COUNTIFS (kritēriju 1. diapazona virkne, kritēriju 1. vērtības virkne \[, kritēriju 2. diapazona virkne, kritēriju 2. vērtības virkne, …\]) | Atgriezt XML mezglu skaitu, kas tika savākts, izpildot formātu, un kas nodrošina atbilstību norādītajiem nosacījumiem (diapazonu un vērtību pāriem). Atgriezt **0** (nulles) vērtību, ja pašreizējo failu karodziņš **Apkopot izvades informāciju** ir izslēgts. | |
+| COUNTIF (kritēriju diapazona virkne, kritēriju vērtību virkne) | Atgriezt XML mezglu skaitu, kas tika savākts, izpildot formātu, un kas nodrošina atbilstību norādītajam nosacījumam (diapazonam un vērtībai). Atgriezt **0** (nulles) vērtību, ja pašreizējo failu karodziņš **Apkopot izvades informāciju** ir izslēgts. | |
+| COLLECTEDLIST (kritēriju 1. diapazona virkne, kritēriju 1. vērtības virkne \[, kritēriju 2. diapazona virkne, kritēriju 2. vērtības virkne, …\]) | Atgriezt sarakstu ar vērtībām, kas tika savāktas XML mezgliem, izpildot formātu, un kas nodrošina atbilstību norādītajiem nosacījumiem (diapazonam un vērtībai). Atgriezt tukšu sarakstu, ja pašreizējo failu karodziņš **Apkopot izvades informāciju** ir izslēgts. | |
 
 ### <a name="other-business-domainspecific-functions"></a>Citas (biznesa jomai specifiskas) funkcijas
 
@@ -667,6 +731,9 @@ Kad šie datu avoti ir definēti, varat izmantot tādu izteiksmi kā <strong>FIL
 | FA\_BALANCE (pamatlīdzekļa kods, vērtības modeļa kods, pārskata gads, pārskata datums) | Atgriezt sagatavoto pamatlīdzekļu bilances datu konteineru. Pārskata gads ir jānorāda kā Finance and Operations uzskaitījuma **AssetYear** vērtība. | **FA\_SUM ("COMP-000001", "Current", AxEnumAssetYear.ThisYear, SESSIONTODAY ())** atgriež sagatavoto datu konteineru no bilancēm pamatlīdzeklim **"COMP-000001"** ar vērtības modeli **"Current"** pašreizējā Finance and Operations sesijas datumā. |
 | TABLENAME2ID (virkne) | Atgriezt tabulas ID veselu skaitļu attēlojumu norādītajam tabulas nosaukumam. | **TABLENAME2ID ("Intrastat")** atgriež **1510**. |
 | ISVALIDCHARACTERISO7064 (virkne) | Atgriezt Būla vērtību **TRUE**, ja norādītā virkne attēlo derīgu starptautisko bankas konta numuru (IBAN). Pretējā gadījumā atgriezt Būla vērtību **FALSE**. | **ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")** atgriež **TRUE**. **ISVALIDCHARACTERISO7064 ("AT61")** atgriež **FALSE**. |
+| NUMSEQVALUE (numuru sērijas kods, tvērums, tvēruma ID) | Atgriezt numuru sērijas jauno ģenerēto vērtību, pamatojoties uz norādīto numuru sērijas kodu, tvērumu un tvēruma ID. Tvērumam ir jābūt noradītam ka uzskaitījuma **ERExpressionNumberSequenceScopeType** vērtībai (**Koplietots**, **Juridiskā persona** vai **Uzņēmums**). Tvērumam **Koplietots** kā tvēruma ID ir jānorāda tukša virkne. Tvērumam **Uzņēmums** un **Juridiskā persona** kā tvēruma ID ir jānorāda uzņēmuma kods. Ja tvērumam **Uzņēmums** un **Juridiskā persona** ka tvēruma ID norādāt tukšu virkni, tiek izmantots pašreizējais uzņēmuma kods. | Savā modeļa kartēšanā jūs definējat tālāk norādītos datu avotus.<ul><li>**enumScope** (tips **Dynamics 365 for Operations uzskaitījums**), kas atsaucas uz uzskaitījumu **ERExpressionNumberSequenceScopeType**</li><li>**NumSeq** (tips **Aprēķinātais lauks**), kurā ir izteiksme **NUMSEQVALUE ("Gene\_1", enumScope.Company, "")**</li></ul>Kad tiek izsaukts datu avots **NumSeq**, tas atgriež jauno vērtību, kas ir ģenerēta ar numuru sēriju **Gene\_1**, kura ir konfigurēta uzņēmumam, kas nodrošina kontekstu, kurā tiek darbināts ER formāts. |
+| NUMSEQVALUE (numuru sērijas kods) | Atgriezt numuru sērijas jauno ģenerēto vērtību, pamatojoties uz norādīto numuru sēriju, tvērumu **Uzņēmums**, un (kā tvēruma ID) tā uzņēmuma tvērumu, kas nodrošina kontekstu, saskaņā ar kuru tiek darbināts ER formāts. | Savā modeļu kartējumā jūs definējat šādus datu avotus: **NumSeq** (ar tipu **Aprēķinātais lauks**). Šajā datu avotā ir izteiksme **NUMSEQVALUE ("Gene\_1")**. Kad tiek izsaukts datu avots **NumSeq**, tas atgriež jauno vērtību, kas ir ģenerēta ar numuru sēriju **Gene\_1**, kura ir konfigurēta uzņēmumam, kas nodrošina kontekstu, kurā tiek darbināts ER formāts. |
+| NUMSEQVALUE (numuru sērijas ieraksta ID) | Atgriezt numuru sērijas jauno ģenerēto vērtību, pamatojoties uz norādīto numuru sērijas ieraksta ID. | Savā modeļa kartēšanā jūs definējat tālāk norādītos datu avotus.<ul><li>**LedgerParms** (tips **Tabula**), kas atsaucas uz LedgerParameters tabulu</li><li>**NumSeq** (tips **Aprēķinātais lauks**), kurā ir izteiksme **NUMSEQVALUE (LedgerParameters.'numRefJournalNum()'.NumberSequenceId)**</li></ul>Kad tiek izsaukts datu avots **NumSeq**, tas atgriež jauno vērtību, kas ir ģenerēta ar numuru sēriju, kura ir konfigurēta virsgrāmatas parametros tam uzņēmumam, kas nodrošina kontekstu, kurā tiek darbināts ER formāts. Šī numuru sērija unikāli identificē žurnālus un darbojas kā partijas numurs, kas sasaista transakcijas. |
 
 ### <a name="functions-list-extension"></a>Funkciju saraksta paplašināšana
 
@@ -674,7 +741,6 @@ ER jums ļauj paplašināt funkciju sarakstu, kuras tiek lietotas ER izteiksmēs
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
-
-[Paplašināt elektronisko pārskatu veidošanas (ER) funkciju sarakstu](general-electronic-reporting-formulas-list-extension.md)
+- [Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
+- [Paplašināt elektronisko pārskatu veidošanas (ER) funkciju sarakstu](general-electronic-reporting-formulas-list-extension.md)
 

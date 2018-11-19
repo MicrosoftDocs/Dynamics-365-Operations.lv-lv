@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: d28ca1f9cf2bef73dc687a85592056cccc767da5
+ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
+ms.openlocfilehash: 6fb41a8c1ff4ce95bab5b169256955f244e66071
 ms.contentlocale: lv-lv
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 # <a name="provision-talent"></a>Talent nodrošināšana
@@ -47,7 +47,7 @@ Informāciju par to, kā sākt darbu ar pakalpojumu Talent, skatiet **Talent** m
 Kad esat izveidojis LCS projektu, pakalpojumu Talent varat nodrošināt kādā vidē.
 
 1. LCS projektā atlasiet elementu **Talent programmas pārvaldība**.
-2. Pakalpojums Talent vienmēr tiek nodrošināts Microsoft PowerApps vidē, lai iespējotu PowerApps integrāciju un paplašināmību. Pirms turpināšanas izlasiet šīs tēmas sadaļu “PowerApps vides izvēle”. 
+2. Pakalpojums Talent vienmēr tiek nodrošināts Microsoft PowerApps vidē, lai iespējotu PowerApps integrēšanu un paplašināmību. Pirms turpināšanas izlasiet šīs tēmas sadaļu “PowerApps vides izvēle”. Ja jums vēl nav PowerApps vides, pakalpojumā LCS atlasiet Pārvaldīt vides vai pārejiet uz PowerApps administrēšanas centru. Pēc tam izpildiet norādījumus par procedūru [PowerApps vides izveidošana](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
 
     > [!NOTE]
     > Lai skatītu esošās vides vai izveidotu jaunas vides, tā nomnieka administratoram, kurš nodrošina pakalpojumu Talent, ir jābūt piešķirtai PowerApps P2 licencei. Ja jūsu organizācijai nav PowerApps P2 licences, tādu varat saņemt no sava CSP vai no [PowerApps izcenojuma lapas](https://powerapps.microsoft.com/en-us/pricing/).
@@ -73,7 +73,7 @@ Izmantojot integrāciju starp Talent un PowerApps vidēm, varat integrēt un pap
 Izvēloties PowerApps vidi, kurā izvietot programmatūru Talent, ņemiet vērā tālāk sniegtos norādījumus. 
 1. LCS atlasiet Pārvaldīt vides vai tiešā veidā pārejiet uz PowerApps administrēšanas centru, kur varat skatīt esošās vides un izveidot jaunas vides.
 2. Katra Talent vide ir kartēta ar atsevišķu PowerApps vidi.
-3. PowerApps vidē ir ietverta Talent lietojumprogramma, kā arī atbilstošās PowerApps, Flow un CDS lietojumprogrammas. Ja tiek dzēsta PowerApps vide, kopā ar to tiek dzēstas arī programmas.
+3. PowerApps vidē ir ietverta Talent lietojumprogramma, kā arī atbilstošās PowerApps, Flow un CDS lietojumprogrammas. Ja tiek dzēsta PowerApps vide, kopā ar to tiek dzēstas arī programmas. Kad veicat Talent vides nodrošināšanu, var nodrošināt vidi “Izmēģinājumversija” vai “Ražošana”. Vides tips ir jāizvēlas atkarībā no veida, kādā šī vide tiks izmantota. 
 4. Ir jāapsver datu integrācijas un pārbaudes metodes, piemēram, smilškastes, UAT, ražošanas. Tāpēc ir ieteicams apsvērt dažādos izvietojuma saistīšanas iespējas, jo vēlāk nevar viegli mainīt ar PowerApps vidi kartēto Talent vidi.
 5. Tālāk norādītās PowerApps vides nevar lietot programmatūrā Talent, tāpēc tās netiek rādītas LCS esošajā atlases sarakstā.
  

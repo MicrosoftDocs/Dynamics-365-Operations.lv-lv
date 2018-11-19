@@ -3,7 +3,7 @@ title: "Lokālo izvietojumu sākumlapa"
 description: "Šajā tēmā ir sniegta informācija un saites uz saturu par lokālajiem izvietojumiem."
 author: kfend
 manager: AnnBe
-ms.date: 09/11/2018
+ms.date: 11/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
-ms.openlocfilehash: e65edc9d613c9898776e30ea5ab4104a3ce5b4c8
+ms.sourcegitcommit: b8fb8c963e2bba2e6fe7cb31e71a38232f1e8a54
+ms.openlocfilehash: c80a41427db18607577b4f89c8e30fe6c8f872d3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/17/2018
+ms.lasthandoff: 11/02/2018
 
 ---
 # <a name="on-premises-deployments-home-page"></a>Lokālo izvietojumu sākumlapa
@@ -31,37 +31,44 @@ ms.lasthandoff: 09/17/2018
 Izvērsiet programmu Microsoft Dynamics 365 for Finance and Operations (lokāla izvietošana). Izvēloties lokālās izvietošanas veidu, sistēmas prasības, aparatūras lieluma maiņa un funkcionalitāte atšķiras no mākoņa izvietošanas. Šajā tēmā ir sniegtas saites uz saturu, kurā ietverta informācija par lokālajiem izvietojumiem.
 
 ## <a name="get-started"></a>Sākt darbu
-- [Jaunumi un izmaiņas programmas Dynamics 365 for Finance and Operations Enterprise edition 7.2 lokālajos izvietojumos ar platformas atjauninājumu 12 (2018. gada marts)](../../fin-and-ops/get-started/whats-new-LBD-PU12-App72.md)
-- [Programmas Microsoft Dynamics 365 for Finance and Operations (lokāla izvietošana) pārskats](on-premises-overview.md)
-- [Jūsu lokālā izvietojuma plānošana](plan-onprem-deployment.md)
+- [Lokālas izvietošanas opcija](on-premises-overview.md)
+- [Plānošana un sagatavošanās lokāliem izvietojumiem](plan-onprem-deployment.md)
 - [Sistēmas prasības lokālajiem izvietojumiem](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [Aparatūras lieluma maiņa lokālām vidēm](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
-- [Dynamics 365 for Finance and Operations (lokāla izvietošana) iegāde](../../fin-and-ops/get-started/purchase-on-premises.md)
+- [Finance and Operations (lokālas versijas) iegāde](../../fin-and-ops/get-started/purchase-on-premises.md)
 - [Mākoņa un lokālās versijas līdzekļu salīdzinājums](../../fin-and-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>Pievienošana
-- [Lokāla projekta izveide pakalpojumā Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [Lokālas vides iestatīšana un izvietošana (Platform update 12)](setup-deploy-on-premises-pu12.md)
+- [Lokālo projektu iestatīšana pakalpojumā Lifecycle Services (LCS)](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
+- [Lokālu vižu iestatīšana un izvietošana (Platform update 12 un jaunākas versijas)](setup-deploy-on-premises-pu12.md)
 - [Lokālas vides iestatīšana un izvietošana (Platform update 8 un 11)](setup-deploy-on-premises-pu8-pu11.md)
-- [Tīkla printera ierīču instalēšana lokālajās vidēs](../analytics/install-network-printer-onprem.md)
-- [SQL Server pārskatu izveides pakalpojumu konfigurēšana lokālam izvietojumam](../analytics/configure-ssrs-on-premises.md)
+- [Tīkla printera ierīču instalēšana lokālās vidēs](../analytics/install-network-printer-onprem.md)
+- [SQL Server pārskatu izveides pakalpojumu konfigurēšana lokāliem izvietojumiem](../analytics/configure-ssrs-on-premises.md)
 - [Pielāgotu modeļu izstrāde un izvietošana lokālām vidēm](develop-deploy-custom-models-on-premises.md)
 
 ## <a name="work-in-your-on-premises-deployment"></a>Darbs lokālajā izvietojumā
 - [Dokumentu pārvaldības konfigurēšana](../../fin-and-ops/organization-administration/configure-document-management.md)
-- [Elektronisko pārskatu veidošanas konfigurāciju importēšana](../analytics/electronic-reporting-import-ger-configurations.md)
-- [Dokumentu veidošanas, publicēšanas un drukāšanas iespējas lokālos izvietojumos](../analytics/printing-capabilities-on-premises.md)
-- [Apgrieztā starpniekservera konfigurēšana lokālajai videi](onprem-reverseproxy.md)
-- [Tehniskā atbalsta iestatīšana](../lifecycle-services/support-experience.md)
-- [Klienta interneta savienojuma problēmu novēršana](../user-interface/client-disconnected.md)
-- [Atjauninājumu lietošana lokālam izvietojumam](apply-updates-on-premises.md)
-- [Atkārtoti izvietot lokālo izvietojumu](redeploy-on-prem.md)
+- [Elektronisko pārskatu veidošanas (ER) konfigurāciju importēšana](../analytics/electronic-reporting-import-ger-configurations.md)
+- [Dokumentu ģenerēšana, publicēšana un drukāšana lokālos izvietojumos](../analytics/printing-capabilities-on-premises.md)
+- [Apgriezto starpniekserveru konfigurēšana lokālās vidēs](onprem-reverseproxy.md)
+- [Tehniskā atbalsta uzstādīšana programmai Finance and Operations](../lifecycle-services/support-experience.md)
+- [Klienta interneta savienojamība](../user-interface/client-disconnected.md)
+- [Atjauninājumu lietošana lokālos izvietojumos](apply-updates-on-premises.md)
+- [Lokālo vižu atkārtota izvietošana](redeploy-on-prem.md)
+
+## <a name="retail"></a>Retail
+- [Retail iespējas, kas ir pieejamas lokālos izvietojumos](../../retail/retail-onprem.md)
+- [Retail kanāla komponentu instalēšanas darbības lokālā vidē](deploy-retail-onprem.md)
+- [Retail Modern POS (MPOS) konfigurēšana, instalēšana un aktivizēšana](../../retail/retail-modern-pos-device-activation.md)
+- [Retail Store Scale Unit konfigurēšana un instalēšana](../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
+
+
 
 ## <a name="other-resources"></a>Citi resursi
-- [Dynamics 365 for Finance and Operations lokālo problēmu novēršana](troubleshoot-on-prem.md)
+- [Lokālo izvietojumu problēmu novēršana](troubleshoot-on-prem.md)
 - [Lokālā diagnostika](on-premises-diagnostics.md)
 - [Līdzekļi, kas nav ieviesti lokālos izvietojumos](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
-- [Novecojušie līdzekļi](../migration-upgrade/deprecated-features.md)
+- [Noņemtie vai novecojušie līdzekļi](../migration-upgrade/deprecated-features.md)
 - [Programmatūras dzīves cikla politika un lokāli laidieni](../migration-upgrade/on-prem-version-update-policy.md)
  
 
