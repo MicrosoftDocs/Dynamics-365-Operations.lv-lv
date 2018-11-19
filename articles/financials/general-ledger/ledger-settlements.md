@@ -27,7 +27,6 @@ ms.lasthandoff: 10/12/2018
 # <a name="ledger-settlements"></a>Virsgrāmatas darbību sasaistīšana
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Virsgrāmatas darbību sasaistīšana ļauj jums virsgrāmatā noteikt debeta un kredīta transakciju atbilstību un atzīmēt šīs transakcijas kā nosegtas. Šādi varat pārliecināties, vai saistītās transakcijas ir nokārtotas. Varat arī anulēt nosegšanu, ja tā tika veikta kļūdaini.
 
