@@ -29,14 +29,16 @@
               href: get-started/public-preview-releases.md
             - name: Finance and Operations iegāde
               items:
-                - name: Finance and Operations (lokālas versijas) iegāde
+                - name: Finance and Operations (lokālās versijas) iegāde
                   href: get-started/purchase-on-premises.md
         - name: Jaunumi un izmaiņas
           href: get-started/whats-new-changed.md
           items:
+            - name: Bieži uzdotie jautājumi par vienas versijas pakalpojuma atjauninājumiem
+              href: get-started/one-version.md
             - name: Programmatūras dzīves cikla politika un mākoņa laidieni
               href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
-            - name: Programmatūras dzīves cikla politika un lokāli laidieni
+            - name: Programmatūras dzīves cikla politika un lokālie laidieni
               href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json
             - name: Galvenā atbalsta beigas versijai Microsoft Dynamics AX 2009 un 2012
               href: get-started/mainstream-support-ax-2009-2012.md
@@ -46,47 +48,55 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: 'Līdzekļi, kas nav ieviesti lokālajos izvietojumos'
               href: get-started/features-not-implemented-on-prem.md
+            - name: "Platform update\_22 (2018.\_gada novembris)"
+              href: get-started/whats-new-platform-update-22.md
+            - name: "Finance and Operations versija\_8.1.2 (2018.\_gada novembris)"
+              href: get-started/whats-new-changed-8-1-2.md
+            - name: "Finance and Operations versija\_8.1.1 (2018.\_gada oktobris)"
+              href: get-started/whats-new-changed-8-1-1.md
             - name: "Finance and Operations versija\_8.1 (2018.\_gada oktobris)"
               href: get-started/whats-new-changed-8-1-October-2018.md
-            - name: "Atjauninājums Platform update\_20 (2018.\_gada septembris)"
+            - name: "Platform update\_21 (2018.\_gada oktobris)"
+              href: get-started/whats-new-platform-update-21.md
+            - name: "Platform update\_20 (2018.\_gada septembris)"
               href: get-started/whats-new-platform-update-20.md
             - name: "Finance and Operations versija\_8.0 (2018.\_gada aprīlis)"
               href: get-started/whats-new-changed-8-0-April-2018.md
-            - name: "Atjauninājums Platform update\_15 (2018.\_gada marts)"
+            - name: "Platform update\_15 (2018.\_gada marts)"
               href: get-started/whats-new-platform-update-15.md
             - name: "Programmas Finance and Operations, Enterprise edition 7.2 lokāls izvietojums ar atjauninājumu Platform update\_12 (2018.\_gada marts)"
               href: get-started/whats-new-LBD-PU12-App72.md
             - name: "Finance and Operations, Enterprise edition\_7.3"
               href: get-started/whats-new-application-7.3-update.md
-            - name: "Atjauninājums Platform update\_12 (2017.\_gada novembris)"
+            - name: "Platform update\_12 (2017.\_gada novembris)"
               href: get-started/whats-new-platform-update-12.md
-            - name: "Atjauninājums Platform update\_11 (2017.\_gada oktobris)"
+            - name: "Platform update\_11 (2017.\_gada oktobris)"
               href: get-started/whats-new-platform-update-11.md
-            - name: "Atjauninājums Platform update\_10 (2017.\_gada augusts)"
+            - name: "Platform update\_10 (2017.\_gada augusts)"
               href: get-started/whats-new-platform-update-10.md
             - name: "Finance and Operations Enterprise edition (2017.\_gada jūlijs)"
               href: get-started/whats-new-application-July-2017-update.md
-            - name: "Atjauninājums Platform update\_9 (2017.\_gada jūlijs)"
+            - name: "Platform update\_9 (2017.\_gada jūlijs)"
               href: get-started/whats-new-platform-update-9.md
-            - name: "Atjauninājums Platform update\_8 (2017.\_gada jūnijs)"
+            - name: "Platform update\_8 (2017.\_gada jūnijs)"
               href: get-started/whats-new-platform-update-8.md
-            - name: "Atjauninājums Platform update\_7 (2017.\_gada maijs)"
+            - name: "Platform update\_7 (2017.\_gada maijs)"
               href: get-started/whats-new-platform-update-7.md
-            - name: "Atjauninājums Platform update\_6 (2017.\_gada aprīlis)"
+            - name: "Platform update\_6 (2017.\_gada aprīlis)"
               href: get-started/whats-new-platform-update-6.md
-            - name: "Atjauninājums Platform update\_5 (2017.\_gada marts)"
+            - name: "Platform update\_5 (2017.\_gada marts)"
               href: get-started/whats-new-platform-update-5.md
-            - name: "Atjauninājums Platform update\_4 (2017.\_gada februāris)"
+            - name: "Platform update\_4 (2017.\_gada februāris)"
               href: get-started/whats-new-platform-update-4.md
             - name: "Operāciju versija 1611 (2016.\_gada novembris)"
               href: get-started/whats-new-dynamics-365-operations-1611.md
-            - name: "Atjauninājums Platform update\_3 (2016.\_gada novembris)"
+            - name: "Platform update\_3 (2016.\_gada novembris)"
               href: get-started/whats-new-platform-update-3.md
-            - name: "Atjauninājums Platform update\_2 (2016.\_gada augusts)"
+            - name: "Platform update\_2 (2016.\_gada augusts)"
               href: get-started/whats-new-platform-update-2.md
             - name: "Dynamics\_AX programmas versija 7.0.1 (2016.\_gada maijs)"
               href: get-started/whats-new-changed-application-version-7-0-1-may-2016.md
-            - name: "Atjauninājums Platform update\_1 (2016.\_gada maijs)"
+            - name: "Platform update\_1 (2016.\_gada maijs)"
               href: get-started/whats-new-changed-platform-version-7-1-may-2016.md
             - name: AX 7.0 (2016. gada februāris)
               href: get-started/whats-new-changed-7-0-february-2016.md
@@ -300,7 +310,7 @@
           href: ../dev-itpro/data-entities/integration-overview.md?toc=/fin-and-ops/toc.json
         - name: Datu integrācijas API
           items:
-            - name: Datu pārvaldības pakotnes API
+            - name: Datu pārvaldības pakotnes REST API
               href: ../dev-itpro/data-entities/data-management-api.md?toc=/fin-and-ops/toc.json
             - name: Pakalpojumu galapunkti
               href: ../dev-itpro/data-entities/services-home-page.md?toc=/fin-and-ops/toc.json
@@ -309,10 +319,12 @@
                   href: ../dev-itpro/data-entities/troubleshoot-service-authentication.md?toc=/fin-and-ops/toc.json
             - name: OData
               href: ../dev-itpro/data-entities/odata.md?toc=/fin-and-ops/toc.json
-            - name: Pielāgoti pakalpojumi
+            - name: Pielāgota pakalpojuma izstrāde
               href: ../dev-itpro/data-entities/custom-services.md?toc=/fin-and-ops/toc.json
-            - name: Atkārtotas integrācijas​
+            - name: Atkārtotas integrācijas
               href: ../dev-itpro/data-entities/recurring-integrations.md?toc=/fin-and-ops/toc.json
+            - name: 'Pakalpojumu testēšana, izmantojot trešo pušu utilītas'
+              href: ../dev-itpro/data-entities/third-party-service-test.md
         - name: Izstrāde integrācijai
           items:
             - name: 'Datu integrācija, izmantojot datu elementus'
@@ -324,9 +336,9 @@
                   href: ../dev-itpro/data-entities/develop-composite-data-entities.md?toc=/fin-and-ops/toc.json
                 - name: Finansiālās datu koplietošanas uzņēmumos konfigurēšana
                   href: ../dev-itpro/data-entities/tasks/configure-financial-cross-company-data-sharing.md?toc=/fin-and-ops/toc.json
-                - name: 'Ieraksta veidnes izveide, lai atvieglotu datu ievadi'
+                - name: 'Ierakstu veidņu izveide, lai atvieglotu datu ievadi'
                   href: ../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/fin-and-ops/toc.json
-                - name: 'Ieraksta veidnes izmantošana, lai izveidotu jaunu ierakstu'
+                - name: 'Ierakstu izveide, izmantojot ierakstu veidnes'
                   href: ../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/fin-and-ops/toc.json
             - name: 'Datu integrācija, izmantojot pakalpojumu Common Data Service'
               href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
@@ -383,6 +395,8 @@
             - name: Konfigurācijas datu kopēšana starp uzņēmumiem vai juridiskajām personām
               href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Konfigurācijas datu pakotnes​
+                  href: ../dev-itpro/data-entities/configuration-data-packages.md
                 - name: "Konfigurācijas datu pakotnes (tikai 2017.\_gada jūlija laidiens)"
                   href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
             - name: Konfigurācijas datu veidnes
@@ -391,6 +405,10 @@
               href: ../dev-itpro/data-entities/entity-change-track.md?toc=/fin-and-ops/toc.json
             - name: Informācijas par standarta datu elementiem meklēšana
               href: ../dev-itpro/data-entities/data-entities-report.md?toc=/fin-and-ops/toc.json
+            - name: Datu veidnes ar vairākām darblapām
+              href: ../dev-itpro/data-entities/excel-template-multiple.md
+            - name: Izmaiņu izsekošanas iespējošana elementiem
+              href: ../dev-itpro/data-entities/entity-change-track.md
             - name: Konfigurācijas atslēgas un datu elementi
               href: ../dev-itpro/data-entities/config-key-entities.md?toc=/fin-and-ops/toc.json
             - name: Konfigurācijas datu pakotnes​
@@ -402,6 +420,8 @@
               href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/fin-and-ops/toc.json
         - name: Datu elementu izstrāde
           items:
+            - name: Datu elementu dizaina principi un labākās prakses
+              href: ../dev-itpro/dev-tools/design-best-practices.md
             - name: Jaunu datu elementu izveide
               href: ../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/fin-and-ops/toc.json
             - name: Datu elementa rekvizīti
@@ -424,19 +444,23 @@
               href: ../dev-itpro/data-entities/security-data-entities.md?toc=/fin-and-ops/toc.json
             - name: Trešo pušu pakalpojumu testēšanas utilītu izmantošana
               href: ../dev-itpro/data-entities/third-party-service-test.md?toc=/fin-and-ops/toc.json
+            - name: 'Tādu tikai lasāmu elementu izveide, kas atklāj finanšu dimensijas'
+              href: ../dev-itpro/financial/read-only-entity-financial.md?toc=/fin-and-ops/toc.json
         - name: Savas datu bāzes izmantošana
           href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json
         - name: Datu uzdevumu automatizācija
           href: ../dev-itpro/data-entities/data-task-automation.md
-        - name: Datu validēšanas darbvieta
+        - name: Datu validēšanas kontrolsaraksta darbvieta
           href: ../dev-itpro/user-interface/data-validation-workspace.md
+        - name: Datu pārvaldības kļūdu apraksti
+          href: ../dev-itpro/data-entities/dm-error-descriptions.md
     - name: Finanšu pārvaldība
       href: ../financials/index.md
       items:
         - name: Kreditori
           href: ../financials/accounts-payable/accounts-payable.md
           items:
-            - name: Kreditoru rēķinu apskats
+            - name: Kreditoru rēķinu pārskats
               href: ../financials/accounts-payable/vendor-invoices-overview.md
             - name: Kreditoru konfigurēšana
               href: ../financials/accounts-payable/accounts-payable-overview.md
@@ -1007,6 +1031,8 @@
                   href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
                 - name: Kontu struktūru konfigurēšana
                   href: ../financials/general-ledger/configure-account-structures.md
+                - name: Divkāršā valūta
+                  href: ../financials/general-ledger/dual-currency.md
             - name: Žurnāli un virsgrāmatas
               items:
                 - name: Virsgrāmatas žurnāla apstrāde
@@ -1049,6 +1075,8 @@
                   href: ../financials/general-ledger/import-currency-exchange-rates.md
                 - name: Viens dokuments
                   href: ../financials/general-ledger/one-voucher.md
+                - name: Virsgrāmatas norēķini
+                  href: ../financials/general-ledger/ledger-settlements.md
             - name: Perioda beigu slēgšana
               items:
                 - name: Virsgrāmatas slēgšana perioda beigās
@@ -1799,6 +1827,10 @@
             - name: Nodokļu programmas pārskats
               href: ../financials/general-ledger/tax-engine.md
               items:
+                - name: Konfigurācijas importēšana
+                  href: ../financials/general-ledger/tax-engine-import-configuration.md
+                - name: Nodokļu programmas piemērojamība
+                  href: ../financials/general-ledger/tax-engine-applicability.md
                 - name: Nodokļu programmas integrācija
                   href: ../financials/general-ledger/tax-engine-integration.md
                 - name: Nodokļu programmas paplašināšana
@@ -2100,6 +2132,8 @@
         - name: Polija
           href: ../financials/localizations/poland.md
           items:
+            - name: Storno uzskaites aktivizēšana
+              href: ../financials/localizations/emea-pol-red-storno.md
             - name: Rindu atlaižu aprēķināšana no vienības cenas
               href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
             - name: Labojuma piezīmes
@@ -2116,6 +2150,8 @@
               href: ../financials/localizations/emea-pol-returnable-packages.md
             - name: PVN pārskati
               href: ../financials/localizations/emea-pol-sales-tax-reports.md
+            - name: Numuru sēriju iestatīšana pēc noliktavas
+              href: ../financials/localizations/emea-pol-number-sequence-warehouses.md
             - name: Standarta audita fails
               href: ../financials/localizations/emea-pol-standard-audit-file-saf.md
             - name: Nodokļu procenti un brīvā procentu likme
@@ -2132,32 +2168,60 @@
                   href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
                 - name: Ikdienas operācijas avansa turētājiem
                   href: ../financials/localizations/rus-advance-holders-daily-operations.md
+                - name: Avansa pārskati ar budžeta kontroli
+                  href: ../financials/localizations/rus-advance-holders-reports-dailyops.md
+                - name: Ārvalstu valūtas pārvērtēšana avansa turētājiem
+                  href: ../financials/localizations/rus-advance-adjustment-parameters.md
+                - name: Avansa turētāju pārskati
+                  href: ../financials/localizations/rus-local-management-reports-primary-forms.md
+            - name: Banka
+              items:
+                - name: Bankas kontu iestatīšana
+                  href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
+                - name: Maksājumu uzdevumu iestatīšana un apstrādāšana
+                  href: ../financials/localizations/rus-payment-order-settings-processing.md
             - name: Pamatlīdzekļi
               items:
                 - name: Pamatlīdzekļu iegūšana un to nodošana ekspluatācijā
                   href: ../financials/localizations/rus-fixed-asset-acquisition.md
+                - name: Pamatlīdzekļu iegūšanas reģistrēšana
+                  href: ../financials/localizations/rus-register-acquisition.md
                 - name: Budžeta žurnālu izveide un grāmatošana pamatlīdzekļu iegūšanai
                   href: ../financials/localizations/rus-post-budget-fixed-asset-acquisition.md
                 - name: Pamatlīdzekļu uzskaite
                   href: ../financials/localizations/rus-fixed-assets-counting.md
                 - name: Pamatlīdzekļu valūtas pārvērtēšana
                   href: ../financials/localizations/rus-fixed-asset-currency-revaluation.md
+                - name: Pamatlīdzekļu izmaksu un nolietojuma pārvērtēšana
+                  href: ../financials/localizations/rus-fixed-assets-revaluation.md
                 - name: Pamatlīdzekļu daļēja izjaukšana (likvidācija)
                   href: ../financials/localizations/rus-fixed-assets-disassembly.md
-            - name: Maksājumu uzdevumu iestatīšana un apstrādāšana
-              href: ../financials/localizations/rus-payment-order-settings-processing.md
-            - name: Valūtas maiņas kursa iestatīšana valūtas transakcijām
+                - name: 'Līdzekļu pārdošana, izslēgšana un norakstīšana'
+                  href: ../financials/localizations/rus-sell-dispose-write-off-fixed-assets.md
+                - name: Pamatlīdzekļu novietojumu un numerāciju iestatīšana
+                  href: ../financials/localizations/rus-fixed-assets-locations-numbering.md
+                - name: Nolietojuma iestatīšana
+                  href: ../financials/localizations/rus-depreciation-setup.md
+                - name: Nolietojuma metodes
+                  href: ../financials/localizations/rus-depreciation-methods.md
+                - name: Papildnolietojums
+                  href: ../financials/localizations/rus-bonus-depreciation.md
+                - name: Nolietojuma aprēķināšana
+                  href: ../financials/localizations/rus-depreciation-calculation.md
+            - name: Uzņēmuma nodaļas.
+              href: ../financials/localizations/rus-company-divisions.md
+            - name: Valūtas maiņas kursu iestatīšana valūtas transakcijām
               href: ../financials/localizations/rus-exchange-difference.md
             - name: Virsgrāmatas transakciju priekšskatīšana
               href: ../financials/localizations/rus-ledger-transactions-preview.md
             - name: Amatpersonu iestatīšana
               href: ../financials/localizations/rus-officials.md
-            - name: Bankas kontu iestatīšana
-              href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
             - name: Pievienotās vērtības nodoklis (PVN) nodokļu aģentiem
               href: ../financials/localizations/rus-tax-agent.md
             - name: Dimensiju kontroles iestatīšana norēķiniem
               href: ../financials/localizations/rus-transactions-settlement-date.md
+            - name: Apmaksājamie rēķini
+              href: ../financials/localizations/rus-invoice-payment.md
         - name: Saūda Arābija
           href: ../financials/localizations/saudi-arabia.md
           items:

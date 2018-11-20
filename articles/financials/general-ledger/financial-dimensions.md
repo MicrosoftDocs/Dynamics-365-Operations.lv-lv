@@ -3,7 +3,7 @@ title: "Finanšu dimensijas"
 description: "Šajā tēmā ir aprakstīti dažādie finanšu dimensiju tipi un izskaidrots, kā tie tiek iestatīti."
 author: aprilolson
 manager: AnnBe
-ms.date: 08/24/2018
+ms.date: 10/26/2018
 ms.topic: article
 ems.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: d6b7b1219974cb5de1a625d87c3bce2a4439470b
-ms.openlocfilehash: 9973d03de031ad2fa5647bb167c12b9231633a22
+ms.sourcegitcommit: 003b7eac16c1be50bc982da0672df42a87a69722
+ms.openlocfilehash: bda8b14b1752ca67fc4eeec6d6345dcf3968179d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 11/05/2018
 
 ---
 
@@ -51,9 +51,9 @@ Lūk, daži no ierobežojumiem.
 
 ## <a name="custom-dimensions"></a>Pielāgotas dimensijas
 
-Lai izveidotu lietotāja definētu finanšu dimensiju, laukā **Izmantot vērtības no** atlasiet **&lt;&nbsp;Pielāgota dimensija&nbsp;&gt;**.
+Lai izveidotu lietotāja definētu finanšu dimensiju, laukā **Izmantot vērtības no** atlasiet opciju **Pielāgota dimensija**.
 
-Lai ierobežotu summas un tipa informāciju, ko var ievadīt dimensiju vērtībām, var norādīt arī konta masku. Varat ievadīt rakstzīmes, kas paliek tādas pašas katrai dimensijas vērtībai, piemēram, burtus vai defisi (-). Numura zīmes (\#) un zīmes (&) var ievadīt arī kā to rakstzīmju vietturus, kuras mainīsies ikreiz, izveidojot dimensijas vērtību. Numura zīmi (\#) izmantojiet kā vietturi cipariem un zīmi & izmantojiet kā vietturi burtiem. Formāta maskas lauks ir pieejams tikai tad, ja laukā **Izmantot vērtības no** tiek atlasīta opcija **&lt;&nbsp;Pielāgota dimensija&nbsp;&gt;**.
+Lai ierobežotu summas un tipa informāciju, ko var ievadīt dimensiju vērtībām, var norādīt arī konta masku. Varat ievadīt rakstzīmes, kas paliek tādas pašas katrai dimensijas vērtībai, piemēram, burtus vai defisi (-). Numura zīmes (\#) un zīmes (&) var ievadīt arī kā to rakstzīmju vietturus, kuras mainīsies ikreiz, izveidojot dimensijas vērtību. Numura zīmi (\#) izmantojiet kā vietturi cipariem un zīmi & izmantojiet kā vietturi burtiem. Formāta maskas lauks ir pieejams tikai tad, ja laukā **Izmantot vērtības no** ir atlasīta opcija **Pielāgota dimensija**.
 
 **Piemērs**
 
@@ -108,14 +108,30 @@ Dimensiju lapā var iestatīt atvasinātās vērtības.
 
 Ievadiet dimensiju kombinācijas, kas ir jāatvasina no dimensijas pirmajā kolonnā. Piemēram, lai varētu izmantot izmaksu centru kā dimensiju, no kuras ir atvasināta nodaļa un vieta, ievadiet izmaksas centra vērtību 10, nodaļas vērtību 20 un vietas vērtību 30. Pēc tam, ievadot izmaksu centru 10 šablona ierakstā vai transakciju lapā, nodaļa 20 un vieta 30 tiek ievadīta pēc noklusējuma.
 
-Atvasinātās dimensijas process neignorē esošās atvasināto dimensiju vērtības. Piemēram, ja ievada izmaksu centru 10 un citas dimensijas netiek ievadītas, pēc noklusējuma tiek ievadīta nodaļas 20 un vieta 30. Tomēr, ja izmaksu centrs tiek mainīts, jau izveidotās vērtības netiek mainītas. Tāpēc šablona ierakstos var izveidot noklusējuma dimensijas, un atvasinātās dimensijas šīs dimensijas neizmaina.
+### <a name="overriding-existing-values-with-derived-dimensions"></a>Esošu vērtību pārrakstīšana ar atvasinātām dimensijām
+ 
+Pēc noklusējuma atvasinātās dimensijas process nepārraksta atvasināto dimensiju esošās vērtības. Piemēram, ja ievada izmaksu centru 10 un citas dimensijas netiek ievadītas, pēc noklusējuma tiek ievadīta nodaļas 20 un vieta 30. Tomēr, ja izmaksu centrs tiek mainīts, jau izveidotās vērtības netiek mainītas. Tāpēc šablona ierakstos var izveidot noklusējuma dimensijas, un atvasinātās dimensijas šīs dimensijas neizmaina.
+
+Varat mainīt atvasināto dimensiju uzvedību, lai tās pārrakstītu esošās vērtības, atzīmējot izvēles rūtiņu **Aizstāt esošās dimensiju vērtības ar atvasinātajām vērtībām** lapā **Atvasinātās dimensijas**. Ja šis lauks ir atlasīts, varat ievadīt dimensiju ar atvasinātām dimensiju vērtībām, un šīs atvasinātās dimensiju vērtības pārrakstīs visas jau pastāvošās vērtības. Izmantojot iepriekšējo piemēru — ja ievadāt izmaksu centru 10 un netiek ievadīta neviena cita dimensija, pēc noklusējuma tiek ievadīta nodaļa 20 un novietojums 30. Taču, ja vērtības jau bija nodaļa 50 un novietojums 60, šīs vērtības tagad tiek mainītas uz nodaļu 20 un novietojumu 30.
+ 
+Atvasinātās dimensijas ar šo iestatījumu automātiski neaizstāj esošās noklusējuma dimensiju vērtības, kad dimensiju vērtības tiek iestatītas uz noklusējuma vērtībām. Dimensiju vērtības tiek pārrakstītas tikai tad, kad ievadāt jaunu dimensijas vērtību tādā lapā, kur šai dimensijai lapā jau pastāv atvasinātās vērtības.
+
+### <a name="preventing-changes-with-derived-dimensions"></a>Izmaiņu novēršana ar atvasinātām dimensijām
+ 
+Kad izmantojat komandu **Pievienot segmentu** lapā **Atvasinātās dimensijas**, lai kādu segmentu pievienotu kā atvasinātu dimensiju, lapas **Pievienot segmentu** apakšā tiek piedāvāta opcija, kas ļauj jums nepieļaut izmaiņas šai dimensijai, kad tā tik atvasināta kādā lapā. Pēc noklusējuma šī opcija ir izslēgta, tāpēc netiek novērsta atvasināto dimensiju vērtību mainīšana. Mainiet šo iestatījumu uz **Jā**, ja vēlaties novērst šīs dimensijas mainīšanu pēc tās atvasināšanas. Piemēram, ja dimensijas Nodaļa vērtība tiek atvasināta no dimensijas Izmaksu centrs vērtības, vērtību Nodaļa nevar mainīt, ja iestatījums **Novērst izmaiņas** ir **Jā**. 
+ 
+Šis iestatījums nenovērš izmaiņu veikšanu, ja dimensijas vērtība ir derīga, bet nav uzskaitīta atvasināto dimensiju sarakstā. Piemēram, ja Nodaļa 20 tiek atvasināta no Izmaksu centrs 10 un ievadāt Izmaksu centrs 10, vairs nevar rediģēt Nodaļa 20. Taču, ja ievadāt Izmaksu centrs 20 un šī vērtība nav atvasināto dimensiju sarakstā vienumam Izmaksu centrs, vērtību Nodaļa varat rediģēt. 
+ 
+Visos gadījumos konta vērtība un visas dimensiju vērtības joprojām tiks validētas attiecībā pret kontu struktūrām pēc tam, kad ir lietotas atvasināto dimensiju vērtības. Ja izmantojat atvasinātās dimensijas un to validēšana ir nesekmīga, kad šīs dimensijas tiek lietas lapā, ir jāmaina atvasināto dimensiju vērtības atvasināto dimensijas lapā, lai tās varētu izmantot transakcijās. 
+ 
+Kad maināt dimensijas kopsavilkuma cilnē **Finanšu dimensijas**, nevar rediģēt dimensiju, kas ir atzīmēta izmaiņu novēršanai. Ja kontu un dimensijas ievadāt lapas segmentētā ieraksta vadīklā, šīs dimensijas var rediģēt. Taču, kad izcēlumu pārvietojat prom no segmentētā ieraksta vadīklas un to pārvietojat uz citu lauku vai veicat kādu darbību, šis konts un dimensijas tiek validētas attiecībā pret atvasināto dimensiju sarakstu un kontu struktūrām, lai pārliecinātos, ka ievadāt atbilstošās vērtības. 
 
 ### <a name="derived-dimensions-and-entities"></a>Atvasinātās dimensijas un elementi
 
 Atvasināto dimensiju segmentus un vērtības var iestatīt, izmantojot elementus.
 
 - Atvasināts dimensijas elements iestata vadošo dimensiju un segmentus, kurus izmanto šīm dimensijām.
-- Elements DerivedDimensionValue ļauj importēt vērtības, kuras jāatvasina visām vadošajām dimensijām.
+- Elements Atvasināto dimensiju vērtība ļauj importēt vērtības, kuras ir jāatvasina katrai vadošajai dimensijai.
 
 Ja elementu tiek izmantots datu importēšanai un šis elements importē dimensijas, importēšanas laikā stājas spēkā atvasinātās dimensijas kārtulas, ja vien elements īpaši neignorē šīs dimensijas.
 

@@ -3,7 +3,7 @@ title: "Mākoņa un lokālās versijas līdzekļu salīdzinājums"
 description: "Šajā tēmā ir parādīts, kādi līdzekļi tiek atbalstīti mākoņa un lokālajā versijā."
 author: robinarh
 manager: AnnBe
-ms.date: 03/05/2018
+ms.date: 11/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 4354b9d55cc84f7c74020d95617c406dc5fb225c
+ms.sourcegitcommit: 53c0da5e9697deaf946ccd4fbcd2102faa62b195
+ms.openlocfilehash: bc2b8aafa28d3998e223891fa95e3fe8175349e6
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 11/02/2018
 
 ---
 
@@ -112,19 +112,16 @@ Nākamajās tabulās ir uzskaitīti produktu apgabali. Mākoņa un lokālās ver
 | Trace Parser un PerfTimer | | Jā | Nē |
 | Jaunināt | | Jā | Jā |
 | | Jaunināt | Jā | Nē |
-| | Jaunināšana un atbalsts iepriekšējām versijām | Jā | Nē |
+| | Jaunināšana un atbalsts iepriekšējām versijām | Jā | Nav |
 | Visual Studio izstrāde |  | Jā | Jā |
 
 
-## <a name="dynamics-365-for-retail"></a>Dynamics 365 for Retail 
+### <a name="retail"></a>Retail 
+Lai apskatītu mazumtirdzniecības iespēju sarakstu, kuras ir pieejamas lokālajos izvietojumos, skatiet tēmu [Retail iespējas, kas ir pieejamas lokālos izvietojumos](../../retail/retail-onprem.md).
 
-| Apgabals | Līdzeklis | Mākonī | Lokāli|
-|---|---|---|---|
-| Visi Retail apgabali | Visi Retail līdzekļi | Jā | Nē |
+## <a name="dynamics-365-for-talent"></a>Dynamics 365 for Talent
 
-## <a name="dynamics-365-for-talent"></a>Dynamics 365 for Talent
-
-| Apgabals | Līdzeklis | Mākonis | Darba telpās|
+| Laukumu | Funkcija | Mākonis | Darba telpās|
 |---|---|---|---|
 | Visi Talent apgabali | Visi Talent līdzekļi | Jā | Nav |
 

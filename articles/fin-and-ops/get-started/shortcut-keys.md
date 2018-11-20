@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
+ms.sourcegitcommit: 58551a26d9f3a55e8a6ab8b4ca0805aaca4a4c28
+ms.openlocfilehash: d9d3ace80e49b8dc29259c8c16925f474c9e74b3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 10/25/2018
 
 ---
 
@@ -192,7 +192,7 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 | Pievienot formu izlasei/noņemt formu no izlases (kad fokusēta ir forma navigācijas rūtī)   | Shift+F                    |
 | Pāriet uz standarta darbību rūti                                              | Alt+M,A vai Ctrl+F6         |
 | Pāriet uz filtra rūti (šī darbība var ietvert tās atvēršanu)                        | Alt+M,F vai Ctrl+F3         |
-| Fokusu pārvietot uz lapas saturu (kamēr fokuss atrodas navigācijas sarakstā)            | Alt+M,M vai Ctrl+F3         |
+| Fokusu pārvietot uz lapas saturu (kamēr fokuss atrodas filtra rūtī)                | Alt+M,M vai Ctrl+F3         |
 | Pāriet uz navigācijas sarakstu formā Detalizēti (šī darbība var ietvert tās atvēršanu)    | Alt+M,S vai Ctrl+F8         |
 | Fokusu pārvietot uz lapas saturu (kamēr fokuss atrodas navigācijas sarakstā)            | Alt+M,M vai Ctrl+F8         |
 | Aizvērt navigācijas sarakstu detalizētas informācijas veidlapā (kad navigācijas saraksts ir aktivizēts) | Esc                        |

@@ -255,8 +255,12 @@
               href: extensibility/extensibility-changes-803.md
             - name: "Paplašināmības izmaiņas versijā\_8.0.4"
               href: extensibility/extensibility-changes-804.md
-            - name: Paplašināmības izmaiņas versijā 8.1
+            - name: "Paplašināmības izmaiņas versijā\_8.1"
               href: extensibility/extensibility-changes-81.md
+            - name: "Paplašināmības izmaiņas versijā\_8.1.1"
+              href: extensibility/extensibility-changes-811.md
+            - name: "Paplašināmības izmaiņas versijā\_8.1.2"
+              href: extensibility/extensibility-changes-812.md
         - name: Pamati
           items:
             - name: Traucējoši pielāgojumi
@@ -301,13 +305,11 @@
               href: extensibility/add-datasource.md
             - name: Formas uzrakstu mainīšana
               href: extensibility/change-caption-form.md
-            - name: Formas kontroles rekvizītu modificēšana
+            - name: Formas vadīklas rekvizītu modificēšana
               href: extensibility/modify-control-properties.md
-            - name: 'Etiķešu mainīšana, izmantojot etiķešu paplašinājuma failus'
-              href: extensibility/change-label.md
             - name: Numuru sēriju diapazona paplašināšana
               href: extensibility/extend-number-sequence-scope.md
-            - name: Jaunu krājuma dimensiju pievienošana
+            - name: Jaunu krājumu dimensiju pievienošana
               href: extensibility/inventory-dimensions.md
             - name: Cenu un atlaižu paplašināšana
               href: extensibility/pricing-app73.md
@@ -317,6 +319,8 @@
               href: extensibility/maps-as-interfaces.md
             - name: Versiju izveidē lietoto tabulu karšu paplašināšana
               href: extensibility/maps-with-versioning.md
+            - name: Atlasīto datu tipu decimālzīmes precizitātes paplašināšana
+              href: extensibility/decimal-point-precision.md
         - name: Paplašināmu risinājumu veidošana
           items:
             - name: Paplašināma koda rakstīšana
@@ -534,7 +538,7 @@
           href: user-interface/workspace-filter-group-subpattern.md
     - name: Vadīklu paplašināmība
       items:
-        - name: Aextensible vadīklu izveide
+        - name: Paplašināmu vadīklu izveide
           href: user-interface/build-extensible-control.md
         - name: Īsinājumtaustiņi paplašināmām vadīklām
           href: user-interface/keyboard-shortcuts-controls.md
@@ -564,7 +568,7 @@
 - name: Mobilā platforma
   href: mobile-apps/platform/mobile-platform-home-page.md
   items:
-    - name: Sākt darbu
+    - name: Darba sākšana
       href: mobile-apps/platform/mobile-platform-getting-started.md
       items:
         - name: Arhitektūras un noformējuma apsvērumi
@@ -764,148 +768,12 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
             - name: ValueMetadata tips
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
-- name: Datu integrācija
+- name: Vispārīgā datu aizsardzības regula (VDAR)
+  href: gdpr/gdpr-guide.md
   items:
-    - name: Datu integrācijas (importa/eksporta) stratēģijas izvēle
-      href: data-entities/integration-overview.md
-    - name: Datu integrācijas API
-      items:
-        - name: Datu pārvaldības pakotnes REST API
-          href: data-entities/data-management-api.md
-        - name: Pakalpojumu galapunkti
-          href: data-entities/services-home-page.md
-          items:
-            - name: Pakalpojumu autentifikācijas problēmu novēršana
-              href: data-entities/troubleshoot-service-authentication.md
-        - name: OData
-          href: data-entities/odata.md
-        - name: Pielāgota pakalpojuma izstrāde
-          href: data-entities/custom-services.md
-        - name: Atkārtotas integrācijas
-          href: data-entities/recurring-integrations.md
-        - name: 'Pakalpojumu testēšana, izmantojot trešo pušu utilītas'
-          href: data-entities/third-party-service-test.md
-    - name: Izstrāde integrācijai
-      items:
-        - name: 'Datu pārvaldība un integrācija, izmantojot datu elementus'
-          href: data-entities/data-management-integration-data-entity.md
-          items:
-            - name: Elementu izstrāde datu migrēšanai
-              href: data-entities/develop-entity-for-data-migration.md
-            - name: Salikto datu elementu izstrāde
-              href: data-entities/develop-composite-data-entities.md
-            - name: Finansiālās datu koplietošanas uzņēmumos konfigurēšana
-              href: data-entities/tasks/configure-financial-cross-company-data-sharing.md
-            - name: 'Ierakstu veidņu izveide, lai atvieglotu datu ievadi'
-              href: data-entities/tasks/create-record-template-facilitate-data-entry.md
-            - name: 'Ierakstu izveide, izmantojot ierakstu veidnes'
-              href: data-entities/tasks/use-record-template-new-record.md
-        - name: 'Datu integrācija, izmantojot pakalpojumu Common Data Service'
-          href: data-entities/data-integration-cds.md
-          items:
-            - name: Potenciālā klienta konfigurēšana uz skaidru naudu
-              href: ../supply-chain/sales-marketing/prospect-to-cash.md
-              items:
-                - name: Programmā Sales ietverto kontu tieša sinhronizēšana ar debitoriem programmā Finance and Operations
-                  href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                - name: Programmā Finance and Operations ietverto preču tieša sinhronizēšana ar precēm programmā Sales
-                  href: ../supply-chain/sales-marketing/products-template-mapping-direct.md
-                - name: Programmā Sales ietverto kontaktpersonu tieša sinhronizēšana ar kontaktpersonām vai debitoriem programmā Finance and Operations
-                  href: ../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                - name: Programmā Finance and Operations ietverto pārdošanas piedāvājumu galveņu un rindu tieša sinhronizēšana no programmas Sales
-                  href: ../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                - name: Pārdošanas pasūtījumu tieša sinhronizēšana no programmas Finance and Operations uz programmu Sales un otrādi
-                  href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                - name: Programmā Finance and Operations ietverto pārdošanas rēķinu galveņu un rindu tieša sinhronizēšana ar programmu Sales
-                  href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-            - name: Integrācijas konfigurēšana ar Field Service
-              href: ../supply-chain/sales-marketing/field-service.md
-              items:
-                - name: Programmā Finance and Operations ietverto preču sinhronizēšana ar precēm programmā Field Service
-                  href: ../supply-chain/sales-marketing/field-service-product.md
-                - name: Programmā Field Service ietverto darba pasūtījumu sinhronizēšana ar pārdošanas pasūtījumiem programmā Finance and Operations
-                  href: ../supply-chain/sales-marketing/field-service-work-order.md
-                - name: Programmā Field Service ietverto līgumu rēķinu sinhronizēšana ar brīva teksta rēķiniem programmā Finance and Operations
-                  href: ../supply-chain/sales-marketing/field-service-invoice.md
-            - name: Project Service Automation integrācijas konfigurēšana
-              href: ../financials/project-management/PSA-integration.md?toc=/dev-itpro/toc.json
-              items:
-                - name: Project Service Automation integrācijas parametri
-                  href: ../financials/project-management/PSA-parameters.md?toc=/dev-itpro/toc.json
-                - name: Projekta līgumu un projektu sinhronizēšana
-                  href: ../financials/project-management/project-contracts-templates.md?toc=/dev-itpro/toc.json
-                - name: Projekta uzdevumu sinhronizēšana
-                  href: ../financials/project-management/project-tasks-template.md?toc=/dev-itpro/toc.json
-                - name: Projekta izdevumu kategoriju sinhronizēšana
-                  href: ../financials/project-management/project-categories-templates.md?toc=/dev-itpro/toc.json
-                - name: Projekta aprēķinu sinhronizēšana no projekta prognozēm
-                  href: ../financials/project-management/project-estimates-templates.md?toc=/dev-itpro/toc.json
-                - name: Projekta faktisko summu sinhronizēšana ar projekta integrācijas žurnālu
-                  href: ../financials/project-management/project-actuals-templates.md?toc=/dev-itpro/toc.json
-        - name: Ārējo tīmekļa pakalpojumu patērēšana
-          href: data-entities/consume-external-web-service.md
-- name: Datu pārvaldība
-  href: data-entities/data-entities-data-packages.md
-  items:
-    - name: Datu elementi
-      href: data-entities/data-entities.md
-      items:
-        - name: Konfigurācijas datu projekti​
-          href: data-entities/configuration-data-projects.md
-        - name: Konfigurācijas datu pakotnes​
-          href: data-entities/configuration-data-packages.md
-        - name: Konfigurācijas datu kopēšana starp uzņēmumiem
-          href: data-entities/copy-configuration.md
-        - name: Konfigurācijas datu veidnes
-          href: data-entities/configuration-data-templates.md
-        - name: Datu veidnes ar vairākām darblapām
-          href: data-entities/excel-template-multiple.md
-        - name: Izmaiņu izsekošanas iespējošana elementiem
-          href: data-entities/entity-change-track.md
-        - name: Konfigurācijas atslēgas un datu elementi
-          href: data-entities/config-key-entities.md
-        - name: Informācijas par standarta datu elementiem meklēšana
-          href: data-entities/data-entities-report.md
-    - name: Datu importēšanas un eksportēšanas darbi
-      href: data-entities/data-import-export-job.md
-      items:
-        - name: 'Labākās prakses dokumentu importēšanai, izmantojot virsgrāmatas žurnāla elementu'
-          href: data-entities/tips-tricks-import-general-journal-entity.md
-    - name: Datu elementu izstrāde
-      items:
-        - name: Datu elementu dizaina principi un labākās prakses
-          href: dev-tools/design-best-practices.md
-        - name: Jaunu datu elementu izveide
-          href: data-entities/build-consuming-data-entities.md
-        - name: Datu elementu funkcionālās īpašības
-          href: data-entities/behavioral-properties-data-entities.md
-        - name: Aprēķina kolonnu un virtuālo lauku izveide
-          href: data-entities/data-entity-computed-columns-virtual-fields.md
-        - name: Starpuzņēmumu funkcionalitāte
-          href: data-entities/cross-company-behavior.md
-        - name: Valstu/reģionu kodi un konfigurācijas atslēgas
-          href: data-entities/countryregion-codes-configuration-keys.md
-        - name: Pārmantošanas modeļi
-          href: data-entities/support-super-type-sub-type.md
-        - name: Datu elementa vedņa kārtulas
-          href: data-entities/data-entity-wizard-rules.md
-        - name: Metadatu rekvizīti
-          href: data-entities/behavioral-properties-data-entities.md
-        - name: 'Validācijas, noklusējuma vērtības un nekartētie lauki'
-          href: data-entities/validations-defaults-unmapped-fields.md
-        - name: Drošība un datu elementi
-          href: data-entities/security-data-entities.md
-        - name: 'Tādu tikai lasāmu elementu izveide, kas atklāj finanšu dimensijas'
-          href: financial/read-only-entity-financial.md
-    - name: Savas datu bāzes izmantošana
-      href: analytics/export-entities-to-your-own-database.md
-    - name: Datu uzdevumu automatizācija
-      href: data-entities/data-task-automation.md
     - name: Resursi atbildes sniegšanai uz VDAR datu pieprasījumiem
       href: gdpr/gdpr-home-page.md
       items:
-        - name: "Finance and\_Operations VDAR ceļvedis"
-          href: gdpr/gdpr-guide.md
         - name: Līdzekļu klasifikācijas
           href: gdpr/gdpr-asset-classification-values.md
         - name: Personu meklēšanas pārskats
@@ -920,10 +788,6 @@
           href: gdpr/gdpr-ax2012.md
         - name: VDAR datu pieprasījumi pakalpojumam LCS
           href: gdpr/gdpr-lcs.md
-    - name: Datu validēšanas kontrolsaraksta darbvieta
-      href: user-interface/data-validation-workspace.md
-    - name: Datu pārvaldības kļūdu apraksti
-      href: data-entities/dm-error-descriptions.md
 - name: Pastāvīga piegāde
   href: dev-tools/continuous-delivery-home-page.md
   items:
@@ -1039,10 +903,12 @@
         - name: Lokālas vides iestatīšana un izvietošana
           href: deployment/setup-deploy-on-premises-environments.md
           items:
-            - name: "Lokālas vides izvietošana atjauninājumā Platform\_update\_12"
+            - name: Lokālas vides izvietošana (Platform update 12 un jaunākas versijas)
               href: deployment/setup-deploy-on-premises-pu12.md
-            - name: "Lokālas vides izvietošana atjauninājumā Platform\_update\_8 un Platform\_update\_11"
+            - name: "Lokālas vides izvietošana (Platform update 8\_un 11)"
               href: deployment/setup-deploy-on-premises-pu8-pu11.md
+            - name: Retail kanāla komponentu instalēšanas darbības lokālā vidē
+              href: deployment/deploy-retail-onprem.md
         - name: Pielāgotu modeļu izstrāde un izvietošana lokālās vidēs
           href: deployment/develop-deploy-custom-models-on-premises.md
         - name: Apgriezto starpniekserveru konfigurēšana lokālās vidēs
@@ -1161,7 +1027,9 @@
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: Izstrādes rīku atjaunināšana
           href: dev-tools/update-development-tools.md
-    - name: Jaunināšana uz jaunāko atjauninājumu (lokāla versija)
+        - name: 'Sagatavošanās koda kompilēšanai, izmantojot jaunāko atjauninājumu, un tās plānošana'
+          href: migration-upgrade/compile-considerations.md
+    - name: Jaunināšana uz jaunāko atjauninājumu (lokālā versija)
       items:
         - name: Atjauninājumu lietošana lokālos izvietojumos
           href: deployment/apply-updates-on-premises.md
@@ -1219,13 +1087,19 @@
           href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
         - name: Drošības lomu piešķiršana lietotājiem
           href: sysadmin/tasks/assign-users-security-roles.md
-    - name: Pakešapstrāde
+    - name: Pakešveida apstrāde
       href: sysadmin/batch-processing-overview.md
       items:
-        - name: Pakešapstrāde un pakešapstrādes serveri
+        - name: Pakešveida apstrāde un pakešapstrādes serveri
           href: sysadmin/batch-server-overview.md
         - name: Izveidot pakešuzdevumus
           href: sysadmin/tasks/create-batch-job.md
+        - name: Pakešuzdevuma kopēšana
+          href: sysadmin/copy-batch-job.md
+        - name: Aktīvie pakešuzdevumu periodi
+          href: sysadmin/activeperiod.md
+        - name: Pakešuzdevumu pārvaldnieka drošības loma
+          href: sysadmin/runby.md
     - name: Optimizācijas padomnieks
       href: sysadmin/optimization-advisor-overview.md
       items:

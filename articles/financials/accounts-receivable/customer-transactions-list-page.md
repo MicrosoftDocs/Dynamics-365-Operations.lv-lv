@@ -17,10 +17,10 @@ ms.author: mikefalkner
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: 8.0.4
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: 79479f6949c52830918598583ee91dd85d2d7ac3
+ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
+ms.openlocfilehash: 1b359939c867ba0a0c14859c83f0560afe6ba5be
 ms.contentlocale: lv-lv
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 10/12/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 10/01/2018
 
 ## <a name="view-settlements"></a>Skatīt nosegšanas darbības
 
-Darbību rūts poga **Skatīt nosegšanas darbības** nodrošina ātru piekļuvi nosegšanas darbību vēsturei un papildu informācijai par visu nosegšanas transakciju. Varat arī parādīt papildu transakcijas, kas ir saistītas ar atlasīto transakciju, vai nu tāpēc, ka tās ir šīs segšanas daļa, vai arī tie ir maksājumi, kas izveidoti tajā pašā maksājumu žurnālā.
+Darbību rūts poga **Skatīt nosegšanas darbības** nodrošina ātru piekļuvi nosegšanas darbību vēsturei un detalizētai informācijai par nosegšanas transakciju. Varat arī parādīt papildu transakcijas, kas ir saistītas ar atlasīto transakciju, vai nu tāpēc, ka tās ir šīs segšanas daļa, vai arī tie ir maksājumi, kas izveidoti tajā pašā maksājumu žurnālā.
 
 1. Atlasiet **Debitoru parādi \> Visi debitori**.
 2. Atlasiet debitoru, kuram ir transakcijas, un pēc tam darbību rūts cilnē **Debitors** atlasiet **Transakcija**.
@@ -49,7 +49,7 @@ Darbību rūts poga **Skatīt nosegšanas darbības** nodrošina ātru piekļuvi
 
 ## <a name="global-transactions"></a>Globālās transakcijas
 
-Debitora lapā ir pievienota poga **Globālās transakcijas**. Izmantojot šo pogu, var skatīt visas ar debitoru saistītās transakcijas, ko veikušas visas juridiskās personas. Sarakstu lapā **Debitora transakcijas** ir redzamas tikai to juridisko personu transakcijas, kurām lietotājam ir piekļuve saskaņā ar viņa vai viņas drošības iestatījumiem.
+Poga **Globālās transakcijas** tiek rādīta arī sarakstu lapā **Debitoru transakcijas**. Izmantojot šo pogu, var skatīt visas ar debitoru saistītās transakcijas, ko veikušas visas juridiskās personas. Sarakstu lapā **Debitora transakcijas** ir redzamas tikai to juridisko personu transakcijas, kurām lietotājam ir piekļuve saskaņā ar viņa vai viņas drošības iestatījumiem.
 
 Sarakstu lapā ir redzamas to debitoru transakcijas, kuriem ir tāds pats puses ID kā atlasītajam debitoram. Piemēram, ja juridiskas personas debitoram US-001 ir tāds pats puses ID kā citas juridiskas personas debitoram DE-001, tiek parādītas visas abu debitoru ID transakcijas.
 
@@ -67,13 +67,13 @@ Filtrs atvērto transakciju parādīšanai ir aizstāts ar jaunu filtru, kas ļa
 - **Visi** — ļauj skatīt visas atlasīto debitoru transakcijas (atvērtas un slēgtas).
 - **Slēgts** — ļauj skatīt tikai tās transakcijas, kuras ir pilnībā nosegtas un aizvērtas.
 - **Atvērts** — ļauj skatīt tikai tās transakcijas, kuras nav pilnībā nosegtas.
-- **Atvērts no konkrētā datuma** — ļauj skatīt tikai tās transakcijas, kas vēl nav pilnībā nosegtas uz norādīto datumu. Atlasot šo opciju, var mainīt datumu, kas ir redzams blakus šim filtram. Sarakstā transakcijas, kurām laukā **Pēdējais nosegšanas datums** vērtība ir pēc norādītā datuma, tiek parādītas arī tad, ja šīs transakcijas pašreizējā datumā ir pilnībā nosegtas. Tomēr bilance norāda bilances uz pašreizējo datumu, nevis uz atlasīto datumu.
+- **Atvērt, ieskaitot tās, kas slēgtas datumā vai pēc datuma** — rādīt tikai tās transakcijas, kas vēl nav pilnībā nosegtas jūsu norādītajā datumā vai pēc tā. Atlasot šo opciju, var mainīt datumu, kas ir redzams blakus šim filtram. Sarakstā transakcijas, kurām laukā **Pēdējais nosegšanas datums** vērtība ir norādītajā datumā vai pēc tā, tiek parādītas arī tad, ja šīs transakcijas pašreizējā datumā ir pilnībā nosegtas. Tomēr bilance norāda bilances uz pašreizējo datumu, nevis uz atlasīto datumu.
 
-Ir pievienots arī filtrs, kas ļauj slēpt valūtas konvertēšanas transakcijas. Atlasiet tikai izvēles rūtiņu **Slēpt valūtas konvertēšanas transakcijas**.
+Atzīmējiet izvēles rūtiņu **Slēpt valūtas konvertēšanas transakcijas**, lai slēptu valūtu pārrēķināšanas transakcijas.
 
-## <a name="more-easily-modify-due-dates-and-discount-dates"></a>Ērtāka apmaksas un atlaides datumu mainīšana
+## <a name="modify-due-dates-and-discount-dates"></a>Apmaksas un atlaides datumu mainīšana
 
-Var atjaunināt debitora atvērtu transakciju apmaksas un atlaides datumu. Versijā 8.1 ir uzlabota izmantošanas pieredze. Tagad sarakstu lapā **Debitora transakcijas** varat pievienot apmaksas datumu. Noklikšķinot dialoglodziņā **Atjaunināt apmaksas un termiņatlaides datumu** uz apmaksas datuma sarakstu lapā **Debitora transakcijas**, jūs varat arī mainīt apmaksas un atlaides datumu, apmaksas nosacījumus un termiņatlaides nosacījumus.
+Var atjaunināt debitora atvērtu transakciju apmaksas un atlaides datumu. Laidienā 8.1 tagad sarakstu lapā **Debitoru transakcijas** varat pievienot paredzētos apmaksas datumus. Noklikšķinot dialoglodziņā **Atjaunināt apmaksas un termiņatlaides datumu** uz apmaksas datuma sarakstu lapā **Debitora transakcijas**, jūs varat arī mainīt apmaksas un atlaides datumu, apmaksas nosacījumus un termiņatlaides nosacījumus.
 
 ### <a name="activate-the-feature"></a>Funkcijas aktivizēšana
 
@@ -83,7 +83,7 @@ Lai sarakstu lapā **Debitora transakcijas** pievienotu apmaksas datumu un main�
 2. Cilnē **Nosegšanas darbības** iestatiet opcijas **Rādīt apmaksas datumu un ļaut rediģēt** vērtību **Jā**.
 3. Lai iespējotu šo funkciju, debitora transakcijām ir pievienoti jauni lauki. Šie lauki tiek aizpildīti, kad tiek pabeigta jauna transakcija. Tie tiek aizpildīti arī tad, ja tiek atvērts dialoglodziņš **Atjaunināt apmaksas un termiņatlaides datumu**. Ja ir iestatīta opcijas **Rādīt apmaksas datumu un ļaut rediģēt** vērtība **Jā**, tiek parādīts dialoglodziņš **Atjaunināt maksājuma informāciju**.  Lai tūlītēji atjauninātu esošās transakcijas, atlasiet **Atjaunināt visas esošās transakcijas**. Vai arī atlasiet **Turpināt bez atjaunināšanas**, lai aizpildītu tikai jauno transakciju laukus.
 
-Tagad sarakstu lapā **Debitora transakcijas** ir pievienots apmaksas datums, un var ērtāk mainīt transakcijas apmaksas un termiņatlaides datumu.
+Tagad sarakstu lapā **Debitoru transakcijas** ir pievienots paredzētais apmaksas datums, tādēļ varat ērtāk mainīt transakciju apmaksas un termiņatlaides datumus.
 
 ### <a name="modify-the-payment-settings"></a>Maksājuma iestatījumu mainīšana
 
@@ -91,11 +91,11 @@ Sarakstu lapā **Debitora transakcijas** tiek parādītas visas debitora transak
 
 Katra lauka izmaiņas citādi ietekmē transakciju.
 
-- **Rediģēt bāzes datumu:** apmaksas un atlaidies datums tiek mainīts tā, lai bāzes datums ir dokumenta datums.
-- **Rediģēt apmaksas datumu:** mainīts tiek tikai apmaksas datums.
-- **Rediģēt atlaides datumu:** mainīts tiek tikai atlaides datums.
-- **Rediģēt maksājuma nosacījumus:** apmaksas datums tiek mainīts atbilstoši bāzes datumam un apmaksas nosacījumiem.
-- **Rediģēt termiņatlaides nosacījumus:** termiņatlaides tiek mainītas atbilstoši bāzes datumam un termiņatlaides nosacījumiem.
+- **Rediģēt bāzes datumu** — apmaksas un atlaides datums tiek mainīts tā, lai bāzes datums ir dokumenta datums.
+- **Rediģēt apmaksas datumu** — tiek mainīts tikai paredzētais apmaksas datums.
+- **Rediģēt atlaides datumu** — mainīts tiek tikai atlaides datums.
+- **Rediģēt maksājuma nosacījumus** — apmaksas datums tiek mainīts atbilstoši bāzes datumam un apmaksas nosacījumiem.
+- **Rediģēt termiņatlaides nosacījumus** — termiņatlaides tiek mainītas atbilstoši bāzes datumam un termiņatlaides nosacījumiem.
 
 Kad maksājuma iestatījumu rediģēšana ir pabeigta, atlasiet **Aizvērt**, lai saglabātu izmaiņas.
 

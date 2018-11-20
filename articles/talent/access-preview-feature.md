@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: eb99f169ada2a227ebe8e64ee56bbb38cdfda4e0
+ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
+ms.openlocfilehash: cd738cafc97477182e574ee0f363fdcf1df7da7a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/22/2018
 
 ---
 
@@ -48,7 +48,8 @@ Varat izmantot iestatījumu **Priekšskatījuma līdzekļi** Microsoft Dynamics 
 1. Pierakstieties Microsoft Dynamics 365 for Talent: Attract.
 2. Izvēlnē **Iestatīšana** (zobrata simbols) augšējā labajā stūrī atlasiet **Administratora iestatījumi**.
 3. Cilnē **Līdzekļu pārvaldība** atlasiet opciju blakus **Priekšskatījuma līdzekļi**, tā kļūst zila.
-4. Atsvaidziniet pārlūku, lai sāktu redzēt jaunos līdzekļus. (Lietotāji, kas jau pieteikušies, redzēs līdzekļus nākamajā reizē, kad viņi pieteiksies, vai viņi var atsvaidzināt savu pārlūku, lai redzētu līdzekļus nekavējoties.)
+4. Varat arī kontrolēt atsevišķus līdzekļus, šajā lapā iespējojot/atspējojot noteiktus līdzekļus.
+5. Atsvaidziniet pārlūku, lai sāktu redzēt jaunos līdzekļus. (Lietotāji, kas jau pieteikušies, redzēs līdzekļus nākamajā reizē, kad viņi pieteiksies, vai viņi var atsvaidzināt savu pārlūku, lai redzētu līdzekļus nekavējoties.)
 
 #### <a name="core-hr"></a>Core HR
 
@@ -61,12 +62,11 @@ Varat izmantot iestatījumu **Priekšskatījuma līdzekļi** Microsoft Dynamics 
 
 ## <a name="features-that-are-currently-in-preview"></a>Līdzekļi, kas pašreiz ir priekšskatījumā
 
-### <a name="attract"></a>Attract
+### <a name="attract"></a>Piesaiste
 
-- **Darba veidnes** — tagad varat izveidot darbā pieņemšanas procesa veidnes. Lietotāji jau var pielāgot jau darbā pieņemšanas procesu noteiktam amatam. Taču lietotāji var tagad izveidot veidnes procesam un pēc tam atlasīt atbilstošo veidni, kad tiek veidots noteikts amats. Tā šī funkcija palīdz pilnveidot amata iestatīšanas procesu.
-- **Karjeras vietne** — karjeras vietnes pašreizējā versija tikai uzskaita visas vakances. Taču vietnē turpmāk tiks pievienotas papildu iespējas. Vakances var atzīmēt kā iekšējās vai ārējās. Iekšējie lietotāji, kuri piesakās vietnē, redzēs gan iekšējās, gan ārējās vakances. Ārējiem lietotājiem un lietotājiem, kas nav pieteikušies, rādīs tikai ārējās vakances.
-- **Vakances publicēšana** — tagad karjeras vietnē varat publicēt vakances.
-- **Vakances publicēšana LinkedIn** — tagad varat publicēt vakances LinkedIn vietnē.
+- **Vakancei piemērotie kandidāti** — personāla atlases darbinieki un par pieņemšanu darbā atbildīgie vadītāji var viegli uzzināt, kuri no visiem kandidātiem, iespējams, ir vispiemērotākie konkrētajai vakancei. Tiek parādīti 5 piemērotākie kandidāti, kas ir noteikti, pamatojoties uz viņu CV/profila piemērotību konkrētajai vakancei.
+- **Piemērotās vakances** — tagad kandidātiem tiek rādīts citu viņiem piemēroto vakanču saraksts, kas ir izveidots, pamatojoties uz viņu CV/profilu un pienākumu aprakstu.  Pašlaik šī informācija tiek rādīta kandidātiem pēc pieteikšanās, lai ieteiktu viņiem citas iespējas.
+- **EEO/OFCCP atbalsts** — jauni darbību veidi sniedz iespēju izmantot iepriekš definētu veidlapu, lai no kandidāta vāktu vienlīdzīgu darba iespēju (Equal Employment Opportunity — EEO) un federālo līgumu atbilstības programmu iestādes (Office of Federal Contract Compliance Programs — OFCCP) datus.  Tā ir iepriekš definēta veidlapa, ko nevar rediģēt.
 
     > [!NOTE]
     > Publicētās vakances ir redzamas tikai klientiem, kas abonējuši vienu vai vairākus LinkedIn vakanču publicēšanas produktus. Pretējā gadījumā klienti redzēs vakanci tikai tad, ja viņi to konkrēti meklē. Kad vakances publicē LinkedIn, ir aizkave. Pēc publicēšanas Attract vakance var parādīties pēc vairākām stundām.

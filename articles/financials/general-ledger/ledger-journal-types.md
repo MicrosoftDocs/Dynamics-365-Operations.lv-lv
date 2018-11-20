@@ -1,9 +1,9 @@
 ---
 title: "Virsgrāmatas žurnālu tipi"
-description: "Šajā rakstā ir aprakstīti žurnālu tipi, ko var iestatīt finanšu žurnāliem. Izmantojiet lapu **Žurnālu nosaukumi**, lai iestatītu žurnālus, ko varat izmantot visā programmā Microsoft Dynamics 365 for Finance and Operations."
+description: "Šajā tēmā ir aprakstīti žurnālu veidi, ko var iestatīt finanšu žurnāliem."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9f8fc40f199b83a9e0cb36ce905163c3ed547057
+ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
+ms.openlocfilehash: fff557d20a230922b5512aea9e49aa9993a694dd
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/26/2018
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir aprakstīti žurnālu tipi, ko var iestatīt finanšu žurnāliem. Izmantojiet lapu **Žurnālu nosaukumi**, lai iestatītu žurnālus, ko varat izmantot visā programmā Microsoft Dynamics 365 for Finance and Operations.
+Šajā tēmā ir aprakstīti žurnālu veidi, ko var iestatīt finanšu žurnāliem. Izmantojiet lapu **Žurnālu nosaukumi**, lai iestatītu žurnālus, ko varat izmantot visā programmā Microsoft Dynamics 365 for Finance and Operations.
 
 | Žurnāla tips                      | Nolūks                       | Ievadiet darbības šajā lapā                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|
@@ -53,7 +53,8 @@ ms.lasthandoff: 03/26/2018
 | Algu izdevumi              | Veiciet maksājumus, kas ir balstīti uz algu pārskatiem. Jūs nevarat manuāli ievadīt darbības šajā žurnālā. Jums ir jāģenerē algu pārskati un pēc tam jāiesniedz šie pārskati maksājumam.                                                                                                                                                              |                                                                |
 | Periodisks                          | Izveidojiet periodiskas darbības periodiskajam žurnālam.                                                                                                                                                                                                                                                                                                      | Periodiskie žurnāli                                              |
 | Pamatlīdzekļu grāmatošana                 | Grāmatojiet pamatlīdzekļu darbības.                                                                                                                                                                                                                                                                                                                              | Pamatlīdzekļi                                                   |
-| Projekts - Izdevumi                | Izveidojiet projekta izdevumu darbības.                                                                                                                                                                                                                                                                                                                        | Izdevumi                                                        |
+| Projekts - Izdevumi                | Izveidojiet projekta izdevumu darbības.                                                                                                                                                                                                                                                                                                                        | Expense                                                        |
+| Pārskata valūtas korekcija     | Izveidojiet korekcijas pārskata valūtā bilancēm virsgrāmatas kontos.               | Pārskata valūtas korekcijas žurnāli                         |
 | Statistikas darbības            | Izveidojiet statistikas darbības.                                                                                                                                                                                                                                                                                                                            |                                                                |
 | Kreditora bankas pārskaitījums            | Izveidojiet parādzīmes pārskaitījuma failu, kuru var nosūtīt uz jūsu organizācijas banku.                                                                                                                                                                                                                                                                      | Pārskaitījumu žurnāls                                             |
 | Kreditoru rēķinu apmaksa               | Izveidojiet kreditora rēķinu apmaksas darbības.                                                                                                                                                                                                                                                                                                                    | Maksājumu žurnāls                                                |
