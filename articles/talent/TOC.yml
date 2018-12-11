@@ -7,6 +7,10 @@
         - name: Jaunumi un izmaiņas
           href: whats-new.md
           items:
+            - name: "Jaunumi un izmaiņas programmā Dynamics\_365 for Talent Core HR (2018.\_gada 27. novembris)"
+              href: whats-new-talent-november-27.md
+            - name: "Jaunumi un izmaiņas programmā Dynamics\_365 for Talent Core HR (2018.\_gada 15. novembris)"
+              href: whats-new-talent-november-15.md
             - name: "Jaunumi un izmaiņas programmā Dynamics\_365 for Talent Core HR (2018.\_gada 31.\_oktobris)"
               href: whats-new-talent-october-31.md
             - name: "Jaunumi un izmaiņas programmā Dynamics\_365 for Talent Core HR (2018.\_gada 19.\_oktobris)"
@@ -95,8 +99,6 @@
           href: creating-offers.md
         - name: E-pasta veidņu izveide un pārvaldība
           href: email-templates.md
-        - name: Pārskatu veidošana un analīze
-          href: Reporting-Analytics-Attract.md
         - name: Drošības un lomu pārvaldība pakalpojumā Attract
           href: security-attract.md
         - name: Administratora iestatījumi pakalpojumā Attract
@@ -266,3 +268,27 @@
           href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Veiktspējas pārskata izveide
           href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Pakalpojuma Talent problēmu novēršana
+      items:
+        - name: Analīzes pārskati netiek atjaunināti
+          href: analytic-reports-not-updated.md
+        - name: Nevar izveidot vidi PowerApps administrēšanas centrā
+          href: create-envi-powerapps-admin-ctr.md
+        - name: Talent klients atvienojas
+          href: client-disconnects.md
+        - name: Datu bāzes dublējumu apstrādes veids
+          href: database-backups.md
+        - name: Izvairīšanās no teksta saīsināšanas amatu hierarhijā un eksportēšana uz Visio
+          href: avoid-text-truncation-position-hierarchy-visio.md
+        - name: Atlīdzības procesa palaišana
+          href: run-compensation-process.md
+        - name: Uzdevumu ceļvežu saglabāšana pakalpojumā LCS un to atkārtošana
+          href: save-play-task-guides-LCS.md
+        - name: Piekļuve privātām adresēm atbilstoši drošības lomai
+          href: security-roles-addresses.md
+        - name: Talent neparādās starp Microsoft Dynamics 365 programmām (CDS1.0)
+          href: talent-not-in-home-CDS.md
+        - name: 'Lietotājs var piekļūt Core HR, bet nevar piekļūt programmai Onboard vai Attract'
+          href: user-access-core-hr.md
+        - name: Pārskatu veidošanas iespējas programmā Talent
+          href: talent-reporting-options.md
