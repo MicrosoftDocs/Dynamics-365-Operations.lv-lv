@@ -3,7 +3,7 @@ title: "Noņemtie vai novecojušie līdzekļi"
 description: "Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt."
 author: sericks007
 manager: AnnBe
-ms.date: 10/01/2018
+ms.date: 12/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: 6750cfc62e2d151ddf760ff3dc36bab9c078b2d9
+ms.sourcegitcommit: 48e2eea2cc986edc49d5192945c3d913c3bb9756
+ms.openlocfilehash: 8a3405c434e402af68e59950f1e4d1a31cbf2813
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/01/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -87,6 +87,19 @@ Līdzeklis izveidoto deklarācijas elektronisko failu eksportēšanai uz mapi t�
 | **Ietekmētie produkta apgabali**         | Virsgrāmata, nodokļi |
 | **Izvietošanas iespēja**              | Visus |
 | **Statuss**                         | Noņemts kā Dynamics 365 for Finance and Operations 8.1 ar 20. platformas atjauninājumu. |
+
+
+### <a name="profit-tax-register-wizard"></a>Peļņas nod. reģ. vednis
+Līdzeklis jaunu peļņas nodokļa reģistru veidņu izveidei. Šis līdzeklis rada X++ objektus jauniem reģistriem, kuri pēc tam tiek izveidoti kā veidnes ar pievienotu atbilstošu aprēķina loģiku.
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Līdzeklis nav saderīgs ar Dynamics 365 for Finance and Operations paplašināšanas modeli. |
+| **Vai aizstāts ar citu līdzekli?**   | Nav |
+| **Ietekmētie produkta apgabali**         | Nodokļi |
+| **Izvietošanas iespēja**              | Viss |
+| **Statuss**                         | Noņemts kā Dynamics 365 for Finance and Operations 8.1 ar 20. platformas atjauninājumu. |
+
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0 ar 15. platformas atjauninājumu
 Ar šo laidienu nav noņemts vai atzīts par novecojušu neviens līdzeklis. 15. platformas atjauninājums ir kumulatīvs un satur jaunus vai mainītus līdzekļus no 13. platformas atjauninājuma, 14. platformas atjauninājuma un 15. platformas atjauninājuma.
@@ -993,6 +1006,17 @@ Preču konfigurators tika izmantots, lai dinamiski konfigurētu krājumus no pā
 | **Vai aizstāts ar citu līdzekli?**   | Jā. Konfigurācija atbilstoši ierobežojumam tika ieviesta versijā Dynamics AX 2012, kur jau tika paziņots, ka turpmākās versijās līdzeklis Preču konfigurators kļūs novecojis. Lai nodrošinātu šo konfigurāciju, tehnoloģija konfigurācijai atbilstoši ierobežojumam tiek izvēlēta preču šablonos. Papildinformāciju skatiet šeit: [Preces konfigurācijas modeļa izveidošana](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/pim/build-product-configuration-model). |
 | **Ietekmētie produkta apgabali**         | Preču informācijas pārvaldība, Pārdošana un mārketings  |
 | **Statuss**                         | Noņemts kopš Dynamics AX 7.0.      |
+
+### <a name="production-floor-app"></a>Ražotnes programma
+Tā ir progr. planšetdatoriem, kas darb. ar Windows 8.1 RT un Windows 8.1 Pro.
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Ar pāreju uz tīmekļa klientu, ir iespējams nodrošināt līdzīgu funkcionalitāti, izmantojot vietējo Dynamics AX 7.0 klientu. Darbu kartes ierīce nodrošina ražotnes lietot. interf., kas optimizēts skārienier. un planšetdat. formu faktoriem. |
+| **Vai aizstāts ar citu līdzekli?**   | Jā. Darbu kartes ierīce, kas ir Dynamics AX 7.0 iekšējā sastāvdaļa.                                                                           |
+| **Ietekmētie produkta apgabali**         | Ražošanas kontrole                                                |
+| **Statuss**                         | Novecojis: šim līdzeklim vēl nav noteikts noņemšanas datums no Microsoft veikala.                                                |
+
 
 ### <a name="rename-product-dimension"></a>Pārdēvējiet preces dimensiju
 

@@ -1,6 +1,6 @@
 ---
-title: "Abonementa darbību kreditēšana"
-description: 
+title: "Abonementa transakciju kreditēšana"
+description: "Šajā tēmā parādīts, kā kreditēt abonementu transakcijas."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
@@ -19,19 +19,19 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 14bc2c8667cf095006ea35d5ec8678d1a7cf4ea5
+ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.openlocfilehash: cd6c91126604fc704ac0283d5db062077275e725
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
-# <a name="credit-subscription-transactions"></a>Abonementa darbību kreditēšana 
+# <a name="credit-subscription-transactions"></a>Abonementa transakciju kreditēšana 
 
 [!include [banner](../includes/banner.md)]
 
 
-## <a name="credit-subscription-transactions"></a>Abonementa darbību kreditēšana
+## <a name="credit-subscription-transactions"></a>Abonementa transakciju kreditēšana
 
 1.  Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojumu abonementi** \> **Visi pakalpojumu abonementi**.
 

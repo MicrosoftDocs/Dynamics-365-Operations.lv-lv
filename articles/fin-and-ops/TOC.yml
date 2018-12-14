@@ -48,6 +48,10 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: 'Līdzekļi, kas nav ieviesti lokālajos izvietojumos'
               href: get-started/features-not-implemented-on-prem.md
+            - name: "Finance and Operations versija\_8.1.3 (2018.\_gada decembris)"
+              href: get-started/whats-new-changed-8-1-3.md
+            - name: "Platform update\_23 (2018.\_gada decembris)"
+              href: get-started/whats-new-platform-update-23.md
             - name: "Platform update\_22 (2018.\_gada novembris)"
               href: get-started/whats-new-platform-update-22.md
             - name: "Finance and Operations versija\_8.1.2 (2018.\_gada novembris)"
@@ -152,6 +156,8 @@
               href: get-started/help-overview.md
             - name: Savienojuma izveide ar palīdzības sistēmu
               href: get-started/help-connect.md
+            - name: Savienojuma izveide ar pielāgotu palīdzības vietni
+              href: get-started/help-custom.md
             - name: Skatīt un eksportēt lauku aprakstus
               href: get-started/view-export-field-descriptions.md
             - name: Uzdevumu ceļveži un uzdevuma reģistrētājs
@@ -1241,8 +1247,10 @@
               href: ../dev-itpro/analytics/column-definitions-financial-reports.md?toc=/fin-and-ops/toc.json
             - name: Rindu definīciju šūnu modificēšana
               href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
-            - name: Finanšu pārskatu datuves atiestatīšana
+            - name: Finanšu pārskatu data mart atiestatīšana
               href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
+        - name: Elektroniskā ziņojumapmaiņa
+          href: ../financials/general-ledger/electronic-messaging.md
     - name: ​Lokalizācijas un normatīvie līdzekļi
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
@@ -2222,6 +2230,10 @@
               href: ../financials/localizations/rus-transactions-settlement-date.md
             - name: Apmaksājamie rēķini
               href: ../financials/localizations/rus-invoice-payment.md
+            - name: Finanšu pārskatu veidošana
+              href: ../financials/localizations/rus-financial-reports.md
+            - name: Pirkšanas grāmatas izveide
+              href: ../financials/localizations/rus-sales-books-purchase-books.md
         - name: Saūda Arābija
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2737,11 +2749,13 @@
             - name: Konfigurācijas dzīves cikla pārvaldība
               href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Konfigurāciju augšupielāde portālā Lifecycle Services
+                - name: Konfigurāciju augšupielāde pakalpojumā Lifecycle Services
                   href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
-                - name: Konfigurāciju importēšana no portāla Lifecycle Services
+                - name: Konfigurāciju importēšana no pakalpojuma Lifecycle Services
                   href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
-                - name: Konfigurāciju lejupielāde no portāla Lifecycle Services
+                - name: Importēt elektronisko pārskatu (ER) konfigurācijas no regulējošās konfigurācijas pakalpojumiem (RCS)
+                  href: ../dev-itpro/analytics/rcs-download-configurations.md
+                - name: Konfigurāciju lejupielāde no pakalpojuma Lifecycle Services
                   href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
                 - name: Konfigurāciju importēšana
                   href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
@@ -4149,6 +4163,8 @@
               href: ../supply-chain/warehousing/display-older-batches-within-warehouses.md
             - name: Vecākās partijas izdošana mobilajā ierīcē
               href: ../supply-chain/warehousing/pick-oldest-batch.md
+            - name: Procesu rokasgrāmatas struktūra
+              href: ../supply-chain/warehousing/process-guide-framework.md
         - name: Jaunināšana un migrācija
           items:
             - name: "Noliktavas vadības procesu jaunināšana no Microsoft Dynamics AX\_2012 uz Finance and Operations"

@@ -1,9 +1,9 @@
 ---
 title: "Produktu ieejas plūsma pret pirkšanas pasūtījumiem"
-description: "Šajā rakstā ir izklāstītas dažādās opcijas, kas ir pieejamas, lai produktus reģistrētu kā saņemtus."
+description: "Šajā tēmā ir aprakstītas dažādas opcijas, lai prod. reģistrētu kā saņemtus."
 author: FrankDahl
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c227664da360f6f8d54b49f15e1b7160aa142ba9
+ms.sourcegitcommit: 09432d278c51301f8b01fef8cbd3353af75a88f3
+ms.openlocfilehash: fea28da19c0aa1e9083091d0693404e0d8cb173c
 ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/08/2018
 
 [!include [retail name](../includes/retail-name.md)]
 
-Šajā rakstā ir izklāstītas dažādās opcijas, kas ir pieejamas, lai produktus reģistrētu kā saņemtus.
+Šajā tēmā ir aprakstītas dažādas opcijas, lai prod. reģistrētu kā saņemtus.
 
 Produktu ieejas plūsma ir process, kas paredzēts, lai reģistrētu, kādi pasūtītie produkti tika saņemti, lai pēc tam pirkšanas pasūtījumu (PP) rindas varētu apstrādāt rēķinu izrakstīšanai. Reizēm produktiem ir jāizpilda sākotnējā reģistrēšana, kur tiek ierakstīta papildu informācija no piegādātāja, pirms produkti tiek saņemti. Kad produkti tiek piegādāti, tie vispirms tiek atzīmēti kā **Reģistrēts**. Produktiem var būt nepieciešams izpildīt papildu procesus, piemēram, kvalitātes pārvaldību, pirms tie visbeidzot tiek atzīmēti kā **Saņemts**.
 
@@ -46,8 +46,6 @@ Produktiem, kas tiek saņemti noliktavā, var tikt izpildīta kvalitātes pārba
 
 ## <a name="product-receipt"></a>Produktu ieejas plūsma
 Vairumā gadījumu darbība **Produktu ieejas plūsma** lapā **Pirkšanas pasūtījumi** tiek izmantota, lai produktus pirkšanas pasūtījuma atzīmētu kā **Saņemts**. Lapā **Produktu ieejas plūsmas grāmatošana** ir dažādas opcijas daudzumam, kas uzskaitē tiek norādīts kā saņemts. Piemēram, lauku **Daudzums** varat iestatīt uz **Pasūtītais daudzums** vai **Tagad saņemamais daudzums**. Ja tiek izmantots process ar saņemšanu noliktavā, šo lauku varat arī iestatīt uz **Reģistrētais daudzums**. Varat modificēt daudzumus katrā pasūtījuma rindā, kas tiks atzīmēta kā **Saņemts**, lai uzskaitē norādītu visas neatbilstības, piemēram, nepietiekamu vai pārmērīgu piegādi. Produktu saņemšanas laikā jums ir jānorāda produkta ieejas plūsmas identifikators, kas parasti ir atsauce uz pavadzīmi no piegādātāja. Šis identifikators ir nepieciešama uzskaitei, jo tas ļauj pārbaudīt vai auditēt piegādātāju pavadzīmes salīdzinājumā ar faktiski saņemto, un uzskaitē iekļautajiem krājumiem vai izdevumiem.  
-
-Ja kāds darbinieks pasūtīja preces, izmantojot pirkšanas pieprasījumu, tad šim darbiniekam var tikt lūgts pašam apstiprināt produktu ienākošo plūsmu. Šo uzvedību jūs konfigurējat, izmantojot darbplūsmu. Varat konfigurēt darbplūsmas nosacījumus, lai tie atbilstu jūsu biznesa procesam.  
 
 Pirkšanas pasūtījumus var izveidot produktiem, ko nav paredzēts izmantot kā krājumus, bet kas tiek uzskatīti par izdevumiem. Šī kategorija ietver pasūtījumu rindas, kur produkti ar to krājumu modeļu grupu tiek atzīmēti kā **Nav krājumā**, kā arī rindas, kas lieto sagādes kategorijas. Šādā gadījumā krājumiem var netikt izpildīta piegādes reģistrēšana un saņemšana noliktavā. To vietā tiek izmantota darbība **Produktu ieejas plūsma**, lai šādu ieejas plūsmu ierakstītu tieši pirkšanas pasūtījumā, un ieejas plūsma ir balstīta uz pasūtīto daudzumu, nevis reģistrēto daudzumu.  
 

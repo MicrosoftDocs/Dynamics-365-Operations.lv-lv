@@ -3,7 +3,7 @@ title: "Programmas Microsoft Dynamics 365 for Finance and Operations &#8211; War
 description: "Šajā tēmā ir aprakstīts, kā instalēt un konfigurēt programmu Microsoft Dynamics 365 for Finance and Operations – Warehousing"
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 11/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 608543c9cfd93c4772e93089e1d174312d8b23a6
-ms.openlocfilehash: 411bb28668f5aa9d07774211814da4e9757ac43c
+ms.sourcegitcommit: 0967b10c2037c24c044f38c49b1b998f6771c66b
+ms.openlocfilehash: a1f3cb65e370154e8f3f94780ffb5cab223c85f8
 ms.contentlocale: lv-lv
-ms.lasthandoff: 03/06/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -74,13 +74,12 @@ Lai programma varētu mijiedarboties ar noteiktu Finance and Operations serveri,
 ## <a name="create-and-configure-a-user-account-in-finance-and-operations"></a>Izveidot un konfigurēt lietotāja kontu programmatūrā Finance and Operations
 Lai programmatūrā Finance and Operations varētu izmantot jūsu Azure AD programmu, ir jāveic tālāk norādītās konfigurēšanas darbības.
 
-1.  Pakalpojumā Azure Active Directory izveidojiet jaunu lietotāja kontu Finance and Operations nomniekam. Šī lietotāja konta mērķis ir piekļūt konkrētajam noliktavu programmas pielāgotajam pakalpojumam, ko nodrošina Finance and Operations serveris. Pēc šīs darbības veikšanas jums ir pieejami WMDP lietotāja akreditācijas dati, kas sastāv no WMDP e-pasta adreses un WMDP paroles. Lai uzzinātu par pamata darbībām, kas ir jāveic, lai pievienotu lietotājus pakalpojumā Azure AD un programmatūrā Finance and Operations, skatiet pamācību: [Reģistrēties Finance and Operations abonementam](../../dev-itpro/dev-tools/sign-up-preview-subscription.md).
-2.  Izveidojiet Finance and Operations lietotāju, kas atbilst noliktavu programmas lietotāja akreditācijas datiem.
+1.  Izveidojiet Finance and Operations lietotāju, kas atbilst noliktavu programmas lietotāja akreditācijas datiem.
     1.  Programmatūrā Finance and Operations pārejiet uz sadaļu **Sistēmas administrēšana** &gt; **Vispārīgi** &gt; **Lietotāji**.
     2.  Izveidojiet jaunu lietotāju.
     3.  Piešķiriet lomu Noliktavas mobilās ierīces lietotājs, kā tas ir redzams tālāk esošajā ekrānuzņēmumā. [![wh-09-add-user-security-role](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
 
-3.  Saistiet savu Azure Active Directory lietojumprogrammu ar noliktavu programmas lietotāju.
+2.  Saistiet savu Azure Active Directory lietojumprogrammu ar noliktavu programmas lietotāju.
     1.  Programmatūrā Finance and Operations pārejiet uz sadaļu **Sistēmas administrēšana** &gt; **Iestatīšana** &gt; **Azure Active Directory programmas**.
     2.  Izveidojiet jaunu rindu.
     3.  Aizpildiet laiku **Klienta ID** (ievadot pēdējā sadaļā iegūto informāciju), piešķiriet nosaukumu un atlasiet iepriekš izveidoto lietotāju. Ieteicams atzīmēt visas jūsu ierīces, lai to nozaudēšanas gadījumā varētu viegli liegt to piekļuvi programmatūrai Finance and Operations, izmantojot šo lapu. [![wh-10-ad-applications-form](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)

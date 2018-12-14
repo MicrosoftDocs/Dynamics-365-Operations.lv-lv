@@ -17,14 +17,16 @@ ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: c026a540fb7d30644d485b6a057c2c46bd7c091d
+ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/01/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
 # <a name="dual-currency"></a>Divkāršā valūta
+
+[!include [banner](../includes/banner.md)]
 
 Funkcionalitāte, kas tika ieviesta programmas Microsoft Dynamics 365 for Finance and Operations versijā 8.1 (2018. gada oktobris) ļauj pārskata valūtu pielāgot un izmantot kā otro uzskaites valūtu. Šī funkcionalitāte tiek saukta par *divkāršo valūtu*. Divkāršās valūtas izmaiņas nevar izslēgt, izmantojot konfigurācijas atslēgu vai parametru. Tā kā pārskata valūta tiek izmantota kā otrā norēķinu valūta, ir mainīts veids, kādā tiek aprēķināta pārskata valūta grāmatošanas loģikā.
 
@@ -67,8 +69,8 @@ Tālāk minētajos moduļos pārskata valūta tiek izmantota kā otrā uzskaites
 
 - [Virsgrāmata](#general-ledger)
 - [Finanšu pārskati](#financial-reporting)
-- [Kreditori](#accounts-payable/accounts-receivable)
-- [Debitori](#accounts-payable/accounts-receivable)
+- [Kreditori](#accounts-payable-and-accounts-receivable)
+- [Debitori](#accounts-payable-and-accounts-receivable)
 - [Skaidras naudas un bankas pārvaldība](#cash-and-bank-management)
 - [Pamatlīdzekļi](#fixed-assets)
 
@@ -90,7 +92,7 @@ Moduļa **Finanšu pārskati** uzlabojums ļauj iekļaut pārskata valūtas summ
 
 Šīs izmaiņas ir pieejamas, izmantojot iestatījumu **Valūtas attēlojums** kolonnas definīcijā. Atlasot **Pārskata valūta no virsgrāmatas**, kolonnas summas netiek pārrēķinātas. Tā vietā tās tiek iekļautas pārskatā tieši no virsgrāmatas. Ja vēlaties, lai kolonnā tiktu rādītas pārrēķinātās summas, atlasiet opciju **Pārrēķināt uz XXXX**, kur *XXXX* ir pārskata valūta, kas ir attiecīgajā kolonnā. Šajā gadījumā uzskaites valūtas summas tiks pārrēķinātas uz atlasīto valūtu, izmantojot esošo pārrēķināšanas funkcionalitāti.
 
-### <a name="accounts-payableaccounts-receivable"></a>Kreditori/Debitori
+### <a name="accounts-payable-and-accounts-receivable"></a>Kreditori un debitori
 
 Moduļos **Kreditori** un **Debitori** jau tika izsekotas pārskata valūtas summas. Tomēr summas netika rādītas vai izmantotas dažādos procesos. Tika veiktas tālāk norādītās izmaiņas.
 

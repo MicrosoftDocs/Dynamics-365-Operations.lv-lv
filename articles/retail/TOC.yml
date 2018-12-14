@@ -47,19 +47,23 @@
       href: dev-itpro/updating-environments.md
     - name: Testēšanas un veiktspējas problēmas
       href: dev-itpro/retail-implementation-testing-performance.md
+- name: Sadalīto pasūtījumu pārvaldība (DOM)
+  href: dom.md
 - name: Maksājumi
   items:
     - name: Maksāšanas metodes
       href: payment-methods.md
     - name: 'Kredītkartes iestatīšana, autorizēšana un nolasīšana'
       href: ../financials/accounts-receivable/credit-card-authorizations.md
-    - name: POS skaidras naudas denomināciju konfigurēšana
+    - name: Pārdošanas punkti skaidras naudas denomināciju konfigurēšana
       href: cash-denominations.md
+    - name: Rēķinu apmaksas scenāriju iestatīšana
+      href: payinvoice.md
     - name: Bieži uzdotie jautājumi par maksājumiem
       href: dev-itpro/payments-retail.md
 - name: Pirkšanas pasūtījumi
   items:
-    - name: Pirkšanas pasūtījuma apskats
+    - name: Pirkšanas pasūtījumu apskats
       href: ../supply-chain/procurement/purchase-order-overview.md
     - name: Pirkšanas pasūtījumu izveidošana
       href: ../supply-chain/procurement/purchase-order-creation.md
@@ -213,6 +217,8 @@
       href: Order-fulfillment-POS-setup.md
     - name: Rādīt pasūtījumu paziņojumus POS
       href: Notifications-POS.md
+- name: Konfigurēt un apstrādāt apmaiņu atgriešanas pasūtījumos
+  href: orderexchanges.md
 - name: Pārraudzība un analīze
   items:
     - name: Pārdošanas un uzcenojuma veiktspējas pārraudzība
@@ -235,6 +241,8 @@
       href: price-management.md
     - name: Cenu korekcijas un atlaides
       href: price-adjustments-discounts.md
+    - name: Vairāku mazumtirdzniecības atlaižu piemērošana precei
+      href: Apply-multiple-retail-discounts.md
     - name: 'Optimālās kombinācijas noteikšana atlaidēm, kas pārklājas'
       href: optimal-combination-overlapping-discounts.md
     - name: Definēt kanālam raksturīgās atlaides
@@ -480,7 +488,7 @@
       items:
         - name: Saišu pievienošana organizācijas juridiskajiem nosacījumiem un paziņojumam par konfidencialitāti
           href: ../dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/retail/toc.json
-        - name: Bing Maps pārvaldība
+        - name: Bing karšu pārvaldība
           href: dev-itpro/manage-bing-maps.md
     - name: Retail paplašinājumu resursu un etiķešu failu lokalizēšana
       href: dev-itpro/extension-resource-localization.md
@@ -488,6 +496,8 @@
       items:
         - name: Retail POS ekrāna izkārtojumi
           href: pos-screen-layouts.md
+        - name: URL atvēršana POS
+          href: Open-URL-in-POS.md
         - name: POS izkārtojuma veidotāja instalēšana
           href: install-pos-layout-designer.md
         - name: Retail Modern POS bezsaistes režīmā
@@ -508,7 +518,11 @@
           href: dev-itpro/gift-card.md
         - name: Zīmolrades izveide un lietošana programmā Retail Experience
           href: dev-itpro/create-retail-experience-app.md
-    - name: Hardware Station paplašināmība
+        - name: Programmas POS Hybrid iestatīšana operētājsistēmās Android un iOS
+          href: dev-itpro/hybridApp.md
+        - name: POS pieprasījuma apstrādātāja ignorēšana
+          href: dev-itpro/pos-handler.md
+    - name: Aparatūras stacija un paplašināmība
       href: dev-itpro/hardware-station-extensibility.md
     - name: Retail Server paplašināmība
       items:
@@ -562,9 +576,13 @@
           href: dev-itpro/payment-custom-error-messages.md
         - name: Windows instalētāju izveide maksājumu savienotājiem
           href: dev-itpro/create-windows-installer-payment-connector.md
-    - name: "Retail\_SDK"
+        - name: Maksājuma datu izmantošana
+          href: payment-connector-data-fields.md
+    - name: Retail SDK
       href: dev-itpro/retail-sdk/retail-sdk-overview.md
       items:
+        - name: Gaidāmās izmaiņas Retail SDK
+          href: dev-itpro/UpcomingSDKChanges.md
         - name: Sapludināt būvējuma sistēmas pakalpojumiem Retail un Finance and Operations
           href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
         - name: Retail SDK paplašināmības paraugi

@@ -3,7 +3,7 @@ title: "Jaunumi un izmaiņas"
 description: "Šajā lapā ir norādes uz tēmām, kas var palīdzēt jums uzzināt par jaunajiem līdzekļiem Microsoft Dynamics 365 for Finance and Operations jaunākajās versijās."
 author: josaw1
 manager: AnnBe
-ms.date: 11/03/2018
+ms.date: 12/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 9b72fe490601d474c54c8bee556719608f4379d3
-ms.openlocfilehash: cd5403a5ab5a4be06b5565528ced30fa0be3cee0
+ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
+ms.openlocfilehash: e82fffa6a67808de66d5f17d2228549c1b09b75d
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -61,6 +61,12 @@ Informāciju par jaunināšanu uz pēdējo versiju skatiet sadaļā [Jaunināša
 <tbody>
 <tr class="even">
 </tr>
+<tr class="even">
+<td>Programma Microsoft Dynamics 365 for Finance and Operations</td>
+<td>8.1.3</td>
+<td>8.1.227  </td>
+<td>2018. decembris</td>
+  <td><a href="whats-new-changed-8-1-3.md">Jaunumi un izmaiņas Dynamics 365 for Finance and Operations versijā 8.1.3 (2018. gada decembris)</a></td>
 <tr class="even">
 <td>Programma Microsoft Dynamics 365 for Finance and Operations</td>
 <td>8.1.2</td>
@@ -144,11 +150,16 @@ Informāciju par jaunināšanu uz pēdējo versiju skatiet sadaļā [Jaunināša
 </tr>
 </thead>
 <tbody>
+<td>Programma Microsoft Dynamics 365 for Finance and Operations</td>
+<td>Platformas update 23</td>
+<td>7.0.5126 </td>
+<td>2018. decembris</td>
+<td><a href="whats-new-platform-update-23.md">Jaun. un izm. Dynamics 365 for Finance and Operations atjaun. Platform Update 23 (2018. g. dec.)</a></td><tbody>
 <tr class="odd">
 <td>Programma Microsoft Dynamics 365 for Finance and Operations</td>
 <td>Platformas update 22</td>
 <td>7.0.5095</td>
-<td>2018. oktobris</td>
+<td>2018. gada novembris</td>
 <td><a href="whats-new-platform-update-22.md">Jaunumi un izmaiņas Dynamics 365 for Finance and Operations atjauninājumā Platform Update 22 (2018. novembris)</a></td><tbody><tr class="odd">
 <td>Programma Microsoft Dynamics 365 for Finance and Operations</td>
 <td>Platformas update 21</td>

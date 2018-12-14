@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
-ms.openlocfilehash: f68e89422e7124874004a20c2bae5809dcdfb099
+ms.sourcegitcommit: c9f9368dc3e0fb4ed63250889016d6abe7d15a8c
+ms.openlocfilehash: 557e43c05f7015b04380f45fbd69f58a7250829a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -151,7 +151,8 @@ Piezīme. Tālāk norādītās darbības attiecas uz Dynamics 365 for Retail ja
 | 635 | Atmaksāt piegādes izmaksas | Šī operācija sniedz lietotājam iespēju atmaksāt atcelta pasūtījuma piegādes izmaksas. | Nē | Nē | Nē | Nē | Nē |
 | 644 | Noņemt kupona kodu | Aicināt lietotāju noņemt kuponus, atlasot tos ar transakciju pašlaik saistīto kuponu sarakstā. | Jā | Jā | Nē | Jā | Nē |
 | 1057 | Atkārtoti drukāt Z | Atkārtoti drukāt Z pārskatu par iepriekšējo maiņu vai atlasītu maiņu. | Jā | Jā | Jā | Nē | Nē |
-| 1216 | Jaunas paroles ievadīšana | Šī operācija sniedz lietotājam iespēju atiestatīt cita darbinieka paroli, izmantojot pagaidu paroli, ja šim lietotājam ir paroles atiestatīšanas atļauja. | Jā | Jā | Jā | Nē | Nē |
+| 1216 | Jaunas paroles ievadīšana | Šī operācija sniedz lietotājam iespēju atiestatīt cita darbinieka paroli, izmantojot pagaidu paroli, ja šim lietotājam ir paroles atiestatīšanas atļauja. | Jā | Jā | Jā | Nav | Nav |
+| 1219 | URL atvērš. POS | Šī operāc. ļauj lietotājam atvērt admin. konfigurētu URL POS. | Jā | Jā | Jā | Jā | Nav | 
 | 109 | Atgriezt preci | Veiciet atsevišķu preču atgriešanu. Nākamā skenētā prece tiek parādīta kā atgriezta prece ar negatīvu daudzumu un cenu. | Jā | Jā | Nē | Jā | Nē |
 | 114 | Atgriezt darījumu | Atsaukt iepriekšējo transakciju pēc tās kvīts numura, lai atgrieztu visas preces vai daļu no tām. | Jā | Jā | Jā | Jā§ | Nē |
 | 1211 | Noguldījums seifā | Veiciet noguldījumu seifā, lai pārvietotu naudu no kases sistēmas uz seifu. | Jā | Jā | Jā | Jā | Nē |

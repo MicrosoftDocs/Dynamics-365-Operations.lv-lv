@@ -1,9 +1,9 @@
 ---
 title: "Finance and Operations palīdzības sistēma"
-description: "Šajā tēmā ir sniegts pārskats par programmas Microsoft Dynamics 365 for Finance and Operations palīdzības sistēmas komponentiem. Tajā ir arī paskaidrots, kā savai organizācijai varat sniegt pielāgotu dokumentāciju un apmācību."
+description: "Šajā tēmā ir sniegts pārskats par programmas Microsoft Dynamics 365 for Finance and Operations palīdzības sistēmas komponentiem."
 author: margoc
 manager: AnnBe
-ms.date: 10/10/2018
+ms.date: 11/13/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 75be5c5f675885aececb8ac0b25e699882ea77ab
-ms.openlocfilehash: dc2a3d49041acf42814149eb71d4cc021bdad838
+ms.sourcegitcommit: 87ca6afe817d27de12479f1b7d8155d11d800233
+ms.openlocfilehash: dc057faf3cd08ea1c939d0cc35ae404bde59e514
 ms.contentlocale: lv-lv
-ms.lasthandoff: 10/17/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 10/17/2018
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegts pārskats par programmas Microsoft Dynamics 365 for Finance and Operations palīdzības sistēmas komponentiem. Tajā ir arī paskaidrots, kā savai organizācijai varat sniegt pielāgotu dokumentāciju un apmācību. 
+Šajā tēmā ir sniegts pārskats par programmas Microsoft Dynamics 365 for Finance and Operations palīdzības sistēmas komponentiem. 
 
 > [!NOTE] 
 > Šie produkti ir cieši saistīti: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail un Dynamics 365 for Talent. Visos 3 produktos var būt pieejama tā pati funkcionalitāte. Tādēļ tēmās, kas galvenokārt ir saistītas ar programmatūru Retail, produkta nosaukums ir Dynamics 365 for Retail; tēmās, kas galvenokārt ir saistītas ar programmatūru Talent, produkta nosaukums ir Dynamics 365 for Talent; un tēmās, kas ir saistītas ar galveno produktu, produkta nosaukums ir Dynamics 365 for Finance and Operations. Tēmas, kas sarakstītas vienam produktam, var attiekties uz to pašu funkcionalitāti saistītā produktā.
@@ -48,8 +48,6 @@ Finance and Operations ietver palīdzības sistēmu, kuras pamatā ir divi galve
 Palīdzībai varat piekļūt no rūts Palīdzība jebkurā jūsu lietotajā produktā. Nākamajos ekrānuzņēmumos ir redzama programma Finance and Operations.
 
 ![Rūts Palīdzība](./media/help-pane-ops-task-guides.png)
-
-Šajā tēmā ir aprakstīta palīdzības sistēma un paskaidrots, kā varat izveidot pielāgotu dokumentāciju un apmācības resursus savai organizācijai.
 
 > [!IMPORTANT]
 > **Uzdevumu ceļveži** šobrīd nav pieejami programmai Retail vai rūtī Palīdzība programmai Talent (daži uzdevumu ceļveži ir pieejami Talent rūtī Darba sākšana). Palīdzība saistībā ar procedūrām gan programmai Retail, gan programmai Talent ir pieejama vietnē docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)).
@@ -83,7 +81,7 @@ Lai abonētu visu Unified Operations satura atjauninājumu RSS plūsmu, izmantoj
 ### <a name="give-feedback"></a>Atsauksmju sniegšana 
 Mēs labprāt saņemam klientu atsauksmes. Varat pievienot komentāru vai ieteikt mūsu sniegtā satura izmaiņas, izmantojot pakalpojumu GitHub. Papildinformāciju par mūsu atsauksmju sistēmu skatiet [šajā emuāra ierakstā](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs).
 
-##### <a name="leave-us-feedback"></a>Sniedziet mums atsauksmes 
+#### <a name="leave-us-feedback"></a>Sniedziet mums atsauksmes 
 Ja vēlaties sniegt atsauksmes vai uzdot jautājumu par tēmu, pievienojiet komentāru lapas apakšdaļā.  
 
 1. Noklikšķiniet uz **Atsauksmes**, lai pārietu uz lapas apakšdaļā esošo komentāru sadaļu, un pēc tam noklikšķiniet uz **Atsauksmes par produktu** vai **Pierakstīties, lai sniegtu atsauksmes par dokumentāciju**.
@@ -93,8 +91,6 @@ Ja vēlaties sniegt atsauksmes vai uzdot jautājumu par tēmu, pievienojiet kome
 2. Ievadiet komentārus un pēc tam noklikšķiniet uz **Iesniegt atsauksmes**.
 
 ![Komentāra publicēšana](./media/feedback.png)
-
-
 
 ##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Izmaiņu ieteikšana vai satura iesniegšana, izmantojot pakalpojumu GitHub
 Lai varētu ieteikt izmaiņas, ir vajadzīgs GitHub konts un ir jāparaksta līdzstrādnieka licences līgums.  Kad iesniegsiet atgādāšanas pieprasījumu, mēs izskatīsim jūsu ieteiktās izmaiņas. Mēs tās iekšēji pārrunāsim, ja tas būs nepieciešams, un pēc tam jums atbildēsim.  
@@ -122,22 +118,7 @@ Lai sāktu strukturēto, interaktīvo pieredzi, noklikšķiniet uz vienuma **Sā
 > [!IMPORTANT] 
 > Uzdevuma ceļveža demontēšanas laikā tiek ievadīti īsti dati. Ja esat ražošanas vidē, šie dati tiks ievadīti uzņēmumā, kuru pašlaik izmantojat.
 
-### <a name="it-all-begins-with-task-recorder"></a>Viss sākas ar uzdevumu ierakstītāju
-
-Uzdevumu ceļveži tiek veidoti, izmantojot uzdevumu ierakstītāju. Kad lietojat uzdevumu ierakstītāju, tiek ierakstītas visas darbības, ko izpildāt programmatūras Finance and Operations lietotāja interfeisā (UI) (piemēram, klikšķināšana uz izvēlnēm, iestatījumu mainīšana un datu ievadīšana). Ierakstītās darbības kopā tiek sauktas par uzdevuma ierakstu. Kā paskaidrots iepriekšējā sadaļā, uzdevumu ierakstus var parādīt rūtī Palīdzība un atskaņot kā uzdevumu ceļvežus. Taču uzdevumu ierakstus varat izmantot arī citos veidos:
-
--   **Uzdevumu ierakstus saglabāt BPM** — uzdevumu ierakstus varat saglabāt kādā hierarhijas rindā BPM bibliotēkā, kas atrodas LCS. Kad uzdevuma ierakstu saglabājat BPM, kopā ar ieraksta darbībām tiek ģenerēta un paradīta plūsmkartes diagramma. 
-
-    > [!Note]
-    > Lai uzdevumu ierakstu parādītu Finance and Operations rūtī Palīdzība un to atskaņotu kā uzdevuma ceļvedi, šis ieraksts jums ir jāsaglabā BPM bibliotēkā.
-    
--   **Uzdevumu ierakstus saglabāt kā Word dokumentus** — uzdevuma ierakstu saglabājot kā Microsoft Word dokumentu, savai organizācijai varat ērti sagatavot drukājamus apmācību ceļvežus.
-
-Papildinformāciju par uzdevumu ierakstītāju skatiet tēmā [Uzdevumu ierakstītājs programmatūrā Finance and Operations](../../dev-itpro/user-interface/task-recorder.md).
-
-### <a name="creating-customized-task-recordings"></a>Pielāgotu uzdevumu ierakstu izveidošana
-
-Varat izveidot pats savus uzdevumu ierakstus, vai varat lejupielādēt un pielāgot uzdevuma ierakstu, kas nodrošina Microsoft. Līdz ar to varat izveidot savai organizācijai pielāgotu palīdzību, kas atspoguļo jūsu konkrēto Finance and Operations implementāciju. Lai uzdevumu ierakstu parādītu Finance and Operations rūtī Palīdzība un to atskaņotu kā uzdevuma ceļvedi, šis ieraksts jums ir jāsaglabā pakalpojuma LCS BPM bibliotēkā. Ja esat partneris un pārveidojat bibliotēku par korporatīvo bibliotēku, un iekļaujat to kādā risinājumā, tā ir pieejama jūsu klientiem. Pilnīgus norādījumus skatiet tēmā [Uzdevumu ierakstu izmantošana, lai izveidotu dokumentāciju vai apmācību](../../dev-itpro/user-interface/task-recorder.md).
+Uzd. reģistrētāju var lietot, lai izveidotu piel. uzd. ceļvežus. Papildinform. sk. tēmā [Dokumentāc. vai apmāc. veidošana, izmantojot uzd. ierakstus](../../dev-itpro/user-interface/task-recorder-training-docs.md).
 
 ## <a name="in-product-help"></a>Produktā iebūvētā palīdzība
 Lai piekļūtu palīdzības saturam programmatūrā Finance and Operations, noklikšķiniet uz ikonas **Palīdzība** (**?**) un pēc tam izvēlieties Palīdzība vai nospiediet taustiņu kombināciju Ctrl+Shift+?. Abos gadījumos tiek atvērta rūts Palīdzība. Rūtī Palīdzība varat piekļūt rakstiem vai uzdevumu ceļvežiem. 
@@ -184,6 +165,11 @@ Kad sistēmas administrators ir izpildījis šīs darbības, varat atvērt rūti
 Tulkotie uzdevumu ceļveži tiek izlaisti bibliotēkās, kuru nosaukumā ir vārdi “visas valodas”. Lai programmā Finance and Operations skatītu lokalizēto uzdevumu ceļvežu palīdzību, pārliecinieties, ka ir izveidots savienojums ar atbilstošo bibliotēku. Uzdevuma ceļveža rādīšanas valodu katram lietotājam var norādīt, izmantojot valodas iestatījumus sadaļā **Opcijas** &gt; **Preferences**. 
 -   Ja kāds uzdevumu ceļvedis ir iztulkots, kad atverat šo uzdevumu ceļvedi, viss šī uzdevuma ceļveža teksts tiek rādīts jūsu izvēlētajā valodā.
 -   Ja kāds uzdevumu ceļvedis vēl nav iztulkots, kad to atverat, jūsu izvēlētajā valodā tiek rādīta tikai daļa teksta (vadīklu teksts).
+
+## <a name="creating-custom-help"></a>Pielāgotas palīdzības veidošana
+Varat izveidot palīdz. lietotājiem, izveidojot pielāg. uzd. ceļvežus, vai savienojiet vietni ar rūti Palīdzība. Papildinf. sk.: 
+- [Kā izveidot uzd. ierakstu, ko lietot kā dokumentāc. vai apmācību](../../dev-itpro/user-interface/task-recorder.md).
+- [Pielāg. palīdz. izveide Finance and Operations (tehn. dok.)](https://go.microsoft.com/fwlink/?linkid=2041185)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
