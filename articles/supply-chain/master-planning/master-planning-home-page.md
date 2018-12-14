@@ -3,7 +3,7 @@ title: "Vispārējās plānošanas sākumlapa"
 description: "Vispārējā plānošana ļauj uzņēmumiem noteikt un ieplānot nākotnes nepieciešamības pēc izejmateriāliem un jaudas, lai sasniegtu uzņēmuma mērķus."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/20/2017
+ms.date: 12/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 18ed011fa1c1aa35b4a401d51bffc6af19395577
-ms.openlocfilehash: 030579ac73d6333ac4ed55433b9679a58247c088
+ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
+ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
 ms.contentlocale: lv-lv
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -58,13 +58,13 @@ Nākamajā mācību kartē ir parādītas galvenās koncepcijas un uzdevumi, kur
 
 ## <a name="quick-links"></a>Tiešās saites
 
-|      |   |
-|------|---|
-|        [Vispārējie plāni](master-plans.md)       |     [Ierobežotā plāna ģenerēšana](./tasks/constrained-plan.md)  |
-| [Materiālu plāna izveide līdzproduktiem](./tasks/create-material-plan-co-products.md)   |  [Vispārēja plānošana un vairākvietu funkcionalitāte](master-plan-multisite-functionality.md)  |
-| [Starpuzņēmumu plāna izveide](./tasks/create-intercompany-plan.md) | [Pārskats par pieprasījuma prognozēšanu](introduction-demand-forecasting.md)  | 
-|[Samazināšanas principi](reduction-keys.md)| [Vispārējās plānošanas pamatelementi](https://mbspartner.microsoft.com/AX/CourseOverview/1275) (elektroniskās mācības) (ir nepieciešams CustomerSource konts)     |
-|  [Vispārējā plānošana Procesa ražošanai](https://mbspartner.microsoft.com/D365E/CourseOverview/1514) (elektroniskās mācības) (ir nepieciešams CustomerSource konts) | [Starpuzņēmumu vispārējā plānošana](https://mbspartner.microsoft.com/AX/CourseOverview/1276) (elektroniskās mācības) (ir nepieciešams CustomerSource konts)|
+- [Vispārējie plāni](master-plans.md)  
+- [Ierobežotā plāna ģenerēšana](./tasks/constrained-plan.md)
+- [Materiālu plāna izveide līdzproduktiem](./tasks/create-material-plan-co-products.md)
+- [Vispārēja plānošana un vairākvietu funkcionalitāte](master-plan-multisite-functionality.md)
+- [Starpuzņēmumu plāna izveide](./tasks/create-intercompany-plan.md)
+- [Pārskats par pieprasījuma prognozēšanu](introduction-demand-forecasting.md)
+- [Samazināšanas principi](reduction-keys.md)
                                   
 ## <a name="additional-resources"></a>Papildu resursi
 
