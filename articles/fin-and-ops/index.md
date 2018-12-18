@@ -51,7 +51,7 @@ Liela daļa šī satura attiecas arī uz saistītajiem produktiem: Microsoft Dyn
 <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack programmai Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">Projekta pievienošana</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Sagatavošana palaišanai</a></p>
-  
+
 <h3><a href="../financials/index.md">Finanšu pārvaldība</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">Kreditori</a></p>
 <p><a href="../financials/accounts-receivable/accounts-receivable.md">Debitori</a></p>
@@ -65,7 +65,7 @@ Liela daļa šī satura attiecas arī uz saistītajiem produktiem: Microsoft Dyn
 <p><a href="../financials/public-sector/public-sector-functionality.md">Publiskais sektors</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Reģionālie regulēšanas līdzekļi</a></p>
 
-<H3><a href="hr/hr-landing-page.md">Personāla vadība</a></h3>
+<h3><a href="hr/hr-landing-page.md">Personāla vadība</a></h3>
 <p><a href="../talent/manage-benefit-program.md">Atvieglojumi</a></p>
 <p><a href="../talent/performance-management-overview.md">Darbinieku izaugsme un apmācība</a></p>
 <p><a href="../talent/questionnaires.md">Anketa</a></p>

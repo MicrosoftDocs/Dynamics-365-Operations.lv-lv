@@ -31,15 +31,12 @@ ms.lasthandoff: 11/03/2017
 
 Šajā rakstā tiek iepazīstināts ar ierakstu veidņu koncepciju un paskaidrots, kā tās var izmantot, lai veidotu ierakstus, kuri koplieto informāciju.
 
-Ierakstu veidnes var palīdzēt ātrāk izveidot ierakstus programmatūrā Microsoft Dynamics 365 for Finance and Operations. Programmatūrā Microsoft Dynamics 365 for Finance and Operations var izveidot tikai dažu ierakstu tipu ierakstu veidnes. 
+Ierakstu veidnes var palīdzēt ātrāk izveidot ierakstus programmatūrā Microsoft Dynamics 365 for Finance and Operations. Programmatūrā Microsoft Dynamics 365 for Finance and Operations var izveidot tikai dažu ierakstu tipu ierakstu veidnes.
 
-Piemēram, iedomājieties, ka jūs ievadāt nomas informāciju par automašīnu nomas darījumu, kas atrodas San Francisko. Tā kā lielākā daļa klientu visdrīzāk ir no San Francisko apvidus, būtu jauki, ja jūs varētu automātiski aizpildīt nomas veidlapas lauku **Administratīvais apgabals**, **Valsts**, un **Pilsēta** vērtības. 
+Piemēram, iedomājieties, ka jūs ievadāt nomas informāciju par automašīnu nomas darījumu, kas atrodas San Francisko. Tā kā lielākā daļa klientu visdrīzāk ir no San Francisko apvidus, būtu jauki, ja jūs varētu automātiski aizpildīt nomas veidlapas lauku **Administratīvais apgabals**, **Valsts**, un **Pilsēta** vērtības.
 
-> [!Note]
-> Veidnes varat lietot tikai tādiem Finance and Operations apgabaliem, kuriem jums ir piekļuve. Tomēr ir redzami visi veidņu nosaukumi, kad izveidojat jaunu ierakstu, un tie ir redzami arī citiem lietotājiem, ja jūs izveidojat veidnes, kas būs pieejamas visiem lietotājiem. Paturiet to prātā, kad piešķirsiet veidnēm nosaukumus. Piemēram, centieties neizmantot nosaukumus, kuri satur tādus vārdus kā “komisija”, ja ne visiem lietotājiem būtu jāzina, ka dažiem uzņēmuma darbiniekiem algas ir balstītas uz komisiju. 
+> [!NOTE]
+> Veidnes varat lietot tikai tādiem Finance and Operations apgabaliem, kuriem jums ir piekļuve. Tomēr ir redzami visi veidņu nosaukumi, kad izveidojat jaunu ierakstu, un tie ir redzami arī citiem lietotājiem, ja jūs izveidojat veidnes, kas būs pieejamas visiem lietotājiem. Paturiet to prātā, kad piešķirsiet veidnēm nosaukumus. Piemēram, centieties neizmantot nosaukumus, kuri satur tādus vārdus kā “komisija”, ja ne visiem lietotājiem būtu jāzina, ka dažiem uzņēmuma darbiniekiem algas ir balstītas uz komisiju.
 
 Kad specifiskai formai pastāv viena vai vairākas veidnes, kam jums ir piekļuve, un jūs mēģināt izveidot jaunu ierakstu šajā formā, tiek parādīta lapa **Atlasiet veidni, kas paredzēta...**. Kad atlasāt veidni no saraksta, tiek izveidots jauns ieraksts, kas satur uz atlasīto veidni balstītu noklusējuma informāciju. Ja nevēlaties izmantot veidnes jaunu ierakstu izveidei, atzīmējiet izvēles rūtiņu **Nejautāt atkārtoti** lapā **Atlasiet veidni, kas paredzēta**. Lai atkal tiktu parādīts veidnes atlases dialoglodziņš, ar peles labo pogu noklikšķiniet uz jebkura ieraksta, noklikšķiniet uz **Informācija par ierakstu** un pēc tam noklikšķiniet uz **Parādīt veidnes atlasi**.
-
-
-
 

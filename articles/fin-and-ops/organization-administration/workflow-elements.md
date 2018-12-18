@@ -34,42 +34,46 @@ ms.lasthandoff: 11/14/2017
 Darbplūsma sastāv no elementiem. Turpmākajās sadaļās ir aprakstīts katrs elementa veids.
 
 ## <a name="tasks"></a>Uzdevumi
+
 *Uzdevums* ir darba vienība, kas ir jāveic. Darbplūsmai var pievienot divu viedu uzdevumus: manuālos uzdevumus un automatizētos uzdevumus.
 
 ### <a name="manual-task"></a>Manuāls uzdevums
 
 *Manuāls uzdevums* ir darba vienība, kas ir jāveic lietotājam. Piemēram, izdevumu pārskata darbplūsma var būt manuāls uzdevums, kura ietvaros norīkotajam lietotājam ir jāveic tālāk norādītās darbības.
 
--   Jāpārskata kopā ar izdevumu pārskatu iesniegtie čeki.
--   Jāzvana darbinieka vadītājam.
+- Jāpārskata kopā ar izdevumu pārskatu iesniegtie čeki.
+- Jāzvana darbinieka vadītājam.
 
 ### <a name="automated-task"></a>Automatizēts uzdevums
 
 *Automatizēts uzdevums* ir darba vienība, kas ir jāveic sistēmai. Darbiniekam nekas nav jādara. Piemēram,pārdošanas pasūtījuma darbplūsma var būt automatizēts uzdevums, kura ietvaros sistēmai ir jāveic tālāk norādītās darbības.
 
--   Jāveic kredīta pārbaude.
--   Jāizveido debitora ieraksts, ja tāda vēl nav.
+- Jāveic kredīta pārbaude.
+- Jāizveido debitora ieraksts, ja tāda vēl nav.
 
 ## <a name="approval-processes"></a>Apstiprināšanas procesi
+
 *Apstiprināšanas process* ir process, kas sastāv no atsevišķiem soļiem. Katrā apstiprināšanas solī lietotājs var veikt tālāk norādītās darbības.
 
--   Apstiprināt dokumentu.
--   Noraidīt dokumentu.
--   Pieprasīt dokumenta izmaiņas.
--   Piešķirt dokumentu apstiprināšanai citam lietotājam.
+- Apstiprināt dokumentu.
+- Noraidīt dokumentu.
+- Pieprasīt dokumenta izmaiņas.
+- Piešķirt dokumentu apstiprināšanai citam lietotājam.
 
 ## <a name="line-item-workflow-elements"></a>Dokumenta rindas darbplūsmas elementi
+
 Var izveidot darbplūsmu dokumentu vai dokumenta rindu apstrādei. Pieņemsim, ka esat izveidojis darba laika uzskaites tabulas apstiprinājuma darbplūsmu. (Šī darbplūsma tiks saukta par *dokumenta darbplūsmu*.) Varat pievienot šai dokumenta darbplūsmai *rindas vienuma darbplūsmas* elementu. Izpildot rindas vienuma elementu, apstrādei tiek nodots katras dokumenta rindas vienums. Iespējams, vēlaties, lai visu rindu vienumu apstrādei tiktu izmantota viena dokumenta rindu darbplūsma, vai arī, iespējams, vēlaties, lai katra rindas vienuma apstrādei tiktu izmantota atšķirīga dokumenta rindas darbplūsma. Iedomājieties, ka darbinieks ir iesniedzis darba laika uzskaites tabulu, kas līdzinās tālāk esošajā attēlā redzamajai.
 
-![Darbplūsma ar rindas elementiem](./media/workflow_lineitemworkflow.gif) 
+![Darbplūsma ar rindas elementiem](./media/workflow_lineitemworkflow.gif)
 
 Šādā scenārijā, iespējams, vēlaties izveidot tālāk norādītās dokumenta rindas darbplūsmas.
 
--   **1. dokumenta rindas darbplūsma** — šī darbplūsma tiek izmantota to rindas vienumu apstrādei, kuru projekta ID ir 1111.
--   **2. dokumenta rindas darbplūsma** — šī darbplūsma tiek izmantota to rindas vienumu apstrādei, kuru projekta ID ir 2222.
--   **3. dokumenta rindas darbplūsma** — šī darbplūsma tiek izmantota to rindas vienumu apstrādei, kuru projekta ID ir 3333.
+- **1. dokumenta rindas darbplūsma** — šī darbplūsma tiek izmantota to rindas vienumu apstrādei, kuru projekta ID ir 1111.
+- **2. dokumenta rindas darbplūsma** — šī darbplūsma tiek izmantota to rindas vienumu apstrādei, kuru projekta ID ir 2222.
+- **3. dokumenta rindas darbplūsma** — šī darbplūsma tiek izmantota to rindas vienumu apstrādei, kuru projekta ID ir 3333.
 
 ## <a name="flow-control-elements"></a>Plūsmas kontroles elementi
+
 Tālāk norādītie elementi ļauj izveidot darbplūsmas ar alternatīviem atzariem vai atzariem, kas tiek izpildītie vienlaikus.
 
 ### <a name="manual-decision"></a>Manuāls lēmums
@@ -87,7 +91,4 @@ Tālāk norādītie elementi ļauj izveidot darbplūsmas ar alternatīviem atzar
 ### <a name="subworkflow"></a>Pakārtotā darbplūsma
 
 *Pakārtotā darbplūsma* ir darbplūsma, kas darbojas citas darbplūsmas kontekstā.
-
-
-
 
