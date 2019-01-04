@@ -40,6 +40,7 @@ Retail pārdošanas punkta (POS) lietotāja interfeisu (User Interface — UI)
 ![POS ekrāna izkārtojuma elementi](../retail/media/POS-layout-configuration-entities-diagram.png)
 
 ## <a name="visual-profile"></a>Vizuālais profils
+
 Vizuālie profili tiek piešķirti kases sistēmām un tiek izmantoti, lai norādītu vizuālos elementus, kas ir raksturīgas konkrētai kases sistēmai un tiek lietoti visiem lietotājiem. Jebkuram lietotājam, kurš piesakās kases sistēmā, tiek rādīts viens un tas pats dizains, krāsas un attēli.
 
 ![POS sveiciena ekrāns ar dizainu Gaišs](../retail/media/POS-Welcome-Screen-with-Light-theme.png)
@@ -55,6 +56,7 @@ Vizuālie profili tiek piešķirti kases sistēmām un tiek izmantoti, lai norā
 - **Lietojumprogrammas fons** — varat norādīt fona attēlu, kas visā programmā jāizmanto tīrtoņa fona krāsas vietā. Pieteikšanās ekrāna fona faila lielumam jābūt pēc iespējas mazākam.
 
 ## <a name="screen-layouts"></a>Ekrāna izkārtojumi
+
 Izmantojot ekrāna izkārtojuma konfigurācijas, tiek noteiktas darbības, saturs un UI vadīklu novietojums POS sveiciena ekrānā un ekrānā **Transakcija**.
 
 ![POS ekrāna izkārtojuma skats](../retail/media/POS-Screen-Layout-View.png)
@@ -95,6 +97,7 @@ Startēšanas laikā POS programmā tiek automātiski atlasīts ierīcei piemē
 ![POS izkārtojumu lielumi](../retail/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a>Pogu rindas
+
 Visus ekrāna izkārtojuma lielumus var konfigurēt un piešķirt pogu rindas POS sveiciena ekrānam un **transakcijas** ekrānam. Sveiciena ekrāna pogu rindas tiek automātiski izkārtotas virzienā no kreisās puses uz labo, sākot ar zemāko numuru (1. sveiciena ekrāns) virzienā uz lielāko numuru.
 
 Pilnos POS izkārtojumos pogu rindu novietojums ir norādīts ekrāna izkārtojuma noformētājā.
@@ -104,6 +107,7 @@ Kompaktajos POS izkārtojumos pogu rindas tiek automātiski izkārtotas virzien�
 ![Kompaktā izkārtojuma pogu rindas](../retail/media/Compact-View-Button-Grids.png)
 
 ### <a name="images"></a>Attēli
+
 Katram ekrāna izkārtojuma lielumam var norādīt iekļaujamos POS UI attēlus. Pilnos POS izkārtojumos vienu attēlu var norādīt sveiciena ekrānam. Šis attēls tiek parādīts kā pirmais UI elements kreisajā pusē. **Transakciju** ekrānā attēlus var izmantot kā attēlu cilni vai logotipu. Kompaktajos POS izkārtojumos šie attēli netiek izmantoti.
 
 ### <a name="screen-layout-designer"></a>Ekrāna izkārtojuma dizainers
@@ -141,11 +145,13 @@ Pilna izkārtojuma noformētājā lietotāji var konfigurēt UI vadīklu iestat�
     - **Pielāgotā vadīkla** — pielāgotā vadīkla darbojas kā vietturis ekrāna izkārtojumā, lai sniegtu lietotājiem iespēju rezervēt vietu pielāgotam saturam. Pielāgotā vadīkla ir pieejama tikai pilnajos izkārtojumos.
 
 ### <a name="compact-layout-designer"></a>Kompaktā izkārtojuma noformētājs
+
 Līdzīgi kā pilnā izkārtojuma noformētājā arī kompaktā izkārtojuma noformētājā var konfigurēt POS ekrāna izkārtojumu tālruņiem un nelieliem planšetdatoriem. Tomēr šajā gadījumā izkārtojums ir fiksēts. Lielāko daļu vadīklu varat konfigurēt, noklikšķinot ar peles labo pogu un izmantojot saīsņu izvēlni. Tomēr papildu saturam nevar izmantot vilkšanas un nomešanas darbību.
 
 ![Kompaktā izkārtojuma noformētājs](../retail/media/Compact-Layout-Designer.png)
 
 ### <a name="button-grid-designer"></a>Pogu rindas noformētājs
+
 Pogu rindas noformētājs ļauj konfigurēt pogu rindas, ko var izmantot POS sveiciena ekrānā un **darbības** ekrānā gan pilnajā, gan kompaktajā izkārtojumā. Vienu pogu rindu var izmantot visos izkārtojumos un izkārtojumu veidos. Tā pat kā ekrāna izkārtojuma noformētājam, arī pogu rindas noformētājam tiek izmantota tehnoloģija “ClickOnce”, lai lejupielādētu, instalētu un palaistu jaunāko programmas versiju ikreiz, kad lietotājs tai piekļūst. Noteikti pārbaudiet pārlūkprogrammas prasības attiecībā uz tehnoloģijas “ClickOnce” lietošanu. Dažām pārlūkprogrammām, piemēram, Google Chrome, ir nepieciešami paplašinājumi.
 
 ![Pogu rindas noformētājs](../retail/media/Button-Grid-Designer.png)

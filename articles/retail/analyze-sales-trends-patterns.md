@@ -35,15 +35,13 @@ Programmatūrā Microsoft Dynamics 365 for Retail varat reāllaikā pētīt pā
 
 Programmatūrā Dynamics 365 for Retail lietotāji var reāllaikā pētīt pārdošanas tendences un modeļus dažādos organizācijas hierarhijas līmeņos vairāku gadu periodā, lietojot standarta pārskatu **Kanāla pārdošanas pārskats pa gadiem**. Šo pārskatu var atvērt no šādām vietām:
 
--   Darbvieta **Mazumtirdzniecības veikala pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Kanāla pārdošanas pārskats pa gadiem**
--   Darbvieta **Mazumtirdzniecības veikala finanses** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala finanses** &gt; **Pārskati** &gt; **Kanāla pārdošanas pārskats pa gadiem**
--   Sadaļa **Pieprasījumi un pārskati** &gt; **Mazumtirdzniecība** &gt; **Pieprasījumi un pārskati** &gt; **Pārdošanas pārskati** &gt; **Kanāla pārdošanas pārskats pa gadiem**
+- Darbvieta **Mazumtirdzniecības veikala pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Kanāla pārdošanas pārskats pa gadiem**
+- Darbvieta **Mazumtirdzniecības veikala finanses** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala finanses** &gt; **Pārskati** &gt; **Kanāla pārdošanas pārskats pa gadiem**
+- Sadaļa **Pieprasījumi un pārskati** &gt; **Mazumtirdzniecība** &gt; **Pieprasījumi un pārskati** &gt; **Pārdošanas pārskati** &gt; **Kanāla pārdošanas pārskats pa gadiem**
 
 Lietotāji arī var izpētīt pārdošanas tendences un modeļus pa stundām dažādos organizācijas hierarhijas līmeņos atlasītajā periodā, lietojot standarta pārskatu **Kanāla pārdošanas pārskats pa stundām**. Šo pārskatu var atvērt no šādām vietām:
 
--   Darbvieta **Mazumtirdzniecības veikala pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Kanāla pārdošanas pārskats pa stundām**
--   Darbvieta **Mazumtirdzniecības veikala finanses** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala finanses** &gt; **Pārskati** &gt; **Kanāla pārdošanas pārskats pa stundām**
--   Sadaļa **Pieprasījumi un pārskati** &gt; **Mazumtirdzniecība** &gt; **Pieprasījumi un pārskati** &gt; **Pārdošanas pārskati** &gt; **Kanāla pārdošanas pārskats pa stundām**
-
-
+- Darbvieta **Mazumtirdzniecības veikala pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Kanāla pārdošanas pārskats pa stundām**
+- Darbvieta **Mazumtirdzniecības veikala finanses** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala finanses** &gt; **Pārskati** &gt; **Kanāla pārdošanas pārskats pa stundām**
+- Sadaļa **Pieprasījumi un pārskati** &gt; **Mazumtirdzniecība** &gt; **Pieprasījumi un pārskati** &gt; **Pārdošanas pārskati** &gt; **Kanāla pārdošanas pārskats pa stundām**
 

@@ -66,7 +66,7 @@ Lokālās preču meklēšanas funkcionalitāte tagad ir lietotājam vēl draudz�
 - Tagad mazumtirgotāji var konfigurēt preču meklēšanu, lai rādītu meklēšanas ieteikumus, kamēr lietotāji raksta preču nosaukumus. Šai funkcionalitātei ir pieejams jauns iestatījums POS funkcionalitātes profilā, grupā ar nosaukumu **Preču meklēšana**. Šis iestatījums saucas **Rādīt meklēšanas ieteikumus rakstīšanas laikā**. Šī funkcionalitāte var palīdzēt darbiniekiem ātri atrast meklētās preces, jo viņiem nav nepieciešams visu nosaukumu ievadīt manuāli.
 - Preču meklēšanas algoritms meklētos vārdus tagad meklē arī preces rekvizītā **Meklēšanas nosaukums**.
 
-![Preču ieteikumi](./media/Productsuggestions.png "Preču ieteikumi")
+    ![Preču ieteikumi](./media/Productsuggestions.png "Preču ieteikumi")
 
 ## <a name="customer-search"></a>Debitora meklēšana
 

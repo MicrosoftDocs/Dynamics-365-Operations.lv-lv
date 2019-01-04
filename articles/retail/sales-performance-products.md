@@ -31,20 +31,18 @@ ms.lasthandoff: 11/03/2017
 
 [!include [banner](includes/banner.md)]
 
-Izmantojot Microsoft Dynamics 365 for Retail, varat izpētīt labāko 10 preču rentabilitāti. 
+Izmantojot Microsoft Dynamics 365 for Retail, varat izpētīt labāko 10 preču rentabilitāti.
 
 Izmantojot programmu Dynamics 365 for Retail, lietotāji var arī pētīt labāko preču (no 10 līdz 100) rentabilitāti dažādos organizācijas hierarhijas līmeņos, ņemot vērā vienu no tālāk norādītajiem kritērijiem.
 
--   Pārdošanas summa
--   Daudzums
--   Bruto peļņas norma
--   Uzcenojuma procenti
+- Pārdošanas summa
+- Daudzums
+- Bruto peļņas norma
+- Uzcenojuma procenti
 
 Lai veiktu šo izvērtēšanu, var izmantot standarta komplektācijā iekļauto pārskatu **Labākās preces**, kuru var atvērt, izmantojot vienu no tālāk norādītajiem ceļiem.
 
--   Darbvieta **Mazumtirdzniecības veikala pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Labāko preču pārskats**
--   Darbvieta **Kategorijas un preču pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Labāko preču pārskats**
--   Sadaļa **Pieprasījumi un pārskati** &gt; **Mazumtirdzniecība** &gt; **Pieprasījumi un pārskati** &gt; **Pārdošanas pārskati** &gt; **Labāko preču pārskats**
-
-
+- Darbvieta **Mazumtirdzniecības veikala pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Labāko preču pārskats**
+- Darbvieta **Kategorijas un preču pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Labāko preču pārskats**
+- Sadaļa **Pieprasījumi un pārskati** &gt; **Mazumtirdzniecība** &gt; **Pieprasījumi un pārskati** &gt; **Pārdošanas pārskati** &gt; **Labāko preču pārskats**
 
