@@ -143,15 +143,17 @@
       href: dev-itpro/retail-POS-activation-changes.md
     - name: "Demonstrācijas datu ekrāna izkārtojumi programmā\_MPOS un Cloud POS"
       href: demo-data.md
-    - name: Preču un klientu meklēšana POS
+    - name: Preču un klientu meklēšana punktā POS
       href: POS-search-improvements.md
     - name: Krājumu uzmeklēšana punktā POS
       href: product-variants-POS.md
+    - name: Transakciju apturēšana un atsākšana punktā POS
+      href: pos-suspend-recall-transactions.md
     - name: Aparatūras perifērijas ierīces
       items:
-        - name: Mazumtirdzniecības perifērijas ierīces
+        - name: Retail perifērijas ierīces
           href: retail-peripherals-overview.md
-        - name: Mazumtirdzniecības perifērijas ierīču simulators
+        - name: Retail perifērijas ierīču simulators
           href: dev-itpro/retail-peripheral-simulator.md
         - name: Perifērijas ierīču savienošana ar POS
           href: define-maintain-channel-clients-registers-hw-stations.md
@@ -478,8 +480,10 @@
       items:
         - name: Jaunināšana un N-1 atbalsts programmai Retail
           href: dev-itpro/overview-upgrade-n-minus1.md
-        - name: 'Pakāpeniskās izlaides (N-1) instalēšana, konfigurācija un pārslēgšana'
+        - name: 'Pakāpeniskās izlādes (N-1) instalēšana, konfigurēšana un pārslēgšana'
           href: dev-itpro/n-1-installation-configuration.md
+        - name: Retail kanāla paplašinājuma jaunināšana uz jaunāko Retail SDK
+          href: dev-itpro/retailSDK-update.md
     - name: Ieviešanas vadlīnijas
       items:
         - name: Ierīces pārvaldības ieviešanas vadlīnijas
