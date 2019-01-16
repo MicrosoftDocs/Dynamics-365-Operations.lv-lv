@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d1ee87dbe9dab089a893d9c69d2573a4c4b11b58
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 7be1495fc42b5f19884a7d9df747f6bec9b64680
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -32,29 +32,36 @@ ms.lasthandoff: 08/09/2018
 
 Šajā rakstā ir paskaidrots, ka skatīt lauku aprakstus un kā lietot lapu Lauku apraksti, lai eksportētu aprakstus.
 
-Programmatūrā Microsoft Dynamics 365 for Finance and Operations tiek nodrošināti apraksti par dažiem sarežģītākajiem laukiem. Šie apraksti tiek parādīti, kad novietojat peles kursoru uz lauka. Aprakstus varat skatīt un eksportēt lapā **Lauku apraksti**. 
+Programmatūrā Microsoft Dynamics 365 for Finance and Operations tiek nodrošināti apraksti par dažiem sarežģītākajiem laukiem. Šie apraksti tiek parādīti, kad novietojat peles kursoru uz lauka. Aprakstus varat skatīt un eksportēt lapā **Lauku apraksti**.
 
-Ne visām lapām ir lauku apraksti. Mēs vēlamies sniegt aprakstus tikai sarežģītākajiem laukiem, nevis tiem, kuru lietojums ir acīmredzams. Tādēļ dažās lapās nav neviena lauka apraksta, dažās lapās ir daži apraksti, bet dažās no sarežģītākajām lapām, piemēram, daudzās parametru lapās, ir daudz aprakstu. 
+Ne visām lapām ir lauku apraksti. Mēs vēlamies sniegt aprakstus tikai sarežģītākajiem laukiem, nevis tiem, kuru lietojums ir acīmredzams. Tādēļ dažās lapās nav neviena lauka apraksta, dažās lapās ir daži apraksti, bet dažās no sarežģītākajām lapām, piemēram, daudzās parametru lapās, ir daudz aprakstu.
 
 Ja jums ir piekļuve Finance and Operations izstrādes videi, varat pievienot jaunus lauku aprakstus un pielāgot esošos aprakstus. Piemēram, lauka aprakstam varat pievienot uzņēmumam specifisku informāciju. Papildinformāciju skatiet rakstā [Pielāgot lauka palīdzību](../../dev-itpro/user-interface/customize-field-help.md).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Skatīt lauku aprakstus lietotāja interfeisā
-Lauku aprakstus varat apskatīt, virzot peles kursoru pār attiecīgo lauku. Ja apraksts nav pieejams, kad novietojat peles kursoru uz lauka, jūs redzat lauka nosaukumu. (Piezīme. Versijā Dynamics AX 7.0 (2016. gada februāris) lauku aprakstus var skatīt tikai lapā **Lauku apraksti**.) Tālāk esošajā attēlā ir parādīts lauka apraksts, kas ir redzams, kad novietojat peles kursoru uz lauka **Bloķēt krājumus inventarizācijas laikā**. 
+
+Lauku aprakstus varat apskatīt, virzot peles kursoru pār attiecīgo lauku. Ja apraksts nav pieejams, kad novietojat peles kursoru uz lauka, jūs redzat lauka nosaukumu.
+
+> [!NOTE]
+> Versijā Dynamics AX 7.0 (2016. gada februāris) lauku aprakstus var skatīt tikai lapā **Lauku apraksti**.
+
+Nākamajā attēlā ir parādīts lauka apraksts, kas ir redzams, kad novietojat peles kursoru uz lauka **Bloķēt krājumus inventarizācijas laikā**.
 
 [![Lauka apraksta piemērs](./media/field-description.png)](./media/field-description.png)
 
 ## <a name="use-the-field-descriptions-page-to-view-and-export-field-help"></a>Izmantot lapu Lauku apraksti, lai skatītu un eksportētu lauku palīdzību
+
 Lapa **Lauku apraksti** jums ļauj skatīt un eksportēt lauku aprakstus. Jūs varat redzēt aprakstus, kas ir pieejami vienā lapā vienlaicīgi.
 
 ### <a name="view-the-descriptions-for-a-page"></a>Skatīt lapas aprakstus
 
 Lai skatītu aprakstus kādai lapai, izpildiet šo darbību.
 
--   Laukā **Atlasīt lapu** ierakstiet lapas nosaukumu. Varat arī noklikšķināt uz bultiņas, lai atvērtu lapu sarakstu, un pēc tam pārlūkot vai filtrēt šo sarakstu.
+- Laukā **Atlasīt lapu** ierakstiet lapas nosaukumu. Varat arī noklikšķināt uz bultiņas, lai atvērtu lapu sarakstu, un pēc tam pārlūkot vai filtrēt šo sarakstu.
 
-Var izmantot lapas nosaukumu, kas tiek rādīts lietotāja interfeisā (UI) (piemēram, **Debitori**), vai lapas koda nosaukumu (AOT nosaukumu), kas ir pieejams, kad ar peles labo pogu noklikšķināt uz lapas (piemēram, **CustTable**). 
+Var izmantot lapas nosaukumu, kas tiek rādīts lietotāja interfeisā (UI) (piemēram, **Debitori**), vai lapas koda nosaukumu (AOT nosaukumu), kas ir pieejams, kad ar peles labo pogu noklikšķināt uz lapas (piemēram, **CustTable**).
 
-Informāciju par dažādajiem veidiem, kā filtrēt lapu sarakstu, skatiet vēlākā šī raksta sadaļā “Lapas meklēšana”. 
+Informāciju par dažādajiem veidiem, kā filtrēt lapu sarakstu, skatiet vēlākā šī raksta sadaļā “Lapas meklēšana”.
 
 Ja opciju **Iekļaut laukus bez apraksta** iestatāt uz **Jā**, tad tiek rādīti visi šajā lapā esošie lauki, pat ja tiem nav lauka apraksta.
 
@@ -62,23 +69,25 @@ Ja opciju **Iekļaut laukus bez apraksta** iestatāt uz **Jā**, tad tiek rādī
 
 Lai eksportētu aprakstus kādai lapai, izpildiet šīs darbības.
 
-1.  Laukā **Atlasīt lapu** atlasiet kādu lapu.
-2.  Noklikšķiniet uz pogas **Atvērt programmā Microsoft Office** augšējā labajā stūrī un pēc tam noklikšķiniet uz **FieldDescriptionTmp**.
+1. Laukā **Atlasīt lapu** atlasiet kādu lapu.
+2. Noklikšķiniet uz pogas **Atvērt programmā Microsoft Office** augšējā labajā stūrī un pēc tam noklikšķiniet uz **FieldDescriptionTmp**.
 
 ### <a name="searching-for-a-page"></a>Lapas meklēšana
 
 Pastāv vairāki veidi, kā meklēt lapu laukā **Atlasīt lapu**. Daudzos gadījumos ir jānoklikšķina uz bultiņas laukā **Atlasīt lapu**, lai atvērtu nolaižamo sarakstu, un pēc tam jāatlasa no filtrētā lapu saraksta.
 
--   Ierakstiet daļēju nosaukumu un pēc tam atveriet nolaižamo sarakstu, lai atlasītu no filtrētā lapu saraksta.
--   Atveriet nolaižamo sarakstu un pēc tam noklikšķiniet uz virsraksta **Lapas nosaukums** saraksta augšpusē vai uz virsraksta **Lapas AOT nosaukums**. Tiek parādīts dialoglodziņš, kur varat izmantot papildu filtrēšanas opcijas, piemēram, **Lapas nosaukums sākas ar**.
--   Ierakstiet pilnu lapas nosaukumu. Ja izmantojat šo opciju, ieteicams atvērt nolaižamo sarakstu un apskatīt, kas vēl ir pieejams šajā sarakstā pat tad, ja tiek rādīti lauku apraksti.
-    -   Ja nosaukumam ir viena precīza atbilstība, tiek rādīti lauku apraksti šai lapai.
-    -   Ja ir vairākas precīzas atbilstības, netiek rādīts neviens apraksts. Jums ir jāatver nolaižamais saraksts un jāatlasa nepieciešamā lapa.
-    -   Ja ierakstītais nosaukums ir daļa no citas lapas nosaukuma, tiek rādīti apraksti jūsu lapai. Taču, ja atverat nolaižamo sarakstu, varat redzēt papildu lapas, kas ietver šo nosaukumu.
+- Ierakstiet daļēju nosaukumu un pēc tam atveriet nolaižamo sarakstu, lai atlasītu no filtrētā lapu saraksta.
+- Atveriet nolaižamo sarakstu un pēc tam noklikšķiniet uz virsraksta **Lapas nosaukums** saraksta augšpusē vai uz virsraksta **Lapas AOT nosaukums**. Tiek parādīts dialoglodziņš, kur varat izmantot papildu filtrēšanas opcijas, piemēram, **Lapas nosaukums sākas ar**.
+- Ierakstiet pilnu lapas nosaukumu. Ja izmantojat šo opciju, ieteicams atvērt nolaižamo sarakstu un apskatīt, kas vēl ir pieejams šajā sarakstā pat tad, ja tiek rādīti lauku apraksti.
 
-Piemēram, nekādi apraksti netiek rādīti, kad laukā *<strong><em>Atlasīt lapu</em></strong>* ierakstāt <strong>Inventarizācija</strong>. Jūs atverat nolaižamo sarakstu un redzat, ka pastāv divas lapas, kuru nosaukums ir <strong>Inventarizācija</strong>, un vairākas lapas, kuru nosaukumā ir ietverts vārds “Inventarizācija”. Ja atlasāt lapu, kuras AOT nosaukums ir <strong>InventJournalCount</strong>, tiek rādīti lauku nosaukumi šai lapai. Taču, ja atkal atverat nolaižamo sarakstu, jūs redzat, ka sarakstā tagad ir visas lapas, kurām kā daļa no to AOT lapas nosaukuma ir “InventJournalCount”.
+    - Ja nosaukumam ir viena precīza atbilstība, tiek rādīti lauku apraksti šai lapai.
+    - Ja ir vairākas precīzas atbilstības, netiek rādīts neviens apraksts. Jums ir jāatver nolaižamais saraksts un jāatlasa nepieciešamā lapa.
+    - Ja ierakstītais nosaukums ir daļa no citas lapas nosaukuma, tiek rādīti apraksti jūsu lapai. Taču, ja atverat nolaižamo sarakstu, varat redzēt papildu lapas, kas ietver šo nosaukumu.
+
+Piemēram, nekādi apraksti netiek rādīti, kad laukā **Atlasīt lapu** ierakstāt **Inventarizācija**. Jūs atverat nolaižamo sarakstu un redzat, ka pastāv divas lapas, kuru nosaukums ir **Inventarizācija**, un vairākas lapas, kuru nosaukumā ir ietverts vārds “Inventarizācija”. Ja atlasāt lapu, kuras AOT nosaukums ir **InventJournalCount**, tiek rādīti lauku nosaukumi šai lapai. Taču, ja atkal atverat nolaižamo sarakstu, jūs redzat, ka sarakstā tagad ir visas lapas, kurām kā daļa no to AOT lapas nosaukuma ir “InventJournalCount”.
 
 ## <a name="troubleshooting"></a>Problēmu novēršana
+
 Šajā sadaļā ir sniegta informācija, lai jums palīdzētu novērst problēmas, kas varētu rasties, izmantojot lauku aprakstus.
 
 ### <a name="i-cant-find-a-field-description"></a>Nevar atrast lauka aprakstu
@@ -97,12 +106,7 @@ Lai lapā parādītu visus laukus, opciju **Iekļaut laukus bez apraksta** iesta
 
 Informāciju par dažādajiem veidiem, kā atrast lapas, skatiet agrākā šī raksta sadaļā “Lapu meklēšana”. Ja ierakstījāt precīzu lapas nosaukumu, iespējams, lauku apraksti netiek rādīti, ja šāds nosaukums ir vairākām lapām. Noklikšķiniet uz bultiņas laukā **Atlasīt lapu**, lai atvērtu filtrētu sarakstu ar pieejamajām lapām.
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 [Pielāgot lauku palīdzību](../../dev-itpro/user-interface/customize-field-help.md)
-
-
-
-
 

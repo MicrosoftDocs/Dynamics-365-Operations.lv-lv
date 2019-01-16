@@ -18,10 +18,10 @@ ms.author: margoc
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: AX 2012
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 8c2375ee1dec3e816dbec19130733ebb2aac0fc3
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: f1b9be6c3a0c8f96b98e2705c4d98516812702e3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -29,12 +29,11 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](../includes/banner.md)]
 
-Mums bija jānoņem lapa WebSearchAX. Mēs iesakām tās vietā izmantot meklēšanu vietnē jūsu iecienītākajā meklētājprogrammā.  Piemēram: 
+Mums bija jānoņem lapa WebSearchAX. Mēs iesakām tās vietā izmantot meklēšanu vietnē jūsu iecienītākajā meklētājprogrammā. Piemēram:
 
 site:technet.microsoft.com dynamics ax 2012 “meklējamais vārds”
 
-- vai -
+–vai–
 
-site:msdn.microsoft.com dynamics ax 2012 “meklējamais vārds”
-
+site:msdn.microsoft.com dynamics ax 2012 "meklējamais vārds"
 

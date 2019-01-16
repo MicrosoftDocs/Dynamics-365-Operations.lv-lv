@@ -3,7 +3,7 @@ title: "Administratora iestatījumi programmā Attract"
 description: "Šajā tēmā ir paskaidrota līdzekļu funkciju iespējošana organizācijām un lietotājiem programmā Attract."
 author: 
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: 52b48d5daab985c43d59f29ad7b80dda99a7fcef
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: fb7b5e5b98ddb8e0e44fccbb0ddbb05199265414
 ms.contentlocale: lv-lv
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -37,7 +37,7 @@ Ievadiet uzņēmuma parādāmo nosaukumu un pievienojiet uzņēmuma logotipu. P�
 
 ## <a name="linkedin-integration"></a>LinkedIn integrācija
 
-Iestatiet integrāciju ar LinkedIn Recruiter System Connect (RSC). Kad esat izveidojis savienojumi ar LinkedIn, izmantojot savus LinkedIn akreditācijas datus, varat sinhronizēt kandidāta LinkedIn profilu, pieteikumus, interviju atsauksmes un darbā pieņemšanas grupas piezīmes. Ir nepieciešama pilna LinkedIn Recruiter licence. Papildinformāciju par RSC skatiet tēmā [Recruiter System Connect (RSC) — bieži uzdotie jautājumi](https://www.linkedin.com/help/recruiter/answer/90483).
+Iestatiet integrāciju ar LinkedIn Recruiter System Connect (RSC). Kad esat izveidojis savienojumi ar LinkedIn, izmantojot savus LinkedIn akreditācijas datus, varat sinhronizēt kandidāta LinkedIn profilu, pieteikumus, interviju atsauksmes un darbā pieņemšanas grupas piezīmes. Ir nepieciešama pilna LinkedIn Recruiter licence. Papildinformāciju par LinkedIn Recruiter skatiet tēmā [Recruiter System Connect (RSC) — bieži uzdotie jautājumi](https://www.linkedin.com/help/recruiter/answer/90483).
 
 ## <a name="user-permissions"></a>Lietotāju atļaujas
 

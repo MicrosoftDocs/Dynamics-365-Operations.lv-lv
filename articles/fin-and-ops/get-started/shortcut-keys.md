@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 58551a26d9f3a55e8a6ab8b4ca0805aaca4a4c28
-ms.openlocfilehash: d9d3ace80e49b8dc29259c8c16925f474c9e74b3
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 497fdb303abb9fe94caa1ebc03da005b88a40e4b
 ms.contentlocale: lv-lv
-ms.lasthandoff: 10/25/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -29,36 +29,35 @@ ms.lasthandoff: 10/25/2018
 
 [!include [banner](../includes/banner.md)]
 
-Tālāk norādītie īsinājumtaustiņi darbojas visā programmatūrā Dynamics 365 for Finance and Operations. 
+Tālāk norādītie īsinājumtaustiņi darbojas visā programmatūrā Dynamics 365 for Finance and Operations.
 
-**Piezīme.** Šeit aprakstītie īsinājumtaustiņi attiecas uz ASV tastatūras izkārtojumu. Citos tastatūras izkārtojumos taustiņi var precīzi neatbilst taustiņiem ASV tastatūras izkārtojumā.
+> [!NOTE]
+> Šeit aprakstītie īsinājumtaustiņi attiecas uz ASV tastatūras izkārtojumu. Citos tastatūras izkārtojumos taustiņi var precīzi neatbilst taustiņiem ASV tastatūras izkārtojumā.
 
 ## <a name="finding-a-shortcut"></a>Saīsnes atrašana
-Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lietotāji var noskaidrot tieši no lietotāja interfeisa. Vienkārši noklikšķiniet uz vadīklas ar peles labo pogu un atlasiet **Skatīt saīsnes**. Šādi tiek atvērts dialoglodziņš, kurā ir redzamas saīsnes, ko var izmantot, pamatojoties uz atrašanās vietu lapā. 
 
+Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lietotāji var noskaidrot tieši no lietotāja interfeisa. Vienkārši noklikšķiniet uz vadīklas ar peles labo pogu un atlasiet **Skatīt saīsnes**. Šādi tiek atvērts dialoglodziņš, kurā ir redzamas saīsnes, ko var izmantot, pamatojoties uz atrašanās vietu lapā.
 
 ## <a name="action-shortcuts"></a>Darbību saīsnes
 
-|                                                   |                                  |
-|---------------------------------------------------|----------------------------------|
-| **Darbība**                                    | **Nospiediet**                        |
-| Atvērt darbību meklēšanu                                | Ctrl+’ vai Alt+Q                  |
-| Pāriet uz standarta darbību rūti                  | Alt+M,A vai Ctrl+F6               |
-| Atvērt cilni darbību rūtī vai izvēlnē           | Enter vai atstarpes taustiņš vai Alt+bultiņa uz leju |
-| Pāriet uz nākamo/iepriekšējo opciju izvēlnē            | Bultiņa uz leju/bultiņa uz augšu            |
-| Aizvērt cilni darbību rūtī vai izvēlnē          | Esc                              |
-| Imitēt klikšķi ar peles labo pogu                            | Shift+F10                        |
-| Atvērt Finance and Operations kontekstizvēlni      | Ctrl+F10                         |
-| Izpildīt noklusējuma pogas funkciju formā/dialoglodziņā   | Alt+Enter                        |
-| Noklikšķināt uz pogas vai elementa                            | Enter vai atstarpes taustiņš                   |
-| Skaita elementa informācijas atsvaidzināšana         | Alt+bultiņa uz augšu                     |
-| Skatīt pašlaik pieejamās saīsnes                | Alt+Shift+K                      |                              
+| Darbība                                      | Nospiediet                            |
+|-------------------------------------------------|----------------------------------|
+| Atvērt darbību meklēšanu                              | Ctrl+' vai Alt+Q                  |
+| Pāriet uz standarta darbību rūti                | Alt+M,A vai Ctrl+F6               |
+| Atvērt cilni darbību rūtī vai izvēlnē         | Enter vai atstarpes taustiņš vai Alt+bultiņa uz leju |
+| Pāriet uz nākamo/iepriekšējo opciju izvēlnē          | Bultiņa uz leju/bultiņa uz augšu            |
+| Aizvērt cilni darbību rūtī vai izvēlnē        | Esc                              |
+| Imitēt klikšķi ar peles labo pogu                          | Shift+F10                        |
+| Atvērt Finance and Operations kontekstizvēlni    | Ctrl+F10                         |
+| Izpildīt noklusējuma pogas funkciju formā/dialoglodziņā | Alt+Enter                        |
+| Noklikšķināt uz pogas vai elementa                          | Enter vai atstarpes taustiņš                   |
+| Skaita elementa informācijas atsvaidzināšana       | Alt+bultiņa uz augšu                     |
+| Skatīt pašlaik pieejamās saīsnes              | Alt+Shift+K                      |
 
 ## <a name="date-picker-shortcuts"></a>Datuma atlasītāja saīsnes
 
-|                                       |                                           |
+| Darbība                            | Nospiediet                                     |
 |---------------------------------------|-------------------------------------------|
-| **Darbība**                        | **Nospiediet**                                 |
 | Atvērt datuma atlasītāju                  | Alt+bultiņa uz leju                            |
 | Pārslēgt datumus datumu atlasītājā | Ctrl+bulttaustiņi                           |
 | Pāriet uz nākamo/iepriekšējo mēnesi       | Page Down/Page Up                       |
@@ -70,9 +69,8 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 
 ## <a name="factbox-shortcuts"></a>Papildinformācijas rūts saīsnes
 
-|                                                                                 |                                           |
+| Darbība                                                                      | Nospiediet                                     |
 |---------------------------------------------------------------------------------|-------------------------------------------|
-| **Darbība**                                                                  | **Nospiediet**                                 |
 | Atvērt papildinformācijas rūti (vai aktivizēt papildinformācijas rūti, ja tās jau ir atvērta) | Alt+M,B vai Ctrl+F2                        |
 | Aizvērt papildinformācijas rūti (kad papildinformācijas rūts ir aktivizēta)                         | Esc                                       |
 | Pāriet uz nākamo/iepriekšējo papildinformācijas rūti (kad papildinformācijas rūts ir aktivizēta)              | Alt+Shift+bultiņa uz leju/Alt+Shift+bultiņa uz augšu |
@@ -82,42 +80,39 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 
 ## <a name="filtering-shortcuts"></a>Filtrēšanas saīsnes
 
-|                                    |                          |
-|------------------------------------|--------------------------|
-| **Darbība**                     | **Nospiediet**                |
-| Atvērt pašreizējās kolonnas režģa filtrēšanas sadaļu                        | Ctrl+G                   |
-| Aizvērt pašreizējās kolonnas režģa filtrēšanas sadaļu                       | Esc                      |
+| Darbība                                                                                                          | Nospiediet                    |
+|---------------------------------------------------------------------------------------------------------------------|--------------------------|
+| Atvērt pašreizējās kolonnas režģa filtrēšanas sadaļu                                                                          | Ctrl+G                   |
+| Aizvērt pašreizējās kolonnas režģa filtrēšanas sadaļu                                                                         | Esc                      |
 | Atvērt filtra rūti (vai aktivizēt filtra rūti vai galveno veidlapu, ja filtra rūts jau ir atvērta) | Alt+M,F vai Ctrl+F3       |
-| Aizvērt filtra rūti (kad filtra rūts ir aktivizēta)             | Esc                      |
-| Atvērt papildu filtrēšanas/kārtošanas sadaļu                                      | Ctrl+Shift+F3            | 
+| Aizvērt filtra rūti (kad filtra rūts ir aktivizēta)                                                               | Esc                      |
+| Atvērt papildu filtrēšanas/kārtošanas sadaļu                                                                                        | Ctrl+Shift+F3            |
 
 ## <a name="form-shortcuts"></a>Veidlapas saīsnes
 
-|                                                     |                   |
-|-----------------------------------------------------|-------------------|
-| **Darbība**                                      | **Nospiediet**         |
-| Izveidot jaunu ierakstu                                 | Alt+N             |
-| Dzēst ierakstu                                     | Alt+Del vai Alt+F9 |
-| Saglabāt ierakstu                                         | Alt+S vai Ctrl+S   |
-| Atsaukt (atjaunot)                                    | Ctrl+Shift+F5     |
-| Atsvaidzināt datus                                        | Shift+F5          |
-| Pāriet uz pirmo redzamo lauku veidlapā         | Alt+Shift+F       |
-| Pārslēgt rediģēšanas režīmu                                    | F2                |
-| Dokumenta pievienošana                                   | Ctrl+Shift+A      |
-| Eksportēt programmā Excel                                     | Ctrl+Shift+E      |
-| Pāriet uz iepriekšējo ierakstu (ārpus režģa)        | Ctrl+bultiņa uz augšu     |
-| Pāriet uz nākamo ierakstu (ārpus režģa)            | Ctrl+bultiņa uz leju   |
-| Pāriet uz pirmo ierakstu (ārpus režģa)           | Ctrl + Home         |
-| Pāriet uz pēdējo ierakstu (ārpus režģa)            | Ctrl + End          |
-| Aizvērt veidlapu (noklikšķināt uz Atpakaļ)                         | Esc               |
-| Aizvērt veidlapu, veicot tiešu saglabāšanu                   | Shift+Esc         |
-| Aizvērt veidlapu, atmetot visas nesaglabātās izmaiņas       | Alt+Shift+Q       |
+| Darbība                                    | Nospiediet             |
+|-----------------------------------------------|-------------------|
+| Izveidot jaunu ierakstu                           | Alt+N             |
+| Dzēst ierakstu                               | Alt+Del vai Alt+F9 |
+| Saglabāt ierakstu                                   | Alt+S vai Ctrl+S   |
+| Atsaukt (atjaunot)                              | Ctrl+Shift+F5     |
+| Atsvaidzināt datus                                  | Shift+F5          |
+| Pāriet uz pirmo redzamo lauku veidlapā   | Alt+Shift+F       |
+| Pārslēgt rediģēšanas režīmu                              | F2                |
+| Dokumenta pievienošana                             | Ctrl+Shift+A      |
+| Eksportēt programmā Excel                               | Ctrl+Shift+E      |
+| Pāriet uz iepriekšējo ierakstu (ārpus režģa)  | Ctrl+bultiņa uz augšu     |
+| Pāriet uz nākamo ierakstu (ārpus režģa)      | Ctrl+bultiņa uz leju   |
+| Pāriet uz pirmo ierakstu (ārpus režģa)     | Ctrl + Home         |
+| Pāriet uz pēdējo ierakstu (ārpus režģa)      | Ctrl + End          |
+| Aizvērt veidlapu (noklikšķināt uz Atpakaļ)                   | Esc               |
+| Aizvērt veidlapu, veicot tiešu saglabāšanu             | Shift+Esc         |
+| Aizvērt veidlapu, atmetot visas nesaglabātās izmaiņas | Alt+Shift+Q       |
 
 ## <a name="form-navigation-shortcuts"></a>Veidlapas navigācijas saīsnes
 
-|                                                     |                                              |
+| Lai izpildītu šo darbību                                          | Nospiediet                                        |
 |-----------------------------------------------------|----------------------------------------------|
-| **Lai izpildītu šo darbību**                                      | **Nospiediet**                                    |
 | Pāriet uz nākamo/iepriekšējo lauku                     | Tab/Shift+Tab                              |
 | Pāriet uz nākamo/iepriekšējo cilni                       | Alt+Shift+bultiņa pa labi/Alt+Shift+bultiņa pa kreisi |
 | Pāriet uz cilni Nr. &lt;n&gt;                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1–9)        |
@@ -134,30 +129,28 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 
 ## <a name="grid-shortcuts"></a>Režģa saīsnes
 
-|                                                                                                                        |                                 |
+| Lai izpildītu šo darbību                                                                                                             | Nospiediet                           |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| **Lai izpildītu šo darbību**                                                                                                         | **Nospiediet**                       |
 | Pāriet uz nākamo/iepriekšējo kolonnu                                                                                       | Tab/Shift+Tab                 |
 | Pāriet uz nākamo/iepriekšējo rindu                                                                                          | Bultiņa uz leju/bultiņa uz augšu           |
-| Pāriet uz nākamo/iepriekšējo rindu, neveicot atlasi<br><br>**Piezīme.** Šī saīsne attiecas tikai uz vairākatlases scenārijiem. | Ctrl+bultiņa uz augšu/Ctrl+bultiņa uz leju |
-| Atlasīt/notīrīt pašreizējo rindu<br><br>**Piezīme.** Šī saīsne attiecas tikai uz vairākatlases scenārijiem.                    | Ctrl+atstarpes taustiņš/Ctrl+klikšķis         |
-| Pievienot nākamo/iepriekšējo rindu atlasītajai kopai<br><br>**Piezīme.** Šī saīsne attiecas tikai uz vairākatlases scenārijiem.   | Shift+atstarpes taustiņš                     |
-| Pievienot rindu diapazonu atlasītajai kopai<br><br>**Piezīme.** Šī saīsne attiecas tikai uz vairākatlases scenārijiem.         | Shift+klikšķis                     |
+| Pāriet uz nākamo/iepriekšējo rindu, neveicot atlasi<blockquote>[!NOTE] Šī saīsne attiecas tikai uz vairākatlases scenārijiem.</blockquote> | Ctrl+bultiņa uz augšu/Ctrl+bultiņa uz leju |
+| Atlasīt/notīrīt pašreizējo rindu<blockquote>[!NOTE] Šī saīsne attiecas tikai uz vairākatlases scenārijiem.</blockquote>                    | Ctrl+atstarpes taustiņš/Ctrl+klikšķis         |
+| Pievienot nākamo/iepriekšējo rindu atlasītajai kopai<blockquote>[!NOTE] Šī saīsne attiecas tikai uz vairākatlases scenārijiem.</blockquote>   | Shift+atstarpes taustiņš                     |
+| Pievienot rindu diapazonu atlasītajai kopai<blockquote>[!NOTE] Šī saīsne attiecas tikai uz vairākatlases scenārijiem.</blockquote>         | Shift+klikšķis                     |
 | Pāriet uz nākamo/iepriekšējo datu lapu                                                                                   | Page Up/Page Down             |
 | Izveidot jaunu rindu režģa apakšdaļā                                                                             | Bultiņa uz leju (no pēdējās rindas)  |
 | Atlasīt vai noņemt atlasi visām rindām                                                                                               | Ctrl+Shift+M                    |
 | Pārvietoties uz pirmo ierakstu                                                                                               | Ctrl + Home                       |
 | Pārvietoties uz pēdējo ierakstu                                                                                                | Ctrl + End                        |
-| Režģī izpildīt noklusējuma darbību<br><br>**Piezīme.** Šī saīsne ir iespējota, kad ir fokusēta šūna, kurā ir hipersaite, un visās attiecīgās kolonnas šūnās ir hipersaites.                 | Enter                           |
+| Režģī izpildīt noklusējuma darbību<blockquote>[!NOTE] Šī saīsne ir iespējota, kad ir fokusēta šūna, kurā ir hipersaite, un visās attiecīgās kolonnas šūnās ir hipersaites.</blockquote> | Enter                           |
 | Pārslēgt fokusu no atlasītās rindas uz virsraksta rindu vai otrādi                                                               | Alt+Shift+H                     |
 | Pašreizējo kolonnu padarīt lielāku/mazāku (kamēr fokuss ir virsraksta rindā)                                                  | Bultiņa pa labi/bultiņa pa kreisi        |
 | Atvērt režģa filtrēšanu pašreizējai kolonnai (kamēr fokuss ir virsraksta rindā)                                              | Enter                           |
 
 ## <a name="input-control-shortcuts"></a>Ievades kontroles saīsnes
 
-|                                                                              |                               |
+| Darbība                                                                   | Nospiediet                         |
 |------------------------------------------------------------------------------|-------------------------------|
-| **Darbība**                                                               | **Nospiediet**                     |
 | Atvērt hipersaiti                                                           | Ctrl+Enter                    |
 | Ievadīt sesijas datumu datuma laukā                                       | D+Tab                         |
 | Ievadīt pašreizējo datumu datuma laukā                                       | T+Tab                         |
@@ -171,17 +164,15 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 
 ## <a name="messaging-shortcuts"></a>Ziņojumapmaiņas saīsnes
 
-|                          |               |
+| Lai izpildītu šo darbību               | Nospiediet         |
 |--------------------------|---------------|
-| **Lai izpildītu šo darbību**           | **Nospiediet**     |
 | Pāriet uz ziņojumu centru | Ctrl+Shift+F7 |
 | Pāriet uz ziņojuma joslu    | Ctrl+F7       |
 
 ## <a name="navigation-shortcuts"></a>Navigācijas saīsnes
 
-|                                                                               |                            |
+| Lai izpildītu šo darbību                                                                    | Nospiediet                      |
 |-------------------------------------------------------------------------------|----------------------------|
-| **Lai izpildītu šo darbību**                                                                | **Nospiediet**                  |
 | Doties uz informācijas paneli                                                           | Alt+Shift+Home             |
 | Pāriet uz navigācijas joslu                                                    | Alt+M,N vai Alt+Shift+F1    |
 | Pāriet uz uzņēmuma atlasītāju                                                    | Ctrl+Shift+O               |
@@ -201,9 +192,8 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 
 ## <a name="personalization-shortcuts"></a>Personalizēšanas saīsnes
 
-|                                                                                                                        |                                     |
+| Lai izpildītu šo darbību                                                                                                             | Nospiediet                               |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
-| **Lai izpildītu šo darbību**                                                                                                         | **Nospiediet**                           |
 | Lapu pārcelt personalizēšanas režīmā                                                                          | Ctrl+Shift+P                        |
 | Izmantot atlases rīku (atrodoties personalizēšanas režīmā)                                                                     | S                                   |
 | Atvērt atlasītās vadīklas ātrās personalizēšanas dialoglodziņu (lietojot atlases rīku)                              | Atstarpes taustiņš vai Enter                      |
@@ -230,19 +220,17 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 
 ## <a name="segmented-entry-shortcuts"></a>Segmentētā ieraksta saīsnes
 
-|                                                                                                                         |                                  |
+| Lai izpildītu šo darbību                                                                                                              | Nospiediet                            |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| **Lai izpildītu šo darbību**                                                                                                          | **Nospiediet**                        |
 | Atvērt nolaižamo sarakstu (kad nolaižamais saraksts ir aizvērts)                                                             | Alt+bultiņa uz leju                   |
 | Aktivizēt pašreizējā segmenta ievades lauku nolaižamajā sarakstā (kad nolaižamais saraksts jau ir atvērts) | Alt+bultiņa uz leju                   |
 | Aizvērt nolaižamo sarakstu                                                                                                | Alt+bultiņa uz augšu                     |
 | Aizvērt/atvērt nolaižamā saraksta labo daļu                                                                      | Alt+bultiņa pa kreisi/Alt+bultiņa pa labi |
-| Pārslēgt starp režīmiem “Rādīt derīgo” un “Rādīt visu”                                                                        | Alt+W                            |
+| Pārslēgt starp režīmiem "Rādīt derīgo" un "Rādīt visu"                                                                        | Alt+W                            |
 | Atlasīt vērtību nolaižamajā sarakstā un pāriet uz nākamo segmentu                                                       | Enter                            |
 | Pāriet uz nākamo/iepriekšējo vadīklu lapā (kad ir aktivizēta ievades vadīkla)                                          | Tab/Shift+Tab                  |
 | Pāriet uz nākamo/iepriekšējo ievades lauku izlidošanas sadaļā (kad ir aktivizēts nolaižamais saraksts)                               | Tab/Shift+Tab                  |
 | Pāriet uz iepriekšējo/nākamo rindu uzmeklēšanas rūtī                                                                                        | Bultiņa uz augšu/bultiņa uz leju            |
 | Pāriet uz iepriekšējo/nākamo lapu uzmeklēšanas rūtī                                                                                       | Page Up/Page Down              |
 | Pāriet uz uzmeklēšanas rūts augšdaļu/apakšdaļu                                                                                    | Home/End                       |
-
 

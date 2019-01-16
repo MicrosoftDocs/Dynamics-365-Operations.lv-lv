@@ -3,7 +3,7 @@ title: "Darbu izveide, apstiprināšana un publicēšana programmā Attract"
 description: "Šajā tēmā ir aprakstīti darba elementi programmā Attract. Tajā ir arī paskaidrots, kā izveidot darbu."
 author: josaw
 manager: AnnBe
-ms.date: 10/24/2018
+ms.date: 12/21/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc6bf25d303d7d8de8002a923a080b90dcfbeab
-ms.openlocfilehash: af945042c150fff1a95cdb046f2a712cb2c2c061
+ms.sourcegitcommit: 95031534c43dc0578e258bc3e5376c429d72b0ab
+ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
 ms.contentlocale: lv-lv
-ms.lasthandoff: 10/24/2018
+ms.lasthandoff: 12/23/2018
 
 ---
 
@@ -75,7 +75,25 @@ Plašāku informāciju par aktivitātēm, kuras var pievienot darbā pieņemšan
 
 ## <a name="postings"></a>Grāmatojumi
 
-Pēc tam, kad darbs ir aktivizēts, to var publicēt. Darbus var publicēt tikai personāla atlases darbinieki un administratori. Darbu var publicēt vietnē Talent Careers (Microsoft Dynamics 365 for Talent karjeras vietne) vai LinkedIn. Attract darba grupa nepārtraukti strādā, lai sadarbotos ar darba paneļu apkopotājiem. Tādēļ laika gaitā šis saraksts paplašināsies.
+Pēc tam, kad darbs ir aktivizēts, to var publicēt. Darbus var publicēt tikai personāla atlases darbinieki un administratori. Darbu var publicēt vietnē Talent Careers (Microsoft Dynamics 365 for Talent karjeras vietne) vai LinkedIn. 
+
+> [!NOTE]
+> Ir trīs svarīgas lietas, kas jāņem vērā par darbu publicēšanu pakalpojumā LinkedIn.
+> 1. Pakalpojumā LinkedIn publicētie darbi tiek publicēti kā darbi ar statusu “Limited Listings” (Ierobežoti saraksti). Ierobežotu sarakstu darbus nevar piedāvāt ārpus vietnes LinkedIn. Ja vēlaties reklamēt ierobežotu sarakstu darbus, kas publicēti pakalpojumā LinkedIn no programmas Attract, jums jāpielāgo LinkedIn tā, lai varētu izmantot opciju “Job Wrapping”. Lai iegūtu papildinformāciju, lūdzu, skatiet tālāk noradītās saites un sazinieties ar LinkedIn atbalsta dienestu.
+>
+>    [Limited Listings vs Premium Job Slots for Job Wrapping](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
+>
+>    [Job Wrapping FAQ](https://www.linkedin.com/help/recruiter/answer/79050/job-wrapping-frequently-asked-questions)
+>
+> 1. Publicējot darbu vietnē LinkedIn, programma Attract darbam pievieno attiecīgās Microsoft 365 organizācijas nosaukumu. Vietnē LinkedIn darbi tiek saistīti ar vietnē LinkedIn reģistrēto uzņēmumu atbilstoši norādītajam organizācijas nosaukumam. Ja jūsu darbs ir piesaistīts pie nepareiza uzņēmuma vietnē LinkedIn, pārbaudiet, vai jūsu Microsoft 365 organizācijas nosaukums atbilst uzņēmuma nosaukumam vietnē LinkedIn.  
+>
+>    [Adreses, kontaktinformācijas un citas informācijas maiņa](https://docs.microsoft.com/en-us/office365/admin/manage/change-address-contact-and-more)
+>
+>    Ja jums ir problēmas pēc šīs darbības, lūdzu, sazinieties ar LinkedIn atbalsta dienestu. 
+> 
+> 1. Pašreizējā LinkedIn darbu pakešveida publicēšanas procesa dēļ var paiet līdz 24 stundām, līdz vietnē LinkedIn publicētie darbi kļūst redzami kandidātiem LinkedIn.
+
+Attract darba grupa nepārtraukti strādā, lai sadarbotos ar darba paneļu apkopotājiem. Laika gaitā šis saraksts paplašināsies.
 
 Plašāku informāciju par darbu publicēšanu skatiet tēmā [Karjeras vietnes funkcionalitāte programmā Attract](./career-site.md).
 

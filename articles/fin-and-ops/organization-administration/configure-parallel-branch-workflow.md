@@ -18,10 +18,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: a0359f8312e5e3fe1349dbc89831c98c46cd61ff
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 73626ad21dfe2be7400f321a3eee272c896276f3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -34,24 +34,22 @@ Lai konfigurētu paralēlu zaru, darbplūsmas redaktorā izpildiet tālāk aprak
 Paralēls zars faktiski ir darbplūsma, kas darbojas primārās darbplūsmas kontekstā.
 
 ## <a name="name-a-branch"></a>Zara nosaukums
+
 Lai ievadītu paralēla zara nosaukumu, izpildiet tālāk aprakstītās darbības.
-1.  Ar peles labo pogu noklikšķiniet uz paralēlā zara un pēc tam noklikšķiniet uz **Rekvizīti**. Tiek parādīta forma **Rekvizīti**.
-2.  Kreisajā rūtī noklikšķiniet uz **Pamata iestatījumi**.
-3.  Laukā **Nosaukums** ievadiet unikālu paralēla zara nosaukumu.
-4.  Noklikšķiniet uz **Aizvērt**.
+
+1. Ar peles labo pogu noklikšķiniet uz paralēlā zara un pēc tam noklikšķiniet uz **Rekvizīti**. Tiek parādīta forma **Rekvizīti**.
+2. Kreisajā rūtī noklikšķiniet uz **Pamata iestatījumi**.
+3. Laukā **Nosaukums** ievadiet unikālu paralēla zara nosaukumu.
+4. Noklikšķiniet uz **Aizvērt**.
 
 ## <a name="design-and-configure-the-elements-of-a-branch"></a>Noformēt un konfigurēt zara elementus
+
 Lai noformētu un konfigurētu paralēla zara elementus, izpildiet tālāk aprakstītās darbības.
-1.  Veiciet dubultklikšķi uz paralēlā zara.
-2.  Ievelciet darbplūsmas elementus uz audekla un pēc tam konfigurējiet šos elementus tieši tāpat, kā to darītu, lai izveidotu jebkuru citu darbplūsmu. Papildinformāciju skatiet tēmā Izveidot darbplūsmu.
 
+1. Veiciet dubultklikšķi uz paralēlā zara.
+2. Ievelciet darbplūsmas elementus uz audekla un pēc tam konfigurējiet šos elementus tieši tāpat, kā to darītu, lai izveidotu jebkuru citu darbplūsmu. Papildinformāciju skatiet tēmā [Izveidot darbplūsmu](create-workflow.md).
 
-
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 [Izveidot darbplūsmu](create-workflow.md)
-
-
-
 

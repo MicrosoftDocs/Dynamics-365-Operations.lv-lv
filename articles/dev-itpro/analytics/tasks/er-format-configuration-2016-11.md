@@ -3,7 +3,7 @@ title: "ER Izveidot formāta konfigurāciju (2016. gada novembris)"
 description: "Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var izveidot formāta konfigurāciju Elektroniskajos pārskatos (ER)."
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 11/27/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
-ms.openlocfilehash: 803ed4a1018d344f1b40fa1f2338fc066e784c3c
+ms.sourcegitcommit: 13469aad7fdcefb3a1706eec0527f29968e007eb
+ms.openlocfilehash: 10511fe5b936135471b522fc7152a54686a3be87
 ms.contentlocale: lv-lv
-ms.lasthandoff: 09/14/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>ER Izveidot formāta konfigurāciju (2016. gada novembris)
@@ -31,151 +31,133 @@ Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elek
 
 
 ## <a name="create-a-new-format-configuration"></a>Jaunas formāta konfigurācijas izveide
-1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.
-2. Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.
-3. Kokā atlasiet “Maksājumi (vienkāršotais modelis)”.
-4. Noklikšķiniet uz Izveidot konfigurāciju, lai atvērtu nolaižamo dialoglodziņu.
-5. Laukā Jauns ievadiet "Formāts pamatojoties uz datu modeli PaymentModel".
-6. Laukā Nosaukums ierakstiet "BAKS (UK fiktīvs)".
-    * BAKS (UK fiktīvs)  
-7. Laukā Apraksts ierakstiet "BAKS kreditora maksājuma formāts (UK fiktīvs)".
-    * BAKS kreditora maksājuma formāts (UK fiktīvs)  
+1. Pārejiet uz sadaļu **Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana**.
+2. Noklikšķiniet uz **Pārskatu veidošanas konfigurācijas**.
+3. Kokā atlasiet **Maksājumi (vienkāršotais modelis)**.
+4. Noklikšķiniet uz **Izveidot konfigurāciju**, lai atvērtu nolaižamo dialoglodziņu.
+ > [!NOTE]
+ > Ja neredzat opciju **Izveidot konfigurāciju**, ir jāiespējo noformēšanas režīms lapā **Elektronisko pārskatu veidošanas parametri**. 
+5. Laukā **Jauns** ievadiet **Uz datu modeli PaymentModel balstīts formātsl**.
+6. Laukā **Nosaukums** ierakstiet **BAKS (UK fiktīvs)**.
+7. Laukā **Apraksts** ierakstiet **BAKS kreditora maksājuma formāts (UK fiktīvs)**.
     * Šeit tiek automātiski ievadīts aktīvais konfigurācijas nodrošinātājs. Šis nodrošinātājs varēs uzturēt šo konfigurāciju. Citi nodrošinātāji var izmantot šo konfigurāciju, bet nevar uzturēt to.  
     * Var definēt noteiktu elektroniskā dokumenta formātu. Atstājiet šo lauku tukšu, ja vēlaties atlasīt formātu izpildes laikā.  
-8. Ievadiet vai atlasiet kādu vērtību laukā Datu modelis.
-9. Klikšķiniet Izveidot konfigurāciju.
-    * Tika izveidota jauna konfigurācija. Melnraksta versiju var izmantot, lai saglabātu dizaina formātu elektronisko dokumentu pārvaldībai.  
+8. Ievadiet vai atlasiet kādu vērtību laukā **Datu modeļa definīcija**.
+9. Klikšķiniet **Izveidot konfigurāciju**. Tika izveidota jauna konfigurācija. Melnraksta versiju var izmantot, lai saglabātu dizaina formātu elektronisko dokumentu pārvaldībai.  
+ > [!NOTE]
+ > Ja neredzat opciju **Izveidot konfigurāciju**, ir jāiespējo noformēšanas režīms lapā **Elektronisko pārskatu veidošanas parametri**.
 
-## <a name="design-format-of-electronic-document"></a>Elektronisko dokumentu formāta noformēšana
-1. Noklikšķiniet uz Veidotājs.
-2. Noklikšķiniet uz Pievienot sakni, lai atvērtu nolaižamo dialogu.
-3. Kokā atlasiet "Vispārīgi\Fails".
-4. Laukā Nosaukums ierakstiet "Xml".
-    * Xml  
-5. Laukā Kodēšana ierakstiet "UTF-8".
-    * UTF-8  
-6. Noklikšķiniet uz OK.
-7. Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.
-8. Kokā atlasiet "XML\Elements".
-9. Laukā Nosaukums ierakstiet "Ziņojums".
-    * Paziņojums  
-10. Noklikšķiniet uz OK.
-11. Koka struktūrā atlasiet zaru “Xml\Ziņojums”.
-12. Noklikšķiniet uz Pievienot elementu.
-13. Laukā Nosaukums ievadiet "ProcessingDate".
-    * ProcessingDate  
-14. Noklikšķiniet uz OK.
-15. Noklikšķiniet uz Pievienot elementu.
-16. Laukā Nosaukums ierakstiet "MessageId".
-    * MessageId  
-17. Noklikšķiniet uz OK.
-18. Noklikšķiniet uz Pievienot elementu.
-19. Laukā Nosaukums ierakstiet "Maksājumi".
-    * Maksājumi  
-20. Noklikšķiniet uz OK.
-21. Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi”.
-22. Noklikšķiniet uz Pievienot elementu.
-23. Laukā Nosaukums ierakstiet "Krājums".
-    * Objekts  
-24. Noklikšķiniet uz OK.
-25. Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums”.
-26. Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.
-27. Kokā atlasiet "XML\Atribūts".
-28. Laukā Nosaukums ierakstiet "Id".
-    * ID  
-29. Noklikšķiniet uz OK.
-30. Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.
-31. Kokā atlasiet "XML\Elements".
-32. Laukā Nosaukums ierakstiet "Kreditors".
-    * Kreditors  
-33. Noklikšķiniet uz OK.
-34. Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors”.
-35. Noklikšķiniet uz Pievienot elementu.
-36. Laukā Nosaukums ierakstiet "Nosaukums".
-    * Nosaukums  
-37. Noklikšķiniet uz OK.
-38. Noklikšķiniet uz Pievienot elementu.
-39. Laukā Nosaukums ierakstiet "Banka".
-    * Banka  
-40. Noklikšķiniet uz OK.
-41. Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Banka”.
-42. Noklikšķiniet uz Pievienot elementu.
-43. Laukā Nosaukums ierakstiet "RoutingNumber".
-    * RoutingNumber  
-44. Noklikšķiniet uz OK.
-45. Noklikšķiniet uz Pievienot elementu.
-46. Laukā Nosaukums ierakstiet "AccountNumber".
-    * Konta numurs  
-47. Noklikšķiniet uz OK.
-48. Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors”.
-49. Noklikšķiniet uz Kopēt.
-50. Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums”.
-51. Noklikšķiniet uz Ielīmēt.
-52. Laukā Nosaukums ierakstiet "Maksātājs".
-    * Maksātājs  
-53. Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums”.
-54. Noklikšķiniet uz Pievienot elementu.
-55. Laukā Nosaukums ierakstiet "Valūta".
-    * Valūta  
-56. Noklikšķiniet uz Labi.
-57. Noklikšķiniet uz Pievienot elementu.
-58. Laukā Nosaukums ierakstiet "Apraksts".
-    * Apraksts  
-59. Noklikšķiniet uz Labi.
-60. Noklikšķiniet uz Pievienot elementu.
-61. Laukā Nosaukums ierakstiet "TransDate".
-    * Darbības datums  
-62. Noklikšķiniet uz Labi.
-63. Noklikšķiniet uz Pievienot elementu.
-64. Laukā Nosaukums ierakstiet "Summa".
-    * Summa  
-65. Noklikšķiniet uz Labi.
+
+## <a name="design-the-format-of-an-electronic-document"></a>Elektroniskā dokumenta formāta noformēšana
+1. Noklikšķiniet uz **Veidotājs**.
+2. Noklikšķiniet uz **Pievienot sakni**, lai atvērtu nolaižamo dialoglodziņu.
+3. Kokā atlasiet **Vispārīgi\Fails**.
+4. Laukā **Nosaukums** ierakstiet **Xml**.
+5. Laukā **Kodēšana** ierakstiet **UTF-8**.
+6. Noklikšķiniet uz **Labi**.
+7. Noklikšķiniet uz **Pievienot**.
+8. Kokā atlasiet **XML\Elements**.
+9. Laukā **Nosaukums** ierakstiet **Ziņojums**.
+10. Noklikšķiniet uz **Labi**.
+11. Kokā atlasiet **Xml\Ziņojums**.
+12. Noklikšķiniet uz **Pievienot elementu**.
+13. Laukā **Nosaukums** ievadiet **ProcessingDate**.
+14. Noklikšķiniet uz **Labi**.
+15. Noklikšķiniet uz **Pievienot elementu**.
+16. Laukā Nosaukums ierakstiet **MessageId**.
+17. Noklikšķiniet uz **Labi**.
+18. Noklikšķiniet uz **Pievienot elementu**.
+19. Laukā **Nosaukums** ierakstiet **Maksājumi**.
+20. Noklikšķiniet uz **Labi**.
+21. Kokā atlasiet **Xml\Ziņojums\Maksājumi**.
+22. Noklikšķiniet uz **Pievienot elementu**.
+23. Laukā **Nosaukums** ierakstiet **Krājums**.
+24. Noklikšķiniet uz **Labi**.
+25. Kokā atlasiet **Xml\Ziņojums\Maksājumi\Krājums**.
+26. Noklikšķiniet uz **Pievienot**.
+27. Kokā atlasiet **XML\Atribūts**.
+28. Laukā Nosaukums ierakstiet **Id**.
+29. Noklikšķiniet uz **Labi**.
+30. Noklikšķiniet uz **Pievienot**.
+31. Kokā atlasiet **XML\Elements**.
+32. Laukā Nosaukums ierakstiet **Kreditors**.
+33. Noklikšķiniet uz **Labi**.
+34. Kokā atlasiet **Xml\Ziņojums\Maksājumi\Krājums\Kreditors**.
+35. Noklikšķiniet uz **Pievienot elementu**.
+36. Laukā Nosaukums ierakstiet **Nosaukums**.
+37. Noklikšķiniet uz **Labi**.
+38. Noklikšķiniet uz **Pievienot elementu**.
+39. Laukā **Nosaukums** ierakstiet **Banka**.
+40. Noklikšķiniet uz **Labi**.
+41. Kokā atlasiet **Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Banka**.
+42. Noklikšķiniet uz **Pievienot elementu**.
+43. Laukā **Nosaukums** ierakstiet **RoutingNumber**.
+44. Noklikšķiniet uz **Labi**.
+45. Noklikšķiniet uz **Pievienot elementu**.
+46. Laukā **Nosaukums** ierakstiet **AccountNumber**.
+47. Noklikšķiniet uz **Labi**.
+48. Kokā atlasiet **Xml\Ziņojums\Maksājumi\Krājums\Kreditors**.
+49. Noklikšķiniet uz **Kopēt**.
+50. Kokā atlasiet **Xml\Ziņojums\Maksājumi\Krājums**.
+51. Noklikšķiniet uz **Ielīmēt**.
+52. Laukā **Nosaukums** ierakstiet **Maksātājs**.
+53. Kokā atlasiet **Xml\Ziņojums\Maksājumi\Krājums**.
+54. Noklikšķiniet uz **Pievienot elementu**.
+55. Laukā **Nosaukums** ierakstiet **Valūta**.
+56. Noklikšķiniet uz **Labi**.
+57. Noklikšķiniet uz **Pievienot elementu**.
+58. Laukā **Nosaukums** ierakstiet **Apraksts**.
+59. Noklikšķiniet uz **Labi**.
+60. Noklikšķiniet uz **Pievienot elementu**.
+61. Laukā Nosaukums ierakstiet **TransDate**.
+62. Noklikšķiniet uz **Labi**.
+63. Noklikšķiniet uz **Pievienot elementu**.
+64. Laukā Nosaukums ierakstiet **Summa**.
+65. Noklikšķiniet uz **Labi**.
 
 ## <a name="prepare-format-components-for-mapping-to-data-model-elements"></a>Formātā komponentu sagatavošana kartēšanai datu modeļa elementos
-1. Koka struktūrā atlasiet zaru “Xml\Ziņojums\ProcessingDate”.
-2. Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.
-3. Koka struktūrā atlasiet zaru “Teksts\DateTime”.
-4. Laukā Formāts ierakstiet "gggg-MM-dd".
-    * gggg-MM-dd  
-5. Noklikšķiniet uz OK.
-6. Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\TransDate”.
-7. Noklikšķiniet uz Pievienot DateTime.
-8. Laukā Formāts ierakstiet "gggg-MM-dd".
-    * gggg-MM-dd  
-9. Laukā DateTime tips atlasiet “Datums”.
-10. Noklikšķiniet uz OK.
-11. Koka struktūrā atlasiet zaru “Xml\Ziņojums\MessageId”.
-12. Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.
-13. Kokā atlasiet elementu “Teksts\Virkne”.
-14. Noklikšķiniet uz Labi.
-15. Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Nosaukums”.
-16. Noklikšķiniet uz Pievienot virkni.
-17. Noklikšķiniet uz Labi.
-18. Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Banka\RoutingNumber”.
-19. Noklikšķiniet uz Pievienot virkni.
-20. Noklikšķiniet uz Labi.
-21. Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Banka\AccountNumber”.
-22. Noklikšķiniet uz Pievienot virkni.
-23. Noklikšķiniet uz Labi.
-24. Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Maksātājs\Nosaukums”.
-25. Noklikšķiniet uz Pievienot virkni.
-26. Noklikšķiniet uz Labi.
-27. Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Maksātājs\Banka\RoutingNumber”.
-28. Noklikšķiniet uz Pievienot virkni.
-29. Noklikšķiniet uz Labi.
-30. Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Maksātājs\Banka\AccountNumber”.
-31. Noklikšķiniet uz Pievienot virkni.
-32. Noklikšķiniet uz Labi.
-33. Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Valūta”.
-34. Noklikšķiniet uz Pievienot virkni.
-35. Noklikšķiniet uz Labi.
-36. Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Apraksts”.
-37. Noklikšķiniet uz Pievienot virkni.
-38. Noklikšķiniet uz Labi.
-39. Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Summa”.
-40. Noklikšķiniet uz Pievienot virkni.
-41. Noklikšķiniet uz Labi.
-42. Noklikšķiniet uz Saglabāt.
+1. Kokā atlasiet **Xml\Ziņojums\ProcessingDate**.
+2. Noklikšķiniet uz **Pievienot**, lai atvērtu nolaižamo dialoglodziņu.
+3. Kokā atlasiet **Teksts\DateTime**.
+4. Laukā **Formāts** ierakstiet **gggg-MM-dd**.
+5. Noklikšķiniet uz **Labi**.
+6. Kokā atlasiet **Xml\Ziņojums\Maksājumi\Krājums\TransDate**.
+7. Noklikšķiniet uz **Pievienot DateTime**.
+8. Laukā **Formāts** ierakstiet **gggg-MM-dd**.
+9. Tipa **DateTime** laukā atlasiet **Datums**.
+10. Noklikšķiniet uz **Labi**.
+11. Kokā atlasiet **Xml\Ziņojums\MessageId**.
+12. Noklikšķiniet uz **Pievienot**, lai atvērtu nolaižamo dialoglodziņu.
+13. Kokā atlasiet **Teksts\Virkne**.
+14. Noklikšķiniet uz **Labi**.
+15. Kokā atlasiet **Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Nosaukums**.
+16. Noklikšķiniet uz **Pievienot virkni**.
+17. Noklikšķiniet uz **Labi**.
+18. Kokā atlasiet **Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Banka\RoutingNumber**.
+19. Noklikšķiniet uz **Pievienot virkni**.
+20. Noklikšķiniet uz **Labi**.
+21. Kokā atlasiet **Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Banka\AccountNumber**.
+22. Noklikšķiniet uz **Pievienot virkni**.
+23. Noklikšķiniet uz **Labi**.
+24. Kokā atlasiet **Xml\Ziņojums\Maksājumi\Krājums\Maksātājs\Nosaukums**.
+25. Noklikšķiniet uz **Pievienot virkni**.
+26. Noklikšķiniet uz **Labi**.
+27. Kokā atlasiet **Xml\Ziņojums\Maksājumi\Krājums\Maksātājs\Banka\RoutingNumber**.
+28. Noklikšķiniet uz **Pievienot virkni**.
+29. Noklikšķiniet uz **Labi**.
+30. Kokā atlasiet **Xml\Ziņojums\Maksājumi\Krājums\Maksātājs\Banka\AccountNumber**.
+31. Noklikšķiniet uz **Pievienot virkni**.
+32. Noklikšķiniet uz **Labi**.
+33. Kokā atlasiet **Xml\Ziņojums\Maksājumi\Krājums\Valūta**.
+34. Noklikšķiniet uz **Pievienot virkni**.
+35. Noklikšķiniet uz **Labi**.
+36. Kokā atlasiet **Xml\Ziņojums\Maksājumi\Krājums\Apraksts**.
+37. Noklikšķiniet uz **Pievienot virkni**.
+38. Noklikšķiniet uz **Labi**.
+39. Kokā atlasiet **Xml\Ziņojums\Maksājumi\Krājums\Summa**.
+40. Noklikšķiniet uz **Pievienot virkni**.
+41. Noklikšķiniet uz **Labi**.
+42. Noklikšķiniet uz **Saglabāt**.
 43. Aizvērt lapu.
 
 

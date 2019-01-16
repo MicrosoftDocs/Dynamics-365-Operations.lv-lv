@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: e40c558e03ef230fee6726994bc94979d40493c2
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -52,8 +52,8 @@ Katrai vietai tiek rādīts arī daudzums **Rezervēts** un **Pasūtīts**.
 
 Šajā vietu sarakstā ir divu tālāk aprakstīto tipu elementi.
 
-- **Mazumtirdzniecības veikali** — sarakstā tiek rādīti veikali, kas tiek konfigurēti, izmantojot veikalu vietrāžu grupu pašreizējam veikalam programmā Retail Headquarters. 
-- **Vairumtirdzniecības bāzes** — programmatūrā Microsoft Dynamics 365 for Retail var konfigurēt dažādu tipu vairumtirdzniecības bāzes (piemēram, noliktavas). Taču šajā sarakstā tiek rādīta informācija par krājumu pieejamību tikai vairumtirdzniecības bāzēm ar noklusējuma tipu **Standarta**. 
+- **Mazumtirdzniecības veikali** — sarakstā tiek rādīti veikali, kas tiek konfigurēti, izmantojot veikalu vietrāžu grupu pašreizējam veikalam programmā Retail Headquarters.
+- **Vairumtirdzniecības bāzes** — programmatūrā Microsoft Dynamics 365 for Retail var konfigurēt dažādu tipu vairumtirdzniecības bāzes (piemēram, noliktavas). Taču šajā sarakstā tiek rādīta informācija par krājumu pieejamību tikai vairumtirdzniecības bāzēm ar noklusējuma tipu **Standarta**.
 
     > [!NOTE]
     > Informācija par krājumu pieejamību netiek rādīta noliktavām ar POS tipu **Tranzīts**, **Karantīna** un **Preces ceļā**.
@@ -86,7 +86,7 @@ Skata **No dimensijas atkarīga matrica** preču variantu šūnās labajā apak�
 | **0** (nulle)                             | Uz atlasīto vietu ir izlaists variants, bet krājums atlasītajā vietā nav pieejams. Taču šajā šūnā varat veikt papildu darbības. (Šīs darbības ir detalizētāk aprakstītas tālāk šajā tēmā.) |
 | **Nav datu** vai neaktīva šūna              | Uz atlasīto vietu nav izlaists neviens variants, un šajā šūnā jūs nevarat veikt papildu darbības. |
 
-Varat arī mainīt dimensiju rakursu, atlasot jaunas izmantojamās dimensijas. 
+Varat arī mainīt dimensiju rakursu, atlasot jaunas izmantojamās dimensijas.
 
 ![Rakursa maiņa](media/ChangePivot.png)
 
@@ -108,14 +108,12 @@ Turklāt skatā **No dimensijas atkarīga matrica** var veikt arī citas darbīb
 
 Nākamajā tabulā ir plašāka informācija par pieejamajām papildu darbībām.
 
-
-|        Darbība        |                                                                                                                    Apraksts                                                                                                                    |
-|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|       Pārdot tagad       |                               Atlasīto preces variantu pievienot transakcijai un lietotāju novirzīt uz transakcijas ekrānu. (Šī darbība nav pieejama, ja atlasītā atrašanās vieta ir vairumtirdzniecības bāze.)                               |
-|   Saņemšana veikalā   |      Izveidot debitora pasūtījumu preces variantam, kas tiks saņemts no atlasītās atrašanās vietas, un lietotāju novirzīt uz transakcijas ekrānu. (Šī darbība nav pieejama, ja atlasītā atrašanās vieta ir vairumtirdzniecības bāze.)       |
-|     Nosūtīt preci     |                                                 Izveidot debitora pasūtījumu preces variantam, kas tiks nosūtīts no atlasītās atrašanās vietas, un lietotāju novirzīt uz transakcijas ekrānu.                                                 |
-|     Pieejamība     |                                                                             Rādīt ATP informāciju atlasītajai variantu kombinācijai attiecībā uz atlasīto atrašanās vietu.                                                                              |
-|  Rādīt visas vietas  | Pārslēgties uz standarta krājumu pārlūkošanas skatu un izcelt informāciju par krājumu pieejamību attiecībā uz nepieciešamo krājumu variantu visos veikalos šajā veikalu vietrāžu grupā, kā arī vairumtirdzniecības bāzēs ar tipu <strong>Standarta/noklusējuma</strong>. |
-| Skatīt detalizētu informāciju par preci |                                                                         Novirzīt lietotāju uz saistītā preces šablona lapu <strong>Informācija par preci</strong>.                                                                          |
-
+| Darbība               | Apraksts |
+|----------------------|-------------|
+| Pārdot tagad             | Atlasīto preces variantu pievienot transakcijai un lietotāju novirzīt uz transakcijas ekrānu. (Šī darbība nav pieejama, ja atlasītā atrašanās vieta ir vairumtirdzniecības bāze.) |
+| Saņemšana veikalā     | Izveidot debitora pasūtījumu preces variantam, kas tiks saņemts no atlasītās atrašanās vietas, un lietotāju novirzīt uz transakcijas ekrānu. (Šī darbība nav pieejama, ja atlasītā atrašanās vieta ir vairumtirdzniecības bāze.) |
+| Nosūtīt preci         | Izveidot debitora pasūtījumu preces variantam, kas tiks nosūtīts no atlasītās atrašanās vietas, un lietotāju novirzīt uz transakcijas ekrānu. |
+| Pieejamība         | Rādīt ATP informāciju atlasītajai variantu kombinācijai attiecībā uz atlasīto atrašanās vietu. |
+| Rādīt visas vietas   | Pārslēgties uz standarta krājumu pārlūkošanas skatu un izcelt informāciju par krājumu pieejamību attiecībā uz nepieciešamo krājumu variantu visos veikalos šajā veikalu vietrāžu grupā, kā arī vairumtirdzniecības bāzēs ar tipu **Standarta/noklusējuma**. |
+| Skatīt detalizētu informāciju par preci | Novirzīt lietotāju uz saistītā preces šablona lapu **Informācija par preci**. |
 

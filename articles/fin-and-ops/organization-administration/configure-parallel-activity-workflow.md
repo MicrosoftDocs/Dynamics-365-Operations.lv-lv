@@ -18,10 +18,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 64cd387f8a6ab693d159cd659fca51fa6568ee39
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 01c1fa876dd66ba6f0e1cdcecff56f424e117bd9
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -34,26 +34,25 @@ Lai konfigurētu paralēlu aktivitāti, darbplūsmas redaktorā izpildiet tālā
 Paralēlā aktivitāte sastāv no darbplūsmas zariem, kas darbojas vienlaicīgi.
 
 ## <a name="name-a-parallel-activity"></a>Paralēlās aktivitātes nosaukums
+
 Lai ievadītu paralēlās aktivitātes nosaukumu, izpildiet tālāk aprakstītās darbības.
-1.  Ar peles labo pogu noklikšķiniet uz paralēlās aktivitātes un pēc tam noklikšķiniet uz **Rekvizīti**, lai atvērtu formu **Rekvizīti**.
-2.  Kreisajā rūtī noklikšķiniet uz **Pamata iestatījumi**.
-3.  Laukā **Nosaukums** ievadiet unikālu paralēlās aktivitātes nosaukumu.
-4.  Noklikšķiniet uz **Aizvērt**.
+
+1. Ar peles labo pogu noklikšķiniet uz paralēlās aktivitātes un pēc tam noklikšķiniet uz **Rekvizīti**, lai atvērtu formu **Rekvizīti**.
+2. Kreisajā rūtī noklikšķiniet uz **Pamata iestatījumi**.
+3. Laukā **Nosaukums** ievadiet unikālu paralēlās aktivitātes nosaukumu.
+4. Noklikšķiniet uz **Aizvērt**.
 
 ## <a name="configure-the-branches-of-a-parallel-activity"></a>Konfigurēt paralēlās aktivitātes zarus
+
 Lai pievienotu un konfigurētu šīs paralēlās aktivitātes zarus, izpildiet tālāk aprakstītās darbības.
+
 1. Veiciet dubultklikšķi uz paralēlās aktivitātes, lai parādītu paralēlās aktivitātes zarus.
-2. Lai pievienotu zaru, velciet elementu **Zars** no apgabala **Darbplūsmas elementi** uz ievietošanas punktu uz audekla. Šajā attēlā redzams ievietošanas punkts.![Ievietošanas punkts](./media/workflow_insertionpoint.gif)
+2. Lai pievienotu zaru, velciet elementu **Zars** no apgabala **Darbplūsmas elementi** uz ievietošanas punktu uz audekla. Nākamajā attēlā ir redzams ievietošanas punkts.
 
-   |                                              <strong>Piezīme</strong>                                               |
-   |------------------------------------------------------------------------------------------------------------------|
-   | Zaru secība nav svarīga, jo visi paralēlās aktivitātes zari darbojas vienlaicīgi. |
+    ![Ievietošanas punkts](./media/workflow_insertionpoint.gif)
 
+    > [!NOTE]
+    > Zaru secība nav svarīga, jo visi paralēlās aktivitātes zari darbojas vienlaicīgi.
 
 3. Lai konfigurētu katru zaru, skatiet sadaļu [Konfigurēt paralēlu zaru](configure-parallel-branch-workflow.md).
-
-
-
-
-
 

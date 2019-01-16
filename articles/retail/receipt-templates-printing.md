@@ -20,10 +20,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 731b47ecaf7170967ac1f023881e6c6ca8c26d37
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 13249e1b109586b2c520a1be30c47ac4393abe49
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -33,46 +33,54 @@ ms.lasthandoff: 08/09/2018
 
 Šajā rakstā ir aprakstīts, kā izveidot un modificēt formu izkārtojumus, lai kontrolētu to, kā tiek drukāti rēķini, kvītis un citi dokumenti. Programmatūrā Microsoft Dynamics 365 for Retail ir ietverts formas izkārtojuma veidotājs, ko varat izmantot, lai ērtā un grafiskā veidā izveidotu un modificētu dažādus formu izkārtojumus.
 
-**Svarīgi!** Ir jāiestata formu izkārtojumi un kvīšu profili, lai varētu drukāt kvītis un citus dokumentus no programmām Retail Modern POS un Cloud POS. Kvīšu profilā var ietvert vairākus formu izkārtojumus. Pēc tam kvīts profilu var piešķirt printerim, modificējot aparatūras profilu.
+> [!IMPORTANT]
+> Ir jāiestata formu izkārtojumi un kvīšu profili, lai varētu drukāt kvītis un citus dokumentus no programmām Retail Modern POS un Cloud POS. Kvīšu profilā var ietvert vairākus formu izkārtojumus. Pēc tam kvīts profilu var piešķirt printerim, modificējot aparatūras profilu.
 
 ## <a name="set-up-a-receipt-format"></a>Kvīts formāta iestatīšana
-1.  Noklikšķiniet uz **Retail** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS** &gt; **Ieejas plūsmas formāti**.
-2.  Lapā **Kvīts formāts** noklikšķiniet uz **Jauns**, lai izveidotu jaunu formas izkārtojumu, vai atlasiet esošu formas izkārtojumu.
-3.  Laukā **Kvīts formāts** ievadiet formas izkārtojuma identifikatoru un pēc tam atlasiet šajā izkārtojumā izmantotās kvīts veidu. Laukā **Nosaukums** var arī ievadīt kvīts aprakstu un īsu tās nosaukumu.
-4.  Kopsavilkuma cilnē **Vispārīgi** atlasiet opciju, kas definētu drukāšanas režīmu.
-    -   **Drukāt vienmēr** — kvīts, ja nepieciešams, tiek drukāta automātiski.
-    -   **Nedrukāt** — kvīts netiek drukāta.
-    -   **Parādīt lietotājam uzvedni** — lietotājam tiek parādīta uzvedne par kvīts drukāšanu.
-    -   **Kā nepieciešams** — šo opciju izmanto tikai dāvanu kvītīm. Ja ir nepieciešama dāvanu kvīts un šī opcija ir atlasīta, lietotājs var izdrukāt dāvanu kvīti, izmantojot lapu **Mainīt**.
+
+1. Noklikšķiniet uz **Retail** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS** &gt; **Ieejas plūsmas formāti**.
+2. Lapā **Kvīts formāts** noklikšķiniet uz **Jauns**, lai izveidotu jaunu formas izkārtojumu, vai atlasiet esošu formas izkārtojumu.
+3. Laukā **Kvīts formāts** ievadiet formas izkārtojuma identifikatoru un pēc tam atlasiet šajā izkārtojumā izmantotās kvīts veidu. Laukā **Nosaukums** var arī ievadīt kvīts aprakstu un īsu tās nosaukumu.
+4. Kopsavilkuma cilnē **Vispārīgi** atlasiet opciju, kas definētu drukāšanas režīmu.
+
+    - **Drukāt vienmēr** — kvīts, ja nepieciešams, tiek drukāta automātiski.
+    - **Nedrukāt** — kvīts netiek drukāta.
+    - **Parādīt lietotājam uzvedni** — lietotājam tiek parādīta uzvedne par kvīts drukāšanu.
+    - **Kā nepieciešams** — šo opciju izmanto tikai dāvanu kvītīm. Ja ir nepieciešama dāvanu kvīts un šī opcija ir atlasīta, lietotājs var izdrukāt dāvanu kvīti, izmantojot lapu **Mainīt**.
 
 ## <a name="design-a-receipt-format"></a>Kvīts formāta noformēšana
+
 Izmantojiet formas izkārtojuma noformētāju, lai grafiski izveidotu formas dokumenta izkārtojumu. Lapā **Kvīts formāta dizains** ir trīs sadaļas: **Galvene**, **Rindas** un **Kājene**. Dažos formas izkārtojuma veidos tiek izmantoti elementi no visam trīs sadaļām, bet citos veidos tiek izmantoti tikai vienas vai divu sadaļu elementi. Lai redzētu katrā sadaļā pieejamos elementus, noklikšķiniet uz attiecīgās pogas navigācijas rūtī lapas kreisajā pusē.
 
-1.  Noklikšķiniet uz **Retail** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS** &gt; **Ieejas plūsmas formāti**.
-2.  Lapā **Kvīts formāts** atlasiet formas izkārtojumu un pēc tam noklikšķiniet uz **Veidotājs**.
-3.  Lai uzsāktu mazumtirdzniecības veidotāja resursdatora instalēšanu, noklikšķiniet uz **Palaist**.
-4.  Lai sāktu veidotāja instalēšanu ar vienu klikšķi, pārlūkprogrammas Internet Explorer loga apakšā parādītajā paziņojumu joslā noklikšķiniet uz **Atvērt**. (Citās pārlūkprogrammās paziņojumu josla var tikt rādīta citā vietā.) Norises indikators norāda instalēšanas procesa norisi.
-5.  Kad instalēšana ir pabeigta, ievadiet savu Microsoft Dynamics 365 for Retail lietotājvārdu un paroli un pēc tam noklikšķiniet uz **Pieteikties**, lai palaistu veidotāju.
-6.  Kad jūsu akreditācijas dati ir apstiprināti un veidotājs ir palaists, var sākt kvīts formāta veidošanu vai esošā formāta mainīšanu.
-7.  Lai izveidotu formas elementus, atlasiet sadaļu **Galvene**, **Rindas** vai **Kājene** un pēc tam velciet elementu no šīs sadaļas uz darbvietu. Vairums elementos ir iekļauti mainīgie, kas tiek automātiski aizpildīti ar datiem no datu bāzes. Citi elementi, piemēram, **Teksts**, ļauj jums kvītī drukāt pielāgotu tekstu. **Piezīme.** Var norādīt, cik rindu aizņem katra sadaļa, pielāgojot šīs sadaļas apakšējā labajā stūrī redzamo skaitli. Lai atvieglotu sadaļas modificēšanu, palieliniet tās augstumu, velkot sadaļas apakšdaļā redzamo izmēra maiņas joslu. Sadaļas augstums darbvietā neietekmē faktiskās kvīts rindu skaitu.
-8.  Kad elements ir ievilkts darbvietā, iestatiet šīs daļas rekvizītus lapas apakšā redzamajā rūtī **Objekta dati**. Ievadiet vienu vai vairākus no šiem iestatījumiem:
-    -   **Līdzināt** — iestatiet lauka līdzinājuma metodi **Pa kreisi** vai **Pa labi**.
-    -   **Aizpildīšanas rakstzīme** — norādiet baltstarpas rakstzīmi. Pēc noklusējuma tiek izmantota atstarpe, bet var ievadīt jebkuru rakstzīmi.
-    -   **Prefikss** — ievadiet vērtību, kas ir jāparāda lauka sākumā. Šis iestatījums attiecas tikai uz izkārtojuma sadaļu **Rindas**.
-    -   **Rakstzīmes** — norādiet maksimālo laukā iekļaujamo rakstzīmju skaitu, ja elementā ir iekļauts mainīgais. Ja laukā teksts ir garāks par norādīto rakstzīmju skaitu, šis teksts tiek apcirsts, lai to ietilpinātu laukā.
-    -   **Mainīgais** — šī izvēles rūtiņa tiek atzīmēta automātiski, ja elementā ir iekļauts mainīgais un to nevar pielāgot.
-    -   **Fonta tips** — iestatiet fonta stilu kā **Parasts** vai **Treknraksts**. Treknraksta burti izmanto divreiz vairāk vietas nekā parastie burti. Tāpēc dažas rakstzīmes var tikt apcirstas.
-    -   **Fonta lielums** — iestatiet fonta lielumu kā **Parasts** vai **Liels**. Lielie burti ir divas reizes augstāki nekā parastie burti. Tādēļ, izmantojot lielus burtus, var izraisīt teksta pārklāšanos kvītī.
-    -   **Dzēst** — noklikšķiniet uz šīs pogas, lai atlasīto daļu noņemtu no formas izkārtojuma.
+1. Noklikšķiniet uz **Retail** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS** &gt; **Ieejas plūsmas formāti**.
+2. Lapā **Kvīts formāts** atlasiet formas izkārtojumu un pēc tam noklikšķiniet uz **Veidotājs**.
+3. Lai uzsāktu mazumtirdzniecības veidotāja resursdatora instalēšanu, noklikšķiniet uz **Palaist**.
+4. Lai sāktu veidotāja instalēšanu ar vienu klikšķi, pārlūkprogrammas Internet Explorer loga apakšā parādītajā paziņojumu joslā noklikšķiniet uz **Atvērt**. (Citās pārlūkprogrammās paziņojumu josla var tikt rādīta citā vietā.) Norises indikators norāda instalēšanas procesa norisi.
+5. Kad instalēšana ir pabeigta, ievadiet savu Microsoft Dynamics 365 for Retail lietotājvārdu un paroli un pēc tam noklikšķiniet uz **Pieteikties**, lai palaistu veidotāju.
+6. Kad jūsu akreditācijas dati ir apstiprināti un veidotājs ir palaists, var sākt kvīts formāta veidošanu vai esošā formāta mainīšanu.
+7. Lai izveidotu formas elementus, atlasiet sadaļu **Galvene**, **Rindas** vai **Kājene** un pēc tam velciet elementu no šīs sadaļas uz darbvietu. Vairums elementos ir iekļauti mainīgie, kas tiek automātiski aizpildīti ar datiem no datu bāzes. Citi elementi, piemēram, **Teksts**, ļauj jums kvītī drukāt pielāgotu tekstu.
+
+    > [!NOTE]
+    > Var norādīt, cik rindu aizņem katra sadaļa, pielāgojot šīs sadaļas apakšējā labajā stūrī redzamo skaitli. Lai atvieglotu sadaļas modificēšanu, palieliniet tās augstumu, velkot sadaļas apakšdaļā redzamo izmēra maiņas joslu. Sadaļas augstums darbvietā neietekmē faktiskās kvīts rindu skaitu.
+
+8. Kad elements ir ievilkts darbvietā, iestatiet šīs daļas rekvizītus lapas apakšā redzamajā rūtī **Objekta dati**. Ievadiet vienu vai vairākus no šiem iestatījumiem:
+
+    - **Līdzināt** — iestatiet lauka līdzinājuma metodi **Pa kreisi** vai **Pa labi**.
+    - **Aizpildīšanas rakstzīme** — norādiet baltstarpas rakstzīmi. Pēc noklusējuma tiek izmantota atstarpe, bet var ievadīt jebkuru rakstzīmi.
+    - **Prefikss** — ievadiet vērtību, kas ir jāparāda lauka sākumā. Šis iestatījums attiecas tikai uz izkārtojuma sadaļu **Rindas**.
+    - **Rakstzīmes** — norādiet maksimālo laukā iekļaujamo rakstzīmju skaitu, ja elementā ir iekļauts mainīgais. Ja laukā teksts ir garāks par norādīto rakstzīmju skaitu, šis teksts tiek apcirsts, lai to ietilpinātu laukā.
+    - **Mainīgais** — šī izvēles rūtiņa tiek atzīmēta automātiski, ja elementā ir iekļauts mainīgais un to nevar pielāgot.
+    - **Fonta tips** — iestatiet fonta stilu kā **Parasts** vai **Treknraksts**. Treknraksta burti izmanto divreiz vairāk vietas nekā parastie burti. Tāpēc dažas rakstzīmes var tikt apcirstas.
+    - **Fonta lielums** — iestatiet fonta lielumu kā **Parasts** vai **Liels**. Lielie burti ir divas reizes augstāki nekā parastie burti. Tādēļ, izmantojot lielus burtus, var izraisīt teksta pārklāšanos kvītī.
+    - **Dzēst** — noklikšķiniet uz šīs pogas, lai atlasīto daļu noņemtu no formas izkārtojuma.
 
 ## <a name="assign-receipt-profiles"></a>Kvīšu profilu piešķiršana
+
 Kvīšu profili tiek piešķirti tieši printeriem, izmantojot aparatūras profilu.
 
-1.  Atveriet aparatūras profilu, noklikšķinot uz **Retail** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS profili** &gt; **Aparatūras profils**.
-2.  Atlasiet printeri un pēc tam laukā **Kvīts profils** norādiet kvīts profilu, kas jāizmanto reģistrā.
+1. Atveriet aparatūras profilu, noklikšķinot uz **Retail** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS profili** &gt; **Aparatūras profils**.
+2. Atlasiet printeri un pēc tam laukā **Kvīts profils** norādiet kvīts profilu, kas jāizmanto reģistrā.
 
-**Piezīme.** Ja tiek izmantoti divi printeri, vienu printeri var izmantot, lai izdrukātu standarta 40 sleju termodrukas kvītis. Otro printeri parasti izmanto, lai izdrukātu pilnas lapas kvītis veidus, kuros jāiekļauj papildu informācija. Šie kvīšu veidi iekļauj debitora pasūtījuma kvītis un debitora rēķinus.
-
-
-
+> [!NOTE]
+> Ja tiek izmantoti divi printeri, vienu printeri var izmantot, lai izdrukātu standarta 40 sleju termodrukas kvītis. Otro printeri parasti izmanto, lai izdrukātu pilnas lapas kvītis veidus, kuros jāiekļauj papildu informācija. Šie kvīšu veidi iekļauj debitora pasūtījuma kvītis un debitora rēķinus.
 

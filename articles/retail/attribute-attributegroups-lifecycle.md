@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 918f8555bc3d2e4a79262b428d5c7ba278fa7409
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 08/09/2018
 [!include [banner](includes/banner.md)]
 
 *Atribūti* nodrošina veidu, kā tālāk aprakstīt preci un tās raksturīgās iezīmes, izmantojot lietotāja definētos laukus (piemēram, **Atmiņas lielums**, **Cietā diska apjoms**, **Ir saderīgs ar Energy Star** un tā tālāk). Programmā Microsoft Dynamics 365 for Finance and Operations atribūtus var saistīt ar dažādām mazumtirdzniecības personām, piemēram, preču kategorijām un mazumtirdzniecības kanāliem, un tiem var iestatīt noklusējuma vērtības. Ja preces ir saistītas ar preču kategorijām vai mazumtirdzniecības kanāliem, tās pārmanto atribūtus un noklusējuma vērtības. Noklusējuma vērtības var būt ignorētas individuālas preces līmenī, mazumtirdzniecības kanāla līmenī vai mazumtirdzniecības katalogā.
- 
+
 Piemēram, parastam televizoram var būt tālāk minētie atribūti.
 
 | Kategorija   | Atribūts                | Pieļaujamās vērtības          | Noklusētā vērtība |
@@ -49,8 +49,8 @@ Piemēram, parastam televizoram var būt tālāk minētie atribūti.
 |            | 3D iespējots               | Jā vai Nē                   | Nav            |
 | Plazmas     | Ekspluatācijas temperatūra no      | 32–110 grādiem              | 32            |
 |            | Ekspluatācijas temperatūra līdz        | 32–110 grādiem              | 100           |
-| Projekcijas | Kineskopa garantija | 6, 12, vai 18 mēneši         | 12            |
-|            | Kineskopu skaits    | 1–5                         | 3             |
+| Projekcijas | Kineskopa garantija | 6, 12, vai 18 mēneši         | 12.            |
+|            | \# kineskopu skaits   | 1–5                         | 3             |
 
 ## <a name="attributes-and-attribute-types"></a>Atribūti un to veidi
 
@@ -90,7 +90,7 @@ Atribūti ir balstīti uz *atribūtu veidiem*. Atribūta veids norāda datu veid
 
 Mazumtirdzniecības precēm atribūtu metadatu iestatījumus var ignorēt kanāla līmenī. Šī iespēja tiks apspriestas tālāk šajā tēmā.
 
-Iespējams pamanījāt, ka lapā **Atribūti** ir ietvertas opcijas, kas ir saistītas ar atribūtu metadatiem. Sadaļā **Atribūtu metadati attiecībā uz POS** viena opcija, kam ir nosaukums **Var precizēt**, ietekmē atribūta vērtību izturēšanos mazumtirdzniecības pārdošanas punktā (POS) vai veidu, kā sistēma apstrādā šīs atribūta vērtības. Tikai atribūti, kam opcijai **Var precizēt** var iestatīt vērtību **Jā**, parādīsies precizēšanai vai preču filtrēšanai mazumtirdzniecības POS.
+Iespējams pamanījāt, ka lapā **Atribūti** ir ietvertas opcijas, kas ir saistītas ar atribūtu metadatiem. Sadaļā **Atribūtu metadati attiecībā uz POS** viena opcija, kam ir nosaukums **Var precizēt**, ietekmē atribūta vērtību izturēšanos mazumtirdzniecības pārdošanas punktā (POS) vai veidu, kā sistēma apstrādā šīs atribūta vērtības. Tikai atribūti, kam opcijai **Var precizēt** var iestatīt vērtību **Jā**, parādīsies precizēšanai vai preču filtrēšanai mazumtirdzniecības POS.
 
 Tālāk ir sniegtas pārējās lapā **Atribūti** pieejamās atribūtu metadatu opcijas.
 
@@ -104,7 +104,7 @@ Tālāk ir sniegtas pārējās lapā **Atribūti** pieejamās atribūtu metadatu
 
 Šīs opcijas ir sākotnēji paredzētas, lai uzlabotu tiešsaistes tīmekļa vitrīnas meklēšanas funkcionalitāti. Lai gan Finance and Operations standarta komplektācija nav ietverta tiešsaistes tīmekļa vitrīna, tajā ir ietverts eCommerce publicēšanas programmatūras izstrādes komplekts (SDK). Debitori var izmantot šo SDK produktu ievietošanai vēlamajā meklēšanas indeksā. Lai gan preču dati tika importēti, debitori joprojām var atšķirt meklējamos datus, vaicājumā ietveramos datus utt. Tādā veidā var veidot optimālu indeksu, nodrošinot, ka viņu indekss attiecas tikai uz to, kas, *viņuprāt*, ir jāindeksē.
 
-Informāciju par pārējo opciju mērķi skatiet tēmā [Pārskats par SharePoint Server 2013 meklēšanas shēmu](https://technet.microsoft.com/en-us/library/jj219669.aspx).
+Informāciju par pārējo opciju mērķi skatiet tēmā [Pārskats par SharePoint Server 2013 meklēšanas shēmu](https://technet.microsoft.com/library/jj219669.aspx).
 
 ## <a name="filter-settings-for-attributes"></a>Atribūtu filtra iestatījumi
 
@@ -121,7 +121,7 @@ Lapa **Filtra rādīšanas preferences** ietver šādus laukus:
 - **Rādīšanas vadība** — ir pieejamas tālāk uzskaitītās opcijas.
 
     - **Saraksts** — šī opcija ir pieejama visiem atribūtu veidiem.
-    - **Diapazons** — opcija ir pieejama šādiem atribūtu veidiem: **Valūta**, **Decimāldaļa** un **Vesels skaitlis**. 
+    - **Diapazons** — opcija ir pieejama šādiem atribūtu veidiem: **Valūta**, **Decimāldaļa** un **Vesels skaitlis**.
     - **Slīdnis** — opcija ir pieejama šādiem atribūtu veidiem: **Valūta**, **Decimāldaļa** un **Vesels skaitlis**.
     - **Slīdnis ar joslām** — opcija ir pieejama šādiem atribūtu veidiem: **Valūta**, **Decimāldaļa** un **Vesels skaitlis**.
 
@@ -228,13 +228,13 @@ Preču līmenī var ignorēt atsevišķu preču atribūtu noklusējuma vērtība
 5. Kopsavilkuma cilnē **Preces** atlasiet vajadzīgo preci un pēc tam atlasiet **Atribūti** virs preču režģa.
 6. Tālāk minētajās kopsavilkuma cilnēs atjauniniet nepieciešamo atribūtu vērtības.
 
-   - Koplietotie preces plašsaziņas līdzekļi
-   - Koplietotās preces īpašības
-   - Kanāla plašsaziņas līdzekļi
-   - Kanāla preces īpašības
+    - Koplietotie preces plašsaziņas līdzekļi
+    - Koplietotās preces īpašības
+    - Kanāla plašsaziņas līdzekļi
+    - Kanāla preces īpašības
 
-     > [!NOTE]
-     > Ja Finance and Operations tiek izveidots koplietots preces datu nesējs un koplietotas preces īpašības, tie tiek lietoti visām mazumtirdzniecības precēm.
+    > [!NOTE]
+    > Ja Finance and Operations tiek izveidots koplietots preces datu nesējs un koplietotas preces īpašības, tie tiek lietoti visām mazumtirdzniecības precēm.
 
 ![Kataloga preču īpašību grupas](media/CatalogProdAttrValues.png)
 
@@ -250,11 +250,11 @@ Preču līmenī var ignorēt atsevišķu preču atribūtu noklusējuma vērtība
 
 5. Tālāk minētajās kopsavilkuma cilnēs atjauniniet nepieciešamo atribūtu vērtības.
 
-   - Koplietotie preces plašsaziņas līdzekļi
-   - Koplietotās preces īpašības
-   - Kanāla plašsaziņas līdzekļi
-   - Kanāla preces īpašības
+    - Koplietotie preces plašsaziņas līdzekļi
+    - Koplietotās preces īpašības
+    - Kanāla plašsaziņas līdzekļi
+    - Kanāla preces īpašības
 
-     > [!NOTE]
-     > Ja Finance and Operations tiek izveidots koplietots preces datu nesējs un koplietotas preces īpašības, tie tiek lietoti visām mazumtirdzniecības precēm.
+    > [!NOTE]
+    > Ja Finance and Operations tiek izveidots koplietots preces datu nesējs un koplietotas preces īpašības, tie tiek lietoti visām mazumtirdzniecības precēm.
 

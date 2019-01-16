@@ -3,7 +3,7 @@ title: "Kandidātu piesaiste, izmantojot LinkedIn Recruiter"
 description: "Šajā tēmā ir sniegta informācija par algoritmiskās mācīšanās izmantošanu, lai iegūtu darba un amata kandidātu ieteikumus."
 author: josaw
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc6bf25d303d7d8de8002a923a080b90dcfbeab
-ms.openlocfilehash: 106103e2c3d8f3d89aac5140174e5794da22536f
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: 9bb323728923ff3b09ff0bfba3849f3c5d84eb34
 ms.contentlocale: lv-lv
-ms.lasthandoff: 10/24/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -83,7 +83,12 @@ Kad Attract administrators ir iespējojis LinkedIn Recruiter iespējas, tām var
 
 Varat skatīt kandidāta LinkedIn profilu programmā Attract. Ja lietotāju ATS informācija atbilst LinkedIn informācijai, LinkedIn logrīkā tiek rādīts kandidāta profils.
 
-Lai skatītu profilu, pārejiet uz kandidāta profilu vakances vai potenciālo kandidātu kopas sadaļā. Kandidāta profilā atlasiet cilni **LinkedIn**, lai ielādētu profila logrīku. Izmantojot profila logrīku, norādiet, vai atbilstība ir noteikta pareizi. Ja tā nav, atrodiet pareizo personu. Šajā lapā varat arī saglabāt kandidātu savos LinkedIn Recruiter projektos.
+Lai skatītu profilu, pārejiet uz kandidāta profilu vakances vai potenciālo kandidātu kopas sadaļā. Kandidāta profilā atlasiet cilni **LinkedIn**, lai ielādētu profila logrīku. Šajā lapā varat arī saglabāt kandidātu savos LinkedIn Recruiter projektos.
+1. Ja pakalpojumā LinkedIn ir atrasta atbilstība, pamatojoties uz e-pastu un LinkedIn dalībnieka ID (precīza atbilstība), tiek parādīts kandidāta profils. Lietotājam joprojām ir iespēja saistīt/atsaistīt profilu.
+
+2. Ja pakalpojumā LinkedIn nevar atrast kandidātu, pamatojoties uz e-pastu vai dalībnieka ID, tiek parādīts iespējamo kandidātu atbilstību saraksts pēs kandidāta vārda, un lietotājs var izvēlēties kādu no kandidātiem un saistīt profilu.  
+
+3. Ja pakalpojumā LinkedIn nevar atrast nevienu kandidātu pēc vārda, tiek parādīts paziņojums, ka netika atrasta neviena atbilstība.
 
 ### <a name="1-click-export"></a>Viena klikšķa eksportēšana 
 
@@ -117,11 +122,14 @@ Izmantojot LinkedIn Recruiter, varat izsekot tam, vai kandidāts ir pietiecies c
 
 6.  Atlasiet cilni **Piezīmes**, lai skatītu programmā Attract saglabātās piezīmes par šo kandidātu.
 
+> [!NOTE]
+> Ja kandidāts nav ticis tālāk par potenciālā kandidāta posmu, kandidāta un pieteikuma dati netiek sinhronizēti pakalpojumā LinkedIn Recruiter.
+
 ### <a name="inmail-history"></a>InMail vēsture
 
 LinkedIn InMail vēsture ir pieejama tad, ja ir pieejama līguma līmeņa piekļuve pakalpojumam LinkedIn Recruiter. Ja ir iespējots šis līdzeklis, varat skatīt visu saziņas ar kandidātu InMail vēsturi. Varat arī uzzināt, kas vēl jūsu organizācijā ir sazinājies ar kandidātu, izmantojot InMail, taču nevarat skatīt šīs saziņas ziņojumus.
 
-Lai skatītu InMail vēsturi, pārejiet uz kandidāta profilu, atveriet cilni **LinkedIn** un ritiniet līdz lapas apakšdaļai, kur ir pieejama vēsture. InMail vēsturi varat skatīt tikai tad, ja kandidāts ir atbildējis uz jūsu pieprasījumu un izvēlējies ar jums kopīgot savu profilu pakalpojumā LinkedIn. InMail ziņojumi tiek sinhronizēti ar programmu Attract ik pēc dažām stundām.
+Lai skatītu InMail vēsturi, pārejiet uz kandidāta profilu, atveriet cilni **LinkedIn** un ritiniet līdz lapas apakšdaļai, kur ir pieejama vēsture. InMail vēsturi varat skatīt, ja jums programmā InMail ir bijusi saruna ar kandidātu. InMail ziņojumi tiek sinhronizēti ar programmu Attract ik pēc pāris stundām.
 
 ### <a name="notes-history"></a>Piezīmju vēsture 
 
@@ -131,7 +139,7 @@ Lai skatītu piezīmju vēsturi, pārejiet uz kandidāta profilu, atveriet cilni
 
 ### <a name="inmail-stub-profile"></a>InMail pasakņa profils
 
-InMail pasakņa profils ir pieejams tad, ja ir pieejama līguma līmeņa piekļuve pakalpojumam LinkedIn Recruiter. Ja kandidāti piekrīt kopīgot savu LinkedIn profilu ar jebkuru jūsu organizācijas lietotāju, jūs varat izsekot kandidātus programmā Attract un katram kandidātam tiek izveidots jauns kandidāta ieraksts.
+InMail pasakņa profils ir pieejams tad, ja ir pieejama līguma līmeņa piekļuve pakalpojumam LinkedIn Recruiter. Ja kandidāti piekrīt kopīgot savu LinkedIn profilu ar jebkuru jūsu organizācijas lietotāju, jūs varat izsekot kandidātus programmā Attract un katram kandidātam tiek izveidots jauns kandidāta ieraksts. Kandidāta e-pasta adresi varat skatīt, ja kandidāts ar e-pasta adresi jau ir reģistrēts sistēmā vai ir izvēlējies koplietot adresi ar personāla atlases darbinieku.
 
 Lai skatītu kandidātu sarakstu, pārejiet uz sadaļu **Potenciālo kandidātu kopas**, kurā ir redzama sistēmas izveidota LinkedIn potenciālo kandidātu kopa. Šajā potenciālo kandidātu kopā ir ietverts no LinkedIn saņemtais kandidātu un to pasakņa profilu saraksts, kurā ir redzams kandidāta vārds un uzvārds. Ja kandidāts ir izvēlējies kopīgot savu e-pasta adresi, tiek rādīts kandidāta e-pasta adreses ID.
 

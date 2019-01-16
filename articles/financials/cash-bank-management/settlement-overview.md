@@ -3,7 +3,7 @@ title: "Segšanas pārskats"
 description: "Šajā rakstā ir sniegta vispārīga informācija par nosegšanas procesu. Šeit ir sniegta informācija par nosedzamo transakciju veidiem, kad un kā transakcijas var nosegt un par nosegšanas procesa rezultātiem."
 author: kweekley
 manager: AnnBe
-ms.date: 08/24/2018
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2f1f11a7f1340d408374e658ae616ffa99f3c911
+ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
+ms.openlocfilehash: 9b82c6afa2812344ff8200e227ee8c5f2451584f
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/06/2018
 
 ---
 
@@ -52,5 +52,8 @@ Sedzot darbības, tiek atbilstoši palielināta vai samazināta katras transakci
 
 Ja [maksājuma summa ir mazāka par rēķina summu](../accounts-payable/vendor-payments-partial-amount.md) termiņatlaides, norakstīšanas vai daļējas samaksas dēļ, rēķins un maksājums joprojām var tikt slēgti atkarībā no segšanas iestatījumiem lapās Kreditoru parādu parametri un Debitoru parādu parametri. Segšana var arī izraisīt transakciju ģenerēšanu. Piemēram, rēķina un maksājuma segšana var radīt termiņatlaidi, realizēto peļņu vai zaudējumus, PVN korekcijas, norakstīšanas vai sīknaudas starpības.
 
+
+## <a name="additional-resources"></a>Papildu resursi
+- [Atlikuma nokārtošana](settle-remainder.md)
 
 

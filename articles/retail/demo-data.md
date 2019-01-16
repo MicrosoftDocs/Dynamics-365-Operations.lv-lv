@@ -20,10 +20,10 @@ ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 41930e89a7cae5cdb84e728da47de3bc5de312ca
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 8fe0ea3e7715fcbebc3ed590c85ee399c6192584
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -41,7 +41,7 @@ Pieejamie mazumtirdzniecības demonstrācijas datu ekrāna izkārtojumu paraugi 
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Ekrāna izkārtojuma ID sastāvs
 
-Lai atrastu ekrāna izkārtojumus modulī Mazumtirdzniecība, pārejiet uz sadaļu **Mazumtirdzniecība** > **Kanāla iestatīšana** > **POS iestatīšana** > **POS** > **Ekrāna izkārtojumi**.
+Lai atrastu ekrāna izkārtojumus modulī Retail, pārejiet uz sadaļu **Retail** \> **Kanāla iestatīšana** \> **POS iestatīšana** \> **POS** \> **Ekrāna izkārtojumi**.
 
 ![Lapa Ekrāna izkārtojumi modulī Mazumtirdzniecība](../retail/media/demo-screen-layouts-fig-2-1.png)
 
@@ -107,10 +107,8 @@ Tālāk esošajā tabulā ir norādīti standarta ekrāna izšķirtspējām nodr
 
 \* Šie papildu izkārtojumu lielumi ir pieejami tikai Adventure Works un Fabrikam izkārtojumiem.
 
-
->[!TIP]
-> POS sistēmā tiek automātiski atlasīts izkārtojuma lielums, izvēloties pašreizējās programmas loga ekrāna izšķirtspējai tuvāko pieejamo lielumu. Lai uzzinātu pašlaik izmantotā ekrāna izkārtojuma ID un izšķirtspēju, programmā Retail Modern POS (MPOS) vai Retail Cloud POS (CPOS) atvariet lapu **Iestatījumi** un skatiet sadaļu **Sesijas informācija**. Varat arī skatīt pašreizējās programmas vai pārlūkprogrammas rāmja faktisko loga izšķirtspēju. Kad esat uzzinājis šo informāciju, varat modulī Mazumtirdzniecība skatīt izkārtojuma satura avotu, pārejot uz sadaļu **Kanāla iestatīšana** > **POS iestatīšana** > **POS** > **Ekrāna izkārtojumi**.
-
+> [!TIP]
+> POS sistēmā tiek automātiski atlasīts izkārtojuma lielums, izvēloties pašreizējās programmas loga ekrāna izšķirtspējai tuvāko pieejamo lielumu. Lai uzzinātu pašlaik izmantotā ekrāna izkārtojuma ID un izšķirtspēju, programmā Retail Modern POS (MPOS) vai Retail Cloud POS (CPOS) atvariet lapu **Iestatījumi** un skatiet sadaļu **Sesijas informācija**. Varat arī skatīt pašreizējās programmas vai pārlūkprogrammas rāmja faktisko loga izšķirtspēju. Kad esat uzzinājis šo informāciju, varat modulī Retail skatīt izkārtojuma satura avotu, pārejot uz sadaļu **Kanāla iestatīšana** \> **POS iestatīšana** \> **POS** \> **Ekrāna izkārtojumi**.
 
 ![Ekrāna izkārtojumi un izkārtojumu izšķirtspēja/lielums modulī Mazumtirdzniecība un POS sistēmā](../retail/media/demo-screen-layouts-fig-3-1.png)
 
@@ -126,10 +124,8 @@ Katrs fiktīvais uzņēmums ir paredzēts atšķirīgam mazumtirdzniecības segm
 | Fabrikam        | Hjūstona  | Mode        | Zaļā  | Gaiša |
 | Contoso         | Bostona   | Elektropreces    | Sarkanā    | Tumšs  |
 
-
->[!NOTE]
+> [!NOTE]
 > Adventure Works un Fabrikam ir divi vadošie zīmoli. Ir pieejams arī uzņēmums Contoso, taču tam nav nodrošināti visi izkārtojumi.
-
 
 Tālāk esošajos attēlos ir redzamas trīs fiktīvo uzņēmumu sveiciena lapas un transakciju lapas.
 
@@ -153,28 +149,26 @@ Tālāk esošajos attēlos ir redzamas trīs fiktīvo uzņēmumu sveiciena lapas
 
 Dažādajiem ekrāna izkārtojumiem ir nodrošināti lietotāji. Izmantojot tālāk esošajā tabulā sniegto informāciju, varat piekļūt jebkuram ekrānam. Jums ir tikai jāpierakstās, izmantojot atbilstošu operatora ID.
 
-| Uzņēmums         | Ekrāna izkārtojuma ID | Persona          | Operatora ID           |
-|-----------------|------------------|---------------   |------------------------|
-| Adventure Works | A3MGR            | veikala vadītājs;    | 000154, 000137, 000073 |
-| Adventure Works | A3CSH            | Kasieris          | 000150, 000175, 000165 |
-| Adventure Works | A3STK            | Noliktavas darbinieks      | 000155, 000181, 000152 |
-| Fabrikam        | F3MGR            | veikala vadītājs;    | 000160, 000168, 000163 |
-| Fabrikam        | F3CSH            | Kasieris          | 000161, 000113, 000114 |
-| Fabrikam        | F3STK            | Noliktavas darbinieks      | 000164, 000112, 000123 |
-| Contoso         | C3MGR            | veikala vadītājs;    | 000100, 000111         |
-| Contoso         | C3CSH            | Kasieris          | 000110, 000120         |
-| Contoso         | Nav attiecināms   | Noliktavas darbinieks      | Nav attiecināms         |
+| Uzņēmums         | Ekrāna izkārtojuma ID | Persona       | Operatora ID           |
+|-----------------|------------------|---------------|------------------------|
+| Adventure Works | A3MGR            | veikala vadītājs; | 000154, 000137, 000073 |
+| Adventure Works | A3CSH            | Kasieris       | 000150, 000175, 000165 |
+| Adventure Works | A3STK            | Noliktavas darbinieks   | 000155, 000181, 000152 |
+| Fabrikam        | F3MGR            | veikala vadītājs; | 000160, 000168, 000163 |
+| Fabrikam        | F3CSH            | Kasieris       | 000161, 000113, 000114 |
+| Fabrikam        | F3STK            | Noliktavas darbinieks   | 000164, 000112, 000123 |
+| Contoso         | C3MGR            | veikala vadītājs; | 000100, 000111         |
+| Contoso         | C3CSH            | Kasieris       | 000110, 000120         |
+| Contoso         | Nav attiecināms   | Noliktavas darbinieks   | Nav attiecināms         |
 
-
->[!TIP]
+> [!TIP]
 > Lai nodrošinātu labākos rezultātus, aktivizējiet kases sistēmu attiecīgajā veikala atrašanās vietā un iestatiet tās personas uzņēmumu, ko izmantosiet pēc pierakstīšanās. Tādējādi tiek nodrošināta vizuālā profila un zīmolrades attēlu saskaņotība visā demonstrācijas datu izmantošanas laikā. Piemēram, ja vēlaties skatīt Fabrikam kasierim paredzēto izkārtojumu, aktivizējiet kases sistēmu Hjūstonas veikalā.
-
 
 <!-- Hiding until the content page is available on CustomerSource -->
 
 <!-- ## Reference icons and images -->
 
-<!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail > Channel setup > POS setup > POS > Images**. -->
+<!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail \> Channel setup \> POS setup \> POS \> Images**. -->
 
 <!-- ![Images in Dynamics 365 for Retail](../retail/media/demo-screen-layouts-fig-5-1.png) -->
 

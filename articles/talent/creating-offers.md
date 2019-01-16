@@ -3,7 +3,7 @@ title: "Piedāvājumu izveide, apstiprināšana un parakstīšana"
 description: "Šajā tēmā apskatīta detalizēta informācija, kā izveidot, apstiprināt un parakstīt piedāvājumu kandidātam, izmantojot Dynamics 365 for Talent."
 author: josaw
 manager: AnnBe
-ms.date: 10/19/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: f6b17dca13431a9d674920833b4a44141fac0bd8
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: f189df052ef299a2cca1d92065a7a4d377d25399
 ms.contentlocale: lv-lv
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -104,6 +104,11 @@ Pastāv vairākas darbības, kuras var veikt pirms piedāvājuma nosūtīšanas 
 -  Var norādīt piedāvājuma beigu datumu. Ir paredzēts, ka kandidāti pieņems vai noraidīs piedāvājumu pirms beigu datuma.  Kandidātam tiks nosūtīts atgādinājums 48 stundas pirms piedāvājuma derīguma termiņa beigām.
 
 -  Iespējams, ka vēlēsities iekļaut piedāvājuma pieņemšanas procesā papildu dokumentus. Jums būs iespēja norādīt nepieciešamo dokumentu tipu.
+
+- Elektroniskā paraksta opcija: ja par velamo elektroniskās parakstīšanas metodi tika izvēlēta programma Adobe Sign, piedāvājuma veidotājiem ir jāpievieno Adobe Sign licence. To var izdarīt divos veidos. Dodieties uz cilnes **Piedāvājums** sadaļu Lietotājs **Iestatījumi** un sadaļā **Savienojumi** izvēlieties izveidot savienojumu ar **Adobe Sign**. Vai arī jums tiks lūgts pievienot nosūtīto piedāvājumu kandidāta ekrānam, ja savienojums jau nav ticis izveidots, pamatojoties uz lietotāja iestatījumiem. 
+
+> [!NOTE]
+> Lietotājiem ir jāizveido savienojums ar Adobe Sign kontu tikai vienreiz. Visām viena lietotāja turpmāk nosūtītajām piedāvājumu pakotnēm tiks izmantota viena un tā pati licence. 
 
 -  Nepieciešamības gadījumā var skatīt un rediģēt e-pasta veidni.
 

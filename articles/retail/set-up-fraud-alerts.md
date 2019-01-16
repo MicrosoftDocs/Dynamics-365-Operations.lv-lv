@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 6cca9e5b606f298d000354f6aeb01fbe2c8f2141
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 13b6a18750e79a17c7f6034780922c64b12390e2
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -38,13 +38,13 @@ ms.lasthandoff: 08/09/2018
 
 ## <a name="turning-on-the-fraud-check-feature"></a>Pārkāpumu pārbaudes līdzekļa ieslēgšana
 
-Lai izmantotu pārkāpumu pārbaudes līdzekli, kanāla opcijai **Iespējot pasūtījuma pabeigšanu** ir jāiestata vienums **Jā**, kad zvanu centra kanāls ir [definēts](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/set-up-order-processing-options). Kad ir ieslēgta pasūtījuma pabeigšana, zvanu centra lietotājiem ir jāatlasa vienums **Pabeigt** pārdošanas pasūtījumu lapā visiem izveidotajiem pārdošanas pasūtījumiem. Pabeigšanas darbība atver lapu **Pārdošanas pasūtījumu kopsavilkums**. Pēc tam, kad lietotāji ievada nepieciešamos maksājuma datus lapā **Pārdošanas pasūtījumu kopsavilkums**, viņi atlasa vienumu **Iesniegt**, lai pabeigtu pasūtījumu. Kad pasūtījums ir iesniegts, tiek aktivizēts pārkāpumu pārbaudes līdzeklis, un tiek automātiski pārbaudītas visas sistēmas aktīvās kārtulas.
+Lai izmantotu pārkāpumu pārbaudes līdzekli, kanāla opcijai **Iespējot pasūtījuma pabeigšanu** ir jāiestata vienums **Jā**, kad zvanu centra kanāls ir [definēts](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-order-processing-options). Kad ir ieslēgta pasūtījuma pabeigšana, zvanu centra lietotājiem ir jāatlasa vienums **Pabeigt** pārdošanas pasūtījumu lapā visiem izveidotajiem pārdošanas pasūtījumiem. Pabeigšanas darbība atver lapu **Pārdošanas pasūtījumu kopsavilkums**. Pēc tam, kad lietotāji ievada nepieciešamos maksājuma datus lapā **Pārdošanas pasūtījumu kopsavilkums**, viņi atlasa vienumu **Iesniegt**, lai pabeigtu pasūtījumu. Kad pasūtījums ir iesniegts, tiek aktivizēts pārkāpumu pārbaudes līdzeklis, un tiek automātiski pārbaudītas visas sistēmas aktīvās kārtulas.
 
-Zvanu centra lietotāji var arī manuāli aizturēt pārdošanas pasūtījumus pārkāpumu pārskatīšanai, pirms viņi atlasa vienumu **Iesniegt**. Lai manuāli aizturētu pārdošanas pasūtījumu, lapā **Pārdošanas pasūtījumu kopsavilkums** atlasiet **Aizturēt** \> **Pārkāpuma dēļ manuāli veiktā aizturēšana**. Pēc tam tiek piedāvāts ievadīt komentāru, lai paskaidrotu pasūtījuma aizturēšanas iemeslu. Šis komentārs parādīsies rīkā [Pasūtījumu aizturēšana](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/work-with-order-holds), lai sniegtu kontekstu lietotājam, kurš pārskata aizturētos pasūtījumus, lai noteiktu, vai pasūtījumu var izlaist.
+Zvanu centra lietotāji var arī manuāli aizturēt pārdošanas pasūtījumus pārkāpumu pārskatīšanai, pirms viņi atlasa vienumu **Iesniegt**. Lai manuāli aizturētu pārdošanas pasūtījumu, lapā **Pārdošanas pasūtījumu kopsavilkums** atlasiet **Aizturēt** \> **Pārkāpuma dēļ manuāli veiktā aizturēšana**. Pēc tam tiek piedāvāts ievadīt komentāru, lai paskaidrotu pasūtījuma aizturēšanas iemeslu. Šis komentārs parādīsies rīkā [Pasūtījumu aizturēšana](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds), lai sniegtu kontekstu lietotājam, kurš pārskata aizturētos pasūtījumus, lai noteiktu, vai pasūtījumu var izlaist.
 
 Papildus tam, ka konfigurējat kanāla opciju **Iespējot pasūtījuma pabeigšanu**, ir jākonfigurē pārkāpumu pārbaudes līdzeklis sadaļā Zvanu centra parametri. Dodieties uz **Mazumtirdzniecība** \> **Kanāla iestatīšana** \> **Zvanu centra iestatīšana** \> **Zvanu centra parametri**. Lapas **Zvanu centra parametri** cilnē **Aiztures** iestatiet opcijai **Pārkāpumu pārbaude** vienumu **Jā**.
 
-Cilnē **Aiztures** arī jādefinē [aizturēšanas kodi](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/work-with-order-holds), kuri tiks lietoti pasūtījumam, kas tiek manuāli vai automātiski aizturēts pārkāpuma pārbaudei. Iestatiet aizturēšanas kodus laukos **Pārkāpuma dēļ manuāli veiktās aizturēšanas kods** un **Pārkāpuma dēļ veiktās aizturēšanas kods**. Var būt noderīgi izveidot divus unikālus aizturēšanas kodus, lai lietotāji, kuri strādā ar aizturēšanas rīku, varētu viegli filtrēt un atšķirt automātiskās aiztures no manuālajām aizturēm.
+Cilnē **Aiztures** arī jādefinē [aizturēšanas kodi](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds), kuri tiks lietoti pasūtījumam, kas tiek manuāli vai automātiski aizturēts pārkāpuma pārbaudei. Iestatiet aizturēšanas kodus laukos **Pārkāpuma dēļ manuāli veiktās aizturēšanas kods** un **Pārkāpuma dēļ veiktās aizturēšanas kods**. Var būt noderīgi izveidot divus unikālus aizturēšanas kodus, lai lietotāji, kuri strādā ar aizturēšanas rīku, varētu viegli filtrēt un atšķirt automātiskās aiztures no manuālajām aizturēm.
 
 Lai pārkāpumu pārbaudes līdzeklis darbotos efektīvi, ir jāiestata arī lauks **Minimālais rezultāts**. Katram pārkāpuma kritērijam un kārtulai, kas ir definēti sistēmā, ir noteikts vērtējums. Veicot pārdošanas pasūtījuma pārkāpumu pārbaudi, ja tiek konstatēta viena vai vairāku pārkāpumu atbilstība, vērtējumi tiek saskaitīti, iegūstot pasūtījuma kopējo pārkāpumu rezultātu. Ja pasūtījuma kopējais pārkāpumu rezultāts pārsniedz vērtību laukā **Minimālais rezultāts**, pasūtījums tiek automātiski aizturēts. Pēc izvēles varat lietot citus ar rezultātu saistītos laukus cilnē **Aiztures**, lai definētu e-pasta rezultātu, tālruņa rezultātu, pasta indeksa rezultātu un paplašinātā pasta indeksa rezultātu. Ja nenorādīsit vērtējumu nevienam no minētajiem statiskajiem pārkāpumu kritērijiem, definējot tos lapā **Statiski pārkāpumu dati**, sistēma tos novērtēs, izmantojot noklusējuma vērtējumu, kuru norādāt lapas **Zvanu centra parametri** cilnē **Aiztures**.
 
@@ -68,5 +68,5 @@ Pasūtījums tiek saglabāts, tas tiek atzīmēts ar karodziņu **Neapstrādāt*
 
 Lai skatītu un pārvaldītu pasūtījumus, kas ir aizturēti pārkāpuma pārskatīšanai, dodieties uz **Mazumtirdzniecība** \> **Debitori** \> **Pasūtījumu aizturēšana**. Lapā **Pasūtījumu aizturēšana** atlasiet ierakstu sarakstā un pēc tam noklikšķiniet uz **Pasūtījuma aizturēšana**, lai atvērtu detalizētāku skatu, kurā ietverta informācija par aizturēšanas iemeslu. Kopsavilkuma cilnē **Detalizēta informācija par pārkāpumu** varat skatīt sistemātiskos pārkāpumu kritērijus, kuriem tika noteikta atbilstība attiecīgā pasūtījuma gadījumā, un izmantotos vērtējumus. Ja pasūtījums tika aizturēts manuāli, varat pārskatīt visus komentārus, kurus ievadīja lietotājs, kas aizturēja pasūtījumu, apskatot kopsavilkuma cilnes **Piezīmes** sadaļu **Pārkāpuma piezīmes**.
 
-Lai iegūtu vairāk informācijas par to, kā darboties ar pasūtījumu aizturēšanu, skatiet sadaļu [Pasūtījumu aizturēšana](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/work-with-order-holds).
+Lai iegūtu vairāk informācijas par to, kā darboties ar pasūtījumu aizturēšanu, skatiet sadaļu [Pasūtījumu aizturēšana](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
 

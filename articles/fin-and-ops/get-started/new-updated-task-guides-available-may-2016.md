@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 237ff2935ab8e2dee90bd716179b45c5fca455c3
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: cf12f2dfb62645fc5d6886ef429441c48982d484
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -31,10 +31,12 @@ ms.lasthandoff: 08/09/2018
 
 Šajā rakstā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas ir izlaisti Microsoft APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics AX (2016. gada maija visu valodu laidienā). Netika izlaista neviena jauna darba sākšanas bibliotēka. 
 
-<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics AX (2016. gada maija visu valdu laidienā) ietvertie uzdevumu ceļveži
-------------------------------------------------------------------------------------------------
+## <a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics AX (2016. gada maija visu valdu laidienā) ietvertie uzdevumu ceļveži
 
-APQC vienotajā bibliotēkā (2016. gada maija laidienā) ir ietverti uzdevumu ceļveži, kurus ir paredzēts izmantot kā palīdzības materiālus kopā ar Microsoft Dynamics AX 2016. gada maija atjauninājumu un Microsoft Dynamics AX 2016. gada februāra laidienu. Šajā bibliotēkā ir pieejamas APQC vienotajā bibliotēkā (2016. gada februāra laidienā) izlaisto uzdevumu ceļvežu lokalizētās versijas. Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Darba sākšana ar palīdzības sistēmu](help-overview.md). <strong>Piezīme.</strong> Zvaigznīte (<strong>\</strong>*) pie biznesa procesu modelētāja (BPM) rindas norāda, ka uzdevumu ceļvedis šim biznesa procesam tika izveidots Dynamics AX 2016. gada atjauninājumam un netiek atbalstīts agrākās Microsoft Dynamics AX versijās.
+APQC vienotajā bibliotēkā (2016. gada maija laidienā) ir ietverti uzdevumu ceļveži, kurus ir paredzēts izmantot kā palīdzības materiālus kopā ar Microsoft Dynamics AX 2016. gada maija atjauninājumu un Microsoft Dynamics AX 2016. gada februāra laidienu. Šajā bibliotēkā ir pieejamas APQC vienotajā bibliotēkā (2016. gada februāra laidienā) izlaisto uzdevumu ceļvežu lokalizētās versijas. Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Darba sākšana ar palīdzības sistēmu](help-overview.md).
+
+> [!NOTE]
+> Zvaigznīte (\*) blakus biznesa procesa modelētāja (BPM) rindai norāda, ka šī biznesa procesa uzdevuma ceļvedis ir izveidots Dynamics AX 2016. gada maija atjauninājumam un netiek atbalstīts iepriekšējās Microsoft Dynamics AX versijās.
 
 ### <a name="countryregion-functionality"></a>Valsts/reģiona funkcionalitāte
 
@@ -62,15 +64,15 @@ APQC vienotajā bibliotēkā (2016. gada maija laidienā) ir ietverti uzdevumu
 
 ### <a name="electronic-reporting"></a>Elektroniskie pārskati
 
-|                                  BPM rinda                                  | Valsts/reģions |
+| BPM rinda                                                                   | Valsts/reģions |
 |----------------------------------------------------------------------------|----------------|
-|                         ER Konfigurēt adresātus                          |     Globālais     |
-|     ER Izveidot konfigurāciju atskaišu ģenerēšanai formātā OPENXML     |     Globālais     |
-| ER Ģenerēt elektroniskos dokumentus maksājumiem, izmantojot formātu konfigurāciju |     Globāls     |
-|             ER Importēt konfigurāciju no Lifecycle Services              |     Globāls     |
-|               <strong>\</strong>*ER Pakalpojumu sniedzēja atlasīšana                |     Globāls     |
-|   ER Jaunināt savu formātu, pieņemot šī formāta jaunu bāzes versiju    |     Globālais     |
-|             ER Augšupielādēt konfigurāciju pakalpojumos Lifecycle Services              |     Globālais     |
+| ER Konfigurēt adresātus                                                  | Globālais         |
+| ER Izveidot konfigurāciju atskaišu ģenerēšanai formātā OPENXML         | Globālais         |
+| ER Ģenerēt elektroniskos dokumentus maksājumiem, izmantojot formātu konfigurāciju | Globāls         |
+| ER Importēt konfigurāciju no Lifecycle Services                          | Globāls         |
+| \*ER pakalpojumu sniedzēja atlasīšana                                               | Globāls         |
+| ER Jaunināt savu formātu, pieņemot šī formāta jaunu bāzes versiju      | Globālais         |
+| ER Augšupielādēt konfigurāciju pakalpojumos Lifecycle Services                          | Globālais         |
 
 ### <a name="human-capital-management"></a>Cilvēkkapitāla pārvaldība
 
@@ -176,25 +178,21 @@ APQC vienotajā bibliotēkā (2016. gada maija laidienā) ir ietverti uzdevumu
 
 ### <a name="warehouse-and-transportation"></a>Noliktava un transportēšana
 
-|                                     BPM rinda                                     | Valsts/reģions |
-|----------------------------------------------------------------------------------|----------------|
-|                            Kopuma apstrādes konfigurēšana                             |     Globāls     |
-| <strong>\</strong>*Reģistrēt kā pabeigtu novietojumā, kas nav atkarīgs no numura zīmes |     Globālais     |
-|                      Iestatīt min.-maks. papildināšanas procesu                      |     Globālais     |
-|                             Konteinerizēšanas iestatīšana                              |     Globālais     |
-|                              Iestatīt manuālu iepakošanu                               |     Globāls     |
-|                  Transportēšanas ierobežojumu iestatīšana krājumam                   |     Globāls     |
-|                <strong>\</strong>*Noliktavas darba politiku iestatīšana                 |     Globāls     |
+|                                     BPM rinda                    | Valsts/reģions |
+|-----------------------------------------------------------------|----------------|
+| Konfigurēt kopuma apstrādi                                       | Globāls         |
+| \*Ziņot kā pabeigtu novietojumā, kas nav atkarīgs no numura zīmes | Globālais         |
+| Iestatīt min.-maks. papildināšanas procesu                          | Globālais         |
+| Konteinerizēšanas iestatīšana                                         | Globālais         |
+| Iestatīt manuālu iepakošanu                                           | Globāls         |
+| Transportēšanas ierobežojumu iestatīšana krājumam                   | Globālais         |
+| \*Noliktavas darba politiku iestatīšana                                | Globālais         |
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 [Jauni uzdevumu ceļveži (2016. gada februāris)](new-task-guides-available-february-2016.md)
 
 [Jauni vai atjaunināti uzdevumu ceļveži (2016. gada augusts)](new-updated-task-guides-available-august-2016.md)
 
 [Jauni vai atjaunināti uzdevumu ceļveži (2016. gada novembris)](new-task-guides-november-2016.md)
-
-
-
 
