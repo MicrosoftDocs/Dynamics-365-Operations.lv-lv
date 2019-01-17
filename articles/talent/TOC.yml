@@ -7,7 +7,11 @@
         - name: Jaunumi un izmaiņas
           href: whats-new.md
           items:
-            - name: "Jaunumi un izmaiņas programmā Dynamics\_365 for Talent Core HR (2018.\_gada 27. novembris)"
+            - name: "Jaunumi un izmaiņas programmā Dynamics\_365 for Talent Core HR (2018.\_gada 14.\_decembris)"
+              href: whats-new-talent-december-14.md
+            - name: "Jaunumi un izmaiņas programmā Dynamics\_365 for Talent Core HR (2018.\_gada 6.\_decembris)"
+              href: whats-new-talent-december-6.md
+            - name: "Jaunumi un izmaiņas programmā Dynamics\_365 for Talent Core HR (2018.\_gada 27.\_novembris)"
               href: whats-new-talent-november-27.md
             - name: "Jaunumi un izmaiņas programmā Dynamics\_365 for Talent Core HR (2018.\_gada 15. novembris)"
               href: whats-new-talent-november-15.md
@@ -68,9 +72,11 @@
           href: formalize-business-processes.md
         - name: 'Darbplūsmu izmantošana, lai pārvaldītu informāciju par darbiniekiem'
           href: workflow-manage-employee-information.md
-    - name: ​Atvaļinājumu un kavējumu pārvaldība
+    - name: Atvaļinājumu un kavējumu pārvaldība
       href: leave-absence-overview.md
       items:
+        - name: Atvaļinājumu un kavējumu koncepcijas
+          href: leave-absence-concepts.md
         - name: 'Brīvā laika uzkrāšana, pamatojoties uz nostrādātajām stundām'
           href: leave-accrue-hours-worked.md
         - name: Darba laika kalendāri
@@ -128,10 +134,13 @@
         - name: Apmācību kursu iestatīšana
           href: courses.md
     - name: Atvieglojumu programmas definēšana un pārvaldība
-      href: manage-benefit-program.md
-    - name: Atvieglojumu piemērojamības ierobežojumi
-      href: benefit-eligibility-policies.md
       items:
+        - name: Atvieglojumu programmas pārvaldība
+          href: manage-benefit-program.md
+        - name: Atvieglojumu piemērojamības politikas
+          href: benefit-eligibility-policies.md
+        - name: Pieejamās aprūpes akta (ACA) pārskatu ģenerēšana
+          href: generate-aca-reports.md
         - name: Nodarbinātajiem aizdotu krājumu pārvaldīšana
           href: loan-items.md
     - name: 'Informācijas vākšana, izmantojot anketas'
@@ -274,10 +283,8 @@
           href: analytic-reports-not-updated.md
         - name: Nevar izveidot vidi PowerApps administrēšanas centrā
           href: create-envi-powerapps-admin-ctr.md
-        - name: Talent klients atvienojas
+        - name: Talent klienta atvienošanās
           href: client-disconnects.md
-        - name: Datu bāzes dublējumu apstrādes veids
-          href: database-backups.md
         - name: Izvairīšanās no teksta saīsināšanas amatu hierarhijā un eksportēšana uz Visio
           href: avoid-text-truncation-position-hierarchy-visio.md
         - name: Atlīdzības procesa palaišana

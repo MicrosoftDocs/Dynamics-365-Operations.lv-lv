@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: eeb56ec9697447ebd2385f3a0a516fcc9dc1bd3e
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 87384bae08e3fa78ef3deb3830583b16b9d9d6ac
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -29,104 +29,87 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir norādīti uzdevumu ceļveži, kas tika izlaisti Microsoft BMP bibliotēkās 2016. gada februārī.  Publicēto bibliotēku klāstā ietilpst (2016. gada februāra) APQC vienotā bibliotēka programmatūrai Microsoft Dynamics AX un (2016. gada februāra) Darba sākšana.
+Šajā tēmā ir norādīti uzdevumu ceļveži, kas tika izlaisti Microsoft BMP bibliotēkās 2016. gada februārī. Publicēto bibliotēku klāstā ietilpst (2016. gada februāra) APQC vienotā bibliotēka programmatūrai Microsoft Dynamics AX un (2016. gada februāra) Darba sākšana.
 
-<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Uzdevumu ceļveži (2016. gada februāra) APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics AX
----------------------------------------------------------------------------------
+## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Uzdevumu ceļveži (2016. gada februāra) APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics AX
 
 (2016. gada februāra) APQC vienotajā bibliotēkā ir iekļauti uzdevumu ceļveži, kurus ir paredzēts lietot laidiena Dynamics AX 7.0.0 palīdzībai. Ja jums ir nepieciešamas šo ceļvežu lokalizētās versijas, tās ir pieejamas (2016. gada maija) APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics AX. Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Darba sākšana ar palīdzības sistēmu](help-overview.md).
 
 ### <a name="accounts-payable"></a>Kreditoru parādi
 
-|                                                           |                    |
-|-----------------------------------------------------------|--------------------|
-| **BPM rinda**                                              | **Valsts/reģions** |
-| Galvenie rēķinu dati kreditoru sistēmā, izmantojot kreditora rēķinu        | Globālais             |
-| Galvenie rēķinu dati kreditoru sistēmā, izmantojot rēķinu žurnālu     | Globālais             |
-| Galvenie rēķinu dati kreditoru sistēmā, izmantojot rēķinu kopu        | Globālais             |
-| Galvenie rēķinu dati kreditoru sistēmā, izmantojot rēķinu reģistru    | Globālais             |
-| Kreditora rēķina reģistrēšana un atbilstības pārbaude pret saņemto daudzumu | Globālais             |
-| Iestatīt kreditoru rēķinu salīdzināšanas pārbaudi       | Globālais             |
-| Iestatīt kreditoru rēķinu ierobežojumus                            | Globālais             |
+| BPM rinda                                                  | Valsts/reģions |
+|-----------------------------------------------------------|----------------|
+| Galvenie rēķinu dati kreditoru sistēmā, izmantojot kreditora rēķinu        | Globālais         |
+| Galvenie rēķinu dati kreditoru sistēmā, izmantojot rēķinu žurnālu     | Globālais         |
+| Galvenie rēķinu dati kreditoru sistēmā, izmantojot rēķinu kopu        | Globālais         |
+| Galvenie rēķinu dati kreditoru sistēmā, izmantojot rēķinu reģistru    | Globālais         |
+| Kreditora rēķina reģistrēšana un atbilstības pārbaude pret saņemto daudzumu | Globālais         |
+| Iestatīt kreditoru rēķinu salīdzināšanas pārbaudi       | Globālais         |
+| Iestatīt kreditoru rēķinu ierobežojumus                            | Globālais         |
 
-
- 
 ### <a name="accounts-receivable"></a>Debitoru parādi
 
-|                                                             |                    |
-|-------------------------------------------------------------|--------------------|
-| **BPM rinda**                                                | **Valsts/reģions** |
-| Piešķirt debitoram periodisku brīva teksta rēķina veidni | Globālais             |
-| Atgādinājuma vēstuļu secības izveidošana                         | Globālais             |
-| Tiešā debeta pilnvarojuma izveide debitoram                | Globālais             |
-| Izveidot brīva teksta rēķina veidni                         | Globālais             |
-| Debitora norakstīšanas žurnāla izveide                   | Globālais             |
-| Procentu koda ar diapazonu izveidošana                        | Globālais             |
-| Izveidot un apstrādāt brīvā teksta rēķinus                       | Globālais             |
-| Pārdošanas pasūtījuma rēķinu izveide                                 | Globālais             |
-| Periodisku brīva teksta rēķinu ģenerēšana un grāmatošana              | Globālais             |
-| Atgādinājuma vēstuļu apstrāde                                  | Globālais             |
-| Procentu apstrāde                                            | Globālais             |
-| Iekasēšanas informācijas pārskatīšana                              | Globālais             |
-| Debitoru vecumstruktūras informācijas iestatīšana un ģenerēšana   | Globālais             |
+| BPM rinda                                                    | Valsts/reģions |
+|-------------------------------------------------------------|----------------|
+| Piešķirt debitoram periodisku brīva teksta rēķina veidni | Globālais         |
+| Atgādinājuma vēstuļu secības izveidošana                         | Globālais         |
+| Tiešā debeta pilnvarojuma izveide debitoram                | Globālais         |
+| Izveidot brīva teksta rēķina veidni                         | Globālais         |
+| Debitora norakstīšanas žurnāla izveide                   | Globālais         |
+| Procentu koda ar diapazonu izveidošana                        | Globālais         |
+| Izveidot un apstrādāt brīvā teksta rēķinus                       | Globālais         |
+| Pārdošanas pasūtījuma rēķinu izveide                                 | Globālais         |
+| Periodisku brīva teksta rēķinu ģenerēšana un grāmatošana              | Globālais         |
+| Atgādinājuma vēstuļu apstrāde                                  | Globālais         |
+| Procentu apstrāde                                            | Globālais         |
+| Iekasēšanas informācijas pārskatīšana                              | Globālais         |
+| Debitoru parādu vecumstruktūras informācijas iestatīšana un ģenerēšana   | Globālais         |
 
-
- 
 ### <a name="cash-and-bank-management"></a>Kases un bankas vadība
 
-|                                                                      |                    |
-|----------------------------------------------------------------------|--------------------|
-| **BPM rinda**                                                         | **Valsts/reģions** |
-| Izveidot bankas iestādes līgumu akreditīvam                | Globālais             |
-| Izveidot bankas iestādes līgumu garantijas vēstulei             | Globālais             |
-| Debitoru maksājumu pārskats                                           | Globālais             |
-| Kreditora maksājumu papildmaksu definēšana                                           | Globālais             |
-| Kreditora maksājuma nosacījumu definēšana                                          | Globālais             |
-| Debitora maksājumu depozīts                                            | Globālais             |
-| Debitoru maksāšanas metodes noteikšana                                 | Globālais             |
-| Debitoru maksājumu papildu maksas noteikšana                                      | Globālais             |
-| Debitoru maksājumu nosacījumu noteikšana                                     | Globālais             |
-| Kredītvēstules eksportēšana                                              | Globālais             |
-| Importa akreditatīvs                                              | Globālais             |
-| Garantijas vēstules transakcija                                      | Globālais             |
-| Ar iepriekšēju datumu datētu čeku reģistrēšana un grāmatošana debitoram                   | Globālais             |
-| Reģistrēt un grāmatot čeku kreditoram, kas datēts ar iepriekšēju datumu                     | Globālais             |
-| Bankas iestāžu iestatīšana un akreditīva grāmatošanas profili     | Globālais             |
-| Bankas iestāžu iestatīšana un garantijas vēstuļu grāmatošanas profili | Globālais             |
-| Iestatīt ar iepriekšēju datumu datētus čekus                                              | Globālais             |
-| Segt kreditora rēķinu, kas datēts ar iepriekšēju datumu                                | Globālais             |
-| Nomaksāt ar iepriekšēju datumu datētu čeku no debitora                             | Globālais             |
-| Kreditora maksājumu pārskats                                              | Globālais             |
+| BPM rinda                                                             | Valsts/reģions |
+|----------------------------------------------------------------------|----------------|
+| Izveidot bankas iestādes līgumu akreditīvam                | Globālais         |
+| Izveidot bankas iestādes līgumu garantijas vēstulei             | Globālais         |
+| Debitoru maksājumu pārskats                                           | Globālais         |
+| Kreditora maksājumu papildmaksu definēšana                                           | Globālais         |
+| Kreditora maksājuma nosacījumu definēšana                                          | Globālais         |
+| Debitora maksājumu depozīts                                            | Globālais         |
+| Debitoru maksāšanas metodes noteikšana                                 | Globālais         |
+| Debitoru maksājumu papildu maksas noteikšana                                      | Globālais         |
+| Debitoru maksājumu nosacījumu noteikšana                                     | Globālais         |
+| Kredītvēstules eksportēšana                                              | Globālais         |
+| Importa akreditatīvs                                              | Globālais         |
+| Garantijas vēstules transakcija                                      | Globālais         |
+| Ar iepriekšēju datumu datētu čeku reģistrēšana un grāmatošana debitoram                   | Globālais         |
+| Reģistrēt un grāmatot čeku kreditoram, kas datēts ar iepriekšēju datumu                     | Globālais         |
+| Bankas iestāžu iestatīšana un akreditīva grāmatošanas profili     | Globālais         |
+| Bankas iestāžu iestatīšana un garantijas vēstuļu grāmatošanas profili | Globālais         |
+| Iestatīt ar iepriekšēju datumu datētus čekus                                              | Globālais         |
+| Segt kreditora rēķinu, kas datēts ar iepriekšēju datumu                                | Globālais         |
+| Ar iepriekšēju datumu datētu čeku no debitora apmaksa                             | Globālais         |
+| Kreditoru maksājumu apskats                                              | Globālais         |
 
-
- 
 ### <a name="compliance"></a>Atbilstība
 
-|                                            |                    |
-|--------------------------------------------|--------------------|
-| **BPM rinda**                               | **Valsts/reģions** |
-| Definēt pirmdokumentu audita politikas | Globālais             |
+| BPM rinda                                   | Valsts/reģions |
+|--------------------------------------------|----------------|
+| Pirmdokumentu audita ierobežojuma nosacījumu definēšana | Globālais         |
 
-
- 
 ### <a name="cost-management"></a>Izmaksu pārvaldība
 
-|                                                                     |                    |
-|---------------------------------------------------------------------|--------------------|
-| **BPM rinda**                                                        | **Valsts/reģions** |
-| Salīdzināt ražošanas pasūtījuma aktīvās, prognozētās un faktiskās izmaksas | Globālais             |
-| Izmaksu ierakstu skatīšana izmaksu objektam                                 | Globālais             |
-| Izmaksu objekta bilances skatīšana                                            | Globālais             |
-| Pašreizējā WIP statusa skatīšana ražošanas pasūtījumā                       | Globālais             |
-| Inventarizācijas akta un KPI skatīšana pēc izmaksu objekta                     | Globālais             |
+| BPM rinda                                                            | Valsts/reģions |
+|---------------------------------------------------------------------|----------------|
+| Ražošanas pasūtījuma aktīvo, prognozēto un faktisko izmaksu salīdzināšana | Globālais         |
+| Izmaksu ierakstu skatīšana izmaksu objektam                                 | Globālais         |
+| Izmaksu objekta bilances skatīšana                                            | Globālais         |
+| Pašreizējā WIP statusa skatīšana ražošanas pasūtījumā                       | Globālais         |
+| Inventarizācijas akta un KPI skatīšana pēc izmaksu objekta                     | Globālais         |
 
-
- 
 ### <a name="countryregion-functionality"></a>Valsts/reģiona funkcionalitāte
 
-|                                                                                                        |                                 |
+| BPM rinda                                                                                               | Valsts/reģions                  |
 |--------------------------------------------------------------------------------------------------------|---------------------------------|
-| **BPM rinda**                                                                                           | **Valsts/reģions**              |
 | Pievienot SDP pārskatu lodziņus un ģenerēt Austrālijas saimnieciskās darbības pārskatu SDP                        | Austrālija un Jaunzēlande       |
 | Austrālijas BAS iemeslu kodu iestatīšana                                                                  | Austrālija un Jaunzēlande       |
 | Piešķirt maksājuma kvīts formātu debitora kontam                                                     | Dānija                         |
@@ -262,472 +245,406 @@ ms.lasthandoff: 08/09/2018
 | GB-00009 Izveidot kredīta notu par seguma atlaidi                                               | Apvienotā Karaliste                  |
 | GB-00009 Iestatīt kredīta notas parametrus par savlaicīga maksājuma atlaidi                                   | Apvienotā Karaliste                  |
 
-
- 
 ### <a name="develop-vision-and-strategy"></a>Vīzijas un stratēģijas izstrāde
 
-|                                                                                          |                    |
-|------------------------------------------------------------------------------------------|--------------------|
-| **BPM rinda**                                                                             | **Valsts/reģions** |
-| Anketas rezultātu analīze                                                            | Globālais             |
-| Izveidot slēgto jautājumu                                                           | Globālais             |
-| Izveidot atvērtu jautājumu                                                            | Globālais             |
-| Norādīt jautājumu par atkarīgu no iepriekšējā jautājuma atbildes (nosacījuma jautājumi) | Globālais             |
-| Anketas novērtēšana, pamatojoties uz procentiem                                                   | Globālais             |
+| BPM rinda                                                                                 | Valsts/reģions |
+|------------------------------------------------------------------------------------------|----------------|
+| Anketas rezultātu analīze                                                            | Globālais         |
+| Slēgta jautājuma izveide                                                           | Globālais         |
+| Izveidot atvērtu jautājumu                                                            | Globālais         |
+| Norādīt jautājumu par atkarīgu no iepriekšējā jautājuma atbildes (nosacījuma jautājumi) | Globālais         |
+| Anketas novērtēšana, pamatojoties uz procentiem                                                   | Globālais         |
 
-
- 
 ### <a name="electronic-reporting"></a>Elektroniskie pārskati
 
-|                                                 |                    |
-|-------------------------------------------------|--------------------|
-| **BPM rinda**                                    | **Valsts/reģions** |
-| ER modeļa kartēšanas definēšana un datu avotu atlasīšana | Globālais             |
-| ER domēnam specifiska datu modeļa izveide            | Globālais             |
-| ER domēnam specifiska formāta izveide                | Globālais             |
-| ER datu modeļa kartēšana ar izvēlētajiem datu avotiem      | Globālais             |
-| ER pakalpojumu sniedzēja atlasīšana                      | Globālais             |
+| BPM rinda                                        | Valsts/reģions |
+|-------------------------------------------------|----------------|
+| ER modeļa kartēšanas definēšana un datu avotu atlasīšana | Globālais         |
+| ER domēnam specifiska datu modeļa izveide            | Globālais         |
+| ER domēnam specifiska formāta izveide                | Globālais         |
+| ER datu modeļa kartēšana ar izvēlētajiem datu avotiem      | Globālais         |
+| ER pakalpojumu sniedzēja atlasīšana                      | Globālais         |
 
-
- 
 ### <a name="expense-management"></a>Izdevumu pārvaldība
 
-|                              |                    |
-|------------------------------|--------------------|
-| **BPM rinda**                 | **Valsts/reģions** |
-| Izdevumu pārvaldības konfigurēšana | Globālais             |
+| BPM rinda                     | Valsts/reģions |
+|------------------------------|----------------|
+| Izdevumu pārvaldības konfigurēšana | Globālais         |
 
-
- 
 ### <a name="fixed-assets"></a>Pamatlīdzekļi
 
-|                                                           |                    |
-|-----------------------------------------------------------|--------------------|
-| **BPM rinda**                                              | **Valsts/reģions** |
-| Nolietojuma konvenciju maiņa vairākiem pamatlīdzekļiem | Globālais             |
-| Izveidot pamatlīdzekli                                      | Globālais             |
-| Līdzekļu izveide un iegūšana no kreditoriem           | Globālais             |
-| Izveidot nolietojuma priekšlikumu                              | Globālais             |
-| Pamatlīdzekļa izslēgšana, izmantojot brīvā teksta rēķinu        | Globālais             |
-| Pamatlīdzekļu papildinājuma ievadīšana                        | Globālais             |
-| Pamatlīdzekļa iegādes priekšlikums                          | Globālais             |
-| Nolietojuma profilu iestatīšana un izveide                   | Globālais             |
-| Prēmijas nolietojuma iestatīšana                                 | Globālais             |
-| Nolietojuma grāmatu iestatīšana                                 | Globālais             |
-| Iestatīt pamatlīdzekļu grupas                                 | Globālais             |
-| Pamatlīdzekļa grāmatošanas profilu iestatīšana                       | Globālais             |
-| Vērtības modeļu iestatīšana                                       | Globālais             |
-| Pamatlīdzekļa sadalīšana                                       | Globālais             |
-| Pamatlīdzekļa pārsūtīšana                                    | Globālais             |
+| BPM rinda                                                  | Valsts/reģions |
+|-----------------------------------------------------------|----------------|
+| Nolietojuma konvenciju maiņa vairākiem pamatlīdzekļiem | Globālais         |
+| Izveidot pamatlīdzekli                                      | Globālais         |
+| Līdzekļu izveide un iegūšana no kreditoriem           | Globālais         |
+| Izveidot nolietojuma priekšlikumu                              | Globālais         |
+| Pamatlīdzekļa izslēgšana, izmantojot brīvā teksta rēķinu        | Globālais         |
+| Pamatlīdzekļu papildinājuma ievadīšana                        | Globālais         |
+| Pamatlīdzekļa iegādes priekšlikums                          | Globālais         |
+| Nolietojuma profilu iestatīšana un izveide                   | Globālais         |
+| Prēmijas nolietojuma iestatīšana                                 | Globālais         |
+| Nolietojuma grāmatu iestatīšana                                 | Globālais         |
+| Iestatīt pamatlīdzekļu grupas                                 | Globālais         |
+| Pamatlīdzekļa grāmatošanas profilu iestatīšana                       | Globālais         |
+| Vērtības modeļu iestatīšana                                       | Globālais         |
+| Pamatlīdzekļa sadalīšana                                       | Globālais         |
+| Pamatlīdzekļa pārsūtīšana                                    | Globālais         |
 
-
- 
 ### <a name="general-ledger"></a>Virsgrāmata
 
-|                                                                   |                    |
-|-------------------------------------------------------------------|--------------------|
-| **BPM rinda**                                                      | **Valsts/reģions** |
-| Slēgt finanšu gadu                                             | Globālais             |
-| Izveidot žurnāla ierakstu, lietojot veidni                           | Globālais             |
-| Izveidot galveno kontu                                             | Globālais             |
-| Izveidot konta struktūras                                         | Globālais             |
-| Uzkrāšanas shēmu izveide                                            | Globālais             |
-| Izveidot žurnālu papildu kārtulas                                | Globālais             |
-| Detalizēto kārtulu struktūru izveide un piešķiršana                        | Globālais             |
-| Izveidot un validēt žurnālus                                      | Globālais             |
-| Izveidot konsolidācijas grupas un papildu konsolidācijas kontus | Globālais             |
-| Virsgrāmatas uzkrājumu darbību izveide                                | Globālais             |
-| Finanšu dimensiju definēšana                                       | Globālais             |
-| Žurnālā grāmatoto ierakstu reģistrēšana žurnālā                                 | Globālais             |
-| Uzturēt finanšu dimensijas noklusējuma veidnes                    | Globālais             |
-| Masveida finanšu perioda slēgšana                                       | Globālais             |
-| Tiešsaistes konsolidācijas veikšana                                   | Globālais             |
-| Periodu žurnālu grāmatošana                                            | Globālais             |
-| Juridiskas personas sagatavošana izmantošanai konsolidācijas procesā       | Globālais             |
-| Korekcijas transakciju apstrāde                                  | Globālais             |
-| Virsgrāmatas sadalījuma žurnāla apstrāde                                 | Globālais             |
-| Iestatīt virsgrāmatas konta aizstājvārdu                                     | Globālais             |
-| Korekcijas noteikumu iestatīšana                                          | Globālais             |
-| Iestatīt galvenā konta kategorijas                                    | Globālais             |
-| Darbību segšana starp Virsgrāmatas kontiem                       | Globālais             |
-| Žurnāla ierakstu vai transakciju skatīšana                              | Globālais             |
-| Saistītā starpuzņēmuma dokumenta skatīšana no žurnāla                    | Globālais             |
+| BPM rinda                                                          | Valsts/reģions |
+|-------------------------------------------------------------------|----------------|
+| Finanšu gada slēgšana                                             | Globālais         |
+| Izveidot žurnāla ierakstu, lietojot veidni                           | Globālais         |
+| Izveidot galveno kontu                                             | Globālais         |
+| Izveidot konta struktūras                                         | Globālais         |
+| Uzkrāšanas shēmu izveide                                            | Globālais         |
+| Izveidot žurnālu papildu kārtulas                                | Globālais         |
+| Detalizēto kārtulu struktūru izveide un piešķiršana                        | Globālais         |
+| Izveidot un validēt žurnālus                                      | Globālais         |
+| Izveidot konsolidācijas grupas un papildu konsolidācijas kontus | Globālais         |
+| Virsgrāmatas uzkrājumu darbību izveide                                | Globālais         |
+| Finanšu dimensiju definēšana                                       | Globālais         |
+| Žurnālā grāmatoto ierakstu reģistrēšana žurnālā                                 | Globālais         |
+| Uzturēt finanšu dimensijas noklusējuma veidnes                    | Globālais         |
+| Masveida finanšu perioda slēgšana                                       | Globālais         |
+| Tiešsaistes konsolidācijas veikšana                                   | Globālais         |
+| Periodu žurnālu grāmatošana                                            | Globālais         |
+| Juridiskas personas sagatavošana izmantošanai konsolidācijas procesā       | Globālais         |
+| Korekcijas transakciju apstrāde                                  | Globālais         |
+| Virsgrāmatas sadalījuma žurnāla apstrāde                                 | Globālais         |
+| Iestatīt virsgrāmatas konta aizstājvārdu                                     | Globālais         |
+| Korekcijas noteikumu iestatīšana                                          | Globālais         |
+| Iestatīt galvenā konta kategorijas                                    | Globālais         |
+| Darbību segšana starp Virsgrāmatas kontiem                       | Globālais         |
+| Žurnāla ierakstu vai transakciju skatīšana                              | Globālais         |
+| Saistītā starpuzņēmuma dokumenta skatīšana no žurnāla                    | Globālais         |
 
-
- 
 ### <a name="human-capital-management"></a>Cilvēkkapitāla pārvaldība
 
-|                                                                  |                    |
-|------------------------------------------------------------------|--------------------|
-| **BPM rinda**                                                     | **Valsts/reģions** |
-| Anketas rezultātu analīze                                    | Globālais             |
-| Pieteikumu iesūtnes ierakstu apstiprināšana                                | Globālais             |
-| Atvieglojumu piemērojamības process                                      | Globālais             |
-| Masveida darbā pieņemšanas projekta izveide                                       | Globālais             |
-| Izveidot patapinājuma priekšmetus                                                | Globālais             |
-| Definēt atvieglojumu piemērotības nosacījumus un ierobežojumus                    | Globālais             |
-| Definēt atlīdzības procesu un aprēķināt rezultātus                | Globālais             |
-| Definēt jaunas nodaļas                                           | Globālais             |
-| Definēt jaunus darbus                                                  | Globālais             |
-| Darbinieku atvieglojumu programmas nodrošināšana                                | Globālais             |
-| Darba pieprasījuma izstrāde un atvēršana                                 | Globālais             |
-| Pēctecības plāna izstrāde                                          | Globālais             |
-| Nodarbinātības pārbaudes i9 pārbaude                          | Globālais             |
-| Atvieglojumu reģistrēšana un noņemšana darbiniekam                          | Globālais             |
-| Darbinieku reģistrēšana fiksētās atlīdzības plānā                    | Globālais             |
-| Darbinieku reģistrēšana mainīgās atlīdzības plānā                 | Globālais             |
-| Kandidāta un pieteikuma datu manuāla ievade                    | Globālais             |
-| Darbinieku informācijas ievade                                         | Globālais             |
-| Pieņemt darbā esošu kandidātu, izmantojot personāla atlasi                    | Globālais             |
-| Kandidāta pieņemšana darbā, izmantojot personāla atlasi                                | Globālais             |
-| Vairāku darbinieku pieņemšana darbā                                          | Globālais             |
-| Kandidātu izvēles rīku noteikšana un ieviešana                    | Globālais             |
-| Priekšmeta patapinājums darbiniekam                                            | Globālais             |
-| Darbinieku savainojumu un slimību informācijas uzturēšana                 | Globālais             |
-| Jautājuma izveide par atkarīgu no iepriekšējā jautājuma atbildes | Globālais             |
-| Atvieglojumu piemērošanas beigu datumu pārvaldība                                  | Globālais             |
-| E-pasta veidņu pārvaldība                                           | Globālais             |
-| Darbinieku pārejas un pārsūtījumu pārvaldība                        | Globālais             |
-| Atvaļinājuma pārvaldība                                          | Globālais             |
-| Darbinieku izvietošanas pārvaldība                                     | Globālais             |
-| Amata pārskatu attiecību modificēšana                    | Globālais             |
-| Atlīdzības režģu iestatīšana                                        | Globālais             |
-| Iestatīt savainojumu un slimību informāciju                            | Globālais             |
-| Iestatīt savainojumu un slimību informāciju                            | Globālais             |
-| Atvieglojumu piemērojamības ierobežojumu iestatīšana                             | Globālais             |
-| i9 dokumentu veidu iestatīšana                                     | Globālais             |
+| BPM rinda                                                         | Valsts/reģions |
+|------------------------------------------------------------------|----------------|
+| Anketas rezultātu analīze                                    | Globālais         |
+| Pieteikumu iesūtnes ierakstu apstiprināšana                                | Globālais         |
+| Atvieglojumu piemērojamības process                                      | Globālais         |
+| Masveida darbā pieņemšanas projekta izveide                                       | Globālais         |
+| Izveidot patapinājuma priekšmetus                                                | Globālais         |
+| Definēt atvieglojumu piemērotības nosacījumus un ierobežojumus                    | Globālais         |
+| Definēt atlīdzības procesu un aprēķināt rezultātus                | Globālais         |
+| Definēt jaunas nodaļas                                           | Globālais         |
+| Definēt jaunus darbus                                                  | Globālais         |
+| Darbinieku atvieglojumu programmas nodrošināšana                                | Globālais         |
+| Darba pieprasījuma izstrāde un atvēršana                                 | Globālais         |
+| Pēctecības plāna izstrāde                                          | Globālais         |
+| Nodarbinātības pārbaudes i9 pārbaude                          | Globālais         |
+| Atvieglojumu reģistrēšana un noņemšana darbiniekam                          | Globālais         |
+| Darbinieku reģistrēšana fiksētās atlīdzības plānā                    | Globālais         |
+| Darbinieku reģistrēšana mainīgās atlīdzības plānā                 | Globālais         |
+| Kandidāta un pieteikuma datu manuāla ievade                    | Globālais         |
+| Darbinieku informācijas ievade                                         | Globālais         |
+| Pieņemt darbā esošu kandidātu, izmantojot personāla atlasi                    | Globālais         |
+| Kandidāta pieņemšana darbā, izmantojot personāla atlasi                                | Globālais         |
+| Vairāku darbinieku pieņemšana darbā                                          | Globālais         |
+| Kandidātu izvēles rīku noteikšana un ieviešana                    | Globālais         |
+| Priekšmeta patapinājums darbiniekam                                            | Globālais         |
+| Darbinieku savainojumu un slimību informācijas uzturēšana                 | Globālais         |
+| Jautājuma izveide par atkarīgu no iepriekšējā jautājuma atbildes | Globālais         |
+| Atvieglojumu piemērošanas beigu datumu pārvaldība                                  | Globālais         |
+| E-pasta veidņu pārvaldība                                           | Globālais         |
+| Darbinieku pārejas un pārsūtījumu pārvaldība                        | Globālais         |
+| Atvaļinājuma pārvaldība                                          | Globālais         |
+| Darbinieku izvietošanas pārvaldība                                     | Globālais         |
+| Amata pārskatu attiecību modificēšana                    | Globālais         |
+| Atlīdzības režģu iestatīšana                                        | Globālais         |
+| Iestatīt savainojumu un slimību informāciju                            | Globālais         |
+| Iestatīt savainojumu un slimību informāciju                            | Globālais         |
+| Atvieglojumu piemērojamības ierobežojumu iestatīšana                             | Globālais         |
+| i9 dokumentu veidu iestatīšana                                     | Globālais         |
 
-
- 
 ### <a name="inventory-management"></a>Krājumu vadība
 
-|                                                                                   |                    |
-|-----------------------------------------------------------------------------------|--------------------|
-| **BPM rinda**                                                                      | **Valsts/reģions** |
-| Krājumu līmeņu korekcija noliktavā                                              | Globālais             |
-| Krājumu pieejamības pārbaude                                                   | Globālais             |
-| Labot krājumu izsekošanas informāciju                                            | Globālais             |
-| Krājumu inventarizācija noliktavā                                                    | Globālais             |
-| Jauna noliktavas izkārtojuma izveidošana                                                     | Globālais             |
-| Krājuma bloķēšanas izveide un uzturēšana                                         | Globālais             |
-| Izveidot un apstrādāt neatbilstību                                              | Globālais             |
-| Krājumu inventarizācijas procesu definēšana                                               | Globālais             |
-| Krājumu līmeņu inicializēšana noliktavā                                          | Globālais             |
-| Preču kvalitātes pārbaude                                                      | Globālais             |
-| Svītrkodu veidu uzturēšana                                                            | Globālais             |
-| Krājumu reģistrēšana pamata noliktavā aktivizētam krājumam, izmantojot krājumu saņemšanas žurnālu | Globālais             |
-| Saņemšanas pārskata profilu iestatīšana                                                  | Globālais             |
-| Kvalitātes pasūtījumu iestatīšana                                                             | Globālais             |
-| Izsekojiet krājumu vai izejmateriālu                                                     | Globālais             |
-| Fizisko krājumu pārsūtīšana noliktavā                                  | Globālais             |
+| BPM rinda                                                                          | Valsts/reģions |
+|-----------------------------------------------------------------------------------|----------------|
+| Krājumu līmeņu korekcija noliktavā                                              | Globālais         |
+| Krājumu pieejamības pārbaude                                                   | Globālais         |
+| Labot krājumu izsekošanas informāciju                                            | Globālais         |
+| Krājumu inventarizācija noliktavā                                                    | Globālais         |
+| Jauna noliktavas izkārtojuma izveidošana                                                     | Globālais         |
+| Krājuma bloķēšanas izveide un uzturēšana                                         | Globālais         |
+| Izveidot un apstrādāt neatbilstību                                              | Globālais         |
+| Krājumu inventarizācijas procesu definēšana                                               | Globālais         |
+| Krājumu līmeņu inicializēšana noliktavā                                          | Globālais         |
+| Preču kvalitātes pārbaude                                                      | Globālais         |
+| Svītrkodu veidu uzturēšana                                                            | Globālais         |
+| Krājumu reģistrēšana pamata noliktavā aktivizētam krājumam, izmantojot krājumu saņemšanas žurnālu | Globālais         |
+| Saņemšanas pārskata profilu iestatīšana                                                  | Globālais         |
+| Kvalitātes pasūtījumu iestatīšana                                                             | Globālais         |
+| Izsekojiet krājumu vai izejmateriālu                                                     | Globālais         |
+| Fizisko krājumu pārsūtīšana noliktavā                                  | Globālais         |
 
-
- 
 ### <a name="manufacturing"></a>Ražošana
 
-|                                                               |                    |
-|---------------------------------------------------------------|--------------------|
-| **BPM rinda**                                                  | **Valsts/reģions** |
-| Kanban daudzuma aprēķināšanas politikas pievienošana Kanban nosacījumam     | Globālais             |
-| Partijas pasūtījuma dzīves cikls no izveidošanas līdz sākšanai                    | Globālais             |
-| Aprēķināt Kanban daudzuma ieteikumus                         | Globālais             |
-| Mainīt Kanban nosacījumus procesa darbam                         | Globālais             |
-| Konfigurēt darbinieku, izmantojot mobilo darba ierīci                | Globālais             |
-| Formulas kopēšana                                                | Globālais             |
-| Izveidot formulu, kopējot no esošas formulas          | Globālais             |
-| Ražošanas plūsmas versijas izveide                              | Globālais             |
-| Izveidojiet ražošanas pasūtījumu.                                     | Globālais             |
-| Izveidot pārdošanas notikuma Kanban nosacījumu                              | Globālais             |
-| Izveidot vērtību plūsmu                                         | Globālais             |
-| Izveidot aktivitāšu relāciju: Pēctecīga aktivitāte                           | Globālais             |
-| Izveidot operācijas resursus                                 | Globālais             |
-| Izveidot fiksēta daudzuma Kanban nosacījumus                            | Globālais             |
-| Izveidot jaunus Kanban nosacījumus, dublējot esošus Kanban nosacījumus  | Globālais             |
-| Izveidot lean manufacturing procesa aktivitātes              | Globālais             |
-| Resursu iespēju izveide                                  | Globālais             |
-| Izveidot lean manufacturing pārsūtīšanas aktivitātes             | Globālais             |
-| Darba laika plānošanas rekvizītu veidošana                     | Globālais             |
-| Darba laika veidņu izveide                                 | Globālais             |
-| Definēt kalendārus un darba krājumus                            | Globālais             |
-| Definēt atsevišķu ražošanas resursu grupu                  | Globālais             |
-| Lean manufacturing darba šūnu definēšana                          | Globālais             |
-| Definēt racionālās plānošanas grupas                                   | Globālais             |
-| Definēt ražošanas plūsmas modeļus                                 | Globālais             |
-| Definēt resursu iespējas                                  | Globālais             |
-| Laika un apmeklētības algas procesu iespējošana                | Globālais             |
-| Pabeidziet ražošanas pasūtījumu.                                        | Globālais             |
-| Ražošanas pasūtījuma novērtējums                                   | Globālais             |
-| Racionālā piesaiste no pārdošanas pasūtījumiem                                | Globālais             |
-| Mērvienību pārvaldība                                        | Globālais             |
-| Pārvietot plānotus Kanban darbus                                    | Globālais             |
-| Sagatavot procesa Kanban darbu, kad materiāli ir pieejami     | Globālais             |
-| Sagatavot procesa Kanban darbu, kad materiāli nav pieejami | Globālais             |
-| Ražošanas pasūtījuma izdošana                                    | Globālais             |
-| Noņemt Kanban darbu no grafika                         | Globālais             |
-| Ražošanas pasūtījumu kā pabeigtu reģistrēšana                         | Globālais             |
-| Pārskata sniegšana par attīstību mobilajā darba ierīcē                        | Globālais             |
-| Atjaunot Kanban darba statusu                                      | Globālais             |
-| Veiciet ražošanas pasūtījuma plānošanu.                                   | Globālais             |
-| Plānot Kanban darbus                                          | Globālais             |
-| Izveidojiet ražošanas pasūtījumu.                                      | Globālais             |
-| Pārsūtīt materiālu ar Kanban darbiem                            | Globālais             |
-| Ražošanas plūsmas un versijas validācija                          | Globālais             |
+| BPM rinda                                                      | Valsts/reģions |
+|---------------------------------------------------------------|----------------|
+| Kanban daudzuma aprēķināšanas ierobežojuma pievienošana Kanban kārtulai     | Globālais         |
+| Partijas pasūtījuma dzīves cikls no izveidošanas līdz sākšanai                    | Globālais         |
+| Aprēķināt Kanban daudzuma ieteikumus                         | Globālais         |
+| Mainīt Kanban nosacījumus procesa darbam                         | Globālais         |
+| Konfigurēt darbinieku, izmantojot mobilo darba ierīci                | Globālais         |
+| Formulas kopēšana                                                | Globālais         |
+| Izveidot formulu, kopējot no esošas formulas          | Globālais         |
+| Ražošanas plūsmas versijas izveide                              | Globālais         |
+| Izveidojiet ražošanas pasūtījumu.                                     | Globālais         |
+| Izveidot pārdošanas notikuma Kanban nosacījumu                              | Globālais         |
+| Izveidot vērtību plūsmu                                         | Globālais         |
+| Izveidot aktivitāšu relāciju: Pēctecīga aktivitāte                           | Globālais         |
+| Izveidot operācijas resursus                                 | Globālais         |
+| Izveidot fiksēta daudzuma Kanban nosacījumus                            | Globālais         |
+| Izveidot jaunus Kanban nosacījumus, dublējot esošus Kanban nosacījumus  | Globālais         |
+| Izveidot lean manufacturing procesa aktivitātes              | Globālais         |
+| Resursu iespēju izveide                                  | Globālais         |
+| Izveidot lean manufacturing pārsūtīšanas aktivitātes             | Globālais         |
+| Darba laika plānošanas rekvizītu veidošana                     | Globālais         |
+| Darba laika veidņu izveide                                 | Globālais         |
+| Definēt kalendārus un darba krājumus                            | Globālais         |
+| Definēt atsevišķu ražošanas resursu grupu                  | Globālais         |
+| Lean manufacturing darba šūnu definēšana                          | Globālais         |
+| Definēt racionālās plānošanas grupas                                   | Globālais         |
+| Definēt ražošanas plūsmas modeļus                                 | Globālais         |
+| Definēt resursu iespējas                                  | Globālais         |
+| Laika un apmeklētības algas procesu iespējošana                | Globālais         |
+| Pabeidziet ražošanas pasūtījumu.                                        | Globālais         |
+| Ražošanas pasūtījuma novērtējums                                   | Globālais         |
+| Racionālā piesaiste no pārdošanas pasūtījumiem                                | Globālais         |
+| Mērvienību pārvaldība                                        | Globālais         |
+| Pārvietot plānotus Kanban darbus                                    | Globālais         |
+| Sagatavot procesa Kanban darbu, kad materiāli ir pieejami     | Globālais         |
+| Sagatavot procesa Kanban darbu, kad materiāli nav pieejami | Globālais         |
+| Ražošanas pasūtījuma izdošana                                    | Globālais         |
+| Noņemt Kanban darbu no grafika                         | Globālais         |
+| Ražošanas pasūtījumu kā pabeigtu reģistrēšana                         | Globālais         |
+| Pārskata sniegšana par attīstību mobilajā darba ierīcē                        | Globālais         |
+| Atjaunot Kanban darba statusu                                      | Globālais         |
+| Veiciet ražošanas pasūtījuma plānošanu.                                   | Globālais         |
+| Plānot Kanban darbus                                          | Globālais         |
+| Izveidojiet ražošanas pasūtījumu.                                      | Globālais         |
+| Pārsūtīt materiālu ar Kanban darbiem                            | Globālais         |
+| Ražošanas plūsmas un versijas validācija                          | Globālais         |
 
-
- 
 ### <a name="master-planning"></a>Vispārējā plānošana
 
-|                                                   |                    |
-|---------------------------------------------------|--------------------|
-| **BPM rinda**                                      | **Valsts/reģions** |
-| Krājumu vajadzības kārtulu definēšana                   | Globālais             |
-| Bāzlīnijas prognozes izstrāde                         | Globālais             |
-| Ierobežotā plāna izveide                       | Globālais             |
-| Kritiski svarīgo materiālu un piegādātāja noslodzes noteikšana | Globālais             |
-| Pieprasījuma prognozes manuāla modificēšana                 | Globālais             |
+| BPM rinda                                          | Valsts/reģions |
+|---------------------------------------------------|----------------|
+| Krājumu vajadzības kārtulu definēšana                   | Globālais         |
+| Bāzlīnijas prognozes izstrāde                         | Globālais         |
+| Ierobežotā plāna izveide                       | Globālais         |
+| Kritiski svarīgo materiālu un piegādātāja noslodzes noteikšana | Globālais         |
+| Pieprasījuma prognozes manuāla modificēšana                 | Globālais         |
 
-
- 
 ### <a name="organization-administration"></a>Organizācijas administrēšana
 
-|                                           |                    |
-|-------------------------------------------|--------------------|
-| **BPM rinda**                              | **Valsts/reģions** |
-| Reklāmkaroga vai logotipa maiņa                 | Globālais             |
-| Adrešu grāmatu konfigurēšana                   | Globālais             |
-| Globālās adrešu grāmatas konfigurēšana         | Globālais             |
-| Pārvaldības struktūrvienības izveide                  | Globālais             |
-| Elektronisko parakstu iestatīšana              | Globālais             |
-| Numuru sēriju iestatīšana, izmantojot vedni | Globālais             |
+| BPM rinda                                  | Valsts/reģions |
+|-------------------------------------------|----------------|
+| Reklāmkaroga vai logotipa maiņa                 | Globālais         |
+| Adrešu grāmatu konfigurēšana                   | Globālais         |
+| Globālās adrešu grāmatas konfigurēšana         | Globālais         |
+| Pārvaldības struktūrvienības izveide                  | Globālais         |
+| Elektronisko parakstu iestatīšana              | Globālais         |
+| Numuru sēriju iestatīšana, izmantojot vedni | Globālais         |
 
-
- 
 ### <a name="planning"></a>Plānošana
 
-|                        |                    |
-|------------------------|--------------------|
-| **BPM rinda**           | **Valsts/reģions** |
-| Pieejamības noteikšana | Globālais             |
+| BPM rinda               | Valsts/reģions |
+|------------------------|----------------|
+| Pieejamības noteikšana | Globālais         |
 
-
- 
 ### <a name="procurement-and-sourcing"></a>Sagāde un avoti
 
-|                                                                  |                    |
-|------------------------------------------------------------------|--------------------|
-| **BPM rinda**                                                     | **Valsts/reģions** |
-| Pirkšanas līguma izveide                                      | Globālais             |
-| Pirkšanas izpildpasūtījumu izveide no pirkšanas līguma        | Globālais             |
-| Pirkšanas izpildpasūtījumu izveide, veidojot pirkšanas pasūtījumu | Globālais             |
-| Patēriņa pieprasījuma izveide                             | Globālais             |
-| Piegādātāja konta izveidošana                                          | Globālais             |
-| Kreditoru meklēšana                                               | Globālais             |
-| Sagādes kategoriju hierarhijas iestatīšana                          | Globālais             |
+| BPM rinda                                                         | Valsts/reģions |
+|------------------------------------------------------------------|----------------|
+| Pirkšanas līguma izveide                                      | Globālais         |
+| Pirkšanas izpildpasūtījuma izveide no pirkšanas līguma        | Globālais         |
+| Pirkšanas izpildpasūtījumu izveide, veidojot pirkšanas pasūtījumu | Globālais         |
+| Patēriņa pieprasījuma izveide                             | Globālais         |
+| Piegādātāja konta izveidošana                                          | Globālais         |
+| Kreditoru meklēšana                                               | Globālais         |
+| Sagādes kategoriju hierarhijas iestatīšana                          | Globālais         |
 
-
- 
 ### <a name="product-information-and-configuration"></a>Preces informācija un konfigurācija
 
-|                                                       |                    |
-|-------------------------------------------------------|--------------------|
-| **BPM rinda**                                          | **Valsts/reģions** |
-| Pievienot aprēķinu preces konfigurācijas modelim    | Globālais             |
-| Apstiprināt preces konfigurācijas modeli                 | Globālais             |
-| Izpildīt izlaistas preces šablona pamata iestatīšanu | Globāls             |
-| Uz ..\financial-dimensions\dimension-based preces šablona izveide               | Globāls             |
-| Izveidot preču klasifikācijas hierarhiju          | Globālais             |
-| Izveidot preces konfigurācijas modeli                  | Globālais             |
-| Izveidot preces šablonu                               | Globālais             |
-| Izteiksmes ierobežojuma izveide                       | Globālais             |
-| Izveidot preces partijas atribūtus                 | Globālais             |
-| Konfigurācijas noteikumu izveidošana                            | Globālais             |
-| Izveidot preču modeļa komponentus                       | Globālais             |
-| Definēt konfigurācijas grupas                           | Globālais             |
-| Definēt konfigurācijas maršrutu                            | Globālais             |
-| Preces konfigurācijas modeļa MK uzturēšana        | Globālais             |
-| Preces modeļa maršruta uzturēšana                    | Globāls             |
-| Izlaisto preču pārvaldība                              | Globāls             |
-| Uz ..\financial-dimensions\dimension-based preces šablona izlaide              | Globāls             |
-| Datu pārsūtīšana par preču modeļiem                      | Globālais             |
+| BPM rinda                                                           | Valsts/reģions |
+|--------------------------------------------------------------------|----------------|
+| Aprēķina pievienošana preces konfigurācijas modelim                 | Globālais         |
+| Apstiprināt preces konfigurācijas modeli                              | Globālais         |
+| Izpildīt izlaistas preces šablona pamata iestatīšanu              | Globālais         |
+| Uz dimensijas \\financial-dimensions\\ balstīta preces šablona izveide  | Globālais         |
+| Preču klasifikācijas hierarhijas izveide                       | Globālais         |
+| Izveidot preces konfigurācijas modeli                               | Globālais         |
+| Izveidot preces šablonu                                            | Globālais         |
+| Izteiksmes ierobežojuma izveide                                    | Globālais         |
+| Izveidot preces partijas atribūtus                              | Globālais         |
+| Konfigurācijas noteikumu izveidošana                                         | Globālais         |
+| Izveidot preču modeļa komponentus                                    | Globālais         |
+| Definēt konfigurācijas grupas                                        | Globālais         |
+| Definēt konfigurācijas maršrutu                                         | Globālais         |
+| Preces konfigurācijas modeļa MK uzturēšana                     | Globālais         |
+| Preces modeļa maršruta uzturēšana                                 | Globālais         |
+| Izlaisto preču pārvaldība                                           | Globālais         |
+| Uz dimensijas \\financial-dimensions\\ balstīta preces šablona izlaide | Globālais         |
+| Datu pārsūtīšana par preču modeļiem                                   | Globālais         |
 
-
- 
 ### <a name="public-sector"></a>Publiskais sektors
 
-|                                                                                         |                    |
-|-----------------------------------------------------------------------------------------|--------------------|
-| **BPM rinda**                                                                            | **Valsts/reģions** |
-| Pievienot sertifikācijas veidu publiskā sektora kreditoram                                  | Globālais             |
-| Kontrolēt piekļuvi publiskā sektora pirkšanas līgumiem                                 | Globālais             |
-| Izveidot publiskā sektora rēķinu klasificēšanu                                       | Globālais             |
-| Izveidot publiskā sektora norēķinu kodu                                                 | Globālais             |
-| Izveidot saistības, lai rezervētu publiskā sektora budžeta līdzekļus                           | Globālais             |
-| Izveidot pielāgotu lauku publiskā sektora norēķinu kodam                              | Globālais             |
-| Izveidot publiskā sektora līdzekļu veidu                                                    | Globālais             |
-| Izveidot publiskā sektora vienreizējo kreditoru un rēķinu                                  | Globālais             |
-| Izveidot publiskā sektora provizorisko budžetu                                           | Globālais             |
-| Izveidot publiskā sektora kreditora sertifikācijas veidu                                    | Globālais             |
-| Izveidot papildu virsgrāmatas ierakstu publiskajam sektoram                                       | Globālais             |
-| Izveidot sākotnējo budžetu un pēc tam apgriezt publiskā sektora provizoriskā budžeta ierakstus | Globālais             |
-| Izveidot un piešķirt publiskā sektora tirdzniecības partnera kodu                              | Globālais             |
-| Izveidot titullapu un parakstu lapas publiskā sektora maksājumu atskaitēm                 | Globālais             |
-| Importēt un izveidot vairākus vienreizējos kreditorus un rēķinus publiskajam sektoram              | Globālais             |
-| Iestatīt atvasinātu finanšu hierarhiju publiskajam sektoram                                  | Globālais             |
-| Iestatīt līdzekļus publiskajam sektoram                                                         | Globālais             |
-| Pirkšanas līgumu klasifikācijas iestatīšana sabiedriskajā sektorā                             | Globālais             |
+| BPM rinda                                                                                | Valsts/reģions |
+|-----------------------------------------------------------------------------------------|----------------|
+| Pievienot sertifikācijas veidu publiskā sektora kreditoram                                  | Globālais         |
+| Kontrolēt piekļuvi publiskā sektora pirkšanas līgumiem                                 | Globālais         |
+| Izveidot publiskā sektora rēķinu klasificēšanu                                       | Globālais         |
+| Izveidot publiskā sektora norēķinu kodu                                                 | Globālais         |
+| Izveidot saistības, lai rezervētu publiskā sektora budžeta līdzekļus                           | Globālais         |
+| Izveidot pielāgotu lauku publiskā sektora norēķinu kodam                              | Globālais         |
+| Izveidot publiskā sektora līdzekļu veidu                                                    | Globālais         |
+| Izveidot publiskā sektora vienreizējo kreditoru un rēķinu                                  | Globālais         |
+| Izveidot publiskā sektora provizorisko budžetu                                           | Globālais         |
+| Izveidot publiskā sektora kreditora sertifikācijas veidu                                    | Globālais         |
+| Izveidot papildu virsgrāmatas ierakstu publiskajam sektoram                                       | Globālais         |
+| Izveidot sākotnējo budžetu un pēc tam apgriezt publiskā sektora provizoriskā budžeta ierakstus | Globālais         |
+| Izveidot un piešķirt publiskā sektora tirdzniecības partnera kodu                              | Globālais         |
+| Izveidot titullapu un parakstu lapas publiskā sektora maksājumu atskaitēm                 | Globālais         |
+| Importēt un izveidot vairākus vienreizējos kreditorus un rēķinus publiskajam sektoram              | Globālais         |
+| Iestatīt atvasinātu finanšu hierarhiju publiskajam sektoram                                  | Globālais         |
+| Iestatīt līdzekļus publiskajam sektoram                                                         | Globālais         |
+| Pirkšanas līgumu klasifikācijas iestatīšana sabiedriskajā sektorā                             | Globālais         |
 
-
- 
 ### <a name="retail-and-commerce"></a>Mazumtirdzniecība un komercija
 
-|                                                                                           |                    |
-|-------------------------------------------------------------------------------------------|--------------------|
-| **BPM rinda**                                                                              | **Valsts/reģions** |
-| Pievienot variantu preces pirkšanas pasūtījumam, izmantojot variantu svaru                              | Globālais             |
-| Bāzes cena un tirdzniecības līgumi                                                           | Globālais             |
-| Kategorijas cenu noteikšanas noteikumi, lai izveidotu tirdzniecības līgumus                                         | Globālais             |
-| Konfigurēt un palaist darbu, lai aprēķinātu pārskatus                                             | Globālais             |
-| Konfigurēt un palaist darbu, lai grāmatotu pārskatus                                                  | Globālais             |
-| Konfigurēt kredītkartes apstrādi                                                          | Globālais             |
-| Saistīto preču konfigurēšana                                                                 | Globālais             |
-| Izveidot POS vizuālo profilu                                                               | Globālais             |
-| Izveidot preci                                                                          | Globālais             |
-| Izveidot preces šablonu                                                                   | Globālais             |
-| Izveidot un saistīt ierīci                                                             | Globālais             |
-| Izveidot un saistīt aparatūras staciju                                                   | Globālais             |
-| Izveidot POS reģistru finanšu dimensijas un konfigurēt dimensiju vērtības reģistros | Globālais             |
-| Izveidot mazumtirdzniecības kanālu finanšu dimensijas un konfigurēt dimensiju vērtības veikalos  | Globālais             |
-| Izveidot tiešsaistes kanālu un definēt kanāla atribūtus                                       | Globālais             |
-| Izveidot POS atļauju grupas                                                              | Globālais             |
-| Izveidot preču iepakojumus un izmantot pirkšanas pasūtījumā                                         | Globālais             |
-| Definēt zvanu centra kanālu un kanāla atribūtus                                         | Globālais             |
-| Definēt kanāla atribūtus                                                                 | Globālais             |
-| Lojalitātes programmu definēšana                                                                   | Globālais             |
-| Lojalitātes programmas atlīdzības punktu definēšana                                                              | Globālais             |
-| Lojalitātes programmas shēmu definēšana                                                                    | Globālais             |
-| Organizācijas struktūrvienību attiecību izstrāde                                     | Globālais             |
-| Ārpus zonu pārskatu ģenerēšana un palaišana                                                       | Globālais             |
-| Tirdzniecības atlaižu debitoriem pārvaldība                                                      | Globālais             |
-| Mazumtirdzniecības izrakstu konfigurācijas parametri                                            | Globālais             |
-| Mazumtirdzniecības izrakstu konfigurācijas maksājums                                              | Globālais             |
-| Pašapkalpošanās veikšana, lai lejupielādētu aparatūras staciju                                         | Globālais             |
-| Tiešsaistes pārdošanas un maksājumu grāmatošana                                                      | Globālais             |
-| Lojalitātes programmas atlīdzības punktu korekciju apstrāde                                                  | Globālais             |
-| Preču virzīšana no sadales centra uz veikalu, izmantojot sagādes sadali                        | Globālais             |
-| Preces / preces šablona izlaišana juridiskajām personām                                        | Globālais             |
-| Mazumtirdzniecības cenu korekcijas                                                                  | Globālais             |
-| Mazumtirdzniecības izrakstu konfigurācijas uzglabāšana                                                | Globālais             |
+| BPM rinda                                                                                  | Valsts/reģions |
+|-------------------------------------------------------------------------------------------|----------------|
+| Pievienot variantu preces pirkšanas pasūtījumam, izmantojot variantu svaru                              | Globālais         |
+| Bāzes cena un tirdzniecības līgumi                                                           | Globālais         |
+| Kategorijas cenu noteikšanas noteikumi, lai izveidotu tirdzniecības līgumus                                         | Globālais         |
+| Konfigurēt un palaist darbu, lai aprēķinātu pārskatus                                             | Globālais         |
+| Konfigurēt un palaist darbu, lai grāmatotu pārskatus                                                  | Globālais         |
+| Konfigurēt kredītkartes apstrādi                                                          | Globālais         |
+| Saistīto preču konfigurēšana                                                                 | Globālais         |
+| Izveidot POS vizuālo profilu                                                               | Globālais         |
+| Izveidot preci                                                                          | Globālais         |
+| Izveidot preces šablonu                                                                   | Globālais         |
+| Izveidot un saistīt ierīci                                                             | Globālais         |
+| Izveidot un saistīt aparatūras staciju                                                   | Globālais         |
+| Izveidot POS reģistru finanšu dimensijas un konfigurēt dimensiju vērtības reģistros | Globālais         |
+| Izveidot mazumtirdzniecības kanālu finanšu dimensijas un konfigurēt dimensiju vērtības veikalos  | Globālais         |
+| Izveidot tiešsaistes kanālu un definēt kanāla atribūtus                                       | Globālais         |
+| Izveidot POS atļauju grupas                                                              | Globālais         |
+| Izveidot preču iepakojumus un izmantot pirkšanas pasūtījumā                                         | Globālais         |
+| Definēt zvanu centra kanālu un kanāla atribūtus                                         | Globālais         |
+| Definēt kanāla atribūtus                                                                 | Globālais         |
+| Lojalitātes programmu definēšana                                                                   | Globālais         |
+| Lojalitātes programmas atlīdzības punktu definēšana                                                              | Globālais         |
+| Lojalitātes programmas shēmu definēšana                                                                    | Globālais         |
+| Organizācijas struktūrvienību attiecību izstrāde                                     | Globālais         |
+| Ārpus zonu pārskatu ģenerēšana un palaišana                                                       | Globālais         |
+| Tirdzniecības atlaižu debitoriem pārvaldība                                                      | Globālais         |
+| Mazumtirdzniecības izrakstu konfigurācijas parametri                                            | Globālais         |
+| Mazumtirdzniecības izrakstu konfigurācijas maksājums                                              | Globālais         |
+| Pašapkalpošanās veikšana, lai lejupielādētu aparatūras staciju                                         | Globālais         |
+| Tiešsaistes pārdošanas un maksājumu grāmatošana                                                      | Globālais         |
+| Lojalitātes programmas atlīdzības punktu korekciju apstrāde                                                  | Globālais         |
+| Preču virzīšana no sadales centra uz veikalu, izmantojot sagādes sadali                        | Globālais         |
+| Preces / preces šablona izlaišana juridiskajām personām                                        | Globālais         |
+| Mazumtirdzniecības cenu korekcijas                                                                  | Globālais         |
+| Veikalu konfigurācijas mazumtirdzniecības izrakstiem                                                | Globālais         |
 
-
- 
 ### <a name="sales"></a>Pārdošana
 
-|                                            |                    |
-|--------------------------------------------|--------------------|
-| **BPM rinda**                               | **Valsts/reģions** |
-| Pārdošanas pasūtījumu apstiprināšana                       | Globālais             |
-| Jauna tirdzniecības līguma izveide               | Globālais             |
-| Pirkšanas pasūtījuma izveide no pārdošanas pasūtījuma | Globālais             |
-| Pārdošanas piedāvājumu izveide un rediģēšana           | Globālais             |
-| Izveidot piegādes grafiku                   | Globālais             |
-| Pārdošanas līgumu ievade                     | Globālais             |
-| Pārdošanas līgumu nosacījumu izpilde                   | Globālais             |
-| Debitora atlaižu ģenerēšana un apstrāde      | Globālais             |
-| Attiecināmo cenu un atlaižu pārlūkošana    | Globālais             |
-| Veidot pārdošanas piedāvājumus masveidā               | Globālais             |
-| Maksājuma atlaižu apstrāde                | Globālais             |
-| Pārdošanas komisiju reģistrēšana                 | Globālais             |
-| Pārdošanas komisijas noteikumu iestatīšana              | Globālais             |
-| Pasūtījumu sūtīšana kā tiešās piegādes           | Globālais             |
-| Pārdošanas pasūtījumu sūtīšana bez noliktavas      | Globālais             |
+| BPM rinda                                   | Valsts/reģions |
+|--------------------------------------------|----------------|
+| Pārdošanas pasūtījumu apstiprināšana                       | Globāls         |
+| Jauna tirdzniecības līguma izveide               | Globālais         |
+| Pirkšanas pasūtījuma izveide no pārdošanas pasūtījuma | Globālais         |
+| Pārdošanas piedāvājumu izveide un rediģēšana           | Globālais         |
+| Izveidot piegādes grafiku                   | Globālais         |
+| Pārdošanas līgumu ievade                     | Globālais         |
+| Pārdošanas līgumu nosacījumu izpilde                   | Globālais         |
+| Debitora atlaižu ģenerēšana un apstrāde      | Globālais         |
+| Attiecināmo cenu un atlaižu pārlūkošana    | Globālais         |
+| Veidot pārdošanas piedāvājumus masveidā               | Globālais         |
+| Maksājuma atlaižu apstrāde                | Globālais         |
+| Pārdošanas komisiju reģistrēšana                 | Globālais         |
+| Pārdošanas komisijas noteikumu iestatīšana              | Globālais         |
+| Pasūtījumu sūtīšana kā tiešās piegādes           | Globālais         |
+| Pārdošanas pasūtījumu sūtīšana bez noliktavas      | Globāls         |
 
-
- 
 ### <a name="sales-tax"></a>PVN
 
-|                                                    |                    |
-|----------------------------------------------------|--------------------|
-| **BPM rinda**                                       | **Valsts/reģions** |
-| Aprēķināt un koriģēt PVN kreditora rēķinā | Globālais             |
-| PVN maksājuma izveide                         | Globālais             |
-| Izveidot PVN transakcijas dokumentos         | Globālais             |
-| Virsgrāmatas PVN grāmatošanas grupu iestatīšana         | Globālais             |
-| Nodokļu iestāžu iestatīšana                       | Globālais             |
-| Iestatīt PVN kodus                             | Globālais             |
-| PVN grupu un krājumu PVN grupu iestatīšana  | Globālais             |
-| Iestatīt PVN pārskatu kodus                   | Globālais             |
-| Iestatīt PVN apmaksas periodus                | Globālais             |
-| Ieturētā nodokļa iestatīšana                             | Globālais             |
-| Skatīt grāmatotās PVN darbības                 | Globālais             |
+| BPM rinda                                           | Valsts/reģions |
+|----------------------------------------------------|----------------|
+| Aprēķināt un koriģēt PVN kreditora rēķinā | Globālais         |
+| PVN maksājuma izveide                         | Globālais         |
+| Izveidot PVN transakcijas dokumentos         | Globālais         |
+| Virsgrāmatas PVN grāmatošanas grupu iestatīšana         | Globālais         |
+| Nodokļu iestāžu iestatīšana                       | Globālais         |
+| Iestatīt PVN kodus                             | Globālais         |
+| PVN grupu un krājumu PVN grupu iestatīšana  | Globālais         |
+| Iestatīt PVN pārskatu kodus                   | Globālais         |
+| Iestatīt PVN apmaksas periodus                | Globālais         |
+| Ieturētā nodokļa iestatīšana                             | Globālais         |
+| Skatīt grāmatotās PVN darbības                 | Globālais         |
 
-
- 
 ### <a name="security"></a>Drošība
 
-|                                                         |                    |
-|---------------------------------------------------------|--------------------|
-| **BPM rinda**                                            | **Valsts/reģions** |
-| Jaunu lietotāju izveide                                        | Globālais             |
-| Pienākumu sadales konfliktu identificēšana un atrisināšana | Globālais             |
-| Pienākumu sadales iestatīšana                            | Globālais             |
+| BPM rinda                                                | Valsts/reģions |
+|---------------------------------------------------------|----------------|
+| Jaunu lietotāju izveide                                        | Globālais         |
+| Pienākumu sadales konfliktu identificēšana un atrisināšana | Globālais         |
+| Pienākumu sadales iestatīšana                            | Globālais         |
 
-
- 
 ### <a name="warehouse-and-transportation"></a>Noliktava un transportēšana
 
-|                                                                                   |                    |
-|-----------------------------------------------------------------------------------|--------------------|
-| **BPM rinda**                                                                      | **Valsts/reģions** |
-| Saistīt degvielas rādītāju ar pārvadātāju kā papildobjekta maksu                    | Globālais             |
-| Konfigurēt atrašanās vietas noliktavā ar iespējotu NPS                                    | Globālais             |
-| Darba klases izveide                                                               | Globālais             |
-| Cikla inventarizācijas definēšana                                                             | Globālais             |
-| Numura zīmes etiķetes drukāšanas iespējošana                                               | Globālais             |
-| Krājumu reģistrēšana pamata noliktavā aktivizētam krājumam, izmantojot krājumu saņemšanas žurnālu | Globālais             |
-| Pārvadātāja degvielas rādītāja iestatīšana                                                       | Globālais             |
-| Novietojuma direktīvas iestatīšana pirkšanas pasūtījuma atlikšanai                           | Globālais             |
-| Mobilās ierīces izvēlnes vienuma iestatīšana pirkšanas pasūtījuma darba pabeigšanai       | Globālais             |
-| Mobilās ierīces izvēlnes vienuma iestatīšana, lai reģistrētu saņemtos krājumus                       | Globālais             |
-| Pirkšanas pasūtījumu darba veidnes izveide                                        | Globālais             |
-| Papildobjekta piešķiru iestatīšana                                                    | Globālais             |
-| Izvietojuma kodu iestatīšana                                                         | Globālais             |
-| Pārkraušanas punkta papildobjekta maksas un papildobjekta šablonu iestatīšana                            | Globālais             |
-| Likmju šablonu iestatīšana                                                               | Globālais             |
-| Piegādes                                                          | Globālais             |
-| Noslodzes plānošanas rīka izmantošana, lai plānotu kravas un sūtījumus                       | Globālais             |
+| BPM rinda                                                                          | Valsts/reģions |
+|-----------------------------------------------------------------------------------|----------------|
+| Degvielas rādītāja saistīšana ar pārvadātāju kā papildobjekta maksu                    | Globālais         |
+| Konfigurēt atrašanās vietas noliktavā ar iespējotu NPS                                    | Globālais         |
+| Darba klases izveide                                                               | Globālais         |
+| Cikla inventarizācijas definēšana                                                             | Globālais         |
+| Numura zīmes etiķetes drukāšanas iespējošana                                               | Globālais         |
+| Krājumu reģistrēšana pamata noliktavā aktivizētam krājumam, izmantojot krājumu saņemšanas žurnālu | Globālais         |
+| Pārvadātāja degvielas rādītāja iestatīšana                                                       | Globālais         |
+| Novietojuma direktīvas iestatīšana pirkšanas pasūtījuma atlikšanai                           | Globālais         |
+| Mobilās ierīces izvēlnes vienuma iestatīšana pirkšanas pasūtījuma darba pabeigšanai       | Globālais         |
+| Mobilās ierīces izvēlnes vienuma iestatīšana, lai reģistrētu saņemtos krājumus                       | Globālais         |
+| Pirkšanas pasūtījumu darba veidnes izveide                                        | Globālais         |
+| Papildobjekta piešķiru iestatīšana                                                    | Globālais         |
+| Izvietojuma kodu iestatīšana                                                         | Globālais         |
+| Pārkraušanas punkta papildobjekta maksas un papildobjekta šablonu iestatīšana                            | Globālais         |
+| Likmju šablonu iestatīšana                                                               | Globālais         |
+| Piegādes                                                          | Globālais         |
+| Noslodzes plānošanas rīka izmantošana, lai plānotu kravas un sūtījumus                       | Globālais         |
 
-
- 
 ## <a name="task-guides-in-the-february-2016-getting-started-library"></a>Uzdevumu ceļveži (2016. gada februāra) darba sākšanas bibliotēkā
 
-|                                                    |                    |
-|----------------------------------------------------|--------------------|
-| **BPM rinda**                                       | **Valsts/reģions** |
-| Analizēt virsgrāmatas bilances                            | Globālais             |
-| Izlaistās preces izveide vienam uzņēmumam     | Globālais             |
-| Ražošanas pasūtījuma izveidošana un plānošana             | Globālais             |
-| Efektīva virzīšana tirgū                            | Globālais             |
-| Elektroniskie pārskati                               | Globālais             |
-| Darbinieku pašapkalpošanās                              | Globālais             |
-| Kā samazināt jūsu vidējo maksājuma saņemšanas termiņu          | Globālais             |
-| Ievads AX lokalizēšanas funkcionalitātē      | Globālais             |
-| Iepazīstināšana ar valstij specifiskajiem līdzekļiem attiecībā uz Japānu | Japāna              |
-| Izcenojuma un veicināšanu pārvaldība                      | Globālais             |
-| Vadītāja pašapkalpošanās                               | Globālais             |
-| Projektu pārskats                                  | Globāls             |
-| Kanālu iestatīšana un konfigurēšana                      | Globāls             |
+| BPM rinda                                           | Valsts/reģions |
+|----------------------------------------------------|----------------|
+| Analizēt virsgrāmatas bilances                            | Globālais         |
+| Izlaistās preces izveide vienam uzņēmumam     | Globālais         |
+| Ražošanas pasūtījuma izveidošana un plānošana             | Globālais         |
+| Efektīva virzīšana tirgū                            | Globālais         |
+| Elektroniskie pārskati                               | Globālais         |
+| Darbinieku pašapkalpošanās                              | Globālais         |
+| Kā samazināt jūsu vidējo maksājuma saņemšanas termiņu          | Globālais         |
+| Ievads AX lokalizēšanas funkcionalitātē      | Globālais         |
+| Iepazīstināšana ar valstij specifiskajiem līdzekļiem attiecībā uz Japānu | Japāna          |
+| Izcenojuma un veicināšanu pārvaldība                      | Globālais         |
+| Vadītāja pašapkalpošanās                               | Globālais         |
+| Projektu pārskats                                  | Globāls         |
+| Kanālu iestatīšana un konfigurēšana                      | Globāls         |
 
- 
-
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 [Jauni vai atjaunināti uzdevumu ceļveži (2016. gada maijs)](new-updated-task-guides-available-may-2016.md)
 
 [Jauni vai atjaunināti uzdevumu ceļveži (2016. gada augusts)](new-updated-task-guides-available-august-2016.md)
 
 [Jauni vai atjaunināti uzdevumu ceļveži (2016. gada novembris)](new-task-guides-november-2016.md)
-
-
-
 

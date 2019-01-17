@@ -35,21 +35,19 @@ Izmantojot programmatūru Microsoft Dynamics 365 for Retail, varat reāllaikā p
 
 Programmatūrā Dynamics 365 for Retail lietotāji var reāllaikā pārraudzīt tālāk norādīto dimensiju pārdošanas un uzcenojuma veiktspēju dažādos organizācijas hierarhijas līmeņos.
 
--   Preces
--   Kategorijas
--   Atlaides
--   Gadi kā laika periods
--   Reģistri/termināļi
--   Personāls/darbinieki
--   Debitori
--   Pārvaldības struktūrvienības
+- Preces
+- Kategorijas
+- Atlaides
+- Gadi kā laika periods
+- Reģistri/termināļi
+- Personāls/darbinieki
+- Debitori
+- Pārvaldības struktūrvienības
 
 Turklāt divi unikāli pārskati, kuri izmanto hierarhijas režģa strukturēšanu, ļauj lietotājiem pārraudzīt pārdošanu un uzcenojuma veiktspēju, veicot detalizētu aplūkošanu no augšējā kategorijas līmeņa līdz atsevišķiem kategorijas lapu mezgliem noklusējuma mazumtirdzniecības preces kategorijas hierarhijā. Lietotāji var arī veikt detalizētu aplūkošanu no augšējās pārvaldības struktūrvienības līdz atsevisķam kanālam organizācijas hierarhijā, kas ir definēta kā noklusējuma organizācijas hierarhija mazumtirdzniecības pārskatu veidošanas hierarhijas nolūkiem. Pārskatus var atvērt no šādām vietām:
 
--   Darbvieta **Mazumtirdzniecības veikala pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati**
--   Darbvieta **Kategorijas un preču pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Preces un kategorijas** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati**
--   Darbvieta **Cenu noteikšanas un atlaižu pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Cenu noteikšana un atlaides** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati**
--   Sadaļa **Pieprasījumi un pārskati** &gt; **Mazumtirdzniecība** &gt; **Pieprasījumi un pārskati** &gt; **Pārdošanas pārskati**
-
-
+- Darbvieta **Mazumtirdzniecības veikala pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati**
+- Darbvieta **Kategorijas un preču pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Preces un kategorijas** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati**
+- Darbvieta **Cenu noteikšanas un atlaižu pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Cenu noteikšana un atlaides** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati**
+- Sadaļa **Pieprasījumi un pārskati** &gt; **Mazumtirdzniecība** &gt; **Pieprasījumi un pārskati** &gt; **Pārdošanas pārskati**
 

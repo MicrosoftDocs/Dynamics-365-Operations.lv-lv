@@ -3,7 +3,7 @@ title: "Aktivitātes procesa ietvaros"
 description: "Šajā tēma ir sniegta informācija par dažādajiem aktivitāšu veidiem, ko var izmantot darbā pieņemšanas procesa ietvaros."
 author: 
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: ccd9e2d0ff1f7fb6825c6823936b4013b3054f5d
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: 4f59193991420fd9ec05a83049e569058bf81932
 ms.contentlocale: lv-lv
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -62,6 +62,10 @@ Aktivitāte Intervija ir izvēles aktivitāte. Šī aktivitāte sastāv no trim 
 - Lai sūtītu kandidātiem e-pasta ziņojumus un pieprasītu viņu pieejamību, iestatiet opcijas **Pieprasīt kandidāta pieejamību** vērtību **Ieslēgts**. Ja iestatāt šīs opcijas vērtību **Izslēgts**, šī darbība netiek rādīta vakances darbā pieņemšanas procesa ietvaros.
 - Lai veiktu tiešsaistes straumēšanu vai konferences zvanu, izmantojot Skype darbam, iestatiet lauka **Tiešsaistes sapulce** vērtību **Skype darbam**. Pēc tam intervijas sapulces pieprasījumā tiek ietverta pareizā saite **Pievienoties Skype sapulcei**.
 - Lai sūtītu kandidātiem e-pasta ziņojumus un precizētu grafiku, iestatiet opcijas **Sūtīt vēstuli kandidātam** vērtību **Ieslēgts**. Ja iestatāt šīs opcijas vērtību **Izslēgts**, kandidāti saņem intervijas grafiku tikai pēc pierakstīšanās kandidātu portālā.
+
+>[!NOTE]
+> - Par katru 1:1 interviju intervētājiem ik pēc 24 stundām tiek nosūtīts atgādinājums, ja intervētājs nav atbildējis uz intervijas pieprasījumu (pieņēmis vai noraidījis).
+> - Par paneļintervijām automatizēti atgādinājumi ar aicinājumu atbildēt uz intervijas pieprasījumu netiek sūtīti. Lai manuāli aktivizētu atgādinājumu, rediģējiet interviju un izmantojiet opciju **Atjaunināt un sūtīt**, un pieprasījums tiks vēlreiz nosūtīts intervētājiem.
 
 Komponents Atsauksmes sniedz personām iespēju ievadīt ieteikumus kandidātam. Viņi var arī ievadīt jebkādus komentārus ar atsauksmēm. Ja ieslēdzat opciju **Pārmantot atsauksmju dalībniekus no darbā pieņemšanas grupas**, personāla atlases darbinieks, par pieņemšanu darbā atbildīgais vadītājs un intervētāji tiek automātiski pievienoti komponentam Atsauksmes. Organizācijas var atļaut intervētajiem skatīt citu personu atsauksmes pirms savu atsauksmju iesniegšanas. Organizācijas var atļaut intervētājiem arī rediģēt savas atsauksmes pēc to iesniegšanas.
 

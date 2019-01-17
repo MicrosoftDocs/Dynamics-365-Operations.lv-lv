@@ -20,10 +20,10 @@ ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 21c29c3c37dfacdd98f5c3ec7698f07623da2285
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 4c54909a02376a62a72a986e634649fa0ae54284
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -31,112 +31,113 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīti programmatūrā Microsoft Dynamics 365 for Finance and Operations — Retail atbalstītie laika un apmeklētības pārvaldības scenāriji. 
+Šajā tēmā ir aprakstīti programmatūrā Microsoft Dynamics 365 for Finance and Operations — Retail atbalstītie laika un apmeklētības pārvaldības scenāriji.
 
-<a name="manage-worker-setup-and-scheduling"></a>Darbinieku iestatījumu un plānošanas pārvaldība
-----------------------------------
+## <a name="manage-worker-setup-and-scheduling"></a>Darbinieku iestatījumu un plānošanas pārvaldība
 
 ### <a name="initial-configuration"></a> sākotnējā konfigurācija
 
--   Palaidiet konfigurācijas vedni.
--   Reģistrējiet darbiniekus kā laika reģistrācijas darbiniekus.
+- Palaidiet konfigurācijas vedni.
+- Reģistrējiet darbiniekus kā laika reģistrācijas darbiniekus.
 
 ### <a name="plan-worker-schedules"></a>Darbinieku grafika plānošana
 
--   Izveidojiet profilus, izmantojot darbu plānošanas sistēmu. Lai iegūtu papildus informāciju, skatiet <https://technet.microsoft.com/en-us/library/aa551234.aspx>.
+- Izveidojiet profilus, izmantojot darbu plānošanas sistēmu. Papildinformāciju skatiet tēmā [Profilu izveide, izmantojot darbu plānošanas sistēmu](https://technet.microsoft.com/library/aa551234.aspx).
 
-Informāciju par konfigurēšanas darbībām skatiet šeit: <https://technet.microsoft.com/en-us/library/aa496971.aspx>.
+Papildinformāciju par konfigurācijas darbībām skatiet tēmā [Laika un apmeklētības iestatīšana](https://technet.microsoft.com/library/aa496971.aspx).
 
 ### <a name="retail-specific-configuration"></a>No mazumtirdzniecības modeļa atkarīga konfigurācija
 
--   Iespējojiet funkcionalitātes Laika uzskaite profilu darbiniekiem, kuriem vēlaties aktivizēt laika reģistrāciju. Noklikšķiniet uz **POS funkcionalitātes profili** &gt; **Funkcijas** &gt; **POS laika reģistrācijas** &gt; **Aktivizēt laika reģistrācijas**.
--   Konfigurējiet pārdošanas punkta (POS) atļaujas grupas, lai iespējotu funkcijas Skatīt laika uzskaites ierakstus atļauju. Ar šo atļauju lietotājs var skatīt citu veikala (un citu veikalu, ar kuriem lietotājs ir saistīts, izmantojot adrešu grāmatu) darbinieku laika uzskaites reģistrācijas ierakstus. Šo atļauju ieteicams aktivizēt vadītāja lomai, bet ne kasiera lomai. Noklikšķiniet uz **POS atļauju grupas** &gt; **Skatīt darba laika uzskaites ierakstus**.
+- Iespējojiet funkcionalitātes Laika uzskaite profilu darbiniekiem, kuriem vēlaties aktivizēt laika reģistrāciju. Noklikšķiniet uz **POS funkcionalitātes profili** &gt; **Funkcijas** &gt; **POS laika reģistrācijas** &gt; **Aktivizēt laika reģistrācijas**.
+- Konfigurējiet pārdošanas punkta (POS) atļaujas grupas, lai iespējotu funkcijas Skatīt laika uzskaites ierakstus atļauju. Ar šo atļauju lietotājs var skatīt citu veikala (un citu veikalu, ar kuriem lietotājs ir saistīts, izmantojot adrešu grāmatu) darbinieku laika uzskaites reģistrācijas ierakstus. Šo atļauju ieteicams aktivizēt vadītāja lomai, bet ne kasiera lomai. Noklikšķiniet uz **POS atļauju grupas** &gt; **Skatīt darba laika uzskaites ierakstus**.
 
 ## <a name="register-time"></a>Reģistra laiks
+
 ### <a name="cashier-and-non-cashier-time-registrations"></a>Kasiera un darbinieka, kas nav kasieris, laika reģistrācija
 
--   Pārdošanas punktā (POS)
-    -   Ar ierašanos saistītās darbības.
-        -   Piesakieties, veicot ar naudas kasti nesaistītu darbību, vai sadaļā Jaunu maiņa.
-        -   Atlasiet darbību Laika uzskaite.
-        -   Atlasiet vēlamo darbību.
-            -   Ierašanās
-            -   Darba pārtraukums
-            -   Pusdienu pārtraukums
-            -   Aiziešana
+- Pārdošanas punktā (POS)
 
-    <table>
-    <colgroup>
-    <col width="50%" />
-    <col width="50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Pašreizējais statuss</th>
-    <th>Pieejamās darbības</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Ierašanās</td>
-    <td><ul>
-    <li>Darba pārtraukums</li>
-    <li>Pusdienu pārtraukums</li>
-    <li>Aiziešana</li>
-    </ul></td>
-    </tr>
-    <tr class="even">
-    <td>Darba pārtraukums</td>
-    <td>Ierašanās</td>
-    </tr>
-    <tr class="odd">
-    <td>Pusdienu pārtraukums</td>
-    <td>Ierašanās</td>
-    </tr>
-    <tr class="even">
-    <td>Aiziešana</td>
-    <td>Ierašanās</td>
-    </tr>
-    </tbody>
-    </table>
+    - Ar ierašanos saistītās darbības.
 
-    [![TimeClockStates](./media/timeclockstates.png)](./media/timeclockstates.png)
--   Skatiet apstiprinājuma ziņojumu un pārbaudiet, vai pašreizējais aktivitātes laiks ir pareizs.
--   Reģistrācijas žurnāls
-    -   Noklikšķiniet uz **Reģistrācijas žurnāls**, lai skatītu laika uzskaite aktivitāti.
-    -   Izmantojiet laika filtrus, lai atlasītu dažādus laika logus.
-    -   Ja strādājat vairākās veikala atrašanās vietās, laika reģistrācijas ieraksti ir redzami par visiem veikaliem, kuros ir reģistrēts laiks. Lai skatītu atlasītajā veikalā veiktās laika reģistrācijas, var izmantot veikalu filtru.
+        - Piesakieties, veicot ar naudas kasti nesaistītu darbību, vai sadaļā Jaunu maiņa.
+        - Atlasiet darbību Laika uzskaite.
+        - Atlasiet vēlamo darbību.
 
-<!-- -->
+            - Ierašanās
+            - Darba pārtraukums
+            - Pusdienu pārtraukums
+            - Aiziešana
 
--   Atšķirīgas laika zonas
-    -   Ja tiek skatīta laika uzskaite no citas atrašanās vietas (kasiera žurnālā vai izmantojot vadītāja scenārija opciju **Skatīt laika uzskaites ierakstus**) un šī atrašanās vieta atrodas citā laika joslā, redzamie laika uzskaites ieraksti tiek pārvērsti atbilstoši vietējai laika joslai. Piemēram, pieņemsim, ka esat divu veikalu vadītājs, no kuriem viens atrodas Arizonā, bet otrs atrodas Nevadā. Kasieris reģistrē ierašanos 9:00 pēc Arizonas laika. Šajā brīdī Nevadā ir 8:00. Tāpēc, ja atrodaties veikalā Nevadā un skatāt laika reģistrācijas ierakstus, ir redzams, ka laika reģistrācija ir atzīmēta 8:00.
+        <table>
+        <thead>
+        <tr>
+        <th>Pašreizējais statuss</th>
+        <th>Pieejamās darbības</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>Ierašanās</td>
+        <td>
+        <ul>
+        <li>Darba pārtraukums</li>
+        <li>Pusdienu pārtraukums</li>
+        <li>Aiziešana</li>
+        </ul>
+        </td>
+        </tr>
+        <tr>
+        <td>Darba pārtraukums</td>
+        <td>Ierašanās</td>
+        </tr>
+        <tr>
+        <td>Pusdienu pārtraukums</td>
+        <td>Ierašanās</td>
+        </tr>
+        <tr>
+        <td>Aiziešana</td>
+        <td>Ierašanās</td>
+        </tr>
+        </tbody>
+        </table>
+
+        [![TimeClockStates](./media/timeclockstates.png)](./media/timeclockstates.png)
+
+- Skatiet apstiprinājuma ziņojumu un pārbaudiet, vai pašreizējais aktivitātes laiks ir pareizs.
+- Reģistrācijas žurnāls
+
+    - Noklikšķiniet uz **Reģistrācijas žurnāls**, lai skatītu laika uzskaite aktivitāti.
+    - Izmantojiet laika filtrus, lai atlasītu dažādus laika logus.
+    - Ja strādājat vairākās veikala atrašanās vietās, laika reģistrācijas ieraksti ir redzami par visiem veikaliem, kuros ir reģistrēts laiks. Lai skatītu atlasītajā veikalā veiktās laika reģistrācijas, var izmantot veikalu filtru.
+
+- Atšķirīgas laika zonas
+
+    - Ja tiek skatīta laika uzskaite no citas atrašanās vietas (kasiera žurnālā vai izmantojot vadītāja scenārija opciju **Skatīt laika uzskaites ierakstus**) un šī atrašanās vieta atrodas citā laika joslā, redzamie laika uzskaites ieraksti tiek pārvērsti atbilstoši vietējai laika joslai. Piemēram, pieņemsim, ka esat divu veikalu vadītājs, no kuriem viens atrodas Arizonā, bet otrs atrodas Nevadā. Kasieris reģistrē ierašanos 9:00 pēc Arizonas laika. Šajā brīdī Nevadā ir 8:00. Tāpēc, ja atrodaties veikalā Nevadā un skatāt laika reģistrācijas ierakstus, ir redzams, ka laika reģistrācija ir atzīmēta 8:00.
 
 ## <a name="view-worker-time-registrations"></a>Darbinieku laika reģistrācijas ierakstu skatīšana
+
 ### <a name="view-worker-time-registrations-and-filter-by-store-or-activity-type"></a>Skatiet darbinieka laika reģistrācijas ierakstus un filtrējiet tos pēc veikala vai aktivitātes tipa.
 
 Pārdošanas punktā (POS)
 
--   Atlasiet opciju **Skatīt laika uzskaites ierakstus**.
--   Var skatīt visu to darbinieku laika uzskaites reģistrācijas darbības, kas iedalīti tajos pašos veikalos, kur esat iedalīts jūs.
--   Lai filtrētu laika reģistrācijas ierakstus, var izmantot aktivitātes tipa un veikala filtru.
+- Atlasiet opciju **Skatīt laika uzskaites ierakstus**.
+- Var skatīt visu to darbinieku laika uzskaites reģistrācijas darbības, kas iedalīti tajos pašos veikalos, kur esat iedalīts jūs.
+- Lai filtrētu laika reģistrācijas ierakstus, var izmantot aktivitātes tipa un veikala filtru.
 
 ## <a name="process-and-manage-time-registrations"></a>Laika reģistrācijas ierakstu apstrāde un pārvaldība
+
 Programmatūras Dynamics 365 for Finance and Operations — Retail lietotājs var sekot līdzi darbplūsmai, lai aprēķinātu, apstiprinātu un pārsūtītu laika reģistrācijas ierakstus algas aprēķināšanai.
 
 ### <a name="primary-operations"></a>Primārās darbības
 
--   Aprēķināt
--   Apstiprināt
--   Iesniegt algas aprēķināšanai
+- Aprēķināt
+- Apstiprināt
+- Iesniegt algas aprēķināšanai
 
 ### <a name="other-common-operations"></a>Citas standarta darbības
 
--   Aiziešana grupā
--   Kavējuma reģistrēšana
+- Aiziešana grupā
+- Kavējuma reģistrēšana
 
-Plašāku informāciju par to, kā apstrādāt laika un apmeklētības reģistrācijas, skatiet šeit: <https://technet.microsoft.com/en-us/library/aa573180.aspx>.
-
-
-
+Papildinformāciju par laika un apmeklētības ierakstu apstrādi skatiet tēmā[Laika un apmeklētības ierakstu apstrāde](https://technet.microsoft.com/library/aa573180.aspx).
 

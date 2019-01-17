@@ -3,7 +3,7 @@ title: "Piedāvājumu pārvaldības iestatīšana"
 description: "Šajā tēmā ir aprakstīts, kā iestatīt piedāvājumus programmā Talent."
 author: josaw
 manager: AnnBe
-ms.date: 10/18/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: fa2f2f9f67562524961352a87a7db49992776e46
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: bb90f0a3c87c64a74ca63610105abfeb8223900a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 # <a name="set-up-offer-management"></a>Piedāvājumu pārvaldības iestatīšana 
@@ -105,7 +105,7 @@ Lai augšupielādētu piedāvājuma datu kārtulu failu, izpildiet tālāk aprak
 
 1.  Esošu kārtulu kopas augšupielādi varat dzēst, ja definētais vietturis netiek izmantots nevienā citā dokumenta veidnē.
 
->[!NOTES]
+>[!NOTE]
 > - Katram vietturim var būt tikai viena unikāla kolonnu kopa, no kuras tas ir atkarīgs. Piemēram, ja vietturis **Gada alga** ir atkarīgs no vērtības kolonnā **Darba atrašanās vieta** un kolonnā **Līmenis**, jūs nevarat augšupielādēt citu kārtulu kopu, kur vietturis **Gada alga** ir atkarīgs no citas kolonnu kopas.
 
 > - Lapas **Piedāvājuma datu kārtulas** cilnē **Paraugi** varat lejupielādēt piedāvājuma datu kārtulu kopu paraugus.
@@ -136,7 +136,7 @@ Lai izveidotu piedāvājuma dokumenta veidni, izpildiet tālāk aprakstītos nor
 
     - Ievietojot piedāvājuma datu viettura atsauces tagu tieši nepieciešamajā pozīcijā. Ierakstiet **\#** un pēc tam sāciet rakstīt piedāvājuma datu viettura nosaukumu. Tiks parādīts nolaižamais saraksts ar opcijām. Noklikšķiniet vai nospiediet taustiņu **Enter**, lai ievietotu piedāvājuma datu vietturi.
 
-    >[!NOTES]
+    >[!NOTE]
     > - Lai vietturi saistītu ar piedāvājuma dokumenta veidni, neizpaužot tā vērtību kandidātam, virziet peles kursoru virs piedāvājuma datu viettura un noklikšķiniet uz ikonas **Piespraust**. Šādi vietturis tiks pārbīdīts uz piedāvājuma dokumenta veidnes sadaļu **Piespraustie piedāvājuma dati**. Lai atspraustu, izpildiet tās pašas darbības, bet piedāvājuma datu vietturu sarakstā noklikšķiniet uz **Atspraust**.
 
     > - Lai skatītu sarakstu ar aktīvajiem piedāvājuma datu vietturiem, labajā rūtī pārslēdziet uz cilni **Aktīvs**.
@@ -175,7 +175,7 @@ Piedāvājuma pakotnes ir piedāvājuma artefakti, kas tiek koplietoti ar kandid
 
 1.  Noklikšķiniet uz **Pievienot veidni**.
 
-    >[!NOTES]
+    >[!NOTE]
     > - Varat izvēlēties izveidot jaunu veidni vai izvēlēties kādu no esošajām.
 
     > - Ja izvēlaties pievienot esošu veidni, jums ir jāpārliecinās, vai piedāvājuma dokumenta veidne bija saglabāta, finalizēta un atzīmēta kā aktīva.
@@ -198,8 +198,10 @@ Piedāvājuma veidošanas procesā ir vairākas daļas, kuras var konfigurēt At
 
 - **Kandidāta piedāvājuma pieredze** — kā administrators varat izvēlēties iestatīt, vai visiem piedāvājumiem ir beigu datums un — ja tāds ir — kādai ir jābūt beigu datuma noklusējuma nobīdei. Varat arī konfigurēt to, vai kandidāti var noraidīt kādu piedāvājumu.
 
-- **Elektroniskie paraksti** — pašlaik vienīgā pieejamā elektroniskā paraksta opcija ir kandidātiem ierakstīt savu vārdu piedāvājuma pakotnē, apstiprinot piedāvājumu. Nākotnē mēs ieviesīsim partneru integrācijas ar citiem elektronisko parakstu nodrošinātājiem.
+- **Elektroniskie paraksti** — kā administrators varat arī izvēlēties metodi, kuru kandidātiem izmantot, lai parakstītu piedāvājumus.
+    - Adobe Sign — visas piedāvājumu pakotnes tiks nosūtītas un parakstītas, izmantojot Adobe Sign. Katram piedāvājumu izveidotājam, kurš publicē piedāvājumu, ir nepieciešama programmai Attract piesaistīta Adobe Sign licence. 
 
+    - ESign — šī ir standarta komplektācijā iekļautā noklusējuma opcija, ar kuru lietotājs var parakstīt piedāvājumu, ievadot savu vārdu un iniciāļus.
 
 Plašāku informāciju par piedāvājuma izveidošanas procesu skatiet šeit: [Piedāvājumu izveide, apstiprināšana un parakstīšana](./creating-offers.md).
 

@@ -3,7 +3,7 @@ title: "Finanšu dimensijas"
 description: "Šajā tēmā ir aprakstīti dažādie finanšu dimensiju tipi un izskaidrots, kā tie tiek iestatīti."
 author: aprilolson
 manager: AnnBe
-ms.date: 10/26/2018
+ms.date: 01/03/2019
 ms.topic: article
 ems.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 003b7eac16c1be50bc982da0672df42a87a69722
-ms.openlocfilehash: bda8b14b1752ca67fc4eeec6d6345dcf3968179d
+ms.sourcegitcommit: 92d1f2997ca8ea1bd47dfe47d91bf7f6234833b0
+ms.openlocfilehash: 2fb325e143eff067e1c9d0f23a1f913fc2dc36f3
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/05/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -93,6 +93,8 @@ Ja finanšu dimensija atbilst kādam no šiem kritērijiem, tad šo finanšu dim
 Šo līdzekli kontrolē dimensijas iestatījums. Šī iestatījuma nosaukums ir **Kopēt vērtības uz šo dimensiju katrā no jauna izveidotājā vienumā DimensionName**, kur **DimensionName** ir dimensijas nosaukums. Pēc noklusējuma līdzeklis ir izslēgts. Tomēr to var ieslēgt jebkurā laikā.
 
 Ja ieraksti dimensijai jau pastāv, šablona ieraksti tiek atjaunināti, aktivizējot līdzekli. Tomēr esošie dokumenti un transakcijas netiek atjauninātas.
+
+Ja izmantojat veidni, lai izveidotu šablona ierakstu, raugieties, lai šablona dimensijas veidnes vērtība būtu tukša. Piemēram, ja veidojat debitoru, izmantojot veidni, raugieties, lai debitora dimensijas vertība veidnē būtu tukša. Veidojot jauno debitoru, debitora dimensijas noklusējuma vērtība tiks ņemta no jaunā debitora numura.  
 
 ## <a name="derived-dimensions"></a>Atvasinātās dimensijas
 

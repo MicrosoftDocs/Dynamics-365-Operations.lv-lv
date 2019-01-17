@@ -17,10 +17,10 @@ ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: 08e939f87bc4a1769533b205bc5706648e1d1dce
+ms.sourcegitcommit: c093c9af7184d93b1200a8bcab16573f2bb4be09
+ms.openlocfilehash: 7a1e6c6e3a995ad745522d58960e850d72c2ee57
 ms.contentlocale: lv-lv
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -62,7 +62,7 @@ Kad kopējat kādu debitoru, sistēma mēģina saglabāt jaunā debitora inform�
 
 ## <a name="copy-a-customer-by-using-tax-exempt-number-search-feature"></a>Debitora kopēšana, izmantojot PVN reģistrācijas numura meklēšanas līdzekli
 
-Kreditorus varat arī kopēt, izmantojot PVN reģistrācijas numura meklēšanas līdzekli, kas atrodas grupā **Reģistrācija**, cilnē **Debitors**, lapas **Visi debitori** darbību rūtī. Parādītajā dialoglodziņā **PVN reģistrācijas numura meklēšana** ir redzami PVN reģistrācijas numuri, debitora ID, debitora nosaukums un juridiskā persona, kur šis PVN reģistrācijas ID tiek izmantots. Debitoru var kopēt tikai tad, ja tas atrodas kādā juridiskajā personā, kas nav pašreizējā juridiskā persona. Kad esat atlasījis debitoru, kas atbilst šim kritērijam, izpildiet tālāk aprakstītos norādījumus.
+Debitorus varat arī kopēt, izmantojot PVN reģistrācijas numura meklēšanas līdzekli, kas atrodas cilnes **Debitors** grupā **Reģistrācija**, kura ir pieejama lapas **Visi debitori** darbību rūtī. Parādītajā dialoglodziņā **PVN reģistrācijas numura meklēšana** ir redzami PVN reģistrācijas numuri, debitora ID, debitora nosaukums un juridiskā persona, kur šis PVN reģistrācijas ID tiek izmantots. Debitoru var kopēt tikai tad, ja tas atrodas kādā juridiskajā personā, kas nav pašreizējā juridiskā persona. Kad esat atlasījis debitoru, kas atbilst šim kritērijam, izpildiet tālāk aprakstītos norādījumus.
 
 1. Tiek parādīta opcija **Kopēt debitoru**. Pēc noklusējuma šī opcija ir iestatīta uz **Nē**. Lai šo debitoru kopētu uz pašreizējo juridisko personu, iestatiet šo opciju uz **Jā**. 
 2. Atlasiet **Atlasīt**. Jaunais debitors ir izveidots.

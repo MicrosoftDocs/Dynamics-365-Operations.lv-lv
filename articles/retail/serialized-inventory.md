@@ -17,10 +17,10 @@ ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 65e60f3e289bb68ea055548299d58bca42e84c02
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 17cd46ba9ee972c92db8950eea1cd258d67c2e92
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -28,8 +28,9 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](includes/banner.md)]
 
-## <a name="overview"></a>Pārskats 
-Pamatojoties uz iestatījumiem programmā Retail Headquarters, preces var klasificēt kā serializētas vai neserializētas. Ja preces ir serializētas, tad katram krājumam var piešķirt unikālu numuru, kas palīdz sekot līdzi garantijām, izsekot krājumus un apstiprināt īpašumtiesības. Lai gan spēja serializētām precēm piešķirt sērijas numurus pastāvēja jau mūsu Modern/Mākoņa pārdošanas punktā (Point of Sale — POS), ir pievienoti daži uzlabojumi, lai palīdzētu kasieriem ietaupītu laiku un strādāt produktīvāk.  
+## <a name="overview"></a>Pārskats
+
+Pamatojoties uz iestatījumiem programmā Retail Headquarters, preces var klasificēt kā serializētas vai neserializētas. Ja preces ir serializētas, tad katram krājumam var piešķirt unikālu numuru, kas palīdz sekot līdzi garantijām, izsekot krājumus un apstiprināt īpašumtiesības. Lai gan spēja serializētām precēm piešķirt sērijas numurus pastāvēja jau mūsu Modern/Mākoņa pārdošanas punktā (Point of Sale — POS), ir pievienoti daži uzlabojumi, lai palīdzētu kasieriem ietaupītu laiku un strādāt produktīvāk.
 
 ## <a name="pos-improvements"></a>POS uzlabojumi
 
@@ -37,9 +38,9 @@ Pamatojoties uz iestatījumiem programmā Retail Headquarters, preces var klasif
 
     Katram serializētajam krājumam, kura sērijas numurs tika izlaists, zem transakcijas rindas tiek parādīts komentārs. Šis komentārs ziņo, ka krājumam nav norādīts sērijas numurs. Tāpēc kasieris var ātri atrast krājumus, kuriem trūkst sērijas numuru.
 
-    Jauna operācija **Pievienot sērijas numuru** arī nodrošina sērijas numuru tādiem krājumiem, kam sērijas numuru trūkst. Kad sērijas numurs ir norādīts, to nevar rediģēt. Kasierim ir nepieciešams anulēt rindu un pievienot preci vēlreiz. 
+    Jauna operācija **Pievienot sērijas numuru** arī nodrošina sērijas numuru tādiem krājumiem, kam sērijas numuru trūkst. Kad sērijas numurs ir norādīts, to nevar rediģēt. Kasierim ir nepieciešams anulēt rindu un pievienot preci vēlreiz.
     
-- **Klientu pasūtījumu veikšanai sērijas numuri nav nepieciešami** — klientu pasūtījumus var veikt vienā veikalā un izpildīt no cita veikala. Kasierim, kurš veic klienta pasūtījumu, sērijas numurs nav jānorāda. Sērijas numurs tiks norādīts izdošanas vai savākšanas darbības laikā. Taču sērijas numurs ir jānorāda visiem rindu krājumiem, kuriem ir atlasīts piegādes tips **Iznest**. Pretējā gadījumā transakciju nevar pabeigt.    
+- **Klientu pasūtījumu veikšanai sērijas numuri nav nepieciešami** — klientu pasūtījumus var veikt vienā veikalā un izpildīt no cita veikala. Kasierim, kurš veic klienta pasūtījumu, sērijas numurs nav jānorāda. Sērijas numurs tiks norādīts izdošanas vai savākšanas darbības laikā. Taču sērijas numurs ir jānorāda visiem rindu krājumiem, kuriem ir atlasīts piegādes tips **Iznest**. Pretējā gadījumā transakciju nevar pabeigt.
 - **Serializētās preces transakcijas ekrānā nav apkopotas** — lapas **Funkcionalitātes profils** lauku grupas **Terminālis** iestatījums **Apkopot preces** jums ļauj transakcijas ekrānā apkopot vienādās neserializētās preces. Ja vienādās preces tiek apkopotas, transakciju režģī tās ir vienkāršāk redzamas. Taču, tā kā sērijas numuri parasti ir unikāli un pārdevējiem sērijas numuri ir jāievada tikai tad, kad notiek norēķināšanās, iestatījums **Apkopot preces** neattiecas uz serizalizētajām precēm. Tāpēc, ja ir atlasīts iestatījums **Apkopot preces**, serializētās preces transakcijas ekrānā netiks apkopotas.
-- **Spēja meklēt žurnālus pēc sērijas numura** — tagad žurnālus var papildus meklēt pēc sērijas numuriem. Lai to izdarītu, atveriet operāciju “Žurnāli” un programmas joslā nospiediet pogu “Detalizētā meklēšana”. Izmantojot pogu “Pievienot filtru”, filtru var lietot arī sērijas numuru meklēšanai.
+- **Spēja meklēt žurnālus pēc sērijas numura** — tagad žurnālus var papildus meklēt pēc sērijas numura. Lai to izdarītu, atveriet operāciju “Žurnāli” un programmas joslā nospiediet pogu “Detalizētā meklēšana”. Izmantojot pogu “Pievienot filtru”, filtru var lietot arī sērijas numuru meklēšanai.
 

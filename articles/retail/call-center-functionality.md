@@ -42,25 +42,30 @@ Papildus atbalstam pasūtījumu izveidei zvanu centra modulis nodrošina arī li
 Šī lapa sniedz saites uz atbilstošo dokumentāciju, kas saistīti ar zvanu centra līdzekļu iestatīšanu, konfigurēšanu un lietošanu pakalpojumā Dynamics 365 for Retail.
 
 ## <a name="configure-the-call-center"></a>Zvanu centra konfigurēšana
+
 [Iestatīt pasūtījumu apstrādes opcijas](set-up-order-processing-options.md)
 
 ## <a name="configure-order-processing"></a>Pasūtījumu apstrādes konfigurēšana
+
 [Pārkāpumu brīdinājumu iestatīšana](set-up-fraud-alerts.md)
 
 [Manuāla pasūtījumu aizturēšana](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a>Maksājumu apstrādes konfigurēšana
+
 [Maksāšanas metodes zvanu centrā](work-with-payments.md)
 
 ## <a name="configure-delivery-modes"></a>Piegādes režīmu konfigurēšana
+
 [Zvanu centra piegādes veidu un maksu konfigurēšana](configure-call-center-delivery.md)
 
 ## <a name="configure-direct-marketing"></a>Tiešā mārketinga konfigurēšana
+
 [Zvanu centra katalogi](call-center-catalogs.md)
 
 [RFM analīzes iestatīšana](set-up-rfm-analysis.md)
 
 ## <a name="configure-continuity-programs"></a>Nepārtrauktības programmu konfigurēšana
-[Nepārtrauktības programmas iestatīšana zvanu centram](set-up-continuity-program.md)
 
+[Nepārtrauktības programmas iestatīšana zvanu centram](set-up-continuity-program.md)
 

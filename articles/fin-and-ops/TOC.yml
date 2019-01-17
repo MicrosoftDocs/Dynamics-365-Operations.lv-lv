@@ -19,17 +19,17 @@
                   href: ../dev-itpro/deployment/cloud-deployment-overview.md?toc=/fin-and-ops/toc.json
                 - name: Sistēmas prasības mākoņa izvietojumiem
                   href: get-started/system-requirements.md
-                - name: Lokāla izvietošana
+                - name: Lokāls izvietojums
                   href: ../dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/fin-and-ops/toc.json
                 - name: Sistēmas prasības lokālajiem izvietojumiem
                   href: get-started/system-requirements-on-prem.md
                 - name: Noliktavas konfigurēšana lokālajiem izvietojumiem
                   href: ../dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/fin-and-ops/toc.json
-            - name: Standarta un mērķēto platformu laidieni
+            - name: Standarta un pirmā laidiena pakalpojumu atjauninājumi
               href: get-started/public-preview-releases.md
             - name: Finance and Operations iegāde
               items:
-                - name: Finance and Operations (lokālās versijas) iegāde
+                - name: Finance and Operations (on-premises) iegāde
                   href: get-started/purchase-on-premises.md
         - name: Jaunumi un izmaiņas
           href: get-started/whats-new-changed.md
@@ -48,13 +48,13 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: 'Līdzekļi, kas nav ieviesti lokālajos izvietojumos'
               href: get-started/features-not-implemented-on-prem.md
-            - name: "Finance and Operations versija\_8.1.3 (2018.\_gada decembris)"
+            - name: "Finance and Operations versija\_8.1.3 (2019.\_gada janvāris)"
               href: get-started/whats-new-changed-8-1-3.md
-            - name: "Platform update\_23 (2018.\_gada decembris)"
+            - name: "Platform update\_23 (2019.\_gada janvāris)"
               href: get-started/whats-new-platform-update-23.md
-            - name: "Platform update\_22 (2018.\_gada novembris)"
+            - name: "Platform update\_22 (2018.\_gada decembris)"
               href: get-started/whats-new-platform-update-22.md
-            - name: "Finance and Operations versija\_8.1.2 (2018.\_gada novembris)"
+            - name: "Finance and Operations versija\_8.1.2 (2018.\_gada decembris)"
               href: get-started/whats-new-changed-8-1-2.md
             - name: "Finance and Operations versija\_8.1.1 (2018.\_gada oktobris)"
               href: get-started/whats-new-changed-8-1-1.md
@@ -373,6 +373,18 @@
                       href: ../supply-chain/sales-marketing/field-service-work-order.md
                     - name: Programmā Field Service ietverto līgumu rēķinu sinhronizēšana ar brīva teksta rēķiniem programmā Finance and Operations
                       href: ../supply-chain/sales-marketing/field-service-invoice.md
+                    - name: Programmā Field Service ietverto krājumu pārsūtīšanas un korekcijas darbību sinhronizēšana ar programmu Finance and Operations
+                      href: ../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                    - name: Programmā Finance and Operations ietverto krājumu līmeņu informācijas sinhronizēšana ar programmu Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                    - name: Programmā Finance and Operations ietverto preču sinhronizēšana ar krājumu vienību programmā Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                    - name: Programmā Finance and Operations ietverto projektu saraksta sinhronizēšana ar programmu Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-project-list.md
+                    - name: Programmā Finance and Operations ietverto noliktavu sinhronizēšana ar programmu Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-warehouse.md
+                    - name: Programmā Finance and Operations ietverto darba pasūtījumu sinhronizēšana ar programmu Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-work-orders.md
                 - name: Project Service Automation integrācijas konfigurēšana
                   href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
                   items:
@@ -388,8 +400,8 @@
                       href: ../financials/project-management/project-estimates-templates.md?toc=/fin-and-ops/toc.json
                     - name: Projekta faktisko summu sinhronizēšana ar projekta integrācijas žurnālu
                       href: ../financials/project-management/project-actuals-templates.md?toc=/fin-and-ops/toc.json
-                - name: Ārējo tīmekļa pakalpojumu patērēšana
-                  href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
+        - name: Ārējo tīmekļa pakalpojumu patērēšana
+          href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
     - name: Datu pārvaldība
       href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
       items:
@@ -401,10 +413,12 @@
             - name: Konfigurācijas datu kopēšana starp uzņēmumiem vai juridiskajām personām
               href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Konfigurācijas datu pakotnes​
+                - name: Konfigurācijas datu pakotnes
                   href: ../dev-itpro/data-entities/configuration-data-packages.md
                 - name: "Konfigurācijas datu pakotnes (tikai 2017.\_gada jūlija laidiens)"
                   href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
+                - name: Elementu krātuves pārvēršana par datu ezeru
+                  href: ../dev-itpro/data-entities/entity-store-data-lake.md?toc=/fin-and-ops/toc.json
             - name: Konfigurācijas datu veidnes
               href: ../dev-itpro/data-entities/configuration-data-templates.md?toc=/fin-and-ops/toc.json
             - name: Elementa izmaiņu izsekošana
@@ -525,10 +539,12 @@
               href: ../financials/accounts-payable/royalty-contract.md
             - name: Maksājumi un norēķini
               items:
-                - name: Centralizētie maksājumi modulim Parādi kreditoriem
+                - name: Centralizētie maksājumi kreditoriem
                   href: ../financials/accounts-payable/centralized-payments-accounts-payable.md
-                - name: Segšanas konfigurēšana
+                - name: Nosegšanas konfigurēšana
                   href: ../financials/cash-bank-management/configure-settlement.md
+                - name: Atlikuma nosegšana
+                  href: ../financials/cash-bank-management/settle-remainder.md
                 - name: Kreditoru maksājumu apskats
                   href: ../financials/cash-bank-management/tasks/vendor-payment-overview.md
                 - name: Kreditoru maksājumu darbvieta
@@ -2103,8 +2119,6 @@
               href: ../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md
             - name: Brīva teksta rēķina grāmatošana
               href: ../financials/localizations/tasks/mx-00010-post-free-text-invoice.md
-            - name: Meksikas elektroniskās virsgrāmatas uzskaites pārskata versijas 1.1 sagatavošana
-              href: ../financials/localizations/tasks/mx-00020-electronic-ledger.md
             - name: Elektroniskā rēķina parametru iestatīšana
               href: ../financials/localizations/tasks/mx-00010-set-parameters-electronic-invoice.md
             - name: PVN kodu iestatīšana Meksikai
@@ -2423,13 +2437,13 @@
               href: ../talent/performance-management-overview.md
             - name: Darbaspēka prasmju saskaņošana ar biznesa vajadzībām
               href: ../talent/skills.md
-            - name: Iestatīt apmācību kursus
+            - name: Apmācību kursu iestatīšana
               href: ../talent/courses.md
         - name: Atvieglojumu izveidošana un uzturēšana
           items:
-            - name: Pārvaldīt atvieglojumu programmu
+            - name: Atvieglojumu programmas pārvaldība
               href: ../talent/manage-benefit-program.md
-            - name: Atvieglojumu piemērojamības ierobežojumi
+            - name: Atvieglojumu piemērojamības politikas
               href: ../talent/benefit-eligibility-policies.md
             - name: Atvieglojumu piemērojamības apstrāde
               href: hr/tasks/benefit-eligibility-process.md

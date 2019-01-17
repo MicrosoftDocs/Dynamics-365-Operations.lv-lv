@@ -19,10 +19,10 @@ ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 17981cef401085ad3af784950fff6260c2c6d9ee
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 653a388de1a972fae488abd81f349d1b138fc716
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -30,15 +30,16 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](includes/banner.md)]
 
-Visbiežākais scenārijs visiem mazumtirgotājiem ir preču pārdošana saviem klientiem vai atgriezto preču pieņemšana no tiem, pat ja konkrētās preces nav pieejamas veikalā (citiem vārdiem sakot, preces nav veikala sortimentā).
+Bieži izmantots scenārijs visiem mazumtirgotājiem ir preču pārdošana saviem klientiem vai atgriezto preču pieņemšana no tiem, pat ja konkrētās preces nav pieejamas veikalā (citiem vārdiem sakot, preces nav veikala sortimentā).
+
 Tālāk uzskaitīti daži tipiski scenāriji.
 
 + Mazumtirgotājam nav jānodrošina visu savu preču pieejamība konkrētā veikalā. Pārējās preces tiek glabātas noliktavā. Veikala darbinieks var palīdzēt klientam meklēt vai pārlūkot preces noliktavā, pievienot tās grozam un veikt norēķināšanos, izvēloties piegādes metodi, piemēram, piegādi uz adresi no noliktavas, vai arī klients preci var saņemt pašreizējā vai citā veikalā.
 + Mazumtirgotājam nav jānodrošina konkrētu preču pieejamība veikalā, kuru klients apmeklē, ja preces ir pieejamas citos veikalos. Veikala darbinieks var palīdzēt klientam meklēt vai pārlūkot preces citā veikalā, pievienot tās grozam un veikt norēķināšanos, izvēloties piegādes metodi.
 + Mazumtirgotājam ir vairāki veikali noteiktā pilsētā un tās tuvumā vai pasta indeksa teritorijā, un mazumtirgotājs nevēlas likt klientiem atgriezt preces tajā pašā veikalā, kurā tās iegādājās. Tā vietā klienti var atgriezt preces jebkurā veikalā.
 
-
 Šie visbiežākie scenāriji ir pieejami mazumtirgotājiem, kuri izmanto Dynamics 365 for Retail. Izmantojot Retail, var veikt šādas darbības:
+
 + meklēt vai pārlūkot preces citos veikalos;
 + meklēt vai pārlūkot visas izlaistās preces;
 + izveidot “pārdošana skaidrā naudā bez piegādes” transakcijas vai klientu pasūtījumus;

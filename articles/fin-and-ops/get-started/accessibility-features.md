@@ -16,10 +16,10 @@ ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a67b51ced4bea11be258aed359a758d88294beb1
-ms.openlocfilehash: bc48aa5ccf50705ef0c5087608798875953fe888
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: f88b485b0bdbf66532adff530e399bdd9d5b0ed5
 ms.contentlocale: lv-lv
-ms.lasthandoff: 11/05/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -41,7 +41,7 @@ Vairumam lietotāju sistēmas ikdienas lietošana ietver daudz datu ievadīšana
 
 Visas lapas, kurām var piekļūt, izmantojot navigācijas rūts izvēlni, galējo kreiso rūti, ir pieejamas arī no lodziņa **Meklēt**. Nospiediet taustiņu kombināciju Alt+G, lai fokusu pārvietotu uz lodziņu **Meklēt**, un pēc tam ierakstiet lapas nosaukumu vai aprakstu.
 
-![Meklēšanas lodziņā ievadīts teksts “bankas konti”](media/6d08b0be32808221023e2aa92d69fd70.png  "Meklēšanas lodziņā ievadīts teksts “bankas konti”")
+![Meklēšanas lodziņā ievadīts teksts “bankas konti”](media/6d08b0be32808221023e2aa92d69fd70.png "Meklēšanas lodziņā ievadīts teksts “bankas konti”")
 
 Papildinformāciju skatiet šeit: [Navigācijas meklēšana](navigation-search.md).
 
@@ -56,17 +56,17 @@ Katrai lapā nodrošinātajai darbībai var piekļūt no tastatūras, izmantojot
 
 Vēlaties palaist darbību **E-pasta paziņojumu žurnāls**, kas ir redzama darbību rūts cilnes **Pārdošanas pasūtījums** grupā **E-pasta paziņojums**.
 
-![Darbība E-pasta paziņojumu žurnāls darbību rūtī](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg  "Darbība E-pasta paziņojumu žurnāls darbību rūtī")
+![Darbība E-pasta paziņojumu žurnāls darbību rūtī](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Darbība E-pasta paziņojumu žurnāls darbību rūtī")
 
 Viena iespēja ir izmantot tastatūru. Nospiediet taustiņu kombināciju Ctrl+F6, lai fokusu pārvietotu uz darbību rūti, un pēc tam atkārtoti spiediet taustiņu Tab, lai pārvietotos pa cilnēm un darbībām, līdz fokuss ir vērsts uz darbību **E-pasta paziņojumu žurnāls**.
 
 Taču šo darbību varat palaist arī tiešāka veidā. No jebkuras vietas lapā nospiediet taustiņu kombināciju Ctrl+apostrofs ('), lai parādītu meklēšanas lodziņu darbībām.
 
-![Darbību meklēšanas lodziņš](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg  "Darbību meklēšanas lodziņš")
+![Darbību meklēšanas lodziņš](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Darbību meklēšanas lodziņš")
 
 Meklēšanas lodziņā ierakstiet vārdus, kas apraksta attiecīgo darbību. Darbība jums kļūst pieejama, un varat to palaist tiešā veidā. Piemēram, ierakstot **e-pasts**, **paziņ** (daļēju vārdu) vai **žurnāls**, varat “pārlēkt” uz funkcionalitāti E-pasta paziņojumu žurnāls.
 
-![Meklēšanas lodziņā ievadīts teksts “e-pasts”](media/image4.png "Meklēšanas lodziņā ievadīts teksts “e-pasts”") 
+![Meklēšanas lodziņā ievadīts teksts “e-pasts”](media/image4.png "Meklēšanas lodziņā ievadīts teksts “e-pasts”")
 
 ![Meklēšanas lodziņā ievadīts teksts “paziņ”](media/image5.png "Meklēšanas lodziņā ievadīts teksts “paziņ”")
 
@@ -82,7 +82,7 @@ Sistēmas ikdienas lietošanā tipisko uzdevumu izpildei nav nepieciešami visi 
 
 Taču pastāv iespēja, ka daži lauki, kurus bieži izmantojat uzdevumu veikšanai, nav ietverti ciļņu noklusējuma secībā. Tādā gadījumā, ja lietojat līdzekli Windows diktors, varat izmantot Windows diktora tastatūras darbības, lai šiem laukiem piekļūtu un izpētītu to saturu. Alternatīvi varat ieslēgt opciju **Uzlabota ciļņu secība** lapā **Opcijas**. Šī opcija ciļņu secībā ietver visus rediģējamos un tikai lasāmos laukus. Pēc tam varat izmantot lapas personalizēšanu, lai izveidotu pielāgotu ciļņu secību un izlaistu laukus, kas jums nav nepieciešami kā daļa no ciļņu secības. Papildinformāciju par personalizēšanu skatiet šeit: [Lietotāja pieredzes personalizēšana](personalize-user-experience.md).
 
-![Opcija Uzlabota ciļņu secība](media/8c0f12bbb3f26032997ef0ba95d89b6a.png  "Opcija Uzlabota ciļņu secība")
+![Opcija Uzlabota ciļņu secība](media/8c0f12bbb3f26032997ef0ba95d89b6a.png "Opcija Uzlabota ciļņu secība")
 
 ## <a name="form-patterns"></a>Formu modeļi
 

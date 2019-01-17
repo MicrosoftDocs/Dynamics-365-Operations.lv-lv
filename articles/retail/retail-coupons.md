@@ -19,10 +19,10 @@ ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: c718a71ca270c67118a90456bac0cf182032d3db
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: bd3596b6c78c5959ca289c73bcc5785eb770be39
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -32,16 +32,16 @@ ms.lasthandoff: 08/09/2018
 
 ## <a name="overview-of-coupons"></a>Pārskats par kuponiem
 
-Kuponi ir kodi un svītrkodi, kas tiek izmantoti, lai darījumiem pievienotu mazumtirdzniecības atlaides. Katram kuponam var būt vairāki kodi, un katram kodam var būt savs derīguma datumus. 
+Kuponi ir kodi un svītrkodi, kas tiek izmantoti, lai darījumiem pievienotu mazumtirdzniecības atlaides. Katram kuponam var būt vairāki kodi, un katram kodam var būt savs derīguma datumus.
 
-Katrs kupons ir saistīts ar vienu mazumtirdzniecības atlaidi. Cenu grupas, kas ir saistītas ar atlaidi, definē klientus, kas var izmantot kuponu vai kanālus, kur kupons ir derīgs. 
+Katrs kupons ir saistīts ar vienu mazumtirdzniecības atlaidi. Cenu grupas, kas ir saistītas ar atlaidi, definē klientus, kas var izmantot kuponu vai kanālus, kur kupons ir derīgs.
 
 Pamatā kuponi ir papildu apstiprināšana papildus mazumtirdzniecības atlaidēm. Kupons sniedz kupona kodus un svītrkodus, kas nepieciešami kopā ar šo kodu datumu diapazoniem. Kupons nodrošina arī papildu lietošanas ierobežojumus un klientiem nepieciešamos rekvizītus. Atlaide nodrošina preču kopu, kam kupons ir derīgs. Atlaides cenu grupas sniedz klientu, kanālu vai katalogu kopu, kam kupons ir derīgs.
 
-Lai izveidotu kuponu, atlaide un kupons ir jāizveido atsevišķi. Pēc tam tie jāsaista, atlasot atlaidi programmatūras Microsoft Dynamics 365 for Retail kupona lapā. 
+Lai izveidotu kuponu, atlaide un kupons ir jāizveido atsevišķi. Pēc tam tie jāsaista, atlasot atlaidi programmatūras Microsoft Dynamics 365 for Retail kupona lapā.
 
 > [!NOTE]
-> Pēc tam, kad kupons ir saistīts ar atlaidi, vairāki Microsoft Dynamics 365 for Retail atlaides lapas lauki kļūst tikai lasāmi, jo tos pārvalda kupona iestatījumi. Šie lauki ietver statusa un standarta datumu diapazona laukus.
+> Pēc tam, kad kupons ir saistīts ar atlaidi, vairāki Microsoft Dynamics 365 for Retail atlaides lapas lauki kļūst tikai lasāmi, jo tos pārvalda kupona iestatījumi. Šie lauki ietver statusa un standarta datumu diapazona laukus.
 
 ### <a name="limited-use-coupons"></a>Kuponi ar izmantošanas ierobežojumiem
 
@@ -54,31 +54,31 @@ Kupona ierobežojums tiek īstenots pēc kupona koda. Piemēram, vienreizēju ku
 
 ## <a name="managing-coupons"></a>Kuponu pārvaldība
 
-Atlaide un kupons ir jāizveido atsevišķi. Pēc tam tie jāsaista, atlasot atlaidi kupona lapā. Pēc tam, kad kupons ir saistīts ar atlaidi, vairāki atlaides lapas lauki kļūst tikai lasāmi, jo tos pārvalda kupona iestatījumi. Šie lauki ietver statusa un standarta datumu diapazona laukus.  
+Atlaide un kupons ir jāizveido atsevišķi. Pēc tam tie jāsaista, atlasot atlaidi kupona lapā. Pēc tam, kad kupons ir saistīts ar atlaidi, vairāki atlaides lapas lauki kļūst tikai lasāmi, jo tos pārvalda kupona iestatījumi. Šie lauki ietver statusa un standarta datumu diapazona laukus.
 
 Pamatā kuponi ir papildu apstiprināšana papildus mazumtirdzniecības atlaidēm. Kupons sniedz kupona kodus un svītrkodus, kas nepieciešami kopā ar šo kodu datumu diapazoniem, lietošanas ierobežojumiem un debitoram nepieciešamo rekvizītu. Atlaide nodrošina preču kopu, kam kupons ir derīgs. Atlaides cenu grupas sniedz klientu, kanālu vai katalogu kopu, kam kupons ir derīgs.
 
-## <a name="system-setup-for-coupons"></a>Kuponu sistēmas iestatīšana 
+## <a name="system-setup-for-coupons"></a>Kuponu sistēmas iestatīšana
 
-Lai iestatītu kuponu, ir jāiestata kupona svītrkods un divas kupona numuru sērijas. 
+Lai iestatītu kuponu, ir jāiestata kupona svītrkods un divas kupona numuru sērijas.
 
-1.  Lapā **Maskas rakstzīmes** izveidojiet jaunu maskas rakstzīmi kupona kodam. Iespējams atlasīt jebkuru neizmantotu rakstzīmi.
-2.  Lapā **Svītrkodu masku iestatīšana** izveidojiet jaunu svītrkoda masku. Laukam **Veids** iestatiet vērtību **Kupons**.
-3.  Lapā **Svītrkodu iestatīšana** izveidojiet jaunu svītrkodu, kas izmanto svītrkoda masku, ko tikko izveidojāt.
-4.  Lapā **Numuru sērijas** izveidojiet divas jaunas numuru sērijas. Viena sērija ir paredzēta kupona koda identifikatoram un otra — kupona numuram. Kupona koda ID ir unikāls katra kupona koda identifikators. Kupona numurs ir unikālais kupona identifikators. Katram kuponam var būt vairāki kodi un svītrkodi, kas aktivizē kuponu.
+1. Lapā **Maskas rakstzīmes** izveidojiet jaunu maskas rakstzīmi kupona kodam. Iespējams atlasīt jebkuru neizmantotu rakstzīmi.
+2. Lapā **Svītrkodu masku iestatīšana** izveidojiet jaunu svītrkoda masku. Laukam **Veids** iestatiet vērtību **Kupons**.
+3. Lapā **Svītrkodu iestatīšana** izveidojiet jaunu svītrkodu, kas izmanto svītrkoda masku, ko tikko izveidojāt.
+4. Lapā **Numuru sērijas** izveidojiet divas jaunas numuru sērijas. Viena sērija ir paredzēta kupona koda identifikatoram un otra — kupona numuram. Kupona koda ID ir unikāls katra kupona koda identifikators. Kupona numurs ir unikālais kupona identifikators. Katram kuponam var būt vairāki kodi un svītrkodi, kas aktivizē kuponu.
 
     > [!NOTE]
     > Abu numuru sēriju laukam **Sfēra** jāiestata vērtība **Uzņēmums**. Vairumā gadījumu jums automātiski jāģenerē abi sērijas numuri.
 
-5.  Lapas **Mazumtirdzniecības parametri** cilnē **Svītrkodi** atlasiet iepriekš izveidoto svītrkodu.
-6.  Lapas **Mazumtirdzniecības koplietojamie parametri** cilnē **Numuru sērijas** atlasiet numuru sērijas, ko izveidojāt kupona numuram un kupona koda identifikatoram.
-7.  Tagad varat atvērt lapu **Kuponi** un izveidot jaunus kuponus.
+5. Lapas **Mazumtirdzniecības parametri** cilnē **Svītrkodi** atlasiet iepriekš izveidoto svītrkodu.
+6. Lapas **Mazumtirdzniecības koplietojamie parametri** cilnē **Numuru sērijas** atlasiet numuru sērijas, ko izveidojāt kupona numuram un kupona koda identifikatoram.
+7. Tagad varat atvērt lapu **Kuponi** un izveidot jaunus kuponus.
 
 ## <a name="the-effect-of-partial-updates-on-coupons"></a>Daļēju atjauninājumu ietekme uz kuponiem
 
 Programmatūrā Dynamics 365 for Retail kupona funkcionalitāte ietver vairākus atšķirīgus līdzekļus. Microsoft Dynamics 365 for Retail headquarters (HQ) un kanālu var daļēji atjaunināt starp komponentiem. Tāpēc ir svarīgi saprast, kā daļēji atjauninājumi ietekmēt kupona funkcionalitāti kopumā.
 
 - **HQ tiek daļēji atjaunināts, bet Retail serveris un POS — netiek atjaunināti.** HQ atjauninājumā tiek atjaunināts kupons un atlaižu lapas, un mazumtirdzniecības cenu noteikšanas programma arī tiek atjaunināta. Ja tiek atjaunināts tikai viens no šiem diviem komponentiem, dažas Retail lapas neatbildīs cenu aprēķina datiem. Tāpēc atlaižu aprēķinu laikā var rasties neparedzēti atlaižu aprēķini var kļūdas.
-- **HQ tiek atjaunināts, bet Retail serveris un POS — netiek atjaunināti (N-1).** Ne visus mazumtirdzniecības veikalus var atjaunināt vienlaicīgi, tādēļ HQ ieteicams atjaunināt pirms mazumtirdzniecības veikalu atjaunināšanas. N-1 scenārijā jaunā funkcionalitāte, kas ir saistīts ar kuponiem, nebūs pieejama veikalos, kas vēl nav atjaunināti. Piemēram, kupona funkcionalitāte ievieš rindas “Izslēgt”. Ja atlaidei izmantojat rindu izslēgšanu, tās netiks piemērotas mazumtirdzniecības veikalā, kurā darbojas vecāka versija.
+- **HQ tiek atjaunināts, bet Retail serveris un POS — netiek atjaunināti (N-1).** Ne visus mazumtirdzniecības veikalus var atjaunināt vienlaicīgi, tādēļ HQ ieteicams atjaunināt pirms mazumtirdzniecības veikalu atjaunināšanas. N-1 scenārijā jaunā funkcionalitāte, kas ir saistīta ar kuponiem, nebūs pieejama veikalos, kas vēl nav atjaunināti. Piemēram, kupona funkcionalitāte ievieš rindas “Izslēgt”. Ja atlaidei izmantojat rindu izslēgšanu, tās netiks piemērotas mazumtirdzniecības veikalā, kurā darbojas vecāka versija.
 - **HQ netiek atjaunināts, bet Retail serveris un POS — tiek atjaunināti (N+1).** Atjauninātā Retail servera cenu noteikšanas programma var apstrādāt mantojuma atlaižu kodus cenu aprēķinu laikā, tādēļ šajā scenārijā atjauninājumam nevajadzētu ietekmēt darbību.
 

@@ -3,7 +3,7 @@ title: "Pieejamās aprūpes akta (ACA) pārskatu ģenerēšana"
 description: "Ir pieejama funkcionalitāte, kura palīdz darba devējiem, kam ir nepieciešams sekot līdzi formās 1095-B un 1095-C ziņotajai informācijai, ievērojot pieejamās aprūpes akta (Affordable Care Act — ACA) prasības daļā Darba devēja mandāts. Ņemiet vērā, ka šī funkcionalitāte ir iespējota tikai juridiskajām personām Amerikas Savienotajās Valstīs."
 author: kherr75
 manager: AnnBe
-ms.date: 07/01/2017
+ms.date: 12/17/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -18,10 +18,10 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 25d2b8326bba69ac627f3fa7e05a6c850bd04c91
+ms.sourcegitcommit: f1456b91d6fc29ec65d0e9382d3f5f7682a8b516
+ms.openlocfilehash: 0ea2824093d33b9f233cd992399de22198bfc27a
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/17/2018
 
 ---
 # <a name="generate-affordable-care-act-aca-reports"></a>Pieejamās aprūpes akta (ACA) pārskatu ģenerēšana
@@ -54,7 +54,7 @@ Lapā **Apgādājamā seguma datumu pārvaldnieks** varat norādīt datumus, kad
 ## <a name="generate-1095b-and-1095c-forms"></a>Ģenerēt formas 1095B un 1095C
 Šī produkta ietvaros varat arī ģenerēt formas 109-B un 1095-C un tās izdalīt katram no saviem darbiniekiem. No sistēmas var arī elektroniski ģenerēt 1095-C un atbilstošos 1094-C pārsūtīšanas failus, kurus var izmantot, lai sūtītu uz IRS.  
 
-Kad ģenerējat 1095-C formu, ievadiet arī atbilstošo kalendāro vai taksācijas gadu, it kā vēlētos izdrukāt divu lapu vai trīs lapu formu. Trīs lapu forma ir nepieciešama tikai tad, ja darba devējs nodrošināja paša apdrošinātu segumu un darbiniekam ir vairāk par sešiem ietvertajiem apgādājamajiem, ieskaitot pašu darbinieku. Ģenerējot divu lapu formu, sistēma automātiski konstatē, vai darbiniekam ir vairāk par 6 ietvertajiem apgādājamajiem, un neietver šo darbinieku, ģenerējot formu. Turklāt, ģenerējot trīs lapu formu, sistēmas ietver tikai tos darbiniekus, kuriem ir vairāk par sešiem ietvertajiem apgādājamajiem.
+Ģenerējot formu 1095-C, ievadiet attiecīgo taksācijas gadu un norādiet, vai ir jāaizklāj sociālās apdrošināšanas numurs. Ja drukājat formas 1095-C vairāk nekā 500 darbiniekiem, jūs saņemsiet vairāk nekā vienu PDF failu. Ir ieteicams palielināt loga **Dokumentu pārvaldības parametri** iestatījuma **Maksimālais faila lielums** vērtību līdz 150 MB.
 
 ## <a name="viewing-information"></a>Informācijas skatīšana
 Lapu **Pieejamās aprūpes segums nodarbinātajam** varat izmantot, lai redzētu, kuri darbinieki ir piešķirti kurai seguma grupai, kuri darbinieki nav jāietver pārskatā, un kuri darbinieki nav piešķirti.

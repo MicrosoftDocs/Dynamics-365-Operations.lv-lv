@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
-ms.openlocfilehash: f27f228e48da653a9caf666f9053fe45a7c23745
+ms.sourcegitcommit: 67dc5b5cdec797f19a742addd05c6002aa31cf15
+ms.openlocfilehash: e619b24fc790399452d6233b2d04987357d87186
 ms.contentlocale: lv-lv
-ms.lasthandoff: 12/04/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -174,11 +174,11 @@ Repozitorijs **Failu sistēma** nodrošina piekļuvi konfigurāciju sarakstam, k
 - mākoņvides, kas izvietotas izstrādes nolūkos (satur pievienoto komplektu pārbaudes modeļus)
 - lokāli izvietotas vides (lokāla vai vietēja biznesa datu izvietošana (LBD))
 
-Papildinformāciju skatiet lapā [Importēt elektronisko pārskatu (ER) konfigurācijas](/electronic-reporting-import-ger-configurations.md).
+Papildinformāciju skatiet lapā [Importēt elektronisko pārskatu (ER) konfigurācijas](./electronic-reporting-import-ger-configurations.md).
 
 Repozitorijs **RCS instance** nodrošina piekļuvi noteiktas RCS instances konfigurāciju sarakstam, kura tika atlasīta repozitorija reģistrācijas posmā. ER ļauj importēt pabeigtas vai koplietojamas konfigur. no atlasītās RCS inst. pašreizējā Finance and Operations instancē un izmantot elektronisko pārskatu veidošanā.
 
-Papildinformāciju skatiet lapā [Importēt elektronisko pārskatu (ER) konfigurācijas no regulējošās konfigurācijas pakalpojumiem (RCS)](/rcs-download-configurations.md).
+Papildinformāciju skatiet lapā [Importēt elektronisko pārskatu (ER) konfigurācijas no regulējošās konfigurācijas pakalpojumiem (RCS)](./rcs-download-configurations.md).
 
 Nepiec. repozitorijus **LCS projekts**, **Failu sistēma** un **Regulējošās konfigurācijas pakalpojumi (RCS)** var atsevišķi reģ. katram pašreizējās Finance and Operations instances konfigurāciju nodrošinātājam. Katru repozitoriju var piešķirt noteiktam konfigurācijas nodrošinātājam.
 

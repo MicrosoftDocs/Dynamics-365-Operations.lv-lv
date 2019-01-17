@@ -261,6 +261,8 @@
               href: extensibility/extensibility-changes-811.md
             - name: "Paplašināmības izmaiņas versijā\_8.1.2"
               href: extensibility/extensibility-changes-812.md
+            - name: "Paplašināmības izmaiņas versijā\_8.1.3"
+              href: extensibility/extensibility-changes-813.md
         - name: Pamati
           items:
             - name: Traucējoši pielāgojumi
@@ -883,16 +885,37 @@
       href: deployment/deploy-demo-environment.md
     - name: Mākoņa izvietošana
       items:
+        - name: Patstāvīgi izmantojama pakalpojuma izvietošana
+          href: deployment/infrastructure-stack.md
+          items:
+            - name: Jaunas vides izvietošana
+              href: deployment/deployenvironment-newinfrastructure.md
+            - name: Bieži uzdotie jautājumi par izvietošanu
+              href: deployment/deploymentFAQ.md
+            - name: Zināmās problēmas ar patstāvīgi izmantojama pakalpojuma izvietošanu
+              href: deployment/known-issues-new-deployment-experience.md
+            - name: 'Uzturēšanas operācijas, veicot izvietošanu'
+              href: deployment/maintenanceoperationsguide-newinfrastructure.md
+            - name: Vides atjaunināšana
+              href: deployment/updateenvironment-newinfrastructure.md
+            - name: 'Problēmu novēršana vidēs, kas izvietotas, izmantojot patstāvīgi izmantojama pakalpojuma izvietošanu'
+              href: deployment/troubleshoot-newinfrastructure.md
         - name: Azure Resource Manager pievienošanas pabeigšana
           href: deployment/arm-onboarding.md
         - name: Azure ExpressRoute un Finance and Operations
           href: deployment/expressroute.md
         - name: Finance and Operations arhitektūra
           href: ../fin-and-ops/imp-lifecycle/architecture-overview.md
-    - name: Lokāla izvietošana
+        - name: Atjauninājumu lietošana mākoņa vidēs
+          href: deployment/apply-deployable-package-system.md
+        - name: Atjauninājumu un paplašinājumu lietošana mākonī viesotos Retail kanāla komponentos
+          href: deployment/Update-retail-channel.md
+        - name: Mākonī viesotu Retail kanāla komponentu inicializēšana
+          href: deployment/Initialize-Retail-Channels.md
+    - name: Lokāls izvietojums
       href: deployment/on-premises-deployment-landing-page.md
       items:
-        - name: Lokālas izvietošanas opcija
+        - name: Lokāla izvietojuma opcija
           href: deployment/on-premises-overview.md
         - name: Plānošana un sagatavošanās lokāliem izvietojumiem
           href: deployment/plan-onprem-deployment.md
@@ -925,14 +948,12 @@
           href: lifecycle-services/reconfigure-environment.md
         - name: Klienta interneta savienojamība
           href: user-interface/client-disconnected.md
-        - name: Lokālo izvietojumu problēmu novēršana
+        - name: Lokālu izvietojumu problēmu novēršana
           href: deployment/troubleshoot-on-prem.md
     - name: Pielāgota koda izvietošana
       items:
         - name: Izvietojamu modeļu pakotņu izveide
           href: deployment/create-apply-deployable-package.md
-        - name: Atjauninājumu lietošana mākoņa vidēs
-          href: deployment/apply-deployable-package-system.md
         - name: Izvietojamu pakotņu instalēšana no komandrindas
           href: deployment/install-deployable-package.md
         - name: Pakotnes atinstalēšana
@@ -1019,10 +1040,8 @@
           href: migration-upgrade/versions-update-policy.md
         - name: Jaunākā platformas atjauninājuma lietošana vidēm
           href: migration-upgrade/upgrade-latest-platform-update.md
-        - name: "Dynamics AX platformas jaunināšana uz 2016.\_gada augusta izlaidi"
+        - name: "Dynamics AX platformas jaunināšana uz 2016.\_gada augusta laidienu"
           href: migration-upgrade/update-platform-each-release.md
-        - name: Smilškastes vides jaunināšana
-          href: migration-upgrade/upgrade-sandbox-environment.md
         - name: 'Datu jaunināšana izstrādes, demonstrācijas vai smilškastes vidēs'
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: Izstrādes rīku atjaunināšana

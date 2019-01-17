@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 8dcba52526dd9dad1bd8b9753224f6386923f5a1
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: ba8fade84358c960dcfd1e8d9ffef1ffede34871
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -57,7 +57,7 @@ Pēc tam, kad aizturēšanas informācija ir ievadīta un saglabāta, lietotājs
 
 Ja zvanu centra kanālā ir ieslēgts karodziņš **Iespējot pasūtījuma pabeigšanu**, pasūtījumam, kas ir aizturēts, nav jāpiemēro maksājums. Turpretim tāda pārdošanas pasūtījuma gadījumā, kas nav aizturēts, lietotāji nevar aizvērt pārdošanas pasūtījuma ievades lapu, līdz tiek piemērots maksājums. Maksājums būs nepieciešams, pirms pasūtījuma aizturēšanas noņemšanas.
 
-Turklāt zvanu centra lietotāji var noteikt manuālu aizturēšanu pārkāpuma dēļ pasūtījumiem, kas ir aizdomīgi kāda iemesla dēļ. Pasūtījumiem var arī noteikt aizturēšanu automātiski, ja tie atbilst aktīviem pārkāpuma kritērijiem un kārtulām. Plašāku informāciju par šāda veida pasūtījuma aizturēšanu skatiet sadaļā [Pārkāpumu brīdinājumu iestatīšana](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/set-up-fraud-alerts).
+Turklāt zvanu centra lietotāji var noteikt manuālu aizturēšanu pārkāpuma dēļ pasūtījumiem, kas ir aizdomīgi kāda iemesla dēļ. Pasūtījumiem var arī noteikt aizturēšanu automātiski, ja tie atbilst aktīviem pārkāpuma kritērijiem un kārtulām. Plašāku informāciju par šāda veida pasūtījuma aizturēšanu skatiet sadaļā [Pārkāpumu brīdinājumu iestatīšana](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts).
 
 ## <a name="viewing-and-managing-orders-that-are-on-hold"></a>Aizturētu pasūtījumu skatīšana un pārvaldīšana
 

@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 1ea4309d57a7b6b4ca4ae3fdd995c95d93c5c080
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: faf8cdcee70b55842072298b51789f6cd7a577af
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -34,40 +34,37 @@ ms.lasthandoff: 08/09/2018
 Šajā tēmā ir aprakstīts, kā mainīt valodas iestatījumus programmās Retail Modern POS (MPOS) un Cloud POS.
 
 ## <a name="overview"></a>Pārskats
+
 Programmas Retail Modern POS (MPOS) un Cloud POS atbalsta vides, kurās veikala un lietotāja iestatījumos var atšķirties valodas iestatījumi un tulkojumi. Piemēram, veikals var atrasties reģionā, kur vairums debitoru runā angļu valodā, taču daži nodarbinātie vēlas izmantot lietojumprogrammu ar tulkojumiem franču valodā.
 
 ## <a name="data-language"></a>Datu valoda
-Neatkarīgi no lietotāja iestatījumiem programmās MPOS un Cloud POS vienmēr tiek izmantoti veikala valodas iestatījumi, lai noteiktu datiem lietotos tulkojumus. Tādējādi tiek nodrošināts, ka visiem lietotājiem un debitoriem ir pieejamas vienādas iespējas.  Tālāk ir norādīti datu piemēri.
 
--   Preces
--   Atribūti un vērtības
--   Kategoriju nosaukumi
--   Drukātas vai e-pastā sūtītas transakciju kvītis
--   Maksāšanas metožu nosaukumi
--   Rindu displeja ziņojumi
+Neatkarīgi no lietotāja iestatījumiem programmās MPOS un Cloud POS vienmēr tiek izmantoti veikala valodas iestatījumi, lai noteiktu datiem lietotos tulkojumus. Tādējādi tiek nodrošināts, ka visiem lietotājiem un debitoriem ir pieejamas vienādas iespējas. Tālāk ir norādīti datu piemēri.
+
+- Preces
+- Atribūti un vērtības
+- Kategoriju nosaukumi
+- Drukātas vai e-pastā sūtītas transakciju kvītis
+- Maksāšanas metožu nosaukumi
+- Rindu displeja ziņojumi
 
 Veikala valoda tiek lietota arī galvenajā POS pieteikšanās ekrānā, jo pirms pieteikšanās nav zināms, kurš lietotājs izmanto POS. Ja nav pieejams tulkojums veikala valodā, POS tiek pārslēgts atpakaļ uzņēmuma valodā.
 
 ### <a name="configuring-the-stores-language-setting"></a>Veikala valodas iestatījumu konfigurēšana
 
-Veikala valodas iestatījumu var norādīt, lapas **Mazumtirdzniecības veikals** sadaļā **Visi mazumtirdzniecības veikali** noklikšķinot uz **Vispārīgi &gt; Reģionālie iestatījumi &gt; Valoda. **Izmantojiet nolaižamo izvēlni, lai izvēlētos katra veikala valodu.
+Veikala valodas iestatījumu var norādīt, lapas **Mazumtirdzniecības veikals** sadaļā **Visi mazumtirdzniecības veikali** noklikšķinot uz **Vispārīgi &gt; Reģionālie iestatījumi &gt; Valoda**. Izmantojiet nolaižamo izvēlni, lai izvēlētos katra veikala valodu.
 
 ## <a name="user-interface-language"></a>Lietotāja interfeisa valoda
-POS lietotāja valodas iestatījums nosaka tulkojumus, kas tiek izmantoti lietojumprogrammas lietotāja interfeisā. Tas attiecas uz visām etiķetēm, izvēlnēm un sarakstiem, kas netiek uzskatīti par datiem. Vienīgais izņēmums ir teksts, kas tiek rādīts POS pogu režģos. Pogu režģi neatbalsta tulkojumus, tāpēc tajos teksts vienmēr tiek rādīts tā, kā tas ir definēts uz pogas. Lai nodrošinātu pogu tulkojumus, ir jākopē un jāuztur atsevišķi pogu režģi un tie ir jāpiešķir atbilstošajiem lietotājiem.
+
+POS lietotāja valodas iestatījums nosaka tulkojumus, kas tiek izmantoti programmas lietotāja interfeisā. Tas attiecas uz visām etiķetēm, izvēlnēm un sarakstiem, kas netiek uzskatīti par datiem. Vienīgais izņēmums ir teksts, kas tiek rādīts POS pogu režģos. Pogu režģi neatbalsta tulkojumus, tāpēc tajos teksts vienmēr tiek rādīts tā, kā tas ir definēts uz pogas. Lai nodrošinātu pogu tulkojumus, ir jākopē un jāuztur atsevišķi pogu režģi un tie ir jāpiešķir atbilstošajiem lietotājiem.
 
 ### <a name="configuring-the-users-language-setting"></a>Lietotāja valodas iestatījumu konfigurēšana
 
-POS lietotāja valodas iestatījumus var iestatīt, lapas **Nodarbinātais** sadaļā **Visi nodarbinātie** noklikšķinot uz **Mazumtirdzniecība &gt; Valoda**.  Tas netiek iestatīts galvenajā cilnē Profils. Šo iestatījumu neizmanto POS. Ja lietotāja valoda nav iestatīta vai tā ir iestatīta uz valodu, kurā tulkojumi nav pieejami, POS atgriezīsies pie veikala valodas.  
+POS lietotāja valodas iestatījums tiek iestatīts, lapas **Darbinieks** sadaļā **Visi darbinieki** atlasot **Mazumtirdzniecība &gt; Valoda**. Tas netiek iestatīts galvenajā cilnē Profils. Šo iestatījumu neizmanto POS. Ja lietotāja valoda nav iestatīta vai tā ir iestatīta uz valodu, kurā tulkojumi nav pieejami, POS atiestatīs veikala valodu.
 
-|             |                            |                                                                   |
-|-------------|----------------------------|-------------------------------------------------------------------|
-| ** **       | **UI valoda** ** **      | **Datu valoda (preces, kvīšu formāti, rindu displejs utt.)** |
-| **Uzņēmums** | Noklusējums                    | Noklusējums                                                           |
-| **Veikals**   | Ignorē uzņēmumu          | Ignorē uzņēmumu                                                 |
-| **Lietotājs**    | Ignorē veikalu vai uzņēmumu | Nekad                                                             |
-
-
-
-
-
+|             | UI  valoda                   | Datu valoda (preces, kvīšu formāti, rindu displejs utt.) |
+|-------------|----------------------------|---------------------------------------------------------------|
+| **Uzņēmums** | Noklusējums                    | Noklusējums                                                       |
+| **Veikals**   | Ignorē uzņēmumu          | Ignorē uzņēmumu                                             |
+| **Lietotājs**    | Ignorē veikalu vai uzņēmumu | Nekad                                                         |
 

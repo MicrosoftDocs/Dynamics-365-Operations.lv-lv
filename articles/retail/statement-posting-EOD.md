@@ -17,10 +17,10 @@ ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: d428da2a6fb8ce5d63c3373def879c9b32cfd492
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 3e8c5466a68fa87326c46a4e36bf7399be1279c6
 ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -59,11 +59,12 @@ Kā daļa no izrakstu grāmatošanas līdzekļa uzlabojumiem lapas **Mazumtirdzn
 
 Turklāt kopsavilkuma cilnē **Pakešapstrāde** ir ieviests lauks **Maksimālais paralēli grāmatojamo izrakstu skaits**. Šis lauks nosaka vienlaikus pildāmo pakešuzdevumu skaitu. Pašlaik šī lauka vērtība jums ir jāiestata manuāli.
 
-Turklāt ar jaunu grāmatošanas procesu, ir nepieciešams definēt **dāvanu kartes preci** kopsavilkuma cilnē **Dāvanu karte** (pieejama cilnē **Grāmatošana**, kas pieejama lapā **Mazumtirdzniecības parametri**). Šis nosacījums ir spēkā, pat ja organizācija neizmanto dāvanu kartes. 
+Turklāt ar jaunu grāmatošanas procesu, ir nepieciešams definēt **Dāvanu kartes preci** kopsavilkuma cilnē **Dāvanu karte** (pieejama cilnē **Grāmatošana**, kas pieejama lapā **Mazumtirdzniecības parametri**). Šis nosacījums ir spēkā, pat ja organizācija neizmanto dāvanu kartes.
 
 Ņemiet vērā, ka visi iestatījumi un parametri, kas ir saistīti ar izrakstu grāmatojumiem un kas ir definēti mazumtirdzniecības veikaliem un lapā **Mazumtirdzniecības parametri**, ir lietojami uzlabotajam izrakstu grāmatošanas līdzeklim.
 
 ## <a name="processing"></a>Apstrādāšana
+
 Izrakstus var aprēķināt un grāmatot pakešveidā, izmantojot izvēlnes vienumus **Aprēķināt izrakstus partijā** un **Grāmatot izrakstus partijā**. Tāpat izrakstus var manuāli aprēķināt un grāmatot, izmantojot izvēlnes vienumu **Mazumtirdzniecības izraksti**, kuru nodrošina uzlabotais izrakstu grāmatošanas līdzeklis.
 
 Procedūras un darbības izrakstu aprēķināšanai un grāmatošanai pakešveidā ir tādi paši kā tie, kādi tika izmantoti mantotajā izrakstu grāmatošanas līdzeklī. Taču ir veikti būtiski uzlabojumi izrakstu aizmugursistēmas pamata apstrādē. Ar šiem uzlabojumiem apstrāde ir padarīta elastīgāka, kā arī ir nodrošināts labāks ieskats informācijā par stāvokļiem un kļūdām. Tādēļ lietotāji var risināt kļūdu galvenos cēloņus un pēc tam turpināt grāmatošanas procesu, neizraisot datu bojājumus un neizraisot nepieciešamību pēc datu labojumiem.
@@ -71,6 +72,7 @@ Procedūras un darbības izrakstu aprēķināšanai un grāmatošanai pakešveid
 Nākamajās sadaļās ir aprakstīti daži galvenie izrakstu grāmatošanas līdzekļa uzlabojumi, kas tiek rādīti lietotāja interfeisā mazumtirdzniecības izrakstos un grāmatotajos izrakstos.
 
 ### <a name="status-details"></a>Detalizēta informācija par statusu
+
 Izrakstu grāmatošanas procedūrā visos aprēķināšanas un grāmatošanas procesos ir ieviests jauns stāvokļa modelis.
 
 Nākamajā tabulā ir aprakstīti dažādie stāvokļi un to secība aprēķināšanas procesa laikā.
@@ -109,9 +111,11 @@ Katrs stāvoklis iepriekšējās tabulās ir neatkarīgs, un starp stāvokļiem 
 Turklāt otrās un trešās sadaļas galvenēs tiek rādīts attiecīgā procesa vispārējais statuss.
 
 ### <a name="event-logs"></a>Notikumu žurnāli
+
 Izrakstam tiek izpildītas dažādas operācijas (piemēram, Izveidot, Aprēķināt, Notīrīt un Grāmatot), un izraksta dzīves cikla laikā var tikt izsauktas vairākas tās pašas operācijas instances. Piemēram, kad izraksts ir izveidots un aprēķināts, lietotājs var notīrīt šo izrakstu un aprēķināt to vēlreiz. Poga **Notikumu žurnāli** izraksta grupā **Detalizēta informācija par izpildi** sniedz pilnīgus auditācijas pierakstus par dažādajām operācijām, kuras tika izsauktas kādam izrakstam, kopā ar informāciju par šo operāciju izsaukšanas laiku.
 
 ### <a name="aggregated-transactions"></a>Uzkrātās transakcijas
+
 Grāmatošanas procesa laikā pārdošanas transakcijas tiek apkopotas, pamatojoties uz konfigurāciju. Šīs apkopotās transakcijas tiek glabātas sistēmā un tiek izmantotas pārdošanas pasūtījumu veidošanai. Katra apkopotā transakcija sistēmā veido vienu atbilstošo pārdošanas pasūtījumu. Apkopotās transakcijas varat skatīt, izmantojot pogu **Apkopotās transakcijas** izraksta grupā **Detalizēta informācija par izpildi**.
 
 Apkopotās transakcijas cilnē **Detalizēta informācija par pārdošanas pasūtījumu** tiek rādīta tālāk aprakstītā informācija.
@@ -136,11 +140,13 @@ Apkopotās transakcijas skats nodrošina tālāk norādītās priekšrocības.
 - Apkopotais XML fails ļaut vienkāršāk identificēt problēmas pārdošanas pasūtījuma izveidošanas un rēķina izrakstīšanas laikā.
 
 ### <a name="journal-vouchers"></a>Žurnālu dokumenti
+
 Poga **Žurnālu dokumenti** izraksta grupā **Detalizēta informācija par izpildi** rāda visas dažādās dokumentu transakcijas, kas ir izveidotas kādam izrakstam un kas ir saistītas ar atlaidēm, ieņēmumu/izdevumu kontiem, dāvanu kartēm un citiem iestatījumiem.
 
 Pašlaik šos datus programma rāda tikai iegrāmatotiem izrakstiem.
 
 ### <a name="payment-journals"></a>Maksājumu žurnāli
+
 Poga **Maksājumu žurnāli** izraksta grupā **Detalizēta informācija par izpildi** rāda visus dažādos maksājumu žurnālus, kas ir izveidotu kādam izrakstam.
 
 Pašlaik šos datus programma rāda tikai iegrāmatotiem izrakstiem.

@@ -59,4 +59,3 @@ Turklāt uzlabotajā mazumtirdzniecības preču kategorijas struktūrā preču p
 
 ![Dialoglodziņš Atjaunināt preces](media/NewUpdateProductsEnhancedView.PNG)
 
-

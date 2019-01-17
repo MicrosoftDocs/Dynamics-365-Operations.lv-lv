@@ -31,33 +31,30 @@ ms.lasthandoff: 11/03/2017
 
 [!include [banner](includes/banner.md)]
 
-Šajā rakstā ir paskaidrots, kā varat izmantot atmiņā saglabāto datu un reāllaika analīzi, la piekļūtu informācijai par debitoriem un preču ienesīgumu, pētītu šo informāciju un gūtu par to ieskatus, izmantojot Microsoft Dynamics 365 for Retail datus. 
+Šajā rakstā ir paskaidrots, kā varat izmantot atmiņā saglabāto datu un reāllaika analīzi, la piekļūtu informācijai par debitoriem un preču ienesīgumu, pētītu šo informāciju un gūtu par to ieskatus, izmantojot Microsoft Dynamics 365 for Retail datus.
 
 Programmatūrā Dynamics 365 for Retail lietotāji var pētīt labāko debitoru (no 10 līdz 100) ienesīgumu dažādos organizācijas hierarhijas līmeņos, pamatojoties uz vienu no tālāk norādītajiem kritērijiem.
 
--   Pārdošanas summa
--   Daudzums
--   Bruto peļņas norma
--   Uzcenojuma procenti
+- Pārdošanas summa
+- Daudzums
+- Bruto peļņas norma
+- Uzcenojuma procenti
 
 Lai veiktu šo izvērtēšanu, var izmantot inovatīvo pārskatu **Lielākie debitori**, kuru var atvērt, izmantojot vienu no tālāk norādītajiem ceļiem.
 
--   Darbvieta **Mazumtirdzniecības veikala pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Lielāko debitoru pārskats**
--   Sadaļa **Pieprasījumi un pārskati** &gt; **Mazumtirdzniecība** &gt; **Pieprasījumi un pārskati** &gt; **Pārdošanas pārskati** &gt; **Lielāko debitoru pārskats**
+- Darbvieta **Mazumtirdzniecības veikala pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Lielāko debitoru pārskats**
+- Sadaļa **Pieprasījumi un pārskati** &gt; **Mazumtirdzniecība** &gt; **Pieprasījumi un pārskati** &gt; **Pārdošanas pārskati** &gt; **Lielāko debitoru pārskats**
 
 Līdzīgi lietotāji var pētīt augstākās kvalitātes preču (10–100) rentabilitāti dažādos organizācijas hierarhijas līmeņos, ņemot vēra tālāk norādītos kritērijus.
 
--   Pārdošanas summa
--   Daudzums
--   Bruto peļņas norma
--   Uzcenojuma procenti
+- Pārdošanas summa
+- Daudzums
+- Bruto peļņas norma
+- Uzcenojuma procenti
 
 Lai veiktu šo izvērtēšanu, var izmantot standarta komplektācijā iekļauto pārskatu **Labākās preces**, kuru var atvērt, izmantojot vienu no tālāk norādītajiem ceļiem.
 
--   Darbvieta **Mazumtirdzniecības veikala pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Labāko preču pārskats**
--   Darbvieta **Kategorijas un preču pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Preces un kategorijas** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Labāko preču pārskats**
--   Sadaļa **Pieprasījumi un pārskati** &gt; **Mazumtirdzniecība** &gt; **Pieprasījumi un pārskati** &gt; **Pārdošanas pārskati** &gt; **Labāko preču pārskats**
-
-
-
+- Darbvieta **Mazumtirdzniecības veikala pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Labāko preču pārskats**
+- Darbvieta **Kategorijas un preču pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Preces un kategorijas** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Labāko preču pārskats**
+- Sadaļa **Pieprasījumi un pārskati** &gt; **Mazumtirdzniecība** &gt; **Pieprasījumi un pārskati** &gt; **Pārdošanas pārskati** &gt; **Labāko preču pārskats**
 
