@@ -30,7 +30,6 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 Nodaļas, amati un pozīcijas ir organizācijas elementi, kas tiek uzturēti personāla vadības procesā. Šajā tēmā ir sniegta konceptuāla informācija par šiem elementiem. 
 
