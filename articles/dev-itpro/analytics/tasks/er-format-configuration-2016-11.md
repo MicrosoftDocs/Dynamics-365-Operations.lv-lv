@@ -35,8 +35,10 @@ Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elek
 2. Noklikšķiniet uz **Pārskatu veidošanas konfigurācijas**.
 3. Kokā atlasiet **Maksājumi (vienkāršotais modelis)**.
 4. Noklikšķiniet uz **Izveidot konfigurāciju**, lai atvērtu nolaižamo dialoglodziņu.
+
  > [!NOTE]
  > Ja neredzat opciju **Izveidot konfigurāciju**, ir jāiespējo noformēšanas režīms lapā **Elektronisko pārskatu veidošanas parametri**. 
+ 
 5. Laukā **Jauns** ievadiet **Uz datu modeli PaymentModel balstīts formātsl**.
 6. Laukā **Nosaukums** ierakstiet **BAKS (UK fiktīvs)**.
 7. Laukā **Apraksts** ierakstiet **BAKS kreditora maksājuma formāts (UK fiktīvs)**.
@@ -44,6 +46,7 @@ Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elek
     * Var definēt noteiktu elektroniskā dokumenta formātu. Atstājiet šo lauku tukšu, ja vēlaties atlasīt formātu izpildes laikā.  
 8. Ievadiet vai atlasiet kādu vērtību laukā **Datu modeļa definīcija**.
 9. Klikšķiniet **Izveidot konfigurāciju**. Tika izveidota jauna konfigurācija. Melnraksta versiju var izmantot, lai saglabātu dizaina formātu elektronisko dokumentu pārvaldībai.  
+
  > [!NOTE]
  > Ja neredzat opciju **Izveidot konfigurāciju**, ir jāiespējo noformēšanas režīms lapā **Elektronisko pārskatu veidošanas parametri**.
 
