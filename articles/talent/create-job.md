@@ -30,7 +30,6 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 Šajā tēmā ir aprakstīti konceptuālie elementi, kas var būt iekļauti darbā, un sniegti piemēri par to, kā šos elementus varat lietot savā organizācijā. 
 
