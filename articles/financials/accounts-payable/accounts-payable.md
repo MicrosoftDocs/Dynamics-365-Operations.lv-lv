@@ -1,13 +1,13 @@
 ---
-title: "Moduļa “Parādi kreditoriem” sākumlapa"
-description: "Šajā tēmā ir sniegts apskats par moduli Parādi kreditoriem."
+title: Moduļa “Parādi kreditoriem” sākumlapa
+description: Šajā tēmā ir sniegts apskats par moduli Parādi kreditoriem.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 6cc7ee98b3fabb774339dd1fc027d38d00d8b31f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 7bc09cbd108949b37ea1b2207fc3e0c6961abf4b
-ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302583"
 ---
-
 # <a name="accounts-payable-home-page"></a>Moduļa “Parādi kreditoriem” sākumlapa
 
 [!include [banner](../includes/banner.md)]
@@ -38,21 +37,21 @@ Kreditoru rēķinus varat ievadīt manuāli vai saņemt tos elektroniski, izmant
 
 [![Biznesa process](./media/AP-process.PNG)](./media/AP-process.PNG)
 
-## <a name="set-up-accounts-payable"></a>Moduļa Kreditori iestatīšana
+## <a name="set-up-accounts-payable"></a>Moduļa “Parādi kreditoriem” iestatīšana
 
 Iestatiet kreditoru grupas, kreditorus, grāmatošanas metodes, dažādus maksājumu variantus un ar kreditoriem saistītos parametrus, maksas, piegādes un adresātus, parādzīmes, kā arī citu veidu kreditoru informāciju. 
 
-[Moduļa Kreditori konfigurēšana](accounts-payable-overview.md)
+[Moduļa “Parādi kreditoriem” konfigurēšana](accounts-payable-overview.md)
 
 [Uzskaites sadales un apakšgrāmatas žurnālu ieraksti kreditoru rēķiniem](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
 
-[Ārvalstu valūtas pārvērtēšana moduļiem Kreditori un Debitori](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
+[Ārvalstu valūtas pārvērtēšana moduļiem “Parādi kreditoriem” un “Debitoru parādi”](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
 
 ## <a name="configure-vendor-invoices"></a>Kreditoru rēķinu konfigurēšana
 
-Izmantojiet moduli Kreditori, lai izsekotu kreditoru rēķinus un izejošos izdevumus.
+Izmantojiet moduli “Parādi kreditoriem”, lai izsekotu kreditoru rēķinus un izejošos izdevumus.
 
-[Rēķinu salīdzināšana modulim Kreditori](accounts-payable-invoice-matching.md)
+[Rēķinu salīdzināšana modulim “Parādi kreditoriem”](accounts-payable-invoice-matching.md)
 
 [Kreditoru grāmatošanas metodes](vendor-posting-profiles.md)
 
@@ -100,7 +99,7 @@ Piešķiriet sistēmas definētu maksājuma veidu, piemēram, čeku, elektronisk
 
 [Priekšapmaksas rēķinu un priekšapmaksu apskats](prepayments-invoices-vs-prepayments.md)
 
-[Centralizētie maksājumi modulim Kreditori](centralized-payments-accounts-payable.md)
+[Centralizētie maksājumi modulim “Parādi kreditoriem”](centralized-payments-accounts-payable.md)
 
 ## <a name="settlements"></a>Segšanas darbības
 
@@ -124,13 +123,13 @@ Tālāk esošajās tēmās sniegta informācija par segšanas darbībām. Segša
 
 #### <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā
 
-Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek izstrādāti, dodieties uz [Microsoft Dynamics 365 rīcības plānu](https://roadmap.dynamics.com/). 
+Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek izstrādāti, dodieties uz vietni [Microsoft Dynamics 365 rīcības plāns](https://roadmap.dynamics.com/). 
 
 #### <a name="blogs"></a>Emuāri
 
-Viedokļi, ziņas un cita informācija par moduli Kreditori un citiem risinājumiem ir pieejama [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
+Viedokļi, ziņas un cita informācija par moduli “Parādi kreditoriem” un citiem risinājumiem ir pieejama [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
-[Microsoft Dynamics AX produktu darba grupas emuārā](https://blogs.msdn.microsoft.com/dax/) ir daudz rakstu par moduli Kreditori. Lai gan daži no šiem rakstiem tika rakstīti iepriekšējai moduļa Kreditori versijai, joprojām ir spēkā tie paši jēdzieni, un arī procedūras pašreizējā versijā ir līdzīgas.
+[Microsoft Dynamics AX produktu darba grupas emuārā](https://blogs.msdn.microsoft.com/dax/) ir daudz rakstu par moduli “Parādi kreditoriem”. Lai gan daži no šiem rakstiem tika rakstīti iepriekšējai moduļa “Parādi kreditoriem” versijai, joprojām ir spēkā tie paši jēdzieni, un arī procedūras pašreizējā versijā ir līdzīgas.
 
 [Microsoft Dynamics Operations partneru kopienas emuārā](https://community.dynamics.com/partner/b/operationspartnercommunityblog) Microsoft Dynamics partneriem tiek sniegts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā MBS Operations.
 
@@ -139,8 +138,7 @@ Papildu palīdzībai programmā Finance and Operations ir pieejami uzdevumu ceļ
 
 #### <a name="videos"></a>Videoklipi
 
-Skatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
+Apskatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 
 

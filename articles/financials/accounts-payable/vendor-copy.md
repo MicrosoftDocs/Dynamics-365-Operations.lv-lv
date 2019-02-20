@@ -1,13 +1,13 @@
 ---
-title: "Kreditoru kopēšana, izmantojot koplietotas numuru sērijas"
-description: "Šajā tēmā ir paskaidrots, kā izmantot koplietotas numuru sērijas, lai kreditoru kopētu uz citu juridisko personu, bet saglabātu to pašu kreditora ID."
+title: Kreditoru kopēšana, izmantojot koplietotas numuru sērijas
+description: Šajā tēmā ir paskaidrots, kā izmantot koplietotas numuru sērijas, lai kreditoru kopētu uz citu juridisko personu, bet saglabātu to pašu kreditora ID.
 author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTable
 audience: Application User
 ms.reviewer: shylaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: a8c033caa8a4c4cf579ec166dce7a9982408d816
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 0c492cd76fc9742aa4cff8fe588541cb2c6f1863
-ms.contentlocale: lv-lv
-ms.lasthandoff: 10/11/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302607"
 ---
-
 # <a name="copy-vendors-by-using-shared-number-sequences"></a>Kreditoru kopēšana, izmantojot koplietotas numuru sērijas
 
 [!include [banner](../includes/banner.md)]
@@ -66,4 +65,3 @@ Kreditorus varat arī kopēt, izmantojot PVN reģistrācijas numura meklēšanas
 
 1. Tiek parādīta opcija **Kopēt kreditoru**. Pēc noklusējuma šī opcija ir iestatīta uz **Nē**. Lai šo kreditoru kopētu uz pašreizējo juridisko personu, iestatiet šo opciju uz **Jā**.
 2. Atlasiet **Atlasīt**. Jaunais kreditors ir izveidots.
-

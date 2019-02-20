@@ -1,13 +1,13 @@
 ---
-title: "Pamatlīdzekļu sākumlapa"
-description: "Pamatlīdzekļi ir vērtību krājumi, piemēram, ēkas, transportlīdzekļi, zeme un aprīkojums, kas pieder privātpersonai vai organizācijai."
+title: Pamatlīdzekļu sākumlapa
+description: Pamatlīdzekļi ir vērtību krājumi, piemēram, ēkas, transportlīdzekļi, zeme un aprīkojums, kas pieder privātpersonai vai organizācijai.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 78c70ade5a1ca9794760e72fb94e0735848aae79
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3c49ff15a6ac5dddd64ded4a6e9c755504393346
-ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302575"
 ---
-
 # <a name="fixed-assets-home-page"></a>Pamatlīdzekļu sākumlapa
 
 [!include [banner](../includes/banner.md)]
@@ -42,13 +41,13 @@ Pamatlīdzekļiem var iestatīt un ievadīt informāciju par to iegādi un pēc 
 
 #### <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā
 
-Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek izstrādāti, dodieties uz [Microsoft Dynamics 365 rīcības plānu](https://roadmap.dynamics.com/). 
+Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek izstrādāti, dodieties uz vietni [Microsoft Dynamics 365 rīcības plāns](https://roadmap.dynamics.com/). 
 
 #### <a name="blogs"></a>Emuāri
 
-Viedokļi, ziņas un cita informācija par moduli Pamatlīdzekļi un citiem risinājumiem ir pieejama [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
+Viedokļi, ziņas un cita informācija par moduli “Pamatlīdzekļi” un citiem risinājumiem ir pieejama [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
-[Microsoft Dynamics AX produktu darba grupas emuārā](https://blogs.msdn.microsoft.com/dax/) ir daudz rakstu par moduli Pamatlīdzekļi. Lai gan daži no šiem rakstiem tika rakstīti iepriekšējai moduļa Kreditori versijai, joprojām ir spēkā tie paši jēdzieni, un arī procedūras pašreizējā versijā ir līdzīgas.
+[Microsoft Dynamics AX produktu darba grupas emuārā](https://blogs.msdn.microsoft.com/dax/) ir daudz rakstu par moduli “Pamatlīdzekļi”. Lai gan daži no šiem rakstiem tika rakstīti iepriekšējai moduļa “Parādi kreditoriem” versijai, joprojām ir spēkā tie paši jēdzieni, un arī procedūras pašreizējā versijā ir līdzīgas.
 
 [Microsoft Dynamics Operations partneru kopienas emuārā](https://community.dynamics.com/partner/b/operationspartnercommunityblog) Microsoft Dynamics partneriem tiek sniegts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā MBS Operations.
 
@@ -57,8 +56,7 @@ Papildu palīdzībai programmā Finance and Operations ir pieejami uzdevumu ceļ
 
 #### <a name="videos"></a>Videoklipi
 
-Skatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
+Apskatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 
 
