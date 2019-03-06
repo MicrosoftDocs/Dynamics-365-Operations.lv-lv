@@ -1,13 +1,13 @@
---- 
-title: "ER Izveidot formāta konfigurāciju (2016. gada novembris)"
-description: "Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var izveidot formāta konfigurāciju Elektroniskajos pārskatos (ER)."
+---
+title: ER Izveidot formāta konfigurāciju (2016. gada novembris)
+description: Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var izveidot formāta konfigurāciju Elektroniskajos pārskatos (ER).
 author: NickSelin
 manager: AnnBe
 ms.date: 11/27/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 582e1a2baee805fe6770465edc7958954f638f1c
+ms.sourcegitcommit: 29e19b6d91e5761178627ef2051f3385f5d7cfe5
 ms.translationtype: HT
-ms.sourcegitcommit: 13469aad7fdcefb3a1706eec0527f29968e007eb
-ms.openlocfilehash: 10511fe5b936135471b522fc7152a54686a3be87
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/18/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "377553"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>ER Izveidot formāta konfigurāciju (2016. gada novembris)
 
@@ -35,8 +35,10 @@ Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elek
 2. Noklikšķiniet uz **Pārskatu veidošanas konfigurācijas**.
 3. Kokā atlasiet **Maksājumi (vienkāršotais modelis)**.
 4. Noklikšķiniet uz **Izveidot konfigurāciju**, lai atvērtu nolaižamo dialoglodziņu.
+
  > [!NOTE]
  > Ja neredzat opciju **Izveidot konfigurāciju**, ir jāiespējo noformēšanas režīms lapā **Elektronisko pārskatu veidošanas parametri**. 
+ 
 5. Laukā **Jauns** ievadiet **Uz datu modeli PaymentModel balstīts formātsl**.
 6. Laukā **Nosaukums** ierakstiet **BAKS (UK fiktīvs)**.
 7. Laukā **Apraksts** ierakstiet **BAKS kreditora maksājuma formāts (UK fiktīvs)**.
@@ -44,9 +46,6 @@ Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elek
     * Var definēt noteiktu elektroniskā dokumenta formātu. Atstājiet šo lauku tukšu, ja vēlaties atlasīt formātu izpildes laikā.  
 8. Ievadiet vai atlasiet kādu vērtību laukā **Datu modeļa definīcija**.
 9. Klikšķiniet **Izveidot konfigurāciju**. Tika izveidota jauna konfigurācija. Melnraksta versiju var izmantot, lai saglabātu dizaina formātu elektronisko dokumentu pārvaldībai.  
- > [!NOTE]
- > Ja neredzat opciju **Izveidot konfigurāciju**, ir jāiespējo noformēšanas režīms lapā **Elektronisko pārskatu veidošanas parametri**.
-
 
 ## <a name="design-the-format-of-an-electronic-document"></a>Elektroniskā dokumenta formāta noformēšana
 1. Noklikšķiniet uz **Veidotājs**.
@@ -159,5 +158,4 @@ Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elek
 41. Noklikšķiniet uz **Labi**.
 42. Noklikšķiniet uz **Saglabāt**.
 43. Aizvērt lapu.
-
 
